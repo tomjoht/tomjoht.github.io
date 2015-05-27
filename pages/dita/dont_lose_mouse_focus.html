@@ -1,0 +1,43 @@
+---
+layout: page
+title: "DITA: Avoid losing your mouse\'s focus during transform builds"
+permalink: /dont_lose_mouse_focus/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Avoid losing your mouse's focus during transform builds</h1>
+<div class="body">
+<p class="p">When you initiate a bunch of transformations in OxygenXML, each time Java processes the<br />
+      transform, your mouse loses focus as you see the Java icon appear in your toolbar to start the<br />
+      build and then disappear when it's finished building (at least on a Mac). This can be<br />
+      extremely annoying, especially if you have more than 5 or 6 transforms. You end up just<br />
+      sitting there waiting until you have control with your computer again.</p>
+<p class="p">Fortunately, you can stop Java from taking away your mouse's focus. For DITA-OT/ANT<br />
+      transforms:</p>
+<ol class="ol">
+<li class="li">Edit the transformation scenario (or go to <span class="ph menucascade"><span class="ph uicontrol">Document</span> &gt; <span class="ph uicontrol">Document Transformation</span> &gt; <span class="ph uicontrol">Configure Transformation Scenario(s)</span> &gt; <span class="ph uicontrol">Edit</span></span>).</li>
+<li class="li">Click the <span class="ph uicontrol">Advanced</span> tab.</li>
+<li class="li">In the JVM arguments field, for Macs, add a space after the first parameter, and then<br />
+          <samp class="ph codeph">-Dapple.awt.UIElement=true</samp>. For PCs, add<br />
+          <samp class="ph codeph">-Djava.awt.headless=true</samp>.</li>
+</ol></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</div>
+<div class="relinfo"><strong>Related information</strong></p>
+<div><a class="link external" href="http://www.oxygenxml.com/forum/topic11132.html" target="_blank"> Oxygen XML Forum</a></div>
+</div>
+</div>

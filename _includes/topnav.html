@@ -1,0 +1,103 @@
+
+<div id="masthead">
+<div class="topBannerAd"><a href="https://www.adobe.com/cfusion/tdrc/index.cfm?product=tcs"><img src="{{ "/ads/adobe_top.gif" | prepend: site.baseurl }}" alt="Adobe Tech Comm Suite" /></a></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+
+                <div class="siteLogo"><a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/images/idratherbewriting-site-logo.png" | prepend: site.baseurl }}" alt="Home" /></a>
+                            </div>
+
+            </div>
+        </div>
+
+    </div><!-- /cont -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-spacer"> </div>
+            </div>
+        </div>
+    </div><!-- /cont -->
+
+</div>
+
+<!-- Navigation -->
+<!-- navbar-fixed-top-->
+<nav class="navbar navbar-inverse" role="banner">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+
+                {% for entry in site.data.topnav.topnav %}
+                {% for subcategory in entry.subcategories %}
+
+                {% if subcategory.external_url %}
+                <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+                {% elsif page.url contains subcategory.url %}
+                <li class="active"><a href="{{subcategory.url | prepend: site.baseurl}}">{{subcategory.title}}</a></li>
+
+                {% else %}
+                <li><a href="{{subcategory.url | prepend: site.baseurl | append: site.suffix}}">{{subcategory.title}}</a></li>
+                {% endif %}
+
+                {% endfor %}
+                {% endfor %}
+                
+
+
+                {% for entry in site.data.topnav.topnav_dropdowns %}
+                {% for subcategory in entry.subcategories %}
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ subcategory.title }}<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        {% for subitem in subcategory.items %}
+
+                        {% if subitem.external_url %}
+                        <li><a href="{{subitem.external_url}}" target="_blank">{{subitem.title}}</a></li>
+                        {% elsif page.url contains subitem.url %}
+                        <li class="dropdownActive"><a href="{{subitem.url | prepend: site.baseurl | append: site.suffix}}">{{subitem.title}}</a></li>
+
+                        {% else %}
+                        <li><a href="{{subitem.url | prepend: site.baseurl | append: site.suffix}}">{{subitem.title}}</a></li>
+                        {% endif %}
+
+                        {% endfor %}
+
+                    </ul>
+                </li>
+                {% endfor %}
+                {% endfor %}
+
+
+
+                <li>
+
+<form class="navbar-form navbar-left" role="search" onsubmit="my_search_google()">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" id="my-google-search">
+          </div>
+        </form>
+
+                </li>
+
+
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+<!--
+
+-->

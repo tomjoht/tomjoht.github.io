@@ -1,0 +1,51 @@
+---
+layout: page
+title: 'Java: enums'
+permalink: /java-enums/
+date: 2015-01-01 19:42:11.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>a fixed set of values (constants)</li>
+<li>enums is its own entity type (similar to a class)</li>
+<li>style convention is full caps</li>
+</ul>
+<p>Eclipse example: enums</p>
+<h2>Detailed description</h2>
+<ul>
+<li>use when you want to have a fixed set of values for a specific field. </li>
+</ul>
+<p>Create by going to New > Enum.</p>
+<ul>
+<li>stands for "enumerated" or "enumerations"</li>
+</ul>
+<p>It's almost like a class. An enum isn't just another type of variable for your class. It's a sort of thing that's its own entity, like a class is its own entity.</p>
+<blockquote><p>
+  As Listing 3-11 shows, the declaration of an enumeration consists of the enum keyword, a name for the enumeration, and the values that comprise the enumeration. The values are just names and have no type of their own. That works because we need unique identifiers but don't need a type for each one.</p>
+<p>  The value of enumerations is that they are type-safe (meaning that it can't be confused with another type—enums used to be created with integers, so confusing an enum with an integer was a real problem). Without enumerations, we'd have to set up constants in a different way—usually with integers, as shown in Listing 3-12.</p>
+<p>  Listing 3-12. Constants to define directions</p>
+<p>  public static final int NORTH = 0;<br />
+  public static final int EAST = 1;<br />
+  public static final int SOUTH = 2;<br />
+  public static final int WEST = 3;
+</p></blockquote>
+<pre><code>-- Java 7 for absolute beginners
+</code></pre>

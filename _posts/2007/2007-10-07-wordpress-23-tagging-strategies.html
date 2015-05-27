@@ -1,0 +1,73 @@
+---
+layout: post
+title: Implementing WordPress 2.3's New Tagging Feature
+date: 2007-10-07 11:51:52.000000000 -07:00
+categories:
+- blogging
+- general
+- wordpress
+tags:
+- index
+- plugins
+- Related Posts plugin
+- Structured Tag Library plugin
+- tag cloud
+- Tag Managing Thing plugin
+- tags
+- usability
+status: publish
+type: post
+published: true
+meta:
+  _kramer_ref_failed: http://ddeyeas.com/map.html
+  sfw_comment_form_password: N9eFRshnSxix
+  _sexybookmarks_permaHash: fab0da8293ec3a1d1602e4209408836f
+  dcssb_short_url: http://bit.ly/LXWMs1
+  _kramer_ref_ping: http://lorelle.wordpress.com/2007/11/19/wordcamp-israel-wordpress-tips-talk/
+  _edit_last: '1'
+  _sexybookmarks_shortUrl: http://tinyurl.com/45kqoyx
+  _kramer_synch: '1216091531'
+  _wp_rp_related_posts_query_result_cache_expiration: '1421714080'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"3012";s:5:"score";s:18:"227.10592502621589";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:3:"601";s:5:"score";s:18:"143.05744350244666";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:3:"974";s:5:"score";s:17:"141.2629565707907";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:17:"123.0115367400075";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:18:"120.62199811644894";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:18:"110.64699359734209";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:18:"107.88883049185102";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"10156";s:5:"score";s:18:"103.47199609243398";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3047";s:5:"score";s:17:"99.81212223616726";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2313";s:5:"score";s:17:"97.21132629923804";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"3012";s:5:"score";s:18:"225.45620482262527";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:3:"601";s:5:"score";s:18:"142.17109288479526";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:3:"974";s:5:"score";s:18:"140.46168732564757";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:18:"122.34389437306814";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:18:"119.96602307729191";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:18:"110.02855949449653";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:17:"107.3039647289692";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"10156";s:5:"score";s:18:"102.56610640533177";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3047";s:5:"score";s:17:"98.73977687607803";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2313";s:5:"score";s:17:"96.58269511398441";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"1453";s:5:"score";s:17:"96.03084897124783";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"1431";s:5:"score";s:17:"95.98050952615496";}}
+  _wp_rp_image: '21183'
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"3012";s:5:"score";s:17:"227.1487547987616";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:3:"601";s:5:"score";s:18:"143.07453504386623";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:3:"974";s:5:"score";s:18:"141.28311681865762";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:18:"123.02449284572879";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:18:"120.63905678764715";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:18:"110.65891584419933";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:18:"107.90382144519285";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"10156";s:5:"score";s:18:"103.48233468145717";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3047";s:5:"score";s:17:"99.82504547183147";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2313";s:5:"score";s:17:"97.22631725281042";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"1431";s:5:"score";s:17:"96.71262103149434";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"1453";s:5:"score";s:17:"96.56230829250347";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:3:"868";s:5:"score";s:17:"94.60319681189205";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:3:"687";s:5:"score";s:17:"92.30839190619837";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:3:"593";s:5:"score";s:17:"92.30839190619837";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:4:"2390";s:5:"score";s:16:"92.2858149488924";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:4:"6611";s:5:"score";s:17:"88.67533459187797";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:3:"936";s:5:"score";s:15:"87.878381419677";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:17:"87.81868665359909";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:4:"4680";s:5:"score";s:17:"86.85501047980122";}}
+  fsb_social_facebook: '0'
+  fsb_social_twitter: '0'
+  fsb_social_linkedin: '0'
+  fsb_social_google: '0'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I've been waiting for tags to come out for a while. Now that WordPress 2.3 (Dexter) is here, I'm trying to integrate them into my site to the fullest extent. The following image shows the new Tag field that appears below posts.</p>
+<p><img src="/images/tags1.gif" alt="Tags" /></p>
+<h3>Tags vs. Categories</h3>
+<p>First, to get the concept of tags right, think of tags as index words, and categories more like chapter headings. <a href="http://lorelle.wordpress.com/2007/09/21/tags-arrive-on-wordpresscom-blogs/" target="_blank">Lorelle</a> explains,</p>
+<blockquote><p>Tags are like your blog’s index. They are keywords that represent the micro-categorization of your blog’s content. To work effectively, they need to be words that people search for, called search terms.</p></blockquote>
+<p>For each post you type, index the keywords into the tag field. For an example, see the tags at the bottom of this post in contrast with the post's category.</p>
+<p><!--more--></p>
+<h3>Tags Are Not Automatic</h3>
+<p>I thought that after upgrading to WordPress 2.3 and adding some tags in the Tag field, they would automatically appear in my post. Actually, tags only appear after you add the tag call (php the_tags) to your singlepost.php page in your theme editor.</p>
+<p><strong>Note:</strong> If your theme uses the old loop, tags won't work at all. So if you add the tag template tag to your singlepost.php page and you still don't see tags, check out your <a href="http://codex.wordpress.org/The_Loop" target="_blank">loop</a>. See this <a href="http://www.twofishcreative.com/michael/blog/2007/09/30/wordpress-23-the-connections-theme-and-tags/" target="_blank">post from echo</a> about resolving this problem.</p>
+<p>Actually many themes and plugins themselves aren't compatible with 2.3. If you encounter a <a href="http://wordpress.org/support/topic/135564" target="_blank">database</a> <a title="error" href="http://www.idratherbewriting.com/wp-content/uploads/2007/10/error.gif">error,</a> you can either start tweaking your theme by examining the code with the latest Kubrick 2.3 version theme, or just look for <a href="http://codex.wordpress.org/Themes/Theme_Compatibility/2.3" target="_blank">themes already compatible with 2.3</a>.</p>
+<p>Since I'd already been looking for a new theme, I used this upgrade as an excuse to implement the <a href="http://www.blogohblog.com/wordpress-theme-limau-orange/" target="_blank">Limau Orange theme</a>. (Do you like it, by the way?)<a title="error" href="http://www.idratherbewriting.com/wp-content/uploads/2007/10/error.gif"><br />
+</a></p>
+<h3>Structure Your Tags</h3>
+<p>Once you start applying tags, you'll soon want to bring more structure and order to the tagging experience. You don't want to repeat the same tags with synonyms or altered word spellings. You want to know what tags you've previously applied so your tagging is consistent.</p>
+<p>The <a href="http://poplarware.com/tagplugin.html" target="_blank">Structured Tag Library plugin</a> brings this functionality to WordPress. It shows you all the previous tags you've applied and allows you to apply them to your current post. The following image shows the Advanced Tag Entry functionality this plugin adds.</p>
+<p><a title="Tag entry" href="http://www.idratherbewriting.com/wp-content/uploads/2007/10/tagentry.gif"><img src="/images/tagentry1.gif" alt="Tag entry" /></a></p>
+<p>As you can see, you can select existing tags from a drop-down list. You can also remove tags from your list.</p>
+<p>The Tag field represents how the tag is displayed, whereas the Slug field is how WordPress stores the tag's name. Tag names can't have spaces in them, so while a tag may be named "WordPress plugins," the slug will read "wordpress-plugins."</p>
+<p>You can manage tags conveniently through the <a href="http://wordpress.org/extend/plugins/tag-managing-thing/" target="_blank">Tag Managing Thing plugin</a>.</p>
+<h3>Related Posts Based on Tags</h3>
+<p>Through the <a href="http://wordpress.org/extend/plugins/wordpress-23-related-posts-plugin/" target="_blank">Related Posts plugin</a>, you can display related posts based on common tags (thanks Lorelle for pointing out this plugin and the previous). However, if you have 300 plus posts already written, going back through them to add tags can be a gargantuan task. I'm planning to pace myself and do a little each day. Until all posts are tagged, I'll just leave in my <a href="http://wasabi.pbwiki.com/Related%20Entries" target="_blank">WASABI Related Entries</a> plugin.</p>
+<h3>A Tag Index</h3>
+<p>I'm not fond of the tag cloud. It looks scattered and cluttered (although intriguing in shape). However, I do value the index-style of words at the back of every book. You can reformat the tag cloud into a straight list and put it on its own page. The Codex <a href="http://codex.wordpress.org/Template_Tags/wp_tag_cloud" target="_blank">explains how to do this</a>.</p>
+<p>Creating the tag cloud archive (which you can see on my <a href="http://idratherbewriting.com/tag-index">Tag Index page</a>) requires you create a page template with the wp-tag-cloud call on it. You can then style it by adding the .wp-tag-cloud li class to your stylesheet. The way I've implemented it, I consider it a keyword index for my site. More frequent tags appear larger in size.</p>
+<p>I'm not sure if anyone looks at a tag index the way they look at a book's index, but perhaps they will. Overall, I'm hoping tags will provide a way of making my buried content findable. Ninety percent of readers look only at the latest posts on the first page, even if you've written a thousand previous ones. If tags can integrate</p>

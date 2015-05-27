@@ -1,0 +1,335 @@
+---
+layout: page
+title: 'DITA: Specializations (task, concept, reference)?'
+permalink: /specializations/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3770870692'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Specializations (task, concept, reference)?</h1>
+<div class="body">
+<p class="shortdesc">If you want to create rules that enforce a specific structure to your content, you can<br />
+    use one of the existing DITA specializations (concept, task, reference) or create your own<br />
+    specializations. However, I don't recommend using DITA's specializations unless your writers<br />
+    need it.</p>
+<p class="p toc">
+<div class="section">
+<h2 class="title sectiontitle">Rethinking specializations</h2>
+<p class="p">When I first started authoring in DITA, I thought the specializations were DITA requirements,<br />
+        or at least best practices. I ended up trying to make my content fit into concept and task<br />
+        topic types, often implementing complicated nesting, overloading certain elements with<br />
+        unintended info, and going out of my way to implement other workarounds to accommodate these<br />
+        topic types.</p>
+<p class="p">At some point, I realized that these specializations didn't really fit my information model. In fact, I don't think pouring content into task or concept models is a particularly good approach to creating content. Writers end up fragmenting their content into these different information types, dividing content that should be together into a million tiny little topics.</p>
+<p class="p">I instead prefer to use the base topic type rather than these specializations. Instead of using cookie cutter shapes to try to make information fit into, I think it's better to analyze the goal and construct the information users need appropriately. You can still emphasize a task-based appraoch without enforcing a structure that makes it cumbersome to add more than one list or an extended explanation at the beginning.</p>
+<p class="p">Additionally, using the base topic type is much easier to work with if you're leveraging any jQuery plugins. It also simplifies DITA authoring considerably, and results in a better output. Also, there is no research ever done to support DITA's specialized information types as being any more instructive than a general task-based approach. </p>
+<p class="p">So, save yourself some time. Skip the specializations and just write content with an action-oriented approach. Your DITA experience will be much less frustrating, and rather than trying to sort out the logic that restricts certain elements and their orders, trying to force-fit it to work with your content, you can instead focus on creating user-friendly content.</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Concept topic types</h2>
+<p class="p">Concepts are topic types for any information that doesn't involve task lists or reference<br />
+      information. Ideally you use <samp class="ph codeph">concept</samp> elements to explain concepts, ideas,<br />
+      overviews, workflows, and the like.</p>
+<p class="p">The basic structure of a concept topic looks like this:</p>
+<div class="p">
+<pre class="pre codeblock">- title
+- shortdesc
+- conbody
+    - p (optional)
+    - section
+        - title
+    - p
+    - image
+    - codeblock
+    - etc.</pre>
+</p></div>
+<p class="p">Here's an actual sample:</p>
+<pre class="pre codeblock">&lt;title&gt;Keeping a clean house&lt;/title&gt;
+&lt;shortdesc&gt;Cleaning your house helps make your home comfortable and pleasant. 
+There are lots of strategies to consider when trying to maintain a clean home.&lt;/shortdesc&gt;
+ &lt;conbody&gt;
+  &lt;section&gt;&lt;title&gt;A place for everything&lt;/title&gt;
+  &lt;p&gt;The organizing principle of a clean home is to establish a place for everything. 
+Without a place, you cannot establish order in your house.&lt;/p&gt;
+  &lt;/section&gt;
+  
+  &lt;section&gt;&lt;title&gt;Everything in its place&lt;/title&gt;
+  &lt;p&gt;You must also define a strategy for putting everything its proper place.&lt;/p&gt;
+  &lt;/section&gt;
+ &lt;/conbody&gt;</pre>
+<p class="p">With concepts, each subsection is a <samp class="ph codeph">section</samp> element. You can't nest<br />
+        <samp class="ph codeph">section</samp> elements with each other, but you can nest<br />
+        <samp class="ph codeph">concept</samp> elements inside each other. If you really need a third<br />
+        level, and you don't want to nest <samp class="ph codeph">concept</samp> elements, you can add a<br />
+        paragraph with an <samp class="ph codeph">outputclass</samp> that looks like a third level heading.<br />
+        (See <a class="xref" href="/combining_topics" title="You can combine topics into longer articles using the chunk attribute on your map. This issue usually crops up if you're using the specialized topic types (task, concept) and you're trying to combine information.">DITA: Combining topics</a>.)</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Task topic types</h2>
+<p class="p">Task topic types have robust options for including information, results, and other<br />
+        details with each of the steps.</p>
+<p class="p"> Here's the element structure of the task. This outline shows what tags are allowed at each<br />
+          level.</p>
+<div class="p">
+<pre class="pre codeblock">-task
+-title
+-shortdesc
+- taskbody
+     - prereq
+     - context
+     - stepsection
+     - steps
+          - step
+               -cmd
+               - info
+                    - note
+                    - image
+                    - codeblock
+               - stepxmp
+               - stepresult
+               - choices
+               - substeps
+     - result
+     - example
+     - postreq</pre>
+</p></div>
+<div class="p">Here's a full working example of a<br />
+          task:
+<pre class="pre codeblock">&lt;task id="task_123"&gt;
+    
+    &lt;title&gt;How to wash dishes&lt;/title&gt;
+    
+    &lt;shortdesc&gt;Washing dishes helps keep your kitchen clean and orderly.&lt;/shortdesc&gt;  
+    
+    &lt;prereq&gt;Before doing the dishes, you will need soap and gloves.&lt;/prereq&gt;
+    
+    &lt;taskbody&gt;
+        
+        &lt;context&gt;
+            &lt;p&gt;Washing dishes properly reduces bacteria and frees up the dishware available for you for eating. If you approach dish washing in a logical, efficient manner, the task can be enjoyable and fun. &lt;/p&gt;
+        &lt;/context&gt;
+   
+        &lt;steps&gt;
+            &lt;step&gt;
+                &lt;cmd&gt;Put on headphones with appropriate entertainment options.&lt;/cmd&gt;
+                &lt;info&gt;Some people find that doing dishes in silence is therapeutic, but most do not. Adding an entertainment option can make dishes significantly more of an escape.&lt;/info&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Fill the sink with warm water.&lt;/cmd&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Get the scrubby warm and soapy.&lt;/cmd&gt;
+                &lt;info&gt;
+                    &lt;note type="note"&gt;Make sure you don't use an abrasive scrubby for delicate glassware.&lt;/note&gt;
+                &lt;/info&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Put on rubber gloves.&lt;/cmd&gt;
+                &lt;stepxmp&gt;
+                    For example, you might use yellow Latex gloves.
+                &lt;/stepxmp&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Scrub clean the dishes in soapy water.&lt;/cmd&gt;
+                &lt;stepresult&gt;The dishes will be clean but soapy.&lt;/stepresult&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Rinse the dishes by doing one of the following:&lt;/cmd&gt;
+                &lt;choices&gt;
+                    &lt;choice&gt;Spray them with a sprayer.&lt;/choice&gt;
+                    &lt;choice&gt;Dunk them in a separate division of the sink that contains clean water.&lt;/choice&gt;
+                &lt;/choices&gt;
+            &lt;/step&gt;
+            
+            &lt;step importance="optional"&gt;
+                &lt;cmd&gt;Dry the dishes with a rag.&lt;/cmd&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Put away the dishes in the appropriate cupboards.&lt;/cmd&gt;
+                &lt;info&gt;
+                    &lt;image href="cupboards.png" placement="break"/&gt;
+                &lt;/info&gt;
+            &lt;/step&gt;
+            
+            &lt;step&gt;
+                &lt;cmd&gt;Stake similar dishes inside each other for maximum space efficiency.&lt;/cmd&gt;
+                &lt;substeps&gt;
+                    &lt;substep&gt;
+                        &lt;cmd&gt;Nest the cups inside each other.&lt;/cmd&gt;
+                    &lt;/substep&gt;
+                    &lt;substep&gt;
+                        &lt;cmd&gt;Stack the plates on top of each other.&lt;/cmd&gt;
+                    &lt;/substep&gt;
+                    &lt;substep&gt;
+                        &lt;cmd&gt;Spoon the spoons, and nest the forks as well.&lt;/cmd&gt;
+                    &lt;/substep&gt;
+                &lt;/substeps&gt;
+            &lt;/step&gt;
+            
+        &lt;/steps&gt;
+        
+        &lt;result&gt;Congratulations, you've totally finishes doing the dishes. Now make sure that your spouse knows how hard you've worked.&lt;/result&gt;
+        
+        &lt;postreq&gt;Now you're ready to wash the counters and mop the floors.&lt;/postreq&gt;
+        
+    &lt;/taskbody&gt;
+    
+&lt;/task&gt;</pre>
+</div>
+<p class="p">As you're working in Oxygen, if you're in the Text view, type &lt; and wait for the prompt to<br />
+          show you the available tags at that level. You can use your arrow keys to move up and down to see<br />
+          descriptions of each of the elements.</p>
+<p class="p">Most of the tags are self-explanatory, but a few are worth explaining. The <samp class="ph codeph">cmd</samp><br />
+          element is where the heart of the instruction lives -- it's the action verb for the<br />
+          instruction. The <samp class="ph codeph">cmd</samp> element is a single block level element and<br />
+          doesn't allow many other elements inside it (but does allow <samp class="ph codeph">image</samp>,<br />
+          <samp class="ph codeph">codeph</samp>, <samp class="ph codeph">menucascade</samp>, <samp class="ph codeph">uicontrol</samp>,<br />
+          and other elements. </p>
+<p class="p">Any time you need to elaborate more with additional information, notes, code samples, or other<br />
+          details, add this additional information inside an <samp class="ph codeph">info</samp> element after<br />
+          the <samp class="ph codeph">cmd</samp> element. You can add many elements inside the<br />
+          <samp class="ph codeph">info</samp> element, such as <samp class="ph codeph">p</samp>, <samp class="ph codeph">image</samp>,<br />
+          <samp class="ph codeph">codeblock</samp>, and more.</p>
+<p class="p">If you use the <samp class="ph codeph">importance="optional"</samp> attribute on a <samp class="ph codeph">step</samp><br />
+          element, the output will show (Optional) before the step.</p>
+<p class="p">If you have multiple options for a step, use the <samp class="ph codeph">choices</samp> element.</p>
+</div>
+<div class="section">
+<h2 class="title sectiontitle">Reference</h2>
+<p class="p">The reference topic type is for storing reference information, such as extensive<br />
+        tables, lists, or other information that is used as support for a task. Reference topics are<br />
+        also designed for API information.</p>
+<p class="p">There are some tags specific to reference topics that aren't available elsewhere, such as a<br />
+          <samp class="ph codeph">refsyn</samp> and properties table. The following examples come from the <a class="xref external" href="http://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/dita_reference_topic.html#dita_ref_topic" target="_blank">1.2 DITA spec on the reference topic type</a>.</p>
+<div class="p">Here's an example of how to use the <samp class="ph codeph">refsyn</samp><br />
+          element:
+<pre class="pre codeblock">&lt;refsyn&gt;
+    &lt;synph&gt;
+      &lt;var&gt;object&lt;/var&gt;&lt;delim&gt;.&lt;/delim&gt;&lt;kwd&gt;Font&lt;/kwd&gt;&lt;delim&gt;.&lt;/delim&gt;
+      &lt;kwd&gt;Bold&lt;/kwd&gt;&lt;delim&gt; = &lt;/delim&gt;&lt;var&gt;trueorfalse&lt;/var&gt;
+    &lt;/synph&gt;
+  &lt;/refsyn&gt;</pre>
+</div>
+<div class="p">Here's a sample properties<br />
+          table:
+<pre class="pre codeblock">&lt;properties&gt;
+&lt;property&gt;         
+      &lt;prophead&gt;
+          &lt;proptypehd&gt;Oil type&lt;/proptypehd&gt;
+          &lt;propvaluehd&gt;Oil brand&lt;/propvaluehd&gt;
+          &lt;propdeschd&gt;Appropriate use&lt;/propdeschd&gt;
+      &lt;/prophead&gt;
+     &lt;property&gt;
+      &lt;proptype&gt;Primary oil&lt;/proptype&gt;
+      &lt;propvalue&gt;A1X&lt;propvalue&gt;
+      &lt;propdesc&gt;Appropriate for one-cylinder engines&lt;/propdesc&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+      &lt;proptype&gt;Secondary oil&lt;/proptype&gt;
+      &lt;propvalue&gt;B2Z&lt;/propvalue&gt;
+      &lt;propdesc&gt;Appropriate for two-cylinder engines&lt;/propdesc&gt;
+    &lt;/property&gt;
+  &lt;/properties&gt;</pre>
+</div>
+<p class="p">I don't use reference topics very much, but it may be that my content doesn't seem to call for<br />
+          it. I don't quite get what the properties table provides that a regular table doesn't provide.<br />
+          The only difference seems that you can generate a table with different styles for the<br />
+          different columns, and therefore customize its appearance to look different from that of other<br />
+          tables.</p>
+</div>
+<div class="section">
+<h2 class="title sectiontitle">Glossary topic types</h2>
+<p class="p">Creating a glossary involves creating <samp class="ph codeph">glossentry</samp> topics, referencing<br />
+        the <samp class="ph codeph">glossentry</samp> topics via keys, and compiling a glossary of terms in a DITA<br />
+        map.</p>
+<div class="p">First create each glossary entry topic using the <samp class="ph codeph">glossentry</samp> topic type. The<br />
+          glossentry topic requires just two elements:</p>
+<pre class="pre codeblock">&lt;glossterm&gt;OT&lt;/glossterm&gt;
+&lt;glossdef&gt;Open Toolkit -- This is what processes DITA into the various outputs.&lt;/glossdef&gt;</pre>
+</div>
+<p class="p">There are additional elements available in the <samp class="ph codeph">glossBody</samp> tag if needed.</p>
+<div class="p">Next, create a ditamap file that will contain all of your glossary entry topics. You could put<br />
+          this in your main ditamap, but it's easier to manage it if the glossary map is separated into its<br />
+          own file. Add keys for each of the terms. The keys are like short references for the glossary<br />
+          reference.
+<pre class="pre codeblock">&lt;map&gt;
+ &lt;title&gt;Glossary&lt;/title&gt;
+ 
+ &lt;glossref href="ot.dita" keys="opentoolkit" /&gt;
+ &lt;glossref href="ide.dita" keys="ide"/&gt;
+
+&lt;/map&gt;</pre>
+</div>
+<div class="p">In your main map file, reference your glossary ditamap. In this example, my ditamap containing<br />
+          all the glossary entries is called<br />
+          glossary_entries.ditamap:
+<pre class="pre codeblock"> &lt;mapref href="glossary_entries.ditamap" processing-role="resource-only"/&gt;</pre>
+</div>
+<div class="p">In regular topics where you want to link to the glossary entry, refer to the glossary entry<br />
+          like this:</p>
+<pre class="pre codeblock">  &lt;p&gt;You can use the &lt;term keyref="opentoolkit"&gt;Open Toolkit&lt;/term&gt; to process your dita files.&lt;/p&gt;</pre>
+</div>
+<p class="p">The term will have a link to the glossary entry topic and also show a tooltip with the glossary<br />
+          definition.</p>
+<p class="p">To compile a list of glossary terms in your main table of contents, add references to the<br />
+          glossary entry topics just like any normal topic references: </p>
+<div class="p">
+<pre class="pre codeblock"> &lt;topichead navtitle="Glossary" chunk="to-content"&gt;
+  &lt;topicref href="ot.dita"/&gt;
+  &lt;topicref href="ide.dita"/&gt;
+ &lt;/topichead&gt;</pre>
+</p></div>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Topic size limitations</h2>
+<p class="p">Topics should be substantial enough to help a users complete his or her goal. However, there<br />
+        are a few topic size limitations with DITA that might seem to limit your ability to put all the information you need in a topic.</p>
+<p class="p"><strong class="ph b">Task limitations</strong>. For task types, you can have only one task list per <samp class="ph codeph">task</samp> element. If you have<br />
+          multiple task lists, you have the following options:</p>
+<ul class="ul">
+<li class="li">Split the tasks into separate files. If warranted, combine the tasks through your map<br />
+              file. If the tasks are each pretty meaty, leave them as separate files.</li>
+<li class="li">Nest <samp class="ph codeph">task</samp> elements inside of each other. This might be useful if you<br />
+              have a process that involves multiple subtasks and each of the subtasks are short. See<br />
+              <a class="xref" href="/combining_topics" title="You can combine topics into longer articles using the chunk attribute on your map. This issue usually crops up if you're using the specialized topic types (task, concept) and you're trying to combine information.">DITA: Combining topics</a> for details.</li>
+<li class="li">Use a <samp class="ph codeph">concept</samp> type topic and use regular <samp class="ph codeph">ol</samp> and<br />
+              <samp class="ph codeph">li</samp> list formatting rather than using steps. If your lists are light<br />
+              and short, the traditional list formatting might work just fine.</li>
+</ul>
+<p class="p"><strong class="ph b">Concept limitations</strong>. For concepts, you can have an unlimited number of <samp class="ph codeph">section</samp> elements per topic.<br />
+          However, you can't include nested sections (third-level headings). If you need a<br />
+          nested section, here are your options:</p>
+<ul class="ul" id="topic_tkf_1dq_bq__ul_r25_rpj_s4">
+<li class="li">Nest <samp class="ph codeph">concept</samp> elements inside each other.</li>
+<li class="li">Create separate concept files and combine them through a map.</li>
+<li class="li">Add an <samp class="ph codeph">outputclass</samp> attribute to a <samp class="ph codeph">p</samp> element (and<br />
+              select an output class that you will style in your webhelp stylesheet to look like a<br />
+              heading level 3),</li>
+</ul></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_introduction">Introduction</a></div>
+</div>
+<div class="relinfo"><strong>Related information</strong></p>
+<div><a class="link external" href="http://docs.oasis-open.org/dita/v1.2/os/spec/langref/abbreviated-form.html" target="_blank">http://docs.oasis-open.org/dita/v1.2/os/spec/langref/abbreviated-form.html</a></div>
+</div>
+</div>

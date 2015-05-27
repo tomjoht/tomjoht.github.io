@@ -1,0 +1,177 @@
+---
+layout: page
+title: 'Java: Variables'
+permalink: /java-variables/
+date: 2015-01-01 20:31:13.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>Variables are referred to as fields in Javadoc</li>
+<li>Variables include the data type (int, String) before the variable name</li>
+<li>Variables are only valid within the block <code>{}</code> in which they appear (their scope)</li>
+</ul>
+<p>Eclipse example: variables</p>
+<p>There are three parts to declaring a variable: data type, variable name, initial value.</p>
+<p>Example:</p>
+<pre><code>int newVariable = 10;
+</code></pre>
+<p>If you're declaring a primitive, the data type is spelled in all lower-case: int, double, float, boolean, char.</p>
+<p>If you're creating an complex object, the data type is uppercase.</p>
+<p>example:</p>
+<pre><code>Data newDate = new Date();
+</code></pre>
+<p>You don't have to initialize the value here, though. You could separate the two activities, just like you do with primitives.</p>
+<pre><code>Data newDate; 
+
+new Date(); 
+</code></pre>
+<p>The <code>Date()</code> part is the constructor for this class. The <code>new</code> keyword precedes this constructor.</p>
+<p>Some constructors require parameters; others do not. The API documentation specifies.</p>
+<p>If you don't initialize it, the variable will have a value of null.</p>
+<pre><code>Data newDate;
+</code></pre>
+<p>Variables have validity only within the scope they are declared. If you declare the variable inside a code block, the variable will only be valid inside the code block.</p>
+<p>If you want variables to be available to multiple methods or functions, you can use a class variable, aka, a field. A variable declared outside a function will belong to the entire class. in that case, it's called a field (aka class variable). The Javadocs refers to this as a field.</p>
+<p>But if the variable is just declared within the scope of a method, between the block <code>{}</code>, it's a local variable.</p>
+<p>If the variable is declared for an object instantiated from a class, it's called an "instance variable."</p>
+<h2>Numeric data types</h2>
+<p>There are a set number of data types for numeric primitives: byte, short, int, long, float, double, BigDecimal.</p>
+<p>int i = 10;<br />
+float f = 150.5f;<br />
+double d= 150.5d;</p>
+<p>For the float and double, you include f and d at the end of the number's value.</p>
+<h2>BigDecimal</h2>
+<p>The <code>BicDecimal</code> class is used when you need precise values. You use strings for the values of Big Decimals.</p>
+<pre><code>double d = 1115.27;
+String ds =
+</code></pre>
+<h2>Variable types</h2>
+<p><strong>fields</strong> - variable that is in scope for the whole class<br />
+<strong>instance variables</strong> - variables available to objects of a class -- they differ based on the instance; the opposite is a class variable<br />
+<strong>class variables</strong> - variables available to the class, not to any objects<br />
+<strong>local variables</strong> - a variable declared inside the body of a method -- unavailable outside the scope of the method</p>
+<p>When you have variables within a class, they're referred to as "fields" or "instance variables."</p>
+<h2>public static final</h2>
+<p>Suppose we have the following setter and getter methods:</p>
+<pre><code>class Child {  
+    private double childAge;  
+    public void setAge (double newAge) {  
+        childAge = newAge;  
+    }  
+    public double getAge() {  
+        return childAge;  
+    }  
+} 
+</code></pre>
+<p>In this example, here's what the following are called:</p>
+<ul>
+<li>childAge: instance variable or object field</li>
+<li>newAge: local variable</li>
+</ul>
+<p>"A field is valid (in scope) throughout the whole class/object. A field is in fact a kind of variable, but it applies to the whole class/object."</p>
+<p>"A class variable is what you call a static field. That has scope throughout the whole class, and is accessible from any method of that class, static or instance (non-static).</p>
+<p>An instance field is not accessible from any static parts of the class."</p>
+<pre><code>public class Kettle
+{
+   private int temperature;
+
+   public void becomeHotter(int degrees)
+   {
+      int heat = temperature + degrees;
+      temperature = heat;
+   }
+
+   public int getTemperature()
+   {
+      return temperature;
+   }
+. . .
+}
+</code></pre>
+<p>"The variable temperature is declared inside the class and outside the methods; you call it a field. It is accessible and in scope in the two methods shown.<br />
+The "variable" degrees is "declared" inside the () for the becomeHotter() method; it is a parameter, and is not a field. Its scope is that method.<br />
+The variable heat is declared inside the becomeHotter method. It is a local variable and its scope is from "int heat . . ." to the end of the method. It is not a field."</p>
+<h2>Access modifiers</h2>
+<p>Best practice is to make the fields of a class private and use getter and setter methods for objects to access the field values.</p>
+<h2>Best practices with access modifiers for fields</h2>
+<p>You usually want to avoid using <code>public</code> before string names. This protects you from users changing the variable names and screwing up your code.</p>
+<p>For example, suppose your class were the following:</p>
+<pre><code>public class Hamster {
+    public int furCount = "2000";
+}
+</code></pre>
+<p>Then someone theoretically could change it by doing this:</p>
+<pre><code>Hamster.furCount = '3000';
+</code></pre>
+<p>Therefore, Java requires you to create an object from Hamster first and then set <code>furCount</code>, like this:</p>
+<pre><code>Hamster hammy = new Hamster();
+hammy.furCount = 30;
+</code></pre>
+<p>This way I'm only changing the instance variable for <code>hammy</code>, not for <code>Hamster</code>.</p>
+<p>[I'm actually not sure if I got this right -- need to follow up and check.]</p>
+<hr />
+<p>If you do make your variables public, you often use <code>public static final</code> to make them public but lock them down in a specific state. This is a constant. The constant is made in uppercase.</p>
+<pre><code>public final static in ID = 8;
+</code></pre>
+<p>Suppose I have a class called Plant. And in that class, I declare an instance variable called <code>name</code>.</p>
+<pre><code>public class Plant {
+
+    public String name;
+
+}
+</code></pre>
+<p>In my main method, I can access that variable through dot notation like this: class.variable:</p>
+<pre><code>public class App {
+
+public static void main(String[] args) {    
+    Plant plant = new Plant();
+    plant.name = "mark";
+    System.out.println("plant name: " + plant.name);
+
+}
+
+}
+</code></pre>
+<p>Now suppose I create a constructor in my class that sets the value of the instance variable. A constructor, remember, is named the same as the class:</p>
+<pre><code>public class Plant {
+
+    public String name;
+
+
+    public Plant () {
+    this.name = "Freddy";
+    }
+}
+</code></pre>
+<p>Now when I instantiate the class, it will use the value set for the instance variable:</p>
+<pre><code>public class App {
+
+public static void main(String[] args) {    
+    Plant plant = new Plant();
+    plant.name = "mark";    
+    System.out.println("plant name: " + plant.name); // 
+Mark
+}
+
+}
+</code></pre>
+<p>With instance variables, you usually want to encapsulate the variables so that people can't directly change their values. Instead, you use methods that control how people can access and use/define the values.</p>
+<p><code>this</code> is just a shortcut for the name.</p>

@@ -1,0 +1,94 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Introduction
+      items:
+        - title: DITA QRG introduction
+          url: /ditaqrg/
+        - title: Hello World tutorial
+          url: /hello_world/
+        - title: File and folder organization
+          url: /folder_organization/
+        - title: Specializations (task, concept, reference)
+          url: /specializations/
+        - title: Combining topics
+          url: /combining_topics/
+        - title: Converting HTML to DITA
+          url: /convert_html_to_dita/
+    - title: Page-level elements
+      items:
+        - title: Code
+          url: /code/
+        - title: Inline formatting
+          url: /inline_formatting/
+        - title: Tables
+          url: /tables/
+        - title: Images
+          url: /images_dita/
+        - title: Notes
+          url: /notes/
+        - title: Shortdesc
+          url: /short_desc/
+        - title: Variables
+          url: /variables/
+        - title: Video
+          url: /video_dita/
+    - title: Linking
+      items:
+        - title: Inline links
+          url: /inline_links/
+        - title: Related links
+          url: /related_links/
+        - title: Keyref links
+          url: /keyref_links/
+        - title: Relationship tables
+          url: /relationship_tables/
+        - title: Cross references
+          url: /cross_references/
+        - title: Map file (TOC)
+          url: /mapfiles/
+        - title: References to non-DITA files
+          url: /references_to_non_dita_files/
+        - title: Index entries
+          url: /indexes/
+        - title: Acronyms and glossary terms
+          url: /acronyms_and_glossary/
+    - title: Content re-use
+      items:
+        - title: Conditional profiling
+          url: /conditional_profiling/
+        - title: Conref (re-use of content)
+          url: /conref/
+        - title: Ditaval files (filtering attributes)
+          url: /ditaval/
+    - title: Publishing
+      items:
+        - title: Webhelp skins
+          url: /webhelp_skins/
+        - title: Webhelp with Feedback
+          url: /webhelp_with_feedback/
+        - title: Comments
+          url: /comments/
+        - title: Handling SME review
+          url: /sme_review/
+        - title: Add a menu selector
+          url: /add_menu_selector/
+        - title: Import DITA into WordPress
+          url: /import_dita_into_wordpress/
+        - title: Add a show/hide toggle
+          url: /jquery_show_hide/
+        - title: Avoid losing focus during transforms
+          url: /dont_lose_mouse_focus/
+        - title: Author in Markdown, publish with DITA
+          url: /md2html2ditav2/
+        - title: Embed child pages in parent
+          url: /rellinks/
+        - title: Add expanding side pane
+          url: /jquery_side_panel/
+        - title: Create fixed width outputs
+          url: /fixed_width_oxygen/
+        - title: Add dynamic content filter
+          url: /jquery_content_selector/
+        - title: Add a mini-toc on a page
+          url: /add_mini_toc/

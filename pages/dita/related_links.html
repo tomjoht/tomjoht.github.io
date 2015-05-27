@@ -1,0 +1,56 @@
+---
+layout: page
+title: 'DITA: Related Links'
+permalink: /related_links/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+  dsq_thread_id: '3770196520'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Related Links</h1>
+<div class="body conbody">
+<p class="shortdesc">Related links are links that provide additional information about your topic. Usually related links point to web resources rather than other links within your DITA project.</p>
+<p class="p">It's best to use relationship tables for links, but you can also manually add related links at<br />
+      the bottom of your topics. Here's a sample:</p>
+<pre class="pre codeblock">&lt;related-links&gt;
+    &lt;link href="sample1.dita"&gt;&lt;linktext&gt;Sample 1 Page&lt;/linktext&gt;&lt;/link&gt;
+    &lt;link href="sample2.dita"/&gt;
+    &lt;link href="sample3.dita"/&gt;
+   &lt;/related-links&gt;</pre>
+<p class="p">If<br />
+    you're using keys instead of direct links, you would write it like<br />
+    this:</p>
+<pre class="pre codeblock">&lt;related-links&gt;
+    &lt;link keyref="sample1"/&gt;
+    &lt;link keyref="sample2"/&gt;
+    &lt;link keyref="sample3"/&gt;
+   &lt;/related-links&gt;</pre>
+<p class="p">Manually inserted related links like this are useful when you want to link out to resources on<br />
+      the web related to the topic.</p>
+<p class="p">If you're linking to content on the web, DITA can't pull in the titles automatically, so you<br />
+      need to specify them through the <samp class="ph codeph">linktext</samp> element. You also need to add <samp class="ph codeph">format="html"</samp> and <samp class="ph codeph">scope="external"</samp> attributes to the link.</p>
+<div class="p">
+<pre class="pre codeblock"></pre>
+<pre class="pre codeblock">&lt;related-links&gt;
+    &lt;link href="http://nytimes.com" format="html" scope="external"&gt;&lt;linktext&gt;New York Times&lt;/linktext&gt;&lt;/link&gt;
+    &lt;link format="html" scope="external" href="washingtonpost.com"&gt;&lt;linktext&gt;Washington Post&lt;/linktext&gt;&lt;/link&gt;
+    &lt;link format="html" scope="external" href="huffingtonpost.com"&gt;&lt;linktext&gt;Huffingtonpost&lt;/linktext&gt;&lt;/link&gt;
+   &lt;/related-links&gt;</pre>
+</p></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
+</div>
+</div>

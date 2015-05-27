@@ -1,0 +1,95 @@
+---
+layout: post
+title: My DITA journey begins
+date: 2014-04-16 09:00:15.000000000 -07:00
+categories:
+- general
+tags: []
+status: publish
+type: post
+published: true
+series: "My DITA journey"
+weight: 1
+---
+{% include series.html %}
+
+<p>I have decided to try out DITA in a more extensive way. I think it will work for my situation, and it’s always fun to experiment with a new method for authoring help material.</p>
+<p>A few people have asked that I keep them updated on my progress. While the details of my foray into DITA will expose my naiveté, it might also lead toward guidance and advice from DITA gurus, who will likely look at my strategies and reasoning and shake their heads, laughing at my attempts and deciding to give me a few pointers.</p>
+<h2 id="my-basic-setup">My basic setup</h2>
+<p>Just to describe my basic setup, I have about 8 guidebooks, with approximately 100,000 words total. Currently everything is online on a Drupal site.</p>
+<p>My main goals in DITA will be the following:</p>
+<ul>
+<li>Single source content into both printable training workbooks and online help.</li>
+<li>Make it easier to shape and manage documentation as a whole (managing content in Drupal sucks).</li>
+<li>Provide a better way of handling links and inter-relating information.</li>
+<li>See if DITA lives up to all the hype!</li>
+</ul>
+<p>I don’t have a ton of documentation, which is usually what leads many people to DITA. For example, I don’t have 600 guides in 20 different languages with 15 different versions authored by a team of 40 internationally-located writers. I am a lone writer (a term my wife mocks by saying “is that like the Lone Ranger?”), with a lot of creative autonomy.</p>
+<h2 id="fears-and-strategies">Fears and strategies</h2>
+<p>My underlying fear with DITA is that I’ll end up with an output resembling a shattered window, with a thousand little pieces and no clear way to order them or understand how they fit together. I attribute this information fragmentation syndrome to a general misunderstanding of the ditamap and the chunk attribute. Many DITA authors leave each task and concept in its own standalone file, disconnected from anything else, without ever designing the information in ditamaps.</p>
+<p>My strategy is to author task content in the task topic type, but to freely combine it with conceptual information if warranted. This will leave me with more files but hopefully the ditamaps will make sense of them as standalone units of information. I may also use the general task topic, which allows sections and one task.</p>
+<h2 id="my-xml-editor">My XML editor</h2>
+<p>I’m using OxygenXML as my editor. It seems to be one of the best out there, and least expensive for its capabilities. It does a great job at real-time validation of topics, auto-completion, transforming outputs, switching between text and author views, and more.</p>
+<p>I’m not saying Oxygen is perfect – I think its own help could be a bit better. But this editor also has widespread adoption among the DITA community, so hopefully it has the momentum to keep getting better and better.</p>
+<h2 id="converting-html-files-to-dita">Converting HTML files to DITA</h2>
+<p>Now I’ll start to get more into the nuts and bolts of my strategy. I’ve already converted my first book (I’ll call the book the “Bicycle Maintenance Guide” to keep it confidential but also have something realistic to refer to) to basic DITA files from HTML to DITA.</p>
+<p>To convert the files to DITA, I copied the HTML body source from each Drupal article and pasted it into a new HTML document in Oxygen. Then I clicked the Apply Transformation Scenarios button and transformed the content into a DITA Concept topic. Then I saved the file into the appropriate folder. I pretty much did this for all HTML pages for the Bike Maintenance Guide.</p>
+<p>Why convert to the concept topic type? Concept topics allow you to have sections, and it also accepts numbered and ordered lists styled as regular HTML styling. The task topic requires the more complex tags for lists (steps, step, cmd, info, etc.). I figure I can work up to the task topic syntax as I go along. For now, I just wanted to get my content into a valid DITA markup so that I can start managing it in Oxygen and break away from my reliance on Drupal.</p>
+<h2 id="file-management">File management</h2>
+<p>In my “Bicyble Maintenance Guide” (again, fake title), I have about 10 different sections. Each section has about 7+ articles. I created a main folder called bike_maintenance_guide and subfolders for each section, like this:</p>
+<p>Bike maintenance guide:</p>
+<ul>
+<li>brakes</li>
+<li>derailers</li>
+<li>cranks</li>
+<li>handlebars</li>
+<li>wheels</li>
+<li>tires</li>
+<li>seat</li>
+<li>pedals</li>
+<li>frame</li>
+<li>forks</li>
+</ul>
+<p>I added the appropriate articles into each of these subfolders. Then I created a ditamap for each folder – this means I have about 10 different ditamaps.</p>
+<p>I created a master ditamap that includes each of the submaps. I decided it would be easier to work with the maps for each section rather than have all the files listed on one massive map. By breaking the map apart into smaller bits, it becomes easier to manage.</p>
+<h2 id="links">Links</h2>
+<p>Links are a big challenge for me. Remember that I said Drupal is my publishing environment. I must now reveal that I don’t have a clear and easy way to push everything from DITA into Drupal. Building such an import mechanism would cost more than a one-man documentation shop can justify.</p>
+<p>Fortunately, I’m rather clever. For each Drupal article (they’re called “nodes” in Drupal lingo), there’s a permalink, like node/123. Thanks to the keyrefs in DITA 1.2, I can create a keyref map that correlates these Drupal links with familiar names I choose. Then I can use these familiar names as the link references in my DITA documentation. If I ever change the Drupal node, changing it in the keyref map will update every instance throughout the documentation. I’m planning to put an extensive list of links as keyrefs in a root map, so they’ll be available for all the other submaps.</p>
+<p>This means that for each DITA topic, I’ll need to manually create a Drupal node, selecting its taxonomy and book hierarchy in Drupal. This isn’t ideal but will have to suffice until I can find or build a more streamlined process.</p>
+<h2 id="terminology-sidebar">Terminology sidebar</h2>
+<p>Here I must pause to expand on what I mean by “topic.” By using the term "topic," we run into a major terminology problem with DITA. In the ditamap, there’s no distinction between a topic that is made up of several topics and a topic that is a building block for another topic. But here’s what I mean on a technical level. <em>Changing a tire</em> is perhaps an “article” in my ditamap, and it consists of several topics:</p>
+<pre><code>&lt;topicref href="changing_a_tire" format="dita" chunk="to-content"&gt;
+&lt;topicref href="removing_the_tire.dita" format="dita"/&gt;
+&lt;topicref href="checking_for_sharp_objects.dita" format="dita"/&gt;
+&lt;topicref href="reinserting_the_tire.dita format="dita"/&gt;
+&lt;/topicref&gt;</code></pre>
+<p>Notice that the first topic doesn’t close the angle bracket, and its chunk attribute is to-content. That means it combines all of the nested topics under it.</p>
+<p>Changing a tire requires 3 main tasks: Removing the tire, Checking for sharp objects, and Reinserting the tire. Each of these tasks (subtasks in the original article) is about 3-4 steps – not substantial enough to stand on its own. The problem is that the task topic type allows just one list of steps per topic. Hence the need to split this information up into separate files.</p>
+<p>Here is where I may differ from other DITA authors. I think that, according to <a href="http://my.safaribooksonline.com/book/web-development/xml/9780132374293"><em>DITA Best Practices</em></a> by Laura Bellamy and others, the way to organize the info would be to group the files into a subfolder, and have each of the tasks be a child topic to the parent, like this:</p>
+<pre><code>&lt;topichead navtitle="Changing a tire"&gt;
+&lt;topicref href="changing_a_tire.dita" format="dita"&gt;
+&lt;topicref href="removing_the_tire.dita" format="dita"/&gt;
+&lt;topicref href="checking_for_sharp_objects.dita" format="dita"/&gt;
+&lt;topicref href="reinserting_the_tire.dita format="dita"/&gt;
+&lt;/topicref&gt;
+&lt;/topichead&gt; </code></pre>
+<p>This would result in 4 files grouped in a collapsed folder in the table of contents.</p>
+<p>While all right for tasks with substantial subtasks, it seems like this method would fragment the information into the shattered glass I mentioned earlier.</p>
+<p>What do you call a topic that consists of other topics? I usually refer to it as an “article,” but that term isn’t used in DITA. Maybe it’s a “master topic”? A "combination topic"? A "chunked topic"?</p>
+<p>By the way, Mark Baker dedicates an entire post to the terminology problem of “topic” in <a href="http://everypageispageone.com/2014/01/07/topics-pages-articles-and-the-nature-of-hypertext/">Topics, Pages, Articles, and the Nature of Hypertext</a>.</p>
+<p>I am also hoping to minimize the number of inline links in my documentation. I realize this is a rather controversial point, one that has a great comment thread <a href="here">http://idratherbewriting.com/2014/04/13/the-need-for-robust-tech-comm-authoring-tools/#comments</a>. I plan to incorporate relationship tables based on keyrefs.</p>
+<h2 id="images">Images</h2>
+<p>Images are also somewhat of a pain precisely because I don’t have an automated way to get them into Drupal. I currently upload images individually (or in bulk) into Drupal using a module called IMCE, and then I grab the absolute URL and use this as the href in the image tag. It works.</p>
+<p>I haven’t decided whether I’ll create a separate TIF or SVG image for print outputs. Mostly likely not yet, though maybe in the future.</p>
+<h2 id="getting-content-into-drupal">Getting content into Drupal</h2>
+<p>Now comes the really challenging part. How do I get content into Drupal? Right now, it’s a manual process of copying each HTML file from the DITA output and pasting it into the appropriate Drupal node.</p>
+<p>At first you might say, you’re crazy. This will be way more work than you want. But not really. If there are 500 pages in the help, each week I may have several new pages and updates to 5-10 pages. If I’m only changing 15 files per week max, that copy and paste job won’t take more than 10 minutes.</p>
+<p>I’m not re-generating all 500 pages each week. I think many help tools force a destroy-and-recreate model. Instead, my changes are between 1-5% of the whole, which is manageable with a manual copy-and-paste process (once the initial bulk is published). And I’m only copying and pasting to the online source.</p>
+<p>By the way, if you know of a good import module to push DITA content into Drupal, let me know. The one company who had built a connector had showstopper problems with it – each publish job deleted all previous Drupal nodes and recreated new ones with new aliases and chunking didn’t work, among other issues. I am hoping to leverage our existing API import module to handle the imports.</p>
+<h2 id="backing-up-files">Backing up files</h2>
+<p>I’m planning to use git to back up files to Github. This is mostly just for backup and versioning purposes. As a lone writer, I don’t have to worry about collaboration, but obviously I could collaborate using git.</p>
+<h2 id="content-that-will-live-outside-of-dita">Content that will live outside of DITA</h2>
+<p>I have some API documentation that will live outside of DITA. One of our programmers built a nifty script that pulls a lot of the reference information directly from the API files and formats them into attractive API documentation. The process works quite well and I don’t want to change it. The only thing I may do is copy the short descriptions of each resource and endpoint into a conceptual book for possible re-use. I don’t anticipate that people would want a printout of all the reference information for each resource in the API. It’s so much easier to scan for it online.</p>
+<h2 id="other-factors">Other factors</h2>
+<p>Finally, one major challenge will be to adopt a new and somewhat unfamiliar authoring process while also keeping pace with all the documentation needs. Sometimes I need to publish documentation quickly, without spending an afternoon trying to figure out some DITA element I’m unfamiliar with, like relationship tables. I’m hoping, however, that once I get a system down, this method will allow me to focus on the content more than the authoring process.</p>
+<p>Feel free to give me pointers and advice in the comments.</p>

@@ -1,0 +1,190 @@
+---
+layout: post
+title: Content Re-use is so much better with DITA (and esp. with OxygenXML)
+date: 2014-06-29 20:41:03.000000000 -07:00
+categories:
+- dita
+- general
+tags: []
+status: publish
+type: post
+published: true
+series: "My DITA journey"
+weight: 9
+---
+{% include series.html %}
+
+<p>After my last post on <a href="http://idratherbewriting.com/2014/06/24/strategies-for-content-re-use-in-confluence/">content re-use strategies with Confluence</a>, I realized that while you can do re-use with Confluence, you have to rely on so many third-party plugins, the whole solution tends to feel cobbled together with string and glue. While I initially thought Confluence would simplify authoring and allow me to focus more on content,  the primitive re-use capabilities actually make help authoring more tedious and time consuming.</p>
+<p>The real deal-killer with Confluence is managing access control. The paradigm is that all content is on one site, grouped into different spaces. If you only want certain groups to see certain content, you have to individually manage their access to those spaces (and each logged-in user counts against your licensing costs). That's a lot of individual user management. If you make the site anonymous and create several sites (one for each product), you can't reuse the same content easily across the different sites.</p>
+<p>Because of these issues, I've ditched Confluence and am hoping to officially adopt an XML solution using <a href="http://www.oxygenxml.com/">OxygenXML</a> as the editor. I'm still working on the proof of concept, but it looks promising. XML allows you to re-use content in easier ways. Content re-use with DITA is much more robust, precise, and just works.</p>
+<p>In this post, I explain how to do content re-use with DITA and Oxygen.</p>
+<h2>The scenario for content re-use</h2>
+<p>I described the scenario for content re-use in my previous post. I'll repeat the scenario here because the content re-use strategies I'm using are formulated based on this situation.</p>
+<p>Suppose you’re creating an online manual for a Trek 7.1 FX, 7.2 FX, and 7.3 FX model bike. Additionally, the same parts you're documenting are also pushed into another brand: Gary Fisher. The parts are mostly the same for the Gary Fisher and Trek bikes, except the parts for the Fisher bikes are rebranded with the Gary Fisher brand. There are three Gary Fisher bike models: City Slicker 2.0, City Slicker 2.1, and City Slicker 2.2. So in total, you have six manuals to produce from roughly the same content.</p>
+<p>There are approximately 30 sections in your manual, with topics such as maintaining brakes, adjusting handlebars, tightening bottom brackets, greasing chains, adjusting spokes, and so on.</p>
+<p>There are some variations between the topics, sometimes as trivial as simple name changes, other times more substantial, such as entirely different processes.</p>
+<p>For example, while the Trek and Fisher bikes both have Shimano brakes and derailleurs, the Fisher bikes have different cranks and pedals than the Trek cranks and pedals. Both have the same tires and wheels, but the Fisher has a different spoke size. Both have similar seat stems, but the Trek is fastened via a bolt while the Fisher is fastened with quick release, and so on. There is 70% similarity of content between the six manuals. You'll need to make content adjustments for the differing brands and models.</p>
+<p>When re-using content, there are several techniques to consider:</p>
+<ul>
+<li>Re-use of topics</li>
+<li>Re-use of paragraphs</li>
+<li>Variables</li>
+<li>Conditional processing</li>
+</ul>
+<h2>Re-using topics</h2>
+<p>Your DITA map consists of a list of references to topics. If you want to use the same topic in different DITA maps, you just reference that topic again in another map.</p>
+<p><b>Map for Trek</b><br />
+[xml]<br />
+&lt;topicref href=&quot;maintaining_brakes.dita&quot;/&gt;<br />
+[/xml]</p>
+<p> <b>Map for Gary Fisher</b><br />
+[xml]<br />
+&lt;topicref href=&quot;maintaining_brakes.dita&quot;/&gt;<br />
+[/xml]<br />
+Nothing earth shattering there.</p>
+<p>But you may not want to create separate maps, because more maps means more maintenance and updates. Instead, you can create various conditions and apply the conditions to the topics in the same map. This is where DITA gets really powerful. To understand how to do this, I need to explain conditional profiling.</p>
+<p>DITA offers a set of standard attributes that you can apply to most elements. The general attributes are as follows:</p>
+<ul>
+<li><code>audience</code></li>
+<li><code>platform</code></li>
+<li><code>product</code></li>
+<li><code>props</code></li>
+<li><code>otherprops</code></li>
+</ul>
+<p>You set the values you want for each attribute. In this scenario, I'll use <code>product </code>and <code>platform </code>attributes. You can't change the names of the attributes (because they're part of the DITA schema), but you can edit their values. (The <code>props </code>and <code>otherprops </code>are meant to be generic to adapt to any situation.)</p>
+<p>Here are my <code>product </code>attribute values:</p>
+<ul>
+<li><code>trek</code></li>
+<li><code>gary_fisher</code></li>
+</ul>
+<p>And my <code>platform </code>attribute values:</p>
+<ul>
+<li><code>71_fx</code></li>
+<li><code>72_fx</code></li>
+<li><code>73_fx</code></li>
+<li><code>city_slicker_21</code></li>
+<li><code>city_slicker_22</code></li>
+<li><code>city_slicker_23</code></li>
+</ul>
+<p>To set up your attributes and values in OxygenXML, enter the Author view and click the<strong> Profiling Attributes</strong> button <img src="/images/profiling_conditions.png" alt="profiling_conditions" width="51" height="29" />. Then select <strong>Profiling Settings</strong>.</p>
+<p><img class="alignnone size-full wp-image-20945" src="/images/dita_profiling_settings.png" alt="dita_profiling_settings" width="506" height="336" /></p>
+<p>Alternatively, go to <strong>DITA > Profiling/Conditional Text > Edit Profiling Attributes</strong>.</p>
+<p>In the Profiling Attributes section, edit the values for each of the attributes.</p>
+<p><img class="alignnone size-full wp-image-20944" src="/images/dita_profiling_attributes.png" alt="dita_profiling_attributes" /></p>
+<p>While you're on the same screen, move to the next section below: <b>Profiling Condition Sets</b>. Here you can define the combinations of the profiling attributes you want for your various targets. In this case, I want the following condition sets:</p>
+<ul>
+<li>Trek 7.1 FX manual => Product: <code>trek</code>, Platform: <code>71_fx</code></li>
+<li>Trek 7.2 FX manual => Product: <code>trek</code>, Platform: <code>72_fx</code></li>
+<li>Trek 7.3 FX manual => Product: <code>trek</code>, Platform: <code>73_fx</code></li>
+<li>Gary Fisher City Slicker 2.0 manual => Product: <code>gary_fisher</code>, Platform: <code>city_slicker_20</code></li>
+<li>Gary Fisher City Slicker 2.1 manual => Product: <code>gary_fisher</code>, Platform: <code>city_slicker_21</code></li>
+<li>Gary Fisher City Slicker 2.2 manual => Product: <code>gary_fisher</code>, Platform: <code>city_slicker_22</code></li>
+</ul>
+<p><img src="/images/dita_profile2.png" alt="dita_profile2" width="596" height="338" class="alignnone size-full wp-image-20953" /></p>
+<p>Now you can start using these attributes almost any DITA element. Suppose you want to apply an attribute to your map so that you can use the same map for each product. You might apply the attributes like this:<br />
+[xml]<br />
+&lt;topicref href=&quot;maintaining_brakes_71_fx.html&quot; product=&quot;trek&quot; platform=&quot;71_fx&quot;/&gt;<br />
+&lt;topicref href=&quot;maintaining_brakes_72_fx.html&quot; product=&quot;trek&quot; platform=&quot;72_fx&quot;/&gt;<br />
+&lt;topicref href=&quot;maintaining_brakes_73_fx.html&quot; product=&quot;trek&quot; platform=&quot;73_fx&quot;/&gt;<br />
+&lt;topicref href=&quot;maintaining_brakes_cs_20.html&quot; product=&quot;gary_fisher&quot; platform=&quot;city_slicker_20/&gt;<br />
+&lt;topicref href=&quot;maintaining_brakes_cs_21.html&quot; product=&quot;gary_fisher&quot; platform=&quot;city_slicker_21&quot;/&gt;<br />
+&lt;topicref href=&quot;maintaining_brakes_cs_22.html&quot; product=&quot;gary_fisher&quot; platform=&quot;city_slicker_22&quot;/&gt;<br />
+[/xml]</p>
+<p>Now configure your transformation scenarios with the right condition sets:</p>
+<ol>
+<li>Click the <b>Transform Scenarios</b> button <img src="/images/transform_scenarios.png" alt="transform_scenarios" width="32" height="32" />.</li>
+<li>Select <b>New</b>.</li>
+<li>Select <b>DITA OT Transformation</b>.</li>
+<li>Select <b>Webhelp</b> and click <b>OK</b>.</li>
+<li>Name the transformation scenario (for example, Trek 7.3 FX).</li>
+<li>Click the <b>Filters</b> tab.</li>
+<li>Select the profiling condition set you configured. Then click <b>OK</b>. (You may need to toggle the radio button to another selection and then come back to select Use profiling condition set -- not sure if that's a UI quirk.)</li>
+<li>Select the transform scenario you just created and click <b>Apply Associated</b>. For example, if you selected the Trek 7.3 FX transform scenario, only the <code><topicref href="maintaining_brakes_t73.html" product="trek" platform="73_fx" /></code> topic would be included in the output.</li>
+</ol>
+<p>In this example, I've applied the conditions at the topic level. But this assumes that the topics are substantially different. Most likely you would apply the conditions to elements within the same topic. For example, your topic might look like this:<br />
+[xml]<br />
+&lt;p product=&quot;trek&quot;&gt;You can adjust your brakes by loosening the bolt with a 5mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt.&lt;/p&gt;</p>
+<p>&lt;p product=&quot;gary_fisher&quot;&gt;You can adjust your brakes by loosening the bolt with a 7mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt. Alternatively, rotate the quick turn nut on the end of the brake cable next to your brake handles to make adjustments on the fly.&lt;/p&gt;<br />
+[/xml]</p>
+<p><b>Tip:</b> If you want to be even more granular, you can surround a word with <code>ph</code> tags (for phrase). The tags can be applied to any element, so if the element you want doesn't allow you to apply these general attributes (such as the <code>entry</code> element in a table), you can just put <code>ph</code> tags inside the element.</p>
+<p>Here's an example:<br />
+[xml]<br />
+Your bike is equipped with Shimano &lt;ph platform=&quot;71_fx&quot;&gt;Ultegra components&lt;/ph&gt;&lt;ph platform=&quot;72_fx 73_fx&quot;&gt;105 components&lt;/a&gt;.<br />
+[/xml]</p>
+<p>In this example, the conditional processing will apply the processing at a more granular level. For transform scenarios that include both 72_fx and 73_fx, the sentence will read:<br />
+[xml]<br />
+Your bike is equipped with Shimano 105 components.<br />
+[/xml]</p>
+<p>(When adding multiple values to an attribute, just separate the values with a space.)</p>
+<h2>Re-using paragraphs</h2>
+<p>Let's suppose you want to re-use the same paragraph across different guides. For this kind of re-use, you incorporate something called a <code>conref</code>. Create a new file called something like "notes.dita". Unless you need specific tags only available in a specialized type (like an entire section or a task list), use a generic topic type.</p>
+<p>Here's a sample note that I want to re-use.<br />
+[xml]<br />
+&lt;note type=&quot;note&quot; id=&quot;bolt_warning&quot;&gt;Don't overtighten the bolts, since you could strip the threads and make it impossible to loosen.&lt;/note&gt;<br />
+[/xml]</p>
+<p>In your topic, you apply a <code>conref</code> attribute element to the same type of element and reference your note, like this:<br />
+[xml]<br />
+&lt;note conref=&quot;notes.dita#bolt_warning&quot;/&gt;<br />
+[/xml]</p>
+<p>The content will be inserted there when you transform it.</p>
+<h2>Variables</h2>
+<p>Finally, let's say you have a variable that you want to use on a page. For bikes shipped to the UK, they use a different derailleur version. U.S. versions have "MTB" derailleurs, but UK versions use "DR" components. To implement variables in DITA, you use keyword references.<br />
+[xml]<br />
+Your bike is equipped with &lt;keyword keyref=&quot;derailleur_version&quot;/&gt; derailleurs.<br />
+[/xml]</p>
+<p>In a map file, add this:<br />
+[xml]<br />
+ &lt;keydef keys=&quot;derailleur_version&quot;&gt;<br />
+ &lt;topicmeta&gt;<br />
+ &lt;keywords&gt;<br />
+ &lt;keyword&gt;MTB&lt;/keyword&gt;<br />
+ &lt;/keywords&gt;<br />
+ &lt;/topicmeta&gt;<br />
+ &lt;/keydef&gt;<br />
+[/xml]</p>
+<p>You could manually change the keyword value from MTB when you want to push out a different value there, such as DR.</p>
+<p>But you could also apply conditional attributes to the keyword element so that the value changes dynamically.<br />
+[xml]<br />
+ &lt;keydef keys=&quot;derailleur_version&quot;&gt;<br />
+ &lt;topicmeta&gt;<br />
+ &lt;keywords&gt;<br />
+ &lt;keyword audience=&quot;uk&quot;&gt;DR&lt;/keyword&gt;<br />
+ &lt;keyword audience=&quot;us&quot;&gt;MTB&lt;/keyword&gt;<br />
+ &lt;/keywords&gt;<br />
+ &lt;/topicmeta&gt;<br />
+ &lt;/keydef&gt;<br />
+[/xml]</p>
+<p>You could also use this method when writing generalized sentences like this that refer to the brand:<br />
+[xml]<br />
+Congratulations on the purchase of your new &lt;keyword keyref=&quot;bike_model&quot;/&gt; bike.<br />
+[/xml]</p>
+<p>Your map would include this code:<br />
+[xml]<br />
+ &lt;keydef keys=&quot;bike_model&quot;&gt;<br />
+ &lt;topicmeta&gt;<br />
+ &lt;keywords&gt;<br />
+ &lt;keyword product=&quot;trek&quot;&gt;Trek&lt;/keyword&gt;<br />
+ &lt;keyword product=&quot;gary_fisher&quot;&gt;Gary Fisher&lt;/keyword&gt;<br />
+ &lt;/keywords&gt;<br />
+ &lt;/topicmeta&gt;<br />
+ &lt;/keydef&gt;<br />
+[/xml]</p>
+<p>Most people will create a map file that contains all their keyword definitions, and then link to the keyref map file from their regular map, adding an attribute of <code>processing-role="resource-only"</code> to the <code>topicref</code> so it doesn't appear in the TOC.</p>
+<h2>Ease of editing</h2>
+<p>When you have sophisticated re-use needs, there's no better platform than DITA XML and applying the conditional profiling. It allows you to apply the conditions at an extremely granular level, giving you a robust solution to accomplish nearly any type of re-use.</p>
+<p>What's great about OxygenXML is that the editor makes it really easy to apply the conditions. Without Oxygen, you would need create a DITAVAL file that explains what should be excluded:<br />
+[xml]<br />
+&lt;val&gt;<br />
+ &lt;prop action=&quot;exclude&quot; att=&quot;platform&quot; val=&quot;gary_fisher&quot; /&gt;<br />
+ &lt;prop action=&quot;exclude&quot; att=&quot;product&quot; val=&quot;city_slicker_20&quot; /&gt;<br />
+ &lt;prop action=&quot;exclude&quot; att=&quot;product&quot; val=&quot;city_slicker_21&quot; /&gt;<br />
+&lt;/val&gt;<br />
+[/xml]</p>
+<p>In the DITAVAL file method, you identify the attribute and value and then apply an exclude action. (You don't apply an include, just exclude.) You can still use DITAVAL files with Oxygen if you want.</p>
+<p>With Oxygen, however, the conditional profiling works more intuitively (similar to Flare, actually). In Oxygen, when you create a condition set that includes certain values, other values not selected from that same attribute are excluded. If you don't apply any attribute to content, everything is included.</p>
+<p>Also, when you're in the Author mode, you can switch to the condition set that you want to see. If you switch to Trek 7.3 FX, only the content that meets that condition set appears in the Author view.</p>
+<p>You can also set it so that the content not included is semi-transparent. This mode makes it easy to edit content that has a myriad of complex conditional profiling. Here's an example. The content with the attribute for <code>gary_fisher</code> is transparent because I've selected to only see the <code>trek</code> content.</p>
+<p><img class="alignnone size-full wp-image-20947" src="/images/dita_hidden_text.png" alt="dita_hidden_text" width="584" height="341" /></p>
+<p>I've been using attributes like this for the past week using OxygenXML and can't believe I was trying to hack the same solution in Confluence. It's like moving from the stone age to the modern age.</p>
+<h2>Related links</h2>
+<p>See the <a href="http://idratherbewriting.com/conditional_profiling">Conditional Profiling</a> link in my DITA QRG.</p>

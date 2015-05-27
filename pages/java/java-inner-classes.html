@@ -1,0 +1,95 @@
+---
+layout: page
+title: 'Java: Inner classes'
+permalink: /java-inner-classes/
+date: 2015-01-01 20:00:18.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>an inner class is a class inside of a class</li>
+<li>inner classes are used for grouping/organization purposes</li>
+<li>inner classes have access to their parent class's properties</li>
+</ul>
+<p>At times you may want to group classes inside of classes. A class can only have one public class, but it can have other classes that aren't public. The public class is the only class that must have the same name as the file. The only reason to create inner classes is to facilitate grouping of your logic or other content.</p>
+<p>When you have a class inside another class, the inner class has access to the instance variables of the class it's enclosed in.</p>
+<p>This is an example of an inner class. We have the class Brain defined inside of the class Robot. The inner classes has access to the enclosing class's instance variables and methods. Likewise, the enclosing class can create a new object using the inner class and then run those methods in the inner class.</p>
+<pre><code>public class Robot {
+    private int id;
+
+    public Robot(int id) {
+        this.id = id;
+    }
+
+    public void start() {
+        System.out.println("Starting robot " + id);
+        Brain brain = new Brain();
+        brain.think();
+    }
+
+    class Brain {
+        public void think() {
+            System.out.println("Robot " + id + "is thinking.");
+
+        }
+
+    }
+}
+</code></pre>
+<p>Although you could access the inner class in your App through dot notation (such as Robot.Brain), you usually to package things up in a method in the public class. That's why the method <code>start</code> calls <code>brain.think</code>. That method can instantiate the inner class and calls its methods. The surrounding class then makes this inner class accessible by packaging it up into its own method: <code>start</code>.</p>
+<h2>Accessing inner classes from the outside</h2>
+<p>If you want outside objects to access the inner classes, you have to make the inner classes static. You then use dot notation to access the inner classes. Here's an example:</p>
+<pre><code>public class Robot {
+    private int id;
+
+        public Robot(int id) {
+            this.id = id;
+    }
+
+    public void start() {
+        System.out.println("Starting robot " + id);
+        Brain brain = new Brain();
+        brain.think();
+    }
+
+// here's my inner class
+     static class Battery {
+        public void charge(){
+        System.out.println("Charging ");
+    }
+    }
+}
+</code></pre>
+<p>Here's the App.java file containing the <code>main</code> method:</p>
+<pre><code>public class App {
+
+    public static void main(String[] args) {
+     Robot myrobot = new Robot(8);
+     myrobot.start();
+
+     // here's the syntax required to access the method
+     Robot.Battery myBattery = new Robot.Battery();
+     myBattery.charge();
+    }
+
+}
+</code></pre>
+<p>Notice that in order to access the inner class, we use <code>Robot.Battery</code>. However, here's the catch: the inner class's access modifier is <code>static</code>, which means it can't be changed. I'm not entirely sure why.</p>
+<p>You can even declare inner classes within methods.</p>

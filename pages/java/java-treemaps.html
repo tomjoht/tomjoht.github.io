@@ -1,0 +1,107 @@
+---
+layout: page
+title: 'Java: Treemaps'
+permalink: /java-treemaps/
+date: 2015-01-01 20:29:10.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>Treemaps stores key-value pairs</li>
+<li>Treemaps guarantees their order</li>
+<li>It's common to iterate through a map and see if it has a particular value</li>
+<li>Treemaps implements a Map interface</li>
+<li>In Treemaps, keys are sorted</li>
+</ul>
+<p>Eclipse example: treemaps</p>
+<h2>Sample</h2>
+<pre><code>public class java.util.TreeMap &lt;K, V&gt;
+   implements SortedMap&lt;K,V&gt;, Cloneable, java.io.Serializable {
+    public TreeMap();  // constructors
+    public TreeMap(Comparator&lt;? super K&gt; c);
+    public TreeMap(Map&lt;? extends K,? extends V&gt; m);
+    public TreeMap(SortedMap&lt;K,? extends V&gt; m);
+
+    public Comparator&lt;? super K&gt; comparator();
+    public K firstKey();
+    public K lastKey();
+    public Object clone();
+
+    public SortedMap&lt;K,V&gt; headMap(K toKey);
+    public SortedMap&lt;K,V&gt; tailMap(K fromKey);
+    public SortedMap&lt;K,V&gt; subMap(K fromKey, K toKey);
+}
+</code></pre>
+<p>There are 4 constructors:</p>
+<pre><code>The TreeMap class has four constructors which work in the obvious way. The first one creates an empty TreeMap. The second constructor creates an empty TreeMap that will use the Comparator passed as an argument. The third creates a TreeMap out of the elements in the given Map. The fourth constructor creates a TreeMap out of the elements in the given SortedMap. (Just Java 2)
+
+The method headMap() returns a view of this Map containing only elements that are strictly less than the argument object. The method tailMap() returns a view of elements that are greater than or equal to the argument object. The method subMap() returns a view into the Map that holds only objects starting at the from object inclusive, and going up to, but not including, the to object. (Just Java 2)
+</code></pre>
+<h2>Example</h2>
+<pre><code>import java.util.*;
+public class example3  {
+    // the Map!
+    Map&lt;String, String&gt; phonebook = new TreeMap&lt;String, String&gt;();
+
+    // constructor
+    public example3(String n[], String nums[]) {
+       for(int i=0; i&lt; n.length; i++)
+           phonebook.put( n[i], nums[i] );
+    }
+
+   public static void main(String[] args) {
+       // data
+       String [] names = { "Lefty", "Guarav", "Wong", "Rupamay" };
+       String [] extns = { "4873", "4810", "3769", "0" };
+
+       // get an instance of this class
+       example3 ex = new example3( names, extns );
+
+       // dump out the map
+       System.out.println("map:  " + ex.phonebook);
+
+       // get the mappings
+       Set&lt;Map.Entry&lt;String,String&gt;&gt; s = ex.phonebook.entrySet();
+
+       // iterate over the mappings
+       //   for (Iterator i = s.iterator(); i.hasNext(); ) {
+       for (Map.Entry me : s) {
+           Object ok = me.getKey();
+           Object ov = me.getValue();
+           System.out.print("key=" + ok );
+           System.out.println(", value=" + ov );
+       }
+   }
+}
+</code></pre>
+<p>The output of running this program is now in sorted order because we used TreeMap:</p>
+<pre><code>map:  {Guarav=4810, Lefty=4873, Rupamay=0, Wong=3769}
+key=Guarav, value=4810
+key=Lefty, value=4873
+key=Rupamay, value=0
+key=Wong, value=3769
+</code></pre>
+<h2>Get a specific object in the map</h2>
+<pre><code>public V get(Object key);
+
+Or you'll be putting pairs into the table using this method:
+
+public V put(K key, V value);
+</code></pre>

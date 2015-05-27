@@ -1,0 +1,69 @@
+---
+layout: page
+title: 'DITA: Make Oxygen’s webhelp output a fixed width'
+permalink: /fixed_width_oxygen/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3774266567'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Make Oxygen’s webhelp output a fixed width</h1>
+<div class="body">
+<p class="p">I’m not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
+<pre class="pre codeblock">
+<samp class="ph codeph">.conbody,
+.taskbody,
+.refbody,
+.body,
+p.shortdesc,
+.title,
+.ullinks,
+.glossdef
+{
+    max-width:800px;
+}
+</samp>
+</pre>
+<p class="p">Some of those other elements, such as <samp class="ph codeph">title</samp> and <samp class="ph codeph">p.shortdesc</samp>, appear before the <samp class="ph codeph">body</samp>. They don’t seem to be contained within anything, though I could have overlooked something.</p>
+<p class="p">I also apply a <samp class="ph codeph">max-width</samp> property to images:</p>
+<pre class="pre codeblock">
+<samp class="ph codeph">.conbody img,
+.taskbody img,
+.refbody img{
+    max-width:600px;
+}
+</samp>
+</pre>
+<p class="p">Note also that when you apply a fixed width to your content, the code in your <samp class="ph codeph">code block</samp> elements may get cut off. Since <samp class="ph codeph">codeblock</samp> elements are contained within <samp class="ph codeph">stepxmp</samp> and <samp class="ph codeph">info</samp>, which are contained within <samp class="ph codeph">step</samp>, you can’t really get around their parent containers.</p>
+<p class="p">Instead, to handle <samp class="ph codeph">code block</samp> content from getting cut off, you can add this: </p>
+<pre class="pre codeblock">
+<samp class="ph codeph">  .codeblock {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+</samp>
+</pre>
+<p class="p">Special shoutout to <a class="xref external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a> for this tip on wrapping content inside the <samp class="ph codeph">pre</samp> tag.</p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</div>
+<div class="linklist linklist"><strong>Collected links</strong></p>
+<div><a class="link external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a></div>
+</div>
+</div>

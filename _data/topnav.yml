@@ -1,0 +1,135 @@
+# Topnav single links
+# if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  subcategories:
+    - title: About
+      url: /aboutme/
+
+    - title: Contact
+      url: /contact/
+
+    - title: Presentations
+      url: /presentations/
+
+    - title: Podcasts
+      url: /category-podcasts/
+
+    - title: Beginners
+      url: /category-beginners/
+
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  subcategories:
+    - title: Series
+      items:
+      - title: 10 voiceover techniques
+        url: /hey_there/
+
+      - title: 7 deadly sins of blogging
+        url: /series-overview-blogging-sins/
+
+      - title: API documentation podcasts
+        url: /series-api-documentation-podcasts/
+
+      - title: API documentation survey
+        url: /series-api-documentation-survey/
+        
+      - title: Author in DITA and Publish with WordPress
+        url: /series-author-in-dita-publish-in-word/
+
+      - title: DITA journey
+        url: /series-my-dita-journey/
+
+      - title: Dallas STC Summit videocasts
+        url: /series-dallas-stc-summit-videocasts/
+        
+      - title: Get a Job in Technical Writing
+        url: /series-get-a-job-in-technical-writing/
+
+      - title: Innovation in tech comm
+        url: /series-innovation-in-tech-comm/
+        
+      - title: Jekyll versus DITA
+        url: /series-jekyll-versus-dita/
+
+      - title: My DITA journey
+        url: /series-my-dita-journey/
+
+      - title: Quick reference guides
+        url: /series-quick-reference-guides/
+        
+      - title: Search engine optimization
+        url: /series-search-engine-optimization/
+
+      - title: User-centered documentation
+        url: /series-user-centered-documentation/
+        
+      - title: My journey to and from wikis
+        url: /series-my-journey-to-and-from-wikis/
+
+      - title: From overlooked to center stage
+        url: /sample/
+
+      - title: 10 voiceover tips
+        url: /series-10-voiceover-tips/
+
+    - title: Tech Notes
+      items:
+      - title: JavaScript
+        url: /javascript/
+
+      - title: DITA
+        url: /dita/
+
+      - title: Java
+        url: /java/
+
+      - title: APIs
+        url: /apis/
+    - title: Categories
+      items:
+      - title: API documentation
+        url: /category-api-doc/
+      - title: Beginner tips, career advice
+        url: /category-beginners/
+      - title: Blogging
+        url: /category-blogging/
+      - title: Creativity
+        url: /category-creativity/
+      - title: DITA
+        url: /category-dita/
+      - title: Findability
+        url: /category-findability/
+      - title: General
+        url: /category-general/
+      - title: Innovation
+        url: /category-innovation/
+      - title: Java
+        url: /category-java/
+      - title: JavaScript
+        url: /category-javascript/
+      - title: Jekyll
+        url: /category-jekyll/
+      - title: Podcasts
+        url: /category-podcasts/
+      - title: Quick reference guides
+        url: /category-quick-reference-guides/
+      - title: Screencasting
+        url: /category-screencasting/
+      - title: User-centered documentation
+        url: /category-user-centered-documentation/
+      - title: Video
+        url: /category-video/
+      - title: Visual communication
+        url: /category-visual-communication/
+      - title: Web design
+        url: /category-web-design/
+      - title: Wikis
+        url: /category-wikis/
+      - title: WordPress
+        url: /category-wordpress/
+      - title: Writing
+        url: /category-writing/

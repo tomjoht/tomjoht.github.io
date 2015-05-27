@@ -1,0 +1,103 @@
+---
+layout: page
+title: 'DITA: Conref (content re-use)'
+date: 2014-12-13 20:21:18.000000000 -08:00
+permalink: /conref/
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _wp_page_template: default
+  wpautop: 'false'
+  _wpcom_is_markdown: '1'
+  dsq_thread_id: '3773990482'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<div class="body conbody">
+<p class="shortdesc">You can re-use notes and other content through an attribute called<br />
+   <samp class="ph codeph">conref</samp>.</p>
+<p class="p">First, create a page where you'll store all of these notes and re-usable components. Then use the<br />
+ <samp class="ph codeph">conref</samp> tag on the elements you want to pull in the re-usable content.
+ </p>
+<p class="p">Suppose the file where you store the re-usable component is called notes.dita with a topic id of<br />
+   "topic_123". On this page, you might have something like this: </p>
+<pre class="pre codeblock">
+  &lt;topic id="topic_123"&gt;
+   ...
+  &lt;note type="note" id="bolt_warning"&gt;Don't overtighten the bolts, as it may cause stripping.&lt;/note&gt; 
+ </pre>
+<p class="p">On the page where you want to re-use the content, use the <samp class="ph codeph">conref</samp> element like this:</p>
+<pre class="pre codeblock">
+  &lt;note conref="notes.dita#topic_123/bolt_warning"/&gt;
+ </pre>
+<p class="p">In other words, use the file name#topic_id/element_id. </p>
+<div class="note note"><span class="notetitle">Note:</span> Make sure the <samp class="ph codeph">conref</samp> pulls in a valid element where you're using the<br />
+   conref. This is the one rule with conrefs. You have to match the elements that you're conref'ing.<br />
+   You can't pull an element into your content from somewhere else if that element isn't valid<br />
+   there. For example, you couldn't pull a <samp class="ph codeph">section</samp> into a <samp class="ph codeph">steps</samp><br />
+   element. This is why it's very common to use <samp class="ph codeph">ph</samp> tags when setting up conrefs.<br />
+    <samp class="ph codeph">ph</samp> tags can be inserted practically anywhere. </div>
+<div class="section">
+<h2 class="title sectiontitle">Conref of table content</h2>
+<div class="p">If you're "conrefing" a table element, you have to include all of the table elements, like<br />
+   this:
+<pre class="pre codeblock">   &lt;table conref="notesdita#topic_123/samptable"&gt;
+    &lt;tgroup cols="2"&gt;
+     &lt;tbody&gt;
+      &lt;row&gt;
+       &lt;entry/&gt;
+      &lt;/row&gt;
+     &lt;/tbody&gt;
+    &lt;/tgroup&gt;
+   &lt;/table&gt;</pre>
+</div>
+<p class="p">In this case,  the ID of the table I'm re-using is <samp class="ph codeph">samptable</samp>. </p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Conref ranges: Including ranges of sibling content</h2>
+<p class="p">Sometimes you need to insert a range of elements. For example, suppose you have several paragrahps or list items. Rather than using multiple conrefs, you can instead use a range. The conref range will grab all items that are siblings. </p>
+<p class="p">To insert a range, you need to add an item to the first item and the last item. Here's an example:</p>
+<pre class="pre codeblock">&lt;glossdef&gt;&lt;p id="ot_first"&gt;The open toolkit is what processes your DITA files to transform them into webhelp, pdf, and other outputs.&lt;/p&gt;
+        &lt;p&gt;There are other processors besides the OT that can achieve similar results.&lt;/p&gt;
+        &lt;p id="ot_last"&gt;OxygenXML does use the Open Toolkit to do its processing, but xMetaL uses another processor.&lt;/p&gt;
+    &lt;/glossdef&gt;  </pre>
+<p class="p">And here's the page where you insert the range. This is a table <samp class="ph codeph">entry</samp> element:</p>
+<pre class="pre codeblock">&lt;entry&gt;&lt;p conref="glossary/ot.dita#opentoolkit/ot_first" conrefend="glossary/ot.dita#opentoolkit/ot_last"/&gt;&lt;/entry&gt; </pre>
+<p class="p">You just start the <samp class="ph codeph">conref</samp> and add a <samp class="ph codeph">conrefend</samp> element that<br />
+    refers to the last item in the conref range that you want to pull over.</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Conkeyref: Conrefs using keyrefs</h2>
+<p class="p">conkeyref is similar to conref except that instead of referring to files, you refer to keys<br />
+    to include the target content. </p>
+<p class="p">example: </p>
+<pre class="pre codeblock">&lt;keyref keys="argument" href="argument_acme.dita"&gt;</pre>
+<p class="p">There's a paragraph in this topic with an ID of <samp class="ph codeph">opener</samp> that I want to<br />
+    re-use. </p>
+<p class="p">I could reuse the paragraph with a conref like this:</p>
+<pre class="pre codeblock">&lt;p conref="argument_acme.dita#topicid/opener"/&gt;</pre>
+<p class="p">However, sometimes when you have multiple outputs, you may want opener to pull from<br />
+    different files depending on the output. For example, you may have an opener for product A<br />
+    that differs from product B. Product A's map may point its argument key to<br />
+    argument_acme.dita, while Product B may point its argument key to argument_beta.dita. </p>
+<div class="p">To implement the conref using keys, you use conkeyref, like<br />
+    this:
+<pre class="pre codeblock">&lt;p conkeyref="argument/opener"/&gt;</pre>
+</div></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="toc_content_reuse">Content re-use</a></div>
+</div>
+</div>

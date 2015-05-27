@@ -1,0 +1,278 @@
+---
+layout: page
+title: 'Java: Javadoc tags'
+permalink: /java-javadoc-tags/
+date: 2015-01-01 20:04:48.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+  _syntaxhighlighter_encoded: '1'
+  dsq_thread_id: '3771750658'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>The following are the most common tags used in Javadoc. Each tag has a word that follows it. For example, <code>@param latitude</code> means the parameter is "latitude".</p>
+<table>
+<thead>
+<tr>
+<th>Javadoc tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@author</td>
+<td>A person who made significant contribution to the code. Applied only at the class, package, or overview level. Not included in Javadoc output. It's not recommended to include this tag since authorship changes often.</td>
+</tr>
+<tr>
+<td>@param</td>
+<td>A parameter that the method or constructor accepts. Write the description like this: @param count Sets the number of widgets you want included.`.</td>
+</tr>
+<tr>
+<td>@deprecated</td>
+<td>Lets users know the class or method is no longer used. This tag will be positioned in a prominent way in the Javadoc. Accompany it with a @see or {@link} tag as well.</td>
+</tr>
+<tr>
+<td>@return</td>
+<td>What the method returns.</td>
+</tr>
+<tr>
+<td>@see</td>
+<td>Creates a see also list. Use {@link} for the content to be linked.</td>
+</tr>
+<tr>
+<td>{@link}</td>
+<td>Used to create links to other classes or methods. Example: {@link Foo#bar} links to the method <code>bar</code> that belongs to the class <code>Foo</code>. To link to the method in the same class, just include #bar.</td>
+</tr>
+<tr>
+<td>@since 2.0</td>
+<td>The version since the feature was added.</td>
+</tr>
+<tr>
+<td>@throws</td>
+<td>The kind of exception the method throws. Note that your code must indicate an exception thrown in order for this tag to validate. Otherwise Javadoc will produce an error. @exception is an alternative tag.</td>
+</tr>
+<tr>
+<td>@Override</td>
+<td>performs a check to see if the method is an override. used with interfaces and abstract classes.</td>
+</tr>
+</tbody>
+</table>
+<h2>Comments versus Javadoc tags</h2>
+<p>A comment in the code is signaled like this:</p>
+<p>[code]<br />
+// sample comment...</p>
+<p>/*<br />
+sample comment<br />
+*/<br />
+[/code]</p>
+<p>Javadoc does nothing with these comments.</p>
+<p>To include content in Javadoc, you add two asterisks at the start, before the class or method:</p>
+<p>[code]/**<br />
+*<br />
+*<br />
+*<br />
+*<br />
+*/[/code]</p>
+<p>(In Eclipse, if you type /** and hit return, it autofills the rest of the syntax automatically.)</p>
+<p>The format for adding the various element is like this:</p>
+<p>[code]<br />
+/**<br />
+* [short description]<br />
+* &lt;p&gt;<br />
+* [long description]<br />
+*<br />
+* [author, version, params, returns, throws, see, other tags]<br />
+* [see also]<br />
+*/<br />
+[/code]</p>
+<p>Here's a real example of Javadoc comments for a method.</p>
+<p>[code]<br />
+/**<br />
+	 * Zaps the roadrunner with the amount of volts you specify.<br />
+	 * &lt;p&gt;<br />
+	 * Do not exceed more than 30 volts or the zap function will backfire.<br />
+	 * For another way to kill a roadrunner, see the {@link Dynamite#blowDynamite()} method.<br />
+	 *<br />
+	 * @exception IOException if you don't enter an data type amount for the voltage<br />
+	 * @param voltage the number of volts you want to send into the roadrunner's body<br />
+	 * @see #findRoadRunner<br />
+	 * @see Dynamite#blowDynamite<br />
+	 */<br />
+	public void zapRoadRunner(int voltage) throws IOException {<br />
+		if (voltage &lt; 31) {<br />
+			System.out.println(&quot;Zapping roadrunner with &quot; + voltage + &quot; volts!!!!&quot;);<br />
+		}<br />
+		else {<br />
+			System.out.println(&quot;Backfire!!! zapping coyote with 1,000,000 volts!!!!&quot;);<br />
+		}<br />
+	}<br />
+[/code]</p>
+<h2>Where the Javadoc tag goes</h2>
+<p>You put the Javadoc description and tags <em>before</em> the class or method (no need for any space between the description and class or method).</p>
+<h2>What elements you add Javadoc tags to</h2>
+<p>You add Javadoc tags to classes, methods, and fields.</p>
+<ul>
+<li>For the @author and @version tags, add them only to classes and interfaces.</li>
+<li>The @param tags get added only to methods and constructors.</li>
+<li>The @return tag gets added only to methods.</li>
+</ul>
+<h2>Public versus private modifiers and Javadoc</h2>
+<p>Javadoc only includes classes, methods, etc. marked as public. Private elements are not included. If you omit <code>public</code>, the default is that the class or method is available to the package only. In this case, it is not included in Javadoc.</p>
+<h2>The description</h2>
+<p>There's a short and long description. Here's an example showing how the description part is formatted:</p>
+<p>[code lang="html"]<br />
+/**<br />
+ * Short one line description.<br />
+ * &lt;p&gt;<br />
+ * Longer description. If there were any, it would be<br />
+ * here.<br />
+ * &lt;p&gt;<br />
+ * And even more explanations to follow in consecutive<br />
+ * paragraphs separated by HTML paragraph breaks.<br />
+ *<br />
+ * @param  variable Description text text text.<br />
+ * @return Description text text text.<br />
+ */<br />
+public int methodName (...) {<br />
+    // method body with a return statement<br />
+}<br />
+[/code]</p>
+<p>(This example comes from <a href="http://en.wikipedia.org/wiki/Javadoc">Wikipedia entry</a>.)</p>
+<p>The short description is the first sentence, and gets shortened as a summary for the class or method in the Javadoc. After a period, the parser moves the rest of the description into a long description. Use <code>&lt;p&gt;</code> to signal the start of a new paragraph. You don't need to surround the paragraphs with opening and closing <code>&lt;p&gt;</code> tags -- the Javadoc compiler automatically adds them.</p>
+<p>Also, you can use HTML in your descriptions, such as an unordered list, code tags, bold tags, or others.</p>
+<p>After the descriptions, enter a blank line (for readability), and then start the tags. You can't add any more description content below the tags. Note that only methods and classes can have tags, not fields. Fields (variables) just have descriptions.</p>
+<p>Note that the first sentence is much like the <code>shortdesc</code> element in DITA. This is supposed to be a summary of the entire class or method. If one of your words has a period in it (like <code>Dr. Jones</code>), then you must remove the space following the period by adding <code>Dr.&amp;nbsp;Jones</code> to connect it.</p>
+<p>Avoid using links in that first sentence. After the period, the next sentence shifts to the long paragraph, so you really have to load up that first sentence to be descriptive.</p>
+<p>The verb tense should be present tense, such as <em>gets, puts, displays, calculates...</em></p>
+<p>What if the method is so obvious (for example, printPage) that your description ("prints a page") becomes obvious and looks stupid? Oracle says in these cases, you can omit saying "prints a page" and instead try to offer some other insight:</p>
+<blockquote><p>
+  Add description beyond the API name.<br />
+  The best API names are "self-documenting", meaning they tell you basically what the API does. If the doc comment merely repeats the API name in sentence form, it is not providing more information. For example, if method description uses only the words that appear in the method name, then it is adding nothing at all to what you could infer. The ideal comment goes beyond those words and should always reward you with some bit of information that was not immediately obvious from the API name. -- <a href="http://www.oracle.com/technetwork/articles/java/index-137868.html">How to write javadoc comments</a>
+</p></blockquote>
+<h2>Avoid @author</h2>
+<p>Commenting on Javadoc best practices, one person says to avoid @author because it easily slips out of date and the source control provides better indication of the last author. (<a href="http://blog.joda.org/2012/11/javadoc-coding-standards.html">Javadoc coding standards</a></p>
+<h2>Order of tags</h2>
+<p>Oracle says the order of the tags should be as follows:</p>
+<p>@author (classes and interfaces)<br />
+@version (classes and interfaces)<br />
+@param (methods and constructors)<br />
+@return (methods)<br />
+@throws (@exception is an older synonym)<br />
+@see<br />
+@since<br />
+@serial<br />
+@deprecated</p>
+<h2>@param tags</h2>
+<p>@param tags only apply to methods and constructors, both of which take parameters.</p>
+<p>After the @param tag, add the parameter name, and then a description of the parameter, in lowercase, with no period, like this:</p>
+<p>[code]<br />
+@param url  the web address of the site<br />
+[/code]</p>
+<p>The parameter description is a phrase, not a full sentence.</p>
+<p>The order of multiple @param tags should mirror their order in the method or constructor.</p>
+<p><a href="http://blog.joda.org/2012/11/javadoc-coding-standards.html">Stephen Colebourne recommends</a> adding an extra space after the parameter name to increase readability (and I agree).</p>
+<p>As far as including the data type in the parameter description, Oracle says:</p>
+<blockquote><p>
+  By convention, the first noun in the description is the data type of the parameter. (Articles like "a", "an", and "the" can precede the noun.) An exception is made for the primitive int, where the data type is usually omitted. -- <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag">How to write doc comments using Javadoc</a>
+</p></blockquote>
+<p>The example they give is as follows:</p>
+<p>[code]<br />
+@param ch        the character to be tested<br />
+[/code]</p>
+<p>However, the data type is visible from the parameters in the method. So even if you don't include the data types, it will be easy for users to see what they are.</p>
+<p>Note that you can have multiple spaces after the parameter name so that your parameter definitions all line up.</p>
+<p>@param tags must be provided for every parameter in a method or constructor. Failure to do so will create an error and warning when you render Javadoc.</p>
+<p>Note that usually classes don't have parameters. There is one exception: Generics. Generic classes are classes that work with different type of objects. The object is specified as a parameter in the class in diamond brackets: <code>&lt;&gt;</code>. Although the Javadoc guidance from Oracle doesn't mention them, you can add a @param tag for a generic class to note the parameters for the generic class. See this <a href="http://stackoverflow.com/questions/2015972/is-there-a-javadoc-tag-for-documentating-generic-type-parameters">StackOverflow post</a> for details. Here's an example from that page:</p>
+<p>[code lang="java"]<br />
+/**<br />
+ * @param &lt;T&gt; This describes my type parameter<br />
+ */<br />
+class MyClass&lt;T&gt;{</p>
+<p>}<br />
+[/code]</p>
+<h2>@returns tag</h2>
+<p>Only methods return values, so only methods would receive a @returns tag. If a method has <code>void</code> as a modifier, then it doesn't return anything. If it doesn't say <code>void</code>, then you must include a @return tag to avoid an error when you compile Javadoc.</p>
+<h2>@throws tag</h2>
+<p>You add @throws tags to methods only if the method throws a particular kind of error.</p>
+<p>Here's an example:</p>
+<p>[code]<br />
+@throws IOException if your input format is invalid<br />
+[/code]</p>
+<p>Stephen Colebourne recommends starting the description of the throws tag with an "if" clause for readability.</p>
+<blockquote><p>
+  The @throws feature should normally be followed by "if" and the rest of the phrase describing the condition. For example, "@throws if the file could not be found". This aids readability in source code and when generated.
+</p></blockquote>
+<p>If you have multiple throws tag, arrange them alphabetically.</p>
+<h2>Doc comments for constructors</h2>
+<p>It's a best practice to include a constructor in a class. However, if the constructor is omitted, Javadoc automatically creates a constructor in the Javadoc but omits any description of the constructor.</p>
+<p>Constructors have @param tags but not @return tags. Everything else is similar to methods.</p>
+<h2>Doc comments for fields</h2>
+<p>Fields have descriptions only. You would only add doc comments to a field if it were something a user would use.</p>
+<h2>Cases where you don't need to add doc comments</h2>
+<p>Oracle says there are 3 scenarios where the doc comments get inherited, so you don't need to type them:</p>
+<blockquote><p>
+  When a method in a class overrides a method in a superclass<br />
+  When a method in an interface overrides a method in a superinterface<br />
+  When a method in a class implements a method in an interface<br />
+  -- <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag">How to write Javadoc comments</a>
+</p></blockquote>
+<h2>@see tags</h2>
+<p>The @see tag provides a see also reference. There are</p>
+<p>[code]<br />
+@see #field<br />
+@see #Constructor(Type, Type...)<br />
+@see #Constructor(Type id, Type id...)<br />
+@see #method(Type, Type,...)<br />
+@see #method(Type id, Type, id...)<br />
+@see Class<br />
+@see Class#field<br />
+@see Class#Constructor(Type, Type...)<br />
+@see Class#Constructor(Type id, Type id)<br />
+@see Class#method(Type, Type,...)<br />
+@see Class#method(Type id, Type id,...)<br />
+@see package.Class<br />
+@see package.Class#field<br />
+@see package.Class#Constructor(Type, Type...)<br />
+@see package.Class#Constructor(Type id, Type id)<br />
+@see package.Class#method(Type, Type,...)<br />
+@see package.Class#method(Type id, Type, id)<br />
+[/code]</p>
+<p>-- <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag">How to write Javadoc comments</a></p>
+<h2>Links</h2>
+<p>You can create links to other classes and methods using the <code>{@link}</code> tag.</p>
+<p>Here's an example from <a href="http://blog.joda.org/2012/11/javadoc-coding-standards.html">Javadoc coding standards</a> on making links:<br />
+[code]<br />
+  /**<br />
+   * First paragraph.<br />
+   * &lt;p&gt;<br />
+   * Link to a class named 'Foo': {@link Foo}.<br />
+   * Link to a method 'bar' on a class named 'Foo': {@link Foo#bar}.<br />
+   * Link to a method 'baz' on this class: {@link #baz}.<br />
+   * Link specifying text of the hyperlink after a space: {@link Foo the Foo class}.<br />
+   * Link to a method handling method overload {@link Foo#bar(String,int)}.<br />
+   */<br />
+  public ...<br />
+[/code]</p>
+<p>To link to another method within the same class, use this format: <code>{@link #baz}</code>. To link to a method in another class, use this format: <code>{@link Foo#baz}</code>.</p>
+<p>You want to avoid always hyperlinking things. In that case, it's better to use <code>&lt;code&gt;</code> tags.</p>
+<p>If you want to create a "see also" reference, use this format: <code>@see #baz</code>. To change the linked text, put a word after <code>#baz</code> like this: <code>@see #baz Baz method</code>.</p>
+<h2>Previewing Javadoc comments</h2>
+<p>In Eclipse, see the Javadoc tab at the bottom of the screen to preview the Javadoc information included for the class you're viewing.</p>
+<p><img src="/images/javadocpane.png" alt="javadocpane" width="548" height="405" class="alignnone size-full wp-image-22438" /></p>
+<h2>More information</h2>
+<p><a href="http://www.oracle.com/technetwork/articles/java/index-137868.html">Oracle's explanation of Javadoc tags</a></p>
+<p>And <a href="http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html">Javadoc</a></p>

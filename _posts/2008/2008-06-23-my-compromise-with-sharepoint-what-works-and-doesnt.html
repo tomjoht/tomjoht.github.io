@@ -1,0 +1,57 @@
+---
+layout: post
+title: My Compromise with SharePoint -- What Works and What Doesn't
+date: 2008-06-23 22:59:38.000000000 -07:00
+categories:
+- general
+- web-design
+tags:
+- customization
+- Flare
+- help authoring
+- SharePoint
+- Technical Writing
+status: publish
+type: post
+published: true
+meta:
+  _kramer_ref_ping: http://www.sapscene.com/sharepoint/?adwords_sapscene&gclid=CPC-yqXLkJQCFQURuwodsy18lw
+  _edit_last: '1'
+  _kramer_synch: '1216095823'
+  dcssb_short_url: http://bit.ly/PeUy3a
+  sfw_comment_form_password: GTZ6NQbsk5PA
+  _sexybookmarks_shortUrl: http://tinyurl.com/4t8zbaw
+  _sexybookmarks_permaHash: a0b26d91ba9028668b17fc44a9b4bd11
+  _wp_rp_image: '15979'
+  _wp_rp_related_posts_query_result_cache_expiration: '1420760157'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1329";s:5:"score";s:18:"149.51685056618877";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"1348";s:5:"score";s:18:"130.33657983543017";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"5084";s:5:"score";s:18:"129.84628022241841";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1583";s:5:"score";s:18:"128.51898166208278";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"4907";s:5:"score";s:16:"89.1347169633676";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6457";s:5:"score";s:17:"84.94616314395309";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1517";s:5:"score";s:16:"84.6204458108377";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2950";s:5:"score";s:17:"82.36969866129294";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3030";s:5:"score";s:17:"81.40199014381724";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"1835";s:5:"score";s:16:"80.1842164698987";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1329";s:5:"score";s:17:"148.4213881750262";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"1348";s:5:"score";s:17:"129.5893315527501";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"5084";s:5:"score";s:18:"128.97181633000957";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1583";s:5:"score";s:18:"128.05919481219004";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"4907";s:5:"score";s:17:"88.78612805967333";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6457";s:5:"score";s:17:"84.41096742845338";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1517";s:5:"score";s:17:"84.08219155082979";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2950";s:5:"score";s:17:"82.07602473016135";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3030";s:5:"score";s:16:"80.9044229963528";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"1835";s:5:"score";s:17:"79.72884966642819";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"1030";s:5:"score";s:17:"79.72884966642819";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"802";s:5:"score";s:17:"79.72884966642819";}}
+  fsb_social_facebook: '1'
+  fsb_social_twitter: '38'
+  fsb_social_linkedin: '0'
+  fsb_social_google: '0'
+  dsq_thread_id: '3770199354'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><a href="http://www.idratherbewriting.com/wp-content/uploads/2008/06/collide.jpg"></a>In a previous post, I mentioned my desire to <a href="http://www.idratherbewriting.com/2008/05/28/exploring-web-20-possibilities-in-a-sharepoint-endorsed-environment/">use SharePoint as a help authoring platform</a> because it provides a Web 2.0 experience that is company-sanctioned. SharePoint not only has blogs, wikis, and RSS feeds, but also integrates with Active Directory, Outlook 2007, and has integrated search across all content.</p>
+<p>However, the more I tried to use SharePoint as a help authoring tool, the more problems I ran into. SharePoint doesn't handle role-based content very well. For example, if you have administrators and regular users, it's not easy to create two versions of the same help material. SharePoint does have audience targeting, but only if your audience is already tagged with roles in Active Directory (and if active directory is integrated with SharePoint). <!--more--></p>
+<p>Additionally, SharePoint doesn't single source well. For example, if you have to create several role-based guides, you're in for a challenge. You can create views in SharePoint where all content shows, and then copy that content into Word. But then you have to reformat much of it, add cross-references, index entries, a table of contents, headers and footers, sub-lists, and other formatting.</p>
+<p>Formatting the content in SharePoint itself is also a kluge. SharePoint's wikis are primitive. They don't allow comments. And if you add metadata to sort the wiki pages into different views, the metadata (columns) appear to the user.</p>
+<p>SharePoint's blog posts give you a comments field below the post, but it still looks too blog-like. You lose out on the table of contents navigation pane on the left. You can't quickly navigate through an outline of content. However you try arranging the help topics, it just doesn't look like help. Users are a bit perplexed and don't immediately know how to use the system.</p>
+<p>Even more important, though, almost no one comments on help topics. As much as I'd like to web-2.0-ize my help, it's not the same as a personal blog on the web. People at companies simply aren't inclined to comment on help, so going out of my way to add commenting features below each topic is like adding engravings in sidewalk cracks -- sure it may look nice, but no one has a use for it or cares much.</p>
+<p>I didn't renounce SharePoint altogether. I'm still using the web space to organize my content and the blog to communicate information to users. So I've made a compromise. First, I <a href="http://www.idratherbewriting.com/2008/06/21/customizing-your-sharepoint-site-read-these-10-conceptsgotchas-first/">customized the SharePoint site</a> to look like a sharp looking website rather than a SharePoint site. The default help URL in my application takes users to a SharePoint landing page, where they can choose their help deliverable -- online help, quick reference guide, user manual, or video. All my help content is hosted on SharePoint, so I can publish and update it whenever I need to.</p>
+<p>"Blog" is a button at the top of the landing page. On the blog I post release notes, answers to common questions, and other tidbits of information, like the application's release cycle and upcoming training. I must admit, though, that I don't have as much to say on my product blog <a href="http://www.idratherbewriting.com/2008/04/16/why-software-applications-need-product-blogs-and-why-they-dont-get-them/">as I originally thought</a>.</p>
+<p>Finally, I'm still tracking visitors to the help. Because of the integration with Active Directory, I can see the names and departments of everyone who visits the help. And they can subscribe to RSS feeds and email alerts for the blog. (Now if I can just teach them how to pull RSS feeds into Outlook 2007 ... )</p>
+<p>I'm not saying SharePoint can't be used as a help authoring tool, but it's more suited to knowledge base situations, where you have hundreds of topics and you're not expected to format them out into any printable guides.</p>
+<p>And I'm also not discounting the value of Web 2.0. In some situations, such as promoting an application on the web, more interactive help topics in the form of blogs or wikis might be powerful. But inside the firewall, people often just want to do their jobs.</p>
+<p>I returned to Flare for my core help authoring tasks. Let me just say that in doing so, I felt a sigh of relief. Flare provides the feature set for help authoring that I need -- conditional tagging, multiple outputs, modifiable skins, hotspots, advanced styles, etc. Despite its quirks, it works.</p>
+<p>The way I see it, I'm taking the best of both worlds and combining them.</p>
+<p><a href="http://www.idratherbewriting.com/wp-content/uploads/2008/06/collide.jpg"><img class="alignnone size-full wp-image-1638" title="Two worlds/galaxies colliding, or something like that" src="/images/collide2.jpg" alt="" width="500" height="218" /></a></p>
+<p> </p>

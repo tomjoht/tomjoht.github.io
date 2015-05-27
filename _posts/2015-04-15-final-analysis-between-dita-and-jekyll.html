@@ -1,0 +1,135 @@
+---
+layout: post
+title: Final analysis between DITA and Jekyll
+date: 2015-04-15 13:17:12.000000000 -07:00
+categories:
+- dita
+- jekyll
+tags: []
+status: publish
+type: post
+published: true
+series: "Jekyll versus DITA"
+weight: 9
+---
+{% include series.html %}
+
+
+<p>As the ninth post in this series, I think I'm wrapping it up. This post will contain my final analysis comparing Jekyll with DITA.</p>
+<p>During this series, I had the misfortune of cutting a tendon in my thumb with a box cutter knife, and so typing has been difficult. I've had to wear a cast on my thumb to immobilize my tendon as it heals.</p>
+<p>In fact, I'm dictating this post using Mac’s dictation capabilities, which are surprisingly good. And I have found that I actually like dictating posts. Also, I’ve been walking to work instead of riding my bike, and I find that I really enjoy walking.</p>
+<p>Okay, let's get to the final analysis. Here's the deal. I'm going to give it to you straight. Both DITA and Jekyll are complex. Whatever system you adopt, it's going to take some learning. The question is, which system are you more interested in learning?</p>
+<p>For me, I've always been in love with the web. No doubt this blog contributes to my fascination with web publishing, because I've seen how powerful, rewarding, and fun it is to interact with others through a blog.</p>
+<p>I've always felt that publishing in tech comm should be more similar and integrated with the web, somewhat like my experience with this blog. As a result, I’ve gravitated towards web publishing methodologies with my technical writing projects.</p>
+<p>Throughout this series, I’ve shown that you can pretty much do anything in Jekyll that you can do in DITA. From conditional processing to multiple outputs to content reuse, Jekyll can do all of this and more. The system you choose is more a matter of what system better fits your style and skill set.</p>
+<h2>How to know if Jekyll is right for you</h2>
+<p>If you're really into web publishing, you will love Jekyll. If you like front-end design, if you like CSS, if you like designing navigation systems with websites, if you like viewing and working with content in the browser, if you enjoy having control over every aspect of the site, then you will love Jekyll.</p>
+<p>If you're technical enough to understand the details of web design and web publishing (especially HTML, CSS, and JavaScript), you will love Jekyll — period. Nothing compares to the freedom and flexibility of this static site generator.</p>
+<p>If, on the other hand, you aren’t familiar with CSS or HTML, and you don’t want to learn any JavaScript or Liquid or Coffeescript, or maybe you just want to focus on content, then this Jekyll platform is not for you.</p>
+<p>In my pilot period with Jekyll, in which I've done an entire project using Jekyll, I've also had to discover how to use Jekyll as a technical writer. There were no real instructions on how to do single-source publishing and other kinds of tech writer needs with Jekyll. Of course, there are many Jekyll tutorials on a variety of things, but many are geared toward bloggers rather than technical writers.</p>
+<p>As a result, I’ve spent a lot of time in tooling that I could have otherwise spent in developing my content. Now that I’ve figured out the tooling, though, it shouldn’t be as much of a time commitment, so maybe I’m overestimating the need to understand these web technologies when using Jekyll.</p>
+<h2>My analysis of DITA</h2>
+<p>Before I get into this section, I just want to note that if you ever use dictation, the Mac requires you to pronounce DITA like “DEETA” instead of “DIITA,” which it translates to “dinner.”</p>
+<p>If you're working in a big doc shop, where you have lots of technical writers, and you don't want them focused at all on any aspect of web design, or style sheets, or customization, if you want to have them focus solely on content, on filling up information templates for tasks, concepts, reference material, then then DITA might be a good fit.</p>
+<p>If you want to plug into an existing platform that will facilitate publishing, and you have a budget and money to spend (like $30k), and you support the idea of information typing and think it's a good approach to doing technical documentation, then DITA will be a good fit for you.</p>
+<p>DITA is rewarding in some ways because the architects clearly defined an approach to technical documentation that they feel provides a good user experience with information. There’s a certain “high” you get when your topics validate and the project builds successfully. The tools for writing in DITA are very well designed to support the technical writer. Everything is set up to cater to scenarios that technical writers face.</p>
+<p>In contrast, with Jekyll, I almost felt like a guest wandering in a web designer's territory. In fact, I'm not even sure if Jekyll works on Windows (web designers almost invariably use Macs). (The Mac user would ask, does that even matter?)</p>
+<p>DITA can be frustrating if you're a creative, autonomous person. DITA can be frustrating if you are a lone writer trying to create an attractive output for help on the web, and you want to style and adjust the layout to match a particular brand or experience. DITA can also be frustrating if you’re trying to facilitate doc publishing among a group of developers.</p>
+<p>But if you're not this sort of person, if you're more the type who wants to plug it into an existing system, one that is already been defined, with tools that have been set up and optimized for this information model, then DITA will fit you well.</p>
+<p>With DITA, it's really hard to make changes to the output. The changes that you make are going to require either a specialized technical skill set working with XML, or some tools team or outsourced labor to help set up some of the transforms and outputs, such as a customized PDF or customized webhelp. You probably won’t find willing UX people at your workplace eager to step in and create these XML customizations (but you will with Jekyll, because it uses the same UX toolset).</p>
+<p>You could just use all the default outputs from OxygenXML (including some customization with their webhelp skin builder), and the outputs will look decent. You could also learn all these XML technologies, become a specialist, and to do all of this yourself. But once you finish, you really shouldn't have to touch the transforms much, so you might forget much of it.</p>
+<h2>My situation</h2>
+<p>In my situation, I'm the only writer in my location. Although there are two other writers in Arizona, I’m the master of my own projects. I don't have to collaborate much with other technical writers. I don't have to worry about standardizing an approach across dozens or hundreds of other writers all working in the same toolchain, style, product, and and platform. (Just standards for the three of us.)</p>
+<p>I am also creative, web savvy, and I like the freedom to control every aspect of the help authoring and publishing process. Jekyll fits me really well. But I know other people in other contexts with other requirements may find it frustrating and would prefer a more out-of-the-box experience.</p>
+<p>It was my hope in setting up a Jekyll theme to simplify Jekyll so that it could be just as push button as any other tool. But I know with the amount of wrangling that I've had to do to get Jekyll to do what I want, other people who don't have my background or interests may prefer something more out-of-the-box and defined, such as Madcap Flare, or another help authoring tool.</p>
+<p>I will continue writing about Jekyll. I'm still developing my Jekyll theme and will continue to share my adventures with static site generators.</p>
+<h2>Comparison table</h2>
+<p>Here’s a brief comparison table between the two systems. Note that with DITA, many different vendors might offer different features based on how they process the DITA content, so this list is only a light sketch at best.</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>DITA</th>
+<th>Jekyll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>separation of content from presentation</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>PDF output</td>
+<td>yes</td>
+<td>yes (through Prince)</td>
+</tr>
+<tr>
+<td>different layouts for different pages</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>table of contents</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>link management</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>conditional content</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>tags and categories</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>search</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>content reuse</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>variables</td>
+<td>yes (through keyrefs)</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>open source</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>text file format</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>integration with revision control</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>custom JavaScript in pages</td>
+<td>kind of</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>cool name</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<p>Did I cover everything that you expected me to cover? If not, let me know and I’ll provide some answers in comments.</p>
+<p>I’m ending this series now and will begin another one. In my next series, I'm going to jump into user-centered documentation.</p>

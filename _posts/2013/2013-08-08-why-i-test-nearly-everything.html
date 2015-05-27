@@ -1,0 +1,79 @@
+---
+layout: post
+title: Why I Test Nearly Everything
+date: 2013-08-08 21:40:23.000000000 -07:00
+categories:
+- findability
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  dcssb_short_url: http://tinyurl.com/lxx9wdt
+  _sd_is_markdown: '1'
+  _wp_rp_image: empty
+  _wp_rp_related_posts_query_result_cache_expiration: '1421193484'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20170";s:5:"score";s:17:"98.97133071575573";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20119";s:5:"score";s:16:"77.5776508731358";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20890";s:5:"score";s:17:"72.10570341665871";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20328";s:5:"score";s:17:"58.47779304930704";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:18:"56.916755989827536";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20364";s:5:"score";s:18:"54.604792981731514";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:16:"48.3133195555938";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20868";s:5:"score";s:17:"45.19819356311219";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"19895";s:5:"score";s:18:"42.926903969049434";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"7173";s:5:"score";s:17:"40.68777129534861";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20170";s:5:"score";s:17:"99.40470649993728";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20119";s:5:"score";s:17:"77.61156102728235";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20890";s:5:"score";s:17:"71.91448905958823";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20328";s:5:"score";s:17:"58.44106041424257";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:17:"57.59238332579859";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20364";s:5:"score";s:17:"55.31127840265388";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"49.03990735419611";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20868";s:5:"score";s:17:"45.53264961651229";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"19895";s:5:"score";s:17:"43.20954772529979";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"7173";s:5:"score";s:18:"40.528994628252306";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"38.917054016028146";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"17259";s:5:"score";s:17:"36.40188468270777";}}
+  fsb_social_facebook: '2'
+  fsb_social_twitter: '12'
+  fsb_social_linkedin: '9'
+  fsb_social_google: '0'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>One of the forms of writing I like most is the essay, which is a form that has strong origins with 16th-century Michel de Montaigne. Montaigne saw essays as a kind of attempt or <em>test</em> of an idea and his judgement about it (see <a href="http://www.nytimes.com/2011/03/13/books/review/montaignes-moment.html">Montaigne's Moment</a>).</p>
+<p>Since I like the essay format, it's not surprising that I also like to test content. In fact, testing content constitutes one of the main characteristics of good technical writing. By testing content, we arrive at a document that is not only more accurate, but which also captures the details of the process in ways that get missed when a tech writer merely transcribes notes from a developer.</p>
+<h2>What I mean by testing</h2>
+<p>First, I should probably define what I mean by testing. In the scenario of technical writing, a test is a confirmation of how something works. Your task as a technical writer is mainly to explain how a technical product works in the context of a user's goals, so it should not be any surprise that testing one's instructions against the software is a core activity.</p>
+<p>Testing is so fundamental to good tech writing that one might think everyone already does it. Yet testing is not as easy as one might expect, particularly because software in development is not fully functional. That is, the software usually doesn't work as it should at the time you're writing instructions.</p>
+<p>Without fully functional software, the results of testing may be hard to analyze. Is the software broken, or is there a misunderstanding in how it works, or is the functionality not yet coded?</p>
+<h2>Sample test scenario</h2>
+<p>For example, let's suppose you're documenting how to create a gizmo. From an engineering spec, the developer notes that a certain call with a specific configuration yields the gizmo. As a technical writer, do you merely copy over the engineering spec, assuming that it's accurate and detailed as it needs to be?</p>
+<p>You could, and whether it works or not is something the user will find out. But you could also test it first. Testing may require you to set up a web development environment or some IDE where you can run code. Or it may involve just clicking buttons in a GUI and assessing the results. You usually have a development or staging environment of some kind where you can play around with sample data.</p>
+<p>When you test something, I guarantee that much of the time, it won't work. You'll get in there and find the parameters are confusing, or the process will require some prerequisites you didn't know about. As you actually go through the process, you'll find yourself asking all kinds of questions you didn't consider before. Most importantly, in testing, or doing, you'll be getting a first-hand perspective about what the user will experience. With this perspective, you can add notes that you wouldn't otherwise think to add without having done the test.</p>
+<h2>Deliberating about the results</h2>
+<p>One reason I like testing is because I can usually answer my own questions about functionality. Rather than ask a developer for endless details, I can create tests and find out answers myself. Usually this works great, but sometimes it leads to some open-ended deliberations. If something doesn't work, you're left with a few options:</p>
+<ul>
+<li>The information you have is incomplete and you're missing some key details about configuration. In short, you're the error, not the software.</li>
+<li>The software doesn't work as it should. There's a bug or some other defect.</li>
+<li>The software isn't finished yet and you're testing a version that's too embryonic. </li>
+</ul>
+<p>Even if the software does work, you have to be careful of false positives. You may have managed to get the result you wanted, but through an unintended, inefficient route. This is especially true with code samples.</p>
+<h2>When the answer isn't clear</h2>
+<p>When something isn't working as it should, and you triple-check to make sure you're doing things correctly, you either ask an engineer or log a bug about the problem (using a system like JIRA).</p>
+<p>Before I log a bug, though, I usually confer with an engineer because sometimes a quick conversation can clear up an issue. If you log a bug, you create more overhead to deal with (more people look at the issue, and then it has to be managed through a JIRA life cycle).</p>
+<p>After a brief conversation, if the engineer says it might be a bug, I prefer to log the bug myself. In the issue, be precise about the conditions that cause the error. Note the steps to reproduce it, include details about the scenario, the browser, the data -- whatever. More detail is critical because sometimes an engineer may not be able to reproduce the error you're seeing.</p>
+<p>If the engineer can't reproduce the error, then in the engineer's mind, the bug doesn't really exist. Reproducibility is key to problem solving. In fact, in my experience, if the engineer can't reproduce the bug, the engineer often dismisses the bug entirely. If this happens, consider creating a short video (using Jing) to show the bug. This way the engineer will be able to reply the video to see the bug, and maybe he or she will see something about my configuration that you missed.</p>
+<h2>When you can't test something</h2>
+<p>Unfortunately, you can't always test the product. I once worked as a technical writer documenting a storage array system. There wasn't exactly any test storage array I could play around with. The storage array cost hundreds of thousands of dollars and included advanced RAID arrays that were beyond the scope of what I was documenting.</p>
+<p>In that situation, to create a "run book" for the network administrator (my task), I had to interview a network engineer and later ask him to review what I wrote. It was kind of painful and tedious -- not my favorite job as a technical writer. But still interesting.</p>
+<p>Another scenario where testing isn't possible is when the product is so complicated or requires so much setup that it's beyond the tech writer's scope to test. In some scenarios you may be reduced to editing something that engineers write. Think about a product that involves a nuclear reactor or airplane engines. In these cases, you'll need to make sure quality assurance signs off on the instructions and gives their certification.</p>
+<p>One reason I like my current job so much is because I can test JavaScript code samples myself. I can load JavaScript in my browser and see whether they work or not. And if they don't, I can continue tweaking and experimenting until I get a better understanding. This is when technical writing really gets to be enjoyable and fun -- when I can discover information for myself through tests and hypotheses that I try out, rather than relying on information that other people explain (or don't explain).</p>
+<h2>Testing with real versus fake data</h2>
+<p>Another scenario that's hard to test is a scenario involving real data. In your tests, you usually use simple data to make sure basic functionality is there. But what if your users will use data hundreds or thousands of times that size?</p>
+<p>You might assume that if it works for small, simple data, then it will work for massive quantitates of data too -- but that assumption may not be right. For example, suppose you verify that a JavaScript call with your SDK works just fine -- with your existing data. Then the product is released to customers and someone implements the SDK to make 1,000 calls per minute. Suddenly the server buckles and everything starts behaving slowly.</p>
+<p>Well, you tested it, and it worked, but you didn't test it with the right data. However, testing with more extensive data is more within the realm of the Quality Assurance (QA) team. A QA engineer can load up a system to simulate real data loads and determine how the product behaves under that stress.</p>
+<h2>Regression testing</h2>
+<p>Another element I rarely test as a technical writer is regression. When a new feature is introduced, how does the new feature impact all the previous features? We often add a new section to our documentation to accommodate the new feature without going back to test all the previous instructions to make sure they still function as designed.</p>
+<p>However, again, this kind of regression testing is usually beyond the scope and domain of technical writers. One doesn't have infinite bandwidth for testing, and if we did, we would be doing the job of QA as well as tech pubs. Still, regression is probably good to be aware of. It's a best practice to consider testing a few areas that might be affected by the new feature.</p>
+<h2>Automating documentation from testing</h2>
+<p>Testing and tech pubs have always had a close relationship. Testing often relies on specific test cases (steps to test a feature) that look a lot like user instructions (steps to accomplish a task). People who create automatic documentation do so by automating test scripts into end-user documentation.</p>
+<p>I'm sure I'm not the only one who has noticed some striking parallels between test cases and end-user documentation, only to wonder if there's not some duplication of effort between the two. To what extent can tech writers leverage test case steps to facilitate documentation?</p>
+<p>While I don't think automated documentation is practical, I'd say that when possible, read through the test cases from Quality Assurance for the sake of information gathering. If you can look through test cases and get a better feel for how a product is supposed to work, it will make it that much easier to write end-user documentation.</p>
+<p>In looking at test cases, remember that a QA engineer writes test cases to confirm whether a feature works or not, and a tech writer writes instructions to help users achieve a goal. Theoretically a user's goals and a product's features should be in alignment -- but sometimes an application is general enough to allow for a wide variety of uses, so the two purposes aren't always closely aligned.</p>
+<h2>Agile testing and anticipated bugs</h2>
+<p>I've found that writing and testing documentation almost always leads me to logging bugs. At a former job, I once expressed some concern that our software had too many bugs in it, and as a result, we were losing the confidence of the end-users. End-users started to expect that problems and other defects were commonplace with the software we released.</p>
+<p>A QA engineer explained that in agile, testing is often done by the users themselves. He said, "Why should I test something when I have thousands of end-users who will test the product for me when we release it?" In a waterfall methodology this idea would be insane. But in agile methodology, the idea is to act quickly on the feedback you receive from people (e.g., bugs) and make updates to your software in a much more immediate timeframe. In this paradigm, every user is a tester.</p>
+<p>This also means that if users don't complain about a feature, there are no bugs associated with that feature, or at least none worth fixing -- at least from a developer's point of view.</p>
+<p>For technical writers, this move toward agile end-user testing means that software may have a lot more bugs in it than we originally assume. Developers and QA departments are anticipating and expecting submissions about bug reports, and as product experts writing information about every detail of the product, it would be expected that tech writers log a lot of bugs.</p>
+<p>So when you find yourself in JIRA interacting a lot, recognize that this is all part of the agile process. (By the way, it's incredibly satisfying to find bugs. It means you've identified an issue that developers, managers, and other engineers missed. You know the product in more intimate detail than others in the company!)</p>
+<p>As you log bugs and point out gaps in products, you can help the team create better products. In return, you'll be seen by the engineers as a more valuable member of the team, not just an afterthought or footnote. When they respect you more, they'll review your content more readily, and the whole process improves from this rapport and interaction.</p>
+<p>In sum, it's a best practice to test everything. Stand by what you write, and don't publish anything if you can't verify that your instructions produce the result you promised. I can't always follow this ideal, but it's written in my tech writing philosophy.</p>

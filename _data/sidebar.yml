@@ -1,0 +1,195 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: JavaScript
+      items:
+        - title: Introduction
+          url: /javascript/
+        - title: Numbers
+          url: /numbers-javascript/
+        - title: Strings
+          url: /strings-javascript/
+        - title: Variables
+          url: /variables-javascript/
+        - title: Dates
+          url: /dates-javascript/
+        - title: Loops
+          url: /loops-javascript/
+        - title: Functions
+          url: /functions-javascript/
+        - title: Objects
+          url: /objects-javascript/
+        - title: Conditional code
+          url: /conditional-code-javascript/
+        - title: Arrays
+          url: /arrays-javascript/
+        - title: Events and listeners
+          url: /events-and-listeners-javascript/
+        - title: jQuery
+          url: /jquery-a-javascript-library-javascript/
+        - title: Inserting elements
+          url: /insertion-of-elements-javascript/
+        - title: Document object model
+          url: /document-object-model-javascript/
+        - title: Firefox and Firebug
+          url: /firefox-and-firebug-javascript/
+        - title: AJAX
+          url: /ajax-javascript/
+    - title: Profile Matching
+      audience: fe, customer
+      platform: all
+      product: all
+      version: "1.0"
+      items:
+        - title: Matching Overview
+          url: /matching_overview/
+          audience: fe, customer
+          platform: all
+          product: all
+          version: "1.0"
+
+        - title: Merging Profiles
+          url: /merging_profiles/
+          audience: fe, customer
+          platform: all
+          product: all
+          version: "1.0"
+          thirdlevel:
+            - title: Video Tutorials
+              audience: fe, customer
+              platform: all
+              product: all
+              version: "1.0"
+              thirdlevelitems:
+                - title: "Scenario 1: Basic Matching"
+                  url: /scenario1/
+                  audience: fe, customer
+                  platform: all
+                  product: all
+                  version: "1.0"
+    - title: Java
+      items:
+        - title: Merging Profiles
+          url: /merging_profiles/
+          thirdlevel:
+            - title: Core concepts
+              thirdlevelitems:
+                - title: Classes
+                  url: /java-classes/
+                - title: Methods
+                  url: /java-methods/
+                - title: Objects
+                  url: /java-objects/
+                - title: Constructors
+                  url: /java-constructors/
+                - title: Interfaces
+                  url: /java-interfaces/
+                - title: Subclasses
+                  url: /java-subclasses/
+                - title: Inheritance
+                  url: /java-inheritance/
+                - title: Packages
+                  url: /java-packages/
+                - title: Getters and setters
+                  url: /java-getters-and-setters/
+            - title: Modifiers
+              thirdlevelitems:
+                - title: Modifiers
+                  url: /java-modifiers/
+                - title: Access modifiers
+                  url: /java-access-modifiers/
+                - title: Abstract methods
+                  url: /java-abstract-methods/
+            - title: Fields
+              thirdlevelitems:
+                - title: Variables
+                  url: /java-variables/
+                - title: Constants
+                  url: /java-constants/
+                - title: Primitive data types
+                  url: /java-primitive-data-types/
+                - title: Setters
+                  url: /java-setters/
+            - title: Error handling
+              thirdlevelitems:
+                - title: Handling exceptions
+                  url: /java-handling/exceptions/
+            - title: Loops
+              thirdlevelitems:
+                - title: Loops
+                  url: /java-loops/
+                - title: Continue
+                  url: /java-continue/
+                - title: If else
+                  url: /java-if-else/
+                - title: Break
+                  url: /java-break/
+            - title: Maps
+              thirdlevelitems:
+                - title: Hashmaps
+                  url: /java-hashmaps/
+                - title: Treemaps
+                  url: /java-treemaps/
+                - title: Collections Framework
+                  url: /java-collections-framework/
+            - title: Javadoc
+              thirdlevelitems:
+                - title: Javadoc tags
+                  url: /java-javadoc-tags/
+                - title: Code formatting
+                  url: /java-code-formatting/
+                - title: Comments
+                  url: /java-comments/
+            - title: J2EE
+              thirdlevelitems:
+                - title: Servlet
+                  url: java-servlet
+                - title: Tomcat
+                  url: /java-tomcat/
+            - title: Related Tools
+              thirdlevelitems:
+                - title: Eclipse IDE
+                  url: /java-eclipse/
+                - title: Eclipse shortcuts
+                  url: /java-eclipse-shortcuts
+                - title: Mercurial
+                  url: /java-mercurial/
+            - title: Collaboration
+              thirdlevelitems:
+                - title: Share files with others
+                  url: /java-share-files/
+            - title: Miscellaneous
+              thirdlevelitems:
+                - title: Enums
+                  url: /java-enums/
+                - title: Garbage collection
+                  url: /java-garbage-collection/
+                - title: Generics
+                  url: /java-generics/
+                - title: Delegates
+                  url: /java-delegates/
+                - title: Null
+                  url: /java-null/
+                - title: Inner classes
+                  url: /java-inner-classes/
+                - title: Casting
+                  url: /java-casting/
+                - title: Override
+                  url: /java-override/
+                - title: Polymorphism
+                  url: /java-polymorphism/
+                - title: Static blocks
+                  url: /java-static-blocks/
+                - title: Stub
+                  url: /java-stub/
+                - title: Swing
+                  url: /java-swing/
+                - title: Returns
+                  url: /java-return/
+                - title: JAR file
+                  url: /java-jar-file/
+                - title: Class path
+                  url: /java-class-path/
+
+

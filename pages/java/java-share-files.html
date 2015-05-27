@@ -1,0 +1,92 @@
+---
+layout: page
+title: 'Java: Share files with others using Git and Github'
+permalink: /java-share-files/
+date: 2015-01-03 22:03:12.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+  _syntaxhighlighter_encoded: '1'
+  dsq_thread_id: '3771280035'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>What's the best way to share Java files with others, especially in a tutorial scenario? Here's one way to share files using Github and Eclipse.</p>
+<h2>Prerequisites</h2>
+<p>If you're sharing Java files, you need Eclipse and the JDK as well as Git. If you're just sharing regular files, you only need Git.</p>
+<ul>
+<li><strong>Git</strong>. Open a command prompt and type <code>git --version</code> to see if you already have Git installed. If not, <a href="http://git-scm.com/book/en/v2/Getting-Started-Installing-Git">download and install Git</a>.</li>
+<li><strong>Eclipse</strong>. <a href="http://www.eclipse.org/downloads/">Download and install Eclipse IDE for Java Developers</a> from the Eclipse downloads page. </li>
+<li><strong>Java Development Kit (JDK)</strong>. Open a command prompt and type <code>java -version</code> to see if you have Java installed already. If not, <a href="http://www.java.com/en/download/manual.jsp">download and install the JDK</a> appropriate for your operating system.</li>
+</ul>
+<h2>Upload the Java projects to Github</h2>
+<p class="note"><b>Note:</b> Only the person sharing the Java files needs to create the Github repository. Everyone else will clone and pull from this repo.</p>
+<ol>
+<li><a href="https://help.github.com/articles/create-a-repo/">Create a Github repository</a>.</li>
+<li>In the right-side of the page, copy the HTTPS clone URL.
+<p><img src="/images/cloneurl.png" alt="cloneurl" width="382" height="303" class="alignnone size-full wp-image-22434" /></p>
+<p>For example, the Github repo URL for my Java samples is https://github.com/tomjohnson1492/eclipse-java.git.</li>
+<li>
+<p>On your computer, open a command prompt and type <code>pwd</code> to see your present working directory. Then create a subdirectory called "projects" or something similar by typing <code>mkdir projects</code>. Then <code>cd</code> to this projects directory.</p>
+<p class="tip"><b>Tip:</b> Although you can put your directory anywhere, it's most convenient to use a subdirectory under the default directory your command prompt opens to.</p>
+</li>
+<li>In the directory where you want to clone the repository, type the following, replacing <code>{repo_url}</code> with the actual URL of the Github repository (such as https://github.com/tomjohnson1492/eclipse-java.git).
+<p>[code]git clone {repo_url}[/code]</li>
+<li>
+<p>All the files download when you clone the repo.</p>
+</li>
+<li>
+<p>Add the Java projects to the repository:</p>
+<p>[code]git add . [/code]</p>
+<p>The <code>.</code> adds all file types. (It's not a typo there.)</p>
+</li>
+<li>
+<p>Commit the files:</p>
+<p>[code]git commit -m &quot;your commit msg&quot;[/code]</p>
+<p>If you just type <code>git commit</code> you'll be prompted to add a commit message in a text editor using VIM.</p>
+</li>
+<li>
+<p>Push the files to the repository:</p>
+<p>[code]git push[/code]</p>
+</li>
+</ol>
+<h2>Download the Java projects from Github</h2>
+<p class="note">If you're sharing Java project files, this section is relevant. If you're just sharing regular files, skip this section.</p>
+<p>Participants who want to grab the files from the Github repo follow these steps. If you created this repository, you don't need to follow these steps.</p>
+<ol>
+<li>Browse to the Github repository you want to pull. For example: <a href="https://github.com/tomjohnson1492/eclipse-java.git">https://github.com/tomjohnson1492/eclipse-java.git</a></li>
+<li>On the right-side of the page, copy the HTTPS clone URL.
+<p><img src="/images/cloneurl.png" alt="cloneurl" width="382" height="303" class="alignnone size-full wp-image-22434" /></p>
+<p>For example, my Github repo URL is https://github.com/tomjohnson1492/eclipse-java.git.</li>
+</ol>
+<li><code>cd</code> to a convenient directory, such as as <code>users/projects</code>.</li>
+<li>
+<p>In the directory where you want to clone the repository, type the following, replacing <code>{repo_url}</code> with the actual URL of the Github repository (such as <code>https://github.com/tomjohnson1492/eclipse-java.git</code>).</p>
+<p>[code]git clone {repo_url}[/code]</p>
+</li>
+<li>
+<p>All the files download when you clone the repo. To get updates to the repo at a later time, use the <code>pull</code> command:</p>
+<p>[code]git pull[/code]</p>
+</li>
+<p class="tip"><b>Tip:</b> To see a list of git commands, type `git --help`.</p>
+<h2>Import the projects into Eclipse</h2>
+<ol>
+<li>In Eclipse, go to <strong>File > New > Java Working Set</strong> and create a working set called "Java Tutorials" (or something appropriate). A working set allows you to filter the projects shown in Eclipse's Project Explorer pane.</li>
+<li>Go to <strong>File > Import > General</strong> and select <strong>Existing Projects into Eclipse</strong>.</li>
+<li>Next to "Select root directory," browse to the cloned repository on your computer where you downloaded all the files from Github. Then select <strong>Open</strong>.</li>
+<li>Select the <strong>Add projects to working set</strong> check box, and then select the working set you created. </li>
+<li>Click <strong>Finish</strong>.</li>
+</ol>

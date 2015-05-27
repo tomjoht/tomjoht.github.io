@@ -1,0 +1,297 @@
+---
+layout: page
+title: 'DITA: Acronyms and glossary terms'
+permalink: /acroynms_and_glossary/
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+  dsq_thread_id: '3773751152'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Acronyms and glossary terms</h1>
+<div class="body conbody">
+<p class="shortdesc">If you're creating a glossary and you want to link glossary terms to their definitions,<br />
+        you can use the <samp class="ph codeph">glossterm</samp> type and key references to each glossary term<br />
+        within a topic. You can also use acronyms with your glossary terms.</p>
+<p class="p">With acroynyms, you can make words appear in their full form on the first instance of the<br />
+            page and subsequently in their abbreviated form (the acroynym). Each instance of the<br />
+            acronym (whether full or abbreviated) links to the glossary term.</p>
+<div class="p toc">
+<div class="note tip"><span class="tiptitle">Tip:</span> For a demo of glossary and acronym terms, as well as a glossary roll-up in the TOC, see this <a class="xref external" href="http://idratherbewriting.com/wp-content/uploads/oxygendemos/glossary/" target="_blank">Acronym and glossary demo</a>.</div>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Create a glossary topic</h2>
+<div class="p">First, create a new <samp class="ph codeph">glossterm</samp> topic type. Only the <samp class="ph codeph">glossterm</samp><br />
+                and the <samp class="ph codeph">glossdef</samp> are required elements in a glossary topic.<br />
+                However, if you want to have a full name and an acronym for the glossary term, you<br />
+                must add some more elements after the <samp class="ph codeph">glossdef</samp>. Add a<br />
+                    <samp class="ph codeph">glossBody</samp> tag and define the <samp class="ph codeph">glossSurfaceForm</samp><br />
+                and the <samp class="ph codeph">glossAcronym</samp> as shown in the following<br />
+                example:
+<pre class="pre codeblock">&lt;glossentry id="opentoolkit"&gt;
+    &lt;glossterm&gt;Open Toolkit&lt;/glossterm&gt;
+    &lt;glossdef&gt;&lt;p&gt;The open toolkit is what processes your DITA files to transform them into webhelp, 
+                 pdf, and other outputs.&lt;/p&gt;
+              &lt;p&gt;There are other processors besides the OT that can achieve similar results.&lt;/p&gt;
+              &lt;p&gt;OxygenXML does use the Open Toolkit to do its processing, but Trisoft uses another processor.&lt;/p&gt;
+&lt;/glossdef&gt;
+&lt;!-- the rest of this content is optional--&gt;
+    &lt;glossBody&gt;
+        &lt;glossSurfaceForm&gt;Open Toolkit (OT)&lt;/glossSurfaceForm&gt;
+        &lt;glossAlt&gt;
+            &lt;glossAcronym&gt;OT&lt;/glossAcronym&gt;
+        &lt;/glossAlt&gt;
+    &lt;/glossBody&gt;
+&lt;/glossentry&gt;</pre>
+</div>
+<p class="p">The <samp class="ph codeph">glossSurfaceForm</samp> is the form of the term the first time it "surfaces" on<br />
+                the page. The <samp class="ph codeph">glossAcronym</samp> is the form that appears on subsequent<br />
+                references. Both forms link back to the glossary definition.</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Reference your glossary term on your map</h2>
+<div class="p">To include the glossary term in your output, in your map file, add<br />
+                this:
+<pre class="pre codeblock">&lt;glossref keys="opentoolkit" href="ot.dita" /&gt;</pre>
+</div>
+<p class="p">In DITA, a resource must be referenced on your DITA map to be included in the output.<br />
+                Here we're using the key <samp class="ph codeph">opentoolkit</samp> to refer to this glossary term<br />
+                reference. The nice thing about keys is that you can change what the key refers to<br />
+                without breaking all your links (keys function like variables). The key<br />
+                    <samp class="ph codeph">opentoolkit</samp> will look at the content in the ot.dita file and<br />
+                pull in the glossary term name automatically to render as the name of the link.</p>
+<p class="p">For example, suppose I've been referring to the key <samp class="ph codeph">opentoolkit</samp><br />
+                through my documentation. The glossary term name is "Open Toolkit." Then I decide<br />
+                that I really want to refer to it as "DITA Open Toolkit." I won't need to change any<br />
+                of my documentation references, because they're all using<br />
+                    <samp class="ph codeph">opentoolkit</samp> to refer to the glossary term. I just change the<br />
+                glossary term title that the <samp class="ph codeph">opentoolkit</samp> key points to (or the<br />
+                    <samp class="ph codeph">glossSurfaceForm</samp> or <samp class="ph codeph">glossAcronym</samp>). Then all<br />
+                the references will be updated. </p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Reference the glossary term in a topic</h2>
+<p class="p">You can refer to the glossary term a couple of different ways in topics:<br />
+                    <samp class="ph codeph">abbreviated-form</samp> or <samp class="ph codeph">term</samp>.</p>
+<div class="p">Here's an example using the <samp class="ph codeph">abbreviated-form</samp><br />
+                element:
+<pre class="pre codeblock">The &lt;abbreviated-form keyref="opentoolkit"/&gt; is what processes your DITA files. 
+Make sure you have the latest version of the &lt;abbreviated-form keyref="opentoolkit"/&gt;.</pre>
+</div>
+<p class="p">The output will look like this:</p>
+<div class="p demo">
+<pre class="pre codeblock">The <strong class="ph b">Open Toolkit (OT)</strong> is what processes your DITA files. Make sure
+      you have the latest version of the <strong class="ph b">OT</strong>.</pre>
+</p></div>
+<div class="p">
+<div class="note note"><span class="notetitle">Note:</span> For this demo, rather than hyperlinks to the glossary or acronym term, I've<br />
+                    just formatted the words in bold. In the Oxygen webhelp file, they would be<br />
+                    links to the topics. See the <a class="xref external" href="http://idratherbewriting.com/wp-content/uploads/oxygendemos/glossary/#glossary_demo_source.html" target="_blank">source code topic in the demo.</a></div>
+</p></div>
+<p class="p">Notice how the <samp class="ph codeph">abbreviated-form</samp> element intelligently displayed<br />
+                    the <samp class="ph codeph">glossSurfaceForm</samp> on the first reference, and the<br />
+                        <samp class="ph codeph">glossAcronymForm</samp> on subsequent references? If you have<br />
+                    acronyms and you want this functionality, make sure to use the<br />
+                        <samp class="ph codeph">abbreviated-form</samp> when referring to the glossary term.</p>
+<p class="p">If the glossary term doesn't have an acronym form, you could also just reference<br />
+                    it using <samp class="ph codeph">term</samp>, like this: </p>
+<pre class="pre codeblock">The &lt;term keyref="opentoolkit"/&gt; is what processes your DITA files. 
+Make sure you have the latest version of the &lt;term keyref="opentoolkit"/&gt;.</pre>
+<p class="p">The output will look like this:</p>
+<div class="p">
+<pre class="pre codeblock">The <strong class="ph b">OT</strong> is what processes your DITA files. Make sure
+      you have the latest version of the <strong class="ph b">OT</strong>.</pre>
+</p></div>
+<p class="p">In both instances of the word, the <samp class="ph codeph">glossAcronymForm</samp> is used. If the<br />
+                glossary file didn't have a <samp class="ph codeph">glossAcronymForm</samp>, the<br />
+                    <samp class="ph codeph">title</samp> would be used instead.</p>
+<p class="p">(By the way, you don't have to use either abbreviated-form or term to refer to a<br />
+                glossary term. You could also just refer to it with an <samp class="ph codeph">xref</samp>.<br />
+                However, if you just use <samp class="ph codeph">xref</samp>, no tooltip appears when you mouse<br />
+                over the link. Hence this method isn't recommended.) </p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">A note about style</h2>
+<div class="p">Note that the content in <samp class="ph codeph">glossBody</samp> will appear in the webhelp output<br />
+                unless you add some styling that hides it. Create the following CSS styles and add<br />
+                it to your <a class="xref" href="/webhelp_skins" title="Oxygen offers a robust webhelp skin builder that allows you to customize the output. You can also customize the CSS.">DITA: Webhelp skins</a> CSS to hide this<br />
+                content:
+<pre class="pre codeblock">.glossSurfaceForm, .glossAlt {
+    display: none;
+}</pre>
+</div></div>
+<div class="section">
+<h2 class="title sectiontitle">Organizing glossary<br />
+         files</h2>
+<p class="p">Where should glossary terms be organized -- in your root folder with<br />
+             other topics, or in a subfolder? Personally, I like to keep my glossary files<br />
+             organized in a subdirectory called "glossary." However, you can organize them<br />
+             however you want. </p>
+</div>
+<div class="section">
+<h2 class="title sectiontitle">Displaying your glossary in the TOC</h2>
+<p class="p">As with other resources, you have to include your glossary files on your DITA map if you<br />
+                want them to appear in your output. (If you have a lot of glossary terms, you can<br />
+                put them in a separate DITA map and then reference that DITA map on your root DITA<br />
+                map using <samp class="ph codeph">mapref</samp>. ) Your glossary terms are just links to your<br />
+                glossary files. Here's how I do it. </p>
+<p class="p">It can look odd to dedicate an entire page to a term that if the term is only a<br />
+                couple of sentences long, so I consolidate all of my glossary terms so they appear<br />
+                in the same TOC entry. For a demo, look at the <a class="xref" href="/glossary_overview#topic_kjk_1kn_hq">Demo Glossary Overview</a> in the TOC.</p>
+<p class="p">To consolidate glossary terms on a single page in the output, use the<br />
+                    <samp class="ph codeph">chunk="to-content"</samp> attribute in your glossary overview topic,<br />
+                like this:</p>
+<pre class="pre codeblock">&lt;topicref href="glossary_overview.dita" chunk="to-content"&gt;
+   &lt;topicref href="glossary/ot.dita" toc="yes"/&gt;
+   &lt;topicref href="glossary/conref.dita" toc="yes"/&gt;
+&lt;/topicref&gt; </pre>
+<div class="note note"><span class="notetitle">Note:</span> See the <a class="xref external" href="http://idratherbewriting.com/wp-content/uploads/oxygendemos/glossary/index.html" target="_blank">demo</a> for an example of the glossary integrated into the TOC.</div>
+</p></div>
+<div class="section">
+<p class="p">This <samp class="ph codeph">chunk="to-content"</samp> attribute will merge the children into<br />
+                itself.</p>
+<div class="p">You might think that you can just use <samp class="ph codeph">glossref</samp><br />
+                elements with chunk="to-content", like<br />
+                this:
+<pre class="pre codeblock">&lt;topicref href="glossary_overview.dita" chunk="to-content"&gt;
+   &lt;glossref href="glossary/ot.dita" keys="opentoolkit" toc="yes"/&gt;
+   &lt;glossref href="glossary/conref.dita" keys="conref" toc="yes"/&gt;
+&lt;/topicref&gt; </pre>
+</div>
+<p class="p">However,<br />
+                if you use this method, the key references will no longer work. The<br />
+                    <samp class="ph codeph">chunk</samp> attribute screws them up. In places where the glossary<br />
+                term should appear, you'll just see blank spaces. As a workaround, when using the<br />
+                    <samp class="ph codeph">chunk</samp> attribute, you must separate out the<br />
+                    <samp class="ph codeph">topicref</samp> from the <samp class="ph codeph">keyref</samp> elements, like this:
+            </p>
+<pre class="pre codeblock">&lt;topicref href="glossary_overview.dita" chunk="to-content"&gt;    
+  &lt;topicref href="glossary/ot.dita" toc="yes"/&gt;    
+  &lt;topicref href="glossary/conref.dita" toc="yes"/&gt; 
+&lt;/topicref&gt; 
+
+&lt;!-- glossary keys --&gt;
+&lt;glossref keys="opentoolkit" href="ot.dita"/&gt;
+&lt;glossref keys="conref" href="conref.dita"/&gt;
+             </pre>
+<p>(I'm<br />
+            not sure if this is a bug in Oxygen or the OT or what. At any rate, that's is how you do<br />
+            it.)</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Reusing glossary definitions</h2>
+<p class="p">A common scenario with re-use is to<br />
+                re-use definitions of your glossary terms in other parts of your documentation. For<br />
+                example, suppose you want to reuse the Open Toolkit definition in the glossary term<br />
+                topic above. Suppose you have a topic listing a table with field<br />
+                definitions:</p>
+<pre class="pre codeblock">            &lt;topic id="topic_table"&gt;
+              &lt;title&gt;Sample table of definitions&lt;/title&gt;
+              &lt;body&gt;
+                &lt;table&gt;
+                  &lt;tgroup cols="2"&gt;
+                    &lt;thead&gt;
+                      &lt;row&gt;
+                        &lt;entry&gt;Fields&lt;/entry&gt;
+                        &lt;entry&gt;Definitions&lt;/entry&gt;
+                      &lt;/row&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                      &lt;row&gt;
+                        &lt;entry&gt;&lt;abbreviated-form
+                keyref="opentoolkit"/&gt;&lt;/entry&gt;
+                        &lt;entry&gt;<strong class="ph b">[glossary
+                definition]</strong>&lt;/entry&gt;
+                      &lt;/row&gt;
+                    &lt;/tbody&gt;
+                  &lt;/tgroup&gt;
+                &lt;/table&gt;
+                &lt;p&gt;Besure to check out &lt;topicsetref id="hey"/&gt;&lt;/p&gt;
+              &lt;/body&gt;
+            &lt;/topic&gt;
+     </pre>
+<p class="p">You<br />
+                can't use <samp class="ph codeph">conref</samp> to re-use the <samp class="ph codeph">glossdef</samp> element<br />
+                into the table's <samp class="ph codeph">entry</samp> element because the <samp class="ph codeph">entry</samp><br />
+                element doesn't allow <samp class="ph codeph">glossdef</samp> elements.</p>
+<p class="p">The way to do this<br />
+                is by wrapping the <samp class="ph codeph">glossdef</samp> content inside a <samp class="ph codeph">ph</samp><br />
+                element (phrase element), and then embed the <samp class="ph codeph">ph</samp> element into the<br />
+                table row. Here I wrap the <samp class="ph codeph">glossdef</samp> content inside a<br />
+                    <samp class="ph codeph">ph</samp><br />
+                element:</p>
+<pre class="pre codeblock">&lt;glossdef&gt;&lt;ph id="ot_def"&gt;The open toolkit is what processes your DITA files to transform them into 
+webhelp, pdf, and other outputs.&lt;/ph&gt;&lt;/glossdef&gt;</pre>
+<p class="p">Then<br />
+                you use <samp class="ph codeph">conref</samp> to insert the <samp class="ph codeph">ph</samp> element into your<br />
+                table element, like this:</p>
+<div class="p">
+<pre class="pre codeblock">&lt;entry&gt;&lt;ph conref="filename.dita#opentoolkit/ot_def"/&gt;</pre>
+</p></div>
+<p class="p">Here's a sample result pulling the glossary definitions into another topic: <a class="xref" href="/sample_table_def">Sample table of definitions</a>. </p>
+<p class="p">The table code simply looks like this:
+            </p>
+<pre class="pre codeblock">   &lt;table&gt;
+      &lt;tgroup cols="2"&gt;
+        &lt;thead&gt;
+          &lt;row&gt;
+            &lt;entry&gt;Fields&lt;/entry&gt;
+          &lt;entry&gt;Definitions&lt;/entry&gt;
+          &lt;/row&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;row&gt;
+            &lt;entry&gt;&lt;term keyref="conref"/&gt;&lt;/entry&gt;
+            &lt;entry&gt;&lt;p conref="glossary/conref.dita#conref"/&gt;
+            &lt;/entry&gt;
+          &lt;/row&gt;
+          &lt;row&gt;
+            &lt;entry&gt;&lt;term keyref="opentoolkit"/&gt;&lt;/entry&gt;
+            &lt;entry&gt;&lt;ph conref="filename.dita#opentoolkit/ot_def"/&gt;
+          &lt;/row&gt;
+        &lt;/tbody&gt;
+      &lt;/tgroup&gt;
+    &lt;/table&gt;</pre>
+<p class="p">This technique works well for short glossary definitions, but what if you have a definition that spans several paragraphs? Do you have to create three separate conref elements?</p>
+<p class="p">To include multiple sibling elements (such as three paragraph tags in a row), you can<br />
+                use what's called a "conref range." First you add an ID tag to the first and last<br />
+                element that you want to bring over. If my glossary definition has three paragraphs,<br />
+                I could tag it like this:</p>
+<div class="p">
+<pre class="pre codeblock">&lt;glossdef&gt;
+  &lt;p id="ot_first"&gt;The open toolkit is what processes your DITA files to transform them 
+    into webhelp, pdf, and other outputs.&lt;/p&gt;
+  &lt;p&gt;There are other processors besides the OT that can achieve similar results.&lt;/p&gt;
+  &lt;p id="ot_last"&gt;OxygenXML does use the Open Toolkit to do its processing, but 
+      Trisoft uses another processor.&lt;/p&gt;
+    &lt;/glossdef&gt;</pre>
+<p>                Notice how I added an ID attribute to the first and last paragraph tags.</p></div>
+<div class="p">Now I use a <samp class="ph codeph">conref</samp> range to bring over the first and last element<br />
+                and everything in<br />
+                between:
+<pre class="pre codeblock">&lt;p conref="glossary/ot.dita#opentoolkit/ot_first" 
+conrefend="glossary/ot.dita#opentoolkit/ot_last"/&gt;</pre>
+<p>Note<br />
+                that although you can use this technique to bring over longer amounts of content,<br />
+                generally you want to keep your glossary definitions to a paragraph level size. If<br />
+                you use multiple paragraphs, the paragraphs will make the tooltip for the glossary<br />
+                link big and ugly.</p></div>
+<p class="p">Also note that if you reuse a glossary definition in another topic, your topic now requires the<br />
+                glossary definition to be present in the output for the topic to be valid. If you<br />
+                have scenarios where you don't want your outputs to include the glossary definition,<br />
+                then don't set up this dependency. Instead, pull the conref from another file that<br />
+                serves as a general "warehouse" of re-usable components.</p>
+</div></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
+</div>
+</div>

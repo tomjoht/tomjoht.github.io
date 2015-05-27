@@ -1,0 +1,253 @@
+---
+layout: page
+title: 'Klout example: Get influencees'
+permalink: /klout-example-influencees/
+categories:
+- api-doc
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _wp_page_template: default
+  dsq_thread_id: '3773348797'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Suppose I want to know who I have influenced. After all, this is what Klout is all about. Influence is measured by the action you drive. So who exactly am I influencing?</p>
+<p>To get my influencees, I need to use the influence endpoint, passing in my Klout ID (which I retrieved using the identity.json/twitter endpoint as used in the <a href="http://idratherbewriting.com/klout-example-score">Klout example on retrieving a score</a>). My Klout ID is 1134760.</p>
+<p>Here I plug in my Klout ID into the influence endpoint:</p>
+<p><a href="http://developer.klout.com/io-docs"><img src="/images/influenceesendpoint-550x589.png" alt="influence endpoint" width="550" height="589" class="alignnone size-medium wp-image-22493" /></a></p>
+<p>The response appears in the Response Body section.</p>
+<p>Although the interactive console shows you the response, you can also submit the request via the browser and see the payload in the browser. Here's the request:</p>
+<p><a href="http://api.klout.com/v2/user.json/1134760/influence?key=urgey4a79n5x6df6xx4p64dr">http://api.klout.com/v2/user.json/1134760/influence?key=urgey4a79n5x6df6xx4p64dr</a></p>
+<p>And here's the response:</p>
+<p>[code]<br />
+{<br />
+   &quot;myInfluencers&quot;:[<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;1247152&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;1247152&quot;,<br />
+               &quot;nick&quot;:&quot;maxwellhoffmann&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:58.96268054394578,<br />
+                  &quot;bucket&quot;:&quot;50-59&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.06646433497560622,<br />
+                  &quot;weekChange&quot;:-0.6916024495036766,<br />
+                  &quot;monthChange&quot;:-3.064438643695368<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;704001&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;704001&quot;,<br />
+               &quot;nick&quot;:&quot;scottabel&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:58.46798823414681,<br />
+                  &quot;bucket&quot;:&quot;50-59&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.11132545485078538,<br />
+                  &quot;weekChange&quot;:-0.43572069638905475,<br />
+                  &quot;monthChange&quot;:-2.6085841408238792<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;34254&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;34254&quot;,<br />
+               &quot;nick&quot;:&quot;SkeeterHarris&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:56.77425322747173,<br />
+                  &quot;bucket&quot;:&quot;50-59&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.11454920647811662,<br />
+                  &quot;weekChange&quot;:0.04889146674855738,<br />
+                  &quot;monthChange&quot;:-0.5583258470292165<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;946127&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;946127&quot;,<br />
+               &quot;nick&quot;:&quot;WritingTechDocs&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:46.61038545204223,<br />
+                  &quot;bucket&quot;:&quot;40-49&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.05709675920967072,<br />
+                  &quot;weekChange&quot;:-0.610875962222579,<br />
+                  &quot;monthChange&quot;:0.1813057349656475<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;538063&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;538063&quot;,<br />
+               &quot;nick&quot;:&quot;benwoelk&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:46.57106330020806,<br />
+                  &quot;bucket&quot;:&quot;40-49&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:0.00041549774290672303,<br />
+                  &quot;weekChange&quot;:-0.1646010755193359,<br />
+                  &quot;monthChange&quot;:-1.030068829042456<br />
+               }<br />
+            }<br />
+         }<br />
+      }<br />
+   ],<br />
+   &quot;myInfluencees&quot;:[<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;30399302251467350&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;30399302251467350&quot;,<br />
+               &quot;nick&quot;:&quot;shweta_hardikar&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:47.43871175313726,<br />
+                  &quot;bucket&quot;:&quot;40-49&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.009049927092938503,<br />
+                  &quot;weekChange&quot;:-0.6219719932282644,<br />
+                  &quot;monthChange&quot;:-3.7916465630982046<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;57420900014448388&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;57420900014448388&quot;,<br />
+               &quot;nick&quot;:&quot;healcomm&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:42.719218288006516,<br />
+                  &quot;bucket&quot;:&quot;40-49&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.44535971136188124,<br />
+                  &quot;weekChange&quot;:-1.3102052073242874,<br />
+                  &quot;monthChange&quot;:-2.578499929496701<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;45598950992256021&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;45598950992256021&quot;,<br />
+               &quot;nick&quot;:&quot;DavidEgyes&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:41.087978297965485,<br />
+                  &quot;bucket&quot;:&quot;40-49&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:0.001295312050686448,<br />
+                  &quot;weekChange&quot;:0.3330133541551774,<br />
+                  &quot;monthChange&quot;:0.9188803888604156<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;45880425968882520&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;45880425968882520&quot;,<br />
+               &quot;nick&quot;:&quot;napnam&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:40.50583674531803,<br />
+                  &quot;bucket&quot;:&quot;40-49&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:0.00011879239579570822,<br />
+                  &quot;weekChange&quot;:-0.15131948958799057,<br />
+                  &quot;monthChange&quot;:-0.3625057602583581<br />
+               }<br />
+            }<br />
+         }<br />
+      },<br />
+      {<br />
+         &quot;entity&quot;:{<br />
+            &quot;id&quot;:&quot;29554883011845256&quot;,<br />
+            &quot;payload&quot;:{<br />
+               &quot;kloutId&quot;:&quot;29554883011845256&quot;,<br />
+               &quot;nick&quot;:&quot;LeviathanMcKrac&quot;,<br />
+               &quot;score&quot;:{<br />
+                  &quot;score&quot;:39.986255014100266,<br />
+                  &quot;bucket&quot;:&quot;30-39&quot;<br />
+               },<br />
+               &quot;scoreDeltas&quot;:{<br />
+                  &quot;dayChange&quot;:-0.02143362442675567,<br />
+                  &quot;weekChange&quot;:-0.8744516124100628,<br />
+                  &quot;monthChange&quot;:-0.4536137313422586<br />
+               }<br />
+            }<br />
+         }<br />
+      }<br />
+   ],<br />
+   &quot;myInfluencersCount&quot;:8,<br />
+   &quot;myInfluenceesCount&quot;:24<br />
+}<br />
+[/code]</p>
+<p>The <code>myInfluencers</code> object has various properties. (By the way, inside a JSON object, square brackets denote an array. Curly braces denote another object. Here influencees are listed as an array of <code>entity</code> objects.)</p>
+<p>Stylewise here, I'm using the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">JSON Formatting extension for Chrome</a> to format the JSON, but to copy and paste the JSON and keep the indentation, I use the <a href="http://jsonformatter.curiousconcept.com/">JSON Formatter &amp; Validator</a>.</p>
+<p>This JSON payload contains all of my influencees, but it contains a lot of extra information. I just want a short list of Twitter names with their links.</p>
+<p>Using jQuery, I can iterate through the JSON payload and pull out the information that I want:</p>
+<p>[code]<br />
+&lt;html&gt;<br />
+&lt;body&gt;</p>
+<p>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
+<p>&lt;script&gt;<br />
+ // get influencees<br />
+     var url = &quot;http://api.klout.com/v2/user.json/1134760/influence?key={your api key}&amp;callback=?&quot;;<br />
+    $.getJSON( url, function( data ) {<br />
+    	console.log(data);</p>
+<p>    $.each( data.myInfluencees, function( i, inf ) {<br />
+    $(&quot;#kloutInf&quot;).append('&lt;li&gt;&lt;a href=&quot;http://twitter.com/'+inf.entity.payload.nick + '&quot;&gt;' + inf.entity.payload.nick + '&lt;/a&gt;&lt;/li&gt;');</p>
+<p>  });<br />
+});<br />
+&lt;/script&gt;</p>
+<p>&lt;h2&gt;My influencees&lt;/h2&gt;<br />
+&lt;ul id=&quot;kloutInf&quot;&gt;&lt;/ul&gt;</p>
+<p>&lt;/body&gt;<br />
+&lt;/html&gt;<br />
+[/code]</p>
+<p>The result looks like this:</p>
+<p><a href="http://idratherbewriting.com/wp-content/apidemos/klout.html"><img src="/images/influenceesdemo-550x292.png" alt="influencees demo" width="550" height="292" class="alignnone size-medium wp-image-22494" /></a></p>
+<p>Here's <a href="http://idratherbewriting.com/wp-content/apidemos/klout_influence.html">the demo</a>.</p>
+<p>(If you don't see anything, your firewall may be blocking Klout.)</p>
+<h2>Code explanation</h2>
+<p>The code uses the <code>getJSON</code> method from jQuery to get a JSON payload for a specific URL. It assigns this payload to the <code>data</code> argument. The <code>console.log(data)</code> code just logs the payload to the console to make it easy to inspect.</p>
+<p>The jQuery <code>each</code> method iterates through each property in the <code>data.myInfluencees</code> object. It renames this object <code>inf</code> (you can choose whatever names you want) and then gets the <code>entity.payload.nick</code> property for each item in the object. It inserts this value into a link to the Twitter profile, and then appends the information to a specific tag on the page (<code>#kloutInf</code>).</p>

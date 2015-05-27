@@ -1,0 +1,45 @@
+---
+layout: page
+title: 'DITA: Notes'
+permalink: /notes/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3774693835'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Notes</h1>
+<div class="body conbody">
+<p class="shortdesc">Notes are tips, notes, cautions, and other admonition statements that you provide to<br />
+  users.  Notes can appear inside most elements. </p>
+<div class="p">
+<pre class="pre codeblock">&lt;note type="tip"&gt;Don't fasten the bolts too tightly. First make sure all the pieces 
+fit well together, and then tighten them down firmly.&lt;/note&gt;</pre>
+</p></div>
+<p class="p">There are actually quite a few options for note types: attention, danger, fastpath, important, notice, other, remember, restriction, tip, warning.</p>
+<p class="p">Some of the types have different icons and formatting associated with them. All of notes<br />
+   transform to HTML with a class corresponding with their name. </p>
+<p class="p">If you're adding a note inside a task list, add the note inside the <samp class="ph codeph">info</samp><br />
+   element.</p>
+<div class="p">If you want a title to preface the note, use the <samp class="ph codeph">fig</samp><br />
+   element:
+<pre class="pre codeblock">&lt;fig&gt;&lt;title&gt;Bolt Warning&lt;/title&gt;
+&lt;note type="tip"&gt;Don't fasten the bolts too tightly. 
+First make sure all the pieces fit well together, and then tighten them down firmly.&lt;/note&gt;
+&lt;/fig&gt;</pre>
+</div></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_page_level_formatting">Page-level elements</a></div>
+</div>
+</div>

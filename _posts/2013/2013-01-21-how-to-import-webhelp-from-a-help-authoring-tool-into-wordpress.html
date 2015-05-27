@@ -1,0 +1,107 @@
+---
+layout: post
+title: Import DITA Webhelp Output into WordPress
+date: 2013-01-21 14:31:31.000000000 -08:00
+categories:
+- findability
+- general
+- wordpress
+tags:
+- Madcap Flare
+- tripane help
+- web CMS
+status: publish
+type: post
+published: true
+series: "Author in DITA, publish in WordPress"
+weight: 1
+---
+{% include series.html %}
+
+<p><b>Sept 29, 2014 update: For an updated article on the topic of migrating DITA into WordPress, see <a href="http://idratherbewriting.com/ditaqrg/#import_dita_into_wordpress.html">Import DITA's XHTML Output into WordPress</a>.</b></p>
+<p>I have toyed off and on with the idea of publishing help to WordPress for years. I've had two main reasons for not moving forward sooner. First, if you want an online platform for documentation, Mediawiki works pretty well. Second, my organization's security department has frowned on WordPress due to security concerns.</p>
+<p>That said, when I read posts like this one from Robert Desprez, <a href="http://www.robertdesprez.com/2013/01/18/tripane-help-and-pdfs-time-to-move-on/">Tripane and PDF Files: Past Their Prime?</a>, and from Vinish Garg, <a href="http://enjoytechnicalwriting.com/2012/06/06/wordpress-as-technical-documentation-platform/">WordPress as a Technical Documentation Platform</a>, I start wondering why I haven't given WordPress more attention.</p>
+<p>Vinish's post explores WordPress as a help platform in depth. He links to <a href="http://www.getharvest.com/help">Harvest's help</a>, which is a WordPress-based help. He lists many advantages and disadvantages to using WordPress for help content.</p>
+<p>In this post, I'll not only explore some advantages and disadvantages (from my own perspective, having done WordPress consulting for several years), I'll also provide step-by-step details on how to publish from a help authoring tool (like Flare) to WordPress.</p>
+<h2>Advantages in Using WordPress for Documentation</h2>
+<p>First let's note that Automattic (the company behind WordPress) doesn't always use WordPress to document WordPress. For the open source version of WordPress (<a href="http://wordpress.org">WordPress.org</a>), they use Mediawiki as a platform for the help (see the <a href="http://codex.wordpress.org">WordPress Codex</a>).</p>
+<p>However, with the <a href="http://wordpress.com">WordPress.com</a> version of WordPress, it looks like Automattic <em>is</em> using WordPress as a documentation platform. See <a href="http://en.support.wordpress.com/">WordPress.com Support</a>. This is most likely because WordPress.org is community driven and must be open by default, whereas WordPress.com is run by Automattic and not open source.</p>
+<p>Here are a few advantages in using WordPress:</p>
+<p><strong>Modern-looking output.</strong> You lose the dated tripane help output and join the rest of the web in terms of functionality and navigation behavior.</p>
+<p><strong>Search engine optimization.</strong> The architecture is better optimized for search engine visibility. Help authoring tool outputs often include frames and iframes that make it more difficult for search engines to find content.</p>
+<p><strong>Theming capability.</strong> You can blend the help output seamlessly with your  product or company site. This is a huge selling point for product managers and other company executives. You can't easily brand the output from a help authoring tool to make it look just like your company website. You can change colors, widths, and typography, so you can get somewhat closer, but you quickly run into limits when you try to go beyond the basics.</p>
+<p><strong>Comments.</strong> Users can comment below the help topics. This can be both good and bad — good in that you provide an interaction point with users that is tied directly to a specific help topic. But it's also bad (or rather, more challenging) because you then become responsible to respond to comments, which puts you into a support role that you may not have bandwidth for. You also have the challenge of responding to off-topic comments from users who are reaching out for help through any contact point. (You can remove the contact form from pages, obviously.)</p>
+<p><strong>Collaborative authoring.</strong> Because WordPress is browser-based, it's easy to give other authors access, with varying permission levels. You can quickly enable a whole team to contribute content to the same product.</p>
+<p><strong>Cost.</strong> WordPress is free. You can't argue with that.</p>
+<p><strong>Extensibility.</strong> WordPress literally has <a href="http://wordpress.org/extend/plugins">20,000 + plugins</a> that you can use to extend its functionality in new ways. You can probably do most anything you want.</p>
+<p><strong>Transferability of ownership.</strong> When you finish a project, you can give product owners direct control over the content. This is why Microsoft Word was so popular. We accepted Word's limitations because it was a format almost universally editable by others, regardless of their technical ability. Unless you're going to own the documentation forever, you need to think about how the customer (the one paying for your services) will control the content it when you're gone. WordPress makes it pretty darn easy.</p>
+<p><strong>Responsive styling.</strong> Many WordPress themes have out-of-the-box responsive styling. This is important because the content will display well on mobile devices.</p>
+<h2>Disadvantages in Using WordPress for Documentation</h2>
+<p><strong>Translation.</strong> WordPress allows you to export an XML file of all pages, but it's an XML schema specific to WordPress (I think). If you handed the output file to localization engineers, they may scratch their heads. To be honest, I'm really not sure if it's possible to feed this file into a translation memory system without some XML gymnastics.</p>
+<p><strong>PDF output.</strong> Whether PDF output is important or not remains debatable. In a recent Scriptorium webinar on 2013 trends, Bill Swallow argued that PDF output is still important, while <a href="http://www.scriptorium.com/2013/01/2013-predictions-in-technical-communication/comment-page-1/#comment-16180">some commenters disagreed</a>. In my experience, almost no user has asked for PDF output. I had my help on Mediawiki for two years with quick reference guides as the only PDF option. No one complained. When I switched to Flare and started single sourcing to print again, offering full-length how-to guides, no one said anything. Almost every comment I receive is about the content in the online help topics.</p>
+<p><strong>Content re-use.</strong> Although you can re-use content on WordPress sites through shortcodes, it's not as intuitive as with a help authoring tool. (But it's not really hard either, especially with a <a href="http://www.elliotcondon.com/shortcode-developer-wordpress-plugin/">shortcode plugin like this</a>.) I typically don't re-use a lot of content within the same help system, so this isn't a huge deal for me.</p>
+<p><strong>Multiple outputs.</strong> If you have to support lite, pro, and administrator models of software, you'll have a hard time doing this in WordPress. You could build three separate WordPress sites, but then you would need to maintain several different sources, which would be a headache.</p>
+<p><strong>Security.</strong> WordPress sometimes doesn't meet the security requirements of large-scale IT companies. In fact, many IT professionals scoff at PHP and MySQL. I also had a difficult time installing WordPress on a secure (https) site behind my organization's firewall, but this may be due to security measures on my organization's servers.</p>
+<p><strong>No image single sourcing.</strong> I like how Flare allows me to single source images between print and online modes. See my recent post, <a href="http://idratherbewriting.com/2013/01/19/single-sourcing-screen-captures-to-print-online-and-mobile-using-flare-and-capture/">Single Sourcing Screen Captures to Print, Online, and Mobile Using Flare and Capture</a> for details. However, if you drop the print medium as a deliverable, image single sourcing is no longer a concern.</p>
+<p><strong>Offline access.</strong> If your product can only be viewed offline, then WordPress isn't right for you. WordPress only works on a web server.</p>
+<h2>A Method for Using Both Flare and Wordpress</h2>
+<p>In comparing advantages and disadvantages, you actually don't have to decide whether to use WordPress OR a help authoring tool. You can use <em>both</em>. You can author your content in Flare, Robohelp, DITA, or whatever other tool/method you use to generate an webhelp output, and then import the webhelp into WordPress through an import tool. Essentially your help authoring tool becomes your source repository, and you publish out to WordPress.</p>
+<p>Mike Little initially developed this import tool. You can <a href="http://zed1.com/journalized/wordpress-plugins/dita-to-wordpress-import-tool/">read about it here</a>. He called it DITA to WordPress Import Tool, because he was working with a DITA documentation team at the time he created the tool. However, the tool isn't specific to DITA. Mike is referring to DITA's web help output. Flare and many other help authoring tools also generate a webhelp output.</p>
+<p>The neat thing about the import tool is that you can import content successively into WordPress without creating new pages. The later imports just overwrite the existing pages as a new version. If you have comments attached to a page, you won't lose the comments. Your links will also stay the same with each import.</p>
+<h2>Quick Demo</h2>
+<p>Because seeing is believing, here's a quick demo of how this process and workflow works. Note that I haven't actually tried this on a real help project, so no doubt there are problems I haven't anticipated.</p>
+<p>http://www.youtube.com/watch?v=MQWPH1obXa0</p>
+<h2>Technical Details</h2>
+<p>If you want to use this tool, you have to do a bit of hopscotch to get it to work. The developer created it many WordPress moons ago, and now it's no longer compatible with the latest version of WordPress as a plugin.</p>
+<h3>Set up the DITA import tool</h3>
+<p>To get the tool to work, first, recognize that it’s not a plugin. You don't upload it from your Plugins page, nor do you activate the plugin. Follow these steps to set up the DITA import tool:</p>
+<ol>
+<li>I assume you've already installed WordPress somewhere. If you haven't yet, do that first. (For details on installing WordPress, see the <a href="http://wordpress.org/download/">WordPress Download page</a>.)</li>
+<li>Download the modified import file here: <a href="http://idratherbewriting.com/wp-content/uploads/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
+<li>Using FTP, upload the ditahelp.php file to the wp-admin folder of your WordPress installation.</li>
+<li>From that same wp-admin folder, download admin.php.</li>
+<li>In the admin.php folder, below this line:<code> require_once(ABSPATH . 'wp-admin/includes/admin.php');</code>add this:<code>require_once('ditahelp.php');</code>Note: I know it's a poor practice to modify a core WordPress file, because it will just be overwritten the next time you update WordPress. This method is just an interim workaround until the plugin gets updated to work with the latest version of WordPress.</li>
+<li>Save the modified admin.php file and reupload it, overwriting the previous version of admin.php.</li>
+<li>In your WordPress Dashboard, go to <strong>Tools &gt; Import</strong>. You will now see a DITA help import option.</li>
+</ol>
+<p>Remember that this tool doesn’t actually import DITA files. It imports the web help output from DITA (or the webhelp output from a HAT like Flare), so the name is somewhat misleading here. It will, however, import a DITA map file and apply the table of contents hierarchy to the pages.</p>
+<h3>Import Webhelp into WordPress</h3>
+<p>Now it's time to watch the magic happen. In this step, we will import our webhelp into WordPress.</p>
+<ol>
+<li>Using your help authoring tool, generate a webhelp output. For example, if you're using Flare, generate an HTML5 target.</li>
+<li>Upload the content folder in the output to a web folder on your server (the same one where you have WordPress installed). I uploaded mine to a folder at wp-content/uploads/helpcontent.  The HTML files can be nested in subfolders — it doesn't matter. The tool will grab all of the HTML files.</li>
+<li>In WordPress, go to <strong>Tools &gt; Import</strong> and click <strong>DITA help</strong>.</li>
+<li>In the DITA help Directory path, enter the absolute URL of your content. For example, in my test project, my path is<code><br />
+/home1/idrathe1/public_html/wpsandbox/test/wp-content/uploads/helpcontent<br />
+</code>Note: If you don't know the absolute path, you can find it by installing the <a href="http://wordpress.org/extend/plugins/wp-dbmanager/">WP DB Manager plugin by Lester Chan</a>. When you go to Database &gt; Backup DB, you will see the absolute path to your site. (By the way, after you activate the WP DB Manager plugin, you'll be prompted to download an htaccess.txt file from one folder, move it to another, and rename it to .htaccess.)</li>
+<li>Click <strong>Import Files</strong>. Then proceed through the five stages of the import. There's nothing to do in each stage except click the Stage or Next button at the bottom. (I'm not sure why the plugin breaks the import process down into these five stages, but Mike describes what the import tool does <a href="http://zed1.com/journalized/wordpress-plugins/dita-to-wordpress-import-tool/">here</a>.)</li>
+</ol>
+<p>If the import is successful, you should now have a ton of pages in the Pages section of WordPress.</p>
+<h3>Configure your menus</h3>
+<p>If you imported the DITA web help output, then the pages should naturally apply the hierarchy of parent or child pages. If you didn't use DITA (I didn't), no problem. You can configure the pages into parent/child nested hierarchies by going to Appearance &gt; Menu in your WordPress Dashboard. As long as you don't delete the pages, you won't need to reconfigure your menu with each new import.</p>
+<h2>Current Issues</h2>
+<p>In my experiments with this tool, I found the following issues:</p>
+<p><strong>Links.</strong> I had trouble with the way the DITA import tool handles absolute versus relative links, so I and a colleague made a small change in the ditahelp.php file. If you scan the file for the word <i>MCXref xref</i>, you'll see that I made it so the tool converts links with the MCXref xref class as relative links. If the link does not have this class, it creates the link as an absolute link.</p>
+<p>Why did I use that class? In Flare, when you insert a cross reference to another topic, the cross reference link is styled with this <i>MCXref xref</i> class. If you create a non-cross reference link, Flare doesn't give the link that class.</p>
+<p>If you're using a tool other than Flare to create the webhelp, adjust the class of your cross reference links from <i>MCXref xref</i> to something else in the ditahelp.php file.</p>
+<p><strong>Anchor tags.</strong> I also had problem with named achor tags. Flare lets you insert empty named anchors like this:</p>
+<pre>&lt;a name="first-section"&gt;&lt;/a&gt;</pre>
+<p>However, HTML5 requires content in the anchor tag. If you have named anchors in Flare, manually change them to</p>
+<pre>&lt;a name="first-section"&gt;First Section&lt;/a&gt;</pre>
+<p>where "first-section" is the anchor name and "First Section" is the name of the section that users see.</p>
+<p><strong>Secondary page titles.</strong> I'm not sure why the import creates a page name and a second page name below it. I just hid the secondary page name through a style.<code><br />
+.entry-content h1 {display:none;}<br />
+</code></p>
+<p><strong>Images</strong>. If your images don't display correctly, you may need to manually upload them to the resources/images path.</p>
+<p><strong>Drop-down hotspots.</strong> My help files use drop-down hotspots for tasks on the page, so I added a bit of styling to render those drop-down hotspots to look more like a regular heading:<code><br />
+span.MCDropDownHead {font-color: black; size:20px; font-weight:bold; text-decoration:none;}<br />
+span.MCDropDownHead a {color:black; text-decoration:none; font-size:20px;}<br />
+span.MCDropDownHotSpot {font-size:20px; margin-bottom:0px; padding-bottom:0px;}<br />
+div.MCDropDown.MCDropDown_Open.dropDown {padding-top:5px;}<br />
+div.MCDropDownBody.dropDownBody {margin-top:-10px;}<br />
+</code></p>
+<p>However, I haven't explored ways to make the subheadings appear as drop-down hotspots automatically in WordPress. I imagine I would need to implement a plugin like <a href="http://wordpress.org/extend/plugins/jquery-collapse-o-matic/">Collapse-o-Matic</a> and include the tags [expand title="trigger text"] and [/expand] in my Flare source files, with conditional tags on them so they wouldn't also appear in print.</p>
+<p><strong>Page hierarchy.</strong> If you want to import the DITA map to apply your page hierarchy, I believe you need to generate the web help output from DITA. I did this using the DITA Open Toolkit successfully, but then I started exporting my Flare help project as a DITA output, and tried using the Open Toolkit to again render the web help output. The problem is, Flare lets you create invalid DITA content, so the Open Toolkit stops rendering the output. Additionally, conditional tags aren't included in the DITA output from Flare, which was a deal breaker for me. (Later I realized that I could just use the webhelp output from Flare's HTML5 output and configure my page hierarchy through Appearance &gt; Menu in WordPress.)</p>
+<p>I'm sure there are more issues that I would discover when using this workflow on an actual project.</p>
+<h2>Conclusion</h2>
+<p>Eventually I'll probably use WordPress in a pilot test with real help content. My guess is that most users won't notice, but project managers and designers will love it. Users are almost always more interested in content rather than the specific theme, platform, or frame around the content. But who knows. Maybe this will be the start of a new era of WordPress outputs. Most importantly, I've shown how to bridge the gap between help authoring tools and web platforms without sacrificing functionality from either tool.</p>

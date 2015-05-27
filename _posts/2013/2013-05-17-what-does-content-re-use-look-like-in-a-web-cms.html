@@ -1,0 +1,61 @@
+---
+layout: post
+title: What Does Content Re-Use Look Like in a Web CMS?
+date: 2013-05-17 08:46:50.000000000 -07:00
+categories:
+- findability
+tags:
+- hierarchy
+- navigation
+- tables of contents
+- tags
+status: publish
+type: post
+published: true
+meta:
+  _wp_rp_image: '17141'
+  _edit_last: '1'
+  _spost_short_title: ''
+  _series_part: '85'
+  _wp_rp_related_posts_query_result_cache_expiration: '1419998233'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"6404";s:5:"score";s:18:"140.56403051661385";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:18:"106.35141639187331";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"6543";s:5:"score";s:17:"86.40633865156983";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"6611";s:5:"score";s:17:"84.58312308361992";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"8860";s:5:"score";s:17:"80.74862323009273";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6338";s:5:"score";s:17:"80.60149809576562";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"6430";s:5:"score";s:17:"80.33637193988002";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"9220";s:5:"score";s:17:"78.31181508499412";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"10156";s:5:"score";s:17:"76.48859951704422";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"10352";s:5:"score";s:17:"74.31691752783121";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"6404";s:5:"score";s:18:"139.97585424980537";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:17:"108.2077251367403";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"6543";s:5:"score";s:16:"86.0524240230466";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"6611";s:5:"score";s:17:"84.22920845510706";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"8860";s:5:"score";s:17:"80.34620269083055";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6338";s:5:"score";s:16:"80.2552779427341";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"6430";s:5:"score";s:16:"79.9784421513978";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"9220";s:5:"score";s:17:"77.90666533494715";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"10156";s:5:"score";s:17:"76.08344976700761";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"10352";s:5:"score";s:17:"73.92074820246049";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"9081";s:5:"score";s:17:"73.92074820246049";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"983";s:5:"score";s:18:"61.792353123521934";}}
+  fsb_social_facebook: '3'
+  fsb_social_twitter: '15'
+  fsb_social_linkedin: '4'
+  fsb_social_google: '2'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>One challenge I've recently been considering is how to handle content re-use on a web content management system, such as Drupal, Joomla, WordPress, or some other web platform. Let's say you're writing about ACME widgets and have three different audiences: ACME developers, ACME sales people, and ACME administrators. All your help content is hosted on the same web platform.</p>
+<p>In this scenario, you have a lot of different information, much of it overlapping. For example, with your ACME widgets, you have some conceptual info, some strategic info, some configuration info, some management info, some API info, and some server info -- all related to the ACME widgets.</p>
+<p>The sales people need the conceptual and strategic info but don't want to be burdened by the configuration, management, API, or server info.</p>
+<p>The developers mostly need the API info and server info, though they do need some light familiarity with the conceptual info as well. They don't need the strategic info since the developers implement the spec from another team that formulates the strategy.</p>
+<p>The administrators need the configuration and management info but not a whole lot of other info.</p>
+<p>If you were working in a help authoring tool (HAT) or another model, you could create all your content as standalone topics and then produce three distinct outputs -- one for each audience. Your developer guide could include the API and server info while providing light conceptual topics as well. Your sales guide could walk through the conceptual and strategic components while omitting the more technical content of the other guides, and so on.</p>
+<p>The model of distinct outputs for distinct audiences is a model many technical writers are familiar with. It works because the information sets are walled off from each other in clearly separable ways -- the help for the developer opens in its own web view and navigation. Search results are restricted to that web help file only.</p>
+<p>But rather than publishing independent, standalone outputs, in this scenario you're using a web platform for all your help content. It would be odd to have multiple instances of the web platform. For example, you wouldn't have one Drupal instance for developers, one Drupal instance for salespeople, and one Drupal instance for administrators. You could technically do it, of course, but managing all those separate web platforms would be a headache. Instead, you have one web platform for all your content.</p>
+<p>How do you re-use content intelligently on the same web CMS platform?</p>
+<h2>Approach 1: Push the same topic out to different TOCs.</h2>
+<p>You could store the topics in a re-usable format outside the web platform and then push out the topics multiple times, sometimes including the topic in the information's table of contents (TOC) and sometimes not.</p>
+<p>However, having multiple versions of the same topic appear in different places on the same site gets confusing. Your search results would show redundant instances of the same topic, and the overall content on your site would perhaps double or triple in size. The user browsing around the various pages would see a lot more content, much of it the same but repeated. So this approach seems odd and inefficient.</p>
+<h2>Approach 2: Pull the same topic into different TOCs.</h2>
+<p>You could write each topic as its own article and then pull the same topic into different content TOCs. For example, if you have a "Configuring Widgets" topic relevant to both administrators and developers, you could create one article about Configuring Widgets and put the same topic in both TOCs -- in both the TOC for developers and the TOC for administrators.</p>
+<p>The question is what TOC shows when you view the topic? You can't have multiple TOCs appear, so viewing the topic would potentially decontextualize the user from the TOC he or she was previously navigating.</p>
+<h2>Approach 3: Create tag-based views of topics.</h2>
+<p>You could create each topic as its own article but tag the content with keywords such as configuration, sales, API, management, and so on. Users could navigate by tag and see all the topic results that have that tag. Clicking on the "ACME widget development" tag might include the server, API, and configuration topics. Even more granular tags inside of these tag buckets could allow users to further filter the information they see.</p>
+<p>Although the same topic might include multiple tags and so appear in multiple views, this filtering of content is more familiar to readers as they would probably know that one topic can have more than one tag.</p>
+<p>The problem with a <a href="http://idratherbewriting.com/2011/12/26/using-tags-to-increase-findability/">tag-based navigation</a> is that you lose the hierarchy of a TOC. All files become a flat, unordered list of topics. The lack of hierarchy makes it more difficult to understand the meaning and structure of the information at a glance.</p>
+<h2>Approach 4: Abandon the TOC, provide search only.</h2>
+<p>In this approach, you pretty much abandon the TOC and instead provide a search field only. <a href="https://vimeo.com/help/faq/general_vimeo_questions">Vimeo's help</a> looks like this. The search provides instant results that take you to a specific topic, but the topics aren't organized into different navigation TOCs and such. The book paradigm seems far left behind here.</p>
+<p><a href="https://vimeo.com/help/faq/general_vimeo_questions"><img class="alignnone size-full wp-image-17141" alt="vimeo-help" src="/images/vimeo-help2.png" width="600" height="685" /></a></p>
+<p>The problem is that users can find only what they know to find. The search helps answer a question but not teach users what's possible. There isn't a logical path through the content to help users learn a new system. Instead, there are lots of disconnected, floating answers. There's no clear progression to follow through the content, so it gets tiring.</p>
+<h2>Conclusion</h2>
+<p>Which approach do you use? I'm not sure, but here's my point: On the web, the traditional paradigm of navigation via a table of contents breaks down. So do traditional tech comm patterns for content re-use. We have to consider new paradigms for how we organize content when we put all content on the same web platform. Companies that try to impose the book paradigm into the web end up with a content mess.</p>
+<p>What do you think? What approach would you use?</p>

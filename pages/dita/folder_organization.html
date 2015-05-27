@@ -1,0 +1,45 @@
+---
+layout: page
+title: 'DITA: File and folder organization'
+permalink: /folder_organization/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3772633723'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: File and folder organization</h1>
+<div class="body">
+<div class="p">When you're organizing your DITA files, it may be unclear about the right structure to use.<br />
+   Although you can use a variety of methods to organize your files, note the following<br />
+    limitations:
+<ul class="ul" id="topic_kxb_3mz_bq__ul_v1y_pmz_bq">
+<li class="li">The DITA Map file might have trouble loading topics in higher level folders. DITA Map files<br />
+     are like kings. They want all the other files to sit below them either in the same folder or in<br />
+     subfolders. Oxygen has a special parameter override you can set if you're referencing topics in<br />
+     higher folders than the map.</li>
+<li class="li">References to a file will be more likely to break if you use subfolders. For example,<br />
+     suppose you put all your configuration topics into a folder called "configuration". References<br />
+     to a topic there will look like this: <span class="ph filepath">configuration/sample_config.dita</span>.<br />
+     Suppose you decide to move sample_config.dita into another folder. All your links will break.<br />
+     (To change folder paths, I believe you use the refactoring options, but honestly I haven't<br />
+     quite figured them out.)</li>
+<li class="li">I do put images and glossary items in their own subfolders.</li>
+<li class="li">I always name my ditamap docmap.ditamap. </li>
+</ul>
+</div></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_introduction">Introduction</a></div>
+</div>
+</div>

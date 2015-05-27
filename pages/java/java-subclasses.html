@@ -1,0 +1,48 @@
+---
+layout: page
+title: 'Java: Subclasses'
+permalink: /java-subclasses/
+date: 2015-01-01 19:45:07.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+  _oembed_1ffcb489426cd9494a8fac2a138d9fe4: <iframe width="625" height="352" src="https://www.youtube.com/embed/qzOOy1tWBCg?feature=oembed"
+    frameborder="0" allowfullscreen></iframe>
+  _oembed_time_1ffcb489426cd9494a8fac2a138d9fe4: '1420170506'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>use <code>extends</code> keyword</li>
+<li>subclasses inherits members of superclass</li>
+<li>unlike with interfaces, you're not required to use all the fields and methods of the superclass</li>
+</ul>
+<p>Eclipse example: subclasses</p>
+<h2>Detailed description</h2>
+<p>You can extend a class. When you do this, you basically create a subclass that inherits the parent classes' members.</p>
+<pre><code>public class Apple extends Fruit
+</code></pre>
+<p>Now Apple can use all of Fruit's members (fields and methods). However, unlike interfaces, when you extend a class, you are not required to use all of the fields and methods of the parent class.</p>
+<blockquote><p>
+  ... extends, lets us know the class's parent class. A class's parent (more properly, a super) class is the class from which the current class gets the bases of its definition. In particular, a class can use all public and protected methods in its parent class just as though they had been defined in the class at hand.</p>
+<p>  -- Java 7 for Absolute Beginners</p>
+<p>  Inheritance defines relationships between the classes (and so between the objects) within an object-oriented system. All classes in Java have some other object as a parent. Java developers say that one object extends another. If you think about it for a minute, you shortly realize that there must be some object that starts it all. That special object (the only one that has no parent) is a class called Object. All other Java objects are descendants (sometimes through many levels) of Object.</p>
+<blockquote><p>
+    -- Java 7 for Absolute Beginners
+  </p></blockquote>
+</blockquote>
+<p>Java can only inherit from one parent class. You cannot have multiple parents. However, you can have a class extend multiple interfaces.</p>

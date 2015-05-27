@@ -1,0 +1,82 @@
+---
+layout: post
+title: How to design documentation for non-linear reading behavior
+date: 2015-05-15 05:18:43.000000000 -07:00
+categories:
+- dita
+- user-centered-documentation
+tags: []
+status: publish
+type: post
+published: true
+series: "User-centered documentation"
+weight: 3
+---
+{% include series.html %}
+
+<div class="summary">To account for non-sequential reading behavior, provide your readers with sufficient context to orient themselves with your topic.</div>
+<p>This is the third post in my <a href="http://idratherbewriting.com/series/user-centered-documentation/">series about user-centered documentation</a>.</p>
+<h2>First observations about non-sequential reading</h2>
+<p>In the late 1980s, John Carroll observed non-sequential reading behavior with how people consumed documentation in his seminal book, <a href="http://www.amazon.com/The-Nurnberg-Funnel-Instruction-Communication/dp/0262031639">The Nurnberg Funnel</a>.</p>
+<p>This non-sequential reading behavior contrasted with some approaches involving more sequential learning instruction at the time. This observation led Carroll to rethink how to design documentation.</p>
+<h2>Strategies for non-sequential reading</h2>
+<p>Carroll’s strategy was to divide information into small chunks that can be read in any order. His strategy for the user <a href="http://faculty.washington.edu/farkas/dfpubs/Farkas-Williams-CarrollsNurnbergFunnel.pdf">can be best summarized</a> by his statement:</p>
+<blockquote><p>You can just read the sections about the tasks you want to do.</p></blockquote>
+<p>This non-sequential pattern is really one of the foundations of structured authoring leading up to structured authoring. DITA is a prime example of small chunks of information that can be organized and consumed in myriad ways.</p>
+<h2>Problems arising chunking</h2>
+<p>Two problems arise from chunking for non-linear reading:</p>
+<p><strong>1. Lack of distinction between chunks and display</strong>. The first problem with chunking arises when there isn’t a clear distinction between the building block chunks and the presentation.</p>
+<p><img src="/images/buildingblocksvsdisplay.png" alt="Building blocks versus presentation" width="577" height="380" class="alignnone size-full wp-image-22706" /></p>
+<p>If you chunk information too small, it becomes dependent on a lot of other chunks around it to make sense.</p>
+<p>The TOC usually supplies the context for the chunks, but then the user has to rely heavily on navigating the TOC in order to make sense of the content. With this model, the user ends up playing pinball in a fragmented information experience.</p>
+<p><strong>2. Auto-bursting from print books</strong>. The second problem arises when people auto-burst information from print to online formats.</p>
+<p><img src="/images/printtoonline.png" alt="moving from print material to online" width="578" height="381" class="alignnone size-full wp-image-22707" /></p>
+<p>When you arbitrarily decide to split information at each heading 2 level into a new online topic, you end up stripping content from its needed context. The topics no longer make sense as standalone information and require a lot of outside reading to make sense of them.</p>
+<p>As a result, information gets fragmented and unusable.</p>
+<h2>Frankenbook results</h2>
+<p>Mark Baker <a href="http://everypageispageone.com/2012/02/24/frankenbooks-must-die-a-rant/">calls these autobursted print books "frankenbooks"</a>. Mark writes:</p>
+<blockquote><p>
+A Frankenbook is organized neither for linear reading, nor for random access. No matter where you land in it, you are in the middle of a maze with buttons to move up, down, or sideways, but no means of finding the end of any thread of narrative, great or small. Every page is page 297 and none of them answer your question.
+</p></blockquote>
+<p>For an example of a frankenbook, <a href="http://everypageispageone.com/examples-of-eppo-topics/">he says</a> to see some of <a href="http://pic.dhe.ibm.com/infocenter/wasinfo/v8r5/index.jsp?topic=%2Fcom.ibm.websphere.edge.doc%2Flb%2Fwelcome_edge.html">IBM’s documentation sets</a>.</p>
+<h2>Every Page Is Page One as the answer</h2>
+<p>Mark Baker’s <a href="http://everypageispageone.com/the-book/">Every Page Is Page One</a> is a reaction against these fragmented information documentation products.</p>
+<p>Mark advocates that topics should be self-contained so that a user can start any where (any topic functioning as page one) and the content should still make sense. In this case, Mark is promoting Carroll’s original minimalism design, which was to account for non-linear reading.</p>
+<p><img src="/images/eppo.png" alt="Every Page Is Page One" width="578" height="323" class="alignnone size-full wp-image-22708" /></p>
+<h2>Defining standalone topics</h2>
+<p>Exactly how you define "standalone" or "self-contained" is a definition that's hard to pin down. Mark notes that every piece of information tends to fit into some larger context.</p>
+<p>For example, in a bike manual, you can't understand a section about brake pads without understanding a bit about brakes, and brakes might necessitate information about wheels, and wheels might necessitate information about the spokes, and so on.</p>
+<p>Mark isn’t advocating that you put the entire book into one topic, creating a <a href="http://idratherbewriting.com/2014/01/12/single-page-docs-versus-click-insanity/">single-page doc style of content</a>. He is in favor of chunking information and keeping things at the same level. But rather than depending on the TOC to do the work of providing necessary context, you put that context directly into the topic so the reader can orient him or herself appropriately.</p>
+<p>You also make sure that topics are self-contained enough to allow the reader to accomplish his or her goal, which is usually not to understand how an entire car works, but how to perhaps check whether brake pads are good, or understand how to change a brake pad.</p>
+<h2>Example of a self-contained topic</h2>
+<p>Mark says wikis usually lend themselves to self-contained topics. Here's an example from the WordPress Codex:</p>
+<p><a href="https://codex.wordpress.org/Installing_WordPress"><img src="/images/strategy_self_contained-1024x627.png" alt="a self-contained topic" width="625" height="383" class="alignnone size-large wp-image-22709" /></a></p>
+<p>The task is to install WordPress, but the procedures vary based on your environment, platform, server, host, and other details. Rather than chunking this information into separate pages, the WordPress Codex authors decided to consolidate it into one massive page.</p>
+<h2>Example of context</h2>
+<p>Chunking into small information units is fine provided that you can provide users with the necessary context. Here's an example from Amazon Web Service documentation about S3 buckets.</p>
+<p><a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="/images/strategy_context_before-1024x623.png" alt="strategy_context_before" width="625" height="380" class="alignnone size-large wp-image-22710" /></a></p>
+<p>Here the author has split up a process involving six tasks into individual topics. The topics are connected through an workflow map at the top.</p>
+<p>If you land on a page in the middle of this process, it's easy to orient yourself within the overall process. The workflow map's context also allows the author to chunk the information, keeping it relatively simple and manageable on each page.</p>
+<h2>Applying the principle of context</h2>
+<p>I liked the workflow map from AWS so much that I implemented a similar technique with a three-step process into my own documentation projects:</p>
+<p><img src="/images/configurationdetails.png" alt="configurationdetails" width="626" height="170" class="alignnone size-full wp-image-22711" /></p>
+<p>After creating several simple images, I mapped the boxes to relative links using this <a href="http://imagemap-generator.dariodomi.de/">image map generator</a>. You could also incorporate links into an SVG image.</p>
+<h2>Providing context after a topic</h2>
+<p>In addition to providing context before, you can also provide context after a topic. In <a href="https://www.firebase.com/docs/web/guide/saving-data.html">Firebase's Getting Started documentation</a>, there's a nine-step process that guides users through a product setup.</p>
+<p>The writer chunks up the material to minimize the content on each page but provides the necessary context to move the user to the next step.</p>
+<p><a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="/images/strategy_context_after-1024x627.png" alt="strategy_context_after" width="625" height="383" class="alignnone size-large wp-image-22712" /></a></p>
+<p>Adding a "What's next?" topic below other topics can also help guide users to the next logical step in a larger workflow context.</p>
+<h2>Characteristics of Every Page Is Page One Topics</h2>
+<p>Mark outlines about 7 characteristics of Every Page Is Page One topics:</p>
+<ul>
+<li>Self-contained</li>
+<li>Specific and limited purpose</li>
+<li>Conform to type</li>
+<li>Establish context</li>
+<li>Assume the reader is qualified</li>
+<li>Stay on one level</li>
+<li>Link richly</li>
+</ul>
+<p>I think establishing context is one of the best ways to help account for non-linear reading patterns. I'll visit the "Link richly" strategy a bit later in this series.</p>
+<h2>Testing your content</h2>
+<p>As a test, to see if your content supports non-linear reading patterns, open it up to five random places and ask yourself, <em>If I were a reader, would I have enough context and information to orient myself if starting at this point?</em></p>

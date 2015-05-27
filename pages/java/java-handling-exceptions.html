@@ -1,0 +1,195 @@
+---
+layout: page
+title: 'Java: Handling exceptions'
+permalink: /java-handling-exceptions/
+date: 2015-01-01 19:51:37.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+  _syntaxhighlighter_encoded: '1'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>Try-catch blocks are ways of safeguarding your code from blowing up if there are errors.</li>
+<li>Java runs the code in the try block; if there's a problem, it runs the code in the catch block and keeps going through the routine. without catch blocks, the entire program would stop if it encountered an error. the catch block handles the error so your program can continue despite errors.</li>
+<li><code>finally</code> is a catch block that runs regardless of the error</li>
+<li>Use catch blocks specific to the type of error you anticipate. there are 50+ type of errors that can be thrown.</li>
+<li>Using catch blocks focused on a specific error will help you identify problems with the code</li>
+<li>Run your more generic catch blocks last; this way your more specific catch blocks will identify the error more accurately.</li>
+</ul>
+<p>Eclipse example: handling_exceptions<br />
+Eclipse example: handling_exceptions_2<br />
+Eclipse example: handling_exceptions3_compile_time<br />
+Eclipse example: handling_exceptions4</p>
+<h2>Detailed description</h2>
+<p>Error handling is one of the most important concepts to consider in your code because it helps identify errors that are happening. When you set up your method, if you add a <code>throws</code> to your method, it will launch a specific type of error if that code fails. The code will stop running at that point and be handled by that type of exception.</p>
+<p>Here I've identified that the <code>run</code> method will throw a <code>FileNotFoundException</code>.</p>
+<pre><code>public void run() throws FileNotFoundException {
+    File file = new File("test2.txt");
+    FileReader fr = new FileReader(file);
+
+    System.out.println("This won't run due to the error, because it wasn't enclosed in a try-catch block.");
+}
+</code></pre>
+<p>Now when I define the method this way, then I need to add the try catch block that handles this exception. This is a very important piece of information because it's a way of letting the user know that if the code fails, it will throw those particular types of exceptions.</p>
+<p>You can also list multiple types of exceptions that a method throws:</p>
+<pre><code>public void run() throws FileNotFoundException, IOException {
+    File file = new File("test2.txt");
+    FileReader fr = new FileReader(file);
+
+    System.out.println("This won't run due to the error, because it wasn't enclosed in a try-catch block.");
+}
+</code></pre>
+<p>But if you surround the code with a try-catch block, then the error will be handled through the catch block, and the code will keep running after that block. In other words, Java tries to run the code in the <code>try</code> statement. If an error occurs, Java goes to the <code>catch</code> block and runs that.</p>
+<pre><code>run() {
+        File file = new File("test2.txt");
+        try {
+            FileReader fr = new FileReader(file);
+            System.out.println("This won't be run if an exception is found.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("This code still runs because it's outside the Try block.");
+
+    }
+</code></pre>
+<p>In Eclipse, just surround the code you want to enclose with the try-catch block and right-click, then select **Surround with > Try Catch **block.</p>
+<p>Although you can only have one try statement per try-catch block, you can have multiple catch blocks. This is useful if you want to handle different types of errors in different ways.</p>
+<p>You can also add a <code>finally</code> block that will be processed regardless of whether an error takes place.</p>
+<p>There's also a try-multicatch block that you can add. You add this in the same way, by selecting the statement, right-clicking, and choosing <strong>Surround with > Multicatch</strong>.</p>
+<p>Here's what the multi catch might look like:</p>
+<pre><code>try {
+        test.run();
+    } catch (IOException | ParseException e) {
+
+        e.printStackTrace();
+    }
+</code></pre>
+<p>As you can see, two different catch blocks are combined here. The error is assigned to the <code>e</code> variable, so by running the <code>printStackTrace</code> method on e, you can see the error.</p>
+<p>You could also manually separate the two catch blocks as follows:</p>
+<pre><code>    try {
+            test.run();
+        } catch (IOException e) {
+
+            System.out.println("an IO exception happened here")
+        }
+
+catch (ParseException f) {
+
+            System.out.println("a Parse exception happened here")
+        }
+</code></pre>
+<p><code>Exception</code> is the most generic type of exception. It will catch any type of exception, and therefore it must appear last, since you want to use specific error catches to better identify the type of error that is taking place.</p>
+<pre><code>try {    
+// run some code here
+} 
+
+catch (ParseException e) 
+{    // handle the ParseException here} 
+
+catch (Exception e) 
+{    // handle other exceptions}
+</code></pre>
+<p>If you look at this <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html">Exception page</a> in the Javadoc, you can see that there are probably 50 different types of exceptions. You want to be really specific about the types of exceptions you catch so that you can more appropriately identify what might be wrong with your code.</p>
+<p>You have to handle the exceptions in the right order. If you put the wrong exception first, it might catch the error before a more specific catch block handles the error.</p>
+<p>The exceptions are automated when you use your IDE to add the try-catch blocks. The IDE will populate the exceptions based on the methods you're using.</p>
+<h2>Finally</h2>
+<p>There's also a <code>finally</code> keyword that you can leverage. Here's an example:</p>
+<pre><code>try {
+        averageImpl.setInts(ints2);
+} catch(IllegalArgumentException iae) {
+        System.out.println("Oops! can't use an empty array");
+} catch(ArithmeticException ae) {
+        throw ae;
+} finally {
+        System.out.println("Made it past the exception!");
+}
+
+-- Java 7 for Absolute Beginners 
+</code></pre>
+<p>What does <code>finally</code> do here?</p>
+<blockquote><p>
+  The finally keyword lets you create a block of code that gets run no matter what. Even if an exception happens, the code in the finally block gets run.</p>
+<p>  Java 7 for Absolute Beginners
+</p></blockquote>
+<h2>The logic of looking for exceptions</h2>
+<p>In <em>Beginning Java 8 Fundamentals</em>, the author explains an important concept about why Java uses try-catch blocks. Without them, your code would look like a bunch of nested if-else blocks:</p>
+<p>[code]<br />
+// Connect to the database<br />
+if (connected to the database successfully) {<br />
+        // Fetch the employee record<br />
+        if (employee record fetched) {<br />
+                // Update the employee salary<br />
+                if (update is successful) {<br />
+                        // Commit the changes<br />
+                        if (commit was successful ) {<br />
+                                // Employee salary was saved successfully<br />
+                        }<br />
+                        else {<br />
+                                // An error. Save failed<br />
+                        }<br />
+                }<br />
+                else {<br />
+                        //An error. Salary could not be updated<br />
+                }<br />
+        }<br />
+        else {<br />
+                // An error. Employee record does not exist<br />
+        }<br />
+}<br />
+else {<br />
+        // An error. Could not connect to the database<br />
+}<br />
+[/code]</p>
+<p>I think PHP often looks like this. With them, however, your code is much cleaner:</p>
+<p>[code]<br />
+try {<br />
+        // Connect to the database<br />
+        // Fetch employee record<br />
+        // Update employee salary<br />
+        // Commit the changes<br />
+}<br />
+catch(DbConnectionException e1){<br />
+        // Handle DB Connection exception here<br />
+}<br />
+catch(EmpNotFoundException e2){<br />
+        // Handle employee not found exception here<br />
+}<br />
+catch(UpdateFailedException e3){<br />
+        // Handle update failed exception here<br />
+}<br />
+catch(CommitFailedException e4){<br />
+        // Handle commit failed exception here<br />
+}<br />
+[/code]</p>
+<p>The catch blocks will handle the errors if they occur. There is no spaghetti-looking code of nested if-else statements. This is part of the genius of Java.</p>
+<h2>Checked vs unchecked exceptions</h2>
+<p>If an exception is checked, it means that it is caught in a try-catch block, like this:</p>
+<p>[code]<br />
+public void ioOperation(boolean isResourceAvailable) {<br />
+  try {<br />
+    if (!isResourceAvailable) {<br />
+      throw new IOException();<br />
+    }<br />
+  } catch(IOException e) {<br />
+    // Handle caught exceptions.<br />
+  }<br />
+}<br />
+[/code]</p>
+<p>This sample comes from <a href="http://en.wikibooks.org/wiki/Java_Programming/Checked_Exceptions">Unchecked Exceptions, Java</a>.</p>
+<p>Note that only methods throw exceptions.</p>

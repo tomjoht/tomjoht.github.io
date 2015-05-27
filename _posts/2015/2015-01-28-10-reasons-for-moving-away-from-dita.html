@@ -1,0 +1,88 @@
+---
+layout: post
+title: 10 reasons for moving away from DITA
+date: 2015-01-28 12:36:31.000000000 -08:00
+categories:
+- api-doc
+- dita
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  fsb_social_facebook: '7'
+  fsb_social_twitter: '29'
+  fsb_social_linkedin: '19'
+  fsb_social_google: '3'
+  dsq_thread_id: '3770207178'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Several people have asked me why I'm moving away from DITA. During my API workshop at TC Camp, near the end, one experienced DITA person said, What couldn't you do with DITA in publishing API documentation? Another reader recently said, I'm curious to know why you're moving away from DITA, since we're thinking about adopting it.</p>
+<p>If you looked at my <a href="http://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/">top 10 posts of 2014</a>, you'd see that posts about DITA topped the lists for the most commented on posts. I wrote a lot about DITA in 2014, and even compiled <a href="http://idratherbewriting.com/toc_introduction/ditaqrg/">extensive notes and tutorials for DITA</a>, including many OxygenXML webhelp hacks.</p>
+<p>But now I've decided that DITA is not the way to go for me. Before I list my 10 reasons for not using DITA, let me list a few things about DITA I really liked.</p>
+<h2>10 things I like about DITA</h2>
+<h3>1. Text-file formats</h3>
+<p>No more need to create and author content using some fancy rich text editor that hides the source behind a wall of mystery. With text-file formats, you can work directly with the source.</p>
+<h3>2. Revision control integration</h3>
+<p>Because you can work with text file formats, DITA files work well with revision control repositories. This means you can bypass a CMS and collaborate with others using the same collaborative architecture as developers.</p>
+<h3>3. Open source aspect of DITA OT</h3>
+<p>I love the open source aspect of the DITA OT. This open standard allows you to author content that numerous vendors support and handle. You can jump from vendor to vendor without having to lock your content into a proprietary format.</p>
+<h3>4. Conditional filtering from a structured taxonomy</h3>
+<p>I like how you can set up filtering based on specific attributes (such as product, platform, or audience), and then set specific values for those attributes. Oxygen prompts you with options for the attribute in a quick, easy way.</p>
+<h3>5. OxygenXML</h3>
+<p>If there was ever an editor I fell in love with, it was OxygenXML. Nearly everything it does is right on target. Oxygen's latest enhancement allows you to switch to different filtered views to dynamically hide content you don't want to see -- this was a lifesaver in simplifying the authoring process when I added an abundance of attributes on the same page.</p>
+<h3>6. A markup built specifically for tech comm</h3>
+<p>Unlike other models that writers simply <em>adapt</em> for their needs, DITA is built with technical writers in mind. Everything about the authoring and publishing experience is accounted for, and there is almost no scenario you can't handle with DITA.</p>
+<h3>7. Conref, keyref</h3>
+<p>I love a lot of the core DITA functionality around re-use. Conref elements are great for re-using content in different places, and keyref elements are an ingenious way of handling link references that might change.</p>
+<h3>8. Batch publishing</h3>
+<p>This may not be DITA specific, but one thing I liked about OxygenXML is its ability to kick off a dozen publishing jobs with just a couple of clicks (leveraging DITAVAL files to define the filters applied with each build). You can set up all kinds of publishing outputs and initiate the builds with almost no effort at all.</p>
+<h3>9. Parent-child link functionality</h3>
+<p>It may be a small thing, but it's cool how you can specify that child pages get embedded onto the parent page, showing summaries and a link for each child page. This worked especially well when I had a task involving numerous individual topics as separate steps, and I wanted to create an overview task.</p>
+<h3>10. The Yahoo DITA group</h3>
+<p>The Yahoo DITA group is an amazing resource when you're working in DITA. A lot of knowledgeable people are ready to help out and provide helpful answers and information. Overall, there's a strong DITA community in tech comm (even though, according to Maxwell Hoffman, DITA adoption is only at about 15% of the tech comm market).</p>
+<p>Given all of these reasons, you may be wondering why I've decided to move away from DITA. Well, I haven't made an official decision, since I'm only running a pilot project with another platform, but I've already fallen in love with this new platform. So here are my reasons for moving away from DITA.</p>
+<h2>10 reasons to move away from DITA</h2>
+<h3>1. DITA doesn't easily integrate into existing web frameworks.</h3>
+<p>There are a lot of web frameworks such as Bootstrap, Zurb Foundation, and others that provide ready-made, responsive stylesheets that give you a host of components, from alerts to panels to navigation menus and much more, all with a simple style.</p>
+<p>Hooking into these web frameworks is not only key for jumpstarting your design, these frameworks also give you templates that display well across mobile and tablet devices. Trying to design without these frameworks is like trying to build illustrations in MS Paint instead of Adobe Illustrator -- you could probably do it, but the latter will save you weeks of time and allow you to focus on developing your content.</p>
+<h3>2. DITA doesn't easily integrate with JavaScript libraries.</h3>
+<p>I spent a lot of time integrating various JavaScript libraries into Oxygen's webhelp output, and each time I had to resort to some special hack to get it to work (for example, see my <a href="http://idratherbewriting.com/toc_publishing/jquery_side_panel/">DITA tutorial in integrating Sidr</a>). This is because Oxygen's webhelp strips out a lot of the elements (such as product, audience, platform, etc.) that would normally be coded as <code>data</code> elements to allow JavaScript listeners to trigger.</p>
+<p>You can make a lot of these JavaScript libraries work in DITA, but it's a major hassle. You have to figure out what HTML the XML elements get rendered into (e.g., <code>section</code> becomes <code>h2</code>, but the ID tag for the section element gets prepended with the topic ID followed by double underscores <code>__</code>). The IDs and classes are critical in order for the JavaScript plugins to work.</p>
+<h3>3. I never bought into DITA's information typing model.</h3>
+<p>I agree with task-oriented authoring, but <em>enforcing</em> information typing isn't for me. I later learned that there is something called "core DITA" that ignores the specializations (concept, task, reference). If you author in core DITA, you're just using basic topic types. I eventually switched to core DITA, but so much DITA momentum and energy seems to revolve around developing even more topic types and enforcing them (for example, a new topic type for troubleshooting is being developed).</p>
+<p><em>Enforcing</em> topic types seems too extreme to me. Other HATs don't force you to write to a specific model whose shape (more often than not) doesn't exactly fit what you're documenting.</p>
+<p>I implemented a lot of workarounds when using tasks and concepts in order to get around DITA's rules. In the end, I figured I should just use my common sense and writerly instincts when deciding how to structure my content. For example, sometimes it really does make sense to use level 3 subheadings, and I shouldn't have to resort to complex element nesting to do it.</p>
+<p>DITA's topic types also encourage you to write in tiny little topics, and promises of glueing topics together don't work so well (e.g., the OT doesn't put relationship tables in the right spot, and it's difficult to link to a set of topics (e.g., <code>topicsetref</code>)).</p>
+<p>Overall, I felt a bit empty following Darwin <em>Information Typing</em> Architecture when I wanted to remove the "information typing" aspect of it all.</p>
+<h3>4. Writing in XML is a chore.</h3>
+<p>Writing in XML is more cumbersome and complex, since it's not just a matter of knowing what elements to use, but knowing the order of elements that is allowed. Many vendors create visual editors to hide the complexity, but this ends up removing you from the text file format and creates another wall in front of the source. I can live with the XML tags, but the language is extremely verbose.</p>
+<p>For example, to set off code, you have to surround it with <code>codeph</code> elements. I wrote about this verboseness in a previous post titled <a href="http://idratherbewriting.com/2014/09/30/why-developers-will-never-adopt-dita/">Why developers will never adopt DITA</a>. Markdown, in contrast, is much simpler and more enjoyable to work in. To set off code, you surround it with &#96;backticks&#96;. If you like working in text file formats, Markdown is a joy to use. Shouldn't writers, who spend so much time developing content, enjoy the format and syntax they're writing in?</p>
+<h3>5. Open source DITA solutions develop too slowly.</h3>
+<p>I'm not knocking the fact that the DITA spec is slow to evolve, with literally one update every 5 years (2005, 2010, and 2015). New DITA tools come on scene at least once a year (e.g. easyDITA, Fluid Topics, Componize), but how many of these new tools are open source? In contrast, how many of those tools are sold by proprietary vendors charging thousands of dollars at a yearly subscription rate? The average cost of an online DITA CMS for a minimum amount of content will cost at least $30k a year, which seems steep given the fact that there are so many alternative authoring platforms available for free.</p>
+<h3>6. You can't easily customize the output.</h3>
+<p>If you've ever tried to customize your webhelp output to match your website's brand (beyond changing the logo and a few simple colors), you realize that HATs make this customization really hard. With DITA, it's even more difficult, since you have to customize the XSL-FO stylesheet that transforms the XML elements into HTML. And then you have to modify the webhelp plugin files (for which there is rarely any documentation).</p>
+<p>In contrast, I was able to customize much of my Jekyll template in an afternoon using simple CSS and HTML.</p>
+<h3>7. DITA doesn't integrate well with other non-DITA content.</h3>
+<p>If you have to integrate with support content, developer contributions, or marketing, most likely they'll give you HTML. You'll then need to figure out how to mix your XML with their HTML. You can convert their HTML into your XML source, or try to merge your XHTML output with other HTML at runtime.</p>
+<p>Basically, other groups won't easily integrate your DITA content, and it's a near impossible task to win other groups over to DITA. You could try to roll out a vendor's proprietary Word-like template to facilitate their XML authoring, or you could just author in HTML. Authoring in HTML is actually a lot easier than writing in XML, and you can do more with it.</p>
+<p>I think that technical writers who insist on authoring in XML are isolating themselves from the rest of their work organizations. Rather than acting as curators and integrators, the XML format creates walls and silos between content.</p>
+<h3>8. Everything I wanted to do with DITA, I can do with Markdown and Liquid on Jekyll.</h3>
+<p>I thought DITA was the only technology that would allow things like <code>conref</code>, <code>keyref</code>, conditional filtering, content re-use, and more. Then someone showed me how Jekyll can process both Markdown and Liquid. Liquid offers a programming language that you can use directly on the page for if-else statements, loops, includes, variables, and more. In fact, you can even tag pages and generate lists of those tagged pages. With Liquid, you can do a lot <em>more</em> than you can with DITA. (Understanding Liquid's capabilities was the key that allowed me to consider another platform.)</p>
+<h3>9. Innovation with DITA is too reliant on vendors.</h3>
+<p>If you want to try something innovative with DITA, you're mostly reliant on vendors for the innovation. You can't freely pull from the many JavaScript, CSS, and other libraries on the web to build your innovation. (If you have strong XML development skills, I'm sure there are open source frameworks you can leverage, but the communities for them are much smaller.)</p>
+<p>In contrast, with other solutions that allow you to freely integrate other code bases and libraries, you can build solutions that leverage a ton of open source or freely licensed code. And because many, many more engineers are using web technologies in the platforms they build, you can get help on sites like StackOverflow.com and more. You're part of a global Internet community, not just a little niche of DITA XML writers.</p>
+<h3>10. DITA is the wrong language for the API doc space.</h3>
+<p>One of the areas I'm focusing on is API documentation. Very few development shops have a DITA XML setup, in part because developers are involved in contributing, reviewing, and publishing the documentation that supports their APIs, SDKs, and other tools. Trying to shoehorn DITA into an API software shop is like trying to fit a size 6 shoe onto a professional basketball player's foot -- it simply doesn't fit.</p>
+<h2>Conclusion</h2>
+<p>A post like this no doubt invites someone to rebut each of these 10 points, showing that in fact DITA can satisfy each of these conditions. For example, I know someone is building an open-source HTML5 webhelp plugin for DITA that will probably have many of these web and JavaScript features. That's great, but there's just not enough momentum with DITA as there is with other web technologies. <em>One</em> guy building <em>one</em> solution that takes three years to complete can't compete with thousands of web developers across the globe building plugins, frameworks, themes, and more, and sharing them with each other through open, forkable repositories on a daily basis. In short, DITA can't compete with the momentum of the web.</p>
+<p>In closing, I just want to say that DITA may be a good strategy in certain situations, such as for large teams trying to standardize authoring and publishing in global contexts. But for a semi-lone writer who loves web publishing and is creative in trying out different approaches, DITA is the wrong platform.</p>

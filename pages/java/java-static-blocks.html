@@ -1,0 +1,48 @@
+---
+layout: page
+title: 'Java: Static blocks'
+permalink: /java-static-blocks/
+date: 2015-01-01 20:24:53.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<blockquote>
+  Static blocks are handy bits of code that let you define one block of code and have it be included in every constructor. Let's consider an example (in the form of a different class) in Listing 2-17.</p>
+<p>  Listing 2-17. Static block example</p>
+<p>  package com.bryantcs.examples;<br />
+  <br />
+      public class StaticBlockClass {<br />
+  <br />
+              private static String name;<br />
+              private String whichOne;<br />
+  <br />
+              static {<br />
+                      name = "StaticBlockClass";<br />
+              }<br />
+              public StaticBlockClass(int identifier) {<br />
+                      whichOne = Integer.toString(identifier);<br />
+              }<br />
+  <br />
+              public StaticBlockClass(String identifier) {<br />
+                      whichOne = identifier;<br />
+              }<br />
+  <br />
+      }<br />
+  -- Java 7 for Absolute Beginners
+</p></blockquote>

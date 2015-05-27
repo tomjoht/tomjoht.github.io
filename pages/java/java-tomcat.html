@@ -1,0 +1,39 @@
+---
+layout: page
+title: 'Java: Tomcat'
+permalink: /java-tomcat/
+date: 2015-01-01 20:27:26.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Tomcat is a web server that allows you to run Java in JSP pages.</p>
+<h1>Install Tomcat</h1>
+<ul>
+<li>Download JDK (Java Development Kit) and JRE (Java RunTime Environment).</li>
+<li>Download Eclipse IDE for Java EE Developers Eclipse. If you have the regular Java version of Eclipse already installed, you need to add the Java EE perspective. </li>
+<li>Install Tomcat (a web server). Binary distributions, under Core, choose targ.gz or if Windows, 32-bit/64. </li>
+</ul>
+<p>Industrial strength installations use Apache that redirects to Tomcat to redirect to Java Servlets.</p>
+<h2>Installing Tomcat</h2>
+<p>There's a version of Tomcat installed with Eclipse that will create conflicts. Change some of the ports for the Tomcat installation that exists outside of your version of Eclipse.</p>
+<h2>Configuring Tomcat within Eclipse</h2>
+<p>Click Workbench, then click Add New Server. Browse to your Tomcat installation directory.</p>
+<p>Once configured, you should be able to start and stop servers in the Servers tab.</p>
+<p>'Ports used by tomcat are already in use.' Go to your tomcat installation, stop it.</p>
+<p>It's odd because it's like Eclipse launches its own thread with Tomcat even though it's using the same Tomcat installation.</p>

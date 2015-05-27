@@ -1,0 +1,65 @@
+---
+layout: page
+title: 'DITA: Add a menu selector'
+permalink: /add_menu_selector/
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Add a menu selector</h1>
+<div class="body taskbody">
+<p class="shortdesc">If you have multiple output files and you want to provide users with the ability to<br />
+        easily navigate from one output to another, you can add a menu selector in the<br />
+        header.</p>
+<div class="section context">
+<p class="p">The menu selector is a simple menu that allows users to select other options. When<br />
+            a user selects an option, the URL switches to another page. Here's an example of what<br />
+            this looks like:</p>
+<p><img class="image" src="/images/proglanguage.png" alt="" /></p>
+<p class="p">When the user makes a selection, the URL reloads another site entirely. </p>
+</p></div>
+<p class="li stepsection">To incorporate a menu selector:</p>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                <span class="ph cmd">Create a new HTML file by going to <span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">New</span> &gt; <span class="ph uicontrol">New Document</span> &gt; <span class="ph uicontrol">HTML</span></span>.</span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Insert a menu selector form with various options.</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock"> &lt;form&gt;&lt;span id="progSelector"&gt;Programming language:&lt;/span&gt; 
+          &lt;select name="URL" onchange="window.parent.location.href=this.form.URL.options[this.form.URL.selectedIndex].value"&gt;
+              &lt;option value="../java/index.html"&gt;Java&lt;/option&gt;
+              &lt;option value="../dotnet/index.html"&gt;.NET&lt;/option&gt;
+              &lt;option value="../cpp/index.html"&gt;C++&lt;/option&gt;
+              &lt;option value="../php/index.html"&gt;PHP&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/form&gt;</pre>
+<p class="p">When a user selects an option, it triggers an <samp class="ph codeph">onchange</samp> script to trigger that changes the browser's location to the URL of the option selected.</p>
+<p class="p">Note that because OxygenXML's webhelp uses frames, you must use the<br />
+                            <samp class="ph codeph">window.parent.location</samp> as the target for each of theo<br />
+                        ptions selected.</p>
+<p class="p">The user will see the first option as the option that appears selected. Therefore, you need to customize the menu selector for each output.</p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Create another header file and swap around the order. For the .NET transform, for example, put the .NET option first. Create another header file and swap around the order again. For the C++ transform, put the C++ option first.</span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Click the <span class="ph uicontrol">Configure transformation scenarios</span>button. Edit one of your transformation scenarios. On the <span class="ph uicontrol">Parameters</span> tab, click the <span class="ph uicontrol">webhelp.footer.file</span> option and set it to the right header file for that output. </span>
+            </li>
+</ol></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</div>
+</div>

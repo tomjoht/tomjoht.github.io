@@ -1,0 +1,182 @@
+---
+layout: page
+title: 'DITA: Add a jQuery show/hide toggle'
+permalink: /jquery_show_hide/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3770196515'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Add a jQuery show/hide toggle</h1>
+<div class="body taskbody">
+<p class="shortdesc">The show/hide toggle allows you to hide content within your page. This helps you<br />
+  compress long content in a more user friendly way.</p>
+<div class="section context">
+<div class="note tip"><span class="tiptitle">Tip:</span> For a demo of the show/hide toggle functionality, see <a class="xref external" href="http://idratherbewriting.com/wp-content/uploads/oxygendemos/show_hide/" target="_blank">the Show/hide demo here</a>.</div>
+<p class="p">There are a lot of different jQuery show/hide toggles. The one we'll be implementing is here:<br />
+     <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/" target="_blank">Simple Expand</a>. Additionally, the instructions here<br />
+    show you how to implement the toggle with the twisty arrows.</p>
+<p class="p">For a demo of the effect, see the webhelp output of the DITA QRG.</p>
+<div class="note note"><span class="notetitle">Note:</span> The method described here permanently alters your webhelp output from Oxygen. If you don't want top alter the output, make a copy of the files that you're altering first.</div>
+</p></div>
+<ol class="ol steps">
+<li class="li step stepexpand"><span class="ph cmd">Download the minified script from the <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/" target="_blank">jQuery Simple Expand plugin site</a> and copy it to your<br />
+     clipboard.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the following js file: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js/webhelp_topic.js</span>.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">Insert the copied script at the bottom right before the closing <samp class="ph codeph">});</samp>.</span>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+$('.expander').simpleexpand();
+    </pre>
+<p class="p">This function triggers the script. Wherever the <samp class="ph codeph">expander</samp> class exists, the the <samp class="ph codeph">simpleexpand</samp> function will trigger. This script will appear in your webhelp topic frame (instead of your sidebar).</p>
+</p></div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">Save the close the file.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the following file: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/css/webhelp_topic.css</span>.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">Insert the following styles:</span>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock language-css">
+.<strong class="hl-keyword" style="color:#7f0055">content</strong> {<strong class="hl-keyword" style="color:#7f0055">display</strong>:none;}
+.expander.expanded {
+    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>: <span class="hl-number">13</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>: <strong class="hl-keyword" style="color:#7f0055">left</strong> center;
+    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>: no-repeat;
+    <strong class="hl-keyword" style="color:#7f0055">background-image</strong>: url(../img/expanded.gif);
+}
+
+.expander.collapsed {
+    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>: <span class="hl-number">13</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>: <strong class="hl-keyword" style="color:#7f0055">left</strong> center;
+    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>: no-repeat;
+    <strong class="hl-keyword" style="color:#7f0055">background-image</strong>: url(../img/collapsed.gif);
+}    
+   </pre>
+<p class="p">Any element with the class <samp class="ph codeph">content</samp> will be hidden. When the script is run, the <samp class="ph codeph">content</samp> class will be removed and one of the other classes will be added.</p>
+<p class="p">In my demo, I added some more classes to style how the expand and collapse sections appear. If you want to style your output like the demo, use these styles instead of the previous:</p>
+<pre class="pre codeblock language-css">
+.<strong class="hl-keyword" style="color:#7f0055">content</strong>{
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
+}
+.expander.expanded{
+    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>:<span class="hl-number">13</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>:<strong class="hl-keyword" style="color:#7f0055">left</strong> center;
+    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>:no-repeat;
+    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
+    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>: <span class="hl-number">16</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>: blue;
+    box-sizing: border-box;
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline-block;
+    <strong class="hl-keyword" style="color:#7f0055">background</strong>: #ececec url(../img/expanded.gif) no-repeat <span class="hl-number">1</span>% center;
+    <strong class="hl-keyword" style="color:#7f0055">border-top</strong>: <span class="hl-number">1</span>px dashed #ccc;
+    <strong class="hl-keyword" style="color:#7f0055">border-bottom</strong>: <span class="hl-number">1</span>px dashed #ccc;
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>: #<span class="hl-number">444</span>;
+    <strong class="hl-keyword" style="color:#7f0055">font</strong>: normal <span class="hl-number">13</span>px/<span class="hl-number">22</span>px <span class="hl-string" style="color:#2a00ff">"Helvetica Neue"</span>,<span class="hl-string" style="color:#2a00ff">"HelveticaNeue"</span>,Helvetica,sans-serif;
+    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
+    <strong class="hl-keyword" style="color:#7f0055">padding</strong>: <span class="hl-number">9</span>px <span class="hl-number">5</span>px <span class="hl-number">8</span>px <span class="hl-number">25</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">width</strong>: <span class="hl-number">100</span>%;
+    <strong class="hl-keyword" style="color:#7f0055">font-weight</strong>:bold;
+    
+}
+
+.expander.collapsed{
+    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>:<span class="hl-number">13</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>:<strong class="hl-keyword" style="color:#7f0055">left</strong> center;
+    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>:no-repeat;
+    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
+    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>: <span class="hl-number">16</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>: blue;
+    box-sizing: border-box;
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline-block;
+    <strong class="hl-keyword" style="color:#7f0055">background</strong>: #ececec url(../img/collapsed.gif) no-repeat <span class="hl-number">1</span>% center;
+    <strong class="hl-keyword" style="color:#7f0055">border-top</strong>: <span class="hl-number">1</span>px dashed #ccc;
+    <strong class="hl-keyword" style="color:#7f0055">border-bottom</strong>: <span class="hl-number">1</span>px dashed #ccc;
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>: #<span class="hl-number">444</span>;
+    <strong class="hl-keyword" style="color:#7f0055">font</strong>: normal <span class="hl-number">13</span>px/<span class="hl-number">22</span>px <span class="hl-string" style="color:#2a00ff">"Helvetica Neue"</span>,<span class="hl-string" style="color:#2a00ff">"HelveticaNeue"</span>,Helvetica,sans-serif;
+    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
+    <strong class="hl-keyword" style="color:#7f0055">padding</strong>: <span class="hl-number">9</span>px <span class="hl-number">5</span>px <span class="hl-number">8</span>px <span class="hl-number">25</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">width</strong>: <span class="hl-number">100</span>%;
+    <strong class="hl-keyword" style="color:#7f0055">font-weight</strong>:bold;
+}
+     </pre>
+</p></div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">Grab the two arrow images: <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/images/expanded.gif" target="_blank">expanded.gif</a> and <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/images/collapsed.gif" target="_blank">collapsed.gif</a></span>
+<div class="itemgroup info">
+<p class="p">Right-click the images (they appear in the upper-left corner) and save the images to your computer.</p>
+</div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">Copy the images into this folder: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/img.</span> </span>
+<div class="itemgroup info">
+<p class="p">Now you've set up your jQuery script, styles, and images. The next step shows how to incorporate the show/hide effect in a page.</p>
+</div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">To include a show/hide instance on a page, add the following:</span>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+   &lt;sectiondiv&gt;
+    &lt;p outputclass="expander"&gt;View details&lt;/p&gt;
+    &lt;p outputclass="content"&gt;This is the content that gets expanded.&lt;/p&gt;
+   &lt;/sectiondiv&gt;
+  </pre>
+<p class="p">Adding <samp class="ph codeph">outputclass</samp> on an element renders it to <samp class="ph codeph">class</samp> in the HTML output.</p>
+<p class="p">It's not absolutely necessary to include the <samp class="ph codeph">sectiondiv</samp> tag. However, if you have multiple elements with an <samp class="ph codeph">outputclass="content"</samp> on your elements, and those elements are siblings (rather than in a parent/child hierarchy), all the siblings will expand. By containing each element with <samp class="ph codeph">outputclass="content"</samp> inside a <samp class="ph codeph">sectiondiv</samp> tag, then only that element inside the <samp class="ph codeph">sectiondiv</samp> will expand.</p>
+<p class="p">This is because the default behavior of the Simple Expand plugin is to climb up to the parent element and expand all child elements containing the <samp class="ph codeph">content</samp> class. By using <samp class="ph codeph">sectiondiv</samp> elements, you create multiple parent-child relationships.</p>
+<p class="p">The <samp class="ph codeph">sectiondiv</samp> tag works only inside a <samp class="ph codeph">section</samp> element, which is only allowed in concept and general task elements. For task elements, you can use the <samp class="ph codeph">info</samp>, <samp class="ph codeph">stepxmp</samp>, <samp class="ph codeph">context</samp> or other div block elements.</p>
+</div>
+</li>
+<li class="li step stepexpand">
+    <span class="ph cmd">You can also transclude content from another page.</span></p>
+<div class="itemgroup stepxmp">The transclusion source might look like this:
+<pre class="pre codeblock">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+  &lt;concept id="lipsum_source"&gt;
+  &lt;title&gt;Sample Show/Hide Content&lt;/title&gt;
+ &lt;shortdesc id="lipsum_shortdesc"&gt;This is a page containing sample content that acts as the transclusion source for the show/hide demo.&lt;/shortdesc&gt;
+&lt;conbody&gt;
+
+&lt;section id="lipsum1"&gt;&lt;title&gt;Lipsum section 1&lt;/title&gt;
+  &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section id="lipsum2"&gt;&lt;title&gt;Lipsum section 2&lt;/title&gt;
+  &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/conbody&gt;
+&lt;/concept&gt;
+    </pre>
+<p class="p">If so, the transclusion target would look like this:</p>
+<pre class="pre codeblock">
+ &lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+&lt;concept id="concept_cmy_2g1_kp"&gt;
+ &lt;title&gt;Show/hide demo&lt;/title&gt;
+ &lt;shortdesc&gt;This is a demo of the show/hide functionality.&lt;/shortdesc&gt;
+ &lt;conbody&gt;
+  &lt;p&gt;This first expandable section is transcluded from this page: &lt;xref href="jquery_showhide_sample_content.dita"/&gt;.&lt;/p&gt;
+  &lt;p outputclass="expander"&gt;View more&lt;/p&gt;
+
+  &lt;section conref="jquery_showhide_sample_content.dita#lipsum_source/lipsum1" outputclass="content"/&gt;      
+  &lt;section conref="jquery_showhide_sample_content.dita#lipsum_source/lipsum2" outputclass="content"/&gt;  
+  &lt;section conref="jquery_showhide_sample_content.dita#lipsum_source/lipsum3" outputclass="content"/&gt;  
+  &lt;/conbody&gt;
+&lt;/concept&gt;
+     </pre>
+<p class="p">For more details about using <samp class="ph codeph">conref</samp>, see <a class="xref" href="/conref" title="You can re-use notes and other content through an attribute called conref.">Conref (re-use of content)</a>. </p>
+</p></div>
+</li>
+</ol></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</div>
+</div>

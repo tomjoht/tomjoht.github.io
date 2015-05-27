@@ -1,0 +1,102 @@
+---
+layout: post
+title: Creating re-usable chunks (conref) in Jekyll versus DITA
+date: 2015-04-01 08:45:26.000000000 -07:00
+categories:
+- dita
+- jekyll
+tags: []
+status: publish
+type: post
+published: true
+series: "Jekyll versus DITA"
+weight: 4
+---
+{% include series.html %}
+
+
+
+<p>In my <a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">previous post</a>, I explained how to do variables and conditional processing in Jekyll. <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/#comment-263691">One of the commenters wondered</a> about how you create "intelligent content" with Jekyll:</p>
+<blockquote><p>how does a Jekyll (or similar) approach let us create intelligent content?</p></blockquote>
+<p>There was a recent conference in San Francisco focused on intelligent content, and one of the attendees (Trinity Hartman) wrote a brief description describing just what intelligent content is. Trinity says intelligent content has four characteristics:</p>
+<blockquote><p>
+<b>Discoverable:</b> You need search-optimized content if you want online shoppers to find your products<br />
+<b>Reusable:</b> Every time you change your product, you should be able to easily update your content, too<br />
+<b>Reconfigurable:</b> If your content is easy to modify, you can create retailer-specific product descriptions with minimal effort<br />
+<b>Adaptable:</b> Your content should be chunked in such a way that it’s easy to read on all kinds of devices, including mobile phones.
+</p></blockquote>
+<p>&mdash; see <a href="http://content26.com/blog/intelligent-content-adapt-or-get-left-behind/">Intelligent Content: Adapt or Get Left Behind</a></p>
+<p>Let's look at the two middle attributes here: reusable and reconfigurable (I'll save the others for another post). To make your content intelligent (as opposed to dull or dimwitted), the basic approach is to chunk your content into little topics so that you can mix and match the chunks in places you need them. By chunking your content into little bits, you have greater flexibility to arrange them into different outputs, reusing content as needed.</p>
+<p>I explored chunking previously in a post called <a href="http://idratherbewriting.com/2011/04/18/the-importance-of-chunking-for-sorting/">The Importance of Chunking for Sorting</a>. In that post, I noted how rock cairns (guide signs for hikers that consist of stacked rocks) can be arranged in many different ways because of their small chunks:</p>
+<p><img src="/images/cairns.png" alt="Rock Cairns" /></p>
+<p>Contrast the small rocks approach with big rocks, which have little capacity for varied arrangements:</p>
+<p><img src="/images/bigrocks.png" alt="Big rocks" /></p>
+<p>It makes sense to chunk material into small pieces if you want to construct a lot of different arrangements.</p>
+<p>See also <a href="http://idratherbewriting.com/2011/04/27/topic-chunking-and-the-broken-clock/">Topic chunking and the broken alarm clock</a>, in which I respond to a point Mark Baker makes about the effects of chunking too small. If you break apart an alarm clock into its little pieces, those little pieces may not make sense in isolation. You may end up with topics that no longer make sense on their own but require someone to constantly navigate a TOC to construct a coherent set of information.</p>
+<h2>How you chunk in DITA</h2>
+<p>In the DITA world, "conref" is synonymous with re-use. People like the term so much, they use it as a verb, as in, <i>Hey, I need to "conref" this information here...</i>.</p>
+<p>DITA uses the <code>conref</code> element for chunking. For example, if you have a note that you're reusing, you create a topic and put the note in it like this:</p>
+<p>[code lang="xml"]<br />
+ &lt;topic id=&quot;topic_123&quot;&gt;<br />
+   ...<br />
+  &lt;note type=&quot;warning&quot; id=&quot;bolt_warning&quot;&gt;Don't overtighten the bolts, as it may cause stripping.&lt;/note&gt;<br />
+[/code]</p>
+<p>Where you want to re-use the note, you add:</p>
+<p>[code lang="xml"]<br />
+&lt;note conref=&quot;notes.dita#topic_123/bolt_warning&quot;/&gt;<br />
+[/code]</p>
+<p>There is one limitation with this approach, though. The element must be valid where you insert it. For example, you can only use this note in places where the <code>note</code> element is valid.</p>
+<p>Notes are valid in a lot of places, so it wouldn't pose much of a problem. But suppose you have an entire <code>section</code> that you're reusing. You couldn't insert that in both a strict task topic as well as a concept topic.</p>
+<p>DITA also offers a conref range option. If you're re-using several steps, or several paragraphs, you can start with <code>conref</code> and end with <code>conrefend</code> to mark where the re-use should stop. For details, see <a href="http://idratherbewriting.com/conref/">DITA: Conref</a>.</p>
+<h2>How to "conref" in Jekyll</h2>
+<p>In Jekyll, conrefs are called "includes" (which is a more traditional term for re-use). When you want to include content from another file, you add an include.</p>
+<p>Using the same example as before, to reuse a note, I could create a file called bolt_note.md and add this content:</p>
+<p>[code lang="xml"]<br />
+Warning: Don't overtighten the bolts, as it may cause stripping.<br />
+[/code]</p>
+<p>Where I want to insert the note, I <em>include</em> the following:</p>
+{% raw %}
+<p>[code]<br />
+{% include bolt_note.md %}<br />
+[/code]</p>
+{% endraw %}
+<p>Because Jekyll doesn't enforce information typing, I could insert this note anywhere I wanted, without worrying about whether it was valid or not.</p>
+<p>Includes don't allow you to pull different parts of the same file, though. For example, if I had one file that contained all my notes, I couldn't select a specific note from that file using includes. Includes pulls in the whole file.</p>
+<p>However, if you have a of small content to re-use like this, there's another way to re-use it. You can store the content inside a YML file that you put in a _data folder in your project. For example, I could create a file called notes.yml stored in the _data folder.</p>
+<p>In data files, you use YML syntax, like this:</p>
+<p>[code lang="xml"]<br />
+bolt_note: &quot;Warning: Don't overtighten the bolts, as it may cause stripping.&quot;<br />
+[/code]</p>
+<p>To insert the content from the notes.yml file, you add this in your page:</p>
+<p>[code]<br />
+{{site.data.notes.bolt_note}}<br />
+[/code]</p>
+<p>If you read my last post (<a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">Variables and conditional processing</a>), you'll see a similar technique. Instead of using <code>site.audience</code>, which gets info from the configuration file, you use <code>site.data.notes</code> to get info from the notes.yml file inside the _data folder.</p>
+<p>(Through the <code>data_source</code> property in your configuration file, you can specify a different data folder source if you don't want to use the default _data folder. This way you can have different data sources for different configuration files.)</p>
+<p>Now suppose you want to add some formatting to the note style. If you have Bootstrap integrated, the official style might look like this:</p>
+<p>[code lang="xml"]<br />
+&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt; Don't overtighten the bolts, as it may cause stripping.&lt;/div&gt;<br />
+[/code]</p>
+<p>In my data file, I could add this formatting:</p>
+<p>[code lang="xml"]<br />
+bolt_note: &quot;&lt;div class='bs-callout bs-callout-warning'&gt;&lt;b&gt;Warning:&lt;/b&gt; Don't overtighten the bolts, as it may cause stripping.&lt;/div&gt;&quot;<br />
+[/code]</p>
+<p>However, this kind of approach leads to possible variation with the note style, since I may have lots of warnings. What if I decide to change the style later on? I don't want to have to change dozens of warning styles.</p>
+<p>To keep the note style in one place, I can put the note style into its own data file. I might create a file called alerts.yml and store my warning note style there:</p>
+<p>[code lang="xml"]<br />
+warning: &quot;&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt;&quot;<br />
+[/code]</p>
+<p>And this:</p>
+<p>[code lang="xml"]<br />
+end: &quot;&lt;/div&gt;&quot;<br />
+[/code]</p>
+<p>Most of my notes aren't reused from data files, so here's a typical instance of a note with this formatting:</p>
+<p>[code lang="xml"]<br />
+{{site.data.alerts.warning}} Make sure that, when loosening your pedal, you turn your left wheel &lt;i&gt;clockwise&lt;/i&gt; and the right wheel counterclockwise. {{site.data.alerts.end}}<br />
+[/code]</p>
+<p>If I wanted to re-use the previous example of the bolt-tightening note inside of this same re-used warning formatting, I could do this:</p>
+<p>[code lang="xml"]<br />
+{{site.data.alerts.warning}} {{site.data.notes.bolt_note}} {{site.data.alerts.end}}<br />
+[/code]</p>
+<p>That last example isn't so pretty, since it consists entirely of references to other content. There are probably more elegant ways to do it using a Ruby plugin, but once you start using plugins, you can no longer have Github Pages rebuild your content in the repository.</p>
+<p>At any rate, Jekyll provides multiple options for content re-use, which opens up some more possibilities.</p>

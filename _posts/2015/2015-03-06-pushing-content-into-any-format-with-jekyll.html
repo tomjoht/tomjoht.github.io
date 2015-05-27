@@ -1,0 +1,131 @@
+---
+layout: post
+title: Pushing content into any format with Jekyll
+date: 2015-03-06 08:18:33.000000000 -08:00
+categories:
+- general
+tags: []
+status: publish
+type: post
+published: true
+series: "Innovation in tech comm"
+weight: 11
+---
+{% include series.html %}
+
+<p>In the <a href="http://idratherbewriting.com/2015/03/04/how-to-create-a-help-api/">previous post</a>, I talked about help APIs as a way to deliver help inside applications. In this post, I'll explain how to push your help content into any format.</p>
+<p>[caption id="attachment_22727" align="alignnone" width="562"]<img src="/images/pushingcontent.png" alt="Pushing content into other formats using Jekyll and for loops" width="562" height="343" class="size-full wp-image-22727" /> Pushing content into other formats using Jekyll and for loops[/caption]</p>
+<p>Let's say that you have three different channels where you want to push your help content. Channel one is an S3 bucket in Amazon Web Services (requiring HTML), channel two is a Salesforce Knowledge center (requiring CSV), and channel three is your help API (requiring JSON).</p>
+<p>Jekyll (and probably a lot of static site generators) provide an amazing capability here. With most help authoring tools, you see a list of outputs (e.g., PDF, HTML, Eclipse Help, etc.), and you're pretty much limited to those outputs. Jekyll, however, allows you to define the templates and format that your content is pushed into.</p>
+<p>Let's remember the three different format channels for this scenario:<br />
+- For channel 1 (S3), the content needs to be in HTML.<br />
+- For channel 2 (Salesforce), the content needs to be in CSV (for batch import into Knowledge).<br />
+- For channel 3 (API), the content needs to be in JSON.</p>
+<h2>Pushing content into HTML</h2>
+<p>Since HTML is the main publishing use case, most of Jekyll is structured around facilitating this template. You author content in a Markdown or HTML page. At the top of this page, you specify the layout you want in the frontmatter, like this:</p>
+<pre>
+---
+layout: page
+title: My Page
+permalink: /mypage/
+---
+</pre>
+<p>Jekyll will take all the content in this page and stuff it inside the <code>{{content}}</code> tag in the layout you specified (page.html). Page.html also usually has a layout defined (default.html), so Jekyll takes all the content stuffed into the page.html layout and stuffs it into the <code>{{content}}</code> tag on the default.html page.</p>
+<p>(You could just specify your layout as <code>default</code> from the beginning, but you might have various HTML layouts, such as a layout for pages, posts, and specific content types (such as API doc), which all plug into default.html.)</p>
+<h2>Pushing content into JSON</h2>
+<p>Now let's move to the JSON use case. Rather than stuffing content into <code>{{content}}</code> tags, you create a file that looks like this:</p>
+<pre>
+---
+layout: none
+search: exclude
+---
+{
+    "entries": 
+[
+    {% for page in site.tooltips %}
+    {
+      "id"    : "{{ page.id }}",
+      "body": "{{ page.content | strip_newlines | replace: '', '' | replace: '"', '"' }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+}
+</pre>
+<p>"tooltips" is the name of a collection I created inside Jekyll. This code has the basic structure of the JSON that I want, but you'll notice some placeholders. A <code>for</code> loop iterates through all the pages inside the tooltips collection and, with each page, the page's id gets inserted into the <code>{{page.id}}</code> placeholder, and the page content gets inserted into the <code>{{page.content}}</code> placeholder.</p>
+<p>Assuming our pages were short descriptions of sports, here's what the <a href="http://idratherbewriting.com/wp-content/apidemos/tooltips.json">result might look like</a>:</p>
+<pre>
+{
+"entries": [
+{
+"id": "baseball",
+"body": "Baseball is considered America's past-time sport, though that may be more of a historical term than a current one. There's a lot more excitement about football than baseball. A baseball game is somewhat of a snooze to watch, for the most part."
+},
+{
+"id": "basketball",
+"body": "Basketball is a sport involving two teams of five players each competing to put a ball through a small circular rim 10 feet above the ground. Basketball requires players to be in top physical condition, since they spend most of the game running back and forth along a 94-foot-long floor."
+},
+{
+"id": "football",
+"body": "No doubt the most fun sport to watch, football also manages to accrue the most injuries with the players. From concussions to blown knees, football players have short sport lives."
+},
+{
+"id": "soccer",
+"body": "If there's one sport that dominates the world landscape, it's soccer. However, US soccer fans are few and far between. Apart from the popularity of soccer during the World Cup, most people don't even know the name of the professional soccer organization in their area."
+}
+]
+}
+</pre>
+<h2>Pushing content into CSV</h2>
+<p>CSV requires a different format from either HTML or JSON. And admittedly, here's where things get a little theoretical because I haven't actually tested this.</p>
+<p>Here's a <a href="http://support.spatialkey.com/spatialkey-sample-csv-data/">typical CSV format</a> that I just pulled off the web:</p>
+<pre>
+policyID,statecode,county,eq_site_limit,hu_site_limit,fl_sit
+e_limit,fr_site_limit,tiv_2011,tiv_2012,eq_site_deductible,hu_site_deductible,fl_site_deductible,fr_site_deductible,point_latitude,point_longitude,line,construction,point_granularity
+119736,FL,CLAY COUNTY,498960,498960,498960,498960,498960,792148.9,0,9979.2,0,0,30.102261,-81.711777,Residential,Masonry,1 
+448094,FL,CLAY COUNTY,1322376.3,1322376.3,1322376.3,1322376.3,1322376.3,1438163.57,0,0,0,0,30.063936,-81.707664,Residential,Masonry,3
+</pre>
+<p>You have a top row of comma-separated values, and then data in rows below that following the same pattern. Commas separate each value.</p>
+<p>In Jekyll, you would first make sure your pages had all the frontmatter tags corresponding each of these CSV headers. Here's what one page might look like:</p>
+<pre>
+---
+policyID:119736
+statecode:FL
+county: CLAY COUNTY
+eq_site_limit: 48960
+hu_site_limit: 498960
+fl_sit: 498960
+e_limit: 498960
+fr_site_limit: 498960
+tiv_2011: 498960
+tiv_2012: 792148.9
+eq_site_deductible: 0
+hu_site_deductible: 9979.2
+fl_site_deductible: 0 
+fr_site_deductible:0
+point_latitude: 30.102261
+point_longitude: -81.707664
+line: Residential
+construction: Masonry
+point_granularity: 3
+---
+</pre>
+<p>You then create a file with a .csv extension, such as data.csv. In this file, you add some basic frontmatter at the top so that Jekyll processes the file as a page. And then you iterate through each of the pages using a <code>for</code> loop and stuff the data into your CSV template.</p>
+<p>I'll pretend that I've created a collection here called "policies," and that each of my pages exists inside _policies.</p>
+<pre>
+---
+layout: none
+search: exclude
+---
+policyID,statecode,county,eq_site_limit,hu_site_limit,fl_sit
+e_limit,fr_site_limit,tiv_2011,tiv_2012,eq_site_deductible,hu_site_deductible,fl_site_deductible,fr_site_deductible,point_latitude,point_longitude,line,construction,point_granularity
+{% for page in site.policies %}
+{{page.policyID}},{{page.statecode}},{{page.county}},{{page.eq_site_limit}},{{page.hu_site_limit}},{{page.fr_site_limit}},{{page.tiv_2011}},{{page.tiv_2012}},{{page.eq_site_deductible}},{{page.hu_site_deductible}},{{page.fl_site_deductible}},{{page.fr_site_deductible}},{{page.point_latitude}},{{page.point_longitude}},{{page.line}},{{page.construction}},{{page.point_granularity}}
+{% endfor %}
+</pre>
+<p>See how you access content in the frontmatter using the <code>page</code> namespace? <code>page.policyID</code> gets the value for the <code>policyID</code> in the frontmatter, and so on. The <code>for</code> loop would go through each of the pages and construct a new row of comma-separated values until it reached the end of the pages in the policies collection.</p>
+<p>When you build your Jekyll site, Jekyll will recognize the data.csv file as needing to be processed because of the frontmatter tags. You will find a fully populated data.csv file in your build folder.</p>
+<h2>Not bound by format</h2>
+<p>Because of this flexibility in constructing templates to stuff content into, you're not bound by a specific format, for the most part. You create your content, decide on the template, and then Jekyll shoves the content inside the template. The template could be HTML, JSON, CSV, or something else. This way you can author content in a way that is separate from format. (You could equally create a template that stuffs this same arcane policy information content into a JSON file, for example.)</p>
+<p>No doubt many tools do a similar kind of thing on the backend. I just never really understood what was happening when I selected a certain output. Jekyll exposes this processing in a clear and simple way. Now your content can travel into any number of systems in a seamless way.</p>
+<p>There is at least one limitation with the formats, though. You can't really create a DITA template and push the content into a DITA format except maybe in the most general way, with <code>body</code> including just HTML. This is because DITA has some very specific structures, and this simplistic template method won't really wrap lists inside task elements, convert links inside pages into xrefs, enforce element order, and so forth.</p>
+<p>Other more sophisticated formats might have similar restrictions. However, my point is that Jekyll allows you to separate out your content from the template (presentation), and this is a huge deal when it comes to processing and displaying information.</p>

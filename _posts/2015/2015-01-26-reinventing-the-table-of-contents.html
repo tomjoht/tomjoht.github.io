@@ -1,0 +1,38 @@
+---
+layout: post
+title: Reinventing the table of contents
+date: 2015-01-26 12:44:29.000000000 -08:00
+categories:
+- jekyll
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  fsb_social_facebook: '6'
+  fsb_social_twitter: '15'
+  fsb_social_linkedin: '23'
+  fsb_social_google: '1'
+  dsq_thread_id: '3770207164'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I've been exploring different ways to create a table of contents (TOC). Traditionally, user guides have a long TOC in the left column of each page. This works all right when you have about 50 pages, but when you scale up the doc set to 500 pages, the TOC becomes a bulky, unusable mess.</p>
+<p>For an example of the mess I'm talking about, see this <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=siteforce_overview.htm">TOC in Salesforce's documentation</a>. An all-encompassing TOC model like this essentially repeats the initial <a href="https://business.yahoo.com/">Yahoo directory of the web</a>, when Yahoo tried to provide an organized hierarchical table of contents for everything. Why present so many TOC options that aren't remotely related to what I'm currently viewing?</p>
+<p>A better model for a TOC is to show only links relevant to a <em>narrowed scope</em>. (I explored some of these ideas in an <a href="http://idratherbewriting.com/2013/12/16/seo-duplicate-content-and-single-sourcing/">earlier post here</a>.)</p>
+<p>Take a look at my evolving <a href="http://idratherbewriting.com/jekyll/">Jekyll prototype</a>. The homepage has various panels (like Pinterest) that you can dynamically filter.</p>
+<p><a href="http://idratherbewriting.com/jekyll/"><img src="/images/jekyllhomepage-550x469.png" alt="Jekyll homepage" width="550" height="469" class="alignnone size-medium wp-image-22534" /></a></p>
+<p>When you jump into a page (such as <a href="http://idratherbewriting.com/jekyll/syntax_highlighting/">Syntax highlighting</a>), a mini-TOC appears on the left (if the page has subheadings).</p>
+<p><a href="http://idratherbewriting.com/jekyll/syntax_highlighting/"><img src="/images/jumptocexample-550x409.png" alt="jumptocexample" width="550" height="409" class="alignnone size-medium wp-image-22536" /></a></p>
+<p>To go back to the main panel page, go to the homepage (by clicking the product title in the upper left, "Jekyll notes"). This kind of scope filtering seems more practical for scaling doc sets.</p>
+<p>BTW, the shuffling feature on the homepage is through a JavaScript library called <a href="http://vestride.github.io/Shuffle/">Shuffle.js</a>.</p>
+<p>(Also, much of the content on this prototype is a mix of filler content + informal notes, so don't pay attention to it.)</p>
+<p>What do you think? Does this model reinvent the TOC in a better way?</p>

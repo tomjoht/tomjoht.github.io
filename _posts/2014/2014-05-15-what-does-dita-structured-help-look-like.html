@@ -1,0 +1,42 @@
+---
+layout: post
+title: What does DITA-structured help look like?
+date: 2014-05-15 09:06:41.000000000 -07:00
+categories:
+- dita
+- general
+tags: []
+status: publish
+type: post
+published: true
+series: "My DITA journey"
+weight: 8
+---
+{% include series.html %}
+
+<p>While documenting something yesterday, I ran across a help file that was unmistakably written in the DITA XML structure. Check out <a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp" target="_blank">Jive's help here</a>. Jive is a community platform, kind of like SharePoint but more modern and clean looking. The webhelp output is published with Eclipse.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp" target="_blank"><img class="alignnone size-full wp-image-20719" src="/images/jivehelp.jpg" alt="jivehelp" width="848" height="558" /></a></p>
+<p>How can you tell when help is written using DITA? There are several giveaways.</p>
+<p><strong>Clear topic types.</strong> There's a pretty clear distinction between concept and task topic types. This is a task topic, as you can see with the short paragraph followed by a numbered list of steps.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.events.online/user/CreatingEvents.html" target="_blank"><img class="alignnone size-full wp-image-20732" src="/images/cleartypes.jpg" alt="cleartypes" width="876" height="588" /></a></p>
+<p>Not all the topics follow strict types. For example, the topic <a href="http://docs.jivesoftware.com/jive/7.0/community_user/index.jsp?topic=/jive.help.mobile/user/ConnecttoYourCommunity.html" target="_blank">Connect to Your Community</a> is a concept topic that uses steps. I noticed this in quite a few places.</p>
+<p><strong>Robust re-use.</strong> If you look in the upper-right corner, there's a "Switch to User Docs" link. The user version has many of the same topics, but re-used. There are also about 5 or 6 other help files based on different versions of Jive. DITA allows for robust re-use.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp" target="_blank"><img class="alignnone size-full wp-image-20729" src="/images/robustreuse.jpg" alt="robustreuse" width="877" height="586" /></a></p>
+<p><strong>Hierarchical links on folder parent pages.</strong> The overview topic for each folder contains a list of hierarchical links. The hierarchical links are links to each of the child pages in the folder.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.sp.online/SharePoint_7_0/SettingUpJiveforSP.html" target="_blank"><img class="alignnone size-full wp-image-20728" src="/images/hierarchicallinks2.jpg" alt="hierarchicallinks2" width="869" height="570" /></a></p>
+<p><strong>Short descriptions.</strong> Most topics have a summary sentence right below the title. This is the shortdesc element.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.events.online/admin/AdminEvents.html" target="_blank"><img class="alignnone size-full wp-image-20730" src="/images/shortdesc.jpg" alt="shortdesc" width="879" height="587" /></a></p>
+<p><strong>PDF versions of chapters.</strong> Many of the chapters have PDF versions. The PDFs are actually the default PDF processing from the Open Toolkit, in all its plainness.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.jiveoutlook.online/JiveforOutlook_7_0/DocumentationPDFs.html"><img class="alignnone size-full wp-image-20731" src="/images/plainpdf.jpg" alt="plainpdf" width="864" height="590" /></a></p>
+<p><strong>Links back to parent topics.</strong> Many of the articles have links back to parent topics at the bottom. These links are automatically added by DITA when you create topic hierarchies.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.events.online/user/CreatingEvents.html"><img class="alignnone size-full wp-image-20734" src="/images/parentlinks.jpg" alt="parentlinks" width="873" height="583" /></a></p>
+<p><strong>Master TOC.</strong> The table of contents is pretty extensive. I'm imagine that it's comprehensive except that it doesn't include their API/developer documentation.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp"><img class="alignnone size-full wp-image-20733" src="/images/toclinks.jpg" alt="toclinks" width="879" height="583" /></a></p>
+<p><strong>Open Toolkit styles in the source code.</strong> If you view the source code of the pages, you can see all the familiar classes the Open Toolkit uses when it processes DITA. These classes include things like title, section, shortdesc, taskbody, li step, li choice, etc.</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.events.online/user/CreatingEvents.html"><img class="alignnone size-full wp-image-20735" src="/images/sourcecode.jpg" alt="sourcecode" width="884" height="591" /></a></p>
+<h2>A couple of unexpected things</h2>
+<p>I did notice a couple of unexpected things. There aren't any relationship table links. Instead, the writer uses (albeit sparingly) inline links. Additionally, some topics that contain multiple sections link to the sections in steps. Here's an example:</p>
+<p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp?topic=/com.jivesoftware.help.cmr.online/admin/ConfiguringCMR.html"><img class="alignnone size-full wp-image-20727" src="/images/linkstosections.jpg" alt="linkstosections" width="878" height="586" /></a></p>
+<p>The linked pages don't appear in the TOC. I'm not sure why the authors chose this method instead of using the chunk "by document" attribute. The links are xref inline links.</p>
+<p>Overall, I found the help pretty easy to navigate and browse around. The search is decent. It's unfortunate that the Eclipse frame URLs are static. But navigating from topic to topic is fast and clean.</p>
+<p>Also, I wanted to note that DITA help outputs can probably look quite a bit different. It's not like spotting a Robohelp webhelp file, because DITA can be transformed into so many different systems and platforms. DITA Writer has a good list of sample <a href="http://www.ditawriter.com/sample-dita-produced-output/">DITA help material here.</a></p>

@@ -1,0 +1,36 @@
+---
+layout: default
+comments: true
+---
+
+<h1>{{ page.title }}</h1>
+<p class="page-meta">
+{{ page.date | date: "%b %-d, %Y" }} &#8226;
+{% if page.categories %}
+{% for cat in page.categories %}
+<a href="{{ "/category-" | prepend: site.baseurl | append: {{cat}}">{{cat}}</a>{% unless forloop.last %}, {% endunless%}
+{% endfor %}
+{% endif %}
+
+<div class="summary">{{page.summary}}</div>
+
+
+{% include toc.html %}
+
+
+{{ content }}
+
+
+
+<div class="well well-sm">
+
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a>
+        {% endif %}
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
+        {% endif %}
+</div>
+
+{% if site.disqus %} {% include disqus.html %} {% endif %}

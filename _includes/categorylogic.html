@@ -1,0 +1,11 @@
+<p>The following posts are categorized with <b>{{page.categoryName}}</b>.
+
+{% assign thisCategory = page.categoryName %}
+{% for p in site.posts %}
+{% for category in p.categories %}
+{% if category == thisCategory %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endif %}
+{% endfor %}
+{% endfor %}

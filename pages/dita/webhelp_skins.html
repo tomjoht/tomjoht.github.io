@@ -1,0 +1,45 @@
+---
+layout: page
+title: 'DITA: Webhelp skins'
+permalink: /webhelp_skins/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Webhelp skins</h1>
+<div class="body conbody">
+<p class="shortdesc">Oxygen offers a robust webhelp skin builder that allows you to customize the output. You<br />
+  can also customize the CSS.</p>
+<p class="p">You can customize the webhelp output through the webhelp skin builder. This is an external<br />
+   resource that allows you to create a custom stylesheet that you can then specify in your<br />
+   transform. It works pretty slick.</p>
+<p class="p">To access the webhelp skin builder, go to <a class="xref external" href="http://www.iis.net/learn/develop/runtime-extensibility/developing-iis-modules-and-handlers-with-the-net-framework" target="_blank">http://www.oxygenxml.com/webhelp-skin-builder/</a>. Select<br />
+   DITA, select a basic template to begin with, and then start customizing it. Download the CSS file<br />
+   to your computer.</p>
+<p class="p">In Oxygen, when you configure your transformation scenario, duplicate the existing webhelp<br />
+   option, and then edit it. On the Skins tab, select your custom CSS file.</p>
+<p class="p">You can add further customizations to this skin by simply adding the CSS styles in the<br />
+   stylesheet. </p>
+<p class="p">If you want to actually customize the webhelp output for the default webhelp (and apply it to<br />
+   all webhelp outputs), you can do so by modifying the stylesheet located here:<br />
+    <span class="ph filepath">/Applications/oxygenAuthor/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources</span>.<br />
+   Modify the webhelp_topic.css stylesheet.</p>
+<p class="p">You should also be able to add a custom stylesheet through the Parameters tab on the<br />
+   transformation scenario. In the args.css parameter, specify a file. </p>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</div>
+</div>

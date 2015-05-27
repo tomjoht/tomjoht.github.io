@@ -1,0 +1,123 @@
+---
+layout: post
+title: Simplifying DITA authoring by using a Markdown to HTML to DITA workflow
+date: 2014-10-29 23:28:53.000000000 -07:00
+categories:
+- dita
+- general
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wp_rp_related_posts_query_result_cache_expiration: '1421713644'
+  _edit_last: '91'
+  enclosure: "http://idratherbewriting.com/wp-content/uploads/2014/10/mdtohtmltodita.mp4\r\n8563133\r\nvideo/mp4\r\n"
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20430";s:5:"score";s:17:"177.9504308275672";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20665";s:5:"score";s:18:"146.01603297991142";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:18:"145.33719725875963";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:18:"120.79085050615194";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:18:"120.10368111414974";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:18:"113.50964896284566";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"19946";s:5:"score";s:17:"99.48230101024951";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"97.38115834823996";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20170";s:5:"score";s:17:"91.93140978535686";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"89.81282746900506";}}
+  _thumbnail_id: '21921'
+  _wp_rp_image: '21921'
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20430";s:5:"score";s:17:"177.6589509648125";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20665";s:5:"score";s:18:"145.75245460874106";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:18:"145.19569423706824";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:18:"121.18342396747495";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:18:"120.34345452537359";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:18:"113.20057046085616";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"19946";s:5:"score";s:17:"99.46168699492726";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"97.19368112759894";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20170";s:5:"score";s:17:"92.24609947024403";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"89.88602130722111";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:17:"79.03442092143374";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"19960";s:5:"score";s:17:"76.80984507438347";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:5:"20119";s:5:"score";s:17:"76.31079145229886";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:5:"20878";s:5:"score";s:17:"69.85040660405726";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:5:"20548";s:5:"score";s:17:"67.41451598041584";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:5:"20507";s:5:"score";s:17:"67.41451598041584";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:5:"20437";s:5:"score";s:15:"60.817584864275";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:5:"20328";s:5:"score";s:15:"60.817584864275";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:5:"20305";s:5:"score";s:15:"60.817584864275";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:5:"21029";s:5:"score";s:17:"60.38944223987424";}}
+  fsb_social_facebook: '8'
+  fsb_social_twitter: '20'
+  fsb_social_linkedin: '16'
+  fsb_social_google: '1'
+  dsq_thread_id: '3770206984'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><i>12/2/15 update: For more technical details on how to convert Markdown to HTML to DITA, see <a href="http://idratherbewriting.com/2014/12/03/convert-markdown-to-dita-in-20-seconds/">Convert Markdown to DITA in 20 seconds</a>.</i></p>
+<p>The other day I started to organize my notes on Java, and knowing that I eventually plan to publish these notes, I wondered what format I should write the content in. My first thought was, hey, I wrote my <a href="http://idratherbewriting.com/toc_introduction">DITA QRG</a> in DITA, so why not store my Java notes in DITA as well?</p>
+<p>And then I had this nasty feeling of dread where something in my chest cringes and shrivels. If I was going to be drafting this content, the last thing I wanted to worry about was XML markup tags and structural complexity.</p>
+<p>Were I to draft the content in DITA, I would be running scenarios in my head like, what if I want to put a list after a section? What if I want several lists? Will I be nesting tasks? Should I use the context element to begin narration around tasks, or use sections with the general task instead? What if I have two examples following a task list? What if I don't want to use formal steps at all, but rather show a sequence of commands and responses, and maybe a developed illustration?</p>
+<p>You know what. Java is complicated enough as it is. I don't need a lot of XML markup complexity to consider as well. When I'm drafting content, I want to focus on the actual content I'm creating, not the formatting and publishing validation. I want to write the content in the structure that best matches the content.</p>
+<p>So I decided to write my Java notes in Markdown instead. As I settled on writing in Markdown, I felt a huge feeling of relief. Then I wondered, shouldn't authors <em>like</em> the syntax they use as they write? If I have a gut reaction of dread when it comes to the DITA XML syntax, isn't that generally a sign of doom for that markup?</p>
+<p>In general, people dislike writing in DITA XML. But they enjoy writing in Markdown.</p>
+<p>To use an analogy, DITA XML is that ugly turtleneck wool sweater that makes you feel hot, itchy, and uncomfortable when you wear it. In contrast, Markdown is the comfortable stretchy nylon duo-dry shirt that you can wear for a few days at a time without wanting to take it off.</p>
+<p>But the problem is more difficult, because even if you feel great writing in Markdown, you're going to be red in the face if you have to cut and paste content for multiple outputs, or if your publishing scenario is more complicated than something Markdown supports (e.g., 7 outputs, 80% similar text, 3 vertical channels, and translation).</p>
+<p>In that case, those XML tags that allow you to do conditional profiling come in quite handy. You configure your filters for your transform scenario, and voila, you bypassed a ton of copying and pasting and published your 7 guides with the click of a few buttons.</p>
+<p><em>What is the solution for a pain-free authoring process like Markdown while also tapping into robust publishing capability of DITA?</em></p>
+<p>I know quite a few people are working on this problem. Efforts at a DITA-based wiki, lightweight DITA, rST to DITA parsers, Microsoft Word-like DITA editors, WYSIWYG DITA browser editors, and more are a few of these efforts.</p>
+<p>While it is tempting to abandon DITA for a static file generator such as Docpad or Jekyll, I have implemented DITA because my publishing requirements are complicated. I'm generating at least 8 different outputs from the same source. Between two product channels and four different audiences, the content outputs are tailored to show the audience only the content that's relevant to them.</p>
+<p>If I switched to Docpad, which has some query-engine capability, I doubt the query syntax would be any easier than the DITA syntax for accomplishing the same tricks. Static file generators work well if you have a single output that you're not pushing to multiple channels, audiences, and translation.</p>
+<p>So if I stick with DITA, how can I make this cross easier to bear both for me and other contributors?</p>
+<p>Here are some thoughts on a possible two-step approach. <em>Note that I'm in brainstorming mode here. These are fairly untested ideas. In fact, I'm hoping to learn from others, i.e., you, before throwing myself headlong down a rabbit hole chasing an idea.</em></p>
+<h2 id="Step1UseDITAtopicsinsteadofconceptsortasks">Step 1: Use DITA topics instead of concepts or tasks</h2>
+<p>First, I can reduce out some of the unnecessary complexity in the DITA markup. Instead of writing in concepts, tasks, and reference, why not use the more general <code>topic</code> type?</p>
+<p>The difference between <code>concept</code> types and <code>topic</code> types is rather subtle. With a <code>concept</code>, you can't follow a <code>section</code> with an element that isn't a <code>section</code>. Once you start using <code>sections</code>, it's <code>sections</code> all the way from there on out.</p>
+<p>The big question is in foregoing the <code>task</code> structure. All of those <code>steps</code>, <code>step</code>, <code>cmd</code>, <code>info</code>, <code>stepxmp</code>, etc. elements are robust. They allow you to provide a lot of semantic accuracy to a complex task structure, which is where we live, right, in tasks? But what's really the point? When you transform the DITA content to XHTML, all of these elements just get rendered as regular old HTML list and paragraph tags (and a few divs and spans). Deliberating about whether to use <code>stepxmp</code> or <code>info</code> in a <code>step</code> element is somewhat a waste of time, since both get rendered into block elements.</p>
+<p>For example, here's a simple task of three steps written in DITA:</p>
+<pre><code>&lt;steps&gt;
+     &lt;step&gt;
+         &lt;cmd&gt;This is the first step.&lt;/cmd&gt;
+         &lt;info&gt;This is some additional information included in an info element.&lt;/info&gt;
+     &lt;/step&gt;
+      &lt;step&gt;
+          &lt;cmd&gt;This is the second step.&lt;/cmd&gt;
+          &lt;stepxmp&gt;this is an stepxmp content.&lt;/stepxmp&gt;
+      &lt;/step&gt;
+      &lt;step&gt;&lt;cmd&gt;This is the third step.&lt;/cmd&gt;
+           &lt;tutorialinfo&gt;This is some tutorial info stuff.&lt;/tutorialinfo&gt;
+      &lt;/step&gt;           
+&lt;/steps&gt;</code></pre>
+<p>The XHTML transform renders it into this:</p>
+<pre><code>&lt;ol class="ol steps"&gt;
+            &lt;li class="li step stepexpand"&gt;
+                &lt;span class="ph cmd"&gt;This is the first step.&lt;/span&gt;
+                &lt;div class="itemgroup info"&gt;This is some additional information included in an info
+                    element.&lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li class="li step stepexpand"&gt;&lt;span class="ph cmd"&gt;This is the second step.&lt;/span&gt;
+                &lt;div class="itemgroup stepxmp"&gt;this is an stepxmp content.&lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li class="li step stepexpand"&gt;&lt;span class="ph cmd"&gt;This is the third step.&lt;/span&gt;
+                &lt;div class="itemgroup tutorialinfo"&gt;This is some tutorial info stuff.&lt;/div&gt;
+            &lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+<p>We mostly get <code>ol</code>, <code>li</code>, and <code>p</code> tags with some classes.</p>
+<p>How about just writing the same content in a topic type? You would use <code>ol</code>, <code>li</code>, and <code>p</code> tags instead, like this:</p>
+<pre><code>&lt;ol&gt;
+      &lt;li&gt;This is the first step.
+        &lt;p&gt;This is some additional information included in an p element.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;This is the second step.
+        &lt;p outputclass="special"&gt;this is a p content with class.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;This is the third step.
+        &lt;p&gt;This is some tutorial info stuff.&lt;/p&gt;
+      &lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<p>(Notice how much cleaner and lighter that markup itself feels?) This is what it gets transformed into when you use the XHTML transform:</p>
+<pre><code>&lt;ol class="ol"&gt;
+      &lt;li class="li"&gt;This is the first step.
+        &lt;p class="p"&gt;This is some additional information included in an p element.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li class="li"&gt;This is the second step.
+        &lt;p class="p special"&gt;this is a p content with class.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li class="li"&gt;This is the third step.
+        &lt;p class="p"&gt;This is some tutorial info stuff.&lt;/p&gt;
+      &lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+<p>It's mostly the same thing but with different classes. Your level of styling control is slightly reduced, but unless you were going to have different styles for <code>info</code> elements versus <code>stepxmp</code> elements versus <code>tutorialinfo</code> elements (potentially resulting in a cornucopia of styles), there isn't much point is giving each element its own class.</p>
+<p>Was there any great win in using the task type instead of the general topic type? Not in my opinion. The HTML output is pretty much the same. Unless you're styling all of these things differently, there's little benefit in using <code>&lt;step&gt;&lt;cmd&gt;</code> instead of simply <code>&lt;li&gt;</code>. If you need a special class on a paragraph, you can just add it using the <code>outputclass</code> attribute.</p>
+<p>Using the general topic, you don't have to worry about whether an <code>info</code> element is allowed inside <code>stepxmp</code> or not, and so on. It's simpler and more straightforward.</p>
+<h2 id="Theinformationtypeargument">The information type argument</h2>
+<p>DITA's information types do much more than simply transform content. They make sure that certain information patterns that are optimized for user learning are followed. In particular, the DITA information model encourages <a href="http://dita.xml.org/book/export/html/1047">"small non-linear chunks readable in any order"</a>.</p>
+<p>I would love to see an actual study (more than one guy's pre-Internet research 25 yrs ago at IBM) that explores whether DITA's information types actually optimize learning. (Any academics out there? This would be a great topic for a dissertation.) I'm much more persuaded by the "Every Page Is Page One" philosophy. At any rate, I trust my writerly instincts about how to communicate information more than I trust information typing patterns.</p>
+<p>Regardless of the efficacy of information patterns, you can still follow them even if you aren't using DTD's that enforce them. For example, you can write lots of task-based information using the general topic type. You can choose to separate out the conceptual information into their own topics. You can choose to create topics that are just long tables of information.</p>
+<p>In summary, if you want to follow the information types, you can do so in your general topics. But by using the general topic types, you'll also have the leeway to make exceptions to the information types if warranted -- without going out of your way to implement a workaround.</p>
+<h2 id="Step2DraftinMarkdown">Step 2: Draft in Markdown</h2>
+<p>Here's a key principle to keep in mind. When you're still developing the content, focus on the content. When you're thinking about how to publish it, focus on the markup.</p>
+<p>I'm planning to develop my content in Markdown (as I'm doing with this post now). When the content is ready to be published, I'll convert it to HTML or DITA XML and make sure all those little tags are in place.</p>
+<p>If you use Eclipse, the workflow from Markdown to DITA is pretty quick. The Mylyn Wikitext plugin allows you to right-click a Markdown document and transform it to HTML. Then using the Eclipse OxygenXML plugin, you right-click an HTML document and choose what DITA topic type you want to convert it to. Here's a 30 second video showing this conversion process here:</p>
+<p>[video width="984" height="729" mp4="http://idratherbewriting.com/wp-content/uploads/2014/10/mdtohtmltodita.mp4"][/video]</p>
+<p>(By the way, Mylyn Wikitext supposedly allows you to convert directly from a wiki syntax into DITA, but I couldn't figure it out. I think you have to configure some Ant scripts and run the conversion from there. If you know how to configure this, let me know.)</p>
+<h2 id="Conclusion">Feedback?</h2>
+<p>I'm interested to hear your process for writing. Do you draft your content in DITA markup from the start, or do you add the tags later? If you add the tags from the start, doesn't it add extra overhead in managing the tags (I mean, you can't even writing a paragraph without surrounding it with &lt;p&gt; tags). If you add the tags later, doesn't that put you in a time crunch?</p>

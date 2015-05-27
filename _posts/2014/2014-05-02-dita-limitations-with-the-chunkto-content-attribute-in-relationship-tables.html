@@ -1,0 +1,153 @@
+---
+layout: post
+title: 'DITA: Limitations with the chunk="to-content" attribute in relationship tables'
+date: 2014-05-02 12:12:57.000000000 -07:00
+categories:
+- dita
+tags: []
+status: publish
+type: post
+published: true
+series: "My DITA journey"
+weight: 5
+---
+{% include series.html %}
+
+<p><i>Updated 5/11/2014.</i></p>
+<p>DITA has a lot of powerful ways to combine different topics through ditamaps. Although DITA’s architecture encourages a lot of little pieces of content, you can bring these pieces together into articles of more substance. By having smaller chunks of information, you have more capability for re-use into various combinations and outputs. </p>
+<p>Here’s an example of chunking. Here I have a task of changing a tire, which involves 5 topics (1 overview topic and 4 task topics). </p>
+<pre>
+    &lt;topicset id=&quot;topicset_changing_a_tire&quot; chunk=&quot;to-content&quot; 
+     navtitle=&quot;Changing a tire&quot; href=“changing_tire_overview.dita&quot;&gt;
+      &lt;topicref href=&quot;remove_the_tire&quot;  toc=&quot;no&quot;/&gt;
+      &lt;topicref href=&quot;inspect_the_tube&quot;  toc=&quot;no&quot;/&gt;
+      &lt;topicref href=&quot;insert_a_new_tube.dita&quot;  toc=&quot;no&quot;/&gt;
+      &lt;topicref href=&quot;reinstall_the_tire.dita&quot;  toc=&quot;no&quot;/&gt;
+    &lt;/topicset&gt;
+</pre>
+<p>Each of the subtasks is a task topic with a list of steps. In this hypothetical example, the steps are fairly minimal. The task element allows just one set of steps per topic, which is why the content is split into multiple files. The overview topic is a concept topic. In reality, it’s not more than a paragraph long. It could preface the first task topic, but then the first task topic wouldn’t look like a subheading underneath the overview.</p>
+<p>By adding the attribute <code>chunk="to-content"</code>, the Open Toolkit will merge all of the topics to the same content. The reader will see one article. </p>
+<p>You don’t have to use <code>topicset</code> element for this. You could also do the following: </p>
+<pre>
+
+    &lt;topicref chunk=&quot;to-content&quot; href=&quot;changing_tire_overview.dita&quot;&gt;
+      &lt;topicref href=&quot;remove_the_tire&quot;  toc=&quot;no&quot;/&gt;
+      &lt;topicref href=&quot;inspect_the_tube&quot;  toc=&quot;no&quot;/&gt;
+      &lt;topicref href=&quot;insert_a_new_tube.dita&quot;  toc=&quot;no&quot;/&gt;
+      &lt;topicref href=&quot;reinstall_the_tire.dita&quot;  toc=&quot;no&quot;/&gt;
+    &lt;/topicref&gt;
+</pre>
+<p>The <code>topicset</code> method gives you a way of re-using the same set of topics in another map without including the whole list of topics.</p>
+<h2>Where the problems begins</h2>
+<p>The <code>topicset</code> content looks fine in a table of contents — it appears as a single unit of information. However, when you add the <code>topicset</code> in a relationship table, using the <code>topicsetref</code> ID, the Open Toolkit can’t process it correctly. The link simply doesn’t work because the Open Toolkit seems to require actual files in order to process the relationships. The <code>topicsetref</code> isn’t a file — it’s an ID that includes several files.</p>
+<p>There are several ways to handle the issue, which I’ll explore in detail. None of the workarounds really solves the problem.</p>
+<h2>Discrete little topics</h2>
+<p>One common workaround is to avoid the <code>chunk</code> attribute altogether and instead to just use little topics in your help. You can still group the topics in the same folder, and with a table of contents navigation, the user can jump from one topic to the next. Each page will contain a link to its parent topic, which helps avoid information fragmentation. </p>
+<p>The problem occurs when users perform searches. If a user lands on subtask 3, "Insert a new tube," he or she might be somewhat lost. The subtask isn’t meant to stand alone.</p>
+<p>Unfortunately, I think that too many DITA help systems lean towards tiny topics. Best practices with help authoring is to provide enough information for a user to complete a real task or goal, without having to jump around the help system to find all the necessary information.</p>
+<h2>Substeps</h2>
+<p>Another workaround would be to use the <code>substeps</code> element. You can create <code>substeps</code> within with each step element, which would allow you to combine this task into one list of steps. </p>
+<p>This might not be a bad idea, especially if you can style the substeps attractively. But in general, I prefer to put headings on each of the subtasks, and maybe even short descriptions or context below the headings. You can’t insert either of these elements in a steps element.</p>
+<h2>Concept type</h2>
+<p>Another workaround would be to use the concept topic type, which allows sections. For each section, use <code>ol</code> and <code>li</code> tags for the lists. You can’t use the <code>steps</code> element in a concept, but hopefully your HTML styles would provide a similar look and feel to both types of output.</p>
+<p>Additionally, if you’re able to put all of these subtasks into the same topic, most likely the subtasks are small. As such, using regular HTML list tags might be fine. </p>
+<p>The problem is that this method introduces two different methods for tagging for lists, which feels inconsistent. Ideally, it would be best to stick with one way of structuring lists in instructions.</p>
+<h2>Dita topic type (composite)</h2>
+<p>You could also use a dita topic type (sometimes called ditabase), which allows any element (concept, task, reference). However, when you refer to the dita topic in the relationship table, the related links produced by the relationship table will appear after the first element (after the changing_tire_overview.dita topic, not after the last topic in the set).</p>
+<p><img src="/images/otprocessingerror.jpg" alt="otprocessingerror" width="826" height="820" class="alignnone size-full wp-image-20609" /></p>
+<h2>Refer to the first section, hack the XSLT</h2>
+<p>Another workaround would be to refer to the first topic rather than the topicset ID in your relationship table. This technique results in the same effect as referring to a ditabase file — the relationship table appears after the first topic, not after the set of topics.</p>
+<p>I’ve been told I could hack the XSLT with an override to get the functionality I want — putting the relationship tables at the end of the topics. I’m not sure whether this hack would be involved or trivial, and what other impacts it might have on the way related links works. Apparently this is not a feature many others have been complaining about (though this perplexes me).</p>
+<h2>Don’t use relationship tables</h2>
+<p>Another strategy might be to avoid using relationship tables for links altogether, and instead just use the more manual <code>related-links</code> element.</p>
+<p>Relationship tables require all your information to be in DITA anyway, rather than linking to outside resources. If your related links have a mix of internal and external resources, it might be easier to manage all links manually via <code>related-links</code>.</p>
+<p>The problem is that DITA gets a lot of efficiency in its linking model through relationship tables. Not using them sacrifices significant functionality.</p>
+<h2>Chunk by-document instead of to-content</h2>
+<p>There are myriad other values for the chunk attribute. (Take a look at the <a href="http://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/chunking.html#chunking">OASIS explanation of chunking here</a>. One of the alternatives is <code>chunk="by-document"</code>. This produces an interesting result. Instead of merging the other files into the same unit, the other files are nested like child pages in the document. This creates another layer for the user to drill into. </p>
+<p><img src="/images/chunk-by-document.jpg" alt="chunk-by-document" width="581" height="511" class="alignnone size-full wp-image-20610" /></p>
+<p>Using <code>by-document</code> isn’t a bad solution, but again, searches for a keyword might take a user to this little piece of information rather than the whole unit. Only by back-navigating through breadcrumbs or a table of contents hierarchy will the user be able to trace back to find the whole topicset.</p>
+<h2>Nest task elements within task elements</h2>
+<p>Instead of creating separate task files, you could nest tasks within tasks to bring all of this information into the same topic. Here's an example:</p>
+<pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+&lt;task id="task_0"&gt;
+    &lt;title&gt;Fixing a flat tire&lt;/title&gt;
+    &lt;shortdesc&gt;&lt;/shortdesc&gt;
+    &lt;taskbody&gt;
+        &lt;context&gt;
+            &lt;p&gt;This is an overview about the task of fixing a flat tire...&lt;/p&gt;
+        &lt;/context&gt;
+
+    &lt;/taskbody&gt;
+
+    &lt;task id="task_1"&gt;
+        &lt;title&gt;Remove the tire&lt;/title&gt;
+        &lt;shortdesc/&gt;
+        &lt;taskbody&gt;
+            &lt;context&gt;
+                &lt;p&gt;Context for the current task&lt;/p&gt;
+            &lt;/context&gt;
+            &lt;steps&gt;
+                &lt;step&gt;
+                    &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                &lt;/step&gt;
+            &lt;/steps&gt;
+        &lt;/taskbody&gt;
+    &lt;/task&gt;
+
+        &lt;task id="task_2"&gt;
+            &lt;title&gt;Inspect the tire&lt;/title&gt;
+            &lt;shortdesc/&gt;
+            &lt;taskbody&gt;
+                &lt;context&gt;
+                    &lt;p&gt;Context for the current task&lt;/p&gt;
+                &lt;/context&gt;
+                &lt;steps&gt;
+                    &lt;step&gt;
+                        &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                    &lt;/step&gt;
+                &lt;/steps&gt;
+            &lt;/taskbody&gt;
+        &lt;/task&gt;
+
+            &lt;task id="task_3"&gt;
+                &lt;title&gt;Insert a new tube&lt;/title&gt;
+                &lt;shortdesc/&gt;
+                &lt;taskbody&gt;
+                    &lt;context&gt;
+                        &lt;p&gt;Context for the current task&lt;/p&gt;
+                    &lt;/context&gt;
+                    &lt;steps&gt;
+                        &lt;step&gt;
+                            &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                        &lt;/step&gt;
+                    &lt;/steps&gt;
+                &lt;/taskbody&gt;
+
+            &lt;/task&gt;
+
+                &lt;task id="task_4"&gt;
+                    &lt;title&gt;Reinstall the tire&lt;/title&gt;
+                    &lt;shortdesc/&gt;
+                    &lt;taskbody&gt;
+                        &lt;context&gt;
+                            &lt;p&gt;Context for the current task&lt;/p&gt;
+                        &lt;/context&gt;
+                        &lt;steps&gt;
+                            &lt;step&gt;
+                                &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                            &lt;/step&gt;
+                        &lt;/steps&gt;
+                    &lt;/taskbody&gt;
+                &lt;/task&gt;
+
+&lt;/task&gt;
+</pre>
+<p>However, when you include the file in a relationship table, the related link still appears right below the first task element, like this:</p>
+<p><img src="/images/wrongplace.jpg" alt="wrongplace" width="747" height="617" class="alignnone size-full wp-image-20679" /></p>
+<h2>Conclusion</h2>
+<p>I have asked quite a few people for solutions to this problem, including <a href="http://www.oxygenxml.com/forum/topic10637.html">Oxygen’s forum</a>, the <a href="https://groups.yahoo.com/neo/groups/dita-users/conversations/messages/34870">Yahoo DITA users group</a>, and DITA consultants. I hoped that I was simply misunderstanding the right chunking configuration, but no, this appears to be a limitation of DITA.</p>
+<p>A while ago I wrote a really controversial post on called <a href="http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces">Does DITA Encourage Authors to Fragment Information into a Million Little Pieces?</a>. Many experts chimed in to reassure me that the ditamap was where you glued them all together in the arrangement you want. And indeed that is the case with a table of contents navigation — just not with relationship tables. </p>
+<p>This problems seems to have cut right to the heart of why so many DITA help files are fully of tiny topics. You really can’t get two sets of steps in the same topic while also embracing relationship tables. </p>
+<p>I’m surprised at how sparse information was about the limitations of using <code>chunk="to-content"</code> with relationship tables. It suggests that most people aren’t running into this problem, most likely because either (a) they aren’t using relationship tables or (b) they aren’t using the <code>chunk</code> attribute.</p>
+<p>I am curious to learn what techniques you’re using to merge smaller units of information into more substantial articles while also using relationship tables. </p>

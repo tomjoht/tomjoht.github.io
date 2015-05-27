@@ -1,0 +1,184 @@
+---
+layout: page
+title: 'DITA: Combining topics'
+date: 2014-12-27 15:16:06.000000000 -08:00
+permalink: /combining_topics/
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3773598448'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Combining topics</h1>
+<div class="body conbody">
+<p class="shortdesc">You can combine topics into longer articles using the chunk attribute on your map. This issue usually crops up if you're using the specialized topic types (task, concept) and you're trying to combine information. </p>
+<p class="p">As I recommended in <a class="xref" href="/specializations" title="If you want to create rules that enforce a specific structure to your content, you can use one of the existing DITA specializations (concept, task, reference) or create your own specializations. However, I don't recommend using DITA's specializations unless your writers need it.">DITA: Specializations (task, concept, reference)?</a>, author in the base topic type. You won't find yourself doing acrobatics to combine topics. However, you may want to combine topics in order to create nested subheadings.</p>
+<p class="p toc">
+<div class="section">
+<h2 class="title sectiontitle">Combining topics with the chunk attribute</h2>
+</p></div>
+<div class="section">
+<p class="p">The <samp class="ph codeph">chunk="to-content"</samp> attribute allows you to merge child topics into a<br />
+                parent topic in your navigation. You add the <samp class="ph codeph">chunk</samp> attribute on a<br />
+                parent <samp class="ph codeph">topicref</samp>. </p>
+<pre class="pre codeblock">
+  &lt;topicref href="parent.dita" chunk="to-content"&gt;
+  &lt;topicref href="child1.dita" toc="no"/&gt;
+  &lt;topicref href="child2.dita" toc="no"/&gt;
+  &lt;/topicref&gt;
+   </pre>
+<p class="p">If you want the child topics to actually appear in the table of contents, use the<br />
+                "yes" value.</p>
+<p class="p">Although the chunk attribute works easily enough in the TOC area, it's problematic<br />
+                with linking. Chunking creates issues with relationship tables. (See <a class="xref external" href="http://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/" target="_blank">DITA: Limitations with the chunk=”to-content” attribute in relationship tables</a>.)</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Combining topics by nesting elements</h2>
+<p class="p">A better way to combine topics is by nesting elements. When you nest elements, you add<br />
+                multiple <samp class="ph codeph">taskbody</samp> or <samp class="ph codeph">conbody</samp> elements inside each<br />
+                other. Here's an example of how nest task elements.</p>
+<pre class="pre codeblock">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
+
+&lt;task id="task_0"&gt;
+    &lt;title&gt;Fixing a flat tire&lt;/title&gt;
+    &lt;shortdesc&gt;&lt;/shortdesc&gt;
+    &lt;taskbody&gt;
+        &lt;context&gt;
+            &lt;p&gt;This is an overview about the task of fixing a flat tire...&lt;/p&gt;
+        &lt;/context&gt;
+
+    &lt;/taskbody&gt;
+
+    &lt;task id="task_1"&gt;
+        &lt;title&gt;Remove the tire&lt;/title&gt;
+        &lt;shortdesc/&gt;
+        &lt;taskbody&gt;
+            &lt;context&gt;
+                &lt;p&gt;Context for the current task&lt;/p&gt;
+            &lt;/context&gt;
+            &lt;steps&gt;
+                &lt;step&gt;
+                    &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                &lt;/step&gt;
+            &lt;/steps&gt;
+        &lt;/taskbody&gt;
+    &lt;/task&gt;
+
+        &lt;task id="task_2"&gt;
+            &lt;title&gt;Inspect the tire&lt;/title&gt;
+            &lt;shortdesc/&gt;
+            &lt;taskbody&gt;
+                &lt;context&gt;
+                    &lt;p&gt;Context for the current task&lt;/p&gt;
+                &lt;/context&gt;
+                &lt;steps&gt;
+                    &lt;step&gt;
+                        &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                    &lt;/step&gt;
+                &lt;/steps&gt;
+            &lt;/taskbody&gt;
+        &lt;/task&gt;
+
+            &lt;task id="task_3"&gt;
+                &lt;title&gt;Insert a new tube&lt;/title&gt;
+                &lt;shortdesc/&gt;
+                &lt;taskbody&gt;
+                    &lt;context&gt;
+                        &lt;p&gt;Context for the current task&lt;/p&gt;
+                    &lt;/context&gt;
+                    &lt;steps&gt;
+                        &lt;step&gt;
+                            &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                        &lt;/step&gt;
+                    &lt;/steps&gt;
+                &lt;/taskbody&gt;
+
+            &lt;/task&gt;
+
+                &lt;task id="task_4"&gt;
+                    &lt;title&gt;Reinstall the tire&lt;/title&gt;
+                    &lt;shortdesc/&gt;
+                    &lt;taskbody&gt;
+                        &lt;context&gt;
+                            &lt;p&gt;Context for the current task&lt;/p&gt;
+                        &lt;/context&gt;
+                        &lt;steps&gt;
+                            &lt;step&gt;
+                                &lt;cmd&gt;Task step.&lt;/cmd&gt;
+                            &lt;/step&gt;
+                        &lt;/steps&gt;
+                    &lt;/taskbody&gt;
+                &lt;/task&gt;
+
+&lt;/task&gt;</pre>
+<p class="p">With nesting concepts, here's what that looks like</p>
+<pre class="pre codeblock">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"&gt;
+
+&lt;concept id="concept_1"&gt;
+ &lt;title&gt;License overview&lt;/title&gt;
+ &lt;conbody&gt;
+  &lt;p&gt;Here's some overall information about your license....&lt;/p&gt;
+ &lt;/conbody&gt;
+
+ &lt;concept id="concept_2"&gt;
+  &lt;title&gt;Getting your license&lt;/title&gt;
+  &lt;conbody&gt;
+   &lt;p&gt;Inforamtion about activating your license...&lt;/p&gt;
+  &lt;/conbody&gt;
+
+ &lt;concept id="concept_3"&gt;
+  &lt;title&gt;Registering your license&lt;/title&gt;
+  &lt;conbody&gt;
+   &lt;p&gt;Information about registering your license...&lt;/p&gt;
+  &lt;/conbody&gt;
+&lt;/concept&gt;
+
+&lt;/concept&gt;</pre>
+<p class="p">Basically, just bookend the individual <samp class="ph codeph">task</samp> or<br />
+                    <samp class="ph codeph">concept</samp> elements inside one <samp class="ph codeph">task</samp>  or<br />
+                    <samp class="ph codeph">concept</samp> element that functions as a container.</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Using an outputclass for a third-level section</h2>
+<p class="p">You can also "cheat" to<br />
+                combine topics against the design of the DITA structure by crafting an<br />
+                    <samp class="ph codeph">outputclass</samp> attribute to look like a third-level heading: like<br />
+                this:
+                </p>
+<pre class="pre codeblock">  
+         &lt;p outputclass="level3"&gt;Sample heading&lt;/p&gt; 
+     </pre>
+<p class="p">Then<br />
+                add <samp class="ph codeph">p.level3</samp> class to the webhelp stylesheet. Assuming your<br />
+                OxygenXML install directory begins in your <span class="ph filepath">/Applications</span><br />
+                folder, the path would be as follows:</p>
+<p>            <span class="ph filepath">/Applications/oxygenAuthor/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources </span></p>
+<p class="p">Open the webhelp_topic.css file, scroll down to the bottom, and add something like<br />
+                this for your style:
+            </p>
+<pre class="pre codeblock">
+.level3 {
+  color: #444;
+  font-size: 16px;
+  font-style: italic;
+}
+     </pre>
+<p>            This is more of a workaround hack than any good technique. Sometimes you just need a<br />
+            third-level heading, though, and this works.</p></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_introduction">Introduction</a></div>
+</div>
+</div>

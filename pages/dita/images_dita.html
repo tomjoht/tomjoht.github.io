@@ -1,0 +1,105 @@
+---
+layout: page
+title: 'DITA: Images'
+permalink: /images_dita/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+  dsq_thread_id: '3772633092'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Images</h1>
+<div class="body conbody">
+<p class="shortdesc">You can add images in your content pretty much anywhere. It works like HTML except the tag is slightly different and you have to specify whether the image breaks the line or not.</p>
+<p class="p toc">
+<div class="section">
+<h2 class="title sectiontitle">Inserting an image</h2>
+<p class="p">To insert an image, use the <samp class="ph codeph">image</samp> tag and specify the<br />
+   <samp class="ph codeph">placement</samp> attribute to set line wrapping.</p>
+<pre class="pre codeblock">&lt;image href="images/sample.png" placement="break"&gt;&lt;alt&gt;Sample image&lt;/alt&gt;&lt;/image&gt;</pre>
+<p class="p">You can also choose <samp class="ph codeph">placement="inline"</samp> if you're inserting an image in the<br />
+      line of your sentence (such as a button image) or if you want text to flow around your image. </p>
+<p class="p">The Open Toolkit renders images with a <samp class="ph codeph">placement="break"</samp> attribute with two <samp class="ph codeph">br</samp> tags before and after the image.</p>
+<p class="p">You can also choose an <samp class="ph codeph">align</samp> attribute and select <samp class="ph codeph">left</samp>,<br />
+        <samp class="ph codeph">right</samp>, or <samp class="ph codeph">center</samp>. The <samp class="ph codeph">alt</samp> tags in the<br />
+      middle define the alt text for the image, which is what displays if a user's images are turned<br />
+      off. </p>
+<p class="p">Note that images won't automatically resize or automatically take on a border. However, you can<br />
+      set those properties in your webhelp CSS to accomplish this.</p>
+<p class="p">When you're writing a task, you can put images inside the <samp class="ph codeph">cmd</samp> or the<br />
+    <samp class="ph codeph">info</samp> tag.</p>
+<div class="p">If you want a caption to your images, add it like this:</p>
+<pre class="pre codeblock">&lt;fig&gt;&lt;title&gt;Sample Image&lt;/title&gt;
+&lt;image href="images/sample.png" placement="break"&gt;&lt;alt&gt;Sample image&lt;/alt&gt;&lt;/image&gt;
+&lt;/fig&gt;</pre>
+</div>
+<p class="p">The caption will actually appear below the image in the Oxygen webhelp output.</p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Reusing images</h2>
+<div class="p">If you reuse an image through the <samp class="ph codeph">conref</samp> element, you must include the<br />
+          <samp class="ph codeph">href</samp> attribute because this attribute is required. But the value for href<br />
+        is<br />
+        <samp class="ph codeph">-dita-use-conref-target</samp>.
+<pre class="pre codeblock">&lt;img conref="#concept_engines/img_ej25_engine" href="-dita-use-conref-target" /&gt;</pre>
+</div></div>
+<div class="section">
+<h2 class="title sectiontitle">Referring to specific figures</h2>
+<div class="p">If you want to refer to an image with a specific figure caption, you can use cross<br />
+        reference.
+<pre class="pre codeblock">&lt;p&gt;See &lt;xref href="#concept_lcw_fkl_q4/image1" type="fig"&gt;Oxygen Sample Webhelp&lt;/xref&gt; for details.&lt;/p&gt;
+
+&lt;fig id="image1"&gt;  
+    &lt;title&gt;Oxygen Sample Webhelp&lt;/title&gt;
+   &lt;image href="oxygen.png" placement="break"/&gt;
+&lt;/fig&gt;</pre>
+</div>
+<p class="p">The output will say "See Oxygen Sample Webhelp for details." With the webhelp, the<br />
+        reference will link to the image. The image itself won't have a figure number below it. With<br />
+        PDF, there will be a figure number below it.</p>
+<div class="p">If you want to use <samp class="ph codeph">conref</samp> to manually pull in the image title, you can do<br />
+        so like<br />
+        this:
+<pre class="pre codeblock">&lt;p&gt;See &lt;xref href="#concept_lcw_fkl_q4/image1" type="fig"&gt;&lt;ph conref="testfile.dita#concept_lcw_fkl_q4/image1_title"/&gt;&lt;/xref&gt; for details.&lt;/p&gt;
+   
+   
+   &lt;fig id="image1" frame="all"&gt;
+    
+    &lt;title&gt;&lt;ph id="image1_title"&gt;Oxygen Sample Webhelp&lt;/ph&gt;&lt;/title&gt;
+   &lt;image href="oxygen.png" placement="break" scalefit="yes"/&gt;
+   &lt;/fig&gt;</pre>
+</div></div>
+<div class="section">
+<h2 class="title sectiontitle">Image format</h2>
+<p class="p">It's recommended that you use the SVG format for images because this format allows you to<br />
+        add callouts that you can later edit and extract for translation. </p>
+</p></div>
+<div class="section">
+<h2 class="title sectiontitle">Other parameters</h2>
+<div class="p">If you want a border around your image and caption, use the <samp class="ph codeph">frame="all"</samp><br />
+        attribute. If you want your image to be scaled to its container size, use<br />
+          <samp class="ph codeph">scalefit</samp>. You can also specify a <samp class="ph codeph">width</samp>.</p>
+<pre class="pre codeblock">&lt;fig id="image1" frame="all"&gt;  
+    &lt;title&gt;Oxygen Sample Webhelp&lt;/title&gt;
+   &lt;image href="oxygen.png" placement="break" scalefit="yes" width="700"/&gt;
+&lt;/fig&gt;</pre>
+</div>
+<p class="p">However, I think it would be wiser to use <samp class="ph codeph">max-width</samp> on images in your<br />
+        webhelp stylesheet.</p>
+</p></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_page_level_formatting">Page-level elements</a></div>
+</div>
+</div>

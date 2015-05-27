@@ -1,0 +1,127 @@
+---
+layout: page
+title: 'JavaScript: jQuery — a JavaScript Library'
+permalink: /jquery-a-javascript-library-javascript/
+date: 2013-02-04 23:47:58.000000000 -08:00
+categories:
+- javascript
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
+  _wp_page_template: default
+  _wp_rp_image: empty
+  _spost_short_title: ''
+  _series_part: '16'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:18:"50.937150300932956";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:18:"50.937150300932956";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:17:"50.69194565677152";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:16:"47.0267827292749";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13601";s:5:"score";s:18:"46.797184857422195";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13752";s:5:"score";s:16:"43.8569029009996";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:18:"38.371641831519256";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:18:"38.371641831519256";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:18:"38.371641831519256";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"5604";s:5:"score";s:17:"36.90303540124822";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"4842";s:5:"score";s:17:"36.52803420753071";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:15:"35.931048230424";}}
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>jQuery is a popular JavaScript library that you can use to take advantage of ready-made JavaScript functions. jQuery has a number of useful effects, such as fading in or out, expanding or collapsing, and more.</p>
+<h2>Integrating jQuery</h2>
+<p>To use the jQuery library, go to <a href="http://jquery.com">jquery.com</a> and download the jQuery JavaScript file. You can choose either the production or minified versions. The minified version removes all the line breaks and compresses the scripts into as small a space as possible. It's not very readable this way, but it loads faster.</p>
+<p>You reference the jQuery file similar to how you reference your other JavaScript files:</p>
+<p>[js]&lt;script src=&quot;jquery.js&quot;&gt;&lt;/script&gt;[/js]</p>
+<h2>Sample jQuery Format</h2>
+<p>With regular JavaScript, if you wanted to initiate an action on an element, you would use the <code>getElementById</code> method, like this:</p>
+<p>[js]document.getElementById(&quot;top&quot;).className = &quot;topNew&quot;;[/js]</p>
+<p>In this example, the script gets the ID labeled "top" and replaces its class with "topNew".</p>
+<p>With jQuery, you can run the same operation but more quickly and easily. Additionally, jQuery will <i>add</i> the class to the element rather than replace it. This allows you to keep the existing CSS of the element and build on its properties.</p>
+<p>Here's the basic jQuery format:</p>
+<p>[js]jQuery(&quot;#someID&quot;).someAction();[/js]</p>
+<p>You start by writing <code>jQuery</code>, followed by the style you want to select. Then add a dot and the method you want to apply.</p>
+<p>Here's a more specific example:</p>
+<p>[js]jQuery(&quot;#top&quot;).addClass(&quot;topNew&quot;);[/js]</p>
+<p>This will find the #top ID element and add the "topNew" style to it.</p>
+<h2>Interacting with IDs, Classes, and HTML Elements</h2>
+<p>jQuery lets you grab classes and HTML elements, not just IDs. Whether it's an ID, class, or HTML element, what you specify is generically referred to as a "selector."</p>
+<p>Here's how you can add a new class to an existing element:</p>
+<p>[js]jQuery(&quot;.subtitle&quot;).addClass(&quot;bannersubtitle&quot;);[/js]</p>
+<p>This script looks for the <code>subtitle</code> class and adds the <code>bannersubtitle</code> clas to it.</p>
+<p>You can add a class to a general HTML element as well:</p>
+<p>[js]jQuery(&quot;li&quot;).addClass(&quot;newListStyle&quot;);[/js]</p>
+<p>This script looks for list <code>li</code> elements and adds the <code>newListStyle</code> class to it.</p>
+<p>You can also work with elements that have classes:</p>
+<p>[js]jQuery(&quot;p.ingredients&quot;).addClass(&quot;highlight&quot;);[/js]</p>
+<p>This script looks for paragraph elements with the <code>ingredients</code> class and adds the <code>highlight</code> class to it.</p>
+<h2>Adding Style Properties</h2>
+<p>In addition to adding styles, you can also add special style properties to be even more specific. For example, you can add any of the following:</p>
+<p>[js]:first&lt;br /&gt;<br />
+:last&lt;br /&gt;<br />
+:contains()&lt;br /&gt;<br />
+:visible[/js]</p>
+<p>Here's an example:</p>
+<p>[js]jQuery(&quot;li:last&quot;).addClass(&quot;lastliststyle&quot;);[/js]</p>
+<p>This script looks for the last list item and adds the <code>lastliststyle</code> class to it.</p>
+<p>You can also identify paragraph text that contains a certain word:</p>
+<p>[js]jQuery(&quot;p:contains('free')&quot;).addClass(&quot;largetext&quot;);[/js]</p>
+<p>This script will look for any paragraph text that contains the word "free" and add the "largetext" class to it.</p>
+<h2>Other jQuery Classes</h2>
+<p>In addition to the <code>.addClass</code> method, jQuery has other methods as well:</p>
+<p><code>removeClass</code> removes a class from an element.</p>
+<p><code>toggleClass</code> adds a class to an element if element doesn't already have the class applied. If the class is already applied, <code>toggleClass</code> removes it.</p>
+<h2>The $ Shorthand for jQuery</h2>
+<p>Rather than writing out <code>jQuery</code> every time, you can write <code>$</code> instead. The <code>$</code> symbol is a short variable that replaces <code>jQuery</code>. Using this symbol, your jQuery statements look like this:</p>
+<p>[js]$(&quot;p.new&quot;).addClass(&quot;large&quot;);[/js]</p>
+<p>This script looks for all paragraph elements with the <code>new</code> class and adds the <code>large</code> class to it.</p>
+<p>The preceding statement is the same as if you had written out <code>jQuery</code>.</p>
+<p>[js]jQuery(&quot;p.new&quot;).addClass(&quot;large&quot;);[/js]</p>
+<h2>Events with jQuery</h2>
+<p>You apply jQuery styles so they initiate on certain events. The following are common jQuery events:</p>
+<p>[js]&lt;br /&gt;<br />
+.hide&lt;br /&gt;<br />
+.show&lt;br /&gt;<br />
+.fadeOut&lt;br /&gt;<br />
+.fadeIn&lt;br /&gt;<br />
+.slideDown&lt;br /&gt;<br />
+.slideUp&lt;br /&gt;<br />
+[/js]</p>
+<p>You use these events in the same way we've been using <code>addClass</code>, except that these events take parameters. You can specify how long it takes for the action to take place by adding the time in milliseconds in parentheses.</p>
+<p>[js]$(&quot;li&quot;).hide(7000);[/js]</p>
+<p>This statement hides all <code>li</code> elements in 7000 milliseconds.</p>
+<p>Normally you wouldn't want to hide an element without the user clicking or otherwise acting on it, so you need to integrate an event first. You do this by adding an anonymous function after the event.</p>
+<p>[js]//when list elements are clicked&lt;br /&gt;<br />
+$(&quot;li&quot;).click(function() {&lt;br /&gt;<br />
+//slide the li elements up in 3000 ms&lt;br /&gt;<br />
+$(&quot;li&quot;).slideUp(3000);&lt;br /&gt;<br />
+});[/js]</p>
+<p>You could also add some text to the element by using the <code>text</code> method. Here's an example using the <code>text<code> method.</code></code></p>
+<p>[js]//When the p.more class is clicked&lt;br /&gt;<br />
+$(&quot;p.more&quot;).click(function() {&lt;br /&gt;<br />
+//add this text&lt;br /&gt;<br />
+$(&quot;p.more&quot;).text(&quot;Here are more details...&quot;);&lt;br /&gt;<br />
+});[/js]</p>
+<h2>Using "This" in jQuery</h2>
+<p>You can also use the word <code>this</code> so that an action is applied only to the element selected rather than applied to all elements. In the function, replace the element name with the more generic <code>this</code>.</p>
+<p>[js]//when the .widgetTitle class is clicked&lt;br /&gt;<br />
+$(&quot;.widgetTitle&quot;).click(function() {&lt;br /&gt;<br />
+//write this text&lt;br /&gt;<br />
+$(this).text(&quot;Hi there&quot;);&lt;br /&gt;<br />
+});[/js]</p>
+<p>This will add the word "Hi there" when a user clicks an element with the <code>.widgetTitle</code> class. However, it will write the text only for the specific <code>.widgetTitle</code> class that was clicked. It won't write it to every element on the page that has the same class.</p>
+<p>Here's another example with a different method applied:</p>
+<p>[js]//when the p.more class is clicked&lt;br /&gt;<br />
+$(&quot;p.more&quot;).click(function() {&lt;br /&gt;<br />
+//fade out the element in 3000 ms&lt;br /&gt;<br />
+$(&quot;this&quot;).fadeIn(3000);&lt;br /&gt;<br />
+});[/js]</p>
+<p>In this script, when a paragraph with the <code>more</code> class is clicked, the paragraph will fade out in 3000 milliseconds.</p>
+<h2>Running Scripts When the DOM Loads</h2>
+<p>If you want to run a jQuery script once the DOM loads, there's a special way of writing it. You use the <code>(document).ready</code> method. Unlike with the traditional JavaScript for the <code>window.onload</code> method, which can only be run once per page, you can use jQuery's <code>(document).ready</code> multiple times on the same page.</p>
+<p>Here's the format for running a script when the DOM loads:</p>
+<p>[js]//when the page loads, run this function&lt;br /&gt;<br />
+$document.ready(function () {&lt;br /&gt;<br />
+//write this text&lt;br /&gt;<br />
+$(&quot;p&quot;).text(&quot;Finished loading!&quot;);&lt;br /&gt;<br />
+});[/js]</p>
+<p>After the page loads, the text "Finished loading!" will appear.</p>

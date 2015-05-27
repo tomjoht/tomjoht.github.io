@@ -1,0 +1,159 @@
+---
+layout: page
+title: 'Java: Interfaces'
+permalink: /java-interfaces/
+date: 2015-01-01 20:01:41.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+  dsq_thread_id: '3780149372'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<p>Interfaces:<br />
+- Interfaces can't be instantiated<br />
+- Interfaces have methods with no bodies (no {})<br />
+- Subclasses <em>implement</em> interfaces (as many as they want)<br />
+- Subclasses must implement <em>all</em> the interface's methods<br />
+- Interfaces standardize methods and fields for all subclasses<br />
+- All fields are final static<br />
+- The default access  for an interface is protected<br />
+- The default access for an interface's methods is public</p>
+<p>Eclipse example: Interfaces</p>
+<h2>Detailed description</h2>
+<p>An interface is a class that has methods with no bodies. It is intended to be implemented by another class that will insert their own values for the methods. It's a way of formalizing a class that will have a lot of subclasses, when you want all the subclasses to standardize on common strings and methods.</p>
+<p>Here's an example from Oracle's Java documentation:</p>
+<pre><code>interface Bicycle {    
+    //  wheel revolutions per minute    
+    void changeCadence(int newValue);    
+
+    void changeGear(int newValue);  
+    void speedUp(int increment);    
+    void applyBrakes(int decrement);
+  }
+</code></pre>
+<p>You can see that this class just has methods, but the methods don't have any bodies (they don't even have empty curly braces <code>{}</code>.) They just specify the arguments they accept.</p>
+<p>Also note that rather than using <code>class</code>, we use the word <code>interface</code>. Interfaces aren't actually classes. They are more like skeleton classes that are meant to be customized with another class.</p>
+<p>When you want to use an interface, you use the word <code>implements</code>.</p>
+<p>Here's a class that implements the Bicycle interface:</p>
+<pre><code>class ACMEBicycle implements Bicycle {
+
+    int cadence = 0;
+    int speed = 0;
+    int gear = 1;
+
+   // The compiler will now require that methods
+   // changeCadence, changeGear, speedUp, and applyBrakes
+   // all be implemented. Compilation will fail if those
+   // methods are missing from this class.
+
+    void changeCadence(int newValue) {
+         cadence = newValue;
+    }
+
+    void changeGear(int newValue) {
+         gear = newValue;
+    }
+
+    void speedUp(int increment) {
+         speed = speed + increment;   
+    }
+
+    void applyBrakes(int decrement) {
+         speed = speed - decrement;
+    }
+
+    void printStates() {
+         System.out.println("cadence:" +
+             cadence + " speed:" + 
+             speed + " gear:" + gear);
+    }
+}
+</code></pre>
+<p>Source: <a href="https://docs.oracle.com/javase/tutorial/java/concepts/interface.html">What Is an Interface?</a></p>
+<p>You can see that this class has filled in the bodies for each of the methods. Also, note the following:</p>
+<ul>
+<li>If you implement an interface, you have to implement all of the methods. </li>
+<li>You can't create an object from an interface. You can only create a class that implements an interface. </li>
+</ul>
+<p>A quick way to implement all the unimplemented methods is simply to click the red dot when you implement the interface and choose to add all the unimplemented methods. Think of the interface as a contract. If you implement the interface, then you're contracted to use the methods and fields.</p>
+<p>The purpose of the interface is to standardize the method names and fields that all classes will use. Suppose you have 10 different types of bicycles, and you want them to all use a standard set of methods and fields. You create an interface that defines the methods and fields you want each of the classes to implement.</p>
+<h2>Access modifiers and interfaces</h2>
+<p>By default, the interface is available only to classes within the same package. To make the interface available to other classes, you must add the <code>public</code> access specifier.</p>
+<p>The default access for a method in an interface is <code>public</code>.</p>
+<h2>Extending other interfaces</h2>
+<p>Interfaces can extend other interfaces. You can actually extend multiple interfaces:</p>
+<pre><code>public interface SampleInterface extends Interface1, Interface2, Interface3 {
+}
+</code></pre>
+<p>(Classes can't extend numerous other classes -- they can only extend one class.) This means that interfaces can leverage fields and methods from a number of other interfaces.</p>
+<h2>Implementing multiple interfaces</h2>
+<p>You can implement multiple interfaces. (In contrast, classes can only extend one parent class.)</p>
+<h2>Naming conventions</h2>
+<p>It's pretty common to use "Impl" when you implement an interface.</p>
+<h2>abstract classes versus interfaces</h2>
+<blockquote><p>
+  Java has an "interface" keyword which refers to something quite different than<br />
+  the interfaces I defined in Lecture 8, even though the two interfaces are<br />
+  related.  Henceforth, when I say "interfaces" I mean public fields, public<br />
+  method prototypes, and the behaviors of public methods.  When I say "Java<br />
+  interfaces" I mean Java's "interface" keyword.</p>
+<p>  A Java interface is just like an abstract class, except for two differences.<br />
+  (1)  In Java, a class can inherit from only one class, even if the superclass<br />
+       is an abstract class.  However, a class can "implement" (inherit from) as<br />
+       many Java interfaces as you like.<br />
+  (2)  A Java interface cannot implement any methods, nor can it include any<br />
+       fields except "final static" constants.  It only contains method<br />
+       prototypes and constants.</p>
+<pre><code>  public interface Nukeable {               // In Nukeable.java
+    public void nuke();
+  }
+
+  public interface Comparable {             // In java.lang
+    public int compareTo(Object o);
+  }
+
+  public class SList extends List implements Nukeable, Comparable {
+    [Previous stuff here.]
+
+    public void nuke() {
+      head = null;
+      size = 0;
+    }
+
+    public int compareTo(Object o) {
+      [Returns a number &lt; 0 if this &lt; o,
+                          0 if this.equals(o), 
+                        &gt; 0 if this &gt; o.]
+    }
+  }
+</code></pre>
+<p>  The distinction between abstract classes and Java interfaces exists because of<br />
+  technical reasons that you might begin to understand if you take CS 164<br />
+  (Compilers).  Some languages, like C++, allow "multiple inheritance," so that a<br />
+  subclass can inherit from several superclasses.  Java does not allow multiple<br />
+  inheritance in its full generality, but it offers a sort of crippled form of<br />
+  multiple inheritance:  a class can "implement" multiple Java interfaces.</p>
+<p>  Why does Java have this limitation?  Multiple inheritance introduces a lot of<br />
+  problems in both the definition of a language and the efficient implementation<br />
+  of a language.  For example, what should we do if a class inherits from two<br />
+  different superclasses two different methods or fields with the same name?<br />
+  Multiple inheritance is responsible for some of the scariest tricks and traps<br />
+  of the C++ language, subtleties that cause much wailing and gnashing of teeth.<br />
+  Java interfaces don't have these problems. -- https://www.cs.berkeley.edu/~jrs/61b/lec/12
+</p></blockquote>
+<p><a href="https://www.cs.berkeley.edu/~jrs/61b/lec/12">https://www.cs.berkeley.edu/~jrs/61b/lec/12</a></p>

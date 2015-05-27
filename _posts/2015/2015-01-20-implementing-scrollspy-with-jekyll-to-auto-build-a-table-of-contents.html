@@ -1,0 +1,179 @@
+---
+layout: post
+title: Implementing ScrollSpy with Jekyll to auto-build a table of contents
+date: 2015-01-20 12:41:38.000000000 -08:00
+categories:
+- api-doc
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _syntaxhighlighter_encoded: '1'
+  _edit_last: '91'
+  _wpcom_is_markdown: '1'
+  _oembed_57a2df779f1fc941e0f2c4628782c104: <iframe width="625" height="469" src="http://www.youtube.com/embed/zubpp8bArkA?feature=oembed"
+    frameborder="0" allowfullscreen></iframe>
+  _oembed_time_57a2df779f1fc941e0f2c4628782c104: '1421763843'
+  _oembed_15b51c6a9224fb7314f75880d9d8c032: <iframe width="625" height="469" src="https://www.youtube.com/embed/zubpp8bArkA?feature=oembed"
+    frameborder="0" allowfullscreen></iframe>
+  _oembed_time_15b51c6a9224fb7314f75880d9d8c032: '1421763843'
+  _thumbnail_id: '22529'
+  enclosure: "http://idratherbewriting.com/videos/bootstrap_infinite_scroll.ogg\r\n0\r\naudio/ogg\r\n"
+  fsb_social_facebook: '3'
+  fsb_social_twitter: '8'
+  fsb_social_linkedin: '10'
+  fsb_social_google: '2'
+  dsq_thread_id: '3770207162'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I <a href="http://idratherbewriting.com/2015/01/14/experimenting-with-jekyll-for-tech-comm/">mentioned in a post last week</a> that I'm experimenting with a <a href="http://jekyllrb.com/">Jekyll</a> prototype for technical documentation.</p>
+<p>I stumbled upon one of the coolest and most interesting topics a few days ago while integrating "ScrollSpy" on Jekyll. ScrollSpy is a dynamic feature that "spys" on the headings as you scroll past them and dynamically highlights the active heading in your mini-table of contents.</p>
+<h2>What is ScrollSpy</h2>
+<p>To better understand ScrollSpy, go to one of the content pages on the <a href="http://getbootstrap.com/javascript/#scrollspy">Get Bootstrap site</a> and just start scrolling down -- you'll see the navigation on the right dynamically highlight the TOC heading you're viewing.</p>
+<p>Here's a short video showing ScrollSpy (expand the video to full-size for better readability):</p>
+<p><video class="loopingVideo" id="video1" controls preload><br />
+    <source src="http://idratherbewriting.com/videos/bootstrap_infinite_scroll.mp4" type="video/mp4"><br />
+    <source src="http://idratherbewriting.com/videos/bootstrap_infinite_scroll.webm" type="video/webm"><br />
+    <source src="http://idratherbewriting.com/videos/bootstrap_infinite_scroll.mov" type="video/mov"><br />
+    <source src="http://idratherbewriting.com/videos/bootstrap_infinite_scroll.ogg" type="video/ogg"><br />
+    Your browser does not support HTML5 video.<br />
+  </source></source></source></source></video></p>
+<h2>Bootstrap and Jekyll</h2>
+<p><a href="http://getbootstrap.com/">Bootstrap</a>, probably the most popular framework for web designers, uses Jekyll to build their documentation. See the note on their <a href="https://github.com/twbs/bootstrap/blob/master/README.md">readme.md in Github</a>:</p>
+<blockquote><p>
+Bootstrap's documentation, included in this repo in the root directory, is built with Jekyll and publicly hosted on GitHub Pages at [http://getbootstrap.com](http://getbootstrap.com). The docs may also be run locally.
+</p></blockquote>
+<p>Bootstrap is particularly interesting and relevant because they provide ready-made components to build your own sites. For example, do you need an label? Copy and paste a little snippet of code and you have it.</p>
+<p><a href="http://getbootstrap.com/components/#labels"><img src="/images/bootstraplabels-550x277.png" alt="bootstrap labels" width="550" height="277" class="alignnone size-medium wp-image-22525" /></a></p>
+<p>Do you need a dropdown menu, a font icon, an alert message, or even a "jumbotron"? No problem, just copy and paste little snippets of code from Bootstrap's site -- browse the <a href="http://getbootstrap.com/components/">components here</a> and the [css 1="here" language="components"][css][css]<a href="http://getbootstrap.com/css/">/css</a>. As long as you have the Bootstrap library and JavaScript file referenced in your HTML, the Bootstrap code works. (And it's kind of like magic, I have to say.)</p>
+<p>Bootstrap is also interesting because their site is built on Jekyll, and you can actually download and install the whole Bootstrap site on your local machine and freely fork it. Here's <a href="https://github.com/twbs/bootstrap/blob/master/README.md#documentation">how to install Bootstrap locally</a>. Or see my abbreviated instructions below.</p>
+<h2>Installing Bootstrap's site locally</h2>
+<p>Assuming you're on a Mac and have <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby</a> and <a href="http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm">Node package manager (npm)</a> installed, do the following to run getbootstrap.com locally:</p>
+<ol>
+<li>Open Terminal and make a directory called bootstrap: <code>mkdir bootstrap</code></li>
+<li>Go to <a href="http://getbootstrap.com/">http://getbootstrap.com/</a>.</li>
+<li>Choose <strong>Download source</strong>.</li>
+<li>Extract the zip into the bootstrap directory you created in step 1 so that the contents of the downloaded folder are directly inside of your new bootstrap directory.</li>
+<li>Change into the bootstrap directory: <code>cd bootstrap</code></li>
+<li>Change to admin privileges (if necessary): <code>sudo su -</code> </li>
+<li>Install bower: <code>npm install -g bower</code></li>
+<li>Use bower to install bootstrap: <code>bower install bootstrap</code></li>
+<li>Install rouge syntax highlighter: <code>gem install rouge</code></li>
+<li>Install Jekyll: <code>gem install jekyll</code></li>
+<li>Build Jekyll: <code>jekyll build</code></li>
+<li>Initiate the Jekyll server: <code>jekyll serve</code></li>
+<li>Browse to the local server address shown, such as <code>http://0.0.0.0:9001/</code>.</li>
+</ol>
+<p>(If Chrome pushes this address to a search, replace <code>0.0.0</code> with <code>localhost</code>.)</p>
+<p>You should then see something like this:</p>
+<p>[caption id="attachment_22526" align="alignnone" width="550"]<img src="/images/bootstraplocal-550x326.png" alt="Note the URL: http://0.0.0.0:9001/" width="550" height="326" class="size-medium wp-image-22526" /> Note the URL: http://0.0.0.0:9001/[/caption]</p>
+<h2>How Bootstrap implements Scrollspy on their site</h2>
+<p>I was particularly interested in how Bootstrap implemented their <a href="http://getbootstrap.com/javascript/#scrollspy">ScrollSpy feature</a>, because unfortunately the full functionality doesn't seem out of the box with the ScrollSpy template provided on <a href="http://www.bootply.com/new?visual=1#">Bootply</a>, which is a site that provides ready-made templates for building websites using the Bootstrap framework.</p>
+<p><a href="http://www.bootply.com/new?visual=1#"><img src="/images/bootplyscrollspy-550x406.png" alt="bootplyscrollspy" width="550" height="406" class="alignnone size-medium wp-image-22527" /></a></p>
+<p>I downloaded and built the Bootstrap site locally because I wanted to see how it was put together, particularly the ScrollSpy sidebar. First, they use both grunt and bower to automate some of their building. Honestly, I'm still a bit new to those technologies, so I'm not entirely familiar with them. But the Jekyll site I am more familiar with.</p>
+<p>Let's look specifically at the <a href="http://getbootstrap.com/css/">CSS page here</a>, which is inside docs/css.html in the download. In the code, this isn't one long page. Each of these sections is a separate file. They are pulled together through includes:</p>
+{% raw %}
+<p>[code lang="ruby"]<br />
+{% include css/overview.html %}<br />
+{% include css/grid.html %}<br />
+{% include css/type.html %}<br />
+{% include css/code.html %}<br />
+{% include css/tables.html %}<br />
+{% include css/forms.html %}<br />
+{% include css/buttons.html %}<br />
+{% include css/images.html %}<br />
+{% include css/helpers.html %}<br />
+{% include css/responsive-utilities.html %}<br />
+{% include css/less.html %}<br />
+{% include css/sass.html %}<br />
+[/code]</p>
+{% endraw %}
+<p>So the CSS page on getbootstrap is really about a dozen pages all stored in the _includes/css directory.</p>
+<p>In Jekyll, layouts are determined by the default.html file in the _layout directory (unless another layout is specified by the page). In default.html, the bootstrap sidebar section contains some if-else logic:</p>
+{% raw %}
+<p>[code lang="ruby"]<br />
+&lt;ul class=&quot;nav bs-docs-sidenav&quot;&gt;<br />
+              {% if page.slug == &quot;getting-started&quot; %}<br />
+                {% include nav/getting-started.html %}<br />
+              {% elsif page.slug == &quot;css&quot; %}<br />
+                {% include nav/css.html %}<br />
+              {% elsif page.slug == &quot;components&quot; %}<br />
+                {% include nav/components.html %}<br />
+              {% elsif page.slug == &quot;js&quot; %}<br />
+                {% include nav/javascript.html %}<br />
+              {% elsif page.slug == &quot;customize&quot; %}<br />
+                {% include nav/customize.html %}<br />
+              {% elsif page.slug == &quot;about&quot; %}<br />
+                {% include nav/about.html %}<br />
+              {% elsif page.slug == &quot;migration&quot; %}<br />
+                {% include nav/migration.html %}<br />
+              {% endif %}<br />
+            &lt;/ul&gt;<br />
+[/code]</p>
+{% endraw %}
+<p>These <code>if-elsif</code> statements basically say, for example, if the slug for this page is equal to css, then include the nav/css.html file here.</p>
+<p>In the nav/css.html file, the sidebar nav looks like this:</p>
+<p>[code lang="html"]<br />
+&lt;li&gt;<br />
+  &lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt;<br />
+  &lt;ul class=&quot;nav&quot;&gt;<br />
+    &lt;li&gt;&lt;a href=&quot;#overview-doctype&quot;&gt;HTML5 doctype&lt;/a&gt;&lt;/li&gt;<br />
+    &lt;li&gt;&lt;a href=&quot;#overview-mobile&quot;&gt;Mobile first&lt;/a&gt;&lt;/li&gt;<br />
+    &lt;li&gt;&lt;a href=&quot;#overview-type-links&quot;&gt;Typography and links&lt;/a&gt;&lt;/li&gt;<br />
+    &lt;li&gt;&lt;a href=&quot;#overview-normalize&quot;&gt;Normalize.css&lt;/a&gt;&lt;/li&gt;<br />
+    &lt;li&gt;&lt;a href=&quot;#overview-container&quot;&gt;Containers&lt;/a&gt;&lt;/li&gt;<br />
+  &lt;/ul&gt;<br />
+... [and so on...]<br />
+[/code]</p>
+<p>It continues for quite a while, because there are a lot of sections on that page.</p>
+<p>Basically, each of the links in these sidebar sections corresponds with the heading ID tags in the regular page (css/overview.html, and so on).</p>
+<p>If you look at css/overview.html, you can see the ID on each heading. For example:</p>
+<p>[code lang="html"]<br />
+&lt;h3 id=&quot;overview-doctype&quot;&gt;HTML5 doctype&lt;/h3&gt;<br />
+[/code]</p>
+<p>See how the ID on the heading corresponds with the link in the sidebar? That correspondence is what allows ScrollSpy to work.</p>
+<p>(BTW, I realize that my description is probably a bit cryptic, especially if you're new to Jekyll. But if you do download Bootstrap's site and start poking around with how it's put together, it will become more clear.)</p>
+<h2>Hard-coding Header IDs versus automating the IDs</h2>
+<p>It kind of surprised me that the IDs and sidebar links are hard-coded in the Bootstrap site. I'm assuming they're hard-coded because the IDs for each heading aren't a one-to-one mapping with the heading text, which is how auto-toc generators usually do it. Instead of rendering the ID for the heading "HTML% doctype," it's coded as "overview-doctype" (which may have been the original heading title). That's a lot of work just to get ScrollSpy working.</p>
+<p>With a bit of fiddling (okay, with a day of mesmerizing trial and error), and reading this insanely helpful blog post -- <a href="http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html">Bootstrap Docs Sidebar Explained</a> -- and copying and pasting some code from <a href="http://www.bootply.com/yBqcf4kncL">this awesome bootply template here</a>, I managed to get ScrollSpy working on my Jekyll prototype!</p>
+<p>But here it gets better. I found an <a href="https://github.com/ghiculescu/jekyll-table-of-contents">auto-toc generator built specifically for Jekyll</a>. I integrated it and voila, it freaking worked!!! I no longer had to manually code the links in the sidebar, because the auto-generator created them based on the heading IDs that were auto-rendered by the Red Carpet Markdown extension processor. I was floored.</p>
+<p>Here's a <a href="http://idratherbewriting.com/jekyll/scrollspy">demo of scrollspy in my prototype</a>.</p>
+<p><a href="http://idratherbewriting.com/jekyll/scrollspy"><img src="/images/scrollspydemo-550x327.png" alt="ScrollSpy demo" width="550" height="327" class="alignnone size-medium wp-image-22528" /></a></p>
+<p>BTW, this Jekyll site is a work in progress, and I'm far from finished. (Once I get it finished, I'll push it out to github for anyone to fork.) Also, don't pay attention to the other content for now -- the text is just my notes on various Jekyll things (but I'll be adding to it).</p>
+<p>BTW, to implement ScrollSpy on your own theme, make sure you use Markdown for your heading syntax.</p>
+<p>[code]<br />
+## sample<br />
+[/code]</p>
+<p>I'm using the <a href="https://github.com/vmg/redcarpet">Red Carpet markdown extension</a> (which I think comes bundled with Jekyll) configured as such in config.yml:</p>
+<p>[code lang="ruby"]<br />
+markdown: redcarpet</p>
+<p>redcarpet:<br />
+  extensions: [&quot;no_intra_emphasis&quot;, &quot;fenced_code_blocks&quot;, &quot;autolink&quot;, &quot;tables&quot;, &quot;with_toc_data&quot;]<br />
+highlighter: pygments<br />
+[/code]</p>
+<p>When the page renders to HTML, IDs get auto-generated for each heading. That's what the <code>with_toc_data</code> option does.</p>
+<p>Fortunately, the Markdown conversion to HTML happens <em>before</em> the auto-generated TOC, so it all works out in the end.</p>
+<p>Without this auto-generation of heading IDs, I'd have to hard-code everything like the Bootstrap site does. Bootstrap probably doesn't use this auto-generated TOC method because their docs are coded entirely in HTML, not Markdown. This is probably because they're dealing a lot with HTML (okay, almost exclusively), so it would confuse people to see a mix of Markdown and HTML in the source, especially since people are pasting code snippets from Bootstrap and may or may not be using Markdown.</p>
+<h2>A small critique of ScrollSpy on Bootstrap's site</h2>
+<p>Although I really like Bootstrap's implementation of ScrollSpy, I'm not so sure I entirely agree with everything. Their pages are perhaps too long, and that's why they collapse the subheadings until you land on their parents.</p>
+<p>But if you can't see the subheadings at a glance, what's the point of a jump TOC? The whole point of a TOC is to let readers know what's on the page at a glance. If you can't see certain sections until you get to their parent sections, then the jump TOC is not that helpful.</p>
+<p>However, expanding all the child subheadings would elongate the TOC too much, extending it below the fold (and thus making the floating fixed scroll impossible), so I agree with their design given the length of the pages. (I still think they could benefit by breaking up their content a bit.)</p>
+<h2>Screen real estate challenges with ScrollSpy</h2>
+<p>There's another challenge in implementing the ScrollSpy feature. If you integrate this mini-TOC, you basically give up your sidebar real estate. Where do you put your normal TOC? If you add two TOCs, then you end up with a funny design, or you end up cramping the content in the middle. You can see how cramped the space is in my blog now with the three columns. If you want to add cool graphics, screenshots, code samples, etc., the small content width is going to make that all problematic. You'll end up shrinking your font size to make it fit, and that detracts from readability. Your sidebars will also be narrower, making them less readable. (Here's a <a href="http://www.bootply.com/69913#">bootply template with 3 columns</a> -- kind of looks cramped to me.)</p>
+<p>But here's the thing about the regular, comprehensive TOC sidebar. Comprehensive TOC sidebars only work for a specific scope. If you put <em>all</em> your content into that sidebar (e.g., 75+ pages), it becomes meaningless to the user. The trick is to narrow the scope to show enough relevance for the content the user is looking at, but not too much that the user drowns in endlessly expanding hierarchies of folders.</p>
+<p>So where do you put your other navigation? You can it in your header, which also floats down and sticks as the user scrolls. You can implement some drop-downs here, but ultimately you need a kind of landing page for all your help items, one that the reader can easily jump back to. The homepage works well for that. This is the design pattern for any massively sized help system anyway. (As an example, see the <a href="http://codex.wordpress.org/">WordPress Codex's navigation homepage</a>.)</p>
+<p>Jan 26 update: See my more recent post, <a href="http://idratherbewriting.com/2015/01/26/reinventing-the-table-of-contents/">Reinventing the table of contents</a> for my latest approach on the TOC.</p>
+<h2>ScrollSpy jump locations wrong due to floating header</h2>
+<p>One annoying problem with ScrollSpy is that the floating top toolbar screws up the anchors. When you click the sidebar links, your pages jump to the top and get overlaid by a floating toolbar. There are some hacks in the CSS I implemented to get around this -- see this <a href="http://stackoverflow.com/a/12606867/4251438">post from StackOverflow</a>.</p>
+<h2>Usability of ScrollSpy</h2>
+<p>One final question: Does ScrollSpy add significantly to the user experience? Greg Koberger from <a href="http://readme.io">ReadMe.io</a> said that this dynamic TOC highlighting while users scroll (ScrollSpy) is a highly requested feature he's heard from many devs. You will see this feature in many API doc sites.</p>
+<p>For tech writers who chunk up their content into little pages, the ScrollSpy feature probably won't add much. But this feature will allow you to create longer pages without sacrificing readability. It will also help avoid information fragmentation and encourage more of an every-page-is-page-one experience.</p>
+

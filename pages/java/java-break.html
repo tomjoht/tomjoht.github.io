@@ -1,0 +1,44 @@
+---
+layout: page
+title: 'Java: break'
+permalink: /java-break/
+date: 2015-01-01 19:32:32.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>Break out of the current looping statement and move to the next statement</li>
+</ul>
+<p>Eclipse example: loops. Also see the while_loop example.</p>
+<h2>Detailed description</h2>
+<blockquote><p>
+  Many programming languages offer some form of break statement, because the need to stop the current execution path when some condition is met is a common problem. The break statement without a label moves the execution point (the bit of code the program is currently running) to the next statement that is outside of whatever structure contains the break statement. The only structures that can contain break statements are for, while, and do-while loops and switch statements.</p>
+<p>  The break statement has two forms, one (the most commonly used form) without a label and one with a label. We see several examples of break statements throughout this chapter. A break statement with a label breaks an outer loop, meaning that it is useful only within nested loops.</p>
+<p>  From Java 7 for Absolute Beginners
+</p></blockquote>
+<p>By label, break would be like this:</p>
+<pre><code>king:
+for (int i = 0; i &lt; 8; i++) {
+  for (int j = 0; j &lt; 8; j++) {
+    if (pieces[i][j].equals("Black King")) {
+      x = i;
+      y = j;
+      break king;
+</code></pre>

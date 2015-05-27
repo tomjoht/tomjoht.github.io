@@ -1,0 +1,112 @@
+---
+layout: post
+title: 'Reveal JS: An HTML5 alternative to PowerPoint, with support for SVG graphics'
+date: 2015-03-11 11:31:02.000000000 -07:00
+categories:
+- general
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _thumbnail_id: '22623'
+  _wp_old_slug: alternatives-to-powerpoint-with-support-for-svg-graphics-try-reveal-js
+  fsb_social_facebook: '4'
+  fsb_social_twitter: '8'
+  fsb_social_linkedin: '6'
+  fsb_social_google: '1'
+  dsq_thread_id: '3770003205'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>In trying to find a slide format that supported SVG image formats, I was exploring some PowerPoint alternatives and stumbled across <a href="http://lab.hakim.se/reveal-js/#/">Reveal JS</a>. <i>I like Reveal JS so much, I do not think I will ever use PowerPoint again.</i></p>
+<p>Here's the slide show I put together with Reveal JS: <a target="_blank" href="http://tomjohnson1492.github.io/innovation/">Innovation in Technical Communication</a>.</p>
+<p>Press <strong>F</strong> to switch to full screen mode, and then press your space bar to progress through the slides. If you want to see my speaker notes, press <strong>S</strong>.</p>
+<p>Reveal JS is a JavaScript library that renders HTML5 tags in a presentation-like way. To work with it, do the following:</p>
+<ol>
+<li>Download Reveal JS from Github here: <a href="http://lab.hakim.se/reveal-js/#/">http://lab.hakim.se/reveal-js/#/</a>.</li>
+<li>Open the index.html page in a text editor. </li>
+<li>Customize the content inside <code>section</code> elements.</li>
+</ol>
+<p>See the <a href="http://lab.hakim.se/reveal-js/#/">documentation here</a> or simply <a href="https://github.com/tomjohnson1492/innovation/">fork my slides</a> to see the code.</p>
+<p>Here's a quick Reveal JS tutorial:</p>
+<p><a href="http://lab.hakim.se/reveal-js/#/"><img src="/images/revealjs-550x353.png" alt="Reveal JS tutorial" width="550" height="353" class="alignnone size-medium wp-image-22622" /></a></p>
+<h2>Advantages of Reveal JS</h2>
+<p>Why would you want to use Reveal JS instead of PowerPoint? Here are a few reasons:</p>
+<ul>
+<li>Work directly in simple HTML code instead of a WYSIWYG interface.</li>
+<li>Support SVG image types (more details below).</li>
+<li>Progress slides both vertically and horizontally.</li>
+<li>Easily manipulate all slide information on the same page.</li>
+<li>Avoid PowerPoint's complexity and verbose feature set.</li>
+<li>Display slides in any modern browser. </li>
+<li>Host slides on Github to continually update the content.</li>
+<li>Theme the slides with CSS styles and effects. </li>
+<li>Get syntax highlighting with code samples.</li>
+</ul>
+<p>To upload to slideshare, you can render the presentation as a PDF by adding <code>?print-pdf</code> to the end of the URL. It actually looks great. Here's the <a href="https://github.com/tomjohnson1492/innovation/blob/gh-pages/innovation.pdf?raw=true">PDF version of my slides</a>.</p>
+<h2>Limitations of Reveal JS</h2>
+<p>Here are a couple of the limitations:</p>
+<p><strong>Callout overlays on top of images.</strong> Let's say you want to add a text box on top of an image. Well, unless you want to create a style that has an absolute position, this is going to be cumbersome. Here's a better workflow instead. If you want a text overlay, place your raster image in an Adobe Illustrator artboard and add the text callout there. Export the ai file to an SVG, and then reference the SVG file in your HTML.</p>
+<p>Alternatively, using a graphics editor like Snagit, add your callout there (but note that as a raster graphic, it won't be as crisp).</p>
+<p><strong>Dynamic actions on slides.</strong> In PowerPoint, you can animate objects based on action triggers in specific sequences. You can embed videos in Reveal JS slides, but if you like to add a lot of slide animations, you may find Reveal JS limiting.</p>
+<h2>Vertical navigation</h2>
+<p>Vertical navigation is one of the features that really sold me to Reveal JS. By nesting <code>section</code> elements inside of other <code>section</code> elements, the navigation progresses vertically. This makes much more sense to me in a presentation because often I want to explore the same topic with more depth rather than continuing on to another topic.</p>
+<p>With my presentation, each time I have a vertical slide progress, I used a contrasting color for the sub-section to signal readers that the flow goes down.</p>
+<p>(If you press the space bar, the flow automatically follows the vertical workflow, but not if you're using the right arrow key to progress through the slides.)</p>
+<h2>SVG format</h2>
+<p>Okay, here's the big feature for me. I am a fan of Adobe Illustrator, and I've used it extensively in preparing previous presentations. For example, take a look at a <a href="http://idratherbewriting.com/2013/10/23/recording-and-slides-for-why-users-cant-find-answers-in-help-presentation-to-stc-silicon-valley/">previous slidedeck here</a>, where each slide was actually exported to PNG from an Illustrator artboard.</p>
+<p>The benefit with SVG graphics is that, in the SVG format, they remain crisp at any scale, and the format is supported by all modern browsers. This is important for slides because the slideshow mode expands the scale. Additionally, different browsers will view the same graphic at different scales and resolutions.</p>
+<p>You can test it out by going to some of the slides containing vectors in my presentation, such as <a href="http://tomjohnson1492.github.io/innovation/#/6">this one</a>. Scale the browser small and large -- the text is still just as crisp at any resolution.</p>
+<p>Here's how I handled the vectors with my innovation slides. I created an Illustrator file called innovation.ai. I put all my artboards in this same file. Each artboard's dimensions are about 770 x 470 (a factor of 300px taller). Each artboard has a separate name. When I'm ready to export to SVG, I select "Save As" and choose "SVG" (and I selected <code>embedded</code> rather than <code>linked</code> in the options).</p>
+<p>Each artboard gets saved as innovation_artboardname.svg, where artboardname is whatever I've called the artboard. In my Reveal JS page, I incorporate the SVG image like this:</p>
+<p>[code]<br />
+ &lt;img src=&quot;media/vectors/innovation_artboardname.svg&quot;/&gt;<br />
+[/code]</p>
+<p>You can also add the image as a background image, like this</p>
+<p>[code]<br />
+&lt;section data-background=&quot;media/vectors/innovation_strategies.svg&quot;&gt;<br />
+[/code]</p>
+<p>I can simply update all my artboards in Illustrator, save to SVG, and all the vector images in my slides get updated.</p>
+<p>The size of the SVG graphic is the size of your artboard. You can constrain the size by adding a <code>max-height</code> and <code>max-width</code> (use percentages) to a style, and then applying it to your image element. I do this for subsection slides that contain SVG images, because the space is smaller.</p>
+<p>Here's my CSS style:</p>
+<p>[code]<br />
+.slides img.shortened {<br />
+   max-width: 80%;<br />
+   max-height: 80%;<br />
+  }<br />
+[code]</p>
+<p>And here I applied it to the image: </p>
+<p>[code]<br />
+&lt;img class=&quot;shortened&quot; src=&quot;media/vectors/innovation_artboardname.svg&quot;/&gt;<br />
+[/code]</p>
+<p>If I want to add a text overlay to a raster graphic, I add the raster graphic to an artboard and add the text overlay on top of it.</p>
+<p>Essentially the Reveal JS code consists of a bunch of references to all of these SVG images, which are exported from the Illustrator file.</p>
+<p>Granted, if you don't use Illustrator and don't care about crisp vector graphics, this method probably isn't for you. But I enjoy the freedom and flexibility of Illustrator for graphics much more than PowerPoint.</p>
+<h2>Publishing</h2>
+<p>Since the Reveal JS slide is just HTML and other code, you can upload it to Github. I created a <a href="https://pages.github.com/">Github Pages</a> branch for a Github repository and published my slides there. Github Pages lets you use your Github repository as a web host.</p>
+<p>Here's my innovation Github repo: <a href="https://github.com/tomjohnson1492/innovation/">https://github.com/tomjohnson1492/innovation/</a></p>
+<p>Here's the Github Pages rendering of the repo: <a href="http://tomjohnson1492.github.io/innovation/">http://tomjohnson1492.github.io/innovation/</a></p>
+<p>When I want to update and publish the slides, I just push the update to my repo using the following sequence in the command line:</p>
+<p>[code lang=text]<br />
+git add --all<br />
+git commit -m &quot;my commit message&quot;<br />
+git push<br />
+[/code]</p>
+<p>Note: I had a little trouble keeping the github-pages branch in sync with the master, but this <a href="http://brettterpstra.com/2012/09/26/github-tip-easily-sync-your-master-to-github-pages/">blog post helped me</a>. Essentially I just added the following under [remote "origin"] in the git/config file:</p>
+<p>[code]<br />
+	push = +refs/heads/master:refs/heads/gh-pages<br />
+	push = +refs/heads/master:refs/heads/master<br />
+[/code]</p>
+<h2>Conclusion</h2>
+<p>If you want to try something different for your next presentation, try [Reveal JS](http://lab.hakim.se/reveal-js/#/]. Note that there's also a commercial product built from Reveal JS called <a href="http://slides.com">slides.com</a>. However, in my experience, it's not as enjoyable as working directly with the Reveal JS template. (It does, however, allow you to easily add text overlays on top of graphics. But I don't think it supports SVG image types.)</p>
+<p>For future presentations, I'm really sold on using Reveal JS instead of PowerPoint. Not only do you have a lot more flexibility and control, it's also simply more fun to work in code.</p>

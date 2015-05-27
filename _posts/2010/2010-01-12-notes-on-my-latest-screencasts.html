@@ -1,0 +1,68 @@
+---
+layout: post
+title: Notes on My Latest Screencasts
+date: 2010-01-12 09:40:13.000000000 -08:00
+categories:
+- general
+- screencasting
+tags:
+- Camtasia Studio
+- dimensions
+- joomla
+- microphones
+- mp4
+- recording techniques
+- rendering
+- swf
+- theater
+status: publish
+type: post
+published: true
+meta:
+  _wp_rp_image: empty
+  _edit_last: '1'
+  _sexybookmarks_shortUrl: http://tinyurl.com/6423zjs
+  _sexybookmarks_permaHash: 1521a29c2e79a488b0e8b72089d19f77
+  sfw_comment_form_password: uckYfNT9COIi
+  dcssb_short_url: http://bit.ly/LXYVnD
+  _wp_rp_related_posts_query_result_cache_expiration: '1419995723'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"5062";s:5:"score";s:17:"48.78681826524338";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:18:"45.792080395483545";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"5020";s:5:"score";s:17:"38.30000714096577";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"9957";s:5:"score";s:17:"34.34554870410652";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"5564";s:5:"score";s:17:"32.31931227894963";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:3:"164";s:5:"score";s:18:"30.199636041924222";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"4417";s:5:"score";s:17:"29.97081533943823";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"4407";s:5:"score";s:17:"29.97081533943823";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"6909";s:5:"score";s:17:"29.27420195093287";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"6833";s:5:"score";s:17:"29.27420195093287";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"5062";s:5:"score";s:17:"48.58262664498388";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:18:"45.620061204423756";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"5020";s:5:"score";s:17:"38.13450953811452";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"9957";s:5:"score";s:18:"34.210820939015946";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"5564";s:5:"score";s:18:"32.156612029903116";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:3:"164";s:5:"score";s:18:"30.223847561453724";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"4417";s:5:"score";s:18:"29.816039270005753";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"4407";s:5:"score";s:18:"29.816039270005753";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"6909";s:5:"score";s:18:"29.119425881421805";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"6833";s:5:"score";s:18:"29.119425881421805";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"1345";s:5:"score";s:18:"29.119425881421805";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"1328";s:5:"score";s:18:"29.119425881421805";}}
+  fsb_social_facebook: '0'
+  fsb_social_twitter: '0'
+  fsb_social_linkedin: '0'
+  fsb_social_google: '0'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>A couple of months ago I created some documentation on <a href="http://joomla.org" target="_blank">Joomla</a> for some web admins using Joomla to build country sites. After delivering the documentation, the users needed something more visual, so I set about creating screencasts. I created 30 screencasts to match the tasks in the documentation (which I transferred from InDesign to <a href="http://mediawiki.org" target="_blank">Mediawiki</a>). I then integrated the screencasts with the various pages of the <a href="https://tech.lds.org/wiki/index.php/Country_Web_site_concepts" target="_blank">wiki</a>. You can see a list of the <a href="https://tech.lds.org/wiki/index.php/Country_Web_site_videos" target="_blank">screencasts here</a>. <!--more--></p>
+<h3>Embedding Flash in Wiki</h3>
+<p>I used the <a href="http://www.mediawiki.org/wiki/Extension:Flash_swf" target="_blank">Flash SWF extension</a> to embed the SWF videos directly into Mediawiki. I would have used an MP4 format, but I couldn't find a functioning extension that embeds MP4 into Mediawiki.</p>
+<p>I planned to use Camtasia Studio's Express Show format to upload the videos directly into Mediawiki through the wiki's built-in file uploader, because this format combines the player buttons with the media in one integrated package. But Express Show injects some XML into the file, and my server interpreted the SWF as a mixed file type and rejected it.</p>
+<p>I could have reverted to the Legacy SWF format (it also includes buttons in the SWF), but the Legacy format is not nearly as sexy as the Express Show format, so I uploaded the videos to an external media server instead and pulled them in from there. It's probably better that way anyway, as the media server is more robust.</p>
+<h3>Recording Techniques</h3>
+<p>I used the recording method that I described <a href="http://www.idratherbewriting.com/2009/12/02/whats-the-best-microphone-for-screencasting/">in this post</a>. Basically I have a Shure SM58 XLR microphone connected to a Behringer mixer routed through my Zoom H4 audio interface and then connected to my laptop. I record in Audacity for ease of editing and then add it to a Camtasia Studio project as an MP3 file. Then I listen to the audio while recording the screen using Camtasia Studio. It's a two-part process. Sometimes it takes a little editing to sync it up, but I've found this method to be the easiest. I was able to create 30 screencasts in a couple of weeks.</p>
+<h3>Recording Dimensions</h3>
+<p>I recorded the screen at 1280 x 720 pixels, because this is the minimum dimensions for creating HD quality screencasts when uploading to youtube. However, in hindsight, I would have chosen a smaller dimension and foregone the pursuit of HD. I forgot that you need an HD encoding engine to transform your videos into HD. If you record a 1280 x 720 video and upload it to youtube, youtube's HD encoding engine will make it clear even when played at smaller dimensions. But if you're working with the files locally and not going the HD route, you should record at the same dimensions that you plan to publish, because otherwise playing the videos at smaller dimensions leaves them a bit fuzzy.</p>
+<p>The resolution on my work laptop is notably high, so even a 1024 pixel width looks small to me. But when I open the same file on my home laptop, which has a much smaller resolution, it extends off the screen.</p>
+<p>I ended up creating two sizes: the full 1280 x 720 pixel size, which I link to at the bottom, and a 1024 x 576 pixel size, which is more viewable with smaller computer resolutions. As I said, the smaller dimension isn't as clear as it could have been had I chosen to record the screen at a smaller dimension.</p>
+<p>The next time I create screencasts, I'll shoot for a smaller frame, such as 850 or 900 pixels. However, the smaller frame will force me to use more panning and zooming, which will increase the editing time and file size.</p>
+<h3>Theater Styles</h3>
+<p>I also compiled the videos into a <a href="http://broadcast.lds.org/PTH/CWS/theater/cwstheaterflv/cwstheaterflv.html" target="_blank">theater-style frame</a>. I did this using the Camtasia Theater function within Camtasia Studio. One problem with this theater is that the table of contents adds another 250 pixels of width to the videos, giving you less room to work with. But the theater makes it a lot easier for users to navigate the videos.</p>
+<p>I would have included just the theater style frame were it not for the advantages of individually embedding the videos on separate wiki pages. By embedding videos on their own wiki pages, users can comment on the discussion tab of each video. And I can link to a specific video (which is not possible in the theater).</p>
+<h3>Batch Productions</h3>
+<p>When you're creating 30 videos, you can wait forever for the videos to render. To speed this up, I recommend using the batch production feature within Camtasia. There's a nice <a href="http://www.screencast.com/users/CamtasiaTraining/folders/Camtasia%20Studio%206%20Quick%20Clips/media/a7d2ffd1-70ef-4666-99c2-762f870d22de" target="_self">video tutorial on creating batch productions here</a>. However, I found that running batch productions to create an Express Show format with the MP4 format crashed after the third video conversion. I followed up with support and learned that</p>
+<blockquote>
+<p style="text-align: left;">Each time this library encodes a video, it consumes memory but does not release the memory until you close CamtasiaStudio.exe. This will cause batch productions to consume a lot of memory and its possible that it will crash the software.</p>
+</blockquote>
+<p>I ran into another bug as well. When packaging SWF videos into a theater frame and configuring a hierarchical table of contents, a one-inch gap appeared at the bottom of the video frame. Support is still troubleshooting that one, but I ended up using the FLV format instead. (One thing I like about Camtasia is that it gives you so many format options—MP4, SWF, FLV, AVI, WMV, Quicktime, M4V, and others.)</p>
+<h3>Music and Headshots</h3>
+<p>If you watch that <a href="http://www.screencast.com/users/CamtasiaTraining/folders/Camtasia%20Studio%206%20Quick%20Clips/media/a7d2ffd1-70ef-4666-99c2-762f870d22de">batch production video</a> from Techsmith that I linked to above, you'll hear music in the background. Music enhances the entertainment experience significantly, and I tried to incorporate music into my screencasts, but it ended up sounding distracting, so I removed it. Finding the right music for a church-based IT organization is quite hard. Ensuring that the same music repeated 30 times doesn't tire the reader is even harder.</p>
+<p>I also didn't include headshots in these screencasts. It's something I might do in the future, but I'm not so sure the headshots wouldn't follow the same possible fate as the music and end up more annoying than appealing.</p>
+<p>If you have any feedback or suggestions on the screencasts, please let me know.</p>

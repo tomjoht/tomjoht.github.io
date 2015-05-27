@@ -1,0 +1,55 @@
+---
+layout: page
+title: 'JavaScript: Numbers'
+permalink: /numbers-javascript/
+date: 2013-02-02 23:42:07.000000000 -08:00
+categories:
+- javascript
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
+  _wp_page_template: default
+  _syntaxhighlighter_encoded: '1'
+  _spost_short_title: ''
+  _series_part: '8'
+  _wp_rp_image: empty
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13752";s:5:"score";s:17:"72.08102948996341";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:17:"60.57165588092853";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:17:"56.29152355392014";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:18:"54.736114416752585";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:17:"46.86505769455637";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"46.86505769455637";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:17:"45.35751408978777";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13622";s:5:"score";s:17:"45.35751408978777";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:17:"36.03306649712089";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"36.03306649712089";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:15:"35.931048230424";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:15:"35.931048230424";}}
+  dsq_thread_id: '3776815855'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>When you're working with numbers, it's important to understand addition versus concatenation. Addition gives you the sum of two numbers, whereas concatenation just joins or "sandwiches" the two values together.</p>
+<p>For example, here's addition:</p>
+<p>[js]var x = 10;<br />
+var y = 5;<br />
+console.log (x + y)[/js]</p>
+<p>The result would be 15.</p>
+<p>However, if one of the values is a string rather than a regular number, the result will be concatenated instead of added. A string is identified by quotations; numbers do not have quotations.</p>
+<p>[js]var x = &quot;10&quot;;<br />
+var y = 5;<br />
+console.log (x + y)[/js]</p>
+<p>The result would be 105. The two values get joined together.</p>
+<h2>Not a Number (NaN)</h2>
+<p>If you try to multiply a string by a number, the result will be <code>NaN</code>, which means "Not a Number."</p>
+<p>You would see <code>NaN</code> if you tried to run something like this:</p>
+<p>[js]var x = &quot;Touchdown!&quot;;<br />
+var y = 5;<br />
+console.log (x * y);[/js]</p>
+<p>The result would be NaN, because 5 times a touchdown doesn't yield a number.</p>
+<h2>The Math Object</h2>
+<p>JavaScript has a built-in Math object that you can use to do various things with numbers. For example,</p>
+<p>[js]var x = 5.8;<br />
+//round the value of x<br />
+var y = Math.round(x);[/js]</p>
+<p>This will round the value of the x variable, resulting in 6.</p>
+<p>Other methods you can apply to the Math object include <code>.max</code>, <code>.min</code>, <code>.random</code>.</p>

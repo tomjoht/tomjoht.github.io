@@ -1,0 +1,40 @@
+---
+layout: page
+title: 'Java: JAR file'
+permalink: /java-jar-file/
+date: 2015-01-03 18:29:54.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>JAR is like Zip but for Java files. A JAR file simply contains a bunch of Java files and resources.</p>
+<h2>Extract a JAR</h2>
+<p>Open Terminal and type this, changing sample.jar to your jar file's name:<br />
+[code]<br />
+xf sample.jar<br />
+[/code]</p>
+<h2>Export to JAR</h2>
+<p>In Eclipse, got to <strong>File > Export > Java > Jar</strong>.</p>
+<p>If you're trying to share source files, include the following option in the export settings: "Export Java source files and resources".</p>
+<p>If you're exporting your code for someone to use, just export the class files.</p>
+<h2>Adding a JAR file directly in Eclipse</h2>
+<p>If you receive a JAR file from someone, you can add the JAR file directly into your Eclipse project. Eclipse will then give you access to the classes without requiring you to extract them from the JAR.</p>
+<p>Here's how you add the JAR to a project in Eclipse. After you create a Java project, create a new folder by going to <strong>File > New > Folder</strong>. Call it "lib". Then import the JAR file into the lib folder by going to <strong>File > Import > General > File</strong>. Alternatively, you could just copy the JAR file manually into that folder by navigating to it in your workspace.</p>
+<p>You then need to add the JAR to your class path, which you can do by right-clicking the lib folder and choosing <strong>Build Path > Add to Build Path</strong>. Alternatively, you can add the JAR file to your project by right-clicking your project and selecting <strong>Properties</strong>. In the dialog box, select <strong>Java Build Path</strong>, then click the <strong>Libraries* tab, and then click **Add JARs</strong> and browse to the JAR.</p>
+<p>For details, see section 25 in the <a href="http://www.vogella.com/tutorials/Eclipse/article.html">Vogella Eclipse IDE Tutorial</a>.</p>

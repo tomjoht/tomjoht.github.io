@@ -1,0 +1,91 @@
+---
+layout: post
+title: 'WordPress Tip: WordPress Image Galleries — Give Your Photo Galleries a Lightbox/Slideshowesque
+  Display'
+date: 2008-07-10 00:36:48.000000000 -07:00
+categories:
+- general
+- wordpress
+tags:
+- caption
+- description
+- images
+- Lightbox plugin
+- photo gallery
+- PhotoJAR plugin
+- Technical Writing
+- title
+- wordpress image gallery
+- wordpress tips
+status: publish
+type: post
+published: true
+meta:
+  _kramer_ref_failed: http://www.nabble.com/jquery-lightbox---balupton-question-tp17786906s27240p18394192.html
+  _edit_last: '1'
+  _kramer_synch: '1216091851'
+  dcssb_short_url: http://bit.ly/PfcMkV
+  sfw_comment_form_password: 6vml5I8UMR6S
+  _sexybookmarks_permaHash: de7953c0cfbb8b9a560ffaea629fff74
+  tweetcount: '0'
+  _sexybookmarks_shortUrl: http://tinyurl.com/4oruky6
+  shorturls: a:4:{s:9:"permalink";s:76:"http://www.idratherbewriting.com/2008/07/10/wordpress-image-gallery-example/";s:7:"tinyurl";s:25:"http://tinyurl.com/64emqa";s:4:"isgd";s:18:"http://is.gd/5dv41";s:5:"bitly";s:19:"http://bit.ly/W9JGj";}
+  twittercomments: a:0:{}
+  tweetbackscheck: '1260056389'
+  aktt_notify_twitter: 'no'
+  _kramer_ref_pending: http://www.google.com/search?q=
+  _kramer_ref_ping: http://www.jarinteractive.com/code/photoJAR/photojar-base/
+  _wp_rp_image: '15962'
+  _wp_rp_related_posts_query_result_cache_expiration: '1421701874'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"3727";s:5:"score";s:18:"124.39514971949576";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:18:"118.71932123016514";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:18:"117.85322538478793";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1751";s:5:"score";s:18:"111.07610326403427";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:18:"110.19243775948242";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1494";s:5:"score";s:18:"110.19243775948242";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"744";s:5:"score";s:18:"103.94829160195172";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:18:"102.11357224381628";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"1746";s:5:"score";s:18:"102.11357224381628";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2990";s:5:"score";s:18:"101.71223085287022";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"3727";s:5:"score";s:17:"123.6602165314527";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:18:"118.22372865976288";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:18:"117.44031664018694";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1751";s:5:"score";s:17:"110.4539816676222";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:18:"109.57031616304829";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1494";s:5:"score";s:18:"109.57031616304829";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"744";s:5:"score";s:18:"103.44824790089274";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:18:"101.56320159258442";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"1746";s:5:"score";s:18:"101.56320159258442";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2990";s:5:"score";s:18:"101.26413812462559";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:18:"101.26413812462559";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"846";s:5:"score";s:17:"96.22006286396712";}}
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"3727";s:5:"score";s:18:"124.43401487031426";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:18:"118.79174753586352";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:18:"117.98095475307585";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1751";s:5:"score";s:17:"111.1443909235831";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:17:"110.3583057473825";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1494";s:5:"score";s:17:"110.3583057473825";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"744";s:5:"score";s:17:"104.0124406155415";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:18:"102.17772125736059";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"1746";s:5:"score";s:18:"102.17772125736059";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2990";s:5:"score";s:18:"101.77637986638564";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:18:"101.77637986638564";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"846";s:5:"score";s:17:"96.74036667009338";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:3:"601";s:5:"score";s:17:"96.74036667009338";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:4:"6102";s:5:"score";s:16:"95.3282654992345";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:4:"5305";s:5:"score";s:16:"95.3282654992345";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:4:"3012";s:5:"score";s:16:"95.3282654992345";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:4:"1884";s:5:"score";s:16:"95.3282654992345";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:4:"1666";s:5:"score";s:16:"95.3282654992345";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:4:"1499";s:5:"score";s:16:"95.3282654992345";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:3:"760";s:5:"score";s:17:"92.48947688035804";}}
+  fsb_social_facebook: '0'
+  fsb_social_twitter: '0'
+  fsb_social_linkedin: '0'
+  fsb_social_google: '0'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><strong>Jan 2009 Update: </strong>Please see the note at the bottom of this page. Because I had trouble using captions with the Photojar plugin, I deactivated the plugin.</p>
+<p>A WordPress image gallery allows you to create a sharp-looking presentation for your photos or images. With just a couple of plugins and tweaks and some basic understanding of the WordPress gallery tag, you can make a Lightbox/Slideshowesque display of your gallery images without any custom coding.</p>
+<p>Here's an example of a WordPress gallery that goes a step beyond the default. Click each of the images, and then click the arrow buttons on the image to move to the next one. Instructions for creating such a gallery are below.</p>
+<p>[gallery]</p>
+<p><!--more-->To create a WordPress image gallery like the one above:</p>
+<ol>
+<li>Download and install the <a href="http://wordpress.org/extend/plugins/photojar-base/" target="_blank">PhotoJAR plugin</a> and the <a href="http://wordpress.org/extend/plugins/lightbox-2/" target="_blank">Lightbox plugin</a>. Unzip and upload to your plugins folder, and then activate as usual.</li>
+<li>After activating the plugins, click the <strong>Settings</strong> tab (far right), and then click <strong>PhotoJAR</strong>. In the Link Images To drop-down, select <strong>Lightbox/Slimbox</strong>. In the Gallery Image Size filter, select <strong>Thumbnail</strong>. Then click <strong>Update Options </strong>at the bottom.</li>
+<li>Click the<strong> Lightbox2 </strong>tab, choose the lightbox theme color you want, and then click <strong>Save Changes</strong>.</li>
+<li>Create a new post and upload your collection of images by clicking the <strong>Add an Image </strong>button. When you upload an image, it is associated with the post. With each image, add text in the Title and Caption fields. The caption will appear below the gallery thumbnail (so make it short), whereas the Title will appear below the image when viewed alone (so make it longer).<a href="http://www.idratherbewriting.com/wp-content/uploads/2008/07/wordpress_gallery_image.png"><img class="alignnone size-full wp-image-1680" title="Explanation of Title and Caption fields" src="/images/wordpress_gallery_image22.png" alt="" width="445" height="387" /></a></li>
+<li>After uploading the images, close the dialog box. Do NOT click the <strong>Insert into Post</strong> button. Your images are already associated with the post. When you add a gallery tag, they will automatically be pulled into the post without any html code at all.</li>
+<li>In the HTML view, add the following code to your post: &#91;gallery size="125x125xcrop"&#93;
+<p>. 125 x 125 is the thumbnail size, which you can change to best fit your blog's width. By default, three images appear in a row.</li>
+<li>Modify the styles for the captions and image sequence numbers by modifying your Lightbox theme's style sheet at /wp-content/plugins/lightbox-2/Themes/Black/. In the following style declarations,<strong> caption</strong> controls the Title; <strong>numberDisplay</strong> controls the "Image 1 of 7..." text. Change the values as desired.</li>
+<blockquote><p>#stimuli_imageData #stimuli_<strong>caption</strong>{ font-weight: bold; background-color: black; font-size: 12px; color: #c0c0c0;}</p>
+<p>#stimuli_imageData #stimuli_<strong>numberDisplay</strong>{ background-color: #000000; display: block; clear: left; padding-bottom: .5em;}</p></blockquote>
+<li>Publish your post.</li>
+</ol>
+<h3>Rearranging the Gallery Image Order</h3>
+<p>With WordPress 2.6, you can arrange the gallery image order by dragging the images on the Gallery tab into the order you want.</p>
+<h3>Additional Reading</h3>
+<ul>
+<li>The PhotoJAR plugin has a lot more power and control, with different tags and parameters. You can read <a href="http://www.jarinteractive.com/code/photojar/photojar-base/" target="_blank">more about it here.</a></li>
+<li>For more details about the Lightbox plugin, see the <a href="http://wordpress.org/extend/plugins/lightbox-2/" target="_blank">Lightbox pugin's page here</a>.</li>
+<li>To better understand the WordPress gallery and image tags (new with WordPress 2.5), see the <a href="http://codex.wordpress.org/Using_the_gallery_shortcode" target="_blank">Codex page on gallery shortcodes</a>.</li>
+<li>If you need a more robust image gallery plugin, see the <a href="http://wordpress.org/extend/plugins/nextgen-gallery/installation/">NextGen Gallery plugin</a>.</li>
+</ul>
+<h3>Note About Image IDs</h3>
+<p>If you don't want to insert an entire gallery, you can insert individual images (which are associated with any post), but you have to know the image IDs. To view the image IDs, go to the <strong>Manage</strong> tab and click the <strong>Media Library</strong> subtab. Mouse over the image title and look at the Post ID that appears in your browser's footer. You can then insert the single image into your post by using the following code: [image=23]. Also, replace 23 with your real image ID.</p>
+<p>You can also click the Insert into Post button that appears below the image when viewing the Gallery tab.</p>
+<h3>Note About the Description Field</h3>
+<p>You'll notice I didn't mention the Description field. The Description field doesn't apply to images with the Lightbox effect. If you <em>weren't</em> using the Lightbox effect for the gallery, each individual image -- when clicked -- would appear on its own page, with the Description text below it. The Lightbox plugin makes the image appear in a layer on the current page.</p>
+<h3>Photo Credit Goes to Jane</h3>
+<p>Special thanks to <a href="http://whataboutmomblog.com">Jane</a> for the photos (yes, they're our kids). The post where she wrote about this event is here: <a href="http://www.whataboutmomblog.com/2008/07/08/sugar-and-sugar-and-everything-nice/">Sugar and Sugar, and Everything Nice.</a></p>
+<p><strong>Nov 5, 2008 Update</strong></p>
+<p>I had trouble getting WordPress's new caption feature to work with Photojar, so I actually went back and undid all the posts with images since implementing Photojar. Photojar writes the image tag differently than WordPress 2.6 when you insert a caption. I love having captions, so I deactivated Photojar. Sorry. However, depending on your needs, this plugin may be right for you.</p>

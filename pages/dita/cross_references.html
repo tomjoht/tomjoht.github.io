@@ -1,0 +1,64 @@
+---
+layout: page
+title: 'DITA: Cross references'
+date: 2014-12-27 15:16:06.000000000 -08:00
+permalink: /cross_references/
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+  dsq_thread_id: '3775329397'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Cross references</h1>
+<div class="body conbody">
+<p class="shortdesc">You create cross references by pointing to the ID of a particular element that you want<br />
+  to link to.</p>
+<div class="section">
+<h2 class="title sectiontitle">Referring to specific steps</h2>
+<p class="p">To refer to a specific step, do the following:</p>
+<ol class="ol">
+<li class="li">Add an ID tag on the step:
+<pre class="pre codeblock">
+&lt;task id="task_lxj_zps_44"&gt;
+
+...
+      
+&lt;step id="deploy"&gt;
+    </pre>
+</li>
+<li class="li">Reference the ID through an <samp class="ph codeph">xref</samp> element and include<br />
+      <samp class="ph codeph">type="li"</samp>.
+<pre class="pre codeblock">Now perform the same routine as you did in &lt;xref href="#task_lxj_zps_44/deploy" type="li"/&gt;.</pre>
+<div class="note note"><span class="notetitle">Note:</span> The type is <samp class="ph codeph">li</samp>, not <samp class="ph codeph">step</samp>.</div>
+</li>
+</ol></div>
+<div class="section">
+<h2 class="title sectiontitle">Referring to a specific section</h2>
+<p class="p">To refer to a specific section with a cross reference, in your regular content, add an ID<br />
+    attribute on the element like this:</p>
+<div class="p">
+<pre class="pre codeblock">&lt;section id="date_selection"&gt;&lt;title&gt;Date Selection&lt;/title&gt;</pre>
+<p>Then<br />
+    refer to it like this:</p></div>
+<pre class="pre codeblock">&lt;p&gt; Select the date range you want. See the previous section, &lt;xref href="yourditatopic.dita#thetopicid/date_selection" type="section"/&gt;, for
+ details about the options.&lt;/p&gt;
+  </pre>
+</p></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
+</div>
+<div class="linklist linklist">
+<div><a class="link external" href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Cross_Referencing/c_Cross-references_Sample_Topic.html#concept_sample_xref__section_Typical_Sample" target="_blank">Sample topic - cross-references</a></div>
+</div>
+</div>

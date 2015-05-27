@@ -1,0 +1,756 @@
+---
+layout: page
+title: "DITA: Import DITA's XHTML Output into WordPress"
+permalink: /import_dita_into_wordpress/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+  dsq_thread_id: '3770196521'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Import DITA's XHTML Output into WordPress</h1>
+<div class="body taskbody">
+<p class="shortdesc">The DITA XHTML Import tool allows you to import DITA-produced XHTML content into a<br />
+        WordPress site or multisite.</p>
+<div class="section context">
+<p class="p">This tool is a slight modification from the original tool created by <a class="xref external" href="http://journalized.zed1.com/wordpress-plugins/dita-to-wordpress-import-tool/" target="_blank">Mike Little here</a>. I have made a few<br />
+                modifications with the way links and images are handled. Additionally, I have unique<br />
+                installation instructions here. (Note that this is not a plugin -- it's a file you<br />
+                add to your WordPress instance that allows you to import XHTML files from DITA.</p>
+<div class="note tip"><span class="tiptitle">Tip:</span> This site provides a demo of content imported into a<br />
+            WordPress site, but not the navigation pane. For a demo of the navigation pane, see <a class="xref external" href="http://idratherbewriting.com/wpdita" target="_blank"> the wpdita site</a>.</div>
+<p class="p toc">
+</p></div>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</div>
+</div>
+<div class="topic task nested1" id="before_you_do_anything">
+<h2 class="title topictitle2">Some notes about the DITA Import tool</h2>
+<div class="body taskbody">
+<div class="section">
+<h3 class="title sectiontitle">What it imports</h3>
+<p class="p">The DITA XHTML import tool does not import raw DITA. Instead, it takes the XHTML output from DITA<br />
+                    and imports it into WordPress. It works similarly to a regular HTML import tool,<br />
+                    such as <a class="xref external" href="https://wordpress.org/plugins/import-html-pages/" target="_blank">HTML Import 2</a>,<br />
+                    except that this tool preserves the hierarchy (but not the order) of<br />
+                    parent-child pages as expressed in your ditamap table of contents file, among<br />
+                    other things.</p>
+<p class="p">Despite the lack of sibling order, this turns out not to be a problem at all, because rather than<br />
+                    trying to display pages by virtue of their page order in WordPress, we instead<br />
+                    display them using the index file that is included in the DITA XHTML navigation<br />
+                    (more details are below).</p>
+<p class="p">What's cool about this tool, and what distinguishes it from other import tools, is that if you<br />
+                    reimport your DITA XHTML content, the previous pages aren't duplicated or<br />
+                    recreated. Instead, only a new <em class="ph i">version</em> of the page is created, and any<br />
+                    comments or other histories about the page are preserved.</p>
+<p class="p">Also, you don't have to reimport your <em class="ph i">entire</em> help set each time you want to update your<br />
+                    content. You can just update the pages that have changed. However, even<br />
+                    importing one page will require the importer to look at all the other pages in<br />
+                    WordPress. The importer looks to see if any of the existing files have<br />
+                    permalinks that match the file names of the content you're importing. </p>
+<p class="p">The globally unique identifier, or guid, between incoming files and existing<br />
+                    WordPress pages is the permalink. If the imported content's file name matches an<br />
+                    existing page's permalink, the imported file creates a new version of that<br />
+                    existing page. If the file name doesn't match the existing permalink, a new page<br />
+                    is created. </p>
+</div>
+<div class="section">
+<h3 class="title sectiontitle">Deleting pages</h3>
+<p class="p">If you delete a page in your DITA source that you had previously imported into<br />
+                    WordPress, the importer won't know that the file should be deleted -- you'll<br />
+                    need to manually delete the legacy page from WordPress. There isn't any kind of<br />
+                    import manifest file that looks to see if WordPress has any pages it shouldn't.<br />
+                    This is because you can have both DITA-imported pages and native pages created<br />
+                    directly from WordPress living in the same directory.</p>
+<p class="p">If you change your DITA file names and reimport your content, the newly<br />
+                    imported files won't match any WordPress pages with permalinks corresponding to<br />
+                    the previous DITA file name, hence new pages will be created/duplicated. As a<br />
+                    best practice, avoid changing file names or permalinks.</p>
+</p></div>
+<div class="section">
+<h3 class="title sectiontitle">Navigation</h3>
+<p class="p">Even though the parent-child hierarchy is preserved, the order of siblings is not<br />
+                    preserved. This makes it difficult to automate menus using WordPress' built-in<br />
+                    menu system. However, don't fear! I've overcome the menu issue with some clever<br />
+                    scripting and CSS.</p>
+<p class="p">Basically, by following the steps in the sections below, you'll identify the table of<br />
+                    contents file, pull it into a widget, and add a class at the top. Some jQuery<br />
+                    scripts will trigger based on the class, and when you view the site in your<br />
+                    browser, you'll have a sweet-looking navigation bar.</p>
+</p></div>
+<div class="section">
+<h3 class="title sectiontitle">Links</h3>
+<p class="p">In order for external links to be absolute instead of relative, you must add<br />
+                        <samp class="ph codeph">outputclass="external"</samp> on the link in the DITA source file.<br />
+                    If you look in the ditaimporter.php file, you'll see my hack for making the<br />
+                    links work. It looks like this: </p>
+<pre class="pre codeblock language-php">
+       $cls = $a-&gt; getAttribute(<span class="hl-string" style="color:#2a00ff">'class'</span>);
+
+	$href = $a-&gt; getAttribute(<span class="hl-string" style="color:#2a00ff">'href'</span>);
+	<strong class="hl-keyword" style="color:#7f0055">if</strong> (!<strong class="hl-keyword" style="color:#7f0055">empty</strong>($href) &amp;&amp; ( ($cls == <span class="hl-string" style="color:#2a00ff">'xref'</span> &amp;&amp; $cls == <span class="hl-string" style="color:#2a00ff">'link'</span>) || ($cls == <span class="hl-string" style="color:#2a00ff">'xref'</span>) || ($cls == <span class="hl-string" style="color:#2a00ff">'link'</span>) || ($cls == null ) ) ) {
+                $href = $this-&gt;HELP_ROOT_PATH . <span class="hl-string" style="color:#2a00ff">'/'</span> . $this-&gt; processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
+                $a-&gt; setAttribute(<span class="hl-string" style="color:#2a00ff">'href'</span>, $href);
+	} 
+
+	<strong class="hl-keyword" style="color:#7f0055">elseif</strong> (!<strong class="hl-keyword" style="color:#7f0055">empty</strong>($href) &amp;&amp; ($cls == <span class="hl-string" style="color:#2a00ff">'external'</span> &amp;&amp; $cls == <span class="hl-string" style="color:#2a00ff">'xref'</span>) ) {
+		  $href = $this-&gt;processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
+                $a-&gt; setAttribute(<span class="hl-string" style="color:#2a00ff">'href'</span>, $href);
+	}
+                </pre>
+<p class="p">This code says if the class is <samp class="ph codeph">xref</samp> and <samp class="ph codeph">link</samp>,<br />
+                or <samp class="ph codeph">xref</samp>, or <samp class="ph codeph">link</samp>, or <samp class="ph codeph">null</samp>, then<br />
+                process the link as a relative link. But if it has a class of<br />
+                    <samp class="ph codeph">external</samp>, then process as an absolute link. If you don't put<br />
+                    <samp class="ph codeph">outputclass="external"</samp> as an attribute on an external link,<br />
+                then the importer will render it as a relative link, and the path won't be<br />
+                right.</p>
+<p class="p">By the way, as far as I can tell, these classes are how DITA's OT renders link<br />
+                    classes. But if it turns out that the DITA OT adds other classes to internal<br />
+                    links, let me know and I'll fix the logic.</p>
+</p></div>
+<div class="section">
+<h3 class="title sectiontitle">Paragraph breaks</h3>
+<p class="p">When the DITA content imports into WordPress, there will be a lot of blank spaces.<br />
+                You must disable WordPress' autoparagraphing function (<a class="xref external" href="http://codex.wordpress.org/Function_Reference/wpautop" target="_blank">wpautop</a>) in order to avoid odd line breaks in your<br />
+                document, since WordPress's editor treats line breaks as new paragraphs. Once you<br />
+                disable wpautop, you will need to add paragraph tags to signal new paragraphs in<br />
+                your content. </p>
+<p class="p">This shouldn't be a problem if you are importing your content into WordPress.<br />
+                    However, if you have a lot of pages that you're authoring natively in WordPress,<br />
+                    which co-exist side-by-side your imported DITA-authored pages, then you might<br />
+                    want to implement a plugin such as <a class="xref external" href="https://wordpress.org/plugins/wpautop-control/" target="_blank">wpautop control</a>, which lets you turn on wpautop on a<br />
+                    page-by-page basis.</p>
+</p></div>
+<div class="section">
+<h3 class="title sectiontitle">WP Multisite versus standalone WP</h3>
+<p class="p">You can use this DITA import tool with WordPress multisite, not just with standalone<br />
+                WordPress sites. In many cases, it probably makes a lot more sense to use WordPress<br />
+                multisite. If you have just one output, then you're probably not using DITA in the<br />
+                first place. On the other hand, if you have numerous WordPress sites, because you're<br />
+                single sourcing your content into various channels, it makes more sense to publish<br />
+                each output as a separate site in a WordPress network that you manage centrally. </p>
+<p class="p">WordPress multisite allows you to maintain the theme and plugins across your network<br />
+                in one place rather than making updates to each site individually. That is, all<br />
+                sites in the network can refer to the same theme, plugins, and WP core files. When<br />
+                you need to make updates, you only have to do it once even if you have hundreds of<br />
+                sites in your network. Even if you have just two sites, you definitely want to use<br />
+                WordPress Multisite. What's cool is that both standalone Wordpress and WordPress<br />
+                multisite run off the same core code base.</p>
+<p class="p">For instructions on using WP multisite, see <a class="xref external" href="http://codex.wordpress.org/Create_A_Network" target="_blank">Create a network</a> on the WordPress Codex. I also highly<br />
+                    recommend getting a subscription to <a class="xref external" href="http://premium.wpmudev.org/" target="_blank">wpmudev</a>, which is a site specializing<br />
+                    in plugins and assistance with wpmudev. </p>
+<p class="p">(By the way, my instructions here don't include info on installing either <a class="xref external" href="http://codex.wordpress.org/Installing_WordPress" target="_blank">standalone WordPress</a> or <a class="xref external" href="http://codex.wordpress.org/Create_A_Network" target="_blank">WordPress multisite</a>, but you can easily find<br />
+                    tutorials online. Also, if you're a total Wordpress newbie, note that you<br />
+                    download the self-hosted WordPress from <a class="xref external" href="https://wordpress.org/" target="_blank">WordPress.org</a>, not <a class="xref external" href="https://wordpress.com/" target="_blank">WordPress.com</a>. You won't be able to use this tool with<br />
+                    WordPress.com. You'll need to have your own space on a web host.)</p>
+</p></div>
+<div class="section">
+<h3 class="title sectiontitle">Styles</h3>
+<p class="p">The tool doesn't have any pre-built CSS styles for the DITA classes that will be in<br />
+                    your content. However, if you use the styles I've included here for your theme,<br />
+                    it will look decent.</p>
+</p></div>
+<div class="section">
+<h3 class="title sectiontitle">Images</h3>
+<p class="p">You don't need to do anything special in order for your images to import. They are pulled<br />
+                in to your media library when you import content.</p>
+</div></div>
+</div>
+<div class="topic task nested1" id="installing_dita_plugin">
+<h2 class="title topictitle2">Install the DITA Import tool</h2>
+<div class="body taskbody">
+<div class="section context">This section covers the technical steps needed to get your site up and running<br />
+                with the DITA import tool. Granted, there does seem like a lot of steps, but<br />
+                remember that you're configuring the tool to work with an entire website. The import<br />
+                process itself requires just a few clicks.</div>
+</p></div>
+<div class="topic task nested2" id="download_files">
+<h3 class="title topictitle3">Download and install the DITA import tool</h3>
+<div class="body taskbody">
+<ol class="ol steps">
+<li class="li step stepexpand">
+                <span class="ph cmd">Download the <a class="xref external" href="http://idratherbewriting.com/wp-content/ditaimporter/ditaimporter.zip" target="_blank">ditahelp.zip file</a> here and unzip it.</span>
+            </li>
+<li class="li step stepexpand"><span class="ph cmd">Upload the ditahelp.php file to <span class="ph filepath">wp-content/ditaimporter</span> in your WordPress<br />
+                            file structure. (Create the <span class="ph filepath">ditaimporter</span><br />
+                            folder.)</span></p>
+<div class="itemgroup info">You can actually store this ditahelp.php file in other directories, but<br />
+                            keeping it in wp-content is pretty safe because you never overwrite your<br />
+                            wp-content folder when you update WordPress.</div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">In a text file, create a new document and insert the following:</span>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock language-php">
+<span class="hl-directive" style="color:#8b26c9">&lt;?php</span> <strong class="hl-keyword" style="color:#7f0055">include_once</strong>(ABSPATH . <span class="hl-string" style="color:#2a00ff">'wp-admin/includes/import.php'</span>);
+<strong class="hl-keyword" style="color:#7f0055">require_once</strong>(ABSPATH . <span class="hl-string" style="color:#2a00ff">'wp-content/ditaimporter/ditahelp.php'</span>);
+                </pre>
+</p></div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">Save the file as <span class="ph filepath">dita-import-helper.php</span>. </span></li>
+<li class="li step stepexpand"><span class="ph cmd">In your wp-content directory in WordPress, create a new directory called<br />
+                            <span class="ph filepath">mu-plugins</span>.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">Upload the <span class="ph filepath">dita-import-helper.php</span> file into that<br />
+                            <span class="ph filepath">mu-plugins</span> directory.</span></p>
+<div class="itemgroup info">
+<p class="p">mu-plugins stands for <a class="xref external" href="http://codex.wordpress.org/Must_Use_Plugins" target="_blank">"must-use"<br />
+                                    plugins</a>. mu-plugins work like regular plugins, except<br />
+                                that they remain active even if you switch your theme or deactivate<br />
+                                all your plugins. (You will never be prompted to update a must-use<br />
+                                plugin, and they will still work even if you deactivate all your<br />
+                                regular plugins.)</p>
+</p></div>
+</li>
+</ol>
+<div class="section postreq">If the installation worked correctly, you should see a DITA help option<br />
+                    when you go to Tools &gt; Import in your WordPress administrative interface. (If<br />
+                    you don't, check your references and folder structures.)</div>
+</p></div>
+</div>
+<div class="topic task nested2" id="set_up_your_map">
+<h3 class="title topictitle3">Set up your ditamap</h3>
+<div class="body taskbody">
+<div class="section context">
+<p class="p">In your DITA Map, structure your sections with the following<br />
+                        hierarchy:</p>
+<pre class="pre codeblock">
+   &lt;topicref href="toc_content_reuse.dita"&gt;
+   &lt;topicref href="conditional_profiling.dita"/&gt;
+   &lt;topicref href="conref.dita"/&gt;
+   &lt;topicref href="ditaval.dita"/&gt;
+  &lt;/topicref&gt; 
+</pre>
+<p class="p">The title for each section (in this case, toc_content_reuse.dita) should<br />
+                        go to an actual file, but you don't need to include any content in that<br />
+                        file. By default, the DITA OT will populate that file with a summary of all<br />
+                        the pages under it (their titles and short descriptions). When you import<br />
+                        the content into WordPress, clicking this folder overview page won't show<br />
+                        the page (unless you specifically configure that setting). However, the page<br />
+                        will still appear in search results. </p>
+<p class="p">What you want to avoid is this structure:</p>
+<pre class="pre codeblock">  &lt;topichead navtitle="Content Re-use"&gt;
+   &lt;topicref href="conditional_profiling.dita"/&gt;
+   &lt;topicref href="conref.dita"/&gt;
+   &lt;topicref href="ditaval.dita"/&gt;
+  &lt;/topichead&gt;                    </pre>
+<p class="p">Don't use <samp class="ph codeph">topichead</samp> elements that don't point to any<br />
+                        real files. The navigation menu in WordPress needs an actual file to create<br />
+                        a hierarchy. (It's a best practice anyway to <a class="xref external" href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Maps/c_Using_Topicheads_in_a_Map.html" target="_blank">avoid <samp class="ph codeph">topichead</samp><br />
+                            elements</a>.)</p>
+</p></div>
+</p></div>
+</p></div>
+<div class="topic task nested2" id="configure_transforms">
+<h3 class="title topictitle3">Configure XHTML transforms</h3>
+<div class="body taskbody">
+<div class="section context">
+<p class="p">You need to create a DITA Map XHTML transform. I'm assuming that you're using<br />
+                OxygenXML, but if you're not, you'll have to figure out how to make these changes in<br />
+                your authoring tool. </p>
+<p class="p">Duplicate and edit the DITA Map XHTML transform. For the args.index.toc parameter,<br />
+                        change it from <strong class="ph b">index</strong> to <strong class="ph b">toc</strong>. (For some reason, the index file<br />
+                        doesn't get imported if it has the name "index." I think this is because the<br />
+                        permalink index interferes with the default file loaded in a root directory.<br />
+                        )</p>
+<p class="p">Once you make this adjustment, generate an XHTML output.
+                </p>
+</div></div>
+</div>
+<div class="topic task nested2" id="importing_content">
+<h3 class="title topictitle3">Import DITA Content</h3>
+<div class="body taskbody">
+<div class="section context">To import your DITA-produced XHTML content into WordPress, you upload the HTML<br />
+                files into a directory on your server and then pull the files into WordPress from<br />
+                there.</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                    <span class="ph cmd">Create a new directory on your server called something like<br />
+                                <span class="ph filepath">dita-staging</span>.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">In OxygenXML, duplicate the <strong class="ph b">DITA Map XHTML</strong> transform.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Edit the DITA Map XHTML transform. Click the<br />
+                                <span class="ph uicontrol">Parameters</span> tab. For the<br />
+                                <span class="ph uicontrol">args.html.toc</span> parameter, type <strong class="ph b">toc</strong>. </span></p>
+<div class="itemgroup info">If you leave the args.html.toc parameter at the default, the table of<br />
+                            contents gets pushed into an index.html file, and the index.html file<br />
+                            won't be imported. By changing the output file to <strong class="ph b">toc</strong>, this file<br />
+                            will be rendered as toc.html and will be included in the import into<br />
+                            WordPress. The file's title will be your map file name (but its<br />
+                            permalink will be "toc").</div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">Transform your DITA content into XHTML and upload it to the dita-staging directory on your server using a tool such as FTP.</span></li>
+<li class="li step stepexpand"><span class="ph cmd">Find the absolute path to your dita-staging directory. </span>
+<div class="itemgroup stepxmp">
+<p class="p">One way to find the absolute path is by creating a file with the following<br />
+                                contents:</p>
+<pre class="pre codeblock language-php"><span class="hl-directive" style="color:#8b26c9">&lt;?php</span> phpinfo() <span class="hl-directive" style="color:#8b26c9">?&gt;</span>   </pre>
+<p class="p">Save the file as "phpinfo.php" and upload it to your dita-staging directory.</p>
+<p class="p">View the phpinfo.php page in your browser. In the <strong class="ph b">DOCUMENT_ROOT</strong> section, look<br />
+                                at the absolute path. It will look something like this:</p>
+<pre class="pre codeblock">
+/home2/idrathe1/public_html/
+                    </pre>
+<p class="p">Copy this path -- you will need in an upcoming step.</p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+                <span class="ph cmd">In WordPress, go to <span class="ph menucascade"><span class="ph uicontrol">Tools</span> &gt; <span class="ph uicontrol">Import</span></span> and click <span class="ph uicontrol">DITA help</span>. </span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">If you have a WP multisite, you have the option of selecting which site you<br />
+                        want to import content into. Select the site from the Application Area<br />
+                        selector. If you don't have WP Multisite, this drop-down doesn't appear. </span></p>
+<div class="itemgroup info">Note that with WP multisite imports, you always import content from your base<br />
+                            site's admin directory. That is, you go to<br />
+                                <samp class="ph codeph">your_base_wp_url/wp-admin</samp> directory to run the<br />
+                            import tool, rather than<br />
+                                <samp class="ph codeph">your_base_wp_url/subsite/wp-admin</samp> directory. Even<br />
+                            for a multisite network of hundreds of sites, you always import your<br />
+                            content from the same base site.</div>
+</li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Leave the two check boxes ("Do you want to clear...?") unchecked. You use these<br />
+                            to troubleshoot failed imports.</span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">In the DITA help directory field, insert the absolute path to your dita-staging folder that you copied earlier.<br />
+                </span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Import Files</span>. You will be prompted to move through<br />
+                        about 5 import screens, and with each screen you click a button at the<br />
+                        bottom to continue moving through the import.</span></p>
+<div class="itemgroup info">The import process is broken up into a series of steps to avoid memory issues<br />
+                        (which probably become more apparent with imports involving thousands of<br />
+                        files).</div>
+</li>
+</ol>
+<div class="section postreq">Look in the pages in your WordPress site, and you'll see that the content has been<br />
+                imported. Check your links and images to make sure they look right. If the links<br />
+                pointing to external pages aren't rendered correctly, look in your DITA source and<br />
+                make sure the links have <samp class="ph codeph">outputclass="external"</samp> added as an<br />
+                attribute.</div>
+</p></div>
+</div>
+<div class="topic task nested2" id="switch_themes">
+<h3 class="title topictitle3">Switch to 2012 theme</h3>
+<div class="body taskbody">
+<div class="section context">The 2014 theme is really awful (unless your favorite color is black).<br />
+                    Documentation looks a lot better with the more minimalist 2012 theme. I've<br />
+                    customized the 2012 theme a bit to make documentation look decent.</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                    <span class="ph cmd">In WordPress, go to <span class="ph menucascade"><span class="ph uicontrol">Appearance</span> &gt; <span class="ph uicontrol">Themes</span></span>.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Activate the 2012 theme. </span></p>
+<div class="itemgroup info">If the 2012 theme isn't there, you may need to search for it and install<br />
+                            it first. You can use other themes, of course. However, you will most<br />
+                            likely have to do a lot of CSS work to get the theme in shape.</div>
+</li>
+</ol></div>
+</p></div>
+<div class="topic task nested2" id="activate_permalinks">
+<h3 class="title topictitle3">Activate permalinks</h3>
+<div class="body taskbody">
+<div class="section context">You must activate permalinks in your WordPress site. This allows the links to resolve correctly.</div>
+<ol class="ol steps">
+<li class="li step">
+                    <span class="ph cmd">Go to <span class="ph menucascade"><span class="ph uicontrol">Settings</span> &gt; <span class="ph uicontrol">Permalinks.</span></span></span>
+                </li>
+<li class="li step">
+                    <span class="ph cmd">Click <span class="ph uicontrol">Post name</span>.</span>
+                </li>
+<li class="li step">
+                    <span class="ph cmd">Click <span class="ph uicontrol">Save changes</span>.</span>
+                </li>
+</ol>
+<div class="section postreq">
+<p class="p">Test your permalinks to make sure they work. Go to your default Hello World page and look at the URL. If the URL doesn't say hello-world or something similarly readable, permalinks aren't working.</p>
+<p class="p">If permalinks aren't working, and you're on a Linux server, go to /etc/httpd/conf<br />
+                    and edit your httpd.conf file. Edit AllowOverride None to <strong class="ph b">AllowOverride<br />
+                        All</strong> in the following two sections:</p>
+<pre class="pre codeblock"># AllowOverride controls what directives may be placed in .htaccess files.
+# It can be "All", "None", or any combination of the keywords:
+#   Options FileInfo AuthConfig Limit
+#
+    AllowOverride All     </pre>
+<p class="p">And here as well:</p>
+<pre class="pre codeblock">&lt;Directory /&gt;
+    Options FollowSymLinks
+    AllowOverride All
+&lt;/Directory&gt;            </pre>
+<p class="p">If you have to SSH via Terminal or command line to get at this file, you might<br />
+                        enjoy the Pico editor rather than the VI editor, which requires knowledge of<br />
+                        Linux commands to make simple edits.</p>
+</p></div>
+</p></div>
+</p></div>
+<div class="topic task nested2" id="disable_wpautop">
+<h3 class="title topictitle3">Disable wpautop</h3>
+<div class="body taskbody">
+<div class="section context">You'll need to disable wpautop (WordPress auto-paragraphing) to avoid odd line<br />
+                    breaks in your content. (If you want to disable it for some pages and enable it<br />
+                    for others, you can install a plugin called "wpautop control," but to simplify<br />
+                    things, I recommending just turning off wpautop entirely for the<br />
+                    site.)</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                    <span class="ph cmd">In WordPress, go to <span class="ph menucascade"><span class="ph uicontrol">Appearance</span> &gt; <span class="ph uicontrol">Editor</span></span>.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Click the <span class="ph uicontrol">functions.php</span> file and add the following<br />
+                            code at the absolute bottom of the file:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );                     </pre>
+</p></div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Save the page.</span>
+                </li>
+</ol>
+<div class="section result">Now when you write a page or post, you must include <samp class="ph codeph">p</samp> tags to<br />
+                    signal paragraph breaks.
+<p class="p">If your WordPress theme is suddenly blank, you<br />
+                        probably added incorrect syntax in your functions.php file. You need to FTP<br />
+                        into your wp-content/themes/twentytwelve directory, retrieve the<br />
+                        functions.php file, and undo what you did. (It's probably better to edit<br />
+                        files outside of the WordPress interface, but for small edits, it's more<br />
+                        convenient to work within WordPress.)</p>
+</div></div>
+</p></div>
+<div class="topic task nested2" id="disable_menus">
+<h3 class="title topictitle3">Create a basic menu</h3>
+<div class="body taskbody">
+<div class="section context">By default, all pages will appear in the WP menus. You don't want this, so you<br />
+                have to create a basic menu to replace the default behavior.</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                    <span class="ph cmd">Go to <span class="ph menucascade"><span class="ph uicontrol">Appearance</span> &gt; <span class="ph uicontrol">Menus</span></span>.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Type a name for the menu, such as <strong class="ph b">Home</strong>.</span></p>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Click <span class="ph uicontrol">Create Menu</span>.</span></p>
+<div class="itemgroup info">You can add pages to this menu if you want, such as a home or contact page.</div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Select the <span class="ph uicontrol">Primary Menu</span> location if you're using the 2012 theme.</span></p>
+<div class="itemgroup info">Different themes have different menu locations. If you're using a different theme, choose the location that corresponds to your primary menu.</div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Click <span class="ph uicontrol">Save Menu</span>.</span>
+                </li>
+</ol></div>
+</p></div>
+<div class="topic task nested2" id="creating_a_toc">
+<h3 class="title topictitle3">Create a table of contents</h3>
+<div class="body taskbody">
+<div class="section context">Remember that even though the DITA XHTML Import tool preserves the parent-child<br />
+                    hierarchy, it doesn't preserve the order among sibling pages. The best strategy<br />
+                    for creating navigation is to use the the generated index file (which is the<br />
+                    default table of contents created for the DITA XHTML output) as your TOC<br />
+                    (toc.html).
+<div class="note note"><span class="notetitle">Note:</span> Don't bother trying to manage your menu system<br />
+                        using WordPress' built-in menu feature. This will only consume a lot of time<br />
+                        and energy to keep up, since each time you change your DITA content<br />
+                        navigation, you'll have to also update the menu in WordPress. Trust me, you<br />
+                        want to avoid any tweaking to your content with each import.</div>
+<p class="p">There are probably a lot of ways to incorporate a menu in WordPress with this<br />
+                        DITA Import, but the method described here is what I think is the best way.<br />
+                        Basically you'll incorporate a jQuery accordion plugin that will read the<br />
+                        file structure of the toc.html file and apply a navigation menu. You'll pull<br />
+                        this page into a sidebar widget. Only the first import will require some<br />
+                        configuration -- you'll need to get the page ID and insert it into the<br />
+                        sidebar widget. With each subsequent import, you won't need to make any<br />
+                        adjustments.</p>
+</p></div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                    <span class="ph cmd">In the WordPress Dashboard, click the <span class="ph uicontrol">Pages</span> section<br />
+                            and open your <strong class="ph b">toc</strong> file. </span></p>
+<div class="itemgroup info">
+<div class="note note"><span class="notetitle">Note:</span> If you want to see more than 20 pages at a time, click<br />
+                                    <span class="ph uicontrol">Screen Options</span> in the upper-right and<br />
+                                change 20 to something like <strong class="ph b">100</strong>. Then click<br />
+                                    <span class="ph uicontrol">Apply</span>.</div>
+<p class="p">The toc file is your table of contents, and its name is the same as your<br />
+                                map file name. In other words, it won't say "toc." It will say<br />
+                                something like "DITA QRG." If you can't find it, go to<br />
+                                    <span class="ph filepath">&lt;your blog URL&gt;/toc</span> in your browser<br />
+                                and edit the page that way. </p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">While the page is in edit mode, look in the URL to find the page's ID. It<br />
+                            will be a number such as 5 or 46 or something. Remember it.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Install and activate the <a class="xref external" href="https://wordpress.org/plugins/php-code-widget/" target="_blank">PHP Code Widget plugin</a>.</span></p>
+<div class="itemgroup info">If you don't know how to install and activate a plugin, it's pretty easy.<br />
+                        Go to <span class="ph menucascade"><span class="ph uicontrol">Plugins</span> &gt; <span class="ph uicontrol">Add New</span></span>. In the Search Plugins field, type <strong class="ph b">PHP Code Widget</strong>.<br />
+                        Click <span class="ph uicontrol">Install Now</span> next to the right result. After it installs, click<br />
+                        <span class="ph uicontrol">Activate</span>.</div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Go to <span class="ph menucascade"><span class="ph uicontrol">Appearance</span> &gt; <span class="ph uicontrol">Widgets</span></span> and add a <strong class="ph b">PHP Code widget</strong> to your sidebar.</span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Add the following query to pull the toc page into a PHP Code widget:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock language-php">&lt;div id=<span class="hl-string" style="color:#2a00ff">"tocPage"</span>&gt;&lt;div <strong class="hl-keyword" style="color:#7f0055">class</strong>=<span class="hl-string" style="color:#2a00ff">"accordion clean"</span>&gt;
+<span class="hl-directive" style="color:#8b26c9">&lt;?php</span>
+$args = <strong class="hl-keyword" style="color:#7f0055">array</strong>( 
+<span class="hl-string" style="color:#2a00ff">'page_id'</span> =&gt; <span class="hl-number">104</span>,  
+);
+ 
+$the_query = <strong class="hl-keyword" style="color:#7f0055">new</strong> WP_Query( $args );
+ 
+<em class="hl-comment" style="color:#006400">// The Loop</em>
+<strong class="hl-keyword" style="color:#7f0055">if</strong> ( $the_query-&gt;have_posts() ) :
+<strong class="hl-keyword" style="color:#7f0055">while</strong> ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post();
+  the_content();
+<strong class="hl-keyword" style="color:#7f0055">endwhile</strong>;
+<strong class="hl-keyword" style="color:#7f0055">endif</strong>;
+ 
+<em class="hl-comment" style="color:#006400">// Reset Post Data</em>
+wp_reset_postdata();
+ 
+<span class="hl-directive" style="color:#8b26c9">?&gt;</span>
+&lt;/div&gt;
+&lt;/div&gt;      </pre>
+<p class="p">In this example, <samp class="ph codeph">104</samp> is the page ID of the toc page.<br />
+                                Update this ID to the actual ID of your page. The<br />
+                                    <samp class="ph codeph">tocPage</samp> ID <samp class="ph codeph">accordion clean<br />
+                                </samp>classes are essential for triggering the jQuery<br />
+                                scripts.</p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Remove the other widgets you don't want by dragging them away. </span>
+                </li>
+</ol>
+<div class="section postreq">Look at your site. The menu should be pulled in to the sidebar. No doubt you'll<br />
+                want to make the navigation collapsible. Fortunately, jQuery makes it pretty easy to<br />
+                do this. See the following section for details.</div>
+</p></div>
+</p></div>
+<div class="topic task nested2" id="make_navigation_collapsible">
+<h3 class="title topictitle3">Make the navigation collapsible</h3>
+<div class="body taskbody">
+<div class="section context">In this section, you'll incorporate a jQuery plugin called jQuery Vertical Accordion Menu plugin in order to get an accordion menu with a cookie (remembered state) for your navigation.</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                    <span class="ph cmd">Go to <a class="xref external" href="http://www.designchemical.com/lab/jquery-vertical-accordion-menu-plugin/getting-started/" target="_blank">JQUERY<br />
+                                VERTICAL ACCORDION MENU PLUGIN</a> on Design Chemical Premium<br />
+                            Plugins. In the upper-right (almost within the header itself), click<br />
+                                <span class="ph uicontrol">Download</span>.</span></p>
+<div class="itemgroup info">
+<div class="note note"><span class="notetitle">Note:</span> Even though you're implementing this jQuery plugin into WordPress, do not use the<br />
+                                WordPress version of this same plugin. The WordPress version of the<br />
+                                plugin will require you to create a menu in Wordpress, which is not<br />
+                                something that we can import through the DITA Import tool. If you<br />
+                                create a menu in WordPress, it will be out of sync with the DITA<br />
+                                content that you're importing.</div>
+</div>
+</li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">FTP into your <span class="ph filepath">wp-content/themes/twentytwelve </span>folder<br />
+                            and upload the Javascript and CSS files that you downloaded. You should<br />
+                            add the scripts to a folder called "js" and the styles to a folder<br />
+                            called "css". </span>
+                </li>
+<li class="li step stepexpand">
+                    <span class="ph cmd">Go to <span class="ph menucascade"><span class="ph uicontrol">Appearance</span> &gt; <span class="ph uicontrol">Editor</span></span> and edit your header.php file. Before the closing<br />
+                                <samp class="ph codeph">&lt;/head&gt;</samp> tag, add the following references to the<br />
+                            stylesheets and scripts:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">&lt;!-- accordion start --&gt;
+&lt;link href="&lt;?php echo get_template_directory_uri(); ?&gt;/css/dcaccordion.css" rel="stylesheet" type="text/css" /&gt;
+&lt;script type='text/javascript' src='&lt;?php echo get_template_directory_uri(); ?&gt;/js/jquery.cookie.js'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='&lt;?php echo get_template_directory_uri(); ?&gt;/js/jquery.hoverIntent.minified.js'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='&lt;?php echo get_template_directory_uri(); ?&gt;/js/jquery.dcjqaccordion.2.7.min.js'&gt;&lt;/script&gt;
+&lt;script&gt;
+jQuery(document).ready(function($) {
+
+ jQuery( "#tocPage ul:nth-child(1)" ).attr({
+  class: "accordion"
+});
+
+    jQuery('#tocPage ul:nth-child(1)').dcAccordion(
+{
+eventType: 'click',
+autoClose: false,
+saveState: true,
+disableLink: true,
+speed: 'fast'
+}
+);
+});
+&lt;/script&gt;
+&lt;link href="&lt;?php echo get_template_directory_uri(); ?&gt;/css/skins/clean.css" rel="stylesheet" type="text/css" /&gt;				
+&lt;!-- accordion end--&gt;
+                        </pre>
+<p class="p">If you read about the jQuery plugin, you'll see that I'm not using<br />
+                                    <samp class="ph codeph">#accordion</samp> to trigger the plugin. Why not?<br />
+                                Well, when the DITA OT converts the ditamap to an index file, it<br />
+                                strips away all classes. In other tutorials (such as the <a class="xref" href="/jquery_side_panel" title="You can add a sliding side panel that appears when someone clicks a link. This is particularly useful for code samples where you want to elaborate more with comments but don't have the space to do so.">DITA: Add an expanding side pane (Sidr)</a>), I explained how you can edit<br />
+                                certain source files in OxygenXML to allow classes to pass through.<br />
+                                Unfortunately, these same edits don't affect the classes in the<br />
+                                ditamap. No worries, though. We select the right element through a<br />
+                                child combinator selection (<samp class="ph codeph">#tocPage<br />
+                                    ul:nth-child(1)</samp>). This selects the first list that<br />
+                                appears after the <samp class="ph codeph">#tocPage</samp> ID.</p>
+<p class="p">Also note that if you read about the options available in the jQuery plugin, you'll see that I've specified some here: </p>
+<pre class="pre codeblock">eventType: 'click',
+autoClose: true,
+saveState: true,
+disableLink: true,
+speed: 'fast'                      </pre>
+<p class="p">Of note here are the <samp class="ph codeph">saveState</samp> and <samp class="ph codeph">autoClose</samp> options. The<br />
+                                    <samp class="ph codeph">saveState</samp> option means when a user opens a menu<br />
+                                and reloads the page, or actually goes to the page (meaning the site<br />
+                                reloads), that menu stays open. You want this<br />
+                                    <samp class="ph codeph">saveState</samp> option set to <samp class="ph codeph">true</samp><br />
+                                so the user knows where he or she is at in the nav menu. (The<br />
+                                jquery.cookie.js file allows for the <samp class="ph codeph">saveState</samp><br />
+                                option to work.)</p>
+<p class="p">The <samp class="ph codeph">autoClose</samp> option determines whether the other<br />
+                            sections close when you open another section (the accordion feature).<br />
+                            Traditional accordions close other sections when you navigate them. I<br />
+                            think leaving each section open makes the TOC menu look too big. You can<br />
+                            read the Design Chemic documentation for the plugin to see what the<br />
+                            other options control.</p>
+<div class="p">
+<div class="note note"><span class="notetitle">Note:</span> Unfortunately there's a glitch with the TOC that I didn't<br />
+                                    realize. If you click a link in a topic that opens another<br />
+                                    topic, that newly opened topic isn't automatically highlighted<br />
+                                    in the TOC.</div>
+</p></div>
+</p></div>
+</li>
+</ol></div>
+</p></div>
+<div class="topic task nested2" id="set_homepage">
+<h3 class="title topictitle3">Set your homepage as your intro page</h3>
+<div class="body taskbody">
+<div class="section context">By default, your homepage in WordPress will be your latest posts. You can<br />
+                change this to be a specific page.</div>
+<ol class="ol steps">
+<li class="li step">
+                    <span class="ph cmd">Go to <span class="ph menucascade"><span class="ph uicontrol">Settings</span> &gt; <span class="ph uicontrol">Reading</span></span>.</span>
+                </li>
+<li class="li step">
+                    <span class="ph cmd">In the <span class="ph uicontrol">Front Page Displays </span>section, select a<br />
+                                <span class="ph uicontrol">A Static page</span>. Then select the static page<br />
+                            you want, such as your help overview page.</span>
+                </li>
+<li class="li step">
+                    <span class="ph cmd">If you want your blog posts to appear on another page, create a new page on your blog called "News" or something. Then return to this section and select the News page for your Posts page.</span>
+                </li>
+</ol></div>
+</p></div>
+<div class="topic task nested2" id="turn_off_revisions">
+<h3 class="title topictitle3">Turn off revisions</h3>
+<div class="body taskbody">
+<div class="section context">
+<p class="p">You want to turn off revisions so that each time you import content, WordPress doesn't keep<br />
+                        adding revisions. I'm not entirely sure, but I think if you keep adding<br />
+                        revisions, you soon begin to see a ton of guid updates for each revision in<br />
+                        the system. At any rate, you don't want to unnecessarily increase the size<br />
+                        of your database anyway.</p>
+<p class="p">It's much better if you simply turn off the revision feature in WordPress. You<br />
+                        aren't storing your content here anyway. You're uploading it and overwriting<br />
+                        it with each upload. Your source DITA content should be stored in a version<br />
+                        control repository such as github, subversion, or mercurial. </p>
+<div class="p">To turn off revisions in WordPress, add this in your wp-config.php file (which is<br />
+                        in your WordPress root<br />
+                        directory).
+<pre class="pre codeblock">define( 'WP_POST_REVISIONS', 0 );                </pre>
+</div></div>
+</p></div>
+</p></div>
+<div class="topic task nested2" id="get_styles">
+<h3 class="title topictitle3">Get the latest styles</h3>
+<div class="body taskbody">
+<div class="section context">
+<p class="p">When you transform DITA into HTML, the OT inserts a lot of classes into the<br />
+                        various elements. This allows you to style your content through a CSS file<br />
+                        that addresses those classes. I've added a number of classes to both the Twenty Twelve theme and the jQuery navigation plugin that correspond with these classes. </p>
+<p class="p">Because I'm still tweaking the styles of this site, just grab the latest styles from my<br />
+                        wpdita site and copy them into your site's stylesheets. </p>
+</p></div>
+<p class="li stepsection">To get the latest styles:</p>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                        <span class="ph cmd">Go to<br />
+                            <a class="xref external" href="http://idratherbewriting.com/wpdita" target="_blank">http://idratherbewriting.com/wpdita/</a>, right-click, and choose <span class="ph uicontrol">View Page Source</span> (this is the option in Chrome; it may vary for other browsers). Search for <strong class="ph b">styles.css</strong> and then click it.</span></p>
+</li>
+<li class="li step stepexpand">
+                        <span class="ph cmd">Search for <strong class="ph b">tom's styles</strong>. Copy everything below this point.</span></p>
+<div class="itemgroup info">These are all the styles I've customized. Unfortunately, I haven't organized them very well. I mostly just add them as needed as I go along...</div>
+</li>
+<li class="li step stepexpand">
+                        <span class="ph cmd">In your WordPress site, go to <span class="ph menucascade"><span class="ph uicontrol">Appearance</span> &gt; <span class="ph uicontrol">Editor</span></span>.</span></p>
+<div class="itemgroup info">By default, the style.css file should load in your theme editor.</div>
+</li>
+<li class="li step stepexpand">
+                        <span class="ph cmd">Scroll to the bottom, insert the "tom's styles" content that you<br />
+                            copied, and then save the file.</span></p>
+<div class="itemgroup info">You could also create a child theme, but since the WP 2012 theme isn't something that you'll probably be updating regularly apart from the custom theme, there's little reason to do this.</div>
+</li>
+<li class="li step stepexpand">
+                        <span class="ph cmd">Grab the styles for the navigation skin ("clean.css") by following the same process you followed to get to styles.css. Copy the files in clean.css.</span></p>
+<div class="itemgroup info">Unfortunately you can't edit clean.css by browsing to it within your WordPress theme editor.</div>
+</li>
+<li class="li step stepexpand">
+                        <span class="ph cmd">Using FTP, go to<br />
+                                <span class="ph filepath">wp-content/themes/twentytwelve/css/skins</span> and<br />
+                            download the <strong class="ph b">clean.css </strong>file.</span>
+                    </li>
+<li class="li step stepexpand">
+                        <span class="ph cmd">Replace the contents with the styles you copied and reupload, overwriting the previous file.</span>
+                    </li>
+</ol></div>
+</p></div>
+<div class="topic task nested2" id="autotoc">
+<h3 class="title topictitle3">Add an auto-toc on pages</h3>
+<div class="body taskbody">
+<div class="section context">If you start to nest tasks or concepts in each other, your pages will get long. It's a standard practice to put a Table of Contents menu at the top of a page to allow users to preview what the page contains and to quickly jump to any heading. You can add this functionality easily through the Table of Contents Plus plugin.</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+                            <span class="ph cmd">Add the <a class="xref external" href="https://wordpress.org/plugins/table-of-contents-plus/" target="_blank">Table of Contents Plus</a> plugin.</span>
+                        </li>
+<li class="li step stepexpand">
+                            <span class="ph cmd">Go to <span class="ph menucascade"><span class="ph uicontrol">Settings</span> &gt; <span class="ph uicontrol">TOC+</span></span>.</span>
+                        </li>
+<li class="li step stepexpand">
+                            <span class="ph cmd">Configure any settings you want, and then click <span class="ph uicontrol">Update Options</span>.</span></p>
+<div class="itemgroup info">You may be tempted to choose <span class="ph uicontrol">Top</span> for the<br />
+                            Position. However, note that if you choose this, the Table of Contents<br />
+                            will jump past your introduction if the user clicks the first heading in<br />
+                            the content menu. That's why it's probably better to choose<br />
+                                <span class="ph uicontrol">Before first heading (default)</span>. This is the<br />
+                            same style that Wikipedia uses.</div>
+</li>
+</ol></div>
+</p></div>
+</p></div>

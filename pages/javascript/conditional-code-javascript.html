@@ -1,0 +1,149 @@
+---
+layout: page
+title: 'JavaScript: Conditional Code'
+permalink: /conditional-code-javascript/
+date: 2013-02-02 16:48:44.000000000 -08:00
+categories:
+- javascript
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _tcc-pps-replace: primary
+  _wp_page_template: default
+  layout: two-col-left
+  _syntaxhighlighter_encoded: '1'
+  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
+  _wp_rp_image: empty
+  _spost_short_title: ''
+  _series_part: '3'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:17:"84.05793849906102";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"56.41183710430203";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:18:"51.612725421648605";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:18:"45.894042062988746";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:18:"45.894042062988746";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13750";s:5:"score";s:17:"45.35751408978777";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:18:"45.040601937181144";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:17:"42.18625956228483";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"42.18625956228483";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13644";s:5:"score";s:17:"38.04629411877408";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13601";s:5:"score";s:17:"38.04629411877408";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:15:"35.931048230424";}}
+  dsq_thread_id: '3780937919'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>You can start building more complex JavaScript statements by using conditional code. The conditional code allows you to ask if a condition is met. If the condition is met, a certain code block is run. If the condition isn't met, a different code block is run. The answer to the condition must always be a yes or no answer.</p>
+<h2>Conditional Code Format</h2>
+<p>Here's the format of the conditional code:</p>
+<p>[js]//begin with an if statement<br />
+if  ( condition ) {<br />
+//insert code to run ...<br />
+alert(&quot;Hello World&quot;);<br />
+//otherwise, run this code<br />
+} else {<br />
+//end the code block<br />
+}[/js]</p>
+<p>The statement begins with <code>if</code> followed by a condition in parentheses. After the condition, the code block is run. Code blocks are contained within curly braces <code>{ }</code>. The <code>else</code> means "if the previous condition isn't met, do this instead," or more simply, "Otherwise."</p>
+<p>Here's an example with some information:</p>
+<p>[js]//first declare a variable<br />
+var a = 100;<br />
+//state an if condition<br />
+if ( a &gt; 100 ) {<br />
+//if true, then run this command<br />
+alert(&quot;Hello&quot;);<br />
+//if the condition isn't met, do this:<br />
+} else {<br />
+alert(&quot;Goodbye&quot;);<br />
+}[/js]</p>
+<h2>Conditional Operators</h2>
+<p>In the condition statement, you can use a variety of operators to ask questions:</p>
+<p>[js]if ( a == b) // if a is equal to b<br />
+if ( a !=b ) // if a is not equal to b<br />
+if ( a &gt; b ) // if a is greater than b<br />
+if ( a &lt; b ) // if a is less than b<br />
+if ( a &gt;= b ) // if a is greater than or equal to b<br />
+if ( a &lt;= b )// if a is less than or equal to b[/js]</p>
+<h2>Equals Signs</h2>
+<p>Note that the equals operator is two equals signs <code>==</code>, not one. When you set the value of a variable, you use one equals sign <code>=</code>. One equals sign means "assign as" whereas two equals signs means "equals".</p>
+<p>There's also a triple equals sign <code>===</code>, which means "is strictly equal to." This is a more formal way of checking conditions. For example, if you have a variable that's a number, such as <code>var a = 10</code>, and another variable that's a string, such as <code>var a = "10"</code>, the two variables are different types of variables and therefore aren't "strictly" equal, even though they're the same.</p>
+<h2>Nested Conditions</h2>
+<p>You can nest multiple conditions. A nested condition looks like this:</p>
+<p>[js]if  ( condition ) {<br />
+//run some code...<br />
+} else {<br />
+if  ( condition ) {<br />
+//run some code...<br />
+} else {<br />
+// otherwise, run this code<br />
+}[/js]</p>
+<p>Usually you don't nest more than a couple of condition levels, so that the code doesn't become too complicated.</p>
+<h2>And/Or Operators</h2>
+<p>You can create more advanced conditions by including <code>&amp;&amp;</code> (and) or <code>||</code> (or) operators. Here's an example of the "and" operator:</p>
+<p>[js]//if a is equal to b and a is equal to c<br />
+if ( a == b &amp;&amp; a == c )[/js]</p>
+<p>Here's an example with "or" operator:</p>
+<p>[js]//if a is equal to be or a is equal to c<br />
+if ( a == b || a == c )[/js]</p>
+<p>For clarity, you can surround the conditions in their own parentheses, like this:</p>
+<p>[js]if ( (a == b) &amp;&amp; (a == c) )[/js]</p>
+<p>Just remember that you always need both opening and closing parentheses. And just as with more simple conditional statements, the answer needs to be either yes or no.</p>
+<h2>Arithmetic Operators</h2>
+<p>You can use a variety of arithmetic operators:</p>
+<p>[js]+ // add<br />
+- //subtract<br />
+* //multiple<br />
+/ //divide<br />
+% // the remainder (the % is called a modulus)[/js]</p>
+<p>Here's an example:</p>
+<p>[js]if ( a + b == 100)[/js]</p>
+<p>This is pretty straightforward: if a plus b is equal to 100. However, when you combine multiple arithmetic operators, JavaScript runs multiplication and division first, and then addition and subtraction. This prioritization is called "operator precedence." So if the operation is the following:</p>
+<p>[js]( 2 + 2 * 12 )[/js]</p>
+<p>The result will be 26 rather than 48. You multiply 12 * 2 to get 24, and then add 2 to get 26.</p>
+<p>To specify that the addition or subtraction runs first, you can surround it in parentheses:</p>
+<p>[js] ( (2+2) * 12 )[/js]</p>
+<p>Now the result will be 48.</p>
+<h2>The Remainder Operator</h2>
+<p>The remainder operator refers to what's left over when a number doesn't divide evenly into another number. Here's an example of the remainder operator in action:</p>
+<p>[js]//set a variable<br />
+var year = 2010;<br />
+//set a variable to be the days left over after<br />
+//dividing the year by 4<br />
+var excess = year % 4[/js]</p>
+<p>The value for the remainder would be 2. This is because 4 goes into 2010 (the year) 502 times, with a remainder of 2.</p>
+<h2>Arithmetic Shorthand</h2>
+<p>Because arithmetic operators are used so frequently, there's a shorthand way of writing them. When you see <code>+=</code>, it means to add the number that follows to the variable. Conversely, <code>-=</code> means subtract the number from the variable, and so on.</p>
+<p>The following are the long and short ways of writing the same operators:</p>
+<p>[js]score = score + 10; // the long way<br />
+score += 10; // the short way</p>
+<p>score = score - 10; // the long way<br />
+score -= 10; // the short way</p>
+<p>score = score * 10; // the long way<br />
+score *= 10; // the short way</p>
+<p>score = score / 10; // the long way<br />
+score /= 10; // the short way[/js]</p>
+<h2>Unary (<code>++</code>) Operators</h2>
+<p>There's another shorthand for arithmetic operators: <code>++</code> is called a unary operator. When you add <code>++</code> with a variable, it means to increment the variable by 1. Similarly, if you add <code>--</code>, it means decrease the variable by 1. Here are a few examples:</p>
+<p>[js]a = a + 1; // the long way of writing it<br />
+a += 1; // a shorter way<br />
+a ++; // an even shorter way<br />
+a++; // even shorter<br />
+++a; // also acceptable and means the same thing.[/js]</p>
+<h2>Ternary Operators</h2>
+<p>There's one more shorthand operator to mention. A ternary operator has three components and reduces what would otherwise occupy several lines of code into just one line. Rather than writing out:</p>
+<p>[js]//declare some variables<br />
+var a = 500;<br />
+var b = 600;<br />
+var highScore;<br />
+//state an if condition<br />
+if ( a &gt; b ) {<br />
+//run some code<br />
+highScore = a;<br />
+//otherwise run this code<br />
+ } else {<br />
+highScore = b;<br />
+}[/js]</p>
+<p>You can compress this into a couple of lines in the following format:</p>
+<p>[js]condition ? true : false[/js]</p>
+<p>After stating the condition, add a question mark <code>?</code>. After the question mark, write what should happen if the condition is true; then add a colon. On the right of the colon, write what should happen if the condition is false.</p>
+<p>Here's how the ternary operator would be written using the previous example:</p>
+<p>[js]var a = 500; b = 600;<br />
+var highScore = ( a &gt; b ) ? highScore = a : b;[/js]</p>
+<p>In other words, if <code>a</code> is greater than <code>b</code>, assign the <code>highScore</code> variable as <code>a</code>. If it's not, assign the <code>highScore</code> variable as <code>b</code>.</p>

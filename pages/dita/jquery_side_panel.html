@@ -1,0 +1,448 @@
+---
+layout: page
+title: 'DITA: Add an expanding side pane (Sidr)'
+permalink: /jquery_side_panel/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+  _wpcom_is_markdown: '1'
+  _wp_page_template: default
+  _edit_last: '91'
+  dsq_thread_id: '3774060594'
+author:
+  login: 3rabbitz
+  email: 3rabbitz@idratherbewriting.com
+  display_name: 3Rabbitz
+  first_name: 3Rabbitz
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Add an expanding side pane (Sidr)</h1>
+<div class="body taskbody">
+<p class="shortdesc">You can add a sliding side panel that appears when someone clicks a link. This is particularly useful for code samples where you want to elaborate more with comments but don't have the space to do so.</p>
+<div class="section context">
+<p class="p">For a demo of this functionality, see <a class="xref external" href="http://idratherbewriting.com/wp-content/uploads/oxygendemos/sidr/" target="_blank">the Sidr pane demo here</a>.</p>
+<p class="p">Although there are a variety of jQuery sidebar plugins, the <a class="xref" href="http://www.berriart.com/sidr/" target="_blank">Sidr</a> works pretty well. It allows you to easily call different menus, and arrange the panel to appear on the left or right. The original purpose of Sidr was to act as a menu for mobile devices that don't have much screen real estate, but it works well in other situations too.</p>
+<p class="p">The particular scenario where I think this functionality is critical is with code<br />
+         samples. With code samples, you're limited to about 2 lines of comments per 5-10<br />
+         lines of code. But a lot of the stuff that's going on in code is really complicated<br />
+         and warrants more extensive elaboration. This is where the side panel comes in<br />
+         really handy. You can elaborate as much as you want in the expanding side<br />
+         panels.
+      </p>
+<p class="p">Integrating this plugin permanently alters the OxygenXML webhelp (though not visible,<br />
+         just in the scripts that are loaded and source code IDs) so make a backup of your<br />
+         files before committing changes. Also, the method described below is just one way of<br />
+         integrating the plugin, not the only way.
+      </p>
+<p class="p toc">
+</p></div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+</p></div>
+</div>
+<div class="topic task nested1" id="integrate_sidr">
+<h2 class="title topictitle2">Integrate Sidr into OxygenXML</h2>
+<div class="body taskbody">
+<p class="li stepsection">To integrate the Sidr plugin into OxygenXML:</p>
+<ol class="ol steps">
+<li class="li step stepexpand">
+            <span class="ph cmd">Go to the <a class="xref external" href="http://www.berriart.com/sidr/" target="_blank">http://www.berriart.com/sidr/</a> and click the <span class="ph uicontrol">Download</span> button.</span>
+         </li>
+<li class="li step stepexpand">
+            <span class="ph cmd">From the downloaded zip file, open the jquery.sidr.min.js file and copy its contents. </span></p>
+<div class="itemgroup info">The CSS file is minified. If you paste it into Oxygen and then click the<br />
+               format/indent button, it will de-minify the file.
+            </div>
+</li>
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the JavaScript file located here: <span class="ph filepath">[Oxygen Install<br />
+            Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js/webhelp_topic.js</span>.</span>
+         </li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Insert the copied script at the bottom right before the closing <samp class="ph codeph">});</samp>.</span></p>
+<div class="itemgroup info">
+<div class="note tip"><span class="tiptitle">Tip:</span> Create a shortcut to this folder location -- you'll be updating this file a lot<br />
+                  since each of the menus require individual names and triggers. On a Mac, you can create a shortcut in the Finder by dragging a folder into the Finder's sidebar.
+               </div>
+</p></div>
+</li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Open one of the CSS files, such as jquery.sidr.light.css and copy its contents. </span>
+         </li>
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the CSS file located here: <span class="ph filepath">[Oxygen Install<br />
+            Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/css/webhelp_topic.css</span>.</span>
+         </li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Insert the styles near the bottom of the stylesheet. </span></p>
+<div class="itemgroup info">
+<div class="note tip"><span class="tiptitle">Tip:</span> Create a shortcut to this folder location just like with the .js file. You'll<br />
+                  probably edit your CSS styles a lot.
+               </div>
+</p></div>
+</li>
+<li class="li step stepexpand">
+            <span class="ph cmd">If desired, you can add some more styles to customize the side pane display.<br />
+            Much of the default styling is for a navigation menu. This means if you add<br />
+            <samp class="ph codeph">ul</samp> and <samp class="ph codeph">li</samp> tags, your content will look<br />
+            like a navigation menu rather than a list, so you may want remove some of<br />
+            the unncessary styles. Additionally, you may want to add a few styles of<br />
+            your own. Here are some styles I've added:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock language-css">
+.sidr{
+    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:whitesmoke;
+    box-shadow:none;
+}
+.closeMe {
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
+}
+.sidr &gt; .closeMe{
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>:block;
+    <strong class="hl-keyword" style="color:#7f0055">padding</strong>:<span class="hl-number">5</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:whitesmoke;
+    <strong class="hl-keyword" style="color:#7f0055">border</strong>:<span class="hl-number">1</span>px solid #C0C0C0;
+    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">11</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">float</strong>:<strong class="hl-keyword" style="color:#7f0055">right</strong>;
+    <strong class="hl-keyword" style="color:#7f0055">margin-right</strong>:<span class="hl-number">5</span>px;
+}
+
+.closeMe:hover{
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
+}
+
+.sidr &gt; .closeMe:hover{
+    <strong class="hl-keyword" style="color:#7f0055">display</strong>:block;
+    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:#F5F5F5;
+}
+
+div.sidr h2.sectiontitle {
+    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">15</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>: whitesmoke;
+}
+
+.sidr p.sphead {
+    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">14</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">font-weight</strong>:bold;
+    <strong class="hl-keyword" style="color:#7f0055">padding-top</strong>:<span class="hl-number">12</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">padding-bottom</strong>:<span class="hl-number">3</span>px;
+}
+
+p.sphead {
+    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">16</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">padding-top</strong>:<span class="hl-number">12</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">padding-bottom</strong>:<span class="hl-number">3</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>: #<span class="hl-number">444</span>;
+}
+.codeblock a{
+    <strong class="hl-keyword" style="color:#7f0055">font-style</strong>:italic;
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>:#<span class="hl-number">458</span>B00;
+}
+
+.codeblock a:hover{
+    <strong class="hl-keyword" style="color:#7f0055">color</strong>:#<span class="hl-number">78</span>AB46;
+}
+
+pre{
+    <strong class="hl-keyword" style="color:#7f0055">padding</strong>:<span class="hl-number">0.5</span>em;
+    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:#EEE;
+    <strong class="hl-keyword" style="color:#7f0055">overflow</strong>:auto;
+    <strong class="hl-keyword" style="color:#7f0055">max-height</strong>:<span class="hl-number">2000</span>px;
+    <strong class="hl-keyword" style="color:#7f0055">margin</strong>:<span class="hl-number">0.5</span>em;
+}
+                    </pre>
+<p class="p">The <samp class="ph codeph">closeMe</samp> style is for a close button that will appear at<br />
+                  the bottom of the pane. The <samp class="ph codeph">p.sphead</samp> style is for a<br />
+                  section subheading style. Note that even though you will later be giving<br />
+                  custom names to your side panels, the script will always inject<br />
+                  <samp class="ph codeph">sidr</samp> as a class into the panel. The other styling<br />
+                  is for links inside <samp class="ph codeph">codeblock</samp> elements. Also, since I<br />
+                  intend to document long code blocks with this method, I wanted to<br />
+                  lengthen the code block area beyond the default 600px (otherwise for<br />
+                  code longer than 600px you have to use scroll bars to see the full<br />
+                  content).
+               </p>
+</p></div>
+</li>
+</ol></div>
+</div>
+<div class="topic task nested1" id="allow_id">
+<h2 class="title topictitle2">Allow IDs to pass through</h2>
+<div class="body taskbody">
+<div class="section context">By default, attributes you add to content, such as <samp class="ph codeph">id="sidepanel_1"</samp> won't<br />
+         appear in DITA's webhelp output (they're stripped out entirely). We need to hack<br />
+         Oxygen's webhelp files to allow these tags to pass through.
+      </div>
+<ol class="ol steps">
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the file located here: <span class="ph filepath">[Oxygen Install<br />
+            Directory]/frameworks/dita/DITA-OT/plugins/org.dita.xhtml/xsl/xslhtml/dita2htmllmpl.xsl</span>.</span>
+         </li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Find the line that begins <samp class="ph codeph">&lt;xsl:template name="commonattributes"&gt;</samp> and<br />
+            replace that section with the following:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+  &lt;xsl:template name="commonattributes"&gt;
+    &lt;xsl:param name="default-output-class"/&gt;
+    &lt;xsl:apply-templates select="@xml:lang"/&gt;
+    &lt;xsl:apply-templates select="@dir"/&gt;
+    &lt;xsl:apply-templates select="*[contains(@class, ' 
+      ditaot-d/ditaval-startprop ')]/@outputclass" mode="add-ditaval-style"/&gt;
+    &lt;xsl:apply-templates select="." mode="set-output-class"&gt;
+      &lt;xsl:with-param name="default" select="$default-output-class"/&gt;
+    &lt;/xsl:apply-templates&gt;
+    &lt;xsl:if test="@audience"&gt;
+      &lt;xsl:attribute name="data-audience"&gt;&lt;xsl:value-of 
+        select="@audience"/&gt;&lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+    &lt;xsl:if test="@platform"&gt;
+      &lt;xsl:attribute name="data-platform"&gt;&lt;xsl:value-of 
+        select="@platform"/&gt;&lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+    &lt;xsl:if test="@id"&gt;
+      &lt;xsl:attribute name="id"&gt;&lt;xsl:value-of 
+        select="@id"/&gt;&lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+  &lt;/xsl:template&gt;
+     </pre>
+<p class="p">This will allow the <samp class="ph codeph">platform</samp>, <samp class="ph codeph">audience</samp>, and<br />
+                  <samp class="ph codeph">id</samp> attributes to pass through as attributes in the<br />
+                  output (so you can leverage them). Without these attributes in the<br />
+                  output, you won't be able to select the content. You can add other<br />
+                  attributes that you want to pass through here as well (such as<br />
+                  <samp class="ph codeph">product</samp>) depending on what you plan to use.
+               </p>
+<p class="p">Note that in the future, this hack may be unnecessary. The ditaval file<br />
+                  allows you to add a <samp class="ph codeph">passthrough</samp> attribute to elements,<br />
+                  but this attribute does not work in Oxygen's webhelp output.
+               </p>
+</p></div>
+</li>
+</ol></div>
+</div>
+<div class="topic task nested1" id="js_file">
+<h2 class="title topictitle2">Add functions to trigger Sidr</h2>
+<div class="body taskbody">
+<div class="section context">Now you need to add some functions to your webhelp_topic.js file to trigger the<br />
+         Sidr plugin to open the side panel.
+      </div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+            <span class="ph cmd">Add the following functions to your webhelp_topic.js file (located here: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js/webhelp_topic.js</span>): </span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock language-javascript">
+$(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_1'</span>).sidr( {
+    name:<span class="hl-string" style="color:#2a00ff">'fullcode__demo_sidepanel_1'</span>,
+    side:<span class="hl-string" style="color:#2a00ff">'left'</span>
+    });
+    
+$(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_2'</span>).sidr( {
+    name:<span class="hl-string" style="color:#2a00ff">'fullcode__demo_sidepanel_2'</span>,
+    side:<span class="hl-string" style="color:#2a00ff">'left'</span>
+    });
+                </pre>
+<p class="p">The <samp class="ph codeph"> $('.demo_sidepanel_1').sidr()</samp> means that we are binding the<br />
+                  <samp class="ph codeph">sidr</samp> function to an element that has a class of<br />
+                  <samp class="ph codeph">demo_sidepanel_1</samp>. You can pass the<br />
+                  <samp class="ph codeph">sidr</samp> function a variety of parameters, but for the<br />
+                  most part you need only to specify the side panel <samp class="ph codeph">name</samp><br />
+                  that you want to open. (By default, the panel already opens on the left.<br />
+                  I made this parameter explicit as an example of how to pass multiple<br />
+                  parameters into the function.)
+               </p>
+<p class="p">The panel name is the element ID of the section you want to display in the side<br />
+                  panel. I'll explain this a bit more later, but note that "fullcode" is<br />
+                  the topic ID of the page where the side panel appears. Although later in<br />
+                  the code you will see that the section ID in the topic is merely<br />
+                  "demo_sidepanel_1", upon rendering the webhelp, DITA adds the topic ID<br />
+                  (in my sample, the topic ID is <samp class="ph codeph">fullcode</samp>) before the<br />
+                  section name. DITA does this for the <samp class="ph codeph">section</samp> element<br />
+                  but not others (not sure why -- <samp class="ph codeph">section</samp> is just<br />
+                  special).
+               </p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Add the following closing scripts to the same webhelp_topic.js file. These functions close the side panel.</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+$('.close_demo_sidepanel_1').click(function(event) {
+event.preventDefault();
+  $.sidr('close', 'fullcode__demo_sidepanel_1');
+});
+
+$('.close_demo_sidepanel_2').click(function(event) {
+event.preventDefault();
+  $.sidr('close', 'fullcode__demo_sidepanel_2');
+});
+            </pre>
+<p class="p">In this code, a click event is bound to an element with the<br />
+                  <samp class="ph codeph">close_demo_sidebar_1</samp> class. The<br />
+                  <samp class="ph codeph">event.preventDefault()</samp> keeps the code from trying<br />
+                  to open a new window and instead allows the <samp class="ph codeph">sidr</samp><br />
+                  function to fire. Two arguments are passed to the <samp class="ph codeph">sidr</samp><br />
+                  function: the method we want the function to run:<br />
+                  <samp class="ph codeph">close</samp>, and the name of the side panel we want to close:<br />
+                  <samp class="ph codeph">demo_sidepanel_1</samp>.
+               </p>
+<p class="p">By the way, the panel names (<samp class="ph codeph">fullcode__demo_sidepanel_1</samp>) and<br />
+                  classes (<samp class="ph codeph">.demo_sidepanel_1</samp>) are completely customizable<br />
+                  -- they're just what I've chosen to integrate for this demo.
+               </p>
+<p class="p">Note that the selector is a class rather than an ID. This is because when<br />
+                  you transclude topics in DITA, the ID on the transcluded source gets<br />
+                  changed when it is pulled into the transcluded target. Fortunately the<br />
+                  DITA OT leaves the classes alone.
+               </p>
+</p></div>
+</li>
+</ol></div>
+</div>
+<div class="topic task nested1" id="topic_code">
+<h2 class="title topictitle2">Add content in your topic</h2>
+<div class="body taskbody">
+<div class="section context">Now it's time to start adding your panel content in a DITA topic.</div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+            <span class="ph cmd">Create a DITA concept topic and insert some triggers inside a code block like this:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+ &lt;section&gt;
+    &lt;codeblock&gt;
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     
+     // this is a comment with a brief explanation. &lt;xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_1"&gt; &amp;#187; more&lt;/xref&gt;
+     
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+     this is some code
+         // this is a comment with a brief explanation. &lt;xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_2"&gt;&amp;#187; more&lt;/xref&gt;          
+                </pre>
+<p>               It's<br />
+               important to note a few things here. For links in the codeblock, you can't<br />
+               use <samp class="ph codeph">#</samp> for the <samp class="ph codeph">href</samp> target, so use<br />
+               <samp class="ph codeph">javascript();</samp>. (If your page ever fails to open the<br />
+               side pane but rather tries to open a new tab at<br />
+               <samp class="ph codeph">javascript();</samp>, then you know something isn't working<br />
+               right in the way the script is triggered.) </p>
+<p class="p">With each link, you must add<br />
+                  the <samp class="ph codeph">outputclass</samp> that correlates with the side panel<br />
+                  name you want to open. In this example, the link with the class of<br />
+                  <samp class="ph codeph">demo_sidepanel_1</samp> will open the element with the ID<br />
+                  name of <samp class="ph codeph">fullcode__sidepanel_1</samp>. The class and ID don't<br />
+                  need to be the same -- you could have link with a class of<br />
+                  <samp class="ph codeph">tom</samp> that opens a panel named<br />
+                  <samp class="ph codeph">awesome</samp>, but just be sure you have these names set<br />
+                  up in your webhelp_topic.js file. It depends on how you set up the<br />
+                  triggers and menus in the jQuery scripts that you configured<br />
+                  previously.
+               </p>
+<p class="p">(In fact, now might be a good time to review the scripts you added in<br />
+                  previous steps to the webhelp_topic.js file to get a better<br />
+                  understanding of how this all fits together.)
+               </p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Add the following for your side panel content:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">  &lt;section id="demo_sidepanel_1"&gt;&lt;title&gt;Side panel 1&lt;/title&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.&lt;/p&gt;
+      &lt;p&gt;Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.&lt;/p&gt;
+      &lt;p outputclass="sphead"&gt;Subhead&lt;/p&gt;
+      &lt;p&gt;Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. &lt;/p&gt;
+      &lt;p&gt;Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.&lt;/p&gt;
+      &lt;xref href="javascript();" scope="external" format="html" outputclass="closeMe" id="close_demo_sidepanel_1"&gt;Close&lt;/xref&gt;
+      
+     &lt;/section&gt;                        </pre>
+<p class="p">Here we add an ID attribute to the <samp class="ph codeph">section</samp> element. Note<br />
+                  that the menu name in the jQuery scripts is<br />
+                  <samp class="ph codeph">fullcode_demo_sidepanel_1</samp>, but the ID here is just<br />
+                  written as <samp class="ph codeph">demo_sidepanel_1</samp>. This is because the DITA<br />
+                  OT will automatically prepend the topic ID and two underscores before<br />
+                  the section ID. My topic ID happens to be <samp class="ph codeph">fullcode</samp>, so<br />
+                  that's why the jQuery scripts will look for<br />
+                  <samp class="ph codeph">fullcode__demo_sidepanel_1</samp> as the name of the<br />
+                  sidepanel instead of just <samp class="ph codeph">demo_sidepanel_1</samp>. Again, I<br />
+                  have no idea why the DITA OT does this.
+               </p>
+<p class="p">Render your content into webhelp and experiment with the trigger. If the<br />
+                  link opens up a new page, it's because something isn't configured right.<br />
+                  Usually it means the class on the more link doesn't align with the<br />
+                  selector in the jQuery script. If the side panel opens but is blank,<br />
+                  it's because the the menu name in the jQuery scripts doesn't match the<br />
+                  menu name on the page. Look in your source code to see if the DITA OT is<br />
+                  doing some funky shake and bake with the menu name.
+               </p>
+</p></div>
+</li>
+</ol></div>
+</div>
+<div class="topic task nested1" id="transcluding">
+<h2 class="title topictitle2">Transcluding content from another page</h2>
+<div class="body taskbody">
+<div class="section context">If you want to transclude content from another page into your menus, so don't want<br />
+         to repeat the same content in multiple places, you can do so. When you transclude<br />
+         content from another source, you add the ID in the transclusion <em class="ph i">target</em>, not<br />
+         the transclusion <em class="ph i">source</em> (this caused me quite a bit of consternation at<br />
+         first...).
+      </div>
+<ol class="ol steps">
+<li class="li step stepexpand">
+            <span class="ph cmd">Create a separate topic and add the following:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+&lt;section id="demo_sidepanel_2"&gt;&lt;title&gt;Side panel 2&lt;/title&gt;
+   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.&lt;/p&gt;
+   &lt;p&gt;Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.&lt;/p&gt;
+   &lt;p outputclass="sphead"&gt;Subhead&lt;/p&gt;
+   &lt;p&gt;Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. &lt;/p&gt;
+   &lt;p&gt;Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.&lt;/p&gt;
+   &lt;xref href="javascript();" scope="external" format="html" outputclass="closeMe close_demo_sidepanel_2"&gt;Close&lt;/xref&gt;
+   
+  &lt;/section&gt;
+                    </pre>
+<p class="p">Let's say the topic ID of this page is <samp class="ph codeph">trans123</samp>.</p>
+</p></div>
+</li>
+<li class="li step stepexpand">
+            <span class="ph cmd">Now go to the page where you want to transclude the content (presumably, the page with the long<br />
+            code block that we've been working with already). Add a<br />
+            <samp class="ph codeph">conref</samp> element where you want to insert the<br />
+            content:</span></p>
+<div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+ &lt;section conref="transclusion_test.dita#trans123/demo_sidepanel_2" id="demo_sidepanel_2"/&gt;
+                  </pre>
+<div class="note note"><span class="notetitle">Note:</span> Put the ID on the page where you're transcluding the content (the transclusion target). If you put the ID on the transclusion source, the DITA OT will randomize the ID and Sidr won't be able to trigger the menu because its name won't correspond with the name in the jQuery function.</div>
+<p class="p">If you're transcluding content from a standalone topic to a side panel display, you'll no doubt want to style the section headers a bit differently. That's what this style is all about: </p>
+<pre class="pre codeblock">
+  div.sidr h2.sectiontitle {
+    font-size:15px;
+    background-color: whitesmoke;
+}
+                        </pre>
+</p></div>
+</li>
+</ol></div>
+</div>

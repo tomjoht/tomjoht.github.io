@@ -1,0 +1,124 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Core concepts
+      items:
+        - title: Classes
+          url: /java-classes/
+        - title: Methods
+          url: /java-methods/
+        - title: Objects
+          url: /java-objects/
+        - title: Constructors
+          url: /java-constructors/
+        - title: Interfaces
+          url: /java-interfaces/
+        - title: Subclasses
+          url: /java-subclasses/
+        - title: Inheritance
+          url: /java-inheritance/
+        - title: Packages
+          url: /java-packages/
+        - title: Getters and setters
+          url: /java-getters-and-setters/
+    - title: Modifiers
+      items:
+        - title: Modifiers
+          url: /java-modifiers/
+        - title: Access modifiers
+          url: /java-access-modifiers/
+        - title: Abstract methods
+          url: /java-abstract-methods/
+    - title: Fields
+      items:
+        - title: Variables
+          url: /java-variables/
+        - title: Constants
+          url: /java-constants/
+        - title: Primitive data types
+          url: /java-primitive-data-types/
+        - title: Setters
+          url: /java-setters/
+    - title: Error handling
+      items:
+        - title: Handling exceptions
+          url: /java-handling/exceptions/
+    - title: Loops
+      items:
+        - title: Loops
+          url: /java-loops/
+        - title: Continue
+          url: /java-continue/
+        - title: If else
+          url: /java-if-else/
+        - title: Break
+          url: /java-break/
+    - title: Maps
+      items:
+        - title: Hashmaps
+          url: /java-hashmaps/
+        - title: Treemaps
+          url: /java-treemaps/
+        - title: Collections Framework
+          url: /java-collections-framework/
+    - title: Javadoc
+      items:
+        - title: Javadoc tags
+          url: /java-javadoc-tags/
+        - title: Code formatting
+          url: /java-code-formatting/
+        - title: Comments
+          url: /java-comments/
+    - title: J2EE
+      items:
+        - title: Servlet
+          url: java-servlet
+        - title: Tomcat
+          url: /java-tomcat/
+    - title: Related Tools
+      items:
+        - title: Eclipse IDE
+          url: /java-eclipse/
+        - title: Eclipse shortcuts
+          url: /java-eclipse-shortcuts
+        - title: Mercurial
+          url: /java-mercurial/
+    - title: Collaboration
+      items:
+        - title: Share files with others
+          url: /java-share-files/
+    - title: Miscellaneous
+      items:
+        - title: Enums
+          url: /java-enums/
+        - title: Garbage collection
+          url: /java-garbage-collection/
+        - title: Generics
+          url: /java-generics/
+        - title: Delegates
+          url: /java-delegates/
+        - title: Null
+          url: /java-null/
+        - title: Inner classes
+          url: /java-inner-classes/
+        - title: Casting
+          url: /java-casting/
+        - title: Override
+          url: /java-override/
+        - title: Polymorphism
+          url: /java-polymorphism/
+        - title: Static blocks
+          url: /java-static-blocks/
+        - title: Stub
+          url: /java-stub/
+        - title: Swing
+          url: /java-swing/
+        - title: Returns
+          url: /java-return/
+        - title: JAR file
+          url: /java-jar-file/
+        - title: Class path
+          url: /java-class-path/
+
+

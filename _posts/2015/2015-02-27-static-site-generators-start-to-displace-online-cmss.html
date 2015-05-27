@@ -1,0 +1,102 @@
+---
+layout: post
+title: Static site generators start to replace web publishing platforms like WordPress
+date: 2015-02-27 08:16:17.000000000 -08:00
+categories:
+- general
+tags: []
+status: publish
+type: post
+published: true
+series: "Innovation in tech comm"
+weight: 9
+---
+{% include series.html %}
+
+<p>In the previous post in this series on innovation, I highlighted some <a href="http://idratherbewriting.com/2015/02/26/some-web-tools-worth-using-in-help-solutions/">web tools worth exploring for help systems</a>. In this post, I want to dive into one of the latest trends with web tools: static site generators.</p>
+<h2>The Rise and fall of web publishing platforms</h2>
+<p>For the past 10 years, web publishing platforms with database backends have been the predominant way people publish content online. WordPress and Drupal have dominated the landscape. These web platforms, or web content management systems (CMSs), are so popular, about 22% of all new websites in the U.S. are powered by WordPress (according to <a href="http://techcrunch.com/2011/08/19/wordpress-now-powers-22-percent-of-new-active-websites-in-the-us/">TechCrunch</a>).</p>
+<p>Drupal tends to be used when you want a more robust (and complex) solution than WordPress. Other tools are also common, such as Joomla, Alfresco, Expression Engine, and more.</p>
+<p>However, there's a problem with web CMSs such as WordPress:</p>
+<ul>
+<li><strong>Heavy infrastructure</strong>. They require a lot of infrastructure. You need Linux, Apache, MySQL, and PHP (LAMP) configured on a Linux server to run them. You must have the settings just right to avoid errors. In every corporate documentation role I've been in, getting a LAMP architecture installed for documentation has been either prohibited, poorly supported, or riddled with frustrating errors. </li>
+<li><strong>Slow performance</strong>: With the database backend, your content is served up dynamically. When the server receives a request for the page, the system (e.g., WordPress) gets the information from the database and assembles the content inside a page template on the fly. The load time for most pages in a CMS is around 3 seconds (around 1.5 to 2 seconds with a CDN). However, many see the dynamic assembly as unnecessary overhead in delivering the page to users. Unless you're constantly changing the content, why not just pre-build the pages? Dynamic assembly creates unnecessary overhead that leads to many problems.</li>
+<li><strong>Security and code mangling</strong>. WordPress sites are frequently hacked, which requires web developers to increase security measures. As a result, it can be really restrictive what you can and can't do with code on a page. For example, adding JavaScript in your WordPress page or post requires quite a few hoops to jump through. The WordPress editor consistently mangles code samples, which becomes incredibly frustrating for developers who simply want to publish code tutorials. You pretty much have to convert all the programming syntax into HTML character equivalents. Flipping back and forth between the text and visual editor in WordPress almost always zaps my code samples. And code samples are probably the most important element of API documentation.</li>
+<li><strong>Complexity.</strong> Web CMS sites have become far more complex with each release. Now when you install WordPress, there are dozens of core files doing all kinds of things. It makes the software more cumbersome because now you have a lot more interdependent pieces, with a lot of unknown code. Many users want to return to a simpler, more lightweight model.</li>
+</ul>
+<h2>Hello static site generators</h2>
+<p>Static site generators are applications run on the command line that compile a website. For example, you may have various pages defining a layout, some "include" files, a configuration file, and your content files.</p>
+<p>The static site generator reads your configuration file and pushes your content into the layout files, adds whatever includes are referenced (such as a sidebar or footer), and renders everything into HTML. Each page has the sidebar and other navigation included directly into it, as well as all the other layout code you've defined, ready for viewing.</p>
+<p>Many static site generators run continuously in a browser preview. Each time you make a change to your site, the static site generator recompiles your site in about 1 second. You can refresh your browser preview page to see the changes as you work.</p>
+<p>Because everything is compiled locally, you don't need to worry about security hacks into your database. As a result, it's incredibly easy to work with code samples. You can author your content in Markdown or HTML, add code samples inside code blocks that are processed with a Markdown processor (such as Kramdown or Red Carpet), and more. You can add your own scripts directly on the page. It's simply much easier and more flexible to do what you want.</p>
+<p>Jekyll, one of the most popular static site generators, allows you to use a templating language called <a href="http://docs.shopify.com/themes/liquid-documentation/basics">Liquid (from Shopify)</a> inside your content. You can use if-else statements, run loops, insert variables, and do a lot more sophisticated processing of your content through this templating language directly on your page.</p>
+<p>Because you're working with text files, you usually store your site files in a code repository such as Github. You treat your content files with the same workflow as programming code -- committing to the repository, pushing and pulling for updates, and more.</p>
+<p>When you're ready to publish your site, you can transfer the whole site using the command line to your host. If you're working with <a href="https://pages.github.com/">Github Pages</a> and Jekyll, your online repository can build your site on the fly. This means your code repository becomes your publishing host. It eliminates the need to actually build your site and deploy the build; instead, you just deploy the source code, and the repository builds it for you.</p>
+<h2>Static site generator choices</h2>
+<p>There are many different static site generators available, but most of them work in highly similar ways. Think of them as different kinds of apples -- Gala, Fuji, Granny Smith, Red Delicious, Honey Crisp, McIntosh, Cortland, and more.</p>
+<p><a href="https://www.flickr.com/photos/msr/448820990" title="apples by msr, on Flickr"><img src="/images/448820990_099a4aa69f.jpg" width="500" height="340" alt="apples" /></a></p>
+<p>When you read the instructions on using a static site generator, most have similar components and workflows -- you have a configuration file, some layout files, allowed programming logic, and so on.</p>
+<p>Some of the most popular static site generators include the following:</p>
+<ul>
+<li>Jekyll</li>
+<li>Octopress</li>
+<li>Middleman</li>
+<li>Docpad</li>
+<li>Hugo</li>
+<li>Pelican</li>
+<li>Wintersmith</li>
+<li>MkDocs</li>
+<li>Nanoc</li>
+</ul>
+<p>You can see the full list of static site generators broken down by repository numbers at <a href="https://www.staticgen.com/">staticgen.com</a>.</p>
+<p><a href="https://www.staticgen.com/"><img src="/images/staticsitegen-550x288.png" alt="staticsitegen" width="550" height="288" class="alignnone size-medium wp-image-22606" /></a></p>
+<p>When I was trying to choose a static site generator, I chose the most popular one, <a href="http://jekyllrb">Jekyll</a>, mainly because I wanted a platform that would have the most community support, momentum, and tutorials available for it.</p>
+<p>Jekyll also has the benefit of support from Github, which is the most common code repository on the web. Jekyll and Github are kind of like Mediawiki and Wikipedia -- the software thrives in part from its sponsoring host.</p>
+<h2>Using Jekyll for documentation</h2>
+<p>Many of the themes designed for Jekyll involve blogging scenarios, but the sites are used for all kinds of purposes (such as the <a href="https://www.healthcare.gov/">U.S. government heathcare websites</a>). There are quite a few documentation projects that are using Jekyll. To get a sense of what documentation looks like on a Jekyll site, explore the following sites:</p>
+<ul>
+<li>(Jekyll Docs)[http://jekyllrb.com/docs/home/]</li>
+<li><a href="https://sendgrid.com/docs/index.html">Sendgrid</a></li>
+<li><a href="http://getbootstrap.com/">Get Bootstrap</a></li>
+<li><a href="https://help.github.com/categories/github-pages-basics/">Github Pages Help</a></li>
+<li><a href="http://docs.scala-lang.org/">Scala</a></li>
+<li><a href="http://wistia.com/doc">Wistia</a></li>
+<li><a href="http://ionicframework.com/docs/">Ionic</a></li>
+<li><a href="http://docs.travis-ci.com/">Travis CI</a></li>
+<li><a href="http://help.mynaweb.com/">Mynaweb</a></li>
+<li><a href="http://clojurerabbitmq.info/">Langhor</a>, <a href="http://clojureelasticsearch.info/">Elastich</a> </li>
+<li><a href="http://docs.basekit.com/">Basekit docs</a></li>
+</ul>
+<p>(Note: Special thanks for <a href="https://meta.discourse.org/t/proposing-jekyll-as-community-wiki-platform/9873/10">Erlend Sogge Heggen</a> for pointing me to some of these links.)</p>
+<p>You can fork most of the above themes and use them for your own documentation projects. Here are also some Jekyll templates built for docs:</p>
+<ul>
+<li><a href="http://docs.jetstrap.com/">Jetstrap</a></li>
+<li><a href="http://bruth.github.io/jekyll-docs-template/">Jekyll docs template</a></li>
+</ul>
+<p>For some articles talking about using Jekyll for documentation, see the following:</p>
+<ul>
+<li><a href="http://wistia.com/blog/jekyll-for-documentation">Building Documentation on Jekyll</a></li>
+<li><a href="https://github.com/blog/1939-how-github-uses-github-to-document-github">How GitHub uses GitHub to document GitHub</a></li>
+<li><a href="http://untyped.com/untyping/2013/08/07/writing-documentation-using-grunt-and-jekyll/">Writing Documentation using Grunt and Jekyll</a></li>
+<li><a href="http://blog.clojurewerkz.org/blog/2013/06/15/how-we-document-our-projects-with-clojurewerkz-docslate/">How We Document Our Projects With ClojureWerkz Docslate</a></li>
+<li><a href="https://sendgrid.com/blog/creating-sustainable-documentation-with-jekyll/">Creating Sustainable Documentation with Jekyll</a></li>
+</ul>
+<h2>My Documentation theme for Jekyll</h2>
+<p>I also built a Jekyll theme designed for documentation. You can see the Github repository here: <a href="https://github.com/tomjohnson1492/documentation-theme-jekyll">https://github.com/tomjohnson1492/documentation-theme-jekyll</a>. Here's the site: <a href="http://tomjohnson1492.github.io/documentation-theme-jekyll/">Documentation Theme for Jekyll</a>.</p>
+<p><a href="http://tomjohnson1492.github.io/documentation-theme-jekyll/"><img src="/images/doctheme-550x266.png" alt="doctheme" width="550" height="266" class="alignnone size-medium wp-image-22605" /></a></p>
+<p>Right now I'm just calling this "Documentation theme for Jekyll." Those are the keywords I kept searching for in looking for documentation-related Jekyll themes, so I decided to use it as the name. If you have a recommendation for something more catchy, please let me know.</p>
+<h2>What makes a theme specific to documentation?</h2>
+<p>Any Jekyll site could be used for documentation. So what makes my theme specific to documentation projects?</p>
+<p>Without going into too much detail, I'll just note a few features that I thought were key:</p>
+<ul>
+<li>Sidebar navigation </li>
+<li>Search</li>
+<li>Callouts and notes</li>
+<li>Page-based layouts</li>
+<li>Mini-TOCs</li>
+<li>Bootstrap foundation to easily add more components, styles</li>
+</ul>
+<p>That's about it. I'll get into this theme in more detail in a future post. I tried to add some documentation for <a href="http://tomjohnson1492.github.io/documentation-theme-jekyll/getting_started/">Getting Started</a>, but frankly I've done a poor job here with the theme documentation and need to spend a lot more time on it. Still, you can probably follow it enough to get started.</p>
+<p>My plan is to provide a more comprehensive tutorial on using Jekyll from a technical writer's perspective, explaining how to do single sourcing, conditional logic, content re-use, and even things like translation, PDF output, and more.</p>
+<p>This is an ongoing project that will no doubt evolve with many iterations and improvements, but I've reached a point where the theme is good enough to start using for documentation.</p>
+<p>I'm currently using this theme on a documentation project at work. So far it's going well. It's too early to make any conclusions, but so far my impression is that static site generators may prove to be a platform that works extremely well for API documentation.</p>

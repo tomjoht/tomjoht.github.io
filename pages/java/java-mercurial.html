@@ -1,0 +1,229 @@
+---
+layout: page
+title: Mercurial
+permalink: /java-mercurial/
+date: 2015-01-01 19:56:39.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>These are notes for using Mercurial. (They really don't belong in the Java QRG section, but since I use Mercurial to get Java source files, it feels appropriate for me to include them here.)</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>init</td>
+<td>initializes a repository as a mercurial repository</td>
+</tr>
+<tr>
+<td>status</td>
+<td>gets the status of the repo</td>
+</tr>
+<tr>
+<td>add --all</td>
+<td>adds all the files</td>
+</tr>
+<tr>
+<td>add sample.txt</td>
+<td>adds a specific file to the repo</td>
+</tr>
+<tr>
+<td>add &#42;.md</td>
+<td>add all files with an .md extension to the repo</td>
+</tr>
+<tr>
+<td>add .</td>
+<td>add all files of all extensions to the repo</td>
+</tr>
+<tr>
+<td>commit -m "here's my commit msg"</td>
+<td>commit the current files to the repository</td>
+</tr>
+<tr>
+<td>log</td>
+<td>get a log of the commits</td>
+</tr>
+<tr>
+<td>remote add origin https://github.com/your_repo</td>
+<td>set the github repo destination to your repo</td>
+</tr>
+<tr>
+<td>push -u origin master</td>
+<td>push to your repo</td>
+</tr>
+<tr>
+<td>pull origin master</td>
+<td>get files from the repo</td>
+</tr>
+<tr>
+<td>get diff HEAD</td>
+<td>see the changes</td>
+</tr>
+<tr>
+<td>rm '*.dita'</td>
+<td>remove all the files with the .dita extension from the repository</td>
+</tr>
+<tr>
+<td>merge</td>
+<td>merge your local files with the latest working set</td>
+</tr>
+<tr>
+<td>up</td>
+<td>go to the working set (the latest changeset)</td>
+</tr>
+<tr>
+<td>diff</td>
+<td>see the differences between stuff</td>
+</tr>
+<tr>
+<td>clone <url /></td>
+<td>clones a repository into a folder in the current directory. also sets up hg in this local repository. cd to /users/tjohnson/projects. Then <code>hg clone &lt;mercurial URL&gt;</code></td>
+</tr>
+<tr>
+<td>up or update</td>
+<td>updates the content to the latest working copy</td>
+</tr>
+<tr>
+<td><code>parent</code></td>
+<td>this lets you know what the latest parent is. still not entirely sure what the parent means.</td>
+</tr>
+<tr>
+<td><code>up default</code></td>
+<td>update to the latest working set</td>
+</tr>
+<tr>
+<td><code>rollback</code></td>
+<td>allows you to rollback to an earlier changeset</td>
+</tr>
+<tr>
+<td><code>heads</code></td>
+<td>lets you know what heads you're merging here.</td>
+</tr>
+<tr>
+<td><code>forget</code></td>
+<td>makes it so an added file is no longer added.</td>
+</tr>
+<tr>
+<td><code>open file.txt</code></td>
+<td>opens a file so you can edit it (not HG specific)</td>
+</tr>
+<tr>
+<td><code>subl file.txt</code></td>
+<td>opens a file in sublime so you can edit it.</td>
+</tr>
+<tr>
+<td><code>outgoing</code></td>
+<td>shows ally he outgoing changes</td>
+</tr>
+</tbody>
+</table>
+<h2>Basic flow in pushing content</h2>
+<ol>
+<li>Make changes, and then go <code>hg commit -m "commit message"</code></li>
+<li><code>hg push</code></li>
+<li>If there are problems in pushing the content, then you type <code>hg pull</code>.</li>
+<li>If there are conflicts, type <code>hg merge</code></li>
+<li>It will create a bunch of merges in the file. go through and sort it out first. remove all the >>>>>> and &lt;&lt;&lt;&lt;&lt;&lt;&lt;.</li>
+<li><code>hg resolve --mark file.txt</code>. this will mark the conflict as resolved.</li>
+<li>Save the file and type <code>hg commit -m "commit message"</code>.</li>
+<li><code>hg push</code>. Now there shouldn't be any problems.</li>
+</ol>
+<p>Basic flow in pulling content:</p>
+<ol>
+<li>Go to <code>hg pull</code> to get the latest changeset.</li>
+<li><code>hg update</code> to update to the latest working copy. (you can also do <code>hg pull -u</code> to accomplish it all in one command.)</li>
+<li>If there are problems, you're notified about them. do <code>hg merge</code></li>
+<li>The files get merged and you have to go through and sort out the conflicts. remove all the >>>>>> and &lt;&lt;&lt;&lt;&lt;&lt;&lt;.</li>
+<li><code>hg resolve --mark file.txt</code> this will mark the conflict as resolved.</li>
+<li><code>hg commit -m "commit message"</code></li>
+<li><code>hg push</code></li>
+</ol>
+<p>If you're asked if you want to put multiple heads in the same file, don't do it. It messes things up.</p>
+<hr />
+<h2>Random notes</h2>
+<ul>
+<li>Everything is a changeset. when you commit it, that diff is a changeset. </li>
+<li>All that cloning does is take all the changesets and add them to your machine. </li>
+<li>changeset numbers are different per each box. the numbers are for your own info.</li>
+<li><code>pull</code> grabs all the change sets.</li>
+<li>hg forget: after you delete a file, in order to tell Mercurial not to warn you that it's missing, use the <code>forget</code> command.</li>
+</ul>
+<h2>Testing the multi-user scenario</h2>
+<p>Create a repository called remote:</p>
+<pre><code>hg mkdir remote
+cd remote
+hg init
+</code></pre>
+<p>Now clone the repository into 2 other repositories:</p>
+<pre><code>hg clone remote jp
+hg clone remote dm
+</code></pre>
+<p>Now open up several windows in iTerm: **Shell > Split Vertically **(do it twice)</p>
+<p>In your other windows, cd to jp and cd to dm.</p>
+<p>Now create a sample file and put it in remote. Make changes with one user and push. Pull from another user and make changes, etc. Works really well.</p>
+<h2>Summary</h2>
+<h3>Clone a repository</h3>
+<pre><code>cd to /users/tjohnson/projects
+
+hg clone &lt;mercurial URL&gt;
+</code></pre>
+<h3>Add all files to a repository</h3>
+<pre><code>hg add .
+</code></pre>
+<h3>Commit the files</h3>
+<pre><code>hg commit -m "your commit msg"
+</code></pre>
+<h3>Get the logs</h3>
+<pre><code>hg log
+</code></pre>
+<h3>Push to the central repository</h3>
+<pre><code>hg push
+</code></pre>
+<h3>Create an HG repository</h3>
+<p>do this if you're creating an HG repository locally:</p>
+<pre><code>hg init
+</code></pre>
+<h3>Get the latest files</h3>
+<pre><code>hg pull
+</code></pre>
+<h3>See list of changed files</h3>
+<pre><code>hg status
+</code></pre>
+<h3>See what changed in a specific file</h3>
+<pre><code>hg diff file.txt
+</code></pre>
+<p>or</p>
+<pre><code>hg cat
+</code></pre>
+<h3>Merge changes</h3>
+<pre><code>hg merge
+</code></pre>
+<h3>Update the working directory</h3>
+<pre><code>hg update
+</code></pre>
+<h3>Get help</h3>
+<pre><code>hg help
+</code></pre>
+<h3>Go forward or backwards in the directory</h3>
+<pre><code>hg update -r 0
+</code></pre>

@@ -1,0 +1,68 @@
+---
+layout: post
+title: When Your WordPress Upgrade Fails
+date: 2010-12-26 11:42:06.000000000 -08:00
+categories:
+- general
+tags:
+- backup
+- php
+- plugins
+status: publish
+type: post
+published: true
+meta:
+  _wp_rp_image: empty
+  _edit_last: '1'
+  _link_page: ''
+  _feedlink: http://www.publish2.com/newsgroups/technical-communication
+  _link_count: '1'
+  _advanced_options: ''
+  _link_format: ''
+  _publication_name: ''
+  _publication_date: ''
+  _journalist_full_name: ''
+  _description: ''
+  _quote: ''
+  _tags: ''
+  _display_list: ''
+  _embed_video: ''
+  _video_width: '425'
+  sfw_comment_form_password: sEGBK0ExLg37
+  dcssb_short_url: http://bit.ly/PeOKGP
+  _wp_rp_related_posts_query_result_cache_expiration: '1421095074'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"6450";s:5:"score";s:17:"57.12842953739788";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"4684";s:5:"score";s:17:"40.48719880756741";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"19713";s:5:"score";s:18:"32.858168830268745";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"3622";s:5:"score";s:17:"31.62439936902224";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"5777";s:5:"score";s:17:"29.70500867129694";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:3:"983";s:5:"score";s:18:"29.364078076164514";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"593";s:5:"score";s:17:"28.40552354415404";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"19895";s:5:"score";s:17:"26.91439705977253";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3591";s:5:"score";s:17:"26.01198870298603";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"5608";s:5:"score";s:18:"25.961404317452434";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"6450";s:5:"score";s:17:"57.44068802638096";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"4684";s:5:"score";s:17:"40.86392078909014";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"19713";s:5:"score";s:17:"32.75211805748665";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"3622";s:5:"score";s:18:"31.532441410895387";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"5777";s:5:"score";s:17:"30.09089005106484";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:3:"983";s:5:"score";s:18:"29.549413104620157";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"593";s:5:"score";s:18:"28.416152174795947";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"19895";s:5:"score";s:18:"26.993310907599096";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"3591";s:5:"score";s:17:"26.31177562570378";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"5608";s:5:"score";s:18:"26.275707481564822";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:3:"424";s:5:"score";s:17:"25.72411125080354";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"974";s:5:"score";s:16:"25.6425914895773";}}
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>To keep your WordPress blog secure and up-to-date, you want to apply the latest updates. When there's an update available, you see it at the top of your Dashboard area. To upgrade WordPress:</p>
+<p>1. First back up your files. You should already have an automated backup strategy in place. Two backup plugins I like to use are WP-dbmanager and WordPress Database Backup. To install one of these plugins, to go <strong>Plugins &gt; Add New</strong>, search for it, and then install, activate, and run it.</p>
+<p>This backs up your database (which includes your posts, pages, comments, and settings). If you want to back up your theme as well, back up the folder under wp-content/themes.</p>
+<p>2. After you back up your files,  upgrade WordPress by going to <strong>Tools &gt; Upgrade</strong>. Click <strong>Upgrade Automatically</strong>.</p>
+<p>If you receive an error trying to upgrade, you can deactivate all your plugins to free up more memory, and then run the upgrade. It should work. Then reactivate your recently active plugins.</p>
+<p>However, you can get around this problem in a more permanent way by increasing the memory in your php.ini file. The php.ini file includes settings for how php scripts run on your site. Increasing the memory settings in your php.ini file may also allow your plugins to run without error as well (for example, the Section Widget plugin required a lot of memory from my site and would corrupt the display on the Widgets page until I increased the memory limit in the php.ini file).</p>
+<p>If you have cPanel on your web host, you can increase the memory of your php.ini file by doing the following:</p>
+<ol>
+<li>Under Software / Services, click <strong>PHP Config</strong>.</li>
+<li>Click the <strong>Install PHP.INI Master File</strong> button. This adds a default php.ini.default file in your public_html folder.</li>
+<li>Select the <strong>PHP 5 (Single php.ini)</strong> button at the top. This makes is so all your directories use the same php.ini file.</li>
+<li>Download the php.default.ini file and rename it to <strong>php.ini</strong>.</li>
+<li>In the file, change the following values to something like the numbers below:</li>
+</ol>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">max_execution_time = 45     ; Maximum execution time of each script, in seconds</div>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">max_input_time = 120; Maximum amount of time each script may spend parsing request data</div>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">memory_limit = 64M      ; Maximum amount of memory a script may consume (32MB)</div>
+<ul>
+<li>max_execution_time = 45</li>
+<li>max_input_time = 120</li>
+<li>memory_limit = 64M</li>
+</ul>
+<p>While you're in there, also increase your upload_max_filesize number a bit (for example, to 25). This will allow you to upload an exported WordPress XML file (as well as larger images and other files) if you ever need to.</p>
+<p>Now run the upgrade script again. It should work. If not, contact your web host to see if you have it installed and configured the php.ini file correctly.</p>

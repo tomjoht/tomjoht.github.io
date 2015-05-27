@@ -1,0 +1,26 @@
+<div class="seriesContext">
+    <div class="btn-group">
+        <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">{{page.series}}<span class="caret"></span></button>
+        <ol class="dropdown-menu">
+
+            {% assign thisSeries = page.series %}
+            {% assign allPosts = site.posts | sort:"weight"  %}
+            {% for post in allPosts %}
+            {% for series in post.series %}
+            {% if series == thisSeries %}
+
+            {% if post.url == page.url %}
+            <li class="active"> → {{post.weight}}. {{post.title}}</li>
+            {% else %}
+            <li>
+                <a href="{{post.url | prepend: site.baseurl | append: site.suffix}}">{{post.weight}}. {{post.title}}</a>
+            </li>
+            {% endif %}
+            {% endif %}
+
+            {% endfor %}
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+

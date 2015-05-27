@@ -1,0 +1,30 @@
+---
+layout: post
+title: Upgrading Mediawiki
+date: 2012-05-08 13:20:31.000000000 -07:00
+categories:
+- general
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Backup the gra_wiki database in PhpMyAdmin.<br />
+2. Backup the wiki directory on the server (by FTP).<br />
+3. Go to [the Meadiwiki download page] and download the latest version of MediaWiki to your hard drive.<br />
+4. Extract it on your hard drive to a clean folder named wiki_new.<br />
+5. Upload this folder on the server (by FTP).<br />
+6. Copy the file skins/common/images/logo.gif from the wiki folder to the wiki_new folder,<br />
+7. Copy the folders extensions and images from the wiki folder to the wiki_new folder.<br />
+8. Copy the file LocalSettings.php from the wiki folder to the wiki_new folder.</p>
+<p>9. Go to &lt;path to wiki&gt;/mw-config/index.php and walk through the wizard.</p>

@@ -1,0 +1,93 @@
+---
+layout: post
+title: Tips for writing code comments in developer documentation
+date: 2014-01-11 18:14:17.000000000 -08:00
+categories:
+- api-doc
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _thumbnail_id: '20115'
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _wp_rp_related_posts_query_result_cache_expiration: '1421711212'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:15:"157.94184366256";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20883";s:5:"score";s:18:"142.92520724885443";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20868";s:5:"score";s:18:"110.70448065681715";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20853";s:5:"score";s:17:"85.05632353246008";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20022";s:5:"score";s:17:"61.57704242669985";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20305";s:5:"score";s:17:"53.64888655145349";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20655";s:5:"score";s:17:"53.47203932347156";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"16622";s:5:"score";s:18:"50.225551673263496";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"18279";s:5:"score";s:17:"45.94316834739229";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"21795";s:5:"score";s:18:"42.880564566396345";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20655";s:5:"score";s:18:"159.07290081408922";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"158.24791613467008";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20883";s:5:"score";s:18:"142.09504934379595";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20102";s:5:"score";s:18:"113.86497813926644";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20868";s:5:"score";s:18:"111.20374333813854";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20853";s:5:"score";s:17:"85.39873360444983";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20834";s:5:"score";s:17:"81.17048558666153";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20022";s:5:"score";s:17:"61.81367627182373";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20305";s:5:"score";s:17:"54.56666340189405";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"18279";s:5:"score";s:17:"45.52190233445793";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"18563";s:5:"score";s:18:"38.949326033406884";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"19251";s:5:"score";s:17:"37.04650599363242";}}
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"158.87854301857598";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20853";s:5:"score";s:17:"85.71053946138989";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20022";s:5:"score";s:17:"62.04332438690526";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20655";s:5:"score";s:17:"54.46645250576299";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20305";s:5:"score";s:17:"53.71329800222973";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"16622";s:5:"score";s:18:"50.275954171516844";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20883";s:5:"score";s:17:"48.44661868817911";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"18279";s:5:"score";s:16:"46.7597798062147";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"21795";s:5:"score";s:17:"43.07785822120273";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"22058";s:5:"score";s:15:"40.887337272644";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"18563";s:5:"score";s:18:"38.957175480465864";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20868";s:5:"score";s:16:"37.2027137753661";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:5:"19251";s:5:"score";s:17:"36.82404949585134";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:5:"21823";s:5:"score";s:17:"34.75123140237676";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:5:"21403";s:5:"score";s:17:"34.75123140237676";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:5:"16774";s:5:"score";s:17:"34.75123140237676";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:4:"4684";s:5:"score";s:18:"31.964299846437385";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:5:"21816";s:5:"score";s:17:"31.38982953738703";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:18:"31.295824114946427";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:17:"31.09611527585185";}}
+  fsb_social_facebook: '8'
+  fsb_social_twitter: '20'
+  fsb_social_linkedin: '11'
+  fsb_social_google: '5'
+  dsq_thread_id: '3770206455'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<div style="background-color: #f7f7f7; padding: 10px; font-style: italic; margin-bottom: 20px;">I used <a href="http://www.grammarly.com/proofreading" rel="nofollow">Grammarly's proofreading software</a> because my eyes become blind to errors after I read through the same post several times.</div>
+<p>When you write documentation for programming code, such as APIs and SDKs, you become accustomed to writing and editing code comments. Code comments are explanatory text mixed with programming code to explain what's going on in the code. For example, here might be a code comment for a JavaScript function:</p>
+<p>[js]</p>
+<p>function shout (x,y) {</p>
+<p>// remember to do division before addition</p>
+<p>    if (x + y &gt; 4 + 8 / 2 ) {<br />
+       alert('hello')<br />
+    }<br />
+    else {<br />
+       alert('bye')<br />
+    }<br />
+}<br />
+[/js]</p>
+<p>You wouldn't usually comment on such a simple function, but "simple" is always a subjective statement. What is simple for one person may be complicated for another. So as always, the level of commentary depends on the level of the audience.</p>
+<p>The wp-config.php sample file for WordPress provides a highly commented file. In it you see code comments like the following:</p>
+<p>[code lang="php"]</p>
+<p>/**<br />
+* For developers: WordPress debugging mode. *<br />
+* Change this to true to enable the display of notices during development.<br />
+* It is strongly recommended that plugin and theme developers use WP_DEBUG<br />
+* in their development environments.<br />
+*/</p>
+<p>define('WP_DEBUG', false);</p>
+<p>[/code]</p>
+<p>As you can see, this comment is much lengthier, because <code>define</code> isn't likely a familiar function to programmers (it's just a WordPress specific function).</p>
+<p>As another example, see the <a href="https://developers.google.com/maps/documentation/android/utility/marker-clustering#simple">code samples</a> Sarah Maddox linked to in her recent post on <a href="http://ffeathers.wordpress.com/2013/12/21/how-to-write-sample-code/">How to write sample code</a>.</p>
+<h2>Comment styles vary widely</h2>
+<p>Comments in code can take all varieties. Some programmers inject humor or sarcasm. Others are terse or cryptic.</p>
+<p>Some people feel you can be less formal and even playful in code comments, and I agree. The comment domain tends to be within the programmer's realm, so you find the same spirit in code comments as you do in the early days of the web -- irreverence, transparency, bluntness. You can use all lowercase if you want, omitting ending punctuation.</p>
+<p>In <a href="http://www.amazon.com/Learning-JavaScript-Hands-On-Fundamentals-Modern/dp/0321832744"><i>Learning JavaScript: A Hands-on Guide to the Fundamentals of Modern JavaScript</i></a>, Tim Wright explains why he welcomes humor in code comments:</p>
+<blockquote><p>Coding can always be a little more stressful than we would like, so don’t be afraid to inject some humor into your comments. As far as brightening up someone’s day when they’re eyeballs deep in code, it doesn’t get much better than reading a funny comment someone left. I’ve even caught myself laughing at comments I’ve written in the past. It’s always a nice surprise and lightens the mood. (Chapter 9: Code Design)</p></blockquote>
+<p>In other words, playful comments help lighten the programmer's mood. (Wright's book, by the way, is probably the best book on JavaScript I've read.)</p>
+<p>Regardless of the tone you adopt, generally if there's an element of the code that needs some explanation (because it's unintuitive or a tricky workaround, or it involves elements new to the user), the programmer usually notes the reason in a comment.</p>
+<h2>Are code comments useful?</h2>
+<p>Some people object to the usefulness of code comments, arguing that code is "self-documenting."</p>
+<p>The idea is that if the code isn't immediately apparent to the user, no amount of commenting is going to solve the problem. Code relies on specific functions and techniques, and if one is familiar with programming, code that doesn't do anything strange needs no explanation.</p>
+<p>In short, readers should become acquainted with programming, and they will immediately understand what's going on -- without comments. Comments just tend to get in the way. Code only needs explaining when the code is written in such a confusing way that comments are needed to make sense of it.</p>
+<p>On Coding Horror, Jeff Atwood says not to add too many comments:</p>
+<blockquote><p>Junior developers rely on comments to tell the story when they should be relying on the code to tell the story. Comments are narrative asides; important in their own way, but in no way meant to replace plot, characterization, and setting. (<a href="http://www.codinghorror.com/blog/2008/07/coding-without-comments.html">Coding Without Comments</a>)</p></blockquote>
+<p>In other words, comments are kind of like an abundance of footnotes in a poorly written essay. If there are 5+ footnotes per page that clarify and summarize/expand on every paragraph, as a reader you may wonder why the writer didn't just write the essay clearly in the first place, without forcing readers to wade through all of this side commentary.</p>
+<p>The same thing happens with code. Well-written code tells its own story. When things are organized clearly, when you have the right white spacing, line breaks, and other code formatting, when your logic proceeds plainly, when variables are defined well, you shouldn't need commentary explaining what's going on.</p>
+<p>Others don't feel this same way about code. They recognize that not everyone is a programming genius and so leave notes and instruction to the reader. Or they understand that their audience will be unfamiliar with the techniques and concepts, and so the comments are a form of instruction to help others understand.</p>
+<p>This latter scenario -- the teaching scenario -- is much more common with documentation. If you're writing a code sample to help others understand how to work with your API or SDK, you assume many of the methods, arguments, techniques, etc., <i>are</i> going to be unfamiliar to the reader, no matter what the reader's skill level. As such, comments are needed.</p>
+<p>However, even if you're trying to teach someone, if you add too many comments, the code becomes unreadable. Adding a comment about every 5 lines of code seems to be a good balance. The comments must always be brief (e.g., usually 1-2 lines) because the reader is primarily looking at the code, not the comment, and any lengthy comment will make it harder to see the code for itself because the comments separate arguments and functions that usually fit together.</p>
+<p>Another detail to keep in mind is that code isn't always linear. You may declare variables or refer to functions at the beginning of code that aren't used or listed until later in the code. As such, the comments you add may not provide a linear story to narrate what's happening in the code. This is another reason why code comments are best left brief: you really can't tell the full story of what the code is doing in these brief comments.</p>
+<h2>Code comments as a microcosm of technical communication</h2>
+<p>Code comments are more than just a stylistic decision. How to comment on code fits into a larger discussion about how to explain programming code in general.</p>
+<p>A lot of technical writers pride themselves on their ability to simplify complexity, but programming code presents a new level of complexity. It's complex because the code relies on a host of methods, concepts, and techniques that may be unfamiliar to the user.</p>
+<p>For example, a code sample I created the other day included a jQuery method called <code>$.map</code>. It takes two arguments as its input: first an array, and then the function to apply to the array. It outputs a new array based on what the function does to the array.</p>
+<p>When a programmer first said I should use it, I had never heard of it. In my commentary on the code, I explained the method as if it would be new to the reader. But most likely my ignorance works against me here. A JavaScript developer, especially one using jQuery, has probably used <code>$.map</code> many times before. My explanation may only draw questions for the reader, prompting him or her to wonder why I'm explaining such a common method.</p>
+<p>This is just one example of dozens of decisions you must make when adding code comments. What is familiar to the reader and what is not? When you aren't the audience, it can be a tough judgment call. Other engineers who review your code can give you feedback, but they too are trapped by their own perspective.</p>
+<p>For example, the other day an engineer crossed out a whole section I'd written about the <code>em</code> properties. I had noted that if you use <code>em</code> in CSS, its value is relative to the font-size set on the parent container. If no font size is set on the parent, the size inherits the next parent up until the <code>body</code> tag. If no size is set on <code>body</code>, <code>em</code> inherits the browser default for font-size, which is usually 16px.</p>
+<p>The engineer said that anyone who works with CSS will know this, so it is unnecessary. Yet the following week I received a request for more detail about the font-size and inheritance, since the user -- not a developer -- was unfamiliar the concept.</p>
+<p>The conundrum of knowing your audience is that your audience is often not homogenous. Your audience most likely has a variety of skills and abilities, so what's familiar to one is unfamiliar to another. Clearly you can't write for a third-grade level as well as a senior programmer and hope to satisfy both with the same set of information, but you can provide different paths through the same content.</p>
+<p>When I comment on code, I usually create those paths by doing the following.</p>
+<p>First, I briefly summarize the code and how it works in 1-2 paragraphs. I then present the code block with brief code comments. After the code block, if needed I provide a story-like explanation that proceeds section by section with lengthier details and references.</p>
+<p>The introduction and code comments will appeal to the experienced programmer. The lengthier code explanation below the code will appeal to the novice programmer. In this lengthier explanation, I'll explain what we're trying to do and then show the code used to accomplish the ends (approaching it more as a narrative) rather than as after-the-fact signposts.</p>
+<p>Within the longer commentary, I try to link out to additional explanations. For example, rather than trying to explain the <code>$.map</code> function beyond a couple of brief sentences, I would link to <a href="http://api.jquery.com/jquery.map/">jQuery's explanation of their own feature</a>.</p>
+<p>I know the experienced programmer usually doesn't read beyond the initial code sample, which is fine. I'm not expecting the experienced programmer to read the code explanation at all.</p>
+<p>In sum, writing code comments may seem like a trivial exercise, but it really gets to the heart of what technical writing is all about -- explaining complicated material and layering your explanation for a variety of audiences.</p>
+<p style="font-size: 9px; font-style: italic;">This post was sponsored by <a href="http://www.grammarly.com/proofreading">Grammarly</a>.</p>

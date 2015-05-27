@@ -1,0 +1,71 @@
+---
+layout: page
+title: 'JavaScript: Introduction'
+permalink: /javascript/
+date: 2012-02-02 16:32:58.000000000 -08:00
+categories:
+- javascript
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _wp_page_template: default
+  layout: two-col-left
+  _tcc-pps-replace: primary
+  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
+  _spost_short_title: ''
+  _series_part: '1'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:17:"60.66994950019779";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:17:"54.41473816833695";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13644";s:5:"score";s:18:"53.188360709323234";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:18:"46.797184857422195";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"45.04060193718115";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:17:"44.74831485314241";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:18:"43.395609475390216";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:16:"42.0332674963363";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20548";s:5:"score";s:18:"41.072463259054395";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13889";s:5:"score";s:18:"40.892510787297304";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20102";s:5:"score";s:17:"39.31968119352052";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"18279";s:5:"score";s:17:"38.95975839511584";}}
+  _wp_rp_image: empty
+  dsq_thread_id: '3772765721'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p><em>JavaScript Essential Training, </em>by Simon Allardice on <a href="http://lynda.com">Lynda.com</a>, provides an easy-to-understand video training series on JavaScript. The course begins at ground zero and proceeds through basic JavaScript programming concepts and techniques.</p>
+<p>These pages on my site are notes from the course. Most of the code examples come the course, but I usually modify the styles and add my own comments and explanations about what's going on. I plan to continue adding and expanding my notes here as I advance with my learning of JavaScript.</p>
+<h2>What is JavaScript?</h2>
+<p>JavaScript is a programming language that runs in your web browser. It's considered one of the main building blocks of web pages, complementing CSS and HTML, and provides the interactive elements of a web page. When you see page elements expand or collapse, slide around, change appearance on mouseover or click, appear or disappear, change color, and so on, it's JavaScript that enables this interactivity.</p>
+<p>JavaScript doesn't interact with your web server. All the action happens right in your browser, because your browser includes an engine to run and interpret JavaScript code.</p>
+<h2>A Basic Example of JavaScript</h2>
+<p>Here's the most basic example of a JavaScript statement:</p>
+<p>[js]<br />
+&lt;script type=&quot;text/javascript&quot;&gt;<br />
+alert(&quot;Hello World&quot;);<br />
+&lt;/script&gt;<br />
+[/js]</p>
+<p>When you run this JavaScript statement, an alert pops up in your browser that says, "Hello World."</p>
+<h2>Referencing JavaScript</h2>
+<p>When you integrate JavaScript in a web page, you enclose it in <code>script</code> tags. However, it's usually best not to mix your scripts with the HTML of your webpage. Instead, you insert the script in a separate .js file and then reference the js file on your web page. This makes it easier to write and maintain your JavaScript code.</p>
+<p>To reference a JavaScript file, insert the following:</p>
+<p>[js]&lt;script type=&quot;text/javascript&quot; src=&quot;scripts.js&quot;&gt;&lt;/script&gt;[/js]</p>
+<p>You can also add <code>type="text/javascript"</code> but this isn't required.</p>
+<p>[js]&lt;script type=&quot;text/javascript&quot; src=&quot;scripts.js&quot;&gt;&lt;/script&gt;[/js]</p>
+<p>This reference will pull in the script file (assuming it's in the same folder as your webpage and called scripts.js). You can insert the reference to your JavaScript file anywhere on the page, but the script will load in sequence where you insert it.</p>
+<p>In general, adding the reference to the script file before the closing <code>body</code> tag is a good idea, since this allows your web page content to load first. However, if you have scripts that need to load first, you would insert the script reference much earlier, such as in your <code>head</code>.</p>
+<h2>Basic JavaScript Syntax</h2>
+<p>Note a few basic syntax rules with JavaScript:</p>
+<ul>
+<li>Everything is case sensitive. "Alert" is different from "alert".</li>
+<li>Semicolons end a statement.</li>
+<li>Spaces don't matter except inside quotations.</li>
+</ul>
+<h2>Adding Comments</h2>
+<p>You add comments in JavaScript by adding two forward slashes at the beginning of lines, like this:</p>
+<p>[js]//here's a sample comment<br />
+alert(&quot;Hello, World&quot;);[/js]</p>
+<p>In general, add comments above the lines they refer to. You can also add comments to multiple lines using <code>/*</code> and <code>*/</code> just like you do in CSS:</p>
+<p>[js]alert(&quot;Hello, World&quot;);<br />
+/*now we're going to write a long comment<br />
+that will span several lines like this, because we<br />
+have a lot to say.<br />
+*/[/js]</p>
+<p>Because these are notes on JavaScript, I've added a lot of comments in the example code.</p>

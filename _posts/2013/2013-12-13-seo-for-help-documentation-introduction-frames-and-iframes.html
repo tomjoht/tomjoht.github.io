@@ -1,0 +1,52 @@
+---
+layout: post
+title: Introduction, frames, iframes, and tech comm tools (search engine optimization)
+date: 2013-12-13 08:41:28.000000000 -08:00
+categories:
+- findability
+tags: []
+status: publish
+type: post
+published: true
+series: "Search engine optimization"
+weight: 1
+---
+{% include series.html %}
+
+<p>I've written previously about various topics related to search engine optimization. Now I want to start a series of posts focused specifically on SEO in the context of help documentation -- that is, SEO for technical writers and their help material. The series will probably consist of 4 or 5 posts.</p>
+<h2>Introduction to SEO for technical writers</h2>
+<p><b>Search engine optimization (SEO)</b> is the practice of making your content rank high in search results. Different search engines have different algorithms for surfacing content, but given the dominance of Google as a search engine, many of the concerns about SEO center on optimizing content for Google's search algorithm. However, you can search engine optimize your content for any search engine, including your help tool's search engine.</p>
+<p>SEO covers a broad array of issues. My focus here is on SEO in the context of help documentation.</p>
+<h2>Do technical writers have time for SEO?</h2>
+<p>Although SEO is important, not many technical writers seem to have time for SEO. Most of us are working in agile environments with rapid publishing cycles. Just getting help ready for the next release consumes most of our time.</p>
+<p>In general, we aren't worrying about whether we're using the right keywords and if we're repeating them in optimal places on the page for SEO reasons. We're hoping that we have covered all the functionality and that the material is clear, accurate, and integrated with the rest of the documentation before release.</p>
+<p>Nevertheless, in an age of information, help content is increasingly treated as a business asset that can attract new customers and help the company rise in search results. Certainly help documentation usually includes many keywords that potential customers are searching for. If your help content appears in Google searches, it can help customers find your company and product.</p>
+<p>As we start to view our help content as a business asset that has value not just to end-users, but also to the target audiences for marketing, sales, support, and engineering teams, we have to seriously consider how to optimize our help content for maximum visibility, particularly in Google.</p>
+<h2>Challenges for SEO and tech comm</h2>
+<p>Information about SEO has traditionally been geared towards online business entrepreneurs looking to rise in Google rankings so they can sell a product. As such, much of the literature on SEO doesn't fully address the technical writer's situation.</p>
+<p>And yet, the technical writer's situation presents a host of conflicts and difficulties with SEO. Issues such as duplicate content from single sourced material, frames and iframes to facilitate TOC navigation, page length and context, official versus colloquial terms, are all specific challenges technical writers face.</p>
+<h2>PageRank</h2>
+<p>To understand SEO for Google, a good place to start is with PageRank. PageRank is a trademarked term created by Larry Page, one of the founders of Google, that describes a ranking of a website's credibility and authority. (The "page" in Pagerank refers both to Larry Page's name and a web page.)</p>
+<p>Numerous factors contribute to a site's PageRank, but the main factor is the number of links pointing to a site. Every time someone links to a site, Google interprets that link as a vote of confidence for the site.</p>
+<p>PageRank is a major determining factor for search engine results. Sites with a high PageRank get more visibility in search engine results.</p>
+<p>Each site on the web is assigned a PageRank between 0 and 10. You can see your PageRank at sites like <a href="http://checkpagerank.net" target="_blank">http://checkpagerank.net</a>. The New York Times and Wikipedia have a PageRank of 9. Most regular websites have a Pagerank between 3 and 6.</p>
+<p><a href="http://checkpagerank.net/"><img class="alignnone size-full wp-image-19394" alt="pagerank" src="/images/pagerankpng.png" width="521" height="274" /></a></p>
+<p>For fun, go to <a href="http://checkpagerank.net" target="_blank">http://checkpagerank.net</a> and see what PageRank your help material has. Notice the number of backlinks (this is a topic I'll get to later in the series).</p>
+<h2>Frames</h2>
+<p>Let's jump into the technical aspects of SEO. Regardless of the help authoring tool (HAT) or other method to create help, at all costs avoid HTML outputs that use frames.</p>
+<p>Frames haven't been used much on websites since around 2000. Originally, frames were a technique for separating site navigation from site content so users could click the navigation links and reload the content window without reloading the navigation as well. This scenario is particularly common with tripane help.</p>
+<p>Unfortunately, frames divide page content into various components. Search engines have trouble knowing which components belong together, so if the search engine indexes a framed site, each frame component gets indexed separately.</p>
+<p>According to <a title="what google says about frames" href="https://support.google.com/webmasters/answer/34445?hl=en" target="_blank">Google Webmaster Tools</a>,</p>
+<blockquote><p>Google supports frames and iframes to the extent that it can. Frames can cause problems for search engines because they don't correspond to the conceptual model of the web. In this model, one page displays only one URL. Pages that use frames or iframes display several URLs (one for each frame) within a single page. Google tries to associate framed content with the page containing the frames, but we don't guarantee that we will.</p></blockquote>
+<p>In other words, frames are problematic because they don't have a 1:1 correspondence between the page and the URL. For frame-based sites, Google doesn't even guarantee that it will index anything.</p>
+<h2>Iframes</h2>
+<p>Iframes (or "inline frames") are similar to frames but are more common and are actually valid in HTML5 (unlike frames, which are deprecated). An iframe embeds content from another source into your page.</p>
+<p>Although iframes are valid techniques for HTML, Google tries to rank the original source of information -- following back to the embedded source. Because the embedded source leads to a separate page or data component, that individual page or data component gets indexed and surfaced separately.</p>
+<p>For example, suppose your webpage pulls in 3 separate components -- A, B, and C. When users see the page, they see all three components together. But if your site is built on frames or iframes, Google will index A, B, and C as 3 different web pages. This is why some HAT outputs will include a link at the top of the topic that says something like "View with TOC navigation" -- because the TOC, being a separate page, is decoupled from the content in search results.</p>
+<p>In a help file I wrote a couple of years ago, I forgot to select the "View with TOC navigation" option. When you search for the keywords "<a href="https://www.google.com/search?q=nanobite+pets&amp;rlz=1C5CHFA_enUS525US525&amp;oq=nanobite+pets&amp;aqs=chrome..69i57.2099j0j9&amp;sourceid=chrome&amp;espv=210&amp;es_sm=91&amp;ie=UTF-8#es_sm=91&amp;espv=210&amp;q=lds+calendar+help" target="_blank">lds calendar help</a>" on Google, the page appears <a title="frames decouple help from context" href="https://ue.ldschurch.org/ldsapphelp/calendar/content/help-topics/calendar-overview/calendar-help.html" target="_blank">decoupled from the navigation pane</a>, with no way to contextualize the content. Here it is:</p>
+<p>[caption id="attachment_19395" align="alignnone" width="600"]<a href="https://ue.ldschurch.org/ldsapphelp/calendar/content/help-topics/calendar-overview/calendar-help.html"><img class="size-full wp-image-19395" alt="Frames decouple the web page and don't fit the 1:1 model of the web" src="/images/decoupled.png" width="600" height="482" /></a> Frames fragment the web page into various parts and don't fit the 1:1 model of the web.[/caption]</p>
+<p>How do you know if your HTML output has frames or iframes? Go to your help, right-click the page, and select View Source. Search for the word frame. If you see frameset tags, you're using frames. If you see iframe, you're using an iframe.</p>
+<p>Alternatively, search Google for a speciic topic in your help. Does the search result surface only part of the page? If so, you're probably using a frame or iframe.</p>
+<p>Many times a site will use iframes for small components such as Facebook share. Iframes in these situations are acceptable because you don't want Google to analyze that content anyway.</p>
+<p>Taking a step away from an HTML output that uses frames or iframes for content is the first step toward improving your help's SEO. By creating web pages that are complete pages unto themselves, rather than various components glued together, you allow Google to index and rank the content as an individual page.</p>
+<p>Unfortunately, some of the major tools used by technical writers still have frame or iframe based HTML outputs.</p>

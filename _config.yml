@@ -1,0 +1,58 @@
+title: "I'd Rather Be Writing"
+description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
+host: 127.0.0.1
+port: 4019
+feedback_email: tomjohnson1492@gmail.com
+sidebar_accordion: true
+disqus_shortname: idratherbewriting
+google_analytics: UA-408430-5
+markdown: redcarpet
+show_audience_label: true
+print: false
+paginate: 15
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
+
+url: "http://tomjohnson1492.github.io"
+exclude:
+  - _drafts
+  - .idea
+  - _site
+
+# this enables the tooltip collection.
+collections:
+  tooltips:
+    output: true
+
+# these are defaults that get applied to each page or post's frontmatter. leave as is.
+permalink: /:year/:month/:day/:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "tooltips_demo"
+    values:
+      layout: "page"
+      tooltip: true
+      search: true
+
+sass:
+    sass_dir: _sass
+

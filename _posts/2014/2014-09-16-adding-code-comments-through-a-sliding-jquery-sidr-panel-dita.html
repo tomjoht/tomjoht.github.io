@@ -1,0 +1,48 @@
+---
+layout: post
+title: Adding code comments through a sliding jQuery Sidr panel (DITA)
+date: 2014-09-16 14:56:37.000000000 -07:00
+categories:
+- dita
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wp_rp_related_posts_query_result_cache_expiration: '1421703016'
+  _thumbnail_id: '21702'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:18:"133.69286256225678";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:18:"107.32616763300665";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20430";s:5:"score";s:17:"98.16306023082956";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:17:"73.62229517312217";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20665";s:5:"score";s:17:"73.62229517312217";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"19960";s:5:"score";s:17:"49.08153011541477";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"19946";s:5:"score";s:17:"49.08153011541477";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"21722";s:5:"score";s:16:"44.4263017777825";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:17:"43.15591496172534";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"21015";s:5:"score";s:18:"36.903901546395375";}}
+  _edit_last: '91'
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:18:"133.69286256225678";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:17:"107.3155949427858";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20430";s:5:"score";s:17:"98.16306023082956";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:17:"73.62229517312217";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20665";s:5:"score";s:17:"73.62229517312217";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"19960";s:5:"score";s:17:"49.08153011541477";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"19946";s:5:"score";s:17:"49.08153011541477";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"21722";s:5:"score";s:16:"44.4263017777825";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:17:"43.15591496172534";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"21015";s:5:"score";s:18:"36.903901546395375";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20548";s:5:"score";s:17:"35.74744818345913";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"21959";s:5:"score";s:17:"35.07132008264706";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:5:"21943";s:5:"score";s:17:"35.07132008264706";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:5:"21079";s:5:"score";s:17:"33.32038260793926";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:5:"20936";s:5:"score";s:17:"33.32038260793926";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:5:"20985";s:5:"score";s:18:"33.173299012610194";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:5:"21910";s:5:"score";s:18:"31.735906441516438";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:5:"21589";s:5:"score";s:18:"31.735906441516438";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:5:"21816";s:5:"score";s:17:"30.67687092797462";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:5:"21795";s:5:"score";s:17:"30.67687092797462";}}
+  fsb_social_facebook: '3'
+  fsb_social_twitter: '8'
+  fsb_social_linkedin: '4'
+  fsb_social_google: '1'
+  dsq_thread_id: '3770206914'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>If you write developer documentation, you know that developers prefer code samples to narrative instruction. The beauty of code samples is that they provide context at a glance. You can see where variables should be declared, functions called, objects initialized, and so forth — all by just looking at the code. Trying to describe the same content narratively just doesn’t connect with users.</p>
+<p>The problem is, you can only pepper the code with brief 1-2 line comments as instruction to users. These short signposts might be fine for advanced users, but for those times when you need more instruction, code comments fail. You can’t add 4 paragraphs of instruction inside a code block without completely derailing the developer’s ability to see and take in the code.</p>
+<p>One workaround is to chop the code into different pieces and separate each piece with extended narration. This model gives you more space to expand with needed instruction, but you lose out on the context. Users can no longer see where everything is supposed to appear in context with each other. </p>
+<p>Here’s a new alternative to commenting the code. Rather than limiting instruction to code comments, or alternating code blocks with text, add a sliding side pane that expands with more detail when the user needs it.</p>
+<p>You can view a link to the demo here: <a href="http://idratherbewriting.com/jquery_side_panel" target="_blank">OxygenXML Webhelp output with sliding Sidr side panel</a>.</p>
+<p><a href="http://idratherbewriting.com/jquery_side_panel" target="_blank"><img src="/images/sidepaneldemoscreen-600x369.png" alt="sidepaneldemoscreen" width="600" height="369" class="alignnone size-medium wp-image-21697" /></a></p>
+<p>When you click the <i>&raquo; more</i> link, a side panel slides out with more information. </p>
+<p>This side panel can simply be a <a href="http://everypageispageone.com/2014/09/15/transclusion-will-never-catch-on/">transclusion</a> of information from a standalone topic, perhaps the more conceptual part rather than a list of tasks.</p>
+<p>With this method, the developer gets the full code up front. He or she can scan it and see where it makes sense and where it doesn’t. It’s a good model for progressive information disclosure: the user can dive into areas where he or she needs more detail, or skip the link if he or she doesn’t need it.</p>
+<p>To create this functionality, I integrated a jQuery plugin called <a href="http://www.berriart.com/sidr/">Sidr</a>, which was originally developed to show navigation on a smartphone. The plugin’s purpose is to provide more viewing area where the real estate isn’t available. </p>
+<p>For instructions on how to integrate this Sidr jQuery plugin into your OxygenXML webhelp when DITA is your authoring source, see this topic in my DITA QRG: <a href="http://idratherbewriting.com/jquery_side_panel" target="_blank">Add an expanding side panel through Sidr (DITA)</a>.</p>
+<p>There are some disadvantages with this technique. First, you have to be careful about the way you transclude the text. You want to have your content appear customized to fit the specific code at hand rather than just be boilerplate help material pumped in from some other part of your site. (You don’t have to transclude the content, but if you don’t you’ll likely be duplicating it.)</p>
+<p>Second, as with most things that expand and collapse, this form doesn’t print. If you were to expand all the panels at once, they would overlap each other. </p>
+<p>Third, if a user searches for a phrase included in the side panel, the result won’t appear when the user arrives at the page from a search result. </p>
+<p>Finally, it takes a little bit of jQuery editing to set up, since each panel must have a unique name. But it’s nothing too cumbersome, and after the first one, it’s mostly a matter of copying and pasting the same snippet and changing a menu identifier.</p>
+<p>If those drawbacks don’t deter you, and if you don’t mind hacking some of your source OxygenXML files, try it out.</p>
+<p>Note that it’s pretty cool that you can add links inside of code blocks in DITA. I didn’t realize this at first. Most of the time when you add text inside of code blocks, all of the HTML angle brackets get rendered as characters that are displayed on the screen instead of parsed as code. Not so with DITA and code blocks. You can actually use certain elements inside of code blocks. (Not just <code>xref</code> elements, but also <code>keyref</code> for variables.)</p>
+<p>I’ve only implemented this side panel technique briefly in my help in one instance, so it’s too early to get real feedback to evaluate the method. However, I plan to use it as a more common way of documenting code.</p>

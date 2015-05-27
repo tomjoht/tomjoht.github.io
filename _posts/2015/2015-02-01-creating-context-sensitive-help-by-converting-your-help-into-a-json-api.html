@@ -1,0 +1,152 @@
+---
+layout: post
+title: Creating context-sensitive help by converting your help into a JSON API with
+  Jekyll
+date: 2015-02-01 23:18:39.000000000 -08:00
+categories:
+- api-doc
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _thumbnail_id: '22554'
+  _syntaxhighlighter_encoded: '1'
+  _edit_last: '91'
+  fsb_social_facebook: '5'
+  fsb_social_twitter: '15'
+  fsb_social_linkedin: '12'
+  fsb_social_google: '3'
+  dsq_thread_id: '3770157691'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I've written a lot about documenting APIs, but what if your documentation itself could function as an API? By this I mean, what if you could give developers an endpoint through which they could retrieve different parts of your documentation? This setup would work well for context-sensitive help within an application.</p>
+<p>I stumbled across a cool Jekyll plugin called <a href="https://github.com/18F/jekyll_pages_api">Jekyll Pages API</a> that actually allows you to do this. The plugin creates a JSON file containing your site's pages and posts. From this JSON file, developers can make calls for specific data.</p>
+<p>Here's an example. I uploaded a vanilla Jekyll site here: <a href="http://idratherbewriting.com/wp-content/apidemos/docasapi/" target="_blank">docasapi</a>.</p>
+<p>The site has 2 pages. I will get the content from those pages using the following endpoint:</p>
+<p><a target="_blank" href="http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json">http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json</a>.</p>
+<p>You can see the page content formatted as a JSON file by going to the endpoint:</p>
+<p><a target="_blank" href="http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json"><img src="/images/endpointsample-550x317.png" alt="endpointsample" width="550" height="317" class="alignnone size-medium wp-image-22550" /></a></p>
+<p>(BTW, it helps to add the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">Chrome JSON formatter extension</a> to format the JSON in your browser.)</p>
+<p>The <a href="https://github.com/18F/jekyll_pages_api">Jekyll Pages API</a> creates a pages.json file when you build your site.</p>
+<p>Here's a sample page showing how one might call the endpoint to retrieve and append the information on a page: <a target="_blank" href="http://idratherbewriting.com/wp-content/apidemos/sampledocapicall.html">Sample Doc API Call</a>.</p>
+<p><a target="_blank" href="http://idratherbewriting.com/wp-content/apidemos/sampledocapicall.html"><img src="/images/sampledoccalls-550x374.png" alt="sampledoccalls" width="550" height="374" class="alignnone size-medium wp-image-22551" /></a></p>
+<p>Just view the source code on that page for the details. There are four examples. I've copied the code here for convenience:</p>
+<p>[html]<br />
+&lt;!DOCTYPE html&gt;<br />
+&lt;html&gt;<br />
+&lt;head&gt;<br />
+&lt;style&gt;<br />
+#applesGoHere {<br />
+	margin:15px;<br />
+}<br />
+&lt;/style&gt;<br />
+&lt;title&gt;Sample API calls to doc&lt;/title&gt;<br />
+&lt;/head&gt;</p>
+<p>&lt;!-- you need jquery for the each and append methods --&gt;<br />
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
+<p>&lt;!-- script for example 1--&gt;<br />
+&lt;script&gt;<br />
+    var url = &quot;http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json&quot;;<br />
+    $.getJSON(url, function(data) {<br />
+        console.log(data);<br />
+        $(&quot;#directNotation&quot;).append(data.entries[0].body);<br />
+    });<br />
+&lt;/script&gt;</p>
+<p>&lt;!-- script for example 2 --&gt;<br />
+&lt;script&gt;<br />
+    var url = &quot;http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json&quot;;<br />
+    $.getJSON(url, function(data) {<br />
+        console.log(data);</p>
+<p>        $.each(data.entries, function(i, page) {<br />
+            if (page.title == &quot;About&quot;) {<br />
+                $(&quot;#eachLoop&quot;).append(page.body);<br />
+            }</p>
+<p>        });<br />
+    });<br />
+&lt;/script&gt;</p>
+<p>&lt;!-- script for example 3 --&gt;</p>
+<p>&lt;script&gt;<br />
+    var url = &quot;http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json&quot;;<br />
+    $.getJSON(url, function(data) {<br />
+        console.log(data);</p>
+<p>        $.each(data.entries, function(i, page) {<br />
+            if (page.url == &quot;/wp-content/apidemos/docasapi/mynameistom/&quot;) {<br />
+                $(&quot;#tomsmyname&quot;).append(page.body);<br />
+            }</p>
+<p>        });<br />
+    });<br />
+&lt;/script&gt;</p>
+<p>&lt;!-- script for example 4 --&gt;<br />
+&lt;script&gt;</p>
+<p>$(document).ready(function() {<br />
+$( &quot;#apples&quot; ).click(function() {<br />
+    var url = &quot;http://idratherbewriting.com/wp-content/apidemos/docasapi/api/v1/pages.json&quot;;<br />
+    $.getJSON(url, function(data) {<br />
+        console.log(data);</p>
+<p>        $.each(data.entries, function(i, page) {<br />
+            if (page.url == &quot;/wp-content/apidemos/docasapi/mynameistom/&quot;) {<br />
+                $(&quot;#applesGoHere&quot;).append(page.body);<br />
+            }</p>
+<p>        });<br />
+    });<br />
+});<br />
+});</p>
+<p>&lt;/script&gt;</p>
+<p>&lt;h2&gt;Example 1: Here's the text grabbed by direct dot notation&lt;/h2&gt;</p>
+<p>&lt;div id=&quot;directNotation&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;hr/&gt;</p>
+<p>&lt;h2&gt;Example 2: Here's the text grabbed via an each function&lt;/h2&gt;</p>
+<p>&lt;div id=&quot;eachLoop&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;h2&gt;Example 3: Here's another page identified by the url&lt;/h2&gt;</p>
+<p>&lt;div id=&quot;tomsmyname&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;h2&gt;Example 4: Get the content when button is clicked&lt;/h2&gt;</p>
+<p>&lt;p&gt;This data is retrieved after the button is clicked.&lt;/p&gt;</p>
+<p>&lt;button id=&quot;apples&quot;&gt;Get my data&lt;/button&gt;</p>
+<p>&lt;div id=&quot;applesGoHere&quot;&gt;&lt;/div&gt;</p>
+<p>&lt;/body&gt;<br />
+&lt;/html&gt;</p>
+<p>[/html]</p>
+<p>Tip: When you check out the sample calls, open your JavaScript Console (in Chrome, go to View > Developer > JavaScript Console) to view the payload logged to the console. (I added some console log messages in the scripts to make the payload more inspectable.)</p>
+<p>I won't go into much detail about the code except to point out that I demonstrated 4 ways to get the data. Example 1 uses direct dot notation: <code>data.entries[0].body</code>. This is simply how you access the JSON you want. However, since the order of the objects might change, this approach would be hard to manage.</p>
+<p>The second example uses jQuery's <code>each</code> method to iterate through the JSON data looking for a page titled "About". However, this method is a little shaky too since page titles frequently change.</p>
+<p>The third example uses jQuery's <code>each</code> method again to iterate through the JSON data, but this time it looks for a specific url. I think this is the most stable approach.</p>
+<p>Finally, developers aren't going to be coding all of this logic in their applications. Most likely the functions will be triggered from click or hover events. That's what the last sample shows.</p>
+<p>All you need to do is tell the developer to add unique IDs to each element where you want the context-sensitive help to appear. Then deliver a JavaScript file with a bunch of functions as shown in example 4. The developer would then add this JavaScript file to the <em>same</em> server as the website. And voila -- you have context-sensitive help the modern way.</p>
+<p>Note: If your JavaScript file is called from a different server than your website, you may get cross-original resource sharing warnings.</p>
+<h2>How to replicate the Jekyll site with the JSON API plugin</h2>
+<p>You don't have to know much about Jekyll to get this sample site running. Here are some simple steps to implement it all. You can also download the project here: <a href="http://idratherbewriting.com/wp-content/uploads/2015/02/apirubytest.zip">apirubytest</a>.</p>
+<p>These instructions assume you're on a Mac. (Sorry PC people -- I will update this one day. The instructions may be highly similar anyway.)</p>
+<ol>
+<li>Make sure you have Ruby. Open Terminal and type <code>which ruby</code>. You should see the version and location listed. If you don't have Ruby, install XCode (it contains a lot of dependencies.)</li>
+<li>Install <a href="https://rubygems.org/pages/download">RubyGems</a>, which is Ruby package manager. (To see if you already have RubyGems, type <code>gem --version</code>.)</li>
+<li>Install <a href="http://bundler.io/#getting-started">Bundler</a>: <code>gem install bundler</code>.</li>
+<li>Install <a href="http://jekyllrb.com/">Jekyll</a>: <code>gem install jekyll</code>.</li>
+<li>Create a new Jekyll site: <code>jekyll new testsite</code>.</li>
+<li>Change to your new site's directory: <code>cd testsite</code>.</li>
+<li>Use Bundler to create a new Gemfile to contain your project's plugins/gems: <code>bundle init</code></li>
+<li>Open the Gemfile: <code>open Gemfile</code></li>
+<li>Add the following [Jekyll-Pages-API gem] in the Gemfile:</li>
+</ol>
+<p>[code lang=text]<br />
+group :jekyll_plugins do<br />
+  gem &#039;jekyll_pages_api&#039;<br />
+end<br />
+[/code]</p>
+<ol>
+<li>Save (CMD+S) and then close (CMD+W) the text editor.</li>
+<li>Instruct Bundler to get the required gems based on your Gemfile: <code>bundle install</code>.</li>
+<li>Execute the scripts in your Gemfile and build your Jekyll project: <code>bundle exec jekyll serve</code>.</li>
+</ol>
+<p>You should see an address for a server at <code>http://127.0.0.1:4000</code>. Preview your Jekyll site there.</p>
+<p>Add <code>/api/v1/pages.json</code> after your server path, and you should see the JSON from your pages.</p>
+<p>Jekyll builds the site output inside the _site folder. You will find an api folder in the _site output that contains the JSON data.</p>
+<p>Note that links don't quite carry over in the JSON unless you swap in character symbols (such as <code>&amp;lt;</code> for the angle brackets (<code>&lt;</code>).</p>

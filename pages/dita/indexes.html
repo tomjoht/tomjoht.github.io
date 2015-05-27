@@ -1,0 +1,91 @@
+---
+layout: page
+title: 'DITA: Index entries'
+permalink: /indexes/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_long: ''
+  prodname_id: ''
+  wpautop: 'false'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: Index entries</h1>
+<div class="body conbody">
+<p class="shortdesc">You can add index entries to topics. Even if you don't see the value in providing an<br />
+    index, index entries can help searches find the right topics.</p>
+<p class="p"> There are various approaches for adding indexes, but here's a typical way to add index<br />
+      entries. </p>
+<div class="p">In the <samp class="ph codeph">prolog | metadata | keywords</samp> element of a topic, add index terms The<br />
+        <samp class="ph codeph">prolog</samp> element comes just after the <samp class="ph codeph">shortdesc</samp> element<br />
+      (which follows the title). Here's a<br />
+      sample:
+<pre class="pre codeblock">&lt;title&gt;My Title&lt;/title&gt;
+ &lt;shortdesc/&gt;  
+&lt;prolog&gt;
+    &lt;metadata&gt;
+      &lt;keywords&gt;
+        &lt;indexterm&gt;cars&lt;/indexterm&gt;
+      &lt;/keywords&gt;
+    &lt;/metadata&gt;
+  &lt;/prolog&gt;</pre>
+</div>
+<div class="p">You can also nest index entries inside of each other to create parent-child relationships among<br />
+   the index<br />
+   terms:
+<pre class="pre codeblock">  &lt;prolog&gt;
+    &lt;metadata&gt;
+      &lt;keywords&gt;
+        &lt;indexterm&gt;cars
+                &lt;indexterm&gt;sedan&lt;/indexterm&gt;
+        &lt;/indexterm&gt;
+      &lt;/keywords&gt;
+    &lt;/metadata&gt;
+  &lt;/prolog&gt;</pre>
+</div>
+<div class="p">The result in the index will look like this:
+<pre class="pre codeblock">cars
+  - sedan</pre>
+</div>
+<p class="p">When you want to create a "see" entry for an index, code it like this:</p>
+<pre class="pre codeblock">
+   &lt;indexterm&gt;vehicle
+   &lt;index-see&gt;car&lt;/index-see&gt;
+&lt;/indexentry&gt;
+  </pre>
+<p class="p">The result of the index-see element is the following:</p>
+<pre class="pre codeblock">
+    vehicle, see car
+   </pre>
+<p class="p">If you want to include a page number with the see also reference, write it like this:</p>
+<pre class="pre codeblock">
+    &lt;indexterm&gt;vehicle
+   &lt;index-see-also&gt;car&lt;/index-see-also&gt;
+&lt;/indexentry&gt;
+    &lt;/indexterm&gt;
+  </pre>
+<p class="p">The output will look like this:</p>
+<pre class="pre codeblock">
+    vehicle ..... 23
+           see also car
+   </pre>
+<p class="p">Keep in mind that index entries added to the <samp class="ph codeph">prolog</samp> section will include page<br />
+      numbers pointing to the location of the <samp class="ph codeph">prolog</samp>. Since most topics are short,<br />
+      this isn't a problem. Also, since the online help is usually the main deliverable, it's also<br />
+      not a problem. However, you can also add index entries in the middle of your topics. (But<br />
+      apparently this causes some problems, especially with translation.)</p>
+<p class="p">Also, some PDF renderers don't include page numbers to index entries. At any rate, since PDF<br />
+      isn't usually the main deliverable, this is not a concern with index terms.</p>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
+</div>
+</div>

@@ -1,0 +1,41 @@
+---
+layout: page
+title: 'DITA: References to non-DITA files'
+permalink: /references_to_non_dita_files/
+date: 2014-12-27 15:16:06.000000000 -08:00
+categories:
+- dita
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  prodname_id: ''
+  prodname_long: ''
+  wpautop: 'false'
+  dsq_thread_id: '3785401557'
+author: 
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h1 class="title topictitle1">DITA: References to non-DITA files</h1>
+<div class="body conbody">
+<p class="shortdesc">Making references to non-DITA resources requires you to reference the resource in the ditamap as well as the topic.</p>
+<p class="p">If you don't reference the resource in the DITA map, then it won't be included in the output. Add the following to your map, marking the resource as <samp class="ph codeph">processing-role="resource-only"</samp>.</p>
+<pre class="pre codeblock">
+     &lt;topicref href="nondita_resources/docmap.pdf" format="pdf" processing-role="resource-only"/&gt; 
+   </pre>
+<p class="p">Now that you've ensured the resource will be included with the output files, use an <samp class="ph codeph">xref</samp> and point to the resource:</p>
+<pre class="pre codeblock">
+       &lt;xref format="pdf" href="nondita_resources/docmap.pdf" scope="peer"&gt;sample pdf&lt;/xref&gt;
+    </pre>
+<p class="p">Set the format. You can type any value you want there, not just those listed in the value choices. Also add the scope attribute: <samp class="ph codeph">scope="peer"</samp>.</p>
+<p>  <a class="xref" href="/docmap.pdf" target="_blank">sample pdf</a><br />
+  <a class="xref" href="/docmap2.pdf" target="_blank">sample pdf 2</a><br />
+  <a class="xref" href="/logo.png">logo</a></p>
+</p></div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
+</div>
+</div>

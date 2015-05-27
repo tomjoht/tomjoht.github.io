@@ -1,0 +1,186 @@
+---
+layout: page
+title: 'Java: Classes'
+permalink: /java-classes/
+date: 2015-01-01 19:26:34.000000000 -08:00
+categories:
+- java
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '91'
+  _wp_page_template: default
+  dsq_thread_id: '3774849048'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<h2>Quick summary</h2>
+<ul>
+<li>a class is a template used for creating objects</li>
+<li>must be initialized with an object to use</li>
+<li>can be initialized with arguments</li>
+<li>uses Upperclass camel case</li>
+<li>class name must match file name</li>
+<li>you can only have 1 public class, but you can have multiple non-public classes</li>
+<li>contains fields (primitives or object references) and methods</li>
+</ul>
+<p>Eclipse example: object_example</p>
+<h2>Example</h2>
+<pre><code>public class Dog{   
+
+String breed;   
+
+int age;   
+
+String color;   
+
+void barking(){   }     
+
+ void hungry(){   }      
+
+void sleeping(){   }
+
+}
+
+public static void main (String[] args) {
+
+Dog d = new Dog(); // make a new object
+d.bark(); // call the bark method on my object
+d.size = 40; // set the size for the object
+}
+</code></pre>
+<p>Here's another example:</p>
+<pre><code>class Song {
+
+setArtist(String name) {
+}
+
+setTitle(String song) {
+}
+}
+
+public static void main (String[] args) {
+
+Song t2 = new Song();
+t2.setArtist("Travis");
+t2.setTitle("Sing");
+Song s3 = new Song();
+s3.setArtist("Sex Pistols");
+s3.setTitle("My Way");
+
+}
+</code></pre>
+<p>Here's an example that initializes with an argument:</p>
+<pre><code>public class Puppy
+{   public Puppy(String name)
+{      // This constructor has one parameter, name.      
+
+System.out.println("Passed Name is :" + name );    
+}   
+
+public static void main(String []args)
+
+{      // Following statement would create an object myPuppy      
+
+Puppy myPuppy = new Puppy( "tommy" );   }
+
+}
+</code></pre>
+<hr />
+<p>This bicycle example comes from <a href="https://docs.oracle.com/javase/tutorial/java/concepts/class.html">Oracle's Java tutorial</a>.</p>
+<pre><code>class Bicycle {
+
+    int cadence = 0;
+    int speed = 0;
+    int gear = 1;
+
+    void changeCadence(int newValue) {
+         cadence = newValue;
+    }
+
+    void changeGear(int newValue) {
+         gear = newValue;
+    }
+
+    void speedUp(int increment) {
+         speed = speed + increment;   
+    }
+
+    void applyBrakes(int decrement) {
+         speed = speed - decrement;
+    }
+
+    void printStates() {
+         System.out.println("cadence:" +
+             cadence + " speed:" + 
+             speed + " gear:" + gear);
+    }
+}
+</code></pre>
+<p>And here's the instance:</p>
+<pre><code>class BicycleDemo {
+    public static void main(String[] args) {
+
+        // Create two different 
+        // Bicycle objects
+        Bicycle bike1 = new Bicycle();
+        Bicycle bike2 = new Bicycle();
+
+        // Invoke methods on 
+        // those objects
+        bike1.changeCadence(50);
+        bike1.speedUp(10);
+        bike1.changeGear(2);
+        bike1.printStates();
+
+        bike2.changeCadence(50);
+        bike2.speedUp(10);
+        bike2.changeGear(2);
+        bike2.changeCadence(40);
+        bike2.speedUp(10);
+        bike2.changeGear(3);
+        bike2.printStates();
+    }
+}
+</code></pre>
+<h2>Static classes</h2>
+<p>If a class is static, it means you don't have to create an instance of the class.</p>
+<blockquote><p>
+  On a class, the static keyword means that only one instance of that class exists. You can't create a new instance of a static class<br />
+   -- Java 7 for Absolute Beginners
+</p></blockquote>
+<h2>"Instantiating a class"</h2>
+<p>"Instantiating a class is the same as creating an object from the class; also referred to as initializing a new object. You create an "instance" of the class.</p>
+<p>All objects of a class have access to the methods and fields of that class.</p>
+<h2>How you create a new object</h2>
+<p>Constructors create the objects. The <code>new</code> keyword is the default constructor for classes. (You can use "construct" instead of "create").</p>
+<p>You use a constructor to construct the object from the class (template). The most common constructor is the <code>new</code> keyword, but there are other ways to instantiate a class as well.</p>
+<p>You could also create an object reference without assigning any value to it. You might see something like this:</p>
+<pre><code>Point originOne;
+</code></pre>
+<p>In this case, <code>Point</code> is the class and <code>originOne</code> is a reference variable to the class. But until you invoke the <code>new</code> keyword, you haven't actually created a new object here.</p>
+<h2>Fields</h2>
+<p>The variables declared inside a class are referred to generically as fields. However, you can be more specific with the terminology:</p>
+<ul>
+<li>local variables: fields inside a method or constructor</li>
+<li>instance variables: variables inside the class but not in any method. (They only become alive when you instantiate the class.) </li>
+<li>class variables: variables within a class but with the static keywords</li>
+</ul>
+<h2>Questions to ask about a class</h2>
+<p>Is it public or private? What fields and methods does the class have? Does the class inherit another class? What does the class do? What does the class return? How is the class instantiated?</p>
+<h2>Fields</h2>
+<p>A field can be an object reference:</p>
+<pre><code>Address address;
+</code></pre>
+<p>Here <code>address</code> is the object that refers to the class <code>Address</code>. We haven't instantiated the class yet until we invoke the class's constructor. Here we just define the object reference. The class isn't actually initialized.</p>
+<h2>Abstract versus concrete</h2>
+<p>Classes are by default concrete. If they're abstract, you can't instantiate them. Instead, you must extend them to create a subclass from them.</p>

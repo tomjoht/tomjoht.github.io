@@ -1,0 +1,15 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: REST API requests and responses
+      items:
+        - title: EventBrite example
+          url: /eventbrite-example/
+        - title: Klout score example
+          url: /klout-example-score/
+        - title: Klout influencees example
+          url: /klout-example-influencees/
+        - title: Flickr example
+          url: /flickr-example/
+

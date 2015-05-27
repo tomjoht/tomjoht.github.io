@@ -1,0 +1,45 @@
+---
+layout: post
+title: Challenges in using WordPress for publishing DITA content
+date: 2014-09-02 19:53:13.000000000 -07:00
+categories:
+- dita
+tags: []
+status: publish
+type: post
+published: true
+series: "Author in DITA, publish in WordPress"
+weight: 3
+---
+{% include series.html %}
+
+<p>The other week I wrote a post called <a href="http://idratherbewriting.com/2014/08/19/author-dita-publish-wordpress/">Author in DITA, publish on WordPress</a>. Although the workflow from DITA to Wordpress is possible and might work fine for many situations, there are significant challenges in using WordPress as a publishing platform. </p>
+<h2>Authentication</h2>
+<p>One major reason why WordPress is difficult to adopt as a delivery platform for help content is authentication. If your help is openly accessible to everyone on the web, then authentication doesn’t pose a problem. But if you only want people who can authenticate into your application to view the help, then you have a real challenge with WordPress.</p>
+<p>With a standalone webhelp file, you can easily deploy it to the server where your application resides. Those who log in can then click a Help button and access the help because they are already signed in. </p>
+<p>In contrast to flat file systems, WordPress has a MySQL database and PHP backend, so you can’t put your WordPress site in a zip file and upload to a server like any file. Instead, you would need to install WordPress on a server that has the supporting architecture (Apache, MySQL, PHP). This means that when users click the Help button that points to the server where your WordPress site resides, you have to authenticate them separately from your app. </p>
+<p>There are numerous authentication plugins for WordPress that work with LDAP, SAML, and other protocols. But creating a seamless single-sign-on experience between your application and WordPress site will probably require custom development. </p>
+<p>This proved to be the deal breaker for me. Some account managers need help inside a Salesforce Community instance; others want it on the server where the application resides. Others want to send the help information to prospects. The server database architecture with WordPress makes it difficult to deliver help to various targets, each with different authentication requirements.</p>
+<p>If your authentication requirements are complex, flat files are much easier. Flat files can easily travel from one repository to another, fitting in with the authentication of the host system.</p>
+<h2>Menu integration</h2>
+<p>The menu integration is also challenging. DITA's XHTML output is navigable through a table of contents file that lists the help files in a hierarchy. WordPress wants you to manually create your menu using its menu manager (Appearance > Menus). There are many cool plugins for WordPress menus that you can easily leverage if you have a menu created.</p>
+<p>The existing <a href="http://idratherbewriting.com/2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/">DITA XHTML Import tool</a> doesn’t convert the table of contents into a WordPress menu. That would be an enhancement that needs to be made if you’re planning to publish from DITA to WordPress regularly. Additionally, if you want to show a list of pages, the import process doesn't preserve the sort order for pages. Hierarchy is preserved, but subpages under a page are sorted alphabetically.</p>
+<p>One person suggested that rather than try to convert pages into a WordPress menu, I should just leverage the existing links in the TOC file produced by the DITA XHTML. For example, when the toc.html file gets imported, I could pull this page dynamically into a widget to display its contents.</p>
+<p>This does work well enough, but WordPress won't recognize a set of links as pages, so the active pages won’t highlight unless you incorporate some custom jQuery scripts to create that functionality. (With WordPress, when you go to a page, WordPress injects a class called <code>active</code> into the page's link so that you can highlight that link through a CSS class.)</p>
+<p>Additionally, with pages configured outside the menu structure, you can’t take advantage of the many menu and page plugins already built for WordPress. At some point, if you can’t hook into all the cool stuff already coded for WordPress, you have to ask why you’re publishing to WordPress anyway. Couldn’t all the same benefits be achieved from a flat file system?</p>
+<h2>Updating content</h2>
+<p>Another major challenge in using tech comm for help content is in making updates. Suppose you publish your help to WordPress and then make some major updates to your DITA source, removing some files, splitting other files into two files, and more. What happens to the legacy files on WordPress when you publish the update?</p>
+<p>Currently, the legacy files remain and you have to manually remove them. A more sophisticated import tool might compare the existing pages on the WordPress site against the table of contents of the import. For those pages on the WordPress site that aren’t listed in the table of contents, the import process could ask whether you want to delete them. </p>
+<p>But since you might have other pages on your WordPress site that live separately from your help material (e.g., a contact form or legal notice), you might need to resort to custom post types to keep the page types separated. If you're using a WordPress site, it's highly likely that other SMEs are contributing content such as knowledge base articles, white papers, and other resources. Creating an import tool that relies on custom post types creates more complexity, because now you'll need to code your theme to support the custom post types. (You might simply use pages for the help content, and custom post types for everything else.) </p>
+<p>Another approach would be to bulk delete all the existing pages each time you publish (cleaning the output target, essentially). But this means you’ll lose all of your existing comments and history with each page. Losing the history is acceptable, since you probably have your files under source control anyway, but you probably don’t want to lose the comments on your pages.</p>
+<p>One strategy might be to use a commenting system that is decoupled from the page itself. I'm not sure if those tools exist, but at this point, if you're not going to use WordPress' built-in commenting system, why use WordPress at all?</p>
+<p>You will find that WordPress is not designed to receive content that is authored from an outside source and continually imported in. Going against a product's basic design rarely works.</p>
+<h2>Multisite licensing</h2>
+<p>I also want to mention a bit about multisite licensing. As open source software, WordPress is pretty inexpensive, but the cost model is set up around standalone sites. If you’re using WordPress Multisite and publishing out to 5-10 different sites in your network, you’ll need to buy a lot more licenses for themes and plugins than you might think.</p>
+<p>For example, suppose you buy a theme for $50. You use that theme on your base site and on 6 network sites. You also have the same architecture mirrored internally for testing. So in total, you use the theme in 14 different WordPress instances. That’s $700. Add in some custom plugins and other tools replicated across the same number of sites, and you could be up to several thousand dollars. Still very cheap, but not as cheap as it might initially appear.</p>
+<p>On the topic of licensing, when using open source themes and plugins, it's important to pay attention to licensing, since the types of licenses often vary. You may need to run the licensing through an Intellectual Property office of some kind. (As long as you're not using the third-party software to build a product that you sell, though, you're probably safe.)</p>
+<h2>Automatic paragraphs</h2>
+<p>One detail to note in publishing to WordPress is that your imported content will probably have some odd spacing. In normal HTML publishing, empty space is overlooked. But WordPress treats double line breaks as new paragraph elements and automatically inserts paragraph tags. This feature is called "wpautop" (wordpress auto paragraph).</p>
+<p>You can disable wpautop through a number of plugins, but then you'll need to manually add paragraph brackets for other content not handled through your DITA to WordPress workflow. </p>
+<h2>Related links</h2>
+<p>For instructions on importing DITA into WordPress, see the <a href="http://idratherbewriting.com/import_dita_into_wordpress">Import DITA's XHTML Output into WordPress topic</a> in my DITA QRG.</p>

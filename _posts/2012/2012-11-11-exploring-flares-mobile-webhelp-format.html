@@ -1,0 +1,147 @@
+---
+layout: post
+title: Exploring Flare's Mobile Webhelp Format in Depth
+date: 2012-11-11 16:50:48.000000000 -08:00
+categories:
+- general
+tags:
+- Madcap Flare
+- media queries
+- mobile
+- responsive design
+status: publish
+type: post
+published: true
+meta:
+  _wp_rp_image: '17872'
+  _edit_last: '1'
+  image: ''
+  seo_follow: 'false'
+  seo_noindex: 'false'
+  dcssb_short_url: http://bit.ly/T20jqK
+  _thumbnail_id: '12347'
+  _wp_rp_related_posts_query_result_cache_expiration: '1420043622'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"77.76403821208154";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:17:"58.03974623454001";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20890";s:5:"score";s:17:"42.17945290420967";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"16622";s:5:"score";s:17:"36.93773078873408";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"12249";s:5:"score";s:17:"35.51799368216012";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:17:"34.77533966048251";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"29.60740493374084";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20507";s:5:"score";s:18:"26.081504745361883";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20258";s:5:"score";s:17:"22.92250333284021";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20250";s:5:"score";s:17:"22.92250333284021";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"77.33771572995411";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:18:"57.479539184001716";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20890";s:5:"score";s:17:"42.47294515226986";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"12249";s:5:"score";s:18:"36.033360413624294";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"34.616338610728974";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:18:"29.768574714701742";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20507";s:5:"score";s:17:"25.96225395804673";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"18563";s:5:"score";s:17:"22.94707152582697";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20258";s:5:"score";s:18:"22.691103599150555";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20250";s:5:"score";s:18:"22.691103599150555";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20248";s:5:"score";s:18:"22.691103599150555";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20244";s:5:"score";s:18:"22.691103599150555";}}
+  fsb_social_facebook: '7'
+  fsb_social_twitter: '15'
+  fsb_social_linkedin: '18'
+  fsb_social_google: '2'
+  dsq_thread_id: '3770205612'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I've recently been exploring Madcap Flare's Mobile Webhelp format. Madcap introduced this new format in version 7, so it's not a new feature (Flare is now on version 8). Nevertheless, I haven't used this format much much partly because I haven't had any mobile projects until now, and because mobile documentation is still so young.</p>
+<h2>A Standalone Help File?</h2>
+<p>The first question to ask is, should mobile help be packaged in its own file rather than the app? If a user clicks the help file, does the help load in its own frame, taking the user out of the context of the app? This seems to be an important first question to consider.</p>
+<p>When you're in a mobile app, it's not always intuitive how to task-switch to another app. If you upload your help to a web server so that it's accessible from a URL, and then you link your app's help button to that URL, when users click the help, they're taken out of the app to a web browser.</p>
+<p>If developers are just going to strip your content into their own modules to display inside the app, I'm not sure the mobile webhelp target is worth bothering with.</p>
+<p>However, keeping the content in Flare and publishing to to the mobile webhelp target has several clear advantages:</p>
+<ul>
+<li>You can more easily single source to a printed PDF.</li>
+<li>You can more easily translate the content (because of the Flare-Lingo combination).</li>
+<li>You can maintain control over the help material.</li>
+<li>You can take advantages of other Flare features, such as dropdown hotspots, cross-references, search, and glossaries.</li>
+</ul>
+<p>(One solution in dealing with help loading outside the app is to add a button in the mobile help's header that allows users to toggle back to the app. More on that later.)</p>
+<h2>Separate Theme or Same Theme for Mobile?</h2>
+<p>Let's assume we want a mobile display. The next question is, do we want a separate set of theme files for the mobile display, or should the same content just look good on both desktop and mobile browsers using the same theme?</p>
+<p>Flare's mobile webhelp feature was developed before responsive design took the main stage. The idea of responsive design is that you have one source but different rules in the stylesheet that alter the display of content for different devices. Just as Flare has styles for a print and online medium in the same stylesheet, media queries allow you to add more styles for devices of different widths and types.</p>
+<p>If you can do responsive design well, your content will display nicely on smartphones, tablets, and desktop devices without the need for entirely separate sites and code bases. If you look at this blog on a mobile device, it should look readable, because the stylesheet includes responsive design. But I just have one theme. There isn't a separate theme that loads for mobile devices.</p>
+<p>Flare has a separate skin for the mobile display. Having worked on some responsive WordPress themes, I must confess that I see merit to Flare's approach. Here's why: When you try to use the same theme for both mobile and desktop displays, and just adjust the media query styling to accommodate different devices, there are a plethora of details that can go wrong.</p>
+<p>Adding a little bit of styling on one element can throw off the display in some  mobile devices but others. Adding some styling to accommodate a tablet, for example, may distort the view on a desktop or smartphone device. Fixing the display for a mobile device may throw askew the display on a desktop, and so forth. And the whole theme has to be minimalist to be flexible enough to adapt well on different devices.</p>
+<p>The many intricate touchpoints involved in responsive design make it a challenge. Separating out the mobile theme into its own bit of code with its own stylesheet and layout is somewhat of a relief. Undoubtedly, Flare's mobile theme is more basic, simple, and flexible than the HTML5 theme. But it's less of a worry knowing that when I adjust the padding on a dropdown hotspot, for example, it's not going to affect my desktop view styling. So, in a way, customizing the design is simpler with Flare.</p>
+<h2>Mobile Webhelp Options</h2>
+<p>Now let's look at the mobile format a little more closely. When I first showed the skin to an Android developer, his first reaction was that it looked very iPhone-like. You can style the skin, but the degree to which you can customize it is limited.</p>
+<p>The default menu shows five possible options:</p>
+<ul>
+<li>Table of Contents</li>
+<li>Glossary</li>
+<li>Index</li>
+<li>About</li>
+<li>Search</li>
+</ul>
+<p>I'll explore each of these features, starting with the main menu, in detail.<br />
+<strong>Main Menu.</strong> The app always defaults to this main menu. You can drill into the Table of Contents, but the Home button on the toolbar will take you back to the overall menu, not to the Table of Contents menu.</p>
+<p>[caption id="attachment_12337" align="alignnone" width="384"]<img class=" wp-image-12337 " title="Main Menu" src="/images/Screenshot_2012-11-14-13-23-54-640x1024.png" alt="Main Menu" width="384" height="614" /> Main Menu[/caption]</p>
+<p>(Note: These screenshots are from a project I was recently documenting. If you want to explore the version I implemented online, you can do so <a href="https://ue.ldschurch.org/mobile/gla">here</a>.)</p>
+<p>Because of this default home location, I thought it would be good to use each of these features (Table of Contents, Glossary, Index, About, and Search). If I just had Table of Contents (a single option) it might confuse users as to why I presented them with this extra step and required them to drill down before presenting the actual content.</p>
+<p>If you really want your list of topics in the table of contents to show as the default home, here's<a href="http://www.madcapsoftware.com/blog/2012/02/09/webhelp-mobile-as-a-mobile-performance-support-application/"> a workaround for doing it</a>. However, the workaround involves editing the generated output, so this is a somewhat tedious process if you regularly regenerate your output.</p>
+<p><strong>Table of Contents.</strong> The way you navigate the table of contents works pretty well, in my opinion. I don't have a whole lot to say here other than that it just works. The topic names are large enough that you can easily tap them on a mobile screen, and you can navigate forwards and backwards intuitively and easily enough.</p>
+<p>[caption id="attachment_12338" align="alignnone" width="384"]<img class=" wp-image-12338" title="Table of Contents" src="/images/Screenshot_2012-11-14-13-24-04-640x1024.png" alt="Table of Contents" width="384" height="614" /> Table of Contents[/caption]</p>
+<p><strong>Glossary.</strong> The Glossary display also looks great. I like the hierarchical styling between the terms and their definitions. It's easy to navigate and scroll. You can also style the gradient bars that separate the letters through the mobile skin editor.</p>
+<p>Unfortunately, as with the glossary in other Flare targets, you can add <em>either</em> a definition or a link, but not both. So often I've wanted to define a term and then point users to more information in the help through a link.</p>
+<p>[caption id="attachment_12339" align="alignnone" width="384"]<img class=" wp-image-12339 " title="Glossary" src="/images/Screenshot_2012-11-14-13-24-38-640x1024.png" alt="Glossary" width="384" height="614" /> Glossary[/caption]</p>
+<p><strong>Index.</strong> The index looks all right, but there's no hierarchical styling between keyterms and subkeyterms except an indent. Despite my best efforts to style this feature, the styling is coded with embedded style attributes rather than references a stylesheet. As a result, I was unable to change the style of the subkeyterms.</p>
+<p>[caption id="attachment_12340" align="alignnone" width="384"]<img class=" wp-image-12340 " title="Index" src="/images/Screenshot_2012-11-14-13-24-24-640x1024.png" alt="Index" width="384" height="614" /> Index[/caption]</p>
+<p>More problematic, when you click an index entry, it goes only to the <strong>page</strong> (not the topic) where the index entry resides. If you have dropdown hotspots on your page, like I do, the hotspot where the index entry is located doesn't expand to show the location of the index keyword area. This makes the feature somewhat useless because I like to stack a lot of topics in hotspots on a single page rather than breaking them out into their individual pages.</p>
+<p>My help is probably too small to make an index worthwhile, but it could be helpful in a larger project.</p>
+<p><strong>About.</strong> The About page lets you browse to a graphic and include it. You are limited to a graphic only, no text. People searching in the help file usually don't look for an about graphic, though I suppose this might be where you could brand your department's authorship of the help file.</p>
+<p>[caption id="attachment_12345" align="alignnone" width="384"]<img class=" wp-image-12345 " title="About section" src="/images/Screenshot_2012-11-14-13-25-00-640x1024.png" alt="About section" width="384" height="614" /> About section[/caption]</p>
+<p><strong>Search.</strong> The search works well. I like how it highlights the term you searched for in the search results. There's no way to remove the highlighting on the page, but this is fine by me.</p>
+<p>[caption id="attachment_12337" align="alignnone" width="384"]<img class=" wp-image-12337 " title="Search" src="/images/Screenshot_2012-11-14-13-23-54-640x1024.png" alt="Search" width="384" height="614" /> Search[/caption]</p>
+<p>(Although the search doesn't look like an option in the menu, when you're configuring the features in your skin, Search is one of the check boxes, so I listed it here. I'm not sure why anyone would turn off search.)</p>
+<h2>Drop-Down Hotspots</h2>
+<p>I've become a serious fan of drop-down hotspots, and if this javascript feature is relevant on any platform, it's especially relevant on a mobile platform. For example, take a look at Wikipedia's mobile display of, say, <a href="http://en.m.wikipedia.org/wiki/RTFM">this page</a>. You can see that each section is collapsed into a dropdown hotspot (this is the mobile view, which you access by adding an "m" after "en" in the URL).</p>
+<p>Here's the same styling of hotspots in my sample help file.</p>
+<p><img class="alignnone  wp-image-12341" title="Dropdown Hotspot" src="/images/Screenshot_2012-11-14-13-25-18-640x1024.png" alt="" width="384" height="614" /></p>
+<p>The graphics in the above screenshot are customized. I personally think the default style for the dropdown hotspots in Flare's mobile webhelp aren't very mobile friendly. The graphics are too small to click, and the default styling doesn't have enough white space. You can fix this with a bit of hacking.</p>
+<h2>Customizing Dropdown Hotspots in Flare</h2>
+<p>First let's change the buttons. Flare pulls the expand and collapse buttons from this directory: C:Program Files (x86)MadCap SoftwareMadCap Flare V8Flare.appResourcesImagesWebHelp</p>
+<p>(Note: Open Windows Explorer and paste in that path. Don't paste it into a web browser.)</p>
+<p>You'd think the images would come from the WebhelpMobile directory, but they don't. I assume that's because the developers want to be efficient in not doubling the same resources used by one skin in another.</p>
+<p>Tweak the collapse.gif and expand.gif files. I pulled a chevron graphic from the WebhelpMobile directory and rotated it. That WebHelpMobile directory is here: C:Program Files (x86)MadCap SoftwareMadCap Flare V8Flare.appResourcesWebHelpMobileAdvancedSkinsDefaultImages</p>
+<p>For the collapsed state, I made the graphic blue to reinforce its clickability.</p>
+<p>Now, the chevron graphic rides a little high on the line, so adjust the style a bit by adding this code to your mobile stylesheet:</p>
+<p>.MCDropDownHotSpot_<br />
+{<br />
+padding-top: 0px;<br />
+margin-bottom: 30px;<br />
+}</p>
+<p>And then style the hotspots with some more space and other details:</p>
+<p>MadCap|dropDownHotspot<br />
+{<br />
+cursor: hand;<br />
+text-decoration: none;<br />
+margin-bottom: 12px;<br />
+display: block;<br />
+color: #486fae;<br />
+font-family: "Lucida Grande";<br />
+font-size: 14pt;<br />
+border-bottom: solid 1px #d3d3d3;<br />
+margin-top: 15px;<br />
+padding-top: 15px;<br />
+}</p>
+<p>Note: You can't just add the expand or collapse images to the MadCap|dropDownHotspot style in the Advanced Editor using the background-image property. That doesn't do anything because these hotspots are driven by javascript.</p>
+<h2>Customizing Header Background</h2>
+<p>The Header background is among the easiest elements to style. You can change that default blue gradient to a color that better matches your application. The header is a sliver graphic (tall and thin) that repeats horizontally. You can edit the header style in the mobile skin editor.</p>
+<p>If you want to modify the original header graphic, you can find it here: C:Program Files (x86)MadCap SoftwareMadCap Flare V8Flare.appResourcesWebHelpMobileAdvancedSkinsDefaultImages.</p>
+<h2>Customizing Home button</h2>
+<p>The default home button graphic comes in several pieces. This allows the button to automatically adjust for a longer name. You can find the home button pieces here: C:Program Files (x86)MadCap SoftwareMadCap Flare V8Flare.appResourcesWebHelpMobileAdvancedSkinsDefaultImages</p>
+<p>If you want to change the home button, make a copy of the these default images, and then adjust them in an application such as Photoshop to change their color. Then reinsert them through the skin editor. This allows you to create different looking mobile outputs (for example, one for iPhone and another for Android).</p>
+<p>(Rather than make drastic changes to this button, I just desaturated the color in Photoshop.)</p>
+<p>You can also change the default images in the Flare source files, but remember that any hacking you do to default images in source files will be lost when you reinstall Flare.</p>
+<h2>Using Topic Toolbar</h2>
+<p>In addition to these elements, you can also customize a topic toolbar. As with other targets, you add a Topic Toolbar proxy to your master page, and then configure the topic toolbar in the mobile skin editor.</p>
+<p>[caption id="attachment_12342" align="alignnone" width="600"]<img class="size-medium wp-image-12342" title="Topic Toolbar" src="/images/topic-toolbar-600x530.png" alt="Topic Toolbar" width="600" height="530" /> Topic Toolbar[/caption]</p>
+<p>The graphics in the topic toolbar are visually unsatisfying. The Next and Previous buttons are green (contrasting with the default blue gradient header), and the Collapse and Expand buttons are too small to see. (The Show Content Index button applies to a browse sequence only, and probably won't show unless you have a browse sequence enabled.)</p>
+<p>Unfortunately, the skin editor doesn't allow you to change the topic toolbar graphics through the skin editor. You would have to actually change the buttons in Flare's source code. However, this turns out to be impossible. All the buttons for this topic toolbar comes from this directory: C:Program Files (x86)MadCap SoftwareMadCap Flare V8Flare.appResourcesWebHelpDefault.flwhtImages</p>
+<p>Flare doesn't like it when you modify images in this folder. If you do change an image, even if you keep the same file name, format type, and other details, Flare takes a long time to start up, showing a "Please wait while Windows configures Madcap Flare" message for several minutes before loading. Then when you navigate back to that Default.flwhtImages folder, you'll see that any changes you made are overwritten by the default buttons.</p>
+<p>In short, you can't modify these topic toolbar buttons easily. As a result, I don't recommend trying to implement the topic toolbar. (Fortunately, the topic toolbar doesn't seem essential by any means.)</p>
+<h2>Different Formats for Different Devices?</h2>
+<p>Flare's mobile webhelp is a one-size fits all solution. If you try to include media queries, Flare strips them out. I hope this restriction will be fixed in their next release. If you want to adjust the display for different mobile devices (for example, a mobile skin for Apple, another for Android), you would need to create a separate stylesheet.</p>
+<p>You could do this fairly easily without a ton of extra work. You could create a master mobile stylesheet, and then import that mobile stylesheet into various specialized stylesheets for each mobile device.</p>
+<p>For example, call the master mobile stylesheet "mobile.css." Then create a different stylesheet for an iPad, calling that stylesheet "ipad.css." On the ipad.css file, put this at the top:</p>
+<p>@import ('mobile.css')</p>
+<p>Then add your custom styling below it.</p>
+<p>Of course if you do this, your help button needs to be sophisticated enough to serve up help for iPads in contrast to help for other devices. That complexity right there is probably more than you want to deal with.</p>
+<h2>Conclusion</h2>
+<p>Overall, I think Flare's mobile webhelp is a good first attempt at a mobile format, but it needs some refinement and potential readjustment. Despite my reservations about the complexity of responsive design, I would like to see the HTML5 help look better on mobile devices by default. (I know the table of contents side pane is going to be tricky.)</p>
+<p>Regardless of the shortcomings I pointed out in Flare's Mobile Webhelp format, this format has given me a powerful tool for me to add value to mobile projects. I can better pitch our group's services to mobile teams and show them an output that their app needs. So far it has worked well.</p>
+<p>&nbsp;</p>

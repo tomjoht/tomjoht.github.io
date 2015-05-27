@@ -1,0 +1,38 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: JavaScript
+      items:
+        - title: Introduction
+          url: /javascript/
+        - title: Numbers
+          url: /numbers-javascript/
+        - title: Strings
+          url: /strings-javascript/
+        - title: Variables
+          url: /variables-javascript/
+        - title: Dates
+          url: /dates-javascript/
+        - title: Loops
+          url: /loops-javascript/
+        - title: Functions
+          url: /functions-javascript/
+        - title: Objects
+          url: /objects-javascript/
+        - title: Conditional code
+          url: /conditional-code-javascript/
+        - title: Arrays
+          url: /arrays-javascript/
+        - title: Events and listeners
+          url: /events-and-listeners-javascript/
+        - title: jQuery
+          url: /jquery-a-javascript-library-javascript/
+        - title: Inserting elements
+          url: /insertion-of-elements-javascript/
+        - title: Document object model
+          url: /document-object-model-javascript/
+        - title: Firefox and Firebug
+          url: /firefox-and-firebug-javascript/
+        - title: AJAX
+          url: /ajax-javascript/

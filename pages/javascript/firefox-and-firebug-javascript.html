@@ -1,0 +1,44 @@
+---
+layout: page
+title: 'JavaScript: Firefox and Firebug'
+permalink: /firefox-and-firebug-javascript/
+date: 2013-02-02 17:30:22.000000000 -08:00
+categories:
+- javascript
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
+  _wp_page_template: default
+  _syntaxhighlighter_encoded: '1'
+  _spost_short_title: ''
+  _series_part: '4'
+  _wp_rp_image: '22191'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20258";s:5:"score";s:18:"57.582632394895455";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20254";s:5:"score";s:18:"57.582632394895455";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20252";s:5:"score";s:18:"57.582632394895455";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20250";s:5:"score";s:18:"57.582632394895455";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20248";s:5:"score";s:18:"57.582632394895455";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20244";s:5:"score";s:18:"57.582632394895455";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20242";s:5:"score";s:18:"57.582632394895455";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:17:"54.19348590624149";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13601";s:5:"score";s:18:"53.188360709323234";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20256";s:5:"score";s:17:"50.50875509945737";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:17:"45.66384742968883";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:17:"41.84922969892325";}}
+  dsq_thread_id: '3771392329'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Although you integrate JavaScript through a separate js file that you reference in your HTML page, if you just want to practice, debug, or step through JavaScript code, you can use the <a href="http://getfirebug.com/">Firebug extension</a> for Firefox.</p>
+<p>First install the Firebug extension and then activate it by clicking the bug <img alt="" src="/images/bug.png" /> in the upper-right corner of your Firefox browser. Firebug will open a pane at the bottom of your browser window.</p>
+<p>Click <b>Console</b>. Then click the little arrow <img alt="redbutton" src="/images/redbutton.png" /> in the lower-right corner to divide the pane into two panels.</p>
+<p>Now you can write JavaScript in the right pane and click <b>Run</b> to see it in action:</p>
+<p>[caption id="attachment_13590" align="alignnone" width="500"]<img class="size-full wp-image-13590" alt="Using Firebug with Firefox" src="/images/firebuginfirefox.png" width="500" height="470" /> Using Firebug with Firefox[/caption]</p>
+<p>You can also use the <code>console.log</code> command instead of <code>alert</code> to display messages on the left pane.</p>
+<p>[caption id="attachment_13592" align="alignnone" width="500"]<img class="size-full wp-image-13592" alt="Using the console.log command" src="/images/consolelog1.png" width="500" height="470" /> Using the console.log command[/caption]</p>
+<p>The <code>console.log</code> command is specific to Firebug only and isn't actually a real JavaScript command. Firebug provides several other commands: <code>console.error</code>, <code>console.warn</code>, and <code>console.info</code>. These other commands add little icons in the console to identify the result.</p>
+<p>The <code>console.log("Hello World")</code> command is similar to writing <code>alert("Hello World")</code> except that it writes the string to the Firebug console instead. This simply allows you to see that the command was run.</p>
+<p>Most examples declare variables, like this:</p>
+<p>[js]var x = &quot;Hello World&quot;<br />
+console.log(x);[/js]</p>
+<p>This writes the same message to the console, using a variable to reference the string instead of writing the string directly. It's probably the simplest JavaScript code to write, and is used when the emphasis is on some other format or aspect of the statement.</p>
+<p>Many of the example scripts in this tutorial use the <code>console.log</code> command for its simplicity.</p>

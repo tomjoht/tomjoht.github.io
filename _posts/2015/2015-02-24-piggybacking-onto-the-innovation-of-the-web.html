@@ -1,0 +1,44 @@
+---
+layout: post
+title: Piggybacking onto the innovation of the web
+date: 2015-02-24 08:28:01.000000000 -08:00
+categories:
+- general
+- innovation
+tags: []
+status: publish
+type: post
+published: true
+series: "Innovation in tech comm"
+weight: 7
+---
+{% include series.html %}
+
+<p>In the <a href="http://idratherbewriting.com/2015/02/19/microsoft-and-the-last-5-great-technological-innovations/">previous post in this series</a>, I looked at the five major technological innovations of the past decade and asked how tech comm plugs into each of them. In this post, I want to explore ways to piggyback onto the innovation of the web.</p>
+<h2>Challenges in hacking</h2>
+<p>A few months back, I was exploring different ways to integrate jQuery plugins into OxygenXML's webhelp. First I added a <a href="http://idratherbewriting.com/toc_publishing/jquery_show_hide/">show/hide toggle</a>. Then I added an <a href="http://idratherbewriting.com/toc_publishing/jquery_side_panel/">expanding side panel</a>, and then a <a href="http://idratherbewriting.com/toc_publishing/jquery_content_selector/">dynamic content filter</a>. I also figured out just how to <a href="http://idratherbewriting.com/toc_publishing/import_dita_into_wordpress/">import DITA into WordPress</a>. Each of these techniques required quite a bit of hacking.</p>
+<p>For example, with the content filter, first I had to go into one of Oxygen's deeply nested webhelp xslt plugin files to allow attributes other than classes (such as IDs or data) to pass through to the webhelp output. I then added the right scripts and css to Oxygen's plugin files. Figuring out where to add the scripts was challenging since their webhelp has several different iframes (TOC, main window, and header), and some scripts only work in their own iframe. Getting the script to update across the iframes was tough.</p>
+<p>Additionally, I had to see how the attributes I added in XML got converted in the HTML output. For example, when I add <code>product="acme"</code> as an attribute, how does that end up in the output? It's not always straightforward. <code>section</code> IDs are prepended with the topic ID in the output. <code>product</code> attributes become <code>data</code> attributes, and so on. This naming of course affects how you trigger and script and style the elements.</p>
+<p>Then I had to experiment a bit in figuring out what was valid and not valid to put in the header file for the toggle, and so on.</p>
+<p>The whole process took a lot of trial and error over a few days. This was similar to the other hacks. Each time when I got something to work, I celebrated a little victory.</p>
+<h2>Breaking point</h2>
+<p>There was one technique that proved to be my breaking point: navigation tabs inside a topic. I was trying to insert a navtab inside a topic similar to what you commonly see on web pages where there are several different ways to accomplish a similar task. Here's an example from Twilio:</p>
+<p><a href="http://www.twilio.com/docs/api/rest/call"><img src="/images/tabber-600x328.png" /></a></p>
+<p>I tried about 5 different jQuery plugins for navtabs, but I couldn't get any of them to work inside a task topic. You can read my <a href="http://www.oxygenxml.com/forum/topic11090.html">frustrated forum thread in OxygenXML's support site here</a>.</p>
+<p>One of the main problems is that you can't really intercept a list with all this code, even on a general base topic.</p>
+<p>After this experience, I started to realize that, even though OxygenXML's own webhelp plugin relies on plenty of jQuery and other web functionality, it required all kinds of backflips and special hacks to do the customizations I wanted. I simply wanted to leverage a lot of the web technologies into my help output in an easy way, following the standard instructions provided with the plugin or library.</p>
+<h2>Tech pubs versus the web?</h2>
+<p>My experience in trying to innovate on the webhelp plugin from Oxygen made me realize a growing idea in the back of my mind: If I wanted to ride this wave of web innovation, I needed to piggyback onto the platforms that web developers are driving, supporting, and using.</p>
+<p>Tech pubs tools tend to be on their own track, different from the tools that UX engineers and other web developers are using. Trying to incorporate UX techniques into tech pubs tools is a constant frustration.</p>
+<p>Now granted, even if you're using something like Oxygen's webhelp plugin, it of course relies on a lot of jQuery libraries from the web. In fact, there are so many jQuery and JavaScript libraries in it that Oxygen's webhelp output actually loads really slowly (about 3 seconds per page, in my experience).</p>
+<p>The problem with vendor solutions is that, as a push-button solution within their tool, you can't really build on it to do any significant customizations. You end up going to great lengths to add simple hacks that would take you about 10 minutes on a regular HTML page. Adding your own JavaScript libraries, plugins, styles, layouts, or other modifications become enormous challenges that require all kinds of hacking in uncharted source files deep in the tool's files (if you can even access them).</p>
+<p>I don't mean to generalize about all vendor tools. Every tool is different, and Oxygen is actually much more open than most. But I had similar experiences customizing Robohelp, Madcap Flare, SharePoint, Confluence, and more.</p>
+<p>This is the tradeoff with using a vendor tool (or any tool, really). To get the push button, out-of-the-box functionality that makes authoring easy, the system is usually tightly coupled as a complete package, a program that doesn't like to be modified.</p>
+<h2>UX help</h2>
+<p>When you're using a tech pubs solution, it's hard to get UX designers and developers to help out. I've never worked with a UX person who said <i>oh, you're using a tech pubs tool I've never heard of? Don't worry, I'll figure out a way to make this functionality work by hacking the source files and getting the output you want. No worries there.</i></p>
+<p>No, instead the UX people will build a solution using tools they're familiar with -- the standard building blocks of the web, such as jQuery, JavaScript, Bootstrap, CSS, Ruby, and so on.</p>
+<p>There is a growing divide between help authoring tools and web tools. Even though most help authoring tools are based on web technologies, help authoring tools couple the output so closely in with the proprietary code that it becomes nearly impossible to separate out or modify.</p>
+<p>As a result, with tech pubs tools you're mostly reliant on vendors for innovation. Innovation with vendor tools moves at a slow pace. Usually vendors release one significant update a year, mostly in order to renew contracts with user subscriptions. If you can convince a vendor to incorporate your requested enhancement (e.g., navtabs within a topic), and you can wait a year for it, then great.</p>
+<p>But most likely vendors, as with other IT teams, have competing requests to evaluate. They can't do everything, and unless you're a high-paying customer, your feedback may fall on deaf ears. Or if a vendor does incorporate your request, they may not implement it how you want it.</p>
+<p>By using a more open system, especially one that leverages the same technologies that web developers and designers use to build websites, you have a greater chance of being able to piggyback onto the innovation of the web. And the pace of innovation on the web is much more than one update a year. Each week some new technology appears on the web landscape. If you can harness it, easily incorporating the web technology into your help system, you have a more robust box of tools to meet the challenges of tech comm scenarios.</p>
+<p>In the next post, I'll explore some of the major innovations of the web that might be relevant to publishing scenarios for technical writers.</p>

@@ -1,0 +1,95 @@
+---
+layout: page
+title: 'JavaScript: Loops'
+permalink: /loops-javascript/
+date: 2013-02-02 16:50:11.000000000 -08:00
+categories:
+- javascript
+tags: []
+status: publish
+type: page
+published: true
+meta:
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _tcc-pps-replace: primary
+  _wp_page_template: default
+  layout: two-col-left
+  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
+  _wp_rp_image: empty
+  _series_part: '5'
+  _spost_short_title: ''
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13622";s:5:"score";s:17:"84.05793849906102";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:17:"64.78874707424954";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:18:"59.793373657155584";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13750";s:5:"score";s:17:"56.29152355392014";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"55.56086262751246";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:18:"54.053319022743864";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"49.92178913937166";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:16:"47.0267827292749";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:17:"46.86505769455637";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:17:"46.86505769455637";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13752";s:5:"score";s:17:"46.86505769455637";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20394";s:5:"score";s:16:"43.7360378565295";}}
+  dsq_thread_id: '3773173036'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Loops allow you to create repeating JavaScript statements. A loop processes the statement over and over until you tell it to stop. There are several types of loops.</p>
+<h2>While Loops</h2>
+<p>The While loop is the most basic loop. To start a while loop, rather than using <code>if</code> to begin your statement, as with conditional statements, you write <code>while</code>. Here's an example:</p>
+<p>[js]//declare a variable<br />
+var x = 1;<br />
+//loop the command<br />
+while ( x &lt; 100 ) {<br />
+//run some code<br />
+console.log(x);<br />
+}[/js]</p>
+<p>This script will repeat itself infinitely as long as x is less than 100. You need to tell it to stop looping.</p>
+<p>You can stop the loop in a couple of ways. One way is to increment the variable so that at some point, the condition is no longer met:</p>
+<p>[js]var x = 1;<br />
+//as long as x is less than 100<br />
+while ( x &lt; 100 ) {<br />
+//write console.log x<br />
+console.log(x);<br />
+//and increment x by 1<br />
+x++<br />
+}[/js]</p>
+<p>Now the script will repeat 99 times. With each iteration, x increments by 1. Once x gets to 100, the code won't execute because the condition <code>( x &gt; 100 )</code> isn't met.</p>
+<h2>Do ... While Loops</h2>
+<p>There's another way to stop a loop. Rather than beginning with <code>while</code>, you can use the "Do ... While" format:</p>
+<p>[js]var x = 1;<br />
+//start a loop<br />
+do {<br />
+// write x to the console<br />
+console.log(x);<br />
+// and then increment x by 1<br />
+x++ }<br />
+// and continue as long as x is smaller than 100<br />
+while ( x &lt; 100 );<br />
+[/js]</p>
+<p>The Do ... While loop differs in that you put the condition <i>after</i> the code block. This means the code block will run at least once regardless of the condition. Once the code block runs and the condition is asked, the loop continues only if the condition is met.</p>
+<h2>For Loops</h2>
+<p>Loops typically have three components: an index, a condition, and an increment to the index. The index is a variable you use to start counting your loop. Written out the long way, the statement would look as follows:</p>
+<p>[js]// set up your index<br />
+var x = 1;<br />
+// check a condition<br />
+while ( x &lt; 100 ) {<br />
+//run some command...<br />
+console.log(x);<br />
+// increment the index<br />
+x++;<br />
+}<br />
+[/js]</p>
+<p>Because loops are so common, you can write this statement in a more abbreviated way using the <code>for</code> loop. With the <code>for</code> loop, you start the statement with the word <code>for</code>. You then insert the conditions and increment value in parentheses separated by semicolons. You then add the code block. Here's an example:</p>
+<p>[js]//while x is less than 100, increment x by 1 with each loop.<br />
+for ( var x = 1 ; x &lt; 100 ; x++) {<br />
+// run a command...<br />
+console.log(x);<br />
+}[/js]</p>
+<h2>Break and Continue</h2>
+<p>You can stop a loop using the words <code>break</code> and <code>continue</code>. <code>Break</code> exits the loop, whereas <code>continue</code> stops the current command and rechecks the conditions to see if the loop can start again at the top.</p>
+<p>Here's an example with <code>break</code>:</p>
+<p>[js]//while x is less than 100<br />
+for ( var x = 1 ; x &lt; 100 ; x++) {<br />
+//run this statement<br />
+if ( x == 65 ) {<br />
+console.log(x);<br />
+//then exit the loop<br />
+break;<br />
+}[/js]</p>

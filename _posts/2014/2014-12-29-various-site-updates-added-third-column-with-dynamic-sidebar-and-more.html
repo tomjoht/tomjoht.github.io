@@ -1,0 +1,166 @@
+---
+layout: post
+title: 'Various Site updates: Added third column with dynamic sidebar, and more'
+date: 2014-12-29 23:09:53.000000000 -08:00
+categories:
+- dita
+- wordpress
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '91'
+  _syntaxhighlighter_encoded: '1'
+  _thumbnail_id: '22311'
+  fsb_social_facebook: '4'
+  fsb_social_twitter: '5'
+  fsb_social_linkedin: '2'
+  fsb_social_google: '1'
+  dsq_thread_id: '3770207078'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I made a few updates to my WordPress site recently. Nothing major, but it might be of interest especially if you're into WordPress.</p>
+<h2>Added dynamic third column</h2>
+<p>I added a third column on the left that contains dynamic content based on what you're viewing. Currently new column shows either a list of categories or a specific page (containing a list of items). Here's how the sidebar changes:</p>
+<ul>
+<li>If you're viewing my <a href="http://idratherbewriting.com/toc_introduction/ditaqrg/">DITA quick reference guide</a>, the third column shows the DITA TOC page.</li>
+<li>If you're viewing my <a href="http://idratherbewriting.com/javascript/">JavaScript notes</a>, the third column shows the JavaScript TOC page.</li>
+<li>If you're viewing a series article (such as <a href="http://idratherbewriting.com/2014/12/24/authoring-tools-preferred-by-api-doc-writers-in-my-survey/">this one</a>), you see other articles in the series.</li>
+<li>If you're viewing a single post (what you're reading now), you see related posts.</li>
+<li>If you're viewing any other page, you see a list of categories.</li>
+</ul>
+<p>The logic controlling the sidebar consists of some <code>if .. else</code> statements I added to my sidebar. Here's the full code of my sidebar:<br />
+[code lang="php"]<br />
+&lt;?php<br />
+/**<br />
+ * The sidebar containing the main widget area.<br />
+ *<br />
+ * If no active widgets in sidebar, let's hide it completely.<br />
+ *<br />
+ * @package WordPress<br />
+ * @subpackage Twenty_Twelve<br />
+ * @since Twenty Twelve 1.0<br />
+ */<br />
+?&gt;<br />
+	&lt;?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?&gt;</p>
+<p>		&lt;div id=&quot;secondary&quot; class=&quot;widget-area&quot; role=&quot;complementary&quot;&gt;</p>
+<p>			&lt;?php dynamic_sidebar( 'sidebar-1' ); ?&gt;</p>
+<p>		&lt;/div&gt;</p>
+<p>		&lt;?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?&gt;<br />
+	&lt;div id=&quot;extra-sidebar&quot; class=&quot;widget-area&quot; role=&quot;complementary&quot;&gt;</p>
+<p>&lt;div class=&quot;widget&quot;&gt;</p>
+<p>&lt;?php get_search_form( ); ?&gt;<br />
+&lt;?php<br />
+wp_reset_query();</p>
+<p>if ( in_category( '2704' ) ) {<br />
+    echo '&lt;div class=&quot;sidebarTOC&quot;&gt;DITA QRG&lt;/div&gt;';<br />
+     echo &quot;&lt;div class='ditaqrg'&gt;&quot;;</p>
+<p>$args = array( 'page_id' =&gt; 22115); </p>
+<p>$the_query = new WP_Query( $args ); </p>
+<p> if ( $the_query-&gt;have_posts() ) : while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); </p>
+<p>the_content(); </p>
+<p>endwhile; </p>
+<p>endif;</p>
+<p>wp_reset_postdata();<br />
+echo '&lt;/div&gt;';<br />
+} </p>
+<p>elseif ( in_category( '634' ) ) {<br />
+    echo '&lt;div class=&quot;sidebarTOC&quot;&gt;JavaScript QRG&lt;/div&gt;';</p>
+<p>$args = array( 'page_id' =&gt; 22254); </p>
+<p>$the_query = new WP_Query( $args ); </p>
+<p> if ( $the_query-&gt;have_posts() ) : while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); </p>
+<p>the_content(); </p>
+<p>endwhile; </p>
+<p>endif;</p>
+<p>wp_reset_postdata();<br />
+} </p>
+<p>elseif (is_single()){</p>
+<p>}</p>
+<p>else {<br />
+	echo '&lt;div class=&quot;sidebarTOC&quot;&gt;Categories&lt;/div&gt;';<br />
+wp_list_categories('orderby=name&amp;show_count=1&amp;exclude=182&amp;title_li=0');</p>
+<p>echo '&lt;div class=&quot;sidebarTOC&quot;&gt;Series&lt;/div&gt;';<br />
+wp_list_categories( array( 'taxonomy' =&gt; 'series', 'title_li' =&gt; false ) );</p>
+<p>} </p>
+<p>?&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- Show other sidebar content --&gt;</p>
+<p>	&lt;?php dynamic_sidebar( 'sidebar-4' ); ?&gt;<br />
+	&lt;/div&gt;<br />
+&lt;?php endif; ?&gt;</p>
+<p>	&lt;?php endif; ?&gt;<br />
+[/code]<br />
+I'll explain a bit more of this code later, but it's not really my intent to provide a detailed WordPress tutorial here. I mainly want to capture this info for later site updates, or for others who are making this same adjustment.</p>
+<p>For the related series posts (which show when you're viewing a series) and the related single posts (which show when you're viewing a single page), I don't have the code in the sidebar. Instead, I'm relying on two widgets: List Series from the <a href="https://wordpress.org/plugins/series/">Series</a> plugin and <a href="https://wordpress.org/plugins/easy-related-posts/">Easy Related Posts</a>. These plugins don't offer manual PHP tags but rather require you to use the widgets.</p>
+<p>By the way, I could have put all of this code into PHP Code widgets, but I feel like code in widgets is less stable. If you make an update and realize it breaks the code, you can't easily undo the update like you can with a text file in an offline editor. Additionally, I might forget what a particular widget is for, drag it out of the active widgets column, and then it will be gone. Not so with hard-coded logic in a theme file.</p>
+<p>Re the styling, I used <a href="http://zeaks.org/2012/twenty-twelve-theme-three-column-layout">this tutorial for adding the third column to my TwentyTwelve WordPress theme</a>. I varied from the tutorial a bit, but it got me 80% of the way there. I wasn't sure why the tutorial wanted me to add code to my functions file. I'm happy to hack the twentytwelve theme's original code instead of making a child theme, because I've already modified so much of the theme that I can't imagine applying a theme update from the original theme designer regularly without breaking something.</p>
+<h2>Disappearing menu when you add categories to pages</h2>
+<p>With my DITA QRG pages, I needed a simple way to identify the pages in order to run the conditional logic, so I used categories. Here's the logic excerpted from the previous full code sidebar page:<br />
+[code lang="php"]<br />
+&lt;?php<br />
+wp_reset_query();</p>
+<p>if ( in_category( '2704' ) ) {<br />
+    echo '&lt;div class=&quot;sidebarTOC&quot;&gt;DITA QRG&lt;/div&gt;';<br />
+     echo &quot;&lt;div class='ditaqrg'&gt;&quot;;</p>
+<p>$args = array( 'page_id' =&gt; 22115); </p>
+<p>$the_query = new WP_Query( $args ); </p>
+<p> if ( $the_query-&gt;have_posts() ) : while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); </p>
+<p>the_content(); </p>
+<p>endwhile; </p>
+<p>endif;</p>
+<p>wp_reset_postdata();<br />
+echo '&lt;/div&gt;';<br />
+}<br />
+[/code]<br />
+And I added this in my functions file:<br />
+[code lang="php"]<br />
+function getMainMenu($menulocation){<br />
+  $locations = get_nav_menu_locations();<br />
+  $menuItems = wp_get_nav_menu_items( $locations[ $menulocation ] );<br />
+    if(empty($menuItems))<br />
+      return false;<br />
+    else{<br />
+      //wp_nav_menu(array('theme_location' =&gt; $menulocation));<br />
+      wp_nav_menu( array( 'theme_location' =&gt; 'primary', 'menu_class' =&gt; 'nav-menu' ) ); </p>
+<p>      return true;<br />
+    }<br />
+}<br />
+[/code]</p>
+<h2>Sidebar ads</h2>
+<p>To accommodate the third column, I had to shrink my other sidebar column. I didn't want my theme to extend beyond about 1060px in width, so I pretty much cut my sidebar in half. This means with my sidebar ads, I removed the text snippets next to them. I also reverted to using the <a href="https://wordpress.org/plugins/wp125/">WP125 plugin</a> to manage the ads rather than relying on a custom query for posts of a specific category that I had previously used.</p>
+<p>I also moved up the sidebar ads to show more ads above the fold. I put my social media subscribe buttons in the header, below the top banner ad. And I put the search bar in my new dynamic column on the left.</p>
+<h2>Simpler main menu</h2>
+<p>I also ditched the <a href="http://wpmegamenu.com/">Ubermenu</a> plugin for my menu. Previously I had decided to arrange the TOC pages for my DITA, JavaScript, and other pages in this plugin because the Ubermenu actually accommodates all of those links nicely, but then I realized that having so many options in the navigation bar dragged my site's loading speed. If a person wasn't viewing a DITA page, I didn't want to spend bandwidth loading all the DITA navigation options.</p>
+<p>Now if you click DITA on my main navigation bar, it loads the DITA TOC intro page and the dynamic sidebar with the DITA table of contents. But if you don't click the DITA page, you're not loading the whole DITA table of contents each time. This hopefully increases some page loading speed.</p>
+<p>By the way, I'm using <a href="https://wordpress.org/plugins/w3-total-cache/">W3Total Cache</a> and <a href="https://www.maxcdn.com/">MaxCDN</a> (a caching server) to increase page loading speed. I don't have a lot of rich content on my site (not that many graphics, other than the ad sidebar), and my ideal is to load the site within 1 second, but right now it fluctuates at around 1.5 to 2 seconds, according to <a href="https://www.pingdom.com/">pingdom.com</a>, which is a really convenient way of monitoring your site's response time.</p>
+<p><a href="https://my.pingdom.com"><img class="alignnone  wp-image-22308" src="/images/response_time-550x453.png" alt="response_time" width="400" height="343" /></a></p>
+<h2>Experimenting with a membership plugin</h2>
+<p>This past week when I published my latest podcast on <a href="http://idratherbewriting.com/2014/12/17/getting-a-job-in-api-documentation-podcast-with-andrew-davis/">Getting a job in API Doc with Andrew Davis</a>, I tried an experiment: require users to log in to listen to the podcast. Based on the <a href="http://idratherbewriting.com/2014/12/09/podcast-download-stats-kind-of-mind-blowing/">high numbers of previous downloads</a> (1500+ for the Intro to API Doc episode), I thought this would be a good strategy toward building up an audience that I could potentially advertise to.</p>
+<p>Further, I set up a <a href="https://wordpress.org/plugins/sync-to-sendy/">Sync to Sendy plugin </a>that automatically adds podcast subscribers to a <a href="http://sendy.co/">Sendy</a> database that I use to send email newsletter content. (More on Sendy later in this post.)</p>
+<p>However, I forgot that iTunes won't index podcasts if the MP3 files aren't included in the feed (the <a href="https://wordpress.org/plugins/wp-members/">WP-member</a> plugin hides them, because I added <code>&lt;!--more--&gt;</code> before the files). Further, <a href="http://podtrac.com/">Podtrac</a> (what I'm using to track clicks on podcast episodes), doesn't register any activity if the episode is behind a membership plugin. Additionally, fewer people registered the first few days (around 45) than I had hoped.</p>
+<p>So I removed the WP-member plugin. I am still exploring different ways to build up my subscriber list but still haven't found a good strategy.</p>
+<h2>Sendy, an email newsletter service</h2>
+<p>I mentioned Sendy previously, but now I'll get into a few more details. A few months ago, I discovered that the <a href="http://idratherbewriting.com/import_dita_into_wordpress">DITA Import to WordPress tool</a> updated my RSS feed when it looks at the GUID of posts, and therefore also updated the <a href="http://feeds.feedburner.com/tomjohnson">Feedburner email feed</a> and sent out updates to everyone indicating new posts (that weren't new). Since I know Feedburner is probably on the decline anyway (since Google killed their RSS reader), I switched to a different email service: <a href="http://sendy.co/">Sendy</a>.</p>
+<p>Sendy is similar to Mailchimp or Constant Contact but much less expensive ($59 to buy the software, and then about $1/month to send emails). You install the software on your own server and configure the data distribution through Amazon Web Services. It ends up being extremely cheap and easy to send out email newsletters.</p>
+<p>Using Sendy has been somewhat eye-opening. For a list of 2,000 users (my email distribution), about 500 open the email consistently. I'm not sure if it's a different 500 or the same 500 each time.</p>
+<p>Over the course of a week, about 15 people sign up for email subscription. Each time I send out the Sendy email, about 15 people unsubscribe. As a result, the email subscriber count is mostly flat and has stayed at around 2,000 for a while.</p>
+<p>Eventually I plan to add some collateral such as a free e-book to entice more people to subscribe, but I haven't gotten around to writing that e-book yet.</p>
+<p>To better understand why people unsubscribe, I added a one-question survey from SurveyMonkey that people are redirected to upon unsubscribing. Here's the trend so far:</p>
+<p><img class="alignnone  wp-image-22309" src="/images/unsubscription-550x508.png" alt="unsubscription" width="409" height="392" /></p>
+<p>The main reason people unsubscribe is because the content becomes irrelevant and users get too many emails. (If you're not into DITA or API documentation, I can see how my content would seem irrelevant, since that's what I've been posting about lately.)</p>
+<p>My main deliberation was whether to send daily updates or weekly updates. I initially planned to send weekly updates, but then someone chimed in to say she wanted daily updates or she would unsubscribe. So I sent out updates immediately (or soon after) publishing each post. However, this also creates a more frequent/annoying email experience that probably makes others unsubscribe.</p>
+<p>Sendy doesn't have advanced features to enable users subscribed to the same list to select their email frequency preferences. You have to set up multiple lists and manage subscribers in each list. But I decided to scale back my emails to just weekly or biweekly updates.</p>
+<p>Overall, I'm really glad I'm using Sendy. I can tell better who reads the emails, what they click, who subscribes, what emails bounce, and more. Here's a sample result from the last email I sent out:</p>
+<p><img class="alignnone size-medium wp-image-22310" src="/images/sendyexample-550x278.png" alt="sendyexample" width="550" height="278" /></p>
+<h2>DITA QRG separate or integrated</h2>
+<p>One thing I've deliberated about multiple times is whether to integrate my DITA QRG <a href="http://idratherbewriting.com/toc_introduction/ditaqrg/">directly into WordPress</a> or keep it separate in Oxygen's webhelp output. I finally decided to pull everything into WordPress and make the demos point to <a href="http://idratherbewriting.com/wp-content/uploads/oxygendemos/">standalone webhelp output files</a> (linked from the relevant how-to WordPress pages). Reason being, if the content is not integrated into WordPress, it's harder to convert readers into subscribers, or to show them other related content that isn't in the DITA QRG. I'd rather just manage everything in the same database.</p>
+<h2>Other updates?</h2>
+<p>Those are all the updates I've been making. If you know how I could improve my site in better ways, please let me know. Thanks for reading.</p>

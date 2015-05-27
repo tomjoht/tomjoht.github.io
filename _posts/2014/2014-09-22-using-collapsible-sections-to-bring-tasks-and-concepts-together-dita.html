@@ -1,0 +1,68 @@
+---
+layout: post
+title: Using collapsible sections to bring tasks and concepts together (DITA)
+date: 2014-09-22 08:24:53.000000000 -07:00
+categories:
+- dita
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '91'
+  _thumbnail_id: '21727'
+  _wp_rp_related_posts_query_result_cache_expiration: '1421702628'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:18:"113.33414954853168";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:18:"101.40441331641152";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20430";s:5:"score";s:17:"98.65783480895003";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"97.45710076367922";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"19960";s:5:"score";s:17:"95.28687164984454";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20665";s:5:"score";s:17:"85.92311233883267";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:17:"79.00321224583915";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"21943";s:5:"score";s:17:"71.01719086595638";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"19946";s:5:"score";s:17:"64.97140050911948";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"16622";s:5:"score";s:17:"59.14584676697671";}}
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:17:"113.0065581780404";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20640";s:5:"score";s:18:"101.05507716458152";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20430";s:5:"score";s:17:"98.16306023082956";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"97.19368112759894";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"19960";s:5:"score";s:17:"95.09836640202305";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20665";s:5:"score";s:17:"85.57377618658104";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:17:"79.06601305662285";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"21943";s:5:"score";s:17:"71.10666454472742";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"19946";s:5:"score";s:17:"64.79578741839929";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"16622";s:5:"score";s:17:"59.26111052875332";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"21959";s:5:"score";s:17:"49.37656310129046";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"21696";s:5:"score";s:16:"44.4263017777825";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:5:"20394";s:5:"score";s:17:"40.21741291567774";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:18:"38.874365934903466";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:5:"21899";s:5:"score";s:17:"38.40492253719174";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:5:"21816";s:5:"score";s:18:"37.144124197076415";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:5:"20936";s:5:"score";s:16:"34.8621810718645";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:5:"21795";s:5:"score";s:17:"32.39789370919964";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:5:"21782";s:5:"score";s:17:"32.39789370919964";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:5:"21589";s:5:"score";s:17:"32.39789370919964";}}
+  fsb_social_facebook: '6'
+  fsb_social_twitter: '19'
+  fsb_social_linkedin: '9'
+  fsb_social_google: '1'
+  dsq_thread_id: '3770206923'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>Last week I showed how to integrate a <a href="http://idratherbewriting.com/2014/09/16/adding-code-comments-through-a-sliding-jquery-sidr-panel-dita/">sliding side panel into OxygenXML’s webhelp output</a>. In this post, I show you how to integrate collapsible show/hide sections. As before, I’m using DITA as the structured content, which adds another element of complexity to the setup.</p>
+<h2>Demo</h2>
+<p>For a demo of the show/hide functionality, see <a href="http://idratherbewriting.com/jquery_show_hide" target="_blank">Show/Hide Demo</a>.</p>
+<p><a href="http://idratherbewriting.com/jquery_show_hide" target="_blank"><img src="/images/jqueryshowhide.png" alt="jqueryshowhide" width="600" class="alignnone size-full wp-image-21728" /></a></p>
+<p>In this demo, the content shown in the first collapsed section is actually transcluded from another page. The other sections contain content directly on the page. (If you use a General Task element, you can include sections before the steps.)</p>
+<p>For step-by-step instructions on implementing this Simple-expand jQuery plugin into OxygenXML, see <a href="http://idratherbewriting.com/jquery_show_hide" target="_blank">Add a jQuery show/hide toggle</a>.</p>
+<h2>Combining tasks and concepts</h2>
+<p>Through collapsible sections, you can combine content that is often organized separately in help material. For example, in my help, I have a page on activating a license (a task). I have another section that explains details about the license (a concept). Traditionally these sections are separated in DITA-authored help because the strict task and concept topic types don’t mix. With a strict task, you can’t add sections before your list of steps. You can only add sections before steps with General Task elements.</p>
+<p>In previous posts, I already debunked myths about tasks and concepts needing to be separate (see <a href="http://idratherbewriting.com/2014/01/05/ditas-output-does-not-require-separation-of-tasks-from-concepts/">DITA’s output does not require separation of tasks from concepts</a>). There is no compelling reason to always separate tasks from concepts. Instead, it's better to consider user goals and decide whether it makes sense to combine the information into a single topic. </p>
+<p>If you follow the philosophy of every page being a self-contained unit of information that allows a user to reach a goal, then in many cases it really will make sense to combine tasks and concepts. </p>
+<p>For example, with my topic on activating a license, it might be important for the user to know what features the license controls, the format of the license, the configuration parameters of the license, and other license details. All of these details might be essential if the user is having trouble activating the license.</p>
+<p>Through collapsible sections, you can bring the conceptual information into the topic before the list of steps but collapsed so it’s not in the way of the task. Alternatively, you could collapse your tasks and leave the conceptual information expanded. You have a lot of flexibility.</p>
+<h2>Previous experiences with collapsible sections</h2>
+<p>I’ve written several times about collapsible sections (see the related links at the bottom of this post). In re-reading these other posts, I see that I am sometimes persuaded that collapsible sections are the ideal solution, so I go to the trouble of implementing them across my help, and then later decide they are problematic. As a recap, then, here are pros and cons for collapsible sections.</p>
+<h3>Pros for collapsible sections</h3>
+<ul>
+<li>Reduces the number of topics in your TOC, increasing findability of information. </li>
+<li>Centralizes needed information into the same page so users can better achieve their goals.</li>
+<li>Brings information together that belongs together, helping avoid information fragmentation and navigation ping-pong.</li>
+<li>Allows users to easily scan a page for all information and go directly to the section they need, rather than scrolling. </li>
+<li>Follows a model of progressive information disclosure, allowing users to customize the amount of information they want to see.</li>
+</ul>
+<h3>Cons for collapsible sections</h3>
+<ul>
+<li>Not needed for short pages, only for long pages. If most of your pages are short, there's no need for collapsible sections.</li>
+<li>Can result in inconsistent displays, with some pages containing collapsed sections and others not. Inconsistent formats reduce the predictability of user experience.</li>
+<li>Requires you to add the ability to expand all sections at once on a page, but this becomes problematic not all pages need this button.</li>
+<li>Doesn’t auto-expand search results that appear within a collapsed section.</li>
+</ul>
+<p>While I have used collapsible sections with Flare and Drupal, I haven't yet used collapsible sections with DITA. However, I think collapsible sections would make a particularly good application to DITA since DITA-authored help by nature tends to <a href="http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/">result in a lot of tiny little topics</a>.</p>
+<p>Regardless of the usability of collapsible sections, I'm excited about how easy it is to integrate jQuery functionality into OxygenXML's webhelp output.</p>
+<h2>Related posts</h2>
+<ul>
+<li><a href="http://idratherbewriting.com/2013/03/25/evaluating-the-usability-of-collapsible-sections-or-jquerys-content-toggle/“>Evaluating the Usability of Collapsible Sections (or jQuery’s Content Toggle)</li>
+<li><a href="http://idratherbewriting.com/2013/12/11/collapsible-header-sections-more-problematic-than-helpful/“>Collapsible header sections — more problematic than helpful</li>
+<li><a href="http://idratherbewriting.com/2012/08/13/using-the-proximity-principle-to-design-online-help-navigation/">Using the Proximity Principle to Design Online Help Navigation</a></li>
+<li><a href="http://idratherbewriting.com/2013/03/16/how-to-organize-page-level-content/">How to Organize Page-Level Content</a></li>
+</ul>

@@ -1,0 +1,101 @@
+---
+layout: post
+title: Be Careful When Upgrading to WordPress 2.2 If You Have the WP-Cache Plugin
+  — Adventures in Backing Up and Restoring WordPress Databases
+date: 2007-05-22 06:01:33.000000000 -07:00
+categories:
+- general
+- wordpress
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  podPressPostSpecific: a:6:{s:15:"itunes:subtitle";s:15:"##PostExcerpt##";s:14:"itunes:summary";s:15:"##PostExcerpt##";s:15:"itunes:keywords";s:17:"##WordPressCats##";s:13:"itunes:author";s:10:"##Global##";s:15:"itunes:explicit";s:7:"Default";s:12:"itunes:block";s:7:"Default";}
+  _kramer_synch: '1216068917'
+  _kramer_ref_ping: http://www.blogherald.com/2007/05/23/wordpress-wednesday-news-wordpress-22-now-mandatory-wordpresscom-to-break-1-million-blogs-blog-to-wordpress-from-anywhere-and-wordpress-beats-blogger/
+  views: '14'
+  _kramer_ref_failed: http://www.answerbag.com/profile/?id=256155
+  _kramer_ref_pending: http://www.google.com/search?client=safari&rls=en-us&q=wordpress+can\'t+select+database+lunarpages&ie=UTF-8&oe=UTF-8
+  _edit_last: '1'
+  _sexybookmarks_shortUrl: http://tinyurl.com/4sm5jek
+  _sexybookmarks_permaHash: 6213c82b23525f11d7c955cfd9fd1430
+  sfw_comment_form_password: lxVjZMqkkhiV
+  dcssb_short_url: http://bit.ly/LYqc9f
+  _wp_rp_image: '16466'
+  _wp_rp_related_posts_query_result_cache_expiration: '1421698640'
+  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1678";s:5:"score";s:18:"104.02845714928313";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:3:"593";s:5:"score";s:17:"99.45149617576453";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"3727";s:5:"score";s:17:"97.57930945738562";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:17:"97.57930945738562";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:17:"97.57930945738562";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1751";s:5:"score";s:17:"97.57930945738562";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1494";s:5:"score";s:17:"97.57930945738562";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"1666";s:5:"score";s:15:"96.917600968731";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:17:"96.75534987909695";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2990";s:5:"score";s:17:"96.75534987909695";}}
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1678";s:5:"score";s:18:"103.44936351722956";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:3:"593";s:5:"score";s:17:"98.91216315923032";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"3727";s:5:"score";s:17:"96.93738985206915";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:17:"96.93738985206915";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:17:"96.93738985206915";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1751";s:5:"score";s:17:"96.93738985206915";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1494";s:5:"score";s:17:"96.93738985206915";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"1666";s:5:"score";s:17:"96.39165587875803";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:17:"96.22012223523791";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2990";s:5:"score";s:17:"96.22012223523791";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:17:"96.22012223523791";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"846";s:5:"score";s:17:"96.22012223523791";}}
+  _wp_rp_related_posts_query_result_cache_10: a:20:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1678";s:5:"score";s:17:"104.0124406155415";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:3:"593";s:5:"score";s:17:"99.43651296676202";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"3727";s:5:"score";s:17:"97.56432624839036";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"3631";s:5:"score";s:17:"97.56432624839036";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2513";s:5:"score";s:17:"97.56432624839036";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1751";s:5:"score";s:17:"97.56432624839036";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1494";s:5:"score";s:17:"97.56432624839036";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"1666";s:5:"score";s:17:"96.90261775973156";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"4774";s:5:"score";s:17:"96.74036667009338";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"2990";s:5:"score";s:17:"96.74036667009338";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:3:"996";s:5:"score";s:17:"96.74036667009338";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"846";s:5:"score";s:17:"96.74036667009338";}i:12;O:8:"stdClass":2:{s:7:"post_id";s:3:"601";s:5:"score";s:17:"96.74036667009338";}i:13;O:8:"stdClass":2:{s:7:"post_id";s:3:"760";s:5:"score";s:17:"92.48947688035804";}i:14;O:8:"stdClass":2:{s:7:"post_id";s:4:"6102";s:5:"score";s:17:"90.29225230294225";}i:15;O:8:"stdClass":2:{s:7:"post_id";s:4:"5305";s:5:"score";s:17:"90.29225230294225";}i:16;O:8:"stdClass":2:{s:7:"post_id";s:4:"3012";s:5:"score";s:17:"90.29225230294225";}i:17;O:8:"stdClass":2:{s:7:"post_id";s:4:"2605";s:5:"score";s:17:"90.29225230294225";}i:18;O:8:"stdClass":2:{s:7:"post_id";s:4:"1884";s:5:"score";s:17:"90.29225230294225";}i:19;O:8:"stdClass":2:{s:7:"post_id";s:4:"1746";s:5:"score";s:17:"90.29225230294225";}}
+  fsb_social_facebook: '0'
+  fsb_social_twitter: '0'
+  fsb_social_linkedin: '0'
+  fsb_social_google: '0'
+author:
+  login: tomjohnson1492
+  email: tomjohnson1492@gmail.com
+  display_name: Tom Johnson
+  first_name: Tom
+  last_name: Johnson
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I spent a fun evening wrangling with WordPress 2.2. I attribute most of the trouble to the wp-cache plugin, because I kept receiving this exciting error:</p>
+<blockquote><p>Warning: fopen(/home/idrathe1/public_html/wp-content/cache/wp_cache_mutex.lock) [function.fopen]: failed to open stream: No such file or directory in /home/idrathe1/public_html/wp-content/plugins/wp-cache/wp-cache-phase2.php on line 96</p></blockquote>
+<p>I’ve never had a problem with a mutex.lock!</p>
+<p>After several more attempts to upload the 2.2 files, I decided future endeavors would be useless, so I restored back to my 2.1.2 version. Oh boy, here’s where the fun starts.<br />
+<!--more-->I am very grateful for Podz’s tutorials at <a title="Podz's tutorials" href="http://www.tamba2.org.uk/wordpress/" target="_blank">http://www.tamba2.org.uk/wordpress/</a>. They are mostly superb. I was nervous when I had to delete all my WordPress files and my entire database, leaving me hanging only with an exported .sql file of 3.5 megs. That’s quite an interesting jumble of text to look at, by the way.</p>
+<p>Here's what you see as you are dropping [deleting] all your database tables (image from Podz's tutorial):</p>
+<p><a title="Podz's tutorials" href="http://www.tamba2.org.uk/wordpress/restore/"><img src="/images/restore111.png" alt="restore" /></a></p>
+<p>Take a deep breath before you click Go. Well, of course I backed up my entire site in two different ways before deleting everything, but still, it’s no fun to annihilate database tables.</p>
+<p>However, there's an error in Podz's restore instructions. Instead of using the Import function, he says,</p>
+<blockquote><p>Open the .sql file in a text editor. Do NOT use a word-processor, or Dreamweaver or GoLive unless you REALLY know what you are doing - on a Windows machine <span style="color: #ff0000;">WordPad is okay</span>. ... You highlight some text, copy it, paste it into the SQL window, click Go and after the Success message, you do it again with the next chunk of text..</p></blockquote>
+<p>After I opened the .sql file in WordPad and copied it into the SQL window, I had some strange characters that appeared in my posts, namely these: â€™  Â�. It’s an encoding issue that happened in the restore, since the Podz tutorials said it was okay to paste content from WordPad into a SQL text box.</p>
+<p>I went to bed thinking I'd have to fix each post individually -- this would have taken hours.</p>
+<p>In the morning I woke up and checked the support forum, where I had asked for help with the strange characters. <a title="lelion's reply" href="http://wordpress.org/support/topic/118781?replies=2" target="_blank">Lelion wrote</a>:</p>
+<blockquote>
+<p class="post">This is a problem with incorrect encoding... WordPad is not the best choice when restoring databases :-(</p>
+<p>Better use Dreamweaver, which supports various encodings, and copy -&gt; paste from it. Or any other editor, which supports UTF-8, and many other encodings... I can't say if there's a way to automatically fix the wrong characters in the database.. If you keep the original MySQL backups/files, better open them with the correct editor and make the copy paste again:)</p></blockquote>
+<p>I started to wonder why I didn't just open the .sql file in <a title="Notepad++" href="http://notepad-plus.sourceforge.net/uk/site.htm" target="_blank">Notepad ++</a>. Or maybe Podz's method wasn't as easy as the Codex tutorial, which <a title="restore steps" href="http://codex.wordpress.org/Restoring_Your_Database_From_Backup" target="_blank">listed the following steps</a>:</p>
+<blockquote>
+<ol>
+<li> Login to <a title="phpMyAdmin" href="http://codex.wordpress.org/phpMyAdmin">phpMyAdmin</a>.</li>
+<li> Click databases, and select the database that you will be importing your data into.</li>
+<li> You will then see either a list of tables already inside that database or a screen that says no tables exist. This depends on your setup.</li>
+<li> Across the top of the screen will be a row of tabs.  Click the <strong>Import</strong> tab.</li>
+<li> On the next screen will be a Location of Text Filet box, and next to that a button named <strong>Browse</strong>.</li>
+<li> Click <strong>Browse</strong>.  Locate the backup file stored on your computer.</li>
+<li> Make sure the <strong>SQL</strong> radio button is checked.</li>
+<li> Click the <strong>Go</strong> button.</li>
+</ol>
+</blockquote>
+<p>Sure enough, the Codex restore method worked, and it didn't have the strange characters. It's amazing what a night's sleep does for troubleshooting.</p>
+<h3>Reflections on the Shortcomings of Open Source Models</h3>
+<p>This experience made me reflect on some serious shortcomings of WordPress for novice users. I consider myself a power WordPress user, but when it comes to dropping database tables, selecting the right check boxes in phpMyAdmin, and trying to understand problems that start with wp_cache_mutex.lock, I think WordPress becomes too esoteric. People don’t want to wade in code, especially when so much is at stake.</p>
+<p>For example, when backing up your database, you have to select from among the check boxes in the image below. If you've not worked with databases before, these choices look foreign.</p>
+<p><img src="/images/phpmyadmin1.gif" alt="phpMyAdmin check box options" /></p>
+<p>WordPress developers have to make upgrading painless. However, this raises an issue with open source software. The developer behind the wp-cache plugin ran out of steam and stopped development on the plugin a few months ago. As WordPress continues to develop, it requires changes in the wp-cache plugin and dozens of other plugins like it. Each plugin and theme must keep pace with the ever evolving, rapidly changing WordPress core.</p>
+<p>That’s partly why it’s such a hassle to upgrade WordPress, because you never know what plugin or theme the new version is going to break. One solution is to minimize plugins and stick with mainstream themes. But if you take away plugins and theme variety, you might as well use one of the second-rate, boring blogging platforms.</p>
+<h3>Another Revelation: Comment Spam Continues Even When Your Site's Broken</h3>
+<p>Here's another interesting revelation I had during the two hours my site was down: comment spam kept arriving every 10 minutes even though there was no possible way to even see any posts on my site. I assume comment spam bots work at the file level, slamming the comment.php file with requests.</p>
+<h3>More Lessons Learned</h3>
+<p>Although deleting and restoring a database and all my WordPress files isn't fun, I now feel more confident about the whole backup and restore process. If you don't have <a title="backup plugin" href="http://skippy.net/wordpress-database-backup/" target="_blank">Skippy's back-up plugin</a> already integrated into your site (it is now included by default with installations), be sure you have it. Go to Manage &gt; Backup and make regular back-ups. You can also set up a ...</p>
+<p>Wait, in searching for the wp-cron plugin, which will automatically run a regularly scheduled backup, I found this <a title="Skippy's moves on" href="http://skippy.net/wordpress-plugins-discontinued" target="_blank">note from Skippy</a>:</p>
+<blockquote><p>I have officially discontinued support for all of my WordPress plugins. Over the past couple of months I've continued to receive questions about the plugins, so I thought I'd write here, once and for all, the authoritative explanation. All old links to the plugins should direct to this post, so now most folks should be made aware of what's going on.</p>
+<p>I'm focusing on <a href="http://habariproject.org/">Habari</a> for now.  My more popular plugins have found new homes, to which I have linked below.</p></blockquote>
+<p>Even Skippy has fled the scene. This means that when WordPress 2.3 or something comes along, someone else must ensure that all his plugins continue to be compatible with future WordPress upgrades. Skippy's plugins include:</p>
+<ul>
+<li><a href="http://skippy.net/download/wordpress/plugins/cat2email.zip">cat2email</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/sdm_comment_auth.zip">sdm_comment_auth</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/gravatars.zip">gravatars</a> (new home: <a href="http://zenpax.com/">http://zenpax.com/</a>)</li>
+<li><a href="http://skippy.net/download/wordpress/plugins/impostercide.zip">impostercide</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/in-series.zip">in-series</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/not-to-me.zip">not-to-me</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/sdm_moderate_authors.zip">sdm_moderate_authors</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/sdm_spam_check.zip">sdm_spam_check</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/subscribe2.zip">subscribe2</a> (new home:  <a href="http://subscribe2.wordpress.com/">http://subscribe2.wordpress.com/</a>)</li>
+<li><a href="http://skippy.net/download/wordpress/plugins/vhost.zip">vhost</a></li>
+<li><a href="http://skippy.net/download/wordpress/plugins/wp-cron.zip">wp-cron</a> (obsolete in WordPress 2.1+)</li>
+<li><a href="http://skippy.net/download/wordpress/plugins/wp-db-backup.zip">wp-db-backup</a></li>
+</ul>
+<p>I'm guessing that many people have these plugins integrated into their sites already. When something goes awry in a future upgrade, maybe they'll find this post.</p>
