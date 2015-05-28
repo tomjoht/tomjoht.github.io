@@ -38,7 +38,7 @@ topnav_dropdowns:
         url: /series-api-documentation-survey/
         
       - title: Author in DITA and Publish with WordPress
-        url: /series-author-in-dita-publish-in-word/
+        url: /series-series-author-in-dita-publish-in-wordpress/
 
       - title: DITA journey
         url: /series-my-dita-journey/
@@ -99,7 +99,7 @@ topnav_dropdowns:
       - title: DITA
         url: /category-dita/
       - title: Family
-        url: /family/
+        url: /category-family/
       - title: Findability
         url: /category-findability/
       - title: General

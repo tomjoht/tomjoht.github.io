@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-poll-which-is-the-best-conference-for-technical-writers-to-attend-in-2015-.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" afterPath="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-07-24-our-spring-view-farms-trail-adventure.html" afterPath="$PROJECT_DIR$/_posts/family/2011-07-24-our-spring-view-farms-trail-adventure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-07-26-thanksgiving-point-gardens-outing.html" afterPath="$PROJECT_DIR$/_posts/family/2011-07-26-thanksgiving-point-gardens-outing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-07-31-swimming-at-the-lehi-legacy-center.html" afterPath="$PROJECT_DIR$/_posts/family/2011-07-31-swimming-at-the-lehi-legacy-center.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-09-sidewalk-chalk-at-thanksgiving-point-gardens.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-09-sidewalk-chalk-at-thanksgiving-point-gardens.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-14-windy-night-and-a-stray-cat.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-14-windy-night-and-a-stray-cat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-18-storm-returns-home.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-18-storm-returns-home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-21-stewart-falls-one-last-outing-before-summer-ends.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-21-stewart-falls-one-last-outing-before-summer-ends.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-11-27-cooking-tamales.html" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-cooking-tamales.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-11-27-discovering-antelope-island.html" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-discovering-antelope-island.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-11-27-reading-mistborn.html" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-reading-mistborn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-12-11-grandma-nana-comes-to-visit.html" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-grandma-nana-comes-to-visit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-12-11-how-avery-got-earrings.html" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-how-avery-got-earrings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-12-11-king-size-bed-fits-four.html" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-king-size-bed-fits-four.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" afterPath="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" afterPath="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" afterPath="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-09-28-maisies-peak-and-more.html" afterPath="$PROJECT_DIR$/_posts/family/2014-09-28-maisies-peak-and-more.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-10-19-san-francisco-city-to-ferry-loop-bicycle-ride.html" afterPath="$PROJECT_DIR$/_posts/family/2014-10-19-san-francisco-city-to-ferry-loop-bicycle-ride.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-10-28-celebrating-lucy-and-her-timeline.html" afterPath="$PROJECT_DIR$/_posts/family/2014-10-28-celebrating-lucy-and-her-timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-11-09-crystal-springs-reservoir-ride-and-other-details.html" afterPath="$PROJECT_DIR$/_posts/family/2014-11-09-crystal-springs-reservoir-ride-and-other-details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-12-04-free-from-limitations-and-imaginary-lines.html" afterPath="$PROJECT_DIR$/_posts/family/2014-12-04-free-from-limitations-and-imaginary-lines.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" afterPath="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/tinyletter.html" afterPath="$PROJECT_DIR$/_includes/tinyletter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/topnav.yml" afterPath="$PROJECT_DIR$/_data/topnav.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,113 +66,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="2015-01-05-why-i-like-writing-help-documentation-from-scratch.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-why-i-like-writing-help-documentation-from-scratch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7142857">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-api-doc-survey-automating-rest-api-documentation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7142857">
+              <caret line="2" column="89" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-api-doc-survey-result-how-to-learn-what-you-need-to-know.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-to-learn-what-you-need-to-know.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-javadoc-tags-a-good-summary.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-javadoc-tags-a-good-summary.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-what-i-wish-i-knew-before-starting-my-technical-writing-career-.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-what-i-wish-i-knew-before-starting-my-technical-writing-career-.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-05-02-the-butterfly-paths.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.0">
+              <caret line="50" column="290" selection-start-line="50" selection-start-column="290" selection-end-line="50" selection-end-column="290" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="topnav.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+            <state vertical-scroll-proportion="-6.814815">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-05-26-on-death-and-wonder-.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/family/2015-05-26-on-death-and-wonder-.html">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.607142">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="series-innovation-in-tech-comm.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md">
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
+      <file leaf-file-name="2012-01-06-breadcrumbs-as-a-tool-for-findability.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-06-breadcrumbs-as-a-tool-for-findability.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.448276">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seriesOverview.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/seriesOverview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.428572">
-              <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2012-01-05-breadcrumbs-as-a-tool-for-findability.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.142858">
+            <state vertical-scroll-proportion="0.5641953">
               <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5370052">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="series-search-engine-optimization.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/series/series-search-engine-optimization.md">
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6551725">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seriesDetailed.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/seriesDetailed.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.142857">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toc-apis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/apis/toc-apis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,12 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNAME" />
-        <option value="$PROJECT_DIR$/pages/general/contact.html" />
-        <option value="$PROJECT_DIR$/pages/general/presentations.html" />
-        <option value="$PROJECT_DIR$/css/customstyles.css" />
-        <option value="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" />
-        <option value="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" />
         <option value="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-05-02-ideas.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-05-30-making-up-stories.html" />
@@ -177,7 +201,6 @@
         <option value="$PROJECT_DIR$/_includes/categorylogic.html" />
         <option value="$PROJECT_DIR$/pages/series/series-api-documentation-podcasts.md" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html" />
-        <option value="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
         <option value="$PROJECT_DIR$/_posts/2014/2014-05-30-creating-code-samples-webinar-recording-slides-and-audio.html" />
         <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-5-2.html" />
         <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-flare-20-and-madcap-software-mike-hamilton.html" />
@@ -192,7 +215,6 @@
         <option value="$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md" />
         <option value="$PROJECT_DIR$/pages/series/series-blogging_sins.md" />
         <option value="$PROJECT_DIR$/pages/series/series-dallas-stc-summit.md" />
-        <option value="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
         <option value="$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md" />
         <option value="$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md" />
         <option value="$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md" />
@@ -202,12 +224,20 @@
         <option value="$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md" />
         <option value="$PROJECT_DIR$/pages/dita/toc.html" />
         <option value="$PROJECT_DIR$/pages/java/java.html" />
-        <option value="$PROJECT_DIR$/_data/topnav.yml" />
         <option value="$PROJECT_DIR$/_includes/seriesDetailed.html" />
         <option value="$PROJECT_DIR$/pages/series/series-search-engine-optimization.md" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_includes/tinyletter.html" />
+        <option value="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" />
+        <option value="$PROJECT_DIR$/_site/eventbrite-example/index.html" />
+        <option value="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
+        <option value="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
+        <option value="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
+        <option value="$PROJECT_DIR$/_data/topnav.yml" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
   </component>
@@ -351,6 +381,84 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="family" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2012" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,12 +763,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="1134000" />
+      <workItem from="1432790287468" duration="4565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59699000" />
+    <option name="totallyTimeSpent" value="63130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -677,6 +785,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31987077" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4187192" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -687,7 +796,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4187192" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -710,364 +818,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/family/2011-06-22-on-prayer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.857143">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/family/2011-06-26-i-want-to-be-a-spy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.857143">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/family/2011-04-28-cedar-fort-cemetary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1790235">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-api-doc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4285715">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-family.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5714285">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-beginners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/jekyll/create_github_pages_site.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.946429">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/categorylogic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="72" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-book-reviews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-blogging.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.571428">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-05-30-creating-code-samples-webinar-recording-slides-and-audio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35262206">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-5-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.892857">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-flare-20-and-madcap-software-mike-hamilton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.892857">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-how-to-implement-single-sourcing-an-interview-with-neil-perlin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.607143">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-joomla-a-free-open-source-content-management-system-sean-wheller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.464285">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-knowledge-management-and-technical-writing-janet-foley-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.035715">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-writing-for-the-web-ian-koss-founder-of-ink19com.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.321428">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-17-podcasting-101-by-tom-johnson.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="43.607143">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-20-how-to-create-a-usable-index-john-mcghie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="42.42857">
-          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-09-30-why-developers-will-never-adopt-dita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08679928">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-podcasts.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-survey.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-blogging_sins.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-dallas-stc-summit.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4827585">
-          <caret line="3" column="445" selection-start-line="3" selection-start-column="445" selection-end-line="3" selection-end-column="445" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-my-dita-journey.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.62069">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-my-journey-to-and-from-wikis.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.965517">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-quick-reference-guides.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.448276">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-user-centered-documentation.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6551725">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dita/toc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.571428">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dita/toc-dita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/java/java.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.571428">
@@ -1108,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/family/2015-05-26-on-death-and-wonder-.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1140,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/seriesDetailed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
+        <state vertical-scroll-proportion="0.26039782">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding />
         </state>
@@ -1151,7 +893,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6551725">
+        <state vertical-scroll-proportion="0.08695652">
           <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
           <folding />
         </state>
@@ -1176,18 +918,336 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
+    <entry file="file://$PROJECT_DIR$/_includes/tinyletter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.142858">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5641953">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/eventbrite-example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19168174">
+          <caret line="561" column="24" selection-start-line="561" selection-start-column="24" selection-end-line="561" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.065099455">
+          <caret line="61" column="134" selection-start-line="61" selection-start-column="134" selection-end-line="61" selection-end-column="134" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5370052">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-10-the-home-depot-model-of-findability-or-social-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-13-a-lifetime-of-reading-versus-a-lifetime-of-writing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-18-using-jira-to-track-writing-assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-22-graduate-research-findings-about-technical-communication-and-blogs-in-the-workplace.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="90" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-24-interview-with-ugur-akinci-about-technical-communication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-27-stc-certification-an-in-depth-interview-with-steve-jong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-30-messages-from-sponsors-january-2012.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-02-01-brainstorming-solutions-to-volunteer-managementengagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-02-02-a-reverse-approach-to-help-authoring-writing-documentation-post-release.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-02-08-a-life-of-its-own.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-02-11-on-being-an-individual-contributor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4827585">
+          <caret line="6" column="384" selection-start-line="6" selection-start-column="384" selection-end-line="6" selection-end-column="384" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6551725">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5357144">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-05-15-writing-for-users-who-read-non-sequentially.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85714287">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-best-practices-with-screenshots-question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-can-you-tell-the-difference-between-these-2-images-.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-top-10-technical-writing-predictions-for-2015.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-my-real-top-10-technical-writing-trend-predictions-for-2015.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-new-cost-per-click-feature-for-advertising-on-id-rather-be-writing-during-2015.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5714285">
+          <caret line="3" column="6" selection-start-line="2" selection-start-column="7" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-why-i-like-writing-help-documentation-from-scratch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="2" column="89" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-to-learn-what-you-need-to-know.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-javadoc-tags-a-good-summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-what-i-wish-i-knew-before-starting-my-technical-writing-career-.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.0">
+          <caret line="50" column="290" selection-start-line="50" selection-start-column="290" selection-end-line="50" selection-end-column="290" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.814815">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.607142">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-06-breadcrumbs-as-a-tool-for-findability.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5641953">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
       </provider>

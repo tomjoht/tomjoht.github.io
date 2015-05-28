@@ -21,7 +21,7 @@ comments: true
 {{ content }}
 
 
-
+{% comment %}
 <div class="well well-sm">
 
     <div class="pagination">
@@ -32,5 +32,6 @@ comments: true
         <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
         {% endif %}
 </div>
+    {% endcomment %}
 
 {% if site.disqus %} {% include disqus.html %} {% endif %}

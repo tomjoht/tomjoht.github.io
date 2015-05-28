@@ -61,12 +61,12 @@ http://yoursite.com/maintenance/wheels.html<br />
 <p>At first, I was elated to realize that Drupal aliases could solve the relative URL problem. Sure I had to add a redirect for every page in my documentation, but that would mostly be a one-time thing and wouldn’t take more than a couple of hours to do anyway.</p>
 <p>And I could use both the hierarchical page links and relationship table links. But then I noticed that the relative paths varied based on the target file’s folder.</p>
 <p>In your relationship table, depending on the file the link appears in, the path might be any of the following:</p>
-<p>[code language="lang="]<br />
+<p><pre>
 ../maintenance/wheels.html<br />
 ../../maintenance/wheels.html<br />
 wheels.html<br />
 ../../../../maintenance/wheels.html<br />
-[/code]</p>
+</pre></p>
 <p>Now this poses a problem, because while entering in a couple hundred redirects (one per page) isn’t prohibitively tedious, entering 1,000 with all these path variations is crazy.</p>
 <h2 id="the-one-folder-solution">The one folder solution</h2>
 <p>The easy solution to maintaining a consistent path to each of the files is to put all the DITA files in the same folder. Yes, put all 1,000 or more of the DITA files into one folder.</p>
