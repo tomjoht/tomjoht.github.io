@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-poll-which-is-the-best-conference-for-technical-writers-to-attend-in-2015-.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" afterPath="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-07-24-our-spring-view-farms-trail-adventure.html" afterPath="$PROJECT_DIR$/_posts/family/2011-07-24-our-spring-view-farms-trail-adventure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-07-26-thanksgiving-point-gardens-outing.html" afterPath="$PROJECT_DIR$/_posts/family/2011-07-26-thanksgiving-point-gardens-outing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-07-31-swimming-at-the-lehi-legacy-center.html" afterPath="$PROJECT_DIR$/_posts/family/2011-07-31-swimming-at-the-lehi-legacy-center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-09-sidewalk-chalk-at-thanksgiving-point-gardens.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-09-sidewalk-chalk-at-thanksgiving-point-gardens.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-14-windy-night-and-a-stray-cat.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-14-windy-night-and-a-stray-cat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-18-storm-returns-home.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-18-storm-returns-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-08-21-stewart-falls-one-last-outing-before-summer-ends.html" afterPath="$PROJECT_DIR$/_posts/family/2011-08-21-stewart-falls-one-last-outing-before-summer-ends.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-11-27-cooking-tamales.html" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-cooking-tamales.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-11-27-discovering-antelope-island.html" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-discovering-antelope-island.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-11-27-reading-mistborn.html" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-reading-mistborn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-12-11-grandma-nana-comes-to-visit.html" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-grandma-nana-comes-to-visit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-12-11-how-avery-got-earrings.html" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-how-avery-got-earrings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2011-12-11-king-size-bed-fits-four.html" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-king-size-bed-fits-four.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" afterPath="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" afterPath="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" afterPath="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-09-28-maisies-peak-and-more.html" afterPath="$PROJECT_DIR$/_posts/family/2014-09-28-maisies-peak-and-more.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-10-19-san-francisco-city-to-ferry-loop-bicycle-ride.html" afterPath="$PROJECT_DIR$/_posts/family/2014-10-19-san-francisco-city-to-ferry-loop-bicycle-ride.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-10-28-celebrating-lucy-and-her-timeline.html" afterPath="$PROJECT_DIR$/_posts/family/2014-10-28-celebrating-lucy-and-her-timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-11-09-crystal-springs-reservoir-ride-and-other-details.html" afterPath="$PROJECT_DIR$/_posts/family/2014-11-09-crystal-springs-reservoir-ride-and-other-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/family/2014-12-04-free-from-limitations-and-imaginary-lines.html" afterPath="$PROJECT_DIR$/_posts/family/2014-12-04-free-from-limitations-and-imaginary-lines.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" afterPath="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/tinyletter.html" afterPath="$PROJECT_DIR$/_includes/tinyletter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/topnav.yml" afterPath="$PROJECT_DIR$/_data/topnav.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2012/2012-01-06-breadcrumbs-as-a-tool-for-findability.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="idratherbewriting.iws" />
@@ -156,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2012-01-06-breadcrumbs-as-a-tool-for-findability.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-06-breadcrumbs-as-a-tool-for-findability.html">
+      <file leaf-file-name="2012-01-05-breadcrumbs-as-a-tool-for-findability.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5641953">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.13019891">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -227,7 +186,6 @@
         <option value="$PROJECT_DIR$/_includes/seriesDetailed.html" />
         <option value="$PROJECT_DIR$/pages/series/series-search-engine-optimization.md" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
-        <option value="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/tinyletter.html" />
         <option value="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" />
@@ -238,6 +196,7 @@
         <option value="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
         <option value="$PROJECT_DIR$/_data/topnav.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
       </list>
     </option>
   </component>
@@ -763,12 +722,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="4565000" />
+      <workItem from="1432790287468" duration="4997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63130000" />
+    <option name="totallyTimeSpent" value="63562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -1244,10 +1203,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-06-breadcrumbs-as-a-tool-for-findability.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5641953">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.13019891">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
