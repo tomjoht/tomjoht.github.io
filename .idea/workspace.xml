@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" afterPath="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customstyles.css" afterPath="$PROJECT_DIR$/css/customstyles.css" />
     </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,97 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html">
+      <file leaf-file-name="customstyles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/customstyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="60.144577">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-02-01-creating-context-sensitive-help-by-converting-your-help-into-a-json-api.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-02-01-creating-context-sensitive-help-by-converting-your-help-into-a-json-api.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.018183">
-              <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-02-13-xml-and-the-web-drifting-farther-apart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-02-13-xml-and-the-web-drifting-farther-apart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.072727">
-              <caret line="21" column="198" selection-start-line="21" selection-start-column="189" selection-end-line="21" selection-end-column="198" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-03-11-reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-11-reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="28.454546">
-              <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-03-26-misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-26-misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="60.745453">
-              <caret line="93" column="230" selection-start-line="93" selection-start-column="221" selection-end-line="93" selection-end-column="230" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-03-26-variables-and-conditional-processing-jekyll-versus-dita.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-26-variables-and-conditional-processing-jekyll-versus-dita.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.25">
-              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6551725">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventbrite-example.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/apis/eventbrite-example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="15.256098">
-              <caret line="138" column="83" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="java-javadoc-tags.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/java/java-javadoc-tags.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8636363">
-              <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.3327338">
+              <caret line="506" column="8" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -180,7 +94,6 @@
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/disqus.html" />
         <option value="$PROJECT_DIR$/_includes/topnav.html" />
-        <option value="$PROJECT_DIR$/css/customstyles.css" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-03-19-recording-of-api-documentation-workshop-rest-and-javadoc-at-tcworld-india-2015.html" />
         <option value="$PROJECT_DIR$/_posts/2010/2010-02-07-registering-more-sidebars.html" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
@@ -192,6 +105,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/apis/eventbrite-example.html" />
         <option value="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" />
+        <option value="$PROJECT_DIR$/css/customstyles.css" />
       </list>
     </option>
   </component>
@@ -360,7 +274,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="java-java&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/pages/java/java-javadoc-tags.html&#10;questions-and&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/_posts/2012/2012-10-07-professional-technical-writing-careers-questions-and-answers-by-steve-goldberg.html&#10;site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
+    <property name="SearchEverywhereHistoryKey" value="customst&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/css/customstyles.css&#10;java-java&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/pages/java/java-javadoc-tags.html&#10;questions-and&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/_posts/2012/2012-10-07-professional-technical-writing-careers-questions-and-answers-by-steve-goldberg.html&#10;site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -649,12 +563,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="14361000" />
+      <workItem from="1432790287468" duration="14495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72926000" />
+    <option name="totallyTimeSpent" value="73060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -1029,14 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.814816">
-          <caret line="713" column="1" selection-start-line="713" selection-start-column="1" selection-end-line="713" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-19-recording-of-api-documentation-workshop-rest-and-javadoc-at-tcworld-india-2015.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.571429">
@@ -1053,50 +959,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html">
+    <entry file="file://$PROJECT_DIR$/pages/java/java-javadoc-tags.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="60.144577">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state vertical-scroll-proportion="-3.8636363">
+          <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-02-01-creating-context-sensitive-help-by-converting-your-help-into-a-json-api.html">
+    <entry file="file://$PROJECT_DIR$/pages/apis/eventbrite-example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.018183">
-          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-02-13-xml-and-the-web-drifting-farther-apart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.072727">
-          <caret line="21" column="198" selection-start-line="21" selection-start-column="189" selection-end-line="21" selection-end-column="198" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-11-reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="28.454546">
-          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-26-misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="60.745453">
-          <caret line="93" column="230" selection-start-line="93" selection-start-column="221" selection-end-line="93" selection-end-column="230" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-26-variables-and-conditional-processing-jekyll-versus-dita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.25">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.52095807">
+          <caret line="138" column="83" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -1106,7 +980,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6551725">
+        <state vertical-scroll-proportion="0.0866426">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
           <folding />
         </state>
@@ -1115,18 +989,58 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/apis/eventbrite-example.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-26-variables-and-conditional-processing-jekyll-versus-dita.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.256098">
-          <caret line="138" column="83" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-javadoc-tags.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-26-misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8636363">
-          <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.17234848">
+          <caret line="93" column="230" selection-start-line="93" selection-start-column="221" selection-end-line="93" selection-end-column="230" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-11-reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-02-13-xml-and-the-web-drifting-farther-apart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17234848">
+          <caret line="21" column="198" selection-start-line="21" selection-start-column="189" selection-end-line="21" selection-end-column="198" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-02-01-creating-context-sensitive-help-by-converting-your-help-into-a-json-api.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33712122">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.984">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327338">
+          <caret line="506" column="8" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="8" />
           <folding />
         </state>
       </provider>

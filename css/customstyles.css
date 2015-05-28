@@ -514,7 +514,7 @@ a[data-toggle] {
 
 .summary:before {
   /*content: "Summary: ";*/
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .pageMetadata {
