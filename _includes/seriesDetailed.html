@@ -4,7 +4,7 @@
 {% if p.series == thisSeries %}
 
 <a href="{{p.url | prepend: site.baseurl}}">{{p.weight}}. {{p.title}}</a>
-{% comment %}<p>{% if p.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 150 }} {% else %} {{ p.content | truncatewords: 150 | strip_html }} {% endif %}</p> {% endcomment %}
+{% comment %}<p>{% if p.summary %} {{ page.summary }} {% endif %}</p> {% endcomment %}
 
 {% endif %}
 {% endfor %}

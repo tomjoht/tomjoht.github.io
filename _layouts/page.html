@@ -9,7 +9,7 @@ layout: default
     <div class="post-content">
 
    {% if page.summary %}
-    <div class="summary">{{page.summary}}</div>
+    {% comment %} <div class="summary"></div> {% endcomment %}{{page.summary}}
    {% endif %}
 
   {{content}}
