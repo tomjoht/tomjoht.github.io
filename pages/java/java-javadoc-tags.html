@@ -9,20 +9,6 @@ tags: []
 status: publish
 type: page
 published: true
-meta:
-  _wpcom_is_markdown: '1'
-  _edit_last: '91'
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  dsq_thread_id: '3771750658'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>The following are the most common tags used in Javadoc. Each tag has a word that follows it. For example, <code>@param latitude</code> means the parameter is "latitude".</p>
 <table>
@@ -197,7 +183,7 @@ public int methodName (...) {<br />
 <p>Note that you can have multiple spaces after the parameter name so that your parameter definitions all line up.</p>
 <p>@param tags must be provided for every parameter in a method or constructor. Failure to do so will create an error and warning when you render Javadoc.</p>
 <p>Note that usually classes don't have parameters. There is one exception: Generics. Generic classes are classes that work with different type of objects. The object is specified as a parameter in the class in diamond brackets: <code>&lt;&gt;</code>. Although the Javadoc guidance from Oracle doesn't mention them, you can add a @param tag for a generic class to note the parameters for the generic class. See this <a href="http://stackoverflow.com/questions/2015972/is-there-a-javadoc-tag-for-documentating-generic-type-parameters">StackOverflow post</a> for details. Here's an example from that page:</p>
-<p>[code lang="java"]<br />
+<p>{% highlight java %}<br />
 /**<br />
  * @param &lt;T&gt; This describes my type parameter<br />
  */<br />

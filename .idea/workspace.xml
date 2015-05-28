@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="" />
+    <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" afterPath="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" />
+    </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -98,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventbrite-example.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eventbrite-example.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/apis/eventbrite-example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52095807">
+            <state vertical-scroll-proportion="15.256098">
               <caret line="138" column="83" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java-javadoc-tags.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/java/java-javadoc-tags.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8636363">
+              <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -129,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2014/2014-09-30-why-developers-will-never-adopt-dita.html" />
         <option value="$PROJECT_DIR$/pages/series/series-api-documentation-survey.md" />
         <option value="$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md" />
         <option value="$PROJECT_DIR$/pages/series/series-blogging_sins.md" />
@@ -180,6 +191,7 @@
         <option value="$PROJECT_DIR$/_posts/2015/2015-03-26-variables-and-conditional-processing-jekyll-versus-dita.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/apis/eventbrite-example.html" />
+        <option value="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" />
       </list>
     </option>
   </component>
@@ -272,6 +284,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="apis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -330,7 +360,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="questions-and&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/_posts/2012/2012-10-07-professional-technical-writing-careers-questions-and-answers-by-steve-goldberg.html&#10;site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
+    <property name="SearchEverywhereHistoryKey" value="java-java&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/pages/java/java-javadoc-tags.html&#10;questions-and&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/_posts/2012/2012-10-07-professional-technical-writing-careers-questions-and-answers-by-steve-goldberg.html&#10;site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -619,12 +649,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="13976000" />
+      <workItem from="1432790287468" duration="14361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72541000" />
+    <option name="totallyTimeSpent" value="72926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -641,7 +671,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31987077" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41761827" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41734862" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -678,14 +708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-best-practices-with-screenshots-question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-can-you-tell-the-difference-between-these-2-images-.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1095,8 +1117,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/apis/eventbrite-example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52095807">
+        <state vertical-scroll-proportion="15.256098">
           <caret line="138" column="83" selection-start-line="138" selection-start-column="83" selection-end-line="138" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/java/java-javadoc-tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8636363">
+          <caret line="185" column="3" selection-start-line="185" selection-start-column="3" selection-end-line="185" selection-end-column="3" />
           <folding />
         </state>
       </provider>
