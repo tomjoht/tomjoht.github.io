@@ -1,7 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="" />
+    <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0009-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0011-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0014-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0016_fix-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0017-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0023-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0025-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0029-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0036-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0060-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0074-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0082-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0090-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0092-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0104-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0105-Medium-e1313904176814-580x866.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0106-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0110-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0120-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0125-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0132-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0133-Medium-e1313903746285-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0139-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0248-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0252-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0255-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0256-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0257-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0261-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0263-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0265-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0271-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0279-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0282-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0287-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0294-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0298-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0302-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0303-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0306-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0308-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0309-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0314-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0316-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0317-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0318-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0320-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0323-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0324-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0328-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0330-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0335-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0455-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0457-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0463-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0466-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0467-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0477-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0480-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0484-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0487-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0493-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0505-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0507-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0510-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0520-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0529-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0542-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0546-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0570-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0571-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0575-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0576-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0583-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0603-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0615-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0652-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0661-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0671-Medium-e1311652344485-580x866.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0673-Medium-e1311652312105-580x866.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0703-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0706-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0708-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0714-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0716-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0717-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0939-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0946-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0949-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0967-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0969-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0971-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0977-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0983-fix-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC_0997-fix-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/audiobook-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avery_abstract2_betterlight-580x450.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avery_comic_art-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avery_comic_sketch-580x781.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avery_comic_sketch_also-580x719.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avery_nobrush-580x454.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avery_pondering-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/averycalliedancing-Medium-580x434.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/averyfunnyswimpicture-Medium-580x434.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/averys-new-earrings-e1323370335151-293x300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/averysosmart-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/averyswan-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/beecloseup-580x397.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bike_grave-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog-callie-poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog-poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0013-0010.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0020-0011.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0024-0012.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0026-0013.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0030-0014.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0071-0015.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0073-0016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0078-0017.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0079-0018.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0080-0019.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0082-0020.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0086-0021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0088-0022.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0094-0023.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0154-0025.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0157-0026.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog_DSC_0158-0027.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/butterflybody-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/butterflypaths-580x432.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/butterflywing-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/callie_abstract-580x460.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/callie_art_table-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/callie_nobrush-580x461.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/callie_nobrush_also-580x469.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/callie_still_life-580x445.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/callieswimming-Medium.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cityloop-1024x556.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cozyinaburley-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/emptylappool-Medium-580x434.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/everyoneinsamebed-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/family-1024x844.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/familyatswing-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/giants-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gough.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grandma-and-others-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grandmaandkids-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grandmakidsandshannon-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grandmakidsshannon2-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gsutahlogovert_blue541_small_312x320.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/justmomandme-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kindergarten-1024x685.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lucy-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lucy_abstract-580x455.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lucy_pajamas_art-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lucy_still_life-580x469.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/matt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/molly-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/molly_scribble-580x432.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/momandbaby-Medium-580x434.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mommy-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mtnlion-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mysteriouscage-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/panorama-1024x224.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/peak-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pony-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reading.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/remotecontrolairstrip-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ridetoschool-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sawyer_trail-1024x636.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/scaredinatree-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/skyride-1024x768.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/springtrail-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/swimmeet-Medium-580x434.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tamale-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/thecage-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tree-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ucsdfirearmsrange-Medium-580x388.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/vista-1024x767.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-04-28-cedar-fort-cemetary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-05-01-saratoga-hot-springs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-05-02-ideas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-05-30-making-up-stories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-05-30-the-moment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-06-20-nocturnal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-06-21-on-telling-real-stories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-06-22-on-prayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-06-26-i-want-to-be-a-spy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-07-24-directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-07-24-our-spring-view-farms-trail-adventure.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-07-25-thinking-more-about-family.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-07-26-thanksgiving-point-gardens-outing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-07-31-swimming-at-the-lehi-legacy-center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-08-09-sidewalk-chalk-at-thanksgiving-point-gardens.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-08-14-windy-night-and-a-stray-cat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-08-17-the-big-hill.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-08-18-storm-returns-home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-08-19-how-swimming-has-changed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-08-21-stewart-falls-one-last-outing-before-summer-ends.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-09-27-fathers-blessings-august-2011.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-cooking-tamales.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-discovering-antelope-island.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-reading-mistborn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-11-27-regret-over-a-missed-career-in-astronomy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-counting-calories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-grandma-nana-comes-to-visit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-how-avery-got-earrings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-king-size-bed-fits-four.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-11-we-moved-downstairs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-14-buffalo-on-antelope-island.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-14-grandpa-reading-runaway-bunny.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-14-hanging-out-at-home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-14-kids-singing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-14-sitting-around-at-home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2011-12-14-what-i-like-about-grandpa.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2012-07-26-woody-and-gus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2012-08-20-summer-is-over-school-begins-again.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2012-09-02-first-day-of-school.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-03-09-selling-girl-scout-cookies.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-03-16-two-months-after-leaving-the-church-an-update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-07-22-the-sinking-feeling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-07-26-a-few-realizations-during-my-week-alone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-09-28-maisies-peak-and-more.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-09-28-natural-bridges.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-10-16-biking-trip-to-yosemite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-10-19-san-francisco-city-to-ferry-loop-bicycle-ride.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-10-26-santa-clara-to-san-carlos-bike-ride.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-10-28-celebrating-lucy-and-her-timeline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-11-09-crystal-springs-reservoir-ride-and-other-details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2014-12-04-free-from-limitations-and-imaginary-lines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2015-02-07-callie-reads-her-angel-island-report-and-plays-with-the-microphone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2015-05-26-on-death-and-wonder-.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/family/2015-05-27-welcome-to-jekyll.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/category-archives/category-family.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/jekyll/create_github_pages_site.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/category-archives/category-java.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/category-archives/category-javascript.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-04-06-creating-links-in-dita-versus-jekyll.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-04-06-creating-links-in-dita-versus-jekyll.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-04-13-reviewing-markdown-content.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-04-13-reviewing-markdown-content.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-04-14-producing-pdfs-in-dita-versus-jekyll.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-04-14-producing-pdfs-in-dita-versus-jekyll.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-04-15-final-analysis-between-dita-and-jekyll.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-04-15-final-analysis-between-dita-and-jekyll.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-04-23-new-series-user-centered-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-04-23-new-series-user-centered-documentation.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-04-30-technical-writing-internship-in-san-jose-california-for-summer-2015.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-04-30-technical-writing-internship-in-san-jose-california-for-summer-2015.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-10-upcoming-presentation-jekyll-versus-dita-bridging-the-gap-between-tech-comm-and-the-web.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-10-upcoming-presentation-jekyll-versus-dita-bridging-the-gap-between-tech-comm-and-the-web.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-14-recording-and-slides-from-jekyll-vs-dita-bridging-the-gap-between-tech-comm-and-the-web-presentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-14-recording-and-slides-from-jekyll-vs-dita-bridging-the-gap-between-tech-comm-and-the-web-presentation.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-14-user-centered-documentation-slides.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-14-user-centered-documentation-slides.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-15-writing-for-users-who-read-non-sequentially.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-15-writing-for-users-who-read-non-sequentially.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-16-introduction-to-technical-writing-slides-and-audio-recording.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-16-introduction-to-technical-writing-slides-and-audio-recording.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-17-switched-commenting-systems-to-disqus.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-17-switched-commenting-systems-to-disqus.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-22-api-technical-writing-course-on-udemy.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-22-api-technical-writing-course-on-udemy.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-05-26-2015-integrating-documentation-into-engineering-code-and-workflows.md" afterPath="$PROJECT_DIR$/_posts/2015/2015-05-26-2015-integrating-documentation-into-engineering-code-and-workflows.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-09-5-2.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-09-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-09-flare-20-and-madcap-software-mike-hamilton.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-09-flare-20-and-madcap-software-mike-hamilton.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-09-how-to-implement-single-sourcing-an-interview-with-neil-perlin.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-09-how-to-implement-single-sourcing-an-interview-with-neil-perlin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-09-joomla-a-free-open-source-content-management-system-sean-wheller.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-09-joomla-a-free-open-source-content-management-system-sean-wheller.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-09-knowledge-management-and-technical-writing-janet-foley-2.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-09-knowledge-management-and-technical-writing-janet-foley-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-09-writing-for-the-web-ian-koss-founder-of-ink19com.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-09-writing-for-the-web-ian-koss-founder-of-ink19com.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-17-podcasting-101-by-tom-johnson.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-17-podcasting-101-by-tom-johnson.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-20-how-to-create-a-usable-index-john-mcghie.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-20-how-to-create-a-usable-index-john-mcghie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-23-another-perspective-on-single-sourcing-sarah-okeefe.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-23-another-perspective-on-single-sourcing-sarah-okeefe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-10-30-technical-writing-in-india-an-interview-with-sandeep-beepu-from-bangalore-india.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-10-30-technical-writing-in-india-an-interview-with-sandeep-beepu-from-bangalore-india.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-11-13-how-to-radically-increase-collaboration-and-performance-interview-with-emma-hamer.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-11-13-how-to-radically-increase-collaboration-and-performance-interview-with-emma-hamer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-11-27-web-20-cms-and-dita-ann-rockley.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-11-27-web-20-cms-and-dita-ann-rockley.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006/2006-12-18-bachman1.html" afterPath="$PROJECT_DIR$/_posts/2006/2006-12-18-bachman1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-01-01-bachman2.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-01-01-bachman2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-01-03-help-20-the-convergence-of-web-20-with-help-documentation.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-01-03-help-20-the-convergence-of-web-20-with-help-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-01-05-mike-hamilton-gives-flare-demo-to-the-suncoast-chapter.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-01-05-mike-hamilton-gives-flare-demo-to-the-suncoast-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-01-13-rahulprabhakar.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-01-13-rahulprabhakar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-01-23-how-to-create-a-site-where-users-can-actually-find-information-thom-haller.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-01-23-how-to-create-a-site-where-users-can-actually-find-information-thom-haller.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-02-03-discussion-about-robohelp-6-interview-with-rick-stone.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-02-03-discussion-about-robohelp-6-interview-with-rick-stone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-02-14-cohost-tech-writer-voices-podcast-feb-14-2007.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-02-14-cohost-tech-writer-voices-podcast-feb-14-2007.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-02-27-review-of-word-2007-tools-vs-industry-experience-the-slow-movement-e-mail-tip-and-more.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-02-27-review-of-word-2007-tools-vs-industry-experience-the-slow-movement-e-mail-tip-and-more.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-03-07-online-communities-member-maps-virtual-chats-sparkpeople-intercom.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-03-07-online-communities-member-maps-virtual-chats-sparkpeople-intercom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-03-14-tech-writer-voices-podcast-is-technical-writing-boring-tech-writers-as-information-architects.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-03-14-tech-writer-voices-podcast-is-technical-writing-boring-tech-writers-as-information-architects.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-03-25-stc-elections-interview-with-nicky-bleiel-march-25-2007.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-03-25-stc-elections-interview-with-nicky-bleiel-march-25-2007.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-04-02-susan-burton-provides-an-inside-in-depth-look-at-the-stcs-most-pressing-issues.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-04-02-susan-burton-provides-an-inside-in-depth-look-at-the-stcs-most-pressing-issues.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-04-07-making-help-more-human.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-04-07-making-help-more-human.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-04-08-stc-candidate-stories.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-04-08-stc-candidate-stories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-04-25-interview-with-george-hayhoe-editor-of-technical-communication-journal-on-technical-writing-in-china-and-korea.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-04-25-interview-with-george-hayhoe-editor-of-technical-communication-journal-on-technical-writing-in-china-and-korea.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-04-29-managingvirtualteams.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-04-29-managingvirtualteams.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-04-30-myfirstcarcastpodcast.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-04-30-myfirstcarcastpodcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-01-afewconversationsatdoctrain.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-01-afewconversationsatdoctrain.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-02-google-411-free-information-listings-via-phone.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-02-google-411-free-information-listings-via-phone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-06-wikis-documentation-technical-writing-wikis.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-06-wikis-documentation-technical-writing-wikis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-08-announcements-techwriterblogs-support-techwritervoices.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-08-announcements-techwriterblogs-support-techwritervoices.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-08-keith-hoffman-presentation-on-writing-and-web-20.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-08-keith-hoffman-presentation-on-writing-and-web-20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-10-neil-perlin-creating-help-in-web-20-age.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-10-neil-perlin-creating-help-in-web-20-age.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-12-graduating-kindergardener-asks-difficult-interview-questions.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-12-graduating-kindergardener-asks-difficult-interview-questions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-dan-dornbrook-chicago-chapter.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-dan-dornbrook-chicago-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-hillary-hart-austin-chapter.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-hillary-hart-austin-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-holly-harkness-al-hood-and-howard-speck-atlanta-chapter.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-holly-harkness-al-hood-and-howard-speck-atlanta-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-jackie-damrau-dallas-texas-and-rachel-houghton-willamette-valley-oregon.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-jackie-damrau-dallas-texas-and-rachel-houghton-willamette-valley-oregon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-jeanette-rogers-seattle-instructional-design-learning-sig.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-jeanette-rogers-seattle-instructional-design-learning-sig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-kelly-schrank-lou-martindale-mid-south-chapter-in-memphis-and-suncoast-chapter-in-tampa.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-kelly-schrank-lou-martindale-mid-south-chapter-in-memphis-and-suncoast-chapter-in-tampa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-lorrie-corbett-philadelphia-metro-chapter.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-lorrie-corbett-philadelphia-metro-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-melanie-g-flanders-china-beau-cain-director-8.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-melanie-g-flanders-china-beau-cain-director-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-paul-sinasohn-berkeley-chapter-california.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-paul-sinasohn-berkeley-chapter-california.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-rhevati-sampath-and-wendy-tung-berkeley-chapter-california.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-rhevati-sampath-and-wendy-tung-berkeley-chapter-california.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-sue-kloster-oregon.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-sue-kloster-oregon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-todd-race-toronto-chapter-canadian-issues-group.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-leadership-day-todd-race-toronto-chapter-canadian-issues-group.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-podcasting-at-the-stc-conference-reasons-methods-and-reflections.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-podcasting-at-the-stc-conference-reasons-methods-and-reflections.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-adrienne-escoe-on-recruiting.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-adrienne-escoe-on-recruiting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-ann-rockley-on-the-rockley-group-blog-and-a-new-cms-report.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-ann-rockley-on-the-rockley-group-blog-and-a-new-cms-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-caroline-jarrett-on-user-interface-design.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-caroline-jarrett-on-user-interface-design.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-chris-thompson-on-searching-for-a-content-management-system.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-chris-thompson-on-searching-for-a-content-management-system.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-cindy-skawinski-on-activity-diagrams-uniform-modeling-language-artifacts.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-cindy-skawinski-on-activity-diagrams-uniform-modeling-language-artifacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-deanne-levandar-twin-cities-minnesota-chapter.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-deanne-levandar-twin-cities-minnesota-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-debbie-kennedy-on-modular-writing-and-reusability.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-debbie-kennedy-on-modular-writing-and-reusability.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-geoff-sauer-on-tceserverorg-the-largest-tech-comm-index-online.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-geoff-sauer-on-tceserverorg-the-largest-tech-comm-index-online.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-harry-miller-on-multimedia-documentation.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-harry-miller-on-multimedia-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-in-minneapolis-brad-simmons-ames-iowa.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-in-minneapolis-brad-simmons-ames-iowa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-in-minneapolis-laurel-bowen.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-in-minneapolis-laurel-bowen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-in-minneapolis-michael-gernes-central-iowa-stc-community.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-in-minneapolis-michael-gernes-central-iowa-stc-community.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-jack-molisani-on-trends-in-technical-communication.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-jack-molisani-on-trends-in-technical-communication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-joan-lasselle-on-adopting-content-management.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-joan-lasselle-on-adopting-content-management.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-john-daigle-on-robohelp-7.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-john-daigle-on-robohelp-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-mike-brazill-on-writing-for-developers.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-mike-brazill-on-writing-for-developers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-rob-houser-on-creating-nontraditional-e-learning.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-rob-houser-on-creating-nontraditional-e-learning.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-scott-abel-on-web-20.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-scott-abel-on-web-20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-stephanie-bryant-on-videoblogging.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-stephanie-bryant-on-videoblogging.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-teresa-lipus-snake-river-chapter-southern-idaho-and-eastern-oregon.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-teresa-lipus-snake-river-chapter-southern-idaho-and-eastern-oregon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-whitney-quesenbery-on-the-five-es-of-usability.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-19-stc-conference-whitney-quesenbery-on-the-five-es-of-usability.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-05-31-vista-office2007-david-mcnamee.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-05-31-vista-office2007-david-mcnamee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-06-14-a-new-approach-tech-comm-news.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-06-14-a-new-approach-tech-comm-news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-06-21-information-architecture-organizing-chaos-metadata-taxonomy-vs-folksonomy-and-the-dublin-core.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-06-21-information-architecture-organizing-chaos-metadata-taxonomy-vs-folksonomy-and-the-dublin-core.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-09-17-virtual-ways-of-communicating-char-james-tanney.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-09-17-virtual-ways-of-communicating-char-james-tanney.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-09-20-location-is-everything-when-it-comes-to-getting-information-from-smes-carcast.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-09-20-location-is-everything-when-it-comes-to-getting-information-from-smes-carcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-10-05-the-science-behind-the-ergonomic-keyboard.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-10-05-the-science-behind-the-ergonomic-keyboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-10-16-answering-to-tough-questions-about-wikis-interview-with-anne-gentle.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-10-16-answering-to-tough-questions-about-wikis-interview-with-anne-gentle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-11-06-building-online-communities-interview-with-svi-ben-elya-about-elephantorgil.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-11-06-building-online-communities-interview-with-svi-ben-elya-about-elephantorgil.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-11-12-worstthingssmessayordo.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-11-12-worstthingssmessayordo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-11-19-special-dmn-communications-podcast-with-tech-writer-voices-me-are-you-hurting-your-career-by-not-blogging-or-podcasting.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-11-19-special-dmn-communications-podcast-with-tech-writer-voices-me-are-you-hurting-your-career-by-not-blogging-or-podcasting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-12-05-siegeloncaptivate.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-12-05-siegeloncaptivate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2007/2007-12-10-technical-communication-suite-from-adobe-interview-with-rj-jacquez.html" afterPath="$PROJECT_DIR$/_posts/2007/2007-12-10-technical-communication-suite-from-adobe-interview-with-rj-jacquez.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-01-14-podcast-the-impact-of-social-media-on-technical-communication-interview-with-bill-albing.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-01-14-podcast-the-impact-of-social-media-on-technical-communication-interview-with-bill-albing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-01-19-madcap-flare-paul-pehrson.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-01-19-madcap-flare-paul-pehrson.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-01-29-going-beyond-technical-writing-practical-advice-for-diversifying-your-skillset-podcast-interview-with-mark-hanigan.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-01-29-going-beyond-technical-writing-practical-advice-for-diversifying-your-skillset-podcast-interview-with-mark-hanigan.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-02-05-interview-with-stc-president-linda-oestreich-the-direction-the-stc-is-heading.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-02-05-interview-with-stc-president-linda-oestreich-the-direction-the-stc-is-heading.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-03-02-mp3-and-video-file-of-my-blogging-and-podcasting-presentation.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-03-02-mp3-and-video-file-of-my-blogging-and-podcasting-presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-03-26-podcast-tackling-godzilla-a-writerusability-consultant-reflects-on-the-largest-project-of-her-career.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-03-26-podcast-tackling-godzilla-a-writerusability-consultant-reflects-on-the-largest-project-of-her-career.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-04-02-podcast-transitioning-from-technical-writing-into-usability.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-04-02-podcast-transitioning-from-technical-writing-into-usability.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-04-12-podcast-social-networking-and-the-value-of-user-communities-for-technical-communicators.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-04-12-podcast-social-networking-and-the-value-of-user-communities-for-technical-communicators.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-04-21-podcast-dita-from-the-perspective-of-someone-actually-using-it.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-04-21-podcast-dita-from-the-perspective-of-someone-actually-using-it.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-06-podcast-moving-to-dita.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-06-podcast-moving-to-dita.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-06-podcast-pushing-your-company-into-the-wikis-blogs-and-social-networks-of-web-20-interview-with-alan-porter-of-webworks.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-06-podcast-pushing-your-company-into-the-wikis-blogs-and-social-networks-of-web-20-interview-with-alan-porter-of-webworks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-10-podcast-using-a-wiki-for-your-technical-documentation-interview-with-stewart-mader.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-10-podcast-using-a-wiki-for-your-technical-documentation-interview-with-stewart-mader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-11-podcast-living-multiple-lives-the-new-technical-communicator-interview-with-noz-urbina.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-11-podcast-living-multiple-lives-the-new-technical-communicator-interview-with-noz-urbina.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-17-podcast-document-engineering-interview-with-robert-glushko.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-17-podcast-document-engineering-interview-with-robert-glushko.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-17-podcast-xsl-flash-and-live-blogging-interview-with-sarah-okeefe.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-17-podcast-xsl-flash-and-live-blogging-interview-with-sarah-okeefe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-25-podcast-how-xml-enables-information-sharing-and-reuse-interview-with-joe-gollner.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-25-podcast-how-xml-enables-information-sharing-and-reuse-interview-with-joe-gollner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-25-podcast-why-content-management-projects-fail-interview-with-rahel-bailie.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-25-podcast-why-content-management-projects-fail-interview-with-rahel-bailie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-25-podcast-workspaces-collaboration-and-information-sharing-interview-with-emma-hamer.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-25-podcast-workspaces-collaboration-and-information-sharing-interview-with-emma-hamer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-27-thinking-about-a-more-personal-style-of-podcasting.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-27-thinking-about-a-more-personal-style-of-podcasting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-30-podcast-how-to-create-user-centered-documentation-interview-with-joe-sokohl.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-30-podcast-how-to-create-user-centered-documentation-interview-with-joe-sokohl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-31-podcast-analyzing-your-users-and-needs-before-creating-the-help-deliverables-interview-with-nicky-bleiel.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-31-podcast-analyzing-your-users-and-needs-before-creating-the-help-deliverables-interview-with-nicky-bleiel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-05-31-podcast-using-video-in-training-and-documentation-interview-with-todd-oneill.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-05-31-podcast-using-video-in-training-and-documentation-interview-with-todd-oneill.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-06-02-playing-with-sound-adding-downbeat-tempo-to-a-discourse-on-shakespeare.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-06-02-playing-with-sound-adding-downbeat-tempo-to-a-discourse-on-shakespeare.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-06-16-podcast-five-books-to-add-to-your-technical-communication-library.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-06-16-podcast-five-books-to-add-to-your-technical-communication-library.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-09-05-podcast-whats-new-in-the-field-of-technical-communication.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-09-05-podcast-whats-new-in-the-field-of-technical-communication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-09-08-flare-4-interview-with-sharon-burton.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-09-08-flare-4-interview-with-sharon-burton.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-09-19-podcast-repurposing-content-for-multichannel-publishing-single-sourcing.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-09-19-podcast-repurposing-content-for-multichannel-publishing-single-sourcing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-10-29-podcast-personalities-of-technical-communicators-interview-with-deborah-shapiro.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-10-29-podcast-personalities-of-technical-communicators-interview-with-deborah-shapiro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-11-03-podcast-debunking-the-boredom-myth-of-technical-writing.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-11-03-podcast-debunking-the-boredom-myth-of-technical-writing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-12-14-bogo-vatovec-technical-writers-role-with-design-podcast.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-12-14-bogo-vatovec-technical-writers-role-with-design-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2008/2008-12-23-podcast-technical-writing-in-agile-environments-interview-with-alyssa-fox.html" afterPath="$PROJECT_DIR$/_posts/2008/2008-12-23-podcast-technical-writing-in-agile-environments-interview-with-alyssa-fox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-01-05-podcast-help-authoring-with-doc-to-help-2009-interview-with-nicky-bleiel.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-01-05-podcast-help-authoring-with-doc-to-help-2009-interview-with-nicky-bleiel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-01-11-top-technical-communication-news-for-january-2009.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-01-11-top-technical-communication-news-for-january-2009.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-01-17-screencasting-collin-turner-intermountain-stc-presentation.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-01-17-screencasting-collin-turner-intermountain-stc-presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-01-31-podcast-make-your-help-indispensable-safeguard-your-job.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-01-31-podcast-make-your-help-indispensable-safeguard-your-job.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-02-05-documentation-review-techniques-videocast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-02-05-documentation-review-techniques-videocast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-02-15-avoiding-the-communicate-with-me-how-i-prefer-to-communicate-syndrome.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-02-15-avoiding-the-communicate-with-me-how-i-prefer-to-communicate-syndrome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-03-03-podcast-blogging-for-technical-communicators-webinar-part-1.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-03-03-podcast-blogging-for-technical-communicators-webinar-part-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-03-04-podcast-blogging-for-technical-communicators-webinar-part-2.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-03-04-podcast-blogging-for-technical-communicators-webinar-part-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-03-15-janes-presentation-twitter-for-business-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-03-15-janes-presentation-twitter-for-business-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-03-23-managing-writers-interview-with-richard-hamilton-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-03-23-managing-writers-interview-with-richard-hamilton-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-03-24-introduction-to-technical-writing-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-03-24-introduction-to-technical-writing-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-03-27-interviews-that-shaped-my-podcasting-style-and-approach.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-03-27-interviews-that-shaped-my-podcasting-style-and-approach.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-05-ginny-redish-letting-go-of-the-words-podcast-interview-at-stc-summit.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-05-ginny-redish-letting-go-of-the-words-podcast-interview-at-stc-summit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-11-james-bond-the-history-of-the-illustrated-007-podcast-with-alan-porter.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-11-james-bond-the-history-of-the-illustrated-007-podcast-with-alan-porter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-13-gui-magnets-prototyping-user-interfaces-with-simple-magnets.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-13-gui-magnets-prototyping-user-interfaces-with-simple-magnets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-16-john-hedtke-on-disaster-preparedness-and-book-publishing.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-16-john-hedtke-on-disaster-preparedness-and-book-publishing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-19-the-state-of-structured-authoring-in-technical-communication-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-19-the-state-of-structured-authoring-in-technical-communication-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-20-madcaps-flare-dita-solution-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-20-madcaps-flare-dita-solution-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-21-converting-readers-from-casual-subscribers-to-devoted-followers.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-21-converting-readers-from-casual-subscribers-to-devoted-followers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-25-richard-hamiltons-xml-press-imprint-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-25-richard-hamiltons-xml-press-imprint-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-25-stc-torontos-new-five-and-five-chapter-model.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-25-stc-torontos-new-five-and-five-chapter-model.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-05-27-anne-gentle-on-her-forthcoming-book-conversation-and-community-the-social-web-for-documentation.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-05-27-anne-gentle-on-her-forthcoming-book-conversation-and-community-the-social-web-for-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-06-14-blogging-podcasting-and-screencasting-eight-characteristics-to-attract-devoted-followers-part-2.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-06-14-blogging-podcasting-and-screencasting-eight-characteristics-to-attract-devoted-followers-part-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-06-14-blogging-podcasting-and-screencasting-eight-characteristics-to-find-devoted-followers-part-i.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-06-14-blogging-podcasting-and-screencasting-eight-characteristics-to-find-devoted-followers-part-i.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-06-20-forms-that-work-interview-with-caroline-jarrett-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-06-20-forms-that-work-interview-with-caroline-jarrett-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-07-27-podcast-on-content-strategy-interview-with-rahel-bailie.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-07-27-podcast-on-content-strategy-interview-with-rahel-bailie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-08-14-carcast-friday-thoughts-on-reading-publish2-and-writer-river.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-08-14-carcast-friday-thoughts-on-reading-publish2-and-writer-river.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-08-26-podcast-about-conversation-and-community.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-08-26-podcast-about-conversation-and-community.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-09-23-information-overload-conversation-with-ricardo-amigo.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-09-23-information-overload-conversation-with-ricardo-amigo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-10-01-my-stc-summit-blogging-presentation-is-free.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-10-01-my-stc-summit-blogging-presentation-is-free.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-10-09-an-interview-about-technical-writing.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-10-09-an-interview-about-technical-writing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-10-10-choosing-between-academic-and-corporate-life-did-i-make-the-wrong-choice.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-10-10-choosing-between-academic-and-corporate-life-did-i-make-the-wrong-choice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-10-15-podcast-from-byu-idaho-professional-writing-panel.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-10-15-podcast-from-byu-idaho-professional-writing-panel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-10-18-the-seven-sins-of-blogging-sin-6-being-unfindable.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-10-18-the-seven-sins-of-blogging-sin-6-being-unfindable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-11-05-podcast-on-the-seven-deadly-sins-of-blogging.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-11-05-podcast-on-the-seven-deadly-sins-of-blogging.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-11-18-podcast-about-the-podcast-poll.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-11-18-podcast-about-the-podcast-poll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-11-29-play-chess-online-with-chessjam.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-11-29-play-chess-online-with-chessjam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-12-02-whats-the-best-microphone-for-screencasting.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-12-02-whats-the-best-microphone-for-screencasting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-12-17-powerpoint-from-screencasting-webinar.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-12-17-powerpoint-from-screencasting-webinar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-12-21-podcast-the-myth-of-single-sourcing.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-12-21-podcast-the-myth-of-single-sourcing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009/2009-12-26-get-a-job-in-technical-writing-podcast.html" afterPath="$PROJECT_DIR$/_posts/2009/2009-12-26-get-a-job-in-technical-writing-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-01-21-podcast-riding-the-tide-of-technical-communications-consulting.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-01-21-podcast-riding-the-tide-of-technical-communications-consulting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-03-01-podcast-documentation-in-the-cloud.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-03-01-podcast-documentation-in-the-cloud.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-03-02-flare-6-whats-new-interview-with-mike-hamilton.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-03-02-flare-6-whats-new-interview-with-mike-hamilton.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-04-07-why-this-american-life-is-my-favorite-podcast.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-04-07-why-this-american-life-is-my-favorite-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-04-25-podcast-trends-in-technical-communication.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-04-25-podcast-trends-in-technical-communication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-04-26-podcast-anyone-can-write-changing-roles-for-technical-communicators.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-04-26-podcast-anyone-can-write-changing-roles-for-technical-communicators.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-04-28-from-overlooked-to-center-stage-12.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-04-28-from-overlooked-to-center-stage-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-05-18-imposing-order-versus-observing-order-organizing-content-4.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-05-18-imposing-order-versus-observing-order-organizing-content-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-09-06-answers-about-the-field-of-technical-writing-for-students.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-09-06-answers-about-the-field-of-technical-writing-for-students.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-09-07-more-students-questions-about-technical-writing.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-09-07-more-students-questions-about-technical-writing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-10-06-podcast-developing-a-personal-voice-in-audio-intermountain-stc-event.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-10-06-podcast-developing-a-personal-voice-in-audio-intermountain-stc-event.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-10-08-podcast-finding-and-creating-relevant-content-strategies-for-social-media.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-10-08-podcast-finding-and-creating-relevant-content-strategies-for-social-media.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-10-21-technical-writing-is-more-than-click-this-select-that-podcast.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-10-21-technical-writing-is-more-than-click-this-select-that-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-10-22-why-help-content-fails-contentstrategy.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-10-22-why-help-content-fails-contentstrategy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2010/2010-11-23-podcast-educational-programs-and-workplace-practices.html" afterPath="$PROJECT_DIR$/_posts/2010/2010-11-23-podcast-educational-programs-and-workplace-practices.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011/2011-03-07-podcast-with-alan-houser-candidate-for-stc-vice-president.html" afterPath="$PROJECT_DIR$/_posts/2011/2011-03-07-podcast-with-alan-houser-candidate-for-stc-vice-president.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011/2011-03-07-podcast-with-victoria-koster-lenhardt-candidate-for-stc-vice-president.html" afterPath="$PROJECT_DIR$/_posts/2011/2011-03-07-podcast-with-victoria-koster-lenhardt-candidate-for-stc-vice-president.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011/2011-03-14-podcast-visual-composing-with-jo-mackiewicz.html" afterPath="$PROJECT_DIR$/_posts/2011/2011-03-14-podcast-visual-composing-with-jo-mackiewicz.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011/2011-03-18-podcast-a-practical-guide-to-information-architecture-with-donna-spencer.html" afterPath="$PROJECT_DIR$/_posts/2011/2011-03-18-podcast-a-practical-guide-to-information-architecture-with-donna-spencer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011/2011-04-05-podcast-content-strategy-and-agility-with-noz-urbina.html" afterPath="$PROJECT_DIR$/_posts/2011/2011-04-05-podcast-content-strategy-and-agility-with-noz-urbina.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011/2011-05-18-podcast-organizing-help-content-breaking-out-of-topic-based-hierarchies.html" afterPath="$PROJECT_DIR$/_posts/2011/2011-05-18-podcast-organizing-help-content-breaking-out-of-topic-based-hierarchies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-02-18-webinar-recording-designing-quick-reference-guides.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-02-18-webinar-recording-designing-quick-reference-guides.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-02-18-webinar-recording-organizing-help-content-breaking-out-of-topic-based-hierarchies.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-02-18-webinar-recording-organizing-help-content-breaking-out-of-topic-based-hierarchies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-06-05-upcoming-stc-webinar-creating-help-in-a-wiki-environment.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-06-05-upcoming-stc-webinar-creating-help-in-a-wiki-environment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-09-15-how-can-speech-be-hard-for-writers.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-09-15-how-can-speech-be-hard-for-writers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-12-11-podcast-include-it-all-filter-it-afterwards-interview-with-mark-baker.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-12-11-podcast-include-it-all-filter-it-afterwards-interview-with-mark-baker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013/2013-06-24-recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation.html" afterPath="$PROJECT_DIR$/_posts/2013/2013-06-24-recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013/2013-06-24-recording-of-video-tutorials-for-user-assistance-ua-europe-presentation.html" afterPath="$PROJECT_DIR$/_posts/2013/2013-06-24-recording-of-video-tutorials-for-user-assistance-ua-europe-presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013/2013-10-23-recording-and-slides-for-why-users-cant-find-answers-in-help-presentation-to-stc-silicon-valley.html" afterPath="$PROJECT_DIR$/_posts/2013/2013-10-23-recording-and-slides-for-why-users-cant-find-answers-in-help-presentation-to-stc-silicon-valley.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-01-08-recording-of-stc-berkeley-presentation-on-why-users-cant-find-answers-in-help.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-01-08-recording-of-stc-berkeley-presentation-on-why-users-cant-find-answers-in-help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-don-day-on-connecting-intelligent-content-with-micropublishing-at-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-don-day-on-connecting-intelligent-content-with-micropublishing-at-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-kyle-wiens-on-gamification-and-ifixit-dozuki-at-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-kyle-wiens-on-gamification-and-ifixit-dozuki-at-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-marcia-riefer-johnston-on-writing-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-marcia-riefer-johnston-on-writing-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-mark-baker-on-every-page-is-page-one-at-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-mark-baker-on-every-page-is-page-one-at-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-noz-urbina-on-the-biological-imperative-for-intelligent-content-at-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-noz-urbina-on-the-biological-imperative-for-intelligent-content-at-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-rahel-bailie-on-the-language-of-content-strategy-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-rahel-bailie-on-the-language-of-content-strategy-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-sarah-okeefe-on-the-many-facets-of-content-strategy-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-sarah-okeefe-on-the-many-facets-of-content-strategy-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-theresa-putkey-on-diagnosing-and-solving-content-problems-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-theresa-putkey-on-diagnosing-and-solving-content-problems-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-tobi-crabtree-on-virtual-agents-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-tobi-crabtree-on-virtual-agents-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-tom-johnson-on-blogging-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-tom-johnson-on-blogging-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-val-swisher-on-translation-without-borders-at-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-val-swisher-on-translation-without-borders-at-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-03-03-videos-and-reflections-from-intelligent-content-2014.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-03-03-videos-and-reflections-from-intelligent-content-2014.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-05-18-recording-of-my-stc-sacramento-presentation-why-users-cant-find-answers-in-help-material.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-05-18-recording-of-my-stc-sacramento-presentation-why-users-cant-find-answers-in-help-material.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-05-30-creating-code-samples-webinar-recording-slides-and-audio.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-05-30-creating-code-samples-webinar-recording-slides-and-audio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-06-08-lessons-learned-as-a-novice-api-technical-writer-interview-with-mary-linderman-podcast.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-06-08-lessons-learned-as-a-novice-api-technical-writer-interview-with-mary-linderman-podcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-06-16-introduction-to-api-documentation-interview-with-scot-marvin.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-06-16-introduction-to-api-documentation-interview-with-scot-marvin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-06-18-information-development-world-and-the-customer-experience-a-podcast-with-scott-abel-and-val-swisher.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-06-18-information-development-world-and-the-customer-experience-a-podcast-with-scott-abel-and-val-swisher.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-09-30-why-developers-will-never-adopt-dita.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-09-30-why-developers-will-never-adopt-dita.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-10-16-api-doc-presentation-slides-and-recording.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-10-16-api-doc-presentation-slides-and-recording.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-10-23-slides-and-recording-for-perfecting-the-audio-narration-in-instructional-videos-at-info-dev-world.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-10-23-slides-and-recording-for-perfecting-the-audio-narration-in-instructional-videos-at-info-dev-world.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-11-05-the-author-experience-interview-with-rick-yagodich.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-11-05-the-author-experience-interview-with-rick-yagodich.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-17-getting-a-job-in-api-documentation-podcast-with-andrew-davis.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-17-getting-a-job-in-api-documentation-podcast-with-andrew-davis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-22-learning-how-developers-think-and-other-api-doc-insights-podcast-with-joe-malin.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-22-learning-how-developers-think-and-other-api-doc-insights-podcast-with-joe-malin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-08-podcast-unifying-the-api-doc-publishing-toolchain-with-mark-baker.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-08-podcast-unifying-the-api-doc-publishing-toolchain-with-mark-baker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-19-moving-from-passive-to-reactive-documentation-recording-of-presentation-by-greg-koberger-readme-io-founder.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-19-moving-from-passive-to-reactive-documentation-recording-of-presentation-by-greg-koberger-readme-io-founder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-27-api-workshop-video-audio-slides-workshop-files-from-tc-camp.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-27-api-workshop-video-audio-slides-workshop-files-from-tc-camp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-02-03-upcoming-webinar-survival-strategies-for-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-02-03-upcoming-webinar-survival-strategies-for-api-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-02-04-best-practices-for-api-documentation-podcast-with-andrya-feinberg.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-02-04-best-practices-for-api-documentation-podcast-with-andrya-feinberg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-02-09-tcworld-india-2015.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-02-09-tcworld-india-2015.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-02-18-the-genius-of-github.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-02-18-the-genius-of-github.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-03-18-recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-03-18-recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/categorylogic.html" afterPath="$PROJECT_DIR$/_includes/categorylogic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/general/contact.html" afterPath="$PROJECT_DIR$/pages/general/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customstyles.css" afterPath="$PROJECT_DIR$/css/customstyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/general/presentations.html" afterPath="$PROJECT_DIR$/pages/general/presentations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-api-documentation-podcasts.md" afterPath="$PROJECT_DIR$/pages/series/series-api-documentation-podcasts.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-api-documentation-survey.md" afterPath="$PROJECT_DIR$/pages/series/series-api-documentation-survey.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md" afterPath="$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-blogging_sins.md" afterPath="$PROJECT_DIR$/pages/series/series-blogging_sins.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-dallas-stc-summit.md" afterPath="$PROJECT_DIR$/pages/series/series-dallas-stc-summit.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" afterPath="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md" afterPath="$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md" afterPath="$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md" afterPath="$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-my-dita-journey.md" afterPath="$PROJECT_DIR$/pages/series/series-my-dita-journey.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-my-journey-to-and-from-wikis.md" afterPath="$PROJECT_DIR$/pages/series/series-my-journey-to-and-from-wikis.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-quick-reference-guides.md" afterPath="$PROJECT_DIR$/pages/series/series-quick-reference-guides.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-search-engine-optimization.md" afterPath="$PROJECT_DIR$/pages/series/series-search-engine-optimization.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md" afterPath="$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/topnav.yml" afterPath="$PROJECT_DIR$/_data/topnav.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,13 +521,174 @@
     <favorites_list name="idratherbewriting" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="series-get-a-job-in-technical-writing.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-innovation-in-tech-comm.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-jekyll-versus-dita.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4827585">
+              <caret line="3" column="445" selection-start-line="3" selection-start-column="445" selection-end-line="3" selection-end-column="445" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-my-dita-journey.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-my-dita-journey.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.62069">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-my-journey-to-and-from-wikis.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-my-journey-to-and-from-wikis.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.965517">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-quick-reference-guides.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-quick-reference-guides.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.448276">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-search-engine-optimization.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-search-engine-optimization.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.448276">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-ten-voiceover-techniques.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.448276">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-user-centered-documentation.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-user-centered-documentation.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.04347826">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="series-from-overlooked-to-center-stage.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="jekyll" />
         <option value="Html5" />
+        <option value="jekyll" />
       </list>
     </option>
   </component>
@@ -42,57 +703,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/category-archives/category-visual-communication.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-video.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-user-centered-documentation.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-screencasting.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-quick-reference-guides.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-podcasts.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-jekyll.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-javascript.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-java.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-general.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-dita.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-beginners.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-book-reviews.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-creativity.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-innovation.html" />
-        <option value="$PROJECT_DIR$/_posts/2009/2009-03-03-podcast-blogging-for-technical-communicators-webinar-part-1.html" />
-        <option value="$PROJECT_DIR$/_posts/2009/2009-03-04-podcast-blogging-for-technical-communicators-webinar-part-2.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-blogging.html" />
-        <option value="$PROJECT_DIR$/_posts/2006/2006-06-01-why-this-blog-separate-from-the-suncoast-blog.html" />
-        <option value="$PROJECT_DIR$/pages/category-archives/category-findability.html" />
-        <option value="$PROJECT_DIR$/_includes/linkrefs.html" />
-        <option value="$PROJECT_DIR$/pages/general/contact.html" />
-        <option value="$PROJECT_DIR$/_data/sidebar.yml" />
-        <option value="$PROJECT_DIR$/_data/sidebar_javascript.yml" />
-        <option value="$PROJECT_DIR$/_data/sidebar_java.yml" />
-        <option value="$PROJECT_DIR$/pages/javascript/toc-javascript.html" />
-        <option value="$PROJECT_DIR$/pages/dita/toc-dita.html" />
-        <option value="$PROJECT_DIR$/pages/apis/toc-apis.html" />
-        <option value="$PROJECT_DIR$/pages/java/toc-java.html" />
-        <option value="$PROJECT_DIR$/_includes/technotes_toc.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_data/sidebar_dita.yml" />
-        <option value="$PROJECT_DIR$/_data/sidebar_api.yml" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_includes/categorylogic.html" />
-        <option value="$PROJECT_DIR$/_posts/2015-05-22-api-technical-writing-course-on-udemy.html" />
-        <option value="$PROJECT_DIR$/_includes/topnav.html" />
-        <option value="$PROJECT_DIR$/_includes/text_ads.html" />
-        <option value="$PROJECT_DIR$/_includes/social_media_icons.html" />
-        <option value="$PROJECT_DIR$/pages/general/newsletter.html" />
-        <option value="$PROJECT_DIR$/_includes/sendy.html" />
-        <option value="$PROJECT_DIR$/_includes/sidebar.html" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/customstyles.css" />
-        <option value="$PROJECT_DIR$/_data/topnav.yml" />
         <option value="$PROJECT_DIR$/_includes/tinyletter.html" />
         <option value="$PROJECT_DIR$/feed.xml" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/CNAME" />
+        <option value="$PROJECT_DIR$/pages/general/contact.html" />
+        <option value="$PROJECT_DIR$/pages/general/presentations.html" />
+        <option value="$PROJECT_DIR$/css/customstyles.css" />
+        <option value="$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-05-02-ideas.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-05-30-making-up-stories.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-05-30-the-moment.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-06-20-nocturnal.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-06-21-on-telling-real-stories.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-06-22-on-prayer.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-06-26-i-want-to-be-a-spy.html" />
+        <option value="$PROJECT_DIR$/_posts/family/2011-04-28-cedar-fort-cemetary.html" />
+        <option value="$PROJECT_DIR$/pages/category-archives/category-family.html" />
+        <option value="$PROJECT_DIR$/pages/jekyll/create_github_pages_site.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_data/topnav.yml" />
+        <option value="$PROJECT_DIR$/_includes/categorylogic.html" />
+        <option value="$PROJECT_DIR$/pages/series/series-api-documentation-podcasts.md" />
+        <option value="$PROJECT_DIR$/_posts/2015/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html" />
+        <option value="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
+        <option value="$PROJECT_DIR$/_posts/2014/2014-05-30-creating-code-samples-webinar-recording-slides-and-audio.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-5-2.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-flare-20-and-madcap-software-mike-hamilton.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-how-to-implement-single-sourcing-an-interview-with-neil-perlin.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-joomla-a-free-open-source-content-management-system-sean-wheller.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-knowledge-management-and-technical-writing-janet-foley-2.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-09-writing-for-the-web-ian-koss-founder-of-ink19com.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-17-podcasting-101-by-tom-johnson.html" />
+        <option value="$PROJECT_DIR$/_posts/2006/2006-10-20-how-to-create-a-usable-index-john-mcghie.html" />
+        <option value="$PROJECT_DIR$/_posts/2014/2014-09-30-why-developers-will-never-adopt-dita.html" />
+        <option value="$PROJECT_DIR$/pages/series/series-api-documentation-survey.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-blogging_sins.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-dallas-stc-summit.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-my-dita-journey.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-my-journey-to-and-from-wikis.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-quick-reference-guides.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-search-engine-optimization.md" />
+        <option value="$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md" />
       </list>
     </option>
   </component>
@@ -112,8 +773,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1560" />
-    <option name="height" value="1164" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -138,8 +799,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,7 +814,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemId" value="tomjohnson1492.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -165,7 +824,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="series" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -179,7 +874,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -193,7 +916,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemId" value="tomjohnson1492.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -203,24 +926,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/2015" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_drafts" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/_includes" />
     </key>
   </component>
   <component name="RunManager">
@@ -499,15 +1224,17 @@
       <workItem from="1432690061806" duration="128000" />
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
+      <workItem from="1432783050296" duration="3789000" />
+      <workItem from="1432790287468" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54776000" />
+    <option name="totallyTimeSpent" value="58684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1560" height="1164" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -518,7 +1245,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20948617" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31987077" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -530,7 +1257,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41930115" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4187192" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -553,377 +1280,472 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/java-subclasses/index.html">
+    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="28.25">
-          <caret line="598" column="5" selection-start-line="598" selection-start-column="5" selection-end-line="598" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.4444447">
+          <caret line="778" column="24" selection-start-line="778" selection-start-column="24" selection-end-line="778" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-abstract-methods.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2015-02-07-callie-reads-her-angel-island-report-and-plays-with-the-microphone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.964285">
-          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-access-modifiers.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2014-07-26-a-few-realizations-during-my-week-alone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.75">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-classes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.107143">
-          <caret line="158" column="4" selection-start-line="158" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.75">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-constants.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-continue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53571427">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-enums.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3928572">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-handling-exceptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.035715">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-methods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.107143">
-          <caret line="146" column="7" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-packages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.107142">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-primitive-data-types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.60714287">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-blogging.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2013-01-13-discovering-girl-scouts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.285714">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-findability.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5714285">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-dita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.285714">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5714285">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/general/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.6">
-          <caret line="25" column="175" selection-start-line="25" selection-start-column="175" selection-end-line="25" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dita/toc-dita.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.85714287">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/apis/toc-apis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/sidebar.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12565444">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/javascript/toc-javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/toc-java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/sidebar_java.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/technotes_toc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5714285">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/notes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.285714">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/sidebar_javascript.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/sidebar_dita.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/sidebar_api.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signup.php">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-05-22-api-technical-writing-course-on-udemy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/ads.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/topnav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3372973">
-          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/text_ads.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2013-01-13-girl-scouts-painting-and-comic-art-badges.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/social_media_icons.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="30" />
+        <state vertical-scroll-proportion="-4.285714">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/general/newsletter.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-05-02-ideas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25945947">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-05-30-making-up-stories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20756757">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-05-30-the-moment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-06-20-nocturnal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-06-21-on-telling-real-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-06-22-on-prayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-06-26-i-want-to-be-a-spy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/family/2011-04-28-cedar-fort-cemetary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1790235">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/category-archives/category-api-doc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4285715">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-family.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5714285">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-beginners.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/categorylogic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.571428">
-          <caret line="10" column="120" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/pages/jekyll/create_github_pages_site.md">
       <provider editor-type-id="Gfm">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.946429">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.517857">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9051383">
-          <caret line="786" column="1" selection-start-line="786" selection-start-column="1" selection-end-line="786" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6117647">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/tinyletter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07258064">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
+          <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
+    <entry file="file://$PROJECT_DIR$/_includes/categorylogic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
+          <caret line="0" column="72" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-book-reviews.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21176471">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/category-archives/category-blogging.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/seriesDetailed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-05-16-api-documentation-presentation-to-east-bay-stc-chapter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.571428">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-05-30-creating-code-samples-webinar-recording-slides-and-audio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35262206">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.142857">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-5-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="41.892857">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-flare-20-and-madcap-software-mike-hamilton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.892857">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-how-to-implement-single-sourcing-an-interview-with-neil-perlin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.607143">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-joomla-a-free-open-source-content-management-system-sean-wheller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="26.464285">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-knowledge-management-and-technical-writing-janet-foley-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.035715">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-09-writing-for-the-web-ian-koss-founder-of-ink19com.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.321428">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-17-podcasting-101-by-tom-johnson.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="43.607143">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006/2006-10-20-how-to-create-a-usable-index-john-mcghie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="42.42857">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-09-30-why-developers-will-never-adopt-dita.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08679928">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-podcasts.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-survey.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-author-in-dita-publish-in-wordpress.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-blogging_sins.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-dallas-stc-summit.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-get-a-job-in-technical-writing.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-innovation-in-tech-comm.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-jekyll-versus-dita.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4827585">
+          <caret line="3" column="445" selection-start-line="3" selection-start-column="445" selection-end-line="3" selection-end-column="445" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-my-dita-journey.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.62069">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-my-journey-to-and-from-wikis.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.965517">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-quick-reference-guides.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.448276">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-search-engine-optimization.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.448276">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-ten-voiceover-techniques.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.448276">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-user-centered-documentation.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04347826">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

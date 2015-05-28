@@ -682,6 +682,7 @@ h3.sidebar {
 
 .siteLogo img {
     padding:0px 30px 20px 30px;
+    max-width: 100%;
 }
 div.topBannerAd {
 
@@ -784,4 +785,8 @@ button.navbar-toggle {
 
 .pagination {
     font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
 }

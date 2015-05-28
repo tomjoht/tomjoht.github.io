@@ -101,16 +101,14 @@ topnav_dropdowns:
         url: /category-creativity/
       - title: DITA
         url: /category-dita/
+      - title: Family
+        url: /family/
       - title: Findability
         url: /category-findability/
       - title: General
         url: /category-general/
       - title: Innovation
         url: /category-innovation/
-      - title: Java
-        url: /category-java/
-      - title: JavaScript
-        url: /category-javascript/
       - title: Jekyll
         url: /category-jekyll/
       - title: Podcasts

@@ -14,7 +14,8 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: pygments
 
-url: "http://tomjohnson1492.github.io"
+#url: "http://tomjohnson1492.github.io"
+url: "http://idratherbewriting.com"
 exclude:
   - _drafts
   - .idea
