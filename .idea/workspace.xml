@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customstyles.css" afterPath="$PROJECT_DIR$/css/customstyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" />
     </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +36,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="customstyles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/customstyles.css">
+      <file leaf-file-name="series-api-documentation-survey.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-survey.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3327338">
-              <caret line="506" column="8" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="8" />
+            <state vertical-scroll-proportion="-2.4827585">
+              <caret line="3" column="228" selection-start-line="3" selection-start-column="228" selection-end-line="3" selection-end-column="228" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18018018">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-02-api-doc-survey-what-ide-do-you-use.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-api-doc-survey-automating-rest-api-documentation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.892857">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.75">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -76,7 +184,6 @@
         <option value="$PROJECT_DIR$/_posts/2014/2014-05-01-dita-files-reuse.html" />
         <option value="$PROJECT_DIR$/_site/eventbrite-example/index.html" />
         <option value="$PROJECT_DIR$/pages/series/series-from-overlooked-to-center-stage.md" />
-        <option value="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
         <option value="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
@@ -106,6 +213,7 @@
         <option value="$PROJECT_DIR$/pages/apis/eventbrite-example.html" />
         <option value="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" />
         <option value="$PROJECT_DIR$/css/customstyles.css" />
+        <option value="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
       </list>
     </option>
   </component>
@@ -167,6 +275,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="series" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,12 +689,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="14495000" />
+      <workItem from="1432790287468" duration="15021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73060000" />
+    <option name="totallyTimeSpent" value="73586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -622,70 +748,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-can-you-tell-the-difference-between-these-2-images-.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-01-top-10-technical-writing-predictions-for-2015.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-my-real-top-10-technical-writing-trend-predictions-for-2015.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-new-cost-per-click-feature-for-advertising-on-id-rather-be-writing-during-2015.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5714285">
-          <caret line="3" column="6" selection-start-line="2" selection-start-column="7" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -698,22 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7142857">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="89" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -1039,8 +1085,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/customstyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3327338">
-          <caret line="506" column="8" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.6296296">
+          <caret line="506" column="10" selection-start-line="506" selection-start-column="10" selection-end-line="506" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-survey.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4827585">
+          <caret line="3" column="228" selection-start-line="3" selection-start-column="228" selection-end-line="3" selection-end-column="228" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.892857">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18018018">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
