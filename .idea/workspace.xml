@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-21-most-common-programming-languages-tech-writers-in-my-survey-know.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" afterPath="$PROJECT_DIR$/_posts/2014/2014-12-24-authoring-tools-preferred-by-api-doc-writers-in-my-survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-create-doc-by-looking-at-source-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-02-api-doc-survey-what-ide-do-you-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-12-api-doc-survey-most-challenging-aspect-of-api-documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-do-engineers-write-api-doc-in-the-source-code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-api-doc-survey-how-much-of-your-doc-process-is-automated.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" afterPath="$PROJECT_DIR$/_posts/2015/2015-01-15-most-important-factor-in-apis-is-complete-and-accurate-documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customstyles.css" afterPath="$PROJECT_DIR$/css/customstyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/topnav.html" afterPath="$PROJECT_DIR$/_includes/topnav.html" />
     </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,37 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="series-api-documentation-survey.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-survey.md">
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4827585">
-              <caret line="3" column="228" selection-start-line="3" selection-start-column="228" selection-end-line="3" selection-end-column="228" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18018018">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.428571">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-17-the-most-popular-type-of-apis-that-technical-writers-document.html">
+      <file leaf-file-name="customstyles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/customstyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.892857">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6348921">
+              <caret line="695" column="21" selection-start-line="695" selection-start-column="21" selection-end-line="695" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topnav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/topnav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.714286">
+              <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -200,7 +183,6 @@
         <option value="$PROJECT_DIR$/_posts/2015/2015-05-16-introduction-to-technical-writing-slides-and-audio-recording.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/disqus.html" />
-        <option value="$PROJECT_DIR$/_includes/topnav.html" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-03-19-recording-of-api-documentation-workshop-rest-and-javadoc-at-tcworld-india-2015.html" />
         <option value="$PROJECT_DIR$/_posts/2010/2010-02-07-registering-more-sidebars.html" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
@@ -212,8 +194,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/apis/eventbrite-example.html" />
         <option value="$PROJECT_DIR$/pages/java/java-javadoc-tags.html" />
-        <option value="$PROJECT_DIR$/css/customstyles.css" />
         <option value="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
+        <option value="$PROJECT_DIR$/_includes/topnav.html" />
+        <option value="$PROJECT_DIR$/css/customstyles.css" />
       </list>
     </option>
   </component>
@@ -324,24 +307,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="idratherbewriting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tomjohnson1492.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="apis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -388,6 +353,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idratherbewriting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomjohnson1492.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -400,7 +379,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="customst&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/css/customstyles.css&#10;java-java&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/pages/java/java-javadoc-tags.html&#10;questions-and&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/_posts/2012/2012-10-07-professional-technical-writing-careers-questions-and-answers-by-steve-goldberg.html&#10;site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
+    <property name="SearchEverywhereHistoryKey" value="custom&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/css/customstyles.css&#10;customst&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/css/customstyles.css&#10;java-java&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/pages/java/java-javadoc-tags.html&#10;questions-and&#9;FILE&#9;file:///Users/tjohnson/projects/tomjohnson1492/tomjohnson1492.github.io/_posts/2012/2012-10-07-professional-technical-writing-careers-questions-and-answers-by-steve-goldberg.html&#10;site-logo&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/images/idratherbewriting-site-logo.png&#10;phlegm&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-12-6-avoiding-phlegm-in-your-throat-with-voiceovers-developing-a-personal-voice-in-audio-series.html&#10;finding-an&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2010/2010-03-04-1-finding-an-acoustic-environment-developing-a-personal-voice-in-audio-series.html&#10;podcampslc&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-11-podcampslc-10-voiceover-techniques-podcast.html&#10;2010-04-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-04-07-my-stc-summit-proceedings-paper-on-voiceover-techniques.html&#10;2010-03-26&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-26-10-breathing-correctly-developing-a-personal-voice-in-audio.html&#10;2010-03-25&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-25-9-recording-with-the-right-microphone-developing-a-personal-voice-in-audio.html&#10;inflection&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-23-8-inflection-developing-a-personal-voice-in-audio.html&#10;smiling&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-11-5-smiling-while-you-narrate-developing-a-personal-voice-in-audio-series.html&#10;plosi&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-10-4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio.html&#10;2010-03&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-09-3-avoiding-a-sense-of-rambling-developing-a-personal-voice-in-audio-series.html&#10;2010-03-&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_drafts/2010/2010-03-08-2-sounding-natural-developing-a-personal-voice-in-audio-series.html&#10;creating-re-usable-chunks&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-04-01-creating-re-usable-chunks-conref-in-jekyll-versus-dita.html&#10;implementing-s&#9;FILE&#9;file:///Users/tjohnson/projects/idratherbewriting/_posts/2015-01-20-implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents.html" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -689,12 +668,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="15021000" />
+      <workItem from="1432790287468" duration="15710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73586000" />
+    <option name="totallyTimeSpent" value="74275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -981,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/topnav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.714286">
-          <caret line="9" column="214" selection-start-line="9" selection-start-column="214" selection-end-line="9" selection-end-column="214" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015/2015-03-19-recording-of-api-documentation-workshop-rest-and-javadoc-at-tcworld-india-2015.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.571429">
@@ -1083,14 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6296296">
-          <caret line="506" column="10" selection-start-line="506" selection-start-column="10" selection-end-line="506" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/series/series-api-documentation-survey.md">
       <provider editor-type-id="Gfm">
         <state />
@@ -1171,8 +1134,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18018018">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.428571">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/topnav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.714286">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6348921">
+          <caret line="695" column="21" selection-start-line="695" selection-start-column="21" selection-end-line="695" selection-end-column="21" />
           <folding />
         </state>
       </provider>
