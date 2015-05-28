@@ -679,29 +679,12 @@ h3.sidebar {
     padding-top:25px;
 }
 
-@media (max-width: 600px) {
-    .siteLogoSmall {
-        display: block;
-    }
-    .siteLogo {
-        display:none;
-    }
-}
-
-@media (min-width: 601 px) {
-    .siteLogo {
-        display: block;
-    }
-    .siteLogo img {
+.siteLogo img {
     padding:0px 30px 20px 30px;
     max-width: 100%;
     }
-    .siteLogoSmall {
-        display:none;
-    }
-}
-div.topBannerAd {
 
+div.topBannerAd {
     position: relative;
 float: right;
 }
