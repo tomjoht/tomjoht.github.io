@@ -58,21 +58,21 @@ excerpt: !ruby/object:Hpricot::Doc
 <blockquote><p>The "to-content" token indicates that the selection should be rendered as a new chunk of content.</p>
 <p>When specified on a topicref or topicref specialization, this means that the topics selected by this topicref and its children will be rendered as a single chunk of content.</p></blockquote>
 <p>Here's what the dita map would look like with child1 and child2 nested under parent1.<br />
-[code lang="xml"]<br />
+{% highlight xml %}<br />
 &lt;map chunk=&quot;to-content&quot;&gt;<br />
   &lt;topicref href=&quot;parent1.dita&quot;&gt;<br />
      &lt;topicref href=&quot;child1.dita&quot;/&gt;<br />
      &lt;topicref href=&quot;child2.dita&quot;/&gt;<br />
    &lt;/topicref&gt;<br />
 &lt;/map&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Adding the chunk attribute to the map as a whole nests every child topic into one massive file. More commonly, you would add the chunk attribute to a specific topicref and then hide the children topicrefs from the table of contents, like this:</p>
-<p>[code lang="xml"]</p>
+<p>{% highlight xml %}</p>
 <p>&lt;topicref href=&quot;admin_console/rewards/parent1.dita&quot; chunk=&quot;to-content&quot;&gt;<br />
   &lt;topicref href=&quot;admin_console/rewards/child1.dita&quot; toc=&quot;no&quot;/&gt;<br />
   &lt;topicref href=&quot;admin_console/rewards/child2.dita&quot; toc=&quot;no&quot;/&gt;<br />
  &lt;/topicref&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Child1 and child2 topics would appear in the parent1 topic and be hidden from the toc.</p>
 <p>It doesn't seem too difficult to manage nesting via the ditamap. I author the tasks as standalone tasks but then create a more sophisticated ditamap that contains instructions on which child topics to pull into parent topics.</p>
 <p>I'm glad DITA allows chunking, though the extra work seems a bit of a hassle. I'll end up with a lot more files to manage and will have to edit the ditamap more. Still, this method provides some more flexibility.</p>

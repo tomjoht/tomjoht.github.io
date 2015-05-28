@@ -96,7 +96,7 @@ https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|pn
 <p>You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.</p>
 <h2>Displaying the photos using jQuery</h2>
 <p>The following code uses jQuery to loop through each of the responses and inserts the necessary components into an image tag to display each photo. Usually in documentation you don't need to be so explicit about how to use a common language like jQuery. You assume that the developer is capable in a specific language (just not with your API).</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 &lt;html&gt;<br />
 &lt;style&gt;<br />
 img {max-height:125px; margin:3px; border:1px solid #dedede;}<br />
@@ -129,7 +129,7 @@ var secret = gp.secret;</p>
 &lt;div id=&quot;flickr&quot;/&gt;</p>
 <p>&lt;/body&gt;<br />
 &lt;/html&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>And the result looks like this:</p>
 <p><a href="http://idratherbewriting.com/wp-content/apidemos/flickr.html"><img src="/images/flickrcolorgallerydemo-550x190.png" alt="flickrcolorgallerydemo" width="550" height="190" class="alignnone size-medium wp-image-22481" /></a></p>
 <p>You can <a href="http://idratherbewriting.com/wp-content/apidemos/flickr.html">view the code here</a></p>
@@ -142,6 +142,6 @@ var secret = gp.secret;</p>
 <p>To access the properties in the JSON object, we use <code>gp.farm</code> instead of <code>data.photos.photo[0].farm</code>, because <code>gp</code> is an object reference to <code>data.photos.photo</code>.</p>
 <p>After the <code>each</code> function iterates through the response, I added some variables make it easier to work with these components (using <code>serverId</code> instead of <code>gp.server</code>, etc.). And a <code>console.log</code> message checks to ensure we're getting values for each of the elements we need:</p>
 <p>This comment shows where we need to plug in each of the variables:</p>
-<p>[code]//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg[/code]</p>
+<p>{% highlight html %}//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg{% endhighlight %}</p>
 <p>The final line shows how you insert those variables into the HTML:</p>
-<p>[code]$(&quot;#flickr&quot;).append('&lt;img src=&quot;https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg&quot;/&gt;');[/code]</p>
+<p>{% highlight html %}$(&quot;#flickr&quot;).append('&lt;img src=&quot;https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg&quot;/&gt;');{% endhighlight %}</p>

@@ -60,7 +60,7 @@ weight: 2
 <h2>Readability</h2>
 <p>Another factor to consider is authoring readability. With XML tags, it's hard to read the content in a text editor. You can sort of get used to it, but you can't read it so easily unless you have a text editor like OxygenXML to do syntax highlighting.</p>
 <p>Here's a sample task using DITA's XML tags:</p>
-<p>[code language="xml"]<br />
+<pre><br />
 &lt;task id=&quot;task_mhs_zjk_pp&quot;&gt;<br />
     &lt;title&gt;Printing a page&lt;/title&gt;<br />
     &lt;taskbody&gt;<br />
@@ -77,13 +77,13 @@ weight: 2
 &lt;/steps&gt;<br />
     &lt;/taskbody&gt;<br />
 &lt;/task&gt;<br />
-[/code]</p>
+</pre></p>
 <p>Here's the same task in Markdown:</p>
-<p>[code]<br />
+<p><pre><br />
 ## Print a page<br />
 1. Go to **File &gt; Print**.<br />
 2. Click the **Print** button.<br />
-[/code]</p>
+</pre></p>
 <p>Which do you find easier to read? If you said the former, check your pulse -- you may not be human.</p>
 <p>With Markdown, you don't have a lot of bulky tags. For example, when you want to mark something as code, you just surround it with backticks, not <code>codeph</code> elements.</p>
 <p>With DITA, you'll need an editor such as OxygenXML to make the authoring more practical. This means that everyone working in DITA will likely need some type of XML editor to make the content easier to read and work with.</p>

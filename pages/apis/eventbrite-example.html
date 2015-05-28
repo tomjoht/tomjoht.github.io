@@ -12,13 +12,14 @@ published: true
 <p>The EventBrite API documentation is here: <a href="https://developer.eventbrite.com/">https://developer.eventbrite.com/</a>. Looking through the endpoints available, to get event information, we'll use the <a href="https://developer.eventbrite.com/docs/event-details/">event details</a> endpoint.</p>
 <p><a href="https://developer.eventbrite.com/docs/event-details/"><img src="/images/eventbrite_event_details-550x468.png" alt="EventBrite Event Details" width="550" height="468" class="alignnone size-medium wp-image-22497" /></a></p>
 <p>You can do various actions with an event, such as create, edit, publish, or unpublish the event. I just want to retrieve event details, so I use this endpoint:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 /v3/events/{Event ID}/<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The example response shows the necessary structure to make the call. You have to add your API token as an argument at the end.</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 https://www.eventbriteapi.com/v3/events/14635401881/?token={your api key}<br />
-[code]</p>
+  {% endhighlight %}
+{% highlight html %}</p>
 <p>&lt;p&gt;The event ID corresponds to an &lt;a href=&quot;API workshop event led by Sarah Maddox&quot;&gt;https://www.eventbrite.com/e/api-workshop-with-sarah-maddox-tickets-14635401881&lt;/a&gt;.&lt;/p&gt;</p>
 <p>The response from the endpoint is as follows:</p>
 <p>[code lang=&quot;json&quot;]<br />
@@ -113,9 +114,9 @@ https://www.eventbriteapi.com/v3/events/14635401881/?token={your api key}<br />
     }<br />
   ]<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The information has a lot more than I need. I just want to display the event's title and description on my site. To do this, I use some simple jQuery code to pull out the information I want and append it to a tag on my web page:</p>
-<p>[code lang="js"]<br />
+<p>{% highlight javascript %}<br />
 &lt;html&gt;<br />
 &lt;body&gt;</p>
 <p>&lt;script type='text/javascript' src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
@@ -130,7 +131,7 @@ https://www.eventbriteapi.com/v3/events/14635401881/?token={your api key}<br />
 <p>&lt;div id=&quot;eventbrite&quot;&gt;&lt;/div&gt;</p>
 <p>&lt;/body&gt;<br />
 &lt;/html&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Here's the result:</p>
 <p><a href="http://idratherbewriting.com/wp-content/apidemos/eventbrite.html"><img src="/images/eventbriteendresult-550x472.png" alt="Eventbrite end result" width="550" height="472" class="alignnone size-medium wp-image-22498" /></a></p>
 <p>You can view it on the <a href="http://idratherbewriting.com/wp-content/apidemos/eventbrite.html">demo page</a>.</p>

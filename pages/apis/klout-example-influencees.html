@@ -31,7 +31,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Although the interactive console shows you the response, you can also submit the request via the browser and see the payload in the browser. Here's the request:</p>
 <p><a href="http://api.klout.com/v2/user.json/1134760/influence?key=urgey4a79n5x6df6xx4p64dr">http://api.klout.com/v2/user.json/1134760/influence?key=urgey4a79n5x6df6xx4p64dr</a></p>
 <p>And here's the response:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 {<br />
    &quot;myInfluencers&quot;:[<br />
       {<br />
@@ -220,12 +220,12 @@ excerpt: !ruby/object:Hpricot::Doc
    &quot;myInfluencersCount&quot;:8,<br />
    &quot;myInfluenceesCount&quot;:24<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The <code>myInfluencers</code> object has various properties. (By the way, inside a JSON object, square brackets denote an array. Curly braces denote another object. Here influencees are listed as an array of <code>entity</code> objects.)</p>
 <p>Stylewise here, I'm using the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">JSON Formatting extension for Chrome</a> to format the JSON, but to copy and paste the JSON and keep the indentation, I use the <a href="http://jsonformatter.curiousconcept.com/">JSON Formatter &amp; Validator</a>.</p>
 <p>This JSON payload contains all of my influencees, but it contains a lot of extra information. I just want a short list of Twitter names with their links.</p>
 <p>Using jQuery, I can iterate through the JSON payload and pull out the information that I want:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 &lt;html&gt;<br />
 &lt;body&gt;</p>
 <p>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
@@ -243,7 +243,7 @@ excerpt: !ruby/object:Hpricot::Doc
 &lt;ul id=&quot;kloutInf&quot;&gt;&lt;/ul&gt;</p>
 <p>&lt;/body&gt;<br />
 &lt;/html&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The result looks like this:</p>
 <p><a href="http://idratherbewriting.com/wp-content/apidemos/klout.html"><img src="/images/influenceesdemo-550x292.png" alt="influencees demo" width="550" height="292" class="alignnone size-medium wp-image-22494" /></a></p>
 <p>Here's <a href="http://idratherbewriting.com/wp-content/apidemos/klout_influence.html">the demo</a>.</p>

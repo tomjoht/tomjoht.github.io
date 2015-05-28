@@ -129,7 +129,7 @@ catch (Exception e)
 </p></blockquote>
 <h2>The logic of looking for exceptions</h2>
 <p>In <em>Beginning Java 8 Fundamentals</em>, the author explains an important concept about why Java uses try-catch blocks. Without them, your code would look like a bunch of nested if-else blocks:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 // Connect to the database<br />
 if (connected to the database successfully) {<br />
         // Fetch the employee record<br />
@@ -155,9 +155,9 @@ if (connected to the database successfully) {<br />
 else {<br />
         // An error. Could not connect to the database<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>I think PHP often looks like this. With them, however, your code is much cleaner:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 try {<br />
         // Connect to the database<br />
         // Fetch employee record<br />
@@ -176,11 +176,11 @@ catch(UpdateFailedException e3){<br />
 catch(CommitFailedException e4){<br />
         // Handle commit failed exception here<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The catch blocks will handle the errors if they occur. There is no spaghetti-looking code of nested if-else statements. This is part of the genius of Java.</p>
 <h2>Checked vs unchecked exceptions</h2>
 <p>If an exception is checked, it means that it is caught in a try-catch block, like this:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 public void ioOperation(boolean isResourceAvailable) {<br />
   try {<br />
     if (!isResourceAvailable) {<br />
@@ -190,6 +190,6 @@ public void ioOperation(boolean isResourceAvailable) {<br />
     // Handle caught exceptions.<br />
   }<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>This sample comes from <a href="http://en.wikibooks.org/wiki/Java_Programming/Checked_Exceptions">Unchecked Exceptions, Java</a>.</p>
 <p>Note that only methods throw exceptions.</p>

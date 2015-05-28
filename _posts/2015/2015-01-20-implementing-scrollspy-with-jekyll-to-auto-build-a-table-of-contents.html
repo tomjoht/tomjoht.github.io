@@ -8,32 +8,10 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _syntaxhighlighter_encoded: '1'
-  _edit_last: '91'
-  _wpcom_is_markdown: '1'
-  _oembed_57a2df779f1fc941e0f2c4628782c104: <iframe width="625" height="469" src="http://www.youtube.com/embed/zubpp8bArkA?feature=oembed"
-    frameborder="0" allowfullscreen></iframe>
-  _oembed_time_57a2df779f1fc941e0f2c4628782c104: '1421763843'
-  _oembed_15b51c6a9224fb7314f75880d9d8c032: <iframe width="625" height="469" src="https://www.youtube.com/embed/zubpp8bArkA?feature=oembed"
-    frameborder="0" allowfullscreen></iframe>
-  _oembed_time_15b51c6a9224fb7314f75880d9d8c032: '1421763843'
-  _thumbnail_id: '22529'
-  enclosure: "http://idratherbewriting.com/videos/bootstrap_infinite_scroll.ogg\r\n0\r\naudio/ogg\r\n"
-  fsb_social_facebook: '3'
-  fsb_social_twitter: '8'
-  fsb_social_linkedin: '10'
-  fsb_social_google: '2'
-  dsq_thread_id: '3770207162'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+
+Note: Due to build errors, I had to replace the code snippets with `[%` and `%]`.
+
 <p>I <a href="http://idratherbewriting.com/2015/01/14/experimenting-with-jekyll-for-tech-comm/">mentioned in a post last week</a> that I'm experimenting with a <a href="http://jekyllrb.com/">Jekyll</a> prototype for technical documentation.</p>
 <p>I stumbled upon one of the coolest and most interesting topics a few days ago while integrating "ScrollSpy" on Jekyll. ScrollSpy is a dynamic feature that "spys" on the headings as you scroll past them and dynamically highlights the active heading in your mini-table of contents.</p>
 <h2>What is ScrollSpy</h2>
@@ -53,7 +31,7 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 </p></blockquote>
 <p>Bootstrap is particularly interesting and relevant because they provide ready-made components to build your own sites. For example, do you need an label? Copy and paste a little snippet of code and you have it.</p>
 <p><a href="http://getbootstrap.com/components/#labels"><img src="/images/bootstraplabels-550x277.png" alt="bootstrap labels" width="550" height="277" class="alignnone size-medium wp-image-22525" /></a></p>
-<p>Do you need a dropdown menu, a font icon, an alert message, or even a "jumbotron"? No problem, just copy and paste little snippets of code from Bootstrap's site -- browse the <a href="http://getbootstrap.com/components/">components here</a> and the [css 1="here" language="components"][css][css]<a href="http://getbootstrap.com/css/">/css</a>. As long as you have the Bootstrap library and JavaScript file referenced in your HTML, the Bootstrap code works. (And it's kind of like magic, I have to say.)</p>
+<p>Do you need a dropdown menu, a font icon, an alert message, or even a "jumbotron"? No problem, just copy and paste little snippets of code from Bootstrap's site -- browse the <a href="http://getbootstrap.com/components/">components here</a> and the <a href="http://getbootstrap.com/css/">/css</a>. As long as you have the Bootstrap library and JavaScript file referenced in your HTML, the Bootstrap code works. (And it's kind of like magic, I have to say.)</p>
 <p>Bootstrap is also interesting because their site is built on Jekyll, and you can actually download and install the whole Bootstrap site on your local machine and freely fork it. Here's <a href="https://github.com/twbs/bootstrap/blob/master/README.md#documentation">how to install Bootstrap locally</a>. Or see my abbreviated instructions below.</p>
 <h2>Installing Bootstrap's site locally</h2>
 <p>Assuming you're on a Mac and have <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby</a> and <a href="http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm">Node package manager (npm)</a> installed, do the following to run getbootstrap.com locally:</p>
@@ -80,48 +58,48 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 <p><a href="http://www.bootply.com/new?visual=1#"><img src="/images/bootplyscrollspy-550x406.png" alt="bootplyscrollspy" width="550" height="406" class="alignnone size-medium wp-image-22527" /></a></p>
 <p>I downloaded and built the Bootstrap site locally because I wanted to see how it was put together, particularly the ScrollSpy sidebar. First, they use both grunt and bower to automate some of their building. Honestly, I'm still a bit new to those technologies, so I'm not entirely familiar with them. But the Jekyll site I am more familiar with.</p>
 <p>Let's look specifically at the <a href="http://getbootstrap.com/css/">CSS page here</a>, which is inside docs/css.html in the download. In the code, this isn't one long page. Each of these sections is a separate file. They are pulled together through includes:</p>
-{% raw %}
-<p>[code lang="ruby"]<br />
-{% include css/overview.html %}<br />
-{% include css/grid.html %}<br />
-{% include css/type.html %}<br />
-{% include css/code.html %}<br />
-{% include css/tables.html %}<br />
-{% include css/forms.html %}<br />
-{% include css/buttons.html %}<br />
-{% include css/images.html %}<br />
-{% include css/helpers.html %}<br />
-{% include css/responsive-utilities.html %}<br />
-{% include css/less.html %}<br />
-{% include css/sass.html %}<br />
-[/code]</p>
-{% endraw %}
+[% raw %]
+<p><pre><br />
+[% include css/overview.html %]<br />
+[% include css/grid.html %]<br />
+[% include css/type.html %]<br />
+[% include css/code.html %]<br />
+[% include css/tables.html %]<br />
+[% include css/forms.html %]<br />
+[% include css/buttons.html %]<br />
+[% include css/images.html %]<br />
+[% include css/helpers.html %]<br />
+[% include css/responsive-utilities.html %]<br />
+[% include css/less.html %]<br />
+[% include css/sass.html %]<br />
+</pre></p>
+[% endraw %]
 <p>So the CSS page on getbootstrap is really about a dozen pages all stored in the _includes/css directory.</p>
 <p>In Jekyll, layouts are determined by the default.html file in the _layout directory (unless another layout is specified by the page). In default.html, the bootstrap sidebar section contains some if-else logic:</p>
-{% raw %}
-<p>[code lang="ruby"]<br />
+[% raw %]
+<p><pre><br />
 &lt;ul class=&quot;nav bs-docs-sidenav&quot;&gt;<br />
-              {% if page.slug == &quot;getting-started&quot; %}<br />
-                {% include nav/getting-started.html %}<br />
-              {% elsif page.slug == &quot;css&quot; %}<br />
-                {% include nav/css.html %}<br />
-              {% elsif page.slug == &quot;components&quot; %}<br />
-                {% include nav/components.html %}<br />
-              {% elsif page.slug == &quot;js&quot; %}<br />
-                {% include nav/javascript.html %}<br />
-              {% elsif page.slug == &quot;customize&quot; %}<br />
-                {% include nav/customize.html %}<br />
-              {% elsif page.slug == &quot;about&quot; %}<br />
-                {% include nav/about.html %}<br />
-              {% elsif page.slug == &quot;migration&quot; %}<br />
-                {% include nav/migration.html %}<br />
-              {% endif %}<br />
+              [% if page.slug == &quot;getting-started&quot; %]<br />
+                [% include nav/getting-started.html %]<br />
+              [% elsif page.slug == &quot;css&quot; %]<br />
+                [% include nav/css.html %]<br />
+              [% elsif page.slug == &quot;components&quot; %]<br />
+                [% include nav/components.html %]<br />
+              [% elsif page.slug == &quot;js&quot; %]<br />
+                [% include nav/javascript.html %]<br />
+              [% elsif page.slug == &quot;customize&quot; %]<br />
+                [% include nav/customize.html %]<br />
+              [% elsif page.slug == &quot;about&quot; %]<br />
+                [% include nav/about.html %]<br />
+              [% elsif page.slug == &quot;migration&quot; %]<br />
+                [% include nav/migration.html %]<br />
+              [% endif %]<br />
             &lt;/ul&gt;<br />
-[/code]</p>
-{% endraw %}
+</pre></p>
+[% endraw %]
 <p>These <code>if-elsif</code> statements basically say, for example, if the slug for this page is equal to css, then include the nav/css.html file here.</p>
 <p>In the nav/css.html file, the sidebar nav looks like this:</p>
-<p>[code lang="html"]<br />
+<p>[% highlight html %]<br />
 &lt;li&gt;<br />
   &lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt;<br />
   &lt;ul class=&quot;nav&quot;&gt;<br />
@@ -132,13 +110,13 @@ Bootstrap's documentation, included in this repo in the root directory, is built
     &lt;li&gt;&lt;a href=&quot;#overview-container&quot;&gt;Containers&lt;/a&gt;&lt;/li&gt;<br />
   &lt;/ul&gt;<br />
 ... [and so on...]<br />
-[/code]</p>
+</pre></p>
 <p>It continues for quite a while, because there are a lot of sections on that page.</p>
 <p>Basically, each of the links in these sidebar sections corresponds with the heading ID tags in the regular page (css/overview.html, and so on).</p>
 <p>If you look at css/overview.html, you can see the ID on each heading. For example:</p>
-<p>[code lang="html"]<br />
+<p>[% highlight html %]<br />
 &lt;h3 id=&quot;overview-doctype&quot;&gt;HTML5 doctype&lt;/h3&gt;<br />
-[/code]</p>
+</pre></p>
 <p>See how the ID on the heading corresponds with the link in the sidebar? That correspondence is what allows ScrollSpy to work.</p>
 <p>(BTW, I realize that my description is probably a bit cryptic, especially if you're new to Jekyll. But if you do download Bootstrap's site and start poking around with how it's put together, it will become more clear.)</p>
 <h2>Hard-coding Header IDs versus automating the IDs</h2>
@@ -149,16 +127,16 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 <p><a href="http://idratherbewriting.com/jekyll/scrollspy"><img src="/images/scrollspydemo-550x327.png" alt="ScrollSpy demo" width="550" height="327" class="alignnone size-medium wp-image-22528" /></a></p>
 <p>BTW, this Jekyll site is a work in progress, and I'm far from finished. (Once I get it finished, I'll push it out to github for anyone to fork.) Also, don't pay attention to the other content for now -- the text is just my notes on various Jekyll things (but I'll be adding to it).</p>
 <p>BTW, to implement ScrollSpy on your own theme, make sure you use Markdown for your heading syntax.</p>
-<p>[code]<br />
+<p>[% highlight %]<br />
 ## sample<br />
-[/code]</p>
+</pre></p>
 <p>I'm using the <a href="https://github.com/vmg/redcarpet">Red Carpet markdown extension</a> (which I think comes bundled with Jekyll) configured as such in config.yml:</p>
-<p>[code lang="ruby"]<br />
+<p><pre><br />
 markdown: redcarpet</p>
 <p>redcarpet:<br />
   extensions: [&quot;no_intra_emphasis&quot;, &quot;fenced_code_blocks&quot;, &quot;autolink&quot;, &quot;tables&quot;, &quot;with_toc_data&quot;]<br />
 highlighter: pygments<br />
-[/code]</p>
+</pre></p>
 <p>When the page renders to HTML, IDs get auto-generated for each heading. That's what the <code>with_toc_data</code> option does.</p>
 <p>Fortunately, the Markdown conversion to HTML happens <em>before</em> the auto-generated TOC, so it all works out in the end.</p>
 <p>Without this auto-generation of heading IDs, I'd have to hard-code everything like the Bootstrap site does. Bootstrap probably doesn't use this auto-generated TOC method because their docs are coded entirely in HTML, not Markdown. This is probably because they're dealing a lot with HTML (okay, almost exclusively), so it would confuse people to see a mix of Markdown and HTML in the source, especially since people are pasting code snippets from Bootstrap and may or may not be using Markdown.</p>

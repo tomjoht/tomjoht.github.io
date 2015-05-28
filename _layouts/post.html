@@ -20,6 +20,7 @@ comments: true
 
 {{ content }}
 
+{% include disqus.html %}
 
 {% comment %}
 <div class="well well-sm">
@@ -34,4 +35,3 @@ comments: true
 </div>
     {% endcomment %}
 
-{% if site.disqus %} {% include disqus.html %} {% endif %}

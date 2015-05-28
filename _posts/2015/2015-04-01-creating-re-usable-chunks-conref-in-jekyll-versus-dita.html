@@ -36,67 +36,67 @@ weight: 4
 <h2>How you chunk in DITA</h2>
 <p>In the DITA world, "conref" is synonymous with re-use. People like the term so much, they use it as a verb, as in, <i>Hey, I need to "conref" this information here...</i>.</p>
 <p>DITA uses the <code>conref</code> element for chunking. For example, if you have a note that you're reusing, you create a topic and put the note in it like this:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
  &lt;topic id=&quot;topic_123&quot;&gt;<br />
    ...<br />
   &lt;note type=&quot;warning&quot; id=&quot;bolt_warning&quot;&gt;Don't overtighten the bolts, as it may cause stripping.&lt;/note&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Where you want to re-use the note, you add:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 &lt;note conref=&quot;notes.dita#topic_123/bolt_warning&quot;/&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>There is one limitation with this approach, though. The element must be valid where you insert it. For example, you can only use this note in places where the <code>note</code> element is valid.</p>
 <p>Notes are valid in a lot of places, so it wouldn't pose much of a problem. But suppose you have an entire <code>section</code> that you're reusing. You couldn't insert that in both a strict task topic as well as a concept topic.</p>
 <p>DITA also offers a conref range option. If you're re-using several steps, or several paragraphs, you can start with <code>conref</code> and end with <code>conrefend</code> to mark where the re-use should stop. For details, see <a href="http://idratherbewriting.com/conref/">DITA: Conref</a>.</p>
 <h2>How to "conref" in Jekyll</h2>
 <p>In Jekyll, conrefs are called "includes" (which is a more traditional term for re-use). When you want to include content from another file, you add an include.</p>
 <p>Using the same example as before, to reuse a note, I could create a file called bolt_note.md and add this content:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 Warning: Don't overtighten the bolts, as it may cause stripping.<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Where I want to insert the note, I <em>include</em> the following:</p>
 {% raw %}
-<p>[code]<br />
+<p>{% highlight html %}<br />
 {% include bolt_note.md %}<br />
-[/code]</p>
+{% endhighlight %}</p>
 {% endraw %}
 <p>Because Jekyll doesn't enforce information typing, I could insert this note anywhere I wanted, without worrying about whether it was valid or not.</p>
 <p>Includes don't allow you to pull different parts of the same file, though. For example, if I had one file that contained all my notes, I couldn't select a specific note from that file using includes. Includes pulls in the whole file.</p>
 <p>However, if you have a of small content to re-use like this, there's another way to re-use it. You can store the content inside a YML file that you put in a _data folder in your project. For example, I could create a file called notes.yml stored in the _data folder.</p>
 <p>In data files, you use YML syntax, like this:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 bolt_note: &quot;Warning: Don't overtighten the bolts, as it may cause stripping.&quot;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>To insert the content from the notes.yml file, you add this in your page:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 {{site.data.notes.bolt_note}}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>If you read my last post (<a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">Variables and conditional processing</a>), you'll see a similar technique. Instead of using <code>site.audience</code>, which gets info from the configuration file, you use <code>site.data.notes</code> to get info from the notes.yml file inside the _data folder.</p>
 <p>(Through the <code>data_source</code> property in your configuration file, you can specify a different data folder source if you don't want to use the default _data folder. This way you can have different data sources for different configuration files.)</p>
 <p>Now suppose you want to add some formatting to the note style. If you have Bootstrap integrated, the official style might look like this:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 &lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt; Don't overtighten the bolts, as it may cause stripping.&lt;/div&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>In my data file, I could add this formatting:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 bolt_note: &quot;&lt;div class='bs-callout bs-callout-warning'&gt;&lt;b&gt;Warning:&lt;/b&gt; Don't overtighten the bolts, as it may cause stripping.&lt;/div&gt;&quot;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>However, this kind of approach leads to possible variation with the note style, since I may have lots of warnings. What if I decide to change the style later on? I don't want to have to change dozens of warning styles.</p>
 <p>To keep the note style in one place, I can put the note style into its own data file. I might create a file called alerts.yml and store my warning note style there:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 warning: &quot;&lt;div class=&quot;bs-callout bs-callout-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt;&quot;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>And this:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 end: &quot;&lt;/div&gt;&quot;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Most of my notes aren't reused from data files, so here's a typical instance of a note with this formatting:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 {{site.data.alerts.warning}} Make sure that, when loosening your pedal, you turn your left wheel &lt;i&gt;clockwise&lt;/i&gt; and the right wheel counterclockwise. {{site.data.alerts.end}}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>If I wanted to re-use the previous example of the bolt-tightening note inside of this same re-used warning formatting, I could do this:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 {{site.data.alerts.warning}} {{site.data.notes.bolt_note}} {{site.data.alerts.end}}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>That last example isn't so pretty, since it consists entirely of references to other content. There are probably more elegant ways to do it using a Ruby plugin, but once you start using plugins, you can no longer have Github Pages rebuild your content in the repository.</p>
 <p>At any rate, Jekyll provides multiple options for content re-use, which opens up some more possibilities.</p>

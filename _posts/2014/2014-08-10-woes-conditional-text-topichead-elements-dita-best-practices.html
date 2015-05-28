@@ -56,22 +56,22 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>The second reason is more practical. If you are transforming a ditamap to a hypertext output format with a TOC, such as to Eclipse Help, the topichead elements will be transformed to unlinked parent nodes in the TOC. When the user clicks on such a node, the content pane will not display an associated topic, as it will for other nodes in the TOC. This inconsistency appears to the user to be an error. The unlinked node in the TOC will also cause inconsistencies or malfunctions in the way breadcrumbs function, and the way sequences (previous and next topic links) function.</p>
 </blockquote>
 <p>If you're not familiar with <code>topichead</code> elements, they essentially let you create folder titles and group together your topics in your table of contents in your map file. Here's an example:</p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
  &lt;topichead navtitle=&quot;Resources&quot;&gt;<br />
   &lt;topicref href=&quot;sample1.dita&quot;/&gt;<br />
   &lt;topicref href=&quot;sample2.dita&quot;/&gt;<br />
   &lt;topicref href=&quot;sample3.dita&quot;/&gt;<br />
  &lt;/topicgroup&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>At first I wasn't sure of Tony's recommendation, so I asked the Yahoo DITA Group whether it was generally accepted that <code>topichead</code> elements should be avoided. Several people endorsed Tony's recommendation.</p>
 <p>Even apart from the usability issues, I think there are other good reasons for not using <code>topichead</code> elements. Most of the time, when you have a folder, you want to provide an overview of the folder (Flare had mini-TOCs partly for this reason). Writing this topic is usually tedious because it's so high level. You're mostly giving a summary of each of the topics within that folder. </p>
 <p>Here's where DITA's efficiency shines through. Create a blank concept topic called something like toc_resources.dita. Make it the parent topic for all other topics in the folder, like this: </p>
-<p>[code lang="xml"]<br />
+<p>{% highlight xml %}<br />
 &lt;topicref href=&quot;resources.dita&quot;&gt;<br />
   &lt;topicref href=&quot;simple1.dita&quot;/&gt;<br />
   &lt;topicref href=&quot;simple2.dita&quot;/&gt;<br />
   &lt;topicref href=&quot;simple3.dita&quot;/&gt;<br />
  &lt;/topicref&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Make sure each of your child topics has a <code>shortdesc</code> element. Now after you generate your output, when a user clicks the folder, the overview topic will appear with each of the subtopics embedded on the parent page (like a mini-TOC), and their short descriptions right next to them. This is a brilliant way of providing a summary overview of the folder.</p>
 <p>In short, ditch the <code>topichead</code> and just put a blank overview topic as the parent topic for each folder. You won't have to bother writing a superfluous high-level overview topic, and you avoid the usability issues with unlinked folders in the UI.</p>

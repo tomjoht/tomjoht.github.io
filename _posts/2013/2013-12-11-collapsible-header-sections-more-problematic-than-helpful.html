@@ -57,35 +57,35 @@ excerpt: !ruby/object:Hpricot::Doc
 <h2>Problem #4: Linking</h2>
 <p>Linking may seem like a problem only inherent in the collapsible technique I was using, but since our help is on Drupal, we implemented the <a href="https://drupal.org/project/collapse_text">Collapse Text module</a>. You can roll your own expand/collapse code, like I did here at <a href="http://idratherbewriting.com/2013/03/31/sample-expand-and-collapse-code-with-twisting-buttons/">Sample Expand and Collapse Code with Twisting Buttons</a>, but using the existing module was simply easier (at first).</p>
 <p>It turns out that for each section you want to collapse, you have to format it like this:</p>
-<p>[code language="html"]<br />
+<p>{% highlight html %}<br />
 [collapsed title=&quot;This is the collapsed title&quot;]</p>
 <p>Here's the content that gets collapsed....</p>
 <p>[/collapse]<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Now, what happens when you want to link to this section? Can you add an ID value to the link? No, the module chokes on it. You have to add an empty style tag with an ID inside the collapsed section.</p>
-<p>[code language="html"]<br />
+<p>{% highlight html %}<br />
 [collapsed title=&quot;Rules for custom attributes&quot;]<br />
 &lt;a id=&quot;rules-attributes&quot;&gt;&lt;/a&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The section opens automatically when the user goes to this spot, but since the ID is below the actual title, the title is slightly out of sight in the browser window.</p>
 <p>The only workaround is to use a special class that offsets the position, like this:</p>
-<p>[code language="css"]<br />
+<p>{% highlight css %}<br />
 a.anchor {<br />
         position: relative;<br />
         top: -30px;<br />
     }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>When a user clicks a link with this class, the user's position gets offset 30 pixels at the top. To use this class in the context of the module, your links end up looking like this:</p>
-<p>[code language="html"]<br />
+<p>{% highlight html %}<br />
 [collapsed title=&quot;Rules for custom attributes&quot;]<br />
 &lt;a class=&quot;anchor&quot; id=&quot;rules-attributes&quot;&gt;&lt;/a&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>It's just kind of crappy kluge-like code. Most likely another write would come along, assume a wysiwyg editor inserted this jargon, and delete it.</p>
 <p>While I mentioned wysiwyg, if you flip into your wysiwyg view, all of these heading titles are hard to find, because the wysiwyg editor only recognizes the heading tags (such as h2).</p>
 <p>I haven't even mentioned the blow to SEO that happens when you strip out your h2 tags and replace them with bracketed material. The brackets are actually shortcodes that get converted to HTML when you view the page in the browser. So the final code looks like this:</p>
-<p>[code language="html"]<br />
+<p>{% highlight html %}<br />
 &lt;fieldset class=&quot;collapse-text-fieldset collapsible collapsed form-wrapper&quot;&gt; &lt;legend&gt;&lt;span class=&quot;fieldset-legend&quot;&gt;Sample Collapsed section&lt;/span&gt; &lt;/legend&gt;&lt;div class=&quot;fieldset-wrapper&quot;&gt; &lt;div class=&quot;collapse-text-text&quot;&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Try styling that. You'll be hitting Inspect Element for quite a while just trying to figure out what controls what.</p>
 <p>To be fair, the module author probably didn't intend to use this technique with headings, but that's how I was using it. I only note all this to show that what seems fairly simple gets much more complicated as you work out the details.</p>
 <p>In retrospect, if implementing collapsible sections, use the <a title="jquery technique for collapsing sections" href="http://idratherbewriting.com/2013/03/31/sample-expand-and-collapse-code-with-twisting-buttons/">jQuery technique I referenced earlier</a> and apply it to an existing style. Then you can turn the collapsed sections on or off almost instantly.</p>

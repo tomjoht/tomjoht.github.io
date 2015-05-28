@@ -59,7 +59,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Once you create a new widget area (or repurpose an existing widget area), drag the "Series: List Related" widget into that new widget area.</p>
 <p>(Note that if you repurpose an existing widget area, you'll need to remove it from any places in your theme it's programmed to appear.)</p>
 <p>Now edit your single.php file or wherever your single page code appears (sometimes it's just the archive.php file with different loops extracted out based on various conditions), and add the following code, replacing sidebar-2 with whatever the custom name of your widget area is:</p>
-<p>[code lang="php"]<br />
+<p>{% highlight php %}<br />
 &lt;?php<br />
 if( has_term( null, 'series') ) {<br />
 	echo '&lt;div class=&quot;seriestoc&quot;&gt;';</p>
@@ -67,14 +67,14 @@ if( has_term( null, 'series') ) {<br />
 echo '&lt;/div&gt;';<br />
 }<br />
 ?&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>This code will check to see if the post is in a series, and if so, it will display all the widgets in the "sidebar-2" widget area.</p>
 <p>Again, it would probably be much easier to just drag the "Series: List Related" widget to an existing widget area and style it to stand out when a reader views a series post, but I wanted to highlight the series in a more direct way by putting the series on top of each page.</p>
 <h2>5. Create a custom series archive page</h2>
 <p>I also wanted to create a series archive page that looks really similar to the widget. Here's <a href="http://idratherbewriting.com/series/7-deadly-sins-of-blogging/">an example</a> of what I'm referring to.</p>
 <p>To create an archive of series-only posts, create a file called taxonomy-series.php. Based on WordPress template hierarchy, this file will load, rather than the default archive.php file, when a series is called.</p>
 <p>The following code shows the contents of my taxonomy-series.php file. There are some IDs and classes specific to my twentytwelve theme, so you would need to copy over the PHP code and insert it within your own styles. I added comments in the important places:</p>
-<p>[code lang="html"]<br />
+<p>{% highlight html %}<br />
 &lt;?php get_header(); ?&gt;</p>
 <p>&lt;section id=&quot;primary&quot; class=&quot;site-content&quot;&gt;<br />
 &lt;div id=&quot;content&quot; role=&quot;main&quot;&gt;</p>
@@ -100,9 +100,9 @@ if (have_posts()) : ?&gt;</p>
 <p>&lt;/ol&gt;&lt;/aside&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</p>
 <p>&lt;?php get_sidebar(); ?&gt;<br />
 &lt;?php get_footer(); ?&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>I also added the following to my CSS file:</p>
-<p>[code lang="css"]<br />
+<p>{% highlight css %}<br />
 .seriestoc {<br />
 display:block;<br />
 background: #f7f7f7;<br />
@@ -125,26 +125,26 @@ line-height:24px;<br />
 margin:20px 0px;<br />
 font-size:14px;<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <h2>6. Add a Next link below each post</h2>
 <p>Once a reader gets to the bottom of each post, I wanted to add a Next link to move to the next post in the series. This is actually a bit complicated since the next post is usually rendered by post date, not necessarily the next post <i>within a taxonomy series</i>.</p>
 <p>The default Next and Previous Posts functionality in core WordPress doesn't accept arguments that let you limit the next post within a specific taxonomy.</p>
 <p>To incorporate a next button at the end of each post, install the <a href="http://wordpress.org/plugins/ambrosite-nextprevious-post-link-plus/">Ambrosite Next and Previous Link in the Same Taxonomy plugin</a>. Then put something like this in your single.php file or wherever you're showing the post content:</p>
-<p>[code lang="php"]<br />
+<p>{% highlight php %}<br />
 &lt;?php<br />
 if( has_term( null, 'series') ) {<br />
 next_post_link_plus( array('in_same_tax' =&gt; 'series', 'before' =&gt; '&lt;div class=&quot;nextLink&quot;&gt;Next: ', 'after' =&gt; '&lt;/div&gt;') );<br />
 }<br />
 ?&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>And the css:</p>
-<p>[code lang="css"]<br />
+<p>{% highlight css %}<br />
 .nextLink {<br />
 font-weight:bold;<br />
 clear:both;<br />
 margin:15px 0px;<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>This code will show a link to the next post only if that post is within a series. Unfortunately, if you're writing more than one series at a time, I think this code will get confused, but most likely that's an edge case.</p>
 <h2>7. Change series ordering to ordered rather than unordered</h2>
 <p>If you want your series to be an ordered list rather than an unordered list, you have to change the <code>ul</code> tag to <code>ol</code> in the Series plugin files. (I didn't see a way to change this outside of editing the plugin.)</p>
@@ -152,10 +152,10 @@ margin:15px 0px;<br />
 <h2>8. Add a list of all series to your navigation bar</h2>
 <p>I just drag each series manually via the menu in WordPress by going to Appearance &gt; Menu. I don't have that many series, and I find it's just easier this way.</p>
 <p>However, you have other navigation options with series. For example, if you just want to list all the series available, you can do so with the following template tag:</p>
-<p>[code lang="php"]</p>
+<p>{% highlight php %}</p>
 <p>&lt;ul&gt;<br />
     &lt;?php wp_list_categories( array( 'taxonomy' =&gt; 'series', 'title_li' =&gt; false ) ); ?&gt;<br />
 &lt;/ul&gt;</p>
-<p>[/code]</p>
+<p>{% endhighlight %}</p>
 <p>You could put this code into your sidebar (using a PHP Code Widget plugin), or hard-code it into your header's navigation area.</p>
 <p>That's it. Now you're set to start writing series. You don't have to cram all your content into an endlessly long post. Instead, you can create shorter posts that are connected with series navigation. Not only are series more readable online, they're also easier to write.</p>

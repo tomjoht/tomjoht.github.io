@@ -31,26 +31,26 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Since I don't know my Klout ID, I will use the <a href="identity.json/twitter">identity.json/twitter</a> endpoint first.</p>
 <p><a href="http://developer.klout.com/io-docs"><img src="/images/kloutid-550x600.png" alt="Get Klout ID" width="550" height="600" class="alignnone size-medium wp-image-22488" /></a></p>
 <p>You can also submit the request via your browser by going to the request URL:</p>
-<p>[code lang=text]<br />
+<p>{% highlight html %}<br />
 http://api.klout.com/v2/identity.json/twitter?screenName=tomjohnson&amp;key={your api key}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>In place of <code>{your api key}</code>, insert your own API key. (I initially displayed mine here only to find that bots grabbed it and made thousands of requests, which ended up disabling my API key.)</p>
 <p>The response in the browser is as follows:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 {<br />
   &quot;id&quot;: &quot;1134760&quot;,<br />
   &quot;network&quot;: &quot;ks&quot;<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>From the response, I see that my Klout ID is 1134760.</p>
 <p>Now I can use the <a href="http://developer.klout.com/io-docs">user.json/kloutId/score</a> endpoint to get the score associated with my Klout ID:</p>
 <p><img src="/images/mykloutscoreis55-550x612.png" alt="mykloutscoreis55" width="550" height="612" class="alignnone size-medium wp-image-22489" /></p>
 <p>My score is 55. Once again, Klout's interactive console makes it easy to get responses for API calls, but I could equally submit the request URI in my browser.</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 http://api.klout.com/v2/user.json/1134760/score?key={your api key}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>And I would see this:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 {<br />
   &quot;score&quot;: 55.70794414940394,<br />
   &quot;scoreDelta&quot;: {<br />
@@ -60,9 +60,9 @@ http://api.klout.com/v2/user.json/1134760/score?key={your api key}<br />
 },<br />
   &quot;bucket&quot;: &quot;50-59&quot;<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Usually in API documentation, you don't need to explain any more than this. Each programmer may be using a different language or platform, so the process of getting this information and displaying it will vary. But for demonstration purposes, suppose I wanted to embed my Klout score on my web page using JavaScript and jQuery. Here's how I could do it:</p>
-<p>[code lang="js"]<br />
+<p>{% highlight javascript %}<br />
 &lt;html&gt;<br />
 &lt;body&gt;</p>
 <p>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
@@ -77,7 +77,7 @@ http://api.klout.com/v2/user.json/1134760/score?key={your api key}<br />
 <p>&lt;div id=&quot;kloutScore&quot;/&gt;</p>
 <p>&lt;/body&gt;<br />
 &lt;/html&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Here's <a href="http://idratherbewriting.com/wp-content/apidemos/klout_score.html">the result</a>.</p>
 <p><img src="/images/heresmykloutscore-550x265.png" alt="heresmykloutscore" width="550" height="265" class="alignnone size-medium wp-image-22490" /></p>
 <p>The code uses the <code>getJSON</code> method to grab a JSON payload from an argument URL. The payload is assigned to the data argument, and then logged to the console using <code>console.log(data)</code>. The <code>append</code> method is used to add the score to the <code>kloutScore</code> ID tag on the page.</p>

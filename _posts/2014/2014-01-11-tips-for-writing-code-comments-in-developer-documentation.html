@@ -45,7 +45,7 @@ excerpt: !ruby/object:Hpricot::Doc
 [/js]</p>
 <p>You wouldn't usually comment on such a simple function, but "simple" is always a subjective statement. What is simple for one person may be complicated for another. So as always, the level of commentary depends on the level of the audience.</p>
 <p>The wp-config.php sample file for WordPress provides a highly commented file. In it you see code comments like the following:</p>
-<p>[code lang="php"]</p>
+<p>{% highlight php %}</p>
 <p>/**<br />
 * For developers: WordPress debugging mode. *<br />
 * Change this to true to enable the display of notices during development.<br />
@@ -53,7 +53,7 @@ excerpt: !ruby/object:Hpricot::Doc
 * in their development environments.<br />
 */</p>
 <p>define('WP_DEBUG', false);</p>
-<p>[/code]</p>
+<p>{% endhighlight %}</p>
 <p>As you can see, this comment is much lengthier, because <code>define</code> isn't likely a familiar function to programmers (it's just a WordPress specific function).</p>
 <p>As another example, see the <a href="https://developers.google.com/maps/documentation/android/utility/marker-clustering#simple">code samples</a> Sarah Maddox linked to in her recent post on <a href="http://ffeathers.wordpress.com/2013/12/21/how-to-write-sample-code/">How to write sample code</a>.</p>
 <h2>Comment styles vary widely</h2>

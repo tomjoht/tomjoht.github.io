@@ -44,23 +44,23 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="tip"><b>Tip:</b> Although you can put your directory anywhere, it's most convenient to use a subdirectory under the default directory your command prompt opens to.</p>
 </li>
 <li>In the directory where you want to clone the repository, type the following, replacing <code>{repo_url}</code> with the actual URL of the Github repository (such as https://github.com/tomjohnson1492/eclipse-java.git).
-<p>[code]git clone {repo_url}[/code]</li>
+<p>{% highlight html %}git clone {repo_url}{% endhighlight %}</li>
 <li>
 <p>All the files download when you clone the repo.</p>
 </li>
 <li>
 <p>Add the Java projects to the repository:</p>
-<p>[code]git add . [/code]</p>
+<p>{% highlight html %}git add . {% endhighlight %}</p>
 <p>The <code>.</code> adds all file types. (It's not a typo there.)</p>
 </li>
 <li>
 <p>Commit the files:</p>
-<p>[code]git commit -m &quot;your commit msg&quot;[/code]</p>
+<p>{% highlight html %}git commit -m &quot;your commit msg&quot;{% endhighlight %}</p>
 <p>If you just type <code>git commit</code> you'll be prompted to add a commit message in a text editor using VIM.</p>
 </li>
 <li>
 <p>Push the files to the repository:</p>
-<p>[code]git push[/code]</p>
+<p>{% highlight html %}git push{% endhighlight %}</p>
 </li>
 </ol>
 <h2>Download the Java projects from Github</h2>
@@ -75,11 +75,11 @@ excerpt: !ruby/object:Hpricot::Doc
 <li><code>cd</code> to a convenient directory, such as as <code>users/projects</code>.</li>
 <li>
 <p>In the directory where you want to clone the repository, type the following, replacing <code>{repo_url}</code> with the actual URL of the Github repository (such as <code>https://github.com/tomjohnson1492/eclipse-java.git</code>).</p>
-<p>[code]git clone {repo_url}[/code]</p>
+<p>{% highlight html %}git clone {repo_url}{% endhighlight %}</p>
 </li>
 <li>
 <p>All the files download when you clone the repo. To get updates to the repo at a later time, use the <code>pull</code> command:</p>
-<p>[code]git pull[/code]</p>
+<p>{% highlight html %}git pull{% endhighlight %}</p>
 </li>
 <p class="tip"><b>Tip:</b> To see a list of git commands, type `git --help`.</p>
 <h2>Import the projects into Eclipse</h2>

@@ -20,18 +20,18 @@ weight: 4
 <p>REST APIs exchange information through the same HTTP protocol as websites. On the web, you get to a site by passing in a request in your browser URL (such as http://idratherbewriting.com). This gets the resources from the server assigned to this endpoint. This comic from XKCD is spot on:</p>
 <p><a href="http://xkcd.com/1481/"><img src="/images/api.png" alt="websites as APIs" /></a></p>
 <p>I've covered <a href="http://idratherbewriting.com/2015/02/03/upcoming-webinar-survival-strategies-for-api-documentation/">REST APIs in detail</a> on my blog before. The point I want to highlight here is the format of the information returned. For the most part, information returned from REST APIs is in <a href="http://en.wikipedia.org/wiki/JSON">JSON format</a>. JSON format is a simple key-value pair format, such as the following:</p>
-<p>[code lang=text]<br />
+<p><pre><br />
 {<br />
 name: Tom<br />
 role: Blogger<br />
 age: 39<br />
 status: Awesome<br />
 }<br />
-[/code]</p>
+</pre></p>
 <p>JSON is really easy for web designers to parse. To get the name from this object (supposing the object's name was <code>data</code>), you use dot notation such as this:</p>
-<p>[code lang=text]<br />
+<p><pre><br />
 data.name<br />
-[/code]</p>
+</pre></p>
 <p>JSON stands for JavaScript object notation. It fits in well with JavaScript, which is one of the most common languages used on the web (right next to HTML and CSS).</p>
 <p>Here's a diagram depicting the flow of information from servers via REST APIs:</p>
 <p><img src="/images/drifting.png" alt="drifting" width="604" height="369" class="alignnone size-full wp-image-22734" /></p>

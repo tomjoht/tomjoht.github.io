@@ -69,26 +69,26 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>You can test it out by going to some of the slides containing vectors in my presentation, such as <a href="http://tomjohnson1492.github.io/innovation/#/6">this one</a>. Scale the browser small and large -- the text is still just as crisp at any resolution.</p>
 <p>Here's how I handled the vectors with my innovation slides. I created an Illustrator file called innovation.ai. I put all my artboards in this same file. Each artboard's dimensions are about 770 x 470 (a factor of 300px taller). Each artboard has a separate name. When I'm ready to export to SVG, I select "Save As" and choose "SVG" (and I selected <code>embedded</code> rather than <code>linked</code> in the options).</p>
 <p>Each artboard gets saved as innovation_artboardname.svg, where artboardname is whatever I've called the artboard. In my Reveal JS page, I incorporate the SVG image like this:</p>
-<p>[code]<br />
+<p><pre><br />
  &lt;img src=&quot;media/vectors/innovation_artboardname.svg&quot;/&gt;<br />
-[/code]</p>
+</pre></p>
 <p>You can also add the image as a background image, like this</p>
-<p>[code]<br />
+<p><pre><br />
 &lt;section data-background=&quot;media/vectors/innovation_strategies.svg&quot;&gt;<br />
-[/code]</p>
+</pre></p>
 <p>I can simply update all my artboards in Illustrator, save to SVG, and all the vector images in my slides get updated.</p>
 <p>The size of the SVG graphic is the size of your artboard. You can constrain the size by adding a <code>max-height</code> and <code>max-width</code> (use percentages) to a style, and then applying it to your image element. I do this for subsection slides that contain SVG images, because the space is smaller.</p>
 <p>Here's my CSS style:</p>
-<p>[code]<br />
+<p><pre><br />
 .slides img.shortened {<br />
    max-width: 80%;<br />
    max-height: 80%;<br />
   }<br />
-[code]</p>
+</pre></p>
 <p>And here I applied it to the image: </p>
-<p>[code]<br />
+<pre><br />
 &lt;img class=&quot;shortened&quot; src=&quot;media/vectors/innovation_artboardname.svg&quot;/&gt;<br />
-[/code]</p>
+</pre></p>
 <p>If I want to add a text overlay to a raster graphic, I add the raster graphic to an artboard and add the text overlay on top of it.</p>
 <p>Essentially the Reveal JS code consists of a bunch of references to all of these SVG images, which are exported from the Illustrator file.</p>
 <p>Granted, if you don't use Illustrator and don't care about crisp vector graphics, this method probably isn't for you. But I enjoy the freedom and flexibility of Illustrator for graphics much more than PowerPoint.</p>
@@ -97,16 +97,16 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Here's my innovation Github repo: <a href="https://github.com/tomjohnson1492/innovation/">https://github.com/tomjohnson1492/innovation/</a></p>
 <p>Here's the Github Pages rendering of the repo: <a href="http://tomjohnson1492.github.io/innovation/">http://tomjohnson1492.github.io/innovation/</a></p>
 <p>When I want to update and publish the slides, I just push the update to my repo using the following sequence in the command line:</p>
-<p>[code lang=text]<br />
+<p><pre><br />
 git add --all<br />
 git commit -m &quot;my commit message&quot;<br />
 git push<br />
-[/code]</p>
+</pre></p>
 <p>Note: I had a little trouble keeping the github-pages branch in sync with the master, but this <a href="http://brettterpstra.com/2012/09/26/github-tip-easily-sync-your-master-to-github-pages/">blog post helped me</a>. Essentially I just added the following under [remote "origin"] in the git/config file:</p>
-<p>[code]<br />
+<p><pre><br />
 	push = +refs/heads/master:refs/heads/gh-pages<br />
 	push = +refs/heads/master:refs/heads/master<br />
-[/code]</p>
+</pre></p>
 <h2>Conclusion</h2>
 <p>If you want to try something different for your next presentation, try [Reveal JS](http://lab.hakim.se/reveal-js/#/]. Note that there's also a commercial product built from Reveal JS called <a href="http://slides.com">slides.com</a>. However, in my experience, it's not as enjoyable as working directly with the Reveal JS template. (It does, however, allow you to easily add text overlays on top of graphics. But I don't think it supports SVG image types.)</p>
 <p>For future presentations, I'm really sold on using Reveal JS instead of PowerPoint. Not only do you have a lot more flexibility and control, it's also simply more fun to work in code.</p>

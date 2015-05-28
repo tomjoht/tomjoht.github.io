@@ -38,7 +38,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li>If you're viewing any other page, you see a list of categories.</li>
 </ul>
 <p>The logic controlling the sidebar consists of some <code>if .. else</code> statements I added to my sidebar. Here's the full code of my sidebar:<br />
-[code lang="php"]<br />
+{% highlight php %}<br />
 &lt;?php<br />
 /**<br />
  * The sidebar containing the main widget area.<br />
@@ -97,14 +97,14 @@ wp_list_categories( array( 'taxonomy' =&gt; 'series', 'title_li' =&gt; false ) )
 	&lt;/div&gt;<br />
 &lt;?php endif; ?&gt;</p>
 <p>	&lt;?php endif; ?&gt;<br />
-[/code]<br />
+{% endhighlight %}<br />
 I'll explain a bit more of this code later, but it's not really my intent to provide a detailed WordPress tutorial here. I mainly want to capture this info for later site updates, or for others who are making this same adjustment.</p>
 <p>For the related series posts (which show when you're viewing a series) and the related single posts (which show when you're viewing a single page), I don't have the code in the sidebar. Instead, I'm relying on two widgets: List Series from the <a href="https://wordpress.org/plugins/series/">Series</a> plugin and <a href="https://wordpress.org/plugins/easy-related-posts/">Easy Related Posts</a>. These plugins don't offer manual PHP tags but rather require you to use the widgets.</p>
 <p>By the way, I could have put all of this code into PHP Code widgets, but I feel like code in widgets is less stable. If you make an update and realize it breaks the code, you can't easily undo the update like you can with a text file in an offline editor. Additionally, I might forget what a particular widget is for, drag it out of the active widgets column, and then it will be gone. Not so with hard-coded logic in a theme file.</p>
 <p>Re the styling, I used <a href="http://zeaks.org/2012/twenty-twelve-theme-three-column-layout">this tutorial for adding the third column to my TwentyTwelve WordPress theme</a>. I varied from the tutorial a bit, but it got me 80% of the way there. I wasn't sure why the tutorial wanted me to add code to my functions file. I'm happy to hack the twentytwelve theme's original code instead of making a child theme, because I've already modified so much of the theme that I can't imagine applying a theme update from the original theme designer regularly without breaking something.</p>
 <h2>Disappearing menu when you add categories to pages</h2>
 <p>With my DITA QRG pages, I needed a simple way to identify the pages in order to run the conditional logic, so I used categories. Here's the logic excerpted from the previous full code sidebar page:<br />
-[code lang="php"]<br />
+{% highlight php %}<br />
 &lt;?php<br />
 wp_reset_query();</p>
 <p>if ( in_category( '2704' ) ) {<br />
@@ -119,9 +119,9 @@ wp_reset_query();</p>
 <p>wp_reset_postdata();<br />
 echo '&lt;/div&gt;';<br />
 }<br />
-[/code]<br />
+{% endhighlight %}<br />
 And I added this in my functions file:<br />
-[code lang="php"]<br />
+{% highlight php %}<br />
 function getMainMenu($menulocation){<br />
   $locations = get_nav_menu_locations();<br />
   $menuItems = wp_get_nav_menu_items( $locations[ $menulocation ] );<br />
@@ -133,7 +133,7 @@ function getMainMenu($menulocation){<br />
 <p>      return true;<br />
     }<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <h2>Sidebar ads</h2>
 <p>To accommodate the third column, I had to shrink my other sidebar column. I didn't want my theme to extend beyond about 1060px in width, so I pretty much cut my sidebar in half. This means with my sidebar ads, I removed the text snippets next to them. I also reverted to using the <a href="https://wordpress.org/plugins/wp125/">WP125 plugin</a> to manage the ads rather than relying on a custom query for posts of a specific category that I had previously used.</p>
 <p>I also moved up the sidebar ads to show more ads above the fold. I put my social media subscribe buttons in the header, below the top banner ad. And I put the search bar in my new dynamic column on the left.</p>

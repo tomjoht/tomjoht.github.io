@@ -73,23 +73,23 @@ excerpt: !ruby/object:Hpricot::Doc
 </table>
 <h2>Comments versus Javadoc tags</h2>
 <p>A comment in the code is signaled like this:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 // sample comment...</p>
 <p>/*<br />
 sample comment<br />
 */<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Javadoc does nothing with these comments.</p>
 <p>To include content in Javadoc, you add two asterisks at the start, before the class or method:</p>
-<p>[code]/**<br />
+<p>{% highlight html %}/**<br />
 *<br />
 *<br />
 *<br />
 *<br />
-*/[/code]</p>
+*/{% endhighlight %}</p>
 <p>(In Eclipse, if you type /** and hit return, it autofills the rest of the syntax automatically.)</p>
 <p>The format for adding the various element is like this:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 /**<br />
 * [short description]<br />
 * &lt;p&gt;<br />
@@ -98,9 +98,9 @@ sample comment<br />
 * [author, version, params, returns, throws, see, other tags]<br />
 * [see also]<br />
 */<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Here's a real example of Javadoc comments for a method.</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 /**<br />
 	 * Zaps the roadrunner with the amount of volts you specify.<br />
 	 * &lt;p&gt;<br />
@@ -120,7 +120,7 @@ sample comment<br />
 			System.out.println(&quot;Backfire!!! zapping coyote with 1,000,000 volts!!!!&quot;);<br />
 		}<br />
 	}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <h2>Where the Javadoc tag goes</h2>
 <p>You put the Javadoc description and tags <em>before</em> the class or method (no need for any space between the description and class or method).</p>
 <h2>What elements you add Javadoc tags to</h2>
@@ -134,7 +134,7 @@ sample comment<br />
 <p>Javadoc only includes classes, methods, etc. marked as public. Private elements are not included. If you omit <code>public</code>, the default is that the class or method is available to the package only. In this case, it is not included in Javadoc.</p>
 <h2>The description</h2>
 <p>There's a short and long description. Here's an example showing how the description part is formatted:</p>
-<p>[code lang="html"]<br />
+<p>{% highlight html %}<br />
 /**<br />
  * Short one line description.<br />
  * &lt;p&gt;<br />
@@ -150,7 +150,7 @@ sample comment<br />
 public int methodName (...) {<br />
     // method body with a return statement<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>(This example comes from <a href="http://en.wikipedia.org/wiki/Javadoc">Wikipedia entry</a>.)</p>
 <p>The short description is the first sentence, and gets shortened as a summary for the class or method in the Javadoc. After a period, the parser moves the rest of the description into a long description. Use <code>&lt;p&gt;</code> to signal the start of a new paragraph. You don't need to surround the paragraphs with opening and closing <code>&lt;p&gt;</code> tags -- the Javadoc compiler automatically adds them.</p>
 <p>Also, you can use HTML in your descriptions, such as an unordered list, code tags, bold tags, or others.</p>
@@ -179,9 +179,9 @@ public int methodName (...) {<br />
 <h2>@param tags</h2>
 <p>@param tags only apply to methods and constructors, both of which take parameters.</p>
 <p>After the @param tag, add the parameter name, and then a description of the parameter, in lowercase, with no period, like this:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 @param url  the web address of the site<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>The parameter description is a phrase, not a full sentence.</p>
 <p>The order of multiple @param tags should mirror their order in the method or constructor.</p>
 <p><a href="http://blog.joda.org/2012/11/javadoc-coding-standards.html">Stephen Colebourne recommends</a> adding an extra space after the parameter name to increase readability (and I agree).</p>
@@ -190,9 +190,9 @@ public int methodName (...) {<br />
   By convention, the first noun in the description is the data type of the parameter. (Articles like "a", "an", and "the" can precede the noun.) An exception is made for the primitive int, where the data type is usually omitted. -- <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag">How to write doc comments using Javadoc</a>
 </p></blockquote>
 <p>The example they give is as follows:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 @param ch        the character to be tested<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>However, the data type is visible from the parameters in the method. So even if you don't include the data types, it will be easy for users to see what they are.</p>
 <p>Note that you can have multiple spaces after the parameter name so that your parameter definitions all line up.</p>
 <p>@param tags must be provided for every parameter in a method or constructor. Failure to do so will create an error and warning when you render Javadoc.</p>
@@ -203,15 +203,15 @@ public int methodName (...) {<br />
  */<br />
 class MyClass&lt;T&gt;{</p>
 <p>}<br />
-[/code]</p>
+{% endhighlight %}</p>
 <h2>@returns tag</h2>
 <p>Only methods return values, so only methods would receive a @returns tag. If a method has <code>void</code> as a modifier, then it doesn't return anything. If it doesn't say <code>void</code>, then you must include a @return tag to avoid an error when you compile Javadoc.</p>
 <h2>@throws tag</h2>
 <p>You add @throws tags to methods only if the method throws a particular kind of error.</p>
 <p>Here's an example:</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 @throws IOException if your input format is invalid<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Stephen Colebourne recommends starting the description of the throws tag with an "if" clause for readability.</p>
 <blockquote><p>
   The @throws feature should normally be followed by "if" and the rest of the phrase describing the condition. For example, "@throws if the file could not be found". This aids readability in source code and when generated.
@@ -232,7 +232,7 @@ class MyClass&lt;T&gt;{</p>
 </p></blockquote>
 <h2>@see tags</h2>
 <p>The @see tag provides a see also reference. There are</p>
-<p>[code]<br />
+<p>{% highlight html %}<br />
 @see #field<br />
 @see #Constructor(Type, Type...)<br />
 @see #Constructor(Type id, Type id...)<br />
@@ -250,12 +250,12 @@ class MyClass&lt;T&gt;{</p>
 @see package.Class#Constructor(Type id, Type id)<br />
 @see package.Class#method(Type, Type,...)<br />
 @see package.Class#method(Type id, Type, id)<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>-- <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag">How to write Javadoc comments</a></p>
 <h2>Links</h2>
 <p>You can create links to other classes and methods using the <code>{@link}</code> tag.</p>
 <p>Here's an example from <a href="http://blog.joda.org/2012/11/javadoc-coding-standards.html">Javadoc coding standards</a> on making links:<br />
-[code]<br />
+{% highlight html %}<br />
   /**<br />
    * First paragraph.<br />
    * &lt;p&gt;<br />
@@ -266,7 +266,7 @@ class MyClass&lt;T&gt;{</p>
    * Link to a method handling method overload {@link Foo#bar(String,int)}.<br />
    */<br />
   public ...<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>To link to another method within the same class, use this format: <code>{@link #baz}</code>. To link to a method in another class, use this format: <code>{@link Foo#baz}</code>.</p>
 <p>You want to avoid always hyperlinking things. In that case, it's better to use <code>&lt;code&gt;</code> tags.</p>
 <p>If you want to create a "see also" reference, use this format: <code>@see #baz</code>. To change the linked text, put a word after <code>#baz</code> like this: <code>@see #baz Baz method</code>.</p>

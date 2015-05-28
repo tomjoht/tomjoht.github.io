@@ -26,9 +26,9 @@ weight: 2
 <h2>Canonical tags to the rescue</h2>
 <p>Duplicate content has also been a problem for mainstream web platforms such as WordPress. Not only is there a version of this post in the single page view, there's also a version on the homepage, date-based archives, category archives, tag archives, and possibly series archives.</p>
 <p>To let Google know the right page to prioritize in the search results, you can add the following link in the head of all pages that are the same:</p>
-<p>[code lang="html"]</p>
+<p>{% highlight html %}</p>
 <p>&lt;link rel=&quot;canonical&quot; href=&quot;http://www.example.com/the-real-page&quot;/&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>where the-real-page is the canonical page.</p>
 <p>The canonical link tag let's Google know that this version of the page is in the canon -- the other versions that duplicate this page are to be ignored.</p>
 <p>If you're publishing multiple versions of help material online, consider adding the canonical link tag to the version that you want surfaced in the search results. Adding a canonical link tag will ensure that one page gets priority over other pages. (See <a title="canonical info" href="https://support.google.com/webmasters/answer/139394?hl=en">rel="canonical"</a> on Google Webmaster Tools Help Center for more information.)</p>

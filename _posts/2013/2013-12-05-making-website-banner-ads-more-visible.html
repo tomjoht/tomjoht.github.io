@@ -40,7 +40,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>You create a new category by going to Posts &gt; Category. You can obviously call the new category something different, but these instructions will refer to this category as “sponsored posts.”</p>
 <h2 id="exclude-sponsored-posts-from-the-rss-feed">2. Exclude sponsored posts from the RSS feed</h2>
 <p>Hide the sponsored posts category from the homepage loop by adding the following code to your functions file. Change the category number (2688) to the new post category you created earlier (the category ID appears in the URL when you’re viewing the category).</p>
-<p>[code lang="javascript"]<br />
+<p>{% highlight javascript %}<br />
 function myFeedExcluder($query) {<br />
  if ($query-&amp;gt;is_feed) {<br />
    $query-&amp;gt;set('cat','-2688');<br />
@@ -48,7 +48,7 @@ function myFeedExcluder($query) {<br />
 return $query;<br />
 }<br />
 add_filter('pre_get_posts','myFeedExcluder');&lt;/code&gt;&lt;/pre&gt;<br />
-[/code]</p>
+{% endhighlight %}</p>
 <p>Put the code right before the closing <code>?&gt;</code> in functions.php.</p>
 <h2 id="exclude-the-sponsored-posts-category-from-the-homepage">3. Exclude the sponsored posts category from the homepage</h2>
 <p>Use the <a href="http://wordpress.org/plugins/wp-exclude-from-homepage/">WP Exclude from Homepage</a> plugin to exclude the sponsored posts category from appearing on the homepage. There are other ways to do it, of course, but I found this the easiest.</p>
@@ -61,7 +61,7 @@ add_filter('pre_get_posts','myFeedExcluder');&lt;/code&gt;&lt;/pre&gt;<br />
 <h2 id="create-a-new-wordpress-query-for-the-loop">6. Create a new WordPress query for the loop</h2>
 <p>Now we need to create a new loop for this posts category and show these custom fields within the loop. When you create a secondary WordPress loop, you use <code>query_posts</code> so that the posts don’t interfere with posts in your main WordPress loop.</p>
 <p>If you changed the category name to something besides “sponsored-posts”, change the <code>query_posts</code> arguments below. The other arguments, <code>posts_per_page</code> and <code>orderby</code> offer other options. The <code>posts_per_page</code> argument allows you to set how many posts get returned to the page. The <code>orderby=rand</code> option will randomize the posts on each refresh.<br />
-[code lang="html"]<br />
+{% highlight html %}<br />
 &lt;div id=&quot;sponsored_ads_section&quot;&gt;    </p>
 <p>  &lt;?php query_posts('category_name=sponsored-posts&amp;posts_per_page=10&amp;orderby=rand'); ?&gt;</p>
 <p>  &lt;?php while (have_posts()) : the_post(); ?&gt;<br />
@@ -73,11 +73,11 @@ add_filter('pre_get_posts','myFeedExcluder');&lt;/code&gt;&lt;/pre&gt;<br />
  &lt;/div&gt;</p>
 <p>  &lt;?php endwhile;?&gt;<br />
   &lt;/div&gt;<br />
-[/code]<br />
+{% endhighlight %}<br />
 Add this code to your PHP Code widget by going to Appearances &gt; Widgets.</p>
 <h2 id="add-some-styling-to-your-stylesheet">7. Add some styling to your stylesheet</h2>
 <p>The following CSS works for my sidebar, which is about 300px in width. Change the max-width property to something that fits your sidebar well. The ads stack in single-file rather than double-file. Take note of the <code>inline-block</code> style.</p>
-<p>[code lang="css"]<br />
+<p>{% highlight css %}<br />
 #sponsored_ads_section {<br />
 max-width: 270px;<br />
 background-color: #fafafa;<br />
@@ -108,12 +108,12 @@ margin:10px;</p>
 #sponsored_ads_section .pentry {<br />
 clear:both;<br />
 }<br />
-[/code]</p>
+{% endhighlight %}</p>
 <h2 id="create-new-users-for-each-of-your-sponsors">8. Create new users for each of your sponsors</h2>
 <p>For each sponsor, create a new user and assign the user the role of contributor. Create some posts for these sponsored messages, selecting the sponsored posts category. When you upload images, use 125x125px images. Edit the various posts and change the author of the ad to the appropriate sponsor.</p>
 <h2 id="add-special-permissions-for-contributors">9. Add special permissions for contributors</h2>
 <p>Contributors don’t quite have all the necessary rights, such as being able to upload images or edit published posts, so add the following code to your functions file to give your contributors these rights. Contributors won’t be able to publish posts themselves, just drafts. But they can edit posts that have already been published.</p>
-<p>[code lang="php"]<br />
+<p>{% highlight php %}<br />
 if ( current_user_can('contributor') )<br />
     add_action('admin_init', 'allow_contributor_uploads');<br />
     function allow_contributor_uploads() {<br />
@@ -122,5 +122,5 @@ if ( current_user_can('contributor') )<br />
        $contributor-&amp;gt;add_cap('edit_published_posts');<br />
        $contributor-&amp;gt;remove_cap('edit_others_posts');<br />
     }</p>
-<p>[/code]</p>
+<p>{% endhighlight %}</p>
 <p>That’s it. Now you should see text snippets beside each ad graphic. You’ve given sponsors the ability to manage their own ad content.</p>
