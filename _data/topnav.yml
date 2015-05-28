@@ -26,7 +26,7 @@ topnav_dropdowns:
     - title: Series
       items:
       - title: 10 voiceover techniques
-        url: /hey_there/
+        url: /series-10-voiceover-tips/
 
       - title: 7 deadly sins of blogging
         url: /series-overview-blogging-sins/
@@ -71,24 +71,21 @@ topnav_dropdowns:
         url: /series-my-journey-to-and-from-wikis/
 
       - title: From overlooked to center stage
-        url: /sample/
-
-      - title: 10 voiceover tips
-        url: /series-10-voiceover-tips/
+        url: /series-from-overlooked-to-center-stage/
 
     - title: Tech Notes
       items:
       - title: JavaScript
-        url: /javascript/
+        url: /toc-javascript/
 
       - title: DITA
-        url: /dita/
+        url: /toc-dita/
 
       - title: Java
-        url: /java/
+        url: /toc-java/
 
       - title: APIs
-        url: /apis/
+        url: /toc-apis/
     - title: Categories
       items:
       - title: API documentation
