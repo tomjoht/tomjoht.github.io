@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_data/sidebar_api.yml" afterPath="$PROJECT_DIR$/_data/sidebar_apis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/ads.html" afterPath="$PROJECT_DIR$/_includes/ads.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customstyles.css" afterPath="$PROJECT_DIR$/css/customstyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/topnav.yml" afterPath="$PROJECT_DIR$/_data/topnav.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,46 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7142857">
-              <caret line="2" column="89" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-01-06-api-doc-survey-result-how-to-learn-what-you-need-to-know.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-to-learn-what-you-need-to-know.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-01-06-javadoc-tags-a-good-summary.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-javadoc-tags-a-good-summary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-01-06-what-i-wish-i-knew-before-starting-my-technical-writing-career-.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-what-i-wish-i-knew-before-starting-my-technical-writing-career-.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2011-05-02-the-butterfly-paths.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,8 +41,18 @@
       <file leaf-file-name="topnav.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.814815">
-              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+            <state vertical-scroll-proportion="-5.9259257">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ads.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/ads.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.52079564">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -94,11 +68,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2012-01-05-breadcrumbs-as-a-tool-for-findability.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2012-01-05-breadcrumbs-as-a-tool-for-findability.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13019891">
+            <state vertical-scroll-proportion="-2.5714285">
               <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2009-01-21-upcoming-presentations-or-blogging-and-increased-visibility.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2009/2009-01-21-upcoming-presentations-or-blogging-and-increased-visibility.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.85714287">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customstyles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/customstyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="793" column="35" selection-start-line="793" selection-start-column="35" selection-end-line="793" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toc-apis.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/apis/toc-apis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.285714">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -145,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/family/2013-11-17-the-bug-badge.html" />
-        <option value="$PROJECT_DIR$/_posts/family/2011-05-02-ideas.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-05-30-making-up-stories.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-05-30-the-moment.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-06-20-nocturnal.html" />
@@ -193,9 +195,11 @@
         <option value="$PROJECT_DIR$/_posts/2014/2014-12-12-i-need-your-responses-to-my-api-documentation-survey.html" />
         <option value="$PROJECT_DIR$/_posts/2015/2015-01-05-podcast-automating-rest-api-documentation-with-peter-gruenbaum.html" />
         <option value="$PROJECT_DIR$/_posts/family/2011-05-02-the-butterfly-paths.html" />
-        <option value="$PROJECT_DIR$/_data/topnav.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
+        <option value="$PROJECT_DIR$/css/customstyles.css" />
+        <option value="$PROJECT_DIR$/_data/topnav.yml" />
+        <option value="$PROJECT_DIR$/_includes/ads.html" />
       </list>
     </option>
   </component>
@@ -338,11 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="family" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,24 +357,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="idratherbewriting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tomjohnson1492.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2012" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,12 +703,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="5299000" />
+      <workItem from="1432790287468" duration="6232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63864000" />
+    <option name="totallyTimeSpent" value="64797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -775,40 +757,12 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/java/java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.571428">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/java-abstract-methods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/java/toc-java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/javascript/toc-javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/apis/toc-apis.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1170,14 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.814815">
-          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.607142">
@@ -1204,8 +1150,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13019891">
+        <state vertical-scroll-proportion="-2.5714285">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2009/2009-01-21-upcoming-presentations-or-blogging-and-increased-visibility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.85714287">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/customstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="793" column="35" selection-start-line="793" selection-start-column="35" selection-end-line="793" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/apis/toc-apis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.285714">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/topnav.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9259257">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/ads.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52079564">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
