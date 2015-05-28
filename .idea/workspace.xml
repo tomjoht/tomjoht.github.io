@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb24c958-38f8-42dd-9256-afdd2916e1b5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2012/2012-01-06-breadcrumbs-as-a-tool-for-findability.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" afterPath="$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html" />
     </list>
     <ignored path="idratherbewriting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,26 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015-01-05-why-i-like-writing-help-documentation-from-scratch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-05-why-i-like-writing-help-documentation-from-scratch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7142857">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-01-06-api-doc-survey-automating-rest-api-documentation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-automating-rest-api-documentation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015/2015-01-06-api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,7 +98,27 @@
         <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.13019891">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2012-01-13-a-lifetime-of-reading-versus-a-lifetime-of-writing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-13-a-lifetime-of-reading-versus-a-lifetime-of-writing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.85714287">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2012-01-10-the-home-depot-model-of-findability-or-social-search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-10-the-home-depot-model-of-findability-or-social-search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7142857">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -722,12 +721,12 @@
       <workItem from="1432691004333" duration="4405000" />
       <workItem from="1432755266999" duration="610000" />
       <workItem from="1432783050296" duration="3789000" />
-      <workItem from="1432790287468" duration="4997000" />
+      <workItem from="1432790287468" duration="5299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63562000" />
+    <option name="totallyTimeSpent" value="63864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -907,22 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-10-the-home-depot-model-of-findability-or-social-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-13-a-lifetime-of-reading-versus-a-lifetime-of-writing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1203,10 +1186,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-10-the-home-depot-model-of-findability-or-social-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7142857">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-13-a-lifetime-of-reading-versus-a-lifetime-of-writing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.85714287">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2012/2012-01-05-breadcrumbs-as-a-tool-for-findability.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13019891">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>
