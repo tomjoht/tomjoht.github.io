@@ -1,7 +1,7 @@
 title: "I'd Rather Be Writing"
 description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
 host: 127.0.0.1
-port: 4019
+port: 4029
 feedback_email: tomjohnson1492@gmail.com
 sidebar_accordion: true
 disqus_shortname: idratherbewriting

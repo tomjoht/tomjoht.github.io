@@ -25,6 +25,9 @@ topnav_dropdowns:
   subcategories:
     - title: Series
       items:
+      - title: Browse all series
+        url: /allseries/
+        
       - title: 10 voiceover techniques
         url: /series-10-voiceover-tips/
 

@@ -5,20 +5,18 @@
 
             {% assign thisSeries = page.series %}
             {% assign allPosts = site.posts | sort:"weight"  %}
-            {% for post in allPosts %}
-            {% for series in post.series %}
-            {% if series == thisSeries %}
+            {% for p in allPosts %}
+            {% if p.series == thisSeries %}
 
-            {% if post.url == page.url %}
-            <li class="active"> → {{post.weight}}. {{post.title}}</li>
+            {% if p.url == page.url %}
+            <li class="active"> → {{p.weight}}. {{p.title}}</li>
             {% else %}
             <li>
-                <a href="{{post.url | prepend: site.baseurl | append: site.suffix}}">{{post.weight}}. {{post.title}}</a>
+                <a href="{{p.url | prepend: site.baseurl | append: site.suffix}}">{{p.weight}}. {{p.title}}</a>
             </li>
             {% endif %}
             {% endif %}
 
-            {% endfor %}
             {% endfor %}
         </ol>
     </div>
