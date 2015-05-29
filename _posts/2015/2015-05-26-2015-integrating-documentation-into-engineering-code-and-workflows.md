@@ -8,7 +8,7 @@ summary: "If you want to encourage engineers to write documentation, integrate y
 ---
 
 ## Write the Docs video
-If you work with developer documentation, definitely check out Riona Macnamara's Write the Docs 2015 presentation:[Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/watch?v=EnB8GtPuauw).
+If you work with developer documentation, definitely check out Riona Macnamara's Write the Docs 2015 presentation: [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/watch?v=EnB8GtPuauw).
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/EnB8GtPuauw" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +36,7 @@ I like the idea, but I'm not entirely sure how to apply it in my situation. In R
 
 Google has more than 23,000 engineers and one of the largest code bases in the world. It's only practical that developers would write the bulk of the documentation, especially for internal products.
 
-In my situation, engineers write documentation for internal processes (such as setting up servers) and publish it on a Confluence wiki. But I write documentation that is used by end-user-developers and field engineers. I publish this documentation on external web hosts.
+In my situation, engineers write documentation for internal processes (such as setting up servers) and they publish it on a Confluence wiki. But I write documentation that is used by end-user-developers and field engineers. I publish this documentation on external web hosts.
 
 My documentation is now in Jekyll. And I commit it to a code repository.
 
@@ -51,6 +51,7 @@ Additionally, my [doc theme](http://tomjohnson1492.github.io/documentation-theme
 - add the topic to a sidebar navigation
 - add an include from another file
 - create a unique build of the site
+- add conditional filtering on a page
 
 ## How exactly do you handle reviews via git?
 
@@ -58,7 +59,7 @@ I'm also shaky on the revision control software workflow. If engineers clone my 
 
 For now, developers sometimes add readme.txt files with their code, and I add the information to the documentation (in another code repo). No one really collaborates with me in my code repo -- I just push commits to it. 
 
-Ideally, I'd like to point developers to the doc repository and provide a simple interface (like Prose.io) to edit the files. But clearly I'm still trying to figure out how to integrate into an engineer workflow. 
+Ideally, I'd like to point developers to the doc repository and provide a simple interface (like [http://prose.io](Prose.io) to edit the files. But clearly I'm still trying to figure out how to integrate into an engineer workflow. 
 
 ## Conclusion
 
