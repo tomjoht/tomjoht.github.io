@@ -324,22 +324,33 @@ text-decoration: none;
 }
 
 .nav > li > a {
-    font-size: 14px;
     line-height: 20px;
     padding: 4px 10px;
 }
 
 ul#mysidebar {
-  margin-top:40px;
-  
   border-radius:0px;
+    max-width:300px;
+    float:right;
+    padding:20px
+    width:250px;
+}
+
+ul#mysidebar li {
+    margin: 1px;
+}
+
+ul#mysidebar li.firstLevel a:hover {
+    color: black;
 }
 
 .nav ul li ul li a {
   padding-left:20px;
 }
 
-
+h1.topictitle1 {
+    display:none;
+}
 .nav li.thirdlevel > a {
 background-color: #FAFAFA !important;
 color: #248EC2;

@@ -9,17 +9,10 @@ tags: []
 status: publish
 type: page
 published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3773598448'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
-<h1 class="title topictitle1">DITA: Combining topics</h1>
-<div class="body conbody">
+{% assign sidebar = site.data.sidebar_dita.entries %}
+
+{% include technotes_toc.html %}<div class="body conbody">
 <p class="shortdesc">You can combine topics into longer articles using the chunk attribute on your map. This issue usually crops up if you're using the specialized topic types (task, concept) and you're trying to combine information. </p>
 <p class="p">As I recommended in <a class="xref" href="/specializations" title="If you want to create rules that enforce a specific structure to your content, you can use one of the existing DITA specializations (concept, task, reference) or create your own specializations. However, I don't recommend using DITA's specializations unless your writers need it.">DITA: Specializations (task, concept, reference)?</a>, author in the base topic type. You won't find yourself doing acrobatics to combine topics. However, you may want to combine topics in order to create nested subheadings.</p>
 <p class="p toc">

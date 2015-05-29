@@ -8,15 +8,10 @@ tags: []
 status: publish
 type: page
 published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
-<h1 class="title topictitle1">DITA: Add a menu selector</h1>
+{% assign sidebar = site.data.sidebar_dita.entries %}
+
+{% include technotes_toc.html %}
 <div class="body taskbody">
 <p class="shortdesc">If you have multiple output files and you want to provide users with the ability to<br />
         easily navigate from one output to another, you can add a menu selector in the<br />

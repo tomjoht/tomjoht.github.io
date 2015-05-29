@@ -9,16 +9,10 @@ tags: []
 status: publish
 type: page
 published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3773530844'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
-<h1 class="title topictitle1">DITA: Code (inline and block)</h1>
+{% assign sidebar = site.data.sidebar_dita.entries %}
+
+{% include technotes_toc.html %}
 <div class="body conbody">
 <p class="shortdesc">You can use two primary tags for code: <samp class="ph codeph">codeph</samp> and<br />
    <samp class="ph codeph">codeblock</samp>.</p>
