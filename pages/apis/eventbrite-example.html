@@ -133,8 +133,8 @@ https://www.eventbriteapi.com/v3/events/14635401881/?token={your api key}<br />
 &lt;/html&gt;<br />
 {% endhighlight %}</p>
 <p>Here's the result:</p>
-<p><a href="http://idratherbewriting.com/wp-content/apidemos/eventbrite.html"><img src="/images/eventbriteendresult-550x472.png" alt="Eventbrite end result" width="550" height="472" class="alignnone size-medium wp-image-22498" /></a></p>
-<p>You can view it on the <a href="http://idratherbewriting.com/wp-content/apidemos/eventbrite.html">demo page</a>.</p>
+<p><a href="http://idratherbetellingstories.com/wp-content/apidemos/eventbrite.html"><img src="/images/eventbriteendresult-550x472.png" alt="Eventbrite end result" width="550" height="472" class="alignnone size-medium wp-image-22498" /></a></p>
+<p>You can view it on the <a href="http://idratherbetellingstories.com/wp-content/apidemos/eventbrite.html">demo page</a>.</p>
 <h2>Code explanation</h2>
 <p>The result is as plain-jane as it can be in terms of style. But with API documentation code examples, you want to keep code examples simple. In fact, you most likely don't need a demo at all. Simply showing the payload returned in the browser is sufficient for a UI developer. However, for testing it's fun to make content actually appear on the page.</p>
 <p>The <code>getJSON</code> method from jQuery gets a payload for an endpoint URL, and then assigns it to the <code>data</code> argument. I log <code>data</code> to the console to more easily inspect its payload. To pull out the various properties of the object, I use dot notation. <code>data.name.text</code> gets the text property from the name object that is embedded inside the data object.</p>
