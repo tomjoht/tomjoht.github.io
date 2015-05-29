@@ -1,3 +1,40 @@
+
+<script>
+
+    $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mytechsidebar").navgoco({
+                    caretHtml: '',
+                    accordion: {{site.sidebar_accordion}},
+            openClass: 'active', // open
+            save: false, // leave false or nav higlighting doesn't work right
+            cookie: {
+        name: 'navgoco',
+                expires: false,
+                path: '/'
+    },
+    slide: {
+        duration: 400,
+                easing: 'swing'
+    }
+    });
+
+    $("#collapseAll").click(function(e) {
+        e.preventDefault();
+        $("#mytechsidebar").navgoco('toggle', false);
+    });
+
+    $("#expandAll").click(function(e) {
+        e.preventDefault();
+        $("#mytechsidebar").navgoco('toggle', true);
+    });
+
+    });
+
+</script>
+
+
+<ul id="mytechsidebar" class="nav">
 <ul>
             <h3 class="sidebar"> Navigation</h3>
 
