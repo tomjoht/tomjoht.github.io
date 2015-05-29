@@ -806,3 +806,11 @@ h1.title topictitle1 {display:none;}
 .navbar-inverse .navbar-nav>li>a {
     font-size:14px;
 }
+
+button.cursorNorm {
+    cursor: hand;
+}
+
+h3.relatedPosts ul li {
+margin: 12px 0px;
+}
