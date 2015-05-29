@@ -802,3 +802,7 @@ h2 {
 }
 
 h1.title topictitle1 {display:none;}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-size:14px;
+}

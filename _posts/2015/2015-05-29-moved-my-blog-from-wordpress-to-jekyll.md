@@ -45,16 +45,16 @@ With Jekyll, you build your site first and then push it out to your server. Each
 
 Of course it takes a while to build your site. And interestingly, Movable Type (an earlier competitor to WordPress) died out in part because the build time to recompile your site took a while. 
 
-But if you can offload the build process to your web host, like you can with [Github Pages](https://pages.github.com/). Github Pages will automatically build your Jekyll site when you commit to your Github repository. Who cares if it takes a few minutes for Jekyll to build your latest commit. Once it's live, you save a ton of time in delivering your site with each request.
+But you can offload the build process to your web host by using [Github Pages](https://pages.github.com/). Github Pages will automatically build your Jekyll site when you commit to your Github repository. Who cares if it takes a few minutes for Jekyll to build your latest commit. Once it's live, you save a ton of time in delivering your site with each request.
 
 ## Other reasons
 
 I have a few other reasons as well: 
 
-- I want to learn Bootstrap and JavaScript more. With my Jekyll-based Bootstrap-based theme, I can really dig into this platform more. I can also integrate JS directly on pages (in WP, it's difficult to use JS on pages).
-- WordPress is no longer cool. It's become mainstream. Now almost everyone has a WordPress blog. (Not the best reason, I know. But hey, I like trying new things.)
-- I'm bored with WordPress. After using the same platform for 8 years, I'm ready to try a different paradigm.
-- I fear the massive hack. Although I've been lucky, people's WordPress sites get hacked all the time. I fear that my 2,000 posts could go up in a puff of smoke one unfortunate morning. (Of course I have db backups, but the thought that it could so easily get deleted kind of scares me.)
+- **I want to learn Bootstrap and JavaScript more**. With my Jekyll-based Bootstrap-based theme, I can really dig into this platform more. I can also integrate JS directly on pages (in WP, it's difficult to use JS on pages).
+- **WordPress is no longer cool**. It's become mainstream. Now almost everyone has a WordPress blog. (Not the best reason, I know. But hey, I like trying new things.)
+- **I'm bored with WordPress**. After using the same platform for 8 years, I'm ready to try a different paradigm.
+- **I fear the massive hack**. Although I've been lucky, people's WordPress sites get hacked all the time. I fear that my 2,000 posts could go up in a puff of smoke one unfortunate morning. (Of course I have db backups, but the thought that it could so easily get deleted kind of scares me.)
 
 ## Still a lot of work to do
 Although I've migrated the content and gotten most everything working, I still have a lot of work to do. Over the coming months, I'll be fine-tuning the rest of the implementation. However, I didn't want to let the fine-tuning get in the way of my blogging. Content is the main reason people to any site.
