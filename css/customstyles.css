@@ -331,7 +331,7 @@ text-decoration: none;
 ul#mysidebar {
   border-radius:0px;
     max-width:300px;
-    float:right;
+    float:right; 
     padding:20px
     width:250px;
 }
