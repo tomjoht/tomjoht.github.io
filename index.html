@@ -15,6 +15,7 @@ layout: page
     {% endfor %}
   </div>
   {% endfor %}
+    &#8226; <a href="{{ post.url }}#disqus_thread"></a>
 </div>
 </div>
 
@@ -38,3 +39,13 @@ layout: page
 {% comment %} 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 {% endcomment %}
+
+<script type="text/javascript">
+  var disqus_shortname = 'idratherbewriting';
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
