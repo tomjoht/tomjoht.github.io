@@ -46,3 +46,15 @@ authentication
 
 google books API
 https://developers.google.com/books/docs/v1/getting_started
+
+you can see a directory of apis here: https://www.mashape.com/
+http://docs.mashape.com/documenting-api
+
+here's a great site on learning APIs: http://www.codecademy.com/learn
+
+major sections: 
+
+how do you call the api
+authorization
+hello world
+troubleshooting, error codes

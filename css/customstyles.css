@@ -811,6 +811,7 @@ button.cursorNorm {
     cursor: hand;
 }
 
-h3.relatedPosts ul li {
+div.well ul li {
 margin: 12px 0px;
+font-size:14px;
 }
