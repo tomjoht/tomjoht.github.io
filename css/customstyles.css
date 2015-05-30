@@ -740,10 +740,6 @@ h4.categoryArchive {
     margin-top: 30px;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
-    background-color: silver;
-}
-
 button.navbar-toggle {
     background-color: #666;
 }
@@ -814,4 +810,40 @@ button.cursorNorm {
 div.well ul li {
 margin: 12px 0px;
 font-size:14px;
+}
+
+.recentComments .dsq-combo-avatar{
+    border-radius:110px;
+}
+.recentComments .dsq-widget-comment,.dsq-widget-user{
+    font-family:Merriweather,Helvetica,sans-serif;
+    display:block;
+    font-size:14px;
+    text-decoration:none;
+    padding: 10px 3px;
+}
+.recentComments #dsq-combo-tab-recent,#dsq-combo-tab-people,#dsq-combo-tab-popular{
+    font-family:Merriweather,Helvetica,sans-serif;
+    font-size:14px;
+}
+.recentComments .dsq-clearfix a {
+    text-decoration:none;
+    font-family:Merriweather,Helvetica,sans-serif;
+    font-size:14px;
+}
+
+.recentComments a {
+    color: #337ab7;
+}
+.recentComments a:hover {
+    text-decoration: underline;
+    color: #23527c;
+}
+
+.recentComments p {
+    line-height: 22px;
+}
+
+.recentComments #dsq-combo-widget #dsq-combo-tabs li a:hover {
+    color: #23527c;
 }
