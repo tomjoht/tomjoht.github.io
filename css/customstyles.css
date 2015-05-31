@@ -76,17 +76,6 @@
 margin: 10px 0px;
 }
 
-.pageSummary {
-  font-size:13px;
-  display:block;
-  margin-bottom:15px;
-  padding-left:20px;
-}
-
-.post-summary {
-margin-bottom:12px;
-}
-
 .bs-example{
       margin: 20px;
     }
@@ -516,16 +505,16 @@ a[data-toggle] {
 }
 
 .summary {
-    /* padding-left: 10px; */
+    padding-left: 10px;
     font-size: 130%;
-    /* color: #b62273; */
-    /* border-left: 2px solid #dedede; */
+    color: darkgoldenrod;
+    border-left: 2px solid #dedede;
     margin: 20px 0px 20px 0px;
 }
 
-.summary:before {
-  /*content: "Summary: ";*/
-  /*font-weight: bold;*/
+.summary::before {
+  content: "Summary: ";
+  font-weight: bold;
 }
 
 .pageMetadata {

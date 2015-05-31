@@ -12,11 +12,9 @@ comments: true
 {% endfor %}
 {% endif %}
 
-<div class="summary">{{page.summary}}</div>
-
+{% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
 {% include toc.html %}
-
 
 {{ content }}
 

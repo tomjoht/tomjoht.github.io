@@ -2,11 +2,13 @@
 title: API workshop outline
 permalink: /api-workshop_outline/
 categories: api-doc
-published: true
+published: false
 date: May 30, 2015
 ---
-{{note}} This content is in a draft state. It represents the outline of the workshop I'm preparing for the STC Summit in Columbus, Ohio in June 2015.{{end}}
+{{note}} This content is in a draft state. It represents the outline of the workshop I'm preparing for the STC Summit in Columbus, Ohio in June 2015. This material will be given out as a workbook that people can print or refer to.{{end}}
+
 ## Introduction to APIs (10)
+* Same intro as other API workshops
 * What are APIs
 * Often overlay GUIs on top of API calls
 * Different types of APIs
@@ -21,12 +23,17 @@ date: May 30, 2015
 * Focus on the different parts of API doc, not publishing tools
 * For Swagger in-depth, see Swagger-specific presentation
 * For publishing tool exploration, see my publishing tools presentation
+* Focus on REST APIs
 
 ## Requirements
 * Computer 
 * Text editor (example, WebStorm, Sublime Text)
 * Chrome
 * Recommended Chrome extensions: REST API client, Postman
+* Eclipse
+* Java SDK
+* Java Runtime Environment
+* Download workshop materials
 
 ## Scenario to use an API
 * Show weather forecast on site
@@ -35,7 +42,7 @@ date: May 30, 2015
 * Brief overview of different components of API documentation
 
 ## Components of API documentation
-* endpoint, description, parameters, request example, response example, code example, success and error codes
+* endpoint, description, methods, parameters, request example, response example, code example, success and error codes, notes, authorization
 
 ### Endpoint
 * Predictability of design
@@ -105,17 +112,19 @@ date: May 30, 2015
 * License inherent in API key
 * How API keys give IT shops control to turn off bad requesters
 
-### Markdown
-* Preferred doc format for devs
-* Common Markdown syntax
-* Some Markdown tools: static site generators, readme.io
-* Treating doc as code
-
 ### Tutorials and how-to
 * Separation of programmer tutorials from reference docs
 * Hello World tutorial
 * Assessing your audience's level of knowledge
 * Sequential tutorials
+
+## Advanced example
+* Use Flickr API to pull pictures from your photo stream or album onto your site
+* Determine the endpoint
+* Construct the request
+* Integrate the code
+* Troubleshoot
+* Critique of Flickr's documentation
 
 ## Doc reviews with developers
 * The curse of knowledge
@@ -126,16 +135,12 @@ date: May 30, 2015
 * Using the sprint lead to assign review tasks
 * Product manager reviews vs technical reviews from engineers vs. QA reviews
 
-## Advanced example
-* Use Flickr API to pull pictures from your photo stream or album onto your site
-* Determine the endpoint
-* Construct the request
-* Integrate the code
-* Troubleshoot
-* Critique of Flickr's documentation
+## Platform APIs
+* cover same material as in slides
+* go through some how-to
 
-## Examples of API documentation sites
-* [EXAMPLES OF AWESOME API DOCUMENTATION](http://www.mattsilverman.com/2013/11/examples-of-awesome-api-documentation.html)
+## Publishing Solutions
+* cover same material as in presentation
 
  
  

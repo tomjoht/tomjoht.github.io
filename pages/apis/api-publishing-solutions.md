@@ -33,5 +33,14 @@ summary:
  - how people document json blocks
  - how to document parameters
  
+ ## Markdown
+ * Preferred doc format for devs
+ * Common Markdown syntax
+ * Some Markdown tools: static site generators, readme.io
+ * Treating doc as code
+
+## Examples of API documentation sites
+* [EXAMPLES OF AWESOME API DOCUMENTATION](http://www.mattsilverman.com/2013/11/examples-of-awesome-api-documentation.html)
+ 
  
  
