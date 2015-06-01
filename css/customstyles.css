@@ -393,7 +393,14 @@ font-size:12px;
 @media (max-width: 767px) {
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
 color: #444;
-}}
+}
+}
+
+@media (max-width: 500px) {
+#mytechsidebar {display:none;}
+}
+}
+
 
 
 img.screenshotSmall {

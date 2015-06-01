@@ -1,4 +1,4 @@
-title: "I'd Rather Be Writing"
+name: "I'd Rather Be Writing"
 description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
 host: 127.0.0.1
 port: 4029
@@ -21,15 +21,15 @@ gems:
   - jemoji
 
 #url: "http://tomjohnson1492.github.io"
-url: "http://idratherbewriting.com"
+url: http://idratherbewriting.com
 exclude:
   - _drafts
   - .idea
   - _site
 
-# this enables the tooltip collection.
+# this enables collections
 collections:
-  tooltips:
+  restapicourse:
     output: true
 
 # these are defaults that get applied to each page or post's frontmatter. leave as is.
@@ -57,7 +57,14 @@ defaults:
       type: "tooltips_demo"
     values:
       layout: "page"
-      tooltip: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "restapicourse"
+    values:
+      layout: "page"
+      comments: true
       search: true
 
 sass:
