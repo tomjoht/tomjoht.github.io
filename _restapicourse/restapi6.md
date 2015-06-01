@@ -12,7 +12,7 @@ weight: 6
 
 Before moving on, let's pause a bit and learn a bit more about cURL.
 
-\
+
 -H
 
 

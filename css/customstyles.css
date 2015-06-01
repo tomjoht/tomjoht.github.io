@@ -696,7 +696,7 @@ div.topBannerAd {
 float: right;
 }
 div.topBannerAd img {
-    max-width:350px;
+    max-width:470px;
     padding:10px;
 }
 
@@ -842,4 +842,11 @@ font-size:14px;
 
 .recentComments #dsq-combo-widget #dsq-combo-tabs li a:hover {
     color: #23527c;
+}
+
+.singlePostAds img {
+    padding-top: 10px;
+}
+.singlePostAds {
+    margin-bottom:20px;
 }
