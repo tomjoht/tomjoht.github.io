@@ -13,7 +13,7 @@ layout: default
    {% endif %}
 
   {{content}}
-{% include single_post_ads.html %}
+{% if page.type == "homepage" %}{% include single_post_ads.html %}{% endif %}
     {% include disqus.html %}
 
 </div>
