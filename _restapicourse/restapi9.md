@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 9
+title: Understanding JSON's structure
 permalink: /restapi9/
 categories:
 - api-doc

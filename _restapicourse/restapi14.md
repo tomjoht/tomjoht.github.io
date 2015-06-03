@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 14
+title: Extract information from a wiki page
 permalink: /restapi14/
 categories:
 - api-doc
@@ -11,7 +11,7 @@ summary: "This is the third topic in REST APIs."
 
 {% include restapicourse.html %}
 
-this is the third topic
+Devs often write on a wiki page somewhere. You'll have to pull this information out and integrate it into a template that has all of these sections. This will give you practice in knowing what to look for with API documentation.
 
 {% include restapicourse_next.html %}
 

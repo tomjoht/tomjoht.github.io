@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 17
+title: Documenting the parameters
 permalink: /restapi17/
 categories:
 - api-doc

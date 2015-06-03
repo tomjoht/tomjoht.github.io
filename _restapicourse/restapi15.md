@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 15
+title: Documenting the endpoint description and definition
 permalink: /restapi15/
 categories:
 - api-doc

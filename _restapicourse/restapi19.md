@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 19
+title: Providing a response body
 permalink: /restapi19/
 categories:
 - api-doc

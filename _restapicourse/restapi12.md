@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 12
+title: Essential sections in API documentation
 permalink: /restapi12/
 categories:
 - api-doc

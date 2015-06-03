@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 18
+title: Providing a request example
 permalink: /restapi18/
 categories:
 - api-doc

@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 8
+title: Analyze the JSON response
 permalink: /restapi8/
 categories:
 - api-doc

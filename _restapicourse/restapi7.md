@@ -1,17 +1,16 @@
 ---
-title: REST APIs - 7
+title: Submitting REST Calls through GUI Clients
 permalink: /restapi7/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
 weight: 7
-summary: "This is the third topic in REST APIs."
+summary: ""
 ---
 
 {% include restapicourse.html %}
 
-this is the third topic
 
 {% include restapicourse_next.html %}
 

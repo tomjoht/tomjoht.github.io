@@ -7,9 +7,7 @@ weight: 1
 {% include restapicourse.html %}
 
 ## Overview
-This course provides a tutorial on documenting REST APIs. This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. 
-
-Through activities, interactive exercises, quizzes, and other material, you will learn how to document REST APIs.
+This course provides a tutorial on documenting REST APIs. This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. The course involves interactive exercises, quizzes, and other activities.
 
 ## Course outline
 
@@ -21,7 +19,7 @@ Rather than present abstract concepts, this course contextualizes REST APIs with
 
 Along the way, you learn about cURL, JSON, endpoints, parameters, data types, authentication, and other details associated with REST APIs. The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a real context.
 
-During the course, you also plunge into a more complicated example of using REST APIs. During this second half, we explore other aspects related to APIs, such as linking reference material with tutorials, "time to hello world," and more.
+During the course, you also plunge into a more complicated example of using REST APIs. During this second half, we explore other aspects related to APIs, such as linking reference material with tutorials, and more.
 
 The general outline of the course is as follows:
 
@@ -35,7 +33,7 @@ This courses focuses entirely on REST API documentation. Other courses will focu
 
 ## What you'll need
 
-* Computer
+* Computer (preferably Mac but not required)
 * Text editor
 * Chrome browser
 * Advanced REST API client extension

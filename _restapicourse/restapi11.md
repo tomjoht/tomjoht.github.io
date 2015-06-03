@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 11
+title: More advanced ways to integrate the response
 permalink: /restapi11/
 categories:
 - api-doc

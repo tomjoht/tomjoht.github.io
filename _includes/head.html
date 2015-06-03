@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
    <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-   <title>{% if page.title %}{{ page.title }}{% endif %}  | {{ site.title }}</title>
+   <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} | {{ site.name }} {% endif %}</title>
      <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend:site.baseurl }}"  type='text/css'>
    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
    <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>

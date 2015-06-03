@@ -1,17 +1,20 @@
 ---
-title: REST APIs - 13
+title: Adding documentation for a new endpoint
 permalink: /restapi13/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
 weight: 13
-summary: "This is the third topic in REST APIs."
+summary: ""
 ---
 
 {% include restapicourse.html %}
 
-this is the third topic
+pretend that developers have asked you to add documentation about a new endpoint added to this API. you're going to write documentation for it. 
+
+Cover the essential elements that will need documentation.
+
 
 {% include restapicourse_next.html %}
 

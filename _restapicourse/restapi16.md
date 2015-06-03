@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 16
+title: Documenting the method
 permalink: /restapi16/
 categories:
 - api-doc
@@ -11,7 +11,7 @@ summary: "This is the third topic in REST APIs."
 
 {% include restapicourse.html %}
 
-this is the third topic
+get into data types here
 
 {% include restapicourse_next.html %}
 

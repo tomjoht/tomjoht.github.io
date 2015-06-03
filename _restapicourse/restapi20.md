@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 20
+title: Creating code examples
 permalink: /restapi20/
 categories:
 - api-doc
@@ -8,7 +8,7 @@ course: "Documenting REST APIs"
 weight: 20
 summary: 
 ---
-{% include restapicourse.html %}
+{% include restapicourse.html %} 
 
 
 {% include restapicourse_next.html %}

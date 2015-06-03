@@ -1,5 +1,5 @@
 ---
-title: REST APIs - 10
+title: Integrating the response on a web page
 permalink: /restapi10/
 categories:
 - api-doc
