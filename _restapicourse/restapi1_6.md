@@ -1,5 +1,5 @@
 ---
-title: 1.6 Submitting REST Calls through Postman
+title: 1.6 Submit REST Calls through Postman
 permalink: /restapi1_6/
 categories:
 - api-doc
@@ -54,7 +54,7 @@ Some popular GUI clients include the following:
 
 Saved endpoints appear in the left column under Collections.
 
-## Enter details for the other endpoints
+## Make calls for the other endpoints
 
 Enter details into Postman for the other two endpoints:
 
@@ -65,9 +65,9 @@ When you save these other endpoints, click the arrow next to Save and choose **S
 
 <img src="{{ "/images/restapicourse/postmansaveas.png" | prepend: site.baseurl }}" alt="Save as" />
 
-## Toggle the format of the weatherdata response
+## View the format of the weatherdata response in pretty JSOn
 
-The first two responses include text only. The weatherdata endpoint response is in JSON format. 
+The first two endpoint responses include text only. The weatherdata endpoint response is in JSON format. 
 
 In Postman, run the weatherdata call. Then toggle the options to **Pretty** and **JSON**.
 

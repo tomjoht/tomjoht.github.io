@@ -139,7 +139,7 @@ It's not very readable (by humans), so we can use a [JSON formatter tool](http:/
 
 JSON stands for JavaScript Object Notation. It's the most common way REST APIs return information. Through Javascript, you can easily parse through the JSON and display it on a web page. 
 
-Some APIs return information in both JSON and XML. But if you're trying to parse through the information and render it on the web, JSON fits into the existing JavaScript + HTML toolset that powers most web pages. 
+Some APIs return information in both JSON and XML. But if you're trying to parse through the response and render it on the web, JSON fits much better into the existing JavaScript + HTML toolset that powers most web pages. 
 
 JSON has two types of basic structures: objects and arrays. 
 
@@ -154,7 +154,7 @@ An object is a collection of key-value pairs, surrounded by curly braces:
 }
 ```
 
-The key-value pairs are each put into double quotation marks.
+The key-value pairs are each put into double quotation marks. Each key-value pair is separated from the next by a comma (except for the last pair).
 
 ## JSON arrays
 
@@ -172,15 +172,19 @@ With numbers or booleans (true or false values), you don't use quotation marks.
 [1, 2, 3]
 ```
 
+```json
+[true, false, true]
+```
+
 ## Mixing it up
 
-JSON can mix up objects and arrays. You can have an array of objects:
+JSON can mix up objects and arrays inside each other. You can have an array of objects:
 
 ```
 [ 
-{ object }, 
-{ object },
-{ object }
+  object, 
+  object,
+  object
 ]
 ```
 
@@ -199,7 +203,7 @@ Here's an example with values:
 ]
 ```
 
-Objects often contain arrays:
+Objects often contain arrays in the value part of the key-value pair:
 
 ```
 {
@@ -208,23 +212,24 @@ hobbies: ["swimming","biking","drawing","horseplaying"]
 }
 ```
 
-Your object can contain objects, and so on.
-
 Just remember, objects are set off with curly braces and contain key-value pairs. Sometimes those values are arrays. Arrays are lists and are set off with square brackets.
 
-## Identify the objects and arrays in the forecast API response
+{{tip}} It's important to understand the difference between objects and arrays because it determines how you access the data to pull out and display the information. More on that later.{{end}}
 
-Look at the response from the weather forecast API. 
+## Identify the objects and arrays in the weatherdata API response
+
+Look at the response from the weatherdata forecast API. 
 
 * Where are the objects?
 * Where are the arrays?
 
 It's common for arrays to contain lists of objects, and for objects to contain arrays. 
 
+Note that the escaping (`\` tags) in the `description` is to keep the JSON formatting valid.
+
 ## More information
 
-For more information, see [json.com](https://www.json.com/).
-
+For more information on understanding the structure of JSON, see [json.com](https://www.json.com/).
 
 {% include restapicourse_next.html %}
 
