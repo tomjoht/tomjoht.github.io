@@ -4,4 +4,10 @@ permalink: /category-book-reviews/
 categoryName: book-reviews
 ---
 
-{% include categorylogic.html %}
+<p>The following content is in the <b>{{page.categoryName}}</b> category:
+
+    {% for p in site.categories.book-reviews %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endfor %}
+
