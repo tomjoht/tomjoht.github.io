@@ -1,11 +1,11 @@
 ---
 title: Using a REST API
-permalink: /restapi3/
+permalink: /restapi1_2/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 3
+weight: 1.2
 summary: "This is the third topic in REST APIs."
 ---
 

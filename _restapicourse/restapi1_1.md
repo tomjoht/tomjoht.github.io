@@ -1,11 +1,11 @@
 ---
 title: Introduction to REST API documentation
-permalink: /restapi2/
+permalink: /restapi1_1/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2
+weight: 1.1
 summary: ""
 ---
 {% include restapicourse.html %}

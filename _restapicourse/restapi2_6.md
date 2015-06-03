@@ -1,11 +1,11 @@
 ---
-title: Essential sections in API documentation
-permalink: /restapi12/
+title: Documenting the parameters
+permalink: /restapi2_6/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 12
+weight: 2.6
 summary: "This is the third topic in REST APIs."
 ---
 

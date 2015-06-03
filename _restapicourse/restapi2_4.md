@@ -1,11 +1,11 @@
 ---
-title: Integrating the response on a web page
-permalink: /restapi10/
+title: Documenting the endpoint description and definition
+permalink: /restapi2_4/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 10
+weight: 2.4
 summary: "This is the third topic in REST APIs."
 ---
 

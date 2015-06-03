@@ -1,11 +1,11 @@
 ---
 title: Extract information from a wiki page
-permalink: /restapi14/
+permalink: /restapi2_3/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 14
+weight: 2.3
 summary: "This is the third topic in REST APIs."
 ---
 

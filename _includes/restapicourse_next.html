@@ -1,6 +1,8 @@
 {% for p in site.restapicourse %}
-{% assign nextTopic = page.weight | plus: 1  %}
+{% assign nextTopic = page.weight | plus: "0.1"  %}
 {% if p.weight == nextTopic  %}
-<b>Next: <a href="{{p.url | prepend: site.baseurl}}">{{p.weight}}. {{p.title}}</a></b>
+<a href="{{p.url | prepend: site.baseurl}}"><button type="button" class="btn btn-warning">Next: {{p.weight}}. {{p.title}}</button></a>
 {% endif %}
 {% endfor %}
+
+

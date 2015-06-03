@@ -1,11 +1,11 @@
 ---
-title: Documenting the parameters
-permalink: /restapi17/
+title: Providing a response body
+permalink: /restapi2_8/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 17
+weight: 2.8
 summary: "This is the third topic in REST APIs."
 ---
 

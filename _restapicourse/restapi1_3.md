@@ -1,11 +1,11 @@
 ---
 title: Getting the authorization keys
-permalink: /restapi4/
+permalink: /restapi1_3/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 4
+weight: 1.3
 ---
 {% include restapicourse.html %}
 

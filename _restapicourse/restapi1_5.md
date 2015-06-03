@@ -1,11 +1,11 @@
 ---
 title: Understand cURL more
-permalink: /restapi6/
+permalink: /restapi1_5/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 6
+weight: 1.5
 ---
 {% include restapicourse.html %}
 

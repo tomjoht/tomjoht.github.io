@@ -1,11 +1,11 @@
 ---
 title: Adding documentation for a new endpoint
-permalink: /restapi13/
+permalink: /restapi2_2/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 13
+weight: 2.2
 summary: ""
 ---
 

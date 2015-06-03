@@ -1,11 +1,11 @@
 ---
-title: Analyze the JSON response
-permalink: /restapi8/
+title: More advanced ways to integrate the response
+permalink: /restapi2_0/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 8
+weight: 2.0
 summary: "This is the third topic in REST APIs."
 ---
 

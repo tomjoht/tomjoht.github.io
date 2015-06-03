@@ -1,16 +1,17 @@
 ---
-title: Submitting REST Calls through GUI Clients
-permalink: /restapi7/
+title: Documenting the method
+permalink: /restapi2_5/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 7
-summary: ""
+weight: 2.5
+summary: "This is the third topic in REST APIs."
 ---
 
 {% include restapicourse.html %}
 
+get into data types here
 
 {% include restapicourse_next.html %}
 

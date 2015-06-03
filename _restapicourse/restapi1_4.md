@@ -1,11 +1,11 @@
 ---
 title: Make a cURL call
-permalink: /restapi5/
+permalink: /restapi1_4/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 5
+weight: 1.4
 ---
 {% include restapicourse.html %}
 

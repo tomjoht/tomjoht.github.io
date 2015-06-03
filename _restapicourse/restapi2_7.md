@@ -1,17 +1,17 @@
 ---
-title: Documenting the method
-permalink: /restapi16/
+title: Providing a request example
+permalink: /restapi12_7/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 16
+weight: 2.7
 summary: "This is the third topic in REST APIs."
 ---
 
 {% include restapicourse.html %}
 
-get into data types here
+this is the third topic
 
 {% include restapicourse_next.html %}
 

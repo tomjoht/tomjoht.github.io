@@ -1,11 +1,11 @@
 ---
 title: Creating code examples
-permalink: /restapi20/
+permalink: /restapi2_9/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 20
+weight: 2.9
 summary: 
 ---
 {% include restapicourse.html %} 

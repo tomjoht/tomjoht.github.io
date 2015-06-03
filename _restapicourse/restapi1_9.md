@@ -1,11 +1,11 @@
 ---
-title: More advanced ways to integrate the response
-permalink: /restapi11/
+title: Integrating the response on a web page
+permalink: /restapi1_9/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 11
+weight: 1.9
 summary: "This is the third topic in REST APIs."
 ---
 

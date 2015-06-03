@@ -1,8 +1,8 @@
 ---
 title: "Course: Documenting REST APIs"
-permalink: /restapi1/
+permalink: /restapi1_0/
 course: "Documenting REST APIs"
-weight: 1
+weight: 1.0
 ---
 {% include restapicourse.html %}
 
@@ -37,6 +37,7 @@ This courses focuses entirely on REST API documentation. Other courses will focu
 * Text editor
 * Chrome browser
 * Advanced REST API client extension
+* Postman Chrome extension
 * cURL
 * Network connection
 

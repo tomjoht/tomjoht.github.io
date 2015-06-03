@@ -1,11 +1,11 @@
 ---
-title: Providing a request example
-permalink: /restapi18/
+title: Analyze the JSON response
+permalink: /restapi1_7/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 18
+weight: 1.7
 summary: "This is the third topic in REST APIs."
 ---
 

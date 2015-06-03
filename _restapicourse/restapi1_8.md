@@ -1,11 +1,11 @@
 ---
-title: Documenting the endpoint description and definition
-permalink: /restapi15/
+title: Understanding JSON's structure
+permalink: /restapi1_8/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 15
+weight: 1.8
 summary: "This is the third topic in REST APIs."
 ---
 
