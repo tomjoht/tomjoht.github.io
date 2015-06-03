@@ -18,55 +18,55 @@ weight: 6
 <p>In this <a href="http://idratherbewriting.com/series/jekyll-versus-dita/">ongoing series</a>, I'm comparing tech comm techniques with DITA versus Jekyll, a popular static site generator. How you create links is more than a simple technical detail. Linking is one of the main strategies for connecting and interrelating information.</p>
 <h2>How to create links in DITA</h2>
 <p>In DITA, you have several choices for making links. You can create a cross reference to another topic like this:</p>
-<p>{% highlight xml %}<br />
-&lt;xref href=&quot;sample.dita&quot;/&gt;<br />
+<p>{% highlight xml %}
+<xref href="sample.dita"/>
 {% endhighlight %}</p>
 <p>The name of the topic will be pulled in when you build your output.</p>
 <p>To link to an external web page with an <a href="http://idratherbewriting.com/toc_linking/inline_links/">inline link</a>, you add some attributes that let the build system know the page is an external site:</p>
-<p>{% highlight xml %}<br />
-&lt;xref href=&quot;http://example.org&quot; scope=&quot;external&quot; outputclass=&quot;external&quot; format=&quot;html&quot;&gt;Example.org&lt;/xref&gt;<br />
+<p>{% highlight xml %}
+<xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref>
 {% endhighlight %}</p>
 <p>Another way to create links to internal topics is through key references. You can create a link in your DITA map that stores a key value (<code>keydef</code>), and then use that key value for each of your links, using the <code>keyref</code> attribute. I call these <a href="http://idratherbewriting.com/toc_linking/keyref_links/">keyref-style links</a>. Here's what you might put in your ditamap file for the key:</p>
-<p>{% highlight xml %}<br />
-&lt;keydef href=&quot;argument_acme.dita&quot; keys=&quot;argument&quot; /&gt;<br />
+<p>{% highlight xml %}
+<keydef href="argument_acme.dita" keys="argument" />
 {% endhighlight %}</p>
 <p>Then refer to it in a topic like this:</p>
-<p>{% highlight xml %}<br />
-&lt;xref keyref=&quot;argument&quot;/&gt;<br />
+<p>{% highlight xml %}
+<xref keyref="argument"/>
 {% endhighlight %}</p>
 <p>The advantage of keyref-style links is that if you change the reference in the ditamap, you only have to update the value for the key in one place. You won't need to do a global find and replace to change the value.</p>
 <p>If you want to manually specify <a href="http://idratherbewriting.com/toc_linking/related_links/">related links</a> below a topic, you can add them using <code>related-links</code> element:</p>
-<p>{% highlight xml %}<br />
-&lt;related-links&gt;<br />
-    &lt;link href=&quot;sample1.dita&quot;&gt;&lt;linktext&gt;Sample 1 Page&lt;/linktext&gt;&lt;/link&gt;<br />
-    &lt;link href=&quot;sample2.dita&quot;/&gt;<br />
-    &lt;link href=&quot;sample3.dita&quot;/&gt;<br />
-   &lt;/related-links&gt;<br />
+<p>{% highlight xml %}
+<related-links>
+    <link href="sample1.dita"><linktext>Sample 1 Page</linktext></link>
+    <link href="sample2.dita"/>
+    <link href="sample3.dita"/>
+   </related-links>
 {% endhighlight %}</p>
 <p>Most of the link methods I mentioned don't align with the total extensibility model for DITA. Although you can create links using these methods, really the recommended way of creating links with DITA is through <a href="http://idratherbewriting.com/toc_linking/relationship_tables/">relationship tables</a>.</p>
 <p>A relationship table creates a list of pages that are all related to each other through their placement in the table. Based on the relationships established in the table, links to the other pages appear at the bottom of each page.</p>
 <p>Relationship tables allow you to create different outputs without worrying about whether the pages you link to are included in the output. If the page isn't included in the output, the link simply doesn't appear in the relationship table.</p>
 <p>Here's a sample relationship table that defines link relationships between pages. (You would put this in your ditamap.)</p>
-<p>{% highlight xml %}<br />
-&lt;reltable&gt;<br />
-      &lt;relheader&gt;<br />
-   &lt;relcolspec type=&quot;concept&quot;&gt;<br />
-   &lt;relcolspec type=&quot;task&quot;&gt;<br />
-   &lt;relcolspec type=&quot;reference&quot;&gt;<br />
-&lt;/relheader&gt;<br />
-     &lt;relrow&gt;<br />
-        &lt;relcell&gt;<br />
-          &lt;topicref href=&quot;sample_concept.dita&quot;/&gt;<br />
-        &lt;/relcell&gt;</p>
-<p>        &lt;relcell&gt;<br />
-          &lt;topicref href=&quot;task_example1.dita&quot;/&gt;<br />
-          &lt;topicref href=&quot;task_example2.dita&quot;/&gt;<br />
-        &lt;/relcell&gt;<br />
-        &lt;relcell&gt;<br />
-          &lt;topicref href=&quot;referencefile.dita&quot;/&gt;<br />
-         &lt;/relcell&gt;<br />
-      &lt;/relrow&gt;<br />
-&lt;/reltable&gt;<br />
+<p>{% highlight xml %}
+<reltable>
+      <relheader>
+   <relcolspec type="concept">
+   <relcolspec type="task">
+   <relcolspec type="reference">
+</relheader>
+     <relrow>
+        <relcell>
+          <topicref href="sample_concept.dita"/>
+        </relcell></p>
+<p>        <relcell>
+          <topicref href="task_example1.dita"/>
+          <topicref href="task_example2.dita"/>
+        </relcell>
+        <relcell>
+          <topicref href="referencefile.dita"/>
+         </relcell>
+      </relrow>
+</reltable>
 {% endhighlight %}</p>
 <p>It may make more sense to actually show the table in its display form:</p>
 <table>
@@ -101,76 +101,88 @@ weight: 6
 <p>Regardless of whether you're using HTML or Markdown, in the Jekyll configuration file, you must first specify a <code>url</code> and <code>baseurl</code>. These URLs are where you publish your help site. Jekyll will insert these values into every link when you build the site. (And the site will only render properly on the site configured for the url and baseurl specified in the configuration file.)</p>
 <p>For example, suppose the website where I would publish the site was <code>http://example.com/acmehelp</code>. In this case, <code>http://example.com</code> would be the <code>url</code> and <code>/acmehelp</code> would be the baseurl. Each link needs to have the <code>baseurl</code>, which is used as a variable used in constructing each link.</p>
 <p>Here's a sample link with Markdown:</p>
-<p>{% highlight html %}<br />
-[Sample]({{ &quot;/sample&quot; | prepend: site.baseurl }})<br />
+{% raw %}
+<p>{% highlight html %}
+[Sample]({{ "/sample" | prepend: site.baseurl }})
 {% endhighlight %}</p>
+{% endraw %}
 <p>Alternatively, you can add the URL references like footnotes:</p>
-<p>{% highlight html %}<br />
+{% raw %}
+<p>{% highlight html %}
 [Sample][1]</p>
-<p>&lt;!-- at the bottom of your page, add this --&gt;</p>
-<p>[1]: {{ &quot;/sample&quot; | prepend: site.baseurl }}<br />
+<p><!-- at the bottom of your page, add this --></p>
+<p>[1]: {{ "/sample" | prepend: site.baseurl }}
 {% endhighlight %}</p>
+{% endraw %}
 <p>Here's how you create a link with HTML:</p>
-<p>{% highlight html %}<br />
-&lt;a href=&quot;{{ &quot;/sample&quot; | prepend: site.baseurl }}&quot;&gt;Sample&lt;/a&gt;<br />
+{% raw %}
+<p>{% highlight html %}
+<a href="{{ "/sample" | prepend: site.baseurl }}">Sample</a>
 {% endhighlight %}</p>
+{% endraw %}
 <p>Note that the reference doesn't automatically pull in the page title like DITA does. This is unfortunate. (But there's somewhat of a workaround that I'll show below.)</p>
 <p>If you're linking to an external file, the code is simpler:</p>
-<p>{% highlight html %}<br />
-[Sample](http://sample.com)<br />
+<p>{% highlight html %}
+[Sample](http://sample.com)
 {% endhighlight %}</p>
 <p>And with HTML:</p>
-<p>{% highlight html %}<br />
-&lt;a href=&quot;http://sample.com&quot;&gt;Sample&lt;/a&gt;<br />
+<p>{% highlight html %}
+<a href="http://sample.com">Sample</a>
 {% endhighlight %}</p>
 <p>Suppose you want to create keyref-style references, where you manage all the links in a file that each link points to. You could create a data file called links.yml and put values in it like this:</p>
-<p>{% highlight html %}<br />
-sample:<br />
- title: Sample Page<br />
- url: /sample/<br />
+<p>{% highlight html %}
+sample:
+ title: Sample Page
+ url: /sample/
 {% endhighlight %}</p>
 <p>Then you could reference the link using Markdown syntax like this:</p>
-<p>{% highlight html %}<br />
+{% raw %}
+<p>{% highlight html %}
 [{{site.data.links.sample.title}}][1]. </p>
-<p>[1]: {{site.baseurl}}{{site.data.links.sample.url}}<br />
+<p>[1]: {{site.baseurl}}{{site.data.links.sample.url}}
 {% endhighlight %}</p>
+{% endraw %}
 <p>This is actually the approach I'm using. It's a bit cumbersome, but managing the links and titles in one place helps me avoid broken links.</p>
 <p>There is no relationship-table equivalent for links with Jekyll. Jekyll probably wasn't explicitly designed to support the scenario that DITA was designed for (that is, creating many distinct outputs with some pages included in some but not all outputs).</p>
 <p>However, you can tag pages and then link to those tags. Tags accomplish a somewhat similar result as a relationship table, though tags function and operate a bit differently. If the tagged page isn't included in the output, the page won't appear on the tag-view page -- same as a relationship table. But tags show their list of pages on their own tag-view archive page.</p>
 <p>To add a tag to a page, add it in the frontmatter like this:</p>
-<p>{% highlight html %}<br />
----<br />
-title: Configuration<br />
-permalink: /config/<br />
-tags: configuration<br />
----<br />
+<p>{% highlight html %}
+---
+title: Configuration
+permalink: /config/
+tags: configuration
+---
 {% endhighlight %}</p>
 <p>Then modify your page layout to generate a tag linking to a tag-archive page:</p>
-<p>{% highlight html %}<br />
-{% for tag in page.tags %}<br />
-{% if site.data.tags.allowed-tags contains tag %}<br />
-&lt;a href=&quot;{{site.baseurl}}/tag-{{tag}}&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default navbar-btn&quot;&gt;{{tag}}&lt;/button&gt;&lt;/a&gt;<br />
-{% endif %}<br />
-{% endfor %}<br />
+{% raw %}
+<p>{% highlight html %}
+{% for tag in page.tags %}
+{% if site.data.tags.allowed-tags contains tag %}
+<a href="{{site.baseurl}}/tag-{{tag}}"><button type="button" class="btn btn-default navbar-btn">{{tag}}</button></a>
+{% endif %}
+{% endfor %}
 {% endhighlight %}</p>
+{% endraw %}
 <p>Here I'm using a for loop to iterate through all the tags listed in a page's frontmatter. With each tag, I'm first checking whether the tag is listed in my approved list of tags in my tags.yml data file (I add this to ensure the tags aren't created willy-nilly but actually have some thought and consistency.) Then each tag is added to the page in a Bootstrap button-style format.</p>
 <h2>Related pages</h2>
 <p>You could also use the same tag logic to create a list of related pages based on tags. You could output the related pages list below each page. Here's some code to do that:</p>
-<p>{% highlight html %}<br />
-&lt;ul&gt;<br />
-{% for tag in page.tags %}<br />
-{% assign counter = '0' %}<br />
-{% for page in site.pages %}<br />
-{% if page.tags contains tag and page.title != currentTitle and counter &lt; '5' %}<br />
-{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}<br />
-&lt;li&gt;&lt;a href=&quot;{{ page.permalink + &quot;/index.html&quot; | prepend: site.baseurl }}&quot;&gt;{{page.title}}&lt;/a&gt;&lt;/li&gt;<br />
-{% endif %}<br />
-{% endfor %}<br />
-{% if counter == '0' %}&lt;span class=&quot;noOtherPages&quot;&gt;&lt;p&gt;No other pages.&lt;/p&gt;&lt;/span&gt;<br />
-{% endif %}<br />
-{% endfor %}<br />
-&lt;/ul&gt;<br />
+{% raw %}
+<p>{% highlight html %}
+<ul>
+{% for tag in page.tags %}
+{% assign counter = '0' %}
+{% for page in site.pages %}
+{% if page.tags contains tag and page.title != currentTitle and counter < '5' %}
+{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+<li><a href="{{ page.permalink + "/index.html" | prepend: site.baseurl }}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% if counter == '0' %}<span class="noOtherPages"><p>No other pages.</p></span>
+{% endif %}
+{% endfor %}
+</ul>
 {% endhighlight %}</p>
+{% endraw %}
 <p>This code gets the tags on a page, and then uses a for loop to look through each page in the site. If the page has tags that include the tag on the current page, the page is listed here.</p>
 <p>There's a problem with this logic, though. Suppose page 1 has tags A and B, page 2 has tags A and B, and page 3 has tags and B. When page 1 looks for all other pages that contain tag A, page 2 and page 3 get listed. That's fine. When the same for loop checks for pages containing tag B, page 2 and page 3 <i>also</i> get listed. In other words, I have to include logic to to remove duplicates.</p>
 <p>I'm not quite sure how to do that yet, though I'm guessing that a solution exists. Part of why I like Jekyll, though, is because I can piece together the logic I want. There are probably a dozen different approaches I could use for related pages.</p>
