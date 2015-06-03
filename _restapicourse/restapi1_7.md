@@ -20,6 +20,7 @@ Let's look at the JSON response for the weatherdata call in more depth. The mini
 
 It's not very readable (by humans), so we can use a [JSON formatter tool](http://jsonformatter.curiousconcept.com/) to "prettify" it:
 
+{% raw %}
 ```
 {  
    "query":{  
@@ -132,6 +133,7 @@ It's not very readable (by humans), so we can use a [JSON formatter tool](http:/
    }
 }
 ```
+{% endraw %}
 
 ## What is JSON
 
