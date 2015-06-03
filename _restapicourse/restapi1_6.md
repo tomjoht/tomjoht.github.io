@@ -1,5 +1,5 @@
 ---
-title: Submitting REST Calls through GUI Clients
+title: 1.6 Submitting REST Calls through Postman
 permalink: /restapi1_6/
 categories:
 - api-doc
@@ -7,7 +7,7 @@ keywords:
 course: "Documenting REST APIs"
 weight: 1.6
 ---
-
+{% include notes.html %}
 {% include restapicourse.html %}
 
 ## GUI clients
@@ -24,32 +24,58 @@ Some popular GUI clients include the following:
 
 * Postman (Chrome app)
 * Advanced REST Client (Chrome browser extension)
-* Paw (Mac)
-
-Paw is probably the most functional and elegant of the three, but it also costs $30.
+* Paw (Mac, $30)
 
 ## Make a call in Postman
 
-1. If you haven't already, download the [Postman app for Chrome](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
-2. Copy the cURL call you used for the weather forecast.
-2. In Postman, click **Import**.
-3. Click **Paste raw text**.
-4. Paste the cURL call, and then click **Import**.
-	
-	The cURL call will be imported into Postman in the right way. It should look like this:
+1. If you haven't already done so, download the [Postman app for Chrome](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
+2. Copy the components of the cURL call into the appropriate places into Postman. It should look like this:
 	
 	<img src="{{ "/images/restapicourse/postmansample.png" | prepend: site.baseurl }}" alt="Postman request" />
 	
-	Take a look at how the authorization headers are formatted. The endpoint is inserted into the main text box, with the GET method selected. 
-5. Click **Send**.
-	The response appears.
-	<img src="{{ "/images/restapicourse/postmanresponse.png" | prepend: site.baseurl }}" alt="Postman response" />
+	<ul>
+	<li>Select <b>GET</b> for the method.</li>
+	<li>Insert the endpoint URL (with the query string parameters) into the field next to GET.</li>
+	<li>Expand the <b>Headers</b> section and insert the key value pairs (without quotation marks).</li>
+	</ul>
 
-You can toggle the response to Pretty, Raw, or Preview. The Pretty view expands the minified JSON into more readable code. 
+5. Click **Send**.
+	The response appears. In this case, the response is text only. 
+	
+	<img src="{{ "/images/restapicourse/postmanresponse.png" | prepend: site.baseurl }}" alt="Postman response" />
+	
+	Usually the responses are more detailed JSON. Notice that the header set the `Accept` type as `text/plain`. 
+	
+## Save the call
+1. In Postman, click the **Save** button (the floppy disk next to Send). 
+2. Create a new collection (e.g., weather). 
+3. Type a name for the reqeust (e.g., aqi).
+4. At the bottom of the dialog box, click **Add to Collection.**
+
+Saved endpoints appear in the left column under Collections.
+
+## Enter details for the other endpoints
+
+Enter details into Postman for the other two endpoints:
+
+* weather
+* weatherdata
+
+When you save these other endpoints, click the arrow next to Save and choose **Save as**. Otherwise you'll overwrite the settings of the existing call.
+
+<img src="{{ "/images/restapicourse/postmansaveas.png" | prepend: site.baseurl }}" alt="Save as" />
+
+## Toggle the format of the weatherdata response
+
+The first two responses include text only. The weatherdata endpoint response is in JSON format. 
+
+In Postman, run the weatherdata call. Then toggle the options to **Pretty** and **JSON**.
+
+<img src="{{ "/images/restapicourse/postmanjsonresponse.png" | prepend: site.baseurl }}" alt="" />
+
+The Pretty JSOn view expands the JSON response into more readable code. 
 
 {{tip}} To "prettify" content means to un-minify it and format it with white space that is readable. {{end}}
-
-You can save your calls by clicking the **Save** button.
 
 ## Paw
 

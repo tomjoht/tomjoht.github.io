@@ -1,5 +1,5 @@
 ---
-title: Using a REST API
+title: 1.2 Using a REST API
 permalink: /restapi1_2/
 categories:
 - api-doc
@@ -8,13 +8,19 @@ course: "Documenting REST APIs"
 weight: 1.2
 summary: "This is the third topic in REST APIs."
 ---
-
+{% include notes.html %}
 {% include restapicourse.html %}
 
 ## What is an API
-An API provides an interface between two systems. Consider the example of your computer's calculator. When you press buttons, functions underneath are interacting with other systems to get information. Once the information is returned, the calculator presents the data back to the GUI.
+An API provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
 
-APIs often work in similar ways. But instead of interacting within the same calculator system, those functions call remote services to get their information. REST APIs make the calls using web protocols -- similar to how addresses you type in a browser return a web page. 
+<a href="http://bit.ly/1DexWM0"><img src="{{ "/images/spinning_gears.png" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
+
+## Example
+
+Consider the example of your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
+
+APIs often work in similar ways. But instead of interacting within the same system, those functions call remote services to get their information. REST APIs make the calls using web protocols -- similar to how addresses you type in a browser return a web page. 
 
 ## Sample scenario
 
@@ -40,7 +46,7 @@ As you explore the various APIs, get a sense of the variety and services that AP
 
 Look for an API called "Ultimate Weather Forecast." Although there are many weather APIs, this one seems to have the most reviews and is free.
 
-<a href="https://www.mashape.com/george-vustrey/ultimate-weather-forecasts"><img src="{{ "/images/restapicourse/mashape_ultimate_weather_forecast.png" | prepend: site.baseurl }}" alt="Mashape Ultimate Weather Forecast" /></a>
+<a href="https://www.mashape.com/fyhao/weather-13"><img src="{{ "/images/restapicourse/weatherapi_mashape.png" | prepend: site.baseurl }}" alt="Weather API on Mashape" /></a>
 
 Spend a little time exploring and getting to know the features and information this weather API provides. Click **Test Endpoint** and see what kind of information comes back.
 
@@ -50,7 +56,8 @@ Answer these basic questions about this weather forecast API:
 
 * What does the API do?
 * How many endpoints does the API have?
-* What kind of parameters does it take?
+* What does each endpoint do?
+* What kind of parameters does each endpoint take?
 * What kind of response does the endpoint provide?
 
 These are common questions developers want to know about an API.

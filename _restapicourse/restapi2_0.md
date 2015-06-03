@@ -1,5 +1,5 @@
 ---
-title: More advanced ways to integrate the response
+title: 2.0 More advanced ways to integrate the response
 permalink: /restapi2_0/
 categories:
 - api-doc
@@ -8,7 +8,7 @@ course: "Documenting REST APIs"
 weight: 2.0
 summary: "This is the third topic in REST APIs."
 ---
-
+{% include notes.html %}
 {% include restapicourse.html %}
 
 this is the third topic

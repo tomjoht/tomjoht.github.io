@@ -1,5 +1,5 @@
 ---
-title: Documenting the method
+title: 2.5 Documenting the method
 permalink: /restapi2_5/
 categories:
 - api-doc
@@ -8,7 +8,7 @@ course: "Documenting REST APIs"
 weight: 2.5
 summary: "This is the third topic in REST APIs."
 ---
-
+{% include notes.html %}
 {% include restapicourse.html %}
 
 get into data types here

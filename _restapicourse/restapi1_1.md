@@ -1,5 +1,5 @@
 ---
-title: Introduction to REST API documentation
+title: 1.1 Introduction to REST API documentation
 permalink: /restapi1_1/
 categories:
 - api-doc
@@ -8,6 +8,7 @@ course: "Documenting REST APIs"
 weight: 1.1
 summary: ""
 ---
+{% include notes.html %}
 {% include restapicourse.html %}
 
 ## Complete and accurate docs are most important factor in APIs

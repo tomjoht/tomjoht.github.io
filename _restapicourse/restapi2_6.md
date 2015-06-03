@@ -1,5 +1,5 @@
 ---
-title: Documenting the parameters
+title: 2.6 Documenting the parameters
 permalink: /restapi2_6/
 categories:
 - api-doc
@@ -8,7 +8,7 @@ course: "Documenting REST APIs"
 weight: 2.6
 summary: "This is the third topic in REST APIs."
 ---
-
+{% include notes.html %}
 {% include restapicourse.html %}
 
 this is the third topic

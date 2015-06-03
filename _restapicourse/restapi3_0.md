@@ -1,5 +1,5 @@
 ---
-title: Conclusion
+title: 3.0 Conclusion
 permalink: /restapi3_0/
 categories:
 - api-doc
@@ -8,6 +8,7 @@ course: "Documenting REST APIs"
 weight: 3.0
 summary: 
 ---
+{% include notes.html %}
 {% include restapicourse.html %} 
 
 

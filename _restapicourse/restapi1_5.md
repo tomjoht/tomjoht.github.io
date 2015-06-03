@@ -1,5 +1,5 @@
 ---
-title: Understand cURL more
+title: 1.5 Understand cURL more
 permalink: /restapi1_5/
 categories:
 - api-doc
@@ -8,6 +8,7 @@ course: "Documenting REST APIs"
 weight: 1.5
 ---
 {% include restapicourse.html %}
+{% include notes.html %}
 
 ## Why cURL
 
@@ -17,17 +18,26 @@ One of the advantages of REST APIs is that you can use almost any programming la
 
 Each programming language has a different way of making web calls. Rather than exhausting your energies trying to show how to make web calls in Java, Python, C++, JavaScript, Ruby, and so on, you can just show the call using cURL. 
  
-cURL provides a generic, language agnostic way to demonstrate HTTP requests and responses. Users can see the format of the request, including any headers and other parameters. Your users can translate this into the specific format for the language they're using. cURL also shows the response. This is the core information people need to know to interact with your API.
+cURL provides a generic, language agnostic way to demonstrate HTTP requests and responses. Users can see the format of the request, including any headers and other parameters. Your users can translate this into the specific format for the language they're using. 
 
-Almost every API shows how to interact with the API using cURL.
+*Almost every API shows how to interact with the API using cURL.*
 
 ## REST APIs and the web
 
-One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response into something that you can see. 
+One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response a more visual display. But you can also see the raw code. 
+
+## GET this page
+
+To see an example of how cURL retrieves a web resource, open a terminal and type the following:
+
+```
+curl http://idratherbewriting.com/restapi1_5/
+```
+You should see all the code behind this page. The browser's job is to make that code visually readable.
 
 ## Stuff you don't see
 
-When you type an address into a website, such as http://twitter.com, you only see the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. 
+When you type an address into a website, you only see the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. 
 
 ## Looking behind the scenes of a web request
 
@@ -58,9 +68,9 @@ Now let's move away from the browser and start using cURL for our HTTP requests.
 cURL has shorthand names for the various options you include with your request. Let's look more closely at the request you submitted for the weather:
 
 ```
-curl --get --include 'https://george-vustrey-weather.p.mashape.com/api.php?location=Santa+Clara' \
-  -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' \
-  -H 'Accept: application/json'
+  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \
+  -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
+  -H 'Accept: text/plain'
 ```
 The `\` just means to start a new line. 
 
@@ -68,11 +78,17 @@ Here's what the additional commands mean:
 
 | cURL command | Description |
 |---------|---------|
-| `--get` | HTTP method to use. Also represented by `-X GET`. |
+| `--get` | The HTTP method to use. Also represented by `-X GET`. |
 | `--include` | Show the response headers in the request. Also represented by `-i`. |
 | `-H` | Submit custom header. Include an additional `-H` for each header you're submitting. Also represented by `--header`. |
 
-A parameter was passed to the endpoint using a "query string." The `?` appended to the URL is the query string where the parameters are passed to the endpoint.
+## Query strings
+
+The latitude and longitude parameters were passed to the endpoint using "query strings." The `?` appended to the URL is the query string where the parameters are passed to the endpoint.
+
+```
+?lat=37.354108&lng=-121.955236
+```
 
 ## Common cURL commands
 
@@ -103,7 +119,7 @@ curl -i \
      http://personsreport.com?status \
 ```
 
-This header instructs the server to process the post body as JSON. The content `person:`123` is used to create something.
+This header instructs the server to process the post body as JSON. The content `person:123` is used to create something.
  
 ## Activities
 
@@ -116,10 +132,7 @@ Take the following quiz to see how much you remember.
 
 ## More Resources
 
-Here are some more resources for learning cURL: 
-
-* [9 uses for cURL worth knowing](http://httpkit.com/resources/HTTP-from-the-Command-Line/) 
-* [REST-esting with cURL](http://blogs.plexibus.com/2009/01/15/rest-esting-with-curl/).
+To learn more about cURL with REST documentation, see [REST-esting with cURL](http://blogs.plexibus.com/2009/01/15/rest-esting-with-curl/).
 
 {{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install via the command line that <i>just work</i> on a Mac. You won't constantly be needing to add things "to your path". {{end}}
 

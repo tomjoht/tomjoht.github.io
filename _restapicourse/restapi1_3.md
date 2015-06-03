@@ -1,5 +1,5 @@
 ---
-title: Getting the authorization keys
+title: 1.3 Getting the authorization keys
 permalink: /restapi1_3/
 categories:
 - api-doc
@@ -7,15 +7,16 @@ keywords:
 course: "Documenting REST APIs"
 weight: 1.3
 ---
+{% include notes.html %}
 {% include restapicourse.html %}
 
 ## Authorization for making API calls
 
-Almost every API has a method in place to authenticate requests. You usually have to provide your API key in requests in order to get a response. Authorization provides several goals:
+Almost every API has a method in place to authenticate requests. You usually have to provide your API key in requests in order to get a response. Authorization allows API publishers to do the following:
 
-* Allows API publishers to license access to the API
-* Allows API publishers to rate limit the number of requests
-* Allows API publishers to control availability of certain features within the API
+* License access to the API
+* Rate limit the number of requests
+* Control availability of certain features within the API
 
 {{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you must cover in API documentation.{{end}}
 
@@ -26,7 +27,7 @@ In order to get the authorization keys to use the Mashape API, you'll need to si
 1. On [http://mashape.com](Mashape.com), click **Sign Up Free** in the upper-right corner and create an account.
 2. Click **Applications** on the top navigation bar, and then click **Get the Keys**.
 	
-<img src="{{ "/images/restapicourse/mashape_get_keys.png" | prepend: site.baseurl }}" alt="Mashape -- getting the keys" />
+	<img src="{{ "/images/restapicourse/mashape_get_keys.png" | prepend: site.baseurl }}" alt="Mashape -- getting the keys" />
 	
 3. When the Environment Keys dialog appears, click **Copy** to copy the keys. (Whether you choose Testing or Production doesn't matter.)
 4. Open up a text editor and paste the key.

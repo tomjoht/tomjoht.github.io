@@ -1,5 +1,5 @@
 ---
-title: Providing a response body
+title: 2.8 Providing a response body
 permalink: /restapi2_8/
 categories:
 - api-doc
@@ -8,7 +8,7 @@ course: "Documenting REST APIs"
 weight: 2.8
 summary: "This is the third topic in REST APIs."
 ---
-
+{% include notes.html %}
 {% include restapicourse.html %}
 
 this is the third topic
