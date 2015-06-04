@@ -29,7 +29,7 @@ In order to get the authorization keys to use the Mashape API, you'll need to si
 	
 	<img src="{{ "/images/restapicourse/mashape_get_keys.png" | prepend: site.baseurl }}" alt="Mashape -- getting the keys" />
 	
-3. When the Environment Keys dialog appears, click **Copy** to copy the keys. (Whether you choose Testing or Production doesn't matter.)
+3. When the Environment Keys dialog appears, click **Copy** to copy the keys. (Choose the Testing keys, since this type allows you to make unlimited requests.)
 4. Open up a text editor and paste the key.
 
 ## Text editor tips

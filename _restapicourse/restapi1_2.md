@@ -6,7 +6,6 @@ categories:
 keywords: 
 course: "Documenting REST APIs"
 weight: 1.2
-summary: "This is the third topic in REST APIs."
 ---
 {% include notes.html %}
 {% include restapicourse.html %}
