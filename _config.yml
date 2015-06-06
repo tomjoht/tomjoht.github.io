@@ -67,6 +67,14 @@ defaults:
       comments: true
       search: true
 
+  -
+    scope:
+      path: ""
+      type: "publishingapidocs"
+    values:
+      layout: "page"
+      comments: true
+      search: true
 sass:
     sass_dir: _sass
 

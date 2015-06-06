@@ -12,7 +12,7 @@ weight: 2.0
 
 ## Shifting perspectives
 
-Until this point, you've been acting as a developer with the task of integrating the weather forecast into your site. This was to help you understand the type of information developers need, and how they use APIs.
+Until this point, you've been acting as a developer with the task of integrating the weather forecast into your site. The point was to help you understand the type of information developers need, and how they use APIs.
 
 Now let's shift perspectives. Now you're now a technical writer working with the weather API team. They're asking you to document a new endpoint. 
 
@@ -34,13 +34,13 @@ Parameters accepted:
 * beach name
 * number of days
 
-You can also add a zip code (`zip`) to find the beach code instead using our beachcode lookup. And you can specify the number of days with &days=. 
+You can also add a zip code (`zip`) to find the beach code instead using our beach name. And you can specify the number of days as an integer.
 
 The response will include the surf height, the wind, temp, the tide, and overall recommendation.
 
 Each of the days has conditions listed out by hour. The default response is 7 days.
 
-Sample: 
+Sample endpoint with parameters: 
 
 ```
 https://simple-weather.p.mashape.com/surfreport?beach=Santa+Cruz&days=3
@@ -52,8 +52,12 @@ surfreport:
  - surfheight (time: feet)
  - wind (time: kts)
  - tide (time: feet)
- - water temperature (F degrees)
- - recommendation - string. let's user know overall recommendation. This is based on algorithm that takes optimal surfing conditions, scores them in a rubric, and then selects a go, no-go, or maybe response.
+ - water temperature (time: F degrees)
+ - recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity.". 
+ 
+ The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and one of three responses.
+ 
+ Sample format:
  
 ```
 {
@@ -73,7 +77,7 @@ surfreport:
                     "wind": 1,
                     "watertemp": 50,
                     "surfheight": 3,
-                    "recommendation": "Surfing sucks now!"
+                    "recommendation": "Surfing conditions okay, not great"
                 }
             }
         }
@@ -99,8 +103,8 @@ If the query is malformed, you get error code 400 and an indication of the error
 In the next topics, you'll work on sorting this information out into eight common sections in REST API documentation: 
 
 * Resource description
-* Endpoint definition
-* Method
+* Endpoint
+* Methods
 * Parameters
 * Request submission example
 * Request response example
@@ -111,7 +115,7 @@ Open up a new text file and create sections for each of these elements.
 
 Each of your endpoints should follow this same pattern and structure. A common template helps increase consistency and familiarity/predictability with how users consume the information.
 
-{{note}} Although there are automated ways to publish API docs, we're focusing on content rather than tools in this course. For the sake of simplicity, try just using a text editor.{{end}}
+{{note}} Although there are automated ways to publish API docs, we're focusing on content rather than tools in this course. For the sake of simplicity, try just using a text editor with Markdown syntax.{{end}}
 
 {% include restapicourse_next.html %}
 
