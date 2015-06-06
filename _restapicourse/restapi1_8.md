@@ -1,6 +1,6 @@
 ---
 title: 1. 8 Log the JSON response to the console
-permalink: /restapi1_8/
+permalink: /restapicourse1-8/
 categories:
 - api-doc
 keywords: 

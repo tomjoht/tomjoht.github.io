@@ -1,6 +1,6 @@
 ---
 title: 1.3 Getting the authorization keys
-permalink: /restapi1_3/
+permalink: /restapicourse1-3/
 categories:
 - api-doc
 keywords: 

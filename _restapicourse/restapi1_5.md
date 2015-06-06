@@ -1,6 +1,6 @@
 ---
 title: 1.5 Understand cURL more
-permalink: /restapi1_5/
+permalink: /restapicourse1-5/
 categories:
 - api-doc
 keywords: 

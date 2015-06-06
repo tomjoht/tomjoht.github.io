@@ -1,6 +1,6 @@
 ---
 title: 1.1 Introduction to REST API documentation
-permalink: /restapi1_1/
+permalink: /restapicourse1-1/
 categories:
 - api-doc
 keywords: 

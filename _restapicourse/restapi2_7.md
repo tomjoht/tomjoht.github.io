@@ -1,6 +1,6 @@
 ---
 title: 2.7 Providing a request example
-permalink: /restapi12_7/
+permalink: /restapicourse2-7/
 categories:
 - api-doc
 keywords: 

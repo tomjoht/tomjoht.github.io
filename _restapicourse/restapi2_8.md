@@ -1,6 +1,6 @@
 ---
 title: 2.8 Providing a response body
-permalink: /restapi2_8/
+permalink: /restapicourse2-8/
 categories:
 - api-doc
 keywords: 

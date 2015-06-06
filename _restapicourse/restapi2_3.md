@@ -1,6 +1,6 @@
 ---
 title: 2.3 Extract information from a wiki page
-permalink: /restapi2_3/
+permalink: /restapicourse2-3/
 categories:
 - api-doc
 keywords: 

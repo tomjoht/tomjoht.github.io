@@ -1,6 +1,6 @@
 ---
 title: 1.7 Analyze the JSON response
-permalink: /restapi1_7/
+permalink: /restapicourse1-7/
 categories:
 - api-doc
 keywords: 

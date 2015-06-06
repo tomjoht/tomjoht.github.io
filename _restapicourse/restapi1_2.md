@@ -1,6 +1,6 @@
 ---
 title: 1.2 Using a REST API
-permalink: /restapi1_2/
+permalink: /restapicourse1-2/
 categories:
 - api-doc
 keywords: 
@@ -13,7 +13,7 @@ weight: 1.2
 ## What is an API
 An API provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
 
-<a href="http://bit.ly/1DexWM0"><img src="{{ "/images/spinning_gears.png" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
+<a href="http://bit.ly/1DexWM0"><img src="{{ "/images/restapicourse/spinning_gears.png" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
 
 ## Example
 

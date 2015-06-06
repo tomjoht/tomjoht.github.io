@@ -1,6 +1,6 @@
 ---
 title: 2.4 Documenting the endpoint description and definition
-permalink: /restapi2_4/
+permalink: /restapicourse2-4/
 categories:
 - api-doc
 keywords: 

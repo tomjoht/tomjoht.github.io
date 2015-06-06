@@ -1,6 +1,6 @@
 ---
 title: 1.4 Make a cURL call
-permalink: /restapi1_4/
+permalink: /restapi1course1-4/
 categories:
 - api-doc
 keywords: 
@@ -38,7 +38,7 @@ You can also find coordinates for a location using [mapcoordinates.net](http://w
 
 You should see something like this:
 
-<img src="{{ "/images/restapicourse/aqi_weather_response.png" | prepend: site.baseurl }}" alt="cURL call" />
+<img src="{{ "/images/restapicourse/aqi_curl_response.png" | prepend: site.baseurl }}" alt="cURL call" />
 
 The response is just a single number: the air quality index for the location specified. 
 

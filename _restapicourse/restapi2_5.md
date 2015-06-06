@@ -1,6 +1,6 @@
 ---
 title: 2.5 Documenting the method
-permalink: /restapi2_5/
+permalink: /restapicourse2-5/
 categories:
 - api-doc
 keywords: 

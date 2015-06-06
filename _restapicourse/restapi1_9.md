@@ -1,6 +1,6 @@
 ---
-title: 1.9 Pull out values from the JSON
-permalink: /restapi1_9/
+title: 1.9 Access the values from the JSON
+permalink: /restapicourse1-9/
 categories:
 - api-doc
 keywords: 
@@ -110,10 +110,10 @@ Try to display the following:
 
 ## Answers
 
-john.eyes
-john.shoes.brand
-john.favcolors[1]
-john.children[0].child1
+* john.eyes
+* john.shoes.brand
+* john.favcolors[1]
+* john.children[0].child1
 
 ## Accessing the description
 

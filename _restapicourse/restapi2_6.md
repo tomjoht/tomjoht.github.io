@@ -1,6 +1,6 @@
 ---
 title: 2.6 Documenting the parameters
-permalink: /restapi2_6/
+permalink: /restapicourse2-6/
 categories:
 - api-doc
 keywords: 

@@ -1,6 +1,6 @@
 ---
 title: "1.0 Course: Documenting REST APIs"
-permalink: /restapi1_0/
+permalink: /restapicourse/
 course: "Documenting REST APIs"
 weight: 1.0
 ---
@@ -22,7 +22,7 @@ As you use the API, you learn about cURL, JSON, endpoints, parameters, data type
 
 After you use the API as a developer might, you then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
 
-{{note}} This courses focuses entirely on REST API documentation (also referred to as web APIs). Other courses will focus on platform APIs (such as for Java).
+{{note}} This courses focuses entirely on REST API documentation (also referred to as web APIs). Other courses will focus on platform APIs (such as for Java).{{end}}
 
 ## What you'll need
 

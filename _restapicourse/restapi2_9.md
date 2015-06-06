@@ -1,6 +1,6 @@
 ---
 title: 2.9 Creating code examples
-permalink: /restapi2_9/
+permalink: /restapicourse2-9/
 categories:
 - api-doc
 keywords: 

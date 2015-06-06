@@ -1,6 +1,6 @@
 ---
 title: 3.0 Conclusion
-permalink: /restapi3_0/
+permalink: /restapicourse3-0/
 categories:
 - api-doc
 keywords: 

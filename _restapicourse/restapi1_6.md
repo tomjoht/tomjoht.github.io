@@ -1,6 +1,6 @@
 ---
 title: 1.6 Submit REST Calls through Postman
-permalink: /restapi1_6/
+permalink: /restapicourse1-6/
 categories:
 - api-doc
 keywords: 
