@@ -38,7 +38,7 @@ Why does the look and feel of the documentation matter so much? With API documen
 
 Here's what the Dropbox API looks like: 
 
-<a href="https://www.dropbox.com/developers/sync/start/android"><img src="{{ "/images/restapicourse/dropbox_clean.png" | prepend: site.baseurl }}" alt="Dropbox API" />
+<a href="https://www.dropbox.com/developers/sync/start/android"><img src="{{ "/images/restapicourse/dropbox_clean.png" | prepend: site.baseurl }}" alt="Dropbox API" /></a>
 
 It's not a sophisticated design. But its simplicity and brevity is one of its strengths.
 
