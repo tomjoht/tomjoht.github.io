@@ -1,5 +1,5 @@
 ---
-title: 3.0 Common tasks
+title: 3.0 Common design patterns with APIs
 permalink: /restapicourse3-0/
 categories:
 - api-doc
@@ -11,8 +11,4 @@ summary:
 {% include notes.html %}
 {% include restapicourse.html %} 
 
-
 {% include restapicourse_next.html %}
-
-
-

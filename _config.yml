@@ -31,6 +31,8 @@ exclude:
 collections:
   restapicourse:
     output: true
+  publishingapidocs:
+    output: true
 
 # these are defaults that get applied to each page or post's frontmatter. leave as is.
 permalink: /:year/:month/:day/:title/

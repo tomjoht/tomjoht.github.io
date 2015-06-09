@@ -1,19 +1,21 @@
 ---
-title: 2.8 Providing a response body
+title: 2.8 User guides versus reference docs
 permalink: /restapicourse2-8/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
 weight: 2.8
-summary: "This is the third topic in REST APIs."
----
+
+
+Other sections you need in your documentation:
+
+- overview
+- authentication, access keys
+- rate limits
+- sdk documentation
+- base URI
+
 {% include notes.html %}
 {% include restapicourse.html %}
-
-this is the third topic
-
-{% include restapicourse_next.html %}
-
-
 

@@ -49,6 +49,6 @@ cURL is essential for making requests to endpoints from the command line.  If yo
 ### Windows
 If you're on Windows, cURL is harder to install. Follow the instructions here to install cURL. Then follow the instructions here to install libcurl, which you need to make requests to https resources.
 
-
+See the "Getting Curl" section here: http://www.cantoni.org/2012/01/10/curl-cheat-sheet.
 
 {% include restapicourse_next.html %}

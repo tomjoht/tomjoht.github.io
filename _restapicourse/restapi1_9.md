@@ -146,4 +146,10 @@ Answer: data.query.results.channel.wind.speed
 {% include restapicourse_next.html %}
 
 
+## Bonus: Iterate through a list
+
+for (i = 0; i < myJSONResult.results.length; i++) {
+  myAddress[i] = myJSONResult.results[i].formatted_address;
+}
+
 

@@ -16,10 +16,9 @@ With the authorization keys retrieved, you're ready to make a call to the REST A
 
 1. Go back into the [Weather API](https://www.mashape.com/fyhao/weather-13).
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
-	
+
 	```
-curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' \
-  -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' \
+curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' \-H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' \
   -H 'Accept: text/plain'
 	```
 3. Swap in your own API key.
@@ -36,11 +35,18 @@ You can also find coordinates for a location using [mapcoordinates.net](http://w
 1. Open a terminal. Press **Cmd + spacebar** and type either **iTerm** or **Terminal**. (Either works for making command line operations, but choose iTerm if you have it available, since it's more functional.)
 2. Paste the call you have in your text editor into the command line, and press your **Return** key.
 
-You should see something like this:
+My call looks like this:
+
+```
+  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
+  -H 'Accept: text/plain'
+```
+
+You should see something like this as a response:
 
 <img src="{{ "/images/restapicourse/aqi_curl_response.png" | prepend: site.baseurl }}" alt="cURL call" />
 
-The response is just a single number: the air quality index for the location specified. 
+The response is just a single number: the air quality index for the location specified. This response is just text, but most of the time responses are in JSON.
 
 Congratulations, you just made a call to a REST API endpoit to retrieve the weather forecast.
 
@@ -52,7 +58,6 @@ Congratulations, you just made a call to a REST API endpoit to retrieve the weat
 2. Copy and paste your cURL call into the terminal. (Right-click and select **Paste** to insert the copied text on your clipboard.)
 
 You should see something like this:
-
 
 
 {% include restapicourse_next.html %}
