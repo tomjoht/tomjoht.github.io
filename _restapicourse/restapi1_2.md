@@ -35,7 +35,20 @@ You don't have your own meteorological service, so you're going to need to make 
 
 To give you an idea of the end goal, let's say I have a biking site. I want to drive traffic to my site by providing a button that answers the question "How windy is it?"
 
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Mashape Query</title>
+  <style>
+   #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
+  </style>
   <script>
+
   function checkWind() { 
 
  var output = $.ajax({
@@ -48,9 +61,12 @@ To give you an idea of the end goal, let's say I have a biking site. I want to d
         //Change data.source to data.something , where something is whichever part of the object you want returned.
         //To see the whole object you can output it to your browser console using:
         console.log(data);
-        document.getElementById("wind_chill").innerHTML = data.query.results.channel.wind.chill; 
-        document.getElementById("wind_direction").innerHTML = data.query.results.channel.wind.direction; 
-        document.getElementById("wind_speed").innerHTML = data.query.results.channel.wind.speed; 
+        $("#wind_speed").append (data.query.results.channel.wind.speed);
+        $("#wind_direction").append (data.query.results.channel.wind.direction);
+        $("#wind_chill").append (data.query.results.channel.wind.chill);
+        $("#temperature").append (data.query.results.channel.units.temperature);
+        $("#speed").append (data.query.results.channel.units.speed);
+        $(".units").show();
         },
     error: function(err) { alert(err); },
     beforeSend: function(xhr) {
@@ -59,18 +75,26 @@ To give you an idea of the end goal, let's say I have a biking site. I want to d
 });
   
 }
- 
 </script>
+</head>
+<body>
+ 
+<button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
 
-  <button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
+<h2>Wind conditions for Santa Clara</h2>
 
-  <h2>Wind conditions for Santa Clara</h2>
+<b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span></br>
+<b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
+<b>Wind direction: </b><span id="wind_direction"></span>
 
-  <b>Wind chill: </b><span id="wind_chill"></span></br>
-  <b>Wind speed: </b><span id="wind_speed"></span></br>
-  <b>Wind direction: </b><span id="wind_direction"></span></br>
+</body>
+</html>
 
 I'm obviously not a weather meteorologist, so when you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
+
+You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>.
+
+Of course, the above example is extremely simple. You could also build an attractive interface [like this](https://weather.yahoo.com/united-states/california/santa-clara-2488836/).
 
 ## Find the right API
 
@@ -109,6 +133,3 @@ These are common questions developers want to know about an API.
 Sometimes people use API to refer to a whole collection of endpoints, functions, or classes. Other times they use API to refer to a single endpoint. For example, a developer might say, "We need you to document a new API." They mean they added a new endpoint or class to the API, not that they launched an entirely new API service.
 
 {% include restapicourse_next.html %}
-
-
-

@@ -31,9 +31,10 @@ Read through the wiki page to get a sense of the information. The upcoming topic
 The new endpoint is /surfreport/{beachID}. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachID}` is retrieved from a list of beaches on our site.
 
 Optional parameters: 
-* number of days. Max is 7. Default is 3. Optional.
-* units. imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.
-* time. time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch, UTC. This is the miliseconds since 1970. Time zone is GMT or UTC. Optional.
+
+* number of days: Max is 7. Default is 3. Optional.
+* units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.
+* time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch, UTC. This is the miliseconds since 1970. Time zone is GMT or UTC. Optional.
 
 If you include the hour, then you only get back the surf condition for the hour you specified. Otherwise you get back 3 days, with conditions listed out by hour for each day. 
 
@@ -48,15 +49,16 @@ https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1
 The response contains these elements:
 
 surfreport: 
- - surfheight (time: feet)
- - wind (time: kts)
- - tide (time: feet)
- - water temperature (time: F degrees)
- - recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity.". 
+
+* surfheight (time: feet)
+* wind (time: kts)
+* tide (time: feet)
+* water temperature (time: F degrees)
+* recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity."
  
- The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and includes one of three responses.
+The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and includes one of three responses.
  
- Sample format:
+Sample format:
  
 ```
 {
