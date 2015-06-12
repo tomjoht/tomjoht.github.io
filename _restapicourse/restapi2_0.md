@@ -28,7 +28,7 @@ Read through the wiki page to get a sense of the information. The upcoming topic
 
 ## The wiki page: "Surf Report API"
 
-The new endpoint is /surfreport/{BeachID}. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{BeachID}` is retrieved from a list of beaches on our site.
+The new endpoint is /surfreport/{beachID}. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachID}` is retrieved from a list of beaches on our site.
 
 Optional parameters: 
 * number of days. Max is 7. Default is 3. Optional.
@@ -64,20 +64,21 @@ surfreport:
         {
             "beach": "Santa Cruz",
             "monday": {
-                "1": {
+                "1pm": {
                     "tide": 5,
                     "wind": 15,
                     "watertemp": 60,
                     "surfheight": 5,
                     "recommendation": "Go surfing!"
                 },
-                "2": {
+                "2pm": {
                     "tide": -1,
                     "wind": 1,
                     "watertemp": 50,
                     "surfheight": 3,
                     "recommendation": "Surfing conditions are okay, not great"
                 }
+                // ...  the other hours of the day are truncated here.
             }
         }
     ]

@@ -77,8 +77,8 @@ summary: ""
 * [Pingdom API](https://www.pingdom.com/resources/api)
 * [Daily Mile API](http://www.dailymile.com/api/documentation#streams)
 * [Jive](https://developers.jivesoftware.com/api/v3/cloud/rest/)
-* []()
-* []()
-* []()
+* [IBM Watson (uses Swagger)](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/)
+* [HipChat API](https://www.hipchat.com/docs/apiv2)
+* [Stores API](https://developer.bigcommerce.com/api/)
 * []()
 

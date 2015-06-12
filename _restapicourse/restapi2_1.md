@@ -1,5 +1,5 @@
 ---
-title: 2.1 Documenting the resource description for a REST API
+title: 2.1 Documenting the resource description in REST APIs
 permalink: /restapicourse2-1/
 categories:
 - api-doc
@@ -146,12 +146,10 @@ Surfreport
 
 After drafting the outline, I craft the sentences:
 
-```
-surfreport/{BeachID}
-Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing. 
-
-{BeachID} refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.
-```
+>surfreport/{beachID}
+>Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing. 
+>	
+>{beachID} refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.
 
 ## Critique the Mashape Weather API descriptions
 

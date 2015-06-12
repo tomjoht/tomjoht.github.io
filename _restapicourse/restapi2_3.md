@@ -1,5 +1,5 @@
 ---
-title: 2.3 Documenting Parameters for an API
+title: 2.3 Documenting parameters in REST APIs
 permalink: /restapicourse2-3/
 categories:
 - api-doc

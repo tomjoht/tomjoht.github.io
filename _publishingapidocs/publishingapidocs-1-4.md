@@ -12,8 +12,6 @@ If you have a lot of endpoints, you can construct a template that forces specifi
 
 You could just remember to add the exact same sections on each page, but this requires more manual consistency.
 
-Different publishing platforms have different ways of creating templates
-
 ## Pushing values into more stylized outputs
 
 You might want to insert various values (descriptions, methods, parameters, etc.) into a highly stylized output. Rather than work with all the style tags in your page directly, you can create values that exist as an object on a page. A custom script can loop through the objects and insert the values into your template.

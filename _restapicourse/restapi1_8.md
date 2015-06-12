@@ -1,5 +1,5 @@
 ---
-title: 1. 8 Log the JSON response to the console
+title: 1.8 Log the JSON response to the console
 permalink: /restapicourse1-8/
 categories:
 - api-doc
@@ -71,7 +71,7 @@ Getting into the nitty gritty details of this code is beyond the scope of this t
 * The `button` element has an onclick listener called `doIt` that fires when a user clicks the button. The `doIt` function contains the `.ajax` method.
 * The `.ajax` method takes various inputs (url, type, data, datatype, and success).
 * The response will be passed into the `data` argument of the success function.
-* The success function writes the response to the `output` tag on the page.
+* Success contains an anonymous function that writes the response to the `output` tag on the page.
 
 ## Customize the above code
  

@@ -145,11 +145,15 @@ Answer: data.query.results.channel.wind.speed
 
 {% include restapicourse_next.html %}
 
-
+{% comment %} 
 ## Bonus: Iterate through a list
 
+For an added bonus, use the code below to iterate through
+```
 for (i = 0; i < myJSONResult.results.length; i++) {
   myAddress[i] = myJSONResult.results[i].formatted_address;
 }
+```
+{% endcomment %}
 
 

@@ -1,13 +1,14 @@
 ---
-title: 2.2 Documenting the endpoint definition and method for a REST API
+title: 2.2 Documenting the endpoint definition and method in REST APIs
 permalink: /restapicourse2-2/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
 weight: 2.2
-summary: ""
 ---
+{% include notes.html %}
+{% include restapicourse.html %}
 
 ## The endpoint definition usually contains the end path
 
@@ -39,9 +40,19 @@ And here's an example from Linkedin's API:
 
 {{tip}} Sometimes the method is referred to as the "verb". GET, PUT, POST, and DELETE are all verbs, after all. {{end}}
 
-{% include notes.html %}
-{% include restapicourse.html %}
+## Your turn to try
 
+List out the endpoint definition and method for the surfreport/{beachID} endpoint.
+
+Here's my approach:
+
+>## Endpoint definition
+>
+>surfreport/{beachID}
+>
+>## HTTP method
+>
+>GET
 
 {% include restapicourse_next.html %}
 

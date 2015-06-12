@@ -1,5 +1,5 @@
 ---
-title: 2.6 Documenting response codes
+title: 2.6 Documenting response codes in REST APIs
 permalink: /restapicourse2-6/
 categories:
 - api-doc
@@ -87,6 +87,18 @@ You can link to that page from each of your endpoints if desired. You may want t
 
 You can see a list of common [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) and a [general list of HTTP status codes here](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 ).
+
+## Your turn to try
+
+List 3 status codes related to the surfreport/{beachID} endpoint. Use two general codes and make the third one up. 
+
+Here's my attempt: 
+
+| Status code | Meaning | 
+|--------|----------|
+| 200 | Success |
+| 400 | Bad request with the parameters. |
+| 4112 | The beach ID was not found in the lookup. |
 
 {% include restapicourse_next.html %}
 

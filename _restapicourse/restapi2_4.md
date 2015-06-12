@@ -1,5 +1,5 @@
 ---
-title: 2.4 Documenting the sample request
+title: 2.4 Documenting sample requests in REST APIs
 permalink: /restapicourse2-5/
 categories:
 - api-doc
@@ -58,11 +58,9 @@ Come back to the surfreport/{beachID} endpoint example. Create a sample request 
 
 Here's mine: 
 
-
+```http
+curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
+  -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
+  -H 'Accept: application/json'
+```
 {% include restapicourse_next.html %}
-
-
-
-
-
-
