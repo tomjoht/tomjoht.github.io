@@ -35,23 +35,20 @@ You don't have your own meteorological service, so you're going to need to make 
 
 To give you an idea of the end goal, let's say I have a biking site. I want to drive traffic to my site by providing a button that answers the question "How windy is it?"
 
-<!DOCTYPE html>
-<html>
-<head>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <meta charset="utf-8">
-  <title>Mashape Query</title>
-  <style>
+<meta charset="utf-8">
+<title>Mashape Query</title>
+<style>
    #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
-  </style>
-  <script>
+</style>
+  
+<script>
+function checkWind() { 
 
-  function checkWind() { 
-
- var output = $.ajax({
+var output = $.ajax({
     url: 'https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236', 
     type: 'GET', 
     data: {}, 
@@ -72,13 +69,10 @@ To give you an idea of the end goal, let's say I have a biking site. I want to d
     beforeSend: function(xhr) {
     xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); // Enter here your Mashape key
     }
-});
-  
+});  
 }
 </script>
-</head>
-<body>
- 
+
 <button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
 
 <h2>Wind conditions for Santa Clara</h2>
@@ -86,9 +80,6 @@ To give you an idea of the end goal, let's say I have a biking site. I want to d
 <b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span></br>
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
 <b>Wind direction: </b><span id="wind_direction"></span>
-
-</body>
-</html>
 
 I'm obviously not a weather meteorologist, so when you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
 
