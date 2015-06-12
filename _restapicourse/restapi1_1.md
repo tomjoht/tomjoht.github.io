@@ -54,7 +54,7 @@ Unfortunately, API documentation is mostly a new world to technical writers. All
 
 When you try to navigate the world of API documentation, the world looks as unfamiliar as Mars:
 
-<a href="http://bit.ly/ZFYI0T"><img src="{{ "/images/restapicourse/mars_bubble.png" | prepend: site.baseurl }}" alt="API doc world is like Mars" /></a>
+<a href="http://bit.ly/ZFYI0T"><img src="{{ "/images/restapicourse/mars_bubble.jpg" | prepend: site.baseurl }}" alt="API doc world is like Mars" /></a>
 
 ## Increasing learning materials about API documentation
 

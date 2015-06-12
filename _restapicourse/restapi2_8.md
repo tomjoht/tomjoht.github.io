@@ -39,7 +39,7 @@ Returns information about surfing conditions at a specific beach ID, including t
 
 ## Sample request
 
-```http
+```
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
   -H 'Accept: application/json'
@@ -152,6 +152,6 @@ In this example, the `ajax` method from jQuery is used because it allows cross-o
 
 For simple demo purposes, the response is assigned to the `data` argument of the success method, and then written out to the `output` tag on the page. We're just getting the surfing recommendation, but there's a lot of other data you could choose to display.
 
-{% include notes.html %}
-{% include restapicourse.html %}
+
+{% include restapicourse_next.html %}
 

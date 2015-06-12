@@ -30,7 +30,7 @@ Fortunately, the NYTimes API [provides numerous request examples](http://develop
 
 Many APIs have a feature called an API Explorer. For example, you can see Foursquare's API Explorer here:
  
- <a href="https://developer.foursquare.com/docs/explore"><img src="{{ "/images/foursquareapiexplorer.png" | prepend: site.baseurl }}" alt="Foursquare's API Explorer" /></a>
+ <a href="https://developer.foursquare.com/docs/explore"><img src="{{ "/images/restapicourse/foursquareapiexplorer.png" | prepend: site.baseurl }}" alt="Foursquare's API Explorer" /></a>
  
  The API Explorer lets you insert your own values, your own API key, and other parameters into a request so you can see the responses directly in the Explorer. Being able to see your own data maybe makes the response more real and immediate.
 
@@ -58,7 +58,7 @@ Come back to the surfreport/{beachID} endpoint example. Create a sample request 
 
 Here's mine: 
 
-```http
+```
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
   -H 'Accept: application/json'

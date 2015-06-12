@@ -15,19 +15,62 @@ An API provides an interface between two systems. It's like a cog that allows tw
 
 <a href="http://bit.ly/1DexWM0"><img src="{{ "/images/restapicourse/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
 
-## Example
+Consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
 
-Consider the example of your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
+<img src="{{ "/images/restapicourse/calculator.png" | prepend: site.baseurl }}" alt="calculator" />
 
 APIs often work in similar ways. But instead of interacting within the same system, those functions call remote services to get their information. REST APIs make the calls using web protocols -- similar to how addresses you type in a browser return a web page. 
 
-## Sample scenario
+Developers use API calls behind the scenes to pull information into their apps. A button on a GUI may be internally wired to make calls to an external service. For example, the embedded Twitter or Facebook buttons that interact with social networks, or embedded Youtube videos that pull a video in from youtube.com, are both powered by APIs underneath.
+
+## Our course scenario: weather forecast
 
 Let's say that you want to add a weather forecast feature to your site. You want to allow users who come to your site to see what the weather is like for the week. 
 
 <img src="{{ "/images/restapicourse/forecast.png" | prepend: site.baseurl }}" alt="" />
 
 You don't have your own meteorological service, so you're going to need to make some calls out to a weather service to get this information. Then you will present that information to users.
+
+## An idea of the end goal
+
+To give you an idea of the end goal, let's say I have a biking site. I want to drive traffic to my site by providing a button that answers the question "How windy is it?"
+
+  <script>
+  function checkWind() { 
+
+ var output = $.ajax({
+    url: 'https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236', 
+    type: 'GET', 
+    data: {}, 
+    dataType: 'json',
+    success: function(data) {
+      //
+        //Change data.source to data.something , where something is whichever part of the object you want returned.
+        //To see the whole object you can output it to your browser console using:
+        console.log(data);
+        document.getElementById("wind_chill").innerHTML = data.query.results.channel.wind.chill; 
+        document.getElementById("wind_direction").innerHTML = data.query.results.channel.wind.direction; 
+        document.getElementById("wind_speed").innerHTML = data.query.results.channel.wind.speed; 
+        },
+    error: function(err) { alert(err); },
+    beforeSend: function(xhr) {
+    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); // Enter here your Mashape key
+    }
+});
+  
+}
+ 
+</script>
+
+  <button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
+
+  <h2>Wind conditions for Santa Clara</h2>
+
+  <b>Wind chill: </b><span id="wind_chill"></span></br>
+  <b>Wind speed: </b><span id="wind_speed"></span></br>
+  <b>Wind direction: </b><span id="wind_direction"></span></br>
+
+I'm obviously not a weather meteorologist, so when you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
 
 ## Find the right API
 

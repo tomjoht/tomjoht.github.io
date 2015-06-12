@@ -93,8 +93,6 @@ Here are some other sections to include:
 {% comment %} 
 https://developer.compete.com/documentation/#response
 
-
-
 the user guide -- how do you use the api to accomplish real tasks.
 problematic b/c combinations of how you can use endpoints is really various. badgeville.
 

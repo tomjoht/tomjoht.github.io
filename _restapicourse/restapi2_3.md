@@ -20,7 +20,7 @@ Parameters (also called arguments) refer to the various ways the endpoint can be
 
 Here's an example from Yelp's documentation:
 
-<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "/restapicourse/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
+<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "images/restapicourse/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
 
 You can format the values in a variety of ways. If using a definition list or other non-table format, you probably have styles that make these values easily readable.
 

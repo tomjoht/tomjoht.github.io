@@ -73,7 +73,7 @@ In the Flattr API, sometimes calls return special status codes. When you "Check 
 
 API documentation should have a troubleshooting section that lists the possible error codes you can encounter. These error codes should appear in the same page as the general status codes. For example, with the Dropbox API, the writers list out the error codes related to the API:
 
-<a href="https://www.dropbox.com/developers/core/docs"><img src="{{ "/images/apierrorsdropbox.png" | prepend: site.baseurl }}" alt="" /></a>
+<a href="https://www.dropbox.com/developers/core/docs"><img src="{{ "/images/restapicourse/apierrorsdropbox.png" | prepend: site.baseurl }}" alt="" /></a>
 
 If you can add helpful tips on what to do when you encounter these codes, the better.
 
