@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.7
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Code samples bridge the gap between reference and user guides
 
@@ -177,5 +176,4 @@ In this example, the `ajax` method from jQuery is used because it allows cross-o
 
 In this example, the response is assigned to the `data` argument of the success method, and then written out to the `output` tag on the page. We're just getting the surfing recommendation, but there's a lot of other data you could choose to display.
 
-{% include restapicourse_next.html %}
 

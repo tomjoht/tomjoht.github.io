@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 1.8
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## How do you make use of JSON?
 
@@ -131,7 +130,3 @@ document.getElementById("output").innerHTML = data.source;
 Change `data.source` to `data.query.results.channel.item.description` and see what happens. The entire description property should appear in the browser.
 
 The dot after data is how you access the values you want from the JSON object. JSON wouldn't be very useful if you had to always print out the entire response. Instead, you select the exact element you want and pull that out through something called dot notation. The next topic will guide you through using dot notation to pull out the JSON response. 
-
-
-
-{% include restapicourse_next.html %}

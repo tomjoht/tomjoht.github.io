@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 1.3
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Authorization for making API calls
 
@@ -42,8 +41,6 @@ When you're working with code, you use a text editor instead of a rich text edit
 * Notepad++ (PC)
 
 These editors provide features that let you better manage the text. But you could always just use Notepad. My favorite is WebStorm because it lets you manage your files as a complete project. 
-
-{% include restapicourse_next.html %}
 
 
 

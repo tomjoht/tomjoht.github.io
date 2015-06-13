@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.0
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Shifting perspectives
 
@@ -119,7 +118,6 @@ Each of your endpoints should follow this same pattern and structure. A common t
 
 {{note}} Although there are automated ways to publish API docs, we're focusing on content rather than tools in this course. For the sake of simplicity, try just using a text editor and Markdown syntax.{{end}}
 
-{% include restapicourse_next.html %}
 
 
 

@@ -65,7 +65,7 @@ defaults:
       path: ""
       type: "restapicourse"
     values:
-      layout: "page"
+      layout: "page_restapicourse"
       comments: true
       search: true
 
@@ -74,7 +74,7 @@ defaults:
       path: ""
       type: "publishingapidocs"
     values:
-      layout: "page"
+      layout: "page_publishingapidocs"
       comments: true
       search: true
 sass:

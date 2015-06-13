@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.1
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Start with a verb
 
@@ -183,7 +182,6 @@ The description of the endpoint is likely something you'll re-use in different p
 
 As a result, put a lot of effort into crafting it.
 
-{% include restapicourse_next.html %}
 
 
 

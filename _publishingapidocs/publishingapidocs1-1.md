@@ -1,11 +1,12 @@
 ---
-title: Publishing API docs
-permalink: /publishingapidocs-1-1/
-categories:
-- api-doc
-keywords: 
-summary: ""
+title: "1.1"
+permalink: /publishingapidocs1-1/
+course: "Publishing API documentation"
+weight: 1.1
 ---
+## Surveying REST APIs
+
+The following are more than about 70 different openly accessible REST APIs that you can browse as a way to look at patterns and examples: 
 
 * [Google Places API](https://developers.google.com/places/webservice/intro)
 * [Twitter API](https://dev.twitter.com/rest/public)
@@ -80,5 +81,4 @@ summary: ""
 * [IBM Watson (uses Swagger)](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/)
 * [HipChat API](https://www.hipchat.com/docs/apiv2)
 * [Stores API](https://developer.bigcommerce.com/api/)
-* []()
 

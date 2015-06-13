@@ -7,7 +7,6 @@ keywords:
 course: "Documenting REST APIs"
 weight: 1.5
 ---
-{% include restapicourse.html %}
 {% include notes.html %}
 
 ## Why cURL
@@ -136,7 +135,6 @@ To learn more about cURL with REST documentation, see [REST-esting with cURL](ht
 
 {{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install via the command line that <i>just work</i> on a Mac. You won't constantly be needing to add things "to your path". {{end}}
 
-{% include restapicourse_next.html %}
 
 
 

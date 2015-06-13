@@ -1,12 +1,10 @@
 ---
-title: Templates
-permalink: /publishingapidocs-1-4/
-categories:
-- api-doc
-keywords: 
-summary: ""
+title: "1.4"
+permalink: /publishingapidocs1-4/
+course: "Publishing API documentation"
+weight: 1.4
 ---
-
+put this into a design patterns section: https://www.reddit.com/dev/api
 ## Using a template
 If you have a lot of endpoints, you can construct a template that forces specific values in the same template. This is important because you want to establish a consistency with each endpoint. You're basically filling in the blanks.
 

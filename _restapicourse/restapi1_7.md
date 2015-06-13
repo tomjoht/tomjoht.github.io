@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 1.7
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Prettify the JSON response
 
@@ -231,7 +230,6 @@ Note that the escaping (`\` tags) in the `description` is to keep the JSON forma
 
 For more information on understanding the structure of JSON, see [json.com](https://www.json.com/).
 
-{% include restapicourse_next.html %}
 
 
 

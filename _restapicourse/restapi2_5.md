@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.5
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Provide a sample response
 
@@ -143,4 +142,3 @@ The following table describes each item in the response. (*I'm just making these
 | **{day}/{time}/surfheight** | The height of the waves, returned in either feet or centimeters depending on the units you specify. A surf height of 3 feet is the minimum size needed for surfing. If the surf height exceeds 10 feet, it is not safe to surf. | 
 | **{day}/{time}/recommendation** | An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) "Go surfing!", (2) "Surfing conditions are okay, not great", and (3) "Not a good day for surfing." Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yeilds response 3. | 
 
-{% include restapicourse_next.html %}

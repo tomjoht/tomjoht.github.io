@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 1.4
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Prepare the call
 
@@ -59,8 +58,6 @@ Congratulations, you just made a call to a REST API endpoit to retrieve the weat
 
 You should see something like this:
 
-
-{% include restapicourse_next.html %}
 
 
 

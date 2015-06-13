@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.3
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Parameters
 
@@ -88,9 +87,6 @@ For example, the endpoint URL may be something simple, such as /surfreport/{beac
 ```
 
 This kind of submission is common when you have a lot of parameters available. Sometimes the parameters submitted can be quite numerous, such as 20 or 30 key-value pairs.
-
-
-{% include restapicourse_next.html %}
 
 
 

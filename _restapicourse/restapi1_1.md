@@ -9,7 +9,7 @@ weight: 1.1
 summary: ""
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
+
 
 ## Complete and accurate docs are most important factor in APIs
 
@@ -68,4 +68,3 @@ This year, the STC Summit is holding its first ever API documentation track.
 
 Technical writers are hungry to learn more about APIs. To help address this ongoing need, I've created this course to teach technical writers about API documentation. 
 
-{% include restapicourse_next.html %}

@@ -9,7 +9,6 @@ weight: 2.6
 summary: "This is the third topic in REST APIs."
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Response codes let you know the status of the request
 
@@ -100,7 +99,6 @@ Here's my attempt:
 | 400 | Bad request with the parameters. |
 | 4112 | The beach ID was not found in the lookup. |
 
-{% include restapicourse_next.html %}
 
 
 

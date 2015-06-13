@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.4
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 Although you've already listed the endpoint (base URI) and parameters, you also include a sample request that shows the endpoint that integrates parameters in an easy-to-understand way.
 
@@ -63,4 +62,3 @@ curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
   -H 'Accept: application/json'
 ```
-{% include restapicourse_next.html %}

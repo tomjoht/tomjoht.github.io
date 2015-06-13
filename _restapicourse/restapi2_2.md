@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.2
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## The endpoint definition usually contains the end path
 
@@ -54,7 +53,6 @@ Here's my approach:
 >
 >GET
 
-{% include restapicourse_next.html %}
 
 
 

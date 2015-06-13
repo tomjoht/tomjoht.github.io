@@ -1,11 +1,10 @@
 ---
-title: Publishing API docs
-permalink: /publishingapidocs-1-2/
-categories:
-- api-doc
-keywords: 
-summary: ""
+title: "1.2"
+permalink: /publishingapidocs1-2/
+course: "Publishing API documentation"
+weight: 1.2
 ---
+
 Design patterns
 trends:
 

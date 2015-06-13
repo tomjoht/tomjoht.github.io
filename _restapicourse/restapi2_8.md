@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 2.8
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Full working example
 In this example, let's pull together the various parts you've worked on to showcase the full example. I chose to format mine in Markdown syntax in a text editor.
@@ -151,7 +150,4 @@ The following code samples shows how to use the surfreport endpoint to get the s
 In this example, the `ajax` method from jQuery is used because it allows cross-origin resource sharing (CORS) for the weather resources. In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.
 
 For simple demo purposes, the response is assigned to the `data` argument of the success method, and then written out to the `output` tag on the page. We're just getting the surfing recommendation, but there's a lot of other data you could choose to display.
-
-
-{% include restapicourse_next.html %}
 

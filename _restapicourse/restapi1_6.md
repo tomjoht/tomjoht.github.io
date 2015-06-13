@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 1.6
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## GUI clients
 
@@ -85,7 +84,6 @@ Here's the same call made in Paw:
 
 Paw allows you to easily see the request headers, response headers, URL parameters, and other data.
  
-{% include restapicourse_next.html %}
 
 
 

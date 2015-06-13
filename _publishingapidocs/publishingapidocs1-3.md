@@ -1,10 +1,8 @@
 ---
-title: Common sections
-permalink: /publishingapidocs-1-3/
-categories:
-- api-doc
-keywords: 
-summary: ""
+title: "1.3"
+permalink: /publishingapidocs1-3/
+course: "Publishing API documentation"
+weight: 1.3
 ---
 
 ## Common reference sections

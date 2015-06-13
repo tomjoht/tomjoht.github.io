@@ -5,7 +5,6 @@ course: "Documenting REST APIs"
 weight: 1.0
 ---
 {% include notes.html %}
-{% include restapicourse.html %}
 
 ## Overview
 This course provides a tutorial on documenting REST APIs. This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. The course involves interactive exercises, quizzes, and other activities.
@@ -51,4 +50,3 @@ If you're on Windows, cURL is harder to install. Follow the instructions here to
 
 See the "Getting Curl" section here: http://www.cantoni.org/2012/01/10/curl-cheat-sheet.
 
-{% include restapicourse_next.html %}
