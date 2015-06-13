@@ -9,7 +9,50 @@ outline of talk
 
 central question: how do you publish? why is this question different from any other help material? what makes API doc different and unique?
 
+preliminary notes: focusing on publishing mostly, not intro to apis. also focusing mostly on rest apis.
+
 survey the landscape, note the variety
+api doc has specific structure, common sections across all rest api doc
+here are those common sections
+platform api doc has other structure
+some other common features: auth keys, hello world, status/error codes
+you can use any tool to write to that structure. there are a lot of tool options out there. here are some option. 
+there are two components to api doc: user guide and ref doc.
+devs may commonly write ref doc, and tech writers create user guide.
+this creates rift in doc. but sometimes it's worth it to avoid code drift.
+platform api doc has some diffs here b/c it's generated from the code.
+some problems with automated outputs -- don't integrate with your user guide.
+tech writers accustomed to using Flare, etc., but these don't always accomodate ref docs well
+the main challenge where help auth tools fail:
+ - when you want to entitle devs to write. markdown
+ - when doc is treated like code and travels inside code repo
+ - when you have lots of code samples that need syntax highlighting
+ - when your docs really need to sell the product. with api doc, this is product so must make it sexy. UX will use their own toolset.
+ 
+first question is whether devs will write, contribute. rio macnamara talk.
+why it's good for devs to write:
+ - code is complex
+ - devs writing to devs -- sometimes understand aud better
+ - cons: assume too much. not all devs are specialists in the tech they're using. not nearly enough handholding
+ 
+another factor: what is the dev audience like. online, working at a monitor. want to do quick searches. devs don't like reading a lot of doc. they love code samples. copy and paste and have things just work. this means a few decisions:
+ - pdf unnecessary unless you have access issues that make it difficult to get to your docs.
+ - need good syntax highlighting 
+ - know how to do progressive info disclosure
+ 
+one main problem is that there's so much variety in skill level among the audience. nothing is quite so varied as technical ability. need way to layer infomration for progressive information disclosure.
+
+a few solutions: 
+
+autogen route like swagger.
+
+tooling infrastructure like mulesoft, mashape, etc.
+
+use your existing tools.
+
+static site generators. treat doc as code. easily embed code samples. light infrastructure.
+
+create templates
 
 limit to 20 slides
 

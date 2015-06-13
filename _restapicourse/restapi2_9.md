@@ -52,7 +52,11 @@ In the overview, list some common business scenarios in which the API might be u
 
 ## Getting started section
 
-Following the Overview section, you usually have a "Getting started" section that details the first steps users need to start using the API. Here's the Getting Started section from the HipChat API:
+Following the Overview section, you usually have a "Getting started" section that details the first steps users need to start using the API. Here's the Getting Started section from the Alchemy API
+
+<a href="http://www.alchemyapi.com/developers/getting-started-guide"><img src="{{ "/images/restapicourse/alchemyapigettingstarted.png" | prepend: site.baseurl }}" alt="Alchemy API" /></a>
+
+Here's a Getting Started tutorial from the HipChat API:
 
 <a href="https://www.hipchat.com/docs/apiv2"><img src="{{ "/images/restapicourse/hipchatgettingstarted.png" | prepend: site.baseurl }}" alt="HipChat API Getting Started" /></a>
 

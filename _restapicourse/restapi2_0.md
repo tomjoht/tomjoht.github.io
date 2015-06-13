@@ -17,7 +17,7 @@ Now let's shift perspectives. Now you're now a technical writer working with the
 
 ## You have a new endpoint to document
 
-The project manager calls you over and says they have a new API for you to document for the next release. (By "API," the manager really just means a new endpoint to the existing API.)
+The project manager calls you over and says they have a new API for you to document for the next release. (By "API," the manager really just means a new endpoint to the existing API. Some APIs like [Alchemy API](http://www.alchemyapi.com/api/) even refer to each endpoint as an API.)
 
 "Here's the wiki page that contains all the data," the manager says. 
 

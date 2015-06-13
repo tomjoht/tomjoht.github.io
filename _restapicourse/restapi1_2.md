@@ -56,7 +56,7 @@ var output = $.ajax({
         },
     error: function(err) { alert(err); },
     beforeSend: function(xhr) {
-    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); /
+    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET");
     }
 });  
 }
@@ -72,7 +72,7 @@ var output = $.ajax({
 
 I'm obviously not a weather meteorologist, so when you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
 
-You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">download the file here to see the code.</a>.
+You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">download the file here to see the code</a>.
 
 Of course, the above example is extremely simple. You could also build an attractive interface [like this](https://weather.yahoo.com/united-states/california/santa-clara-2488836/).
 

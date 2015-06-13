@@ -81,4 +81,5 @@ The following are more than about 70 different openly accessible REST APIs that 
 * [IBM Watson (uses Swagger)](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/)
 * [HipChat API](https://www.hipchat.com/docs/apiv2)
 * [Stores API](https://developer.bigcommerce.com/api/)
+* [Alchemy API](http://www.alchemyapi.com/api/)
 
