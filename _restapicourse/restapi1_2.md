@@ -34,12 +34,6 @@ You don't have your own meteorological service, so you're going to need to make 
 
 To give you an idea of the end goal, let's say I have a biking site. I want to drive traffic to my site by providing a button that answers the question "How windy is it?"
 
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<meta charset="utf-8">
-<title>Mashape Query</title>
 <style>
    #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
 </style>
@@ -53,10 +47,6 @@ var output = $.ajax({
     data: {}, 
     dataType: 'json',
     success: function(data) {
-      //
-        //Change data.source to data.something , where something is whichever part of the object you want returned.
-        //To see the whole object you can output it to your browser console using:
-        console.log(data);
         $("#wind_speed").append (data.query.results.channel.wind.speed);
         $("#wind_direction").append (data.query.results.channel.wind.direction);
         $("#wind_chill").append (data.query.results.channel.wind.chill);
@@ -66,7 +56,7 @@ var output = $.ajax({
         },
     error: function(err) { alert(err); },
     beforeSend: function(xhr) {
-    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); // Enter here your Mashape key
+    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); /
     }
 });  
 }
@@ -82,7 +72,7 @@ var output = $.ajax({
 
 I'm obviously not a weather meteorologist, so when you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
 
-You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>.
+You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">download the file here to see the code.</a>.
 
 Of course, the above example is extremely simple. You could also build an attractive interface [like this](https://weather.yahoo.com/united-states/california/santa-clara-2488836/).
 

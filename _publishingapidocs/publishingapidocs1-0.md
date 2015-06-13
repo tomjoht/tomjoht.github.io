@@ -7,6 +7,10 @@ weight: 1.0
 
 outline of talk
 
+central question: how do you publish? why is this question different from any other help material? what makes API doc different and unique?
+
+survey the landscape, note the variety
+
 limit to 20 slides
 
 you need some kind of story arc to things
