@@ -85,9 +85,10 @@ Here's a screenshot from SendGrid's documentation on API keys:
 
 APIs have different ways of authenticating users. Sometimes the API key is added in the request URL. Othertimes the API key is passed in the header. 
 
-Whether in the authorization keys or another section, you should list any applicable rate limits to the API calls. Rate limits set how frequently you can call a particular endpoint. 
-
 Additionally, sometimes different license tiers provide different access to the API calls you can make. If so, these licensing tiers should be explicit in your authorization section or elsewhere.
+
+## Rate limits
+Whether in the authorization keys or another section, you should list any applicable rate limits to the API calls. Rate limits set how frequently you can call a particular endpoint. Here's a great example of the rate limits section from the Github API: https://developer.github.com/v3/#rate-limiting
 
 ## Code tutorials
 

@@ -24,7 +24,7 @@ Developers use API calls behind the scenes to pull information into their apps. 
 
 ## Our course scenario: weather forecast
 
-Let's say that you want to add a weather forecast feature to your site. You want to allow users who come to your site to see what the weather is like for the week. 
+In this course, we're going to use an API in the context of a specific use case: retrieving a weather forecast. Let's say that you want to add a weather forecast feature to your biking site. You want to allow users who come to your site to see what the weather is like for the week. 
 
 <img src="{{ "/images/restapicourse/forecast.png" | prepend: site.baseurl }}" alt="" />
 
@@ -32,7 +32,7 @@ You don't have your own meteorological service, so you're going to need to make 
 
 ## An idea of the end goal
 
-To give you an idea of the end goal, let's say I have a biking site. I want to drive traffic to my site by providing a button that answers the question "How windy is it?"
+To give you an idea of the end goal, here's a sample. I want to drive traffic to my biking site by providing a button that answers the question "How windy is it?"
 
 <style>
    #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
@@ -70,7 +70,7 @@ var output = $.ajax({
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
 <b>Wind direction: </b><span id="wind_direction"></span>
 
-I'm obviously not a weather meteorologist, so when you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
+When you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
 
 You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">download the file here to see the code</a>.
 

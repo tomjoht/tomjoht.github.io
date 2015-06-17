@@ -19,7 +19,7 @@ In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/ap
 
 John Musser, one of the founders of Programmableweb.com, has followed up on the importance of good API documentation in some of his presentations. In "10 reasons why developers hate your API," he says the number one reason developers hate your API is becuase "Your documentation sucks."
 
-<a href="http://www.slideshare.net/jmusser/ten-reasons-developershateyourapi"><img src="{{ "/images/restapicourse/yourdocsucks.png" | prepend: site.baseurl }}" alt="Your API documentation sucks" />
+<a href="http://www.slideshare.net/jmusser/ten-reasons-developershateyourapi"><img src="{{ "/images/restapicourse/yourdocsucks.png" | prepend: site.baseurl }}" alt="Your API documentation sucks" /></a>
 
 ## REST APIs are taking off in a huge way
 
