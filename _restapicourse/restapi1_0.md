@@ -7,7 +7,7 @@ weight: 1.0
 {% include notes.html %}
 
 ## Overview
-This course provides a tutorial on documenting REST APIs. This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. The course involves interactive exercises, quizzes, and other activities.
+This course provides a tutorial on documenting REST APIs. This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. Because the purpose of the course is to help you learn, there are numerous activities that require hands-on coding, exploring, and other exercises.
 
 ## Course outline
 

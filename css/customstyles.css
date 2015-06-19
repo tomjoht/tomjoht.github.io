@@ -399,8 +399,6 @@ color: #444;
 @media (max-width: 500px) {
 #mytechsidebar {display:none;}
 }
-}
-
 
 
 img.screenshotSmall {
@@ -694,10 +692,12 @@ h3.sidebar {
 div.topBannerAd {
     position: relative;
 float: right;
+
 }
 div.topBannerAd img {
     max-width:470px;
     padding:10px;
+    max-width:100%;
 }
 
 .navbar-inverse {

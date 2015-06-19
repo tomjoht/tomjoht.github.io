@@ -1,5 +1,5 @@
 ---
-title: How to avoid early death by sitting down all day
+title: How to avoid early death from sitting down all day
 categories:
 - general
 - jekyll
