@@ -1,5 +1,5 @@
 ---
-title: "2.9 Tools versus contentn"
+title: "2.9 Tools versus content"
 permalink: /publishingapidocs2-9/
 course: "Publishing API documentation"
 weight: 2.9

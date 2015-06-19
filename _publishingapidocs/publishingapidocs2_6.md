@@ -1,18 +1,17 @@
 ---
-title: "2.7 Long scrolling pages, often with scrollspy"
-permalink: /publishingapidocs2-7/
+title: "2.6 Long-ish pages"
+permalink: /publishingapidocs2-6/
 course: "Publishing API documentation"
-weight: 2.7
+weight: 2.6
 ---
 
-<a href="http://documentcloud.github.io/backbone/"><img src="{{ "/images/publishingapidocs/backbonejs.png" | prepend: site.baseurl }}" alt="Backbone JS" /></a>
 
 
-
-## Single page docs
+## Longish pages
+### Single page docs
 -- single page docs --> common for reference material
 
-## who is our audience?
+### who is our audience?
 
 devs are like this:
 

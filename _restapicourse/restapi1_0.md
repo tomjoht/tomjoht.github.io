@@ -25,12 +25,23 @@ After you use the API as a developer might, you then shift perspectives and beco
 
 ## What you'll need
 
-* Computer (preferably Mac but not required)
-* Text editor ([Sublime Text](http://www.sublimetext.com/) is a good option)
-* [Chrome browser](http://www.google.com/chrome/). (Other browsers are fine too, but we'll be using Chrome's developer console.)
-* [Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)
-* [cURL](http://curl.haxx.se/)
-* Network connection
+* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC). On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
+* **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's developer console.)
+* **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**
+* **[cURL](http://curl.haxx.se/)**. Most Macs already have cURL. To check, open Terminal and type `curl --version`. To install cURL for Windows, See the "Getting Curl" section in the [Getting cURL cheatsheet](http://www.cantoni.org/2012/01/10/curl-cheat-sheet). You need to install both [cURL](http://curl.haxx.se/) and the Windows OpenSSL libraries. Install both cURL and Windows OpenSSL libraries in the same directory.
+* **Network connection**. Your computer needs to be able to connect to a wifi network.
+
+---------
+* [Eclipse IDE for Java Developers](https://eclipse.org/downloads/)
+* [Java SE JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+To check whether you already have the JDK, open a terminal and type the following:
+
+* Mac: : `/usr/libexec/java_home`
+* Windows: `echo %JAVA_HOME%` 
+
+If you have the JDK, you'll see a path to it in the response.
+
 
 {{note}} You don't need any programming background or other prerequisites, but if you do have some familiarity with programming concepts, you can speed through the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.{{end}}
 
@@ -48,5 +59,5 @@ cURL is essential for making requests to endpoints from the command line.  If yo
 ### Windows
 If you're on Windows, cURL is harder to install. Follow the instructions here to install cURL. Then follow the instructions here to install libcurl, which you need to make requests to https resources.
 
-See the "Getting Curl" section here: http://www.cantoni.org/2012/01/10/curl-cheat-sheet.
+
 

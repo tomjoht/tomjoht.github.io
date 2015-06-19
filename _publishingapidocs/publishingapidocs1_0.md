@@ -1,9 +1,35 @@
 ---
-title: "1.1 Surveying REST APIs"
-permalink: /publishingapidocs1-1/
+title: "1.0 Publishing API docs"
+permalink: /publishingapidocs/
 course: "Publishing API documentation"
-weight: 1.1
+weight: 1.0
 ---
+
+<a href="http://www.programmableweb.com/api-research"><img src="{{ "/images/publishingapidocs/webapisprogrammableweb.png" | prepend: site.baseurl }}" alt="Programmable web survey" /></a>
+
+## Why a course on publishing API docs? What's different?
+- first API doc was for a startup in silicon valley that made gamification APIs
+- what's different: developer audience, material (no GUI), emphasis on code (which i had to learn) 
+- result of main task is that you just get a little packet of information returned
+
+## Different kinds of APIs
+- tech landscape is wide, diverse 
+- two main kinds: plaform-specific APIs, and REST APIs
+- REST APIs are most popular. you can see graph of them taking off
+
+## Documentation is extremely important element in APIs
+- clear and accurate docs most important aspect
+
+## Publishing is one value tech writers can add
+- problem is dev doc is really complicated
+- without programming bg, can be a bit daunting
+- one of the key roles tech writers can play is to facilitate the publishing of the information that devs write. this can be one of your value adds -- you edit the info, make it look pretty, accessible, navigable, etc.
+
+## Focus here on publishing strategies, not intro to APIs
+- not an introduction
+- plenty of other talks for that
+- focusing on publishing
+- focus more on REST APIs than platform specific APIs
 
 
 ## API docs have tremendous variety
@@ -103,4 +129,5 @@ Browse around 5 of more of these sites to get a feel for them.
 * [Github API](https://developer.github.com/)
 * [Mailgun API](https://documentation.mailgun.com/api_reference.html)
 * [RiotGames API](https://developer.riotgames.com/api/methods) example of Swagger
+* [Basecamp API](https://github.com/basecamp/bcx-api) example of Github
 

@@ -1,10 +1,11 @@
 ---
-title: "1.7 Generating reference docs from source"
-permalink: /publishingapidocs1-7/
+title: "1.3 Generating Reference Doc from Source"
+permalink: /publishingapidocs1-3/
 course: "Publishing API documentation"
-weight: 1.7
+weight: 1.3
 ---
 
+## How platform API doc is generated
 <a href="http://www.miredot.com/exampledocs/"><img src="{{ "/images/publishingapidocs/miredot.png" | prepend: site.baseurl }}" alt="Miredot" /></a>
 
 ## ACTIVITY: Browse a source-generated doc

@@ -19,7 +19,7 @@ Parameters (also called arguments) refer to the various ways the endpoint can be
 
 Here's an example from Yelp's documentation:
 
-<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "images/restapicourse/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
+<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{"images/restapicourse/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
 
 You can format the values in a variety of ways. If using a definition list or other non-table format, you probably have styles that make these values easily readable.
 
@@ -45,7 +45,7 @@ If the parameter is part of the actual endpoint path (not added in the query str
 
 Here's an example from Twilio:
 
-<a href="{{ "/twiliosample.png" | prepend: site.baseurl }}">text</a><img src="{{ "/images/twiliosample.png" | prepend: site.baseurl }}" alt="Twilio Example" />
+<a href="{{ "/twiliosample.png" | prepend: site.baseurl }}">text</a><img src="{{ "/images/restapicourse/twiliosample.png" | prepend: site.baseurl }}" alt="Twilio Example" />
 
 The `{PhoneNumber}` value is described in the description of the endpoint rather than in another section that lists the query parameters you can pass to the endpoint.
 
@@ -87,6 +87,3 @@ For example, the endpoint URL may be something simple, such as /surfreport/{beac
 ```
 
 This kind of submission is common when you have a lot of parameters available. Sometimes the parameters submitted can be quite numerous, such as 20 or 30 key-value pairs.
-
-
-

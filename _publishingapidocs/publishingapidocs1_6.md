@@ -1,8 +1,8 @@
 ---
-title: "1.8 Spec-generated docs"
-permalink: /publishingapidocs1-8/
+title: "1.6 Spec-generated doc"
+permalink: /publishingapidocs1-6/
 course: "Publishing API documentation"
-weight: 1.8
+weight: 1.6
 ---
 
 <a href="http://editor.swagger.io/"><img src="{{ "/images/publishingapidocs/swagger-editor-example.png" | prepend: site.baseurl }}" alt="Swagger online editor" /></a>
@@ -315,6 +315,3 @@ Notice a few limitations with Swagger:
 
 * There's not much room to describe in detail the workings of the endpoint.
 * Making links or other markup in the YML file will require you to add some escape characters (`\`).
-
-
-

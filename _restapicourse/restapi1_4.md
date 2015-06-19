@@ -37,8 +37,13 @@ You can also find coordinates for a location using [mapcoordinates.net](http://w
 My call looks like this:
 
 ```
-  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
-  -H 'Accept: text/plain'
+  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' -H 'Accept: text/plain'
+```
+
+Note that submitting cURL commands on Windows is a little more picky. You must use double quotes instead of single quotes. Also, add `-k` to avoid a security certificate error with https calls. On Windows, the call should look like this:
+
+```
+curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET" -H "Accept: text/plain"
 ```
 
 You should see something like this as a response:
