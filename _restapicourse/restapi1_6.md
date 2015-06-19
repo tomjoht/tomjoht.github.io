@@ -9,7 +9,7 @@ weight: 1.6
 ---
 {% include notes.html %}
 
-## GUI clients
+## GUI clients make REST calls a little easier
 
 cURL makes for a great format for demonstrating requests and responses. But when you're frequently testing endpoints with different parameters, you may want to use a GUI REST client instead. With a GUI REST client, you can:
 
@@ -64,7 +64,7 @@ When you save these other endpoints, click the arrow next to Save and choose **S
 
 <img src="{{ "/images/restapicourse/postmansaveas.png" | prepend: site.baseurl }}" alt="Save as" />
 
-## View the format of the weatherdata response in pretty JSOn
+## View the format of the weatherdata response in pretty JSON
 
 The first two endpoint responses include text only. The weatherdata endpoint response is in JSON format. 
 

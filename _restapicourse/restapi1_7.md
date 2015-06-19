@@ -134,7 +134,7 @@ It's not very readable (by humans), so we can use a [JSON formatter tool](http:/
 ```
 {% endraw %}
 
-## What is JSON
+## JSON is how most REST APIs structure the response
 
 JSON stands for JavaScript Object Notation. It's the most common way REST APIs return information. Through Javascript, you can easily parse through the JSON and display it on a web page. 
 
@@ -142,7 +142,7 @@ Some APIs return information in both JSON and XML. But if you're trying to parse
 
 JSON has two types of basic structures: objects and arrays. 
 
-## JSON objects 
+## JSON objects are key-value pairs 
 
 An object is a collection of key-value pairs, surrounded by curly braces:
 
@@ -155,7 +155,7 @@ An object is a collection of key-value pairs, surrounded by curly braces:
 
 The key-value pairs are each put into double quotation marks. Each key-value pair is separated from the next by a comma (except for the last pair).
 
-## JSON arrays
+## JSON arrays are lists of items
 
 An array is a list of items, surrounded by brackets:
  

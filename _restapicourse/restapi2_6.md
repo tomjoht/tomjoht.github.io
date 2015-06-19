@@ -1,5 +1,5 @@
 ---
-title: 2.6 Documenting response codes in REST APIs
+title: 2.6 Documenting response and error codes in REST APIs
 permalink: /restapicourse2-6/
 categories:
 - api-doc
@@ -12,7 +12,7 @@ summary: "This is the third topic in REST APIs."
 
 ## Response codes let you know the status of the request
 
-Remember when we submitted the cURL call back in <a href="{{ "/restapi1course1-4" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted the headers included in the response (`--include` or `-i`):
+Remember when we submitted the cURL call back in <a href="{{ "/restapi1course1-4" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
 
 ```
   curl --get -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
@@ -33,26 +33,15 @@ Connection: keep-alive
 16
 ```
 
-The first line, `HTTP/1.1 200 OK`, tells us the status of the request. With a GET request, it's pretty easy to tell if the request is successful or not because you get back something in the response. 
+The first line, `HTTP/1.1 200 OK`, tells us the status of the request. 
 
-However, suppose you make a POST (create), PUT (edit), or DELETE (remove) call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received? HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
+With a GET request, it's pretty easy to tell if the request is successful or not because you get back something in the response. 
+
+But suppose you're make a POST (create), PUT (edit), or DELETE (remove) call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API? 
+
+HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
 
 Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the Mashape Weather API developers. `200` is a univerally accepted code for a successful HTTP request. 
-
-## Run your request and look at your header code
-
-Run the cURL call you made earlier and look at the HTTP status code in the response. 
-
-Add a section to your surfreport/{beachID} endpoint documentation called Response headers. Include the successful response header for each of the endpoints.
- 
-With one of the endpoints, change the method of the call to something else (such as `-X DELETE` instead of `--get`) and see how the status code changes:
-
-```
-  curl -X DELETE -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
-  -H 'Accept: text/plain'
-```
-
-Since DELETE isn't an accepted method, the status code will be `HTTP/1.1 404 Not Found`. 
 
 ## Listing the HTTP response and error codes
 
@@ -87,9 +76,25 @@ You can link to that page from each of your endpoints if desired. You may want t
 You can see a list of common [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) and a [general list of HTTP status codes here](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 ).
 
+## Run your request and look at your header code
+
+Run the cURL call you made earlier and look at the HTTP status code in the response. 
+
+Add a section to your surfreport/{beachId} endpoint documentation called Response headers. Include the successful response header for each of the endpoints.
+ 
+With one of the endpoints, change the method of the call to something else (such as `-X DELETE` instead of `--get`) and see how the status code changes:
+
+```
+  curl -X DELETE -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
+  -H 'Accept: text/plain'
+```
+
+Since DELETE isn't an accepted method, the status code will be `HTTP/1.1 404 Not Found`. 
+
+
 ## Your turn to try
 
-List 3 status codes related to the surfreport/{beachID} endpoint. Use two general codes and make the third one up. 
+List 3 status codes related to the surfreport/{beachId} endpoint. Use two general codes and make the third one up. 
 
 Here's my attempt: 
 

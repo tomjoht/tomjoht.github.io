@@ -9,7 +9,7 @@ weight: 1.8
 ---
 {% include notes.html %}
 
-## How do you make use of JSON?
+## Making use of the JSON response
 
 Seeing the response from cURL or Postman is cool, but how do you make use of the JSON data? 
 
@@ -17,7 +17,7 @@ With most API documentation, you don't need to show how to make use of JSON data
 
 However, to better understand how developers will access the data, we'll go through a brief tutorial in displaying the REST response on a web page. 
 
-## Sample code to parse and display REST response
+## Mashape's sample code to parse and display REST response
 
 Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse and display the REST response on a web page using JavaScript: 
 
@@ -72,16 +72,16 @@ Getting into the nitty gritty details of this code is beyond the scope of this t
 * The response will be passed into the `data` argument of the success function.
 * Success contains an anonymous function that writes the response to the `output` tag on the page.
 
-## Customize the above code
+## Customize the above code in a HTML page
  
- The above code is general and not specific to the weather API. We have to plug in our own values in a few places. 
+The above code is general and not specific to the weather API. We have to plug in our own values in a few places. 
  
- For this exercise, use the weatherdata endpoint.
+For this exercise, use the weatherdata endpoint.
  
 1. Open a text editor and copy the previous code into a new document. Save the document as weatherdata.html.
 2. Change the `url` value from `https://SOMEAPI.p.mashape.com/` to your weatherdata endpoint. For example, `https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236`.
 3. Where it says `YOUR_API_KEY`, enter your Mashape API key. 
-4. Remove the two `\\` next to `console.log(data);` to uncomment this part of the code.
+4. Remove the two backslashes `\\` next to `console.log(data);` to uncomment this part of the code.
  
 	The response from the API will be passed to the `data` argument of the success parameter. By logging `data` to the console, we can inspect the response in the JavaScript Console in our browser.
  
@@ -117,7 +117,7 @@ This is helpful if you're logging various things to the console and need to flag
 
 Inspect the payload by expanding each of the sections. Try to find the section that appears here: object > query > results > channel > item > description.
 
-## Replacing "undefined"
+## Replacing "undefined" through dot notation
 
 You'll notice that in the main content display, the REST response information didn't appear. Instead, it says "undefined." 
 

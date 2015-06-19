@@ -9,11 +9,11 @@ weight: 2.0
 ---
 {% include notes.html %}
 
-## Shifting perspectives
+## Shift perspectives: Now you're the technical writer
 
-Until this point, you've been acting as a developer with the task of integrating the weather forecast into your site. The point was to help you understand the type of information developers need, and how they use APIs.
+Until this point, you've been acting as a developer with the task of integrating the weather data into your site. The point was to help you understand the type of information developers need, and how they use APIs.
 
-Now let's shift perspectives. Now you're now a technical writer working with the weather API team. They're asking you to document a new endpoint. 
+Now let's shift perspectives. Now you're now a technical writer working with the weather API team. The team is asking you to document a new endpoint. 
 
 ## You have a new endpoint to document
 
@@ -25,41 +25,47 @@ It's now your task to sort through the information on this page and create docum
 
 Read through the wiki page to get a sense of the information. The upcoming topics will guide you through creating documentation for this new endpoint.
 
-## The wiki page: "Surf Report API"
+<div style="background-color: #eef7fa; padding: 15px; border: 1px solid #dedede;">
 
-The new endpoint is /surfreport/{beachID}. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachID}` is retrieved from a list of beaches on our site.
+<h2>The wiki page: "Surf Report API</h2>
 
-Optional parameters: 
+<p>The new endpoint is <code>/surfreport/{beachId}</code>. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachId}` is retrieved from a list of beaches on our site.</p>
 
-* number of days: Max is 7. Default is 3. Optional.
-* units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.
-* time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch, UTC. This is the miliseconds since 1970. Time zone is GMT or UTC. Optional.
+<p>Optional parameters: </p>
 
-If you include the hour, then you only get back the surf condition for the hour you specified. Otherwise you get back 3 days, with conditions listed out by hour for each day. 
+<ul>
+<li>Number of days: Max is 7. Default is 3. Optional.</li>
+<li>Units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.</li>
+<li>Time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch. This is the miliseconds since 1970. Time zone is GMT or UTC. Optional.</li>
+</ul>
 
-The response will include the surf height, the wind, temp, the tide, and overall recommendation.
+<p>If you include the hour, then you only get back the surf condition for the hour you specified. Otherwise you get back 3 days, with conditions listed out by hour for each day. </p>
 
-Sample endpoint with parameters: 
+<p>The response will include the surf height, the wind, temp, the tide, and overall recommendation.</p>
 
-```
+<p>Sample endpoint with parameters: </p>
+
+<code>
 https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1400
-```
+</code>
 
-The response contains these elements:
+<p>The response contains these elements:</p>
 
-surfreport: 
+<p>surfreport: </p>
 
-* surfheight (time: feet)
-* wind (time: kts)
-* tide (time: feet)
-* water temperature (time: F degrees)
-* recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity."
+<ul>
+<li>surfheight (time: feet)</li>
+<li>wind (time: kts)</li>
+<li>tide (time: feet)</li>
+<li>water temperature (time: F degrees)</li>
+<li>recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity."</li>
+</ul>
  
-The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and includes one of three responses.
+<p>The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and includes one of three responses.</p>
  
-Sample format:
+<p>Sample format:</p>
  
-```
+<pre>
 {
     "surfreport": [
         {
@@ -84,20 +90,20 @@ Sample format:
         }
     ]
 }
-```
+</pre>
  
-Negative numbers in the tide represent incoming tide.
+<p>Negative numbers in the tide represent incoming tide.</p>
 
-The report won't include any details about riptide conditions. 
+<p>The report won't include any details about riptide conditions. </p>
 
-Note that although users can enter beach names, there are only certain beaches included in the report. Users can look to see which beaches are available from our website at http://example.com/surfreport/beaches_available. The beach names must be url encoded when passed in the endpoint as query strings.
+<p>Note that although users can enter beach names, there are only certain beaches included in the report. Users can look to see which beaches are available from our website at http://example.com/surfreport/beaches_available. The beach names must be url encoded when passed in the endpoint as query strings.</p>
 
-To switch from feet to metrics, users can add a query string of &units=metrics. Default is &units=imperial.
+<p>To switch from feet to metrics, users can add a query string of &units=metrics. Default is &units=imperial.</p>
 
-Here's an [example of how developers](http://www.surfline.com/surf-report/south-beach-ca-northern-california_5088/) might integrate this information.
+<p>Here's an <a href="http://www.surfline.com/surf-report/south-beach-ca-northern-california_5088/">example</a> of how developers might integrate this information.</p>
 
-If the query is malformed, you get error code 400 and an indication of the error.
-
+<p>If the query is malformed, you get error code 400 and an indication of the error.</p>
+</div>
 
 ## Essential sections in REST API documentation
 
@@ -112,11 +118,13 @@ In the next topics, you'll work on sorting this information out into eight commo
 * Status and error codes
 * Code samples
 
+## Create the basic structure for the endpoint documentation
+
 Open up a new text file and create sections for each of these elements. 
 
 Each of your endpoints should follow this same pattern and structure. A common template helps increase consistency and familiarity/predictability with how users consume the information.
 
-{{note}} Although there are automated ways to publish API docs, we're focusing on content rather than tools in this course. For the sake of simplicity, try just using a text editor and Markdown syntax.{{end}}
+{{note}} Although there are automated ways to publish API docs, we're focusing on content rather than tools in this course. For the sake of simplicity, try just using a text editor and <a href="https://help.github.com/articles/github-flavored-markdown/">Markdown syntax</a>.{{end}}
 
 
 

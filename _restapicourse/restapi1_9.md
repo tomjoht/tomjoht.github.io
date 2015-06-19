@@ -9,7 +9,7 @@ weight: 1.9
 ---
 {% include notes.html %}
 
-## Deciding what information we want
+## Dot notation allows you to access specific values from the JSON response
 
 Looking back over the weatherdata response, there's a lot to choose from. But the `description` element is clearly formatted as the primary data to pull out. To pull out the description and display it on the page, we used dot notation.
 
@@ -17,11 +17,11 @@ Looking back over the weatherdata response, there's a lot to choose from. But th
 data.query.results.channel.item.description
 ```
 
-Let's dive into this a little more.
+Let's dive into dot notation a little more.
 
 ## How dot notation works
 
-You use a dot after the object name to access its properties. For example:
+You use a dot after the object name to access its properties. For example, suppose you have an object called `data`:
 
 ```
 "data": {
@@ -29,11 +29,13 @@ You use a dot after the object name to access its properties. For example:
 }
 ```
 
-To access Tom, I would use `data.name`.
+To access `Tom`, I would use `data.name`.
 
-It's important to note the different levels of nesting so you can trace back the appropriate objects and access the information you want. 
+It's important to note the different levels of nesting so you can trace back the appropriate objects and access the information you want. You access each level down through the object name followed by a dot.
 
-To access an array, you use brackets followed by the position:
+## Use square brackets to access the values in an array
+
+To access a value in an array, you use square brackets followed by the position number:
 
 ```
 "data" : {
@@ -41,13 +43,13 @@ To access an array, you use brackets followed by the position:
 }
 ```
 
-To access glove, I would use `data.items[2]`.
+To access glove, you would use `data.items[2]`.
 
-`glove` is the third item in the array. (You start counting at 0.)
+`glove` is the third item in the array. You start counting at 0.
 
-## Activity
+## Activity with dot notation
 
-Create a new page and insert the following on it:
+Create a new file in your text editor and insert the following into it:
 
 ```html
 <!DOCTYPE html>
@@ -56,38 +58,39 @@ Create a new page and insert the following on it:
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <meta charset="utf-8">
   <title>JSON dot notation practice</title>
-  <script>
+
+<script>
+
 $( document ).ready(function() {
     
-   var john = $( document ).ready(function() {
-                  
-     var john = {
-      "hair": "brown",
-      "eyes": "green",
-      "shoes": {
-          "brand": "nike",
-          "type": "basketball"
-      },
-      "favcolors": [
-          "azure",
-          "goldenrod"
-      ],
-      "children": [
-          {
-              "child1": "Sarah",
-              "age": 2
-          },
-          {
-              "child2": "Jimmy",
-              "age": 5
-          }
-      ]
-  }
+   var john = {
+    "hair": "brown",
+    "eyes": "green",
+    "shoes": {
+        "brand": "nike",
+        "type": "basketball"
+    },
+    "favcolors": [
+        "azure",
+        "goldenrod"
+    ],
+    "children": [
+        {
+            "child1": "Sarah",
+            "age": 2
+        },
+        {
+            "child2": "Jimmy",
+            "age": 5
+        }
+    ]
+}
 
-document.getElementById("output").innerHTML = john.children[0].child1; 
+  document.getElementById("output").innerHTML = john.children[0].child1; 
 
 });
-    
+
+      
 </script>
 </head>
 <body>
@@ -98,25 +101,39 @@ document.getElementById("output").innerHTML = john.children[0].child1;
 </html>
 ```
 
-Here we have a JSON object custom-defined as a variable named `john`. The line that says `document.getElementById("output").innerHTML` will write whatever data we put there to the `output1 tag on the page.
+Here we have a JSON object custom-defined as a variable named `john`. The line that says `document.getElementById("output").innerHTML` will write whatever data we put there to the `output1` tag on the page.
 
-Try to display the following: 
+If you view the page in your browser, you'll see the page says "Sarah" because we're accessing this value: `john.children[0].child1`.
+
+Change `john.children[0].child1` to display the following: 
 
 * green
 * nike
 * goldenrod
 * Sarah
 
-## Answers
+<style>
+#theAnswer2 {display:none;}
+</style>
+<script>
+$( document ).ready(function() {
+$( "#viewAnswers2" ).click(function() {
+  $( "#theAnswer2" ).toggle();
+});
+});
+</script>
 
-* john.eyes
-* john.shoes.brand
-* john.favcolors[1]
-* john.children[0].child1
+<button id="viewAnswers2" class="btn btn-default" >View answers</button>
+<ul id="theAnswer2">
+<li> green: <code>john.eyes</code></li>
+<li> Nike: <code>john.shoes.brand</code></li>
+<li> goldenrod: <code>john.favcolors[1]</code></li>
+<li> Jimmy: <code>john.children[0].child2</code></li>
+</ul>
 
-## Accessing the description
+## Accessing the description from the Weather API
 
-Let's return to the weatherforecasting example. Here's the relevant part of the response that shows the different levels of nesting. I've removed the unnecessary content.
+Let's return to the weather API example. Here's the relevant part of the response that shows the different levels of nesting. I've removed the unnecessary content.
 
 ```
  "query":
@@ -130,21 +147,30 @@ Let's return to the weatherforecasting example. Here's the relevant part of the 
      }
  }
 ```
-query contains an object called `results`, which contains an object called `channel`, which contains an object called `item`, which contains an object called `description`. Objects are set off by curly braces. This is why we access this data by using
+`query` contains an object called `results`, which contains an object called `channel`, which contains an object called `item`, which contains an object called `description`. Objects are set off by curly braces. This is why we access this data by using
 
 ```
 data.query.results.channel.item.description
 ```
 
-## Practice
+## Practice: Get the wind speed from the weather API weatherdata endpoint
 
-Use the right dot notation to find the wind speed.
+Use the correct dot notation to find the wind speed from the weather API's weatherdata endpoint.
 
-Answer: data.query.results.channel.wind.speed
+<style>
+#theAnswer {display:none;}
+</style>
+<script>
+$( document ).ready(function() {
+$( "#viewAnswers" ).click(function() {
+  $( "#theAnswer" ).toggle();
+});
+});
+</script>
 
-{% include restapicourse_next.html %}
+<button id="viewAnswers" class="btn btn-default" >View answers</button>
+<p id="theAnswer"><code>data.query.results.channel.wind.speed</code></p>
 
-{% comment %} 
 ## Embedding the call into our site
 
 At the beginning of the course, I showed an example of where we going. Now let's revisit this code example and see how it's put together. Copy the following code into a basic HTML page, or download it from <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseurl | append: site.suffix }}">here</a>.
@@ -206,12 +232,8 @@ var output = $.ajax({
 </html>
 ```
 
-There are a couple of ways I changed this code from the default Mashape JS query. First, I integrated jQuery so that I could use the `append` method rather than `innerHTML` method from JavaScript. `append` will add the element you specify, whereas `innerHTML` replaces the contents of the element. I think jQuery is also easier to work with.
+There are a couple of ways I changed this code from the default Mashape JS query. First, I integrated jQuery so that I could use the `append` method rather than `innerHTML` method from JavaScript. `append` will add the element you specify, whereas `innerHTML` replaces the contents of the element. (I think jQuery is also easier to work with.)
 
 I pulled out the wind chill, speed, and direction and wrote them to several ID tags on the page. I also the units for these values as well. There's also minimal styling. The button style leverages Bootstrap's button styling.
-
-
-
-{% endcomment %}
 
 

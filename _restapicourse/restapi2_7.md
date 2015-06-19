@@ -122,7 +122,7 @@ Remember that each code sample you provide needs to be tested and maintained. Wh
 
 ## Your turn to practice
 
-As a technical writer, add a code sample to the surfreport/{beachID} endpoint that you're documenting. Use the same code as above, but customize it with the Weather API, and add a short description about why the code is doing what it's doing.
+As a technical writer, add a code sample to the surfreport/{beachId} endpoint that you're documenting. Use the same code as above, but customize it with the Weather API, and add a short description about why the code is doing what it's doing.
 
 Here's my approach: 
 

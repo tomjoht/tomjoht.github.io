@@ -10,13 +10,11 @@ summary: "I'm giving both a workshop and presentation at the STC Summit in Colum
 
 I'm giving a 3.5 hour workshop on API documentation at the STC Summit in Columbus this year. Although I gave some workshops and presentations on APIs earlier this year, for this Summit workshop, I've completely reworked the material and focused almost entirely on REST APIs. I'm really excited about the content I've got in this workshop and hope to repurpose it later with an online learning platform.
 
-The API documentationworkshop is Saturday from 1:00pm to 4:30pm at the Hyatt Regency in Columbus. For details, see [Crash Course in API Documentation (Pre-conference Workshop)](http://lanyrd.com/2015/stc15/sdhdyb/).
+The API documentation workshop is Saturday from 1:00pm to 4:30pm at the Hyatt Regency in Columbus. For details, see [Crash Course in API Documentation (Pre-conference Workshop)](http://lanyrd.com/2015/stc15/sdhdyb/).
 
 ## Upcoming API publishing presentation
 
 I'm also giving a presentation titled [Publishing strategies for API documentation](http://lanyrd.com/2015/stc15/sdhdkt/). This presentation is Monday at 9:45 to 10:30am and is also part of the [STC virtual track](http://summit.stc.org/virtual-track/). This means you can tune in to the talk if you're not going to be at the Summit physically. 
-
-Note that the STC doesn't allow me to record my presentation or workshop.
 
 ## Accepting an award
 
@@ -35,7 +33,7 @@ You can [read the issue here](http://idratherbewriting.com/2014/09/10/stc-interc
 
 It wasn't that difficult at all. We had 10 writers (6 published in the print magazine, and 4 more published in the online version). 
  
- I'm happy to see the STC is recognizing and encouraging more emphasis with API documentation. This year there's an entire API documentation track at the Summit (there are 5 sessions on API documentation, which you can [view by looking at the API tag here](http://lanyrd.com/2015/stc15/jun-22/on/api/)). 
+I'm happy to see the STC is encouraging more attention and focus on API documentation. This year there's an entire API documentation track at the Summit (there are 5 sessions on API documentation, which you can [view by looking at the API tag here](http://lanyrd.com/2015/stc15/jun-22/on/api/)). 
 
 ## Other notes
 

@@ -9,7 +9,7 @@ weight: 1.2
 ---
 {% include notes.html %}
 
-## What is an API
+## An API is an interface between systems
 An API provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
 
 <a href="http://bit.ly/1DexWM0"><img src="{{ "/images/restapicourse/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
@@ -22,17 +22,19 @@ APIs often work in similar ways. But instead of interacting within the same syst
 
 Developers use API calls behind the scenes to pull information into their apps. A button on a GUI may be internally wired to make calls to an external service. For example, the embedded Twitter or Facebook buttons that interact with social networks, or embedded Youtube videos that pull a video in from youtube.com, are both powered by APIs underneath.
 
-## Our course scenario: weather forecast
+## Our course scenario: Weather forecast API
 
-In this course, we're going to use an API in the context of a specific use case: retrieving a weather forecast. Let's say that you want to add a weather forecast feature to your biking site. You want to allow users who come to your site to see what the weather is like for the week. 
+In this course, we're going to use an API in the context of a specific use case: retrieving a weather forecast. By first playing the role of a developer using an API, you'll gain a greater understanding of how your audience will use APIs, the type of information they'll need, and what they might do with the information.
+
+Let's say that you're a web developer and you want to add a weather forecast feature to your biking site. You want to allow users who come to your site to see what the weather is like for the week. 
 
 <img src="{{ "/images/restapicourse/forecast.png" | prepend: site.baseurl }}" alt="" />
 
 You don't have your own meteorological service, so you're going to need to make some calls out to a weather service to get this information. Then you will present that information to users.
 
-## An idea of the end goal
+## Get an idea of the end goal
 
-To give you an idea of the end goal, here's a sample. I want to drive traffic to my biking site by providing a button that answers the question "How windy is it?"
+To give you an idea of the end goal, here's a sample. I want to drive traffic to my biking site by providing a button that answers the question "How windy is it?" Click the button to see wind details.
 
 <style>
    #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
@@ -76,7 +78,7 @@ You can <a href="{{ "/files/restapicourse/windcalls.html" | prepend: site.baseur
 
 Of course, the above example is extremely simple. You could also build an attractive interface [like this](https://weather.yahoo.com/united-states/california/santa-clara-2488836/).
 
-## Find the right API
+## Browse the available APIs on Mashape
 
 Mashape is a directory where publishers can publish their APIs, and where consumers can consume the APIs. Mashape manages the interaction between publishers and consumers by providing an interactive marketplace for APIs.
 
@@ -88,15 +90,15 @@ Go to [mashape.com](http://mashape.com) and click **Explore APIs**. Try to find 
 
 As you explore the various APIs, get a sense of the variety and services that APIs provide. These APIs aren't applications themselves. They provide developers with ways to pipe information into their applications. In other words, the APIs will provide the data plumbing for the applications they build.
 
-## Find "Ultimate Weather Forecast"
+## Find the "Weather" API by fyhao
 
-Look for an API called "Ultimate Weather Forecast." Although there are many weather APIs, this one seems to have the most reviews and is free.
+Look for an API called "Weather," by fyhao. Although there are many weather APIs, this one seems to have a lot of reviews and is free.
 
 <a href="https://www.mashape.com/fyhao/weather-13"><img src="{{ "/images/restapicourse/weatherapi_mashape.png" | prepend: site.baseurl }}" alt="Weather API on Mashape" /></a>
 
 Spend a little time exploring and getting to know the features and information this weather API provides. Click **Test Endpoint** and see what kind of information comes back.
 
-## Answer some basic questions
+## Answer some basic questions about the API
 
 Answer these basic questions about this weather forecast API:
 
@@ -108,7 +110,7 @@ Answer these basic questions about this weather forecast API:
 
 These are common questions developers want to know about an API.
 
-## Terminology tip
+## Terminology tip: API == Endpoint
 
 Sometimes people use API to refer to a whole collection of endpoints, functions, or classes. Other times they use API to refer to a single endpoint. For example, a developer might say, "We need you to document a new API." They mean they added a new endpoint or class to the API, not that they launched an entirely new API service.
 

@@ -16,9 +16,7 @@ redcarpet:
 highlighter: pygments
 gems:
   - jekyll-sitemap
-  - emoji
   - jekyll-mentions
-  - jemoji
 
 #url: "http://tomjohnson1492.github.io"
 url: http://idratherbewriting.com

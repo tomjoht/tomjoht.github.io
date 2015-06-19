@@ -10,8 +10,9 @@ summary: ""
 ---
 {% include notes.html %}
 
-
 ## Complete and accurate docs are most important factor in APIs
+
+Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation in general.
 
 In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07), about 250 developers were asked to rank the most important factors in an API. "Complete and accurate documentation" ranked as #1.
 
@@ -23,11 +24,11 @@ John Musser, one of the founders of Programmableweb.com, has followed up on the 
 
 ## REST APIs are taking off in a huge way
 
-If REST APIs were an uncommon software product, it wouldn't be that big of a deal. But actually, REST APIs, or more generally web APIs, are taking off in a huge way. Through the PEW Research Center, Programmableweb.com has charted and tracked the prevalance of web APIs.
+If REST APIs were an uncommon software product, it wouldn't be that big of a deal. But actually, REST APIs are taking off in a huge way. Through the PEW Research Center, Programmableweb.com has charted and tracked the prevalance of web APIs.
 
 <a href="http://www.slideshare.net/programmableweb/web-api-growthsince2005"><img src="{{ "/images/restapicourse/growthinrestapis.png" | prepend: site.baseurl }}" alt="Growth in web APIs" /></a>
 
-eBay's API in 2005 was one of the first web APIs. Since then, the tremendous growth in web APIs coupled with "complete and accurate" documentation as the number most important factor with APIs, presents a perfect opportunity for technical writers. Technical writers can apply their communication skills to fill a gap in a market that is exploding.
+eBay's API in 2005 was one of the first web APIs. Since then, the tremendous growth in web APIs -- coupled with "complete and accurate" documentation as the number most important factor with APIs -- presents a perfect opportunity for technical writers. Technical writers can apply their communication skills to fill a gap in a market that is exploding.
 
 ## Job market is hot for API technical writers
 Many employers are looking to hire technical writers who can create not only complete and accurate documentation, but who can also create stylish outputs. Here's a recent job posting from a recruiter looking for someone who can emulate Dropbox's documentation.
@@ -42,14 +43,14 @@ Here's what the Dropbox API looks like:
 
 It's not a sophisticated design. But its simplicity and brevity is one of its strengths.
 
-## API doc is a new world
+## API doc is a new world for most tech writers
 
-Unfortunately, API documentation is mostly a new world to technical writers. All the components may seem foreign: 
+API documentation is mostly a new world to technical writers. All the components may seem foreign: 
 
-* Authoring tools
+* API doc authoring tools
 * Developer audience
 * Programming languages
-* Division of content into reference and tutorials
+* Endpoint reference topics
 * Ways the product is used
 
 When you try to navigate the world of API documentation, the world looks as unfamiliar as Mars:

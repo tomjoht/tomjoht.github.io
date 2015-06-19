@@ -9,7 +9,7 @@ weight: 1.5
 ---
 {% include notes.html %}
 
-## Why cURL
+## cURL is a cross-platform way to show requests and responses
 
 Before moving on, let's pause a bit and learn a bit more about cURL. 
 
@@ -21,26 +21,60 @@ cURL provides a generic, language agnostic way to demonstrate HTTP requests and 
 
 *Almost every API shows how to interact with the API using cURL.*
 
-## REST APIs and the web
+## REST APIs follow the same request/return model of the web
 
 One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response a more visual display. But you can also see the raw code. 
 
-## GET this page
+## Try using cURL to GET a web page
 
 To see an example of how cURL retrieves a web resource, open a terminal and type the following:
 
 ```
-curl http://idratherbewriting.com/restapi1_5/
+curl http://idratherbewriting.com
 ```
-You should see all the code behind this page. The browser's job is to make that code visually readable.
 
-## Stuff you don't see
+You should see all the code behind the site [example.com](http://example.com). The browser's job is to make that code visually readable.
 
-When you type an address into a website, you only see the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. 
+## Requests and responses include headers too
 
-## Looking behind the scenes of a web request
+When you type an address into a website, you only see the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. The response also contains a header.
 
-When you go to a website, you submit the request using the GET HTTP method. There are other HTTP methods you can use for server resources. Here are the common methods when working with REST endpoints:
+To see the header, include `-i` in the cURL reqeust:
+
+```
+curl http://idratherbewriting.com -i
+```
+
+The header will be included above the body in the response.
+
+To limit the response to just the header, use `-I`:
+
+```
+curl http://idratherbewriting.com -I
+```
+
+The response header is as follows:
+
+```
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=604800
+Content-Type: text/html
+Date: Fri, 19 Jun 2015 05:58:50 GMT
+Etag: "359670651"
+Expires: Fri, 26 Jun 2015 05:58:50 GMT
+Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+Server: ECS (rhv/818F)
+X-Cache: HIT
+x-ec-custom-error: 1
+Content-Length: 1270
+```
+
+The header contains the metadata about the response.
+
+## Other methods you can use besides GET
+
+When you go to a website, you submit the request using the GET HTTP method. There are other HTTP methods you can use when interacting with REST APIs. Here are the common methods when working with REST endpoints:
 
 | HTTP Method | Description |
 |-----|------|
@@ -49,20 +83,10 @@ When you go to a website, you submit the request using the GET HTTP method. Ther
 | PUT | Update a resource |
 | DELETE | Delete a resource |
 
-## Look at the request headers
 
-1. Download the [Firebug extension for Chrome](https://getfirebug.com/releases/lite/chrome/).
-2. After installing it, click the bug icon in the upper-right corner of your browser.
-3. Go to [Twitter.com](http://twitter.com).
-4. In the Firebug pane at the bottom, expand one of the **GET** requests. This is the HTTP method you used to get the resource.
-5. Click the **Headers** tab. 
-5. Look at the **RequestHeaders** section. It should look something like this:
+## Specifying the method with a cURL call
 
-<img src="{{ "/images/restapicourse/requestheaders.png" | prepend: site.baseurl }}" alt="Request Headers" />
-
-## Submitting requests with cURL
-
-Now let's move away from the browser and start using cURL for our HTTP requests. When you use cURL to make HTTP requests, you need to specify the HTTP method you're using with the request. 
+When you use cURL to make HTTP requests, you need to specify the HTTP method you're using with the request. 
 
 cURL has shorthand names for the various options you include with your request. Let's look more closely at the request you submitted for the weather:
 
@@ -71,15 +95,15 @@ cURL has shorthand names for the various options you include with your request. 
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
   -H 'Accept: text/plain'
 ```
-The `\` just means to start a new line. 
+The `\` just creates a break for a new line. 
 
 Here's what the additional commands mean:
 
 | cURL command | Description |
 |---------|---------|
 | `--get` | The HTTP method to use. Also represented by `-X GET`. |
-| `--include` | Show the response headers in the request. Also represented by `-i`. |
-| `-H` | Submit custom header. Include an additional `-H` for each header you're submitting. Also represented by `--header`. |
+| `--include` | Whether to show the headers in the response. Also represented by `-i`. |
+| `-H` | Submits a custom header. Include an additional `-H` for each header you're submitting. Also represented by `--header`. |
 
 ## Query strings
 
@@ -89,6 +113,10 @@ The latitude and longitude parameters were passed to the endpoint using "query s
 ?lat=37.354108&lng=-121.955236
 ```
 
+## Concatenating parameters
+
+After the query string, each parameter is concatenated with other parameters through the `&` symbol. The order of the parameters usually doesn't matter. It only matters if the parameters are part of the URL path itself (not after the query string).
+
 ## Common cURL commands
 
 cURL has a lot of possible commands, but the following are the most common when working with REST APIs.
@@ -96,11 +124,11 @@ cURL has a lot of possible commands, but the following are the most common when 
 | cURL command | Description | Example |
 |---------|---------|--------|
 | `-i` or `--include` | Include the response headers in the response. | `curl -i http://www.example.com` |
-| `-d` or `--data`  | Include data to post to the URL. The data needs to be [url encoded](http://www.w3schools.com/tags/ref_urlencode.asp). | `curl -d "data-to-post" http://www.example.com`   |
-| `-H` or `--header` | Include a custom header with the request. This is very common with REST API requests because the authorization is usually included here. | `curl -H "key:12345" http://www.example.com`   |
-| `-X <HTTP METHOD>` | The HTTP method to use with the request. If you use `-d` in the request, cURL automatically specifies a POST method. With GET requests, including this is optional. | `curl -X PUT "resource-to-update" http://www.example.com`    |
+| `-d` or `--data`  | Include data to post to the URL. The data needs to be [url encoded](http://www.w3schools.com/tags/ref_urlencode.asp). Data can also be passed in the request body. | `curl -d "data-to-post" http://www.example.com`   |
+| `-H` or `--header` | Submit the request header to the resource. This is very common with REST API requests because the authorization is usually included here. | `curl -H "key:12345" http://www.example.com`   |
+| `-X <HTTP METHOD>` | The HTTP method to use with the request. If you use `-d` in the request, cURL automatically specifies a POST method. With GET requests, including the HTTP method is optional, because GET is the default method used. | `curl -X PUT "resource-to-update" http://www.example.com`    |
 
-## Example
+## Example cURL command
 
 Here's an example that combines some of these commands:
 
@@ -120,20 +148,39 @@ curl -i \
 
 This header instructs the server to process the post body as JSON. The content `person:123` is used to create something.
  
-## Activities
+## Test your memory
 
-Take the following quiz to see how much you remember. 
+Fill in the blanks to see how much you remember:
 
-* -i stands for...
-* -h stands for...
-* -X stands for...
-* -d stands for...
+* `-i` means...
+* `-H` means...
+* `-X POST` means...
+* `-d` means...
+
+<style>
+#theAnswer {display:none;}
+</style>
+<script>
+$( document ).ready(function() {
+$( "#viewAnswers" ).click(function() {
+  $( "#theAnswer" ).toggle();
+});
+});
+</script>
+
+<button id="viewAnswers" class="btn btn-default" >View answers</button>
+<ul id="theAnswer">
+<li> <code>-i</code> means to include the response header</li>
+<li> <code>-H</code> means to pass a header into the request</li>
+<li> <code>-X POST</code> means to use the <code>POST</code> method in the request</li>
+<li> <code>-d</code> means to include data in the request</li>
+</ul>
 
 ## More Resources
 
 To learn more about cURL with REST documentation, see [REST-esting with cURL](http://blogs.plexibus.com/2009/01/15/rest-esting-with-curl/).
 
-{{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install via the command line that <i>just work</i> on a Mac. You won't constantly be needing to add things "to your path". {{end}}
+{{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that <i>just work</i> on a Mac. You won't constantly be needing to add utilities "to your path". {{end}}
 
 
 

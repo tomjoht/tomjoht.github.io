@@ -17,9 +17,9 @@ Almost every API has a method in place to authenticate requests. You usually hav
 * Rate limit the number of requests
 * Control availability of certain features within the API
 
-{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you must cover in API documentation.{{end}}
+{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation.{{end}}
 
-## Get the authorization keys
+## Get the Mashape authorization keys
 
 In order to get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
 
