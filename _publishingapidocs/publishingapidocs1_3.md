@@ -4,46 +4,42 @@ permalink: /publishingapidocs1-3/
 course: "Publishing API documentation"
 weight: 1.3
 ---
+## How Miredot works
 
-## How platform API doc is generated
-<a href="http://www.miredot.com/exampledocs/"><img src="{{ "/images/publishingapidocs/miredot.png" | prepend: site.baseurl }}" alt="Miredot" /></a>
+One of the tools you can use to generate API documentation from source -- as long as your source is Java-based -- is Miredot. 
 
-## ACTIVITY: Browse a source-generated doc
+Miredot is a plugin for Maven, which is a build tool that you integrate into your Java IDE. Miredot can generate an offline website that looks like this: 
 
-Go to [Miredot's example](http://www.miredot.com/exampledocs/) and browse it.
+<a href="http://miredot.com/exampledocs/"><img src="{{ "/images/publishingapidocs/miredotexample.png" | prepend: site.baseurl }}" alt="Miredot example" /></a>
 
-## Platform APIs generate from source
-- javadoc, doxygen, pydoc --> documents programming code
-- document generators look through the source code and render the doc from it
-- compare to a glorified source code browser. 
-- just contains the reference doc, nothing more
-- intended for engineers, fits into their workflow 
+You can read the [Getting started guide](http://miredot.com/docs/getting-started/) for Miredot for instructions on how to incorporate it into your Java project.
 
-## Document generators require precise structure
-- doc validates against parameters, throws errors if they don't match
-- prevents doc drift
+Miredot leverages both Javadocs and JAXB annotations in the source code to generate the output. 
 
-## Some reference APIs also generate from source
-- not as applicable to REST APIs because REST is an http protocol. it's not tied to a specific language.
-- most REST API docs aren't generated from source, but there are some standards
+## Example annotations
 
-## Pros of generating doc from source 
-- avoids doc drift
-- empowers devs to write
-- doc travels with code
+Here's an example of what these annotations look like. Look at the [CatalogService.java](https://github.com/Qmino/miredot-petstore/blob/master/src/main/java/com/qmino/miredot/petstore/service/CatalogService.java) file. In it, one of the methods is `updateCategory`. 
 
-## Cons of generating doc from source
-- developers write
-- hard to integrate with user guide
-- have to plug into dev's source control to work with the docs
+You can see that above this method is a "doc block" that provides a description, the parameters, method, and other details:
 
-## Source-generated doc is really appropriate if your devs are writing the doc
-- reduces doc drift
-- puts writing task into developer toolset
-- if you don't really want devs writing, then there's not much reason to bother with this
+```
+    /**
+     * Update category name and description. Cannot be used to edit products in this category.
+     *
+     * @param categoryId The id of the category that will be updated
+     * @param category   The category details
+     * @summary Update category name and description
+     */
+    @PUT
+    @Path("/category/{id}")
+    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public void updateCategory(@PathParam("id") Long categoryId, Category category);
+```
 
-## Problems with having devs write
- - curse of knowledge
- - they wrote the code, so it seems obvious to them how it works
- - they will use jargon
- - this stuff doesn't integrate with user docs
+Miredot consumes this information and generates an output. To find how this information gets rendered in the output, go to the [Petstore example docs](http://miredot.com/exampledocs/), expand **Catalog > Category** on the right, and then select **PUT**. Or go directly [here](http://www.miredot.com/exampledocs/#268738548).
+
+<a href="http://www.miredot.com/exampledocs/#268738548"><img src="{{ "/images/publishingapidocs/miredotupdatecategory.png" | prepend: site.baseurl }}" alt="Miredot update category" /></a>
+
+If you browse the navigation of Miredot's output, it's an interesting-looking solution. This kind of documentation might fit a Java-based REST API well.
+
+But the authoring of the docs would really only work for Java developers. It wouldn't work well for technical writers unless you're plugged into the source control workflow.

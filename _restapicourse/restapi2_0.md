@@ -25,8 +25,7 @@ It's now your task to sort through the information on this page and create docum
 
 Read through the wiki page to get a sense of the information. The upcoming topics will guide you through creating documentation for this new endpoint.
 
-<div style="background-color: #eef7fa; padding: 15px; border: 1px solid #dedede;">
-
+<div class="fakePage">
 <h2>The wiki page: "Surf Report API</h2>
 
 <p>The new endpoint is <code>/surfreport/{beachId}</code>. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachId}` is retrieved from a list of beaches on our site.</p>

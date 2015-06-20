@@ -558,7 +558,7 @@ a.fa.fa-envelope-o.mailto {
   font-weight: 600;
 }
 
-h3 {color: #b62273; font-weight:normal; font-size:155%;}
+h3 {color: #b62273; font-weight:normal; font-size:125%; margin-bottom:15px;}
 
 .alert, .callout {
     overflow: hidden;
@@ -790,7 +790,7 @@ button.navbar-toggle {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 h1.title topictitle1 {display:none;}
@@ -853,4 +853,18 @@ font-size:14px;
 
 .socialArea {
     margin: 15px; 5px;
+}
+
+.fakePage {
+    background-color: #eef7fa;
+    padding: 15px;
+    border: 1px solid #dedede;
+}
+
+.fakePage table tr {
+    background-color: white;
+}
+
+img a, a {
+    cursor: hand;
 }

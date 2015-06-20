@@ -1,6 +1,6 @@
 ---
 title: 2.5 Documenting sample responses in REST APIs
-permalink: /restapicourse2-4/
+permalink: /restapicourse2-5/
 categories:
 - api-doc
 keywords: 

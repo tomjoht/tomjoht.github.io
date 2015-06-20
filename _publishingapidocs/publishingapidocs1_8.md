@@ -11,31 +11,29 @@ Static site generators are a breed of website compilers that package up a group 
 
 Jekyll is one of the most popular static site generators. All of my help content is on Jekyll. You can publish a fully functional tech comm website that includes content re-use, conditional filtering, variables, PDF output, and everything else you might need as a technical writer.
 
-## Why static site generators are awesome
+## Static site generators give you a flexible web platform
 
-- write in text
-- can easily travel with code
-- easy to construct templates
-- easy to manipulate stuff through JS
-- easy to theme an existing template and create a site
-- works with git
-- don't store code samples that get munged
+Static site generators give you a lot of flexibility. They're a good choice if you need a lot of flexibility and control over your site. You're not just plugging into an existing API documentation framework or architecture. You define your own templates and structure things however you want.
 
-## Sample doc sites made with static site generators
+With static site generators, you can do the following:
 
-## Different model
-- treat doc as code
-- revision control
+* Write in a text editor
+* Create custom templates for documentation
+* Use a revision control repository workflow
+* Customize the look and feel of the output
+* Insert JavaScript and other code directly on the page
 
-## ACTIVITY: Publishing the surfreport in a Jekyll theme
+## Publish the surfreport in a Jekyll theme
 
 In this activity, you'll publish an endpoint in a Jekyll theme.
 
 The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) by Cloud Cannon is designed for REST APIs. You'll use this theme to input a new endpoint. If you're continuing on from the previous course (Documenting REST APIs), you already have a new endpoint called surfreport.
 
+<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="{{ "/images/publishingapidocs/aviatortheme.png" | prepend: site.baseurl }}" alt="Cloud Cannon Aviator theme" /></a>
+
 {{note}} If you're on a Mac (with Rubygems and Jekyll installed), building Jekyll sites is a lot simpler. But even if you're on Windows, it won't matter for this tutorial. You'll be using CloudCannon, a SaaS website builder product, to build the Jekyll files.{{end}}
  
-### Download the Jekyll Aviator theme
+### a. Download the Jekyll Aviator theme
 
 1. Go to [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) and click the **Download ZIP** button.
 	
@@ -43,7 +41,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 	 
 2. Unzip the files. 
 
-### Add the weatherdata endpoint doc to the theme
+### b. Add the weatherdata endpoint doc to the theme
  
 1. Browse to the theme's files. In the _api folder, open 1_1_books_list.md in a text editor and look at the format. 
 	
@@ -52,11 +50,11 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 	The frontmatter is formatted in a syntax called YML. YML is similar to JSON but uses spaces and hyphens instead of curly braces. This makes it more human readable.
 	
 2. Create a new file called 1-6_weatherdata.md and save it the same _api folder. 
-3. Get the data from the weatherdata endpoint from this [Weather API on Mashape](https://www.mashape.com/fyhao/weather-13#weatherdata). (This is an API we worked with extensively in the previous course (Documenting REST APIs).) Put the data from this endpoint into the Aviator theme's template.
+3. Get the data from the weatherdata endpoint from this [Weather API on Mashape](https://www.mashape.com/fyhao/weather-13#weatherdata). (This is an API we worked with extensively in the <a href="{{ "/restapicourse" | prepend: site.baseurl | append: site.suffix }}">REST API course</a>previous course (Documenting REST APIs).) Put the data from this endpoint into the Aviator theme's template.
 	
 	The Aviator Jekyll theme has a specific layout that will be applied to all the files inside the _api folder (these files are called a collection). Jekyll will access these values by going to api.title, api.type, and so forth. It will then push this content into the template (which you can see by going to _layouts/multi.md). 
 	
-	Here's what my 1-6_weatherdata.md file looks like. Be sure to put the response within square brackets, indented with one tab (4 spaces):
+	Here's what my 1-6_weatherdata.md file looks like. Be sure to put the response within square brackets, indented with one tab (4 spaces). You can also <a href="{{ "/files/publishingapidocs/1-6_weatherdata.md" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>. Remove the `raw` and `endraw` tags at the beginning and end of the code sample (which I had to add to keep Jekyll from trying to process it.)
 	
 	```
 	---
@@ -214,19 +212,8 @@ curl --get --include 'https://simple-weather.p.mashape.com/weatherdata?lat=1.0&l
 </div>
 
     ---
-    
-    <div class="code-viewer">
-    
-    <pre data-language="cURL">
-    curl --get --include 'https://simple-weather.p.mashape.com/weatherdata?lat=1.0&lng=1.0' \
-      -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' \
-      -H 'Accept: application/json'
-      </pre>
-    
-    </div>
-    ```
 
-## Publish your Jekyll project on CloudCannon
+### c. Publish your Jekyll project on CloudCannon
 
 In this example, we'll use CloudCannon to build and publish the Jekyll site. 
 
@@ -263,5 +250,5 @@ Each time you save the site, CloudCannon actually rebuilds the Jekyll files into
 
 Jekyll is a good solution because it provides near infinite flexibility and fits well within the UX web stack. CloudCannon provides an easy way to allow subject matter experts to author and edit content, since CloudCanonn allows you to create editable regions within your Jekyll theme. This would allow a tools team to  maintain the site while providing areas for less technical people to author content.
 
-However, CloudCannon wouldn't be a good solution if your docs require authentication in a higly secure environment. Additionally, Jekyll only provide static HTML files. If you want users to log in, and then personalize what they see when logged in, Jekyll won't provide this experience.
+However, CloudCannon wouldn't be a good solution if your docs require authentication in a highly secure environment. Additionally, Jekyll only provide static HTML files. If you want users to log in, and then personalize what they see when logged in, Jekyll won't provide this experience.
 

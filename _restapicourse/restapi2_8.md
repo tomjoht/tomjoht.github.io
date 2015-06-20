@@ -14,39 +14,58 @@ In this example, let's pull together the various parts you've worked on to showc
 
 Here's my example. 
 
-# surfreport/{beachId}
+<div class="fakePage">
+<h1 id="surfreport/{beachid}">surfreport/{beachId}</h1>
 
-Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing. 
+<p>Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing. </p>
 
-`{beachId}` refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.
+<p><code>{beachId}</code> refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.</p>
 
-## Endpoint definition
+<h2 id="endpoint-definition">Endpoint definition</h2>
 
-`surfreport/{beachId}`
+<p><code>surfreport/{beachId}</code></p>
 
-## HTTP method
+<h2 id="http-method">HTTP method</h2>
 
-<span class="label label-primary">GET</span> 
+<p><span class="label label-primary">GET</span> </p>
 
-## Parameters
+<h2 id="parameters">Parameters</h2>
 
-| Parameter | Description | Data Type | 
-|-----------|------|-----|-----------|
-| days | *Optional*. The number of days to include in the response. Default is 3. | integer | 
-| units | *Optional*. Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius. | string |
-| time | *Optional*. If you include the time, then only the current hour will be returned in the response.| integer. Unix format (ms since 1970) in UTC. |
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Data Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>days</td>
+<td><em>Optional</em>. The number of days to include in the response. Default is 3.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>units</td>
+<td><em>Optional</em>. Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius.</td>
+<td>string</td>
+</tr>
+<tr>
+<td>time</td>
+<td><em>Optional</em>. If you include the time, then only the current hour will be returned in the response.</td>
+<td>integer. Unix format (ms since 1970) in UTC.</td>
+</tr>
+</tbody></table>
 
-## Sample request
+<h2 id="sample-request">Sample request</h2>
 
-```
+{% highlight bash %}
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
   -H 'Accept: application/json'
-```
+{% endhighlight %}
 
-## Sample response
+<h2 id="sample-response">Sample response</h2>
 
-```json
+{% highlight json %}
 {
     "surfreport": [
         {
@@ -77,36 +96,79 @@ curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=
         }
     ]
 }
-```
+{% endhighlight %}
 
-The following table describes each item in the response.
+<p>The following table describes each item in the response.</p>
 
-|Response item | Description |
-|----------|------------|
-| **beach** | The beach you selected based on the beach ID in the request. The beach name is the official name as described in the National Park Service Geodatabase. | 
-| **{day}** | The day of the week selected. A maximum of 3 days get returned in the response. | 
-| **{time}** | The time for the conditions. This item is only included if you include a time parameter in the request. | 
-| **{day}/{time}/tide** | The level of tide at the beach for a specific day and time. Tide is the distance inland that the water rises to, and can be a positive or negative number. When the tide is out, the number is negative. When the tide is in, the number is positive. The 0 point reflects the line when the tide is neither going in nor out but is in transition between the two states. | 
-| **{day}/{time}/wind** | The wind speed at the beach, measured in knots per hour or kilometers per hour depending on the units you specify. Wind affects the surf height and general wave conditions. Wind speeds of more than 15 knots per hour make surf conditions undesirable, since the wind creates white caps and choppy waters. | 
-| **{day}/{time}/watertemp** | The temperature of the water, returned in Farenheit or Celsius depending upon the units you specify. Water temperatures below 70 F usually require you to wear a wetsuit. With temperatures below 60, you will need at least a 3mm wetsuit and preferably booties to stay warm.|
-| **{day}/{time}/surfheight** | The height of the waves, returned in either feet or centimeters depending on the units you specify. A surf height of 3 feet is the minimum size needed for surfing. If the surf height exceeds 10 feet, it is not safe to surf. | 
-| **{day}/{time}/recommendation** | An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) "Go surfing!", (2) "Surfing conditions are okay, not great", and (3) "Not a good day for surfing." Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yeilds response 3. | 
+<table><thead>
+<tr>
+<th>Response item</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><strong>beach</strong></td>
+<td>The beach you selected based on the beach ID in the request. The beach name is the official name as described in the National Park Service Geodatabase.</td>
+</tr>
+<tr>
+<td><strong>{day}</strong></td>
+<td>The day of the week selected. A maximum of 3 days get returned in the response.</td>
+</tr>
+<tr>
+<td><strong>{time}</strong></td>
+<td>The time for the conditions. This item is only included if you include a time parameter in the request.</td>
+</tr>
+<tr>
+<td><strong>{day}/{time}/tide</strong></td>
+<td>The level of tide at the beach for a specific day and time. Tide is the distance inland that the water rises to, and can be a positive or negative number. When the tide is out, the number is negative. When the tide is in, the number is positive. The 0 point reflects the line when the tide is neither going in nor out but is in transition between the two states.</td>
+</tr>
+<tr>
+<td><strong>{day}/{time}/wind</strong></td>
+<td>The wind speed at the beach, measured in knots per hour or kilometers per hour depending on the units you specify. Wind affects the surf height and general wave conditions. Wind speeds of more than 15 knots per hour make surf conditions undesirable, since the wind creates white caps and choppy waters.</td>
+</tr>
+<tr>
+<td><strong>{day}/{time}/watertemp</strong></td>
+<td>The temperature of the water, returned in Farenheit or Celsius depending upon the units you specify. Water temperatures below 70 F usually require you to wear a wetsuit. With temperatures below 60, you will need at least a 3mm wetsuit and preferably booties to stay warm.</td>
+</tr>
+<tr>
+<td><strong>{day}/{time}/surfheight</strong></td>
+<td>The height of the waves, returned in either feet or centimeters depending on the units you specify. A surf height of 3 feet is the minimum size needed for surfing. If the surf height exceeds 10 feet, it is not safe to surf.</td>
+</tr>
+<tr>
+<td><strong>{day}/{time}/recommendation</strong></td>
+<td>An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) &quot;Go surfing!&quot;, (2) &quot;Surfing conditions are okay, not great&quot;, and (3) &quot;Not a good day for surfing.&quot; Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yeilds response 3.</td>
+</tr>
+</tbody></table>
 
-## Error and status codes
+<h2 id="error-and-status-codes">Error and status codes</h2>
 
-The following table lists the status and error codes related to this request.
+<p>The following table lists the status and error codes related to this request.</p>
 
-| Status code | Meaning | 
-|--------|----------|
-| 200 | Successful response |
-| 400 | Bad request -- one or more of the parameters was rejected. |
-| 4112 | The beach ID was not found in the lookup. |
+<table><thead>
+<tr>
+<th>Status code</th>
+<th>Meaning</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>Successful response</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request -- one or more of the parameters was rejected.</td>
+</tr>
+<tr>
+<td>4112</td>
+<td>The beach ID was not found in the lookup.</td>
+</tr>
+</tbody></table>
 
-## Code example
+<h2 id="code-example">Code example</h2>
 
-The following code samples shows how to use the surfreport endpoint to get the surf conditions for a specific beach. In this case, the code is just showing the overall recommendation about whether to go surfing.
+<p>The following code samples shows how to use the surfreport endpoint to get the surf conditions for a specific beach. In this case, the code is just showing the overall recommendation about whether to go surfing.</p>
 
-```html
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -139,15 +201,21 @@ The following code samples shows how to use the surfreport endpoint to get the s
 </script>
 </head>
 <body>
-	
-  <button onclick="getSurfReport()">See the surfing recommendation</button>
-  <div id="output"></div>
-  
-</body>
-</html>
-```
+{% endhighlight %}
 
-In this example, the `ajax` method from jQuery is used because it allows cross-origin resource sharing (CORS) for the weather resources. In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.
+<p>In this example, the <code>ajax</code> method from jQuery is used because it allows cross-origin resource sharing (CORS) for the weather resources. In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.</p>
 
-For simple demo purposes, the response is assigned to the `data` argument of the success method, and then written out to the `output` tag on the page. We're just getting the surfing recommendation, but there's a lot of other data you could choose to display.
+<p>For simple demo purposes, the response is assigned to the <code>data</code> argument of the success method, and then written out to the <code>output</code> tag on the page. We&#39;re just getting the surfing recommendation, but there&#39;s a lot of other data you could choose to display.</p>
+
+</div>
+
+## Markdown syntax
+
+Markdown provides an easy syntax for creating HTML. To view the the Markdown formatting for this content, see the <a href="{{ "/files/restapicourse/surfreportendpointdoc.md" | prepend: site.baseurl}}">surfreportendpointdoc.md</a>.
+
+## Structure and templates
+
+If you have a lot of endpoints to document, you'll probably want to create templates that follow a common structure. 
+
+Additionally, if you want to add a lot of styling to each of the elements, you may want to push each of these elements into a template by way of a script. I'll talk more about publishing in the next course, Publishing API Documentation.
 

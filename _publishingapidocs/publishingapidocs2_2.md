@@ -5,10 +5,9 @@ course: "Publishing API documentation"
 weight: 2.2
 ---
 
-
 ## What are design patterns
 
-Design patterns are common themes in the way something is designed. In looking over the many API doc sites, I tried to find some common design patterns in the way the content was published. I already mentioned the division between guides, tutorials, and reference documentation. But this is more of a content pattern than a design pattern. 
+Design patterns are common themes in the way something is designed. In looking over the many API doc sites, I tried to find some common design patterns in the way the content was published. I already mentioned the division between guides, tutorials, and reference documentation. Here I want to explore more design-specific elements in API doc sites.
 
 <a href="https://flic.kr/p/ssQqiL"><img src="{{ "/images/publishingapidocs/patterns.png" | prepend: site.baseurl }}" alt="Earth patterns, Venefice. Flickr" /></a>
 
@@ -30,9 +29,10 @@ Here are some non-patterns. By this, I mean these are elements that aren't as co
 
 * PDF output
 * Mobile display
-* Wikis
-* Comments
+* Comments on pages
 * Video tutorials
+
+By non-patterns, it's not to say these elements aren't a good idea. But generally they aren't emphasized in many of the API doc sites.
 
 
 
