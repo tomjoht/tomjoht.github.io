@@ -1,6 +1,6 @@
 ---
 title: 1.4 Make a cURL call
-permalink: /restapi1course1-4/
+permalink: /restapicourse1-4/
 categories:
 - api-doc
 keywords: 
