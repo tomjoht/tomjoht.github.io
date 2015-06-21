@@ -17,12 +17,12 @@ Here are a few questions to consider:
 * Will developers be writing or contributing to the content?
 * Does your security group restrict you from using third-party platforms to host documentation?
 * Do you have a budget to pay a third-party platform for hosting?
-* Do you want to manage the web platform details yourself or offload this onto another service?
+* Do you want to manage the web platform details yourself or offload this onto another group/company?
 * How many endpoints do you have to document?
 * Should you push documentation from the source into your documentation?
-* Can the documentation need be visible on the web, or does it need to be private?
+* Does the documentation need be visible on the web, or does it need to be private?
 * To what extent do you want customers to have a one-stop-shopping experience &mdash; reading docs, logging support tickets, posting to forums, viewing news?
-* Do you have UX resources to help you build a solution?
+* Do you have UX resources to help build a custom solution?
 
 ## What publishing tools did you choose?
 
