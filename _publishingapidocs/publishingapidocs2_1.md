@@ -26,7 +26,7 @@ HATs reinforce the fact that good API documentation is more than just a set of e
 
 ## Cons of using a help authoring tool
 
-### Most don't run on Macs
+### Most HATs don't run on Macs
 Using a HAT also presents some disadvantages. First, almost no HAT runs on a Mac. But many developers and designers prefer Macs because they have a much better development platform. For example, to make a cURL call, you just open Terminal and paste in the call. With a Windows machine, installing cURL and libcurl is much more onerous and harder to use.
 
 ### Dated UI won't help sell the product

@@ -1,5 +1,5 @@
 ---
-title: "2.0 Doc-only publishing platforms"
+title: "2.0 Doc-only publishing platforms (readme.io)"
 permalink: /publishingapidocs2-0/
 course: "Publishing API documentation"
 weight: 2.0

@@ -261,7 +261,7 @@ To create a Swagger spec file:
 ### Interact with the Swagger UI
 
 1. Go to Google Maps and search for an address.
-2. Get the latitude and longitude from the URL, and plug it into your Swagger UI. For example, (37.3708905, -121.9675525 is Santa Clara, California). 
+2. Get the latitude and longitude from the URL, and plug it into your Swagger UI. (For example, 37.3708905, -121.9675525 is Santa Clara, California.)
 3. Click **Try it out**.
 	
 	If successful, you should see something in the response body like this:

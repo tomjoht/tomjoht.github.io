@@ -868,3 +868,9 @@ font-size:14px;
 img a, a {
     cursor: hand;
 }
+
+blockquote {
+    color: gray;
+    font-style: italic;
+    border-left-color: orange;
+}

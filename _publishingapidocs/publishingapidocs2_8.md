@@ -7,7 +7,8 @@ weight: 2.8
 
 ## Translation
 
-## Different programming languages (same material, but substantially diff in places)
+## Different programming languages 
+same material, but substantially diff in places
 
 
 ## Versioning

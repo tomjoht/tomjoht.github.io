@@ -8,7 +8,7 @@ weight: 1.7
 
 ## API Blueprint
 
-Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md). If you describe your API with this blueprint, then different tools can read and display the information. 
+Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)). If you describe your API with this blueprint, then different tools can read and display the information. 
 
 The API Blueprint spec is written in a Markdown-flavored syntax. It's not normal Markdown, but it has a lot of the same Markdown syntax. You have to describe your API using the API Blueprint schema in order for various tools to parse it. 
 

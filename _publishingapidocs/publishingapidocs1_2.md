@@ -74,7 +74,7 @@ Capturing and describing the interdependencies, goals, workflows, and other task
 
 Documentation generated from the source doesn’t integrate directly into a website except as a link from your other web pages. Like a HAT-produced webhelp file, the auto-doc is its own little website. Here's an example from Netty's documentation that shows how the auto-generated doc is separate from the rest of the site. 
 
-<a href=""><img src="{{ "/images/publishingapidocs/nointegration.png" | prepend: site.baseurl }}" alt="No integration" />
+<a href=""><img src="{{ "/images/publishingapidocs/nointegration.png" | prepend: site.baseurl }}" alt="No integration" /></a>
 
 Having separate outputs creates a somewhat fragmented or disjointed documentation experience. Branding the outputs to create one seamlessly branded site may require a lot of cobbling together and overwriting of stylesheets.
 
