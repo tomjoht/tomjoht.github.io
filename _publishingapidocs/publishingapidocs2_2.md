@@ -15,10 +15,10 @@ Design patterns are common themes in the way something is designed. In looking o
 
 Here are several design patterns with API doc sites:
 
-* One integrated website
+* Structure and templates
+* Website platform
 * Abundant code examples
 * Longish pages
-* Web access and availability
 * Interactive API explorers
 
 I'll explore each of these elements in depth in upcoming pages.

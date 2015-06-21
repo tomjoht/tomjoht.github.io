@@ -1,5 +1,5 @@
 ---
-title: "1.3 Generating Reference Doc from Source"
+title: "1.3 Generating Reference Doc from Source (Miredot)"
 permalink: /publishingapidocs1-3/
 course: "Publishing API documentation"
 weight: 1.3
@@ -36,7 +36,12 @@ You can see that above this method is a "doc block" that provides a description,
     public void updateCategory(@PathParam("id") Long categoryId, Category category);
 ```
 
-Miredot consumes this information and generates an output. To find how this information gets rendered in the output, go to the [Petstore example docs](http://miredot.com/exampledocs/), expand **Catalog > Category** on the right, and then select **PUT**. Or go directly [here](http://www.miredot.com/exampledocs/#268738548).
+Miredot consumes this information and generates an output. 
+
+## Activity: Explore Miredot's output
+
+1. First browse the [Miredot sample code](https://github.com/Qmino/miredot-petstore/blob/master/src/main/java/com/qmino/miredot/petstore/service/CatalogService.java).
+2. To see how this information gets rendered in the Miredot output, go to the [Petstore example docs](http://miredot.com/exampledocs/), expand **Catalog > Category** on the right, and then select **PUT**. Or go directly [here](http://www.miredot.com/exampledocs/#268738548).
 
 <a href="http://www.miredot.com/exampledocs/#268738548"><img src="{{ "/images/publishingapidocs/miredotupdatecategory.png" | prepend: site.baseurl }}" alt="Miredot update category" /></a>
 

@@ -5,19 +5,18 @@ course: "Publishing API documentation"
 weight: 1.0
 ---
 
-
 ## Course prerequisites
 
-Before taking this course, complete the <a href="{{ "/restapicourse" | prepend: site.baseurl }}">Documenting REST APIs course</a> first. 
+Before taking this course, consider completing the <a href="{{ "/restapicourse" | prepend: site.baseurl }}">Documenting REST APIs course</a> first. It's not a prerequisite, but these courses were meant to complement each other. 
 
-In the Documenting REST APIs course, we use a simple [Weather API from Mashape](https://www.mashape.com/fyhao/weather-13) to demonstrate how to use and create a REST API. In this course, we'll explore various  tools to publish information from that Mashape Weather API.
+In the Documenting REST APIs course, we use a simple [Weather API from Mashape](https://www.mashape.com/fyhao/weather-13) to demonstrate how to use and create a REST API. In this course, we'll explore various tools to publish information from that Mashape Weather API. If you see references to this API, know that it's a continued theme from the previous course.
 
 ## What you'll need
 
 Make sure you have the following before starting this course:
 
 * **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC). On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
-* **Git*. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
+* **Git**. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.
 
@@ -26,10 +25,10 @@ The first question about a course on publishing API documentation might be, why?
  
  API documentation merits its own course and focus separate from regular documentation publishing strategies for several reasons:
  
- * The content is significantly more technical than GUI doc. As a result, it's sometimes written by engineers.
- * The content of APIs follows common patterns and themes specific to the API genre. 
- * API doc follows a historical tradition of generating documentation from the source code through annotations in the code. Though not as common with REST APIs, generating from source was the norm for Java, C++ and C# API docs.
- * The main result of most tasks is to get a little information object returned to the browser. Understanding how to work with this returned information and make use of it involves code samples and other programming functions.
+ * **Engineers sometimes write the doc.** The content is significantly more technical than GUI doc. As a result, it's sometimes written by engineers.
+ * **Common endpoint structures.** The content of APIs follows common patterns and themes specific to the API genre. 
+ * **Generating from source code.** API doc follows a historical tradition of generating documentation from the source code through annotations in the code. Though not as common with REST APIs, generating from source was the norm for Java, C++ and C# API docs.
+ * **Result is information object.** The main result of most tasks is to get a little information object returned to the browser. Understanding how to work with this returned information and make use of it involves code samples and other programming functions.
 
 ## Different kinds of APIs
 In approaching the topic of APIs, I acknowledge that there's a wide diversity of APIs. Sarah Maddox describes these different types of APIs in her post [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).
@@ -64,7 +63,7 @@ The problem is that much of the content for APIs is highly technical. It can be 
 
 In many cases, you may be facilitating the publishing of information. Most engineers know next to nothing about content re-use, conditional filtering, single sourcing, and publishing. Technical writers can add value by editing, structuring, and publishing this highly technical content. 
 
-## My focus here on publishing strategies, not intro to APIs
+## My focus here on publishing strategies &mdash; not an intro to APIs
 
 One of the goals of this course is to explore the many ways to publish API documentation.
 

@@ -5,14 +5,13 @@ course: "Publishing API documentation"
 weight: 1.7
 ---
 
-
 ## API Blueprint
 
 Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)). If you describe your API with this blueprint, then different tools can read and display the information. 
 
-The API Blueprint spec is written in a Markdown-flavored syntax. It's not normal Markdown, but it has a lot of the same Markdown syntax. You have to describe your API using the API Blueprint schema in order for various tools to parse it. 
+The API Blueprint spec is written in a Markdown-flavored syntax. It's not normal Markdown, but it has a lot of the same, familiar Markdown syntax. However, the blueprint is clearly a very specific schema that is either valid or not valid based on the element names, order, spacing, and other details. In this way, it's not nearly as flexible or forgiving as pure Markdown.
 
-## Sample Blueprint
+## Sample blueprint
 
 Here's a sample blueprint to give you an idea of the syntax:
 
@@ -200,21 +199,19 @@ form of choices.
             }
 ```
 
-For a tutorial on the blueprint syntax, see this [Apiary tutorial](https://apiary.io/blueprint) or  [this tutorial on Github](https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md).
+For a tutorial on the blueprint syntax, see this [Apiary tutorial](https://apiary.io/blueprint) or [this tutorial on Github](https://github.com/apiaryio/api-blueprint/blob/master/Tutorial.md).
 
-You can find [examples of different blueprints here](https://github.com/apiaryio/api-blueprint/tree/master/examples). 
+You can find [examples of different blueprints here](https://github.com/apiaryio/api-blueprint/tree/master/examples). The examples can often clarify different aspects of the spec.
 
 ## Parsing the blueprint
 
-There are many tools that can parse an API blueprint. [Drafter](https://github.com/apiaryio/drafter) parses the Blueprint. Many other tools build on Drafter and generate static HTML outputs of the blueprint. 
-
-For example, [aglio](https://github.com/danielgtaylor/aglio) can parse a blueprint and generate 
+There are many tools that can parse an API blueprint. [Drafter](https://github.com/apiaryio/drafter) is one of the main parsers of the Blueprint. Many other tools build on Drafter and generate static HTML outputs of the blueprint. For example, [aglio](https://github.com/danielgtaylor/aglio) can parse a blueprint and generate static HTML files.
 
 For a more comprehensive list of tools, see the [Tooling](https://apiblueprint.org/#tooling) section on apiblueprint.org.
 
-## Tutorial
+## Create a sample HTML output using API Blueprint and Apiary
 
-For this tutorial, we'll use a platform called Apiary to read and display an API Blueprint. 
+For this tutorial, we'll use a platform called Apiary to read and display the API Blueprint. Apiary is just a hosted platform that will remove the need for installing local libraries and utilities to generate the output.
 
 ### a. Create a new Apiary project
 
@@ -227,16 +224,172 @@ You'll be placed in the API Blueprint editor.
 
 By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
 
+3. At this point, you would start describing your API using the blueprint syntax in the editor. When you make a mistake, error flags indicate what's wrong. 
 
+You can [read the Apiary tutorial](https://apiary.io/blueprint) and structure your documentation in the blueprint format. The syntax seems to accommodate different methods applied to the same resources. 
 
-## Mulesoft and RAML
-<a href="https://developer.mulesoft.com/"><img src="{{ "/images/publishingapidocs/mulesoft.png" | prepend: site.baseurl }}" alt="Mulesoft, all-in-one API solution" /></a>
-* [Mulesoft](https://www.mulesoft.com/): Publish documentation following RAML using the API Designer editor
+For this tutorial, you'll integrate the Mashape weather API information info formatted in the blueprint format. Here's a sample file <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">apiblueprintweatherdata.md</a>
 
+4. Copy the content from the apiblueprintweatherdata.md file and paste it into the Apiary blueprint editor.
 
-## Restlet Studio
-* [Restlet Studio](http://studio.restlet.com/#/)
+	```
+	FORMAT: 1A
+	HOST: https://simple-weather.p.mashape.com
+	
+	# Weather API
+	
+	Display Weather forecast data by latitude and longitude. Get raw weather data OR simple label description of weather forecast of some places.
+	
+	# Weather API Root [/]
+	
+	# Group Weather
+	
+	Resources related to weather in the API.
+	
+	## Weather data [/weatherdata{?lat}{?lng}]
+	
+	### Get the weather data [GET]
+	
+	Get the weather data in your area.
+	
+	+ Parameters
+	    + lat: 55.749792 (required, number) - Latitude
+	    + lng: 37.632495 (required, number) - Longitude
+	
+	+ Request JSON Message
+	
+	    + Headers
+	    
+	            X-Mashape-Authorization: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET
+	            Accept: text/plain
+	
+	+ Response 200 (application/json)
+	            
+	    + Body
+	    
+	            [
+	                {
+	              "query": {
+	                "count": 1,
+	                "created": "2014-05-03T03:57:53Z",
+	                "lang": "en-US",
+	                "results": {
+	                  "channel": {
+	                    "title": "Yahoo! Weather - Tebrau, MY",
+	                    "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Tebrau__MY/*http://weather.yahoo.com/forecast/MYXX0004_c.html",
+	                    "description": "Yahoo! Weather for Tebrau, MY",
+	                    "language": "en-us",
+	                    "lastBuildDate": "Sat, 03 May 2014 11:00 am MYT",
+	                    "ttl": "60",
+	                    "location": {
+	                      "city": "Tebrau",
+	                      "country": "Malaysia",
+	                      "region": ""
+	                    },
+	                    "units": {
+	                      "distance": "km",
+	                      "pressure": "mb",
+	                      "speed": "km/h",
+	                      "temperature": "C"
+	                    },
+	                    "wind": {
+	                      "chill": "32",
+	                      "direction": "170",
+	                      "speed": "4.83"
+	                    },
+	                    "atmosphere": {
+	                      "humidity": "66",
+	                      "pressure": "982.05",
+	                      "rising": "0",
+	                      "visibility": "9.99"
+	                    },
+	                    "astronomy": {
+	                      "sunrise": "6:57 am",
+	                      "sunset": "7:06 pm"
+	                    },
+	                    "image": {
+	                      "title": "Yahoo! Weather",
+	                      "width": "142",
+	                      "height": "18",
+	                      "link": "http://weather.yahoo.com",
+	                      "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+	                    },
+	                    "item": {
+	                      "title": "Conditions for Tebrau, MY at 11:00 am MYT",
+	                      "lat": "1.58",
+	                      "long": "103.74",
+	                      "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Tebrau__MY/*http://weather.yahoo.com/forecast/MYXX0004_c.html",
+	                      "pubDate": "Sat, 03 May 2014 11:00 am MYT",
+	                      "condition": {
+	                        "code": "28",
+	                        "date": "Sat, 03 May 2014 11:00 am MYT",
+	                        "temp": "32",
+	                        "text": "Mostly Cloudy"
+	                      },
+	                      "description": "\n<img src=\"http://l.yimg.com/a/i/us/we/52/28.gif\"/><br />\n<b>Current Conditions:</b><br />\nMostly Cloudy, 32 C<BR />\n<BR /><b>Forecast:</b><BR />\nSat - Scattered Thunderstorms. High: 32 Low: 26<br />\nSun - Thunderstorms. High: 33 Low: 27<br />\nMon - Scattered Thunderstorms. High: 32 Low: 26<br />\nTue - Thunderstorms. High: 32 Low: 26<br />\nWed - Scattered Thunderstorms. High: 32 Low: 27<br />\n<br />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Tebrau__MY/*http://weather.yahoo.com/forecast/MYXX0004_c.html\">Full Forecast at Yahoo! Weather</a><BR/><BR/>\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)<br/>\n",
+	                      "forecast": [
+	                        {
+	                          "code": "38",
+	                          "date": "3 May 2014",
+	                          "day": "Sat",
+	                          "high": "32",
+	                          "low": "26",
+	                          "text": "Scattered Thunderstorms"
+	                        },
+	                        {
+	                          "code": "4",
+	                          "date": "4 May 2014",
+	                          "day": "Sun",
+	                          "high": "33",
+	                          "low": "27",
+	                          "text": "Thunderstorms"
+	                        },
+	                        {
+	                          "code": "38",
+	                          "date": "5 May 2014",
+	                          "day": "Mon",
+	                          "high": "32",
+	                          "low": "26",
+	                          "text": "Scattered Thunderstorms"
+	                        },
+	                        {
+	                          "code": "4",
+	                          "date": "6 May 2014",
+	                          "day": "Tue",
+	                          "high": "32",
+	                          "low": "26",
+	                          "text": "Thunderstorms"
+	                        },
+	                        {
+	                          "code": "38",
+	                          "date": "7 May 2014",
+	                          "day": "Wed",
+	                          "high": "32",
+	                          "low": "27",
+	                          "text": "Scattered Thunderstorms"
+	                        }
+	                      ],
+	                      "guid": {
+	                        "isPermaLink": "false",
+	                        "content": "MYXX0004_2014_05_07_7_00_MYT"
+	                      }
+	                    }
+	                  }
+	                }
+	              }
+	            }
+	            ]
+	              
+	```
+5. Click **Save and Publish**.
 
+### b. Interact with the API on Apiary
+
+Interact with the API on Apiary by calling the resources and viewing the responses. 
+
+## Other API platforms: Mulesoft, Restlet Studio
+
+There are other API platforms that perform similar tasks as Apiary. Check out [Mulesoft](http://mulesoft) and [Restlet Studio](http://studio.restlet.com/#/). These platforms require documentation to be a particular format (in the case of Mulesoft, RAML format; for Restlet, it processes Swagger and RAML). Exploring these platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. 
 
 
 

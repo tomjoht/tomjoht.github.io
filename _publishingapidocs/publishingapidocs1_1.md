@@ -114,16 +114,17 @@ Despite the wide variety of APIs, there is some commonality among them. The comm
 
 In a [blog post by the writers at Parse](http://blog.parse.com/learn/engineering/designing-great-api-docs/), they break down API doc content into three main types:
 
-<blockquote>
-Reference: This is the listing of all the functionality in excruciating detail. This includes all datatype and function specs. Your advanced developers will leave this open in a tab all day long.
-Guides: This is somewhere between the reference and tutorials. It should be like your reference with prose that explains how to use your API.
-Tutorials: These teach your users specific things that they can do with your API, and are usually tightly focused on just a few pieces of functionality. Bonus points if you include working sample code.</blockquote> 
+>Reference: This is the listing of all the functionality in excruciating detail. This includes all datatype and function specs. Your advanced developers will leave this open in a tab all day long.
+>
+>Guides: This is somewhere between the reference and tutorials. It should be like your reference with prose that explains how to use your API.
+>
+>Tutorials: These teach your users specific things that they can do with your API, and are usually tightly focused on just a few pieces of functionality. Bonus points if you include working sample code.</blockquote> 
 
 I think this division of content represents the API documentation genre well and serves as a good guide when strategies ways to publish API documentation.
 
 In Mulesoft's API platform, you can see many of these sections in their standard template for API documentation:
 
-<a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api?ref=apihub"><img src="{{ "/images/restapicourse/commonsections.png" | prepend: site.baseurl }}" alt="Common sections in API documentation" />
+<a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api?ref=apihub"><img src="{{ "/images/restapicourse/commonsections.png" | prepend: site.baseurl }}" alt="Common sections in API documentation" /></a>
 
 ### Common sections in guide docs
  

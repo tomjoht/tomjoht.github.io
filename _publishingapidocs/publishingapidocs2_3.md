@@ -41,7 +41,7 @@ You then use a for loop to cycle through each of the items and insert them into 
 ```
 {% endraw %}
 
-## Easy to change template
+## Templates make it easy to change display globally
 
 This approach makes it easy to change your template without reformatting all of your pages. For example, if you decide to change the order of the elements on the page, or if you want to add new classes or something, you just alter the template. The values remain the same, since they can be processed in any order.
 

@@ -11,11 +11,11 @@ Many API doc sites provide one integrated website to find all of the information
 
 <a href="https://www.yelp.com/developers/documentation"><img src="{{ "/images/publishingapidocs/yelpapi.png" | prepend: site.baseurl }}" alt="Yelp API documentation" /></a>
 
-### Why one integrated website
+## Documentation as product interface
 
 I hinted at this earlier, but with API documentation, there isn't an application interface that the documentation complements. In most cases, the API documentation itself is the product that users navigate to use your product. As such, users will expect more from it. 
 
-### Integrating all the information
+## Integrating information across the entire site
 
 One of the challenges in using documentation generated from Swagger, Miredot, or some other document generator is figuring out how to integrate it with the rest of the site. Ideally, you want users to have a seamless experience across the entire website. If your endpoints are rendered into their own separate view, how do you integrate the endpoint reference into the rest of the documentation?
 

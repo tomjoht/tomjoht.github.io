@@ -5,6 +5,7 @@ course: "Publishing API documentation"
 weight: 2.5
 ---
 
+## Developers love code examples
 More than anything else, developers love code examples. Usually the more code you can add to your documentation, the better. 
 
 Here's an example from Evernote's API: 

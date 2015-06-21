@@ -31,12 +31,13 @@ One of the neat things about using a Github repository is that you treat the doc
 
 Because you can work with the wiki files locally, you can leverage other tools (such as static site generators, or even DITA) to generate the Markdown files. This means you can handle all the re-use, conditional filtering, and other logic outside of the Github wiki. You can then output your content as Markdown files and then commit them to your Github repository.
 
-## Limitations
+## Limitations with Github wikis
 
 There are some limitations with Github wikis: 
 
 * **Limited branding**. All Github wikis look the same.
 * **Open access on the web**. If your docs need to be private, Github isn't the place to put them.
+* **No structure**. The Github wiki pages give you a blank page and basically allow to add sections. You won't be able to do any advanced styling or sexy-looking interactive API doc.
 
 ## Publish a sample file on Github
 
