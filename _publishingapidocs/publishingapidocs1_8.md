@@ -240,7 +240,7 @@ The site should appear as follows:
 
 You can see my site at [http://delightful-nightingale.cloudvent.net/](http://delightful-nightingale.cloudvent.net/). The password is `stcsummit`.
 
-If your endpoint doesn't appear, you probably have invalid YML syntax. Make sure the left edge of the response is at least one tab (4 spaces) in.
+{{tip}} If your endpoint doesn't appear, you probably have invalid YML syntax. Make sure the left edge of the response is at least one tab (4 spaces) in.{{end}}
 
 Each time you save the site, CloudCannon actually rebuilds the Jekyll files into the site that you see.
 
@@ -248,7 +248,9 @@ Each time you save the site, CloudCannon actually rebuilds the Jekyll files into
 
 ## What's cool about CloudCannon and Jekyll
 
-Jekyll is a good solution because it provides near infinite flexibility and fits well within the UX web stack. CloudCannon provides an easy way to allow subject matter experts to author and edit content, since CloudCanonn allows you to create editable regions within your Jekyll theme. This would allow a tools team to  maintain the site while providing areas for less technical people to author content.
+Jekyll is a good solution because it provides near infinite flexibility and fits well within the UX web stack. 
+
+CloudCannon provides an easy way to allow subject matter experts to author and edit content, since CloudCanonn allows you to create editable regions within your Jekyll theme. This would allow a tools team to  maintain the site while providing areas for less technical people to author content.
 
 However, CloudCannon wouldn't be a good solution if your docs require authentication in a highly secure environment. Additionally, Jekyll only provide static HTML files. If you want users to log in, and then personalize what they see when logged in, Jekyll won't provide this experience.
 

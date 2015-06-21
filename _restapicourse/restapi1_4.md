@@ -17,7 +17,7 @@ With the authorization keys retrieved, you're ready to make a call to the REST A
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
 
 	```
-curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' -H 'Accept: text/plain'
+	curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' -H 'Accept: text/plain'
 	```
 3. If you're on Windows, change the single quotes to double, and add `-k` as well to work around security certificate issues.
 	
@@ -39,6 +39,7 @@ You can also find coordinates for a location using [mapcoordinates.net](http://w
 1. Open a terminal. To open Terminal, press **Cmd + spacebar** and type **Terminal**. 
 	
 	{{tip}} If you plan on working in Terminal a lot, use <a href="https://www.iterm2.com/">iTerm</a> instead of Terminal.){{end}}
+	
 2. Paste the call you have in your text editor into the command line.
 	
 	My call looks like this:
@@ -64,12 +65,12 @@ Congratulations, you just made a call to a REST API endpoit to retrieve the weat
 3. Right-click and then select **Paste** to insert the call. My call looks like this:
  
 	```
-curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET" -H "Accept: text/plain"
+	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET" -H "Accept: text/plain"
 	```
 	
-Remember to use double quotes and to include the `-k`. You should get back a number (the air quality index) as a response. The response looks like this:
+	Remember to use double quotes and to include the `-k`. You should get back a number (the air quality index) as a response. The response looks like this:
 
-<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
+	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
 
 ## If it didn't work, try the Advanced REST client
 

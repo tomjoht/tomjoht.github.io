@@ -592,6 +592,7 @@ li.activeSeries {
 .seriesContext .dropdown-menu li.active {
     font-weight: bold;
     margin-left: 20px;
+    font-size: 130%;
 }
 
 .seriesContext {

@@ -5,7 +5,7 @@ course: "Publishing API documentation"
 weight: 1.7
 ---
 
-## API Blueprint
+## API Blueprint is another spec
 
 Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)). If you describe your API with this blueprint, then different tools can read and display the information. 
 
@@ -217,21 +217,21 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 
 1. Go to [apiary.io](https://apiary.io/) and click **Quick start with Github**. Sign in with your Github account. (If you don't have a Github account, create one first.)
 2. Sign up for a free hacker account and create a new project. 
-
-You'll be placed in the API Blueprint editor. 
-
-<img src="{{ "/images/publishingapidocs/apiaryblueprinteditor.png" | prepend: site.baseurl }}" alt="API Blueprint editor" />
-
-By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
-
+	
+	You'll be placed in the API Blueprint editor. 
+	
+	<img src="{{ "/images/publishingapidocs/apiaryblueprinteditor.png" | prepend: site.baseurl }}" alt="API Blueprint editor" />
+	
+	By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
+	
 3. At this point, you would start describing your API using the blueprint syntax in the editor. When you make a mistake, error flags indicate what's wrong. 
+	
+	You can [read the Apiary tutorial](https://apiary.io/blueprint) and structure your documentation in the blueprint format. The syntax seems to accommodate different methods applied to the same resources. 
 
-You can [read the Apiary tutorial](https://apiary.io/blueprint) and structure your documentation in the blueprint format. The syntax seems to accommodate different methods applied to the same resources. 
-
-For this tutorial, you'll integrate the Mashape weather API information info formatted in the blueprint format. Here's a sample file <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">apiblueprintweatherdata.md</a>
-
-4. Copy the content from the apiblueprintweatherdata.md file and paste it into the Apiary blueprint editor.
-
+	For this tutorial, you'll integrate the Mashape weather API information info formatted in the blueprint format. 
+	
+4. Copy the following code, which aligns with the API Blueprint spect, and paste it into the Apiary blueprint editor.
+	
 	```
 	FORMAT: 1A
 	HOST: https://simple-weather.p.mashape.com
@@ -381,15 +381,31 @@ For this tutorial, you'll integrate the Mashape weather API information info for
 	            ]
 	              
 	```
+	
+	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">view and download the file here</a>.{{end}}
+	
 5. Click **Save and Publish**.
 
 ### b. Interact with the API on Apiary
 
 Interact with the API on Apiary by calling the resources and viewing the responses. 
 
+What's cool about Apiary is that you can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key.
+
+This dual display &mdash; both the Example and the Console views &mdash; helps align better with user needs: 
+
+* For users who might not have good data or might not want to make requests that would affect their data, they can view the Example. 
+* For users who want to see how the API specifically returns their data, or certain parameters, they can use the Console view.
+
 ## Other API platforms: Mulesoft, Restlet Studio
 
-There are other API platforms that perform similar tasks as Apiary. Check out [Mulesoft](http://mulesoft) and [Restlet Studio](http://studio.restlet.com/#/). These platforms require documentation to be a particular format (in the case of Mulesoft, RAML format; for Restlet, it processes Swagger and RAML). Exploring these platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. 
+There are other API platforms that perform similar tasks as Apiary. Check out [Mulesoft](http://mulesoft) and [Restlet Studio](http://studio.restlet.com/#/). These platforms require documentation to be a particular format (in the case of Mulesoft, RAML format; for Restlet, it processes Swagger and RAML). 
+
+Exploring these platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. Large platforms that process and display your API documentation can only do so if your documentation aligns with a spec their tools can parse. The three most common specs for REST APIs are the following: 
+
+* Swagger
+* RAML
+* API Blueprint
 
 
 

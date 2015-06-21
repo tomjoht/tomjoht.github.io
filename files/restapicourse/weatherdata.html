@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <meta charset="utf-8">
+  <title>Mashape Query</title>
+  <script>
+
+
+  function doIt() { 
+
+ var output = $.ajax({
+    url: 'https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236', 
+    type: 'GET', 
+    data: {}, 
+    dataType: 'json',
+    success: function(data) {
+      //
+        //Change data.source to data.something , where something is whichever part of the object you want returned.
+        //To see the whole object you can output it to your browser console using:
+        console.log(data);
+        document.getElementById("output").innerHTML = data.query.results.channel.wind.speed; 
+        },
+    error: function(err) { alert(err); },
+    beforeSend: function(xhr) {
+    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); // Enter here your Mashape key
+    }
+});
+  
+ 
+}
+ 
+</script>
+</head>
+<body>
+ 
+  <button onclick="doIt()">Run the request</button>
+  <div id="output">The API request is:</div>
+  
+</body>
+</html>

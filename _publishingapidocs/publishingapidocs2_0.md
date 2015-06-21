@@ -34,7 +34,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 ### b. Configure API settings
 
 1. In the left sidebar, under Settings, click **API Settings**.
-2. For the API Base URL, enter **https://simple-weather.p.mashape.com**.
+2. For the API Base URL, enter **`https://simple-weather.p.mashape.com`**.
 3. Leave the other settings not mentioned here at the defaults.
 4. In the Static Headers section, click **Add Header** add these two headers as key-value pairs in the appropriate fields: 
 	

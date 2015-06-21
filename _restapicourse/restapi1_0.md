@@ -33,7 +33,7 @@ You don't need any programming background or other prerequisites, but if you do 
 
 * **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC). On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
 * **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's developer console.)
-* **[Advanced REST Client for Chrome](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
+* **[Advanced REST Client for Chrome](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)**. 
 * **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**
 * **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line.  See the following section for more details on cURL.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.

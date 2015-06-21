@@ -76,7 +76,7 @@ Getting into the nitty gritty details of this code is beyond the scope of this t
  
 The above code is general and not specific to the weather API. We have to plug in our own values in a few places. 
  
-For this exercise, use the weatherdata endpoint.
+For this exercise, customize the previous code with the weatherdata endpoint.
  
 1. Open a text editor and copy the previous code into a new document. Save the document as weatherdata.html.
 2. Change the `url` value from `https://SOMEAPI.p.mashape.com/` to your weatherdata endpoint. For example, `https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236`.
@@ -95,6 +95,8 @@ You should see the response logged to the console:
 
 <img src="{{ "/images/restapicourse/inspectingthepayload.png" | prepend: site.baseurl }}" alt="Logging the response to the console" />
 
+{{note}} If you're having trouble getting the page formatted correctly, you can <a href="{{ "/files/restapicourse/weatherdata.html" | prepend: site.baseurl }}">download it here.</a>{{end}}
+
 The piece of code that logged the response to the console was simply this:
 
 ```
@@ -103,7 +105,7 @@ console.log(data);
 
 Logging responses to the console is one of the most useful ways to test whether an API response is working or not. The console collapses each object inside its own expandable section. This allows you to inspect the payload.
 
-## Customizing Console log messages
+## Customizing console log messages
 
 You can add other information to the console log message. To preface the log message with a string, add something like this:
 

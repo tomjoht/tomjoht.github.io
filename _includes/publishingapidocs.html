@@ -5,7 +5,7 @@
 
             {% for p in site.publishingapidocs | sort: weight %}
             {% if p.url == page.url %}
-            <li class="active"> → {{p.weight}}. {{p.title}}</li>
+            <li class="active"> → {{p.title}}</li>
             {% else %}
             <li>
                 <a href="{{p.url | prepend: site.baseurl}}">{{p.title}}</a>
