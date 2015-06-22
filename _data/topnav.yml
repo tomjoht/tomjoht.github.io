@@ -3,26 +3,26 @@
 topnav:
 - title: Topnav
   subcategories:
-    - title: About
-      url: /aboutme/
-
-    - title: Contact
-      url: /contact/
-
-    - title: Presentations
-      url: /presentations/
-
     - title: Podcasts
       url: /category-podcasts/
 
     - title: Beginners
       url: /category-beginners/
 
-
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
+    - title: About me
+      items:
+        - title: About Me
+          url: /aboutme/
+        - title: Contact
+          url: /contact/
+        - title: Presentations
+          url: /presentations/
+        - title: Advertising
+          url: /advertising/
     - title: Series
       items:
       - title: Browse all series
