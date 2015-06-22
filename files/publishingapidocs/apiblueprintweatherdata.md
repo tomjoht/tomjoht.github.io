@@ -11,7 +11,7 @@ Display Weather forecast data by latitude and longitude. Get raw weather data OR
 
 Resources related to weather in the API.
 
-## Weather data [/weatherdata{?lat}{?lng}]
+## Weather data [/weatherdata{?lat,lng}]
 
 ### Get the weather data [GET]
 

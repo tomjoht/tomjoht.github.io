@@ -246,7 +246,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	
 	Resources related to weather in the API.
 	
-	## Weather data [/weatherdata{?lat}{?lng}]
+	## Weather data [/weatherdata{?lat,lng}]
 	
 	### Get the weather data [GET]
 	

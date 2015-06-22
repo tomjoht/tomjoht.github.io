@@ -21,14 +21,57 @@ Make sure you have the following before starting this course:
 * **Network connection**. Your computer needs to be able to connect to a wifi network.
 
 ## Why a course on publishing API docs? What's different?
-The first question about a course on publishing API documentation might be, why? What makes publishing API documentation so different from other kinds of documentation? How and why does the approach here need to differ from the approach for publishing regular documentation?
- 
- API documentation merits its own course and focus separate from regular documentation publishing strategies for several reasons:
- 
- * **Engineers sometimes write the doc.** The content is significantly more technical than GUI doc. As a result, it's sometimes written by engineers.
- * **Common endpoint structures.** The content of APIs follows common patterns and themes specific to the API genre. 
- * **Generating from source code.** API doc follows a historical tradition of generating documentation from the source code through annotations in the code. Though not as common with REST APIs, generating from source was the norm for Java, C++ and C# API docs.
- * **Result is information object.** The main result of most tasks is to get a little information object returned to the browser. Understanding how to work with this returned information and make use of it involves code samples and other programming functions.
+The first question about a course on publishing API documentation might be, why? What makes publishing API documentation so different from other kinds of documentation? How and why does the approach here need to differ from the approach for publishing regular documentation? This is a valid question.
+
+## My story
+
+When I first transitioned into developer and API doc, I had my mind set on using DITA, and I converted a large portion of my content over to it. 
+
+However, as I wanted to learn more about documentation, I started looking more at other doc sites, primarly [those listed on Programmableweb.com](http://www.programmableweb.com/apis/directory), which maintains the largest directory of web APIs. 
+
+It turns out that almost none of the APIs listed on ProgrammableWeb use tech comm authoring tools. The more I researched API doc, the more I started to wonder why more API doc sites didn't use DITA and other help authoring tools. 
+
+Despite many advances with single sourcing, content re-use, conditional filtering, and other features in help authoring tools and content management systems, almost no API doc sets on Programmableweb.com use them. Why is that? Why has the development community outright rejected tech comm tools (and their 50 years of evolution)?
+
+Granted, there is the occasional HAT, as with [Photobucket's API](https://pic.photobucket.com/dev_help/WebHelpPublic/Content/PB%20API%20Introduction.htm), but they're rare. And I've not yet found an API doc site that structures all content in DITA.
+
+I began to wonder, why aren't more API docs sites using help autohring tools? I consulted with recruiter about whether it was more advantageous to become adept with DITA or to learn a tool such as a static site generator, which is more common in this space. 
+
+As someone who specializes in API and developer doc recruiting, my recruiter friend knew the market -- especially the Silicon Valley market -- extremely well. He urged me to look at the static site generator route. He said that many small companies, especially startups, are looking for writers who can publish documentation that looks beautiful, like these other modern web outputs. 
+
+## Four reasons why developer doc doesn't use HATs
+
+I think there are at least four reasons why developers reject tech comm authoring tools: 
+
+### 1. The HAT tooling doesn't match developer workflows and environments
+
+If devs are going to contribute or write docs, the tools need to fit their own development tools and workflows. Their tooling is to treat doc as code, committing it to source control, building outputs from the server, etc. They want to package the doc in with their other code, check it into their repos, and include it in the builds. 
+
+Why are devs writing in the first place, you might ask? Well, sometimes you really need devs to contribute because the content is so technical, it's beyond the domain of non-specialists. If you want engineers to get involved, you need to use developer tooling. 
+
+### 2. HATs won't generate docs from source
+
+Ideally, developers want to add annotations in their code and then simply generate the doc from those annotations. They've been doing that with Java and C++ doc for the past decade. There are quite a few tools in the developer doc space that will do this, but it's not something that HATs or GUI doc ever does.
+
+### 3. API doc follows a specific structure and pattern not modeled in any HAT
+
+The reference doc is pushed into well-established templates, which list sections such as endpoint parameters, sample requests, sample responses, and so forth. Sometimes this can be driven from the source code itself. 
+
+If you have a lot of endpoints, you need a system for pushing the content into these templates. There are many templating frameworks that handle these scenarios nicely. Other times you need custom scripts. Either way, no HAT handles this kind of scenario.
+
+### 4. Many APIs have interactive API consoles, allowing you to try out the calls. 
+
+You won't find an interactive API console in a HAT. By interactive API console, I mean you enter your own API key and values, and then run the call. The response you see is from your own data in the API.
+
+### 5. With APIs, the doc is the interface, so it has to be sexy enough to sell the product. 
+
+Most output from HATs look dated and old. They look like a relic of the pre-2000 Internet era. Most tripane help is frame-based and doesn't do so well with web searches. 
+
+## WritetheDocs and tech comm communities
+
+Interestingly, the community of writers who work in developer doc has even started their own community. It's called [Write the Docs](http://conf.writethedocs.org/). They don't feel that they really fit into the STC. The STC is mostly GUI-doc oriented, mostly older, not integrated with engineering teams writing dev doc. And their tooling reflects this decision as well. Many Write the Docs writers don't use HATs.
+
+Again, this decision seems somewhat of a thumb in the face of tech comm. Tech comm groups have refined their methods for single sourcing, for producing PDF, etc. But their work isn't really relevant to these dev doc writers.
 
 ## Different kinds of APIs
 In approaching the topic of APIs, I acknowledge that there's a wide diversity of APIs. Sarah Maddox describes these different types of APIs in her post [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).
