@@ -23,58 +23,58 @@ topnav_dropdowns:
           url: /presentations/
         - title: Advertising
           url: /advertising/
-#    - title: Series
-#      items:
-#      - title: Browse all series
-#        url: /allseries/
-#
-#      - title: 10 voiceover techniques
-#        url: /series-10-voiceover-tips/
-#
-#      - title: 7 deadly sins of blogging
-#        url: /series-overview-blogging-sins/
-#
-#      - title: API documentation podcasts
-#        url: /series-api-documentation-podcasts/
-#
-#      - title: API documentation survey
-#        url: /series-api-documentation-survey/
-#
-#      - title: Author in DITA and Publish with WordPress
-#        url: /series-author-in-dita-publish-in-wordpress/
-#
-#      - title: DITA journey
-#        url: /series-my-dita-journey/
-#
-#      - title: Dallas STC Summit videocasts
-#        url: /series-dallas-stc-summit-videocasts/
-#
-#      - title: Get a Job in Technical Writing
-#        url: /series-get-a-job-in-technical-writing/
-#
-#      - title: Innovation in tech comm
-#        url: /series-innovation-in-tech-comm/
-#
-#      - title: Jekyll versus DITA
-#        url: /series-jekyll-versus-dita/
-#
-#      - title: My DITA journey
-#        url: /series-my-dita-journey/
-#
-#      - title: Quick reference guides
-#        url: /series-quick-reference-guides/
-#
-#      - title: Search engine optimization
-#        url: /series-search-engine-optimization/
-#
-#      - title: User-centered documentation
-#        url: /series-user-centered-documentation/
-#
-#      - title: My journey to and from wikis
-#        url: /series-my-journey-to-and-from-wikis/
-#
-#      - title: From overlooked to center stage
-#        url: /series-from-overlooked-to-center-stage/
+    - title: Series
+      items:
+      - title: Browse all series
+        url: /allseries/
+
+      - title: 10 voiceover techniques
+        url: /series-10-voiceover-tips/
+
+      - title: 7 deadly sins of blogging
+        url: /series-overview-blogging-sins/
+
+      - title: API documentation podcasts
+        url: /series-api-documentation-podcasts/
+
+      - title: API documentation survey
+        url: /series-api-documentation-survey/
+
+      - title: Author in DITA and Publish with WordPress
+        url: /series-author-in-dita-publish-in-wordpress/
+
+      - title: DITA journey
+        url: /series-my-dita-journey/
+
+      - title: Dallas STC Summit videocasts
+        url: /series-dallas-stc-summit-videocasts/
+
+      - title: Get a Job in Technical Writing
+        url: /series-get-a-job-in-technical-writing/
+
+      - title: Innovation in tech comm
+        url: /series-innovation-in-tech-comm/
+
+      - title: Jekyll versus DITA
+        url: /series-jekyll-versus-dita/
+
+      - title: My DITA journey
+        url: /series-my-dita-journey/
+
+      - title: Quick reference guides
+        url: /series-quick-reference-guides/
+
+      - title: Search engine optimization
+        url: /series-search-engine-optimization/
+
+      - title: User-centered documentation
+        url: /series-user-centered-documentation/
+
+      - title: My journey to and from wikis
+        url: /series-my-journey-to-and-from-wikis/
+
+      - title: From overlooked to center stage
+        url: /series-from-overlooked-to-center-stage/
 
     - title: Tech Notes
       items:
