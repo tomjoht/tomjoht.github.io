@@ -5,113 +5,120 @@ permalink: /events-and-listeners-javascript/
 date: 2013-02-04 23:47:17.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _series_part: '15'
-  _wp_rp_image: empty
-  _spost_short_title: ''
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:17:"66.61317168951973";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:17:"63.58092561276934";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13601";s:5:"score";s:16:"60.4507737644938";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20655";s:5:"score";s:17:"55.07852949395128";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:17:"51.60706961901077";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:17:"50.77070024010118";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20750";s:5:"score";s:17:"50.66193808762709";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:16:"47.8697585892446";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20834";s:5:"score";s:17:"47.80039365495218";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13644";s:5:"score";s:18:"45.444671693984844";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:17:"43.98951630809603";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:17:"43.98951630809603";}}
-  dsq_thread_id: '3770116542'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>Although you can start functions when your page loads, many times you'll want to start functions when a user clicks a link, enters a form, scrolls, moves his or her mouse over an object, or does something else. These actions are called events. You can set specific functions to run when the user performs an event. These functions "listen" for an event and then initiate the function.</p>
 <h2>Common Event Listeners</h2>
 <p>The following are common events:</p>
-<p>[js]onload //when the page loads<br />
-onclick //when a user clicks something<br />
-onmouseover //when a user mouses over something<br />
-onfocus //when a user puts the cursor in a form field<br />
-onblur //When a user leaves a form field[/js]</p>
+
+{% highlight javascript %}
+onload //when the page loads
+onclick //when a user clicks something
+onmouseover //when a user mouses over something
+onfocus //when a user puts the cursor in a form field
+onblur //When a user leaves a form field
+{% endhighlight  %}
+
 <p>Note that each event listener begins with <code>on</code> and is entirely lowercase.</p>
 <h2>Adding Event Listeners</h2>
 <p>You can add an event listener directly in the HTML code in the following way:</p>
-<p>[js]&lt;button onclick=&quot;alert('Hello, world');&quot;&gt;&lt;/button&gt;[/js]</p>
+
+{% highlight javascript %}
+<button onclick="alert('Hello, world');"></button>
+{% endhighlight  %}
+
 <p>However, mixing the JavaScript code with the HTML directly is generally a poor practice for the same reason that you don't integrate style commands into HTML but rather reference the styles in a separate CSS file.</p>
 <p>A more common way to integrate the event listeners is by identifying the element and adding the event listener as a method. The general format for doing this is as follows:</p>
-<p>[js]myelement.onclick = function() {<br />
-//run your event handler code...<br />
-};[/js]</p>
+
+{% highlight javascript %}
+myelement.onclick = function() {
+//run your event handler code...
+};{% endhighlight  %}
+
 <p>In this example, <code>myelement</code> would be a variable that refers to a specific style on your page.</p>
 <p>Note that the word <code>function</code> is written without a name because its code is specified in the code block that immediately follows.</p>
 <p>Also note that the statement ends with a semicolon <code>;</code> after the closing curly brace <code>}</code>.</p>
 <h2>Associating Events with IDs</h2>
 <p>If you have a specific ID in your web page that uniquely identifies a section, you can associate an event with that ID. Here's an example:</p>
-<p>[js]//set a variable to refer to a specific ID<br />
-var specialSection = document.getElementById(&quot;specialSection&quot;);<br />
-//initiate this function when the user clicks the ID<br />
-specialSection.onclick = function() {<br />
-alert(&quot;Hello World&quot;)<br />
-};[/js]</p>
+
+{% highlight javascript %}
+//set a variable to refer to a specific ID
+var specialSection = document.getElementById("specialSection");
+//initiate this function when the user clicks the ID
+specialSection.onclick = function() {
+alert("Hello World")
+};{% endhighlight  %}
+
 <h2>Adding the addEventListener Method</h2>
 <p>You can also add event listeners using a method called <code>addEventListener</code>. However, this method isn't supported in Internet Explorer 8, so if you use this method, you need to add some conditional functions to check for browser functionality before running the function.</p>
 <p>Some JavaScript libraries, like jQuery, automatically include checks for cross-browser functionality.</p>
 <p>The format for adding events using this method is as follows:</p>
-<p>[js]document.addEventListener('click', myfunction, false); [/js]</p>
+{% highlight javascript %}
+document.addEventListener('click', myfunction, false);
+{% endhighlight  %}
 <p>In the above format, you start by adding the method to the Document object. In the parentheses, list the event listener but without the <code>on</code>. (In this example, the event listener is <code>onclick</code>, which is shortened to <code>click</code>.) You then add the function to run. (The function is declared elsewhere.) The <code>false</code> refers to an advanced, rarely used parameter for event handling.</p>
 <h2>Referencing Event Handlers</h2>
 <p>If your event handler refers to a specific element on the page, and you call your script before the element loads, the script won't work because the element isn't available at the time the script runs.</p>
 <p>You could insert the script before the closing <code>body</code> tag to ensure the elements load first, but let's say you need your script to run earlier — before the element loads. You can use the <code>prepareEventHandlers</code> function to load the function when the page loads.</p>
 <p>First, add the <code>prepareEventHandlers</code> function:</p>
-<p>[js]//declare the function<br />
-function prepareEventHandlers() {<br />
-//get a specific page ID and assign it as a variable<br />
-var specialSection = document.getElementById(&quot;specialSection&quot;);<br />
-//initiate this function when the ID is clicked<br />
-specialSection.onclick = function() {<br />
-alert(&quot;Hello World&quot;);<br />
-}<br />
-}[/js]</p>
+{% highlight javascript %}
+//declare the function
+function prepareEventHandlers() {
+//get a specific page ID and assign it as a variable
+var specialSection = document.getElementById("specialSection");
+//initiate this function when the ID is clicked
+specialSection.onclick = function() {
+alert("Hello World");
+}
+}{% endhighlight  %}
 <p>Now call the <code>prepareEventHandlers</code> function when the window loads:</p>
-<p>[js]window.onload = function() {<br />
-prepareEventHandlers();<br />
-}[/js]</p>
+
+{% highlight javascript %}
+window.onload = function() {
+prepareEventHandlers();
+}{% endhighlight  %}
 <p>Using this technique, the event will be loaded and ready even if it is referenced before the element it's listening for. Note that you can call the <code>window.onload</code> function only once per page.</p>
 <h2>onblur and onfocus Events</h2>
 <p><code>onblur</code> and <code>onfocus</code> events refer to the way users interact with forms. When a user clicks a form field, an <code>onfocus</code> event occurs. When a user clicks out of the field, an <code>onblur</code> event occurs.</p>
 <p>Here's an example. Let's say that your HTML form has an ID called <code>namefield</code>:</p>
-<p>[js]&lt;input type=&quot;text&quot; value=&quot;your name&quot; name=&quot;name&quot;<br />
-id=&quot;namefield&quot; tabindex=&quot;10&quot; /&gt; [/js]</p>
+
+{% highlight javascript %}
+<input type="text" value="your name" name="name"
+id="namefield" tabindex="10" />
+{% endhighlight  %}
 <p>First, get the <code>namefield</code> element, and then add an event to it.</p>
-<p>[js]//get the ID and assign it as a variable<br />
-var nameField = document.getElementbyId(&quot;name&quot;);<br />
-//when the ID is clicked, run this function<br />
-nameField.onfocus = function() {<br />
-//if the field has the value &quot;your name&quot;, leave it blank<br />
-if ( nameField.value == &quot;your name&quot; ) {<br />
-nameField.value = &quot;&quot;;<br />
-}<br />
-};[/js]</p>
+
+{% highlight javascript %}
+//get the ID and assign it as a variable
+var nameField = document.getElementbyId("name");
+//when the ID is clicked, run this function
+nameField.onfocus = function() {
+//if the field has the value "your name", leave it blank
+if ( nameField.value == "your name" ) {
+nameField.value = "";
+}
+};{% endhighlight  %}
+
 <p>You can also add an <code>onblur</code> event to take place when the user leaves the field.</p>
-<p>[js]//get the ID and assign it as a variable<br />
-var nameField = document.getElementbyId(&quot;name&quot;);<br />
-//when the user leaves the ID, run this function<br />
-nameField.onblur = function() {<br />
-//if the field's value is &quot;your name&quot;, don't write anything<br />
-if ( nameField.value == &quot;your name&quot; ) {<br />
-emailField.value = &quot;&quot;;<br />
-}<br />
-};[/js]</p>
+
+{% highlight javascript %}
+//get the ID and assign it as a variable
+var nameField = document.getElementbyId("name");
+//when the user leaves the ID, run this function
+nameField.onblur = function() {
+//if the field's value is "your name", don't write anything
+if ( nameField.value == "your name" ) {
+emailField.value = "";
+}
+};
+{% endhighlight  %}
+
 <h2>Timers</h2>
 <p>You can add events that have a time delay. For example, if you want a pop-up message to appear after the user has been on the page for 10 seconds, you can do this through the <code>setTimeOut</code> method.</p>
 <p>For example, let's say you have a simple message:</p>
-<p>[js]function welcomeVisitor() {<br />
-alert(&quot;Welcome to the site&quot;);<br />
-}[/js]</p>
+<p>{% highlight javascript %}function welcomeVisitor() {
+alert("Welcome to the site");
+}{% endhighlight  %}</p>
 <p>However, you don't want this message to appear until the user has been on the page for a while. You delay the action through the <code>setTimeOut</code> function:</p>
-<p>[js]setTimeOut(welcomeVisitor,8000);[/js]</p>
+<p>{% highlight javascript %}setTimeOut(welcomeVisitor,8000);{% endhighlight  %}</p>
 <p>The <code>setTimeOut</code> function has two parameters. The first allows you to call a function (which we declared earlier), and the second refers to the timer. The function will not be called for 8000 milliseconds.</p>
 <p>There are other timer functions, such as <code>setInterval</code>, that initiate the function at the interval you specify.</p>
