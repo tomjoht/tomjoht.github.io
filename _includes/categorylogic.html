@@ -1,20 +1,20 @@
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<!--<p>The following content is in the <b>{{page.categoryName}}</b> category:-->
 
-{% assign thisCategory = page.categoryName %}
-{% for p in site.posts %}
-{% for category in p.categories %}
-{% if category == thisCategory %}
-<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
-</h4>
-{% endif %}
-{% endfor %}
-{% endfor %}
+<!--{% assign thisCategory = page.categoryName %}-->
+<!--{% for p in site.posts %}-->
+<!--{% for category in p.categories %}-->
+<!--{% if category == thisCategory %}-->
+<!--<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>-->
+<!--</h4>-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--{% endfor %}-->
 
-{% for pa in site.pages %}
-{% for category in pa.categories %}
-{% if category == thisCategory %}
-<h4 class="categoryArchive"><a href="{{ pa.url | prepend: site.baseurl }}">{{pa.title}}</a> {% if pa.date %}<span class="postDate"> | {{ pa.date }}</span>{% endif %}
-</h4>
-{% endif %}
-{% endfor %}
-{% endfor %}
+<!--{% for pa in site.pages %}-->
+<!--{% for category in pa.categories %}-->
+<!--{% if category == thisCategory %}-->
+<!--<h4 class="categoryArchive"><a href="{{ pa.url | prepend: site.baseurl }}">{{pa.title}}</a> {% if pa.date %}<span class="postDate"> | {{ pa.date }}</span>{% endif %}-->
+<!--</h4>-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--{% endfor %}-->
