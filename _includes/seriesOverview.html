@@ -1,14 +1,14 @@
 
 
 <div class="seriesOverviewList">
-    <!--{% assign allPages = site.pages | sort:"weight"  %}-->
-    <!--{% for p in allPages %}-->
-    <!--{% if p.type == "series_overview" %}-->
-    <!--<h2>{{p.title}}</h2>-->
-    <!--<p>{{p.summary}}</p>-->
+    {% assign allPages = site.pages | sort:"weight"  %}
+    {% for p in allPages %}
+    {% if p.type == "series_overview" %}
+    <h2>{{p.title}}</h2>
+    <p>{{p.summary}}</p>
 
-    <!--<a href="{{ "{{p.permalink}}" | prepend: site.baseurl }}"> <button type="button" class="btn btn-warning">Start reading &raquo;</button></a>-->
-    <!--{% endif %}-->
-    <!--{% endfor %}-->
+    <a href="{{ "{{p.permalink}}" | prepend: site.baseurl }}"> <button type="button" class="btn btn-warning">Start reading &raquo;</button></a>
+    {% endif %}
+    {% endfor %}
 
 </div>
