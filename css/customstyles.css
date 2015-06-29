@@ -875,3 +875,7 @@ blockquote {
     font-style: italic;
     border-left-color: orange;
 }
+
+.col-md-9 ul li, .col-md-9 ol li {
+    margin-bottom: 12px;
+}
