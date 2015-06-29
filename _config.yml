@@ -25,11 +25,16 @@ exclude:
   - .idea
   - _site
 
+gems:
+  - jekyll-redirect-from
+
 # this enables collections
 collections:
   restapicourse:
     output: true
   publishingapidocs:
+    output: true
+  voiceovertechniques:
     output: true
 
 # these are defaults that get applied to each page or post's frontmatter. leave as is.
@@ -73,6 +78,15 @@ defaults:
       type: "publishingapidocs"
     values:
       layout: "page_publishingapidocs"
+      comments: true
+      search: true
+
+  -
+    scope:
+      path: ""
+      type: "voiceovertechniques"
+    values:
+      layout: "page_voiceovertechniques"
       comments: true
       search: true
 sass:
