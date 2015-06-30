@@ -5,64 +5,45 @@ permalink: /functions-javascript/
 date: 2013-02-02 23:40:52.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _spost_short_title: ''
-  _series_part: '6'
-  _wp_rp_image: empty
-  dsq_thread_id: '3777214062'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>Functions are subroutines (chunks of code that perform an action) stored in a container so that you can reference the container by simply calling the container's name. This helps simplify your code, because rather than having a long list of JavaScript commands written out, you just reference the container, which is stored in your js file.</p>
 <p>You first declare the function. You can then call the function.</p>
 <h2>Declare a Function</h2>
 <p>To declare a function, write the word <code>function</code> followed by the name of the function, the function's parameters (in parentheses), and then the function's code block.</p>
-<p>[js]//declare the function<br />
-function identifyWidgets () {<br />
-// run some code ...;<br />
-}[/js]</p>
+<p>{% highlight javascript %}//declare the function
+function identifyWidgets () {
+// run some code ...;
+}{% endhighlight %}</p>
 <h2>Parameters in Functions</h2>
 <p>The parentheses after the function name allow you to store parameters for the function. Parameters are variables that the function works with. When you call the function in your web page code, you can pass the function specific values for the parameters, and those values will replace the parameters in the function's code.</p>
 <p>Here's an example function with 4 parameters:</p>
-<p>[js]//declare a function with 4 parameters<br />
-function identifyWidgets (quadrant,size,duration,location) {<br />
-//run some code that includes those parameters<br />
-var widgetTotal = quadrant + size + duration + location;<br />
-console.log(widgetTotal);<br />
-}[/js]</p>
+<p>{% highlight javascript %}//declare a function with 4 parameters
+function identifyWidgets (quadrant,size,duration,location) {
+//run some code that includes those parameters
+var widgetTotal = quadrant + size + duration + location;
+console.log(widgetTotal);
+}{% endhighlight %}</p>
 <p>The function has four parameters: <code>quadrant</code>, <code>size</code>, <code>duration</code>, and <code>location</code>. These parameters can be manipulated in the code block as variables.</p>
 <p>Note that as you're declaring functions, you can include variables inside your function, as the previous example does with <code>var widgetTotal</code>. If you do list variables here, they'll only be available <i>inside</i> the function. You won't be able to call the variable in other places. If you want to use the variable outside the function, you must declare it outside the function.</p>
 <h2>Calling a Function</h2>
 <p>To call a function, type the name of the function and include specific values for the parameters, like this:</p>
-<p>[js]identifyWidgets (2,300,6000,50);[/js]</p>
+<p>{% highlight javascript %}identifyWidgets (2,300,6000,50);{% endhighlight %}</p>
 <p>These values are then passed into the function's parameters. Essentially you're saying <code>var quadrant = 2, size = 300, duration = 6000, location = 50;</code>. The function then runs the code block using those specific values.</p>
 <p>If you pass too many parameters to your function, the extra parameters are ignored. In the following example, the <code>"John Doe"</code> and <code>65</code> are ignored:</p>
-<p>[js]identifyWidgets (2,300,600,50,&quot;John Doe&quot;,65);[/js]</p>
+<p>{% highlight javascript %}identifyWidgets (2,300,600,50,"John Doe",65);{% endhighlight %}</p>
 <p>The following example doesn't have enough parameters:</p>
-<p>[js]identifyWidgets (2,300);[/js]</p>
+<p>{% highlight javascript %}identifyWidgets (2,300);{% endhighlight %}</p>
 <p>The missing parameters will be treated as undefined in the function. These undefined parameters may or may not break your function's code. It depends on how you've written the function.</p>
 <h2>Returning Information</h2>
 <p>Functions don't just accept incoming information. Functions can also return information. When you add <code>return</code> in your function code, the function will send that information back. Here's an example:</p>
-<p>[js]//declare a function with 4 parameters<br />
-function identifyWidgets (quadrant,size,duration,location) {<br />
-//run some code with the parameters<br />
-var widgetTotal = quadrant + size + duration + location;<br />
-console.log(widgetTotal);<br />
-//return the value for widgetTotal<br />
-return widgetTotal;<br />
-}[/js]</p>
+<p>{% highlight javascript %}//declare a function with 4 parameters
+function identifyWidgets (quadrant,size,duration,location) {
+//run some code with the parameters
+var widgetTotal = quadrant + size + duration + location;
+console.log(widgetTotal);
+//return the value for widgetTotal
+return widgetTotal;
+}{% endhighlight %}</p>
 <p>In this example, the value for widgetTotal will be passed back to the place where you called the function.</p>

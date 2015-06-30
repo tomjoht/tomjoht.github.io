@@ -1,61 +1,40 @@
 ---
 layout: page
 title: 'JavaScript: Insertion of Elements'
-permalink: /insertion-of-elements/
-date: 2013-02-03 14:33:28.000000000 -08:00
+permalink: /insertion-of-elements-javascript/
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _wp_rp_image: empty
-  _spost_short_title: ''
-  _series_part: '14'
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:18:"102.44933154042889";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20248";s:5:"score";s:17:"74.96751449810748";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20119";s:5:"score";s:17:"70.63264023665164";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:17:"70.04245538872168";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:17:"66.77962175035151";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:17:"61.03860771668704";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13601";s:5:"score";s:17:"54.41473816833695";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:18:"54.118960201492555";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"52.81368957818323";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:17:"51.72645868499154";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:18:"51.072032862551474";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:18:"50.937150300932956";}}
-  dsq_thread_id: '3772098728'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>You can change an element's attributes (style), insert HTML into the element, or insert/create new elements in specific places.</p>
 <h2>Changing an Element's Attributes</h2>
 <p>You can change attributes of specific elements. To change an element's attributes, you first get the element, set it as a variable, and then use the <code>setAttribute</code> method to change its attributes. Here's an example:</p>
-<p>[js]//get the element<br />
-var contentSubhead = document.getElementById(&quot;contentSubhead&quot;);<br />
-//set an attribute for the element<br />
-var .contentSubhead.setAttribute(&quot;align&quot;,&quot;right&quot;);[/js]</p>
+<p>{% highlight javascript %}//get the element
+var contentSubhead = document.getElementById("contentSubhead");
+//set an attribute for the element
+var .contentSubhead.setAttribute("align","right");{% endhighlight %}</p>
 <p>The <code>setAttribute</code> method has two values. You first list the name of the attribute you want to change, and then you list the value.</p>
 <h2>Applying Styles</h2>
 <p>You can also apply styles directly to elements. However, because JavaScript doesn't use hyphens or underscores, the CSS style names that are usually hyphenated (like <code>background-color</code> become one word with camel casing: <code>backgroundColor</code>.</p>
 <p>To apply an inline style to an element, use the following format:</p>
-<p>[js]//set the title ID as a variable<br />
-var title = document.getElementByID(&quot;title&quot;);<br />
-//apply a new width to the title<br />
-title.style.backgroundColor = &quot;#dedede&quot;;<br />
-}[/js]</p>
+<p>{% highlight javascript %}//set the title ID as a variable
+var title = document.getElementByID("title");
+//apply a new width to the title
+title.style.backgroundColor = "#dedede";
+}{% endhighlight %}</p>
 <h2>Changing the Contents of an Element</h2>
 <p>To change the actual contents of an element, you use the <code>innerHTML</code> method.</p>
 <p>You can see what the inner HTML is for an element by running this console.log message in Firebug:</p>
-<p>[js]//set the contentSubhead ID as a variable<br />
-var contentSubhead = document.getElementById(&quot;contentSubhead&quot;);<br />
-//see what the inner HTML contains<br />
-console.log(contentSubhead.innerHTML); [/js]</p>
+<p>{% highlight javascript %}//set the contentSubhead ID as a variable
+var contentSubhead = document.getElementById("contentSubhead");
+//see what the inner HTML contains
+console.log(contentSubhead.innerHTML); {% endhighlight %}</p>
 <p>The preceding statement allows you to view the inner HTML. To <em>change</em> the inner HTML, use a statement such as this:</p>
-<p>[js]//set the ID as a variable<br />
-var contentSubhead = document.getElementById(&quot;contentSubhead&quot;);<br />
-//change the inner HTML to this new string.<br />
-contentSubhead.innerHTML = &quot;The new text for the element...&quot;;[/js]</p>
+<p>{% highlight javascript %}//set the ID as a variable
+var contentSubhead = document.getElementById("contentSubhead");
+//change the inner HTML to this new string.
+contentSubhead.innerHTML = "The new text for the element...";{% endhighlight %}</p>
 <h2>Adding New Elements</h2>
 <p>You can also insert an entirely new element into the DOM. To insert a new element, follow these two steps:</p>
 <ol>
@@ -63,22 +42,22 @@ contentSubhead.innerHTML = &quot;The new text for the element...&quot;;[/js]</p>
 <li>Add the new element to the DOM</li>
 </ol>
 <p>You create a new element by using the <code>createElement</code> method with the Document object:</p>
-<p>[js]//create a new h2 element called sideHead<br />
-var sideHead = document.createElement(&quot;h2&quot;);[/js]</p>
+<p>{% highlight javascript %}//create a new h2 element called sideHead
+var sideHead = document.createElement("h2");{% endhighlight %}</p>
 <p>Once you create the element, you now need to append it somewhere. To append the new element, use the <code>appendChild</code> method:</p>
-<p>[js]//create a new h2 element called sideHead<br />
-var sideHead = document.createElement(&quot;h2&quot;);<br />
-//add new inner HTML for sideHead<br />
-sideHead.innerHTML = &quot;Did you know?&quot;;<br />
-//append the sideHead element to the sidebar ID section<br />
-document.getElementById(&quot;sidebar&quot;).appendChild(sideHead);[/js]</p>
+<p>{% highlight javascript %}//create a new h2 element called sideHead
+var sideHead = document.createElement("h2");
+//add new inner HTML for sideHead
+sideHead.innerHTML = "Did you know?";
+//append the sideHead element to the sidebar ID section
+document.getElementById("sidebar").appendChild(sideHead);{% endhighlight %}</p>
 <p>There's another method for inserting a new element. Rather than creating new innerHTML to insert, you can insert a new text node by using the <code>createTextNode</code> method.</p>
-<p>[js]//create a new p element called newSection<br />
-var newSection = document.createElement(&quot;p&quot;);<br />
-//create a new text node called pText<br />
-var pNewText = document.createTextNode(&quot;Did you know?&quot;);<br />
-//append the new text node on the newSection element<br />
-newSection.appendChild(pNewText);<br />
-//insert the text node into the newSection section<br />
-document.getElementById(&quot;sidebar&quot;).appendChild(newSection);[/js]</p>
+<p>{% highlight javascript %}//create a new p element called newSection
+var newSection = document.createElement("p");
+//create a new text node called pText
+var pNewText = document.createTextNode("Did you know?");
+//append the new text node on the newSection element
+newSection.appendChild(pNewText);
+//insert the text node into the newSection section
+document.getElementById("sidebar").appendChild(newSection);{% endhighlight %}</p>
 <p>This statement will append the newly created text node (<code>"Did you know?"</code>) on the <code>newSection</code> paragraph element.</p>

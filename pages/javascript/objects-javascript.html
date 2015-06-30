@@ -5,80 +5,62 @@ permalink: /objects-javascript/
 date: 2013-02-03 00:54:40.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _spost_short_title: ''
-  _series_part: '11'
-  _wp_rp_image: empty
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>It can be tedious to define separate variables when you have a collection of related information. Instead of defining each variable separately, you can create an object and list the variables as properties of the object. This makes it easier to manipulate all the variables. (Note that variables that are part of an object are called "properties" instead of "variables").</p>
 <h2>Quick Review of Objects</h2>
 <p>As a review, remember that arrays are objects. As an object, you can apply methods to them. For example:</p>
-<p>[js]//declare an array with some positions<br />
-var sampleArray [5,10,15,20,25];<br />
-//determine number of positions in<br />
-//the array using the .length method<br />
-console.log ( sampleArray.length );[/js]</p>
+<p>{% highlight javascript %}//declare an array with some positions
+var sampleArray [5,10,15,20,25];
+//determine number of positions in
+//the array using the .length method
+console.log ( sampleArray.length );{% endhighlight %}</p>
 <p>The result is 5. There are 5 positions in the array.</p>
 <p>Here's how you might use a method on a date object:</p>
-<p>[js]// define a new date object<br />
-var lastDay = new Date();<br />
-// find day of week using the .getDay method<br />
-console.log( lastDay.getDay() );[/js]</p>
+<p>{% highlight javascript %}// define a new date object
+var lastDay = new Date();
+// find day of week using the .getDay method
+console.log( lastDay.getDay() );{% endhighlight %}</p>
 <p>The result is the current day, which in this case is 1, or Monday.</p>
 <h2>Creating New Objects</h2>
 <p>You can create a new object that isn't an already an array or date object. To create a new object, define a new variable and assign it as a <code>new Object();</code>.</p>
-<p>[js]var team = new Object();[/js]</p>
+<p>{% highlight javascript %}var team = new Object();{% endhighlight %}</p>
 <p>Once you have defined the new object, you can set up the various properties of the object. You list these properties by adding a dot and then the property name.</p>
-<p>[js] //create a new object<br />
-var team = new Object();<br />
-//define the object's properties<br />
-team.size = 5;<br />
-team.name = &quot;Panthers&quot;;<br />
-team.fouls = 7;<br />
-team.rating = &quot;AAAA&quot;;[/js]</p>
+<p>{% highlight javascript %} //create a new object
+var team = new Object();
+//define the object's properties
+team.size = 5;
+team.name = "Panthers";
+team.fouls = 7;
+team.rating = "AAAA";{% endhighlight %}</p>
 <p>It's convenient to list each of these highly-related variables as properties of an object, rather than listing them out as separate variables.</p>
 <p>You can use a shorthand syntax for creating an object and listing its properties. Rather than listing properties separately on their own lines, you can group them inside curly braces, separated by commas:</p>
-<p>[js] var team = {size:5, name:&quot;Panthers&quot;, fouls:7; rating:&quot;AAAA&quot;};[/js]</p>
+<p>{% highlight javascript %} var team = {size:5, name:"Panthers", fouls:7; rating:"AAAA"};{% endhighlight %}</p>
 <p>Whenever you need to call any of the variables, you list the object name followed by <code>.property</code>, like this:</p>
-<p>[js]console.log(team.fouls);[/js]</p>
+<p>{% highlight javascript %}console.log(team.fouls);{% endhighlight %}</p>
 <p>The result would be 7.</p>
 <h2>"This" Placeholder</h2>
 <p>In a JavaScript statement, sometimes you need a general placeholder that fits numerous variables. You can use <code>this</code> for exactly this purpose.</p>
 <p>Here's an example of how you might integrate <code>this</code>.</p>
-<p>[js] //create a couple of objects<br />
-var team1 = { size:5, name:&quot;Panthers&quot;, fouls:7;<br />
-rating:&quot;AAAA&quot; };<br />
-var team2 = { size:5, name:&quot;Lions&quot;, fouls:15;<br />
-rating:&quot;AA&quot; };</p>
-<p>//create a function with &quot;this&quot; as placeholder<br />
-function teamProfile() {<br />
-console.log(this.name + &quot;has a this.rating rating.&quot;);<br />
+<p>{% highlight javascript %} //create a couple of objects
+var team1 = { size:5, name:"Panthers", fouls:7;
+rating:"AAAA" };
+var team2 = { size:5, name:"Lions", fouls:15;
+rating:"AA" };</p>
+<p>//create a function with "this" as placeholder
+function teamProfile() {
+console.log(this.name + "has a this.rating rating.");
 }</p>
-<p>//call the same function with different variables<br />
-team1.logDetails = teamProfile;<br />
-team2.logDetails = teamProfile;[/js]</p>
+<p>//call the same function with different variables
+team1.logDetails = teamProfile;
+team2.logDetails = teamProfile;{% endhighlight %}</p>
 <p>This will return "Panthers has a AAAA rating" as well as "Lions has a AA rating."</p>
 <p>Both team1 and team2 refer to the same function, <code>teamProfile</code>. When the function runs, because it uses <code>this</code> instead of something more specific, <code>team1</code> and <code>team2</code> will pass into <code>this</code> appropriately.</p>
 <h2>Properties and Methods</h2>
 <p>Objects can have both properties and methods. A property holds data about the object, whereas a method performs some action on the object. Both properties and methods are accessed through the dot operator that follows the object's name.</p>
 <p>Here's an example:</p>
-<p>[js]var numberOfCharacters = message.length;[/js]</p>
+<p>{% highlight javascript %}var numberOfCharacters = message.length;{% endhighlight %}</p>
 <p>This variable will return the length of the message object. In this case, length tells us a property of the object.</p>
 <p>A method will perform some action usually with the object's properties.</p>
 <h2>Data Types</h2>
@@ -93,12 +75,12 @@ team2.logDetails = teamProfile;[/js]</p>
 <h3>Arrays</h3>
 <p>Arrays are a data type that holds multiple values.</p>
 <p>You create a new array data type with the following constructor:</p>
-<p>[js]var myArray = new Array();[/js]</p>
+<p>{% highlight javascript %}var myArray = new Array();{% endhighlight %}</p>
 <p>This creates a new array and stores several values in it:</p>
-<p>[js]var gears = new Array(1, 2, 3);[/js]</p>
+<p>{% highlight javascript %}var gears = new Array(1, 2, 3);{% endhighlight %}</p>
 <p>There's also what's known as "literal notation" that involves brackets instead:</p>
-<p>[js]var myArray = [];[/js]</p>
-<p>[js]var gears = [ 1, 2, 3 ];[/js]</p>
+<p>{% highlight javascript %}var myArray = [];{% endhighlight %}</p>
+<p>{% highlight javascript %}var gears = [ 1, 2, 3 ];{% endhighlight %}</p>
 <p>Each position in the array's values is called "index notation." The index refers to the position of the value in the array. It starts at 0 and increments from there.</p>
 <p>There are a handful of useful methods to use with arrays:</p>
 <ul>
@@ -111,9 +93,9 @@ team2.logDetails = teamProfile;[/js]</p>
 </ul>
 <h2>Date Object</h2>
 <p>The Date object is another built-in data type in JavaScript. The constructor to create a new Data data type is lke this:</p>
-<p>[js]var date = new Date(); [/js]</p>
+<p>{% highlight javascript %}var date = new Date(); {% endhighlight %}</p>
 <p>You can also create a date object by passing it some date information like this:</p>
-<p>[js]var date2 = new Date(2010, 0, 1);[/js]</p>
+<p>{% highlight javascript %}var date2 = new Date(2010, 0, 1);{% endhighlight %}</p>
 <p>The following are some methods for working with the Date object.</p>
 <ul>
 <li>getFullYear()</li>
@@ -138,44 +120,44 @@ team2.logDetails = teamProfile;[/js]</p>
 <p>I'm not going to go into more detail, but you can work with the Number and the String object data types in depth as well.</p>
 <h2>Creating custom objects</h2>
 <p>You can create a new object in a couple of ways. This way would create a new object and set it as a variable called coordinates:</p>
-<p>[js]var coordinates = new Object();[/js]</p>
+<p>{% highlight javascript %}var coordinates = new Object();{% endhighlight %}</p>
 <p>There's another method that uses something called "literal notation" to accomplish the same thing:</p>
-<p>[js]var coordinates = {};[/js]</p>
+<p>{% highlight javascript %}var coordinates = {};{% endhighlight %}</p>
 <p>Recall that you can create an array object using the "array literal" shorthand, which involves using brackets. With new objects, you use curly braces instead.</p>
 <h2>Adding Properties to a New Object</h2>
 <p>Here's how you add properties to the new object:</p>
-<p>[js]var coordinates = {};<br />
-coordinates.x = 0;<br />
-coordinates.y = 0;[/js]</p>
+<p>{% highlight javascript %}var coordinates = {};
+coordinates.x = 0;
+coordinates.y = 0;{% endhighlight %}</p>
 <p>You could also create the new object and add its properties in one step:</p>
-<p>[js]var coordinates = {<br />
-    x : 0,<br />
-    y : 0<br />
-};[/js]</p>
+<p>{% highlight javascript %}var coordinates = {
+    x : 0,
+    y : 0
+};{% endhighlight %}</p>
 <p>The x and y are property definitions for the coordinates object.</p>
 <p>After you have set up the object, you can use it just like any other object:</p>
-<p>[js]var text = &quot;X is &quot; + coordinates.x + &quot; and Y is &quot; + coordinates.y;<br />
-alert(text);[/js]</p>
+<p>{% highlight javascript %}var text = "X is " + coordinates.x + " and Y is " + coordinates.y;
+alert(text);{% endhighlight %}</p>
 <h2>Define a Method to Use with a New Object</h2>
 <p>You can also define a method for a new object. You do this in almost the same way that you list a property for the object, except that you write it as a function:</p>
-<p>[js]var coordinates = {<br />
-    x : 0,<br />
-    y : 0,<br />
-    sayCoordinates : function() {<br />
-        var text = &quot;X is &quot; + this.x + &quot; and Y is &quot; + this.y;<br />
-        alert(text);<br />
-    }<br />
-};[/js]</p>
+<p>{% highlight javascript %}var coordinates = {
+    x : 0,
+    y : 0,
+    sayCoordinates : function() {
+        var text = "X is " + this.x + " and Y is " + this.y;
+        alert(text);
+    }
+};{% endhighlight %}</p>
 <p>You'll notice that we're using "this" in the function that is written as a method for the coordinates object. The "this" term means "this object" and refers to the coordinates object. Because this function appears within the coordinates object, the "this" refers to the coordinates object. "This" means "this object."</p>
 <h2>Passing Objects as Arguments in a Function</h2>
 <p>You can even pass objects as arguments in a function. For example, suppose you have this function:</p>
-<p>[js]var point = getCurrentPoint();[/js]</p>
+<p>{% highlight javascript %}var point = getCurrentPoint();{% endhighlight %}</p>
 <p>You can actually pass the function as an argument, like this:</p>
-<p>[js]function drawPoint(point) {<br />
-    // do something with point.x<br />
-    // do something with point.y<br />
+<p>{% highlight javascript %}function drawPoint(point) {
+    // do something with point.x
+    // do something with point.y
 }</p>
-<p>var point = getCurrentPoint(); // get coordinates<br />
-drawPoint(point); // draw the dot on the screen[/js]</p>
-<p>alert(point.x);<br />
-alert(point.y);[/js]</p>
+<p>var point = getCurrentPoint(); // get coordinates
+drawPoint(point); // draw the dot on the screen</p>
+<p>alert(point.x);
+alert(point.y);{% endhighlight %}</p>

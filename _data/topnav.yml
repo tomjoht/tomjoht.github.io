@@ -85,7 +85,7 @@ topnav_dropdowns:
     - title: Tech Notes
       items:
       - title: JavaScript
-        url: /toc-javascript/
+        url: /javascript/
 
       - title: DITA
         url: /toc-dita/

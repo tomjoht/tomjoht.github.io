@@ -5,60 +5,41 @@ permalink: /arrays-javascript/
 date: 2013-02-02 23:41:30.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _series_part: '7'
-  _spost_short_title: ''
-  _wp_rp_image: empty
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:16:"76.2006162746643";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"65.91370814003642";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20655";s:5:"score";s:17:"60.89493283712743";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:18:"59.626923596323806";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:17:"54.97969867590405";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:16:"54.9235257722284";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:17:"54.00060222525502";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:18:"51.560008624159764";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13752";s:5:"score";s:17:"46.69860763372459";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13750";s:5:"score";s:17:"46.69860763372459";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:17:"43.98951630809603";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:17:"38.20519177068748";}}
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>Arrays are variables that have multiple values. You normally write out variables like this:</p>
-<p>[js]var game = 49;[/js]</p>
+<p>{% highlight javascript %}var game = 49;{% endhighlight %}</p>
 <p>However, an array stores multiple values for the same variable. It sets each value at different index positions. A sample array might be as follows:</p>
-<p>[js] var game[0] = 49;<br />
-var game[1] = 56;<br />
-var game[2] = 63;<br />
-var game[3] = &quot;Touchdown!&quot;<br />
-var game[4] = 70;[/js]</p>
+<p>{% highlight javascript %} var game[0] = 49;
+var game[1] = 56;
+var game[2] = 63;
+var game[3] = "Touchdown!"
+var game[4] = 70;{% endhighlight %}</p>
 <p>The positions for each index in the array are listed in brackets after the variable. Arrays always start at an index of 0 (not 1) and increment upward.</p>
 <p>Listing out each position in the array on its own line is lengthy, so there's a shorter way to list the positions in the array:</p>
-<p>[js]var game = [ 49,56,63,&quot;Touchdown!&quot;,70 ];[/js]</p>
+<p>{% highlight javascript %}var game = [ 49,56,63,"Touchdown!",70 ];{% endhighlight %}</p>
 <p>The order of the values reflects their positions. <code>49</code> corresponds to position 0, <code>56</code> corresponds to position 1, <code>63</code> corresponds to position 2, and so on.</p>
 <p>If you want to get the value from an array, add the position you want in brackets after the array's name:</p>
-<p>[js]game[4];[/js]</p>
+<p>{% highlight javascript %}game[4];{% endhighlight %}</p>
 <p>This would return the value <code>Touchdown!</code>.</p>
 <h2>Alternative Ways of Writing Arrays</h2>
 <p>Although brackets are common ways of writing arrays, you can also write arrays like this:</p>
-<p>[js]var game = Array();[/js]</p>
+<p>{% highlight javascript %}var game = Array();{% endhighlight %}</p>
 <p>or like this:</p>
-<p>[js]var game = new Array();[/js]</p>
+<p>{% highlight javascript %}var game = new Array();{% endhighlight %}</p>
 <p>You would then include the positions of the array in the parentheses:</p>
-<p>[js]var game = new Array(49,56,63,&quot;Touchdown!&quot;, 70);[/js]</p>
+<p>{% highlight javascript %}var game = new Array(49,56,63,"Touchdown!", 70);{% endhighlight %}</p>
 <h2>Methods for Arrays</h2>
 <p>Arrays are considered objects, and as objects, you can apply methods to them. Methods are the ways you can manipulate objects. Think of methods as various functions that you can apply to an object.</p>
 <p>For example, if you want to see how many positions you have in your array, add <code>.length</code> to the array name:</p>
-<p>[js]//declare an array<br />
-var game = [ 49,56,63,&quot;Touchdown!&quot;,70 ];<br />
-//write the number of positions the array has<br />
-console.log(game.length);[/js]</p>
+<p>{% highlight javascript %}//declare an array
+var game = [ 49,56,63,"Touchdown!",70 ];
+//write the number of positions the array has
+console.log(game.length);{% endhighlight %}</p>
 <p>The result would be 5.</p>
 <p>Methods are always added to the object name after a dot.</p>
 <p>Some other methods include:</p>
-<p>[js].reverse //lists the array in reverse order<br />
-.join //joins the values of the array<br />
-.sort //sorts the values of the array[/js]</p>
+<p>{% highlight javascript %}.reverse //lists the array in reverse order
+.join //joins the values of the array
+.sort //sorts the values of the array{% endhighlight %}</p>

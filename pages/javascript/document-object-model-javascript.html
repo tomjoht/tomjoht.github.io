@@ -5,29 +5,9 @@ permalink: /document-object-model-javascript/
 date: 2013-02-03 09:28:26.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _wp_rp_image: empty
-  _spost_short_title: ''
-  _series_part: '13'
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20248";s:5:"score";s:17:"83.37884727702824";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"71.62277157313882";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:17:"70.04245538872168";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:16:"56.5329672160156";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:16:"54.1670522860868";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:17:"51.77351967984255";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:17:"51.72645868499154";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13746";s:5:"score";s:17:"49.92910752514521";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"45.94213414758299";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:16:"44.1559663689278";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13601";s:5:"score";s:18:"43.395609475390216";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:18:"42.594337066562304";}}
-  dsq_thread_id: '3770450741'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>The Document Object Model (DOM) is an agreed-upon set of terms that describes the various pieces of a web page. Using this set of agreed-upon terms, you can identify a specific element of a web page and perform some action on it.</p>
 <p>For example, you might use the DOM to write JavaScript that grabs the title and changes it, or that interacts with a specific list item, or with a link or section. With an agreed-way of describing each element on a page, it makes it possible to reach into specific parts of the web page to interact with it.</p>
 <p>The DOM contains about 12 nodes. A node is basically a name for a piece of a web page. Three types of nodes are the most important: elements, attributes, and text.</p>
@@ -38,25 +18,25 @@ excerpt: !ruby/object:Hpricot::Doc
 <h2>Getting an Element by ID</h2>
 <p>Many elements on a web page are styled with unique IDs. When this is the case, it makes it really easy to reach these specific elements.</p>
 <p>The Document object has a property that allows you get an element with a specific ID:</p>
-<p>[js]document.getElementById(&quot;sidelist&quot;);[/js]</p>
+<p>{% highlight javascript %}document.getElementById("sidelist");{% endhighlight %}</p>
 <p>To grab this element, you create a variable and assign it to the unique ID on your page. In the following example, we're getting the <code>#sidelist</code> section of the page.</p>
-<p>[js]var myListElement = document.getElementById(&quot;sidelist&quot;);[/js]</p>
+<p>{% highlight javascript %}var myListElement = document.getElementById("sidelist");{% endhighlight %}</p>
 <p>You can then start manipulating the element using methods. The variable gives you a leverage point to interact with the element.</p>
 <h2>Getting All Elements by Tag Name</h2>
 <p>Sometimes an element doesn't have a unique ID. The element may be an anchor link (a) or a list item (li). You can use the <code>document.getElementsByTagName("a");</code> document property to get all elements with that tag name.</p>
-<p>[js]document.getElementsByTagName(&quot;li&quot;);[/js]</p>
+<p>{% highlight javascript %}document.getElementsByTagName("li");{% endhighlight %}</p>
 <p>(Substitute the <code>li</code> with whatever element you want to retrieve (such as <code>p</code> or <code>a</code>).)</p>
 <p>You use this method similar to how you use <code>getElementById</code>:</p>
-<p>[js]myListItems = document.getElementsByTagName(&quot;li&quot;);[/js]</p>
+<p>{% highlight javascript %}myListItems = document.getElementsByTagName("li");{% endhighlight %}</p>
 <p>JavaScript will return all elements with this tag name as an array. If your web page has 12 list items, the result will be an array with 12 positions.</p>
 <p>You can then identify a unique position using the following:</p>
-<p>[js]myListItems[0]&lt;br /&gt;myListItems[1]&lt;br /&gt;myListItems[2]&lt;br /&gt;myListItems[3][/js]</p>
+<p>{% highlight javascript %}myListItems[0]myListItems[1]myListItems[2]myListItems[3]{% endhighlight %}</p>
 <p>And so on, with each position corresponding with the site element in the array.</p>
 <p>You can apply various methods to the variable to display information about that element in your console. <code>nodeType</code>, <code>innerHTML</code>, and <code>childNodes.length</code> will all return specific information about the element.</p>
 <p>In this example, <code>contentSubhead</code> is an element on the page.</p>
-<p>[js]console.log(contentSubhead.nodeType);<br />
-console.log(contentSubhead.innerHTML);<br />
-console.log(contentSubhead.childNodes.length);[/js]</p>
+<p>{% highlight javascript %}console.log(contentSubhead.nodeType);
+console.log(contentSubhead.innerHTML);
+console.log(contentSubhead.childNodes.length);{% endhighlight %}</p>
 <p>When you run these console.log messages in Firebug, the console will display this information.</p>
 <h2>Restricting Information by Specific Elements</h2>
 <p>Let's say you want to identify a specific list on your page. You don't have to try to identify it from the page as a whole. If you were to use the <code>getElementsByTagName("li")</code> property, you would retrieve all the <code>li</code> elements for the entire page.</p>
@@ -64,9 +44,9 @@ console.log(contentSubhead.childNodes.length);[/js]</p>
 <p>You can identify a unique element on the page and then drill in from there to go to the specific list you want.</p>
 <p>For example, let's say you have an element with an ID of "contentSubhead" and you want to interact with one of its list items.</p>
 <p>First, create a variable that identifies the unique element. Then create a new variable that refers to the previous variable and applies the <code>.getElementsByTagName</code> method to it:</p>
-<p>[js]//Declare a variable and assign it to a unique page ID<br />
-var contentSubhead = document.getElementById(&quot;contentSubhead&quot;);<br />
-//create a new variable and run a method on it<br />
-&gt;var limitedItem = contentSubhead.getElementsByTagName(&quot;li&quot;);[/js]</p>
+<p>{% highlight javascript %}//Declare a variable and assign it to a unique page ID
+var contentSubhead = document.getElementById("contentSubhead");
+//create a new variable and run a method on it
+>var limitedItem = contentSubhead.getElementsByTagName("li");{% endhighlight %}</p>
 <p>The <code>getElementsByTagName</code> property will show all the list items beginning at the unique element you identified.</p>
 <p>In this way, you can restrict your interactions with the DOM to increasingly more specific elements.</p>

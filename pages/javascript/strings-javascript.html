@@ -5,66 +5,46 @@ permalink: /strings-javascript/
 date: 2013-02-02 23:42:38.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _syntaxhighlighter_encoded: '1'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _spost_short_title: ''
-  _series_part: '9'
-  _wp_rp_image: empty
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:16:"85.6988159764156";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"13750";s:5:"score";s:17:"72.08102948996341";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:17:"67.11121619038424";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20364";s:5:"score";s:17:"60.29589963057253";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"48.48864747205367";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20244";s:5:"score";s:17:"48.48864747205367";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13755";s:5:"score";s:17:"46.86505769455637";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:17:"46.86505769455637";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:17:"46.86505769455637";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:18:"45.243197262119494";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"19960";s:5:"score";s:16:"44.7258442319211";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13805";s:5:"score";s:16:"43.8569029009996";}}
-  dsq_thread_id: '3776820234'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>Strings are non-numbers assigned to variables. You surround strings in quotes, like this:</p>
-<p>[js]var endMessage = &quot;Congratulations! You're finished.&quot;;[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations! You're finished.";{% endhighlight %}</p>
 <p>If you have a quote inside a quote, you can add a back slash to tell JavaScript to ignore the quotation mark (this is called "escaping"). Otherwise, the quotation mark inside the string would end your string. In the following example, the quotations around <code>relax</code> are escaped.</p>
-<p>[js]var endMessage = &quot;Congratulations. Take a break and<br />
-find some time to &quot;relax&quot; a bit.&quot;;[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations. Take a break and
+find some time to "relax" a bit.";{% endhighlight %}</p>
 <p>Single quotes inside double quotes are allowed without the need to escape them. If you have contractions or possessives, which use single quote marks, make sure you surround the string with double quotes.</p>
-<p>[js]var endMessage = &quot;Congratulations, it's all yours.&quot; a bit.&quot;;[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations, it's all yours." a bit.";{% endhighlight %}</p>
 <h2>Strings as Arrays</h2>
 <p>Variables with strings can be treated as arrays. If you add <code>.length</code> to the variable, JavaScript returns the number of characters in the string.</p>
-<p>[js]var endMessage = &quot;Congratulations! You're finished.&quot;;<br />
-//write the character length of the string.<br />
-console.log(endMessage.length);[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations! You're finished.";
+//write the character length of the string.
+console.log(endMessage.length);{% endhighlight %}</p>
 <p>The result is 33.</p>
 <h2>Changing Strings to Upper or Lower Case</h2>
 <p>You can also convert the string to upper case with the <code>.toUpperCase</code> method:</p>
-<p>[js]var endMessage = &quot;Congratulations! You're finished.&quot;;<br />
-//write the string to upper case<br />
-console.log (endMessage.toUpperCase() );[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations! You're finished.";
+//write the string to upper case
+console.log (endMessage.toUpperCase() );{% endhighlight %}</p>
 <p>The result is CONGRATULATIONS! YOU'RE FINISHED.</p>
 <p>Similarly, you can use <code>.toLowerCase</code> to convert the string to lowercase.</p>
 <h2>Splitting Apart Strings</h2>
 <p>You can split the string apart into different positions. To do this, you add use the <code>.split</code> method.</p>
-<p>[js]var endMessage = &quot;Congratulations! You're finished.&quot;;<br />
-//split the string at the spaces<br />
-console.log (endMessage.split(&quot; &quot;);[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations! You're finished.";
+//split the string at the spaces
+console.log (endMessage.split(" ");{% endhighlight %}</p>
 <p>This splits the string up into an array, with each word assigned to a position. <code>Congratulations!</code> is at position 0. <code>You're</code> is at position 1. And <code>finished.</code> is at position 2.</p>
 <p>The empty space in parentheses <code>(" ")</code> means to split the string apart at the empty space. You could also split the string apart at a comma or some other mark. To split the string apart by commas, you add <code>(",")</code> instead of the empty space.</p>
 <h2>Finding the Position for a Word in the String</h2>
 <p>You can find the exact position for a word in a string. To do this, use the <code>.indexOf</code> method:</p>
-<p>[js]var endMessage = &quot;Congratulations! You're finished.&quot;;<br />
-//find the position of the word &quot;finished&quot;<br />
-console.log ( endMessage.indexOf(&quot;finished.&quot;) );[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations! You're finished.";
+//find the position of the word "finished"
+console.log ( endMessage.indexOf("finished.") );{% endhighlight %}</p>
 <p>The word <code>finished</code> appears in position 2. (Remember that 0 is the starting point, not 1.)</p>
 <p>You can use <code>.lastIndexOf</code> to find where the last instance of a word appears.</p>
-<p>[js]var endMessage = &quot;Congratulations, Jon! Now go home, Jon.&quot;;<br />
-//find the last instance where Jon appears<br />
-console.log( endMessage.lastIndexOf(&quot;Jon&quot;) );[/js]</p>
+<p>{% highlight javascript %}var endMessage = "Congratulations, Jon! Now go home, Jon.";
+//find the last instance where Jon appears
+console.log( endMessage.lastIndexOf("Jon") );{% endhighlight %}</p>
 <p>The result is 49. The last instance of "Jon" appears 49 characters from the start.</p>
 <p>If the word can't be located, JavaScript returns a <code>-1</code>. This <code>-1</code> result can be useful for conditional statements. For example, you can ask whether a certain word is found. If not, then you can take a specific action.</p>
 <p>For a full reference of JavaScript commands, see the <a href="http://developer.mozilla.org/en/JavaScript/Reference">Mozilla JavaScript reference</a>.</p>

@@ -5,24 +5,9 @@ permalink: /ajax-javascript/
 date: 2014-12-20 10:16:37.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _wp_page_template: default
-  _edit_last: '91'
-  _syntaxhighlighter_encoded: '1'
-  dsq_thread_id: '3785058459'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>AJAX ("Asynchronous JavaScript and XML") is a technique that allows you to make calls to the server without reloading the page. The calls take place repeatedly in the background, allowing the server to return information to show new content in a seamless experience for the user.</p>
 <p>Some common examples of AJAX include Google's auto-complete responses in the search field. As soon as you start typing in the search field, you see responses in real time, without any page refreshes.</p>
 <p>Another example of AJAX is Google Maps. As you drag the screen in new areas, new map content loads from the server dynamically.</p>
@@ -32,25 +17,25 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>AJAX uses a new object to make the calls: <code>XMLHttpRequest</code>. However, unlike other functions, AJAX splits the call and response into two separate steps. This division of steps with the call and response allows for the asynchronous element of AJAX.</p>
 <h2>The XMLHttpRequest Object</h2>
 <p>The first step is to create a new <code>XMLHttpRequest</code> object. Because of some cross-browser incompatibility in calling the <code>XMLHttpRequest</code> object, you have to create a conditional statement to account for Internet Explorer. With this conditional statement in mind, you create the new object as follows:</p>
-<p>[js]var sampleRequest;<br />
-//check the browser -- if a non-IE browser, create this object<br />
-if (window.XMLHttpRequest) {<br />
-    sampleRequest = new XMLHttpRequest();<br />
-//otherwise, if IE, create this object<br />
-} else if (window.ActiveXObject)  {<br />
-    sampleRequest = new ActiveXObject(&quot;Microsoft.XMLHTTP&quot;);<br />
-}[/js]</p>
+<p>{% highlight javascript %}var sampleRequest;
+//check the browser -- if a non-IE browser, create this object
+if (window.XMLHttpRequest) {
+    sampleRequest = new XMLHttpRequest();
+//otherwise, if IE, create this object
+} else if (window.ActiveXObject)  {
+    sampleRequest = new ActiveXObject("Microsoft.XMLHTTP");
+}{% endhighlight %}</p>
 <p>This above code doesn't specify exactly where on the server the request is being made. However, before you specify more details about the request, you have to specify how to handle the response that will come back from the server.</p>
 <p>To handle this response, you use the <code>onreadystatechange</code> event to call an anonymous function. The basic format of this event in a JavaScript statement is as follows:</p>
-<p>[js]//apply the onreadystatechange method for this request<br />
-sampleRequest.onreadystatechange = function() {<br />
-//run some code here...<br />
-};[/js]</p>
+<p>{% highlight javascript %}//apply the onreadystatechange method for this request
+sampleRequest.onreadystatechange = function() {
+//run some code here...
+};{% endhighlight %}</p>
 <p>Now that you've defined how to handle the responses from the server, you can write a more specific request to send. The specific request might look as follows:</p>
-<p>[js]//specify the type of request and where to send it.<br />
-//&quot;true&quot; means as soon as you send,<br />
-//let browser to respond without waiting.<br />
-sampleRequest.open(&quot;GET&quot;,&quot;http://testsite.com/data.php&quot;, true);<br />
-//send the request. In parentheses, insert parameters.<br />
-sampleRequest.send();[/js]</p>
+<p>{% highlight javascript %}//specify the type of request and where to send it.
+//"true" means as soon as you send,
+//let browser to respond without waiting.
+sampleRequest.open("GET","http://testsite.com/data.php", true);
+//send the request. In parentheses, insert parameters.
+sampleRequest.send();{% endhighlight %}</p>
 <p>AJAX calls are more advanced and would contain more detail, but this is the basic pattern of the call.</p>

@@ -5,84 +5,64 @@ permalink: /dates-javascript/
 date: 2013-02-02 23:43:17.000000000 -08:00
 categories:
 - javascript
-tags: []
-status: publish
-type: page
-published: true
-meta:
-  _edit_last: '91'
-  _cs_replacements: a:1:{s:7:"primary";s:18:"cs-javascript-menu";}
-  _wp_page_template: default
-  _syntaxhighlighter_encoded: '1'
-  _wp_rp_image: empty
-  _spost_short_title: ''
-  _series_part: '10'
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"13766";s:5:"score";s:16:"81.9592042090264";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"13750";s:5:"score";s:17:"60.57165588092853";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"56.41183710430203";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"13748";s:5:"score";s:17:"55.08997583306018";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"13777";s:5:"score";s:18:"54.118960201492555";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"13752";s:5:"score";s:17:"46.86505769455637";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:17:"46.86505769455637";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13619";s:5:"score";s:17:"46.86505769455637";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13622";s:5:"score";s:18:"45.894042062988746";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"13803";s:5:"score";s:16:"44.1559663689278";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"13771";s:5:"score";s:16:"44.1559663689278";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:17:"43.88306341504415";}}
-  dsq_thread_id: '3776860178'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
+{% assign sidebar = site.data.sidebar_javascript.entries %}
+{% include technotes_toc.html %}
 <p>JavaScript has a built-in Date object that allows you to use it in various ways.</p>
 <p>To use the Date object, you assign a variable as a new Date, like this:</p>
-<p>[js]<br />
-var eclipse = new Date();<br />
-[/js]</p>
+<p>{% highlight javascript %}
+var eclipse = new Date();
+{% endhighlight %}</p>
 <p>The <code>Date</code> object accepts six parameters: year, month, day, minutes, seconds, and milliseconds. You don't need to use all the parameters.</p>
 <p>If you don't insert any values in the parentheses <code>()</code>, the parameters default to the current date and time.</p>
 <h2>Example Use of the Date Object</h2>
 <p>To set a date to 12/12/12, you might write:</p>
-<p>[js]<br />
-var eclipse = new Date(2012,12,12);<br />
-[/js]</p>
+<p>{% highlight javascript %}
+var eclipse = new Date(2012,12,12);
+{% endhighlight %}</p>
 <p>Now you can apply various methods to <code>eclipse</code> to manipulate the Date object. For example, let's suppose you want to know what day of the week this is. You would write:</p>
-<p>[js]<br />
-var eclipse = new Date(2012,12,12);<br />
-//apply the method to the object<br />
-console.log( eclipse.getDay() );<br />
-[/js]</p>
+<p>{% highlight javascript %}
+var eclipse = new Date(2012,12,12);
+//apply the method to the object
+console.log( eclipse.getDay() );
+{% endhighlight %}</p>
 <p>The result is 6. This means that 12-12-2012 falls on a Friday. (Remember that the first day of the week is a 0, not a 1.)</p>
 <p>Here's another example:</p>
-<p>[js]//set your a variable for sampleDate<br />
-var sampleDate = new Date(1975,9,2);<br />
-//apply the getDay method to the object<br />
-console.log ( sampleDate.getDay() );[/js]</p>
+<p>{% highlight javascript %}//set your a variable for sampleDate
+var sampleDate = new Date(1975,9,2);
+//apply the getDay method to the object
+console.log ( sampleDate.getDay() );{% endhighlight %}</p>
 <p>This returns 3, which corresponds to Wednesday.</p>
 <h2>Available Methods for the Date Object</h2>
 <p>The Date object has a variety of methods:</p>
-<p>[js]<br />
-.getMonth();// returns a number from 0 to 11<br />
-.getFullYear(); //YYYY (not a zero-based index)<br />
-.getDate(); // day of the month<br />
-.getDay(); // 0-6 day of the week. 0 is sunday<br />
-.getHours(); // returns 0-23<br />
-.getTime(); // milliseconds since 1/1/1970<br />
-[/js]</p>
+<p>{% highlight javascript %}
+.getMonth();// returns a number from 0 to 11
+.getFullYear(); //YYYY (not a zero-based index)
+.getDate(); // day of the month
+.getDay(); // 0-6 day of the week. 0 is sunday
+.getHours(); // returns 0-23
+.getTime(); // milliseconds since 1/1/1970
+{% endhighlight %}</p>
 <h2>The getTime Method</h2>
 <p>The <code>.getTime</code> method seems odd (returning milliseconds since 1970) but is actually useful in conditional statements. You can't ask if two dates are equal to each other, because dates aren't regular numbers. However, you can ask which date has a larger number of milliseconds since 1970.</p>
 <p>Essentially, the <code>getTime</code> method is a way of converting dates to numbers.</p>
 <p>Here's how you might use <code>getTime</code>:</p>
-<p>[js]//create two date objects<br />
-var newYearsDay = new Date(1,1,2013);<br />
-var valentinesDay = new Date(2/14/2013);<br />
-//if the first object is greater than the second, write this<br />
-if ( newYearsDay.getTime() ) &gt; valentinesDay.getTime() ) {<br />
-console.log(&quot;Great!&quot;) }<br />
-//if it's not, write this<br />
-else {<br />
-console.log(&quot;That's okay.&quot;)<br />
-}[/js]</p>
+<p>{% highlight javascript %}//create two date objects
+var newYearsDay = new Date(1,1,2013);
+var valentinesDay = new Date(2/14/2013);
+//if the first object is greater than the second, write this
+if ( newYearsDay.getTime() ) > valentinesDay.getTime() ) {
+console.log("Great!") }
+//if it's not, write this
+else {
+console.log("That's okay.")
+}{% endhighlight %}</p>
 <h2>Using the setDate Method</h2>
 <p>In addition to <code>.getDate</code>, there are equivalent methods for setting the date using <code>setDate</code>. The following are available methods for <code>setDate</code>:</p>
-<p>[js]<br />
-.setMonth(); // sets a number from 0 to 11<br />
-.setFullYear(); //sets the year (not a zero-based index)<br />
-.setDate(); // sets the day of month<br />
-.setDay(); // sets the day of the week (0-6)<br />
-.setHours(); //sets the hours for a day (0-23)<br />
-.setTime(); // sets the milliseconds since 1/1/1970.[/js]</p>
+<p>{% highlight javascript %}
+.setMonth(); // sets a number from 0 to 11
+.setFullYear(); //sets the year (not a zero-based index)
+.setDate(); // sets the day of month
+.setDay(); // sets the day of the week (0-6)
+.setHours(); //sets the hours for a day (0-23)
+.setTime(); // sets the milliseconds since 1/1/1970.{% endhighlight %}</p>
