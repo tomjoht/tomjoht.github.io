@@ -1,17 +1,7 @@
-<div class="seriesContext">
-    <div class="btn-group">
-        <button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.course}}<span class="caret"></span></button>
-        <ol class="dropdown-menu">
-
-            {% for p in site.voiceovertechniques | sort: weight %}
-            {% if p.url == page.url %}
-            <li class="active"> → {{p.title}}</li>
-            {% else %}
-            <li>
-                <a href="{{p.url | prepend: site.baseurl}}">{{p.title}}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ol>
-    </div>
-</div>
+<p>{% for p in site.voiceovertechniques %}
+    {% assign nextTopic = page.weight | plus: "0.1"  %}
+    {% if p.weight == nextTopic  %}
+    <a href="{{p.url | prepend: site.baseurl}}"><button type="button" class="btn btn-warning">Next: {{p.weight}}  {{p.title}}</button></a>
+    {% endif %}
+    {% endfor %}
+</p>

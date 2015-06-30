@@ -2,13 +2,13 @@
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.course}}<span class="caret"></span></button>
         <ol class="dropdown-menu">
-
-            {% for p in site.voiceovertechniques | sort: weight %}
+{% assign collection_pages = site.voiceovertechniques | sort: "weight" %}
+            {% for p in collection_pages %}
             {% if p.url == page.url %}
-            <li class="active"> → {{p.title}}</li>
+            <li class="active">{{p.weight}}  → {{p.title}}</li>
             {% else %}
             <li>
-                <a href="{{p.url | prepend: site.baseurl}}">{{p.title}}</a>
+                <a href="{{p.url | prepend: site.baseurl}}">{{p.weight}}  {{p.title}}</a>
             </li>
             {% endif %}
             {% endfor %}

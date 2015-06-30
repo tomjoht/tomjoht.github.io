@@ -28,8 +28,14 @@ topnav_dropdowns:
       - title: Browse all series
         url: /allseries/
 
-      - title: 10 voiceover techniques
-        url: /series-10-voiceover-tips/
+      - title: Documenting REST APIs
+        url: /restapicourse/
+
+      - title: Publishing API documentation
+        url: /publishingapidocs/
+
+      - title: Voiceover techniques
+        url: /voiceovertechniques/
 
       - title: 7 deadly sins of blogging
         url: /series-overview-blogging-sins/
