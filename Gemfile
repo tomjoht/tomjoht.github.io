@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
-gems:
-  - jekyll-redirect-from
-  - github-pages
+gem 'github-pages'
+gem 'jekyll-redirect-from'
