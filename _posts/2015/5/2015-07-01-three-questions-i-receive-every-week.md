@@ -10,9 +10,9 @@ summary: "About once a week I get the following three questions. It would be nic
 ## Question 1
 The first question goes something like this:
 
-> Hi Tom, I found your blog and really like the content. I'm currently a ________ with a degree in _______. I've been working for the past few years doing ________. However, I really dislike my job. I realized that it involves _______ and _________ all day long. 
+> <p>Hi Tom, I found your blog and really like the content. I'm currently a ________ with a degree in _______. I've been working for the past few years doing ________. However, I really dislike my job. I realized that it involves _______ and _________ all day long.</p>
 > 
-> I'm thinking of transitioning into a technical writing career. I like to write, and I scored high grades in all my writing classes. Can you give me any advice? How can I get a job in technical writing? Is there a particular city where there are lots of technical writing jobs? Thanks so much.
+> <p>I'm thinking of transitioning into a technical writing career. I like to write, and I scored high grades in all my writing classes. Can you give me any advice? How can I get a job in technical writing? Is there a particular city where there are lots of technical writing jobs? Thanks so much.</p>
 
 I think a lot of people start thinking about technical writing careers when several things happen: 
 
