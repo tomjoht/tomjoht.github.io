@@ -29,13 +29,14 @@ But I can't predict the future or really know if tech writing is a suitable care
 The second most common question I receive is this one:
 
 > Hi Tom. I have this assignment where I'm supposed to contact a professional technical writer and ask them some questions. So since I googled technical writer and your name came up, I'm going to ask you to spend about 30 minutes replying to me with answers to some questions I thought up in about two seconds. 
-> Here are the questions: 
-> * What is a typical day like as a technical writer?
-> * What background and skills do you need?
-> * How can I best prepare for a career in technical writing?
-> * What are your biggest challenges as a technical writer?
-> * What fields in technical writing are the most popular?
-> Thanks, please respond with answers before 5pm tomorrow as my assignment is due then. thanks.
+> 
+> <p>Here are the questions:</p>
+> <ul><li>What is a typical day like as a technical writer?</li>
+> <li>What background and skills do you need?</li>
+> <li>How can I best prepare for a career in technical writing?</li>
+> <li>What are your biggest challenges as a technical writer?</li>
+> <li>What fields in technical writing are the most popular?</li></ul>
+> <p>Thanks, please respond with answers before 5pm tomorrow as my assignment is due then. thanks.</p>
 
 About five years ago, I used to actually respond to these questions. Then I started pushing them out to my colleagues and invited them to respond. A lot of times my colleagues wrote really detailed responses, writing more than 1,5000 to 3,000 words sometimes.
 
