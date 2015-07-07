@@ -152,7 +152,7 @@ Instead, when I can walk through the instructions myself, and confirm whether th
 
 In contrast, if you just stick to technical editing, formatting, publishing, and curating &mash; these activities are all worthwhile, but they are not fulfilling as a career. Only when you get your synapses firing in the knowledge domain you're writing in, as well as your hands dirty testing and trying out all the steps and processes, does the work of technical writing start to become engaging. 
 
-## It takes time
+## Accounting for the necessary time
 
 Note well that it takes time to try out the instructions yourself and with users. It probably doubles or triples the documentation time. You don't always have this time before release. I can't say that I've tested out all the different parts of my documentation, because I have four different programming languages across various platforms, but for the doc that I do test, it makes a world of difference. 
 
