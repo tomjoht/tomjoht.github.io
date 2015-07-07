@@ -5,8 +5,10 @@ categories:
 tags: [series_user_centered_documentation]
 series: "User-centered documentation"
 weight: 4
-summary: "Writing good documentation requires you to set up a test environment and test all of your instructions &mdash; testing the instructions both yourself and against a user. Testing instructions can be time consuming and tricky, especially with developer documentation. It's hard to see past personal blind spots and assumptions. But testing instructions gives you access to insight that makes your documentation much more accurate and useful."
+summary: "Writing good documentation requires you to set up a test environment and test all of your instructions &mdash; testing the instructions yourself and against a user. Testing instructions can be time consuming and tricky, especially with developer documentation. It's hard to see past personal blind spots and assumptions. But testing instructions gives you access to insight that makes your documentation much more accurate and useful."
 ---
+
+## Testing overview
 
 Recently, in the rush to meet deadlines, I had to put aside one of the principles of technical writing I value the most: testing all the steps in my documentation, exactly as a user would. 
 
@@ -86,7 +88,7 @@ The problem, though, is learning to see the blind spots. If you're the only one 
 
 But the audience *doesn't* know exactly what you know, and although you might feel like what you've written is crystal clear, because c'mon, everyone knows how to clear their cache, in reality you won't know until you *test your instructions against an audience*. 
 
-## Testing the instructions against an audience
+## Step 3: Test the instructions against an audience
 
 Almost no developer can push out their code without running it through QA, but for some reason technical writers are usually exempt from QA processes. There are some cases where tech docs are "tested" by QA, but whenever this happens I usually get the strange feedback, as if a robot were testing my instructions. 
 
