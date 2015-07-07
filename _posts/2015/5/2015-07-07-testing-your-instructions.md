@@ -7,7 +7,7 @@ series: "User-centered documentation"
 weight: 4
 summary: "Writing good documentation requires you to set up a test environment and test all of your instructions &mdash; testing the instructions yourself and against a user. Testing instructions can be time consuming and tricky, especially with developer documentation. It's hard to see past personal blind spots and assumptions. But testing instructions gives you access to insight that makes your documentation much more accurate and useful."
 ---
-
+{% include seriesTag.html %}
 ## Testing overview
 
 Recently, in the rush to meet deadlines, I had to put aside one of the principles of technical writing I value the most: testing all the steps in my documentation, exactly as a user would. 
