@@ -1,6 +1,5 @@
 ---
-title: The key to writing good documentation: Testing your instructions
-permalink: /testing-your-own-instructions
+title: "The key to writing good documentation: Testing your instructions"
 categories:
 - user-centered-documentation
 tags: [series_user_centered_documentation]
