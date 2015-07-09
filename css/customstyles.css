@@ -108,10 +108,14 @@ table > tfoot > tr > th,
 table > thead > tr > td,
 table > tbody > tr > td,
 table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.42857143;
+  padding: 15px;
+  line-height: 1.72857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
+}
+
+table tr td img {
+    padding:15px;
 }
 table > thead > tr > th {
   vertical-align: bottom;
@@ -879,3 +883,6 @@ blockquote {
 .col-md-9 ul li, .col-md-9 ol li {
     margin-bottom: 12px;
 }
+
+img.left {float: left; padding-right:20px;}
+img.right {float: right; padding-left:20px;}
