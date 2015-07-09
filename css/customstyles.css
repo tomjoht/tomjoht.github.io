@@ -115,7 +115,8 @@ table > tfoot > tr > td {
 }
 
 table tr td img {
-    padding:15px;
+    padding-top:15px;
+    padding-bottom: 15px;
 }
 table > thead > tr > th {
   vertical-align: bottom;
