@@ -23,7 +23,6 @@ categories:
 - wordpress
 - writing
 keywords: 
-summary: ""
 published: false
 ---
 
