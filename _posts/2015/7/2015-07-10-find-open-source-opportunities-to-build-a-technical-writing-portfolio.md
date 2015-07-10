@@ -3,7 +3,7 @@ title: Build a technical writing portfolio by writing documentation for startups
 categories:
 - beginners
 keywords: startups, documentation, portfolio, technical writing career
-summary: "People looking to break into technical writing are often looking for open source projects they can  document in order to build their technical writing portfolio. Instead of looking for open source projects, check out <a href="http://www.linksv.com">linksv.com</a> to find startups that might need help with documentation."
+summary: "People looking to break into technical writing are often looking for open source projects they can  document in order to build their technical writing portfolio. Instead of looking for open source projects, check out linksv.com to find startups that might need help with documentation."
 ---
 
 If you need to build your technical writing portfolio with sample documentation, you have several options:
