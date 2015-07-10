@@ -12,7 +12,7 @@ weight: 5
 
 In my previous post, [The key to writing good documentation: Testing your instructions](http://idratherbewriting.com/2015/07/07/testing-your-instructions/), I noted that although quality assurance teams can review documentation, my experience is that they review it like a robot. They don't comment qualitatively, noting whether something is clear or not, whether the message is on target, whether the tasks represent the user's workflow and business needs. Instead, they analyze the steps strictly for accuracy (which does have benefits, of course).
 
-However, I'm starting to think that my approach with documentation has been too laissez-faire in terms of its insertion into the engineering process. Engineering code goes through rigorous review by QA and product managers weeks before release, but most teams are happy to move documentation outside of this process. Just having the doc finished is enough. If done, they can check and box and include it in the product, without reviewing it more than cursorily.
+However, I'm starting to think that my approach with documentation has been too laissez-faire in terms of its insertion into the engineering process. Engineering code goes through rigorous review by QA and product managers weeks before release, but most teams are happy to move documentation outside of this process. Just having the doc finished is enough. If done, they can "check a box" and include it in the product, without reviewing it more than cursorily.
 
 But maybe this approach is wrong. If you insert documentation into a similar workflow as engineering code, you would submit the documentation to QA in time for review. This means you would need to finish the documentation usually two weeks before the release cycle. 
 
