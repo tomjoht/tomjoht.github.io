@@ -1,4 +1,5 @@
-<p>{% for p in site.voiceovertechniques %}
+<p>{% assign series_pages = site.tags.series_author_in_dita_publish_wp %}
+    {% for p in series_pages %}
     {% assign nextTopic = page.weight | plus: "0.1"  %}
     {% if p.weight == nextTopic  %}
     <a href="{{p.url | prepend: site.baseurl}}"><button type="button" class="btn btn-warning">Next: {{p.weight}}  {{p.title}}</button></a>
