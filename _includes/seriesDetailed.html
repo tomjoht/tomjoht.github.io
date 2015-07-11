@@ -1,11 +1,11 @@
 
-{% assign thisSeries = page.series_name %}
-{% assign allPosts = site.posts | sort: "weight" %}
-{% for p in allPosts %}
-{% if p.series == thisSeries %}
+<!--{% assign thisSeries = page.series_name %}-->
+<!--{% assign allPosts = site.posts | sort: "weight" %}-->
+<!--{% for p in allPosts %}-->
+<!--{% if p.series == thisSeries %}-->
 
-<a href="{{p.url | prepend: site.baseurl}}">{{p.weight}}. {{p.title}}</a>
-{% comment %}<p>{% if p.summary %} {{ page.summary }} {% endif %}</p> {% endcomment %}
+<!--<a href="{{p.url | prepend: site.baseurl}}">{{p.weight}}. {{p.title}}</a>-->
+<!--{% comment %}<p>{% if p.summary %} {{ page.summary }} {% endif %}</p> {% endcomment %}-->
 
-{% endif %}
-{% endfor %}
+<!--{% endif %}-->
+<!--{% endfor %}-->
