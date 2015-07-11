@@ -81,14 +81,6 @@ defaults:
       comments: true
       search: true
 
-  -
-    scope:
-      path: ""
-      type: "voiceovertechniques"
-    values:
-      layout: "page_voiceovertechniques"
-      comments: true
-      search: true
 sass:
     sass_dir: _sass
 

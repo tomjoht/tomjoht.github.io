@@ -1,20 +1,22 @@
 ---
 title: Voiceover Techniques Series
 permalink: /voiceovertechniques/
-redirect_from: "http://idratherbewriting.com/series-10-voiceover-tips/"
 categories:
 - general
 - screencasting
 - video
-tags:
+keywords:
 - acting
 - conversation
 - performing
 - scripts
 - voice
-course: "Voiceover techniques"
+tags:
+- series_voiceover_techniques
+series: "Voiceover techniques"
 weight: 1.0
 ---
+{% include seriesTagVoiceoverTechniques.html %}
 
 Voiceover is one of the most challenging aspects to recording good video tutorials. It’s difficult enough to get the timing right, storyboarding the right actions with the narrative. 
 
