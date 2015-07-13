@@ -7,31 +7,6 @@ categories:
 - general
 tags:
 - help strategies
-status: publish
-type: post
-published: true
-meta:
-  _series_part: '73'
-  _edit_last: '1'
-  _spost_short_title: ''
-  dcssb_short_url: http://bit.ly/VUKUrn
-  _thumbnail_id: '16621'
-  _wp_rp_related_posts_query_result_cache_expiration: '1419983777'
-  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20394";s:5:"score";s:18:"102.87286665307076";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:18:"61.953892234607075";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:17:"56.56584649518283";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"6408";s:5:"score";s:17:"53.24271865183034";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:17:"53.09802134041742";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6486";s:5:"score";s:17:"50.50682820687723";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"6327";s:5:"score";s:17:"48.05443908913896";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"6548";s:5:"score";s:16:"46.6121186555254";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"6479";s:5:"score";s:17:"46.54254292545711";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"6611";s:5:"score";s:17:"45.43254924130507";}}
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20394";s:5:"score";s:18:"102.84249907371637";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20608";s:5:"score";s:17:"61.63884467970452";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:17:"56.62000452067484";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"6408";s:5:"score";s:17:"52.91676811558389";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:17:"52.57796789089185";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6486";s:5:"score";s:17:"50.11893108683766";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"6327";s:5:"score";s:18:"47.760830152178244";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"6548";s:5:"score";s:18:"46.317874777787935";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"6479";s:5:"score";s:17:"46.13461716091835";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"6611";s:5:"score";s:17:"45.13894030439667";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20256";s:5:"score";s:17:"43.91608317328418";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"13519";s:5:"score";s:17:"41.37835881688001";}}
-  _wp_rp_image: '16621'
-  fsb_social_facebook: '3'
-  fsb_social_twitter: '10'
-  fsb_social_linkedin: '8'
-  fsb_social_google: '0'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>I spent the past week in California, interviewing with various companies. In preparation for each interview, I studied each company's documentation as best I could. I noticed two main trends. Some companies group all their documentation together into one massive site. The sites usually have a robust table of contents and include help for most of the company's products. In contrast, other companies segment out their help into smaller sites. For example, a company might have an HTML file that opens a tripane help for each of their 25 products.</p>
 <p>[caption id="attachment_13917" align="alignnone" width="600"]<img class="size-full wp-image-13917" alt="Two strategies for organizing help content" src="/images/allinonesite-or-specialized-sites1.png" width="600" height="511" /> Two strategies for organizing help content[/caption]</p>
@@ -48,7 +23,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>In short, aggregating content on the same site allows you to cross-promote other products. You can have a list of related links that allows users to see similar topics in products and services they hadn't even considered.</p>
 <p>The downside with cross-promotion is that you may end up presenting users with a lot of irrelevant information. Users may not be interested in getting help for products or services they're not using, and seeing these "related" links clutter up the help content might be distracting.</p>
 <h2>Maintenance and Design</h2>
-<p>If you group all content in one site, designing and maintaining the site gets a lot easier. If you change one element of your site, such as your layout or style sheet, all content automatically receives the change. If your site is database driven, you have to update or back up only one database rather than dozens.</p>
+<p>If you group all content in one site, <a href="http://ripeconcepts.com/services/web-design-and-development/website-maintenance/">designing and maintaining the site</a> gets a lot easier. If you change one element of your site, such as your layout or style sheet, all content automatically receives the change. If your site is database driven, you have to update or back up only one database rather than dozens.</p>
 <p>In contrast, if you have 25 different help files, you would have to update the same layout or style sheet across all the sites. In my previous job, I had seven main products I maintained help for. When I made a small change to one help file or style sheet, I had to regenerate the content for all the other sites. It was a major pain.</p>
 <p>Once your help layout and style sheet are frozen, changes may not be such a big deal, but my sites were continually evolving, so the maintenance was cumbersome. You can also set up build scripts that automatically rebuild all your help files and publish them on a regular basis, but you then risk introducing errors unless you check the outputs.</p>
 <h2>Naming Conventions</h2>

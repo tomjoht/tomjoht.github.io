@@ -14,7 +14,7 @@ Miredot is a plugin for Maven, which is a build tool that you integrate into you
 
 You can read the [Getting started guide](http://miredot.com/docs/getting-started/) for Miredot for instructions on how to incorporate it into your Java project.
 
-Miredot leverages both Javadocs and JAXB annotations in the source code to generate the output. 
+Miredot supports many annotations in the source code to generate the output. The most important annotations they support include those from Jax-rs and Jackson. See [Supported Frameworks](http://www.miredot.com/docs/supportedframeworks/) for a complete set of supported annotations.
 
 ## Example annotations
 
