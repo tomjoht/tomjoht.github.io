@@ -2,8 +2,14 @@
 <div class="row">
     <!-- Sidebar Column -->
     <div class="col-md-3">
-
-
+<style>
+    @media (max-width: 970px) {
+        #sidebarArea {
+            display: none;
+        }
+    }
+</style>
+<div id="sidebarArea">
         <ul id="mytechsidebar" class="nav">
 {% include social_media_icons.html %}
 {% include tinyletter.html %}
@@ -11,5 +17,6 @@
 {% include text_ads.html %}
 {% include recent_comments.html %}
 </ul>
+</div>
 
     </div>
