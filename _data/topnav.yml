@@ -38,7 +38,7 @@ topnav_dropdowns:
         url: /voiceovertechniques/
 
       - title: 7 deadly sins of blogging
-        url: /series-overview-blogging-sins/
+        url: /2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/
 
       - title: API documentation podcasts
         url: /series-api-documentation-podcasts/
@@ -80,7 +80,7 @@ topnav_dropdowns:
         url: /series-my-journey-to-and-from-wikis/
 
       - title: From overlooked to center stage
-        url: /series-from-overlooked-to-center-stage/
+        url: /2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/
 
     - title: Tech Notes
       items:
