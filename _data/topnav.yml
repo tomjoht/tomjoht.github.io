@@ -25,8 +25,9 @@ topnav_dropdowns:
           url: /advertising/
     - title: Series
       items:
-      - title: Browse all series
-        url: /allseries/
+
+      - title: Testing documentation
+        url: /2015/07/07/testing-your-instructions/
 
       - title: Documenting REST APIs
         url: /restapicourse/

@@ -740,6 +740,7 @@ table.gsc-resultsHeader {
 h4.categoryArchive {
     margin-bottom:30px;
     margin-top: 30px;
+    font-weight: normal;
 }
 
 button.navbar-toggle {
