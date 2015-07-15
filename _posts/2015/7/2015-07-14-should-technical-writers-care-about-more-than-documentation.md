@@ -30,9 +30,9 @@ However, there are limits to going beyond the documentation role. It's one thing
 
 About 8 months ago, I was contacted anonymously by a regional STC conference planning committee (for Spectrum) to find out my reaction to the topic "More Than A Tech Writer...Beyond Tools, Beyond Docs." This was the theme of their conference, and they were assessing the fit of their theme with a handful of prospective keynote speakers. They said: 
 
->We want this conference to focus on our identity, what we really do (which is often so much more than others think we do), how we are viewed, how we can change/shape how we are viewed. ... We'd love to know your thoughts. Does this theme excite you as a speaker? What suggestions or brainstorms can you share with us to help us expand and/or refine our vision?"
+>We want this conference to focus on our identity, what we really do (which is often so much more than others think we do), how we are viewed, how we can change/shape how we are viewed. ... We'd love to know your thoughts. Does this theme excite you as a speaker? What suggestions or brainstorms can you share with us to help us expand and/or refine our vision?
 
-When I read the email, my thoughts immediately turned to the question of technical writer identitoes and titles. I'm familiar with that identity conundrum and have grown tired of hearing too many tech writers complain about being under valued, about being labeled "only a writer." So I responded as follows:
+When I read the email, my thoughts immediately turned to the question of technical writer identities and titles. I'm familiar with that identity conundrum and have grown tired of hearing too many tech writers complain about being under valued, about being labeled "only a writer." So I responded as follows:
 
 >If you want to focus on something more than help, more than publishing, more than most everything, then you might even be moving toward tech writers as content strategists. However, content strategy is not a topic that excites me. It's actually a topic that I find frustrating because we all tend to do it to some degree already, yet so many people viciously defend the space as belonging to a unique elite.  
 
