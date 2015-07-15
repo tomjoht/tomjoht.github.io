@@ -401,16 +401,9 @@ color: #444;
 }
 }
 
-@media (max-width: 500px) {
-#mytechsidebar {display:none;}
-}
-
-
 img.screenshotSmall {
 max-width: 300px;
 }
-
-
 
 dl dt p {
   margin-left:20px;
@@ -800,8 +793,6 @@ h2 {
     font-size: 26px;
 }
 
-h1.title topictitle1 {display:none;}
-
 .navbar-inverse .navbar-nav>li>a {
     font-size:14px;
 }
@@ -888,3 +879,27 @@ blockquote {
 
 img.left {float: left; padding-right:20px;}
 img.right {float: right; padding-left:20px;}
+
+#sidebarAreaHomePage, #topBannerImageHomepage {
+    display: none;
+}
+
+@media (max-width: 970px) {
+    /* mobile sidebar area, mobile top banner ad area */
+    #sidebarAreaHomePage {
+        display: block;
+    }
+    #topBannerImageHomepage {
+        display: block;
+    }
+    #topBannerImageHomepage img {
+        max-width: 300px;
+    }
+
+        /* top banner area, normal sidebar area */
+    #sidebarArea, .topBannerAd {
+        display: none;
+    }
+}
+
+

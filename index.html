@@ -5,9 +5,12 @@ type: homepage
 ---
 <div class="post-content">
 <!-- This loops through the paginated posts -->
-<div class="home-post-title">
+  <div id="topBannerImageHomepage">{% include topBannerAd.html %}</div>
+
+  <div class="home-post-title">
   {% for post in paginator.posts %}
 <div class="entry"><a href="{{ post.url }}">{{ post.title }}</a>
+
 
   <div class="home-post-meta">
     {{ post.date | date: "%b %-d, %Y" }} &#8226;
@@ -16,7 +19,7 @@ type: homepage
     {% endfor %}
   </div>
   {% endfor %}
-    &#8226; <a href="{{ post.url }}#disqus_thread">{{post.title}}</a>
+
 </div>
 </div>
 
@@ -34,7 +37,6 @@ type: homepage
     <span class="next ">Next</span>
     {% endif %}
   </div>
-
 </div>
 
 {% comment %} 
