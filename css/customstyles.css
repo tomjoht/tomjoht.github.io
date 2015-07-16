@@ -887,7 +887,7 @@ img.right {float: right; padding-left:20px;}
 
 /*@media (max-width: 970px)*/
 
-@media only screen and (max-width: 970px), only screen and (max-device-width: 970px){
+@media only screen and (max-width: 980px), only screen and (max-device-width: 980px){
     /* mobile sidebar area, mobile top banner ad area */
     #sidebarAreaHomePage {
         display: block;
