@@ -742,9 +742,10 @@ button.navbar-toggle {
 
 .sfacebook, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter {
     background: url(/images/sprites.png) no-repeat;
-    float: right;
+    float: left;
     padding: 6px;
     margin:6px;
+    margin-top:18px;
 }
 .srssfeed {
     background-position: 0 0;
