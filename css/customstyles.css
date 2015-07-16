@@ -894,6 +894,7 @@ img.right {float: right; padding-left:20px;}
     }
     #topBannerImageHomepage {
         display: block;
+        margin-top:10px;
     }
     #topBannerImageHomepage img {
         max-width: 300px;

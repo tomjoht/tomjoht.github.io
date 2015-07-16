@@ -81,8 +81,8 @@ It's hard to know which tools to focus on. I recommend learning more general lan
 
 Try taking these two Udemy courses by Peter Gruenbaum: 
 
-* [https://www.udemy.com/api-documentation-1-json-and-xml/](Learn API Technical Writing: JSON and XML)
-* [https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/](Learn API Technical Writing: REST for Writers)
+* [Learn API Technical Writing: JSON and XML](https://www.udemy.com/api-documentation-1-json-and-xml/)
+* [Learn API Technical Writing: REST for Writers](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/)
 
 Also see my online content on similar topics: 
 
@@ -95,7 +95,7 @@ You can learn a lot about APIs by simply using them. Using an API will help you 
 
 If your husband knows Java, you've got a great resource to teach you right at home. Also see this topic from my API doc survey: [The most common programming languages tech writers know](http://idratherbewriting.com/2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/).
 
-It's hard to learn a programming language if you're not using it, though. I think I've learned Java twice now and forgotten 50% of it each time, since I don't use it regularly. 
+It's hard to learn a programming language if you're not regularly using it, though. I think I've learned Java twice now and forgotten 50% of it each time, since I don't use it regularly. 
 
 I'm personally most interested in web publishing technologies, perhaps because I regularly use them on this blog and in my tech comm toolset. I had a lot of fun learning Jekyll because it allowed me to use HTML, CSS, and JavaScript directly.
 
