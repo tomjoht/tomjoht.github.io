@@ -422,12 +422,13 @@ dl dd {
 }
 
 figcaption {
-
-    padding-bottom:12px;
-    padding-top:6px;
-  max-width: 90%;
-  margin-bottom:20px;
-
+    padding-bottom: 12px;
+    max-width: 90%;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: gray;
+    font-style: italic;
 }
 
 .siteTagline {
@@ -915,5 +916,5 @@ p.dsq-widget-meta a {
     max-width: 100%;
     display: block;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
