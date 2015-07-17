@@ -913,4 +913,7 @@ p.dsq-widget-meta a {
 
 .col-md-9 img {
     max-width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
