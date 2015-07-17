@@ -74,7 +74,7 @@ There are a ton of different devices, so deciding what to change at what width i
 
 <figure><img src="{{ "/images/protofluid.png" | prepend: site.baseurl }}" alt="Protofluid" /><figcaption>Protofluid lets you change the viewport dimensions to see how your site looks with different device sizes.</figcaption></figure>
 
-You can see there are some challenges with that top banner. At the desktop display, the width is 480px, but this is too big for the iPhone display. I just set the width to a fixed 300px instead, because I wanted the ad smaller in relation to the other elements with the mobile view, not just filling 100% of its container.
+You can see there are some challenges with that top banner. At the desktop display, the width is 480px, but this is too big for the iPhone display. I just set the width to 80% instead, because I wanted the ad smaller in relation to the other elements with the mobile view, not just filling 100% of its container.
 
 ## Challenges to ad spots with responsive design
 
