@@ -21,8 +21,7 @@ topnav_dropdowns:
           url: /contact/
         - title: Presentations
           url: /presentations/
-        - title: Advertising
-          url: /advertising/
+
     - title: Series
       items:
 
@@ -138,3 +137,11 @@ topnav_dropdowns:
         url: /category-wordpress/
       - title: Writing
         url: /category-writing/
+    - title: Advertising
+      items:
+        - title: Advertising
+          url: /advertising/
+        - title: Impressions
+          url: /impressions/
+        - title: Clicks
+          url: /clicks/
