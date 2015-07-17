@@ -898,9 +898,8 @@ img.right, img.alignright {float: right; padding-left:20px;}
         margin-top:10px;
     }
     #topBannerImageHomepage img {
-        max-width: 300px;
+        max-width: 80%;
     }
-
         /* top banner area, normal sidebar area */
     #sidebarArea, .topBannerAd {
         display: none;
