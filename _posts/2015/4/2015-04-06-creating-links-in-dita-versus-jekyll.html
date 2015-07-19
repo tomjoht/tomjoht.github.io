@@ -5,15 +5,12 @@ date: 2015-04-06 21:08:08.000000000 -07:00
 categories:
 - dita
 - jekyll
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_jekyll_vs_dita
 series: "Jekyll versus DITA"
-weight: 6
+weight: 1.7
 ---
-{% include series.html %}
-
+{% include series/seriesTagJekyllVsDITA.html %}
 
 <p>In this <a href="http://idratherbewriting.com/series/jekyll-versus-dita/">ongoing series</a>, I'm comparing tech comm techniques with DITA versus Jekyll, a popular static site generator. How you create links is more than a simple technical detail. Linking is one of the main strategies for connecting and interrelating information.</p>
 <h2>How to create links in DITA</h2>
@@ -191,3 +188,5 @@ tags: configuration
 <p>I've never used any system that made it easy to handle links. But I do think that tagging provides some interesting advantages to DITA-style links.</p>
 <p>A previous commenter noted that you can do more with DITA than the Open Toolkit processes. We just have to wait for vendors to catch up with platforms to do more sophisticated processing (perhaps creating tags based on properties in a topic's metadata). I guess that could be the case, but I like being able to use my own little coding skills to hack together a solution in an afternoon.</p>
 <p>Tags start to be more important when your content scales to the point where a TOC becomes useless. The relationship table might work up to a point, but suppose you have thousands of pages. For example, with all the posts on my blog, any kind of TOC or relationship table would be a joke. About the only way to manage content that consists of thousands of topics is through search and tagging.</p>
+
+{% include series/seriesTagJekyllVsDITA_next.html %}

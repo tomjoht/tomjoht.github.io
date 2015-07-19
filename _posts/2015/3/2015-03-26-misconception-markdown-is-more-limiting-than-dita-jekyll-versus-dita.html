@@ -4,14 +4,12 @@ title: Authoring with Markdown in Jekyll versus Authoring with DITA in OxygenXML
 date: 2015-03-26 22:22:02.000000000 -07:00
 categories:
 - general
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_jekyll_vs_dita
 series: "Jekyll versus DITA"
-weight: 2
+weight: 1.1
 ---
-{% include series.html %}
+{% include series/seriesTagJekyllVsDITA.html %}
 
 <p>In my <a href="http://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/">previous post</a>, I noted a new series in which I plan to compare Jekyll versus DITA. In this first post, I want to debunk the myth that Markdown formats with static site generators like Jekyll are more limiting than DITA. This is a point discussed in the <a href="http://edmarsh.com/2015/03/18/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/">Content Content podcast</a> that I referenced in the series introduction. This is also a point that I myself was hung up on for a long time.</p>
 <p>To an extent, yes, Markdown itself is more limiting than DITA. But Jekyll doesn't just process Markdown on a page -- you can write in Markdown, HTML, Liquid, or JavaScript. With these options, you have a lot of freedom and flexibility -- even more so than DITA.</p>
@@ -111,3 +109,5 @@ weight: 2
 </ul>
 <p>Additionally, you don't have to use a special editor to work with the content. You aren't constrained by rigid information types with the tags. And because you're working with HTML and JavaScript, you can do anything that you can do on the web.</p>
 <p>When the time comes that a new technology replaces HTML on the web, XML authors will be able to update their stylesheets to map the DITA elements to the new tags. However, there won't be a place to publish the content, because the web, which is mostly built on HTML, won't exist.</p>
+
+{% include series/seriesTagJekyllVsDITA_next.html %}

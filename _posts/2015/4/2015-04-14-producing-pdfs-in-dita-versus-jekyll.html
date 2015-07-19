@@ -5,15 +5,12 @@ date: 2015-04-14 22:17:55.000000000 -07:00
 categories:
 - dita
 - jekyll
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_jekyll_vs_dita
 series: "Jekyll versus DITA"
-weight: 8
+weight: 1.6
 ---
-{% include series.html %}
-
+{% include series/seriesTagJekyllVsDITA.html %}
 
 <p>In this near final post in my <a href="http://idratherbewriting.com/series/jekyll-versus-dita/">series comparing DITA with Jekyll</a>, I want to explore contrasting ways to produce PDFs.</p>
 <p>I have other blog posts where I have stated how much I <a href="http://idratherbewriting.com/2015/02/05/why-do-we-need-pdfs/">dislike PDFs</a> with <a href="http://idratherbewriting.com/2009/06/28/pdf-manuals-the-wrong-paradigm-for-an-online-experience-uxmatters-2/">technical documentation</a>. The main problem is that even though PDFs go out of date quickly, users hang onto them and expect the PDFs to be current, relevant, accurate. PDFs don't really fit into an agile software development model.</p>
@@ -40,3 +37,5 @@ weight: 8
 <p>With Prince, there is no checker to see if you've included references to pages that aren't included in the output. However, if Prince cannot find the page, it will put <code>page 0</code> as the cross reference. Consequently, to find any misplaced cross references, you could just do a “Ctrl + Find” and look for “page 0” in the output, and then go back to your content and conditionalize those sections to hide them from the print output.</p>
 <p>Again, I don't want to get into the technical details, but that is the basic approach I'm taking. After you set it all up, it's somewhat of a push-button operation (you can trigger it all from a build script), but it's not as push-button as with a DITA platform. (As with everything Jekyll, though, it's easier to take control of the process.)</p>
 <p>If PDF is a huge requirement, and you're producing many different types of PDFs for many different targets and audiences, then Jekyll with Prince may not be your best option. On the other hand, since I don't think PDF is the best output for documentation, this isn't a huge concern of mine. I mostly wanted to be able to provide PDFs to someone in case they need it.</p>
+
+{% include series/seriesTagJekyllVsDITA_next.html %}

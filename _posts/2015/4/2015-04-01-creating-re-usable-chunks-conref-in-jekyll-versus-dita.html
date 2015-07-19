@@ -5,16 +5,12 @@ date: 2015-04-01 08:45:26.000000000 -07:00
 categories:
 - dita
 - jekyll
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_jekyll_vs_dita
 series: "Jekyll versus DITA"
-weight: 4
+weight: 1.3
 ---
-{% include series.html %}
-
-
+{% include series/seriesTagJekyllVsDITA.html %}
 
 <p>In my <a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">previous post</a>, I explained how to do variables and conditional processing in Jekyll. <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/#comment-263691">One of the commenters wondered</a> about how you create "intelligent content" with Jekyll:</p>
 <blockquote><p>how does a Jekyll (or similar) approach let us create intelligent content?</p></blockquote>
@@ -106,3 +102,5 @@ end: "</div>"
      {% endraw %}
 <p>That last example isn't so pretty, since it consists entirely of references to other content. There are probably more elegant ways to do it using a Ruby plugin, but once you start using plugins, you can no longer have Github Pages rebuild your content in the repository.</p>
 <p>At any rate, Jekyll provides multiple options for content re-use, which opens up some more possibilities.</p>
+
+{% include series/seriesTagJekyllVsDITA_next.html %}

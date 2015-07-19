@@ -5,15 +5,12 @@ date: 2015-04-02 22:37:39.000000000 -07:00
 categories:
 - dita
 - jekyll
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_jekyll_vs_dita
 series: "Jekyll versus DITA"
-weight: 5
+weight: 1.4
 ---
-{% include series.html %}
-
+{% include series/seriesTagJekyllVsDITA.html %}
 
 <p>In my <a href="http://idratherbewriting.com/series/jekyll-versus-dita/">ongoing series comparing Jekyll against DITA</a>, I want to touch on how you construct a table of contents.</p>
 <h2>Creating a TOC with DITA</h2>
@@ -152,3 +149,5 @@ entries:<br />
 <p>If you're going to include a topic in another topic, there's no reason not to use a conref from within the topic itself, or if using Jekyll, to <a href="http://idratherbewriting.com/2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/">use includes</a> from within the topic.</p>
 <h2>Conclusion</h2>
 <p>Overall, I hope to have shown that Jekyll provides some robust options when it comes to creating your table of contents. What's especially important is that the TOC content is not merged into the theme in a tight way. Content is separated from format (stored in a data file) and merged together at build time with your theme's template.</p>
+
+{% include series/seriesTagJekyllVsDITA_next.html %}

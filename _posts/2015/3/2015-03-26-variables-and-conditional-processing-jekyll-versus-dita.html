@@ -5,14 +5,12 @@ date: 2015-03-26 22:34:12.000000000 -07:00
 categories:
 - dita
 - jekyll
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_jekyll_vs_dita
 series: "Jekyll versus DITA"
-weight: 3
+weight: 1.2
 ---
-{% include series.html %}
+{% include series/seriesTagJekyllVsDITA.html %}
 
 
 <p>In the <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/">previous post</a>, I compared writing in Markdown versus writing in XML. In this post in the series, I want to look at variables and conditional processing between the two platforms.</p>
@@ -124,3 +122,5 @@ I have a wonderful dog named &lt;keyword keyref=&quot;dog_name&quot;/&gt;.<br />
 <h2>Conclusion</h2>
 <p>Both platforms allow variables and conditional processing in powerful ways. Conditional processing is certainly one of DITA's strengths, but you can do conditional processing in similar ways with Jekyll. And I must admit, the conditional processing seems a bit easier and more intuitive in Jekyll because you're using if-else statements. Variable assignments are much more straightforward as well.</p>
 <p>I'm not trying to score the platforms against each other so much here. I mainly want to say, hey, you can do the same things you're doing with DITA using Jekyll. Technical writers don't have to limit themselves to tech-comm platforms to do conditional processing and single sourcing.</p>
+
+{% include series/seriesTagJekyllVsDITA_next.html %}
