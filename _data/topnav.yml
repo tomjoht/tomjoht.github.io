@@ -35,19 +35,19 @@ topnav_dropdowns:
         url: /publishingapidocs/
 
       - title: Voiceover techniques
-        url: /voiceovertechniques/
+        url: /2008/11/14/finding-a-conversational-voice-in-video-tutorials/
 
       - title: 7 deadly sins of blogging
         url: /2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/
 
       - title: API documentation podcasts
-        url: /series-api-documentation-podcasts/
+        url: /2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/
 
       - title: API documentation survey
-        url: /series-api-documentation-survey/
+        url: /2014/12/12/i-need-your-responses-to-my-api-documentation-survey/
 
       - title: Author in DITA and Publish with WordPress
-        url: /2014/08/01/author-in-dita-publishin-wordpress-intro/
+        url: /2014/08/01/author-in-dita-publish-in-wordpress-intro/
 
       - title: DITA journey
         url: /series-my-dita-journey/

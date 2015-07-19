@@ -4,12 +4,10 @@ title: 'API doc survey: Do engineers write API doc in the source code?'
 date: 2015-01-15 07:08:51.000000000 -08:00
 categories:
 - api-doc
-tags: series_api_doc_survey
-status: publish
-type: post
-published: true
 series: "API documentation survey"
-weight: 10
+tags:
+- series_api_doc_survey
+weight: 2.0
 ---
 {% include seriesTagAPIDocSurvey.html %}
 
@@ -81,3 +79,5 @@ weight: 10
 <p>If the doc comments are an API specification for re-implementors, and not simply a guide for developers, they should be written either by the programmer who designed and implemented the API, or by a API writer who is or has become a subject matter expert. If the implementation is written to spec but the doc comments are unfinished, a writer can complete the doc comments by inspecting the source code or writing programs that test the API. A writer might inspect or test for exceptions thrown, parameter boundary conditions, and for acceptance of null arguments. However, a much more difficult situation arises if the implementation is not written to spec. Then a writer can proceed to write an API specification only if they either know the intent of the designer (either through design meetings or through a separately-written design specification) or have ready access to the designer with their questions. Thus, it may be more difficult for a writer to write the documentation for interfaces and abstract classes that have no implementors.</p>
 <p>With that in mind, these guidelines are intended to describe the finished documentation comments. They are intended as suggestions rather than requirements to be slavishly followed if they seem overly burdensome, or if creative alternatives can be found. When a complex system such as Java (which contains about 60 packages) is being developed, often a group of engineers contributing to a particular set of packages, such as javax.swing may develop guidelines that are different from other groups. This may be due to the differing requirements of those packages, or because of resource constraints.
 </p></blockquote>
+
+{% include seriesTagAPIDocSurvey_next.html %}
