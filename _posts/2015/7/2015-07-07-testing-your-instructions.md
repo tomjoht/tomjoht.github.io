@@ -5,7 +5,7 @@ categories:
 tags: [series_testing_documentation]
 series: Testing documentation
 summary: "Writing good documentation requires you to set up a test environment and test all of your instructions &mdash; testing the instructions yourself and against a user. Testing instructions can be time consuming and tricky, especially with developer documentation. It's hard to see past personal blind spots and assumptions. But testing instructions gives you access to insight that makes your documentation much more accurate and useful."
-weight: 1
+weight: 1.0
 ---
 {% include seriesTagTestingDocs.html %}
 ## Testing overview
@@ -161,4 +161,6 @@ Note well that it takes time to try out the instructions yourself and with users
 One way to shorten the testing period is by leveraging the test scripts used by your QA team. These test cases often give you a clear picture about the functionality provided by the system, along with sample calls to see if each piece works. QA scripts are usually much more thorough than you need, but they're helpful in pointing you in the right direction.
 
 Happy testing!
+
+{% include seriesTagTestingDocs_next.html %}
 

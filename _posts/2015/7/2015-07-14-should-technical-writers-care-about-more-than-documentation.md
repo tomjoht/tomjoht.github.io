@@ -6,7 +6,7 @@ tags: [series_testing_documentation]
 series: Testing documentation
 keywords: content strategy, the customer experience, holistic customer journeys
 summary: "As a technical writer, your holistic understanding of the total customer journey allows you to extend beyond your doc-writing role to wear other hats with usability, quality assurance, product management, training, support, and more. But the more time you spend in these other roles, the less time you have to spend on documentation, which results in a weaker doc product."
-weight: 4
+weight: 1.3
 ---
 {% include seriesTagTestingDocs.html %}
 
@@ -97,3 +97,5 @@ You've probably gotten a sense of my mixed emotions about playing so many extern
 Documentation can always be better than it is. It can have more visuals, more tutorials, more accuracy, more linked glossary terms, better navigation and findability, more responsive styling, and so on. When I find myself playing another role, I know that the documentation suffers. At the same time, the product overall improves, which helps the user experience as well.
 
 What do you think? Where do you draw the line with your role? Should tech writers look for opportunities to go beyond documentation, or is the factory model where everyone has a specialized, highly focused role a better model to follow?
+
+{% include seriesTagTestingDocs_next.html %}

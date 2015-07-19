@@ -6,7 +6,7 @@ tags: [series_testing_documentation]
 series: Testing documentation
 keywords: quality assurance, testing, documentation, rigorous review
 summary: "The past few years, I've allowed doc to be treated as an external product, separate from the software engineering code. In reality, doc would probably benefit tremendously from a more strict integration with the engineering code review cycles, with the review split between QA and product management."
-weight: 2
+weight: 1.1
 ---
 {% include seriesTagTestingDocs.html %}
 
@@ -62,5 +62,7 @@ The cons of inserting documentation into an official review process are as follo
 Although I sometimes like having doc be outside the engineering review process, I'm going to experiment with inserting doc into the official code review process, split between both QA and product management. I'm confident that if I give both QA and Product Management or Marketing clear guidance on what to test, these internal groups can provide a lot of worthwhile and helpful input for improving the documentation.
 
 Inserting docs into the code review process will also help me avoid time crunch situations in which I'm cramming to finish the docs before release, and everyone is too busy to review the help in any detail.
+
+{% include seriesTagTestingDocs_next.html %}
 
 
