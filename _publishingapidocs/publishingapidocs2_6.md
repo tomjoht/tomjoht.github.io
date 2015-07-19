@@ -11,9 +11,9 @@ One of the most stark differences between regular GUI documentation and develope
 
 >Minimize Clicking
 >
->It’s no secret that developers hate to click. Don’t spread your documentation onto a million different pages. Keep related topics close to each other on the same page.
+>It's no secret that developers hate to click. Don't spread your documentation onto a million different pages. Keep related topics close to each other on the same page.
 >
->We’re big fans of long single page guides that let users see the big picture with the ability to easily zoom into the details with a persistent navigation bar. This has the great side effect that users can search all the content with an in-page browser search.
+>We're big fans of long single page guides that let users see the big picture with the ability to easily zoom into the details with a persistent navigation bar. This has the great side effect that users can search all the content with an in-page browser search.
 >
 >A great example of this is the Backbone.js documentation, which has everything at your fingertips.
 

@@ -37,8 +37,8 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li"><samp class="ph codeph">otherprops</samp></li>
 <li class="li"><samp class="ph codeph">rev</samp></li>
 </ul>
-<p class="p">You set the values you want for each attribute. You can’t change the names of the attributes<br />
-    (because they’re part of the DITA schema), but you can edit their values. (The<br />
+<p class="p">You set the values you want for each attribute. You can't change the names of the attributes<br />
+    (because they're part of the DITA schema), but you can edit their values. (The<br />
      <samp class="ph codeph">props</samp> and <samp class="ph codeph">otherprops</samp> are meant to be generic to adapt to any<br />
     situation.)</p>
 <p class="p">To set up your attributes and values in OxygenXML, enter the <span class="ph uicontrol">Author</span> view and click the <span class="ph uicontrol">Profiling Attributes</span> button <img class="image" src="/images/profiling_conditions.png" alt="Profiling Attributes button" />. Then select <span class="ph uicontrol">Profiling Settings</span>.</p>
@@ -50,7 +50,7 @@ excerpt: !ruby/object:Hpricot::Doc
   </div>
 <div class="section">
 <h2 class="title sectiontitle">Creating Profiling Condition Sets</h2>
-<p class="p">While you’re on the Profiling Attributes screen, move to the next section below: Profiling<br />
+<p class="p">While you're on the Profiling Attributes screen, move to the next section below: Profiling<br />
     Condition Sets. Here you can define the combinations of the profiling attributes you want for<br />
     your various transformation scenarios.</p>
 <p><img class="image" src="/images/dita_profile2.png" alt="DITA Profiling condition sets" /></p>
@@ -62,7 +62,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li">Select <span class="ph uicontrol">Webhelp</span> and click <span class="ph uicontrol">OK</span>.</li>
 <li class="li">Name the transformation scenario.</li>
 <li class="li">Click the <span class="ph uicontrol">Filters</span> tab.</li>
-<li class="li">Select the profiling condition set you configured. Then click <span class="ph uicontrol">OK</span>. (You may need to toggle the radio button to another selection and then come back to select Use profiling condition set — not sure if that’s a UI quirk.)</li>
+<li class="li">Select the profiling condition set you configured. Then click <span class="ph uicontrol">OK</span>. (You may need to toggle the radio button to another selection and then come back to select Use profiling condition set — not sure if that's a UI quirk.)</li>
 <li class="li">Select the transform scenario you just created and click <span class="ph uicontrol">Apply<br />
       Associated</span>.
 <p class="p">For example, if you selected a condition set with<br />
@@ -72,10 +72,10 @@ excerpt: !ruby/object:Hpricot::Doc
 </li>
 </ol>
 <p class="p">Without Oxygen, you would need create a DITAVAL file that explains what should be excluded. See <a class="xref" href="/ditaval" title="Ditaval files define conditional processing rules for your transforms.">DITA: Ditaval files (filtering attributes from your transforms)</a> for more details.</p>
-<p class="p">In the DITAVAL file method, you identify the attribute and value and then apply an exclude action. (You don’t apply an include, just exclude.) You can still use DITAVAL files with Oxygen if you want.</p>
+<p class="p">In the DITAVAL file method, you identify the attribute and value and then apply an exclude action. (You don't apply an include, just exclude.) You can still use DITAVAL files with Oxygen if you want.</p>
 <p class="p">With Oxygen, however, the conditional profiling works more intuitively. In Oxygen, when you<br />
     create a condition set that includes certain values, other values not selected from that same<br />
-    attribute are excluded. However, if you don’t apply any attribute to content, everything is<br />
+    attribute are excluded. However, if you don't apply any attribute to content, everything is<br />
     included.</p>
 </p></div>
 <div class="section">
@@ -89,7 +89,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <pre class="pre codeblock">
    &lt;p product="trek"&gt;You can adjust your brakes by loosening the bolt with a 5mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt.&lt;/p&gt;
   </pre>
-<p class="p">Or to pretty much any other element. If you want to be even more granular, you can surround a word with <samp class="ph codeph">ph</samp> tags (for phrase). The tags can be applied to any word or phrase, so if the element you want doesn’t allow you to apply these general attributes (such as with the <samp class="ph codeph">entry</samp> element in a table), you can just put <samp class="ph codeph">ph</samp> tags inside the element.</p>
+<p class="p">Or to pretty much any other element. If you want to be even more granular, you can surround a word with <samp class="ph codeph">ph</samp> tags (for phrase). The tags can be applied to any word or phrase, so if the element you want doesn't allow you to apply these general attributes (such as with the <samp class="ph codeph">entry</samp> element in a table), you can just put <samp class="ph codeph">ph</samp> tags inside the element.</p>
 <pre class="pre codeblock">
   Your bike is equipped with Shimano &lt;ph platform="71_fx"&gt;Ultegra components&lt;/ph&gt;&lt;ph platform="72_fx 73_fx"&gt;105 components&lt;/a&gt;. 
    </pre>
@@ -100,10 +100,10 @@ excerpt: !ruby/object:Hpricot::Doc
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Viewing conditions in the Author mode</h2>
-<p class="p">When you’re in the Author mode, you can switch to the condition set that you want to see. If you switch to Trek 7.3 FX, only the content that meets that condition set appears in the Author view.</p>
+<p class="p">When you're in the Author mode, you can switch to the condition set that you want to see. If you switch to Trek 7.3 FX, only the content that meets that condition set appears in the Author view.</p>
 <p class="p">You can also set it so that the content not included is semi-transparent. This mode makes it<br />
-    easy to edit content that has  conditional profiling. Here’s an example. The content with the<br />
-    attribute for gary_fisher is transparent because I’ve selected to only see the trek content.</p>
+    easy to edit content that has  conditional profiling. Here's an example. The content with the<br />
+    attribute for gary_fisher is transparent because I've selected to only see the trek content.</p>
 <p><img class="image" src="/images/dita_hidden_text.png" alt="DITA editor" />
    </div>
 </p></div>

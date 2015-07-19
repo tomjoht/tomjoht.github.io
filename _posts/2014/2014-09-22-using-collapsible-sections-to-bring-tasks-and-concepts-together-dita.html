@@ -28,20 +28,20 @@ author:
 excerpt: !ruby/object:Hpricot::Doc
   options: {}
 ---
-<p>Last week I showed how to integrate a <a href="http://idratherbewriting.com/2014/09/16/adding-code-comments-through-a-sliding-jquery-sidr-panel-dita/">sliding side panel into OxygenXML’s webhelp output</a>. In this post, I show you how to integrate collapsible show/hide sections. As before, I’m using DITA as the structured content, which adds another element of complexity to the setup.</p>
+<p>Last week I showed how to integrate a <a href="http://idratherbewriting.com/2014/09/16/adding-code-comments-through-a-sliding-jquery-sidr-panel-dita/">sliding side panel into OxygenXML's webhelp output</a>. In this post, I show you how to integrate collapsible show/hide sections. As before, I'm using DITA as the structured content, which adds another element of complexity to the setup.</p>
 <h2>Demo</h2>
 <p>For a demo of the show/hide functionality, see <a href="http://idratherbewriting.com/jquery_show_hide" target="_blank">Show/Hide Demo</a>.</p>
 <p><a href="http://idratherbewriting.com/jquery_show_hide" target="_blank"><img src="/images/jqueryshowhide.png" alt="jqueryshowhide" width="600" class="alignnone size-full wp-image-21728" /></a></p>
 <p>In this demo, the content shown in the first collapsed section is actually transcluded from another page. The other sections contain content directly on the page. (If you use a General Task element, you can include sections before the steps.)</p>
 <p>For step-by-step instructions on implementing this Simple-expand jQuery plugin into OxygenXML, see <a href="http://idratherbewriting.com/jquery_show_hide" target="_blank">Add a jQuery show/hide toggle</a>.</p>
 <h2>Combining tasks and concepts</h2>
-<p>Through collapsible sections, you can combine content that is often organized separately in help material. For example, in my help, I have a page on activating a license (a task). I have another section that explains details about the license (a concept). Traditionally these sections are separated in DITA-authored help because the strict task and concept topic types don’t mix. With a strict task, you can’t add sections before your list of steps. You can only add sections before steps with General Task elements.</p>
-<p>In previous posts, I already debunked myths about tasks and concepts needing to be separate (see <a href="http://idratherbewriting.com/2014/01/05/ditas-output-does-not-require-separation-of-tasks-from-concepts/">DITA’s output does not require separation of tasks from concepts</a>). There is no compelling reason to always separate tasks from concepts. Instead, it's better to consider user goals and decide whether it makes sense to combine the information into a single topic. </p>
+<p>Through collapsible sections, you can combine content that is often organized separately in help material. For example, in my help, I have a page on activating a license (a task). I have another section that explains details about the license (a concept). Traditionally these sections are separated in DITA-authored help because the strict task and concept topic types don't mix. With a strict task, you can't add sections before your list of steps. You can only add sections before steps with General Task elements.</p>
+<p>In previous posts, I already debunked myths about tasks and concepts needing to be separate (see <a href="http://idratherbewriting.com/2014/01/05/ditas-output-does-not-require-separation-of-tasks-from-concepts/">DITA's output does not require separation of tasks from concepts</a>). There is no compelling reason to always separate tasks from concepts. Instead, it's better to consider user goals and decide whether it makes sense to combine the information into a single topic. </p>
 <p>If you follow the philosophy of every page being a self-contained unit of information that allows a user to reach a goal, then in many cases it really will make sense to combine tasks and concepts. </p>
 <p>For example, with my topic on activating a license, it might be important for the user to know what features the license controls, the format of the license, the configuration parameters of the license, and other license details. All of these details might be essential if the user is having trouble activating the license.</p>
-<p>Through collapsible sections, you can bring the conceptual information into the topic before the list of steps but collapsed so it’s not in the way of the task. Alternatively, you could collapse your tasks and leave the conceptual information expanded. You have a lot of flexibility.</p>
+<p>Through collapsible sections, you can bring the conceptual information into the topic before the list of steps but collapsed so it's not in the way of the task. Alternatively, you could collapse your tasks and leave the conceptual information expanded. You have a lot of flexibility.</p>
 <h2>Previous experiences with collapsible sections</h2>
-<p>I’ve written several times about collapsible sections (see the related links at the bottom of this post). In re-reading these other posts, I see that I am sometimes persuaded that collapsible sections are the ideal solution, so I go to the trouble of implementing them across my help, and then later decide they are problematic. As a recap, then, here are pros and cons for collapsible sections.</p>
+<p>I've written several times about collapsible sections (see the related links at the bottom of this post). In re-reading these other posts, I see that I am sometimes persuaded that collapsible sections are the ideal solution, so I go to the trouble of implementing them across my help, and then later decide they are problematic. As a recap, then, here are pros and cons for collapsible sections.</p>
 <h3>Pros for collapsible sections</h3>
 <ul>
 <li>Reduces the number of topics in your TOC, increasing findability of information. </li>
@@ -55,13 +55,13 @@ excerpt: !ruby/object:Hpricot::Doc
 <li>Not needed for short pages, only for long pages. If most of your pages are short, there's no need for collapsible sections.</li>
 <li>Can result in inconsistent displays, with some pages containing collapsed sections and others not. Inconsistent formats reduce the predictability of user experience.</li>
 <li>Requires you to add the ability to expand all sections at once on a page, but this becomes problematic not all pages need this button.</li>
-<li>Doesn’t auto-expand search results that appear within a collapsed section.</li>
+<li>Doesn't auto-expand search results that appear within a collapsed section.</li>
 </ul>
 <p>While I have used collapsible sections with Flare and Drupal, I haven't yet used collapsible sections with DITA. However, I think collapsible sections would make a particularly good application to DITA since DITA-authored help by nature tends to <a href="http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/">result in a lot of tiny little topics</a>.</p>
 <p>Regardless of the usability of collapsible sections, I'm excited about how easy it is to integrate jQuery functionality into OxygenXML's webhelp output.</p>
 <h2>Related posts</h2>
 <ul>
-<li><a href="http://idratherbewriting.com/2013/03/25/evaluating-the-usability-of-collapsible-sections-or-jquerys-content-toggle/“>Evaluating the Usability of Collapsible Sections (or jQuery’s Content Toggle)</li>
+<li><a href="http://idratherbewriting.com/2013/03/25/evaluating-the-usability-of-collapsible-sections-or-jquerys-content-toggle/“>Evaluating the Usability of Collapsible Sections (or jQuery's Content Toggle)</li>
 <li><a href="http://idratherbewriting.com/2013/12/11/collapsible-header-sections-more-problematic-than-helpful/“>Collapsible header sections — more problematic than helpful</li>
 <li><a href="http://idratherbewriting.com/2012/08/13/using-the-proximity-principle-to-design-online-help-navigation/">Using the Proximity Principle to Design Online Help Navigation</a></li>
 <li><a href="http://idratherbewriting.com/2013/03/16/how-to-organize-page-level-content/">How to Organize Page-Level Content</a></li>

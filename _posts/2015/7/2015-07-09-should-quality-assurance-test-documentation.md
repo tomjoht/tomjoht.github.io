@@ -8,7 +8,7 @@ keywords: quality assurance, testing, documentation, rigorous review
 summary: "The past few years, I've allowed doc to be treated as an external product, separate from the software engineering code. In reality, doc would probably benefit tremendously from a more strict integration with the engineering code review cycles, with the review split between QA and product management."
 weight: 1.1
 ---
-{% include seriesTagTestingDocs.html %}
+{% include series/seriesTagTestingDocs.html %}
 
 In my previous post, [The key to writing good documentation: Testing your instructions](http://idratherbewriting.com/2015/07/07/testing-your-instructions/), I noted that although quality assurance teams can review documentation, my experience is that they review it like a robot. They don't comment qualitatively, noting whether something is clear or not, whether the message is on target, whether the tasks represent the user's workflow and business needs. Instead, they analyze the steps strictly for accuracy (which does have benefits, of course).
 
@@ -63,6 +63,6 @@ Although I sometimes like having doc be outside the engineering review process, 
 
 Inserting docs into the code review process will also help me avoid time crunch situations in which I'm cramming to finish the docs before release, and everyone is too busy to review the help in any detail.
 
-{% include seriesTagTestingDocs_next.html %}
+{% include series/seriesTagTestingDocs_next.html %}
 
 

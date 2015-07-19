@@ -88,7 +88,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li>Location of the words</li>
 </ul>
 <p>Rob explains,</p>
-<blockquote><p>Flare ranks exact matches of the term the user enters higher than partial matches. An exact match uses the same form of the term (for instance, an exact match for “deleting files” would be “deleting” or “files”). A partial match may share the same root word as the original search term, but the terms aren’t exactly the same (for instance, the user might search for “deleting files” and the search would also find “delete”, “deletion”, “file”, and “filed”).</p></blockquote>
+<blockquote><p>Flare ranks exact matches of the term the user enters higher than partial matches. An exact match uses the same form of the term (for instance, an exact match for “deleting files” would be “deleting” or “files”). A partial match may share the same root word as the original search term, but the terms aren't exactly the same (for instance, the user might search for “deleting files” and the search would also find “delete”, “deletion”, “file”, and “filed”).</p></blockquote>
 <p>I'm not sure where Rob is getting his information, whether through experimentation with Flare or conversations with Flare developers. But let's assume Rob is right. There are still many questions unanswered, namely how to create an exact match. If the topic title doesn't provide the exact match, how do you create the match?</p>
 <h3>The Problem with Using Index Keywords</h3>
 <p>Flare doesn't have a section where you can stuff a file with meta keywords. But you can stuff a topic with index keywords. Index keywords are included in the search algorithm. (Concept keywords are excluded, by the way.)</p>

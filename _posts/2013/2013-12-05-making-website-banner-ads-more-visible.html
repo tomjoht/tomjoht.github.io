@@ -33,13 +33,13 @@ author:
 excerpt: !ruby/object:Hpricot::Doc
   options: {}
 ---
-<p><img class="alignright size-full wp-image-19279" alt="adshowcase" src="/images/adshowcase.png" width="350" height="432" />For several years I’ve shown ads in my sidebar using the <a href="http://wordpress.org/plugins/wp125/">WP125 ad plugin</a>. But I think readers tend to become blind to website ads like this, so I decided to switch things up a bit. If you look in my Sponsors section, you’ll see snippets of text beside each graphic. Sponsors also have control to update the text and images themselves.</p>
+<p><img class="alignright size-full wp-image-19279" alt="adshowcase" src="/images/adshowcase.png" width="350" height="432" />For several years I've shown ads in my sidebar using the <a href="http://wordpress.org/plugins/wp125/">WP125 ad plugin</a>. But I think readers tend to become blind to website ads like this, so I decided to switch things up a bit. If you look in my Sponsors section, you'll see snippets of text beside each graphic. Sponsors also have control to update the text and images themselves.</p>
 <p>I patterned this model after a section I saw on <a href="http://techwhirl.com/">Techwr-l</a> called “Sponsored Posts.” I found myself drawn to that section. My implementation is somewhat different, but the idea is similar.</p>
-<p>If you want to implement ads like this, here’s how you do it. You basically show the ads in a special post category that is called in a secondary WordPress loop. You exclude this post category from your RSS feed and homepage, and then give sponsors rights to edit the posts. For the WordPress developers out there, here’s more detail.</p>
+<p>If you want to implement ads like this, here's how you do it. You basically show the ads in a special post category that is called in a secondary WordPress loop. You exclude this post category from your RSS feed and homepage, and then give sponsors rights to edit the posts. For the WordPress developers out there, here's more detail.</p>
 <h2 id="create-a-new-category-called-sponsored-posts-for-the-sponsored-messages">1. Create a new category called “sponsored posts” for the sponsored messages</h2>
 <p>You create a new category by going to Posts &gt; Category. You can obviously call the new category something different, but these instructions will refer to this category as “sponsored posts.”</p>
 <h2 id="exclude-sponsored-posts-from-the-rss-feed">2. Exclude sponsored posts from the RSS feed</h2>
-<p>Hide the sponsored posts category from the homepage loop by adding the following code to your functions file. Change the category number (2688) to the new post category you created earlier (the category ID appears in the URL when you’re viewing the category).</p>
+<p>Hide the sponsored posts category from the homepage loop by adding the following code to your functions file. Change the category number (2688) to the new post category you created earlier (the category ID appears in the URL when you're viewing the category).</p>
 <p>{% highlight javascript %}<br />
 function myFeedExcluder($query) {<br />
  if ($query-&amp;gt;is_feed) {<br />
@@ -53,13 +53,13 @@ add_filter('pre_get_posts','myFeedExcluder');&lt;/code&gt;&lt;/pre&gt;<br />
 <h2 id="exclude-the-sponsored-posts-category-from-the-homepage">3. Exclude the sponsored posts category from the homepage</h2>
 <p>Use the <a href="http://wordpress.org/plugins/wp-exclude-from-homepage/">WP Exclude from Homepage</a> plugin to exclude the sponsored posts category from appearing on the homepage. There are other ways to do it, of course, but I found this the easiest.</p>
 <h2 id="install-the-php-code-widget-plugin">4. Install the PHP Code Widget plugin</h2>
-<p>Install the <a href="http://wordpress.org/plugins/php-code-widget/">PHP Code Widget</a> plugin so that you can insert PHP code (configured later) in a widget. Once you activate the plugin, you’ll be see a new widget called “PHP Code” at Appearance &gt; Widgets where you can insert PHP code. You’ll use this widget later.</p>
+<p>Install the <a href="http://wordpress.org/plugins/php-code-widget/">PHP Code Widget</a> plugin so that you can insert PHP code (configured later) in a widget. Once you activate the plugin, you'll be see a new widget called “PHP Code” at Appearance &gt; Widgets where you can insert PHP code. You'll use this widget later.</p>
 <h2 id="use-the-advanced-custom-fields-plugin-to-define-several-new-fields">5. Use the Advanced Custom Fields plugin to define several new fields</h2>
-<p>Using the <a href="http://www.advancedcustomfields.com/">Advanced Custom Fields plugin</a> (my favorite plugin, by the way), you need to define four fields: link, link_url, image, and image_url. You can name the fields whatever you want, but you’ll have to update the WP query section in the code that follows with whatever field names you use.</p>
+<p>Using the <a href="http://www.advancedcustomfields.com/">Advanced Custom Fields plugin</a> (my favorite plugin, by the way), you need to define four fields: link, link_url, image, and image_url. You can name the fields whatever you want, but you'll have to update the WP query section in the code that follows with whatever field names you use.</p>
 <p>Each of the fields is a simple text field, but the image field is of field type “image” and the return value is image URL.</p>
-<p>In the custom fields logic, add a rule so that the fields only appear when the post category is “sponsored-posts”. Then hide all the other fields (e.g., Content, Comments) so that users don’t get confused. The users should only see these four fields when they select the sponsored posts category.</p>
+<p>In the custom fields logic, add a rule so that the fields only appear when the post category is “sponsored-posts”. Then hide all the other fields (e.g., Content, Comments) so that users don't get confused. The users should only see these four fields when they select the sponsored posts category.</p>
 <h2 id="create-a-new-wordpress-query-for-the-loop">6. Create a new WordPress query for the loop</h2>
-<p>Now we need to create a new loop for this posts category and show these custom fields within the loop. When you create a secondary WordPress loop, you use <code>query_posts</code> so that the posts don’t interfere with posts in your main WordPress loop.</p>
+<p>Now we need to create a new loop for this posts category and show these custom fields within the loop. When you create a secondary WordPress loop, you use <code>query_posts</code> so that the posts don't interfere with posts in your main WordPress loop.</p>
 <p>If you changed the category name to something besides “sponsored-posts”, change the <code>query_posts</code> arguments below. The other arguments, <code>posts_per_page</code> and <code>orderby</code> offer other options. The <code>posts_per_page</code> argument allows you to set how many posts get returned to the page. The <code>orderby=rand</code> option will randomize the posts on each refresh.<br />
 {% highlight html %}<br />
 &lt;div id=&quot;sponsored_ads_section&quot;&gt;    </p>
@@ -112,7 +112,7 @@ clear:both;<br />
 <h2 id="create-new-users-for-each-of-your-sponsors">8. Create new users for each of your sponsors</h2>
 <p>For each sponsor, create a new user and assign the user the role of contributor. Create some posts for these sponsored messages, selecting the sponsored posts category. When you upload images, use 125x125px images. Edit the various posts and change the author of the ad to the appropriate sponsor.</p>
 <h2 id="add-special-permissions-for-contributors">9. Add special permissions for contributors</h2>
-<p>Contributors don’t quite have all the necessary rights, such as being able to upload images or edit published posts, so add the following code to your functions file to give your contributors these rights. Contributors won’t be able to publish posts themselves, just drafts. But they can edit posts that have already been published.</p>
+<p>Contributors don't quite have all the necessary rights, such as being able to upload images or edit published posts, so add the following code to your functions file to give your contributors these rights. Contributors won't be able to publish posts themselves, just drafts. But they can edit posts that have already been published.</p>
 <p>{% highlight php %}<br />
 if ( current_user_can('contributor') )<br />
     add_action('admin_init', 'allow_contributor_uploads');<br />
@@ -123,4 +123,4 @@ if ( current_user_can('contributor') )<br />
        $contributor-&amp;gt;remove_cap('edit_others_posts');<br />
     }</p>
 <p>{% endhighlight %}</p>
-<p>That’s it. Now you should see text snippets beside each ad graphic. You’ve given sponsors the ability to manage their own ad content.</p>
+<p>That's it. Now you should see text snippets beside each ad graphic. You've given sponsors the ability to manage their own ad content.</p>

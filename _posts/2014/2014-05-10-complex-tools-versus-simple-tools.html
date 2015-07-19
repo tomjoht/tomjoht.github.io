@@ -5,40 +5,40 @@ date: 2014-05-10 21:57:30.000000000 -07:00
 categories:
 - dita
 - wikis
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_dita_journey
 series: "My DITA journey"
-weight: 7
+weight: 1.6
 ---
-{% include series.html %}
+{% include series/seriesTagDITAJourney.html %}
 
 <p><a href="http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/"><img src="/images/death.jpg" alt="death" width="125" height="126" class="alignright size-full wp-image-20761" /></a>
-<p>Neal Kaplan’s post on the <a href="http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/">Death of Technical Writing</a>, which focuses heavily on comparing complex tools versus simple tools, has caught the attention of the tech comm world in a viral way. The comment thread on the post has some of the best insights I’ve seen. </p>
+<p>Neal Kaplan's post on the <a href="http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/">Death of Technical Writing</a>, which focuses heavily on comparing complex tools versus simple tools, has caught the attention of the tech comm world in a viral way. The comment thread on the post has some of the best insights I've seen. </p>
 <p>A couple of months ago I posted about a <a href="http://idratherbewriting.com/2014/02/25/a-simple-way-to-write-edit-and-publish-documentation-online-using-google-docs-and-markdown/">simple way to create and publish documentation using Markdown and Google Docs</a>. Then last month I started a <a href="http://idratherbewriting.com/series/dita-journey/">series on DITA</a>. Some people have written to ask me for my opinion of DITA and whether they should implement DITA in their tech comm scenarios. </p>
-<p>Based on my use of DITA, here are my thoughts. If you can put together an authoring-publishing workflow that is form-fit to DITA, then using DITA can be a good choice. For example, if you’re using Oxygen to publish to Oxygen’s webhelp output, or using easyDITA to push to MindTouch, or pushing content into Antidot’s Fluid Topics, or Mekon’s DITAweb, or Componize’s Alfreso integration, or some other defined DITA publishing solution, then I think DITA can be a good approach.</p>
-<p>Where DITA becomes bulky and awkward is when you try to publish DITA into a custom solution without the funds to build the custom solution. In my situation, our content is in Drupal and there aren’t any good bridges from DITA to Drupal, so the workarounds I’ve tried have been a bit too cumbersome to keep up.</p>
+<p>Based on my use of DITA, here are my thoughts. If you can put together an authoring-publishing workflow that is form-fit to DITA, then using DITA can be a good choice. For example, if you're using Oxygen to publish to Oxygen's webhelp output, or using easyDITA to push to MindTouch, or pushing content into Antidot's Fluid Topics, or Mekon's DITAweb, or Componize's Alfreso integration, or some other defined DITA publishing solution, then I think DITA can be a good approach.</p>
+<p>Where DITA becomes bulky and awkward is when you try to publish DITA into a custom solution without the funds to build the custom solution. In my situation, our content is in Drupal and there aren't any good bridges from DITA to Drupal, so the workarounds I've tried have been a bit too cumbersome to keep up.</p>
 <p>DITA does have a lot of flexibility, so if you have about <span>$</span>10k to hire an XSLT developer to build custom transforms and other integrations, and another <span>$</span>10k for a development agency to connect DITA to your publishing platform, then you can plug DITA into your custom website in a way that probably works.</p>
-<p>DITA does sort of fail when you’re working in a highly collaborative environment, with expected contributions from other non-tech-comm team members. Few people outside of tech comm will structure content in DITA, and while there are Word templates with DITA structure underneath, my guess is that an engineer or product manager may resist them. Unless you have requirements for re-use, translation, or standard topic types across a large team of writers, DITA may not be a good fit.</p>
-<p>I'm also not terribly impressed by the topic types in DITA. Much of the kind of documentation I write isn’t neatly packaged into a list of steps or a concept. When you’re providing code tutorials for programmers, things aren’t always in a strict list format or strict concept format. They're a blend of the two.</p>
+<p>DITA does sort of fail when you're working in a highly collaborative environment, with expected contributions from other non-tech-comm team members. Few people outside of tech comm will structure content in DITA, and while there are Word templates with DITA structure underneath, my guess is that an engineer or product manager may resist them. Unless you have requirements for re-use, translation, or standard topic types across a large team of writers, DITA may not be a good fit.</p>
+<p>I'm also not terribly impressed by the topic types in DITA. Much of the kind of documentation I write isn't neatly packaged into a list of steps or a concept. When you're providing code tutorials for programmers, things aren't always in a strict list format or strict concept format. They're a blend of the two.</p>
 <p>In the end, which wins — simple collaborative tools like wikis, or robust publishing solutions like DITA? </p>
 <p>Choose simple solutions if:</p>
 <ul>
-<li>You’re collaborating a lot with other people who aren’t technical writers.</li>
-<li>Other people who aren’t technical writers contribute to the documentation.</li>
-<li>You don’t need robust re-use capabilities (e.g., you just publish to one online source, not 5 different product versions in 10 languages).</li>
-<li>You’re not translating your material.</li>
+<li>You're collaborating a lot with other people who aren't technical writers.</li>
+<li>Other people who aren't technical writers contribute to the documentation.</li>
+<li>You don't need robust re-use capabilities (e.g., you just publish to one online source, not 5 different product versions in 10 languages).</li>
+<li>You're not translating your material.</li>
 </ul>
 <p>Choose DITA if:</p>
 <ul>
-<li>You’re re-using your content in significant ways.</li>
-<li>You’re translating your content.</li>
+<li>You're re-using your content in significant ways.</li>
+<li>You're translating your content.</li>
 <li>You have a large team and need to standardize on an enforced structure.</li>
-<li>You’re using an established DITA authoring-publishing solution.</li>
+<li>You're using an established DITA authoring-publishing solution.</li>
 <li>You have budget to hire XSLT specialists and developers to help set things up.</li>
 </ul>
 <div class="se-section-delimiter"></div>
 <h2 id="developing-xslt-expertise">Developing XSLT expertise</h2>
-<p>One of the problems with developing XSLT expertise is that you become a <em>tech comm tools</em> publishing expert. I may be wrong, but it seems that companies can simply outsource that work to a tools shop, hiring someone to set up the XSLT and other publishing architecture in a one-time deal. Once it’s set up, you no longer need the full-time XSLT knowledge in-house. </p>
-<p>What companies need are people knowledgeable about their technology products. As a technical writer, I think it’s more valuable to a company to spend my time learning programming languages and other industry or company technologies instead of XML publishing technologies. The company’s technology needs should be at the forefront of a technical writer’s attention. The authoring-publishing workflow should not consume the bulk of the technical writer’s time.</p>
+<p>One of the problems with developing XSLT expertise is that you become a <em>tech comm tools</em> publishing expert. I may be wrong, but it seems that companies can simply outsource that work to a tools shop, hiring someone to set up the XSLT and other publishing architecture in a one-time deal. Once it's set up, you no longer need the full-time XSLT knowledge in-house. </p>
+<p>What companies need are people knowledgeable about their technology products. As a technical writer, I think it's more valuable to a company to spend my time learning programming languages and other industry or company technologies instead of XML publishing technologies. The company's technology needs should be at the forefront of a technical writer's attention. The authoring-publishing workflow should not consume the bulk of the technical writer's time.</p>
+
+{% include series/seriesTagDITAJourney_next.html %}

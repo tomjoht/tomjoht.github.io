@@ -8,7 +8,7 @@ keywords: content strategy, the customer experience, holistic customer journeys
 summary: "As a technical writer, your holistic understanding of the total customer journey allows you to extend beyond your doc-writing role to wear other hats with usability, quality assurance, product management, training, support, and more. But the more time you spend in these other roles, the less time you have to spend on documentation, which results in a weaker doc product."
 weight: 1.3
 ---
-{% include seriesTagTestingDocs.html %}
+{% include series/seriesTagTestingDocs.html %}
 
 In my [previous post on communicating feedback from testing documentation](http://idratherbewriting.com/2015/07/10/communicating-feedback-from-testing/), I noted how testing documentation leads to increased visibility and overlapping roles. When you start testing documentation, you discover bugs with the software, find ideas for product improvement, and have other opinions. You're no longer just a quiet, introverted scribe but rather an active, vocal player with an increasingly team-centered role.
 
@@ -98,4 +98,4 @@ Documentation can always be better than it is. It can have more visuals, more tu
 
 What do you think? Where do you draw the line with your role? Should tech writers look for opportunities to go beyond documentation, or is the factory model where everyone has a specialized, highly focused role a better model to follow?
 
-{% include seriesTagTestingDocs_next.html %}
+{% include series/seriesTagTestingDocs_next.html %}

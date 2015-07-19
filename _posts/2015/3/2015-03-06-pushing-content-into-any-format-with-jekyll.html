@@ -4,14 +4,12 @@ title: Pushing content into any format with Jekyll
 date: 2015-03-06 08:18:33.000000000 -08:00
 categories:
 - general
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_innovation
 series: "Innovation in tech comm"
-weight: 11
+weight: 2.0
 ---
-{% include series.html %}
+{% include series/seriesTagInnovation.html %}
 
 <p>In the <a href="http://idratherbewriting.com/2015/03/04/how-to-create-a-help-api/">previous post</a>, I talked about help APIs as a way to deliver help inside applications. In this post, I'll explain how to push your help content into any format.</p>
 <p>[caption id="attachment_22727" align="alignnone" width="562"]<img src="/images/pushingcontent.png" alt="Pushing content into other formats using Jekyll and for loops" width="562" height="343" class="size-full wp-image-22727" /> Pushing content into other formats using Jekyll and for loops</p>
@@ -129,3 +127,5 @@ e_limit,fr_site_limit,tiv_2011,tiv_2012,eq_site_deductible,hu_site_deductible,fl
 <p>No doubt many tools do a similar kind of thing on the backend. I just never really understood what was happening when I selected a certain output. Jekyll exposes this processing in a clear and simple way. Now your content can travel into any number of systems in a seamless way.</p>
 <p>There is at least one limitation with the formats, though. You can't really create a DITA template and push the content into a DITA format except maybe in the most general way, with <code>body</code> including just HTML. This is because DITA has some very specific structures, and this simplistic template method won't really wrap lists inside task elements, convert links inside pages into xrefs, enforce element order, and so forth.</p>
 <p>Other more sophisticated formats might have similar restrictions. However, my point is that Jekyll allows you to separate out your content from the template (presentation), and this is a huge deal when it comes to processing and displaying information.</p>
+
+{% include series/seriesTagInnovation_next.html %}

@@ -11,9 +11,9 @@ summary: "Not having a mobile friendly display for your site not only strains re
 ## Mobile friendly displays now a requirement, not an extra
 It used to be that having a responsive display for your mobile site was a nice-to-have feature. However, now Google will actually penalize you in the search results if your site isn't mobile friendly. According to TNW News, 
 
->This is one of the biggest changes to the Google algorithm in years, so it’s one to take seriously. From yesterday, a site’s “mobile friendliness” will now play a key role in the way it is ranked, and sites that are not mobile optimised will appear lower down on Google’s search pages.
+>This is one of the biggest changes to the Google algorithm in years, so it's one to take seriously. From yesterday, a site's “mobile friendliness” will now play a key role in the way it is ranked, and sites that are not mobile optimised will appear lower down on Google's search pages.
 >
->With mobile search growing at 10x the rate of desktop, businesses that don’t have mobile ready site stand to lose up to 1/3rd of their traffic. More than two thirds of Fortune 100 companies are not considered mobile friendly, according to research firm SumAll, so this is set to have a big impact. (See [Are you ready for Google’s mobile algorithm change?](http://thenextweb.com/google/2015/04/22/are-you-ready-for-googles-mobile-algorithm-change/).)
+>With mobile search growing at 10x the rate of desktop, businesses that don't have mobile ready site stand to lose up to 1/3rd of their traffic. More than two thirds of Fortune 100 companies are not considered mobile friendly, according to research firm SumAll, so this is set to have a big impact. (See [Are you ready for Google's mobile algorithm change?](http://thenextweb.com/google/2015/04/22/are-you-ready-for-googles-mobile-algorithm-change/).)
 
 If you go into Google Webmaster Tools and go to **Search Traffic > Mobile Usability**, you can see if there are pages that aren't mobile friendly. You can also [test the mobile friendliness here](https://www.google.com/webmasters/tools/mobile-friendly/).
 

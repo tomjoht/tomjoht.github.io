@@ -53,7 +53,7 @@ Sometimes developers prefer to just write the doc themselves, communicating from
 Here are a few cons in having developers write documentation. 
 
 ### Problem 1: The curse of knowledge
-A developer who creates the API may assume too much of the audiences’ technical ability. As a result, the descriptions may not be helpful. Steven Pinker explains that the [curse of knowledge](http://idratherbewriting.com/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/) is one reason why writing is often bad. 
+A developer who creates the API may assume too much of the audiences' technical ability. As a result, the descriptions may not be helpful. Steven Pinker explains that the [curse of knowledge](http://idratherbewriting.com/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/) is one reason why writing is often bad. 
 
 <a href="http://online.wsj.com/articles/the-cause-of-bad-writing-1411660188
 "><img src="{{ "/images/publishingapidocs/pinkersourcebadwriting.png" | prepend: site.baseurl }}" alt="Steven Pinker on the source of bad writing" /></a>
@@ -72,7 +72,7 @@ Capturing and describing the interdependencies, goals, workflows, and other task
 
 ### Problem 3: Output doesn't integrate with user guide doc
 
-Documentation generated from the source doesn’t integrate directly into a website except as a link from your other web pages. Like a HAT-produced webhelp file, the auto-doc is its own little website. Here's an example from Netty's documentation that shows how the auto-generated doc is separate from the rest of the site. 
+Documentation generated from the source doesn't integrate directly into a website except as a link from your other web pages. Like a HAT-produced webhelp file, the auto-doc is its own little website. Here's an example from Netty's documentation that shows how the auto-generated doc is separate from the rest of the site. 
 
 <a href=""><img src="{{ "/images/publishingapidocs/nointegration.png" | prepend: site.baseurl }}" alt="No integration" /></a>
 
@@ -82,7 +82,7 @@ Having separate outputs creates a somewhat fragmented or disjointed documentatio
 
 Finally, when documentation is generated from the source, written by developers, it can given the illusion of documentation. This is something [Jacob Kaplan Moss](http://jacobian.org/writing/what-to-write/) writes about. He says, 
 
->… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don’t have documentation just admit to it. Maybe a volunteer will offer to write some! But don’t lie and give me that auto-documentation crap”. 
+>… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don't have documentation just admit to it. Maybe a volunteer will offer to write some! But don't lie and give me that auto-documentation crap”. 
 
 Auto-generated just means the documentation is generated from code annotations in the source files. If you have an output like this, it may give the idea that you've got all the documentation you need. In reality, the reference documentation is just one part of API documentation. The user guides and tutorials -- elements that can't be auto-generated -- are just as important as the reference documentation.
 

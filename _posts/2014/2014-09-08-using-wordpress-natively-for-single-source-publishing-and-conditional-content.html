@@ -13,14 +13,14 @@ published: true
 series: "Author in DITA, publish in WordPress"
 weight: 1.3
 ---
-{% include seriesTagAuthorInDitaPublishWP.html %}
+{% include series/seriesTagAuthorInDitaPublishWP.html %}
 
-<p>In this series, I'm exploring ways to <a href="http://idratherbewriting.com/series/author-in-dita-publish-with-wordpress/">author in DITA and publish with WordPress</a>. In previous posts, some commenters wondered whether it would be possible to simply author everything in WordPress, rather than continually importing from DITA. In this post, I’ll explore that model. </p>
+<p>In this series, I'm exploring ways to <a href="http://idratherbewriting.com/series/author-in-dita-publish-with-wordpress/">author in DITA and publish with WordPress</a>. In previous posts, some commenters wondered whether it would be possible to simply author everything in WordPress, rather than continually importing from DITA. In this post, I'll explore that model. </p>
 <p>One of the strengths of authoring content directly in WordPress is quick turnaround (or velocity). When someone asks you to make a small update to your help content, such as adding a little note on one page, does it make sense to re-compile and republish all of your help content? No.</p>
 <p>I have a friend who was authoring in DITA and using a tool to import the content into Drupal. Eventually he dropped Drupal because he found it extremely annoying to delete and recreate all his Drupal pages when he just wanted to make one small update.</p>
 <p>If you're constantly making updates to your content, there is serious merit in authoring natively in WordPress. On the other hand, if you only make updates occasionally, it might not be that important of a consideration. </p>
 <h2>Single sourcing content with WordPress</h2>
-<p>Let’s jump right into some of the biggest reasons for using DITA, and how you can achieve the same results in WordPress. One common technique in DITA (and tech writing in general) is to conditionalize content from a single source. If I'm creating 2 bicycle manuals, and a lot of the information is the same, I create one source of information and generate it into multiple outputs by applying conditions.</p>
+<p>Let's jump right into some of the biggest reasons for using DITA, and how you can achieve the same results in WordPress. One common technique in DITA (and tech writing in general) is to conditionalize content from a single source. If I'm creating 2 bicycle manuals, and a lot of the information is the same, I create one source of information and generate it into multiple outputs by applying conditions.</p>
 <p>As an example, let's say we have a task that looks as follows:</p>
 <pre>
 To assemble your bike:
@@ -42,7 +42,7 @@ To assemble your bike:
 &lt;/steps&gt;
 </pre>
 <p>Then you filter out that content with the <code>product="trek_72"</code> in the output based on some processing rules. However, this all takes place in an external XML editor.</p>
-<p>In WordPress, there’s a plugin called <a href="https://wordpress.org/plugins/threewp-broadcast/">ThreeWP Broadcast</a> that allows you to broadcast the same post or page content to other sites in a linked way. </p>
+<p>In WordPress, there's a plugin called <a href="https://wordpress.org/plugins/threewp-broadcast/">ThreeWP Broadcast</a> that allows you to broadcast the same post or page content to other sites in a linked way. </p>
 <p>ThreeWP Broadcast works with <a href="http://codex.wordpress.org/Create_A_Network">Wordpress Multisite</a>, which is a network of sites rather than a standalone site. You author all of your content into a WordPress Multisite base site, and then choose which sites you want to broadcast the information to.</p>
 <p>I set up a quick demo of a WordPress multisite that contains a base site and two network sites. On my WordPress base site, I have a sample page here: <a href="http://idratherbewriting.com/wp/blog/test-123/">http://idratherbewriting.com/wp/blog/test-123/</a>. ThreeWP Broadcast provides a little Broadcast box in the lower-right corner of your posts and pages. To broadcast the page to other network sites, just select which sites you want to broadcast it to.</p>
 <p><img src="/images/broadcast2.png" alt="broadcastoption" width="465" height="310" class="alignnone size-full wp-image-21593" /></p>
@@ -66,7 +66,7 @@ To assemble your bike:
 &lt;/ol&gt;
 </pre>
 <p>That last step is conditional. It should only appear on site 3, so I add the shortcode tags around it like I did. </p>
-<p>In my theme’s functions.php file (which appears in the <code>wp-content/themes/&lt;theme name&gt;</code> directory), I have the following shortcode function: </p>
+<p>In my theme's functions.php file (which appears in the <code>wp-content/themes/&lt;theme name&gt;</code> directory), I have the following shortcode function: </p>
 <pre>
 function site_content_fn( $atts, $content="" ) {
   $atts = shortcode_atts( array(
@@ -87,7 +87,7 @@ add_shortcode( 'site', 'site_content_fn' );
 <p><a href="http://idratherbewriting.com/wp/site3/test-123/"><img src="/images/site3.png" alt="site3" width="654" height="547" class="alignnone size-full wp-image-21597" /></a></p>
 <p>Is that cool or what! </p>
 <p>(By the way, thanks to <a href="https://premium.wpmudev.org/">wpmudev</a> for developing that shortcode for me. If you're working with WordPress multisites, wpmudev is a must-have resource.)</p>
-<p>Admittedly, the shortcode in there is specific to WordPress. This means that if you decide you no longer want to publish in WordPress, but rather Alfresco or Sharepoint, you’ll have a lot of square brackets in your code. However, it might not be so difficult to programmatically convert the content back to strict XML or some other format. It’s essentially the tradeoff decision you have to make. </p>
+<p>Admittedly, the shortcode in there is specific to WordPress. This means that if you decide you no longer want to publish in WordPress, but rather Alfresco or Sharepoint, you'll have a lot of square brackets in your code. However, it might not be so difficult to programmatically convert the content back to strict XML or some other format. It's essentially the tradeoff decision you have to make. </p>
 <h2>Adding variables</h2>
 <p>While we're on the topic of shortcodes, let me note a few more. Let's say you want to use variables. It's the same technique. Add this to your functions file for a variable of your product name:</p>
 <pre>
@@ -146,9 +146,9 @@ Thank you for buying ACME Deluxe 6.0.
 <p>The idea of single sourcing content into separate sites does raise questions about how the search engines will process that content. Do you drive customers to a specific site and provide links to the other sites? Do you minimize the number of sites and try to consolidate information through tabs? </p>
 <p>The most common strategy would be to prioritize your latest version or flagship product and provide links in the sidebar to the related sites. At the very least, I would make the base site private so that users don't get confused at seeing the source content there, especially if it has conditional tags. </p>
 <h2>Tightly versus loosely coupling content</h2>
-<p>By now you'll be wondering whether you want to pepper your content with WordPress shortcodes in order to add conditions and variables to your content. As some previous commenters noted, there’s a tradeoff between tightly coupling and loosely coupling your content with your platform. </p>
+<p>By now you'll be wondering whether you want to pepper your content with WordPress shortcodes in order to add conditions and variables to your content. As some previous commenters noted, there's a tradeoff between tightly coupling and loosely coupling your content with your platform. </p>
 <p>Keeping your content platform agnostic makes sense from a theoretical point of view. Theoretically, by keeping it agnostic, you can push the same content anywhere, to any standards-compliant platform, and do anything with it — you just have to write an XSLT transform that will take your tags and transform them into the output you want.</p>
-<p>Keeping your content agnostic is a neat idea, but it might fall short in the practical world. In reality, most online CMS platforms will require some special code in order to do special things with your content. You can try continually importing your content from DITA into WordPress, but the workflow is cumbersome. It’s not how WordPress was designed to function. WordPress works better when your content stays in there natively. </p>
+<p>Keeping your content agnostic is a neat idea, but it might fall short in the practical world. In reality, most online CMS platforms will require some special code in order to do special things with your content. You can try continually importing your content from DITA into WordPress, but the workflow is cumbersome. It's not how WordPress was designed to function. WordPress works better when your content stays in there natively. </p>
 <p>Once you become familiar with shortcodes and WordPress publishing, you can start to do a lot more. For example, here's a <a href="https://wordpress.org/plugins/shortcodes-ultimate/">shortcodes plugin</a> that provides all kinds of ready-made shortcodes.</p>
 <h2>Conclusion</h2>
 <p>Whether you choose to author natively in WordPress depends on your requirements. If you have to push the same content into PDF, it's probably not the best solution. On the other hand, if you're just publishing in HTML onto one site, does it really make sense to author the content in an external DITA editor? The only advantage is that by authoring in DITA, you ensure that you can port your content to another DITA compatible platform. If you're happy with WordPress, you might want to get comfortable there.</p>
@@ -156,4 +156,4 @@ Thank you for buying ACME Deluxe 6.0.
 <p>Although I worked out a lot of the details for authoring directly in WordPress, right now it's not the model I'm pursuing due to the <a href="http://idratherbewriting.com/2014/09/02/challenges-using-wordpress-publishing-help-content/">authentication reasons I listed in my previous post</a>. If you use the model I described in this post, I would recommending creating a project to enhance the ThreeWP plugin to include WordPress menu items in the kind of content that can be broadcast. Also, if you use syntax highlighting, don't use the Crayon Syntax highlighter, since it doesn't seem compatible with ThreeWP's broadcast model.</p>
 <p>Overall, what do you think? Does WordPress provide a compelling model to author natively online, or does authoring in an external editor persuade you more?</p>
 
-{% include seriesTagAuthorInDitaPublishWP_next.html %}
+{% include series/seriesTagAuthorInDitaPublishWP_next.html %}

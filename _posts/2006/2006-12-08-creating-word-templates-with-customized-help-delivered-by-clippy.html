@@ -38,13 +38,13 @@ author:
 excerpt: !ruby/object:Hpricot::Doc
   options: {}
 ---
-<p>I’ve been trying to figure this out for about two days, so now that I’ve actually gotten it to work, I’m posting the instructions here. I’m planning to go back and revise these, but for now, proceed with caution. They’re probably not that easy to follow without screenshots.</p>
+<p>I've been trying to figure this out for about two days, so now that I've actually gotten it to work, I'm posting the instructions here. I'm planning to go back and revise these, but for now, proceed with caution. They're probably not that easy to follow without screenshots.</p>
 <p><!--more--></p>
-<p>We have a lot of Wordtemplates that developers use in the software methodology process. The documents all have embedded help, but that makes the document actually quite crowded and is also problematic because the instructions print along with the developers’ text in an almost indistinguishable way.</p>
+<p>We have a lot of Wordtemplates that developers use in the software methodology process. The documents all have embedded help, but that makes the document actually quite crowded and is also problematic because the instructions print along with the developers' text in an almost indistinguishable way.</p>
 <p>The solution? Deliver the help through Clippy, the paperclip office assistant. This took a little bit of understanding with macros, and the links where the explanations are can be found here: <a href="http://www.gmayor.com/installing_macro.htm">http://www.gmayor.com/installing_macro.htm</a> and <a href="http://gregmaxey.mvps.org/document_user_instructions.htm">http://gregmaxey.mvps.org/document_user_instructions.htm</a> and <a href="http://addbalance.com/usersguide/fields.htm#click">http://addbalance.com/usersguide/fields.htm#click</a></p>
 <p>The instructions that follow are more like notes to myself.</p>
 <p>To deliver customized help through Clippy:</p>
-<p>1. Wake Clippy up by going to Help > Show the Office Assistant. If you’ve disabled Clippy, you must enable him so that he can later appear when conjured.</p>
+<p>1. Wake Clippy up by going to Help > Show the Office Assistant. If you've disabled Clippy, you must enable him so that he can later appear when conjured.</p>
 <p>2. Copy the following code:</p>
 <p>Sub AutoNew()</p>
 <p>Dim Balloon As Balloon</p>
@@ -57,11 +57,11 @@ With Balloon<br />
 .Show<br />
 End With</p>
 <p>End Sub</p>
-<p>Note: The name “AutoNew” is this specific macro’s name. If you leave it as AutoNew, the macro will automatically display when the template opens. Later we will change this name.</p>
+<p>Note: The name “AutoNew” is this specific macro's name. If you leave it as AutoNew, the macro will automatically display when the template opens. Later we will change this name.</p>
 <p>3. In Word, open up a template (by opening up a Word document, then saving it as a template by selecting Template (.dot) in the Save As field when you save it.)</p>
 <p>5. Go to Tools > Macro > Macros.</p>
 <p>6. In the Macro Name field, type Section1. This will be the unique name we give this macro.</p>
-<p>7. In the Macros In drop-down box, select the specific template you’re in. (Do not choose Normal because most likely it is protected and read-only.)</p>
+<p>7. In the Macros In drop-down box, select the specific template you're in. (Do not choose Normal because most likely it is protected and read-only.)</p>
 <p>8. Click the Create button.</p>
 <p>9. The VB editor appears. Look for this code:</p>
 <p>Sub Section1()<br />
@@ -86,7 +86,7 @@ End With</p>
 <p>13. Click the Save button, and then Close the editor by clicking the X in the top-right corner. If you get a message about stopping the debugger, just click OK.</p>
 <h2>Inserting the Macro in Your Document</h2>
 <p>1. In your document, click Ctrl+F9. This brings up field brackets that you can insert some macro code into.</p>
-<p>2. Type the following. I’ve included the braces here:</p>
+<p>2. Type the following. I've included the braces here:</p>
 <p>{MACROBUTTON Section1 “Help”}</p>
 <p>In this example, MACROBUTTON tells Word what function to do. Section1 is the name of the macro to call. And Help is the name of the text that will appear in the document.</p>
 <p>3. Right-click the field and select Toggle Field Codes. The only text that remains is Help.</p>
@@ -100,12 +100,12 @@ On Error Resume Next<br />
 Inst = MsgBox(”Complete blocks 1-34 and sign in block 35. Incomplete lease” & _<br />
 ” appliations will not be accepted.”, vbOKOnly, “Instructions”)<br />
 End Sub</p>
-<p>You could tell them that they must enable their office assistant to see the help. Unfortunately that feature wasn’t automatically installed, and I had to actually insert my Office 2003 CD. Let’s hope that’s not how it works for everyone.</p>
-<p>Also, I want people to just have to click once, not twice. Here’s that macro:</p>
+<p>You could tell them that they must enable their office assistant to see the help. Unfortunately that feature wasn't automatically installed, and I had to actually insert my Office 2003 CD. Let's hope that's not how it works for everyone.</p>
+<p>Also, I want people to just have to click once, not twice. Here's that macro:</p>
 <p>Sub AutoNew()<br />
 Options.ButtonFieldClicks = 1</p>
 <p>End Sub</p>
 <p>I think I can use AutoOpen or Autoexec too.</p>
 <p>Finally, I want the macro to actually appear as a button, because people automatically know to click buttons.</p>
 <p>I would also like Macrobuttons to display after one click.</p>
-<p>3. Change AutoNew to Section1. Because I’m planning to have about 8 help links in my document, I need to have 8 different names for each macro. So you might have Section1 and Section2, etc., as your macro names.</p>
+<p>3. Change AutoNew to Section1. Because I'm planning to have about 8 help links in my document, I need to have 8 different names for each macro. So you might have Section1 and Section2, etc., as your macro names.</p>

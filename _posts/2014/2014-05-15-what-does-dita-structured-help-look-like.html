@@ -4,15 +4,12 @@ title: What does DITA-structured help look like?
 date: 2014-05-15 09:06:41.000000000 -07:00
 categories:
 - dita
-- general
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_dita_journey
 series: "My DITA journey"
-weight: 8
+weight: 1.7
 ---
-{% include series.html %}
+{% include series/seriesTagDITAJourney.html %}
 
 <p>While documenting something yesterday, I ran across a help file that was unmistakably written in the DITA XML structure. Check out <a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp" target="_blank">Jive's help here</a>. Jive is a community platform, kind of like SharePoint but more modern and clean looking. The webhelp output is published with Eclipse.</p>
 <p><a href="http://docs.jivesoftware.com/jive/7.0/community_admin/index.jsp" target="_blank"><img class="alignnone size-full wp-image-20719" src="/images/jivehelp.jpg" alt="jivehelp" width="848" height="558" /></a></p>
@@ -40,3 +37,5 @@ weight: 8
 <p>The linked pages don't appear in the TOC. I'm not sure why the authors chose this method instead of using the chunk "by document" attribute. The links are xref inline links.</p>
 <p>Overall, I found the help pretty easy to navigate and browse around. The search is decent. It's unfortunate that the Eclipse frame URLs are static. But navigating from topic to topic is fast and clean.</p>
 <p>Also, I wanted to note that DITA help outputs can probably look quite a bit different. It's not like spotting a Robohelp webhelp file, because DITA can be transformed into so many different systems and platforms. DITA Writer has a good list of sample <a href="http://www.ditawriter.com/sample-dita-produced-output/">DITA help material here.</a></p>
+
+{% include series/seriesTagDITAJourney_next.html %}

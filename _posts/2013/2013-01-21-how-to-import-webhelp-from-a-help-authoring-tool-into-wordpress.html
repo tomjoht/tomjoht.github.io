@@ -15,7 +15,7 @@ tags:
 series: "Author in DITA, publish in WordPress"
 weight: 1.0
 ---
-{% include seriesTagAuthorInDitaPublishWP.html %}
+{% include series/seriesTagAuthorInDitaPublishWP.html %}
 
 <p><b>Sept 29, 2014 update: For an updated article on the topic of migrating DITA into WordPress, see <a href="http://idratherbewriting.com/2014/10/14/import-dita-xhtml-output-into-wordpress">Import DITA's XHTML Output into WordPress</a>.</b></p>
 <p>I have toyed off and on with the idea of publishing help to WordPress for years. I've had two main reasons for not moving forward sooner. First, if you want an online platform for documentation, Mediawiki works pretty well. Second, my organization's security department has frowned on WordPress due to security concerns.</p>
@@ -53,7 +53,7 @@ weight: 1.0
 <h2>Technical Details</h2>
 <p>If you want to use this tool, you have to do a bit of hopscotch to get it to work. The developer created it many WordPress moons ago, and now it's no longer compatible with the latest version of WordPress as a plugin.</p>
 <h3>Set up the DITA import tool</h3>
-<p>To get the tool to work, first, recognize that it’s not a plugin. You don't upload it from your Plugins page, nor do you activate the plugin. Follow these steps to set up the DITA import tool:</p>
+<p>To get the tool to work, first, recognize that it's not a plugin. You don't upload it from your Plugins page, nor do you activate the plugin. Follow these steps to set up the DITA import tool:</p>
 <ol>
 <li>I assume you've already installed WordPress somewhere. If you haven't yet, do that first. (For details on installing WordPress, see the <a href="http://wordpress.org/download/">WordPress Download page</a>.)</li>
 <li>Download the modified import file here: <a href="http://idratherbetellingstories.com/wp-content/uploads/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
@@ -63,7 +63,7 @@ weight: 1.0
 <li>Save the modified admin.php file and reupload it, overwriting the previous version of admin.php.</li>
 <li>In your WordPress Dashboard, go to <strong>Tools &gt; Import</strong>. You will now see a DITA help import option.</li>
 </ol>
-<p>Remember that this tool doesn’t actually import DITA files. It imports the web help output from DITA (or the webhelp output from a HAT like Flare), so the name is somewhat misleading here. It will, however, import a DITA map file and apply the table of contents hierarchy to the pages.</p>
+<p>Remember that this tool doesn't actually import DITA files. It imports the web help output from DITA (or the webhelp output from a HAT like Flare), so the name is somewhat misleading here. It will, however, import a DITA map file and apply the table of contents hierarchy to the pages.</p>
 <h3>Import Webhelp into WordPress</h3>
 <p>Now it's time to watch the magic happen. In this step, we will import our webhelp into WordPress.</p>
 <ol>
@@ -105,5 +105,5 @@ div.MCDropDownBody.dropDownBody {margin-top:-10px;}<br />
 <h2>Conclusion</h2>
 <p>Eventually I'll probably use WordPress in a pilot test with real help content. My guess is that most users won't notice, but project managers and designers will love it. Users are almost always more interested in content rather than the specific theme, platform, or frame around the content. But who knows. Maybe this will be the start of a new era of WordPress outputs. Most importantly, I've shown how to bridge the gap between help authoring tools and web platforms without sacrificing functionality from either tool.</p>
 
-{% include seriesTagAuthorInDitaPublishWP_next.html %}
+{% include series/seriesTagAuthorInDitaPublishWP_next.html %}
 

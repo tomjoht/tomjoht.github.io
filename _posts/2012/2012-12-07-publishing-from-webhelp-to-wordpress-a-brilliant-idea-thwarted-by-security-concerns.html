@@ -33,12 +33,12 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>I tried for two days to install WordPress on an internal server and was unsuccessful, even though I've installed it 100+ times on regular web servers.</p>
 <p>Oh well. I might try Habari, a forked version of WordPress, instead. Or pray for a miracle.</p>
 <p>If you're interested in experimenting with a WordPress output, I'd love to hear from you. You can get the file from <a href="http://zed1.com/journalized/wordpress-plugins/dita-to-wordpress-import-tool/">Mike Little</a>'s site. He called it DITA to WordPress Importer, but a better name would be Webhelp to WordPress, because the importer doesn't import DITA files at all. It just imports the HTML output from DITA, which is the same HTML output as you might expect from Flare, Robohelp, Author-it, and other tools.</p>
-<p>To get the importer to work, first, recognize that it’s not a plugin.</p>
+<p>To get the importer to work, first, recognize that it's not a plugin.</p>
 <p>Upload the ditahelp.php file to the wp-admin folder.</p>
 <p>From that same folder, download admin.php</p>
-<p>In the admin.php folder, below this line: require_once(ABSPATH . ‘wp-admin/includes/admin.php’);<br />
+<p>In the admin.php folder, below this line: require_once(ABSPATH . ‘wp-admin/includes/admin.php');<br />
 add this:</p>
-<p>require_once(‘ditahelp.php’);</p>
+<p>require_once(‘ditahelp.php');</p>
 <p>You will now see a Dita help import option in Tools in the WordPress dashboard.</p>
 <p>The DITA Help will import all links as relative links. If you want to have some links import as relative and others import as absolute, then make the changes below. The below code uses an if statement to ask if the link has a style called MCXref xref, which is the link style for cross references in Flare. If it does, then it processes the relative linking paths. If not, it leaves them alone.</p>
 <p>As for images, you'll probably have to upload your images separately to a folder path at yoursite/files/resources/images. I didn't modify the image path in the program.</p>

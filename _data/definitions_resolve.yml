@@ -43,11 +43,11 @@ exists_hours: "Compare to any previous identifier value. The time range between 
 
 exists_hours_device_profile: "Compare to any previous identifier value. At least one identifier value within the device profile must have a last-seen date/time that falls within the date/time range defined in the match tier."
 
-exact_match_devices: "Compare to the last-seen identifier value. If the identifier values match (with case sensitivity enforced), a histogram with the predicted number of devices containing this ID is consulted. If the histogram’s prediction regarding the number of devices falls within the range defined in the match tier, a match is made."
+exact_match_devices: "Compare to the last-seen identifier value. If the identifier values match (with case sensitivity enforced), a histogram with the predicted number of devices containing this ID is consulted. If the histogram's prediction regarding the number of devices falls within the range defined in the match tier, a match is made."
 
-exact_match_hours: "Compare to the last-seen identifier value. Case sensitivity is enforced. If the identifiers match, the date/time of the incoming identifier value is compared to the date/time of the last-seen identifier value in the device profile. The difference between the two values is compared to the range defined in the match tier. If the difference falls within the match tier’s range, a match is made."
+exact_match_hours: "Compare to the last-seen identifier value. Case sensitivity is enforced. If the identifiers match, the date/time of the incoming identifier value is compared to the date/time of the last-seen identifier value in the device profile. The difference between the two values is compared to the range defined in the match tier. If the difference falls within the match tier's range, a match is made."
 
-input_values: "Compare the identifier’s value with match tier values. The identifier's value must match the values in the lower and upper value of the match tier range."
+input_values: "Compare the identifier's value with match tier values. The identifier's value must match the values in the lower and upper value of the match tier range."
 
 
 # IDENTIFIER PROPERTIES

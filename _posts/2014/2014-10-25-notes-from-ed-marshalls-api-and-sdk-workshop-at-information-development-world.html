@@ -25,19 +25,19 @@ author:
 excerpt: !ruby/object:Hpricot::Doc
   options: {}
 ---
-<p>I had the opportunity to attend Ed Marshall’s API and SDK workshop at Information Development World. These are my notes.</p>
+<p>I had the opportunity to attend Ed Marshall's API and SDK workshop at Information Development World. These are my notes.</p>
 <h2 id="apisversussdks">APIs versus SDKs</h2>
-<p>SDKs are a set of tools that developers can use to make it easier to work with an API. Ed said that at one company, the SDK was a GUI tool of some kind that made it easier to interact with the company’s API. (When I worked at Badgeville, our JavaScript SDK made it easy to work with the REST API through a JavaScript format.)</p>
+<p>SDKs are a set of tools that developers can use to make it easier to work with an API. Ed said that at one company, the SDK was a GUI tool of some kind that made it easier to interact with the company's API. (When I worked at Badgeville, our JavaScript SDK made it easy to work with the REST API through a JavaScript format.)</p>
 <p>In contrast, APIs are the under the hood stuff — the functions, methods, and classes that make the system work.</p>
 <h2 id="audience">Audience</h2>
-<p>APIs are typically written for developers, so you don’t need to include a lot of handholding.</p>
+<p>APIs are typically written for developers, so you don't need to include a lot of handholding.</p>
 <h2 id="apicharacteristics">API characteristics</h2>
-<p>API writing tends to be formulaic, boilerplate. The format and organization is very consistent. Users will expect this consistency. They want a “just-the-facts-ma’am” kind of experience. Here’s an example of common elements for each class/function etc.</p>
+<p>API writing tends to be formulaic, boilerplate. The format and organization is very consistent. Users will expect this consistency. They want a “just-the-facts-ma'am” kind of experience. Here's an example of common elements for each class/function etc.</p>
 <ul>
 <ul>
 <li>API Class name</li>
 <li>short description</li>
-<li>long description. (If it's obvious what the class does, try to add some additional information about it that isn’t so obvious. For example, if the class is <code>openFile</code>, you might add whether the file is open for read/write access or not.)</li>
+<li>long description. (If it's obvious what the class does, try to add some additional information about it that isn't so obvious. For example, if the class is <code>openFile</code>, you might add whether the file is open for read/write access or not.)</li>
 <li>parameters</li>
 <li>example</li>
 <li>return value</li>
@@ -54,13 +54,13 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Often a package or interface has a group of methods in it. The mini toc gives you an overview of everything that can be done in that package. Each of the methods links to more detail.</p>
 <h2 id="searchversusindex">Search versus index</h2>
 <p>An attendee asked, What if developers just want to search for things on Google? How do you handle that?</p>
-<p>Ed said people can’t find something if they lack the right vocabulary to find it. Additionally, a good index can provide cross-references that helps people find information in more efficient ways.</p>
-<p>A lot of API documentation is not going to have an index. It’s often a nice-to-have feature that’s not done. Cheryl Landes, Ed’s assistant during the workshop, is a strong proponent of indexes, and said that people often don’t use them because they don’t know how to use them. Cheryl builds her indexes as she goes.</p>
+<p>Ed said people can't find something if they lack the right vocabulary to find it. Additionally, a good index can provide cross-references that helps people find information in more efficient ways.</p>
+<p>A lot of API documentation is not going to have an index. It's often a nice-to-have feature that's not done. Cheryl Landes, Ed's assistant during the workshop, is a strong proponent of indexes, and said that people often don't use them because they don't know how to use them. Cheryl builds her indexes as she goes.</p>
 <h2 id="howmuchprogrammingdoyouneedtoknow">How much programming do you need to know?</h2>
-<p>If you’re applying for a programmer writer position, then yes, you do need to know how to code. (Programmer writer positions are basically developers who have turned toward writing.) But if not, then you won’t need to become a professional developer.</p>
-<p>You do need to know some programming basics, but you don’t need to have advanced programming capabilities. You just need to be familiar with concepts and terms.</p>
+<p>If you're applying for a programmer writer position, then yes, you do need to know how to code. (Programmer writer positions are basically developers who have turned toward writing.) But if not, then you won't need to become a professional developer.</p>
+<p>You do need to know some programming basics, but you don't need to have advanced programming capabilities. You just need to be familiar with concepts and terms.</p>
 <h2 id="areapidocstranslated">Are API docs translated?</h2>
-<p>More often than not, API docs aren’t translated. Most programmers who speak languages other than English learn programming in English anyway.</p>
+<p>More often than not, API docs aren't translated. Most programmers who speak languages other than English learn programming in English anyway.</p>
 <h2 id="keyprogrammingconcepts">Key programming concepts</h2>
 <ul>
 <li>Date types and variables</li>
@@ -69,8 +69,8 @@ excerpt: !ruby/object:Hpricot::Doc
 <li>Data structures, such as arrays</li>
 <li>Functions and methods</li>
 </ul>
-<p>You don’t need to concern yourself with the inner workings of the API code. All of this code is hidden from the user. The user is limited by the number of calls he or she can make. You can’t change any of these things.</p>
-<p>As an analogy, he said a person who owns a car can add oil, test the battery, etc., but you don’t have access to the inner workings of things like the alternator or pistons.</p>
+<p>You don't need to concern yourself with the inner workings of the API code. All of this code is hidden from the user. The user is limited by the number of calls he or she can make. You can't change any of these things.</p>
+<p>As an analogy, he said a person who owns a car can add oil, test the battery, etc., but you don't have access to the inner workings of things like the alternator or pistons.</p>
 <h2 id="javainternalexternalfunctions">Java Internal/External Functions</h2>
 <p>Public: exposed via compiled .jar files to users.</p>
 <p>Example:</p>
@@ -80,12 +80,12 @@ excerpt: !ruby/object:Hpricot::Doc
 <pre>private String last date; // String to hold date displayed
 </pre>
 <h2 id="javadoc">Javadoc</h2>
-<p>Javadoc is a tool that extracts comments from the code and outputs browser-based help. It’s been around since 2000 (at least). It’s not super sexy, but it’s a default standard for Java developers. It helps provide a thorough, complete, and useful set of documentation.</p>
-<p>It’s free, still under development, and provides quite a few features that the big name commercial tools don’t provide.</p>
+<p>Javadoc is a tool that extracts comments from the code and outputs browser-based help. It's been around since 2000 (at least). It's not super sexy, but it's a default standard for Java developers. It helps provide a thorough, complete, and useful set of documentation.</p>
+<p>It's free, still under development, and provides quite a few features that the big name commercial tools don't provide.</p>
 <p>Javadoc has an auto-generated index that is really helpful.</p>
 <h2>Javadoc comments</h2>
 <p>Javadoc uses the @ symbol in code comments to trigger certain sections in the documentation, such as @param for parameters, @throws for exceptions, and so on.</p>
-<p>Ed says that it’s common for error messages to be copied and pasted for different functions. Also, a lot of times the functions aren’t alphabetized. In other words, a tech writer can contribute.</p>
+<p>Ed says that it's common for error messages to be copied and pasted for different functions. Also, a lot of times the functions aren't alphabetized. In other words, a tech writer can contribute.</p>
 <p>Javadoc also checks whether the code is valid as it autogenerates the documentation. For example, if you have a class that looks like this:</p>
 <pre>/**
 * Opens a remote session.
@@ -95,7 +95,7 @@ excerpt: !ruby/object:Hpricot::Doc
 */
 public void terminateRemoteSession(int remoteSessionId) throws APIException { nTerminateRemoteSession(sessionRef, remoteSessionId);}
 </pre>
-<p>Your parameters that you document must match up with the actual code. Also, your parameters must be documented. Otherwise, when you run Javadoc, you’ll generate an error.</p>
+<p>Your parameters that you document must match up with the actual code. Also, your parameters must be documented. Otherwise, when you run Javadoc, you'll generate an error.</p>
 <p>Likewise, if you have @throws APIException in your documents, then you need to have an APIException in the code.</p>
 <p>All Javadoc comments precede what they describe. The format of the comments looks like this:</p>
 <pre>/**
@@ -107,11 +107,11 @@ public void terminateRemoteSession(int remoteSessionId) throws APIException { nT
 <p>The syntax is like regular code comments but with an extra asterisk at the top.</p>
 <p>You can use standard HTML tags within your Javadoc comments, such as <code>&lt;p&gt;</code> and <code>&lt;li&gt;</code> tags.</p>
 <h2 id="workingwithsourcecode">Working with source code</h2>
-<p>An attendee asks, Are developers afraid that you’ll break their code by editing it?</p>
+<p>An attendee asks, Are developers afraid that you'll break their code by editing it?</p>
 <p>Answer: Absolutely. But they start to get more comfortable with you as you go along. Once you start integrating into their workflow, you gain a lot of street credibility with the team. You begin to be perceived as a member of the team rather than just a wordsmither.</p>
-<p>We do operate under the handicap of being a tech writer, not knowing what we’re doing. We have to prove ourselves. As you edit the code, you’ll often find errors. This can be helpful.</p>
+<p>We do operate under the handicap of being a tech writer, not knowing what we're doing. We have to prove ourselves. As you edit the code, you'll often find errors. This can be helpful.</p>
 <p>In other jobs, Ed says that people have been much more willing to allow him to edit the code.</p>
-<p>Ed also said that he does a test build in a sandbox to make sure that his edits don’t break the build.</p>
+<p>Ed also said that he does a test build in a sandbox to make sure that his edits don't break the build.</p>
 <h2 id="javadocsengine">Javadocs engine</h2>
 <p>The Javadocs engine comes by default with the JDK, not necessarily the IDE.</p>
 <h2 id="fromscratchorediting">From scratch or editing?</h2>
@@ -119,7 +119,7 @@ public void terminateRemoteSession(int remoteSessionId) throws APIException { nT
 <p>Ed says the former is much more common. You can spot jargon, determine whether something makes sense, identify organizational issues, spot missing information, gaps, etc. You might not be able to really understand the code but you can still contribute positively your feedback based on what makes sense to you.</p>
 <h2 id="percentoftimeoutsideofwritingediting">Percent of time outside of writing/editing?</h2>
 <p>An attendee asks how much time he spends checking out the build, re-building, etc., versus just writing and editing?</p>
-<p>Ed says about 10%, but he has worked with source control a lot. He says he relates really well to source code control paradigms. But if you’re not that used to source control workflows, it might take up to 30% of your time to get comfortable with it.</p>
+<p>Ed says about 10%, but he has worked with source control a lot. He says he relates really well to source code control paradigms. But if you're not that used to source control workflows, it might take up to 30% of your time to get comfortable with it.</p>
 <h2 id="activities">Activities</h2>
 <p>We did some hands-on activities in adding comments to java files using the right syntax (<code>@param</code>, <code>@exception</code>, and <code>@see</code>) and then generated the Javadoc.</p>
 <p>People installed Netbeans and the JDK in order to generate Javadocs. I used Eclipse. Ed had really detailed instructions for everyone to install Netbeans and the JDK for both Windows XP and Windows 7. Even so, there were a few technical issues people struggled with.</p>
@@ -135,11 +135,11 @@ public void terminateRemoteSession(int remoteSessionId) throws APIException { nT
 <li>PUT</li>
 <li>DELETE</li>
 </ul>
-<p>An attendee asks, what’s the difference between REST APIs and RESTFUL APIs. Response: They’re the same.</p>
-<p>WADL is a web application description language. This is a machine-readable XML description of REST web services. WADL is the REST equivalent of SOAP’s Web Services Description Language (WSDL). Most people prefer API doc over WSDL or WADL files.</p>
+<p>An attendee asks, what's the difference between REST APIs and RESTFUL APIs. Response: They're the same.</p>
+<p>WADL is a web application description language. This is a machine-readable XML description of REST web services. WADL is the REST equivalent of SOAP's Web Services Description Language (WSDL). Most people prefer API doc over WSDL or WADL files.</p>
 <p>XML-RPC is oleo than soap and uses a specific XML format. JSON-RPC is like XML-RPC but uses JSOn instead.</p>
 <h2 id="documentationtoolsforwebservices">Documentation tools for web services</h2>
-<p>Ed says there aren’t many, but here are two:</p>
+<p>Ed says there aren't many, but here are two:</p>
 <ul>
 <li>Adivo (advivo.com)</li>
 <li>Sphinx documents python code (sphinx-doc.org)</li>
@@ -159,4 +159,4 @@ public void terminateRemoteSession(int remoteSessionId) throws APIException { nT
 </ul>
 <h2 id="processes">Processes</h2>
 <p>An attendee asks, What if I have a process involving multiple functions in a specific order? How do you document that? Ed recommends referencing a flowchart that shows the workflow.</p>
-<p>Another attendee asks, So the documentation for REST APIs isn’t in with the source code? Ed says no, the doc isn’t in the code. It is easier to drift if the code and doc are separate, though.</ul>
+<p>Another attendee asks, So the documentation for REST APIs isn't in with the source code? Ed says no, the doc isn't in the code. It is easier to drift if the code and doc are separate, though.</ul>

@@ -9,7 +9,7 @@ tags:
 - series_api_doc_survey
 weight: 2.0
 ---
-{% include seriesTagAPIDocSurvey.html %}
+{% include series/seriesTagAPIDocSurvey.html %}
 
 <p>Another question in my API doc survey was as follows:</p>
 <h2><b>Do engineers write the initial API documentation in the source code (e.g., Javadoc syntax)?</b></h2>
@@ -18,17 +18,17 @@ weight: 2.0
 <p>This question was a little problematic. Because a lot of tech writers are working on REST APIs, a lot of developers don't write reference documentation in the code (unless they're creating the Swagger files). However, they might put the reference documentation on an internal wiki in some other place, such as a readme.txt file. At any rate, I think the "No" is artificially inflated here by the many writers working on REST APIs instead of platform APIs. However, the responses are still useful.</p>
 <h2>Highlighted comments</h2>
 <p>Here are a few comments that I thought were particularly telling:</p>
-<blockquote><p>Yes, engineers write the in-code comments that are used in the generated reference docs. Technical writers assist junior engineers, and review all engineers’ work. Technical writers write the overviews and tutorials.</p></blockquote>
+<blockquote><p>Yes, engineers write the in-code comments that are used in the generated reference docs. Technical writers assist junior engineers, and review all engineers' work. Technical writers write the overviews and tutorials.</p></blockquote>
 <hr />
-<blockquote><p>Usually, if systems like doxygen or javadoc are used, the engineers will write the comments initially, then there is a debate about how edits are done by the TW if need be. I always try to get that level of basic info done by the devs even if they don’t use such generation systems.</p></blockquote>
+<blockquote><p>Usually, if systems like doxygen or javadoc are used, the engineers will write the comments initially, then there is a debate about how edits are done by the TW if need be. I always try to get that level of basic info done by the devs even if they don't use such generation systems.</p></blockquote>
 <hr />
-<blockquote><p>Yes, its often incomplete, or inadequate, and I’m trying to insert myself into the process.</p></blockquote>
+<blockquote><p>Yes, its often incomplete, or inadequate, and I'm trying to insert myself into the process.</p></blockquote>
 <hr />
 <blockquote><p>yes. The engineers entered their comments within the code and the documentation was generated with the build.</p></blockquote>
 <hr />
-<blockquote><p>in theory… often it’s inaccurate or out of date or vague, so I end up writing</p></blockquote>
+<blockquote><p>in theory… often it's inaccurate or out of date or vague, so I end up writing</p></blockquote>
 <hr />
-<blockquote><p>No. Some have draft material in Confluences, Apiary, or ReadTheDocs, but that’s inconsistent and unpredictable.</p></blockquote>
+<blockquote><p>No. Some have draft material in Confluences, Apiary, or ReadTheDocs, but that's inconsistent and unpredictable.</p></blockquote>
 <p>I was trying to find out how common it is for developers to write the initial API documentation in the source code. My experience aligns with the comments here. For the Java, C++, and .NET APIs, developers draft the reference doc, but it is incomplete, vague, or otherwise incomplete in places. The tech writer's main task is the non-reference documentation. However, this is not the case for REST APIs, since we aren't using any automated doc solutions for REST. But even with REST APIs, developers draft information about the endpoints and parameters in Confluence.</p>
 <p>Compare responses to this question with another survey question: Do you write API documentation by looking at the source code? With the latter question, 60% of people said that they do write API doc by looking at the source (or at least they sometimes consult the source). Here 36% said that developers write the initial API doc, and 31% said engineers <em>sometimes</em> write the initial doc in the source. So the responses somewhat align. Overall, the API reference documentation is mostly written as a joint effort between both engineers and technical writers.</p>
 <h2>Thoughts</h2>
@@ -80,4 +80,4 @@ weight: 2.0
 <p>With that in mind, these guidelines are intended to describe the finished documentation comments. They are intended as suggestions rather than requirements to be slavishly followed if they seem overly burdensome, or if creative alternatives can be found. When a complex system such as Java (which contains about 60 packages) is being developed, often a group of engineers contributing to a particular set of packages, such as javax.swing may develop guidelines that are different from other groups. This may be due to the differing requirements of those packages, or because of resource constraints.
 </p></blockquote>
 
-{% include seriesTagAPIDocSurvey_next.html %}
+{% include series/seriesTagAPIDocSurvey_next.html %}

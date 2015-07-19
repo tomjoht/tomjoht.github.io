@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'DITA: Make Oxygen’s webhelp output a fixed width'
+title: "DITA: Make Oxygen's webhelp output a fixed width"
 permalink: /fixed_width_oxygen/
 date: 2014-12-27 15:16:06.000000000 -08:00
 categories:
@@ -18,9 +18,9 @@ author:
 excerpt: !ruby/object:Hpricot::Doc
   options: {}
 ---
-<h1 class="title topictitle1">DITA: Make Oxygen’s webhelp output a fixed width</h1>
+<h1 class="title topictitle1">DITA: Make Oxygen's webhelp output a fixed width</h1>
 <div class="body">
-<p class="p">I’m not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
+<p class="p">I'm not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
 <pre class="pre codeblock">
 <samp class="ph codeph">.conbody,
 .taskbody,
@@ -35,7 +35,7 @@ p.shortdesc,
 }
 </samp>
 </pre>
-<p class="p">Some of those other elements, such as <samp class="ph codeph">title</samp> and <samp class="ph codeph">p.shortdesc</samp>, appear before the <samp class="ph codeph">body</samp>. They don’t seem to be contained within anything, though I could have overlooked something.</p>
+<p class="p">Some of those other elements, such as <samp class="ph codeph">title</samp> and <samp class="ph codeph">p.shortdesc</samp>, appear before the <samp class="ph codeph">body</samp>. They don't seem to be contained within anything, though I could have overlooked something.</p>
 <p class="p">I also apply a <samp class="ph codeph">max-width</samp> property to images:</p>
 <pre class="pre codeblock">
 <samp class="ph codeph">.conbody img,
@@ -45,7 +45,7 @@ p.shortdesc,
 }
 </samp>
 </pre>
-<p class="p">Note also that when you apply a fixed width to your content, the code in your <samp class="ph codeph">code block</samp> elements may get cut off. Since <samp class="ph codeph">codeblock</samp> elements are contained within <samp class="ph codeph">stepxmp</samp> and <samp class="ph codeph">info</samp>, which are contained within <samp class="ph codeph">step</samp>, you can’t really get around their parent containers.</p>
+<p class="p">Note also that when you apply a fixed width to your content, the code in your <samp class="ph codeph">code block</samp> elements may get cut off. Since <samp class="ph codeph">codeblock</samp> elements are contained within <samp class="ph codeph">stepxmp</samp> and <samp class="ph codeph">info</samp>, which are contained within <samp class="ph codeph">step</samp>, you can't really get around their parent containers.</p>
 <p class="p">Instead, to handle <samp class="ph codeph">code block</samp> content from getting cut off, you can add this: </p>
 <pre class="pre codeblock">
 <samp class="ph codeph">  .codeblock {

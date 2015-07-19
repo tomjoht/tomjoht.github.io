@@ -6,13 +6,12 @@ categories:
 - general
 tags:
 - jekyll
-status: publish
-type: post
-published: true
+tags:
+- series_innovation
 series: "Innovation in tech comm"
-weight: 10
+weight: 1.9
 ---
-{% include series.html %}
+{% include series/seriesTagInnovation.html %}
 
 <p>In my last post in this series, I talked about <a href="http://idratherbewriting.com/2015/02/27/static-site-generators-start-to-displace-online-cmss/">static site generators as a platform for help</a>. In this post, I want to explore Help APIs, which is actually something in part enabled by static site generators.</p>
 <p>To put things in context, the web is sort of a giant API. Each browser functions as a client that accesses various resources from servers.</p>
@@ -37,3 +36,5 @@ weight: 10
 <h2>How to create a help API</h2>
 <p>I put the information for creating a help API using Jekyll as a platform here: <a href="http://tomjohnson1492.github.io/documentation-theme-jekyll/help_api/">Create a Help API</a>.</p>
 <p>Basically, you create a JSON file that loops through your tooltip content. Then you put it into a domain with cross-origin-resource-sharing (CORS) enabled.</p>
+
+{% include series/seriesTagInnovation_next.html %}

@@ -8,7 +8,7 @@ keywords: jira, bugs, agile processes, issue tracking, visibility
 summary: "After testing your documentation, you should communicate the feedback with your project teams. As much as possible, try to communicate the information through issue tracking systems because this makes the information more permanent, visible, and actionable."
 weight: 1.2
 ---
-{% include seriesTagTestingDocs.html %}
+{% include series/seriesTagTestingDocs.html %}
 
 ## Results from testing
 
@@ -60,7 +60,7 @@ Overall, what I'm suggesting here is not rocket science. But learning to use the
 
 Now I think that technical writers can and should play huge roles in interacting with issue tracking systems like JIRA. This is where we should be directing our feedback from testing.
 
-{% include seriesTagTestingDocs_next.html %}
+{% include series/seriesTagTestingDocs_next.html %}
 
 
 

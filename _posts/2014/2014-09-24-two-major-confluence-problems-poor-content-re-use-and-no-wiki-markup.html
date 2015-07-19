@@ -43,9 +43,9 @@ excerpt: !ruby/object:Hpricot::Doc
 <p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
 <p>I didn't plan to provide any more detail, but today as I was making a few edits on Confluence to fix some last content before migrating it to DITA, I got somewhat frustrated and realized it might be helpful to some technical writers evaluating tech comm platforms to have more insight about why Confluence kinda sucks for tech comm authoring, particularly when it comes to re-use scenarios. So here you go.</p>
 <h2>Re-use is broken</h2>
-<p>Confluence works well as an internal wiki when you don’t need to re-use content. If you have a content re-use scenario, however, watch out.</p>
+<p>Confluence works well as an internal wiki when you don't need to re-use content. If you have a content re-use scenario, however, watch out.</p>
 <p>The basic problem stems from the fact that Confluence puts both source files and production files on the same platform. This creates difficulties with re-use.</p>
-<p>For example, let’s say you have a section you want to re-use in two places. We’ll call this re-used section "Block A." You probably have a page called “Re-used Blocks” that has Block A, Block B, Block C, and so on, representing other re-used components.</p>
+<p>For example, let's say you have a section you want to re-use in two places. We'll call this re-used section "Block A." You probably have a page called “Re-used Blocks” that has Block A, Block B, Block C, and so on, representing other re-used components.</p>
 <pre>Re-used Blocks
 - Block A
 - Block B
@@ -59,25 +59,25 @@ Page for Audience 2
   - Block A
 </pre>
 <p>The <a href="https://confluence.atlassian.com/display/DOC/Creating+your+Technical+Documentation+Space#CreatingyourTechnicalDocumentationSpace-inclusions">recommended approach</a> is to store your Re-used Blocks page (or "inclusions library") either <em>outside</em> your space navigation (one level up) or in another space. If you store your Re-used Blocks page one level above your navigation tree, no one will be able to see the page. The way you access it is by browsing your space's pages as a space admin.</p>
-<p>In this limbo space, no one can see Re-used block A if they just look at the space's navigation. This is good -- you don't want people to find the page because it doesn’t make any sense to a regular user since the blocks are all out of context. It just has Block A, B, C, and D stacked on top of each other.</p>
+<p>In this limbo space, no one can see Re-used block A if they just look at the space's navigation. This is good -- you don't want people to find the page because it doesn't make any sense to a regular user since the blocks are all out of context. It just has Block A, B, C, and D stacked on top of each other.</p>
 <p>Now on your Page for Audience 1, you might use the popular <a href="https://marketplace.atlassian.com/plugins/biz.artemissoftware.confluence.multiexcerpt.MultiExcerptMacro">multiexcerpt include macro</a> to embed Block A. Sounds okay, right? The Re-used Blocks page is out of sight, right? And you've transcluded content from it to a page users see.</p>
-<p>Wrong. When a user <em>searches</em> for Block A, the search returns the Re-used Blocks page as the top result, because that’s where the content is. The Page for Audience 1 doesn’t even appear in the search results, because all it has is a little macro placeholder. The placeholder means nothing to the search engine.</p>
+<p>Wrong. When a user <em>searches</em> for Block A, the search returns the Re-used Blocks page as the top result, because that's where the content is. The Page for Audience 1 doesn't even appear in the search results, because all it has is a little macro placeholder. The placeholder means nothing to the search engine.</p>
 <h2>Difficulty in seeing blocks</h2>
-<p>With the multiexcerpt plugin, it's also difficult to see the various block names. Let’s say you want to edit the Page for Audience 1. This page might contain the following blocks:</p>
+<p>With the multiexcerpt plugin, it's also difficult to see the various block names. Let's say you want to edit the Page for Audience 1. This page might contain the following blocks:</p>
 <pre>Page for Audience 1
 - Block A
 - Block B
 - Block C
 - Block D
 </pre>
-<p>Now you need to make an edit to one of the sections. When you edit the page, surprise, you can’t see the name of any of the blocks. It looks like this:</p>
+<p>Now you need to make an edit to one of the sections. When you edit the page, surprise, you can't see the name of any of the blocks. It looks like this:</p>
 <pre>Page for Audience 1
 - Block
 - Block
 - Block
 - Block
 </pre>
-<p>You have to click Edit on each one to see the re-usable block name. Additionally, with the multi-excerpt macro, there’s an option to "Go to included page." This means go to the source page that was transcluded here. But this button doesn’t work with the macro. You get a Page Not Found error (at least I do).</p>
+<p>You have to click Edit on each one to see the re-usable block name. Additionally, with the multi-excerpt macro, there's an option to "Go to included page." This means go to the source page that was transcluded here. But this button doesn't work with the macro. You get a Page Not Found error (at least I do).</p>
 <p>Instead of using the multi-excerpt include plugin, suppose you use the default re-use macro for Confluence (called "<a href="https://confluence.atlassian.com/display/DOC/Excerpt+Include+Macro">excerpt include</a>"). If so, you must create a <em>separate</em> page for each of your blocks. So rather than having Block A, Block B, Block C, and Block D all on the same page (multiple excerpts on a page), you have a page for Block A, a page for Block B, a page for Block C, and a page for Block D.</p>
 <p>Those are a lot of individual pages for each of your re-used components. (Thankfully if you're using excerpt include, you can actually see the block names without editing them.)</p>
 <p>Whatever macro you use, the method is just clunky. You can't do any kind of conditionalizing of content. For example, suppose two pages are 99 percent similar and just 1 percent different. In DITA, you could create one page and add an attribute to the element that is different, like this:</p>
@@ -111,23 +111,23 @@ Page for Audience 2
 <p>As a result, with re-use scenarios, you have a lot of blocks that you're embedding into different pages. When you're looking at your Re-used Blocks page, you can't actually tell which pages the blocks are transcluded into. It could be one; it could be twenty. When you do a search for the block, you end up right back on the same page you're looking at!</p>
 <p>By resorting to excerpt or multiexcerpt include plugins, you essentially hollow out your pages, making it difficult to find anything.</p>
 <h2>No wiki markup</h2>
-<p>The second major problem with Confluence is lack of wiki markup. When you’re writing content, you can’t use source code. Well, technically you can insert wiki markup, but just once, because as soon as you save it, the wiki markup gets converted to HTML syntax with a bunch of proprietary custom Confluence tags. You can never go back to the wiki markup view.</p>
-<p>Let’s say you’re making a list of steps that is broken up with result statements, images, code blocks, and other details. How do you insert content between list items?</p>
-<p>First, you make all the list items you need. Then you go to a place where you want to insert content between list items. Here you do a soft-return by pressing Ctrl+ Enter to create a line break. Then you press Ctrl+Enter again to create some spaces between the images or other content you’ve inserted. Lots of soft-returns (or whatever you like to call Ctrl+Enter).</p>
-<p>Look out if you have to suddenly edit your list. Suppose you want to move a screenshot to a previous step, or eliminate a step, or do any other tweaking. Get ready for quirky ride of formatting hell that will make you actually long for Microsoft Word. You’ll probably have to go into source view to try to find and fix some tag that got misapplied. Even when you fix it, the spacing can still be wonky.</p>
+<p>The second major problem with Confluence is lack of wiki markup. When you're writing content, you can't use source code. Well, technically you can insert wiki markup, but just once, because as soon as you save it, the wiki markup gets converted to HTML syntax with a bunch of proprietary custom Confluence tags. You can never go back to the wiki markup view.</p>
+<p>Let's say you're making a list of steps that is broken up with result statements, images, code blocks, and other details. How do you insert content between list items?</p>
+<p>First, you make all the list items you need. Then you go to a place where you want to insert content between list items. Here you do a soft-return by pressing Ctrl+ Enter to create a line break. Then you press Ctrl+Enter again to create some spaces between the images or other content you've inserted. Lots of soft-returns (or whatever you like to call Ctrl+Enter).</p>
+<p>Look out if you have to suddenly edit your list. Suppose you want to move a screenshot to a previous step, or eliminate a step, or do any other tweaking. Get ready for quirky ride of formatting hell that will make you actually long for Microsoft Word. You'll probably have to go into source view to try to find and fix some tag that got misapplied. Even when you fix it, the spacing can still be wonky.</p>
 <p>Today when I went into source view to troubleshoot, I discovered the following code:</p>
 <pre>&lt;span style="line-height: 1.4285715; background-color: transparent;"&gt;The &lt;/span&gt; &lt;code style="line-height: 1.4285715; background-color: transparent;"&gt;methodName&lt;/code&gt; &lt;span style="line-height: 1.4285715; background-color: transparent;"&gt; method invokes the gizmo. Add this method in your app where you want to load the gizmo.&lt;/span&gt;
 </pre>
 <p>I'm not making this up.</p>
-<p>Now, span tags aren't so hard to strip out. But if you ever want to migrate your content out of Confluence, you’ll be saddled with all kinds of Confluence markup integrated tightly into your content. For example, here’s what a code block looks like:</p>
+<p>Now, span tags aren't so hard to strip out. But if you ever want to migrate your content out of Confluence, you'll be saddled with all kinds of Confluence markup integrated tightly into your content. For example, here's what a code block looks like:</p>
 <pre>&lt;ac:macro ac:name="code"&gt;
        &lt;ac:plain-text-body&gt;
- here’s my code...
+ here's my code...
  &lt;/ac:plain-text-body&gt;
      &lt;/ac:macro&gt; 
 </pre>
 <p>The content is riddled with tags like this for every macro. Even when the browser renders the wiki content into HTML, it keeps all the macro tags.</p>
 <h2>Despite all this...</h2>
 <p>If you're really bent on using Confluence for technical writing, do check out my <a href="http://idratherbewriting.com/2014/06/24/strategies-for-content-re-use-in-confluence/">Re-use Strategies for Confluence post</a>. (I'm a lot nicer in that post -- just don't read the comment thread.)</p>
-<p>Despite these limitations with re-use and wiki markup, Confluence is a good tool for an internal collaboration when you have no re-use needs and when each contributor prefers a Microsoft Word-like experience in writing content. In all likelihood, Atlassian is probably hitting its target audience. But it’s not a tool many technical writers will enjoy. In fact, it will probably make you want to pull your hair out.</p>
+<p>Despite these limitations with re-use and wiki markup, Confluence is a good tool for an internal collaboration when you have no re-use needs and when each contributor prefers a Microsoft Word-like experience in writing content. In all likelihood, Atlassian is probably hitting its target audience. But it's not a tool many technical writers will enjoy. In fact, it will probably make you want to pull your hair out.</p>
 <p>If you really need a wiki, I recommend using the open source platform <a href="https://www.mediawiki.org/wiki/MediaWiki">Mediawiki</a>. But I don't actually recommend wikis. If you want to know why, see my short post <a href="http://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/">My journey to and from wikis</a>.</p>

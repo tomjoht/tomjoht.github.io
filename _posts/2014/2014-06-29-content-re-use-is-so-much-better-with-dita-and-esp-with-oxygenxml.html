@@ -4,15 +4,12 @@ title: Content Re-use is so much better with DITA (and esp. with OxygenXML)
 date: 2014-06-29 20:41:03.000000000 -07:00
 categories:
 - dita
-- general
-tags: []
-status: publish
-type: post
-published: true
+tags:
+- series_dita_journey
 series: "My DITA journey"
-weight: 9
+weight: 1.8
 ---
-{% include series.html %}
+{% include series/seriesTagDITAJourney.html %}
 
 <p>After my last post on <a href="http://idratherbewriting.com/2014/06/24/strategies-for-content-re-use-in-confluence/">content re-use strategies with Confluence</a>, I realized that while you can do re-use with Confluence, you have to rely on so many third-party plugins, the whole solution tends to feel cobbled together with string and glue. While I initially thought Confluence would simplify authoring and allow me to focus more on content,  the primitive re-use capabilities actually make help authoring more tedious and time consuming.</p>
 <p>The real deal-killer with Confluence is managing access control. The paradigm is that all content is on one site, grouped into different spaces. If you only want certain groups to see certain content, you have to individually manage their access to those spaces (and each logged-in user counts against your licensing costs). That's a lot of individual user management. If you make the site anonymous and create several sites (one for each product), you can't reuse the same content easily across the different sites.</p>
@@ -20,7 +17,7 @@ weight: 9
 <p>In this post, I explain how to do content re-use with DITA and Oxygen.</p>
 <h2>The scenario for content re-use</h2>
 <p>I described the scenario for content re-use in my previous post. I'll repeat the scenario here because the content re-use strategies I'm using are formulated based on this situation.</p>
-<p>Suppose you’re creating an online manual for a Trek 7.1 FX, 7.2 FX, and 7.3 FX model bike. Additionally, the same parts you're documenting are also pushed into another brand: Gary Fisher. The parts are mostly the same for the Gary Fisher and Trek bikes, except the parts for the Fisher bikes are rebranded with the Gary Fisher brand. There are three Gary Fisher bike models: City Slicker 2.0, City Slicker 2.1, and City Slicker 2.2. So in total, you have six manuals to produce from roughly the same content.</p>
+<p>Suppose you're creating an online manual for a Trek 7.1 FX, 7.2 FX, and 7.3 FX model bike. Additionally, the same parts you're documenting are also pushed into another brand: Gary Fisher. The parts are mostly the same for the Gary Fisher and Trek bikes, except the parts for the Fisher bikes are rebranded with the Gary Fisher brand. There are three Gary Fisher bike models: City Slicker 2.0, City Slicker 2.1, and City Slicker 2.2. So in total, you have six manuals to produce from roughly the same content.</p>
 <p>There are approximately 30 sections in your manual, with topics such as maintaining brakes, adjusting handlebars, tightening bottom brackets, greasing chains, adjusting spokes, and so on.</p>
 <p>There are some variations between the topics, sometimes as trivial as simple name changes, other times more substantial, such as entirely different processes.</p>
 <p>For example, while the Trek and Fisher bikes both have Shimano brakes and derailleurs, the Fisher bikes have different cranks and pedals than the Trek cranks and pedals. Both have the same tires and wheels, but the Fisher has a different spoke size. Both have similar seat stems, but the Trek is fastened via a bolt while the Fisher is fastened with quick release, and so on. There is 70% similarity of content between the six manuals. You'll need to make content adjustments for the differing brands and models.</p>
@@ -188,3 +185,5 @@ Congratulations on the purchase of your new &lt;keyword keyref=&quot;bike_model&
 <p>I've been using attributes like this for the past week using OxygenXML and can't believe I was trying to hack the same solution in Confluence. It's like moving from the stone age to the modern age.</p>
 <h2>Related links</h2>
 <p>See the <a href="http://idratherbewriting.com/conditional_profiling">Conditional Profiling</a> link in my DITA QRG.</p>
+
+{% include series/seriesTagDITAJourney_next.html %}

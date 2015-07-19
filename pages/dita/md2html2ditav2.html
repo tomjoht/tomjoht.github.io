@@ -20,7 +20,7 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Author in Markdown, publish with DITA</h1>
 <div class="body">
-<p class="shortdesc">Markdown drastically simplifies the authoring process. As long as you don’t need to incorporate <samp class="ph codeph">conref</samp> and other DITA specific tags (which aren’t available in Markdown), you can implement this super simple authoring process.</p>
+<p class="shortdesc">Markdown drastically simplifies the authoring process. As long as you don't need to incorporate <samp class="ph codeph">conref</samp> and other DITA specific tags (which aren't available in Markdown), you can implement this super simple authoring process.</p>
 <p class="p">This Markdown to DITA process is intended to support a workflow where you begin drafting documentation in Markdown as you gather content. When you're mostly finished authoring content, you can transform it all to DITA and then start working with it there.</p>
 <p class="p">Here's a quick looping video demo:</p>
 <p>  <object width="640" height="360" data="http://idratherbetellingstories.com/wp-content/uploads/markdowntodita.mp4"><param name="src" value="http://idratherbetellingstories.com/wp-content/uploads/markdowntodita.mp4" /><param name="movie" value="http://idratherbetellingstories.com/wp-content/uploads/markdowntodita.mp4" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /></object></p>
@@ -40,7 +40,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">To automate the conversion from Markdown to HTML:</p>
 <ol class="ol">
 <li class="li">
-<p class="p">Create a folder to store your project files. I’ll call mine <samp class="ph codeph">ditaqrg</samp>.</p>
+<p class="p">Create a folder to store your project files. I'll call mine <samp class="ph codeph">ditaqrg</samp>.</p>
 </li>
 <li class="li">Create a Markdown file and add it to this folder. Make sure it uses the <samp class="ph codeph">.md<br />
           </samp>extension.</li>
@@ -79,7 +79,7 @@ cd /users/tjohnson/projects/ditaqrg
 <p class="p">If you look in the folder, you will see your .md files now have corresponding .html and .dita<br />
         files.</p>
 <div class="note tip"><span class="tiptitle">Tip:</span> Tip: To run the command again in Terminal, press your up arrow key.</div>
-<p class="p">Note that each time you run the script, the Markdown files will overwrite the DITA files. If you don’t want this automated process to keep overwriting the DITA files, remove the Markdown file.</p>
+<p class="p">Note that each time you run the script, the Markdown files will overwrite the DITA files. If you don't want this automated process to keep overwriting the DITA files, remove the Markdown file.</p>
 <div class="p">
 <div class="note warning"><span class="warningtitle">Warning:</span>  If the HTML isn't valid, the DITA file will not be created. This can<br />
           be somewhat subtle if you already have a DITA file. For example, if you make some edits to<br />
@@ -97,7 +97,7 @@ cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d
 ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg
 cd /users/tjohnson/projects/ditaqrg</pre>
 </p></div>
-<p class="p">What is this code doing? I’ll go through it line by line. </p>
+<p class="p">What is this code doing? I'll go through it line by line. </p>
 <pre class="pre codeblock">multimarkdown -f -b *.md</pre>
 <p class="p">First, the <samp class="ph codeph">multimarkdown</samp> line will process your Markdown files into HTML<br />
         by running the Fletcher script. The <samp class="ph codeph">-f</samp> parameter says to create a full<br />
@@ -120,16 +120,16 @@ cd /users/tjohnson/projects/ditaqrg</pre>
 <p class="p">On this line, <samp class="ph codeph">ant</samp> specifies input arguments for the HTML to DITA<br />
         transformation. </p>
 <p class="p">Note that you must have an HTML file in the input directory for the script to work. If you<br />
-        don’t, you’ll see a message that says “build failed - could not create temp directory.” You<br />
-        don’t need to manually create the temp directory – just put an HTML in the input<br />
+        don't, you'll see a message that says “build failed - could not create temp directory.” You<br />
+        don't need to manually create the temp directory – just put an HTML in the input<br />
         directory.</p>
 <p class="p">If your HTML file were in this h2d folder, and your Terminal location was at the h2d folder<br />
         path, you would now only need to type <samp class="ph codeph">ant</samp> in the command line, and the<br />
         build.xml file also located in this same folder would run the h2d transform to convert the<br />
-        HTML file to a DITA topic type. That’s how ant works – when you type <samp class="ph codeph">ant</samp> on<br />
+        HTML file to a DITA topic type. That's how ant works – when you type <samp class="ph codeph">ant</samp> on<br />
         the command line, it looks for a build.xml file in that same folder and executes the build<br />
         file using the default arguments of the build.xml file.</p>
-<p class="p">However, it’s unlikely that you want to store all your Markdown files and HTML files in<br />
+<p class="p">However, it's unlikely that you want to store all your Markdown files and HTML files in<br />
         this deeply nested Oxygen installation directory. In this example, we add some arguments to<br />
         the ant parameter to specify a different input and output directory from the default<br />
         settings.</p>
@@ -140,16 +140,16 @@ cd /users/tjohnson/projects/ditaqrg</pre>
 <p class="p">The <samp class="ph codeph">-Dargs.output</samp> specifies the output directory for the transformed<br />
         files. In this case, I want them to be output to the same directory as the Markdown<br />
         files.</p>
-<p class="p">There’s another argument you might want to add: <samp class="ph codeph">Dargs.infotype</samp>. This<br />
+<p class="p">There's another argument you might want to add: <samp class="ph codeph">Dargs.infotype</samp>. This<br />
         argument specifies the topic type to convert the HTML into. Options here include<br />
           <samp class="ph codeph">topic</samp>, <samp class="ph codeph">task</samp>, <samp class="ph codeph">concept</samp>, or<br />
-          <samp class="ph codeph">reference</samp>. The default (if you don’t specify the option) is<br />
-          <samp class="ph codeph">topic</samp>. So you actually don’t need this argument if you’re just converting<br />
+          <samp class="ph codeph">reference</samp>. The default (if you don't specify the option) is<br />
+          <samp class="ph codeph">topic</samp>. So you actually don't need this argument if you're just converting<br />
         to topics, which is what I recommend.</p>
-<p class="p">There’s are some more arguments to be aware of:<br />
+<p class="p">There's are some more arguments to be aware of:<br />
         <samp class="ph codeph">args.include.subdirs=“yes”</samp>. This argument says to look in subdirectories<br />
-        for files. I don’t use subdirectories to organize my DITA files (except for images), so this<br />
-        argument isn’t that relevant. If you don’t specify this argument, the default value is<br />
+        for files. I don't use subdirectories to organize my DITA files (except for images), so this<br />
+        argument isn't that relevant. If you don't specify this argument, the default value is<br />
         “no”.</p>
 <p class="p">Two other arguments include the default language and the XSL file. The arguments are<br />
         defined in <a class="xref external" href="http://dita-ot.sourceforge.net/1.5.2/readme/DITA-h2d-ant.html" target="_blank">Migrating HTML to DITA with Ant script</a>. Note that in<br />
@@ -165,11 +165,11 @@ cd /users/tjohnson/projects/ditaqrg</pre>
 <p class="p">After the script runs, we return to the same directory we were in at the beginning. You can<br />
         type <samp class="ph codeph">ls</samp> to list the contents of the directory. You will then see a .dita<br />
         file corresponding to each HTML file in the directory. If you group your files by kind, you<br />
-        won’t see the files in triplicate as you browse them.</p>
+        won't see the files in triplicate as you browse them.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Limitations</h2>
-<p class="p">You can’t use DITA markup within Markdown and have it survive the transforms. For example, if you put a <samp class="ph codeph">note</samp> element in your Markdown script, it will not survive the conversion to DITA.</p>
+<p class="p">You can't use DITA markup within Markdown and have it survive the transforms. For example, if you put a <samp class="ph codeph">note</samp> element in your Markdown script, it will not survive the conversion to DITA.</p>
 </div>
 </div>
 <div class="related-links">
