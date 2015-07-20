@@ -19,16 +19,16 @@ comments: true
 {{ content }}
 {% include social_sharing_buttons.html %}
 
-<div class="well well-sm">
-	<h3 class="relatedPosts">Related Posts</h3>
-	<ul>
-  {% for post in site.related_posts limit:3 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-	</div>
+<!--<div class="well well-sm">-->
+	<!--<h3 class="relatedPosts">Related Posts</h3>-->
+	<!--<ul>-->
+  <!--{% for post in site.related_posts limit:3 %}-->
+    <!--<li>-->
+      <!--<a href="{{ post.url }}">{{ post.title }}</a>-->
+    <!--</li>-->
+  <!--{% endfor %}-->
+<!--</ul>-->
+	<!--</div>-->
 {% include single_post_ads.html %}
 
 {% include disqus.html %}
