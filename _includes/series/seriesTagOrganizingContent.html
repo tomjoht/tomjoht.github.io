@@ -1,0 +1,17 @@
+<div class="seriesContext">
+    <div class="btn-group">
+        <button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.series}}<span class="caret"></span></button>
+        <ol class="dropdown-menu">
+            {% assign series_pages = site.tags.series_organizing_content | sort: "weight" %}
+            {% for p in series_pages %}
+            {% if p.url == page.url %}
+            <li class="active">{{p.weight}}  → {{p.title}}</li>
+            {% else %}
+            <li>
+                <a href="{{p.url | prepend: site.baseurl}}">{{p.weight}}  {{p.title}}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ol>
+    </div>
+</div>

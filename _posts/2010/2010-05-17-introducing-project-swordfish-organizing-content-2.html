@@ -5,56 +5,20 @@ date: 2010-05-17 07:56:07.000000000 -07:00
 categories:
 - findability
 - general
-tags:
+keywords:
 - content organization
 - organization
 - permissions
 - roles
 - table of contents
 - Technical Writing
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  _link_page: ''
-  _feedlink: http://www.publish2.com/newsgroups/technical-communication
-  _link_count: '1'
-  _advanced_options: ''
-  _link_format: ''
-  _publication_name: ''
-  _publication_date: ''
-  _journalist_full_name: ''
-  _description: ''
-  _quote: ''
-  _tags: ''
-  _display_list: ''
-  _embed_video: ''
-  _video_width: '425'
-  _sexybookmarks_shortUrl: http://tinyurl.com/4gdz38z
-  _sexybookmarks_permaHash: 99661150a3e413bb900ae65cb87a834b
-  sfw_comment_form_password: rxIYHzsKdJlP
-  dcssb_short_url: http://bit.ly/PeMjUO
-  _spost_short_title: ''
-  _series_part: '2'
-  _wp_rp_image: empty
-  _wp_rp_related_posts_query_result_cache_expiration: '1420412385'
-  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"6479";s:5:"score";s:18:"161.11404527232622";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"6327";s:5:"score";s:17:"158.3285689534062";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"6338";s:5:"score";s:16:"153.229471668668";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"6404";s:5:"score";s:18:"147.05048833929055";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"11173";s:5:"score";s:18:"125.18117708304122";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6806";s:5:"score";s:18:"110.29482697814363";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"6408";s:5:"score";s:18:"110.29482697814363";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"7115";s:5:"score";s:18:"107.46345619102442";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"16816";s:5:"score";s:17:"102.5085503582667";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"7690";s:5:"score";s:18:"101.54013960458394";}}
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"6479";s:5:"score";s:17:"160.1172868204094";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"6327";s:5:"score";s:18:"157.29104609048318";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"6338";s:5:"score";s:17:"152.2327132167192";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"6404";s:5:"score";s:18:"146.07163690658487";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"11173";s:5:"score";s:18:"124.35995824655762";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"6806";s:5:"score";s:18:"109.50189058085027";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"6408";s:5:"score";s:18:"109.50189058085027";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"7115";s:5:"score";s:18:"106.59015012810806";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"16816";s:5:"score";s:18:"102.10090624898814";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"7690";s:5:"score";s:18:"100.74720320729017";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"6359";s:5:"score";s:18:"100.74720320729017";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"11820";s:5:"score";s:17:"86.85854894650554";}}
-  fsb_social_facebook: '1'
-  fsb_social_twitter: '0'
-  fsb_social_linkedin: '1'
-  fsb_social_google: '0'
-  dsq_thread_id: '3770202646'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+tags:
+- series_organizing_content
+series: "Organizing content"
+weight: 1.2
 ---
+{% include series/seriesTagOrganizing_Content.html %}
+
 <p>Welcome to the new project you'll be documenting: Project Swordfish. Project Swordfish is an application used by the FBI to train agents in virtual simulations of undercover operations.</p>
 <p>With Swordfish, users can be super agents and regular agents. The super agents can configure the permissions of the regular agents with 20 different permission settings. This means the relevant help topics for any agent can vary from about 10 topics to all 200 topics, depending on the permissions an agent has.</p>
 <p>An agent with all 20 permissions will find that every topic in the help is relevant. An agent with no permissions will find that just a handful of topics in the help are relevant.</p>
@@ -70,3 +34,5 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>In Swordfish, agents are grouped into teams. The same agent can be on multiple teams, with different permissions on each team. For example, an agent can be a super agent on the Black Operations team, but a regular agent on the Public Operations team. Agents can even be double agents, so that they appear to be regular agents on a team but are actually super agents, and vice versa.</p>
 <p>Project Swordfish has a moderately complicated interface that warrants approximately 200 help topics. Help topics include several types of topics: conceptual topics, task topics, videos, context-sensitive help topics, and FAQ topics. You need to create both an online help file as well as several printed guides. <em>Your main task is to organize the help topics in a way that makes sense to users.</em></p>
 <p>Content organization is the focus of this series, so that's what the upcoming posts will explore -- different ways to organize content from this hypothetical documentation scenario.</p>
+
+{% include series/seriesTagOrganizing_Content_next.html %}

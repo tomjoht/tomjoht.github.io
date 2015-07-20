@@ -24,6 +24,7 @@ exclude:
   - _drafts
   - .idea
   - _site
+  -
 
 gems:
   - jekyll-redirect-from

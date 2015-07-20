@@ -4,14 +4,12 @@ title: Single sourcing and duplicate content (search engine optimization)
 date: 2013-12-16 23:17:20.000000000 -08:00
 categories:
 - findability
-tags: []
-status: publish
-type: post
-published: true
 series: "Search engine optimization"
-weight: 2
+tags:
+- series_seo
+weight: 1.2
 ---
-{% include series.html %}
+{% include series/seriesTagSEO.html %}
 
 <p>One of the challenges technical writers face in search engine optimizing their documentation is deliberating between single sourcing and duplicate content. Google tries to return a variety of unique results, rather the same versions. If you have multiple versions of the same content online, Google will likely just rank the version it perceives as best and bury the others.</p>
 <p>I'm referring here to single sourcing the same content to multiple <i>online</i> versions, not necessarily a version for different mediums. Suppose you have 9 online guides for "ACME Software": Version 1.0, Version 2.0, Version 3.0. And for each version, you have a Beginner Help, Administrator Help, and a Role-based Help (for managers). Further, you have printed versions (also online) of each of the 9 guides. This means you have 18 guides total.</p>
@@ -71,3 +69,5 @@ weight: 2
 <p>Without question, this kind of organization puts more burden on the page to stand as a <a href="http://xmlpress.net/publications/eppo/"><img class="alignright size-full wp-image-19508" style="border: 1px solid #dedede;" alt="Every Page Is Page One" src="/images/every-page-is-page-one.png" width="195" height="239" /></a>complete whole. As a reader, you don't want to jump back and forth to a portal page each time you want to read another paragraph or list of steps. In this model, pages are longer, more all-encompassing in helping users achieve their goals.</p>
 <p>For more details, see Mark Baker's book, <a title="Every Page Is Page One by Mark Baker" href="http://xmlpress.net/publications/eppo/">Every Page Is Page One.</a> (<em>I highly recommend this book.)</em></p>
 <p>The TOC-less model is most common with wiki architectures such as with Mediawiki sites. The main strength is to free content from one fixed structure. Removing the TOC allows you to create a trail guide (or portal page, or main contents list -- whatever you want to call it) that provides a variety of paths through the same content. This way you can have 9 versions of guides while avoiding duplication of content.</p>
+
+{% include series/seriesTagSEO_next.html %}
