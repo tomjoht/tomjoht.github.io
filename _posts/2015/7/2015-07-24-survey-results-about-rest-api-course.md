@@ -1,5 +1,5 @@
 ---
-title: Survey results about the REST API workshop
+title: Survey results about the possible REST API workshop
 categories:
 - api-doc
 keywords: REST API workshop, API training, learn APIs 
