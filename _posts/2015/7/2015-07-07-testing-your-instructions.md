@@ -152,7 +152,7 @@ One of the main benefits to testing is that it makes writing documentation much 
 
 Instead, when I can walk through the instructions myself, and confirm whether they work or not, that's when things become interesting. Actually, the more you learn about the knowledge domain itself, the work of technical writing increases dramatically. 
 
-In contrast, if you just stick to technical editing, formatting, publishing, and curating &mash; these activities are all worthwhile, but they are not fulfilling as a career. Only when you get your synapses firing in the knowledge domain you're writing in, as well as your hands dirty testing and trying out all the steps and processes, does the work of technical writing start to become engaging. 
+In contrast, if you just stick to technical editing, formatting, publishing, and curating &mdash; these activities are all worthwhile, but they are not fulfilling as a career. Only when you get your synapses firing in the knowledge domain you're writing in, as well as your hands dirty testing and trying out all the steps and processes, does the work of technical writing start to become engaging. 
 
 ## Accounting for the necessary time
 
