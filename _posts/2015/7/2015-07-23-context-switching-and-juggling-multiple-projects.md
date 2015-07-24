@@ -1,5 +1,5 @@
 ---
-title: "Is it harmful to frequently switch contexts among multiple projects?"
+title: "Is it inefficient to frequently switch contexts among multiple projects?"
 categories:
 - general
 keywords: careers, task-switching, multi-tasking
