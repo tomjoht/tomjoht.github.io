@@ -326,7 +326,7 @@ ul#mysidebar {
   border-radius:0px;
     max-width:300px;
     float:right;
-    padding:20px
+    padding:40px
     width:250px;
 }
 
@@ -873,6 +873,7 @@ blockquote {
     color: gray;
     font-style: italic;
     border-left-color: orange;
+    padding: 3px 20px 10px 20px;
 }
 
 .col-md-9 ul li, .col-md-9 ol li {

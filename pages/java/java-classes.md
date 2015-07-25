@@ -1,0 +1,218 @@
+---
+layout: page
+title: 'Java: Classes'
+permalink: /java-classes/
+date: 2015-01-01 19:26:34.000000000 -08:00
+categories:
+- java
+---
+{% assign sidebar = site.data.sidebar_java.entries %}
+{% include technotes_toc.html %}
+
+## Quick summary
+
+* a class is a template used for creating objects
+* must be initialized with an object to use
+* can be initialized with arguments
+* uses Upperclass camel case
+* class name must match file name
+* you can only have 1 public class, but you can have multiple non-public classes
+* contains fields (primitives or object references) and methods
+
+## Eclipse example
+
+* object_example
+
+## Example
+
+```java
+public class Dog{
+
+String breed;
+
+int age;
+int size;
+
+String color;
+
+void bark(){   }
+
+void hungry(){   }
+
+void sleeping(){   }
+
+}
+
+public static void main (String[] args) {
+
+Dog d = new Dog(); // make a new object
+d.bark(); // call the bark method on my object
+d.size = 40; // set the size for the object
+}
+```
+
+Here's another example:
+
+```java
+class Song {
+
+void setArtist(String name) {
+}
+
+void setTitle(String song) {
+}
+}
+
+public static void main (String[] args) {
+
+Song t2 = new Song();
+t2.setArtist("Travis");
+t2.setTitle("Sing");
+Song s3 = new Song();
+s3.setArtist("Sex Pistols");
+s3.setTitle("My Way");
+
+}
+```
+
+Here's an example that initializes with an argument:
+
+```java
+public class Puppy
+{   public Puppy(String name)
+{      // This constructor has one parameter, name.
+
+System.out.println("Passed Name is :" + name );
+}
+```
+
+```
+public static void main(String []args)
+
+{      // Following statement would create an object myPuppy
+
+Puppy myPuppy = new Puppy( "tommy" );   }
+
+}
+```
+
+* * *
+
+This bicycle example comes from [Oracle's Java tutorial](https://docs.oracle.com/javase/tutorial/java/concepts/class.html).
+
+```java
+class Bicycle {
+
+int cadence = 0;
+int speed = 0;
+int gear = 1;
+
+void changeCadence(int newValue) {
+cadence = newValue;
+}
+
+void changeGear(int newValue) {
+gear = newValue;
+}
+
+void speedUp(int increment) {
+speed = speed + increment;
+}
+
+void applyBrakes(int decrement) {
+speed = speed - decrement;
+}
+
+void printStates() {
+System.out.println("cadence:" +
+cadence + " speed:" +
+speed + " gear:" + gear);
+}
+}
+```
+
+And here's the instance:
+
+```java
+class BicycleDemo {
+public static void main(String[] args) {
+
+// Create two different
+// Bicycle objects
+Bicycle bike1 = new Bicycle();
+Bicycle bike2 = new Bicycle();
+
+// Invoke methods on
+// those objects
+bike1.changeCadence(50);
+bike1.speedUp(10);
+bike1.changeGear(2);
+bike1.printStates();
+
+bike2.changeCadence(50);
+bike2.speedUp(10);
+bike2.changeGear(2);
+bike2.changeCadence(40);
+bike2.speedUp(10);
+bike2.changeGear(3);
+bike2.printStates();
+}
+}
+```
+
+## Static classes
+
+If a class is static, it means you don't have to create an instance of the class.
+
+> On a class, the static keyword means that only one instance of that class exists. You can't create a new instance of a static class
+>  -- Java 7 for Absolute Beginners
+
+## "Instantiating a class"
+
+Instantiating a class is the same as creating an object from the class; also referred to as initializing a new object. You create an "instance" of the class.
+
+All objects of a class have access to the methods and fields of that class.
+
+## How you create a new object
+
+Constructors create the objects. The `new` keyword is the default constructor for classes. (You can use "construct" instead of "create").
+
+You use a constructor to construct the object from the class (template). The most common constructor is the `new` keyword, but there are other ways to instantiate a class as well.
+
+You could also create an object reference without assigning any value to it. You might see something like this:
+
+```java
+Point originOne;
+```
+
+In this case, `Point` is the class and `originOne` is a reference variable to the class. But until you invoke the `new` keyword, you haven't actually created a new object here.
+
+## Fields
+
+The variables declared inside a class are referred to generically as fields. However, you can be more specific with the terminology:
+
+* local variables: fields inside a method or constructor
+* instance variables: variables inside the class but not in any method. (They only become alive when you instantiate the class.)
+* class variables: variables within a class but with the static keywords
+
+## Questions to ask about a class
+
+* Is it public or private? 
+* What fields and methods does the class have? 
+* Does the class inherit another class? 
+* What does the class do? 
+* What does the class return? 
+* How is the class instantiated?
+
+## Fields
+
+A field can be an object reference:
+
+```java
+Address address;
+```
+Here `address` is the object that refers to the class `Address`. We haven't instantiated the class yet until we invoke the class's constructor. Here we just define the object reference. The class isn't actually initialized.
+
+## Abstract versus concrete
+
+Classes are by default concrete. If they're abstract, you can't instantiate them. Instead, you must extend them to create a subclass from them.
