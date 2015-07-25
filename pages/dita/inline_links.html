@@ -25,18 +25,18 @@ author:
 excerpt: !ruby/object:Hpricot::Doc
   options: {}
 ---
-<p class="shortdesc">To link to another topic or external site inline, you use the <samp class="ph codeph">xref</samp><br />
+<p class="shortdesc">To link to another topic or external site inline, you use the <code>xref</code>
     element. </p>
-<p class="p">As a general best practice, peopl says to avoid inline links if possible, but include an<br />
-      inline link it would be odd not to include the link. Or include the inline link if there's no<br />
+<p class="p">As a general best practice, peopl says to avoid inline links if possible, but include an
+      inline link it would be odd not to include the link. Or include the inline link if there's no
       concern about the target not being included in the output. </p>
-<pre><code>&lt;p class="p"&gt;The topic title will automatically be used as the anchor text for the link. &lt;/p&gt;
+<pre><code><p class="p">The topic title will automatically be used as the anchor text for the link. </p>
 
-    &lt;pre class="pre codeblock"&gt;   &amp;lt;xref href="sample.dita"/&amp;gt;&lt;/pre&gt;
+    <pre class="pre codeblock">   &amp;lt;xref href="sample.dita"/&amp;gt;</pre>
 
-  &lt;p&gt;If you want to manually specify the anchor text, code it like this:
-    &lt;pre class="pre codeblock"&gt;   &amp;lt;xref href="sample.dita"&amp;gt;Sample&amp;lt;/xref&amp;gt;&lt;/pre&gt;
+  <p>If you want to manually specify the anchor text, code it like this:
+    <pre class="pre codeblock">   &amp;lt;xref href="sample.dita"&amp;gt;Sample&amp;lt;/xref&amp;gt;</pre>
 </code></pre>
-<p>If you're linking to an external source, you need to add the <samp class="ph codeph">scope</samp> and<br />
-        <samp class="ph codeph">format</samp> attributes to your link:</p>
-<pre class="pre codeblock">   &lt;xref href="http://example.org" scope="external" outputclass="external" format="html"&gt;Example.org&lt;/xref&gt;</pre>
+<p>If you're linking to an external source, you need to add the <code>scope</code> and
+        <code>format</code> attributes to your link:</p>
+<pre class="pre codeblock">   <xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref></pre>

@@ -15,20 +15,20 @@ weight: 1.1
 <h2 id="content-re-use">Content re-use</h2>
 <p>DITA allows you to re-use content in several different ways. The most obvious way is that you can use the same topic in different maps through the <code>topicref</code> element. This allows the whole topic to be re-used. But if you have smaller re-use needs (more like “snippets” rather than topics), you usually use the <code>conref</code> tag.</p>
 <p>Here's how you apply the <code>conref</code> tag. Tag the source you want to re-use with an ID attribute. For example, you might tag a note as follows:</p>
-<pre><code>&lt;note type="warning" id="tightening_warning"&gt;Do not overtighten the bolts with a loose-fitting wrench. Doing so may strip the bolts, making them impossible to remove.&lt;/note&gt;
+<pre><code><note type="warning" id="tightening_warning"&gt;Do not overtighten the bolts with a loose-fitting wrench. Doing so may strip the bolts, making them impossible to remove.</note&gt;
 </code></pre>
 <p>You may have a lot of little content snippets like this, as well as reference tables or other re-usable information that you want to reference. I put these into a compilation topic (ditabase) because the ditabase file type, while discouraged as a topic container for regular content, accepts any topic type (task, concept, reference, and more in any combination and number). I'll call this ditabase topic snippets.dita. The topic's ID is #notes123.</p>
 <p>In my bicycle maintenance guide, I may want to re-use this warning in lots of different places – essentially whenever the user is tightening a critical bolt.</p>
 <p>To insert this snippet of text into another topic, I use the <code>conref</code> tag as an attribute on a similar tag, like this:</p>
-<pre><code>&lt;note conref="snippets.dita#notes123/tightening_warning&gt;&lt;/note&gt;</code></pre>
+<pre><code><note conref="snippets.dita#notes123/tightening_warning&gt;</note&gt;</code></pre>
 <p>If your snippets.dita file is in another folder, you'll need to supply the correct path before the file.</p>
 <p>Note that the conref attribute must be added to an element of the same type. If your source file were <code>p id="tightening_warning"</code>, you couldn't add this <code>conref</code> attribute to <code>note id="tightening_warning"</code>.</p>
 <p>Also, when you're processing your ditamap, be sure to include the ditabase file that your topic references. You include an attribute called <code>processing-role="resource-only"</code> to include the topic resource in the map but not show the topic in the output itself. Your ditamap will look something like this:</p>
-<pre><code>&lt;map&gt;
-&lt;title&gt;Bicycle Maintenance Guide&lt;/title&gt;
-&lt;topicref href="assembling_the_bicycle"/&gt;
-&lt;topicref href="snippets.dita" processing-role="resource-only"/&gt;
-&lt;/map&gt;
+<pre><code><map&gt;
+<title&gt;Bicycle Maintenance Guide</title&gt;
+<topicref href="assembling_the_bicycle"/&gt;
+<topicref href="snippets.dita" processing-role="resource-only"/&gt;
+</map&gt;
 </code></pre>
 <h2 id="mapref">Mapref</h2>
 <p>In creating ditamaps, when you refer to ditamap files instead of dita topic files, you can use <code>mapref</code>. You could also use <code>topicref</code> with the attribute <code>format="ditamap"</code>, but if you forget that attribute, your output won't work. So you'll be less prone to error by using <code>mapref</code> for ditamaps and <code>topicref</code> for topics. Maprefs were introduced in 1.2.</p>
@@ -65,12 +65,12 @@ root ditamap (includes maprefs to each sub-ditamap)
 <h2 id="topicset-container-topics">topicset (container topics)</h2>
 <p>When you assemble the topics in ditamaps, sometimes you may want to group several topics together to form one coherent unit. The word “topic” in DITA doesn't distinguish between container topics and building-block topics. However, there is an element called a <code>topicset</code>. The <code>topicset</code> can contain several topics and also take an ID, which lets you re-use the topic as one topicset.</p>
 <p>The <code>topicset</code> is an important element because, as I mentioned in a previous post, my biggest fear with DITA is information fragmentation. Here's an example of how the topicset might be used to combine several subtasks into one topic:</p>
-<pre><code>&lt;topicset id="replacing_broken_spokes" navtitle="Replacing broken spokes" href="about_broken_spokes" chunk="to-content"&gt; 
-&lt;topic href="remove_broken_spokes" toc="no"/&gt;
-&lt;topic href="remove_the_cassette" toc="no" /&gt;
-&lt;topic href="replace_the_spoke_nipple" toc="no" /&gt;
-&lt;topic href="reattach_the_cassette" toc="no" /&gt;
-&lt;/topicset&gt;</code></pre>
+<pre><code><topicset id="replacing_broken_spokes" navtitle="Replacing broken spokes" href="about_broken_spokes" chunk="to-content"&gt;
+<topic href="remove_broken_spokes" toc="no"/&gt;
+<topic href="remove_the_cassette" toc="no" /&gt;
+<topic href="replace_the_spoke_nipple" toc="no" /&gt;
+<topic href="reattach_the_cassette" toc="no" /&gt;
+</topicset&gt;</code></pre>
 <p>Each of these topics are sections or subtasks for the general task of replacing broken spokes. Most of the topics here are numbered steps. However, the task element permits only one step list per topic, so I couldn't put all of this information into one topic without creating in a really long list of steps. I break them out into separate task elements and combine them through a <code>topicset</code>.</p>
 <p>Organizing the content this way also frees me up for greater re-use opportunities, should I need them.</p>
 <p>Notice that the <code>topicset</code> includes an attribute called <code>chunk="to-content"</code>. This attribute will merge all the separate topics into one topic file. You could also keep them as separate files grouped in a content folder in the TOC navigation, but again, I think that practice will likely result in information fragmentation, where the coherence of information is shattered into lots of separate pieces, none of which fulfill the user's goal.</p>
@@ -84,10 +84,10 @@ root ditamap (includes maprefs to each sub-ditamap)
 <p><img class="alignnone size-full wp-image-20533" src="/images/transparentmarkup.jpg" alt="transparentmarkup" width="598" height="368" /></p>
 <p>To submit the draft to engineers for review, I output the HTML and paste it into Google Docs. Engineers make comments, and I make the changes in the source DITA files and mark the comments as resolved. When I'm done making all the changes, I output a new version of the file and replace the entire Google doc. The comment history is still retained, though you can't restore the comment.</p>
 <p>Where you want to preserve comments in the content, you have to insert the comments using DITA tags. You can do this a couple of different ways. You could switch to the Author view and look for the comment button <img src="/images/commentbutton.jpg" alt="commentbutton" width="35" height="28" />. Place your cursor where you want to insert the comment, and click the comment button. Oxygen will insert code that looks something like the following:</p>
-<pre><code>&lt;!--?oxy_comment_start author="tomjohnson" timestamp="20140422T085907-0700" comment="Sample comment: This section needs to be verified by engineers."?--&gt;For&lt;!--?oxy_comment_end?--&gt;
+<pre><code><!--?oxy_comment_start author="tomjohnson" timestamp="20140422T085907-0700" comment="Sample comment: This section needs to be verified by engineers."?--&gt;For<!--?oxy_comment_end?--&gt;
 </code></pre>
 <p>You could also use the <a href="http://docs.oasis-open.org/dita/v1.1/OS/langspec/langref/draft-comment.html"><code>draft-comment</code> tag</a> to accomplish the same thing.</p>
-<pre><code>&lt;draft-comment author="Tom" time="4/22/2014"&gt;Sample comment: This section needs to be verified by engineers.&lt;/draft-comment&gt;
+<pre><code><draft-comment author="Tom" time="4/22/2014"&gt;Sample comment: This section needs to be verified by engineers.</draft-comment&gt;
 </code></pre>
 <p>By default, comments won't show in the output. To get the comments to show in the output, edit the transformation scenario and set the <b>args.draft</b> parameter to <b>yes</b>.</p>
 <p><img class="alignnone size-full wp-image-20528" src="/images/argsdraft.jpg" alt="argsdraft" width="584" height="627" /></p>

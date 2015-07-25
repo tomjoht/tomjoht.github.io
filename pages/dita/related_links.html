@@ -20,32 +20,32 @@ excerpt: !ruby/object:Hpricot::Doc
 <h1 class="title topictitle1">DITA: Related Links</h1>
 <div class="body conbody">
 <p class="shortdesc">Related links are links that provide additional information about your topic. Usually related links point to web resources rather than other links within your DITA project.</p>
-<p class="p">It's best to use relationship tables for links, but you can also manually add related links at<br />
+<p class="p">It's best to use relationship tables for links, but you can also manually add related links at
       the bottom of your topics. Here's a sample:</p>
-<pre class="pre codeblock">&lt;related-links&gt;
-    &lt;link href="sample1.dita"&gt;&lt;linktext&gt;Sample 1 Page&lt;/linktext&gt;&lt;/link&gt;
-    &lt;link href="sample2.dita"/&gt;
-    &lt;link href="sample3.dita"/&gt;
-   &lt;/related-links&gt;</pre>
-<p class="p">If<br />
-    you're using keys instead of direct links, you would write it like<br />
+<pre class="pre codeblock"><related-links>
+    <link href="sample1.dita"><linktext>Sample 1 Page</linktext></link>
+    <link href="sample2.dita"/>
+    <link href="sample3.dita"/>
+   </related-links></pre>
+<p class="p">If
+    you're using keys instead of direct links, you would write it like
     this:</p>
-<pre class="pre codeblock">&lt;related-links&gt;
-    &lt;link keyref="sample1"/&gt;
-    &lt;link keyref="sample2"/&gt;
-    &lt;link keyref="sample3"/&gt;
-   &lt;/related-links&gt;</pre>
-<p class="p">Manually inserted related links like this are useful when you want to link out to resources on<br />
+<pre class="pre codeblock"><related-links>
+    <link keyref="sample1"/>
+    <link keyref="sample2"/>
+    <link keyref="sample3"/>
+   </related-links></pre>
+<p class="p">Manually inserted related links like this are useful when you want to link out to resources on
       the web related to the topic.</p>
-<p class="p">If you're linking to content on the web, DITA can't pull in the titles automatically, so you<br />
-      need to specify them through the <samp class="ph codeph">linktext</samp> element. You also need to add <samp class="ph codeph">format="html"</samp> and <samp class="ph codeph">scope="external"</samp> attributes to the link.</p>
+<p class="p">If you're linking to content on the web, DITA can't pull in the titles automatically, so you
+      need to specify them through the <code>linktext</code> element. You also need to add <code>format="html"</code> and <code>scope="external"</code> attributes to the link.</p>
 <div class="p">
 <pre class="pre codeblock"></pre>
-<pre class="pre codeblock">&lt;related-links&gt;
-    &lt;link href="http://nytimes.com" format="html" scope="external"&gt;&lt;linktext&gt;New York Times&lt;/linktext&gt;&lt;/link&gt;
-    &lt;link format="html" scope="external" href="washingtonpost.com"&gt;&lt;linktext&gt;Washington Post&lt;/linktext&gt;&lt;/link&gt;
-    &lt;link format="html" scope="external" href="huffingtonpost.com"&gt;&lt;linktext&gt;Huffingtonpost&lt;/linktext&gt;&lt;/link&gt;
-   &lt;/related-links&gt;</pre>
+<pre class="pre codeblock"><related-links>
+    <link href="http://nytimes.com" format="html" scope="external"><linktext>New York Times</linktext></link>
+    <link format="html" scope="external" href="washingtonpost.com"><linktext>Washington Post</linktext></link>
+    <link format="html" scope="external" href="huffingtonpost.com"><linktext>Huffingtonpost</linktext></link>
+   </related-links></pre>
 </p></div>
 </p></div>
 <div class="related-links">

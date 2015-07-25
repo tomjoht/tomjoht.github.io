@@ -27,15 +27,15 @@ weight: 1.3
 <p>There's a manual way to accomplish the same thing, using the <code>conref</code> tag. But the problem is the <code>shortdesc</code> content can't be repurposed into a <code>section</code> element.</p>
 <p>As an initial workaround for hierarchical links, I first added a <code>ph</code> element inside the <code>shortdesc</code> tags in my child pages, like this:</p>
 <p>{% highlight html %}<br />
-&lt;shortdesc&gt;&lt;ph id=&quot;“wheels_overview_short”&quot;&gt;Wheels are sized based on the type and size of your bike.&lt;/ph&gt;&lt;/shortdesc&gt;<br />
+<shortdesc&gt;<ph id="“wheels_overview_short”"&gt;Wheels are sized based on the type and size of your bike.</ph&gt;</shortdesc&gt;<br />
 {% endhighlight %}</p>
 <p>Then on my overview page, I used <code>conref</code> to bring over the descriptions inside a general <code>section</code> element.</p>
 <p>However, you can't pull content from one element into another (via <code>conref</code>) when the elements are dissimilar. In other words, you can't simply add an ID to <code>shortdesc</code> and conref it into a <code>section</code> element because <code>shortdesc</code> elements aren't allowed inside <code>section</code> elements.</p>
 <p>Surrounding the content inside the element with <code>ph</code> (for phrase) is a workaround. The <code>ph</code> element is allowed pretty much anywhere (inside <code>section</code> elements, for example), so now instead of grabbing the <code>shortdesc</code> element, we grab the <code>ph</code> element inside the <code>shortdesc</code> and simply use that.</p>
 <p>The embedded element looks like this:</p>
 <p>{% highlight html %}<br />
-&lt;section&gt;&lt;title&gt;Tires and wheels&lt;/title&gt; &lt;br&gt;<br />
-&lt;ph conref=&quot;“wheels.dita#wheels_overview_short”/&quot;&gt;<br />
+<section&gt;<title&gt;Tires and wheels</title&gt; <br&gt;<br />
+<ph conref="“wheels.dita#wheels_overview_short”/"&gt;<br />
 {% endhighlight %}</p>
 <p>which pulls in “Wheels are sized based on the type and size of your bike.”</p>
 <p>Special thanks to <a href="http://indus.stc-india.org/2010/04/dita-writing-tips/">Anindita Basu's post</a> for this tip.</p>
@@ -47,7 +47,7 @@ weight: 1.3
 <p><img class="alignnone size-full wp-image-20591" src="/images/url-alias.jpg" alt="url-alias" width="566" height="563" /></p>
 <p>The relative link path that DITA produces looks something like this:</p>
 <p>{% highlight html %}<br />
-../maintenance/wheels.html&quot;<br />
+../maintenance/wheels.html"<br />
 {% endhighlight %}</p>
 <p>When you click it, you end up with a path like this:</p>
 <p>{% highlight html %}<br />

@@ -19,144 +19,144 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Map file (table of contents)</h1>
 <div class="body conbody">
-<p class="shortdesc">The map file primarily defines the table of contents for your help content. You can also<br />
+<p class="shortdesc">The map file primarily defines the table of contents for your help content. You can also
     include relationship tables, key definitions, and resource files in your map files.</p>
-<div class="p">The primary purpose of the map file is to arrange your table of contents. The map file looks<br />
+<div class="p">The primary purpose of the map file is to arrange your table of contents. The map file looks
       like this:
-<pre class="pre codeblock">&lt;map&gt;
- &lt;title&gt;DITA Topic Map&lt;/title&gt;
-&lt;/map&gt;</pre>
+<pre class="pre codeblock"><map>
+ <title>DITA Topic Map</title>
+</map></pre>
 </div>
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Creating a TOC</h2>
-<div class="p">You add references to the topics you want in the table of contents like<br />
+<div class="p">You add references to the topics you want in the table of contents like
    this:
-<pre class="pre codeblock"> &lt;topicref href="keyref_links.dita"/&gt;
- &lt;topicref href="inline_links.dita"/&gt;
- &lt;topicref href="related_links.dita"/&gt;
- &lt;topicref href="relationship_tables.dita"/&gt;</pre>
+<pre class="pre codeblock"> <topicref href="keyref_links.dita"/>
+ <topicref href="inline_links.dita"/>
+ <topicref href="related_links.dita"/>
+ <topicref href="relationship_tables.dita"/></pre>
 </div>
-<div class="p">To establish parent/child relationships between topics, nest the <samp class="ph codeph">topicref</samp><br />
-        elements in each other, like<br />
+<div class="p">To establish parent/child relationships between topics, nest the <code>topicref</code>
+        elements in each other, like
         this:
-<pre class="pre codeblock"> &lt;topicref href="toc_links.dita"&gt;
- &lt;topicref href="keyref_links.dita"/&gt;
- &lt;topicref href="inline_links.dita"/&gt;
- &lt;topicref href="related_links.dita"/&gt;
- &lt;topicref href="relationship_tables.dita"/&gt;
-&lt;/topicref&gt;</pre>
+<pre class="pre codeblock"> <topicref href="toc_links.dita">
+ <topicref href="keyref_links.dita"/>
+ <topicref href="inline_links.dita"/>
+ <topicref href="related_links.dita"/>
+ <topicref href="relationship_tables.dita"/>
+</topicref></pre>
 </div>
-<p class="p">Now the toc_inks.dita file (note the lack of the self-closed angle bracket "/&gt;") will be the<br />
-        parent and the 4 links below it will be children. The parent topic will show the four child<br />
-        topics as embedded links along the <samp class="ph codeph">shortdesc</samp> element from each child topic.<br />
-        Essentially the toc_links.dita file is blank and is filled with a preview of the other files<br />
+<p class="p">Now the toc_inks.dita file (note the lack of the self-closed angle bracket "/>") will be the
+        parent and the 4 links below it will be children. The parent topic will show the four child
+        topics as embedded links along the <code>shortdesc</code> element from each child topic.
+        Essentially the toc_links.dita file is blank and is filled with a preview of the other files
         nested below it. This is a general best practice for organizing the TOC.</p>
-<p class="p">Note that there is another element called a <samp class="ph codeph">topichead</samp> that also allows you<br />
+<p class="p">Note that there is another element called a <code>topichead</code> that also allows you
         to group topics into hierarchical relationships, like this:</p>
 <div class="p">
-<pre class="pre codeblock">&lt;topichead navtitle="Links"&gt;
- &lt;topicref href="keyref_links.dita"/&gt;
- &lt;topicref href="inline_links.dita"/&gt;
- &lt;topicref href="related_links.dita"/&gt;
- &lt;topicref href="relationship_tables.dita"/&gt;
-&lt;/topichead&gt;</pre>
+<pre class="pre codeblock"><topichead navtitle="Links">
+ <topicref href="keyref_links.dita"/>
+ <topicref href="inline_links.dita"/>
+ <topicref href="related_links.dita"/>
+ <topicref href="relationship_tables.dita"/>
+</topichead></pre>
 </p></div>
-<p class="p">However, many people are opposed to using <samp class="ph codeph">topichead</samp> because it creates a<br />
-        containing folder that does nothing except expand its folder contents when a user clicks it.<br />
-        There's a chance that users may think something isn't working, since clicking an option in<br />
+<p class="p">However, many people are opposed to using <code>topichead</code> because it creates a
+        containing folder that does nothing except expand its folder contents when a user clicks it.
+        There's a chance that users may think something isn't working, since clicking an option in
         the menu doesn't create any change in the main viewing window. </p>
-<p class="p">Regardless of the usability issue, it's a good idea to present a preview of the folder's<br />
-      contents on the parent topic anyway. This lets the user browse all the topics in the folder<br />
+<p class="p">Regardless of the usability issue, it's a good idea to present a preview of the folder's
+      contents on the parent topic anyway. This lets the user browse all the topics in the folder
       with one glance.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Combining topics</h2>
-<div class="p">If you want to combine topics in each other, use the <samp class="ph codeph">chunk</samp> attribute and<br />
-        specify whether each child topic should appear in the<br />
+<div class="p">If you want to combine topics in each other, use the <code>chunk</code> attribute and
+        specify whether each child topic should appear in the
         TOC:
-<pre class="pre codeblock"> &lt;topicref href="inserting_links.dita" chunk="to-content"&gt;
- &lt;topicref href="inline_links.dita" toc="no"/&gt;
- &lt;topicref href="related_links.dita" toc="no"/&gt;
- &lt;topicref href="keyref_links.dita" toc="no"/&gt;
-&lt;/topicref&gt;</pre>
+<pre class="pre codeblock"> <topicref href="inserting_links.dita" chunk="to-content">
+ <topicref href="inline_links.dita" toc="no"/>
+ <topicref href="related_links.dita" toc="no"/>
+ <topicref href="keyref_links.dita" toc="no"/>
+</topicref></pre>
 </div>
-<p class="p">This output will show Inserting Links as the topic title and the three child topics as<br />
-        subheadings within the topic. It will appear as one file. However, note that if you put<br />
-        inserting_links.dita into a relationship table, the related links will appear directly below<br />
-        the first topic rather than after keyref_links.dita. (Some Open Toolkit people want to<br />
-        decouple topics in the relationship table to allow for more granular relationships; however,<br />
+<p class="p">This output will show Inserting Links as the topic title and the three child topics as
+        subheadings within the topic. It will appear as one file. However, note that if you put
+        inserting_links.dita into a relationship table, the related links will appear directly below
+        the first topic rather than after keyref_links.dita. (Some Open Toolkit people want to
+        decouple topics in the relationship table to allow for more granular relationships; however,
         I think this is a bug that should be fixed.)</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Folder structure</h2>
-<p class="p">All topics that the map file references need to be in either the same directory as the map or<br />
-        in a subdirectory to the map. Don't reference a topic outside of the map's directory (using<br />
+<p class="p">All topics that the map file references need to be in either the same directory as the map or
+        in a subdirectory to the map. Don't reference a topic outside of the map's directory (using
         ../ syntax). </p>
-<p class="p">I think it's easiest to leave all dita files loose in the root folder rather than<br />
-        organizing them into subfolders. Reason being, if you decide to reorganize your files, links<br />
+<p class="p">I think it's easiest to leave all dita files loose in the root folder rather than
+        organizing them into subfolders. Reason being, if you decide to reorganize your files, links
         to subfolder_a/sample.dita will break when you move sample.dita to subfolder_b.</p>
-<p class="p">To maintain some sense or order for loosely coupled files, you can begin the file name with<br />
-        the folder name. Alternatively, if you're on a Mac, you can use virtual folders by tagging<br />
+<p class="p">To maintain some sense or order for loosely coupled files, you can begin the file name with
+        the folder name. Alternatively, if you're on a Mac, you can use virtual folders by tagging
         the files with folder-like names.</p>
-<p class="p">For glossary entries, images, or other files clearly of a different format, using<br />
+<p class="p">For glossary entries, images, or other files clearly of a different format, using
         subfolders is probably a good idea.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Editing ditamap files</h2>
-<p class="p">You can more easily arrange the topics in your ditamap file using the DITA Maps Manager<br />
-        feature in Oxygen. This is the panel that appears on the left of the main window.<br />
+<p class="p">You can more easily arrange the topics in your ditamap file using the DITA Maps Manager
+        feature in Oxygen. This is the panel that appears on the left of the main window.
         Right-click your ditamap file tab and select <strong class="ph b">Open in DITA Maps Manager</strong>.</p>
-<p class="p">Through the DITA Maps Manager, you can easily see if a topic is invalid, as it will include a<br />
-        red exclamation mark next to it. Parent-child hierarchies are also formatted with<br />
-        expand/collapse displays. You can see profiling conditions, edit properties, set<br />
+<p class="p">Through the DITA Maps Manager, you can easily see if a topic is invalid, as it will include a
+        red exclamation mark next to it. Parent-child hierarchies are also formatted with
+        expand/collapse displays. You can see profiling conditions, edit properties, set
         parent-child hierarchies, and do other things through the Maps Manager.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Applying attributes to groups of elements</h2>
-<div class="p">Suppose you want to group a set of topics in your map so that all topics in the group inherit<br />
-        the same attributes and properties. By making the topics children of an element, the<br />
+<div class="p">Suppose you want to group a set of topics in your map so that all topics in the group inherit
+        the same attributes and properties. By making the topics children of an element, the
         children inherit the parent's properties.</p>
-<pre class="pre codeblock"> &lt;topichead audience="field_engineers" navtitle="Resources"&gt;
-  &lt;topicref href="concept.dita"/&gt;
-  &lt;topicref href="notes.dita"/&gt;
-  &lt;topicref href="conref.dita"/&gt;
- &lt;/topicgroup&gt;</pre>
+<pre class="pre codeblock"> <topichead audience="field_engineers" navtitle="Resources">
+  <topicref href="concept.dita"/>
+  <topicref href="notes.dita"/>
+  <topicref href="conref.dita"/>
+ </topicgroup></pre>
 </div>
-<p class="p">Now concept.dita, notes.dita, and conref.dita will all have the attribute<br />
-          <samp class="ph codeph">audience="field_engineers"</samp>. These topics will appear inside a folder<br />
+<p class="p">Now concept.dita, notes.dita, and conref.dita will all have the attribute
+          <code>audience="field_engineers"</code>. These topics will appear inside a folder
         called Resources.</p>
-<div class="p">You can also use the <samp class="ph codeph">topicgroup</samp> element to do the same bulk-applying of<br />
-        attributes. The difference between <samp class="ph codeph">topichead</samp> and<br />
-          <samp class="ph codeph">topicgroup</samp> is that <samp class="ph codeph">topichead</samp> applies a hierarchy in the<br />
-        TOC, while <samp class="ph codeph">topicgroup</samp> does not result in any<br />
+<div class="p">You can also use the <code>topicgroup</code> element to do the same bulk-applying of
+        attributes. The difference between <code>topichead</code> and
+          <code>topicgroup</code> is that <code>topichead</code> applies a hierarchy in the
+        TOC, while <code>topicgroup</code> does not result in any
         hierarchy.
-<pre class="pre codeblock"> &lt;topicref href="toc_links.dita" audience="field_engineers"&gt;
-  &lt;topicref href="concept.dita"/&gt;
-  &lt;topicref href="notes.dita"/&gt;
-  &lt;topicref href="conref.dita"/&gt;
- &lt;/topicref&gt;</pre>
+<pre class="pre codeblock"> <topicref href="toc_links.dita" audience="field_engineers">
+  <topicref href="concept.dita"/>
+  <topicref href="notes.dita"/>
+  <topicref href="conref.dita"/>
+ </topicref></pre>
 </div>
-<p class="p">In this example, all the topics in this group will have the<br />
-          <samp class="ph codeph">audience="field_engineers"</samp> attribute applied to them. If you want to<br />
-        apply a grouping independent of any hierarchy, use the <samp class="ph codeph">topicgroup</samp><br />
+<p class="p">In this example, all the topics in this group will have the
+          <code>audience="field_engineers"</code> attribute applied to them. If you want to
+        apply a grouping independent of any hierarchy, use the <code>topicgroup</code>
         element.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Linking to non-TOC files</h2>
-<p class="p">You probably want to link a couple of other files from your ditamap: your notes file (where<br />
-        you store all your conrefs), your relationship table, and your glossary. You could combine<br />
-        them all in the same map, but doing so will make the ditamap file long. When you add these<br />
-        non-TOC links, add an attribute of <samp class="ph codeph">processing-role:"resource only".</samp></p>
-<pre class="pre codeblock">  &lt;topicref processing-role="resource-only" href="notes.dita" /&gt;
-  &lt;mapref processing-role="resource-only" href="keys.ditamap"/&gt;
-  &lt;mapref processing-role="resource-only" href="relationship_table.ditamap"/&gt; </pre>
-<p class="p">Notice that I used <samp class="ph codeph">mapref</samp> here instead of <samp class="ph codeph">topicref</samp>. If<br />
-        you use <samp class="ph codeph">topicref</samp> and point to a ditamap file, add<br />
-          <samp class="ph codeph">format="ditamap"</samp> in your attributes.</p>
-<p class="p">Additionally, if you're linking to a ditamap, use <samp class="ph codeph">mapref</samp> instead of<br />
-          <samp class="ph codeph">topicref</samp>. If you do use <samp class="ph codeph">topicref</samp>, you must remember to<br />
-        add the <samp class="ph codeph">format="ditamap"</samp> attribute. </p>
+<p class="p">You probably want to link a couple of other files from your ditamap: your notes file (where
+        you store all your conrefs), your relationship table, and your glossary. You could combine
+        them all in the same map, but doing so will make the ditamap file long. When you add these
+        non-TOC links, add an attribute of <code>processing-role:"resource only".</code></p>
+<pre class="pre codeblock">  <topicref processing-role="resource-only" href="notes.dita" />
+  <mapref processing-role="resource-only" href="keys.ditamap"/>
+  <mapref processing-role="resource-only" href="relationship_table.ditamap"/> </pre>
+<p class="p">Notice that I used <code>mapref</code> here instead of <code>topicref</code>. If
+        you use <code>topicref</code> and point to a ditamap file, add
+          <code>format="ditamap"</code> in your attributes.</p>
+<p class="p">Additionally, if you're linking to a ditamap, use <code>mapref</code> instead of
+          <code>topicref</code>. If you do use <code>topicref</code>, you must remember to
+        add the <code>format="ditamap"</code> attribute. </p>
 </p></div>
 </p></div>
 <div class="related-links">

@@ -21,7 +21,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="body">
 <p class="p">I'm not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
 <pre class="pre codeblock">
-<samp class="ph codeph">.conbody,
+<code>.conbody,
 .taskbody,
 .refbody,
 .body,
@@ -32,31 +32,31 @@ p.shortdesc,
 {
     max-width:800px;
 }
-</samp>
+</code>
 </pre>
-<p class="p">Some of those other elements, such as <samp class="ph codeph">title</samp> and <samp class="ph codeph">p.shortdesc</samp>, appear before the <samp class="ph codeph">body</samp>. They don't seem to be contained within anything, though I could have overlooked something.</p>
-<p class="p">I also apply a <samp class="ph codeph">max-width</samp> property to images:</p>
+<p class="p">Some of those other elements, such as <code>title</code> and <code>p.shortdesc</code>, appear before the <code>body</code>. They don't seem to be contained within anything, though I could have overlooked something.</p>
+<p class="p">I also apply a <code>max-width</code> property to images:</p>
 <pre class="pre codeblock">
-<samp class="ph codeph">.conbody img,
+<code>.conbody img,
 .taskbody img,
 .refbody img{
     max-width:600px;
 }
-</samp>
+</code>
 </pre>
-<p class="p">Note also that when you apply a fixed width to your content, the code in your <samp class="ph codeph">code block</samp> elements may get cut off. Since <samp class="ph codeph">codeblock</samp> elements are contained within <samp class="ph codeph">stepxmp</samp> and <samp class="ph codeph">info</samp>, which are contained within <samp class="ph codeph">step</samp>, you can't really get around their parent containers.</p>
-<p class="p">Instead, to handle <samp class="ph codeph">code block</samp> content from getting cut off, you can add this: </p>
+<p class="p">Note also that when you apply a fixed width to your content, the code in your <code>code block</code> elements may get cut off. Since <code>codeblock</code> elements are contained within <code>stepxmp</code> and <code>info</code>, which are contained within <code>step</code>, you can't really get around their parent containers.</p>
+<p class="p">Instead, to handle <code>code block</code> content from getting cut off, you can add this: </p>
 <pre class="pre codeblock">
-<samp class="ph codeph">  .codeblock {
+<code>  .codeblock {
  white-space: pre-wrap;       /* css-3 */
  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
  white-space: -pre-wrap;      /* Opera 4-6 */
  white-space: -o-pre-wrap;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-</samp>
+</code>
 </pre>
-<p class="p">Special shoutout to <a class="xref external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a> for this tip on wrapping content inside the <samp class="ph codeph">pre</samp> tag.</p>
+<p class="p">Special shoutout to <a class="xref external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a> for this tip on wrapping content inside the <code>pre</code> tag.</p>
 </div>
 <div class="related-links">
 <div class="familylinks">

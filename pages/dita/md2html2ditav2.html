@@ -19,7 +19,7 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Author in Markdown, publish with DITA</h1>
 <div class="body">
-<p class="shortdesc">Markdown drastically simplifies the authoring process. As long as you don't need to incorporate <samp class="ph codeph">conref</samp> and other DITA specific tags (which aren't available in Markdown), you can implement this super simple authoring process.</p>
+<p class="shortdesc">Markdown drastically simplifies the authoring process. As long as you don't need to incorporate <code>conref</code> and other DITA specific tags (which aren't available in Markdown), you can implement this super simple authoring process.</p>
 <p class="p">This Markdown to DITA process is intended to support a workflow where you begin drafting documentation in Markdown as you gather content. When you're mostly finished authoring content, you can transform it all to DITA and then start working with it there.</p>
 <p class="p">Here's a quick looping video demo:</p>
 <p>  <object width="640" height="360" data="http://idratherbetellingstories.com/wp-content/uploads/markdowntodita.mp4"><param name="src" value="http://idratherbetellingstories.com/wp-content/uploads/markdowntodita.mp4" /><param name="movie" value="http://idratherbetellingstories.com/wp-content/uploads/markdowntodita.mp4" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /></object></p>
@@ -28,7 +28,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">
 <ul class="ul">
 <li class="li">Download and install <a class="xref external" href="http://fletcherpenney.net/multimarkdown/" target="_blank">Multimarkdown from Penny Fletcher</a> .</li>
-<li class="li">Download and install <a class="xref external" href="http://www.ashokgelal.com/lightpaper-for-mac/" target="_blank">LightPaper</a> or some other authoring tool that allows you to create<br />
+<li class="li">Download and install <a class="xref external" href="http://www.ashokgelal.com/lightpaper-for-mac/" target="_blank">LightPaper</a> or some other authoring tool that allows you to create
           Markdown content.</li>
 <li class="li">Download and install OxygenXML.</li>
 </ul>
@@ -39,51 +39,51 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">To automate the conversion from Markdown to HTML:</p>
 <ol class="ol">
 <li class="li">
-<p class="p">Create a folder to store your project files. I'll call mine <samp class="ph codeph">ditaqrg</samp>.</p>
+<p class="p">Create a folder to store your project files. I'll call mine <code>ditaqrg</code>.</p>
 </li>
-<li class="li">Create a Markdown file and add it to this folder. Make sure it uses the <samp class="ph codeph">.md<br />
-          </samp>extension.</li>
+<li class="li">Create a Markdown file and add it to this folder. Make sure it uses the <code>.md
+          </code>extension.</li>
 <li class="li">
-<p class="p">In this same folder, create a file named ditaqrg.sh (you can choose whatever name you want) and<br />
+<p class="p">In this same folder, create a file named ditaqrg.sh (you can choose whatever name you want) and
             add this code:</p>
-<pre class="pre codeblock"><samp class="ph codeph">multimarkdown -f -b *.md
+<pre class="pre codeblock"><code>multimarkdown -f -b *.md
 cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d
 ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg
 cd /users/tjohnson/projects/ditaqrg
-</samp></pre>
-<p class="p">Change “ditaqrg” to whatever project name you chose to use. You will need to customize the Oxygen<br />
-            h2d path and your input and output directories to match your specific locations. I<br />
+</code></pre>
+<p class="p">Change “ditaqrg” to whatever project name you chose to use. You will need to customize the Oxygen
+            h2d path and your input and output directories to match your specific locations. I
             explain this code in more detail below.</p>
 </li>
 <li class="li">
-<p class="p">Open Terminal and <samp class="ph codeph">cd</samp> to your project folder. </p>
+<p class="p">Open Terminal and <code>cd</code> to your project folder. </p>
 </li>
 <li class="li">
 <p class="p">Type the following to change the permission to give read/write/execute to the file:</p>
 <pre class="pre codeblock">
-<samp class="ph codeph">chmod ugo+rwx ditaqrg.sh
-</samp>
+<code>chmod ugo+rwx ditaqrg.sh
+</code>
 </pre>
 <p class="p">
-<samp class="ph codeph">chmod</samp> changes the file permissions. <samp class="ph codeph">ugo</samp> stands for “user, group, others,” (these are the three groups that can access the file) and <samp class="ph codeph">rwx</samp> means “read, write, execute”. Then we list the specific file we want to apply these permissions to (ditaqrg.sh).</p>
+<code>chmod</code> changes the file permissions. <code>ugo</code> stands for “user, group, others,” (these are the three groups that can access the file) and <code>rwx</code> means “read, write, execute”. Then we list the specific file we want to apply these permissions to (ditaqrg.sh).</p>
 </li>
 <li class="li">
-<p class="p">Type <samp class="ph codeph">ls -l ditaqrg.sh</samp>. Verify that the file now has <samp class="ph codeph">rwxrwxrwx</samp><br />
-            permissions. (The <samp class="ph codeph">-l</samp> adds more detail in the response.)</p>
+<p class="p">Type <code>ls -l ditaqrg.sh</code>. Verify that the file now has <code>rwxrwxrwx</code>
+            permissions. (The <code>-l</code> adds more detail in the response.)</p>
 </li>
 <li class="li">
-<p class="p">Type <samp class="ph codeph">./projectname.sh</samp> to run the file. </p>
+<p class="p">Type <code>./projectname.sh</code> to run the file. </p>
 </li>
 </ol>
-<p class="p">If you look in the folder, you will see your .md files now have corresponding .html and .dita<br />
+<p class="p">If you look in the folder, you will see your .md files now have corresponding .html and .dita
         files.</p>
 <div class="note tip"><span class="tiptitle">Tip:</span> Tip: To run the command again in Terminal, press your up arrow key.</div>
 <p class="p">Note that each time you run the script, the Markdown files will overwrite the DITA files. If you don't want this automated process to keep overwriting the DITA files, remove the Markdown file.</p>
 <div class="p">
-<div class="note warning"><span class="warningtitle">Warning:</span>  If the HTML isn't valid, the DITA file will not be created. This can<br />
-          be somewhat subtle if you already have a DITA file. For example, if you make some edits to<br />
-          the Markdown file that produce invalid HTML, and then you run the script, it may appear to<br />
-          be working if you already have a DITA file there. Check to make sure the updates applied<br />
+<div class="note warning"><span class="warningtitle">Warning:</span>  If the HTML isn't valid, the DITA file will not be created. This can
+          be somewhat subtle if you already have a DITA file. For example, if you make some edits to
+          the Markdown file that produce invalid HTML, and then you run the script, it may appear to
+          be working if you already have a DITA file there. Check to make sure the updates applied
           correctly.</div>
 </p></div>
 </div>
@@ -98,77 +98,77 @@ cd /users/tjohnson/projects/ditaqrg</pre>
 </p></div>
 <p class="p">What is this code doing? I'll go through it line by line. </p>
 <pre class="pre codeblock">multimarkdown -f -b *.md</pre>
-<p class="p">First, the <samp class="ph codeph">multimarkdown</samp> line will process your Markdown files into HTML<br />
-        by running the Fletcher script. The <samp class="ph codeph">-f</samp> parameter says to create a full<br />
+<p class="p">First, the <code>multimarkdown</code> line will process your Markdown files into HTML
+        by running the Fletcher script. The <code>-f</code> parameter says to create a full
         header in the HTML document. This means the HTML files will include the following:</p>
-<pre class="pre codeblock">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;meta charset="utf-8"/&gt;
-&lt;/head&gt;
-&lt;body</pre>
-<p class="p">This is necessary for the ant scripts to run. The <samp class="ph codeph">-b</samp> runs a batch<br />
-        conversion, so it will process all files in the folder. The <samp class="ph codeph">*.md</samp> restricts<br />
-        the conversion to any files with an .md extension, which is the traditional file extension<br />
+<pre class="pre codeblock"><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body</pre>
+<p class="p">This is necessary for the ant scripts to run. The <code>-b</code> runs a batch
+        conversion, so it will process all files in the folder. The <code>*.md</code> restricts
+        the conversion to any files with an .md extension, which is the traditional file extension
         for Markdown files.</p>
 <pre class="pre codeblock">cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d</pre>
-<p class="p">Now the script changes to the <samp class="ph codeph">h2d</samp> directory. In this directory, you have a<br />
-        build.xml file supplied by OxygenXML that will convert your content from HTML to DITA.<br />
+<p class="p">Now the script changes to the <code>h2d</code> directory. In this directory, you have a
+        build.xml file supplied by OxygenXML that will convert your content from HTML to DITA.
         Customize this path to match your own OxygenXML installation directory. </p>
 <pre class="pre codeblock">ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg</pre>
-<p class="p">On this line, <samp class="ph codeph">ant</samp> specifies input arguments for the HTML to DITA<br />
+<p class="p">On this line, <code>ant</code> specifies input arguments for the HTML to DITA
         transformation. </p>
-<p class="p">Note that you must have an HTML file in the input directory for the script to work. If you<br />
-        don't, you'll see a message that says “build failed - could not create temp directory.” You<br />
-        don't need to manually create the temp directory – just put an HTML in the input<br />
+<p class="p">Note that you must have an HTML file in the input directory for the script to work. If you
+        don't, you'll see a message that says “build failed - could not create temp directory.” You
+        don't need to manually create the temp directory – just put an HTML in the input
         directory.</p>
-<p class="p">If your HTML file were in this h2d folder, and your Terminal location was at the h2d folder<br />
-        path, you would now only need to type <samp class="ph codeph">ant</samp> in the command line, and the<br />
-        build.xml file also located in this same folder would run the h2d transform to convert the<br />
-        HTML file to a DITA topic type. That's how ant works – when you type <samp class="ph codeph">ant</samp> on<br />
-        the command line, it looks for a build.xml file in that same folder and executes the build<br />
+<p class="p">If your HTML file were in this h2d folder, and your Terminal location was at the h2d folder
+        path, you would now only need to type <code>ant</code> in the command line, and the
+        build.xml file also located in this same folder would run the h2d transform to convert the
+        HTML file to a DITA topic type. That's how ant works – when you type <code>ant</code> on
+        the command line, it looks for a build.xml file in that same folder and executes the build
         file using the default arguments of the build.xml file.</p>
-<p class="p">However, it's unlikely that you want to store all your Markdown files and HTML files in<br />
-        this deeply nested Oxygen installation directory. In this example, we add some arguments to<br />
-        the ant parameter to specify a different input and output directory from the default<br />
+<p class="p">However, it's unlikely that you want to store all your Markdown files and HTML files in
+        this deeply nested Oxygen installation directory. In this example, we add some arguments to
+        the ant parameter to specify a different input and output directory from the default
         settings.</p>
 <p class="p">
-<p class="p">The <samp class="ph codeph">-Dargs.input</samp> specifies the directory containing the files you want to<br />
-        transform. If you point to the directory, all Markdown files in that directory will be<br />
+<p class="p">The <code>-Dargs.input</code> specifies the directory containing the files you want to
+        transform. If you point to the directory, all Markdown files in that directory will be
         processed. If you point to a specific file, only that file will be processed.</p>
-<p class="p">The <samp class="ph codeph">-Dargs.output</samp> specifies the output directory for the transformed<br />
-        files. In this case, I want them to be output to the same directory as the Markdown<br />
+<p class="p">The <code>-Dargs.output</code> specifies the output directory for the transformed
+        files. In this case, I want them to be output to the same directory as the Markdown
         files.</p>
-<p class="p">There's another argument you might want to add: <samp class="ph codeph">Dargs.infotype</samp>. This<br />
-        argument specifies the topic type to convert the HTML into. Options here include<br />
-          <samp class="ph codeph">topic</samp>, <samp class="ph codeph">task</samp>, <samp class="ph codeph">concept</samp>, or<br />
-          <samp class="ph codeph">reference</samp>. The default (if you don't specify the option) is<br />
-          <samp class="ph codeph">topic</samp>. So you actually don't need this argument if you're just converting<br />
+<p class="p">There's another argument you might want to add: <code>Dargs.infotype</code>. This
+        argument specifies the topic type to convert the HTML into. Options here include
+          <code>topic</code>, <code>task</code>, <code>concept</code>, or
+          <code>reference</code>. The default (if you don't specify the option) is
+          <code>topic</code>. So you actually don't need this argument if you're just converting
         to topics, which is what I recommend.</p>
-<p class="p">There's are some more arguments to be aware of:<br />
-        <samp class="ph codeph">args.include.subdirs=“yes”</samp>. This argument says to look in subdirectories<br />
-        for files. I don't use subdirectories to organize my DITA files (except for images), so this<br />
-        argument isn't that relevant. If you don't specify this argument, the default value is<br />
+<p class="p">There's are some more arguments to be aware of:
+        <code>args.include.subdirs=“yes”</code>. This argument says to look in subdirectories
+        for files. I don't use subdirectories to organize my DITA files (except for images), so this
+        argument isn't that relevant. If you don't specify this argument, the default value is
         “no”.</p>
-<p class="p">Two other arguments include the default language and the XSL file. The arguments are<br />
-        defined in <a class="xref external" href="http://dita-ot.sourceforge.net/1.5.2/readme/DITA-h2d-ant.html" target="_blank">Migrating HTML to DITA with Ant script</a>. Note that in<br />
+<p class="p">Two other arguments include the default language and the XSL file. The arguments are
+        defined in <a class="xref external" href="http://dita-ot.sourceforge.net/1.5.2/readme/DITA-h2d-ant.html" target="_blank">Migrating HTML to DITA with Ant script</a>. Note that in
         that article, it shows the following:</p>
 <pre class="pre codeblock">
-<samp class="ph codeph">ant -Dargs.input={file|direcotry} -Dargs.output={direcotry} -Dargs.infotype={topic|concept|task|reference}
-</samp>
+<code>ant -Dargs.input={file|direcotry} -Dargs.output={direcotry} -Dargs.infotype={topic|concept|task|reference}
+</code>
 </pre>
-<p class="p">The "direcotry" misspellings are not mine. Also, the file never explains that<br />
-        "{file|directory}" means you can enter either the file <em class="ph i">or</em> directory, and also that<br />
-        you omit the <samp class="ph codeph">{}</samp> tags.</p>
+<p class="p">The "direcotry" misspellings are not mine. Also, the file never explains that
+        "{file|directory}" means you can enter either the file <em class="ph i">or</em> directory, and also that
+        you omit the <code>{}</code> tags.</p>
 <pre class="pre codeblock">cd /users/tjohnson/projects/ditaqrg</pre>
-<p class="p">After the script runs, we return to the same directory we were in at the beginning. You can<br />
-        type <samp class="ph codeph">ls</samp> to list the contents of the directory. You will then see a .dita<br />
-        file corresponding to each HTML file in the directory. If you group your files by kind, you<br />
+<p class="p">After the script runs, we return to the same directory we were in at the beginning. You can
+        type <code>ls</code> to list the contents of the directory. You will then see a .dita
+        file corresponding to each HTML file in the directory. If you group your files by kind, you
         won't see the files in triplicate as you browse them.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Limitations</h2>
-<p class="p">You can't use DITA markup within Markdown and have it survive the transforms. For example, if you put a <samp class="ph codeph">note</samp> element in your Markdown script, it will not survive the conversion to DITA.</p>
+<p class="p">You can't use DITA markup within Markdown and have it survive the transforms. For example, if you put a <code>note</code> element in your Markdown script, it will not survive the conversion to DITA.</p>
 </div>
 </div>
 <div class="related-links">

@@ -20,29 +20,29 @@ excerpt: !ruby/object:Hpricot::Doc
 <h1 class="title topictitle1">DITA: Keyref links</h1>
 <div class="body conbody">
 <p class="shortdesc">To avoid having to change your links, you can use a technique called key references. </p>
-<p class="p">You create a key (a word) in your map and define what the key links to. In your topic, you<br />
-      link to the key. This way, if you need to change the link, you need only change the key's<br />
+<p class="p">You create a key (a word) in your map and define what the key links to. In your topic, you
+      link to the key. This way, if you need to change the link, you need only change the key's
       reference in your map file. You don't have to change all the keys in your topics. </p>
 <div class="p">First add the key link in your map file like this:</p>
-<pre class="pre codeblock">&lt;topicref href="argument_acme.dita" keys="argument" /&gt;</pre>
+<pre class="pre codeblock"><topicref href="argument_acme.dita" keys="argument" /></pre>
 </div>
 <div class="p">Alternatively, you can refer to it like this in the map:</p>
-<pre class="pre codeblock">&lt;keydef href="argument_acme.dita" keys="argument" /&gt;</pre>
+<pre class="pre codeblock"><keydef href="argument_acme.dita" keys="argument" /></pre>
 </div>
 <div class="p">Then refer to the key in your topic like this:</p>
-<pre class="pre codeblock">&lt;xref keyref="argument"/&gt;</pre>
+<pre class="pre codeblock"><xref keyref="argument"/></pre>
 </div>
-<p class="p">You just use <samp class="ph codeph">keyref</samp> instead of <samp class="ph codeph">href</samp>.</p>
+<p class="p">You just use <code>keyref</code> instead of <code>href</code>.</p>
 <p class="p">You can use a keyref anywhere there's an href:</p>
 <div class="p">
-<pre class="pre codeblock">&lt;link keyref="argument"/&gt;</pre>
+<pre class="pre codeblock"><link keyref="argument"/></pre>
 </p></div>
 <p class="p">or with images:</p>
 <div class="p">
-<pre class="pre codeblock">&lt;image keyref="argument"/&gt;</pre>
+<pre class="pre codeblock"><image keyref="argument"/></pre>
 </p></div>
-<p class="p">If the key isn't defined in the map, it doesn't appear in the output. This makes it better to<br />
-      use for your related links because you won't run into issues of the link being dependent on<br />
+<p class="p">If the key isn't defined in the map, it doesn't appear in the output. This makes it better to
+      use for your related links because you won't run into issues of the link being dependent on
       the file being present.</p>
 </p></div>
 <div class="related-links">

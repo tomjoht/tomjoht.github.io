@@ -25,46 +25,46 @@ weight: 1.2
 <p>Now let me move on to more technical matters with DITA. </p>
 <h2 id="working-with-metadata">Working with metadata</h2>
 <p>I mentioned the role of metadata in mapping DITA files from one system to another. You add metadata in DITA's <code>prolog</code> element, which comes after the <code>shortdesc</code> element but before the <code>conbody</code>. Here's a sample:</p>
-<pre><code> &lt;prolog&gt; 
-    &lt;metadata&gt; 
-      &lt;keywords&gt;&lt;keyword&gt;missions&lt;/keyword&gt;&lt;/keywords&gt; 
-      &lt;keywords&gt;&lt;keyword&gt;rewards&lt;/keyword&gt;&lt;/keywords&gt; 
-      &lt;othermeta name="Admin Console and APIs" content="API code samples"/&gt;
-      &lt;othermeta name="Internal Doc Tags" content="API"/&gt; 
-      &lt;othermeta name="node" content="11421"/&gt; 
-      &lt;othermeta name="book" content="JavaScript SDK"/&gt; 
-        &lt;othermeta name="parent item" content="Mission code samples"/&gt; 
-      &lt;othermeta name="placeholder" content="false"/&gt; 
-      &lt;othermeta name="book link title" content="Query for completed missions by creation date"/&gt; 
-      &lt;othermeta name="published" content="true"/&gt; 
-      &lt;othermeta name="weight" content="5"/&gt; 
-    &lt;/metadata&gt; 
-  &lt;/prolog&gt; </code></pre>
+<pre><code> <prolog&gt;
+    <metadata&gt;
+      <keywords&gt;<keyword&gt;missions</keyword&gt;</keywords&gt;
+      <keywords&gt;<keyword&gt;rewards</keyword&gt;</keywords&gt;
+      <othermeta name="Admin Console and APIs" content="API code samples"/&gt;
+      <othermeta name="Internal Doc Tags" content="API"/&gt;
+      <othermeta name="node" content="11421"/&gt;
+      <othermeta name="book" content="JavaScript SDK"/&gt;
+        <othermeta name="parent item" content="Mission code samples"/&gt;
+      <othermeta name="placeholder" content="false"/&gt;
+      <othermeta name="book link title" content="Query for completed missions by creation date"/&gt;
+      <othermeta name="published" content="true"/&gt;
+      <othermeta name="weight" content="5"/&gt;
+    </metadata&gt;
+  </prolog&gt; </code></pre>
 <p>When you transform the DITA into an XHTML output, this metadata gets stuffed into the <code>head</code> element of the XHTML file, like this: </p>
-<pre><code>&lt;head&gt; 
-&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt; 
-&lt;meta name="copyright" content="(C) Copyright 2005"/&gt; 
-&lt;meta name="DC.rights.owner" content="(C) Copyright 2005"/&gt; 
-&lt;meta name="DC.Type" content="concept"/&gt; 
-&lt;meta name="DC.Title" content="Query for completed missions by creation date (JavaScript SDK)"/&gt; 
-&lt;meta name="abstract" content="You can query for missions by the created_at date field using greater than or less than arguments."/&gt; 
-&lt;meta name="description" content="You can query for missions by the created_at date field using greater than or less than arguments."/&gt;
-&lt;meta name="DC.subject" content="missions, rewards"/&gt; 
-&lt;meta name="keywords" content="missions, rewards"/&gt;
-&lt;meta name="Admin Console and APIs" content="API code samples"/&gt;
-&lt;meta name="Internal Doc Tags" content="API"/&gt; 
-&lt;meta name="node" content="11421"/&gt; 
-&lt;meta name="book" content="JavaScript SDK"/&gt; 
-&lt;meta name="parent item" content="Mission code samples"/&gt; 
-&lt;meta name="placeholder" content="false"/&gt; 
-&lt;meta name="book link title" content="Query for completed missions by creation date"/&gt;
-&lt;meta name="published" content="true"/&gt;
-&lt;meta name="weight" content="5"/&gt; >
-&lt;meta name="DC.Format" content="XHTML"/&gt; 
-&lt;meta name="DC.Identifier" content="query_for_missions_by_creation_date"/&gt; 
-&lt;link rel="stylesheet" type="text/css" href="commonltr.css"/&gt; 
-&lt;title&gt;Query for completed missions by creation date (JavaScript SDK)&lt;/title&gt; 
-&lt;/head&gt; </code></pre>
+<pre><code><head&gt;
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+<meta name="copyright" content="(C) Copyright 2005"/&gt;
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/&gt;
+<meta name="DC.Type" content="concept"/&gt;
+<meta name="DC.Title" content="Query for completed missions by creation date (JavaScript SDK)"/&gt;
+<meta name="abstract" content="You can query for missions by the created_at date field using greater than or less than arguments."/&gt;
+<meta name="description" content="You can query for missions by the created_at date field using greater than or less than arguments."/&gt;
+<meta name="DC.subject" content="missions, rewards"/&gt;
+<meta name="keywords" content="missions, rewards"/&gt;
+<meta name="Admin Console and APIs" content="API code samples"/&gt;
+<meta name="Internal Doc Tags" content="API"/&gt;
+<meta name="node" content="11421"/&gt;
+<meta name="book" content="JavaScript SDK"/&gt;
+<meta name="parent item" content="Mission code samples"/&gt;
+<meta name="placeholder" content="false"/&gt;
+<meta name="book link title" content="Query for completed missions by creation date"/&gt;
+<meta name="published" content="true"/&gt;
+<meta name="weight" content="5"/&gt; >
+<meta name="DC.Format" content="XHTML"/&gt;
+<meta name="DC.Identifier" content="query_for_missions_by_creation_date"/&gt;
+<link rel="stylesheet" type="text/css" href="commonltr.css"/&gt;
+<title&gt;Query for completed missions by creation date (JavaScript SDK)</title&gt;
+</head&gt; </code></pre>
 <p>There are some standard metadata elements that are part of the Dublin Core ("DC"), which I didn't specify explicitly in my DITA file. But all my other metadata elements are there. Programmers could leverage this information to programmatically pull DITA content into different parts of a system. </p>
 <h2 id="text-versus-author-views">Text versus Author views</h2>
 <p>One of the things I like about Oxygen is the ability to easily toggle between Text and Author views. One of my worries with DITA is that I'd be knee-deep in code and unable to really see and edit the content itself. This is a valid concern. The whole point of the Markdown syntax (what I was using before) is to have a syntax that is practically invisible. You instead just focus on the content itself. And focusing on the content, being able to edit and shape and manipulate it as a whole, is why I disliked authoring in Drupal so much.</p>
@@ -103,7 +103,7 @@ weight: 1.2
 <li>Steps to test the widget.</li>
 </ol>
 <p>The task element doesn't allow two sets of steps in the same topic, so I'd have to split the testing part into another topic and then merge them through a ditamap using the <code>chunk="to-content"</code> attribute. This seems overkill when the testing section is pretty small (maybe 4 steps and some code samples), and I don't want to have a million little ditamaps all over the place.</p>
-<p>In this case, I put the steps to test the widget configuration in the <code>postreq</code> element (which follows the <code>steps</code> elements), formatting the steps with HTML list tags (&lt;ol&gt; and &lt;li&gt;). </p>
+<p>In this case, I put the steps to test the widget configuration in the <code>postreq</code> element (which follows the <code>steps</code> elements), formatting the steps with HTML list tags (<ol&gt; and <li&gt;). </p>
 <p>Another problem:</p>
 <p>The General Task -- I'm not entirely sure whether to use this topic type or not. The general task element allows you to precede a list of steps with sections (which isn't allowed in the strict task type). If you have a topic that merits more explanation than a brief paragraph, and you want to natively combine the concept with the task, this seems to be the element to handle that. You can structure the topic like this:</p>
 <pre><code>
@@ -141,7 +141,7 @@ steps section
 <p>In the second example, I have a heading for my list of steps. Without the heading, the steps look like substeps for Section C rather than being their own section. </p>
 <p>I could add this before the heading: </p>
 <pre><code>
-&lt;section&gt;&lt;title&gt;HOW TO SECTION D&lt;/title&gt;&lt;/section&gt;
+<section&gt;<title&gt;HOW TO SECTION D</title&gt;</section&gt;
 steps section
 1.
 2.
@@ -151,38 +151,38 @@ steps section
 <p>I'm sure I'll figure out workarounds to these issues, but I describe them here to give a sense of the restrictions or annoyances you can run into when working within a structured authoring model.</p>
 <h2 id="relationship-tables">Relationship tables</h2>
 <p>One appeal of DITA is the ability to reduce links between topics to something easier to manage. Already I've begun eliminating a lot of inline links in my content, attributing the inline links to more of an organizational problem than anything else. DITA's Relationship tables offer the ability to more intelligently interrelate and link content. Here's a sample relationship table:</p>
-<pre><code>&lt;relrow&gt;
-  &lt;relcell&gt;
-    &lt;topicref href="creating_rewards/creating_rewards_overview.dita"/&gt;
-  &lt;/relcell&gt;
+<pre><code><relrow&gt;
+  <relcell&gt;
+    <topicref href="creating_rewards/creating_rewards_overview.dita"/&gt;
+  </relcell&gt;
 
-  &lt;relcell&gt;
-    &lt;topicref href="creating_rewards/configure_basic_reward_info.dita"/&gt;
-    &lt;topicref href="creating_rewards/configure_player_criteria.dita"/&gt;
-  &lt;/relcell&gt;
-&lt;/relrow&gt;
+  <relcell&gt;
+    <topicref href="creating_rewards/configure_basic_reward_info.dita"/&gt;
+    <topicref href="creating_rewards/configure_player_criteria.dita"/&gt;
+  </relcell&gt;
+</relrow&gt;
 </code></pre>
 <p>You can also use keyrefs in the relationship tables:</p>
-<pre><code>  &lt;relrow&gt;
-    &lt;relcell&gt;
-      &lt;topicref keyref="creating_rewards_overview"/&gt;
-    &lt;/relcell&gt;
+<pre><code>  <relrow&gt;
+    <relcell&gt;
+      <topicref keyref="creating_rewards_overview"/&gt;
+    </relcell&gt;
 
-    &lt;relcell&gt;
-      &lt;topicref keyref="configure_basic_reward_info"/&gt;
-      &lt;topicref keyref="configure_player_criteria"/&gt;
-    &lt;/relcell&gt;
-  &lt;/relrow&gt;
-&lt;/reltable&gt;</code></pre>
+    <relcell&gt;
+      <topicref keyref="configure_basic_reward_info"/&gt;
+      <topicref keyref="configure_player_criteria"/&gt;
+    </relcell&gt;
+  </relrow&gt;
+</reltable&gt;</code></pre>
 <p>In general, relationship tables read the links in each row and provide a Related Links section at the bottom of each topic within that row. Topics within each row get links to each other.</p>
 <p>You can control how the links relate to each other with more granular attributes, specifying targets and sources and such, but the gist of relationship tables is that you manage your links in one place -- a ditamap file. Readers learn to look at the bottom of the topics for links. If one of your outputs doesn't have a topic, the link is intelligently omitted from the output.</p>
 <p>Unfortunately, because I don't have a mechanism to push DITA content into Drupal, relationship tables won't work for me (all the links relationship tables produce are relative). I'm using an interim solution of manually updated <code>keyrefs</code> that point to pre-created Drupal nodes. Since the <code>keyrefs</code> point to the Drupal nodes and not to DITA files, the relationship table logic can't process the relationships. </p>
 <p>As a result, I'm using the more manual <code>related-links</code> element, which looks like this:</p>
-<pre><code>&lt;related-links&gt;
-  &lt;link keyref="contests_overview"/&gt;
-  &lt;link keyref="creating_contests"/&gt;
-  &lt;link keyref="contests_overview"/&gt;
-&lt;/related-links&gt;
+<pre><code><related-links&gt;
+  <link keyref="contests_overview"/&gt;
+  <link keyref="creating_contests"/&gt;
+  <link keyref="contests_overview"/&gt;
+</related-links&gt;
 </code></pre>
 <p>Both on my blog and others, there's been a lot of discussion about the best way to link content, and I'm not going to get into it here. See Mark Baker's recent post about <a href="http://everypageispageone.com/2014/04/14/passive-vs-imperative-linking/">passive linking</a> for an example, or <a href="http://idratherbewriting.com/2014/04/08/linking-strategies-with-dita/#comments">this thread</a> on my previous post about linking strategies with DITA. </p>
 <h2 id="converting-content">Converting content</h2>

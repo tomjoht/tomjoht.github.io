@@ -19,19 +19,19 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: File and folder organization</h1>
 <div class="body">
-<div class="p">When you're organizing your DITA files, it may be unclear about the right structure to use.<br />
-   Although you can use a variety of methods to organize your files, note the following<br />
+<div class="p">When you're organizing your DITA files, it may be unclear about the right structure to use.
+   Although you can use a variety of methods to organize your files, note the following
     limitations:
 <ul class="ul" id="topic_kxb_3mz_bq__ul_v1y_pmz_bq">
-<li class="li">The DITA Map file might have trouble loading topics in higher level folders. DITA Map files<br />
-     are like kings. They want all the other files to sit below them either in the same folder or in<br />
-     subfolders. Oxygen has a special parameter override you can set if you're referencing topics in<br />
+<li class="li">The DITA Map file might have trouble loading topics in higher level folders. DITA Map files
+     are like kings. They want all the other files to sit below them either in the same folder or in
+     subfolders. Oxygen has a special parameter override you can set if you're referencing topics in
      higher folders than the map.</li>
-<li class="li">References to a file will be more likely to break if you use subfolders. For example,<br />
-     suppose you put all your configuration topics into a folder called "configuration". References<br />
-     to a topic there will look like this: <span class="ph filepath">configuration/sample_config.dita</span>.<br />
-     Suppose you decide to move sample_config.dita into another folder. All your links will break.<br />
-     (To change folder paths, I believe you use the refactoring options, but honestly I haven't<br />
+<li class="li">References to a file will be more likely to break if you use subfolders. For example,
+     suppose you put all your configuration topics into a folder called "configuration". References
+     to a topic there will look like this: <span class="ph filepath">configuration/sample_config.dita</span>.
+     Suppose you decide to move sample_config.dita into another folder. All your links will break.
+     (To change folder paths, I believe you use the refactoring options, but honestly I haven't
      quite figured them out.)</li>
 <li class="li">I do put images and glossary items in their own subfolders.</li>
 <li class="li">I always name my ditamap docmap.ditamap. </li>

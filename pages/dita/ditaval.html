@@ -20,28 +20,28 @@ excerpt: !ruby/object:Hpricot::Doc
 <h1 class="title topictitle1">DITA: Ditaval files (filtering attributes from your transforms)</h1>
 <div class="body conbody">
 <p class="shortdesc">Ditaval files define conditional processing rules for your transforms. </p>
-<p class="p">When you want to apply conditional processing in your output, you can put these rules into a<br />
+<p class="p">When you want to apply conditional processing in your output, you can put these rules into a
    ditaval file. </p>
-<p class="p">Oxygen has the same ditaval functionality built into its interface, so you don't need to create<br />
-   a custom ditaval file in order to have the rules reflected in your output. You may be pushing<br />
-   your content out to another system, however (such as Fluid Topics or Suiteshare), and in that<br />
-   case, you'll need to create ditaval files. Having the ditaval files available in your dita files<br />
+<p class="p">Oxygen has the same ditaval functionality built into its interface, so you don't need to create
+   a custom ditaval file in order to have the rules reflected in your output. You may be pushing
+   your content out to another system, however (such as Fluid Topics or Suiteshare), and in that
+   case, you'll need to create ditaval files. Having the ditaval files available in your dita files
    will instruct the system on how to publish your content.</p>
-<div class="p">The ditaval file consists of the<br />
+<div class="p">The ditaval file consists of the
    following:
-<pre class="pre codeblock">&lt;val&gt;
-    &lt;prop action="exclude" att="platform" val="mac" /&gt;
-    &lt;prop action="exclude" att="platform" val="linux" /&gt;
-    &lt;prop action="exclude" att="product" val="acme"/&gt;
-&lt;/val&gt;</pre>
+<pre class="pre codeblock"><val>
+    <prop action="exclude" att="platform" val="mac" />
+    <prop action="exclude" att="platform" val="linux" />
+    <prop action="exclude" att="product" val="acme"/>
+</val></pre>
 </div>
-<p class="p">You specify the action (almost always exclude), the attribute (<samp class="ph codeph">att</samp>), and the<br />
-   value (<samp class="ph codeph">val</samp>). In this ditaval file, any properties that have<br />
-    <samp class="ph codeph">platform="mac"</samp> or <samp class="ph codeph">platform="linux"</samp> or<br />
-    <samp class="ph codeph">product="acme"</samp> will be excluded from the output. Any elements with those<br />
+<p class="p">You specify the action (almost always exclude), the attribute (<code>att</code>), and the
+   value (<code>val</code>). In this ditaval file, any properties that have
+    <code>platform="mac"</code> or <code>platform="linux"</code> or
+    <code>product="acme"</code> will be excluded from the output. Any elements with those
    attribute values will be excluded.</p>
-<p class="p">(You can change the default action to include and run more sophisticated logic in your ditaval<br />
-   file if you so choose. But by default everything is included. The basic idea is to specify what<br />
+<p class="p">(You can change the default action to include and run more sophisticated logic in your ditaval
+   file if you so choose. But by default everything is included. The basic idea is to specify what
    you want excluded.)</p>
 </p></div>
 <div class="related-links">

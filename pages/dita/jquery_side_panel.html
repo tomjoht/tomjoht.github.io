@@ -31,16 +31,16 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="section context">
 <p class="p">For a demo of this functionality, see <a class="xref external" href="http://idratherbetellingstories.com/wp-content/uploads/oxygendemos/sidr/" target="_blank">the Sidr pane demo here</a>.</p>
 <p class="p">Although there are a variety of jQuery sidebar plugins, the <a class="xref" href="http://www.berriart.com/sidr/" target="_blank">Sidr</a> works pretty well. It allows you to easily call different menus, and arrange the panel to appear on the left or right. The original purpose of Sidr was to act as a menu for mobile devices that don't have much screen real estate, but it works well in other situations too.</p>
-<p class="p">The particular scenario where I think this functionality is critical is with code<br />
-         samples. With code samples, you're limited to about 2 lines of comments per 5-10<br />
-         lines of code. But a lot of the stuff that's going on in code is really complicated<br />
-         and warrants more extensive elaboration. This is where the side panel comes in<br />
-         really handy. You can elaborate as much as you want in the expanding side<br />
+<p class="p">The particular scenario where I think this functionality is critical is with code
+         samples. With code samples, you're limited to about 2 lines of comments per 5-10
+         lines of code. But a lot of the stuff that's going on in code is really complicated
+         and warrants more extensive elaboration. This is where the side panel comes in
+         really handy. You can elaborate as much as you want in the expanding side
          panels.
       </p>
-<p class="p">Integrating this plugin permanently alters the OxygenXML webhelp (though not visible,<br />
-         just in the scripts that are loaded and source code IDs) so make a backup of your<br />
-         files before committing changes. Also, the method described below is just one way of<br />
+<p class="p">Integrating this plugin permanently alters the OxygenXML webhelp (though not visible,
+         just in the scripts that are loaded and source code IDs) so make a backup of your
+         files before committing changes. Also, the method described below is just one way of
          integrating the plugin, not the only way.
       </p>
 <p class="p toc">
@@ -61,17 +61,17 @@ excerpt: !ruby/object:Hpricot::Doc
          </li>
 <li class="li step stepexpand">
             <span class="ph cmd">From the downloaded zip file, open the jquery.sidr.min.js file and copy its contents. </span></p>
-<div class="itemgroup info">The CSS file is minified. If you paste it into Oxygen and then click the<br />
+<div class="itemgroup info">The CSS file is minified. If you paste it into Oxygen and then click the
                format/indent button, it will de-minify the file.
             </div>
 </li>
-<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the JavaScript file located here: <span class="ph filepath">[Oxygen Install<br />
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the JavaScript file located here: <span class="ph filepath">[Oxygen Install
             Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js/webhelp_topic.js</span>.</span>
          </li>
 <li class="li step stepexpand">
-            <span class="ph cmd">Insert the copied script at the bottom right before the closing <samp class="ph codeph">});</samp>.</span></p>
+            <span class="ph cmd">Insert the copied script at the bottom right before the closing <code>});</code>.</span></p>
 <div class="itemgroup info">
-<div class="note tip"><span class="tiptitle">Tip:</span> Create a shortcut to this folder location -- you'll be updating this file a lot<br />
+<div class="note tip"><span class="tiptitle">Tip:</span> Create a shortcut to this folder location -- you'll be updating this file a lot
                   since each of the menus require individual names and triggers. On a Mac, you can create a shortcut in the Finder by dragging a folder into the Finder's sidebar.
                </div>
 </p></div>
@@ -79,23 +79,23 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li step stepexpand">
             <span class="ph cmd">Open one of the CSS files, such as jquery.sidr.light.css and copy its contents. </span>
          </li>
-<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the CSS file located here: <span class="ph filepath">[Oxygen Install<br />
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the CSS file located here: <span class="ph filepath">[Oxygen Install
             Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/css/webhelp_topic.css</span>.</span>
          </li>
 <li class="li step stepexpand">
             <span class="ph cmd">Insert the styles near the bottom of the stylesheet. </span></p>
 <div class="itemgroup info">
-<div class="note tip"><span class="tiptitle">Tip:</span> Create a shortcut to this folder location just like with the .js file. You'll<br />
+<div class="note tip"><span class="tiptitle">Tip:</span> Create a shortcut to this folder location just like with the .js file. You'll
                   probably edit your CSS styles a lot.
                </div>
 </p></div>
 </li>
 <li class="li step stepexpand">
-            <span class="ph cmd">If desired, you can add some more styles to customize the side pane display.<br />
-            Much of the default styling is for a navigation menu. This means if you add<br />
-            <samp class="ph codeph">ul</samp> and <samp class="ph codeph">li</samp> tags, your content will look<br />
-            like a navigation menu rather than a list, so you may want remove some of<br />
-            the unncessary styles. Additionally, you may want to add a few styles of<br />
+            <span class="ph cmd">If desired, you can add some more styles to customize the side pane display.
+            Much of the default styling is for a navigation menu. This means if you add
+            <code>ul</code> and <code>li</code> tags, your content will look
+            like a navigation menu rather than a list, so you may want remove some of
+            the unncessary styles. Additionally, you may want to add a few styles of
             your own. Here are some styles I've added:</span></p>
 <div class="itemgroup stepxmp">
 <pre class="pre codeblock language-css">
@@ -106,7 +106,7 @@ excerpt: !ruby/object:Hpricot::Doc
 .closeMe {
     <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
 }
-.sidr &gt; .closeMe{
+.sidr > .closeMe{
     <strong class="hl-keyword" style="color:#7f0055">display</strong>:block;
     <strong class="hl-keyword" style="color:#7f0055">padding</strong>:<span class="hl-number">5</span>px;
     <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:whitesmoke;
@@ -120,7 +120,7 @@ excerpt: !ruby/object:Hpricot::Doc
     <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
 }
 
-.sidr &gt; .closeMe:hover{
+.sidr > .closeMe:hover{
     <strong class="hl-keyword" style="color:#7f0055">display</strong>:block;
     <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:#F5F5F5;
 }
@@ -160,15 +160,15 @@ pre{
     <strong class="hl-keyword" style="color:#7f0055">margin</strong>:<span class="hl-number">0.5</span>em;
 }
                     </pre>
-<p class="p">The <samp class="ph codeph">closeMe</samp> style is for a close button that will appear at<br />
-                  the bottom of the pane. The <samp class="ph codeph">p.sphead</samp> style is for a<br />
-                  section subheading style. Note that even though you will later be giving<br />
-                  custom names to your side panels, the script will always inject<br />
-                  <samp class="ph codeph">sidr</samp> as a class into the panel. The other styling<br />
-                  is for links inside <samp class="ph codeph">codeblock</samp> elements. Also, since I<br />
-                  intend to document long code blocks with this method, I wanted to<br />
-                  lengthen the code block area beyond the default 600px (otherwise for<br />
-                  code longer than 600px you have to use scroll bars to see the full<br />
+<p class="p">The <code>closeMe</code> style is for a close button that will appear at
+                  the bottom of the pane. The <code>p.sphead</code> style is for a
+                  section subheading style. Note that even though you will later be giving
+                  custom names to your side panels, the script will always inject
+                  <code>sidr</code> as a class into the panel. The other styling
+                  is for links inside <code>codeblock</code> elements. Also, since I
+                  intend to document long code blocks with this method, I wanted to
+                  lengthen the code block area beyond the default 600px (otherwise for
+                  code longer than 600px you have to use scroll bars to see the full
                   content).
                </p>
 </p></div>
@@ -178,51 +178,51 @@ pre{
 <div class="topic task nested1" id="allow_id">
 <h2 class="title topictitle2">Allow IDs to pass through</h2>
 <div class="body taskbody">
-<div class="section context">By default, attributes you add to content, such as <samp class="ph codeph">id="sidepanel_1"</samp> won't<br />
-         appear in DITA's webhelp output (they're stripped out entirely). We need to hack<br />
+<div class="section context">By default, attributes you add to content, such as <code>id="sidepanel_1"</code> won't
+         appear in DITA's webhelp output (they're stripped out entirely). We need to hack
          Oxygen's webhelp files to allow these tags to pass through.
       </div>
 <ol class="ol steps">
-<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the file located here: <span class="ph filepath">[Oxygen Install<br />
+<li class="li step stepexpand"><span class="ph cmd">In a text editor, open the file located here: <span class="ph filepath">[Oxygen Install
             Directory]/frameworks/dita/DITA-OT/plugins/org.dita.xhtml/xsl/xslhtml/dita2htmllmpl.xsl</span>.</span>
          </li>
 <li class="li step stepexpand">
-            <span class="ph cmd">Find the line that begins <samp class="ph codeph">&lt;xsl:template name="commonattributes"&gt;</samp> and<br />
+            <span class="ph cmd">Find the line that begins <code><xsl:template name="commonattributes"></code> and
             replace that section with the following:</span></p>
 <div class="itemgroup stepxmp">
 <pre class="pre codeblock">
-  &lt;xsl:template name="commonattributes"&gt;
-    &lt;xsl:param name="default-output-class"/&gt;
-    &lt;xsl:apply-templates select="@xml:lang"/&gt;
-    &lt;xsl:apply-templates select="@dir"/&gt;
-    &lt;xsl:apply-templates select="*[contains(@class, ' 
-      ditaot-d/ditaval-startprop ')]/@outputclass" mode="add-ditaval-style"/&gt;
-    &lt;xsl:apply-templates select="." mode="set-output-class"&gt;
-      &lt;xsl:with-param name="default" select="$default-output-class"/&gt;
-    &lt;/xsl:apply-templates&gt;
-    &lt;xsl:if test="@audience"&gt;
-      &lt;xsl:attribute name="data-audience"&gt;&lt;xsl:value-of 
-        select="@audience"/&gt;&lt;/xsl:attribute&gt;
-    &lt;/xsl:if&gt;
-    &lt;xsl:if test="@platform"&gt;
-      &lt;xsl:attribute name="data-platform"&gt;&lt;xsl:value-of 
-        select="@platform"/&gt;&lt;/xsl:attribute&gt;
-    &lt;/xsl:if&gt;
-    &lt;xsl:if test="@id"&gt;
-      &lt;xsl:attribute name="id"&gt;&lt;xsl:value-of 
-        select="@id"/&gt;&lt;/xsl:attribute&gt;
-    &lt;/xsl:if&gt;
-  &lt;/xsl:template&gt;
+  <xsl:template name="commonattributes">
+    <xsl:param name="default-output-class"/>
+    <xsl:apply-templates select="@xml:lang"/>
+    <xsl:apply-templates select="@dir"/>
+    <xsl:apply-templates select="*[contains(@class, '
+      ditaot-d/ditaval-startprop ')]/@outputclass" mode="add-ditaval-style"/>
+    <xsl:apply-templates select="." mode="set-output-class">
+      <xsl:with-param name="default" select="$default-output-class"/>
+    </xsl:apply-templates>
+    <xsl:if test="@audience">
+      <xsl:attribute name="data-audience"><xsl:value-of
+        select="@audience"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@platform">
+      <xsl:attribute name="data-platform"><xsl:value-of
+        select="@platform"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="@id">
+      <xsl:attribute name="id"><xsl:value-of
+        select="@id"/></xsl:attribute>
+    </xsl:if>
+  </xsl:template>
      </pre>
-<p class="p">This will allow the <samp class="ph codeph">platform</samp>, <samp class="ph codeph">audience</samp>, and<br />
-                  <samp class="ph codeph">id</samp> attributes to pass through as attributes in the<br />
-                  output (so you can leverage them). Without these attributes in the<br />
-                  output, you won't be able to select the content. You can add other<br />
-                  attributes that you want to pass through here as well (such as<br />
-                  <samp class="ph codeph">product</samp>) depending on what you plan to use.
+<p class="p">This will allow the <code>platform</code>, <code>audience</code>, and
+                  <code>id</code> attributes to pass through as attributes in the
+                  output (so you can leverage them). Without these attributes in the
+                  output, you won't be able to select the content. You can add other
+                  attributes that you want to pass through here as well (such as
+                  <code>product</code>) depending on what you plan to use.
                </p>
-<p class="p">Note that in the future, this hack may be unnecessary. The ditaval file<br />
-                  allows you to add a <samp class="ph codeph">passthrough</samp> attribute to elements,<br />
+<p class="p">Note that in the future, this hack may be unnecessary. The ditaval file
+                  allows you to add a <code>passthrough</code> attribute to elements,
                   but this attribute does not work in Oxygen's webhelp output.
                </p>
 </p></div>
@@ -232,7 +232,7 @@ pre{
 <div class="topic task nested1" id="js_file">
 <h2 class="title topictitle2">Add functions to trigger Sidr</h2>
 <div class="body taskbody">
-<div class="section context">Now you need to add some functions to your webhelp_topic.js file to trigger the<br />
+<div class="section context">Now you need to add some functions to your webhelp_topic.js file to trigger the
          Sidr plugin to open the side panel.
       </div>
 <ol class="ol steps">
@@ -250,23 +250,23 @@ $(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_2'</span>).sidr
     side:<span class="hl-string" style="color:#2a00ff">'left'</span>
     });
                 </pre>
-<p class="p">The <samp class="ph codeph"> $('.demo_sidepanel_1').sidr()</samp> means that we are binding the<br />
-                  <samp class="ph codeph">sidr</samp> function to an element that has a class of<br />
-                  <samp class="ph codeph">demo_sidepanel_1</samp>. You can pass the<br />
-                  <samp class="ph codeph">sidr</samp> function a variety of parameters, but for the<br />
-                  most part you need only to specify the side panel <samp class="ph codeph">name</samp><br />
-                  that you want to open. (By default, the panel already opens on the left.<br />
-                  I made this parameter explicit as an example of how to pass multiple<br />
+<p class="p">The <code> $('.demo_sidepanel_1').sidr()</code> means that we are binding the
+                  <code>sidr</code> function to an element that has a class of
+                  <code>demo_sidepanel_1</code>. You can pass the
+                  <code>sidr</code> function a variety of parameters, but for the
+                  most part you need only to specify the side panel <code>name</code>
+                  that you want to open. (By default, the panel already opens on the left.
+                  I made this parameter explicit as an example of how to pass multiple
                   parameters into the function.)
                </p>
-<p class="p">The panel name is the element ID of the section you want to display in the side<br />
-                  panel. I'll explain this a bit more later, but note that "fullcode" is<br />
-                  the topic ID of the page where the side panel appears. Although later in<br />
-                  the code you will see that the section ID in the topic is merely<br />
-                  "demo_sidepanel_1", upon rendering the webhelp, DITA adds the topic ID<br />
-                  (in my sample, the topic ID is <samp class="ph codeph">fullcode</samp>) before the<br />
-                  section name. DITA does this for the <samp class="ph codeph">section</samp> element<br />
-                  but not others (not sure why -- <samp class="ph codeph">section</samp> is just<br />
+<p class="p">The panel name is the element ID of the section you want to display in the side
+                  panel. I'll explain this a bit more later, but note that "fullcode" is
+                  the topic ID of the page where the side panel appears. Although later in
+                  the code you will see that the section ID in the topic is merely
+                  "demo_sidepanel_1", upon rendering the webhelp, DITA adds the topic ID
+                  (in my sample, the topic ID is <code>fullcode</code>) before the
+                  section name. DITA does this for the <code>section</code> element
+                  but not others (not sure why -- <code>section</code> is just
                   special).
                </p>
 </p></div>
@@ -285,22 +285,22 @@ event.preventDefault();
   $.sidr('close', 'fullcode__demo_sidepanel_2');
 });
             </pre>
-<p class="p">In this code, a click event is bound to an element with the<br />
-                  <samp class="ph codeph">close_demo_sidebar_1</samp> class. The<br />
-                  <samp class="ph codeph">event.preventDefault()</samp> keeps the code from trying<br />
-                  to open a new window and instead allows the <samp class="ph codeph">sidr</samp><br />
-                  function to fire. Two arguments are passed to the <samp class="ph codeph">sidr</samp><br />
-                  function: the method we want the function to run:<br />
-                  <samp class="ph codeph">close</samp>, and the name of the side panel we want to close:<br />
-                  <samp class="ph codeph">demo_sidepanel_1</samp>.
+<p class="p">In this code, a click event is bound to an element with the
+                  <code>close_demo_sidebar_1</code> class. The
+                  <code>event.preventDefault()</code> keeps the code from trying
+                  to open a new window and instead allows the <code>sidr</code>
+                  function to fire. Two arguments are passed to the <code>sidr</code>
+                  function: the method we want the function to run:
+                  <code>close</code>, and the name of the side panel we want to close:
+                  <code>demo_sidepanel_1</code>.
                </p>
-<p class="p">By the way, the panel names (<samp class="ph codeph">fullcode__demo_sidepanel_1</samp>) and<br />
-                  classes (<samp class="ph codeph">.demo_sidepanel_1</samp>) are completely customizable<br />
+<p class="p">By the way, the panel names (<code>fullcode__demo_sidepanel_1</code>) and
+                  classes (<code>.demo_sidepanel_1</code>) are completely customizable
                   -- they're just what I've chosen to integrate for this demo.
                </p>
-<p class="p">Note that the selector is a class rather than an ID. This is because when<br />
-                  you transclude topics in DITA, the ID on the transcluded source gets<br />
-                  changed when it is pulled into the transcluded target. Fortunately the<br />
+<p class="p">Note that the selector is a class rather than an ID. This is because when
+                  you transclude topics in DITA, the ID on the transcluded source gets
+                  changed when it is pulled into the transcluded target. Fortunately the
                   DITA OT leaves the classes alone.
                </p>
 </p></div>
@@ -316,8 +316,8 @@ event.preventDefault();
             <span class="ph cmd">Create a DITA concept topic and insert some triggers inside a code block like this:</span></p>
 <div class="itemgroup stepxmp">
 <pre class="pre codeblock">
- &lt;section&gt;
-    &lt;codeblock&gt;
+ <section>
+    <codeblock>
      this is some code
      this is some code
      this is some code
@@ -326,7 +326,7 @@ event.preventDefault();
      this is some code
      this is some code
      
-     // this is a comment with a brief explanation. &lt;xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_1"&gt; &amp;#187; more&lt;/xref&gt;
+     // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_1"> &amp;#187; more</xref>
      
      this is some code
      this is some code
@@ -335,29 +335,29 @@ event.preventDefault();
      this is some code
      this is some code
      this is some code
-         // this is a comment with a brief explanation. &lt;xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_2"&gt;&amp;#187; more&lt;/xref&gt;          
+         // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_2">&amp;#187; more</xref>
                 </pre>
-<p>               It's<br />
-               important to note a few things here. For links in the codeblock, you can't<br />
-               use <samp class="ph codeph">#</samp> for the <samp class="ph codeph">href</samp> target, so use<br />
-               <samp class="ph codeph">javascript();</samp>. (If your page ever fails to open the<br />
-               side pane but rather tries to open a new tab at<br />
-               <samp class="ph codeph">javascript();</samp>, then you know something isn't working<br />
+<p>               It's
+               important to note a few things here. For links in the codeblock, you can't
+               use <code>#</code> for the <code>href</code> target, so use
+               <code>javascript();</code>. (If your page ever fails to open the
+               side pane but rather tries to open a new tab at
+               <code>javascript();</code>, then you know something isn't working
                right in the way the script is triggered.) </p>
-<p class="p">With each link, you must add<br />
-                  the <samp class="ph codeph">outputclass</samp> that correlates with the side panel<br />
-                  name you want to open. In this example, the link with the class of<br />
-                  <samp class="ph codeph">demo_sidepanel_1</samp> will open the element with the ID<br />
-                  name of <samp class="ph codeph">fullcode__sidepanel_1</samp>. The class and ID don't<br />
-                  need to be the same -- you could have link with a class of<br />
-                  <samp class="ph codeph">tom</samp> that opens a panel named<br />
-                  <samp class="ph codeph">awesome</samp>, but just be sure you have these names set<br />
-                  up in your webhelp_topic.js file. It depends on how you set up the<br />
-                  triggers and menus in the jQuery scripts that you configured<br />
+<p class="p">With each link, you must add
+                  the <code>outputclass</code> that correlates with the side panel
+                  name you want to open. In this example, the link with the class of
+                  <code>demo_sidepanel_1</code> will open the element with the ID
+                  name of <code>fullcode__sidepanel_1</code>. The class and ID don't
+                  need to be the same -- you could have link with a class of
+                  <code>tom</code> that opens a panel named
+                  <code>awesome</code>, but just be sure you have these names set
+                  up in your webhelp_topic.js file. It depends on how you set up the
+                  triggers and menus in the jQuery scripts that you configured
                   previously.
                </p>
-<p class="p">(In fact, now might be a good time to review the scripts you added in<br />
-                  previous steps to the webhelp_topic.js file to get a better<br />
+<p class="p">(In fact, now might be a good time to review the scripts you added in
+                  previous steps to the webhelp_topic.js file to get a better
                   understanding of how this all fits together.)
                </p>
 </p></div>
@@ -365,32 +365,32 @@ event.preventDefault();
 <li class="li step stepexpand">
             <span class="ph cmd">Add the following for your side panel content:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">  &lt;section id="demo_sidepanel_1"&gt;&lt;title&gt;Side panel 1&lt;/title&gt;
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.&lt;/p&gt;
-      &lt;p&gt;Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.&lt;/p&gt;
-      &lt;p outputclass="sphead"&gt;Subhead&lt;/p&gt;
-      &lt;p&gt;Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. &lt;/p&gt;
-      &lt;p&gt;Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.&lt;/p&gt;
-      &lt;xref href="javascript();" scope="external" format="html" outputclass="closeMe" id="close_demo_sidepanel_1"&gt;Close&lt;/xref&gt;
+<pre class="pre codeblock">  <section id="demo_sidepanel_1"><title>Side panel 1</title>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.</p>
+      <p>Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.</p>
+      <p outputclass="sphead">Subhead</p>
+      <p>Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. </p>
+      <p>Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.</p>
+      <xref href="javascript();" scope="external" format="html" outputclass="closeMe" id="close_demo_sidepanel_1">Close</xref>
       
-     &lt;/section&gt;                        </pre>
-<p class="p">Here we add an ID attribute to the <samp class="ph codeph">section</samp> element. Note<br />
-                  that the menu name in the jQuery scripts is<br />
-                  <samp class="ph codeph">fullcode_demo_sidepanel_1</samp>, but the ID here is just<br />
-                  written as <samp class="ph codeph">demo_sidepanel_1</samp>. This is because the DITA<br />
-                  OT will automatically prepend the topic ID and two underscores before<br />
-                  the section ID. My topic ID happens to be <samp class="ph codeph">fullcode</samp>, so<br />
-                  that's why the jQuery scripts will look for<br />
-                  <samp class="ph codeph">fullcode__demo_sidepanel_1</samp> as the name of the<br />
-                  sidepanel instead of just <samp class="ph codeph">demo_sidepanel_1</samp>. Again, I<br />
+     </section>                        </pre>
+<p class="p">Here we add an ID attribute to the <code>section</code> element. Note
+                  that the menu name in the jQuery scripts is
+                  <code>fullcode_demo_sidepanel_1</code>, but the ID here is just
+                  written as <code>demo_sidepanel_1</code>. This is because the DITA
+                  OT will automatically prepend the topic ID and two underscores before
+                  the section ID. My topic ID happens to be <code>fullcode</code>, so
+                  that's why the jQuery scripts will look for
+                  <code>fullcode__demo_sidepanel_1</code> as the name of the
+                  sidepanel instead of just <code>demo_sidepanel_1</code>. Again, I
                   have no idea why the DITA OT does this.
                </p>
-<p class="p">Render your content into webhelp and experiment with the trigger. If the<br />
-                  link opens up a new page, it's because something isn't configured right.<br />
-                  Usually it means the class on the more link doesn't align with the<br />
-                  selector in the jQuery script. If the side panel opens but is blank,<br />
-                  it's because the the menu name in the jQuery scripts doesn't match the<br />
-                  menu name on the page. Look in your source code to see if the DITA OT is<br />
+<p class="p">Render your content into webhelp and experiment with the trigger. If the
+                  link opens up a new page, it's because something isn't configured right.
+                  Usually it means the class on the more link doesn't align with the
+                  selector in the jQuery script. If the side panel opens but is blank,
+                  it's because the the menu name in the jQuery scripts doesn't match the
+                  menu name on the page. Look in your source code to see if the DITA OT is
                   doing some funky shake and bake with the menu name.
                </p>
 </p></div>
@@ -400,10 +400,10 @@ event.preventDefault();
 <div class="topic task nested1" id="transcluding">
 <h2 class="title topictitle2">Transcluding content from another page</h2>
 <div class="body taskbody">
-<div class="section context">If you want to transclude content from another page into your menus, so don't want<br />
-         to repeat the same content in multiple places, you can do so. When you transclude<br />
-         content from another source, you add the ID in the transclusion <em class="ph i">target</em>, not<br />
-         the transclusion <em class="ph i">source</em> (this caused me quite a bit of consternation at<br />
+<div class="section context">If you want to transclude content from another page into your menus, so don't want
+         to repeat the same content in multiple places, you can do so. When you transclude
+         content from another source, you add the ID in the transclusion <em class="ph i">target</em>, not
+         the transclusion <em class="ph i">source</em> (this caused me quite a bit of consternation at
          first...).
       </div>
 <ol class="ol steps">
@@ -411,27 +411,27 @@ event.preventDefault();
             <span class="ph cmd">Create a separate topic and add the following:</span></p>
 <div class="itemgroup stepxmp">
 <pre class="pre codeblock">
-&lt;section id="demo_sidepanel_2"&gt;&lt;title&gt;Side panel 2&lt;/title&gt;
-   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.&lt;/p&gt;
-   &lt;p&gt;Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.&lt;/p&gt;
-   &lt;p outputclass="sphead"&gt;Subhead&lt;/p&gt;
-   &lt;p&gt;Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. &lt;/p&gt;
-   &lt;p&gt;Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.&lt;/p&gt;
-   &lt;xref href="javascript();" scope="external" format="html" outputclass="closeMe close_demo_sidepanel_2"&gt;Close&lt;/xref&gt;
+<section id="demo_sidepanel_2"><title>Side panel 2</title>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.</p>
+   <p>Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.</p>
+   <p outputclass="sphead">Subhead</p>
+   <p>Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. </p>
+   <p>Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.</p>
+   <xref href="javascript();" scope="external" format="html" outputclass="closeMe close_demo_sidepanel_2">Close</xref>
    
-  &lt;/section&gt;
+  </section>
                     </pre>
-<p class="p">Let's say the topic ID of this page is <samp class="ph codeph">trans123</samp>.</p>
+<p class="p">Let's say the topic ID of this page is <code>trans123</code>.</p>
 </p></div>
 </li>
 <li class="li step stepexpand">
-            <span class="ph cmd">Now go to the page where you want to transclude the content (presumably, the page with the long<br />
-            code block that we've been working with already). Add a<br />
-            <samp class="ph codeph">conref</samp> element where you want to insert the<br />
+            <span class="ph cmd">Now go to the page where you want to transclude the content (presumably, the page with the long
+            code block that we've been working with already). Add a
+            <code>conref</code> element where you want to insert the
             content:</span></p>
 <div class="itemgroup stepxmp">
 <pre class="pre codeblock">
- &lt;section conref="transclusion_test.dita#trans123/demo_sidepanel_2" id="demo_sidepanel_2"/&gt;
+ <section conref="transclusion_test.dita#trans123/demo_sidepanel_2" id="demo_sidepanel_2"/>
                   </pre>
 <div class="note note"><span class="notetitle">Note:</span> Put the ID on the page where you're transcluding the content (the transclusion target). If you put the ID on the transclusion source, the DITA OT will randomize the ID and Sidr won't be able to trigger the menu because its name won't correspond with the name in the jQuery function.</div>
 <p class="p">If you're transcluding content from a standalone topic to a side panel display, you'll no doubt want to style the section headers a bit differently. That's what this style is all about: </p>

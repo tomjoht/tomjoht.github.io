@@ -18,36 +18,36 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Index entries</h1>
 <div class="body conbody">
-<p class="shortdesc">You can add index entries to topics. Even if you don't see the value in providing an<br />
+<p class="shortdesc">You can add index entries to topics. Even if you don't see the value in providing an
     index, index entries can help searches find the right topics.</p>
-<p class="p"> There are various approaches for adding indexes, but here's a typical way to add index<br />
+<p class="p"> There are various approaches for adding indexes, but here's a typical way to add index
       entries. </p>
-<div class="p">In the <samp class="ph codeph">prolog | metadata | keywords</samp> element of a topic, add index terms The<br />
-        <samp class="ph codeph">prolog</samp> element comes just after the <samp class="ph codeph">shortdesc</samp> element<br />
-      (which follows the title). Here's a<br />
+<div class="p">In the <code>prolog | metadata | keywords</code> element of a topic, add index terms The
+        <code>prolog</code> element comes just after the <code>shortdesc</code> element
+      (which follows the title). Here's a
       sample:
-<pre class="pre codeblock">&lt;title&gt;My Title&lt;/title&gt;
- &lt;shortdesc/&gt;  
-&lt;prolog&gt;
-    &lt;metadata&gt;
-      &lt;keywords&gt;
-        &lt;indexterm&gt;cars&lt;/indexterm&gt;
-      &lt;/keywords&gt;
-    &lt;/metadata&gt;
-  &lt;/prolog&gt;</pre>
+<pre class="pre codeblock"><title>My Title</title>
+ <shortdesc/>
+<prolog>
+    <metadata>
+      <keywords>
+        <indexterm>cars</indexterm>
+      </keywords>
+    </metadata>
+  </prolog></pre>
 </div>
-<div class="p">You can also nest index entries inside of each other to create parent-child relationships among<br />
-   the index<br />
+<div class="p">You can also nest index entries inside of each other to create parent-child relationships among
+   the index
    terms:
-<pre class="pre codeblock">  &lt;prolog&gt;
-    &lt;metadata&gt;
-      &lt;keywords&gt;
-        &lt;indexterm&gt;cars
-                &lt;indexterm&gt;sedan&lt;/indexterm&gt;
-        &lt;/indexterm&gt;
-      &lt;/keywords&gt;
-    &lt;/metadata&gt;
-  &lt;/prolog&gt;</pre>
+<pre class="pre codeblock">  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>cars
+                <indexterm>sedan</indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog></pre>
 </div>
 <div class="p">The result in the index will look like this:
 <pre class="pre codeblock">cars
@@ -55,9 +55,9 @@ excerpt: !ruby/object:Hpricot::Doc
 </div>
 <p class="p">When you want to create a "see" entry for an index, code it like this:</p>
 <pre class="pre codeblock">
-   &lt;indexterm&gt;vehicle
-   &lt;index-see&gt;car&lt;/index-see&gt;
-&lt;/indexentry&gt;
+   <indexterm>vehicle
+   <index-see>car</index-see>
+</indexentry>
   </pre>
 <p class="p">The result of the index-see element is the following:</p>
 <pre class="pre codeblock">
@@ -65,22 +65,22 @@ excerpt: !ruby/object:Hpricot::Doc
    </pre>
 <p class="p">If you want to include a page number with the see also reference, write it like this:</p>
 <pre class="pre codeblock">
-    &lt;indexterm&gt;vehicle
-   &lt;index-see-also&gt;car&lt;/index-see-also&gt;
-&lt;/indexentry&gt;
-    &lt;/indexterm&gt;
+    <indexterm>vehicle
+   <index-see-also>car</index-see-also>
+</indexentry>
+    </indexterm>
   </pre>
 <p class="p">The output will look like this:</p>
 <pre class="pre codeblock">
     vehicle ..... 23
            see also car
    </pre>
-<p class="p">Keep in mind that index entries added to the <samp class="ph codeph">prolog</samp> section will include page<br />
-      numbers pointing to the location of the <samp class="ph codeph">prolog</samp>. Since most topics are short,<br />
-      this isn't a problem. Also, since the online help is usually the main deliverable, it's also<br />
-      not a problem. However, you can also add index entries in the middle of your topics. (But<br />
+<p class="p">Keep in mind that index entries added to the <code>prolog</code> section will include page
+      numbers pointing to the location of the <code>prolog</code>. Since most topics are short,
+      this isn't a problem. Also, since the online help is usually the main deliverable, it's also
+      not a problem. However, you can also add index entries in the middle of your topics. (But
       apparently this causes some problems, especially with translation.)</p>
-<p class="p">Also, some PDF renderers don't include page numbers to index entries. At any rate, since PDF<br />
+<p class="p">Also, some PDF renderers don't include page numbers to index entries. At any rate, since PDF
       isn't usually the main deliverable, this is not a concern with index terms.</p>
 </p></div>
 <div class="related-links">

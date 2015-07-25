@@ -31,61 +31,61 @@ published: true
 <p>The difference between <code>concept</code> types and <code>topic</code> types is rather subtle. With a <code>concept</code>, you can't follow a <code>section</code> with an element that isn't a <code>section</code>. Once you start using <code>sections</code>, it's <code>sections</code> all the way from there on out.</p>
 <p>The big question is in foregoing the <code>task</code> structure. All of those <code>steps</code>, <code>step</code>, <code>cmd</code>, <code>info</code>, <code>stepxmp</code>, etc. elements are robust. They allow you to provide a lot of semantic accuracy to a complex task structure, which is where we live, right, in tasks? But what's really the point? When you transform the DITA content to XHTML, all of these elements just get rendered as regular old HTML list and paragraph tags (and a few divs and spans). Deliberating about whether to use <code>stepxmp</code> or <code>info</code> in a <code>step</code> element is somewhat a waste of time, since both get rendered into block elements.</p>
 <p>For example, here's a simple task of three steps written in DITA:</p>
-<pre><code>&lt;steps&gt;
-     &lt;step&gt;
-         &lt;cmd&gt;This is the first step.&lt;/cmd&gt;
-         &lt;info&gt;This is some additional information included in an info element.&lt;/info&gt;
-     &lt;/step&gt;
-      &lt;step&gt;
-          &lt;cmd&gt;This is the second step.&lt;/cmd&gt;
-          &lt;stepxmp&gt;this is an stepxmp content.&lt;/stepxmp&gt;
-      &lt;/step&gt;
-      &lt;step&gt;&lt;cmd&gt;This is the third step.&lt;/cmd&gt;
-           &lt;tutorialinfo&gt;This is some tutorial info stuff.&lt;/tutorialinfo&gt;
-      &lt;/step&gt;           
-&lt;/steps&gt;</code></pre>
+<pre><code><steps&gt;
+     <step&gt;
+         <cmd&gt;This is the first step.</cmd&gt;
+         <info&gt;This is some additional information included in an info element.</info&gt;
+     </step&gt;
+      <step&gt;
+          <cmd&gt;This is the second step.</cmd&gt;
+          <stepxmp&gt;this is an stepxmp content.</stepxmp&gt;
+      </step&gt;
+      <step&gt;<cmd&gt;This is the third step.</cmd&gt;
+           <tutorialinfo&gt;This is some tutorial info stuff.</tutorialinfo&gt;
+      </step&gt;
+</steps&gt;</code></pre>
 <p>The XHTML transform renders it into this:</p>
-<pre><code>&lt;ol class="ol steps"&gt;
-            &lt;li class="li step stepexpand"&gt;
-                &lt;span class="ph cmd"&gt;This is the first step.&lt;/span&gt;
-                &lt;div class="itemgroup info"&gt;This is some additional information included in an info
-                    element.&lt;/div&gt;
-            &lt;/li&gt;
-            &lt;li class="li step stepexpand"&gt;&lt;span class="ph cmd"&gt;This is the second step.&lt;/span&gt;
-                &lt;div class="itemgroup stepxmp"&gt;this is an stepxmp content.&lt;/div&gt;
-            &lt;/li&gt;
-            &lt;li class="li step stepexpand"&gt;&lt;span class="ph cmd"&gt;This is the third step.&lt;/span&gt;
-                &lt;div class="itemgroup tutorialinfo"&gt;This is some tutorial info stuff.&lt;/div&gt;
-            &lt;/li&gt;
-&lt;/ol&gt;</code></pre>
+<pre><code><ol class="ol steps"&gt;
+            <li class="li step stepexpand"&gt;
+                <span class="ph cmd"&gt;This is the first step.</span&gt;
+                <div class="itemgroup info"&gt;This is some additional information included in an info
+                    element.</div&gt;
+            </li&gt;
+            <li class="li step stepexpand"&gt;<span class="ph cmd"&gt;This is the second step.</span&gt;
+                <div class="itemgroup stepxmp"&gt;this is an stepxmp content.</div&gt;
+            </li&gt;
+            <li class="li step stepexpand"&gt;<span class="ph cmd"&gt;This is the third step.</span&gt;
+                <div class="itemgroup tutorialinfo"&gt;This is some tutorial info stuff.</div&gt;
+            </li&gt;
+</ol&gt;</code></pre>
 <p>We mostly get <code>ol</code>, <code>li</code>, and <code>p</code> tags with some classes.</p>
 <p>How about just writing the same content in a topic type? You would use <code>ol</code>, <code>li</code>, and <code>p</code> tags instead, like this:</p>
-<pre><code>&lt;ol&gt;
-      &lt;li&gt;This is the first step.
-        &lt;p&gt;This is some additional information included in an p element.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;This is the second step.
-        &lt;p outputclass="special"&gt;this is a p content with class.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;This is the third step.
-        &lt;p&gt;This is some tutorial info stuff.&lt;/p&gt;
-      &lt;/li&gt;
-&lt;/ol&gt;
+<pre><code><ol&gt;
+      <li&gt;This is the first step.
+        <p&gt;This is some additional information included in an p element.</p&gt;
+      </li&gt;
+      <li&gt;This is the second step.
+        <p outputclass="special"&gt;this is a p content with class.</p&gt;
+      </li&gt;
+      <li&gt;This is the third step.
+        <p&gt;This is some tutorial info stuff.</p&gt;
+      </li&gt;
+</ol&gt;
 </code></pre>
 <p>(Notice how much cleaner and lighter that markup itself feels?) This is what it gets transformed into when you use the XHTML transform:</p>
-<pre><code>&lt;ol class="ol"&gt;
-      &lt;li class="li"&gt;This is the first step.
-        &lt;p class="p"&gt;This is some additional information included in an p element.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li class="li"&gt;This is the second step.
-        &lt;p class="p special"&gt;this is a p content with class.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li class="li"&gt;This is the third step.
-        &lt;p class="p"&gt;This is some tutorial info stuff.&lt;/p&gt;
-      &lt;/li&gt;
-&lt;/ol&gt;</code></pre>
+<pre><code><ol class="ol"&gt;
+      <li class="li"&gt;This is the first step.
+        <p class="p"&gt;This is some additional information included in an p element.</p&gt;
+      </li&gt;
+      <li class="li"&gt;This is the second step.
+        <p class="p special"&gt;this is a p content with class.</p&gt;
+      </li&gt;
+      <li class="li"&gt;This is the third step.
+        <p class="p"&gt;This is some tutorial info stuff.</p&gt;
+      </li&gt;
+</ol&gt;</code></pre>
 <p>It's mostly the same thing but with different classes. Your level of styling control is slightly reduced, but unless you were going to have different styles for <code>info</code> elements versus <code>stepxmp</code> elements versus <code>tutorialinfo</code> elements (potentially resulting in a cornucopia of styles), there isn't much point is giving each element its own class.</p>
-<p>Was there any great win in using the task type instead of the general topic type? Not in my opinion. The HTML output is pretty much the same. Unless you're styling all of these things differently, there's little benefit in using <code>&lt;step&gt;&lt;cmd&gt;</code> instead of simply <code>&lt;li&gt;</code>. If you need a special class on a paragraph, you can just add it using the <code>outputclass</code> attribute.</p>
+<p>Was there any great win in using the task type instead of the general topic type? Not in my opinion. The HTML output is pretty much the same. Unless you're styling all of these things differently, there's little benefit in using <code><step&gt;<cmd&gt;</code> instead of simply <code><li&gt;</code>. If you need a special class on a paragraph, you can just add it using the <code>outputclass</code> attribute.</p>
 <p>Using the general topic, you don't have to worry about whether an <code>info</code> element is allowed inside <code>stepxmp</code> or not, and so on. It's simpler and more straightforward.</p>
 <h2 id="Theinformationtypeargument">The information type argument</h2>
 <p>DITA's information types do much more than simply transform content. They make sure that certain information patterns that are optimized for user learning are followed. In particular, the DITA information model encourages <a href="http://dita.xml.org/book/export/html/1047">"small non-linear chunks readable in any order"</a>.</p>
@@ -99,4 +99,4 @@ published: true
 <p>[video width="984" height="729" mp4="http://idratherbetellingstories.com/wp-content/uploads/2014/10/mdtohtmltodita.mp4"][/video]</p>
 <p>(By the way, Mylyn Wikitext supposedly allows you to convert directly from a wiki syntax into DITA, but I couldn't figure it out. I think you have to configure some Ant scripts and run the conversion from there. If you know how to configure this, let me know.)</p>
 <h2 id="Conclusion">Feedback?</h2>
-<p>I'm interested to hear your process for writing. Do you draft your content in DITA markup from the start, or do you add the tags later? If you add the tags from the start, doesn't it add extra overhead in managing the tags (I mean, you can't even writing a paragraph without surrounding it with &lt;p&gt; tags). If you add the tags later, doesn't that put you in a time crunch?</p>
+<p>I'm interested to hear your process for writing. Do you draft your content in DITA markup from the start, or do you add the tags later? If you add the tags from the start, doesn't it add extra overhead in managing the tags (I mean, you can't even writing a paragraph without surrounding it with <p&gt; tags). If you add the tags later, doesn't that put you in a time crunch?</p>

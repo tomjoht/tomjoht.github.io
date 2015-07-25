@@ -33,13 +33,13 @@ To assemble your bike:
 <p>Suppose for the Trek 7.1 model bike, step 4 doesn't apply because the 7.1 model doesn't ship with ergonomic grips. Those are only available in the 7.2 model.</p>
 <p>In XML DITA authoring, we would add attributes to the item that allowed us to apply rules to process it differently:</p>
 <pre>
-&lt;steps&gt;
-&lt;stepsection&gt;To assemble your bike:&lt;/stepsection&gt;
-&lt;step&gt;&lt;cmd&gt;Put on the wheels.&lt;/cmd&gt;&lt;/step&gt;
-&lt;step&gt;&lt;cmd&gt;Tighten the handlebars.&lt;/cmd&gt;&lt;/step&gt;
-&lt;step&gt;&lt;cmd&gt;Attach the kickstand.&lt;/cmd&gt;&lt;/step&gt;
-&lt;step product="trek_72"&gt;&lt;cmd&gt;Insert the ergonomic grips.&lt;/cmd&gt;&lt;/step&gt;
-&lt;/steps&gt;
+<steps&gt;
+<stepsection&gt;To assemble your bike:</stepsection&gt;
+<step&gt;<cmd&gt;Put on the wheels.</cmd&gt;</step&gt;
+<step&gt;<cmd&gt;Tighten the handlebars.</cmd&gt;</step&gt;
+<step&gt;<cmd&gt;Attach the kickstand.</cmd&gt;</step&gt;
+<step product="trek_72"&gt;<cmd&gt;Insert the ergonomic grips.</cmd&gt;</step&gt;
+</steps&gt;
 </pre>
 <p>Then you filter out that content with the <code>product="trek_72"</code> in the output based on some processing rules. However, this all takes place in an external XML editor.</p>
 <p>In WordPress, there's a plugin called <a href="https://wordpress.org/plugins/threewp-broadcast/">ThreeWP Broadcast</a> that allows you to broadcast the same post or page content to other sites in a linked way. </p>
@@ -57,16 +57,16 @@ To assemble your bike:
 <h2>Conditionalizing content with WordPress</h2>
 <p>Now let's take it a step further and add the content in our example. On my base site, I have the following: </p>
 <pre>
-&lt;p&gt;To assemble your bike:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Put on the wheels.&lt;/li&gt;
-&lt;li&gt;Tighten the handlebars.&lt;/li&gt;
-&lt;li&gt;Attach the kickstand.&lt;/li&gt;
-[site id="3"]&lt;li&gt;Insert the ergonomic grips&lt;/li&gt;[/site]
-&lt;/ol&gt;
+<p&gt;To assemble your bike:</p&gt;
+<ol&gt;
+<li&gt;Put on the wheels.</li&gt;
+<li&gt;Tighten the handlebars.</li&gt;
+<li&gt;Attach the kickstand.</li&gt;
+[site id="3"]<li&gt;Insert the ergonomic grips</li&gt;[/site]
+</ol&gt;
 </pre>
 <p>That last step is conditional. It should only appear on site 3, so I add the shortcode tags around it like I did. </p>
-<p>In my theme's functions.php file (which appears in the <code>wp-content/themes/&lt;theme name&gt;</code> directory), I have the following shortcode function: </p>
+<p>In my theme's functions.php file (which appears in the <code>wp-content/themes/<theme name&gt;</code> directory), I have the following shortcode function: </p>
 <pre>
 function site_content_fn( $atts, $content="" ) {
   $atts = shortcode_atts( array(
@@ -107,7 +107,7 @@ function get_product_name() {
      if( get_current_blog_id() == 3 )
         return 'ACME Deluxe 6.0';
            if( get_current_blog_id() == 1 )
-        return '&lt;PRODUCT NAME&gt;';
+        return '<PRODUCT NAME&gt;';
 }
 add_shortcode( 'product', 'get_product_name' );
 </pre>
@@ -119,7 +119,7 @@ Thank you for buying [product].
 </pre>
 <p>On my base site, the following appears: </p>
 <pre>
-Thank you for buying &lt;PRODUCT NAME&gt;.
+Thank you for buying <PRODUCT NAME&gt;.
 </pre>
 <p>(I just put product name in brackets to remind me that this content is conditionalized based on the site).</p>
 <p>And on <a href="http://idratherbewriting.com/wp/site2/test-123/">site 2</a>, this appears:</p>
@@ -135,7 +135,7 @@ Thank you for buying ACME Deluxe 6.0.
 <p>To handle links on network site pages, you must purchase the <a href="http://plainview.se/wordpress/threewp-broadcast-premium-pack/">ThreeWP Broadcast Premium pack</a> ($100). After you upload and activate the premium plugin, go to your base site and browse to <strong>Broadcast > Premium Pack</strong>. After you select and activate <b>LocalLinks</b>, the links on your child pages will go to the right pages. (You know Local Links is activated because a new option appears on the Broadcast area for each page that says "Update local links.")</p>
 <p>As an example, on my test page, I created another page called Product Warranty and broadcast it to the other sites. I then linked to the Product Warranty from my other page with this text:</p>
 <pre>
-&lt;p&gt;This is a link to &lt;a href="http://idratherbewriting.com/wp/blog/product-warranty/"&gt;Product Warranty&lt;/a&gt;.&lt;/p&gt;
+<p&gt;This is a link to <a href="http://idratherbewriting.com/wp/blog/product-warranty/"&gt;Product Warranty</a&gt;.</p&gt;
 </pre>
 <p>Now if you go to the <a href="http://idratherbewriting.com/wp/site2/test-123/">test page on site 2</a> or the <a href="http://idratherbewriting.com/wp/site3/test-123/">test page on site 3</a> and click the Product Warranty link, you'll notice that you go to the Product Warranty page on site 2 or 3 respectively rather than going to the Product Warranty page on the base site.</p>
 <h2>Menus</h2>

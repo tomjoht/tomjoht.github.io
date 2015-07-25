@@ -19,36 +19,36 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Variables</h1>
 <div class="body conbody">
-<p class="shortdesc">DITA doesn't have an actual variables element, but you can use keyref to accomplish the<br />
+<p class="shortdesc">DITA doesn't have an actual variables element, but you can use keyref to accomplish the
   same thing.</p>
-<p class="p">A variable is a symbol that represents something else. You might use the variable<br />
-   product_name so that if you're product name switches, you don't have to update all instances of<br />
-   the product name in your documentation. You can just update what the variable product_name points<br />
+<p class="p">A variable is a symbol that represents something else. You might use the variable
+   product_name so that if you're product name switches, you don't have to update all instances of
+   the product name in your documentation. You can just update what the variable product_name points
    to.</p>
-<div class="p">In your map file, add the<br />
+<div class="p">In your map file, add the
    following:
-<pre class="pre codeblock">  &lt;keydef keys="product_name"&gt;
-   &lt;topicmeta&gt;
-    &lt;keywords&gt;
-     &lt;keyword&gt;ACME&lt;/keyword&gt;
-    &lt;/keywords&gt;
-   &lt;/topicmeta&gt;
-  &lt;/keydef&gt;</pre>
+<pre class="pre codeblock">  <keydef keys="product_name">
+   <topicmeta>
+    <keywords>
+     <keyword>ACME</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef></pre>
 </div>
-<div class="p">In your topic file, reference the variable with the<br />
+<div class="p">In your topic file, reference the variable with the
    following:
-<pre class="pre codeblock">Congratulations on the purchase of &lt;keyword keyref="product_name"/&gt;. </pre>
+<pre class="pre codeblock">Congratulations on the purchase of <keyword keyref="product_name"/>. </pre>
 </div>
-<div class="p">You can event put attributes on the keyword so that different product names appear based on<br />
+<div class="p">You can event put attributes on the keyword so that different product names appear based on
    different conditional processing.</p>
-<pre class="pre codeblock"> &lt;keydef keys="product_name"&gt;
-   &lt;topicmeta&gt;
-    &lt;keywords&gt;
-     &lt;keyword audience="UK"&gt;ACME&lt;/keyword&gt;
-     &lt;keyword audience="USA"&gt;Gizmo&lt;/keyword&gt;
-    &lt;/keywords&gt;
-   &lt;/topicmeta&gt;
-  &lt;/keydef&gt;</pre>
+<pre class="pre codeblock"> <keydef keys="product_name">
+   <topicmeta>
+    <keywords>
+     <keyword audience="UK">ACME</keyword>
+     <keyword audience="USA">Gizmo</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef></pre>
 </div></div>
 <div class="related-links">
 <div class="familylinks">

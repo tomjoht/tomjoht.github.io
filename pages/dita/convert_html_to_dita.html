@@ -10,17 +10,17 @@ type: notes_dita
 <p class="shortdesc">Although you can convert content to DITA manually, you can also convert your HTML content to DITA through the XHTML to DITA transform in Oxygen. </p>
 <div class="section context">
 <div class="note tip"><span class="tiptitle">Tip:</span> See also <a class="xref" href="/md2html2ditav2" title="Markdown drastically simplifies the authoring process. As long as you don't need to incorporate conref and other DITA specific tags (which aren't available in Markdown), you can implement this super simple authoring process.">DITA: Author in Markdown, publish with DITA</a> for another way of converting HTML to DITA.</div>
-<p class="p">Converting content to DITA isn't a small undertaking, because you'll essentially have to retag<br />
-                everything with the DITA markup. There are some automated ways of converting<br />
-                content, but if your source content isn't already in a DITA friendly format, for<br />
-                example, if you have lots of topics that combine lists and concepts, or that have<br />
-                nested subsections (third-level headers), the conversion might require some<br />
-                restructuring. Nevertheless, you can speed up the process using a combination of<br />
+<p class="p">Converting content to DITA isn't a small undertaking, because you'll essentially have to retag
+                everything with the DITA markup. There are some automated ways of converting
+                content, but if your source content isn't already in a DITA friendly format, for
+                example, if you have lots of topics that combine lists and concepts, or that have
+                nested subsections (third-level headers), the conversion might require some
+                restructuring. Nevertheless, you can speed up the process using a combination of
                 HTML Tidy and Oxygen's XHTML to DITA transform.</p>
-<div class="note note"><span class="notetitle">Note:</span> If you have large conversion projects, this method probably isn't suitable.<br />
-                If you have thousands of topics to convert, for example, take a look at Stilo or<br />
-                some other automated process. You may need to write custom scripts that tag content<br />
-                based on your structure. If, on the other hand, you have less than 100 pages to<br />
+<div class="note note"><span class="notetitle">Note:</span> If you have large conversion projects, this method probably isn't suitable.
+                If you have thousands of topics to convert, for example, take a look at Stilo or
+                some other automated process. You may need to write custom scripts that tag content
+                based on your structure. If, on the other hand, you have less than 100 pages to
                 convert, the method described here might be just fine.</div>
 <p class="p toc">
 </p></div>
@@ -41,44 +41,44 @@ type: notes_dita
 </div>
 </li>
 <li class="li step stepexpand">
-        <span class="ph cmd">Go to <a class="xref external" href="http://infohound.net/tidy/" target="_blank">HTML<br />
-                            Tidy</a> and paste the copied content content through this processor<br />
+        <span class="ph cmd">Go to <a class="xref external" href="http://infohound.net/tidy/" target="_blank">HTML
+                            Tidy</a> and paste the copied content content through this processor
                         to clean it.</span></p>
 <div class="itemgroup info">
-<p class="p">There are a variety of settings on the HTML Tidy page. You can just use the defaults. Paste your<br />
-                            source content into the HTML box, click <span class="ph uicontrol">Tidy</span>, and<br />
-                            then click <span class="ph uicontrol">View Tidied HTML</span>. You don't have to<br />
-                            include all the page content. Most likely when you look at the source of<br />
-                            a page, you'll see the navigation, header content, footer content, etc.<br />
-                            You might not want to bring this over. Just insert the body content.<br />
+<p class="p">There are a variety of settings on the HTML Tidy page. You can just use the defaults. Paste your
+                            source content into the HTML box, click <span class="ph uicontrol">Tidy</span>, and
+                            then click <span class="ph uicontrol">View Tidied HTML</span>. You don't have to
+                            include all the page content. Most likely when you look at the source of
+                            a page, you'll see the navigation, header content, footer content, etc.
+                            You might not want to bring this over. Just insert the body content.
                             Tidy will supply the necessary HTML head tags to make the page valid. </p>
 <p class="p">After cleaning the HTML, copy the entire output.</p>
 </div>
 </li>
 <li class="li step stepexpand">
-        <span class="ph cmd">In OxygenXML, go to <span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">New</span></span>, expand the <span class="ph uicontrol">New Document</span> folder, and select <span class="ph uicontrol">HTML</span>.</span>
+        <span class="ph cmd">In OxygenXML, go to <span class="ph menucascade"><span class="ph uicontrol">File</span> > <span class="ph uicontrol">New</span></span>, expand the <span class="ph uicontrol">New Document</span> folder, and select <span class="ph uicontrol">HTML</span>.</span>
     </li>
 <li class="li step stepexpand">
         <span class="ph cmd">Save the file with a generic name such as "html template."</span></p>
 <div class="itemgroup info">You'll use this same html template for converting each page. When you run the HTML to DITA transform, Oxygen will create a new file from this template.</div>
 </li>
 <li class="li step stepexpand">
-                    <span class="ph cmd">Press <strong class="ph b">Ctrl+A</strong> to highlight everything on your sample htmltemplate<br />
-                        file and delete it. Then paste in the HTML you copied from HTML Tidy and<br />
+                    <span class="ph cmd">Press <strong class="ph b">Ctrl+A</strong> to highlight everything on your sample htmltemplate
+                        file and delete it. Then paste in the HTML you copied from HTML Tidy and
                         save the file.</span>
                 </li>
 <li class="li step stepexpand">
-                    <span class="ph cmd">For the title of your document, add the title between h1 tags right below<br />
+                    <span class="ph cmd">For the title of your document, add the title between h1 tags right below
                         the opening body tag. </span></p>
-<div class="itemgroup info">The transform will look for the first h1 tag and insert this as the<br />
-                        document title. If you don't have an an h1 tag, the first heading level tag<br />
-                        will get rendered as the document title. That heading level will then<br />
-                        actually be removed! Therefore, it's important not to forget to add the h1<br />
+<div class="itemgroup info">The transform will look for the first h1 tag and insert this as the
+                        document title. If you don't have an an h1 tag, the first heading level tag
+                        will get rendered as the document title. That heading level will then
+                        actually be removed! Therefore, it's important not to forget to add the h1
                         tag to your content before running the transform.
-<div class="note note"><span class="notetitle">Note:</span> If you're converting<br />
-                            a page with a lot of code, the transform may not recognize the code<br />
-                            samples unless they're wrapped in <samp class="ph codeph">pre</samp> tags. If the<br />
-                            transform can't recognize the code, it may eliminate the code<br />
+<div class="note note"><span class="notetitle">Note:</span> If you're converting
+                            a page with a lot of code, the transform may not recognize the code
+                            samples unless they're wrapped in <code>pre</code> tags. If the
+                            transform can't recognize the code, it may eliminate the code
                             section.</div>
 </div>
 </li>
@@ -87,17 +87,17 @@ type: notes_dita
 <div class="itemgroup info">You could also choose Topic or Task, but if you choose Task, you'll need to make sure the content already mostly conforms to the task topic type.</div>
 </li>
 <li class="li step stepexpand">
-                    <span class="ph cmd">Save the new file with the proper name and, if desired, choose the<br />
-                            <samp class="ph codeph">.dita</samp> extension.</span>
+                    <span class="ph cmd">Save the new file with the proper name and, if desired, choose the
+                            <code>.dita</code> extension.</span>
                 </li>
 <li class="li step stepexpand">
-                    <span class="ph cmd">Compare the newly converted DITA file with the original HTML file and make<br />
-                        sure all the sections carried over. Before you start applying<br />
-                        post-processing, you want to be certain all the content is actually<br />
+                    <span class="ph cmd">Compare the newly converted DITA file with the original HTML file and make
+                        sure all the sections carried over. Before you start applying
+                        post-processing, you want to be certain all the content is actually
                         there.</span>
                 </li>
 </ol>
-<div class="section postreq">Although you've converted the content to DITA, there is still some clean-up and<br />
+<div class="section postreq">Although you've converted the content to DITA, there is still some clean-up and
                 other post-processing tasks to do.</div>
 </p></div>
 </p></div>
@@ -110,21 +110,21 @@ type: notes_dita
 <div class="itemgroup info">
 <p class="p">When you look at the source of the newly converted DITA topics, you'll see that many of them have sections that have comments in them, such as this:</p>
 <pre class="pre codeblock">
-    &lt;!--Original: &lt;span @class=aui-icon icon-warning&gt;--&gt;
+    <!--Original: <span @class=aui-icon icon-warning>-->
       <span class="ph aui-icon icon-warning">Icon</span>
                     </pre>
-<p class="p">In this case, the original source used this class for notes. The<br />
-                            transform doesn't know how to map classes to note elements, so you'll<br />
+<p class="p">In this case, the original source used this class for notes. The
+                            transform doesn't know how to map classes to note elements, so you'll
                             have to manually tag these sections as notes.</p>
-<p class="p">DITA will convert classes to an <samp class="ph codeph">outputclass</samp> element.<br />
-                            (The <samp class="ph codeph">outputclass</samp> element converts back to a<br />
-                                <samp class="ph codeph">class</samp> element when you transform your DITA content<br />
-                            into HTML.) However, most likely the class tags on your previous<br />
+<p class="p">DITA will convert classes to an <code>outputclass</code> element.
+                            (The <code>outputclass</code> element converts back to a
+                                <code>class</code> element when you transform your DITA content
+                            into HTML.) However, most likely the class tags on your previous
                             platform won't have the same meaning as your new platform.</p>
 </p></div>
 </li>
 <li class="li step stepexpand">
-                        <span class="ph cmd">You can bulk delete content across all DITA files by going to <span class="ph menucascade"><span class="ph uicontrol">Find</span> &gt; <span class="ph uicontrol">Find/Replace in Files</span></span>.</span></p>
+                        <span class="ph cmd">You can bulk delete content across all DITA files by going to <span class="ph menucascade"><span class="ph uicontrol">Find</span> > <span class="ph uicontrol">Find/Replace in Files</span></span>.</span></p>
 <div class="itemgroup info">Bulk find and replace is handy for cleaning up all of these notes in bulk.</div>
 </li>
 </ol></div>
@@ -133,23 +133,23 @@ type: notes_dita
 <h2 class="title topictitle2">Find opportunities for re-use (DITA)</h2>
 <div class="body taskbody">
 <div class="section context">
-<p class="p">One of the reasons for converting to DITA is to harness the content re-use<br />
-                    capabilities. Now you should extract redundant content into separate files for<br />
-                    re-use. This is the tricky part. If you migrated content out of Confluence, and<br />
-                    you were using multiexerpt include macros to single source content into multiple<br />
-                    files, you'll want to assess the content and figure out how you want to single<br />
+<p class="p">One of the reasons for converting to DITA is to harness the content re-use
+                    capabilities. Now you should extract redundant content into separate files for
+                    re-use. This is the tricky part. If you migrated content out of Confluence, and
+                    you were using multiexerpt include macros to single source content into multiple
+                    files, you'll want to assess the content and figure out how you want to single
                     source the material. </p>
 <div class="p">You have a couple of options for re-using content:
 <ul class="ul" id="convert3__ul_hmv_3kf_4p">
-<li class="li"><strong class="ph b">Conref. </strong>You could create a generic file to store common content,<br />
-                            and then use conref tags where you want to insert this content. See<br />
-                                <a class="xref" href="/conref" title="You can re-use notes and other content through an attribute called conref.">Conref (re-use of content)</a> for more details. Using conref makes<br />
-                            sense especially for notes and other small chunks that are re-used<br />
+<li class="li"><strong class="ph b">Conref. </strong>You could create a generic file to store common content,
+                            and then use conref tags where you want to insert this content. See
+                                <a class="xref" href="/conref" title="You can re-use notes and other content through an attribute called conref.">Conref (re-use of content)</a> for more details. Using conref makes
+                            sense especially for notes and other small chunks that are re-used
                             across many different files.</li>
-<li class="li"><strong class="ph b">Conditionalization. </strong>You could conditionalize the content so that<br />
-                            you have attributes corresponding to different outputs on parts of the<br />
-                            page. See <a class="xref" href="/conditional_profiling" title="You can add attributes to elements and then filter your transforms to include any element that has attributes with certain values.">DITA: Conditional profiling</a> for more details.<br />
-                            Conditional profiling makes sense when you have a few variations of the<br />
+<li class="li"><strong class="ph b">Conditionalization. </strong>You could conditionalize the content so that
+                            you have attributes corresponding to different outputs on parts of the
+                            page. See <a class="xref" href="/conditional_profiling" title="You can add attributes to elements and then filter your transforms to include any element that has attributes with certain values.">DITA: Conditional profiling</a> for more details.
+                            Conditional profiling makes sense when you have a few variations of the
                             same topic for different audiences.</li>
 </ul>
 </div></div>

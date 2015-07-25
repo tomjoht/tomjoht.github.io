@@ -13,41 +13,41 @@ published: true
 
 {% include technotes_toc.html %}
 <div class="body conbody">
-<p class="shortdesc">You can use two primary tags for code: <samp class="ph codeph">codeph</samp> and<br />
-   <samp class="ph codeph">codeblock</samp>.</p>
-<div class="p">To add code tags around inline code, use <samp class="ph codeph">codeph</samp>, like<br />
+<p class="shortdesc">You can use two primary tags for code: <code>codeph</code> and
+   <code>codeblock</code>.</p>
+<div class="p">To add code tags around inline code, use <code>codeph</code>, like
             this:
-<pre class="pre codeblock">The &lt;codeph&gt;init&lt;/codeph&gt; function initializes the processor...</pre>
+<pre class="pre codeblock">The <codeph>init</codeph> function initializes the processor...</pre>
 </div>
-<p class="p"><samp class="ph codeph">codeph</samp> stands for "code phrase." (There's another tag called<br />
-                <samp class="ph codeph">ph</samp> that is just "phrase.")</p>
-<div class="p">For a block of code, use <samp class="ph codeph">codeblock</samp> with an <samp class="ph codeph">outputclass</samp><br />
-            attribute that specifies the language for the syntax<br />
+<p class="p"><code>codeph</code> stands for "code phrase." (There's another tag called
+                <code>ph</code> that is just "phrase.")</p>
+<div class="p">For a block of code, use <code>codeblock</code> with an <code>outputclass</code>
+            attribute that specifies the language for the syntax
             highlighter:
-<pre class="pre codeblock">&lt;codeblock outputclass="language-cpp"&gt;
+<pre class="pre codeblock"><codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
-    for(int i = 0; i &lt; 5; i++) {
-        cout &lt;&lt; scores[i] &lt;&lt; "  ";
+    for(int i = 0; i < 5; i++) {
+        cout << scores[i] << "  ";
     }
     system("PAUSE");
     return 0;
 }
-&lt;/codeblock&gt;</pre>
+</codeblock></pre>
 </div>
-<p class="p">As soon as you type <samp class="ph codeph">outputclass="</samp> in the code editor, you're prompted with<br />
-            language options. If you don't choose an <samp class="ph codeph">output</samp> class, the default is<br />
+<p class="p">As soon as you type <code>outputclass="</code> in the code editor, you're prompted with
+            language options. If you don't choose an <code>output</code> class, the default is
             java.</p>
-<p class="p">Note that adding the outputclass will prompt Oxygen to add syntax highlighting in the<br />
-            output (injecting a lot of inline formatting). If you're publishing to a location that<br />
+<p class="p">Note that adding the outputclass will prompt Oxygen to add syntax highlighting in the
+            output (injecting a lot of inline formatting). If you're publishing to a location that
             already provides a syntax highlighter, don't add an outputclass. </p>
-<div class="p">Because XML parses the angle brackets and &amp; symbols in codeblocks, you have to convert<br />
-            these to their character equivalents. <samp class="ph codeph">&lt; </samp>is <samp class="ph codeph">&amp;lt;<br />
-            </samp>and <samp class="ph codeph">&gt;</samp> is <samp class="ph codeph">&amp;gt;</samp> For <samp class="ph codeph">&amp;</samp>,<br />
-            use <samp class="ph codeph">&amp;amp;</samp>. The above code really looks like<br />
+<div class="p">Because XML parses the angle brackets and &amp; symbols in codeblocks, you have to convert
+            these to their character equivalents. <code>< </code>is <code>&amp;lt;
+            </code>and <code>></code> is <code>&amp;gt;</code> For <code>&amp;</code>,
+            use <code>&amp;amp;</code>. The above code really looks like
             this:
-<pre class="pre codeblock">&lt;codeblock outputclass="language-cpp"&gt;
+<pre class="pre codeblock"><codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
@@ -57,36 +57,36 @@ int main() {
     system("PAUSE");
     return 0;
 }
-&lt;/codeblock&gt;</pre>
+</codeblock></pre>
 </div>
-<p class="p">You can also reference code stored in another file using a <samp class="ph codeph">coderef</samp> element<br />
-            inside a <samp class="ph codeph">codeblock</samp>:</p>
-<pre class="pre codeblock">&lt;codeblock outputclass="language-csharp"&gt;
-&lt;coderef href="code/example.txt"/&gt;
-&lt;/codeblock&gt;</pre>
-<p class="p">With this method, you don't have to convert the illegal symbols into their character<br />
-            equivalents. Also, the referenced file cabe stored with the programming language type<br />
+<p class="p">You can also reference code stored in another file using a <code>coderef</code> element
+            inside a <code>codeblock</code>:</p>
+<pre class="pre codeblock"><codeblock outputclass="language-csharp">
+<coderef href="code/example.txt"/>
+</codeblock></pre>
+<p class="p">With this method, you don't have to convert the illegal symbols into their character
+            equivalents. Also, the referenced file cabe stored with the programming language type
             extension, which gives you syntax highlighting while you're editing it.</p>
-<p class="p">If you want to title the code sample with a name, use the <samp class="ph codeph">fig</samp> and<br />
-                <samp class="ph codeph">title</samp> elements:</p>
-<pre class="pre codeblock">&lt;fig&gt;&lt;title&gt;Checking scores&lt;/title&gt;&lt;/fig&gt;
-    &lt;codeblock outputclass="language-cpp"&gt;
+<p class="p">If you want to title the code sample with a name, use the <code>fig</code> and
+                <code>title</code> elements:</p>
+<pre class="pre codeblock"><fig><title>Checking scores</title></fig>
+    <codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
-    for(int i = 0; i &lt; 5; i++) {
-        cout &lt;&lt; scores[i] &lt;&lt; "  ";
+    for(int i = 0; i < 5; i++) {
+        cout << scores[i] << "  ";
     }
     system("PAUSE");
     return 0;
 }
-&lt;/codeblock&gt;</pre>
-<p class="p">If you want to bold part of a code sample, you can do so by inserting <samp class="ph codeph">b</samp><br />
-            tags to bold the content. (Don't convert the angle brackets around the b tag to<br />
+</codeblock></pre>
+<p class="p">If you want to bold part of a code sample, you can do so by inserting <code>b</code>
+            tags to bold the content. (Don't convert the angle brackets around the b tag to
             character equivalents.)</p>
-<p class="p">If the syntax highlighter is accidentally highlighting some of your code as a comment instead of actual code, wrap the problematic code inside <samp class="ph codeph">codeph</samp> tags.</p>
+<p class="p">If the syntax highlighter is accidentally highlighting some of your code as a comment instead of actual code, wrap the problematic code inside <code>codeph</code> tags.</p>
 <pre class="pre codeblock">
-q=0.9,&lt;codeph&gt;*&lt;/codeph&gt;&lt;codeph&gt;/*&lt;/codeph&gt;;;q=0.8");
+q=0.9,<codeph>*</codeph><codeph>/*</codeph>;;q=0.8");
      </pre>
 </p></div>
 <div class="related-links">

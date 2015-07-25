@@ -23,77 +23,77 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Inserting an image</h2>
-<p class="p">To insert an image, use the <samp class="ph codeph">image</samp> tag and specify the<br />
-   <samp class="ph codeph">placement</samp> attribute to set line wrapping.</p>
-<pre class="pre codeblock">&lt;image href="images/sample.png" placement="break"&gt;&lt;alt&gt;Sample image&lt;/alt&gt;&lt;/image&gt;</pre>
-<p class="p">You can also choose <samp class="ph codeph">placement="inline"</samp> if you're inserting an image in the<br />
+<p class="p">To insert an image, use the <code>image</code> tag and specify the
+   <code>placement</code> attribute to set line wrapping.</p>
+<pre class="pre codeblock"><image href="images/sample.png" placement="break"><alt>Sample image</alt></image></pre>
+<p class="p">You can also choose <code>placement="inline"</code> if you're inserting an image in the
       line of your sentence (such as a button image) or if you want text to flow around your image. </p>
-<p class="p">The Open Toolkit renders images with a <samp class="ph codeph">placement="break"</samp> attribute with two <samp class="ph codeph">br</samp> tags before and after the image.</p>
-<p class="p">You can also choose an <samp class="ph codeph">align</samp> attribute and select <samp class="ph codeph">left</samp>,<br />
-        <samp class="ph codeph">right</samp>, or <samp class="ph codeph">center</samp>. The <samp class="ph codeph">alt</samp> tags in the<br />
-      middle define the alt text for the image, which is what displays if a user's images are turned<br />
+<p class="p">The Open Toolkit renders images with a <code>placement="break"</code> attribute with two <code>br</code> tags before and after the image.</p>
+<p class="p">You can also choose an <code>align</code> attribute and select <code>left</code>,
+        <code>right</code>, or <code>center</code>. The <code>alt</code> tags in the
+      middle define the alt text for the image, which is what displays if a user's images are turned
       off. </p>
-<p class="p">Note that images won't automatically resize or automatically take on a border. However, you can<br />
+<p class="p">Note that images won't automatically resize or automatically take on a border. However, you can
       set those properties in your webhelp CSS to accomplish this.</p>
-<p class="p">When you're writing a task, you can put images inside the <samp class="ph codeph">cmd</samp> or the<br />
-    <samp class="ph codeph">info</samp> tag.</p>
+<p class="p">When you're writing a task, you can put images inside the <code>cmd</code> or the
+    <code>info</code> tag.</p>
 <div class="p">If you want a caption to your images, add it like this:</p>
-<pre class="pre codeblock">&lt;fig&gt;&lt;title&gt;Sample Image&lt;/title&gt;
-&lt;image href="images/sample.png" placement="break"&gt;&lt;alt&gt;Sample image&lt;/alt&gt;&lt;/image&gt;
-&lt;/fig&gt;</pre>
+<pre class="pre codeblock"><fig><title>Sample Image</title>
+<image href="images/sample.png" placement="break"><alt>Sample image</alt></image>
+</fig></pre>
 </div>
 <p class="p">The caption will actually appear below the image in the Oxygen webhelp output.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Reusing images</h2>
-<div class="p">If you reuse an image through the <samp class="ph codeph">conref</samp> element, you must include the<br />
-          <samp class="ph codeph">href</samp> attribute because this attribute is required. But the value for href<br />
-        is<br />
-        <samp class="ph codeph">-dita-use-conref-target</samp>.
-<pre class="pre codeblock">&lt;img conref="#concept_engines/img_ej25_engine" href="-dita-use-conref-target" /&gt;</pre>
+<div class="p">If you reuse an image through the <code>conref</code> element, you must include the
+          <code>href</code> attribute because this attribute is required. But the value for href
+        is
+        <code>-dita-use-conref-target</code>.
+<pre class="pre codeblock"><img conref="#concept_engines/img_ej25_engine" href="-dita-use-conref-target" /></pre>
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Referring to specific figures</h2>
-<div class="p">If you want to refer to an image with a specific figure caption, you can use cross<br />
+<div class="p">If you want to refer to an image with a specific figure caption, you can use cross
         reference.
-<pre class="pre codeblock">&lt;p&gt;See &lt;xref href="#concept_lcw_fkl_q4/image1" type="fig"&gt;Oxygen Sample Webhelp&lt;/xref&gt; for details.&lt;/p&gt;
+<pre class="pre codeblock"><p>See <xref href="#concept_lcw_fkl_q4/image1" type="fig">Oxygen Sample Webhelp</xref> for details.</p>
 
-&lt;fig id="image1"&gt;  
-    &lt;title&gt;Oxygen Sample Webhelp&lt;/title&gt;
-   &lt;image href="oxygen.png" placement="break"/&gt;
-&lt;/fig&gt;</pre>
+<fig id="image1">
+    <title>Oxygen Sample Webhelp</title>
+   <image href="oxygen.png" placement="break"/>
+</fig></pre>
 </div>
-<p class="p">The output will say "See Oxygen Sample Webhelp for details." With the webhelp, the<br />
-        reference will link to the image. The image itself won't have a figure number below it. With<br />
+<p class="p">The output will say "See Oxygen Sample Webhelp for details." With the webhelp, the
+        reference will link to the image. The image itself won't have a figure number below it. With
         PDF, there will be a figure number below it.</p>
-<div class="p">If you want to use <samp class="ph codeph">conref</samp> to manually pull in the image title, you can do<br />
-        so like<br />
+<div class="p">If you want to use <code>conref</code> to manually pull in the image title, you can do
+        so like
         this:
-<pre class="pre codeblock">&lt;p&gt;See &lt;xref href="#concept_lcw_fkl_q4/image1" type="fig"&gt;&lt;ph conref="testfile.dita#concept_lcw_fkl_q4/image1_title"/&gt;&lt;/xref&gt; for details.&lt;/p&gt;
+<pre class="pre codeblock"><p>See <xref href="#concept_lcw_fkl_q4/image1" type="fig"><ph conref="testfile.dita#concept_lcw_fkl_q4/image1_title"/></xref> for details.</p>
    
    
-   &lt;fig id="image1" frame="all"&gt;
+   <fig id="image1" frame="all">
     
-    &lt;title&gt;&lt;ph id="image1_title"&gt;Oxygen Sample Webhelp&lt;/ph&gt;&lt;/title&gt;
-   &lt;image href="oxygen.png" placement="break" scalefit="yes"/&gt;
-   &lt;/fig&gt;</pre>
+    <title><ph id="image1_title">Oxygen Sample Webhelp</ph></title>
+   <image href="oxygen.png" placement="break" scalefit="yes"/>
+   </fig></pre>
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Image format</h2>
-<p class="p">It's recommended that you use the SVG format for images because this format allows you to<br />
+<p class="p">It's recommended that you use the SVG format for images because this format allows you to
         add callouts that you can later edit and extract for translation. </p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Other parameters</h2>
-<div class="p">If you want a border around your image and caption, use the <samp class="ph codeph">frame="all"</samp><br />
-        attribute. If you want your image to be scaled to its container size, use<br />
-          <samp class="ph codeph">scalefit</samp>. You can also specify a <samp class="ph codeph">width</samp>.</p>
-<pre class="pre codeblock">&lt;fig id="image1" frame="all"&gt;  
-    &lt;title&gt;Oxygen Sample Webhelp&lt;/title&gt;
-   &lt;image href="oxygen.png" placement="break" scalefit="yes" width="700"/&gt;
-&lt;/fig&gt;</pre>
+<div class="p">If you want a border around your image and caption, use the <code>frame="all"</code>
+        attribute. If you want your image to be scaled to its container size, use
+          <code>scalefit</code>. You can also specify a <code>width</code>.</p>
+<pre class="pre codeblock"><fig id="image1" frame="all">
+    <title>Oxygen Sample Webhelp</title>
+   <image href="oxygen.png" placement="break" scalefit="yes" width="700"/>
+</fig></pre>
 </div>
-<p class="p">However, I think it would be wiser to use <samp class="ph codeph">max-width</samp> on images in your<br />
+<p class="p">However, I think it would be wiser to use <code>max-width</code> on images in your
         webhelp stylesheet.</p>
 </p></div>
 </p></div>

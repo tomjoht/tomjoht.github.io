@@ -19,7 +19,7 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Cross references</h1>
 <div class="body conbody">
-<p class="shortdesc">You create cross references by pointing to the ID of a particular element that you want<br />
+<p class="shortdesc">You create cross references by pointing to the ID of a particular element that you want
   to link to.</p>
 <div class="section">
 <h2 class="title sectiontitle">Referring to specific steps</h2>
@@ -27,29 +27,29 @@ excerpt: !ruby/object:Hpricot::Doc
 <ol class="ol">
 <li class="li">Add an ID tag on the step:
 <pre class="pre codeblock">
-&lt;task id="task_lxj_zps_44"&gt;
+<task id="task_lxj_zps_44">
 
 ...
       
-&lt;step id="deploy"&gt;
+<step id="deploy">
     </pre>
 </li>
-<li class="li">Reference the ID through an <samp class="ph codeph">xref</samp> element and include<br />
-      <samp class="ph codeph">type="li"</samp>.
-<pre class="pre codeblock">Now perform the same routine as you did in &lt;xref href="#task_lxj_zps_44/deploy" type="li"/&gt;.</pre>
-<div class="note note"><span class="notetitle">Note:</span> The type is <samp class="ph codeph">li</samp>, not <samp class="ph codeph">step</samp>.</div>
+<li class="li">Reference the ID through an <code>xref</code> element and include
+      <code>type="li"</code>.
+<pre class="pre codeblock">Now perform the same routine as you did in <xref href="#task_lxj_zps_44/deploy" type="li"/>.</pre>
+<div class="note note"><span class="notetitle">Note:</span> The type is <code>li</code>, not <code>step</code>.</div>
 </li>
 </ol></div>
 <div class="section">
 <h2 class="title sectiontitle">Referring to a specific section</h2>
-<p class="p">To refer to a specific section with a cross reference, in your regular content, add an ID<br />
+<p class="p">To refer to a specific section with a cross reference, in your regular content, add an ID
     attribute on the element like this:</p>
 <div class="p">
-<pre class="pre codeblock">&lt;section id="date_selection"&gt;&lt;title&gt;Date Selection&lt;/title&gt;</pre>
-<p>Then<br />
+<pre class="pre codeblock"><section id="date_selection"><title>Date Selection</title></pre>
+<p>Then
     refer to it like this:</p></div>
-<pre class="pre codeblock">&lt;p&gt; Select the date range you want. See the previous section, &lt;xref href="yourditatopic.dita#thetopicid/date_selection" type="section"/&gt;, for
- details about the options.&lt;/p&gt;
+<pre class="pre codeblock"><p> Select the date range you want. See the previous section, <xref href="yourditatopic.dita#thetopicid/date_selection" type="section"/>, for
+ details about the options.</p>
   </pre>
 </p></div>
 </p></div>

@@ -19,81 +19,81 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Hello World getting started tutorial</h1>
 <div class="body">
-<p class="p">This is a Hello World type of exercise where I show you how to get going with OxygenXML in<br />
+<p class="p">This is a Hello World type of exercise where I show you how to get going with OxygenXML in
       the quickest way possible.</p>
 <div class="p">
 <ol class="ol" id="topic_vm3_v3z_bq__ol_atv_x3z_bq">
 <li class="li">Download <a class="xref external" href="http://www.oxygenxml.com/download.html" target="_blank">OxygenXML</a>.
-<p class="p">There are 3 flavors: Editor, Developer, and<br />
-            Author. Unless you intended to get heavy into XML development, just choose<br />
-            <strong class="ph b">Author</strong>. The Developer and Author versions just provide different perspectives of<br />
+<p class="p">There are 3 flavors: Editor, Developer, and
+            Author. Unless you intended to get heavy into XML development, just choose
+            <strong class="ph b">Author</strong>. The Developer and Author versions just provide different perspectives of
             the same application.</p>
 </li>
-<li class="li">Create a folder on your computer where you can easily organize and access your<br />
+<li class="li">Create a folder on your computer where you can easily organize and access your
             files.
-<p class="p">If you're on a Mac, I recommend that you use the<br />
-              <span class="ph filepath">/users/&lt;username&gt;/projects</span> folder, since this is the default<br />
+<p class="p">If you're on a Mac, I recommend that you use the
+              <span class="ph filepath">/users/<username>/projects</span> folder, since this is the default
             folder when you clone a repository.</p>
 </li>
-<li class="li">Go to <span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">New</span></span>. </li>
-<li class="li">Expand the <span class="ph menucascade"><span class="ph uicontrol">Framework</span> &gt; <span class="ph uicontrol">DITA</span> &gt; <span class="ph uicontrol">topic</span></span> and choose <span class="ph uicontrol">Topic</span>.
-<p class="p">Once you choose a template here,<br />
-            your choices will appear under a "Recently Used" section so you don't have to browse so<br />
+<li class="li">Go to <span class="ph menucascade"><span class="ph uicontrol">File</span> > <span class="ph uicontrol">New</span></span>. </li>
+<li class="li">Expand the <span class="ph menucascade"><span class="ph uicontrol">Framework</span> > <span class="ph uicontrol">DITA</span> > <span class="ph uicontrol">topic</span></span> and choose <span class="ph uicontrol">Topic</span>.
+<p class="p">Once you choose a template here,
+            your choices will appear under a "Recently Used" section so you don't have to browse so
             many folders next time.</p>
 </li>
-<li class="li">In either the Author or Text view, create some content. For example, if you're in the<br />
-          Text view, you might create<br />
+<li class="li">In either the Author or Text view, create some content. For example, if you're in the
+          Text view, you might create
             this:
-<pre class="pre codeblock">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"&gt;
-&lt;topic id="topic_vm3_v3z_bq"&gt;
-  &lt;title&gt;Hello World&lt;/title&gt;
-  &lt;body&gt;
-    &lt;p&gt;This is my first help output. Hooray!!!&lt;/p&gt;
+<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_vm3_v3z_bq">
+  <title>Hello World</title>
+  <body>
+    <p>This is my first help output. Hooray!!!</p>
    
-  &lt;/body&gt;
-&lt;/topic&gt;
+  </body>
+</topic>
 </pre>
-<p class="p">In<br />
-            either view, note how Oxygen will prompt you with options. In the Author view, hit your<br />
+<p class="p">In
+            either view, note how Oxygen will prompt you with options. In the Author view, hit your
             Return key to see a list of elements you can insert at a particular point.</p>
 </li>
-<li class="li">Save the file and called it <samp class="ph codeph">hello_world</samp>. </li>
-<li class="li">Go to <span class="ph menucascade"><span class="ph uicontrol">File</span> &gt; <span class="ph uicontrol">New</span></span> and expand the <span class="ph menucascade"><span class="ph uicontrol">Framework</span> &gt; <span class="ph uicontrol">DITA Map</span> &gt; <span class="ph uicontrol">map</span></span>, and choose <span class="ph uicontrol">DITA Map</span>.</li>
-<li class="li">Save the DITA map. Call it something like <samp class="ph codeph">sample</samp>. Note that the<br />
-          extension will be <samp class="ph codeph">.ditamap</samp>.</li>
-<li class="li">In the DITA Map, add the bold text shown below (the rest should already be populated<br />
+<li class="li">Save the file and called it <code>hello_world</code>. </li>
+<li class="li">Go to <span class="ph menucascade"><span class="ph uicontrol">File</span> > <span class="ph uicontrol">New</span></span> and expand the <span class="ph menucascade"><span class="ph uicontrol">Framework</span> > <span class="ph uicontrol">DITA Map</span> > <span class="ph uicontrol">map</span></span>, and choose <span class="ph uicontrol">DITA Map</span>.</li>
+<li class="li">Save the DITA map. Call it something like <code>sample</code>. Note that the
+          extension will be <code>.ditamap</code>.</li>
+<li class="li">In the DITA Map, add the bold text shown below (the rest should already be populated
             there):
-<pre class="pre codeblock">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"&gt;
-&lt;map&gt;
- &lt;title&gt;DITA Topic Map&lt;/title&gt;
+<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>DITA Topic Map</title>
  
- <strong class="ph b">&lt;topicref href="hello_world.dita"/&gt;</strong>
-&lt;/map&gt;</pre>
-<p class="p">Note<br />
-            that once you save your DITA map file, when you type <samp class="ph codeph">href="</samp>, the editor<br />
+ <strong class="ph b"><topicref href="hello_world.dita"/></strong>
+</map></pre>
+<p class="p">Note
+            that once you save your DITA map file, when you type <code>href="</code>, the editor
             will show you available topics within the folder.</p>
 </li>
-<li class="li">While viewing your DITA map file, right-click the tab and choose <span class="ph uicontrol">Open in DITA<br />
+<li class="li">While viewing your DITA map file, right-click the tab and choose <span class="ph uicontrol">Open in DITA
             Maps Manager View</span>.
-<p class="p">The map will open in a left side pane in the DITA Maps<br />
-            Manager view. This view makes it easy to jump around to various topics in your help<br />
+<p class="p">The map will open in a left side pane in the DITA Maps
+            Manager view. This view makes it easy to jump around to various topics in your help
             system.</p>
-<p class="p">In the DITA Maps Manager view, click the wrench icon (<strong class="ph b">Configure<br />
+<p class="p">In the DITA Maps Manager view, click the wrench icon (<strong class="ph b">Configure
               Transformation Scenario(s)</strong>). </p>
 <p class="p">
-            <br /><img class="image" id="topic_vm3_v3z_bq__image_m24_clz_bq" src="/images/dita_maps_manager.png" alt="" />
+            <img class="image" id="topic_vm3_v3z_bq__image_m24_clz_bq" src="/images/dita_maps_manager.png" alt="" />
           </p>
 </li>
-<li class="li">Select <span class="ph uicontrol">DITA Map Webhelp</span>, and then click <span class="ph uicontrol">Apply<br />
+<li class="li">Select <span class="ph uicontrol">DITA Map Webhelp</span>, and then click <span class="ph uicontrol">Apply
             Associated</span>.
-<p class="p">On subsequent builds, you can just click the red triangle<br />
-            (Apply Transformation Scenarios) to the left of the Configure Transformation Scenario(s)<br />
-            button. This button will apply whatever selections you have set in the Configure<br />
+<p class="p">On subsequent builds, you can just click the red triangle
+            (Apply Transformation Scenarios) to the left of the Configure Transformation Scenario(s)
+            button. This button will apply whatever selections you have set in the Configure
             Transformation Scenario(s) dialog. </p>
-<p class="p">Congratulations. You should see a sample<br />
-            webhelp output as shown below.<br /><img class="image" id="topic_vm3_v3z_bq__image_fp5_hlz_bq" src="/images/sample_output.png" alt="" /></p>
+<p class="p">Congratulations. You should see a sample
+            webhelp output as shown below.<img class="image" id="topic_vm3_v3z_bq__image_fp5_hlz_bq" src="/images/sample_output.png" alt="" /></p>
 </li>
 </ol></div>
 </p></div>

@@ -22,22 +22,22 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <p>I know this may sound like a trivial topic, but I wanted to note that the topichead element used in ditamap files should mostly be avoided. The topichead element allows you to group topics into a hierarchy, like this:</p>
 <p>[xml]<br />
-&lt;topichead navtitle=&quot;Links&quot;&gt;<br />
- &lt;topicref href=&quot;keyref_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;inline_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;related_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;relationship_tables.dita&quot;/&gt;<br />
-&lt;/topichead&gt;<br />
+<topichead navtitle="Links"&gt;<br />
+ <topicref href="keyref_links.dita"/&gt;<br />
+ <topicref href="inline_links.dita"/&gt;<br />
+ <topicref href="related_links.dita"/&gt;<br />
+ <topicref href="relationship_tables.dita"/&gt;<br />
+</topichead&gt;<br />
 [/xml]</p>
 <p>The problem is that the topichead element output creates an empty folder. When the user clicks the folder, no content appears. The folder just expands to show its inner contents. Given that most other elements clicked in the TOC change what appears in the main content window, having an empty folder not show any change may cause users to assume something's broken.</p>
 <p>Beyond the usability issue, it's nice to have a mini-TOC as the opening page for each folder. When you use parent-child relationships with the topicref elements in a map, the child topics appear embedded on the parent topic along with the shortdesc element for each topic. </p>
 <p>For example, suppose this is your structure: </p>
 <p>[xml]<br />
-&lt;topicref href=&quot;toc_links.dita&quot;&gt;<br />
- &lt;topicref href=&quot;keyref_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;inline_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;related_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;relationship_tables.dita&quot;/&gt;<br />
-&lt;/topicref&gt;<br />
+<topicref href="toc_links.dita"&gt;<br />
+ <topicref href="keyref_links.dita"/&gt;<br />
+ <topicref href="inline_links.dita"/&gt;<br />
+ <topicref href="related_links.dita"/&gt;<br />
+ <topicref href="relationship_tables.dita"/&gt;<br />
+</topicref&gt;<br />
 [/xml]</p>
 <p>Your parent topic might appear like this:</p>

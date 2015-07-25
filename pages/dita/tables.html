@@ -19,50 +19,50 @@ excerpt: !ruby/object:Hpricot::Doc
 ---
 <h1 class="title topictitle1">DITA: Tables</h1>
 <div class="body conbody">
-<p class="shortdesc">You can insert two kinds of tables in dita: a simple table and a more formal cals table.<br />
-  However, there doesn't seem much point to using the simple table, as it's not really much simpler.<br />
+<p class="shortdesc">You can insert two kinds of tables in dita: a simple table and a more formal cals table.
+  However, there doesn't seem much point to using the simple table, as it's not really much simpler.
   The cals table gives you more options and seems to use more straightforward tagging.</p>
-<p class="p">To insert a table, either click the Table button in the Author view and select your options, or<br />
-   in the Text view, type <samp class="ph codeph">&lt;t</samp>, wait for the "table" prompt, and then press Enter.<br />
-   In the cols="" field, type the number of columns you want. Put your cursor right after<br />
-    <samp class="ph codeph">tgroup</samp> element and type <samp class="ph codeph">&lt;</samp> and select "thead" at the prompt,<br />
+<p class="p">To insert a table, either click the Table button in the Author view and select your options, or
+   in the Text view, type <code><t</code>, wait for the "table" prompt, and then press Enter.
+   In the cols="" field, type the number of columns you want. Put your cursor right after
+    <code>tgroup</code> element and type <code><</code> and select "thead" at the prompt,
    then press Enter.</p>
 <p class="p">The table code looks like this:</p>
-<pre class="pre codeblock"> &lt;table&gt;
-  &lt;title&gt;Table title&lt;/title&gt;
-  &lt;tgroup cols="2"&gt;
-   &lt;thead&gt;
-    &lt;row&gt;
-     &lt;entry&gt;Button&lt;/entry&gt;
-     &lt;entry&gt;Description&lt;/entry&gt;
-    &lt;/row&gt;
-   &lt;/thead&gt;
-   &lt;tbody&gt;
-    &lt;row&gt;
-     &lt;entry&gt;Print&lt;/entry&gt;
-     &lt;entry&gt;Prints the document.&lt;/entry&gt;
-    &lt;/row&gt;
+<pre class="pre codeblock"> <table>
+  <title>Table title</title>
+  <tgroup cols="2">
+   <thead>
+    <row>
+     <entry>Button</entry>
+     <entry>Description</entry>
+    </row>
+   </thead>
+   <tbody>
+    <row>
+     <entry>Print</entry>
+     <entry>Prints the document.</entry>
+    </row>
     
-    &lt;row&gt;
-     &lt;entry&gt;Open&lt;/entry&gt;
-     &lt;entry&gt;Opens the file.&lt;/entry&gt;
-    &lt;/row&gt;
-   &lt;/tbody&gt;
-  &lt;/tgroup&gt;
- &lt;/table&gt;</pre>
-<p class="p">The title ends up being set as the caption on the top of the table. You can actually set the<br />
-   column widths using the table properties. Switch to the Author mode to view your table. Grab the<br />
-   middle column divider and drag it a bit. You'll be prompted whether you want proportional or<br />
-   fixed columns. Choose proportional, since it will render better on different devices. Now drag<br />
+    <row>
+     <entry>Open</entry>
+     <entry>Opens the file.</entry>
+    </row>
+   </tbody>
+  </tgroup>
+ </table></pre>
+<p class="p">The title ends up being set as the caption on the top of the table. You can actually set the
+   column widths using the table properties. Switch to the Author mode to view your table. Grab the
+   middle column divider and drag it a bit. You'll be prompted whether you want proportional or
+   fixed columns. Choose proportional, since it will render better on different devices. Now drag
    the middle column divider to the width appropriate for your content.</p>
-<p class="p">Once you set the column widths, switch back to the text view to see the values assigned to the<br />
-    <samp class="ph codeph">colspec</samp> element that was added to your table.</p>
-<div class="p">You can also add the proportions directly in the colspec element. If you choose proportional<br />
-   widths, the values might look like the<br />
+<p class="p">Once you set the column widths, switch back to the text view to see the values assigned to the
+    <code>colspec</code> element that was added to your table.</p>
+<div class="p">You can also add the proportions directly in the colspec element. If you choose proportional
+   widths, the values might look like the
    following:
-<pre class="pre codeblock">&lt;tgroup cols="2"&gt;
-    &lt;colspec colnum="1" colname="c1" colwidth="1*"/&gt;
-    &lt;colspec colnum="2" colname="c2" colwidth="2*"/&gt;</pre>
+<pre class="pre codeblock"><tgroup cols="2">
+    <colspec colnum="1" colname="c1" colwidth="1*"/>
+    <colspec colnum="2" colname="c2" colwidth="2*"/></pre>
 </div>
 <p class="p">Here, the first second column will be twice as wide as the first column.</p>
 </p></div>
