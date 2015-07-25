@@ -5,9 +5,9 @@ permalink: /java-delegates/
 date: 2015-01-01 19:40:17.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 "Delegates" is a feature in C++ but not Java. The idea is that you can forward a request on to another method.
 
 > Q: What are delegates?

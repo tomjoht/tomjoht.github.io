@@ -5,9 +5,9 @@ permalink: /java-garbage-collection/
 date: 2015-01-01 19:49:43.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 * Garbage collection is Java's process for freeing up memory by removing old object references that are no longer valid.
 
 > Java relies on garbage collection. A garbage collector removes unused objects from memory and lets your programs re-use memory rather than constantly grow. For very small programs, this constant growth doesn't matter much. However, even a program of fairly low complexity and scale can quickly chew through a lot of memory. Therefore, most programs really need some kind of garbage collection mechanism.

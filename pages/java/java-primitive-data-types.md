@@ -5,9 +5,9 @@ permalink: /java-primitive-data-types/
 date: 2015-01-01 20:17:16.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * **byte**: a whole number between -128 and 127.

@@ -5,9 +5,9 @@ permalink: /java-handling-exceptions/
 date: 2015-01-01 19:51:37.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * Try-catch blocks are ways of safeguarding your code from blowing up if there are errors.

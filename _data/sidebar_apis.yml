@@ -4,6 +4,8 @@ entries:
   subcategories:
     - title: REST API requests and responses
       items:
+        - title: Introduction
+          url: /toc-apis/
         - title: EventBrite example
           url: /eventbrite-example/
         - title: Klout score example

@@ -5,9 +5,9 @@ permalink: /java-collections-framework/
 date: 2015-01-01 19:35:52.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 
 * elements that contain multiple values but are stored as one, such as a map, list, set, etc.
 

@@ -5,9 +5,9 @@ permalink: /java-constructors/
 date: 2015-01-01 19:38:42.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * constructors construct objects from classes

@@ -5,9 +5,9 @@ permalink: /java-objects/
 date: 2015-01-01 20:12:47.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 
 * An object is an instance of a class. You rarely work directly with the class; instead, you work with objects of the class.
 

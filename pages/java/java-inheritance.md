@@ -5,9 +5,9 @@ permalink: /java-inheritance/
 date: 2015-01-01 19:59:08.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * allows you to create a subclass that inherits the properties (fields + methods) of its parent or superclass.

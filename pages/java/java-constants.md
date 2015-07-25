@@ -5,9 +5,9 @@ permalink: /java-constants/
 date: 2015-01-01 19:38:05.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 
 Constants are fields that hold values that do not change. It's a custom to format constants in full caps. When you have a modifier of "final", it's a constant.
 

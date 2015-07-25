@@ -5,9 +5,9 @@ permalink: /java-packages/
 date: 2015-01-01 20:15:08.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * Packages are a way to organize classes into groups.

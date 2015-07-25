@@ -5,9 +5,9 @@ permalink: /java-modifiers/
 date: 2015-01-01 20:09:50.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * **static** - not instantiated -- belongs to the class not the object; any changes affect every instance.

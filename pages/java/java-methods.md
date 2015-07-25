@@ -5,32 +5,33 @@ permalink: /java-methods/
 date: 2015-01-01 20:08:45.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * Methods are actions that an object can do.
 * Methods accept arguments of specific data types.
-* Yust specify whether the method returns something.
+* You must specify whether the method returns something.
 * You declare methods inside of classes.
 * Methods always have a `()` after them.
 * If the method accepts arguments, put them inside the `()`.
-* Even the arguments require you to specify what data types they are -- for example, `(int x, int y`)
-* Include a return type before the method.
+* Even the arguments require you to specify what data types they are -- for example, `(int x, int y`) -- include a return type before the method.
 * Methods have something called a "method signature." This is simply the declaration part of a method -- for example: `int childAge(int years);`
 * Suppose your method returns a string. If so, `add return x` at the end of the method.
 * Methods are written in camel case.
+ 
+## Eclipse
+See the getter_and_setter2 example. 
 
 ## Return types
-
 
 | Return types | Description | 
 |--------|--------|
 | **void** | returns nothing |
 | **String** | returns a string |
 
-For a description of the access specifiers (e.g., public, private, protected), see the Access Specifiers topic.
+For a description of the access specifiers (e.g., public, private, protected), see <a href="{{ "/java-access-modifiers" | prepend: site.baseurl }}">Access Specifiers </a>.
 
 ## Getter and setter methods
 
@@ -65,7 +66,7 @@ childAge(6);
 
 The `childAge.age` will then be equal to `6`.
 
-See the getter_and_setter2 example. The `this` keyword is important. Here's what's happening. When you use this, it refers to the object itself, so you're setting the instance variable. If you don't use `this`, then you set the class variable value. The `this` is a really common pattern.
+The `this` keyword is important. Here's what's happening. When you use this, it refers to the object itself, so you're setting the instance variable. If you don't use `this`, then you set the class variable value. The `this` is a really common pattern.
 
 ## Main method
 

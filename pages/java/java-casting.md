@@ -5,9 +5,9 @@ permalink: /java-casting/
 date: 2015-01-01 19:33:32.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * A way of converting one value type to another

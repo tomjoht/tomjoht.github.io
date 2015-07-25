@@ -5,9 +5,9 @@ permalink: /java-code-formatting/
 date: 2015-01-01 19:34:58.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Code formatting
 
 * 80 characters

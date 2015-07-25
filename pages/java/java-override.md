@@ -5,9 +5,9 @@ permalink: /java-override/
 date: 2015-01-01 20:13:28.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Override
 
 You see this keyword when you implement an interface or extend an abstract class. In both cases, you have to implement the parent class's methods.

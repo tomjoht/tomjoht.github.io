@@ -5,9 +5,9 @@ permalink: /java-eclipse-shortcuts/
 date: 2015-01-01 19:40:54.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 There are several shortcuts with Eclipse that are indispensable.
 
 | Command | What it does |

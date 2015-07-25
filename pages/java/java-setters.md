@@ -5,9 +5,9 @@ permalink: /java-setters/
 date: 2015-01-01 20:23:29.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 * setters refers to a technique for encapsulating a value so that users don't set invalid data types or other incorrect data as a field value.
 
 Eclipse example: getter_and_setter_methods

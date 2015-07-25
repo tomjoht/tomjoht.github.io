@@ -91,10 +91,10 @@ topnav_dropdowns:
         url: /javascript/
 
       - title: DITA
-        url: /toc-dita/
+        url: /ditaqrg/
 
       - title: Java
-        url: /toc-java/
+        url: /java-introduction/
 
       - title: APIs
         url: /toc-apis/

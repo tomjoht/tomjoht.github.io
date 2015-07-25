@@ -324,10 +324,10 @@ text-decoration: none;
 
 ul#mysidebar {
   border-radius:0px;
-    max-width:300px;
-    float:right;
-    padding:40px
+    padding:20px
     width:250px;
+    margin-bottom:30px;
+    margin-top:15px;
 }
 
 ul#mysidebar li {

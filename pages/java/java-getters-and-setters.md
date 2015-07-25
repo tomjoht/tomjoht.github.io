@@ -5,9 +5,9 @@ permalink: /java-getters-and-setters/
 date: 2015-01-01 19:50:57.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * best practice technique for allowing users to set field values

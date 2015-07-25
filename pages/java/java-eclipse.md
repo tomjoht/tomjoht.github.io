@@ -5,9 +5,9 @@ permalink: /java-eclipse/
 date: 2015-01-03 18:56:08.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 Eclipse, an open-source project, is the most common IDE for Java. Eclipse comes with its own compiler, so you don't have to download the JDK (Java Development Kit). You only need to download the JRE (Java RunTime Environment).
 
 There are various flavors of Eclipse. You can implement different perspectives that show different tools for different languages. For Java programming, you need to download Eclipse IDE for Java Developers, which you can get from [http://www.eclipse.org/downloads](http://www.eclipse.org/downloads). Just make sure you download the right bit version (32 or 64) for your machine.

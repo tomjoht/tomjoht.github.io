@@ -5,9 +5,9 @@ permalink: /java-inner-classes/
 date: 2015-01-01 20:00:18.000000000 -08:00
 categories:
 - java
+type: notes_java
 ---
-{% assign sidebar = site.data.sidebar_java.entries %}
-{% include technotes_toc.html %}
+
 ## Quick summary
 
 * an inner class is a class inside of a class
