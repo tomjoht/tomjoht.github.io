@@ -11,7 +11,7 @@ weight: 1.5
 {% include series/seriesTagTestingDocs.html %}
 <style>
 div pre {
-background-color: white;
+background-color: #fdfdfd;
 }
 </style>
 This is another post in my series on [testing documentation](http://idratherbewriting.com/2015/07/07/testing-your-instructions/). 
