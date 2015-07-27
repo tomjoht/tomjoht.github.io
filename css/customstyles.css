@@ -918,3 +918,7 @@ p.dsq-widget-meta a {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+.col-md-9 ol li ul {
+    margin-top: 10px;
+}

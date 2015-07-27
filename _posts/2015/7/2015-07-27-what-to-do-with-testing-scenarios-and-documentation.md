@@ -9,7 +9,11 @@ summary: ""
 weight: 1.5
 ---
 {% include series/seriesTagTestingDocs.html %}
-
+<style>
+div pre {
+background-color: white;
+}
+</style>
 This is another post in my series on [testing documentation](http://idratherbewriting.com/2015/07/07/testing-your-instructions/). 
 
 ## What I mean by testing 
@@ -20,28 +24,40 @@ The testing I'm talking about is more like a simple user test, a test that appro
 ## Sample test case 
 An example might help clarify things. A typical documentation task might look like this:
 
-<b>Generating a Widget</b>
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<h4>Generating a Widget</h4>
 
-1. Click the **Widget** button.
-2. Configure the system with the settings you want:
- * **Height**: Does this...
- * **Width**: Does that...
- * **Type**: Optionally does this and that.
-3. Copy the code to your directory and publish.
-
+<ol>
+<li>Click the <b>Widget</b> button.</li>
+<li>Configure the system with the settings you want:
+ <ul><li><b>Height</b>: Does this...</li>
+ <li><b>Width</b>: Does that...</li>
+ <li><b>Type</b>: Optionally does this and that.</li>
+ </ul>
+ </li>
+<li>Copy the code to your directory and publish.</li>
+</ol>
+</div>
 In contrast, a typical test case might look like this:
 
-<b>Generating a 300x200px ABC Widget</b>
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
 
-1. Click the **Widget** button.
-2. Input value **123** into the system.
-3. Configure the system with the following settings:
- * Height: **200px**
- * Width: **300px**
- * Type: **Visual**
-4. Copy the widget into directory 3 and restart the service.
+<h4>Generating a 300x200px ABC Widget</h4>
 
-You should see the ABC-123 widget appear filling a space 300x200px wide.
+<ol>
+<li>Click the <b>Widget</b> button.</li>
+<li>Input value <b>123</b> into the system.</li>
+<li>Configure the system with the following settings:
+ <ul><li>Height: <b>200px</b></li>
+ <li>Width: <b>300px</b></li>
+ <li>Type: <b>Visual</b></li>
+ </ul>
+ </li>
+<li>Copy the widget into directory 3 and restart the service.</li>
+</ol>
+
+<p>You should see the ABC-123 widget appear filling a space 300x200px wide.</p>
+</div>
 
 What's the difference? The test case uses actual values in a more realistic scenario to produce a specific and measurable end. The test case might also incorporate specific business logic that is usually left out of the generic task in the documentation.
 
@@ -65,45 +81,52 @@ With API documentation, most of documentation consists of reference topics that 
 
 Here's an example. A typical reference topic in API doc might look like this:
 
-<b>ACME Endpoint: acmegluetrap</b>
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<h4>ACME Endpoint: acmegluetrap</h4>
 
-Description: Catches roadrunners with a sticky glue. 
+<p>Description: Catches roadrunners with a sticky glue. </p>
 
-Parameters: 
-* power: How powerful the glue should be (integer)
-* duration: How long the glue should remain sticky (integer)
-* amount: The amount of glue to apply (integer)
+<p>Parameters:</p>
+<ul>
+<li>power: How powerful the glue should be (integer)</li>
+<li>duration: How long the glue should remain sticky (integer)</li>
+<li>amount: The amount of glue to apply (integer)</li>
+</ul>
+</div>
 
 In contrast, with a tutorial, you might write it like this:
 
-<b>Catch a roadrunner with glue</b.
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<h4>Catch a roadrunner with glue</h4>
 
-In this tutorial, you will use the `acmegluetrap` endpoint to catch a roadrunner with a sticky glue. 
+<p>In this tutorial, you will use the <code>acmegluetrap</code> endpoint to catch a roadrunner with a sticky glue. </p>
 
-1. Set up authorization keys. (link...)
-2. Copy the ACME endpoint. 
-3. For each parameter, enter the following:
- * power: 10
- * duration: 300
- * amount: 50
+<ol>
+<li>Set up authorization keys. (link...)</li>
+<li>Copy the ACME endpoint. </li>
+<li>For each parameter, enter the following:
+ <ul><li>power: 10</li>
+ <li>duration: 300</li>
+ <li>amount: 50</li></ul>
+ </li>
+ </ol>
+<p>Power is how powerful the glue should be. Duration defines the length of time the glue remains sticky. And amount refers to how much glue you're using. All values are integers.</p>
  
-Power is how powerful the glue should be. Duration defines the length of time the glue remains sticky. And amount refers to how much glue you're using. All values are integers.
- 
-The endpoint looks like this:
+<p>The endpoint looks like this:</p>
 
-```
+{% highlight bash %}
 http://myapi.acme.com/apikey/12345/acmegluetrap?power=10&duration=300?amount=50
-```
+{% endhighlight %}
 
-With the Authorization headers, the cURL request looks like this:
+<p>With the Authorization headers, the cURL request looks like this:</p>
 
-```
+{% highlight bash %}
 curl 'http://myapi.acme.com/apikey/12345/acmegluetrap?power=10&duration=300?amount=50' -H 'Authorization: 43uo3jkfp' -H 'Accept: application/json'
-```
+{% endhighlight %}
 
-The response should be as follows:
+<p>The response should be as follows:</p>
 
-```json
+{% highlight json %}
 {
 "adhesionResult":{  
        "roadrunnersTrapped":"3",
@@ -112,7 +135,8 @@ The response should be as follows:
        "powerLevel":"titan"
     }
  }
-```
+{% endhighlight %}
+</div>
 
 ## Why do API docs lack task-based topics?
 
