@@ -8,9 +8,9 @@ summary: "Although the \"ability to juggle multiple projects\" is common to the 
 
 ## Juggling multiple projects is the norm 
 
-It seems that nearly every job description for technical writing mentions that the writer will need to "juggle multiple projects." And it's true. The nature of technical writing is that you are rarely dedicated to a single project. Most of the time, you are only needed near release times, so you end up switching among multiple projects depending upon which project needs documentation the most.
+It seems that nearly every job description for technical writing mentions that the writer will need to "juggle multiple projects." And it's true. The nature of technical writing is that you are rarely dedicated to a single project. Most of the time, you are only needed near releases, so you end up switching among multiple projects depending upon which project needs documentation the most.
 
-For example, right now I'm documenting three separate products. Usually their release cycles don't all crest at the same time, so bounce from project to project based on their pace of development. I've always had several projects going at once, and I've accepted this as part of the nature of technical writing. 
+For example, right now I'm documenting three separate products. Usually their release cycles don't all crest at the same time, so I bounce from project to project based on their pace of development. I've always had several projects going at once, and I've accepted this as part of the nature of technical writing. 
 
 ## Context-switching reduces productivity 
 
