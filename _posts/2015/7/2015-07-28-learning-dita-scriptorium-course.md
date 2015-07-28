@@ -1,5 +1,5 @@
 ---
-title: Learning DITA: A new course by Scriptorium 
+title: "Learning DITA: A new course by Scriptorium"
 categories:
 - dita
 - beginners
@@ -45,12 +45,16 @@ It's interesting to see that Scriptorium created XSLT transforms to publish DITA
 
 My overall feedback about the course is that I thought there should be more hands-on activities. People primarily learn by doing, so there should be more activities that help people create the content talked about in the course. 
 
-To credit, there is a lesson that shows how to create a topic in Oxygen, but that's it. I think there should be a walk-through from beginning-to-end on how to get a simple DITA project authored and published. All the information needed to create a project is provided in the course, more or less, with easy code samples that one could copy and paste. But it would be nice to see some step-by-step tutorials for executing a project inside Oxygen or some other tool. Since this is just the "Introduction," maybe a future course will provide this detail.
+To credit, there is a lesson that shows how to create a topic in Oxygen, but that's it. I think there should be a walk-through from beginning-to-end on how to get a simple DITA project authored and published. 
+ 
+ Most of the information needed to create a project is provided in the course, more or less, with easy code samples that one could copy and paste. But it would be nice to see an actual step-by-step tutorial for executing a project inside Oxygen or some other tool. Since this is just the "Introduction," maybe a future course will provide this detail.
 
 ## Why am I reviewing this course?
 
-If you know me, you may wonder why I'm reviewing a course on DITA, since I [abandoned DITA for Jekyll](http://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/) some months ago. Well, I'm interested in seeing different approaches to online courses and learning. Whereas [Peter Gruenbaum's course on API documentation](http://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/) was primarily video-based, the [learningdita.com course](http://learningdita.com/) is primarily text-based. 
+If you know me, you may wonder why I'm reviewing a course on DITA, since I [abandoned DITA for Jekyll](http://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/) some months ago. 
 
-Also, I'm trying to highlight more newsworthy events on my blog, and this course on DITA is a first of its kind. Congrats to Scriptorium for making this information available for free on the web.
+Well, I'm interested in seeing different approaches to online courses and learning. Whereas [Peter Gruenbaum's course on API documentation](http://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/) was primarily video-based, the [learningdita.com course](http://learningdita.com/) is primarily text-based. 
+
+Also, I'm trying to highlight more newsworthy events on my blog, and this course on DITA is a first of its kind. Congrats to [Scriptorium](http://scriptorium.com) for making this information available for free on the web.
 
 
