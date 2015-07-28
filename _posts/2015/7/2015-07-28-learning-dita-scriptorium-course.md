@@ -1,10 +1,10 @@
 ---
-title: "Learning DITA: A new course by Scriptorium"
+title: "LearningDITA.com: A new online learning resource by Scriptorium"
 categories:
 - dita
 - beginners
 keywords: 
-summary: "Learningdita.com is a free online course created by Scriptorium for learning DITA. The course lasts about an hour and will introduce you to core DITA concepts and techniques."
+summary: "Learningdita.com is a free online educational resource created by Scriptorium for learning DITA. The initial course on their site, "Introduction to DITA," lasts about an hour and will introduce you to core DITA concepts and techniques."
 ---
 
 ## A Free Course on DITA
