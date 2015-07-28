@@ -18,12 +18,12 @@ tags: []
    will instruct the system on how to publish your content.</p>
 <div class="p">The ditaval file consists of the
    following:
-<pre>
+{% highlight xml %}
     <val>
     <prop action="exclude" att="platform" val="mac" />
     <prop action="exclude" att="platform" val="linux" />
     <prop action="exclude" att="product" val="acme"/>
-</val></pre>
+</val>{% endhighlight %}
 </div>
 <p class="p">You specify the action (almost always exclude), the attribute (<code>att</code>), and the
    value (<code>val</code>). In this ditaval file, any properties that have

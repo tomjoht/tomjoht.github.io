@@ -6,46 +6,36 @@ date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
 status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  dsq_thread_id: '3770196520'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Related Links</h1>
 <div class="body conbody">
 <p class="shortdesc">Related links are links that provide additional information about your topic. Usually related links point to web resources rather than other links within your DITA project.</p>
 <p class="p">It's best to use relationship tables for links, but you can also manually add related links at
       the bottom of your topics. Here's a sample:</p>
-<pre class="pre codeblock"><related-links>
+{% highlight xml %}<related-links>
     <link href="sample1.dita"><linktext>Sample 1 Page</linktext></link>
     <link href="sample2.dita"/>
     <link href="sample3.dita"/>
-   </related-links></pre>
+   </related-links>{% endhighlight %}
 <p class="p">If
     you're using keys instead of direct links, you would write it like
     this:</p>
-<pre class="pre codeblock"><related-links>
+{% highlight xml %}<related-links>
     <link keyref="sample1"/>
     <link keyref="sample2"/>
     <link keyref="sample3"/>
-   </related-links></pre>
+   </related-links>{% endhighlight %}
 <p class="p">Manually inserted related links like this are useful when you want to link out to resources on
       the web related to the topic.</p>
 <p class="p">If you're linking to content on the web, DITA can't pull in the titles automatically, so you
       need to specify them through the <code>linktext</code> element. You also need to add <code>format="html"</code> and <code>scope="external"</code> attributes to the link.</p>
 <div class="p">
-<pre class="pre codeblock"></pre>
-<pre class="pre codeblock"><related-links>
+{% highlight xml %}{% endhighlight %}
+{% highlight xml %}<related-links>
     <link href="http://nytimes.com" format="html" scope="external"><linktext>New York Times</linktext></link>
     <link format="html" scope="external" href="washingtonpost.com"><linktext>Washington Post</linktext></link>
     <link format="html" scope="external" href="huffingtonpost.com"><linktext>Huffingtonpost</linktext></link>
-   </related-links></pre>
+   </related-links>{% endhighlight %}
 </p></div>
 </p></div>
 <div class="related-links">

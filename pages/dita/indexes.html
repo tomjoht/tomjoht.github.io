@@ -26,7 +26,7 @@ excerpt: !ruby/object:Hpricot::Doc
         <code>prolog</code> element comes just after the <code>shortdesc</code> element
       (which follows the title). Here's a
       sample:
-<pre class="pre codeblock"><title>My Title</title>
+{% highlight xml %}<title>My Title</title>
  <shortdesc/>
 <prolog>
     <metadata>
@@ -34,12 +34,12 @@ excerpt: !ruby/object:Hpricot::Doc
         <indexterm>cars</indexterm>
       </keywords>
     </metadata>
-  </prolog></pre>
+  </prolog>{% endhighlight %}
 </div>
 <div class="p">You can also nest index entries inside of each other to create parent-child relationships among
    the index
    terms:
-<pre class="pre codeblock">  <prolog>
+{% highlight xml %}  <prolog>
     <metadata>
       <keywords>
         <indexterm>cars
@@ -47,34 +47,34 @@ excerpt: !ruby/object:Hpricot::Doc
         </indexterm>
       </keywords>
     </metadata>
-  </prolog></pre>
+  </prolog>{% endhighlight %}
 </div>
 <div class="p">The result in the index will look like this:
-<pre class="pre codeblock">cars
-  - sedan</pre>
+{% highlight xml %}cars
+  - sedan{% endhighlight %}
 </div>
 <p class="p">When you want to create a "see" entry for an index, code it like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
    <indexterm>vehicle
    <index-see>car</index-see>
 </indexentry>
-  </pre>
+  {% endhighlight %}
 <p class="p">The result of the index-see element is the following:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
     vehicle, see car
-   </pre>
+   {% endhighlight %}
 <p class="p">If you want to include a page number with the see also reference, write it like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
     <indexterm>vehicle
    <index-see-also>car</index-see-also>
 </indexentry>
     </indexterm>
-  </pre>
+  {% endhighlight %}
 <p class="p">The output will look like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
     vehicle ..... 23
            see also car
-   </pre>
+   {% endhighlight %}
 <p class="p">Keep in mind that index entries added to the <code>prolog</code> section will include page
       numbers pointing to the location of the <code>prolog</code>. Since most topics are short,
       this isn't a problem. Also, since the online help is usually the main deliverable, it's also

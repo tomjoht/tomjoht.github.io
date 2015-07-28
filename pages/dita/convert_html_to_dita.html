@@ -109,10 +109,10 @@ type: notes_dita
                         <span class="ph cmd">Look in the source code of the newly converted topics and address any warnings, notes, or other conversion problems.</span></p>
 <div class="itemgroup info">
 <p class="p">When you look at the source of the newly converted DITA topics, you'll see that many of them have sections that have comments in them, such as this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
     <!--Original: <span @class=aui-icon icon-warning>-->
       <span class="ph aui-icon icon-warning">Icon</span>
-                    </pre>
+                    {% endhighlight %}
 <p class="p">In this case, the original source used this class for notes. The
                             transform doesn't know how to map classes to note elements, so you'll
                             have to manually tag these sections as notes.</p>

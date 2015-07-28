@@ -5,17 +5,6 @@ permalink: /specializations/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3770870692'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Specializations (task, concept, reference)?</h1>
 <div class="body">
@@ -43,7 +32,7 @@ excerpt: !ruby/object:Hpricot::Doc
       overviews, workflows, and the like.</p>
 <p class="p">The basic structure of a concept topic looks like this:</p>
 <div class="p">
-<pre class="pre codeblock">- title
+{% highlight xml %}- title
 - shortdesc
 - conbody
     - p (optional)
@@ -52,10 +41,10 @@ excerpt: !ruby/object:Hpricot::Doc
     - p
     - image
     - codeblock
-    - etc.</pre>
+    - etc.{% endhighlight %}
 </p></div>
 <p class="p">Here's an actual sample:</p>
-<pre class="pre codeblock"><title>Keeping a clean house</title>
+{% highlight xml %}<title>Keeping a clean house</title>
 <shortdesc>Cleaning your house helps make your home comfortable and pleasant.
 There are lots of strategies to consider when trying to maintain a clean home.</shortdesc>
  <conbody>
@@ -67,7 +56,7 @@ Without a place, you cannot establish order in your house.</p>
   <section><title>Everything in its place</title>
   <p>You must also define a strategy for putting everything its proper place.</p>
   </section>
- </conbody></pre>
+ </conbody>{% endhighlight %}
 <p class="p">With concepts, each subsection is a <code>section</code> element. You can't nest
         <code>section</code> elements with each other, but you can nest
         <code>concept</code> elements inside each other. If you really need a third
@@ -82,7 +71,7 @@ Without a place, you cannot establish order in your house.</p>
 <p class="p"> Here's the element structure of the task. This outline shows what tags are allowed at each
           level.</p>
 <div class="p">
-<pre class="pre codeblock">-task
+{% highlight xml %}-task
 -title
 -shortdesc
 - taskbody
@@ -102,11 +91,11 @@ Without a place, you cannot establish order in your house.</p>
                - substeps
      - result
      - example
-     - postreq</pre>
+     - postreq{% endhighlight %}
 </p></div>
 <div class="p">Here's a full working example of a
           task:
-<pre class="pre codeblock"><task id="task_123">
+{% highlight xml %}<task id="task_123">
     
     <title>How to wash dishes</title>
     
@@ -191,7 +180,7 @@ Without a place, you cannot establish order in your house.</p>
         
     </taskbody>
     
-</task></pre>
+</task>{% endhighlight %}
 </div>
 <p class="p">As you're working in Oxygen, if you're in the Text view, type < and wait for the prompt to
           show you the available tags at that level. You can use your arrow keys to move up and down to see
@@ -220,16 +209,16 @@ Without a place, you cannot establish order in your house.</p>
           <code>refsyn</code> and properties table. The following examples come from the <a class="xref external" href="http://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/dita_reference_topic.html#dita_ref_topic" target="_blank">1.2 DITA spec on the reference topic type</a>.</p>
 <div class="p">Here's an example of how to use the <code>refsyn</code>
           element:
-<pre class="pre codeblock"><refsyn>
+{% highlight xml %}<refsyn>
     <synph>
       <var>object</var><delim>.</delim><kwd>Font</kwd><delim>.</delim>
       <kwd>Bold</kwd><delim> = </delim><var>trueorfalse</var>
     </synph>
-  </refsyn></pre>
+  </refsyn>{% endhighlight %}
 </div>
 <div class="p">Here's a sample properties
           table:
-<pre class="pre codeblock"><properties>
+{% highlight xml %}<properties>
 <property>
       <prophead>
           <proptypehd>Oil type</proptypehd>
@@ -246,7 +235,7 @@ Without a place, you cannot establish order in your house.</p>
       <propvalue>B2Z</propvalue>
       <propdesc>Appropriate for two-cylinder engines</propdesc>
     </property>
-  </properties></pre>
+  </properties>{% endhighlight %}
 </div>
 <p class="p">I don't use reference topics very much, but it may be that my content doesn't seem to call for
           it. I don't quite get what the properties table provides that a regular table doesn't provide.
@@ -261,40 +250,40 @@ Without a place, you cannot establish order in your house.</p>
         map.</p>
 <div class="p">First create each glossary entry topic using the <code>glossentry</code> topic type. The
           glossentry topic requires just two elements:</p>
-<pre class="pre codeblock"><glossterm>OT</glossterm>
-<glossdef>Open Toolkit -- This is what processes DITA into the various outputs.</glossdef></pre>
+{% highlight xml %}<glossterm>OT</glossterm>
+<glossdef>Open Toolkit -- This is what processes DITA into the various outputs.</glossdef>{% endhighlight %}
 </div>
 <p class="p">There are additional elements available in the <code>glossBody</code> tag if needed.</p>
 <div class="p">Next, create a ditamap file that will contain all of your glossary entry topics. You could put
           this in your main ditamap, but it's easier to manage it if the glossary map is separated into its
           own file. Add keys for each of the terms. The keys are like short references for the glossary
           reference.
-<pre class="pre codeblock"><map>
+{% highlight xml %}<map>
  <title>Glossary</title>
  
  <glossref href="ot.dita" keys="opentoolkit" />
  <glossref href="ide.dita" keys="ide"/>
 
-</map></pre>
+</map>{% endhighlight %}
 </div>
 <div class="p">In your main map file, reference your glossary ditamap. In this example, my ditamap containing
           all the glossary entries is called
           glossary_entries.ditamap:
-<pre class="pre codeblock"> <mapref href="glossary_entries.ditamap" processing-role="resource-only"/></pre>
+{% highlight xml %} <mapref href="glossary_entries.ditamap" processing-role="resource-only"/>{% endhighlight %}
 </div>
 <div class="p">In regular topics where you want to link to the glossary entry, refer to the glossary entry
           like this:</p>
-<pre class="pre codeblock">  <p>You can use the <term keyref="opentoolkit">Open Toolkit</term> to process your dita files.</p></pre>
+{% highlight xml %}  <p>You can use the <term keyref="opentoolkit">Open Toolkit</term> to process your dita files.</p>{% endhighlight %}
 </div>
 <p class="p">The term will have a link to the glossary entry topic and also show a tooltip with the glossary
           definition.</p>
 <p class="p">To compile a list of glossary terms in your main table of contents, add references to the
           glossary entry topics just like any normal topic references: </p>
 <div class="p">
-<pre class="pre codeblock"> <topichead navtitle="Glossary" chunk="to-content">
+{% highlight xml %} <topichead navtitle="Glossary" chunk="to-content">
   <topicref href="ot.dita"/>
   <topicref href="ide.dita"/>
- </topichead></pre>
+ </topichead>{% endhighlight %}
 </p></div>
 </p></div>
 <div class="section">

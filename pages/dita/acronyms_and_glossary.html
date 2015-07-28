@@ -25,7 +25,7 @@ published: true
                     <code>glossBody</code> tag and define the <code>glossSurfaceForm</code>
                 and the <code>glossAcronym</code> as shown in the following
                 example:
-<pre class="pre codeblock"><glossentry id="opentoolkit">
+{% highlight xml %}<glossentry id="opentoolkit">
     <glossterm>Open Toolkit</glossterm>
     <glossdef><p>The open toolkit is what processes your DITA files to transform them into webhelp,
                  pdf, and other outputs.</p>
@@ -39,7 +39,7 @@ published: true
             <glossAcronym>OT</glossAcronym>
         </glossAlt>
     </glossBody>
-</glossentry></pre>
+</glossentry>{% endhighlight %}
 </div>
 <p class="p">The <code>glossSurfaceForm</code> is the form of the term the first time it "surfaces" on
                 the page. The <code>glossAcronym</code> is the form that appears on subsequent
@@ -49,7 +49,7 @@ published: true
 <h2 class="title sectiontitle">Reference your glossary term on your map</h2>
 <div class="p">To include the glossary term in your output, in your map file, add
                 this:
-<pre class="pre codeblock"><glossref keys="opentoolkit" href="ot.dita" /></pre>
+{% highlight xml %}<glossref keys="opentoolkit" href="ot.dita" />{% endhighlight %}
 </div>
 <p class="p">In DITA, a resource must be referenced on your DITA map to be included in the output.
                 Here we're using the key <code>opentoolkit</code> to refer to this glossary term
@@ -72,13 +72,13 @@ published: true
                     <code>abbreviated-form</code> or <code>term</code>.</p>
 <div class="p">Here's an example using the <code>abbreviated-form</code>
                 element:
-<pre class="pre codeblock">The <abbreviated-form keyref="opentoolkit"/> is what processes your DITA files.
-Make sure you have the latest version of the <abbreviated-form keyref="opentoolkit"/>.</pre>
+{% highlight xml %}The <abbreviated-form keyref="opentoolkit"/> is what processes your DITA files.
+Make sure you have the latest version of the <abbreviated-form keyref="opentoolkit"/>.{% endhighlight %}
 </div>
 <p class="p">The output will look like this:</p>
 <div class="p demo">
-<pre class="pre codeblock">The <strong class="ph b">Open Toolkit (OT)</strong> is what processes your DITA files. Make sure
-      you have the latest version of the <strong class="ph b">OT</strong>.</pre>
+{% highlight xml %}The <strong class="ph b">Open Toolkit (OT)</strong> is what processes your DITA files. Make sure
+      you have the latest version of the <strong class="ph b">OT</strong>.{% endhighlight %}
 </p></div>
 <div class="p">
 <div class="note note"><span class="notetitle">Note:</span> For this demo, rather than hyperlinks to the glossary or acronym term, I've
@@ -92,12 +92,12 @@ Make sure you have the latest version of the <abbreviated-form keyref="opentoolk
                         <code>abbreviated-form</code> when referring to the glossary term.</p>
 <p class="p">If the glossary term doesn't have an acronym form, you could also just reference
                     it using <code>term</code>, like this: </p>
-<pre class="pre codeblock">The <term keyref="opentoolkit"/> is what processes your DITA files.
-Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
+{% highlight xml %}The <term keyref="opentoolkit"/> is what processes your DITA files.
+Make sure you have the latest version of the <term keyref="opentoolkit"/>.{% endhighlight %}
 <p class="p">The output will look like this:</p>
 <div class="p">
-<pre class="pre codeblock">The <strong class="ph b">OT</strong> is what processes your DITA files. Make sure
-      you have the latest version of the <strong class="ph b">OT</strong>.</pre>
+{% highlight xml %}The <strong class="ph b">OT</strong> is what processes your DITA files. Make sure
+      you have the latest version of the <strong class="ph b">OT</strong>.{% endhighlight %}
 </p></div>
 <p class="p">In both instances of the word, the <code>glossAcronymForm</code> is used. If the
                 glossary file didn't have a <code>glossAcronymForm</code>, the
@@ -113,9 +113,9 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
                 unless you add some styling that hides it. Create the following CSS styles and add
                 it to your <a class="xref" href="/webhelp_skins" title="Oxygen offers a robust webhelp skin builder that allows you to customize the output. You can also customize the CSS.">DITA: Webhelp skins</a> CSS to hide this
                 content:
-<pre class="pre codeblock">.glossSurfaceForm, .glossAlt {
+{% highlight xml %}.glossSurfaceForm, .glossAlt {
     display: none;
-}</pre>
+}{% endhighlight %}
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Organizing glossary
@@ -138,10 +138,10 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
 <p class="p">To consolidate glossary terms on a single page in the output, use the
                     <code>chunk="to-content"</code> attribute in your glossary overview topic,
                 like this:</p>
-<pre class="pre codeblock"><topicref href="glossary_overview.dita" chunk="to-content">
+{% highlight xml %}<topicref href="glossary_overview.dita" chunk="to-content">
    <topicref href="glossary/ot.dita" toc="yes"/>
    <topicref href="glossary/conref.dita" toc="yes"/>
-</topicref> </pre>
+</topicref> {% endhighlight %}
 <div class="note note"><span class="notetitle">Note:</span> See the <a class="xref external" href="http://idratherbetellingstories.com/wp-content/uploads/oxygendemos/glossary/index.html" target="_blank">demo</a> for an example of the glossary integrated into the TOC.</div>
 </p></div>
 <div class="section">
@@ -150,10 +150,10 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
 <div class="p">You might think that you can just use <code>glossref</code>
                 elements with chunk="to-content", like
                 this:
-<pre class="pre codeblock"><topicref href="glossary_overview.dita" chunk="to-content">
+{% highlight xml %}<topicref href="glossary_overview.dita" chunk="to-content">
    <glossref href="glossary/ot.dita" keys="opentoolkit" toc="yes"/>
    <glossref href="glossary/conref.dita" keys="conref" toc="yes"/>
-</topicref> </pre>
+</topicref> {% endhighlight %}
 </div>
 <p class="p">However,
                 if you use this method, the key references will no longer work. The
@@ -162,7 +162,7 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
                     <code>chunk</code> attribute, you must separate out the
                     <code>topicref</code> from the <code>keyref</code> elements, like this:
             </p>
-<pre class="pre codeblock"><topicref href="glossary_overview.dita" chunk="to-content">
+{% highlight xml %}<topicref href="glossary_overview.dita" chunk="to-content">
   <topicref href="glossary/ot.dita" toc="yes"/>
   <topicref href="glossary/conref.dita" toc="yes"/>
 </topicref>
@@ -170,7 +170,7 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
 <!-- glossary keys -->
 <glossref keys="opentoolkit" href="ot.dita"/>
 <glossref keys="conref" href="conref.dita"/>
-             </pre>
+             {% endhighlight %}
 <p>(I'm
             not sure if this is a bug in Oxygen or the OT or what. At any rate, that's is how you do
             it.)</p></div>
@@ -181,7 +181,7 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
                 example, suppose you want to reuse the Open Toolkit definition in the glossary term
                 topic above. Suppose you have a topic listing a table with field
                 definitions:</p>
-<pre class="pre codeblock">            <topic id="topic_table">
+{% highlight xml %}            <topic id="topic_table">
               <title>Sample table of definitions</title>
               <body>
                 <table>
@@ -205,7 +205,7 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
                 <p>Besure to check out <topicsetref id="hey"/></p>
               </body>
             </topic>
-     </pre>
+     {% endhighlight %}
 <p class="p">You
                 can't use <code>conref</code> to re-use the <code>glossdef</code> element
                 into the table's <code>entry</code> element because the <code>entry</code>
@@ -216,18 +216,18 @@ Make sure you have the latest version of the <term keyref="opentoolkit"/>.</pre>
                 table row. Here I wrap the <code>glossdef</code> content inside a
                     <code>ph</code>
                 element:</p>
-<pre class="pre codeblock"><glossdef><ph id="ot_def">The open toolkit is what processes your DITA files to transform them into
-webhelp, pdf, and other outputs.</ph></glossdef></pre>
+{% highlight xml %}<glossdef><ph id="ot_def">The open toolkit is what processes your DITA files to transform them into
+webhelp, pdf, and other outputs.</ph></glossdef>{% endhighlight %}
 <p class="p">Then
                 you use <code>conref</code> to insert the <code>ph</code> element into your
                 table element, like this:</p>
 <div class="p">
-<pre class="pre codeblock"><entry><ph conref="filename.dita#opentoolkit/ot_def"/></pre>
+{% highlight xml %}<entry><ph conref="filename.dita#opentoolkit/ot_def"/>{% endhighlight %}
 </p></div>
 <p class="p">Here's a sample result pulling the glossary definitions into another topic: <a class="xref" href="/sample_table_def">Sample table of definitions</a>. </p>
 <p class="p">The table code simply looks like this:
             </p>
-<pre class="pre codeblock">   <table>
+{% highlight xml %}   <table>
       <tgroup cols="2">
         <thead>
           <row>
@@ -247,26 +247,26 @@ webhelp, pdf, and other outputs.</ph></glossdef></pre>
           </row>
         </tbody>
       </tgroup>
-    </table></pre>
+    </table>{% endhighlight %}
 <p class="p">This technique works well for short glossary definitions, but what if you have a definition that spans several paragraphs? Do you have to create three separate conref elements?</p>
 <p class="p">To include multiple sibling elements (such as three paragraph tags in a row), you can
                 use what's called a "conref range." First you add an ID tag to the first and last
                 element that you want to bring over. If my glossary definition has three paragraphs,
                 I could tag it like this:</p>
 <div class="p">
-<pre class="pre codeblock"><glossdef>
+{% highlight xml %}<glossdef>
   <p id="ot_first">The open toolkit is what processes your DITA files to transform them
     into webhelp, pdf, and other outputs.</p>
   <p>There are other processors besides the OT that can achieve similar results.</p>
   <p id="ot_last">OxygenXML does use the Open Toolkit to do its processing, but
       Trisoft uses another processor.</p>
-    </glossdef></pre>
+    </glossdef>{% endhighlight %}
 <p>                Notice how I added an ID attribute to the first and last paragraph tags.</p></div>
 <div class="p">Now I use a <code>conref</code> range to bring over the first and last element
                 and everything in
                 between:
-<pre class="pre codeblock"><p conref="glossary/ot.dita#opentoolkit/ot_first"
-conrefend="glossary/ot.dita#opentoolkit/ot_last"/></pre>
+{% highlight xml %}<p conref="glossary/ot.dita#opentoolkit/ot_first"
+conrefend="glossary/ot.dita#opentoolkit/ot_last"/>{% endhighlight %}
 <p>Note
                 that although you can use this technique to bring over longer amounts of content,
                 generally you want to keep your glossary definitions to a paragraph level size. If

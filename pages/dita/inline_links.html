@@ -4,39 +4,17 @@ title: 'DITA: Inline links'
 permalink: /inline_links/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  _edit_last: '91'
-  _wp_page_template: default
-  _wpcom_is_markdown: '1'
-  dsq_thread_id: '3778032022'
-author:
-  login: 3rabbitz
-  email: 3rabbitz@idratherbewriting.com
-  display_name: 3Rabbitz
-  first_name: 3Rabbitz
-  last_name: ''
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p class="shortdesc">To link to another topic or external site inline, you use the <code>xref</code>
     element. </p>
-<p class="p">As a general best practice, peopl says to avoid inline links if possible, but include an
-      inline link it would be odd not to include the link. Or include the inline link if there's no
-      concern about the target not being included in the output. </p>
-<pre><code><p class="p">The topic title will automatically be used as the anchor text for the link. </p>
+<p class="p">As a general best practice, people say to avoid inline links if possible, but if referring to another topic or page, it might seem odd not to include the link. </p>
+{% highlight xml %}<code><p class="p">The topic title will automatically be used as the anchor text for the link. </p>
 
-    <pre class="pre codeblock">   &amp;lt;xref href="sample.dita"/&amp;gt;</pre>
+    {% highlight xml %}   <xref href="sample.dita"/>{% endhighlight %}
 
   <p>If you want to manually specify the anchor text, code it like this:
-    <pre class="pre codeblock">   &amp;lt;xref href="sample.dita"&amp;gt;Sample&amp;lt;/xref&amp;gt;</pre>
-</code></pre>
+    {% highlight xml %}   <xref href="sample.dita">Sample</xref>{% endhighlight %}
+</code>{% endhighlight %}
 <p>If you're linking to an external source, you need to add the <code>scope</code> and
         <code>format</code> attributes to your link:</p>
-<pre class="pre codeblock">   <xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref></pre>
+{% highlight xml %}   <xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref>{% endhighlight %}

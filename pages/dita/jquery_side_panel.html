@@ -98,68 +98,68 @@ excerpt: !ruby/object:Hpricot::Doc
             the unncessary styles. Additionally, you may want to add a few styles of
             your own. Here are some styles I've added:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-css">
+{% highlight xml %}
 .sidr{
-    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:whitesmoke;
+    background-color:whitesmoke;
     box-shadow:none;
 }
 .closeMe {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
+    display:none;
 }
 .sidr > .closeMe{
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>:block;
-    <strong class="hl-keyword" style="color:#7f0055">padding</strong>:<span class="hl-number">5</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:whitesmoke;
-    <strong class="hl-keyword" style="color:#7f0055">border</strong>:<span class="hl-number">1</span>px solid #C0C0C0;
-    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">11</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">float</strong>:<strong class="hl-keyword" style="color:#7f0055">right</strong>;
-    <strong class="hl-keyword" style="color:#7f0055">margin-right</strong>:<span class="hl-number">5</span>px;
+    display:block;
+    padding:<span class="hl-number">5</span>px;
+    background-color:whitesmoke;
+    border:<span class="hl-number">1</span>px solid #C0C0C0;
+    font-size:<span class="hl-number">11</span>px;
+    float:right;
+    margin-right:<span class="hl-number">5</span>px;
 }
 
 .closeMe:hover{
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
+    display:none;
 }
 
 .sidr > .closeMe:hover{
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>:block;
-    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:#F5F5F5;
+    display:block;
+    background-color:#F5F5F5;
 }
 
 div.sidr h2.sectiontitle {
-    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">15</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>: whitesmoke;
+    font-size:<span class="hl-number">15</span>px;
+    background-color: whitesmoke;
 }
 
 .sidr p.sphead {
-    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">14</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">font-weight</strong>:bold;
-    <strong class="hl-keyword" style="color:#7f0055">padding-top</strong>:<span class="hl-number">12</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">padding-bottom</strong>:<span class="hl-number">3</span>px;
+    font-size:<span class="hl-number">14</span>px;
+    font-weight:bold;
+    padding-top:<span class="hl-number">12</span>px;
+    padding-bottom:<span class="hl-number">3</span>px;
 }
 
 p.sphead {
-    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>:<span class="hl-number">16</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">padding-top</strong>:<span class="hl-number">12</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">padding-bottom</strong>:<span class="hl-number">3</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>: #<span class="hl-number">444</span>;
+    font-size:<span class="hl-number">16</span>px;
+    padding-top:<span class="hl-number">12</span>px;
+    padding-bottom:<span class="hl-number">3</span>px;
+    color: #<span class="hl-number">444</span>;
 }
 .codeblock a{
-    <strong class="hl-keyword" style="color:#7f0055">font-style</strong>:italic;
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>:#<span class="hl-number">458</span>B00;
+    font-style:italic;
+    color:#<span class="hl-number">458</span>B00;
 }
 
 .codeblock a:hover{
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>:#<span class="hl-number">78</span>AB46;
+    color:#<span class="hl-number">78</span>AB46;
 }
 
 pre{
-    <strong class="hl-keyword" style="color:#7f0055">padding</strong>:<span class="hl-number">0.5</span>em;
-    <strong class="hl-keyword" style="color:#7f0055">background-color</strong>:#EEE;
-    <strong class="hl-keyword" style="color:#7f0055">overflow</strong>:auto;
-    <strong class="hl-keyword" style="color:#7f0055">max-height</strong>:<span class="hl-number">2000</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">margin</strong>:<span class="hl-number">0.5</span>em;
+    padding:<span class="hl-number">0.5</span>em;
+    background-color:#EEE;
+    overflow:auto;
+    max-height:<span class="hl-number">2000</span>px;
+    margin:<span class="hl-number">0.5</span>em;
 }
-                    </pre>
+                    {% endhighlight %}
 <p class="p">The <code>closeMe</code> style is for a close button that will appear at
                   the bottom of the pane. The <code>p.sphead</code> style is for a
                   section subheading style. Note that even though you will later be giving
@@ -190,7 +190,7 @@ pre{
             <span class="ph cmd">Find the line that begins <code><xsl:template name="commonattributes"></code> and
             replace that section with the following:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
   <xsl:template name="commonattributes">
     <xsl:param name="default-output-class"/>
     <xsl:apply-templates select="@xml:lang"/>
@@ -213,7 +213,7 @@ pre{
         select="@id"/></xsl:attribute>
     </xsl:if>
   </xsl:template>
-     </pre>
+     {% endhighlight %}
 <p class="p">This will allow the <code>platform</code>, <code>audience</code>, and
                   <code>id</code> attributes to pass through as attributes in the
                   output (so you can leverage them). Without these attributes in the
@@ -239,7 +239,7 @@ pre{
 <li class="li step stepexpand">
             <span class="ph cmd">Add the following functions to your webhelp_topic.js file (located here: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js/webhelp_topic.js</span>): </span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-javascript">
+    {% highlight xml %}
 $(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_1'</span>).sidr( {
     name:<span class="hl-string" style="color:#2a00ff">'fullcode__demo_sidepanel_1'</span>,
     side:<span class="hl-string" style="color:#2a00ff">'left'</span>
@@ -249,7 +249,7 @@ $(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_2'</span>).sidr
     name:<span class="hl-string" style="color:#2a00ff">'fullcode__demo_sidepanel_2'</span>,
     side:<span class="hl-string" style="color:#2a00ff">'left'</span>
     });
-                </pre>
+                {% endhighlight %}
 <p class="p">The <code> $('.demo_sidepanel_1').sidr()</code> means that we are binding the
                   <code>sidr</code> function to an element that has a class of
                   <code>demo_sidepanel_1</code>. You can pass the
@@ -274,7 +274,7 @@ $(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_2'</span>).sidr
 <li class="li step stepexpand">
             <span class="ph cmd">Add the following closing scripts to the same webhelp_topic.js file. These functions close the side panel.</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
 $('.close_demo_sidepanel_1').click(function(event) {
 event.preventDefault();
   $.sidr('close', 'fullcode__demo_sidepanel_1');
@@ -284,7 +284,7 @@ $('.close_demo_sidepanel_2').click(function(event) {
 event.preventDefault();
   $.sidr('close', 'fullcode__demo_sidepanel_2');
 });
-            </pre>
+            {% endhighlight %}
 <p class="p">In this code, a click event is bound to an element with the
                   <code>close_demo_sidebar_1</code> class. The
                   <code>event.preventDefault()</code> keeps the code from trying
@@ -315,7 +315,7 @@ event.preventDefault();
 <li class="li step stepexpand">
             <span class="ph cmd">Create a DITA concept topic and insert some triggers inside a code block like this:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
  <section>
     <codeblock>
      this is some code
@@ -326,7 +326,7 @@ event.preventDefault();
      this is some code
      this is some code
      
-     // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_1"> &amp;#187; more</xref>
+     // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_1"> &#187; more</xref>
      
      this is some code
      this is some code
@@ -335,8 +335,8 @@ event.preventDefault();
      this is some code
      this is some code
      this is some code
-         // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_2">&amp;#187; more</xref>
-                </pre>
+         // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_2">&#187; more</xref>
+                {% endhighlight %}
 <p>               It's
                important to note a few things here. For links in the codeblock, you can't
                use <code>#</code> for the <code>href</code> target, so use
@@ -365,7 +365,7 @@ event.preventDefault();
 <li class="li step stepexpand">
             <span class="ph cmd">Add the following for your side panel content:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">  <section id="demo_sidepanel_1"><title>Side panel 1</title>
+{% highlight xml %}  <section id="demo_sidepanel_1"><title>Side panel 1</title>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.</p>
       <p>Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.</p>
       <p outputclass="sphead">Subhead</p>
@@ -373,7 +373,7 @@ event.preventDefault();
       <p>Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.</p>
       <xref href="javascript();" scope="external" format="html" outputclass="closeMe" id="close_demo_sidepanel_1">Close</xref>
       
-     </section>                        </pre>
+     </section>                        {% endhighlight %}
 <p class="p">Here we add an ID attribute to the <code>section</code> element. Note
                   that the menu name in the jQuery scripts is
                   <code>fullcode_demo_sidepanel_1</code>, but the ID here is just
@@ -410,7 +410,7 @@ event.preventDefault();
 <li class="li step stepexpand">
             <span class="ph cmd">Create a separate topic and add the following:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
 <section id="demo_sidepanel_2"><title>Side panel 2</title>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tempor odio, eu scelerisque nunc. Fusce tincidunt magna nec nisl accumsan, a rhoncus tellus semper. Phasellus at turpis in risus elementum sollicitudin.</p>
    <p>Praesent commodo bibendum nisl id malesuada. Fusce id ligula ultricies, gravida risus ac, dictum magna. Quisque semper, dui quis dictum scelerisque, dui purus dapibus orci, suscipit facilisis nisi quam laoreet diam.</p>
@@ -420,7 +420,7 @@ event.preventDefault();
    <xref href="javascript();" scope="external" format="html" outputclass="closeMe close_demo_sidepanel_2">Close</xref>
    
   </section>
-                    </pre>
+                    {% endhighlight %}
 <p class="p">Let's say the topic ID of this page is <code>trans123</code>.</p>
 </p></div>
 </li>
@@ -430,17 +430,17 @@ event.preventDefault();
             <code>conref</code> element where you want to insert the
             content:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
  <section conref="transclusion_test.dita#trans123/demo_sidepanel_2" id="demo_sidepanel_2"/>
-                  </pre>
+                  {% endhighlight %}
 <div class="note note"><span class="notetitle">Note:</span> Put the ID on the page where you're transcluding the content (the transclusion target). If you put the ID on the transclusion source, the DITA OT will randomize the ID and Sidr won't be able to trigger the menu because its name won't correspond with the name in the jQuery function.</div>
 <p class="p">If you're transcluding content from a standalone topic to a side panel display, you'll no doubt want to style the section headers a bit differently. That's what this style is all about: </p>
-<pre class="pre codeblock">
+{% highlight xml %}
   div.sidr h2.sectiontitle {
     font-size:15px;
     background-color: whitesmoke;
 }
-                        </pre>
+                        {% endhighlight %}
 </p></div>
 </li>
 </ol></div>

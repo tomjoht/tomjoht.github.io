@@ -13,15 +13,15 @@ type: notes_dita
  </p>
 <p class="p">Suppose the file where you store the re-usable component is called notes.dita with a topic id of
    "topic_123". On this page, you might have something like this: </p>
-<pre class="pre codeblock">
+{% highlight xml %}
   <topic id="topic_123">
    ...
   <note type="note" id="bolt_warning">Don't overtighten the bolts, as it may cause stripping.</note>
- </pre>
+ {% endhighlight %}
 <p class="p">On the page where you want to re-use the content, use the <code>conref</code> element like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
   <note conref="notes.dita#topic_123/bolt_warning"/>
- </pre>
+ {% endhighlight %}
 <p class="p">In other words, use the file name#topic_id/element_id. </p>
 <div class="note note"><span class="notetitle">Note:</span> Make sure the <code>conref</code> pulls in a valid element where you're using the
    conref. This is the one rule with conrefs. You have to match the elements that you're conref'ing.
@@ -33,7 +33,7 @@ type: notes_dita
 <h2 class="title sectiontitle">Conref of table content</h2>
 <div class="p">If you're "conrefing" a table element, you have to include all of the table elements, like
    this:
-<pre class="pre codeblock">   <table conref="notesdita#topic_123/samptable">
+{% highlight xml %}   <table conref="notesdita#topic_123/samptable">
     <tgroup cols="2">
      <tbody>
       <row>
@@ -41,7 +41,7 @@ type: notes_dita
       </row>
      </tbody>
     </tgroup>
-   </table></pre>
+   </table>{% endhighlight %}
 </div>
 <p class="p">In this case,  the ID of the table I'm re-using is <code>samptable</code>. </p>
 </p></div>
@@ -49,12 +49,12 @@ type: notes_dita
 <h2 class="title sectiontitle">Conref ranges: Including ranges of sibling content</h2>
 <p class="p">Sometimes you need to insert a range of elements. For example, suppose you have several paragrahps or list items. Rather than using multiple conrefs, you can instead use a range. The conref range will grab all items that are siblings. </p>
 <p class="p">To insert a range, you need to add an item to the first item and the last item. Here's an example:</p>
-<pre class="pre codeblock"><glossdef><p id="ot_first">The open toolkit is what processes your DITA files to transform them into webhelp, pdf, and other outputs.</p>
+{% highlight xml %}<glossdef><p id="ot_first">The open toolkit is what processes your DITA files to transform them into webhelp, pdf, and other outputs.</p>
         <p>There are other processors besides the OT that can achieve similar results.</p>
         <p id="ot_last">OxygenXML does use the Open Toolkit to do its processing, but xMetaL uses another processor.</p>
-    </glossdef>  </pre>
+    </glossdef>  {% endhighlight %}
 <p class="p">And here's the page where you insert the range. This is a table <code>entry</code> element:</p>
-<pre class="pre codeblock"><entry><p conref="glossary/ot.dita#opentoolkit/ot_first" conrefend="glossary/ot.dita#opentoolkit/ot_last"/></entry> </pre>
+{% highlight xml %}<entry><p conref="glossary/ot.dita#opentoolkit/ot_first" conrefend="glossary/ot.dita#opentoolkit/ot_last"/></entry> {% endhighlight %}
 <p class="p">You just start the <code>conref</code> and add a <code>conrefend</code> element that
     refers to the last item in the conref range that you want to pull over.</p>
 </p></div>
@@ -63,18 +63,18 @@ type: notes_dita
 <p class="p">conkeyref is similar to conref except that instead of referring to files, you refer to keys
     to include the target content. </p>
 <p class="p">example: </p>
-<pre class="pre codeblock"><keyref keys="argument" href="argument_acme.dita"></pre>
+{% highlight xml %}<keyref keys="argument" href="argument_acme.dita">{% endhighlight %}
 <p class="p">There's a paragraph in this topic with an ID of <code>opener</code> that I want to
     re-use. </p>
 <p class="p">I could reuse the paragraph with a conref like this:</p>
-<pre class="pre codeblock"><p conref="argument_acme.dita#topicid/opener"/></pre>
+{% highlight xml %}<p conref="argument_acme.dita#topicid/opener"/>{% endhighlight %}
 <p class="p">However, sometimes when you have multiple outputs, you may want opener to pull from
     different files depending on the output. For example, you may have an opener for product A
     that differs from product B. Product A's map may point its argument key to
     argument_acme.dita, while Product B may point its argument key to argument_beta.dita. </p>
 <div class="p">To implement the conref using keys, you use conkeyref, like
     this:
-<pre class="pre codeblock"><p conkeyref="argument/opener"/></pre>
+{% highlight xml %}<p conkeyref="argument/opener"/>{% endhighlight %}
 </div></div>
 </p></div>
 <div class="related-links">

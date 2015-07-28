@@ -80,22 +80,22 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="section">
 <h2 class="title sectiontitle">Applying attributes to elements</h2>
 <p class="p">Now you can start using these attributes almost any DITA element. Suppose you want to apply an attribute to your map so that you can use the same map for each product. You might apply the attributes like this:</p>
-<pre class="pre codeblock language-xml">
-  <strong class="hl-tag" style="color:#000096"><topicref</strong> <span class="hl-attribute" style="color: #ff7935">href</span>=<span class="hl-value" style="color: #993300">"maintaining_brakes_71_fx.html"</span> <span class="hl-attribute" style="color: #ff7935">product</span>=<span class="hl-value" style="color: #993300">"trek"</span> <span class="hl-attribute" style="color: #ff7935">platform</span>=<span class="hl-value" style="color: #993300">"71_fx"</span><strong class="hl-tag" style="color:#000096">/></strong>
-  <strong class="hl-tag" style="color:#000096"><topicref</strong> <span class="hl-attribute" style="color: #ff7935">href</span>=<span class="hl-value" style="color: #993300">"maintaining_brakes_72_fx.html"</span> <span class="hl-attribute" style="color: #ff7935">product</span>=<span class="hl-value" style="color: #993300">"trek"</span> <span class="hl-attribute" style="color: #ff7935">platform</span>=<span class="hl-value" style="color: #993300">"72_fx"</span><strong class="hl-tag" style="color:#000096">/></strong>
-</pre>
+{% highlight xml %}
+  <topicrefhref="maintaining_brakes_71_fx.html"product="trek"platform="71_fx"/>
+  <topicrefhref="maintaining_brakes_72_fx.html"product="trek"platform="72_fx"/>
+{% endhighlight %}
 <p class="p">Or to a <code>p</code> element:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
    <p product="trek">You can adjust your brakes by loosening the bolt with a 5mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt.</p>
-  </pre>
+  {% endhighlight %}
 <p class="p">Or to pretty much any other element. If you want to be even more granular, you can surround a word with <code>ph</code> tags (for phrase). The tags can be applied to any word or phrase, so if the element you want doesn't allow you to apply these general attributes (such as with the <code>entry</code> element in a table), you can just put <code>ph</code> tags inside the element.</p>
-<pre class="pre codeblock">
+{% highlight xml %}
   Your bike is equipped with Shimano <ph platform="71_fx">Ultegra components</ph><ph platform="72_fx 73_fx">105 components</a>.
-   </pre>
+   {% endhighlight %}
 <p class="p">When adding multiple values to an attribute, just separate the values with a space.</p>
-<pre class="pre codeblock">
+{% highlight xml %}
    <p platform="mac linux">You have a web server already available in your OS.</p>
-  </pre>
+  {% endhighlight %}
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Viewing conditions in the Author mode</h2>

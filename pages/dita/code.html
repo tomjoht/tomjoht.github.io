@@ -17,14 +17,14 @@ published: true
    <code>codeblock</code>.</p>
 <div class="p">To add code tags around inline code, use <code>codeph</code>, like
             this:
-<pre class="pre codeblock">The <codeph>init</codeph> function initializes the processor...</pre>
+{% highlight xml %}The <codeph>init</codeph> function initializes the processor...{% endhighlight %}
 </div>
 <p class="p"><code>codeph</code> stands for "code phrase." (There's another tag called
                 <code>ph</code> that is just "phrase.")</p>
 <div class="p">For a block of code, use <code>codeblock</code> with an <code>outputclass</code>
             attribute that specifies the language for the syntax
             highlighter:
-<pre class="pre codeblock"><codeblock outputclass="language-cpp">
+{% highlight xml %}<codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
@@ -34,7 +34,7 @@ int main() {
     system("PAUSE");
     return 0;
 }
-</codeblock></pre>
+</codeblock>{% endhighlight %}
 </div>
 <p class="p">As soon as you type <code>outputclass="</code> in the code editor, you're prompted with
             language options. If you don't choose an <code>output</code> class, the default is
@@ -42,34 +42,34 @@ int main() {
 <p class="p">Note that adding the outputclass will prompt Oxygen to add syntax highlighting in the
             output (injecting a lot of inline formatting). If you're publishing to a location that
             already provides a syntax highlighter, don't add an outputclass. </p>
-<div class="p">Because XML parses the angle brackets and &amp; symbols in codeblocks, you have to convert
-            these to their character equivalents. <code>< </code>is <code>&amp;lt;
-            </code>and <code>></code> is <code>&amp;gt;</code> For <code>&amp;</code>,
-            use <code>&amp;amp;</code>. The above code really looks like
+<div class="p">Because XML parses the angle brackets and & symbols in codeblocks, you have to convert
+            these to their character equivalents. <code>< </code>is <code><
+            </code>and <code>></code> is <code>></code> For <code>&</code>,
+            use <code>&amp;</code>. The above code really looks like
             this:
-<pre class="pre codeblock"><codeblock outputclass="language-cpp">
+{% highlight xml %}<codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
-    for(int i = 0; i &amp;lt; 5; i++) {
-        cout &amp;lt;&amp;lt; scores[i] &amp;gt;&amp;gt; "  ";
+    for(int i = 0; i < 5; i++) {
+        cout << scores[i] >> "  ";
     }
     system("PAUSE");
     return 0;
 }
-</codeblock></pre>
+</codeblock>{% endhighlight %}
 </div>
 <p class="p">You can also reference code stored in another file using a <code>coderef</code> element
             inside a <code>codeblock</code>:</p>
-<pre class="pre codeblock"><codeblock outputclass="language-csharp">
+{% highlight xml %}<codeblock outputclass="language-csharp">
 <coderef href="code/example.txt"/>
-</codeblock></pre>
+</codeblock>{% endhighlight %}
 <p class="p">With this method, you don't have to convert the illegal symbols into their character
             equivalents. Also, the referenced file cabe stored with the programming language type
             extension, which gives you syntax highlighting while you're editing it.</p>
 <p class="p">If you want to title the code sample with a name, use the <code>fig</code> and
                 <code>title</code> elements:</p>
-<pre class="pre codeblock"><fig><title>Checking scores</title></fig>
+{% highlight xml %}<fig><title>Checking scores</title></fig>
     <codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
@@ -80,14 +80,14 @@ int main() {
     system("PAUSE");
     return 0;
 }
-</codeblock></pre>
+</codeblock>{% endhighlight %}
 <p class="p">If you want to bold part of a code sample, you can do so by inserting <code>b</code>
             tags to bold the content. (Don't convert the angle brackets around the b tag to
             character equivalents.)</p>
 <p class="p">If the syntax highlighter is accidentally highlighting some of your code as a comment instead of actual code, wrap the problematic code inside <code>codeph</code> tags.</p>
-<pre class="pre codeblock">
+{% highlight xml %}
 q=0.9,<codeph>*</codeph><codeph>/*</codeph>;;q=0.8");
-     </pre>
+     {% endhighlight %}
 </p></div>
 <div class="related-links">
 <div class="familylinks">

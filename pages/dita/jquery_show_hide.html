@@ -35,9 +35,9 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li step stepexpand"><span class="ph cmd">In a text editor, open the following js file: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js/webhelp_topic.js</span>.</span></li>
 <li class="li step stepexpand"><span class="ph cmd">Insert the copied script at the bottom right before the closing <code>});</code>.</span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
 $('.expander').simpleexpand();
-    </pre>
+    {% endhighlight %}
 <p class="p">This function triggers the script. Wherever the <code>expander</code> class exists, the the <code>simpleexpand</code> function will trigger. This script will appear in your webhelp topic frame (instead of your sidebar).</p>
 </p></div>
 </li>
@@ -45,69 +45,69 @@ $('.expander').simpleexpand();
 <li class="li step stepexpand"><span class="ph cmd">In a text editor, open the following file: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/css/webhelp_topic.css</span>.</span></li>
 <li class="li step stepexpand"><span class="ph cmd">Insert the following styles:</span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-css">
-.<strong class="hl-keyword" style="color:#7f0055">content</strong> {<strong class="hl-keyword" style="color:#7f0055">display</strong>:none;}
+{% highlight xml %}
+.content {display:none;}
 .expander.expanded {
-    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>: <span class="hl-number">13</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>: <strong class="hl-keyword" style="color:#7f0055">left</strong> center;
-    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>: no-repeat;
-    <strong class="hl-keyword" style="color:#7f0055">background-image</strong>: url(../img/expanded.gif);
+    padding-left: 13px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../img/expanded.gif);
 }
 
 .expander.collapsed {
-    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>: <span class="hl-number">13</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>: <strong class="hl-keyword" style="color:#7f0055">left</strong> center;
-    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>: no-repeat;
-    <strong class="hl-keyword" style="color:#7f0055">background-image</strong>: url(../img/collapsed.gif);
+    padding-left: 13px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../img/collapsed.gif);
 }    
-   </pre>
+   {% endhighlight %}
 <p class="p">Any element with the class <code>content</code> will be hidden. When the script is run, the <code>content</code> class will be removed and one of the other classes will be added.</p>
 <p class="p">In my demo, I added some more classes to style how the expand and collapse sections appear. If you want to style your output like the demo, use these styles instead of the previous:</p>
-<pre class="pre codeblock language-css">
-.<strong class="hl-keyword" style="color:#7f0055">content</strong>{
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>:none;
+{% highlight xml %}
+.content{
+    display:none;
 }
 .expander.expanded{
-    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>:<span class="hl-number">13</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>:<strong class="hl-keyword" style="color:#7f0055">left</strong> center;
-    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>:no-repeat;
-    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
-    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>: <span class="hl-number">16</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>: blue;
+    padding-left:13px;
+    background-position:left center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
     box-sizing: border-box;
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline-block;
-    <strong class="hl-keyword" style="color:#7f0055">background</strong>: #ececec url(../img/expanded.gif) no-repeat <span class="hl-number">1</span>% center;
-    <strong class="hl-keyword" style="color:#7f0055">border-top</strong>: <span class="hl-number">1</span>px dashed #ccc;
-    <strong class="hl-keyword" style="color:#7f0055">border-bottom</strong>: <span class="hl-number">1</span>px dashed #ccc;
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>: #<span class="hl-number">444</span>;
-    <strong class="hl-keyword" style="color:#7f0055">font</strong>: normal <span class="hl-number">13</span>px/<span class="hl-number">22</span>px <span class="hl-string" style="color:#2a00ff">"Helvetica Neue"</span>,<span class="hl-string" style="color:#2a00ff">"HelveticaNeue"</span>,Helvetica,sans-serif;
-    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
-    <strong class="hl-keyword" style="color:#7f0055">padding</strong>: <span class="hl-number">9</span>px <span class="hl-number">5</span>px <span class="hl-number">8</span>px <span class="hl-number">25</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">width</strong>: <span class="hl-number">100</span>%;
-    <strong class="hl-keyword" style="color:#7f0055">font-weight</strong>:bold;
+    display: inline-block;
+    background: #ececec url(../img/expanded.gif) no-repeat 1% center;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    color: #444;
+    font: normal 13px/22px "Helvetica Neue","HelveticaNeue",Helvetica,sans-serif;
+    cursor: pointer;
+    padding: 9px 5px 8px 25px;
+    width: 100%;
+    font-weight:bold;
     
 }
 
 .expander.collapsed{
-    <strong class="hl-keyword" style="color:#7f0055">padding-left</strong>:<span class="hl-number">13</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">background-position</strong>:<strong class="hl-keyword" style="color:#7f0055">left</strong> center;
-    <strong class="hl-keyword" style="color:#7f0055">background-repeat</strong>:no-repeat;
-    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
-    <strong class="hl-keyword" style="color:#7f0055">font-size</strong>: <span class="hl-number">16</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>: blue;
+    padding-left:13px;
+    background-position:left center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
     box-sizing: border-box;
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline-block;
-    <strong class="hl-keyword" style="color:#7f0055">background</strong>: #ececec url(../img/collapsed.gif) no-repeat <span class="hl-number">1</span>% center;
-    <strong class="hl-keyword" style="color:#7f0055">border-top</strong>: <span class="hl-number">1</span>px dashed #ccc;
-    <strong class="hl-keyword" style="color:#7f0055">border-bottom</strong>: <span class="hl-number">1</span>px dashed #ccc;
-    <strong class="hl-keyword" style="color:#7f0055">color</strong>: #<span class="hl-number">444</span>;
-    <strong class="hl-keyword" style="color:#7f0055">font</strong>: normal <span class="hl-number">13</span>px/<span class="hl-number">22</span>px <span class="hl-string" style="color:#2a00ff">"Helvetica Neue"</span>,<span class="hl-string" style="color:#2a00ff">"HelveticaNeue"</span>,Helvetica,sans-serif;
-    <strong class="hl-keyword" style="color:#7f0055">cursor</strong>: pointer;
-    <strong class="hl-keyword" style="color:#7f0055">padding</strong>: <span class="hl-number">9</span>px <span class="hl-number">5</span>px <span class="hl-number">8</span>px <span class="hl-number">25</span>px;
-    <strong class="hl-keyword" style="color:#7f0055">width</strong>: <span class="hl-number">100</span>%;
-    <strong class="hl-keyword" style="color:#7f0055">font-weight</strong>:bold;
+    display: inline-block;
+    background: #ececec url(../img/collapsed.gif) no-repeat 1% center;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    color: #444;
+    font: normal 13px/22px "Helvetica Neue","HelveticaNeue",Helvetica,sans-serif;
+    cursor: pointer;
+    padding: 9px 5px 8px 25px;
+    width: 100%;
+    font-weight:bold;
 }
-     </pre>
+     {% endhighlight %}
 </p></div>
 </li>
 <li class="li step stepexpand"><span class="ph cmd">Grab the two arrow images: <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/images/expanded.gif" target="_blank">expanded.gif</a> and <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/images/collapsed.gif" target="_blank">collapsed.gif</a></span>
@@ -115,19 +115,19 @@ $('.expander').simpleexpand();
 <p class="p">Right-click the images (they appear in the upper-left corner) and save the images to your computer.</p>
 </div>
 </li>
-<li class="li step stepexpand"><span class="ph cmd">Copy the images into this folder: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/img.</span> </span>
+<li class="li step stepexpand"><span class="ph cmd">Copy the images into this folder: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/img. </span>
 <div class="itemgroup info">
 <p class="p">Now you've set up your jQuery script, styles, and images. The next step shows how to incorporate the show/hide effect in a page.</p>
 </div>
 </li>
 <li class="li step stepexpand"><span class="ph cmd">To include a show/hide instance on a page, add the following:</span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
    <sectiondiv>
     <p outputclass="expander">View details</p>
     <p outputclass="content">This is the content that gets expanded.</p>
    </sectiondiv>
-  </pre>
+  {% endhighlight %}
 <p class="p">Adding <code>outputclass</code> on an element renders it to <code>class</code> in the HTML output.</p>
 <p class="p">It's not absolutely necessary to include the <code>sectiondiv</code> tag. However, if you have multiple elements with an <code>outputclass="content"</code> on your elements, and those elements are siblings (rather than in a parent/child hierarchy), all the siblings will expand. By containing each element with <code>outputclass="content"</code> inside a <code>sectiondiv</code> tag, then only that element inside the <code>sectiondiv</code> will expand.</p>
 <p class="p">This is because the default behavior of the Simple Expand plugin is to climb up to the parent element and expand all child elements containing the <code>content</code> class. By using <code>sectiondiv</code> elements, you create multiple parent-child relationships.</p>
@@ -137,7 +137,7 @@ $('.expander').simpleexpand();
 <li class="li step stepexpand">
     <span class="ph cmd">You can also transclude content from another page.</span></p>
 <div class="itemgroup stepxmp">The transclusion source might look like this:
-<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+{% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
   <concept id="lipsum_source">
   <title>Sample Show/Hide Content</title>
@@ -153,9 +153,9 @@ $('.expander').simpleexpand();
 </section>
 </conbody>
 </concept>
-    </pre>
+    {% endhighlight %}
 <p class="p">If so, the transclusion target would look like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
  <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_cmy_2g1_kp">
  <title>Show/hide demo</title>
@@ -169,7 +169,7 @@ $('.expander').simpleexpand();
   <section conref="jquery_showhide_sample_content.dita#lipsum_source/lipsum3" outputclass="content"/>
   </conbody>
 </concept>
-     </pre>
+     {% endhighlight %}
 <p class="p">For more details about using <code>conref</code>, see <a class="xref" href="/conref" title="You can re-use notes and other content through an attribute called conref.">Conref (re-use of content)</a>. </p>
 </p></div>
 </li>

@@ -22,12 +22,12 @@ published: true
 <p class="p">The <code>chunk="to-content"</code> attribute allows you to merge child topics into a
                 parent topic in your navigation. You add the <code>chunk</code> attribute on a
                 parent <code>topicref</code>. </p>
-<pre class="pre codeblock">
+{% highlight xml %}
   <topicref href="parent.dita" chunk="to-content">
   <topicref href="child1.dita" toc="no"/>
   <topicref href="child2.dita" toc="no"/>
   </topicref>
-   </pre>
+   {% endhighlight %}
 <p class="p">If you want the child topics to actually appear in the table of contents, use the
                 "yes" value.</p>
 <p class="p">Although the chunk attribute works easily enough in the TOC area, it's problematic
@@ -38,7 +38,7 @@ published: true
 <p class="p">A better way to combine topics is by nesting elements. When you nest elements, you add
                 multiple <code>taskbody</code> or <code>conbody</code> elements inside each
                 other. Here's an example of how nest task elements.</p>
-<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+{% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 
 <task id="task_0">
@@ -112,9 +112,9 @@ published: true
                     </taskbody>
                 </task>
 
-</task></pre>
+</task>{% endhighlight %}
 <p class="p">With nesting concepts, here's what that looks like</p>
-<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+{% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 
 <concept id="concept_1">
@@ -136,7 +136,7 @@ published: true
   </conbody>
 </concept>
 
-</concept></pre>
+</concept>{% endhighlight %}
 <p class="p">Basically, just bookend the individual <code>task</code> or
                     <code>concept</code> elements inside one <code>task</code>  or
                     <code>concept</code> element that functions as a container.</p>
@@ -148,9 +148,9 @@ published: true
                     <code>outputclass</code> attribute to look like a third-level heading: like
                 this:
                 </p>
-<pre class="pre codeblock">  
+{% highlight xml %}
          <p outputclass="level3">Sample heading</p>
-     </pre>
+     {% endhighlight %}
 <p class="p">Then
                 add <code>p.level3</code> class to the webhelp stylesheet. Assuming your
                 OxygenXML install directory begins in your <span class="ph filepath">/Applications</span>
@@ -159,13 +159,13 @@ published: true
 <p class="p">Open the webhelp_topic.css file, scroll down to the bottom, and add something like
                 this for your style:
             </p>
-<pre class="pre codeblock">
+{% highlight xml %}
 .level3 {
   color: #444;
   font-size: 16px;
   font-style: italic;
 }
-     </pre>
+     {% endhighlight %}
 <p>            This is more of a workaround hack than any good technique. Sometimes you just need a
             third-level heading, though, and this works.</p></div>
 </p></div>

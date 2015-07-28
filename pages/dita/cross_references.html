@@ -26,17 +26,17 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">To refer to a specific step, do the following:</p>
 <ol class="ol">
 <li class="li">Add an ID tag on the step:
-<pre class="pre codeblock">
+{% highlight xml %}
 <task id="task_lxj_zps_44">
 
 ...
       
 <step id="deploy">
-    </pre>
+    {% endhighlight %}
 </li>
 <li class="li">Reference the ID through an <code>xref</code> element and include
       <code>type="li"</code>.
-<pre class="pre codeblock">Now perform the same routine as you did in <xref href="#task_lxj_zps_44/deploy" type="li"/>.</pre>
+{% highlight xml %}Now perform the same routine as you did in <xref href="#task_lxj_zps_44/deploy" type="li"/>.{% endhighlight %}
 <div class="note note"><span class="notetitle">Note:</span> The type is <code>li</code>, not <code>step</code>.</div>
 </li>
 </ol></div>
@@ -45,12 +45,12 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">To refer to a specific section with a cross reference, in your regular content, add an ID
     attribute on the element like this:</p>
 <div class="p">
-<pre class="pre codeblock"><section id="date_selection"><title>Date Selection</title></pre>
+{% highlight xml %}<section id="date_selection"><title>Date Selection</title>{% endhighlight %}
 <p>Then
     refer to it like this:</p></div>
-<pre class="pre codeblock"><p> Select the date range you want. See the previous section, <xref href="yourditatopic.dita#thetopicid/date_selection" type="section"/>, for
+{% highlight xml %}<p> Select the date range you want. See the previous section, <xref href="yourditatopic.dita#thetopicid/date_selection" type="section"/>, for
  details about the options.</p>
-  </pre>
+  {% endhighlight %}
 </p></div>
 </p></div>
 <div class="related-links">

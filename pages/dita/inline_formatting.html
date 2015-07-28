@@ -4,18 +4,6 @@ title: 'DITA: Inline formatting'
 permalink: /inline_formatting/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3775328707'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Inline formatting</h1>
 <div class="body conbody">
@@ -24,15 +12,15 @@ excerpt: !ruby/object:Hpricot::Doc
    <code>uicontrol</code>.</p>
 <div class="p">Here's a sample bold formatted
    word:
-<pre class="pre codeblock">Download the <b>project.war</b> file from the folder.</pre>
+{% highlight xml %}Download the <b>project.war</b> file from the folder.{% endhighlight %}
 </div>
 <div class="p">Here's a sample
    instruction:
-<pre class="pre codeblock">Click the <uicontrol>Print</uicontrol button.</pre>
+{% highlight xml %}Click the <uicontrol>Print</uicontrol button.{% endhighlight %}
 </div>
 <div class="p">For a cascade of actions, use <code>menucascade</code> in combination with
     <code>uicontrol</code>:
-<pre class="pre codeblock">To open the document, go to <menucascade><uicontrol>File</uicontrol><uicontrol>Open</uicontrol></menucascade>.</pre>
+{% highlight xml %}To open the document, go to <menucascade><uicontrol>File</uicontrol><uicontrol>Open</uicontrol></menucascade>.{% endhighlight %}
 </div>
 <p class="p">By using <code>menucascade</code> and <code>uicontrol</code>, you can implement
    different formatting than plain bold (although by default, it will look the same in Oxygen's

@@ -5,17 +5,6 @@ permalink: /tables/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
-status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  dsq_thread_id: '3775326439'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Tables</h1>
 <div class="body conbody">
@@ -28,7 +17,7 @@ excerpt: !ruby/object:Hpricot::Doc
     <code>tgroup</code> element and type <code><</code> and select "thead" at the prompt,
    then press Enter.</p>
 <p class="p">The table code looks like this:</p>
-<pre class="pre codeblock"> <table>
+{% highlight xml %} <table>
   <title>Table title</title>
   <tgroup cols="2">
    <thead>
@@ -49,7 +38,7 @@ excerpt: !ruby/object:Hpricot::Doc
     </row>
    </tbody>
   </tgroup>
- </table></pre>
+ </table>{% endhighlight %}
 <p class="p">The title ends up being set as the caption on the top of the table. You can actually set the
    column widths using the table properties. Switch to the Author mode to view your table. Grab the
    middle column divider and drag it a bit. You'll be prompted whether you want proportional or
@@ -60,9 +49,9 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">You can also add the proportions directly in the colspec element. If you choose proportional
    widths, the values might look like the
    following:
-<pre class="pre codeblock"><tgroup cols="2">
+{% highlight xml %}<tgroup cols="2">
     <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="2*"/></pre>
+    <colspec colnum="2" colname="c2" colwidth="2*"/>{% endhighlight %}
 </div>
 <p class="p">Here, the first second column will be twice as wide as the first column.</p>
 </p></div>

@@ -96,20 +96,20 @@ excerpt: !ruby/object:Hpricot::Doc
                         <code>outputclass="external"</code> on the link in the DITA source file.
                     If you look in the ditaimporter.php file, you'll see my hack for making the
                     links work. It looks like this: </p>
-<pre class="pre codeblock language-php">
-       $cls = $a-> getAttribute(<span class="hl-string" style="color:#2a00ff">'class'</span>);
+{% highlight xml %}
+       $cls = $a-> getAttribute('class'</span>);
 
-	$href = $a-> getAttribute(<span class="hl-string" style="color:#2a00ff">'href'</span>);
-	<strong class="hl-keyword" style="color:#7f0055">if</strong> (!<strong class="hl-keyword" style="color:#7f0055">empty</strong>($href) &amp;&amp; ( ($cls == <span class="hl-string" style="color:#2a00ff">'xref'</span> &amp;&amp; $cls == <span class="hl-string" style="color:#2a00ff">'link'</span>) || ($cls == <span class="hl-string" style="color:#2a00ff">'xref'</span>) || ($cls == <span class="hl-string" style="color:#2a00ff">'link'</span>) || ($cls == null ) ) ) {
-                $href = $this->HELP_ROOT_PATH . <span class="hl-string" style="color:#2a00ff">'/'</span> . $this-> processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
-                $a-> setAttribute(<span class="hl-string" style="color:#2a00ff">'href'</span>, $href);
+	$href = $a-> getAttribute('href'</span>);
+	if</strong> (!empty</strong>($href) && ( ($cls == 'xref'</span> && $cls == 'link'</span>) || ($cls == 'xref'</span>) || ($cls == 'link'</span>) || ($cls == null ) ) ) {
+                $href = $this->HELP_ROOT_PATH . '/'</span> . $this-> processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
+                $a-> setAttribute('href'</span>, $href);
 	} 
 
-	<strong class="hl-keyword" style="color:#7f0055">elseif</strong> (!<strong class="hl-keyword" style="color:#7f0055">empty</strong>($href) &amp;&amp; ($cls == <span class="hl-string" style="color:#2a00ff">'external'</span> &amp;&amp; $cls == <span class="hl-string" style="color:#2a00ff">'xref'</span>) ) {
+	elseif</strong> (!empty</strong>($href) && ($cls == 'external'</span> && $cls == 'xref'</span>) ) {
 		  $href = $this->processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
-                $a-> setAttribute(<span class="hl-string" style="color:#2a00ff">'href'</span>, $href);
+                $a-> setAttribute('href'</span>, $href);
 	}
-                </pre>
+                {% endhighlight %}
 <p class="p">This code says if the class is <code>xref</code> and <code>link</code>,
                 or <code>xref</code>, or <code>link</code>, or <code>null</code>, then
                 process the link as a relative link. But if it has a class of
@@ -193,10 +193,10 @@ excerpt: !ruby/object:Hpricot::Doc
 </li>
 <li class="li step stepexpand"><span class="ph cmd">In a text file, create a new document and insert the following:</span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-php">
-<span class="hl-directive" style="color:#8b26c9"><?php</span> <strong class="hl-keyword" style="color:#7f0055">include_once</strong>(ABSPATH . <span class="hl-string" style="color:#2a00ff">'wp-admin/includes/import.php'</span>);
-<strong class="hl-keyword" style="color:#7f0055">require_once</strong>(ABSPATH . <span class="hl-string" style="color:#2a00ff">'wp-content/ditaimporter/ditahelp.php'</span>);
-                </pre>
+    {% highlight xml %}
+<?php</span> include_once</strong>(ABSPATH . 'wp-admin/includes/import.php'</span>);
+require_once</strong>(ABSPATH . 'wp-content/ditaimporter/ditahelp.php'</span>);
+                {% endhighlight %}
 </p></div>
 </li>
 <li class="li step stepexpand"><span class="ph cmd">Save the file as <span class="ph filepath">dita-import-helper.php</span>. </span></li>
@@ -225,13 +225,13 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="section context">
 <p class="p">In your DITA Map, structure your sections with the following
                         hierarchy:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
    <topicref href="toc_content_reuse.dita">
    <topicref href="conditional_profiling.dita"/>
    <topicref href="conref.dita"/>
    <topicref href="ditaval.dita"/>
   </topicref>
-</pre>
+{% endhighlight %}
 <p class="p">The title for each section (in this case, toc_content_reuse.dita) should
                         go to an actual file, but you don't need to include any content in that
                         file. By default, the DITA OT will populate that file with a summary of all
@@ -240,11 +240,11 @@ excerpt: !ruby/object:Hpricot::Doc
                         the page (unless you specifically configure that setting). However, the page
                         will still appear in search results. </p>
 <p class="p">What you want to avoid is this structure:</p>
-<pre class="pre codeblock">  <topichead navtitle="Content Re-use">
+{% highlight xml %}  <topichead navtitle="Content Re-use">
    <topicref href="conditional_profiling.dita"/>
    <topicref href="conref.dita"/>
    <topicref href="ditaval.dita"/>
-  </topichead>                    </pre>
+  </topichead>                    {% endhighlight %}
 <p class="p">Don't use <code>topichead</code> elements that don't point to any
                         real files. The navigation menu in WordPress needs an actual file to create
                         a hierarchy. (It's a best practice anyway to <a class="xref external" href="http://www.oxygenxml.com/dita/styleguide/webhelp-feedback/Artefact/Maps/c_Using_Topicheads_in_a_Map.html" target="_blank">avoid <code>topichead</code>
@@ -298,13 +298,13 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="itemgroup stepxmp">
 <p class="p">One way to find the absolute path is by creating a file with the following
                                 contents:</p>
-<pre class="pre codeblock language-php"><span class="hl-directive" style="color:#8b26c9"><?php</span> phpinfo() <span class="hl-directive" style="color:#8b26c9">?></span>   </pre>
+{% highlight php %}<?php phpinfo() ?>   {% endhighlight %}
 <p class="p">Save the file as "phpinfo.php" and upload it to your dita-staging directory.</p>
 <p class="p">View the phpinfo.php page in your browser. In the <strong class="ph b">DOCUMENT_ROOT</strong> section, look
                                 at the absolute path. It will look something like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
 /home2/idrathe1/public_html/
-                    </pre>
+{% endhighlight %}
 <p class="p">Copy this path -- you will need in an upcoming step.</p>
 </p></div>
 </li>
@@ -385,16 +385,16 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">If permalinks aren't working, and you're on a Linux server, go to /etc/httpd/conf
                     and edit your httpd.conf file. Edit AllowOverride None to <strong class="ph b">AllowOverride
                         All</strong> in the following two sections:</p>
-<pre class="pre codeblock"># AllowOverride controls what directives may be placed in .htaccess files.
+{% highlight bash %}# AllowOverride controls what directives may be placed in .htaccess files.
 # It can be "All", "None", or any combination of the keywords:
 #   Options FileInfo AuthConfig Limit
 #
-    AllowOverride All     </pre>
+    AllowOverride All     {% endhighlight %}
 <p class="p">And here as well:</p>
-<pre class="pre codeblock"><Directory />
+{% highlight bash %}<Directory />
     Options FollowSymLinks
     AllowOverride All
-</Directory>            </pre>
+</Directory>            {% endhighlight %}
 <p class="p">If you have to SSH via Terminal or command line to get at this file, you might
                         enjoy the Pico editor rather than the VI editor, which requires knowledge of
                         Linux commands to make simple edits.</p>
@@ -417,8 +417,8 @@ excerpt: !ruby/object:Hpricot::Doc
                     <span class="ph cmd">Click the <span class="ph uicontrol">functions.php</span> file and add the following
                             code at the absolute bottom of the file:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">remove_filter( 'the_content', 'wpautop' );
-remove_filter( 'the_excerpt', 'wpautop' );                     </pre>
+{% highlight php %}remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );                     {% endhighlight %}
 </p></div>
 </li>
 <li class="li step stepexpand">
@@ -515,27 +515,28 @@ remove_filter( 'the_excerpt', 'wpautop' );                     </pre>
 <li class="li step stepexpand">
                     <span class="ph cmd">Add the following query to pull the toc page into a PHP Code widget:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-php"><div id=<span class="hl-string" style="color:#2a00ff">"tocPage"</span>><div <strong class="hl-keyword" style="color:#7f0055">class</strong>=<span class="hl-string" style="color:#2a00ff">"accordion clean"</span>>
-<span class="hl-directive" style="color:#8b26c9"><?php</span>
-$args = <strong class="hl-keyword" style="color:#7f0055">array</strong>( 
-<span class="hl-string" style="color:#2a00ff">'page_id'</span> => <span class="hl-number">104</span>,
+{% highlight xml %}
+<div class="accordion clean">
+<?php
+$args = array</strong>( 
+'page_id' => 104,
 );
  
-$the_query = <strong class="hl-keyword" style="color:#7f0055">new</strong> WP_Query( $args );
+$the_query = new WP_Query( $args );
  
-<em class="hl-comment" style="color:#006400">// The Loop</em>
-<strong class="hl-keyword" style="color:#7f0055">if</strong> ( $the_query->have_posts() ) :
-<strong class="hl-keyword" style="color:#7f0055">while</strong> ( $the_query->have_posts() ) : $the_query->the_post();
+// The Loop
+if ( $the_query->have_posts() ) :
+while ( $the_query->have_posts() ) : $the_query->the_post();
   the_content();
-<strong class="hl-keyword" style="color:#7f0055">endwhile</strong>;
-<strong class="hl-keyword" style="color:#7f0055">endif</strong>;
+endwhile;
+endif;
  
-<em class="hl-comment" style="color:#006400">// Reset Post Data</em>
+// Reset Post Data
 wp_reset_postdata();
  
-<span class="hl-directive" style="color:#8b26c9">?></span>
+?>
 </div>
-</div>      </pre>
+</div>      {% endhighlight %}
 <p class="p">In this example, <code>104</code> is the page ID of the toc page.
                                 Update this ID to the actual ID of your page. The
                                     <code>tocPage</code> ID <code>accordion clean
@@ -582,7 +583,7 @@ wp_reset_postdata();
                                 <code></head></code> tag, add the following references to the
                             stylesheets and scripts:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock"><!-- accordion start -->
+{% highlight xml %}<!-- accordion start -->
 <link href="<?php echo get_template_directory_uri(); ?>/css/dcaccordion.css" rel="stylesheet" type="text/css" />
 <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.js'></script>
 <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/jquery.hoverIntent.minified.js'></script>
@@ -607,7 +608,7 @@ speed: 'fast'
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/css/skins/clean.css" rel="stylesheet" type="text/css" />
 <!-- accordion end-->
-                        </pre>
+                        {% endhighlight %}
 <p class="p">If you read about the jQuery plugin, you'll see that I'm not using
                                     <code>#accordion</code> to trigger the plugin. Why not?
                                 Well, when the DITA OT converts the ditamap to an index file, it
@@ -619,11 +620,11 @@ speed: 'fast'
                                     ul:nth-child(1)</code>). This selects the first list that
                                 appears after the <code>#tocPage</code> ID.</p>
 <p class="p">Also note that if you read about the options available in the jQuery plugin, you'll see that I've specified some here: </p>
-<pre class="pre codeblock">eventType: 'click',
+{% highlight xml %}eventType: 'click',
 autoClose: true,
 saveState: true,
 disableLink: true,
-speed: 'fast'                      </pre>
+speed: 'fast'                      {% endhighlight %}
 <p class="p">Of note here are the <code>saveState</code> and <code>autoClose</code> options. The
                                     <code>saveState</code> option means when a user opens a menu
                                 and reloads the page, or actually goes to the page (meaning the site
@@ -683,7 +684,7 @@ speed: 'fast'                      </pre>
 <div class="p">To turn off revisions in WordPress, add this in your wp-config.php file (which is
                         in your WordPress root
                         directory).
-<pre class="pre codeblock">define( 'WP_POST_REVISIONS', 0 );                </pre>
+{% highlight xml %}define( 'WP_POST_REVISIONS', 0 );                {% endhighlight %}
 </div></div>
 </p></div>
 </p></div>

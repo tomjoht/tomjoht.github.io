@@ -4,18 +4,6 @@ title: 'DITA: Keyref links'
 permalink: /keyref_links/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  wpautop: 'false'
-  prodname_id: ''
-  prodname_long: ''
-  dsq_thread_id: '3776994290'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Keyref links</h1>
 <div class="body conbody">
@@ -24,22 +12,22 @@ excerpt: !ruby/object:Hpricot::Doc
       link to the key. This way, if you need to change the link, you need only change the key's
       reference in your map file. You don't have to change all the keys in your topics. </p>
 <div class="p">First add the key link in your map file like this:</p>
-<pre class="pre codeblock"><topicref href="argument_acme.dita" keys="argument" /></pre>
+{% highlight xml %}<topicref href="argument_acme.dita" keys="argument" />{% endhighlight %}
 </div>
 <div class="p">Alternatively, you can refer to it like this in the map:</p>
-<pre class="pre codeblock"><keydef href="argument_acme.dita" keys="argument" /></pre>
+{% highlight xml %}<keydef href="argument_acme.dita" keys="argument" />{% endhighlight %}
 </div>
 <div class="p">Then refer to the key in your topic like this:</p>
-<pre class="pre codeblock"><xref keyref="argument"/></pre>
+{% highlight xml %}<xref keyref="argument"/>{% endhighlight %}
 </div>
 <p class="p">You just use <code>keyref</code> instead of <code>href</code>.</p>
 <p class="p">You can use a keyref anywhere there's an href:</p>
 <div class="p">
-<pre class="pre codeblock"><link keyref="argument"/></pre>
+{% highlight xml %}<link keyref="argument"/>{% endhighlight %}
 </p></div>
 <p class="p">or with images:</p>
 <div class="p">
-<pre class="pre codeblock"><image keyref="argument"/></pre>
+{% highlight xml %}<image keyref="argument"/>{% endhighlight %}
 </p></div>
 <p class="p">If the key isn't defined in the map, it doesn't appear in the output. This makes it better to
       use for your related links because you won't run into issues of the link being dependent on

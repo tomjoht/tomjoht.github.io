@@ -6,16 +6,6 @@ date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
 status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  dsq_thread_id: '3773032389'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Map file (table of contents)</h1>
 <div class="body conbody">
@@ -23,29 +13,29 @@ excerpt: !ruby/object:Hpricot::Doc
     include relationship tables, key definitions, and resource files in your map files.</p>
 <div class="p">The primary purpose of the map file is to arrange your table of contents. The map file looks
       like this:
-<pre class="pre codeblock"><map>
+{% highlight xml %}<map>
  <title>DITA Topic Map</title>
-</map></pre>
+</map>{% endhighlight %}
 </div>
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Creating a TOC</h2>
 <div class="p">You add references to the topics you want in the table of contents like
    this:
-<pre class="pre codeblock"> <topicref href="keyref_links.dita"/>
+{% highlight xml %} <topicref href="keyref_links.dita"/>
  <topicref href="inline_links.dita"/>
  <topicref href="related_links.dita"/>
- <topicref href="relationship_tables.dita"/></pre>
+ <topicref href="relationship_tables.dita"/>{% endhighlight %}
 </div>
 <div class="p">To establish parent/child relationships between topics, nest the <code>topicref</code>
         elements in each other, like
         this:
-<pre class="pre codeblock"> <topicref href="toc_links.dita">
+{% highlight xml %} <topicref href="toc_links.dita">
  <topicref href="keyref_links.dita"/>
  <topicref href="inline_links.dita"/>
  <topicref href="related_links.dita"/>
  <topicref href="relationship_tables.dita"/>
-</topicref></pre>
+</topicref>{% endhighlight %}
 </div>
 <p class="p">Now the toc_inks.dita file (note the lack of the self-closed angle bracket "/>") will be the
         parent and the 4 links below it will be children. The parent topic will show the four child
@@ -55,12 +45,12 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">Note that there is another element called a <code>topichead</code> that also allows you
         to group topics into hierarchical relationships, like this:</p>
 <div class="p">
-<pre class="pre codeblock"><topichead navtitle="Links">
+{% highlight xml %}<topichead navtitle="Links">
  <topicref href="keyref_links.dita"/>
  <topicref href="inline_links.dita"/>
  <topicref href="related_links.dita"/>
  <topicref href="relationship_tables.dita"/>
-</topichead></pre>
+</topichead>{% endhighlight %}
 </p></div>
 <p class="p">However, many people are opposed to using <code>topichead</code> because it creates a
         containing folder that does nothing except expand its folder contents when a user clicks it.
@@ -75,11 +65,11 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">If you want to combine topics in each other, use the <code>chunk</code> attribute and
         specify whether each child topic should appear in the
         TOC:
-<pre class="pre codeblock"> <topicref href="inserting_links.dita" chunk="to-content">
+{% highlight xml %} <topicref href="inserting_links.dita" chunk="to-content">
  <topicref href="inline_links.dita" toc="no"/>
  <topicref href="related_links.dita" toc="no"/>
  <topicref href="keyref_links.dita" toc="no"/>
-</topicref></pre>
+</topicref>{% endhighlight %}
 </div>
 <p class="p">This output will show Inserting Links as the topic title and the three child topics as
         subheadings within the topic. It will appear as one file. However, note that if you put
@@ -117,11 +107,11 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">Suppose you want to group a set of topics in your map so that all topics in the group inherit
         the same attributes and properties. By making the topics children of an element, the
         children inherit the parent's properties.</p>
-<pre class="pre codeblock"> <topichead audience="field_engineers" navtitle="Resources">
+{% highlight xml %} <topichead audience="field_engineers" navtitle="Resources">
   <topicref href="concept.dita"/>
   <topicref href="notes.dita"/>
   <topicref href="conref.dita"/>
- </topicgroup></pre>
+ </topicgroup>{% endhighlight %}
 </div>
 <p class="p">Now concept.dita, notes.dita, and conref.dita will all have the attribute
           <code>audience="field_engineers"</code>. These topics will appear inside a folder
@@ -131,11 +121,11 @@ excerpt: !ruby/object:Hpricot::Doc
           <code>topicgroup</code> is that <code>topichead</code> applies a hierarchy in the
         TOC, while <code>topicgroup</code> does not result in any
         hierarchy.
-<pre class="pre codeblock"> <topicref href="toc_links.dita" audience="field_engineers">
+{% highlight xml %} <topicref href="toc_links.dita" audience="field_engineers">
   <topicref href="concept.dita"/>
   <topicref href="notes.dita"/>
   <topicref href="conref.dita"/>
- </topicref></pre>
+ </topicref>{% endhighlight %}
 </div>
 <p class="p">In this example, all the topics in this group will have the
           <code>audience="field_engineers"</code> attribute applied to them. If you want to
@@ -148,9 +138,9 @@ excerpt: !ruby/object:Hpricot::Doc
         you store all your conrefs), your relationship table, and your glossary. You could combine
         them all in the same map, but doing so will make the ditamap file long. When you add these
         non-TOC links, add an attribute of <code>processing-role:"resource only".</code></p>
-<pre class="pre codeblock">  <topicref processing-role="resource-only" href="notes.dita" />
+{% highlight xml %}  <topicref processing-role="resource-only" href="notes.dita" />
   <mapref processing-role="resource-only" href="keys.ditamap"/>
-  <mapref processing-role="resource-only" href="relationship_table.ditamap"/> </pre>
+  <mapref processing-role="resource-only" href="relationship_table.ditamap"/> {% endhighlight %}
 <p class="p">Notice that I used <code>mapref</code> here instead of <code>topicref</code>. If
         you use <code>topicref</code> and point to a ditamap file, add
           <code>format="ditamap"</code> in your attributes.</p>

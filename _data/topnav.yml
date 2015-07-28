@@ -90,8 +90,8 @@ topnav_dropdowns:
       - title: JavaScript
         url: /javascript/
 
-#      - title: DITA
-#        url: /ditaqrg/
+      - title: DITA
+        url: /ditaqrg/
 
       - title: Java
         url: /java-introduction/

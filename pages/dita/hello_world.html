@@ -44,7 +44,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li">In either the Author or Text view, create some content. For example, if you're in the
           Text view, you might create
             this:
-<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+{% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_vm3_v3z_bq">
   <title>Hello World</title>
@@ -53,7 +53,7 @@ excerpt: !ruby/object:Hpricot::Doc
    
   </body>
 </topic>
-</pre>
+{% endhighlight %}
 <p class="p">In
             either view, note how Oxygen will prompt you with options. In the Author view, hit your
             Return key to see a list of elements you can insert at a particular point.</p>
@@ -64,13 +64,13 @@ excerpt: !ruby/object:Hpricot::Doc
           extension will be <code>.ditamap</code>.</li>
 <li class="li">In the DITA Map, add the bold text shown below (the rest should already be populated
             there):
-<pre class="pre codeblock"><?xml version="1.0" encoding="UTF-8"?>
+{% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>DITA Topic Map</title>
  
- <strong class="ph b"><topicref href="hello_world.dita"/></strong>
-</map></pre>
+ <topicref href="hello_world.dita"/>
+</map>{% endhighlight %}
 <p class="p">Note
             that once you save your DITA map file, when you type <code>href="</code>, the editor
             will show you available topics within the folder.</p>
@@ -83,7 +83,8 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">In the DITA Maps Manager view, click the wrench icon (<strong class="ph b">Configure
               Transformation Scenario(s)</strong>). </p>
 <p class="p">
-            <img class="image" id="topic_vm3_v3z_bq__image_m24_clz_bq" src="/images/dita_maps_manager.png" alt="" />
+
+    <img src="{{ "/>images/dita_maps_manager.png" | prepend: site.baseurl }}" alt="" />
           </p>
 </li>
 <li class="li">Select <span class="ph uicontrol">DITA Map Webhelp</span>, and then click <span class="ph uicontrol">Apply
@@ -93,7 +94,9 @@ excerpt: !ruby/object:Hpricot::Doc
             button. This button will apply whatever selections you have set in the Configure
             Transformation Scenario(s) dialog. </p>
 <p class="p">Congratulations. You should see a sample
-            webhelp output as shown below.<img class="image" id="topic_vm3_v3z_bq__image_fp5_hlz_bq" src="/images/sample_output.png" alt="" /></p>
+            webhelp output as shown below.
+    <img src="{{ "/>images/sample_output.png" | prepend: site.baseurl }}" alt="" />
+    </p>
 </li>
 </ol></div>
 </p></div>

@@ -6,17 +6,7 @@ date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
 status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  dsq_thread_id: '3782403072'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
-<h1 class="title topictitle1">DITA: Shortdesc (short description)</h1>
 <div class="body conbody">
 <p class="shortdesc">The <code>shortdesc</code> element allows you to add a summary overview of the topic
   in a couple of sentences right below the topic <code>title</code> and before the
@@ -33,13 +23,13 @@ excerpt: !ruby/object:Hpricot::Doc
 </ul>
 <p> Here's an
       example:
-<pre class="pre codeblock"><concept id="concept">
+{% highlight xml %}<concept id="concept">
  <title>Wheel truing overview</title>
  <shortdesc>Truing your wheels requires you to tighten or loosen spokes with a spoke wrentch in a balanced pattern in order to change the shape of the wheel.</shortdesc>
  <conbody>
    <p>Blah blah blah...</p>
  </conbody>
-</concept></pre>
+</concept>{% endhighlight %}
 </p></div>
 </p></div>
 <div class="related-links">

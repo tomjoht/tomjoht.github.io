@@ -26,11 +26,11 @@ published: true
 </li>
 <li class="li">
 <p class="p">Add the following trigger below the script: </p>
-<pre class="pre codeblock">$("p.toc").toc({content: ".body", headings: "h2,h3"});</pre>
+{% highlight xml %}$("p.toc").toc({content: ".body", headings: "h2,h3"});{% endhighlight %}
 </li>
 <li class="li">
 <p class="p">Add the following styles to your custom skin's stylesheet:</p>
-<pre class="pre codeblock">p.toc {
+{% highlight xml %}p.toc {
 background-color: whitesmoke;
 margin-bottom: 20px;
 list-style-type: square;
@@ -49,7 +49,7 @@ p.toc h3 {
 margin-left: auto;
 margin-right: auto;
 width: 30%;
-}</pre>
+}{% endhighlight %}
 </li>
 <li class="li">
 <p class="p">On a page where you want to insert the TOC, add <code><p outputclass="toc"/></code>.</p>

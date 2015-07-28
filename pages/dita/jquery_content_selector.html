@@ -36,7 +36,7 @@ excerpt: !ruby/object:Hpricot::Doc
    <span class="ph cmd">In a text editor, open the web_topic.js file found in the following directory: <span class="ph filepath">[Oxygen Install Directory]/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources/js</span></span></li>
 <li class="li step stepexpand"><span class="ph cmd">Before the closing <code>)};</code>, add the following script:</span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-java">
+{% highlight xml %}
    function removeAddBodyClass(){
     <em class="hl-comment" style="color:#006400">/* For topics loaded in iFrame */</em>
     $(<span class="hl-string" style="color:#2a00ff">"body"</span>).removeClass();
@@ -54,11 +54,11 @@ excerpt: !ruby/object:Hpricot::Doc
     });
     
     $(<span class="hl-string" style="color:#2a00ff">"#selector > option"</span>).each(function() {
-    <strong class="hl-keyword" style="color:#7f0055">if</strong>($(<strong class="hl-keyword" style="color:#7f0055">this</strong>).val() == $.cookie(<span class="hl-string" style="color:#2a00ff">'body_colour'</span>)){
-    $(<strong class="hl-keyword" style="color:#7f0055">this</strong>).attr(<span class="hl-string" style="color:#2a00ff">"selected"</span>,<span class="hl-string" style="color:#2a00ff">"selected"</span>); 
+    if($(this).val() == $.cookie(<span class="hl-string" style="color:#2a00ff">'body_colour'</span>)){
+    $(this).attr(<span class="hl-string" style="color:#2a00ff">"selected"</span>,<span class="hl-string" style="color:#2a00ff">"selected"</span>); 
     }
     });
-    </pre>
+    {% endhighlight %}
 <p class="p">This script is from the demo download zip file available on <a class="xref external" href="http://hibbard.eu/using-cookies-with-jquery-to-make-a-simple-style-switcher/" target="_blank">Hibbard's site.</a> (Scroll
             to the bottom of the page where you can download the demo as a zip file; then open one
             of the HTML files to see the script.) There is one modification, though. I added the
@@ -81,7 +81,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li step stepexpand"><span class="ph cmd">Locate the line that begins "<xsl:template name="commonattributes">" and replace that
      section with the following:</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
   <xsl:template name="commonattributes">
     <xsl:param name="default-output-class"/>
     <xsl:apply-templates select="@xml:lang"/>
@@ -104,7 +104,7 @@ excerpt: !ruby/object:Hpricot::Doc
         select="@id"/></xsl:attribute>
     </xsl:if>
   </xsl:template>
-     </pre>
+     {% endhighlight %}
 <p class="p">This will allow the <code>platform</code>,
        <code>audience</code>, and <code>id</code> attributes to pass through as attributes in
       the output (so you can leverage them). Without these attributes in the output, you won't be
@@ -114,60 +114,60 @@ excerpt: !ruby/object:Hpricot::Doc
 </li>
 <li class="li step stepexpand"><span class="ph cmd">Go to your custom skin's stylesheet. Near the bottom, add the following styles: </span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock language-css">
+{% highlight xml %}
      <em class="hl-comment" style="color:#006400">/* by default, java is shown because on initial page load, we don't want blank spaces with no code.*/</em>
 #bck_toc li.cpp, #bck_toc li.dotnet, #bck_toc li.php, body [data-platform*=cpp], body [data-platform*=dotnet], body [data-platform*=php] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: none;
+    display: none;
 }
 body.java [data-platform*=java] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 body.java .ph[data-platform*=java] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline!important;
+    display: inline!important;
 }
 #bck_toc.java li.java, body.cpp [data-platform*=cpp] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 body.cpp .ph[data-platform*=cpp] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline!important;
+    display: inline!important;
 }
 #bck_toc.cpp li.cpp {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 #bck_toc.cpp li.java, body.cpp [data-platform*=java] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: none;
+    display: none;
 }
 body.dotnet [data-platform*=dotnet] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 body.dotnet .ph[data-platform*=dotnet] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline!important;
+    display: inline!important;
 }
 #bck_toc.dotnet li.dotnet {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 #bck_toc.dotnet li.java, body.dotnet [data-platform*=java] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: none;
+    display: none;
 }
 body.php [data-platform*=php] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 body.php .ph[data-platform*=php] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: inline!important;
+    display: inline!important;
 }
 #bck_toc.php li.php {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: block!important;
+    display: block!important;
 }
 #bck_toc.php li.java, body.php [data-platform*=java] {
-    <strong class="hl-keyword" style="color:#7f0055">display</strong>: none;
+    display: none;
 }
     
     
     #progSelector {
-    <strong class="hl-keyword" style="color:#7f0055">margin-left</strong>:<span class="hl-number">600</span>px;
+    margin-left:<span class="hl-number">600</span>px;
     
     }
-    </pre>
+    {% endhighlight %}
 <p class="p">You will need to adjust this code depending on the classes you're adding. For example, if you don't want your four selections to be java, php, dotnet, and cpp, swap in the classes you intend to use. Also, if you're not using platform but rather product or audience, make that switch as well.</p>
 <p class="p">Basically, here's a summary of what's going on with this CSS. By default, the content selector doesn't have an initial selection. In this example, anything tagged with the class <code>cpp</code>, <code>dotnet</code>, or <code>php</code> will initially be hidden, but not <code>java</code>. This is because we don't want blank spaces in the code to appear before the user selects something in the content selector. (By the way, make sure that the default content that appears (e.g., java) is first in your selector's options. This step is described later).</p>
 <p class="p">When a user makes a selection from the selector, the jQuery script adds a class to the <code>body</code> element. The selector <code>body.cpp [data-platform*="cpp"]</code> says for anything inside the <code>body</code>element with the <code>cpp</code> class that also has the attribute of <code>data-platform=cpp</code>, then apply this style.</p>
@@ -177,14 +177,14 @@ body.php .ph[data-platform*=php] {
 </li>
 <li class="li step stepexpand"><span class="ph cmd">Add a selector in your header file to allow users to select the content they want to see. To do this, create a new XHTML file and add the following: </span>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock">
+{% highlight xml %}
 <p id="progSelector">Select your programming language: <select id="selector">
     <option value="java">Java</option>
     <option value="dotnet">.NET</option>
     <option value="cpp">C++</option>
     <option value="php">PHP</option>
 </select></p>
-   </pre>
+   {% endhighlight %}
 <p class="p">Replace the options with whatever you want. Just keep in mind that the values must match your classes. Also, by default, the first option will appear in the selector, even though the user hasn't actually made that selection. This is why <code>java</code> is not hidden by default in the styles.</p>
 </p></div>
 </li>
@@ -204,6 +204,6 @@ body.php .ph[data-platform*=php] {
 </p></div>
 <div class="related-links">
 <div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
+<div class="parentlink"><strong>Parent topic</strong>: <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
 </div>
 </div>

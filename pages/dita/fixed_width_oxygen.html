@@ -4,23 +4,11 @@ title: "DITA: Make Oxygen's webhelp output a fixed width"
 permalink: /fixed_width_oxygen/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3774266567'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Make Oxygen's webhelp output a fixed width</h1>
 <div class="body">
 <p class="p">I'm not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
-<pre class="pre codeblock">
+{% highlight xml %}
 <code>.conbody,
 .taskbody,
 .refbody,
@@ -33,20 +21,20 @@ p.shortdesc,
     max-width:800px;
 }
 </code>
-</pre>
+{% endhighlight %}
 <p class="p">Some of those other elements, such as <code>title</code> and <code>p.shortdesc</code>, appear before the <code>body</code>. They don't seem to be contained within anything, though I could have overlooked something.</p>
 <p class="p">I also apply a <code>max-width</code> property to images:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
 <code>.conbody img,
 .taskbody img,
 .refbody img{
     max-width:600px;
 }
 </code>
-</pre>
+{% endhighlight %}
 <p class="p">Note also that when you apply a fixed width to your content, the code in your <code>code block</code> elements may get cut off. Since <code>codeblock</code> elements are contained within <code>stepxmp</code> and <code>info</code>, which are contained within <code>step</code>, you can't really get around their parent containers.</p>
 <p class="p">Instead, to handle <code>code block</code> content from getting cut off, you can add this: </p>
-<pre class="pre codeblock">
+{% highlight xml %}
 <code>  .codeblock {
  white-space: pre-wrap;       /* css-3 */
  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -55,7 +43,7 @@ p.shortdesc,
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 </code>
-</pre>
+{% endhighlight %}
 <p class="p">Special shoutout to <a class="xref external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a> for this tip on wrapping content inside the <code>pre</code> tag.</p>
 </div>
 <div class="related-links">

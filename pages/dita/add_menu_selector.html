@@ -30,14 +30,14 @@ published: true
 <li class="li step stepexpand">
                 <span class="ph cmd">Insert a menu selector form with various options.</span></p>
 <div class="itemgroup stepxmp">
-<pre class="pre codeblock"> <form><span id="progSelector">Programming language:</span>
+{% highlight xml %} <form><span id="progSelector">Programming language:</span>
           <select name="URL" onchange="window.parent.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
               <option value="../java/index.html">Java</option>
               <option value="../dotnet/index.html">.NET</option>
               <option value="../cpp/index.html">C++</option>
               <option value="../php/index.html">PHP</option>
         </select>
-    </form></pre>
+    </form>{% endhighlight %}
 <p class="p">When a user selects an option, it triggers an <code>onchange</code> script to trigger that changes the browser's location to the URL of the option selected.</p>
 <p class="p">Note that because OxygenXML's webhelp uses frames, you must use the
                             <code>window.parent.location</code> as the target for each of theo

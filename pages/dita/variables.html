@@ -4,18 +4,6 @@ title: 'DITA: Variables'
 permalink: /variables/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  dsq_thread_id: '3775070757'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Variables</h1>
 <div class="body conbody">
@@ -27,28 +15,28 @@ excerpt: !ruby/object:Hpricot::Doc
    to.</p>
 <div class="p">In your map file, add the
    following:
-<pre class="pre codeblock">  <keydef keys="product_name">
+{% highlight xml %}  <keydef keys="product_name">
    <topicmeta>
     <keywords>
      <keyword>ACME</keyword>
     </keywords>
    </topicmeta>
-  </keydef></pre>
+  </keydef>{% endhighlight %}
 </div>
 <div class="p">In your topic file, reference the variable with the
    following:
-<pre class="pre codeblock">Congratulations on the purchase of <keyword keyref="product_name"/>. </pre>
+{% highlight xml %}Congratulations on the purchase of <keyword keyref="product_name"/>. {% endhighlight %}
 </div>
 <div class="p">You can event put attributes on the keyword so that different product names appear based on
    different conditional processing.</p>
-<pre class="pre codeblock"> <keydef keys="product_name">
+{% highlight xml %} <keydef keys="product_name">
    <topicmeta>
     <keywords>
      <keyword audience="UK">ACME</keyword>
      <keyword audience="USA">Gizmo</keyword>
     </keywords>
    </topicmeta>
-  </keydef></pre>
+  </keydef>{% endhighlight %}
 </div></div>
 <div class="related-links">
 <div class="familylinks">

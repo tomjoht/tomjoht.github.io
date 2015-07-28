@@ -6,16 +6,6 @@ date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
 status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  dsq_thread_id: '3772637103'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Author in Markdown, publish with DITA</h1>
 <div class="body">
@@ -46,11 +36,11 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li">
 <p class="p">In this same folder, create a file named ditaqrg.sh (you can choose whatever name you want) and
             add this code:</p>
-<pre class="pre codeblock"><code>multimarkdown -f -b *.md
+{% highlight xml %}<code>multimarkdown -f -b *.md
 cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d
 ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg
 cd /users/tjohnson/projects/ditaqrg
-</code></pre>
+</code>{% endhighlight %}
 <p class="p">Change “ditaqrg” to whatever project name you chose to use. You will need to customize the Oxygen
             h2d path and your input and output directories to match your specific locations. I
             explain this code in more detail below.</p>
@@ -60,10 +50,10 @@ cd /users/tjohnson/projects/ditaqrg
 </li>
 <li class="li">
 <p class="p">Type the following to change the permission to give read/write/execute to the file:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
 <code>chmod ugo+rwx ditaqrg.sh
 </code>
-</pre>
+{% endhighlight %}
 <p class="p">
 <code>chmod</code> changes the file permissions. <code>ugo</code> stands for “user, group, others,” (these are the three groups that can access the file) and <code>rwx</code> means “read, write, execute”. Then we list the specific file we want to apply these permissions to (ditaqrg.sh).</p>
 </li>
@@ -91,31 +81,31 @@ cd /users/tjohnson/projects/ditaqrg
 <h2 class="title sectiontitle">Code explanation</h2>
 <p class="p">The heart of this transformation lies with this script:</p>
 <div class="p">
-<pre class="pre codeblock">multimarkdown -f -b *.md
+{% highlight xml %}multimarkdown -f -b *.md
 cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d
 ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg
-cd /users/tjohnson/projects/ditaqrg</pre>
+cd /users/tjohnson/projects/ditaqrg{% endhighlight %}
 </p></div>
 <p class="p">What is this code doing? I'll go through it line by line. </p>
-<pre class="pre codeblock">multimarkdown -f -b *.md</pre>
+{% highlight xml %}multimarkdown -f -b *.md{% endhighlight %}
 <p class="p">First, the <code>multimarkdown</code> line will process your Markdown files into HTML
         by running the Fletcher script. The <code>-f</code> parameter says to create a full
         header in the HTML document. This means the HTML files will include the following:</p>
-<pre class="pre codeblock"><!DOCTYPE html>
+{% highlight xml %}<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
 </head>
-<body</pre>
+<body{% endhighlight %}
 <p class="p">This is necessary for the ant scripts to run. The <code>-b</code> runs a batch
         conversion, so it will process all files in the folder. The <code>*.md</code> restricts
         the conversion to any files with an .md extension, which is the traditional file extension
         for Markdown files.</p>
-<pre class="pre codeblock">cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d</pre>
+{% highlight xml %}cd /Applications/oxygenAuthor_161/frameworks/dita/DITA-OT/plugins/h2d{% endhighlight %}
 <p class="p">Now the script changes to the <code>h2d</code> directory. In this directory, you have a
         build.xml file supplied by OxygenXML that will convert your content from HTML to DITA.
         Customize this path to match your own OxygenXML installation directory. </p>
-<pre class="pre codeblock">ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg</pre>
+{% highlight xml %}ant -Dargs.input=/Users/tjohnson/projects/ditaqrg -Dargs.output=/Users/tjohnson/projects/ditaqrg{% endhighlight %}
 <p class="p">On this line, <code>ant</code> specifies input arguments for the HTML to DITA
         transformation. </p>
 <p class="p">Note that you must have an HTML file in the input directory for the script to work. If you
@@ -153,14 +143,14 @@ cd /users/tjohnson/projects/ditaqrg</pre>
 <p class="p">Two other arguments include the default language and the XSL file. The arguments are
         defined in <a class="xref external" href="http://dita-ot.sourceforge.net/1.5.2/readme/DITA-h2d-ant.html" target="_blank">Migrating HTML to DITA with Ant script</a>. Note that in
         that article, it shows the following:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
 <code>ant -Dargs.input={file|direcotry} -Dargs.output={direcotry} -Dargs.infotype={topic|concept|task|reference}
 </code>
-</pre>
+{% endhighlight %}
 <p class="p">The "direcotry" misspellings are not mine. Also, the file never explains that
         "{file|directory}" means you can enter either the file <em class="ph i">or</em> directory, and also that
         you omit the <code>{}</code> tags.</p>
-<pre class="pre codeblock">cd /users/tjohnson/projects/ditaqrg</pre>
+{% highlight xml %}cd /users/tjohnson/projects/ditaqrg{% endhighlight %}
 <p class="p">After the script runs, we return to the same directory we were in at the beginning. You can
         type <code>ls</code> to list the contents of the directory. You will then see a .dita
         file corresponding to each HTML file in the directory. If you group your files by kind, you

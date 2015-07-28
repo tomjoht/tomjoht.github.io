@@ -4,18 +4,6 @@ title: 'DITA: Images'
 permalink: /images_dita/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3772633092'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Images</h1>
 <div class="body conbody">
@@ -25,7 +13,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <h2 class="title sectiontitle">Inserting an image</h2>
 <p class="p">To insert an image, use the <code>image</code> tag and specify the
    <code>placement</code> attribute to set line wrapping.</p>
-<pre class="pre codeblock"><image href="images/sample.png" placement="break"><alt>Sample image</alt></image></pre>
+{% highlight xml %}<image href="images/sample.png" placement="break"><alt>Sample image</alt></image>{% endhighlight %}
 <p class="p">You can also choose <code>placement="inline"</code> if you're inserting an image in the
       line of your sentence (such as a button image) or if you want text to flow around your image. </p>
 <p class="p">The Open Toolkit renders images with a <code>placement="break"</code> attribute with two <code>br</code> tags before and after the image.</p>
@@ -38,9 +26,9 @@ excerpt: !ruby/object:Hpricot::Doc
 <p class="p">When you're writing a task, you can put images inside the <code>cmd</code> or the
     <code>info</code> tag.</p>
 <div class="p">If you want a caption to your images, add it like this:</p>
-<pre class="pre codeblock"><fig><title>Sample Image</title>
+{% highlight xml %}<fig><title>Sample Image</title>
 <image href="images/sample.png" placement="break"><alt>Sample image</alt></image>
-</fig></pre>
+</fig>{% endhighlight %}
 </div>
 <p class="p">The caption will actually appear below the image in the Oxygen webhelp output.</p>
 </p></div>
@@ -50,18 +38,18 @@ excerpt: !ruby/object:Hpricot::Doc
           <code>href</code> attribute because this attribute is required. But the value for href
         is
         <code>-dita-use-conref-target</code>.
-<pre class="pre codeblock"><img conref="#concept_engines/img_ej25_engine" href="-dita-use-conref-target" /></pre>
+{% highlight xml %}<img conref="#concept_engines/img_ej25_engine" href="-dita-use-conref-target" />{% endhighlight %}
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Referring to specific figures</h2>
 <div class="p">If you want to refer to an image with a specific figure caption, you can use cross
         reference.
-<pre class="pre codeblock"><p>See <xref href="#concept_lcw_fkl_q4/image1" type="fig">Oxygen Sample Webhelp</xref> for details.</p>
+{% highlight xml %}<p>See <xref href="#concept_lcw_fkl_q4/image1" type="fig">Oxygen Sample Webhelp</xref> for details.</p>
 
 <fig id="image1">
     <title>Oxygen Sample Webhelp</title>
    <image href="oxygen.png" placement="break"/>
-</fig></pre>
+</fig>{% endhighlight %}
 </div>
 <p class="p">The output will say "See Oxygen Sample Webhelp for details." With the webhelp, the
         reference will link to the image. The image itself won't have a figure number below it. With
@@ -69,14 +57,14 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">If you want to use <code>conref</code> to manually pull in the image title, you can do
         so like
         this:
-<pre class="pre codeblock"><p>See <xref href="#concept_lcw_fkl_q4/image1" type="fig"><ph conref="testfile.dita#concept_lcw_fkl_q4/image1_title"/></xref> for details.</p>
+{% highlight xml %}<p>See <xref href="#concept_lcw_fkl_q4/image1" type="fig"><ph conref="testfile.dita#concept_lcw_fkl_q4/image1_title"/></xref> for details.</p>
    
    
    <fig id="image1" frame="all">
     
     <title><ph id="image1_title">Oxygen Sample Webhelp</ph></title>
    <image href="oxygen.png" placement="break" scalefit="yes"/>
-   </fig></pre>
+   </fig>{% endhighlight %}
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Image format</h2>
@@ -88,10 +76,10 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">If you want a border around your image and caption, use the <code>frame="all"</code>
         attribute. If you want your image to be scaled to its container size, use
           <code>scalefit</code>. You can also specify a <code>width</code>.</p>
-<pre class="pre codeblock"><fig id="image1" frame="all">
+{% highlight xml %}<fig id="image1" frame="all">
     <title>Oxygen Sample Webhelp</title>
    <image href="oxygen.png" placement="break" scalefit="yes" width="700"/>
-</fig></pre>
+</fig>{% endhighlight %}
 </div>
 <p class="p">However, I think it would be wiser to use <code>max-width</code> on images in your
         webhelp stylesheet.</p>

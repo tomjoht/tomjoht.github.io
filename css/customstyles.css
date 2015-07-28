@@ -877,7 +877,8 @@ blockquote {
 }
 
 .col-md-9 ul li, .col-md-9 ol li {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 img.left, img.alignleft {float: left; padding-right:20px;}
@@ -921,4 +922,12 @@ p.dsq-widget-meta a {
 
 .col-md-9 ol li ul {
     margin-top: 10px;
+}
+
+pre {
+    margin: 20px 0 10px 0;
+}
+
+span.ph.uicontrol {
+    font-weight: bold;
 }

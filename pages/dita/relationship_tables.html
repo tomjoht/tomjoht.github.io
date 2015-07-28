@@ -6,18 +6,6 @@ date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
 tags: []
 status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  _edit_last: '91'
-  _wp_page_template: default
-  dsq_thread_id: '3773072569'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <h1 class="title topictitle1">DITA: Relationship tables</h1>
 <div class="body conbody">
@@ -44,12 +32,12 @@ excerpt: !ruby/object:Hpricot::Doc
       add the<code> collection-type</code> attribute with a value of <code>family</code>,
       like
       this:
-<pre class="pre codeblock"><topichead navtitle="Links" collection-type="family">
+{% highlight xml %}<topichead navtitle="Links" collection-type="family">
  <topicref href="keyref_links.dita"/>
  <topicref href="inline_links.dita"/>
  <topicref href="related_links.dita"/>
  <topicref href="relationship_tables.dita"/>
- </topichead></pre>
+ </topichead>{% endhighlight %}
 </div>
 <p class="p">All of the topics in this group will link to each other via related links at the bottom (just
         like with relationship tables). You don't have to actually create a relationship table at
@@ -67,7 +55,7 @@ excerpt: !ruby/object:Hpricot::Doc
 </ul>
 </div>
 <p class="p">Here's an example:</p>
-<pre class="pre codeblock">    
+{% highlight xml %}
       <reltable>
       <relheader>
    <relcolspec type="concept">
@@ -90,7 +78,7 @@ excerpt: !ruby/object:Hpricot::Doc
          </relcell>
       </relrow>
     </reltable>
-   </pre>
+   {% endhighlight %}
 <p class="p">It may make more sense to actually show the table in its display form: </p>
 <div class="tablenoborder">
 <table cellpadding="4" cellspacing="0" summary="" id="table_ryr_xwv_x4" class="table" frame="border" border="1" rules="all">
@@ -132,9 +120,9 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">To add the <code>related-links</code> element in a topic, add it after the
           <code>conbody</code>, <code>taskbody</code>, or <code>refbody</code>
         element:
-<pre class="pre codeblock"> <related-links>
+{% highlight xml %} <related-links>
   <link href="http://example.org">Example.org</link>
- </related-links></pre>
+ </related-links>{% endhighlight %}
 </div>
 <p class="p">This kind of link is useful as a list of relevant resources about the topic. You don't need
         to manage these links in the relationship table because, as a web resource, you don't need
@@ -145,9 +133,9 @@ excerpt: !ruby/object:Hpricot::Doc
 <div class="p">If you want the links to be grouped into different related link sections, such as "Related
         concepts," "Related tasks," and "Related information," add a <code>type</code> attribute
         to the <code>relcolspec</code> element, like this:</p>
-<pre class="pre codeblock"><relcolspec type="concept"/>
+{% highlight xml %}<relcolspec type="concept"/>
 <relcolspec type="task"/>
-<relcolspec type="reference"/> </pre>
+<relcolspec type="reference"/> {% endhighlight %}
 </div>
 <p class="p">However, I don't think it's wise to separate related links into these different topic
         types, since many times readers don't clearly distinguish topic types frome ach other, and
