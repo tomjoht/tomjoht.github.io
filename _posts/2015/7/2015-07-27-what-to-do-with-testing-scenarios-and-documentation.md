@@ -6,7 +6,7 @@ tags: [series_testing_documentation]
 series: Testing documentation
 keywords: testing documentation, test cases, use cases, tutorials
 summary: ""
-weight: 1.5
+weight: 1.4
 ---
 {% include series/seriesTagTestingDocs.html %}
 <style>
