@@ -1,10 +1,10 @@
 ---
-title: "LearningDITA.com: A new online learning resource by Scriptorium"
+title: "LearningDITA.com: A new online learning resource for DITA by Scriptorium"
 categories:
 - dita
 - beginners
-keywords: 
-summary: "Learningdita.com is a free online educational resource created by Scriptorium for learning DITA. The initial course on their site, "Introduction to DITA," lasts about an hour and will introduce you to core DITA concepts and techniques."
+keywords: dita, online resource, darwin information typing architecture, scriptorium
+summary: "Learningdita.com is a free online educational resource created by Scriptorium for learning DITA. The initial course on their site, \"Introduction to DITA,\" lasts about an hour and will introduce you to core DITA concepts and techniques."
 ---
 
 ## A Free Course on DITA
