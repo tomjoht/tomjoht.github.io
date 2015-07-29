@@ -68,8 +68,6 @@ entries:
           url: /webhelp_skins/
         - title: Webhelp with Feedback
           url: /webhelp_with_feedback/
-        - title: Comments
-          url: /comments/
         - title: Handling SME review
           url: /sme_review/
         - title: Add a menu selector

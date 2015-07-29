@@ -4,32 +4,28 @@ title: 'DITA: Converting HTML to DITA'
 date: 2014-12-27 15:16:06.000000000 -08:00
 permalink: /convert_html_to_dita/
 type: notes_dita
+summary: "Although you can convert content to DITA manually, you can also convert your HTML content to DITA through the XHTML to DITA transform in Oxygen."
 ---
-<h1 class="title topictitle1">DITA: Converting HTML to DITA</h1>
+{% include notes.html %}
 <div class="body taskbody">
-<p class="shortdesc">Although you can convert content to DITA manually, you can also convert your HTML content to DITA through the XHTML to DITA transform in Oxygen. </p>
-<div class="section context">
-<div class="note tip"><span class="tiptitle">Tip:</span> See also <a class="xref" href="/md2html2ditav2" title="Markdown drastically simplifies the authoring process. As long as you don't need to incorporate conref and other DITA specific tags (which aren't available in Markdown), you can implement this super simple authoring process.">DITA: Author in Markdown, publish with DITA</a> for another way of converting HTML to DITA.</div>
-<p class="p">Converting content to DITA isn't a small undertaking, because you'll essentially have to retag
+<p class="section context">
+{{tip}}See also <a class="xref" href="/md2html2ditav2" title="Markdown drastically simplifies the authoring process. As long as you don't need to incorporate conref and other DITA specific tags (which aren't available in Markdown), you can implement this super simple authoring process.">DITA: Author in Markdown, publish with DITA</a> for another way of converting HTML to DITA.{{end}}
+<p>Converting content to DITA isn't a small undertaking, because you'll essentially have to retag
                 everything with the DITA markup. There are some automated ways of converting
                 content, but if your source content isn't already in a DITA friendly format, for
                 example, if you have lots of topics that combine lists and concepts, or that have
                 nested subsections (third-level headers), the conversion might require some
                 restructuring. Nevertheless, you can speed up the process using a combination of
                 HTML Tidy and Oxygen's XHTML to DITA transform.</p>
-<div class="note note"><span class="notetitle">Note:</span> If you have large conversion projects, this method probably isn't suitable.
+{{note}}If you have large conversion projects, this method probably isn't suitable.
                 If you have thousands of topics to convert, for example, take a look at Stilo or
                 some other automated process. You may need to write custom scripts that tag content
                 based on your structure. If, on the other hand, you have less than 100 pages to
-                convert, the method described here might be just fine.</div>
+                convert, the method described here might be just fine.{{end}}
 <p class="p toc">
 </p></div>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_introduction">Introduction</a></div>
-</div>
-</div>
+
 <div class="topic task nested1" id="convert1">
 <h2 class="title topictitle2">Grab and clean HTML source code</h2>
 <div class="body taskbody">
@@ -37,7 +33,7 @@ type: notes_dita
 <li class="li step stepexpand">
         <span class="ph cmd">First view the source code and copy the HTML inside the body tags.</span></p>
 <div class="itemgroup info">
-<p class="p">Most tools, including Microsoft Word, allow you to generate an HTML version of the content. You can view the source code in a browser page by right-clicking the page and choosing <span class="ph uicontrol">View source</span>.</p>
+<p>Most tools, including Microsoft Word, allow you to generate an HTML version of the content. You can view the source code in a browser page by right-clicking the page and choosing <span class="ph uicontrol">View source</span>.</p>
 </div>
 </li>
 <li class="li step stepexpand">
@@ -45,14 +41,14 @@ type: notes_dita
                             Tidy</a> and paste the copied content content through this processor
                         to clean it.</span></p>
 <div class="itemgroup info">
-<p class="p">There are a variety of settings on the HTML Tidy page. You can just use the defaults. Paste your
+<p>There are a variety of settings on the HTML Tidy page. You can just use the defaults. Paste your
                             source content into the HTML box, click <span class="ph uicontrol">Tidy</span>, and
                             then click <span class="ph uicontrol">View Tidied HTML</span>. You don't have to
                             include all the page content. Most likely when you look at the source of
                             a page, you'll see the navigation, header content, footer content, etc.
                             You might not want to bring this over. Just insert the body content.
                             Tidy will supply the necessary HTML head tags to make the page valid. </p>
-<p class="p">After cleaning the HTML, copy the entire output.</p>
+<p>After cleaning the HTML, copy the entire output.</p>
 </div>
 </li>
 <li class="li step stepexpand">
@@ -68,18 +64,18 @@ type: notes_dita
                         save the file.</span>
                 </li>
 <li class="li step stepexpand">
-                    <span class="ph cmd">For the title of your document, add the title between h1 tags right below
-                        the opening body tag. </span></p>
+                    <p>For the title of your document, add the title between h1 tags right below
+                        the opening body tag. </p>
 <div class="itemgroup info">The transform will look for the first h1 tag and insert this as the
                         document title. If you don't have an an h1 tag, the first heading level tag
                         will get rendered as the document title. That heading level will then
                         actually be removed! Therefore, it's important not to forget to add the h1
                         tag to your content before running the transform.
-<div class="note note"><span class="notetitle">Note:</span> If you're converting
+{{note}}If you're converting
                             a page with a lot of code, the transform may not recognize the code
                             samples unless they're wrapped in <code>pre</code> tags. If the
                             transform can't recognize the code, it may eliminate the code
-                            section.</div>
+                            section.{{end}}
 </div>
 </li>
 <li class="li step stepexpand">
@@ -108,15 +104,15 @@ type: notes_dita
 <li class="li step stepexpand">
                         <span class="ph cmd">Look in the source code of the newly converted topics and address any warnings, notes, or other conversion problems.</span></p>
 <div class="itemgroup info">
-<p class="p">When you look at the source of the newly converted DITA topics, you'll see that many of them have sections that have comments in them, such as this:</p>
+<p>When you look at the source of the newly converted DITA topics, you'll see that many of them have sections that have comments in them, such as this:</p>
 {% highlight xml %}
     <!--Original: <span @class=aui-icon icon-warning>-->
       <span class="ph aui-icon icon-warning">Icon</span>
                     {% endhighlight %}
-<p class="p">In this case, the original source used this class for notes. The
+<p>In this case, the original source used this class for notes. The
                             transform doesn't know how to map classes to note elements, so you'll
                             have to manually tag these sections as notes.</p>
-<p class="p">DITA will convert classes to an <code>outputclass</code> element.
+<p>DITA will convert classes to an <code>outputclass</code> element.
                             (The <code>outputclass</code> element converts back to a
                                 <code>class</code> element when you transform your DITA content
                             into HTML.) However, most likely the class tags on your previous
@@ -133,7 +129,7 @@ type: notes_dita
 <h2 class="title topictitle2">Find opportunities for re-use (DITA)</h2>
 <div class="body taskbody">
 <div class="section context">
-<p class="p">One of the reasons for converting to DITA is to harness the content re-use
+<p>One of the reasons for converting to DITA is to harness the content re-use
                     capabilities. Now you should extract redundant content into separate files for
                     re-use. This is the tricky part. If you migrated content out of Confluence, and
                     you were using multiexerpt include macros to single source content into multiple

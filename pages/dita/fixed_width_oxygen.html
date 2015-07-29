@@ -4,10 +4,11 @@ title: "DITA: Make Oxygen's webhelp output a fixed width"
 permalink: /fixed_width_oxygen/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
+summary: "You can change the liquid layouts to fixed layouts in Oxygen's webhelp output."
 ---
-<h1 class="title topictitle1">DITA: Make Oxygen's webhelp output a fixed width</h1>
+{% include notes.html %}
 <div class="body">
-<p class="p">I'm not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
+<p>I'm not a fan of liquid layouts, so I made some adjustments to make the OxygenXML webhelp output a fixed width. </p>
 {% highlight xml %}
 <code>.conbody,
 .taskbody,
@@ -22,8 +23,8 @@ p.shortdesc,
 }
 </code>
 {% endhighlight %}
-<p class="p">Some of those other elements, such as <code>title</code> and <code>p.shortdesc</code>, appear before the <code>body</code>. They don't seem to be contained within anything, though I could have overlooked something.</p>
-<p class="p">I also apply a <code>max-width</code> property to images:</p>
+<p>Some of those other elements, such as <code>title</code> and <code>p.shortdesc</code>, appear before the <code>body</code>. They don't seem to be contained within anything, though I could have overlooked something.</p>
+<p>I also apply a <code>max-width</code> property to images:</p>
 {% highlight xml %}
 <code>.conbody img,
 .taskbody img,
@@ -32,8 +33,8 @@ p.shortdesc,
 }
 </code>
 {% endhighlight %}
-<p class="p">Note also that when you apply a fixed width to your content, the code in your <code>code block</code> elements may get cut off. Since <code>codeblock</code> elements are contained within <code>stepxmp</code> and <code>info</code>, which are contained within <code>step</code>, you can't really get around their parent containers.</p>
-<p class="p">Instead, to handle <code>code block</code> content from getting cut off, you can add this: </p>
+<p>Note also that when you apply a fixed width to your content, the code in your <code>code block</code> elements may get cut off. Since <code>codeblock</code> elements are contained within <code>stepxmp</code> and <code>info</code>, which are contained within <code>step</code>, you can't really get around their parent containers.</p>
+<p>Instead, to handle <code>code block</code> content from getting cut off, you can add this: </p>
 {% highlight xml %}
 <code>  .codeblock {
  white-space: pre-wrap;       /* css-3 */
@@ -44,7 +45,7 @@ p.shortdesc,
 }
 </code>
 {% endhighlight %}
-<p class="p">Special shoutout to <a class="xref external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a> for this tip on wrapping content inside the <code>pre</code> tag.</p>
+<p>Special shoutout to <a class="xref external" href="http://css-tricks.com/snippets/css/make-pre-text-wrap/" target="_blank">CSS Tricks</a> for this tip on wrapping content inside the <code>pre</code> tag.</p>
 </div>
 <div class="related-links">
 <div class="familylinks">

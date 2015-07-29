@@ -4,23 +4,12 @@ title: 'DITA: Index entries'
 permalink: /indexes/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+summary: "You can add index entries to topics. Even if you don't see the value in providing an
+index, index entries can help searches find the right topics."
 ---
-<h1 class="title topictitle1">DITA: Index entries</h1>
+{% include notes.html %}
 <div class="body conbody">
-<p class="shortdesc">You can add index entries to topics. Even if you don't see the value in providing an
-    index, index entries can help searches find the right topics.</p>
-<p class="p"> There are various approaches for adding indexes, but here's a typical way to add index
+<p> There are various approaches for adding indexes, but here's a typical way to add index
       entries. </p>
 <div class="p">In the <code>prolog | metadata | keywords</code> element of a topic, add index terms The
         <code>prolog</code> element comes just after the <code>shortdesc</code> element
@@ -53,38 +42,34 @@ excerpt: !ruby/object:Hpricot::Doc
 {% highlight xml %}cars
   - sedan{% endhighlight %}
 </div>
-<p class="p">When you want to create a "see" entry for an index, code it like this:</p>
+<p>When you want to create a "see" entry for an index, code it like this:</p>
 {% highlight xml %}
    <indexterm>vehicle
    <index-see>car</index-see>
 </indexentry>
   {% endhighlight %}
-<p class="p">The result of the index-see element is the following:</p>
+<p>The result of the index-see element is the following:</p>
 {% highlight xml %}
     vehicle, see car
    {% endhighlight %}
-<p class="p">If you want to include a page number with the see also reference, write it like this:</p>
+<p>If you want to include a page number with the see also reference, write it like this:</p>
 {% highlight xml %}
     <indexterm>vehicle
    <index-see-also>car</index-see-also>
 </indexentry>
     </indexterm>
   {% endhighlight %}
-<p class="p">The output will look like this:</p>
+<p>The output will look like this:</p>
 {% highlight xml %}
     vehicle ..... 23
            see also car
    {% endhighlight %}
-<p class="p">Keep in mind that index entries added to the <code>prolog</code> section will include page
+<p>Keep in mind that index entries added to the <code>prolog</code> section will include page
       numbers pointing to the location of the <code>prolog</code>. Since most topics are short,
       this isn't a problem. Also, since the online help is usually the main deliverable, it's also
       not a problem. However, you can also add index entries in the middle of your topics. (But
       apparently this causes some problems, especially with translation.)</p>
-<p class="p">Also, some PDF renderers don't include page numbers to index entries. At any rate, since PDF
+<p>Also, some PDF renderers don't include page numbers to index entries. At any rate, since PDF
       isn't usually the main deliverable, this is not a concern with index terms.</p>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
-</div>
-</div>
+

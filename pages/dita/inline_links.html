@@ -4,17 +4,19 @@ title: 'DITA: Inline links'
 permalink: /inline_links/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
+summary: "To link to another topic or external site inline, you use the <code>xref</code>
+element."
 ---
-<p class="shortdesc">To link to another topic or external site inline, you use the <code>xref</code>
-    element. </p>
-<p class="p">As a general best practice, people say to avoid inline links if possible, but if referring to another topic or page, it might seem odd not to include the link. </p>
-{% highlight xml %}<code><p class="p">The topic title will automatically be used as the anchor text for the link. </p>
+{% include notes.html %}
+<p>As a general best practice, people say to avoid inline links if possible, but if referring to another topic or page, it might seem odd not to include the link. </p>
+<p>The topic title will automatically be used as the anchor text for the link. </p>
 
     {% highlight xml %}   <xref href="sample.dita"/>{% endhighlight %}
 
   <p>If you want to manually specify the anchor text, code it like this:
     {% highlight xml %}   <xref href="sample.dita">Sample</xref>{% endhighlight %}
-</code>{% endhighlight %}
+
 <p>If you're linking to an external source, you need to add the <code>scope</code> and
         <code>format</code> attributes to your link:</p>
-{% highlight xml %}   <xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref>{% endhighlight %}
+{% highlight xml %}   <xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref>
+{% endhighlight %}

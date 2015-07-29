@@ -4,18 +4,13 @@ title: 'DITA: Embed child pages at parent bottom (rellinks)'
 permalink: /rellinks/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
+summary: "By default, DITA adds child pages as links along with their short descriptions below parent pages. You can control this feature."
 ---
-<h1 class="title topictitle1">DITA: Embed child pages at parent bottom (rellinks)</h1>
+{% include notes.html %}
 <div class="body">
-<p class="p">By default, DITA adds child pages as links along with their short descriptions below parent pages. You can control this feature.</p>
-<p class="p">To automatically embed child links in parent pages, edit your transformation scenario transform in Oxygen, click the <span class="ph uicontrol">Parameters</span> tab, and set the <span class="ph uicontrol">rellinks</span> parameter to <strong class="ph b">all</strong>. To disable child link embeds, set the value to <strong class="ph b">none</strong>.</p>
-<p class="p">You can also control rellinks in your ditamap by setting the attribute <code>linking="none"</code> or <code>linking="all"</code> on <code>topicref</code> or <code>topichread</code> elements. This will override, on a case-by-case basis, whatever parameter settings you have in the transform.</p>
-<p class="p">In the ditamap, set  linking="none" to disable.</p>
-<p class="p">[Note: Need to test wheterh setting parameter to none and then linking="all in ditamap actually creates overrirde.]</p>
+<p>To automatically embed child links in parent pages, edit your transformation scenario transform in Oxygen, click the <span class="ph uicontrol">Parameters</span> tab, and set the <span class="ph uicontrol">rellinks</span> parameter to <strong class="ph b">all</strong>. To disable child link embeds, set the value to <strong class="ph b">none</strong>.</p>
+<p>You can also control rellinks in your ditamap by setting the attribute <code>linking="none"</code> or <code>linking="all"</code> on <code>topicref</code> or <code>topichread</code> elements. This will override, on a case-by-case basis, whatever parameter settings you have in the transform.</p>
+<p>In the ditamap, set  linking="none" to disable.</p>
+{{note}} Need to test whether setting parameter to none and then linking="all in ditamap actually creates overrirde.{{end}}
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
-</div>
-</div>
+

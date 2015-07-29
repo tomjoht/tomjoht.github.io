@@ -681,7 +681,6 @@ p {
 h3.sidebar {
     color: #777;
     font-weight: normal;
-    padding-top:25px;
 }
 
 .siteLogo img {
@@ -879,6 +878,7 @@ blockquote {
 .col-md-9 ul li, .col-md-9 ol li {
     margin-bottom: 20px;
     margin-top: 20px;
+    line-height: 28px;
 }
 
 img.left, img.alignleft {float: left; padding-right:20px;}
@@ -930,4 +930,14 @@ pre {
 
 span.ph.uicontrol {
     font-weight: bold;
+}
+
+.info, .note {
+    line-height: 28px;
+    margin: 15px 0px;
+}
+
+img.inline {
+    display: inline;
+    vertical-align: bottom;
 }

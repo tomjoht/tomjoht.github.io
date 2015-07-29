@@ -4,33 +4,33 @@ title: 'DITA: Images'
 permalink: /images_dita/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
+summary: "You can add images in your content pretty much anywhere. It works like HTML except the tag is slightly different and you have to specify whether the image breaks the line or not."
 ---
-<h1 class="title topictitle1">DITA: Images</h1>
+{% include notes.html %}
 <div class="body conbody">
-<p class="shortdesc">You can add images in your content pretty much anywhere. It works like HTML except the tag is slightly different and you have to specify whether the image breaks the line or not.</p>
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Inserting an image</h2>
-<p class="p">To insert an image, use the <code>image</code> tag and specify the
+<p>To insert an image, use the <code>image</code> tag and specify the
    <code>placement</code> attribute to set line wrapping.</p>
 {% highlight xml %}<image href="images/sample.png" placement="break"><alt>Sample image</alt></image>{% endhighlight %}
-<p class="p">You can also choose <code>placement="inline"</code> if you're inserting an image in the
+<p>You can also choose <code>placement="inline"</code> if you're inserting an image in the
       line of your sentence (such as a button image) or if you want text to flow around your image. </p>
-<p class="p">The Open Toolkit renders images with a <code>placement="break"</code> attribute with two <code>br</code> tags before and after the image.</p>
-<p class="p">You can also choose an <code>align</code> attribute and select <code>left</code>,
+<p>The Open Toolkit renders images with a <code>placement="break"</code> attribute with two <code>br</code> tags before and after the image.</p>
+<p>You can also choose an <code>align</code> attribute and select <code>left</code>,
         <code>right</code>, or <code>center</code>. The <code>alt</code> tags in the
       middle define the alt text for the image, which is what displays if a user's images are turned
       off. </p>
-<p class="p">Note that images won't automatically resize or automatically take on a border. However, you can
+<p>Note that images won't automatically resize or automatically take on a border. However, you can
       set those properties in your webhelp CSS to accomplish this.</p>
-<p class="p">When you're writing a task, you can put images inside the <code>cmd</code> or the
+<p>When you're writing a task, you can put images inside the <code>cmd</code> or the
     <code>info</code> tag.</p>
 <div class="p">If you want a caption to your images, add it like this:</p>
 {% highlight xml %}<fig><title>Sample Image</title>
 <image href="images/sample.png" placement="break"><alt>Sample image</alt></image>
 </fig>{% endhighlight %}
 </div>
-<p class="p">The caption will actually appear below the image in the Oxygen webhelp output.</p>
+<p>The caption will actually appear below the image in the Oxygen webhelp output.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Reusing images</h2>
@@ -51,7 +51,7 @@ type: notes_dita
    <image href="oxygen.png" placement="break"/>
 </fig>{% endhighlight %}
 </div>
-<p class="p">The output will say "See Oxygen Sample Webhelp for details." With the webhelp, the
+<p>The output will say "See Oxygen Sample Webhelp for details." With the webhelp, the
         reference will link to the image. The image itself won't have a figure number below it. With
         PDF, there will be a figure number below it.</p>
 <div class="p">If you want to use <code>conref</code> to manually pull in the image title, you can do
@@ -68,7 +68,7 @@ type: notes_dita
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Image format</h2>
-<p class="p">It's recommended that you use the SVG format for images because this format allows you to
+<p>It's recommended that you use the SVG format for images because this format allows you to
         add callouts that you can later edit and extract for translation. </p>
 </p></div>
 <div class="section">
@@ -81,12 +81,8 @@ type: notes_dita
    <image href="oxygen.png" placement="break" scalefit="yes" width="700"/>
 </fig>{% endhighlight %}
 </div>
-<p class="p">However, I think it would be wiser to use <code>max-width</code> on images in your
+<p>However, I think it would be wiser to use <code>max-width</code> on images in your
         webhelp stylesheet.</p>
 </p></div>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_page_level_formatting">Page-level elements</a></div>
-</div>
-</div>
+

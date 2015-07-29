@@ -4,19 +4,14 @@ title: 'DITA: Tables'
 permalink: /tables/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
+summary: "You can insert two kinds of tables in dita: a simple table and a more formal cals table.
+However, there doesn't seem much point to using the simple table, as it's not really much simpler.
+The cals table gives you more options and seems to use more straightforward tagging."
 ---
-<h1 class="title topictitle1">DITA: Tables</h1>
+{% include notes.html %}
 <div class="body conbody">
-<p class="shortdesc">You can insert two kinds of tables in dita: a simple table and a more formal cals table.
-  However, there doesn't seem much point to using the simple table, as it's not really much simpler.
-  The cals table gives you more options and seems to use more straightforward tagging.</p>
-<p class="p">To insert a table, either click the Table button in the Author view and select your options, or
-   in the Text view, type <code><t</code>, wait for the "table" prompt, and then press Enter.
-   In the cols="" field, type the number of columns you want. Put your cursor right after
-    <code>tgroup</code> element and type <code><</code> and select "thead" at the prompt,
-   then press Enter.</p>
-<p class="p">The table code looks like this:</p>
+<p>To insert a table, either click the Table button in the Author view and select your options, or in the Text view, type <b>t</b>, wait for the "table" prompt, and then press <b>Enter</b>. In the cols="" field, type the number of columns you want. Put your cursor right after <code>tgroup</code> element and type <code><</code> and select <b>thead</b> at the prompt, then press <b>Enter</b>.</p>
+<p>The table code looks like this:</p>
 {% highlight xml %} <table>
   <title>Table title</title>
   <tgroup cols="2">
@@ -39,24 +34,15 @@ tags: []
    </tbody>
   </tgroup>
  </table>{% endhighlight %}
-<p class="p">The title ends up being set as the caption on the top of the table. You can actually set the
-   column widths using the table properties. Switch to the Author mode to view your table. Grab the
-   middle column divider and drag it a bit. You'll be prompted whether you want proportional or
-   fixed columns. Choose proportional, since it will render better on different devices. Now drag
-   the middle column divider to the width appropriate for your content.</p>
-<p class="p">Once you set the column widths, switch back to the text view to see the values assigned to the
+<p>The title ends up being set as the caption on the top of the table. You can actually set the column widths using the table properties. Switch to the Author mode to view your table. Grab the middle column divider and drag it a bit. You'll be prompted whether you want proportional or fixed columns. Choose proportional, since it will render better on different devices. Now drag the middle column divider to the width appropriate for your content.</p>
+
+    <p>Once you set the column widths, switch back to the text view to see the values assigned to the
     <code>colspec</code> element that was added to your table.</p>
 <div class="p">You can also add the proportions directly in the colspec element. If you choose proportional
-   widths, the values might look like the
-   following:
+   widths, the values might look like the following:
 {% highlight xml %}<tgroup cols="2">
     <colspec colnum="1" colname="c1" colwidth="1*"/>
     <colspec colnum="2" colname="c2" colwidth="2*"/>{% endhighlight %}
 </div>
-<p class="p">Here, the first second column will be twice as wide as the first column.</p>
+<p>Here, the first second column will be twice as wide as the first column.</p>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_page_level_formatting">Page-level elements</a></div>
-</div>
-</div>

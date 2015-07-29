@@ -4,22 +4,16 @@ title: 'DITA: Combining topics'
 date: 2014-12-27 15:16:06.000000000 -08:00
 permalink: /combining_topics/
 type: notes_dita
-tags: []
-status: publish
-
-published: true
+summary: "You can combine topics into longer articles using the chunk attribute on your map. This issue usually crops up if you're using the specialized topic types (task, concept) and you're trying to combine information."
 ---
-
-
-{% include technotes_toc.html %}<div class="body conbody">
-<p class="shortdesc">You can combine topics into longer articles using the chunk attribute on your map. This issue usually crops up if you're using the specialized topic types (task, concept) and you're trying to combine information. </p>
-<p class="p">As I recommended in <a class="xref" href="/specializations" title="If you want to create rules that enforce a specific structure to your content, you can use one of the existing DITA specializations (concept, task, reference) or create your own specializations. However, I don't recommend using DITA's specializations unless your writers need it.">DITA: Specializations (task, concept, reference)?</a>, author in the base topic type. You won't find yourself doing acrobatics to combine topics. However, you may want to combine topics in order to create nested subheadings.</p>
+{% include notes.html %}
+<p>As I recommended in <a class="xref" href="/specializations" title="If you want to create rules that enforce a specific structure to your content, you can use one of the existing DITA specializations (concept, task, reference) or create your own specializations. However, I don't recommend using DITA's specializations unless your writers need it.">DITA: Specializations (task, concept, reference)?</a>, author in the base topic type. You won't find yourself doing acrobatics to combine topics. However, you may want to combine topics in order to create nested subheadings.</p>
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Combining topics with the chunk attribute</h2>
 </p></div>
 <div class="section">
-<p class="p">The <code>chunk="to-content"</code> attribute allows you to merge child topics into a
+<p>The <code>chunk="to-content"</code> attribute allows you to merge child topics into a
                 parent topic in your navigation. You add the <code>chunk</code> attribute on a
                 parent <code>topicref</code>. </p>
 {% highlight xml %}
@@ -28,14 +22,14 @@ published: true
   <topicref href="child2.dita" toc="no"/>
   </topicref>
    {% endhighlight %}
-<p class="p">If you want the child topics to actually appear in the table of contents, use the
+<p>If you want the child topics to actually appear in the table of contents, use the
                 "yes" value.</p>
-<p class="p">Although the chunk attribute works easily enough in the TOC area, it's problematic
+<p>Although the chunk attribute works easily enough in the TOC area, it's problematic
                 with linking. Chunking creates issues with relationship tables. (See <a class="xref external" href="http://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/" target="_blank">DITA: Limitations with the chunk=”to-content” attribute in relationship tables</a>.)</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Combining topics by nesting elements</h2>
-<p class="p">A better way to combine topics is by nesting elements. When you nest elements, you add
+<p>A better way to combine topics is by nesting elements. When you nest elements, you add
                 multiple <code>taskbody</code> or <code>conbody</code> elements inside each
                 other. Here's an example of how nest task elements.</p>
 {% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
@@ -113,7 +107,7 @@ published: true
                 </task>
 
 </task>{% endhighlight %}
-<p class="p">With nesting concepts, here's what that looks like</p>
+<p>With nesting concepts, here's what that looks like</p>
 {% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 
@@ -137,13 +131,13 @@ published: true
 </concept>
 
 </concept>{% endhighlight %}
-<p class="p">Basically, just bookend the individual <code>task</code> or
+<p>Basically, just bookend the individual <code>task</code> or
                     <code>concept</code> elements inside one <code>task</code>  or
                     <code>concept</code> element that functions as a container.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Using an outputclass for a third-level section</h2>
-<p class="p">You can also "cheat" to
+<p>You can also "cheat" to
                 combine topics against the design of the DITA structure by crafting an
                     <code>outputclass</code> attribute to look like a third-level heading: like
                 this:
@@ -151,15 +145,15 @@ published: true
 {% highlight xml %}
          <p outputclass="level3">Sample heading</p>
      {% endhighlight %}
-<p class="p">Then
+<p>Then
                 add <code>p.level3</code> class to the webhelp stylesheet. Assuming your
                 OxygenXML install directory begins in your <span class="ph filepath">/Applications</span>
                 folder, the path would be as follows:</p>
 <p>            <span class="ph filepath">/Applications/oxygenAuthor/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp/oxygen-webhelp/resources </span></p>
-<p class="p">Open the webhelp_topic.css file, scroll down to the bottom, and add something like
+<p>Open the webhelp_topic.css file, scroll down to the bottom, and add something like
                 this for your style:
             </p>
-{% highlight xml %}
+{% highlight css %}
 .level3 {
   color: #444;
   font-size: 16px;
@@ -168,9 +162,4 @@ published: true
      {% endhighlight %}
 <p>            This is more of a workaround hack than any good technique. Sometimes you just need a
             third-level heading, though, and this works.</p></div>
-</p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_introduction">Introduction</a></div>
-</div>
-</div>
+</p>

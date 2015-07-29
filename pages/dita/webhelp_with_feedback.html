@@ -4,21 +4,21 @@ title: 'DITA: Webhelp with Feedback'
 permalink: /webhelp_with_feedback/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
+summary: "You can enable commenting below your webhelp topics by selecting the Webhelp with
+Feedback skin."
 ---
 <h1 class="title topictitle1">DITA: Webhelp with Feedback</h1>
 <div class="body conbody">
-<p class="shortdesc">You can enable commenting below your webhelp topics by selecting the Webhelp with
-  Feedback skin.</p>
-<p class="p">Because documentation on this feature is so scant in Oxygen, I'm elaborating with a bit of
+<p>Because documentation on this feature is so scant in Oxygen, I'm elaborating with a bit of
       detail here.</p>
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Setting Up the Feedback System</h2>
-<p class="p">To set up this commenting system, first create a mysql database and add a user to the database
+<p>To set up this commenting system, first create a mysql database and add a user to the database
         with all privileges. This process is similar for a lot of different sites (e.g., WordPress,
         Drupal, Joomla), so don't assume this is anything special or difficult. Exactly how you
         create a mysql database and user depends a bit on your web host. </p>
-<p class="p">The instructions in Oxygen focus on using Xampp to set up this database, and they include a
+<p>The instructions in Oxygen focus on using Xampp to set up this database, and they include a
         specific mysql statement (<code>INSERT INTO `mysql`.`user` ...</code>) to pass in
         phpmyadmin. You can ignore Oxygen's instructions, as they're poorly written and somewhat
         misleading. Xampp is for local environments (i.e., a web server emulated on your local
@@ -38,17 +38,17 @@ type: notes_dita
 </div></div>
 <div class="section">
 <h2 class="title sectiontitle">Selecting an identifier</h2>
-<p class="p">When you transform the webhelp with feedback, you're prompted to use a documentation
+<p>When you transform the webhelp with feedback, you're prompted to use a documentation
         product ID. Think of your webhelp output as a "product." If you have 3 different webhelp
         outputs, you have 3 different products, each with their own unique product ID that you
         specify. Always the same product ID for the same output. This identifier is included in a
         configuration file so that comments are tied to a particular output. If you're publishing
         the webhelp files into different directories, consider using the directory name as the
         product ID.</p>
-<p class="p">When you run the configuration to install webhelp with feedback, there's one option that's
+<p>When you run the configuration to install webhelp with feedback, there's one option that's
         a bit confusing: ""Display comments from other products. If checked, on this product pages
         will be visible also comments from other specified products!"</p>
-<p class="p">Understanding your webhelp outputs as "products" helps clarify this option. This means if
+<p>Understanding your webhelp outputs as "products" helps clarify this option. This means if
         you have two different products, and both have a file name and path such as
         topics/widgets.dita, then comments made on one instance of topics/widgets.dita will appear
         on other instances of the the file topics/widgets.dita in other products. </p>
@@ -57,29 +57,29 @@ type: notes_dita
 <h2 class="title sectiontitle">Installing it the first time</h2>
 </p></div>
 <div class="section">
-<p class="p">The first time you deploy webhelp with feedback, after you FTP the content to your server,
+<p>The first time you deploy webhelp with feedback, after you FTP the content to your server,
         go to the /install directory and walk through the installation. You'll be prompted for the
         database name, database username, password, as well as other configuration options. You can
         change some of the options later. The installation creates a config.php file in
           <span class="ph filepath">oxygen-webhelp/resources/php/config/config.php </span>where all your
         configuration options are stored.</p>
-<p class="p">The first time you install Webhelp with Feedback, select the check box to create a new
+<p>The first time you install Webhelp with Feedback, select the check box to create a new
         database structure. However, on subsequent deployments of other help files, do not select
         the database structure check box. If you do, your previous database tables will be
         erased/dropped and your comments removed.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Publishing subsequent revisions</h2>
-<p class="p">When you publish subsequent iterations of your webhelp, don't upload the /install folder in
+<p>When you publish subsequent iterations of your webhelp, don't upload the /install folder in
     the output. You only need to upload the install folder first time when you create the
     installation. On subsequent uploads, just upload the other output files. </p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Logging in as administrator</h2>
-<p class="p">When you install Webhelp with Feedback the first time, you're prompted to create an
+<p>When you install Webhelp with Feedback the first time, you're prompted to create an
         administrator. For subsequent product deployments, you're not prompted to create an
         administrator account.</p>
-<p class="p">Regardless, by default there's a user created named "administrator" that uses the
+<p>Regardless, by default there's a user created named "administrator" that uses the
         administrator's email address you set up in the configuration. If you forget the admin
         account, to retrieve the password for the administrator, try logging in to the Admin panel
         (in the comments area) and choose to reset your password. Once you reset the password and
@@ -87,26 +87,26 @@ type: notes_dita
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Managing comments</h2>
-<p class="p">Go to a topic in your help, log in as an administrator, and you'll see an Admin button. This
+<p>Go to a topic in your help, log in as an administrator, and you'll see an Admin button. This
         takes you to the Admin interface, which is actually shown inside a topic rather than as a
         separate interface apart from the help system. There you can manage comments and control
         user roles.</p>
-<p class="p">There are three types of notification options: reply notification, page notification, and
+<p>There are three types of notification options: reply notification, page notification, and
     webhelp notification. The reply notification sends a notification when someone makes a reply to
     your comment. The page notification sends a notification if someone else adds a comment on the
     same page. The webhelp notification sends a notification if anyone makes a comment on any page
     in the webhelp.</p>
-<p class="p">There isn't a way to surface an RSS feed or show the latest comments.</p>
+<p>There isn't a way to surface an RSS feed or show the latest comments.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Adding Administrators</h2>
-<p class="p">To enable more administrators, ask a person to create an account. The user will appear in the
+<p>To enable more administrators, ask a person to create an account. The user will appear in the
         Admin interface (which you access by clicking the Admin button in the comments area). You
         can click the user's name and change his or her role and notification options.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Modifying file names versus topic IDs</h2>
-<p class="p">You can change topic IDs without losing comment history, but you can't change the file
+<p>You can change topic IDs without losing comment history, but you can't change the file
         names and paths. The file name and path is what connects a topic with the comments
         associated with it. You can continue to publish updates to the help. If the new topics have
         the same file name the previous comments remain associated with the new topic. But if you
@@ -114,15 +114,11 @@ type: notes_dita
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Versions</h2>
-<p class="p">Each time you transform your output, you're prompted to select a version. In the Admin view
+<p>Each time you transform your output, you're prompted to select a version. In the Admin view
         of the output, you can specify a point in time for comments to appear. For example, you can
         specify that only comments after version 2.0 can appear. You do this by clicking the
           <span class="ph uicontrol">Set Version</span> button. Then select the starting version from which
         comments are visible (meaning visible from that version forward).</p>
 </p></div>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_publishing" title="This section contains various tips related to publishing.">Publishing</a></div>
-</div>
-</div>
+

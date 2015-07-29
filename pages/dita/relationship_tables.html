@@ -4,24 +4,22 @@ title: 'DITA: Relationship tables'
 permalink: /relationship_tables/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
+summary: "You can manage links to each topic through a \"relationship table.\" Based on the way you
+arrange topics in a relationship table, you end up with a list of related links at the end of
+each topic."
 ---
-<h1 class="title topictitle1">DITA: Relationship tables</h1>
+{% include notes.html %}
 <div class="body conbody">
-<p class="shortdesc">You can manage links to each topic through a "relationship table." Based on the way you
-    arrange topics in a relationship table, you end up with a list of related links at the end of
-    each topic. </p>
-<p class="p">A relationship table is an actual table grid that defines the way topics link to each other.
+<p>A relationship table is an actual table grid that defines the way topics link to each other.
       You add links to topics in the table's rows and columns. Topics in the same row link to each
       other. When you output your help, if some of the topics aren't included in the output, they
       are intelligently not included in the relationship table, so your links don't break.</p>
-<p class="p">There are quite a few options for how you can define the linking relationships, but here's
+<p>There are quite a few options for how you can define the linking relationships, but here's
       the easiest way to implement relationship tables. </p>
 <p class="p toc">
 <div class="section">
 <h2 class="title sectiontitle">Wait until the end to create the links</h2>
-<p class="p">First, wait until you're mostly done with your help content before you start creating link
+<p>First, wait until you're mostly done with your help content before you start creating link
         relationships. You may be changing link names as you write and organize files, and it
         doesn't make sense to try to establish linking relationships to content that is still in
         constant flux.</p>
@@ -39,7 +37,7 @@ status: publish
  <topicref href="relationship_tables.dita"/>
  </topichead>{% endhighlight %}
 </div>
-<p class="p">All of the topics in this group will link to each other via related links at the bottom (just
+<p>All of the topics in this group will link to each other via related links at the bottom (just
         like with relationship tables). You don't have to actually create a relationship table at
         all with this method. In almost all cases, you want to link these groups of files to each
         other. </p>
@@ -54,7 +52,7 @@ status: publish
 <li class="li">Topics in the same cell do not link to each other.</li>
 </ul>
 </div>
-<p class="p">Here's an example:</p>
+<p>Here's an example:</p>
 {% highlight xml %}
       <reltable>
       <relheader>
@@ -79,7 +77,7 @@ status: publish
       </relrow>
     </reltable>
    {% endhighlight %}
-<p class="p">It may make more sense to actually show the table in its display form: </p>
+<p>It may make more sense to actually show the table in its display form: </p>
 <div class="tablenoborder">
 <table cellpadding="4" cellspacing="0" summary="" id="table_ryr_xwv_x4" class="table" frame="border" border="1" rules="all">
 <thead class="thead" align="left">
@@ -93,26 +91,26 @@ status: publish
 <tr class="row">
 <td class="entry" valign="top" headers="d9296e100 ">sample_concept.dita</td>
 <td class="entry" valign="top" headers="d9296e103 ">
-<p class="p">task_example1.dita </p>
-<p class="p">task_example2.dita</p>
+<p>task_example1.dita </p>
+<p>task_example2.dita</p>
 </td>
 <td class="entry" valign="top" headers="d9296e106 ">referencefile.dita</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p">In this relationship table, sample_concept.dita will have links to task_example1.dita,
+<p>In this relationship table, sample_concept.dita will have links to task_example1.dita,
         task_example2.dita, and referencefile.dita because they're in the same row. </p>
-<p class="p">However, task_example1.dita and task_example2.dita will not have links to each other
+<p>However, task_example1.dita and task_example2.dita will not have links to each other
         because they're in the same cell.</p>
-<p class="p">If you want topics in the same cell to link to each other, add the attribute
+<p>If you want topics in the same cell to link to each other, add the attribute
           <code>collection-type="family"</code> to the <code>relcell</code> element that
         contains the topics you want to link to each other.</p>
-<p class="p">Note: It's a lot easier to see the rows and cells when you're in the Author view.</p>
+{{note}}It's a lot easier to see the rows and cells when you're in the Author view.{{end}}
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Linking to external resources</h2>
-<p class="p">Now let's say some topics link to some external files on the web. For example, suppose you
+<p>Now let's say some topics link to some external files on the web. For example, suppose you
         want the inline_links.dita topic to link to a topic called http://example.org. You could
         manage these external resource links in the relationship table, but it's easier to manage
         them in a <code>related links</code> section of the topic itself. The related links will
@@ -124,7 +122,7 @@ status: publish
   <link href="http://example.org">Example.org</link>
  </related-links>{% endhighlight %}
 </div>
-<p class="p">This kind of link is useful as a list of relevant resources about the topic. You don't need
+<p>This kind of link is useful as a list of relevant resources about the topic. You don't need
         to manage these links in the relationship table because, as a web resource, you don't need
         to worry about the topic not being available in the output.</p>
 </p></div>
@@ -137,30 +135,26 @@ status: publish
 <relcolspec type="task"/>
 <relcolspec type="reference"/> {% endhighlight %}
 </div>
-<p class="p">However, I don't think it's wise to separate related links into these different topic
+<p>However, I don't think it's wise to separate related links into these different topic
         types, since many times readers don't clearly distinguish topic types frome ach other, and
         sometimes concepts are somewhat task-like anyway. If your concepts have lite list formatting
         in them (using the ol element), the distinction between tasks and concepts may be more
         fuzzy.</p>
-<p class="p">In fact, if you remove the column names, there isn't much reason to separate out the topics
+<p>In fact, if you remove the column names, there isn't much reason to separate out the topics
         into separate columns. You could instead just group all the topics you want to relate to
         each other in the same cell and add <code>collection-type="family"</code> for that
         cell.</p>
 </p></div>
 <div class="section">
 <h2 class="title sectiontitle">Working with relationship tables</h2>
-<p class="p">Probably the easiest way to work with relationship tables in Oxygen is to insert the
+<p>Probably the easiest way to work with relationship tables in Oxygen is to insert the
         relationship table code into the bottom of your map file in the Text view (or make sure your
         cursor is in a valid place in the map file and click the Insert Relationship Table button in
         the Author view). Then switch to the Author view. </p>
-<p class="p">Right-click the map file header tab and select Open in DITA Maps Manager View. Drag the
+<p>Right-click the map file header tab and select Open in DITA Maps Manager View. Drag the
         topics from the maps manager view into the cells you want. Remember, if you've already added
           <code>collection-type="family"</code> to the groups in your map, then you only need to
         relate those topics that fall outside of the existing groups. </p>
 </p></div>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
-</div>
-</div>
+

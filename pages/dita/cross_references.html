@@ -4,26 +4,14 @@ title: 'DITA: Cross references'
 date: 2014-12-27 15:16:06.000000000 -08:00
 permalink: /cross_references/
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_id: ''
-  prodname_long: ''
-  wpautop: 'false'
-  dsq_thread_id: '3775329397'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+summary: "You create cross references by pointing to the ID of a particular element that you want
+to link to."
 ---
-<h1 class="title topictitle1">DITA: Cross references</h1>
+{% include notes.html %}
 <div class="body conbody">
-<p class="shortdesc">You create cross references by pointing to the ID of a particular element that you want
-  to link to.</p>
 <div class="section">
 <h2 class="title sectiontitle">Referring to specific steps</h2>
-<p class="p">To refer to a specific step, do the following:</p>
+<p>To refer to a specific step, do the following:</p>
 <ol class="ol">
 <li class="li">Add an ID tag on the step:
 {% highlight xml %}
@@ -37,12 +25,12 @@ excerpt: !ruby/object:Hpricot::Doc
 <li class="li">Reference the ID through an <code>xref</code> element and include
       <code>type="li"</code>.
 {% highlight xml %}Now perform the same routine as you did in <xref href="#task_lxj_zps_44/deploy" type="li"/>.{% endhighlight %}
-<div class="note note"><span class="notetitle">Note:</span> The type is <code>li</code>, not <code>step</code>.</div>
+{{note}}The type is <code>li</code>, not <code>step</code>.{{end}}
 </li>
 </ol></div>
 <div class="section">
 <h2 class="title sectiontitle">Referring to a specific section</h2>
-<p class="p">To refer to a specific section with a cross reference, in your regular content, add an ID
+<p>To refer to a specific section with a cross reference, in your regular content, add an ID
     attribute on the element like this:</p>
 <div class="p">
 {% highlight xml %}<section id="date_selection"><title>Date Selection</title>{% endhighlight %}

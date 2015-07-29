@@ -3,24 +3,18 @@ layout: page
 title: 'DITA: Add a menu selector'
 permalink: /add_menu_selector/
 type: notes_dita
-tags: []
-status: publish
-
-published: true
+summary: "If you have multiple output files and you want to provide users with the ability to
+easily navigate from one output to another, you can add a menu selector in the
+header."
 ---
-
-
-{% include technotes_toc.html %}
+{% include notes.html %}
 <div class="body taskbody">
-<p class="shortdesc">If you have multiple output files and you want to provide users with the ability to
-        easily navigate from one output to another, you can add a menu selector in the
-        header.</p>
 <div class="section context">
-<p class="p">The menu selector is a simple menu that allows users to select other options. When
+<p>The menu selector is a simple menu that allows users to select other options. When
             a user selects an option, the URL switches to another page. Here's an example of what
             this looks like:</p>
 <p><img class="image" src="/images/proglanguage.png" alt="" /></p>
-<p class="p">When the user makes a selection, the URL reloads another site entirely. </p>
+<p>When the user makes a selection, the URL reloads another site entirely. </p>
 </p></div>
 <p class="li stepsection">To incorporate a menu selector:</p>
 <ol class="ol steps">
@@ -38,11 +32,11 @@ published: true
               <option value="../php/index.html">PHP</option>
         </select>
     </form>{% endhighlight %}
-<p class="p">When a user selects an option, it triggers an <code>onchange</code> script to trigger that changes the browser's location to the URL of the option selected.</p>
-<p class="p">Note that because OxygenXML's webhelp uses frames, you must use the
+<p>When a user selects an option, it triggers an <code>onchange</code> script to trigger that changes the browser's location to the URL of the option selected.</p>
+<p>Note that because OxygenXML's webhelp uses frames, you must use the
                             <code>window.parent.location</code> as the target for each of theo
                         ptions selected.</p>
-<p class="p">The user will see the first option as the option that appears selected. Therefore, you need to customize the menu selector for each output.</p>
+<p>The user will see the first option as the option that appears selected. Therefore, you need to customize the menu selector for each output.</p>
 </p></div>
 </li>
 <li class="li step stepexpand">

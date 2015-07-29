@@ -4,27 +4,21 @@ title: 'DITA: Code (inline and block)'
 permalink: /code/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
+summary: "You can use two primary tags for code: <code>codeph</code> and
+<code>codeblock</code>."
 ---
-
-
-{% include technotes_toc.html %}
+{% include notes.html %}
 <div class="body conbody">
-<p class="shortdesc">You can use two primary tags for code: <code>codeph</code> and
-   <code>codeblock</code>.</p>
 <div class="p">To add code tags around inline code, use <code>codeph</code>, like
             this:
 {% highlight xml %}The <codeph>init</codeph> function initializes the processor...{% endhighlight %}
 </div>
-<p class="p"><code>codeph</code> stands for "code phrase." (There's another tag called
+<p><code>codeph</code> stands for "code phrase." (There's another tag called
                 <code>ph</code> that is just "phrase.")</p>
 <div class="p">For a block of code, use <code>codeblock</code> with an <code>outputclass</code>
             attribute that specifies the language for the syntax
             highlighter:
-{% highlight xml %}<codeblock outputclass="language-cpp">
+{% highlight cpp %}<codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
@@ -36,10 +30,10 @@ int main() {
 }
 </codeblock>{% endhighlight %}
 </div>
-<p class="p">As soon as you type <code>outputclass="</code> in the code editor, you're prompted with
+<p>As soon as you type <code>outputclass="</code> in the code editor, you're prompted with
             language options. If you don't choose an <code>output</code> class, the default is
             java.</p>
-<p class="p">Note that adding the outputclass will prompt Oxygen to add syntax highlighting in the
+<p>Note that adding the outputclass will prompt Oxygen to add syntax highlighting in the
             output (injecting a lot of inline formatting). If you're publishing to a location that
             already provides a syntax highlighter, don't add an outputclass. </p>
 <div class="p">Because XML parses the angle brackets and & symbols in codeblocks, you have to convert
@@ -47,7 +41,7 @@ int main() {
             </code>and <code>></code> is <code>></code> For <code>&</code>,
             use <code>&amp;</code>. The above code really looks like
             this:
-{% highlight xml %}<codeblock outputclass="language-cpp">
+{% highlight cpp %}<codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
 
@@ -59,17 +53,17 @@ int main() {
 }
 </codeblock>{% endhighlight %}
 </div>
-<p class="p">You can also reference code stored in another file using a <code>coderef</code> element
+<p>You can also reference code stored in another file using a <code>coderef</code> element
             inside a <code>codeblock</code>:</p>
 {% highlight xml %}<codeblock outputclass="language-csharp">
 <coderef href="code/example.txt"/>
 </codeblock>{% endhighlight %}
-<p class="p">With this method, you don't have to convert the illegal symbols into their character
+<p>With this method, you don't have to convert the illegal symbols into their character
             equivalents. Also, the referenced file cabe stored with the programming language type
             extension, which gives you syntax highlighting while you're editing it.</p>
-<p class="p">If you want to title the code sample with a name, use the <code>fig</code> and
+<p>If you want to title the code sample with a name, use the <code>fig</code> and
                 <code>title</code> elements:</p>
-{% highlight xml %}<fig><title>Checking scores</title></fig>
+{% highlight cpp %}<fig><title>Checking scores</title></fig>
     <codeblock outputclass="language-cpp">
 int main() {
     double scores[5] = {0.5, 1.5, 2.5, 3.5, 4.5};
@@ -81,16 +75,12 @@ int main() {
     return 0;
 }
 </codeblock>{% endhighlight %}
-<p class="p">If you want to bold part of a code sample, you can do so by inserting <code>b</code>
+<p>If you want to bold part of a code sample, you can do so by inserting <code>b</code>
             tags to bold the content. (Don't convert the angle brackets around the b tag to
             character equivalents.)</p>
-<p class="p">If the syntax highlighter is accidentally highlighting some of your code as a comment instead of actual code, wrap the problematic code inside <code>codeph</code> tags.</p>
+<p>If the syntax highlighter is accidentally highlighting some of your code as a comment instead of actual code, wrap the problematic code inside <code>codeph</code> tags.</p>
 {% highlight xml %}
 q=0.9,<codeph>*</codeph><codeph>/*</codeph>;;q=0.8");
      {% endhighlight %}
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_page_level_formatting">Page-level elements</a></div>
-</div>
-</div>
+

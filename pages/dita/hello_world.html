@@ -4,40 +4,29 @@ title: 'DITA: Hello World getting started tutorial'
 permalink: /hello_world/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
-tags: []
-status: publish
-
-published: true
-meta:
-  prodname_long: ''
-  prodname_id: ''
-  wpautop: 'false'
-  dsq_thread_id: '3772633433'
-author: 
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+summary: "This is a Hello World type of exercise where I show you how to get going with OxygenXML in
+the quickest way possible."
 ---
-<h1 class="title topictitle1">DITA: Hello World getting started tutorial</h1>
+{% include notes.html %}
 <div class="body">
-<p class="p">This is a Hello World type of exercise where I show you how to get going with OxygenXML in
-      the quickest way possible.</p>
+<p></p>
 <div class="p">
 <ol class="ol" id="topic_vm3_v3z_bq__ol_atv_x3z_bq">
 <li class="li">Download <a class="xref external" href="http://www.oxygenxml.com/download.html" target="_blank">OxygenXML</a>.
-<p class="p">There are 3 flavors: Editor, Developer, and
+<p>There are 3 flavors: Editor, Developer, and
             Author. Unless you intended to get heavy into XML development, just choose
             <strong class="ph b">Author</strong>. The Developer and Author versions just provide different perspectives of
             the same application.</p>
 </li>
 <li class="li">Create a folder on your computer where you can easily organize and access your
             files.
-<p class="p">If you're on a Mac, I recommend that you use the
+<p>If you're on a Mac, I recommend that you use the
               <span class="ph filepath">/users/<username>/projects</span> folder, since this is the default
             folder when you clone a repository.</p>
 </li>
 <li class="li">Go to <span class="ph menucascade"><span class="ph uicontrol">File</span> > <span class="ph uicontrol">New</span></span>. </li>
 <li class="li">Expand the <span class="ph menucascade"><span class="ph uicontrol">Framework</span> > <span class="ph uicontrol">DITA</span> > <span class="ph uicontrol">topic</span></span> and choose <span class="ph uicontrol">Topic</span>.
-<p class="p">Once you choose a template here,
+<p>Once you choose a template here,
             your choices will appear under a "Recently Used" section so you don't have to browse so
             many folders next time.</p>
 </li>
@@ -54,7 +43,7 @@ excerpt: !ruby/object:Hpricot::Doc
   </body>
 </topic>
 {% endhighlight %}
-<p class="p">In
+<p>In
             either view, note how Oxygen will prompt you with options. In the Author view, hit your
             Return key to see a list of elements you can insert at a particular point.</p>
 </li>
@@ -71,37 +60,33 @@ excerpt: !ruby/object:Hpricot::Doc
  
  <topicref href="hello_world.dita"/>
 </map>{% endhighlight %}
-<p class="p">Note
+<p>Note
             that once you save your DITA map file, when you type <code>href="</code>, the editor
             will show you available topics within the folder.</p>
 </li>
 <li class="li">While viewing your DITA map file, right-click the tab and choose <span class="ph uicontrol">Open in DITA
             Maps Manager View</span>.
-<p class="p">The map will open in a left side pane in the DITA Maps
+<p>The map will open in a left side pane in the DITA Maps
             Manager view. This view makes it easy to jump around to various topics in your help
             system.</p>
-<p class="p">In the DITA Maps Manager view, click the wrench icon (<strong class="ph b">Configure
+<p>In the DITA Maps Manager view, click the wrench icon (<strong class="ph b">Configure
               Transformation Scenario(s)</strong>). </p>
-<p class="p">
+<p>
 
     <img src="{{ "/>images/dita_maps_manager.png" | prepend: site.baseurl }}" alt="" />
           </p>
 </li>
 <li class="li">Select <span class="ph uicontrol">DITA Map Webhelp</span>, and then click <span class="ph uicontrol">Apply
             Associated</span>.
-<p class="p">On subsequent builds, you can just click the red triangle
+<p>On subsequent builds, you can just click the red triangle
             (Apply Transformation Scenarios) to the left of the Configure Transformation Scenario(s)
             button. This button will apply whatever selections you have set in the Configure
             Transformation Scenario(s) dialog. </p>
-<p class="p">Congratulations. You should see a sample
+<p>Congratulations. You should see a sample
             webhelp output as shown below.
     <img src="{{ "/>images/sample_output.png" | prepend: site.baseurl }}" alt="" />
     </p>
 </li>
 </ol></div>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_introduction">Introduction</a></div>
-</div>
-</div>
+

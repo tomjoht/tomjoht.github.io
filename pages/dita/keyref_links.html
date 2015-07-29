@@ -4,11 +4,11 @@ title: 'DITA: Keyref links'
 permalink: /keyref_links/
 date: 2014-12-27 15:16:06.000000000 -08:00
 type: notes_dita
+summary: "To avoid having to change your links, you can use a technique called key references."
 ---
 <h1 class="title topictitle1">DITA: Keyref links</h1>
 <div class="body conbody">
-<p class="shortdesc">To avoid having to change your links, you can use a technique called key references. </p>
-<p class="p">You create a key (a word) in your map and define what the key links to. In your topic, you
+<p>You create a key (a word) in your map and define what the key links to. In your topic, you
       link to the key. This way, if you need to change the link, you need only change the key's
       reference in your map file. You don't have to change all the keys in your topics. </p>
 <div class="p">First add the key link in your map file like this:</p>
@@ -20,21 +20,17 @@ type: notes_dita
 <div class="p">Then refer to the key in your topic like this:</p>
 {% highlight xml %}<xref keyref="argument"/>{% endhighlight %}
 </div>
-<p class="p">You just use <code>keyref</code> instead of <code>href</code>.</p>
-<p class="p">You can use a keyref anywhere there's an href:</p>
+<p>You just use <code>keyref</code> instead of <code>href</code>.</p>
+<p>You can use a keyref anywhere there's an href:</p>
 <div class="p">
 {% highlight xml %}<link keyref="argument"/>{% endhighlight %}
 </p></div>
-<p class="p">or with images:</p>
+<p>or with images:</p>
 <div class="p">
 {% highlight xml %}<image keyref="argument"/>{% endhighlight %}
 </p></div>
-<p class="p">If the key isn't defined in the map, it doesn't appear in the output. This makes it better to
+<p>If the key isn't defined in the map, it doesn't appear in the output. This makes it better to
       use for your related links because you won't run into issues of the link being dependent on
       the file being present.</p>
 </p></div>
-<div class="related-links">
-<div class="familylinks">
-<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="/toc_linking">Linking</a></div>
-</div>
-</div>
+

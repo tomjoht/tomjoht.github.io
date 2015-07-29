@@ -8,11 +8,9 @@ layout: default
 
     <div class="post-content">
 
-   {% if page.summary %}
-    {% comment %} <div class="summary"></div> {% endcomment %}{{page.summary}}
-   {% endif %}
+        {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
-  {{content}}
+        {{content}}
     {% include disqus.html %}
 
 </div>
