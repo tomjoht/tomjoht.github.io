@@ -15,7 +15,7 @@ comments: true
 {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
 {% include toc.html %}
-{% include ziprecruiter_widget.html %}
+
 {{ content }}
 {% include social_sharing_buttons.html %}
 
@@ -29,8 +29,9 @@ comments: true
   <!--{% endfor %}-->
 <!--</ul>-->
 	<!--</div>-->
+{% include ziprecruiter_widget.html %}
 {% include single_post_ads.html %}
-{% include googleads.html %}
+<!-- {% include googleads.html %} -->
 
 {% include disqus.html %}
 
