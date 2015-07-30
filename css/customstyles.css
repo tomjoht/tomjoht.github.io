@@ -942,11 +942,7 @@ img.inline {
     vertical-align: bottom;
 }
 
-/*.zs_search_box {*/
-    /*width: 53%;*/
-/*}*/
-
-/*input#zs_location {*/
-    /*max-width: 50%;*/
-    /*display: block;*/
-/*}*/
+.zr_alerts_widget_container {
+    max-width: 300px;
+    float: right;
+}

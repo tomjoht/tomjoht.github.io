@@ -9,6 +9,9 @@ topnav:
     - title: Beginners
       url: /category-beginners/
 
+    - title: Jobs
+      url: /findjobs/
+
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
@@ -95,7 +98,7 @@ topnav_dropdowns:
         url: /java-introduction/
       - title: APIs
         url: /toc-apis/
-        
+
     - title: Categories
       items:
       - title: API documentation
@@ -146,6 +149,3 @@ topnav_dropdowns:
           url: /impressions/
         - title: Clicks
           url: /clicks/
-
-    - title: Jobs
-      url: /findjobs/
