@@ -89,15 +89,13 @@ topnav_dropdowns:
       items:
       - title: JavaScript
         url: /javascript/
-
       - title: DITA
         url: /ditaqrg/
-
       - title: Java
         url: /java-introduction/
-
       - title: APIs
         url: /toc-apis/
+        
     - title: Categories
       items:
       - title: API documentation
@@ -148,3 +146,6 @@ topnav_dropdowns:
           url: /impressions/
         - title: Clicks
           url: /clicks/
+
+    - title: Jobs
+      url: /findjobs/
