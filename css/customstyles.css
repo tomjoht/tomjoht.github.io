@@ -944,4 +944,5 @@ img.inline {
 
 .zr_alerts_widget_container {
     max-width: 400px;
+    display: inline-block;
 }
