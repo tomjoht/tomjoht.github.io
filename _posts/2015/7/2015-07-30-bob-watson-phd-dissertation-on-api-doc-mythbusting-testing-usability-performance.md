@@ -8,8 +8,7 @@ summary: "Bob Watson recently finished a PhD with research that examined how the
 
 ## Listen to the podcast
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/bobwatson_apidocs.mp3
-type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/bobwatson_apidocs.mp3" type="audio/mpeg" /></audio></p>
 
 You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs"/>download the MP3 file here</a>.
 
