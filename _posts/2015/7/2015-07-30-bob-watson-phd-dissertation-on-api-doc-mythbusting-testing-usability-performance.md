@@ -1,3 +1,4 @@
+---
 title: "Podcast: How do design, length, and relevance affect how people use API reference docs — interview with Bob Watson"
 categories:
 - api-docs
@@ -5,13 +6,12 @@ keywords: bob watson, api usability, reference docs, design, performance, releva
 summary: "Bob Watson recently finished a PhD with research that examined how the design and content of API reference docs affects the user's performance. In this podcast, I talk with Bob about his findings and his other research interests, primarily around goal testing to measure documentation's effectiveness."
 ---
 
-## Podcast
+## Listen to the podcast
 
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/bobwatson_apidocs.mp3
 type="audio/mpeg" /></audio></p>
 
-You can <a href="{{"/podcasts/http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/bobwatson_apidocs.mp3" | prepend: site.baseurl }}" alt="Bob Watson podcast on API docs"
-/>download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs"/>download the MP3 file here</a>.
 
 ## Summary
 
@@ -29,7 +29,7 @@ He also found that whether reference topics contained relevant information or no
 
 Finally, he found that topic length influenced performance. Shorter topics were quicker to assess, but longer topics increased the user's perception of the topic's credibility and professionalism.
 
-## Testing
+## Goal testing documentation
 
 We also talked about testing. Bob said his background as a software engineer, a context in which code is heavily tested, led him to wonder why documentation wasn't also tested with the same degree of thoroughness. He found that testing documentation content was much more difficult. It's harder to determine whether documentation is achieving its goal, especially with API reference documentation, since a user may not implement the knowledge gained from the content until later, such as when the user writes code for an application he or she is building.
 
@@ -37,13 +37,13 @@ Bob noted several practical approaches to testing. One method is to get a new en
 
 While you can enlist other non-engineering colleagues at your work to test your API documentation, you have to recognize the limits of your subjects. If you're asking a user (such as a product manager) to do something he or she wouldn't normally do, the results may not provide you with the information you need to optimize your information.
 
-## Framework for Analysis
+## Product-market-audience framework for analysis
 
 One of the frameworks that Bob mentioned in making decisions about documentation is a product-market-audience framework. Whether you decide to include a strong visual design in your docs, or add a lot of detail to handhold users, etc., really depends on how these three factors intersect: product, market, and audience.
 
 If your product is new in the market, and users are unfamiliar with it, then you probably want to add more detail in your product's documentation. If your documentation's purpose is to help sell the product and increase credibility for your product in the community, then you might want to implement a strong visual design. If your product is a familiar technology in the market, you may not need as much doc content. By analyzing the product, market, and audience, you can make decisions about what to emphasize in your documentation.
 
-## Resources
+## Resources to learn more
 
 Here are some links for some of the resource mentioned in the podcast:
 
