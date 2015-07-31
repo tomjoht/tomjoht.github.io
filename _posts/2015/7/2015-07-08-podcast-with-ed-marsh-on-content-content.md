@@ -1,8 +1,10 @@
 ---
 title: Listen to Ed Marsh's Content Content podcast with me as a guest
 categories:
-- podcasts
-keywords: 
+- api-doc
+- jekyll
+- dita
+keywords: podcast, ed marsh, api documentation, careers, story
 summary: "Ed Marsh had me as a guest on episode 4 of his Content Content podcast, which is now available to listen to."
 ---
 
