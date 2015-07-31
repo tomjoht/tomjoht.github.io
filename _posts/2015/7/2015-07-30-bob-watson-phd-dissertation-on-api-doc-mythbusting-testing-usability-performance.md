@@ -49,4 +49,4 @@ Here are some links for some of the resource mentioned in the podcast:
 * [Docs by Design](http://docsbydesign.com/) (Bob Watson's blog)
 * [PhD study findings](http://docsbydesign.com/category/phd-dissertation-study/) (contains links to the posts that talk about the study findings)
 * [Variations in design and information](http://docsbydesign.com/2015/06/22/api-reference-topic-study-su
-mmary-results/) (includes examples of the different variations in design
+mmary-results/) (includes examples of the different variations in design)
