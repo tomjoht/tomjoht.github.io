@@ -2,7 +2,10 @@
 title: "Podcast: How do design, length, and relevance affect how people use API reference docs — interview with Bob Watson"
 categories:
 - api-doc
-keywords: bob watson, api usability, reference docs, design, performance, relevance, usability, testing, mythbusing
+keywords: bob watson, api usability, reference docs, design, performance, relevance, usability, testing, mythbusting
+tags: [series_testing_documentation]
+series: Testing documentation
+weight: 1.6
 summary: "Bob Watson recently finished a PhD with research that examined how the design and content of API reference docs affects the user's performance. In this podcast, I talk with Bob about his findings and his other research interests, primarily around goal testing to measure documentation's effectiveness."
 ---
 
