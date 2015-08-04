@@ -8,14 +8,13 @@ type: homepage
   <div class="home-post-title">
   {% for post in paginator.posts %}
 <div class="entry"><a href="{{ post.url }}">{{ post.title }}</a>
-
-
-  <div class="home-post-meta">
+    <div class="home-post-meta">
     {{ post.date | date: "%b %-d, %Y" }} &#8226;
     {% for cat in post.categories %}
     <a href="{{ "/category-" | prepend: site.baseurl | append: {{cat}}">{{cat}}</a>{% unless forloop.last %}, {% endunless%}
     {% endfor %}
   </div>
+    <div class="homepageSummary">{{post.summary}}</div>
   {% endfor %}
 
 </div>

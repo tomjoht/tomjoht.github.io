@@ -946,3 +946,8 @@ img.inline {
     max-width: 400px;
     display: inline-block;
 }
+
+.homepageSummary {
+    font-size: 70%;
+    margin: 15px 0px;
+}
