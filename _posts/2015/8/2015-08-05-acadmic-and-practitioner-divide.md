@@ -4,7 +4,6 @@ categories:
 - general
 keywords: 
 summary: "Although the work of practitioners and academics should inform each other in mutually beneficial ways, these groups tend to be somewhat isolated and separate. Some reasons for the divide include lack of focus on tools, paywalls set up with publications, and the topics in journal articles."
-published: false
 ---
 
 ## The divide 
