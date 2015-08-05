@@ -1,5 +1,5 @@
 ---
-title: Why the divide between academics and practitioners?
+title: Why is there a divide between academics and practitioners in tech comm?
 categories:
 - general
 keywords: 
