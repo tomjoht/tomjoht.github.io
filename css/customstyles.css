@@ -950,4 +950,5 @@ img.inline {
 .homepageSummary {
     font-size: 70%;
     margin: 15px 0px;
+    line-height: 28px;
 }
