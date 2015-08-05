@@ -868,13 +868,6 @@ img a, a {
     cursor: hand;
 }
 
-blockquote {
-    color: gray;
-    font-style: italic;
-    border-left-color: orange;
-    padding: 3px 20px 10px 20px;
-}
-
 .col-md-9 ul li, .col-md-9 ol li {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -951,4 +944,13 @@ img.inline {
     font-size: 70%;
     margin: 15px 0px;
     line-height: 28px;
+}
+
+blockquote {
+    color: gray;
+    font-style: italic;
+    border-left-color: orange;
+    padding-left:20px;
+    padding-top:4px;
+    padding-bottom:12px;
 }
