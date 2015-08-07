@@ -141,7 +141,7 @@ topnav_dropdowns:
         url: /category-wordpress/
       - title: Writing
         url: /category-writing/
-    - title: Advertising
+#    - title: Advertising
 #      items:
 #        - title: Advertising
 #          url: /advertising/
@@ -152,8 +152,8 @@ topnav_dropdowns:
     - title: Workshops
       items:
         - title: Documenting REST APIs Workshop
-          url: documenting-rest-apis-course-overview
+          url: /documenting-rest-apis-course-overview
         - title: Publishing REST APIs Workshop
-          url: publishing-rest-apis-course-overview
+          url: /publishing-rest-apis-course-overview
         - title: Java API Workshop
-          url: java-api-course-overview
+          url: /java-api-course-overview
