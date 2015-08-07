@@ -106,7 +106,8 @@ entries:
           url: /configuration_details/
 {% endhighlight %}</p>
 <p>Now the HTML code in your template uses a <code>for</code> loop to iterate through each of these items and wrap them in the right formatting for your theme. Here's an example of how the template code might look:</p>
-<p>{% highlight html %}
+{% raw %}
+{% highlight html %}
 {% if site.audience == "fe" or "customer" %}
 {% assign sidebar = site.data.sidebar.entries %}
 {% assign buildAudience = "fe" %}</p>
@@ -131,7 +132,8 @@ entries:
  {% endfor %}
 {% endfor %}
 </ul>
-{% endhighlight %}</p>
+{% endhighlight %}
+{% raw %}
 <p>When we start the for loop, what <code>sidebar</code> refer and <code>buildAudience</code> refer to is based on the assignments defined. These assignments depend on properties in the particular configuration file that's being used. (This is how the theme is separated from the content.)</p>
 <p>The <code>for</code> loop looks in the sidebar list and loops first through the items, and then the subcategories, iterating through each item in the list. Each item is wrapped in a link format. Additionally, only the items containing the <code>buildAudience</code> attributes are included in the list. (This <code>buildAudience</code> element allows us to single source the data file, using the same data file for multiple audiences.)</p>
 <p>You can get more fancy with the sidebar formatting, such as showing active links and more. But this shows the basic logic. My intent here is not to explain the code in detail but rather to give you a glimpse of how to build a TOC in Jekyll.</p>
