@@ -17,11 +17,15 @@ weight: 1.2
 <h2>Variables in Jekyll</h2>
 <p>In Jekyll, you can assign a variable a specific value, like this:</p>
 <p>{% highlight html %}
+    {%raw%}
 {% assign dog_name = "Fred" %}
+    {% endraw %}
 {% endhighlight %}</p>
 <p>Now you can use <code>{{dog_name}}</code> in your content and it will say <code>Fred</code> in the output:</p>
 <p>{% highlight html %}
+    {%raw%}
 I have a dog named {{dog_name}}.
+    {% endraw %}
 {% endhighlight %}</p>
 <p>Although you could assign this variable directly on your page, it's more common to put the variable in your configuration file. Each Jekyll project has a configuration file where you define your project settings and other build details.</p>
 <p>The configuration file is written in YML syntax, so you just add a key-value pair somewhere in the file like this:</p>
@@ -73,6 +77,7 @@ title: My Page
 permalink: /my_page_link/
 tags: getting_started
 ---
+    {%raw%}
 {% endhighlight %}</p>
 <p>DITA doesn't have any equivalent to either tags or a <code>for</code> loop. Take a look at some of these <a href="https://docs.shopify.com/themes/liquid-documentation/tags">other tags available through Liquid</a> to get a sense of what's possible.</p>
 <h2>How you do variables and conditional processing in DITA</h2>
