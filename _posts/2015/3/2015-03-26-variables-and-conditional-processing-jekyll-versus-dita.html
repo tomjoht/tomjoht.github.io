@@ -16,11 +16,11 @@ weight: 1.2
 <p>In the <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/">previous post</a>, I compared writing in Markdown versus writing in XML. In this post in the series, I want to look at variables and conditional processing between the two platforms.</p>
 <h2>Variables in Jekyll</h2>
 <p>In Jekyll, you can assign a variable a specific value, like this:</p>
+{%raw%}
 <p>{% highlight html %}
-    {%raw%}
 {% assign dog_name = "Fred" %}
-    {% endraw %}
 {% endhighlight %}</p>
+{% endraw %}
 <p>Now you can use <code>{{dog_name}}</code> in your content and it will say <code>Fred</code> in the output:</p>
 <p>{% highlight html %}
     {%raw%}
