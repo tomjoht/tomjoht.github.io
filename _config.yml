@@ -81,6 +81,15 @@ defaults:
       comments: true
       search: true
 
+  -
+    scope:
+      path: ""
+      type: "javaapidocs"
+    values:
+      layout: "javaapidocs"
+      comments: true
+      search: true
+
 sass:
     sass_dir: _sass
 
