@@ -18,119 +18,119 @@ weight: 1.4
 <p>Additionally, any file that you want included in your output <em>must</em> appear in your ditamap file. Otherwise it's excluded from the build.</p>
 <p>A project can have multiple ditamap files. You might have separate ditamap file for each output, or you could use the same ditamap file with conditional tags for multiple outputs.</p>
 <p>In the ditamap file, you reference each topic you want included like this:</p>
-<p>{% highlight xml %}<br />
-&lt;topichead navtitle=&quot;Links&quot;&gt;<br />
- &lt;topicref href=&quot;keyref_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;inline_links.dita&quot; audience=&quot;field_engineers&quot;/&gt;<br />
- &lt;topicref href=&quot;related_links.dita&quot;/&gt;<br />
- &lt;topicref href=&quot;relationship_tables.dita&quot;/&gt;<br />
-&lt;/topichead&gt;<br />
+<p>{% highlight xml %}
+<topichead navtitle="Links">
+ <topicref href="keyref_links.dita"/>
+ <topicref href="inline_links.dita" audience="field_engineers"/>
+ <topicref href="related_links.dita"/>
+ <topicref href="relationship_tables.dita"/>
+</topichead>
 {% endhighlight %}</p>
 <p>Notice how you can add attributes to the <code>topicref</code> elements. Here, if the build conditions exclude the field engineer audience, the inline_links.dita topic will be excluded.</p>
 <p>Additionally, hierarchy is established by nesting the elements. If you want to create sublevels, you nest the topics like this:</p>
-<p>{% highlight xml %}<br />
-&lt;topichead navtitle=&quot;Links&quot;&gt;<br />
- &lt;topicref href=&quot;keyref_links.dita&quot;&gt;<br />
-   &lt;topicref href=&quot;inline_links.dita&quot; audience=&quot;field_engineers&quot;/&gt;<br />
-  &lt;/topicref&gt;<br />
- &lt;topicref href=&quot;related_links.dita&quot;&gt;<br />
-   &lt;topicref href=&quot;relationship_tables.dita&quot;/&gt;<br />
-  &lt;/topicref&gt;<br />
-&lt;/topichead&gt;<br />
+<p>{% highlight xml %}
+<topichead navtitle="Links">
+ <topicref href="keyref_links.dita">
+   <topicref href="inline_links.dita" audience="field_engineers"/>
+  </topicref>
+ <topicref href="related_links.dita">
+   <topicref href="relationship_tables.dita"/>
+  </topicref>
+</topichead>
 {% endhighlight %}</p>
 <p>Here the inline_links.dita topic will appear in a sublevel below keyref_links.dita. Similarly, relationship_tables.dita will appear nested below related_links.dita.</p>
 <p>You can combine topics if you use the <code>chunk</code> attribute, like this:</p>
-<p>{% highlight xml %}<br />
- &lt;topicref href=&quot;inserting_links.dita&quot; chunk=&quot;to-content&quot;&gt;<br />
- &lt;topicref href=&quot;inline_links.dita&quot; toc=&quot;no&quot;/&gt;<br />
- &lt;topicref href=&quot;related_links.dita&quot; toc=&quot;no&quot;/&gt;<br />
- &lt;topicref href=&quot;keyref_links.dita&quot; toc=&quot;no&quot;/&gt;<br />
-&lt;/topicref&gt;<br />
+<p>{% highlight xml %}
+ <topicref href="inserting_links.dita" chunk="to-content">
+ <topicref href="inline_links.dita" toc="no"/>
+ <topicref href="related_links.dita" toc="no"/>
+ <topicref href="keyref_links.dita" toc="no"/>
+</topicref>
 {% endhighlight %}</p>
 <p>Now the inserting_links.dita topic will contain inline_links.dita, related_links.dita, and keyref_links.dita files as additional sections in the same inserting_links.dita topic, rather than appearing as separate files.</p>
 <p>If you want to include any non-DITA files, you would list them in the ditamap with a special <code>processing-role</code> attribute:</p>
-<p>{% highlight xml %}<br />
-&lt;topicref processing-role=&quot;resource-only&quot; href=&quot;notes.dita&quot; /&gt;<br />
+<p>{% highlight xml %}
+<topicref processing-role="resource-only" href="notes.dita" />
 {% endhighlight %}</p>
 <p>For more details on ditamap files, see my page on <a href="http://idratherbewriting.com/toc_linking/mapfiles/">ditamap files</a>.</p>
 <h2>Creating a TOC with Jekyll via categories</h2>
 <p>Jekyll provides a lot of different ways to create a TOC. Since many Jekyll sites are blogs, more emphasis seems to be given to <em>post</em> sorting than <em>page</em> sorting, but Jekyll also provides an interesting paradigm to handle the TOC for pages.</p>
 <p>You have at least two main options for create a TOC. You can add a category and weight as frontmatter in your page, and then run <code>for</code> loops to sort the content based on the category and weight.</p>
 <p>If you want to sort pages by category, you would put a category in the frontmatter of a page, like this:</p>
-<p>{% highlight yaml %}<br />
----<br />
-title: My Page<br />
-permalink: /mypage/<br />
-category: getting_started<br />
-weight: 1<br />
----<br />
+<p>{% highlight yaml %}
+---
+title: My Page
+permalink: /mypage/
+category: getting_started
+weight: 1
+---
 {% endhighlight %}</p>
 <p>You could then use a for loop to get all pages in this category sorted by weight:</p>
-<p>{% highlight html %}<br />
-&lt;ul&gt;<br />
-{% for page in site.pages | sort: weight %}<br />
-   {% for tag in page.tags %}<br />
-     {% if tag == &quot;getting_started&quot; %}<br />
-        &lt;li&gt;&lt;a href=&quot;{{ page.permalink | prepend: site.baseurl }}&quot;&gt;{{page.title}}&lt;/a&gt;&lt;/li&gt;<br />
-       {% endif %}<br />
-      {% endfor %}<br />
-  {% endfor %}<br />
-&lt;/ul&gt;<br />
+<p>{% highlight html %}
+<ul>
+{% for page in site.pages | sort: weight %}
+   {% for tag in page.tags %}
+     {% if tag == "getting_started" %}
+        <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
+       {% endif %}
+      {% endfor %}
+  {% endfor %}
+</ul>
  {% endhighlight %}</p>
 <p>This approach may get tedious, though, especially if you want to easily shift and arrange your TOC without opening every single page to change these frontmatter values.</p>
 <h2>Creating a TOC in Jekyll via data files</h2>
 <p>Another approach, and the one I'm currently using, is to list your TOC entries in a YML data file. Here is the typical structure of a YML file containing TOC entries. The YML syntax emphasizes human-readable code, so a lot of the formatting is dependent on spacing:</p>
-<p>{% highlight html %}<br />
-entries:<br />
-- title: Sidebar<br />
-  subcategories:<br />
-    - title: Overview<br />
-      items:<br />
-        - title: Introduction<br />
-          url: /introduction/<br />
+<p>{% highlight html %}
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Overview
+      items:
+        - title: Introduction
+          url: /introduction/
           audience: customer</p>
-<p>        - title: Release Notes<br />
-          url: /release_notes/<br />
+<p>        - title: Release Notes
+          url: /release_notes/
           audience: customer, fe</p>
-<p>        - title: High-level Summary<br />
-          url: /high_level_summary_customer/<br />
+<p>        - title: High-level Summary
+          url: /high_level_summary_customer/
           audience: customer</p>
-<p>        - title: High-level Summary<br />
-          url: /high_level_summary_fe/<br />
+<p>        - title: High-level Summary
+          url: /high_level_summary_fe/
           audience: fe</p>
-<p>    - title: Configuration<br />
-      items:<br />
-        - title: Configuration overview<br />
-          url: /configuration_overview/<br />
-        - title: &quot;Configuration Details: First Steps&quot;<br />
-          url: /configuration_details/<br />
+<p>    - title: Configuration
+      items:
+        - title: Configuration overview
+          url: /configuration_overview/
+        - title: "Configuration Details: First Steps"
+          url: /configuration_details/
 {% endhighlight %}</p>
 <p>Now the HTML code in your template uses a <code>for</code> loop to iterate through each of these items and wrap them in the right formatting for your theme. Here's an example of how the template code might look:</p>
-<p>{% highlight html %}<br />
-{% if site.audience == &quot;fe&quot; or &quot;customer&quot; %}<br />
-{% assign sidebar = site.data.sidebar.entries %}<br />
-{% assign buildAudience = &quot;fe&quot; %}</p>
-<p>{% elsif site.audience == &quot;operations&quot; %}<br />
-{% assign sidebar = site.data.sidebar_ops.entries %}<br />
-{% assign buildAudience = &quot;ops&quot; %}<br />
+<p>{% highlight html %}
+{% if site.audience == "fe" or "customer" %}
+{% assign sidebar = site.data.sidebar.entries %}
+{% assign buildAudience = "fe" %}</p>
+<p>{% elsif site.audience == "operations" %}
+{% assign sidebar = site.data.sidebar_ops.entries %}
+{% assign buildAudience = "ops" %}
 {% endif %}</p>
-<p>&lt;ul id=&quot;mysidebar&quot; class=&quot;nav&quot;&gt;<br />
-{% for entry in sidebar %}<br />
-  {% for subcategory in entry.subcategories %}<br />
-    {% if subcategory.audience contains buildAudience %}<br />
-       &lt;li&gt;&lt;a href=&quot;#&quot;&gt;{{ subcategory.title }}&lt;/a&gt;<br />
-          &lt;ul&gt;<br />
-           {% for item in subcategory.items %}<br />
-              {% if item.audience contains buildAudience %}<br />
-                &lt;li&gt;&lt;a href=&quot;{{item.url | prepend: site.baseurl}}&quot;&gt;{{item.title}}&lt;/a&gt;&lt;/li&gt;<br />
-              {% endif %}<br />
-          {% endfor %}<br />
-          &lt;/ul&gt;<br />
-      &lt;/li&gt;<br />
-   {% endif %}<br />
- {% endfor %}<br />
-{% endfor %}<br />
-&lt;/ul&gt;<br />
+<p><ul id="mysidebar" class="nav">
+{% for entry in sidebar %}
+  {% for subcategory in entry.subcategories %}
+    {% if subcategory.audience contains buildAudience %}
+       <li><a href="#">{{ subcategory.title }}</a>
+          <ul>
+           {% for item in subcategory.items %}
+              {% if item.audience contains buildAudience %}
+                <li><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></li>
+              {% endif %}
+          {% endfor %}
+          </ul>
+      </li>
+   {% endif %}
+ {% endfor %}
+{% endfor %}
+</ul>
 {% endhighlight %}</p>
 <p>When we start the for loop, what <code>sidebar</code> refer and <code>buildAudience</code> refer to is based on the assignments defined. These assignments depend on properties in the particular configuration file that's being used. (This is how the theme is separated from the content.)</p>
 <p>The <code>for</code> loop looks in the sidebar list and loops first through the items, and then the subcategories, iterating through each item in the list. Each item is wrapped in a link format. Additionally, only the items containing the <code>buildAudience</code> attributes are included in the list. (This <code>buildAudience</code> element allows us to single source the data file, using the same data file for multiple audiences.)</p>
