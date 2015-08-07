@@ -1,10 +1,9 @@
 ---
-title: Publishing REST APIs Workshop Overview
+title: Publishing REST APIs Workshop
 permalink: /publishing-rest-apis-course-overview/
 categories:
 - api-doc
 keywords: 
-course: "Documenting REST APIs"
 ---
 
 <h2>Workshop description</h2>

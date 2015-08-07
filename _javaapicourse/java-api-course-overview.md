@@ -1,5 +1,5 @@
 ---
-title: Java API Workshop Overview
+title: Java API Workshop
 permalink: /java-api-course-overview/
 categories:
 - api-doc

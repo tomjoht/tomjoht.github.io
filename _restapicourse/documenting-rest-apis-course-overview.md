@@ -1,10 +1,9 @@
 ---
-title: Documenting REST APIs Workshop Overview
+title: Documenting REST APIs Workshop
 permalink: /documenting-rest-apis-course-overview/
 categories:
 - api-doc
 keywords: 
-course: "Documenting REST APIs"
 ---
 
 <h2>Workshop description</h2>
