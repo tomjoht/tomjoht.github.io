@@ -51,11 +51,13 @@ weight: 1.3
 Warning: Don't overtighten the bolts, as it may cause stripping.
 {% endhighlight %}</p>
 <p>Where I want to insert the note, I <em>include</em> the following:</p>
-{% raw %}
+
 <p>{% highlight html %}
-{% include bolt_note.md %}
-{% endhighlight %}</p>
+    {% raw %}
+    {% include bolt_note.md %}
 {% endraw %}
+    {% endhighlight %}</p>
+
 <p>Because Jekyll doesn't enforce information typing, I could insert this note anywhere I wanted, without worrying about whether it was valid or not.</p>
 <p>Includes don't allow you to pull different parts of the same file, though. For example, if I had one file that contained all my notes, I couldn't select a specific note from that file using includes. Includes pulls in the whole file.</p>
 <p>However, if you have a of small content to re-use like this, there's another way to re-use it. You can store the content inside a YML file that you put in a _data folder in your project. For example, I could create a file called notes.yml stored in the _data folder.</p>
@@ -64,11 +66,13 @@ Warning: Don't overtighten the bolts, as it may cause stripping.
 bolt_note: "Warning: Don't overtighten the bolts, as it may cause stripping."
 {% endhighlight %}</p>
 <p>To insert the content from the notes.yml file, you add this in your page:</p>
-     {% raw %}
+
 <p>{% highlight html %}
+    {% raw %}
 {{site.data.notes.bolt_note}}
+    {% endraw %}
 {% endhighlight %}</p>
-     {% endraw %}
+
 <p>If you read my last post (<a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">Variables and conditional processing</a>), you'll see a similar technique. Instead of using <code>site.audience</code>, which gets info from the configuration file, you use <code>site.data.notes</code> to get info from the notes.yml file inside the _data folder.</p>
 <p>(Through the <code>data_source</code> property in your configuration file, you can specify a different data folder source if you don't want to use the default _data folder. This way you can have different data sources for different configuration files.)</p>
 <p>Now suppose you want to add some formatting to the note style. If you have Bootstrap integrated, the official style might look like this:</p>
@@ -89,17 +93,20 @@ warning: "<div class="bs-callout bs-callout-warning"><b>Warning:</b>"
 end: "</div>"
 {% endhighlight %}</p>
 <p>Most of my notes aren't reused from data files, so here's a typical instance of a note with this formatting:</p>
-     {% raw %}
+
 <p>{% highlight xml %}
-{{site.data.alerts.warning}} Make sure that, when loosening your pedal, you turn your left wheel <i>clockwise</i> and the right wheel counterclockwise. {{site.data.alerts.end}}
+    {% raw %}
+    {{site.data.alerts.warning}} Make sure that, when loosening your pedal, you turn your left wheel <i>clockwise</i> and the right wheel counterclockwise. {{site.data.alerts.end}}
+    {% endraw %}
 {% endhighlight %}</p>
-     {% endraw %}
 <p>If I wanted to re-use the previous example of the bolt-tightening note inside of this same re-used warning formatting, I could do this:</p>
-     {% raw %}
+
 <p>{% highlight xml %}
+    {% raw %}
 {{site.data.alerts.warning}} {{site.data.notes.bolt_note}} {{site.data.alerts.end}}
+    {% endraw %}
 {% endhighlight %}</p>
-     {% endraw %}
+
 <p>That last example isn't so pretty, since it consists entirely of references to other content. There are probably more elegant ways to do it using a Ruby plugin, but once you start using plugins, you can no longer have Github Pages rebuild your content in the repository.</p>
 <p>At any rate, Jekyll provides multiple options for content re-use, which opens up some more possibilities.</p>
 

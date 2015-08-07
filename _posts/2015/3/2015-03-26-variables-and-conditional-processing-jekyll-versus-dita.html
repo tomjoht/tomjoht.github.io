@@ -16,30 +16,36 @@ weight: 1.2
 <p>In the <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/">previous post</a>, I compared writing in Markdown versus writing in XML. In this post in the series, I want to look at variables and conditional processing between the two platforms.</p>
 <h2>Variables in Jekyll</h2>
 <p>In Jekyll, you can assign a variable a specific value, like this:</p>
-{%raw%}
+
 <p>{% highlight html %}
+    {% raw %}
 {% assign dog_name = "Fred" %}
+    {% endraw %}
 {% endhighlight %}</p>
-{% endraw %}
+
 <p>Now you can use <code>{{dog_name}}</code> in your content and it will say <code>Fred</code> in the output:</p>
-{% raw %}
+
 {% highlight html %}
+{% raw %}
 I have a dog named {{dog_name}}.
+{% endraw %}
 {% endhighlight %}
-{% endrawraw %}
+
 <p>Although you could assign this variable directly on your page, it's more common to put the variable in your configuration file. Each Jekyll project has a configuration file where you define your project settings and other build details.</p>
 <p>The configuration file is written in YML syntax, so you just add a key-value pair somewhere in the file like this:</p>
-{% raw %}
+
 {% highlight html %}
 dog_name: Fred
 {% endhighlight %}
-{% endraw %}
+
 <p>In a single sourcing scenario, you would have a separate configuration file for each output. On your page, you access that variable in the configuration file with the <code>site</code> namespace, like this:</p>
-{% raw %}
+
 {% highlight html %}
+{% raw %}
 I have a wonderful dog named {{site.dog_name}}.
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
+
 <p>Now if I have 3 outputs, and I want my dog's name to change for each output, I create 3 separate configuration files. In each configuration file, I assign a different value to <code>dog_name</code>. When the site builds, it will use the name assigned in the configuration file.</p>
 <h2>Conditional processing in Jekyll</h2>
 <p>That's how you would do a simple variable, but what about conditional processing? Suppose you have some content on the page appropriate to a one audience, and other content appropriate to another audience. And the page is common to both outputs.</p>
@@ -48,8 +54,9 @@ I have a wonderful dog named {{site.dog_name}}.
 audience: Mac
 {% endhighlight %}</p>
 <p>Now use an if-else statement like this on the page:</p>
-{% raw %}
+
 {% highlight html %}
+{% raw %}
 {% if site.audience == "mac" %}
 Your MacBook Pro is going to make you so happy!
 {% elsif site.audience == "pc" %}
@@ -57,14 +64,16 @@ Thanks for supporting the dying PC industry.
 {% else %}
 Congratulations on the purchase of your new computer.
 {% endif %}
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
+
 <p>When you build with the configuration file where the audience value is <code>mac</code>, it will say, "Your MacBook Pro is going to make you so happy!" And when you build with the configuration file where the audience value is <code>pc</code>, it will say, "Thanks for supporting the dying PC industry." If the configuration file doesn't specific either <code>mac</code> or <code>pc</code>, it will just say, "Congratulations on the purchase of your new computer."</p>
 <p>You can get a lot more sophisticated with the logic, combining if-else statements with variable assignments, and much more. This is just a simple taste of what's possible.</p>
 <h2>For loops in Jekyll</h2>
 <p>Some of the Liquid logic takes you beyond what you can do with DITA. For example, suppose I wanted to show a list of all pages with a specific tag. I could use a <code>for</code> loop to do this directly on a Jekyll page:</p>
-{% raw %}
+
 {% highlight ruby %}
+{% raw %}
 <ul>
  {% for page in site.pages %}
    {% for tag in page.tags %}
@@ -74,22 +83,23 @@ Congratulations on the purchase of your new computer.
    {% endfor %}
  {% endfor %}
 </ul>
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
 <p>This code would look through all the pages in my Jekyll project and find all those pages that have <code>getting_started</code> as a tag in the frontmatter, which is just some metadata at the top of the page. Here's what that frontmatter looks like:</p>
-{% raw %}
+
 {% highlight html %}
+{% raw %}
 ---
 title: My Page
 permalink: /my_page_link/
 tags: getting_started
 ---
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
 <p>DITA doesn't have any equivalent to either tags or a <code>for</code> loop. Take a look at some of these <a href="https://docs.shopify.com/themes/liquid-documentation/tags">other tags available through Liquid</a> to get a sense of what's possible.</p>
 <h2>How you do variables and conditional processing in DITA</h2>
 <p>In DITA, you don't have variables. Instead you would use a <a href="http://idratherbewriting.com/toc_page_level_formatting/variables/">keyref</a>, which you define in the ditamap file like this:</p>
-{% raw %}{% highlight xml %}
+{% highlight xml %}
   <keydef keys="dog_name">
     <topicmeta>
       <keywords>
@@ -97,7 +107,7 @@ tags: getting_started
       </keywords>
     </topicmeta>
   </keydef>
-{% endhighlight %}{% endraw %}
+{% endhighlight %}
 <p>To access the dog_name, you would write something like this:</p>
 <p>{% highlight html %}
 I have a wonderful dog named <keyword keyref="dog_name"/>.
