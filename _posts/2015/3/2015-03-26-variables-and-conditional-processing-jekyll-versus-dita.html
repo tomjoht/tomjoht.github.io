@@ -16,107 +16,107 @@ weight: 1.2
 <p>In the <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/">previous post</a>, I compared writing in Markdown versus writing in XML. In this post in the series, I want to look at variables and conditional processing between the two platforms.</p>
 <h2>Variables in Jekyll</h2>
 <p>In Jekyll, you can assign a variable a specific value, like this:</p>
-<p><pre><br />
-{% assign dog_name = &quot;Fred&quot; %}<br />
-</pre></p>
+<p>{% highlight html %}
+{% assign dog_name = "Fred" %}
+{% endhighlight %}</p>
 <p>Now you can use <code>{{dog_name}}</code> in your content and it will say <code>Fred</code> in the output:</p>
-<p><pre><br />
-I have a dog named {{dog_name}}.<br />
-</pre></p>
+<p>{% highlight html %}
+I have a dog named {{dog_name}}.
+{% endhighlight %}</p>
 <p>Although you could assign this variable directly on your page, it's more common to put the variable in your configuration file. Each Jekyll project has a configuration file where you define your project settings and other build details.</p>
 <p>The configuration file is written in YML syntax, so you just add a key-value pair somewhere in the file like this:</p>
-<p><pre><br />
-dog_name: Fred<br />
-</pre></p>
+<p>{% highlight html %}
+dog_name: Fred
+{% endhighlight %}</p>
 <p>In a single sourcing scenario, you would have a separate configuration file for each output. On your page, you access that variable in the configuration file with the <code>site</code> namespace, like this:</p>
-<p><pre><br />
-I have a wonderful dog named {{site.dog_name}}.<br />
-</pre></p>
+<p>{% highlight html %}
+I have a wonderful dog named {{site.dog_name}}.
+{% endhighlight %}</p>
 <p>Now if I have 3 outputs, and I want my dog's name to change for each output, I create 3 separate configuration files. In each configuration file, I assign a different value to <code>dog_name</code>. When the site builds, it will use the name assigned in the configuration file.</p>
 <h2>Conditional processing in Jekyll</h2>
 <p>That's how you would do a simple variable, but what about conditional processing? Suppose you have some content on the page appropriate to a one audience, and other content appropriate to another audience. And the page is common to both outputs.</p>
 <p>First, in your configuration file, define the variable:</p>
-<p>{% highlight html %}<br />
-audience: Mac<br />
+<p>{% highlight html %}
+audience: Mac
 {% endhighlight %}</p>
 <p>Now use an if-else statement like this on the page:</p>
-<p>{% highlight html %}<br />
-{% if site.audience == &quot;mac&quot; %}<br />
-Your MacBook Pro is going to make you so happy!<br />
-{% elsif site.audience == &quot;pc&quot; %}<br />
-Thanks for supporting the dying PC industry.<br />
-{% else %}<br />
-Congratulations on the purchase of your new computer.<br />
-{% endif %}<br />
+<p>{% highlight html %}
+{% if site.audience == "mac" %}
+Your MacBook Pro is going to make you so happy!
+{% elsif site.audience == "pc" %}
+Thanks for supporting the dying PC industry.
+{% else %}
+Congratulations on the purchase of your new computer.
+{% endif %}
 {% endhighlight %}</p>
 <p>When you build with the configuration file where the audience value is <code>mac</code>, it will say, "Your MacBook Pro is going to make you so happy!" And when you build with the configuration file where the audience value is <code>pc</code>, it will say, "Thanks for supporting the dying PC industry." If the configuration file doesn't specific either <code>mac</code> or <code>pc</code>, it will just say, "Congratulations on the purchase of your new computer."</p>
 <p>You can get a lot more sophisticated with the logic, combining if-else statements with variable assignments, and much more. This is just a simple taste of what's possible.</p>
 <h2>For loops in Jekyll</h2>
 <p>Some of the Liquid logic takes you beyond what you can do with DITA. For example, suppose I wanted to show a list of all pages with a specific tag. I could use a <code>for</code> loop to do this directly on a Jekyll page:</p>
 {% raw %}
-<p>{% highlight ruby %}<br />
-&lt;ul&gt;<br />
- {% for page in site.pages %}<br />
-   {% for tag in page.tags %}<br />
-       {% if tag == &quot;getting_started&quot; %}<br />
-           &lt;li&gt;&lt;a href=&quot;{{ page.permalink | prepend: site.baseurl }}&quot;&gt;{{page.title}}&lt;/a&gt;&lt;/li&gt;<br />
-        {% endif %}<br />
-   {% endfor %}<br />
- {% endfor %}<br />
-&lt;/ul&gt;<br />
+<p>{% highlight ruby %}
+<ul>
+ {% for page in site.pages %}
+   {% for tag in page.tags %}
+       {% if tag == "getting_started" %}
+           <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
+        {% endif %}
+   {% endfor %}
+ {% endfor %}
+</ul>
 {% endhighlight %}</p>
 {% endraw %}
 <p>This code would look through all the pages in my Jekyll project and find all those pages that have <code>getting_started</code> as a tag in the frontmatter, which is just some metadata at the top of the page. Here's what that frontmatter looks like:</p>
-<p>{% highlight html %}<br />
----<br />
-title: My Page<br />
-permalink: /my_page_link/<br />
-tags: getting_started<br />
----<br />
+<p>{% highlight html %}
+---
+title: My Page
+permalink: /my_page_link/
+tags: getting_started
+---
 {% endhighlight %}</p>
 <p>DITA doesn't have any equivalent to either tags or a <code>for</code> loop. Take a look at some of these <a href="https://docs.shopify.com/themes/liquid-documentation/tags">other tags available through Liquid</a> to get a sense of what's possible.</p>
 <h2>How you do variables and conditional processing in DITA</h2>
 <p>In DITA, you don't have variables. Instead you would use a <a href="http://idratherbewriting.com/toc_page_level_formatting/variables/">keyref</a>, which you define in the ditamap file like this:</p>
-<p>{% highlight xml %}<br />
-  &lt;keydef keys=&quot;dog_name&quot;&gt;<br />
-    &lt;topicmeta&gt;<br />
-      &lt;keywords&gt;<br />
-        &lt;keyword&gt;Fred&lt;/keyword&gt;<br />
-      &lt;/keywords&gt;<br />
-    &lt;/topicmeta&gt;<br />
-  &lt;/keydef&gt;<br />
+<p>{% highlight xml %}
+  <keydef keys="dog_name">
+    <topicmeta>
+      <keywords>
+        <keyword>Fred</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
 {% endhighlight %}</p>
 <p>To access the dog_name, you would write something like this:</p>
-<p>{% highlight html %}<br />
-I have a wonderful dog named &lt;keyword keyref=&quot;dog_name&quot;/&gt;.<br />
+<p>{% highlight html %}
+I have a wonderful dog named <keyword keyref="dog_name"/>.
 {% endhighlight %}</p>
 <p>Suppose you have three different outputs. You could create different attributes on the <code>keyword</code> element, like this:</p>
-<p>{% highlight html %}<br />
-  &lt;keydef keys=&quot;dog_name&quot;&gt;<br />
-    &lt;topicmeta&gt;<br />
-      &lt;keywords&gt;<br />
-        &lt;keyword product=&quot;product_a&quot;&gt;Fred&lt;/keyword&gt;<br />
-        &lt;keyword product=&quot;product_b&quot;&gt;Jack&lt;/keyword&gt;<br />
-        &lt;keyword product=&quot;product_c&quot;&gt;Spot&lt;/keyword&gt;<br />
-      &lt;/keywords&gt;<br />
-    &lt;/topicmeta&gt;<br />
-  &lt;/keydef&gt;<br />
+<p>{% highlight html %}
+  <keydef keys="dog_name">
+    <topicmeta>
+      <keywords>
+        <keyword product="product_a">Fred</keyword>
+        <keyword product="product_b">Jack</keyword>
+        <keyword product="product_c">Spot</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
 {% endhighlight %}</p>
 <p>Now you store these attributes in with your build logic. For example, in OxygenXML, you add them in the Editor > Edit modes > Author > Profiling/Conditional Text area. For the <code>product</code> attribute, you would add <code>product_a</code>, <code>product_b</code>, and <code>product_c</code>.</p>
 <p>In OxygenXML, when you create a transformation scenario for an output (the equivalent of a configuration file in Jekyll), you associate a DITAVAL file that instructs the transformation to exclude elements with certain attributes.</p>
 <p>Here's a DITAVAL file that filters out elements containing product attributes for <code>product_b</code> and <code>product_c</code>:</p>
-<p>{% highlight xml %}<br />
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br />
-&lt;val&gt;<br />
-    &lt;prop action=&quot;exclude&quot; att=&quot;product&quot; val=&quot;product_b&quot;/&gt;<br />
-    &lt;prop action=&quot;exclude&quot; att=&quot;product&quot; val=&quot;product_c&quot;/&gt;<br />
-&lt;/val&gt;<br />
+<p>{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="exclude" att="product" val="product_b"/>
+    <prop action="exclude" att="product" val="product_c"/>
+</val>
 {% endhighlight %}</p>
 <p>Now to do the conditional processing in DITA, you add attributes to the elements:</p>
-<p>{% highlight xml %}<br />
-&lt;p audience=&quot;mac&quot;&gt;Your MacBook Pro is going to make you so happy!&lt;/p&gt;<br />
-&lt;p audience=&quot;pc&quot;&gt;Thanks for supporting the dying PC industry.&lt;/p&gt;<br />
-&lt;p&gt;Congratulations on the purchase of your new computer.&lt;/p&gt;<br />
+<p>{% highlight xml %}
+<p audience="mac">Your MacBook Pro is going to make you so happy!</p>
+<p audience="pc">Thanks for supporting the dying PC industry.</p>
+<p>Congratulations on the purchase of your new computer.</p>
 {% endhighlight %}</p>
 <p>See <a href="http://idratherbewriting.com/toc_content_reuse/conditional_profiling/">Conditional Profiling</a> for more details.</p>
 <h2>Conclusion</h2>
