@@ -31,10 +31,10 @@ The tools you choose depend partly on your requirements. If you have to account 
 <h2>Prerequisites</h2>
 The first course, <a href="{{ "/documenting-rest-apis-course-overview" | prepend: site.baseurl }}">Documenting REST APIs workshop</a>, is the recommended (but not require) prerequisite. 
 
-<h2>Required software</h2.
+<h2>Required software</h2>
 
 * **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC). On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
-* **Git**. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
+* **[Git](https://git-scm.com/)**. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
 
 Note that your computer needs to be able to connect to a wifi network.
