@@ -1,5 +1,5 @@
 ---
-title: "Podcast: The divide between academics and practitioners"
+title: "Podcast: The divide between academics and practitioners &mdash; Interview with Lisa Meloncon"
 categories:
 - beginners
 - podcasts
@@ -9,7 +9,6 @@ summary: "In this podcast, I talk with Lisa Meloncon, an associate professor at 
 
 Here's the audio for the podcast: 
 
-<a href="http://www.podtrac.com/pts/redirect.mp3/www.mysite.com/ep051215.mp3">...</a>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/lisameloncon.mp3" type="audio/mpeg" /></audio></p>
 
 You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/lisameloncon.mp3" alt="Lisa Meloncon on the practitioner academic divide">download the MP3 file here</a>.
@@ -19,6 +18,7 @@ You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstorie
 One common response I usually get with podcasts is that people want a transcript of the audio. Although I don't have time to make a verbatim transcript, I decided to write out a brief summary of notes and highlights (based on what jumped out at me during my own listening) in a more informal way this time. Here's the summary:
 
 *Tell me a little bit about yourself.* 
+
 Lisa Meloncon started out writing technical documentation for missile guidance systems for the U.S. Army. When she left the army, she stayed in tech comm and started her own company in 1994. As a consultant, she solved communication problems at many different types of organizations. Later, she returned to school for a PhD and, after completing her program, pursued an academic job. As a professor, she does research, teaching, and service. She loves teaching and brings her research into the classroom in energizing ways. 
 
 *Why did you decide to get into the academia and do research?*
