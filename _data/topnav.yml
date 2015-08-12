@@ -98,6 +98,10 @@ topnav_dropdowns:
         url: /java-introduction/
       - title: APIs
         url: /toc-apis/
+      - title: Github repo for Jekyll doc theme
+        external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
+      - title: Jekyll doc theme
+        external_url: http://idratherbetellingstories.com/documentation-theme-jekyll/designers/
 
     - title: Categories
       items:

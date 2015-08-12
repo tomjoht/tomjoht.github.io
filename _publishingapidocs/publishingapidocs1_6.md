@@ -15,7 +15,7 @@ However, with content in a standard specification, the tools can read and parse 
 
 * [Swagger](http://swagger.io/)
 * [RAML](http://raml.org/)
-* ([API Blueprint](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md) 
+* [API Blueprint](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md) 
 
 Swagger is open source and has a strong community. RAML is more tied to Mulesoft's tooling platform. But both follow generally the same principles. 
 

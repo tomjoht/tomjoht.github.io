@@ -125,15 +125,14 @@ I think this division of content represents the API documentation genre well and
 In Mulesoft's API platform, you can see many of these sections in their standard template for API documentation:
 
 <a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api?ref=apihub"><img src="{{ "/images/restapicourse/commonsections.png" | prepend: site.baseurl }}" alt="Common sections in API documentation" /></a>
-
-### Common sections in guide docs
  
  I won't get into too much detail about each of these sections. In my previous course, <a href="{{ "/restapicourse" | prepend: site.baseurl }}">Documenting REST APIs</a>, I explore the content development aspect of API documentation in depth. Here I'll just list the salient points. 
  
- In most API guide articles, you'll find the following recurring themes:
+ ### Guides
+ 
+ In most API guide articles, you'll find the following recurring themes in the guides section:
  
 * API Overview
-* Getting started
 * Authorization keys
 * Core concepts
 * Rate limits
