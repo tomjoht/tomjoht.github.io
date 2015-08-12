@@ -31,12 +31,6 @@ topnav_dropdowns:
       - title: Testing documentation
         url: /2015/07/07/testing-your-instructions/
 
-      - title: Documenting REST APIs
-        url: /restapicourse/
-
-      - title: Publishing API documentation
-        url: /publishingapidocs/
-
       - title: Voiceover techniques
         url: /2008/11/14/finding-a-conversational-voice-in-video-tutorials/
 
@@ -166,3 +160,9 @@ topnav_dropdowns:
           url: /publishing-rest-apis-course-overview
         - title: Java API Workshop
           url: /java-api-course-overview
+    - title: Courses
+      items:
+        - title: Documenting REST APIs
+          url: /restapicourse/
+        - title: Publishing API documentation
+          url: /publishingapidocs/
