@@ -29,7 +29,7 @@ Regardless of the tool you choose, there are some common design patterns with AP
 The tools you choose depend partly on your requirements. If you have to account for translation, content re-use, versioning, authentication, or PDF output, these requirements impact your tool decisions.
 
 <h2>Prerequisites</h2>
-The first course, <a href="{{ "/documenting-rest-apis-course-overview" | prepend: site.baseurl }}">Documenting REST APIs workshop</a>, is the recommended (but not require) prerequisite. 
+The first course, <a href="{{ "/documenting-rest-apis-course-overview" | prepend: site.baseurl }}">Documenting REST APIs workshop</a>, is the recommended (but not required) prerequisite.
 
 <h2>Required software</h2>
 
