@@ -87,21 +87,26 @@ topnav_dropdowns:
 
       - title: From overlooked to center stage
         url: /2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/
+#
+#    - title: Tech Notes
+#      items:
+#      - title: JavaScript
+#        url: /javascript/
+#      - title: DITA
+#        url: /ditaqrg/
+#      - title: Java
+#        url: /java-introduction/
+#      - title: APIs
+#        url: /toc-apis/
 
-    - title: Tech Notes
+    - title: Jekyll
       items:
-      - title: JavaScript
-        url: /javascript/
-      - title: DITA
-        url: /ditaqrg/
-      - title: Java
-        url: /java-introduction/
-      - title: APIs
-        url: /toc-apis/
-      - title: Github repo for Jekyll doc theme
+      - title: Doc theme repo
         external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
-      - title: Jekyll doc theme
+      - title: Jekyll doc theme &mdash; designers
         external_url: http://idratherbetellingstories.com/documentation-theme-jekyll/designers/
+      - title: Jekyll doc theme &mdash; writers
+        external_url: http://idratherbetellingstories.com/documentation-theme-jekyll/writers/
 
     - title: Categories
       items:
