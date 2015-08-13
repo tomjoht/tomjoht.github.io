@@ -1,4 +1,4 @@
- ---
+---
 title: Version 3.0 of my Documentation theme for Jekyll released
 keywords: jekyll theme, documentation theme, technical writers, single sourcing theme
 categories:
