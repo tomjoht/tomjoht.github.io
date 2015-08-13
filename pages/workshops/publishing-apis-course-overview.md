@@ -13,15 +13,18 @@ In the <a href="{{ "/documenting-rest-apis-course-overview" | prepend: site.base
 * Github wikis and Markdown
 * Swagger
 * API Blueprint
+* RAML
 * Jekyll and static site generators
 * Miredot
 * Readme.io
 * Help authoring tools such as Flare
 
+With almost every one of these tools, you'll deploy a sample file to publish content.
+
 Regardless of the tool you choose, there are some common design patterns with API doc, such as the following: 
 
 * Structure and templates
-* Website platform
+* Website platforms
 * Abundant code examples
 * Single-click navigation
 * Interactive API explorers
