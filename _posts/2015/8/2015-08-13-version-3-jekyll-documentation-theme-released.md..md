@@ -23,6 +23,11 @@ The Designers output has detailed instructions for working with the theme.
 
 The Writers output is a slightly scaled back version of the same content, with another theme applied.
 
+<a href="http://idratherbetellingstories.com/documentation-theme-jekyll/doc_writers/"><img src="{{ "/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" /></a>
+
+jekyllthemewriters
+
+
 ## Prominent theme features
 
 Some of the more prominent features of the theme include the following:
