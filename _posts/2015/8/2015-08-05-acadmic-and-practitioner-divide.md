@@ -6,6 +6,10 @@ keywords:
 summary: "Although the work of practitioners and academics should inform each other in mutually beneficial ways, these groups tend to be somewhat isolated and separate. Some reasons for the divide include lack of focus on tools, paywalls set up with publications, and the topics in journal articles."
 ---
 
+{% include notes.html %}
+
+{{tip}} Check out the podcast I recorded on this same topic here: <a href="http://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/">Podcast: The divide between academics and practitioners — Interview with Lisa Meloncon</a>. {{end}}
+
 ## The divide between practitioners and academics
 TechCommGeekMom recently attended IEEE ProComm in Ireland and [wrote an interesting post](http://techcommgeekmom.com/2015/07/20/oh-the-academian-and-the-practitioner-should-be-friends-engaging-techcomm-professionals/) highlighting the divide that exists between practitioners and academics.
 
