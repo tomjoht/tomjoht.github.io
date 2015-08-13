@@ -19,11 +19,11 @@ To see an example of the single sourced outputs, see the following:
 
 The Designers output has detailed instructions for working with the theme.
 
-<a href="http://idratherbetellingstories.com/documentation-theme-jekyll/doc_designers/"><img src="{{ "/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" /></a>
+<a href="http://idratherbetellingstories.com/documentation-theme-jekyll/doc_designers/"><img src="{{ "/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" /></a>
 
 The Writers output is a slightly scaled back version of the same content, with another theme applied.
 
-<a href="http://idratherbetellingstories.com/documentation-theme-jekyll/doc_writers/"><img src="{{ "/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" /></a>
+<a href="http://idratherbetellingstories.com/documentation-theme-jekyll/doc_writers/"><img src="{{ "/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" /></a>
 
 ## Prominent theme features
 
