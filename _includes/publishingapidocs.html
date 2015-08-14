@@ -8,7 +8,7 @@
             <li class="active"> → {{p.title}}</li>
             {% else %}
             <li>
-                <a href="{{p.url | prepend: site.baseurl}}">{{p.title}}</a>
+                <a href="{{p.url | prepend: site.baseurl}}">{{p.weight}} {{p.title}}</a>
             </li>
             {% endif %}
             {% endfor %}

@@ -17,6 +17,7 @@ highlighter: pygments
 gems:
   - jekyll-sitemap
   - jekyll-mentions
+  - jekyll-redirect-from
 
 #url: "http://tomjohnson1492.github.io"
 url: http://idratherbewriting.com

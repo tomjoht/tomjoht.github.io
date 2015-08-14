@@ -1,0 +1,10 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Introduction
+      items:
+        - title: DITA QRG introduction
+          url: /ditaqrg/
+        - title: Hello World tutorial
+          url: /hello_world/

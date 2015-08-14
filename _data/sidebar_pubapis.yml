@@ -1,0 +1,48 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Introduction
+      items:
+        - title: Overview
+          url: /publishingapidocs/
+        - title: Breaking down API doc
+          url: /pubapis_api_doc_types/
+        - title: Tool decisions
+          url: /pubapis_tooldecisions/
+        - title: Miredot
+          url: /pubapis_miredot/
+        - title: Github wikis and Markdown
+          url: /pubapis_github_wikis/
+        - title: Custom scripts
+          url: /pubapis_custom_scripts/
+        - title: Swagger
+          url: /pubapis_swagger/
+        - title: API Blueprint
+          url: /pubapis_api_blueprint/
+        - title: Static site generators
+          url: /pubapis_static_site_generators/
+        - title: Custom UX solutions
+          url: /pubapis_custom_ux/
+        - title: Readme.io
+          url: /pubapis_readmeio/
+        - title: Help authoring tools
+          url: /pubapis_hats/
+      title: Design patterns
+      items:
+        - title: Design patterns
+          url: /pubapis_design_patterns/
+        - title: Structure and templates
+          url: /pubapis_structure_and_templates/
+        - title: Web platforms
+          url: /pubapis_web_platforms/
+        - title: Abundant code samples
+          url: /pubapis_code_samples/
+        - title: Long-ish pages
+          url: /pubapis_longish_pages/
+        - title: API interactivity
+          url: /pubapis_api_interactivity/
+        - title: Challenging factors
+          url: /pubapis_challenging_factors/
+        - title: Tools versus content
+          url: /pubapis_tools_vs_content/

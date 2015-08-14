@@ -1,3 +1,4 @@
+{% if page.type %}
 <script>
     $(document).ready(function() {
                 // Initialize navgoco with default options
@@ -30,15 +31,30 @@
     });
 </script>
 
-{% if page.type == "notes_java" %}
+{% if page.type == "notes_docapis" %}
+{% assign sidebarTitle = "Documenting REST APIs" %}
+{% assign sidebar = site.data.sidebar_docapis.entries %}
+
+{% elsif page.type == "notes_pubapis" %}
+{% assign sidebarTitle = "Publishing API documentation" %}
+{% assign sidebar = site.data.sidebar_pubapis.entries %}
+
+{% elsif page.type == "notes_platformapis" %}
+{% assign sidebarTitle = "Platform API documentation" %}
+{% assign sidebar = site.data.sidebar_platformapis.entries %}
+
+{% elsif page.type == "notes_java" %}
 {% assign sidebarTitle = "My Java notes" %}
 {% assign sidebar = site.data.sidebar_java.entries %}
+
 {% elsif page.type == "notes_javascript" %}
-{% assign sidebarTitle = "My JavaScript notes" %}
+{% assign sidebarTitle = "JavaScript notes" %}
 {% assign sidebar = site.data.sidebar_javascript.entries %}
+
 {% elsif page.type == "notes_dita" %}
 {% assign sidebarTitle = "My DITA notes" %}
 {% assign sidebar = site.data.sidebar_dita.entries %}
+
 {% elsif page.type == "notes_apis" %}
 {% assign sidebarTitle = "My API notes" %}
 {% assign sidebar = site.data.sidebar_apis.entries %}
@@ -72,5 +88,6 @@
 {% endif %}
 
 {% comment %}  this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above.{% endcomment %}
+{% endif %}
 
-<script>$("li.active").parents('li').toggleClass("active");</script>
+

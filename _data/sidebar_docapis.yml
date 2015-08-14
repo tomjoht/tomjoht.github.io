@@ -1,0 +1,65 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Introduction
+      items:
+        - title: Course overview
+          url: /restapicourse/
+    - title: Using a REST API as a developer
+      items:
+        - title: Intro to REST API documentation
+          url: doc_apis_intro_to_rest_api_doc
+        - title: Using a REST API
+          url: /docapis_using_an_api/
+        - title: Getting the authorization keys
+          url: /docapis_get_auth_keys/
+        - title: Making a cURL call
+          url: /docapis_make_curl_call/
+        - title: Understand cURL more
+          url: docapis_understand_curl
+        - title: Submit calls through Postman
+          url: docapis_postman
+        - title: Analyze the JSON response
+          url: /docapis_analyze_json/
+        - title: Log JSON to the console
+          url: /docapis_json_console/
+        - title: Access the JSON values
+          url: /docapis_access_json_values/
+    - title: Documenting a new API endpoint
+      items:
+        - title: New API endpoint to document
+          url: /docapis_new_endpoint_to_doc/
+        - title: Documenting the resource description
+          url: /docapis_resource_descriptions/
+        - title: Documenting the endpoint definition and method
+          url: /docapis_doc_endpoint_definitions/
+        - title: Documenting parameters
+          url: /docapis_doc_parameters/
+        - title: Documenting sample requests
+          url: /docapis_doc_sample_requests/
+        - title: Documenting sample responses
+          url: /docapis_doc_sample_responses/
+        - title: Documenting response and error codes
+          url: /docapis_doc_response_codes/
+        - title: Documenting code samples
+          url: /docapis_doc_code_samples/
+        - title: Putting it all together
+          url: /docapis_finished_doc_result/
+        - title: Creating the user guide
+          url: /docapis_create_user_guide/
+        - title: Course completion
+          url: /docapis_completion/
+
+    - title: Additional activities
+      items:
+        - title: Introduction
+          url: /toc-apis/
+        - title: EventBrite example
+          url: /eventbrite-example/
+        - title: Klout score example
+          url: /klout-example-score/
+        - title: Klout influencees example
+          url: /klout-example-influencees/
+        - title: Flickr example
+          url: /flickr-example/
