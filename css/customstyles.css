@@ -683,6 +683,12 @@ h3.sidebar {
     font-weight: normal;
 }
 
+h3.notesTitle {
+    color: #777;
+    font-weight: normal;
+    padding-top:25px;
+}
+
 .siteLogo img {
     padding:0px 30px 20px 30px;
     max-width: 100%;

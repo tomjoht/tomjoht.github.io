@@ -1,6 +1,6 @@
 ---
 title: Intro to REST API documentation
-permalink: /intro_to_rest_api_doc/
+permalink: /docapis_intro_to_rest_api_doc/
 categories:
 - api-doc
 keywords: 

@@ -4,7 +4,7 @@ entries:
   subcategories:
     - title: Introduction
       items:
-        - title: Overview
+        - title: Course overview
           url: /publishingapidocs/
         - title: Breaking down API doc
           url: /pubapis_api_doc_types/
@@ -12,7 +12,7 @@ entries:
           url: /pubapis_tooldecisions/
         - title: Miredot
           url: /pubapis_miredot/
-        - title: Github wikis and Markdown
+        - title: Github wikis
           url: /pubapis_github_wikis/
         - title: Custom scripts
           url: /pubapis_custom_scripts/
@@ -28,7 +28,7 @@ entries:
           url: /pubapis_readmeio/
         - title: Help authoring tools
           url: /pubapis_hats/
-      title: Design patterns
+    - title: Design patterns
       items:
         - title: Design patterns
           url: /pubapis_design_patterns/

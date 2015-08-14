@@ -1,5 +1,5 @@
 ---
-title: "Github wikis and Markdown"
+title: "Github wikis"
 permalink: /pubapis_github_wikis/
 course: "Publishing API documentation"
 weight: 1.4

@@ -1,6 +1,6 @@
 ---
 title: Documenting sample responses
-permalink: /docapis_doc_sample_response/
+permalink: /docapis_doc_sample_responses/
 categories:
 - api-doc
 keywords: 

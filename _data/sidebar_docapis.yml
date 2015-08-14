@@ -6,8 +6,6 @@ entries:
       items:
         - title: Course overview
           url: /restapicourse/
-    - title: Using a REST API as a developer
-      items:
         - title: Intro to REST API documentation
           url: doc_apis_intro_to_rest_api_doc
         - title: Using a REST API
@@ -17,9 +15,9 @@ entries:
         - title: Making a cURL call
           url: /docapis_make_curl_call/
         - title: Understand cURL more
-          url: docapis_understand_curl
+          url: /docapis_understand_curl/
         - title: Submit calls through Postman
-          url: docapis_postman
+          url: /docapis_postman/
         - title: Analyze the JSON response
           url: /docapis_analyze_json/
         - title: Log JSON to the console
