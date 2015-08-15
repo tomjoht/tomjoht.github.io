@@ -7,10 +7,10 @@ entries:
         - title: Course overview
           url: /restapicourse/
         - title: Intro to REST API documentation
-          url: doc_apis_intro_to_rest_api_doc
+          url: /doc_apis_intro_to_rest_api_doc/
         - title: Using a REST API
           url: /docapis_using_an_api/
-        - title: Getting the authorization keys
+        - title: Getting authorization keys
           url: /docapis_get_auth_keys/
         - title: Making a cURL call
           url: /docapis_make_curl_call/
@@ -28,9 +28,9 @@ entries:
       items:
         - title: New API endpoint to document
           url: /docapis_new_endpoint_to_doc/
-        - title: Documenting the resource description
+        - title: Documenting resource descriptions
           url: /docapis_resource_descriptions/
-        - title: Documenting the endpoint definition and method
+        - title: Documenting endpoint definitions and methods
           url: /docapis_doc_endpoint_definitions/
         - title: Documenting parameters
           url: /docapis_doc_parameters/
@@ -51,8 +51,6 @@ entries:
 
     - title: Additional activities
       items:
-        - title: Introduction
-          url: /toc-apis/
         - title: EventBrite example
           url: /eventbrite-example/
         - title: Klout score example

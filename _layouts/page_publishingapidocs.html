@@ -11,11 +11,11 @@ layout: default
         {% if page.summary %}
         {% comment %} <div class="summary"></div> {% endcomment %}{{page.summary}}
         {% endif %}
+{% comment %} {% include publishingapidocs.html %} {% endcomment %}
 
-        {% include publishingapidocs.html %}
         {{content}}
 
-        {% include publishingapidocs_next.html %}
+        {% comment %} {% include publishingapidocs_next.html %}{% endcomment %}
 
         {% if page.type == "homepage" %}{% include single_post_ads.html %}{% endif %}
         {% include disqus.html %}
