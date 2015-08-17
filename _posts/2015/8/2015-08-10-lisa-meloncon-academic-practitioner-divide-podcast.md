@@ -4,7 +4,7 @@ categories:
 - beginners
 - podcasts
 keywords: lisa meloncon, podcasts, academics, academic programs, research, paywalls, publications
-summary: "In this podcast, I talk with Lisa Meloncon, an associate professor at the University of Cincinatti, about the academic-practitioner divide."
+summary: "In this podcast, I talk with Lisa Meloncon, an associate professor at the University of Cincinnatti, about the academic-practitioner divide."
 ---
 
 Here's the audio for the podcast: 
@@ -107,7 +107,7 @@ Practitioners should also respect academics more, recognizing that the job acade
 * [Lisa Meloncon's website and blog](http://tek-ritr.com/)
 * [Intersections at the Ivory Tower](http://tek-ritr.com/intersections-at-the-ivory-tower/)
 * [Why is there a divide between academics and practitioners in tech comm?](http://idratherbewriting.com/2015/08/05/acadmic-and-practitioner-divide/)
-* [Lisa's U. of Cincinatti About page](http://www.artsci.uc.edu/departments/english/profiles/lisa_meloncon.html)
+* [Lisa's U. of Cincinnatti About page](http://www.artsci.uc.edu/departments/english/profiles/lisa_meloncon.html)
 
 
 
