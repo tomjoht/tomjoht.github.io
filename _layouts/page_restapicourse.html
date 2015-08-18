@@ -8,13 +8,13 @@ layout: default
 
     <div class="post-content">
         {% if page.summary %}
-        {% comment %} <div class="summary"></div> {% endcomment %}{{page.summary}}
+        <div class="summary"></div> {{page.summary}}
         {% endif %}
-        {% include restapicourse.html %}
+        {% comment %} {% include restapicourse.html %}{% endcomment %}
 
         {{content}}
 
-        {% include restapicourse_next.html %}
+        {% comment %}{% include restapicourse_next.html %}{% endcomment %}
 
         {% if page.type == "homepage" %}{% include single_post_ads.html %}{% endif %}
         {% include disqus.html %}

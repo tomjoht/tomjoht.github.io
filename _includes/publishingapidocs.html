@@ -1,17 +1,17 @@
-<div class="seriesContext">
-    <div class="btn-group">
-        <button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.course}}<span class="caret"></span></button>
-        <ol class="dropdown-menu">
+<!--<div class="seriesContext">-->
+    <!--<div class="btn-group">-->
+        <!--<button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">{{page.course}}<span class="caret"></span></button>-->
+        <!--<ol class="dropdown-menu">-->
 
-            {% for p in site.publishingapidocs | sort: weight %}
-            {% if p.url == page.url %}
-            <li class="active"> → {{p.title}}</li>
-            {% else %}
-            <li>
-                <a href="{{p.url | prepend: site.baseurl}}">{{p.weight}} {{p.title}}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ol>
-    </div>
-</div>
+            <!--{% for p in site.publishingapidocs | sort: weight %}-->
+            <!--{% if p.url == page.url %}-->
+            <!--<li class="active"> → {{p.title}}</li>-->
+            <!--{% else %}-->
+            <!--<li>-->
+                <!--<a href="{{p.url | prepend: site.baseurl}}">{{p.weight}} {{p.title}}</a>-->
+            <!--</li>-->
+            <!--{% endif %}-->
+            <!--{% endfor %}-->
+        <!--</ol>-->
+    <!--</div>-->
+<!--</div>-->
