@@ -40,9 +40,7 @@ Some popular GUI clients include the following:
 	</ul>
 
 5. Click **Send**.
-	The response appears. In this case, the response is text only. 
-	
-	<img src="{{ "/images/restapicourse/postmanresponse.png" | prepend: site.baseurl }}" alt="Postman response" />
+	The response appears. In this case, the response is text only.
 	
 	Usually the responses are more detailed JSON. Notice that the header set the `Accept` type as `text/plain`. 
 	

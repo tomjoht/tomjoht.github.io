@@ -98,9 +98,12 @@ topnav_dropdowns:
       - title: Github theme repo
         external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
       - title: Jekyll doc theme &mdash; designers
-        external_url: http://idratherbetellingstories.com/documentation-theme-jekyll/doc_designers/
-      - title: Jekyll doc theme &mdash; writers
-        external_url: http://idratherbetellingstories.com/documentation-theme-jekyll/doc_writers/
+        external_url: http://idratherbewriting.com/documentation-theme-jekyll/
+      - title: Jekyll Talk
+        external_url: https://talk.jekyllrb.com
+      - title: Jekyll on Stack Overflow
+        external_url: http://stackoverflow.com/questions/tagged/jekyll
+
 
     - title: Categories
       items:
