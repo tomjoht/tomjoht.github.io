@@ -2,12 +2,12 @@
 entries:
 - title: Sidebar
   subcategories:
-    - title: Introduction
+    - title: Using a REST API as a developer
       items:
         - title: Course overview
           url: /restapicourse/
         - title: Intro to REST API documentation
-          url: /doc_apis_intro_to_rest_api_doc/
+          url: /docapis_intro_to_rest_api_doc/
         - title: Using a REST API
           url: /docapis_using_an_api/
         - title: Getting authorization keys
@@ -42,6 +42,8 @@ entries:
           url: /docapis_doc_response_codes/
         - title: Documenting code samples
           url: /docapis_doc_code_samples/
+        - title: Code sample best practices
+          url: /docapis_codesamples_bestpractices/
         - title: Putting it all together
           url: /docapis_finished_doc_result/
         - title: Creating the user guide
