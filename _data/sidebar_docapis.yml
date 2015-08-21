@@ -51,13 +51,13 @@ entries:
         - title: Course completion
           url: /docapis_completion/
 
-    - title: Additional activities
+    - title: Additional REST API activities
       items:
         - title: EventBrite example
-          url: /eventbrite-example/
+          url: /docapis_eventbrite-example/
         - title: Klout score example
-          url: /klout-example-score/
+          url: /docapis_klout-example-score/
         - title: Klout influencees example
-          url: /klout-example-influencees/
+          url: /docapis_klout-example-influencees/
         - title: Flickr example
-          url: /flickr-example/
+          url: /docapis_flickr-example/

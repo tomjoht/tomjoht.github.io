@@ -1,0 +1,142 @@
+---
+title: 'EventBrite example: Get Event information and display it on a page'
+permalink: /docapis_eventbrite-example/
+categories:
+- api-doc
+tags: []
+status: publish
+type: notes_apis
+published: true
+date: January 16, 2015
+---
+<p>As a simple example of how to use a REST API, I'll walk through how to use the EventBrite API to get event information. EventBrite is an event management tool, and you can interact with it through an API to pull out the event information you want.</p>
+<p>The EventBrite API documentation is here: <a href="https://developer.eventbrite.com/">https://developer.eventbrite.com/</a>. Looking through the endpoints available, to get event information, we'll use the <a href="https://developer.eventbrite.com/docs/event-details/">event details</a> endpoint.</p>
+<p><a href="https://developer.eventbrite.com/docs/event-details/"><img src="/images/eventbrite_event_details-550x468.png" alt="EventBrite Event Details" width="550" height="468" class="alignnone size-medium wp-image-22497" /></a></p>
+<p>You can do various actions with an event, such as create, edit, publish, or unpublish the event. I just want to retrieve event details, so I use this endpoint:</p>
+<p>{% highlight html %}
+/v3/events/{Event ID}/
+{% endhighlight %}</p>
+<p>The example response shows the necessary structure to make the call. You have to add your API token as an argument at the end.</p>
+<p>{% highlight html %}
+https://www.eventbriteapi.com/v3/events/14635401881/?token={your api key}
+  {% endhighlight %}
+{% highlight html %}</p>
+<p><p>The event ID corresponds to an <a href="API workshop event led by Sarah Maddox">https://www.eventbrite.com/e/api-workshop-with-sarah-maddox-tickets-14635401881</a>.</p></p>
+<p>The response from the endpoint is as follows:</p>
+<p>[code lang="json"]
+{
+  "resource_uri": "https:\/\/www.eventbriteapi.com\/v3\/events\/14635401881\/",
+  "name": {
+    "text": "API Workshop with Sarah Maddox",
+    "html": "API Workshop with Sarah Maddox"
+  },
+  "description": {
+    "text": "This is a practical course on API technical writing, consisting of lectures interspersed with hands\u00adon sessions where participants will apply what they have learned. The focus will be on APIs themselves as well as on documentation, since technical writers need to be able to understand and use a product before they can document it. \nThe course will include the following sessions:  \n\nLecture: Introduction to APIs, including a demo of some REST and JavaScript APIs.\nHands\u00adon: Play with a REST API and a JavaScript API.\nLecture: JavaScript essentials.\nHands\u00adon: Use JavaScript to exercise the sample JavaScript API in a more in\u00addepth manner.\nLecture: The components of API documentation.\nHands\u00adon: Generate reference documentation using Javadoc.\nLecture: Beyond Javadoc \u00ad other doc generation tools.\n\nLunch will be provided.\u00a0\nFor more details, see\u00a0http:\/\/www.stc-siliconvalley.org\/2014\/11\/21\/api-workshop-sarah-maddox\/. ",
+    "html": "<p>This is a practical course on API technical writing, consisting of lectures interspersed with hands\u00adon sessions where participants will apply what they have learned. The focus will be on APIs themselves as well as on documentation, since technical writers need to be able to understand and use a product before they can document it.<\/P>\r\n<p><SPAN STYLE=\"line-height: 1.6em;\">The course will include the following sessions: <\/SPAN><\/P>\r\n<UL>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Lecture: Introduction to APIs, including a demo of some REST and JavaScript APIs.<\/SPAN><\/LI>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Hands\u00adon: Play with a REST API and a JavaScript API.<\/SPAN><\/LI>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Lecture: JavaScript essentials.<\/SPAN><\/LI>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Hands\u00adon: Use JavaScript to exercise the sample JavaScript API in a more in\u00addepth manner.<\/SPAN><\/LI>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Lecture: The components of API documentation.<\/SPAN><\/LI>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Hands\u00adon: Generate reference documentation using Javadoc.<\/SPAN><\/LI>\r\n<LI><SPAN STYLE=\"line-height: 1.6em;\">Lecture: Beyond Javadoc \u00ad other doc generation tools.<\/SPAN><\/LI>\r\n<\/UL>\r\n<DIV><SPAN STYLE=\"line-height: 16px;\"><SPAN STYLE=\"line-height: 16px;\">Lunch will be provided.\u00a0<\/SPAN><\/SPAN><\/DIV>\r\n<p><SPAN STYLE=\"line-height: 16px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;\">For more details, see\u00a0<A HREF=\"http:\/\/www.stc-siliconvalley.org\/2014\/11\/21\/api-workshop-sarah-maddox\/\" REL=\"nofollow\">http:\/\/www.stc-siliconvalley.org\/2014\/11\/21\/api-workshop-sarah-maddox\/<\/A>.<\/SPAN><\/P>"
+  },
+  "logo": null,
+  "id": "14635401881",
+  "url": "http:\/\/www.eventbrite.com\/e\/api-workshop-with-sarah-maddox-tickets-14635401881",
+  "logo_url": null,
+  "start": {
+    "timezone": "America\/Los_Angeles",
+    "local": "2015-01-23T09:00:00",
+    "utc": "2015-01-23T17:00:00Z"
+  },
+  "end": {
+    "timezone": "America\/Los_Angeles",
+    "local": "2015-01-23T16:00:00",
+    "utc": "2015-01-24T00:00:00Z"
+  },
+  "created": "2014-11-26T17:56:42Z",
+  "changed": "2015-01-09T18:11:23Z",
+  "capacity": 110,
+  "status": "live",
+  "currency": "USD",
+  "listed": false,
+  "shareable": true,
+  "invite_only": false,
+  "online_event": false,
+  "show_remaining": true,
+  "organizer_id": "7774592843",
+  "venue_id": "9213887",
+  "category_id": null,
+  "subcategory_id": null,
+  "format_id": null,
+  "category": null,
+  "subcategory": null,
+  "format": null,
+  "organizer": {
+    "description": null,
+    "logo": null,
+    "resource_uri": "https:\/\/www.eventbriteapi.com\/v3\/organizers\/7774592843\/",
+    "id": "7774592843",
+    "name": "STC Silicon Valley chapter",
+    "url": "http:\/\/www.eventbrite.com\/o\/stc-silicon-valley-chapter-7774592843",
+    "num_past_events": 0,
+    "num_future_events": 0
+  },
+  "venue": {
+    "address": {
+      "address_1": "Google campus, Room \u201cAraujo Tech Talk\u201d, level 1, 1295 Charleston Rd, Mountain View, CA  94043 (Google Maps: https:\/\/goo.gl\/maps\/yW1hu)",
+      "address_2": null,
+      "city": null,
+      "region": null,
+      "postal_code": null,
+      "country": null,
+      "latitude": "0.000000",
+      "longitude": "0.000000"
+    },
+    "resource_uri": "https:\/\/www.eventbriteapi.com\/v3\/venues\/9213887\/",
+    "id": "9213887",
+    "name": null,
+    "latitude": "0.000000",
+    "longitude": "0.000000"
+  },
+  "ticket_classes": [
+    {
+      "resource_uri": "https:\/\/www.eventbriteapi.com\/v3\/events\/14635401881\/ticket_classes\/31508979\/",
+      "id": "31508979",
+      "name": "Workhop admission",
+      "description": null,
+      "donation": false,
+      "free": true,
+      "minimum_quantity": 1,
+      "maximum_quantity": null,
+      "quantity_total": 110,
+      "quantity_sold": 100,
+      "sales_end": "2015-01-23T04:00:00Z",
+      "hidden": false,
+      "include_fee": false,
+      "split_fee": false,
+      "hide_description": true,
+      "auto_hide": false,
+      "event_id": "14635401881"
+    }
+  ]
+}
+{% endhighlight %}</p>
+<p>The information has a lot more than I need. I just want to display the event's title and description on my site. To do this, I use some simple jQuery code to pull out the information I want and append it to a tag on my web page:</p>
+<p>{% highlight javascript %}
+<html>
+<body></p>
+<p><script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script></p>
+<p><script></p>
+<p> var url = "https://www.eventbriteapi.com/v3/events/14635401881/?token={your api key}";
+    $.getJSON( url, function( data ) {
+     console.log(data);
+     var content = "<h2>" + data.name.text + "</h2>" + data.description.html;
+     $("#eventbrite").append(content);
+    });
+  </script></p>
+<p><div id="eventbrite"></div></p>
+<p></body>
+</html>
+{% endhighlight %}</p>
+<p>Here's the result:</p>
+<p><a href="http://idratherbetellingstories.com/wp-content/apidemos/eventbrite.html"><img src="/images/eventbriteendresult-550x472.png" alt="Eventbrite end result" width="550" height="472" class="alignnone size-medium wp-image-22498" /></a></p>
+<p>You can view it on the <a href="http://idratherbetellingstories.com/wp-content/apidemos/eventbrite.html">demo page</a>.</p>
+<h2>Code explanation</h2>
+<p>The result is as plain-jane as it can be in terms of style. But with API documentation code examples, you want to keep code examples simple. In fact, you most likely don't need a demo at all. Simply showing the payload returned in the browser is sufficient for a UI developer. However, for testing it's fun to make content actually appear on the page.</p>
+<p>The <code>getJSON</code> method from jQuery gets a payload for an endpoint URL, and then assigns it to the <code>data</code> argument. I log <code>data</code> to the console to more easily inspect its payload. To pull out the various properties of the object, I use dot notation. <code>data.name.text</code> gets the text property from the name object that is embedded inside the data object.</p>
+<p>I then rename the content I want with a variable (<code>var content</code>) and use jQuery's <code>append</code> method to assign it to a specific tag (<code>eventbrite</code>) on the page.</p>

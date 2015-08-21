@@ -1,6 +1,6 @@
 ---
 title: 'Flickr example: Retrieve a Flickr gallery and display it on a web page'
-permalink: /flickr-example/
+permalink: /docapis_flickr-example/
 categories:
 - api-doc
 tags: []
@@ -80,39 +80,39 @@ https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|pn
 <p>You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.</p>
 <h2>Displaying the photos using jQuery</h2>
 <p>The following code uses jQuery to loop through each of the responses and inserts the necessary components into an image tag to display each photo. Usually in documentation you don't need to be so explicit about how to use a common language like jQuery. You assume that the developer is capable in a specific language (just not with your API).</p>
-<p>{% highlight html %}<br />
-&lt;html&gt;<br />
-&lt;style&gt;<br />
-img {max-height:125px; margin:3px; border:1px solid #dedede;}<br />
-&lt;/style&gt;<br />
-&lt;body&gt;</p>
-<p>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</p>
-<p>&lt;script&gt;<br />
-// get gallery payload<br />
-     var url = &quot;https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&amp;api_key={your api key}&amp;gallery_id=66911286-72157647277042064&amp;format=json&amp;nojsoncallback=1&quot;;<br />
-    $.getJSON( url, function( data ) {<br />
-// payload gets assigned to data argument, which is logged to console for inspection<br />
+<p>{% highlight html %}
+<html>
+<style>
+img {max-height:125px; margin:3px; border:1px solid #dedede;}
+</style>
+<body></p>
+<p><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script></p>
+<p><script>
+// get gallery payload
+     var url = "https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&amp;api_key={your api key}&amp;gallery_id=66911286-72157647277042064&amp;format=json&amp;nojsoncallback=1";
+    $.getJSON( url, function( data ) {
+// payload gets assigned to data argument, which is logged to console for inspection
     	console.log(data);</p>
-<p>// get title of gallery and append it to a tag on the page<br />
-$(&quot;#galleryTitle&quot;).append(data.photos.photo[0].title + &quot; Gallery&quot;);</p>
-<p>// loop through payload using jQuery each and insert necessary elements into image src url<br />
+<p>// get title of gallery and append it to a tag on the page
+$("#galleryTitle").append(data.photos.photo[0].title + " Gallery");</p>
+<p>// loop through payload using jQuery each and insert necessary elements into image src url
 $.each( data.photos.photo, function( i, gp ) {</p>
-<p>var farmId = gp.farm;<br />
-var serverId = gp.server;<br />
-var id = gp.id;<br />
+<p>var farmId = gp.farm;
+var serverId = gp.server;
+var id = gp.id;
 var secret = gp.secret;</p>
-<p>console.log(farmId + &quot;, &quot; + serverId + &quot;, &quot; + id + &quot;, &quot; + secret);</p>
-<p>// here's the format we need to display the images:<br />
+<p>console.log(farmId + ", " + serverId + ", " + id + ", " + secret);</p>
+<p>// here's the format we need to display the images:
 //  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg</p>
-<p>$(&quot;#flickr&quot;).append('&lt;img src=&quot;https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg&quot;/&gt;');</p>
-<p> });<br />
+<p>$("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');</p>
+<p> });
 });</p>
-<p>&lt;/script&gt;</p>
-<p>&lt;h2&gt;&lt;div id=&quot;galleryTitle&quot;&gt;&lt;/div&gt;&lt;/h2&gt;<br />
-&lt;div style=&quot;clear:both;&quot;/&gt;<br />
-&lt;div id=&quot;flickr&quot;/&gt;</p>
-<p>&lt;/body&gt;<br />
-&lt;/html&gt;<br />
+<p></script></p>
+<p><h2><div id="galleryTitle"></div></h2>
+<div style="clear:both;"/>
+<div id="flickr"/></p>
+<p></body>
+</html>
 {% endhighlight %}</p>
 <p>And the result looks like this:</p>
 <p><a href="http://idratherbetellingstories.com/wp-content/apidemos/flickr.html"><img src="/images/flickrcolorgallerydemo-550x190.png" alt="flickrcolorgallerydemo" width="550" height="190" class="alignnone size-medium wp-image-22481" /></a></p>
@@ -128,4 +128,4 @@ var secret = gp.secret;</p>
 <p>This comment shows where we need to plug in each of the variables:</p>
 <p>{% highlight html %}//  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg{% endhighlight %}</p>
 <p>The final line shows how you insert those variables into the HTML:</p>
-<p>{% highlight html %}$(&quot;#flickr&quot;).append('&lt;img src=&quot;https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg&quot;/&gt;');{% endhighlight %}</p>
+<p>{% highlight html %}$("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');{% endhighlight %}</p>
