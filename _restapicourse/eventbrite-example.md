@@ -102,9 +102,25 @@ The information has a lot more than I need. I just want to display the event's t
 {{note}}My API key is hidden from the above code sample to protect it from unauthorized access. {{end}}
 
 Here's the result:
-<a href="http://idratherbetellingstories.com/wp-content/apidemos/eventbrite.html"><img src="/images/eventbriteendresult-550x472.png" alt="Eventbrite end result" width="550" height="472" class="alignnone size-medium wp-image-22498" /></a>
-You can view it on the <a href="http://idratherbetellingstories.com/wp-content/apidemos/eventbrite.html">demo page</a>.
-<
+
+<script>
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://www.eventbriteapi.com/v3/events/14635401881/?token=IO6EB7MM6TSCIL2TIOHC",
+    "method": "GET",
+    "headers": {}
+  }
+
+  $.ajax(settings).done(function (data) {
+    console.log(data);
+    var content = "<h2>" + data.name.text + "</h2>" + data.description.html;
+    $("#eventbrite").append(content);
+  });
+</script>
+
+<div id="eventbrite"></div>
+
 h2>Code explanation</h2>
 The result is as plain-jane as it can be in terms of style. But with API documentation code examples, you want to keep code examples simple. In fact, you most likely don't need a demo at all. Simply showing the payload returned in the browser is sufficient for a UI developer. However, for testing it's fun to make content actually appear on the page.
 The `ajax` method from jQuery gets a payload for an endpoint URL, and then assigns it to the `data` argument. I log `data` to the console to more easily inspect its payload. To pull out the various properties of the object, I use dot notation. `data.name.text` gets the text property from the name object that is embedded inside the data object.
