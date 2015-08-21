@@ -5,7 +5,7 @@ categories:
 - api-doc
 tags: []
 status: publish
-type: notes_apis
+type: notes_docapis
 published: true
 date: January 15, 2015
 ---
@@ -38,9 +38,10 @@ https://api.flickr.com/services/rest/?method=flickr.urls.lookupGallery&api_key={
 <p>The gallery ID is <code>66911286-72157647277042064</code>. We now have the arguments we need for the <a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html">flickr.galleries.getPhotos</a> endpoint. If I go to the <a href="https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos">API Explorer for this endpoint</a>, I can plug in the gallery ID.</p>
 <p><a href="https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos"><img src="/images/flickr_gallery_response.png" alt="flickr_gallery_response" width="550" height="259" class="alignnone size-full wp-image-22479" /></a></p>
 <p>Flickr's API Explorer simplifies the process of adding arguments to the endpoint. I can see the response from my request in the API Explorer. Many APIs have an API Explorer tool that makes it easy to construct requests with the parameters configured correctly. However, I can also go to the endpoint auto-generated from the arguments I entered and see the response directly in the browser:</p>
-<pre>
+
+```
 https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key={your api key}&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1
-</pre>
+```
 <p>Here's the JSON response in the browser:</p>
 <p><a href="https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&amp;api_key=c962d7440cbbfd61785c0952cba8032e&amp;gallery_id=66911286-72157647277042064&amp;format=json&amp;nojsoncallback=1"><img src="/images/rawjsonflickr-550x460.png" alt="rawjsonflickr" width="550" height="460" class="alignnone size-medium wp-image-22480" /></a></p>
 <p>All the necessary information is included in this response in order to display photos on our site, but it's not entirely intuitive how we construct the image source URLs from the response. Note that, once again, the information a user needs to actually achieve a goal isn't explicit in the API reference documentation. All the reference doc explains is what gets returned in the response, not how to actually use the response.</p>
@@ -56,7 +57,7 @@ https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|pn
 </pre>
 </blockquote>
 <p>Here's what an item in the JSON response looks like:</p>
-<pre>
+```json
 "photos": {
   "page": 1,
   "pages": 1,
@@ -76,7 +77,7 @@ https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|pn
      "is_primary": 1,
      "has_comment": 0
 } ...
-</pre>
+```
 <p>You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.</p>
 <h2>Displaying the photos using jQuery</h2>
 <p>The following code uses jQuery to loop through each of the responses and inserts the necessary components into an image tag to display each photo. Usually in documentation you don't need to be so explicit about how to use a common language like jQuery. You assume that the developer is capable in a specific language (just not with your API).</p>
