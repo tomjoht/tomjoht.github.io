@@ -121,7 +121,10 @@ Here's the result:
 
 <div id="eventbrite"></div>
 
-h2>Code explanation</h2>
+## Code explanation
+
 The result is as plain-jane as it can be in terms of style. But with API documentation code examples, you want to keep code examples simple. In fact, you most likely don't need a demo at all. Simply showing the payload returned in the browser is sufficient for a UI developer. However, for testing it's fun to make content actually appear on the page.
+
 The `ajax` method from jQuery gets a payload for an endpoint URL, and then assigns it to the `data` argument. I log `data` to the console to more easily inspect its payload. To pull out the various properties of the object, I use dot notation. `data.name.text` gets the text property from the name object that is embedded inside the data object.
+
 I then rename the content I want with a variable (`var content`) and use jQuery's `append` method to assign it to a specific tag (`eventbrite`) on the page.
