@@ -5,7 +5,7 @@ categories:
 - visual-communication
 summary: "This past week I was creating some diagrams for a project, and I feel like I've settled into a good workflow for creating high quality diagrams. Here's my process: Create the file in Illustrator, store numerous diagrams on artboards in the same file, save as SVG with outlines, and embed like an image but specifying the max-width."
 ---
-
+{% include notes.html %}
 ## Create the file in Adobe Illustrator
 
 Adobe Illustrator is my preference for diagrams, conceptual workflows, or any other graphic that's not a screenshot. This is because Illustrator creates vector graphics, whereas other applications (e.g., Snagit, Photoshop) create raster graphics.
@@ -20,9 +20,11 @@ And this is a raster graphic (PNG):
 
 <img src="{{ "/images/samplerasterdiagram.png" | prepend: site.baseurl }}" alt="Sample raster graphic" />
 
-Try shrinking the browser size to a mobile device width. You'll see the vector image scale down nicely and remain crisp and readable at any size.
+They look almost identical, really. But the vector graphic is slightly sharper.
 
-BTW, to make image scale when you shrink your browser, add this to your stylesheet:
+For fun, try shrinking the browser size to a mobile device width. You'll see the images get smaller (not just cut off).
+
+By the way, to make image scale when you shrink your browser, add this to your stylesheet:
 
 ```css
 .yourContentArea img {
@@ -32,23 +34,23 @@ BTW, to make image scale when you shrink your browser, add this to your styleshe
 
 (Change `yourContentArea` to the element where your main content area is.)
 
-Also note that SVG graphics will fill their containing element regardless of the artboard size you use in Illustrator, so I've added a max-width of 700px as an inline style here for the vector graphic.
+Also note that SVG graphics will fill their containing element regardless of the artboard size you use in Illustrator. As a result, I've added a max-width of 700px as an inline style here for the vector graphic.
+
+Most browsers support SVG graphics, but not IE 8 or earlier.
 
 ## Setting up artboards
 
  In Illustrator, I create a file for my project such as acme.ai. On acme.ai, I add numerous artboards (e.g., a dozen or so) and size all the artboards to 700 x 500 px wide.
 
- Here's a great [intro to artboards](https://helpx.adobe.com/illustrator/how-to/work-with-artboards.html), by the way.
+ Here's a great [intro to artboards](https://helpx.adobe.com/illustrator/how-to/work-with-artboards.html).
 
- Within the Illustrator file, I create custom names for each of the artboards. When I save the file as an SVG file, each of the artboards will get saved as its own file. For example, if the filename is "acme.ai" and the artboard name is "workflow," then the SVG file will be named acme_workflow.svg.
+ Within the Illustrator file, I create custom names for each of the artboards. When I save the file as an SVG file, each of the artboards will get saved as its own file. For example, if the filename is "acme.ai" and the artboard name is "workflow," then the SVG file will be named acme_workflow.svg. This way I can keep updating the artboards at any time and just save to SVG at the end &mdash; the updated graphics will overwrite any previous versions.
 
- I also create different layer groups for each of the artboards.
-
- I could simply use different ai files for each graphic, but it would make it a little less convenient for re-using the same illustrations in different diagrams.
+ I could simply use different ai files for each graphic, but it would make it a little less convenient for re-using the same illustrations in different diagrams. If I make a change to one graphic (e.g., a color), I often want to make the same change to the other graphics as well.
 
  ## Get Graphics from The Noun Project
 
-I think graphics should be simple and minimalist. My favorite source for vector graphics is <a href="https://thenounproject.com/">The Noun Project</a>:
+As for graphics, I think they be simple and minimalist. My favorite source for vector graphics is <a href="https://thenounproject.com/">The Noun Project</a>:
 
 <a href="https://thenounproject.com/"><img src="{{ "/images/thenounproject.png" | prepend: site.baseurl }}" alt="The Noun Project" /></a>
 
@@ -64,7 +66,11 @@ When you choose to Save As an SVG, you're presented with a dialog box that looks
 
 <img src="{{ "/images/illustratoroptions.png" | prepend: site.baseurl }}" alt="Options when saving AI as SVG" />
 
-In the Fonts box, select **Convert to Outline**. This ensures that all browsers will support your fonts. Note that Firefox doesn't support font family styles for SVG graphics, so *if you don't select Convert to Outline here*, your fonts in Firefox will be Times New Roman (the default browser font).
+The dialog box has a lot of options, but I've highlighted the sections I want to comment on.
+
+In the Fonts box, select **Convert to Outline**. This ensures that all browsers will support your fonts. Note that Firefox doesn't support font family styles for SVG graphics.
+
+{{note}}If you select Convert to outline, you ensure that Firefox will honor the fonts you've chosen to use in your SVG graphic. If you don't select Convert to outline, the fonts in your SVG graphic will display as Times New Roman (the default browser font) in Firefox. However, other browsers that support SVG font families will use the fonts you've specified. As a best practice, always select Convert to outline.{{end}}
 
 In the Image Locations option, select **Embed**. If you select "Link," then you end up with various graphics files for your SVG image.
 
@@ -74,10 +80,9 @@ In the check boxes, remove the check box from "Use &lt;textpath&gt; element for 
 
 Now it's time to insert the SVG on your page. You can treat it just like an image:
 
-{% raw %}
-{% highlight html %}
-<img src="images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" /> {% endhighlight %}
- {% endraw %}
+```
+<img src="images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
+```
 
 Vector graphics provide a lot of possibilities beyond just simple diagrams here. You can also animate, link different components, and do a lot of other things with graphics. However, you can also just create simple workflow diagrams, like I've shown here.
 
