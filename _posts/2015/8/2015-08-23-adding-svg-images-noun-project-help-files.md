@@ -8,7 +8,7 @@ summary: "This past week I was creating some diagrams for a project, and I feel 
 {% include notes.html %}
 ## Create the file in Adobe Illustrator
 
-Adobe Illustrator is my preference for diagrams, conceptual workflows, or any other graphic that's not a screenshot. This is because Illustrator creates vector graphics, whereas other applications (e.g., Snagit, Photoshop) create raster graphics.
+Adobe Illustrator is my preferred tool for creating diagrams, conceptual workflows, or any other graphic that's not a screenshot. This is because Illustrator creates vector graphics, whereas other applications (e.g., Snagit, Photoshop) create raster graphics.
 
 Vector graphics are actually XML files that are mathematically drawn, whereas raster graphics are pixel-based images (little dots). Raster graphics look good at the dimensions you create them at but get fuzzy if you resize them. In contrast, vector graphics look sharp at any resolution, so they're much more flexible.
 
@@ -30,25 +30,26 @@ By the way, to make image scale when you shrink your browser, add this to your s
 .yourContentArea img {
     max-width: 100%;
     max-height: 100%;
+    }
 ```
 
 (Change `yourContentArea` to the element where your main content area is.)
 
 Also note that SVG graphics will fill their containing element regardless of the artboard size you use in Illustrator. As a result, I've added a max-width of 700px as an inline style here for the vector graphic.
 
-Most browsers support SVG graphics, but not IE 8 or earlier.
+{{note}} Most browsers support SVG graphics, but not IE 8 or earlier.{{end}}
 
 ## Setting up artboards
 
  In Illustrator, I create a file for my project such as acme.ai. On acme.ai, I add numerous artboards (e.g., a dozen or so) and size all the artboards to 700 x 500 px wide.
 
- Here's a great [intro to artboards](https://helpx.adobe.com/illustrator/how-to/work-with-artboards.html).
+ New to Illustrator? Here's a great [intro to artboards](https://helpx.adobe.com/illustrator/how-to/work-with-artboards.html).
 
  Within the Illustrator file, I create custom names for each of the artboards. When I save the file as an SVG file, each of the artboards will get saved as its own file. For example, if the filename is "acme.ai" and the artboard name is "workflow," then the SVG file will be named acme_workflow.svg. This way I can keep updating the artboards at any time and just save to SVG at the end &mdash; the updated graphics will overwrite any previous versions.
 
  I could simply use different ai files for each graphic, but it would make it a little less convenient for re-using the same illustrations in different diagrams. If I make a change to one graphic (e.g., a color), I often want to make the same change to the other graphics as well.
 
- ## Get Graphics from The Noun Project
+## Get Graphics from The Noun Project
 
 As for graphics, I think they be simple and minimalist. My favorite source for vector graphics is <a href="https://thenounproject.com/">The Noun Project</a>:
 
@@ -84,6 +85,6 @@ Now it's time to insert the SVG on your page. You can treat it just like an imag
 <img src="images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
 ```
 
-Vector graphics provide a lot of possibilities beyond just simple diagrams here. You can also animate, link different components, and do a lot of other things with graphics. However, you can also just create simple workflow diagrams, like I've shown here.
+Vector graphics provide a lot of possibilities beyond just simple diagrams here. You can also add animation, link different elements, and do a lot of other things with graphics. However, you can also just create simple workflow diagrams, like I've shown here.
 
 What's especially convenient with AI files is that they're always editable, so you can change the text or shapes at any time. Your file doesn't get locked down in a static format.
