@@ -106,6 +106,8 @@ The following are more than about 80 different openly accessible REST APIs that 
 * [Mailgun API](https://documentation.mailgun.com/api_reference.html)
 * [RiotGames API](https://developer.riotgames.com/api/methods) example of Swagger
 * [Basecamp API](https://github.com/basecamp/bcx-api) example of Github
+* [UserApp](https://app.userapp.io/#/docs/)
+* [Kimono Labs](https://www.kimonolabs.com/apidocs)
 
 ## Similar patterns and structures
 

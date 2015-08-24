@@ -69,7 +69,9 @@ Congratulations, you just made a call to a REST API endpoit to retrieve the weat
 	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET" -H "Accept: text/plain"
 	```
 	
-	Remember to use double quotes and to include the `-k`. You should get back a number (the air quality index) as a response. The response looks like this:
+	{{warning}}Make sure you use double quotes and to include the `-k`. You should get back a number (the air quality index) as a response. {{end}}
+
+	The response looks like this:
 
 	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
 

@@ -12,12 +12,12 @@ entries:
           url: /docapis_using_an_api/
         - title: Getting authorization keys
           url: /docapis_get_auth_keys/
+        - title: Submit calls through Postman
+          url: /docapis_postman/
         - title: Making a cURL call
           url: /docapis_make_curl_call/
         - title: Understand cURL more
           url: /docapis_understand_curl/
-        - title: Submit calls through Postman
-          url: /docapis_postman/
         - title: Analyze the JSON response
           url: /docapis_analyze_json/
         - title: Log JSON to the console
