@@ -108,6 +108,7 @@ The following are more than about 80 different openly accessible REST APIs that 
 * [Basecamp API](https://github.com/basecamp/bcx-api) example of Github
 * [UserApp](https://app.userapp.io/#/docs/)
 * [Kimono Labs](https://www.kimonolabs.com/apidocs)
+* [SwiftType API](https://swiftype.com/documentation/)
 
 ## Similar patterns and structures
 
