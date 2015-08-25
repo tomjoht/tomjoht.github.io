@@ -14,11 +14,11 @@ Vector graphics are actually XML files that are mathematically drawn, whereas ra
 
 Here's a sample. This is a vector graphic (SVG):
 
-<img src="{{ "/images/samplevectordiagram.svg" | prepend: site.baseurl }}" alt="Sample vector graphic" style="max-width: 700px" />
+<img class="shrink" src="{{ "/images/samplevectordiagram.svg" | prepend: site.baseurl }}" alt="Sample vector graphic" style="max-width: 700px" />
 
 And this is a raster graphic (PNG):
 
-<img src="{{ "/images/samplerasterdiagram.png" | prepend: site.baseurl }}" alt="Sample raster graphic" />
+<img  class="shrink" src="{{ "/images/samplerasterdiagram.png" | prepend: site.baseurl }}" alt="Sample raster graphic" />
 
 They look almost identical, really. But the vector graphic is slightly sharper.
 
