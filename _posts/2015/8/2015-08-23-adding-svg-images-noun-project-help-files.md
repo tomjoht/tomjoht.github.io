@@ -27,13 +27,13 @@ For fun, try shrinking the browser size to a mobile device width. You'll see the
 By the way, to make image scale when you shrink your browser, add this to your stylesheet:
 
 ```css
-.yourContentArea img {
+img.shrink {
     max-width: 100%;
     max-height: 100%;
     }
 ```
 
-(Change `yourContentArea` to the element where your main content area is.)
+Then add the class `shrink` to any image that you want to shrink like this when then browser resizes. (You might not want to add the class to all images, though, because if you have a 400px image in an 800px container, the image will expand to 800px.)
 
 Also note that SVG graphics will fill their containing element regardless of the artboard size you use in Illustrator. As a result, I've added a max-width of 700px as an inline style here for the vector graphic.
 

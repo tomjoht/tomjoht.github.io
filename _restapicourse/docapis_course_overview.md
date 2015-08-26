@@ -38,35 +38,4 @@ You don't need any programming background or other prerequisites, but if you do 
 * **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line.  See the following section for more details on cURL.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.
 
-## Installing cURL 
-
-Follow these instructions for installing cURL.
-
-### Mac
-If you have a Mac, by default, cURL is probably already installed. To check:
-
-1. Open Terminal (press **Cmd + spacebar** to open Spotlight, and then type "Terminal"). 
-2. In Terminal type `curl --version`. 
-
-If the response indicates the version, you have cURL. If not, you need to [download and install cURL](http://curl.haxx.se/).
-
-### Windows
-
-To install cURL:
-
-1. Determine whether you have 32-bit or 64-bit Windows by right-clicking **Computer** and selecting **Properties.**
-2. Download cURL for your operating system:
- * For 32-bit, download cURL [here](http://curl.haxx.se/dlwiz/?type=bin&os=Win32).
- * For 64-bit, download cURL [here](http://curl.haxx.se/dlwiz/?type=bin&os=Win64).
-3. Leave the **Generic** package selected and click **Select!**.
-4. Leave **Any** selected and click **Select!**.
-5. Leave the default option selected and click **Select!**.
-6. Click the first **Download** link.
-7. Download and extract cURL.
-
-You can also see the "Getting Curl" section in the [Getting cURL cheatsheet](http://www.cantoni.org/2012/01/10/curl-cheat-sheet).
-
-Note that you need to install both [cURL](http://curl.haxx.se/) and the Windows OpenSSL libraries. Install both cURL and Windows OpenSSL libraries in the same directory.
-
-
 

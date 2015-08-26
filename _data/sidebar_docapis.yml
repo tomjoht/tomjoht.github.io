@@ -6,6 +6,8 @@ entries:
       items:
         - title: Course overview
           url: /restapicourse/
+        - title: Installing cURL
+          url: /docapis_install_curl/
         - title: Intro to REST API documentation
           url: /docapis_intro_to_rest_api_doc/
         - title: Using a REST API
