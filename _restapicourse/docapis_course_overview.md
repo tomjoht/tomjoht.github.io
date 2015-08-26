@@ -14,7 +14,7 @@ Because the purpose of the course is to help you learn, there are numerous activ
 
 ## Time to completion
 
-This course is expected to take about 2 hours.
+This course is expected to take about 3 hours.
 
 ## Learn with a real example and context
 
