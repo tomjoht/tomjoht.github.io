@@ -1,7 +1,7 @@
 ---
 title: "Documenting REST APIs"
 permalink: /docapis_course_overview/
-redirect: /restapicourse/
+redirect: http://idratherbewriting.com/restapicourse/
 course: "Documenting REST APIs"
 weight: 1.0
 type: notes_docapis

@@ -166,6 +166,6 @@ topnav_dropdowns:
     - title: Courses
       items:
         - title: Documenting REST APIs
-          url: /restapicourse/
+          url: /docapis_course_overview/
         - title: Publishing API documentation
           url: /publishingapidocs/

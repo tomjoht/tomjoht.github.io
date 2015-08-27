@@ -8,41 +8,41 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
+This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those moments.
+
 ## About web services
 
-This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail about the tasks you're doing.
-
-In general, a web service is a kind of application that runs on the web. It allows two different computers to communicate with each other. Web services is the broader category and includes more than just REST APIs.
-
-Like REST APIs, SOAP and OData APIs are also types of web services, since all of these services interact through HTTP protocol on the web.
+In general, a web service is an application that runs on the web. It allows two different computers to communicate with each other. Web services includes various types of APIs, including both REST and SOAP APIs. All APIs that use HTTP protocol as the transport format for requests and responses could be classified as web services.
 
 ## SOAP
 
-Before REST became the most popular web service, SOAP (Simple Object Access Protocol) was much more common. To understand REST a little better, it helps to have a context with the SOAP API. This way you can see how REST distinguishes itself.
+Before REST became the most popular web service, SOAP (Simple Object Access Protocol) was much more common. To understand REST a little better, it helps to have a context with SOAP. This way you can see what makes REST different.
 
 SOAP is a standardized protocol that requires XML as the message format for requests and responses. As a standardized protocol, the message format is strictly defined through something called a WSDL file (web services description language).
 
-The WSDL file defines the allowed elements and attributes in the messages. The WSDL file is machine readable and leveraged by the computers interacting with each other to facilitate the communication.
+The WSDL file defines the allowed elements and attributes in the message exchanges. The WSDL file is machine readable and leveraged by the computers interacting with each other to facilitate the communication.
 
-The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where lightweight file sizes and bandwidth are issues. The verbose message format strains the processing times, which makes SOAP interactions more slow.
+The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where  file size and bandwidth are issues. The verbose message format strains the processing times, which makes SOAP interactions more slow.
 
 SOAP is still used in some enterprise application scenarios with server-to-server communication, but in the past 5 years, SOAP and XML have largely been replaced by REST and JSON.
 
 ## REST
 
-Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport protocol for the message requests and responses. However, unlike SOAP, REST is an architectural style, not a standard protocol. You aren't limited to XML as the message format. You can use any message format you want, including XML, JSON, Atom, RSS, and more.
+Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport protocol for the message requests and responses. However, unlike SOAP, REST is an architectural style, not a standard protocol. You aren't limited to XML as the message format. REST APIs can use any message format the architects want to use, including XML, JSON, Atom, RSS, and more.
 
-Most REST APIs use JSON (JavaScript Object Notation) as the default message format. JSON provides a lighter weight, more flexible message format that increases the speed of communication and makes it more ideal for mobile.
+Most REST APIs use JSON (JavaScript Object Notation) as the default message format. JSON provides a lightweight, more flexible message format that increases the speed of communication and allows for mobile processing scenarios.
 
-REST APIs focus on resources, and ways to access the resources. You submit requests through a URI (Uniform Resource Identifier) that accesses the resource. When you access a resource, you specify a method to interact with the resource. Common methods include GET (read), POST (create), PUT (update), and DELETE (remove). The URI also may include query parameters that specify how you want to interact with the resource.
+REST APIs focus on *resources* (that is, things, rather than actions, like SOAP), and ways to access the resources. You submit requests through a URI (Uniform Resource Identifier) that accesses the resource.
 
-It might sound a bit foreign to talk about URIs and GET requests and message responses transported over  HTTP protocol, but really this is just the official REST terminology to describe what's happening. You're probably already familiar with this if you've ever used the web.
+When you access a resource, you specify a method to interact with the resource. Common methods include GET (read), POST (create), PUT (update), and DELETE (remove). The URI also may include query parameters that specify how you want to interact with the resource.
 
-If you open a browser and go to http://idratherbewriting.com, you're really using http protocol (`http://`) here to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is a client that makes the response look pretty.
+The terminology of URIs and GET requests and message responses transported over HTTP protocol might seem unfamiliar, but really this is just the official REST terminology to describe what's happening. If you've used the web, you're already familiar with how REST APIs work, because the web itself follows a RESTful style.
+
+If you open a browser and go to http://idratherbewriting.com, you're really using HTTP protocol (`http://`) here to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is a client that makes the response look pretty.
 
 You can see this in cURL if you open a Terminal prompt and type `curl http://idratherbewriting.com`. The web itself is an example of RESTful style architecture.
 
-Two important features of REST APIs is that they are stateless and cacheable. Stateless means that each time you access a resource through a URI, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each interaction. And the responses can be cached in order to increase the performance.
+Some important, differentiating features of REST APIs are that they are stateless and cacheable. Stateless means that each time you access a resource through a URI, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each interaction. And the responses can be cached in order to increase the performance.
 
 REST APIs don't use a WSDL file to describe elements and parameters allowed in the requests and responses. Although there is a possible WADL (Web Application Description Language) file that can be used to describe REST APIs, they're rarely used since the WADL files don't adequately describe the REST API. (Remember that the REST API is an architectural style, not a standardized protocol.) In order to understand how to interact with a REST API, you have to read the documentation for the API. (This provides a great opportunity for technical writers!)
 
@@ -71,6 +71,27 @@ With most REST APIs, you don't use `$` before the query parameters like you do w
 OData is championed by Microsoft and used by Azure (the Microsoft cloud services). To learn more about OData, see the [http://www.odata.org/](http://www.odata.org/).
 
 {% comment %}
+
+- soap focuses on actions you can take in the api, but in rest you call a uri and then specify the http verb to specify the operation you want to perform on it. the resources are identified by the uris. the requests identify each resource.
+
+- multiple uri's can refer to the same resource. different URIs for different resources.
+- give an example of a REST resource
+
+- the representation is not the resource; it's a particular representation of the resource. the same resource can be represented in different ways (based on the parameters you pass, i think). representations can be in json, xml, csv, or other. html. it's a representation of a resource state that is transferred between a client and server. the response is the representation of the resource's state. this representation is transferred between client and server
+
+six constraints:
+
+uniform interface (uses URIs to point to resources, and HTTP methods to refer to the verbs)
+stateless
+cacheable
+client-server
+layered system
+code on demand
+
+
+
+
+
 OData
 - similar to rest but with a more specific format
 - atom message format
