@@ -1,6 +1,7 @@
 ---
 title: "Documenting REST APIs"
-permalink: /restapicourse/
+permalink: /docapis_course_overview/
+redirect: /restapicourse/
 course: "Documenting REST APIs"
 weight: 1.0
 type: notes_docapis
@@ -10,7 +11,7 @@ type: notes_docapis
 ## Focus of the course is REST APIs
 This course provides a tutorial on documenting REST APIs (not platform APIs such as Java or C++). This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. 
 
-Because the purpose of the course is to help you learn, there are numerous activities that require hands-on coding, exploring, and other exercises.
+Because the purpose of the course is to help you learn, there are numerous activities that require hands-on coding, exploring, and other exercises. Between the learning activities, there are more conceptual deep dives, but the focus is always on learning by doing.
 
 ## Time to completion
 

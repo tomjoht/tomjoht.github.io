@@ -115,8 +115,10 @@ The following are more than about 80 different openly accessible REST APIs that 
 * [Gumroad API](https://gumroad.com/api)
 * [Formstack API](http://developers.formstack.com/)
 * [Livefyre API](http://answers.livefyre.com/developers/api-reference/)
+* [Salesforce Chatter RESt API](https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/)
 
 ## Similar patterns and structures
+
 
 Despite the wide variety of APIs, there is some commonality among them. The common ground is primarily in the endpoint documentation. But user guides have common themes as well. 
 
