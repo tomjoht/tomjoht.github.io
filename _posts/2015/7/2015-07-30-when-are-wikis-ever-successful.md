@@ -4,6 +4,7 @@ categories:
 - wikis
 keywords: wikis, collaboration, community, content stewardship, rot
 summary: "It's hard to make wikis successful because the wiki platform doesn't instill contributors with a sense of ownership with the content they create. As a result, wikis often become full of redundant, outdated, and trivial content. I'll share my lessons learned with wikis during a roundtable discussion with the North Bay Communicators group on August 11."
+thumb: northbay.png
 ---
 
 ## What went wrong with the wiki model

@@ -7,6 +7,7 @@ series: Testing documentation
 keywords: testing documentation, test cases, use cases, tutorials
 summary: "When you test a product, you usually put together simple test scenarios that include actual values and other specific details. You can repackage these test scenarios into documentation-based tutorials that help users understand how to use the product. By including specific values and instruction with a defined end, new users can better understand how to use the product for different use cases and scenarios."
 weight: 1.4
+thumb: testingscenarios.png
 ---
 {% include series/seriesTagTestingDocs.html %}
 <style>
