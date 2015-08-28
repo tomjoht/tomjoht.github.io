@@ -966,3 +966,10 @@ blockquote {
     padding-top:4px;
     padding-bottom:12px;
 }
+
+.thumb img {
+    float: left;
+    border:1px solid #dedede;
+    margin: 5px 15px 0px 0px;
+    border-radius: 4px;
+}

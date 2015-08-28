@@ -4,6 +4,7 @@ keywords: vectors, firefox, illustrator, workflow diagrams, concept illustration
 categories:
 - visual-communication
 summary: "This past week I was creating some diagrams for a project, and I feel like I've settled into a good workflow for creating high quality diagrams. Here's my process: Create the file in Illustrator, store numerous diagrams on artboards in the same file, save as SVG with outlines, and embed like an image but specifying the max-width."
+thumb: vectordiagrams.png
 ---
 {% include notes.html %}
 ## Create the file in Adobe Illustrator

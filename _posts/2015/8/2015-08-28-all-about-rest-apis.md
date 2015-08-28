@@ -1,14 +1,13 @@
 ---
 title: What is a REST API?
-permalink: /what-is-a-rest-api/
-keywords: 
-course: "Documenting REST APIs"
-weight: 
-type: notes_docapis
+keywords:
+categories:
+- api-doc
+summary: "REST APIs use HTTP protocol (or rather, the web) to transport the request and response messages between clients and servers. The client and server can run on any language or platform as long as the request/response is sent via HTTP. To understand REST APIs, it helps to compare them with their predecessor: SOAP APIs. Both SOAP and REST APIs are a kind of web service. "
+thumb: restapithumb.png
 ---
-{% include notes.html %}
 
-This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those moments.
+{% include notes.html %}
 
 ## About web services
 
@@ -116,6 +115,5 @@ Responses can be in JSON or XML.
 With most REST APIs, you don't use `$` before the query parameters like you do with OData. Query parameters are usually separated by `?`, and each REST API has its own variety of unique parameters.
 
 OData is championed by Microsoft and used by Azure (the Microsoft cloud services). To learn more about OData, see the [http://www.odata.org/](http://www.odata.org/).
-
 
 
