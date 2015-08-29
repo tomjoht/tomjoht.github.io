@@ -1,5 +1,5 @@
 ---
-title: Intro to REST API documentation
+title: The market for REST API documentation
 permalink: /docapis_intro_to_rest_api_doc/
 categories:
 - api-doc
@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## Complete and accurate docs are most important factor in APIs
 
-Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation in general.
+Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation market in general.
 
 In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07), about 250 developers were asked to rank the most important factors in an API. "Complete and accurate documentation" ranked as #1.
 
@@ -38,9 +38,9 @@ REST APIs, however, do not follow a standard message format. Instead, REST is an
 
 Each REST API functions a bit differently. There isn't a single way of doing things, and this flexibility and variety is what fuels the need for accurate and clear documentation with REST APIs. As long as there is variety, there will be a strong need for technical writers.
 
-## The web is a mashup of services
+## The web is a mashup of APIs
 
-Another reason why REST APIs are taking off is because the web itself is evolving into a conglomeration of services. Instead of massive, do-it-all systems, web sites are pulling in the services they need through APIs. For example, rather than building your own search to power your website, you might use Switftype instead and leverage their service through their [Swifttype API](https://swiftype.com/developers).
+Another reason why REST APIs are taking off is because the web itself is evolving into a conglomeration of APIs. Instead of massive, do-it-all systems, web sites are pulling in the services they need through APIs. For example, rather than building your own search to power your website, you might use Switftype instead and leverage their service through their [Swifttype API](https://swiftype.com/developers).
 
 Rather than building your own payment gateway, you integrate [Stripe and its API](https://stripe.com/docs/api). Rather than building your own login system, you might use [UserApp and its API](https://app.userapp.io/#/docs/). And so on. Rather than building your own e-commerce system, you might use [Snipcart and its API](http://docs.snipcart.com/api-reference/introduction).
 

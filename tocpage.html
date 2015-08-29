@@ -1,0 +1,37 @@
+---
+type: frontmatter
+search: exclude
+layout: default_print
+---
+
+<!-- new page -->
+<div id="navig">
+    <h1>Table of Contents</h1>
+
+    <ul id="mysidebar" class="nav">
+        {% for entry in site.data.sidebar_docapis.entries %}
+        {% for subcategory in entry.subcategories %}
+
+        <li class="sectionHead">{{ subcategory.title }}
+            <ul>
+                {% for item in subcategory.items %}
+
+                <li><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a>
+                    {% for thirdlevel in item.thirdlevel %}
+                <li class="sectionHead">{{ thirdlevel.title }}
+                    <ul>
+                        {% for deeplevel in thirdlevel.thirdlevelitems%}
+
+                        <li><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+        </li>
+        {% endfor %}
+    </ul>
+    </li>
+    {% endfor %}
+    {% endfor %}
+    </ul>
+</div>

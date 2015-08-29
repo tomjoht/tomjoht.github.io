@@ -1,10 +1,10 @@
-destination: ../documenting-rest-apis-pdf
-url: "http://127.0.0.1:4003"
+destination: ../docapis-pdf
+url: "http://127.0.0.1:4033"
 baseurl: "/docapis"
-port: 4003
+port: 4033
 print: true
 print_title: Documenting REST APIs
-print_subtitle: version 2.0
+print_subtitle: "Tom Johnson"
 defaults:
   -
     scope:
@@ -32,10 +32,6 @@ exclude:
 # this enables collections
 collections:
   restapicourse:
-    output: true
-  publishingapidocs:
-    output: true
-  voiceovertechniques:
     output: true
 
 # these are defaults that get applied to each page or post's frontmatter. leave as is.

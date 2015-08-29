@@ -31,6 +31,9 @@ It's important to list the data type for each parameter because APIs may not pro
 * **string**: An alphanumeric sequence of letters and possibly numbers. 
 * **integer**: A whole number -- can be positive or negative.
 * **boolean**: true or false.
+* **object**: Key-value pairs in JSON format
+
+There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. In Java, you can have a byte, short, int, double, long, float, char, boolean, and so on. However, you usually don't have to specify this level of detail with a REST API.
 
 ## Parameter order doesn't matter
 

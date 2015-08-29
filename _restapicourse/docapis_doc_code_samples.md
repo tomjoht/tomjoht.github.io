@@ -27,20 +27,57 @@ And another from Twilio:
 
 <a href="https://www.twilio.com/docs/api/rest/making-calls"><img src="{{ "/images/restapicourse/twiliocodeexamples.png" | prepend: site.baseurl }}" alt="Twilio code samples" /></a>
 
+However, don't feel so intimidated by this smorgasbord of code samples. Some API doc tools might actually automatically generate these code samples because the patterns for making REST requests in different programming languages follow a common template. This is why may APIs decide to provide one code sample (usually in cURL) and let the developer extrapolate the format in his or her own programming language.
+
+## The AJAX method from jQuery
+
+Probably the most useful method to know for code samples is the `ajax` method from jQuery. You can read about it in [jQuery's ajax documentation](http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
+
+In brief, the `ajax` method takes an argument, such as `settings`.
+
+```
+$.ajax(settings)
+```
+
+This `settings` argument is an object that contains a variety of key-value pairs. Each of the allowed key-value pairs is defined in the documentation. Some important values are the `url`, which is the URI or endpoint you are submitting the request to. Another is `headers`, which allows you to include custom headers in the request.
+
+Here's an example:
+
+```
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+  "method": "GET",
+  "headers": {
+    "accept": "application/json",
+    "x-mashape-key": "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+```
+
+The `settings` variable is passed in as the argument to the `ajax` method. This method makes the request to the HTTP url asynchronously, which means it won't hang up your computer while you wait for the response. You can continue using your application while the request executes.
+
+You get the response by calling the method `done`. In the preceding code sample, `done` contains an anonymous function (a function without a name). The response object from the `ajax` call is assigned to the argument here, which in this case is `response`. You can name the argument whatever you want.
+
+You can then access the values from the response object using object notation. In this example, the response is just logged to the console.
+
 ## Code snippets
 
-If you want to provide some easy code snippets, one helpful tool is Postman's export feature.
-
-To generate a JavaScript code snippet:
+If you want to provide some easy code snippets, one helpful tool is Postman's export feature. To generate a JavaScript code snippet:
 
 1. Configure a weatherdata request in Postman (or select one you've saved).
-2. Below the Send button, click the Generate Code Snippets button. <img src="{{ "/images/postman_generate_button.png" | prepend: site.baseurl }}" alt="Postman Generate Code Snippets" />.
+2. Below the Send button, click the Generate Code Snippets button. <img class="inline" src="{{ "/images/postman_generate_button.png" | prepend: site.baseurl }}" alt="Postman Generate Code Snippets" />.
 3. In the dialog box that appears, browse the available code samples using the drop-down menu. Note how your request data is implemented into each of the different code sample templates.
 4. Select the **JavaScript > jQuery AJAX** code sample:
 
     <img src="{{ "/images/postman_code_snippets.png" | prepend: site.baseurl }}" alt="" />
 
-5. Copy the content by clicking the **Copy** button <img src="{{ "/images/postman_copy_code.png" | prepend: site.baseurl }}" alt="Copy button in Postman" />.
+5. Copy the content by clicking the **Copy** button <img class="inline" src="{{ "/images/postman_copy_code.png" | prepend: site.baseurl }}" alt="Copy button in Postman" />.
 
 This is the JavaScript code that you can attach to an event on your page.
 

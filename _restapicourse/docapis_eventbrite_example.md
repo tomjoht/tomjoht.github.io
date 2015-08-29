@@ -1,6 +1,6 @@
 ---
 title: 'EventBrite example: Get Event information and display it on a page'
-permalink: /docapis_eventbrite-example/
+permalink: /docapis_eventbrite_example/
 type: notes_docapis
 keywords: Eventbrite API example, REST APIs
 ---
@@ -10,7 +10,7 @@ As a simple example of how to use a REST API, I'll walk through how to use the E
 
 The EventBrite API documentation is here: [developer.eventbrite.com/](https://developer.eventbrite.com/). Looking through the endpoints available, to get event information, we'll use the [developer.eventbrite.com/docs/event-details](https://developer.eventbrite.com/docs/event-details/) endpoint.
 
-<a href="https://developer.eventbrite.com/docs/event-details/"><img src="/images/eventbrite_event_details-550x468.png" alt="EventBrite Event Details" width="550" height="468" class="alignnone size-medium wp-image-22497" /></a>
+<a href="https://developer.eventbrite.com/docs/event-details/"><img src="{{ "/images/restapicourse/eventbrite_event_details-550x468.png" | prepend: site.baseurl }}" alt="EventBrite Event Details" /></a>
 
 You can do various actions with an event, such as create, edit, publish, or unpublish the event. I just want to retrieve event details, so I use this endpoint:
 

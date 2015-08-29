@@ -1,6 +1,6 @@
 ---
 title: Code sample best practices
-permalink: /docapis_code_sample_bestpractices/
+permalink: /docapis_codesamples_bestpractices/
 categories:
 - api-doc
 keywords:

@@ -2,18 +2,31 @@
 entries:
 - title: Sidebar
   subcategories:
+  subcategories:
+    - title: Frontmatter
+      web: false
+      items:
+        - title: Title Page
+          url: /titlepage.html
+          web: false
+          print: true
+
+        - title: Table of Contents
+          url: /tocpage.html
+          web: false
+          print: true
     - title: Using a REST API as a developer
       items:
         - title: Course overview
           url: /docapis_course_overview/
         - title: Installing cURL
           url: /docapis_install_curl/
-        - title: Intro to REST API documentation
+        - title: The market for REST API documentation
           url: /docapis_intro_to_rest_api_doc/
-        - title: Using a REST API
-          url: /docapis_using_an_api/
         - title: What is a REST API?
           url: /what-is-a-rest-api/
+        - title: Using a REST API
+          url: /docapis_using_an_api/
         - title: Getting authorization keys
           url: /docapis_get_auth_keys/
         - title: Submit calls through Postman
@@ -44,6 +57,8 @@ entries:
           url: /docapis_doc_sample_responses/
         - title: Documenting response and error codes
           url: /docapis_doc_response_codes/
+        - title: Documenting authorization
+          url: /docapis_more_about_authorization/
         - title: Documenting code samples
           url: /docapis_doc_code_samples/
         - title: Code sample best practices
@@ -52,16 +67,14 @@ entries:
           url: /docapis_finished_doc_result/
         - title: Creating the user guide
           url: /docapis_create_user_guide/
-        - title: Course completion
-          url: /docapis_completion/
 
-    - title: Additional REST API activities
+    - title: Exploring other REST APIs
       items:
         - title: EventBrite example
-          url: /docapis_eventbrite-example/
+          url: /docapis_eventbrite_example/
         - title: Klout score example
-          url: /docapis_klout-example-score/
-        - title: Klout influencees example
-          url: /docapis_klout-example-influencees/
+          url: /docapis_klout_example/
         - title: Flickr example
-          url: /docapis_flickr-example/
+          url: /docapis_flickr_example/
+        - title: Course completion
+          url: /docapis_completion/

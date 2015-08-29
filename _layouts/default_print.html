@@ -4,13 +4,9 @@
   <head>
  {% include head_print.html %}
 
-<link rel="stylesheet" href="{{ "/css/customstyles.css" | prepend:site.baseurl }}"  type='text/css'>
-
-    <link rel="stylesheet" href="{{ "/css/printstyles.css" | prepend:site.baseurl }}"  type='text/css'>
-
   </head>
 
-<body class="print">
+<body class="{% if page.type == "title"%}title{% elsif page.type == "frontmatter" %}frontmatter{% elsif page.type == "first_page" %}first_page{% endif %} print">
 
     <!-- Page Content -->
     <div class="container">
@@ -19,8 +15,6 @@
 
                 {{content}}
             </div>
-
-        <hr>
 
     </div>    <!-- /.container -->
 

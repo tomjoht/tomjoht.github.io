@@ -31,6 +31,11 @@
     });
 </script>
 
+<script>
+$("li.active").parents('li').toggleClass("active");
+
+</script>
+
 {% if page.type == "notes_docapis" %}
 {% assign sidebarTitle = "Documenting REST APIs" %}
 {% assign sidebar = site.data.sidebar_docapis.entries %}
