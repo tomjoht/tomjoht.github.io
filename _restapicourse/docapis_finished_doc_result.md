@@ -15,7 +15,7 @@ In this example, let's pull together the various parts you've worked on to showc
 
 Here's my example. 
 
-<div class="fakePage">
+<div class="docSample">
 <h1 id="surfreport/{beachid}">surfreport/{beachId}</h1>
 
 <p>Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing. </p>

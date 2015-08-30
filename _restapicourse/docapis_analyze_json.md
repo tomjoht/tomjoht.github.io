@@ -154,7 +154,7 @@ An object is a collection of key-value pairs, surrounded by curly braces:
 }
 ```
 
-The key-value pairs are each put into double quotation marks. Each key-value pair is separated from the next by a comma (except for the last pair).
+The key-value pairs are each put into double quotation marks when both are strings. If the value is an integer or Boolean, you omit the quotation marks around the value. Each key-value pair is separated from the next by a comma (except for the last pair).
 
 ## JSON arrays are lists of items
 
@@ -203,7 +203,7 @@ Here's an example with values:
 ]
 ```
 
-Objects often contain arrays in the value part of the key-value pair:
+Objects can contain arrays in the value part of the key-value pair:
 
 ```
 {
@@ -212,13 +212,13 @@ hobbies: ["swimming","biking","drawing","horseplaying"]
 }
 ```
 
-Just remember, objects are set off with curly braces and contain key-value pairs. Sometimes those values are arrays. Arrays are lists and are set off with square brackets.
+Just remember, objects are set off with curly braces `{ }` and contain key-value pairs. Sometimes those values are arrays. Arrays are lists and are set off with square brackets `[ ]`.
 
 {{tip}} It's important to understand the difference between objects and arrays because it determines how you access the data to pull out and display the information. More on that later.{{end}}
 
 ## Identify the objects and arrays in the weatherdata API response
-
-Look at the response from the weatherdata forecast API. 
+{{activity}}
+Look at the response from the `weatherdata` endpoint of the weather API.
 
 * Where are the objects?
 * Where are the arrays?

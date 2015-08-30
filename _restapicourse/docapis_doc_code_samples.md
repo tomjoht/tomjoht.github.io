@@ -17,9 +17,7 @@ One ingenius aspect of REST APIs is that they aren't tied to a specific programm
 ## Which language should you provide code samples in?
 Because you can't really know which language your end users will be developing in, it's kind of fruitless to try to provide code samples in every language. Many APIs just show the format for submitting requests and a sample response, and they assume that developers will know how to submit HTTP requests in their particular programming language.
 
-However, some APIs do show simple code snippets in a variety of languages:
-
-Some API documentation does this. Here's an example from Evernote's API documentation:
+However, some APIs do show simple code snippets in a variety of languages. Here's an example from Evernote's API documentation:
 
 <a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="{{ "/images/restapicourse/codesamplesevernote.png" | prepend: site.baseurl }}" alt="Evernote API code samples" /></a>
 
@@ -29,46 +27,24 @@ And another from Twilio:
 
 However, don't feel so intimidated by this smorgasbord of code samples. Some API doc tools might actually automatically generate these code samples because the patterns for making REST requests in different programming languages follow a common template. This is why may APIs decide to provide one code sample (usually in cURL) and let the developer extrapolate the format in his or her own programming language.
 
-## The AJAX method from jQuery
+## Auto-generating code samples
 
-Probably the most useful method to know for code samples is the `ajax` method from jQuery. You can read about it in [jQuery's ajax documentation](http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
+You can auto-generate code samples from both Postman and Paw, if needed.
 
-In brief, the `ajax` method takes an argument, such as `settings`.
+Paw has more than a dozen code generator extensions:
 
-```
-$.ajax(settings)
-```
+<a href="https://luckymarmot.com/paw/extensions/"><img src="{{ "/images/restapicourse/pawcodegenerators.png" | prepend: site.baseurl }}" alt="" /></a>
 
-This `settings` argument is an object that contains a variety of key-value pairs. Each of the allowed key-value pairs is defined in the documentation. Some important values are the `url`, which is the URI or endpoint you are submitting the request to. Another is `headers`, which allows you to include custom headers in the request.
+Once you install them, generating a code sample is a one-click operation:
 
-Here's an example:
+<img src="{{ "/images/restapicourse/pawcodegen.png" | prepend: site.baseurl }}" alt="Paw code generators" />
 
-```
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
-  "method": "GET",
-  "headers": {
-    "accept": "application/json",
-    "x-mashape-key": "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"
-  }
-}
+The Postman app has these most of these code generators built in.
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-```
+## Generate a JavaScript code sample from Postman
 
-The `settings` variable is passed in as the argument to the `ajax` method. This method makes the request to the HTTP url asynchronously, which means it won't hang up your computer while you wait for the response. You can continue using your application while the request executes.
-
-You get the response by calling the method `done`. In the preceding code sample, `done` contains an anonymous function (a function without a name). The response object from the `ajax` call is assigned to the argument here, which in this case is `response`. You can name the argument whatever you want.
-
-You can then access the values from the response object using object notation. In this example, the response is just logged to the console.
-
-## Code snippets
-
-If you want to provide some easy code snippets, one helpful tool is Postman's export feature. To generate a JavaScript code snippet:
+{{activity}}
+To generate a JavaScript code snippet from Postman:
 
 1. Configure a weatherdata request in Postman (or select one you've saved).
 2. Below the Send button, click the Generate Code Snippets button. <img class="inline" src="{{ "/images/postman_generate_button.png" | prepend: site.baseurl }}" alt="Postman Generate Code Snippets" />.
@@ -258,22 +234,9 @@ You already worked with this code earlier, so it shouldn't be new. It's the same
 
 As a technical writer, add a code sample to the surfreport/{beachId} endpoint that you're documenting. Use the same code as above, but customize it with the Weather API, and add a short description about why the code is doing what it's doing.
 
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
+Here's my approach:
 
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
-
-<p>Here's my approach: </p>
-
+<div class="docSample">
 <p><b>Code example</b></p>
 
 <p>The following code samples shows how to use the surfreport endpoint to get the surf conditions for a specific beach. In this case, the code shows the overall recommendation about whether to go surfing.</p>
@@ -322,7 +285,7 @@ $( "#viewAnswers" ).click(function() {
 <p>In this example, the <code>ajax</code> method from jQuery is used because it allows cross-origin resource sharing (CORS) for the weather resources.</p>
 <p>In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.</p>
 
-<p>For demonstration purposes, the response is assigned to the `data` argument of the success method, and then written out to the `output` tag on the page.</p>
+<p>For demonstration purposes, the response is assigned to the <code>data</code> argument of the success method, and then written out to the <code>output</code> tag on the page.</p>
 
 <p>We're just getting the surfing recommendation, but there's a lot of other data you could choose to display.</p>
 </div>

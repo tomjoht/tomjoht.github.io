@@ -97,20 +97,9 @@ However, once the test system generated the responses, those responses were impo
 
 For your surfreport/{beachId} endpoint, create a section that shows the sample response. Look over the response to make sure it shows what it should.
 
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
+Here's what mine looks like:
 
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
-<p>Here's what mine looks like: </p>
+<div class="docSample">
 {% highlight json %}
 {
     "surfreport": [

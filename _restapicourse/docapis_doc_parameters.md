@@ -88,22 +88,9 @@ The Unix time is the number of milliseconds to the current date from January 1, 
 
 For our new surfreport endpoint, look through the parameters available and create a table similar to the one above.
 
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
+Here's what my table looks like:
 
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
-
-<p>Here's what my table looks like:</p>
-
+<div class="docSample">
 
 <table><thead>
 <tr>

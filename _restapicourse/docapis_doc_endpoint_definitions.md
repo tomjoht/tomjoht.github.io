@@ -60,26 +60,13 @@ And here's an example from Linkedin's API:
 
 List out the endpoint definition and method for the surfreport/{beachId} endpoint.
 
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
-
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
-
 Here's my approach:
+
+<div class="docSample">
 
 <h2>Endpoint definition</h2>
 
 <span class="label label-default">GET</span></h3> `surfreport/{beachId}`
-
 </div>
 
 

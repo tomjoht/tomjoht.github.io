@@ -10,35 +10,36 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## Prepare the call
+## About cURL
 
-With the authorization keys retrieved, you're ready to make a call to the REST API. In this example, you'll use cURL, which is a command-line utility that lets you excecute HTTP requests with different parameters and methods.
+While Postman is convenient, it's hard to represent just how to make the calls. Plus, different users probably use different GUI clients, or none at all. Instead of describing how to make REST calls using a GUI client, the most conventional method is to explain how to make the calls using cURL.
 
+cURL is a command-line utility that lets you excecute HTTP requests with different parameters and methods. In this section, you'll use cURL to make these same requests.
+
+## Prepare the call in cURL format
+
+{{activity}}
 1. Go back into the [Weather API](https://www.mashape.com/fyhao/weather-13).
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
 
 	```
-	curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' -H 'Accept: text/plain'
+	curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
-3. If you're on Windows, change the single quotes to double, and add `-k` as well to work around security certificate issues.
+3. If you're on Windows, change the single quotation marks to double quotation marks, and add `-k` as well to work around security certificate issues.
 	
 	```
-    curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p" -H "Accept: text/plain"
+    curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
     ```
 	
 4. Swap in your own API key.
-5. Use Google Maps to find the latitude and longtitude of your current location (these values appear in the URL when you browse to a location on Google Maps).
-	
-<img src="{{ "/images/restapicourse/googlemapslatlong.png" | prepend: site.baseurl }}" alt="Finding latitude and longitude on Google Maps" />
 
-You can also find coordinates for a location using [mapcoordinates.net](http://www.mapcoordinates.net/en).
-	
-{{note}} Make sure you don't accidentally remove the `'` from the cURL code as you make edits. {{end}}
+    {{note}} In the instruction here, `{api key}` will be used instead of an actual API key. You should replace that part with your own API key. Omit the curly braces `{ }`. {{end}}
+
 
 ## Make the call in cURL (Mac)
+{{activity}}
+1. Open a terminal. To open Terminal, press **Cmd + spacebar** and type **Terminal**.
 
-1. Open a terminal. To open Terminal, press **Cmd + spacebar** and type **Terminal**. 
-	
 	{{tip}} If you plan on working in Terminal a lot, use <a href="https://www.iterm2.com/">iTerm</a> instead of Terminal.){{end}}
 	
 2. Paste the call you have in your text editor into the command line.
@@ -46,7 +47,7 @@ You can also find coordinates for a location using [mapcoordinates.net](http://w
 	My call looks like this:
 	
 	```
-	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' -H 'Accept: text/plain'
+	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
 	
 3. Press your **Enter** key. 
@@ -55,32 +56,35 @@ You should see something like this as a response:
 
 <img src="{{ "/images/restapicourse/aqi_curl_response.png" | prepend: site.baseurl }}" alt="cURL call" />
 
-The response is just a single number: the air quality index for the location specified. This response is just text, but most of the time responses from REST APIs are in JSON.
-
-Congratulations, you just made a call to a REST API endpoit to retrieve the weather forecast.
+The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
 ## Make the call in cURL (Windows 7)
-
+{{activity}}
 1. Copy the cURL call from your text editor. 
 2. Go to **Start** and type **cmd** to open up the commandline. (If you're on Windows 8, see [these instructions for accessing the commandline](http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm).)
 3. Right-click and then select **Paste** to insert the call. My call looks like this:
  
 	```
-	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET" -H "Accept: text/plain"
+	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
 	```
 	
-	{{warning}}Make sure you use double quotes and to include the `-k`. You should get back a number (the air quality index) as a response. {{end}}
+	{{warning}}Make sure you use double quotes and include the `-k`. {{end}}
 
 	The response looks like this:
 
 	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
 
-## If it didn't work, try the Advanced REST client
 
-If cURL didn't work, you can just use the [Advanced REST Client extension for Chrome](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo). After launching the client, insert the values as shown in the following screenshot. You'll get the same response.
+## Single and Double Quotes with Windows cURL requests
 
-<img src="{{ "/images/restapicourse/advancedrestclient.png" | prepend: site.baseurl }}" alt="Advanced REST Client" />
+Note that if you're using Windows to submit a lot of cURL requests, you'll eventually run into issues with the single versus double quotes. Some API endpoints (usually for POST methods) require you to submit content in the body of the message request. The body content is formatted in JSON. Since you can't use double quotes inside of other double quotes, you run into issues in submitting cURL requests.
 
+Here's the workaround. If you have to submit body content in JSON, you can store the content in a .JSON file. Then you reference the file with an `@` symbol, like this:
 
+```
+curl -H "Content-Type: application/json" -H "Authorization: 123" -X POST -d @mypostbody.json http://endpointurl.com/example
+```
+
+Here cURL will look in the existing directory for the mypostbody.json file, but you can also reference a path.
 
 

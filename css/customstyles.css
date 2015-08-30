@@ -860,13 +860,13 @@ font-size:14px;
     margin: 15px; 5px;
 }
 
-.fakePage {
-    background-color: #eef7fa;
+div.docSample {
+    background-color: #e5f6f9;
     padding: 15px;
     border: 1px solid #dedede;
 }
 
-.fakePage table tr {
+div.docSample table tr {
     background-color: white;
 }
 
@@ -972,4 +972,14 @@ blockquote {
     border:1px solid #dedede;
     margin: 5px 15px 0px 0px;
     border-radius: 4px;
+}
+
+.docSample {
+    padding:20px;
+    background-color: #f0f0f0;
+    border:1px solid #dedede;
+}
+
+div.activity {
+    max-width: 150px;
 }

@@ -58,27 +58,17 @@ If the requests and responses vary dramatically, consider including multiple res
 
 ## Document the sample request with the surfreport/{beachId} endpoint
 
-Come back to the surfreport/{beachId} endpoint example. Create a sample request for it. 
-
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
-
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
+Come back to the surfreport/{beachId} endpoint example. Create a sample request for it.
 
 Here's mine: 
 
-```
+<div class="docSample">
+
+{% highlight bash %}
+
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
   -H 'Accept: application/json'
-```
+{% endhighlight %}
 </div>
+

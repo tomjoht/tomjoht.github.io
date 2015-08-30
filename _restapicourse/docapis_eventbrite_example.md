@@ -103,23 +103,7 @@ The information has a lot more than I need. I just want to display the event's t
 
 Here's the result:
 
-<script>
-  var settings = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://www.eventbriteapi.com/v3/events/14635401881/?token=IO6EB7MM6TSCIL2TIOHC",
-    "method": "GET",
-    "headers": {}
-  }
-
-  $.ajax(settings).done(function (data) {
-    console.log(data);
-    var content = "<h2>" + data.name.text + "</h2>" + data.description.html;
-    $("#eventbrite").append(content);
-  });
-</script>
-
-<div id="eventbrite"></div>
+<img src="{{ "/images/restapicourse/eventbriteresult.png" | prepend: site.baseurl }}" alt="Eventbrite result" />
 
 ## Code explanation
 

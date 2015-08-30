@@ -65,7 +65,7 @@ And I would see this:
 
 Usually in API documentation, you don't need to explain any more than this. Each programmer may be using a different language or platform, so the process of getting this information and displaying it will vary. But for demonstration purposes, suppose I wanted to embed my Klout score on my web page using JavaScript and jQuery. Here's how I could do it:
 
-```js
+```html
 <html>
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -105,7 +105,7 @@ The response appears in the Response Body section.
 Although the interactive console shows you the response, you can also submit the request via the browser and see the payload in the browser. Here's the request:
 
 ```
-http://api.klout.com/v2/user.json/1134760/influence?key={api key}</a>
+http://api.klout.com/v2/user.json/1134760/influence?key={api key}
 ```
 
 And here's the response:
@@ -331,16 +331,6 @@ The result looks like this:
 
 <img src="{{ "/images/restapicourse/influenceesdemo-550x292.png" | prepend: site.baseurl }}" alt="Klout result" />
 
-Here's the real thing:
-
-<script>
-   var url = "http://api.klout.com/v2/user.json/1134760/score?key=u4r7nd3r7bj9ksxfx3cuy6hw&callback=?";
-   $.getJSON( url, function( data ) {
-      console.log(data);
-      $("#kloutScore").append(data.score);
-   });
-
-</script>
 <h2>My Klout Score</h2>
 
 <div id="kloutScore"/>
@@ -352,4 +342,3 @@ Here's the real thing:
 The code uses the `getJSON` method from jQuery to get a JSON payload for a specific URL. It assigns this payload to the `data` argument. The `console.log(data)` code just logs the payload to the console to make it easy to inspect.
 
 The jQuery `each` method iterates through each property in the `data.myInfluencees` object. It renames this object `inf` (you can choose whatever names you want) and then gets the `entity.payload.nick` property for each item in the object. It inserts this value into a link to the Twitter profile, and then appends the information to a specific tag on the page (`#kloutInf`).
-

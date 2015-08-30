@@ -104,22 +104,9 @@ The resource description usually starts with a verb and is a fragment. Here are 
 
 ## How I go about it
 
-To see how I went about creating the endpoint description, click View answers.
+Here's how I went about creating the endpoint description:
 
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
-
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
-
+<div class="docSample">
 <p>I start by making a list of what the resource contains. </p>
 
 <p>Surfreport</p>

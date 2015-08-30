@@ -27,6 +27,8 @@ exclude:
   - _site
   - _posts
   - pages/
+  - _includes/sidebar_ads.html
+  - js/customscripts.js
 
 
 # this enables collections

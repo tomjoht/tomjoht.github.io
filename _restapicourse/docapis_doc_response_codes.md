@@ -79,24 +79,11 @@ Add a section to your surfreport/{beachId} endpoint documentation called Respons
 
 ## List three status codes for surfreport
 
-List 3 status codes related to the surfreport/{beachId} endpoint. Use two general codes and make the third one up. 
-
-<style>
-#theAnswer {display:none;}
-</style>
-<script>
-$( document ).ready(function() {
-$( "#viewAnswers" ).click(function() {
-  $( "#theAnswer" ).toggle();
-});
-});
-</script>
-
-<button id="viewAnswers" class="btn btn-default" >View answers</button>
-<div id="theAnswer">
+List 3 status codes related to the surfreport/{beachId} endpoint. Use two general codes and make the third one up.
 
 Here's my attempt: 
 
+<div class="docSample">
 <table><thead>
 <tr>
 <th>Status code</th>

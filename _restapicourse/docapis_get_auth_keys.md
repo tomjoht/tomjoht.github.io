@@ -18,10 +18,10 @@ Almost every API has a method in place to authenticate requests. You usually hav
 * Rate limit the number of requests
 * Control availability of certain features within the API
 
-{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation.{{end}}
+{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation. Later in the course we will dive into <a href="{{ "/docapis_more_about_authorization" | prepend: baseurl }}">authorization methods in more detail</a>.{{end}}
 
 ## Get the Mashape authorization keys
-
+{{activity}}
 In order to get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
 
 1. On [Mashape.com](http://mashape.com), click **Sign Up Free** in the upper-right corner and create an account.
@@ -29,6 +29,8 @@ In order to get the authorization keys to use the Mashape API, you'll need to si
 3. In the upper-right corner, click **Get the Keys**.
 	
 	<img src="{{ "/images/restapicourse/mashape_get_keys.png" | prepend: site.baseurl }}" alt="Mashape -- getting the keys" />
+
+	{{note}}If you don't see the Get the Keys button, make sure you click <b>Applications > Default Application</b> on the top navigation bar first.{{end}}
 	
 3. When the Environment Keys dialog appears, click **Copy** to copy the keys. (Choose the Testing keys, since this type allows you to make unlimited requests.)
 
@@ -46,6 +48,7 @@ When you're working with code, you use a text editor instead of a rich text edit
 * [Notepad++](https://notepad-plus-plus.org/) (PC)
 * [Atom](https://atom.io/) (Mac)
 * [Komodo Edit](http://komodoide.com/komodo-edit/) (Mac or PC)
+* [Coda](https://panic.com/coda/) (Mac)
 
 These editors provide features that let you better manage the text. Choose the one you want. (Personally, I use Sublime Text when I'm working with code samples, and WebStorm when I'm working with Jekyll projects.)
 

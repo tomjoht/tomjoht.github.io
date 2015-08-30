@@ -46,7 +46,7 @@ type: homepage
 {% comment %} 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 {% endcomment %}
-
+{% if site.disqus_shortname %}
 <script type="text/javascript">
 var disqus_shortname = 'idratherbewriting';
 
@@ -57,3 +57,4 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
+{% endif %}

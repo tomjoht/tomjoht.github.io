@@ -1,0 +1,189 @@
+---
+title: Using methods with cURL (petstore example)
+permalink: /docapis_curl_with_petstore/
+keywords: 
+course: "Documenting REST APIs"
+weight: 
+type: notes_docapis
+---
+{% include notes.html %}
+
+## Posting to the body
+
+Our sample weather API from Mashape doesn't allow you to use anything but a GET method, so for this example, we'll use the [petstore API from Swagger](http://petstore.swagger.io/), but without actually using the Swagger UI (which is something we'll explore later). For now, we just need an API that we can create, update, and delete content from. (You're just getting familiar with cURL here.)
+
+In this example, you'll create a new pet, update the pet, get the pet's ID, delete the pet, and then try to get the deleted pet. Don't worry so much about understanding the petstore API.
+
+### Create a new pet
+{{activity}}
+To create a pet, you have to pass a JSON message in the request body. Rather than trying to encode the JSON and pass it in the URL, you'll store the JSON in a file and reference the file.
+
+{{tip}}A lot of APIs require you to post requests containing JSON messages in the body. This is often how you configure something. The list of JSON key-value pairs that the API accepts is called the "model schema" in the Petstore API. {{end}}
+
+1. Insert the following into a file called mypet.json. This information will be passed in the `-d` parameter of the cURL request:
+
+    ```json
+    {
+      "id": 123,
+      "category": {
+        "id": 123,
+        "name": "test"
+      },
+      "name": "fluffy",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+    ```
+
+2. Change the first `id` value to another integer (whole number) and the pet name of `fluffy`.
+
+    {{note}} Use unique numbers and names that others aren't likely to also use.{{end}}
+
+3. Save the file in this directory: `Users/{your username}`.
+4. In your Terminal, browse to the directory where you saved the mypet.json file. (Usually the default directory is `Users/{your username}` &mdash; hence the previous step.)
+
+    If you've never browsed directories using the command line, note these essential commands:
+
+    On a Mac, find your present working directory by typing `pwd`. Then move up by typing change directory: `cd ../`. Move down by typing `cd pets`, where `pets` is the name of the directory you want to move into. Type `ls` to list the contents of the directory.
+
+    On a PC, find your current directory by typing `cd` (or just look at the prompt path). Then move up by typing `cd ../`. Move down by typing `cd pets`, where `pets` is the name of the directory you want to move into. Type `dir` to list the contents of the current directory.
+
+3. Once your Terminal is in the same directory as your json file, create the new pet:
+
+    ```bash
+    curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d @mypet.json "http://petstore.swagger.io/v2/pet"
+    ```
+
+    The response should look something like this:
+
+    ```json
+    {"id":51231236,"category":{"id":4,"name":"testexecution"},"name":"fluffernutter","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+    ```
+
+    {{tip}} Feel free to run this same request a few times more. REST APIs are "idempotent," which means that running the same request more than once won't end up duplicating the results (you just create one pet here, now multiplet pets). Todd Fredrich explains idempotency by <a href="http://www.restapitutorial.com/lessons/idempotency.html">comparing it to a pregnant cow</a>. Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session. {{end}}
+
+## Update your pet
+{{activity}}
+Guess what, your pet hates its name. Change your pet's name to something more formal using the update pet method.
+
+1. In the mypet.json file, change the pet's name.
+2. Use the `PUT` method instead of `POST` with the same cURL content to update the pet's name:
+
+    ```bash
+    curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d @mypet.json "http://petstore.swagger.io/v2/pet"
+    ```
+
+## Get your pet's name by ID
+{{activity}}
+Now you want to find your pet's name by passing the ID into the `/pet/{petID}` endpoint.
+
+1. In your mypet.json file, copy the first `id` value.
+2. Use this cURL command to get information about that pet ID, replacing {51231236} with your pet ID.
+
+    ```bash
+    curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/51231236"
+    ```
+
+    The response contains your pet name and other information:
+
+    ```json
+    {"id":51231236,"category":{"id":4,"name":"test"},"name":"mr. fluffernutter","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+    ```
+
+    You can format the JSON by pasting it into a [JSON formatting tool](http://jsonprettyprint.com/):
+
+    ```json
+    {
+      "id": 51231236,
+      "category": {
+        "id": 4,
+        "name": "test"
+      },
+      "name": "mr. fluffernutter",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+    ```
+
+## Delete your pet
+{{activity}}
+Unfortunately, your pet has died. It's time to delete your pet from the pet registry. &lt;cry + tears / &gt;
+
+1. Use the DELETE method to remove your pet. Replace `5123123` with your pet ID:
+
+    ```bash
+    curl -X DELETE --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
+    ```
+
+2. Now check to make sure your pet is really removed. Use a GET request to look for your pet with that ID:
+
+    ```bash
+    curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
+    ```
+
+    You should see this error message:
+
+    ```json
+    {"code":1,"type":"error","message":"Pet not found"}
+    ```
+
+## Conclusion
+
+This example has allowed you to see how you can work with cURL to create, read, update, and delete resources. These four operations are referred to as CRUD and are common to almost every programming language.
+
+Although Postman is probably easier to use, cURL lends itself to power usage. Quality assurance teams often construct advanced test scenarios that iterate through a lot of cURL requests.
+
+## From Postman to cURL and back again
+{{activity}}
+You can import cURL commands into Postman, and you can export Postman commands to cURL format.
+
+To import cURL into Postman:
+
+1. Open a new tab in Postman and click the **Import** button.
+2. Select **Paste Raw Text** and insert your cURL command:
+
+    ```bash
+    curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
+    ```
+
+    <img src="{{ "/images/restapicourse/postmanimport.png" | prepend: site.baseurl }}" alt="Importing into Postman" />
+
+    Make sure you don't have any extra spaces at the beginning.
+
+3. Click **Import**.
+4. Close the dialog box.
+5. Click **Send**.
+
+To export Postman into cURL:
+
+1. In Postman, click the **Generate Code Snippet** button.
+
+    <img src="{{ "/images/restapicourse/postmangeneratecodesnippet.png" | prepend: site.baseurl }}" alt="Generating code snippets" />
+
+2. Select **Curl** from the menu.
+3. Copy the code snippet.
+
+    ```bash
+    curl -X GET -H "Accept: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: e40c8069-21db-916e-9a94-0b9a42b39e1b" 'http://petstore.swagger.io/v2/pet/5123123'
+    ```
+
+    You can see that Postman adds some extra header information into the request. This extra header information is unnecessary and can be removed.
+
+
+
