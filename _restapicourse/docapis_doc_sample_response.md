@@ -28,6 +28,8 @@ If the labels in the response are abbreviated or non-intuitive, however, you def
 
 Plus, if you're documenting some of the response items but not others, the doc will look inconsistent.
 
+One of the problems with the Mashape Weather API is that it doesn't describe the meaning of the responses. If the air quality index is `25`, is that a good or bad value when compared to `65`? What is the scale to? Some air quality indexes are on a scale from 1 to 10. Does each city/country define its own index? Does a high number indicate a poor quality of air or a high quality? How does air quality differ from air pollution? These are the types of answers one would hope to learn in a description of the responses.
+
 ## Strategies for documenting nested objects
 
 Many times the response contains nested objects (objects within objects). Here Dropbox represents the nesting by using a slash. For example, `team/name` provides the documentation for the `name` object within the `team` object.

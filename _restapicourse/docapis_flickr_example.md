@@ -8,63 +8,68 @@ weight: 4.0
 type: notes_docapis
 date: January 15, 2015
 ---
-In this Flickr API example, you'll see that our goal requires us to call several endpoints. The point is that just having an API reference that lists the endpoints and responses isn't enough. Often one endpoint requires other endpoints, and so on.
+{% include notes.html %}
+## Overview
+In this Flickr API example, you'll see that our goal requires us to call several endpoints. You'll see that just having an API reference that lists the endpoints and responses isn't enough. Often one endpoint requires other endpoint responses as inputs, and so on.
 
-Suppose we want to get all the photos from a [specific Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) and display them on a web page. Here's the gallery we want:
+In this example, we want to get all the photos from a [specific Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) and display them on a web page. Here's the gallery we want:
 
 <a href="https://www.flickr.com/photos/flickr/galleries/72157647277042064/"><img src="{{ "/images/restapicourse/flickrgallery.png" | prepend: site.baseurl }}" alt="Flickr gallery" /></a>
 
-From the list of [Flickr's API methods](https://www.flickr.com/services/api/), the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) is the one that will get photos from a gallery.
+## 1. Get an API key to make requests
+
+Before you can make request with the Flickr API, you'll need a API key, which you can read more about [here](https://www.flickr.com/services/apps/create/). When you register an app, you're given a key and secret.
+
+## 2. Determine the resource and endpoint you need
+From the list of [Flickr's API methods](https://www.flickr.com/services/api/), the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint, which is listed under the galleries resource, is the one that will get photos from a gallery.
 
 <a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="{{ "/images/restapicourse/flickr_get_photos.png" | prepend: site.baseurl }}" alt="Flickr getPhotos endpoint" /></a>
 
-You can see that each endpoint has some common sections:
+One of the arguments we need for the getPhotos endpoint is the gallery ID. Before we can get the gallery ID, however, we have to use another endpoint to retrieve it. *Rather unintuitively, the gallery ID is <em>not</em> the ID that appears in the URL of the gallery.*
 
-* the endpoint
-* what it returns
-* authentication
-* arguments
-* example response
-* error codes
-* API Explorer
-
-One of the arguments we need is the gallery ID. Before we can use this endpoint, we have to use another endpoint to get the gallery ID, because (rather unintuitively) the gallery ID is <em>not</em> the ID that appears in the URL of the gallery.
-
-We use the [flickr.urls.lookupGallery](https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery) endpoint to get the gallery ID from a gallery URL:
+We use the [flickr.urls.lookupGallery](https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery) endpoint listed in the URLs resource section to get the gallery ID from a gallery URL:
 
 <a href="https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery"><img src="{{ "/images/restapicourse/flickr_gallery_id.png" | prepend: site.baseurl }}" alt="Flickr lookupGallery endpoint endpoint" /></a>
 
-The API Explorer makes the following call:
+The gallery ID is `66911286-72157647277042064`. We now have the arguments we need for the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint.
+
+## 2. Construct the request
+
+We can make the request to get the list of photos for this specific gallery ID.
+
+Flickr provides an API Explorer to simplify calls to the endpoints. If we go to the [API Explorer for the galleries.getPhotos endpoint](https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos), we can plug in the gallery ID and see the response, as well as get the URL syntax for the endpoint.
+
+<a href="https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos"><img src="{{ "/images/restapicourse/flickrcallmethod.png" | prepend: site.baseurl }}" alt="Using the Flickr API Explorer to get the request syntax" /></a>
+
+Insert the gallery ID, select **Do not sign call** (we're just testing here, so we don't need extra security), and then click **Call Method**.
+
+Here's the result:
+
+<img src="{{ "/images/restapicourse/flickrresultfromcallmethod.png" | prepend: site.baseurl }}" alt="Flickr gallery response" /></a>
+
+The URL below the response shows the right syntax for using this method:
 
 ```
-https://api.flickr.com/services/rest/?method=flickr.urls.lookupGallery&api_key={api key}&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fflickr%2Fgalleries%2F72157647277042064%2F&format=json&nojsoncallback=1&auth_token=72157657470380250-0cfa7ca879f427d1&api_sig=e5e67cea50f032c9b911a9de51c4ce42
+https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key={api key}&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1
 ```
 
-If you send this request via your browser, you see:
+{{note}} I have removed my API key from code samples to prevent possible abuse to my API keys. If you're following along, swap in your own API key here.{{end}}
 
-<img src="{{ "/images/restapicourse/flickr_response.png" | prepend: site.baseurl }}" alt="Flickr response" />
+If you submit the request direct in your browser using the given URL, you can see the same response but in the browser rather than the API Explorer:
 
-Note that I'm using the [JSON Formatting extension for Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) to make the JSON response more readable. Without this plugin, the JSON response is compressed.
+<img src="{{ "/images/restapicourse/flickrresponseinbrowser.png" | prepend: site.baseurl }}" alt="Flickr response in browser" />
 
-The gallery ID is `66911286-72157647277042064`. We now have the arguments we need for the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint. If I go to the [API Explorer for this endpoint](https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos), I can plug in the gallery ID.
+{{tip}}I'm using the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">JSON Formatting extension for Chrome</a> to make the JSON response more readable. Without this plugin, the JSON response is compressed. {{end}}
 
-<a href="https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos"><img src="{{ "/images/restapicourse/flickr_gallery_response.png" | prepend: site.baseurl }}" alt="Flickr gallery response" /></a>
+## 4. Analyze the response
 
-Flickr's API Explorer simplifies the process of adding arguments to the endpoint. I can see the response from my request in the API Explorer. Many APIs have an API Explorer tool that makes it easy to construct requests with the parameters configured correctly. However, I can also go to the endpoint auto-generated from the arguments I entered and see the response directly in the browser:
+All the necessary information is included in this response in order to display photos on our site, but it's not entirely intuitive how we construct the image source URLs from the response.
 
-```
-https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key={api key}&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1&auth_token=72157657470380250-0cfa7ca879f427d1&api_sig=971f7ef555a702c646975144b5c16c9b
-```
-
-Here's the JSON response in the browser:
-
-<img src="{{ "/images/restapicourse/rawjsonflickr-550x460.png" | prepend: site.baseurl }}" alt="Flickr raw JSON response" />
-
-All the necessary information is included in this response in order to display photos on our site, but it's not entirely intuitive how we construct the image source URLs from the response. Note that, once again, the information a user needs to actually achieve a goal isn't explicit in the API reference documentation. All the reference doc explains is what gets returned in the response, not how to actually use the response.
+Note that the information a user needs to actually achieve a goal isn't explicit in the API *reference* documentation. All the reference doc explains is what gets returned in the response, not how to actually use the response.
 
 The [Photo Source URLs](https://www.flickr.com/services/api/misc.urls.html) page in the documentation explains it:
 
-```
+<blockquote>
 You can construct the source URL to a photo once you know its ID, server ID, farm ID and secret, as returned by many API methods.
 The URL takes the following format:
 <pre>https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
@@ -72,7 +77,7 @@ The URL takes the following format:
 https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg
     or
 https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|png)
-```
+</blockquote>
 
 Here's what an item in the JSON response looks like:
 
@@ -100,9 +105,9 @@ Here's what an item in the JSON response looks like:
 
 You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.
 
-## Displaying the photos using jQuery
+### 5. Pull out the information you need
 
-The following code uses jQuery to loop through each of the responses and inserts the necessary components into an image tag to display each photo. Usually in documentation you don't need to be so explicit about how to use a common language like jQuery. You assume that the developer is capable in a specific language (just not with your API).
+The following code uses jQuery to loop through each of the responses and inserts the necessary components into an image tag to display each photo. Usually in documentation you don't need to be so explicit about how to use a common language like jQuery. You assume that the developer is capable in a specific programming language.
 
 ```html
 <html>
@@ -143,9 +148,8 @@ console.log(farmId + ", " + serverId + ", " + id + ", " + secret);
 
 $("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
 
-
 });
-    	});
+});
 
 </script>
 
@@ -163,12 +167,13 @@ And the result looks like this:
 
 <img src="{{ "/images/restapicourse/flickrcolorgallerydemo-550x190.png" | prepend: site.baseurl }}" alt="Flickr gallery demo" />
 
-<h2>Code explanation</h2>
+## Code explanation
+
+{{note}}Note that this code uses JavaScript logic that is usually beyond the need to include in documentation. However, if it was a common scenario to embed a gallery of images on a web page, this kind of code and explanation would be helpful.{{end}}
 
 * In this code, the [ajax method](http://api.jquery.com/jquery.ajax/) from jQuery gets the JSON payload. The payload is assigned to the `data` argument and then logged to the console.
 * The data object contains an object called `photos`, which contains an array called `photo`. The `title` field is a property in the photo object. The `title` is accessed through this dot notation: `data.photos.photo[0].title`.
-* To get each item in the object, jQuery's [each method](http://api.jquery.com/jquery.each/) loops through an object's properties.
-* By the way, the jQuery `each` method is commonly used for looping through results to get values. Here's how it works. For the first argument (`data.photos.photo`), you identify the object that you want to access.
+* To get each item in the object, jQuery's [each method](http://api.jquery.com/jquery.each/) loops through an object's properties. Note that jQuery `each` method is commonly used for looping through results to get values. Here's how it works. For the first argument (`data.photos.photo`), you identify the object that you want to access.
 * For the `function( i, gp )` arguments, you list an index and value. You can use any names you want here. `gp` becomes a variable that refers to the `data.photos.photo` object you're looping through. `i` refers to the starting point through the object. (You don't actually need to refer to `i` beyond the mention here unless you want to begin the loop at a certain point.)
 * To access the properties in the JSON object, we use `gp.farm` instead of `data.photos.photo[0].farm`, because `gp` is an object reference to `data.photos.photo`.
 * After the `each` function iterates through the response, I added some variables make it easier to work with these components (using `serverId` instead of `gp.server`, etc.). And a `console.log` message checks to ensure we're getting values for each of the elements we need:

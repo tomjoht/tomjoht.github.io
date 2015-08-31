@@ -49,11 +49,18 @@ You can see a list of common [REST API status codes here](http://www.restapituto
 
 ## Where to list the HTTP response and error codes
 
-Most APIs should have a general page listing response and error codes across the entire API. Twitter's API has a good example of the possible status and error codes you will receive when making requests.
+Most APIs should have a general page listing response and error codes across the entire API. Twitter's API has a good example of the possible status and error codes you will receive when making requests:
 
 <a href="https://dev.twitter.com/overview/api/response-codes"><img src="{{ "/images/restapicourse/twitterstatuscode.png" | prepend: site.baseurl }}" alt="Twitter API status codes" /></a>
 
-This information may not be readily apparent when you're documenting your API. You will need to ask developers for a list of all the status codes. In particular, if developers have created special status codes for the API, highlight these in the documentation. 
+In contrast, with the Flickr API, each "method" (endpoint) lists error codes:
+
+<a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="{{ "/images/restapicourse/flickrerrorcodes.png" | prepend: site.baseurl }}" alt="Flickr API" /></a>
+
+Either location has merits, but my preference is a single centralized page for the entire API because listing them out on each endpoint page would add a lot of extra repeated words on each page.
+
+## Where to get error codes
+Error code may not be readily apparent when you're documenting your API. You will need to ask developers for a list of all the status codes. In particular, if developers have created special status codes for the API, highlight these in the documentation.
 
 For example, if you exceed the rate limit for a specific all, the API might return a special status code. You would especially need to document this custom code. Listing out all the error codes is an reference in the "Troubleshooting" section of your API documentation.
 

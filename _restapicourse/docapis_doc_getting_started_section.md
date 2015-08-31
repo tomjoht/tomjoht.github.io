@@ -16,8 +16,29 @@ The "Getting started" section should explain the first steps users must take to 
 
 * Signing up for an account
 * Getting API keys
+* Making a request
 * Reviewing the endpoints available
 * Calling a specific endpoint
+
+## Show the general pattern for requests
+
+When you start listing out the endpoints for your resources, you just list the "end point" part of the URL. You don't list the full HTTP URL that users will need to make the request. Listing out the full HTTP URL with each endpoint would be tedious and take up a lot of space.
+
+You generally list the full HTTP URL in a Getting Started section that shows how to make a call to the API.
+
+For example, you might explain that the domain root for making a request is this:
+
+```
+http://myapi.com/v2/
+```
+
+And when you combine the domain root with a sample endpoint (or resource root), it looks like this:
+
+```
+http://myapi.com/v2/homes/{id}
+```
+
+Once users know the domain root, they can easily add any endpoint to that domain root to construct a request.
 
 ## Sample Getting Started sections
 Here's the Getting Started section from the Alchemy API:

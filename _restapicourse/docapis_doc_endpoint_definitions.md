@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## Terminology for the endpoint definition varies
 
-Now let's document the endpoints. When you list the endpoint definitions / URLs, the term you use to describe this section also varies. Here are some terms I see:
+Now let's document the endpoints. When you list the endpoint definitions / URLs, the term you use to describe this section also varies. Here are some terms you might see:
 
 * Requests
 * Endpoints
@@ -41,7 +41,15 @@ If you have parameter values, represent them through curly braces. For example, 
 
 Curly braces are a convention that users will understand. In the above example, almost no URL uses curly braces in the syntax, so the `{campaign_id}` is an obvious placeholder.
 
-However, if the placeholder name is ambiguous as to whether it's a placeholder or what you're really supposed to write in the path, clarify it.
+Another convention it to represent parameter values with a colon, like this:
+
+```
+/campaigns/:campaign_id/actions/send
+```
+
+You can see this convention in the [EventBrite API](https://www.eventbrite.com/developer/v3/).
+
+In general, if the placeholder name is ambiguous as to whether it's a placeholder or what you're really supposed to write in the path, clarify it.
 
 ## You can list the method beside the endpoint
 

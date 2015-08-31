@@ -53,9 +53,11 @@ Despite the variety of message format options, most REST APIs use JSON (JavaScri
 The lightweight nature of JSON also allows for mobile processing scenarios and is easy to parse on the web using JavaScript. In contrast, with XML, you have to use XSLT to parse and process the content.
 
 ### Focus on resources through URIs
-REST APIs focus on *resources* (that is, *things*, rather than actions, as SOAP does), and ways to access the resources. You access the resources through URIs (Uniform Resource Identifiers). The URIs are accompanied by a method that specifies how you want to interact with the resource.
+REST APIs focus on *resources* (that is, *things*, rather than actions, as SOAP does), and ways to access the resources. You access the resources through URLs (Uniform Resource Locations). The URLs are accompanied by a method that specifies how you want to interact with the resource.
 
-Common methods include GET (read), POST (create), PUT (update), and DELETE (remove). The URI also may include query parameters that specify more details about the representation of the resource you want to see. For example, you might specify in a query parameter that you want to limit the display of 5 instances of the resource (rather than whatever the default might be).
+Common methods include GET (read), POST (create), PUT (update), and DELETE (remove). The URL also may include query parameters that specify more details about the representation of the resource you want to see. For example, you might specify in a query parameter that you want to limit the display of 5 instances of the resource (rather than whatever the default might be).
+
+{{tip}}The relationship between resources and methods is often described in terms of nouns and verbs. The resource is the noun, because it is an object or thing. The verb is what you're doing with that noun. Combining nouns with verbs is how you form the language in a REST API.{{end}}
 
 ### Sample URIs/endpoints
 Here's what a sample REST URI might look like:

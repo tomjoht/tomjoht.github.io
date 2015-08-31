@@ -35,6 +35,10 @@ It's important to list the data type for each parameter because APIs may not pro
 
 There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. However, you usually don't have to specify this level of detail with a REST API. You can probably   just write "number".
 
+## Parameters should list allowed values
+
+One of the problems with the Mashape Weather API is that it doesn't tell you which values are allowed for the latitude and longitude. If you type in coordinates for Bangalore, for example, `12.9539974` and `77.6309395`, the response is `Not Supported - IN - India - IN-KA`. Which cities are supported, and where does one look to see a list? This information should be made explicit in the description of parameters.
+
 ## Parameter order doesn't matter
 
 Often the parameters are added with a query string (`?`) at the end of the endpoint, and then each parameter is listed one right after the other with an ampersand (`&`) separating them. Usually the order in which parameters are passed to the endpoint does not matter. 

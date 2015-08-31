@@ -41,10 +41,18 @@ In contrast, look at Twitter's API. This page is called [GET statuses/retweets/:
 
 <a href="https://dev.twitter.com/rest/reference/get/statuses/retweets/%3Aid"><img src="{{ "/images/restapicourse/twitterresource.png" | prepend: site.baseurl }}" alt="How Twitter refers to resources" /></a>
 
-Here's the approach by Instagram. Their doc calls it endpoints in the plural -- e.g., "Relationship endpoints," with each endpoint listed on the relationship page.
+Here's the approach by Instagram. Their doc calls it "endpoints" in the plural -- e.g., "Relationship endpoints," with each endpoint listed on the relationship page.
 
 <a href="{{ "https://instagram.com/developer/endpoints/relationships/" | prepend: site.baseurl }}">
 <img src="{{ "/images/restapicourse/instagramendpoints.png" | prepend: site.baseurl }}"/></a>
+
+The EventBrite API shows a list of endpoints, but when you go to an endpoint, what you're really seeing is an object. On the object's page you can see the variety of endpoints you can use with the object.
+
+<a href=""><img src="{{ "/images/restapicourse/eventbriteobjects.png" | prepend: site.baseurl }}" alt="Eventbrite" /></a>
+
+{{tip}} Remember the distinction between resources and endpoitns. A resource (or "object") can have many different endpoints and methods you can use with it. When you're writing documentation, it probably makes sense to group content by resources and then list the available endpoints for each resource on the resource's page, or as subpages under the resource.{{end}}
+
+This simple example with the Mashape Weather API, however, just has three different endpoints. There's not a huge reason to separate out endpoints by resource.
 
 ## When it gets confusing to refer to resources by the endpoint
 
