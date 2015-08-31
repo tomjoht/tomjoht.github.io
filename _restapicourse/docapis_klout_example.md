@@ -4,6 +4,8 @@ title: 'Klout example: Retrieve Klout score'
 permalink: /docapis_klout_example/
 categories:
 - api-doc
+course: "Documenting REST APIs"
+weight: 4.1
 type: notes_docapis
 ---
 [Klout](http://klout.com) is a service that gauges your online influence (your klout) by measuring tweets, retweets, likes, etc. from a variety of social networks using a sophisticated algorithm. In this tutorial, we'll use the Klout API to retrieve a Klout score for a particular Twitter handle.

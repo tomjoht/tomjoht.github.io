@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2.4
+weight: 2.8
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -40,7 +40,7 @@ However, if you don't have the right data in your system, using your own API key
 
 ## API Explorers can be dangerous in the hands of a newbie
 
-Additionally, the API Explorer can be a dangerous addition to your site. What if a novice user trying out a DELETE method accidentally removes data? And how do you later remove the test data added by POST or PUT methods? It's one thing to allow GET methods, but if you include other methods, users could inadvertently corrupt up their data. 
+Additionally, the API Explorer can be a dangerous addition to your site. What if a novice user trying out a DELETE method accidentally removes data? And how do you later remove the test data added by POST or PUT methods? It's one thing to allow GET methods, but if you include other methods, users could inadvertently corrupt up their data. With [IBM's Watson APIs](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/), which use the Swagger UI, they removed the Try it out button.
 
 In Sendgrid's API, they include a warning message to users before testing out calls with their API Explorer:
 
@@ -48,26 +48,26 @@ In Sendgrid's API, they include a warning message to users before testing out ca
 
 Some platforms such as [Swagger](http://swagger.io/) and [Readme.io](http://readme.io) can integrate an API Explorer functionality directly into your documentation. 
 
-As far as integrating other API Explorer tooling, this is a task that should be relatively easy for developers. All the Explorer does it map values from a field to an API call and return the response to the same interface. In other words, the API plumbing is all there -- you just need a little JavaScript and front-end skills to make it happen.
+As far as integrating other API Explorer tooling, this is a task that should be relatively easy for developers. All the Explorer does it map values from a field to an API call and return the response to the same interface. In other words, the API plumbing is all there &mdash; you just need a little JavaScript and front-end skills to make it happen.
 
 ## If different requests return different responses, show multiple responses
 
 One of the problems with showing a sample request and sample response is that different requests return different responses. Depending on the parameters you include, the response will be tailored to those parameters. 
 
-If the requests and responses vary dramatically, consider including multiple response examples. How many different requests and responses should you show? There's probably no easy answer; you decide what makes sense for your API.
+If the requests and responses vary dramatically, consider including multiple response examples. How many different requests and responses should you show? There's probably no easy answer, but probably no more than 3. You decide what makes sense for your API.
 
 ## Document the sample request with the surfreport/{beachId} endpoint
-
-Come back to the surfreport/{beachId} endpoint example. Create a sample request for it.
+{{activity}}
+Come back to the `surfreport/{beachId}` endpoint example. Create a sample request for it.
 
 Here's mine: 
 
 <div class="docSample">
 
+<h2>Sample request</h2>
 {% highlight bash %}
-
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
-  -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
+  -H 'X-Mashape-Key: {api key}'
   -H 'Accept: application/json'
 {% endhighlight %}
 </div>

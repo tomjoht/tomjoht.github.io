@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 1.9
+weight: 2.2
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -50,64 +50,64 @@ Let's say you wanted to print part of the JSON (the description element) to the 
 
 1. Add a named element to the body of your page, like this:
 
-```
-<div id="weatherDescription"></div>
-```
+    ```
+    <div id="weatherDescription"></div>
+    ```
 
 2. Inside the tags of your `done` method, pull out the value you want into a variable, like this:
 
-```
-var content = "data.query.results.channel.item.description";
-```
+    ```
+    var content = "data.query.results.channel.item.description";
+    ```
 
 3. Below this (same section) use the jQuery `append` method to append the variable to the element on your page:
 
-```
-$("#weatherDescription").append(content);
-```
-
-This code says, find the element with the ID `weatherDescription` and append the `content` to it.
-
-Your entire code should look as follows:
-
-```
-<html>
-<body>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-<script>
-  var settings = {
-    "async": true,
-    "crossDomain": true,
-    "dataType": "json",
-  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
-    "method": "GET",
-  "headers": {
-    "accept": "application/json",
-    "x-mashape-key": "{api key}"
-  }
-}
-
-  $.ajax(settings)
-
-  .done(function (response) {
-    console.log(response);
-
-    var content = response.query.results.channel.item.description;
+    ```
     $("#weatherDescription").append(content);
-  });
-</script>
+    ```
 
-<div id="weatherDescription"></div>
-</body>
-</html>
-```
+    This code says, find the element with the ID `weatherDescription` and append the `content` to it.
 
-Here's the result:
+    Your entire code should look as follows:
 
-<img src="{{ "/images/restapicourse/weatherdatabrowserdisplay.png" | prepend: site.baseurl }}" alt="Printing JSON to the page" />
+    ```
+    <html>
+    <body>
 
-Now change the display to access the wind speed instead.
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script>
+    var settings = {
+      "async": true,
+      "crossDomain": true,
+      "dataType": "json",
+    "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+      "method": "GET",
+    "headers": {
+      "accept": "application/json",
+      "x-mashape-key": "{api key}"
+    }
+    }
+
+    $.ajax(settings)
+
+    .done(function (response) {
+      console.log(response);
+
+      var content = response.query.results.channel.item.description;
+      $("#weatherDescription").append(content);
+    });
+    </script>
+
+    <div id="weatherDescription"></div>
+    </body>
+    </html>
+    ```
+
+    Here's the result:
+
+    <img src="{{ "/images/restapicourse/weatherdatabrowserdisplay.png" | prepend: site.baseurl }}" alt="Printing JSON to the page" />
+
+    Now change the display to access the wind speed instead.
 
 

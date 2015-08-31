@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2.7
+weight: 3.0
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -25,7 +25,7 @@ And another from Twilio:
 
 <a href="https://www.twilio.com/docs/api/rest/making-calls"><img src="{{ "/images/restapicourse/twiliocodeexamples.png" | prepend: site.baseurl }}" alt="Twilio code samples" /></a>
 
-However, don't feel so intimidated by this smorgasbord of code samples. Some API doc tools might actually automatically generate these code samples because the patterns for making REST requests in different programming languages follow a common template. This is why may APIs decide to provide one code sample (usually in cURL) and let the developer extrapolate the format in his or her own programming language.
+However, don't feel so intimidated by this smorgasbord of code samples. Some API doc tools might actually automatically generate these code samples because the patterns for making REST requests in different programming languages follow a common template. This is why many APIs decide to provide one code sample (usually in cURL) and let the developer extrapolate the format in his or her own programming language.
 
 ## Auto-generating code samples
 
@@ -41,19 +41,23 @@ Once you install them, generating a code sample is a one-click operation:
 
 The Postman app has these most of these code generators built in.
 
+{{note}} Although these code generators are probably helpful, they may or may not work for your API. Always review code samples with developers. In most cases, developers supply the code samples for the documentation, and technical writers briefly comment on the code samples. {{end}}
+
 ## Generate a JavaScript code sample from Postman
 
 {{activity}}
+
+{{note}} We covered some of this material earlier in more depth, so here I just cover it more briefly. {{end}}
 To generate a JavaScript code snippet from Postman:
 
 1. Configure a weatherdata request in Postman (or select one you've saved).
-2. Below the Send button, click the Generate Code Snippets button. <img class="inline" src="{{ "/images/postman_generate_button.png" | prepend: site.baseurl }}" alt="Postman Generate Code Snippets" />.
+2. Below the Send button, click the **Generate Code Snippets** button.
 3. In the dialog box that appears, browse the available code samples using the drop-down menu. Note how your request data is implemented into each of the different code sample templates.
 4. Select the **JavaScript > jQuery AJAX** code sample:
 
     <img src="{{ "/images/postman_code_snippets.png" | prepend: site.baseurl }}" alt="" />
 
-5. Copy the content by clicking the **Copy** button <img class="inline" src="{{ "/images/postman_copy_code.png" | prepend: site.baseurl }}" alt="Copy button in Postman" />.
+5. Copy the content by clicking the **Copy** button.
 
 This is the JavaScript code that you can attach to an event on your page.
 
@@ -86,7 +90,7 @@ var settings = {
   "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"
+    "x-mashape-key": "{api key}"
   }
 }
 
@@ -96,7 +100,7 @@ $.ajax(settings).done(function (response) {
 </script>
 </head>
 <body>
-hello
+
 </body>
 </html>
 ```
@@ -116,7 +120,7 @@ var settings = {
   "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"
+    "x-mashape-key": "{api key}"
   }
 }
 
@@ -134,6 +138,7 @@ hello
 This code uses the `ajax` method from jQuery. The parameters are defined in a variable called `settings` and then passed into the method. The `ajax` method will make the request and assign the response to the `done` method's argument (`response`). The `response` object will be logged to the console.
 
 Open the file up in your Chrome browser.
+
 Open the JavaScript Developer Console by going to **View > Developer > JavaScript Console**. Refresh the page.
 You should see the object logged to the console.
 
@@ -154,7 +159,7 @@ var settings = {
   "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"
+    "x-mashape-key": "{api key}"
   }
 }
 
@@ -175,9 +180,11 @@ This code uses the `append` method from jQuery to assign a value from the respon
 
 ## SDKs provide tooling for APIs
 
-A lot of times, developers will create an SDK (software development kit) that accompanies a REST API. The SDK helps developers implement the API using specific tooling. For example, when I worked at Badgeville, we had both a REST API and a JavaScript SDK. Because JavaScript was the target language developers were working in, Badgeville developed a JavaScript SDK to make it easier to work with REST using JavaScript.
+A lot of times, developers will create an SDK (software development kit) that accompanies a REST API. The SDK helps developers implement the API using specific tooling.
 
-An SDK is any kind of tooking that makes it easier to work with your API. SDKs are usually specific to a particular language platform. If you have an SDK, you'll want to make more detailed code samples showing how to use the SDK.
+For example, when I worked at Badgeville, we had both a REST API and a JavaScript SDK. Because JavaScript was the target language developers were working in, Badgeville developed a JavaScript SDK to make it easier to work with REST using JavaScript. You could submit REST calls through the JavaScript SDK, passing a number of parameters relevant to web designers.
+
+An SDK is any kind of tooking that makes it easier to work with your API. SDKs are usually specific to a particular language platform. Sometimes they are GUI tools. If you have an SDK, you'll want to make more detailed code samples showing how to use the SDK.
 
 ## General code samples
 
@@ -187,52 +194,13 @@ Although you could provide general code samples for every language with every ca
 
 Although the Mashape Weather API doesn't provide a code sample in the Weather API page, Mashape as a platform provides a general code sample on their [Consume an API in JS](http://docs.mashape.com/javascript) page. The writers explain that you can consume the API with code on an HTML web page like this:
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-  <meta charset="utf-8">
-  <title>Mashape Query</title>
-  <script>
-	function doIt() { 
- var output = $.ajax({
-    url: 'https://SOMEAPI.p.mashape.com/', // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
-    type: 'GET', // The HTTP Method, can be GET POST PUT DELETE etc
-    data: {}, // Additional parameters here
-    dataType: 'json',
-    success: function(data) {
-    	//
-        //Change data.source to data.something , where something is whichever part of the object you want returned.
-        //To see the whole object you can output it to your browser console using:
-        //console.log(data);
-       	document.getElementById("output").innerHTML = data.source; 
-        },
-    error: function(err) { alert(err); },
-    beforeSend: function(xhr) {
-    xhr.setRequestHeader("X-Mashape-Authorization", "YOUR_API_KEY"); // Enter here your Mashape key
-    }
-});
-  
+<img src="{{ "/images/restapicourse/mashapejsconsumption.png" | prepend: site.baseurl }}" alt="Consuming a REST API through JavaScript" />
 
-}
-
-</script>
-</head>
-<body>
-
-  <button onclick="doIt()">Run the request</button>
-  <div id="output">The API request is:</div>
-  
-</body>
-</html>
-```
-
-You already worked with this code earlier, so it shouldn't be new. It's the same code as the JavaScript snippet we just used, but here there's an error function defined an the header is set a bit differently.
+You already worked with this code earlier, so it shouldn't be new. It's most same code as the JavaScript snippet we just used, but here there's an error function defined, and the header is set a bit differently.
 
 ## Your turn to practice: Create a code sample and documentation for surfreport
-
-As a technical writer, add a code sample to the surfreport/{beachId} endpoint that you're documenting. Use the same code as above, but customize it with the Weather API, and add a short description about why the code is doing what it's doing.
+{{activity}}
+As a technical writer, add a code sample to the `surfreport/{beachId}` endpoint that you're documenting. Use the same code as above, and add a short description about why the code is doing what it's doing.
 
 Here's my approach:
 
@@ -242,52 +210,44 @@ Here's my approach:
 <p>The following code samples shows how to use the surfreport endpoint to get the surf conditions for a specific beach. In this case, the code shows the overall recommendation about whether to go surfing.</p>
 
 {% highlight html %}
+```html
 <!DOCTYPE html>
-<html>
 <head>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <meta charset="utf-8">
-  <title>API Weather Query</title>
-  <script>
-
-  function getSurfReport() { 
-
-// use AJAX to avoid CORS restrictions in API calls.
- var output = $.ajax({
-    url: 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000', 
-    type: 'GET', 
-    data: {}, 
-    dataType: 'json',
-    success: function(data) {
-        //Here we pull out the recommendation from the JSON object.
-        //To see the whole object, you can output it to your browser console using console.log(data);
-        document.getElementById("output").innerHTML = data.surfreport[0].monday.2pm.recommendation; 
-        },
-    error: function(err) { alert(err); },
-    beforeSend: function(xhr) {
-    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"); // Enter here your Mashape key
-    }
-});
-  
+<script>
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "dataType": "json",
+  "url": "https://simple-weather.p.mashape.com/surfreport/25",
+  "method": "GET",
+  "headers": {
+    "accept": "application/json",
+    "x-mashape-key": "{api key}"
+  }
 }
- 
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  $("#surfheight").append(response.query.results.channel.surf.height);
+});
 </script>
 </head>
 <body>
- 
-  <button onclick="getSurfReport()">See the surfing recommendation</button>
-  <div id="output"></div>
-  
+<h2>Surf Height</h2>
+<div id="surfheight"></div>
 </body>
 </html>
-{% endhighlight %}
+```{% endhighlight %}
 
-<p>In this example, the <code>ajax</code> method from jQuery is used because it allows cross-origin resource sharing (CORS) for the weather resources.</p>
+<p>In this example, the <code>ajax</code> method from jQuery is used because it allows us to load a remote resource asynchronously.</p>
 <p>In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.</p>
 
-<p>For demonstration purposes, the response is assigned to the <code>data</code> argument of the success method, and then written out to the <code>output</code> tag on the page.</p>
+<p>For demonstration purposes, the response is assigned to the <code>response</code> argument of the <code>done</code> method, and then written out to the <code>surfheight</code> tag on the page.</p>
 
-<p>We're just getting the surfing recommendation, but there's a lot of other data you could choose to display.</p>
+<p>We're just getting the surf height, but there's a lot of other data you could choose to display.</p>
 </div>
+
+You probably wouldn't include a detailed code sample like this for just one endpoint, but including some kind of code sample is almost always helpful.
 
 

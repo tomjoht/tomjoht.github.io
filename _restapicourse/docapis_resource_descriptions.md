@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2.1
+weight: 2.5
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -25,7 +25,9 @@ When it comes to the right terminology to describe the resource, practices vary.
 
 Some docs get around the situation by not calling them anything explicitly. 
 
-You could probably choose the terms that you like best. My favorite is to use *resources* and *endpoints*. An API has various "resources" that you access through "endpoints." The endpoint gives you access to a resource. The endpoint is the URI path (in this example, `/surfreport`). The information the endpoint interacts with, though, is called a resource.
+You could probably choose the terms that you like best. My favorite is to use *resources* and *endpoints*. An API has various "resources" that you access through "endpoints." The endpoint gives you access to a resource. The endpoint is the URL path (in this example, `/surfreport`). The information the endpoint interacts with, though, is called a resource.
+
+{{tip}} A URI (Uniform Resource Identifier) describes what something is, whereas a URL (Uniform Resource Location) tells you where to locate it. Hence the resource itself is a URI that you access using a URL.{{end}}
 
 ## Some examples
 
@@ -103,8 +105,8 @@ The resource description usually starts with a verb and is a fragment. Here are 
 * [Box API](https://box-content.readme.io/#add-a-comment-to-an-item)
 
 ## How I go about it
-
-Here's how I went about creating the endpoint description:
+{{activity}}
+Here's how I went about creating the endpoint description. If you want to try crafting your own description of the endpoint first, and then compare yours to mine, go for it. However, you can also just follow along here.
 
 <div class="docSample">
 <p>I start by making a list of what the resource contains. </p>
@@ -141,7 +143,7 @@ Provides surf condition information.
 
 ## Recognize the difference between reference docs versus user guides
 
-One thing to keep in mind is the difference betweeen reference docs and user guides and tutorials: 
+One thing to keep in mind is the difference betweeen reference docs and user guides/tutorials:
 
 * **Reference guides**: Concise, bare-bones information that developers can quickly reference.
 * **User guides/tutorials**: More elaborate detail about everything, including step-by-step instructions, code samples, concepts, and procedures.

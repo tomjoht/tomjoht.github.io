@@ -3,7 +3,7 @@ title: Using methods with cURL (petstore example)
 permalink: /docapis_curl_with_petstore/
 keywords: 
 course: "Documenting REST APIs"
-weight: 
+weight: 1.9
 type: notes_docapis
 ---
 {% include notes.html %}

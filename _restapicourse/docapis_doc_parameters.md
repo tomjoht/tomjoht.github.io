@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2.3
+weight: 2.7
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -16,7 +16,7 @@ Parameters refer to the various ways the endpoint can be configured to influence
 
 | Parameter | Required? | Data Type | Example |
 |-----------|-----------|-----------|---------|
-| value | value | value | value | 
+| format | optional | string | json |
 
 Here's an example from Yelp's documentation:
 
@@ -29,11 +29,11 @@ You can format the values in a variety of ways. If using a definition list or ot
 It's important to list the data type for each parameter because APIs may not process the parameter correctly if it's not formatted in the right way. These data types are the most common: 
 
 * **string**: An alphanumeric sequence of letters and possibly numbers. 
-* **integer**: A whole number -- can be positive or negative.
+* **integer**: A whole number &mdash; can be positive or negative.
 * **boolean**: true or false.
 * **object**: Key-value pairs in JSON format
 
-There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. In Java, you can have a byte, short, int, double, long, float, char, boolean, and so on. However, you usually don't have to specify this level of detail with a REST API.
+There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. However, you usually don't have to specify this level of detail with a REST API. You can probably   just write "number".
 
 ## Parameter order doesn't matter
 
@@ -45,7 +45,15 @@ For example:
 /surfreport/{beachId}?days=3&units=metric&time=1400
 ```
 
-If the parameter is part of the actual endpoint path (not added in the query string), such as with `{beachId}` above, then you usually describe this value in the description of the endpoint itself. 
+and
+
+```
+/surfreport/{beachId}?time=1400&units=metric&days=3
+```
+
+would return the same result.
+
+However, if the parameter is part of the actual endpoint path (not added in the query string), such as with `{beachId}` above, then you usually describe this value in the description of the endpoint itself.
 
 Here's an example from Twilio:
 
@@ -53,21 +61,18 @@ Here's an example from Twilio:
 
 The `{PhoneNumber}` value is described in the description of the endpoint rather than in another section that lists the query parameters you can pass to the endpoint.
 
-## Note any max and min values
+Here are a few other details to remember when describing parameters:
 
-If a parameter has a maximum or minimum value, or there are particular rate limits, you should note these when describing the parameters.
+* Note whether the parameter has a maximum or minimum value.
+* Note whether the parameters are optional or required.
 
-## Note whether parameters are optional or required
-
-Note whether the parameters are optional or required. 
-
-{{tip}} When you test the API, try running an endpoint without the required parameters. See what kind of response comes back (and include that response in your response codes section).{{end}}
+{{tip}} When you test the API, try running an endpoint without the required parameters, or with the wrong parameters. See what kind of error response comes back. Include that response in your response codes section.{{end}}
 
 ## Passing parameters in the JSON body
 
 Not all APIs use browser URLs to submit requests. Sometimes REST APIs allow only server-to-server communication. With this approach, you might pass parameters in the body of the POST in a JSON format. 
 
-For example, the endpoint URL may be something simple, such as /surfreport/{beachId}`. But in the body of the HTTP request, you include a JSON object formatted as such:
+For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the HTTP request, you include a JSON object formatted, like this:
 
 ```
 {
@@ -82,10 +87,10 @@ This kind of submission is common when you have a lot of parameters available. S
 ## Time values usually follow ISO or Unix formats
 Time values usually follow either the <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO-8601 format</a>, or the <a href="http://en.wikipedia.org/wiki/Unix_time">Unix timestamp format</a>. You can get the Unix time <a href="http://www.unixtimestamp.com/">using a converter</a>. 
 
-The Unix time is the number of milliseconds to the current date from January 1, 1970. This number gives you an easy integer to insert into a resource URL, but it's not very readable. In contrast, the ISO-8601 format is more readable but more susceptible to formatting or time zone error.
+The Unix time is the number of milliseconds to the current date from January 1, 1970. This number gives you an easy integer to insert into a resource URL, but it's not very readable. In contrast, the ISO-8601 format is more readable but more susceptible to formatting or time zone errors.
 
 ## Construct a table to list the surfreport parameters
-
+{{activity}}
 For our new surfreport endpoint, look through the parameters available and create a table similar to the one above.
 
 Here's what my table looks like:
@@ -109,7 +114,7 @@ Here's what my table looks like:
 <tr>
 <td>units</td>
 <td>Optional</td>
-<td>Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius.</td>
+<td>Options are either <code>imperial</code> or <code>metric</code>. Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius. <code>metric</code> is the default.</td>
 <td>string</td>
 </tr>
 <tr>

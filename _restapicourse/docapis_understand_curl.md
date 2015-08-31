@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 1.5
+weight: 1.8
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -96,7 +96,7 @@ Let's look more closely at the request you submitted for the weather:
 
 ```bash
   curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \
-  -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
+  -H 'X-Mashape-Key: {api key}' \
   -H 'Accept: text/plain'
 ```
 

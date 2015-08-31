@@ -69,19 +69,30 @@ $("li.active").parents('li').toggleClass("active");
 <ul id="mysidebar" class="nav">
     {% for entry in sidebar %}
     {% for subcategory in entry.subcategories %}
+    {% if subcategory.web != false %}
     <li class="firstLevel"><a href="#">{{ subcategory.title }}</a>
-        <ul>{% for item in subcategory.items %}{% if item.external_url %}
-            <li><a href="{{item.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+        {% endif %}
+        <ul>{% for item in subcategory.items %}
+            {% if item.web != false %}
+            {% if item.external_url %}
+            <li class="sublevel"><a href="{{item.external_url}}" target="_blank">{{subcategory.title}}</a></li>
             {% elsif page.url contains item.url %}
-            <li class="active"><a href="{{item.url | prepend: site.baseurl }}">{{item.title}}</a></li>
-            {% else %}<li><a href="{{item.url | prepend: site.baseurl }}">{{item.title}}</a></li>
-            {% endif %}{% for thirdlevel in item.thirdlevel %}<li class="thirdlevel"><a href="#">{{ thirdlevel.title }}</a>
-                <ul>{% for deeplevel in thirdlevel.thirdlevelitems %}{% if deeplevel.external_url %}
-                    <li><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.title}}</a></li>
+            <li class="active sublevel"><a href="{{item.url | prepend: site.baseurl }}">{{item.title}}</a></li>
+            {% else %}<li class="sublevel"><a href="{{item.url | prepend: site.baseurl }}">{{item.title}}</a></li>
+            {% endif %}
+            {% endif %}
+            {% for thirdlevel in item.thirdlevel %}
+            {% if thirdlevel.web != false %}
+            <li class="thirdlevel"><a href="#">{{ thirdlevel.title }}</a>
+                {% endif %}
+                <ul>{% for deeplevel in thirdlevel.thirdlevelitems %}
+                    {% if deeplevel.web != false %}
+                    {% if deeplevel.external_url %}
+                    <li class="sublevel"><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.title}}</a></li>
                     {% elsif page.url contains deeplevel.url %}
-                    <li class="active"><a href="{{deeplevel.url | prepend: site.baseurl }}">{{deeplevel.title}}</a></li>
-                    {% else %}<li><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
-                    {% endif %}{% endfor %}</ul></li>
+                    <li class="active sublevel"><a href="{{deeplevel.url | prepend: site.baseurl }}">{{deeplevel.title}}</a></li>
+                    {% else %}<li class="sublevel"><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
+                    {% endif %}{% endif %}{% endfor %}</ul></li>
             {% endfor %}</li>
     {% endfor %}</ul></li>
 {% endfor %}{% endfor %}</ul>

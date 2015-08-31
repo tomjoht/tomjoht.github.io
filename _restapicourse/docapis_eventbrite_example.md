@@ -2,6 +2,8 @@
 title: 'EventBrite example: Get Event information and display it on a page'
 permalink: /docapis_eventbrite_example/
 type: notes_docapis
+course: "Documenting REST APIs"
+weight: 3.9
 keywords: Eventbrite API example, REST APIs
 ---
 

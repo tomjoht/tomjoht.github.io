@@ -206,19 +206,19 @@ To create a Swagger spec file:
 	        }
 	```
 	
-	Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET", "header"));`, so that it looks like this:
+	Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "{api key}", "header"));`, so that it looks like this:
 	
 	```
 	      function addApiKeyAuthorization(){
 	        var key = encodeURIComponent($('#input_apiKey')[0].value);
 	        if(key && key.trim() != "") {
 	            var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
-	            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET", "header"));
+	            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "{api key}", "header"));
 	            log("added key " + key);
 	        }
 	```
 	
-	The `WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET` is my Mashape API test key. You can swap in your own here if you have one (from the previous course) or use this mine (which is a Testing API key).
+	The `{api key}` is my Mashape API test key. You can swap in your own here if you have one (from the previous course) or use this mine (which is a Testing API key).
 	
 7. Uncomment out following lines here by removing the `/*` and `*/`:
 	
@@ -233,7 +233,7 @@ To create a Swagger spec file:
 8. Add in your API key into this section (or use mine):
 	
 	```
-	var apiKey = "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET";
+	var apiKey = "{api key}";
 	$('#input_apiKey').val(apiKey);    
 	```
 	

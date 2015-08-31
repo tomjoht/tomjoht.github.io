@@ -983,3 +983,21 @@ blockquote {
 div.activity {
     max-width: 150px;
 }
+
+.muted {
+    color: gray;
+}
+
+ul#mysidebar li.firstLevel a {
+    font-size:14px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+ul#mysidebar li.sublevel a {
+    font-size:12px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+ul#mysidebar li.active a {
+    font-color: white;
+}

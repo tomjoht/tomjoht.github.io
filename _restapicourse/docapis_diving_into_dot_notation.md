@@ -3,7 +3,7 @@ title: Diving into dot notation
 permalink: /docapis_diving_into_dot_notation/
 keywords: 
 course: "Documenting REST APIs"
-weight: 
+weight: 2.3
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -56,7 +56,6 @@ In this activity, you'll practice accessing different values through dot notatio
       <title>JSON dot notation practice</title>
 
     <script>
-
     $( document ).ready(function() {
 
        var john = {
@@ -112,7 +111,7 @@ In this activity, you'll practice accessing different values through dot notatio
 
     If you view the page in your browser, you'll see the page says "Sarah" for each item because we're accessing this value: `john.children[0].child1` for each item.
 
-2. Change `john.children[0].child1` to display the following for each similarly named item:
+2. Change `john.children[0].child1` to display the right values for each item. For example, the word `green` should appear at the ID tag called `green`.
  * green
  * nike
  * goldenrod
@@ -120,9 +119,9 @@ In this activity, you'll practice accessing different values through dot notatio
 
 Check your work by looking at the <a href="{{ "/docapis_answers" | prepend: baseurl }}#dotNotation">Dot Notation section</a> on the answers page.
 
-## Embedding the call into our site
-
-At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together. Copy the following code into a basic HTML page and view it in the browser:
+## Showing wind conditions on the page
+{{activity}}
+At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together. Copy the following code into a basic HTML page, customize the `{api key}` value, and view it in the browser:
 
 ```html
 <html>
@@ -151,7 +150,7 @@ function checkWind() {
     "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p"
+    "x-mashape-key": "{api key}"
   }
 }
 
@@ -180,8 +179,12 @@ function checkWind() {
 </body>
 </html>
 ```
+A few things are different here, but it's essentially the same code:
+* Rather than running the `ajax` method on page load, it's wrapped inside a function called `checkWind`. When the button is clicked, it fires the `checkWind()` function through the `onclick` method.
+* When `checkWind` runs, it pulls out the wind chill, speed, and direction and writes them to several ID tags on the page. Units for each of these values is also added to the page.
+* Some minimal styling is added. Bootstrap is loaded to make the button styling.
 
-Rather than running the `ajax` method on page load, it's wrapped inside a function called `checkWind`. This function fires when the button is clicked.
+When you load the page and click the button, the following should appear:
 
-When `checkWind` runs, it pulls out the wind chill, speed, and direction and writes them to several ID tags on the page. Units for each of these values is also added to the page. There's also minimal styling. The button style leverages Bootstrap's button styling.
+<img src="{{ "/images/restapicourse/windconditionsfinaloutput.png" | prepend: site.baseurl }}" alt="Final REST API" />
 

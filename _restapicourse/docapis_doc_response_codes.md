@@ -5,21 +5,21 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2.6
+weight: 3.6
 type: notes_docapis
 ---
 {% include notes.html %}
 
 ## Response codes let you know the status of the request
 
-Remember when we submitted the cURL call back in <a href="{{ "/restapi1course1-4" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
+Remember when we submitted the cURL call back in <a href="{{ "/docapis_make_curl_call" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
 
-```
-  curl --get -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' \
+```bash
+  curl --get -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: {api key}' \
   -H 'Accept: text/plain'
 ```
 
-The response looked like this: 
+The response, including the header, looked like this:
 
 ```
 HTTP/1.1 200 OK
@@ -37,7 +37,7 @@ The first line, `HTTP/1.1 200 OK`, tells us the status of the request. (If you c
 
 With a GET request, it's pretty easy to tell if the request is successful or not because you get back something in the response. 
 
-But suppose you're make a POST (create), PUT (edit), or DELETE (remove) call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API? 
+But suppose you're make a POST, PUT, or DELETE call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API?
 
 HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
 
@@ -49,17 +49,17 @@ You can see a list of common [REST API status codes here](http://www.restapituto
 
 ## Where to list the HTTP response and error codes
 
-Most APIs should have a general page listing response and error codes. Twitter's API has a good example of the possible status and error codes you will receive when making requests.
+Most APIs should have a general page listing response and error codes across the entire API. Twitter's API has a good example of the possible status and error codes you will receive when making requests.
 
 <a href="https://dev.twitter.com/overview/api/response-codes"><img src="{{ "/images/restapicourse/twitterstatuscode.png" | prepend: site.baseurl }}" alt="Twitter API status codes" /></a>
 
 This information may not be readily apparent when you're documenting your API. You will need to ask developers for a list of all the status codes. In particular, if developers have created special status codes for the API, highlight these in the documentation. 
 
-For example, if you exceed the rate limit for a specific all, the API might return a special status code. You would especially need to document this custom code. Listing out all the error codes is an essential page in the "Troubleshooting" section of your API documentation.
+For example, if you exceed the rate limit for a specific all, the API might return a special status code. You would especially need to document this custom code. Listing out all the error codes is an reference in the "Troubleshooting" section of your API documentation.
 
-## Where to list status codes
+## When endpoints have specific status codes
 
-In the Flattr API, sometimes endpoints return particular status codes. For example, when you "Check if a thing exists," the response when found includes `HTTP/1.1 302 Found`. This is a standard HTTP response.
+In the Flattr API, sometimes endpoints return particular status codes. For example, when you "Check if a thing exists," the response includes `HTTP/1.1 302 Found` when the object is found. This is a standard HTTP response. If it's not found, you see a 404 status code.
 
 <a href="http://developers.flattr.net/api/resources/things/#update-a-thing"><img src="{{ "/images/restapicourse/flattrnotfound.png" | prepend: site.baseurl }}" alt="Not found status code" /></a>
 
@@ -71,41 +71,37 @@ Alternatively, you can have a general status and error codes page that lists all
 
 In particular, you should look for codes that return when there is an error, since this information helps developers troubleshoot problems.
 
-## Run your request and look at your header code
+{{tip}}You can run some of the cURL calls you made earlier (this time adding `-i`) and looking at the HTTP status code in the response. {{end}}
 
-Run the cURL call you made earlier (this time adding `-i`) and look at the HTTP status code in the response. 
+## Sample status code list
 
-Add a section to your surfreport/{beachId} endpoint documentation called Response headers. Include the successful response header for each of the endpoints.
+Your list of status codes can be done in a basic table, somewhat like this:
 
-## List three status codes for surfreport
+| Status code | Meaning |
+|---------|-----------|
+| 200 | Successful request and response. |
+| 400 | Malformed parameters or other bad request |
 
-List 3 status codes related to the surfreport/{beachId} endpoint. Use two general codes and make the third one up.
+## Status codes are subtle
 
-Here's my attempt: 
+Status codes are pretty subtle, but when a developer is working with an API, these codes may be the only "interface" the developer has. If you can control the messages the developer sees, it can be a huge win. All too often, status codes are uninformative, poorly written, and communicate little or no helpful information to the user to remove the error
 
-<div class="docSample">
-<table><thead>
-<tr>
-<th>Status code</th>
-<th>Meaning</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td>Successful request and response.</td>
-</tr>
-<tr>
-<td>400</td>
-<td>Bad request with the parameters.</td>
-</tr>
-<tr>
-<td>4112</td>
-<td>The beach ID was not found in the lookup.</td>
-</tr>
-</tbody></table>
+## Error codes and troubleshooting
 
-</div>
+Status and error codes can be particularly helpful when it comes to troubleshooting. Therefore, you can think of these error codes as complementary to a section on troubleshooting.
 
+Almost every set of documentation could benefit from a section on troubleshooting. Document what happens when users get off the happy path and start stumbling around in the dark forest.
 
+A section on troubleshooting could list possible error messages users get when they do any of the following:
 
+* The wrong API keys are used
+* Invalid API keys are used
+* The parameters don't fit the data types
+* The API throws an exception
+* There's no data for the resource to return
+* The rate limits have been exceeded
+* The parameters are outside the max and min boundaries of what's acceptable
+* A required parameter is absent from the endpoint
+
+Where possible, document the exact text of the error in the documentation so that it easily surfaces in searches.
 

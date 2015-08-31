@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 2.0
+weight: 2.4
 type: notes_docapis
 ---
 {% include notes.html %}
@@ -20,7 +20,7 @@ Now let's shift perspectives. Now you're now a technical writer working with the
 
 The project manager calls you over and says they have a new API for you to document for the next release. (By "API," the manager really just means a new endpoint to the existing API. Some APIs like [Alchemy API](http://www.alchemyapi.com/api/) even refer to each endpoint as an API.)
 
-"Here's the wiki page that contains all the data," the manager says. 
+"Here's the wiki page that contains all the data," the manager says. The information is scattered and random on the wiki page. In reality, you probably wouldn't have any information like this at all, but to facilitate the course scenario (you can't ask the "team" questions about this fictitious new endpoint), the page will help.
 
 It's now your task to sort through the information on this page and create documentation from it.
 
@@ -29,7 +29,7 @@ Read through the wiki page to get a sense of the information. The upcoming topic
 <div class="docSample">
 <h2>The wiki page: "Surf Report API</h2>
 
-<p>The new endpoint is <code>/surfreport/{beachId}</code>. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachId}` is retrieved from a list of beaches on our site.</p>
+<p>The new endpoint is <code>/surfreport/{beachId}</code>. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. <code>{beachId}</code> is retrieved from a list of beaches on our site.</p>
 
 <p>Optional parameters: </p>
 
@@ -96,9 +96,9 @@ https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1
 
 <p>The report won't include any details about riptide conditions. </p>
 
-<p>Note that although users can enter beach names, there are only certain beaches included in the report. Users can look to see which beaches are available from our website at http://example.com/surfreport/beaches_available. The beach names must be url encoded when passed in the endpoint as query strings.</p>
+<p>Note that although users can enter beach names, there are only certain beaches included in the report. Users can look to see which beaches are available from our website at <code>http://example.com/surfreport/beaches_available</code>. The beach names must be url encoded when passed in the endpoint as query strings.</p>
 
-<p>To switch from feet to metrics, users can add a query string of &units=metrics. Default is &units=imperial.</p>
+<p>To switch from feet to metrics, users can add a query string of <code>&units=metrics</code>. Default is <code>&units=imperial</code>.</p>
 
 <p>Here's an <a href="http://www.surfline.com/surf-report/south-beach-ca-northern-california_5088/">example</a> of how developers might integrate this information.</p>
 

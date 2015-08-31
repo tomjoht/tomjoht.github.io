@@ -10,11 +10,11 @@ layout: default
         {% if page.summary %}
         <div class="summary"></div> {{page.summary}}
         {% endif %}
-        {% comment %} {% include restapicourse.html %}{% endcomment %}
+       {% include restapicourse.html %}
 
         {{content}}
 
-        {% comment %}{% include restapicourse_next.html %}{% endcomment %}
+       {% include restapicourse_next.html %}
 
         {% if page.type == "homepage" %}{% include single_post_ads.html %}{% endif %}
         {% include disqus.html %}

@@ -19,23 +19,23 @@ entries:
       items:
         - title: Course overview
           url: /docapis_course_overview/
-        - title: Installing cURL
-          url: /docapis_install_curl/
         - title: The market for REST API documentation
           url: /docapis_intro_to_rest_api_doc/
         - title: What is a REST API?
-          url: /what-is-a-rest-api/
+          url: /docapis_what-is-a-rest-api/
         - title: Exploring a REST API marketplace
           url: /docapis_exploring_restapi_marketplace/
         - title: Getting authorization keys
           url: /docapis_get_auth_keys/
         - title: Submit calls through Postman
           url: /docapis_postman/
+        - title: Installing cURL
+          url: /docapis_install_curl/
         - title: Making a cURL call
           url: /docapis_make_curl_call/
         - title: Understand cURL more
           url: /docapis_understand_curl/
-        - title: Using methods with cURL (petstore example)
+        - title: Using methods with cURL
           url: /docapis_curl_with_petstore/
         - title: Analyze the JSON response
           url: /docapis_analyze_json/
@@ -59,21 +59,31 @@ entries:
           url: /docapis_doc_sample_requests/
         - title: Documenting sample responses
           url: /docapis_doc_sample_responses/
-        - title: Documenting response and error codes
-          url: /docapis_doc_response_codes/
-        - title: Documenting authorization
-          url: /docapis_more_about_authorization/
         - title: Documenting code samples
           url: /docapis_doc_code_samples/
-        - title: Code sample best practices
-          url: /docapis_codesamples_bestpractices/
         - title: Putting it all together
           url: /docapis_finished_doc_result/
-        - title: Creating the user guide
+    - title: Documenting non-reference sections
+      items:
+        - title: Creating user guide tasks
           url: /docapis_create_user_guide/
+        - title: Writing the API overview
+          url: /docapis_doc_overview/
+        - title: Writing the Getting Started section
+          url: /docapis_doc_getting_started_section/
+        - title: Documenting authentication and authorization
+          url: /docapis_more_about_authorization/
+        - title: Documenting response and error codes
+          url: /docapis_doc_response_codes/
+        - title: Documenting code samples and tutorials
+          url: /docapis_codesamples_bestpractices/
+        - title: Creating the quick reference guide
+          url: /docapis_doc_quick_reference/
 
     - title: Exploring other REST APIs
       items:
+        - title: Exploring more REST APIs
+          url: /docapis_more_rest_exercises/
         - title: EventBrite example
           url: /docapis_eventbrite_example/
         - title: Flickr example

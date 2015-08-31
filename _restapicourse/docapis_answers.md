@@ -3,10 +3,12 @@ title: Answers
 permalink: /docapis_answers/
 keywords: 
 course: "Documenting REST APIs"
-weight: 
+weight: 4.4
 type: notes_docapis
 ---
 {% include notes.html %}
+
+This page provides answers to some of the exercises during the course.
 
 <h2 id="curlParameters">cURL parameters</h2>
 

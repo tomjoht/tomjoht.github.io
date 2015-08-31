@@ -2,7 +2,7 @@
 title: "Installing cURL"
 permalink: /docapis_install_curl/
 course: "Documenting REST APIs"
-weight: 1.0
+weight: 1.6
 type: notes_docapis
 ---
 {% include notes.html %}

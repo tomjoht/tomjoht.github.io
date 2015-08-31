@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 1.4
+weight: 1.7
 type: notes_docapis
 ---
 {% include notes.html %}

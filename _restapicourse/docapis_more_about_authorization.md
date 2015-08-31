@@ -1,22 +1,24 @@
 ---
-title: Documenting authorization
+title: Documenting authentication and authorization
 permalink: /docapis_more_about_authorization/
 keywords: 
 course: "Documenting REST APIs"
-weight: 
+weight: 3.5
 type: notes_docapis
 ---
 {% include notes.html %}
 
-## How to document authorization
+## Authentication and authorization overview
 
 Before users can make requests with your API, they'll usually need to register for some kind of application key, or learn other ways to authenticate the requests.
 
-APIs vary in the way they authenticate users. In the sample weather API, the authentication consists of a custom header with the Mashape API key. But this API is a read-only (GET requests) API that delivers non-sensitive information (weather). In other APIs, security might be much more important and strict due to sensitive data, the need for companies to monitor or block requests, to prove identity, to ensure the requests aren't tampered with by malicious third parties, and more.
+APIs vary in the way they authenticate users. In the sample weather API, the authentication consists of a custom header with the Mashape API key. But this API is a read-only (GET requests) API that delivers non-sensitive information (weather).
+
+In other APIs, security might be much more important and strict due to sensitive data, the need for companies to monitor or block requests, to prove identity, to ensure the requests aren't tampered with by malicious third parties, and more.
 
 In this section, you'll learn more about authentication and what you should focus on in documentation.
 
-## Why authorization and authentication?
+## Defining authorization and authentication?
 
 First, a brief definition of terms:
 
@@ -25,6 +27,7 @@ First, a brief definition of terms:
 
 An API might authenticate you but not authorize you to make a certain call.
 
+## Consequences if an API lacks authentication and authorization
 There are many different ways to enforce authentication and authorization with the API calls. Enforcing this authentication and authorization is vital. Consider the following scenarios if you didn't have any kind of security with your API:
 
 * Users could make unlimited amounts of API calls without any kind of registration, making any kind of revenue model associated with your API difficult.
@@ -46,8 +49,6 @@ The company producing the API might use the API for any of the following:
 * Block or throttle requesters who are exceeding the rate limits
 * Apply different permission levels to different users
 
-The API key itself doesn't perform any kind of encryption of your request.
-
 Sometimes APIs will give you both a public and private key. The public key is usually included in the request, while the private key is treated more like a password.
 
 In some API documentation, when you're logged into the site, your API key automatically gets populated into the sample code and API Explorer. Flickr's API is one of example of documentation that does this.
@@ -59,9 +60,6 @@ A simple type of authorization is called Basic Auth. With this method, the sende
 ```
 Authorization: Basic bG9sOnNlY3VyZQ==
 ```
-
-$ curl "https://$username:$password@myhost/resource"
-
 
 APIs that use Basic Auth will also use HTTPS, which means the message content will be encrypted within the HTTP transport protocol. (Without HTTPS, it would be easy for people to decode the username and password.) When the receiver receives the message, it decrypts the message and examines the header. After decoding the string and analyzing the username and password, it then decides whether to accept or reject the request.
 
@@ -80,11 +78,13 @@ Authorization: Basic RnJlZDpteXBhc3N3b3Jk
 
 ## HMAC (Hash-based message authorization code)
 
-<img src="{{ "/images/restapicourse/restapi_hmac.svg" | prepend: site.baseurl }}" alt="HMAC workflow" />
-
 The HMAC approach works like this. Both the sender and receiver know a secret key that no one else does. The sender creates a message based on some system properties (for example, the request timestamp plus account ID ). The message is then encoded by the secret key and passed through a secure hashing algorithm (SHA). (A hash is a scramble of a string based on an algorithm.) The resulting value, referred to as a signature, is placed in the request header.
 
 When the receiver (the API server) receives the request, it takes the same system properties (the request timestamp plus account ID ) and uses the secret key and SHA to generate the same string. If the string matches the signature in the request header, it accepts the request. If the strings don't match, then the request is rejected.
+
+Here's a diagram depicting this workflow:
+
+<img src="{{ "/images/restapicourse/restapi_hmac.svg" | prepend: site.baseurl }}" alt="HMAC workflow" />
 
 The important point is that the secret key (critical to reconstructing the hash) is known only to the sender and receiver. The secret key is not included in the request.
 
@@ -102,7 +102,7 @@ In contrast, three-legged OAuth is used when you need to protect sensitive data.
 * Resource server (API server)
 * User
 
-Here's the basic workflow:
+Here's the basic workflow of OAuth:
 
 <img src="{{ "/images/restapicourse/restapi_oauth.svg" | prepend: site.baseurl }}" alt="OAuth workflow" />
 
@@ -133,3 +133,22 @@ However, you do need to explain some basic information such as:
 * Token expiration times
 
 If you have public and private keys, you should explain where each key should be used, and that private keys should not be shared.
+
+## API keys section of documentation
+
+Since the API keys section is usually essential before developers can start using the API, this section needs to appear in the beginning of your help.
+
+Here's a screenshot from SendGrid's documentation on API keys:
+
+<a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="{{ "/images/restapicourse/sendgridapikeys.png" | prepend: site.baseurl }}" alt="SendGrid API Keys" /></a>
+
+If different license tiers provide different access to the API calls you can make, these licensing tiers should be explicit in your authorization section or elsewhere.
+
+## Rate limits
+Whether in the authorization keys or another section, you should list any applicable rate limits to the API calls. Rate limits determine how frequently you can call a particular endpoint. Different tiers and licenses may have different capabilities or rate lmits.
+
+If your site has hundreds of thousands of visitors a day, and each page reload calls an API endpoint, you want to be sure the API can support that kind of traffic.
+
+Here's a great example of the rate limits section from the Github API:
+
+<a href="https://developer.github.com/v3/#rate-limiting"><img src="{{ "/images/restapicourse/githubratelimiting.png" | prepend: site.baseurl }}" alt="Rate limiting section from Github" /></a>

@@ -3,7 +3,8 @@ title: 'Flickr example: Retrieve a Flickr gallery and display it on a web page'
 permalink: /docapis_flickr_example/
 categories:
 - api-doc
-tags: []
+course: "Documenting REST APIs"
+weight: 4.0
 type: notes_docapis
 date: January 15, 2015
 ---
