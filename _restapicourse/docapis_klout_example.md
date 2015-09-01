@@ -8,339 +8,313 @@ course: "Documenting REST APIs"
 weight: 4.1
 type: notes_docapis
 ---
-[Klout](http://klout.com) is a service that gauges your online influence (your klout) by measuring tweets, retweets, likes, etc. from a variety of social networks using a sophisticated algorithm. In this tutorial, we'll use the Klout API to retrieve a Klout score for a particular Twitter handle.
+{% include notes.html %}
+## About Klout
+[Klout](http://klout.com) is a service that gauges your online influence (your klout) by measuring tweets, retweets, likes, etc. from a variety of social networks using a sophisticated algorithm. In this tutorial, you'll use the Klout API to retrieve a Klout score for a particular Twitter handle, and then a list of your influencers.
 
 Klout has an "interactive console" driven by Mashery I/O docs that allows you to insert parameters and go to an endpoint. The interactive console also contains brief descriptions of what each endpoint does.
 
 <a href="http://developer.klout.com/io-docs"><img src="{{ "/images/restapicourse/klout_interactive_console-550x362.png" | prepend: site.baseurl }}" alt="Klout Interactive Console" /></a>
 
-You can see that I'm signed in here. To use the API, I had to register my "app," which allowed me to get an API key.
+## 1. Get an API key to make requests
+To use the API, you have to to register an "app," which allows you to get an API key. Go to [My API Keys](http://developer.klout.com/apps/mykeys) page to register your app and get the keys.
 
-To get the score, we use the [user.json/kloutId/score endpoint](http://developer.klout.com/io-docs). This endpoint requires you to pass your Klout ID.
+## 2. Make requests for the resources you need
 
-Since I don't know my Klout ID, I will use the identity.json/twitter endpoint first.
+The API is relatively simple and easy to browse.
 
-<a href="http://developer.klout.com/io-docs"><img src="{{ "/images/restapicourse/kloutid-550x600.png" | prepend: site.baseurl }}" alt="Get Klout ID" /></a>
+To get your Klout score, you need to use the `score` endpoint. This endpoint requires you to pass your Klout ID.
 
-You can also submit the request via your browser by going to the request URL:
+Since you most likely don't know your Klout ID, use the `identity(twitter_screen_name)` endpoint first.
+
+<img src="{{ "/images/restapicourse/kloutidentity.png" | prepend: site.baseurl }}" alt="Klout identity endpoint" />
+
+Instead of using the API console, you can also submit the request via your browser by going to the request URL:
 
 ```
 http://api.klout.com/v2/identity.json/twitter?screenName=tomjohnson&amp;key={your api key}
 ```
 
-In place of `{your api key}`, insert your own API key. (I initially displayed mine here only to find that bots grabbed it and made thousands of requests, which ended up disabling my API key.)
+{{note}}In place of `{your api key}`, insert your own API key. (I initially displayed mine here only to find that bots grabbed it and made thousands of requests, which ended up disabling my API key.){{end}}
 
-The response in the browser is as follows:
+My Klout ID is `1134760`.
 
-```json
-{
-  "id": "1134760",
-  "network": "ks"
-}
-```
+Now you can use the `score` endpoint to calculate your score.
 
-From the response, I see that my Klout ID is `1134760`.
+<img src="{{ "/images/restapicourse/kloutscorenew.png" | prepend: site.baseurl }}" alt="Klout Score" />
 
-Now I can use the [user.json/kloutId/score endpoint](http://developer.klout.com/io-docs) to get the score associated with my Klout ID:
-
-<img src="{{ "/images/restapicourse/mykloutscoreis55-550x612.png" | prepend: site.baseurl }}" alt="Klout Score" />
-
-My score is 55. Once again, Klout's interactive console makes it easy to get responses for API calls, but I could equally submit the request URI in my browser.
+My score is `54`. Klout's interactive console makes it easy to get responses for API calls, but you could equally submit the request URI in your browser.
 
 ```
 http://api.klout.com/v2/user.json/1134760/score?key={your api key}
 ```
 
-And I would see this:
+After submitting the request, here is what you would see:
 
 ```json
 {
-  "score": 55.70794414940394,
-  "scoreDelta": {
-     "dayChange": 2.88116825300461,
-     "weekChange": 3.108790436128494,
-     "monthChange": 3.57317642139639
+   "score": 54.233149646009174,
+   "scoreDelta": {
+   "dayChange": -0.5767549117977069,
+   "weekChange": -0.5311640476663939,
+   "monthChange": -0.2578449396243201
 },
-  "bucket": "50-59"
+   "bucket": "50-59"
 }
 ```
 
-Usually in API documentation, you don't need to explain any more than this. Each programmer may be using a different language or platform, so the process of getting this information and displaying it will vary. But for demonstration purposes, suppose I wanted to embed my Klout score on my web page using JavaScript and jQuery. Here's how I could do it:
+Now suppose you want to know who you have influenced (your influencees) and who influences you (your influencers). After all, this is what Klout is all about. Influence is measured by the action you drive.
 
-```html
-<html>
-<body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
-      var url = "http://api.klout.com/v2/user.json/1134760/score?key={your api key}&amp;callback=?";
-    $.getJSON( url, function( data ) {
-    	console.log(data);
-       $("#kloutScore").append(data.score);
-});
-</script>
-<h2>My Score</h2>
-<div id="kloutScore"/>
-</body>
-</html>
-```
+To get your influencers and influencees, you need to use the `influence` endpoint, passing in your Klout ID.
 
-Here's the result:
+## 3. Analyze the response
 
-<img src="{{ "/images/restapicourse/heresmykloutscore-550x265.png" | prepend: site.baseurl }}" alt="Klout Score" />
-
-The code uses the `getJSON` method to grab a JSON payload from an argument URL. The payload is assigned to the data argument, and then logged to the console using `console.log(data)`. The `append` method is used to add the score to the `kloutScore` ID tag on the page.
-
-If you're using PHP, here's a [tutorial on using PHP to get your Klout score][http://bradsknutson.com/blog/display-klout-score-with-klout-api/]. And here's a tutorial on [getting your score using Python][https://klout.readthedocs.org/en/latest/#quickstart].
-
-## Get influencees
-
-Suppose I want to know who I have influenced. After all, this is what Klout is all about. Influence is measured by the action you drive. So who exactly am I influencing?
-
-To get my influencees, I need to use the influence endpoint, passing in my Klout ID (which I retrieved using the identity.json/twitter endpoint as used in the [Klout example on retrieving a score](http://idratherbewriting.com/klout-example-score). My Klout ID is 1134760.
-
-Here I plug in my Klout ID into the influence endpoint:
-
-<a href="http://developer.klout.com/io-docs"><img src="{{ "/images/restapicourse/influenceesendpoint-550x589.png" | prepend: site.baseurl }}" alt="Klout Influencees" /></a>
-
-The response appears in the Response Body section.
-
-Although the interactive console shows you the response, you can also submit the request via the browser and see the payload in the browser. Here's the request:
-
-```
-http://api.klout.com/v2/user.json/1134760/influence?key={api key}
-```
-
-And here's the response:
+And here's the influence resource's response:
 
 ```html
 {
-   "myInfluencers":[
-      {
-         "entity":{
-            "id":"1247152",
-            "payload":{
-               "kloutId":"1247152",
-               "nick":"maxwellhoffmann",
-               "score":{
-                  "score":58.96268054394578,
-                  "bucket":"50-59"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.06646433497560622,
-                  "weekChange":-0.6916024495036766,
-                  "monthChange":-3.064438643695368
-               }
+    "myInfluencers": [{
+        "entity": {
+            "id": "441634251566461018",
+            "payload": {
+                "kloutId": "441634251566461018",
+                "nick": "jekyllrb",
+                "score": {
+                    "score": 50.41206120210041,
+                    "bucket": "50-59"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.05927708546307997,
+                    "weekChange": -0.739829931907181,
+                    "monthChange": -0.7917151139830239
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"704001",
-            "payload":{
-               "kloutId":"704001",
-               "nick":"scottabel",
-               "score":{
-                  "score":58.46798823414681,
-                  "bucket":"50-59"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.11132545485078538,
-                  "weekChange":-0.43572069638905475,
-                  "monthChange":-2.6085841408238792
-               }
+        }
+    }, {
+        "entity": {
+            "id": "33214052017370475",
+            "payload": {
+                "kloutId": "33214052017370475",
+                "nick": "Mrtnlrssn",
+                "score": {
+                    "score": 22.45014953758632,
+                    "bucket": "20-29"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.3481056157609004,
+                    "weekChange": -2.132213372307284,
+                    "monthChange": -2.315034722843535
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"34254",
-            "payload":{
-               "kloutId":"34254",
-               "nick":"SkeeterHarris",
-               "score":{
-                  "score":56.77425322747173,
-                  "bucket":"50-59"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.11454920647811662,
-                  "weekChange":0.04889146674855738,
-                  "monthChange":-0.5583258470292165
-               }
+        }
+    }, {
+        "entity": {
+            "id": "177892199475207065",
+            "payload": {
+                "kloutId": "177892199475207065",
+                "nick": "TCSpeakers",
+                "score": {
+                    "score": 28.23034124231384,
+                    "bucket": "20-29"
+                },
+                "scoreDeltas": {
+                    "dayChange": 0.00154327588529668,
+                    "weekChange": -0.6416866188503434,
+                    "monthChange": -4.226666088333872
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"946127",
-            "payload":{
-               "kloutId":"946127",
-               "nick":"WritingTechDocs",
-               "score":{
-                  "score":46.61038545204223,
-                  "bucket":"40-49"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.05709675920967072,
-                  "weekChange":-0.610875962222579,
-                  "monthChange":0.1813057349656475
-               }
+        }
+    }, {
+        "entity": {
+            "id": "91760850663150797",
+            "payload": {
+                "kloutId": "91760850663150797",
+                "nick": "JohnFoderaro",
+                "score": {
+                    "score": 39.39045702175103,
+                    "bucket": "30-39"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.6092388403641991,
+                    "weekChange": -0.699356032047298,
+                    "monthChange": 5.34513233077341
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"538063",
-            "payload":{
-               "kloutId":"538063",
-               "nick":"benwoelk",
-               "score":{
-                  "score":46.57106330020806,
-                  "bucket":"40-49"
-               },
-               "scoreDeltas":{
-                  "dayChange":0.00041549774290672303,
-                  "weekChange":-0.1646010755193359,
-                  "monthChange":-1.030068829042456
-               }
+        }
+    }, {
+        "entity": {
+            "id": "1057244",
+            "payload": {
+                "kloutId": "1057244",
+                "nick": "peterlalonde",
+                "score": {
+                    "score": 42.39625419500191,
+                    "bucket": "40-49"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.32068173129262334,
+                    "weekChange": 0.14276611846587173,
+                    "monthChange": -0.9354253686809457
+                }
             }
-         }
-      }
-   ],
-   "myInfluencees":[
-      {
-         "entity":{
-            "id":"30399302251467350",
-            "payload":{
-               "kloutId":"30399302251467350",
-               "nick":"shweta_hardikar",
-               "score":{
-                  "score":47.43871175313726,
-                  "bucket":"40-49"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.009049927092938503,
-                  "weekChange":-0.6219719932282644,
-                  "monthChange":-3.7916465630982046
-               }
+        }
+    }],
+    "myInfluencees": [{
+        "entity": {
+            "id": "537311",
+            "payload": {
+                "kloutId": "537311",
+                "nick": "techwritertoday",
+                "score": {
+                    "score": 49.99313854987996,
+                    "bucket": "40-49"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.10510042996928348,
+                    "weekChange": -0.568647896457648,
+                    "monthChange": 0.3425617785475197
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"57420900014448388",
-            "payload":{
-               "kloutId":"57420900014448388",
-               "nick":"healcomm",
-               "score":{
-                  "score":42.719218288006516,
-                  "bucket":"40-49"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.44535971136188124,
-                  "weekChange":-1.3102052073242874,
-                  "monthChange":-2.578499929496701
-               }
+        }
+    }, {
+        "entity": {
+            "id": "91760850663150797",
+            "payload": {
+                "kloutId": "91760850663150797",
+                "nick": "JohnFoderaro",
+                "score": {
+                    "score": 39.39045702175103,
+                    "bucket": "30-39"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.6092388403641991,
+                    "weekChange": -0.699356032047298,
+                    "monthChange": 5.34513233077341
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"45598950992256021",
-            "payload":{
-               "kloutId":"45598950992256021",
-               "nick":"DavidEgyes",
-               "score":{
-                  "score":41.087978297965485,
-                  "bucket":"40-49"
-               },
-               "scoreDeltas":{
-                  "dayChange":0.001295312050686448,
-                  "weekChange":0.3330133541551774,
-                  "monthChange":0.9188803888604156
-               }
+        }
+    }, {
+        "entity": {
+            "id": "33214052017370475",
+            "payload": {
+                "kloutId": "33214052017370475",
+                "nick": "Mrtnlrssn",
+                "score": {
+                    "score": 22.45014953758632,
+                    "bucket": "20-29"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.3481056157609004,
+                    "weekChange": -2.132213372307284,
+                    "monthChange": -2.315034722843535
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"45880425968882520",
-            "payload":{
-               "kloutId":"45880425968882520",
-               "nick":"napnam",
-               "score":{
-                  "score":40.50583674531803,
-                  "bucket":"40-49"
-               },
-               "scoreDeltas":{
-                  "dayChange":0.00011879239579570822,
-                  "weekChange":-0.15131948958799057,
-                  "monthChange":-0.3625057602583581
-               }
+        }
+    }, {
+        "entity": {
+            "id": "45598950992256021",
+            "payload": {
+                "kloutId": "45598950992256021",
+                "nick": "DavidEgyes",
+                "score": {
+                    "score": 40.40572793362214,
+                    "bucket": "40-49"
+                },
+                "scoreDeltas": {
+                    "dayChange": 0.001934309078080787,
+                    "weekChange": 2.233816485488269,
+                    "monthChange": 1.4901401977594801
+                }
             }
-         }
-      },
-      {
-         "entity":{
-            "id":"29554883011845256",
-            "payload":{
-               "kloutId":"29554883011845256",
-               "nick":"LeviathanMcKrac",
-               "score":{
-                  "score":39.986255014100266,
-                  "bucket":"30-39"
-               },
-               "scoreDeltas":{
-                  "dayChange":-0.02143362442675567,
-                  "weekChange":-0.8744516124100628,
-                  "monthChange":-0.4536137313422586
-               }
+        }
+    }, {
+        "entity": {
+            "id": "46724857496656136",
+            "payload": {
+                "kloutId": "46724857496656136",
+                "nick": "fabi_ator",
+                "score": {
+                    "score": 30.32498605174672,
+                    "bucket": "30-39"
+                },
+                "scoreDeltas": {
+                    "dayChange": -0.005890177199574964,
+                    "weekChange": -0.6859163242901047,
+                    "monthChange": -5.293301673692355
+                }
             }
-         }
-      }
-   ],
-   "myInfluencersCount":8,
-   "myInfluenceesCount":24
+        }
+    }],
+    "myInfluencersCount": 5,
+    "myInfluenceesCount": 5
 }
 ```
 
-The `myInfluencers` object has various properties. (By the way, inside a JSON object, square brackets denote an array. Curly braces denote another object. Here influencees are listed as an array of `entity` objects.)
-Stylewise here, I'm using the [JSON Formatting extension for Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) to format the JSON, but to copy and paste the JSON and keep the indentation, I use the [JSON Formatter &amp; Validator](http://jsonformatter.curiousconcept.com/).
+The response contains an array containing 5 influencers and an array containing 5 influencees. (Remember the square brackets denote an array; the curly braces denote an object. Each array contains a list of objects.)
 
-This JSON payload contains all of my influencees, but it contains a lot of extra information. I just want a short list of Twitter names with their links.
+## 5. Pull out the information you need
 
-Using jQuery, I can iterate through the JSON payload and pull out the information that I want:
+Suppose you just want a short list of Twitter names with their links.
+
+Using jQuery, you can iterate through the JSON payload and pull out the information that you want:
 
 ```html
 <html>
 <body>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <script>
- // get influencees
-     var url = "http://api.klout.com/v2/user.json/1134760/influence?key={your api key}&amp;callback=?";
-    $.getJSON( url, function( data ) {
-    	console.log(data);
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://api.klout.com/v2/user.json/1134760/influence?key={api key}&callback=?",
+    "method": "GET",
+    "dataType": "jsonp",
+    "headers": {}
+  }
+
+  $.ajax(settings).done(function (data) {
+    console.log(data);
     $.each( data.myInfluencees, function( i, inf ) {
-    $("#kloutInf").append('<li><a href="http://twitter.com/'+inf.entity.payload.nick + '">' + inf.entity.payload.nick + '</a></li>');
+       $("#kloutinfluencees").append('<li><a href="http://twitter.com/'+inf.entity.payload.nick + '">' + inf.entity.payload.nick + '</a></li>');
+     });
+    $.each( data.myInfluencers, function( i, inf ) {
+       $("#kloutinfluencers").append('<li><a href="http://twitter.com/'+inf.entity.payload.nick + '">' + inf.entity.payload.nick + '</a></li>');
+     });
   });
-});
 </script>
-<h2>My influencees</h2>
-<ul id="kloutInf"></ul>
+
+<h2>My influencees (people I influence)</h2>
+<ul id="kloutinfluencees"></ul>
+
+<h2>My influencers (people who influence me)</h2>
+<ul id="kloutinfluencers"
+
 </body>
 </html>
 ```
+{{note}} Remember to swap in your own API key in place of <code>{api key}</code>.{{end}}
 The result looks like this:
 
-<img src="{{ "/images/restapicourse/influenceesdemo-550x292.png" | prepend: site.baseurl }}" alt="Klout result" />
-
-<h2>My Klout Score</h2>
-
-<div id="kloutScore"/>
-
-(If you don't see anything, your firewall may be blocking Klout.)
+<img src="{{ "/images/restapicourse/kloutinfluencelists.png" | prepend: site.baseurl }}" alt="Klout result" />
 
 <h2>Code explanation</h2>
 
-The code uses the `getJSON` method from jQuery to get a JSON payload for a specific URL. It assigns this payload to the `data` argument. The `console.log(data)` code just logs the payload to the console to make it easy to inspect.
+The code uses the `ajax` method from jQuery to get a JSON payload for a specific URL. It assigns this payload to the `data` argument. The `console.log(data)` code just logs the payload to the console to make it easy to inspect.
 
-The jQuery `each` method iterates through each property in the `data.myInfluencees` object. It renames this object `inf` (you can choose whatever names you want) and then gets the `entity.payload.nick` property for each item in the object. It inserts this value into a link to the Twitter profile, and then appends the information to a specific tag on the page (`#kloutInf`).
+The jQuery `each` method iterates through each property in the `data.myInfluencees` object. It renames this object `inf` (you can choose whatever names you want) and then gets the `entity.payload.nick` property (nickname) for each item in the object. It inserts this value into a link to the Twitter profile, and then appends the information to a specific tag on the page (`#kloutinfluencees`).
+
+Pretty much the same approach is used for the `data.myInfluencers` object, but the tag the data is appended to is (`kloutinfluencers`).
+
+Note that in the `ajax` settings, a new attribute is included: `"dataType": "jsonp"`. If you omit this, you'll get an error message that says:
+
+```
+XMLHttpRequest cannot load http://api.klout.com/v2/user.json/876597/influence?key={api key}&callback=?. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.
+```
+
+When you submit requests to endpoints, you're getting information from other domains and pulling the information to your own domain. For security purposes, servers block this action. The resource server has to enable something called Cross Origin Resource Sharing (CORS).
+
+JSONP gets around CORS restricts by wrapping the JSON into script tags, which servers don't block. With JSONP, you can only use GET methods. You can [read more about JSONP here](https://en.wikipedia.org/wiki/JSONP).
+
+(I'm not entirely sure why Klout gives this error unless you use CORS...)

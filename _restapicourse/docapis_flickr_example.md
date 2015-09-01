@@ -6,7 +6,6 @@ categories:
 course: "Documenting REST APIs"
 weight: 4.0
 type: notes_docapis
-date: January 15, 2015
 ---
 {% include notes.html %}
 ## Overview
