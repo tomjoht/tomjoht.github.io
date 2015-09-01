@@ -1,14 +1,18 @@
 ---
-layout: page
-title: 'Klout example: Retrieve Klout score'
+title: 'Klout example: Retrieve Klout influencers and influencees'
 permalink: /docapis_klout_example/
 categories:
 - api-doc
 course: "Documenting REST APIs"
-weight: 4.1
+weight: 4.2
 type: notes_docapis
 ---
 {% include notes.html %}
+
+## The challenge
+{{activity}}
+Use the Klout API to get your Klout score and a list of your influencers and influencees.
+
 ## About Klout
 [Klout](http://klout.com) is a service that gauges your online influence (your klout) by measuring tweets, retweets, likes, etc. from a variety of social networks using a sophisticated algorithm. In this tutorial, you'll use the Klout API to retrieve a Klout score for a particular Twitter handle, and then a list of your influencers.
 

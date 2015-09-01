@@ -4,10 +4,15 @@ permalink: /docapis_flickr_example/
 categories:
 - api-doc
 course: "Documenting REST APIs"
-weight: 4.0
+weight: 4.1
 type: notes_docapis
 ---
 {% include notes.html %}
+
+## The challenge
+{{activity}}
+Use the Flickr API to get photo images from [this Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/).
+
 ## Overview
 In this Flickr API example, you'll see that our goal requires us to call several endpoints. You'll see that just having an API reference that lists the endpoints and responses isn't enough. Often one endpoint requires other endpoint responses as inputs, and so on.
 

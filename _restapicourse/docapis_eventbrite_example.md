@@ -3,11 +3,16 @@ title: 'EventBrite example: Get Event information and display it on a page'
 permalink: /docapis_eventbrite_example/
 type: notes_docapis
 course: "Documenting REST APIs"
-weight: 3.9
+weight: 4.0
 keywords: Eventbrite API example, REST APIs
 ---
 
 {% include notes.html %}
+## The challenge
+{{activity}}
+Use the EventBrite API to get the event title and description of [this event](https://www.eventbrite.com/myevent?eid=17920884849).
+
+## About EventBrite
 EventBrite is an event management tool, and you can interact with it through an API to pull out the event information you want. In this example, you'll use the EventBrite API to print a description of an event to your page.
 
 ## 1. Get an anonymous Oauth token
@@ -100,7 +105,7 @@ The response from the endpoint is as follows:
 }
 ```
 
-### 5. Pull out the information you need
+## 5. Pull out the information you need
 The information has a lot more than we need. We just want to display the event's title and description on our site. To do this, we use some simple jQuery code to pull out the information and append it to a tag on our web page:
 
 ```html

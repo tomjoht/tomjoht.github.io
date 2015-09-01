@@ -10,9 +10,22 @@ type: notes_docapis
 
 This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those moments.
 
+## An API is an interface between systems
+In general, an API (Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
+
+<a href="http://bit.ly/1DexWM0"><img src="{{ "/images/restapicourse/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
+
+Consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
+
+<img src="{{ "/images/restapicourse/calculator.png" | prepend: site.baseurl }}" alt="calculator" />
+
+APIs often work in similar ways. But instead of interacting within the same system, those functions call remote services to get their information.
+
+Developers use API calls behind the scenes to pull information into their apps. A button on a GUI may be internally wired to make calls to an external service. For example, the embedded Twitter or Facebook buttons that interact with social networks, or embedded Youtube videos that pull a video in from youtube.com, are both powered by APIs underneath.
+
 ## About web services
 
-In general, a web service is a web-based application that provides information in a format consumable by other computers. Web services include various types of APIs (Application Programming Interfaces), including both REST and SOAP APIs. Web services are basically request and response interactions between clients and servers (one computer makes the request, and the API provides the response).
+In general, a web service is a web-based application that provides information in a format consumable by other computers. Web services include various types of APIs, including both REST and SOAP APIs. Web services are basically request and response interactions between clients and servers (one computer makes the request, and the API provides the response).
 
 All APIs that use HTTP protocol as the transport format for requests and responses can be classified as web services.
 

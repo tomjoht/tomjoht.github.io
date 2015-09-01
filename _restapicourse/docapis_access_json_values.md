@@ -66,7 +66,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
     $("#weatherDescription").append(content);
     ```
 
-    This code says, find the element with the ID `weatherDescription` and append the `content` to it.
+    This code says, find the element with the ID `weatherDescription` and append the `content` variable to it.
 
     Your entire code should look as follows:
 

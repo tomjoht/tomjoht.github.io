@@ -19,78 +19,113 @@ entries:
       items:
         - title: Course overview
           url: /docapis_course_overview/
+          weight: 1.0
         - title: The market for REST API documentation
           url: /docapis_intro_to_rest_api_doc/
+          weight: 1.1
         - title: What is a REST API?
           url: /docapis_what-is-a-rest-api/
+          weight: 1.2
         - title: Exploring a REST API marketplace
           url: /docapis_exploring_restapi_marketplace/
+          weight: 1.3
         - title: Getting authorization keys
           url: /docapis_get_auth_keys/
+          weight: 1.4
         - title: Submit calls through Postman
           url: /docapis_postman/
+          weight: 1.5
         - title: Installing cURL
           url: /docapis_install_curl/
+          weight: 1.6
         - title: Making a cURL call
           url: /docapis_make_curl_call/
+          weight: 1.7
         - title: Understand cURL more
           url: /docapis_understand_curl/
+          weight: 1.8
         - title: Using methods with cURL
           url: /docapis_curl_with_petstore/
+          weight: 1.9
         - title: Analyze the JSON response
           url: /docapis_analyze_json/
+          weight: 2.0
         - title: Log JSON to the console
           url: /docapis_json_console/
+          weight: 2.1
         - title: Access the JSON values
           url: /docapis_access_json_values/
+          weight: 2.2
         - title: Diving into dot notation
           url: /docapis_diving_into_dot_notation/
+          weight: 2.3
     - title: Documenting a new API endpoint
       items:
         - title: New API endpoint to document
           url: /docapis_new_endpoint_to_doc/
+          weight: 2.4
         - title: Documenting resource descriptions
           url: /docapis_resource_descriptions/
+          weight: 2.5
         - title: Documenting endpoint definitions and methods
           url: /docapis_doc_endpoint_definitions/
+          weight: 2.6
         - title: Documenting parameters
           url: /docapis_doc_parameters/
+          weight: 2.7
         - title: Documenting sample requests
           url: /docapis_doc_sample_requests/
+          weight: 2.8
         - title: Documenting sample responses
           url: /docapis_doc_sample_responses/
+          weight: 2.9
         - title: Documenting code samples
           url: /docapis_doc_code_samples/
+          weight: 3.0
         - title: Putting it all together
           url: /docapis_finished_doc_result/
+          weight: 3.1
     - title: Documenting non-reference sections
       items:
         - title: Creating user guide tasks
           url: /docapis_create_user_guide/
+          weight: 3.2
         - title: Writing the API overview
           url: /docapis_doc_overview/
+          weight: 3.3
         - title: Writing the Getting Started section
           url: /docapis_doc_getting_started_section/
+          weight: 3.4
         - title: Documenting authentication and authorization
           url: /docapis_more_about_authorization/
+          weight: 3.5
         - title: Documenting response and error codes
           url: /docapis_doc_response_codes/
+          weight: 3.6
         - title: Documenting code samples and tutorials
           url: /docapis_codesamples_bestpractices/
+          weight: 3.7
         - title: Creating the quick reference guide
           url: /docapis_doc_quick_reference/
+          weight: 3.8
 
     - title: Exploring other REST APIs
       items:
         - title: Exploring more REST APIs
           url: /docapis_more_rest_exercises/
+          weight: 3.9
         - title: EventBrite example
           url: /docapis_eventbrite_example/
+          weight: 4.0
         - title: Flickr example
           url: /docapis_flickr_example/
+          weight: 4.1
         - title: Klout example
           url: /docapis_klout_example/
+          weight: 4.2
         - title: Aeris Weather example
           url: /docapis_aerisweather_example/
+          weight: 4.3
         - title: Course completion
           url: /docapis_completion/
+          weight: 4.4

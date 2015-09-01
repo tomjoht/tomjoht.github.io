@@ -1,15 +1,19 @@
 ---
-title: Aeris Weather Example
+title: 'Aeris Weather Example: Get wind speed and use as conditional value'
 permalink: /docapis_aerisweather_example/
 keywords: 
 course: "Documenting REST APIs"
-weight: 
+weight: 4.3
 type: notes_docapis
 ---
 {% include notes.html %}
 
+## The challenge
+{{activity}}
+Use the Aeris Weather API to get the wind speed (MPH) for a specific place (your choice).
+
 ## The Aeris Weather API
-Since you've been working with the weather API on Mashape, it's probably a good idea to compare this simple weather API with a more robust one. Check out the [Aeris Weather API here](http://www.aerisweather.com/). This is one of the most interesting, well-documented and powerful APIs I've encountered.
+Since you've been working with the weather API on Mashape, it's probably a good idea to compare this simple weather API with a more robust one. Check out the [Aeris Weather API here](http://www.aerisweather.com/support/docs/api/). This is one of the most interesting, well-documented and powerful APIs I've encountered.
 
 In this example, you'll get the wind in MPH and then set an answer to display on the page based on some conditional logic.
 
@@ -20,6 +24,8 @@ See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-s
 ## 2. Construct the request
 
 Browse through the [available endpoints](http://www.aerisweather.com/support/docs/api/reference/endpoints/) and look for one that would give you the wind speed. The [forecasts](http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/) resource provides information about wind speed.
+
+<a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/"><img src="{{ "/images/restapicourse/aerisforecasts.png" | prepend: site.baseurl }}" alt="Aeris Weather forecasts resource" /></a>
 
 To get the forecast details for Santa Clara, California, add it after `/forecasts`, like this:
 

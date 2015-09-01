@@ -10,19 +10,6 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## An API is an interface between systems
-An API provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
-
-<a href="http://bit.ly/1DexWM0"><img src="{{ "/images/restapicourse/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
-
-Consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
-
-<img src="{{ "/images/restapicourse/calculator.png" | prepend: site.baseurl }}" alt="calculator" />
-
-APIs often work in similar ways. But instead of interacting within the same system, those functions call remote services to get their information. REST APIs make the calls using web protocols &mdash; similar to how addresses you type in a browser return a web page.
-
-Developers use API calls behind the scenes to pull information into their apps. A button on a GUI may be internally wired to make calls to an external service. For example, the embedded Twitter or Facebook buttons that interact with social networks, or embedded Youtube videos that pull a video in from youtube.com, are both powered by APIs underneath.
-
 ## Our course scenario: Weather forecast API
 
 In this course, we're going to use an API in the context of a specific use case: retrieving a weather forecast. By first playing the role of a developer using an API, you'll gain a greater understanding of how your audience will use APIs, the type of information they'll need, and what they might do with the information.
