@@ -149,11 +149,9 @@ This example has allowed you to see how you can work with cURL to create, read, 
 
 Although Postman is probably easier to use, cURL lends itself to power usage. Quality assurance teams often construct advanced test scenarios that iterate through a lot of cURL requests.
 
-## From Postman to cURL and back again
+## Import cURL into Postman
 {{activity}}
-You can import cURL commands into Postman, and you can export Postman commands to cURL format.
-
-To import cURL into Postman:
+You can import cURL commands into Postman by doing the following:
 
 1. Open a new tab in Postman and click the **Import** button.
 2. Select **Paste Raw Text** and insert your cURL command:
@@ -170,7 +168,9 @@ To import cURL into Postman:
 4. Close the dialog box.
 5. Click **Send**.
 
-To export Postman into cURL:
+## Export Postman to cURL
+{{activity}}
+You can export Postman to cURL by doing the following:
 
 1. In Postman, click the **Generate Code Snippet** button.
 

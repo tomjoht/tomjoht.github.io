@@ -18,67 +18,67 @@ With most API documentation, you don't need to show how to make use of JSON data
 
 However, to better understand how developers will access the data, we'll go through a brief tutorial in displaying the REST response on a web page. 
 
-## Parse and display REST JSON response
-
+## Display part of the REST JSON response on a web page
+{{activity}}
 Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse and display the REST response on a web page using JavaScript. You could use it, but you could also use some auto-generated code from Postman to do pretty much the same thing.
 
 1. Start with a basic HTML template with jQuery referenced, like this:
-
-```html
-<html>
-<body>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-</body>
-</html>
-```
-
-Save your file with a name such as weatherdata.html.
-
+	
+	```html
+	<html>
+	<body>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	</body>
+	</html>
+	```
+	
+	Save your file with a name such as weatherdata.html.
+	
 2. Open Postman and click the request to the `weatherdata` endpoint that you configured earlier.
 3. Click the **Generate Code Snippet** button.
-
-<img src="{{ "/images/restapicourse/postmangeneratecodesnippet.png" | prepend: site.baseurl }}" alt="Generate code snippet" />
-
+	
+	<img src="{{ "/images/restapicourse/postmangeneratecodesnippet.png" | prepend: site.baseurl }}" alt="Generate code snippet" />
+	
 4. Select **JavaScript > jQuery AJAX**.
 5. Copy the code sample.
 6. Insert the Postman code sample between `<script>` tags in your template.
 7. The Postman code sample needs one more parameter: `dataType`. Add `"dataType": "json"` as parameter in `settings`.
-
-Your code should look like this:
-
-```html
-<html>
-<body>
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
-  "method": "GET",
-  "headers": {
-    "accept": "application/json",
-    "x-mashape-key": "{api key}"
-  }
-}
-
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-</html>
-</body>
-```
-
+	
+	Your code should look like this:
+	
+	```html
+	<html>
+	<body>
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "method": "GET",
+	  "headers": {
+	    "accept": "application/json",
+	    "x-mashape-key": "{api key}"
+	  }
+	}
+	
+	$.ajax(settings).done(function (response) {
+	  console.log(response);
+	});
+	</html>
+	</body>
+	```
+	
 8. Start Chrome and open the JavaScript Console by going to **View > Developer > JavaScript Console**.
 9. Open the weatherdata.html file in Chrome (**File > Open File**).
-
-The weatherdata response should be logged to the JavaScript console. You can inspect the payload by expanding the sections.
-
-<img src="{{ "/images/restapicourse/jsonpayloadweatherdata.png" | prepend: site.baseurl }}" alt="JSON payload from weatherdata API logged to console" />
-
-Note that Chrome tells you whether each expandable section is an object or an array. Knowing this is critical to accessing the value through JavaScript dot notation.
-
-The following sections will explain this AJAX code a bit more.
+	
+	The weatherdata response should be logged to the JavaScript console. You can inspect the payload by expanding the sections.
+	
+	<img src="{{ "/images/restapicourse/jsonpayloadweatherdata.png" | prepend: site.baseurl }}" alt="JSON payload from weatherdata API logged to console" />
+	
+	Note that Chrome tells you whether each expandable section is an object or an array. Knowing this is critical to accessing the value through JavaScript dot notation.
+	
+	The following sections will explain this AJAX code a bit more.
 
 ## The AJAX method from jQuery
 
@@ -124,6 +124,6 @@ Customizing log messages is helpful if you're logging various things to the cons
 
 ## Inspect the payload
 {{activity}}
-Inspect the payload by expanding each of the sections. Find the section that appears here: object > query > results > channel > item > description.
+Inspect the payload by expanding each of the sections. Find the section that appears here: **object > query > results > channel > item > description.**
 
 

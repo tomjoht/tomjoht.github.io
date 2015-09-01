@@ -293,7 +293,7 @@ Using jQuery, you can iterate through the JSON payload and pull out the informat
 <ul id="kloutinfluencees"></ul>
 
 <h2>My influencers (people who influence me)</h2>
-<ul id="kloutinfluencers"
+<ul id="kloutinfluencers"></ul>
 
 </body>
 </html>
@@ -320,5 +320,3 @@ XMLHttpRequest cannot load http://api.klout.com/v2/user.json/876597/influence?ke
 When you submit requests to endpoints, you're getting information from other domains and pulling the information to your own domain. For security purposes, servers block this action. The resource server has to enable something called Cross Origin Resource Sharing (CORS).
 
 JSONP gets around CORS restricts by wrapping the JSON into script tags, which servers don't block. With JSONP, you can only use GET methods. You can [read more about JSONP here](https://en.wikipedia.org/wiki/JSONP).
-
-(I'm not entirely sure why Klout gives this error unless you use CORS...)

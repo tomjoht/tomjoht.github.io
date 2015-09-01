@@ -47,7 +47,7 @@ Another convention it to represent parameter values with a colon, like this:
 /campaigns/:campaign_id/actions/send
 ```
 
-You can see this convention in the [EventBrite API](https://www.eventbrite.com/developer/v3/).
+You can see this convention in the [EventBrite API](https://www.eventbrite.com/developer/v3/) and the [Aeris Weather API](http://www.aerisweather.com/support/docs/api/).
 
 In general, if the placeholder name is ambiguous as to whether it's a placeholder or what you're really supposed to write in the path, clarify it.
 

@@ -62,121 +62,120 @@ To generate a JavaScript code snippet from Postman:
 This is the JavaScript code that you can attach to an event on your page.
 
 ## Implement the JavaScript code snippet
-
-Create a new HTML file with the basic HTML elements:
-
-```html
-<!DOCTYPE html>
-<head>
-<title>My sample page</title>
-</head>
-<body>
-
-</body>
-</html>
-```
-
-Insert the JavaScript code you copied inside some `<script>` tags inside the `head`:
-
-```html
-<!DOCTYPE html>
-<head>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script>
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
-  "method": "GET",
-  "headers": {
-    "accept": "application/json",
-    "x-mashape-key": "{api key}"
-  }
-}
-
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-</script>
-</head>
-<body>
-
-</body>
-</html>
-```
-
-For some reason, the JavaScript code sample is missing the `dataType` parameter. Add `"dataType": "json",` in the list of settings:
-
-```html
-<!DOCTYPE html>
-<head>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script>
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "dataType": "json",
-  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
-  "method": "GET",
-  "headers": {
-    "accept": "application/json",
-    "x-mashape-key": "{api key}"
-  }
-}
-
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-</script>
-</head>
-<body>
-hello
-</body>
-</html>
-```
-
-This code uses the `ajax` method from jQuery. The parameters are defined in a variable called `settings` and then passed into the method. The `ajax` method will make the request and assign the response to the `done` method's argument (`response`). The `response` object will be logged to the console.
-
-Open the file up in your Chrome browser.
-
-Open the JavaScript Developer Console by going to **View > Developer > JavaScript Console**. Refresh the page.
-You should see the object logged to the console.
-
-<img src="{{ "/images/consoleexamplefrompostman.png" | prepend: site.baseurl }}" alt="Object logged to the console" />
-
-Let's say you wanted to pull out the sunrise time and append it to a tag on the page. You could do so like this:
-
-```html
-<!DOCTYPE html>
-<head>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script>
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "dataType": "json",
-  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
-  "method": "GET",
-  "headers": {
-    "accept": "application/json",
-    "x-mashape-key": "{api key}"
-  }
-}
-
-$.ajax(settings).done(function (response) {
-  console.log(response);
-  $("#sunrise").append(response.query.results.channel.astronomy.sunrise);
-});
-</script>
-</head>
-<body>
-<h2>Sunrise time</h2>
-<div id="sunrise"></div>
-</body>
-</html>
-```
-
-This code uses the `append` method from jQuery to assign a value from the response object to the `sunrise` ID tag on the page.
+{{activity}}
+1. Create a new HTML file with the basic HTML elements:
+	
+	```html
+	<!DOCTYPE html>
+	<head>
+	<title>My sample page</title>
+	</head>
+	<body>
+	
+	</body>
+	</html>
+	```
+	
+2. Insert the JavaScript code you copied inside some `script` tags inside the `head`:
+	
+	```html
+	<!DOCTYPE html>
+	<head>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "method": "GET",
+	  "headers": {
+	    "accept": "application/json",
+	    "x-mashape-key": "{api key}"
+	  }
+	}
+	
+	$.ajax(settings).done(function (response) {
+	  console.log(response);
+	});
+	</script>
+	</head>
+	<body>
+	
+	</body>
+	</html>
+	```
+	
+3. The Mashape Weather API requires the `dataType` parameter, which Postman doesn't automatically include. Add `"dataType": "json",` in the list of `settings`:
+	
+	```html
+	<!DOCTYPE html>
+	<head>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "dataType": "json",
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "method": "GET",
+	  "headers": {
+	    "accept": "application/json",
+	    "x-mashape-key": "{api key}"
+	  }
+	}
+	
+	$.ajax(settings).done(function (response) {
+	  console.log(response);
+	});
+	</script>
+	</head>
+	<body>
+	hello
+	</body>
+	</html>
+	```
+	
+4. This code uses the `ajax` method from jQuery. The parameters are defined in a variable called `settings` and then passed into the method. The `ajax` method will make the request and assign the response to the `done` method's argument (`response`). The `response` object will be logged to the console.
+5. Open the file up in your Chrome browser.
+6. Open the JavaScript Developer Console by going to **View > Developer > JavaScript Console**. Refresh the page.
+	
+	You should see the object logged to the console.
+	
+	<img src="{{ "/images/consoleexamplefrompostman.png" | prepend: site.baseurl }}" alt="Object logged to the console" />
+	
+	Let's say you wanted to pull out the `sunrise` time and append it to a tag on the page. You could do so like this:
+	
+	```html
+	<!DOCTYPE html>
+	<head>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "dataType": "json",
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "method": "GET",
+	  "headers": {
+	    "accept": "application/json",
+	    "x-mashape-key": "{api key}"
+	  }
+	}
+	
+	$.ajax(settings).done(function (response) {
+	  console.log(response);
+	  $("#sunrise").append(response.query.results.channel.astronomy.sunrise);
+	});
+	</script>
+	</head>
+	<body>
+	<h2>Sunrise time</h2>
+	<div id="sunrise"></div>
+	</body>
+	</html>
+	```
+	
+	This code uses the `append` method from jQuery to assign a value from the response object to the `sunrise` ID tag on the page.
 
 ## SDKs provide tooling for APIs
 

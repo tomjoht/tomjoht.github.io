@@ -11,18 +11,18 @@ type: notes_docapis
 {% include notes.html %}
 
 ## Accessing JSON values
-
+{{activity}}
 You'll notice that in the main content display of the weatherdata code, the REST response information didn't appear. It only appeared in the JavaScript Console. You need to use dot notation to access the JSON values you want.
 
 {{note}} This section will use a tiny bit of JavaScript. You probably wouldn't use this code very much for documentation, but it's important to know anyway. {{end}}
 
-Let's say you wanted to pull out the description part of the JSON response. Here's the dot notation you would use:
+Let's say you wanted to pull out the `description` part of the JSON response. Here's the dot notation you would use:
 
 ```
 data.query.results.channel.item.description
 ```
 
-The dot after data is how you access the values you want from the JSON object. JSON wouldn't be very useful if you had to always print out the entire response. Instead, you select the exact element you want and pull that out through dot notation.
+The dot (`.`) after `data` (the name of the JSON payload) is how you access the values you want from the JSON object. JSON wouldn't be very useful if you had to always print out the entire response. Instead, you select the exact element you want and pull that out through dot notation.
 
 To pull out the description element from the JSON response and display it on the page, add this to your code sample, right below the `console.log(response)` part:
 
@@ -46,7 +46,7 @@ Refresh your Chrome browser and see the information that appears in the console:
 
 ## Printing the JSON to the page
 
-Let's say you wanted to print part of the JSON (the description element) to the page. This involves a little bit of JavaScript or jQuery (whichever you prefer).
+Let's say you wanted to print part of the JSON (the description element) to the page. This involves a little bit of JavaScript or jQuery (to make it easier).
 
 1. Add a named element to the body of your page, like this:
 
@@ -70,7 +70,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
 
     Your entire code should look as follows:
 
-    ```
+    ```html
     <html>
     <body>
 

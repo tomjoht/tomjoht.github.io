@@ -33,7 +33,9 @@ It's important to list the data type for each parameter because APIs may not pro
 * **boolean**: true or false.
 * **object**: Key-value pairs in JSON format
 
-There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. However, you usually don't have to specify this level of detail with a REST API. You can probably   just write "number".
+There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. 
+
+However, you usually don't have to specify this level of detail with a REST API. You can probably   just write "number".
 
 ## Parameters should list allowed values
 

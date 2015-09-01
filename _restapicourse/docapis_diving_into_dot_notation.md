@@ -38,7 +38,7 @@ To access glove, you would use `data.items[2]`.
 
 `glove` is the third item in the array.
 
-{{note}} With programming, you usually start counting at 0.{{end}}
+{{note}} With most programming languages, you usually start counting at `0`, not `1`.{{end}}
 
 ## Activity with dot notation
 {{activity}}
@@ -112,16 +112,14 @@ In this activity, you'll practice accessing different values through dot notatio
     If you view the page in your browser, you'll see the page says "Sarah" for each item because we're accessing this value: `john.children[0].child1` for each item.
 
 2. Change `john.children[0].child1` to display the right values for each item. For example, the word `green` should appear at the ID tag called `green`.
- * green
- * nike
- * goldenrod
- * Sarah
 
 Check your work by looking at the <a href="{{ "/docapis_answers" | prepend: baseurl }}#dotNotation">Dot Notation section</a> on the answers page.
 
 ## Showing wind conditions on the page
 {{activity}}
-At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together. Copy the following code into a basic HTML page, customize the `{api key}` value, and view it in the browser:
+At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together. 
+
+Copy the following code into a basic HTML page, customize the `{api key}` value, and view it in the browser:
 
 ```html
 <html>
@@ -180,6 +178,7 @@ function checkWind() {
 </html>
 ```
 A few things are different here, but it's essentially the same code:
+
 * Rather than running the `ajax` method on page load, it's wrapped inside a function called `checkWind`. When the button is clicked, it fires the `checkWind()` function through the `onclick` method.
 * When `checkWind` runs, it pulls out the wind chill, speed, and direction and writes them to several ID tags on the page. Units for each of these values is also added to the page.
 * Some minimal styling is added. Bootstrap is loaded to make the button styling.

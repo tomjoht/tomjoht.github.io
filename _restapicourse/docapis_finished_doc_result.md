@@ -167,7 +167,6 @@ curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=
 <p>The following code samples shows how to use the surfreport endpoint to get the surf height for a specific beach. </p>
 
 {% highlight html %}
-```html
 <!DOCTYPE html>
 <head>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -195,7 +194,7 @@ $.ajax(settings).done(function (response) {
 <div id="surfheight"></div>
 </body>
 </html>
-```{% endhighlight %}
+{% endhighlight %}
 
 <p>In this example, the <code>ajax</code> method from jQuery is used because it allows us to load a remote resource asynchronously.</p>
 <p>In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.</p>

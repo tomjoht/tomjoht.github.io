@@ -109,7 +109,7 @@ Here's what an item in the JSON response looks like:
 
 You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.
 
-### 5. Pull out the information you need
+## 5. Pull out the information you need
 
 The following code uses jQuery to loop through each of the responses and inserts the necessary components into an image tag to display each photo. Usually in documentation you don't need to be so explicit about how to use a common language like jQuery. You assume that the developer is capable in a specific programming language.
 
@@ -192,4 +192,4 @@ The final line shows how you insert those variables into the HTML:
 $("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
 ```
 
-{{tip}} A common pattern in programming is to loop through a response. This code example used the `each` method from jQuery to look through all the items in the response and do something with each item. Sometimes you incorporate logic that loops through items and looks for certain conditions present to decide whether to take some action. Pay attention to methods for looping, as they are common scenarios in programming. {{end}}
+{{tip}} A common pattern in programming is to loop through a response. This code example used the <code>each</code> method from jQuery to look through all the items in the response and do something with each item. Sometimes you incorporate logic that loops through items and looks for certain conditions present to decide whether to take some action. Pay attention to methods for looping, as they are common scenarios in programming. {{end}}

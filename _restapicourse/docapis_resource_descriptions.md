@@ -59,7 +59,7 @@ The Mashape Weather API is pretty simple, and just refers to the endpoints avail
 
 When I worked at Badgeville, our endpoints somewhat looked like this:
 
-```
+```html
 api_site.com/{apikey}/users
 // gets all users
 
@@ -138,14 +138,14 @@ Here's how I went about creating the endpoint description. If you want to try cr
 </div>
 
 ## Critique the Mashape Weather API descriptions
-
+{{activity}}
 Look over the descriptions of the three endpoints in the weather API. They're pretty short. For example, the `aqi` endpoint just says "Air Quality Index."
 
 I think these description are too short. But developers like concision. If shortening the surfreport description, you could also write:
 
-```
-surfreport
-Provides surf condition information.
+
+> <b>/surfreport/{beachId}</b>
+> <p>Provides surf condition information.</p>
 ```
 
 ## Recognize the difference between reference docs versus user guides

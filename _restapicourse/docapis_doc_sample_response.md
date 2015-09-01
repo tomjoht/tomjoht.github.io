@@ -184,7 +184,7 @@ The following is a sample response from the <code>surfreport/{beachId}</code> en
 </tr>
 </tbody></table>
 
-*Because this is a fictitious endpoint, I'm making the descriptions up.
+<small>*Because this is a fictitious endpoint, I'm making the descriptions up.</small>
 </div>
 
 
