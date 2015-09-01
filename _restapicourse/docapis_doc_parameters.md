@@ -61,7 +61,7 @@ However, if the parameter is part of the actual endpoint path (not added in the 
 
 Here's an example from Twilio:
 
-<a href="{{ "https://www.twilio.com/docs/api/rest/lookups" | prepend: site.baseurl }}"><img src="{{ "/images/restapicourse/twiliosample.png" | prepend: site.baseurl }}" alt="Twilio Example" /></a>
+<a href="https://www.twilio.com/docs/api/rest/lookups"><img src="{{ "/images/restapicourse/twiliosample.png" | prepend: site.baseurl }}" alt="Twilio Example" /></a>
 
 The `{PhoneNumber}` value is described in the description of the endpoint rather than in another section that lists the query parameters you can pass to the endpoint.
 

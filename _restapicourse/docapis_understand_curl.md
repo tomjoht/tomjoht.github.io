@@ -167,7 +167,6 @@ Fill in the blanks to see how much you remember:
 
 See the <a href="{{ "/docapis_answers" | prepend: site.baseurl}}#curlParameters">cURL parameters</a> on the answer page to check your responses.
 
-
 ## More Resources
 
 To learn more about cURL with REST documentation, see [REST-esting with cURL](http://blogs.plexibus.com/2009/01/15/rest-esting-with-curl/).

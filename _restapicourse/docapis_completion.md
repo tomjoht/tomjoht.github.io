@@ -41,7 +41,7 @@ Now that you've got the content down, the next step is to focus on publishing st
 
 ## Feedback
 
-If you have feedback about the course, please <a href="{{ "/contact" | prepend: site.baseurl }}">send it to me</a>.
+If you have feedback about the course, please <a class="noCrossRef" href="{{ "/contact" | prepend: site.baseurl }}">send it to me</a>.
 
 
 

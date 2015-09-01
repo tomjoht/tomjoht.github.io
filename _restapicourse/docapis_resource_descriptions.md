@@ -43,8 +43,7 @@ In contrast, look at Twitter's API. This page is called [GET statuses/retweets/:
 
 Here's the approach by Instagram. Their doc calls it "endpoints" in the plural -- e.g., "Relationship endpoints," with each endpoint listed on the relationship page.
 
-<a href="{{ "https://instagram.com/developer/endpoints/relationships/" | prepend: site.baseurl }}">
-<img src="{{ "/images/restapicourse/instagramendpoints.png" | prepend: site.baseurl }}"/></a>
+<a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "/images/restapicourse/instagramendpoints.png" | prepend: site.baseurl }}"/></a>
 
 The EventBrite API shows a list of endpoints, but when you go to an endpoint, what you're really seeing is an object. On the object's page you can see the variety of endpoints you can use with the object.
 
@@ -104,7 +103,7 @@ The Box example has 5 different endpoints or methods you can call. Each of these
 
 ## When describing the resource, start with a verb
 
-Review the <a href="{{ "/restapicourse2-0" | prepend: site.baseurl }}">surf report wiki page</a> containing the information about the endpoint, and try to describe the endpoint in the length of one or two tweets (140 characters).
+Review the <a href="{{ "/docapis_new_endpoint_to_doc" | prepend: site.baseurl }}">surf report wiki page</a> containing the information about the endpoint, and try to describe the endpoint in the length of one or two tweets (140 characters).
 
 The resource description usually starts with a verb and is a fragment. Here are some examples:
 

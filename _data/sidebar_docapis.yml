@@ -90,5 +90,7 @@ entries:
           url: /docapis_flickr_example/
         - title: Klout example
           url: /docapis_klout_example/
+        - title: Aeris Weather example
+          url: /docapis_aerisweather_example/
         - title: Course completion
           url: /docapis_completion/

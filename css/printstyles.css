@@ -10,13 +10,16 @@ table .table {max-width:650px;}
 
 #navig a[href]::after { content: leader(".") target-counter(attr(href), page); }
 
-a[href]::after {
-    content: " (page " target-counter(attr(href), page) ")"
-}
+a[href]::after {  content: " (page " target-counter(attr(href), page) ")"  }
 
 a[href^="http:"]::after, a[href^="https:"]::after {
     content: " (" attr(href) ")";
 }
+
+a[href^="http://127.0.0.1:4033/docapis"]::after, a[href^="http://127.0.0.1:4033/docapis"]::after {
+{  content: " (page " target-counter(attr(href), page) ")"  };
+}
+
 
 a[href] {
     color: blue !important;
@@ -24,7 +27,6 @@ a[href] {
 a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::after {
     content: "";
 }
-
 
 @page {
     margin: 50pt 80pt 50pt 80pt;

@@ -18,7 +18,7 @@ Almost every API has a method in place to authenticate requests. You usually hav
 * Rate limit the number of requests
 * Control availability of certain features within the API
 
-{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation. Later in the course we will dive into <a href="{{ "/docapis_more_about_authorization" | prepend: baseurl }}">authorization methods in more detail</a>.{{end}}
+{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation. Later in the course we will dive into <a href="{{ "/docapis_more_about_authorization" | prepend: site.baseurl }}">authorization methods in more detail</a>.{{end}}
 
 ## Get the Mashape authorization keys
 {{activity}}

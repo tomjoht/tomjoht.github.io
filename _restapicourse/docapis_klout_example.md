@@ -71,7 +71,7 @@ To get your influencers and influencees, you need to use the `influence` endpoin
 
 And here's the influence resource's response:
 
-```html
+```json
 {
     "myInfluencers": [{
         "entity": {
