@@ -57,7 +57,9 @@ Here's another example of a Getting Started tutorial from Smugmug's API:
 
 <a href="https://api.smugmug.com/api/v2/doc"><img src="{{ "/images/restapicourse/smugmuggettingstarted.png" | prepend: site.baseurl }}" alt="Smugmug" /></a>
 
-If you compar the various Getting Started sections, you'll see that some are detailed and some rae high-level and brief. In general, the more you can hold the developer's hand, the better.
+I like how, right from the start, Smugmug tries to hold your hand to get you started. In this case, the tutorial for getting started is integrated directly in with the main documentation.
+
+If you compare the various Getting Started sections, you'll see that some are detailed and some are high-level and brief. In general, the more you can hold the developer's hand, the better.
 
 ## Hello World tutorials
 
@@ -67,6 +69,3 @@ Although you don't usually write Hello World messages with the API, the concept 
 
 You could take a common, basic use case for your API and show how to construct a request, as well as what response returns. If a developer can make that call successfully, he or she can probably be successful with the other calls too.
 
-
-
-I like how, right from the start, Smugmug tries to hold your hand to get you started. In this case, the tutorial for getting started is integrated directly in with the main documentation.

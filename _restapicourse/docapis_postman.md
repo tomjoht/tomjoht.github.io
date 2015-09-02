@@ -27,13 +27,13 @@ Some popular GUI clients include the following:
 * [REST Console](https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn)
 * [Paw](https://luckymarmot.com/paw) (Mac, $30)
 
-## Learn by doing, then deep dive
+## Learn by doing, then deep dive into concepts
 
 A lot of times abstract concepts don't make sense until you can contextualize them with some kind of action. In this course, I'm following more of an act-first-then-understand type of methodology. After you do an activity, we'll explore the concepts in more depth. I think this reflects how people use software and documentation.
 
 If it seems like I'm glossing over some things now, like what a GET method is or a resource URI, hang in there. When we deep dive into that point later, and things will be a lot clearer.
 
-## Make a call in Postman
+## Make a request in Postman
 {{activity}}
 1. If you haven't already done so, download and start the [Postman app for Chrome](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
@@ -64,7 +64,7 @@ If it seems like I'm glossing over some things now, like what a GET method is or
 	
 	{{note}} Usually the responses are more detailed JSON. Notice that the header set the `Accept` type as `text/plain`.{{end}}
 	
-## Save the call
+## Save the request
 {{activity}}
 1. In Postman, click the **Save** button (the floppy disk next to Send). 
 2. Create a new collection (e.g., weather) by typing the collection name in the **or create a new one** box.
@@ -73,7 +73,7 @@ If it seems like I'm glossing over some things now, like what a GET method is or
 
 Saved endpoints appear in the left column under Collections.
 
-## Make calls for the other endpoints
+## Make requests for the other endpoints
 {{activity}}
 Enter details into Postman for the other two endpoints:
 
@@ -88,7 +88,7 @@ When you save these other endpoints, click the arrow next to Save and choose **S
 
 {{note}}The Accept header tells the browser what format you will accept the response in. The Accept header for the `weatherdata` endpoint is `application/json`, whereas the first two are `application/text`. {{end}}
 
-## View the format of the weatherdata response in pretty JSON
+## View the format of the weatherdata response in JSON
 {{activity}}
 The first two endpoint responses include text only. The weatherdata endpoint response is in JSON format. 
 

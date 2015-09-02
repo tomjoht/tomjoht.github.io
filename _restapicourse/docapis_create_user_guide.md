@@ -37,15 +37,7 @@ Since the content of these sections varies a lot based on your API, it's not pra
 
 [Sendgrid's documentation](https://sendgrid.com/docs) has a good example of these other user-guide sections essential to API documentation. It does a good show showing how API documentation is more than just a collection of endpoints.
 
-
-
-## Code tutorials
-
-While your API shows the endpoints available, you need to explain how to use the API to accomplish real tasks your users have. A lot of times, real tasks involve using *multiple* endpoints in various dependency sequences. 
-
-Sometimes the endpoints require certain data to be set up to return the right values, and so on. These tutorials will span across the endpoints to focus on business tasks.
-
-## The usual user guide stuff
+## Also include the usual user guide stuff
 
 Beyond the sections outlined above, you should include the usual stuff that you put user guides. By the usual stuff, I mean you list out the common tasks you expect your users to do. What are their real business scenarios for which they'll use your API? 
 
@@ -56,4 +48,4 @@ Sure, there are innumerable ways that users can put together different endpoints
  * Provide a Tweet This button below posts
  * Show the number of times a post has been retweeted
  
- Provide how-to's for these tasks just like you would with any user guide. Seeing the tasks users can do with an API may be a little less familiar because you don't have a GUI to click through. But the basic concept is the same -- ask what will users want to do with this product, what can they do, and how do they do it. 
+ Provide how-to's for these tasks just like you would with any user guide. Seeing the tasks users can do with an API may be a little less familiar because you don't have a GUI to click through. But the basic concept is the same &mdash; ask what will users want to do with this product, what can they do, and how do they do it. 

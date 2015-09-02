@@ -8,7 +8,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those moments.
+{{note}} This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those moments.{{end}}
 
 ## An API is an interface between systems
 In general, an API (Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
@@ -23,7 +23,7 @@ APIs often work in similar ways. But instead of interacting within the same syst
 
 Developers use API calls behind the scenes to pull information into their apps. A button on a GUI may be internally wired to make calls to an external service. For example, the embedded Twitter or Facebook buttons that interact with social networks, or embedded Youtube videos that pull a video in from youtube.com, are both powered by APIs underneath.
 
-## About web services
+## APIs that use HTTP protocol are web services
 
 In general, a web service is a web-based application that provides information in a format consumable by other computers. Web services include various types of APIs, including both REST and SOAP APIs. Web services are basically request and response interactions between clients and servers (one computer makes the request, and the API provides the response).
 
@@ -31,23 +31,23 @@ All APIs that use HTTP protocol as the transport format for requests and respons
 
 With web services, the client making the request and the API server providing the response can use any programming language or platform &mdash; it doesn't matter because the message request and response are made through a common HTTP web protocol. This is part of the beauty of web services: they are platform agnostic and therefore interoperable across different languages and platforms.
 
-## SOAP APIs: The predecessor to REST
+## SOAP APIs are the predecessor to REST APIs
 
 Before REST became the most popular web service, SOAP (Simple Object Access Protocol) was much more common. To understand REST a little better, it helps to have some context with SOAP. This way you can see what makes REST different.
 
-### Standardized protocols and WSDL files
+### SOAP used standardized protocols and WSDL files
 SOAP is a standardized protocol that requires XML as the message format for requests and responses. As a standardized protocol, the message format is usually defined through something called a WSDL file (Web Services Description Language).
 
 The WSDL file defines the allowed elements and attributes in the message exchanges. The WSDL file is machine readable and used by the servers interacting with each other to facilitate the communication.
 
 SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST Challenges](http://www.soapui.org/testing-dojo/world-of-api-testing/soap-vs--rest-challenges.html).
 
-### Problems with SOAP and XML
+### Problems with SOAP and XML: Too heavy, slow
 The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where file size and bandwidth are critical. The verbose message format slows processing times, which makes SOAP interactions more slow.
 
 SOAP is still used in enterprise application scenarios with server-to-server communication, but in the past 5 years, SOAP and XML have largely been replaced by REST and JSON, especially for APIs on the open web. You can browse some SOAP APIs at [http://xmethods.com/ve2/index.po](http://xmethods.com/ve2/index.po).
 
-## REST
+## REST is a style, not a standard
 
 Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport protocol for the message requests and responses. However, unlike SOAP, REST is an architectural style, not a standard protocol.
 
@@ -57,22 +57,22 @@ Here's the general model of a REST API:
 
 <img src="{{ "/images/restapicourse/restapi_restapi.svg" | prepend: site.baseurl }}" alt="REST API" />
 
-### Any message format can be used
+### Any message format can be used with REST
 As an architectural style, you aren't limited to XML as the message format. REST APIs can use any message format the API developers want to use, including XML, JSON, Atom, RSS, CSV, HTML, and more.
 
-### JSON most common
+### JSON most common format
 Despite the variety of message format options, most REST APIs use JSON (JavaScript Object Notation) as the default message format. This because JSON provides a lightweight, simple, and more flexible message format that increases the speed of communication.
 
 The lightweight nature of JSON also allows for mobile processing scenarios and is easy to parse on the web using JavaScript. In contrast, with XML, you have to use XSLT to parse and process the content.
 
-### Focus on resources through URIs
+### REST focuses on resources accessed through URLs
 REST APIs focus on *resources* (that is, *things*, rather than actions, as SOAP does), and ways to access the resources. You access the resources through URLs (Uniform Resource Locations). The URLs are accompanied by a method that specifies how you want to interact with the resource.
 
 Common methods include GET (read), POST (create), PUT (update), and DELETE (remove). The URL also may include query parameters that specify more details about the representation of the resource you want to see. For example, you might specify in a query parameter that you want to limit the display of 5 instances of the resource (rather than whatever the default might be).
 
 {{tip}}The relationship between resources and methods is often described in terms of nouns and verbs. The resource is the noun, because it is an object or thing. The verb is what you're doing with that noun. Combining nouns with verbs is how you form the language in a REST API.{{end}}
 
-### Sample URIs/endpoints
+### Sample URLs for a REST API
 Here's what a sample REST URI might look like:
 
 ```
@@ -89,7 +89,7 @@ http://apiserver.com/homes/1234
 
 This might be an endpoint that retrieves a home resource with an ID of `1234`. What is transferred back from the server to the client is the "representation" of the resource. The resource may have many different representations (showing all homes, homes that match a certain criteria, homes in a specific format, and so on), but here we want to see home 1234.
 
-### The web follows REST
+### The web itself follows REST
 The terminology of URIs and GET requests and message responses transported over HTTP protocol might seem unfamiliar, but really this is just the official REST terminology to describe what's happening. If you've used the web, you're already familiar with how REST APIs work, because the web itself more or less follows a RESTful style.
 
 If you open a browser and go to http://idratherbewriting.com, you're really using HTTP protocol (`http://`)  to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
@@ -101,7 +101,7 @@ You can see this response in cURL if you open a Terminal prompt and type `curl h
 ### REST APIs are stateless and cacheable
 Some additional features of REST APIs are that they are stateless and cacheable. Stateless means that each time you access a resource through a URI, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each request. And the responses can be cached in order to increase the performance.
 
-### No WSDL files, but some specs exist
+### REST APIs don't use WSDL files, but some specs exist
 REST APIs don't use a WSDL file to describe elements and parameters allowed in the requests and responses. Although there is a possible WADL (Web Application Description Language) file that can be used to describe REST APIs, they're rarely used since the WADL files don't adequately describe all the resources, parameters, message formats, and other attributes the REST API. (Remember that the REST API is an architectural style, not a standardized protocol.)
 
 In order to understand how to interact with a REST API, you have to read the documentation for the API. (This provides a great opportunity for technical writers! Hooray!)

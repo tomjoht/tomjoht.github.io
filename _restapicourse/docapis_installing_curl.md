@@ -1,5 +1,5 @@
 ---
-title: "Installing cURL"
+title: Installing cURL
 permalink: /docapis_install_curl/
 course: "Documenting REST APIs"
 weight: 1.6

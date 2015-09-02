@@ -36,7 +36,7 @@ Here's an example of the difference:
 * **what**: In this code, several arguments are passed to jQuery's `ajax` method. The response is assigned to the data argument of the callback function, which in this case is `success`.
 * **why**: Use the `ajax` method from jQuery because it allows cross-origin resource sharing (CORS) for the weather resources. In the request, you submit the authorization through the header rather than including the API key directly in the endpoint path.
 
-## Focus your explanation on your company's code only
+## Explain your company's code, not general coding
 Developers unfamiliar with common code not related to your company (for example, the `.ajax()` method from jQuery) should consult outside sources for tutorials about that code. You shouldn't write your own version of another service's documentation. Instead, focus on the parts of the code unique to your company. Let the developer rely on other sources for the rest (feel free to link to other sites).
 
 ## Keep code samples simple
@@ -55,7 +55,7 @@ Comments within the code are usually short one-line notes that appear after ever
 
 This approach of adding brief comments within the code, followed by more robust explanations after the code, aligns with principles of progressive information disclosure that help align with both advanced and novice user types.
 
-## Make code samples copy-and-pastable
+## Make code samples copy-and-paste friendly
 
 Many times developers will copy and paste code directly from the documentation into their application. Then they will usually tweak it a little bit for their specific parameters or methods.
 
@@ -71,7 +71,7 @@ Providing code samples is almost always a good thing, so if you have the bandwid
 
 Remember that each code sample you provide needs to be tested and maintained. When you make updates to your API, you'll need to update each of the code samples across all the different languages.
 
-## From code samples to real tasks in user guides
+## Code samples are maintenance heavy with new releases
 
 Getting into code samples leads us more toward user guide tasks than reference tasks. However, keep in mind that code samples are a bear to maintain. When your API pushes out a new release, will you check all the code samples to make sure the code doesn't break with the new API (this is called regression testing by QA).
 

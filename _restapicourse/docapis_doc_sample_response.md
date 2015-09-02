@@ -62,7 +62,7 @@ It's also interesting how much detail eBay includes for each item. Whereas the T
 
 {{note}} A lot of APIs also return responses in XML, especially if the API is an older API. (Initially, XML was more popular than JSON, but now it's the reverse.) Some APIs give you the option of returning responses in either XML or JSON. If you're going to consume the API on a web page, JSON is probably much more popular because you can use JavaScript dot notation to grab the information you want. {{end}}
 
-## Information design choice: Where to include the response
+## Where to include the response
 
 Some APIs collapse the response into a show/hide toggle to save space. Others put the response in a right column so you can see it while also looking at the endpoint description and parameters. Stripe's API made this tri-column design famous:
 
@@ -89,7 +89,7 @@ If you can add syntax highlighting as well, definitely do it. One good Python-ba
 
 Since your tool and platform dictate the syntax highlighting options available, look for syntax highlighting options within the system that you're using. If you don't have any syntax highlighters to integrate directly into your tool, you could add syntax highlighting manually for each code sample by pasting it into the [syntaxhighlight.in](http://syntaxhighlight.in/) highlighter.
 
-## Some APIs embed dynamic responses
+## Embedding dynamic responses
 
 Sometimes responses are generated dynamically based on API calls to a test system. For example, look at the [Rhapsody API](https://developer.rhapsody.com/api) and click an endpoint &mdash; it appears to be generated dynamically). 
 
@@ -97,7 +97,7 @@ When I worked at Badgeville, we had a test/demo system we used to generate the r
 
 However, once the test system generated the responses, those responses were imported into the documentation through a script.
 
-## Create a section for a sample request in your surfreport/{beachId} endpoint
+## Create a sample response in your surfreport/{beachId} endpoint
 {{activity}}
 For your `surfreport/{beachId}` endpoint, create a section that shows the sample response. Look over the response to make sure it shows what it should.
 

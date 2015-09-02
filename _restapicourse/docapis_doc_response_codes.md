@@ -80,7 +80,7 @@ In particular, you should look for codes that return when there is an error, sin
 
 {{tip}}You can run some of the cURL calls you made earlier (this time adding `-i`) and looking at the HTTP status code in the response. {{end}}
 
-## Sample status code list
+## How to list status codes
 
 Your list of status codes can be done in a basic table, somewhat like this:
 
@@ -89,11 +89,11 @@ Your list of status codes can be done in a basic table, somewhat like this:
 | 200 | Successful request and response. |
 | 400 | Malformed parameters or other bad request |
 
-## Status codes are subtle
+## Status codes are aren't readily visible
 
 Status codes are pretty subtle, but when a developer is working with an API, these codes may be the only "interface" the developer has. If you can control the messages the developer sees, it can be a huge win. All too often, status codes are uninformative, poorly written, and communicate little or no helpful information to the user to remove the error
 
-## Error codes and troubleshooting
+## Status/error codes can assist in troubleshooting
 
 Status and error codes can be particularly helpful when it comes to troubleshooting. Therefore, you can think of these error codes as complementary to a section on troubleshooting.
 

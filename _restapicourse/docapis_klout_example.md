@@ -256,7 +256,7 @@ And here's the influence resource's response:
 
 The response contains an array containing 5 influencers and an array containing 5 influencees. (Remember the square brackets denote an array; the curly braces denote an object. Each array contains a list of objects.)
 
-## 5. Pull out the information you need
+## 4. Pull out the information you need
 
 Suppose you just want a short list of Twitter names with their links.
 
@@ -303,7 +303,7 @@ The result looks like this:
 
 <img src="{{ "/images/restapicourse/kloutinfluencelists.png" | prepend: site.baseurl }}" alt="Klout result" />
 
-<h2>Code explanation</h2>
+## Code explanation
 
 The code uses the `ajax` method from jQuery to get a JSON payload for a specific URL. It assigns this payload to the `data` argument. The `console.log(data)` code just logs the payload to the console to make it easy to inspect.
 

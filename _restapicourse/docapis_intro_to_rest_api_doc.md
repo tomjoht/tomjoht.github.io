@@ -10,7 +10,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## Complete and accurate docs are most important factor in APIs
+## Programmableweb API survey rates doc #1 factor in APIs
 
 Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation market in general.
 
@@ -22,7 +22,7 @@ John Musser, one of the founders of Programmableweb.com, has followed up on the 
 
 <a href="http://www.slideshare.net/jmusser/ten-reasons-developershateyourapi"><img src="{{ "/images/restapicourse/yourdocsucks.png" | prepend: site.baseurl }}" alt="Your API documentation sucks" /></a>
 
-## REST APIs are taking off in a huge way
+## Since 2005, REST APIs are taking off in a huge way
 
 If REST APIs were an uncommon software product, it wouldn't be that big of a deal. But actually, REST APIs are taking off in a huge way. Through the PEW Research Center, Programmableweb.com has charted and tracked the prevalance of web APIs.
 
@@ -30,7 +30,7 @@ If REST APIs were an uncommon software product, it wouldn't be that big of a dea
 
 eBay's API in 2005 was one of the first web APIs. Since then, the tremendous growth in web APIs &mdash; coupled with the importance of documentation with APIs &mdash; presents a perfect opportunity for technical writers. Technical writers can apply their communication skills to fill a gap in a market that is exploding.
 
-## Why is documentation so important for REST APIs?
+## Because REST APIs are a style not a standard, docs are essential
 
 REST APIs are a bit different from the SOAP APIs that were popular some years ago. SOAP APIs (service-oriented architecture protocol) enforced a specific message format for sending requests and returning responses. As an XML message format, SOAP was was very specific and had a WSDL file (web service description language) that described how to interact with the API.
 
@@ -38,7 +38,7 @@ REST APIs, however, do not follow a standard message format. Instead, REST is an
 
 Each REST API functions a bit differently. There isn't a single way of doing things, and this flexibility and variety is what fuels the need for accurate and clear documentation with REST APIs. As long as there is variety, there will be a strong need for technical writers.
 
-## The web is a mashup of APIs
+## The web is becoming an interwoven mashup of APIs
 
 Another reason why REST APIs are taking off is because the web itself is evolving into a conglomeration of APIs. Instead of massive, do-it-all systems, web sites are pulling in the services they need through APIs. For example, rather than building your own search to power your website, you might use Switftype instead and leverage their service through their [Swifttype API](https://swiftype.com/developers).
 
@@ -81,7 +81,7 @@ When you try to navigate the world of API documentation, the world looks as unfa
 
 <a href="http://bit.ly/ZFYI0T"><img src="{{ "/images/restapicourse/mars_bubble.jpg" | prepend: site.baseurl }}" alt="API doc world is like Mars" /></a>
 
-## Increasing learning materials about API documentation
+## Learning materials about API doc are scarce
 
 Realizing there was a need for more information, I guest-edited a special issue of Intercom dedicated to API documentation.
 

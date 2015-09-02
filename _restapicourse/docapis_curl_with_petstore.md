@@ -8,7 +8,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## Posting to the body
+## Using Petstore API
 
 Our sample weather API from Mashape doesn't allow you to use anything but a GET method, so for this example, we'll use the [petstore API from Swagger](http://petstore.swagger.io/), but without actually using the Swagger UI (which is something we'll explore later). For now, we just need an API that we can create, update, and delete content from. (You're just getting familiar with cURL here.)
 
@@ -142,8 +142,6 @@ Unfortunately, your pet has died. It's time to delete your pet from the pet regi
     ```json
     {"code":1,"type":"error","message":"Pet not found"}
     ```
-
-## Conclusion
 
 This example has allowed you to see how you can work with cURL to create, read, update, and delete resources. These four operations are referred to as CRUD and are common to almost every programming language.
 

@@ -22,7 +22,7 @@ cURL provides a generic, language agnostic way to demonstrate HTTP requests and 
 
 {{important}}Almost every API shows how to interact with the API using cURL.{{end}}
 
-## REST APIs follow the same request/return model of the web
+## REST APIs follow the same model of the web
 
 One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response a more visual display. But you can also see the raw code. 
 
@@ -112,7 +112,7 @@ Here's what the commands mean:
 
 {{note}} Most cURL commands have a couple of different representations. <code>--get</code> can also be written as <code>-X GET</code>.{{end}}
 
-## Query strings
+## Query strings and parameters
 
 The latitude (`lat`) and longitude (`lng`) parameters were passed to the endpoint using "query strings." The `?` appended to the URL is the query string where the parameters are passed to the endpoint.
 
@@ -167,11 +167,11 @@ Fill in the blanks to see how much you remember:
 
 See the <a href="{{ "/docapis_answers" | prepend: site.baseurl}}#curlParameters">cURL parameters</a> on the answer page to check your responses.
 
+{{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that <i>just work</i> on a Mac. You won't constantly be needing to add things "to your path." {{end}}
+
 ## More Resources
 
 To learn more about cURL with REST documentation, see [REST-esting with cURL](http://blogs.plexibus.com/2009/01/15/rest-esting-with-curl/).
-
-{{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that <i>just work</i> on a Mac. You won't constantly be needing to add things "to your path." {{end}}
 
 
 

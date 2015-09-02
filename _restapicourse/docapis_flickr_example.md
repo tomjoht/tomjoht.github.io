@@ -13,7 +13,7 @@ type: notes_docapis
 {{activity}}
 Use the Flickr API to get photo images from [this Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/).
 
-## Overview
+## Flickr Overview
 In this Flickr API example, you'll see that our goal requires us to call several endpoints. You'll see that just having an API reference that lists the endpoints and responses isn't enough. Often one endpoint requires other endpoint responses as inputs, and so on.
 
 In this example, we want to get all the photos from a [specific Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) and display them on a web page. Here's the gallery we want:
@@ -37,7 +37,7 @@ We use the [flickr.urls.lookupGallery](https://www.flickr.com/services/api/explo
 
 The gallery ID is `66911286-72157647277042064`. We now have the arguments we need for the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint.
 
-## 2. Construct the request
+## 3. Construct the request
 
 We can make the request to get the list of photos for this specific gallery ID.
 

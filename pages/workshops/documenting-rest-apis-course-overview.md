@@ -6,6 +6,8 @@ categories:
 keywords: 
 ---
 
+{{tip}} You can access an online version of the workshop here: <a href="http://idratherbewriting.com/docapis_course_overview/">Documenting REST APIs</a>. {{end}}
+
 <h2>Workshop description</h2>
 
 Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using a simple weather API to put a weather forecast on your site.

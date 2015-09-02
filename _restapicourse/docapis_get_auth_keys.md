@@ -10,7 +10,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## Authorization for making API calls
+## About authorization for API calls
 
 Almost every API has a method in place to authenticate requests. You usually have to provide your API key in requests in order to get a response. Authorization allows API publishers to do the following:
 

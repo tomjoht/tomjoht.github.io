@@ -13,7 +13,7 @@ This course provides a tutorial on documenting REST APIs (not platform APIs such
 
 Because the purpose of the course is to help you learn, there are numerous activities that require hands-on coding, exploring, and other exercises. Between the learning activities, there are more conceptual deep dives, but the focus is always on learning by doing.
 
-## Time to completion
+## Takes 3 hours to complete
 
 This course is expected to take about 3 hours.
 
@@ -30,6 +30,8 @@ After you use the API as a developer might, you then shift perspectives and beco
 ## No programming skills required
 
 You don't need any programming background or other prerequisites, but if you do have some familiarity with programming concepts, you can speed through the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.
+
+Note that a lot of the code samples in this course use JavaScript. JavaScript may or may not be a programming language that you actually use when you document REST APIs, but most likely there will be some programming language or another that becomes important to know. JavaScript is one of the most practical and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation.
 
 ## What you'll need
 

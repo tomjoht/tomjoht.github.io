@@ -50,7 +50,7 @@ Some platforms such as [Swagger](http://swagger.io/) and [Readme.io](http://read
 
 As far as integrating other API Explorer tooling, this is a task that should be relatively easy for developers. All the Explorer does it map values from a field to an API call and return the response to the same interface. In other words, the API plumbing is all there &mdash; you just need a little JavaScript and front-end skills to make it happen.
 
-## If different requests return different responses, show multiple responses
+## When to show multiple responses
 
 One of the problems with showing a sample request and sample response is that different requests return different responses. Depending on the parameters you include, the response will be tailored to those parameters. 
 

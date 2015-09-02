@@ -18,7 +18,7 @@ In other APIs, security might be much more important and strict due to sensitive
 
 In this section, you'll learn more about authentication and what you should focus on in documentation.
 
-## Defining authorization and authentication?
+## Defining terms
 
 First, a brief definition of terms:
 
@@ -27,7 +27,7 @@ First, a brief definition of terms:
 
 An API might authenticate you but not authorize you to make a certain call.
 
-## Consequences if an API lacks authentication and authorization
+## Consequences if an API lacks security
 There are many different ways to enforce authentication and authorization with the API calls. Enforcing this authentication and authorization is vital. Consider the following scenarios if you didn't have any kind of security with your API:
 
 * Users could make unlimited amounts of API calls without any kind of registration, making any kind of revenue model associated with your API difficult.
@@ -74,7 +74,6 @@ The Headers tab now contains a key-value pair that looks like this:
 ```
 Authorization: Basic RnJlZDpteXBhc3N3b3Jk
 ```
-
 
 ## HMAC (Hash-based message authorization code)
 
@@ -134,7 +133,9 @@ However, you do need to explain some basic information such as:
 
 If you have public and private keys, you should explain where each key should be used, and that private keys should not be shared.
 
-## API keys section of documentation
+If different license tiers provide different access to the API calls you can make, these licensing tiers should be explicit in your authorization section or elsewhere.
+
+## Where to list the API keys section in documentation
 
 Since the API keys section is usually essential before developers can start using the API, this section needs to appear in the beginning of your help.
 
@@ -142,9 +143,7 @@ Here's a screenshot from SendGrid's documentation on API keys:
 
 <a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="{{ "/images/restapicourse/sendgridapikeys.png" | prepend: site.baseurl }}" alt="SendGrid API Keys" /></a>
 
-If different license tiers provide different access to the API calls you can make, these licensing tiers should be explicit in your authorization section or elsewhere.
-
-## Rate limits
+## Include information on rate limits
 Whether in the authorization keys or another section, you should list any applicable rate limits to the API calls. Rate limits determine how frequently you can call a particular endpoint. Different tiers and licenses may have different capabilities or rate lmits.
 
 If your site has hundreds of thousands of visitors a day, and each page reload calls an API endpoint, you want to be sure the API can support that kind of traffic.

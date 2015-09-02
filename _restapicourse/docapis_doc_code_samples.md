@@ -10,11 +10,11 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## REST APIs are language agnostic
+## REST APIs are language agnostic and interoperable
 
 One ingenius aspect of REST APIs is that they aren't tied to a specific programming language. Developers can code their applications in any language, from Java to Ruby to JavaScript, Python, C#, Ruby, Node JS, or something else. As long as they can make an HTTP web request in that language, they can use the API. The response from the web request will contain the data in either JSON or XML.
 
-## Which language should you provide code samples in?
+## Deciding which languages to show code samples in
 Because you can't really know which language your end users will be developing in, it's kind of fruitless to try to provide code samples in every language. Many APIs just show the format for submitting requests and a sample response, and they assume that developers will know how to submit HTTP requests in their particular programming language.
 
 However, some APIs do show simple code snippets in a variety of languages. Here's an example from Evernote's API documentation:
@@ -197,7 +197,7 @@ Although the Mashape Weather API doesn't provide a code sample in the Weather AP
 
 You already worked with this code earlier, so it shouldn't be new. It's most same code as the JavaScript snippet we just used, but here there's an error function defined, and the header is set a bit differently.
 
-## Your turn to practice: Create a code sample and documentation for surfreport
+## Create a code sample for the surfreport endpoint
 {{activity}}
 As a technical writer, add a code sample to the `surfreport/{beachId}` endpoint that you're documenting. Use the same code as above, and add a short description about why the code is doing what it's doing.
 

@@ -10,7 +10,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## Prettify the JSON response
+## Prettify the weatherdata JSON response
 
 Let's look at the JSON response for the weatherdata call in more depth. The minified response from cURL looks like this:
 
@@ -20,8 +20,7 @@ Let's look at the JSON response for the weatherdata call in more depth. The mini
 
 It's not very readable (by humans), so we can use a [JSON formatter tool](http://jsonformatter.curiousconcept.com/) to "prettify" it:
 
-{% raw %}
-```
+```json
 {  
    "query":{  
       "count":1,
@@ -133,7 +132,6 @@ It's not very readable (by humans), so we can use a [JSON formatter tool](http:/
    }
 }
 ```
-{% endraw %}
 
 ## JSON is how most REST APIs structure the response
 
@@ -176,7 +174,7 @@ With numbers or booleans (true or false values), you don't use quotation marks.
 [true, false, true]
 ```
 
-## Mixing it up
+## Including objects in arrays, and arrays in objects
 
 JSON can mix up objects and arrays inside each other. You can have an array of objects:
 

@@ -16,7 +16,7 @@ While Postman is convenient, it's hard to represent just how to make the calls. 
 
 cURL is a command-line utility that lets you excecute HTTP requests with different parameters and methods. In this section, you'll use cURL to make these same requests.
 
-## Prepare the call in cURL format
+## Prepare the weather request in cURL format
 
 {{activity}}
 1. Go back into the [Weather API](https://www.mashape.com/fyhao/weather-13).
@@ -35,8 +35,7 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 
     {{note}} In the instruction here, `{api key}` will be used instead of an actual API key. You should replace that part with your own API key. Omit the curly braces `{ }`. {{end}}
 
-
-## Make the call in cURL (Mac)
+## Make the request in cURL (Mac)
 {{activity}}
 1. Open a terminal. To open Terminal, press **Cmd + spacebar** and type **Terminal**.
 
@@ -58,7 +57,7 @@ You should see something like this as a response:
 
 The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
-## Make the call in cURL (Windows 7)
+## Make the request in cURL (Windows 7)
 {{activity}}
 1. Copy the cURL call from your text editor. 
 2. Go to **Start** and type **cmd** to open up the commandline. (If you're on Windows 8, see [these instructions for accessing the commandline](http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm).)
@@ -73,7 +72,6 @@ The response is just a single number: the air quality index for the location spe
 	The response looks like this:
 
 	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
-
 
 ## Single and Double Quotes with Windows cURL requests
 

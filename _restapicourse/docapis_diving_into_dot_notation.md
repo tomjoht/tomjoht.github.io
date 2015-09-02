@@ -40,7 +40,7 @@ To access glove, you would use `data.items[2]`.
 
 {{note}} With most programming languages, you usually start counting at `0`, not `1`.{{end}}
 
-## Activity with dot notation
+## Exercise with dot notation
 {{activity}}
 
 In this activity, you'll practice accessing different values through dot notation.

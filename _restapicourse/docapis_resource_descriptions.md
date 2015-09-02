@@ -159,15 +159,7 @@ With the description of surfreport, you might expand on this with much greater d
 
 You could link the description to the places in the user guide where you expand on it in more detail. But since developers often write API documentation, they sometimes never write the user guide (as is the case with the Weather API in Mashape).
 
-## Re-using the resource description
-
-The description of the endpoint is likely something you'll re-use in different places:
-
-- Product overviews
-- Tutorials
-- Code samples
-
-As a result, put a lot of effort into crafting it.
+{{tip}}The description of the endpoint is likely something you'll re-use in different places: product overviews, tutorials, code samples, etc. As a result, put a lot of effort into crafting it.{{end}}
 
 
 
