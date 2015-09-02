@@ -9,8 +9,8 @@ topnav:
     - title: Beginners
       url: /category-beginners/
 
-#    - title: Jobs
-#      url: /findjobs/
+    - title: Jobs
+      url: /findjobs/
 
 #Topnav dropdowns
 topnav_dropdowns:
