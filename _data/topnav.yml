@@ -16,7 +16,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
-    - title: About me
+    - title: About
       items:
         - title: About Me
           url: /aboutme/

@@ -16,7 +16,7 @@ Before we get into the nuts and bolts of documenting REST APIs, let me provide s
 
 In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07), about 250 developers were asked to rank the most important factors in an API. "Complete and accurate documentation" ranked as #1.
 
-<a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "/images/restapicourse/programwebsurvey.png" | prepend: site.baseurl }}" alt="Programmableweb survey" /></a>
+<a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "/images/restapicourse/progwebsurvey.png" | prepend: site.baseurl }}" alt="Programmableweb survey" /></a>
 
 John Musser, one of the founders of Programmableweb.com, has followed up on the importance of good API documentation in some of his presentations. In "10 reasons why developers hate your API," he says the number one reason developers hate your API is because "Your documentation sucks."
 
