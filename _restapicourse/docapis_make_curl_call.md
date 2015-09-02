@@ -67,7 +67,7 @@ The response is just a single number: the air quality index for the location spe
 	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
 	```
 	
-	{{warning}}Make sure you use double quotes and include the `-k`. {{end}}
+	{{warning}}Make sure you use double quotes and include the <code>-k</code>. {{end}}
 
 	The response looks like this:
 
@@ -84,5 +84,11 @@ curl -H "Content-Type: application/json" -H "Authorization: 123" -X POST -d @myp
 ```
 
 Here cURL will look in the existing directory for the mypostbody.json file, but you can also reference a path.
+
+## Make cURL requests for each of the weather endpoints
+
+{{activity}}
+
+Make a cURL request for each of the weather endpoints, similar to how you made the requests in Postman.
 
 

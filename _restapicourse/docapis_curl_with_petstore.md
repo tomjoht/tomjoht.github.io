@@ -12,6 +12,8 @@ type: notes_docapis
 
 Our sample weather API from Mashape doesn't allow you to use anything but a GET method, so for this example, we'll use the [petstore API from Swagger](http://petstore.swagger.io/), but without actually using the Swagger UI (which is something we'll explore later). For now, we just need an API that we can create, update, and delete content from. (You're just getting familiar with cURL here.)
 
+<a href="http://petstore.swagger.io/"><img src="{{ "/images/restapicourse/petstore.png" | prepend: site.baseurl }}" alt="Swagger Petstore" /></a>
+
 In this example, you'll create a new pet, update the pet, get the pet's ID, delete the pet, and then try to get the deleted pet. Don't worry so much about understanding the petstore API.
 
 ### Create a new pet

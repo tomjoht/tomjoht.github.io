@@ -132,7 +132,7 @@ cURL has a lot of possible commands, but the following are the most common when 
 | `-d` or `--data`  | Include data to post to the URL. The data needs to be [url encoded](http://www.w3schools.com/tags/ref_urlencode.asp). Data can also be passed in the request body. | `curl -d "data-to-post" http://www.example.com`   |
 | `-H` or `--header` | Submit the request header to the resource. This is very common with REST API requests because the authorization is usually included here. | `curl -H "key:12345" http://www.example.com`   |
 | `-X POST` | The HTTP method to use with the request (in this example, `POST`). If you use `-d` in the request, cURL automatically specifies a POST method. With GET requests, including the HTTP method is optional, because GET is the default method used. | `curl -X POST -d "resource-to-update" http://www.example.com`    |
-| @filename | Load content from a file | `curl -X POST -d @mybody.json http://www.example.com` |
+| `@filename` | Load content from a file | `curl -X POST -d @mypet.json http://www.example.com` |
 
 See the [cURL documentation](http://curl.haxx.se/docs/manpage.html) for a comprehensive list of cURL commands you can use.
 

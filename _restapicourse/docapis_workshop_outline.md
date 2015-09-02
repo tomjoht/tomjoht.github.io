@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 4.4
+weight: 4600
 summary: 
 ---
 {% include restapicourse.html %}
@@ -80,6 +80,7 @@ summary:
 * Make the request in cURL (Mac)
 * Make the request in cURL (Windows 7)
 * Single and Double Quotes with Windows cURL requests
+* Make cURL requests for each of the weather endpoints
 
 ## 1.8 Understand cURL more
 * cURL is a cross-platform way to show requests and responses
@@ -109,7 +110,7 @@ summary:
 * Including objects in arrays, and arrays in objects
 * Identify the objects and arrays in the weatherdata API response
 
-## 2.1 Logging JSON responses to the console
+## 2.1  Using the JSON from the response payload
 * Making use of the JSON response
 * Display part of the REST JSON response on a web page
 * The AJAX method from jQuery

@@ -13,6 +13,10 @@ type: notes_docapis
 ## About code samples
 As you write documentation for developers, you'll start to include more and more code samples. You might not include these more detailed code samples with the endpoints you document, but as you create tasks and more sophisticated workflows about how to use the API to accomplish a variety of tasks, you'll end up leveraging different endpoints and showing how to address a variety of scenarios.
 
+Here's a sample code sample page from Mashape:
+
+<a href="http://docs.mashape.com/javascript"><img src="{{ "/images/restapicourse/consumeapi.png" | prepend: site.baseurl }}" alt="Mashape code sample" /></a>
+
 The following sections list some best practices around code samples.
 
 ## Code samples are like candy for developers

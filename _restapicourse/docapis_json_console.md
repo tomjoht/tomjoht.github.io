@@ -1,5 +1,5 @@
 ---
-title: Logging JSON responses to the console
+title: Using the JSON from the response payload
 permalink: /docapis_json_console/
 categories:
 - api-doc

@@ -3,7 +3,7 @@ title: Answers
 permalink: /docapis_answers/
 keywords: 
 course: "Documenting REST APIs"
-weight: 4.4
+weight: 4.5
 type: notes_docapis
 ---
 {% include notes.html %}

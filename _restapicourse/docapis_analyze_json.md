@@ -178,7 +178,7 @@ With numbers or booleans (true or false values), you don't use quotation marks.
 
 JSON can mix up objects and arrays inside each other. You can have an array of objects:
 
-```
+```json
 [ 
   object, 
   object,
@@ -188,7 +188,7 @@ JSON can mix up objects and arrays inside each other. You can have an array of o
 
 Here's an example with values:
 
-```
+```json
 [  
    {  
       "name":"Tom",
@@ -203,10 +203,10 @@ Here's an example with values:
 
 Objects can contain arrays in the value part of the key-value pair:
 
-```
+```json
 {
-children: ["Avery","Callie","lucy","Molly"],
-hobbies: ["swimming","biking","drawing","horseplaying"]
+"children": ["Avery","Callie","lucy","Molly"],
+"hobbies": ["swimming","biking","drawing","horseplaying"]
 }
 ```
 

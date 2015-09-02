@@ -8,7 +8,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## How dot notation works
+## Use a dot to access the value from a key
 
 Let's dive into dot notation a little more.
 
@@ -38,7 +38,7 @@ To access glove, you would use `data.items[2]`.
 
 `glove` is the third item in the array.
 
-{{note}} With most programming languages, you usually start counting at `0`, not `1`.{{end}}
+{{note}} With most programming languages, you usually start counting at <code>0</code>, not <code>1</code>.{{end}}
 
 ## Exercise with dot notation
 {{activity}}
