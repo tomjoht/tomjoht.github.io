@@ -26,9 +26,11 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	
 	```html
 	<html>
-	<body>
-	
+	<head>
+	<title>Sample Page</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<body>
 	
 	</body>
 	</html>
@@ -43,17 +45,25 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	
 4. Select **JavaScript > jQuery AJAX**.
 5. Copy the code sample.
-6. Insert the Postman code sample between `<script>` tags in your template.
-7. The Postman code sample needs one more parameter: `dataType`. Add `"dataType": "json"` as parameter in `settings`.
+6. Insert the Postman code sample between `<script>` tags in the same template you started building in step 1. 
 	
-	Your code should look like this:
+	You can put the script in the `head` section if you want &mdash; just make sure you add it after the jQuery reference.
+	
+7. The Postman code sample needs one more parameter: `dataType`. Add `"dataType": "json"` as parameter in `settings`.
+
+	{{warning}} Make sure you capitalize the `t` in `dataType`.{{end}}
+	
+	Your final code should look like this:
 	
 	```html
 	<html>
-	<body>
+	<head><title>Sample Page</title>
+    <title>Sample Page</title>
+	<script>
 	var settings = {
 	  "async": true,
 	  "crossDomain": true,
+	  "dataType": "json",
 	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
 	  "method": "GET",
 	  "headers": {
@@ -61,18 +71,19 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	    "x-mashape-key": "{api key}"
 	  }
 	}
-	
 	$.ajax(settings).done(function (response) {
 	  console.log(response);
 	});
-	</html>
+	</script>
+	<body>
 	</body>
+	</html>
 	```
 	
 8. Start Chrome and open the JavaScript Console by going to **View > Developer > JavaScript Console**.
 9. Open the weatherdata.html file in Chrome (**File > Open File**).
 	
-	The weatherdata response should be logged to the JavaScript console. You can inspect the payload by expanding the sections.
+	The page body will be blank, but the weatherdata response should be logged to the JavaScript console. You can inspect the payload by expanding the sections.
 	
 	<img src="{{ "/images/restapicourse/jsonpayloadweatherdata.png" | prepend: site.baseurl }}" alt="JSON payload from weatherdata API logged to console" />
 	
