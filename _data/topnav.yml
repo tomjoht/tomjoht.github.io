@@ -159,7 +159,7 @@ topnav_dropdowns:
           url: /docapis_course_overview
         - title: Publishing REST APIs Workshop
           url: /publishingapidocs
-        - title: Java API Workshop
+        - title: Documenting Java API Workshop
           url: /java-api-course-overview
 #    - title: Courses
 #      items:
