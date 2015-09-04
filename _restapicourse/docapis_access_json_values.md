@@ -26,13 +26,13 @@ The dot (`.`) after `data` (the name of the JSON payload) is how you access the 
 
 To pull out the description element from the JSON response and display it on the page, add this to your code sample, right below the `console.log(response)` part:
 
-```
+```js
 console.log (data.query.results.channel.item.description);
 ```
 
 Your code should look like this:
 
-```
+```js
   .done(function (data) {
     console.log(data);
     console.log (data.query.results.channel.item.description);
@@ -56,13 +56,13 @@ Let's say you wanted to print part of the JSON (the description element) to the 
 
 2. Inside the tags of your `done` method, pull out the value you want into a variable, like this:
 
-    ```
+    ```js
     var content = "data.query.results.channel.item.description";
     ```
 
 3. Below this (same section) use the jQuery `append` method to append the variable to the element on your page:
 
-    ```
+    ```js
     $("#weatherDescription").append(content);
     ```
 

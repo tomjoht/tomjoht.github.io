@@ -1,12 +1,13 @@
 ---
-title: Documenting authentication and authorization
-permalink: /docapis_more_about_authorization/
+title: How authorization works with APIs
+categories:
+- api-doc
 keywords: 
-course: "Documenting REST APIs"
-weight: 3.5
-type: notes_docapis
+summary: "Some common forms of authentication and authorization with APIs include Basic Auth, HMAC, and OAuth 2.0. In this post, I explain how these methods work. This material comes from other content I'm preparing about REST APIs."
 ---
-{% include notes.html %}
+
+Lately I've been busy working on [content for some API documentation workshops](http://idratherbewriting.com/docapis_course_overview/). One of the topics I wanted to cover in the workshop is how authentication and authorization work with APIs. This is probably one of the more complicated aspects of APIs, so I'd like to get as much feedback as possible about this section.
+
 ## Authentication and authorization overview
 
 Before users can make requests with your API, they'll usually need to register for some kind of application key, or learn other ways to authenticate the requests.
@@ -160,3 +161,7 @@ If your site has hundreds of thousands of visitors a day, and each page reload c
 Here's a great example of the rate limits section from the Github API:
 
 <a  style="max-width: 700px;" href="https://developer.github.com/v3/#rate-limiting"><img src="{{ "/images/restapicourse/githubratelimiting.png" | prepend: site.baseurl }}" alt="Rate limiting section from Github" /></a>
+
+<hr />
+
+(By the way, if you're interested in reviewing some of the content for my REST API course, let me know. I'm trying to get the material in top condition before publishing it in an online course and ebook, and I could use all the feedback I can get.)
