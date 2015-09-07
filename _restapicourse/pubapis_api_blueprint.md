@@ -2,8 +2,7 @@
 title: "API Blueprint"
 permalink: /pubapis_api_blueprint/
 course: "Publishing API documentation"
-weight: 1.7
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## API Blueprint is another spec

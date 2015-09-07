@@ -2,8 +2,7 @@
 title: "Design pattern: Structure and templates"
 permalink: /pubapis_structure_and_templates/
 course: "Publishing API documentation"
-weight: 2.3
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Using a template

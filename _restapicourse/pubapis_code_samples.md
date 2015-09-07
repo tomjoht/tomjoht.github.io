@@ -2,8 +2,7 @@
 title: "Abundant code samples"
 permalink: /pubapis_code_samples/
 course: "Publishing API documentation"
-weight: 2.5
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Developers love code examples

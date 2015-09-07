@@ -2,8 +2,7 @@
 title: "Website platform"
 permalink: /pubapis_web_platforms/
 course: "Publishing API documentation"
-weight: 2.4
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## One integrated website

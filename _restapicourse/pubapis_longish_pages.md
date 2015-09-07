@@ -2,8 +2,7 @@
 title: "Long-ish pages"
 permalink: /pubapis_longish_pages/
 course: "Publishing API documentation"
-weight: 2.6
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Minimize clicking

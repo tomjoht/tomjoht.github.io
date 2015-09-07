@@ -2,8 +2,7 @@
 title: "Github wikis"
 permalink: /pubapis_github_wikis/
 course: "Publishing API documentation"
-weight: 1.4
-type: notes_pubapis
+type: notes_docapis
 ---
 {% include notes.html %}
 

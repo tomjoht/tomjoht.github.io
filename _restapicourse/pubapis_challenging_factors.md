@@ -2,8 +2,7 @@
 title: "Challenging factors"
 permalink: /pubapis_challenging_factors/
 course: "Publishing API documentation"
-weight: 2.8
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Requirements that may cause problems

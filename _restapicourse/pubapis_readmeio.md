@@ -2,8 +2,7 @@
 title: "Readme.io"
 permalink: /pubapis_readmeio/
 course: "Publishing API documentation"
-weight: 2.0
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Software as a service sites

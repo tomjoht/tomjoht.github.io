@@ -129,3 +129,68 @@ entries:
         - title: Course completion
           url: /docapis_completion/
           weight: 4.4
+    - title: Publishing API docs
+      items:
+        - title: Overview
+          url: /publishingapidocs/
+          weight:
+        - title: List of 100 APIs
+          url: /pubapis_apilist/
+          weight:
+        - title: Breaking down API doc
+          url: /pubapis_api_doc_types/
+          weight:
+        - title: Tool decisions
+          url: /pubapis_tooldecisions/
+          weight:
+        - title: Github wikis
+          url: /pubapis_github_wikis/
+        - title: Swagger
+          url: /pubapis_swagger/
+          weight:
+        - title: API Blueprint
+          url: /pubapis_api_blueprint/
+          weight:
+        - title: RAML
+          url: /pubapis_raml/
+          weight:
+        - title: Static site generators
+          url: /pubapis_static_site_generators/
+          weight:
+        - title: Readme.io
+          url: /pubapis_readmeio/
+          weight:
+        - title: Miredot
+          url: /pubapis_miredot/
+          weight:
+        - title: Custom UX solutions
+          url: /pubapis_custom_ux/
+          weight:
+        - title: Help authoring tools
+          url: /pubapis_hats/
+          weight:
+    - title: Design patterns
+      items:
+        - title: Design patterns
+          url: /pubapis_design_patterns/
+          weight:
+        - title: Structure and templates
+          url: /pubapis_structure_and_templates/
+          weight:
+        - title: Web platforms
+          url: /pubapis_web_platforms/
+          weight:
+        - title: Abundant code samples
+          url: /pubapis_code_samples/
+          weight:
+        - title: Long-ish pages
+          url: /pubapis_longish_pages/
+          weight:
+        - title: API interactivity
+          url: /pubapis_api_interactivity/
+          weight:
+        - title: Challenging factors
+          url: /pubapis_challenging_factors/
+        - title: Tools versus content
+          url: /pubapis_tools_vs_content/
+          weight:

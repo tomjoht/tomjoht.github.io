@@ -2,8 +2,7 @@
 title: "API Interactivity"
 permalink: /pubapis_api_interactivity/
 course: "Publishing API documentation"
-weight: 2.7
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## API explorers

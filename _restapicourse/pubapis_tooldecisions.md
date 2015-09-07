@@ -2,8 +2,7 @@
 title: "Tool decisions"
 permalink: /pubapis_tooldecisions/
 course: "Publishing API documentation"
-weight: 1.2
-type: notes_pubapis
+type: notes_docapis
 ---
 ## Writers tools or developers tools
 

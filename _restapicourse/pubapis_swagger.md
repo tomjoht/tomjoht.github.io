@@ -2,8 +2,7 @@
 title: "Swagger"
 permalink: /pubapis_swagger/
 course: "Publishing API documentation"
-weight: 1.6
-type: notes_pubapis
+type: notes_docapis
 ---
 
 <a href="http://editor.swagger.io/"><img src="{{ "/images/publishingapidocs/swagger-editor-example.png" | prepend: site.baseurl }}" alt="Swagger online editor" /></a>

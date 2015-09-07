@@ -2,8 +2,7 @@
 title: "Conclusion"
 permalink: /pubapis_conclusion/
 course: "Publishing API documentation"
-weight: 3.0
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Congrats, you finished

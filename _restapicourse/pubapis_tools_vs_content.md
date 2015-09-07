@@ -2,8 +2,7 @@
 title: "Tools versus content"
 permalink: /pubapis_tools_vs_content/
 course: "Publishing API documentation"
-weight: 2.9
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Don't forget the content 

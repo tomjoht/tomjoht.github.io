@@ -2,8 +2,7 @@
 title: "Help authoring tools"
 permalink: /pubapis_hats/
 course: "Publishing API documentation"
-weight: 2.1
-type: notes_pubapis
+type: notes_docapis
 ---
 
 ## Can I use a help authoring tool?
