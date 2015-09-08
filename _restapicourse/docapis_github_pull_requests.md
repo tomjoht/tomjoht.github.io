@@ -1,7 +1,7 @@
 ---
 title: "Collaborate and review content with Github"
 permalink: /pubapis_github_pull_requests/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 {% include notes.html %}

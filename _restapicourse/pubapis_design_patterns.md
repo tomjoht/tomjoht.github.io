@@ -1,7 +1,7 @@
 ---
 title: "Design patterns"
 permalink: /pubapis_design_patterns/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

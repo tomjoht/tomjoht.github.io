@@ -1,7 +1,7 @@
 ---
 title: "Readme.io"
 permalink: /pubapis_readmeio/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

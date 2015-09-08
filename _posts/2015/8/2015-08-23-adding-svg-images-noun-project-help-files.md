@@ -76,7 +76,7 @@ In the Fonts box, select **Convert to Outline**. This ensures that all browsers 
 
 In the Image Locations option, select **Embed**. If you select "Link," then you end up with various graphics files for your SVG image.
 
-In the check boxes, remove the check box from "Use &lt;textpath&gt; element for Text on Path." If you create a path and then use the Text on Path feature in Illustrator, the spacing gets all screwed up if you have this box checked.
+In the check boxes, remove the check box from "Use <textpath> element for Text on Path." If you create a path and then use the Text on Path feature in Illustrator, the spacing gets all screwed up if you have this box checked.
 
 ## Embed the SVG on Your Page
 

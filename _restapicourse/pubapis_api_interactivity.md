@@ -1,7 +1,7 @@
 ---
 title: "API Interactivity"
 permalink: /pubapis_api_interactivity/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

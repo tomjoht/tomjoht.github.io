@@ -1,7 +1,7 @@
 ---
 title: "Challenging factors"
 permalink: /pubapis_challenging_factors/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

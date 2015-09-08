@@ -1,7 +1,7 @@
 ---
 title: "Website platform"
 permalink: /pubapis_web_platforms/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

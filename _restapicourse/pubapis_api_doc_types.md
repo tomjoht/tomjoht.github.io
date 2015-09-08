@@ -1,7 +1,7 @@
 ---
 title: "Breaking down API doc"
 permalink: /pubapis_api_doc_types/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

@@ -70,11 +70,11 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>Here's how I handled the vectors with my innovation slides. I created an Illustrator file called innovation.ai. I put all my artboards in this same file. Each artboard's dimensions are about 770 x 470 (a factor of 300px taller). Each artboard has a separate name. When I'm ready to export to SVG, I select "Save As" and choose "SVG" (and I selected <code>embedded</code> rather than <code>linked</code> in the options).</p>
 <p>Each artboard gets saved as innovation_artboardname.svg, where artboardname is whatever I've called the artboard. In my Reveal JS page, I incorporate the SVG image like this:</p>
 <p><pre><br />
- &lt;img src=&quot;media/vectors/innovation_artboardname.svg&quot;/&gt;<br />
+ <img src="media/vectors/innovation_artboardname.svg"/><br />
 </pre></p>
 <p>You can also add the image as a background image, like this</p>
 <p><pre><br />
-&lt;section data-background=&quot;media/vectors/innovation_strategies.svg&quot;&gt;<br />
+<section data-background="media/vectors/innovation_strategies.svg"><br />
 </pre></p>
 <p>I can simply update all my artboards in Illustrator, save to SVG, and all the vector images in my slides get updated.</p>
 <p>The size of the SVG graphic is the size of your artboard. You can constrain the size by adding a <code>max-height</code> and <code>max-width</code> (use percentages) to a style, and then applying it to your image element. I do this for subsection slides that contain SVG images, because the space is smaller.</p>
@@ -87,7 +87,7 @@ excerpt: !ruby/object:Hpricot::Doc
 </pre></p>
 <p>And here I applied it to the image: </p>
 <pre><br />
-&lt;img class=&quot;shortened&quot; src=&quot;media/vectors/innovation_artboardname.svg&quot;/&gt;<br />
+<img class="shortened" src="media/vectors/innovation_artboardname.svg"/><br />
 </pre></p>
 <p>If I want to add a text overlay to a raster graphic, I add the raster graphic to an artboard and add the text overlay on top of it.</p>
 <p>Essentially the Reveal JS code consists of a bunch of references to all of these SVG images, which are exported from the Illustrator file.</p>
@@ -99,7 +99,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>When I want to update and publish the slides, I just push the update to my repo using the following sequence in the command line:</p>
 <p><pre><br />
 git add --all<br />
-git commit -m &quot;my commit message&quot;<br />
+git commit -m "my commit message"<br />
 git push<br />
 </pre></p>
 <p>Note: I had a little trouble keeping the github-pages branch in sync with the master, but this <a href="http://brettterpstra.com/2012/09/26/github-tip-easily-sync-your-master-to-github-pages/">blog post helped me</a>. Essentially I just added the following under [remote "origin"] in the git/config file:</p>

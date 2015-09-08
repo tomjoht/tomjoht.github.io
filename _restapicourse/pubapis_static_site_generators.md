@@ -1,7 +1,7 @@
 ---
 title: "Static site generators"
 permalink: /pubapis_static_site_generators/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

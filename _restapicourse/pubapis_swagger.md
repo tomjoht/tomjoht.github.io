@@ -1,7 +1,7 @@
 ---
 title: "Swagger"
 permalink: /pubapis_swagger/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

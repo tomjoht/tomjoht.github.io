@@ -1,7 +1,7 @@
 ---
 title: "Miredot"
 permalink: /pubapis_miredot/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 ## How Miredot works

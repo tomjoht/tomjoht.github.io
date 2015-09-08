@@ -1,7 +1,7 @@
 ---
 title: "Conclusion"
 permalink: /pubapis_conclusion/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

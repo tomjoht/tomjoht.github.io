@@ -1,7 +1,7 @@
 ---
 title: "Custom UX solutions"
 permalink: /pubapis_custom_ux/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

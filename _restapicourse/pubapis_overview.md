@@ -1,7 +1,7 @@
 ---
 title: "Publishing API docs"
 permalink: /publishingapidocs/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Tools versus content"
 permalink: /pubapis_tools_vs_content/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

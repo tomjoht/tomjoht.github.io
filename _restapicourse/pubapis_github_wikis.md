@@ -1,7 +1,7 @@
 ---
 title: "Github wikis"
 permalink: /pubapis_github_wikis/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 {% include notes.html %}

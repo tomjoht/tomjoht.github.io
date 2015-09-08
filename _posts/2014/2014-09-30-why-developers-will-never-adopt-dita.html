@@ -9,7 +9,7 @@ status: publish
 ---
 <p>Ever wonder why developers resist DITA so much? Take a look at this comparison. Here are two ways to describe a simple task of printing a page.</p>
 <h2>DITA syntax</h2>
-<pre><task id="task_mhs_zjk_pp">
+{% highlight xml %}<task id="task_mhs_zjk_pp">
     <title>Printing a page</title>
     <taskbody>
 <steps>
@@ -25,12 +25,12 @@ status: publish
 </steps>
     </taskbody>
 </task>
-</pre>
+{% endhighlight %}
 <h2>Markdown syntax</h2>
-<pre>## Print a page
+{% highlight bash %}## Print a page
 1. Go to **File > Print**.
 2. Click the **Print** button.
-</pre>
+{% endhighlight %}
 <h2>Conclusion</h2>
 <p>Granted, I'm simplifying things a bit. DITA allows you to re-use text, apply attributes, and process your content into more than just HTML.</p>
 <p>But if you're just publishing to the web, and you don't have a lot of complex re-use requirements, isn't it just extra work adding all of these DITA tags?</p>

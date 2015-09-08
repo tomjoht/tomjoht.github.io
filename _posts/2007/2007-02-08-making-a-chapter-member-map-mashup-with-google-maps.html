@@ -53,7 +53,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li>Paste the source code into a notepad file, change the API key to your own API key (this appears near the top after the word "key"), and save the file with a .html extension.</li>
 <li>Look for the following text in your file:// Set up three markers with info windows<br />
 var point = new GLatLng(43.65654,-79.90138);<br />
-var marker = createMarker(point,'&lt;div style="width:240px"&gt;Some stuff to display in the First Info Window. With a &lt;a href="<a href="http://www.econym.demon.co.uk">http://www.econym.demon.co.uk"&gt;Link&lt;/a</a>&gt; to my home page&lt;/div&gt;')<br />
+var marker = createMarker(point,'&lt;div style="width:240px">Some stuff to display in the First Info Window. With a &lt;a href="<a href="http://www.econym.demon.co.uk">http://www.econym.demon.co.uk"&gt;Link&lt;/a</a>&gt; to my home page&lt;/div&gt;')<br />
 map.addOverlay(marker);</li>
 <li>Replace the coordinates inside GLatLng() with the coordinates of the markers that you want. To convert your addresses into coordinates, use <a href="http://geocoder.us/" target="_blank">single geocoder</a> for small addresses or this <a href="http://www.batchgeocode.com/" target="_blank">batch geocoder</a> for larger jobs.</li>
 <li>Replace the text "Some stuff to display in the First Info Window..." with text that you want to accompany your marker.</li>

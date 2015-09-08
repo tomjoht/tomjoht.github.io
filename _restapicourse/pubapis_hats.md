@@ -1,7 +1,7 @@
 ---
 title: "Help authoring tools"
 permalink: /pubapis_hats/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

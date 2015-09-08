@@ -1,7 +1,7 @@
 ---
 title: "Design pattern: Structure and templates"
 permalink: /pubapis_structure_and_templates/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

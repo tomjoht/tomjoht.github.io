@@ -47,12 +47,12 @@ excerpt: !ruby/object:Hpricot::Doc
 <ol>
 <li>Log in to your host's cpanel, and go to the Mail feature (whatever tool you use to create a new e-mail address with your host).</li>
 <li>Create a new email address that has a non-obvious name. Remember the login and password settings.</li>
-<li>You can test that you set up your email correctly in Outlook by adding the e-mail account. In Outlook, go to <strong>Tools &gt; E-mail accounts</strong> and add a new e-mail account.</li>
+<li>You can test that you set up your email correctly in Outlook by adding the e-mail account. In Outlook, go to <strong>Tools > E-mail accounts</strong> and add a new e-mail account.</li>
 <li>Remove or disable the e-mail account from your Outlook; otherwise it will intercept messages that you plan to post to your blog.</li>
 </ol>
 <p><strong>Configure WordPress's Post Via Email Section to Match Your Secret Email Account:</strong></p>
 <ol>
-<li>In your WordPress Dashboard, go to <strong>Options &gt; Writing</strong>.</li>
+<li>In your WordPress Dashboard, go to <strong>Options > Writing</strong>.</li>
 <li>Under the Post Via E-mail section, enter details about the secret e-mail that you will use to post with.</li>
 <li>Type the same login name and password you would use if setting up the e-mail in Outlook.</li>
 <li>Select the default category for the posts.</li>
@@ -66,7 +66,7 @@ excerpt: !ruby/object:Hpricot::Doc
 </ol>
 <p><strong>Run a "chron job" to process the mail:</strong></p>
 <ol>
-<li>To process the email job manually, type <strong><a href="http://stc-suncoast.org/wp-mail.php">http://stc-suncoast.org/wp-mail.php</a></strong> in your browser' s URL field and press Enter. (Substitute your own domain and possible subfolder after the domain.) You should see a message on the screen indicating that the mail was processed. If you see a message that says there is no mail, then you have your email account set up wrong, or the login name and password is set up wrong in Options &gt; Reading in Wordpress.The message appears on your blog. If the formatting looks screwy, it's most likely because you did not select plain text when you composed the message.</li>
+<li>To process the email job manually, type <strong><a href="http://stc-suncoast.org/wp-mail.php">http://stc-suncoast.org/wp-mail.php</a></strong> in your browser' s URL field and press Enter. (Substitute your own domain and possible subfolder after the domain.) You should see a message on the screen indicating that the mail was processed. If you see a message that says there is no mail, then you have your email account set up wrong, or the login name and password is set up wrong in Options > Reading in Wordpress.The message appears on your blog. If the formatting looks screwy, it's most likely because you did not select plain text when you composed the message.</li>
 <li>If you plan to post a lot by e-mail, download a plugin that runs a chronic job to check for e-mail. You can use this <a target="_blank" href="http://www.skippy.net/blog/2005/05/26/plugin-wp-cron/">Chron jobs plugin</a> from Skippy. Upload the wp-mail and wp-chron php files to your plugin directory, and and they will automatically processes mail jobs every ten minutes or so.</li>
 </ol>
 <p>I am thinking of using this post-by-email function to automate job postings from recruiters. I could set up a contact form that routes email to the secret email account, which would automatically post the message.</p>

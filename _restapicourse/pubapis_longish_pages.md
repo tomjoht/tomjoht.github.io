@@ -1,7 +1,7 @@
 ---
 title: "Long-ish pages"
 permalink: /pubapis_longish_pages/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 

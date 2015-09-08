@@ -1,7 +1,7 @@
 ---
 title: "Abundant code samples"
 permalink: /pubapis_code_samples/
-course: "Publishing API documentation"
+course: "Documenting REST APIs"
 type: notes_docapis
 ---
 
