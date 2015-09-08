@@ -3,10 +3,10 @@ title: List of APIs
 permalink: /pubapis_apilist/
 type: notes_docapis
 ---
-
+{% include notes.html %}
 ## A survey of API documentation sites
 
-The following are more than about 100 different openly accessible REST APIs that you can browse as a way to look at patterns and examples. Most of these REST API links are available from [programmableweb.com](http://programmableweb.com). I initially started gathering a list of the APIs in Programmableweb's "Most Popular" category, but then I just started adding links as I ran across interesting APIs.
+The following are about 100 openly accessible REST APIs that you can browse as a way to look at patterns and examples. Most of these REST API links are available from [programmableweb.com](http://programmableweb.com). I initially started gathering a list of the APIs in Programmableweb's "Most Popular" category, but then I just started adding links as I ran across interesting APIs.
 
 1. [Google Places API](https://developers.google.com/places/webservice/intro)
 2. [Twitter API](https://dev.twitter.com/rest/public)
@@ -107,3 +107,8 @@ For a directory of API documentation sites, see the [Programmableweb.com](http:/
 <a href="http://www.programmableweb.com/apis/directory"><img src="{{ "/images/publishingapidocs/programmableweb.png" | prepend: site.baseurl }}" alt="Programmable web directory" /></a>
 
 Note that Programmableweb only lists web APIs, meaning APIs that you can access on the web. They don't list the countless internal, firewalled-off APIs that many companies provide at a cost to paying customers.
+
+## Look at 5 different APIs
+{{activity}}
+
+Look at about 5 different APIs (choose any of those listed on the page). Look for one thing that the APIs have in common. 

@@ -16,24 +16,24 @@ weight: 1.4
 <p>Here's an example of chunking. Here I have a task of changing a tire, which involves 5 topics (1 overview topic and 4 task topics). </p>
 <pre>
     <topicset id="topicset_changing_a_tire" chunk="to-content"
-     navtitle="Changing a tire" href=“changing_tire_overview.dita"&gt;
-      <topicref href="remove_the_tire"  toc="no"/&gt;
-      <topicref href="inspect_the_tube"  toc="no"/&gt;
-      <topicref href="insert_a_new_tube.dita"  toc="no"/&gt;
-      <topicref href="reinstall_the_tire.dita"  toc="no"/&gt;
-    </topicset&gt;
+     navtitle="Changing a tire" href=“changing_tire_overview.dita">
+      <topicref href="remove_the_tire"  toc="no"/>
+      <topicref href="inspect_the_tube"  toc="no"/>
+      <topicref href="insert_a_new_tube.dita"  toc="no"/>
+      <topicref href="reinstall_the_tire.dita"  toc="no"/>
+    </topicset>
 </pre>
 <p>Each of the subtasks is a task topic with a list of steps. In this hypothetical example, the steps are fairly minimal. The task element allows just one set of steps per topic, which is why the content is split into multiple files. The overview topic is a concept topic. In reality, it's not more than a paragraph long. It could preface the first task topic, but then the first task topic wouldn't look like a subheading underneath the overview.</p>
 <p>By adding the attribute <code>chunk="to-content"</code>, the Open Toolkit will merge all of the topics to the same content. The reader will see one article. </p>
 <p>You don't have to use <code>topicset</code> element for this. You could also do the following: </p>
 <pre>
 
-    <topicref chunk="to-content" href="changing_tire_overview.dita"&gt;
-      <topicref href="remove_the_tire"  toc="no"/&gt;
-      <topicref href="inspect_the_tube"  toc="no"/&gt;
-      <topicref href="insert_a_new_tube.dita"  toc="no"/&gt;
-      <topicref href="reinstall_the_tire.dita"  toc="no"/&gt;
-    </topicref&gt;
+    <topicref chunk="to-content" href="changing_tire_overview.dita">
+      <topicref href="remove_the_tire"  toc="no"/>
+      <topicref href="inspect_the_tube"  toc="no"/>
+      <topicref href="insert_a_new_tube.dita"  toc="no"/>
+      <topicref href="reinstall_the_tire.dita"  toc="no"/>
+    </topicref>
 </pre>
 <p>The <code>topicset</code> method gives you a way of re-using the same set of topics in another map without including the whole list of topics.</p>
 <h2>Where the problems begins</h2>
@@ -66,80 +66,80 @@ weight: 1.4
 <p>Using <code>by-document</code> isn't a bad solution, but again, searches for a keyword might take a user to this little piece of information rather than the whole unit. Only by back-navigating through breadcrumbs or a table of contents hierarchy will the user be able to trace back to find the whole topicset.</p>
 <h2>Nest task elements within task elements</h2>
 <p>Instead of creating separate task files, you could nest tasks within tasks to bring all of this information into the same topic. Here's an example:</p>
-<pre><?xml version="1.0" encoding="UTF-8"?&gt;
-<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"&gt;
-<task id="task_0"&gt;
-    <title&gt;Fixing a flat tire</title&gt;
-    <shortdesc&gt;</shortdesc&gt;
-    <taskbody&gt;
-        <context&gt;
-            <p&gt;This is an overview about the task of fixing a flat tire...</p&gt;
-        </context&gt;
+<pre><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_0">
+    <title>Fixing a flat tire</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>This is an overview about the task of fixing a flat tire...</p>
+        </context>
 
-    </taskbody&gt;
+    </taskbody>
 
-    <task id="task_1"&gt;
-        <title&gt;Remove the tire</title&gt;
-        <shortdesc/&gt;
-        <taskbody&gt;
-            <context&gt;
-                <p&gt;Context for the current task</p&gt;
-            </context&gt;
-            <steps&gt;
-                <step&gt;
-                    <cmd&gt;Task step.</cmd&gt;
-                </step&gt;
-            </steps&gt;
-        </taskbody&gt;
-    </task&gt;
+    <task id="task_1">
+        <title>Remove the tire</title>
+        <shortdesc/>
+        <taskbody>
+            <context>
+                <p>Context for the current task</p>
+            </context>
+            <steps>
+                <step>
+                    <cmd>Task step.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
 
-        <task id="task_2"&gt;
-            <title&gt;Inspect the tire</title&gt;
-            <shortdesc/&gt;
-            <taskbody&gt;
-                <context&gt;
-                    <p&gt;Context for the current task</p&gt;
-                </context&gt;
-                <steps&gt;
-                    <step&gt;
-                        <cmd&gt;Task step.</cmd&gt;
-                    </step&gt;
-                </steps&gt;
-            </taskbody&gt;
-        </task&gt;
+        <task id="task_2">
+            <title>Inspect the tire</title>
+            <shortdesc/>
+            <taskbody>
+                <context>
+                    <p>Context for the current task</p>
+                </context>
+                <steps>
+                    <step>
+                        <cmd>Task step.</cmd>
+                    </step>
+                </steps>
+            </taskbody>
+        </task>
 
-            <task id="task_3"&gt;
-                <title&gt;Insert a new tube</title&gt;
-                <shortdesc/&gt;
-                <taskbody&gt;
-                    <context&gt;
-                        <p&gt;Context for the current task</p&gt;
-                    </context&gt;
-                    <steps&gt;
-                        <step&gt;
-                            <cmd&gt;Task step.</cmd&gt;
-                        </step&gt;
-                    </steps&gt;
-                </taskbody&gt;
+            <task id="task_3">
+                <title>Insert a new tube</title>
+                <shortdesc/>
+                <taskbody>
+                    <context>
+                        <p>Context for the current task</p>
+                    </context>
+                    <steps>
+                        <step>
+                            <cmd>Task step.</cmd>
+                        </step>
+                    </steps>
+                </taskbody>
 
-            </task&gt;
+            </task>
 
-                <task id="task_4"&gt;
-                    <title&gt;Reinstall the tire</title&gt;
-                    <shortdesc/&gt;
-                    <taskbody&gt;
-                        <context&gt;
-                            <p&gt;Context for the current task</p&gt;
-                        </context&gt;
-                        <steps&gt;
-                            <step&gt;
-                                <cmd&gt;Task step.</cmd&gt;
-                            </step&gt;
-                        </steps&gt;
-                    </taskbody&gt;
-                </task&gt;
+                <task id="task_4">
+                    <title>Reinstall the tire</title>
+                    <shortdesc/>
+                    <taskbody>
+                        <context>
+                            <p>Context for the current task</p>
+                        </context>
+                        <steps>
+                            <step>
+                                <cmd>Task step.</cmd>
+                            </step>
+                        </steps>
+                    </taskbody>
+                </task>
 
-</task&gt;
+</task>
 </pre>
 <p>However, when you include the file in a relationship table, the related link still appears right below the first task element, like this:</p>
 <p><img src="/images/wrongplace.jpg" alt="wrongplace" width="747" height="617" class="alignnone size-full wp-image-20679" /></p>

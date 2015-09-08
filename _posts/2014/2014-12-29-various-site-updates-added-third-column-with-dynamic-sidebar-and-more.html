@@ -49,34 +49,34 @@ excerpt: !ruby/object:Hpricot::Doc
  * @subpackage Twenty_Twelve<br />
  * @since Twenty Twelve 1.0<br />
  */<br />
-?&gt;<br />
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?&gt;</p>
-<p>		<div id="secondary" class="widget-area" role="complementary"&gt;</p>
-<p>			<?php dynamic_sidebar( 'sidebar-1' ); ?&gt;</p>
-<p>		</div&gt;</p>
-<p>		<?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?&gt;<br />
-	<div id="extra-sidebar" class="widget-area" role="complementary"&gt;</p>
-<p><div class="widget"&gt;</p>
-<p><?php get_search_form( ); ?&gt;<br />
+?><br />
+	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?></p>
+<p>		<div id="secondary" class="widget-area" role="complementary"></p>
+<p>			<?php dynamic_sidebar( 'sidebar-1' ); ?></p>
+<p>		</div></p>
+<p>		<?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?><br />
+	<div id="extra-sidebar" class="widget-area" role="complementary"></p>
+<p><div class="widget"></p>
+<p><?php get_search_form( ); ?><br />
 <?php<br />
 wp_reset_query();</p>
 <p>if ( in_category( '2704' ) ) {<br />
-    echo '<div class="sidebarTOC"&gt;DITA QRG</div&gt;';<br />
-     echo "<div class='ditaqrg'&gt;";</p>
-<p>$args = array( 'page_id' =&gt; 22115); </p>
+    echo '<div class="sidebarTOC">DITA QRG</div>';<br />
+     echo "<div class='ditaqrg'>";</p>
+<p>$args = array( 'page_id' => 22115); </p>
 <p>$the_query = new WP_Query( $args ); </p>
-<p> if ( $the_query-&gt;have_posts() ) : while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); </p>
+<p> if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); </p>
 <p>the_content(); </p>
 <p>endwhile; </p>
 <p>endif;</p>
 <p>wp_reset_postdata();<br />
-echo '</div&gt;';<br />
+echo '</div>';<br />
 } </p>
 <p>elseif ( in_category( '634' ) ) {<br />
-    echo '<div class="sidebarTOC"&gt;JavaScript QRG</div&gt;';</p>
-<p>$args = array( 'page_id' =&gt; 22254); </p>
+    echo '<div class="sidebarTOC">JavaScript QRG</div>';</p>
+<p>$args = array( 'page_id' => 22254); </p>
 <p>$the_query = new WP_Query( $args ); </p>
-<p> if ( $the_query-&gt;have_posts() ) : while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); </p>
+<p> if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); </p>
 <p>the_content(); </p>
 <p>endwhile; </p>
 <p>endif;</p>
@@ -85,18 +85,18 @@ echo '</div&gt;';<br />
 <p>elseif (is_single()){</p>
 <p>}</p>
 <p>else {<br />
-	echo '<div class="sidebarTOC"&gt;Categories</div&gt;';<br />
+	echo '<div class="sidebarTOC">Categories</div>';<br />
 wp_list_categories('orderby=name&amp;show_count=1&amp;exclude=182&amp;title_li=0');</p>
-<p>echo '<div class="sidebarTOC"&gt;Series</div&gt;';<br />
-wp_list_categories( array( 'taxonomy' =&gt; 'series', 'title_li' =&gt; false ) );</p>
+<p>echo '<div class="sidebarTOC">Series</div>';<br />
+wp_list_categories( array( 'taxonomy' => 'series', 'title_li' => false ) );</p>
 <p>} </p>
-<p>?&gt;</p>
-<p></div&gt;</p>
-<p><!-- Show other sidebar content --&gt;</p>
-<p>	<?php dynamic_sidebar( 'sidebar-4' ); ?&gt;<br />
-	</div&gt;<br />
-<?php endif; ?&gt;</p>
-<p>	<?php endif; ?&gt;<br />
+<p>?></p>
+<p></div></p>
+<p><!-- Show other sidebar content --></p>
+<p>	<?php dynamic_sidebar( 'sidebar-4' ); ?><br />
+	</div><br />
+<?php endif; ?></p>
+<p>	<?php endif; ?><br />
 {% endhighlight %}<br />
 I'll explain a bit more of this code later, but it's not really my intent to provide a detailed WordPress tutorial here. I mainly want to capture this info for later site updates, or for others who are making this same adjustment.</p>
 <p>For the related series posts (which show when you're viewing a series) and the related single posts (which show when you're viewing a single page), I don't have the code in the sidebar. Instead, I'm relying on two widgets: List Series from the <a href="https://wordpress.org/plugins/series/">Series</a> plugin and <a href="https://wordpress.org/plugins/easy-related-posts/">Easy Related Posts</a>. These plugins don't offer manual PHP tags but rather require you to use the widgets.</p>
@@ -108,16 +108,16 @@ I'll explain a bit more of this code later, but it's not really my intent to pro
 <?php<br />
 wp_reset_query();</p>
 <p>if ( in_category( '2704' ) ) {<br />
-    echo '<div class="sidebarTOC"&gt;DITA QRG</div&gt;';<br />
-     echo "<div class='ditaqrg'&gt;";</p>
-<p>$args = array( 'page_id' =&gt; 22115); </p>
+    echo '<div class="sidebarTOC">DITA QRG</div>';<br />
+     echo "<div class='ditaqrg'>";</p>
+<p>$args = array( 'page_id' => 22115); </p>
 <p>$the_query = new WP_Query( $args ); </p>
-<p> if ( $the_query-&gt;have_posts() ) : while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); </p>
+<p> if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); </p>
 <p>the_content(); </p>
 <p>endwhile; </p>
 <p>endif;</p>
 <p>wp_reset_postdata();<br />
-echo '</div&gt;';<br />
+echo '</div>';<br />
 }<br />
 {% endhighlight %}<br />
 And I added this in my functions file:<br />
@@ -128,8 +128,8 @@ function getMainMenu($menulocation){<br />
     if(empty($menuItems))<br />
       return false;<br />
     else{<br />
-      //wp_nav_menu(array('theme_location' =&gt; $menulocation));<br />
-      wp_nav_menu( array( 'theme_location' =&gt; 'primary', 'menu_class' =&gt; 'nav-menu' ) ); </p>
+      //wp_nav_menu(array('theme_location' => $menulocation));<br />
+      wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); </p>
 <p>      return true;<br />
     }<br />
 }<br />
@@ -145,7 +145,7 @@ function getMainMenu($menulocation){<br />
 <h2>Experimenting with a membership plugin</h2>
 <p>This past week when I published my latest podcast on <a href="http://idratherbewriting.com/2014/12/17/getting-a-job-in-api-documentation-podcast-with-andrew-davis/">Getting a job in API Doc with Andrew Davis</a>, I tried an experiment: require users to log in to listen to the podcast. Based on the <a href="http://idratherbewriting.com/2014/12/09/podcast-download-stats-kind-of-mind-blowing/">high numbers of previous downloads</a> (1500+ for the Intro to API Doc episode), I thought this would be a good strategy toward building up an audience that I could potentially advertise to.</p>
 <p>Further, I set up a <a href="https://wordpress.org/plugins/sync-to-sendy/">Sync to Sendy plugin </a>that automatically adds podcast subscribers to a <a href="http://sendy.co/">Sendy</a> database that I use to send email newsletter content. (More on Sendy later in this post.)</p>
-<p>However, I forgot that iTunes won't index podcasts if the MP3 files aren't included in the feed (the <a href="https://wordpress.org/plugins/wp-members/">WP-member</a> plugin hides them, because I added <code><!--more--&gt;</code> before the files). Further, <a href="http://podtrac.com/">Podtrac</a> (what I'm using to track clicks on podcast episodes), doesn't register any activity if the episode is behind a membership plugin. Additionally, fewer people registered the first few days (around 45) than I had hoped.</p>
+<p>However, I forgot that iTunes won't index podcasts if the MP3 files aren't included in the feed (the <a href="https://wordpress.org/plugins/wp-members/">WP-member</a> plugin hides them, because I added <code><!--more--></code> before the files). Further, <a href="http://podtrac.com/">Podtrac</a> (what I'm using to track clicks on podcast episodes), doesn't register any activity if the episode is behind a membership plugin. Additionally, fewer people registered the first few days (around 45) than I had hoped.</p>
 <p>So I removed the WP-member plugin. I am still exploring different ways to build up my subscriber list but still haven't found a good strategy.</p>
 <h2>Sendy, an email newsletter service</h2>
 <p>I mentioned Sendy previously, but now I'll get into a few more details. A few months ago, I discovered that the <a href="http://idratherbewriting.com/import_dita_into_wordpress">DITA Import to WordPress tool</a> updated my RSS feed when it looks at the GUID of posts, and therefore also updated the <a href="http://feeds.feedburner.com/tomjohnson">Feedburner email feed</a> and sent out updates to everyone indicating new posts (that weren't new). Since I know Feedburner is probably on the decline anyway (since Google killed their RSS reader), I switched to a different email service: <a href="http://sendy.co/">Sendy</a>.</p>

@@ -82,11 +82,11 @@ Page for Audience 2
 <p>Those are a lot of individual pages for each of your re-used components. (Thankfully if you're using excerpt include, you can actually see the block names without editing them.)</p>
 <p>Whatever macro you use, the method is just clunky. You can't do any kind of conditionalizing of content. For example, suppose two pages are 99 percent similar and just 1 percent different. In DITA, you could create one page and add an attribute to the element that is different, like this:</p>
 <pre>Page for Audience 1 and 2
-<p&gt;Paragraph 1</p&gt;
-<p&gt;Paragraph 2</p&gt;
-<p&gt;Paragraph 3</p&gt;
-<p audience="audience_1"&gt;Paragraph 4a</p&gt;
-<p audience="audience_2"&gt;Paragraph 4b</p&gt;</pre>
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+<p audience="audience_1">Paragraph 4a</p>
+<p audience="audience_2">Paragraph 4b</p></pre>
 <p>Then when you transform your content into the output for Audience 1, Paragraph 4b can be excluded. And vice versa for Audience 2.</p>
 <p>You can't conditionalize content in Confluence. There is a plugin called <a href="https://www.k15t.com/software/scroll-versions/overview">Scroll Versions</a> from K15t that allows you to create variants, and then provides a selector menu so that users can choose the variant they want to see while viewing the page. But you can't automate the variant based on login permissions. Audience 1 would need to manually select Audience 1 from a (rather subtle) drop-down menu.</p>
 <p>Because there isn't any conditionalization, you have to create an invisible page (the "Re-used Blocks" page) that has re-usable blocks like this:</p>
@@ -116,15 +116,15 @@ Page for Audience 2
 <p>First, you make all the list items you need. Then you go to a place where you want to insert content between list items. Here you do a soft-return by pressing Ctrl+ Enter to create a line break. Then you press Ctrl+Enter again to create some spaces between the images or other content you've inserted. Lots of soft-returns (or whatever you like to call Ctrl+Enter).</p>
 <p>Look out if you have to suddenly edit your list. Suppose you want to move a screenshot to a previous step, or eliminate a step, or do any other tweaking. Get ready for quirky ride of formatting hell that will make you actually long for Microsoft Word. You'll probably have to go into source view to try to find and fix some tag that got misapplied. Even when you fix it, the spacing can still be wonky.</p>
 <p>Today when I went into source view to troubleshoot, I discovered the following code:</p>
-<pre><span style="line-height: 1.4285715; background-color: transparent;"&gt;The </span&gt; <code style="line-height: 1.4285715; background-color: transparent;"&gt;methodName</code&gt; <span style="line-height: 1.4285715; background-color: transparent;"&gt; method invokes the gizmo. Add this method in your app where you want to load the gizmo.</span&gt;
+<pre><span style="line-height: 1.4285715; background-color: transparent;">The </span> <code style="line-height: 1.4285715; background-color: transparent;">methodName</code> <span style="line-height: 1.4285715; background-color: transparent;"> method invokes the gizmo. Add this method in your app where you want to load the gizmo.</span>
 </pre>
 <p>I'm not making this up.</p>
 <p>Now, span tags aren't so hard to strip out. But if you ever want to migrate your content out of Confluence, you'll be saddled with all kinds of Confluence markup integrated tightly into your content. For example, here's what a code block looks like:</p>
-<pre><ac:macro ac:name="code"&gt;
-       <ac:plain-text-body&gt;
+<pre><ac:macro ac:name="code">
+       <ac:plain-text-body>
  here's my code...
- </ac:plain-text-body&gt;
-     </ac:macro&gt;
+ </ac:plain-text-body>
+     </ac:macro>
 </pre>
 <p>The content is riddled with tags like this for every macro. Even when the browser renders the wiki content into HTML, it keeps all the macro tags.</p>
 <h2>Despite all this...</h2>

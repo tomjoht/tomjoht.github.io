@@ -41,6 +41,8 @@ There are some limitations with Github wikis:
 
 ## Publish a sample file on Github
 
+In this section, you will create a new Github repo and publish a sample file there.
+
 1. Go to [Github.com](http://github.com) and either sign in or create an account.
 2. After you're signed in, click the **+** button in the upper-right corner and select **New repository**.
 	
@@ -57,60 +59,70 @@ There are some limitations with Github wikis:
 
 ## Save the Github repository locally
 
-1. Set up Git on your computer. (See instructions for [Mac](https://help.github.com/articles/set-up-git/#platform-mac) or [Windows](https://help.github.com/articles/set-up-git/#platform-windows)). 
+1. Set up Github on your computer. (See instructions for [Mac](https://help.github.com/articles/set-up-git/#platform-mac) or [Windows](https://help.github.com/articles/set-up-git/#platform-windows)). 
 
+	Installing Github will include all the Git software as well. If you're installing the Windows version, after you install Github, you'll get a special Github Shell shortcut that you can use to work on the command line. You should use that special Github Shell rather than the usual command line prompt. Note that when you use that Github Shell, you can also use more typical Unix commands, such as `pwd` for present working directory instead of `dir` (though both commands will work). 
+	
+	On a Mac, however, you don't get a special Github Shell. Oopen the Terminal in the same way &mdash; go to **Applications > Utilities > Terminal**. 
+	
 	You can check to see if you have git already installed by opening a terminal or command prompt and typing `git --version`. 
 	
-	To open a Terminal on a Mac, press **Cmd + spacebar** and then type **Terminal.** To open the command prompt on Windows 7, click **Start** and type **cmd** to launch the prompt.
-	
-2. While viewing your the Github wiki, look for the "Clone this wiki locally" section. Copy the link. 
+2. While viewing your the Github wiki in your browser, look for the "Clone this wiki locally" section on the right. Copy the link. 
 	
 	<img src="{{ "/images/publishingapidocs/clonewikilocally.png" | prepend: site.baseurl }}" alt="Github clone this wiki locally" />
-3. Go back to your terminal. Use the default directory, or browse to a directory where you want to download the repository. (To browse directories, type `cd` followed by the directory name.)
-4. In your terminal, type the following, but replace the https git URL with your own git URL that you copied earlier:
+	
+3. Go back to your terminal. Use the default directory, or browse to a directory where you want to download the repository. 
+4. In your terminal, type the following, but replace the git URL with your own git URL that you copied earlier:
 	
 	```
-	$ git clone https://github.com/tomjohnson1492/weatherapi.wiki.git
+	git clone https://github.com/tomjohnson1492/weatherapi.wiki.git
 	```
-	
-	The `$` isn't something you should type. It just signals that the location for typing this command is your terminal window.
 	
 	{{note}} To paste content into the command prompt on Windows, right-click and select <b>Paste</b>.{{end}}
 	
-5. Navigate to the directory (using standard ways of browsing for files on your computer) to see the files you downloaded. 
+5. Navigate to the directory (either using standard ways of browsing for files on your computer or via the terminal) to see the files you downloaded. 
 
 ## Make a change locally and commit it to the repository
 
 1. In a text editor, open the Markdown file you downloaded in the github repository. 
 2. Make a small change and save it.
-3. In your terminal, look at the directories under your current path:
-
-	**Mac**: Type `ls` to list the directories under your current path. Then go into the directory by typing `cd weatherapi.wiki`, where weatherapi.wiki is the name of the directory.
+3. In your terminal, make sure you're in the directory where you downloaded the github project. To look at the directories under your current path, type `ls`. Then use `cd {directory name}` to drill into the folder, or `cd ../` to move up a level.
 	
-	**Windows**: Type `dir` to list the directories under your current path. Then go into the directory by typing `cd weatherapi.wiki`, where weatherapi.wiki is the name of the directory.
-	
-4. Add the file:
+4. Add the file to your staging area:
 		
 	```
-	$ git add --all
+	git add --all
 	```
 		
 4. See the changes set in your staging area:
 	
 	```
-	$ git status
+	git status
 	```
 	
 5. Commit the changes:
 	
 	```
-	$ git commit -m "updated some content"
+	git commit -m "updated some content"
 	```
+	
+	This is a shortcut for committing and typing a message in the same command. If you just type `git commit`, you'll be prompted with another window to describe the change. 
+	
+	On Windows, this new window will be a Notepad window. Describe the change on the top line, and then save and close the file. 
+	
+	On a Mac, a new window doesn't open. Instead, the vi editor mode opens up. To use this mode, you have to know a few simple unix commands:
+	<ul>
+	<li><b>Arrow keys:</b> You use your arrow keys to move around. You don't use your mouse.</li>
+	<li><b>Insert mode:</b> If you start typing, vi enters the Insert mode.</li>
+	<li><b>Escaping out of Insert Mode:</b> To escape out of Insert mode, press <b>Esc.</b></li>
+	<li><b>Saving: </b>To save your edits, you need to do a "write quit." Press <b>Ctrl + :</b> Then type <b>wq</b> for "write quit." If you made changes but don't want to save them, type <b>q!</b> for "quit override."</li>
+	</ul>
+	<p>You can also use <a href="http://www.cs.rit.edu/~cslab/vi.html">other vi commands</a>.</p>
 	
 6. Push the changes to your repository:
 	
 	```
-	$ git push
+	git push
 	```
 	
 7. Now verify that your changes took effect. Browse to your Github wiki repository and look to see the changes.

@@ -145,6 +145,8 @@ entries:
           weight:
         - title: Github wikis
           url: /pubapis_github_wikis/
+        - title: Collaborate and review content with Github
+          url: /pubapis_github_pull_requests/
         - title: Swagger
           url: /pubapis_swagger/
           weight:

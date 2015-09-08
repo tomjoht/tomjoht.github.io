@@ -9,8 +9,8 @@ type: notes_docapis
 
 In earlier parts of this workshop, we used a simple [Weather API from Mashape](https://www.mashape.com/fyhao/weather-13) to demonstrate how to use a REST API. In this part of the workshop, we'll explore various tools to publish information from the same Mashape Weather API. 
 
-## Why focus on publishing API docs? What's different about publishing API doc instead of regular doc?
-The first question about a focus on publishing API documentation might be, *why?* What makes publishing API documentation so different from other kinds of documentation? How and why does the approach here need to differ from the approach for publishing regular documentation? 
+## Why focus on publishing API docs?
+The first question about a focus on publishing API documentation might be, *why?* What makes publishing API documentation so different from other kinds of documentation that it merits its own section? How and why does the approach here need to differ from the approach for publishing regular documentation? 
 
 This is a valid question that I want to answer by telling a story.
 
@@ -30,7 +30,7 @@ My recruiter friend knows the market &mdash; especially the Silicon Valley marke
 
 ## Five reasons why developer doc doesn't use HATs
 
-Beyond the advice of recruiters or the examples on Programmableweb.com, I think there are at least five reasons why developers reject tech comm authoring tools: 
+I think there are at least five reasons why developers reject tech comm authoring tools: 
 
 ### 1. The HAT tooling doesn't match developer workflows and environments
 
@@ -62,7 +62,7 @@ Most tripane help doesn't make that cut. If the help looks old and frame-based, 
 
 ## A new direction
 
-Based on all of these factors, I decided to put DITA authoring on pause and try a new tool with my documentation: Jekyll. I've come to really love using Jekyll, working primarily in Markdown and Liquid. I realize that not everyone has the luxury of switching authoring tools, but since my company is somewhat small, and I'm one of three writers, I wasn't burned by a ton of legacy content or heavy processes, so I could innovate.
+Based on all of these factors, I decided to put DITA authoring on pause and try a new tool with my documentation: Jekyll. I've come to really love using Jekyll, working primarily in Markdown, leveraging Liquid for conditional logic, and committing updates to a repository. I realize that not everyone has the luxury of switching authoring tools, but since my company is somewhat small, and I'm one of three writers, I wasn't burned by a ton of legacy content or heavy processes, so I could innovate.
 
 Jekyll is just one documentation publishing option in this space. I personally enjoy working with a more code-based approach, but there are many different options and routes to explore.
 

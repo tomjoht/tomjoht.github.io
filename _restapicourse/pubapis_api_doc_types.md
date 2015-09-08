@@ -84,13 +84,5 @@ Here's a sample page showing endpoints from Instagram's API:
 
 <a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "/images/publishingapidocs/instagramref.png" | prepend: site.baseurl }}" alt="Instagram endpoints" /></a>
 
-## Explore some of the API doc sites
-
-Browse around 5 of more of the API doc sites listed earlier to get a feel for them. In each of the sites, try to find examples of the three types of API documentation:
-
-* Guide docs
-* Tutorial docs
-* Reference docs
-
 
 

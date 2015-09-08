@@ -46,10 +46,10 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>I bet that most online formats will be comprehensive, meaning the online help will contain all the content. For SEO reasons alone, the online format should probably be comprehensive -- see my post <a href="http://idratherbewriting.com/2013/12/16/seo-duplicate-content-and-single-sourcing/">Single sourcing and duplicate content</a> for reasons why. It's only the printed deliverables, usually subsets of the online help, where you have to think about topic dependencies. </p>
 <p>As an example, let's say you want to print a guide called "Getting Started." In the Getting Started guide, you have a conceptual overview of widgets -- "Widgets overview" -- and a link to an article on "Configuring widgets." You want the link to "Configuring widgets" to appear in the online help but not in the Getting Started printed guide because the "Configuring widgets" topic isn't in the Getting Started guide. </p>
 <p>When you link to the topic, you can add an attribute to the paragraph tag to apply conditional processing. To be more specific, you might duplicate the reference statement and tag each statement conditionally, like this:</p>
-<pre>
-  <p audience="online">For more information, see <xref href="configuring_widgets" format="dita" /&gt;. </p&gt;
-  <p audience="print">For more information, see "Configuring widgets" in the online help.</p&gt;
-</pre>
+{% highlight xml %}
+  <p audience="online">For more information, see <xref href="configuring_widgets" format="dita" />. </p>
+  <p audience="print">For more information, see "Configuring widgets" in the online help.</p>
+{% endhighlight %}
 <p>If you're using Oxygen XML, go to Options > Preferences and expand the Editor > Edit Modes > Author > Profiling/Conditional Text option. Edit the audience attribute to include the various audiences you want (online and print).</p>
 <p><img src="/images/conditions-600x581.jpg" alt="conditions" width="600" height="581" class="alignnone size-medium wp-image-20477" /></p>
 <p>Then create a new profiling condition set and apply it to your current view. </p>

@@ -39,15 +39,15 @@ excerpt: !ruby/object:Hpricot::Doc
 <p>This separation of tasks from concepts in the <em>building blocks</em> of DITA is fine, because your dita files aren't the same as your output files. In your ditamap file, which defines how each of these components is arranged in the output, you can combine concepts and tasks to your heart's content.</p>
 <p>For example, here's a ditamap file that combines five subtasks into one article:</p>
 <p>{% highlight xml %}</p>
-<p><topicref href="admin_console/rewards/managing_contests.dita" chunk="to-content"&gt;<br />
-   <topicref href="admin_console/rewards/create_a_contest.dita" toc="no"/&gt;<br />
-   <topicref href="admin_console/rewards/end_a_contest.dita" toc="no"/&gt;<br />
-   <topicref href="admin_console/rewards/find_contest_winners.dita" toc="no"/&gt;<br />
-   <topicref href="admin_console/rewards/export_contest_winners.dita" toc="no"/&gt;<br />
-   <topicref href="admin_console/rewards/archive_a_contest.dita" toc="no"/&gt;<br />
- </topicref&gt;</p>
+<p><topicref href="admin_console/rewards/managing_contests.dita" chunk="to-content"><br />
+   <topicref href="admin_console/rewards/create_a_contest.dita" toc="no"/><br />
+   <topicref href="admin_console/rewards/end_a_contest.dita" toc="no"/><br />
+   <topicref href="admin_console/rewards/find_contest_winners.dita" toc="no"/><br />
+   <topicref href="admin_console/rewards/export_contest_winners.dita" toc="no"/><br />
+   <topicref href="admin_console/rewards/archive_a_contest.dita" toc="no"/><br />
+ </topicref></p>
 <p>{% endhighlight %}</p>
-<p>The <code>chunk="to-content"</code> attribute says to combine the children with the parent. The parent is denoted by the lack of a closing <code>/&gt;</code>. All contained topicrefs are thus included as children to this topicref, until the closing <code></topicref&gt;</code>.</p>
+<p>The <code>chunk="to-content"</code> attribute says to combine the children with the parent. The parent is denoted by the lack of a closing <code>/></code>. All contained topicrefs are thus included as children to this topicref, until the closing <code></topicref></code>.</p>
 <p>In the output, users will see just one file: "Managing Contests." This file probably includes some conceptual information about contests followed by 5 tasks: Create a Contest, End a Contest, Find Contest Winners, Export Contest Winners, and Archive a Contest.</p>
 <p>Sure, my source files have 6 different DITA files, but the output is just one article.</p>
 <p>One reason so many people mistake the architecture of the source files with the architecture of the output files is because the term "topic" tends to get used for both situations. I prefer to call the output files "articles" rather than topics. An article might consist of several topics. Each of those topics might be of several different types: concept, task, or reference.</p>

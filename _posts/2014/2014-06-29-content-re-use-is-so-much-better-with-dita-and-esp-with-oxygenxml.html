@@ -32,11 +32,11 @@ weight: 1.8
 <p>Your DITA map consists of a list of references to topics. If you want to use the same topic in different DITA maps, you just reference that topic again in another map.</p>
 <p><b>Map for Trek</b><br />
 [xml]<br />
-<topicref href="maintaining_brakes.dita"/&gt;<br />
+<topicref href="maintaining_brakes.dita"/><br />
 [/xml]</p>
 <p> <b>Map for Gary Fisher</b><br />
 [xml]<br />
-<topicref href="maintaining_brakes.dita"/&gt;<br />
+<topicref href="maintaining_brakes.dita"/><br />
 [/xml]<br />
 Nothing earth shattering there.</p>
 <p>But you may not want to create separate maps, because more maps means more maintenance and updates. Instead, you can create various conditions and apply the conditions to the topics in the same map. This is where DITA gets really powerful. To understand how to do this, I need to explain conditional profiling.</p>
@@ -80,12 +80,12 @@ Nothing earth shattering there.</p>
 <p><img src="/images/dita_profile2.png" alt="dita_profile2" width="596" height="338" class="alignnone size-full wp-image-20953" /></p>
 <p>Now you can start using these attributes almost any DITA element. Suppose you want to apply an attribute to your map so that you can use the same map for each product. You might apply the attributes like this:<br />
 [xml]<br />
-<topicref href="maintaining_brakes_71_fx.html" product="trek" platform="71_fx"/&gt;<br />
-<topicref href="maintaining_brakes_72_fx.html" product="trek" platform="72_fx"/&gt;<br />
-<topicref href="maintaining_brakes_73_fx.html" product="trek" platform="73_fx"/&gt;<br />
-<topicref href="maintaining_brakes_cs_20.html" product="gary_fisher" platform="city_slicker_20/&gt;<br />
-<topicref href="maintaining_brakes_cs_21.html" product="gary_fisher" platform="city_slicker_21"/&gt;<br />
-<topicref href="maintaining_brakes_cs_22.html" product="gary_fisher" platform="city_slicker_22"/&gt;<br />
+<topicref href="maintaining_brakes_71_fx.html" product="trek" platform="71_fx"/><br />
+<topicref href="maintaining_brakes_72_fx.html" product="trek" platform="72_fx"/><br />
+<topicref href="maintaining_brakes_73_fx.html" product="trek" platform="73_fx"/><br />
+<topicref href="maintaining_brakes_cs_20.html" product="gary_fisher" platform="city_slicker_20/><br />
+<topicref href="maintaining_brakes_cs_21.html" product="gary_fisher" platform="city_slicker_21"/><br />
+<topicref href="maintaining_brakes_cs_22.html" product="gary_fisher" platform="city_slicker_22"/><br />
 [/xml]</p>
 <p>Now configure your transformation scenarios with the right condition sets:</p>
 <ol>
@@ -100,13 +100,13 @@ Nothing earth shattering there.</p>
 </ol>
 <p>In this example, I've applied the conditions at the topic level. But this assumes that the topics are substantially different. Most likely you would apply the conditions to elements within the same topic. For example, your topic might look like this:<br />
 [xml]<br />
-<p product="trek"&gt;You can adjust your brakes by loosening the bolt with a 5mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt.</p&gt;</p>
-<p><p product="gary_fisher"&gt;You can adjust your brakes by loosening the bolt with a 7mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt. Alternatively, rotate the quick turn nut on the end of the brake cable next to your brake handles to make adjustments on the fly.</p&gt;<br />
+<p product="trek">You can adjust your brakes by loosening the bolt with a 5mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt.</p></p>
+<p><p product="gary_fisher">You can adjust your brakes by loosening the bolt with a 7mm allen wrench and sliding the brake pads to the distance you want. Then tighten the bolt. Alternatively, rotate the quick turn nut on the end of the brake cable next to your brake handles to make adjustments on the fly.</p><br />
 [/xml]</p>
 <p><b>Tip:</b> If you want to be even more granular, you can surround a word with <code>ph</code> tags (for phrase). The tags can be applied to any element, so if the element you want doesn't allow you to apply these general attributes (such as the <code>entry</code> element in a table), you can just put <code>ph</code> tags inside the element.</p>
 <p>Here's an example:<br />
 [xml]<br />
-Your bike is equipped with Shimano <ph platform="71_fx"&gt;Ultegra components</ph&gt;<ph platform="72_fx 73_fx"&gt;105 components</a&gt;.<br />
+Your bike is equipped with Shimano <ph platform="71_fx">Ultegra components</ph><ph platform="72_fx 73_fx">105 components</a>.<br />
 [/xml]</p>
 <p>In this example, the conditional processing will apply the processing at a more granular level. For transform scenarios that include both 72_fx and 73_fx, the sentence will read:<br />
 [xml]<br />
@@ -117,65 +117,65 @@ Your bike is equipped with Shimano 105 components.<br />
 <p>Let's suppose you want to re-use the same paragraph across different guides. For this kind of re-use, you incorporate something called a <code>conref</code>. Create a new file called something like "notes.dita". Unless you need specific tags only available in a specialized type (like an entire section or a task list), use a generic topic type.</p>
 <p>Here's a sample note that I want to re-use.<br />
 [xml]<br />
-<note type="note" id="bolt_warning"&gt;Don't overtighten the bolts, since you could strip the threads and make it impossible to loosen.</note&gt;<br />
+<note type="note" id="bolt_warning">Don't overtighten the bolts, since you could strip the threads and make it impossible to loosen.</note><br />
 [/xml]</p>
 <p>In your topic, you apply a <code>conref</code> attribute element to the same type of element and reference your note, like this:<br />
 [xml]<br />
-<note conref="notes.dita#bolt_warning"/&gt;<br />
+<note conref="notes.dita#bolt_warning"/><br />
 [/xml]</p>
 <p>The content will be inserted there when you transform it.</p>
 <h2>Variables</h2>
 <p>Finally, let's say you have a variable that you want to use on a page. For bikes shipped to the UK, they use a different derailleur version. U.S. versions have "MTB" derailleurs, but UK versions use "DR" components. To implement variables in DITA, you use keyword references.<br />
 [xml]<br />
-Your bike is equipped with <keyword keyref="derailleur_version"/&gt; derailleurs.<br />
+Your bike is equipped with <keyword keyref="derailleur_version"/> derailleurs.<br />
 [/xml]</p>
 <p>In a map file, add this:<br />
 [xml]<br />
- <keydef keys="derailleur_version"&gt;<br />
- <topicmeta&gt;<br />
- <keywords&gt;<br />
- <keyword&gt;MTB</keyword&gt;<br />
- </keywords&gt;<br />
- </topicmeta&gt;<br />
- </keydef&gt;<br />
+ <keydef keys="derailleur_version"><br />
+ <topicmeta><br />
+ <keywords><br />
+ <keyword>MTB</keyword><br />
+ </keywords><br />
+ </topicmeta><br />
+ </keydef><br />
 [/xml]</p>
 <p>You could manually change the keyword value from MTB when you want to push out a different value there, such as DR.</p>
 <p>But you could also apply conditional attributes to the keyword element so that the value changes dynamically.<br />
 [xml]<br />
- <keydef keys="derailleur_version"&gt;<br />
- <topicmeta&gt;<br />
- <keywords&gt;<br />
- <keyword audience="uk"&gt;DR</keyword&gt;<br />
- <keyword audience="us"&gt;MTB</keyword&gt;<br />
- </keywords&gt;<br />
- </topicmeta&gt;<br />
- </keydef&gt;<br />
+ <keydef keys="derailleur_version"><br />
+ <topicmeta><br />
+ <keywords><br />
+ <keyword audience="uk">DR</keyword><br />
+ <keyword audience="us">MTB</keyword><br />
+ </keywords><br />
+ </topicmeta><br />
+ </keydef><br />
 [/xml]</p>
 <p>You could also use this method when writing generalized sentences like this that refer to the brand:<br />
 [xml]<br />
-Congratulations on the purchase of your new <keyword keyref="bike_model"/&gt; bike.<br />
+Congratulations on the purchase of your new <keyword keyref="bike_model"/> bike.<br />
 [/xml]</p>
 <p>Your map would include this code:<br />
 [xml]<br />
- <keydef keys="bike_model"&gt;<br />
- <topicmeta&gt;<br />
- <keywords&gt;<br />
- <keyword product="trek"&gt;Trek</keyword&gt;<br />
- <keyword product="gary_fisher"&gt;Gary Fisher</keyword&gt;<br />
- </keywords&gt;<br />
- </topicmeta&gt;<br />
- </keydef&gt;<br />
+ <keydef keys="bike_model"><br />
+ <topicmeta><br />
+ <keywords><br />
+ <keyword product="trek">Trek</keyword><br />
+ <keyword product="gary_fisher">Gary Fisher</keyword><br />
+ </keywords><br />
+ </topicmeta><br />
+ </keydef><br />
 [/xml]</p>
 <p>Most people will create a map file that contains all their keyword definitions, and then link to the keyref map file from their regular map, adding an attribute of <code>processing-role="resource-only"</code> to the <code>topicref</code> so it doesn't appear in the TOC.</p>
 <h2>Ease of editing</h2>
 <p>When you have sophisticated re-use needs, there's no better platform than DITA XML and applying the conditional profiling. It allows you to apply the conditions at an extremely granular level, giving you a robust solution to accomplish nearly any type of re-use.</p>
 <p>What's great about OxygenXML is that the editor makes it really easy to apply the conditions. Without Oxygen, you would need create a DITAVAL file that explains what should be excluded:<br />
 [xml]<br />
-<val&gt;<br />
- <prop action="exclude" att="platform" val="gary_fisher" /&gt;<br />
- <prop action="exclude" att="product" val="city_slicker_20" /&gt;<br />
- <prop action="exclude" att="product" val="city_slicker_21" /&gt;<br />
-</val&gt;<br />
+<val><br />
+ <prop action="exclude" att="platform" val="gary_fisher" /><br />
+ <prop action="exclude" att="product" val="city_slicker_20" /><br />
+ <prop action="exclude" att="product" val="city_slicker_21" /><br />
+</val><br />
 [/xml]</p>
 <p>In the DITAVAL file method, you identify the attribute and value and then apply an exclude action. (You don't apply an include, just exclude.) You can still use DITAVAL files with Oxygen if you want.</p>
 <p>With Oxygen, however, the conditional profiling works more intuitively (similar to Flare, actually). In Oxygen, when you create a condition set that includes certain values, other values not selected from that same attribute are excluded. If you don't apply any attribute to content, everything is included.</p>
