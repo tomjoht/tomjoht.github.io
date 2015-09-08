@@ -12,6 +12,8 @@ Chances are if you're working a documentation project that involves text files, 
 
 ## Create a new Github repository
 
+First let's create a new Github repository.
+
 1. Log in to your Github account, click the **Repositories** tab, and then click **New** to create a new repository.
 	
 	<img src="{{ "/images/restapicourse/github_new_repo.png" | prepend: site.baseurl }}" alt="Creating a new Github repository" />
@@ -22,17 +24,16 @@ Chances are if you're working a documentation project that involves text files, 
 
 ## Add collaborators to your project
 
-You need to add collaborators to your Github project so they can commit edits to a branch. If people don't have write access, they can fork the project instead of making edits on a branch on the same project. If someone isn't a collaborator and they want to make edits, they will see this note:
+You need to add collaborators to your Github project so they can commit edits to a branch. If people don't have write access, they can fork the project instead of making edits on a branch on the same project. If someone isn't a collaborator and they want to make edits, they will receive an error.
 
 To add collaborators to your Github project:
 
 1. While viewing your Github repository, click the **Settings** button (gear icon) on the lower-right. 
 2. Click the **Collaborators** tab on the left.
-	
-	<img src="{{ "/images/restapicourse/github_add_collaborators.png" | prepend: site.baseurl }}" alt="Adding collaborators" />
-	
 3. Type the Github usernames of those you want to have access in the Collaborator area.
 4. Click **Add Collaborator**.
+	
+	<img src="{{ "/images/restapicourse/github_add_collaborators.png" | prepend: site.baseurl }}" alt="Adding collaborators" />
 
 ## Make edits in a separate branch
 
@@ -40,17 +41,19 @@ By default, your new repository has one branch called "Master." Usually when you
 
 {{note}}Although you can perform these operations using git commands from terminal, it's easier to perform the actions through the browser interface.{{end}}
 
+To make edits in a separate branch: 
+
 1. Pretend you're a SME reviewer. Go to the Github repo and create a new branch by selecting the branch drop-down menu and typing a new branch name, such as "sme review."
 	
 	<img src="{{ "/images/restapicourse/github_sme_review.png" | prepend: site.baseurl }}" alt="Creating a new branch" />
 	
 	When you create a new branch, the content from the master is copied over into the new branch. The branch is like doing a "Save as" with an existing document.
 	
-2. Click the **README.txt** file, and then click the pencil icon ("Edit this file") to edit the file.
+2. Click the **README.txt** file, and then click the **Edit this file** button (pencil icon) to edit the file.
 	
 	<img src="{{ "/images/restapicourse/github_making_branch_edits.png" | prepend: site.baseurl }}" alt="Making an edit" />
 	
-3. Make some changes to the content, and then scroll down and click **Commit Changes**. Explain the reason for the changes and commit the changes to your sme-review branch, and then click **Commit Changes**.
+3. Make some changes to the content, and then scroll down and click **Commit Changes**. Explain the reason for the changes and commit the changes to your sme review branch, and then click **Commit Changes**.
 	
 	Reviewers could continue making edits this way until they have finished reviewing all of the documentation. All of the changes are made on a branch, not the master.
 
@@ -67,7 +70,7 @@ Now that the review process is complete, it's time to merge the branch into the 
 	
 	<img src="{{ "/images/restapicourse/github_compare_to.png" | prepend: site.baseurl }}" alt="Compare to" />
 	
-	When you compare the branch against the master, you can see a list of all the changes. You can view the changes through two options: Unified or Split. Unified shows the edits together in the same content area, whereas split shows the two files side by side.
+	When you compare the branch against the master, you can see a list of all the changes. You can view the changes through two viewing modes: Unified or Split. Unified shows the edits together in the same content area, whereas split shows the two files side by side.
 	
 4. Click **Create pull request**.
 5. Describe the pull request, and then click **Create pull request**.
@@ -81,7 +84,7 @@ Now pretend you are the repo owner, and you see that you received a new pull req
 	
 	<img src="{{ "/images/restapicourse/github_files_changed.png" | prepend: site.baseurl }}" alt="" />
 	
-	If you only want to implement some of the edits, go into the sme review branch and make the updates before processing the pull request. The pull request doesn't give you a line-by-line option about which changes you want to accept or reject (like in Microsoft Word's Track Changes). It's an all-or-nothing process.
+	{{note}}If you only want to implement some of the edits, go into the sme review branch and make the updates before processing the pull request. The pull request doesn't give you a line-by-line option about which changes you want to accept or reject (like in Microsoft Word's Track Changes). Merging pull requests is an all-or-nothing process.{{end}}
 	
 	Note also that if the pull request is made against an older version of the master, the merges may be more difficult to make.
 	
@@ -92,7 +95,7 @@ Now pretend you are the repo owner, and you see that you received a new pull req
 	
 5. Click **Delete branch** button to delete the sme review branch.
 	
-	If you don't want to delete the branch here, you can always remove old branches by clicking the **branches** link while viewing your Github repository, and then click the Delete (trash can) button next to the branch. 
+	If you don't want to delete the branch here, you can always remove old branches by clicking the **branches** link while viewing your Github repository, and then click the **Delete** (trash can) button next to the branch. 
 	
 	<img src="{{ "/images/restapicourse/github_delete_this_branch.png" | prepend: site.baseurl }}" alt="Deleting old branches" />
 	
