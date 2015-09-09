@@ -38,7 +38,7 @@ It's important to note that with these specs (not just RAML), you're not just de
 
 Here's the Mashape Weather API formatted in the RAML spec:
 
-```json
+```
 #%RAML 0.8
 ---
 title: Mashape Weather API
@@ -279,7 +279,7 @@ You can generate outputs using the RAML spec from a variety of platforms. Here a
 	
 	<img src="{{ "/images/restapicourse/apireferenceanypoint.png" | prepend: site.baseurl }}" alt="AnyPoint Developer Portal" />
 
-## Deliver doc through the API Console
+## Deliver doc through the API Console Project
 
 You can also download the same code that generates the output on the Anypoint Platform and create your own API Console. 
 
@@ -306,7 +306,7 @@ To auto-load a specific RAML file, add this to the body of the index.html file:
 
 In this example, the RAML file is located in examples/weather.raml.
 
-## Deliver doc through the RAML2HTML
+## Deliver doc through the RAML2HTML Utility
 
 Here's [an example](http://raml2html.leanlabs.io/github) of what the RAML2HTML output looks like.
 
