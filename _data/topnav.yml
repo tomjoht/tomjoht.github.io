@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   subcategories:
+    - title: API doc course
+      url: /docapis_course_overview/
     - title: Podcasts
       url: /category-podcasts/
 
@@ -153,13 +155,3 @@ topnav_dropdowns:
 #          url: /impressions/
 #        - title: Clicks
 #          url: /clicks/
-    - title: Workshops
-      items:
-        - title: Documenting REST APIs
-          url: /docapis_course_overview
-#    - title: Courses
-#      items:
-#        - title: Documenting REST APIs
-#          url: /docapis_course_overview/
-#        - title: Publishing API documentation
-#          url: /publishingapidocs/

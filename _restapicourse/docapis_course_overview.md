@@ -8,7 +8,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## API Workshop description
+## Documenting REST APIs course
 
 Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using a simple weather API to put a weather forecast on your site.
 
