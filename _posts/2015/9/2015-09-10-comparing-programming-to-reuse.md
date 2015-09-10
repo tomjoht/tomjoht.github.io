@@ -11,7 +11,7 @@ Mark Lewis, author of [DITA Metrics 101](http://www.rockley.com/DITAMetrics101/A
 
 <a href="https://www.linkedin.com/pulse/alignment-understanding-objects-mark-lewis"><img src="{{ "/images/lewisood.png" | prepend: site.baseurl }}" alt="Mark Lewis on object-oriented design" /></a>
 
-It's an interesting presentation to listen to. The basic idea is that programmers create objects that re-use the attributes and methods from classes. When they create classes, they include many attributes and methods with the intent that objects will make of the attributes and methods. While each object shares common characteristics with the class, the specific values for the attributes and methods in each object are often unique. 
+It's an interesting presentation to listen to. The basic idea is that when programmers create classes, they include attributes and methods for each class. "Objects" are derived from the classes (kind of like how all the different breeds of dogs are all derived from the general species of "dog"). Each object uses the attributes and methods from the class. While each object shares common characteristics with the class, the specific values for the attributes and methods in each object are often unique. 
 
 Being familiar with both Java and DITA, I can see the parallels that Mark is talking about. Mark himself is a former software programmer, so these concepts align with his programming background quite nicely. 
 
