@@ -910,15 +910,23 @@ img.right, img.alignright {float: right; padding-left:20px;}
     #sidebarArea, .topBannerAd {
         display: none;
     }
+    .col-md-9 img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 p.dsq-widget-meta a {
     display: inline;
 }
 
+@media only screen and (min-width: 981px), only screen and (max-device-width: 981px) {
+    .col-md-9 img {
+        max-width: 700px
+    }
+}
 
 .col-md-9 img {
-    max-width: 700px
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;
