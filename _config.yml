@@ -18,6 +18,7 @@ gems:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-redirect-from
+  - jekyll-feed
 
 #url: "http://tomjohnson1492.github.io"
 url: http://idratherbewriting.com
