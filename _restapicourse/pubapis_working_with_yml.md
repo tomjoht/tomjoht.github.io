@@ -10,6 +10,8 @@ type: notes_docapis
 
 When you created the Swagger spec file, you used a syntax called YML. YML stands for "YAML Ain't Markup Language." YML is easier to work with because it removes the brackets and curly braces that get in the way of reading content. In other words, YML is an attempt to create a more human readable data exchange format. It's similar to JSON but without the curly braces and brackets. Many computers ingest data in a YML or JSON format.
 
+more yaml details...
+
 With a YML file, spacing is significant. This is a new object level:
 
 ```
