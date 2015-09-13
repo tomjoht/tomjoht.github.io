@@ -133,6 +133,3 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed
-  jekyll-redirect-from
-  jekyll-sitemap

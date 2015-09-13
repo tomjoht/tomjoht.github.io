@@ -149,6 +149,8 @@ entries:
           url: /pubapis_markdown/
         - title: Collaborate and review content with Github
           url: /pubapis_github_pull_requests/
+        - title: REST API specification formats
+          url: /pubapis_rest_specification_formats/
         - title: Swagger
           url: /pubapis_swagger/
           weight:
