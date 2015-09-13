@@ -248,7 +248,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 3. Inside your "tom" folder, open index.html. 
 4. Look for the following code:
 	
-	```
+	```js
 	$(function () {
 	  var url = window.location.search.match(/url=([^&]+)/);
 	  if (url && url.length > 1) {
@@ -263,7 +263,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 		
 6. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
 	
-	```
+	```js
       function addApiKeyAuthorization(){
         var key = encodeURIComponent($('#input_apiKey')[0].value);
         if(key && key.trim() != "") {
@@ -275,7 +275,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	
 	Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "{api key}", "header"));`, so that it looks like this:
 	
-	```
+	```js
 	      function addApiKeyAuthorization(){
 	        var key = encodeURIComponent($('#input_apiKey')[0].value);
 	        if(key && key.trim() != "") {
@@ -289,7 +289,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	
 7. Uncomment out following lines here by removing the `/*` and `*/`:
 	
-	```
+	```js
 	// if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
 	  /*
 	    var apiKey = "{api key}";
@@ -299,7 +299,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	
 8. Add in your API key into this section:
 	
-	```
+	```js
 	var apiKey = "{api key}";
 	$('#input_apiKey').val(apiKey);    
 	```

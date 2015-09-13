@@ -160,6 +160,8 @@ entries:
         - title: RAML
           url: /pubapis_raml/
           weight:
+        - title: YAML
+          url: /pubapis_yaml/
         - title: Static site generators
           url: /pubapis_static_site_generators/
           weight:
