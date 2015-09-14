@@ -1,5 +1,5 @@
 ---
-title: YAML
+title: More about YAML
 permalink: /pubapis_yaml/
 course: "Documenting REST APIs"
 type: notes_docapis

@@ -147,6 +147,8 @@ entries:
           url: /pubapis_github_wikis/
         - title: More about Markdown
           url: /pubapis_markdown/
+        - title: Using a version control system
+          url: /pubapis_version_control/
         - title: Collaborate and review content with Github
           url: /pubapis_github_pull_requests/
         - title: REST API specification formats

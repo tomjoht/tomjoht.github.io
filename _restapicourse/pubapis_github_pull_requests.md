@@ -8,7 +8,7 @@ type: notes_docapis
 
 ## Managing reviews through Github
 
-Chances are if you're working a documentation project that involves text files, you'll be committing them to a repository such as Github. How do you manage edits, reviews, and other collaborations with your projects? In this tutorial, you'll learn how to create branches and perform pull requests with Github.
+In the previous step, you used Github Desktop to manage the workflow of committing files and creating reqeusts. In this tutorial, you'll do the same thing but using the browser-based interface that Github provides rather than using a terminal or Github Desktop.
 
 ## Create a new Github repository
 
@@ -75,7 +75,7 @@ Now that the review process is complete, it's time to merge the branch into the 
 4. Click **Create pull request**.
 5. Describe the pull request, and then click **Create pull request**.
 
-## Processing the pull request
+## Process the pull request
 
 Now pretend you are the repo owner, and you see that you received a new pull request. You want to process the pull request and merge the sme review branch into the master.
 
