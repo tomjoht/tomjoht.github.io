@@ -2,6 +2,7 @@
 title: List of APIs
 permalink: /pubapis_apilist/
 type: notes_docapis
+weight: 4.6
 ---
 {% include notes.html %}
 ## A survey of API documentation sites

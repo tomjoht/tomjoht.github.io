@@ -3,6 +3,7 @@ title: "Custom UX solutions"
 permalink: /pubapis_custom_ux/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.1
 ---
 
 ## Beautiful API doc sites require front-end design skills

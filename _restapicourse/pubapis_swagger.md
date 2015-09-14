@@ -3,6 +3,7 @@ title: "Swagger"
 permalink: /pubapis_swagger/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 5.4
 ---
 {% include notes.html %}
 

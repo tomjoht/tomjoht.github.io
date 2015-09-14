@@ -3,7 +3,8 @@ title: RAML
 permalink: /pubapis_raml/
 keywords: 
 course: "Publishing REST APIs"
-summary: 
+weight: 5.6
+type: notes_docapis
 ---
 {% include restapicourse.html %}
 

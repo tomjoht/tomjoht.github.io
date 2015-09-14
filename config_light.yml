@@ -76,24 +76,6 @@ defaults:
       comments: true
       search: true
 
-  -
-    scope:
-      path: ""
-      type: "publishingapidocs"
-    values:
-      layout: "page_publishingapidocs"
-      comments: true
-      search: true
-
-  -
-    scope:
-      path: ""
-      type: "javaapidocs"
-    values:
-      layout: "javaapidocs"
-      comments: true
-      search: true
-
 sass:
     sass_dir: _sass
 

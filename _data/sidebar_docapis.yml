@@ -132,75 +132,82 @@ entries:
     - title: Publishing API docs
       items:
         - title: Overview
-          url: /publishingapidocs/
-          weight:
+          url: /pubapis_overview/
+          weight: 4.5
         - title: List of 100 APIs
           url: /pubapis_apilist/
-          weight:
+          weight: 4.6
         - title: Breaking down API doc
           url: /pubapis_api_doc_types/
-          weight:
+          weight: 4.7
         - title: Tool decisions
           url: /pubapis_tooldecisions/
-          weight:
+          weight: 4.8
         - title: Github wikis
           url: /pubapis_github_wikis/
+          weight: 4.9
         - title: More about Markdown
           url: /pubapis_markdown/
+          weight: 5.0
         - title: Using a version control system
           url: /pubapis_version_control/
-        - title: Collaborate and review content with Github
+          weight: 5.1
+        - title: Pull request workflows through Github in browser
           url: /pubapis_github_pull_requests/
+          weight: 5.2
         - title: REST API specification formats
           url: /pubapis_rest_specification_formats/
+          weight: 5.3
         - title: Swagger
           url: /pubapis_swagger/
-          weight:
-        - title: API Blueprint
-          url: /pubapis_api_blueprint/
-          weight:
-        - title: RAML
-          url: /pubapis_raml/
-          weight:
+          weight: 5.4
         - title: YAML
           url: /pubapis_yaml/
+          weight: 5.5
+        - title: RAML
+          url: /pubapis_raml/
+          weight: 5.6
+        - title: API Blueprint
+          url: /pubapis_api_blueprint/
+          weight: 5.7
         - title: Static site generators
           url: /pubapis_static_site_generators/
-          weight:
+          weight: 5.8
         - title: Readme.io
           url: /pubapis_readmeio/
-          weight:
+          weight: 5.9
         - title: Miredot
           url: /pubapis_miredot/
-          weight:
+          weight: 6.0
         - title: Custom UX solutions
           url: /pubapis_custom_ux/
-          weight:
+          weight: 6.1
         - title: Help authoring tools
           url: /pubapis_hats/
-          weight:
+          weight: 6.2
     - title: Design patterns
       items:
         - title: Design patterns
           url: /pubapis_design_patterns/
-          weight:
+          weight: 6.3
         - title: Structure and templates
           url: /pubapis_structure_and_templates/
-          weight:
+          weight: 6.4
         - title: Web platforms
           url: /pubapis_web_platforms/
-          weight:
+          weight: 6.5
         - title: Abundant code samples
           url: /pubapis_code_samples/
-          weight:
+          weight: 6.6
         - title: Long-ish pages
           url: /pubapis_longish_pages/
-          weight:
+          weight: 6.7
         - title: API interactivity
           url: /pubapis_api_interactivity/
-          weight:
+          weight: 6.8
         - title: Challenging factors
           url: /pubapis_challenging_factors/
+          weight: 6.9
         - title: Tools versus content
           url: /pubapis_tools_vs_content/
-          weight:
+          weight: 7.0

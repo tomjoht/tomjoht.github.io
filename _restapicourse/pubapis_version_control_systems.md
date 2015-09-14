@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 
+weight: 5.1
 type: notes_docapis
 summary: 
 ---
@@ -87,7 +87,7 @@ Now let's create a branch, make some changes, and then merge the branch into the
 
 1. Click the **Add a branch** button and create a new branch. Call it something like "tom-edits," but use your own name.
 	
-	<img src="{{ "/images/restapiourse/addingabranchtom.png" | prepend: site.baseurl }}" alt="Adding a branch" />
+	<img src="{{ "/images/restapicourse/addingabranchtom.png" | prepend: site.baseurl }}" alt="Adding a branch" />
 	
 	When you create the branch, you'll see the branch drop-down menu indicate that you're working in that branch. A branch is a copy of the master that exists on a separate line from the master in terms of tracking edits. 
 	
@@ -118,13 +118,4 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	The Sync button pulls the latest changes from the master and updates your working copy to it. You will see the pull request merged. It shows you the lines that have been added in the files. 
 	
 	<img src="{{ "/images/restapicourse/pullrequestmergednow.png" | prepend: site.baseurl }}" alt="Merged pull request" />
-
-
-
-
-
-
-
-
-
 

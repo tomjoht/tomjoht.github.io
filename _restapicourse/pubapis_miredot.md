@@ -3,6 +3,7 @@ title: "Miredot"
 permalink: /pubapis_miredot/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.0
 ---
 ## How Miredot works
 

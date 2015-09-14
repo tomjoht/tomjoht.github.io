@@ -3,6 +3,7 @@ title: "Static site generators"
 permalink: /pubapis_static_site_generators/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 5.8
 ---
 
 ## What are static site generators

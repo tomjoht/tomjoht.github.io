@@ -3,6 +3,7 @@ title: "Readme.io"
 permalink: /pubapis_readmeio/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 5.9
 ---
 
 ## Software as a service sites

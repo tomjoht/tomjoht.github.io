@@ -3,6 +3,7 @@ title: "Design patterns"
 permalink: /pubapis_design_patterns/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.3
 ---
 
 ## What are design patterns

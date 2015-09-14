@@ -3,6 +3,7 @@ title: "Website platform"
 permalink: /pubapis_web_platforms/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.5
 ---
 
 ## One integrated website

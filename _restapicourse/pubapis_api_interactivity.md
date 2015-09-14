@@ -3,6 +3,7 @@ title: "API Interactivity"
 permalink: /pubapis_api_interactivity/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.8
 ---
 
 ## API explorers

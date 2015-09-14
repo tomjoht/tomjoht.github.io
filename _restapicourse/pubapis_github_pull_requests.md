@@ -1,8 +1,9 @@
 ---
-title: "Collaborate and review content with Github"
+title: "Pull request workflows through Github in browser"
 permalink: /pubapis_github_pull_requests/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 5.2
 ---
 {% include notes.html %}
 

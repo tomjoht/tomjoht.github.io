@@ -3,6 +3,7 @@ title: "Design pattern: Structure and templates"
 permalink: /pubapis_structure_and_templates/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.4
 ---
 
 ## Using a template

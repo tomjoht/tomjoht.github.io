@@ -3,7 +3,9 @@ title: "More about Markdown"
 permalink: /pubapis_markdown/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 5.0
 ---
+
 {% include notes.html %}
 
 ## Markdown overview

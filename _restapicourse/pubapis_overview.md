@@ -1,8 +1,9 @@
 ---
 title: "Publishing API docs"
-permalink: /publishingapidocs/
+permalink: /pubapis_overview/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 4.5
 ---
 
 ## Publishing context

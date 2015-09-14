@@ -3,6 +3,7 @@ title: "Challenging factors"
 permalink: /pubapis_challenging_factors/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.9
 ---
 
 ## Requirements that may cause problems

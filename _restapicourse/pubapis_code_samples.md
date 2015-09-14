@@ -3,6 +3,7 @@ title: "Abundant code samples"
 permalink: /pubapis_code_samples/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 6.6
 ---
 
 ## Developers love code examples
