@@ -161,7 +161,7 @@ entries:
         - title: Swagger
           url: /pubapis_swagger/
           weight: 5.4
-        - title: YAML
+        - title: More about YAML
           url: /pubapis_yaml/
           weight: 5.5
         - title: RAML
@@ -170,7 +170,7 @@ entries:
         - title: API Blueprint
           url: /pubapis_api_blueprint/
           weight: 5.7
-        - title: Static site generators
+        - title: Static site generators (Jekyll)
           url: /pubapis_static_site_generators/
           weight: 5.8
         - title: Readme.io

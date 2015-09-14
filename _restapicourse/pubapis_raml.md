@@ -285,27 +285,27 @@ You can generate outputs using the RAML spec from a variety of platforms. Here a
 You can also download the same code that generates the output on the Anypoint Platform and create your own API Console. 
 
 1. Download the [API Console code from Github](https://github.com/mulesoft/api-console).
-2. Save your RAML file to a local file (such as weather.raml). 
+2. Save your RAML file to some place locally on your computer (such as weather.raml on Desktop). 
 3. In code you downloaded from Github, go to dist/index.html in your browser.
-
-<img src="{{ "/images/restapicourse/apiconsoleraml.png" | prepend: site.baseurl }}" alt="RAML Console" />
-
+	
+	<img src="{{ "/images/restapicourse/apiconsoleraml.png" | prepend: site.baseurl }}" alt="RAML Console" />
+	
 4. Copy the RAML code you created. 
-5. Insert your copied code in the "Or parse RAML here" text box. Then click **Load RAML**.
-
-The API Console loads your RAML content:
-
-<img src="{{ "/images/restapicourse/ramlloaded.png" | prepend: site.baseurl }}" alt="RAML loaded" />
-
-To auto-load a specific RAML file, add this to the body of the index.html file:
-
-```
-<div style="overflow:auto; position:relative">
-<raml-console src="examples/weather.raml"></raml-console>
-  </div>
-```
-
-In this example, the RAML file is located in examples/weather.raml.
+5. Insert your copied code inti the **Or parse RAML here** text box. Then click **Load RAML**.
+	
+	The API Console loads your RAML content:
+	
+	<img src="{{ "/images/restapicourse/ramlloaded.png" | prepend: site.baseurl }}" alt="RAML loaded" />
+	
+6. To auto-load a specific RAML file, add this to the body of the index.html file:
+	
+	```
+	<div style="overflow:auto; position:relative">
+	<raml-console src="examples/weather.raml"></raml-console>
+	  </div>
+	```
+	
+	In this example, the RAML file is located in examples/weather.raml.
 
 ## Deliver doc through the RAML2HTML Utility
 

@@ -33,5 +33,35 @@ reset: undo the changes that you've made.
 
 merge: look at the diff between branches and make them match.
 
+{% comment %} 
+test this is a **test**. edit made.
 
+staging files
+tracking files
+rebasing
+default branch is called trunk in subversion, its called master in others
+master
+hunk
+ear 
+branch
+repository
+hidden file in your project
+the hidden file contains the history of the files. it's the magic folder. it's hidden by default so you can't remove it.
+push
+pull
+clone
+fetch
+merge
+head
+making a commit
+initialize a project
+so many terms!
+working copy
+clone from url
+working copy
+
+when to commit?
+
+checkout -- you revert to a previous commit and then you want to check that commit out
+{% endcomment %}
 {% include restapicourse_next.html %}
