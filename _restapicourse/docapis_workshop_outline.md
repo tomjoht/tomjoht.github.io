@@ -380,5 +380,3 @@ vOAuth 2.0
 ## REST API specification formats
 * REST API specifications
 * Should you use an automated solution?
-
-{% include restapicourse_next.html %}
