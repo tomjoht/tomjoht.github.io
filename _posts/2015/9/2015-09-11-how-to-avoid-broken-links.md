@@ -11,7 +11,7 @@ One of the challenging aspects of technical writing is avoiding broken links in 
 
 Additionally, technical writers frequently manage large numbers of topics. As you make updates, you rename titles, remote some topics, combine multiple topics into the same topic, and make other edits. When you're developing content, the pages and titles in your topics and navigation are in flux. You shift things around constantly trying to find the right organization, the right titles, and more. 
 
-During this time, if you have inline links that point to specific pages, how do you avoid broken links in your output? How do you maintain consistency between the titles on your pages and the tites in your links and in your table of contents?
+During this time, if you have inline links that point to specific pages (which keep changing), how do you avoid broken links in your output? How do you maintain consistency between the titles on your pages and the tites in your links and in your table of contents?
 
 ## Approaches to avoiding broken links
 
