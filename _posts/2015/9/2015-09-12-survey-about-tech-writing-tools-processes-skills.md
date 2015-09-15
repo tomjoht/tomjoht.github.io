@@ -6,7 +6,7 @@ keywords:
 summary: "A grad student in tech comm needs your response to a short survey that examines responses to skill requirements in job postings. You can post your responses in comments."
 ---
 
-A couple of weeks ago, in a [podcast with Lisa Meloncon](http://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/), we talked about ways to help bridge the gap between academics and practitioners. One way practitioners can help academics is by responding to surveys so that academics can gather the research information they need.
+A couple of weeks ago, in a [podcast with Lisa Meloncon](http://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/), I talked about ways to help bridge the gap between academics and practitioners. One way practitioners can help academics is by responding to surveys so that academics can gather the research information they need.
 
 Rebecca Pope is a graduate student at the University of North Texas in Technical Communication. She needs to interview technical editors and writers for a research project in her Digital Literacies course, where she is  analyzing responses to skill requirements in job postings. The interview is 7 questions and takes about 5 minutes to answer.
 
