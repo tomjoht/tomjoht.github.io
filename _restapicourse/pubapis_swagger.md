@@ -9,7 +9,7 @@ weight: 5.4
 
 ## About Swagger
 
-Swagger is one of the most specifications for REST APIs for a number of reasons:
+Swagger is one of the most popular specifications for REST APIs for a number of reasons:
 
 * Swagger generates an interactive API console for people to quickly learn about and try the API.
 * Swagger generates the client SDK code needed for implementations on various platforms.
