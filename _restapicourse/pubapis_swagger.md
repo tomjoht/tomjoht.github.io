@@ -116,7 +116,7 @@ Note a few limitations with the Swagger approach:
 {{activity}}
 In this activity, you'll create a Swagger UI display for the weatherdata endpoint in this [Mashape Weather API](https://www.mashape.com/fyhao/weather-13#weatherdata). (If you're jumping around in the documentation, this is a simple API that we used in earlier parts of the course.) You can see a demo of what we'll build [here](http://learnapidoc.com/swagger/tom):
 
-<a href="http://learnapidoc.com/swagger/tom"><img src="{{ "/images/publishingapidocs/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
+<a href="http://learnapidoc.com/swagger/tom"><img src="{{ "/images/restapicourse/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
 
 ### a. Create a Swagger spec file
 {{activity}}

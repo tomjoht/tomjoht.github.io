@@ -40,7 +40,7 @@ You can see that above this method is a "doc block" that provides a description,
 Miredot consumes this information and generates an output. 
 
 ## Activity: Explore Miredot's output
-
+{{activity}}
 1. First browse the [Miredot sample code](https://github.com/Qmino/miredot-petstore/blob/master/src/main/java/com/qmino/miredot/petstore/service/CatalogService.java).
 2. To see how this information gets rendered in the Miredot output, go to the [Petstore example docs](http://miredot.com/exampledocs/), expand **Catalog > Category** on the right, and then select **PUT**. Or go directly [here](http://www.miredot.com/exampledocs/#268738548).
 

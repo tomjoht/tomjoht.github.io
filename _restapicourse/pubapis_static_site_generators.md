@@ -43,7 +43,7 @@ It works fairly well. Granted, I do have a Mac Thunderbolt 21-inch monitor, so i
 Admittedly, the Markdown format is easy to use but also susceptible to error, especially if you have complicated list formatting. When you have ordered list items separated by screenshots and result statements, and sometimes the result statements have lists themselves or note formatting, it can be a bit tricky to get the display right.
 
 ## Publish the surfreport in a Jekyll theme
-
+{{activity}}
 In this activity, you'll publish an endpoint in a Jekyll theme.
 
 The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) by Cloud Cannon is designed for REST APIs. You'll use this theme to input a new endpoint. If you're continuing on from the previous course (Documenting REST APIs), you already have a new endpoint called surfreport.
@@ -53,7 +53,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 {{note}} If you're on a Mac (with Rubygems and Jekyll installed), building Jekyll sites is a lot simpler. But even if you're on Windows, it won't matter for this tutorial. You'll be using CloudCannon, a SaaS website builder product, to build the Jekyll files.{{end}}
  
 ### a. Download the Jekyll Aviator theme
-
+{{activity}}
 1. Go to [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) and click the **Download ZIP** button.
 	
 	<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="{{ "/images/publishingapidocs/gitdownloadzip.png" | prepend: site.baseurl }}" alt="Download ZIP button for Aviator theme" /></a>
@@ -61,7 +61,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 2. Unzip the files. 
 
 ### b. Add the weatherdata endpoint doc to the theme
- 
+{{activity}}
 1. Browse to the theme's files. In the _api folder, open 1_1_books_list.md in a text editor and look at the format. 
 	
 	In every Jekyll file, there's some "frontmatter" at the top. The frontmatter section has three dashes before and after it. 
@@ -233,7 +233,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
     ---
 
 ### c. Publish your Jekyll project on CloudCannon
-
+{{activity}}
 In this example, we'll use CloudCannon to build and publish the Jekyll site. 
 
 1. Go to [http://cloudcannon.com](http://cloudcannon.com) and sign up for a free test account by clicking **Sign Up**

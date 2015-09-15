@@ -211,11 +211,11 @@ There are many tools that can parse an API blueprint. [Drafter](https://github.c
 For a more comprehensive list of tools, see the [Tooling](https://apiblueprint.org/#tooling) section on apiblueprint.org.
 
 ## Create a sample HTML output using API Blueprint and Apiary
-
+{{activity}}
 For this tutorial, we'll use a platform called Apiary to read and display the API Blueprint. Apiary is just a hosted platform that will remove the need for installing local libraries and utilities to generate the output.
 
 ### a. Create a new Apiary project
-
+{{activity}}
 1. Go to [apiary.io](https://apiary.io/) and click **Quick start with Github**. Sign in with your Github account. (If you don't have a Github account, create one first.)
 2. Sign up for a free hacker account and create a new project. 
 	
@@ -388,7 +388,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 5. Click **Save and Publish**.
 
 ### b. Interact with the API on Apiary
-
+{{activity}}
 Interact with the API on Apiary by calling the resources and viewing the responses. 
 
 What's cool about Apiary is that you can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key.
@@ -398,15 +398,7 @@ This dual display &mdash; both the Example and the Console views &mdash; helps a
 * For users who might not have good data or might not want to make requests that would affect their data, they can view the Example. 
 * For users who want to see how the API specifically returns their data, or certain parameters, they can use the Console view.
 
-## Other API platforms: Mulesoft, Restlet Studio
-
-There are other API platforms that perform similar tasks as Apiary. Check out [Mulesoft](http://mulesoft) and [Restlet Studio](http://studio.restlet.com/#/). These platforms require documentation to be a particular format (in the case of Mulesoft, RAML format; for Restlet, it processes Swagger and RAML). 
-
-Exploring these platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. Large platforms that process and display your API documentation can only do so if your documentation aligns with a spec their tools can parse. The three most common specs for REST APIs are the following: 
-
-* Swagger
-* RAML
-* API Blueprint
+{{tip}} <a href="http://studio.restlet.com">Restlet Studio</a> is another platofrm to check out. Restlet Studio can process either Swagger or RAML specs. Exploring more platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. Large platforms that process and display your API documentation can only do so if your documentation aligns with a spec their tools can parse. {{end}}
 
 
 

@@ -307,12 +307,12 @@ vOAuth 2.0
  5. With APIs, the doc *is* the interface, so it has to be sexy enough to sell the product. 
 * A new direction
 
-## List of about 100 APIs
+## 4.6 List of about 100 APIs
 * A survey of API documentation sites
 * Programmableweb.com: A directory of API doc sites on the open web
 * Look at 5 different APIs
 
-## Breaking down API doc
+## 4.7 Breaking down API doc
 * API docs have tremendous variety
 * No common tooling
 * Similar patterns and structures
@@ -321,7 +321,7 @@ vOAuth 2.0
  2. Tutorials
  3. Reference
 
-## Tool decisions
+## 4.8 Tool decisions
 * Writers tools or developers tools
 * Integrating into engineering tools and workflows
 * Pros of having developers write
@@ -333,7 +333,7 @@ vOAuth 2.0
  * Problem 3: Output doesn't integrate with user guide doc
  * Problem 4: Gives illusion of having complete doc
 
-## Github wikis
+## 4.9 Github wikis
 * Github wikis as complementary repositories to code projects
 * Markdown syntax
 * The wiki repository
@@ -344,7 +344,7 @@ vOAuth 2.0
 * Activity: Save the Github repository locally
 * Activity: Make a change locally, commit it, and push the commit to the Github repository
 
-## More about Markdown
+## 5.0 More about Markdown
 * Markdown overview
 * Development by popular demand versus by committee
 * Why developers love Markdown
@@ -358,7 +358,7 @@ vOAuth 2.0
 * Analyzing a Markdown sample
 * Activity: Write some Markdown on a page
 
-## Version control systems
+## 5.1 Version control systems
 * About version control systems
 * Different types of version control systems
 * The idea of version control
@@ -369,7 +369,7 @@ vOAuth 2.0
 * Activity: Create a branch
 * Activity: Merge the branch through a pull request
 
-## Pull request workflows through Github in the browser
+## 5.2 Pull request workflows through Github in the browser
 * Managing reviews through Github
 * Create a new Github repository
 * Add collaborators to your project
@@ -377,6 +377,78 @@ vOAuth 2.0
 * Create a pull request
 * Process the pull request
 
-## REST API specification formats
+## 5.3 REST API specification formats
 * REST API specifications
 * Should you use an automated solution?
+
+## 5.4 Swagger
+* About Swagger
+* Activity: Create a pet
+* Activity: Find your pet by the ID
+* Sorting out the Swagger components
+* Some sample Swagger implementations
+* Activity: Create a Swagger UI display
+ * Create a Swagger spec file
+ * Set Up the Swagger UI
+ * Upload the Files to a Web Host
+ * Interact with the Swagger UI
+* Auto-generating the Swagger file from code annotations
+
+## 5.5 More about YAML
+* About YAML
+* YAML is a superset of JSON
+* YAML syntax
+* Comparing JSON to YAML
+* Some features of YAML not present in JSON
+
+## 5.6 RAML
+* About RAML
+* Creating a RAML Spec
+* Auto-generating client SDK code
+* Sample spec for Mashape Weather API
+* Outputs
+* Activity: Deliver doc through the Anypoint Platform Developer Portal
+* Activity: Deliver doc through the API Console Project
+* Activity: Deliver doc through the RAML2HTML Utility
+
+## 5.7 API Blueprint
+* API Blueprint is another spec
+* Sample blueprint
+* Parsing the blueprint
+* Create a sample HTML output using API Blueprint and Apiary
+ * a. Create a new Apiary project
+ * b. Interact with the API on Apiary
+* Restlet Studio
+
+## 5.8 Static site generators
+* What are static site generators
+* Static site generators give you a flexible web platform
+* Developing content in Jekyll
+* Activity: Publish the surfreport in a Jekyll theme
+ * Download the Jekyll Aviator theme
+ * Add the weatherdata endpoint doc to the theme
+ * Publish your Jekyll project on CloudCannon
+* What's cool about CloudCannon and Jekyll
+
+## 5.9 Readme.io
+* Software as a service sites
+* No need to spend time developing your own site
+* Activity: Publish endpoint documentation on readme.io
+ * a. Set up a readme.io account
+ * b. Configure API settings
+ * c. Add endpoint documentation
+ * d. Interact with the documentation
+
+## 6.0 Miredot
+* How Miredot works
+* Example annotations
+* Activity: Explore Miredot's output
+
+## 6.1 Custom UX solutions
+* Beautiful API doc sites require front-end design skills
+* When it makes sense to partner with UX
+* Web platform languages
+* Solution at Badgeville
+* Use scripts to generate JSON from source code
+* Import the JSON into your web CMS
+* Developing custom solutions
