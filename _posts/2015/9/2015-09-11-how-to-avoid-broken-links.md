@@ -29,6 +29,8 @@ The main drawback of relationship tables is that your inline links don't appear 
 
 One nice feature with DITA and cross references is that the reference to the link can automatically pull in the title for that page. (This isn't true for static site generators.)
 
+DITA also offers [keyrefs](http://idratherbewriting.com/keyref_links/), which are keys that you define and then reference in your topics. For example, if you define key `a` to be a specific link, then you just refer to `a`  in your text instead of the link. If you need to update the link, you just update what `a` refers to. This approach (called indirect referencing) is most similar to the method I'll later describe using YAML.
+
 ### Tags instead of links
 Some other strategies for avoiding broken links involve using tags instead of links. With tags, the tag page lists all pages containing the tag. With this approach, you're much less likely to have a broken link. If the topic isn't included in the output, that page just won't appear on the tag page listing the links. 
 
