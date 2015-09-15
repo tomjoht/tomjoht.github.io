@@ -27,6 +27,8 @@ There are different types of version control systems. A `centralized` version co
 
 More commonly, software shops use `distributed` version control systems. The most common systems are probably Git and Mercurial. Largely due to Github, Git is the default version control repository for web and open source projects, so we'll be focusing on it more. However, these two systems share the same concepts and workflows. 
 
+<figure><a href="http://github.com"><img src="{{ "/images/restapicourse/githubhomepage.png" | prepend: site.baseurl }}" alt="Github" /></a><figcaption>Github's distributed version control system allows for a phenomenon called "social coding."</figcaption></figure>
+
 Note that Github provides online repositories and tools for Git. However, Git and Github aren't the same.
 
 ## The idea of version control

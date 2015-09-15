@@ -1,5 +1,5 @@
 ---
-title: List of APIs
+title: List of about 100 APIs
 permalink: /pubapis_apilist/
 type: notes_docapis
 weight: 4.6

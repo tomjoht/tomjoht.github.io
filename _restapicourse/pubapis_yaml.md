@@ -10,6 +10,8 @@ weight: 5.5
 ## About YAML
 
 When you created the Swagger file, you used a syntax called YML. YML stands for "YAML Ain't Markup Language." This means that the YAML syntax doesn't have markup tags such as `<` or `>`.
+
+<figure><a href="http://yaml.org/"><img src="{{ "/images/restapicourse/yamlscreenshot.png" | prepend: site.baseurl }}" alt="YAML" /></a><figcaption>The YAML site itself is written using YAML, which you can immediately see is not intended for coding web pages.</figcaption></figure>
  
 YML is easier to work with because it generally removes the brackets, curly braces, and commas that get in the way of reading content. 
 

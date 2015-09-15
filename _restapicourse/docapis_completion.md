@@ -1,5 +1,5 @@
 ---
-title: Course Completion
+title: Next phase of course
 permalink: /docapis_completion/
 categories:
 - api-doc
@@ -11,11 +11,11 @@ type: notes_docapis
 {% include notes.html %}
 
 ## You finished!
-Congratulations, you finished the course. You've learned the core of documenting REST APIs. We haven't covered publishing tools or strategies. Instead, this course has focused on the creating content, which should always be the first consideration.
+Congratulations, you finished the documenting REST APIs section of the course. You've learned the core of documenting REST APIs. We haven't covered publishing tools or strategies. Instead, this part of the course has focused on the creating content, which should always be the first consideration.
 
 ## Summary of what you learned
 
-During this course, you learned the core tasks involved in documenting REST APIs. First, as a developer, you did the following:
+During this part of the course, you learned the core tasks involved in documenting REST APIs. First, as a developer, you did the following:
 
 * How to make calls to an API using cURL and Postman
 * How to pass parameters to API calls
@@ -35,14 +35,9 @@ Then you switched perspectives and approached APIs from a technical writer's poi
 
 Although the technology landscape is broad, and there are many different technology platforms, languages, and code bases, most REST APIs have these same sections in common.
 
-## The next course
+## The next part of the course
 
-Now that you've got the content down, the next step is to focus on publishing strategies for API documentation. This is the focus of my next course. See <a href="{{ "/publishingapidocs" | prepend: site.baseurl }}">Publishing API documentation</a> to get started. 
-
-## Feedback
-
-If you have feedback about the course, please <a class="noCrossRef" href="{{ "/contact" | prepend: site.baseurl }}">send it to me</a>.
-
+Now that you've got the content down, the next step is to focus on publishing strategies for API documentation. This is the focus of the next part of the course. 
 
 
 

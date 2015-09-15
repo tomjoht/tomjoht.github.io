@@ -12,6 +12,12 @@ Static site generators are a breed of website compilers that package up a group 
 
 Jekyll is one of the most popular static site generators. All of my help content is on Jekyll. You can publish a fully functional tech comm website that includes content re-use, conditional filtering, variables, PDF output, and everything else you might need as a technical writer.
 
+Here's the documentation theme that I developed for Jekyll:
+
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="{{ "/images/restapicourse/jekylldocumentationtheme.png" | prepend: site.baseurl }}" alt="My Jekyll Documentation theme" /></a>
+
+There isn't any kind of special API reference endpoint formatting here (yet), but the platform is so flexible, you can do anything with it as long as you know HTML, CSS, and JavaScript (the fundamental language of the web.
+
 ## Static site generators give you a flexible web platform
 
 Static site generators give you a lot of flexibility. They're a good choice if you need a lot of flexibility and control over your site. You're not just plugging into an existing API documentation framework or architecture. You define your own templates and structure things however you want.
@@ -23,6 +29,18 @@ With static site generators, you can do the following:
 * Use a revision control repository workflow
 * Customize the look and feel of the output
 * Insert JavaScript and other code directly on the page
+
+## Developing content in Jekyll
+
+One of the questions people ask about authoring content with static site generators is how you see the output and formatting given that you're working strictly in text. For example, how do you see images, links, lists, or other formatting? 
+
+When you authoring a Jekyll site, you open up a preview server that continuously builds your site with each change you save. I open up my text editor on the left, the auto-generating site on the right. On a third monitor, I usually put the Terminal window so I can see when a new build is done (it takes about 10 seconds for my doc sites).
+
+<img src="{{ "/images/restapicourse/writinginjekyll.png" | prepend: site.baseurl }}" alt="Writing in Jekyll" />
+
+It works fairly well. Granted, I do have a Mac Thunderbolt 21-inch monitor, so it gives me more real estate. On a small screen, you might have to switch back and forth between screens to see the output.
+
+Admittedly, the Markdown format is easy to use but also susceptible to error, especially if you have complicated list formatting. When you have ordered list items separated by screenshots and result statements, and sometimes the result statements have lists themselves or note formatting, it can be a bit tricky to get the display right.
 
 ## Publish the surfreport in a Jekyll theme
 

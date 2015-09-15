@@ -40,9 +40,11 @@ There are some limitations with Github wikis:
 * **Open access on the web**. If your docs need to be private, Github isn't the place to put them.
 * **No structure**. The Github wiki pages give you a blank page and basically allow to add sections. You won't be able to do any advanced styling or sexy-looking interactive API doc.
 
-## Publish a sample file on Github
-
+## Create a Github wiki and publish content on a sample page
+{{activity}}
 In this section, you will create a new Github repo and publish a sample file there.
+
+{{note}} In this section, you'll be using Git commands through your terminal or command prompt. In later tutorials, you'll use the Github Desktop and Github browser tools.{{end}}
 
 1. Go to [Github.com](http://github.com) and either sign in or create an account.
 2. After you're signed in, click the **+** button in the upper-right corner and select **New repository**.
@@ -59,21 +61,23 @@ In this section, you will create a new Github repo and publish a sample file the
 7. Click **Save page**.
 
 ## Save the Github repository locally
+{{activity}}
+1. Set up Github on your computer. 
 
-1. Set up Github on your computer. (See instructions for [Mac](https://help.github.com/articles/set-up-git/#platform-mac) or [Windows](https://help.github.com/articles/set-up-git/#platform-windows)). 
-
-	Installing Github will include all the Git software as well. If you're installing the Windows version, after you install Github, you'll get a special Github Shell shortcut that you can use to work on the command line. You should use that special Github Shell rather than the usual command line prompt. Note that when you use that Github Shell, you can also use more typical Unix commands, such as `pwd` for present working directory instead of `dir` (though both commands will work). 
+	It's easiest to install Git by [installing Github Desktop](https://desktop.github.com/). Installing Github Desktop will include all the Git software as well. 
 	
-	On a Mac, however, you don't get a special Github Shell. Oopen the Terminal in the same way &mdash; go to **Applications > Utilities > Terminal**. 
+	If you're installing the Windows version, after you install Github, you'll get a special Github Shell shortcut that you can use to work on the command line. You should use that special Github Shell rather than the usual command line prompt. Note that when you use that Github Shell, you can also use more typical Unix commands, such as `pwd` for present working directory instead of `dir` (though both commands will work). 
 	
-	You can check to see if you have git already installed by opening a terminal or command prompt and typing `git --version`. 
+	On a Mac, however, you don't get a special Github Shell. Open the Terminal in the same way &mdash; go to **Applications > Utilities > Terminal**. 
+	
+	You can check to see if you have Git already installed by opening a terminal or command prompt and typing `git --version`. 
 	
 2. While viewing your the Github wiki in your browser, look for the "Clone this wiki locally" section on the right. Copy the link. 
 	
 	<img src="{{ "/images/publishingapidocs/clonewikilocally.png" | prepend: site.baseurl }}" alt="Github clone this wiki locally" />
 	
 3. Go back to your terminal. Use the default directory, or browse to a directory where you want to download the repository. 
-4. In your terminal, type the following, but replace the git URL with your own git URL that you copied earlier:
+4. In your terminal, type the following, but replace the git URL with your own git URL that you copied earlier, such as:
 	
 	```
 	git clone https://github.com/tomjohnson1492/weatherapi.wiki.git
@@ -83,8 +87,8 @@ In this section, you will create a new Github repo and publish a sample file the
 	
 5. Navigate to the directory (either using standard ways of browsing for files on your computer or via the terminal) to see the files you downloaded. 
 
-## Make a change locally and commit it to the repository
-
+## Make a change locally, commit it, and push the commit to the Github repository
+{{activity}}
 1. In a text editor, open the Markdown file you downloaded in the github repository. 
 2. Make a small change and save it.
 3. In your terminal, make sure you're in the directory where you downloaded the github project. To look at the directories under your current path, type `ls`. Then use `cd {directory name}` to drill into the folder, or `cd ../` to move up a level.
@@ -115,8 +119,8 @@ In this section, you will create a new Github repo and publish a sample file the
 	<ul>
 	<li><b>Arrow keys:</b> You use your arrow keys to move around. You don't use your mouse.</li>
 	<li><b>Insert mode:</b> If you start typing, vi enters the Insert mode.</li>
-	<li><b>Escaping out of Insert Mode:</b> To escape out of Insert mode, press <b>Esc.</b></li>
-	<li><b>Saving: </b>To save your edits, you need to do a "write quit." Press <b>Ctrl + :</b> Then type <b>wq</b> for "write quit." If you made changes but don't want to save them, type <b>q!</b> for "quit override."</li>
+	<li><b>Escaping out of Insert Mode:</b> To escape out of Insert mode, press your <b>Escape</b> key.</li>
+	<li><b>Saving: </b>To save your edits, you need to do a "write quit." Press <b>Escape</b> to exit Insert mode. Then Press <b>Ctrl + :</b>. Then type <b>wq</b> for "write quit." If you made changes but don't want to save them, type <b>q!</b> for "quit override."</li>
 	</ul>
 	<p>You can also use <a href="http://www.cs.rit.edu/~cslab/vi.html">other vi commands</a>.</p>
 	

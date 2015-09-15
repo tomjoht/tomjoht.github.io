@@ -134,7 +134,7 @@ entries:
         - title: Overview
           url: /pubapis_overview/
           weight: 4.5
-        - title: List of 100 APIs
+        - title: List of about 100 APIs
           url: /pubapis_apilist/
           weight: 4.6
         - title: Breaking down API doc

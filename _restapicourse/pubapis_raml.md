@@ -13,6 +13,8 @@ RAML stands for REST API Modeling Language and is similar to Swagger and other A
 
 Similar to Swagger, once you create a RAML spec, it can be consumed by different platforms to parse and display the information in attractive outputs. The RAML spec tries to be human-readable, efficient, and simple. 
 
+<figure><img src="{{ "/images/restapicourse/ramlexample.png" | prepend: site.baseurl }}" alt="Sample RAML output in API Console" /></a><figcaption>This is a sample RAML output in something called API Console</figcaption></figure>
+
 ## Creating a RAML Spec
 
 You can create a RAML spec file using any text editor, but if you want validation checking, you'll want to use the API Designer in the Mulesoft Any Point Platform. 
@@ -286,7 +288,7 @@ You can also download the same code that generates the output on the Anypoint Pl
 
 1. Download the [API Console code from Github](https://github.com/mulesoft/api-console).
 2. Save your RAML file to some place locally on your computer (such as weather.raml on Desktop). 
-3. In code you downloaded from Github, go to dist/index.html in your browser.
+3. In the code you downloaded from Github, go to dist/index.html in your browser.
 	
 	<img src="{{ "/images/restapicourse/apiconsoleraml.png" | prepend: site.baseurl }}" alt="RAML Console" />
 	
@@ -306,6 +308,14 @@ You can also download the same code that generates the output on the Anypoint Pl
 	```
 	
 	In this example, the RAML file is located in examples/weather.raml.
+
+7. Remove the following line:
+
+	```
+	  <raml-initializer></raml-initializer>
+	```
+	
+View the file in your web browser. Note that if the file doesn't load in Chrome, open it in Firefox. Chrome tends to block local JavaScript for security reasons. 
 
 ## Deliver doc through the RAML2HTML Utility
 
