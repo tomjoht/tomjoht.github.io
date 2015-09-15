@@ -37,7 +37,7 @@ When you install version control software such as Git and initialize a repositor
 
 When you add files to Git and commit them, Git takes a snapshot of that file at that point in time. When you commit another change, Git creates another snapshot. If you decide to revert to an earlier version of the file, you just revert to the particular snapshot. This is the basic idea of versioning content.
 
-## Basic workflow
+## Basic workflow with version control
 
 There are many excellent tutorials on version control on the web, so I'll defer to those tutorials for more details. In short, Git provides several stages for your files. Here's the general workflow:
 
@@ -56,8 +56,8 @@ If you're editing doc annotations in code files, you'll probably follow this sam
 
 Although most developers use the command line when working with version control systems, there are many GUI clients available that may simplify the whole process. GUI clients might be especially helpful when you're trying to see what has changed in a file, since the GUI can better highlight and indicate the changes taking place.
 
-## Follow a typical workflow with a Github project
-
+## Follow a typical workflow with a Github project using Github Desktop
+{{activity}}
 In this tutorial, you'll use Github Desktop to manage the workflow. First download and install [Github Desktop](https://desktop.github.com/). You'll also need a Github account.
 
 1. Go to [Github.com](http://github.com) and create a new repository from the the **Repositories** tab. 
@@ -84,7 +84,7 @@ In this tutorial, you'll use Github Desktop to manage the workflow. First downlo
 You can see the most recent commit there.
 
 ## Create a branch
-
+{{activity}}
 Now let's create a branch, make some changes, and then merge the branch into the master. 
 
 1. Click the **Add a branch** button and create a new branch. Call it something like "tom-edits," but use your own name.
@@ -101,21 +101,23 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	<img src="{{ "/images/restapicourse/newchangestocommitgithub.png" | prepend: site.baseurl }}" alt="New files modified" />
 	
 	However, if you switch to the master branch, you won't see the modified files. That's because you're working in a branch, and so you're changes are associated with that branch. Switching this branch option in Github Desktop changes the working directory of your Github project to the branch.
-	
-4. Now let's merge the branch into the master. Click the **Pull Request** button in the upper-right corner.
+
+## Merge the branch through a pull request
+1. Now let's merge the branch into the master. Click the **Pull Request** button in the upper-right corner.
 	
 	You're shown that you're merging the tom-edits branch into the master. 
 	
- 5. Describe the pull request, and then click **Send Pull Request**.
+2. Describe the pull request, and then click **Send Pull Request**.
 	
 	<img src="{{ "/images/restapicourse/describethepullrequest.png" | prepend: site.baseurl }}" alt="" />
 	
-5. Go to the link shown to evaluate the pull request online. Online you can click the **Files changes** tab to see what files have changed in tom-edit that you are merging into the master.
+3. Go to the link shown to evaluate the pull request online. Online you can click the **Files changes** tab to see what files have changed in tom-edit that you are merging into the master.
 	
-6. Click **Merge Pull Request**.
+4. Click **Merge Pull Request**.
 	
 	<img src="{{ "/images/restapicourse/githubmergepullrequest.png" | prepend: site.baseurl }}" alt="Merging a pull request" />
-7. In your Github Desktop client, select the **master** branch, and then click the **Sync** button.
+	
+5. In your Github Desktop client, select the **master** branch, and then click the **Sync** button.
 	
 	The Sync button pulls the latest changes from the master and updates your working copy to it. You will see the pull request merged. It shows you the lines that have been added in the files. 
 	

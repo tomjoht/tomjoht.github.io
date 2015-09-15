@@ -1,5 +1,5 @@
 ---
-title: "Pull request workflows through Github in browser"
+title: "Pull request workflows through Github in the browser"
 permalink: /pubapis_github_pull_requests/
 course: "Documenting REST APIs"
 type: notes_docapis

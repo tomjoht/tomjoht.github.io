@@ -7,7 +7,7 @@ weight: 4.9
 ---
 {% include notes.html %}
 
-## Github wikis as complementary repositories
+## Github wikis as complementary repositories to code projects
 
 When you create a repository on Github, the repository comes with a wiki that you can add pages to. This wiki can be really convenient if your source code is stored on Github. 
 
@@ -18,7 +18,7 @@ Here's an example of the Basecamp API, which is housed on Github.
 ## Markdown syntax
 You write wiki pages in Markdown syntax. There's a special flavor of Markdown syntax for Github wikis. The [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) allows you to create tables, add classes to code blocks (for proper syntax highlighting), and more.
 
-## The wiki repository path
+## The wiki repository
 
 The wiki you create is its own repository that you can clone locally. (If you look at the "Clone this wiki locally link," you'll see that it's a separate repo from your main code repository.) You can work on files locally and then commit them to the wiki repository when you're ready to publish. 
 

@@ -51,7 +51,7 @@ Markdown has appeal especially by developers for a number of reasons:
 * You can treat the Markdown files with the same workflow and routing as code.
 * Markdown is easy to learn.
 
-### You can work in text-file format using your favorite code editor. 
+### You can work in text-file formats using your favorite code editor
 
 Although you can also work with DITA in a text editor, it's a lot harder to read the code with all the XML tag syntax. For example, look at the tags required by DITA for a simple instruction about printing a page:
 
@@ -89,7 +89,7 @@ In contrast, Markdown allows you to easily read it and work with it in a text ed
 
 {{tip}}Most text editors (for example, Sublime Text or Webstorm or Atom) have Markdown plugins/extensions that will create syntax highlighting based on Markdown tags.{{end}}
 
-### You can treat the Markdown files with the same workflow and routing as code.
+### You can treat the Markdown files with the same workflow and routing as code
 
 Another great thing about Markdown is that you can package up the Markdown files and run them through the same workflow as code. You can run diffs to see what changed, you can insert comments, and exert the same control as you do with regular code files. Working with Markdown files comes naturally to developers.
 
@@ -107,7 +107,7 @@ Markdown has a few drawbacks:
 
 * **White space sensitivity**: Markdown is white space sensitive, which can be frustrating at times. If you have spaces where there shouldn't be, it can cause formatting issues. For example, if you don't indent blank spaces in a list, it will restart the list. As a result, with Markdown formatting, it's easy to make errors. Documents still render as valid even if the Markdown conversion to HTML is problematic. It can be difficult to catch all the errors.
 
-## Using Markdown
+## Markdown has different flavors
 
 Whatever system you adopt, if it uses Markdown, make sure you understand what type of Markdown it supports. There are two components to Markdown. First is the processor that converts the Markdown into HTML. Some processors include Red Carpet, [Kramdown](http://kramdown.gettalong.org/), Pandoc, Discount, and more. 
 

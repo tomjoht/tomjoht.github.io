@@ -15,7 +15,7 @@ The first question about a focus on publishing API documentation might be, *why?
 
 This is a valid question that I want to answer by telling a story.
 
-## My story
+## My story: Turning from DITA to Jekyll
 
 When I first transitioned into developer and API documentation, I had my mind set on using DITA, and I converted a large portion of my content over to it. 
 

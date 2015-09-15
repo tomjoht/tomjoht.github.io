@@ -101,13 +101,13 @@ The following are about 100 openly accessible REST APIs that you can browse as a
 90. [Salesforce Chatter RESt API](https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/)
 91. [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs)
 
-## Programmableweb.com: A directory of API doc sites
+## Programmableweb.com: A directory of API doc sites on the open web
 
-For a directory of API documentation sites, see the [Programmableweb.com](http://www.programmableweb.com/apis/directory). You can browse more than 13,000 web APIs.
+For a directory of API documentation sites on the open web, see the [Programmableweb.com](http://www.programmableweb.com/apis/directory). You can browse more than 13,000 web APIs.
 
 <a href="http://www.programmableweb.com/apis/directory"><img src="{{ "/images/publishingapidocs/programmableweb.png" | prepend: site.baseurl }}" alt="Programmable web directory" /></a>
 
-Note that Programmableweb only lists web APIs, meaning APIs that you can access on the web. They don't list the countless internal, firewalled-off APIs that many companies provide at a cost to paying customers.
+Note that Programmableweb only lists web APIs, meaning APIs that you can access on the web. They don't list the countless internal, firewalled-off APIs that many companies provide at a cost to paying customers. There are many more thousands of firewalled, private APIs out there that most of us will never know about.
 
 ## Look at 5 different APIs
 {{activity}}

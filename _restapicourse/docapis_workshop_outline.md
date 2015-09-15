@@ -295,78 +295,90 @@ vOAuth 2.0
 * The next course
 * Feedback
 
-## 
-* 
-* 
-* 
+## 4.5 Publishing API docs
+* Publishing context
+* Why focus on publishing API docs?
+* My story: Turning from DITA to Jekyll
+* Five reasons why developer doc doesn't use HATs
+ 1. The HAT tooling doesn't match developer workflows and environment
+ 2. HATs won't generate docs from source
+ 3. API doc follows a specific structure and pattern not modeled in any HAT
+ 4. Many APIs have interactive API consoles, allowing you to try out the calls. 
+ 5. With APIs, the doc *is* the interface, so it has to be sexy enough to sell the product. 
+* A new direction
 
-## 
-* 
-* 
-* 
+## List of about 100 APIs
+* A survey of API documentation sites
+* Programmableweb.com: A directory of API doc sites on the open web
+* Look at 5 different APIs
 
-## 
-* 
-* 
-* 
+## Breaking down API doc
+* API docs have tremendous variety
+* No common tooling
+* Similar patterns and structures
+* Three kinds of API doc content
+ 1. Guides
+ 2. Tutorials
+ 3. Reference
 
-## 
-* 
-* 
-* 
+## Tool decisions
+* Writers tools or developers tools
+* Integrating into engineering tools and workflows
+* Pros of having developers write
+ * Avoids documentation drift
+ * Allows the person who creates the code (and so best understands it) to also document it
+* Cons of having developers write
+ * Problem 1: The curse of knowledge
+ * Problem 2: Not task-focused
+ * Problem 3: Output doesn't integrate with user guide doc
+ * Problem 4: Gives illusion of having complete doc
 
-## 
-* 
-* 
-* 
+## Github wikis
+* Github wikis as complementary repositories to code projects
+* Markdown syntax
+* The wiki repository
+* Treating doc as code
+* Working locally allows you to leverage other tools
+* Limitations with Github wikis
+* Activity: Create a Github wiki and publish content on a sample page
+* Activity: Save the Github repository locally
+* Activity: Make a change locally, commit it, and push the commit to the Github repository
 
-## 
-* 
-* 
-* 
+## More about Markdown
+* Markdown overview
+* Development by popular demand versus by committee
+* Why developers love Markdown
+* You can work in text-file format using your favorite code editor
+* Print a page
+ * You can treat the Markdown files with the same workflow and routing as code
+ * Markdown is easy to learn
+* Drawbacks of Markdown
+* Markdown has different flavors
+* Markdown and complexity
+* Analyzing a Markdown sample
+* Activity: Write some Markdown on a page
 
-## 
-* 
-* 
-* 
+## Version control systems
+* About version control systems
+* Different types of version control systems
+* The idea of version control
+* Basic workflow with version control
+* Branching
+* GUI version control clients
+* Activity: Follow a typical workflow with a Github project using Github Desktop
+* Activity: Create a branch
+* Activity: Merge the branch through a pull request
 
-## 
-* 
-* 
-* 
+## Pull request workflows through Github in the browser
+* Managing reviews through Github
+* Create a new Github repository
+* Add collaborators to your project
+* Make edits in a separate branch
+* Create a pull request
+* Process the pull request
 
-## 
-* 
-* 
-* 
+## REST API specification formats
+* REST API specifications
+* Should you use an automated solution?
 
-## 
-* 
-* 
-* 
-
-## 
-* 
-* 
-* 
-
-## 
-* 
-* 
-* 
-
-## 
-* 
-* 
-* 
-
-## 
-* 
-* 
-* 
-
-## 
-* 
-* 
-* 
 {% include restapicourse_next.html %}

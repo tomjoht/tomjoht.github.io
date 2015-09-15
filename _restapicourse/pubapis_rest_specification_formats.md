@@ -6,13 +6,15 @@ type: notes_docapis
 weight: 5.3
 ---
 {% include notes.html %}
+
+## REST API specifications
 In an earlier lesson, I mentioned that REST APIs follow an architectural style, not a specific standard. However, there several REST specifications that have been formulated to try to provide better documentation, tooling, and structure with REST APIs. The three most popular REST API specifications are as follows:
 
 * [Swagger](http://swagger.io/)
 * [RAML](http://raml.org/)
 * [API Blueprint](https://apiblueprint.org/) 
 
-## Should you use a solution
+## Should you use an automated solution?
 
 In a [survey on API documentation](http://idratherbewriting.com/2015/01/06/api-doc-survey-automating-rest-api-documentation/), I asked people if they were automating their REST API documentation through one of these standards. Only about 30% of the people said yes. 
 
