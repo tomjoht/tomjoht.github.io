@@ -15,31 +15,15 @@ Similar to Swagger, once you create a RAML spec, it can be consumed by different
 
 <figure><img src="{{ "/images/restapicourse/ramlexample.png" | prepend: site.baseurl }}" alt="Sample RAML output in API Console" /></a><figcaption>This is a sample RAML output in something called API Console</figcaption></figure>
 
-## Creating a RAML Spec
-
-You can create a RAML spec file using any text editor, but if you want validation checking, you'll want to use the API Designer in the Mulesoft Any Point Platform. 
-
-<img src="{{ "/images/restapicourse/ramlapidesigner.png" | prepend: site.baseurl }}" alt="RAML API Designer" />
-
-To access the API Designer:
-
-1. Log in to [https://anypoint.mulesoft.com](https://anypoint.mulesoft.com). 
-2. Click **APIs** on the top navigation. 
-3. Click **Add new API**. 
-4. Enter a name, version, endpoint (the base URL), and description
-5. Click **Add**. 
-
-You can access all the APIs you are working on in this same space.
-
-To understand the proper syntax and format for RAML, you need to read the [RAML spec](http://raml.org/spec.html) and look at some examples. See also [this RAML tutorial](http://raml.org/docs.html#step-introduction) and this [video tutorial](https://www.youtube.com/embed/5o_nExedezw?autoplay=1).
-
-Even so, the documentation for the RAML spec isn't always so clear. For example, when I was trying to get the right syntax for the security scheme, the information was lacking on how to create security schemes that were based on a custom key in the header. Support from Mulesoft is also heavily dependent on whether you're an actual customer or not. 
-
 ## Auto-generating client SDK code
 
 It's important to note that with these specs (not just RAML), you're not just describing an API to generate a nifty doc output with an interactive console. There are tools that can also generate clients and other code from the spec into a library that you can integrate into your project. These clients allow developers to more easily make requests to your API and receive responses. 
 
 ## Sample spec for Mashape Weather API
+
+To understand the proper syntax and format for RAML, you need to read the [RAML spec](http://raml.org/spec.html) and look at some examples. See also [this RAML tutorial](http://raml.org/docs.html#step-introduction) and this [video tutorial](https://www.youtube.com/embed/5o_nExedezw?autoplay=1).
+
+Even so, the documentation for the RAML spec isn't always so clear. For example, when I was trying to get the right syntax for the security scheme, the information was lacking on how to create security schemes that were based on a custom key in the header. Support from Mulesoft is also heavily dependent on whether you're an actual customer or not. 
 
 Here's the Mashape Weather API formatted in the RAML spec:
 
@@ -254,9 +238,9 @@ You can generate outputs using the RAML spec from a variety of platforms. Here a
 1. Log into the [Anypoint platform](https://anypoint.mulesoft.com/apiplatform).
 2. Click **APIs** on the top navigation. 
 3. Click **Add new API** and complete the details of the dialog box.
-4. Click your API.
+4. Click the API you just added.
 5. In the API Definition box, click **Edit in API Designer**. 
-6. Input your API following the RAML spec here, and then click **Save**.
+6. Input your RAML spec here (copy it from the above section), and then click **Save**.
 7. Click **APIs** on the top navigation, and then click your API.
 8. In the API Portal section, click **Create new portal**.
 9. In the left pane, select **API Reference**. 
@@ -309,6 +293,8 @@ You can also download the same code that generates the output on the Anypoint Pl
 	
 View the file in your web browser. Note that if the file doesn't load in Chrome, open it in Firefox. Chrome tends to block local JavaScript for security reasons. 
 
+{{tip}}Here's a <a href="http://learnapidoc.com/raml/specific.html">sample RAML API Console output</a> that integrates the weather.raml file. Here's a <a href="http://learnapidoc.com/raml/examples/weather.raml">generic RAML API Console</a> that allows you to insert your own RAML spec code.{{end}}
+
 ## Deliver doc through the RAML2HTML Utility
 
 Here's [an example](http://raml2html.leanlabs.io/github) of what the RAML2HTML output looks like.
@@ -333,5 +319,12 @@ To generate this kind of output:
 	Here's the result: 
 	
 	<img src="{{ "/images/restapicourse/raml2htmloutput.png" | prepend: site.baseurl }}" alt="RAML2HTML" />
+	
+	{{tip}}To see this example in your browser, go to <a href="http://learnapidoc.com/raml/examples/index.html">learnapidoc.com/raml/examples/index.html</a>.{{end}}
 
+## Other platforms that consume RAML and Swagger
+<a href="http://studio.restlet.com">Restlet Studio</a> is another platofrm to check out. Restlet Studio can process either Swagger or RAML specs. 
 
+One advantage to using Restlet Studio is that it provides a form where you can assemble the needed spec by populating different form values, which theoretically should make building the RAML or Swagger file easier. 
+
+Exploring more platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. Large platforms that process and display your API documentation can only do so if your documentation aligns with a spec their tools can parse. 

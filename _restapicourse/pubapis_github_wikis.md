@@ -69,26 +69,18 @@ Notice how Github automatically converts the Markdown syntax into HTML with some
 You could use this Github wiki in an entirely browser-based way for multiple people to collaborate and edit content. However, you can also take all the content offline and edit locally, and then reupload all your edits.
 
 ## Save the Github repository locally
-{{activity}}
-1. Set up Git on your computer. 
-
-	{{tip}}It's easiest to install Git by [installing Github Desktop](https://desktop.github.com/). Installing Github Desktop will include all the Git software as well.{{end}}
-	
-	If you're installing the Windows version of Github Desktop, after you install Github, you'll get a special Github Shell shortcut that you can use to work on the command line. You should use that special Github Shell rather than the usual command line prompt. Note that when you use that Github Shell, you can also use more typical Unix commands, such as `pwd` for present working directory instead of `dir` (though both commands will work). 
-	
-	On a Mac, however, you don't need a special Github Shell. Open the Terminal in the same way &mdash; go to **Applications > Utilities > Terminal**. 
-	
-	You can check to see if you have Git already installed by opening a terminal and typing `git --version`. 
-	
+	 
 2. While viewing your the Github wiki in your browser, look for the "Clone this wiki locally" section on the right. Copy the link by clicking the **Copy to clipboard** button. 
 	
 	<img src="{{ "/images/publishingapidocs/clonewikilocally.png" | prepend: site.baseurl }}" alt="Github clone this wiki locally" />
 	
-	You'll notice two options here: "Clone this wiki locally," and "Clone in Desktop." You've probably seen these links every time you visit a Github repo. Exactly what do they mean? To work with a wiki, you clone it. Cloning the wiki gives you a copy of the content on your local machine. Git is *distributed* version control software, so everyone has his or her own copy. 
+	You'll notice two options here: "Clone this wiki locally," and "Clone in Desktop." Cloning the wiki gives you a copy of the content on your local machine. Git is *distributed* version control software, so everyone has his or her own copy. 
 	
 	More than just copying the files, though, when you clone a repo, you initialize Git in the cloned folder. Git starts tracking your edits to the files, providing version control. You can run "pull" commands to get updates of the online repository pulled down to your local copy. You can also commit your changes and then push your changes back up to the repository if you're entitled as a collaborator for the project.
 	
-	The "Clone this wiki locally" link allows you to pop the URL into a `git clone {url}` command in your terminal. Note that the wiki is a separate clone URL than the project's repository. Make sure you're viewing your wiki and not your project.
+	The "Clone this wiki locally" link allows you to easily insert the URL into a `git clone {url}` command in your terminal. 
+	
+	{{note}} Note that the wiki is a separate clone URL than the project's repository. Make sure you're viewing your wiki and not your project.{{end}}
 	
 	In contrast to "Clone this wiki locally," the "Clone in Desktop" option launches the Github Desktop client and allows you to manage the repository and your modified files, commits, pushes, and pull through the Github Desktop client.
 	
@@ -104,6 +96,42 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 	
 5. Navigate to the directory (either using standard ways of browsing for files on your computer or via the terminal) to see the files you downloaded. If you can view invisible files on your machine, you will also see a git folder.
 
+## Set up Git and Github authentication
+{{activity}}
+1. Set up Git on your computer. 
+
+	{{tip}}It's easiest to install Git by <a href="https://desktop.github.com">installing Github Desktop</a>. Installing Github Desktop will include all the Git software as well.{{end}}
+	
+	If you're installing the Windows version of Github Desktop, after you install Github, you'll get a special Github Shell shortcut that you can use to work on the command line. You should use that special Github Shell rather than the usual command line prompt. 
+	
+	Note that when you use that Github Shell, you can also use more typical Unix commands, such as `pwd` for present working directory instead of `dir` (though both commands will work). 
+	
+	On a Mac, however, you don't need a special Git Shell. Open the Terminal in the same way &mdash; go to **Applications > Utilities > Terminal**. 
+	
+	You can check to see if you have Git already installed by opening a terminal and typing `git --version`. 
+
+2. Configure Git with Github authorization.
+	
+	When you commit to Github, you need to be authenticated. You can configure Git with your username and password in a couple of ways. Using Github Desktop, go to **Github Desktop > Preferences** and type the same name and email as you used when you registered for a Github account.
+	
+	You can also [configure Git from the command line](https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git). 
+	
+	From the command line (using the Git Shell on Windows), enter the following:
+	
+	```bash
+	git config --global user.name "YOUR NAME"
+	```
+	
+	And then this:
+	
+	```bash
+	git config --global user.email "YOUR EMAIL ADDRESS"
+	```
+	
+3. If you keep getting prompted for your password, you can [tell Git to use the password stored in your keychain](https://help.github.com/articles/caching-your-github-password-in-git/). 
+
+	However, you may not need to do this because the clone this URL code is smart enough to provide you with the appropriate access (read/write) to the repository you're cloning. See [Cloning with HTTPS (recommended)](https://help.github.com/articles/caching-your-github-password-in-git/) for more details.
+	
 ## Make a change locally, commit it, and push the commit to the Github repository
 {{activity}}
 1. In a text editor, open the Markdown file you downloaded in the github repository. 

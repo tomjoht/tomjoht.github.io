@@ -10,7 +10,7 @@ weight: 5.7
 
 Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)). If you describe your API with this blueprint, then different tools can read and display the information. 
 
-The API Blueprint spec is written in a Markdown-flavored syntax. It's not normal Markdown, but it has a lot of the same, familiar Markdown syntax. However, the blueprint is clearly a very specific schema that is either valid or not valid based on the element names, order, spacing, and other details. In this way, it's not nearly as flexible or forgiving as pure Markdown.
+The API Blueprint spec is written in a Markdown-flavored syntax. It's not normal Markdown, but it has a lot of the same, familiar Markdown syntax. However, the blueprint is clearly a very specific schema that is either valid or not valid based on the element names, order, spacing, and other details. In this way, it's not nearly as flexible or forgiving as pure Markdown. But it may be preferable to YAML.apiary
 
 ## Sample blueprint
 
@@ -208,7 +208,7 @@ You can find [examples of different blueprints here](https://github.com/apiaryio
 
 There are many tools that can parse an API blueprint. [Drafter](https://github.com/apiaryio/drafter) is one of the main parsers of the Blueprint. Many other tools build on Drafter and generate static HTML outputs of the blueprint. For example, [aglio](https://github.com/danielgtaylor/aglio) can parse a blueprint and generate static HTML files.
 
-For a more comprehensive list of tools, see the [Tooling](https://apiblueprint.org/#tooling) section on apiblueprint.org.
+For a more comprehensive list of tools, see the [Tooling](https://apiblueprint.org/#tooling) section on apiblueprint.org. (Some of these tools require quite a few prerequisites, so I omitted the tutorial steps here for generating the output on your own machineapio.)
 
 ## Create a sample HTML output using API Blueprint and Apiary
 {{activity}}
@@ -231,7 +231,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 
 	For this tutorial, you'll integrate the Mashape weather API information info formatted in the blueprint format. 
 	
-4. Copy the following code, which aligns with the API Blueprint spect, and paste it into the Apiary blueprint editor.
+4. Copy the following code, which aligns with the API Blueprint spec, and paste it into the Apiary blueprint editor.
 	
 	```
 	FORMAT: 1A
@@ -389,17 +389,12 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 
 ### b. Interact with the API on Apiary
 {{activity}}
-Interact with the API on Apiary by calling the resources and viewing the responses. 
+In the Apiary's top navigation, click **Documentation**. Then interact with the API on Apiary by clicking **Switch to Console**. Call the resources and view the responses. 
 
-What's cool about Apiary is that you can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key.
-
-This dual display &mdash; both the Example and the Console views &mdash; helps align better with user needs: 
+You can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key. This dual display &mdash; both the Example and the Console views &mdash; might align better with user needs: 
 
 * For users who might not have good data or might not want to make requests that would affect their data, they can view the Example. 
 * For users who want to see how the API specifically returns their data, or certain parameters, they can use the Console view.
-
-{{tip}} <a href="http://studio.restlet.com">Restlet Studio</a> is another platofrm to check out. Restlet Studio can process either Swagger or RAML specs. Exploring more platforms in depth is beyond the scope of this tutorial, but the concept is more or less the same. Large platforms that process and display your API documentation can only do so if your documentation aligns with a spec their tools can parse. {{end}}
-
 
 
 
