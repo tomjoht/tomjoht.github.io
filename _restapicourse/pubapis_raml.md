@@ -33,6 +33,8 @@ You can access all the APIs you are working on in this same space.
 
 To understand the proper syntax and format for RAML, you need to read the [RAML spec](http://raml.org/spec.html) and look at some examples. See also [this RAML tutorial](http://raml.org/docs.html#step-introduction) and this [video tutorial](https://www.youtube.com/embed/5o_nExedezw?autoplay=1).
 
+Even so, the documentation for the RAML spec isn't always so clear. For example, when I was trying to get the right syntax for the security scheme, the information was lacking on how to create security schemes that were based on a custom key in the header. Support from Mulesoft is also heavily dependent on whether you're an actual customer or not. 
+
 ## Auto-generating client SDK code
 
 It's important to note that with these specs (not just RAML), you're not just describing an API to generate a nifty doc output with an interactive console. There are tools that can also generate clients and other code from the spec into a library that you can integrate into your project. These clients allow developers to more easily make requests to your API and receive responses. 
