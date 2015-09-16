@@ -52,6 +52,9 @@ In this section, you will create a new Github repo and publish a sample file the
 	<a href="https://github.com/new"><img src="{{ "/images/publishingapidocs/newrepositorygithub.png" | prepend: site.baseurl }}" alt="Creating a new Github repository" /></a>
 	
 3. Give the repository a name, description, select **Public**, select to **Initialize the repo with a README**, and then click **Create repository**.
+	
+	<img src="{{ "/images/restapicourse/github_new_repo.png" | prepend: site.baseurl }}" alt="Creating a new Github repository" />
+	
 4. Click the **Wiki** link on the right-side of your repository.
 	
 	<img src="{{ "/images/publishingapidocs/githubwikilink.png" | prepend: site.baseurl }}" alt="Github wiki link" />

@@ -23,9 +23,9 @@ If you're working in a text file format, you can integrate your doc authoring an
 
 ## Different types of version control systems
 
-There are different types of version control systems. A `centralized` version control system requires everyone to check out or synchronize files with a central repository when editing them. This setup isn't so common anymore, since working with files on a central server tends to be slow.
+There are different types of version control systems. A _centralized_ version control system requires everyone to check out or synchronize files with a central repository when editing them. This setup isn't so common anymore, since working with files on a central server tends to be slow.
 
-More commonly, software shops use `distributed` version control systems. The most common systems are probably Git and Mercurial. Largely due to Github, Git is the default version control repository for web and open source projects, so we'll be focusing on it more. However, these two systems share the same concepts and workflows. 
+More commonly, software shops use _distributed_ version control systems. The most common systems are probably Git and Mercurial. Largely due to the fact that Github provides repositories for free on the web, Git is the most common version control repository for web and open source projects, so we'll be focusing on it more. However, these two systems share the same concepts and workflows. 
 
 <figure><a href="http://github.com"><img src="{{ "/images/restapicourse/githubhomepage.png" | prepend: site.baseurl }}" alt="Github" /></a><figcaption>Github's distributed version control system allows for a phenomenon called "social coding."</figcaption></figure>
 
@@ -44,7 +44,7 @@ There are many excellent tutorials on version control on the web, so I'll defer 
 1. You must first add any files that you want Git to track. Just because the files are in the initialized Git repository doesn't mean that Git is actually tracking and versioning their changes. Only when you officially "add" files to your Git project does Git start tracking changes to that file.
 2. Any modified files that Git is tracking are said to be in a "staging" area.
 3. When you "commit" your files, Git creates a snapshot of the file at that point in time. You can always revert to this snapshot. 
-4. After you commit your changes, you can "push" your changes to the master. 
+4. After you commit your changes, you can "push" your changes to the master. Once you push your changes to the master, your own working copy and the master branch are back in sync.
 
 ## Branching
 
@@ -55,6 +55,8 @@ If you're editing doc annotations in code files, you'll probably follow this sam
 ## GUI version control clients
 
 Although most developers use the command line when working with version control systems, there are many GUI clients available that may simplify the whole process. GUI clients might be especially helpful when you're trying to see what has changed in a file, since the GUI can better highlight and indicate the changes taking place.
+
+You can also see changes in a text file format, but the `>>>>>` and `<<<<<` tags aren't always that intuitive.
 
 ## Follow a typical workflow with a Github project using Github Desktop
 {{activity}}
@@ -69,7 +71,7 @@ In this tutorial, you'll use Github Desktop to manage the workflow. First downlo
 	
 	Github Desktop should launch (you'll need to allow the application to launch, most likely) and add the newly created repository.
 	
-<img src="{{ "/images/restapicourse/githubrepojustadded.png" | prepend: site.baseurl }}" alt="Repo added to Github Desktop" />
+	<img src="{{ "/images/restapicourse/githubrepojustadded.png" | prepend: site.baseurl }}" alt="Repo added to Github Desktop" />
 	
 4. Go into the repository (using your Finder or browsing folders normally) and add a simple text file with some content. 
 5. Go back to Github Desktop and click the **Uncommitted Changes** link at the top. 
@@ -81,7 +83,7 @@ In this tutorial, you'll use Github Desktop to manage the workflow. First downlo
 6. Type a commit message. 
 7. Click **Commit to Master**. 
 8. Click the **History** tab at the top.
-You can see the most recent commit there.
+You can see the most recent commit there. If you view your repository online, you'll see that the change you made has been pushed to the master.
 
 ## Create a branch
 {{activity}}
@@ -91,7 +93,7 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 	<img src="{{ "/images/restapicourse/addingabranchtom.png" | prepend: site.baseurl }}" alt="Adding a branch" />
 	
-	When you create the branch, you'll see the branch drop-down menu indicate that you're working in that branch. A branch is a copy of the master that exists on a separate line from the master in terms of tracking edits. 
+	When you create the branch, you'll see the branch drop-down menu indicate that you're working in that branch. A branch is a copy of the master that exists on a separate line. You can see that the visual line in Github Desktop branches off to the side when you create a branch. 
 	
 	<img src="{{ "/images/restapicourse/workinginbranch.png" | prepend: site.baseurl }}" alt="Working in a branch" />
 	
@@ -100,10 +102,14 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 	<img src="{{ "/images/restapicourse/newchangestocommitgithub.png" | prepend: site.baseurl }}" alt="New files modified" />
 	
+	The right pane shows the deleted lines in red and new lines in green. This helps you see what changed. 
+	
 	However, if you switch to the master branch, you won't see the modified files. That's because you're working in a branch, and so you're changes are associated with that branch. Switching this branch option in Github Desktop changes the working directory of your Github project to the branch.
+	
+	Switch back to your tom-edits branch.
 
 ## Merge the branch through a pull request
-1. Now let's merge the branch into the master. Click the **Pull Request** button in the upper-right corner.
+1. Now let's merge the tom-edits branch into the master. Click the **Pull Request** button in the upper-right corner.
 	
 	You're shown that you're merging the tom-edits branch into the master. 
 	
@@ -111,11 +117,13 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 	<img src="{{ "/images/restapicourse/describethepullrequest.png" | prepend: site.baseurl }}" alt="" />
 	
-3. Go to the link shown to evaluate the pull request online. Online you can click the **Files changes** tab to see what files have changed in tom-edit that you are merging into the master.
+3. Go to the link shown to evaluate the pull request online. In the browser interface, you can click the **Files changes** tab to see what files have changed in tom-edit that you are merging into the master.
 	
 4. Click **Merge Pull Request**.
 	
 	<img src="{{ "/images/restapicourse/githubmergepullrequest.png" | prepend: site.baseurl }}" alt="Merging a pull request" />
+	
+	The branch gets merged into the master. You can delete the tom-edits branch now if you want.
 	
 5. In your Github Desktop client, select the **master** branch, and then click the **Sync** button.
 	
