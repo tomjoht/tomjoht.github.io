@@ -131,6 +131,60 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 	<img src="{{ "/images/restapicourse/pullrequestmergednow.png" | prepend: site.baseurl }}" alt="Merged pull request" />
 
+
+## Managing conflicts
+
+Suppose you make a change on your local copy of a file in the repository, and someone else changes the same file in conflicting ways and commits it to the repository first. What happens?
+
+When you sync with the repository, you'll see a message prompting you to either discard your changes or to commit them before syncing.
+
+>"Syncing would overwrite your uncommitted changes. Please commit or discard your changes and try again."
+
+If you decide to commit your changes, you'll see a message that says,
+
+>"Please resolve all conflicted files, commit, and then try syncing again."
+
+From the command line, if you run `git status`, it will tell you which files have conflicts. If you open the file with the conflicts, you'll see markers showing you the conflicts. It will look something like this:
+
+<<<<<<<HEAD
+I love carrots.
+=====
+I love bananas.
+>>>>>>>origin/master
+
+In this case, HEAD is your local change. Here you changed the line to "I love carrots." Origin/master shows the change someone else made and already committed to the master: "I love bananas."
+
+Fix all the conflicts by adjusting the content between the content markers and then deleting the content markers. 
+
+Now you need to re-add the file to git again. To add a specific file:
+
+```
+git add home.md
+```
+
+To re-add all files:
+
+```
+git commit -a
+```
+
+Now make a commit and push it to the origin's master branch:
+
+```
+git commit -m "fixed conflicts"
+```
+
+{{activity}}
+
+
+Your options are the following:
+
+* Run `git pull` to merge the other branch into yours, thereby resolving the conflict. 
+* 
+
+
+
+
 {% comment %}
 why use a graphical editor?
 why use sourcetree

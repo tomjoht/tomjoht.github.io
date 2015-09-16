@@ -47,18 +47,10 @@ Here's the Mashape Weather API formatted in the RAML spec:
 title: Mashape Weather API
 baseUri: https://simple-weather.p.mashape.com
 version: v1
-securitySchemes:
-    - mashapeKey:
-        type: x-mashape-key
-        describedBy:
-          headers:
-            X-Mashape-Key:
-              pattern: your-pattern
 
 /aqi:
   get: 
     description: Get the air quality index (AQI). The AQI number indicates the level of pollution in the air. **Higher** numbers are worse.
-    securedBy: [mashapeKey]
     headers:
       x-mashape-key: 
         displayName: Mashape key
@@ -86,7 +78,6 @@ securitySchemes:
 
 /weather:
   get: 
-    securedBy: [mashapeKey]
     headers:
       x-mashape-key: 
         displayName: Mashape key
@@ -113,7 +104,6 @@ securitySchemes:
                28 c, Partly Cloudy at Santa Clara, United States
 /weatherdata:
   get: 
-    securedBy: [mashapeKey]
     headers:
       x-mashape-key: 
         displayName: Mashape key
