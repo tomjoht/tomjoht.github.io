@@ -452,3 +452,42 @@ vOAuth 2.0
 * Use scripts to generate JSON from source code
 * Import the JSON into your web CMS
 * Developing custom solutions
+
+## 6.3 Design patterns 
+* What are design patterns
+* Several design patterns with API docs
+* Some non-patterns
+ 
+## 6.4 Design pattern: Structure and templates
+* Using a template
+* Pushing values into more stylized outputs
+* Templates in Jekyll
+* Templates make it easy to change display globally
+
+## 6.5 Website platform 
+* One integrated website
+* Documentation as product interface
+* Integrating information across the entire site
+
+## 6.6 Code samples
+* Developers love code examples
+* Syntax highlighting
+* Code formatting
+
+## 6.7 Long-ish pages
+* Minimize clicking
+* Examples of long pages
+* Why long pages?
+* Is it a best practice to make long pages?
+
+## 6.8 API interactivity
+* API explorers
+* Novel or actually instructive?
+* Dynamically populated code samples with API keys
+
+## 6.9 Challenging factors
+* Requirements that may cause problems
+
+## 7.0 Tools versus content
+* Don't forget the content
+
