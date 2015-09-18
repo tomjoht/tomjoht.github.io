@@ -11,7 +11,13 @@ layout: default
         {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
         {{content}}
-    {% include disqus.html %}
+{% include social_sharing_buttons.html %}
+
+{% comment %} {% include ziprecruiter_widget.html %}{% endcomment %}
+{% include single_post_ads.html %}
+{% comment %} {% include googleads.html %}{% endcomment %}
+
+        {% include disqus.html %}
 
 </div>
 
