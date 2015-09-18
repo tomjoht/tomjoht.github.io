@@ -15,8 +15,12 @@ layout: default
         {{content}}
 
        {% include restapicourse_next.html %}
+{% include social_sharing_buttons.html %}
 
-        {% if page.type == "homepage" %}{% include single_post_ads.html %}{% endif %}
+{% comment %} {% include ziprecruiter_widget.html %}{% endcomment %}
+{% include single_post_ads.html %}
+{% comment %} {% include googleads.html %}{% endcomment %}
+
         {% include disqus.html %}
 
     </div>
