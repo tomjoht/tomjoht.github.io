@@ -217,5 +217,5 @@ entries:
           url: /platformapis_overview/
           weight:
         - title: Add the sample java project
-          url: /platformapis_add_project/
+          url: /platformapis_acme_project/
           weight:

@@ -1,6 +1,6 @@
 ---
 title: "Overview to Platform APIs "
-permalink: /platform_apis_install_eclipse/
+permalink: /platformapis_overview/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight:
