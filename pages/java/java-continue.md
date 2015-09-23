@@ -8,6 +8,7 @@ categories:
 type: notes_java
 ---
 
+## Quick summary 
 
 * stops current iteration and starts at beginning of loop again
 

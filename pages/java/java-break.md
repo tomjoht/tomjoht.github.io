@@ -25,6 +25,7 @@ Eclipse example: loops. Also see the while_loop example.
 By label, break would be like this:
 
 king:
+
 ```java
 for (int i = 0; i < 8; i++) {
 for (int j = 0; j < 8; j++) {

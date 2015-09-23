@@ -43,7 +43,7 @@ entries:
     - title: Error handling
       items:
         - title: Handling exceptions
-          url: /java-handling/exceptions/
+          url: /java-handling-exceptions/
     - title: Loops
       items:
         - title: Loops

@@ -56,11 +56,11 @@ The format for adding the various element is like this:
 /**
 * [short description]
 * <p>
-    * [long description]
-    *
-    * [author, version, params, returns, throws, see, other tags]
-    * [see also]
-    */
+* [long description]
+*
+* [author, version, params, returns, throws, see, other tags]
+* [see also]
+*/
 ```
 
 Here's a real example of Javadoc comments for a method.

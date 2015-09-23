@@ -11,12 +11,14 @@ type: notes_java
 ## Quick summary
 
 **Abstract classes:**
+
 * abstract classes can't be instantiated, only subclassed.
 * other classes _extend_ abstract classes.
 * can have both abstract and concrete methods.
 * similar to interfaces, but (1) can implement methods, (2) fields can have various access modifiers, and (3) subclasses can only extend one abstract class.
 
 **Abstract methods:**
+
 * abstract method bodies must be empty (no curly braces)
 * subclasses must implement the abstract class's abstract methods
 

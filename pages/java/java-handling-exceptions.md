@@ -11,9 +11,9 @@ type: notes_java
 ## Quick summary
 
 * Try-catch blocks are ways of safeguarding your code from blowing up if there are errors.
-* Java runs the code in the try block; if there's a problem, it runs the code in the catch block and keeps going through the routine. without catch blocks, the entire program would stop if it encountered an error. the catch block handles the error so your program can continue despite errors.
+* Java runs the code in the try block; if there's a problem, it runs the code in the catch block and keeps going through the routine. without catch blocks, the entire program would stop if it encountered an error. The catch block handles the error so your program can continue despite errors.
 * `finally` is a catch block that runs regardless of the error
-* Use catch blocks specific to the type of error you anticipate. there are 50+ type of errors that can be thrown.
+* Use catch blocks specific to the type of error you anticipate. There are 50+ type of errors that can be thrown.
 * Using catch blocks focused on a specific error will help you identify problems with the code
 * Run your more generic catch blocks last; this way your more specific catch blocks will identify the error more accurately.
 

@@ -31,15 +31,14 @@ If you're creating an complex object, the data type is uppercase.
 example:
 
 ```java
-Data newDate = new Date();
+Date newDate = new Date();
 ```
 
 You don't have to initialize the value here, though. You could separate the two activities, just like you do with primitives.
 
 ```java
-Data newDate;
-```
-```java
+Date newDate;
+
 new Date();
 ```
 

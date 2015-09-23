@@ -8,6 +8,8 @@ categories:
 type: notes_java
 ---
 
+## Quick Summary 
+
 * setters refers to a technique for encapsulating a value so that users don't set invalid data types or other incorrect data as a field value.
 
 Eclipse example: getter_and_setter_methods
@@ -16,7 +18,9 @@ Classes have instance variables, but usually users don't need to know which vari
 
 In other words, rather than doing something like this to set the value:
 
+```java
 myObject.name = "Tom";
+```
 
 It's more common to use a setter method as follows:
 
@@ -55,7 +59,7 @@ System.out.println(tomSleepTime.getSleepTime());
 }
 ```
 
-There's a shortcut in Eclipse that makes it very easy to add getters and setters. Right click your class and select Source > Generate Getters and Setters. Here's an example of what it produces:
+There's a shortcut in Eclipse that makes it very easy to add getters and setters. Right click your class and select **Source > Generate Getters and Setters**. Here's an example of what it produces:
 
 ```java
 public class Robot {

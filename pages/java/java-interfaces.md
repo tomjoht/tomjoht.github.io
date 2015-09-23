@@ -11,6 +11,7 @@ type: notes_java
 ## Quick summary
 
 Interfaces:
+
 * Interfaces can't be instantiated
 * Interfaces have methods with no bodies (no {})
 * Subclasses _implement_ interfaces (as many as they want)
