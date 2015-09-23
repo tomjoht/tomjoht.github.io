@@ -6,15 +6,18 @@ type: notes_docapis
 weight:
 ---
 
-1. In Eclipse, go to **File > New > Java Project**.
+1. In Eclipse, go to **File > New > Java Project**. (On Windows, you go to **File > New > Project**. Then the New Project wizard appears. You expand **Java** and select **Java Project**. Click **Next**. acme
 	<img src="{{ "/images/restapicourse/newjavaproject.png" | prepend: site.baseurl }}" alt="Creating a New Java Project in Eclipse" />
 	
-2. Name the project `acme` and then click **Finish**.
+2. Name the project `acme`, accept the other defaults, and then click **Finish**.
+
+You'll see a Open Associated Perspective dialog box. Select **Yes**, since this will give you more controls. 
 1. In the **Project Explorer** (left pane), right-click your project name and select **New > Class**. 
 	
 	<img src="{{ "/images/restapicourse/eclipsenewclass.png" | prepend: site.baseurl }}" alt="Creating a new class" />
 	
-2. Name it ACMESmartphone.java and paste in the following content:
+2. In the **Name** box, type *ACMESmartphone, accept the other defaults, and click **Finish**. 
+3. In the new file that opens, remove the default content added, and then paste in the following content: 
 	
 	```java
 	package acme;
@@ -105,7 +108,8 @@ weight:
 	}
 	```
 	
-2. Right-click the project and select **New > Class**. Name it Dynamite.java and paste in the following content:
+2. Right-click the project and select **New > Class**. Name it **Dynamite**, accept the defaults, and click **Finish**. 
+3. Remove the default content and paste in the following:
 	
 	```java
 	package acme;
@@ -177,4 +181,4 @@ weight:
 	
 4. Click the **Run** button. 
 	
-	<img src="{{ "/images/images/eclipserunbutton.png" | prepend: site.baseurl }}" alt="Eclipse Run button" />
+	<img src="{{ "/images/restapicourse/eclipserunbutton.png" | prepend: site.baseurl }}" alt="Eclipse Run button" />

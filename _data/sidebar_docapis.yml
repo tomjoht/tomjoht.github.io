@@ -211,3 +211,11 @@ entries:
         - title: Tools versus content
           url: /pubapis_tools_vs_content/
           weight: 7.0
+    - title: Platform API documentation
+      items:
+        - title: Overview of platform APIs
+          url: /platformapis_overview/
+          weight:
+        - title: Add the sample java project
+          url: /platformapis_add_project/
+          weight:
