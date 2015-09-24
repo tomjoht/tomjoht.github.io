@@ -1,23 +1,37 @@
 ---
 title: "Adding a Sample Project"
-permalink: /platform_apis_sample_project/
+permalink: /platform_apis_acme_project/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight:
 ---
 
-1. In Eclipse, go to **File > New > Java Project**. (On Windows, you go to **File > New > Project**. Then the New Project wizard appears. You expand **Java** and select **Java Project**. Click **Next**. acme
+## About the sample project
+
+The sample Java project is a simple little application about different tools that a coyote will use to capture a roadrunner. There are two classes (ACMESmartphone and Dynamite) and another class file called App that references the classes. 
+
+This program doesn't really do anything except print little messages to the console, but it's hopefully simple enough to be instructive to someone new to Java. The main purpose of the Java project is to demonstrate different doc tags, their placement, and how they get rendered in the Javadoc.
+
+## Incorporate the project in Eclipse
+
+Although you could download and import the project, because it's so small, I've decided to provide instructions on simply rebuilding it on your own Eclipse project. This way you'll also see how to build your own projects, which is essential if you set about trying to learn Java. 
+
+To recreate the acme project: 
+
+1. If you already have the Java perspective enabled, go to **File > New > Java Project**. If you don't see this option, then the Java perspective is not enabled. Go to **File > New > Project**. In the New Project wizard, expand **Java** and select **Java Project**. Click **Next**. 
+	
 	<img src="{{ "/images/restapicourse/newjavaproject.png" | prepend: site.baseurl }}" alt="Creating a New Java Project in Eclipse" />
 	
 2. Name the project `acme`, accept the other defaults, and then click **Finish**.
-
-You'll see a Open Associated Perspective dialog box. Select **Yes**, since this will give you more controls. 
-1. In the **Project Explorer** (left pane), right-click your project name and select **New > Class**. 
+	
+	If you didn't have the Java perspective active, you'll see a Open Associated Perspective dialog box. Select **Yes**, since this will give you more controls. 
+	
+3. In the **Project Explorer** (left pane), right-click your project name and select **New > Class**. 
 	
 	<img src="{{ "/images/restapicourse/eclipsenewclass.png" | prepend: site.baseurl }}" alt="Creating a new class" />
 	
-2. In the **Name** box, type *ACMESmartphone, accept the other defaults, and click **Finish**. 
-3. In the new file that opens, remove the default content added, and then paste in the following content: 
+4. In the **Name** box, type **ACMESmartphone**, accept the other defaults, and click **Finish**. 
+5. In the new file that opens, remove the default content added, and then paste in the following content: 
 	
 	```java
 	package acme;
@@ -108,8 +122,8 @@ You'll see a Open Associated Perspective dialog box. Select **Yes**, since this 
 	}
 	```
 	
-2. Right-click the project and select **New > Class**. Name it **Dynamite**, accept the defaults, and click **Finish**. 
-3. Remove the default content and paste in the following:
+6. Right-click the project and select **New > Class**. Name the new class **Dynamite**, accept the defaults, and click **Finish**. 
+7. Remove the default content and paste in the following:
 	
 	```java
 	package acme;
@@ -151,7 +165,7 @@ You'll see a Open Associated Perspective dialog box. Select **Yes**, since this 
 	}
 	```
 	
-	3. Right-click the project and select **New > Class**. Name it App.java and paste in the following content:
+8. Right-click the project and select **New > Class**. Name it **App** and paste in the following content:
 	
 	```java
 	package acme;
@@ -179,6 +193,9 @@ You'll see a Open Associated Perspective dialog box. Select **Yes**, since this 
 	}
 	```
 	
-4. Click the **Run** button. 
+9. Click the **Run** button. 
 	
 	<img src="{{ "/images/restapicourse/eclipserunbutton.png" | prepend: site.baseurl }}" alt="Eclipse Run button" />
+	
+	Some text should be printed in the console area.
+
