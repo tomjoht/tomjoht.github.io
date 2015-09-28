@@ -160,7 +160,7 @@ Nothing has so much variety in tech docs as API documentation. Almost no API doc
 
 If dividing API docs into categories, there are probably 3 main categories of publishing:
 
-* Document generators from source code (platform APIs)
+* Document generators from source code (native library APIs)
 * Custom websites
 * Spec-driven approaches (RAML, Swagger)
 * All-in-one API platforms (Apigee, Mulesoft)

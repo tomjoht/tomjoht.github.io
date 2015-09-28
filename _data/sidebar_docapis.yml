@@ -211,11 +211,30 @@ entries:
         - title: Tools versus content
           url: /pubapis_tools_vs_content/
           weight: 7.0
-    - title: Platform API documentation
+    - title: Documenting native library APIs
       items:
-        - title: Overview of platform APIs
-          url: /platformapis_overview/
-          weight:
-        - title: Add the sample java project
-          url: /platform_apis_acme_project/
-          weight:
+        - title: Overview of native library APIs
+          url: /nativelibraryapis_overview/
+          weight: 7.1
+        - title: Getting the Java source
+          url: /nativelibraryapis_getting_the_source/
+          weight: 7.2
+        - title: Java crash course
+          url: /nativelibraryapis_java_crash_course/
+          weight: 7.3
+        - title: Generate a Javadoc
+          url: /nativelibraryapis_create_javadoc/
+          weight: 7.4
+        - title: Javadoc tags
+          url: /nativelibraryapis_javadoc_tags/
+          weight: 7.5
+        - title: Exploring the Javadoc output
+          url: /nativelibraryapis_exploring_javadoc_output/
+          weight: 7.6
+        - title: Doxygen, another document generator
+          url: /nativelibraryapis_doxygen/
+          weight: 7.7
+        - title: Documenting non-reference API docs
+          url: /nativelibraryapis_nonrefdocs
+          weight: 7.8
+

@@ -1,6 +1,6 @@
 ---
 title: "Adding a Sample Project"
-permalink: /platform_apis_acme_project/
+permalink: /nativelibraryapis_acme_project/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight:

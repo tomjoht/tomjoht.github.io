@@ -31,7 +31,7 @@ Diving into these sections will give you a solid understanding of how to documen
 Finally, we dive into different ways to publish REST API documentation, exploring tools and specifications such as API Blueprint, Swagger, RAML, readme.io, Jekyll, and more. You'll learn to leverage templates, build interactive API consoles so users can try out requests and see responses directly in documentation, and learn different ways to host your documentation.
 
 ## Focus of the course is REST APIs
-This course provides a tutorial on documenting REST APIs (not platform APIs such as Java or C++). This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. 
+This course provides a tutorial on documenting REST APIs (not native library APIs such as Java or C++). This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. 
 
 ## Learn with a real example and context
 
@@ -50,10 +50,10 @@ The API landscape is diverse. Sarah Maddox describes these different types of AP
 
 Despite the wide variety, I think there are mostly just two main types of APIs most technical writers interact with:
 
-* Platform APIs, such as APIs for Java, C++, and .NET
+* native library APIs, such as APIs for Java, C++, and .NET
 * REST APIs
 
-With platform APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
+With native library APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
 
 But with REST APIs, you don't deliver any library of files to users. Instead, the users make requests for the resources, and the APIs return responses. REST APIs follows the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
 

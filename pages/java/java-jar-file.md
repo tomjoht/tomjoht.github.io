@@ -31,6 +31,6 @@ If you receive a JAR file from someone, you can add the JAR file directly into y
 
 Here's how you add the JAR to a project in Eclipse. After you create a Java project, create a new folder by going to **File > New > Folder**. Call it "lib". Then import the JAR file into the lib folder by going to **File > Import > General > File**. Alternatively, you could just copy the JAR file manually into that folder by navigating to it in your workspace.
 
-You then need to add the JAR to your class path, which you can do by right-clicking the lib folder and choosing **Build Path > Add to Build Path**. Alternatively, you can add the JAR file to your project by right-clicking your project and selecting **Properties**. In the dialog box, select **Java Build Path**, then click the **Libraries* tab, and then click **Add JARs** and browse to the JAR.
+You then need to add the JAR to your class path, which you can do by right-clicking the lib folder and choosing **Build Path > Add to Build Path**. Alternatively, you can add the JAR file to your project by right-clicking your project and selecting **Properties**. In the dialog box, select **Java Build Path**, then click the **Libraries** tab, and then click **Add JARs** and browse to the JAR.
 
 For details, see section 25 in the [Vogella Eclipse IDE Tutorial](http://www.vogella.com/tutorials/Eclipse/article.html).
