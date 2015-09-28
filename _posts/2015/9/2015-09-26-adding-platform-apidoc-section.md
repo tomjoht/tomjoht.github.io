@@ -6,7 +6,7 @@ keywords:
 summary: "I added a section to my API documentation course on native API documentation. This is an area I'm hoping to develop more expertise in."
 ---
 
-I added a section to my API documentation course on [native library APIs.](http://idratherbewriting.com/nativelibraryapis_overview/). Check it out and let me know what you think.
+I added a section to my API documentation course on [native library APIs](http://idratherbewriting.com/nativelibraryapis_overview/). Check it out and let me know what you think.
 
 By the way, I'm never quite sure what to call these kinds of APIs, but it seems that "native libraries" is better than either platform APIs, library APIs, or class-based APIs for the following reason:
 
