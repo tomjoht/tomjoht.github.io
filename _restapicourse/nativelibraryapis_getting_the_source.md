@@ -10,6 +10,8 @@ weight: 7.2
 
 In order to understand documentation for Java APIs, it helps to have a context of some sort. As such, I created a simple little Java application to demonstrate how the various tags get rendered into the Javadoc.
 
+<a href="https://github.com/tomjohnson1492/acmeproject"><img src="{{ "/images/restapicourse/acmeprojectgithub.png" | prepend: site.baseurl }}" alt="ACME project" /></a>
+
 The sample Java project is a little application about different tools that a coyote will use to capture a roadrunner. There are two classes (ACMESmartphone and Dynamite) and another class file called App that references the classes. 
 
 This program doesn't really do anything except print little messages to the console, but it's hopefully simple enough to be instructive in its purpose &mdash; to demonstrate different doc tags, their placement, and how they get rendered in the Javadoc.

@@ -237,4 +237,10 @@ entries:
         - title: Documenting non-reference API docs
           url: /nativelibraryapis_nonrefdocs
           weight: 7.8
+        - title: My biggest tip: Test everything
+          url: /nativelibraryapis_testeverything/
+          weight:
+        - title: Workshop summary
+          url: /nativelibraryapis_workshopsummary/
+          weight: 8.0
 

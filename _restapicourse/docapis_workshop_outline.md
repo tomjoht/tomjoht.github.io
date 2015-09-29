@@ -491,3 +491,74 @@ vOAuth 2.0
 ## 7.0 Tools versus content
 * Don't forget the content
 
+## 7.1 Overview to native library APIs
+* About native library APIs
+* Do you have to be a programmer to document native library APIs?
+* My approach to teaching native library API doc
+* What you need to install
+
+## 7.2 Getting the Java source
+* About the sample project
+* Clone the source on Github
+* Open the right location in Eclipse
+
+## 7.3 Java in a nutshell
+* Overview
+* About Java
+* Classes
+* Methods
+* Fields
+* Objects
+* Constructors
+* Packages
+* Exceptions
+* Inheritance
+* Interfaces
+* JAR files and WAR files
+* Summary
+
+## 7.4 
+* Javadoc overview
+* Characteristics of Javadoc
+* Generate a Javadoc
+* Javadoc and error checking
+
+## 7.5 Javadoc tags
+* About Javadoc tags
+* Comments versus Javadoc tags
+* Where the Javadoc tag goes
+* What elements you add Javadoc tags to
+* Public versus private modifiers and Javadoc
+* The description
+* Avoid @author
+* Order of tags
+* @param tags
+* @return tag
+* @throws tag
+* Doc comments for constructors
+* Doc comments for fields
+* Cases where you don't need to add doc comments
+* @see tags
+* Links
+* Previewing Javadoc comments
+* More information
+
+## 7.6 Exploring the Javadoc output
+* About the Javadoc output
+* Class summary
+* Class details
+* Other navigation
+
+## 7.7 Doxygen, another document generator
+* Doxygen overview
+* Integrating builds automatically
+* Other document generators
+
+## 7.8 Creating non-ref docs with native library APIs
+* About non-reference docs
+* Reference docs can be an illusion for real doc
+* Reference docs are feature-based, not task-based
+
+## 7.9 Test everything
+
+## 8.0 Workshop completion
