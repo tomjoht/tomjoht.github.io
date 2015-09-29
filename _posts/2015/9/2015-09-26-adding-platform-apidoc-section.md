@@ -3,7 +3,7 @@ title: Added native library API section to API doc course
 categories:
 - api-doc
 keywords: 
-summary: "I added a section to my API documentation course on native library API documentation. This is an area I'm hoping to develop more expertise in."
+summary: "I added a section to my API documentation course on native library API documentation. For technical writers, this is one of the most difficult areas to excel in without a programming background."
 ---
 
 I added a section to my API documentation course on [native library APIs](http://idratherbewriting.com/nativelibraryapis_overview/). Check it out and let me know what you think.
@@ -16,6 +16,6 @@ Admittedly, I have the least experience with native library API documentation, s
 
 At my current job, there was a lot of documentation debt when I arrived. My focus on the native library APIs has been mainly on how to deploy, configure, and call the API instead of the class reference documentation. There are a lot of classes in the API used by a small fraction of users who have yet to complain about the existing engineering-written doc, so it's never been a huge priority to dig into. 
 
-Additionally, the lead engineer is surprisingly articulate and precise with words (even if he's perpetually grumpy and annoyed). Still, this doc is on my to-do list, and someday I'm going to overhaul it all.
+Additionally, the lead engineer is surprisingly articulate and precise with words (despite his grumpy demeanor). Still, this doc is on my to-do list, and someday I'm going to overhaul it all.
 
 
