@@ -1,5 +1,5 @@
 ---
-title: My biggest tip: Test everything
+title: "My biggest tip: Test everything"
 course: "Documenting REST APIs"
 permalink: /nativelibraryapis_testing/
 weight: 7.9
@@ -8,7 +8,7 @@ type: notes_docapis
 
 ## Testing overview
 
-Walking through all the steps in documentation yourself, as a technical writer, is critical to producing good documentation. But the more complex setup you have, the more difficult it can be to walk through all of the steps. Especially with developer documentation, the tasks are not trivial. Still, they are essential to creating user-centered documentation.
+Walking through all the steps in documentation yourself, as a technical writer, is critical to producing good documentation. But the more complex setup you have, the more difficult it can be to walk through all of the steps. Especially with developer documentation, the tasks required to test out your documentation are not trivial. Still, they are essential to creating user-centered documentation. This is my biggest tip for having success as a technical writer creating API documentation: test everything.
 
 <a href="https://flic.kr/p/6Grete"><img src="{{ "/images/restapicourse/testingeverything.jpg" | prepend: site.baseurl }}" alt="Testing everything" /></a>
 
@@ -32,13 +32,13 @@ When you're ready to submit a test call (assuming you have a REST API), you can 
 
 Can you see how just getting the test system set up and ready can be challenging? Still, if you want to write good documentation, this is essential. Good developers know and recognize this need, and so they're usually somewhat accommodating in helping set up a test environment up to get you started. 
 
-For example, I asked an engineer to explain, step-by-step, how I was to connect to an intermediary jump host server required at my work. After explaining how to do it, he made sure that I could successfully connect from a terminal prompt on my own, and I didn't let the discussion go until I was successful. 
+For example, I asked an engineer to explain, step-by-step, how I was to connect to an intermediary jump host server required at my work. This server required a configuration that controlled the responses from the API. After explaining how to do it, he made sure that I could successfully connect from a terminal prompt on my own, and I didn't let the discussion go until I was successful. 
 
 Never let a developer say "Oh, you just do a, b, and c." Then you go back to your station and nothing works, or it's much more complicated than he or she let on.
 
 After I could connect successfully to the intermediary, I documented it in great detail. I even included a list of error messages I encountered and added them to a troubleshooting section.
 
-In setting up the test system, I also learned that part of my documentation was unnecessary. I thought that field engineers would need to configure a database with a particular code themselves, when it turns out that IT operations really does this configuration. I didn't realize this until I started to ask how to configure the database, and an engineer (a different one from the engineer who said the database would need configuration) said that I wouldn't be able to configure that myself.
+In setting up the test system, I also learned that part of my documentation was unnecessary. I thought that field engineers would need to configure a database with a particular code themselves, when it turns out that IT operations really does this configuration. I didn't realize this until I started to ask how to configure the database, and an engineer (a different one from the engineer who said the database would need configuration) said that my audience wouldn't be able to do that configuration, so it shouldn't be in the documentation.
 
 It's little things like that, which you learn as you're going through the process yourself, that make accessing a test environment vital to good documentation.
 
@@ -70,11 +70,11 @@ To *sauté* an onion, you cook onions in butter until they turn soft and translu
 
 The terms can all be confusing if you haven't done much cooking. Sometimes you must *knead* bread, or *cut* butter, or *fold in* flour, or add a *pinch* of salt, or add a cup of *packed* brown sugar, or add some *confectioners* sugar, and so on.
  
-Sure, these terms are cooking 101, but if you're 10-years-old and baking for the first time, this is a world of new terminology. Even measuring a cup of flour is difficult -- does it have to be *exact*, and if so, how do you get it exact? You could use the flat edge of a knife to knock off the top peaks, but someone has to teach you how to do that. When my 10-year-old first started measuring flour, she went to great lengths to get it exactly 1 cup.
+Sure, these terms are cooking 101, but if you're 10-years-old and baking for the first time, this is a world of new terminology. Even measuring a cup of flour is difficult &mdash; does it have to be *exact*, and if so, how do you get it exact? You could use the flat edge of a knife to knock off the top peaks, but someone has to teach you how to do that. When my 10-year-old first started measuring flour, she went to great lengths to get it exactly 1 cup.
  
 The world of software instruction is full of similarly confusing terminology. For the most part, you have to know your audience's general level so that you can assess whether something will be clear.
 
-For example, does a user know how to *clear their cache*, or update *Flash*, or ensure the *JRE* is installed, or clone a git repository? Do the users know how to open a *terminal*, import a *package*, *cd* on the command line, or *chmod* file permissions?
+For example, does a user know how to *clear their cache*, or update *Flash*, or ensure the *JRE* is installed, or clone a git repository? Do the users know how to open a *terminal*, *deploy* a web app, import a *package*, *cd* on the command line, or *chmod* file permissions?
 
 This is why checking over your own instructions by walking through the steps yourself becomes problematic. The first rule of usability is to know the user, and also to recognize that you aren't the user. 
 
@@ -126,7 +126,7 @@ By giving other technical writers the opportunity to test your documentation, yo
 
 What might come out of a user test is more than highlighting shortcomings about poor instruction. You may bring up matters of style, or you might foster great team discussions through innovative approaches to your help. Maybe you've integrated a glossary tooltip that is simply cool, or an embedded series button. When other writers test your instructions, they not only see your demo, they understand how helpful that feature is in a real context.
 
-### Should you watch?
+### Should you watch when users test?
 
 One question in testing users is whether you should watch them in test mode. Undeniably, when you watch users, you put some pressure on them. Users don't want to look stupid when they're following what should be relatively simple instructions.
 
