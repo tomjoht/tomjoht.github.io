@@ -1,7 +1,7 @@
 ---
 title: Workshop summary
-permalink: /nativelibraryapis_workshopsummary/
 course: "Documenting REST APIs"
+permalink: /nativelibraryapis_workshop_summary/
 weight: 8.0
 type: notes_docapis
 ---

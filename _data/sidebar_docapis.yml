@@ -238,9 +238,9 @@ entries:
           url: /nativelibraryapis_nonrefdocs
           weight: 7.8
         - title: "My biggest tip: Test everything"
-          url: /nativelibraryapis_testeverything/
-          weight:
+          url: /nativelibraryapis_test_everything/
+          weight: 7.9
         - title: Workshop summary
-          url: /nativelibraryapis_workshopsummary/
+          url: /nativelibraryapis_workshop_summary/
           weight: 8.0
 
