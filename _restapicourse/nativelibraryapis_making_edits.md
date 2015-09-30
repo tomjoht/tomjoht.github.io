@@ -21,7 +21,7 @@ When you make edits to Javadoc content, look for the following:
 In this exercise, you'll make some edits to the Javadoc tags and see how they get rendered in the output.
 
 ## Make some edits
-
+{{activity}}
 Make some edits to a class and method. Then regenerate the Javadoc and find your changes.
 
 

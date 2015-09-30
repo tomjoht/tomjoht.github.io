@@ -238,13 +238,17 @@ An interface is a class that has methods with no code inside the method. Interfa
 
 ## JAR files and WAR files
 
-The file extension for a class is .java, but when compiled by the Java Development Kit into the Java program, the file becomes .class. The .class file is binary code, which means only computers can read it. 
+The file extension for a class is .java, but when compiled by the Java Development Kit into the Java program, the file becomes .class. The .class file is binary code, which means only computers (in this case, the Java Virtual Machine, or JVM) can read it. 
  
 Developers often package up java files into a JAR file, which is like a zip file for Java projects. When you distribute your Java files, you'll likely provide a JAR file that the developer audience will add to their Java projects. 
  
 Developers will add their JAR to their class path to make the classes available to their project. To do this, you right-click your project and select **Properties**. In the dialog box, select **Java Build Path**, then click the **Libraries** tab. Then click **Add JARs** and browse to the JAR.
 
-A WAR file is a web application archive. A WAR is a compiled application that people deploy on their server to run an application. Whereas the JAR is integrated into a Java project while the developers are actively building the application, the WAR is the deployed program that you run from your server.
+When you deliver a JAR file, developers can use the classes and methods available in the JAR. However, the JAR will not show them the source code, that is, the raw Java files.
+
+If you're distributing a reference implementation that consists of a collection of Java source files (so that developers can see how to integrate your product in Java), you'll probably just send them a zip file containing the project.
+
+A WAR file is a web application archive. A WAR is a compiled application that developers deploy on a server to run an application. Whereas the JAR is integrated into a Java project while the developers are actively building the application, the WAR is the deployed program that you run from your server.
 
 That's probably enough Java to understand the different components of a Javadoc.
 
@@ -263,5 +267,5 @@ Here's a quick summary of the concepts we talked about:
 * **Enum**: a data type offering predefined constants
 * **Subclass**: a class that inherits the fields + methods of another class
 * **JAR file**: a zip-like file containing Java classes
-* **WAR file**j: a compiled Java web application to be deployed on a server
+* **WAR file**: a compiled Java web application to be deployed on a server
 

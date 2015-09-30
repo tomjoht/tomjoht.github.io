@@ -18,6 +18,8 @@ This program doesn't really do anything except print little messages to the cons
 
 ## Clone the source on Github
 
+{{activity}}
+
 One of your immediate challenges to editing Javadoc will be to get the source code into your IDE. The acmeproject is [here on Github](https://github.com/tomjohnson1492/acmeproject). 
 
 First clone the source using version control. We covered some version control basics <a href="{{ "/pubapis_version_control" | prepend: baseurl }}">earlier in the course</a>. 
@@ -35,6 +37,8 @@ If you're working with a specific branch of the doc, you could create a branch a
 (If you don't want to clone the source, you could click **Download ZIP** and download the content manually.)
 
 ## Open the right location in Eclipse
+
+{{activity}}
 
 1. After you've cloned or downloaded the Java project, in Eclipse, go to **File > New Java Project**.
 2. Clear the **Use default location** check box, and then browse to where you cloned the Github project.

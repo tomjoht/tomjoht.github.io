@@ -13,7 +13,7 @@ The sample Java project is a simple little application about different tools tha
 This program doesn't really do anything except print little messages to the console, but it's hopefully simple enough to be instructive to someone new to Java. The main purpose of the Java project is to demonstrate different doc tags, their placement, and how they get rendered in the Javadoc.
 
 ## Incorporate the project in Eclipse
-
+{{activity}}
 Although you could download and import the project, because it's so small, I've decided to provide instructions on simply rebuilding it on your own Eclipse project. This way you'll also see how to build your own projects, which is essential if you set about trying to learn Java. 
 
 To recreate the acme project: 

@@ -18,6 +18,7 @@ Here are some other characteristics of Javadoc:
 * The Javadoc comment style is highly similar to most other document generators.
 
 ## Generate a Javadoc
+{{activity}}
 
 1. Go to **File > Export**.
 2. Expand **Java** and select **Javadoc.** Then click **Next**.
@@ -46,6 +47,8 @@ Here are some other characteristics of Javadoc:
 9. Click **Finish**.
 
 ## Javadoc and error checking
+
+{{activity}} 
 
 Javadoc also checks your tags against the actual code. If you have parameters, exceptions, or returns that don't match up with the parameters, exceptions, or returns in your actual code, then Javadoc will show some warnings.
 

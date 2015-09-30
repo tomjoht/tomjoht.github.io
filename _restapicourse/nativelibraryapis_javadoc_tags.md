@@ -26,7 +26,7 @@ The following are the most common tags used in Javadoc. Each tag has a word that
 | {@link} | Used to create links to other classes or methods. Example: {@link Foo#bar} links to the method `bar` that belongs to the class `Foo`. To link to the method in the same class, just include #bar. |
 | @since 2.0 | The version since the feature was added. |
 | @throws | The kind of exception the method throws. Note that your code must indicate an exception thrown in order for this tag to validate. Otherwise Javadoc will produce an error. @exception is an alternative tag. |
-| @Override  | performs a check to see if the method is an override. used with interfaces and abstract classes.  |
+| @Override  | Used with interfaces and abstract classes. Performs a check to see if the method is an override. |
 
 ## Comments versus Javadoc tags
 
