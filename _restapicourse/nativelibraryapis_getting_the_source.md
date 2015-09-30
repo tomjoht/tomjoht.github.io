@@ -44,3 +44,20 @@ If you're working with a specific branch of the doc, you could create a branch a
 3. Click **Finish**.
 
 The Java files should be visible within your Eclipse IDE.
+
+## Maven
+
+Java projects often have a lot of dependencies on packages that are third-party libraries or at least non-standard Java utilities. Rather than requiring users to download these additional packages and add them to their class manually, developers frequently use Maven to manage the packages.
+
+Maven projects use a pom.xml file that defines the dependencies. Eclipse ships with Maven already installed, so when you import a Maven project and install it, the Eclipse Maven plugin will retrieve all of the project dependencies and add them to your project.
+
+Maven is extremely common, so you should be aware of it when you get the Java source. 
+
+To import a Maven project into Eclipse: 
+
+1. In Eclipse, go to **File > Import > Maven > Existing Maven Projects** and click **Next**.
+2. In the Root Directory field, click **Browse** and browse to the Java project folder (which contains the Maven pom.xml file) and then click **Open**. Then click **Finish** in the dialog box.
+3. In the Project Explorer pane in Eclipse, right-click the Java folder and select **Run as Maven Install**.
+
+Maven retrieves the necessary packages and builds the project. If the build is successful, you will see a "BUILD SUCCESS" message in the console. You then use the source code in the built project.
+

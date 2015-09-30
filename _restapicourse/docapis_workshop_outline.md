@@ -501,6 +501,7 @@ vOAuth 2.0
 * About the sample project
 * Clone the source on Github
 * Open the right location in Eclipse
+* Maven
 
 ## 7.3 Java in a nutshell
 * Overview
@@ -560,5 +561,14 @@ vOAuth 2.0
 * Reference docs are feature-based, not task-based
 
 ## 7.9 Test everything
+* Step 1: Set up a test environment
+* Step 2: Test the instructions yourself
+* Wrestling with assumptions
+* Step 3: Test the instructions against an audience
+* Ask a colleague to try out your instructions
+* Should you watch when users test?
+* Enjoyment benefits from testing
+* Accounting for the necessary time
 
 ## 8.0 Workshop completion
+* Practicum to get real-world experience with API doc

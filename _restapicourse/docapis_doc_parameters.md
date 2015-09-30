@@ -95,6 +95,25 @@ Time values usually follow either the <a href="http://en.wikipedia.org/wiki/ISO_
 
 The Unix time is the number of milliseconds to the current date from January 1, 1970. This number gives you an easy integer to insert into a resource URL, but it's not very readable. In contrast, the ISO-8601 format is more readable but more susceptible to formatting or time zone errors.
 
+## Color coding parameter values
+
+When you list the parameters and endpoint definition, it can help to color code the parameters. This makes it clear what's a parameter and what's not in the endpoint. 
+
+For example, suppose your endpoint definition is as follows:
+
+<div class="endpoint">
+<span class="muted">http://domain.com:port/</span>/service/myendpoint/user/<span class="parameter">{user}</span>/bicycles/<span class="parameter">{bicycles}</span>/
+</div>
+
+| URL Parameter | Description |
+|-------|------|
+| <span class="parameter">user</span> | Here's my description of the user parameter. |
+| <span class="parameter">bicycles</span> | Here's my description of the bicycles parameter. |
+
+By color coding the parameters, it's easy to see it in contrast with the other parts of the URL.
+
+Note that if you're custom-color-coding the parameters, you'll need to skip the automatic syntax highlighting options and just use either your own styles or a general `pre` element. 
+
 ## Construct a table to list the surfreport parameters
 {{activity}}
 For our new surfreport endpoint, look through the parameters available and create a table similar to the one above.

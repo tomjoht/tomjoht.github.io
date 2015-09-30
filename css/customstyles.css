@@ -1013,3 +1013,17 @@ ul#mysidebar li.sublevel a {
 ul#mysidebar li.active a {
     font-color: white;
 }
+
+.endpoint {
+    padding: 15px;
+    background-color: #f0f0f0;
+    font-family: courier;
+    font-size: 110%;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.parameter {
+    font-family: courier;
+    color: red !important;
+}
