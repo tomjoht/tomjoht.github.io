@@ -44,7 +44,7 @@ The tracks for the upcoming STC Summit are as follows:
 * Tools/Technology
 * Training/Research
 
-Interestingly, with the STC Summit, "API documentation" is listed as a possible topic for the Writing/Communication track, rather than being its own separate track (as it was last year). It could be that API doc is a sub-category in one of these other tracks, but I don't see any sessions focused on APIs there.
+Interestingly, with the STC Summit, "API documentation" is listed as a possible topic for the Writing/Communication track, rather than being its own separate track (as it was last year). For other conferences, it could be that API doc is a sub-category in one of the other main tracks, but I don't see any sessions focused on APIs there either.
 
 I'm not downplaying these "mainstream" topics (localization, content strategy, DITA, etc.). They're all good and relevant. But I would've thought API documentation topics might have a larger presence at tech writer conferences.
 
