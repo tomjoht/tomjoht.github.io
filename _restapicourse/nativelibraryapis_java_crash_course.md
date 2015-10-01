@@ -111,7 +111,7 @@ int size;
 }
 ```
 
-Many times fields are "encapsulated" with getter-setter methods, which means their values are set in a protected way. Users call one method to set the field's value, and another method to get the field's value. This way you can avoid having users set improper values or data types for the fields.
+Many times fields are "encapsulated" with getter-setter methods, which means their values are set in a protected way. Users call one method to set the field's value, and another method to get the field's value. This way you can avoid having users set improper values or incorrect data types for the fields.
 
 Fields that are constant throughout the Java project are called ENUMS. Alternatively, the fields are given `public static final` modifiers.
 
@@ -139,7 +139,7 @@ myBicycle.brand = "Trek";
 myBicycle.pedal();
 ```
 
-You probably won't see many objects in the native library. Instead, the developers who implement the API will create objects.
+You probably won't see many objects in the native library. Instead, the developers who implement the API will create objects. However, if you have a reference implementation or sample code on how to implement the API, you will see a lot of objects.
 
 ## Constructors
 
@@ -202,7 +202,9 @@ When packages are contained inside other packages, you access the inner packages
 import transportation.motorless.vehicles.
 ```
 
-Here I would have a transportation package containing a package called motorless containing a package called vehicles. Often package naming conventions are like URLs in reverse.
+Here I would have a transportation package containing a package called motorless containing a package called vehicles. Package naming conventions are like URLs in reverse (com > yoursite > subdomain).
+
+Maven handles package management for Java projects. Maven will automatically go out and get all the package dependencies for a project when you install a Maven project. 
 
 ## Exceptions
 
@@ -244,7 +246,7 @@ Developers often package up java files into a JAR file, which is like a zip file
  
 Developers will add their JAR to their class path to make the classes available to their project. To do this, you right-click your project and select **Properties**. In the dialog box, select **Java Build Path**, then click the **Libraries** tab. Then click **Add JARs** and browse to the JAR.
 
-When you deliver a JAR file, developers can use the classes and methods available in the JAR. However, the JAR will not show them the source code, that is, the raw Java files.
+When you deliver a JAR file, developers can use the classes and methods available in the JAR. However, the JAR will not show them the source code, that is, the raw Java files. For this, users will consult the Javadoc.
 
 If you're distributing a reference implementation that consists of a collection of Java source files (so that developers can see how to integrate your product in Java), you'll probably just send them a zip file containing the project.
 

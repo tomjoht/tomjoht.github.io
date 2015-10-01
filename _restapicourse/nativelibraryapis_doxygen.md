@@ -8,17 +8,21 @@ type: notes_docapis
 
 ## Doxygen overview
 
-An alternative to Javadoc is Doxygen. Doxygen works highly similarly to Javadoc, except that you can process more languages (Java, C++, C#, and more) with it. Doxygen is most commonly used with C++. Additionally, there's a GUI tool that makes it really easy to generate the file.
+An alternative to Javadoc is Doxygen. Doxygen works highly similarly to Javadoc, except that you can process more languages (Java, C++, C#, and more) with it. Doxygen is most commonly used with C++. Additionally, there's a GUI tool (called Doxywizard) that makes it really easy to generate the file. 
 
-Here's Doxygen's front-end GUI generator:
+You can download the Doxywizard tool when you install Doxygen. See the [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html) download page for more information.
+
+Here's Doxygen's front-end GUI generator (Doxywizard):
 
 <img src="{{ "/images/restapicourse/doxygenfrontendgui.png" | prepend: site.baseurl }}" alt="Doxygen front-end GUI generator" />
 
-Here's the output:
+Here's the Doxygen output:
 
 <img src="{{ "/images/restapicourse/doxygensample.png" | prepend: site.baseurl }}" alt="Doxygen Sample" />
 
-Doxygen also allows you incorporate external files written in Markdown. And Doxygen provides a search feature. These are two features that Javadoc lacks.
+By the way, you don't need to use the wizard. You can also just generate Doxygen through a configuration file. This is how developers typically run Doxygen builds from a server.
+
+In contrast to Javadoc, Doxygen also allows you incorporate external files written in Markdown. And Doxygen provides a search feature. These are two features that Javadoc lacks.
 
 Doxygen is maintained by a single developer and, like Javadoc, hasn't changed much over the years. In my opinion, the interface is highly dated and kind of confusing. 
 

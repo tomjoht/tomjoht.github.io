@@ -23,7 +23,9 @@ In previous parts of the course, we focused exclusively on REST APIs. Native lib
 
 Because native library APIs are so dependent on a specific programming language, the documentation is usually written or driven by engineers rather than generalist technical writers. This is one area where it helps to be a former software engineer when doing documentation. 
 
-Even so, technical writers can contribute a lot here in terms of style, consistency, clarity, tagging, and overall professionalism. You know what happens when engineers write &mdash; the content is cryptic and often incomplete. Usually the developer assumes everyone is as knowledgeable as he or she is, and any kind of extra explanatory detail, examples, cross-references, glossaries, or other helpful information is omitted.
+Even so, you don't need to be a programmer. You just need a minimal understanding of the language. Technical writers can contribute a lot here in terms of style, consistency, clarity, tagging, and overall professionalism. 
+
+You know what happens when engineers write &mdash; the content is cryptic and often incomplete. Usually the developer assumes everyone is as knowledgeable as he or she is, and any kind of extra explanatory detail, examples, cross-references, glossaries, or other helpful information is omitted.
 
 ## My approach to teaching native library API doc
 

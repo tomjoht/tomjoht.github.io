@@ -28,4 +28,4 @@ Nevertheless, clearly it is a design pattern to provide this kind of interactivi
 
 If your users log in, you can store their API keys and dynamically populate the calls with API keys. Not doing so seems a bit lazy with the user experience. The API key can most likely be a variable that stores the user's API key. 
 
-However, if you store customer API keys on your site, this might create authentication and login requirements that make your site more complicated. If you have users logging in and dynamically populating the explorer with their API keys, you'll probably need a front-end designer and web developer to pull this off.
+However, if you store customer API keys on your site, this might create authentication and login requirements that make your site more complicated. If you have users logging in and dynamically populating the explorer with their API keys, you'll probably need a front-end designer and web developer to pull this off. [readme.io](http://readme.io) is one of the platforms that allows you to store API keys for users and dynamically populate your code samples with them.

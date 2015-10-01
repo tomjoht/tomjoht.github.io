@@ -32,30 +32,28 @@ git clone https://github.com/tomjohnson1492/acmeproject
 
 Or click **Clone in Desktop** and navigate to the right path in Github Desktop.
 
-If you're working with a specific branch of the doc, you could create a branch and check out the branch. However, we are keeping things simple here. 
-
 (If you don't want to clone the source, you could click **Download ZIP** and download the content manually.)
 
 ## Open the right location in Eclipse
 
 {{activity}}
 
-1. After you've cloned or downloaded the Java project, in Eclipse, go to **File > New Java Project**.
+1. After you've cloned or downloaded the Java project, open Eclipse. Go to **File > New Java Project**.
 2. Clear the **Use default location** check box, and then browse to where you cloned the Github project.
-
-<img src="{{ "/images/restapicourse/importjavaproject.png" | prepend: site.baseurl }}" alt="Import existing Java project" />
-
+	
+	<img src="{{ "/images/restapicourse/importjavaproject.png" | prepend: site.baseurl }}" alt="Import existing Java project" />
+	
 3. Click **Finish**.
+	
+	The Java files should be visible within your Eclipse IDE.
 
-The Java files should be visible within your Eclipse IDE.
-
-## Maven
+## Maven projects
 
 Java projects often have a lot of dependencies on packages that are third-party libraries or at least non-standard Java utilities. Rather than requiring users to download these additional packages and add them to their class manually, developers frequently use Maven to manage the packages.
 
 Maven projects use a pom.xml file that defines the dependencies. Eclipse ships with Maven already installed, so when you import a Maven project and install it, the Eclipse Maven plugin will retrieve all of the project dependencies and add them to your project.
 
-Maven is extremely common, so you should be aware of it when you get the Java source. 
+The sample project doesn't use Maven, but I wanted to add a note about Maven here anyway because chances are if you're getting a Java project from developers, you won't import it in the way previously described. Instead, you'll import it as an existing Maven project.
 
 To import a Maven project into Eclipse: 
 
