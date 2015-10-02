@@ -3,14 +3,14 @@ title: "Question: If you weren't a technical writer, what would you be?"
 categories:
 - beginners
 keywords: 
-summary: "My alternative option to doing technical writing would be to do web design. I'd also like to use my creative talents to finish an API documentation course, among other efforts."
+summary: "My alternative to doing technical writing would be to do web design. I'd also like to use my creative talents to finish an API documentation course, among other efforts."
 ---
 
 A reader asks,
 
 > If you weren't a technical writer, what would you be? Also, is there anything you'd still like to accomplish and experience professionally?
 
-If I weren't a technical writer, I would be a web designer. I love the web and how it has revolutionized and empowered the masses to publish content, interact with each other, find information, build networks, and cross boundaries. I worked as a WordPress consultant on the side of my regular work for about 5 years, before becoming too busy for it. Lately I've put WordPress on the backburner while I focus on Jekyll right now, developing the [Jekyll theme here](https://github.com/tomjohnson1492/documentation-theme-jekyll). 
+If I weren't a technical writer, I would be a web designer. I love the web and how it has revolutionized and empowered the masses to publish content, interact with each other, find information, build networks, and cross boundaries. I worked as a WordPress consultant on the side of my regular job as a technical writer for about 5 years, before becoming too busy for it. Lately I've put WordPress on the backburner while I focus on Jekyll right now, developing the [Jekyll theme here](https://github.com/tomjohnson1492/documentation-theme-jekyll). 
 
 I like having the freedom and capability to control both the authoring and publishing process. However, I currently don't have the expertise to do professional web design. I'm just an amateur hack who takes different pieces of code (such as from Bootstrap) and cobbles them together. If I wanted to be a professional, I'd have to dedicate a lot of time to learning and mastering these technologies.
 

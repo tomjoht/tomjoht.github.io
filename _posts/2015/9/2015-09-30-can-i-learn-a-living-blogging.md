@@ -3,7 +3,7 @@ title: "Question: Can I earn a living blogging?"
 categories:
 - blogging
 keywords: blogging revenue, making money
-summary: "Although you can't earn much direct revenue from blogging, writing a professional blog can be brand you as an expert about your blog's focus. This can open doors for you professionally."
+summary: "Although you can't earn much direct revenue from blogging, writing a professional blog can be brand you as an expert in a specific field. This can open doors for you professionally."
 ---
 
 A reader asks,
@@ -16,6 +16,6 @@ Blogging's real value is in establishing yourself as an expert in a field. This 
 
 So first ask yourself who you want to be. Then write 100 posts on that subject. You'll brand yourself as an expert in that topic, and that will open doors for you.
 
-Technical writing is probably the only lucrative and practical option for English majors. You should consider trying to get short on-site contracts in an urban hub where there are lots of tech companies. 
+Technical writing is probably the most lucrative and practical option for English majors. Consider trying to get short on-site contracts in urban hubs where there are a lot of tech companies. 
 
 Short contracts are fairly common, though they can be tough because you have to be tech savvy and a quick learner, with little benefit for time or other on boarding.
