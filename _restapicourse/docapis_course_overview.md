@@ -10,9 +10,9 @@ type: notes_docapis
 
 ## Documenting REST APIs course
 
-Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using a simple weather API to put a weather forecast on your site.
+Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using some simple weather APIs to put a weather forecast on your site.
 
-As you use the API, you learn about cURL, JSON, endpoints, parameters, data types, authentication, command line, developer console, and other details associated with REST APIs. The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a semi-real scenario.
+As you use the API, you learn about endpoints, parameters, data types, authentication, cURL, JSON, the command line, the developer console, JavaScript, and other details associated with REST APIs. The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a somewhat real scenario.
 
 After you use the API as a developer might, you then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
 
@@ -31,7 +31,9 @@ Diving into these sections will give you a solid understanding of how to documen
 Finally, we dive into different ways to publish REST API documentation, exploring tools and specifications such as API Blueprint, Swagger, RAML, readme.io, Jekyll, and more. You'll learn to leverage templates, build interactive API consoles so users can try out requests and see responses directly in documentation, and learn different ways to host your documentation.
 
 ## Focus of the course is REST APIs
-This course provides a tutorial on documenting REST APIs (not native library APIs such as Java or C++). This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. 
+The initial parts of this course focus on documenting REST APIs. Information about native library APIs such as Java or C++ APIs comes later (and isn't the main emphasis). 
+
+This course is intended to be sequential, walking you through a series of concepts and activities that build on each other. 
 
 ## Learn with a real example and context
 
@@ -41,7 +43,7 @@ Because the purpose of the course is to help you learn, there are numerous activ
 
 You don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. If you do have some familiarity with programming concepts, you can speed through the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.
 
-Note that a lot of the code samples in this course use JavaScript. JavaScript may or may not be a programming language that you actually use when you document REST APIs, but most likely there will be some programming language or another that becomes important to know. JavaScript is one of the most practical and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation.
+Note that some of the code samples in this course use JavaScript. JavaScript may or may not be a programming language that you actually use when you document REST APIs, but most likely there will be some programming language or another that becomes important to know. JavaScript is one of the most practical and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation.
 
 ## Different kinds of APIs
 The API landscape is diverse. Sarah Maddox describes these different types of APIs in her post [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).
@@ -50,7 +52,7 @@ The API landscape is diverse. Sarah Maddox describes these different types of AP
 
 Despite the wide variety, I think there are mostly just two main types of APIs most technical writers interact with:
 
-* native library APIs, such as APIs for Java, C++, and .NET
+* Native library APIs, such as APIs for Java, C++, and .NET
 * REST APIs
 
 With native library APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
@@ -61,7 +63,7 @@ This course focuses mostly on REST APIs.
 
 ## What you'll need
 
-* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC). On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
+* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC), though any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
 * **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's developer console.)
 * **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**
 * **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line.  See the following section for more details on cURL.

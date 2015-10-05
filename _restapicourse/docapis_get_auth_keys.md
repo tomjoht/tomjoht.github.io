@@ -38,6 +38,25 @@ In order to get the authorization keys to use the Mashape API, you'll need to si
 
 4. Open up a text editor and paste the key so that you can easily access it later when you construct a call.
 
+## Get the Aeris Weather API secret and ID
+
+1. Go to [http://www.aerisweather.com](http://www.aerisweather.com) and click **Sign Up** in the upper-right corner.
+2. Select **API Developer**, if it's not already selected. Then click **Sign Up**. (Note that the free version limits the number of requests per day and per minute you can make.)
+3. Click **Checkout**. You're prompted to create an Aeris account.
+4. Complete the fields to create an Aeris account. When finished, you see a message that says "Your subscription has been successfully processed." 
+5. Once you sign up for an account, click **Account** in the upper-right corner.
+	
+	<img src="{{ "/images/restapicourse/aerisaccount.png" | prepend: site.baseurl }}" alt="Aeris account" />
+	
+6. Click **Apps**, and then click **New Application**.
+7. In the dialog box, enter the following:
+ * **Application Name**: My biking app (or something)
+ * **Application Namespace**: localhost
+ * **Company Name**: self
+ * **Website**: local
+ 
+Once your app registers, you should see an ID and secret for the app. Copy this information into a text file, since you'll need it to make requests.
+
 ## Text editor tips
 
 When you're working with code, you use a text editor instead of a rich text editor (which would provide a WYSIWYG interface). Many developers use different text editors. Here are a few choices:

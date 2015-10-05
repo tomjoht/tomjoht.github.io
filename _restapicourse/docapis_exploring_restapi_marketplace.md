@@ -12,9 +12,9 @@ type: notes_docapis
 
 ## Our course scenario: Weather forecast API
 
-In this course, we're going to use an API in the context of a specific use case: retrieving a weather forecast. By first playing the role of a developer using an API, you'll gain a greater understanding of how your audience will use APIs, the type of information they'll need, and what they might do with the information.
+In this course, we're going to use a couple of APIs in the context of a specific use case: retrieving a weather forecast. By first playing the role of a developer using an API, you'll gain a greater understanding of how your audience will use APIs, the type of information they'll need, and what they might do with the information.
 
-Let's say that you're a web developer and you want to add a weather forecast feature to your biking site. You want to allow users who come to your site to see what the weather is like for the week. You want something like this:
+Let's say that you're a web developer and you want to add a weather forecast feature to your biking site. You want to allow users who come to your site to see what the wind is like for biking. You want something like this:
 
 <img src="{{ "/images/restapicourse/restapi_windycall.svg" | prepend: site.baseurl }}" alt="Wind meter conditions for website" />
 
@@ -23,35 +23,27 @@ You don't have your own meteorological service, so you're going to need to make 
 ## Get an idea of the end goal
 {{activity}}
 To give you an idea of the end goal, here's a sample. It's not necessarily styled the same as the mockup, but it answers the question, "How windy is it?" Click the button to see wind details.
-{% if site.print == false %}
 <style>
-   #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
+   #wind_direction, #wind_chill, #wind_speed {color: red; font-weight: bold;}
 </style>
   
 <script>
 function checkWind() { 
 
 var output = $.ajax({
-    url: 'https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236', 
+    url: 'http://api.aerisapi.com/observations/santa%20clara,ca?client_id=ByruDorHEne2JB64BhP1k&client_secret=uBDNO535gYHULH8mqx3skZmU13EV4nIf4GvB6jhY', 
     type: 'GET', 
     data: {}, 
     dataType: 'json',
     success: function(data) {
-        $("#wind_speed").append (data.query.results.channel.wind.speed);
-        $("#wind_direction").append (data.query.results.channel.wind.direction);
-        $("#wind_chill").append (data.query.results.channel.wind.chill);
-        $("#temperature").append (data.query.results.channel.units.temperature);
-        $("#speed").append (data.query.results.channel.units.speed);
-        $(".units").show();
+		$("#wind_speed").append(data.response.ob.windMPH + " MPH");
+        $("#wind_direction").append(data.response.ob.windDir);
+        $("#wind_chill").append(data.response.ob.feelslikeF + " F");
         },
-    error: function(err) { alert(err); },
-    beforeSend: function(xhr) {
-    xhr.setRequestHeader("X-Mashape-Authorization", "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET");
-    }
+    error: function(err) { alert(err); }
 });  
 }
 </script>
-{% endif %}
 
 <button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
 
@@ -63,7 +55,7 @@ var output = $.ajax({
 
 {% if site.print == true %} 
 {{note}} Obviously, PDF doesn't support the HTTP protocol, so you'll need to go online to <a href="http://idratherbewriting.com/docapis_exploring_restapi_marketplace/">Exploring a REST API marketplace"</a> to view this example.{{end}}
-{% endif%}
+{% endif %}
 
 When you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 
 
@@ -71,7 +63,11 @@ Of course, the above example is extremely simple. You could also build an attrac
 
 <a href="https://weather.yahoo.com/united-states/california/santa-clara-2488836/"><img src="{{ "/images/restapicourse/attractiveinterfaceweather.png" | prepend: site.baseurl }}" alt="Sample weather interface" /></a>
 
-## Find the Weather API on Mashape
+## Comparing two APIs
+
+As you learn about APIs, we'll explore two weather APIs at the same time because the differences will highlight both interesting discussion as well as communicate the various differences between APIs with similar purposes. 
+
+## Find the Weather API by fyhao on Mashape
 
 {{activity}}
 
@@ -92,20 +88,29 @@ Explore the APIs available on Mashape and find the weather forecast API:
 
     <a href="https://www.mashape.com/fyhao/weather-13"><img src="{{ "/images/restapicourse/weatherapi_mashape.png" | prepend: site.baseurl }}" alt="Weather API on Mashape" /></a>
 
-## Answer some questions about the API
+## Find the Aeris Weather API
+
+Now let's look at another weather API: The [Aeris Weather API](http://www.aerisweather.com/). In contrast to the simple API on Mashape, this API is much more robust and extensive. You can see that the Aeris Weather API is a professional grade, information-rich API that could empower an entire news service. 
+
+Click **Develop** on the top navigation, then click **Aeris Weather**. Then click **Documentation**. 
+ 
+Now click **Reference**, and then **Endpoints**.
+
+<a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/"><img src="{{ "/images/restapicourse/aerisendpoints.png" | prepend: site.baseurl }}" alt="Aeris Endpoints" /></a>
+
+In the list of endpoints, click **forecasts**. Browse the type of information that is available through this API.
+
+## Answer some questions about the APIs
 {{activity}}
-Spend a little time exploring and getting to know the features and information this weather API provides. Click **Test Endpoint** and see what kind of information comes back.
+Spend a little time exploring and getting to know the features and information that these weather APIs provide. Answer these basic questions:
 
-Answer these basic questions about this weather forecast API:
-
-* What does the API do?
-* How many endpoints does the API have?
-* What does each endpoint do?
+* What does each API do?
+* How many endpoints does each API have?
+* What information do the endpoints provide?
 * What kind of parameters does each endpoint take?
 * What kind of response does the endpoint provide?
 
 These are common questions developers want to know about an API.
-
 
 {{tip}} Sometimes people use API to refer to a whole collection of endpoints, functions, or classes. Other times they use API to refer to a single endpoint. For example, a developer might say, "We need you to document a new API." They mean they added a new endpoint or class to the API, not that they launched an entirely new API service.{{end}}
 

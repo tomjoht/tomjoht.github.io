@@ -11,6 +11,6 @@ I've added a Zip Recruiter feature on my site. You can now search for jobs by cl
 
 Here's what's cool about this feature. Not only are the jobs automatically filtered to your area, when you get email updates about the jobs that match your search, the job email notifications will actually come from tom@idratherbewriting.com.
 
-Of course each time you click a job link through my site or email distrubtion, I get a tiny affiliate commission. If you want to support my site, please sign up for a job alert and click job links from time to time. 
+Of course each time you click a job link through my site or email distribution, I get a tiny affiliate commission. If you want to support my site, please sign up for a job alert and click job links from time to time. 
 
 By the way, if you're looking for a job, one strategy you might try is adding a visual resume to your submission materials. Check out this great example of a [visual resume by Greta Boller](http://www.slideshare.net/gretaboller/greta-boller-and-the-wonderful-practical-visual-resume). I've never done this myself, but I just might if I find myself searching for a job.
