@@ -51,20 +51,22 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	
 7. The Postman code sample needs one more parameter: `dataType`. Add `"dataType": "json"` as parameter in `settings`.
 
-	{{warning}} Make sure you capitalize the `t` in `dataType`.{{end}}
+	{{warning}} Make sure you capitalize the <code>T</code> in <code>dataType</code>.{{end}}
 	
 	Your final code should look like this:
 	
 	```html
 	<html>
-	<head><title>Sample Page</title>
-    <title>Sample Page</title>
+	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<title>Sample Page</title>
 	<script>
 	var settings = {
 	  "async": true,
 	  "crossDomain": true,
 	  "dataType": "json",
-	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",

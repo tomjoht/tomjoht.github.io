@@ -15,7 +15,7 @@ type: notes_docapis
 Remember when we submitted the cURL call back in <a href="{{ "/docapis_make_curl_call" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
 
 ```bash
-  curl --get -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: {api key}' \
+  curl --get -include 'https://simple-weather-2.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: {api key}' \
   -H 'Accept: text/plain'
 ```
 

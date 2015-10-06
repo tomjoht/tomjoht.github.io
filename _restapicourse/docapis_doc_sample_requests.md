@@ -66,7 +66,7 @@ Here's mine:
 
 <h2>Sample request</h2>
 {% highlight bash %}
-curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
+curl --get --include 'https://simple-weather-2.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
   -H 'X-Mashape-Key: {api key}'
   -H 'Accept: application/json'
 {% endhighlight %}

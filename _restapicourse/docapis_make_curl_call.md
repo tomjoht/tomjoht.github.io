@@ -23,12 +23,12 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
 
 	```
-	curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
+	curl --get --include 'https://simple-weather-2.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
 3. If you're on Windows, change the single quotation marks to double quotation marks, and add `-k` as well to work around security certificate issues.
 	
 	```
-    curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
+    curl --get -k --include "https://simple-weather-2.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
     ```
 	
 4. Swap in your own API key.
@@ -43,10 +43,16 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 	
 2. Paste the call you have in your text editor into the command line.
 	
-	My call looks like this:
+	My call for the Mashape Weather API looks like this:
 	
+	```bash
+	  curl --get --include 'https://simple-weather-2.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
-	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
+	
+	For the Aeris Weather observations endpoint, it looks like this:
+	
+	```bash
+	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" "Accept: application/json"
 	```
 	
 3. Press your **Enter** key. 
@@ -61,17 +67,24 @@ The response is just a single number: the air quality index for the location spe
 {{activity}}
 1. Copy the cURL call from your text editor. 
 2. Go to **Start** and type **cmd** to open up the commandline. (If you're on Windows 8, see [these instructions for accessing the commandline](http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm).)
-3. Right-click and then select **Paste** to insert the call. My call looks like this:
+3. Right-click and then select **Paste** to insert the call. My call for the Mashape API looks like this:
  
-	```
-	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
+	```bash
+	curl --get -k --include "https://simple-weather-2.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
 	```
 	
 	{{warning}}Make sure you use double quotes and include the <code>-k</code>. {{end}}
+	
+	For the Aeris endpoint, it looks like this:
+	
+	```bash
+	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" "Accept: application/json"
+	```
 
-	The response looks like this:
+	The response from Mashape looks like this:
 
 	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
+	
 
 ## Single and Double Quotes with Windows cURL requests
 
@@ -79,7 +92,7 @@ Note that if you're using Windows to submit a lot of cURL requests, you'll event
 
 Here's the workaround. If you have to submit body content in JSON, you can store the content in a .JSON file. Then you reference the file with an `@` symbol, like this:
 
-```
+```bash
 curl -H "Content-Type: application/json" -H "Authorization: 123" -X POST -d @mypostbody.json http://endpointurl.com/example
 ```
 
@@ -89,6 +102,6 @@ Here cURL will look in the existing directory for the mypostbody.json file, but 
 
 {{activity}}
 
-Make a cURL request for each of the weather endpoints, similar to how you made the requests in Postman.
+Make a cURL request for each of the weather endpoints for both the Mashape weather endpoints and the Aeris Weather endpoints, similar to how you made the requests in Postman.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Access the JSON values
+title: Access and print a specific JSON value
 permalink: /docapis_access_json_values/
 categories:
 - api-doc
@@ -27,7 +27,7 @@ The dot (`.`) after `data` (the name of the JSON payload) is how you access the 
 To pull out the description element from the JSON response and display it on the page, add this to your code sample, right below the `console.log(response)` part:
 
 ```js
-console.log (data.query.results.channel.item.description);
+console.log(data.query.results.channel.item.description);
 ```
 
 Your code should look like this:
@@ -81,7 +81,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
       "async": true,
       "crossDomain": true,
       "dataType": "json",
-    "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+    "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
       "method": "GET",
     "headers": {
       "accept": "application/json",

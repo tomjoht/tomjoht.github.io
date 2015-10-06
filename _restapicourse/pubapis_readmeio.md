@@ -38,7 +38,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 
 	This is where you add the authentication information necessary for making calls to the API.
 
-2. For the API Base URL, enter **`https://simple-weather.p.mashape.com`**.
+2. For the API Base URL, enter **`https://simple-weather-2.p.mashape.com`**.
 3. Leave the other settings not mentioned here at the defaults.
 4. In the Static Headers section, click **Add Header** add these two headers as key-value pairs in the appropriate fields: 
 	

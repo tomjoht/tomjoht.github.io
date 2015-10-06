@@ -53,7 +53,7 @@ entries:
         - title: Log JSON to the console
           url: /docapis_json_console/
           weight: 2.1
-        - title: Access the JSON values
+        - title: Access and print a specific JSON value
           url: /docapis_access_json_values/
           weight: 2.2
         - title: Diving into dot notation

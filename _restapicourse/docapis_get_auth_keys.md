@@ -43,7 +43,7 @@ In order to get the authorization keys to use the Mashape API, you'll need to si
 1. Go to [http://www.aerisweather.com](http://www.aerisweather.com) and click **Sign Up** in the upper-right corner.
 2. Select **API Developer**, if it's not already selected. Then click **Sign Up**. (Note that the free version limits the number of requests per day and per minute you can make.)
 3. Click **Checkout**. You're prompted to create an Aeris account.
-4. Complete the fields to create an Aeris account. When finished, you see a message that says "Your subscription has been successfully processed." 
+4. Complete the fields and create an Aeris account. When finished creating the account, you'll see a message that says "Your subscription has been successfully processed." 
 5. Once you sign up for an account, click **Account** in the upper-right corner.
 	
 	<img src="{{ "/images/restapicourse/aerisaccount.png" | prepend: site.baseurl }}" alt="Aeris account" />

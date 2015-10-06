@@ -279,7 +279,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 	<div class="code-viewer">
 	
 	<pre data-language="cURL">
-	curl --get --include 'https://simple-weather.p.mashape.com/weatherdata?lat=1.0&lng=1.0' \
+	curl --get --include 'https://simple-weather-2.p.mashape.com/weatherdata?lat=1.0&lng=1.0' \
 	  -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' \
 	  -H 'Accept: application/json'
 	  </pre>
