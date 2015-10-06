@@ -108,7 +108,7 @@ For the sake of variety, here's the same call made in Paw:
 
 Paw also allows you to easily see the request headers, response headers, URL parameters, and other data.
 
-## Enter the requests for Aeris API
+## Enter several requests for the Aeris API into Postman
 
 Now let's switch APIs a bit and see some weather information from the Aeris API. Constructing the endpoints for the Aeris Weather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint. (Some locations have the information, and others don't.)
 
@@ -123,7 +123,7 @@ http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id={client id}&clie
 Get the weather forecast for your area:
 
 ```
-http://api.aerisapi.com/observations/Santa+Clara,CA?client_id={client id}&client_secret={client secret}&limit=1```
+http://api.aerisapi.com/observations/Santa+Clara,CA?client_id={client id}&client_secret={client secret}&limit=1
 ```
 
 Find the wind speed and compare it with the wind from the Mashape API. Are they the same?
