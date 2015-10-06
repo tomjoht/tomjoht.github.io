@@ -72,7 +72,7 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
 
     {{tip}} Feel free to run this same request a few times more. REST APIs are "idempotent," which means that running the same request more than once won't end up duplicating the results (you just create one pet here, now multiplet pets). Todd Fredrich explains idempotency by <a href="http://www.restapitutorial.com/lessons/idempotency.html">comparing it to a pregnant cow</a>. Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session. {{end}}
 
-## Update your pet
+### Update your pet
 {{activity}}
 Guess what, your pet hates its name. Change your pet's name to something more formal using the update pet method.
 
@@ -83,7 +83,7 @@ Guess what, your pet hates its name. Change your pet's name to something more fo
     curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d @mypet.json "http://petstore.swagger.io/v2/pet"
     ```
 
-## Get your pet's name by ID
+### Get your pet's name by ID
 {{activity}}
 Now you want to find your pet's name by passing the ID into the `/pet/{petID}` endpoint.
 
@@ -123,7 +123,7 @@ Now you want to find your pet's name by passing the ID into the `/pet/{petID}` e
     }
     ```
 
-## Delete your pet
+### Delete your pet
 {{activity}}
 Unfortunately, your pet has died. It's time to delete your pet from the pet registry. &lt;cry + tears / &gt;
 

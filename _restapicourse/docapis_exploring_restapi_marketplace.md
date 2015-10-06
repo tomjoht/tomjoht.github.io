@@ -28,35 +28,39 @@ To give you an idea of the end goal, here's a sample. It's not necessarily style
 </style>
   
 <script>
-function checkWind() { 
-
-var output = $.ajax({
-    url: 'http://api.aerisapi.com/observations/santa%20clara,ca?client_id=ByruDorHEne2JB64BhP1k&client_secret=uBDNO535gYHULH8mqx3skZmU13EV4nIf4GvB6jhY', 
-    type: 'GET', 
-    data: {}, 
-    dataType: 'json',
-    success: function(data) {
-        $("#wind_speed").append(data.response.ob.windMPH + " MPH");
-        $("#wind_direction").append(data.response.ob.windDir);
-        $("#wind_chill").append(data.response.ob.feelslikeF + " F");
-        },
-    error: function(err) { alert(err); }
-});  
+function checkWind() {
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "dataType": "json",
+  "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+    "method": "GET",
+  "headers": {
+    "accept": "application/json",
+    "x-mashape-key": "WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET"
+  }
+}
+$.ajax(settings)
+.done(function (response) {
+    console.log(response);
+    $("#wind_speed").append (response.query.results.channel.wind.speed);
+    $("#wind_direction").append (response.query.results.channel.wind.direction);
+    $("#wind_chill").append (response.query.results.channel.wind.chill);
+    $("#temperature").append (response.query.results.channel.units.temperature);
+    $("#speed").append (response.query.results.channel.units.speed);
+  });
 }
 </script>
-
-<button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
-
+<button type="button" onclick="checkWind()" class="btn btn-danger weatherbutton">Check wind conditions</button>
 <h2>Wind conditions for Santa Clara</h2>
-
 <b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span></br>
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
 <b>Wind direction: </b><span id="wind_direction"></span>
 
 You can view the same code in a separate window here:
 
+* <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank">Mashape API example</a>
 * <a href="{{ "/files/restapicourse/wind-aeris.html" | prepend: site.baseurl }}" alt="Aeris example" target="_blank">Aeris Weather API example</a>
-* <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank >Mashape API example</a>
 
 {% if site.print == true %} 
 {{note}} Obviously, PDF doesn't support the HTTP protocol, so you'll need to go online to <a href="http://idratherbewriting.com/docapis_exploring_restapi_marketplace/">Exploring a REST API marketplace"</a> to view this example.{{end}}
