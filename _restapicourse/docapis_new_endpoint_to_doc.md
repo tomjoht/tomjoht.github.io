@@ -14,7 +14,9 @@ type: notes_docapis
 
 Until this point, you've been acting as a developer with the task of integrating the weather data into your site. The point was to help you understand the type of information developers need, and how they use APIs.
 
-Now let's shift perspectives. Now you're now a technical writer working with the weather API team. The team is asking you to document a new endpoint. 
+Now let's shift perspectives. Now you're now a technical writer working with the Mashape weather API team. The team is asking you to document a new endpoint. 
+
+{{note}} For this exercise, you could equally document a new endpoint for the Aeris Weather API, but since that API is already quite robust, we'll keep it simple and work with the more minimalist Mashape weather API.{{end}}
 
 ## You have a new endpoint to document
 {{activity}}

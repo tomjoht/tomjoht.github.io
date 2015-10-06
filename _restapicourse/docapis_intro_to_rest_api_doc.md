@@ -10,6 +10,22 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
+## Different kinds of APIs
+The API landscape is diverse. To get a taste of this variety, check out Sarah Maddox's post about [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).
+
+<a href="https://ffeathers.wordpress.com/2014/02/16/api-types/"><img src="{{ "/images/publishingapidocs/apitypes.png" | prepend: site.baseurl }}" alt="API Types" /></a>
+
+Despite the wide variety, I think there are mostly just two main types of APIs most technical writers interact with:
+
+* Native library APIs, such as APIs for Java, C++, and .NET
+* REST APIs
+
+With native library APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
+
+With REST APIs, you don't deliver any library of files to users. Instead, the users make requests for the resources, and the APIs return responses. REST APIs follows the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
+
+This course focuses mostly on REST APIs because they're more accessible to technical writers, as well as more popular and in demand.
+
 ## Programmableweb API survey rates doc #1 factor in APIs
 
 Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation market in general.

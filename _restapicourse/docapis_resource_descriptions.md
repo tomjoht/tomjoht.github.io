@@ -49,7 +49,7 @@ The [EventBrite API](https://www.eventbrite.com/developer/v3/endpoints/events/ s
 
 <a href="https://www.eventbrite.com/developer/v3/endpoints/events/"><img src="{{ "/images/restapicourse/eventbriteobjects.png" | prepend: site.baseurl }}" alt="Eventbrite" /></a>
 
-{{tip}} Remember the distinction between resources and endpoitns. A resource (or "object") can have many different endpoints and methods you can use with it. When you're writing documentation, it probably makes sense to group content by resources and then list the available endpoints for each resource on the resource's page, or as subpages under the resource.{{end}}
+{{tip}} Remember the distinction between resources and endpoints. A resource (or "object") can have many different endpoints and methods you can use with it. When you're writing documentation, it probably makes sense to group content by resources and then list the available endpoints for each resource on the resource's page, or as subpages under the resource.{{end}}
 
 This simple example with the Mashape Weather API, however, just has three different endpoints. There's not a huge reason to separate out endpoints by resource.
 

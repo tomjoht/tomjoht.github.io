@@ -24,7 +24,7 @@ You don't have your own meteorological service, so you're going to need to make 
 {{activity}}
 To give you an idea of the end goal, here's a sample. It's not necessarily styled the same as the mockup, but it answers the question, "How windy is it?" Click the button to see wind details.
 <style>
-   #wind_direction, #wind_chill, #wind_speed {color: red; font-weight: bold;}
+   #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
 </style>
   
 <script>
@@ -36,7 +36,7 @@ var output = $.ajax({
     data: {}, 
     dataType: 'json',
     success: function(data) {
-		$("#wind_speed").append(data.response.ob.windMPH + " MPH");
+        $("#wind_speed").append(data.response.ob.windMPH + " MPH");
         $("#wind_direction").append(data.response.ob.windDir);
         $("#wind_chill").append(data.response.ob.feelslikeF + " F");
         },
@@ -52,6 +52,11 @@ var output = $.ajax({
 <b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span></br>
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
 <b>Wind direction: </b><span id="wind_direction"></span>
+
+You can view the same code in a separate window here:
+
+* <a href="{{ "/files/restapicourse/wind-aeris.html" | prepend: site.baseurl }}" alt="Aeris example" target="_blank">Aeris Weather API example</a>
+* <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank >Mashape API example</a>
 
 {% if site.print == true %} 
 {{note}} Obviously, PDF doesn't support the HTTP protocol, so you'll need to go online to <a href="http://idratherbewriting.com/docapis_exploring_restapi_marketplace/">Exploring a REST API marketplace"</a> to view this example.{{end}}
