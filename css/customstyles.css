@@ -980,10 +980,11 @@ ul#mysidebar li.active a {
     color: red !important;
 }
 
-
+.col-md-9 img {
+    max-width: 700px;
+}
 /* media queries */
 
-/*@media (max-width: 970px)*/
 
 @media only screen and (max-width: 980px), only screen and (max-device-width: 980px){
     /* mobile sidebar area, mobile top banner ad area */
