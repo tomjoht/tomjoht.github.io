@@ -100,6 +100,8 @@ The following are about 100 openly accessible REST APIs that you can browse as a
 89. [Livefyre API](http://answers.livefyre.com/developers/api-reference/)
 90. [Salesforce Chatter RESt API](https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/)
 91. [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs)
+92. [Github](https://developer.github.com/v3/issues/comments/#create-a-comment)
+93. [Context.io](https://context.io/docs/lite/users/email_accounts)
 
 ## Programmableweb.com: A directory of API doc sites on the open web
 
