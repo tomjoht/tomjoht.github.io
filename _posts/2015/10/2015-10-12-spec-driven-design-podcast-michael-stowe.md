@@ -7,7 +7,7 @@ keywords:
 summary: "Spec-driven development is an approach to developing REST APIs by first describing and prototyping the API through a specification file (such as RAML or Swagger), and then coding the API. The spec not only serves as a contract for the API's development, it can also generate interaction documentation, unit tests, client SDKs, and provide other benefits."
 ---
 <style>
-b {font-size:110%;}
+b {font-size:115%;}
 </style>
 {% include notes.html %}
 
