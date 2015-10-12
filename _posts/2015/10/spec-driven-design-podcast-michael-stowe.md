@@ -1,5 +1,5 @@
 ---
-title: Podcast: Spec-driven Design of REST APIs, with a focus on RAML &mdash; interview with Michael Stowe 
+title: "Podcast: Spec-driven Development of REST APIs, with a focus on RAML &mdash; interview with Michael Stowe"
 categories:
 - api-doc
 - podcasts
