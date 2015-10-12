@@ -6,7 +6,9 @@ categories:
 keywords: 
 summary: "Spec-driven development is an approach to developing REST APIs by first describing and prototyping the API through a specification file (such as RAML or Swagger), and then coding the API. The spec not only serves as a contract for the API's development, it can also generate interaction documentation, unit tests, client SDKs, and provide other benefits."
 ---
-
+<style>
+b {font-size:110%;}
+</style>
 {% include notes.html %}
 
 {{note}} If you're in the Bay area, come listen to Michael Stowe speak tonight (Monday, Oct 12) at the STC Silicon Valley chapter in Santa Clara. See the <a href="http://www.stc-siliconvalley.org/2014/10/09/october-12-2015-spec-driven-development-raml-api-documentation/">meeting details here</a>.{{end}}
@@ -51,7 +53,7 @@ Some of the topics covered in the podcast include the following:
 
 I also created a transcript of the podcast below. (My questions are in bold; his responses are in normal font.)
 
-** Tom: You're listening to another podcast from Idratherbewriting.com. My name is Tom Johnson. Today I'm talking with Michael Stowe, who is the author of *Undisturbed REST: The guide to designing the perfect API*. Michael, can you tell me a little bit about yourself and your book?**
+**Tom: You're listening to another podcast from Idratherbewriting.com. My name is Tom Johnson. Today I'm talking with Michael Stowe, who is the author of *Undisturbed REST: The guide to designing the perfect API*. Michael, can you tell me a little bit about yourself and your book?**
 
 First of all thank you for having me on your podcast here. I was engineer for about 10 years, and actually the reason I wrote the book was a little bit selfish. I kept using APIs that were a bit difficult to use.  I felt that there were a lot of different conventions out there. 
 
