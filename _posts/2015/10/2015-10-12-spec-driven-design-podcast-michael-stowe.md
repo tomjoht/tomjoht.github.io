@@ -48,6 +48,10 @@ Some of the topics covered in the podcast include the following:
 * [RAML](http://raml.org/)
 * [Undisturbed REST: The guide to designing the perfect API](http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1) (on Amazon)
 * [Undisturbed REST: The guide to designing the perfect API*](https://www.mulesoft.com/lp/ebook/api/restbook) (Free PDF download)
+* [APImatic.io](http://apimatic.io)
+* [Spotify API Console](https://developer.spotify.com/web-api/console/) (example of RAML API Console)
+* [Swagger](http://swagger.io/)
+* [API Blueprint](https://apiblueprint.org/)
 
 ## Podcast transcript
 
@@ -219,7 +223,7 @@ The problem is that these inconsistencies often break backwards compatibility, a
 
 For other companies, that's not the case. When you break backwards compatibility, you have support issues, you have maintenance issues, you have to upgrade people, you have to version. RAML was designed to eliminate a lot of the efficiencies of the API design process. It's a matter of looking at what we can gain from it. Can we design more quickly? Can we code more quickly? Can we design more efficiently? Can we make sure we're meeting our customer's needs? Can we generate content more quickly and let our technical writers do what they excel at doing, providing even more and even greater experiences. 
 
-On the technical documentation side, one of the best technical documents I've ever seen is Spotify, which is based on RAML. They used that spec to generate their documentation and the live try-its. For the SDK generation, you can hire developers or ask your developers to write SDKs and code libraries in 15 different languages, or you can automate the service and generate them on the fly from the spec. 
+On the technical documentation side, one of the best technical documents I've ever seen is Spotify, which is based on RAML. They used that spec to generate their documentation and the live try-its. For the SDK generation, you can hire developers or ask your developers to write SDKs and code libraries in 15 different languages, or you can a service such as [APImatic.io](http://apimatic.io) to generate them on the fly from the spec. 
 
 With testing, again you can spend hours and hours writing unit tests, or you can quickly create the tests with literally a quick shell command that generates it from the spec and also open up a world of possibility with the services such as API Science or API Fortress or Smartbear. The list goes on and on. 
 
