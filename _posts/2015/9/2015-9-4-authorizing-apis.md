@@ -30,15 +30,15 @@ An API might authenticate you but not authorize you to make a certain request.
 There are many different ways to enforce authentication and authorization with the API requests. Enforcing this authentication and authorization is vital. Consider the following scenarios if you didn't have any kind of security with your API:
 
 * Users could make unlimited amounts of API calls without any kind of registration, making a revenue model associated with your API difficult.
-* You couldn't track who is using your API, or what endpoints are most used
-* Someone could possibly make malicious DELETE requests on another person's data through API calls
-* The wrong person could intercept or access private information and steal it
+* You couldn't track who is using your API, or what endpoints are most used.
+* Someone could possibly make malicious DELETE requests on another person's data through API calls.
+* The wrong person could intercept or access private information and steal it.
 
 Clearly, API developers must think about ways to make APIs secure. There are quite a few different methods. I'll explain a few of the most common ones here.
 
 ## API keys
 
-Most APIs require you to sign up for an API key in order to use the API. The API key is a long string that you usually include either in the request URL or in a header. The API key mainly functions as a way to identify the person making the API call (authenticating you to use the API). The API key is associated with a specific app that you register.
+An API key is a usually a long string that you include either in the request URL or in the request header. The API key mainly functions as a way to identify the person making the API call (authenticating you to use the API). The API key is associated with a specific app that you register.
 
 The company producing the API might use the API key for any of the following:
 

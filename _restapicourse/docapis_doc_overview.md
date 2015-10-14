@@ -22,4 +22,4 @@ In the overview, list some common business scenarios in which the API might be u
 Keep in mind that there are thousands of APIs. If people are browsing your API, their first and most pressing question is, what information does it return? Is this information relevant and useful to me?
 
 ## Where to put the overview
-Your overview should probably go on the homepage of the API, or be a link from the homepage. This is really where you define your audience as well, since the degree to which you explain what the API does depends on how you perceie the audience.
+Your overview should probably go on the homepage of the API, or be a link from the homepage. This is really where you define your audience as well, since the degree to which you explain what the API does depends on how you perceive the audience.

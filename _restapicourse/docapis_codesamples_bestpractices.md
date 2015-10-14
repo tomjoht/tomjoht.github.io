@@ -21,7 +21,7 @@ The following sections list some best practices around code samples.
 
 ## Code samples are like candy for developers
 
-Code samples play an important role in helping developers use an API. No matter how much you try to explain and narrate *how*, it's only when you *show* that developer truly get it.
+Code samples play an important role in helping developers use an API. No matter how much you try to explain and narrate *how*, it's only when you *show* something in action that developers truly get it.
 
 ## You are not the audience
 
@@ -53,7 +53,7 @@ When developers take the code and integrate it into a production environment, th
 
 ## Add both code comments and before-and-after explanations
 
-Your documentation regarding the code should mix code comments with some explanation either after or before the code sample. Brief code comments are set off with forward slashes `/` in the code; longer comments are set off between slashes with asterisks, like this: `/* .... `*/`.
+Your documentation regarding the code should mix code comments with some explanation either after or before the code sample. Brief code comments are set off with forward slashes `/` in the code; longer comments are set off between slashes with asterisks, like this: `/* .... */`.
 
 Comments within the code are usually short one-line notes that appear after every 5-10 lines of code. You can follow up this code with more robust explanations later.
 

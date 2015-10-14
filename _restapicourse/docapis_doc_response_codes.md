@@ -42,7 +42,7 @@ But suppose you're make a POST, PUT, or DELETE call, where you're changing data 
 HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
 
 ## Common status codes follow standard protocols
-Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the Mashape Weather API developers. `200` is a univerally accepted code for a successful HTTP request. 
+Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the Mashape Weather API developers. `200` is a universally accepted code for a successful HTTP request. 
 
 You can see a list of common [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) and a [general list of HTTP status codes here](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 ).
@@ -62,7 +62,7 @@ Either location has merits, but my preference is a single centralized page for t
 ## Where to get error codes
 Error code may not be readily apparent when you're documenting your API. You will need to ask developers for a list of all the status codes. In particular, if developers have created special status codes for the API, highlight these in the documentation.
 
-For example, if you exceed the rate limit for a specific all, the API might return a special status code. You would especially need to document this custom code. Listing out all the error codes is an reference in the "Troubleshooting" section of your API documentation.
+For example, if you exceed the rate limit for a specific all, the API might return a special status code. You would especially need to document this custom code. Listing out all the error codes is a reference section in the "Troubleshooting" topic of your API documentation.
 
 ## When endpoints have specific status codes
 
@@ -78,7 +78,7 @@ Alternatively, you can have a general status and error codes page that lists all
 
 In particular, you should look for codes that return when there is an error, since this information helps developers troubleshoot problems.
 
-{{tip}}You can run some of the cURL calls you made earlier (this time adding `-i`) and looking at the HTTP status code in the response. {{end}}
+{{tip}}You can run some of the cURL calls you made earlier (this time adding <code>-i</code>) and looking at the HTTP status code in the response. {{end}}
 
 ## How to list status codes
 
@@ -91,7 +91,7 @@ Your list of status codes can be done in a basic table, somewhat like this:
 
 ## Status codes are aren't readily visible
 
-Status codes are pretty subtle, but when a developer is working with an API, these codes may be the only "interface" the developer has. If you can control the messages the developer sees, it can be a huge win. All too often, status codes are uninformative, poorly written, and communicate little or no helpful information to the user to remove the error
+Status codes are pretty subtle, but when a developer is working with an API, these codes may be the only "interface" the developer has. If you can control the messages the developer sees, it can be a huge win. All too often, status codes are uninformative, poorly written, and communicate little or no helpful information to the user to overcome the error.
 
 ## Status/error codes can assist in troubleshooting
 
