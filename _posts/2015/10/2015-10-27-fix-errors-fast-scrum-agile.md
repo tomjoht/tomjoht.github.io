@@ -9,7 +9,7 @@ summary: "If you want to influence developers to make changes to code (such as w
 <a href=""><img class="alignright" src="{{ "/images/scrum.png" | prepend: site.baseurl }}" alt="Scrum, by Jeff Sutherland" /></a>
 [Scrum: The Art of Doing Twice the Work in Half the Time](http://www.audible.com/pd/Business/Scrum-Audiobook/B00NJ3WS9G/ref=a_search_c4_1_1_srTtl?qid=1445953702&sr=1-1) is one of the best books I've listened to in a long time. Although I've worked in agile environments for the last decade, I don't think I fully understood the way agile is supposed to work until listening to this book. 
 
-This book should be standard reading material for any technical writer, because it will orient you about how to operate successfully in an agile environment (which is a framework that almost all technology software shops follow now).
+This book should be standard reading material for any technical writer, because it will orient you about how to operate successfully in an agile environment (which is a framework that almost all software development shops follow now).
 
 Just to pick out one nugget of wisdom from the book, Sutherland notes that one way to increase efficiency is by fixing errors the same day the feature is developed. In one study, when QA waited until after the sprint to note bugs in code, and several weeks passed before developers were notified of the bug and could fix the code, it took the developers 24 times longer to fix the issue than if they had addressed the bug the same day during the sprint. Sutherland writes:
  
