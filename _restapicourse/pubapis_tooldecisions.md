@@ -6,7 +6,6 @@ type: notes_docapis
 weight: 4.8
 ---
 
-hello....
 ## Writers tools or developers tools
 
 One of the first considerations to make when you think about API doc tooling is who will be doing the writing. If developers will be writing and contributing to the docs, you should integrate the writing tools and process into their toolchain and workflow.
