@@ -11,7 +11,7 @@ It's better that you install cURL before the course so that you aren't bogged do
 
 ## Installing cURL
 
-Follow these instructions for installing cURL.
+Follow these instructions for installing cURL:
 
 ### Mac
 If you have a Mac, by default, cURL is probably already installed. To check:
@@ -40,6 +40,8 @@ You should get back a two-digit number in the response. (This is the "air qualit
 Installing cURL on Windows involves a few more steps. First, determine whether you have 32-bit or 64-bit Windows by right-clicking **Computer** and selecting **Properties.**
 
 Then follow the instructions in this Zendesk article: [Installing and using cURL](https://support.zendesk.com/hc/en-us/articles/203691436-Installing-and-using-cURL#install).
+
+(Note that the Zendesk instructions say to download ca-bundle.crt. To download ca-bundle.crt, right-click the link and choose Save Link As (in Chrome).)
 
 Once installed, test your version of cURL by doing the following:
 
@@ -70,6 +72,6 @@ You should get back a two-digit number in the response. (This is the "air qualit
 
 * Use double quotes in the Windows command line. (Windows doesn't support single quotes.)
 * Don't use backslashes (`\`) to separate lines.
-* By adding `-k` in the cURL command, you bypass cURL's security certificate. In this case
+* By adding `-k` in the cURL command, you bypass cURL's security certificate. 
 
 
