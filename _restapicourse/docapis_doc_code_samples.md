@@ -86,7 +86,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	var settings = {
 	  "async": true,
 	  "crossDomain": true,
-	  "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
@@ -116,7 +116,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	  "async": true,
 	  "crossDomain": true,
 	  "dataType": "json",
-	  "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
@@ -154,7 +154,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	  "async": true,
 	  "crossDomain": true,
 	  "dataType": "json",
-	  "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+	  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
@@ -218,7 +218,7 @@ var settings = {
   "async": true,
   "crossDomain": true,
   "dataType": "json",
-  "url": "https://simple-weather-2.p.mashape.com/surfreport/25",
+  "url": "https://simple-weather.p.mashape.com/surfreport/25",
   "method": "GET",
   "headers": {
     "accept": "application/json",

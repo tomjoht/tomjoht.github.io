@@ -81,7 +81,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
       "async": true,
       "crossDomain": true,
       "dataType": "json",
-    "url": "https://simple-weather-2.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
+    "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.354108&lng=-121.955236",
       "method": "GET",
     "headers": {
       "accept": "application/json",

@@ -142,7 +142,7 @@ To create a Swagger spec file:
 	    license: 
 	      name: "MIT"
 	      url: "http://opensource.org/licenses/MIT"
-	  host: "simple-weather-2.p.mashape.com"
+	  host: "simple-weather.p.mashape.com"
 	  schemes: 
 	    - "https"
 	  consumes: 

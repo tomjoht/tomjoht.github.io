@@ -235,7 +235,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	
 	```
 	FORMAT: 1A
-	HOST: https://simple-weather-2.p.mashape.com
+	HOST: https://simple-weather.p.mashape.com
 	
 	# Weather API
 	

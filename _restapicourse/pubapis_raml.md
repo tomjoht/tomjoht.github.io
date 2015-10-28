@@ -33,7 +33,7 @@ Here's the Mashape Weather API formatted in the RAML spec:
 #%RAML 0.8
 ---
 title: Mashape Weather API
-baseUri: https://simple-weather-2.p.mashape.com
+baseUri: https://simple-weather.p.mashape.com
 version: v1
 
 /aqi:

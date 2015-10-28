@@ -23,12 +23,12 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
 
 	```
-	curl --get --include 'https://simple-weather-2.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
+	curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
 3. If you're on Windows, change the single quotation marks to double quotation marks, and add `-k` as well to work around security certificate issues.
 	
 	```
-    curl --get -k --include "https://simple-weather-2.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
+    curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
     ```
 	
 4. Swap in your own API key.
@@ -46,7 +46,7 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 	My call for the Mashape Weather API looks like this:
 	
 	```bash
-	  curl --get --include 'https://simple-weather-2.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
+	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
 	
 	For the Aeris Weather observations endpoint, it looks like this:
@@ -70,7 +70,7 @@ The response is just a single number: the air quality index for the location spe
 3. Right-click and then select **Paste** to insert the call. My call for the Mashape API looks like this:
  
 	```bash
-	curl --get -k --include "https://simple-weather-2.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
+	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
 	```
 	
 	{{warning}}Make sure you use double quotes and include the <code>-k</code>. {{end}}

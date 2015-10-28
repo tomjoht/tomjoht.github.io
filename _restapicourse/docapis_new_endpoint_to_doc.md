@@ -48,7 +48,7 @@ Read through the wiki page to get a sense of the information. The upcoming topic
 <p>Sample endpoint with parameters: </p>
 
 <code>
-https://simple-weather-2.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1400
+https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1400
 </code>
 
 <p>The response contains these elements:</p>

@@ -147,7 +147,7 @@ Returns information about surfing conditions at a specific beach ID, including t
 ## Sample request
 
 ```
-curl --get --include 'https://simple-weather-2.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
+curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
   -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
   -H 'Accept: application/json'
 ```
@@ -227,7 +227,7 @@ The following code samples shows how to use the surfreport endpoint to get the s
 
 // use AJAX to avoid CORS restrictions in API calls.
  var output = $.ajax({
-    url: 'https://simple-weather-2.p.mashape.com/surfreport/123?units=imperial&amp;days=1&amp;time=1433772000', 
+    url: 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&amp;days=1&amp;time=1433772000', 
     type: 'GET', 
     data: {}, 
     dataType: 'json',

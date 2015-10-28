@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: https://simple-weather-2.p.mashape.com
+HOST: https://simple-weather.p.mashape.com
 
 # Weather API
 
