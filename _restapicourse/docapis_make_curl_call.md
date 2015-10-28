@@ -78,9 +78,9 @@ The response is just a single number: the air quality index for the location spe
 	For the Aeris endpoint, it looks like this:
 	
 	```bash
-	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" "Accept: application/json"
+	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" -H "Accept: application/json"
 	```
-
+	
 	The response from Mashape looks like this:
 
 	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
