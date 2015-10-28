@@ -1,39 +1,40 @@
-<html>
-<head>
- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<style>
-   #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
-   body {margin:20px;}
-</style>
-  
-<script>
-function checkWind() { 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./wind-aeris_files/bootstrap.min.css">
 
-var output = $.ajax({
-    url: 'http://api.aerisapi.com/observations/santa%20clara,ca?client_id=ByruDorHEne2JB64BhP1k&client_secret=uBDNO535gYHULH8mqx3skZmU13EV4nIf4GvB6jhY', 
-    type: 'GET', 
-    data: {}, 
-    dataType: 'json',
-    success: function(data) {
-        $("#wind_speed").append(data.response.ob.windMPH + " MPH");
-        $("#wind_direction").append(data.response.ob.windDir);
-        $("#wind_chill").append(data.response.ob.feelslikeF + " F");
-        },
-    error: function(err) { alert(err); }
-});  
-}
-</script>
-	</head>
-	<body>
+    <script src="./wind-aeris_files/jquery.min.js"></script>
+    <style>
+        #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
+        body {margin:20px;}
+    </style>
+
+    <script>
+        function checkWind() {
+
+            var output = $.ajax({
+                url: 'http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=ByruDorHEne2JB64BhP1k&client_secret=uBDNO535gYHULH8mqx3skZmU13EV4nIf4GvB6jhY',
+                type: 'GET',
+                data: {},
+                dataType: 'json',
+                success: function(data) {
+                    console.log(data)
+                    $("#wind_speed").append(data.response.ob.windMPH + " MPH");
+                    $("#wind_direction").append(data.response.ob.windDir);
+                    $("#wind_chill").append(data.response.ob.feelslikeF + " F");
+                },
+                error: function(err) { alert(err); }
+            });
+        }
+    </script>
+</head>
+<body>
 
 <button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
 
 <h2>Wind conditions for Santa Clara</h2>
 
-<b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span></br>
-<b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
+<b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span><br>
+<b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span><br>
 <b>Wind direction: </b><span id="wind_direction"></span>
-</body>
-	</html>
+
+</body></html>
