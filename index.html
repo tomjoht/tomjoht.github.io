@@ -6,12 +6,12 @@ type: homepage
 <div class="post-content">
 
   <div class="home-post-title">
-  {% for post in paginator.posts %}
+      {% for post in site.posts limit:15 %}
 <div class="entry"><a href="{{ post.url }}">{{ post.title }}</a>
     <div class="home-post-meta">
-    {{ post.date | date: "%b %-d, %Y" }} &#8226;
+    {{ post.date | date: "%b %-d, %Y" }} &nbsp; &#8226;
     {% for cat in post.categories %}
-    <a href="{{ "/category-" | prepend: site.baseurl | append: {{cat}}">{{cat}}</a>{% unless forloop.last %}, {% endunless%}
+        {% unless cat == "2015" or cat == "1" or cat == "2" or cat == "3" or cat == "4" or cat == "5" or cat == "6" or cat == "7" or cat == "8" or cat == "9" or cat == "10" or cat == "11" or cat == "12" %}<a href="{{ "/category-" | prepend: site.baseurl | append: {{cat}}">{{cat}}</a>{% endunless %}{% unless forloop.last %}&nbsp; {% endunless%}
     {% endfor %}
   </div>
 <div>{% if post.thumb %}
@@ -27,23 +27,10 @@ type: homepage
 </div>
 </div>
 
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-    <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-    <span class="next ">Next</span>
-    {% endif %}
-  </div>
+
 </div>
 
-{% comment %} 
+{% comment %}
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 {% endcomment %}
 {% if site.disqus_shortname %}
