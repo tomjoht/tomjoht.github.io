@@ -28,7 +28,8 @@ When you enable incremental regeneration, instead of rebuilding the entire site,
 
 Here's a sample video (it's silent, with no audio) that shows incremental regeneration in action: 
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/ndUwgHoNrLI" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/q0v1EaFp-nc" frameborder="0" allowfullscreen></iframe>
+
 
 I typically open up my text editor on one side of my screen, and a browser window on the other. The browser window is like the WYSIWYG display of the content I'm working on in the text editor. (I have plenty of real estate for this side-by-side display on my Apple Thunderbolt monitor.)
 
