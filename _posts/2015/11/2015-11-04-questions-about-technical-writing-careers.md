@@ -8,7 +8,7 @@ summary: "Technical writing is a pretty awesome career. You'll probably enjoy it
 
 A reader asks a few questions:
 
-**Can you describe a day in the life of a Technical Writer?**
+### Can you describe a day in the life of a Technical Writer?
 
 Sure, here is my typical day:
 
@@ -27,7 +27,7 @@ Sure, here is my typical day:
 * Little by little I realize that the developers have coded some stuff that I hadn't identified in the upcoming release. I look in JIRA to see if the changes were noted or mandated somewhere, or if the developers just made them autonomously and silently. I assume the latter. Those darn developers...
 * I reply to a couple of Twitter conversations and IMs with my wife about kids to pick up.
 * I ride home and help with dinner (mostly standing in the kitchen and trying to help but not really). I tell the kids to do their homework.
-* Sitting on my butt all day makes me eager for exercise. Later in the evening I ride to a nearby gym and play basketball with a group of friends. On the ride there and back I listen to the `American Assassin` by Vince Flynn. In the book, a banker decides to open a safe containing passwords to Swiss bank accounts containing terrorist funds rather than have Mitch Rapp (unofficial CIA assassin) pluck his dog's eyes out with a knife. My lackluster day job requires this kind of vicarious adrenaline!
+* Sitting on my butt all day makes me eager for exercise. Later in the evening I ride to a nearby gym and play basketball with a group of friends. On the ride there and back I listen to the *American Assassin* by Vince Flynn. In the book, a banker decides to open a safe containing passwords to Swiss bank accounts containing terrorist funds rather than have Mitch Rapp (unofficial CIA assassin) pluck his dog's eyes out with a knife. My lackluster day job requires this kind of vicarious adrenaline!
 
 **Do you primarily work alone, or is collaboration a big part of your job?**
 
@@ -35,7 +35,7 @@ I work alone in an open office surrounded by people (kind of like a loner in a s
 
 We meet and interact regularly through IM, Go to Meeting, Confluence, JIRA, and email. The virtual team actually works out quite well.
 
-**What skills does one need to be successful at Technical Writing?**
+### What skills does one need to be successful at Technical Writing?
 
 You need to be technical and a problem solver. Here's a test. When you can't figure something out or when something breaks, what do you do? Does it gnaw on your mind until you figure it out? That's a good trait to have as a technical writer.
 
@@ -45,7 +45,7 @@ In deciding on a technical writing career, you also might ask, do you enjoy writ
 
 Thus, if you enjoy writing, working as a technical writer all day might zap your creative energy. Or it might give you just enough writing to be fulfilling without being completely demanding. My career does seem to give me a lot of fodder for my blog.
 
-**What do you think it means to be successful in the Technical Writing field?**
+### What do you think it means to be successful in the Technical Writing field?
 
 Success means you're earning a living, meeting deadlines, providing fully documented code with each release, getting funding and headcount to grow your team, etc. Your users don't complain too much, and you're able to unplug at 6pm. *Okay, this is a somewhat evasive answer. I really don't know.*
 
@@ -53,7 +53,7 @@ Maybe success is empowering your users to be "awesome" through the instructional
 
 Another definition of success would be to increase adoption of your software product tenfold by enabling users to quickly learn it and move up to the power-user level. As your product becomes wildly successful, your company gets major venture capital funding, goes public, offers you a serious cut of the shares, and you cash out in 10 years and are able to make a down payment on a 1 bedroom home in East Palo Alto or Gilroy. (*Inside joke for those living in the Bay area ...*)
 
-**I read on your website that you were an English major. Was there a large liberal arts component to your course load? If so, is there anything that you learned from a liberal arts- based curriculum that connected with your career goals? (Basically, do you think there is any relationship between the liberal arts and the career you chose to pursue?)**
+### I read on your website that you were an English major. Was there a large liberal arts component to your course load? If so, is there anything that you learned from a liberal arts- based curriculum that connected with your career goals? (Basically, do you think there is any relationship between the liberal arts and the career you chose to pursue?)
 
 I'm not sure. I majored in English and got a masters in Creative Nonfiction Writing. At some point I learned to be technical. I think I learned to be technical through my side work as a WordPress consultant building websites.
 
