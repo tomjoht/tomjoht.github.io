@@ -29,7 +29,7 @@ Sure, here is my typical day:
 * I ride home and help with dinner (mostly standing in the kitchen and trying to help but not really). I tell the kids to do their homework.
 * Sitting on my butt all day makes me eager for exercise. Later in the evening I ride to a nearby gym and play basketball with a group of friends. On the ride there and back I listen to the *American Assassin* by Vince Flynn. In the book, a banker decides to open a safe containing passwords to Swiss bank accounts containing terrorist funds rather than have Mitch Rapp (unofficial CIA assassin) pluck his dog's eyes out with a knife. My lackluster day job requires this kind of vicarious adrenaline!
 
-**Do you primarily work alone, or is collaboration a big part of your job?**
+### Do you primarily work alone, or is collaboration a big part of your job?
 
 I work alone in an open office surrounded by people (kind of like a loner in a sea of people). I'm the only tech writer on site (for a group of 30 IT people), but there are two other tech writers in Arizona, and we're hiring some more technical writers in the UK. 
 
@@ -53,7 +53,7 @@ Maybe success is empowering your users to be "awesome" through the instructional
 
 Another definition of success would be to increase adoption of your software product tenfold by enabling users to quickly learn it and move up to the power-user level. As your product becomes wildly successful, your company gets major venture capital funding, goes public, offers you a serious cut of the shares, and you cash out in 10 years and are able to make a down payment on a 1 bedroom home in East Palo Alto or Gilroy. (*Inside joke for those living in the Bay area ...*)
 
-### I read on your website that you were an English major. Was there a large liberal arts component to your course load? If so, is there anything that you learned from a liberal arts- based curriculum that connected with your career goals? (Basically, do you think there is any relationship between the liberal arts and the career you chose to pursue?)
+### I read on your website that you were an English major. Is there anything that you learned from a liberal arts- based curriculum that connected with your career goals as a technical writer? 
 
 I'm not sure. I majored in English and got a masters in Creative Nonfiction Writing. At some point I learned to be technical. I think I learned to be technical through my side work as a WordPress consultant building websites.
 
