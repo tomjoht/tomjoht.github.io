@@ -2,7 +2,6 @@
 title: How to avoid early death from sitting down all day
 categories:
 - general
-- jekyll
 keywords: content management, access control, identity access management 
 summary: "Sitting down all day creates serious health risks. You can avoid an early demise through a little counter app that reminds you to take a break every 20 minutes."
 ---
