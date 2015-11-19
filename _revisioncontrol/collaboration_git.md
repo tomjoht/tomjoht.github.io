@@ -1,7 +1,6 @@
 ---
 title: Git commands
 permalink: /collaboration_git/
-type: notes_docapis
 published: false
 ---
 {% include notes.html %}
@@ -128,48 +127,7 @@ $ hg bookmark feature
 Now you’ve got two bookmarks (essentially a tag) for your two branches at the current changeset.
 
 To switch to one of these branches you can use hg update feature to update to the tip changeset of that branch and mark yourself as working on that branch. When you commit, it will move the bookmark to the newly created changeset.
-## Mercurial
 
-From Mercurial's help (typing `hg`):
-
-| Command | Description |
-| ----- | --------- |
-| add {filename} | add the specified files on the next commit. Use `add .` to add all files in the directory. |
-| clone {directory name} | make a copy of an existing repository |
-| commit | commit the specified files or all outstanding changes. Use `commit -m "my commit message"` |
-| init | create a new repository in the given directory |
-| log | show revision history of entire repository or files |
-| merge | merge working directory with another revision |
-| pull | pull changes from the specified source |
-| push | push changes to the specified destination |
-| status | show changed files in the working directory |
-| summary | summarize working directory state |
-| update | update working directory |
-| revert --all | reverts everything back to original state. `update -r {changeset number}` changes it back to a specific changeset |
-| outgoing | changes waiting to be committed |
-| incoming | changes made to repo waiting to be applied to local |
-| up | change to the top working directory|
-| addremove | adds all files and removes all those that have been deleted to the working directory |
-| diff -r 21 -r 22 | shows you the difference between these changesets |
-| strip {branchname} | pretty much deletes a branch |
-| branches | lists all your mercurial branches |
-| commit --close-branch | this closes any branches that are no longer active |
-| hg bookmark --delete bookmark_name | 
-
-Branches aren't meant to be deleted in Mercurial. Instead of branches, you create "bookmarks."
-
-hg bookmark hell
-hg checkout hell
-
-now you're working in hell
-
-hg bookmark --delete bookmark_name
-
-Edit the .ht/hgrc file with your user authentication credentials.
-
-When you pull the changes from the central repo, they're not by default in your working directory. Pulling is always safe -- it's not going to overwrite you. After you pull, you have to change to the top working directory by running `hg up`. You can do `hg pull -u` to pull and go to the latest. Or you can do `hg fetch` to pull, go to the latest working directory, and initiate a merge for any changes.
-
-branches are permanent and global. hg commit --close-branch
 
 ## Git
 HEAD is a reference to the last commit in the current checked out branch.

@@ -68,6 +68,15 @@ defaults:
       comments: true
       search: true
 
+  -
+    scope:
+      path: ""
+      type: "revisioncontrol"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+
 sass:
     sass_dir: _sass
 

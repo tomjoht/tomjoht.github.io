@@ -320,3 +320,14 @@ Each time you save the site, CloudCannon actually rebuilds the Jekyll files into
 
 {{note}} If you switch between the code editor and visual display, the code sample gets mangled. (The CloudCannon editor will convert the https path into a link.) This is a bug in CloudCannon that will be fixed.{{end}} 
 
+## Doc Websites Using Jekyll
+
+Here are some websites using Jekyll:
+
+* [http://dev.iron.io/](http://dev.iron.io/)
+* [http://healthcare.gov](http://healthcare.gov)
+* [http://getbootstrap.com](http://getbootstrap.com)
+* [http://iamnotarealprogrammer.com/](http://iamnotarealprogrammer.com/)
+* [http://jekyllrb.com/](http://jekyllrb.com/)
+* [http://docs.balsamiq.com](docs.balsamiq.com)
+
