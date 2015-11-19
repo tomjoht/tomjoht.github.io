@@ -6,6 +6,8 @@ keywords:
 summary: "As with any help system, there are some pros and cons with using Jekyll for documentation sites. Since I usually emphasize the pros of Jekyll in my posts, I wanted to balance out the perspective a bit by listing 10 cons and 10 pros."
 thumb: thumbsupdown_hands.png
 ---
+
+<img class="alignright" src="{{ "/images/thumbnails/thumbsupdown_hands.png" | prepend: site.baseurl }}" alt="Pros and cons of Jekyll" />
 We had a lively turnout at the [last STC meeting](http://www.stc-siliconvalley.org/2015/11/15/version-control-workflows-for-help-content/). By lively, I think we had about 30+ people in attendance, and good all-around discussion. 
 
 I had the chance to meet several new people, and one person mentioned that he reads my blog; as a bonus, he had positive things to say. We got to talking, and the conversation turned to DITA (in part because of Sarah OKeefe's [recent post](http://www.scriptorium.com/2015/11/sturm-und-dita-drang-at-tekom/) about the controversy in Germany), and my new friend said, "I know you're a bit of a naysayer with DITA..."
@@ -18,7 +20,7 @@ To balance out perceptions, in this post I want to note the pros *and cons* with
 
 Lest I get ostracized by the Jekyll community, though, I'll follow up these items with 10 pros of using Jekyll for documentation.
 
-## 10 cons of using Jekyll for documentation
+## Cons of using Jekyll for documentation
 
 ### 1. All files are included by default in the output
 
@@ -82,7 +84,7 @@ I'm still getting it right. Today I ran into the above message about half a doze
 
 There's a cartoon that appropriately describes the situation:
 
-![Version control](http://imgs.xkcd.com/comics/git.png)
+<a href="http://xkcd.com/1597/"><img src="http://imgs.xkcd.com/comics/git.png" alt="version control" /></a>
 
 ### 7. Community seems limited to the UX elite
 
