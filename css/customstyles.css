@@ -729,9 +729,10 @@ button.navbar-toggle {
     background: url(/images/sprites.png) no-repeat;
     float: left;
     padding: 6px;
-    margin:6px;
     margin-top:18px;
+    margin-left: 6px;
 }
+
 .srssfeed {
     background-position: 0 0;
     width: 26px;
