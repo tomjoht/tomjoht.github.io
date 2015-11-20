@@ -42,7 +42,7 @@ If it seems like I'm glossing over some things now, like what a GET method is or
     {{note}} There's also a Postman <i>extension</i> for Chrome, but you want the Chrome app. It's more functional. {{end}}
 
 2. You'll make a REST call for the first endpoint (`aqi`). Select **GET** for the method.
-3. Insert the endpoint into the box next to GET: `https://simple-weather.p.mashape.com/weather/aqi`
+3. Insert the endpoint into the box next to GET: `https://simple-weather.p.mashape.com/aqi`
 4. Click the **Params** button and insert `lat` and `lng` parameters with specific values (other than `1`).
 
     For example, `lat: 37.354108` and `lng: -121.955236`. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.
