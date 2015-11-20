@@ -64,7 +64,7 @@ If it seems like I'm glossing over some things now, like what a GET method is or
 
 	The response appears. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats.
 	
-	{{note}} Usually the responses are more detailed JSON. Notice that the header set the `Accept` type as `text/plain`.{{end}}
+	{{note}} Usually the responses are more detailed JSON. Notice that the header set the <code>Accept</code> type as <code>text/plain</code>.{{end}}
 	
 ## Save the request
 {{activity}}
@@ -88,7 +88,7 @@ When you save these other endpoints, click the arrow next to Save and choose **S
 
 (Alternatively, click the **+** button and create new tabs each time.)
 
-{{note}}The Accept header tells the browser what format you will accept the response in. The Accept header for the `weatherdata` endpoint is `application/json`, whereas the first two are `application/text`. {{end}}
+{{note}}The Accept header tells the browser what format you will accept the response in. The Accept header for the <code>weatherdata</code> endpoint is <code>application/json</code>, whereas the first two are <code>application/text</code>. {{end}}
 
 ## View the format of the weatherdata response in JSON
 {{activity}}

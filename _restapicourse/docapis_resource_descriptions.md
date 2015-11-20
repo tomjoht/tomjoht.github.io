@@ -97,7 +97,7 @@ The [Box API](https://box-content.readme.io/reference#collaboration-object) has 
 
 <a href="https://box-content.readme.io/reference#collaboration-object"><img src="{{ "/images/restapicourse/boxexample.png" | prepend: site.baseurl }}" alt="Example from Box" /></a>
 
-The Box example has 5 different endpoints or methods you can call. Each of these methods lets you access the Comments resource or object in different ways. Why call it an object? When you get the Comments resource, the JSON is an object.
+The Box example has 5 different endpoints or methods you can call. Each of these methods lets you access the Collaboration resource or object in different ways. Why call it an object? When you get the Collaboration resource, the JSON is an object.
 
 {{tip}} Developers often use the term "call a method" when talking about method. If you consider the endpoints as HTTP methods, then you can call an API method.{{end}}
 
