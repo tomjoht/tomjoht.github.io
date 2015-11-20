@@ -3,7 +3,7 @@ title: "Is it inefficient to frequently switch contexts among multiple projects?
 categories:
 - general
 keywords: careers, task-switching, multi-tasking
-summary: "Although the \"ability to juggle multiple projects\" is common to the technical writer role, switching contexts can hurt your momentum with projects because each time you switch, you have to re-prime your memory pump with a hundred details about the project. At the same time, this mental reset can help you see the product fresh, like a new user. In that respect, context-switching can be helpful."
+summary: "Although the ability to juggle multiple projects is common to the technical writer role, switching contexts can hurt your momentum with projects because each time you switch, you have to re-prime your memory pump with a hundred details about the project. At the same time, this mental reset can help you see the product fresh, like a new user. In that respect, context-switching can be helpful."
 ---
 
 ## Juggling multiple projects is the norm 
