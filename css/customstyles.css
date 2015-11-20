@@ -660,6 +660,7 @@ p {
 h3.sidebar {
     color: #777;
     font-weight: normal;
+    padding-top:20px;
 }
 
 h3.notesTitle {
