@@ -4,7 +4,9 @@ title: Advertising
 permalink: /advertising/
 ---
 
-<img style="border:1px solid #dedede; float:right; padding:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>Do you want to make technical writers aware of a product or service relevant to them? If so, I can help increase your product or service's visibility more than any other tech comm site online. I have one of the largest hubs where technical writers gather and interact to stay updated with the latest technical writing news, trends, and information in the industry.
+<img style="border:1px solid #dedede; float:right; padding:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>Do you want to make technical writers aware of a product or service relevant to them? If so, I can help increase your product or service's visibility more than any other tech comm site online. 
+
+I have one of the largest hubs where technical writers gather and interact to stay updated with the latest technical writing news, trends, and information in the industry.
 
 ## How I increase visibility
 
