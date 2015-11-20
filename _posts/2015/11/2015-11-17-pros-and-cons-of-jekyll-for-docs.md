@@ -68,7 +68,7 @@ There is an authentication plugin ([jekyll-auth](https://github.com/benbalter/je
 
 If your content is openly visible and published on the web, authentication probably isn't a concern. But if you're publishing behind a firewall in a commercial setting where you want to control access to paying customers, figuring out authentication is a challenge.
 
-### 6. Merge conflicts baffle me
+### 6. Merge conflicts can be frustrating
 
 This isn't specific to Jekyll, but if you're using a static site generator, you're probably also using Git or Mercurial or some other version control software. 
 
