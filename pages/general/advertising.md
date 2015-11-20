@@ -3,9 +3,8 @@ layout: page
 title: Advertising
 permalink: /advertising/
 ---
---- layout: page title: Advertising permalink: /advertising/ ---
 
-Do you want to make technical writers aware of a product or service relevant to them? If so, I can help increase your product or service's visibility more than any other tech comm site online. I have one of the largest hubs where technical writers gather and interact to stay updated with the latest technical writing news, trends, and information in the industry.
+<img style="border:1px solid #dedede; float:left;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>Do you want to make technical writers aware of a product or service relevant to them? If so, I can help increase your product or service's visibility more than any other tech comm site online. I have one of the largest hubs where technical writers gather and interact to stay updated with the latest technical writing news, trends, and information in the industry.
 
 ## How I increase visibility
 
@@ -47,71 +46,38 @@ From Jan 1, 2014 to Dec 31, 2014, Idratherbewriting.com had about 588,000 page v
 The following table shows a little more detail from Google Analytics (date range is Jan 1 2014 to Dec 31, 2014):
 
 <table>
-
-    <tbody>
-
+    <thead>
     <tr>
-
         <th>Jan 1, 2014 to Dec 31, 2014</th>
-
         <th>Metric</th>
-
     </tr>
-
-    </tbody>
-
+    </thead>
     <tbody>
-
     <tr>
-
         <td>Total Visits (new and returning)</td>
-
         <td>380,000 (about 1,000 visits a day)</td>
-
     </tr>
-
     <tr>
-
         <td>Page Views</td>
-
         <td>588,000 (about 1,600 page views a day)</td>
-
     </tr>
-
     <tr>
-
         <td>Pages per visit</td>
-
         <td>1.5 pages</td>
-
     </tr>
-
     <tr>
-
         <td>Users</td>
-
         <td>304,000 (about 79% of visitors)</td>
-
     </tr>
-
     <tr>
-
         <td>New sessions</td>
-
         <td>79%</td>
-
     </tr>
-
     <tr>
-
         <td>Average visit duration</td>
-
         <td>1:27 minutes</td>
-
     </tr>
-
     </tbody>
-
 </table>
 
 As for audience demographics, Google Analytics indicates that about 40% of the visitors are between ages 25-34, and about 22% between 35-44\. About 60% are male, 40% female.
@@ -126,7 +92,7 @@ The quality of impressions depends on the influence of the site. Impressions fro
 
 MindTouch named me one of the most influential bloggers in technical communication. Influence is based on how many other top #techcomm insiders follow me on Twitter.
 
-<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class="   wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
+<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class="   wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
 
 See the following links for more details:
 
@@ -143,43 +109,26 @@ Impressions are usually calculated by CPM (cost per mille, or cost per 1,000 im
 The cost for each ad space is as follows:
 
 <table>
-
+    <thead>
+    <tr>
+        <th><Ad space</th>
+        <th>Cost per year</th>
+    </tr>
+    </thead>
     <tbody>
-
     <tr>
-
-        <td>**Ad space**</td>
-
-        <td>**Cost per year**</td>
-
-    </tr>
-
-    <tr>
-
         <td>Sidebar graphic (125px x 125px)</td>
-
         <td>$900/year</td>
-
     </tr>
-
     <tr>
-
         <td>Horizontal inline post view (550px x 70px)</td>
-
         <td>$1,800/year</td>
-
     </tr>
-
     <tr>
-
         <td>Top Banner space (470px x 60px)</td>
-
         <td>$6,000/year for single ad display, $3,000/year if rotated between 2 ads, or $2,000/year if rotated between 3 ads.</td>
-
     </tr>
-
     </tbody>
-
 </table>
 
 (By the way, assuming 588,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.53 CPM, for the horizontal inline view $3.06 CPM, and for the top banner ad space, $8.50 CPM. These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).)
