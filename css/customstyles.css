@@ -726,7 +726,7 @@ button.navbar-toggle {
     background-color: #666;
 }
 
-.sfacebook, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter {
+.sgithub, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter {
     background: url(/images/sprites.png) no-repeat;
     float: left;
     padding: 6px;
@@ -744,7 +744,7 @@ button.navbar-toggle {
     width: 26px;
     height: 27px;
 }
-.sfacebook {
+.sgithub {
     background-position: -100px 0;
     width: 26px;
     height: 27px;
