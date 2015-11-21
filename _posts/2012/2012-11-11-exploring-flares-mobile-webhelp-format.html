@@ -9,33 +9,6 @@ tags:
 - media queries
 - mobile
 - responsive design
-status: publish
-type: post
-published: true
-meta:
-  _wp_rp_image: '17872'
-  _edit_last: '1'
-  image: ''
-  seo_follow: 'false'
-  seo_noindex: 'false'
-  dcssb_short_url: http://bit.ly/T20jqK
-  _thumbnail_id: '12347'
-  _wp_rp_related_posts_query_result_cache_expiration: '1420043622'
-  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"77.76403821208154";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:17:"58.03974623454001";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20890";s:5:"score";s:17:"42.17945290420967";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"16622";s:5:"score";s:17:"36.93773078873408";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"12249";s:5:"score";s:17:"35.51799368216012";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:17:"34.77533966048251";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"29.60740493374084";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20507";s:5:"score";s:18:"26.081504745361883";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20258";s:5:"score";s:17:"22.92250333284021";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20250";s:5:"score";s:17:"22.92250333284021";}}
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:17:"77.33771572995411";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20586";s:5:"score";s:18:"57.479539184001716";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20890";s:5:"score";s:17:"42.47294515226986";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"12249";s:5:"score";s:18:"36.033360413624294";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"34.616338610728974";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:18:"29.768574714701742";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:5:"20507";s:5:"score";s:17:"25.96225395804673";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"18563";s:5:"score";s:17:"22.94707152582697";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20258";s:5:"score";s:18:"22.691103599150555";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20250";s:5:"score";s:18:"22.691103599150555";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20248";s:5:"score";s:18:"22.691103599150555";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20244";s:5:"score";s:18:"22.691103599150555";}}
-  fsb_social_facebook: '7'
-  fsb_social_twitter: '15'
-  fsb_social_linkedin: '18'
-  fsb_social_google: '2'
-  dsq_thread_id: '3770205612'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>I've recently been exploring Madcap Flare's Mobile Webhelp format. Madcap introduced this new format in version 7, so it's not a new feature (Flare is now on version 8). Nevertheless, I haven't used this format much much partly because I haven't had any mobile projects until now, and because mobile documentation is still so young.</p>
 <h2>A Standalone Help File?</h2>
@@ -69,23 +42,23 @@ excerpt: !ruby/object:Hpricot::Doc
 </ul>
 <p>I'll explore each of these features, starting with the main menu, in detail.<br />
 <strong>Main Menu.</strong> The app always defaults to this main menu. You can drill into the Table of Contents, but the Home button on the toolbar will take you back to the overall menu, not to the Table of Contents menu.</p>
-<p>[caption id="attachment_12337" align="alignnone" width="384"]<img class=" wp-image-12337 " title="Main Menu" src="/images/Screenshot_2012-11-14-13-23-54-640x1024.png" alt="Main Menu" width="384" height="614" /> Main Menu</p>
+<p><figure><img class=" wp-image-12337 " title="Main Menu" src="/images/Screenshot_2012-11-14-13-23-54-640x1024.png" alt="Main Menu" width="384" height="614" /> <figcaption>Main Menu</figcaption></figure></p>
 <p>(Note: These screenshots are from a project I was recently documenting. If you want to explore the version I implemented online, you can do so <a href="https://ue.ldschurch.org/mobile/gla">here</a>.)</p>
 <p>Because of this default home location, I thought it would be good to use each of these features (Table of Contents, Glossary, Index, About, and Search). If I just had Table of Contents (a single option) it might confuse users as to why I presented them with this extra step and required them to drill down before presenting the actual content.</p>
 <p>If you really want your list of topics in the table of contents to show as the default home, here's<a href="http://www.madcapsoftware.com/blog/2012/02/09/webhelp-mobile-as-a-mobile-performance-support-application/"> a workaround for doing it</a>. However, the workaround involves editing the generated output, so this is a somewhat tedious process if you regularly regenerate your output.</p>
 <p><strong>Table of Contents.</strong> The way you navigate the table of contents works pretty well, in my opinion. I don't have a whole lot to say here other than that it just works. The topic names are large enough that you can easily tap them on a mobile screen, and you can navigate forwards and backwards intuitively and easily enough.</p>
-<p>[caption id="attachment_12338" align="alignnone" width="384"]<img class=" wp-image-12338" title="Table of Contents" src="/images/Screenshot_2012-11-14-13-24-04-640x1024.png" alt="Table of Contents" width="384" height="614" /> Table of Contents</p>
+<p><figure><img class=" wp-image-12338" title="Table of Contents" src="/images/Screenshot_2012-11-14-13-24-04-640x1024.png" alt="Table of Contents" width="384" height="614" /> <figcaption>Table of Contents</figcaption></figure></p>
 <p><strong>Glossary.</strong> The Glossary display also looks great. I like the hierarchical styling between the terms and their definitions. It's easy to navigate and scroll. You can also style the gradient bars that separate the letters through the mobile skin editor.</p>
 <p>Unfortunately, as with the glossary in other Flare targets, you can add <em>either</em> a definition or a link, but not both. So often I've wanted to define a term and then point users to more information in the help through a link.</p>
-<p>[caption id="attachment_12339" align="alignnone" width="384"]<img class=" wp-image-12339 " title="Glossary" src="/images/Screenshot_2012-11-14-13-24-38-640x1024.png" alt="Glossary" width="384" height="614" /> Glossary</p>
+<p><figure><img class=" wp-image-12339 " title="Glossary" src="/images/Screenshot_2012-11-14-13-24-38-640x1024.png" alt="Glossary" width="384" height="614" /> <figcaption>Glossary</figcaption></figure></p>
 <p><strong>Index.</strong> The index looks all right, but there's no hierarchical styling between keyterms and subkeyterms except an indent. Despite my best efforts to style this feature, the styling is coded with embedded style attributes rather than references a stylesheet. As a result, I was unable to change the style of the subkeyterms.</p>
-<p>[caption id="attachment_12340" align="alignnone" width="384"]<img class=" wp-image-12340 " title="Index" src="/images/Screenshot_2012-11-14-13-24-24-640x1024.png" alt="Index" width="384" height="614" /> Index</p>
+<p><figure><img class=" wp-image-12340 " title="Index" src="/images/Screenshot_2012-11-14-13-24-24-640x1024.png" alt="Index" width="384" height="614" /> <figcaption>Index</figcaption></figure></p>
 <p>More problematic, when you click an index entry, it goes only to the <strong>page</strong> (not the topic) where the index entry resides. If you have dropdown hotspots on your page, like I do, the hotspot where the index entry is located doesn't expand to show the location of the index keyword area. This makes the feature somewhat useless because I like to stack a lot of topics in hotspots on a single page rather than breaking them out into their individual pages.</p>
 <p>My help is probably too small to make an index worthwhile, but it could be helpful in a larger project.</p>
 <p><strong>About.</strong> The About page lets you browse to a graphic and include it. You are limited to a graphic only, no text. People searching in the help file usually don't look for an about graphic, though I suppose this might be where you could brand your department's authorship of the help file.</p>
-<p>[caption id="attachment_12345" align="alignnone" width="384"]<img class=" wp-image-12345 " title="About section" src="/images/Screenshot_2012-11-14-13-25-00-640x1024.png" alt="About section" width="384" height="614" /> About section</p>
+<p><figure><img class=" wp-image-12345 " title="About section" src="/images/Screenshot_2012-11-14-13-25-00-640x1024.png" alt="About section" width="384" height="614" /> <figcaption>About section</figcaption></figure></p>
 <p><strong>Search.</strong> The search works well. I like how it highlights the term you searched for in the search results. There's no way to remove the highlighting on the page, but this is fine by me.</p>
-<p>[caption id="attachment_12337" align="alignnone" width="384"]<img class=" wp-image-12337 " title="Search" src="/images/Screenshot_2012-11-14-13-23-54-640x1024.png" alt="Search" width="384" height="614" /> Search</p>
+<p><figure><img class=" wp-image-12337 " title="Search" src="/images/Screenshot_2012-11-14-13-23-54-640x1024.png" alt="Search" width="384" height="614" /> <figcaption>Search</figcaption></figure></p>
 <p>(Although the search doesn't look like an option in the menu, when you're configuring the features in your skin, Search is one of the check boxes, so I listed it here. I'm not sure why anyone would turn off search.)</p>
 <h2>Drop-Down Hotspots</h2>
 <p>I've become a serious fan of drop-down hotspots, and if this javascript feature is relevant on any platform, it's especially relevant on a mobile platform. For example, take a look at Wikipedia's mobile display of, say, <a href="http://en.m.wikipedia.org/wiki/RTFM">this page</a>. You can see that each section is collapsed into a dropdown hotspot (this is the mobile view, which you access by adding an "m" after "en" in the URL).</p>
@@ -129,7 +102,7 @@ padding-top: 15px;<br />
 <p>You can also change the default images in the Flare source files, but remember that any hacking you do to default images in source files will be lost when you reinstall Flare.</p>
 <h2>Using Topic Toolbar</h2>
 <p>In addition to these elements, you can also customize a topic toolbar. As with other targets, you add a Topic Toolbar proxy to your master page, and then configure the topic toolbar in the mobile skin editor.</p>
-<p>[caption id="attachment_12342" align="alignnone" width="600"]<img class="size-medium wp-image-12342" title="Topic Toolbar" src="/images/topic-toolbar-600x530.png" alt="Topic Toolbar" width="600" height="530" /> Topic Toolbar</p>
+<p><figure><img class="size-medium wp-image-12342" title="Topic Toolbar" src="/images/topic-toolbar-600x530.png" alt="Topic Toolbar" width="600" height="530" /> <figcaption>Topic Toolbar</figcaption></figure></p>
 <p>The graphics in the topic toolbar are visually unsatisfying. The Next and Previous buttons are green (contrasting with the default blue gradient header), and the Collapse and Expand buttons are too small to see. (The Show Content Index button applies to a browse sequence only, and probably won't show unless you have a browse sequence enabled.)</p>
 <p>Unfortunately, the skin editor doesn't allow you to change the topic toolbar graphics through the skin editor. You would have to actually change the buttons in Flare's source code. However, this turns out to be impossible. All the buttons for this topic toolbar comes from this directory: C:Program Files (x86)MadCap SoftwareMadCap Flare V8Flare.appResourcesWebHelpDefault.flwhtImages</p>
 <p>Flare doesn't like it when you modify images in this folder. If you do change an image, even if you keep the same file name, format type, and other details, Flare takes a long time to start up, showing a "Please wait while Windows configures Madcap Flare" message for several minutes before loading. Then when you navigate back to that Default.flwhtImages folder, you'll see that any changes you made are overwritten by the default buttons.</p>
