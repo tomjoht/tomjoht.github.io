@@ -32,7 +32,6 @@ Here's a sample video that shows incremental regeneration in action. The video i
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/q0v1EaFp-nc" frameborder="0" allowfullscreen></iframe>
 
-
 I typically open up my text editor on one side of my screen, and a browser window on the other. I put my terminal window on my side monitor. The browser window is like the WYSIWYG display of the content I'm working on in the text editor. (I have plenty of real estate for this side-by-side display on my Apple Thunderbolt monitor.)
 
 In this video you can see exactly what's going on in the editor, the output, and the terminal window. In this video, I first make a small change and show you how Jekyll quickly rebuilds the site to reflect the change. I then make an error that breaks the build. The error message in the Terminal window prompts me to fix the error, so I do and then continue.
