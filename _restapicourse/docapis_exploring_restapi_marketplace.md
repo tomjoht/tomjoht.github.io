@@ -88,18 +88,18 @@ You're a consumer of an API, but which one do you need to pull in weather foreca
 
 Explore the APIs available on Mashape and find the weather forecast API:
 
-1. Go to [mashape.com](http://mashape.com) and click **Explore APIs**.
+1. Go to [Mashape Marketplace](https://market.mashape.com/) and click **Explore APIs**.
 2. Try to find an API that will allow you to retrieve the weather forecast.
 
     As you explore the various APIs, get a sense of the variety and services that APIs provide. These APIs aren't applications themselves. They provide developers with ways to pipe information into their applications. In other words, the APIs will provide the data plumbing for the applications developers build.
 
-3. Look for an API called "Weather," by fyhao. Although there are many weather APIs, this one seems to have a lot of reviews and is free.
+3. Search for an API called "Weather," by fyhao. Although there are many weather APIs, this one seems to have a lot of reviews and is free.
 
-    <a href="https://www.mashape.com/fyhao/weather-13"><img src="{{ "/images/restapicourse/weatherapi_mashape.png" | prepend: site.baseurl }}" alt="Weather API on Mashape" /></a>
+    <a href="https://market.mashape.com/fyhao/weather-13"><img src="{{ "/images/restapicourse/weatherapi_mashape.png" | prepend: site.baseurl }}" alt="Weather API on Mashape" /></a>
 
 ## Find the Aeris Weather API
 
-Now let's look at another weather API: The [Aeris Weather API](http://www.aerisweather.com/). In contrast to the simple API on Mashape, this API is much more robust and extensive. You can see that the Aeris Weather API is a professional grade, information-rich API that could empower an entire news service. 
+Now let's look at another weather API (this one not on Mashape): The [Aeris Weather API](http://www.aerisweather.com/). In contrast to the simple API on Mashape, this API is much more robust and extensive. You can see that the Aeris Weather API is a professional grade, information-rich API that could empower an entire news service. 
 
 Click **Develop** on the top navigation, then click **Aeris Weather**. Then click **Documentation**. 
  
