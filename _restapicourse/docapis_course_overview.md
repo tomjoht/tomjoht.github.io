@@ -10,11 +10,15 @@ type: notes_docapis
 
 ## Documenting REST APIs course
 
-Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using some simple weather APIs to put a weather forecast on your site.
+Welcome to my course on writing documenting for REST APIs. Instead of just talking about abstract concepts, in this course I contextualize REST APIs with a direct, hands-on approach. 
 
-As you use the API, you learn about endpoints, parameters, data types, authentication, cURL, JSON, the command line, the developer console, JavaScript, and other details associated with REST APIs. The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a somewhat real scenario.
+You learn about API documentation in the context of using some simple weather APIs to put a weather forecast on your site.
 
-After you use the API as a developer might, you then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
+As you use the API, you learn about endpoints, parameters, data types, authentication, cURL, JSON, the command line, Chrome's Developer Console, JavaScript, and other details associated with REST APIs. 
+
+The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a real scenario while using an API.
+
+After you use the API as a developer, you then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
 
 As a technical writer, you tackle each element of a reference topic in REST API documentation: 
 
@@ -30,29 +34,35 @@ Diving into these sections will give you a solid understanding of how to documen
 
 Later, we dive into different ways to publish REST API documentation, exploring tools and specifications such as API Blueprint, Swagger, RAML, readme.io, Jekyll, and more. 
 
-You'll learn to leverage templates, build interactive API consoles so users can try out requests and see responses directly in documentation, and learn different ways to host your documentation.
+You'll learn how to leverage templates, build interactive API consoles so users can try out requests and see responses, and learn different ways to host your documentation.
 
 Finally, in the third part of the course, you'll learn about native library APIs such as Java or C++ APIs, as well as how to document them. You'll generate a Javadoc, update parameters and class descriptions, and see how your tags affect what's included in the output. 
 
 ## Learn with a real example and context
 
-Because the purpose of the course is to help you learn, there are numerous activities that require hands-on coding, exploring, and other exercises. Between the learning activities, there are more conceptual deep dives, but the focus is always on learning by doing.
+Because the purpose of the course is to help you learn, there are many activities that require hands-on coding and other exercises. Between the learning activities, there are more conceptual deep dives, but the focus is always on *learning by doing*.
 
-Note that this course is intended to be sequential, walking you through a series of concepts and activities that build on each other. However, you can skip around as desired.
+Note that this course is intended to be sequential, walking you through a series of concepts and activities that build on each other. But you can skip around as you want.
 
 ## No programming skills required
 
-You don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. If you do have some familiarity with programming concepts, you can speed through the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.
+As for technical backgrounds, you don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. 
 
-Some of the code samples in this course use JavaScript. JavaScript may or may not be a language that you actually use when you document REST APIs, but most likely there will be some programming language or another that becomes important to know. JavaScript is one of the most practical and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation.
+If you do have some familiarity with programming concepts, you can speed through some of the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.
+
+Some of the code samples in this course use JavaScript. JavaScript may or may not be a language that you actually use when you document REST APIs, but most likely there will be some programming language or another that becomes important to know. 
+
+JavaScript is one of the most practical and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation.
 
 ## What you'll need
 
-* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (both Mac and PC), though any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
-* **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's developer console.)
-* **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**
-* **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line.  See the following section for more details on cURL.
-* **Git**. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
+Here are a few things you'll need in this course: 
+
+* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (it works on both Mac and PC), but any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
+* **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's Developer Console.)
+* **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**. Postmany is a Chrome app that allows you to make requests and see responses through a GUI client.
+* **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line. 
+* **Git**. Git is a version control tool developers often use to collaborate on code. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.
 

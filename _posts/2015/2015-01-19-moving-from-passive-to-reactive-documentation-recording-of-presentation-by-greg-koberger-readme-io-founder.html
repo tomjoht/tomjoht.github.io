@@ -1,0 +1,56 @@
+---
+layout: post
+title: Moving from passive to reactive documentation -- recording of presentation
+  by Greg Koberger, ReadMe.io founder
+date: 2015-01-19 07:51:32.000000000 -08:00
+categories:
+- api-doc
+- podcasts
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>The following is a recording of a presentation about passive versus reactive documentation by Greg Koberger, developer and designer for <a href="http://readme.io">ReadMe.io</a>, a slick new REST API documentation tool.</p>
+<p>Greg gave this presentation at the <a href="http://www.stc-siliconvalley.org/2014/11/22/january-12-2015-meeting-passive-vs-reactive-documentation/">STC Silicon Valley chapter meeting</a> on January 12, 2015 in Santa Clara, California. (He gave a similar presentation to a <a href="http://www.meetup.com/Write-the-Docs/events/214839932/">Write the Docs meetup group</a> in San Francisco.)</p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/gregkoberger.mp3" type="audio/mpeg" /></audio></p>
+<p>Length: 76 min.</p>
+<p><a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/gregkoberger.mp3">Download MP3</a> (right-click and select Save As)</p>
+<p>You can view the slides <a href="http://idratherbetellingstories.com/wp-content/uploads/2015/01/dynamic-docs.pdf">here</a>.</p>
+<p><a target="_blank" href="http://idratherbetellingstories.com/wp-content/uploads/2015/01/dynamic-docs.pdf"><img src="/images/dynamicdocs-550x407.png" alt="Dynamic docs" width="550" height="407" class="alignnone size-medium wp-image-22518" /></a></p>
+<h2>About Greg Koberger</h2>
+<p><img src="/images/greg-koberger-150x150.jpg" alt="Greg Koberger" width="150" height="150" class="alignleft size-full wp-image-22519" />Gregory Koberger is the founder of <a href="https://readme.io/">ReadMe.io</a>, which provides collaborative developer hubs for companies or projects. He has previously worked at Mozilla, Greylock, and numerous startups. You can learn more about Greg at <a href="http://gkoberger.net">gkoberger.net</a>.</p>
+<p>You can explore ReadMe.io <a href="https://readme.io/">here</a>:</p>
+<p><figure><a href="https://readme.io/"><img src="/images/readmescreenshot-550x280.png" alt="ReadMe.io" width="550" height="280" class="size-medium wp-image-22520" /></a> <figcaption>ReadMe.io</figcaption></figure></p>
+<p>Here's my brief summary of the presentation.</p>
+<h2>Overview of doc levels</h2>
+<p>Greg outlined three levels of documentation:</p>
+<ul>
+<li><strong>Passive</strong>: Has no knowledge of the user.</li>
+<li><strong>Reactive</strong>: Responds to an action from the user, such as something the user says or does.</li>
+<li><strong>Proactive</strong>: Anticipates the user's needs and pushes the appropriate content to the user at the right time.</li>
+</ul>
+<h2>Passive</h2>
+<p>Passive documentation is documentation that could be contained inside a book. It is often produced by static site generators, and includes deliverables such as topical guides, tutorials, and reference material.</p>
+<h3>Level 1.5: Passive(ish) example</h3>
+<p>Moving a half a step beyond passive, examples such as forums, Q&amp;A sites like Stack Overflow, and other community driven or collaboratively edited sites aren't totally passive, nor do they have completely static content. With a Q&amp;A post on <a href="http://stackoverflow.com/">StackOverflow</a>, for example, users are asking questions and getting responses from other users.</p>
+<p>(Greg noted that StackOverflow provides a compelling model for documentation. If someone searches for a technical answer and can't find it online, he or she asks the question so that the next time someone searches for the answer, it's available.)</p>
+<h3>Why do docs need to be dynamic?</h3>
+<p>Greg said that when you're building a website, on average a developer uses between 8-10 APIs. As a result, developers need to quickly get in and out of various documentation sites, finding code snippets to easily copy and paste, locating quick answers, etc. When people are traversing so many different APIs, they don't have time to read through tomes of documentation at a leisurely pace.</p>
+<p>Dynamic docs can help reduce the cognitive load on the user who is quickly looking for answers and code samples.</p>
+<p>One example is a section on authentication. Nearly every API doc includes this section, with a sample about how to pass your credentials or API token with REST calls. Why not have the user log in to the doc site, and then auto-populate code samples with his or her authentication credentials directly into the code samples dynamically, making it easier for the user to copy and paste the sample? This is one example of how to reduce cognitive load on the user.</p>
+<h2>Level 2: Reactive doc</h2>
+<p>With reactive documentation, you use what you know about your users to make their lives easier. Ideally, code samples and other information should be personalized with information pulled from the user's profile.</p>
+<p>For example, if you know what platform the user is on (based on profile information), you can dynamically filter the doc content. If the user's preferred language is PHP, your code snippets can default to the PHP tab instead of the Ruby tab, for example. Greg emphasized that code samples should be copy-and-pastable so they just work.</p>
+<p>Another example with reactive documentation might be an on-boarding tutorial. If you know details about the employee's location, role, and other details, then you can dynamically filter the on-boarding tasks to fit that profile.</p>
+<p>Error messages are another place to personalize and customize content. The errors themselves can contain variables that are personalized -- for example, instead of "Failed to instantiate module," if your company was ACME, the error message might say, "Failed to instantiate your ACME module." Error messages should also include links to relevant sections in the doc.</p>
+<p>Another example of reactive documentation is with <a href="https://stripe.com/docs/api">Stripe's API doc</a>. The API responses (which appear in the right column) are based on your own data. How? To use the Stripe API you must create an application key of some kind. To create this key, you must log in. Therefore when you're logged in, Stripe knows your application key. The API code samples can pass in your authentication key and return your specific data for each of the endpoints.</p>
+<p><figure><img src="/images/stripeapidynamic2-550x314.png" alt="The text circled here says, " One of your test API keys has been filled into all the examples on the page, so you can test out any example right away."" width="550" height="360" class="size-medium wp-image-22521" /><figcaption>The text circled here says, "One of your test API keys has been filled into all the examples on the page, so you can test out any example right away."</figcaption></figure></p>
+<p>This personalized approach to documentation can make the code samples and information more real, immediate, and understandable. It's one way of further reducing the cognitive strain on your users.</p>
+<p>(If you're not logged in to the site, you'll see generic responses.)</p>
+<h2>Level 3: Proactive documentation</h2>
+<p>The final level of documentation is proactive. Proactive documentation reaches out to the user before there's a problem. For example, suppose there's an update with an endpoint in the API. When you code your application, perhaps a special function detects that you're using this updated or deprecated endpoint and sends you a special warning message.</p>
+<p>Or perhaps other elements in your code trigger certain documentation responses. For example, suppose your code is not set up to make very efficient calls (e.g., maybe you're iterating through an array and calling all the values each time in an unnecessary way). The documentation could detect inefficient code and point you to a tutorial to show you best practices.</p>
+<h2>Readme.io</h2>
+<p>If you do REST API documentation, definitely check out <a href="http://readme.io">ReadMe.io</a>. With recent funding from Y Combinator for this startup, Greg is focusing heavily on developing readme.io with more robust features. (Even so, I think it's a pretty amazing platform as is.)</p>
+<p>If you're doing REST APIs for an online audience, this platform will make your life easy. You can [eventually] integrate information about your API so that your documentation takes on some of the reactive qualities that Greg talked about.</p>

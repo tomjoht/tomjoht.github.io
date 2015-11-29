@@ -9,52 +9,10 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  aktt_notify_twitter: 'no'
-  _edit_last: '1'
-  _link_page: ''
-  _feedlink: http://www.publish2.com/newsgroups/technical-communication
-  _link_count: '1'
-  _advanced_options: ''
-  _link_format: ''
-  _publication_name: ''
-  _publication_date: ''
-  _journalist_full_name: ''
-  _description: ''
-  _tags: ''
-  _display_list: ''
-  _embed_video: ''
-  _video_width: '425'
-  tweetbackscheck: '1260086552'
-  shorturls: a:4:{s:9:"permalink";s:85:"http://www.idratherbewriting.com/2009/09/07/wordpress-worm-requires-upgrade-to-2-8-4/";s:7:"tinyurl";s:25:"http://tinyurl.com/malopy";s:4:"isgd";s:18:"http://is.gd/5dwHE";s:5:"bitly";s:19:"http://bit.ly/G91JE";}
-  twittercomments: a:0:{}
-  tweetcount: '0'
-  image: ''
-  seo_follow: 'false'
-  _sexybookmarks_shortUrl: http://tinyurl.com/4tuhrkh
-  _sexybookmarks_permaHash: 8b84344e61fd5c58fb0aa520efdb6ad3
-  sfw_comment_form_password: t6Rgte3tmezQ
-  dcssb_short_url: http://bit.ly/Pfmx2x
-  _wp_rp_image: empty
-  _wp_rp_related_posts_query_result_cache_expiration: '1421089844'
-  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"63.35399511281314";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:18:"43.035522072055485";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"6450";s:5:"score";s:18:"42.768117605113474";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"5081";s:5:"score";s:17:"40.48719880756741";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"19895";s:5:"score";s:17:"36.98849010203783";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"5777";s:5:"score";s:17:"34.74205519242959";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1746";s:5:"score";s:18:"31.996992145169923";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:18:"30.020579462246815";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"5305";s:5:"score";s:18:"28.162871420111767";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"21910";s:5:"score";s:18:"27.255930507523438";}}
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"63.63451004620624";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20779";s:5:"score";s:18:"43.482021774788485";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"6450";s:5:"score";s:18:"43.176193054963555";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"5081";s:5:"score";s:17:"40.86392078909014";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"19895";s:5:"score";s:17:"37.08357391894465";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"5777";s:5:"score";s:17:"35.13602155673762";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1746";s:5:"score";s:17:"32.39507725164679";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"20717";s:5:"score";s:18:"29.888981497694253";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"5305";s:5:"score";s:18:"28.275923650714866";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"3591";s:5:"score";s:17:"26.31177562570378";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"5722";s:5:"score";s:17:"25.58230516892549";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:5:"20183";s:5:"score";s:18:"25.020845327443347";}}
-  fsb_social_facebook: '0'
-  fsb_social_twitter: '0'
-  fsb_social_linkedin: '0'
-  fsb_social_google: '0'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>I woke up from my long Sunday nap to see all kinds of commotion about upgrading WordPress to 2.8.4 due to a worm that is currently circulating. The <a href="http://wordpress.org/development/2009/09/keep-wordpress-secure/" target="_blank">WordPress blog reports</a>:</p>
 <blockquote><p>Right now there is a worm making its way around old, unpatched versions of WordPress. This particular worm, like many before it, is clever: it registers a user, uses a security bug (fixed earlier in the year) to allow evaluated code to be executed through the permalink structure, makes itself an admin, then uses JavaScript to hide itself when you look at users page, attempts to clean up after itself, then goes quiet so you never notice while it inserts hidden spam and malware into your old posts.</p></blockquote>
-<p>Upgrading to 2.8.4 is pretty easy and won't take more than 5 minutes. Here's the process I recommend: <!--more--></p>
+<p>Upgrading to 2.8.4 is pretty easy and won't take more than 5 minutes. Here's the process I recommend: </p>
 <ol>
 <li>Back up your database. If you don't already have a WordPress backup plugin, go to <strong>Plugins &gt; Add New</strong> and install <a href="http://wordpress.org/extend/plugins/wp-dbmanager/" target="_blank">WP-dbmanager</a>. With some web hosts, this plugin doesn't seem to work. If that's the case, use <a href="http://wordpress.org/extend/plugins/wp-db-backup/" target="_blank">WP-DB-Backup</a>. When you back up your database using one of these plugins, you'll be prompted to download an sql file (which contains all the content from your posts, pages, comments, and settings).</li>
 <li>Go to <strong>Tools &gt; Upgrade</strong> and click <strong>Upgrade Automatically</strong>. If you receive an error here, deactivate all your plugins and try it again.</li>

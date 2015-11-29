@@ -13,31 +13,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _kramer_synch: '1216077030'
-  _kramer_ref_failed: http://bl118w.blu118.mail.live.com/mail/ReadMessageLight.aspx?Action=NextMessage&FolderID=00000000-0000-0000-0000-000000000001&InboxSortAscending=False&InboxSortBy=Date&ReadMessageId=54d32d35-2211-4d9b-8b0e-969f71b320f5&n=1384998197
-  _sexybookmarks_shortUrl: http://tinyurl.com/4n233uf
-  _sexybookmarks_permaHash: 4e1c1ba7474ce259527a5eda12596055
-  sfw_comment_form_password: zrAsvixDcr9c
-  dcssb_short_url: http://bit.ly/PeNseV
-  _kramer_ref_ping: http://techwritervoices.com/2007/12/10/technical-communication-suite-from-adobe-interview-with-rj-jacquez/
-  _wp_rp_image: empty
-  _wp_rp_related_posts_query_result_cache_expiration: '1420657981'
-  _wp_rp_related_posts_query_result_cache_5: a:10:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20119";s:5:"score";s:18:"38.425369139709815";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:17:"36.21756807219648";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20750";s:5:"score";s:17:"34.79068562603553";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"32.57728676968356";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:18:"30.261110762171565";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:3:"178";s:5:"score";s:17:"28.60466616460478";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"332";s:5:"score";s:17:"26.33510762336376";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:18:"24.830626611233235";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"23.456795927717817";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20476";s:5:"score";s:18:"22.930784906996227";}}
-  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:5:"20119";s:5:"score";s:17:"38.05994173384805";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:5:"20655";s:5:"score";s:17:"37.66958995267311";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:5:"20220";s:5:"score";s:16:"36.2226176118383";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:5:"20750";s:5:"score";s:18:"34.550337197033684";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:5:"20001";s:5:"score";s:17:"32.28009784550457";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:5:"20496";s:5:"score";s:18:"30.470213243659003";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"178";s:5:"score";s:18:"28.438774269627647";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:3:"332";s:5:"score";s:18:"26.233966744760828";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:5:"13624";s:5:"score";s:17:"24.79518982050793";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:5:"20225";s:5:"score";s:18:"23.371787683271634";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:5:"20102";s:5:"score";s:18:"23.371787683271634";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"6783";s:5:"score";s:18:"22.815431643469985";}}
-  fsb_social_facebook: '1'
-  fsb_social_twitter: '0'
-  fsb_social_linkedin: '0'
-  fsb_social_google: '0'
-  dsq_thread_id: '3770198354'
-author:
-  login: tomjohnson1492
-  email: tomjohnson1492@gmail.com
-  display_name: Tom Johnson
-  first_name: Tom
-  last_name: Johnson
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
 ---
 <p>I was reading an article in a previous STC Intercom magazine about how to add a Send Feedback link to your online help project, but the javascript didn't work. Here's an alternative method that does work.  This Send Feedback link grabs the page title and URL and includes it in the e-mail that the user sends.</p>
 <p>The method below describes the integration using RoboHelp, but the principles apply to almost any online help editor.</p>
@@ -47,7 +22,7 @@ excerpt: !ruby/object:Hpricot::Doc
 <li>In RoboHelp 7, go to Insert &gt; HTML &gt; Advanced &gt; Scripts. Insert the following code:</li>
 </ol>
 <blockquote><p>document.write("&lt;a href="mailto:joe@support.com?subject=Application Name |  " + document.title + " | " +  location.href + ""&gt; Send Feedback&lt;/a&gt;") ;</p></blockquote>
-<p><!--more-->This will put the page title and URL in the subject of the e-mail. However, I had some problems with character limits, so here's an alternative script that puts the URL in the body of the message.</p>
+<p>This will put the page title and URL in the subject of the e-mail. However, I had some problems with character limits, so here's an alternative script that puts the URL in the body of the message.</p>
 <blockquote><p>document.write("&lt;a href="mailto:joe@support.com?subject=Application%20Name%20("+document.title+")%20%20File:%20"+location.href+""&gt;Send Feedback&lt;/a&gt;");</p></blockquote>
 <p>The link will now appear in every one of your topics that uses the template.</p>
 <p>If you aren't using the Insert &gt; HTML &gt; Advanced &gt; Scripts method to insert the code, then you need to include script tags around the statement.</p>

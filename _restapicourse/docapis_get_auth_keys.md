@@ -65,7 +65,7 @@ When you're working with code, you use a text editor instead of a rich text edit
 * [TextWrangler](http://www.barebones.com/products/textwrangler/) or [BBedit](http://www.barebones.com/products/bbedit/) (Mac)
 * [WebStorm](https://www.jetbrains.com/webstorm/) (Mac or PC)
 * [Notepad++](https://notepad-plus-plus.org/) (PC)
-* [Atom](https://atom.io/) (Mac)
+* [Atom](https://atom.io/) (Mac or Windows)
 * [Komodo Edit](http://komodoide.com/komodo-edit/) (Mac or PC)
 * [Coda](https://panic.com/coda/) (Mac)
 
