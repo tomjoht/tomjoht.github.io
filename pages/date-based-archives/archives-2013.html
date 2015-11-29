@@ -1,14 +1,14 @@
----
+    ---
 title: 2013 archives
 permalink: /archives-2013/
 keywords: archives by date
 year: 2013
 ---
-<ol>
-{% for post in site.posts %}
-{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-{% if year == "2013" %}
-<li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></li>
-{% endif %}
-{% endfor %}
-</ol>
+    <ol>
+        {% for post in site.posts %}
+        {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+        {% if year == "2013" %}
+        <li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></li>
+        {% endif %}
+        {% endfor %}
+    </ol>
