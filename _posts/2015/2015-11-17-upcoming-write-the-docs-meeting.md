@@ -3,7 +3,7 @@ title: Upcoming Write the Docs Meetup
 categories:
 - general
 keywords: 
-summary: "Write the Docs has a meetup in downtown San Francisco on Dec. 17 with the topic of creating documentation for startups. The meetup is a panel discussion that I helped organize."
+summary: "Write the Docs has a meetup in downtown San Francisco on Dec. 17 with the topic of creating documentation for startups. The meetup is a panel discussion with four panelists with a lot of experience creating documentation at startup companies. You can ask questions ahead of time, or come prepared to ask them at the meeting."
 published: true
 thumb: wtdpaneliststhumb.png
 ---
