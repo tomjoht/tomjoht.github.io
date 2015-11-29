@@ -5,7 +5,7 @@ categories:
 keywords: 
 summary: "Write the Docs has a meetup in downtown San Francisco on Dec. 17 with the topic of creating documentation for startups. The meetup is a panel discussion that I helped organize."
 published: true
-thumb: wtdpaneliststhumb
+thumb: wtdpaneliststhumb.png
 ---
 
 Write the Docs is having a meetup on December 17, 2016, in downtown San Francisco at Atlassian. The topic will be a panel discussion about strategies for startup documentation. Here are the four panelists:
@@ -14,7 +14,7 @@ Write the Docs is having a meetup on December 17, 2016, in downtown San Francisc
 
 For more details, see [the meetup description](http://www.meetup.com/Write-the-Docs/events/226495517/).
 
-I'm actually helping co-organize some of the WTD events (as well as the events for the STC Silicon Valley chapter). I seem to know quite a few people, and I like connecting with various professionals in the area. 
+I'm actually helping identify topics and speakers for the WTD events (as well as for the STC Silicon Valley chapter). I seem to know quite a few people, and I like connecting with various professionals in the area. 
 
 I'm impressed by the momentum of Write the Docs. It seems to be growing quickly in many areas of the world. It's free to join, the meetings are often advertised through meetup.com, and there's even a [Slack channel you can join](http://slack.writethedocs.org/).  
 
