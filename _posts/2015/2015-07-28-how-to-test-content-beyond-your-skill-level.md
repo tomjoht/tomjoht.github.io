@@ -3,7 +3,7 @@ title: How do you test content that's beyond your skill level?
 categories:
 - general
 tags: [series_testing_documentation]
-series: Testing documentation
+series: testing_documentation
 keywords: testing complex content, admin server setups
 summary: "Sometimes with developer documentation, some of the content may be beyond your skill level to set up and test. In these cases, you can ask developers for help in setting up your system so that you can run the necessary tests. Alternatively, you can test the instructions with users and gather feedback indirectly."
 weight: 1.5

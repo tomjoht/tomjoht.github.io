@@ -3,7 +3,7 @@ title: Should technical writers care about more than documentation?
 categories:
 - general
 tags: [series_testing_documentation]
-series: Testing documentation
+series: testing_documentation
 keywords: content strategy, the customer experience, holistic customer journeys
 summary: "As a technical writer, your holistic understanding of the total customer journey allows you to extend beyond your doc-writing role to wear other hats with usability, quality assurance, product management, training, support, and more. But the more time you spend in these other roles, the less time you have to spend on documentation, which results in a weaker doc product."
 weight: 1.3

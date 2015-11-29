@@ -3,7 +3,7 @@ title: Should QA test documentation?
 categories:
 - general
 tags: [series_testing_documentation]
-series: Testing documentation
+series: testing_documentation
 keywords: quality assurance, testing, documentation, rigorous review
 summary: "The past few years, I've allowed doc to be treated as an external product, separate from the software engineering code. In reality, doc would probably benefit tremendously from a more strict integration with the engineering code review cycles, with the review split between QA and product management."
 weight: 1.1
