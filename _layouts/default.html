@@ -33,12 +33,13 @@
     <div class="col-md-9">
 
         {{content}}
-        <div id="sidebarAreaHomePage">
+        <div id="sidebarAreaHomePage"><!-- appears for mobile view only-->
             <ul id="mytechsidebar" class="nav">
                 {% include social_media_icons.html %}
                 {% include notestoc.html %}
                 {% include tinyletter.html %}
                 {% include sidebar_ads.html %}
+                {% include text_ads.html %}
                 {% include recent_comments.html %}
             </ul>
         </div>

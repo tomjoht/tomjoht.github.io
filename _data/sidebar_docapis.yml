@@ -4,17 +4,16 @@ entries:
   subcategories:
   subcategories:
     - title: Frontmatter
-      web: false
+      output: pdf
       items:
         - title: Title Page
           url: /titlepage.html
-          web: false
-          print: true
+          output: pdf
 
         - title: Table of Contents
           url: /tocpage.html
-          web: false
-          print: true
+          output: pdf
+
     - title: Using a REST API as a developer
       items:
         - title: Course overview
