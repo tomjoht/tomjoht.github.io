@@ -7,8 +7,7 @@ year: 2011
 <ol>
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-    {% assign pageYear == page.year %}
-    {% if year == "pageYear" %}
+    {% if year == "2011" %}
     <li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></li>
     {% endif %}
     {% endfor %}
