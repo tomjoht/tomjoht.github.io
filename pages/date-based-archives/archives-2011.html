@@ -1,15 +1,15 @@
 ---
-title: 2015 archives
-permalink: /archives-2015/
+title: 2011 archives
+permalink: /archives-2011/
 keywords: archives by date
-year: 2015
+year: 2011
 ---
 <ol>
 {% for post in site.posts %}
 {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-{% if year == "2015" %}
-{% unless forloop.first %}</ol>{% endunless %}
+{% if year == "2011" %}
+<ol>
 <li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></li>
 {% endif %}
 {% endfor %}
-</ol>
+ </ol>

@@ -7,7 +7,6 @@ year: 2010
 <ol>
 {% for post in site.posts %}
 {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-{% if year == "2010" %}
 {% unless forloop.first %}</ol>{% endunless %}
 <li><h4 class="categoryArchive"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <span class="postDate"> | {{ post.date | date: "%b %-d, %Y" }}</span></li>
 {% endif %}
