@@ -659,7 +659,6 @@ p {
 h3.sidebar {
     color: #777;
     font-weight: normal;
-    padding-top:20px;
 }
 
 h3.notesTitle {
@@ -1009,26 +1008,9 @@ ul#mysidebar li.active a {
     }
 
     .singlePostAds img {
-        max-width: 70%;
+        max-width: 80%;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
     }
 }
-
-/*
-@media (max-width: 990px) {
-    #mysidebar {
-        position: relative;
-    }
-}
-*/
-
-
-/*
-@media only screen and (min-width: 981px), only screen and (max-device-width: 981px) {
-    .col-md-9 img {
-        max-width: 700px
-    }
-}
-*/
