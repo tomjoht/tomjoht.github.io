@@ -322,8 +322,6 @@ ul#mysidebar {
   border-radius:0px;
     padding:20px
     width:250px;
-    margin-bottom:30px;
-    margin-top:15px;
 }
 
 ul#mysidebar li {
@@ -659,12 +657,13 @@ p {
 h3.sidebar {
     color: #777;
     font-weight: normal;
+    padding-top:30px;
 }
 
 h3.notesTitle {
     color: #777;
     font-weight: normal;
-    padding-top:25px;
+    padding-top:30px;
 }
 
 .siteLogo img {
