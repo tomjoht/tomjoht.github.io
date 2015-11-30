@@ -17,8 +17,6 @@
                     easing: 'swing'
         }
     });
-
-
     });
 </script>
 
@@ -59,8 +57,11 @@
 {% assign sidebarTitle = "Testing documentation" %}
 {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
 
+{% endif %}
+{% if page.type or page.series %}
 <h3 class="notesTitle">{{sidebarTitle}}</h3>
 <ul id="mysidebar" class="nav">
+    {% endif %}
     {% for entry in sidebar %}
     {% for subcategory in entry.subcategories %}
     {% unless subcategory.output == "pdf" %}
@@ -96,7 +97,7 @@
     <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
 </p>
 {% endif %}
-{% endif %}
+
 {% comment %}  this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above.{% endcomment %}
 {% endif %}
 
