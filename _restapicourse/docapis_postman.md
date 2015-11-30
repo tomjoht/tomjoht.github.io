@@ -45,24 +45,23 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 3. Insert the endpoint into the box next to GET: `https://simple-weather.p.mashape.com/aqi`
 4. Click the **Params** button and insert `lat` and `lng` parameters with specific values (other than `1`).
 
-    {{site.data.alerts.note}} Only some countries are supported in the `aqi` call. For this particular request, use Singapore. For example, `lat: 1.3321256` and `lng: 103.7373503`. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
+    {{site.data.alerts.note}} Only some countries are supported in the `aqi` call &mdash; specifically Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. To get the aqi for Singapore, use `lat: 1.3321256` and `lng: 103.7373503`. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
 
     <img src="{{ "/images/restapicourse/googlemapslatlong.png" | prepend: site.baseurl }}" alt="Finding latitude and longitude on Google Maps" />
 	
-	When you add these parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the string followed by the `?` in the endpoint URI. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're added through an ampersand `&` symbol.
+	When you add these `lat` and `lng` parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the code followed by the `?` in the endpoint URI. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're joined with an ampersand `&` symbol.
 	
-5. Expand the **Headers** section and insert the key value pairs: `Accept: application/text` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key.)
-6. Insert the endpoint URL (with the query string parameters) into the field next to GET.
-
+5. Expand the **Headers** section and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key in place of `{api key}`.)
+	
     It should look like this:
 
 	<img src="{{ "/images/restapicourse/postmansample.png" | prepend: site.baseurl }}" alt="Postman request" />
 
 7. Click **Send**.
 
-	The response appears. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats.
+	The response appears. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats, but since this response is text only, you won't see any difference.
 	
-	{{note}} Usually the responses are more detailed JSON. Notice that the header set the <code>Accept</code> type as <code>text/plain</code>.{{end}}
+	{{note}} Usually the responses are more detailed JSON, which allows you to select a specific part of the response to work with.{{end}}
 	
 ## Save the request
 {{activity}}
@@ -86,7 +85,7 @@ When you save these other endpoints, click the arrow next to Save and choose **S
 
 (Alternatively, click the **+** button and create new tabs each time.)
 
-{{note}}The Accept header tells the browser what format you will accept the response in. The Accept header for the <code>weatherdata</code> endpoint is <code>application/json</code>, whereas the first two are <code>application/text</code>. {{end}}
+{{note}}The Accept header tells the browser what format you will accept the response in. The Accept header for the <code>weatherdata</code> endpoint is <code>application/json</code>, whereas the first two are <code>text/plain</code>. {{end}}
 
 ## View the format of the weatherdata response in JSON
 {{activity}}
@@ -94,23 +93,23 @@ The first two endpoint responses include text only. The weatherdata endpoint res
 
 In Postman, run the weatherdata call. Then toggle the options to **Pretty** and **JSON**.
 
-<img src="{{ "/images/restapicourse/postmanjsonresponse.png" | prepend: site.baseurl }}" alt="" />
+<img src="{{ "/images/restapicourse/postmanjsonresponse.png" | prepend: site.baseurl }}" alt="JSON response" />
 
 The Pretty JSON view expands the JSON response into more readable code. 
 
 {{tip}} To "prettify" content means to un-minify it and format it with white space that is readable. {{end}}
 
-For the sake of variety, here's the same call made in Paw:
+For the sake of variety with GUI clients, here's the same call made in Paw:
 
 <img src="{{ "/images/restapicourse/pawexample.png" | prepend: site.baseurl }}" alt="Paw" />
 
 Paw also allows you to easily see the request headers, response headers, URL parameters, and other data.
 
 ## Enter several requests for the Aeris API into Postman
+{{activity}}
+Now let's switch APIs a bit and see some weather information from the Aeris API. Constructing the endpoints for the Aeris Weather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint. (Additionally, some locations have the information, and others don't.)
 
-Now let's switch APIs a bit and see some weather information from the Aeris API. Constructing the endpoints for the Aeris Weather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint. (Some locations have the information, and others don't.)
-
-Here are a few requests to configure for Aeris. You can just paste the requests direct into the URL and the parameters will auto-populate in the parameter fields. The Aeris API doesn't use a Header field to pass the API keys &mdash; they're passed in the request URL.
+Here are a few requests to configure for Aeris. You can just paste the requests directly into the URL and the parameters will auto-populate in the parameter fields. Note how the Aeris API doesn't use a Header field to pass the API keys &mdash; the key and secret are passed directly in the request URL as part of the query string.
 
 Find out if all the country music in Knoxville, Tennessee is giving people migraines:
 
@@ -124,16 +123,18 @@ Get the weather forecast for your area:
 http://api.aerisapi.com/observations/Santa+Clara,CA?client_id={client id}&client_secret={client secret}&limit=1
 ```
 
-Find the wind speed and compare it with the wind from the Mashape API. Are they the same?
+In the response, find the wind speed and compare it with the wind from the Mashape API. Are they the same?
 
-Now get the weather from a city on the equator &mdash; Chimborazo, Ecuador:
+Get the weather from a city on the equator &mdash; Chimborazo, Ecuador:
 
 ```
 http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id={client id}&client_secret={client secret}&limit=1
 ```
 
-Now you're thinking of moving to Arizona, but you want to find a place that's cool. Use the `normals` endpoint:
+You're thinking of moving to Arizona, but you want to find a place that's cool. Use the `normals` endpoint:
 
 ```
 http://api.aerisapi.com/normals/flagstaff,az?client_id={client id}&client_secret={client secret}&limit=5&filter=hassnow
 ```
+
+By looking at these two different weather APIs, you can see some sharp differences in the way the information is called and returned. However, fundamentally both APIs have various endpoints that you can configure with parameters. When you make requests with the endpoints, you get responses that contain information, often in JSON format.
