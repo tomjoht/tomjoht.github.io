@@ -1,7 +1,7 @@
 ---
 title: Planning my API doc course 
 categories:
-- jekyll
+- general
 keywords: 
 summary: "As I prepare to record my API doc course, I'm finalizing a few thoughts about the content, setup, and other details."
 thumb:
