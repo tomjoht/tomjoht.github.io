@@ -12,19 +12,21 @@ type: notes_docapis
 
 ## About authorization for API calls
 
-Almost every API has a method in place to authenticate requests. You usually have to provide your API key in requests in order to get a response. Authorization allows API publishers to do the following:
+Almost every API has a method in place to authenticate requests. You usually have to provide an API key in requests in order to get a response. Authorization allows API publishers to do the following:
 
 * License access to the API
 * Rate limit the number of requests
-* Control availability of certain features within the API
+* Control availability of certain features within the API, and more
 
 {{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation. Later in the course we will dive into <a href="{{ "/docapis_more_about_authorization" | prepend: site.baseurl }}">authorization methods in more detail</a>.{{end}}
+
+In order to run the code samples in this course, you will need to use your own API keys, since these are usually treated like personal passwords and not given out or published openly on a web page.
 
 ## Get the Mashape authorization keys
 {{activity}}
 In order to get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
 
-1. On [Mashape.com](http://mashape.com), click **Sign Up Free** in the upper-right corner and create an account.
+1. On [Mashape.com](https://market.mashape.com/), click **Sign Up** in the upper-right corner and create an account.
 2. Click **Applications** on the top navigation bar, and then select **Default Application**.
 3. In the upper-right corner, click **Get the Keys**.
 	
@@ -69,7 +71,7 @@ When you're working with code, you use a text editor instead of a rich text edit
 * [Komodo Edit](http://komodoide.com/komodo-edit/) (Mac or PC)
 * [Coda](https://panic.com/coda/) (Mac)
 
-These editors provide features that let you better manage the text. Choose the one you want. (Personally, I use Sublime Text when I'm working with code samples, and WebStorm when I'm working with Jekyll projects.)
+These editors provide features that let you better manage the text. Choose the one you want. (Personally, I use Sublime Text when I'm working with code samples, and WebStorm when I'm working with Jekyll projects.) Avoid using TextEdit since it adds some formatting behind the scenes that can corrupt your content.
 
 
 

@@ -33,7 +33,7 @@ Of the various GUI clients available, I think Postman is the best option, since 
 
 A lot of times abstract concepts don't make sense until you can contextualize them with some kind of action. In this course, I'm following more of an act-first-then-understand type of methodology. After you do an activity, we'll explore the concepts in more depth. I think this reflects how people use software and documentation.
 
-If it seems like I'm glossing over some things now, like what a GET method is or a resource URI, hang in there. When we deep dive into that point later, and things will be a lot clearer.
+{{site.data.alerts.note}} If it seems like I'm glossing over some things now, like what a GET method is or a resource URI, hang in there. When we deep dive into these points later, and things will be a lot clearer. {{site.data.alerts.end}}
 
 ## Make a request in Postman
 {{activity}}
@@ -45,15 +45,13 @@ If it seems like I'm glossing over some things now, like what a GET method is or
 3. Insert the endpoint into the box next to GET: `https://simple-weather.p.mashape.com/aqi`
 4. Click the **Params** button and insert `lat` and `lng` parameters with specific values (other than `1`).
 
-    For example, `lat: 37.354108` and `lng: -121.955236`. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.
+    {{site.data.alerts.note}} Only some countries are supported in the `aqi` call. For this particular request, use Singapore. For example, `lat: 1.3321256` and `lng: 103.7373503`. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
 
     <img src="{{ "/images/restapicourse/googlemapslatlong.png" | prepend: site.baseurl }}" alt="Finding latitude and longitude on Google Maps" />
-
-	You can also find coordinates for a location using [mapcoordinates.net](http://www.mapcoordinates.net/en).
 	
 	When you add these parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the string followed by the `?` in the endpoint URI. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're added through an ampersand `&` symbol.
 	
-5. Expand the **Headers** section and insert the key value pairs: `Accept: application/json` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key.)
+5. Expand the **Headers** section and insert the key value pairs: `Accept: application/text` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key.)
 6. Insert the endpoint URL (with the query string parameters) into the field next to GET.
 
     It should look like this:
