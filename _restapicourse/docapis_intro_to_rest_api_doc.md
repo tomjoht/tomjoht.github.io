@@ -10,31 +10,15 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-## Different kinds of APIs
-The API landscape is diverse. To get a taste of this variety, check out Sarah Maddox's post about [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).
-
-<a href="https://ffeathers.wordpress.com/2014/02/16/api-types/"><img src="{{ "/images/publishingapidocs/apitypes.png" | prepend: site.baseurl }}" alt="API Types" /></a>
-
-Despite the wide variety, I think there are mostly just two main types of APIs most technical writers interact with:
-
-* Native library APIs, such as APIs for Java, C++, and .NET
-* REST APIs
-
-With native library APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
-
-With REST APIs, you don't deliver any library of files to users. Instead, the users make requests for the resources, and the APIs return responses. REST APIs follows the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
-
-This course focuses mostly on REST APIs because they're more accessible to technical writers, as well as more popular and in demand.
-
 ## Programmableweb API survey rates doc #1 factor in APIs
 
 Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation market in general.
 
-In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07), about 250 developers were asked to rank the most important factors in an API. "Complete and accurate documentation" ranked as #1.
+In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07) (which is a site that tracks and lists REST APIs on the web), about 250 developers were asked to rank the most important factors in an API. "Complete and accurate documentation" ranked as #1.
 
 <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "/images/restapicourse/progwebsurvey.png" | prepend: site.baseurl }}" alt="Programmableweb survey" /></a>
 
-John Musser, one of the founders of Programmableweb.com, has followed up on the importance of good API documentation in some of his presentations. In "10 reasons why developers hate your API," he says the number one reason developers hate your API is because "Your documentation sucks."
+John Musser, one of the founders of Programmableweb.com, also emphasized the importance of documentation in some of his presentations. In "10 reasons why developers hate your API," he says the number one reason developers hate your API is because "Your documentation sucks."
 
 <a href="http://www.slideshare.net/jmusser/ten-reasons-developershateyourapi"><img src="{{ "/images/restapicourse/yourdocsucks.png" | prepend: site.baseurl }}" alt="Your API documentation sucks" /></a>
 
@@ -50,15 +34,15 @@ eBay's API in 2005 was one of the first web APIs. Since then, the tremendous gro
 
 REST APIs are a bit different from the SOAP APIs that were popular some years ago. SOAP APIs (service-oriented architecture protocol) enforced a specific message format for sending requests and returning responses. As an XML message format, SOAP was was very specific and had a WSDL file (web service description language) that described how to interact with the API.
 
-REST APIs, however, do not follow a standard message format. Instead, REST is an architectural style, a set of recommended practices for submitting requests and returning responses. In order to understand the request and response format for the REST API, you don't consult the SOAP message specification or look at the WSDL file. Instead, you have to consult the REST API documentation.
+REST APIs, however, do not follow a standard message format. Instead, REST is an architectural style, a set of recommended practices for submitting requests and returning responses. In order to understand the request and response format for the REST API, you don't consult the SOAP message specification or look at the WSDL file. Instead, you have to consult the REST API *documentation*.
 
-Each REST API functions a bit differently. There isn't a single way of doing things, and this flexibility and variety is what fuels the need for accurate and clear documentation with REST APIs. As long as there is variety, there will be a strong need for technical writers.
+Each REST API functions a bit differently. There isn't a single way of doing things, and this flexibility and variety is what fuels the need for accurate and clear documentation with REST APIs. As long as there is variety with REST APIs, there will be a strong need for technical writers.
 
 ## The web is becoming an interwoven mashup of APIs
 
 Another reason why REST APIs are taking off is because the web itself is evolving into a conglomeration of APIs. Instead of massive, do-it-all systems, web sites are pulling in the services they need through APIs. For example, rather than building your own search to power your website, you might use Switftype instead and leverage their service through their [Swifttype API](https://swiftype.com/developers).
 
-Rather than building your own payment gateway, you integrate [Stripe and its API](https://stripe.com/docs/api). Rather than building your own login system, you might use [UserApp and its API](https://app.userapp.io/#/docs/). And so on. Rather than building your own e-commerce system, you might use [Snipcart and its API](http://docs.snipcart.com/api-reference/introduction).
+Rather than building your own payment gateway, you might integrate [Stripe and its API](https://stripe.com/docs/api). Rather than building your own login system, you might use [UserApp and its API](https://app.userapp.io/#/docs/). Rather than building your own e-commerce system, you might use [Snipcart and its API](http://docs.snipcart.com/api-reference/introduction). And so on.
 
 Practically every service provides its information and tools through an API that you use. Jekyll, a popular static site generator, doesn't have all the components you need to run a site. For example, there's no newsletter integration, analytics, search, commenting systems, forms, chat ecommerce, surveys, or other systems. Instead, you leverage the services you need into your static site.
 
@@ -66,9 +50,9 @@ CloudCannon has a [long list of services](http://cloudcannon.com/tips/2014/12/12
 
 <a href="http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html"><img src="{{ "/images/servicesforstaticsites.png" | prepend: site.baseurl }}" alt="services for static websites" /></a>
 
-This cafeteria style model is replacing the massive, swiss-army-site model that tries to do anything and everything. It's better to let specialists create a very powerful, robust tool (such as search) and leverage their service rather than trying to build all of these services yourself.
+This cafeteria style model is replacing the massive, swiss-army-site model that tries to do anything and everything. It's better to rely on specialized companies create powerful, robust tools (such as search) and leverage their service rather than trying to build all of these services yourself.
 
-The way each site leverages its service is usually through a REST API of some kind. The web is becoming an interwoven mashup of lots of different services from different APIs interacting with each other.
+The way each site leverages its service is usually through a REST API of some kind. The web is becoming an interwoven mashup of many different services from different APIs interacting with each other.
 
 ## Job market is hot for API technical writers
 Many employers are looking to hire technical writers who can create not only complete and accurate documentation, but who can also create stylish outputs. Here's a recent job posting from a recruiter looking for someone who can emulate Dropbox's documentation.
@@ -99,11 +83,11 @@ When you try to navigate the world of API documentation, the world looks as unfa
 
 ## Learning materials about API doc are scarce
 
-Realizing there was a need for more information, I guest-edited a special issue of Intercom dedicated to API documentation.
+Realizing there was a need for more information, last year I guest-edited a special issue of Intercom dedicated to API documentation.
 
 <a href="http://bit.ly/stcintercomapiissue"><img src="{{ "/images/restapicourse/intercom.png" | prepend: site.baseurl }}" alt="STC Intercom issue focused on API documentation" /></a> 
 
-This issue was a good start, but many technical writers have asked for more training. In our Silicon Valley STC chapter, we've held a couple of workshops dedicated to APIs. Both workshops sold out quickly (with 60 participants in the first, and 100 participants in the second). 
+This issue was a good start, but many technical writers have asked for more training. In our Silicon Valley STC chapter, we've held a couple of workshops dedicated to APIs. Both workshops sold out quickly (with 60 participants in the first, and 100 participants in the second). API documentation is particularly hot in the San Francisco Bay area, where many companies have REST APIs.
 
 Last year, the STC Summit in Columbus held its first ever API documentation track.
 

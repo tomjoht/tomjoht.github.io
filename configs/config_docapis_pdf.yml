@@ -2,7 +2,7 @@ destination: ../docapis-pdf
 url: "http://127.0.0.1:4033"
 baseurl: "/docapis"
 port: 4033
-print: true
+output: pdf
 print_title: Documenting REST APIs
 print_subtitle: "Tom Johnson"
 defaults:

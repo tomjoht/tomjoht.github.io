@@ -8,7 +8,7 @@ disqus_shortname: idratherbewriting
 google_analytics: UA-408430-5
 markdown: redcarpet
 show_audience_label: true
-print: false
+output: web
 paginate: 15
 timezone: America/Los_Angeles
 redcarpet:

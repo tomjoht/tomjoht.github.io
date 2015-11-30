@@ -57,12 +57,9 @@ $.ajax(settings)
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
 <b>Wind direction: </b><span id="wind_direction"></span>
 
-You can view the same code in a separate window here:
+You can view the same code in a separate window here: <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank">Mashape API example</a>
 
-* <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank">Mashape API example</a>
-* <a href="{{ "/files/restapicourse/wind-aeris.html" | prepend: site.baseurl }}" alt="Aeris example" target="_blank">Aeris Weather API example</a>
-
-{% if site.print == true %} 
+{% if site.output == "web %} 
 {{note}} Obviously, PDF doesn't support the HTTP protocol, so you'll need to go online to <a href="http://idratherbewriting.com/docapis_exploring_restapi_marketplace/">Exploring a REST API marketplace"</a> to view this example.{{end}}
 {% endif %}
 
@@ -80,7 +77,9 @@ As you learn about APIs, we'll explore two weather APIs at the same time because
 
 {{activity}}
 
-Mashape is a directory where publishers can publish their APIs, and where consumers can consume the APIs. Mashape manages the interaction between publishers and consumers by providing an interactive marketplace for APIs.
+Mashape is a directory where publishers can publish their APIs, and where consumers can consume the APIs. Mashape manages the interaction between publishers and consumers by providing an interactive marketplace for APIs. 
+
+The APIs on Mashape tend to be rather simple compared to some other APIs, but this simplicity will work well to illustrate the various aspects of an API without getting too mired in other details.
 
 <img src="{{ "/images/restapicourse/mashape_explore_apis.png" | prepend: site.baseurl }}" alt="Explore APIs at Mashape" />
 
@@ -108,6 +107,8 @@ Now click **Reference**, and then **Endpoints**.
 <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/"><img src="{{ "/images/restapicourse/aerisendpoints.png" | prepend: site.baseurl }}" alt="Aeris Endpoints" /></a>
 
 In the list of endpoints, click **forecasts**. Browse the type of information that is available through this API.
+
+Here's the Aeris weather forecast API in action making the same call as I showed earlier: <a href="{{ "/files/restapicourse/wind-aeris.html" | prepend: site.baseurl }}" alt="Aeris example" target="_blank">Aeris Weather API example</a>.
 
 ## Answer some questions about the APIs
 {{activity}}

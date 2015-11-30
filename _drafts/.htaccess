@@ -1,4 +1,0 @@
-AuthUserFile /var/www/html/tjohnson/.htpasswd
-AuthType Basic
-AuthName "My Files"
-Require valid-user

@@ -62,8 +62,24 @@ Here are a few things you'll need in this course:
 * **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's Developer Console.)
 * **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**. Postmany is a Chrome app that allows you to make requests and see responses through a GUI client.
 * **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line. 
-* **Git**. Git is a version control tool developers often use to collaborate on code. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
+* **[Git](https://git-scm.com/)**. Git is a version control tool developers often use to collaborate on code. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.
 
+## Course focus is on REST APIs
+The API landscape is diverse. (To get a taste of this variety, check out Sarah Maddox's post about [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).)
 
+<a href="https://ffeathers.wordpress.com/2014/02/16/api-types/"><img src="{{ "/images/publishingapidocs/apitypes.png" | prepend: site.baseurl }}" alt="API Types" /></a>
+
+Despite the wide variety, I think there are mostly just two main types of APIs most technical writers interact with:
+
+* Native library APIs (such as APIs for Java, C++, and .NET)
+* REST APIs
+
+With native library APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
+
+With REST APIs, you don't deliver a library of files to users. Instead, the users make requests for the resources on a web server, and the APIs return responses. 
+
+REST APIs follows the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
+
+This course focuses mostly on REST APIs because they're more accessible to technical writers, as well as more popular and in demand. You don't need to know programming to document REST APIs. And REST is becoming the most common type of API anyway.
