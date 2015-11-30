@@ -5,14 +5,9 @@ topnav:
   subcategories:
     - title: API doc course
       url: /docapis_course_overview/
-    - title: Podcasts
-      url: /category-podcasts/
 
     - title: Beginners
       url: /category-beginners/
-
-    - title: Jobs
-      url: /findjobs/
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -26,8 +21,6 @@ topnav_dropdowns:
           url: /contact/
         - title: Presentations
           url: /presentations/
-        - title: Advertising
-          url: /advertising/
 
     - title: Archives
       items:
@@ -150,8 +143,6 @@ topnav_dropdowns:
         url: /category-innovation/
       - title: Jekyll
         url: /category-jekyll/
-      - title: Podcasts
-        url: /category-podcasts/
       - title: Quick reference guides
         url: /category-quick-reference-guides/
       - title: Screencasting
@@ -170,11 +161,11 @@ topnav_dropdowns:
         url: /category-wordpress/
       - title: Writing
         url: /category-writing/
-#    - title: Advertising
-#      items:
-#        - title: Advertising
-#          url: /advertising/
-#        - title: Impressions
-#          url: /impressions/
-#        - title: Clicks
-#          url: /clicks/
+    - title: Other
+      items:
+        - title: Advertising
+          url: /advertising/
+        - title: Jobs
+          url: /findjobs/
+        - title: Podcasts
+          url: /category-podcasts/
