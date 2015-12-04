@@ -7,7 +7,8 @@ keywords: software automation, careers, AI, robots replacing humans, technical w
 summary: "In this guest post, Robert Desprez looks at the possibility that advanced technology may replace the need for technical writers. Desprez explores a recent book by Martin Ford (<i>Rise of the Robots</i>) on the subject. "
 ---
 
-The following is a guest post by Robert Desprez, a technical writer in Vancouver, British Columbia, Canada.
+<i>The following is a guest post by Robert Desprez, a technical writer in Vancouver, British Columbia, Canada.</i>
+<hr />
 
 For years, we've been hearing that the work of technical writers may be commoditized and that jobs are being offshored, the process where knowledge-based positions are re-located to lower-wage countries. Well educated and highly paid jobs such as a lawyers, accountants, radiologists, and information technology workers, including technical writers, have been displaced to countries such as India.
 
