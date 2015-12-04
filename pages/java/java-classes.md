@@ -16,7 +16,7 @@ type: notes_java
 * can be initialized with arguments
 * uses Upperclass camel case
 * class name must match file name
-* you can only have 1 public class, but you can have multiple non-public classes
+* you can only have 1 *public* class per Java file, but you can have multiple non-public classes in the same file
 * contains fields (primitives or object references) and methods
 
 ## Eclipse example
