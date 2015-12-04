@@ -1,5 +1,5 @@
 ---
-title: Guest Post: Could Software Perform Technical Writing? by Robert Desprez
+title: "Guest Post: Could Software Perform Technical Writing? by Robert Desprez"
 categories:
 - general
 - writing
@@ -18,6 +18,7 @@ Now there's another threat on the horizon. In the book titled <em><a href="http:
 	<li>Even white collar positions are not immune. Ford argues that technology and automation is pruning jobs across industries so that organizations require fewer and fewer staff. Companies like Google are known to be excellent employers, whether it's for their good pay, stellar benefits, and the free gourmet lunches. But for all their influence and enviable profitability, these companies are not hiring as many workers as you might expect. Ford writes, "In 2012, Google, for example, generated a profit of $14 billion while employing fewer than 38,000 people.  Contrast that with the automotive industry. At peak employment in 1979, General Motors alone had nearly 840,000 workers but earned only about $11 billion—20 percent less than what Google raked in. And, yes, that's after adjusting for inflation."</li>
 	<li>As software algorithms become sophisticated and powerful, we may just see more sweeping effects on knowledge-based jobs. Ford writes: "As Netscape co-founder Marc Andreesen famously said, 'Software is eating the world.' More often than not, that software will be hosted in the cloud. From that vantage point, it will eventually be poised to invade virtually every workplace and swallow up nearly every white-collar job that involves sitting in front of a computer manipulating information."</li>
 </ul>
+
 Although Ford doesn't specifically mention technical writers, he does provide examples of how technology already exists that is supplanting journalists. Narrative Science's technology is used by media outlets, including <em>Forbes</em>, to produce automated articles, including those in sports, business, and politics. Narrative Science's software reportedly generates a new story <em>every 30 seconds</em>. Other media outlets may also be using the software but may be reluctant to admit it, given that it could be killing jobs in an industry already ravaged by the disruptive effects of technology.
 
 More concerning for technical writers, <a href="https://www.narrativescience.com/" target="_blank">Narrative Science</a> isn't limiting itself to journalism. The company's technology can also produce reports for both internal and external audiences across different industries. The software can collect data from sources including databases, financial and sales reporting systems, web sites, and social media. It then analyzes the data to understand the most important content and then writes a document. Outside of the media, the company's clients include MasterCard, Deloitte, and In-Q-Tel, an arm of the Central Intelligence Agency.
