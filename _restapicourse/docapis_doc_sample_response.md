@@ -128,7 +128,7 @@ The following is a sample response from the <code>surfreport/{beachId}</code> en
                     "watertemp": 50,
                     "surfheight": 3,
                     "recommendation": "Surfing conditions are okay, not great."
-                }
+                },
                 "3pm": {
                     "tide": -1,
                     "wind": 10,
@@ -168,7 +168,7 @@ The following is a sample response from the <code>surfreport/{beachId}</code> en
 </tr>
 <tr>
 <td><strong><span class="muted">{day}/{time}</span>/wind</strong></td>
-<td>The wind speed at the beach, measured in knots per hour or kilometers per hour depending on the units you specify. Wind affects the surf height and general wave conditions. Wind speeds of more than 15 knots per hour make surf conditions undesirable, since the wind creates white caps and choppy waters.</td>
+<td>The wind speed at the beach, measured in knots (nautical miles per hour). Wind affects the surf height and general wave conditions. Wind speeds of more than 15 knots make surf conditions undesirable, since the wind creates white caps and choppy waters.</td>
 </tr>
 <tr>
 <td><strong><span class="muted">{day}/{time}</span>/watertemp</strong></td>
