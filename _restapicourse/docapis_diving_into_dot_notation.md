@@ -180,7 +180,7 @@ function checkWind() {
 A few things are different here, but it's essentially the same code:
 
 * Rather than running the `ajax` method on page load, it's wrapped inside a function called `checkWind`. When the button is clicked, it fires the `checkWind()` function through the `onclick` method.
-* When `checkWind` runs, it pulls out the wind chill, speed, and direction and writes them to several ID tags on the page. Units for each of these values is also added to the page.
+* When `checkWind` runs, it pulls out the wind chill, speed, and direction and writes them to several ID tags on the page. Units for each of these values are also added to the page.
 * Some minimal styling is added. Bootstrap is loaded to make the button styling.
 
 When you load the page and click the button, the following should appear:

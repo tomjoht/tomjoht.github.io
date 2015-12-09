@@ -14,7 +14,7 @@ type: notes_docapis
 
 Until this point, you've been acting as a developer with the task of integrating the weather data into your site. The point was to help you understand the type of information developers need, and how they use APIs.
 
-Now let's shift perspectives. Now you're now a technical writer working with the Mashape weather API team. The team is asking you to document a new endpoint. 
+Now let's shift perspectives. Now you're a technical writer working with the Mashape weather API team. The team is asking you to document a new endpoint. 
 
 {{note}} For this exercise, you could equally document a new endpoint for the Aeris Weather API, but since that API is already quite robust, we'll keep it simple and work with the more minimalist Mashape weather API.{{end}}
 
@@ -29,7 +29,7 @@ It's now your task to sort through the information on this page and create docum
 Read through the wiki page to get a sense of the information. The upcoming topics will guide you through creating documentation for this new endpoint.
 
 <div class="docSample">
-<h2>The wiki page: "Surf Report API</h2>
+<h2>The wiki page: "Surf Report API"</h2>
 
 <p>The new endpoint is <code>/surfreport/{beachId}</code>. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. <code>{beachId}</code> is retrieved from a list of beaches on our site.</p>
 
@@ -60,7 +60,7 @@ https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1
 <li>wind (time: kts)</li>
 <li>tide (time: feet)</li>
 <li>water temperature (time: F degrees)</li>
-<li>recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity."</li>
+<li>recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity.")</li>
 </ul>
  
 <p>The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and includes one of three responses.</p>

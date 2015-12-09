@@ -94,7 +94,7 @@ Explore the APIs available on Mashape and find the weather forecast API:
 
 ## Find the Aeris Weather API
 
-Now let's look at another weather API (this one not on Mashape). In contrast to the simple API on Mashape, the [Aeris Weather API](http://www.aerisweather.com/) API is much more robust and extensive. You can see that the Aeris Weather API is a professional grade, information-rich API that could empower an entire news service. 
+Now let's look at another weather API (this one not on Mashape). In contrast to the simple API on Mashape, the [Aeris Weather API](http://www.aerisweather.com/) is much more robust and extensive. You can see that the Aeris Weather API is a professional grade, information-rich API that could empower an entire news service. 
 
 1. Go to [Aeris Weather API](http://www.aerisweather.com/). 
 2. Click **Develop** on the top navigation, then click **Aeris Weather**. Then click **Documentation**. 

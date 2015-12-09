@@ -10,7 +10,7 @@ type: notes_docapis
 
 ## Documenting REST APIs course
 
-Welcome to my course on writing documenting for REST APIs. Instead of just talking about abstract concepts, in this course I contextualize REST APIs with a direct, hands-on approach. 
+Welcome to my course on writing documentation for REST APIs. Instead of just talking about abstract concepts, in this course I contextualize REST APIs with a direct, hands-on approach. 
 
 You learn about API documentation in the context of using some simple weather APIs to put a weather forecast on your site.
 
@@ -58,7 +58,7 @@ JavaScript is one of the most practical and easy languages to become familiar wi
 
 Here are a few things you'll need in this course: 
 
-* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (it works on both Mac and PC), but any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good. )
+* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (it works on both Mac and PC), but any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good.)
 * **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's Developer Console.)
 * **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**. Postmany is a Chrome app that allows you to make requests and see responses through a GUI client.
 * **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line. 
@@ -80,6 +80,6 @@ With native library APIs, you deliver a library of classes of functions to users
 
 With REST APIs, you don't deliver a library of files to users. Instead, the users make requests for the resources on a web server, and the APIs return responses. 
 
-REST APIs follows the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
+REST APIs follow the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
 
 This course focuses mostly on REST APIs because they're more accessible to technical writers, as well as more popular and in demand. You don't need to know programming to document REST APIs. And REST is becoming the most common type of API anyway.

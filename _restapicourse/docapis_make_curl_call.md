@@ -39,7 +39,7 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 {{activity}}
 1. Open a terminal. To open Terminal, press **Cmd + spacebar** and type **Terminal**.
 
-	{{tip}} If you plan on working in Terminal a lot, use <a href="https://www.iterm2.com/">iTerm</a> instead of Terminal.){{end}}
+	{{tip}} If you plan on working in Terminal a lot, use <a href="https://www.iterm2.com/">iTerm</a> instead.{{end}}
 	
 2. Paste the call you have in your text editor into the command line.
 	

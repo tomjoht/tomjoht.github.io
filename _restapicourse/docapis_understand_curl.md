@@ -24,7 +24,7 @@ cURL provides a generic, language agnostic way to demonstrate HTTP requests and 
 
 ## REST APIs follow the same model of the web
 
-One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response a more visual display. But you can also see the raw code. 
+One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response to a more visual display. But you can also see the raw code. 
 
 ## Try using cURL to GET a web page
 {{activity}}
@@ -71,7 +71,7 @@ When you type an address into a website, you only see the body of the response. 
     Content-Length: 1270
     ```
 
-    The header contains the metadata about the response. All of this information is transferred to the browser whenever you make requests to URLs (that is, when you go to web pages), but the browser doesn't show you this information from you. You can see it using the Chrome Developer Tools console if you look on the Network tab.
+    The header contains the metadata about the response. All of this information is transferred to the browser whenever you make requests to URLs (that is, when you go to web pages), but the browser doesn't show you this information. You can see it using the Chrome Developer Tools console if you look on the Network tab.
 
 3. Now let's specify the method. The GET method is the default, but we'll make it explicit here:
 

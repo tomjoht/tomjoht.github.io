@@ -33,7 +33,7 @@ Of the various GUI clients available, I think Postman is the best option, since 
 
 A lot of times abstract concepts don't make sense until you can contextualize them with some kind of action. In this course, I'm following more of an act-first-then-understand type of methodology. After you do an activity, we'll explore the concepts in more depth. I think this reflects how people use software and documentation.
 
-{{site.data.alerts.note}} If it seems like I'm glossing over some things now, like what a GET method is or a resource URI, hang in there. When we deep dive into these points later, and things will be a lot clearer. {{site.data.alerts.end}}
+{{site.data.alerts.note}} If it seems like I'm glossing over some things now, like what a GET method is or a resource URI, hang in there. When we deep dive into these points later, things will be a lot clearer. {{site.data.alerts.end}}
 
 ## Make a request in Postman
 {{activity}}

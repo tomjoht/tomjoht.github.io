@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## Programmableweb API survey rates doc #1 factor in APIs
 
-Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of REST API documentation market in general.
+Before we get into the nuts and bolts of documenting REST APIs, let me provide some context about the popularity of the REST API documentation market in general.
 
 In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07) (which is a site that tracks and lists REST APIs on the web), about 250 developers were asked to rank the most important factors in an API. "Complete and accurate documentation" ranked as #1.
 
@@ -32,7 +32,7 @@ eBay's API in 2005 was one of the first web APIs. Since then, the tremendous gro
 
 ## Because REST APIs are a style not a standard, docs are essential
 
-REST APIs are a bit different from the SOAP APIs that were popular some years ago. SOAP APIs (service-oriented architecture protocol) enforced a specific message format for sending requests and returning responses. As an XML message format, SOAP was was very specific and had a WSDL file (web service description language) that described how to interact with the API.
+REST APIs are a bit different from the SOAP APIs that were popular some years ago. SOAP APIs (service-oriented architecture protocol) enforced a specific message format for sending requests and returning responses. As an XML message format, SOAP was very specific and had a WSDL file (web service description language) that described how to interact with the API.
 
 REST APIs, however, do not follow a standard message format. Instead, REST is an architectural style, a set of recommended practices for submitting requests and returning responses. In order to understand the request and response format for the REST API, you don't consult the SOAP message specification or look at the WSDL file. Instead, you have to consult the REST API *documentation*.
 
@@ -40,7 +40,7 @@ Each REST API functions a bit differently. There isn't a single way of doing thi
 
 ## The web is becoming an interwoven mashup of APIs
 
-Another reason why REST APIs are taking off is because the web itself is evolving into a conglomeration of APIs. Instead of massive, do-it-all systems, web sites are pulling in the services they need through APIs. For example, rather than building your own search to power your website, you might use Switftype instead and leverage their service through their [Swifttype API](https://swiftype.com/developers).
+Another reason why REST APIs are taking off is because the web itself is evolving into a conglomeration of APIs. Instead of massive, do-it-all systems, web sites are pulling in the services they need through APIs. For example, rather than building your own search to power your website, you might use Switftype instead and leverage their service through their [Swiftype API](https://swiftype.com/developers).
 
 Rather than building your own payment gateway, you might integrate [Stripe and its API](https://stripe.com/docs/api). Rather than building your own login system, you might use [UserApp and its API](https://app.userapp.io/#/docs/). Rather than building your own e-commerce system, you might use [Snipcart and its API](http://docs.snipcart.com/api-reference/introduction). And so on.
 
@@ -50,7 +50,7 @@ CloudCannon has a [long list of services](http://cloudcannon.com/tips/2014/12/12
 
 <a href="http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html"><img src="{{ "/images/servicesforstaticsites.png" | prepend: site.baseurl }}" alt="services for static websites" /></a>
 
-This cafeteria style model is replacing the massive, swiss-army-site model that tries to do anything and everything. It's better to rely on specialized companies create powerful, robust tools (such as search) and leverage their service rather than trying to build all of these services yourself.
+This cafeteria style model is replacing the massive, swiss-army-site model that tries to do anything and everything. It's better to rely on specialized companies to create powerful, robust tools (such as search) and leverage their service rather than trying to build all of these services yourself.
 
 The way each site leverages its service is usually through a REST API of some kind. The web is becoming an interwoven mashup of many different services from different APIs interacting with each other.
 
