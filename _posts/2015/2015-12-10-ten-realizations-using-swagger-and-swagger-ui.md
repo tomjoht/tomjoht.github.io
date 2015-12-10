@@ -47,13 +47,13 @@ The Model Schema shows a sample of the syntax along with examples. When you clic
   "status": "available"
 }
 ```
-Now click "Model" and look at the view. 
+Now click **Model** (the grayed out text) and look at the view. 
 
 <a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "/images/swaggersubtlemodellink.png" | prepend: site.baseurl }}" alt="Swagger Model" /></a>
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
-```json
+```
 Pet {
 id (integer, optional),
 category (Category, optional),
