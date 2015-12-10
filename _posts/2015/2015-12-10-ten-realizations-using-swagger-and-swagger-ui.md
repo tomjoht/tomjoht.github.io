@@ -1,5 +1,5 @@
 ---
-title: 10 realizations while using the Swagger spec and Swagger UI
+title: 10 realizations as I was creating my Swagger spec and Swagger UI
 categories:
 - api-doc
 keywords: swagger, swagger ui, swagger editor, configuration, specification, api, rest api
