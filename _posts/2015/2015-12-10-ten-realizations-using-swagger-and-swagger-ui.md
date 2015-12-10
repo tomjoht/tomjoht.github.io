@@ -2,7 +2,7 @@
 title: 10 realizations while using the Swagger spec and Swagger UI
 categories:
 - api-doc
-keywords: 
+keywords: swagger, swagger ui, swagger editor, configuration, specification, api, rest api
 summary: "As I've been configuring the Swagger spec file and UI for one of the APIs I document, I had a few realizations that I wanted to share. Some realizations involve understanding the Model versus Model Schema part of the Swagger UI, the syntax of using `$ref` annotations within the spec, how validation works, and more."
 ---
 
