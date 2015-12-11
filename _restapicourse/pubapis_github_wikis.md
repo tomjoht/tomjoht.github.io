@@ -38,7 +38,7 @@ There are some limitations with Github wikis:
 
 * **Limited branding**. All Github wikis look the same.
 * **Open access on the web**. If your docs need to be private, Github isn't the place to put them.
-* **No structure**. The Github wiki pages give you a blank page and basically allow to add sections. You won't be able to do any advanced styling or sexy-looking interactive API doc.
+* **No structure**. The Github wiki pages give you a blank page and basically allow you to add sections. You won't be able to do any advanced styling or sexy-looking interactive API doc.
 
 ## Create a Github wiki and publish content on a sample page
 {{activity}}

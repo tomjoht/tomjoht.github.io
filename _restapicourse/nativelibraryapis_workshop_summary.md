@@ -1,12 +1,12 @@
 ---
-title: Workshop summary
+title: Course summary
 course: "Documenting REST APIs"
 permalink: /nativelibraryapis_workshop_summary/
 weight: 8.0
 type: notes_docapis
 ---
 
-During this workshop, we explored the following:
+During this course, we explored the following:
 
 * Using a REST API as a developer
 * Documenting a new API endpoint

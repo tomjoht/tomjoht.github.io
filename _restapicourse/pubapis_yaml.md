@@ -65,7 +65,7 @@ Here are some key-value pairs in JSON:
 }
 ```
 
-Here's the same thing YAML syntax:
+Here's the same thing in YAML syntax:
 
 ```yaml
 key1: value1

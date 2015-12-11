@@ -100,7 +100,7 @@ HMAC security is used when you want to ensure the request is both authentic and 
 
 ## OAuth 2.0
 
-One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when you you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook. 
+One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when  you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook. 
 
 <img src="{{ "/images/restapicourse/oauthwindow.png" | prepend: site.baseurl }}" alt="OAuth login window" />
 

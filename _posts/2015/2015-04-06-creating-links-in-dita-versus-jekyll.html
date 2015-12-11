@@ -190,7 +190,7 @@ tags: configuration
 {% endhighlight %}</p>
 
 <p>This code gets the tags on a page, and then uses a for loop to look through each page in the site. If the page has tags that include the tag on the current page, the page is listed here.</p>
-<p>There's a problem with this logic, though. Suppose page 1 has tags A and B, page 2 has tags A and B, and page 3 has tags and B. When page 1 looks for all other pages that contain tag A, page 2 and page 3 get listed. That's fine. When the same for loop checks for pages containing tag B, page 2 and page 3 <i>also</i> get listed. In other words, I have to include logic to to remove duplicates.</p>
+<p>There's a problem with this logic, though. Suppose page 1 has tags A and B, page 2 has tags A and B, and page 3 has tags and B. When page 1 looks for all other pages that contain tag A, page 2 and page 3 get listed. That's fine. When the same for loop checks for pages containing tag B, page 2 and page 3 <i>also</i> get listed. In other words, I have to include logic to remove duplicates.</p>
 <p>I'm not quite sure how to do that yet, though I'm guessing that a solution exists. Part of why I like Jekyll, though, is because I can piece together the logic I want. There are probably a dozen different approaches I could use for related pages.</p>
 <p>At the heart of Jekyll is this near-infinite extensibility. You can do a lot of different things because you have access to the code, and you can use templating logic in the same pages as your content.</p>
 <h2>Conclusion</h2>

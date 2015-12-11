@@ -23,7 +23,7 @@ Other people seem to have [similar opinions](https://communities.cisco.com/commu
 In general, document generators don't tell you a whole lot more than you would discover by browsing the source code itself. Some people even refer to auto-generated docs as a glorified source-code browser.
 
 ## Reference docs are feature-based, not task-based
-One of the main problems with reference documentation is that it's feature based rather than task based. It's the equivalent of going tab-by-tab through an interface and describing what's on each tab, what it's in each menu, and so on. We know that's a really poor way to approach documentation, since users organize their mental model by the tasks they want to perform.
+One of the main problems with reference documentation is that it's feature based rather than task based. It's the equivalent of going tab-by-tab through an interface and describing what's on each tab, what's in each menu, and so on. We know that's a really poor way to approach documentation, since users organize their mental model by the tasks they want to perform.
 
 When you write API documentation, consider the tasks that users will want to do, and then organize your information that way. Reference the endpoints as you explain how to accomplish the tasks. Users will refer to the reference docs as they look for the right parameters, data types, and other class details. But the reference docs won't guide them through tasks alone.
 

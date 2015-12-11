@@ -39,7 +39,7 @@ Once you install them, generating a code sample is a one-click operation:
 
 <img src="{{ "/images/restapicourse/pawcodegen.png" | prepend: site.baseurl }}" alt="Paw code generators" />
 
-The Postman app has these most of these code generators built in.
+The Postman app has most of these code generators built in.
 
 {{note}} Although these code generators are probably helpful, they may or may not work for your API. Always review code samples with developers. In most cases, developers supply the code samples for the documentation, and technical writers briefly comment on the code samples. {{end}}
 
@@ -195,7 +195,7 @@ Although the Mashape Weather API doesn't provide a code sample in the Weather AP
 
 <img src="{{ "/images/restapicourse/mashapejsconsumption.png" | prepend: site.baseurl }}" alt="Consuming a REST API through JavaScript" />
 
-You already worked with this code earlier, so it shouldn't be new. It's most same code as the JavaScript snippet we just used, but here there's an error function defined, and the header is set a bit differently.
+You already worked with this code earlier, so it shouldn't be new. It's mostly same code as the JavaScript snippet we just used, but here there's an error function defined, and the header is set a bit differently.
 
 ## Create a code sample for the surfreport endpoint
 {{activity}}

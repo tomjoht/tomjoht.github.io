@@ -8,13 +8,13 @@ type: notes_docapis
 
 {% include notes.html %}
 ## Javadoc overview
-Javadoc is the standard output for Java APIs, and it's really easy to build a Javadoc. The Javadoc is generated through something called a "doclet." Different doclets can generate parse the Java annotations in different ways and produce different outputs. But by and large, almost every Java documentation uses Javadoc. It's standard and familiar to Java developers.
+Javadoc is the standard output for Java APIs, and it's really easy to build a Javadoc. The Javadoc is generated through something called a "doclet." Different doclets can parse the Java annotations in different ways and produce different outputs. But by and large, almost every Java documentation uses Javadoc. It's standard and familiar to Java developers.
 
 ## Characteristics of Javadoc
 Here are some other characteristics of Javadoc: 
 
 * Javadoc is supported by Oracle 
-* Javadoc output integrate directly into IDE that developers use.
+* Javadoc's output integrates directly into IDEs that developers use.
 * The Javadoc output is skinnable, but you can't add non-ref files to it.
 * The Javadoc comment style is highly similar to most other document generators.
 
@@ -29,7 +29,7 @@ Here are some other characteristics of Javadoc:
 	
 4. Select which visibility option you want: Private, Package, Protected, or Public. Generally you select **Public**. 
 	
-	You API probably has a lot of helper or utility classes used on the backend, but only a select number of classes will actually be used by your developer audience. These classes are made public. It's the public classes that your developer audience will use that form the API aspect of the class library.
+	Your API probably has a lot of helper or utility classes used on the backend, but only a select number of classes will actually be used by your developer audience. These classes are made public. It's the public classes that your developer audience will use that form the API aspect of the class library.
 	
 5. Make sure the **Use standard doclet** radio button is selected. 
 6. Click the **Browse** button and select the output location where you want the Javadoc generated. 

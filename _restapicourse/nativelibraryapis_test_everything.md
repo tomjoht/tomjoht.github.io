@@ -30,7 +30,7 @@ You may also need to construct certain YML files necessary to configure a server
 
 When you're ready to submit a test call (assuming you have a REST API), you can probably use cURL, which makes it easy, but you'll no doubt need to include an authorization in the header of the call. The authorization often uses a hash of a combination of factors. 
 
-Can you see how just getting the test system set up and ready can be challenging? Still, if you want to write good documentation, this is essential. Good developers know and recognize this need, and so they're usually somewhat accommodating in helping set up a test environment up to get you started. 
+Can you see how just getting the test system set up and ready can be challenging? Still, if you want to write good documentation, this is essential. Good developers know and recognize this need, and so they're usually somewhat accommodating in helping set up a test environment to get you started. 
 
 For example, I asked an engineer to explain, step-by-step, how I was to connect to an intermediary jump host server required at my work. This server required a configuration that controlled the responses from the API. After explaining how to do it, he made sure that I could successfully connect from a terminal prompt on my own, and I didn't let the discussion go until I was successful. 
 
@@ -100,13 +100,13 @@ When there are editors for a team, the editors usually play a style-only role, c
 
 While conforming to the same style guide is important, it's not as important as having someone actually test the instructions. Users can overlook poor grammar &mdash; blogs and YouTube are proof of that. But users can't overlook instructions that don't work, that don't speak to the real steps and challenges they face.
 
-I haven't had an editor for years. In fact, the only time I've ever had at editor was at my first tech writing job, where we had a dozen writers. But the editor there focused mostly on style.
+I haven't had an editor for years. In fact, the only time I've ever had an editor was at my first tech writing job, where we had a dozen writers. But the editor there focused mostly on style.
  
 I remember one time our editor was on vacation, and I got to play the editor role. I tried testing out the instructions and found that about a quarter of the time, I got lost. The instructions either missed a step, needed a screenshot, built on assumptions I didn't know, or had other problems. 
 
 The response, when you give instructions back to the writer, is usually the old "Oh, users will know that." The problem is that we're usually so disconnected with the actual user experience &mdash; we rarely see users trying out docs &mdash; we can't recognize the "users-will-know-how-to-do-that" statement for the fallacy that it is.
 
-How do you test instructions without a dedicated editor, without group of users, and without any formal structure in place? At the least, you can ask a colleague to try out the instructions.
+How do you test instructions without a dedicated editor, without a group of users, and without any formal structure in place? At the least, you can ask a colleague to try out the instructions.
 
 ### Ask a colleague to try out your instructions
 

@@ -28,7 +28,7 @@ In a [blog post by the writers at Parse](http://blog.parse.com/learn/engineering
 >
 >Tutorials: These teach your users specific things that they can do with your API, and are usually tightly focused on just a few pieces of functionality. Bonus points if you include working sample code.</blockquote> 
 
-I think this division of content represents the API documentation genre well and serves as a good guide when strategies ways to publish API documentation.
+I think this division of content represents the API documentation genre well and serves as a good guide as you develop strategies for publishing API documentation.
 
 In Mulesoft's API platform, you can see many of these sections in their standard template for API documentation:
 
@@ -79,7 +79,7 @@ In most endpoint documentation, you'll see the following sections:
 
 If engineers write anything, it's usually the endpoint reference material. 
 
-Note that the endpoint documentation is never meant to be a starting point. The information is meant to be browsed, and a new developer will need some bacground information about authorization keys and more to use the endpoints.
+Note that the endpoint documentation is never meant to be a starting point. The information is meant to be browsed, and a new developer will need some background information about authorization keys and more to use the endpoints.
 
 Here's a sample page showing endpoints from Instagram's API: 
 

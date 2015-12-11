@@ -239,7 +239,7 @@ entries:
         - title: "My biggest tip: Test everything"
           url: /nativelibraryapis_testing/
           weight: 7.9
-        - title: Workshop summary
+        - title: Course summary
           url: /nativelibraryapis_workshop_summary/
           weight: 8.0
 

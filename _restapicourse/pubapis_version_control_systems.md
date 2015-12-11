@@ -104,7 +104,7 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 	The right pane shows the deleted lines in red and new lines in green. This helps you see what changed. 
 	
-	However, if you switch to the master branch, you won't see the modified files. That's because you're working in a branch, and so you're changes are associated with that branch. Switching this branch option in Github Desktop changes the working directory of your Github project to the branch.
+	However, if you switch to the master branch, you won't see the modified files. That's because you're working in a branch, and so your changes are associated with that branch. Switching this branch option in Github Desktop changes the working directory of your Github project to the branch.
 	
 	Switch back to your tom-edits branch.
 
@@ -180,9 +180,6 @@ git commit -m "fixed conflicts"
 Your options are the following:
 
 * Run `git pull` to merge the other branch into yours, thereby resolving the conflict. 
-* 
-
-
 
 
 {% comment %}
@@ -208,7 +205,6 @@ reset: undo the changes that you've made.
 
 merge: look at the diff between branches and make them match.
 
-{% comment %} 
 test this is a **test**. edit made.
 
 staging files
@@ -240,5 +236,3 @@ when to commit?
 checkout -- you revert to a previous commit and then you want to check that commit out
 {% endcomment %}
  
- 
-{% endcomment %}

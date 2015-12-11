@@ -271,7 +271,7 @@ You can also download the same code that generates the output on the Anypoint Pl
 	<img src="{{ "/images/restapicourse/apiconsoleraml.png" | prepend: site.baseurl }}" alt="RAML Console" />
 	
 4. Copy the RAML code you created. 
-5. Insert your copied code inti the **Or parse RAML here** text box. Then click **Load RAML**.
+5. Insert your copied code into the **Or parse RAML here** text box. Then click **Load RAML**.
 	
 	The API Console loads your RAML content:
 	
@@ -325,7 +325,7 @@ To generate this kind of output:
 	{{tip}}To see this example in your browser, go to <a href="http://learnapidoc.com/raml/examples/index.html">learnapidoc.com/raml/examples/index.html</a>.{{end}}
 
 ## Other platforms that consume RAML and Swagger
-<a href="http://studio.restlet.com">Restlet Studio</a> is another platofrm to check out. Restlet Studio can process either Swagger or RAML specs. 
+<a href="http://studio.restlet.com">Restlet Studio</a> is another platform to check out. Restlet Studio can process either Swagger or RAML specs. 
 
 One advantage to using Restlet Studio is that it provides a form where you can assemble the needed spec by populating different form values, which theoretically should make building the RAML or Swagger file easier. 
 

@@ -85,13 +85,13 @@ The response should contain realistic values. If developers give you a sample re
 Use proper JSON formatting for the response. A tool such as [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) can make sure the spacing is correct. 
 
 ## Add syntax highlighting
-If you can add syntax highlighting as well, definitely do it. One good Python-based syntax highlighter is [Pygments](http://pygments.org/). This highlighter relies on "lexers" to indicate how the code should be highlighted. For example, some common lexers are java, json, html, xml, cpp, dotnet, javascript.
+If you can add syntax highlighting as well, definitely do it. One good Python-based syntax highlighter is [Pygments](http://pygments.org/). This highlighter relies on "lexers" to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`.
 
 Since your tool and platform dictate the syntax highlighting options available, look for syntax highlighting options within the system that you're using. If you don't have any syntax highlighters to integrate directly into your tool, you could add syntax highlighting manually for each code sample by pasting it into the [syntaxhighlight.in](http://syntaxhighlight.in/) highlighter.
 
 ## Embedding dynamic responses
 
-Sometimes responses are generated dynamically based on API calls to a test system. For example, look at the [Rhapsody API](https://developer.rhapsody.com/api) and click an endpoint &mdash; it appears to be generated dynamically). 
+Sometimes responses are generated dynamically based on API calls to a test system. For example, look at the [Rhapsody API](https://developer.rhapsody.com/api) and click an endpoint &mdash; it appears to be generated dynamically. 
 
 When I worked at Badgeville, we had a test/demo system we used to generate the responses. It was important that the test system has the right data to create good responses. You don't want a bunch of null or missing items in the response. 
 
@@ -180,7 +180,7 @@ The following is a sample response from the <code>surfreport/{beachId}</code> en
 </tr>
 <tr>
 <td><strong><span class="muted">{day}/{time}</span>/recommendation</strong></td>
-<td>An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) &quot;Go surfing!&quot;, (2) &quot;Surfing conditions are okay, not great&quot;, and (3) &quot;Not a good day for surfing.&quot; Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yeilds response 3.</td>
+<td>An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) &quot;Go surfing!&quot;, (2) &quot;Surfing conditions are okay, not great&quot;, and (3) &quot;Not a good day for surfing.&quot; Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yields response 3.</td>
 </tr>
 </tbody></table>
 

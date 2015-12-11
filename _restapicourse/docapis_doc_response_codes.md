@@ -37,7 +37,7 @@ The first line, `HTTP/1.1 200 OK`, tells us the status of the request. (If you c
 
 With a GET request, it's pretty easy to tell if the request is successful or not because you get back something in the response. 
 
-But suppose you're make a POST, PUT, or DELETE call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API?
+But suppose you're making a POST, PUT, or DELETE call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API?
 
 HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
 
@@ -89,7 +89,7 @@ Your list of status codes can be done in a basic table, somewhat like this:
 | 200 | Successful request and response. |
 | 400 | Malformed parameters or other bad request |
 
-## Status codes are aren't readily visible
+## Status codes aren't readily visible
 
 Status codes are pretty subtle, but when a developer is working with an API, these codes may be the only "interface" the developer has. If you can control the messages the developer sees, it can be a huge win. All too often, status codes are uninformative, poorly written, and communicate little or no helpful information to the user to overcome the error.
 

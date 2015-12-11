@@ -45,7 +45,7 @@ Here's the approach by [Instagram](https://instagram.com/developer/endpoints/rel
 
 <a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "/images/restapicourse/instagramendpoints.png" | prepend: site.baseurl }}"/></a>
 
-The [EventBrite API](https://www.eventbrite.com/developer/v3/endpoints/events/ shows a list of endpoints, but when you go to an endpoint, what you're really seeing is an object. On the object's page you can see the variety of endpoints you can use with the object.
+The [EventBrite API](https://www.eventbrite.com/developer/v3/endpoints/events/) shows a list of endpoints, but when you go to an endpoint, what you're really seeing is an object. On the object's page you can see the variety of endpoints you can use with the object.
 
 <a href="https://www.eventbrite.com/developer/v3/endpoints/events/"><img src="{{ "/images/restapicourse/eventbriteobjects.png" | prepend: site.baseurl }}" alt="Eventbrite" /></a>
 
@@ -99,7 +99,7 @@ The [Box API](https://box-content.readme.io/reference#collaboration-object) has 
 
 The Box example has 5 different endpoints or methods you can call. Each of these methods lets you access the Collaboration resource or object in different ways. Why call it an object? When you get the Collaboration resource, the JSON is an object.
 
-{{tip}} Developers often use the term "call a method" when talking about method. If you consider the endpoints as HTTP methods, then you can call an API method.{{end}}
+{{tip}} Developers often use the term "call a method" when talking about using a method. If you consider the endpoints as HTTP methods, then you can call an API method.{{end}}
 
 ## When describing the resource, start with a verb
 

@@ -21,7 +21,7 @@ Klout has an "interactive console" driven by Mashery I/O docs that allows you to
 <a href="http://developer.klout.com/io-docs"><img src="{{ "/images/restapicourse/klout_interactive_console-550x362.png" | prepend: site.baseurl }}" alt="Klout Interactive Console" /></a>
 
 ## 1. Get an API key to make requests
-To use the API, you have to to register an "app," which allows you to get an API key. Go to [My API Keys](http://developer.klout.com/apps/mykeys) page to register your app and get the keys.
+To use the API, you have to register an "app," which allows you to get an API key. Go to [My API Keys](http://developer.klout.com/apps/mykeys) page to register your app and get the keys.
 
 ## 2. Make requests for the resources you need
 

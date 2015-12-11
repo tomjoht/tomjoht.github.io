@@ -8,7 +8,7 @@ weight: 4.5
 
 ## Publishing context
 
-In earlier parts of this workshop, we used a simple [Weather API from Mashape](https://www.mashape.com/fyhao/weather-13) to demonstrate how to use a REST API. In this part of the workshop, we'll explore various tools to publish information from the same Mashape Weather API. 
+In earlier parts of this workshop, we used a simple [Weather API from Mashape](https://www.mashape.com/fyhao/weather-13) to demonstrate how to use a REST API. Now we'll explore various tools to publish information from the same Mashape Weather API. 
 
 ## Why focus on publishing API docs?
 The first question about a focus on publishing API documentation might be, *why?* What makes publishing API documentation so different from other kinds of documentation that it merits its own section? How and why does the approach here need to differ from the approach for publishing regular documentation? 
@@ -67,6 +67,6 @@ Based on all of these factors, I decided to put DITA authoring on pause and try 
 
 Jekyll is just one documentation publishing option in this space. I personally enjoy working with a more code-based approach, but there are many different options and routes to explore.
 
-In this part of the workshop, I'll explore various ways to publish API documentation. Most of these routes will take you away from traditional tech comm tools and publishing strategies. 
+Now let's explore various ways to publish API documentation. Most of these routes will take you away from traditional tech comm tools and publishing strategies. 
 
 

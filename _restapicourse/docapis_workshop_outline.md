@@ -226,7 +226,7 @@ vOAuth 2.0
 * Where to get error codes
 * When endpoints have specific status codes
 * How to list status codes
-* Status codes are aren't readily visible
+* Status codes aren't readily visible
 * Status/error codes can assist in troubleshooting
 
 ## 3.7 Documenting code samples and tutorials

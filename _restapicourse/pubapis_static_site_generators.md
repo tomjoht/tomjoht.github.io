@@ -36,7 +36,7 @@ With static site generators, you can do the following:
 
 One of the questions people ask about authoring content with static site generators is how you see the output and formatting given that you're working strictly in text. For example, how do you see images, links, lists, or other formatting if you're authoring in text? 
 
-When you authoring a Jekyll site, you open up a preview server that continuously builds your site with each change you save. I open up my text editor on the left, and the auto-generating site on the right. On a third monitor, I usually put the Terminal window so I can see when a new build is done (it takes about 10 seconds for my doc sites).
+When you're authoring a Jekyll site, you open up a preview server that continuously builds your site with each change you save. I open up my text editor on the left, and the auto-generating site on the right. On a third monitor, I usually put the Terminal window so I can see when a new build is done (it takes about 10 seconds for my doc sites).
 
 <img src="{{ "/images/restapicourse/writinginjekyll.png" | prepend: site.baseurl }}" alt="Writing in Jekyll" />
 
@@ -124,12 +124,12 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 	
 	The frontmatter is formatted in a syntax called YML. YML is similar to JSON but uses spaces and hyphens instead of curly braces. This makes it more human readable.
 	
-2. Create a new file called 1-6_weatherdata.md and save it the same _api folder. 
-3. Get the data from the weatherdata endpoint from this [Weather API on Mashape](https://www.mashape.com/fyhao/weather-13#weatherdata). (This is an API we worked with extensively in the <a href="{{ "/restapicourse" | prepend: site.baseurl | append: site.suffix }}">REST API course</a>previous course (Documenting REST APIs).) Put the data from this endpoint into the Aviator theme's template.
+2. Create a new file called 1-6_weatherdata.md and save it in the same \_api folder. 
+3. Get the data from the weatherdata endpoint from this [Weather API on Mashape](https://www.mashape.com/fyhao/weather-13#weatherdata). (This is an API we worked with extensively in the <a href="{{ "/restapicourse" | prepend: site.baseurl | append: site.suffix }}">REST API course</a>.) Put the data from this endpoint into the Aviator theme's template.
 	
 	The Aviator Jekyll theme has a specific layout that will be applied to all the files inside the _api folder (these files are called a collection). Jekyll will access these values by going to api.title, api.type, and so forth. It will then push this content into the template (which you can see by going to _layouts/multi.md). 
 	
-	Here's what my 1-6_weatherdata.md file looks like. Be sure to put the response within square brackets, indented with one tab (4 spaces). You can also <a href="{{ "/files/publishingapidocs/1-6_weatherdata.md" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>. Remove the `raw` and `endraw` tags at the beginning and end of the code sample (which I had to add to keep Jekyll from trying to process it.)
+	Here's what my 1-6_weatherdata.md file looks like. Be sure to put the response within square brackets, indented with one tab (4 spaces). You can also <a href="{{ "/files/publishingapidocs/1-6_weatherdata.md" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>. Remove the `raw` and `endraw` tags at the beginning and end of the code sample (which I had to add to keep Jekyll from trying to process it).
 	
 	```yaml
 	---

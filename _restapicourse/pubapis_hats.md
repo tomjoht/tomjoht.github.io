@@ -31,7 +31,7 @@ You won't have a division between an output that is generated from a reference d
 When you have to deal with versioning, translation, content re-use, conditional filtering, authoring workflows, and PDF output, you're going to struggle to make this work with the other tools mentioned in this course.
 
 ### + HATs reinforce the fact that API doc is more than endpoints
-HATs reinforce the fact that good API documentation is more than just a set of endpoints and parameters. Good API documentation includes guides and tutorial topics as well. Developers rarely write that kind of information, yet it just as important as the reference documentation. HATs lend themselves more to these guide and tutorial topics.
+HATs reinforce the fact that good API documentation is more than just a set of endpoints and parameters. Good API documentation includes guides and tutorial topics as well. Developers rarely write that kind of information, yet it's just as important as the reference documentation. HATs lend themselves more to these guide and tutorial topics.
 
 ## Cons of using a help authoring tool
 
@@ -55,6 +55,6 @@ Many of the API doc sites are single-website experiences. The API docs are usual
  
 ### - Removes authoring capability from developers
  
- If you're hoping for developers to contribute to the documentation, it's going to be hard to get buy-in if you using a HAT. HATs are tools for writers, not developers. Then again, if you don't expect developers to contribute, then this becomes a moot point.
+ If you're hoping for developers to contribute to the documentation, it's going to be hard to get buy-in if you're using a HAT. HATs are tools for writers, not developers. Then again, if you don't expect developers to contribute, then this becomes a moot point.
 
 

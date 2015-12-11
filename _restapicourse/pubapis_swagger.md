@@ -88,7 +88,7 @@ Swagger has a number of different pieces:
 
 **[Swagger spec](https://github.com/swagger-api/swagger-spec)**: The Swagger spec is the official schema about name and element nesting, order, and so on. If you plan on hand-coding the Swagger files, you'll need to be extremely familiar with the Swagger spec.
 
-**[Swagger editor](http://editor.swagger.io/#/)**: The Swagger Editor is online editor that validates your YML-formatted content against the rules of the Swagger spec. YML is a syntax that depends on spaces and nesting. You'll need to be familiar with YML syntax and the rules of the Swagger spec to be successful here. The Swagger editor will flag errors and give you formatting tips. (Note that the Swagger spec file can be in either JSON or YAML format.)
+**[Swagger editor](http://editor.swagger.io/#/)**: The Swagger Editor is an online editor that validates your YML-formatted content against the rules of the Swagger spec. YML is a syntax that depends on spaces and nesting. You'll need to be familiar with YML syntax and the rules of the Swagger spec to be successful here. The Swagger editor will flag errors and give you formatting tips. (Note that the Swagger spec file can be in either JSON or YAML format.)
 
 <a href="http://editor.swagger.io/"><img src="{{ "/images/publishingapidocs/swagger-editor-example.png" | prepend: site.baseurl }}" alt="Swagger online editor" /></a>
 
@@ -230,9 +230,9 @@ To create a Swagger spec file:
 	            description: "unexpected error"
 	```
 	
-	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters! New levels are set with two indented spaces. The colon indicates an object. Hyphens represent an sequence or list (like an array).{{end}}
+	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters! New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array).{{end}}
 	
-	The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file could't be parsed).
+	The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file couldn't be parsed).
 	
 3. Go to **File > Download YAML** and save the file as "swagger.yaml" on your computer.
 
@@ -245,8 +245,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files. 
 	
 2. Drag the dist folder out of the swagger-ui-master folder.
-3. Rename the dist folder to your name. My name is Tom, so I'll rename my folder to "tom."
-3. Inside your "tom" folder, open index.html. 
+3. Inside your "dist" folder, open index.html. 
 4. Look for the following code:
 	
 	```js
@@ -258,10 +257,9 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	    url = "http://petstore.swagger.io/v2/swagger.json";
 	  }
 	```
-5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"http://learnapidoc.com/swagger/tom/swagger.yaml";`.
+5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.json";`.
 	
-	In the `url` value, change `tom` to your name. This path is where you will upload your swagger file (it's a space on my web host.). You can't run Swagger locally because it requires an http path in the URL. You will be uploading these files into this web host location. 
-		
+	
 6. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
 	
 	```js
@@ -286,7 +284,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	        }
 	```
 	
-	Insert your API key in `{api key}`. Otherwise users wil have to 
+	Insert your API key in `{api key}`. Otherwise users wil have to enter their own API keys.
 	
 7. Uncomment out following lines here by removing the `/*` and `*/`:
 	
@@ -341,7 +339,7 @@ If the previous instructions were confusing, just copy the following code and re
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
-        url = "http://69.195.124.51/~idrathe1/workshopuploads/tom/swagger.json";
+        url = "swagger.json";
       }
       window.swaggerUi = new SwaggerUi({
         url: url,
@@ -419,12 +417,18 @@ If the previous instructions were confusing, just copy the following code and re
 
 ### c. Upload the Files to a Web Host
 {{activity}}
-1. Download and install [Filezilla](https://filezilla-project.org/), unless you already have another FTP editor you're used to working with.
-2. Go to **File > Site Manager** and create a new site.
-3. Get the login connection information from me during the class.
-4. Click **Connect**.
-5. Upload your "tom" folder into the directory that you connect into by default.
-6. Now view your site: <a href="http://learnapidoc.com/swagger/tom">http://learnapidoc.com/swagger/tom</a>, replacing "tom" with your name.
+You can't view the Swagger UI display locally &mdash; you must view it on a web server. If you already have a web server, great. Just upload the dist folder there and view it. 
+
+You can also run a web server locally on your computer. 
+
+1. Download and install [XAMPP](https://www.apachefriends.org/). 
+2. Start XAMPP and open the **Manage Servers** tab in the console manager.
+3. Select **Apache Web Server** and click **Start**.
+4. Open the htdocs folder where XAMPP was installed. On a Mac, the location is usually in /Applications/XAMPP/xamppfiles/htdocs. 
+5. Drag the dist folder into this space.
+6. In your browser, go to localhost/dist. 
+
+The Swagger UI display should appear.
 	
 ### Interact with the Swagger UI
 {{activity}}

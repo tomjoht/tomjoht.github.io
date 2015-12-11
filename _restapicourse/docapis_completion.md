@@ -21,7 +21,7 @@ During this part of the course, you learned the core tasks involved in documenti
 * How to pass parameters to API calls
 * How to inspect the objects in the JSON payload
 * How to use dot notation to access the JSON values you want
-* How to display the integrate the information into your site
+* How to integrate the information into your site
 
 Then you switched perspectives and approached APIs from a technical writer's point of view. As a technical writer, you documented each of the main components of a REST API:
 

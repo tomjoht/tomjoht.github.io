@@ -22,7 +22,7 @@ In this example, we want to get all the photos from a [specific Flickr gallery](
 
 ## 1. Get an API key to make requests
 
-Before you can make request with the Flickr API, you'll need a API key, which you can read more about [here](https://www.flickr.com/services/apps/create/). When you register an app, you're given a key and secret.
+Before you can make a request with the Flickr API, you'll need an API key, which you can read more about [here](https://www.flickr.com/services/apps/create/). When you register an app, you're given a key and secret.
 
 ## 2. Determine the resource and endpoint you need
 From the list of [Flickr's API methods](https://www.flickr.com/services/api/), the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint, which is listed under the galleries resource, is the one that will get photos from a gallery.
@@ -180,7 +180,7 @@ And the result looks like this:
 * To get each item in the object, jQuery's [each method](http://api.jquery.com/jquery.each/) loops through an object's properties. Note that jQuery `each` method is commonly used for looping through results to get values. Here's how it works. For the first argument (`data.photos.photo`), you identify the object that you want to access.
 * For the `function( i, gp )` arguments, you list an index and value. You can use any names you want here. `gp` becomes a variable that refers to the `data.photos.photo` object you're looping through. `i` refers to the starting point through the object. (You don't actually need to refer to `i` beyond the mention here unless you want to begin the loop at a certain point.)
 * To access the properties in the JSON object, we use `gp.farm` instead of `data.photos.photo[0].farm`, because `gp` is an object reference to `data.photos.photo`.
-* After the `each` function iterates through the response, I added some variables make it easier to work with these components (using `serverId` instead of `gp.server`, etc.). And a `console.log` message checks to ensure we're getting values for each of the elements we need:
+* After the `each` function iterates through the response, I added some variables to make it easier to work with these components (using `serverId` instead of `gp.server`, etc.). And a `console.log` message checks to ensure we're getting values for each of the elements we need.
 * This comment shows where we need to plug in each of the variables:
 ```html
 //  https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg

@@ -22,7 +22,7 @@ Here's the Doxygen output:
 
 By the way, you don't need to use the wizard. You can also just generate Doxygen through a configuration file. This is how developers typically run Doxygen builds from a server.
 
-In contrast to Javadoc, Doxygen also allows you incorporate external files written in Markdown. And Doxygen provides a search feature. These are two features that Javadoc lacks.
+In contrast to Javadoc, Doxygen also allows you to incorporate external files written in Markdown. And Doxygen provides a search feature. These are two features that Javadoc lacks.
 
 Doxygen is maintained by a single developer and, like Javadoc, hasn't changed much over the years. In my opinion, the interface is highly dated and kind of confusing. 
 

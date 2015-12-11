@@ -75,7 +75,7 @@ Overall, I enjoyed talking and interacting with people. Here are a few conversat
 * I had the opportunity to ask John Carroll what he thought of DITA, since many DITA people claim Carroll's minimalism as foundational to tech comm. Carroll said he's always elated to see people take his work and incorporate it into their approaches. At the same time, he said any system that traps you into a fixed pattern or template can be detrimental if the content doesn't fit that pattern or template.
 * Another person explained to me her dream of gamifying a translation effort to increase health and medical literacy in Africa. 
 * Another person told me about how she's trying to transition from photojournalism into tech comm. (I asked her a lot of questions about teleprompters and video recording.) 
-* Another person showed me the API she's supposed to document and had no idea about how to go about it. It turned to to be a kind of .NET API (one of the various languages grouped under .NET).
+* Another person showed me the API she's supposed to document and had no idea about how to go about it. It turned to be a kind of .NET API (one of the various languages grouped under .NET).
 * Another person explained the difficulty in migrating reference docs from a legacy system. 
 
 I know *a lot* of people, and a lot of people seem to want to talk to me. 
