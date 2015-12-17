@@ -6,6 +6,7 @@ categories:
 keywords: 
 summary: "You can watch Richard's recording of his November 2015 presentation to the STC Silicon Valley about version control, writers, and workflows. "
 ---
+## Video, audio, and slides
 
 Here's the recording of Richard Mateosian's presentation to the STC-Silicon Valley chapter on "Version control, writers, and worfklows." First, a brief description: 
 
@@ -33,5 +34,5 @@ The audio captured by the iPhone is decent, and has better omnidirectional captu
 
 When the recording cuts over to the lavalier, which isn't omnidirectional, you can't hear the audience very well. As a result, I chopped these parts out and inserted a "fast-forward" sound effect that is supposed to sound like a tape recorder fast forwarding. But since no one uses tape recorders anymore, the sound effect is a bit weird (like a thousand mice running in a tornado?).
 
-Anyway, I hope you enjoy the recording. This is my first time video-recording an STC Silicon Valley presenter (instead of just capturing the audio). Video takes up quite a bit more space. The MP4 output from Camtasia was 9GB. It took a while to upload that into Youtube, but I think including the video element adds a lot of appeal to the recording.
+Anyway, I hope you enjoy the recording. This is my first time video-recording an STC Silicon Valley presenter (instead of just capturing the audio). Video takes up quite a bit more space. The MP4 output from Camtasia Studio was 9GB. It took a while to upload that into Youtube, but I think including the video element adds a lot of appeal to the recording.
 
