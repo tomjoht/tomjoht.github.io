@@ -8,9 +8,9 @@ summary: "You can watch Richard's recording of his November 2015 presentation to
 ---
 ## Video, audio, and slides
 
-Here's the recording of Richard Mateosian's presentation to the STC-Silicon Valley chapter on "Version control, writers, and worfklows." First, a brief description: 
+Here's the recording of Richard Mateosian's presentation to the STC-Silicon Valley chapter on "Version control, writers, and worfklows." Richard describes the presentation as follows:
 
->In a highly interactive discussion, we’ll go over the basics of using version control systems to help support documentation of software products. We’ll share ideas and swap war stories about how to set up workspaces and workflows, conduct reviews, deal with product versions, and interact with developers. We’ll look at how (or whether) using these systems affects our decisions about chunking, modularity, and reuse. Spoiler alert: version control systems are not component content management systems. ([STC Silicon Valley](http://www.stc-siliconvalley.org/2015/11/16/version-control-workflows-for-help-content/)
+>In a highly interactive discussion, we’ll go over the basics of using version control systems to help support documentation of software products. We’ll share ideas and swap war stories about how to set up workspaces and workflows, conduct reviews, deal with product versions, and interact with developers. We’ll look at how (or whether) using these systems affects our decisions about chunking, modularity, and reuse. Spoiler alert: version control systems are not component content management systems. ([STC Silicon Valley](http://www.stc-siliconvalley.org/2015/11/16/version-control-workflows-for-help-content/))
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NKWEn2JTDyQ" frameborder="0" allowfullscreen></iframe>
 
