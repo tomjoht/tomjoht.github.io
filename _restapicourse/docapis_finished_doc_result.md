@@ -129,7 +129,7 @@ curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=
 </tr>
 <tr>
 <td><strong><span class="muted">{day}/{time}</span>/watertemp</strong></td>
-<td>The temperature of the water, returned in Farenheit or Celsius depending upon the units you specify. Water temperatures below 70 F usually require you to wear a wetsuit. With temperatures below 60, you will need at least a 3mm wetsuit and preferably booties to stay warm.</td>
+<td>The temperature of the water, returned in Fahrenheit or Celsius depending upon the units you specify. Water temperatures below 70 F usually require you to wear a wetsuit. With temperatures below 60, you will need at least a 3mm wetsuit and preferably booties to stay warm.</td>
 </tr>
 <tr>
 <td><strong><span class="muted">{day}/{time}</span>/surfheight</strong></td>

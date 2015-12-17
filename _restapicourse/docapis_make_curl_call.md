@@ -14,7 +14,7 @@ type: notes_docapis
 
 While Postman is convenient, it's hard to represent just how to make the calls. Plus, different users probably use different GUI clients, or none at all. Instead of describing how to make REST calls using a GUI client, the most conventional method is to explain how to make the calls using cURL.
 
-cURL is a command-line utility that lets you excecute HTTP requests with different parameters and methods. In this section, you'll use cURL to make these same requests.
+cURL is a command-line utility that lets you execute HTTP requests with different parameters and methods. In this section, you'll use cURL to make these same requests.
 
 ## Prepare the weather request in cURL format
 
@@ -37,7 +37,7 @@ cURL is a command-line utility that lets you excecute HTTP requests with differe
 
 ## Make the request in cURL (Mac)
 {{activity}}
-1. Open a terminal. To open Terminal, press **Cmd + spacebar** and type **Terminal**.
+1. Open a terminal. To open Terminal, press **Cmd + space bar** and type **Terminal**.
 
 	{{tip}} If you plan on working in Terminal a lot, use <a href="https://www.iterm2.com/">iTerm</a> instead.{{end}}
 	

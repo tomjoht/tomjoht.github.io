@@ -18,13 +18,13 @@ In a [2013 survey by Programmableweb.com](http://www.programmableweb.com/news/ap
 
 <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "/images/restapicourse/progwebsurvey.png" | prepend: site.baseurl }}" alt="Programmableweb survey" /></a>
 
-John Musser, one of the founders of Programmableweb.com, also emphasized the importance of documentation in some of his presentations. In "10 reasons why developers hate your API," he says the number one reason developers hate your API is because "Your documentation sucks."
+John Musser, one of the founders of Programmableweb.com, has also emphasized the importance of documentation in some of his presentations. In "10 reasons why developers hate your API," he says the number one reason developers hate your API is because "Your documentation sucks."
 
 <a href="http://www.slideshare.net/jmusser/ten-reasons-developershateyourapi"><img src="{{ "/images/restapicourse/yourdocsucks.png" | prepend: site.baseurl }}" alt="Your API documentation sucks" /></a>
 
 ## Since 2005, REST APIs are taking off in a huge way
 
-If REST APIs were an uncommon software product, it wouldn't be that big of a deal. But actually, REST APIs are taking off in a huge way. Through the PEW Research Center, Programmableweb.com has charted and tracked the prevalance of web APIs.
+If REST APIs were an uncommon software product, it wouldn't be that big of a deal. But actually, REST APIs are taking off in a huge way. Through the PEW Research Center, Programmableweb.com has charted and tracked the prevalence of web APIs.
 
 <a href="http://www.slideshare.net/programmableweb/web-api-growthsince2005"><img src="{{ "/images/restapicourse/growthinrestapis.png" | prepend: site.baseurl }}" alt="Growth in web APIs" /></a>
 
@@ -34,7 +34,7 @@ eBay's API in 2005 was one of the first web APIs. Since then, the tremendous gro
 
 REST APIs are a bit different from the SOAP APIs that were popular some years ago. SOAP APIs (service-oriented architecture protocol) enforced a specific message format for sending requests and returning responses. As an XML message format, SOAP was very specific and had a WSDL file (web service description language) that described how to interact with the API.
 
-REST APIs, however, do not follow a standard message format. Instead, REST is an architectural style, a set of recommended practices for submitting requests and returning responses. In order to understand the request and response format for the REST API, you don't consult the SOAP message specification or look at the WSDL file. Instead, you have to consult the REST API *documentation*.
+REST APIs, however, do not follow a standard message format. Instead, REST is an architectural style, a set of recommended practices for submitting requests and returning responses. In order to understand the request and response format for the REST API, you don't consult the SOAP message specification or look at the WSDL file. Instead, you have to consult the REST API's *documentation*.
 
 Each REST API functions a bit differently. There isn't a single way of doing things, and this flexibility and variety is what fuels the need for accurate and clear documentation with REST APIs. As long as there is variety with REST APIs, there will be a strong need for technical writers.
 
@@ -44,9 +44,9 @@ Another reason why REST APIs are taking off is because the web itself is evolvin
 
 Rather than building your own payment gateway, you might integrate [Stripe and its API](https://stripe.com/docs/api). Rather than building your own login system, you might use [UserApp and its API](https://app.userapp.io/#/docs/). Rather than building your own e-commerce system, you might use [Snipcart and its API](http://docs.snipcart.com/api-reference/introduction). And so on.
 
-Practically every service provides its information and tools through an API that you use. Jekyll, a popular static site generator, doesn't have all the components you need to run a site. For example, there's no newsletter integration, analytics, search, commenting systems, forms, chat ecommerce, surveys, or other systems. Instead, you leverage the services you need into your static site.
+Practically every service provides its information and tools through an API that you use. Jekyll, a popular static site generator, doesn't have all the components you need to run a site. For example, there's no newsletter integration, analytics, search, commenting systems, forms, chat e-commerce, surveys, or other systems. Instead, you leverage the services you need into your static site.
 
-CloudCannon has a [long list of services](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html) that you can interate into your static site.
+CloudCannon has a [long list of services](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html) that you can integrate into your static site.
 
 <a href="http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html"><img src="{{ "/images/servicesforstaticsites.png" | prepend: site.baseurl }}" alt="services for static websites" /></a>
 

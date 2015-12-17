@@ -43,7 +43,7 @@ The company producing the API might use the API key for any of the following:
 * Authenticate calls to the API to registered users only
 * Track who is making the requests
 * Track usage of the API
-* Block or throttle requesters who exceed the rate limits
+* Block or throttle any requester who exceeds the rate limits
 * Apply different permission levels to different users
 
 Sometimes APIs will give you both a public and private key. The public key is usually included in the request, while the private key is treated more like a password and used only in server-to-server communication.

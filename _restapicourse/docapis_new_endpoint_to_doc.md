@@ -38,7 +38,7 @@ Read through the wiki page to get a sense of the information. The upcoming topic
 <ul>
 <li>Number of days: Max is 7. Default is 3. Optional.</li>
 <li>Units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.</li>
-<li>Time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch. This is the miliseconds since 1970. Time zone is GMT or UTC. Optional.</li>
+<li>Time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch. This is the milliseconds since 1970. Time zone is GMT or UTC. Optional.</li>
 </ul>
 
 <p>If you include the hour, then you only get back the surf condition for the hour you specified. Otherwise you get back 3 days, with conditions listed out by hour for each day. </p>

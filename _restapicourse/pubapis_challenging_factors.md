@@ -15,7 +15,7 @@ A lot of the solutions we've looked at tend to break down when you start applyin
 * Authentication
 * PDF
 
-You can handle all of this through a custom platform such as Jekyll, but it's not going to be a push-button experience. It will require a higher degree of technical skill and manuevering.
+You can handle all of this through a custom platform such as Jekyll, but it's not going to be a push-button experience. It will require a higher degree of technical skill and maneuvering.
 
 With my Jekyll doc theme, I'm single sourcing one of my projects into about 9 different outputs (for different product lines and programming languages). Jekyll provides a templating language called Liquid that allows you to do conditional filtering, content re-use, variables, and more.
 

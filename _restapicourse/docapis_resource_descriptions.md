@@ -151,7 +151,7 @@ Compare these descriptions with the endpoint descriptions from the [Aeris Weathe
 
 ## Recognize the difference between reference docs versus user guides
 
-One thing to keep in mind is the difference betweeen reference docs and user guides/tutorials:
+One thing to keep in mind is the difference between reference docs and user guides/tutorials:
 
 * **Reference guides**: Concise, bare-bones information that developers can quickly reference.
 * **User guides/tutorials**: More elaborate detail about everything, including step-by-step instructions, code samples, concepts, and procedures.

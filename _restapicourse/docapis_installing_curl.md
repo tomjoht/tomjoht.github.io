@@ -16,7 +16,7 @@ Follow these instructions for installing cURL:
 ### Mac
 If you have a Mac, by default, cURL is probably already installed. To check:
 
-1. Open Terminal (press **Cmd + spacebar** to open Spotlight, and then type "Terminal").
+1. Open Terminal (press **Cmd + space bar** to open Spotlight, and then type "Terminal").
 2. In Terminal type `curl -V`. The response should look something like this:
 
     ```

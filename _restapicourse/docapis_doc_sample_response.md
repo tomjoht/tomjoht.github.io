@@ -36,7 +36,7 @@ Many times the response contains nested objects (objects within objects). Here D
 
 <a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="{{ "/images/restapicourse/returnvaluedefinitions.png" | prepend: site.baseurl }}" alt="" /></a>
 
-{{tip}} Notice how the response values are in a monospace font while the descriptions are in a regular font? This helps improve the readability. {{end}}
+{{tip}} Notice how the response values are in a monospaced font while the descriptions are in a regular font? This helps improve the readability. {{end}}
 
 Other APIs will nest the response definitions to imitate the JSON structure. Here's an example from bit.ly's API:
 

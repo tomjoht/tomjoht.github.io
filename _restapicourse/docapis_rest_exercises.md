@@ -9,7 +9,7 @@ type: notes_docapis
 {% include notes.html %}
 
 ## Let's explore more APIs
-Now it's time to explore some other REST APIs and code for some specific scenarios. This experience will give you more exposure to different REST APIs, how they're organized, the complexities and interdependencies of endpoints, and more.
+Now it's time to explore some other REST APIs and code for some specific scenarios. This experience will give you more exposure to different REST APIs, how they're organized, the complexities and interdependency of endpoints, and more.
 
 ## Attack the challenge first, then read the answer
 There are several examples with different APIs. A challenge is listed for each exercise. First try to solve the challenge on your own. Then follow along in the sections below to see how I approached it.

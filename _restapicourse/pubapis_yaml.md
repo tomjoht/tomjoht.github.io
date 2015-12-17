@@ -150,7 +150,7 @@ YAML has some features that JSON lacks.
 
 You can add comments in YAML files using the `#` sign. 
 
-YAML also allows you to use something alled "anchors." For example, suppose you have two definitions that are similar. You could write the definition once and use a pointer to refer to both:
+YAML also allows you to use something called "anchors." For example, suppose you have two definitions that are similar. You could write the definition once and use a pointer to refer to both:
 
 ```yaml
 api: &apidef Application programming interface

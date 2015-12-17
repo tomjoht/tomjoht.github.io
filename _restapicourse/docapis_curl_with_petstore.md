@@ -70,7 +70,7 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
     {"id":51231236,"category":{"id":4,"name":"testexecution"},"name":"fluffernutter","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
     ```
 
-    {{tip}} Feel free to run this same request a few times more. REST APIs are "idempotent," which means that running the same request more than once won't end up duplicating the results (you just create one pet here, now multiplet pets). Todd Fredrich explains idempotency by <a href="http://www.restapitutorial.com/lessons/idempotency.html">comparing it to a pregnant cow</a>. Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session. {{end}}
+    {{tip}} Feel free to run this same request a few times more. REST APIs are "idempotent," which means that running the same request more than once won't end up duplicating the results (you just create one pet here, now multiple pets). Todd Fredrich explains idempotency by <a href="http://www.restapitutorial.com/lessons/idempotency.html">comparing it to a pregnant cow</a>. Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session. {{end}}
 
 ### Update your pet
 {{activity}}

@@ -46,11 +46,11 @@ Note that this course is intended to be sequential, walking you through a series
 
 ## No programming skills required
 
-As for technical backgrounds, you don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. 
+As for technical background, you don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. 
 
 If you do have some familiarity with programming concepts, you can speed through some of the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.
 
-Some of the code samples in this course use JavaScript. JavaScript may or may not be a language that you actually use when you document REST APIs, but most likely there will be some programming language or another that becomes important to know. 
+Some of the code samples in this course use JavaScript. JavaScript may or may not be a language that you actually use when you document REST APIs, but most likely there will be some programming language or platform that becomes important to know. 
 
 JavaScript is one of the most practical and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation.
 
@@ -58,9 +58,9 @@ JavaScript is one of the most practical and easy languages to become familiar wi
 
 Here are a few things you'll need in this course: 
 
-* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (it works on both Mac and PC), but any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good.)
+* **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (it works on both Mac and Windows), but any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good.)
 * **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's Developer Console.)
-* **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**. Postmany is a Chrome app that allows you to make requests and see responses through a GUI client.
+* **[Postman - REST Client (Chrome app)](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)**. Postman is a Chrome app that allows you to make requests and see responses through a GUI client.
 * **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line. 
 * **[Git](https://git-scm.com/)**. Git is a version control tool developers often use to collaborate on code. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
