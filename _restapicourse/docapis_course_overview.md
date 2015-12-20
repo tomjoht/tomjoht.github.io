@@ -10,17 +10,17 @@ type: notes_docapis
 
 ## Documenting REST APIs course
 
-Welcome to my course on writing documentation for REST APIs. Instead of just talking about abstract concepts, in this course I contextualize REST APIs with a direct, hands-on approach. 
+Welcome to my course on writing documentation for REST APIs. In this course, instead of just talking about abstract concepts, I'm going to contextualize REST APIs with a direct, hands-on approach. 
 
-You learn about API documentation in the context of using some simple weather APIs to put a weather forecast on your site.
+You'll learn about API documentation in the context of using some simple weather APIs to put a weather forecast on your site.
 
 As you use the API, you learn about endpoints, parameters, data types, authentication, cURL, JSON, the command line, Chrome's Developer Console, JavaScript, and other details associated with REST APIs. 
 
 The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a real scenario while using an API.
 
-After you use the API as a developer, you then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
+After you use the API as a developer, you'll then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
 
-As a technical writer, you tackle each element of a reference topic in REST API documentation: 
+As a technical writer, you'll tackle each element of a reference topic in REST API documentation: 
 
 * Resource descriptions
 * Endpoint definitions and methods
@@ -32,21 +32,21 @@ As a technical writer, you tackle each element of a reference topic in REST API 
 
 Diving into these sections will give you a solid understanding of how to document REST APIs.
 
-Later, we dive into different ways to publish REST API documentation, exploring tools and specifications such as API Blueprint, Swagger, RAML, readme.io, Jekyll, and more. 
+Later, you'll dive into different ways to publish REST API documentation, exploring tools and specifications such as API Blueprint, Swagger, RAML, readme.io, Jekyll, and more. 
 
-You'll learn how to leverage templates, build interactive API consoles so users can try out requests and see responses, and learn different ways to host your documentation.
+You'll learn how to leverage templates, build interactive API consoles so users can try out requests and see responses, and learn different ways to host and publish your documentation.
 
 Finally, in the third part of the course, you'll learn about native library APIs such as Java or C++ APIs, as well as how to document them. You'll generate a Javadoc, update parameters and class descriptions, and see how your tags affect what's included in the output. 
 
 ## Learn with a real example and context
 
-Because the purpose of the course is to help you learn, there are many activities that require hands-on coding and other exercises. Between the learning activities, there are more conceptual deep dives, but the focus is always on *learning by doing*.
+Because the purpose of the course is to help you learn, there are many activities that require hands-on coding and other exercises. Along with the learning activities, there are more conceptual deep dives, but the focus is always on *learning by doing*.
 
-Note that this course is intended to be sequential, walking you through a series of concepts and activities that build on each other. But you can skip around as you want.
+Note that this course is intended to be sequential, walking you through a series of concepts and activities that build on each other. But you can skip around as you want if you're already familiar with a concept.
 
 ## No programming skills required
 
-As for technical background, you don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. 
+As for the needed technical background for the course, you don't need any programming background or other prerequisites, but it will be helpful to know some basic HTML, CSS, and JavaScript. 
 
 If you do have some familiarity with programming concepts, you can speed through some of the sections and jump ahead to the topics you want to learn more about. This course assumes you're a beginner, though. If something is obvious, feel free to skip to where you feel you're actually learning something.
 
@@ -66,20 +66,3 @@ Here are a few things you'll need in this course:
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.
 
-## Course focus is on REST APIs
-The API landscape is diverse. (To get a taste of this variety, check out Sarah Maddox's post about [API types](https://ffeathers.wordpress.com/2014/02/16/api-types/).)
-
-<a href="https://ffeathers.wordpress.com/2014/02/16/api-types/"><img src="{{ "/images/publishingapidocs/apitypes.png" | prepend: site.baseurl }}" alt="API Types" /></a>
-
-Despite the wide variety, I think there are mostly just two main types of APIs most technical writers interact with:
-
-* Native library APIs (such as APIs for Java, C++, and .NET)
-* REST APIs
-
-With native library APIs, you deliver a library of classes of functions to users, and they incorporate this library into their projects. They can then call those classes or functions directly in their code, because the library has become part of their code. 
-
-With REST APIs, you don't deliver a library of files to users. Instead, the users make requests for the resources on a web server, and the APIs return responses. 
-
-REST APIs follow the same protocol as the web. When you open a browser and type a website URL such as http://idratherbewriting.com, you're actually making a GET request for a resource on a server. The server responds with the content and the browser makes the content visible.
-
-This course focuses mostly on REST APIs because they're more accessible to technical writers, as well as more popular and in demand. You don't need to know programming to document REST APIs. And REST is becoming the most common type of API anyway.
