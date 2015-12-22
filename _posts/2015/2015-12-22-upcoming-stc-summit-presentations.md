@@ -6,10 +6,10 @@ categories:
 - general
 keywords: 
 summary: ""
+published: false
 ---
 
-
-
+I'm going to be giving a coup
 Writing tech docs like a hacker with Jekyll
 
 How can you use Jekyll, a popular static site generator, for documentation that includes
