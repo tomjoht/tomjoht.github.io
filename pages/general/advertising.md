@@ -10,16 +10,16 @@ I have one of the largest hubs where technical writers gather and interact to st
 
 ## How I increase visibility
 
-I help increase visibility of your product through ad impressions. An impression occurs when someone loads a page where your ad is visible. Different ad spaces are more visible than others. You can select from among 3 different ad spaces. Impressions are tracked through Google Analytics.
+I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. Different ad spaces are more visible than others. You can select from among 3 different ad spaces. Impressions are tracked through Google Analytics.
 
 ### Sidebar ad space
 
-Sidebar ads appear in the right sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
 Your ad can be any image type (JPG, GIF, or PNG) and color, but the dimensions must be exactly 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
-<img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear on the right sidebar in a single column. They rotate randomly with each page refresh.</figcaption></figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a single column. They rotate randomly with each page refresh.</figcaption></figure>
 
 ### Horizontal Inline Ad Space
 
@@ -31,13 +31,13 @@ Horizontal Inline ads here can also be animated GIF if desired. The positions a
 
 ### Top Banner Ad Space
 
-The top banner ad space(470px x 60px) refers to the top section of the site, in the upper-right corner.
+The top banner ad space (470px x 60px) refers to the top section of the site, in the upper-right corner.
 
 <figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" width="600" height="292" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
 The top banner ad is placed in one of the most visually dominant places on the site.
 
-There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space. If the top banner ad rotates, the price is lowered proportionally. For example, if two ads display here, alternating with each page refresh, the cost is split in half. For three ads, the cost is split into thirds.
+There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space. 
 
 ### Number of impressions per year
 
@@ -92,7 +92,7 @@ Additionally, their main interests are technology and employment.
 
 The quality of impressions depends on the influence of the site. Impressions from a highly influential site carry more weight than impressions from a less influential site.
 
-MindTouch named me one of the most influential bloggers in technical communication. Influence is based on how many other top #techcomm insiders follow me on Twitter.
+Is idratherbewriting.com an influential site? Yes. MindTouch named me one of the most influential bloggers in technical communication (putting me in the top 10 in every year it has published its results). Influence is partly based on how many other top #techcomm insiders follow me on Twitter.
 
 <figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class="   wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
 
@@ -106,7 +106,7 @@ See the following links for more details:
 
 ### Impression rates (CPM)
 
-Impressions are usually calculated by CPM (cost per mille, or cost per 1,000 impressions). However, presently I'm just tracking impressions by page views on the site, since each ad always appears with each page load.
+Impressions are usually calculated by CPM (cost per mille, or cost per 1,000 impressions). Since each ad loads with each page refresh, one page view is equivalent to one impression. 
 
 The cost for each ad space is as follows:
 
@@ -128,7 +128,7 @@ The cost for each ad space is as follows:
     </tr>
     <tr>
         <td>Top Banner space (470px x 60px)</td>
-        <td>$6,000/year for single ad display, $3,000/year if rotated between 2 ads, or $2,000/year if rotated between 3 ads.</td>
+        <td>$6,000/year</td>
     </tr>
     </tbody>
 </table>
