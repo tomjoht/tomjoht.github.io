@@ -9,22 +9,16 @@ summary: ""
 published: false
 ---
 
-I'm going to be giving a coup
+I'm going to be giving a presentation and workshop at the STC Summit in Anaheim, California in May. Here's the presentation: 
+
 Writing tech docs like a hacker with Jekyll
 
-How can you use Jekyll, a popular static site generator, for documentation that includes
-requirements such as conditional filtering, single sourcing, PDF and HTML output, a robust
-TOC, search, context sensitive help, collaboration, SME review, and more?
-
-With Jekyll, you write primarily in Markdown, but can also use HTML or JS in your content. As an open source tool, Jekyll's architecture is completely open and flexible. You can make Jekyll do pretty much anything you want, depending on your web development skills. The founder of Jekyll described the tool as "blogging like a hacker."
-
-If you work in a developer-centric shop, and you want to ditch proprietary HATs and feel the freedom of code, Jekyll might be a good solution for you.
-
-Session Proposal
 Static site generators are a new breed of documentation tools that are much more common in
 engineering groups where developers contribute to the documentation.
 
-Jekyll is the most popular static site generator, but it is highly similar to others in the same category such as Docpad, Middleman, Wintersmith, and Octopress. You can see a more comprehensive list of the top static site generators here: http://www.staticgen.com/. Jekyll projects approach doc as code. All the files are open and editable within a code editor, and your files can live in the same repository as your program code or within the same version control workflow.
+Jekyll is one of the most popular static site generators, but it is highly similar to others in the same category such as Docpad, Middleman, Wintersmith, and Octopress. You can see a more comprehensive list of the top static site generators at [Staticgen.com](http://www.staticgen.com). 
+
+Jekyll projects approach doc as code. All the files are open and editable within a code editor, and your files can live in the same repository as your program code or within the same version control workflow.
 
 Although developers and web engineers love Jekyll, there are significant challenges to overcome when adopting Jekyll for any robust tech comm publishing scenario.
 
