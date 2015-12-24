@@ -4,7 +4,7 @@ categories:
 - api-doc
 - podcasts
 keywords: 
-summary: "You can watch Richard's recording of his November 2015 presentation to the STC Silicon Valley about version control, writers, and workflows. "
+summary: "You can watch the recording of Richard Mateosian's November 2015 presentation to the STC Silicon Valley about version control, writers, and workflows. "
 ---
 ## Video, audio, and slides
 
