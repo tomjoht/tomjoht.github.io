@@ -257,7 +257,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	    url = "http://petstore.swagger.io/v2/swagger.json";
 	  }
 	```
-5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.json";`.
+5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.yaml";`.
 	
 	
 6. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
@@ -272,7 +272,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
         }
 	```
 	
-	Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "{api key}", "header"));`, so that it looks like this:
+7. Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "{api key}", "header"));`, so that it looks like this:
 	
 	```js
 	      function addApiKeyAuthorization(){
@@ -304,7 +304,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	```
 	
 9. Save the file.
-10. Drag the **swagger.json** file that you created earlier into the same directory as the index.html file you just edited.
+10. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
 	
 If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `var apiKey = "{api key}";`. Replace `{api key}` in a couple of places with your own API key for Mashape.
 
@@ -339,7 +339,7 @@ If the previous instructions were confusing, just copy the following code and re
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
-        url = "swagger.json";
+        url = "swagger.yaml";
       }
       window.swaggerUi = new SwaggerUi({
         url: url,

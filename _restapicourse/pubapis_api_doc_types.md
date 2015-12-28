@@ -34,7 +34,7 @@ In Mulesoft's API platform, you can see many of these sections in their standard
 
 <a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api?ref=apihub"><img src="{{ "/images/restapicourse/commonsections.png" | prepend: site.baseurl }}" alt="Common sections in API documentation" /></a>
  
- I won't get into too much detail about each of these sections. In my previous course, <a href="{{ "/restapicourse" | prepend: site.baseurl }}">Documenting REST APIs</a>, I explore the content development aspect of API documentation in depth. Here I'll just list the salient points. 
+ I won't get into too much detail about each of these sections. In previous sections of this course, I explored the content development aspect of API documentation in depth. Here I'll just list the salient points. 
  
 ### Guides
  

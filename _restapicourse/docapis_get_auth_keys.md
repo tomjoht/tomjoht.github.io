@@ -26,7 +26,7 @@ In order to run the code samples in this course, you will need to use your own A
 {{activity}}
 In order to get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
 
-1. On [Mashape.com](https://market.mashape.com/), click **Sign Up** in the upper-right corner and create an account.
+1. On [market.mashape.com](https://market.mashape.com/), click **Sign Up** in the upper-right corner and create an account.
 2. Click **Applications** on the top navigation bar, and then select **Default Application**.
 3. In the upper-right corner, click **Get the Keys**.
 	
@@ -61,7 +61,7 @@ Once your app registers, you should see an ID and secret for the app. Copy this 
 
 ## Text editor tips
 
-When you're working with code, you use a text editor instead of a rich text editor (which would provide a WYSIWYG interface). Many developers use different text editors. Here are a few choices:
+When you're working with code, you use a text editor (to work in plain text) instead of a rich text editor (which would provide a WYSIWYG interface). Many developers use different text editors. Here are a few choices:
 
 * [Sublime Text](http://www.sublimetext.com/) (Mac or PC)
 * [TextWrangler](http://www.barebones.com/products/textwrangler/) or [BBedit](http://www.barebones.com/products/bbedit/) (Mac)
