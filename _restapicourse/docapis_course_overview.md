@@ -38,6 +38,12 @@ You'll learn how to leverage templates, build interactive API consoles so users 
 
 Finally, in the third part of the course, you'll learn about native library APIs such as Java or C++ APIs, as well as how to document them. You'll generate a Javadoc, update parameters and class descriptions, and see how your tags affect what's included in the output. 
 
+## Stay updated
+
+If you're taking this course, you likely want to learn more about APIs. I publish regular articles that talk about APIs and strategies for documenting them. You can stay updated about these posts by subscribing to my free newsletter using the form below. 
+
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/tomjohnson1492" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/tomjohnson1492', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+
 ## Learn with a real example and context
 
 Because the purpose of the course is to help you learn, there are many activities that require hands-on coding and other exercises. Along with the learning activities, there are more conceptual deep dives, but the focus is always on *learning by doing*.
