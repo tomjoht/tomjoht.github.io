@@ -42,7 +42,9 @@ Finally, in the third part of the course, you'll learn about native library APIs
 
 If you're taking this course, you likely want to learn more about APIs. I publish regular articles that talk about APIs and strategies for documenting them. You can stay updated about these posts by subscribing to my free newsletter using the form below. 
 
- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/tomjohnson1492" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/tomjohnson1492', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+<div style="max-width:400px">
+{% include tinyletter.html %}
+</div>
 
 ## Learn with a real example and context
 

@@ -7,16 +7,28 @@ summary: ""
 published: false
 ---
 
-- setting: 
-This past year I've been hearing a ton about addressing the whole customer journey. Companies need to have consistent content both pre-sale while they are prospects, as well post-sale once they become customers.
+## Hearing a lot about "unified customer experience"
+This past year I've been hearing a lot about addressing the whole customer journey, or developing a ["unified customer experience strategy"](https://www.linkedin.com/pulse/why-you-need-unified-customer-experience-strategy-scott-abel). Companies need to have consistent content while the users are prospects, as well as after those users become customers.
 
-I hear about the whole customer journey not only from the Content Wrangler, but also other writers who have moved into content marketing, like Marcia Reifer Johnston, who now creates content for the Content Marketing Institute (CMI). It's even more interesting that the CMI bought the Intelligent Content Conference and has continued the momentum of the conference's attendance. It seems that marketing is not so much "the dark side" as it once was.
+In other words, when a user is exploring a company, they may listen to a webinar, watch an overview video, explore a demo site, read a blog article, download a white paper, and so on. This is all "pre-sale content."
+
+After they buy the product, the user may interact with other types of content: a Getting Started tutorial from a user guide, a support article (when things don't work), emails from support agents helping customers, interactive show-me videos, forum posts, and more.
+
+I hear about the whole customer journey not only from the [Content Wrangler](http://thecontentwrangler.com/), but also others who come to speak at conferences like the [Intelligent Content Conference](http://www.intelligentcontentconference.com/). I find it really interesting that the [Content Marketing Institute](http://contentmarketinginstitute.com/) (CMI) bought the Intelligent Content Conference from structured content guru Ann Rockley and has continued the momentum of the conference's attendance. 
+
+However, now the focus of the conference has shifted a bit. The tagline is "Content strategy for marketers," and rather than trying to bring technical writers and marketers together into one collaborative effort (breaking down silos), the focus is more on teaching marketers how to adopt some of the intelligent content strategies employed in tech comm. The conference organizers explain:
+
+> Our goal is the movement away from the copy/paste mentality of most marketers, toward a format-free, modular and single-source approach to content creation and distribution. (See [Intelligent Content Conference](http://www.intelligentcontentconference.com/).)
+
+No, marketers aren't adopting DITA to single source their blog articles, white papers, and webinar descriptions. But marketers are trying to adopt a structured authoring model that allows for re-use of content without copy and paste. 
   
-I have somewhat resisted the shift toward content marketing. I have pretty much been content to let Marketing do its thing, while I do my thing. I write tech docs (based in raw, unvarnished information that helps people), marketers write all that fluffy marketing copy (which is half fiction and half fancy graphics), and we amicably exchange greetings while passing by in the breakroom.
+## Whence my interest in content marketing?
+
+I have somewhat resisted the shift toward content marketing. I have pretty much been content to let Marketing create its own content, while I create my own (the whole silos approach). I write tech docs based in raw, unvarnished information that helps people, and marketers write all that fluffy marketing copy that is half fiction and half fancy graphics, and we amicably exchange greetings while passing by in the breakroom.
 
 But having worked for two startups, I'm beginning to change my thoughts about the role of content marketing and other pre-sale content. Why does a startup product succeed or fail? Is the startup's success solely based on the product's awesomeness &mdash; those features that engineers are endlessly going on about in standup meetings while minimizing discussion of documentation to anything beyond 30 seconds?
 
-During the holiday break, I started reading Joe Pulizzi's book *Content Inc*. I figured this might be a good way to educate myself more on the role of content marketing. Joe says that he started publishing content about his product before he actually had the product. He recommends this reverse approach for any business as well. 
+During the holiday break, I started reading Joe Pulizzi's book [Content Inc](http://www.amazon.com/Content-Inc-Entrepreneurs-Successful-Businesses/dp/125958965X). I figured this might be a good way to educate myself more on the role of content marketing. Joe says that he started publishing content about his product before he actually had the product. He recommends this reverse approach for any business as well. 
 
 He notes that this approach seems a bit backwards, especially given that most startup companies hope to get a decent 1.0 product, some successful proof of concept customers, and a few testimonials and positive results before they start marketing their product aggressively. In other words, they operate in semi-stealth mode while developing their product. 
 
@@ -63,3 +75,4 @@ Making this realization is surely the first step. A lot remains, such as finding
 - attempts:
 - resolution:
 
+http://www.intelligentcontentconference.com/mother-of-content-strategy-embraces-content-marketing/

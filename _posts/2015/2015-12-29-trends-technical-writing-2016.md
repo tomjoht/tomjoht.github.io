@@ -1,5 +1,5 @@
 ---
-title: "My 2016 technical writing trends and predictions, or The ripple effects of API growth on technical writers"
+title: "My 2016 technical writing trends and predictions, or the ripple effects of API growth on technical writers"
 categories:
 - api-doc
 keywords: 
