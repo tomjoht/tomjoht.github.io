@@ -1,10 +1,10 @@
 ---
-title: Analyzing top posts on my blog during 2015 &mdash; branding or readership?
+title: Analyzing top posts on my blog during 2015 &mdash; Should I focus on brand or readership?
 categories:
 - writing
 - general
 keywords: technical writing, beginners, statistics, traffic, top posts
-summary: "The main traffic on my site comes from new or transitioning technical writers looking for general information about technical writing careers. Maximizing my readership probably entails writing more posts containing general information about technical writing, and saturating those posts with SEO-rich keywords. But this kind of focus may undercut my sense of expertise. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
+summary: "The main traffic on my site comes from new or transitioning technical writers looking for general information about technical writing careers. Increasing my readership probably entails writing more posts containing general information about technical writing (salaries, programs, skills, tools, etc.). But this kind of focus may undercut my sense of specialized expertise, especially with API documentation. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
 thumb: 2016stats.png
 ---
 
@@ -12,7 +12,7 @@ thumb: 2016stats.png
 
 Every year I try to analyze the top posts on my site so that I better understand what information people are looking for. This analysis helps direct my blog efforts and lets me know what's working and not working. This analysis is just as much for me as any reader.
 
-Compare this 2015 post with the [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](http://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/).
+(Compare this 2015 post with the [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](http://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/).)
 
 ## Top 10 posts written in 2015
 
@@ -81,9 +81,9 @@ Google Analytics has a host of analytical data about my visitors. Here's a smatt
 
 Here's the statistic that always blows my mind: 
 
-<img src="{{ "/images/organicsearch2015.png.png" | prepend: site.baseurl }}" alt="Traffic" />
+<img src="{{ "/images/organicsearch2015.png" | prepend: site.baseurl }}" alt="Traffic" />
 
-In other words, how do people arrive at my blog?
+In other words, here's how people arrive at my blog:
 
 * Organic search: 267,951 (71%)
 * Direct links: 61,292 (16%)
@@ -91,11 +91,7 @@ In other words, how do people arrive at my blog?
 * Social media: 12, 218 (12%)
 * Other: 5,00 (1%)
 
-Of the 71% search traffic, 67% of visitors comes from Google. 
-
-Only 6% of traffic comes from Tinyletter (my newsletter service), 10% from Twitter, 7% from Disqus.
-
-The average page load time: 7.11 sec. (huh?)
+Of the 71% search traffic, 67% of visitors comes from Google. Only 6% of traffic comes from Tinyletter (my newsletter service), 10% from Twitter, 7% from Disqus.
 
 From Google Webmaster Tools, here are some common search terms:
 
@@ -128,8 +124,6 @@ I have 2,212 URLs submitted in my sitemap, and 2,154 URLs indexed. (I'm not sure
 I was particularly curious about the statistics this year because I switched from WordPress to Jekyll. I'm glad that my site stats didn't drop due to the new platform. They pretty much seem on par with the stats from last year. 
 
 I hoped Jekyll's quick loading time would result in more sessions and page views, but if it did the results weren't really noticeable. Traffic was up from last year, but I also have more content on my site given the new 2015 posts. 
-
-I don't really understand how Google calculates its page loading time. Although it says 7 seconds on average, [Pingdom Tools](http://tools.pingdom.com/fpt/) puts it at about 1.3 seconds. 
 
 I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images. This made me think twice about ever including non-standard HTML in posts. Some formatting tasks still remain. Here's one thing I need to clean up: WordPress has an auto-embed function when you simply listed a Youtube URL. I need to go through all my posts and add the embed code for those Youtube URLs.
 
