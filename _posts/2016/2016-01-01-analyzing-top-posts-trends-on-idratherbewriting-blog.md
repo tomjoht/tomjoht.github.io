@@ -4,7 +4,7 @@ categories:
 - writing
 - general
 keywords: technical writing, beginners, statistics, traffic, top posts
-summary: "In general, the main traffic on my site comes from new or transitioning technical writers looking for general information about technical writing careers. 75% of my traffic originates from organic searches on Google. Maximizing my readership probably entails writing more posts containing general information about technical writing, and saturating those posts with SEO-rich keywords. But this kind of focus doesn't have a tremendous appeal for me. Additionally, focusing on general topics may undercut my sense of expertise. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
+summary: "The main traffic on my site comes from new or transitioning technical writers looking for general information about technical writing careers. Maximizing my readership probably entails writing more posts containing general information about technical writing, and saturating those posts with SEO-rich keywords. But this kind of focus may undercut my sense of expertise. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
 thumb: 2016stats.png
 ---
 
