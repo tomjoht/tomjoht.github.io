@@ -1,5 +1,5 @@
 ---
-title: "API Blueprint"
+title: "API Blueprint tutorial"
 permalink: /pubapis_api_blueprint/
 course: "Documenting REST APIs"
 type: notes_docapis

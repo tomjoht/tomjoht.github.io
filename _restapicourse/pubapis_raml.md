@@ -1,5 +1,5 @@
 ---
-title: RAML
+title: RAML tutorial
 permalink: /pubapis_raml/
 keywords: 
 course: "Publishing REST APIs"

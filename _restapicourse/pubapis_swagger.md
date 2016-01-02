@@ -1,5 +1,5 @@
 ---
-title: "Swagger"
+title: "Swagger tutorial"
 permalink: /pubapis_swagger/
 course: "Documenting REST APIs"
 type: notes_docapis
