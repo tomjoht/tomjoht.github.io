@@ -4,7 +4,7 @@ categories:
 - writing
 - general
 keywords: technical writing, beginners, statistics, traffic, top posts
-summary: "The main traffic on my site comes from new or transitioning technical writers looking for general information about technical writing careers. Increasing my readership probably entails writing more posts containing general information about technical writing (salaries, programs, skills, tools, etc.). But this kind of focus may undercut my sense of specialized expertise, especially with API documentation. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
+summary: "The main traffic on my site comes from new technical writers looking for general information about technical writing careers. To increase my readership, I would probably need to post more general information about technical writing (salaries, programs, skills, tools, etc.). But this kind of focus may take away from my brand or sense of expertise about more specialized topics. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
 thumb: 2016stats.png
 ---
 
@@ -125,18 +125,18 @@ I was particularly curious about the statistics this year because I switched fro
 
 I hoped Jekyll's quick loading time would result in more sessions and page views, but if it did the results weren't really noticeable. Traffic was up from last year, but I also have more content on my site given the new 2015 posts. 
 
-I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images. This made me think twice about ever including non-standard HTML in posts. Some formatting tasks still remain. Here's one thing I need to clean up: WordPress has an auto-embed function when you simply listed a Youtube URL. I need to go through all my posts and add the embed code for those Youtube URLs.
+I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images. This made me think twice about ever including non-standard HTML in posts. Some formatting tasks still remain. For example, when I was on WordPress, I used the auto-embed function for Youtube URLs. I need to go through all my posts and add the full embed code for those Youtube URLs.
 
 ## Confronting reality
-Whenever I look at my stats, I always want to deny the most staggering, mind-blowing facts. But here's the truth. 75% of my visitors are new and coming from Google. Social media accounts for only a small percentage of my traffic. Based on this, I should be writing for search engines and targeting keywords in my blog posts. The time of day and length of my posts doesn't much matter. What matters is how my site surfaces and looks in Google's search engine. 
+Whenever I look at my stats, I always want to deny the most staggering, mind-blowing facts. But here's the truth. 75% of my visitors are new and coming from Google. Social media accounts for only a small percentage of my traffic. Based on this, I should be writing for search engines and targeting keywords in my blog posts. The time of day and length of my posts doesn't much matter. What matters is how my site surfaces and appears in Google's search engine. 
 
-A lot of the visitors are new to technical writing. They're searching for information on technical writing certification programs, jobs, salaries, skills, and other details associated with technical writing careers. So yes, most of my traffic is from newbies trying to learn about technical writing. Is that what I should focus on? 
+A lot of my visitors are new to technical writing. They're searching for information on technical writing certification programs, jobs, salaries, skills, and other details associated with technical writing careers. In other words, most of my traffic is from newbies trying to learn about technical writing. Is that what I should focus on? 
 
-This year there was also a lot of traffic with my [API documentation writing course](http://idratherbewriting.com/docapis_course_overview/) and [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe. (Then after I send the newsletter out, half of them unsubscribe.)
+Last year there was also a lot of traffic with my [API documentation writing course](http://idratherbewriting.com/docapis_course_overview/) and [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe. 
 
 The regular users who comment on my blog don't represent the overwhelming traffic from organic search. It's easy to overlook that and just think of my regular commenters as my readers. But those who comment are in the minority by far. The bulk of my visitors are like the dark matter of the Internet &mdash; present and undeniable but ethereal and unknown. Who the heck are all the users from the other sessions? How can I convert them into regular subscribers?
 
-I also started using [Bit.ly](http://tools.pingdom.com/fpt/) to track hits on posts. It was pretty clear to me that sending out links in an email newsletter is a major strategy for driving traffic to the posts. If you just submit the links to Twitter and Linkedin, you only get a tenth of the traffic that you do from sending out the links via an email newsletter.
+Last year I also started using [Bit.ly](http://tools.pingdom.com/fpt/) to track hits on posts. It was pretty clear to me that sending out links in an email newsletter is a major strategy for driving traffic to the posts. If you just submit the links to Twitter and Linkedin, you only get a tenth of the traffic that you do from sending out the links via an email newsletter.
 
 <img src="{{ "/images/tinyletterstats.png" | prepend: site.baseurl }}" alt="Tinyletter" />
 
@@ -152,11 +152,11 @@ This year I'm thinking of adding a new course on my site called "Getting started
 
 The downside of focusing on these mainstream, general topics is that it will dilute my sense of expertise or brand. This past year I wrote a lot about [API documentation](http://idratherbewriting.com/category-api-doc/). These posts helped present me as an expert in API documentation. 
 
-The secret trick to online branding is that simply writing extensively and thoughtfully about any topic will brand you as an expert in that topic. Robert Scoble recommends that you blog only about what you want to be known for, or the direction you hope to go. For example, if you want to drive cabs, let cabs be the dominant focus on your blog:
+The secret trick to online branding is that simply writing extensively and thoughtfully about any topic will brand you as an expert about that topic. Robert Scoble recommends that you blog only about what you want to be known for, or the direction you hope to go. For example, if you want to drive cabs, let cabs be the dominant focus on your blog:
 
 > If you want to drive a cab, you better go out and take pictures of cabs. Think about cabs. Put suggestions for cabbies up. Interview cabbies. You better have a blog that is nothing but cabs. Cabs. Cabs. Cabs all the time. (See [If you are laid off, here's how to socially network](http://scobleizer.com/if-you-are-laid-off-heres-how-to-socially-network/))
 
-I both had a passion for API documentation and wanted to brand myself as an API documentation expert, so I blogged a lot about API documentation. After some months, voila, soon I was being asked to teach workshops on API documentation. 
+I both have a passion for API documentation and want to brand myself as an API documentation expert, so I blog a lot about API documentation. After some months, I was asked to teach numerous workshops on API documentation. 
 
 However, most of my blog traffic, the 75% of my sessions, are more focused around newbie technical writing topics. New or transitioning technical writers usually aren't looking for information on API documentation. Even most of my existing subscribers probably aren't that interested in API documentation. Writing so extensively about API documentation alienates me from mainstream readership, but it also helps portray me as an API documentation expert. 
 
@@ -166,11 +166,11 @@ More readers means more potential advertising revenue, but a stronger brand focu
 
 Maybe as a compromise I could alternate between the two topics? 
 
-Most likely I'll continue the same path, emphasizing brand and API documentation specialization more than general readership. But occasionally I'll thrown in some general information for new and transitioning technical writers.
+Most likely I'll continue the same path as before, emphasizing brand and API documentation specialization. But occasionally I'll thrown in some general information for new and transitioning technical writers.
 
 ## Other strategies
 
-Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](http://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe, or something. I think I'm missing this incentive.
+Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](http://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe, or something. I think this will help convert visitors into subscribers.
 
 Finally, I need to stop focusing so much on social media promotion and think more strategically about keywords on Google (regardless of my blog's focus). Links on social media channels evaporate within a day of posting them, but URLs indexed by Google are more permanent and visible.
 
