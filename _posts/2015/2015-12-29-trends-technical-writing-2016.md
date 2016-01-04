@@ -86,7 +86,7 @@ You can see this, for example, with [readme.io](http://readme.io), which was cre
 
 In short, if developers are collaborating on docs, you will likely adopt tools that developers prefer. 
 
-(Update: Note that Markdown isn't the only format developers prefer. [Asciidoc](http://www.methods.co.nz/asciidoc/) is popular for those using [Asciidoctor](http://asciidoctor.org/), and [reStructuredText](http://docutils.sourceforge.net/rst.html) (RST) is popular for those using Sphinx and [Readthedocs.org](https://readthedocs.com]. Both Asciidoc and RST use wiki-like syntax for producing HTML from text file formats. I only singled out Markdown because I think it's more widely known and has tremendous momentum, especially if your content is in Github.)
+(Update: Note that Markdown isn't the only format developers prefer. [Asciidoc](http://www.methods.co.nz/asciidoc/) is popular for those using [Asciidoctor](http://asciidoctor.org/), and [reStructuredText](http://docutils.sourceforge.net/rst.html) (RST) is popular for those using Sphinx and [Readthedocs.org](https://readthedocs.com). Both Asciidoc and RST use wiki-like syntax for producing HTML from text file formats. I only singled out Markdown because I think it's more widely known and has tremendous momentum, especially if your content is in Github.)
 
 ## 3. Github as a collaboration platform rises in popularity among tech writers
 
