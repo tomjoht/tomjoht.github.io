@@ -1,5 +1,5 @@
 ---
-title: What is the technical writer's role in content marketing?
+title: "What is the technical writer's role in content marketing?"
 categories:
 - writing
 keywords: content marketing, joe pullizi, unified customer experience 
@@ -34,7 +34,7 @@ Having worked for two startups, I'm beginning to change my thoughts about the ro
 
 During the holiday break, I started reading Joe Pulizzi's book [Content Inc](http://www.amazon.com/Content-Inc-Entrepreneurs-Successful-Businesses/dp/125958965X). I figured this might be a good way to educate myself more on the role of content marketing. 
 
-Joe says he started publishing content about his product before he actually had the product available. He recommends this reverse approach for any business as well. 
+Joe says he started publishing content to build an audience (not product-related content) before he had a product available. He recommends this reverse approach for any business as well. 
 
 He notes that this approach seems a bit backwards, especially given that most startup companies hope to get a decent 1.0 product, some successful proof of concept customers, and a few testimonials and positive results before they start marketing their product. In other words, they operate in semi-stealth mode, not marketing at all, while developing their product. 
 
@@ -64,9 +64,9 @@ In other words, by creating content that responds to users' needs and interests,
 
 ## Some realizations
 
-Reading *Content Inc* has made me realize a few things. First, pretty much everything I've been doing on this blog might be considered a form of content marketing (though I lack the business part).
+Reading *Content Inc* has made me realize a few things. First, a lot of what I've been doing on this blog might be considered content marketing &mdash; I just lack the business angle. Although content marketing's overt value model for users is the relevant, useful content, that content ultimately has a goal: to drive profitable customer action.
 
-Granted, there are a few areas where I have clearly failed. For example, by now I should have 10 times as many subscribers and be independently wealthy from converting my subscribers into a source of repeatable revenue somehow. That didn't quite happen. But so much of what I do online fits into what content marketers do that I'm 100% confident that I would be a pretty good content marketer.
+This last part is an area where I have clearly failed. For example, by now I should have 10 times as many subscribers and be independently wealthy from converting my subscribers into a source of repeatable revenue somehow. That didn't quite happen (yet). But so much of what I do online fits into what content marketers do that I'm 100% confident that I would be a pretty good content marketer.
 
 Which is why I'm a little perplexed about the technical writer role I play at work. As a technical writer, almost every company I've worked for has had clear separations between tech docs and marketing. The one marketing overview document I helped work on earlier this year at my present company was challenging &mdash; I had to put everything into third person tense, keep things high level and general, and write it for sales people as background literature instead of to an actual customer. (This content wasn't content marketing &mdash; it was a product marketing overview.)
 
@@ -84,7 +84,7 @@ ProgrammableWeb has built up the audience; it has won me over through the worthw
 
 If I want a startup's product to be successful, I think I'll need to jump into content that goes beyond documentation and training. I'll need to build a bridge and cross a chasm, as well as change an entire company's culture about Marketing and Tech Pubs realms being separate. 
 
-The good thing is, I think the content in tech docs is the secret sauce to good content marketing. 
+The good thing is, I think the content in tech docs is the secret sauce to good content marketing (assuming the tech docs are product-related). To contribute to the content marketing effort, tech writers (or engineers or any other employees who are so inclined) would have to genericize from the product-specific information and share insights into processes or concepts in a way that anyone in any company could use.
 
 ## The secret to good content
 
@@ -96,13 +96,13 @@ For example, a topic in a user guide on "Generating an HMAC Signature for Reques
 
 As a technical writer, you have the insight to provide substantial, information rich content that will build relationships with technical audiences. 
 
-Marketing writing without substance is going to come across as empty marketing &mdash; the kind of brochure or product literature that has such as a strong agenda it's almost unreadable. 
+Marketing writing without substance is going to come across as empty marketing &mdash; the kind of brochure or product literature that has such a strong agenda it's almost unreadable. 
 
 Imagine if the articles I wrote on this blog were from an outsider's point of view, that is, if I weren't a technical writer facing the same problems as you, but rather a marketer who was just writing about issues in the tech comm industry. I doubt I would have many readers. The whole reason I can connect with readers is because I'm similar to them &mdash; I'm a technical writer working in the trenches.
 
 ## My conclusion
 Technical writers should repurpose their information-rich content into content marketing deliverables that can be used to build relationships with potential audiences in the market. This content can help establish thought leadership, visibility, and trust with your audience so that when you start releasing and mentioning your 1.0 product, your audience adopts it.
 
-Making this realization is surely the first step. A lot remains, such as finding the *time* to repurpose your help topics when you're barely meeting deadlines for the 5 projects you're already documenting. 
+Making this realization is surely the first step. A lot remains, such as finding the *time* to repurpose your help topics when you're barely meeting deadlines for the 5 projects you're already documenting. Also, coordinating with Marketing groups in a strategic, organized way is essential. (Certainly you can't just go rogue in creating and publishing content by yourself.)
 
 But I think that converting from a mindset that sees Marketing as "not my responsibility" to a mindset of enthusiastic contribution is the starting point to finding real success for your startup's products.
