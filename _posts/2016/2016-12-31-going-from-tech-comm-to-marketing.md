@@ -54,4 +54,6 @@ Overall, maybe technical writing and marketing writing (or content marketing con
 
 If we're going to break silos, the easier silo to break is the one between support and tech docs. In this case there is a real use case for repurposing content.
 
+http://www.intelligentcontentconference.com/mother-of-content-strategy-embraces-content-marketing/
+
 

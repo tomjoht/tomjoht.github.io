@@ -1,5 +1,5 @@
 ---
-title: Analyzing top posts on my blog during 2015 &mdash; Should I focus on brand or readership?
+title: Analyzing top posts on my blog during 2015 &mdash; Deciding between brand versus readership
 categories:
 - writing
 - general
