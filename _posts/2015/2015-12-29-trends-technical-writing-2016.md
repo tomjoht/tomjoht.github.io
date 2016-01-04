@@ -86,6 +86,8 @@ You can see this, for example, with [readme.io](http://readme.io), which was cre
 
 In short, if developers are collaborating on docs, you will likely adopt tools that developers prefer. 
 
+(Update: Note that Markdown isn't the only format developers prefer. [Asciidoc](http://www.methods.co.nz/asciidoc/) is popular for those using [Asciidoctor](http://asciidoctor.org/), and [reStructuredText](http://docutils.sourceforge.net/rst.html) (RST) is popular for those using Sphinx and [Readthedocs.org](https://readthedocs.com]. Both Asciidoc and RST use wiki-like syntax for producing HTML from text file formats. I only singled out Markdown because I think it's more widely known and has tremendous momentum, especially if your content is in Github.)
+
 ## 3. Github as a collaboration platform rises in popularity among tech writers
 
 As you get immersed in API documentation and developer workflows, one developer utility that will likely see more prominence among the technical writing community is Github. 
@@ -95,6 +97,8 @@ Instead of purchasing a component content management system (CCMS) for hundreds 
 Although Github and Bitbucket are designed for developers, if you're authoring in text files (especially using Markdown) and collaborating with engineers, it will be a natural fit to plug into their same revision control systems. 
 
 These tools allow technical writers to further close the gap between themselves and engineers &mdash; you'll be living in the same world.
+
+(To read more about Github with tech comm, see Anne Gentle's post [Why use GitHub as a Content Management System?](http://justwriteclick.com/2015/12/17/why-use-github-as-a-content-management-system/).
 
 ## 4. Write the Docs meetup groups proliferate over STC
 
