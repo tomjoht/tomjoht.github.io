@@ -8,7 +8,7 @@ thumb: contentmarketingconceptthumb.png
 ---
 
 ## Hearing a lot lately about "unified customer experience"
-This past year I've been hearing a lot about addressing the whole customer journey, or developing a [unified customer experience strategy](https://www.linkedin.com/pulse/why-you-need-unified-customer-experience-strategy-scott-abel). Companies need to have consistent content for every touchpoint with the customer, from the time the users are prospects to the time those users become customers.
+This past year I've been hearing a lot about addressing the whole customer journey, or developing a [unified customer experience strategy](https://www.linkedin.com/pulse/why-you-need-unified-customer-experience-strategy-scott-abel). Companies need to have consistent content for every touchpoint with the customer, from the time the users are prospects to the time those users become customers and beyond.
 
 When users are exploring a company, they may listen to a webinar, watch an overview video, explore a demo site, read a blog article, download a white paper, and so on. 
 
@@ -30,8 +30,6 @@ You can learn more about content marketing from this film by the Content Marketi
 
 For most of my tech comm career, my focus has been in creating technical documentation, which is consumed once the users become customers. I've pretty much been happy to let Marketing create its own content, while I create my own content in Tech Pubs. This approach of course leads to silos and inconsistencies. 
 
-In my mind, I write tech docs based on raw, unvarnished information that helps people, and marketers write fluffy marketing copy that is half fiction and half fancy graphics, and we amicably exchange greetings while passing by in the breakroom. (It's not really that bad, but this is sort of the picture.)
-
 Having worked for two startups, I'm beginning to change my thoughts about the role of content marketing and other content outside of tech docs. Why does a startup product succeed or fail? Is the startup's success solely based on the product's awesomeness &mdash; those features engineers are endlessly going on about in standup meetings? Or is the success attributable to timing in the market? Or good management by the CEO? Are there other dimensions to success that get overlooked?
 
 During the holiday break, I started reading Joe Pulizzi's book [Content Inc](http://www.amazon.com/Content-Inc-Entrepreneurs-Successful-Businesses/dp/125958965X). I figured this might be a good way to educate myself more on the role of content marketing. 
@@ -40,7 +38,7 @@ Joe says he started publishing content about his product before he actually had 
 
 He notes that this approach seems a bit backwards, especially given that most startup companies hope to get a decent 1.0 product, some successful proof of concept customers, and a few testimonials and positive results before they start marketing their product. In other words, they operate in semi-stealth mode, not marketing at all, while developing their product. 
 
-But Joe says this is the wrong way to go. You don't wait until you've got a product before you start promoting it. Joe explains:
+But Joe says this is the wrong way to go. You don't wait until you've got a product before you start building an audience. Joe explains:
 
 >... I had no job and no product to sell (and no income). It wasn’t a good position to be in with two small children (ages three and five at the time) and a mortgage to pay. The web developer I was working with didn’t believe we could get the online offering ready for at least nine months. Ouch.
  
@@ -68,9 +66,9 @@ In other words, by creating content that responds to users' needs and interests,
 
 Reading *Content Inc* has made me realize a few things. First, pretty much everything I've been doing on this blog might be considered a form of content marketing (though I lack the business part).
 
-Granted, there are a few places that I have clearly failed. For example, by now I should have 10 times as many subscribers and be independently wealthy from converting my subscribers into a source of repeatable revenue somehow. That didn't quite happen. But so much of what I do online fits into what content marketers do that I'm 100% confident that I would be a pretty good content marketer.
+Granted, there are a few areas where I have clearly failed. For example, by now I should have 10 times as many subscribers and be independently wealthy from converting my subscribers into a source of repeatable revenue somehow. That didn't quite happen. But so much of what I do online fits into what content marketers do that I'm 100% confident that I would be a pretty good content marketer.
 
-Which is why I'm a little befuddled about the technical writer role I play at work. As a technical writer, almost every company I've worked for has had clear separations between tech docs and marketing. The one marketing overview document I helped work on earlier this year at my present company was challenging &mdash; I had to put everything into third person tense, keep things high level and general, and write it for sales people as background literature instead of to an actual customer. (This content wasn't content marketing &mdash; it was a product marketing overview.)
+Which is why I'm a little perplexed about the technical writer role I play at work. As a technical writer, almost every company I've worked for has had clear separations between tech docs and marketing. The one marketing overview document I helped work on earlier this year at my present company was challenging &mdash; I had to put everything into third person tense, keep things high level and general, and write it for sales people as background literature instead of to an actual customer. (This content wasn't content marketing &mdash; it was a product marketing overview.)
 
 As I tried to single source content from the documentation into this marketing product overview, I eventually decided that the two outputs were different enough to be un-single-sourceable.
 
@@ -92,7 +90,7 @@ The good thing is, I think the content in tech docs is the secret sauce to good 
 
 The way I see it, if you're trying to win over a *technical* audience, you need to communicate with them on a *technical* level. You need to understand the technical issues they face and talk with credibility about those issues. 
 
-I'm not saying content marketing should consist of topics from a user manual. But the concepts that you cover in tech docs could certainly be repurposed into larger, more conceptual articles that address strategies around those topics. 
+I'm not saying content marketing should consist of verbatim topics from a user manual. But the concepts that you cover in tech docs could certainly be repurposed into larger, more conceptual articles that address strategies around those topics. 
 
 For example, a topic in a user guide on "Generating an HMAC Signature for Requests" might be repurposed into an article on using "HMAC authentication for APIs," in contrast to other authentication protocols (such as OAuth). 
 
@@ -105,6 +103,6 @@ Imagine if the articles I wrote on this blog were from an outsider's point of vi
 ## My conclusion
 Technical writers should repurpose their information-rich content into content marketing deliverables that can be used to build relationships with potential audiences in the market. This content can help establish thought leadership, visibility, and trust with your audience so that when you start releasing and mentioning your 1.0 product, your audience adopts it.
 
-Making this realization is surely the first step. A lot remains, such as finding the *time* to repurpose your help topics when you're usually barely meeting deadlines for the 5 projects you're already documenting. 
+Making this realization is surely the first step. A lot remains, such as finding the *time* to repurpose your help topics when you're barely meeting deadlines for the 5 projects you're already documenting. 
 
 But I think that converting from a mindset that sees Marketing as "not my responsibility" to a mindset of enthusiastic contribution is the starting point to finding real success for your startup's products.
