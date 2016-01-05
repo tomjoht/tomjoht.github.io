@@ -65,9 +65,13 @@ Here are some general stats from Google Analytics around my blog. The duration i
 * Bounce rate: 781.8
 * New sessions: 74.44
 
-Pretty much all the traffic is up from the previous year. This chart compares 2015 with 2014.
+The stats are not too different from last year. This chart compares 2015 with 2014.
 
-<img src="{{ "/images/googleanalytics_comparison.png" | prepend: site.baseurl }}" alt="Google Analytics Comparison" />
+<img src="{{ "/images/twblogs2014.png" | prepend: site.baseurl }}" alt="2015 vs 2014 Google Analytics Comparison" />
+
+The number of sessions are relatively the same, but the pageviews, pages per session, and average session duration increased in noticeable ways. 
+
+## Other stats
 
 Google Analytics has a host of analytical data about my visitors. Here's a smattering of various facts:
 
@@ -119,13 +123,21 @@ From Google Webmaster Tools, here are some common search terms:
 
 I have 2,212 URLs submitted in my sitemap, and 2,154 URLs indexed. (I'm not sure why some aren't indexed...)
 
+Google says the page loading time is an average *7.16 seconds*.
+
+<img src="{{ "/images/avgpagetimegoogle.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
+
+I honestly don't know how to interpret this statistic. [Pingdom Tools](http://tools.pingdom.com/fpt/) puts my average page load time much quicker. You can see when I [switched from WordPress to Jekyll](http://idratherbewriting.com/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), the page loading time dropped from about 2 seconds to 0.2 seconds.
+
+<img src="{{ "/images/pingdomreport2016.png.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
+
 ## Analysis
 
-I was particularly curious about the statistics this year because I switched from WordPress to Jekyll. I'm glad that my site stats didn't drop due to the new platform. They pretty much seem on par with the stats from last year. 
+I was particularly curious about the statistics this year because I switched from WordPress to Jekyll. I'm glad that my site stats didn't drop due to the new platform. I hoped Jekyll's quick loading time would result in more sessions and page views, and those stats did improve a bit.
 
-I hoped Jekyll's quick loading time would result in more sessions and page views, but if it did the results weren't really noticeable. Traffic was up from last year, but I also have more content on my site given the new 2015 posts. 
+I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images. 
 
-I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images. This made me think twice about ever including non-standard HTML in posts. Some formatting tasks still remain. For example, when I was on WordPress, I used the auto-embed function for Youtube URLs. I need to go through all my posts and add the full embed code for those Youtube URLs.
+This made me think twice about ever including non-standard HTML in posts. Some formatting tasks still remain. For example, when I was on WordPress, I used the auto-embed function for Youtube URLs. I need to go through all my posts and add the full embed code for those Youtube URLs.
 
 ## Confronting reality
 Whenever I look at my stats, I always want to deny the most staggering, mind-blowing facts. But here's the truth. 75% of my visitors are new and coming from Google. Social media accounts for only a small percentage of my traffic. Based on this, I should be writing for search engines and targeting keywords in my blog posts. The time of day and length of my posts doesn't much matter. What matters is how my site surfaces and appears in Google's search engine. 
@@ -136,9 +148,11 @@ Last year there was also a lot of traffic with my [API documentation writing cou
 
 The regular users who comment on my blog don't represent the overwhelming traffic from organic search. It's easy to overlook that and just think of my regular commenters as my readers. But those who comment are in the minority by far. The bulk of my visitors are like the dark matter of the Internet &mdash; present and undeniable but ethereal and unknown. Who the heck are all the users from the other sessions? How can I convert them into regular subscribers?
 
-Last year I also started using [Bit.ly](http://tools.pingdom.com/fpt/) to track hits on posts. It was pretty clear to me that sending out links in an email newsletter is a major strategy for driving traffic to the posts. If you just submit the links to Twitter and Linkedin, you only get a tenth of the traffic that you do from sending out the links via an email newsletter.
+Last year I also started using [Bit.ly](http://tools.pingdom.com/fpt/) to track hits on posts. Looking at Bitly, it was pretty clear that sending out links in an email newsletter is a major strategy for driving traffic to the posts. If you just submit the links to Twitter and Linkedin, you only get a tenth of the traffic that you do from sending out the links via an email newsletter.
 
 <img src="{{ "/images/tinyletterstats.png" | prepend: site.baseurl }}" alt="Tinyletter" />
+
+But then again, most traffic originates from organic Google searches rather than social media anyway.
 
 ## Strategies for brand, or strategies for more readership?
 
@@ -158,7 +172,7 @@ The secret trick to online branding is that simply writing extensively and thoug
 
 I both have a passion for API documentation and want to brand myself as an API documentation expert, so I blog a lot about API documentation. After some months, I was asked to teach numerous workshops on API documentation. 
 
-However, most of my blog traffic, the 75% of my sessions, are more focused around newbie technical writing topics. New or transitioning technical writers usually aren't looking for information on API documentation. Even most of my existing subscribers probably aren't that interested in API documentation. Writing so extensively about API documentation alienates me from mainstream readership, but it also helps portray me as an API documentation expert. 
+However, most of my blog traffic, the 75% of my sessions, are more focused around newbie technical writing topics. New or transitioning technical writers usually aren't looking for information on API documentation. Even most of my existing subscribers probably aren't that interested in API documentation. Writing so extensively about API documentation alienates me from mainstream readership, but it also helps brand me as an API documentation expert. 
 
 As I said before, if you want to brand yourself as an expert in a topic, you have to write a lot about that topic. But sometimes that expert-branding focus won't lead to the most readership. As a result, you have to consider what goals are more important for you &mdash; expert branding, or readership? Do I want to be known as an "API documentation expert," or do I want to triple my readership? 
 
@@ -170,9 +184,9 @@ Most likely I'll continue the same path as before, emphasizing brand and API doc
 
 ## Other strategies
 
-Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](http://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe, or something. I think this will help convert visitors into subscribers.
+Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](http://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe. I think this will help convert visitors into subscribers.
 
-Finally, I need to stop focusing so much on social media promotion and think more strategically about keywords on Google (regardless of my blog's focus). Links on social media channels evaporate within a day of posting them, but URLs indexed by Google are more permanent and visible.
+Finally, I need to stop focusing so much on social media promotion and think more strategically about keywords on Google (regardless of my blog's focus). Links on social media channels evaporate within a day of posting, but URLs indexed by Google are more permanent and visible.
 
 
 
