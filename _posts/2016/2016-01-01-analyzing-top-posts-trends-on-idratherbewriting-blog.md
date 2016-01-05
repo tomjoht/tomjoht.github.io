@@ -129,7 +129,7 @@ Google says the page loading time is an average *7.16 seconds*.
 
 I honestly don't know how to interpret this statistic. [Pingdom Tools](http://tools.pingdom.com/fpt/) puts my average page load time much quicker. You can see when I [switched from WordPress to Jekyll](http://idratherbewriting.com/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), the page loading time dropped from about 2 seconds to 0.2 seconds.
 
-<img src="{{ "/images/pingdomreport2016.png.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
+<img src="{{ "/images/pingdomreport2016.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
 
 ## Analysis
 
