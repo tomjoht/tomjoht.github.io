@@ -34,7 +34,7 @@ Having worked for two startups, I'm beginning to change my thoughts about the ro
 
 During the holiday break, I started reading Joe Pulizzi's book [Content Inc](http://www.amazon.com/Content-Inc-Entrepreneurs-Successful-Businesses/dp/125958965X). I figured this might be a good way to educate myself more on the role of content marketing. 
 
-Joe says he started publishing content to build an audience (not product-related content) before he had a product available. He recommends this reverse approach for any business as well. 
+Joe says he started publishing content (not product-related content) to build an audience before he had a product available. He recommends this reverse approach for any business as well. 
 
 He notes that this approach seems a bit backwards, especially given that most startup companies hope to get a decent 1.0 product, some successful proof of concept customers, and a few testimonials and positive results before they start marketing their product. In other words, they operate in semi-stealth mode, not marketing at all, while developing their product. 
 
@@ -92,7 +92,7 @@ The way I see it, if you're trying to win over a *technical* audience, you need 
 
 I'm not saying content marketing should consist of verbatim topics from a user manual. But the concepts that you cover in tech docs could certainly be repurposed into larger, more conceptual articles that address strategies around those topics. 
 
-For example, a topic in a user guide on "Generating an HMAC Signature for Requests" might be repurposed into an article on using "HMAC authentication for APIs," in contrast to other authentication protocols (such as OAuth). 
+For example, a topic in a user guide on "Generating an HMAC Signature for Requests" might be repurposed into an article on using "HMAC Authentication for APIs," in contrast to other authentication protocols (such as OAuth). 
 
 As a technical writer, you have the insight to provide substantial, information rich content that will build relationships with technical audiences. 
 

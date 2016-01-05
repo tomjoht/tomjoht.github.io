@@ -123,7 +123,7 @@ From Google Webmaster Tools, here are some common search terms:
 
 I have 2,212 URLs submitted in my sitemap, and 2,154 URLs indexed. (I'm not sure why some aren't indexed...)
 
-Google says the page loading time is an average *7.16 seconds*.
+Google says the average page loading time is *7.16 seconds*.
 
 <img src="{{ "/images/avgpagetimegoogle.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
 
