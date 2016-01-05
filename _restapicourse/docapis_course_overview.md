@@ -42,10 +42,6 @@ Finally, in the third part of the course, you'll learn about native library APIs
 
 If you're taking this course, you likely want to learn more about APIs. I publish regular articles that talk about APIs and strategies for documenting them. You can stay updated about these posts by subscribing to my free newsletter using the form below. 
 
-<div style="max-width:400px">
-{% include tinyletter.html %}
-</div>
-
 ## Learn with a real example and context
 
 Because the purpose of the course is to help you learn, there are many activities that require hands-on coding and other exercises. Along with the learning activities, there are more conceptual deep dives, but the focus is always on *learning by doing*.

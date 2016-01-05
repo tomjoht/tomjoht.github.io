@@ -14,7 +14,12 @@ layout: default
 
         {{content}}
 
-       {% include restapicourse_next.html %}
+        <div style="max-width:400px">
+            {% include tinyletter.html %}
+        </div>
+
+
+        {% include restapicourse_next.html %}
 {% include social_sharing_buttons.html %}
 
 {% comment %} {% include ziprecruiter_widget.html %}{% endcomment %}

@@ -73,7 +73,7 @@ Older posts are downgraded in Google's page ranking algorithm. "Recency" is one 
 
 >25. Recency of Content Updates: Google Caffeine update favors recently updated content, especially for time-sensitive searches. Highlighting this factor’s importance, Google shows the date of a page’s last update for certain pages ... (See [Google’s 200 Ranking Factors: The Complete List](http://backlinko.com/google-ranking-factors).)
 
-This makes blogging a business of continual writing. Michael Arrington of TechCrunch.com once compared blogging to reaching down and grabbing a handful of sand. The sand slowly slips through your fingers. You have to reach down and grab another handful of sand, and another, and another. In the metaphor, your sessions are the sand; your reaching and scooping -- those are the new posts you have to write.
+This makes blogging a business of continual writing. Michael Arrington of TechCrunch.com once compared blogging to reaching down and grabbing a handful of sand. The sand slowly slips through your fingers. You have to reach down and grab another handful of sand, and another, and another. In the metaphor, your visitor's sessions are the sand; your reaching and scooping &mdash; those are the new posts you have to write.
 
 Is blogging dying or growing? I'm not sure. My blog's number of sessions has slightly declined, but there are also more sites and content online for people to consume. The amount of content online each year grows by millions if not billions (or trillions) of pages, so the capacity to capture someone's attention is diluted by the increased amount of online media available.
 

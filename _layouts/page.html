@@ -11,7 +11,12 @@ layout: default
         {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
         {{content}}
-{% include social_sharing_buttons.html %}
+
+        <div style="max-width:400px">
+            {% include tinyletter.html %}
+        </div>
+
+        {% include social_sharing_buttons.html %}
 
 {% include single_post_ads.html %}
 
