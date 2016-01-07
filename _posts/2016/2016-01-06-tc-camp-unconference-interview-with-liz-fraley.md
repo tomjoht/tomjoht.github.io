@@ -1,5 +1,5 @@
 ---
-title: Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, Conference Founder
+title: Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, TC Camp Founder
 categories:
 - general
 keywords: tc camp, unconference, liz fraley, san francisco conferences for technical writers, free
