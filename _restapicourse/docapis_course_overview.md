@@ -8,6 +8,8 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/h_WsKO_NWuw" frameborder="0" allowfullscreen></iframe>
+
 ## Documenting REST APIs course
 
 Welcome to my course on writing documentation for REST APIs. In this course, instead of just talking about abstract concepts, I'm going to contextualize REST APIs with a direct, hands-on approach. 
