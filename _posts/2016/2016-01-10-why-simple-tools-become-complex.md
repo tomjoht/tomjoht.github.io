@@ -4,22 +4,22 @@ categories:
 - jekyll
 - dita
 keywords: help authoring tools, technical writing trends, tools 
-summary: "The problem with adopting bleeding-edge tools is that they usually handle only the simplest use cases. When you start trying to make these bleeding-edge tools handle complex publishing requirements, the simple tools transform into Rube Goldberg machines of sorts. Since engineers usually don't have to solve these complex publishing requirements themselves, they tend to embrace the simple bleeding-edge tools and can't understand why anyone would pursue a more complex route."
+summary: "The problem with adopting bleeding-edge tools is that they usually handle only the simplest use cases. When you try to make these bleeding-edge tools handle complex publishing requirements, the simple tools transform into Rube Goldberg machines of sorts. Since engineers usually don't have to solve these complex publishing requirements themselves, they tend to embrace the simple bleeding-edge tools and can't understand why anyone would pursue a more complex route."
 thumb: complexityoptions.png
 ---
 
 ## What are the bleeding-edge tools?
-In a recent discussion on the [Techw-l listserv](http://www.techwr-l.com/archives/), an academic was looking to find advice about the "bleeding edge" trends in help authoring tools. Academics want to prepare students to succeed in the job market once they graduate, and since academics usually aren't focused on tools, this person was looking for guidance.
+In a recent discussion on the [Techw-l listserv](http://www.techwr-l.com/archives/), an academic was looking to find advice about the "bleeding-edge" trends in help authoring tools. Academics want to prepare students to succeed in the job market once they graduate, and since academics usually aren't focused on tools, this person was looking for guidance.
 
 One of the commenters on the thread made a particularly astute observation about bleeding-edge tools. [Robert Lauriston noted](http://www.techwr-l.com/archives/1601/techwhirl-1601-00009.html#.VpFLgpMrIyk): 
 
 > This happens to me over and over: an engineer mentions a product that they think has great documentation. I look at their docs for a few minutes and see that (1) the product is very simple and (2) the docs are nevertheless only around 10-50% complete.
 
-Some bleeding-edge tools are certainly available. As you probably know, lately I've been exploring [Jekyll](http://jekyllrb.com/), which is a [static site generator](http://www.staticgen.com/). Jekyll is simple in its design, as are many other bleeding-edge tools out there. (By the way, I dislike the phrase "bleeding edge" for some reason, so I'm almost using it in a derogatory way.)
+Some bleeding-edge tools are certainly available. As you probably know, lately I've been exploring [Jekyll](http://jekyllrb.com/), which is a [static site generator](http://www.staticgen.com/). Jekyll is simple in its design, as are many other bleeding-edge tools out there. (By the way, I dislike the phrase "bleeding-edge" for some reason, so I'm almost using it in a derogatory way.)
 
 ## The problem with bleeding-edge tools
 
-The problem with adopting bleeding-edge tools is that documentation requirements get so complex, you either have to abandon the simple tool (which produces the modern web output), or you have to jerry-rig the tool with so many complex workflows and coding that the simple tool becomes a [Rube Goldberg machine](https://www.google.de/search?q=Rube+Goldberg+machine&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq_uTth6HKAhWJ0iYKHQLnCNEQ_AUIBygB&biw=1247&bih=643).
+The problem with adopting bleeding-edge tools is that documentation requirements get so complex, you either have to abandon the simple bleeding-edge tool (which produces the modern web output), or you have to jerry-rig the tool with such complex workflows and coding that the simple tool becomes a [Rube Goldberg machine](https://www.google.de/search?q=Rube+Goldberg+machine&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq_uTth6HKAhWJ0iYKHQLnCNEQ_AUIBygB&biw=1247&bih=643).
 
 For example, here are a few features (based on requirements) that I added to my Jekyll project that have made this once simple tool really complex:
 
@@ -39,7 +39,7 @@ Finding a way to do all of this with Jekyll (which was originally designed as a 
 
 The problem is that the ways to handle the publishing requirements have now made my Jekyll process pretty freaking complicated, and if I were to get hit by a bus (which is not unlikely given that I ride my bike to work through busy streets with commuters), my colleagues would either struggle to figure out just how to configure it, or they would abandon it for another tool.
 
-The problem with bleeding-edge tools is that they rarely satisfy the requirements placed on tech writers. For example, I was looking more closely at [Contentful](http://www.contentful.com), an API-based CMS that looks to be bleeding edge. Do you think you could use a variable within a topic so that the same content source might use a different term depending on the output? If so, I didn't see that capability.
+Bleeding-edge tools rarely satisfy the requirements placed on tech writers. For example, I was looking more closely at [Contentful](http://www.contentful.com), an API-based CMS that looks to be bleeding edge. Do you think you could use a variable within a topic so that the same content source might use a different term depending on the output? If so, I didn't see that capability.
 
 Or take [readme.io](http://readme.io). Looks cool, right? But what if you want to re-use the same chunk of content in multiple outputs. Not possible. (In fact, I don't even think multiple outputs beyond basic versioning are possible.) 
 

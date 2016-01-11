@@ -31,8 +31,12 @@ Here's a description of the presentation and a little bit about Michael:
  
 > Author of [Undisturbed REST: A guide to designing the perfect API](http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1&tag=viglink124746-20), Michael Stowe has 15 years experience writing software for industries ranging from small businesses to medical associations, law enforcement, and large enterprises. His work has been published in numerous sources including Website Magazine, DZone and InfoQ, and he has spoken at a wide-variety of tech events including API Strat and API World.
 
-To learn more, see [Michael Stowe](http://www.mikestowe.com/). 
+To learn more, see the following:
+ 
+* [Michael Stowe](http://www.mikestowe.com/) and  
+* [RAML](http://raml.org/)
+* [Undisturbed REST: A guide to designing the perfect API](http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1&tag=viglink124746-20)
 
 ## Other resources
 
-Previously I recorded a podcast with Michael Stowe about [spec-driven development and RAML here](http://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/). If API documentation and specifications are topics that interest you, definitely check it out.
+Previously I recorded a podcast with Michael Stowe about [spec-driven development and RAML here](http://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/). If API documentation and specifications are topics that interest you, definitely check out the podcast.
