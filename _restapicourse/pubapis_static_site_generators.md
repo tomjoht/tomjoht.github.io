@@ -125,28 +125,13 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 	The frontmatter is formatted in a syntax called YML. YML is similar to JSON but uses spaces and hyphens instead of curly braces. This makes it more human readable.
 	
 2. Create a new file called 1-6_weatherdata.md and save it in the same \_api folder. 
-3. Get the data from the weatherdata endpoint from this [Weather API on Mashape](https://www.mashape.com/fyhao/weather-13#weatherdata). (This is an API we worked with extensively in the <a href="{{ "/restapicourse" | prepend: site.baseurl | append: site.suffix }}">REST API course</a>.) Put the data from this endpoint into the Aviator theme's template.
+3. Get the data from the weatherdata endpoint from this [Weather API on Mashape](https://www.mashape.com/fyhao/weather-13#weatherdata). Put the data from this endpoint into the Aviator theme's template.
 	
 	The Aviator Jekyll theme has a specific layout that will be applied to all the files inside the _api folder (these files are called a collection). Jekyll will access these values by going to api.title, api.type, and so forth. It will then push this content into the template (which you can see by going to _layouts/multi.md). 
 	
 	Here's what my 1-6_weatherdata.md file looks like. Be sure to put the response within square brackets, indented with one tab (4 spaces). You can also <a href="{{ "/files/publishingapidocs/1-6_weatherdata.md" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>. Remove the `raw` and `endraw` tags at the beginning and end of the code sample (which I had to add to keep Jekyll from trying to process it).
 	
 	```yaml
-	---
-	title: /weatherdata
-	type: get
-	description: Get weather forecast by Latitude and Longitude. 
-	parameters:
-	  title: Weatherdata parameters
-	  data:
-	    - lat:
-	      - string
-	      - Required. Latitude.
-	    - lng:
-	      - string
-	      - Required. Longitude.
-	right_code:
-	  return: |
 	---
 	title: /weatherdata
 	type: get

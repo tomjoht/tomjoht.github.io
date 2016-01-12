@@ -103,7 +103,7 @@ weight: 1.2
 <li>Steps to test the widget.</li>
 </ol>
 <p>The task element doesn't allow two sets of steps in the same topic, so I'd have to split the testing part into another topic and then merge them through a ditamap using the <code>chunk="to-content"</code> attribute. This seems overkill when the testing section is pretty small (maybe 4 steps and some code samples), and I don't want to have a million little ditamaps all over the place.</p>
-<p>In this case, I put the steps to test the widget configuration in the <code>postreq</code> element (which follows the <code>steps</code> elements), formatting the steps with HTML list tags (<ol> and <li>). </p>
+<p>In this case, I put the steps to test the widget configuration in the <code>postreq</code> element (which follows the &lt;code&gt;steps&lt;/code&gt; elements), formatting the steps with HTML list tags (&lt;ol&gt; and &lt;li&gt;). </p>
 <p>Another problem:</p>
 <p>The General Task -- I'm not entirely sure whether to use this topic type or not. The general task element allows you to precede a list of steps with sections (which isn't allowed in the strict task type). If you have a topic that merits more explanation than a brief paragraph, and you want to natively combine the concept with the task, this seems to be the element to handle that. You can structure the topic like this:</p>
 {% highlight xml %}

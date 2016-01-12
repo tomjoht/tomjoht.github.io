@@ -14,7 +14,7 @@ weight: 1.4
 <p><i>Updated 5/11/2014.</i></p>
 <p>DITA has a lot of powerful ways to combine different topics through ditamaps. Although DITA's architecture encourages a lot of little pieces of content, you can bring these pieces together into articles of more substance. By having smaller chunks of information, you have more capability for re-use into various combinations and outputs. </p>
 <p>Here's an example of chunking. Here I have a task of changing a tire, which involves 5 topics (1 overview topic and 4 task topics). </p>
-<pre>
+{% highlight xml %}
     <topicset id="topicset_changing_a_tire" chunk="to-content"
      navtitle="Changing a tire" href=“changing_tire_overview.dita">
       <topicref href="remove_the_tire"  toc="no"/>
@@ -22,11 +22,11 @@ weight: 1.4
       <topicref href="insert_a_new_tube.dita"  toc="no"/>
       <topicref href="reinstall_the_tire.dita"  toc="no"/>
     </topicset>
-</pre>
+{% endhighlight %}
 <p>Each of the subtasks is a task topic with a list of steps. In this hypothetical example, the steps are fairly minimal. The task element allows just one set of steps per topic, which is why the content is split into multiple files. The overview topic is a concept topic. In reality, it's not more than a paragraph long. It could preface the first task topic, but then the first task topic wouldn't look like a subheading underneath the overview.</p>
 <p>By adding the attribute <code>chunk="to-content"</code>, the Open Toolkit will merge all of the topics to the same content. The reader will see one article. </p>
 <p>You don't have to use <code>topicset</code> element for this. You could also do the following: </p>
-<pre>
+{% highlight xml %}
 
     <topicref chunk="to-content" href="changing_tire_overview.dita">
       <topicref href="remove_the_tire"  toc="no"/>
@@ -34,7 +34,7 @@ weight: 1.4
       <topicref href="insert_a_new_tube.dita"  toc="no"/>
       <topicref href="reinstall_the_tire.dita"  toc="no"/>
     </topicref>
-</pre>
+{% endhighlight %}
 <p>The <code>topicset</code> method gives you a way of re-using the same set of topics in another map without including the whole list of topics.</p>
 <h2>Where the problems begins</h2>
 <p>The <code>topicset</code> content looks fine in a table of contents — it appears as a single unit of information. However, when you add the <code>topicset</code> in a relationship table, using the <code>topicsetref</code> ID, the Open Toolkit can't process it correctly. The link simply doesn't work because the Open Toolkit seems to require actual files in order to process the relationships. The <code>topicsetref</code> isn't a file — it's an ID that includes several files.</p>
@@ -66,7 +66,8 @@ weight: 1.4
 <p>Using <code>by-document</code> isn't a bad solution, but again, searches for a keyword might take a user to this little piece of information rather than the whole unit. Only by back-navigating through breadcrumbs or a table of contents hierarchy will the user be able to trace back to find the whole topicset.</p>
 <h2>Nest task elements within task elements</h2>
 <p>Instead of creating separate task files, you could nest tasks within tasks to bring all of this information into the same topic. Here's an example:</p>
-<pre><?xml version="1.0" encoding="UTF-8"?>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_0">
     <title>Fixing a flat tire</title>
@@ -140,7 +141,7 @@ weight: 1.4
                 </task>
 
 </task>
-</pre>
+{% endhighlight %}
 <p>However, when you include the file in a relationship table, the related link still appears right below the first task element, like this:</p>
 <p><img src="/images/wrongplace.jpg" alt="wrongplace" width="747" height="617" class="alignnone size-full wp-image-20679" /></p>
 <h2>Conclusion</h2>

@@ -39,18 +39,19 @@ Thingees
 <h2> Approach #1: Separate topics</h2>
 <p>You could create three separate concept topics, one for Widgets, one for Gizmos, and one for Thingees.</p>
 <p class="p">Then through your DITA map, you could build the content into a group, like this:</p>
-<pre><topichead navtitle="Testing process">
+{% highlight xml %}<topichead navtitle="Testing process">
 <topicref href="widgets.dita"/>
 <topicref href="gizmos.dita"/>
 <topicref href="thingees.dita"/>
-</topichead></pre>
+</topichead>
+{% endhighlight %}
 <p class="p">By breaking up the document, you can more easily re-use the different parts in different areas of your documentation. For example, if you have an audience that is only interested in thingees, you could more easily reuse thingees in a ditamap built just for this audience.</p>
 <p>One advantage of breaking content down into small chunks like this is the information becomes easier to manage. It's no fun working in a really long document that has multiple heading hierarchies. Documents with multiple heading hierarchies tend to get quite long and unwieldy. Splitting up your content ensures that you keep things relatively short and simple.</p>
 <p>The downside of the small units model is that it's not so easy to glue everything back together. If you want to get that same long document, you could use the <code>chunk="to-content"</code> attribute on the first topic. Then everything would merge into one article. However, using this attribute gets you into problems with relationship tables, as I explained in my previous post (<a class="xref" href="http://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/" target="_blank">DITA: Limitations with the chunk=”to-content” attribute in relationship tables</a>). </p>
 <p>The best approach would be to create an overview topic that acts as a parent (which means all child pages will be embedded as links on the parent), avoid the chunk attribute, and only use the overview parent in the relationship table.</p>
 <h2>Approach #2: Nested concepts</h2>
 <p>Another approach to writing for heading level 3 sections is to nest concept elements within concept elements. You can nest one concept tag within another, like this:</p>
-<pre><concept id="concept_1">
+{% highlight xml %}<concept id="concept_1">
  <title>Concept title</title>
  <conbody>
   <p>Concept definition.</p>
@@ -63,7 +64,8 @@ Thingees
   </conbody>
 
 </concept>
-</concept></pre>
+</concept>
+{% endhighlight %}
 <p>When you output the content, the heading levels for the nested concept will be one level down. </p>
 <p>Here's what our content would look like in our example scenario:</p>
 {% highlight xml %}<?xml version="1.0" encoding="UTF-8"?>
@@ -153,17 +155,17 @@ Thingees
 <p>I like this method, though I wouldn't recommend nesting any more levels. </p>
 <h2>Approach #3: Use an output class disguised as an h3</h2>
 <p class="p">You could also add an <code>outputclass</code> attribute to a <code>p</code> tag and use it for your nested subheading. For example, you could do the following for your third level:</p>
-<pre>
+{% highlight xml %}
    <p outputclass="nestedsubhead">Performance</p>
-   </pre>
+{% endhighlight %}
 <p class="p">When you generate the DITA XHTML output, the result looks like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
     <p class="p nestedsubhead"/>Performance</p>
-   </pre>
+{% endhighlight %}
 <p class="p">You could then add a style to your site like this:</p>
-<pre class="pre codeblock">
+{% highlight xml %}
     p.nestedsubhead {font-family: Georgia; font-size:18px; font-color: blue;}
-   </pre>
+{% endhighlight %}
 <p class="p">The result would look just like a heading level 3, but without the semantic significance of being a heading level.</p>
 <p>No doubt this third method is a simple hack that is probably frowned upon, but it would be a quick way to achieve the same nested subheading result. The only problem is in making outlines for your pages. If you implement a table of contents plugin on your web page, usually the plugin will look for the heading levels and render and outline accordingly. If your third levels are simply a class, they won't appear in the outline.</p>
 <h2>Related links</h2>
