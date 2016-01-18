@@ -41,11 +41,11 @@ There is only one ad in the Top Banner ad space, but it can rotate depending on 
 
 ### Number of impressions per year
 
-From Jan 1, 2014 to Dec 31, 2014, Idratherbewriting.com had about 588,000 page views. Here's a chart from Google Analytics.
+From Jan 1, 2015 to Dec 31, 2015, Idratherbewriting.com had about 625,000 page views. Here's a chart from Google Analytics.
 
-<figure><img src="/images/google_analytics_2015-550x304.png" alt="I&#039;d Rather Be Writing gets about 589,000 page views per year, or 1,600 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 588,000 page views per year, or 1,600 page views a day.</figcaption></figure>
+<figure><img src="/images/advertisingchart2015.png" alt="I&#039;d Rather Be Writing gets about 625,000 page views per year, or 1,700 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 625,000 page views per year, or 1,700 page views a day.</figcaption></figure>
 
-The following table shows a little more detail from Google Analytics (date range is Jan 1 2014 to Dec 31, 2014):
+The following table shows a little more detail from Google Analytics (date range is Jan 1 2015 to Dec 31, 2015):
 
 <table>
     <thead>
@@ -57,36 +57,41 @@ The following table shows a little more detail from Google Analytics (date rang
     <tbody>
     <tr>
         <td>Total Visits (new and returning)</td>
-        <td>380,000 (about 1,000 visits a day)</td>
+        <td>377,000 (about 1,000 visits a day)</td>
     </tr>
     <tr>
         <td>Page Views</td>
-        <td>588,000 (about 1,600 page views a day)</td>
+        <td>626,000 (about 1,700 page views a day)</td>
     </tr>
     <tr>
         <td>Pages per visit</td>
-        <td>1.5 pages</td>
+        <td>1.66 pages</td>
     </tr>
     <tr>
         <td>Users</td>
-        <td>304,000 (about 79% of visitors)</td>
+        <td>283,000</td>
     </tr>
     <tr>
         <td>New sessions</td>
-        <td>79%</td>
+        <td>74%</td>
     </tr>
     <tr>
         <td>Average visit duration</td>
-        <td>1:27 minutes</td>
+        <td>1:37 minutes</td>
     </tr>
     </tbody>
 </table>
 
-As for audience demographics, Google Analytics indicates that about 40% of the visitors are between ages 25-34, and about 22% between 35-44\. About 60% are male, 40% female.
+As for audience demographics, Google Analytics indicates the following: 
 
-<img src="/images/demographics-550x254.png" alt="demographics" width="550" height="254" />
-
-Additionally, their main interests are technology and employment.
+* 45% of users are from the US, 11% from India
+* 53% are using Chrome, 12% using IE
+* 62% use Windows, 16% use Mac
+* 8% are iOS, 7% are Android
+* Based on Google's "interests" category, 7% are technophiles, 5% are TV lovers, 4% are new junkies and avid readers, 5% are interested in employment, 3% are interested in software
+* 75% are new visitors, 25% are returning visitors
+* 82% of visitors are desktop, 14% mobile, 4% tablet
+* 71% of visitors arrive through Google's organic search, 16% through direct links, and 12% through social media.
 
 ### Quality of impressions
 
@@ -98,6 +103,7 @@ Is idratherbewriting.com an influential site? Yes. MindTouch named me one of the
 
 See the following links for more details:
 
+* [Most Valuable Professional #2014](http://www.drexplain.com/mvp/tom-johnson/), Indigo Byte Systems.
 *   [#3 Influencer in #techcomm in 2014](http://www.mindtouch.com/blog/2014/04/25/top-50-most-influential-techcomm-experts-lets-connect-at-the-stc-summit-2014-techwhirl-or-writethedocs)
 *   [#1 Influencer in #techcomm 2013](http://www.mindtouch.com/blog/2013/04/04/2013-influencers-in-techcomm/)
 *   [#1 Influencer in #techcomm 2012](http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/ "I'd Rather Be Writing is most influential blog of 2012")
@@ -133,7 +139,7 @@ The cost for each ad space is as follows:
     </tbody>
 </table>
 
-(By the way, assuming 588,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.53 CPM, for the horizontal inline view $3.06 CPM, and for the top banner ad space, $8.50 CPM. These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).)
+(By the way, assuming 625,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.44 CPM, for the horizontal inline view $2.88 CPM, and for the top banner ad space, $9.60 CPM. These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).)
 
 ## Billing
 
