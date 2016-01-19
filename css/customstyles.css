@@ -771,7 +771,9 @@ button.navbar-toggle {
 }
 
 .pagination {
-    font-size: 14px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #dedede;
 }
 
 h2 {
