@@ -990,6 +990,16 @@ ul#mysidebar li.active a {
     max-width: 100%;
 }
 
+.bs-callout-ad {
+    font-family: arial;
+    font-size:15px;
+    color: gray;
+}
+.sponsorMessageTitle {
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
 @media only screen and (max-width: 980px), only screen and (max-device-width: 980px){
     /* mobile sidebar area, mobile top banner ad area */
     #sidebarAreaHomePage {
