@@ -11,7 +11,7 @@ layout: default
         {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
         {{content}}
-{% unless page.type == "homepage" %}
+{% unless page.focus == "homepage" %}
         <div style="max-width:400px">
             {% include tinyletter.html %}
         </div>
