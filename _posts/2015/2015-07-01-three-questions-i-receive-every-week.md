@@ -40,7 +40,7 @@ The second most common question I receive is this one:
 > <li>What fields in technical writing are the most popular?</li></ul>
 > <p>Thanks, please respond with answers before 5pm tomorrow as my assignment is due then. thanks.</p>
 
-About five years ago, I used to actually respond to these questions (see the [Beginners category](http://idratherbewriting.com/category-beginners/). Then I started pushing them out to my colleagues and invited them to respond. A lot of times my colleagues wrote really detailed responses, writing more than 1,5000 to 3,000 words sometimes.
+About five years ago, I used to actually respond to these questions (see the [Beginners category](http://idratherbewriting.com/category-beginners/)). Then I started pushing them out to my colleagues and invited them to respond. A lot of times my colleagues wrote really detailed responses, writing more than 1,5000 to 3,000 words sometimes.
 
 Then I stopped responding and just recommended to students that they post a tweet to #techcomm with their questions, or join the techwhir-l listserv and ask someone there. 
 
@@ -93,11 +93,11 @@ If you contact me, please send me more interesting questions. Beyond these three
 Here are a few examples:
 
 * Dear Tom, there's an engineer at my work who I swear is either mentally slow or insanely brilliant. I can't tell which. Please help me devise a test to figure it out.
- * Dear Tom, is there a secret underlying all successful documentation? You know, something like, if you follow this one principle, everything else aligns into place? Is there a universal theory that explains all good doc?
- * Dear Tom, while reading one of your posts, I had a daydream where your head was attached to a tiger's body, and you were tearing through a forest while riding on the back of a unicorn. I have no idea what this means. Can you help interpret it for me?
- * Dear Tom, I'm deeply disturbed by people who insist on omitting the Oxford comma. I do not understand how their brain can even function. At the same time, I'm looking for ways to merge Marketing with Tech Comm, so this has become a real stumbling block, since Marketing dictates no Oxford commas as per their style guide. Help??? Also, how is this dilemma tied to Oxford in the first place?
- * Dear Tom, it seems that you switch authoring tools every other week. One month you're using Flare, and then Mediawiki, and then DITA, and now Jekyll. I've been using Framemaker to create PDFs for the past 18 years at the same job. I'm thinking of upgrading versions of Framemaker, but I'm not sure. Can you suggest whether the upgrade is a good idea?
- * Dear Tom, I'm from another country so English is not my first language, but having received high marks on my grade school writing assignments, I feel the career of Technical Communicator is about to embark upon me. I want to locate a high-paying Technical Writing job in United States, but do I need to secure a Visa to work there? Might I impose upon you to sponsor me as a live-in assistant for all your technical writing needs?
- * Dear Tom, I have developed a fitbit wristband for writers that measures the number of words typed based on movements of the wrist. It is highly accurate to within 100 words of the total character count. Do you think this product would have wide appeal in the creative market, even for technical writers to measure metrics? Can I send you a test product?
- 
+* Dear Tom, is there a secret underlying all successful documentation? You know, something like, if you follow this one principle, everything else aligns into place? Is there a universal theory that explains all good doc?
+* Dear Tom, while reading one of your posts, I had a daydream where your head was attached to a tiger's body, and you were tearing through a forest while riding on the back of a unicorn. I have no idea what this means. Can you help interpret it for me?
+* Dear Tom, I'm deeply disturbed by people who insist on omitting the Oxford comma. I do not understand how their brain can even function. At the same time, I'm looking for ways to merge Marketing with Tech Comm, so this has become a real stumbling block, since Marketing dictates no Oxford commas as per their style guide. Help??? Also, how is this dilemma tied to Oxford in the first place?
+* Dear Tom, it seems that you switch authoring tools every other week. One month you're using Flare, and then Mediawiki, and then DITA, and now Jekyll. I've been using Framemaker to create PDFs for the past 18 years at the same job. I'm thinking of upgrading versions of Framemaker, but I'm not sure. Can you suggest whether the upgrade is a good idea?
+* Dear Tom, I'm from another country so English is not my first language, but having received high marks on my grade school writing assignments, I feel the career of Technical Communicator is about to embark upon me. I want to locate a high-paying Technical Writing job in United States, but do I need to secure a Visa to work there? Might I impose upon you to sponsor me as a live-in assistant for all your technical writing needs?
+* Dear Tom, I have developed a fitbit wristband for writers that measures the number of words typed based on movements of the wrist. It is highly accurate to within 100 words of the total character count. Do you think this product would have wide appeal in the creative market, even for technical writers to measure metrics? Can I send you a test product?
+
 Well, hopefully you get the idea by now. Feel free to stray outside the box with your questions.
