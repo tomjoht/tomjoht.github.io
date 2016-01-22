@@ -163,7 +163,7 @@ It's also interesting how much detail they include for each item. Whereas the Tw
 
 When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endpoints with JSON objects in the request body, the RAML API Console output looks something like this:
 
-[![RAML](/images/ramljsonrepresentation.png)]
+![RAML](/images/ramljsonrepresentation.png)
 
 Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also a little confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
 

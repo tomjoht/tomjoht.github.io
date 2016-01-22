@@ -3,7 +3,7 @@ title: Challenges in documenting long JSON objects
 categories:
 - api-doc
 keywords: 
-summary: "Documenting long JSON objects (with hundreds of lines of code) can be challenging. There are different approaches to take, but none of the approaches seems to work well. I updated my API doc course topic with a section comparing the various approaches."
+summary: "Documenting long JSON objects (with hundreds of lines of code and multiple levels of nesting) can be challenging. There are different approaches to take, but none of the approaches seems to work well. I updated my API doc course topic with a section comparing the various approaches."
 thumbnail: jsondocapproachesthumb.png
 ---
 
