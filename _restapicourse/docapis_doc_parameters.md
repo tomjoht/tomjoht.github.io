@@ -74,20 +74,6 @@ Here are a few other details to remember when describing parameters:
 
 {{tip}} When you test the API, try running an endpoint without the required parameters, or with the wrong parameters. See what kind of error response comes back. Include that response in your response codes section.{{end}}
 
-## Passing parameters in the JSON body
-
-Frequently with POST requests, you will submit a JSON object in the request body. This JSON object may be a lengthy list of key value pairs with multiple levels of nesting.
-
-For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the  request, you include a JSON object formatted, like this:
-
-```
-{
-"days": 2,
-"units": "imperial",
-"time": 1433524597
-}
-```
-
 ## Color coding parameter values
 
 When you list the parameters and endpoint definition, it can help to color code the parameters. This makes it clear what's a parameter and what's not in the endpoint. 
@@ -107,13 +93,27 @@ By color coding the parameters, it's easy to see it in contrast with the other p
 
 Note that if you're custom-color-coding the parameters, you'll need to skip the automatic syntax highlighting options and just use either your own styles or a general `pre` element. 
 
+## Passing parameters in the JSON body
+
+Frequently with POST requests, you will submit a JSON object in the request body. This JSON object may be a lengthy list of key value pairs with multiple levels of nesting.
+
+For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the  request, you include a JSON object formatted, like this:
+
+```
+{
+"days": 2,
+"units": "imperial",
+"time": 1433524597
+}
+```
+
 ## Documenting lengthy JSON objects in request bodies
 
-Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the response is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines?
+Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines?
 
 Tables work all right for documenting JSON, but they can be challenging as well. In a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object etc. can be confusing to represent.
 
-## The scrolling-to-definitions approach
+### The scrolling-to-definitions approach
 
 In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/home.html), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can see it here:
 
@@ -123,9 +123,9 @@ When you click on an item in the JSON object, the right-pane scrolls to the item
 
 One problem is that you end up with three scroll bars on one page, which isn't the best design. Additionally, the descriptions in this demo are just paragraphs. Usually you structure the information with more detail (e.g., data type, description, notes, etc.).
 
-Finally, this approach doesn't allow for easy scanning. However, this scrolling view might be a complement to a more scannable table.
+Finally, this approach doesn't allow for easy scanning. However, this scrolling view might be an alternative view to a more scannable table. That is, you could store the definitions in another file and then include the definitions in both this scrolling view and a master table list, allowing the user to choose the view he or she wants.
 
-## The side-by-side approach
+### The side-by-side approach
 
 In Stripe's API documentation, the writers try to juxtapose the responses in a right side pane with the documentation in the main window.
 
@@ -135,13 +135,17 @@ The idea is that you can see both the description and a sample response at the s
 
 However, the description doesn't always line up with the sample response. (In some places, child attributes are collapsed to save space.) I'm not sure why some items (such as `livemode`) aren't documented.
 
-## The no-need-for-descriptions approach
+### The no-need-for-descriptions approach
 
 Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
 
+[![Twitter doesn't document the JSON](images/twitternojsondoc.png)](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid)
+
 Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms, sometimes using abbreviations. The shorter the term, the more it needs accompanying documentation.
 
-## The context-within-tables approach
+In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant.
+
+### The context-within-tables approach
 
 eBay's API takes a little different approach. For each item in the XML response, they give some context about where the item appears.
 
@@ -153,7 +157,7 @@ For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, whic
 
 It's also interesting how much detail they include for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.
 
-## The RAML API Console approach
+### The RAML API Console approach
 
 When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endpoints with JSON objects in the request body, the RAML API Console output looks something like this:
 
@@ -163,7 +167,7 @@ Here each body parameter is a named JSON object that has standard values such as
 
 Further, this approach doesn't provide an example in context, which is what usually clarifies the data for the user.
 
-## The Swagger UI approach
+### Swagger UI's Model versus Model Schema approach
 
 Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better? Not really. In some ways, it's more confusing. 
 

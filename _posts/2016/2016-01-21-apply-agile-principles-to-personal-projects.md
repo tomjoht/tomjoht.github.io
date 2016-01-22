@@ -4,7 +4,7 @@ categories:
 - general
 keywords: 
 summary: "The same agile approaches used to manage software development projects can also be used to manage projects in your own personal life. If you follow the core agile principles, you might actually be able to get \"twice as much done in half the time\", as Jeff Sutherland, co-founder of agile, promises."
-thumb: scrumprinciplesthumb.png
+thumb: agileprinciplesthumb.png
 ---
 
 ## The challenge of keeping up 
@@ -20,7 +20,7 @@ In Jeff Sutherland's book [Scrum: The Art of Doing Twice the Work in Half the Ti
 
 In Sutherland's view, scrum is a way of completing any project much more efficiently &mdash; in half the time. This approach isn't something that works only for software teams or tech companies. It's an approach for managing any kind of *project*.
 
-<figure><img src="{{ "/images/agile_processes-01.svg" | prepend: site.baseurl }}" alt="Scrum processes apply to both work and home" /><figcaption>Scrum principles apply to both projects at home and work. It's simply a more efficient way to go about projects that allows you to correct course early by getting feedback at regular intervals.</figcaption></figure>
+<figure><img src="{{ "/images/agile_processes-01.svg" | prepend: site.baseurl }}" alt="Agile processes apply to both work and home" /><figcaption>Agile principles apply to both projects at home and work. It's simply a more efficient way to go about projects that allows you to correct course early by getting feedback at regular intervals.</figcaption></figure>
 
 Sutherland explains:
 
