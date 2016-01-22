@@ -4,6 +4,8 @@ entries:
   subcategories:
     - title: Core concepts
       items:
+        - title: Introduction
+          url: /java-introduction/
         - title: Classes
           url: /java-classes/
         - title: Methods
