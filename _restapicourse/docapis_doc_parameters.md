@@ -109,15 +109,17 @@ For example, the endpoint URL may be something simple, such as `/surfreport/{bea
 
 ## Documenting lengthy JSON objects in request bodies
 
-Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines?
+Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines? 
 
 Tables work all right for documenting JSON, but they can be challenging as well. In a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object etc. can be confusing to represent.
 
+By all means, if the JSON object is relatively small, a table is probably your best option. But there are some other approaches that designers have taken as well.
+
 ### The scrolling-to-definitions approach
 
-In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/home.html), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can see it here:
+In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/home.html), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_scroll.html):
 
-[![scrollto](/images/scrollto-550x310.png)](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_scroll.html)
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_scroll.html"><img src="{{ "/images/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
 
 When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
 
@@ -129,7 +131,7 @@ Finally, this approach doesn't allow for easy scanning. However, this scrolling 
 
 In Stripe's API documentation, the writers try to juxtapose the responses in a right side pane with the documentation in the main window.
 
-[![stripe](/images/stripe-550x373.png)](https://stripe.com/docs/api#charge_object)
+<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images/stripe-550x373.png" | prepend: site.baseurl }}" alt="Stripe" style="border:1px solid #dedede;"/> </a>
 
 The idea is that you can see both the description and a sample response at the same time, and just scroll down.
 
@@ -139,17 +141,17 @@ However, the description doesn't always line up with the sample response. (In so
 
 Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
 
-[![Twitter](/images/twitternojsondoc.png)](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid)
+<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "/images/twitternojsondoc.png" | prepend: site.baseurl }}" alt="Twitter" style="border:1px solid #dedede;"/></a>
 
-Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms, sometimes using abbreviations. The shorter the term, the more it needs accompanying documentation.
+Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms, often using abbreviations. The shorter the term, the more it needs accompanying documentation.
 
-In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant.
+In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant. Some developers didn't even know.
 
 ### The context-within-tables approach
 
 eBay's API takes a little different approach. For each item in the XML response, they give some context about where the item appears.
 
-[![ebay](/images/ebay-550x335.png)](http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html)
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images/ebay-550x335.png" | prepend: site.baseurl }}" alt="eBay"  style="border:1px solid #dedede;"/></a>
 
 For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`.
 
@@ -171,7 +173,7 @@ Further, this approach doesn't provide an example in context, which is what usua
 
 Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better? Not really. In some ways, it's more confusing. 
 
-First, let me define some terms. The [Swagger UI](https://github.com/swagger-api/swagger-ui) reads the Swagger spec file and displays it in the visual format that you see with examples such as the [Swagger Petstore](http://petstore.swagger.io/).
+The [Swagger UI](https://github.com/swagger-api/swagger-ui) reads the Swagger spec file and displays it in the visual format that you see with examples such as the [Swagger Petstore](http://petstore.swagger.io/).
 
 The Swagger UI lets you toggle between a "Model Schema" and a "Model" view for both responses and request body parameters.
 
@@ -230,7 +232,7 @@ In this view, when there's a nested object, like `category`, it has a reference 
 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
 
-Ultimately I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model view in the first place.
+Ultimately, I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model View in the first place.
 
 ## Conclusion
 
