@@ -139,7 +139,7 @@ However, the description doesn't always line up with the sample response. (In so
 
 Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
 
-[![Twitter doesn't document the JSON](images/twitternojsondoc.png)](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid)
+[![Twitter](/images/twitternojsondoc.png)](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid)
 
 Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms, sometimes using abbreviations. The shorter the term, the more it needs accompanying documentation.
 
