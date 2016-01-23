@@ -3,7 +3,7 @@ title: How to apply agile processes to manage your life's projects
 categories:
 - general
 keywords: 
-summary: "The same scrum approaches used to manage software development projects can also be used to manage projects in your own personal life. If you follow the core scrum principles, you might actually be able to get \"twice as much done in half the time\", as Jeff Sutherland, co-founder of agile, promises."
+summary: "The same scrum approaches used to manage software development projects can also be used to manage projects in your own personal life. If you follow the core scrum principles, you might actually be able to get \"twice as much done in half the time,\" as Jeff Sutherland, co-founder of agile, promises."
 thumb: agileprinciplesthumb.png
 ---
 
