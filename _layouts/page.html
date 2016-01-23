@@ -12,8 +12,9 @@ layout: default
 
         {{content}}
 {% unless page.focus == "homepage" %}
+        <hr/>
         <div style="max-width:400px">
-            <hr/>
+
             {% include tinyletter.html %}
         </div>
         {% endunless %}
