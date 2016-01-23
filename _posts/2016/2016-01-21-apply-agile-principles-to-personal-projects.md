@@ -12,7 +12,7 @@ At the upcoming [TC Camp](http://www.tccamp.org/), during a brief 5-minute feud 
 
 >How can I keep up with all the tools, technologies, info and other stuff to stay marketable? What happened to the good old days when all you needed to know was FrameMaker? 
 
-Admittedly, I can't help but feel caught in the same technological rat race, barely keeping my head above water. I do have some strategies that work somewhat for me, but there is a guy who I think does have genuine insight. His approach is one we're all familiar with and use daily in our jobs as technical writers in IT environments. Yes, I'm talking about agile and the principles put forward by its co-founder, Jeff Sutherland.
+Admittedly, I can't help but feel caught in the same technological rat race, barely keeping my head above water. I do have some strategies that work somewhat for me, but there is a guy who I think does have genuine insight. His approach is one we're all familiar with and use daily in our jobs as technical writers in IT environments. Yes, I'm talking about agile and the scrum principles put forward by its co-founder, Jeff Sutherland.
 
 In Jeff Sutherland's book [Scrum: The Art of Doing Twice the Work in Half the Time](http://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X), Sutherland explains that scrum processes (a type of agile development) aren't just intended for the software industry:
 
@@ -49,7 +49,7 @@ Make a list of all the things you have to do to complete the project. This is kn
 * Create a Java project that solves some problem.
 * Contribute to Java documentation at a project at work.
 
-When you finish all of these tasks, you feel confident that you'll have completed the project of being able to proficiently read Java code.
+When you finish all of these tasks, you'll feel confident that you'll have completed the project of being able to proficiently read Java code.
 
 ## 3. Prioritize the backlog
 
@@ -61,7 +61,7 @@ In the case of the Java items, probably contributing to the Java documentation a
 
 Assign a relative size to each of the backlog items &mdash; small, medium, or large. Alternatively, give them points equivalent to the Fibonacci sequence.
 
-Sutherland says people are bad at estimating, so you want to compare the tasks to something more familiar, like comparing them to the sizes of dogs. This allows you to make estimations based on *relative* judgments rather than direct point assessments. Is this task a Great Dane, Beagle, or Yorkshire Terrier?
+Sutherland says people are bad at estimating, so you want to compare the tasks to something more familiar, like comparing the tasks to the sizes of dogs. This allows you to make estimations based on *relative* judgments rather than direct point assessments. Is this task a Great Dane, Beagle, or Yorkshire Terrier?
 
 Looking at my tasks, here's how I might classify them:
 
@@ -76,7 +76,7 @@ Ultimately these relative dog comparisons do equate to numbers. In my scheme, a 
 
 ## 5. Plan a sprint
 
-Sprints are usually two-week cycles where you work on items from your backlog. You don't plan all the work for all sprints at once. This is the key idea of agile. You want to complete some work and then evaluate how things are going. Between sprints you decide whether you should alter directions or continue your focus on the same.
+Sprints are usually two-week cycles where you work on items from your backlog. You don't plan all the work for all sprints at once. This is the key idea of agile. You want to complete some work and then evaluate how things are going. Between sprints you decide whether you should alter directions or continue your same focus.
 
 Pick your most valuable items from your backlog and move them into your current sprint. For my current sprint, I might start with "Reading *Head First Java* by Kathy Sierra" and "Generating a sample Javadoc."
 
@@ -84,13 +84,7 @@ At first, you won't know how many items you can complete in a sprint. As I menti
 
 After a few sprints, look at the number of points you're completing each sprint. This is your "velocity." When you know your velocity, you can project how long it will take you to complete the project.
 
-## 6. Complete the assigned tasks in the sprint
-
-During the two-week sprint, try to complete all the tasks you've set out to do. You don't alter your course during the sprint &mdash; you work on what you planned to accomplish. 
-
-Exactly how should you tackle each sprint item? Well, that's kind of up to you. The key is to complete it. By the end of the sprint, you should have a functional output that you can demo.
-
-## 7. Hold daily standups
+## 6. Hold daily standups
 
 Standup meetings provide short huddles with your team where you report your status. Your status covers three things:
 
@@ -100,7 +94,13 @@ Standup meetings provide short huddles with your team where you report your stat
 
 Each morning you can briefly look at the items in your sprint and single out what you plan to work on for the day. I like to put several post-it notes at the bottom of my computer monitor that refer to the items I'm working on. 
 
-Obviously, if you're the only team member you won't have a daily huddle with others, but you can still hold a standup conversation with yourself.
+Obviously, if you're the only team member you won't have a daily huddle with others, but you can still hold a standup with yourself.
+
+## 7. Complete the sprint's tasks
+
+During the two-week sprint, try to complete all the tasks you've set out to do. You shouldn't alter your course during the sprint &mdash; you work on what you planned to accomplish. 
+
+Exactly how should you tackle each sprint item? Well, that's kind of up to you. The key is to complete it. By the end of the sprint, you should have a functional output that you can demo.
 
 ## 8. Demo what you've completed at the end of the sprint
 
@@ -112,13 +112,13 @@ How would this sprint demo apply if you're learning Java? Here's one approach. A
 * [DITA notes](http://idratherbewriting.com/ditaqrg/)
 * [Java notes](http://idratherbewriting.com/java-introduction/)
 
-By making notes, I'm trying to avoid living the story of Sisyphus, where one continually rolls the same boulder up a hill, only to have it roll back again. I'm soaking in a lot of new information &mdash; through my notes, hopefully I can shorten any re-learning efforts as time passes and my memory fades. 
+By making notes, I'm trying to avoid living the story of Sisyphus, where I continually roll the same boulder up a hill, only to have it roll back again. I'm soaking in a lot of new information &mdash; through my notes, hopefully I can shorten any re-learning efforts as time passes and my memory fades. 
 
-By publishing your set of notes at the end of your sprint, you also demonstrate your knowledge to others.
+By publishing my set of notes at the end of the sprint, I also demonstrate my knowledge to others.
 
 ## 9. Get feedback about the results
 
-After the sprint is finished, you ask your stakeholders and users for feedback. Are you going in the right direction? Are you delivering value? Does the product suck or rock?
+After the sprint is finished, ask your stakeholders and users for feedback. Are you going in the right direction? Are you delivering value? Does the product suck or rock?
 
 Sure, you've just finished only a little piece of the solution, but getting this feedback is critical so that you can make good decisions for the direction of the project overall. The worst mistake you can make is working in a cave for a year and not emerging until you've finished the whole project. By then, your audience may tell you that you've missed the mark long ago.
 
@@ -131,18 +131,20 @@ With our sample project &mdash; learning Java &mdash; you are your own audience,
 
 If you're working on a small Java project, show it to a Java developer to get some feedback. Ask him or her to let you know if you're doing things right. 
 
-You could also share your notes with others to get their feedback. Maybe you're misunderstanding some key points. Other people's feedback can help align you in positive ways.
+You could also share your notes with others to get their feedback. Maybe you're misunderstanding some key points. Feedback can help align you in positive ways.
 
 In fact, this is one reason why I publish posts on my blog. By sharing and getting feedback early in the process, others can give me the insight and feedback I need to correct my course early.
 
-## 10. Hold a sprint retrospective
+## 10. Hold a sprint retrospective and strive for "kaizen"
 
 After a sprint, identify any impediments or other processes that aren't working. Maybe you're only getting a couple of items done each week because you're too tired. Maybe you're spending too much time in your escape zone because you're burned out and are losing energy. Maybe you have too many things going on in your life and need to simplify. Maybe you need to alternate tasks more to avoid getting bored.
 
-Identify the impediments and remove them. You may not be able to remove them all, but by removing one or two of the things that are dragging you down, you're putting into practice the notion of "kaizen," which means continuous improvement.
+Identify some of impediments and remove them. You may not be able to remove them all, but by removing one or two of the things that are dragging you down, you're putting into practice the notion of "kaizen," which means continuous improvement.
 
 ## Conclusion
 
 Although I've been in agile software development shops for years, I never thought to apply scrum to the projects in my own life. I do think that the same scrum principles that shifted the software industry into greater productivity can be leveraged for ourselves. We are lucky because most of us are immersed in this process and are familiar with scrum principles, whereas many other industries haven't yet adopted it.
 
 What do you think? Can you apply scrum processes to better manage the projects of your life?
+
+{{site.data.alerts.tip}} If you're looking for software to manage your agile/scrum project, [pivotaltracker.com](https://www.pivotaltracker.com) works well. It's free for the first two projects and is easy to figure out.{{site.data.alerts.end}}
