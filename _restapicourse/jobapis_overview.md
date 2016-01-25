@@ -21,7 +21,7 @@ You may wonder what the motivation is behind these statements. Here's the most c
 ## Algolia example
 Take a look at Algolia's API for an example. You can view the documentation for the [REST API here](https://www.algolia.com/doc/rest). However, when you implement Algolia (which provides a search for your site), you'll want to follow the documentation for your specific platform. 
 
-[![Algolia client implementations](algolia_clientsdks.png)](https://www.algolia.com/doc)
+<a href="https://www.algolia.com/doc"><img src="{{ "/images/algolia_clientsdks.png" | prepend: site.baseurl }}" alt="Algolia client implementations" /></a>
 
 If you were recruiting for a technical writer to document Algolia, how would you word the requirements? Can you now see why even though the core work involves documenting the REST API, it would also be good to have an "ability to read code in one or more main programming languages, such as Java, C++, or Python."
 
