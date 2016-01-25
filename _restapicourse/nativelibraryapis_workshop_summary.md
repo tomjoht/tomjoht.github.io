@@ -6,6 +6,7 @@ weight: 8.0
 type: notes_docapis
 ---
 
+{% include notes.html %}
 During this course, we explored the following:
 
 * Using a REST API as a developer

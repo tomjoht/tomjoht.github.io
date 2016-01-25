@@ -242,4 +242,8 @@ entries:
         - title: Course summary
           url: /nativelibraryapis_workshop_summary/
           weight: 8.0
-
+    - title: Job market for API technical writers
+      items:
+        - title: Job market overview
+          url: /jobapis_overview/
+          weight: 8.1
