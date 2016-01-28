@@ -23,7 +23,7 @@ alert("Hello World");
 <h2>Referencing JavaScript</h2>
 <p>When you integrate JavaScript in a web page, you enclose it in <code>script</code> tags. However, it's usually best not to mix your scripts with the HTML of your webpage. Instead, you insert the script in a separate .js file and then reference the js file on your web page. This makes it easier to write and maintain your JavaScript code.</p>
 <p>To reference a JavaScript file, insert the following:</p>
-<p>{% highlight javascript %} <script type="text/javascript" src="scripts.js"></script>{% endhighlight %} </p>
+<p>{% highlight javascript %} <script src="scripts.js"></script>{% endhighlight %} </p>
 <p>You can also add <code>type="text/javascript"</code> but this isn't required.</p>
 <p>{% highlight javascript %} <script type="text/javascript" src="scripts.js"></script>{% endhighlight %} </p>
 <p>This reference will pull in the script file (assuming it's in the same folder as your webpage and called scripts.js). You can insert the reference to your JavaScript file anywhere on the page, but the script will load in sequence where you insert it.</p>
