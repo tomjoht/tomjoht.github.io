@@ -165,7 +165,9 @@ When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endp
 
 ![RAML](/images/ramljsonrepresentation.png)
 
-Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also a little confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
+Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also somewhat confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
+
+The problem with RAML is that it tries to describe a JSON structure using a JSON structure itself, but the JSON structure of the description doesn't match the JSON structure it describes, so it's confusing.
 
 Further, this approach doesn't provide an example in context, which is what usually clarifies the data for the user.
 
@@ -233,6 +235,18 @@ In this view, when there's a nested object, like `category`, it has a reference 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
 
 Ultimately, I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model View in the first place.
+
+## Custom-styled tables
+
+The MYOB Developer Center takes an interesting approach with their APIs. They list the JSON structure in a table, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below. 
+
+To the right is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
+
+<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "/images/myobjsondoc.png" | prepend: site.baseurl }}" alt="MYOB JSON doc approach" /></a>
+
+If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover / collapsible approach allows you to compress the table so you can jump to the part you're interested in.
+
+However, this approach requires more manual work from a documentation point of view, and there isn't any interactivity to try out the endpoints. Still, if you have long JSON objects, it might be worth it.
 
 ## Conclusion
 
