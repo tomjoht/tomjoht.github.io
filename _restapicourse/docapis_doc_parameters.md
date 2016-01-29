@@ -238,13 +238,13 @@ Ultimately, I'm not sure how useful the Model view is beyond providing a place t
 
 ## Custom-styled tables
 
-The MYOB Developer Center takes an interesting approach with their APIs. They list the JSON structure in a table, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below. 
+The MYOB Developer Center takes an interesting approach in documenting the JSON in their APIs. They list the JSON structure in a table-like way, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below. 
 
-To the right is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
+To the right of the JSON definitions is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
 
 <a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "/images/myobjsondoc.png" | prepend: site.baseurl }}" alt="MYOB JSON doc approach" /></a>
 
-If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover / collapsible approach allows you to compress the table so you can jump to the part you're interested in.
+If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover + collapsible approach allows you to compress the table so you can jump to the part you're interested in.
 
 However, this approach requires more manual work from a documentation point of view, and there isn't any interactivity to try out the endpoints. Still, if you have long JSON objects, it might be worth it.
 
