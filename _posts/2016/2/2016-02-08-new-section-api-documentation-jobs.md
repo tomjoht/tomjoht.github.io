@@ -1,9 +1,9 @@
 ---
-title: New section on API documentation job markets 
+title: New section in API documentation course: \"The Job market for API technical writers\"
 categories:
 - api-doc
 keywords: 
-summary: "I added a new section to my API documentation course called The Job market for API technical writers. In this section, I try to elaborate on why knowledge of programming is often required in API documentation jobs."
+summary: "I added a new section to my API documentation course called \"The Job market for API technical writers.\" In this section, I try to elaborate on why knowledge of programming is often listed as a requirement in API documentation jobs, even if you're mainly documenting a REST API."
 ---
 
 In postings for API documentation jobs, you'll often see requirements like this: 
