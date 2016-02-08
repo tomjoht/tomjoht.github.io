@@ -1,5 +1,5 @@
 ---
-title: 'New section in API documentation course: &quot;The Job market for API technical writers&quot;
+title: "New section in API documentation course: &quot;The Job market for API technical writers&quot;"
 categories:
 - api-doc
 keywords: 
