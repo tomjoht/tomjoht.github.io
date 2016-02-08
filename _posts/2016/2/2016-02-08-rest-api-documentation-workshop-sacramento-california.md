@@ -52,8 +52,8 @@ This course will mostly provide an introduction to these concepts. There are man
 >
 >In addition to covering technical strategies for documenting REST APIs, we'll also talk generally about the job market for developer documentation, the skills in demand, and challenges in working in developer environments.
 
-You can find more information [here](http://www.stcsacramento.org/calendar.html). 
+You can find more information on the [STC Sacramento site here](http://www.stcsacramento.org/calendar.html). 
 
-Note that I'm also giving a [similar API documentation workshop](http://sched.co/5o4O) at the STC Summit in Anaheim, California (though the cost is 10 times as much).
+Note that I'm also giving a [similar API documentation workshop](http://sched.co/5o4O) at the STC Summit in Anaheim, California in May (though the cost is 10 times as much).
 
-If you're interested in API documentation, but you can't attend either of these events, you can get the same information from my site here: [API documentation course](http://idratherbewriting.com/docapis_course_overview/).
+If you're interested in API documentation but can't attend either of these events, you can get the same information from my site here: [API documentation course](http://idratherbewriting.com/docapis_course_overview/).
