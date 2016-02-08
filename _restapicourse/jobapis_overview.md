@@ -18,7 +18,7 @@ In nearly every job description for technical writers in developer documentation
 
 > Ability to read code in one or more programming languages, such as Java, C++, or Python.
 
-You may wonder what the motivation is behind these requirements. Here's the most common scenario. The company has a REST API for interacting with their services. However, to make it easy for developers, the company provides SDKs and client implementations in various languages for the REST API.
+You may wonder what the motivation is behind these requirements, especially if the core APIs are RESTful. Here's the most common scenario. The company has a REST API for interacting with their services. However, to make it easy for developers, the company provides SDKs and client implementations in various languages for the REST API.
 
 Take a look at Algolia's API for an example. You can view the documentation for their [REST API here](https://www.algolia.com/doc/rest). However, when you implement Algolia (which provides a search feature for your site), you'll want to follow the documentation for your specific platform. 
 
@@ -44,7 +44,7 @@ Why does this hybrid individual not exist? In part, it's because the more a pers
 
 This is both good and bad &mdash; good because other engineers in the same mindset may better understand you, but bad because anyone who doesn't inhabit that perspective and embrace the terminology already will be somewhat lost. 
 
-Remember that the terminology and model will vary from one language and platform to the next. One  user may speak fluently in Ruby, but that language may not connect with somebody who is a .NET developer.
+Remember that the terminology and model will vary from one language and platform to the next. One  user may speak fluently in Ruby, but that language may not connect with somebody who is a .NET developer. Consequently speaking "geek" can both connect with some developers and backfire with other developers.
 
 ## Wide, not deep understanding of programming
 
@@ -75,7 +75,7 @@ Additionally, since native library APIs are implemented locally in the developer
 
 If you've ever tried to get a big company with a lengthy deployment process on board with making updates every couple of months to the code they've deployed, you realize how impractical it is. Rolling out a simple update can take 6 months or more.
 
-It's much more feasible to move to a SaaS model using REST, and then create various client implementations that briefly demonstrate how to call the REST API using the different languages. With a REST API, you can update it at any time (hopefully maintaining backwards compatibility), and developers can simply continue using their same deployment code.
+It's much more feasible for API development shops to move to a SaaS model using REST, and then create various client implementations that briefly demonstrate how to call the REST API using the different languages. With a REST API, you can update it at any time (hopefully maintaining backwards compatibility), and developers can simply continue using their same deployment code.
 
 The more you can facilitate implementation in the user's desired language, the higher your chances of implementation &mdash; which means greater product adoption, revenue, and success.
 
@@ -83,11 +83,11 @@ The more you can facilitate implementation in the user's desired language, the h
 
 This proliferation of code and platforms creates more pressure on the multi-lingual capabilities of technical writers. Here's one consolation, though. If you can understand what's going on in one programming language, then your description of the reference implementations in other programming languages will follow highly similar patterns. 
 
-What mainly changes across languages are the code snippets and some of the terms. You may refer to "functions" instead of "classes," and so on.  Even so, it's a serious challenge, which is why it's so hard to find technical writers who have skills for producing developer documentation.
+What mainly changes across languages are the code snippets and some of the terms. You may refer to "functions" instead of "classes," and so on.  Even so, getting all the language right can be a serious challenge, which is why it's so hard to find technical writers who have skills for producing developer documentation.
 
 With this scenario of having multiple client implementations, you'll face other challenges, such as maintaining consistency across the various platforms. As you try to single source your explanations for various languages, your documentation code will become complex and difficult to maintain. 
 
-Additionally, product managers may want you to push out separate outputs within each programming language channel &mdash; to keep things simple for the users. Can you imagine pushing out a dozen different outputs across different languages for content that follows highly similar patterns and has common explanations but differs in just enough ways to make single sourcing from the same core content an act of sorcery? Here is where you have to put your technical writer belt on and exercise your single sourcing kung fu.
+Additionally, product managers may want you to push out separate outputs within each programming language channel to keep things simple for the users. Can you imagine pushing out a dozen different outputs across different languages for content that follows highly similar patterns and has common explanations but differs in just enough ways to make single sourcing from the same core content an act of sorcery? Here is where you have to put your technical writing wizard hat on and pull off level 9 incantations.
 
 ## Not an easy problem to solve
 The diversity and complexity of programming languages is not an easy problem to solve. To be a successful API technical writer, you'll likely need to incorporate at least a regular regiment of programming study. 
@@ -96,8 +96,7 @@ Fortunately, there are many helpful resources (my favorite being [Safari Books O
 
 Some of the principles that are fundamental to programming, like variables, loops, and try-catch statements, will begin to feel second-nature, since these techniques are common across almost all programming languages. You'll also be equipped with a confidence that you can learn what you need to learn on your own (this is the hallmark of a good education).
 
-## But will hiring managers understand?
-In discussions with hiring managers looking to fill 6-month contracts for technical writers already familiar with their programming environment, it will be a hard sell to persuade the manager that "you can learn anything." 
+But in discussions with hiring managers looking to fill 6-month contracts for technical writers already familiar with their programming environment, it will be a hard sell to persuade the manager that "you can learn anything." 
 
 The truth is that you can learn anything, but it may take a long time to do so. It can take years to learn Java programming, and you'll never get the kind of project experience that would give you the understanding that a developer possesses.
 
@@ -108,13 +107,11 @@ You can always fall back on the idea that for those users who need Python, the P
 
 In your documentation, you'll need to focus on the higher level information, the "why" behind the approach, the highlighting of any non-standard techniques, and the general strategy behind the code. 
 
-## Avoid assumptions
-
-Remember that just because someone is a developer, it doesn't mean he or she is an expert with all code. For example, the developer may be a Java programmer who knows just enough iOS to implement something on iOS, but for more detailed knowledge, the developer is depending on code samples in documentation. 
+Just remember that even though someone is a developer, it doesn't mean he or she is an expert with all code. For example, the developer may be a Java programmer who knows just enough iOS to implement something on iOS, but for more detailed knowledge, the developer may be depending on code samples in documentation. 
 
 Conversely, a developer who has real expertise in iOS might be winging it in Java-land and relying on your documentation to pull off a basic implementation.
 
-More detail in the documentation is always welcome, but you have to use a progressive-disclosure approach so that expert users aren't bogged down with novice-level detail while also making this additional detail available for those who need it. Expandable sections, additional pages, or other ways of grouping the more basic detail (if you can provide it) might be a good approach. 
+More detail in the documentation is always welcome, but you have to use a progressive-disclosure approach so that expert users aren't bogged down with novice-level detail; at the same time, you have to make this additional detail available for those who need it. Expandable sections, additional pages, or other ways of grouping the more basic detail (if you can provide it) might be a good approach. 
 
 There's a reason developer documentation jobs pay more &mdash; the job involves a lot more difficulty and challenges, in addition to technical expertise. At the same time, it's just these challenges that make the job more interesting and rewarding.
 
