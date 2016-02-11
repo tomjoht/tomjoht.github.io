@@ -147,4 +147,4 @@ Although I've been in agile software development shops for years, I never though
 
 What do you think? Can you apply scrum processes to better manage the projects of your life?
 
-{{site.data.alerts.tip}} If you're looking for software to manage your agile/scrum project, [pivotaltracker.com](https://www.pivotaltracker.com) works well. It's free for the first two projects and is easy to figure out.{{site.data.alerts.end}}
+{{site.data.alerts.tip}} If you're looking for software to manage your agile/scrum project, <a href="https://www.pivotaltracker.com">pivotaltracker.com</a> works well. It's free for the first two projects and is easy to figure out.{{site.data.alerts.end}}
