@@ -51,6 +51,7 @@ Enter another model: dynamic filtering. In the dynamic filtering model, the user
 * You risk that users will land on the wrong page and wrong version and not realize it. You may need to implement more granular sign posts on each page that help users know if they're looking at the right content, or if they need to go somewhere else.
 * Like the CMS option, you need more robust tooling and coding expertise. Faceted filtering might require you to configure Apache Solr search, for example.
 
+## Conclusion
 Which is the right approach?
 
 * Model 1: Individual outputs
