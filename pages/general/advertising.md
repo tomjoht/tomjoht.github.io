@@ -23,7 +23,7 @@ Your ad can be any image type (JPG, GIF, or PNG) and color, but the dimensions m
 
 ### Horizontal Inline Ad Space
 
-The Horizontal Inline space (550px x 70px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
+The Horizontal Inline space (700px x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
 
 <figure><img src="/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" width="550" height="331" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
@@ -31,7 +31,7 @@ Horizontal Inline ads here can also be animated GIF if desired. The positions a
 
 ### Top Banner Ad Space
 
-The top banner ad space (470px x 60px) refers to the top section of the site, in the upper-right corner.
+The top banner ad space (500px x 70px) refers to the top section of the site, in the upper-right corner.
 
 <figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" width="600" height="292" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
