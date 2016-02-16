@@ -5,6 +5,7 @@ categories:
 - jekyll
 keywords: 
 summary: "If you want to manage your content in a system and take advantage of more robust documentation management, it seems like your content needs to be in DITA or XML for the system to parse and process it. Almost no component content management systems handle anything like Markdown or other unstructured content. This requirement will likely always push large teams toward DITA/XML."
+thumb: ditaxmlccms.png
 ---
 
 After my post the other day about choosing various [models for single-sourced content](http://idratherbewriting.com/2016/02/11/the-problem-with-single-source-publishing/), one person added the [following comment](http://idratherbewriting.com/2016/02/11/the-problem-with-single-source-publishing/#comment-2510062908):
