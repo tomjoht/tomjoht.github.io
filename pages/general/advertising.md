@@ -16,18 +16,18 @@ I help increase visibility of your product primarily through ad impressions. An
 
 Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
-Your ad can be any image type (JPG, GIF, or PNG) and color, but the dimensions must be exactly 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
+Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensions must be exactly 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a single column. They rotate randomly with each page refresh.</figcaption></figure>
 
 ### Horizontal Inline Ad Space
 
-The Horizontal Inline space (700px x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
+The Horizontal Inline space (700px x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. 
 
 <figure><img src="/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" width="550" height="331" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
-Horizontal Inline ads here can also be animated GIF if desired. The positions also rotate randomly with each page refresh.
+Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. The positions also rotate randomly with each page refresh.
 
 ### Top Banner Ad Space
 
@@ -35,7 +35,7 @@ The top banner ad space (500px x 70px) refers to the top section of the site, i
 
 <figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" width="600" height="292" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
-The top banner ad is placed in one of the most visually dominant places on the site.
+The top banner ad is placed in one of the most visually dominant places on the site. Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. 
 
 There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space. 
 

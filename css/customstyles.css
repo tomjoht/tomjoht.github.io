@@ -1010,7 +1010,7 @@ ul#mysidebar li.active a {
         margin-top:10px;
     }
     #topBannerImageHomepage img {
-        max-width: 80%;
+        max-width: 100%;
     }
     /* top banner area, normal sidebar area */
     #sidebarArea, .topBannerAd {
@@ -1022,7 +1022,7 @@ ul#mysidebar li.active a {
     }
 
     .singlePostAds img {
-        max-width: 80%;
+        max-width: 100%;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
