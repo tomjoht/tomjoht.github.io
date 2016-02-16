@@ -677,7 +677,7 @@ float: right;
 
 }
 div.topBannerAd img {
-    max-width:470px;
+    max-width:500px;
     padding:10px;
     max-width:100%;
 }
@@ -1026,6 +1026,9 @@ ul#mysidebar li.active a {
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
+    }
+    pre {
+        max-width: 100%;
     }
 }
 
