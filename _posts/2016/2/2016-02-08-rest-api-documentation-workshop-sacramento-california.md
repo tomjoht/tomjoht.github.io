@@ -3,7 +3,7 @@ title: Upcoming REST API documentation workshop in Sacramento
 categories:
 - api-doc
 keywords: 
-summary: "I'm giving an API documentation workshop in Sacramento on March 19, 2016, from 10am to 2pm. The cost is $25, and the event will be held at the Rocklin Public Library."
+summary: "I'm giving an API documentation workshop in Sacramento on March 19, 2016, from 10am to 2pm. The cost is $25, and the event will be held at the Rocklin Public Library. The workshop will focus on how to write documentation for REST APIs, and will cover topics such as documenting endpoints, parameters, sample requests, sample responses, status codes, error codes, and more. You'll get some exposure to Postman and cURL as well."
 thumb: sacapiworkshop.png
 ---
 
