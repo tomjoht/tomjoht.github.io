@@ -22,7 +22,7 @@ You don't have your own meteorological service, so you're going to need to make 
 
 ## Get an idea of the end goal
 {{activity}}
-To give you an idea of the end goal, here's a sample. It's not necessarily styled the same as the mockup, but it answers the question, "How windy is it?" Click the button to see wind details (wait a couple of seconds after clicking the button).
+To give you an idea of the end goal, here's a sample. It's not necessarily styled the same as the mockup, but it answers the question, "How windy is it?" Click the button to see wind details.
 <style>
    #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
 </style>
@@ -53,8 +53,8 @@ $.ajax(settings)
 </script>
 <button type="button" onclick="checkWind()" class="btn btn-danger weatherbutton">Check wind conditions</button>
 <h2>Wind conditions for Santa Clara</h2>
-<b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span></br>
-<b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span></br>
+<b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span><br />
+<b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span><br />
 <b>Wind direction: </b><span id="wind_direction"></span>
 
 You can view the same code in a separate window here: <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank">Mashape API example</a>

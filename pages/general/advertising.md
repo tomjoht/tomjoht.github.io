@@ -129,7 +129,7 @@ The cost for each ad space is as follows:
         <td>$900/year</td>
     </tr>
     <tr>
-        <td>Horizontal inline post view (700px x 90px)</td>
+        <td>Horizontal inline post view (728px x 90px)</td>
         <td>$1,800/year</td>
     </tr>
     <tr>
