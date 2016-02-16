@@ -7,6 +7,7 @@ summary: "Despite the dominance of WordPress as a web publishing platform, which
 thumb: 14wpstatsthumb.png
 ---
 
+## The popularity of WordPress
 Despite the popularity of WordPress as detailed in [14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage), this web CMS still hasn't emerged as a competing help authoring tool in the tech comm industry. 
 
 <a href="14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage"><img src="{{ "/images/14wpstats.png" | prepend: site.baseurl }}" alt="Surprising statistics about WordPress" /></a>
@@ -14,22 +15,24 @@ Despite the popularity of WordPress as detailed in [14 Surprising Statistics Abo
 Here are some of the staggering statistics about WordPress usage mentioned in the article:
 
 >
-> * 1. 48% of Technorati’s Top 100 Blogs Are Managed With WordPress
-> * 2. 74.6 Million Sites Depend on WordPress
-> * 3. WordPress-Related Keywords Score 37 Million Searches Per Month
-> * 4. 40 Translations of WordPress
-> * 5. 22% of New U.S. Registered Domains Run on WordPress
-> * 6. WordPress.com Gets More Unique Visitors Than Amazon (Us)
-> * 7. WordPress.com Employs Only 229 People
-> * 8. 6 New WordPress.com Posts Every Second
-> * 9. WordPress Developers Charge $50/hr
-> * 10. 29,000 WordPress Plugins and Growing Daily
-> * 11. 98 Versions of WordPress to Date
-> * 12. 46 Million Downloads of WordPress.org
-> * 13. WordPress Is Most Popular With Business Websites
-> * 14. Akismet Is the Most Popular Plugin
+> * 48% of Technorati’s Top 100 Blogs Are Managed With WordPress
+> * 74.6 Million Sites Depend on WordPress
+> * WordPress-Related Keywords Score 37 Million Searches Per Month
+> * 40 Translations of WordPress
+> * 22% of New U.S. Registered Domains Run on WordPress
+> * WordPress.com Gets More Unique Visitors Than Amazon (Us)
+> * WordPress.com Employs Only 229 People
+> * 6 New WordPress.com Posts Every Second
+> * WordPress Developers Charge $50/hr
+> * 29,000 WordPress Plugins and Growing Daily
+> * 98 Versions of WordPress to Date
+> * 46 Million Downloads of WordPress.org
+> * WordPress Is Most Popular With Business Websites
+> * Akismet Is the Most Popular Plugin
 
 With a portfolio of stats like that, you'd think that WordPress would be a common CMS used in tech comm departments as well. But as far as I can tell, WordPress is rarely used by technical writers. Why?
+
+## Challenges in using WordPress for tech docs
 
 Here are a few reasons:
 
