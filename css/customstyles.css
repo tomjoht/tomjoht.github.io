@@ -629,7 +629,7 @@ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     border-color: #dedede;
 }
 
-.sidebarAds img {
+.sidebarAds img, #mytechsidebar img {
     float:left;
     padding:5px;
     max-width:125px;
@@ -1029,6 +1029,9 @@ ul#mysidebar li.active a {
     }
     pre {
         max-width: 100%;
+    }
+    #mytechsidebar img {
+        max-width: 125px;
     }
 }
 
