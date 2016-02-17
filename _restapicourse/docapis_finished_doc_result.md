@@ -203,7 +203,6 @@ $.ajax(settings).done(function (response) {
 
 <p>We're just getting the surf height, but there's a lot of other data you could choose to display.</p>
 </div>
-</div>
 
 ## Structure and templates
 

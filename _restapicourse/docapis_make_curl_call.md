@@ -46,7 +46,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	My call for the Mashape Weather API looks like this:
 	
 	```bash
-	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
+	  curl --get --include 'https://simple-weather.p.mashape.com/aqi??lat=1.3319164&lng=103.7231246' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
 	
 	For the Aeris Weather observations endpoint, it looks like this:
@@ -70,7 +70,7 @@ The response is just a single number: the air quality index for the location spe
 3. Right-click and then select **Paste** to insert the call. My call for the Mashape API looks like this:
  
 	```bash
-	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
+	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
 	```
 	
 	{{warning}}Make sure you use double quotes and include the <code>-k</code>. {{end}}
