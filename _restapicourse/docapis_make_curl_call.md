@@ -33,7 +33,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	
 4. Swap in your own API key.
 
-    {{note}} In the instruction here, `{api key}` will be used instead of an actual API key. You should replace that part with your own API key. Omit the curly braces `{ }`. {{end}}
+    {{note}} In the instruction here, <code>{api key}</code> will be used instead of an actual API key. You should replace that part with your own API key. Omit the curly braces <code>{ }</code>. {{end}}
 
 ## Make the request in cURL (Mac)
 {{activity}}
@@ -46,7 +46,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	My call for the Mashape Weather API looks like this:
 	
 	```bash
-	  curl --get --include 'https://simple-weather.p.mashape.com/aqi??lat=1.3319164&lng=103.7231246' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
+	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
 	```
 	
 	For the Aeris Weather observations endpoint, it looks like this:

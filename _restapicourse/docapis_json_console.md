@@ -119,7 +119,7 @@ You can then access the values from the response object using object notation. I
 
 The piece of code that logged the response to the console was simply this:
 
-```
+```js
 console.log(response);
 ```
 
@@ -127,7 +127,7 @@ Logging responses to the console is one of the most useful ways to test whether 
 
 You can add other information to the console log message. To preface the log message with a string, add something like this:
 
-```
+```js
 console.log("Here's the response: " + response);
 ```
 

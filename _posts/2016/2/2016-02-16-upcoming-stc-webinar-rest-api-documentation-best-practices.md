@@ -3,7 +3,7 @@ title: Two upcoming API documentation events this Thursday
 categories:
 - api-doc
 keywords: 
-summary: "There are a couple of events on API documentation happening this Thursday. First, I'm giving an STC webinar on best practices for REST API documentation at 11am PST. Andrew Fuchs is also presenting on API documentation at a Write the Docs meetup in Redwood City at 6:30pm PST."
+summary: "There are a couple of events on API documentation happening this Thursday. First, I'm giving an STC webinar on best practices for REST API documentation at 11am PST. Also, Andrew Fuchs is also presenting on API documentation at a Write the Docs meetup in Redwood City at 6:30pm PST."
 thumb: stcwebinarbestpractrestapisthumb.png
 ---
 
