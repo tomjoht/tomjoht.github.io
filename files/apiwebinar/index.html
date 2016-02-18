@@ -101,7 +101,7 @@
          }
 
          .reveal h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 0px;
     padding-top:0px;
 }
@@ -200,24 +200,39 @@ margin:0px;
                   <h2>Aeris Weather API</h2>
                   <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/"><img src="media/rasters/aerisendpoints.png" /></a>
                </section>
-                          <section>
+                             <section>
                <h2>Get authorization keys</h2>
-                  <a href="https://www.mashape.com/tomjohnson1492/applications/default-application"><img src="media/rasters/mashape_get_keys.png"/></a>               
+                  <a href="http://www.aerisweather.com/account/apps"><img src="media/rasters/aerisapikeys.png"/></a>               
             </section>
 
             <section>
                <h2>Submit requests with cURL</h2>
-               <img src="media/rasters/curlrequestbasic.png" />              
+               <section><h3>Request</h3>
+               <img src="media/rasters/aeriscurl.png" />   
+             </section>
+
+             <section><h3>Response</h3>
+               <img src="media/rasters/aeriscurlresponse.png" />   
+             </section>
+
             </section>
 
                <section>
                <h2>Submit requests with Postman</h2>         
-                  <img src="media/rasters/postmansample.png"/>
+                  <img src="media/rasters/aerispostman.png"/>
             </section>
 
                            <section>
                <h2>Convert to other formats</h2>
-                  <img src="media/rasters/postmangeneratecodesnippet.png" />
+               <section><h3>Code samples button</h3>
+                  <img src="media/rasters/aerispostmancodesamplesbutton.png" />
+                </section>
+
+<section><h3>Copy the code</h3>
+                  <img src="media/rasters/aerispostmancodesamples.png" />
+                </section>
+
+                
                </section>
        
             <section>
@@ -395,7 +410,7 @@ margin:0px;
                </section>
                
                <section>
-                  <h3>How should you refer to each resource/endpoint? </h3>
+                  <h3>A single resource can have multiple endpoints</h3>
                   <pre><code data-trim contenteditable>
   api_site.com/{apikey}/users
 // gets all users
@@ -460,6 +475,8 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
                <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="media/rasters/yelpparameters.png"/></a>
              </section>
+
+
              <section><h3>Three types of parameters</h3>
              <ul>
                <li>header parameters</li>
@@ -467,6 +484,15 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                <li>body parameters</li>
              </ul>
              </section>
+
+
+ <section><h3>Parameter order is irrelevant</h3>
+ <pre><code data-trim contenteditable>
+ /surfreport/{beachId}?days=3&units=metric&time=1400
+
+ /surfreport/{beachId}?time=1400&units=metric&days=3
+ </code></pre>
+ </section>
 
              <section>
   <h3>Data types for params</h3>
@@ -478,13 +504,6 @@ api_site.com/{apikey}/missions/{missionid}/rewards
   </ul>
  </section>
 
- <section><h3>Parameter order is irrelevant</h3>
- <pre><code data-trim contenteditable>
- /surfreport/{beachId}?days=3&units=metric&time=1400
-
- /surfreport/{beachId}?time=1400&units=metric&days=3
- </code></pre>
- </section>
 
   <section>
                   <h3>Put parameters in curly braces</h3>
@@ -493,7 +512,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
   </code></pre>
                </section>
 
- <section><h3>Request body parameters usually JSON</h3>
+ <section><h3>Request body parameters are usually JSON</h3>
 
  <pre><code data-trim contenteditable>
  {
@@ -539,18 +558,11 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             <section>
                <h2>7. Code samples</h2>
-               <section><h3>Which language?</h3>
                  <a href="http://idratherbewriting.com/images/restapicourse/codesamplesevernote.png"><img src="media/rasters/codesamplesevernote.png"/></a>
                  <p>See also <a href="https://www.twilio.com/docs/api/rest/making-calls">Twilio</a></p>
                </section>
 
-               <section><h3>Auto-generating code samples</h3>
-                 <a href="https://luckymarmot.com/paw/extensions/"><img src="media/rasters/pawcodegenerators.png"/></a>
-               </section>
-
-             
-            </section>
-
+            
 
             <section>
                <h2>Putting it all together</h2>
@@ -614,7 +626,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
             </section>
             <section>
                <h2>6. Code tutorials</h2>
-               <section><h3>How many languages?</h3>
+               <section><h3>Target languages</h3>
                <a href="http://docs.mashape.com/javascript"><img src="media/rasters/consumeapi.png" /></a>
             </section>
 
