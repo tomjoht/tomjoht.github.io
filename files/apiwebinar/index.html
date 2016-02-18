@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Documenting REST APIs webinar</title>
+      <meta name="description" content="presentation for improving the practices of technical documention by focusing on the user>
+         <meta name="author" content="Tom Johnson">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+      <!-- favicon icons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!-- end favicon code -->
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+      <!-- Code syntax highlighting -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+      <!-- Printing and PDF exports -->
+      <script>
+         var link = document.createElement( 'link' );
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+         document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+      <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- these are my custom styles. remember that slide sizes scale, so try to use percentages. -->
+      <style>
+         p.alignLeft {
+         text-align: left;
+         }
+         span.orange, a.orange {
+         color: orange;
+         outline-color: gray;
+         }
+         div.innovation ul li {
+         margin-bottom:12px;
+         }
+         figcaption {
+         font-size:12px;
+         }
+         p.miscItems {
+         font-size:1.2em;
+         }
+         .slides section h3 {
+         color: orange !important; outline: gray;
+         margin:0px;
+         }
+         .slides img {
+         max-width: 81%;
+       
+         border:3px solid red;
+         }
+         #upcoming-slide .label {
+         color: #444 !important
+         }
+         ul.credits li {
+         font-size: .6em;
+         }
+         .reveal section h3 {
+         margin:0px;
+         }
+         .reveal section img {
+         margin-bottom:0px;
+         }
+         span.strategy {
+         border: 1px solid #dedede;
+         padding: 4px 6px;
+         border-radius: 8px;
+         }
+         span.myname {
+         font-weight: bold;
+         font-size: 52px;
+         color: #555;
+         font-family: "Lucida Handwriting";
+         }
+         .reveal pre code {
+         padding:20px;
+         background-color: #3f3f3f;
+         }
+         .reveal section img, .reveal section img:hover {
+         background-color: white;
+         }
+
+         .reveal h3 {
+    font-size: 1em;
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+margin:0px;
+}
+  
+
+      </style>
+      <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
+   </head>
+   <body>
+      <div class="reveal innovation">
+         <!-- Any section element inside of this container is displayed as a slide -->
+         <div class="slides">
+            <section>
+               <h2>Best practices for Documenting REST APIs</h2>
+        
+               <p>
+                  <small>By Tom Johnson, <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
+               </p>
+               <img src="media/vectors/restapi_apidoc.svg" style="max-width:70%; background-color: f0f0f0"/>
+            </section>
+           
+            <section>
+               <h2>API doc course</h2>
+
+               <figure><a href="http://idratherbewriting.com/docapis_course_overview/"><img class="shortened" src="media/rasters/apicoursehomepage.png"/></a>
+                  <figcaption><a href="http://idratherbewriting.com">idratherbewriting.com</a></figcaption></figure>
+
+            </section>
+            <section>
+              <h2>Outline</h2>
+              <ol style="list-style-type: upper-roman">
+                <li>The market for REST API doc</li>
+                 <li>What is a REST API?</li>
+                  <li>A developer scenario with APIs</li>
+                   <li>API Reference topic elements</li>
+                   <li>Other sections in API doc</li>
+                    <li>Tool decisions</li>
+                    <li>Design patterns</li>
+              </ol>
+            </section>
+            <!-- <section data-background="#dfd3a2"> -->
+            <section>
+          
+               <h2>I. The market for REST API doc</h2>
+               <section>
+                  <h3>API doc is the product interface</h3>
+                  <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/programwebsurvey.png"/></a>
+               </section>
+               <section>
+                  <h3>Without doc, API features don't exist</h3>
+                  <blockquote>For an API, it’s all about the documentation. If an API feature is missing from the documentation, it might as well not exist. &mdash; <a href="https://rocketeer.be/blog/2015/03/api-quality/">Ruben Vermeesch</a></blockquote>
+               </section>
+               <section>
+                  <h3>REST API growth is exponential</h3>
+                  <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/apigrowth.png"/></a>
+               </section>
+               <section>
+                  <h3>The web is a services mashup</h3>
+                  <a href="http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html"><img class="shortened" src="media/rasters/servicesmashup.png"/></a>
+               </section>
+               <section><h3>APIs power Internet of Things</h3>
+                  <blockquote>APIs are the inter-connector which provide the interface between the Internet and the Things. JavaWorld’s Andrew Oliver calls APIs “the glue and interesting part where the Internet of Things starts to become useful and more than a buzzword.” APIs expose the data that enables multiple devices to be combined and connected to solve new and interesting workflows. &mdash; <a href="http://nordicapis.com/apis-power-the-internet-of-things/">Nordic APIs</a></blockquote>
+               </section>
+            </section>
+            <section>
+               <h2>II. What is a REST API?</h2>
+               <section>
+                  <h3>APIs allow systems to interact</h3>
+                  <img src="media/rasters/spinning_gears.jpg"/>
+               </section>
+               <section>
+                  <h3>APIs provide the data wiring</h3>
+                  <img src="media/vectors/restapi_interface.svg"/>
+               </section>
+               <section>
+                  <h3>It's all about requests and responses</h3>
+                  <img src="media/vectors/restapi_restapi.svg"/>
+               </section>
+               <section>
+                  <h3>The web itself follows REST</h3>
+                  <img src="media/vectors/restapi_www.svg"/>
+               </section>
+            </section>
+       
+               <section>
+                  <h2>III. A developer scenario with APIs</h2>
+                  <a href="http://idratherbewriting.com/docapis_exploring_restapi_marketplace/"><img src="media/vectors/restapi_windycall.svg" style="max-height: 500px;"/></a>
+              
+               </section>
+
+                <section>
+                  <h2>Aeris Weather API</h2>
+                  <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/"><img src="media/rasters/aerisendpoints.png" /></a>
+               </section>
+                          <section>
+               <h2>Get authorization keys</h2>
+                  <a href="https://www.mashape.com/tomjohnson1492/applications/default-application"><img src="media/rasters/mashape_get_keys.png"/></a>               
+            </section>
+
+            <section>
+               <h2>Submit requests with cURL</h2>
+               <img src="media/rasters/curlrequestbasic.png" />              
+            </section>
+
+               <section>
+               <h2>Submit requests with Postman</h2>         
+                  <img src="media/rasters/postmansample.png"/>
+            </section>
+
+                           <section>
+               <h2>Convert to other formats</h2>
+                  <img src="media/rasters/postmangeneratecodesnippet.png" />
+               </section>
+       
+            <section>
+               <h2>Analyze the JSON response</h2>
+           
+                  <pre><code data-trim contenteditable>
+{
+  "success": true,
+  "error": null,
+  "response": {
+    "id": "KSJC",
+    "loc": {
+      "long": -121.91666666667,
+      "lat": 37.366666666667
+    },
+    "place": {
+      "name": "san jose",
+      "state": "ca",
+      "country": "us"
+    },
+    "profile": {
+      "tz": "America/Los_Angeles",
+      "elevM": 24,
+      "elevFT": 79
+    },
+    "obTimestamp": 1455774780,
+    "obDateTime": "2016-02-17T21:53:00-08:00",
+    "ob": {
+      "timestamp": 1455774780,
+      "dateTimeISO": "2016-02-17T21:53:00-08:00",
+      "tempC": 11,
+      "tempF": 52,
+      "dewpointC": 8,
+      "dewpointF": 46,
+      "humidity": 82,
+      "pressureMB": 1005,
+      "pressureIN": 29.68,
+      "spressureMB": 1002,
+      "spressureIN": 29.59,
+      "altimeterMB": 1005,
+      "altimeterIN": 29.68,
+      "windKTS": 9,
+      "windKPH": 17,
+      "windMPH": 10,
+      "windSpeedKTS": 9,
+      "windSpeedKPH": 17,
+      "windSpeedMPH": 10,
+      "windDirDEG": 80,
+      "windDir": "E",
+      "windGustKTS": null,
+      "windGustKPH": null,
+      "windGustMPH": null,
+      "flightRule": "LIFR",
+      "visibilityKM": 16.09344,
+      "visibilityMI": 10,
+      "weather": "Cloudy with Light Rain",
+      "weatherShort": "Light Rain",
+      "weatherCoded": ":L:R,::OV",
+      "weatherPrimary": "Light Rain",
+      "weatherPrimaryCoded": ":L:R",
+      "cloudsCoded": "OV",
+      "icon": "rainn.png",
+      "heatindexC": 11,
+      "heatindexF": 52,
+      "windchillC": 11,
+      "windchillF": 52,
+      "feelslikeC": 11,
+      "feelslikeF": 52,
+      "isDay": false,
+      "sunrise": 1455720807,
+      "sunriseISO": "2016-02-17T06:53:27-08:00",
+      "sunset": 1455760184,
+      "sunsetISO": "2016-02-17T17:49:44-08:00",
+      "snowDepthCM": null,
+      "snowDepthIN": null,
+      "precipMM": 0.001,
+      "precipIN": 0.001,
+      "solradWM2": null,
+      "light": 0,
+      "tempMax6hrC": 18.3,
+      "tempMax6hrF": 65,
+      "tempMin6hrC": 10.6,
+      "tempMin6hrF": 51,
+      "sky": 100
+    },
+    "raw": "KSJC 180553Z 08009KT 10SM -RA FEW013 SCT036 OVC070 11/08 A2968 RMK AO2 RAB0455E12B45 SLP049 P0000 60013 T01110083 10183 20106 51044",
+    "relativeTo": {
+      "lat": 37.35411,
+      "long": -121.95524,
+      "bearing": 68,
+      "bearingENG": "ENE",
+      "distanceKM": 3.684,
+      "distanceMI": 2.289
+    }
+  }
+}
+ </code></pre>
+               </section>
+
+               
+               <section>
+                  <h2>Sample API integration</h2>
+
+                      <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+   
+    <style>
+        #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
+        body {margin:20px;}
+    </style>
+
+    <script>
+        function checkWind() {
+
+            var output = $.ajax({
+                url: 'http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=ByruDorHEne2JB64BhP1k&client_secret=XzIn1EBOCukNQQDGJWaOZRGKe7vY89D7uaU6V7Vr ',
+                type: 'GET',
+                data: {},
+                dataType: 'json',
+                success: function(data) {
+                    console.log(data)
+                    $("#wind_speed").append(data.response.ob.windMPH + " MPH");
+                    $("#wind_direction").append(data.response.ob.windDir);
+                    $("#wind_chill").append(data.response.ob.feelslikeF + " F");
+                },
+                error: function(err) { alert(err); }
+            });
+        }
+    </script>
+
+
+<button type="button" onclick="checkWind()" class="btn btn-danger">Check wind conditions</button>
+
+<p>Wind conditions for Santa Clara</p>
+
+<p style="text-align: left"><b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span><br>
+<b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span><br>
+<b>Wind direction: </b><span id="wind_direction"></span>
+                  
+                     <p style="font-size: small; text-align: left"><a href="http://idratherbewriting.com/files/restapicourse/wind-aeris.html">link</a></p>
+                
+
+               </section>
+
+            
+           <section>
+               <h2>IV. API Reference topic elements</h2>
+              
+               
+                  <ol>
+                     <li>Resource description</li>
+                     <li>Endpoint</li>
+                     <li>Methods</li>
+                     <li>Parameters</li>
+                     <li>Request submission example</li>
+                     <li>Request response example</li>
+                     <li>Code samples</li>
+                  </ol>
+               
+            </section>
+            <section>
+               <h2>1. Resource description</h2>
+               <section>
+                  <h3>Terminology for "resource" varies</h3>
+                  <ul>
+                     <li>API calls</li>
+                     <li>Endpoints</li>
+                     <li>API methods</li>
+                     <li>Calls</li>
+                     <li>Resources</li>
+                     <li>Objects</li>
+                     <li>Services</li>
+                     <li>Requests</li>
+                  </ul>
+               </section>
+               
+               <section>
+                  <h3>How should you refer to each resource/endpoint? </h3>
+                  <pre><code data-trim contenteditable>
+  api_site.com/{apikey}/users
+// gets all users
+
+api_site.com/{apikey}/users/{userId}
+// gets a specific user
+
+api_site.com/{apikey}/rewards
+// gets all rewards
+
+api_site.com/{apikey}/rewards/{rewardId}
+// gets a specific reward
+
+api_site.com/{apikey}/users/{userId}/rewards
+// gets all rewards for a specific user
+
+api_site.com/{apikey}/users/{userId}/rewards/{rewardId}
+// gets a specific reward for a specific user
+
+api_site.com/{apikey}/users/{userId}/rewards/{missionId}
+// gets the rewards for a specfic mission related to a specific user
+
+api_site.com/{apikey}/missions/{missionid}/rewards
+// gets the rewards available for a specific mission
+  </code></pre>
+               </section>
+               
+            </section>
+            </section>
+            <section>
+               <h2>2. Endpoint definition</h2>
+         
+                  <h3>Terminology for "endpoint" varies</h3>
+                  <ul>
+                     <li>Requests</li>
+                     <li>Endpoints</li>
+                     <li>API methods</li>
+                     <li>Resource URLs</li>
+                     <li>URLs</li>
+                     <li>URL syntax</li>
+                  </ul>
+
+               
+            </section>
+               <section>
+                  <h2>3. Method</h2>
+    
+   
+                  <ul>
+                     <li>POST</li>
+                     <li>PUT</li>
+                     <li>GET</li>
+                     <li>DELETE</li>
+                     <li>PATCH</li>
+                  </ul>
+            
+               
+            </section>
+            <section>
+               <h2>4. Parameters</h2>
+               <section><h3>Parameters configure the endpoint</h3>
+
+               <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="media/rasters/yelpparameters.png"/></a>
+             </section>
+             <section><h3>Three types of parameters</h3>
+             <ul>
+               <li>header parameters</li>
+               <li>query parameters</li>
+               <li>body parameters</li>
+             </ul>
+             </section>
+
+             <section>
+  <h3>Data types for params</h3>
+  <ul>
+  <li>string</li>
+  <li>integer</li>
+  <li>boolean</li>
+  <li>object</li>
+  </ul>
+ </section>
+
+ <section><h3>Parameter order is irrelevant</h3>
+ <pre><code data-trim contenteditable>
+ /surfreport/{beachId}?days=3&units=metric&time=1400
+
+ /surfreport/{beachId}?time=1400&units=metric&days=3
+ </code></pre>
+ </section>
+
+  <section>
+                  <h3>Put parameters in curly braces</h3>
+                  <pre><code data-trim contenteditable>
+  /campaigns/{campaign_id}/actions/send
+  </code></pre>
+               </section>
+
+ <section><h3>Request body parameters usually JSON</h3>
+
+ <pre><code data-trim contenteditable>
+ {
+"days": 2,
+"units": "imperial",
+"time": 1433524597
+}
+  </code></pre></section>
+
+  
+            </section>
+            <section>
+               <h2>5. Sample request</h2>
+               <section><h3>Requests clarify syntax</h3>
+                 <a href="http://developer.nytimes.com/docs/read/article_search_api_v2"><img src="media/rasters/nytimesexample.png"/></a>
+             </section>
+
+             <section><h3>API Explorers provide interactivity with your own data</h3>
+               <a href="https://developer.foursquare.com/docs/explore"><img src="media/rasters/foursquareapiexplorer.png"></a>
+             </section>
+
+           
+
+
+            </section>
+            <section>
+               <h2>6. Sample response</h2>
+               <section><h3>A sample of a sample response</h3>
+                 <a href="http://developers.flattr.net/api/resources/activities/"><img src="media/rasters/flattr.png"/></a>
+               </section>
+
+               <section><h3>Strategies for nested objects</h3>
+                 <a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="media/rasters/returnvaluedefinitions.png"/></a>
+               </section>
+
+               <section><h3>Where to include sample responses</h3>
+                 <a href="https://stripe.com/docs/api#charge_object"><img src="media/rasters/stripetripanedesign.png"/></a>
+               </section>
+
+            
+
+            </section>
+
+            <section>
+               <h2>7. Code samples</h2>
+               <section><h3>Which language?</h3>
+                 <a href="http://idratherbewriting.com/images/restapicourse/codesamplesevernote.png"><img src="media/rasters/codesamplesevernote.png"/></a>
+                 <p>See also <a href="https://www.twilio.com/docs/api/rest/making-calls">Twilio</a></p>
+               </section>
+
+               <section><h3>Auto-generating code samples</h3>
+                 <a href="https://luckymarmot.com/paw/extensions/"><img src="media/rasters/pawcodegenerators.png"/></a>
+               </section>
+
+             
+            </section>
+
+
+            <section>
+               <h2>Putting it all together</h2>
+               <a href="http://idratherbewriting.com/docapis_finished_doc_result/"><img src="media/rasters/puttingitalltogether.png" /></a>
+            </section>
+<section>
+               <h2>V. Other sections in API doc</h2>
+               
+             <ol>
+               <li>Overview</li>
+               <li>Getting started</li>
+              <li>Authorization keys</li>
+              <li>Rate limits</li>
+              <li>Code samples/tutorials</li>
+              <li>Status and error codes</li>
+              <li>Quick reference</li>
+  </ol>
+            </section>
+            <section>
+               <h2>1. Overview</h2>
+               <a href="https://sendgrid.com/docs/User_Guide/index.html"><img src="media/rasters/sendgridoverview.png"/></a>
+            </section>
+            <section>
+               <h2>2. Getting started</h2>
+               <a href="http://www.alchemyapi.com/developers/getting-started-guide"><img src="media/rasters/alchemyapigettingstarted.png"/></a>
+               <p>Other examples: <a href="https://www.hipchat.com/docs/apiv2">Hipchat</a>, <a href="http://www.aerisweather.com/support/docs/api/getting-started/%22%22">Aeris</a>, <a href="https://api.smugmug.com/api/v2/doc">Smugmug</a></p>
+            </section>
+            <section>
+               <h2>3. Authorization keys</h2>
+
+               <section><h3>API keys</h3>
+                 <a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="media/rasters/sendgridapikeys.png" /></a>
+               </section>
+
+               <section><h3>Basic Auth</h3>
+               <pre><code data-trim contenteditable>
+                 Authorization: Basic bG9sOnNlY3VyZQ==</code>
+               </pre>
+             </section>
+
+             <section><h3>HMAC</h3>
+             <img src="media/vectors/restapi_hmac.svg" />
+           </section>
+
+           <section><h3>OAuth 2.0</h3>
+           <img src="media/vectors/restapi_oauth.svg" />
+         </section>
+      </section>
+
+         <section><h2>4. Rate limits</h2>
+          <a href="https://developer.github.com/v3/#rate-limiting"><img src="media/rasters/ratelimiting.png" /></a>
+        </section>
+
+            <section>
+               <h2>5. Status and error codes</h2>
+
+                 <a href="https://dev.twitter.com/overview/api/response-codes"><img src="media/rasters/twitterstatuscode.png"/></a>
+               </section>
+
+
+            </section>
+            <section>
+               <h2>6. Code tutorials</h2>
+               <section><h3>How many languages?</h3>
+               <a href="http://docs.mashape.com/javascript"><img src="media/rasters/consumeapi.png" /></a>
+            </section>
+
+            <section><h3>Focus on the why, not the what.</h3>
+
+            <img src="media/vectors/restapi_programmer.svg"/>
+            </section>
+            <section><h3>Use syntax highlighting, white spacing</h3>
+            <a href="https://en.wikipedia.org/wiki/Syntax_highlighting"><img src="media/rasters/syntaxhighlighting.png"/></a>
+
+            </section>
+            </section>
+
+            <section>
+               <h2>7. Quick reference guide</h2>
+               <a href="http://api.eventful.com/docs"><img src="media/rasters/eventfulquickreference.png"/></a>
+               <p>See also the <a href="http://cheat.markdunkley.com/">Shopify cheat sheet</a>.</p>
+            </section>
+    
+            </section>
+            
+            <section> 
+
+   <h2>VI. Tool decisions</h2>
+
+   <ul>
+   <li>Who will write? Engineers or tech writers?</li>
+   <li>Pros of having engineers write...</li>
+   <li>Cons of having engineers write...</li>
+   </ul>
+   </section>
+
+   <section><h2>Riona McNamara turnaround story</h2>
+   <iframe width="640" height="360" src="https://www.youtube.com/embed/EnB8GtPuauw" frameborder="0" allowfullscreen></iframe>
+   </section>
+
+             <section> 
+   
+            <h2>Why devs don't use HATs</h2>
+            <ol>
+               <li>No integration into version control</li>
+               <li>No auto-generation of doc from source</li>
+               <li>No reference templating engines</li>
+               <li>No interactive API consoles</li>
+               <li>No sexy outputs that sell</li>
+            </ol>
+         </section>
+
+   <section>
+      <h2>Using a version control system</h2>
+
+         <a href="http://github.com"><img src="media/rasters/githubhomepage.png"/></a>
+   </section>
+
+   <section>
+      <h2>Pull request workflows</h2>
+      <img src="media/rasters/github_new_pull_request.png"/>
+   </section>
+
+   <section>
+      <h2>REST API specification formats</h2>
+      <ul>
+       <li><a href="http://petstore.swagger.io/">Swagger</a></li>
+         <li>RAML</li>
+         <li>API Blueprint</li>
+      </ul>
+   </section>
+
+
+   <section>
+      <h2>The philosophy of the spec</h2>
+      <a href="http://mulesoft.com/restbook"><img src="media/rasters/undisturbedrest.png"/></a>
+   </section>
+
+
+   <section>
+      <h2>Generate client SDKs from spec</h2>
+      <a href="https://apimatic.io/"><img src="media/rasters/apimatic.png"/></a>
+   </section>
+
+   </section>
+
+
+
+
+ <section> 
+      <h2>VII. Design patterns</h2>
+     
+
+         <ul>
+            <li>Structure and templates</li>
+            <li>Website platform</li>
+            <li>Abundant code samples</li>
+            <li>Long-ish pages</li>
+            <li>API Interactivity</li>
+ 
+         </ul>
+   </section>
+
+
+  <section>
+      <h2>Structure and templates</h2>
+      <a href="https://flic.kr/p/oFD6MM"><img src="media/rasters/structure.png"/></a>
+   </section>
+
+  <section>
+      <h2>Website platform</h2>
+      <a href="https://www.yelp.com/developers/documentation"><img src="media/rasters/yelpapi.png"/></a>
+   </section>
+
+  <section>
+      <h2>Abundant code samples</h2>
+      <a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="media/rasters/evernotecodesamples.png"/></a>
+   </section>
+
+  <section>
+      <h2>Long-ish pages</h2>
+      <a href="http://documentcloud.github.io/backbone/"><img src="media/rasters/backbonejs.png"/></a>
+   </section>
+
+  <section>
+      <h2>API Interactivity</h2>
+      <a href="https://dev.twitter.com/rest/tools/console"><img src="media/rasters/twitterapiexplorer.png"/></a>
+   </section>
+
+  <section>
+      <h2>Challenging factors</h2>
+      <ul>
+         <li>Translation</li>
+         <li>Content re-use</li>
+         <li>Versioning</li>
+         <li>Authentication</li>
+         <li>PDF</li>
+      </ul>
+   </section>
+
+   
+
+
+         <section>
+               <h1>Thanks!</h1>
+               <div>
+                  <div style="float:left; padding: 10px;">
+                     <img src="media/rasters/tomjohnson.png"/>
+                  </div>
+                  <div style="float:left; padding: 10px; text-align: left;">
+                     <p><span class="myname">Tom Johnson</span><br/>
+                        &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
+                        &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+                        &mdash; <a href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a>
+                     </p>
+                  </div>
+               </div>
+            </section>
+    
+         </div>
+      </div>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+      <script>
+         // Full list of configuration options available at:
+         // https://github.com/hakimel/reveal.js#configuration
+         Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: false,
+          slideNumber: true, 
+         
+         
+          transition: 'slide', // none/fade/slide/convex/concave/zoom
+         
+          // Optional reveal.js plugins
+          dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true }
+          ]
+         });
+         
+      </script>
+   </body>
+</html>
