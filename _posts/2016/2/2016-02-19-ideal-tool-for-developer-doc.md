@@ -25,7 +25,7 @@ Why the good but challenges and disillusionment stages? I mentioned them before,
 * No dynamic personalization of content
 * No native ability to publish full-length PDFs
 * No translation export and import capability
-* No ability to add metadata and workflows to content for more formal doc management, and so on.
+* No ability to add metadata and workflows to content for more formal doc management, and so on
 
 These are all the qualities you might expect to find in a good content management system for documentation, which might cost the same price as your liver on the black market.
 
