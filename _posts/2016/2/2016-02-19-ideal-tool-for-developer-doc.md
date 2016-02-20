@@ -27,7 +27,7 @@ Why the good but challenges and disillusionment stages? I mentioned them before,
 * No translation export and import capability
 * No ability to add metadata and workflows to content for more formal doc management, and so on
 
-These are all the qualities you might expect to find in a good content management system for documentation, which might cost the same price as your liver on the black market.
+These are all the qualities you might expect to find in a good content management system for documentation, which might cost the same price as your liver or kidney on the black market.
 
 However, tonight as I attended a Write the Docs meetup in Redwood City, I realized some things. (It's not that I haven't said them before on this blog; it's that I forgot, I guess.) If you're writing developer doc and you want to get developers involved in contributing, reviewing, and interacting with the doc, you need to use developer tools. 
 
