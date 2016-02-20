@@ -110,27 +110,14 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 	
 	You can check to see if you have Git already installed by opening a terminal and typing `git --version`. 
 
-2. Configure Git with Github authorization.
-	
-	When you commit to Github, you need to be authenticated. You can configure Git with your username and password in a couple of ways. Using Github Desktop, go to **Github Desktop > Preferences** and type the same name and email as you used when you registered for a Github account.
-	
-	You can also [configure Git from the command line](https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git). 
-	
-	From the command line (using the Git Shell on Windows), enter the following:
-	
-	```bash
-	git config --global user.name "YOUR NAME"
-	```
-	
-	And then this:
-	
-	```bash
-	git config --global user.email "YOUR EMAIL ADDRESS"
-	```
-	
-3. If you keep getting prompted for your password, you can [tell Git to use the password stored in your keychain](https://help.github.com/articles/caching-your-github-password-in-git/). 
+2. Configure Git with Github authorization. This will allow you to push changes without entering your username and password each time. See the following topics to set this up:
 
-	However, you may not need to do this because the clone this URL code is smart enough to provide you with the appropriate access (read/write) to the repository you're cloning. See [Cloning with HTTPS (recommended)](https://help.github.com/articles/caching-your-github-password-in-git/) for more details.
+* [Set up Git](https://help.github.com/articles/set-up-git/) (Note that when you configure your username, use your Github username, which will be something like tomjohnson1492 instead of "Tom Johnson".
+* [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key/)
+* [Adding a new SSH key to the ssh-agent](https://help.github.com/articles/adding-a-new-ssh-key-to-the-ssh-agent/)
+* [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+After you make these configurations, close and re-open your terminal.
 	
 ## Make a change locally, commit it, and push the commit to the Github repository
 {{activity}}
