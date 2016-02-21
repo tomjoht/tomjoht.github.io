@@ -111,11 +111,10 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 	You can check to see if you have Git already installed by opening a terminal and typing `git --version`. 
 
 2. Configure Git with Github authorization. This will allow you to push changes without entering your username and password each time. See the following topics to set this up:
-
-* [Set up Git](https://help.github.com/articles/set-up-git/) (Note that when you configure your username, use your Github username, which will be something like tomjohnson1492 instead of "Tom Johnson".
-* [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key/)
-* [Adding a new SSH key to the ssh-agent](https://help.github.com/articles/adding-a-new-ssh-key-to-the-ssh-agent/)
-* [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+ * [Set up Git](https://help.github.com/articles/set-up-git/) (Note that when you configure your username, use your Github username, which will be something like tomjohnson1492 instead of "Tom Johnson".
+ * [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key/)
+ * [Adding a new SSH key to the ssh-agent](https://help.github.com/articles/adding-a-new-ssh-key-to-the-ssh-agent/)
+ * [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 After you make these configurations, close and re-open your terminal.
 	
