@@ -7,6 +7,9 @@ summary: "There are a couple of events on API documentation happening this Thurs
 thumb: stcwebinarbestpractrestapisthumb.png
 ---
 
+{{site.data.alerts.tip}}
+Feb 20 update: If you would like to view the slides from my API doc presentation, you can view them here: <a href="http://idratherbewriting.com/apidocinonehour/">idratherbewriting.com/apidoconehour</a>.{{end}}
+
 This Thursday I'll be giving an STC webinar titled [Best Practices for Documenting REST APIs](http://www.stc.org/education/online-education/live-seminars/item/best-practices-for-documenting-rest-apis?category_id=53). 
 
 <a href="http://www.stc.org/education/online-education/live-seminars/item/best-practices-for-documenting-rest-apis?category_id=53"><img src="{{ "/images/stcwebinarbestpractrestapis.png" | prepend: site.baseurl }}" alt="Best Practices for Documenting REST APIs" /></a>
