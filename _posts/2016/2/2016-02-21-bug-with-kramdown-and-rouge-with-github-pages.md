@@ -79,7 +79,8 @@ It's great to learn that this is a verifiable bug and not something specific to 
  
 As a test, I have a [sample Jekyll site here built by Github Pages](http://idratherbewriting.com/kramdowntest/jekyll/update/2016/02/05/welcome-to-jekyll.html) that contains the Kramdown/Rouge configuration. The page has code blocks both inside and outside of list items. You can see that when a list contains code blocks, instead of `pre` tags surrounding the code, `code` tags get inserted instead. `pre` tags set the code off in `div` tags whereas `code` tags keep it inline. 
 
-<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "/images/githubkramdowncrap.png | prepend: site.baseurl }}" alt="Github / Kramdown / Rouge issues" /></a><figcaption>See how when you insert a code block inside a list, the wrong syntax highlighting gets applied? The syntax highlighting works fine outside the code blocks.</figcaption></figure>
+
+<figure><img src="{{ "/images/githubkramdowncrap.png" | prepend: site.baseurl }}" alt="Github / Kramdown / Rouge issues" /><figcaption>See how when you insert a code block inside a list, the wrong syntax highlighting gets applied? The syntax highlighting works fine outside the code blocks.</figcaption></figure>
 
 In my test, I used several techniques for the code blocks &mash; ruby syntax highlighter code, backticks, and tildes.
 
