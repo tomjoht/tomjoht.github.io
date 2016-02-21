@@ -2,9 +2,9 @@
 title: "Verifiable Bug with code blocks inside list items using Kramdown and Rouge on Github Pages"
 categories:
 - jekyll
-keywords: 
+keywords: rouge, pygments, kramdown, github-pages, bug with backticks, pre code blocks, syntax highlighting
 summary: "[Github Pages](https://pages.github.com/) is a sweet service that builds your Jekyll site for you when you commit changes to a Github repo. However, as much as I like Github Pages, they currently have a bug with code blocks in lists with their Kramdown and Rouge Markdown processing and syntax highlighting. If you're experiencing issues, note that this is a verifiable bug that the Github team is working to fix."
-thumb: 
+thumb: githubkramdowncrapthumb.png
 ---
 
 ## About the bug
