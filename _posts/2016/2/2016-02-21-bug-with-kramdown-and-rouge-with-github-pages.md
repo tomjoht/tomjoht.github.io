@@ -11,7 +11,7 @@ thumb: githubkramdowncrapthumb.png
 
 I use [Github Pages](https://pages.github.com/) to publish content for my Jekyll-based blog, and I've also used it for authoring tech docs with Jekyll. When you commit changes to your Jekyll site stored in a Github repo, Github Pages will automatically perform the process of building the Jekyll site for you.
 
-Jekyll processes HTML from Markdown using the Markdown processor that you specify in your configuration file. Github recently adopted Kramdown as their only Markdown processor, which will go into effect after May 1st. redcarpet is the Markdown processor I was using. Apparently redcarpet will no longer be supported by Github Pages.
+Jekyll processes HTML from Markdown using the Markdown processor that you specify in your configuration file. Github recently adopted Kramdown as their only Markdown processor, which will go into effect after May 1. redcarpet is the Markdown processor I was using. Apparently redcarpet will no longer be supported by Github Pages.
 
 Additionally, a plugin for processing code blocks with syntax highlighting also changed. Instead of Pygments, Rouge will now be the only syntax highlighter supported by Github Pages. Github announced these changes in a recent <a href="https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0">blog post</a>:
 
@@ -41,11 +41,11 @@ kramdown:
 
 And the transition *should be seamless*.
 
-However, and this is where the frustration starts to surface, because there's a bug with Kramdown/Rouge and syntax highlighting when you have code blocks that appear within list items.
+However, this is where the frustration starts to surface, because there's a bug with Kramdown/Rouge and syntax highlighting when you have code blocks that appear within list items.
 
 I noted this bug in the Jekyll talk forum here: [Issues with converting from Redcarpet / Pygments to Kramdown / Rouge](https://talk.jekyllrb.com/t/issues-with-converting-from-redcarpet-pygments-to-kramdown-rouge/1937). The forum responses suggested I try various techniques to remove previous github-pages gems and re-run `bundle install` to get the correct github-pages gem dependencies, which I did.
 
-However, the problem still persisted, so I decided to revert to redcarpet and pygments in my configuration file. redcarpet and Pygments still work on Github Pages (until May 1), except that each time you commit, you get this warning message sent to your via email:
+However, the problem still persisted, so I decided to revert to redcarpet and pygments in my configuration file. redcarpet and Pygments still work on Github Pages (until May 1), except that each time you commit, you get this warning message sent to your email:
 
 > The page build completed successfully, but returned the following warning:
 >
@@ -79,10 +79,11 @@ It's great to learn that this is a verifiable bug and not something specific to 
  
 As a test, I have a [sample Jekyll site here built by Github Pages](http://idratherbewriting.com/kramdowntest/jekyll/update/2016/02/05/welcome-to-jekyll.html) that contains the Kramdown/Rouge configuration. The page has code blocks both inside and outside of list items. You can see that when a list contains code blocks, instead of `pre` tags surrounding the code, `code` tags get inserted instead. `pre` tags set the code off in `div` tags whereas `code` tags keep it inline. 
 
+I included both the {% raw %}{% highlight %}{% endraw %} approach (which works but breaks the list numbering) and the backticks approach, which is the syntax used on Github's Markdown.
 
 <figure><img src="{{ "/images/githubkramdowncrap.png" | prepend: site.baseurl }}" alt="Github / Kramdown / Rouge issues" /><figcaption>See how when you insert a code block inside a list, the wrong syntax highlighting gets applied? The syntax highlighting works fine outside the code blocks.</figcaption></figure>
 
-In my test, I used several techniques for the code blocks &mash; ruby syntax highlighter code, backticks, and tildes.
+In my test, I also explored the syntax highlighting outside of lists as well. 
 
 The repo is here -- [kramdowntest](https://github.com/tomjohnson1492/kramdowntest) -- if you want to clone it and play around with it.
 
@@ -92,7 +93,6 @@ What puzzles me is why Github's technical writers didn't discover this issue in 
 
 Sure enough, they do have code blocks within lists, which you can see, for example, in [Fork a repo](https://help.github.com/articles/fork-a-repo/).
 
-
 If I remember correctly from my conversations with some Github tech writers, the team builds their Jekyll docs locally and then commits the output to a repo rather than having Github Pages build the site. This is due to some custom plugins they're using, which aren't allowed on Github Pages. 
 
-Even so, I get the same Kramdown / Rouge errors when I build my site locally, so this isn't so much an error with Github Pages as with Kramdown or Rouge itself. As such, I'm not sure why their local site isn't returning an error, unless they're using redcarpet and pygments, which would be really surprising given that they deprecated support for them.
+But even when I build my site locally, I get the same Kramdown / Rouge errors with the code blocks, so this isn't so much an error with Github Pages as with Kramdown or Rouge itself. As such, I'm not sure why their local site isn't returning an error, unless they're using redcarpet and Pygments, which would be really surprising given that they deprecated support for them.
