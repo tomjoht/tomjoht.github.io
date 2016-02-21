@@ -7,6 +7,8 @@ summary: "James Gill is working on the second edition of his book, <i>How to Get
 thumb: jamesgillhowtotechbookthumb.png
 ---
 
+## My Tech writer "day in the life" contribution
+
 James Gill invited me to contribute responses to a questionnaire about a typical day in the life in my career for the upcoming second edition of his book, [How to Get Started As a Technical Writer](https://leanpub.com/getstartedtechwriting). This section will appear in a chapter that discusses the real-world work life of technical writers in different industries and specializations.
 
 James is expecting to publish this second edition book in the next month. On the book details page, you can sign up to be notified when it's available. As a way to help promote the book and build excitement for its upcoming release, James allowed me to publish my questionnaire here.
@@ -14,7 +16,7 @@ James is expecting to publish this second edition book in the next month. On the
 You can view more details about the book here: [How to Get Started As a Technical Writer](https://leanpub.com/getstartedtechwriting)
 
 
-<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "/images/jamesgilltechwriterbook.png | prepend: site.baseurl }}" alt="How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing" /></a><figcaption>James Gill's upcoming book, <i>How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing</i></figcaption></figure>
+<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "/images/jamesgilltechwriterbook.png" | prepend: site.baseurl }}" alt="How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing" /></a><figcaption>James Gill's upcoming book, <i>How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing</i></figcaption></figure>
   
 Here are my responses to the questionnaire:
 
