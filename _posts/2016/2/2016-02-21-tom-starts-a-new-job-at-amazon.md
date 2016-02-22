@@ -3,13 +3,13 @@ title: "I'm starting a new job at Amazon Lab126"
 categories:
 - general
 keywords: Amazon Lab126, Experian, lab126, jobs, transition, technical writer roles
-summary: "I'm starting a new job at Amazon Lab 126 in Sunnyvale, California this week. This past week I closed out the remaining projects, tasks, and other final details at 41st Parameter / Experian in preparation for the transition. This week I'll be in Seattle (where Amazon's headquarters are located) all week for training."
+summary: "I'm starting a new job at Amazon Lab126 in Sunnyvale, California this week. This past week I closed out the remaining projects, tasks, and other final details at 41st Parameter / Experian in preparation for the transition. This week I'll be in Seattle (where Amazon's headquarters are located) all week for training."
 thumb: amazonlab126screenthumb.png
 ---
 
-Although without a doubt I will miss my colleagues and projects that I worked on at 41st Parameter / Experian, the switch to [Amazon Lab 126](http://www.lab126.com/) presents a lot of new opportunities that I'm really excited about. For example, I'll likely be working on documentation for more mainstream commercial products in the public space, which are engineered in the Lab 126 location.
+Although without a doubt I will miss my colleagues and projects that I worked on at 41st Parameter / Experian, the switch to [Amazon Lab126](http://www.lab126.com/) presents a lot of new opportunities that I'm really excited about. For example, I'll likely be working on documentation for more mainstream commercial products in the public space, which are engineered in the Lab126 location.
 
-<figure><a href="http://www.lab126.com/index.htm"><img src="{{ "/images/amazonlab126screen.png" | prepend: site.baseurl }}" alt="Amazon Lab 126" /></a><figcaption></figcaption></figure>
+<figure><a href="http://www.lab126.com/index.htm"><img src="{{ "/images/amazonlab126screen.png" | prepend: site.baseurl }}" alt="Amazon Lab126" /></a><figcaption></figcaption></figure>
 
 
 I don't have a lot of detail, so I'll keep this post short. One small note about the "Lab126" part of the name. Lab126 is where a lot of the hardware devices (such as Fire TV, Kindle, or Echo) are developed, hence the "lab" part of the name. 
