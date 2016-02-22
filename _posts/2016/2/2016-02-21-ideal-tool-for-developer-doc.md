@@ -10,7 +10,7 @@ thumb: developertoolingmodelthumb.png
 
 ## My tool dilemmas
 
-Lately I've been more on the fence about the right tools for developer documentation environments. If you've been following my adventures with Jekyll, you've seen me kind of move through the typical stages anyone moves through with tools: 
+Lately I've been more on the fence about the right tools for developer documentation environments. If you've been following my adventures with Jekyll, you've seen me kind of move through the typical stages anyone moves through with tools:  
 
 1. The honeymoon stage
 2. They "good but has challenges" stage
