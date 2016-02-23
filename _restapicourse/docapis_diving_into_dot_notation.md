@@ -47,7 +47,7 @@ In this activity, you'll practice accessing different values through dot notatio
 
 1. Create a new file in your text editor and insert the following into it:
 
-    ```html
+   ```html
     <!DOCTYPE html>
     <html>
     <head>
@@ -105,7 +105,7 @@ In this activity, you'll practice accessing different values through dot notatio
 
     </body>
     </html>
-    ```
+   ```
 
     Here we have a JSON object custom-defined as a variable named `john`. Usually APIs retrieve the response through a URL request, but for practice here, we're just defining the object locally.
 

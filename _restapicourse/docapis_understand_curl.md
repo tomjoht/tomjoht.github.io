@@ -42,21 +42,21 @@ When you type an address into a website, you only see the body of the response. 
 
 1. To see the response header in a cURL request, include `-i` in the cURL request:
 
-    ```bash
+   ```bash
     curl http://example.com -i
-    ```
+   ```
 
     The header will be included *above* the body in the response.
 
 2. To limit the response to just the header, use `-I`:
 
-    ```bash
+   ```bash
     curl http://example.com -I
-    ```
+   ```
 
     The response header is as follows:
 
-    ```
+   ```
     HTTP/1.1 200 OK
     Accept-Ranges: bytes
     Cache-Control: max-age=604800
@@ -69,15 +69,15 @@ When you type an address into a website, you only see the body of the response. 
     X-Cache: HIT
     x-ec-custom-error: 1
     Content-Length: 1270
-    ```
+   ```
 
     The header contains the metadata about the response. All of this information is transferred to the browser whenever you make requests to URLs (that is, when you go to web pages), but the browser doesn't show you this information. You can see it using the Chrome Developer Tools console if you look on the Network tab.
 
 3. Now let's specify the method. The GET method is the default, but we'll make it explicit here:
 
-    ```bash
+   ```bash
     curl -X GET http://example.com -I
-    ```
+   ```
 
     When you go to a website, you submit the request using the GET HTTP method. There are other HTTP methods you can use when interacting with REST APIs. Here are the common methods when working with REST endpoints:
 

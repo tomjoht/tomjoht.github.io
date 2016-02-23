@@ -24,7 +24,7 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
 
 1. Insert the following into a file called mypet.json. This information will be passed in the `-d` parameter of the cURL request:
 
-    ```json
+   ```json
     {
       "id": 123,
       "category": {
@@ -43,7 +43,7 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
       ],
       "status": "available"
     }
-    ```
+   ```
 
 2. Change the first `id` value to another integer (whole number) and the pet name of `fluffy`.
 
@@ -60,15 +60,15 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
 
 3. Once your Terminal is in the same directory as your json file, create the new pet:
 
-    ```bash
+   ```bash
     curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d @mypet.json "http://petstore.swagger.io/v2/pet"
-    ```
+   ```
 
     The response should look something like this:
 
-    ```json
+   ```json
     {"id":51231236,"category":{"id":4,"name":"testexecution"},"name":"fluffernutter","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
-    ```
+   ```
 
     {{tip}} Feel free to run this same request a few times more. REST APIs are "idempotent," which means that running the same request more than once won't end up duplicating the results (you just create one pet here, now multiple pets). Todd Fredrich explains idempotency by <a href="http://www.restapitutorial.com/lessons/idempotency.html">comparing it to a pregnant cow</a>. Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session. {{end}}
 
@@ -79,9 +79,9 @@ Guess what, your pet hates its name. Change your pet's name to something more fo
 1. In the mypet.json file, change the pet's name.
 2. Use the `PUT` method instead of `POST` with the same cURL content to update the pet's name:
 
-    ```bash
+   ```bash
     curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d @mypet.json "http://petstore.swagger.io/v2/pet"
-    ```
+   ```
 
 ### Get your pet's name by ID
 {{activity}}
@@ -90,19 +90,19 @@ Now you want to find your pet's name by passing the ID into the `/pet/{petID}` e
 1. In your mypet.json file, copy the first `id` value.
 2. Use this cURL command to get information about that pet ID, replacing {51231236} with your pet ID.
 
-    ```bash
+   ```bash
     curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/51231236"
-    ```
+   ```
 
     The response contains your pet name and other information:
 
-    ```json
+   ```json
     {"id":51231236,"category":{"id":4,"name":"test"},"name":"mr. fluffernutter","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
-    ```
+   ```
 
     You can format the JSON by pasting it into a [JSON formatting tool](http://jsonprettyprint.com/):
 
-    ```json
+   ```json
     {
       "id": 51231236,
       "category": {
@@ -121,7 +121,7 @@ Now you want to find your pet's name by passing the ID into the `/pet/{petID}` e
       ],
       "status": "available"
     }
-    ```
+   ```
 
 ### Delete your pet
 {{activity}}
@@ -129,21 +129,21 @@ Unfortunately, your pet has died. It's time to delete your pet from the pet regi
 
 1. Use the DELETE method to remove your pet. Replace `5123123` with your pet ID:
 
-    ```bash
+   ```bash
     curl -X DELETE --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
-    ```
+   ```
 
 2. Now check to make sure your pet is really removed. Use a GET request to look for your pet with that ID:
 
-    ```bash
+   ```bash
     curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
-    ```
+   ```
 
     You should see this error message:
 
-    ```json
+   ```json
     {"code":1,"type":"error","message":"Pet not found"}
-    ```
+   ```
 
 This example has allowed you to see how you can work with cURL to create, read, update, and delete resources. These four operations are referred to as CRUD and are common to almost every programming language.
 
@@ -156,9 +156,9 @@ You can import cURL commands into Postman by doing the following:
 1. Open a new tab in Postman and click the **Import** button.
 2. Select **Paste Raw Text** and insert your cURL command:
 
-    ```bash
+   ```bash
     curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
-    ```
+   ```
 
     <img src="{{ "/images/restapicourse/postmanimport.png" | prepend: site.baseurl }}" alt="Importing into Postman" />
 
@@ -179,9 +179,9 @@ You can export Postman to cURL by doing the following:
 2. Select **Curl** from the menu.
 3. Copy the code snippet.
 
-    ```bash
+   ```bash
     curl -X GET -H "Accept: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: e40c8069-21db-916e-9a94-0b9a42b39e1b" 'http://petstore.swagger.io/v2/pet/5123123'
-    ```
+   ```
 
     You can see that Postman adds some extra header information into the request. This extra header information is unnecessary and can be removed.
 

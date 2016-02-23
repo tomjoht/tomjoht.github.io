@@ -50,27 +50,27 @@ Let's say you wanted to print part of the JSON (the description element) to the 
 
 1. Add a named element to the body of your page, like this:
 
-    ```
+   ```
     <div id="weatherDescription"></div>
-    ```
+   ```
 
 2. Inside the tags of your `done` method, pull out the value you want into a variable, like this:
 
-    ```js
+   ```js
     var content = "data.query.results.channel.item.description";
-    ```
+   ```
 
 3. Below this (same section) use the jQuery `append` method to append the variable to the element on your page:
 
-    ```js
+   ```js
     $("#weatherDescription").append(content);
-    ```
+   ```
 
     This code says, find the element with the ID `weatherDescription` and append the `content` variable to it.
 
     Your entire code should look as follows:
 
-    ```html
+   ```html
     <html>
     <body>
 
@@ -102,7 +102,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
     <div id="weatherDescription"></div>
     </body>
     </html>
-    ```
+   ```
 
     Here's the result:
 

@@ -19,11 +19,11 @@ If you have a Mac, by default, cURL is probably already installed. To check:
 1. Open Terminal (press **Cmd + space bar** to open Spotlight, and then type "Terminal").
 2. In Terminal type `curl -V`. The response should look something like this:
 
-    ```
+   ```
     curl 7.37.1 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
     Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
     Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz
-    ```
+   ```
 
 If you don't see this, you need to [download and install cURL](http://curl.haxx.se/).
 

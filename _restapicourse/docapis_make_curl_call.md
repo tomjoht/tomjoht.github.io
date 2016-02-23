@@ -29,7 +29,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	
 	```
     curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
-    ```
+   ```
 	
 4. Swap in your own API key.
 

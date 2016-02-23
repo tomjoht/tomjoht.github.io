@@ -50,7 +50,7 @@ This is the ideal movement of a developer documentation environment: to build a 
 
 As weak as some of the developer-doc tools are out there for handling robust documentation requirements, you're probably better off with the developer doc route. At some point, people are going to have to let go of some of the doc requirements that force writers to choose some of these more traditional tech writer tools. Some of these requirements include PDF, translation, single source outputs, standardization, link management, workflows, and more. 
 
-At the end of the day, all tools suck to some degree or another (to [paraphrase Eliot Kimber](http://drmacros-xml-rants.blogspot.com/2006/02/all-tools-suck.html). If they don't, you probably have somewhat easy requirements to fulfill. It's not a matter of finding the dream tool that handles everything beautifully and gracefully. Basically, you pick the set of constraints you can live with. What shortcomings are you willing to accept? What advantages are worth the tradeoffs you'll inevitably need to make?
+At the end of the day, all tools suck to some degree or another (to [paraphrase Eliot Kimber](http://drmacros-xml-rants.blogspot.com/2006/02/all-tools-suck.html)). If they don't, you probably have somewhat easy requirements to fulfill. It's not a matter of finding the dream tool that handles everything beautifully and gracefully. Basically, you pick the set of constraints you can live with. What shortcomings are you willing to accept? What advantages are worth the tradeoffs you'll inevitably need to make?
 
 With the traditional doc writer model, using writer-based tools instead of developer-based tools, here are some things you might have to give up:
 
@@ -87,9 +87,9 @@ This is likely because the formatting scenarios he tackled differed from the typ
 
 At any rate, I actually agree with the developer. Give devs a space where they can easily author content, and then let the tech writers pick it up from there. With this model, it doesn't really matter what tooling the tech writers use. Whether you're using a static site generator and interfacing with Github, or using a DITA CCMS, you've entered tech-writer-ville and so you don't need to consider whether developers can learn and use your potentially XML-based tools.
 
-Interestingly, I asked the presenter (Andy Fuchs) at the API doc meetup what his tool of choice would be for an API doc project if he got to choose it himself. (At Google, authoring and publishing frameworks are already built and managed by a tools team, so there isn't a need for tech writers to come up with their own system. Instead they simply plug into this environment.)
+Interestingly, I asked the presenter (Andy Fuchs) at the API doc meetup what his tool of choice would be for an API doc project if he got to choose it himself. Andy said he liked Markdown. At Google, authoring and publishing frameworks are already built and managed by a tools team, so there isn't a need for tech writers to come up with their own system. Instead they simply plug into this environment, and can often can use Markdown.
 
-If Andy were choosing his own tools, he said he might simply use something like Docbook XML (which he was already familiar with) or even Framemaker. He also mentioned using one of the specifications that parsed REST APIs like Swagger. 
+If Andy were choosing his own tools, he also said he might simply use something like Docbook XML (which he was already familiar with) or even Framemaker. He also mentioned using one of the specifications that parsed REST APIs like Swagger. 
 
 He said probably wouldn't use DITA, since DITA's topic-based chunking tends to get in the way of narrative flow when writing conceptual documentation. Overall, though, tools weren't something he had spent a lot of time deliberating about (and rightly so). When you have an established framework, you can simply focus on the content instead of your authoring tools. 
 
