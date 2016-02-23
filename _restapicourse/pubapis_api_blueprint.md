@@ -233,7 +233,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	
 4. Copy the following code, which aligns with the API Blueprint spec, and paste it into the Apiary blueprint editor.
 	
-	```
+   ```
 	FORMAT: 1A
 	HOST: https://simple-weather.p.mashape.com
 	
@@ -381,7 +381,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	            }
 	            ]
 	              
-	```
+   ```
 	
 	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">view and download the file here</a>.{{end}}
 	

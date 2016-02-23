@@ -88,9 +88,9 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 3. In your terminal, either use the default directory or browse to a directory where you want to download your repository. 
 4. Type the following, but replace the git URL with your own git URL that you copied earlier. The command should look like this:
 	
-	```
+   ```
 	git clone https://github.com/tomjohnson1492/weatherapi.wiki.git
-	```
+   ```
 	
 	{{note}} To paste content into the Git Shell on Windows, right-click and select <b>Paste</b>.{{end}}
 	
@@ -126,9 +126,9 @@ After you make these configurations, close and re-open your terminal.
 	
 4. Add the file to your staging area:
 		
-	```
+   ```
 	git add --all
-	```
+   ```
 	
 	Git doesn't track all files in the same folder where the invisible Git folder has been initialized. Git tracks modifications only for the files that have been "added" to Git. By selecting `--all`, you're adding all the files in the folder to Git. You could also type a specific file name here instead of `--all`.
 	
@@ -136,17 +136,17 @@ After you make these configurations, close and re-open your terminal.
 	
 4. See the changes set in your staging area:
 	
-	```
+   ```
 	git status
-	```
+   ```
 	
 	The staging area lists all the files that have been added to Git that you have modified in some way.
 	
 5. Commit the changes:
 	
-	```
+   ```
 	git commit -m "updated some content"
-	```
+   ```
 	
 	When you commit the changes, you're creating a snapshot of the files at a specific point in time for versioning.
 	
@@ -165,8 +165,8 @@ After you make these configurations, close and re-open your terminal.
 	
 6. Push the changes to your repository:
 	
-	```
+   ```
 	git push
-	```
+   ```
 	
 7. Now verify that your changes took effect. Browse to your Github wiki repository and look to see the changes.

@@ -131,7 +131,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 	
 	Here's what my 1-6_weatherdata.md file looks like. Be sure to put the response within square brackets, indented with one tab (4 spaces). You can also <a href="{{ "/files/publishingapidocs/1-6_weatherdata.md" | prepend: site.baseurl | append: site.suffix }}">download the file here</a>. Remove the `raw` and `endraw` tags at the beginning and end of the code sample (which I had to add to keep Jekyll from trying to process it).
 	
-	```yaml
+   ```yaml
 	---
 	title: /weatherdata
 	type: get

@@ -42,10 +42,10 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 3. Leave the other settings not mentioned here at the defaults.
 4. In the Static Headers section, click **Add Header** add these two headers as key-value pairs in the appropriate fields: 
 	
-	```
+   ```
 	X-Mashape-Key {api key}
 	Accept application/json
-	```
+   ```
 	
 	<img src="{{ "/images/publishingapidocs/readmioheaders.png" | prepend: site.baseurl }}" alt="Readme.io static headers" />
 	

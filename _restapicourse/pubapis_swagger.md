@@ -42,7 +42,7 @@ There are three resources: pet, store, and user.
 3. Change the value for the first `id` tag. (Make it really unique so that others don't use the same `id`.)
 4. Change `name` value to something unique. Here's an example:
 	
-	```json
+   ```json
 	{
 	  "id": 37987,
 	  "category": {
@@ -61,7 +61,7 @@ There are three resources: pet, store, and user.
 	  ],
 	  "status": "available"
 	}
-	```
+   ```
 5. Click the **Try it out!** button.
 	
 	Look and see the response. 
@@ -127,7 +127,7 @@ To create a Swagger spec file:
 	
 	You could just customize this sample YML file with the weatherdata endpoint documentation. However, to save you some time, copy and paste the following into the Swagger editor:
 	
-	```yaml
+   ```yaml
 	---
 	  swagger: "2.0"
 	  info: 
@@ -228,7 +228,7 @@ To create a Swagger spec file:
 	            description: "weatherdata response"
 	          default: 
 	            description: "unexpected error"
-	```
+   ```
 	
 	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters! New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array).{{end}}
 	
@@ -248,7 +248,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 3. Inside your "dist" folder, open index.html. 
 4. Look for the following code:
 	
-	```js
+   ```js
 	$(function () {
 	  var url = window.location.search.match(/url=([^&]+)/);
 	  if (url && url.length > 1) {
@@ -256,13 +256,13 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	  } else {
 	    url = "http://petstore.swagger.io/v2/swagger.json";
 	  }
-	```
+   ```
 5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.yaml";`.
 	
 	
 6. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
 	
-	```js
+   ```js
       function addApiKeyAuthorization(){
         var key = encodeURIComponent($('#input_apiKey')[0].value);
         if(key && key.trim() != "") {
@@ -270,11 +270,11 @@ You can also choose JSON, but YAML is more readable and works just as well.
             window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);
             log("added key " + key);
         }
-	```
+   ```
 	
 7. Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "{api key}", "header"));`, so that it looks like this:
 	
-	```js
+   ```js
 	      function addApiKeyAuthorization(){
 	        var key = encodeURIComponent($('#input_apiKey')[0].value);
 	        if(key && key.trim() != "") {
@@ -282,26 +282,26 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "{api key}", "header"));
 	            log("added key " + key);
 	        }
-	```
+   ```
 	
 	Insert your API key in `{api key}`. Otherwise users wil have to enter their own API keys.
 	
 7. Uncomment out following lines here by removing the `/*` and `*/`:
 	
-	```js
+   ```js
 	// if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
 	  /*
 	    var apiKey = "{api key}";
 	    $('#input_apiKey').val(apiKey);
 	  */
-	```
+   ```
 	
 8. Add in your API key into this section:
 	
-	```js
+   ```js
 	var apiKey = "{api key}";
 	$('#input_apiKey').val(apiKey);    
-	```
+   ```
 	
 9. Save the file.
 10. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
@@ -438,9 +438,9 @@ The Swagger UI display should appear.
 	
 	If successful, you should see something in the response body like this:
 	
-	```
+   ```
 	17 c, Partly Cloudy at Santa Clara, United States
-	```
+   ```
 	
 	Try working with each of your endpoints and see the data that gets returned.
 

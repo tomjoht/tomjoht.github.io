@@ -279,19 +279,19 @@ You can also download the same code that generates the output on the Anypoint Pl
 	
 6. To auto-load a specific RAML file, add this to the body of the index.html file:
 	
-	```
+   ```
 	<div style="overflow:auto; position:relative">
 	<raml-console src="examples/weather.raml"></raml-console>
 	  </div>
-	```
+   ```
 	
 	In this example, the RAML file is located in examples/weather.raml.
 
 7. Remove the following line:
 
-	```
+   ```
 	  <raml-initializer></raml-initializer>
-	```
+   ```
 	
 	View the file in your web browser. Note that if the file doesn't load in Chrome, open it in Firefox. Chrome tends to block local JavaScript for security reasons. 
 
@@ -308,15 +308,15 @@ To generate this kind of output:
  * [Through wget](http://raml2html.leanlabs.io/documentation)
 2. In Terminal, enter this command:
 	
-	```
+   ```
 	raml2html generate -i input_file.raml -o output_file.html
-	```
+   ```
 	
 	For example, if you're already in the directory where your RAML file is (named weather.raml), and you want the output file to be named index.html, then enter this:
 	
-	```
+   ```
 	raml2html generate -i weather.raml -o index.html
-	```
+   ```
 	
 	Here's the result: 
 	

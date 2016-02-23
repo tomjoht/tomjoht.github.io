@@ -63,25 +63,25 @@ By the way, this approach doesn't entirely solve the problem. Ideally, you want 
 1. First, I use the sidebar and top navigation files as the source of truth about the files in my project. By source of truth, I mean every file in my project should be listed in either the sidebar or the top navigation in some way. If I start creating pages but then fail to list them in my navigation, it's likely that I'll forget about the page.
 2. I created a urls.txt file that contains some Liquid logic to iterate through every page listed in my navigation and automatically populate the page title, URL, and a formatted link into a YAML format like this:
 	
-	```yaml
+   ```yaml
 	doc_getting_started:
 	  title: "Getting started with this theme"
 	  url: "doc_getting_started.html"
 	  link: "<a href='doc_getting_started.html'>Getting started with this theme</a>"
-	```
+   ```
 	
 3. After building my site, I copy the content from urls.txt in the output to a file called urls.yml stored in my project's \_data directory.
 4. To link to a page, I use this syntax:
 	
-	```liquid
+   ```liquid
 	{% raw %}{{site.data.urls.doc_getting_started.link}}{% endraw %}
-	```
+   ```
 
 	To link to a page in the context of a sentence, I use this syntax:
 	
-	```liquid
+   ```liquid
 	Follow these tips for {% raw %}[getting started with your project]({{site.data.urls.doc_getting_started.url}}).{% endraw %}
-	```
+   ```
 	
 I realize this process may seem really different from how linking works in most help systems (what other help systems even use YAML?), but I think it will help me avoid broken links in a few ways. The URLs and titles of each of my pages are drawn from the navigation directly. There's no chance that the inline link and the navigation link will be at odds with each other.
 

@@ -22,12 +22,12 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 1. Go back into the [Weather API](https://www.mashape.com/fyhao/weather-13).
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
 
-	```
+   ```
 	curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
-	```
+   ```
 3. If you're on Windows, change the single quotation marks to double quotation marks, and add `-k` as well to work around security certificate issues.
 	
-	```
+   ```
     curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
    ```
 	
@@ -45,15 +45,15 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	
 	My call for the Mashape Weather API looks like this:
 	
-	```bash
+   ```bash
 	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246' -H 'X-Mashape-Key: {api key}' -H 'Accept: text/plain'
-	```
+   ```
 	
 	For the Aeris Weather observations endpoint, it looks like this:
 	
-	```bash
+   ```bash
 	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" "Accept: application/json"
-	```
+   ```
 	
 3. Press your **Enter** key. 
 
@@ -69,17 +69,17 @@ The response is just a single number: the air quality index for the location spe
 2. Go to **Start** and type **cmd** to open up the commandline. (If you're on Windows 8, see [these instructions for accessing the commandline](http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm).)
 3. Right-click and then select **Paste** to insert the call. My call for the Mashape API looks like this:
  
-	```bash
+   ```bash
 	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246" -H "X-Mashape-Key: {api key}" -H "Accept: text/plain"
-	```
+   ```
 	
 	{{warning}}Make sure you use double quotes and include the <code>-k</code>. {{end}}
 	
 	For the Aeris endpoint, it looks like this:
 	
-	```bash
+   ```bash
 	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" -H "Accept: application/json"
-	```
+   ```
 	
 	The response from Mashape looks like this:
 

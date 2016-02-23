@@ -24,7 +24,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 
 1. Start with a basic HTML template with jQuery referenced, like this:
 	
-	```html
+   ```html
 	<html>
 	<head>
 	<title>Sample Page</title>
@@ -34,7 +34,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	
 	</body>
 	</html>
-	```
+   ```
 	
 	Save your file with a name such as weatherdata.html.
 	
@@ -55,7 +55,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	
 	Your final code should look like this:
 	
-	```html
+   ```html
 	<html>
 	<head>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -80,7 +80,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	<body>
 	</body>
 	</html>
-	```
+   ```
 	
 8. Start Chrome and open the JavaScript Console by going to **View > Developer > JavaScript Console**.
 9. Open the weatherdata.html file in Chrome (**File > Open File**).

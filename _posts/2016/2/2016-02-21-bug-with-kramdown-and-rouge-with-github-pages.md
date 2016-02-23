@@ -58,7 +58,9 @@ Thomas Leitner, the developer leading Kramdown, [explains it as follows](https:/
 > Examples (edit: I replaced the leading spaces with underscores so it looks correct):
 > 
 > `*_some text` -> 2 spaces indentation
+>
 > `*___some text` -> 4 spaces indentation
+>
 > `1._some text` -> 3 spaces indentation
 
 If you have 4 spaces instead of 3, Kramdown will set off the code with `code` tags instead of `pre` tags. This will make a huge difference, since `code` tags render inline whereas `pre` renders as a div block.

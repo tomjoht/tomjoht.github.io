@@ -65,7 +65,7 @@ This is the JavaScript code that you can attach to an event on your page.
 {{activity}}
 1. Create a new HTML file with the basic HTML elements:
 	
-	```html
+   ```html
 	<!DOCTYPE html>
 	<head>
 	<title>My sample page</title>
@@ -74,11 +74,11 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	</body>
 	</html>
-	```
+   ```
 	
 2. Insert the JavaScript code you copied inside some `script` tags inside the `head`:
 	
-	```html
+   ```html
 	<!DOCTYPE html>
 	<head>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -103,11 +103,11 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	</body>
 	</html>
-	```
+   ```
 	
 3. The Mashape Weather API requires the `dataType` parameter, which Postman doesn't automatically include. Add `"dataType": "json",` in the list of `settings`:
 	
-	```html
+   ```html
 	<!DOCTYPE html>
 	<head>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -133,7 +133,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	hello
 	</body>
 	</html>
-	```
+   ```
 	
 4. This code uses the `ajax` method from jQuery. The parameters are defined in a variable called `settings` and then passed into the method. The `ajax` method will make the request and assign the response to the `done` method's argument (`response`). The `response` object will be logged to the console.
 5. Open the file up in your Chrome browser.
@@ -145,7 +145,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	Let's say you wanted to pull out the `sunrise` time and append it to a tag on the page. You could do so like this:
 	
-	```html
+   ```html
 	<!DOCTYPE html>
 	<head>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -173,7 +173,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	<div id="sunrise"></div>
 	</body>
 	</html>
-	```
+   ```
 	
 	This code uses the `append` method from jQuery to assign a value from the response object to the `sunrise` ID tag on the page.
 

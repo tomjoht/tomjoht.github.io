@@ -33,7 +33,7 @@ To recreate the acme project:
 4. In the **Name** box, type **ACMESmartphone**, accept the other defaults, and click **Finish**. 
 5. In the new file that opens, remove the default content added, and then paste in the following content: 
 	
-	```java
+   ```java
 	package acme;
 	
 	import java.io.IOException;
@@ -120,12 +120,12 @@ To recreate the acme project:
 		}
 	
 	}
-	```
+   ```
 	
 6. Right-click the project and select **New > Class**. Name the new class **Dynamite**, accept the defaults, and click **Finish**. 
 7. Remove the default content and paste in the following:
 	
-	```java
+   ```java
 	package acme;
 	
 	/**
@@ -163,11 +163,11 @@ To recreate the acme project:
 			System.out.println("<silent boom>. no one hears it.");
 		}
 	}
-	```
+   ```
 	
 8. Right-click the project and select **New > Class**. Name it **App** and paste in the following content:
 	
-	```java
+   ```java
 	package acme;
 	
 	import java.io.IOException;
@@ -191,7 +191,7 @@ To recreate the acme project:
 		}
 	
 	}
-	```
+   ```
 	
 9. Click the **Run** button. 
 	
