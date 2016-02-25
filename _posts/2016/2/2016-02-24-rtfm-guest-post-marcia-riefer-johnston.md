@@ -43,7 +43,8 @@ What an opportunity missed. No wonder people don't RTFM.
 
 So what kind of FM would people find satisfying and worthwhile to R? Here's an example that I find inspiring:
 
-<figure><img src="{{ "/images/satisfyingmanual.png" | prepend: site.baseurl }}" alt="A more satisfying content experience" /><figcaption>Hat tip to Robert Rose, who shared this video in his keynote talk at the 2015 Intelligent Content Conference.</figcaption></figure>
+<figure><iframe src="https://player.vimeo.com/video/26489936?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/26489936">Out of the box</a> from <a href="https://vimeo.com/specialp">Special Projects</a> on <a href="https://vimeo.com">Vimeo</a>.</p><figcaption>Hat tip to Robert Rose, who shared this video in his keynote talk at the 2015 Intelligent Content Conference.</figcaption></figure>
 
 Granted, producing the two books shown in the video might cost more to create than a business can justify. The books would turn into waste paper each time the device's interface or form factor changed. And who knows whether these books ever met the needs of an audience. As Mark Baker points out in a [reply](https://larrykunz.wordpress.com/2016/02/22/rethinking-rtfm/) to one of my comments on Larry's article, these books may be "a case of being too much in love with our own craft."
 
