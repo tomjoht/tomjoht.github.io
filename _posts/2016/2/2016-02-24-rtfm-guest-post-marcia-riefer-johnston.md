@@ -1,5 +1,5 @@
 ---
-title: "So People Don't RTFM? Write a FM That's Worth R'ing" &mdash; Guest post by Marcia Riefer Johnston
+title: "So People Don't RTFM? Write a FM That's Worth R'ing &mdash; Guest post by Marcia Riefer Johnston"
 categories:
 - general
 keywords: RTFM, read the fucking manual, read the fine manual, marcia riefer johnston, larry kunz
