@@ -4,11 +4,12 @@ categories:
 - dita
 keywords: 
 summary: "A recent article in the <i>Technical Communication Journal</i> explores lightweight DITA and the way it removes some of the complexity from the authoring process. Lightweight DITA is still in development, but it holds great promise in simplifying DITA and allowing authors to connect into larger systems for managing doc content."
+thumb: techcommjonline.png
 ---
 
 <a href="http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/"><img style="float: right; padding: 10px;" src="{{ "/images/techcommjonline.png" | prepend: site.baseurl }}" alt="Technical Communication Journal" /></a>
 
-The February 2016 issue of the Technical Communication Journal (an academic journal containing scholarly articles about technical communication) contains a article well worth reading titled [Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation](http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/), by Carlos Evia, Virginia Tech, and Michael Priestley, IBM.
+The February 2016 issue of the Technical Communication Journal (an academic journal containing scholarly articles about technical communication) contains a article well worth reading titled [Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation](http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/), by Carlos Evia, who teaches at Virginia Tech, and Michael Priestley, who works at IBM.
 
 The article explores the use of lightweight DITA, termed "HDITA," and explains a pilot experiment using HDITA with students. Here's an excerpt from the "Practitioner's take-away" section:
 
@@ -22,7 +23,7 @@ The article explores the use of lightweight DITA, termed "HDITA," and explains a
 
 This is one of the few articles in *Technical Comunication Journal* that actually dives into XML, and Priestley and Evia include quotes from Mark Baker, Neal Kaplan, Sarah O'keefe, Rick Yagodich, me, and more as they explain the justification and rationale for HDITA. 
 
-One of the main reasons for developing lightweight DITA is to remove the complexity behind DITA authoring and provide a more HTML-based approach to generating valid DITA topics. 
+One of the main reasons for developing lightweight DITA (of HDITA) is to remove the complexity behind DITA authoring and provide a more HTML-based approach to generating valid DITA topics. 
 
 The authors explain:
 
@@ -30,7 +31,7 @@ The authors explain:
 
 The approach to using HTML seems to leverage the `data` attributes in HTML5 to map to various XML elements. The authors show a sample DITA topic and compare the same approach in lightweight DITA:
 
-Here's the sample DITA topic from the article:
+Here's a sample DITA topic from the article:
  
 ```xml
 <task>
@@ -47,7 +48,7 @@ Here's the sample DITA topic from the article:
 </task>
 ```
 
-Here's the HDITA topic:
+Here's the same topic in HDITA:
 
 ```html
 <article data-hd-class="task"> <h1>How to do something</h1>
@@ -74,4 +75,4 @@ The authors explain how the students assembled the HTML into websites using Jeky
 
 Holy smokes, I never thought I would see Github Pages, Jekyll, and YAML along with my favorite bloggers mentioned in a scholarly tech comm article. How cool!
 
-I think the approach with lightweight DITA has a lot of promise. If you can connect these HTML-based topics into larger documentation platforms to manage the content, you will have a powerful authoring system that doesn't force writers into XML authoring but still leverages some of the robust strengths that XML provides. 
+I think the approach with lightweight DITA has a lot of promise. If you can connect these HTML-based topics into larger documentation platforms to manage the content, you will have a powerful authoring system that doesn't force writers into XML authoring but which still leverages some of the robust strengths that XML provides. 
