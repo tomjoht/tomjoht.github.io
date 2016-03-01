@@ -36,8 +36,8 @@ These are all the qualities you might expect to find in a more robust content ma
 
 Last week as I attended a [Write the Docs meetup in Redwood City](http://www.meetup.com/Write-the-Docs/events/228074123/), I realized some things. (It's not that I haven't said them before on this blog; it's that I forgot, I guess.) If you're writing developer doc and you want to get developers involved in contributing, reviewing, and interacting with the documentation, you're probably better off using developer tools and developer environments. After all, if you want to live in the developer's world, it sort of makes sense to adopt the developer's environment.
 
-<div style="max-width: 450px;">
-<figure><a href=""><img src="{{ "/images/developertooling-01.svg" | prepend: site.baseurl }}" alt="Developer tooling model" /></a><figcaption>Both writers and developers work on documentation that exists in similar tooling as other developer tools (for example, Markdown in text files pushed to a static site generator, stored in Github)</figcaption></figure>
+<div style="max-width:400px;">
+<figure><object type="image/svg+xml" data="{{ "/images/developertooling-01.svg" | prepend: site.baseurl }}">Your browser does not support SVG</object><figcaption>Both writers and developers work on documentation that exists in similar tooling as other developer tools (for example, Markdown in text files pushed to a static site generator, stored in Github)</figcaption></figure>
 </div>
 
 During the WTD presentation (which was on API documentation), one commenter (who works on Microsoft Azure) noted that they write their docs in Markdown and push them out to various Github repos. In these repos, lots of developers from the community frequently log issues, make comments (using Disqus), and contribute code themselves. That kind of energy and momentum around the docs wouldn't happen if the docs weren't embedded in developer environments. 

@@ -5,6 +5,7 @@ categories:
 keywords: RTFM, read the fucking manual, read the fine manual, marcia riefer johnston, larry kunz
 summary: "The following is a guest post by Marcia Riefer Johnston exploring an alternative view towards the RTFM argument. In this post, Marcia argues that it's the writer's care and interest in the product and users that leads to producing help content worth reading versus content that is mechanical, dry, and lifeless."
 thumb: marciar.png
+author: marcia
 ---
 
 Long-time technical communicator Larry Kunz recently wrote an article &mdash; [Rethinking RTFM](https://larrykunz.wordpress.com/2016/02/22/rethinking-rtfm/) &mdash; that, as Larry's articles do, got me thinking. He's the first person I've heard articulate feelings about this initialism with nuance and respect for all. Yes, RTFM (which, as you probably don't need to be told,  means “read the f*ing manual”) makes us smile. Yes, it captures the underappreciation that all technical communicators endure at one time or another. Yes, it makes for a punchy rallying cry.
