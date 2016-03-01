@@ -1,9 +1,9 @@
 ---
-title: "Retrospective -- Looking back at the good and bad of previous experiences"
+title: "Retrospective &mdash; Looking back at the good and bad of previous experiences"
 categories:
 - general
 keywords: retrospective, evaluation, best practices, learning
-summary: "As I move into my new job, one goal I have is to learn from the experiences at my former job and improve this time around. I want to avoid repeating the same mistakes but also remember to build on those things that worked."
+summary: "As I move into my new job, one goal I have is to learn from the experiences at my former job and improve this time around. I want to avoid repeating the same mistakes but also remember to build on those things that worked. This post is a retrospective look at the good and bad of previous experiences."
 thumb: retrospectivethumb.png
 ---
 
@@ -12,7 +12,7 @@ Although I'll likely implement this learning naturally and unconsciously, a good
 Of course I can't go into too many details here, and I want to acknowledge that each tech environment (with different products, users, markets, requirements, and so on) is unique. What worked or didn’t work in one environment may not work so well in another.
 
 <div style="max-width:500px;">
-<object type="image/svg+xml" data="retrospective.svg">Your browser does not support SVG</object>
+<object type="image/svg+xml" data="{{ "/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object>
 </div>
 
 
