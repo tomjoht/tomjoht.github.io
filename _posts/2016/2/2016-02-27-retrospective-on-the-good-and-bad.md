@@ -12,7 +12,8 @@ Although I'll likely implement this learning naturally and unconsciously, a good
 Of course I can't go into too many details here, and I want to acknowledge that each tech environment (with different products, users, markets, requirements, and so on) is unique. What worked or didn’t work in one environment may not work so well in another.
 
 <div style="max-width:500px;">
-<object type="image/svg+xml" data="{{ "/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object>
+<figure>
+<object type="image/svg+xml" data="{{ "/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object><figcaption>Looking back</figcaption></figure>
 </div>
 
 
