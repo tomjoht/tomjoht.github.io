@@ -5,7 +5,6 @@ categories:
 keywords: retrospective, evaluation, best practices, learning
 summary: "As I move into my new job, one goal I have is to learn from the experiences at my former job and improve this time around. I want to avoid repeating the same mistakes but also remember to build on those things that worked."
 thumb:
-published: false;
 ----
 
 Although I'll likely implement this learning naturally and unconsciously, a good blog post that lists out the things I did well versus the things I wasn't so pleased with seems like a good idea.
