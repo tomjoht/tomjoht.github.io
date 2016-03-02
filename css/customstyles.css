@@ -1000,6 +1000,16 @@ ul#mysidebar li.active a {
     margin-bottom:5px;
 }
 
+
+@media only screen and (max-width: 1350px), only screen and (max-device-width: 1350px) {
+    /* mobile sidebar area, mobile top banner ad area */
+
+    div.topBannerAd img {
+        max-width: 475px
+    }
+}
+
+
 @media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
     /* mobile sidebar area, mobile top banner ad area */
 
@@ -1041,6 +1051,14 @@ ul#mysidebar li.active a {
     }
 }
 
+
+@media only screen and (max-width: 1050px), only screen and (max-device-width: 1100px) {
+    /* mobile sidebar area, mobile top banner ad area */
+
+    div.topBannerAd img {
+        max-width: 325px
+    }
+}
 @media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
     /* mobile sidebar area, mobile top banner ad area */
 
