@@ -1000,7 +1000,7 @@ ul#mysidebar li.active a {
     margin-bottom:5px;
 }
 
-@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1400px), only screen and (max-device-width: 1400px) {
     /* mobile sidebar area, mobile top banner ad area */
 
     div.topBannerAd img {
@@ -1008,7 +1008,7 @@ ul#mysidebar li.active a {
     }
 }
 
-@media only screen and (max-width: 1100px), only screen and (max-device-width: 1100px) {
+@media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
     /* mobile sidebar area, mobile top banner ad area */
 
     div.topBannerAd img {
@@ -1016,13 +1016,22 @@ ul#mysidebar li.active a {
     }
 }
 
-@media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 12000px) {
     /* mobile sidebar area, mobile top banner ad area */
 
     div.topBannerAd img {
         max-width: 350px
     }
 }
+
+@media only screen and (max-width: 1100px), only screen and (max-device-width: 1100px) {
+    /* mobile sidebar area, mobile top banner ad area */
+
+    div.topBannerAd img {
+        max-width: 325px
+    }
+}
+
 
 @media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
     /* mobile sidebar area, mobile top banner ad area */
