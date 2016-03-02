@@ -1000,15 +1000,23 @@ ul#mysidebar li.active a {
     margin-bottom:5px;
 }
 
-@media only screen and (max-width: 1400px), only screen and (max-device-width: 1400px) {
+@media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
     /* mobile sidebar area, mobile top banner ad area */
 
     div.topBannerAd img {
-        max-width: 4500px
+        max-width: 450px
     }
 }
 
-@media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
+@media only screen and (max-width: 1250px), only screen and (max-device-width: 1250px) {
+    /* mobile sidebar area, mobile top banner ad area */
+
+    div.topBannerAd img {
+        max-width: 425px
+    }
+}
+
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
     /* mobile sidebar area, mobile top banner ad area */
 
     div.topBannerAd img {
@@ -1016,22 +1024,22 @@ ul#mysidebar li.active a {
     }
 }
 
-@media only screen and (max-width: 1200px), only screen and (max-device-width: 12000px) {
+@media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
+    /* mobile sidebar area, mobile top banner ad area */
+
+    div.topBannerAd img {
+        max-width: 375px
+    }
+}
+
+
+@media only screen and (max-width: 1100px), only screen and (max-device-width: 1100px) {
     /* mobile sidebar area, mobile top banner ad area */
 
     div.topBannerAd img {
         max-width: 350px
     }
 }
-
-@media only screen and (max-width: 1100px), only screen and (max-device-width: 1100px) {
-    /* mobile sidebar area, mobile top banner ad area */
-
-    div.topBannerAd img {
-        max-width: 325px
-    }
-}
-
 
 @media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
     /* mobile sidebar area, mobile top banner ad area */
@@ -1040,6 +1048,7 @@ ul#mysidebar li.active a {
         max-width: 300px
     }
 }
+
 
 @media only screen and (max-width: 980px), only screen and (max-device-width: 980px){
     /* mobile sidebar area, mobile top banner ad area */
