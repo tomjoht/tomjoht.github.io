@@ -1000,6 +1000,14 @@ ul#mysidebar li.active a {
     margin-bottom:5px;
 }
 
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+    /* mobile sidebar area, mobile top banner ad area */
+
+    #topBannerAd img {
+        max-width: 400px
+    }
+}
+
 @media only screen and (max-width: 980px), only screen and (max-device-width: 980px){
     /* mobile sidebar area, mobile top banner ad area */
     #sidebarAreaHomePage {
