@@ -1003,8 +1003,8 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    #topBannerAd img {
-        max-width: 400px
+    div.topBannerAd img {
+        max-width: 300px
     }
 }
 
