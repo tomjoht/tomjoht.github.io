@@ -43,7 +43,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 
 2. You'll make a REST call for the first endpoint (`aqi`). Select **GET** for the method.
 3. Insert the endpoint into the box next to GET: `https://simple-weather.p.mashape.com/aqi`
-4. Click the **Params** button and insert `lat` and `lng` parameters with specific values (other than `1`).
+4. Click the **Params** button (to the right of the box where you inserted the endpoint) and insert `lat` and `lng` parameters with specific values (other than `1`).
 
     {{site.data.alerts.note}} Only some countries are supported in the <code>aqi</code> call &mdash; specifically Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. To get the aqi for Singapore, use <code>lat: 1.3321256</code> and <code>lng: 103.7373503</code>. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
 
@@ -51,7 +51,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 	
 	When you add these `lat` and `lng` parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the code followed by the `?` in the endpoint URI. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're joined with an ampersand `&` symbol.
 	
-5. Expand the **Headers** section and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key in place of `{api key}`.)
+5. Click the **Headers** tab and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key in place of `{api key}`.)
 	
     It should look like this:
 
@@ -59,13 +59,13 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 
 7. Click **Send**.
 
-	The response appears. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats, but since this response is text only, you won't see any difference.
+	The response appears, such as `52`. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats, but since this response is text only, you won't see any difference.
 	
 	{{note}} Usually the responses are more detailed JSON, which allows you to select a specific part of the response to work with.{{end}}
 	
 ## Save the request
 {{activity}}
-1. In Postman, click the **Save** button (the floppy disk next to Send). 
+1. In Postman, click the **Save** button (next to Send). 
 2. Create a new collection (e.g., weather) by typing the collection name in the **or create a new one** box.
 3. Type a name for the request (e.g., aqi).
 4. At the bottom of the dialog box, click **Add to Collection.**
