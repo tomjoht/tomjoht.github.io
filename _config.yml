@@ -36,6 +36,8 @@ collections:
     output: true
   voiceovertechniques:
     output: true
+  visualcommunication:
+    output: true
 
 # these are defaults that get applied to each page or post's frontmatter. leave as is.
 permalink: /:year/:month/:day/:title/

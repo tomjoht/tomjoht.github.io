@@ -49,7 +49,7 @@ topnav_dropdowns:
     - title: Series
       items:
       - title: Visual communication
-        url: /visualcommunicaiton_overview/
+        url: /visualcommunication_overview/
 
       - title: Testing documentation
         url: /2015/07/07/testing-your-instructions/
