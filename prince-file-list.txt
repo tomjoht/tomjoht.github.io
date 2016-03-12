@@ -5,14 +5,21 @@ search: exclude
 
  {% for entry in site.data.sidebar_docapis.entries %}
    {% for subcategory in entry.subcategories %}
+      {% if subcategory.output contains "pdf" %}
               {% for item in subcategory.items %}
+                 {% if item.output contains "pdf" %}
                     {{site.url}}{{site.baseurl}}{{item.url }}
                           {% for thirdlevel in item.thirdlevel %}
+                             {% if thirdlevel.output contains "pdf" %}
                                         {% for deeplevel in thirdlevel.thirdlevelitems %}
-                                              {{site.url}}{{site.baseurl}}{{item.url}}
+                                           {% if deeplevel.output contains "pdf" %}
+                                              {{site.url}}{{site.baseurl}}{{deeplevel.url}}
+                                           {% endif %}
                                         {% endfor %}
+                             {% endif %}
                           {% endfor %}
+                {% endif %}
              {% endfor %}
-   {% endfor %}
+      {% endif %}
+  {% endfor %}
  {% endfor %}
-

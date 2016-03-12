@@ -57,6 +57,10 @@
 {% assign sidebarTitle = "Testing documentation" %}
 {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
 
+{% elsif page.series == "visualcommunication" %}
+{% assign sidebarTitle = "Visual communication" %}
+{% assign sidebar = site.data.sidebar_visualcommunication.entries %}
+
 <h3 class="notesTitle">{{sidebarTitle}}</h3>
 
 {% endif %}

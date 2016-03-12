@@ -48,6 +48,9 @@ topnav_dropdowns:
           url: /archives-2006/
     - title: Series
       items:
+      - title: Visual communication
+        url: /visualcommunicaiton_overview/
+
       - title: Testing documentation
         url: /2015/07/07/testing-your-instructions/
 

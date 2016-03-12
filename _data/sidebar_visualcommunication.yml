@@ -1,0 +1,25 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+  subcategories:
+    - title: Frontmatter
+      output: pdf
+      items:
+        - title: Title Page
+          url: /titlepage.html
+          output: pdf
+
+        - title: Table of Contents
+          url: /tocpage.html
+          output: pdf
+
+    - title: Using a REST API as a developer
+      items:
+        - title: Course overview
+          url: /visualcommunication_course_overview/
+          weight: 1.0
+        - title: Getting sharp, clear screenshots
+          url: /visualcommunication_sharp_clear_screenshots/
+          weight: 1.1
+

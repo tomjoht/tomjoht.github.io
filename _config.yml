@@ -75,6 +75,15 @@ defaults:
   -
     scope:
       path: ""
+      type: "visualcommunication"
+    values:
+      layout: "page_visualcommunication"
+      comments: true
+      search: true
+
+  -
+    scope:
+      path: ""
       type: "revisioncontrol"
     values:
       layout: "page"
