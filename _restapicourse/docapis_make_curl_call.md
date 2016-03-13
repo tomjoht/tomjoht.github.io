@@ -33,7 +33,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	
 4. Swap in your own API key.
 
-    {{note}} In the instruction here, <code>API KEY</code> will be used instead of an actual API key. You should replace that part with your own API key. Omit the curly braces <code>{ }</code>. {{end}}
+    {{note}} In the instruction here, <code>API KEY</code> will be used instead of an actual API key. You should replace that part with your own API key. {{end}}
 
 ## Make the request in cURL (Mac)
 {{activity}}
@@ -52,7 +52,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 	For the Aeris Weather observations endpoint, it looks like this:
 	
    ```bash
-	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" "Accept: application/json"
+	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id=CLIENT ID&client_secret={client secret}" "Accept: application/json"
    ```
 	
 3. Press your **Enter** key. 
@@ -78,7 +78,7 @@ The response is just a single number: the air quality index for the location spe
 	For the Aeris endpoint, it looks like this:
 	
    ```bash
-	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id={client id}&client_secret={client secret}" -H "Accept: application/json"
+	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id=CLIENT ID&client_secret={client secret}" -H "Accept: application/json"
    ```
 	
 	The response from Mashape looks like this:

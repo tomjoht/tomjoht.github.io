@@ -144,8 +144,8 @@ To add a little variety to the code samples, here's one that's a bit different. 
              url: "http://api.aerisapi.com/observations/santa%20clara,ca",
              type: "GET",
              data: {
-                 "client_id": "{client id}",
-                 "client_secret": "{client secret}",
+                 "client_id": "CLIENT ID",
+                 "client_secret": "CLIENT SECRET",
              },
          })
          .done(function(data, textStatus, jqXHR) {
