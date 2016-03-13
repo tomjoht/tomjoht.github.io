@@ -10,9 +10,9 @@ thumb: microphone.png
 
 Here's the audio for the podcast: 
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/lisameloncon.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/lisameloncon.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/lisameloncon.mp3" alt="Lisa Meloncon on the practitioner academic divide">download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/lisameloncon.mp3" alt="Lisa Meloncon on the practitioner academic divide">download the MP3 file here</a>.
 
 ## Podcast summary
 

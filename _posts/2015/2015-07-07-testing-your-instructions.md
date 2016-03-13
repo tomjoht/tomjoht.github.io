@@ -10,9 +10,9 @@ weight: 1.0
 ---
 {% include series/seriesTagTestingDocs.html %}
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/testing_instructions.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/testing_instructions.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherbetellingstories.com/podcasts/testing_instructions.mp3" alt="Testing instructions"/>download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/testing_instructions.mp3" alt="Testing instructions"/>download the MP3 file here</a>.
 
 ## Testing overview
 

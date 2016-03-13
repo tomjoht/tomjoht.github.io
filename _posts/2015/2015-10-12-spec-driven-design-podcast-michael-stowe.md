@@ -19,9 +19,9 @@ In this episode, I interview Michael Stowe, author of [*Undisturbed REST: The gu
 
 You can listen to the audio here:
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/mikestowe.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/mikestowe.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/mikestowe.mp3" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe">download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/mikestowe.mp3" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe">download the MP3 file here</a>.
 
 (The audio is a little choppy in the beginning due to some bit rate issues &mdash; sorry about that.)
 

@@ -17,9 +17,9 @@ Here are Michael's slides:
 
 Here's the audio recording: 
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/stowestcsv.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stowestcsv.mp3" type="audio/mpeg" /></audio></p>
 
-You can also [download the MP3 file](http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/stowestcsv.mp3) directly.
+You can also [download the MP3 file](http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stowestcsv.mp3) directly.
 
 (Next time we'll record the video too.)
 

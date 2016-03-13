@@ -12,6 +12,6 @@ thumb: wtdthumbpanelstartup.png
 
 The four panelists from left to right are Kayce Basque, Daria Hutchinson, Elisa Sawyer, and Richard Mateosian. For more details, see the [Write the Docs event description here](http://www.meetup.com/Write-the-Docs/events/226495517/).
 
-If you just want to listen to the audio only, you can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/wtdstartuppanel.mp3" alt="Creating documentation for startups: Panel discussion">download the MP3 file</a> or listen here:
+If you just want to listen to the audio only, you can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/wtdstartuppanel.mp3" alt="Creating documentation for startups: Panel discussion">download the MP3 file</a> or listen here:
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherbetellingstories.com/podcasts/wtdstartuppanel.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/wtdstartuppanel.mp3" type="audio/mpeg" /></audio></p>
