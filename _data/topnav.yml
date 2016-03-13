@@ -3,9 +3,6 @@
 topnav:
 - title: Topnav
   subcategories:
-    - title: API doc course
-      url: /docapis_course_overview/
-
     - title: Beginners
       url: /category-beginners/
 
@@ -48,8 +45,6 @@ topnav_dropdowns:
           url: /archives-2006/
     - title: Series
       items:
-      - title: Visual communication
-        url: /visualcommunication_overview/
 
       - title: Testing documentation
         url: /2015/07/07/testing-your-instructions/
@@ -164,6 +159,13 @@ topnav_dropdowns:
         url: /category-wordpress/
       - title: Writing
         url: /category-writing/
+
+    - title: Courses
+    - title: API documentation
+      url: /docapis_course_overview/
+    - title: Visual communication
+      url: /visualcommunication_overview/
+
     - title: Other
       items:
         - title: Advertising

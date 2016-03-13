@@ -33,36 +33,42 @@
 {% elsif page.type == "notes_pubapis" %}
 {% assign sidebarTitle = "Publishing API documentation" %}
 {% assign sidebar = site.data.sidebar_pubapis.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.type == "notes_platformapis" %}
 {% assign sidebarTitle = "Platform API documentation" %}
 {% assign sidebar = site.data.sidebar_platformapis.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.type == "notes_java" %}
 {% assign sidebarTitle = "My Java notes" %}
 {% assign sidebar = site.data.sidebar_java.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.type == "notes_javascript" %}
 {% assign sidebarTitle = "JavaScript notes" %}
 {% assign sidebar = site.data.sidebar_javascript.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.type == "notes_dita" %}
 {% assign sidebarTitle = "My DITA notes" %}
 {% assign sidebar = site.data.sidebar_dita.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.type == "notes_apis" %}
 {% assign sidebarTitle = "My API notes" %}
 {% assign sidebar = site.data.sidebar_apis.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.series == "testing_documentation" %}
 {% assign sidebarTitle = "Testing documentation" %}
 {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
+<h3>{{sidebarTitle}}</h3>
 
 {% elsif page.type == "visualcommunication" %}
 {% assign sidebarTitle = "Visual communication" %}
 {% assign sidebar = site.data.sidebar_visualcommunication.entries %}
-
-<h3 class="notesTitle">{{sidebarTitle}}</h3>
+<h3>{{sidebarTitle}}</h3>
 
 {% endif %}
 <ul id="mysidebar" class="nav">
