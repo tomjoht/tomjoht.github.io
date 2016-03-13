@@ -261,7 +261,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	
 	    + Headers
 	    
-	            X-Mashape-Authorization: {api key}
+	            X-Mashape-Authorization: API KEY
 	            Accept: text/plain
 	
 	+ Response 200 (application/json)

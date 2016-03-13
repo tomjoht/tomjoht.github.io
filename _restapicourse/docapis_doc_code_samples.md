@@ -90,7 +90,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
-	    "x-mashape-key": "{api key}"
+	    "x-mashape-key": "API KEY"
 	  }
 	}
 	
@@ -120,7 +120,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
-	    "x-mashape-key": "{api key}"
+	    "x-mashape-key": "API KEY"
 	  }
 	}
 	
@@ -158,7 +158,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
-	    "x-mashape-key": "{api key}"
+	    "x-mashape-key": "API KEY"
 	  }
 	}
 	
@@ -222,7 +222,7 @@ var settings = {
   "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "{api key}"
+    "x-mashape-key": "API KEY"
   }
 }
 

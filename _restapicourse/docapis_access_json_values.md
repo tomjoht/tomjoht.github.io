@@ -85,7 +85,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
       "method": "GET",
     "headers": {
       "accept": "application/json",
-      "x-mashape-key": "{api key}"
+      "x-mashape-key": "API KEY"
     }
     }
 

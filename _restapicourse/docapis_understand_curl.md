@@ -96,7 +96,7 @@ Let's look more closely at the request you submitted for the weather:
 
 ```bash
   curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \
-  -H 'X-Mashape-Key: {api key}' \
+  -H 'X-Mashape-Key: API KEY' \
   -H 'Accept: text/plain'
 ```
 

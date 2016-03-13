@@ -15,7 +15,7 @@ In general, an API (or Application Programming Interface) provides an interface 
 
 <a href="http://bit.ly/1DexWM0"><img src="{{ "/images/restapicourse/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
 
-In one of Jim Bisso's API workshops, he said to consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
+In an API workshop by Jim Bisso, an experienced API technical writer in the Silicon Valley area, Bisso said to consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
 
 <img src="{{ "/images/restapicourse/calculator.png" | prepend: site.baseurl }}" alt="calculator" />
 

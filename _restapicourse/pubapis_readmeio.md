@@ -43,7 +43,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 4. In the Static Headers section, click **Add Header** add these two headers as key-value pairs in the appropriate fields: 
 	
    ```
-	X-Mashape-Key {api key}
+	X-Mashape-Key API KEY
 	Accept application/json
    ```
 	

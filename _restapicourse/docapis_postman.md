@@ -22,7 +22,7 @@ When you're testing endpoints with different parameters, you can use one of the 
 
 Some popular GUI clients include the following:
 
-* [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) (Chrome app)
+* [Postman](http://www.getpostman.com/)
 * [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension)
 * [REST Console](https://chrome.google.com/webstore/detail/rest-console/cokgbflfommojglbmbpenpphppikmonn)
 * [Paw](https://luckymarmot.com/paw) (Mac, $30)
@@ -37,10 +37,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 
 ## Make a request in Postman
 {{activity}}
-1. If you haven't already done so, download and start the [Postman app for Chrome](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
-
-    {{note}} There's also a Postman <i>extension</i> for Chrome, but you want the Chrome app. It's more functional. {{end}}
-
+1. If you haven't already done so, download and start the [Postman app](docapis_postman).
 2. You'll make a REST call for the first endpoint (`aqi`). Select **GET** for the method.
 3. Insert the endpoint into the box next to GET: `https://simple-weather.p.mashape.com/aqi`
 4. Click the **Params** button (to the right of the box where you inserted the endpoint) and insert `lat` and `lng` parameters with specific values (other than `1`).
@@ -51,11 +48,11 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 	
 	When you add these `lat` and `lng` parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the code followed by the `?` in the endpoint URI. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're joined with an ampersand `&` symbol.
 	
-5. Click the **Headers** tab and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: {api key}`. (Omit the colons, and swap in your own API key in place of `{api key}`.)
+5. Click the **Headers** tab (below the GET button) and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: API KEY`. (Swap in your own API key in place of `API KEY`.)
 	
     It should look like this:
 
-	<img src="{{ "/images/restapicourse/postmansample.png" | prepend: site.baseurl }}" alt="Postman request" />
+	<img src="{{ "/images/restapicourse/postmannewinterface.png" | prepend: site.baseurl }}" alt="Postman request" />
 
 7. Click **Send**.
 
@@ -66,9 +63,9 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 ## Save the request
 {{activity}}
 1. In Postman, click the **Save** button (next to Send). 
-2. Create a new collection (e.g., weather) by typing the collection name in the **or create a new one** box.
-3. Type a name for the request (e.g., aqi).
-4. At the bottom of the dialog box, click **Add to Collection.**
+2. Create a new collection (e.g., weather) by typing the collection name in the **"Or create new collection"** box.
+3. In the Request Name box at the top of the dialog box, type a friendly name for the request, such as "AQI endpoint".
+4. At the bottom of the dialog box, click **Save.**
 
 Saved endpoints appear in the left column under Collections.
 
@@ -79,17 +76,17 @@ Enter details into Postman for the other two endpoints for the Mashape Weather A
 * weather
 * weatherdata
 
-When you save these other endpoints, click the arrow next to Save and choose **Save as**. Then choose a new collection and request name. (Otherwise you'll overwrite the settings of the existing call.)
+When you save these other endpoints, click the arrow next to Save and choose **Save to collection**. Then choose a new collection and request name. (Otherwise you'll overwrite the settings of the existing call.)
 
 <img src="{{ "/images/restapicourse/postmansaveas.png" | prepend: site.baseurl }}" alt="Save as" />
 
-(Alternatively, click the **+** button and create new tabs each time.)
+(Alternatively, click the **+** button on the new tab and create new tabs each time.)
 
 {{note}}The Accept header tells the browser what format you will accept the response in. The Accept header for the <code>weatherdata</code> endpoint is <code>application/json</code>, whereas the first two are <code>text/plain</code>. {{end}}
 
 ## View the format of the weatherdata response in JSON
 {{activity}}
-The first two endpoint responses include text only. The weatherdata endpoint response is in JSON format. 
+The first two endpoint responses include text only. The weatherdata endpoint response requires a JSON format. 
 
 In Postman, run the weatherdata call. Then toggle the options to **Pretty** and **JSON**.
 
@@ -114,13 +111,14 @@ Here are a few requests to configure for Aeris. You can just paste the requests 
 Find out if all the country music in Knoxville, Tennessee is giving people migraines:
 
 ```
-http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id={client id}&client_secret={client secret}
+http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENT ID&client_secret=CLIENT SECRET
+http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENT ID&client_secret=CLIENT SECRET
 ```
 
 Get the weather forecast for your area:
 
 ```
-http://api.aerisapi.com/observations/Santa+Clara,CA?client_id={client id}&client_secret={client secret}&limit=1
+http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=CLIENT ID&client_secret=CLIENT SECRET&limit=1
 ```
 
 In the response, find the wind speed and compare it with the wind from the Mashape API. Are they the same?
@@ -128,13 +126,13 @@ In the response, find the wind speed and compare it with the wind from the Masha
 Get the weather from a city on the equator &mdash; Chimborazo, Ecuador:
 
 ```
-http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id={client id}&client_secret={client secret}&limit=1
+http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id=CLIENT ID&client_secret=CLIENT SECRET&limit=1
 ```
 
 You're thinking of moving to Arizona, but you want to find a place that's cool. Use the `normals` endpoint:
 
 ```
-http://api.aerisapi.com/normals/flagstaff,az?client_id={client id}&client_secret={client secret}&limit=5&filter=hassnow
+http://api.aerisapi.com/normals/flagstaff,az?client_id=CLIENT ID&client_secret=CLIENT SECRET&limit=5&filter=hassnow
 ```
 
 By looking at these two different weather APIs, you can see some sharp differences in the way the information is called and returned. However, fundamentally both APIs have various endpoints that you can configure with parameters. When you make requests with the endpoints, you get responses that contain information, often in JSON format.

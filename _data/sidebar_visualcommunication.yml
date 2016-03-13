@@ -14,7 +14,7 @@ entries:
           url: /tocpage.html
           output: pdf
 
-    - title: Using a REST API as a developer
+    - title: Visual Communication
       items:
         - title: Course overview
           url: /visualcommunication_course_overview/
