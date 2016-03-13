@@ -161,10 +161,11 @@ topnav_dropdowns:
         url: /category-writing/
 
     - title: Courses
-    - title: API documentation
-      url: /docapis_course_overview/
-    - title: Visual communication
-      url: /visualcommunication_overview/
+      items:
+        - title: API documentation
+          url: /docapis_course_overview/
+        - title: Visual communication
+          url: /visualcommunication_overview/
 
     - title: Other
       items:
