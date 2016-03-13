@@ -3,11 +3,11 @@ title: "Starting a new series on visual communication"
 categories:
 - visual-communication
 keywords: visual communication, screenshots, images, technical documentation visuals, screen captures, best practices
-summary: ""
-thumb: 
+summary: "The other week on Twitter I noted that, despite the power visuals play in communicating technical concepts, there's not a lot of good information out there on visual communication in the context of technical documentation. As a result, I'm starting a series focused on visual communication, somewhat like the series I wrote about API documentation. One benefit of publishing this info on a blog is that you can regularly publish small articles and benefit from widespread feedback to help you course-correct early and move towards more accurate information."
+thumb: visualcommunicationthumb.png
 ---
 
-The other week on Twitter I noted that, despite the power visuals play in communicating technical concepts, there's not a lot of good information on visual communication in the context of technical documentation out there. 
+Here's my post last week on Twitter:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It’s kind of puzzling that there is such power in visuals yet almost no good instruction on how to do visuals in <a href="https://twitter.com/hashtag/techcomm?src=hash">#techcomm</a> documentation.</p>&mdash; Tom Johnson (@tomjohnson) <a href="https://twitter.com/tomjohnson/status/707623373963010048">March 9, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

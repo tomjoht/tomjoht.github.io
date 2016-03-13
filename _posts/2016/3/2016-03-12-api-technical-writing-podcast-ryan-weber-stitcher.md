@@ -19,7 +19,7 @@ You can learn about Ryan and the podcast here:
 * [Ryan Weber](http://www.uah.edu/ahs/departments/english/faculty-staff/ryan-weber)
 * [10 Minute Tech Comm](http://www.stitcher.com/podcast/10minute-tech-comm)
 
-By the way, you can subscribe to the podcast in iTunes here or download the Stitcher app through your app store to listen to podcasts.
+You can subscribe to the podcast in iTunes here or download the Stitcher app through your app store to listen to podcasts.
 
 
 
