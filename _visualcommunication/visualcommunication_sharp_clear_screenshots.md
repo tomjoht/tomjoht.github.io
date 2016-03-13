@@ -16,58 +16,56 @@ If you want clear, crisp screenshots, you have several options:
 * Capture from a retina display and resize in the browser
 
 ## Capture and display at a 1:1 ratio
-If you capture your screen at the same ratio you display the images, then they will be sharp and clear. For example, suppose you capture your screen at 640x480px. If you also display your image in the same dimensions, you won't lose any of the clarity, and your screenshot will remain sharp and clear.
+If you capture your screen at the same ratio you display the images, the screenshots will be sharp and clear. For example, suppose you capture your screen at 640x480px. If you also display your image in the same dimensions, you won't lose any of the clarity, and your screenshot will remain sharp and clear.
 
-However, 640x480px is somewhat large. Lots of screenshots this size will bloat your documentation. Additionally, at times you may need to show larger captures than 640x480px, and then shrink them down to this size. 
+However, 640x480px is somewhat large. Lots of screenshots this size will bloat your documentation. Additionally, at times you may need to show screen sizes larger than 640x480px, but then shrink them down to this size. 
+
+Overall, trying to follow the 1:1 ratio for capturing and publishing doesn't really work unless you fill your documentation with partial screenshots (screenshots that show only a partial area of the screen). The more partial a screenshot, the less context you include and the more confusing it becomes to users.
 
 ## Zoom out on your browser's magnification
 
 You can shrink your screen display by zooming out (Shift + - on a PC, Cmd +  - on a Mac). If the website is coded well, this may reduce the screen size while also keeping the text clear. 
 
-However, not all sites retain the same proportions well when you zoom out. Additionally, it can be hard to remember exactly how many times you've zoomed out, which could create inconsistent magnification levels in your screenshots.
+However, not all sites retain the same proportions well when you zoom out. Additionally, it can be hard to remember exactly how many times you've zoomed out, which could create inconsistent magnification levels in your screenshots. 
+
+If you have some partial screenshots that aren't zoomed out, mixed in with some full-size screenshots that are zoomed out, there will be an inconsistency with the magnification levels. This may be all right, but overall I am not a huge fan of zooming out with my browser. It's just not very practical.
 
 
 ## Capture from a retina display
 
-This is probably the best approach, but it requires a Mac with a high retina display. If you have a MacBook Pro, move your screen to this display and take your screen capture there. Using Snagit, when you save the screenshot you'll see a "Save using Retina size" option. (This option only appears if you take the screen capture from a high retina display.)
+You can also capture from a retina display and then resize the image in your browser to a smaller size. This approach requires a Mac with a high retina display. 
 
-Save using the retina size, and then embed the screenshot on your page. If you were to view the screen shot display in the browser, you'll see that the screenshot actually looks huge. Add sizing to rescale the display in the browser, like this:
+If you have a MacBook Pro (perhaps hooked up to multiple monitors that may not have retina displays), move the screen you plan to capture to this display and take your screen capture there. Using Snagit, when you save the screenshot you'll see a "Save using Retina size" option. (This option only appears if you take the screen capture from a high retina display.)
+
+Save using the retina size, and then embed the screenshot on your page. If you were to view the embedded screen shot in the browser, you'll see that the screenshot actually looks huge. Add sizing to rescale the display in the browser, like this:
  
 ```
 <img src="test1mac.png" style="max-width:640px"/>
 ```
 
-Now you've got twice as many dots packed in half the space as usual. As a result, the screenshot will be sharper and clearer. 
+Now you've got twice as many pixels packed in half the space as usual. As a result, the screenshot will be sharper and clearer.
+
+Here's an example:
+
+--
+-- 
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](dpi.lv).
 
-My Dell monitor has 166 pixels per inch, but my Macbook Pro screen has 277. This means you're capturing more pixels in your image on the retina display. When Snagit saves the retina capture, it magnifies the pixels into an output with 72 DPI, so as a result it looks huge.
+My Dell monitor has 166 pixels per inch (PPI), but my Macbook Pro screen has 277 PPI. This means when you capture using your retina monitor, you're capturing more pixels in your image on the retina display. When Snagit saves the retina capture, it saves the image as twice the scale of the dimensions you actually grabbed.
 
-When you resize that image in your browser by scaling it down, you retain those extra pixels on high retina monitors. On non-retina monitors, you get 72 DPI no matter what. 
+When you resize that image in your browser by scaling it down, you retain those extra pixels on high retina monitors. On non-retina monitors, you get 72 DPI no matter what, so the effect isn't as worthwhile.
 
-capture on retina, you see the scaled dimensions.
+Here's a detailed example. 
 
-Does that mean my 640 x 480 capture is saved at 1280 x 960 px dimensions?
-yes
+Using Snagit, I take a screen capture at 640 x 480px on a MacBook Pro retina monitor.
 
-suppose I took a screenshot on a Dell monitor (non-retina) at 1280 x 960px, and then I resized it to half that size in the browser display. Would it look just as sharp as the retina version?
-Alex O.
-I would expect it to be similar, yes. But it is using a totally different resampling method, so it's something you would have to test
+When I save the image, I select the check box that says "Save using retina size."
 
-The more an image gets rescaled from its original dimensions, generally the worse the quality. That's the only reason I mention that
+The resulting image is now 1280 x 960px. This is because the retina capture includes more pixels per inch, and Snagit is preserving these pixels but, I believe, resampling the image with 72 DPI. The extra pixels can only be included by scaling the image at twice the size.
 
-when i resize-down the image in the browser, am I pushing more pixels into a smaller space?
+When embedding the screenshot, either constrain the size of the image with an inline style or set a sitewide style that constrains a max-width for images. This means you're pushing more pixels into a smaller space.
 
-the whole PPI and DPI stuff is a little confusing to me. Can you clarify the difference between these two? is PPI the screen resolution, whereas DPI is the image resolution?
+Here are some links for additional reading:
 
-yes
-## Capture at twice the size you plan to display
-
-
-https://support.techsmith.com/hc/en-us/articles/203732158-Snagit-Windows-Images-are-blurry-or-fuzzy
-
-
-There are some external article out there about how scaling down hurts image quality: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=why%20does%20scaling%20down%20images%20hurt%20quality
-
-
-You are right though, it can get a little tricky as there are many variables happening when rescaling, viewing on other monitors etc. Unfortunately I am not able to locate any specific documentation on our behalf regarding that checkbox
+* [Snagit (Windows): Images are blurry or fuzzy](https://support.techsmith.com/hc/en-us/articles/203732158-Snagit-Windows-Images-are-blurry-or-fuzzy)
