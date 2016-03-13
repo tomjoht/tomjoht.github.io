@@ -26,4 +26,4 @@ I never insert API keys in code samples for a few reasons:
 * API keys posted online get abused
 * Customizing the code sample is a good thing
 
-When you see `APIKEY` in a code sample, remember to swap in an API key there. Remove the curly braces `{ }`. For example, if the API key was `123`, you would delete `APIKEY` and use `123`.
+When you see `APIKEY` in a code sample, remember to swap in an API key there. For example, if the API key was `123`, you would delete `APIKEY` and use `123`.
