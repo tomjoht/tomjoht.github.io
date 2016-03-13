@@ -48,7 +48,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 	
 	When you add these `lat` and `lng` parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the code followed by the `?` in the endpoint URI. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're joined with an ampersand `&` symbol.
 	
-5. Click the **Headers** tab (below the GET button) and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: API KEY`. (Swap in your own API key in place of `API KEY`.)
+5. Click the **Headers** tab (below the GET button) and insert the key value pairs: `Accept: text/plain` and `X-Mashape-Key: APIKEY`. (Swap in your own API key in place of `APIKEY`.)
 	
     It should look like this:
 
@@ -111,14 +111,14 @@ Here are a few requests to configure for Aeris. You can just paste the requests 
 Find out if all the country music in Knoxville, Tennessee is giving people migraines:
 
 ```
-http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENT ID&client_secret=CLIENT SECRET
-http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENT ID&client_secret=CLIENT SECRET
+http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
+http://api.aerisapi.com/indices/migraine/Knoxville,TN?client_id=CLIENTID&client_secret=CLIENTSECRET
 ```
 
 Get the weather forecast for your area:
 
 ```
-http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=CLIENT ID&client_secret=CLIENT SECRET&limit=1
+http://api.aerisapi.com/observations/Santa+Clara,CA?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
 In the response, find the wind speed and compare it with the wind from the Mashape API. Are they the same?
@@ -126,13 +126,13 @@ In the response, find the wind speed and compare it with the wind from the Masha
 Get the weather from a city on the equator &mdash; Chimborazo, Ecuador:
 
 ```
-http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id=CLIENT ID&client_secret=CLIENT SECRET&limit=1
+http://api.aerisapi.com/observations/Chimborazo,Ecuador?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=1
 ```
 
 You're thinking of moving to Arizona, but you want to find a place that's cool. Use the `normals` endpoint:
 
 ```
-http://api.aerisapi.com/normals/flagstaff,az?client_id=CLIENT ID&client_secret=CLIENT SECRET&limit=5&filter=hassnow
+http://api.aerisapi.com/normals/flagstaff,az?client_id=CLIENTID&client_secret=CLIENTSECRET&limit=5&filter=hassnow
 ```
 
 By looking at these two different weather APIs, you can see some sharp differences in the way the information is called and returned. However, fundamentally both APIs have various endpoints that you can configure with parameters. When you make requests with the endpoints, you get responses that contain information, often in JSON format.

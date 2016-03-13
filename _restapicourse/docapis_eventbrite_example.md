@@ -118,7 +118,7 @@ The information has a lot more than we need. We just want to display the event's
   var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://www.eventbriteapi.com/v3/events/17920884849/?token=API KEY",
+    "url": "https://www.eventbriteapi.com/v3/events/17920884849/?token=APIKEY",
     "method": "GET",
     "headers": {}
   }

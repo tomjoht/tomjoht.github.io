@@ -19,11 +19,11 @@ In these examples, I usually printed the code to a web page to visualize the res
 ## Shortcuts for API keys
 Each API requires you to use an API key, token, or some other form of authentication. You can register for your own API keys, or you can [use my keys here](http://learnapidoc.com/apikeys.txt).
 
-## Swap out API KEY in code samples
+## Swap out APIKEY in code samples
 I never insert API keys in code samples for a few reasons:
 
 * API keys expire
 * API keys posted online get abused
 * Customizing the code sample is a good thing
 
-When you see `API KEY` in a code sample, remember to swap in an API key there. Remove the curly braces `{ }`. For example, if the API key was `123`, you would delete `API KEY` and use `123`.
+When you see `APIKEY` in a code sample, remember to swap in an API key there. Remove the curly braces `{ }`. For example, if the API key was `123`, you would delete `APIKEY` and use `123`.

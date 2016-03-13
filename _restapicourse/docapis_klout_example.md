@@ -272,7 +272,7 @@ Using jQuery, you can iterate through the JSON payload and pull out the informat
   var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "http://api.klout.com/v2/user.json/1134760/influence?key=API KEY&callback=?",
+    "url": "http://api.klout.com/v2/user.json/1134760/influence?key=APIKEY&callback=?",
     "method": "GET",
     "dataType": "jsonp",
     "headers": {}
@@ -298,7 +298,7 @@ Using jQuery, you can iterate through the JSON payload and pull out the informat
 </body>
 </html>
 ```
-{{note}} Remember to swap in your own API key in place of <code>API KEY</code>.{{end}}
+{{note}} Remember to swap in your own API key in place of <code>APIKEY</code>.{{end}}
 The result looks like this:
 
 <img src="{{ "/images/restapicourse/kloutinfluencelists.png" | prepend: site.baseurl }}" alt="Klout result" />
@@ -314,7 +314,7 @@ Pretty much the same approach is used for the `data.myInfluencers` object, but t
 Note that in the `ajax` settings, a new attribute is included: `"dataType": "jsonp"`. If you omit this, you'll get an error message that says:
 
 ```
-XMLHttpRequest cannot load http://api.klout.com/v2/user.json/876597/influence?key=API KEY&callback=?. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.
+XMLHttpRequest cannot load http://api.klout.com/v2/user.json/876597/influence?key=APIKEY&callback=?. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.
 ```
 
 When you submit requests to endpoints, you're getting information from other domains and pulling the information to your own domain. For security purposes, servers block this action. The resource server has to enable something called Cross Origin Resource Sharing (CORS).

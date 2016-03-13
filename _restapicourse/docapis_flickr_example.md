@@ -54,7 +54,7 @@ Here's the result:
 The URL below the response shows the right syntax for using this method:
 
 ```
-https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=API KEY&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1
+https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=APIKEY&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1
 ```
 
 {{note}} I have removed my API key from code samples to prevent possible abuse to my API keys. If you're following along, swap in your own API key here.{{end}}
@@ -128,7 +128,7 @@ img {max-height:125px; margin:3px; border:1px solid #dedede;}
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=API KEY&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1",
+  "url": "https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=APIKEY&gallery_id=66911286-72157647277042064&format=json&nojsoncallback=1",
   "method": "GET",
   "headers": {}
 }

@@ -250,7 +250,7 @@ vOAuth 2.0
 * Let's explore more APIs
 * Attack the challenge first, then read the answer
 * Shortcuts for API keys
-* Swap out API KEY in code samples
+* Swap out APIKEY in code samples
 
 ## 4.0 EventBrite example: Get Event information and display it on a page
 * The challenge

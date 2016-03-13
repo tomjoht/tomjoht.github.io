@@ -119,7 +119,7 @@ Check your work by looking at the <a href="{{ "/docapis_answers" | prepend: base
 {{activity}}
 At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together. 
 
-Copy the following code into a basic HTML page, customize the `API KEY` value, and view it in the browser:
+Copy the following code into a basic HTML page, customize the `APIKEY` value, and view it in the browser:
 
 ```html
 <html>
@@ -148,7 +148,7 @@ function checkWind() {
     "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "API KEY"
+    "x-mashape-key": "APIKEY"
   }
 }
 

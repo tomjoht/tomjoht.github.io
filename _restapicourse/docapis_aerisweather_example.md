@@ -19,7 +19,7 @@ In this example, you'll get the wind in MPH and then set an answer to display on
 
 ## 1. Get the API keys
 
-See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-started/) page for information on how to register and get API keys. (Obviously get the free version of the keys available to development projects.) You will need both the client ID and client secret to make API calls.
+See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-started/) page for information on how to register and get API keys. (Obviously get the free version of the keys available to development projects.) You will need both the CLIENTID and CLIENTSECRET to make API calls.
 
 ## 2. Construct the request
 
@@ -144,8 +144,8 @@ To add a little variety to the code samples, here's one that's a bit different. 
              url: "http://api.aerisapi.com/observations/santa%20clara,ca",
              type: "GET",
              data: {
-                 "client_id": "CLIENT ID",
-                 "client_secret": "CLIENT SECRET",
+                 "client_id": "CLIENTID",
+                 "client_secret": "CLIENTSECRET",
              },
          })
          .done(function(data, textStatus, jqXHR) {

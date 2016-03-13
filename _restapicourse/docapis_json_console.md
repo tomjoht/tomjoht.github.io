@@ -70,7 +70,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	  "method": "GET",
 	  "headers": {
 	    "accept": "application/json",
-	    "x-mashape-key": "API KEY"
+	    "x-mashape-key": "APIKEY"
 	  }
 	}
 	$.ajax(settings).done(function (response) {

@@ -272,26 +272,26 @@ You can also choose JSON, but YAML is more readable and works just as well.
         }
    ```
 	
-7. Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "API KEY", "header"));`, so that it looks like this:
+7. Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "APIKEY", "header"));`, so that it looks like this:
 	
    ```js
 	      function addApiKeyAuthorization(){
 	        var key = encodeURIComponent($('#input_apiKey')[0].value);
 	        if(key && key.trim() != "") {
 	            var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
-	            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "API KEY", "header"));
+	            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "APIKEY", "header"));
 	            log("added key " + key);
 	        }
    ```
 	
-	Insert your API key in `API KEY`. Otherwise users wil have to enter their own API keys.
+	Insert your API key in `APIKEY`. Otherwise users wil have to enter their own API keys.
 	
 7. Uncomment out following lines here by removing the `/*` and `*/`:
 	
    ```js
 	// if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
 	  /*
-	    var apiKey = "API KEY";
+	    var apiKey = "APIKEY";
 	    $('#input_apiKey').val(apiKey);
 	  */
    ```
@@ -299,14 +299,14 @@ You can also choose JSON, but YAML is more readable and works just as well.
 8. Add in your API key into this section:
 	
    ```js
-	var apiKey = "API KEY";
+	var apiKey = "APIKEY";
 	$('#input_apiKey').val(apiKey);    
    ```
 	
 9. Save the file.
 10. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
 	
-If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `var apiKey = "API KEY";`. Replace `API KEY` in a couple of places with your own API key for Mashape.
+If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `var apiKey = "APIKEY";`. Replace `APIKEY` in a couple of places with your own API key for Mashape.
 
 ```html
 
@@ -373,7 +373,7 @@ If the previous instructions were confusing, just copy the following code and re
         if(key && key.trim() != "") {
             var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
             //window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);
-            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "API KEY", "header"));
+            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "APIKEY", "header"));
             log("added key " + key);
         }
       }
@@ -382,7 +382,7 @@ If the previous instructions were confusing, just copy the following code and re
 
       // if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
       
-        var apiKey = "API KEY";
+        var apiKey = "APIKEY";
         $('#input_apiKey').val(apiKey);
       
 

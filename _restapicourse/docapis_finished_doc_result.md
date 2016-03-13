@@ -60,7 +60,7 @@ Here's my example.
 
 {% highlight bash %}
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
-  -H 'X-Mashape-Key: API KEY'
+  -H 'X-Mashape-Key: APIKEY'
   -H 'Accept: application/json'
 {% endhighlight %}
 
@@ -179,7 +179,7 @@ var settings = {
   "method": "GET",
   "headers": {
     "accept": "application/json",
-    "x-mashape-key": "API KEY"
+    "x-mashape-key": "APIKEY"
   }
 }
 
