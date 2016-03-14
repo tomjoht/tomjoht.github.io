@@ -6,28 +6,24 @@ course: "Visual Communication"
 weight: 0.2
 type: visualcommunication
 ---
-<style>
 
+<style>
     .col-md-9 img.six{
         max-width: 600px;
     }
-    
     .col-md-9 img.four{
         max-width: 400px;
     }
-    
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px){
     /* mobile sidebar area, mobile top banner ad area */
     .col-md-9 img.six{
         max-width: 100%;
     }
-    
     .col-md-9 img.four{
         max-width: 100%;
-    }
-    
+    } 
   }
-  </style>
+</style>
   
 Technical writers take a lot of screen captures, often showing interfaces with both text and graphic elements. Usually these are partial screen captures that focus on the part of the screen they are highlighting. 
 
@@ -80,30 +76,30 @@ Now you've got twice as many pixels packed in half the space. As a result, the s
 
 Let's look some examples. Note that you won't be able to see the difference unless you can switch between a Retina and non-Retina monitor. If you have an iPhone, which has a Retina display, you can open it up to observe the differences in screen resolution.
 
-<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. 254KB.</figcaption></figure>
+<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. 254KB. <i>Not clear.</i> </figcaption></figure>
 
-<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an inline style. 680KB.</figcaption></figure>
+<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an inline style. 680KB. <i>Clear on a Retina monitor only.</i> </figcaption></figure>
 
-<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions. 219KB</figcaption></figure>
+<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions. 219KB. <i>Clear only on monitors with 138 PPI or worse. Not clear on Retina monitors.</i> </figcaption></figure>
 
-<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an inline style. 635KB.</figcaption></figure>
+<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an inline style. 635KB. <i>Not clear.</i></figcaption></figure>
 
+<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. 254KB. Not clear. </figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. </figcaption></figure>
+<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style. 680KB. Clear on a Retina monitor only. </figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style.</figcaption></figure>
+<figure><img class="four" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser. 219KB. <i>Not clear.</i></figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser.</figcaption></figure>
-
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style.</figcaption></figure>
-
+<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style. 635KB.  <i>Not clear.</i> </figcaption></figure>
 
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](dpi.lv).
 
-My Dell monitor at work has 166 pixels per inch (PPI), my Dell All-in-One PC monitor has 138 PPI, and my Macbook Pro screen has 277 PPI. This means when I capture using my retina monitor, I'm capturing more pixels in my image due to the retina display. When Snagit saves the retina capture, it saves the image as twice the scale of the dimensions I actually grabbed.
+My Dell monitor at work has 166 pixels per inch (PPI), my Dell All-in-One PC monitor has 138 PPI, and my Macbook Pro screen has 277 PPI. This means when I capture using my Mac's Retina monitor, I'm capturing more pixels in my image due to the Retina display. When Snagit saves the Retina capture, it saves the image as twice the scale of the dimensions I actually grabbed.
 
-When I constrain that image in the browser to a scaled down dimension, I retain those extra pixels on high retina monitors. On non-retina monitors, the extra pixels are wasted because they only accept a certain threshold, so having more does nothing. 
+When I constrain that image in the browser to a scaled down dimension, I retain those extra pixels on Retina displays, since their high PPI allows them to make use of the pixels. On non-retina monitors, the extra pixels are wasted because the monitors only accept a certain PPI threshold, so having more does nothing. 
+
+In sum, the only way to get crisp images on a non-Retina monitor is by preserving the 1:1 capture/display ratio. But on Retina monitors, you can get high fidelity by using saving the capture in the Retina size, though your page may load slower due to the large images. 
 
 ## Detailed example 
 
@@ -120,9 +116,7 @@ Here's a detailed example of how to get crisp images:
 Retina display images have a couple of downsides. Mainly, the file sizes can be about four times as large. 
 
 
-------
-assume you are saving as png
-scaling images up or down tends to degrade the image. 
+
 2 different images, one for print, one for online. madcap capture allows this, but if you capture from a regular screen, will you see any benefit? what if you save as a TIF?
 why vectors aren't discussed here.
 artboard width should be a whole number, not partial. 16, 24, 32. not sure if this applies if you're using illustrator, since it's vector based.
