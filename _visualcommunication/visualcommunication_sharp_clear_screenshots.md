@@ -7,10 +7,9 @@ weight: 0.2
 type: visualcommunication
 ---
 
-
 Technical writers take a lot of screen captures, often showing interfaces with both text and graphic elements. Usually these are partial screen captures that focus on the part of the screen they are highlighting. 
 
-In general, a lot of technical writers use Snagit and save the screen captures as PNG files. By "screen capture," I'm referring to captures taken of specific user interfaces.
+In general, a lot of technical writers use Snagit and save the screen captures as PNG files, and that's what I'm doing here. By "screen capture," I'm referring to captures taken of specific user interfaces.
 
 If you want clear, crisp screen captures, you have several options:
 
@@ -45,6 +44,8 @@ If you have some partial screenshots that aren't zoomed out, mixed in with some 
 You can also capture from a retina display and then resize the image in your browser to a smaller size. This approach requires a Mac with a retina display. 
 
 If you have a MacBook Pro (perhaps hooked up to multiple monitors that may not have retina displays), move the screen you plan to capture to the Mac retina display and take your screen capture there. Using Snagit, when you save the screenshot you'll see a "Save using Retina size" option. (This option only appears if you take the screen capture from a high retina display.)
+
+<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}"/></a><figcaption>This option only appears when you take a capture from a retina monitor (Mac)</figcaption></figure>
 
 Save using the retina size, and then embed the screenshot on your page. If you were to view the embedded screen shot in the browser, you'll see that the screenshot is actually twice the size of the original dimensions. Add sizing to rescale the display in the browser, like this:  
  
