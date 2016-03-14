@@ -85,7 +85,7 @@ Let's look at some examples. Note that you won't be able to see the difference u
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your screen's PPI: [http://dpi.lv/](http://dpi.lv).
 
-My Dell monitor at work has 166 pixels per inch (PPI), my Dell All-in-One PC monitor at home has 138 PPI, and my Macbook Pro screen has 277 PPI. This means when I capture a screen using my Mac's Retina monitor, I'm capturing more pixels in my image due to the Retina display. When Snagit saves the Retina capture, it saves the image as twice the scale of the dimensions I actually grabbed because of all the extra pixels.
+One Dell monitor I use has 166 pixels per inch (PPI), another Dell All-in-One PC monitor I use has 138 PPI, and my Macbook Pro screen has 277 PPI. This means when I capture a screen using my Mac's Retina monitor, I'm capturing more pixels in my image due to the Retina display. When Snagit saves the Retina capture, it saves the image as twice the scale of the dimensions I actually grabbed because of all the extra pixels.
 
 When I constrain that image in the browser to a scaled-down dimension (600x400px instead of 1200x800px), I retain those extra pixels on Retina displays, since the screen's high PPI allows them to make use of the pixels (there is space for the pixels to go). On non-Retina monitors, however, the extra pixels are wasted because the monitors only accept a certain PPI threshold &mdash; having more pixels does nothing, and when the monitor has to drop some pixels to accommodate the image, degradation starts to occur. 
 
