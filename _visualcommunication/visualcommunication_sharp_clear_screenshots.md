@@ -57,14 +57,14 @@ Now you've got twice as many pixels packed in half the space. As a result, the s
 Let's look some examples. Note that you won't be able to see the difference unless you can switch between a retina and non-retina monitor.
 
 
-<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>600x400px, Mac 600x400px, Not saved as retina capture</figcaption></figure>
+<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina captured at 600x400px dimensions, but not saved as retina capture</figcaption></figure>
 
-<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>600x400px, Mac 600x400px, saved as Retina capture and constrained to 600x400px in the browser</figcaption></figure>
+<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina captured at 600x400px, and saved as Retina capture which makes the image 2x the original size. Constrained to 600x400px in the browser using an inline style.</figcaption></figure>
 
-<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>600x400px, Non-retina monitor 600x400px </figcaption></figure>
+<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px.</figcaption></figure>
 
 
-<figure><img  style="max-width: 600px src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina monitor 1200x800px constrained in the browser to half this size</figcaption></figure>
+<figure><img style="max-width: 600px src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px, and then constrained in the browser to half this size (600x400px) using an inline style</figcaption></figure>
 
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](dpi.lv).
