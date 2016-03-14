@@ -1,5 +1,5 @@
 ---
-title: 'Getting sharp, clear text in screen captures'
+title: 'Getting sharp, clear text in screen captures &mdash; and making sense of Retina displays'
 permalink: /visualcommunication_sharp_clear_screenshots/
 keywords: 
 course: "Visual Communication"
@@ -14,7 +14,7 @@ type: visualcommunication
     .col-md-9 img.four{
         max-width: 400px;
     }
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px){
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
     /* mobile sidebar area, mobile top banner ad area */
     .col-md-9 img.six{
         max-width: 100%;
@@ -25,18 +25,18 @@ type: visualcommunication
   }
 </style>
   
-Technical writers take a lot of screen captures, often showing interfaces with both text and graphic elements. Usually these are partial screen captures that focus on the part of the screen they are highlighting. 
+Technical writers take a lot of screen captures, often showing interfaces with both text and graphic elements. Usually these are partial screen captures that focus on the part of the screen they are highlighting. (By "screen capture," I'm referring to captures taken of specific user interfaces.)
 
-In general, a lot of technical writers use Snagit and save the screen captures as PNG files, and that's what I'm doing here. By "screen capture," I'm referring to captures taken of specific user interfaces.
+In general, a lot of technical writers use Snagit and save the screen captures as PNG files, which is what I also do. 
 
-If you want clear, crisp screen captures &mdash; especailly when those screens contain text &mdash; you have several options:
+If you want clear, crisp screen captures &mdash; especially when those screens contain text &mdash; you have several options:
 
 * Capture and display at a 1:1 ratio
 * Zoom out on your browser's magnification before capturing
 * Capture from a retina display and resize in the browser
 
 ## Capture and display at a 1:1 ratio
-If you capture your screen at the same ratio you display the images, the screenshots will be sharp and clear. For example, suppose you capture your screen at 600x400px (my preferred dimensions for captures). If you also display your image in the same dimensions, you won't lose any of the clarity, and your screenshot will remain sharp and clear.
+If you capture your screen at the same ratio you display the images, the screenshots will be sharp and clear. For example, suppose you capture your screen at 600x400px. If you also display your image in the same dimensions, you won't lose any of the clarity, and your screenshot will remain sharp and clear *on other monitors that have similar or worse pixel-per-inch (PPI) density.
 
 However, 600x400px is somewhat large and doesn't work for all screen captures. At times you may need to show screen sizes larger than 600x400px but then shrink them down to this size. 
 
@@ -76,21 +76,23 @@ Now you've got twice as many pixels packed in half the space. As a result, the s
 
 Let's look some examples. Note that you won't be able to see the difference unless you can switch between a Retina and non-Retina monitor. If you have an iPhone, which has a Retina display, you can open it up to observe the differences in screen resolution.
 
-<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. 254KB. <i>Not clear.</i> </figcaption></figure>
+<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. 254KB. <i>Not crisp.</i> </figcaption></figure>
 
-<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an inline style. 680KB. <i>Clear on a Retina monitor only.</i> </figcaption></figure>
+<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an inline style. 680KB. <i>Crisp on a Retina monitor only.</i> </figcaption></figure>
 
-<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions. 219KB. <i>Clear only on monitors with 138 PPI or worse. Not clear on Retina monitors.</i> </figcaption></figure>
+<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions. 219KB. <i>Crisp only on monitors with 138 PPI or worse. Not clear on Retina monitors.</i> </figcaption></figure>
 
-<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an inline style. 635KB. <i>Not clear.</i></figcaption></figure>
+<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an inline style. 635KB. <i>Not crisp.</i></figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. 254KB. Not clear. </figcaption></figure>
+Now let's constrain the size of the image even more, to 400px. 
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style. 680KB. Clear on a Retina monitor only. </figcaption></figure>
+<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. 254KB. Somewhat crisp on a Retina monitor. </figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser. 219KB. <i>Not clear.</i></figcaption></figure>
+<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style. 680KB. Crisp on a Retina monitor. </figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style. 635KB.  <i>Not clear.</i> </figcaption></figure>
+<figure><img class="four" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser. 219KB. <i>Somewhat crisp on a Retina monitor.</i></figcaption></figure>
+
+<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style. 635KB.  <i>Somewhat crisp on a Retina monitor.</i> </figcaption></figure>
 
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](dpi.lv).
@@ -99,7 +101,9 @@ My Dell monitor at work has 166 pixels per inch (PPI), my Dell All-in-One PC mon
 
 When I constrain that image in the browser to a scaled down dimension, I retain those extra pixels on Retina displays, since their high PPI allows them to make use of the pixels. On non-retina monitors, the extra pixels are wasted because the monitors only accept a certain PPI threshold, so having more does nothing. 
 
-In sum, the only way to get crisp images on a non-Retina monitor is by preserving the 1:1 capture/display ratio. But on Retina monitors, you can get high fidelity by using saving the capture in the Retina size, though your page may load slower due to the large images. 
+When I constrain the display to 400px on a Retina monitor, I pack more pixels into the space and so the image resolution increases. But with non-Retina monitors, there isn't the PPI available, so the images aren't crisp.
+
+In sum, the only way to get crisp images on a non-Retina monitor is by preserving the 1:1 capture/display ratio. But on Retina monitors, you can get high fidelity by using saving the capture in the Retina size, though your page may load slower due to the large images. Alternatively, you can constrain images into smaller spaces. Constraining a 600px image into a 400px space makes the image somewhat crisp. This is similar to the Retina size of 1200px being constrained into a 600px space.
 
 ## Detailed example 
 
@@ -113,16 +117,15 @@ Here's a detailed example of how to get crisp images:
 
 ## Downsides of Retina display images
 
-Retina display images have a couple of downsides. Mainly, the file sizes can be about four times as large. 
+Retina display images have a couple of downsides. Mainly, the file sizes can be about four times as large. If you have a lot of Retina screen captures loading on the same page, users might experience a progressive-download-display effect as the images download.
+
+Another problem is that manually embedding an inline style to control the width of the images makes mobile displays problematic. With mobile displays, you typically specify a max-width of 100% to fill the device window. But if you have an inline style that specifies a max-width of 600px, the mobile display of your image is too large and will require horizontal scrolling. At the same time, if you specify a max-width of 100% for the desktop
 
 
+-----
+Retina display is a proprietary marketing term coined by Apple, rather than a scientific term. To some it might evoke images of a complex scientific process; in reality it is just double resolution where pixels have been very closely packed to give higher quality and resolution. As an example, the pixel count can be anywhere from 220 pixels per inch (PPI) for third generation Mac Book Pros to 401 PPI for iPhone 6 Plus!
 
-2 different images, one for print, one for online. madcap capture allows this, but if you capture from a regular screen, will you see any benefit? what if you save as a TIF?
-why vectors aren't discussed here.
-artboard width should be a whole number, not partial. 16, 24, 32. not sure if this applies if you're using illustrator, since it's vector based.
+We can always set our code to display high-resolution images; however, there is a cost in displaying these images in the form of a bigger file size; the quality will be lost on low-resolution (low-res) devices.
 
-Retina currently means double the information in the same pixel.
-resulting file size
-
-
-dpi 138
+dual images. http://mattstow.com/experiment/responsive-images/responsive-images.html
+Instead, we could use a plugin, such as Retina JS, to tell browsers to serve hi-res images only when needed. Let's take a look at using one in action:
