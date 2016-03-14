@@ -1,6 +1,6 @@
 ---
 title: 'Visual communication overview'
-permalink: /visualcommunication_overview/
+permalink: /visualcommunication_course_overview/
 keywords:
 course: "Visual Communication"
 weight: 0.1
