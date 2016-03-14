@@ -8,20 +8,15 @@ type: visualcommunication
 ---
 
 <style>
+
+@media only screen and (min-width: 981px), only screen and (min-device-width: 981px){
+    /* mobile sidebar area, mobile top banner ad area */
     .col-md-9 img.six{
         max-width: 600px;
     }
     .col-md-9 img.four{
         max-width: 400px;
     }
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
-    /* mobile sidebar area, mobile top banner ad area */
-    .col-md-9 img.six{
-        max-width: 100%;
-    }
-    .col-md-9 img.four{
-        max-width: 100%;
-    } 
   }
 </style>
   
@@ -121,7 +116,7 @@ Retina display images have a couple of downsides. Mainly, the file sizes can be 
 
 Another problem is that manually embedding an inline style to control the width of the images makes mobile displays problematic. With mobile displays, you typically specify a max-width of 100% to fill the device window. But if you have an inline style that specifies a max-width of 600px, the mobile display of your image is too large and will require horizontal scrolling. At the same time, if you specify a max-width of 100% for the desktop
 
-
+{% comment %} 
 -----
 Retina display is a proprietary marketing term coined by Apple, rather than a scientific term. To some it might evoke images of a complex scientific process; in reality it is just double resolution where pixels have been very closely packed to give higher quality and resolution. As an example, the pixel count can be anywhere from 220 pixels per inch (PPI) for third generation Mac Book Pros to 401 PPI for iPhone 6 Plus!
 
@@ -129,3 +124,23 @@ We can always set our code to display high-resolution images; however, there is 
 
 dual images. http://mattstow.com/experiment/responsive-images/responsive-images.html
 Instead, we could use a plugin, such as Retina JS, to tell browsers to serve hi-res images only when needed. Let's take a look at using one in action:
+
+we don't want to show a high quality image if it chokes the available bandwidth of our device!
+
+The resolution of an image file is simply a tag that is stored in the header information of thefile. You can create two copies of the same image file and set one to 72 ppi and the other to300 ppi, but the size of the file will not change! Both files will contain the same number ofpixels; they will simply be tagged so that the pixels are spaced closer together or farther apart.Different programs will choose to use this resolution setting or not. For example, a presenta-tion program like Microsoft PowerPoint or Apple Keynote doesn’t care about resolution, soit ignores the setting. These programs are only concerned with pixel dimensions, and theyusually display one image pixel per screen pixel (unless you shrink the image within the appli-cation, so you can fit more image area on-screen).The average computer screen has a resolu-tion somewhere between 72 and 96 ppi, so many digital cameras output files at 72 pixels perinch. At 72 ppi, an image from a four- or five-megapixel camera will have an area of severalsquare feet. That is, if you line up those four or five million pixels so that 72 of them take upone inch, then your image will end up being several feet long. When viewing on-screen in your image editor, this huge size isn’t a problem because the com-puter can zoom in and out of the image to fit it onto your screen. For printing, though, thisis far too large an area to fit on a typical printer, and 72 ppi is too low a resolution to yieldgood quality. If your goal is to post the image to a Web site, then resolution is completely irrelevant—theonly thing you care about is pixel count. A monitor has a fixed resolution. That is, the num-ber of pixels that cover one inch is always the same. So the only thing you need to concernyourself with is how many pixels there are in to
+
+Pixels (short for picture elements) are the colored dots that appear on your computer screen. It’s veryimportant to understand that, when speaking of printing from your computer, there is a differencebetween the pixels on your screen—which are measured in pixels per inch—and the dots of ink yourprinter creates, which are measured in dots per inch. We’ll be discussing this in more detail later. Fornow, take note that we’re measuring our images in pixels per inch or 
+
+e. When you change the pixel count, you’ll either have to throw out someoriginal pixels or make up some additional 
+
+ ppi. That is, if you line up 72 of your image’spixels side by side, you will cover one inch of 
+ 
+ If you want to print this image on an 8" ϫ 10" piece of paper, while preserving its originalresolution, you could tell your computer to throw out enough pixels so it only has 8" ϫ 10"worth of pixels at 72 ppi. It would then discard every third pixel or so, to reduce the pixeldimensions of the image from 3648 ϫ 2736 pixels to 576 ϫ 720 pixels (see Figure 22.1).This process of changing the amount of data in the image is called resampling (or, more specif-ically, downsampling), because you are taking a sample of pixels from your original image tocreate a new, smaller im
+ 
+ 
+ pace. That is, the resolution of your image—the number ofpixels per inch—would have increased. This is what happens when you resize your imagewithout resampling (see Figure 
+ 
+ d output. In imaging terms,resolution is simply the measure of how many pixels fit into a given space. For example, ifyour image has a resolution of 72 pixels per inch (ppi), the pixels in the image are sized andspaced so that 72 of them lined up alongside each other cover a distance of
+ 
+ If your goal is to post the image to a Web site, then resolution is completely irrelevant—theonly thing you care about is pixel count. A monitor has a fixed resolution. That is, the num-ber of pixels that cover one inch is always the same. So the only thing you need to concernyourself with is how many pixels there are in 
+ {% endcomment %}
