@@ -6,24 +6,6 @@ course: "Visual Communication"
 weight: 0.2
 type: visualcommunication
 ---
-
-<style>
-    .col-md-9 div.testresolution img.six {
-        max-width: 600px;
-    }
-    .col-md-9 div.testresolution img.four {
-        max-width: 400px;
-    }
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
-    /* mobile sidebar area, mobile top banner ad area */
-    .col-md-9 div.testresolution img.six{
-        max-width: 600px;
-    }
-    .col-md-9 div.testresolution img.four{
-        max-width: 400px;
-    }
-  }
-</style>
   
 Technical writers take a lot of screen captures, often showing interfaces with both text and graphic elements. Usually these are partial screen captures that focus on the part of the screen they are highlighting. (By "screen capture," I'm referring to captures taken of specific user interfaces.)
 
@@ -74,83 +56,47 @@ Save using the Retina size, and then embed the screenshot on your page. If you w
 
 Now you've got twice as many pixels packed in half the space. As a result, the screenshot will be sharper and clearer on Retina displays because you're packing more pixels into a display that can make use of those extra pixels. However, for monitors that can't make use of the extra pixels (they don't support that many pixels per inch), the displays will look the same as with non-Retina captures.
 
-By the way, "Retina" is a marketing term coigned by Apple to describe their monitors. Typical Retina monitors have a pixel per inch (PPI) density of 220 up to 400 with the iPhone 6. Don't confuse PPI with DPI. The former refers to the number pixels per inch shown on a monitor, assuming you were to stack the pixels side by side. DPI refers to dots per inch and refers to how much ink your printer can push into an inch. I'm not covering print images here at all, so we'll just stick with PPI.
+By the way, "Retina" is a marketing term coigned by Apple to describe their monitors. Typical Retina monitors have a pixel per inch (PPI) density of 220 up to 400 with the iPhone 6. Don't confuse PPI with DPI. The former refers to the number pixels per inch shown on a monitor, assuming you were to stack the pixels side by side. DPI refers to dots per inch and refers to how many dots of ink your printer can push into an inch. Despite the difference, the terms are often used interchangeably to mostly mean what PPI means. I'm not covering print images here at all, so we'll just stick with PPI.
 
 ## Examples
 
 Let's look some examples. Note that you won't be able to see the difference unless you can switch between a Retina and non-Retina monitor. Even if you can switch, note that not all non-Retina monitors have the same PPI. If you only have a non-Retina monitor but you have an iOS device, which has a Retina display, you can open it up to observe the differences in screen resolution. Put your iPhone into horizontal view.
 
-<div class="testresolution">
-<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. 254KB. <i>Not crisp.</i> </figcaption></figure>
+<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 1.</b> 277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. 254KB. <i>Not crisp.</i> </figcaption></figure>
 
-<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an embedded style. 680KB. <i>Crisp on a Retina monitor but not on a non-Retina monitor.</i> </figcaption></figure>
+<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 2.</b> 277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an inline style. 680KB. <i>Crisp on a Retina monitor but not on a non-Retina monitor.</i> </figcaption></figure>
 
-<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions. 219KB. <i>Crisp only on monitors with 138 PPI or worse. Not crisp on Retina monitors.</i> </figcaption></figure>
+<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 3.</b> 138 PPI Non-retina monitor captured at 600x400px dimensions. 219KB. <i>Crisp only on monitors with 138 PPI or worse. Not crisp on Retina monitors.</i> </figcaption></figure>
 
-<figure><img class="six" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an embedded style. 635KB. <i>Not crisp.</i></figcaption></figure>
+<figure><img style="max-width: 600px" src="{{ "/images/testresolution/lorempc1200x800.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 4.</b> Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an inline style. 635KB. <i>Not crisp.</i></figcaption></figure>
 
 <p>Now let's constrain the size of the image even more, to 400px. </p>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. 254KB. Somewhat crisp on a Retina monitor, but not on a non-Retina monitor. </figcaption></figure>
+<figure><img style="max-width: 400px" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 5.</b> 277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. 254KB. Somewhat crisp on a Retina monitor, but not on a non-Retina monitor. </figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style. 680KB. Crisp on a Retina monitor, but not on a non-Retina monitor. </figcaption></figure>
+<figure><img style="max-width: 400px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 6.</b> 277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style. 680KB. Crisp on a Retina monitor, but not on a non-Retina monitor. </figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser. 219KB. <i>Somewhat crisp on a Retina monitor, but not on a non-Retina monitor.</i></figcaption></figure>
+<figure><img style="max-width: 400px" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 7.</b> 138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser. 219KB. <i>Somewhat crisp on a Retina monitor, but not on a non-Retina monitor.</i></figcaption></figure>
 
-<figure><img class="four" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style. 635KB.  <i>Somewhat crisp on a Retina monitor, but not on a non-Retina monitor.</i> </figcaption></figure>
+<figure><img style="max-width: 400px" src="{{ "/images/testresolution/lorempc1200x800.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 8.</b> Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style. 635KB.  <i>Somewhat crisp on a Retina monitor, but not on a non-Retina monitor.</i> </figcaption></figure>
 </div>
 
-What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](http://dpi.lv).
+What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your screen's PPI: [http://dpi.lv/](http://dpi.lv).
 
 My Dell monitor at work has 166 pixels per inch (PPI), my Dell All-in-One PC monitor at home has 138 PPI, and my Macbook Pro screen has 277 PPI. This means when I capture a screen using my Mac's Retina monitor, I'm capturing more pixels in my image due to the Retina display. When Snagit saves the Retina capture, it saves the image as twice the scale of the dimensions I actually grabbed.
 
-When I constrain that image in the browser to a scaled-down dimension (600x400px instead of 1200x800px), I retain those extra pixels on Retina displays, since their high PPI allows them to make use of the pixels. On non-Retina monitors, the extra pixels are wasted because the monitors only accept a certain PPI threshold &mdash; having more does nothing, and when the monitor has to drop some pixels to accommodate the image, degradation starts happening. 
+When I constrain that image in the browser to a scaled-down dimension (600x400px instead of 1200x800px), I retain those extra pixels on Retina displays, since the monitor's high PPI allows them to make use of the pixels (there is space for the pixels to go). On non-Retina monitors, however, the extra pixels are wasted because the monitors only accept a certain PPI threshold &mdash; having more does nothing, and when the monitor has to drop some pixels to accommodate the image, degradation starts happening. 
 
 When I constrain the display to 400px on a Retina monitor, I pack more pixels into the space, so the image resolution increases. But with non-Retina monitors, there isn't the same PPI available, so the images aren't crisp.
 
-In sum, the only way to get crisp images on a non-Retina monitor is by preserving the 1:1 capture/display ratio. But on Retina monitors, you can get high fidelity by saving the capture in the Retina size, though your page may load slower due to the large images; or you can constrain larger images into smaller spaces. Constraining a 600px image into a 400px space makes the image somewhat crisp. This is similar to the Retina size of 1200px being constrained into a 600px space, though not as extreme.
+In sum, the only way to get crisp images on a non-Retina monitor is by preserving the 1:1 capture/display ratio. But on Retina monitors, you can get high fidelity by saving the capture in the Retina size (or you can constrain larger images into smaller spaces), though your page may load slower due to the large images. Constraining a 600px image into a 400px space makes the image somewhat crisp. This is similar to the Retina size of 1200px being constrained into a 600px space, though not as extreme.
 
-This is fine if your audience consists of Mac users. But if they aren't, all of those Retina-optimized images are going to look less crisp on the non-Retina monitors because of the downsampling that takes place through image resizing.
+This is fine if your audience has Retina displays. But if they don't, all of those Retina-optimized images are going to look less crisp on the non-Retina monitors because of the downsampling that takes place through image resizing. This makes the question of using Retina-sized images more of a damned-if-you-do, damned-if-you-don't decision. 
 
-## Downsides of Retina display images
-
-Retina display images have a couple of downsides. Mainly, the file sizes can be about four times as large. If you have a lot of Retina screen captures loading on the same page, users might experience a progressive-download-display effect as the images download.
+If you don't use Retina sizes, you sacrifice crispness on Retina monitors. If you do use Retina sizes, you sacrifice crispness on non-Retina monitors and the pages will load more slowly due to the larger file sizes (which are about 4x as large). If you have a lot of Retina screen captures loading on the same page, users might experience a progressive-download-display effect as the images download.
 
 Additionally, if you embed styles for max-width in your image tags, it makes the mobile styling of the images more difficult.
 
 ## Summary
 
-Are Retina images worth it? I'm not sure. As a Mac user, one of the features I most like about Macs is the crisp resolution of the images. Everything is so much clearer. My guess is that more monitors are moving towards higher PPI, so it probably makes sense to start using Retina images now. 
-
-
-
-
-
-{% comment %} 
------
-Retina display is a proprietary marketing term coined by Apple, rather than a scientific term. To some it might evoke images of a complex scientific process; in reality it is just double resolution where pixels have been very closely packed to give higher quality and resolution. As an example, the pixel count can be anywhere from 220 pixels per inch (PPI) for third generation Mac Book Pros to 401 PPI for iPhone 6 Plus!
-
-We can always set our code to display high-resolution images; however, there is a cost in displaying these images in the form of a bigger file size; the quality will be lost on low-resolution (low-res) devices.
-
-dual images. http://mattstow.com/experiment/responsive-images/responsive-images.html
-Instead, we could use a plugin, such as Retina JS, to tell browsers to serve hi-res images only when needed. Let's take a look at using one in action:
-
-we don't want to show a high quality image if it chokes the available bandwidth of our device!
-
-The resolution of an image file is simply a tag that is stored in the header information of thefile. You can create two copies of the same image file and set one to 72 ppi and the other to300 ppi, but the size of the file will not change! Both files will contain the same number ofpixels; they will simply be tagged so that the pixels are spaced closer together or farther apart.Different programs will choose to use this resolution setting or not. For example, a presenta-tion program like Microsoft PowerPoint or Apple Keynote doesn’t care about resolution, soit ignores the setting. These programs are only concerned with pixel dimensions, and theyusually display one image pixel per screen pixel (unless you shrink the image within the appli-cation, so you can fit more image area on-screen).The average computer screen has a resolu-tion somewhere between 72 and 96 ppi, so many digital cameras output files at 72 pixels perinch. At 72 ppi, an image from a four- or five-megapixel camera will have an area of severalsquare feet. That is, if you line up those four or five million pixels so that 72 of them take upone inch, then your image will end up being several feet long. When viewing on-screen in your image editor, this huge size isn’t a problem because the com-puter can zoom in and out of the image to fit it onto your screen. For printing, though, thisis far too large an area to fit on a typical printer, and 72 ppi is too low a resolution to yieldgood quality. If your goal is to post the image to a Web site, then resolution is completely irrelevant—theonly thing you care about is pixel count. A monitor has a fixed resolution. That is, the num-ber of pixels that cover one inch is always the same. So the only thing you need to concernyourself with is how many pixels there are in to
-
-Pixels (short for picture elements) are the colored dots that appear on your computer screen. It’s veryimportant to understand that, when speaking of printing from your computer, there is a differencebetween the pixels on your screen—which are measured in pixels per inch—and the dots of ink yourprinter creates, which are measured in dots per inch. We’ll be discussing this in more detail later. Fornow, take note that we’re measuring our images in pixels per inch or 
-
-e. When you change the pixel count, you’ll either have to throw out someoriginal pixels or make up some additional 
-
- ppi. That is, if you line up 72 of your image’spixels side by side, you will cover one inch of 
- 
- If you want to print this image on an 8" ϫ 10" piece of paper, while preserving its originalresolution, you could tell your computer to throw out enough pixels so it only has 8" ϫ 10"worth of pixels at 72 ppi. It would then discard every third pixel or so, to reduce the pixeldimensions of the image from 3648 ϫ 2736 pixels to 576 ϫ 720 pixels (see Figure 22.1).This process of changing the amount of data in the image is called resampling (or, more specif-ically, downsampling), because you are taking a sample of pixels from your original image tocreate a new, smaller im
- 
- 
- pace. That is, the resolution of your image—the number ofpixels per inch—would have increased. This is what happens when you resize your imagewithout resampling (see Figure 
- 
- d output. In imaging terms,resolution is simply the measure of how many pixels fit into a given space. For example, ifyour image has a resolution of 72 pixels per inch (ppi), the pixels in the image are sized andspaced so that 72 of them lined up alongside each other cover a distance of
- 
- If your goal is to post the image to a Web site, then resolution is completely irrelevant—theonly thing you care about is pixel count. A monitor has a fixed resolution. That is, the num-ber of pixels that cover one inch is always the same. So the only thing you need to concernyourself with is how many pixels there are in 
- {% endcomment %}
+Are Retina images worth it? I'm not sure. As a Mac user, one of the features I most like about Macs is the crisp resolution of the images. Everything is so much clearer. My guess is that more monitors are moving towards higher PPI, so it probably makes sense to start using Retina images now. But if you don't, it probably won't make much difference.
