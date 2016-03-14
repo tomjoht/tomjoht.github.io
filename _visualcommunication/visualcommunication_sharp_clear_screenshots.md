@@ -50,7 +50,7 @@ If you have a MacBook Pro (perhaps hooked up to multiple monitors that may not h
 Save using the retina size, and then embed the screenshot on your page. If you were to view the embedded screen shot in the browser, you'll see that the screenshot is actually twice the size of the original dimensions. Add sizing to rescale the display in the browser, like this:  
  
 ```
-<img src="test1mac.png" style="max-width:640px"/>
+<img src="test1mac.png" style="max-width:600px"/>
 ```
 
 Now you've got twice as many pixels packed in half the space. As a result, the screenshot will be sharper and clearer because you're packing more pixel data in a smaller space
@@ -58,13 +58,24 @@ Now you've got twice as many pixels packed in half the space. As a result, the s
 Let's look some examples. Note that you won't be able to see the difference unless you can switch between a retina and non-retina monitor.
 
 
-<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina captured at 600x400px dimensions, but not saved as retina capture</figcaption></figure>
+<figure><img src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture</figcaption></figure>
 
-<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina captured at 600x400px, and saved as Retina capture which makes the image 2x the original size. Constrained to 600x400px in the browser using an inline style.</figcaption></figure>
+<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 600x400px in the browser using an inline style.</figcaption></figure>
 
-<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px.</figcaption></figure>
+<figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions.</figcaption></figure>
 
-<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px, and then constrained in the browser to half this size (600x400px) using an inline style</figcaption></figure>
+<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to half this size (600x400px) using an inline style</figcaption></figure>
+
+
+<figure><img  style="max-width: 400px" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor, captured at 600x400px dimensions but <b>not</b> saved as Retina capture. Constrained to 400px wide in the browser. </figcaption></figure>
+
+<figure><img style="max-width: 400px" src="{{ "/images/testresolution/loremmac600x400retina.png" | prepend: site.baseurl }}"/></a><figcaption>277 PPI Retina monitor captured at 600x400px dimensions and saved as Retina capture (which makes the image 2x the original size). Constrained to 400px wide in the browser using an inline style.</figcaption></figure>
+
+<figure><img  style="max-width: 400px" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser.</figcaption></figure>
+
+<figure><img style="max-width: 400px" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style.</figcaption></figure>
+
+
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](dpi.lv).
 
@@ -74,15 +85,12 @@ When I constrain that image in the browser to a scaled down dimension, I retain 
 
 ## Detailed example 
 
-Here's a detailed example of how to get crisp images. 
+Here's a detailed example of how to get crisp images: 
 
-Using Snagit, I take a screen capture at 640 x 480px on a MacBook Pro retina monitor.
-
-When I save the image, I select the check box that says "Save using retina size."
-
-The resulting image is now 1280 x 960px. This is because the retina capture includes more pixels per inch, and Snagit is preserving these pixels by resampling the image at twice the scale. 
-
-When embedding the screenshot, I constrain the size of the image with an inline style (or via a site-wide style that sets a max-width for the space). Ultimately this means I'm pushing more pixels into a smaller space.
+1. Using Snagit, take screen capture at 640 x 480px on a MacBook Pro retina monitor.
+2. When saving the image, select the check box that says "Save using retina size."
+  The resulting image is now 1280 x 960px. This is because the retina capture includes more pixels per inch, and Snagit is preserving these pixels by resampling the image at twice the scale. 
+3. When embedding the screenshot, constrain the size of the image in the browser using an inline style (or via a site-wide style that sets a max-width for the space). Ultimately this means you're pushing more pixels into a smaller space.
 
 
 ------
