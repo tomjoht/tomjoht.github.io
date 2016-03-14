@@ -165,7 +165,7 @@ topnav_dropdowns:
         - title: API documentation
           url: /docapis_course_overview/
         - title: Visual communication
-          url: /visualcommunication_overview/
+          url: /visualcommunication_course_overview/
 
     - title: Other
       items:
