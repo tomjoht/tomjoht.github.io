@@ -8,7 +8,12 @@ type: visualcommunication
 ---
 
 <style>
-
+    .col-md-9 img.six {
+        max-width: 600px;
+    }
+    .col-md-9 img.four {
+        max-width: 400px;
+    }
 @media only screen and (min-width: 981px), only screen and (min-device-width: 981px){
     /* mobile sidebar area, mobile top banner ad area */
     .col-md-9 img.six{
