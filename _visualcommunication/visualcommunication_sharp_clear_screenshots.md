@@ -64,25 +64,25 @@ Let's look some examples. Note that you won't be able to see the difference unle
 
 <figure><img src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption>138 PPI Non-retina monitor captured at 600x400px.</figcaption></figure>
 
-
-<figure><img style="max-width: 600px src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px, and then constrained in the browser to half this size (600x400px) using an inline style</figcaption></figure>
-
+<figure><img style="max-width: 600px" src="{{ "/images/testresolution/loremmac600x400noretina.png" | prepend: site.baseurl }}"/></a><figcaption>Non-retina 138 PPI monitor captured at 1200x800px, and then constrained in the browser to half this size (600x400px) using an inline style</figcaption></figure>
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your browser's PPI: [http://dpi.lv/](dpi.lv).
 
-My Dell monitor has 166 pixels per inch (PPI), but my Macbook Pro screen has 277 PPI. This means when I capture using myretina monitor, I'm capturing more pixels in my image due to the retina display. When Snagit saves the retina capture, it saves the image as twice the scale of the dimensions I actually grabbed.
+My Dell monitor at work has 166 pixels per inch (PPI), my Dell All-in-One PC monitor has 138 PPI, and my Macbook Pro screen has 277 PPI. This means when I capture using my retina monitor, I'm capturing more pixels in my image due to the retina display. When Snagit saves the retina capture, it saves the image as twice the scale of the dimensions I actually grabbed.
 
-When I constrain that image in the browser to a scaled down dimension, I retain those extra pixels on high retina monitors. On non-retina monitors, I get 72 DPI no matter what, so the effect isn't noticeable
+When I constrain that image in the browser to a scaled down dimension, I retain those extra pixels on high retina monitors. On non-retina monitors, the extra pixels are wasted because they only accept a certain threshold, so having more does nothing. 
 
-Here's a detailed example. 
+## Detailed example 
+
+Here's a detailed example of how to get crisp images. 
 
 Using Snagit, I take a screen capture at 640 x 480px on a MacBook Pro retina monitor.
 
 When I save the image, I select the check box that says "Save using retina size."
 
-The resulting image is now 1280 x 960px. This is because the retina capture includes more pixels per inch, and Snagit is preserving these pixels but, I believe, resampling the image at twice the scale. The extra pixels can only be included by scaling the image at twice the size.
+The resulting image is now 1280 x 960px. This is because the retina capture includes more pixels per inch, and Snagit is preserving these pixels by resampling the image at twice the scale. 
 
-When embedding the screenshot, either constrain the size of the image with an inline style or set a sitewide style that constrains a max-width for images. This means you're pushing more pixels into a smaller space.
+When embedding the screenshot, I constrain the size of the image with an inline style (or via a site-wide style that sets a max-width for the space). Ultimately this means I'm pushing more pixels into a smaller space.
 
 
 ------
