@@ -125,7 +125,7 @@ To create a Swagger spec file:
 1. Go to the [Swagger online editor](http://editor.swagger.io/#/).
 2. Select **File > Open Example** and choose **PetStore Simple**. Click **Open**.
 	
-	You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger.yaml" | prepend: site.baseurl }}"/>swagger.yaml</a>
+	You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger.yaml" | prepend: site.baseurl }}">swagger.yaml</a>.
 	
 	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters! New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array).{{end}}
 	
