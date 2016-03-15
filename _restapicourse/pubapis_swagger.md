@@ -125,109 +125,109 @@ To create a Swagger spec file:
 1. Go to the [Swagger online editor](http://editor.swagger.io/#/).
 2. Select **File > Open Example** and choose **PetStore Simple**. Click **Open**.
 	
-	You could just customize this sample YML file with the weatherdata endpoint documentation. However, to save you some time, copy and paste the following into the Swagger editor:
+	You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just copy and paste the following into the Swagger editor:
 	
    ```yaml
-	---
-	  swagger: "2.0"
-	  info: 
-	    version: "1.0.0"
-	    title: "Weather API"
-	    description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
-	    termsOfService: "http://helloreverb.com/terms/"
-	    contact: 
-	      name: "Tom Johnson"
-	      email: "tomjohnson1492@gmail.com"
-	      url: "http://swagger.io"
-	    license: 
-	      name: "MIT"
-	      url: "http://opensource.org/licenses/MIT"
-	  host: "simple-weather.p.mashape.com"
-	  schemes: 
-	    - "https"
-	  consumes: 
-	    - "application/json"
-	  produces: 
-	    - "application/text"
-	  paths: 
-	    /aqi: 
-	      get: 
-	        tags: 
-	          - "Air Quality"
-	        description: "gets air quality index"
-	        operationId: "getAqi"
-	        produces: 
-	          - "text"
-	        parameters: 
-	          - 
-	            name: "lat"
-	            in: "query"
-	            description: "latitude"
-	            required: false
-	            type: "string"
-	          - 
-	            name: "lng"
-	            in: "query"
-	            description: "longitude"
-	            required: false
-	            type: "string"
-	        responses: 
-	          200: 
-	            description: "aqi response"
-	          default: 
-	            description: "unexpected error"
-	    /weather: 
-	      get: 
-	        tags: 
-	          - "Weather Forecast"
-	        description: "gets weather forecast in short label"
-	        operationId: "getWeather"
-	        produces: 
-	          - "text"
-	        parameters: 
-	          - 
-	            name: "lat"
-	            in: "query"
-	            description: "latitude"
-	            required: false
-	            type: "string"
-	          - 
-	            name: "lng"
-	            in: "query"
-	            description: "longitude"
-	            required: false
-	            type: "string"
-	        responses: 
-	          200: 
-	            description: "weather response"
-	          default: 
-	            description: "unexpected error"
-	    /weatherdata: 
-	      get: 
-	        tags: 
-	          - "Full Weather Data"
-	        description: "Get weather forecast by Latitude and Longitude"
-	        operationId: "getWeatherData"
-	        produces: 
-	          - "application/json"
-	        parameters: 
-	          - 
-	            name: "lat"
-	            in: "query"
-	            description: "latitude"
-	            required: false
-	            type: "string"
-	          - 
-	            name: "lng"
-	            in: "query"
-	            description: "longitude"
-	            required: false
-	            type: "string"
-	        responses: 
-	          200: 
-	            description: "weatherdata response"
-	          default: 
-	            description: "unexpected error"
+---
+ swagger: "2.0"
+ info: 
+   version: "1.0.0"
+   title: "Weather API"
+   description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
+   termsOfService: "http://helloreverb.com/terms/"
+   contact: 
+     name: "Tom Johnson"
+     email: "tomjohnson1492@gmail.com"
+     url: "http://swagger.io"
+   license: 
+     name: "MIT"
+     url: "http://opensource.org/licenses/MIT"
+ host: "simple-weather.p.mashape.com"
+ schemes: 
+   - "https"
+ consumes: 
+   - "application/json"
+ produces: 
+   - "application/text"
+ paths: 
+   /aqi: 
+     get: 
+       tags: 
+         - "Air Quality"
+       description: "gets air quality index"
+       operationId: "getAqi"
+       produces: 
+         - "text"
+       parameters: 
+         - 
+           name: "lat"
+           in: "query"
+           description: "latitude"
+           required: false
+           type: "string"
+         - 
+           name: "lng"
+           in: "query"
+           description: "longitude"
+           required: false
+           type: "string"
+       responses: 
+         200: 
+           description: "aqi response"
+         default: 
+           description: "unexpected error"
+   /weather: 
+     get: 
+       tags: 
+         - "Weather Forecast"
+       description: "gets weather forecast in short label"
+       operationId: "getWeather"
+       produces: 
+         - "text"
+       parameters: 
+         - 
+           name: "lat"
+           in: "query"
+           description: "latitude"
+           required: false
+           type: "string"
+         - 
+           name: "lng"
+           in: "query"
+           description: "longitude"
+           required: false
+           type: "string"
+       responses: 
+         200: 
+           description: "weather response"
+         default: 
+           description: "unexpected error"
+   /weatherdata: 
+     get: 
+       tags: 
+         - "Full Weather Data"
+       description: "Get weather forecast by Latitude and Longitude"
+       operationId: "getWeatherData"
+       produces: 
+         - "application/json"
+       parameters: 
+         - 
+           name: "lat"
+           in: "query"
+           description: "latitude"
+           required: false
+           type: "string"
+         - 
+           name: "lng"
+           in: "query"
+           description: "longitude"
+           required: false
+           type: "string"
+       responses: 
+         200: 
+           description: "weatherdata response"
+         default: 
+           description: "unexpected error"
    ```
 	
 	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters! New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array).{{end}}
@@ -240,9 +240,9 @@ You can also choose JSON, but YAML is more readable and works just as well.
 
 ### b. Set Up the Swagger UI
 {{activity}}
-1. Download [Swagger UI](https://github.com/swagger-api/swagger-ui) by clicking the **Download ZIP** button. Download the files to a convenient location on your computer and extract the files.
+1. Go to the [Swagger UI](https://github.com/swagger-api/swagger-ui) Github project. Click the **Download ZIP** button. Download the files to a convenient location on your computer and extract the files.
 	
-	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files. 
+	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files, which is beyond the scope of this tutorial.
 	
 2. Drag the dist folder out of the swagger-ui-master folder.
 3. Inside your "dist" folder, open index.html. 
@@ -258,9 +258,10 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	  }
    ```
 5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.yaml";`.
+6. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
 	
 	
-6. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
+7. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
 	
    ```js
       function addApiKeyAuthorization(){
@@ -272,7 +273,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
         }
    ```
 	
-7. Change the line ` window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "APIKEY", "header"));`, so that it looks like this:
+8. Change the line `window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "APIKEY", "header"));`, so that it looks like this:
 	
    ```js
 	      function addApiKeyAuthorization(){
@@ -286,7 +287,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	
 	Insert your API key in `APIKEY`. Otherwise users wil have to enter their own API keys.
 	
-7. Uncomment out following lines here by removing the `/*` and `*/`:
+8. Uncomment out following lines here by removing the `/*` and `*/`:
 	
    ```js
 	// if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
@@ -296,15 +297,14 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	  */
    ```
 	
-8. Add in your API key into this section:
+9. Add in your API key into this section:
 	
    ```js
-	var apiKey = "APIKEY";
-	$('#input_apiKey').val(apiKey);    
+    var apiKey = "myApiKeyXXXX123456789";
+    $('#input_apiKey').val(apiKey);   
    ```
 	
-9. Save the file.
-10. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
+10. Save the file.
 	
 If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `var apiKey = "APIKEY";`. Replace `APIKEY` in a couple of places with your own API key for Mashape.
 
