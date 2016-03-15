@@ -129,114 +129,115 @@ To create a Swagger spec file:
 	
    ```yaml
 ---
- swagger: "2.0"
- info: 
-   version: "1.0.0"
-   title: "Weather API"
-   description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
-   termsOfService: "http://helloreverb.com/terms/"
-   contact: 
-     name: "Tom Johnson"
-     email: "tomjohnson1492@gmail.com"
-     url: "http://swagger.io"
-   license: 
-     name: "MIT"
-     url: "http://opensource.org/licenses/MIT"
- host: "simple-weather.p.mashape.com"
- schemes: 
-   - "https"
- consumes: 
-   - "application/json"
- produces: 
-   - "application/text"
- paths: 
-   /aqi: 
-     get: 
-       tags: 
-         - "Air Quality"
-       description: "gets air quality index"
-       operationId: "getAqi"
-       produces: 
-         - "text"
-       parameters: 
-         - 
-           name: "lat"
-           in: "query"
-           description: "latitude"
-           required: false
-           type: "string"
-         - 
-           name: "lng"
-           in: "query"
-           description: "longitude"
-           required: false
-           type: "string"
-       responses: 
-         200: 
-           description: "aqi response"
-         default: 
-           description: "unexpected error"
-   /weather: 
-     get: 
-       tags: 
-         - "Weather Forecast"
-       description: "gets weather forecast in short label"
-       operationId: "getWeather"
-       produces: 
-         - "text"
-       parameters: 
-         - 
-           name: "lat"
-           in: "query"
-           description: "latitude"
-           required: false
-           type: "string"
-         - 
-           name: "lng"
-           in: "query"
-           description: "longitude"
-           required: false
-           type: "string"
-       responses: 
-         200: 
-           description: "weather response"
-         default: 
-           description: "unexpected error"
-   /weatherdata: 
-     get: 
-       tags: 
-         - "Full Weather Data"
-       description: "Get weather forecast by Latitude and Longitude"
-       operationId: "getWeatherData"
-       produces: 
-         - "application/json"
-       parameters: 
-         - 
-           name: "lat"
-           in: "query"
-           description: "latitude"
-           required: false
-           type: "string"
-         - 
-           name: "lng"
-           in: "query"
-           description: "longitude"
-           required: false
-           type: "string"
-       responses: 
-         200: 
-           description: "weatherdata response"
-         default: 
-           description: "unexpected error"
+swagger: "2.0"
+info: 
+ version: "1.0.0"
+ title: "Weather API"
+ description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
+ termsOfService: "http://helloreverb.com/terms/"
+ contact: 
+   name: "Tom Johnson"
+   email: "tomjohnson1492@gmail.com"
+   url: "http://swagger.io"
+ license: 
+   name: "MIT"
+   url: "http://opensource.org/licenses/MIT"
+host: "simple-weather.p.mashape.com"
+schemes: 
+ - "https"
+consumes: 
+ - "application/json"
+produces: 
+ - "application/text"
+paths: 
+ /aqi: 
+   get: 
+     tags: 
+       - "Air Quality"
+     description: "gets air quality index"
+     operationId: "getAqi"
+     produces: 
+       - "text"
+     parameters: 
+       - 
+         name: "lat"
+         in: "query"
+         description: "latitude"
+         required: false
+         type: "string"
+       - 
+         name: "lng"
+         in: "query"
+         description: "longitude"
+         required: false
+         type: "string"
+     responses: 
+       200: 
+         description: "aqi response"
+       default: 
+         description: "unexpected error"
+ /weather: 
+   get: 
+     tags: 
+       - "Weather Forecast"
+     description: "gets weather forecast in short label"
+     operationId: "getWeather"
+     produces: 
+       - "text"
+     parameters: 
+       - 
+         name: "lat"
+         in: "query"
+         description: "latitude"
+         required: false
+         type: "string"
+       - 
+         name: "lng"
+         in: "query"
+         description: "longitude"
+         required: false
+         type: "string"
+     responses: 
+       200: 
+         description: "weather response"
+       default: 
+         description: "unexpected error"
+ /weatherdata: 
+   get: 
+     tags: 
+       - "Full Weather Data"
+     description: "Get weather forecast by Latitude and Longitude"
+     operationId: "getWeatherData"
+     produces: 
+       - "application/json"
+     parameters: 
+       - 
+         name: "lat"
+         in: "query"
+         description: "latitude"
+         required: false
+         type: "string"
+       - 
+         name: "lng"
+         in: "query"
+         description: "longitude"
+         required: false
+         type: "string"
+     responses: 
+       200: 
+         description: "weatherdata response"
+       default: 
+         description: "unexpected error"
    ```
 	
 	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters! New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array).{{end}}
 	
 	The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file couldn't be parsed).
 	
-3. Go to **File > Download YAML** and save the file as "swagger.yaml" on your computer.
+3. Make sure the YAML file is valid in the Swagger editor. If there are any errors, fix them. 
+3. Go to **File > Download YAML** and save the file as "swagger.yaml" on your computer. (You could also just copy the code and insert it into a blank file and call it swagger.yaml.)
 
-You can also choose JSON, but YAML is more readable and works just as well.
+You can also choose JSON as the format, but YAML is more readable and works just as well.
 
 ### b. Set Up the Swagger UI
 {{activity}}
@@ -244,8 +245,8 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	
 	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files, which is beyond the scope of this tutorial.
 	
-2. Drag the dist folder out of the swagger-ui-master folder.
-3. Inside your "dist" folder, open index.html. 
+2. Drag the dist folder out of the swagger-ui-master folder so that it stands alone. Then delete the swagger-ui-master folder.
+3. Inside your "dist" folder, open index.html in a text editor. 
 4. Look for the following code:
 	
    ```js
@@ -273,7 +274,7 @@ You can also choose JSON, but YAML is more readable and works just as well.
         }
    ```
 	
-8. Change the line `window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);` to `("X-Mashape-Key", "APIKEY", "header"));`, so that it looks like this:
+8. Change that block so that it looks like this:
 	
    ```js
 	      function addApiKeyAuthorization(){
@@ -285,19 +286,19 @@ You can also choose JSON, but YAML is more readable and works just as well.
 	        }
    ```
 	
-	Insert your API key in `APIKEY`. Otherwise users wil have to enter their own API keys.
+8. Insert your API key in `APIKEY`. (Otherwise users will have to enter their own API keys.)
 	
 8. Uncomment out following lines here by removing the `/*` and `*/`:
 	
    ```js
 	// if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
 	  /*
-	    var apiKey = "APIKEY";
+	    var apiKey = "myApiKeyXXXX123456789";
 	    $('#input_apiKey').val(apiKey);
 	  */
    ```
 	
-9. Add in your API key into this section:
+9. Add in your API key in place of the `myApiKeyXXXX123456789` value.
 	
    ```js
     var apiKey = "myApiKeyXXXX123456789";
@@ -309,10 +310,10 @@ You can also choose JSON, but YAML is more readable and works just as well.
 If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `var apiKey = "APIKEY";`. Replace `APIKEY` in a couple of places with your own API key for Mashape.
 
 ```html
-
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Swagger UI</title>
   <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
@@ -326,12 +327,20 @@ If the previous instructions were confusing, just copy the following code and re
   <script src='lib/jquery.wiggle.min.js' type='text/javascript'></script>
   <script src='lib/jquery.ba-bbq.min.js' type='text/javascript'></script>
   <script src='lib/handlebars-2.0.0.js' type='text/javascript'></script>
-  <script src='lib/underscore-min.js' type='text/javascript'></script>
+  <script src='lib/js-yaml.min.js' type='text/javascript'></script>
+  <script src='lib/lodash.min.js' type='text/javascript'></script>
   <script src='lib/backbone-min.js' type='text/javascript'></script>
   <script src='swagger-ui.js' type='text/javascript'></script>
-  <script src='lib/highlight.7.3.pack.js' type='text/javascript'></script>
+  <script src='lib/highlight.9.1.0.pack.js' type='text/javascript'></script>
+  <script src='lib/highlight.9.1.0.pack_extended.js' type='text/javascript'></script>
+  <script src='lib/jsoneditor.min.js' type='text/javascript'></script>
   <script src='lib/marked.js' type='text/javascript'></script>
   <script src='lib/swagger-oauth.js' type='text/javascript'></script>
+
+  <!-- Some basic translations -->
+  <!-- <script src='lang/translator.js' type='text/javascript'></script> -->
+  <!-- <script src='lang/ru.js' type='text/javascript'></script> -->
+  <!-- <script src='lang/en.js' type='text/javascript'></script> -->
 
   <script type="text/javascript">
     $(function () {
@@ -341,6 +350,15 @@ If the previous instructions were confusing, just copy the following code and re
       } else {
         url = "swagger.yaml";
       }
+
+      hljs.configure({
+        highlightSizeThreshold: 5000
+      });
+
+      // Pre load translate...
+      if(window.SwaggerTranslator) {
+        window.SwaggerTranslator.translate();
+      }
       window.swaggerUi = new SwaggerUi({
         url: url,
         dom_id: "swagger-ui-container",
@@ -349,14 +367,17 @@ If the previous instructions were confusing, just copy the following code and re
           if(typeof initOAuth == "function") {
             initOAuth({
               clientId: "your-client-id",
+              clientSecret: "your-client-secret-if-required",
               realm: "your-realms",
-              appName: "your-app-name"
+              appName: "your-app-name",
+              scopeSeparator: ",",
+              additionalQueryStringParams: {}
             });
           }
 
-          $('pre code').each(function(i, e) {
-            hljs.highlightBlock(e)
-          });
+          if(window.SwaggerTranslator) {
+            window.SwaggerTranslator.translate();
+          }
 
           addApiKeyAuthorization();
         },
@@ -364,25 +385,26 @@ If the previous instructions were confusing, just copy the following code and re
           log("Unable to Load SwaggerUI");
         },
         docExpansion: "none",
+        jsonEditor: false,
         apisSorter: "alpha",
+        defaultModelRendering: 'schema',
         showRequestHeaders: false
       });
 
-      function addApiKeyAuthorization(){
-        var key = encodeURIComponent($('#input_apiKey')[0].value);
-        if(key && key.trim() != "") {
-            var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
-            //window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);
-            swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "APIKEY", "header"));
-            log("added key " + key);
-        }
+        function addApiKeyAuthorization(){
+          var key = encodeURIComponent($('#input_apiKey')[0].value);
+          if(key && key.trim() != "") {
+              var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
+              swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p", "header"));
+              log("added key " + key);
+          }
       }
 
       $('#input_apiKey').change(addApiKeyAuthorization);
 
       // if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
       
-        var apiKey = "APIKEY";
+        var apiKey = "EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p";
         $('#input_apiKey').val(apiKey);
       
 
@@ -404,12 +426,12 @@ If the previous instructions were confusing, just copy the following code and re
     <form id='api_selector'>
       <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
       <div class='input'><input placeholder="api_key" id="input_apiKey" name="apiKey" type="text"/></div>
-      <div class='input'><a id="explore" href="#">Explore</a></div>
+      <div class='input'><a id="explore" href="#" data-sw-translate>Explore</a></div>
     </form>
   </div>
 </div>
 
-<div id="message-bar" class="swagger-ui-wrap">&nbsp;</div>
+<div id="message-bar" class="swagger-ui-wrap" data-sw-translate>&nbsp;</div>
 <div id="swagger-ui-container" class="swagger-ui-wrap"></div>
 </body>
 </html>
@@ -419,10 +441,11 @@ If the previous instructions were confusing, just copy the following code and re
 {{activity}}
 You can't view the Swagger UI display locally &mdash; you must view it on a web server. If you already have a web server, great. Just upload the dist folder there and view it. 
 
-You can also run a web server locally on your computer. 
+You can also run a web server locally on your computer through XAMPP:
 
 1. Download and install [XAMPP](https://www.apachefriends.org/). 
-2. Start XAMPP and open the **Manage Servers** tab in the console manager.
+2. After installation, in your Applications folder, open the XAMPP folder and start the '''manager-osx''' console.
+2. Click the **Manage Servers** tab in the console manager.
 3. Select **Apache Web Server** and click **Start**.
 4. Open the htdocs folder where XAMPP was installed. On a Mac, the location is usually in /Applications/XAMPP/xamppfiles/htdocs. 
 5. Drag the dist folder into this space.
@@ -433,13 +456,13 @@ The Swagger UI display should appear.
 ### Interact with the Swagger UI
 {{activity}}
 1. Go to Google Maps and search for an address.
-2. Get the latitude and longitude from the URL, and plug it into your Swagger UI. (For example, 37.3708905, -121.9675525 is Santa Clara, California.)
+2. Get the latitude and longitude from the URL, and plug it into your Swagger UI. (For example, **1.3319164** for lat, **103.7231246** for lng.)
 3. Click **Try it out**.
 	
 	If successful, you should see something in the response body like this:
 	
    ```
-	17 c, Partly Cloudy at Santa Clara, United States
+	9 c, Mostly Cloudy at South West, Singapore
    ```
 	
 	Try working with each of your endpoints and see the data that gets returned.
