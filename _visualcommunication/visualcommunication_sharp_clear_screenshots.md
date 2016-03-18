@@ -81,7 +81,6 @@ Let's look at some examples. Note that you won't be able to see the difference u
 <figure><img style="max-width: 400px" src="{{ "/images/testresolution/lorempc600x400.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 7.</b> 138 PPI Non-retina monitor captured at 600x400px dimensions, constrained to 400px in the browser. 219KB. <i>Somewhat crisp on a Retina monitor, but not on a non-Retina monitor.</i></figcaption></figure>
 
 <figure><img style="max-width: 400px" src="{{ "/images/testresolution/lorempc1200x800.png" | prepend: site.baseurl }}"/></a><figcaption><b>Image 8.</b> Non-retina 138 PPI monitor captured at 1200x800px dimensions, and then constrained in the browser to 400px in the browser using an inline style. 635KB.  <i>Somewhat crisp on a Retina monitor, but not on a non-Retina monitor.</i> </figcaption></figure>
-</div>
 
 What's going on here? Basically, screens display a certain number of pixels per inch (PPI). See this site to see your screen's PPI: [http://dpi.lv/](http://dpi.lv).
 
