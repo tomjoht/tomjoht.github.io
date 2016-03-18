@@ -55,10 +55,7 @@ In this section, you will create a new Github repo and publish a sample file the
 	
 	<img src="{{ "/images/restapicourse/github_new_repo.png" | prepend: site.baseurl }}" alt="Creating a new Github repository" />
 	
-4. Click the **Wiki** link on the right-side of your repository.
-	
-	<img src="{{ "/images/publishingapidocs/githubwikilink.png" | prepend: site.baseurl }}" alt="Github wiki link" />
-	
+4. Click the **Wiki** link at the top of the repository.
 5. Click **Create first page**.
 6. Insert your own sample documentation page, preferably using Markdown syntax. Or grab the sample Markdown page of a <a href="{{ "/files/restapicourse/surfreportendpointdoc.md" | prepend: site.baseurl | append: site.suffix }}">fake endpoint called surfreport here</a> and insert it into the page.
 	
@@ -70,11 +67,9 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 
 ## Save the Github repository locally
 	 
-2. While viewing your the Github wiki in your browser, look for the "Clone this wiki locally" section on the right. Copy the link by clicking the **Copy to clipboard** button. 
+2. While viewing your the Github wiki in your browser, look for clone repo link next to the HTTPS button. Copy the link by clicking the **Copy to clipboard** button. 
 	
-	<img src="{{ "/images/publishingapidocs/clonewikilocally.png" | prepend: site.baseurl }}" alt="Github clone this wiki locally" />
-	
-	You'll notice two options here: "Clone this wiki locally," and "Clone in Desktop." Cloning the wiki gives you a copy of the content on your local machine. Git is *distributed* version control software, so everyone has his or her own copy. 
+	Cloning the wiki gives you a copy of the content on your local machine. Git is *distributed* version control software, so everyone has his or her own copy. 
 	
 	More than just copying the files, though, when you clone a repo, you initialize Git in the cloned folder. Git starts tracking your edits to the files, providing version control. You can run "pull" commands to get updates of the online repository pulled down to your local copy. You can also commit your changes and then push your changes back up to the repository if you're entitled as a collaborator for the project.
 	
@@ -111,7 +106,7 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 	You can check to see if you have Git already installed by opening a terminal and typing `git --version`. 
 
 2. Configure Git with Github authorization. This will allow you to push changes without entering your username and password each time. See the following topics to set this up:
- * [Set up Git](https://help.github.com/articles/set-up-git/) (Note that when you configure your username, use your Github username, which will be something like tomjohnson1492 instead of "Tom Johnson".
+ * [Set up Git](https://help.github.com/articles/set-up-git/) (Note that when you configure your username, use your Github username, which will be something like tomjohnson1492 instead of "Tom Johnson".)
  * [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key/)
  * [Adding a new SSH key to the ssh-agent](https://help.github.com/articles/adding-a-new-ssh-key-to-the-ssh-agent/)
  * [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
