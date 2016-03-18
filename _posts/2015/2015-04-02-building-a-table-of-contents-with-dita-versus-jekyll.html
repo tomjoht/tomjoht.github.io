@@ -12,7 +12,7 @@ weight: 1.4
 ---
 {% include series/seriesTagJekyllVsDITA.html %}
 
-<p>In my <a href="http://idratherbewriting.com/series/jekyll-versus-dita/">ongoing series comparing Jekyll against DITA</a>, I want to touch on how you construct a table of contents.</p>
+<p>In my <a href="http://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/">ongoing series comparing Jekyll against DITA</a>, I want to touch on how you construct a table of contents.</p>
 <h2>Creating a TOC with DITA</h2>
 <p>The ditamap file in DITA is arguably the most important file in a DITA project, and it has a lot of features. Basically, the ditamap defines the table of contents for the project, which is how users navigate all the files (apart from search).</p>
 <p>Additionally, any file that you want included in your output <em>must</em> appear in your ditamap file. Otherwise it's excluded from the build.</p>
@@ -66,6 +66,7 @@ weight: 1
 ---
 {% endhighlight %}</p>
 <p>You could then use a for loop to get all pages in this category sorted by weight:</p>
+{% raw %}
 <p>{% highlight html %}
 <ul>
 {% for page in site.pages | sort: weight %}
@@ -77,6 +78,7 @@ weight: 1
   {% endfor %}
 </ul>
  {% endhighlight %}</p>
+{% endraw %}
 <p>This approach may get tedious, though, especially if you want to easily shift and arrange your TOC without opening every single page to change these frontmatter values.</p>
 <h2>Creating a TOC in Jekyll via data files</h2>
 <p>Another approach, and the one I'm currently using, is to list your TOC entries in a YML data file. Here is the typical structure of a YML file containing TOC entries. The YML syntax emphasizes human-readable code, so a lot of the formatting is dependent on spacing:</p>

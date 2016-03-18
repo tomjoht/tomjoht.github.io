@@ -66,12 +66,11 @@ Warning: Don't overtighten the bolts, as it may cause stripping.
 bolt_note: "Warning: Don't overtighten the bolts, as it may cause stripping."
 {% endhighlight %}</p>
 <p>To insert the content from the notes.yml file, you add this in your page:</p>
-
+     {% raw %}
 <p>{% highlight html %}
-    {% raw %}
 {{site.data.notes.bolt_note}}
-    {% endraw %}
 {% endhighlight %}</p>
+     {% endraw %}
 
 <p>If you read my last post (<a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">Variables and conditional processing</a>), you'll see a similar technique. Instead of using <code>site.audience</code>, which gets info from the configuration file, you use <code>site.data.notes</code> to get info from the notes.yml file inside the _data folder.</p>
 <p>(Through the <code>data_source</code> property in your configuration file, you can specify a different data folder source if you don't want to use the default _data folder. This way you can have different data sources for different configuration files.)</p>
