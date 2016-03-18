@@ -114,9 +114,7 @@ weight: 1.7
 <p>Here's how you create a link with HTML:</p>
 
 <p>{% highlight html %}
-    {% raw %}
-    <a href="{{ "/sample" | prepend: site.baseurl }}">Sample</a>
-    {% endraw %}
+    {% raw %}<a href="{{ "/sample" | prepend: site.baseurl }}">Sample</a>{% endraw %}
 {% endhighlight %}</p>
 <p>Note that the reference doesn't automatically pull in the page title like DITA does. This is unfortunate. (But there's somewhat of a workaround that I'll show below.)</p>
 <p>If you're linking to an external file, the code is simpler:</p>
@@ -134,12 +132,11 @@ sample:
  url: /sample/
 {% endhighlight %}</p>
 <p>Then you could reference the link using Markdown syntax like this:</p>
-{% raw %}
+
 <p>{% highlight html %}
-[{{site.data.links.sample.title}}][1]. </p>
-<p>[1]: {{site.baseurl}}{{site.data.links.sample.url}}
+    {% raw %}[{{site.data.links.sample.title}}][1]. </p>
+<p>[1]: {{site.baseurl}}{{site.data.links.sample.url}}{% endraw %}
     {% endhighlight %}</p>
-{% endraw %}
 
 <p>This is actually the approach I'm using. It's a bit cumbersome, but managing the links and titles in one place helps me avoid broken links.</p>
 <p>There is no relationship-table equivalent for links with Jekyll. Jekyll probably wasn't explicitly designed to support the scenario that DITA was designed for (that is, creating many distinct outputs with some pages included in some but not all outputs).</p>
@@ -153,23 +150,23 @@ tags: configuration
 ---
 {% endhighlight %}</p>
 <p>Then modify your page layout to generate a tag linking to a tag-archive page:</p>
-{% raw %}
+
 <p>{% highlight html %}
-{% for tag in page.tags %}
+{% raw %}{% for tag in page.tags %}
 {% if site.data.tags.allowed-tags contains tag %}
 <a href="{{site.baseurl}}/tag-{{tag}}"><button type="button" class="btn btn-default navbar-btn">{{tag}}</button></a>
 {% endif %}
-{% endfor %}
+{% endfor %}{% endraw %}
 {% endhighlight %}</p>
-{% endraw %}
+
 
 <p>Here I'm using a for loop to iterate through all the tags listed in a page's frontmatter. With each tag, I'm first checking whether the tag is listed in my approved list of tags in my tags.yml data file (I add this to ensure the tags aren't created willy-nilly but actually have some thought and consistency.) Then each tag is added to the page in a Bootstrap button-style format.</p>
 <h2>Related pages</h2>
 <p>You could also use the same tag logic to create a list of related pages based on tags. You could output the related pages list below each page. Here's some code to do that:</p>
-{% raw %}
+
 <p>{% highlight html %}
 <ul>
-{% for tag in page.tags %}
+{% raw %}{% for tag in page.tags %}
 {% assign counter = '0' %}
 {% for page in site.pages %}
 {% if page.tags contains tag and page.title != currentTitle and counter < '5' %}
@@ -179,10 +176,10 @@ tags: configuration
 {% endfor %}
 {% if counter == '0' %}<span class="noOtherPages"><p>No other pages.</p></span>
 {% endif %}
-{% endfor %}
+{% endfor %}{% endraw %}
 </ul>
 {% endhighlight %}</p>
-{% endraw %}
+
 <p>This code gets the tags on a page, and then uses a for loop to look through each page in the site. If the page has tags that include the tag on the current page, the page is listed here.</p>
 <p>There's a problem with this logic, though. Suppose page 1 has tags A and B, page 2 has tags A and B, and page 3 has tags and B. When page 1 looks for all other pages that contain tag A, page 2 and page 3 get listed. That's fine. When the same for loop checks for pages containing tag B, page 2 and page 3 <i>also</i> get listed. In other words, I have to include logic to remove duplicates.</p>
 <p>I'm not quite sure how to do that yet, though I'm guessing that a solution exists. Part of why I like Jekyll, though, is because I can piece together the logic I want. There are probably a dozen different approaches I could use for related pages.</p>

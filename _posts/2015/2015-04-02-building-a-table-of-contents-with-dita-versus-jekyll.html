@@ -66,19 +66,19 @@ weight: 1
 ---
 {% endhighlight %}</p>
 <p>You could then use a for loop to get all pages in this category sorted by weight:</p>
-{% raw %}
+
 <p>{% highlight html %}
 <ul>
-{% for page in site.pages | sort: weight %}
-   {% for tag in page.tags %}
-     {% if tag == "getting_started" %}
-        <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
-       {% endif %}
-      {% endfor %}
+{% raw %}{% for page in site.pages | sort: weight %}
+{% for tag in page.tags %}
+ {% if tag == "getting_started" %}
+    <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
+   {% endif %}
   {% endfor %}
+{% endfor %}{% endraw %}
 </ul>
  {% endhighlight %}</p>
-{% endraw %}
+
 <p>This approach may get tedious, though, especially if you want to easily shift and arrange your TOC without opening every single page to change these frontmatter values.</p>
 <h2>Creating a TOC in Jekyll via data files</h2>
 <p>Another approach, and the one I'm currently using, is to list your TOC entries in a YML data file. Here is the typical structure of a YML file containing TOC entries. The YML syntax emphasizes human-readable code, so a lot of the formatting is dependent on spacing:</p>
@@ -110,8 +110,7 @@ entries:
 <p>Now the HTML code in your template uses a <code>for</code> loop to iterate through each of these items and wrap them in the right formatting for your theme. Here's an example of how the template code might look:</p>
 
 {% highlight html %}
-{% raw %}
-{% if site.audience == "fe" or "customer" %}
+{% raw %}{% if site.audience == "fe" or "customer" %}
 {% assign sidebar = site.data.sidebar.entries %}
 {% assign buildAudience = "fe" %}</p>
 <p>{% elsif site.audience == "operations" %}
@@ -134,8 +133,7 @@ entries:
    {% endif %}
  {% endfor %}
 {% endfor %}
-</ul>
-{% endraw %}
+</ul>{% endraw %}
 {% endhighlight %}
 
 <p>When we start the for loop, what <code>sidebar</code> refer and <code>buildAudience</code> refer to is based on the assignments defined. These assignments depend on properties in the particular configuration file that's being used. (This is how the theme is separated from the content.)</p>

@@ -18,17 +18,13 @@ weight: 1.2
 <p>In Jekyll, you can assign a variable a specific value, like this:</p>
 
 <p>{% highlight html %}
-    {% raw %}
-{% assign dog_name = "Fred" %}
-    {% endraw %}
+{% raw %}{% assign dog_name = "Fred" %}{% endraw %}
 {% endhighlight %}</p>
 
 <p>Now you can use <code>{% raw %}{{dog_name}}{% endraw %}</code> in your content and it will say <code>Fred</code> in the output:</p>
 
 {% highlight html %}
-{% raw %}
-I have a dog named {{dog_name}}.
-{% endraw %}
+{% raw %}I have a dog named {{dog_name}}.{% endraw %}
 {% endhighlight %}
 
 <p>Although you could assign this variable directly on your page, it's more common to put the variable in your configuration file. Each Jekyll project has a configuration file where you define your project settings and other build details.</p>
@@ -41,9 +37,7 @@ dog_name: Fred
 <p>In a single sourcing scenario, you would have a separate configuration file for each output. On your page, you access that variable in the configuration file with the <code>site</code> namespace, like this:</p>
 
 {% highlight html %}
-{% raw %}
-I have a wonderful dog named {{site.dog_name}}.
-{% endraw %}
+{% raw %}I have a wonderful dog named {{site.dog_name}}.{% endraw %}
 {% endhighlight %}
 
 <p>Now if I have 3 outputs, and I want my dog's name to change for each output, I create 3 separate configuration files. In each configuration file, I assign a different value to <code>dog_name</code>. When the site builds, it will use the name assigned in the configuration file.</p>
@@ -56,15 +50,13 @@ audience: Mac
 <p>Now use an if-else statement like this on the page:</p>
 
 {% highlight html %}
-{% raw %}
-{% if site.audience == "mac" %}
+{% raw %}{% if site.audience == "mac" %}
 Your MacBook Pro is going to make you so happy!
 {% elsif site.audience == "pc" %}
 Thanks for supporting the dying PC industry.
 {% else %}
 Congratulations on the purchase of your new computer.
-{% endif %}
-{% endraw %}
+{% endif %}{% endraw %}
 {% endhighlight %}
 
 <p>When you build with the configuration file where the audience value is <code>mac</code>, it will say, "Your MacBook Pro is going to make you so happy!" And when you build with the configuration file where the audience value is <code>pc</code>, it will say, "Thanks for supporting the dying PC industry." If the configuration file doesn't specific either <code>mac</code> or <code>pc</code>, it will just say, "Congratulations on the purchase of your new computer."</p>
@@ -73,8 +65,7 @@ Congratulations on the purchase of your new computer.
 <p>Some of the Liquid logic takes you beyond what you can do with DITA. For example, suppose I wanted to show a list of all pages with a specific tag. I could use a <code>for</code> loop to do this directly on a Jekyll page:</p>
 
 {% highlight ruby %}
-{% raw %}
-<ul>
+{% raw %}<ul>
  {% for page in site.pages %}
    {% for tag in page.tags %}
        {% if tag == "getting_started" %}
@@ -82,8 +73,7 @@ Congratulations on the purchase of your new computer.
         {% endif %}
    {% endfor %}
  {% endfor %}
-</ul>
-{% endraw %}
+</ul>{% endraw %}
 {% endhighlight %}
 <p>This code would look through all the pages in my Jekyll project and find all those pages that have <code>getting_started</code> as a tag in the frontmatter, which is just some metadata at the top of the page. Here's what that frontmatter looks like:</p>
 
