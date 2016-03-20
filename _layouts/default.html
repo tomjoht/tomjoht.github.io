@@ -1,30 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+    <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} | {{ site.name }} {% endif %}</title>
+    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend:site.baseurl }}"  type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ "/css/modern-business.css" | prepend:site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/customstyles.css" | prepend:site.baseurl }}"  type='text/css'>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="{{ "/js/jquery.navgoco.min.js" | prepend:site.baseurl }}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/js/customscripts.js" | prepend:site.baseurl }}"></script>
+    <link rel="shortcut icon" href="http://idratherbewriting.com/favicon.ico" type="image/x-icon">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="{{ "/js/signup.js" | prepend:site.baseurl }}"></script>
 
-    {% include head.html %}
+    <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@tomjohnson">
+            <meta name="twitter:creator" content="@tomjohnson">
+            {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+            {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+            {% endif %}
+    {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+            {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+            {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+            {% endif %}
+    {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}">
+            {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/me.png">
+            {% endif %}
+    </head>
+    <body>
+    <div id="masthead">
+            <div class="topBannerAd"><a href="http://www.adobe.com/cfusion/tdrc/index.cfm?product=framemaker&loc=en_gb&sdid=XPCNHDD5&mv=other"><img src="{{ "/images/ads/adobe_rectangle.jpg" | prepend: site.baseurl }}" alt="Adobe Robohelp" /></a>
+            </div>  <!-- /topBannerAd -->
+            <div class="container">
+            <div class="row">
+            <div class="col-md-7">
+            <div class="siteLogo"><a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/images/idratherbewriting-site-logo.png" | prepend: site.baseurl }}" alt="Home" /></a>
+            </div><!-- /siteLogo -->
+            </div><!-- /col-md-7 -->
+            </div><!-- /row -->
+            </div><!-- /container -->
+            <!-- /cont -->
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="top-spacer"> </div>
+            </div><!-- /col-md-12 -->
+            </div><!-- /row -->
+            </div><!-- /container -->
+
+            </div><!-- /masthead -->
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse">
+            <div class="container topnavlinks">
+            <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            </div><!-- /navbar-header -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+            {% for entry in site.data.topnav.topnav_dropdowns %}
+    {% for subcategory in entry.subcategories %}
+    <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ subcategory.title }}<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+            {% for subitem in subcategory.items %}
+    {% if subitem.external_url %}
+    <li><a href="{{subitem.external_url}}" target="_blank">{{subitem.title}}</a></li>
+    {% elsif page.url contains subitem.url %}
+    <li class="dropdownActive"><a href="{{subitem.url | prepend: site.baseurl | append: site.suffix}}">{{subitem.title}}</a></li>
+    {% else %}
+    <li><a href="{{subitem.url | prepend: site.baseurl | append: site.suffix}}">{{subitem.title}}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    </li>
+    {% endfor %}
+    {% endfor %}
+    {% for entry in site.data.topnav.topnav %}
+    {% for subcategory in entry.subcategories %}
+    {% if subcategory.external_url %}
+    <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+    {% elsif page.url contains subcategory.url %}
+    <li class="active"><a href="{{subcategory.url | prepend: site.baseurl}}">{{subcategory.title}}</a></li>
+    {% else %}
+    <li><a href="{{subcategory.url | prepend: site.baseurl | append: site.suffix}}">{{subcategory.title}}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    <li>
+    <form class="navbar-form navbar-left" role="search" onsubmit="my_search_google()">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" id="my-google-search">
+            </div>
+            </form>
+            </li>
+            </ul>
+            </div><!-- /collapse navbar-collapse -->
+            </div><!-- /container -->
+            </nav><!-- / navbar -->
+
+            <!-- Page Content -->
+            <div class="container">
+            <!-- Content Row -->
+            <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+            <div id="sidebarArea">
+            <!-- appears for desktop view only-->
+            <ul id="mytechsidebar" class="nav">
+            {% if page.type or page.series %}
+    <script>
+    $(document).ready(function() {
+        // Initialize navgoco with default options
+        $("#mysidebar").navgoco({
+            caretHtml: '',
+            accordion: {{site.sidebar_accordion}},
+        openClass: 'active', // open
+                save: false, // leave false or nav higlighting doesn't work right
+                cookie: {
+            name: 'navgoco',
+                    expires: false,
+                    path: '/'
+        },
+        slide: {
+            duration: 400,
+                    easing: 'swing'
+        }
+    });
+    });
+    </script>
+
+    {% if page.type == "notes_docapis" %}
+    {% assign sidebarTitle = "Documenting REST APIs" %}
+    {% assign sidebar = site.data.sidebar_docapis.entries %}
+
+    {% elsif page.type == "notes_pubapis" %}
+    {% assign sidebarTitle = "Publishing API documentation" %}
+    {% assign sidebar = site.data.sidebar_pubapis.entries %}
+    <
+    {% elsif page.type == "notes_platformapis" %}
+    {% assign sidebarTitle = "Platform API documentation" %}
+    {% assign sidebar = site.data.sidebar_platformapis.entries %}
+
+    {% elsif page.type == "notes_java" %}
+    {% assign sidebarTitle = "My Java notes" %}
+    {% assign sidebar = site.data.sidebar_java.entries %}
+
+    {% elsif page.type == "notes_javascript" %}
+    {% assign sidebarTitle = "JavaScript notes" %}
+    {% assign sidebar = site.data.sidebar_javascript.entries %}
+
+    {% elsif page.type == "notes_dita" %}
+    {% assign sidebarTitle = "My DITA notes" %}
+    {% assign sidebar = site.data.sidebar_dita.entries %}
+    <
+    {% elsif page.type == "notes_apis" %}
+    {% assign sidebarTitle = "My API notes" %}
+    {% assign sidebar = site.data.sidebar_apis.entries %}
+
+    {% elsif page.series == "testing_documentation" %}
+    {% assign sidebarTitle = "Testing documentation" %}
+    {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
+
+    {% elsif page.type == "visualcommunication" %}
+    {% assign sidebarTitle = "Visual communication" %}
+    {% assign sidebar = site.data.sidebar_visualcommunication.entries %}
+
+    {% endif %}
+
+    <h3>{{sidebarTitle}}</h3>
+    <ul id="mysidebar" class="nav">
+        {% for entry in sidebar %}
+        {% for subcategory in entry.subcategories %}
+        {% if subcategory.output contains "web" %}
+        <li>
+            <a href="#">{{ subcategory.title }}</a>
+            <ul>
+                {% for item in subcategory.items %}
+                {% if item.output contains "web" %}
+                {% if item.external_url %}
+                <li><a href="{{item.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+                {% elsif page.url == item.url %}
+                <li class="active"><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></li>
+                {% else %}
+                <li><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></li>
+                {% endif %}
+                {% for thirdlevel in item.thirdlevel %}
+                {% if thirdlevel.output contains "web" %}
+                <li class="thirdlevel">
+                    <a href="#">{{ thirdlevel.title }}</a>
+                    <ul>
+                        {% for deeplevel in thirdlevel.thirdlevelitems %}
+                        {% if deeplevel.output contains "web" %}
+                        {% if deeplevel.external_url %}
+                        <li><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.title}}</a></li>
+                        {% elsif page.url == deeplevel.url %}
+                        <li class="active"><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
+                        {% else %}
+                        <li><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            <!-- if you aren't using the accordion, uncomment this block:
+               <p class="external">
+                   <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+               </p>
+               -->
+        </li>
+    </ul>
+    </div><!-- /sidebarArea-->
+
+    <script>$("li.active").parents('li').toggleClass("active");</script>
 
 
-</head>
+    {% endif %}
 
-<body>
+    <!-- sidebar_ads.html -->
+    <div class="sidebarAds">
+        <!--<h3 class="sidebar"> Sponsors</h3>-->
+        <script>
+            var contents=new Array()
+            contents[0]='<a href="http://www.madcapsoftware.com/flare11/?utm_source=IdRatherBeWriting&amp;utm_medium=Banner&amp;utm_campaign=Flare11"><img src="{{ "/images/ads/madcap.png" | prepend: site.baseurl }}" alt="Madcap Software" /></a>'
+            contents[1]='<a href="https://www.adobe.com/uk/products/technicalcommunicationsuite.html?sdid=X2PHJ12B&mv=other"><img src="{{ "/images/ads/adobe_square.gif" | prepend: site.baseurl }}" alt="Adobe Framemaker" /></a>'
+            contents[2]='<a href="http://www.simplifiedenglish.net/"><img src="{{ "/images/ads/tedopres.gif" | prepend: site.baseurl }}" alt="Tedopres" /></a>'
+            contents[3]='<a href="http://www.paligo.se/"><img src="{{ "/images/ads/paligo.gif" | prepend: site.baseurl }}" alt="Paligo" /></a>'
+            //contents[4]='<a href="https://clickhelp.co/"><img src="{{ "/images/ads/clickhelp.gif" | prepend: site.baseurl }}" alt="Clickhelp" /></a>'
+            contents[4]='<a href="http://www.drexplain.com/"><img src="{{ "/images/ads/drexplain.png" | prepend: site.baseurl }}" alt="Dr. Explain" /></a>'
+            contents[5]='<a href="http://www.browselab.com/helpconsole_overview.htm"><img src="{{ "/images/ads/helpconsole.png" | prepend: site.baseurl }}" alt="Help Console" /></a>'
+            contents[6]='<a href="http://www.xeditor.com/portal/en/technical-documentation-1771"><img src="{{ "/images/ads/xeditor.jpg" | prepend: site.baseurl }}" alt="Xeditor" /></a>'
+            contents[7]='<a href="http://idratherbewriting.com/advertising/"><img src="{{ "/images/ads/youradheresvg.svg" | prepend: site.baseurl }}" alt="Advertising info" /></a>'
+            var i=0
+            //variable used to contain controlled random number
+            var random
+            //while all of array elements haven't been cycled thru
+            while (i<contents.length){
+                //generate random num between 0 and arraylength-1
+                random=Math.floor(Math.random()*contents.length)
+                //if element hasn't been marked as "selected"
+                if (contents[random]!="selected"){
+                    document.write(contents[random])
+                    //mark element as selected
+                    contents[random]="selected"
+                    i++
+                }
+            }
+        </script>
+    </div> <!-- /sidebarAds -->
+    <div style="clear:both;"></div>
+    <!-- / end sidebar_ads.html -->
 
-{% include topnav.html %}
+    <!-- tinyletter.html -->
+    <h3 class="sidebar">I'd Rather Be Writing Newsletter</h3>
+    <p>Get new posts delivered straight to your inbox.</p>
+    <div class="form-group">
+        <form style="text-align: center; background-color: whitesmoke; border:1px solid #ccc;padding:3px;text-align:center" action="https://tinyletter.com/tomjohnson1492" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/tomjohnson1492', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <p><label for="tlemail">Enter your email address</label></p>
+            <p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
+            <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" class="btn btn-warning"></input>
+            <p><small>Subscriber count: 2,723</small></p>
+        </form>
+    </div> <!-- end form-group-->
+    <!-- end tinyletter.html -->
+    <!-- social_media_icons.html -->
+    <div class="socialMediaButtons">
+        <a href="http://feeds.feedburner.com/tomjohnson">
+            <div class="srssfeed"></div>
+        </a>
+        <a href="http://twitter.com/tomjohnson">
+            <div class="stwitter"></div>
+        </a>
+        <a href="https://github.com/tomjohnson1492/">
+            <div class="sgithub"></div>
+        </a>
+        <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">
+            <div class="situnes"></div>
+        </a>
+        <a href="https://plus.google.com/+Idratherbewriting/posts">
+            <div class="sgoogleplus"></div>
+        </a>
+        <a href="https://www.linkedin.com/groups/6758055">
+            <div class="slinkedin"></div>
+        </a>
+    </div>
+    <!-- end social_media_icons.html -->
+    <!-- recent_comments.html -->
+    <h3 class="sidebar">Recent Comments</h3>
+    <div class="recentComments">
+        <script type="text/javascript" src="http://idratherbewriting.disqus.com/combination_widget.js?num_items=10&hide_mods=0&color=grey&default_tab=recent&excerpt_length=70"></script>
+        <!-- end recent_comments.html -->
+        </ul>
+    </div>
+    </div><!-- /col-md-3 -->
 
-<!-- Page Content -->
-<div class="container">
-    <div class="col-lg-12">&nbsp;</div>
-
-
-    {% include sidebar.html %}
-</div>
 
     <!-- Content Column -->
     <div class="col-md-9">
-
         {{content}}
-        <div id="sidebarAreaHomePage"><!-- appears for mobile view only-->
+
+        <div id="sidebarAreaHomePage">
+            <!-- appears for mobile view only-->
             <ul id="mytechsidebar" class="nav">
                 {% include social_media_icons.html %}
                 {% include notestoc.html %}
@@ -33,19 +349,12 @@
                 {% comment %}{% include text_ads.html %}{% endcomment %}
                 {% include recent_comments.html %}
             </ul>
-        </div>
+        </div> <!-- /sidebarAreaHomePage -->
+    </div> <!-- /col-md-9 -->
 
-    </div>
-    <!-- /.row -->
-
+    </div><!-- /row -->
     <hr>
-
-</div>
-<!-- /.container -->
-
-</div>
-</body>
-{% include google_analytics.html %}
-
+    </div><!-- /container -->
+    </body>
+    {% include google_analytics.html %}
 </html>
-
