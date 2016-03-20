@@ -54,6 +54,8 @@
     <meta name="twitter:image:src" content="{{ site.url }}/assets/images/me.png">
             {% endif %}
     </head>
+
+
     <body>
     <div id="masthead">
             <div class="topBannerAd"><a href="http://www.adobe.com/cfusion/tdrc/index.cfm?product=framemaker&loc=en_gb&sdid=XPCNHDD5&mv=other"><img src="{{ "/images/ads/adobe_rectangle.jpg" | prepend: site.baseurl }}" alt="Adobe Robohelp" /></a>
@@ -169,7 +171,7 @@
     {% elsif page.type == "notes_pubapis" %}
     {% assign sidebarTitle = "Publishing API documentation" %}
     {% assign sidebar = site.data.sidebar_pubapis.entries %}
-
+    <
     {% elsif page.type == "notes_platformapis" %}
     {% assign sidebarTitle = "Platform API documentation" %}
     {% assign sidebar = site.data.sidebar_platformapis.entries %}
@@ -185,7 +187,7 @@
     {% elsif page.type == "notes_dita" %}
     {% assign sidebarTitle = "My DITA notes" %}
     {% assign sidebar = site.data.sidebar_dita.entries %}
-
+    <
     {% elsif page.type == "notes_apis" %}
     {% assign sidebarTitle = "My API notes" %}
     {% assign sidebar = site.data.sidebar_apis.entries %}
@@ -250,12 +252,13 @@
                -->
         </li>
     </ul>
+    {% endif %}
+    </div><!-- /sidebarArea-->
 
     <script>$("li.active").parents('li').toggleClass("active");</script>
 
 
-    {% endif %}
-    </div><!-- /sidebarArea-->
+
 
     <!-- sidebar_ads.html -->
     <div class="sidebarAds">
@@ -333,8 +336,10 @@
         </ul>
     </div>
     </div><!-- /col-md-3 -->
-    
+
+
     <!-- Content Column -->
+
     <div class="col-md-9">
         {{content}}
 
