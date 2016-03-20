@@ -47,7 +47,7 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
 
 2. Change the first `id` value to another integer (whole number) and the pet name of `fluffy`.
 
-    {{note}} Use unique numbers and names that others aren't likely to also use.{{end}}
+    {{note}} Use unique numbers and names that others aren't likely to also use. Also, don't start with "0."{{end}}
 
 3. Save the file in this directory: `Users/YOURUSERNAME`.
 4. In your Terminal, browse to the directory where you saved the mypet.json file. (Usually the default directory is `Users/YOURUSERNAME` &mdash; hence the previous step.)
