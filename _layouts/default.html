@@ -207,7 +207,7 @@
         {% for entry in sidebar %}
         {% for subcategory in entry.subcategories %}
         {% if subcategory.output contains "web" %}
-        <li>
+        <li class="subcatTitle">
             <a href="#">{{ subcategory.title }}</a>
             <ul>
                 {% for item in subcategory.items %}

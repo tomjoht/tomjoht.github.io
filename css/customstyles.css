@@ -344,6 +344,17 @@ h1.topictitle1 {
     font-weight:bold;
 }
 
+li.subcatTitle a {
+    color: black;
+    font-size: 14px;
+}
+
+ul.nav li ul li a {
+    border-top: 1px solid whitesmoke;
+    padding-left: 10px;
+    color: #444
+    font-weight: normal;
+}
 
 .nav ul li a {
     background-color: #FAFAFA;
@@ -354,9 +365,6 @@ h1.topictitle1 {
     padding-right:10px;
 }
 
-.nav ul li a {
-    font-size:14px;
-}
 . nav ul li a:hover {
     color: black;
 }
