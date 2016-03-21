@@ -1,19 +1,7 @@
-<!-- Content Row -->
-<div class="row">
-    <!-- Sidebar Column -->
-    <div class="col-md-3">
+<div id="sidebarArea">
+    <!-- appears for desktop view only-->
+    {% include notestoc.html %}
 
-<div id="sidebarArea"><!-- appears for desktop view only-->
-        <ul id="mytechsidebar" class="nav">
-{% include notestoc.html %}
-{% include sidebar_ads.html %}
-{% include tinyletter.html %}
-{% include social_media_icons.html %}
-{% include recent_comments.html %}
+</div><!-- /sidebarArea-->
+
 <script>$("li.active").parents('li').toggleClass("active");</script>
-
-
-        </ul>
-</div>
-
-    </div>

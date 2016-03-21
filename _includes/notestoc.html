@@ -1,105 +1,112 @@
-{% if page.type or page.series %}
-<script>
-    $(document).ready(function() {
-        // Initialize navgoco with default options
-        $("#mysidebar").navgoco({
-            caretHtml: '',
-            accordion: {{site.sidebar_accordion}},
-        openClass: 'active', // open
-                save: false, // leave false or nav higlighting doesn't work right
-                cookie: {
-            name: 'navgoco',
-                    expires: false,
-                    path: '/'
-        },
-        slide: {
-            duration: 400,
-                    easing: 'swing'
-        }
-    });
-    });
-</script>
+<ul id="mytechsidebar" class="nav">
+    {% if page.type or page.series %}
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: {{site.sidebar_accordion}},
+            openClass: 'active', // open
+                    save: false, // leave false or nav higlighting doesn't work right
+                    cookie: {
+                name: 'navgoco',
+                        expires: false,
+                        path: '/'
+            },
+            slide: {
+                duration: 400,
+                        easing: 'swing'
+            }
+        });
+        });
+    </script>
 
-<script>
-    $("li.active").parents('li').toggleClass("active");
+    {% if page.type == "notes_docapis" %}
+    {% assign sidebarTitle = "Documenting REST APIs" %}
+    {% assign sidebar = site.data.sidebar_docapis.entries %}
 
-</script>
+    {% elsif page.type == "notes_pubapis" %}
+    {% assign sidebarTitle = "Publishing API documentation" %}
+    {% assign sidebar = site.data.sidebar_pubapis.entries %}
 
-{% if page.type == "notes_docapis" %}
-{% assign sidebarTitle = "Documenting REST APIs" %}
-{% assign sidebar = site.data.sidebar_docapis.entries %}
+    {% elsif page.type == "notes_platformapis" %}
+    {% assign sidebarTitle = "Platform API documentation" %}
+    {% assign sidebar = site.data.sidebar_platformapis.entries %}
 
-{% elsif page.type == "notes_pubapis" %}
-{% assign sidebarTitle = "Publishing API documentation" %}
-{% assign sidebar = site.data.sidebar_pubapis.entries %}
+    {% elsif page.type == "notes_java" %}
+    {% assign sidebarTitle = "My Java notes" %}
+    {% assign sidebar = site.data.sidebar_java.entries %}
 
-{% elsif page.type == "notes_platformapis" %}
-{% assign sidebarTitle = "Platform API documentation" %}
-{% assign sidebar = site.data.sidebar_platformapis.entries %}
+    {% elsif page.type == "notes_javascript" %}
+    {% assign sidebarTitle = "JavaScript notes" %}
+    {% assign sidebar = site.data.sidebar_javascript.entries %}
 
-{% elsif page.type == "notes_java" %}
-{% assign sidebarTitle = "My Java notes" %}
-{% assign sidebar = site.data.sidebar_java.entries %}
+    {% elsif page.type == "notes_dita" %}
+    {% assign sidebarTitle = "My DITA notes" %}
+    {% assign sidebar = site.data.sidebar_dita.entries %}
 
-{% elsif page.type == "notes_javascript" %}
-{% assign sidebarTitle = "JavaScript notes" %}
-{% assign sidebar = site.data.sidebar_javascript.entries %}
+    {% elsif page.type == "notes_apis" %}
+    {% assign sidebarTitle = "My API notes" %}
+    {% assign sidebar = site.data.sidebar_apis.entries %}
 
-{% elsif page.type == "notes_dita" %}
-{% assign sidebarTitle = "My DITA notes" %}
-{% assign sidebar = site.data.sidebar_dita.entries %}
+    {% elsif page.series == "testing_documentation" %}
+    {% assign sidebarTitle = "Testing documentation" %}
+    {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
 
-{% elsif page.type == "notes_apis" %}
-{% assign sidebarTitle = "My API notes" %}
-{% assign sidebar = site.data.sidebar_apis.entries %}
+    {% elsif page.type == "visualcommunication" %}
+    {% assign sidebarTitle = "Visual communication" %}
+    {% assign sidebar = site.data.sidebar_visualcommunication.entries %}
 
-{% elsif page.series == "testing_documentation" %}
-{% assign sidebarTitle = "Testing documentation" %}
-{% assign sidebar = site.data.sidebar_testing_documentation.entries %}
+    {% endif %}
 
-{% elsif page.type == "visualcommunication" %}
-{% assign sidebarTitle = "Visual communication" %}
-{% assign sidebar = site.data.sidebar_visualcommunication.entries %}
-
-{% endif %}
-<ul id="mysidebar" class="nav">
-
-    {% for entry in sidebar %}
-    {% for subcategory in entry.subcategories %}
-    {% unless subcategory.output == "pdf" %}
-    <li class="firstLevel"><a href="#">{{ subcategory.title }}</a>
-        {% endunless %}
-        <ul>{% for item in subcategory.items %}
-            {% unless item.output == "pdf" %}
-            {% if item.external_url %}
-            <li class="sublevel"><a href="{{item.external_url}}" target="_blank">{{item.weight}} {{item.title}}</a></li>
-            {% elsif page.url contains item.url %}
-            <li class="active sublevel"><a href="{{item.url | prepend: site.baseurl }}">{{item.weight}} {{item.title}}</a></li>
-            {% else %}<li class="sublevel"><a href="{{item.url | prepend: site.baseurl }}">{{item.weight}} {{item.title}}</a></li>
+    <h3>{{sidebarTitle}}</h3>
+    <ul id="mysidebar" class="nav">
+        {% for entry in sidebar %}
+        {% for subcategory in entry.subcategories %}
+        {% if subcategory.output contains "web" %}
+        <li class="subcatTitle">
+            <a href="#">{{ subcategory.title }}</a>
+            <ul>
+                {% for item in subcategory.items %}
+                {% if item.output contains "web" %}
+                {% if item.external_url %}
+                <li><a href="{{item.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+                {% elsif page.url == item.url %}
+                <li class="active"><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></li>
+                {% else %}
+                <li><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></li>
+                {% endif %}
+                {% for thirdlevel in item.thirdlevel %}
+                {% if thirdlevel.output contains "web" %}
+                <li class="thirdlevel">
+                    <a href="#">{{ thirdlevel.title }}</a>
+                    <ul>
+                        {% for deeplevel in thirdlevel.thirdlevelitems %}
+                        {% if deeplevel.output contains "web" %}
+                        {% if deeplevel.external_url %}
+                        <li><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.title}}</a></li>
+                        {% elsif page.url == deeplevel.url %}
+                        <li class="active"><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
+                        {% else %}
+                        <li><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </ul>
             {% endif %}
-            {% endunless %}
-            {% for thirdlevel in item.thirdlevel %}
-            {% unless thirdlevel.output == "pdf" %}
-            <li class="thirdlevel"><a href="#">{{ thirdlevel.title }}</a>
-                {% endunless %}
-                <ul>{% for deeplevel in thirdlevel.thirdlevelitems %}
-                    {% unless deeplevel.output == "pdf" %}
-                    {% if deeplevel.external_url %}
-                    <li class="sublevel"><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.weight}} {{deeplevel.title}}</a></li>
-                    {% elsif page.url contains deeplevel.url %}
-                    <li class="active sublevel"><a href="{{deeplevel.url | prepend: site.baseurl }}">{{deeplevel.weight}} {{deeplevel.title}}</a></li>
-                    {% else %}<li class="sublevel"><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.weight}} {{deeplevel.title}}</a></li>
-                    {% endif %}{% endunless %}{% endfor %}</ul></li>
-            {% endfor %}</li>
-            {% endfor %}</ul></li>
-    {% endfor %}{% endfor %}</ul>
-
-{% if site.sidebar_accordion == false %}
-<p class="external">
-    <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
-</p>
-{% endif %}
-
-{% comment %}  this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above.{% endcomment %}
-{% endif %}
-
+            {% endfor %}
+            {% endfor %}
+            <!-- if you aren't using the accordion, uncomment this block:
+               <p class="external">
+                   <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+               </p>
+               -->
+        </li>
+    </ul>
+    {% endif %}

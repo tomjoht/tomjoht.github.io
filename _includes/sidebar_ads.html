@@ -1,31 +1,33 @@
+<!-- sidebar_ads.html -->
 <div class="sidebarAds">
     <!--<h3 class="sidebar"> Sponsors</h3>-->
-<script>
-var contents=new Array()
-contents[0]='<a href="http://www.madcapsoftware.com/flare11/?utm_source=IdRatherBeWriting&amp;utm_medium=Banner&amp;utm_campaign=Flare11"><img src="{{ "/images/ads/madcap.png" | prepend: site.baseurl }}" alt="Madcap Software" /></a>'
-contents[1]='<a href="https://www.adobe.com/uk/products/technicalcommunicationsuite.html?sdid=X2PHJ12B&mv=other"><img src="{{ "/images/ads/adobe_square.gif" | prepend: site.baseurl }}" alt="Adobe Framemaker" /></a>'
-contents[2]='<a href="http://www.simplifiedenglish.net/"><img src="{{ "/images/ads/tedopres.gif" | prepend: site.baseurl }}" alt="Tedopres" /></a>'
-contents[3]='<a href="http://www.paligo.se/"><img src="{{ "/images/ads/paligo.gif" | prepend: site.baseurl }}" alt="Paligo" /></a>'
-//contents[4]='<a href="https://clickhelp.co/"><img src="{{ "/images/ads/clickhelp.gif" | prepend: site.baseurl }}" alt="Clickhelp" /></a>'
-contents[4]='<a href="http://www.drexplain.com/"><img src="{{ "/images/ads/drexplain.png" | prepend: site.baseurl }}" alt="Dr. Explain" /></a>'
-contents[5]='<a href="http://www.browselab.com/helpconsole_overview.htm"><img src="{{ "/images/ads/helpconsole.png" | prepend: site.baseurl }}" alt="Help Console" /></a>'
-contents[6]='<a href="http://www.xeditor.com/portal/en/technical-documentation-1771"><img src="{{ "/images/ads/xeditor.jpg" | prepend: site.baseurl }}" alt="Xeditor" /></a>'
-contents[7]='<a href="http://idratherbewriting.com/advertising/"><img src="{{ "/images/ads/youradheresvg.svg" | prepend: site.baseurl }}" alt="Advertising info" /></a>'
-var i=0
-//variable used to contain controlled random number
-var random
-//while all of array elements haven't been cycled thru
-while (i<contents.length){
-//generate random num between 0 and arraylength-1
-random=Math.floor(Math.random()*contents.length)
-//if element hasn't been marked as "selected"
-if (contents[random]!="selected"){
-document.write(contents[random])
-//mark element as selected
-contents[random]="selected"
-i++
-}
-}
-</script>
-</div>
-<div style="clear:both;"/>
+    <script>
+        var contents=new Array()
+        contents[0]='<a href="http://www.madcapsoftware.com/flare11/?utm_source=IdRatherBeWriting&amp;utm_medium=Banner&amp;utm_campaign=Flare11"><img src="{{ "/images/ads/madcap.png" | prepend: site.baseurl }}" alt="Madcap Software" /></a>'
+        contents[1]='<a href="https://www.adobe.com/uk/products/technicalcommunicationsuite.html?sdid=X2PHJ12B&mv=other"><img src="{{ "/images/ads/adobe_square.gif" | prepend: site.baseurl }}" alt="Adobe Framemaker" /></a>'
+        contents[2]='<a href="http://www.simplifiedenglish.net/"><img src="{{ "/images/ads/tedopres.gif" | prepend: site.baseurl }}" alt="Tedopres" /></a>'
+        contents[3]='<a href="http://www.paligo.se/"><img src="{{ "/images/ads/paligo.gif" | prepend: site.baseurl }}" alt="Paligo" /></a>'
+        //contents[4]='<a href="https://clickhelp.co/"><img src="{{ "/images/ads/clickhelp.gif" | prepend: site.baseurl }}" alt="Clickhelp" /></a>'
+        contents[4]='<a href="http://www.drexplain.com/"><img src="{{ "/images/ads/drexplain.png" | prepend: site.baseurl }}" alt="Dr. Explain" /></a>'
+        contents[5]='<a href="http://www.browselab.com/helpconsole_overview.htm"><img src="{{ "/images/ads/helpconsole.png" | prepend: site.baseurl }}" alt="Help Console" /></a>'
+        contents[6]='<a href="http://www.xeditor.com/portal/en/technical-documentation-1771"><img src="{{ "/images/ads/xeditor.jpg" | prepend: site.baseurl }}" alt="Xeditor" /></a>'
+        contents[7]='<a href="http://idratherbewriting.com/advertising/"><img src="{{ "/images/ads/youradheresvg.svg" | prepend: site.baseurl }}" alt="Advertising info" /></a>'
+        var i=0
+        //variable used to contain controlled random number
+        var random
+        //while all of array elements haven't been cycled thru
+        while (i<contents.length){
+            //generate random num between 0 and arraylength-1
+            random=Math.floor(Math.random()*contents.length)
+            //if element hasn't been marked as "selected"
+            if (contents[random]!="selected"){
+                document.write(contents[random])
+                //mark element as selected
+                contents[random]="selected"
+                i++
+            }
+        }
+    </script>
+</div> <!-- /sidebarAds -->
+<div style="clear:both;"></div>
+<!-- / end sidebar_ads.html -->

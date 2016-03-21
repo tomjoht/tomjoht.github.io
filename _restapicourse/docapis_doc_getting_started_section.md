@@ -51,7 +51,7 @@ Here's a Getting Started tutorial from the HipChat API:
 
 Here's a Getting Started section from the Aeris Weather API:
 
-<a href=http://www.aerisweather.com/support/docs/api/getting-started/""><img src="{{ "/images/restapicourse/aerisgettingstarted.png" | prepend: site.baseurl }}" alt="Aeris weather Getting started" /></a>
+<a href="http://www.aerisweather.com/support/docs/api/getting-started/"><img src="{{ "/images/restapicourse/aerisgettingstarted.png" | prepend: site.baseurl }}" alt="Aeris weather Getting started" /></a>
 
 Here's another example of a Getting Started tutorial from Smugmug's API:
 
