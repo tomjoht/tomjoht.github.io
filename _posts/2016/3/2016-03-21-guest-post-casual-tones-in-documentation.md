@@ -36,11 +36,11 @@ Like the approach? Experiment with a casual tone when writing content for a bran
 To start off with, try these basic techniques: 
 
 | **Technique** | **Reason**  | **Examples** |
-| **Use contracted forms** | It’s simple! Using contracted forms alone can give your writing a casual feel. For example, using <i>let’s</i>, <i>it’s</i>, <i>isn’t</i>, <i>you’re</i>, etc. | Let’s see how this works. <p> Let’s get started. <p> It’s pretty simple! <p> You’re all set! | 
-| **Use shorter, incomplete phrases** | Want to see how? Use this form primarily for questions. Users love to see the author ask a question that they have in mind too. | Come here often? Make google your home page. <p> Want to see the alerts? Click here. <p>First time user? Register here.|
-| **Start with a conjunction** | Because this is how we speak. | And, we’re done. <p> But, you would love this. |
-| **Use auxiliary verbs** | Wouldn’t you love using those? Using <i>would</i>, <i>should</i>, and <i>could</i> add to the flavor too. | You should see the dashboard now. <p> You could check the alerts at this point or look at the visualizations in the dashboard.|
-| **Use frill words (sparingly)** | Pretty awesome, isn’t it? These words are just frills, and adds to the conversation style. | Sounds good? <p>That’s awesome. Isn’t it? <p> Oops.. this is embarrassing…|
+| **Use contracted forms** | It’s simple! Using contracted forms alone can give your writing a casual feel. For example, using <i>let’s</i>, <i>it’s</i>, <i>isn’t</i>, <i>you’re</i>, etc. | Let’s see how this works. <p> Let’s get started.</p> <p> It’s pretty simple!</p> <p> You’re all set!</p> | 
+| **Use shorter, incomplete phrases** | Want to see how? Use this form primarily for questions. Users love to see the author ask a question that they have in mind too. | Come here often? Make google your home page. <p> Want to see the alerts? Click here.</p> <p>First time user? Register here.</p>|
+| **Start with a conjunction** | Because this is how we speak. | And, we’re done. <p> But, you would love this.</p> |
+| **Use auxiliary verbs** | Wouldn’t you love using those? Using <i>would</i>, <i>should</i>, and <i>could</i> add to the flavor too. | You should see the dashboard now. <p> You could check the alerts at this point or look at the visualizations in the dashboard.</p>|
+| **Use frill words (sparingly)** | Pretty awesome, isn’t it? These words are just frills, and adds to the conversation style. | Sounds good? <p>That’s awesome. Isn’t it?</p> <p> Oops.. this is embarrassing…</p>|
 
 ## Don’t go overboard
 
@@ -59,6 +59,6 @@ User interface (UI) text is already ahead of the curve in terms of using a casua
 
 ## About Lavanya Krishnamurthy
 
-<img src="{{ "/images/lavanya.jpg" | prepend: site.baseurl }} style="float:left; padding-right:10px;" /> Lavanya Krishnamurthy is a Principal Information Services Engineer with CA Technologies, based out of Bangalore, India (looking forward to her move to the pearl city, Hyderabad). She has 13+ years of experience in technical writing. During her career, she expanded her horizon into information management, information architecture, and embedded user assistance. She loves the autonomy that she gets with her job. Currently, she is experimenting with casual styles of writing for one of the incubation products in CA. That’s the source and inspiration for this blog post as well. Her interests are completely vested in her kids and family. When she is not writing, she is reviewing her kids' homework, reports, and other writing projects to give them feedback.
+<img src="{{ "/images/lavanya.jpg" | prepend: site.baseurl }} style='float:left; padding-right:10px;'" /> Lavanya Krishnamurthy is a Principal Information Services Engineer with CA Technologies, based out of Bangalore, India (looking forward to her move to the pearl city, Hyderabad). She has 13+ years of experience in technical writing. During her career, she expanded her horizon into information management, information architecture, and embedded user assistance. She loves the autonomy that she gets with her job. Currently, she is experimenting with casual styles of writing for one of the incubation products in CA. That’s the source and inspiration for this blog post as well. Her interests are completely vested in her kids and family. When she is not writing, she is reviewing her kids' homework, reports, and other writing projects to give them feedback.
  
 <small>Disclaimer: The views and opinions expressed in this article are those of the author and do not necessarily reflect CA’s official policy or position. </small>
