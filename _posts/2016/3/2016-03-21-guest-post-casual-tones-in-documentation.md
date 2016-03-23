@@ -36,11 +36,11 @@ Like the approach? Experiment with a casual tone when writing content for a bran
 To start off with, try these basic techniques: 
 
 | **Technique** | **Reason**  | **Examples** |
-| **Use contracted forms** | It’s simple! Using contracted forms alone can give your writing a casual feel. For example, using <i>let’s</i>, <i>it’s</i>, <i>isn’t</i>, <i>you’re</i>, etc. | Let’s see how this works. / Let’s get started. / It’s pretty simple! / You’re all set!</p> | 
+| **Use contracted forms** | It’s simple! Using contracted forms alone can give your writing a casual feel. For example, using <i>let’s</i>, <i>it’s</i>, <i>isn’t</i>, <i>you’re</i>, etc. | Let’s see how this works. / Let’s get started. / It’s pretty simple! / You’re all set! | 
 | **Use shorter, incomplete phrases** | Want to see how? Use this form primarily for questions. Users love to see the author ask a question that they have in mind too. | Come here often? Make google your home page. / Want to see the alerts? Click here. / First time user? Register here.|
 | **Start with a conjunction** | Because this is how we speak. | And, we’re done. / But, you would love this. / |
 | **Use auxiliary verbs** | Wouldn’t you love using those? Using <i>would</i>, <i>should</i>, and <i>could</i> add to the flavor too. | You should see the dashboard now. / You could check the alerts at this point or look at the visualizations in the dashboard.|
-| **Use frill words (sparingly)** | Pretty awesome, isn’t it? These words are just frills, and adds to the conversation style. | Sounds good? / That’s awesome. Isn’t it? / Oops.. this is embarrassing…</p>|
+| **Use frill words (sparingly)** | Pretty awesome, isn’t it? These words are just frills, and adds to the conversation style. | Sounds good? / That’s awesome. Isn’t it? / Oops.. this is embarrassing…|
 
 ## Don’t go overboard
 
