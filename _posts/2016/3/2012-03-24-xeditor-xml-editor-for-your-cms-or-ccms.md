@@ -1,9 +1,9 @@
 ---
-title: "Xeditor product review"
+title: "Product review: Xeditor, an XML-based CMS editor"
 categories:
 - dita
 keywords: CMS editor, CCMS editor, editor interfaces for content management systems, easy XML viewers, XML editors
-summary: "he following article is a sponsored article I wrote on behalf of Xeditor, which is one of the companies I advertise on my site. Xeditor provides an easy-to-use, Word-like interface for writing XML (either DITA or your own custom schema). You configure Xeditor to work with your CMS."
+summary: "The following article is a sponsored article I wrote on behalf of Xeditor, which is one of the companies I advertise on my site. Xeditor provides an easy-to-use, Word-like interface for writing XML (either DITA or your own custom schema). You configure Xeditor to work with your CMS or CCMS, allowing authors across your company to contribute, edit, and review content."
 thumb: xeditorthumb.png
 ---
 
