@@ -1,5 +1,5 @@
 ---
-title: "Product review: Xeditor, an XML-based CMS editor"
+title: "Xeditor, a CMS editor for XML content (product review)"
 categories:
 - dita
 keywords: CMS editor, CCMS editor, editor interfaces for content management systems, easy XML viewers, XML editors
