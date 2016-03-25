@@ -332,7 +332,15 @@ ul#mysidebar li.firstLevel a:hover {
 }
 
 .nav ul li ul li a {
-    padding-left:20px;
+     margin-left:20px;
+ }
+
+.nav ul li ul li ul li a {
+    margin-left:40px;
+}
+
+.nav li {
+    border-top: 1px solid #f0f0f0;
 }
 
 h1.topictitle1 {
@@ -356,7 +364,7 @@ ul.nav li ul li a {
     font-weight: normal;
 }
 
-.nav ul li a {
+.nav ul, .nav ul li a {
     background-color: #FAFAFA;
 }
 
