@@ -20,22 +20,22 @@ In this latest version, I'm trying to avoid the tech authoring model where you g
 Problems with this model include the following:
 
 * **No ability to feasibly review all the outputs, either for authors or SMEs.** There's a greater chance that an output will contain an error that you never see because you're likely not reviewing 20 different sites, and neither are the engineers.
-* **Complete breakdown with web searches from Google.** If you have 20 different sites for different product variants (versions, audiences, configurations, etc.), a search from Google will invariably land on the "wrong" site. You'll have to figure out how to guide the user to the right one.
+* **Complete breakdown with web searches from Google.** If you have 20 different sites for different product variants (versions, audiences, configurations, etc.) a search from Google will invariably land on the "wrong" site. You'll have to figure out how to guide the user to the right one.
 * **Maintenance nightmare**. The more you push out separate sites, the more file directories you have to manage until it gets ridiculous. If you push out new sites with each version, this quickly grows into so many file directories, and managing them all, including moving the files, becomes a nightmare. (20 sites for each version x 10 versions = 200 sites.)
 
-Version 5.0 of my doc theme allows you to associate a unique sidebar for each product. For example, let's say you have 7 products all on the same site (a single output). With each page, you can specify a particular sidebar in the frontmatter. 
+Version 5.0 of my doc theme allows you to associate a unique sidebar for each product. For example, let's say you have 7 products all on the same site (a single website). With each page, you can specify a particular sidebar in the frontmatter. 
 
 To see it in action, go to the [theme](http://idratherbewriting.com/documentation-theme-jekyll). In the top navigation menu, select from among three different products in the Products menu. Note how the sidebars change.
 
 ## Advantages of multiple sidebars in the same site
 
-This product-specific sidebar provides a number of advantages:
+This multiple sidebars model provides a number of advantages:
 
 * **Reduced number of levels for users to expand in the TOC**. Without unique sidebars, you would likely need to have one massive sidebar showing all products. This model would push each topic down a level, forcing users to expand and collapse more sidebar sections to get what they need.
 * **Increased relevancy of each sidebar link**. The entire sidebar can reflect all the content the user cares about. There's no need to force a lot of irrelevant links or sections in the sidebar simply because there's no other navigation component. 
 * **Ability to separate out the content without pushing each product into a self-contained sites or directories**. When you have all your content in one site, you can spend more time caring for that site's details and providing more sophisticated styles, controls, and other interactive components in that site.
 
-By combining all products in the same site, you allow more cross-over and upsell from one product to another. This model works especially well when users may implement more than one of your company's products, or when part of documentation from one product applies to another. 
+By combining all products in the same site, you allow more cross-over and upsell from one product to another. This model works especially well when users might implement more than one of your company's products, or when part of documentation from one product applies to another. 
 
 ## Challenges with multi-product sites
 
@@ -46,9 +46,9 @@ The multi-product site does pose some challenges:
 
 ## Theme needs
 
-Note that I haven't integrated a more robust search with this theme. At some point, you need to integrate with something like [Algolia](http://algolia.com) or [Swiftype](http://swifttype.com) to provide a more powerful search feature. To get facets, you'll probably need to integrate something from [Apache Solr](http://lucene.apache.org/solr/). In that sense, the theme is somewhat limited. But there's a chance that you could leverage engineering resources to build out this functionality. Tech writers tend to focus mostly on content, which is what this theme allows you to do.
+Note that I haven't integrated a more robust search with this theme. At some point, I would need to integrate with something like [Algolia](http://algolia.com) or [Swiftype](http://swifttype.com) to provide a more powerful search feature. To get facets, I'd probably need to integrate something from [Apache Solr](http://lucene.apache.org/solr/). In that sense, the theme is somewhat limited. But there's a chance that you could leverage engineering resources to build out this functionality. Tech writers tend to focus mostly on content, which is what this theme allows you to do.
 
-If you'd like to try out the Jekyll theme, I'd be interested to hear your feedback. If you're a Windows user, I'm especially interested to hear what works and doesn't work for you with Jekyll.
+If you'd like to try out the Jekyll theme, I'd be interested to hear your feedback. If you're new to Jekyll (no matter your platform), I'm especially interested to hear if you can get Jekyll up and running with my installation instructions ([Mac](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_mac/) or [Windows](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows/)).
 
 
 
