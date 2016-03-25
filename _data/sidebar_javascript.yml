@@ -6,33 +6,49 @@ entries:
       items:
         - title: Introduction
           url: /javascript/
+          output: web, pdf
         - title: Numbers
           url: /numbers-javascript/
+          output: web, pdf
         - title: Strings
           url: /strings-javascript/
+          output: web, pdf
         - title: Variables
           url: /variables-javascript/
+          output: web, pdf
         - title: Dates
           url: /dates-javascript/
+          output: web, pdf
         - title: Loops
           url: /loops-javascript/
+          output: web, pdf
         - title: Functions
           url: /functions-javascript/
+          output: web, pdf
         - title: Objects
           url: /objects-javascript/
+          output: web, pdf
         - title: Conditional code
           url: /conditional-code-javascript/
+          output: web, pdf
         - title: Arrays
           url: /arrays-javascript/
+          output: web, pdf
         - title: Events and listeners
           url: /events-and-listeners-javascript/
+          output: web, pdf
         - title: jQuery
           url: /jquery-a-javascript-library-javascript/
+          output: web, pdf
         - title: Inserting elements
           url: /insertion-of-elements-javascript/
+          output: web, pdf
         - title: Document object model
           url: /document-object-model-javascript/
+          output: web, pdf
         - title: Firefox and Firebug
           url: /firefox-and-firebug-javascript/
+          output: web, pdf
         - title: AJAX
           url: /ajax-javascript/
+          output: web, pdf

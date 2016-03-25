@@ -2,7 +2,6 @@
 entries:
 - title: Sidebar
   subcategories:
-  subcategories:
     - title: Frontmatter
       output: pdf
       items:
@@ -15,11 +14,14 @@ entries:
           output: pdf
 
     - title: Visual Communication
+      output: web, pdf
       items:
         - title: Course overview
           url: /visualcommunication_course_overview/
           weight: 1.0
+          output: web, pdf
         - title: Getting sharp, clear screenshots
           url: /visualcommunication_sharp_clear_screenshots/
           weight: 1.1
+          output: web, pdf
 

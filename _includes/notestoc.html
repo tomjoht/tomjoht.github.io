@@ -25,13 +25,9 @@
     {% assign sidebarTitle = "Documenting REST APIs" %}
     {% assign sidebar = site.data.sidebar_docapis.entries %}
 
-    {% elsif page.type == "notes_pubapis" %}
-    {% assign sidebarTitle = "Publishing API documentation" %}
-    {% assign sidebar = site.data.sidebar_pubapis.entries %}
-
-    {% elsif page.type == "notes_platformapis" %}
-    {% assign sidebarTitle = "Platform API documentation" %}
-    {% assign sidebar = site.data.sidebar_platformapis.entries %}
+    {% elsif page.type == "visualcommunication" %}
+    {% assign sidebarTitle = "Visual communication" %}
+    {% assign sidebar = site.data.sidebar_visualcommunication.entries %}
 
     {% elsif page.type == "notes_java" %}
     {% assign sidebarTitle = "My Java notes" %}
@@ -53,9 +49,6 @@
     {% assign sidebarTitle = "Testing documentation" %}
     {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
 
-    {% elsif page.type == "visualcommunication" %}
-    {% assign sidebarTitle = "Visual communication" %}
-    {% assign sidebar = site.data.sidebar_visualcommunication.entries %}
 
     {% endif %}
 

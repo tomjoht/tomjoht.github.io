@@ -82,6 +82,6 @@ Xeditor allows you to create structured content intuitively and efficiently (wit
 
 You can integrate Xeditor's framework with almost any CMS. Once you do, and once authors start writing topics, your content will be ready for use, re-use, and be published in any format.
 
-<a href="http://xeditor.com" class="btn btn-primary navbar-btn cursorNorm" role="button">Learn more about Xeditor</a>
+<a href="http://xeditor.com" class="btn btn-info navbar-btn cursorNorm" role="button">Learn more about Xeditor</a>
 
 

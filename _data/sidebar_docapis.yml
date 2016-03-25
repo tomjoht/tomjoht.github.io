@@ -2,7 +2,6 @@
 entries:
 - title: Sidebar
   subcategories:
-  subcategories:
     - title: Frontmatter
       output: pdf
       items:

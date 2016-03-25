@@ -87,18 +87,15 @@
             <div class="row">
             <!-- Sidebar Column -->
             <div class="col-md-3">
+            <div id="sidebarArea">
             {% include sidebar.html %}
-
-
-
-
     {% include sidebar_ads.html %}
-
     {% include tinyletter.html %}
     {% include social_media_icons.html %}
     {% include recent_comments.html %}
         </ul>
     </div>
+            </div> <!-- /sidebarArea -->
     </div><!-- /col-md-3 -->
 
 
@@ -106,18 +103,18 @@
 
     <div class="col-md-9">
         {{content}}
-    {% comment %}
+
         <div id="sidebarAreaHomePage">
             <!-- appears for mobile view only-->
             <ul id="mytechsidebar" class="nav">
-                {% include social_media_icons.html %}
                 {% include notestoc.html %}
                 {% include sidebar_ads.html %}
-                {% include tinyletter.html %}
+                 {% include tinyletter.html %}
+                {% include social_media_icons.html %}
                 {% include recent_comments.html %}
             </ul>
         </div> <!-- /sidebarAreaHomePage -->
-    {% endcomment %}
+
     </div> <!-- /col-md-9 -->
 
     </div><!-- /row -->

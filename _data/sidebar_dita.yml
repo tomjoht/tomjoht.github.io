@@ -6,87 +6,127 @@ entries:
       items:
         - title: DITA QRG introduction
           url: /ditaqrg/
+          output: web, pdf
         - title: Hello World tutorial
           url: /hello_world/
+          output: web, pdf
         - title: File and folder organization
           url: /folder_organization/
+          output: web, pdf
         - title: Specializations (task, concept, reference)
           url: /specializations/
+          output: web, pdf
         - title: Combining topics
           url: /combining_topics/
+          output: web, pdf
         - title: Converting HTML to DITA
           url: /convert_html_to_dita/
+          output: web, pdf
     - title: Page-level elements
       items:
         - title: Code
           url: /code/
+          output: web, pdf
         - title: Inline formatting
           url: /inline_formatting/
+          output: web, pdf
         - title: Tables
           url: /tables/
+          output: web, pdf
+          output: web, pdf
         - title: Images
           url: /images_dita/
+          output: web, pdf
         - title: Notes
           url: /notes/
+          output: web, pdf
         - title: Shortdesc
           url: /short_desc/
+          output: web, pdf
         - title: Variables
           url: /variables/
+          output: web, pdf
         - title: Video
           url: /video_dita/
+          output: web, pdf
     - title: Linking
       items:
         - title: Inline links
           url: /inline_links/
+          output: web, pdf
         - title: Related links
           url: /related_links/
+          output: web, pdf
         - title: Keyref links
           url: /keyref_links/
+          output: web, pdf
         - title: Relationship tables
           url: /relationship_tables/
+          output: web, pdf
         - title: Cross references
           url: /cross_references/
+          output: web, pdf
         - title: Map file (TOC)
           url: /mapfiles/
+          output: web, pdf
         - title: References to non-DITA files
           url: /references_to_non_dita_files/
+          output: web, pdf
         - title: Index entries
           url: /indexes/
+          output: web, pdf
         - title: Acronyms and glossary terms
           url: /acronyms_and_glossary/
+          output: web, pdf
     - title: Content re-use
       items:
         - title: Conditional profiling
           url: /conditional_profiling/
+          output: web, pdf
         - title: Conref (re-use of content)
           url: /conref/
+          output: web, pdf
         - title: Ditaval files (filtering attributes)
           url: /ditaval/
+          output: web, pdf
     - title: Publishing
       items:
         - title: Webhelp skins
           url: /webhelp_skins/
+          output: web, pdf
         - title: Webhelp with Feedback
           url: /webhelp_with_feedback/
+          output: web, pdf
         - title: Handling SME review
           url: /sme_review/
+          output: web, pdf
         - title: Add a menu selector
           url: /add_menu_selector/
+          output: web, pdf
         - title: Import DITA into WordPress
           url: /import_dita_into_wordpress/
+          output: web, pdfv
         - title: Add a show/hide toggle
           url: /jquery_show_hide/
+          output: web, pdf
         - title: Avoid losing focus during transforms
           url: /dont_lose_mouse_focus/
+          output: web, pdf
         - title: Author in Markdown, publish with DITA
           url: /md2html2ditav2/
+          output: web, pdf
         - title: Embed child pages in parent
           url: /rellinks/
+          output: web, pdf
         - title: Add expanding side pane
           url: /jquery_side_panel/
+          output: web, pdf
         - title: Create fixed width outputs
           url: /fixed_width_oxygen/
+          output: web, pdf
         - title: Add dynamic content filter
           url: /jquery_content_selector/
+          output: web, pdf
         - title: Add a mini-toc on a page
           url: /add_mini_toc/
+          output: web, pdf
