@@ -21,6 +21,8 @@ Here's a sample of the Xeditor interface:
 
 <figure><a href="http://www.xeditor.com/portal/en/technical-documentation-1771"><img src="{{ "/images/xeditorinterface.png" | prepend: site.baseurl }}"/></a><figcaption>Xeditor's interface makes XML authoring simple, like working in Microsoft Word.</figcaption></figure>
 
+Check it out at [Xeditor.com](http://www.xeditor.com/).
+
 ## Exploring the demo
 
 You can play around with Xeditor immediately, without having to sit through a salesperson's demo or other preliminary consultation. Just go to the [Live Demo](http://www.xeditor.com/portal/en/livedemo-58), choose one of the options (such as DITA), enter your email address to get a key, click **Send**, and within seconds you get an email with a link that takes you directly to an interface you can play around with.
@@ -44,23 +46,23 @@ Another handy feature of Xeditor is the comment and review functionality. To com
 Here are a few questions you might have while working with Xeditor demo:
 
 **Where do the images get uploaded to and the documents get saved to?**
-Remember this is just a demo. Xeditor doesn't manage content itself. You use Xeditor with your CMS, so the images and documents would get saved to your CMS.
+<br/>Remember this is just a demo. Xeditor doesn't manage content itself. You use Xeditor with your CMS, so the images and documents would get saved to your CMS.
 
 **What kinds of XML schemas are available?**
-Xeditor supports DITA out of the box, including DITA maps and any customizations. You can also configure Xeditor with your custom XML schemas as well. 
+<br/>Xeditor supports DITA out of the box, including DITA maps and any customizations. You can also configure Xeditor with your custom XML schemas as well. 
 
 **What if I want to add custom element buttons to the ribbon?**
-You can extend and configure Xeditor's ribbon with additional buttons. For example, if you regularly use the same element, you can add a button for that element on the ribbon. Adding additional buttons requires just a few lines of JavaScript that even a novice can pick up.
+<br/>You can extend and configure Xeditor's ribbon with additional buttons. For example, if you regularly use the same element, you can add a button for that element on the ribbon. Adding additional buttons requires just a few lines of JavaScript that even a novice can pick up.
 
 **How does Xeditor differ from OxygenXML?**
-Here are several distinguishing characteristics of Xeditor:
+<br/>Here are several distinguishing characteristics of Xeditor:
 * Xeditor provides more of a Word-like interface to authoring your XML content. The goal of Xeditor is to hide complex XML structures for every author with an intuitive usable interface.
 * Xeditor has a built-in review system that allows you to easily add comments and even turn on track changes. 
 * Although Xeditor is a web-based editor, it also works offline.  You can load your content or write new content without any internet connection. When you are online again, Xeditor syncs the content with your CMS.
 * Xeditor supports extremely large documents (larger than 50MB and thousands of pages). 
 
 **How do you know what elements are valid to insert at each point?**
-Xeditor has a integrated real-time validation based on the configuration of your XSD/DTD. The editor monitors your cursor and allows you to insert only valid elements at a specific position. 
+<br/>Xeditor has a integrated real-time validation based on the configuration of your XSD/DTD. The editor monitors your cursor and allows you to insert only valid elements at a specific position. 
 
 ## Intuitive authoring interfaces
 
@@ -79,5 +81,7 @@ XML-based documentation is often cumbersome to author and edit because it requir
 Xeditor allows you to create structured content intuitively and efficiently (without any XML knowledge). The user-friendly interface leads you through a defined document structure with real-time validation and simple collaboration. 
 
 You can integrate Xeditor's framework with almost any CMS. Once you do, and once authors start writing topics, your content will be ready for use, re-use, and be published in any format.
+
+<a href="http://xeditor.com" class="btn btn-primary navbar-btn cursorNorm" role="button">Learn more about Xeditor</a>
 
 
