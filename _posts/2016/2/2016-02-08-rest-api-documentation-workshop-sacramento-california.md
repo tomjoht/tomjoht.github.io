@@ -7,6 +7,8 @@ summary: "I'm giving an API documentation workshop in Sacramento on March 19, 20
 thumb: sacapiworkshop.png
 ---
 
+{{site.data.alerts.note}}For a recording of the workshop, see <a href="http://idratherbewriting.com/2016/03/27/rest-api-workshop-recording-sacramento-stc/" title="REST API documentation workshop">REST API documentation workshop</a>.{{site.data.alerts.end}}
+
 <a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
 
 Here is a description of the API workshop I'm giving in Sacramento:

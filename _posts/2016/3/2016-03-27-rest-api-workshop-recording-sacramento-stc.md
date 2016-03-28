@@ -1,5 +1,5 @@
 ---
-title: "Recording of REST API workshop at STC Sacramento"
+title: "REST API documentation workshop recording (STC Sacramento)"
 categories:
 - api-doc
 keywords: 
