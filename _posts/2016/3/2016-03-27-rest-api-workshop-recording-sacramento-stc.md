@@ -67,4 +67,4 @@ This course will mostly provide an introduction to these concepts. There are man
 
 I'll be giving this REST API documentation workshop again at the STC Summit in Anaheim this year. You can read my [STC pre-conference workshop here](http://technicalcommunicationsummit2016.sched.org/event/5o4O). There are still a few more spots for attendees.
 
-{{site.data.alerts.ad}}Want to go online with your user manuals? A good online documentation tool is a must &mdash; ensure efficient teamwork, offer multiple input and output formats, work on all platforms. ClickHelp is a modern web-based documentation tool &mdash; learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Want to go online with your user manuals? A good online documentation tool is a must &mdash; ensure efficient teamwork, offer multiple input and output formats, work on all platforms. ClickHelp is a modern web-based documentation tool &mdash; learn more at <a href="http://bit.ly/clickhelponlinedoctool">clickhelp.co</a>.{{site.data.alerts.end}}
