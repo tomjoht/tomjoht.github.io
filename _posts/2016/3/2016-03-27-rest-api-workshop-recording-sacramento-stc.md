@@ -3,21 +3,23 @@ title: "Recording of REST API workshop at STC Sacramento"
 categories:
 - api-doc
 keywords: 
-summary: "I recently gave a workshop on REST API documentation to the STC Sacramento chapter. The workshop is about 3.5 hrs long and covers a lot of the concepts that I detail in my API doc course. In the workshop I first show you how to use a REST API like a developer might. We then walk through common sections in API documentation, especially reference topics. Finally I give a tour of API documentation publishing tools."
+summary: "I recently gave a workshop on REST API documentation to the STC Sacramento chapter. The workshop is about 3.5 hrs long and covers a lot of the concepts that I detail in my API doc course. In the workshop I first show you how to use a REST API like a developer. We then walk through common sections in API documentation, especially reference topics. Finally I give a tour of API documentation publishing tools."
 thumb: restapiworkshopsacramentothumb.png
 ---
+
+## REST API documentation workshop recording
 
 The REST API workshop that I gave in Sacramento the other week is available on Youtube here:
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/GerbihyUpdo" frameborder="0" allowfullscreen></iframe>
 
-I didn't edit the content much at all. There are some times during the workshop where people struggled using Postman and cURL, so you might want to fast forward a few places if there's an extended lull.
+I didn't edit the workshop content much at all. There are some times during the workshop where people struggled using Postman and cURL, so you might want to fast forward a few places if there's an extended lull.
 
 I also realized that I have about 9 hours of material that I tried to compress in 3.5 hours, so I ended up skipping around a lot with the slides. You can go through the same material online in my [API doc course](http://idratherbewriting.com/docapis_course_overview/).
 
-<a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
+## REST API workshop description
 
-Here is a description of the API workshop I'm giving in Sacramento:
+Here is a description of the REST API workshop:
 
 > <h3>Workshop on Documenting REST APIs</h3>
 >
@@ -49,7 +51,7 @@ Here is a description of the API workshop I'm giving in Sacramento:
 * Swagger
 * RAML
 >
-This course will mostly provide an introduction to these concepts. There are many detailed examples and activities you can walk through with the API documentation tutorials on my site here: http://idratherbewriting.com/docapis_course_overview/
+This course will mostly provide an introduction to these concepts. There are many detailed examples and activities you can walk through with the API documentation tutorials on my site here: <a href="http://idratherbewriting.com/docapis_course_overview/">API documentation course</a>.
 >
 >All participants in workshop will need the following:
 >
@@ -61,6 +63,8 @@ This course will mostly provide an introduction to these concepts. There are man
 >
 >In addition to covering technical strategies for documenting REST APIs, we'll also talk generally about the job market for developer documentation, the skills in demand, and challenges in working in developer environments.
 
-I'll be giving this workshop again at the STC Summit in Anaheim this year. You can read the [STC pre-conference workshop description here](http://technicalcommunicationsummit2016.sched.org/event/5o4O).
+## Future API doc workshop opportunities
 
-{site.data.alerts.ad}}Want to go online with your user manuals? Good online documentation tool is a must &mdash; ensure efficient teamwork, offer multiple input and output formats, work on all platforms. ClickHelp is a modern web-based documentation tool &mdash; learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+I'll be giving this REST API documentation workshop again at the STC Summit in Anaheim this year. You can read my [STC pre-conference workshop here](http://technicalcommunicationsummit2016.sched.org/event/5o4O). There are still a few more spots for attendees.
+
+{{site.data.alerts.ad}}Want to go online with your user manuals? Good online documentation tool is a must &mdash; ensure efficient teamwork, offer multiple input and output formats, work on all platforms. ClickHelp is a modern web-based documentation tool &mdash; learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
