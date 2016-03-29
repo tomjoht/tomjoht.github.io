@@ -11,7 +11,7 @@ type: visualcommunication
 
 I'm giving a lightning talk at a [Write the Docs meetup](http://www.meetup.com/Write-the-Docs/events/228358497/?_af=event&_af_eid=228358497) tonight in downtown San Francisco. My talk is titled "Creating professional graphics in the easiest, simplest way possible." 
 
-You can view my slides <a href="{{ "/files/professionalgraphics" | prepend: site.baseurl }} target='_blank'">here</a> or just read on below. I've added some more detail to each of the slides.
+You can view my slides <a href="{{ "/files/professionalgraphics" | prepend: site.baseurl }}">here</a> or just read on below. I've added some more detail to each of the slides.
 
 If you're unfamiliar with lightning talks, they are 5 minute talks, so basically you deliver a single, focused idea in a compressed amount of time. Although I've given more than [75 presentations](http://idratherbewriting.com/presentations/), I have never given a lightning talk. 
 
