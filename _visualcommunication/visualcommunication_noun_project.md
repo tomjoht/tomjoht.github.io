@@ -3,7 +3,7 @@ title: 'Creating professional looking graphics in the simplest way possible usin
 permalink: /visualcommunication_noun_project/
 keywords:
 course: "Visual Communication"
-weight: 1.4
+weight: 1.2
 type: visualcommunication
 ---
 

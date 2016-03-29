@@ -24,4 +24,11 @@ entries:
           url: /visualcommunication_sharp_clear_screenshots/
           weight: 1.1
           output: web, pdf
+#        - title: Artboards and images
+#          url: /visualcommunication_artboards_and_images/
+#          weight: 1.2
+        - title: Creating professional looking graphics
+          url: /visualcommunication_noun_project/
+          output: web, pdf
+          weight: 1.2
 
