@@ -19,10 +19,12 @@ Here goes. Let me know if you have any feedback.
 
 ## Text alone is boring
 
+Text without graphics is hard to understand and lacks appeal.
+
 <figure><img src="{{ "/images/visualcommunication/lightningtalk_text.png" | prepend: site.baseurl }}"/><figcaption>
-    Text without graphics lacks appeal. </figcaption></figure>
+    Text without graphics can be a bit boring. </figcaption></figure>
     
-Text without graphics is hard to understand and lacks appeal. Note that by graphics, I'm not really referring to screenshots here, but rather to introductions about complex topics or processes that usually warrant visual accompaniments, but for whatever reason, do not include them. 
+Note that by graphics, I'm not really referring to screenshots here, but rather to introductions about complex topics or processes that usually warrant visual accompaniments, but for whatever reason, do not include them. 
 
 Not all documentation needs a healthy supply of visuals, but there are some key scenarios where conceptual illustrations, diagrams, or other visuals play a strong role to increase the appeal and clarity of the text:
 
@@ -32,39 +34,36 @@ Not all documentation needs a healthy supply of visuals, but there are some key 
 
 ## Visuals are an incredible tool
 
+We make things harder on ourselves by not leveraging graphics to explain complex concepts. 
+
 <figure><img src="{{ "/images/visualcommunication/lightningtalk_whiteboarding.png" | prepend: site.baseurl }}"/><figcaption>
     Ideas are harder to explain without drawing. </figcaption></figure>
 
-We make things harder on ourselves by not leveraging graphics to explain complex concepts. 
-
-I once worked at a place where one of the product managers insisted on getting more whiteboards because whenever someone tried to explain something, the person would invariably draw it out on a whiteboard. Have you noticed how, whenever someone is trying to communicate a complicated idea to another person, they both end up next to a whiteboard?
+I once worked at a place where one of the product managers insisted on getting more whiteboards because whenever someone tried to explain something, the person would invariably draw it out on a whiteboard. Have you noticed how at your work, whenever someone is trying to communicate a complicated idea to another person, they end up next to a whiteboard?
 
 Even with the shoddy whiteboard images of boxes, circles, and arrows, the visuals help both the explainer clarify his or her ideas and the listener understand them. That's a key point &mdash; you don't necessarily understand something until you can draw it. 
 
-
 ## But we aren't artists!
+
+The problem is that as writers, we often lack graphic design skills. We pour immense amounts of effort into getting the exact words, tone, and sentence structures. We are perfectionists who are bothered by people who can't spell or follow a consistent capitalization style. 
 
 <figure><img src="{{ "/images/visualcommunication/lightningtalk_artist.png" | prepend: site.baseurl }}"/><figcaption>
     Creating graphics is hard. They don't look professional. </figcaption></figure>
     
-The problem is that as writers, we often lack graphic design skills. We pour immense amounts of effort into getting the exact words, tone, and sentence structures. We are perfectionists who are bothered by people who can't spell or follow a consistent capitalization style. 
-
 The thought of producing graphics that look like kindergarten art horrifies us, so we often don't even try. We explain away the lack of graphics with common rationalizations: 
 
 * Not enough time
 * Visuals are problematic with translation
 * Not enough resources dedicated for that
 
-Well, I think you can still produce some professional-looking graphics without being a graphic artist, and without investing a lot of time. I have three principles for doing so.
+You can still produce some professional-looking graphics without being a graphic artist, and without investing a lot of time. I have three principles for doing so.
 
 ## Step 1: Embrace minimalism
 
-<figure><img src="{{ "/images/visualcommunication/lightningtalk_minimalist.png" | prepend: site.baseurl }}"/><figcaption>
-    Follow minimalist design principles to avoid distraction. </figcaption></figure>
-    
-The more minimal the artwork is, the easier it is to make simple changes. 
+The more minimal the artwork is, the easier it is to make simple changes. Additionally, focusing on too much artistic detail actually detracts from the real intent, which is to communicate a concept.
 
-Additionally, focusing on too much artistic detail actually detracts from the real intent, which is to communicate a concept.
+<figure><img src="{{ "/images/visualcommunication/lightningtalk_minimalist.png" | prepend: site.baseurl }}"/><figcaption>
+    Follow minimalist design principles to avoid distraction. </figcaption></figure>    
 
 In <a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448">Graphics for Learning: Proven Guidelines for Planning, Designing, and Evaluating Visuals in Training Materials</a>, Ruth Clark and Chopeta Lyons explain that removing distracting and non-essential elements of visuals can reduce cognitive load and help users focus on what really matters.
 
@@ -84,9 +83,6 @@ If nothing else persuades you, think of minimalism as a challenge to communicate
 
 ## Step 2: Use the Noun Project
 
-<figure><img src="{{ "/images/visualcommunication/lightningtalk_nounproject.png" | prepend: site.baseurl }}"/><figcaption>
-    Use The Noun Project for convenience or inspiration.</figcaption></figure>
-    
 [The Noun Project](https://thenounproject.com/) is the best resource to come along for graphics in years, and it has particularly helpful applications with technical documentation. 
 
 The Noun Project is a library of vector pictograms covering just about any concept or object you can think of. Of course you're familiar with Clipart and icon libraries, but here's what makes the Noun Project so special:
@@ -95,6 +91,9 @@ The Noun Project is a library of vector pictograms covering just about any conce
 * The icons all fit together in the same family
 * You can drag the icons from the Noun Project app directly into Illustrator
 * With a subscription, you don't have to give credit to the graphics
+
+<figure><img src="{{ "/images/visualcommunication/lightningtalk_nounproject.png" | prepend: site.baseurl }}"/><figcaption>
+    Use The Noun Project for convenience or inspiration.</figcaption></figure>
 
 Because the graphics are vectors, you can make adjustments that you wouldn't otherwise be able to do with rasters. Granted, this assumes you have an application such as Adobe Illustrator, but if you can it's well worth it. 
 
@@ -106,10 +105,10 @@ I often combine visuals from separate graphics and make quick little adjustments
 
 ## Step 3: Build a graphics library
 
+The more visuals you create, the more ready-to-use components you have at your disposal. If you settle on a certain icon for "server," then use that same icon in your own visuals. This helps you build a whole visual vocabularly that you can then leverage. 
+
 <figure><img src="{{ "/images/visualcommunication/lightningtalk_library.png" | prepend: site.baseurl }}"/><figcaption>
    Re-use the same graphics components for other visuals.</figcaption></figure>
-
-The more visuals you create, the more ready-to-use components you have at your disposal. If you settle on a certain icon for "server," then use that same icon in your own visuals. This helps you build a whole visual vocabularly that you can then leverage. 
 
 The more visuals you create, the easier they become for several reasons:
 
