@@ -11,7 +11,7 @@ type: visualcommunication
 
 I'm giving a lightning talk at a [Write the Docs meetup](http://www.meetup.com/Write-the-Docs/events/228358497/?_af=event&_af_eid=228358497) tonight in downtown San Francisco. My talk is titled "Creating professional graphics in the easiest, simplest way possible." 
 
-You can view my slides <a href="{{ "/files/professionalgraphics" | prepend: site.baseurl }} target="_blank">here</a> or just read on below. I've added some more detail to each of the slides.
+You can view my slides <a href="{{ "/files/professionalgraphics" | prepend: site.baseurl }} target='_blank'">here</a> or just read on below. I've added some more detail to each of the slides.
 
 If you're unfamiliar with lightning talks, they are 5 minute talks, so basically you deliver a single, focused idea in a compressed amount of time. Although I've given more than [75 presentations](http://idratherbewriting.com/presentations/), I have never given a lightning talk. 
 
@@ -39,8 +39,7 @@ We make things harder on ourselves by not leveraging graphics to explain complex
 I once worked at a place where one of the product managers insisted on getting more whiteboards because whenever someone tried to explain something, the person would invariably draw it out on a whiteboard (and we had just one whiteboard). Have you noticed how at your work, whenever someone is trying to explain a complicated idea to another person, he or she ends up drawing it on a whiteboard?
 
 <figure><img src="{{ "/images/visualcommunication/lightningtalk_whiteboarding.png" | prepend: site.baseurl }}"/><figcaption>
-    Ideas are harder to explain without drawing. </figcaption></figure>
-
+    Ideas are harder to explain without drawing </figcaption></figure>
 
 Even with the poorly drawn whiteboard images of boxes, circles, and arrows, the visuals help clarify ideas for both the listener and the explainer. The latter is a key point often emphasized &mdash; you don't necessarily understand something until you can draw it. 
 
