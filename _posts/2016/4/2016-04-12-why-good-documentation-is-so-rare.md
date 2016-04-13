@@ -124,6 +124,6 @@ Overall, do I think it's a good idea? Probably. Given the volume of questions an
 
 Writing good documentation takes a lot of time, which tech writers don't always have. But even if you have to publish minimal documentation at release and keep building on it with subsequent releases, you should do it. Few of us have time to write the kind of quality documentation that covers all the solutions listed above at release time, but the fallacy is that once released, we think we're done and move on to other projects. This shouldn't be the mindset. Release should be a kind of "day 1" of the documentation. After the doc release, you iterate and keep improving through continual feedback.
 
-{{site.data.alerts.ad}}Modern companies go online with their documentation and user manuals. To start your own documentation site today, just use <a href="http://bit.ly/clickhelponlinedoctool">ClickHelp</a> &mdash; sign up and start writing in minutes using this hosted technical writing tool.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Modern companies go online with their documentation and user manuals. To start your own documentation site today, just use <a href="http://bit.ly/clickhelponlinedoctool">ClickHelp</a> &mdash; sign up and start writing in minutes using this <a href="https://clickhelp.co/online-documentation-tool/">hosted technical writing tool</a>.{{site.data.alerts.end}}
 
 
