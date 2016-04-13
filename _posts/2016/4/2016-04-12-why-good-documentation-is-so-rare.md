@@ -118,7 +118,13 @@ Their Answers tool allows upvoting and auto-sorts the most upvoted questions to 
 
 Additionally, the forum software allows support engineers to more easily interact with incoming questions. This approach also keeps the size of topics down in the help content. No one likes to load a web page and see the cursor on the right shrink way up at the top because the page scrolls for ten years before you get to the end.
 
-Overall, do I think it's a good idea? Probably. Given the volume of questions and expected interaction, putting these conversations into a more robust interactive tool can likely increase the response rate. The downside is lost SEO and a somewhat fragmented experience between the two systems. It's usually better for SEO to keep all content related to a specific topic on the same page, but as Atlassian said, "only about 20% of comments are contextual."
+However, their Answers page is orphaned from the original topic, and the questions don't necessarily make sense without the context of the topic. For example, if you were browsing Answers for your question, the title looks like this:
+
+<figure><a href="https://answers.atlassian.com/questions/topics/32768991/207488198"><img src="{{ "/images/wtfatlassian.png" | prepend: site.baseurl }}"/></a><figcaption>Questions about "207488198"</figcaption></figure>
+
+The answer thread makes no sense without the context of the "Supported Platforms" topic. There's not even a link back to the topic!
+
+Overall, do I think it's a good idea? The idea is in the right place, but the implementation could be improved. Given the volume of questions and expected interaction, putting these conversations into a more robust interactive tool can likely increase the response rate. The downside is lost SEO and a somewhat fragmented experience between the two systems. It's usually better for SEO to keep all content related to a specific topic on the same page, but as Atlassian said, "only about 20% of comments are contextual" anyway.
 
 ## Conclusion
 
