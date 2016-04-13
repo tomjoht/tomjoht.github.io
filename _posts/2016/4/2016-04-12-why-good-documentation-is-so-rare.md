@@ -124,7 +124,7 @@ However, their Answers page is orphaned from the original topic, and the questio
 
 The answer thread makes no sense without the context of the "Supported Platforms" topic. There's not even a link back to the topic!
 
-Overall, do I think it's a good idea? The idea is in the right place, but the implementation could be improved. Given the volume of questions and expected interaction, putting these conversations into a more robust interactive tool can likely increase the response rate. The downside is lost SEO and a somewhat fragmented experience between the two systems. It's usually better for SEO to keep all content related to a specific topic on the same page, but as Atlassian said, "only about 20% of comments are contextual" anyway.
+Overall, do I think it's a good idea? The idea is headed in the right direction, but the implementation could be improved. Given the volume of questions and expected interaction, putting these conversations into a more robust interactive tool can likely increase the response rate. The downside is lost SEO and a somewhat fragmented experience between the two systems. It's usually better for SEO to keep all content related to a specific topic on the same page, but as Atlassian said, "only about 20% of comments are contextual" anyway.
 
 ## Conclusion
 
