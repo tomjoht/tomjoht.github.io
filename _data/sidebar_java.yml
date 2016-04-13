@@ -1,8 +1,19 @@
-# Sidebar
 entries:
 - title: Sidebar
   subcategories:
+    - title: Frontmatter
+      output: pdf
+      items:
+        - title: Title Page
+          url: /titlepage.html
+          output: pdf
+
+        - title: Table of Contents
+          url: /tocpage.html
+          output: pdf
+
     - title: Core concepts
+      output: web, pdf
       items:
         - title: Introduction
           url: /java-introduction/
@@ -35,6 +46,7 @@ entries:
           url: /java-getters-and-setters/
           output: web, pdf
     - title: Modifiers
+      output: web, pdf
       items:
         - title: Modifiers
           url: /java-modifiers/
@@ -46,6 +58,7 @@ entries:
           url: /java-abstract-methods/
           output: web, pdf
     - title: Fields
+      output: web, pdf
       items:
         - title: Variables
           url: /java-variables/
@@ -60,11 +73,13 @@ entries:
           url: /java-setters/
           output: web, pdf
     - title: Error handling
+      output: web, pdf
       items:
         - title: Handling exceptions
           url: /java-handling-exceptions/
           output: web, pdf
     - title: Loops
+      output: web, pdf
       items:
         - title: Loops
           url: /java-loops/
@@ -79,6 +94,7 @@ entries:
           url: /java-break/
           output: web, pdf
     - title: Maps
+      output: web, pdf
       items:
         - title: Hashmaps
           url: /java-hashmaps/
@@ -90,6 +106,7 @@ entries:
           url: /java-collections-framework/
           output: web, pdf
     - title: Javadoc
+      output: web, pdf
       items:
         - title: Javadoc tags
           url: /java-javadoc-tags/
@@ -101,6 +118,7 @@ entries:
           url: /java-comments/
           output: web, pdf
     - title: J2EE
+      output: web, pdf
       items:
         - title: Servlet
           url: java-servlet
@@ -109,6 +127,7 @@ entries:
           url: /java-tomcat/
           output: web, pdf
     - title: Related Tools
+      output: web, pdf
       items:
         - title: Eclipse IDE
           url: /java-eclipse/
@@ -120,11 +139,13 @@ entries:
           url: /java-mercurial/
           output: web, pdf
     - title: Collaboration
+      output: web, pdf
       items:
         - title: Share files with others
           url: /java-share-files/
           output: web, pdf
     - title: Miscellaneous
+      output: web, pdf
       items:
         - title: Enums
           url: /java-enums/

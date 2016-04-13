@@ -3,6 +3,7 @@ entries:
 - title: Sidebar
   subcategories:
     - title: JavaScript
+      output: web, pdf
       items:
         - title: Introduction
           url: /javascript/

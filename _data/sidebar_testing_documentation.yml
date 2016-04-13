@@ -3,6 +3,7 @@ entries:
 - title: Sidebar
   subcategories:
     - title: Testing Documentation
+      output: pdf, web
       items:
         - title: "The key to writing good documentation: Testing your instructions"
           url: /2015/07/07/testing-your-instructions/

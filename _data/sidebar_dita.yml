@@ -2,7 +2,18 @@
 entries:
 - title: Sidebar
   subcategories:
+    - title: Frontmatter
+      output: pdf
+      items:
+        - title: Title Page
+          url: /titlepage.html
+          output: pdf
+
+        - title: Table of Contents
+          url: /tocpage.html
+          output: pdf
     - title: Introduction
+      output: pdf, web
       items:
         - title: DITA QRG introduction
           url: /ditaqrg/
@@ -23,6 +34,7 @@ entries:
           url: /convert_html_to_dita/
           output: web, pdf
     - title: Page-level elements
+      output: pdf, web
       items:
         - title: Code
           url: /code/
@@ -50,6 +62,7 @@ entries:
           url: /video_dita/
           output: web, pdf
     - title: Linking
+      output: pdf, web
       items:
         - title: Inline links
           url: /inline_links/
@@ -79,6 +92,7 @@ entries:
           url: /acronyms_and_glossary/
           output: web, pdf
     - title: Content re-use
+      output: pdf, web
       items:
         - title: Conditional profiling
           url: /conditional_profiling/
@@ -90,6 +104,7 @@ entries:
           url: /ditaval/
           output: web, pdf
     - title: Publishing
+      output: pdf, web
       items:
         - title: Webhelp skins
           url: /webhelp_skins/
