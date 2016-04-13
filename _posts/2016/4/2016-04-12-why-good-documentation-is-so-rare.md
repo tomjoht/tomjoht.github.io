@@ -103,7 +103,7 @@ About a year ago, Atlassian, known for their interactive software, announced tha
 <li>Comments languish unanswered if the IX team doesn’t have bandwidth to review them. Today, the most responsive doc space only achieves between a 60-80% response rate, with most spaces below 40%. That’s an unacceptable user experience.</li>
 <li>There’s no quick or easy mechanism to archive outdated comments, meaning new readers often encounter outdated answers and workarounds in the comments.</li>
 <li>We classed a trial of a ‘no-comments space’ (JIRA Service Desk) as successful. The trial ran for nearly a year and responses from our customer-facing teams have been positive.</li>
-</ul>
+</ul></p>
 </blockquote>
 
 At first I thought, WRONG MOVE ATLASSIAN, you just disconnected yourself from user feedback, which is what helps make your docs better. Couldn't you just put a link before the comment form that takes people to a feature wish list instead of closing down all comments because only 20% are contextual?
