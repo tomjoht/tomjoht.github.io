@@ -2,7 +2,7 @@
 title: "Seeing things from the perspective of a learner"
 categories: [general]
 keywords: learning theory, documentation strategies, knowledge, ignorance, curse of knowledge
-summary: "To write documentation that users find helpful, you have to understand the mindset of someone who doesn't possess all the knowledge that you have. You have to understand what it's like not to know -- even some of the most basic assumptions. Trying to capture this state and remember all the questions you have is critical to writing doc that speaks to this type of user."
+summary: "To write documentation that users find helpful, you have to understand the mindset of someone who doesn't possess all the knowledge that you have. You have to understand what it's like not to know -- even not to know some of the most basic assumptions. Trying to capture this state of un-knowledge and remember all the questions you have is critical to writing documentation that speaks to this type of user."
 thumb: goodspacesthumb.png
 ---
 
@@ -16,9 +16,9 @@ I was reading through some documentation for a particular product today, and the
 
 And most importantly, I wanted the 1-2-3 steps to work for me, on my Mac, with my version of Android Studio and Gradle, and all of those other dependencies that have to be aligned just right to allow the harmony of the spheres.
 
-I've always thought that I can't start writing documentation for a product until I have a decent understanding of it. I often just take random notes here and there and don't actually start writing anything formally until I've successfully completed various tasks and have a decent grasp of how the system works.
+## My epiphany about when to start writing doc
 
-## My epiphany 
+I've always thought that I can't start writing documentation for a product until I have a decent understanding of it. I often just take random notes here and there and don't actually start writing anything formally until I've successfully completed various tasks and have a decent grasp of how the system works.
 
 But I had a thought today. *What if this is the wrong approach?* What if this approach leads to the same kind of blah documentation I was reading earlier &mdash; the kind that speaks at such a high level, paints details that go over my head, and doesn't lead me easily through a process? What if the approach that leads to poor documentation starts from a point of view of knowing &mdash; in particular, knowing too much.
 
@@ -28,7 +28,7 @@ It could be that later, these questions might turn out to be unnecessary, easily
 
 Overall, this is where I think good documentation gets written:
 
-<figure><img src="{{ "/images/goodspacesforwritingdocs-01.png" | prepend: site.baseurl }}" alt="The best documentation is written in this space between knowing and not knowing." /><figcaption>The best documentaiton is written in this space between knowing and not knowing. Of course you can't write doc until you know the system you're writing about. But you can't write for the user who lacks knowledge when you're head is full of all of this knowledge. This is because you become blind to the things that someone who doesn't know has questions about.</figcaption></figure>
+<figure><img src="{{ "/images/goodspacesforwritingdocs-01.png" | prepend: site.baseurl }}" alt="The best documentation is written in this space between knowing and not knowing." /><figcaption>The best documentation is written in this space between knowing and not knowing. You can't really write doc until you know the system you're writing about. But you also can't write good doc if you're blind to all the things that someone who doesn't know has questions about.</figcaption></figure>
 
 ## We all start at different levels
 
