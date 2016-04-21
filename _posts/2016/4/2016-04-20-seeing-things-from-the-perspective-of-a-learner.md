@@ -1,7 +1,6 @@
 ---
 title: "Seeing things from the perspective of a learner"
-categories:
--general
+categories: [general]
 keywords: learning theory, documentation strategies, knowledge, ignorance, curse of knowledge
 summary: "To write documentation that users find helpful, you have to understand the mindset of someone who doesn't possess all the knowledge that you have. You have to understand what it's like not to know -- even some of the most basic assumptions. Trying to capture this state and remember all the questions you have is critical to writing doc that speaks to this type of user."
 thumb: goodspacesthumb.png
