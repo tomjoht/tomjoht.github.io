@@ -8,6 +8,10 @@ thumb: wtdstcthumb.png
 published: false
 ---
 
+- the stc grew in an pre-internet era. it formed many practices before internet tools were available. 
+- WTD leverages internet tools. meetup.com for sites, youtube for recordings, slack for communication. 
+- the stc doesn't really have an overarching function. it's not lobbying washington anymore for anything, so why is it over in DC? revenue last year was $2 million.
+
 ## Background
 
 I participate in both [Write the Docs](http://www.writethedocs.org/)(WTD) and [Society for Technical Communication](http://stc.org) (STC) groups. Some people have never heard of Write the Docs, and when they learn of it, they wonder how it differs from the STC or other writing groups. In this post, I'll outline the major differences between the two groups. My intent is not to slam either group, but to clearly and frankly explain how they differ from each other.
