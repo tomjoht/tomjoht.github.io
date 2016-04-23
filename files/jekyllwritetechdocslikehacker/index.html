@@ -50,7 +50,9 @@
 
 <!-- comment
 
-the problem
+context for tech comm audience
+
+what was the problem for which jekyll was the solution?
 introducing jekyll
  - open source, ruby-based, build from the command line
  - developed by tom warner at Github
@@ -67,6 +69,80 @@ the whole philosophy of static site generators
  - you do whatever you want
 lots of other static site gens staticgen.com
 jekyll not necessarily designed for tech docs, but works extremely well for this
+
+context for developer audience
+
+- wanted to use jekyll as a flexible, lightweight platform for producing documentation in a modern web format
+- in tech comm circles, the common tools are help authoring tools or structured authroing tools. e.g., flare, robohelp, dita, framemaker.
+- tech writers have certain needs and constraints, and it can be a challenge to try to meet those needs with jekyll.
+- this talk shares my journey of how i tried to overcome classic tech writer needs using jekyll.
+- this will be useful for any developer-oriented person who is providing the tooling foundation for their tech writing team.
+
+challenge #1: Conditional filtering
+- main challenge is that markdown is too simple to handle complex tech comm scenarios
+- tech writers deliver multiple outputs to different audiences, versions, and roles
+- most web designers have one main site, but tech writers often produce lots of discrete sites
+- show people liquid and it opens up a lot of possibilities and understanding
+- you can do more with liquid than you can with DITA
+
+challenge #2: Multiple outputs
+- different config files for different outputs
+
+
+challenge #3: Multi-level navigation menu
+
+
+challenge #3: Content re-use
+
+
+challenge #4: PDF
+
+
+challenge #5: Notes, tips, alerts
+
+
+
+
+challenge #7: No broken links
+
+
+challenge #8: Push doc to various environments
+
+
+challenge #9: Collaboration
+- use Git, Mercurial
+- plug into engineering tooling, workflow
+- merge conflicts
+
+
+challenge #10: Simplicity
+- team members who drag their feet
+- what happens when you leave
+- a non-standard solution
+
+
+---
+
+Larger challenges to solve:
+
+challenge #1: Search
+
+challenge #2: Translation
+
+challenge #3: Authentication
+
+challenge #4: Content re-use across projects
+
+
+
+----
+
+Overall
+
+Most likely no problem you can't solve with some creativity.
+Challenge is to make it all push-button simple. Avoid escalating complexity.
+I love flexibility. You can make Jekyll do nearly anything you want.
+
 
 my use of jekyll
  - used it on tech doc projects over the past 1.5 yrs
