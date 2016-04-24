@@ -2,8 +2,9 @@
 title: "Recording of WTD presentation on Video Documentation, by Alicia Avrach"
 categories:
 - screencasting
+- podcasts
 keywords: 
-summary: "Alicia Avrach, a content strategist at ThoughtSpot, gave a presentation about video documentation at a recent Write the Docs San Francisco meetup. In this presentation, Alicia covers all the aspects of video production, from scripting to recording, post-processing,publishing, and more."
+summary: "Alicia Avrach, a content strategist at ThoughtSpot, gave a presentation about video documentation at a recent Write the Docs San Francisco meetup. In this presentation, Alicia covers all the aspects of video production, from scripting to recording, post-processing, publishing, and more."
 thumb: videodocthumb.png
 ---
 
@@ -11,19 +12,19 @@ thumb: videodocthumb.png
 
 Here's a description of the presentation: 
 
-        Curious about video documentation? 
-        
-        What is it really? What are some best practices? 
-        
-        We are pleased to have Alicia Avarch, who will discuss video documentation, including: 
-        
-        • What it takes to produce animation, screencam, and talking head videos. 
-        
-        • Building a great user experience when you have both video and text docs. 
-        
-        • Bootstrapping video production without a big team or a ton of money. 
-        
-        • Measuring the effectiveness of video.
+>Curious about video documentation? 
+>
+>What is it really? What are some best practices? 
+>
+>We are pleased to have Alicia Avarch, who will discuss video documentation, including: 
+>
+>• What it takes to produce animation, screencam, and talking head videos. 
+>
+>• Building a great user experience when you have both video and text docs. 
+>
+>• Bootstrapping video production without a big team or a ton of money. 
+>
+>• Measuring the effectiveness of video.
 
 For more details, see the [Write the Docs meetup announcement](http://www.meetup.com/Write-the-Docs/events/229946722/).
 
