@@ -73,8 +73,10 @@ jekyll not necessarily designed for tech docs, but works extremely well for this
 context for developer audience
 
 - wanted to use jekyll as a flexible, lightweight platform for producing documentation in a modern web format
-- in tech comm circles, the common tools are help authoring tools or structured authroing tools. e.g., flare, robohelp, dita, framemaker.
-- tech writers have certain needs and constraints, and it can be a challenge to try to meet those needs with jekyll.
+- in tech comm circles, the common tools are help authoring tools or structured authoring tools. e.g., flare, robohelp, dita, framemaker.
+- the problem is that HATs typically produce antiquated-looking websites in a box, which are hard to modify and look like they belong in 1995.
+- tech writers have certain needs and constraints, and it can be a challenge to try to meet those needs with jekyll. usually when tech writers select a tool, they draw up a list of their requirements, round up some candidate tools, and then see which best fits the criteria.
+- problem is that you can't really understand how a tool would work until you actually use it, beyond a simple pilot.
 - this talk shares my journey of how i tried to overcome classic tech writer needs using jekyll.
 - this will be useful for any developer-oriented person who is providing the tooling foundation for their tech writing team.
 
@@ -85,6 +87,7 @@ challenge #1: Conditional filtering
 - show people liquid and it opens up a lot of possibilities and understanding
 - you can do more with liquid than you can with DITA
 
+
 challenge #2: Multiple outputs
 - different config files for different outputs
 
@@ -92,18 +95,14 @@ challenge #2: Multiple outputs
 challenge #3: Multi-level navigation menu
 
 
-challenge #3: Content re-use
+challenge #4: Notes, tips, alerts
+
+challenge #5: No broken links
+
+challenge #6: PDF
 
 
-challenge #4: PDF
-
-
-challenge #5: Notes, tips, alerts
-
-
-
-
-challenge #7: No broken links
+challenge #7: Content re-use
 
 
 challenge #8: Push doc to various environments
@@ -133,98 +132,74 @@ challenge #3: Authentication
 
 challenge #4: Content re-use across projects
 
+challenge #5: Standardization -- when you leave, you don't want all the knowledge trapped with one person
 
-
-----
-
-Overall
-
-Most likely no problem you can't solve with some creativity.
-Challenge is to make it all push-button simple. Avoid escalating complexity.
-I love flexibility. You can make Jekyll do nearly anything you want.
-
-
-my use of jekyll
- - used it on tech doc projects over the past 1.5 yrs
- - had to overcome all the major challenges that tech writers face
- - had to be creative in way approach, since it's not always clearly defined
-
-plan: look at the top 10 challenges with doc, and find out how to solve them using jekyll
-
-Conditional filtering
-
-
-Content re-use
-
-
-PDF
-
-
-Collaboration with other writers
-
-
-Notes, tips, alerts
-
-
-Multi-level table of contents
- - sidebar navigation
- -
-
-Managed links
-
-Variables
-
-Versioning
-
-Translation
-
-Notification of broken stuff
-
-Easily push into different environments
-
-
-Multiple outputs
-
-
-Challenges
-
-- Merge conflicts
-- Getting Jekyll installed
-- Keeping things simple
-- Converting content into Markdown
-- Setting up the PDF generation process
-- Doc reviews
-- Users on Windows
-- Multiple outputs
-- Search
-- Authentication
-- pushing jekyll from one environment to another -- baseurls and urls change. you don't want to have multiple outputs. just one output that you transfer from one environment to another. way to accomplish this is via relative urls, and no permalinks. then it means everything is in root.
-- scenario of pulling content into a larger site. then everyone authors in their own theme. how do you update the theme while keeping the content fluid? well, it's kind of a challenge.
-- not breaking links. talk about your managed link stuff
-- toc with so many conditional statements.
-- pdf and that mountain. it's interesting how you overcame all of these issues one by one.
-- sharing content across projects. overcame by having everyone use same project!
-- formatting errors in jekyll. use includes.
-
-
-
-
-
-
-
-
-
-
-
---> end comment
+-->
 
 				<section>
-				<h2>The problem with traditional tools</h2>
+				<h2>Why Jekyll?</h2>
+				</section>
 
+				<section>
+					<h2>Static site generators</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 1: Conditional filtering</h2>
+				</section>
+
+				<section>
+					<h2>Callenge 2: Multiple outputs</h2>
+				</section>
+
+				<section>
+					<h2>challenge 3: Push doc to various environments</h2>
 				</section>
 
 
+				<section>
+					<h2>Challenge 4: Multi-level navigation menu</h2>
+				</section>
 
+				<section>
+					<h2>Challenge 5: Notes, tips, alerts</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 6: No broken links</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 7: PDF</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 8: Content re-use across projects</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 9: Collaboration</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 10: Simplicity</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 11: Search</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 12: Translation</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 13: Authentication</h2>
+				</section>
+
+				<section>
+					<h2>Challenge 14: Standardization</h2>
+				</section>
 				<section style="text-align: center;">
 					<h1>THE END</h1>
 					<h3>Tom Johnson<br />
