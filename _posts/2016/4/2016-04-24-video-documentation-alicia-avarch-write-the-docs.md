@@ -37,3 +37,7 @@ For more details, see the [Write the Docs meetup announcement](http://www.meetup
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3" type="audio/mpeg" /></audio></p>
 
 You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3" alt="Alicia Avrach">download the MP3 file here</a>.
+
+## Slides
+
+You can view the [slides here on Google Slides](http://bit.ly/videodocaliciaslides).
