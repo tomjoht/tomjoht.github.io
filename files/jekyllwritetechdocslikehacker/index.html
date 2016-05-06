@@ -41,165 +41,365 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Writing tech docs like a hacker with Jekyll</h1>
-					<h3>2016 STC Summit Presentation</h3>
+
+					<h2>Writing tech docs</h2>
+					<h3> like a hacker with Jekyll</h3>
 					<p>
 						<small>Created by <a href="http://idratherbewriting.com">Tom Johnson</a> / <a href="http://twitter.com/tomjohnson">@tomjohnson</a></small>
 					</p>
 				</section>
 
-<!-- comment
+				<style>
+					.reveal section img {
+						background-color: white;
+					}
+					.reveal h3, .orange {
+						color: orange;
+					}
+				</style>
 
-context for tech comm audience
-
-what was the problem for which jekyll was the solution?
-introducing jekyll
- - open source, ruby-based, build from the command line
- - developed by tom warner at Github
- - the origin of the hacker phase
- - supported by Github, integrates with Github Pages
- - there are lots of static site gens, but Jekyll is most popular, has Github's backing
-
-the whole philosophy of static site generators
- - no database
- - build the site prior to serving it
- - 100% secure
- - lightweight
- - HTML, CSS, JS-based
- - you do whatever you want
-lots of other static site gens staticgen.com
-jekyll not necessarily designed for tech docs, but works extremely well for this
-
-context for developer audience
-
-- wanted to use jekyll as a flexible, lightweight platform for producing documentation in a modern web format
-- in tech comm circles, the common tools are help authoring tools or structured authoring tools. e.g., flare, robohelp, dita, framemaker.
-- the problem is that HATs typically produce antiquated-looking websites in a box, which are hard to modify and look like they belong in 1995.
-- tech writers have certain needs and constraints, and it can be a challenge to try to meet those needs with jekyll. usually when tech writers select a tool, they draw up a list of their requirements, round up some candidate tools, and then see which best fits the criteria.
-- problem is that you can't really understand how a tool would work until you actually use it, beyond a simple pilot.
-- this talk shares my journey of how i tried to overcome classic tech writer needs using jekyll.
-- this will be useful for any developer-oriented person who is providing the tooling foundation for their tech writing team.
-
-challenge #1: Conditional filtering
-- main challenge is that markdown is too simple to handle complex tech comm scenarios
-- tech writers deliver multiple outputs to different audiences, versions, and roles
-- most web designers have one main site, but tech writers often produce lots of discrete sites
-- show people liquid and it opens up a lot of possibilities and understanding
-- you can do more with liquid than you can with DITA
-
-
-challenge #2: Multiple outputs
-- different config files for different outputs
-
-
-challenge #3: Multi-level navigation menu
-
-
-challenge #4: Notes, tips, alerts
-
-challenge #5: No broken links
-
-challenge #6: PDF
-
-
-challenge #7: Content re-use
-
-
-challenge #8: Push doc to various environments
-
-
-challenge #9: Collaboration
-- use Git, Mercurial
-- plug into engineering tooling, workflow
-- merge conflicts
-
-
-challenge #10: Simplicity
-- team members who drag their feet
-- what happens when you leave
-- a non-standard solution
-
-
----
-
-Larger challenges to solve:
-
-challenge #1: Search
-
-challenge #2: Translation
-
-challenge #3: Authentication
-
-challenge #4: Content re-use across projects
-
-challenge #5: Standardization -- when you leave, you don't want all the knowledge trapped with one person
-
--->
 
 				<section>
-				<h2>Why Jekyll?</h2>
-				</section>
-
-				<section>
-					<h2>Static site generators</h2>
-				</section>
-
-				<section>
-					<h2>Challenge 1: Conditional filtering</h2>
-				</section>
-
-				<section>
-					<h2>Callenge 2: Multiple outputs</h2>
-				</section>
-
-				<section>
-					<h2>challenge 3: Push doc to various environments</h2>
+					<h2>Story behind Jekyll</h2>
+				<a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html"><img src="images/jekyllbirth.png"/>
+				</a>
 				</section>
 
 
 				<section>
-					<h2>Challenge 4: Multi-level navigation menu</h2>
+					<h2>"Blogging like a hacker"</h2>
+					<blockquote>"On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and a clear mind. After a period of reflection, I had an idea. While I'm not specifically trained as an author of prose, I <b>am</b> trained as an author of code. What would happen if I approached blogging from a software development perspective? What would that look like?"</blockquote>
+					&mdash; Tom Preston-Werner, co-founder of Github
 				</section>
 
 				<section>
-					<h2>Challenge 5: Notes, tips, alerts</h2>
+					<blockquote>
+					What would happen if we approached <span class="orange">technical writing</span> from a software development perspective?
+					</blockquote>
+
 				</section>
 
 				<section>
-					<h2>Challenge 6: No broken links</h2>
+					<h2>Reasons for discontent</h2>
+					<ul>
+						<li>No HATs for Mac</li>
+						<li>CMSs cost $$$$</li>
+						<li>DITA too restrictive</li>
+						<li>Tired of WYSIWYG interfaces for content</li>
+						<li>Infrastructure for WordPress too cumbersome</li>
+						<li>Tech writer world too distanced from engineering</li>
+						<li>Tech pubs lags behind web innovation</li>
+					</ul>
 				</section>
 
 				<section>
-					<h2>Challenge 7: PDF</h2>
+					<h2>Writing tech docs like a hacker</h2>
+
+							<table>
+								<tr>
+									<td><b>File format:</b></td>
+									<td>Text files</td>
+								</tr>
+								<tr>
+									<td><b>Authoring:</b></td>
+									<td>Text editor</td>
+								</tr>
+
+								<tr>
+									<td><b>Advanced logic</b></td>
+									<td>Liquid and Jekyll</td>
+								</tr>
+
+								<tr>
+									<td><b>Collaboration:</b></td>
+									<td>Git</td>
+								</tr>
+								<tr>
+									<td><b>Versioning:</b></td>
+									<td>Git</td>
+								</tr>
+
+								<tr>
+									<td><b>Building:</b></td>
+									<td>Continuous build scripts</td>
+								</tr>
+
+
+							</table>
+
+
+					</section>
+
+				<section>
+
+				<section>
+					<h2>Authoring in Jekyll</h2>
+<img src="images/jekyllthemedemonew.png"/>
 				</section>
 
 				<section>
-					<h2>Challenge 8: Content re-use across projects</h2>
+					<h2>Built site </h2>
+					<a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="images/jekylldocthemedemo.png"/></a>
+				</section>
+
+
+					<section>
+						<h2>CMS vs. Static site generators</h2>
+						<img src="images/jekyll_static_site_generators.svg"/>
+					</section>
+					</section>
+
+				<section>
+					<h2>Using Jekyll for tech writing: <span class="orange">My journey</span></h2>
+					<img src="images/jekyll_journey.svg"/>
+				</section>
+
+<section>
+				<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Designing the Site?</h2>
+					<img src="images/jekyll_design.svg"/>
+</section>
+
+	<section><h3>Solution: Bootstrap</h3>
+		<img src="images/bootstrap.png"/>
+				</section>
+				</section>
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Conditional filtering?</h2>
+					<img src="images/jekyll_conditional_filtering.svg"/>
+					</section>
+
+					<section>
+						<h3>Solution: Liquid</h3>
+<pre><code data-trim contenteditable>
+{% if site.audience="administrators" %}
+show this to administrators
+{% elsif site.audience="analysts" %}
+show this to analysts
+{% endif %}
+</code></pre>
+					</section>
 				</section>
 
 				<section>
-					<h2>Challenge 9: Collaboration</h2>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Multiple outputs?</h2>
+					<img src="images/jekyll_multiple_outputs.svg"/>
+				</section>
+					<section>
+						<h3>Solution: Multiple config files</h3>
+					<ul><li>Each config file has various properties</li>
+					<li>Properties: audience, platform, product, version</li>
+						<li>Create scripts that compile build commands</li>
+					</ul>
+
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Environment workflows</h2>
+					<img src="images/jekyll_environments.svg"/>
+				</section>
+					<section>
+						<h3>Solution: Relative URLs</h3>
+						<ul>
+							<li>No permalinks</li>
+							<li>All markdown files stored in root directory</li>
+							<li>No need to configure url or baseurl properties</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Challenge 10: Simplicity</h2>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Multi-level navigation menu?</h2>
+					<img src="images/jekyll_nav_menu.svg"/>
 				</section>
+					<section>
+						<h3>Solution</h3>
+						<ul>
+							<li>Store menu items in YAML file</li>
+
+							<li>"for" loop in HTML layout parses through YAML</li>
+
+							<li>Navgoco component handles other aspects (expand/collapse, cookie, accordion)</li>
+						</ul>
+					</section>
+					</section>
 
 				<section>
-					<h2>Challenge 11: Search</h2>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Alerts: Notes, tips, cautions?</h2>
+					<img src="images/jekyll_notes_tips_alerts.svg"/>
 				</section>
+					<section>
+						<h3>Solution: Includes</h3>
+						<ul>
+							<li>Store note code as include</li>
+							<li>Pass parameters with include code</li>
+						</ul>
+<pre><code data-trim contenteditable>
+	// create the note.html include:
+<div><b>Note:</b> {{include.content}}</div>
+	//use it like this:
+{% include note.html content="My note content goes here ... %}
+</code></pre>
+
+					</section>
+					</section>
 
 				<section>
-					<h2>Challenge 12: Translation</h2>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Avoiding broken links?</h2>
+					<img src="images/jekyll_links.svg"/>
 				</section>
 
-				<section>
-					<h2>Challenge 13: Authentication</h2>
-				</section>
+					<section>
+						<h3>Solution: YML-based links</h3>
+						<ul>
+							<li>Iterate through TOC to create YAML file to get link names</li>
+							<li>Store urls.yml in _data folder</li>
+							<li>Reference links like this: <code>{{site.data.urls.myfile.link}}</code></li>
+							</ul>
+
+						</ul>
+					</section>
+					</section>
 
 				<section>
-					<h2>Challenge 14: Standardization</h2>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>PDF output?</h2>
+					<img src="images/jekyll_pdf.svg"/>
 				</section>
+
+					<section>
+						<h3>Solution: Prince XML</h3>
+						<ul>
+							<li>Iterate through sidebar menu to get list of links</li>
+							<li>Feed the list of links to Prince XML</li>
+								<li>Store command in shell script</li>
+						</ul>
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Re-use across projects?</h2>
+					<img src="images/jekyll_cross_projects.svg"/>
+				</section>
+
+					<section>
+						<h3>Solution: Single project for writers</h3>
+						<ul>
+							<li>All writers work in same project</li>
+							<li>Each project stored in its own subfolder</li>
+							<li>Still use relative links</li>
+							<li>Redirect index.html in root to appropriate project homepage</li>
+							<li>Exclude other directories in each project's config file</li>
+							<li>Put common content in non-excluded directory</li>
+							</ul>
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Version control workflows?</h2>
+					<img src="images/jekyll_git.svg"/>
+
+				</section>
+
+					<section>
+						<h3>Solution: Learn the needed workflow </h3>
+						<ul>
+							<li>Coordinate more among team members</li>
+							<li>Avoid simultaneously editing the same page</li>
+							<li>Look regularly at commit logs</li>
+						</ul>
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Simplicity?</h2>
+					<img src="images/jekyll_simplicity.svg"/>
+				</section>
+
+					<section>
+						<h3>Solution: Remember your audience</h3>
+						<ul>
+							<li>Avoid plugins or overly complicated code</li>
+							<li>Try to "document inner workings..."</li>
+							<li>Establish standards and provide training</li>
+						</ul>
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Search?</h2>
+					<img src="images/jekyll_search.svg"/>
+
+				</section>
+					<section>
+						<h3>Solution: Swiftype or Algolia</h3>
+						<ul>
+							<li>Implementation requires UX skills</li>
+							<li>More difficult if content isn't public</li>
+							<li>Never got around to implementating</li>
+						</ul>
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Translation?</h2>
+					<img src="images/jekyll_translation.svg"/>
+
+				</section>
+
+					<section>
+						<h3>Solution: Separate projects</h3>
+						<ul>
+							<li>Separate out UI strings into data file</li>
+							<li>Send out Markdown files for translation</li>
+							<li>Create new project with translated files</li>
+						</ul>
+					</section>
+					</section>
+
+				<section>
+					<section data-background="images/jekyll_bg-challenge.svg">
+					<h2>Authentication?</h2>
+					<img src="images/jekyll_authentication.svg"/>
+
+				</section>
+					<section>
+						<h3>Approach</h3>
+						<ul>
+							<li>Identity access management is an entire discipline</li>
+							<li>Simple implementations like onelogin.com aren't cheap</li>
+							<li>Impossible requirements: logins with LDAP for internal employees, Salesforce for external, custom for prospects</li>
+							<li>Salesforce site.com solution</li>
+						</ul>
+					</section>
+					</section>
+				<section>
+					<h2>Story of telegraph and telephone</h2>
+					<figure>
+						<img src="images/bellsfirsttelephone.jpg"/>
+						<figcaption>Bell and an early model of the telephone</figcaption>
+					</figure>
+					<aside class="notes">
+						<p>- Instructive to look at innovation in history.</p>
+						<p>- Early versions of telephone not compelling.</p>
+						<p>- Similar stories: netflix, wikipedia.</p>
+						<p>- Disruptive tech displaces mainstream.</p>
+					</aside>
+				</section>
+
+
 				<section style="text-align: center;">
 					<h1>THE END</h1>
 					<h3>Tom Johnson<br />
