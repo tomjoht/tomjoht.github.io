@@ -7,6 +7,29 @@ summary: ""
 thumb: 
 ---
 
+## Intro
+
+My name is Tom Johnson, and I'm a technical writer at Amazon. Previously I worked at a different company called Experian, which is where I spent a lot of time implementing a Jekyll solution for technical docs. In this presentation, I'll share some of the reasons why we moved to Jekyll, the challenges we faced, and how we attempted to overcome the challenges.
+
+First I'd like to get into some of the reasons for moving to Jekyll. Tech writers typically don't use static site generators. There's a whole class of tools called "help authoring tools," and they include things like Madcap Flare, Adobe Robohelp, Oxygen XML, and more. They work a bit similar to static site generators, in that they output a self-contained static HTML site. But they're almost all proprietary tools designed for a specific tech writer industry.
+
+Within the field of tech comm, there's a growing interest and movement toward developer documentation. As user interfaces get more intuitive and end-users more tech savvy, there's not as strong of a need for end-user instructions. Instead, where the field of tech comm is really hot is with developer docs.
+
+When it comes to writing developer documentation, the traditional tech comm tools tend to fall short. Engineers won't use them, so if you're collaborating with engineers, you'll run into issues. The tools aren't very flexible, they don't run on Macs, they aren't ideal for displaying lots of code samples, the outputs are a pain to customize, and more.
+
+## Reasons for discontent with tech writer tools
+
+It was this kind of discontent with the tech writer toolset that caused me to look elsewhere.
+
+No HATs for Mac
+CMSs cost $$$$
+DITA too restrictive
+Tired of WYSIWYG interfaces for content
+Infrastructure for WordPress too cumbersome
+Tech writer world too distanced from engineering
+Tech pubs lags behind web innovation
+
+
 ## Story behind Jekyll
 
 <img src="{{ "/images/jekyllhacker/file.png" | prepend: site.baseurl }}"/>
@@ -21,15 +44,7 @@ Tom Preston-Werner, co-founder Github
 ## What if ...
 What would happen if we approached technical writing from a software development perspective?
 
-## Reasons for discontent with tech writer tools
 
-No HATs for Mac
-CMSs cost $$$$
-DITA too restrictive
-Tired of WYSIWYG interfaces for content
-Infrastructure for WordPress too cumbersome
-Tech writer world too distanced from engineering
-Tech pubs lags behind web innovation
 
 ## Writing tech docs like a hacker
 
