@@ -6,7 +6,14 @@ topnav:
     - title: Beginners
       url: /category-beginners/
 
+    - title: Visual comm
+      url: /visualcommunication_course_overview/
+
+    - title: API doc
+      url: /docapis_course_overview/
+      
 #Topnav dropdowns
+
 topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
@@ -159,12 +166,6 @@ topnav_dropdowns:
         url: /category-wordpress/
       - title: Writing
         url: /category-writing/
-
-    - title: API doc
-      url: /docapis_course_overview/
-
-    - title: Visual comm
-      url: /visualcommunication_course_overview/
 
     - title: Other
       items:
