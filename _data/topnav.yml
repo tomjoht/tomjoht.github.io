@@ -160,10 +160,10 @@ topnav_dropdowns:
       - title: Writing
         url: /category-writing/
 
-    - title: API doc course
+    - title: API doc
       url: /docapis_course_overview/
-      
-    - title: Visual comm. course
+
+    - title: Visual comm
       url: /visualcommunication_course_overview/
 
     - title: Other
