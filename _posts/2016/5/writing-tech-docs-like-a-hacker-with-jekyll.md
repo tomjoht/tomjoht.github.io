@@ -11,35 +11,31 @@ thumb:
 
 My name is Tom Johnson, and I'm a technical writer at Amazon. Previously I worked at a different company called Experian, which is where I spent a lot of time implementing a Jekyll solution for technical docs. In this presentation, I'll share some of the reasons why we moved to Jekyll, the challenges we faced, and how we attempted to overcome the challenges.
 
-First I'd like to get into some of the reasons for moving to Jekyll. Tech writers typically don't use static site generators. There's a whole class of tools called "help authoring tools," and they include things like Madcap Flare, Adobe Robohelp, Oxygen XML, and more. They work a bit similar to static site generators, in that they output a self-contained static HTML site. But they're almost all proprietary tools designed for a specific tech writer industry.
-
-Within the field of tech comm, there's a growing interest and movement toward developer documentation. As user interfaces get more intuitive and end-users more tech savvy, there's not as strong of a need for end-user instructions. Instead, where the field of tech comm is really hot is with developer docs.
-
-When it comes to writing developer documentation, the traditional tech comm tools tend to fall short. Engineers won't use them, so if you're collaborating with engineers, you'll run into issues. The tools aren't very flexible, they don't run on Macs, they aren't ideal for displaying lots of code samples, the outputs are a pain to customize, and more.
-
 ## Reasons for discontent with tech writer tools
 
-It was this kind of discontent with the tech writer toolset that caused me to look elsewhere.
+First I'd like to get into some of the reasons for moving to Jekyll. Tech writers typically don't use static site generators. There's a whole class of tools called "help authoring tools," and they include things like Madcap Flare, Adobe Robohelp, Oxygen XML, and more. They work a bit similar to static site generators, in that they output a self-contained static HTML site. But they're almost all proprietary tools designed for a specific tech writer industry.
 
-No HATs for Mac
-CMSs cost $$$$
-DITA too restrictive
-Tired of WYSIWYG interfaces for content
-Infrastructure for WordPress too cumbersome
-Tech writer world too distanced from engineering
-Tech pubs lags behind web innovation
+I had a growing discontent with a lot of the tech writer tools. Here are a few of the reasons I was not satisfied using the traditional help authoring tools (HAT):
 
+* **No HATs for Mac**. Almost no HATs work on Macs, but if you're working in developer doc, using a Mac is 
+* **CMSs cost $$$$**. Component content management systems cost thousands of hundreds of thousands of dollars, require an extensive implementation time, and almost invariably require DITA.
+* **DITA too restrictive**. DITA is an XML architecture for creating tech docs that's somewhat popular, but the information patterns it enforces are too restrictive and can be frustrating. You end up with a completely XML stack with your toolchain.
+* **Tired of WYSIWYG interfaces for content**. Some editors put all content behind a WYSIWYG editor, like Confluence. These kinds of interfaces can be especially frustrating when you're trying to create and edit your content.
+* **Infrastructure for WordPress too cumbersome**. Solutions involving WordPress, Drupal, or other web-based content management systems require Linux, Apache, MySQL, and PHP. It can be hard to get both approval in corporations for PHP solutions, and it's more hassle to install all of this. More problematic is that these solutions don't work well with tech docs, since their model is one site for all content. Tech docs usually has a number of separate sites for content.
+* **Tech writer world too distanced from engineering**. Engineering uses its set of tools, and tech writers use their. The different worlds contribute to more distance and misunderstanding between the two groups.
+* **Tech pubs lags behind web innovation**. All the innovative things seem to be happening with web technologies. These innovations slowly trickle into tech doc tools a decade later. It's frustrating not to be able to simply plug into the latest web technologies.
 
-## Story behind Jekyll
+## Story behind Jekyll: "Blogging like a hacker" 
+
+Given this context, it's no surprise that foundation story behind Jekyll caught my attention. Tom Preston-Werner describes a frustration with the web CMSs that led to his exploration of another approach.
 
 <img src="{{ "/images/jekyllhacker/file.png" | prepend: site.baseurl }}"/>
 
-## "Blogging like a hacker" 
-
 <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html"><img src="{{ "http://idratherbewriting.com/files/jekyllwritetechdocslikehacker/images/jekyllbirth.png" | prepend: site.baseurl }}"/></a>
 
-On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and a clear mind. After a period of reflection, I had an idea. While I'm not specifically trained as an author of prose, I am trained as an author of code. What would happen if I approached blogging from a software development perspective? What would that look like?"
-Tom Preston-Werner, co-founder Github
+<blockquote>
+On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and a clear mind. After a period of reflection, I had an idea. While I'm not specifically trained as an author of prose, I am trained as an author of code. What would happen if I approached blogging from a software development perspective? What would that look like?"</blockquote>
+&mdash; Tom Preston-Werner, co-founder Github
 
 ## What if ...
 What would happen if we approached technical writing from a software development perspective?
