@@ -27,24 +27,24 @@ I had a growing discontent with a lot of the tech writer tools. Here are a few o
 
 ## Story behind Jekyll: "Blogging like a hacker" 
 
-Given this context, it's no surprise that foundation story behind Jekyll caught my attention. Tom Preston-Werner describes a frustration with the web CMSs that led to his exploration of another approach.
-
-<img src="{{ "/images/jekyllhacker/file.png" | prepend: site.baseurl }}"/>
-
-<a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html"><img src="{{ "http://idratherbewriting.com/files/jekyllwritetechdocslikehacker/images/jekyllbirth.png" | prepend: site.baseurl }}"/></a>
+Given this context, it's no surprise that foundation story behind Jekyll caught my attention. Tom Preston-Werner describes a frustration with the web CMSs that led to his exploration of another approach. In this seminal post on "Blogging like a hacker," Tom writes:
 
 <blockquote>
 On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and a clear mind. After a period of reflection, I had an idea. While I'm not specifically trained as an author of prose, I am trained as an author of code. What would happen if I approached blogging from a software development perspective? What would that look like?"</blockquote>
-&mdash; Tom Preston-Werner, co-founder Github
+&mdash; <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a>, Tom Preston-Werner, co-founder Github
 
-## What if ...
-What would happen if we approached technical writing from a software development perspective?
+I found this idea appealing and wondered if the same approach could apply to tech comm: 
 
+<blockquote>What would happen if we approached technical writing from a software development perspective?</blockquote>
+
+I would also add that in trying to move into developer documentation, I felt convinced that working in the developer's workflow and environment would help me better think like and understand developers. If I continued authoring in tech writing tools and workflows, there would always be a gap between developers and tech writers. Adopting a similar toolset was one way to close the gap and help me more fully immerse myself in the developer's world.
 
 
 ## Writing tech docs like a hacker
 
+Exactly what does writing tech docs like a hacker look like? Here's the big picture:
 
+|----------|--------|
 | File format | Text files |
 | Authoring| Text editor| 
 | Advanced logic| Liquid| 
@@ -52,8 +52,13 @@ What would happen if we approached technical writing from a software development
 | Versioning| Git| 
 | Building| Jekyll| 
 
+I'll dive into more details as I get more into it. 
+
 ## Using Jekyll for tech writing: My journey
+
 <img src="{{ "/images/jekyllhacker/jekyll_journey.png" | prepend: site.baseurl }}"/>
+
+Overall, this is the story of my journey of trying to adopt Jekyll for tech docs. I built a theme that incorporates a lot of the techniques I'll describe, and you're welcome to use the theme. But more than anything, I hope to outline a strategy and pattern for overcoming specific tech comm problems and challenges. You can look at my theme to see how I tackled the issue and then use what works for you.
 
 ## Designing the site
 
