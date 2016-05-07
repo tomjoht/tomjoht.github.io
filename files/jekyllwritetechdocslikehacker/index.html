@@ -36,27 +36,53 @@
 
 	<body>
 
+
+	<style>
+		.reveal section img {
+			background-color: white;
+		}
+		.reveal h3, .orange {
+			color: orange;
+		}
+		.clear {clear: both;}
+		.moreDetails {float: right;}
+		.moreDetails a {color: gray;}
+		small.moreDetails {margin-top:30px;}
+
+		.slideMeta {
+			padding-top:20px;
+		}
+		.slideMeta p {
+			margin-top:2px;
+			margin-bottom: 2px;
+			font-size:22px;
+		}
+	</style>
+
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-
+					<h2>Overcoming Challenges In Using Jekyll For Documentation Projects</h2>
+					<h3>Jekyll Conf 2016</h3>
+<!--
 					<h2>Writing tech docs</h2>
 					<h3> like a hacker with Jekyll</h3>
-					<p>
-						<small>Created by <a href="http://idratherbewriting.com">Tom Johnson</a> / <a href="http://twitter.com/tomjohnson">@tomjohnson</a></small>
-					</p>
+					-->
+					<p>Created by Tom Johnson</p>
+
+						<div class="slideMeta">
+							<p>Slides: <a target="_blank" href="bit.ly/jekyllconfslides">http://bit.ly/jekyllconfslides</a></p>
+					<p>Blog: <a href="http://idratherbewriting.com/">idratherbewriting.com</a></p>
+					<p>Twitter: <a target="_blank" href="http://twitter.com/tomjohnson">@tomjohnson</a></p>
+
+					<p>Email: <a href="mailto=tom@idratherbewriting.com">tom@idratherbewriting.com</a></p>
+						</div>
+
+
 				</section>
 
-				<style>
-					.reveal section img {
-						background-color: white;
-					}
-					.reveal h3, .orange {
-						color: orange;
-					}
-				</style>
 
 
 				<section>
@@ -80,7 +106,7 @@
 				</section>
 
 				<section>
-					<h2>Reasons for discontent</h2>
+					<h2>Reasons for discontent with tech writer tools</h2>
 					<ul>
 						<li>No HATs for Mac</li>
 						<li>CMSs cost $$$$</li>
@@ -107,7 +133,7 @@
 
 								<tr>
 									<td><b>Advanced logic</b></td>
-									<td>Liquid and Jekyll</td>
+									<td>Liquid</td>
 								</tr>
 
 								<tr>
@@ -121,7 +147,7 @@
 
 								<tr>
 									<td><b>Building:</b></td>
-									<td>Continuous build scripts</td>
+									<td>Jekyll</td>
 								</tr>
 
 
@@ -130,7 +156,9 @@
 
 					</section>
 
+				<!--
 				<section>
+
 
 				<section>
 					<h2>Authoring in Jekyll</h2>
@@ -141,13 +169,15 @@
 					<h2>Built site </h2>
 					<a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="images/jekylldocthemedemo.png"/></a>
 				</section>
+				-->
 
-
+<!--
 					<section>
 						<h2>CMS vs. Static site generators</h2>
 						<img src="images/jekyll_static_site_generators.svg"/>
 					</section>
 					</section>
+					-->
 
 				<section>
 					<h2>Using Jekyll for tech writing: <span class="orange">My journey</span></h2>
@@ -161,13 +191,20 @@
 </section>
 
 	<section><h3>Solution: Bootstrap</h3>
-		<img src="images/bootstrap.png"/>
+		<ul>
+			<li>Turns out theming is easy</li>
+			<li>Easy to clone any existing site</li>
+			<li>Use Bootstrap for framework</li>
+		</ul>
+		<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/">More details &raquo;</a></small>
+
 				</section>
 				</section>
 				<section>
 					<section data-background="images/jekyll_bg-challenge.svg">
 					<h2>Conditional filtering?</h2>
 					<img src="images/jekyll_conditional_filtering.svg"/>
+
 					</section>
 
 					<section>
@@ -179,6 +216,7 @@ show this to administrators
 show this to analysts
 {% endif %}
 </code></pre>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_conditional_logic/">More details &raquo;</a></small>
 					</section>
 				</section>
 
@@ -189,11 +227,13 @@ show this to analysts
 				</section>
 					<section>
 						<h3>Solution: Multiple config files</h3>
-					<ul><li>Each config file has various properties</li>
-					<li>Properties: audience, platform, product, version</li>
+
+					<ul>
+						<li>Separate config files for each variant</li>
+						<li>Each config file has various properties <br/>(audience, platform, product, version)</li>
 						<li>Create scripts that compile build commands</li>
 					</ul>
-
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_build_arguments/">More details &raquo;</a></small>
 					</section>
 					</section>
 
@@ -209,6 +249,7 @@ show this to analysts
 							<li>All markdown files stored in root directory</li>
 							<li>No need to configure url or baseurl properties</li>
 						</ul>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="https://github.com/tomjohnson1492/jekylldoctheme-separate-outputs">More details &raquo;</a></small>
 					</section>
 				</section>
 
@@ -226,6 +267,7 @@ show this to analysts
 
 							<li>Navgoco component handles other aspects (expand/collapse, cookie, accordion)</li>
 						</ul>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/#sidebar-syntax">More details &raquo;</a></small>
 					</section>
 					</section>
 
@@ -233,6 +275,7 @@ show this to analysts
 					<section data-background="images/jekyll_bg-challenge.svg">
 					<h2>Alerts: Notes, tips, cautions?</h2>
 					<img src="images/jekyll_notes_tips_alerts.svg"/>
+
 				</section>
 					<section>
 						<h3>Solution: Includes</h3>
@@ -241,12 +284,15 @@ show this to analysts
 							<li>Pass parameters with include code</li>
 						</ul>
 <pre><code data-trim contenteditable>
-	// create the note.html include:
-<div><b>Note:</b> {{include.content}}</div>
-	//use it like this:
-{% include note.html content="My note content goes here ... %}
-</code></pre>
+// create the note.html include:
 
+<div><b>Note:</b> {{include.content}}</div>
+
+//use it like this:
+
+{% include note.html content="My note content goes here ..." %}
+</code></pre>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/">More details &raquo;</a></small>
 					</section>
 					</section>
 
@@ -257,7 +303,7 @@ show this to analysts
 				</section>
 
 					<section>
-						<h3>Solution: YML-based links</h3>
+						<h3>Solution: YAML-based links</h3>
 						<ul>
 							<li>Iterate through TOC to create YAML file to get link names</li>
 							<li>Store urls.yml in _data folder</li>
@@ -265,6 +311,7 @@ show this to analysts
 							</ul>
 
 						</ul>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_hyperlinks/#managed-links">More details &raquo;</a></small>
 					</section>
 					</section>
 
@@ -278,9 +325,10 @@ show this to analysts
 						<h3>Solution: Prince XML</h3>
 						<ul>
 							<li>Iterate through sidebar menu to get list of links</li>
-							<li>Feed the list of links to Prince XML</li>
+							<li>Feed the list of links to <a href="http://www.princexml.com/" target="_blank">Prince XML</a></li>
 								<li>Store command in shell script</li>
 						</ul>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_generating_pdfs/">More details &raquo;</a></small>
 					</section>
 					</section>
 
@@ -295,11 +343,11 @@ show this to analysts
 						<ul>
 							<li>All writers work in same project</li>
 							<li>Each project stored in its own subfolder</li>
-							<li>Still use relative links</li>
-							<li>Redirect index.html in root to appropriate project homepage</li>
-							<li>Exclude other directories in each project's config file</li>
+							<li>Still use relative links (redirect index.html in root to project home)</li>
 							<li>Put common content in non-excluded directory</li>
-							</ul>
+							<li>Exclude other directories in each project's config file</li>
+						</ul>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_content_reuse/">More details &raquo;</a></small>
 					</section>
 					</section>
 
@@ -317,6 +365,7 @@ show this to analysts
 							<li>Avoid simultaneously editing the same page</li>
 							<li>Look regularly at commit logs</li>
 						</ul>
+
 					</section>
 					</section>
 
@@ -330,9 +379,11 @@ show this to analysts
 						<h3>Solution: Remember your audience</h3>
 						<ul>
 							<li>Avoid plugins or overly complicated code</li>
-							<li>Try to "document inner workings..."</li>
+							<li>Have all writers work in same project</li>
+							<li>Stop changing processes, code each month</li>
 							<li>Establish standards and provide training</li>
 						</ul>
+
 					</section>
 					</section>
 
@@ -349,6 +400,7 @@ show this to analysts
 							<li>More difficult if content isn't public</li>
 							<li>Never got around to implementating</li>
 						</ul>
+
 					</section>
 					</section>
 
@@ -366,6 +418,7 @@ show this to analysts
 							<li>Send out Markdown files for translation</li>
 							<li>Create new project with translated files</li>
 						</ul>
+
 					</section>
 					</section>
 
@@ -380,8 +433,8 @@ show this to analysts
 						<ul>
 							<li>Identity access management is an entire discipline</li>
 							<li>Simple implementations like onelogin.com aren't cheap</li>
-							<li>Impossible requirements: logins with LDAP for internal employees, Salesforce for external, custom for prospects</li>
-							<li>Salesforce site.com solution</li>
+							<li>Push back on impossible requirements</li>
+							<li>Last resort: Salesforce site.com solution</li>
 						</ul>
 					</section>
 					</section>
@@ -397,6 +450,25 @@ show this to analysts
 						<p>- Similar stories: netflix, wikipedia.</p>
 						<p>- Disruptive tech displaces mainstream.</p>
 					</aside>
+					<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/2015/02/10/sustaining-and-disruptive-innovations/">More details &raquo;</a></small>
+
+				</section>
+
+				<section>
+					<h2>Documentation theme <br/>for Jekyll</h2>
+					<div>
+					<div style="float: right; max-width: 400px;">
+						<a href="https://github.com/tomjohnson1492/documentation-theme-jekyll"><img src="images/themesnapshot.png"/></a>
+					</div>
+<div style="max-width: 50%">
+					<ul>
+						<li>Newer theme: Single output, multiple sidebars (<a target="_blank" href="https://github.com/tomjohnson1492/documentation-theme-jekyll">Github repo</a>)</li>
+
+
+						<li style="margin-top:20px;">Older theme: Multiple outputs, one sidebar (<a target="_blank" href="https://github.com/tomjohnson1492/jekylldoctheme-separate-outputs">Github repo</a>)</li>
+					</ul>
+</div>
+					</div>
 				</section>
 
 
