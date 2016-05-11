@@ -3,8 +3,8 @@ title: "How do you establish more context in a topic-based writing model?"
 categories:
 - general
 keywords: 
-summary: ""
-thumb: 
+summary: "I'm trying to come up with way of providing more context around the documentation I write. Providing context is essential to helping users understand how all the various pieces fit together. Without context, the information becomes fragmented and seems unorganized, maybe even random. I've tried a couple of approaches to establishing context -- one approach in consolidating the information more while I draft it, and another approach of putting maps with signposts throughout the content. "
+thumb: contextworkflowmapthumb
 ---
 
 ## Background
@@ -19,9 +19,11 @@ I asked why they didn't load up the TOC with all the topics, as is customary wit
 
 I've written in the past about chunking and context (for example, see [Topic Chunking and The Broken Alarm Clock](http://idratherbewriting.com/2011/04/27/topic-chunking-and-the-broken-clock/)). As I've been documenting a new project lately, I want to preserve the context for users in helpful ways. 
 
-Additionally, while reading Head First Android Development, I noticed how the writers continually presented a map to show you the larger view of the doc structure:
+Additionally, while reading [Head First Android Development](http://shop.oreilly.com/product/0636920029045.do), I noticed how the writers continually presented a map to show you the larger view of the doc structure:
 
 {% include image.html file="headfirstmap.png" caption="With each new section, the writers show a little map like this to give you the larger context of where you are within the content." %}
+
+## My attempt 
 
 So here's what I tried doing to help establish context. While drafting the content, I tried to keep all the information in one long topic rather than a lot of little topics &mdash; just for the draft stage so that I could assess how all the information fit together.
 
@@ -35,6 +37,8 @@ But still, my initial attempt was to approach tech doc authoring in a way that p
 
 Yes, I think anytime you start dividing content onto separate pages, you fragment the information. Users can start anywhere in your doc, and there's no easy way to hold their hand through the right order. 
 
+## Another solution
+
 Here's my solution. I'm adding a workflow diagram that shows the essential path through the content. I want to put this workflow diagram on each of the pages where I expect users to perform the task as part of a sequence of topics.
 
 {% include image.html file="diagram_setupworkflowdiagram.png" caption="By providing a workflow path, you help establish context with the reader through the content." alt="Workflow through content" %}
@@ -43,4 +47,8 @@ For users who jump to a specific topic, it probably doesn't matter which approac
 
 This map is too bulky to add at the top of each page, so I'm looking at different ways to show it. Maybe a thumbnail that zooms into a larger view?
 
+## Next steps 
+
 The other challenge is that I want the graphic to be an SVG graphic so that I can edit the text and link the boxes to the appropriate page. I also want to add unique style to each element and highlight that element to be another color when the user is viewing the page.
+
+{{site.data.alerts.ad}}Do you still <a href="https://clickhelp.co/online-documentation-tool/">write software documentation</a> in office text editors? It’s time to move forward &mdash; use modern browser-based tools like <a href="https://clickhelp.co/">ClickHelp</a> to create the content everywhere, collaborate with your team, use workflow to control the process in a better way.{{site.data.alerts.end}}
