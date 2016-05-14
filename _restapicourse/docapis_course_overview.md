@@ -65,7 +65,7 @@ Here are a few things you'll need in this course:
 * **Text editor**. ([Sublime Text](http://www.sublimetext.com/) is a good option (it works on both Mac and Windows), but any text editor will do. On Windows, [Notepad++](https://notepad-plus-plus.org/) and [Komodo Edit](http://komodoide.com/komodo-edit/) are also good.)
 * **[Chrome browser](http://www.google.com/chrome/)**. (Other browsers are fine too, but we'll be using Chrome's Developer Console.)
 * **[Postman - REST Client (Chrome or Mac app)](http://www.getpostman.com/)**. Postman is an app that allows you to make requests and see responses through a GUI client. You can either use the Chrome or Mac app.
-* **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line. Mac computers already have cURL installed. Windows users should follow the instructions for installing cURL [here](https://support.zendesk.com/hc/en-us/articles/203691436-Installing-and-using-cURL#install). 
+* **[cURL](http://curl.haxx.se/)**. cURL is essential for making requests to endpoints from the command line. Mac computers already have cURL installed. Windows users should follow the instructions for installing cURL [here](http://www.confusedbycode.com/curl/#downloads). 
 * **[Git](https://git-scm.com/)**. Git is a version control tool developers often use to collaborate on code. See [Set Up Git](https://help.github.com/articles/set-up-git/) for more details. 
 * **[Filezilla](https://filezilla-project.org/)**. This is an FTP client for transferring files to a web host.
 * **Network connection**. Your computer needs to be able to connect to a wifi network.

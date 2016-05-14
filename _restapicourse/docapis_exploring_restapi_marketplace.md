@@ -1,6 +1,6 @@
 ---
-title: Exploring a REST API marketplace
-permalink: /docapis_exploring_restapi_marketplace/
+title: Scenario for using a weather API
+permalink: /docapis_scenario_for_using_weather_api/
 categories:
 - api-doc
 keywords: 
@@ -60,7 +60,7 @@ $.ajax(settings)
 You can view the same code in a separate window here: <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl }}" alt="Mashape example" target="_blank">Mashape API example</a>
 
 {% if site.output == "pdf %} 
-{{note}} Obviously, PDF doesn't support the HTTP protocol, so you'll need to go online to <a href="http://idratherbewriting.com/docapis_exploring_restapi_marketplace/">Exploring a REST API marketplace"</a> to view this example.{{end}}
+{{note}} Obviously, PDF doesn't support the HTTP protocol, so you'll need to go online to <a href="http://idratherbewriting.com/docapis_scenario_for_using_weather_api/">Exploring a REST API marketplace"</a> to view this example.{{end}}
 {% endif %}
 
 When you request this data, an API is going out to a weather service, retrieving the information, and displaying it to you. 

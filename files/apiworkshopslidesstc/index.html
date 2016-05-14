@@ -1,0 +1,1556 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>API documentation workshop</title>
+      <meta name="description" content="presentation for improving the practices of technical documention by focusing on the user>
+         <meta name="author" content="Tom Johnson">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+      <!-- favicon icons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!-- end favicon code -->
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+      <!-- Code syntax highlighting -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+      <!-- Printing and PDF exports -->
+      <script>
+         var link = document.createElement( 'link' );
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+         document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+      <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- these are my custom styles. remember that slide sizes scale, so try to use percentages. -->
+      <style>
+         p.alignLeft {
+         text-align: left;
+         }
+         span.orange, a.orange {
+         color: orange;
+         outline-color: gray;
+         }
+         div.innovation ul li {
+         margin-bottom:12px;
+         }
+         figcaption {
+         font-size:12px;
+         }
+         p.miscItems {
+         font-size:1.2em;
+         }
+         .slides section h3 {
+         color: orange !important; outline: gray;
+         margin:0px;
+         }
+         .slides img {
+         max-width: 83%;
+         max-height: 83%;
+         border:3px solid red;
+         }
+         #upcoming-slide .label {
+         color: #444 !important
+         }
+         ul.credits li {
+         font-size: .6em;
+         }
+         .reveal section h3 {
+         margin:0px;
+         }
+         .reveal section img {
+         margin-bottom:0px;
+         }
+         span.strategy {
+         border: 1px solid #dedede;
+         padding: 4px 6px;
+         border-radius: 8px;
+         }
+         span.myname {
+         font-weight: bold;
+         font-size: 52px;
+         color: #555;
+         font-family: "Lucida Handwriting";
+         }
+         .reveal pre code {
+         padding:20px;
+         background-color: #3f3f3f;
+         }
+      </style>
+      <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
+   </head>
+   <body>
+      <div class="reveal innovation">
+         <!-- Any section element inside of this container is displayed as a slide -->
+         <div class="slides">
+            <section>
+               <h1>Documenting REST APIs workshop</h1>
+               <h3>STC Summit 2016 &mdash; Anaheim, California</h3>
+               <p>
+                  <small>By Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                  <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
+               </p>
+            </section>
+            <section>
+               <h2>Workshop Outline</h2>
+               <ol>
+                  <li>Intro to APIs</li>
+                  <li>Using an API like a developer</li>
+                  <li>Documenting an API</li>
+                  <li>Publishing API documentation</li>
+               </ol>
+            </section>
+            <section>
+               <h2>1.0 Documenting REST APIs</h2>
+               <a href="http://idratherbewriting.com/docapis_course_overview/"><img class="shortened" src="media/rasters/siterefcontent.png"/></a>
+            </section>
+            <section>
+               <h2>1.1 The market for REST API doc</h2>
+               <section>
+                  <h3>Doc is the interface</h3>
+                  <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/programwebsurvey.png"/></a>
+               </section>
+               <section>
+                  <h3>REST API growth</h3>
+                  <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/apigrowth.png"/></a>
+               </section>
+               <section>
+                  <h3>Services mashup</h3>
+                  <a href="http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html"><img class="shortened" src="media/rasters/servicesmashup.png"/></a>
+               </section>
+            </section>
+            <section>
+               <h2>1.2 What is a REST API?</h2>
+               <section>
+                  <h3>APIs allow different systems to interact</h3>
+                  <img src="media/rasters/spinning_gears.jpg"/>
+               </section>
+               <section>
+                  <h3>APIs are interfaces</h3>
+                  <img src="media/rasters/calculator.png"/>
+               </section>
+               <section>
+                  <h3>REST API model</h3>
+                  <img src="media/rasters/restapimodel.png"/>
+               </section>
+               <section>
+                  <h3>The web follows REST</h3>
+                  <img src="media/rasters/webrestmodel.png"/>
+               </section>
+            </section>
+            <section>
+               <h2>1.3 Scenario for using a weather API</h2>
+               <section>
+                  <h3>First, our API goal</h3>
+                  <a href="http://idratherbewriting.com/docapis_scenario_for_using_weather_api/"><img src="media/rasters/coursegoal.png"/></a>
+                  <p>See also <a href="https://weather.yahoo.com/united-states/california/santa-clara-2488836/">yahoo weather</a></p>
+               </section>
+               <section>
+                  <h3>Mashape</h3>
+                  <a href="https://www.mashape.com/fyhao/weather-13"><img src="media/rasters/mashape_explore_apis.png" /></a>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Find Weather by fyhao on Mashape
+                  </p>
+               </section>
+            </section>
+            <section>
+               <h2>1.4 Getting authorization keys</h2>
+               <section>
+                  <h3>The need for API keys</h3>
+                  <a href="https://www.mashape.com/tomjohnson1492/applications/default-application"><img src="media/rasters/mashape_get_keys.png"/></a>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Get the Mashape API keys so you can make requests.</p>
+               </section>
+            </section>
+            <section>
+               <h2>1.5 Submit requests through Postman</h2>
+               <section>
+                  <h3>About Postman</h3>
+                  <img src="media/rasters/postmanui.png"/>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Make a request to each weather endpoint using Postman.</p>
+               </section>
+            </section>
+            <section>
+               <h2>1.6 Installing cURL</h2>
+               <a href="http://www.confusedbycode.com/curl/#downloads"><img src="media/rasters/curlinstallation.png"/></a>
+            </section>
+            <section>
+               <h2>1.7 Make a cURL call</h2>
+               <img src="media/rasters/curlrequestbasic.png" />
+            </section>
+            <section>
+               <h2>1.8 Understand cURL more</h2>
+               <section>
+                  <h3>cURL commands</h3>
+                  <pre><code data-trim contenteditable>
+
+
+curl http://example.com
+
+   curl http://example.com -i
+
+   curl http://example.com -I
+
+   curl -X GET http://example.com -I 
+
+   /* GET, POST, PUT, DELETE */
+
+
+
+ </code>
+  </pre>
+               </section>
+               <section>
+                  <h3>Unpacking the Mashape example</h3>
+                  <pre>
+                  <code data-trim contenteditable>
+curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=37.3
+54108&lng=-121.955236' \
+-H 'X-Mashape-Key: {api key}' \
+-H 'Accept: text/plain'
+                  </code>
+               </section>
+               <section>
+                  <h3>cURL commands</h3>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>Command</th>
+                           <th>Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                         <td><code>-i</code> or <code>--include</code></td>
+                           <td>Include response headers</td>
+                        </tr>
+                        <tr>
+                          <td><code>-d</code> or <code>--data</code></td>
+                           <td>Include data to post </td>
+                        </tr>
+                        <tr>
+                          <td><code>-H</code> or <code>--header</code></td>
+                           <td>Submit header</td>
+                        </tr>
+                        <tr>
+                         <td><code>-X POST</code></td>
+                           <td>The HTTP method to use </td>
+                        </tr>
+                        <tr>
+                         <td><code>@filename</code></td>
+                           <td>Load content from a file</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section>
+                  <h3>Full example</h3>
+                  <pre><code data-trim contenteditable>
+
+curl -i -H "Accept: application/json" -X POST -d "{status:MIA}" 
+   http://personsreport.com/status/person123
+
+   </code>
+   </pre>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Test your memory: </p>
+                  <ul>
+                     <li><code>-i</code> means...</li>
+                     <li><code>-H</code> means...</li>
+                     <li><code>-X POST</code> means...</li>
+                     <li><code>-d</code> means...</li>
+                  </ul>
+               </section>
+            </section>
+            <section>
+               <h2>1.9 Using methods with cURL (Petstore)</h2>
+               <section>
+                  <h3>Using Petstore API</h3>
+                  <a href="http://petstore.swagger.io/"><img src="media/rasters/petstore.png"/></a>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <ol>
+                     <li>Create a pet</li>
+                     <li>Update your pet's name</li>
+                     <li>Get your pet's name by ID</li>
+                     <li>Delete your pet</li>
+                  </ol>
+               </section>
+            </section>
+            <section>
+               <h2>2.0 Analyze the JSON response</h2>
+               <section>
+                  <h3>JSON objects are key-value pairs</h3>
+                  <pre><code data-trim contenteditable>
+{
+"key1":"value1",
+"key2":"value2"
+}
+ </code></pre>
+               </section>
+               <section>
+                  <h3>JSON arrays are lists of items</h3>
+                  <pre><code data-trim contenteditable>
+    ["first", "second", "third"]
+  </code></pre>
+               </section>
+               <section>
+                  <h3>You can include objects inside arrays</h3>
+                  <pre><code data-trim contenteditable>
+[  
+   {  
+      "name":"Tom",
+      "age":39
+   },
+   {  
+      "name":"Shannon",
+      "age":37
+   }
+]
+  </code></pre>
+               </section>
+               <section>
+                  <h3>You can include arrays inside objects</h3>
+                  <pre><code data-trim contenteditable>
+   {
+"children": ["Avery","Callie","lucy","Molly"],
+"hobbies": ["swimming","biking","drawing","horseplaying"]
+}
+  </code> </pre>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Identify the objects and arrays in the weatherdata endpoint response.</p>
+               </section>
+            </section>
+            <section>
+               <h2>2.1 Using the JSON from the response</h2>
+               <section>
+                  <h3>Generating code</h3>
+                  <img src="media/rasters/postmangeneratecodesnippet.png" />
+               </section>
+               <section>
+                  <h3>Logging the response to the console</h3>
+                  <img src="media/rasters/jsonpayloadweatherdata.png" />
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Create a <a href="/files/restapicourse/weatherdata.html">sample web page</a> and print the weather description to the page following the instructions in 2.1.</p>
+               </section>
+            </section>
+            <section>
+               <h2>2.2 Access the JSON values</h2>
+               <section>
+                  <h3>dot notation</h3>
+                  <pre><code data-trim contenteditable>
+      
+      data.query.results.channel.item.description
+
+      console.log (data.query.results.channel.item.description);
+    </code></pre>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Print the weather description to the page.</p>
+               </section>
+            </section>
+            <section>
+               <h2>2.3 Diving into dot notation</h2>
+               <section>
+                  <h3>Use a dot to access the value from a key</h3>
+                  <pre><code data-trim contenteditable>
+"data": {
+"name": "Tom"
+}
+  </code></pre>
+                  <p>Access "Tom" using <code>data.name</code>.</p>
+               </section>
+               <section>
+                  <h3>Use square brackets to access the values in an array</h3>
+                  <pre><code data-trim contenteditable>
+"data" : {
+  "items": ["ball", "bat", "glove"]
+}
+  </code></pre>
+                  <p>To access glove, you would use <code>data.items[2]</code>.</p>
+               </section>
+               <section>
+                  <h3>Exercise with dot notation</h3>
+                  <p>Practice accessing different values through dot notation following the exercise on 2.3.</p>
+               </section>
+            </section>
+            <section>
+               <h2>2.4 New API endpoint to document</h2>
+               <section>
+                  <h3>Endpoint wiki page details</h3>
+                  <a href="http://idratherbewriting.com/docapis_new_endpoint_to_doc/"><img src="media/rasters/surfreport.png"/></a>
+               </section>
+               <section>
+                  <h3>Essential sections in reference documentation</h3>
+                  <ul>
+                     <li>Resource description</li>
+                     <li>Endpoint</li>
+                     <li>Methods</li>
+                     <li>Parameters</li>
+                     <li>Request submission example</li>
+                     <li>Request response example</li>
+                     <li>Status and error codes</li>
+                     <li>Code samples</li>
+                  </ul>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Create the basic structure for the endpoint documentation</p>
+               </section>
+            </section>
+            <section>
+               <h2>2.5 Documenting resource descriptions</h2>
+               <section>
+                  <h3>Terminology for "resource" varies</h3>
+                  <ul>
+                     <li>API calls</li>
+                     <li>Endpoints</li>
+                     <li>API methods</li>
+                     <li>Calls</li>
+                     <li>Resources</li>
+                     <li>Objects</li>
+                     <li>Services</li>
+                     <li>Requests</li>
+                  </ul>
+               </section>
+               <section>
+                  <h3>Some examples</h3>
+                  <ul>
+                     <li><a href="http://kb.mailchimp.com/api/resources/automations/emails/automations-emails-instance">Mailchimp</a></li>
+                     <li><a href="https://dev.twitter.com/rest/reference/get/statuses/retweets/%3Aid">Twitter</a></li>
+                     <li><a href="https://instagram.com/developer/endpoints/relationships/">Instagram</a></li>
+                     <li><a href="https://www.eventbrite.com/developer/v3/endpoints/events/">EventBrite</a></li>
+                     <li><a href="https://box-content.readme.io/reference#collaboration-object">Box</a></li>
+                  </ul>
+               </section>
+               <section>
+                  <h3>When it gets confusing to refer to resources by the endpoint</h3>
+                  <pre><code data-trim contenteditable>
+  api_site.com/{apikey}/users
+// gets all users
+
+api_site.com/{apikey}/users/{userId}
+// gets a specific user
+
+api_site.com/{apikey}/rewards
+// gets all rewards
+
+api_site.com/{apikey}/rewards/{rewardId}
+// gets a specific reward
+
+api_site.com/{apikey}/users/{userId}/rewards
+// gets all rewards for a specific user
+
+api_site.com/{apikey}/users/{userId}/rewards/{rewardId}
+// gets a specific reward for a specific user
+
+api_site.com/{apikey}/users/{userId}/rewards/{missionId}
+// gets the rewards for a specfic mission related to a specific user
+
+api_site.com/{apikey}/missions/{missionid}/rewards
+// gets the rewards available for a specific mission
+  </code></pre>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Critique the <a href="https://market.mashape.com/fyhao/weather-13">Mashape Weather API descriptions</a>.</p>
+                  <p>Compare with <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/">Aeris Weather API descriptions</a>.
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Write the resource description for surfreport.</p>
+               </section>
+            </section>
+            </section>
+            <section>
+               <h2>2.6 Documenting the endpoint definitions and methods</h2>
+               <section>
+                  <h3>Terminology for "endpoint" varies</h3>
+                  <ul>
+                     <li>Requests</li>
+                     <li>Endpoints</li>
+                     <li>API methods</li>
+                     <li>Resource URLs</li>
+                     <li>URLs</li>
+                     <li>URL syntax</li>
+                  </ul>
+               </section>
+               <section>
+                  <h3>Represent parameter values with curly braces</h3>
+                  <pre><code data-trim contenteditable>
+  /campaigns/{campaign_id}/actions/send
+  </code></pre>
+               </section>
+               <section>
+                  <h3>Listing the method</h3>
+                  <ul>
+                     <li><a href="https://box-content.readme.io/reference#comment-object">Box API</a></li>
+                     <li><a href="https://developer.linkedin.com/docs/rest-api">Linkedin</a></li>
+                  </ul>
+               </section>
+               <section>
+                  <h3>Activity</h3>
+                  <p>Write the endpoint definition and method for surfreport.</p>
+               </section>
+            </section>
+            <section>
+               <h2>2.7 Documenting parameters</h2>
+               <section><h3>Parameters configure the endpoint</h3>
+
+               <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="media/rasters/yelpparameters.png"/></a>
+             </section>
+
+             <section>
+  <h3>Listing data types</h3>
+  <ul>
+  <li>string</li>
+  <li>integer</li>
+  <li>boolean</li>
+  <li>object</li>
+  </ul>
+ </section>
+
+ <section><h3>Parameter order is irrelevant</h3>
+ <pre><code data-trim contenteditable>
+ /surfreport/{beachId}?days=3&units=metric&time=1400
+
+ /surfreport/{beachId}?time=1400&units=metric&days=3
+ </code></pre>
+ </section>
+
+ <section><h3>Submitting parameters in the request body</h3>
+
+ <pre><code data-trim contenteditable>
+ {
+"days": 2,
+"units": "imperial",
+"time": 1433524597
+}
+  </code></pre></section>
+
+  <section><h3>Activity</h3>
+    <p>Construct a table to list the surfreport parameters</p>
+  </section>
+
+            </section>
+            <section>
+               <h2>2.8 Documenting sample requests</h2>
+               <section><h3>Requests clarify syntax</h3>
+                 <a href="http://developer.nytimes.com/docs/read/article_search_api_v2"><img src="media/rasters/nytimesexample.png"/></a>
+             </section>
+
+             <section><h3>API Explorers provide interactivity with your own data</h3>
+               <a href="https://developer.foursquare.com/docs/explore"><img src="media/rasters/foursquareapiexplorer.png"></a>
+             </section>
+
+             <section><h3>Activity</h3>
+               <p>Document the sample request with the surfreport/{beachId} endpoint</p>
+             </section>
+
+
+
+            </section>
+            <section>
+               <h2>2.9 Documenting sample responses</h2>
+               <section><h3>A sample of a sample response</h3>
+                 <a href="http://developers.flattr.net/api/resources/activities/"><img src="media/rasters/flattr.png"/></a>
+               </section>
+
+               <section><h3>Strategies for nested objects</h3>
+                 <a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="media/rasters/returnvaluedefinitions.png"/></a>
+               </section>
+
+               <section><h3>Where to include sample responses</h3>
+                 <a href="https://stripe.com/docs/api#charge_object"><img src="media/rasters/stripetripanedesign.png"/></a>
+               </section>
+
+               <section><h3>Activity</h3>
+                 <p>Create a sample response in your surfreport/{beachId} endpoint.</p>
+               </section>
+
+            </section>
+            <section>
+               <h2>3.0 Documenting code samples</h2>
+               <section><h3>Which language?</h3>
+                 <a href="http://idratherbewriting.com/images/restapicourse/codesamplesevernote.png"><img src="media/rasters/codesamplesevernote.png"/></a>
+                 <p>See also <a href="https://www.twilio.com/docs/api/rest/making-calls">Twilio</a></p>
+               </section>
+
+               <section><h3>Auto-generating code samples</h3>
+                 <a href="https://luckymarmot.com/paw/extensions/"><img src="media/rasters/pawcodegenerators.png"/></a>
+               </section>
+
+               <section><h3>Activity</h3>
+                 <p>Generate a JavaScript code sample from Postman following the steps in 3.0.</p>
+                 </section>
+
+                 <section><h3>Activity</h3>
+                   <p>Create a code sample for the surfreport endpoint.</p>
+                 </section>
+            </section>
+            <section>
+               <h2>3.1 Putting it all together</h2>
+               <a href="http://idratherbewriting.com/docapis_finished_doc_result/"><img src="media/rasters/puttingitalltogether.png" /></a>
+            </section>
+            <section>
+               <h2>3.2 Creating the user guide</h2>
+               <section><h3>Sample template</h3>
+               <a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api"><img src="media/rasters/commonsections.png" /></a>
+             </section>
+             <section><h3>Essential sections</h3>
+             <ul>
+               <li>Overview</li>
+               <li>Getting started</li>
+              <li>Authorization keys</li>
+              <li>Code samples/tutorials</li>
+              <li>Response and error codes</li>
+              <li>Quick reference</li>
+  </ul>
+  </section>
+            </section>
+            <section>
+               <h2>3.3 Writing the overview section</h2>
+               <a href="https://sendgrid.com/docs/User_Guide/index.html"><img src="media/rasters/sendgridoverview.png"/></a>
+            </section>
+            <section>
+               <h2>3.4 Writing the Getting Started section</h2>
+               <a href="http://www.alchemyapi.com/developers/getting-started-guide"><img src="media/rasters/alchemyapigettingstarted.png"/></a>
+               <p>Other examples: <a href="https://www.hipchat.com/docs/apiv2">Hipchat</a>, <a href="http://www.aerisweather.com/support/docs/api/getting-started/">Aeris</a>, <a href="https://api.smugmug.com/api/v2/doc">Smugmug</a></p>
+            </section>
+            <section>
+               <h2>3.5 Documenting authorization</h2>
+
+               <section><h3>API keys</h3>
+                 <a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="media/rasters/sendgridapikeys.png" /></a>
+               </section>
+
+               <section><h3>Basic Auth</h3>
+               <pre><code data-trim contenteditable>
+                 Authorization: Basic bG9sOnNlY3VyZQ==</code>
+               </pre>
+             </section>
+
+             <section><h3>HMAC</h3>
+             <img src="media/rasters/hmac.png" />
+           </section>
+
+           <section><h3>OAuth 2.0</h3>
+           <img src="media/rasters/oauthmodel.png" />
+         </section>
+
+         <section><h3>Rate limits</h3>
+          <a href="https://developer.github.com/v3/#rate-limiting"><img src="media/rasters/ratelimiting.png" /></a>
+        </section>
+            </section>
+            <section>
+               <h2>3.6 Documenting response codes</h2>
+               <section><h3>Error codes, status codes</h3>
+                 <a href="https://dev.twitter.com/overview/api/response-codes"><img src="media/rasters/twitterstatuscode.png"/></a>
+               </section>
+               <section><h3>Status codes specific to endpoints</h3>
+                 <a href="http://developers.flattr.net/api/resources/things/#update-a-thing"><img src="media/rasters/flattrnotfound.png" /></a>
+               </section>
+               <section><h3>Possible reasons for errors</h3>
+               <ul>
+                 <li>Invalid API keys</li>
+                 <li>Wrong data types</li>
+                 <li>Bad JSON syntax in post body</li>
+                 <li>No resource to return</li>
+                 <li>Rate limits exceeded</li>
+                 <li>Max or min values exceeded</li>
+                 <li>Missing parameter</li>
+                 <li>Network-related error</li>
+               </ul>
+             </section>
+
+            </section>
+            <section>
+               <h2>3.7 Documenting code samples</h2>
+               <a href="http://docs.mashape.com/javascript"><img src="media/rasters/consumeapi.png" /></a>
+            </section>
+            <section>
+               <h2>3.8 Creating the quick reference guide</h2>
+               <a href="http://api.eventful.com/docs"><img src="media/rasters/eventfulquickreference.png"/></a>
+               <p>See also the <a href="http://cheat.markdunkley.com/">Shopify cheat sheet</a>.</p>
+            </section>
+            <section>
+               <h2>3.9 Exploring more REST APIs</h2>
+               
+  
+               <ul>
+                 <li>EventBrite API</li>
+                 <li>Aeris Weather API</li>
+                 <li>Flickr API</li>
+                 <li>Klout API</li>
+               </ul>
+               <p>Swap in <code>{api key}</code> for the real value. You can use <a href="http://learnapidoc.com/apikeys.txt">my keys</a>.</p>
+               <p>Note: JS display activities are optional.</p>
+            </section>
+            <section>
+               <h2>4.0 EventBrite example</h2>
+               <section><h3>Activity</h3>
+               <p>Use the EventBrite API to get the event title and description of <a href="https://www.eventbrite.com/myevent?eid=17920884849">this event</a>.</p>
+             </section>
+      
+            </section>
+            <section>
+               <h2>4.1: Flickr example</h2>
+               <section><h3>Activity</h3>
+               <p>Use the Flickr API to get photo images from this <a href="https://www.flickr.com/photos/flickr/galleries/72157647277042064/">Flickr gallery</a>.</p>
+             </section>
+            </section>
+            <section>
+               <h2>4.2 Klout example</h2>
+               <section><h3>Activity</h3>
+               <p>Use the Klout API to get your Klout score and a list of your influencers and influencees.</p>
+             </section>
+            </section>
+            <section>
+               <h2>4.3 Aeris Weather Example</h2>
+               <section><h3>Activity</h3>
+                 <p>Use the Aeris Weather API to get the wind speed (MPH) for a specific place (your choice).</p>
+               </section>
+            </section>
+            <section>
+               <h2>4.4 Moving on to Publishing API docs</h2>
+               <p>Hooray! You finished the documenting APIs part of the course! Now, on to publishing API docs.</p>
+
+            </section>
+
+         <!-- <section data-background="#dfd3a2"> -->
+         <section>
+            <h1>4.5 Publishing API doc</h1>
+            <section><h3>Why devs don't use HATs</h3>
+            <ol>
+               <li>No integration into version control</li>
+               <li>No auto-generation of doc from source</li>
+               <li>No reference templating engines</li>
+               <li>No interactive API consoles</li>
+               <li>No sexy outputs that sell</li>
+            </ol>
+         </section>
+         </section>
+
+      <section>
+         <h2>4.6 List of 100 APIs</h2>
+
+         <section>
+         <h3>Programmable Web</h3>
+         <a href="http://www.programmableweb.com/apis/directory"><img src="media/rasters/programmableweb.png"/></a>
+      </section>
+
+<section>
+   <h3>Activity</h3>
+   <p>Look at about 5 different APIs from the list on "4.6 List of 100 APIs." Identify one thing that the APIs have in common.</p>
+   </section>
+
+      </section>
+
+      <section>
+         <h2>4.6 Breaking down API doc</h2>
+         <ol>
+            <li>Guides</li>
+            <li>Reference</li>
+            <li>Tutorials</li>
+         </ol>
+      </section>
+
+<section>
+   <h2>4.8 Tool decisions</h2>
+   <ul>
+   <li>Who will write? Engineers or tech writers?</li>
+   <li>Pros of having engineers write...</li>
+   <li>Cons of having engineers write...</li>
+   </ul>
+   </section>
+
+   <section>
+      <h2>4.9 Github wikis</h2>
+      <section><h3>Collaboration platform</h3>
+         <a href="https://github.com/basecamp/bcx-api"><img src="media/rasters/basecampapi.png"/></a>
+      </section>
+
+      <section><h3>Activity</h3>
+         <p>Following the instructions in 4.9, do the following:</p>
+         <ol>
+            <li>Create a Github wiki and publish content on a sample page.</li>
+            <li>Save the Github repository locally.</li>
+            <li>Make a change locally, commit it, and push the commit to the Github repository.</li>
+         </ol>
+
+      </section>
+   </section>
+
+   <section>
+      <h2>5.0 More about Markdown</h2>
+
+      <section><h3>Sample syntax</h3>
+<pre><code data-trim editable>
+## Heading 2
+
+This is a bulleted list: 
+
+* first item
+* second item
+* third item
+
+This is a numbered list: 
+
+1. Click this **button**.
+2. Go to [this site](http://www.example.com).
+3. See this image:
+
+![My alt tag](myimagefile.png)
+
+</code></pre>
+      <p>For a detailed example, see the code sample on 5.0.</p>
+   </section>
+
+   <section><h3>Activity</h3>
+      <p>On your Github wiki page, edit the page and create the following:</p>
+
+<ul>
+   <li>level 2 heading</li>
+   <li>numbered list</li>
+   <li>bulleted list</li>
+   </li>bold word</li>
+   <li>code sample with html highlighting</li>
+   <li>table</li>
+   </ul>
+   </section>
+
+   </section>
+
+   <section>
+      <h2>5.1 Using a version control system</h2>
+      <section>
+         <h3>Github and social coding</h3>
+
+         <a href="http://github.com"><img src="media/rasters/githubhomepage.png"/></a>
+      </section>
+   </section>
+
+   <section>
+      <h2>5.2 Pull request workflows</h2>
+      <section>
+      <h3>Merging branches</h3>
+      <img src="media/rasters/github_new_pull_request.png"/>
+   </section>
+   </section>
+
+   <section>
+      <h2>5.3 REST API specification formats</h2>
+      <ul>
+         <li>Swagger</li>
+         <li>RAML</li>
+         <li>API Blueprint</li>
+   </section>
+
+   <section>
+      <h2>5.4 Swagger</h2>
+      <section><h3>Sample output</h3>
+      <a href="http://petstore.swagger.io/"><img src="media/rasters/swaggerpetstoreui.png"/></a>
+   </section>
+
+      <section><h3>Activity</h3>
+       <p>Follow the instructions in 5.4 to create a Swagger output using the information from the Mashape Weather API.</p>
+    </section>
+   </section>
+
+   <section>
+      <h2>5.5 More about YAML</h2>
+      <section><h3>Code without  &lt; markup &gt;</h3>
+      <a href="http://yaml.org/"><img src="media/rasters/yamlscreenshot.png"/></a>
+   </section>
+
+   <section><h3>Sample syntax</h3>
+<pre><code data-trim contenteditable>
+
+reindeer:
+  - Donner
+  - Blitzen
+  - Comet
+  - Cupid
+hobbies:
+  active:
+    - flying
+    - prancing
+  inactive:
+    - pawing
+    - driving
+
+items:
+  - title: Course overview
+    url: /docapis_course_overview/
+    weight: 1.0
+    audience: writers
+
+address: 1234 main street
+route: Google maps
+   </code>
+   </pre>
+   </section>
+
+   <section>
+      <h3>Same YAML content but in JSON</h3>
+      <pre><code data-trim contenteditable>
+      {
+  "reindeer": [
+    "Donner",
+    "Blitzen",
+    "Comet",
+    "Cupid"
+  ],
+  "hobbies": {
+    "active": [
+      "flying",
+      "prancing"
+    ],
+    "inactive": [
+      "pawing",
+      "driving"
+    ]
+  },
+  "items": [
+    {
+      "title": "Course overview",
+      "url": "/docapis_course_overview/",
+      "weight": 1,
+      "audience": "writers"
+    }
+  ],
+  "address": "1234 main street",
+  "route": "Google maps"
+}
+   </code></pre>
+   </section>
+      <section><h3>My YAML tutorial</h3>
+      <a href="http://idratherbewriting.com/2016/02/08/yaml-tutorial/"><img src="media/rasters/yamltutorialjekyll.png"/></a>
+      </section>
+   </section>
+
+   <section>
+      <h2>5.6 RAML</h2>
+      <section><h3>Sample output</h3>
+
+      <a href="http://learnapidoc.com/raml/"><img src="media/rasters/ramlexample.png"/></a>
+   </section>
+
+      <section><h3>Activity</h3>
+      <p>Follow the instructions in 5.6 to create a RAML output using the information from the Mashape Weather API.</p>
+   </section>
+   </section>
+
+   <section>
+      <h2>5.7 API Blueprint</h2>
+      <section>
+         <h3>Sample output</h3>
+         <a href="https://app.apiary.io/weatherapi3/"><img src="media/rasters/apiaryblueprinteditor.png"/></a>
+      </section>
+
+       <section>
+       <h3>Activity</h3>
+      <p>Follow the instructions in 5.7 to create an API Blueprint output using the information from the Mashape Weather API.</p>
+   </section>
+
+   </section>
+
+   <section>
+      <h2>5.8 Static site generators</h2>
+      <section>
+      <h3>Documentation theme for Jekyll</h3>
+         <a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="media/rasters/jekylldocthemenew.png"/></a>
+   </section>
+   <section><h3>Writing in Jekyll</h3>
+   <img src="media/rasters/writinginjekyll.png"/>
+   </section>
+
+      <section><h3>Github Pages</h3>
+         <a href="https://pages.github.com/"><img src="media/rasters/githubpages.png"/></a>
+      </section>
+      <section><h3>Github Pages How-to</h3>
+      <ol>
+         <li>Create Github repo.</li>
+         <li>Create gh-pages branch.</li>
+         <li>In repo settings, make gh-pages branch the default.</li>
+         <li>Clone the repo and commit a Jekyll site. </li>
+         <li>Github builds and displays the Jekyll site.</li>
+
+      </ol>
+      </section>
+
+   <section><h3>Activity</h3>
+      <p>Fork the Documentation theme for Jekyll and publish it via CloudCannon following the instructions in 5.8.</p>
+   </section>
+
+   </section>
+
+   <section>
+      <h2>5.9 Readme.io</h2>
+      <section><h3>Sample output</h3>
+      <a href="http://readme.io"><img src="media/rasters/readmeio.png"/></a>
+   </section>
+<section><h3>Activity</h3>
+      <p>Explore creating pages and publishing API documentation (the Weather Mashape API info) on readme.io.</p>
+   </section>
+   
+   </section>
+
+   
+
+   <section>
+      <h2>6.0 Miredot</h2>
+      <a href="http://miredot.com/exampledocs/"><img src="media/rasters/miredotexample.png"/></a>
+   </section>
+
+   <section>
+      <h2>6.1 Custom UX solutions</h2>
+      <img src="media/rasters/uxteam.png"/>
+   </section>
+
+   <section>
+      <h2>6.2 Help authoring tools</h2>
+      <a href="https://pic.photobucket.com/dev_help/WebHelpPublic/PhotobucketPublicHelp_Left.htm#CSHID=FAQ/FAQOverview.htm|StartTopic=Content/FAQ/FAQOverview.htm|SkinName=WebHelp"><img src="media/rasters/hatphotobucket.png"/></a>
+   </section>
+
+  <section>
+      <h2>6.3 Design patterns</h2>
+      <section><h3>Common themes</h3>
+         <a href="https://flic.kr/p/ssQqiL"><img src="media/rasters/patterns.png"/></a>
+      </section>
+      <section>
+         <h3>Five patterns</h3>
+         <ul>
+            <li>Structure and templates</li>
+            <li>Website platform</li>
+            <li>Abundant code samples</li>
+            <li>Long-ish pages</li>
+            <li>API Interactivity</li>
+ 
+         </ul>
+   </section>
+   </section>
+
+  <section>
+      <h2>6.4 Structure and templates</h2>
+      <a href="https://flic.kr/p/oFD6MM"><img src="media/rasters/structure.png"/></a>
+   </section>
+
+  <section>
+      <h2>6.5 Website platform</h2>
+      <a href="https://www.yelp.com/developers/documentation"><img src="media/rasters/yelpapi.png"/></a>
+   </section>
+
+  <section>
+      <h2>6.6 Abundant code samples</h2>
+      <a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="media/rasters/evernotecodesamples.png"/></a>
+   </section>
+
+  <section>
+      <h2>6.7 Long-ish pages</h2>
+      <a href="http://documentcloud.github.io/backbone/"><img src="media/rasters/backbonejs.png"/></a>
+   </section>
+
+  <section>
+      <h2>6.8 API Interactivity</h2>
+      <a href="https://dev.twitter.com/rest/tools/console"><img src="media/rasters/twitterapiexplorer.png"/></a>
+   </section>
+
+  <section>
+      <h2>6.9 Challenging factors</h2>
+      <ul>
+         <li>Translation</li>
+         <li>Content re-use</li>
+         <li>Versioning</li>
+         <li>Authentication</li>
+         <li>PDF</li>
+      </ul>
+   </section>
+
+   <section>
+      <h2>7.0 Tools versus content</h2>
+      <a href="https://flic.kr/p/QMVMw"><img src="media/rasters/toolscontent.png"/></a>
+   </section>
+
+   <section>
+      <h2>7.1 Overview to native library APIs</h2>
+     
+         <img src="media/rasters/eclipseframe.png"/>
+         <p>Programming skills needed to document native library APIs?</p>
+      
+   </section>
+
+
+   <section>
+      <h2>7.2 Getting the Java source</h2>
+      <section>
+         <h3>Sample Java project</h3>
+         <a href="https://github.com/tomjohnson1492/acmeproject"><img src="media/rasters/acmeprojectgithub.png"/></a>
+      </section>
+
+      <section><h3>Activity</h3>
+         <p>Download the acme sample project on Github following the instructions in 7.2.</p>
+
+           <ol>
+         <li>Clone the <a href="https://github.com/tomjohnson1492/acmeproject">source on Github</a></li>
+         <li>In Eclipse, go to <b>File > New Java Project</b></li>
+         <li>Clear the <b>Use default location</b> check box.</li>
+               <li>Browse to where you cloned the Github project.</li>
+            </ol>
+
+      </section>
+
+
+   </section>
+
+
+   <section>
+      <h2>7.3 Java in a nutshell</h2>
+
+      <section>
+      <h3>Classes</h3>
+      <pre><code data contenteditable>
+      public class Bicycle {
+
+      // code...
+
+      }
+   </code></pre>
+      </section>
+
+      <section>
+      <h3>Methods</h3>
+      <pre><code contenteditable>
+      add(a, b) {
+        sum = a + b;
+      }</code>
+   </pre>
+      </section>
+
+      <section>
+      <h3>Methods</h3>
+      <pre><code contenteditable>
+class Bicycle {
+
+   void turn() {
+   // code ...
+   }
+   void pedal(int rotations) {
+   System.out.println("Your speed is " + rotations + " per minute".);
+   }
+   
+   int brake(int force, int weight) {
+   torque == force * weight;
+   return torque;
+   }
+}
+   </code></pre>
+
+      </section>
+
+      <section>
+      <h3>Main method</h3>
+<pre><code contenteditable>
+   public static void main(String[] args) {
+
+   //Java runs the code it finds within this method...
+   
+   }
+   </code></pre>
+      </section>
+
+      <section>
+      <h3>Fields</h3>
+      <pre> <code contenteditable>
+class Bicycle {
+
+   String brand;
+   int size;
+
+}
+   </code>
+      </section>
+
+<section>
+   <h3>Enums</h3>
+   <pre><code contenteditable>
+   public enum Spoke { SINGLE-BUTTED, DOUBLE-BUTTED, TRIPLE-BUTTED };
+   </code></pre>
+   </section>
+
+      <section>
+      <h3>Objects</h3>
+      <pre><code contenteditable>
+myBicycle Bicycle = new Bicycle();
+
+myBicycle.brand = "Trek";
+myBicycle.pedal();
+   </code>
+      </section>
+
+
+
+      <section>
+      <h3>Constructors</h3>
+      <pre><code contenteditable>
+public class Bicycle{
+
+public Bicycle(String brand, int size) {
+   this.brand = model;
+   this.size = size;
+   }
+}   </code></pre>
+<pre><code contenteditable>
+Bicycle myBicycle = new Bicycle ("Trek", 22);
+
+   </code></pre>
+
+      </section>
+
+      <section>
+      <h3>Packages</h3>
+      <pre><code contenteditable>
+package vehicles
+
+public class Bicycle {
+
+}
+   </code></pre>
+      </section>
+
+      <section>
+      <h3>Exceptions</h3>
+      <pre><code contenteditable>
+public class Bicycle throws IOException {
+
+}
+   </code></pre>
+      </section>
+
+      <section>
+         <h3>Inheritance</h3>
+         <pre><code contenteditable>
+public class Bicycle extends Vehicle {
+
+}
+   </code></pre>
+   </section>
+
+   <section>
+      <h3>Interfaces</h3>
+      <pre><code contenteditable>
+public interface Wheel {
+   
+   public void rotate();
+   
+}
+      </code>
+      </pre>
+
+      <pre><code contenteditable>
+public class MountainBikeWheel implements Wheel {
+
+   public void rotate() {
+System.out.println("whoosh ... whoosh .... whoosh");
+   }
+
+}
+      </code></pre>
+   </section>
+
+   <section>
+      <h3>JAR files and WAR files</h3>
+      <a href="https://en.wikipedia.org/wiki/JAR_(file_format)#/media/File:Nuvola_mimetypes_java_jar.png"><img src="media/rasters/jarfile.png"/></a>
+   </section>
+
+   <section>
+      <h3>Java summary</h3>
+<ul>
+   <li><b>Class</b>: Blueprints for something</li>
+<li><b>Object</b>: An instance of a class</li>
+<li><b>Methods</b>: What the object/class can do </li>
+<li><b>Fields</b>: Variables in the object/class</li>
+<li><b>Constructor</b>: A method to create an object for a class</li>
+<li><b>Package</b>: A folder that groups classes</li>
+   </ul>
+   </section>
+   <section>
+      <h3>Java summary</h3>
+<ul>  
+<li><b>Access modifier</b>: The scope something can be accessed at</li>
+<li><b>Interface</b>: A skeleton class with empty methods</li>
+<li><b>Enum</b>: A data type offering predefined constants</li>
+<li><b>Subclass</b>: A class that inherits another class' members</li>
+<li><b>JAR file</b>: A zip-like file containing Java classes</li>
+<li><b>WAR file</b>: A compiled Java web app to be deployed</li>
+
+   </ul>
+
+   </section>
+   </section>
+
+      <section>
+         <h3>7.4 Create a Javadoc</h3>
+         <img src="media/rasters/generatejavadoc.png"/>
+      </section>
+
+      <section>
+         <h2>7.5 Javadoc tags</h2>
+<section>
+         <h3>Common tags</h3>
+         <ul>
+            <li>@author</li>
+            <li>@param</li>
+            <li>@deprecated</li>
+            <li>@return</li>
+            <li>@see</li>
+            <li>{@link}</li>
+            <li>@throws</li>
+            <li>@override</li>
+         </ul>
+
+      </section>
+
+      <section><h3>Comments versus Javadoc annotations</h3>
+      <pre><code contenteditable>
+// sample comment...
+
+/*
+sample comment
+*/
+   </code></pre>
+
+   <pre><code contenteditable>
+/**
+*
+*
+*
+*
+*/
+   </code></pre>
+
+
+      </section>
+
+      <section><h3>General pattern</h3>
+      <pre><code contenteditable>
+/**
+* [short description]
+* <p>
+* [long description]
+*
+* [author, version, params, returns, throws, see, other tags]
+* [see also]
+*/
+   </code></pre>
+      </section>
+
+      <section><h3>The description</h3>
+<pre><code contenteditable>
+/**
+* Short one line description.
+* <p>
+* Longer description. If there were any, it would be
+* here.
+* <p>
+* And even more explanations to follow in consecutive
+* paragraphs separated by HTML paragraph breaks.
+*
+* @param variable Description text text text.
+* @return Description text text text.
+*/
+public int methodName (...) {
+// method body with a return statement
+}
+   </code></pre>
+      </section>
+
+      <section><h3>Tag order</h3>
+
+      <pre><code contenteditable>
+@author (classes and interfaces)
+@version (classes and interfaces)
+@param (methods and constructors)
+@return (methods)
+@throws (@exception is an older synonym)
+@see
+@since
+@serial
+@deprecated
+   </code></pre>
+   </section>
+
+   <section><h3>@param tags</h3>
+<pre><code contenteditable>
+@param url the web address of the site
+   </code>
+   </section>
+
+   <section><h3>@throws tag</h3>
+<pre><code contenteditable>
+@throws IOException if your input format is invalid
+   </code></pre>
+   </section>
+
+   <section><h3>@see tags</h3>
+   <pre><code contenteditable>
+@see #field
+@see #Constructor(Type, Type...)
+@see #Constructor(Type id, Type id...)
+@see #method(Type, Type,...)
+@see #method(Type id, Type, id...)
+@see Class
+@see Class#field
+@see Class#Constructor(Type, Type...)
+@see Class#Constructor(Type id, Type id)
+@see Class#method(Type, Type,...)
+@see Class#method(Type id, Type id,...)
+@see package.Class
+@see package.Class#field
+@see package.Class#Constructor(Type, Type...)
+@see package.Class#Constructor(Type id, Type id)
+@see package.Class#method(Type, Type,...)
+@see package.Class#method(Type id, Type, id)
+   </code></pre>
+   </section>
+
+   <section><h3>link tags</h3>
+   <pre><code contenteditable>
+/**
+* First paragraph.
+* <p>
+* Link to a class named 'Foo': {@link Foo}.
+* Link to a method 'bar' on a class named 'Foo': {@link Foo#bar}.
+* Link to a method 'baz' on this class: {@link #baz}.
+* Link specifying text of the hyperlink after a space: {@link Foo the Foo class}.
+* Link to a method handling method overload {@link Foo#bar(String,int)}.
+*/
+public ...
+   </code></pre></section>
+
+   <section><h3>Previewing Javadoc comments</h3>
+   <img src="media/rasters/javadocpane.png"/>
+   </section>
+   </section>
+
+   <section><h2>7.6 Exploring the Javadoc output</h2>
+<img src="media/rasters/classsummary.png"/>
+   </section>
+
+   <section><h2>7.7 Doxygen</h2>
+      <section><h3>Front-end GUI generator</h3>
+      <img src="media/rasters/doxygenfrontendgui.png"/>
+   </section>
+
+   <section><h3>Doxygen output sample</h3>
+   <img src="media/rasters/doxygensample.png"/>
+   </section>
+   </section>
+
+   <section><h3>7.8 Creating non-ref docs with native library APIs</h3>
+   <blockquote cite="http://jacobian.org/writing/what-to-write/">
+   … auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don’t have documentation just admit to it. Maybe a volunteer will offer to write some! But don’t lie and give me that auto-documentation crap. &mdash; Jacob Kaplan Moss
+   </<blockquote cite="http://example.com/facts">
+     
+   </section>
+
+   <section><h3>7.9 My biggest tip: Test everything</h3>
+
+      <a href="https://flic.kr/p/6Grete"><img src="media/rasters/testingeverything.jpg"/></a>
+
+   </section>
+
+
+   <section><h3>8.0 Workshop summary</h3>
+   <ul>
+      <li>Using a REST API as a developer</li>
+      <li>Documenting a new API endpoint</li>
+      <li>Documenting non-reference sections</li>
+      <li>Exploring other REST APIs</li>
+      <li>Publishing API docs</li>
+      <li>Design patterns</li>
+      <li>Documenting native library APIs</li>
+   </ul>
+   </section>
+         <section>
+               <h1>Thanks!</h1>
+               <div>
+                  <div style="float:left; padding: 10px;">
+                     <img src="media/rasters/tomjohnson.png"/>
+                  </div>
+                  <div style="float:left; padding: 10px; text-align: left;">
+                     <p><span class="myname">Tom Johnson</span><br/>
+                        &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
+                        &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+                        &mdash; <a href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a>
+                     </p>
+                  </div>
+               </div>
+            </section>
+    
+         </div>
+      </div>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+      <script>
+         // Full list of configuration options available at:
+         // https://github.com/hakimel/reveal.js#configuration
+         Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: false,
+          slideNumber: true, 
+         
+         
+          transition: 'slide', // none/fade/slide/convex/concave/zoom
+         
+          // Optional reveal.js plugins
+          dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true }
+          ]
+         });
+         
+      </script>
+   </body>
+</html>
