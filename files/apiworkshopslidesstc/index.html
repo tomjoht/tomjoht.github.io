@@ -204,6 +204,7 @@
             <section>
                <h2>1.7 Make a cURL call</h2>
                <img src="media/rasters/curlrequestbasic.png" />
+               <p>Windows users: Use double quotes and add <code>-k</code>.</p>
             </section>
             <section>
                <h2>1.8 Understand cURL more</h2>
@@ -280,33 +281,35 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
    </code>
    </pre>
                </section>
-               <section>
-                  <h3>Activity</h3>
-                  <p>Test your memory: </p>
-                  <ul>
-                     <li><code>-i</code> means...</li>
-                     <li><code>-H</code> means...</li>
-                     <li><code>-X POST</code> means...</li>
-                     <li><code>-d</code> means...</li>
-                  </ul>
-               </section>
+
+               <!---->
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<p>Test your memory: </p>-->
+                  <!--<ul>-->
+                     <!--<li><code>-i</code> means...</li>-->
+                     <!--<li><code>-H</code> means...</li>-->
+                     <!--<li><code>-X POST</code> means...</li>-->
+                     <!--<li><code>-d</code> means...</li>-->
+                  <!--</ul>-->
+               <!--</section>-->
             </section>
-            <section>
-               <h2>1.9 Using methods with cURL (Petstore)</h2>
-               <section>
-                  <h3>Using Petstore API</h3>
-                  <a href="http://petstore.swagger.io/"><img src="media/rasters/petstore.png"/></a>
-               </section>
-               <section>
-                  <h3>Activity</h3>
-                  <ol>
-                     <li>Create a pet</li>
-                     <li>Update your pet's name</li>
-                     <li>Get your pet's name by ID</li>
-                     <li>Delete your pet</li>
-                  </ol>
-               </section>
-            </section>
+            <!--<section>-->
+               <!--<h2>1.9 Using methods with cURL (Petstore)</h2>-->
+               <!--<section>-->
+                  <!--<h3>Using Petstore API</h3>-->
+                  <!--<a href="http://petstore.swagger.io/"><img src="media/rasters/petstore.png"/></a>-->
+               <!--</section>-->
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<ol>-->
+                     <!--<li>Create a pet</li>-->
+                     <!--<li>Update your pet's name</li>-->
+                     <!--<li>Get your pet's name by ID</li>-->
+                     <!--<li>Delete your pet</li>-->
+                  <!--</ol>-->
+               <!--</section>-->
+            <!--</section>-->
             <section>
                <h2>2.0 Analyze the JSON response</h2>
                <section>
@@ -368,47 +371,47 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                   <p>Create a <a href="/files/restapicourse/weatherdata.html">sample web page</a> and print the weather description to the page following the instructions in 2.1.</p>
                </section>
             </section>
-            <section>
-               <h2>2.2 Access the JSON values</h2>
-               <section>
-                  <h3>dot notation</h3>
-                  <pre><code data-trim contenteditable>
-      
-      data.query.results.channel.item.description
+            <!--<section>-->
+               <!--<h2>2.2 Access the JSON values</h2>-->
+               <!--<section>-->
+                  <!--<h3>dot notation</h3>-->
+                  <!--<pre><code data-trim contenteditable>-->
+      <!---->
+      <!--data.query.results.channel.item.description-->
 
-      console.log (data.query.results.channel.item.description);
-    </code></pre>
-               </section>
-               <section>
-                  <h3>Activity</h3>
-                  <p>Print the weather description to the page.</p>
-               </section>
-            </section>
-            <section>
-               <h2>2.3 Diving into dot notation</h2>
-               <section>
-                  <h3>Use a dot to access the value from a key</h3>
-                  <pre><code data-trim contenteditable>
-"data": {
-"name": "Tom"
-}
-  </code></pre>
-                  <p>Access "Tom" using <code>data.name</code>.</p>
-               </section>
-               <section>
-                  <h3>Use square brackets to access the values in an array</h3>
-                  <pre><code data-trim contenteditable>
-"data" : {
-  "items": ["ball", "bat", "glove"]
-}
-  </code></pre>
-                  <p>To access glove, you would use <code>data.items[2]</code>.</p>
-               </section>
-               <section>
-                  <h3>Exercise with dot notation</h3>
-                  <p>Practice accessing different values through dot notation following the exercise on 2.3.</p>
-               </section>
-            </section>
+      <!--console.log (data.query.results.channel.item.description);-->
+    <!--</code></pre>-->
+               <!--</section>-->
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<p>Print the weather description to the page.</p>-->
+               <!--</section>-->
+            <!--</section>-->
+            <!--<section>-->
+               <!--<h2>2.3 Diving into dot notation</h2>-->
+               <!--<section>-->
+                  <!--<h3>Use a dot to access the value from a key</h3>-->
+                  <!--<pre><code data-trim contenteditable>-->
+<!--"data": {-->
+<!--"name": "Tom"-->
+<!--}-->
+  <!--</code></pre>-->
+                  <!--<p>Access "Tom" using <code>data.name</code>.</p>-->
+               <!--</section>-->
+               <!--<section>-->
+                  <!--<h3>Use square brackets to access the values in an array</h3>-->
+                  <!--<pre><code data-trim contenteditable>-->
+<!--"data" : {-->
+  <!--"items": ["ball", "bat", "glove"]-->
+<!--}-->
+  <!--</code></pre>-->
+                  <!--<p>To access glove, you would use <code>data.items[2]</code>.</p>-->
+               <!--</section>-->
+               <!--<section>-->
+                  <!--<h3>Exercise with dot notation</h3>-->
+                  <!--<p>Practice accessing different values through dot notation following the exercise on 2.3.</p>-->
+               <!--</section>-->
+            <!--</section>-->
             <section>
                <h2>2.4 New API endpoint to document</h2>
                <section>
@@ -428,10 +431,10 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                      <li>Code samples</li>
                   </ul>
                </section>
-               <section>
-                  <h3>Activity</h3>
-                  <p>Create the basic structure for the endpoint documentation</p>
-               </section>
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<p>Create the basic structure for the endpoint documentation</p>-->
+               <!--</section>-->
             </section>
             <section>
                <h2>2.5 Documenting resource descriptions</h2>
@@ -491,14 +494,14 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                   <p>Critique the <a href="https://market.mashape.com/fyhao/weather-13">Mashape Weather API descriptions</a>.</p>
                   <p>Compare with <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/">Aeris Weather API descriptions</a>.
                </section>
-               <section>
-                  <h3>Activity</h3>
-                  <p>Write the resource description for surfreport.</p>
-               </section>
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<p>Write the resource description for surfreport.</p>-->
+               <!--</section>-->
             </section>
             </section>
             <section>
-               <h2>2.6 Documenting the endpoint definitions and methods</h2>
+               <h2>2.6 Documenting the endpoint & methods</h2>
                <section>
                   <h3>Terminology for "endpoint" varies</h3>
                   <ul>
@@ -523,10 +526,10 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                      <li><a href="https://developer.linkedin.com/docs/rest-api">Linkedin</a></li>
                   </ul>
                </section>
-               <section>
-                  <h3>Activity</h3>
-                  <p>Write the endpoint definition and method for surfreport.</p>
-               </section>
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<p>Write the endpoint definition and method for surfreport.</p>-->
+               <!--</section>-->
             </section>
             <section>
                <h2>2.7 Documenting parameters</h2>
@@ -563,9 +566,9 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 }
   </code></pre></section>
 
-  <section><h3>Activity</h3>
-    <p>Construct a table to list the surfreport parameters</p>
-  </section>
+  <!--<section><h3>Activity</h3>-->
+    <!--<p>Construct a table to list the surfreport parameters</p>-->
+  <!--</section>-->
 
             </section>
             <section>
@@ -578,16 +581,16 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                <a href="https://developer.foursquare.com/docs/explore"><img src="media/rasters/foursquareapiexplorer.png"></a>
              </section>
 
-             <section><h3>Activity</h3>
-               <p>Document the sample request with the surfreport/{beachId} endpoint</p>
-             </section>
+             <!--<section><h3>Activity</h3>-->
+               <!--<p>Document the sample request with the surfreport/{beachId} endpoint</p>-->
+             <!--</section>-->
 
 
 
             </section>
             <section>
                <h2>2.9 Documenting sample responses</h2>
-               <section><h3>A sample of a sample response</h3>
+               <section><h3>A sample response</h3>
                  <a href="http://developers.flattr.net/api/resources/activities/"><img src="media/rasters/flattr.png"/></a>
                </section>
 
@@ -599,9 +602,9 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                  <a href="https://stripe.com/docs/api#charge_object"><img src="media/rasters/stripetripanedesign.png"/></a>
                </section>
 
-               <section><h3>Activity</h3>
-                 <p>Create a sample response in your surfreport/{beachId} endpoint.</p>
-               </section>
+               <!--<section><h3>Activity</h3>-->
+                 <!--<p>Create a sample response in your surfreport/{beachId} endpoint.</p>-->
+               <!--</section>-->
 
             </section>
             <section>
@@ -612,19 +615,20 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                </section>
 
                <section><h3>Auto-generating code samples</h3>
-                 <a href="https://luckymarmot.com/paw/extensions/"><img src="media/rasters/pawcodegenerators.png"/></a>
+                  <img src="media/rasters/postmangencodesamples.png"/>
+                 <!--<a href="https://luckymarmot.com/paw/extensions/"><img src="media/rasters/pawcodegenerators.png"/></a>-->
                </section>
 
-               <section><h3>Activity</h3>
-                 <p>Generate a JavaScript code sample from Postman following the steps in 3.0.</p>
-                 </section>
+               <!--<section><h3>Activity</h3>-->
+                 <!--<p>Generate a JavaScript code sample from Postman following the steps in 3.0.</p>-->
+                 <!--</section>-->
 
-                 <section><h3>Activity</h3>
-                   <p>Create a code sample for the surfreport endpoint.</p>
-                 </section>
+                 <!--<section><h3>Activity</h3>-->
+                   <!--<p>Create a code sample for the surfreport endpoint.</p>-->
+                 <!--</section>-->
             </section>
             <section>
-               <h2>3.1 Putting it all together</h2>
+               <h2><a href="http://idratherbewriting.com/docapis_finished_doc_result/">3.1</a> Putting it all together</h2>
                <a href="http://idratherbewriting.com/docapis_finished_doc_result/"><img src="media/rasters/puttingitalltogether.png" /></a>
             </section>
             <section>
