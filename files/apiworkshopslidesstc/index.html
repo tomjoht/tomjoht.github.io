@@ -157,6 +157,10 @@
                   <img src="media/vectors/restapicourse_docisproduct.svg"/>
                   </section>
                <section>
+                  <h3>Architectural style requires users to consult docs</h3>
+                  <img src="media/vectors/restapicourse_styleprotocol.svg"/>
+                  </section>
+               <section>
                   <h3>REST API growth</h3>
                   <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/apigrowth.png"/></a>
                </section>
@@ -180,9 +184,24 @@
                   <img src="media/vectors/restapi_restapimodel.svg"/>
                </section>
                <section>
+                  <h3>REST characteristics</h3>
+                  <ul>
+                     <li>REST == Representational State Transfer</li>
+                     <li>Named by Roy Fielding, modeled after web</li>
+                     <li>Nouns and verbs (resources and methods)</li>
+                     <li>Stateless</li>
+                     <li>Cacheable</li>
+                     <li>Uses web protocols</li>
+                  </ul>
+                  </section>
+               <section>
                   <h3>The web follows REST</h3>
                   <img src="media/vectors/restapi_www.svg"/>
                </section>
+            </section>
+            <section><h2>Put on your developer hat</h2>
+            <img src="media/vectors/restapicourse_developerhat.svg"/>
+
             </section>
             <section>
                <h2>1.3 Scenario for using an API</h2>
@@ -201,6 +220,9 @@
                      <li>Go to <a href="https://market.mashape.com/">market.mashape.com</a>. </li>
                      <li>Find Weather by fyhao (<a href="https://market.mashape.com/fyhao/weather-13">market.mashape.com/fyhao/weather-13</a>)</li>
                   </ol>
+                  </section>
+               <section><h3>Compare with Aeris Weather API</h3>
+                  <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/"><img src="media/rasters/aerisendpoints.png"/></a>
                   </section>
 
             </section>
@@ -256,6 +278,15 @@ curl http://example.com
 
  </code>
   </pre>
+               </section>
+               <section><h3>Activity</h3>
+
+               <p>On a command prompt, type and compare the following:</p>
+                  <pre><code data-trim contenteditable>curl http://example.com -i</code></pre>
+
+                  <pre><code data-trim contenteditable>curl http://example.com -I</code></pre>
+
+
                </section>
                <section>
                   <h3>Unpacking the Mashape example</h3>
@@ -405,7 +436,7 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                      <li>Open the JavaScript Console (View > Developer > JavaScript Console). </li>
                      <li>Click <b>Run the request</b></b></li>
 
-                     <li>Investigate the JSON object logged to the console.</li> </ol>
+                     <li>Investigate the JSON object logged to the console. Find the wind details.</li> </ol>
                </section>
             </section>
             <!--<section>-->

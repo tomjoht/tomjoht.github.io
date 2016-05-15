@@ -167,7 +167,7 @@ Fill in the blanks to see how much you remember:
 
 See the <a href="{{ "/docapis_answers" | prepend: site.baseurl}}#curlParameters">cURL parameters</a> on the answer page to check your responses.
 
-{{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that <i>just work</i> on a Mac. You won't constantly be needing to add things "to your path." {{end}}
+{{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that <i>just work</i> on a Mac. {{end}}
 
 ## More Resources
 

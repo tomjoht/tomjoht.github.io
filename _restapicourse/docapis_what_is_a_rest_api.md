@@ -8,7 +8,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-{{note}} This course is all about learning by doing, but while *doing* various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those deep dive moments.{{end}}
+{{note}} This course is all about learning by doing, but while <i>doing</i> various activities, I'm going to periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those deep dive moments.{{end}}
 
 ## An API is an interface between systems
 In general, an API (or Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
