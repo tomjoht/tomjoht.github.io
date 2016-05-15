@@ -451,6 +451,7 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
             <!--</section>-->
             <section><h2>Now switch hats</h2>
             <p>Now you're a tech writer documenting a new endpoint</p>
+               <img src="media/vectors/restapicourse_writer.svg"/>
             </section>
             <section>
                <h2>2.4 New endpoint to document</h2>
@@ -461,12 +462,12 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                <section>
                   <h3>Essential sections in API ref topics</h3>
                   <ul>
-                     <li>Resource description</li>
-                     <li>Endpoint</li>
+                     <li>Endpoint description</li>
+                     <li>Request URL</li>
                      <li>Methods</li>
                      <li>Parameters</li>
-                     <li>Request submission example</li>
-                     <li>Request response example</li>
+                     <li>Request example</li>
+                     <li>Response example</li>
                      <li>Status and error codes</li>
                      <li>Code samples</li>
                   </ul>
@@ -477,9 +478,9 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                <!--</section>-->
             </section>
             <section>
-               <h2>2.5 Resource descriptions</h2>
+               <h2>2.5 Endpoint descriptions</h2>
                <section>
-                  <h3>Terminology for "resource" varies</h3>
+                  <h3>Terminology for "endpoint" varies</h3>
                   <ul>
                      <li>API calls</li>
                      <li>Endpoints</li>
@@ -541,9 +542,9 @@ api_site.com/{apikey}/missions/{missionid}/rewards
             </section>
             </section>
             <section>
-               <h2>2.6 The endpoint & methods</h2>
+               <h2>2.6 Request URL</h2>
                <section>
-                  <h3>Terminology for "endpoint" varies</h3>
+                  <h3>Terminology for "request URL" varies</h3>
                   <ul>
                      <li>Requests</li>
                      <li>Endpoints</li>
@@ -551,6 +552,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                      <li>Resource URLs</li>
                      <li>URLs</li>
                      <li>URL syntax</li>
+                     <li>Path</li>
                   </ul>
                </section>
                <section>
@@ -578,8 +580,9 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="media/rasters/yelpparameters.png"/></a>
              </section>
 
-               <section><h3>3 Types of Parameters</h3>
+               <section><h3>4 Types of Parameters</h3>
                <ul>
+                  <li>Path parameters</li>
                   <li>Header parameters</li>
                   <li>Query parameters</li>
                   <li>Request body parameters</li>
@@ -597,7 +600,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
   </ul>
  </section>
 
- <section><h3>Parameter order is irrelevant</h3>
+ <section><h3>Query parameter order is irrelevant</h3>
  <pre><code data-trim contenteditable>
  /surfreport/{beachId}?days=3&units=metric&time=1400
 
@@ -621,9 +624,9 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             </section>
             <section>
-               <h2>2.8 Sample requests</h2>
+               <h2>2.8 Request example</h2>
                <section><h3>Requests clarify syntax</h3>
-                 <a href="http://developer.nytimes.com/docs/read/article_search_api_v2"><img src="media/rasters/nytimesexample.png"/></a>
+                 <a href="http://developer.nytimes.com/article_search_v2.json"><img src="media/rasters/nytimesexample.png"/></a>
              </section>
 
              <section><h3>API Explorers provide interactivity with your own data</h3>
@@ -638,13 +641,18 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             </section>
             <section>
-               <h2>2.9 Sample responses</h2>
+               <h2>2.9 Response example</h2>
                <section><h3>A sample response</h3>
                  <a href="http://developers.flattr.net/api/resources/activities/"><img src="media/rasters/flattr.png"/></a>
                </section>
 
                <section><h3>Strategies for nested objects</h3>
                  <a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="media/rasters/returnvaluedefinitions.png"/></a>
+               </section>
+
+               <section><h3>JS wizardry</h3>
+               <a href="http://developer.myob.com/api/accountright/v2/purchase/supplierpayment/calculate_discounts/"><img src="media/rasters/myob.png"/></a>
+
                </section>
 
                <section><h3>Where to include sample responses</h3>
@@ -677,7 +685,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                  <!--</section>-->
             </section>
             <section>
-               <h2><a href="http://idratherbewriting.com/docapis_finished_doc_result/">3.1</a> Putting it all together</h2>
+               <h2>3.1 Putting it all together</h2>
                <a href="http://idratherbewriting.com/docapis_finished_doc_result/"><img src="media/rasters/puttingitalltogether.png" /></a>
             </section>
             <section>
@@ -807,13 +815,16 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
          <!-- <section data-background="#dfd3a2"> -->
 
-            <section><h2>7.9 My biggest tip: Test everything</h2>
+            <section><h2>7.9 My biggest tip: <br/><span class="orange">Test everything</span></h2>
 
                <a href="https://flic.kr/p/6Grete"><img src="media/rasters/testingeverything.jpg"/></a>
 
             </section>
 
-            <section><h2>Switch focuses from content creation to publishing</h2></section>
+            <section><h2>Switch focuses from content creation to publishing</h2>
+            <img src="media/vectors/restapicourse_designer.svg"/>
+
+            </section>
          <section>
             <h2>4.5 Publishing API doc</h2>
             <section><h3>Why devs don't use HATs</h3>
@@ -837,7 +848,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
 <section>
    <h3>Activity</h3>
-   <p>Look at about 5 different APIs from the list on "4.6 List of 100 APIs." Identify one thing that the APIs have in common.</p>
+   <p>Look at about 5 different APIs from this list: <a href="http://idratherbewriting.com/pubapis_apilist/">idratherbewriting.com/pubapis_apilist</a>. Identify one thing that the APIs have in common.</p>
    </section>
 
       </section>
@@ -867,7 +878,6 @@ api_site.com/{apikey}/missions/{missionid}/rewards
       </section>
 
       <section><h3>Activity</h3>
-         <p>Following the instructions in 4.9, do the following:</p>
          <ol>
             <li>Create a Github wiki and publish content on a sample page.</li>
             <li>Save the Github repository locally.</li>
@@ -946,12 +956,17 @@ This is a numbered list:
 
    <section>
       <h2>5.4 Swagger</h2>
-      <section><h3>Sample output</h3>
+      <section><h3>Petstore</h3>
       <a href="http://petstore.swagger.io/"><img src="media/rasters/swaggerpetstoreui.png"/></a>
    </section>
       <section><h3>Activity</h3>
 
-      <p>Using the Swagger Petstore, create a new pet. Then find your new pet by the ID.</p>
+      <p>Using the Swagger Petstore (<a href="http://petstore.swagger.io/">http://petstore.swagger.io/</a>):</p>
+         <ol>
+            <li>Create a new pet.</li>
+            <li>Find your new pet by the ID.</li>
+            <li>Delete your pet.</li>
+            </ol>
       </section>
 
       <!--<section><h3>Activity</h3>-->
@@ -1027,9 +1042,14 @@ route: Google maps
    <!--</code></pre>-->
    <!--</section>-->
       <section><h3>My YAML tutorial</h3>
-      <a href="http://idratherbewriting.com/2016/02/08/yaml-tutorial/"><img src="media/rasters/yamltutorialjekyll.png"/></a>
+      <a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial/"><img src="media/rasters/yamltutorialjekyll.png"/></a>
+      </section>
+      <section><h3>Lucybot</h3>
+      <a href="https://any-api.com/"><img src="media/rasters/lucybot.png"/></a>
+
       </section>
    </section>
+
 
    <section>
       <h2>5.6 RAML</h2>
@@ -1132,6 +1152,11 @@ route: Google maps
          </ul>
    </section>
    </section>
+            <section><h2>What engineers want</h2>
+
+            <img src="media/vectors/restapicourse_engineers.svg"/>
+
+            </section>
 
   <!--<section>-->
       <!--<h2>6.4 Structure and templates</h2>-->
@@ -1559,7 +1584,7 @@ route: Google maps
 
             <section><h2>Getting a job with API doc</h2>
                <section>
-               <img src="media/vectors/gettingajob.svg"/>
+               <img src="media/vectors/restapicourse_gettingajob.svg"/>
                   </section>
             <section><h3>Strategies</h3>
             <ul>
@@ -1574,7 +1599,8 @@ route: Google maps
             </section>
 
             <section><h2>Questions</h2>
-            <p></p>
+               <img src="media/vectors/restapicourse_questions.svg"/>
+            
 
 
             </section>

@@ -17,7 +17,7 @@ Just as JSON has become more popular than XML when it comes to formats for conte
  
 YAML is more readable than JSON because it doesn't have any tags. It just uses white space, and if you been reading Mark Baker's recent post [Why does XML suck?](http://everypageispageone.com/2016/01/28/why-does-xml-suck/), you know that using whitespace as a way to format content can make things more readable. (By the way, that post from Mark is definitely one you'll want to check out.)
  
-I created a new tutorial on YAML and added it to my other tutorials that are in my Jekyll project. You can view  my YAML tutorial here: **[YAML tutorial in the context of Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_yaml_tutorial.html)**
+I created a new tutorial on YAML and added it to my other tutorials that are in my Jekyll project. You can view  my YAML tutorial here: **[YAML tutorial in the context of Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial/)**
  
 In my tutorial, I show a lot of examples of YAML and how to access the YAML data using Liquid and Jekyll.
   

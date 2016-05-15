@@ -117,9 +117,9 @@ By all means, if the JSON object is relatively small, a table is probably your b
 
 ### The scrolling-to-definitions approach
 
-In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/home.html), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_scroll.html):
+In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll):
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc/mydoc_scroll.html"><img src="{{ "/images/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll"><img src="{{ "/images/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
 
 When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
 

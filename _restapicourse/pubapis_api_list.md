@@ -49,7 +49,7 @@ The following are about 100 openly accessible REST APIs that you can browse as a
 38. [Rhapsody API](https://developer.rhapsody.com/)
 39. [Donors Choose](http://data.donorschoose.org/docs/overview/)
 40. [Sendgrid API](https://sendgrid.com/docs/API_Reference/index.html)
-41. [Photobucket API](https://pic.photobucket.com/dev_help/WebHelpPublic/PhotobucketPublicHelp_Left.htm#CSHID=FAQ%2FFAQOverview.htm|StartTopic=Content%2FFAQ%2FFAQOverview.htm|SkinName=WebHelp)
+41. [Photobucket API](http://bit.ly/1rMDb5b)
 42. [Mailchimp](http://kb.mailchimp.com/api/?utm_source=apidocs&utm_medium=internal_ad&utm_campaign=api_v3)
 43. [Basecamp API](https://github.com/basecamp/bcx-api/)
 44. [Smugmug API](https://smugmug.atlassian.net/wiki/display/API/Home)
