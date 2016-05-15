@@ -28,7 +28,7 @@
       <meta name="theme-color" content="#ffffff">
       <!-- end favicon code -->
       <link rel="stylesheet" href="css/reveal.css">
-      <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+      <link rel="stylesheet" href="css/theme/black.css" id="theme">
       <!-- Code syntax highlighting -->
       <link rel="stylesheet" href="lib/css/zenburn.css">
       <!-- Printing and PDF exports -->
@@ -107,8 +107,10 @@
          <!-- Any section element inside of this container is displayed as a slide -->
          <div class="slides">
             <section>
-               <h1>Documenting REST APIs workshop</h1>
-               <h3>STC Summit 2016 &mdash; Anaheim, California</h3>
+               <h2 style="font-size: 85px">Documenting REST APIs</h2>
+               <h3>Workshop</h3>
+               <div style="height: 200px"></div>
+               <h4>STC Summit 2016 &mdash; Anaheim, California</h4>
                <p>
                   <small>By Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
                   <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
@@ -122,17 +124,38 @@
                   <li>Documenting an API</li>
                   <li>Publishing API documentation</li>
                </ol>
+
+
+            </section>
+            <section><h2>Some Technologies to Explore</h2>
+            <ul>
+               <li>JSON</li>
+               <li>Postman</li>
+               <li>cURL</li>
+               <li>Command line</li>
+               <li>Chrome JavaScript Console</li>
+               <li>REST</li>
+               <li>JavaScript</li>
+               <li>Git</li>
+            </ul>
+
+
             </section>
             <section>
                <h2>1.0 Documenting REST APIs</h2>
-               <a href="http://idratherbewriting.com/docapis_course_overview/"><img class="shortened" src="media/rasters/siterefcontent.png"/></a>
+               <h3>Where to find this online</h3>
+               <a href="http://idratherbewriting.com/docapis_course_overview/"><img class="shortened" src="media/rasters/wheretofindcourse.png"/></a>
             </section>
             <section>
                <h2>1.1 The market for REST API doc</h2>
                <section>
-                  <h3>Doc is the interface</h3>
+                  <h3>Doc is most important factor</h3>
                   <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/programwebsurvey.png"/></a>
                </section>
+               <section>
+                  <h3>Doc <i>is</i>&nbsp; the interface</h3>
+                  <img src="media/vectors/restapicourse_docisproduct.svg"/>
+                  </section>
                <section>
                   <h3>REST API growth</h3>
                   <a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img class="shortened" src="media/rasters/apigrowth.png"/></a>
@@ -145,16 +168,16 @@
             <section>
                <h2>1.2 What is a REST API?</h2>
                <section>
-                  <h3>APIs allow different systems to interact</h3>
+                  <h3>APIs allow systems to interact</h3>
                   <img src="media/rasters/spinning_gears.jpg"/>
                </section>
-               <section>
-                  <h3>APIs are interfaces</h3>
-                  <img src="media/rasters/calculator.png"/>
-               </section>
+               <!--<section>-->
+                  <!--<h3>APIs are interfaces</h3>-->
+                  <!--<img src="media/rasters/calculator.png"/>-->
+               <!--</section>-->
                <section>
                   <h3>REST API model</h3>
-                  <img src="media/rasters/restapimodel.png"/>
+                  <img src="media/vectors/restapi_restapi.svg"/>
                </section>
                <section>
                   <h3>The web follows REST</h3>
@@ -162,21 +185,24 @@
                </section>
             </section>
             <section>
-               <h2>1.3 Scenario for using a weather API</h2>
+               <h2>1.3 Scenario for using an API</h2>
                <section>
-                  <h3>First, our API goal</h3>
+                  <h3>Show wind factors</h3>
                   <a href="http://idratherbewriting.com/docapis_scenario_for_using_weather_api/"><img src="media/rasters/coursegoal.png"/></a>
                   <p>See also <a href="https://weather.yahoo.com/united-states/california/santa-clara-2488836/">yahoo weather</a></p>
                </section>
                <section>
-                  <h3>Mashape</h3>
-                  <a href="https://www.mashape.com/fyhao/weather-13"><img src="media/rasters/mashape_explore_apis.png" /></a>
+                  <h3>Mashape API Directory</h3>
+                  <a href="https://market.mashape.com"><img src="media/rasters/mashape_explore_apis.png" /></a>
                </section>
                <section>
                   <h3>Activity</h3>
-                  <p>Find Weather by fyhao on Mashape
-                  </p>
-               </section>
+                  <ol>
+                     <li>Go to <a href="https://market.mashape.com/">market.mashape.com</a>. </li>
+                     <li>Find Weather by fyhao (<a href="https://market.mashape.com/fyhao/weather-13">market.mashape.com/fyhao/weather-13</a>)</li>
+                  </ol>
+                  </section>
+
             </section>
             <section>
                <h2>1.4 Getting authorization keys</h2>
@@ -184,13 +210,13 @@
                   <h3>The need for API keys</h3>
                   <a href="https://www.mashape.com/tomjohnson1492/applications/default-application"><img src="media/rasters/mashape_get_keys.png"/></a>
                </section>
-               <section>
-                  <h3>Activity</h3>
-                  <p>Get the Mashape API keys so you can make requests.</p>
-               </section>
+               <!--<section>-->
+                  <!--<h3>Activity</h3>-->
+                  <!--<p>Get the Mashape API keys so you can make requests.</p>-->
+               <!--</section>-->
             </section>
             <section>
-               <h2>1.5 Submit requests through Postman</h2>
+               <h2>1.5 Submit requests via Postman</h2>
                <section>
                   <h3>About Postman</h3>
                   <img src="media/rasters/postmanui.png"/>
@@ -200,14 +226,14 @@
                   <p>Make a request to each weather endpoint using Postman.</p>
                </section>
             </section>
+            <!--<section>-->
+               <!--<h2>1.6 Installing cURL</h2>-->
+               <!--<a href="http://www.confusedbycode.com/curl/#downloads"><img src="media/rasters/curlinstallation.png"/></a>-->
+            <!--</section>-->
             <section>
-               <h2>1.6 Installing cURL</h2>
-               <a href="http://www.confusedbycode.com/curl/#downloads"><img src="media/rasters/curlinstallation.png"/></a>
-            </section>
-            <section>
-               <h2>1.7 Make a cURL call</h2>
+               <h2>1.7 Using cURL</h2>
                <img src="media/rasters/curlrequestbasic.png" />
-               <p>Windows users: Use double quotes and add <code>-k</code>.</p>
+               <p><small>Windows users: Use double quotes and add <code>-k</code>.</small></p>
             </section>
             <section>
                <h2>1.8 Understand cURL more</h2>
@@ -284,6 +310,9 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
    </code>
    </pre>
                </section>
+               <section><h3>Activity</h3>
+                  <p>Use cURL to make the same weather requests you made in Postman.</p>
+                  </section>
 
                <!---->
                <!--<section>-->
@@ -331,7 +360,7 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
   </code></pre>
                </section>
                <section>
-                  <h3>You can include objects inside arrays</h3>
+                  <h3>Objects can appear inside arrays</h3>
                   <pre><code data-trim contenteditable>
 [  
    {  
@@ -346,7 +375,7 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
   </code></pre>
                </section>
                <section>
-                  <h3>You can include arrays inside objects</h3>
+                  <h3>Arrays can appear inside objects</h3>
                   <pre><code data-trim contenteditable>
    {
 "children": ["Avery","Callie","lucy","Molly"],
@@ -360,7 +389,7 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                </section>
             </section>
             <section>
-               <h2>2.1 Using the JSON from the response</h2>
+               <h2>2.1 Using the returned JSON</h2>
                <section>
                   <h3>Generating code</h3>
                   <img src="media/rasters/postmangeneratecodesnippet.png" />
@@ -371,7 +400,10 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                </section>
                <section>
                   <h3>Activity</h3>
-                  <p>Create a <a href="/files/restapicourse/weatherdata.html">sample web page</a> and print the weather description to the page following the instructions in 2.1.</p>
+                  <ol>
+                     <li>Open the JavaScript Console (View > Developer > JavaScript Console). </li>
+                     <li>Go to this sample page: <a href="http://idratherbewriting.com/files/restapicourse/weatherdata.html">idratherbewriting.com/files/restapicourse/weatherdata.html</a></li>
+                     <li>Investigate the JSON object logged to the console.</li> </ol>
                </section>
             </section>
             <!--<section>-->
@@ -415,14 +447,17 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                   <!--<p>Practice accessing different values through dot notation following the exercise on 2.3.</p>-->
                <!--</section>-->
             <!--</section>-->
+            <section><h2>Now switch hats</h2>
+            <p>Now you're a tech writer documenting a new endpoint</p>
+            </section>
             <section>
-               <h2>2.4 New API endpoint to document</h2>
+               <h2>2.4 New endpoint to document</h2>
                <section>
                   <h3>Endpoint wiki page details</h3>
                   <a href="http://idratherbewriting.com/docapis_new_endpoint_to_doc/"><img src="media/rasters/surfreport.png"/></a>
                </section>
                <section>
-                  <h3>Essential sections in reference documentation</h3>
+                  <h3>Essential sections in API ref topics</h3>
                   <ul>
                      <li>Resource description</li>
                      <li>Endpoint</li>
@@ -440,7 +475,7 @@ curl -i -H "Accept: application/json" -X POST -d "{status:MIA}"
                <!--</section>-->
             </section>
             <section>
-               <h2>2.5 Documenting resource descriptions</h2>
+               <h2>2.5 Resource descriptions</h2>
                <section>
                   <h3>Terminology for "resource" varies</h3>
                   <ul>
@@ -504,7 +539,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
             </section>
             </section>
             <section>
-               <h2>2.6 Documenting the endpoint & methods</h2>
+               <h2>2.6 The endpoint & methods</h2>
                <section>
                   <h3>Terminology for "endpoint" varies</h3>
                   <ul>
@@ -523,7 +558,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
   </code></pre>
                </section>
                <section>
-                  <h3>Listing the method</h3>
+                  <h3>The method</h3>
                   <ul>
                      <li><a href="https://box-content.readme.io/reference#comment-object">Box API</a></li>
                      <li><a href="https://developer.linkedin.com/docs/rest-api">Linkedin</a></li>
@@ -535,11 +570,20 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                <!--</section>-->
             </section>
             <section>
-               <h2>2.7 Documenting parameters</h2>
+               <h2>2.7 Parameters</h2>
                <section><h3>Parameters configure the endpoint</h3>
 
                <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="media/rasters/yelpparameters.png"/></a>
              </section>
+
+               <section><h3>3 Types of Parameters</h3>
+               <ul>
+                  <li>Header parameters</li>
+                  <li>Query parameters</li>
+                  <li>Request body parameters</li>
+               </ul>
+
+               </section>
 
              <section>
   <h3>Listing data types</h3>
@@ -559,7 +603,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
  </code></pre>
  </section>
 
- <section><h3>Submitting parameters in the request body</h3>
+ <section><h3>Parameters in the request body</h3>
 
  <pre><code data-trim contenteditable>
  {
@@ -575,7 +619,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             </section>
             <section>
-               <h2>2.8 Documenting sample requests</h2>
+               <h2>2.8 Sample requests</h2>
                <section><h3>Requests clarify syntax</h3>
                  <a href="http://developer.nytimes.com/docs/read/article_search_api_v2"><img src="media/rasters/nytimesexample.png"/></a>
              </section>
@@ -592,7 +636,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             </section>
             <section>
-               <h2>2.9 Documenting sample responses</h2>
+               <h2>2.9 Sample responses</h2>
                <section><h3>A sample response</h3>
                  <a href="http://developers.flattr.net/api/resources/activities/"><img src="media/rasters/flattr.png"/></a>
                </section>
@@ -611,7 +655,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             </section>
             <section>
-               <h2>3.0 Documenting code samples</h2>
+               <h2>3.0 Code samples</h2>
                <section><h3>Which language?</h3>
                  <a href="http://idratherbewriting.com/images/restapicourse/codesamplesevernote.png"><img src="media/rasters/codesamplesevernote.png"/></a>
                  <p>See also <a href="https://www.twilio.com/docs/api/rest/making-calls">Twilio</a></p>
@@ -651,16 +695,16 @@ api_site.com/{apikey}/missions/{missionid}/rewards
   </section>
             </section>
             <section>
-               <h2>3.3 Writing the overview section</h2>
+               <h2>3.3 The overview</h2>
                <a href="https://sendgrid.com/docs/User_Guide/index.html"><img src="media/rasters/sendgridoverview.png"/></a>
             </section>
             <section>
-               <h2>3.4 Writing the Getting Started section</h2>
+               <h2>3.4 "Getting Started"</h2>
                <a href="http://www.alchemyapi.com/developers/getting-started-guide"><img src="media/rasters/alchemyapigettingstarted.png"/></a>
                <p>Other examples: <a href="https://www.hipchat.com/docs/apiv2">Hipchat</a>, <a href="http://www.aerisweather.com/support/docs/api/getting-started/">Aeris</a>, <a href="https://api.smugmug.com/api/v2/doc">Smugmug</a></p>
             </section>
             <section>
-               <h2>3.5 Documenting authorization</h2>
+               <h2>3.5 Authorization</h2>
 
                <section><h3>API keys</h3>
                  <a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="media/rasters/sendgridapikeys.png" /></a>
@@ -685,7 +729,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
         </section>
             </section>
             <section>
-               <h2>3.6 Documenting response codes</h2>
+               <h2>3.6 Response codes</h2>
                <section><h3>Error codes, status codes</h3>
                  <a href="https://dev.twitter.com/overview/api/response-codes"><img src="media/rasters/twitterstatuscode.png"/></a>
                </section>
@@ -707,11 +751,11 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
             </section>
             <section>
-               <h2>3.7 Documenting code samples</h2>
+               <h2>3.7 Code samples</h2>
                <a href="http://docs.mashape.com/javascript"><img src="media/rasters/consumeapi.png" /></a>
             </section>
             <section>
-               <h2>3.8 Creating the quick reference guide</h2>
+               <h2>3.8 Quick reference guide</h2>
                <a href="http://api.eventful.com/docs"><img src="media/rasters/eventfulquickreference.png"/></a>
                <p>See also the <a href="http://cheat.markdunkley.com/">Shopify cheat sheet</a>.</p>
             </section>
@@ -760,8 +804,16 @@ api_site.com/{apikey}/missions/{missionid}/rewards
             <!--</section>-->
 
          <!-- <section data-background="#dfd3a2"> -->
+
+            <section><h2>7.9 My biggest tip: Test everything</h2>
+
+               <a href="https://flic.kr/p/6Grete"><img src="media/rasters/testingeverything.jpg"/></a>
+
+            </section>
+
+            <section><h2>Switch focuses from content creation to publishing</h2></section>
          <section>
-            <h1>4.5 Publishing API doc</h1>
+            <h2>4.5 Publishing API doc</h2>
             <section><h3>Why devs don't use HATs</h3>
             <ol>
                <li>No integration into version control</li>
@@ -788,14 +840,14 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
       </section>
 
-      <section>
-         <h2>4.6 Breaking down API doc</h2>
-         <ol>
-            <li>Guides</li>
-            <li>Reference</li>
-            <li>Tutorials</li>
-         </ol>
-      </section>
+      <!--<section>-->
+         <!--<h2>4.6 Breaking down API doc</h2>-->
+         <!--<ol>-->
+            <!--<li>Guides</li>-->
+            <!--<li>Reference</li>-->
+            <!--<li>Tutorials</li>-->
+         <!--</ol>-->
+      <!--</section>-->
 
 <section>
    <h2>4.8 Tool decisions</h2>
@@ -830,13 +882,13 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 <pre><code data-trim editable>
 ## Heading 2
 
-This is a bulleted list: 
+This is a bulleted list:
 
 * first item
 * second item
 * third item
 
-This is a numbered list: 
+This is a numbered list:
 
 1. Click this **button**.
 2. Go to [this site](http://www.example.com).
@@ -848,18 +900,18 @@ This is a numbered list:
       <!--<p>For a detailed example, see the code sample on 5.0.</p>-->
    </section>
 
-   <section><h3>Activity</h3>
-      <p>On your Github wiki page, edit the page and create the following:</p>
+   <!--<section><h3>Activity</h3>-->
+      <!--<p>On your Github wiki page, edit the page and create the following:</p>-->
 
-<ul>
-   <li>level 2 heading</li>
-   <li>numbered list</li>
-   <li>bulleted list</li>
-   </li>bold word</li>
-   <li>code sample with html highlighting</li>
-   <li>table</li>
-   </ul>
-   </section>
+<!--<ul>-->
+   <!--<li>level 2 heading</li>-->
+   <!--<li>numbered list</li>-->
+   <!--<li>bulleted list</li>-->
+   <!--</li>bold word</li>-->
+   <!--<li>code sample with html highlighting</li>-->
+   <!--<li>table</li>-->
+   <!--</ul>-->
+   <!--</section>-->
 
    </section>
 
@@ -881,7 +933,7 @@ This is a numbered list:
    </section>
 
    <section>
-      <h2>5.3 REST API specification formats</h2>
+      <h2>5.3 REST API specifications</h2>
       <ul>
          <li><a href="http://learnapidoc.com/swagger">Swagger</a></li>
          <li><a href="http://learnapidoc.com/raml">RAML</a></li>
@@ -889,11 +941,16 @@ This is a numbered list:
          </ul>
    </section>
 
+
    <section>
       <h2>5.4 Swagger</h2>
       <section><h3>Sample output</h3>
       <a href="http://petstore.swagger.io/"><img src="media/rasters/swaggerpetstoreui.png"/></a>
    </section>
+      <section><h3>Activity</h3>
+
+      <p>Using the Swagger Petstore, create a new pet. Then find your new pet by the ID.</p>
+      </section>
 
       <!--<section><h3>Activity</h3>-->
        <!--<p>Follow the instructions in 5.4 to create a Swagger output using the information from the Mashape Weather API.</p>-->
@@ -1068,52 +1125,52 @@ route: Google maps
             <li>Website platform</li>
             <li>Abundant code samples</li>
             <li>Long-ish pages</li>
-            <li>API Interactivity</li>
+            <li><a href="https://dev.twitter.com/rest/tools/console">API Interactivity</a></li>
  
          </ul>
    </section>
    </section>
 
-  <section>
-      <h2>6.4 Structure and templates</h2>
-      <a href="https://flic.kr/p/oFD6MM"><img src="media/rasters/structure.png"/></a>
-   </section>
+  <!--<section>-->
+      <!--<h2>6.4 Structure and templates</h2>-->
+      <!--<a href="https://flic.kr/p/oFD6MM"><img src="media/rasters/structure.png"/></a>-->
+   <!--</section>-->
 
-  <section>
-      <h2>6.5 Website platform</h2>
-      <a href="https://www.yelp.com/developers/documentation"><img src="media/rasters/yelpapi.png"/></a>
-   </section>
+  <!--<section>-->
+      <!--<h2>6.5 Website platform</h2>-->
+      <!--<a href="https://www.yelp.com/developers/documentation"><img src="media/rasters/yelpapi.png"/></a>-->
+   <!--</section>-->
 
-  <section>
-      <h2>6.6 Abundant code samples</h2>
-      <a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="media/rasters/evernotecodesamples.png"/></a>
-   </section>
+  <!--<section>-->
+      <!--<h2>6.6 Abundant code samples</h2>-->
+      <!--<a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="media/rasters/evernotecodesamples.png"/></a>-->
+   <!--</section>-->
 
-  <section>
-      <h2>6.7 Long-ish pages</h2>
-      <a href="http://documentcloud.github.io/backbone/"><img src="media/rasters/backbonejs.png"/></a>
-   </section>
+  <!--<section>-->
+      <!--<h2>6.7 Long-ish pages</h2>-->
+      <!--<a href="http://documentcloud.github.io/backbone/"><img src="media/rasters/backbonejs.png"/></a>-->
+   <!--</section>-->
 
-  <section>
-      <h2>6.8 API Interactivity</h2>
-      <a href="https://dev.twitter.com/rest/tools/console"><img src="media/rasters/twitterapiexplorer.png"/></a>
-   </section>
+  <!--<section>-->
+      <!--<h2>6.8 API Interactivity</h2>-->
+      <!--<a href="https://dev.twitter.com/rest/tools/console"><img src="media/rasters/twitterapiexplorer.png"/></a>-->
+   <!--</section>-->
 
   <section>
       <h2>6.9 Challenging factors</h2>
       <ul>
          <li>Translation</li>
-         <li>Content re-use</li>
+         <!--<li>Content re-use</li>-->
          <li>Versioning</li>
-         <li>Authentication</li>
+         <!--<li>Authentication</li>-->
          <li>PDF</li>
       </ul>
    </section>
 
-   <section>
-      <h2>7.0 Tools versus content</h2>
-      <a href="https://flic.kr/p/QMVMw"><img src="media/rasters/toolscontent.png"/></a>
-   </section>
+   <!--<section>-->
+      <!--<h2>7.0 Tools versus content</h2>-->
+      <!--<a href="https://flic.kr/p/QMVMw"><img src="media/rasters/toolscontent.png"/></a>-->
+   <!--</section>-->
 
    <!--<section>-->
       <!--<h2>7.1 Overview to native library APIs</h2>-->
@@ -1497,11 +1554,7 @@ route: Google maps
      <!---->
    <!--</section>-->
 
-   <section><h2>7.9 My biggest tip: Test everything</h2>
 
-      <a href="https://flic.kr/p/6Grete"><img src="media/rasters/testingeverything.jpg"/></a>
-
-   </section>
             <section><h2>Getting a job with API doc</h2>
                <section>
                <img src="media/vectors/gettingajob.svg"/>
@@ -1518,18 +1571,24 @@ route: Google maps
 
             </section>
 
+            <section><h2>Questions</h2>
+            <p></p>
 
-   <section><h3>8.0 Workshop summary</h3>
-   <ul>
-      <li>Using a REST API as a developer</li>
-      <li>Documenting a new API endpoint</li>
-      <li>Documenting non-reference sections</li>
-      <li>Exploring other REST APIs</li>
-      <li>Publishing API docs</li>
-      <li>Design patterns</li>
-      <li>Documenting native library APIs</li>
-   </ul>
-   </section>
+
+            </section>
+
+
+   <!--<section><h3>8.0 Workshop summary</h3>-->
+   <!--<ul>-->
+      <!--<li>Using a REST API as a developer</li>-->
+      <!--<li>Documenting a new API endpoint</li>-->
+      <!--<li>Documenting non-reference sections</li>-->
+      <!--<li>Exploring other REST APIs</li>-->
+      <!--<li>Publishing API docs</li>-->
+      <!--<li>Design patterns</li>-->
+      <!--<li>Documenting native library APIs</li>-->
+   <!--</ul>-->
+   <!--</section>-->
          <section>
                <h1>Thanks!</h1>
                <div>
@@ -1537,7 +1596,7 @@ route: Google maps
                      <img src="media/rasters/tomjohnson.png"/>
                   </div>
                   <div style="float:left; padding: 10px; text-align: left;">
-                     <p><span class="myname">Tom Johnson</span><br/>
+                     <p><span style="color: orange;">Tom Johnson</span><br/>
                         &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
                         &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
                         &mdash; <a href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a>
