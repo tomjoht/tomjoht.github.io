@@ -100,14 +100,23 @@
 					&mdash; <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a>, Tom Preston-Werner, co-founder of Github
 				</section>
 
+				<section><h2>Jekyll</h2>
+					<a href="http://jekyllrb.com/"><img src="images/jekyllrb.png"/></a>
+				</section>
+				<section>
+					<blockquote>
+						What would happen if we approached <span class="orange">technical writing</span> from a software development perspective?
+					</blockquote>
+
+				</section>
+
+
+
 				<section>
 					<h2>CMS vs. Static site generators</h2>
 					<img src="images/jekyll_static_site_generators.svg"/>
 				</section>
 
-				<section><h2>Jekyll</h2>
-					<a href="http://jekyllrb.com/"><img src="images/jekyllrb.png"/></a>
-				</section>
 
 				<section>
 					<h2>Jekyll how-to</h2>
@@ -129,13 +138,39 @@
 
 				</section>
 
+
+
 				<section>
-					<blockquote>
-					What would happen if we approached <span class="orange">technical writing</span> from a software development perspective?
-					</blockquote>
+					<h2>Doc sites using Jekyll</h2>
+					<div>
+
+						<div style="float:left; margin-right: 50px;">
+							<ul>
+								<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+								<li><a href="http://help.beegit.com/">Beegit</li>
+								<li><a href="https://blog.stackoverflow.com/">Stack Overflow blog</a></li>
+								<li><a href="http://rethinkdb.com/docs/">RethinkDB</a></li>
+								<li><a href="https://help.github.com/">Github docs</a></li>
+								<li><a href="http://docs.basekit.com/">Basekit</a></li>
+								<li><a href="http://jekyllrb.com/docs/home/">Jekyllrb docs</a></li>
+							</ul>
+						</div>
+						<div style="float:left;">
+							<ul>
+								<li><a href="https://sendgrid.com/docs">SendGrid docs</a></li>
+								<li><a href="https://design.atlassian.com/">Atlassian Design</a></li>
+								<li><a href="https://docs.cloudcannon.com/">Cloud Cannon docs</a></li>
+								<li><a href="http://wistia.com/support">Wistia help center</a></li>
+								<li><a href="https://support.balsamiq.com/">Balsamiq support portal</a></li>
+								<li><a href="http://docs.devo.ps/">devo.ps documentation</a></li>
+								<li><a href="www.healthcare.gov">healthcare.gov</a></li>
+							</ul>
+						</div>
+						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://cloudcannon.com/jekyll/2015/06/12/whos-using-jekyll.html">More details &raquo;</a></small>
+
+					</div>
 
 				</section>
-
 
 
 				<section>
@@ -176,37 +211,6 @@
 
 					</section>
 
-				<section>
-					<h2>Doc sites using Jekyll?</h2>
-					<div>
-
-					<div style="float:left; margin-right: 50px;">
-					<ul>
-						<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
-						<li><a href="http://help.beegit.com/">Beegit</li>
-						<li><a href="https://blog.stackoverflow.com/">Stack Overflow blog</a></li>
-						<li><a href="http://rethinkdb.com/docs/">RethinkDB</a></li>
-						<li><a href="https://help.github.com/">Github docs</a></li>
-						<li><a href="http://docs.basekit.com/">Basekit</a></li>
-						<li><a href="http://jekyllrb.com/docs/home/">Jekyllrb docs</a></li>
-						</ul>
-					</div>
-						<div style="float:left;">
-						<ul>
-						<li><a href="https://sendgrid.com/docs">SendGrid docs</a></li>
-						<li><a href="https://design.atlassian.com/">Atlassian Design</a></li>
-						<li><a href="https://docs.cloudcannon.com/">Cloud Cannon docs</a></li>
-						<li><a href="http://wistia.com/support">Wistia help center</a></li>
-						<li><a href="https://support.balsamiq.com/">Balsamiq support portal</a></li>
-						<li><a href="http://docs.devo.ps/">devo.ps documentation</a></li>
-							<li><a href="www.healthcare.gov">healthcare.gov</a></li>
-					</ul>
-						</div>
-					<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://cloudcannon.com/jekyll/2015/06/12/whos-using-jekyll.html">More details &raquo;</a></small>
-
-					</div>
-
-				</section>
 
 
 				<!--<section>-->
@@ -275,9 +279,9 @@
 					<section>
 						<h3>Solution: Liquid</h3>
 <pre><code data-trim contenteditable>
-{% if site.audience="administrators" %}
+{% if site.audience == "administrators" %}
 show this to administrators
-{% elsif site.audience="analysts" %}
+{% elsif site.audience == "analysts" %}
 show this to analysts
 {% endif %}
 </code></pre>
@@ -298,6 +302,10 @@ show this to analysts
 						<li>Each config file has various properties <br/>(audience, platform, product, version)</li>
 						<li>Create scripts that compile build commands</li>
 					</ul>
+						<p style="text-align: left"><b>Sample build command:</b></p>
+<pre><code data-trim contenteditable>
+jekyll serve --config configadmins.yml --destination ../outputs
+</code></pre>
 						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_build_arguments/">More details &raquo;</a></small>
 					</section>
 					</section>
