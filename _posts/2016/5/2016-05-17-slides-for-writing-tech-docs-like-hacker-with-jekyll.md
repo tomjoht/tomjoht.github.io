@@ -25,6 +25,6 @@ Here's the description of my Jekyll presentation:
 
 >In this presentation, I'll share my adventures in using Jekyll and how I dealt with each of these challenges.
 
-Unfortunately the recordings are only available to Summit attendees, those who are attending the [Virtual track](http://summit.stc.org/virtual-track/), or those who buy the [Summit Playback](http://www.stc.org/education/technical-communications-summit/summit-playback) package.
+Unfortunately, the recordings are only available to Summit attendees, those who are attending the [Virtual track](http://summit.stc.org/virtual-track/), or those who buy the [Summit Playback](http://www.stc.org/education/technical-communications-summit/summit-playback) package.
 
 I'm giving a similar presentation to the [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/) next week (and I'll record and post that one).
