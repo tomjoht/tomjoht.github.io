@@ -66,7 +66,7 @@
 				<section>
 
 					<h2>Writing tech docs</h2>
-					<h3> like a hacker with Jekyll</h3>
+					<h3>like a hacker with Jekyll</h3>
 					<p>Created by Tom Johnson</p>
 
 						<div class="slideMeta">
@@ -81,7 +81,7 @@
 				</section>
 
 				<section>
-					<h2>The challenge</h2>
+					<h2>The scenario</h2>
 					<img src="images/jekyll_frompdftoweb.svg"/>
 				</section>
 
@@ -89,8 +89,53 @@
 				<img src="images/jekyll_toolworkflowchart.svg"/>
 				</section>
 
+				<section><h2>Static site generators</h2>
+				<a href="http://www.staticgen.com/"><img src="images/staticgen.png"/></a>
+				</section>
+
+				<section>
+					<h2>CMS vs. Static site generators</h2>
+					<img src="images/jekyll_static_site_generators.svg"/>
+				</section>
+
+
+
+				<section><h2>Static site generator characteristics</h2>
+				<ul>
+					<li>Simple</li>
+					<li>Stable</li>
+					<li>Secure</li>
+					<li>Lightweight</li>
+					<li>Fast</li>
+				</ul>
+
+				<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://cloudcannon.com/jekyll/2015/03/04/5-reasons-you-should-use-jekyll.html">More details &raquo;</a></small>
+
+				</section>
+
 				<section><h2>Jekyll</h2>
-				<a href="http://jekyllrb.com/"><img src="images/jekyllrb.png"/></a>
+					<a href="http://jekyllrb.com/"><img src="images/jekyllrb.png"/></a>
+				</section>
+
+				<section>
+					<h2>Doc sites using Jekyll?</h2>
+					<ul>
+						<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+						<li><a href="http://help.beegit.com/">Beegit</li>
+						<li><a href="https://blog.stackoverflow.com/">Stack Overflow blog</a></li>
+						<li><a href="http://rethinkdb.com/docs/">RethinkDB</a></li>
+						<li><a href="https://help.github.com/">Github docs</a></li>
+						<li><a href="http://docs.basekit.com/">Basekit</a></li>
+						<li><a href="http://jekyllrb.com/docs/home/">Jekyllrb docs</a></li>
+						<li><a href="https://sendgrid.com/docs">SendGrid docs</a></li>
+						<li><a href="https://design.atlassian.com/">Atlassian Design</a></li>
+						<li><a href="https://docs.cloudcannon.com/">Cloud Cannon docs</a></li>
+						<li><a href="http://wistia.com/support">Wistia help center</a></li>
+						<li><a href="https://support.balsamiq.com/">Balsamiq support portal</a></li>
+						<li><a href="http://docs.devo.ps/">devo.ps documentation</a></li>
+					</ul>
+					<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://cloudcannon.com/jekyll/2015/06/12/whos-using-jekyll.html">More details &raquo;</a></small>
+
 				</section>
 
 				<section>
@@ -99,21 +144,13 @@
 					&mdash; <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a>, Tom Preston-Werner, co-founder of Github
 				</section>
 
-				<section>
-					<h2>CMS vs. Static site generators</h2>
-					<img src="images/jekyll_static_site_generators.svg"/>
-				</section>
 
 				<section>
-					<h2>Jekyll how-to & results</h2>
+					<h2>Jekyll how-to</h2>
 
 					<img src="images/jekyllquickstart.png"/>
-					<ul>
-						<li>100% secure</li>
-						<li>No infrastructure requirements</li>
-						<li>Pages load instantly</li>
-					</ul>
-				</section>
+					</section>
+
 
 
 				<section>
@@ -164,6 +201,7 @@
 					</section>
 
 
+
 				<!--<section>-->
 
 
@@ -194,9 +232,7 @@
 </section>
 
 	<section><h3>Solution: Bootstrap</h3>
-		<pre>
-			{{content}}
-		</pre>
+
 		<ul>
 			<li>Turns out theming is easy</li>
 			<li>Easy to clone any existing site</li>
@@ -204,8 +240,24 @@
 		</ul>
 		<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/">More details &raquo;</a></small>
 
+
 				</section>
 				</section>
+
+				<section data-background="images/jekyll_bg-challenge.svg">
+				<h2>Content re-use?</h2>
+				<img src="images/jekyll_contentreuse.svg"/>
+
+				</section>
+
+				<section>
+					<h3>Solution: Includes</h3>
+
+					<p>Store content in <b>_includes</b> folder. Then insert like this:</p>
+<pre><code data-trim contenteditable>
+{% include myfile.html %}
+</code></pre>
+					</section>
 				<section>
 					<section data-background="images/jekyll_bg-challenge.svg">
 					<h2>Conditional filtering?</h2>
@@ -243,21 +295,21 @@ show this to analysts
 					</section>
 					</section>
 
-				<section>
-					<section data-background="images/jekyll_bg-challenge.svg">
-					<h2>Environment workflows</h2>
-					<img src="images/jekyll_environments.svg"/>
-				</section>
-					<section>
-						<h3>Solution: Relative URLs</h3>
-						<ul>
-							<li>No permalinks</li>
-							<li>All markdown files stored in root directory</li>
-							<li>No need to configure url or baseurl properties</li>
-						</ul>
-						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="https://github.com/tomjohnson1492/jekylldoctheme-separate-outputs">More details &raquo;</a></small>
-					</section>
-				</section>
+				<!--<section>-->
+					<!--<section data-background="images/jekyll_bg-challenge.svg">-->
+					<!--<h2>Environment workflows</h2>-->
+					<!--<img src="images/jekyll_environments.svg"/>-->
+				<!--</section>-->
+					<!--<section>-->
+						<!--<h3>Solution: Relative URLs</h3>-->
+						<!--<ul>-->
+							<!--<li>No permalinks</li>-->
+							<!--<li>All markdown files stored in root directory</li>-->
+							<!--<li>No need to configure url or baseurl properties</li>-->
+						<!--</ul>-->
+						<!--<div class="clear"></div><small class="moreDetails"><a target="_blank" href="https://github.com/tomjohnson1492/jekylldoctheme-separate-outputs">More details &raquo;</a></small>-->
+					<!--</section>-->
+				<!--</section>-->
 
 				<section>
 					<section data-background="images/jekyll_bg-challenge.svg">
@@ -265,13 +317,13 @@ show this to analysts
 					<img src="images/jekyll_nav_menu.svg"/>
 				</section>
 					<section>
-						<h3>Solution: YAML + Navgoco</h3>
+						<h3>Solution: Separate data from presentation</h3>
 						<ul>
 							<li>Store menu items in YAML file</li>
 
 							<li>"for" loop in HTML layout parses through YAML</li>
 
-							<li><a href="https://github.com/tefra/navgoco">Navgoco</a> component handles other aspects (expand/collapse, cookie, accordion)</li>
+							<li><a href="https://github.com/tefra/navgoco">Navgoco jQuery</a> component handles other aspects (expand/collapse, cookie, accordion)</li>
 						</ul>
 						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/#sidebar-syntax">More details &raquo;</a></small>
 					</section>
@@ -348,9 +400,8 @@ show this to analysts
 						<h3>Solution: Single project for writers</h3>
 						<ul>
 							<li>All writers work in same project</li>
+							<li>Collaborate through version control</li>
 							<li>Each project stored in its own subfolder</li>
-							<li>Still use relative links (redirect index.html in root to project home)</li>
-							<li>Put common content in non-excluded directory</li>
 							<li>Exclude other directories in each project's config file</li>
 						</ul>
 						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_content_reuse/">More details &raquo;</a></small>
@@ -429,24 +480,29 @@ show this to analysts
 					</section>
 					</section>
 
+				<!--<section>-->
+					<!--<section data-background="images/jekyll_bg-challenge.svg">-->
+					<!--<h2>Authentication?</h2>-->
+					<!--<img src="images/jekyll_authentication.svg"/>-->
+
+				<!--</section>-->
+					<!--<section>-->
+						<!--<h3>Solution: Involve Engineering</h3>-->
+						<!--<ul>-->
+
+							<!--<li>Recognize that IAM is an entire discipline</li>-->
+							<!--<li>Simple implementations like onelogin.com aren't cheap</li>-->
+							<!--<li>Push back on impossible requirements</li>-->
+							<!--<li>Dynamically pull from AWS S3</li>-->
+							<!--<li>Last resort: Salesforce site.com solution</li>-->
+						<!--</ul>-->
+					<!--</section>-->
+					<!--</section>-->
 				<section>
-					<section data-background="images/jekyll_bg-challenge.svg">
-					<h2>Authentication?</h2>
-					<img src="images/jekyll_authentication.svg"/>
+					<h2>How Jekyll makes me feel</h2>
+				<img src="images/jekyll_howitmakesmefeel.svg"/>
 
 				</section>
-					<section>
-						<h3>Solution: Involve Engineering</h3>
-						<ul>
-
-							<li>Recognize that IAM is an entire discipline</li>
-							<li>Simple implementations like onelogin.com aren't cheap</li>
-							<li>Push back on impossible requirements</li>
-							<li>Dynamically pull from AWS S3</li>
-							<li>Last resort: Salesforce site.com solution</li>
-						</ul>
-					</section>
-					</section>
 				<section>
 					<h2>Analogy with first telephone</h2>
 					<figure>
@@ -456,6 +512,16 @@ show this to analysts
 
 					<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/2015/02/10/sustaining-and-disruptive-innovations/">More details &raquo;</a></small>
 
+				</section>
+
+				<section><h2>Disruptive innovations</h2>
+					<img src="images/innovation_disruptive.svg"/>
+
+
+				</section>
+
+				<section><h2>Social coding</h2>
+					<img src="images/innovation_github.svg"/>
 				</section>
 
 				<section>
