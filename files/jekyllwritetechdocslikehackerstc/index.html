@@ -93,6 +93,9 @@
 				<a href="http://www.staticgen.com/"><img src="images/staticgen.png"/></a>
 				</section>
 
+				<section><h2>Jekyll</h2>
+					<a href="http://jekyllrb.com/"><img src="images/jekyllrb.png"/></a>
+				</section>
 
 				<section>
 					<h2>"Blogging like a hacker"</h2>
@@ -100,9 +103,7 @@
 					&mdash; <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a>, Tom Preston-Werner, co-founder of Github
 				</section>
 
-				<section><h2>Jekyll</h2>
-					<a href="http://jekyllrb.com/"><img src="images/jekyllrb.png"/></a>
-				</section>
+
 				<section>
 					<blockquote>
 						What would happen if we approached <span class="orange">technical writing</span> from a software development perspective?
@@ -177,6 +178,10 @@
 					<h2>Writing tech docs like a hacker</h2>
 
 							<table>
+								<tr>
+									<td><b>Site generator:</b></td>
+									<td>Jekyll</td>
+								</tr>
 								<tr>
 									<td><b>File format:</b></td>
 									<td>Text files</td>
@@ -304,7 +309,11 @@ show this to analysts
 					</ul>
 						<p style="text-align: left"><b>Sample build command:</b></p>
 <pre><code data-trim contenteditable>
-jekyll serve --config configadmins.yml --destination ../outputs
+//build administrators output
+jekyll build --config config_administrators.yml --destination ../outputs/admins
+
+//build analysts output
+jekyll build --config config_analysts.yml --destination ../outputs/analysts
 </code></pre>
 						<div class="clear"></div><small class="moreDetails"><a target="_blank" href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_build_arguments/">More details &raquo;</a></small>
 					</section>
