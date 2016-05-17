@@ -3,7 +3,7 @@ title: "Slides for \"Writing tech docs like a hacker presentation\""
 categories:
 - jekyll
 keywords: jekyll, technical documentation, tech docs, authoring tools, markdown, markdown authoring tools
-summary: "Here are the slides for my STC Summit 2016 talk on \"Writing tech docs like a hacker presentation\". In this presentation, I introduce the tech comm conference attendees to Jekyll and how it can be used for authoring technical documentation. I'll try to demo a few of the tasks I describe during the presentation."
+summary: "Here are the slides for my STC Summit 2016 talk on \"Writing tech docs like a hacker with Jekyll \" presentation. In this presentation, I introduce the tech comm conference attendees to Jekyll and how it can be used for authoring technical documentation. I'll try to demo a few of the tasks I describe."
 thumb: techdocslikehackerthumb.png
 ---
 
@@ -24,3 +24,7 @@ Here's the description of my Jekyll presentation:
 >Although developers and web engineers love Jekyll, there are significant challenges to overcome when adopting Jekyll for any robust tech comm publishing scenario. Some of these challenges include conditional filtering, single sourcing, PDF output, a robust TOC, search, context-sensitive help, collaboration, SME review, and more. 
 
 >In this presentation, I'll share my adventures in using Jekyll and how I dealt with each of these challenges.
+
+Unfortunately the recordings are only available to Summit attendees, those who are attending the [Virtual track](http://summit.stc.org/virtual-track/), or those who buy the [Summit Playback](http://www.stc.org/education/technical-communications-summit/summit-playback) package.
+
+I'm giving a similar presentation to the [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/) next week (and I'll record and post that one).
