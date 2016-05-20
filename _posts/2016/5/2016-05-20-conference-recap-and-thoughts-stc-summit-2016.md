@@ -5,11 +5,10 @@ categories:
 - general
 keywords: STC Summit, Jekyll, conferences,  
 thumb: stcsummitanaheimworkshopthumb.png
+summary: "I attended the 2016 STC Summit in Anaheim, California this year. This is a brief, rambling post that recaps some of my thoughts and experiences."
 ---
 
-I attended the [2016 STC Summit](http://summit.stc.org/) in Anaheim, California this year. This is a brief, rambling post that recaps some of my thoughts and experiences. 
-
-Overall, I think the Summit was a good conference (as usual) -- it was well-organized and executed, with top speakers and a wide variety of topics. I believe attendance was up this year, with around 600 attendees. The expo hall was full of vendors, including a virtual reality vendor with goggles that let you view an Ohio State University football game and campus tour. 
+Overall, I think the [Summit](http://summit.stc.org/) was a good conference (as usual) -- it was well-organized and executed, with top speakers and a wide variety of topics. I believe attendance was up this year, with around 600 attendees. The expo hall was full of vendors, including a virtual reality vendor with goggles that let you view an Ohio State University football game and campus tour. 
 
 The Anaheim location, however, was somewhat disappointing (but good to choose California). The Marriott provided a high quality conference venue, but Anaheim itself lacks appeal unless you plan to visit Disneyland (which I didn't). Having lived in Florida, I've had my fill of theme parks. If you're going to hold a conference in California, why not choose San Francisco for the location, or San Jose? Anyway... most people don't venture far outside the hotel anyway. The Summit provided regular snacks, which were pretty good, particularly the taquitoes and pineapple empanadas. 
 
