@@ -44,7 +44,4 @@ By the way, I wanted to drop a quick note about my latest recording technique. T
 
 I recorded at 44,100 khz, 16-bit. The presenters also recorded their screens using Camtasia Studio. When I synced the audio with the Camtasia recording, the two rates matched perfectly! 
 
-
-{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">Clickhelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user and is even free for small projects. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
-
-
+{{site.data.alerts.ad}}<a href="https://clickhelp.co/online-documentation-tool/">Convert CHM manuals</a> into online real content in minutes. Just import your CHM files into ClickHelp to create an online documentation system &mdash; hosted, browser-based, searchable, and nice looking! Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}

@@ -51,4 +51,5 @@ This map is too bulky to add at the top of each page, so I'm looking at differen
 
 The other challenge is that I want the graphic to be an SVG graphic so that I can edit the text and hyperlink the boxes to the appropriate page. I also want to add unique style to each element and highlight that element to be another color when the user is viewing the page. This would allow me to use the same SVG instead of duplicating it into 15 variants.
 
-{{site.data.alerts.ad}}<a href="https://clickhelp.co/online-documentation-tool/">Convert CHM manuals</a> into online real content in minutes. Just import your CHM files into ClickHelp to create an online documentation system &mdash; hosted, browser-based, searchable, and nice looking! Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">Clickhelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user and is even free for small projects. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+
