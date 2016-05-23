@@ -1,5 +1,5 @@
 ---
-title: 'Jekyll Conf 2016 slides and video: \"Overcoming challenges in using Jekyll for Tech Docs\"'
+title: Jekyll Conf 2016 slides and video\: \"Overcoming challenges in using Jekyll for Tech Docs\"
 categories:
 - jekyll
 keywords: 
