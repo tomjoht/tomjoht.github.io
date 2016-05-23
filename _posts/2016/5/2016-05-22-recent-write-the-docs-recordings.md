@@ -7,13 +7,13 @@ summary: "We recently hosted a Write the Docs meetup in Redwood City with a coup
 thumb: writethedocsthumb.png
 ---
 
-First, [Neal Kaplan](https://customersandcontent.com/) gave a presentation titled "Two great teams that work great together: Bridging the gap between documentation and support":
+At the meetup, first [Neal Kaplan](https://customersandcontent.com/) gave a presentation titled "Two great teams that work great together: Bridging the gap between documentation and support":
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1MtcHfK2M_I" frameborder="0" allowfullscreen></iframe>
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocsupportwtd.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocssupportwtd.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocsupportwtd.mp3" alt="Neal Kaplan">download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocsupportwtd.mp3" alt="Neal Kaplan">download the MP3 file here</a> and view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
 
 Then [Ruthie Bendor](https://twitter.com/unruthless), a web engineer, gave a presentation titled "Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup":
 
@@ -27,9 +27,9 @@ You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podc
 
 Having multiple presentations in a short amount of time gives the meetup more energy and interest. At least one attendee commented that he liked this format because it encouraged people to get more quickly to the point.
 
-If you're in the San Francisco Bay area, definitely join the [Write the Docs group](http://www.meetup.com/Write-the-Docs-SF/) (it's free!) to stay updated about upcoming events.
+If you're in the San Francisco Bay area, definitely join the [Write the Docs group](http://www.meetup.com/Write-the-Docs-SF/) (it's free!) to stay updated about upcoming events. You can also join the [WTD Slack group](http://slack.writethedocs.org/).
 
-Our next event is called [Solve This!](http://www.meetup.com/Write-the-Docs-SF/events/231272920/). Here's a description: 
+Our next event is called [Solve This!](http://www.meetup.com/Write-the-Docs-SF/events/231272920/) Here's a description: 
 
 >For this meetup, we will help each other with the challenges that we face at work. Here's how it we will do this. You add a major challenge that you have to the list here.  The list is anonymous.  The challenge should be a problem that you haven't been able to solve yourself. During the meetup, we will go through each of the challenges on the list and share opinions about the best solutions.
 
