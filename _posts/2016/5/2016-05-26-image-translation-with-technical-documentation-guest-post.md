@@ -10,7 +10,7 @@ bio: false
 
 Including images can be a headache for the technical writer. Thanks to the challenges of translation, your headache can morph into a long-term migrane when the images include text.
 
-# 1. Just eliminate the text!
+## 1. Just eliminate the text!
 
 The “industry standard" solution is to avoid text in images. At first, this sounds like a wonderful idea. "Don't write, just draw." It could almost be a song. And it works well for some products (think Ikea furniture assembly instructions).
 
@@ -20,7 +20,7 @@ The problem is that some image types are meaningless when the text is removed. T
 
 <figure><a href="http://idratherbewriting.com"><img src="{{ "/images/gensetsequence.svg" | prepend: site.baseurl }}"/></a><figcaption>Flowchart with numbers for a genset start sequence</figcaption></figure>
 
-# 2. Text in the image?
+### 2. Text in the image?
 
 My previous post ([11 images issues for tech doc systems](http://idratherbewriting.com/2016/05/26/image-handling-strategies-guest-post/)) explored some of the challenges inherent in handling images in technical documentation. 
 
@@ -28,7 +28,7 @@ Unless you're writing very image-intense documentation, you're probably using a 
 
 For example, for a DITA system, the image itself is not part of a DITA file (it's just a reference). The image's source file is not formally related to the DITA file at all. This means that the text in the image can be two steps away from the DITA file.
 
-# 3. Text translation work flow
+## \3. Text translation work flow
 
 For text without images that need translation, a modern translation workflow can look something like this:
 
