@@ -42,7 +42,8 @@ For text without images that need translation, a modern translation workflow can
     * A translation tool should strip out content that does not have to be translated, leaving only the text fragments.
     * If you're using XML, this will be easier.
     
-3.  **Translate the text fragments **
+3.  **Translate the text fragments**
+    
 4.  **Merge the translated text fragments into the content**
     
     * A translation tool can do this for you.
@@ -73,7 +74,8 @@ If there are images that need translation, in addition to the above, a person or
     * This step might require buying an extra licence for your expensive image creation software for the translation coordinator.
     
 3.  **Translate the text fragments**
-4.  Merge the translated text into the translated images, and then save in the required image format
+    
+4.  **Merge the translated text into the translated images, and then save in the required image format**
     
     * Use the expensive image creation software (again). 
     
@@ -82,13 +84,13 @@ If there are images that need translation, in addition to the above, a person or
     * The image links are not normally sent for translation. That means that for the translated content, until you do something, the image links still refer to the original images in the master language. 
     * You'll want to design the image storage and naming so that you either don't have to update these links, or at least can do it easily.
 
-<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/imagetranslationworkflow.svg" | prepend: site.baseurl }}"/></a><figcaption> Image translation workflow]</figcaption></figure>
+<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/imagetranslationworkflow.svg" | prepend: site.baseurl }}"/></a><figcaption> Image translation workflow</figcaption></figure>
 
 For simplicity, I've left out quality control loops again, even though they are important. And someone has to combine and coordinate this workflow with the text translation workflow. 
 
 ## 5. Maintenance
 
-If your system is intelligent and well-designed, the image translation workflow only has to be repeated when there are revisions to the images. If your system is unsophisticated or badly designed, you may have to manually check whether the images have been translated each time there is a new translation. In addition, you may have to update the links to previously translated images every time there is a new translation.   
+If your system is intelligent and well-designed, the image translation workflow only has to be repeated when there are revisions to the images. If your system is unsophisticated or badly designed, you may have to manually check whether the images have been translated each time there is a new translation. In addition, you may have to update the links to previously translated images every time there is a new translation.
 
 ## 6. Solve it with software
 
