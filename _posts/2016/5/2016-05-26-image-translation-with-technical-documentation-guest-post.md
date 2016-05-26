@@ -20,7 +20,7 @@ The problem is that some image types are meaningless when the text is removed. T
 
 <figure><a href="http://idratherbewriting.com"><img src="{{ "/images/gensetsequence.svg" | prepend: site.baseurl }}"/></a><figcaption>Flowchart with numbers for a genset start sequence</figcaption></figure>
 
-### 2. Text in the image?
+## 2. Text in the image?
 
 My previous post ([11 images issues for tech doc systems](http://idratherbewriting.com/2016/05/26/image-handling-strategies-guest-post/)) explored some of the challenges inherent in handling images in technical documentation. 
 
@@ -28,7 +28,7 @@ Unless you're writing very image-intense documentation, you're probably using a 
 
 For example, for a DITA system, the image itself is not part of a DITA file (it's just a reference). The image's source file is not formally related to the DITA file at all. This means that the text in the image can be two steps away from the DITA file.
 
-## \3. Text translation work flow
+## 3. Text translation work flow
 
 For text without images that need translation, a modern translation workflow can look something like this:
 
@@ -59,7 +59,7 @@ For simplicity, I've left out the quality control loops. For example, depending 
 
 It takes time and effort to set up a translation system, train translators to use it, get quality control in place, and get it to run smoothly. And that's without the complexity introduced by images with text that needs to be translated ….
 
-# 4. Image translation workflow
+## 4. Image translation workflow
 
 If there are images that need translation, in addition to the above, a person or tool has to:
 
@@ -86,11 +86,11 @@ If there are images that need translation, in addition to the above, a person or
 
 For simplicity, I've left out quality control loops again, even though they are important. And someone has to combine and coordinate this workflow with the text translation workflow. 
 
-# 5. Maintenance
+## 5. Maintenance
 
 If your system is intelligent and well-designed, the image translation workflow only has to be repeated when there are revisions to the images. If your system is unsophisticated or badly designed, you may have to manually check whether the images have been translated each time there is a new translation. In addition, you may have to update the links to previously translated images every time there is a new translation.   
 
-# 6. Solve it with software
+## 6. Solve it with software
 
 If you use a software system that allows you to include the image text with the writing, you can avoid the problem of a separate translation process for images. 
 
@@ -98,7 +98,7 @@ The DITA 1.3 specification includes "SVG integrations." I haven't tested whether
 
 MadCap Flare allows an image map with hyperlinks. You could potentially use this to include translatable text, although I haven't tried it. The downside is that with MadCap Flare you have vendor lock-in. And the more you use of image maps for translatable text, the more locked-in you get ...
 
-# 7. Does the text still fit?
+## 7. Does the text still fit?
 
 English is more compact than most other languages. On average, Russian words are a bit longer than English ones, while German words can be sustaintially longer. But that's on average, and you might not be lucky. 
 
