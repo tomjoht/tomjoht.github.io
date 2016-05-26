@@ -89,5 +89,6 @@ These are some of the issues with images that I've come across. Feel free to add
 ## About Jeanine Shepstone
 
 <img src="{{ "/images/jeanine.jpg" | prepend: site.baseurl }}" alt="Jeanine" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Jeanine Shepstone writes user information for generator control systems. There are plenty of images to contend with.
-<div style="clear: both;></div>
+
+<div style="clear: both;"></div>
 
