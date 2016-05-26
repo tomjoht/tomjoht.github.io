@@ -22,7 +22,9 @@ comments: true
     {% include tinyletter.html %}
 </div>
 
+{% unless page.bio == false %}
 {% include mybio.html %}
+{% endunless %}
 
 {% include social_sharing_buttons.html %}
 

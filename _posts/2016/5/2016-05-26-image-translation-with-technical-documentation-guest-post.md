@@ -1,11 +1,14 @@
 ---
-title: "8 image translation issues for tech doc"
+title: "8 image translation issues for tech doc &mdash; guest post by Jeanine Shepstone"
 categories:
 - visual-communication
 keywords: 
-summary: "Including images can be a headache for the technical writer. Thanks to the challenges of translation, your headache can morph into a long-term migrane when the images include text."
+summary: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues technical writers face when translating images in technical documentation. She outlines the workflows for both text translation and image translation, and the challenges of extracting, translation, and merging text back into images. Image translation is certainly one of the most difficult aspects of tech comm, and for this reason many people avoid it and stick with text only."
 thumb: jeaninethumb.png
+bio: false
 ---
+
+Including images can be a headache for the technical writer. Thanks to the challenges of translation, your headache can morph into a long-term migrane when the images include text.
 
 # 1. Just eliminate the text!
 
@@ -19,7 +22,7 @@ The problem is that some image types are meaningless when the text is removed. T
 
 # 2. Text in the image?
 
-My previous post ([11 images issues for tech doc systems](http://idratherbewriting.com/2016-05-26-image-handling-strategies-guest-post)) explored some of the challenges inherent in handling images in technical documentation. 
+My previous post ([11 images issues for tech doc systems](http://idratherbewriting.com/2016/05/26/image-handling-strategies-guest-post/)) explored some of the challenges inherent in handling images in technical documentation. 
 
 Unless you're writing very image-intense documentation, you're probably using a system that does not include all the image information.
 
@@ -29,22 +32,23 @@ For example, for a DITA system, the image itself is not part of a DITA file (it'
 
 For text without images that need translation, a modern translation workflow can look something like this:
 
-1.  Create the content
+1.  **Create the content**
     
     * Preferably in an XML-based format.
     * Due to the complexity of the translation workflow, it's better if the content is finalised and frozen before starting translation.
     
-2.  Extract the text fragments
+2.  **Extract the text fragments**
     
     * A translation tool should strip out content that does not have to be translated, leaving only the text fragments.
     * If you're using XML, this will be easier.
     
-3.  Translate the text fragments 
-4.  Merge the translated text fragments into the content
+3.  **Translate the text fragments **
+4.  **Merge the translated text fragments into the content**
     
     * A translation tool can do this for you.
     * This is where the decision to use XML really pays off. 
-5.  Publish the translation
+    
+5.  **Publish the translation**
     
     If possible, use automatic formatting during publication. 
     The style sheet should be designed so that it has flexibility to accommodate different text lengths.
@@ -59,20 +63,21 @@ It takes time and effort to set up a translation system, train translators to us
 
 If there are images that need translation, in addition to the above, a person or tool has to:
 
-1.  Identify the images with text
+1.  **Identify the images with text**
     
     * Here's hoping that you designed a system that makes it easy to find the source file if you have the image reference.
     
-2.  Extract the text from the images 
+2.  **Extract the text from the images** 
     
     * Here's hoping that you created the images so that the text is easy to extract, for example, in a separate text layer. 
     * This step might require buying an extra licence for your expensive image creation software for the translation coordinator.
     
-3.  Translate the text fragments
+3.  **Translate the text fragments**
 4.  Merge the translated text into the translated images, and then save in the required image format
     
     * Use the expensive image creation software (again). 
-5.  Link to the translated images in the translated publication
+    
+5.  **Link to the translated images in the translated publication**
     
     * The image links are not normally sent for translation. That means that for the translated content, until you do something, the image links still refer to the original images in the master language. 
     * You'll want to design the image storage and naming so that you either don't have to update these links, or at least can do it easily.
@@ -108,3 +113,4 @@ What's your experience with images and translation in technical documentation? W
 ## About Jeanine Shepstone
 
 <img src="{{ "/images/jeanine.jpg" | prepend: site.baseurl }}" alt="Jeanine" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Jeanine Shepstone writes user information for generator control systems. There are plenty of images to contend with.
+<div style="clear: both;></div>
