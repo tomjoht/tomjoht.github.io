@@ -3,7 +3,7 @@ title: "Examples of linear workflow user maps built with JS and CSS"
 categories:
 - visual-communication
 keywords: 
-summary: "Maps are an essential tool for helping users navigate unfamiliar territory. Provide maps to a user is the 101 of visual communication that helps guide users, especially when they're trying to complete a procedures that requires them to visit multiple pages."
+summary: "Maps are an essential tool for helping users navigate unfamiliar territory. Providing maps to users is the 101 of visual communication &mdash; these maps helps guide through the overgrown documentation forest, especially when users are trying to complete procedures that require them to visit multiple pages, or take different paths through the [undergrowth] content. The map is as essential to end-users as they are to hikers on an unfamiliar trail."
 thumb: usermapthumb.png
 type: visualcommunication
 ---
@@ -24,13 +24,13 @@ Here's the JS Fiddle:
 
 <script async src="http://jsfiddle.net/tomjohnson1492/gj1agw00/2/embed/"></script>
 
-The underlying code is all JS and CSS. The idea is that you create the map in one file, and then include the file at the top of each doc page where it applies. On each page, you add a small JS script that specifies the scroll position and CSS that specifies which box is active. 
+The underlying code is all HTML, JS, and CSS. The idea is that you create the map in one file, and then include the file at the top of each doc page where it applies. On each page, you add a small JS script that specifies the scroll position and CSS that specifies which box is active. If you have 20 workflow squares, that's okay &mdash; the scroll position automatically moves to the workflow square in view.
 
-When I showed this to my wife, she said she didn't like having to scroll. She wanted to see the whole map at once. I agree that having to scroll is less than ideal. 99% of the time, horizontal scrolling is a fail. 
+However, when I showed this to my wife, she said she didn't like having to scroll. She wanted to see the whole map at once. I agree that having to scroll is less than ideal. 99% of the time, horizontal scrolling is a fail with user design. 
 
 So I made another version without scrolling, which you can see here: [Sample 1](http://idratherbewriting.com/documentation-theme-jekyll/p1_sample1/). Click through each of the pages in the workflow to see this in action.
 
-<figure><a href="http://127.0.0.1:4005/documentation-theme-jekyll/p2_sample1/"><img src="{{ "/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
+<figure><a href="http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{ "/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
 
 I like this example, so I coded it into my Jekyll documentation theme. You just add some values in the frontmatter like this:
 
@@ -39,7 +39,8 @@ map: true
 map_name: usermap
 box_number: 1
 ```
-The \_layout/page.html file then includes this code:
+
+The page.html file in the \_layout folder then includes this code:
 
 ```liquid
 {% raw %}{% if page.map == true %}
@@ -55,7 +56,9 @@ The \_layout/page.html file then includes this code:
 {% endif %}{% endraw %}
 ```
 
-Here's the usermap.html file inside \_includes/custom:
+In Jekyll, the {% raw %}{{page.}}{% endraw %} code accesses any properties you add in the page's frontmatter.
+
+Here's the single usermap.html file inside \_includes/custom:
 
 ```html
 
@@ -74,7 +77,7 @@ Here's the usermap.html file inside \_includes/custom:
 </div>
 ```
 
-This user map consists of divs because they behave better than tables. 
+This user map consists of `div` tags because they behave better than tables. 
 
 Here's a JS Fiddle with the code:
 
@@ -82,4 +85,4 @@ Here's a JS Fiddle with the code:
 
 What happens if you have more than 5 steps to follow? While you could create multiple rows, I think this would be unwise. It's probably better to link to a full view of the map. This list of five steps is a zoomed-out version of the larger map.
 
-Although this approach probably works all right, it still doesn't show a more complex workflow, where there are multiple paths, optional steps, and maybe a decision tree. For that, I think I would have to design the map in Illustrator.
+Although this approach probably works all right, it still doesn't show a more complex workflow, where there are multiple paths, optional steps, and maybe a decision tree. For that, I think I would have to design the map in Illustrator. (More detail on that will come in the next post.)

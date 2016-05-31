@@ -16,12 +16,12 @@ entries:
     - title: Visual Communication
       output: web, pdf
       items:
-        - title: Course overview
-          url: /2016/05/01/visualcommunication_course_overview/
-          output: web, pdf
-
         - title: Starting a new series on visual communication
           url: /2016/03/12/new-series-on-visual-communication/
+          output: web, pdf
+
+        - title: Course overview
+          url: /2016/05/01/visualcommunication_course_overview/
           output: web, pdf
 
         - title: Learning How to Communicate Visually in Documentation
@@ -29,7 +29,7 @@ entries:
           output: web, pdf
 
         - title: Getting sharp, clear screenshots
-          url: /2016/05/10//visualcommunication_sharp_clear_screenshots/
+          url: /2016/05/10/visualcommunication_sharp_clear_screenshots/
           output: web, pdf
 
         - title: Creating professional looking graphics
@@ -45,7 +45,7 @@ entries:
           output: web, pdf
 
         - title: 8 image translation issues for tech docs
-          url: //2016/05/26/image-translation-with-technical-documentation-guest-post/
+          url: /2016/05/26/image-translation-with-technical-documentation-guest-post/
           output: web, pdf
 
         - title: Examples of linear workflow user maps built with JS and CSS
