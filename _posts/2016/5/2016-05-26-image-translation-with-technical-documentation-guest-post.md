@@ -3,7 +3,7 @@ title: "8 image translation issues for tech doc &mdash; guest post by Jeanine Sh
 categories:
 - visual-communication
 keywords: 
-summary: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues technical writers face when translating images in technical documentation. She outlines the workflows for both text translation and image translation, and the challenges of extracting, translation, and merging text back into images. Image translation is certainly one of the most difficult aspects of tech comm, and for this reason many people avoid it and stick with text only."
+summary: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues technical writers face when translating images in technical documentation. She outlines the workflows for both text translation and image translation, and the challenges of extracting, translating, and merging text back into images. Image translation is certainly one of the most difficult aspects of tech comm, and for this reason many people avoid it and stick with text only."
 thumb: jeaninethumb.png
 bio: false
 type: visualcommunication
