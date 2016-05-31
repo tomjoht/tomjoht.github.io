@@ -1,6 +1,5 @@
 ---
 title: 'Creating professional looking graphics in the easiest, simplest way possible'
-permalink: /visualcommunication_noun_project/
 keywords:
 type: visualcommunication
 ---

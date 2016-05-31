@@ -1,6 +1,5 @@
 ---
 title: 'Visual communication overview'
-permalink: /visualcommunication_course_overview/
 keywords:
 type: visualcommunication
 ---

@@ -5,7 +5,7 @@ keywords:
 type: visualcommunication
 ---
 
-In the [previous article](http://idratherbewriting.com/visualcommunication_sharp_clear_screenshots/), I talked about where to take screen captures &mdash; from regular screens, or from Retina screens. In this article, I'll talk more about where to *save and work with* the screen captures.
+In a [previous article](http://idratherbewriting.com/2016/05/10/visualcommunication_sharp_clear_screenshots/), I talked about where to take screen captures &mdash; from regular screens, or from Retina screens. In this article, I'll talk more about where to *save and work with* the screen captures.
 
 If you're just taking a screen capture, circling something, and saving the image, it doesn't much matter where you save it. Chances are, if you need to update the screen capture later, it will be easy to re-take it. 
 
