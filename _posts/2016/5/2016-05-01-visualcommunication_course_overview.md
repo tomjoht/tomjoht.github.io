@@ -2,8 +2,6 @@
 title: 'Visual communication overview'
 permalink: /visualcommunication_course_overview/
 keywords:
-course: "Visual Communication"
-weight: 1.0
 type: visualcommunication
 ---
 

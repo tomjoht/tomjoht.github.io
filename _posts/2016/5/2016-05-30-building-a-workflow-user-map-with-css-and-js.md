@@ -5,6 +5,7 @@ categories:
 keywords: 
 summary: "Maps are an essential tool for helping users navigate unfamiliar territory. Provide maps to a user is the 101 of visual communication that helps guide users, especially when they're trying to complete a procedures that requires them to visit multiple pages."
 thumb: usermapthumb.png
+type: visualcommunication
 ---
 
 ## Map background

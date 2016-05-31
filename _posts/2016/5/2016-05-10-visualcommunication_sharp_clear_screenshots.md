@@ -2,8 +2,6 @@
 title: 'Getting sharp, clear text in screen captures &mdash; and making sense of Retina displays'
 permalink: /visualcommunication_sharp_clear_screenshots/
 keywords: 
-course: "Visual Communication"
-weight: 1.1
 type: visualcommunication
 ---
   

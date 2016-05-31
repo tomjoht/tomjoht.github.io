@@ -2,8 +2,6 @@
 title: 'Creating professional looking graphics in the easiest, simplest way possible'
 permalink: /visualcommunication_noun_project/
 keywords:
-course: "Visual Communication"
-weight: 1.2
 type: visualcommunication
 ---
 
