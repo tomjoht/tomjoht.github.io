@@ -118,6 +118,8 @@ topnav_dropdowns:
 
     - title: Jekyll
       items:
+      - title: About Jekyll
+        url: /about-jekyll/
       - title: Github theme repo
         external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
       - title: Jekyll doc theme
