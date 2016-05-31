@@ -2,6 +2,7 @@
 title: 'Creating professional looking graphics in the easiest, simplest way possible'
 keywords:
 type: visualcommunication
+category: visual-communication
 ---
 
 ## Lightning talk

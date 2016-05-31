@@ -300,6 +300,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav a:hover, .nav li.active > a {
     background-color: #8D8D8D;
+    color: white;
 }
 
 .nav > li.active > a  {

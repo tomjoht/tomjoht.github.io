@@ -2,6 +2,7 @@
 title: 'Visual communication overview'
 keywords:
 type: visualcommunication
+category: visual-communication
 ---
 
 In this series on visual communication, I'm going to explore in a variety of topics in visual communication, such as:
@@ -20,4 +21,4 @@ In this series on visual communication, I'm going to explore in a variety of top
 
 For a little background about why I started this course, see [Starting a new series on visual communication](http://idratherbewriting.com/2016/03/12/new-series-on-visual-communication/). 
 
-The content here is a draft in progress. I will be publishing about two new sections a week here for the next year.
+The content here is a draft in progress. I will be publishing about two new sections a week here for the next year. After I finish collecting the material, my second approach will be to organize it into a logical, coherent flow. Right now the topics and sequence are mostly random.

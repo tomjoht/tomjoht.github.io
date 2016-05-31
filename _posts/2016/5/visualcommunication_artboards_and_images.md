@@ -3,6 +3,8 @@ title: 'Artboards and images'
 permalink: /visualcommunication_artboards_and_images/
 keywords:
 type: visualcommunication
+category: visual-communication
+published: false
 ---
 
 In a [previous article](http://idratherbewriting.com/2016/05/10/visualcommunication_sharp_clear_screenshots/), I talked about where to take screen captures &mdash; from regular screens, or from Retina screens. In this article, I'll talk more about where to *save and work with* the screen captures.

@@ -2,6 +2,7 @@
 title: 'Getting sharp, clear text in screen captures &mdash; and making sense of Retina displays'
 keywords: 
 type: visualcommunication
+category: visual-communication
 ---
   
 Technical writers take a lot of screen captures, often showing interfaces with both text and graphic elements. Usually these are partial screen captures that focus on the part of the screen they are highlighting. (By "screen capture," I'm referring to captures taken of specific user interfaces.)
