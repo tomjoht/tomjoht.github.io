@@ -1,5 +1,5 @@
 ---
-title: "User maps should give users the whole picture"
+title: "Examples of linear workflow user maps built with JS and CSS"
 categories:
 - visual-communication
 keywords: 
@@ -21,7 +21,7 @@ In another version, I made the workflow scrollable (and in one row), with a spec
 
 Here's the JS Fiddle:
 
-<script async src="//jsfiddle.net/tomjohnson1492/gj1agw00/2/embed/"></script>
+<script async src="http://jsfiddle.net/tomjohnson1492/gj1agw00/2/embed/"></script>
 
 The underlying code is all JS and CSS. The idea is that you create the map in one file, and then include the file at the top of each doc page where it applies. On each page, you add a small JS script that specifies the scroll position and CSS that specifies which box is active. 
 
@@ -77,7 +77,7 @@ This user map consists of divs because they behave better than tables.
 
 Here's a JS Fiddle with the code:
 
-<script async src="//jsfiddle.net/tomjohnson1492/LsrbcvLw/embed/"></script>
+<script async src="http://jsfiddle.net/tomjohnson1492/LsrbcvLw/embed/"></script>
 
 What happens if you have more than 5 steps to follow? While you could create multiple rows, I think this would be unwise. It's probably better to link to a full view of the map. This list of five steps is a zoomed-out version of the larger map.
 
