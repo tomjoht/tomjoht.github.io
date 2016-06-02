@@ -2,7 +2,7 @@
 title: "Examples of linear workflow user maps built with JS and CSS"
 categories:
 - visual-communication
-keywords: 
+keywords:
 summary: "Maps are an essential tool for helping users navigate unfamiliar territory. Providing maps to users is the 101 of visual communication &mdash; these maps helps guide through the overgrown documentation forest, especially when users are trying to complete procedures that require them to visit multiple pages, or take different paths through the [undergrowth] content. The map is as essential to end-users as it is to hikers on an unfamiliar trail."
 thumb: usermapthumb.png
 type: visualcommunication
@@ -26,9 +26,9 @@ Here's the JS Fiddle:
 
 The underlying code is all HTML, JS, and CSS. The idea is that you create the map in one file, and then include the file at the top of each doc page where it applies. On each page, you add a small JS script that specifies the scroll position and CSS that specifies which box is active. If you have 20 workflow squares, that's okay &mdash; the scroll position automatically moves to the workflow square in view.
 
-However, when I showed this to my wife, she said she didn't like having to scroll. She wanted to see the whole map at once. I agree that having to scroll is less than ideal. 99% of the time, horizontal scrolling is a fail with user design. 
+However, when I showed this to my wife, she said she didn't like having to scroll. She wanted to see the whole map at once. I agree that having to scroll is less than ideal. 99% of the time, horizontal scrolling is a fail with user design.
 
-So I made another version without scrolling, which you can see here: [Sample 1](http://idratherbewriting.com/documentation-theme-jekyll/p1_sample1/). Click through each of the pages in the workflow to see this in action.
+So I made another version without scrolling, which you can see here: [Sample 1](http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
 
 <figure><a href="http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{ "/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
 
@@ -73,11 +73,11 @@ Here's the single usermap.html file inside \_includes/custom:
             <div class="arrow">→</div>
             <div class="content"><a href="{{site.data.urls.p2_sample5.url}}"><div class="box box5">Query for Something</div></a></div>
 <div class="clearfix"></div>
-    
+
 </div>
 ```
 
-This user map consists of `div` tags because they behave better than tables. 
+This user map consists of `div` tags because they behave better than tables.
 
 Here's a JS Fiddle with the code:
 
