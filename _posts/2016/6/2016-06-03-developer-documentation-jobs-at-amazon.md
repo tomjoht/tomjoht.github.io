@@ -2,17 +2,17 @@
 title: "Interested in working as a technical writer at Amazon?"
 categories:
 - general
-keywords:
+keywords: Amazon Lab 126, technical writer
 summary: "We're looking to add a couple of technical writers to our Appstore documentation team at Amazon in the Seattle and Sunnyvale locations. If you're interested, contact me. The focus is on developer documentation, so you'll need to be comfortable documenting web services."
 thumb: amazonjobs.png
 ---
 
 To read more about the technical writer positions at Amazon, see the following:
 
-* <a href="https://www.amazon.jobs/en/jobs/405036">Senior Technical Writer</a>
-* <a href="https://www.amazon.jobs/en/jobs/405034">Documentation Manager</a>
+* <a href="https://www.amazon.jobs/en/jobs/405036">Senior Technical Writer (Amazon)</a>
+* <a href="https://www.amazon.jobs/en/jobs/405034">Documentation Manager (Amazon)</a>
 
-In both of these positions, you'll get to work on documenting [Alexa](https://developer.amazon.com/appsandservices/solutions/alexa), which is the voice service that powers the Echo and other devices. The documentation will appear in the [Amazon Developer Portal](https://developer.amazon.com/). 
+In both of these positions, you'll get to work on documenting [Alexa](https://developer.amazon.com/appsandservices/solutions/alexa), which is the voice service that powers the Echo and other devices. The documentation will appear in the [Amazon Developer Portal](https://developer.amazon.com/).
 
 In my opinion, this is an incredible opportunity, as you'll be creating documentation for an innovative, interesting product that is defining a new space in the market. In fact, Jeff Bezos says [Alexa could be one of the four pillars of Amazon](http://venturebeat.com/2016/05/31/alexa-could-be-the-4th-pillar-of-amazon-says-jeff-bezos/).
 
