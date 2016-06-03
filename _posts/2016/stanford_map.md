@@ -1,5 +1,5 @@
 ---
-title: "Create maps to depict workflows through information spaces"
+title: "Creative maps to depict workflows through information spaces"
 categories:
 - visual-communication
 keywords:
@@ -9,29 +9,33 @@ type: visualcommunication
 published: false
 ---
 
+Last weekend I toured Stanford's Cantor museum. Since I had user maps on my mind, I was intrigued by the museum map:
 
-## More creative maps
+<figure><a href="http://idratherbewriting.com/images/stanfordmap.jpg"><img src="{{ "/images/standfordmapsmall.jpg" | prepend: site.baseurl }}"/></a><figcaption>This museum map presents me with a lot of different choices.</figcaption></figure>
 
-You could get more creative with user maps. For example, see [this site](http://www.clairetnet.com/serre-a-voeux/index.php?lang=en), as mentioned in this post on [rethinking navigation](http://sixrevisions.com/user-interface/is-it-time-to-rethink-website-navigation/).
+My goal in visiting the museum was to see interesting, inspiring art. Because I had a goal, I also needed to follow a process to achieve that goal.
 
-However, this more creative approach is usually overkill for documentation and requires more web design skill and resources than most of us have.
-Last weekend I toured Stanford's museum, and I was intrigued by the museum map.
+But in contrast to my previous process maps, in this case the process is much looser and less linear.
 
-<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/standfordmap.JPG" | prepend: site.baseurl }}"/></a><figcaption>This map presents me with a lot of different choices.</figcaption></figure>
+First of all, there isn't a directional arrow leading me through the content. I may not want to see Ancient Americas exhibit. Maybe I just want to see the Contemporary Art. When there isn't a set path through the content, workflow arrows don't make sense.
 
-In this case, the process I was presented with was much more loose than what I've been depicting with the workflow squares. The process to implement at the museum was to see interesting, inspiring art (and hope my kids don't break or ruin anything). How do I do that?
+This map is the equivalent of a table of contents in a help file -- it tells me what's contained in each section, but not the order in which I should proceed through the sections.
 
-First of all, there isn't a directional arrow leading me through the content. I may not want to see Ancient Americas exhibit. Maybe I just want to see the Contemporary Art. When there isn't a set path through the content, workflow arrows don't make sense. This map is the equivalent of a table of contents in a help file -- it tells me what's contained in each section, but not the order in which I should proceed through the sections.
+What if the museum could issue several workflow maps based on different user goals? For example, suppose I want to browse ancient and contemporary *American* art? The curator could draw appropriate workflow arrows through exhibits containing these items. Or suppose I want to compare ancient and modern sculpture art? Or maybe I am only interested in abstract, boundary-pushing art?
 
-What if Stanford issues several other types of maps based on different user goals? For example, suppose I want to browse ancient and contemporary *American* art? The curator could draw appropriate workflow arrows through exhibits containing these items. Or suppose I want to compare ancient and modern sculpture art? Or maybe I am only interested in abstract, boundary-pushing art?
+With more specific goals, it becomes possible to guide users with workflow arrows through the art exhibits. But since there are so many different paths through the content, drawing the workflows becomes too onerous.
 
-With these goals, it becomes possible to guide users with workflow arrows through the art exhibit. But since there are so many different paths through the content, drawing the workflows becomes too onerous. How feasible is it for Stanford to create a dozen different maps based on different goals and interests for museum guests?
+How feasible is it for Stanford to create a dozen different maps based on different goals and interests for museum guests? Not feasible at all. More likely you would ask the museum information desk which exhibits meet your goals, and the information clerk would circle the correct areas on the map.
 
-In the same way, the general organization of help content tends to be general, like the Stanford map. It's only when you have a specific, concrete process that a more directed map tends to make sense.
+In the same way, the general organization of help content tends to be general, like the Stanford map. There isntIt's only when you have a specific, concrete process that a more directed map tends to make sense.
 
 There are drawbacks to embedding maps on topics. If your content has overlap between processes, the embedded maps will pose challenges. For example, suppose there are two workflows that both require the same step? Which map do you show? Do you link to both maps? How many maps can you embed before you totally confuse readers? For more general topics like the introduction, FAQ, and troubleshooting, which often cover the system as a whole instead of being specific to a single process, it won't make sense to embed a map there.
 
 I admit that, despite my interest with maps lately, the Stanford map proved to be somewhat useless. I'm sure I could have used it to orient myself, but I didn't know what I wanted to see, so it didn't matter which way I walked in the museum, or which exhibit I explored first or last. I didn't know what to expect, so I welcomed everything. Mostly I followed my 5-year-old around, because I didn't want to lose her and wanted her to maintain her own attention through self-directed exploration. That is also a behavior users often have in help material.
+
+You could get more creative with user maps. For example, see [this site](http://www.clairetnet.com/serre-a-voeux/index.php?lang=en), as mentioned in this post on [rethinking navigation](http://sixrevisions.com/user-interface/is-it-time-to-rethink-website-navigation/).
+
+However, this more creative approach is usually overkill for documentation and requires more web design skill and resources than most of us have.
 
 
 https://thevirtualleader.wordpress.com/tag/process-mapping/
