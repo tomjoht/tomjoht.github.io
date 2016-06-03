@@ -34,6 +34,10 @@ I created an example of how to build this workflow map [here](http://idratherbew
 
 This example users [modals from Bootstrap](http://getbootstrap.com/javascript/#modals) to pop up information boxes that contain the various topic groupings. You could design each box more attractively, even adding background images into each one and such. But this simple implementation shows the general idea.
 
+Here's a JS Fiddle for this code:
+
+<script async src="http://jsfiddle.net/tomjohnson1492/nuvcqbu5/embed/"></script>
+
 Ultimately this is still a linear workflow, but I've extracted out the steps into larger groups. Each group can have a combination of required and optional steps, along with other informational topics. This kind of map is probably more realistic, though it's not as straightforward as the simple linear workflow.
 
 I've never run across this kind of web design on any actual site, so users might find it strange. Still, I would gladly welcome this kind of process map in documentation. What do you think?
