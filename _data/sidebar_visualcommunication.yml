@@ -51,3 +51,8 @@ entries:
         - title: Examples of linear workflow user maps built with JS and CSS
           output: web, pdf
           url: /2016/05/30/building-a-workflow-user-map-with-css-and-js/
+
+
+        - title: More complex user process maps in documentation systems
+          output: web, pdf
+          url: /2016/06/03/more-complex-user-maps/

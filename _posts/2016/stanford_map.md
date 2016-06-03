@@ -1,57 +1,9 @@
----
-title: "Complex, non-linear user map workflows"
-categories:
-- visual-communication
-keywords:
-summary: ""
-thumb:
-type: visualcommunication
-published: false
----
 
-In my previous post, I outlined a method for [showing linear workflows](http://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/), and pointed users to [this example](http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/).
+## More creative maps
 
-Linear workflows work fine for simple processes that have a clear number of steps (especially when the steps are just a few, like the example).
+You could get more creative with user maps. For example, see [this site](http://www.clairetnet.com/serre-a-voeux/index.php?lang=en), as mentioned in this post on [rethinking navigation](http://sixrevisions.com/user-interface/is-it-time-to-rethink-website-navigation/).
 
-But what happens if you have a process that is more complicated? Note I'm still talking about *processes*, with a beginning and end. I'm not talking about general principles for organizing content, which is a much broader topic. Additionally, I'm focusing on processes within documentation sets, not processes that detail user journeys for customer UX design thinking, or processes that help efficiency engineers improve systems.
-
-Let's expand the sample workflow with some more contingencies. Here are the basic steps:
-
-1. Connect to ADB
-2. Download and Build the Starter Kit
-3. Take a Tour
-4. Load Your Widgets
-5. Query for Something
-
-Now let's add several optional steps (denoted with `-->`):
-
- --> General introductory material
-1. Connect to ADB
- --> For Windows users, follow these special instructions.
-2. Download and Build the Starter Kit
- --> Learn about the various starter kits available.
-3. Take a Tour
-4. Load Your Widgets
-5. Query for Something
- --> Learn about query syntax.
---> FAQs
---> Troubleshooting
-
-Now this is starting to look more like a help system. How can you represent the more complex processes here? In the linear workflow, it was easy to set up `div` tags and style everything using JS, CS, and HTML.
-
-Now the process is looking more like [this](https://thevirtualleader.files.wordpress.com/2012/02/check-request-process_visio.jpg.
-
-Instead of representing each box as a single tasks, how about making each box pop up a modal, which will explain the general stage of the process and link to all relevant assets?
-
-I mocked up a sample [here](http://idratherbewriting.com/documentation-theme-jekyll/p2_sample7/).
-
-Now instead of a specific task, you can group the steps into more general terms, which I've done with step 1, step 2, step 3, etc.
-
-Ultimately this is still a linear workflow, but I've extracted out the steps into larger groups. Each group can have a combination of required and optional steps, along with other information. This kind of map is probably more realistic, though it's not as straightforward.
-
-By the way, the code here uses Bootstrap modals. I extracted the code out into a JS Fiddle here:
-
-
+However, this more creative approach is usually overkill for documentation and requires more web design skill and resources than most of us have. 
 Last weekend I toured Stanford's museum, and I was intrigued by the museum map.
 
 <figure><a href="http://idratherbewriting.com"><img src="{{ "/images/standfordmap.JPG" | prepend: site.baseurl }}"/></a><figcaption>This map presents me with a lot of different choices.</figcaption></figure>
