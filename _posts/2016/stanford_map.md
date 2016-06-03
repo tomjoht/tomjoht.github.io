@@ -1,9 +1,20 @@
+---
+title: "Create maps to depict workflows through information spaces"
+categories:
+- visual-communication
+keywords:
+summary: ""
+thumb: userprocesscomplexthumb.png
+type: visualcommunication
+published: false
+---
+
 
 ## More creative maps
 
 You could get more creative with user maps. For example, see [this site](http://www.clairetnet.com/serre-a-voeux/index.php?lang=en), as mentioned in this post on [rethinking navigation](http://sixrevisions.com/user-interface/is-it-time-to-rethink-website-navigation/).
 
-However, this more creative approach is usually overkill for documentation and requires more web design skill and resources than most of us have. 
+However, this more creative approach is usually overkill for documentation and requires more web design skill and resources than most of us have.
 Last weekend I toured Stanford's museum, and I was intrigued by the museum map.
 
 <figure><a href="http://idratherbewriting.com"><img src="{{ "/images/standfordmap.JPG" | prepend: site.baseurl }}"/></a><figcaption>This map presents me with a lot of different choices.</figcaption></figure>
