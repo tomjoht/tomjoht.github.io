@@ -1145,3 +1145,9 @@ ul#mysidebar li.active a {
         width: 100%;
     }
 }
+
+
+.highlight .err {
+    color: black;
+    background-color: transparent;
+}
