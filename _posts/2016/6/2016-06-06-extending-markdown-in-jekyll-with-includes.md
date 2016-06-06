@@ -3,8 +3,8 @@ title: "Advanced formatting with Markdown using Jekyll and Includes"
 categories:
 - jekyll
 keywords:
-summary: ""
-thumb:
+summary: "Although the basic Markdown syntax can be pretty limiting, you can create more sophisticated HTML syntax and store them in templates. Using include syntax, you can pass parameters into these templates. This allows you to leverage more advanced HTML formatting (or other logic) without having to introduce that same level of complexity into your page authoring."
+thumb: jekyllthumbimage.png
 ---
 
 ## Conversation about Markdown and limitations
@@ -24,7 +24,7 @@ Jekyll let's you create files in an \_includes folder that you can include anywh
 You can also pass parameters to the include, and this is where things get interesting. Suppose in myfile.html, you added this:
 
 ```
-This is some {{include.stuff}}.
+{% raw %}This is some {{include.stuff}}. {% endraw %}
 ```
 
 Now `stuff` becomes a parameter that you can populate with the include syntax. Here's an example:
@@ -39,6 +39,8 @@ See how that works? The result will be:
 This is some special text.
 ```
 
+There's a great Jekyll screencast on includes on [Jekyll Tips](http://jekyll.tips/jekyll-casts/includes/).
+
 I use includes to templatize [alerts][3], [callouts][4], and [images][5] in my Jekyll Documentation theme.
 
 Essentially you can create sophisticated HTML formatting, and only require the user to pass certain parameters in an include using the basic include code.
@@ -49,7 +51,7 @@ You can also populate your page's frontmatter with specific properties and then 
 
 For example, the frontmatter for the user map pages contains the following:
 
-```
+```yaml
 ---
 title: Sample 1 Topic
 keywords: sample
@@ -80,7 +82,7 @@ The layout.html file, where this content gets pushed, contains the following:
 
 The values for the `map`, `map_name`, and `box_number` get passed into the template. Hopefully you can see how these parameters stored in the page's frontmatter populate the HTML code.
 
-What's cool about this approach is the ability to separate the content from the formatting. You don't want users worrying about whether they have the syntax right -- you just want them to supply the right values to a template.
+What's cool about this approach is the ability to separate the content from the formatting. You don't want your authors worrying about whether they have the syntax right -- you just want them to supply the right values to a template.
 
 Overall, you can create sophisticated HTML templates and then simply make each custom value a variable that you populate either through an include parameter or frontmatter parameter.
 
@@ -98,7 +100,7 @@ With the include approach, the syntax is much simpler:
 
 I like this approach because it gives me a lot more flexibility. As long as I can express the code in HTML, I can extract out the customizable values into a template for the writer to populate, keeping everything simple.
 
-For more advanced templates, I can leverage Liquid syntax to create loops and other logic.
+For more advanced templates, I can leverage [Liquid syntax][8] to create loops and other logic.
 
 ## Conclusion
 
@@ -117,3 +119,5 @@ Markdown syntax is limiting. Its simplicity is also its strength. When you need 
 [6]: http://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/
 
 [7]: http://idratherbewriting.com/2016/06/03/more-complex-user-maps-in-documentation-systems/
+
+[8]: https://shopify.github.io/liquid/
