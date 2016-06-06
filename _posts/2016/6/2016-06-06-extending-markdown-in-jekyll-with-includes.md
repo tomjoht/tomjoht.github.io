@@ -17,19 +17,19 @@ I want to add to the discussion by showing how Jekyll can be used to expand beyo
 
 Jekyll let's you create files in an \_includes folder that you can include anywhere in your doc. For example, create a file called myfile.html. Store it in your \_includes folder, and then you can embed the file anywhere by using this `include` syntax:
 
-```
+```liquid
 {% raw %}{% include myfile.html %} {% endraw %}
 ```
 
 You can also pass parameters to the include, and this is where things get interesting. Suppose in myfile.html, you added this:
 
-```
+```liquid
 {% raw %}This is some {{include.stuff}}. {% endraw %}
 ```
 
 Now `stuff` becomes a parameter that you can populate with the include syntax. Here's an example:
 
-```
+```liquid
 {% raw %} {% include myfile.html stuff="special text" %} {% endraw %}
 ```
 
@@ -66,7 +66,7 @@ box_number: 1
 
 The layout.html file, where this content gets pushed, contains the following:
 
-```
+```js
 {% raw %} {% if page.map == true %}
 
 <script>
@@ -94,7 +94,7 @@ In this way, you use Jekyll to get passed the limitations of Markdown syntax. Fo
 
 With the include approach, the syntax is much simpler:
 
-```
+```liquid
 {% raw %} {% include image.html file="jekyll.png" url="http://jekyllrb.com" alt="Jekyll" caption="This is a sample caption" %"}{% endraw %}
 ```
 
