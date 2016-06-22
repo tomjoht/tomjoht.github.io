@@ -1,4 +1,4 @@
---
+---
 title: "Attend the \"Solve This!\" Write the Docs Meetup tomorrow (June 23, 2016)"
 categories: general
 keywords: write the docs, meetings, creative problem solving
