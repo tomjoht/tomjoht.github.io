@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords:
 summary: "I often hear tech writers in developer doc say they don't use a lot of visuals because users just want code samples. While code samples certainly connect well with users, there's also room for clarifying difficult concepts through conceptual illustrations. The Android Vocabulary Glossary provides a perfect example of this."
-thumb:
+thumb: setterthumb.png
 ---
 
 You can view the [Android Vocabulary Glossary here](https://developers.google.com/android/for-all/vocab-words/).
