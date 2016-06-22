@@ -1,5 +1,5 @@
 ---
-title: "My contribution to a UX Careers Handbook on technical communication"
+title: "My technical communication contribution to the UX Careers Handbook"
 categories:
 - jekyll
 keywords:
@@ -18,13 +18,15 @@ successful User Experience (UX) professional from comprehensive career
 pathways to learning, personal branding, networking skills, building of resumes
 and portfolios, and actually landing a UX job (Read more in the [content preview](https://uxcareershandbook.com/The-UX-Careers-Handbook-Preview-web.pdf))
 
-The [UX Careers Handbook](https://uxcareershandbook.com/) has top-notch content, and I highly recommend that you [order a copy from Amazon](https://www.amazon.com/UX-Careers-Handbook-Cory-Lebson/dp/1138901067/ref=as_li_ss_tl?ie=UTF8&qid=1464783297&sr=8-1&keywords=ux+careers+handbook&linkCode=ll1&tag=uxca-20&linkId=6579f64f3bd0454cfce77342e8af7c0d).
+You can [order the UX Careers Handbook from Amazon here](https://www.amazon.com/UX-Careers-Handbook-Cory-Lebson/dp/1138901067/ref=as_li_ss_tl?ie=UTF8&qid=1464783297&sr=8-1&keywords=ux+careers+handbook&linkCode=ll1&tag=uxca-20&linkId=6579f64f3bd0454cfce77342e8af7c0d).
+
+There's also an online resource section for tech comm [here](https://uxcareershandbook.com/technical-communication/).
 
 The section I contributed is on technical communication, which I was pleased to see included in the user experience careers. I asked Cory if I could also publish the section I contributed on my blog, and he said I could. Here it is.
 
 ## Technical Communication
 
-by Tom Johnson, Senior Technical Writer, Experian
+by Tom Johnson, Senior Technical Writer
 
 As a technical writer, you help people understand complex technical information. In the United States, many technical writers work in a variety of industries creating documentation, especially for software applications. For example, when people click the help button in an application, your documentation appears and helps guide them through tasks.
 
@@ -142,3 +144,5 @@ Get more online: [uxcareershandbook.com/technical-communication](https://uxcaree
 <hr />
 
 Again, you [order the UX Careers Handbook from Amazon here](https://www.amazon.com/UX-Careers-Handbook-Cory-Lebson/dp/1138901067/ref=as_li_ss_tl?ie=UTF8&qid=1464783297&sr=8-1&keywords=ux+careers+handbook&linkCode=ll1&tag=uxca-20&linkId=6579f64f3bd0454cfce77342e8af7c0d).
+
+Special thanks to Ginny Reddish for her edits in my section and in the book overall. 
