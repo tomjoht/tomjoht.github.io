@@ -1,9 +1,9 @@
 ---
 title: "My technical communication contribution to the UX Careers Handbook"
 categories:
-- jekyll
+- beginners
 keywords:
-summary: "A while ago Cory Lebson, a seasoned user experience consultant, invited me to write a section on technical communication as part of his upcoming <i>UX Careers Handbook</i>. The book was just published and is now available for order."
+summary: "A while ago Cory Lebson, a seasoned user experience consultant, invited me to write a section on technical communication as part of his upcoming <i>UX Careers Handbook</i>. The book was just published and is now available for order. In this post I also include the section I contributed."
 thumb: uxcareershandbookthumb.png
 ---
 
@@ -20,7 +20,7 @@ and portfolios, and actually landing a UX job (Read more in the [content preview
 
 You can [order the UX Careers Handbook from Amazon here](https://www.amazon.com/UX-Careers-Handbook-Cory-Lebson/dp/1138901067/ref=as_li_ss_tl?ie=UTF8&qid=1464783297&sr=8-1&keywords=ux+careers+handbook&linkCode=ll1&tag=uxca-20&linkId=6579f64f3bd0454cfce77342e8af7c0d).
 
-There's also an online resource section for tech comm [here](https://uxcareershandbook.com/technical-communication/).
+There's also an [online resource section for tech comm here](https://uxcareershandbook.com/technical-communication/).
 
 The section I contributed is on technical communication, which I was pleased to see included in the user experience careers. I asked Cory if I could also publish the section I contributed on my blog, and he said I could. Here it is.
 
@@ -134,7 +134,7 @@ However, technical writers often prefer titles that give more emphasis and credi
 *  Technical Communicator
 *  User Assistance Professional
 
-Career pathways that may be combined with technical communication in job descriptions
+Career pathways that may be combined with technical communication in job descriptions:
 
 *  Content writing/Information design
 *  Content strategy
@@ -145,4 +145,4 @@ Get more online: [uxcareershandbook.com/technical-communication](https://uxcaree
 
 Again, you [order the UX Careers Handbook from Amazon here](https://www.amazon.com/UX-Careers-Handbook-Cory-Lebson/dp/1138901067/ref=as_li_ss_tl?ie=UTF8&qid=1464783297&sr=8-1&keywords=ux+careers+handbook&linkCode=ll1&tag=uxca-20&linkId=6579f64f3bd0454cfce77342e8af7c0d).
 
-Special thanks to Ginny Reddish for her edits in my section and in the book overall. 
+Special thanks to Ginny Reddish for her edits in my section and in the book overall.
