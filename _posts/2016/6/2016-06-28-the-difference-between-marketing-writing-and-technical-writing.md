@@ -9,8 +9,6 @@ thumb: clairethumb.png
 
 <img src="{{ "/images/clairessale.JPG" | prepend: site.baseurl }}" alt="The difference between marketing writing and technical writing" />
 
-If you love communicating information in a clear, easy-to-understand way, become a technical writer.
+I love communicating information in a clear, easy-to-understand way, which is why I become a technical writer. Prior to working as a technical writer, I did work as a copywriter for a health and nutrition company. I spent endless amounts of time trying to persuade people to buy protein pills that they probably didn't need.
 
-If you like to embellish and manipulate words in a way that somewhat confuses users and persuades them to buy something, become a marketing writer.
-
-Okay, it's not that bad. But seriously, I couldn't live with myself if I had to write copy like the big font on Claire's red sign every day.
+I guess the flip side is that now, as a technical writer, I spend a lot of time writing instructions that many people may never read. 
