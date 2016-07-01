@@ -1,5 +1,5 @@
 ---
-title: "How the Solve This! meetup format turned out -- plus some unrealized parallels with the Dead Poet Society"
+title: "How the Solve This! meetup format turned out -- plus some unachieved parallels with the Dead Poet Society"
 categories:
 - general
 keywords: meetups, creative formats, interactivity
