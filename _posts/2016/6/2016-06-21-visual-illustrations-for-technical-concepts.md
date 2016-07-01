@@ -2,8 +2,8 @@
 title: "Examples of visual communication in developer documentation with the Android Vocabulary Glossary"
 categories:
 - visual-communication
-keywords:
-summary: "I often hear tech writers in developer doc say they don't use a lot of visuals because users just want code samples. While code samples certainly connect well with users, there's also room for clarifying difficult concepts through conceptual illustrations. The Android Vocabulary Glossary provides a perfect example of this."
+keywords: visuals, android, google, visual communication, developer documentation
+summary: "I often hear tech writers in developer doc say they don't use a lot of visuals because users just want code samples. While code samples certainly connect well with users, there's also room to clarify difficult concepts through conceptual illustrations. The Android Vocabulary Glossary provides a perfect example of this."
 thumb: setterthumb.png
 ---
 

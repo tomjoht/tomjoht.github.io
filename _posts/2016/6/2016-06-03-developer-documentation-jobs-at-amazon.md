@@ -2,7 +2,7 @@
 title: "Interested in working as a technical writer at Amazon?"
 categories:
 - general
-keywords: Amazon Lab 126, technical writer
+keywords: Amazon Lab 126, technical writer, jobs, alexa technical writing, amazon documentation
 summary: "We're looking to add a couple of technical writers to our Appstore documentation team at Amazon in the Seattle and Sunnyvale locations. If you're interested, contact me. The focus is on developer documentation, so you'll need to be comfortable documenting web services."
 thumb: amazonjobs.png
 ---
