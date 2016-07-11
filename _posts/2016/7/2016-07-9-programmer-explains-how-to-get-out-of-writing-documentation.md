@@ -8,7 +8,7 @@ summary: "This past week on the WTD Slack forum, there was a bit of discussion a
 
 ## Documentation Avoidance presentation
 
-You can view the presentation by Peter Hilton here: [Documentation Avoidance for Programmers](https://www.infoq.com/presentations/minimal-code-documentation)
+You can view the presentation by Peter Hilton here: [Documentation Avoidance for Programmers](https://www.infoq.com/presentations/minimal-code-documentation).
 
 Some of the tips are ridiculous (and said  tongue-in-cheek). Hilton says you can go on Slack or IRC and ask other programmers what a particular class does (even if you already know), and then just copy their answer and use it for documentation. 
 
