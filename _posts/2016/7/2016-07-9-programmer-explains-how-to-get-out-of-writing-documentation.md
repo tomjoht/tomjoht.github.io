@@ -1,14 +1,14 @@
 ---
-title: "Thoughts on \"Documentation Avoidance for Programmers\" presentation"
+title: "Thoughts on \"Documentation Avoidance for Programmers\""
 categories:
 - general
 keywords: documentation, developer, write the docs, efficiency 
-summary: "This past week on the WTD Slack forum, there was a bit of discussion around a recent presentation titled \"Documentation Avoidance for Programmers\". In the presentation, Peter Hilton lays out a series of tips on how programmers might get out of writing documentation."
+summary: "This past week on the WTD Slack forum, there was a bit of discussion around a recent presentation titled \"Documentation Avoidance for Programmers.\" In the presentation, Peter Hilton lays out a series of tips on how programmers might get out of writing documentation."
 ---
 
 ## Documentation Avoidance presentation
 
-You can view the presentation by [Peter Hilton](http://hilton.org.uk/) here: [Documentation Avoidance for Programmers](https://www.infoq.com/presentations/minimal-code-documentation)
+You can view the presentation by Peter Hilton here: [Documentation Avoidance for Programmers](https://www.infoq.com/presentations/minimal-code-documentation)
 
 Some of the tips are ridiculous (and said  tongue-in-cheek). Hilton says you can go on Slack or IRC and ask other programmers what a particular class does (even if you already know), and then just copy their answer and use it for documentation. 
 
@@ -48,5 +48,5 @@ Finally, experts are hampered by the curse of knowledge. They know too much and 
 
 There really is a strong need for technical writers to step in and provide a fresh outsider's perspective. This outsider's perspective is perhaps what, paradoxically, makes explaining complex information somewhat easier.
 
-Overall, [Peter's presentation](https://www.infoq.com/presentations/minimal-code-documentation) is a great one to listen to. You can follow up with any questions to "@Peter.Hilton" on the [WTD Slack forum](https://writethedocs.slack.com).
+Overall, [Peter's presentation](https://www.infoq.com/presentations/minimal-code-documentation) is a great one to listen to.  You can follow up with any questions to “@Peter.Hilton” on the [WTD Slack forum](https://writethedocs.slack.com). You can learn more about Peter at [hilton.org.uk](http://hilton.org.uk/).
 
