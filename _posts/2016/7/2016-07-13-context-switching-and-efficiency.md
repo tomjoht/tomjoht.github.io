@@ -3,31 +3,37 @@ title: "Context switching and efficiency"
 categories:
 - general
 keywords: 
-summary: ""
+summary: "In \"Become more productive and motivated,\" Mattias Sander provides a well-written overview of lean principles that touch upon the efficiency drag of context-switching. Sander explains the core ideas of Kanban, which is a system based on cards to regulate flow. While these principles were developed in the context of Japanese car manufacturers (namely Toyota), they apply equally to the technical writer's world."
 thumb:
 published: false
 ---
 
-Become more productive and motivated, by Mattias Sander
+You can read the article by Mattias Sander here: [Become more productive and motivated](http://techwritingengineer.com/keep-it-lean-become-more-productive-and-motivated/
+). The article originally appeared in the ISTC Communicator (Summer 2016).
 
-http://techwritingengineer.com/keep-it-lean-become-more-productive-and-motivated/
-This article was originally published in ISTC Communicator, Summer 2016.
 
-The idea of Lean is to maximize customer
-value while minimizing waste, thus creating
-more value for customers with fewer resources.
+Sander begins general and describes lean:
 
-Motion is the waste of movement around a
-product or work-item, for example, reaching
-too far to grab a tool
+>The idea of Lean is to maximize customer value while minimizing waste, thus creating more value for customers with fewer resources.
+> Motion is the waste of movement around a product or work-item, for example, reaching too far to grab a tool.
 
-Task switching could be considered to be Motion. Some estimates say that you lose 40% of your time because of task switching.
+These abstracts eventually get more specific, focusing on the familiar problem of multi-tasking and context-switching, which turn out to be huge drags on efficiency.
 
-Kanban -- helps us avoid task switching. backlog, doing, done.
+Sander explains:
 
-To avoid task
-switching, we want as few items as possible in
-any Doing category at any given time.
+>Task switching could be considered to be Motion. Some estimates say that you lose 40% of your time because of task switching.
+
+Here Sander gets starts talking about Kanban. The basic idea of Kanban is to limit the number of tasks you're doing at a given time so that you aren't constantly switching between tasks. You break up your tasks into 3 basic categories:
+
+* Backlog
+* Doing
+* Done
+
+You only allow a limited number of items (for example, 3) in your "Doing" category.
+
+Sander says:
+
+>To avoid task switching, we want as few items as possible in any Doing category at any given time.
 
 
 In knowledge work we don’t really have inventory of things, we have work in progress. The more we have, the slower we produce because of the task switching. We can use the Kanban method to reduce our work in progress, and to help us keep track of what we need to produce. In essence, all our work goes through three stages:
