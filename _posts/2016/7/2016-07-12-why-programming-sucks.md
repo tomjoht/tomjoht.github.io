@@ -1,5 +1,5 @@
 ---
-title: "Why \"Programming Sucks\" and the fallacy of documentation in a world of code chaos"
+title: "Why \"Programming Sucks\" and the fallacy of documentation in the context of code chaos"
 categories:
 - api-doc
 keywords: peter welch, programming, documentation, chaos, order
@@ -8,9 +8,9 @@ summary: "Yesterday on WTD, someone shared an article titled \"Programming Sucks
 
 You can read Peter Welch's essay here: [Programming Sucks](http://www.stilldrinking.org/programming-sucks).
 
-Welch starts by responding to criticisms of friends who work in manual labor fields and assume that a programmer's life consists of sitting calmly at a desk, playing on a computer all day. Peter's main argument is that programming can be just as hellish as the worst manual labor job, but the hell isn't in the physical exhaustion as much as the mental insanity you have to endure.
+Welch starts by responding to criticisms of friends who work in manual labor fields and assume that a programmer's life consists of sitting calmly at a desk, playing on a computer all day. Welch's main argument is that programming can be just as hellish as the worst manual labor job, but the hell isn't in the physical exhaustion as much as the mental insanity you have to endure.
 
-More than anything, Peter's tone is playful and full of images, turns of phrases, and the raw, blunt honesty that tends to define programming culture. Here's a passage:
+More than anything, Welch's tone is playful and full of images, turns of phrases, and the raw, blunt honesty that tends to define programming culture. Here's a passage:
 
 >Websites that are glorified shopping carts with maybe three dynamic pages are maintained by teams of people around the clock, because the truth is everything is breaking all the time, everywhere, for everyone. Right now someone who works for Facebook is getting tens of thousands of error messages and frantically trying to find the problem before the whole charade collapses. There's a team at a Google office that hasn't slept in three days. Somewhere there's a database programmer surrounded by empty Mountain Dew bottles whose husband thinks she's dead. And if these people stop, the world burns. Most people don't even know what sysadmins do, but trust me, if they all took a lunch break at the same time they wouldn't make it to the deli before you ran out of bullets protecting your canned goods from roving bands of mutants.
 
@@ -30,7 +30,7 @@ In short, programming isn't a clear and logical exercise. It's an art where some
 
 On the other side of the fence, **documentation** strives to be clear, logical, and precise. Technical writers insist on 1-2-3 step approaches following a linear sequence. Our job is to bring order to the chaos.
 
-To do so, we have to construct somewhat of a [narrative fallacy](https://wiki.lesswrong.com/wiki/Narrative_fallacy). The narrative fallacy is the illusion that a story develops along a clear and straightforward path based on a coherent idea or pattern (or in the context of documentation, that following these "easy" steps will achieve your goal) even when reality suggests much the opposite -- that motives are fuzzy, things happen somewhat randomly, decisions and epiphanies might be made in retrospect (or not at all), and the events can't be neatly plotted against an underlying principle or overarching lesson, nor are they connected or linear. Life is messy, and events have no meaning. There is no 1-2-3 step task to reach a goal. Programmers follow a mostly obscure path that takes them through many dark forests before the randomly stumble upon a brief opening that provides a lighted view.
+To do so, we have to construct somewhat of a [narrative fallacy](https://wiki.lesswrong.com/wiki/Narrative_fallacy). The narrative fallacy is the illusion that a story develops along a clear and straightforward path based on a coherent idea or pattern (or in the context of documentation, that following these "easy" steps will achieve your goal) even when reality suggests much the opposite -- that motives are fuzzy, things happen somewhat randomly, decisions and epiphanies might be made in retrospect (or not at all), and the events can't be neatly plotted against an underlying principle or overarching lesson, nor are they connected or linear. Life is messy, and events have no meaning. There is no 1-2-3 step task to reach a goal. Programmers follow a mostly obscure path that takes them through many dark forests before the randomly stumble upon a brief opening that provides a change of view.
 
 And yet, when you read something, especially documentation, you expect logic. You want a clear line of thought. We're taught from gradeschool on up that all writing begins with a thesis, an assertion which is then carefully supported in each of the following paragraphs. Each paragraph has a central idea that all ties back to this thesis or argument.
 
@@ -38,6 +38,6 @@ But programming isn't like this clear line of logic -- at least according to Wel
 
 Is documentation, then, an illusion? A fiction that forces a narrative fallacy onto a programmer's world, not entirely describing the programmer's true task and challenges, and in so doing causes programmers to reject documentation (as well as writing it) in the first place? I think in part, yes.
 
-I'm not suggesting that documentation try to let go of that clear line pointing from A to B, but there might be something to the chaos of code that runs counter to the task-based steps we so carefully like to draw out. Perhaps we should not insist so sharply on the [fictitious] steps in our documentation.
+I'm not suggesting that documentation try to let go of that clear line pointing from A to B, but there might be something to the chaos of code that runs counter to the task-based steps we so carefully like to draw out. Perhaps we should not insist so sharply on the [fictitious?] steps in our documentation? Then again, perhaps this idea of order in documentation is the only thing that keeps programmers from entering total insanity.
 
 
