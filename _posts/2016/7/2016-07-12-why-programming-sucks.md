@@ -4,6 +4,7 @@ categories:
 - api-doc
 keywords: peter welch, programming, documentation, chaos, order
 summary: "Yesterday on WTD, someone shared an article titled \"Programming Sucks\", by Peter Welch. More than just a developer monologue, this article seems to hit on universal truths about programming, so much that the article has been translated into 10 languages and even has a professionally-read audio version on iTunes (which I bought for $2)."
+bitlink: http://bit.ly/progchaos
 ---
 
 You can read Peter Welch's essay here: [Programming Sucks](http://www.stilldrinking.org/programming-sucks).
