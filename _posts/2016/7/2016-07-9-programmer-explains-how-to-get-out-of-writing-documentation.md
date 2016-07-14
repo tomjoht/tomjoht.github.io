@@ -3,7 +3,7 @@ title: "Thoughts on \"Documentation Avoidance for Programmers\""
 categories:
 - general
 keywords: documentation, developer, write the docs, efficiency 
-summary: "This past week on the WTD Slack forum, there was a bit of discussion around a recent presentation titled \"Documentation Avoidance for Programmers.\" In the presentation, Peter Hilton lays out a series of tips on how programmers might get out of writing documentation."
+summary: "This past week on the Write the Docs forum, there was a bit of discussion around a recent presentation titled \"Documentation Avoidance for Programmers.\" In the presentation, Peter Hilton lays out a series of tips on how programmers might get out of writing documentation."
 bitlink: http://bit.ly/documentationavoidance
 ---
 
