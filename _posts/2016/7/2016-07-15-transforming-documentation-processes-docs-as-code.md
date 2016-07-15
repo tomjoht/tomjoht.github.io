@@ -1,5 +1,5 @@
 ---
-title: "Trends in the way technical writers are transforming documentation processes"
+title: "Thoughts on \"Transforming Documentation Processes\" presentation at WTD: Evaluating the trend to treat documentation as code"
 categories:
 - api-doc
 keywords: Riona Macnamara, documentation processes, Write the Docs conference, transformation, documentation trends, doc as code, openness, collaboration
