@@ -22,7 +22,7 @@ podcast_length: 8053544
 <p><b>Listen to this post:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/transforming-doc-processes.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/transforming-doc-processes.mp3" alt="Thoughts on Transforming Documentation Processes presentation at WTD: Evaluating the trend to treat documentation as code">download the MP3 file here</a>.</p>
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/transforming-doc-processes.mp3" alt="Thoughts on Transforming Documentation Processes presentation at WTD: Evaluating the trend to treat documentation as code">>download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
 </div>
 
 You can watch the [Transforming Your Documentation Process](https://www.youtube.com/watch?v=Y2TGwUPb8R4) presentation here:

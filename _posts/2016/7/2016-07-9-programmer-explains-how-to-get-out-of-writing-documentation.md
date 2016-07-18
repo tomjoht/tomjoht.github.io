@@ -22,7 +22,7 @@ podcast_length: 4690110
 <p><b>Listen to this post:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/documentation-avoidance.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/documentation-avoidance.mp3" alt="Thoughts on Documentation Avoidance for Programmers">download the MP3 file here</a>.</p>
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/documentation-avoidance.mp3" alt="Thoughts on Documentation Avoidance for Programmers">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
 </div>
 
 ## Documentation Avoidance presentation

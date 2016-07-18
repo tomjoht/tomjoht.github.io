@@ -22,7 +22,7 @@ podcast_length: 5797577
 <p><b>Listen to this post:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3" alt="Why Programming Sucks and the fallacy of documentation in the context of code chaos">download the MP3 file here</a>.</p>
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3" alt="Why Programming Sucks and the fallacy of documentation in the context of code chaos">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
 </div>
 
 
