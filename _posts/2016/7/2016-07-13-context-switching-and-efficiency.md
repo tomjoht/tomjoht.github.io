@@ -40,7 +40,7 @@ These abstract principles about Lean eventually get more specific, focusing on t
 
 >Task switching could be considered to be Motion. Some estimates say that you lose 40% of your time because of task switching.
 
-Here Sander gets into about Kanban as a solution to task switching. The basic idea of Kanban is to limit the number of tasks you're doing at a given time so that you aren't constantly switching activities and losing the context you need to be productive. With Kaban, you break up your tasks into 3 basic categories:
+Here Sander gets into Kanban as a solution to task switching. The basic idea of Kanban is to limit the number of tasks you're doing at a given time so that you aren't constantly switching activities and losing the context you need to be productive. With Kaban, you break up your tasks into 3 basic categories:
 
 * Backlog
 * Doing
