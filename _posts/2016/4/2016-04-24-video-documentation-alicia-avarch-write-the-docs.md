@@ -3,9 +3,21 @@ title: "Recording of WTD presentation on Video Documentation, by Alicia Avrach"
 categories:
 - screencasting
 - podcasts
-keywords: 
+keywords: video documentation, video tutorials, screencasts, screen recordings, video production
 summary: "Alicia Avrach, a content strategist at ThoughtSpot, gave a presentation about video documentation at a recent Write the Docs San Francisco meetup. In this presentation, Alicia covers all the aspects of video production, from scripting to recording, post-processing, publishing, and more."
 thumb: videodocthumb.png
+date: 2016-04-24
+categories: podcast
+tags:
+- technical writing
+- video
+- documentation
+- technical communication
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3
+podcast_file_size: 56.5 MB
+podcast_duration: "01:16:37"
+podcast_length: 56518010
 ---
 
 ## Presentation description
