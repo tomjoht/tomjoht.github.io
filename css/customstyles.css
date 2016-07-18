@@ -1151,3 +1151,8 @@ ul#mysidebar li.active a {
     color: black;
     background-color: transparent;
 }
+
+.audioControls {
+    background-color: #f0f0f0
+    padding: 10px;
+}

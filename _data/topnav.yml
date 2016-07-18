@@ -6,12 +6,11 @@ topnav:
     - title: Beginners
       url: /category-beginners/
 
-    - title: Visual comm
-      url: /2016/05/01/visualcommunication_course_overview/
-
     - title: API doc
       url: /docapis_course_overview/
 
+    - title: Podcasts
+      url: /category-podcasts/
 #Topnav dropdowns
 
 topnav_dropdowns:
@@ -177,5 +176,6 @@ topnav_dropdowns:
           url: /advertising/
         - title: Jobs
           url: /findjobs/
-        - title: Podcasts
-          url: /category-podcasts/
+        - title: Visual comm
+          url: /2016/05/01/visualcommunication_course_overview/
+

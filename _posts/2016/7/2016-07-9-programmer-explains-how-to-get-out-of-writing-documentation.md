@@ -2,10 +2,28 @@
 title: "Thoughts on \"Documentation Avoidance for Programmers\""
 categories:
 - general
+- podcasts
 keywords: documentation, developer, write the docs, efficiency 
 summary: "This past week on the Write the Docs forum, there was a bit of discussion around a recent presentation titled \"Documentation Avoidance for Programmers.\" In the presentation, Peter Hilton lays out a series of tips on how programmers might get out of writing documentation."
 bitlink: http://bit.ly/documentationavoidance
+date: 2016-07-09
+categories: podcast
+tags:
+- technical writing
+- documentation
+- technical communication
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/documentation-avoidance.mp3
+podcast_file_size: 4.7 MB
+podcast_duration: "6:00"
+podcast_length: 4690110
 ---
+
+<div class="audioControls">
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/documentation-avoidance.mp3" type="audio/mpeg" /></audio></p>
+
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/documentation-avoidance.mp3" alt="Thoughts on Documentation Avoidance for Programmers">download the MP3 file here</a>.</p>
+</div>
 
 ## Documentation Avoidance presentation
 
@@ -45,7 +63,7 @@ For starters, programming languages are in ... another language. Fluency in one 
 
 Also, writing good documentation takes time and effort. This often requires more patience than engineers are willing to dedicate. Programmers and engineers would usually rather be coding and building things instead of explaining them to others. With documentation, it can take a lot of effort and multiple tries before you get the organization and flow of logic just right.
 
-Finally, experts are hampered by the curse of knowledge. They know too much and can't identify the assumptions, needed knowledge, and other building blocks of basic that users need. 
+Finally, experts are hampered by the curse of knowledge. They know too much and can't identify the assumptions, needed knowledge, and other building blocks that basic that users need. 
 
 There really is a strong need for technical writers to step in and provide a fresh outsider's perspective. This outsider's perspective is perhaps what, paradoxically, makes explaining complex information somewhat easier.
 
