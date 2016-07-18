@@ -6,7 +6,7 @@ keywords: Riona Macnamara, documentation processes, Write the Docs conference, t
 summary: "At the last Write the Docs conference, Riona Macnamara, a tech writer working on internal developer documentation at Google, moderated a panel about transforming your documentation process. The panel consisted of four writers from various companies -- Balsamiq, Rackspace, Microsoft, and Twitter. The panelists talked about how they increased collaboration and openness in their company's doc culture by transforming their authoring and publishing processes. Most of these transformations involved adopting a \"docs as code\" type approach, which seems to be a growing trend."
 bitlink: http://bit.ly/treatingdocascode
 date: 2016-07-15
-categories: podcast
+categories: podcasts
 tags:
 - technical writing
 - documentation

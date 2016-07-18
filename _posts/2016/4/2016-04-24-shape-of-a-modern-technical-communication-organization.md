@@ -5,7 +5,7 @@ keywords: roles, technical writing, tech comm organization, sanborn hodgkins, vm
 summary: "Sanborn Hodgkins gave a presentation to the STC Silicon Valley chapter called <i>Shape of a Modern Technical Communication Organization</i> on April 18. In the presentation, she highlights the variety of roles &mdash; editor, videographer, information architect, content strategist, manager, writer, tools developer, and others &mdash; that tech comm organizations need to thrive."
 thumb: shapeorgthumb.png
 date: 2016-04-24
-categories: podcast
+categories: podcasts
 tags:
 - technical writing
 - video

@@ -6,7 +6,7 @@ keywords: documentation, engineering, web design, internal engineering documenta
 summary: "During the May WTD meetup, Ruthie Bendor, a web engineer, gave a presentation titled 'Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup'. This post contains the audio and video recording of her presentation."
 thumb: writethedocsthumb.png
 date: 2016-05-22
-categories: podcast
+categories: podcasts
 tags:
 - technical writing
 - documentation

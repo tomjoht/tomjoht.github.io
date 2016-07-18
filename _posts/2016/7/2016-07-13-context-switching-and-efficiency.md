@@ -6,7 +6,7 @@ keywords: kanban, context switching, waste, efficiency, multi-tasking, projects
 summary: "In \"Become more productive and motivated,\" Mattias Sander provides a well-written overview of Lean, which is a strategy for eliminating waste and focusing more on customer value. What interests me most with Sander's discussion about Lean is context-switching and the subsequent strategy of Kanban, which uses cards to regulate flow. While these principles were developed in the context of Japanese car manufacturers (namely Toyota), they apply equally to the technical writer's world."
 bitlink: http://bit.ly/kanbanandefficiency
 date: 2016-07-13
-categories: podcast
+categories: podcasts
 tags:
 - technical writing
 - documentation
