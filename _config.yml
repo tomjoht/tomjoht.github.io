@@ -107,7 +107,7 @@ sass:
 ## itunes feed settings
 
 podcast_url: http://www.idratherbewriting.com
-podcast_album_art: http://www.idratherbewriting.com/images/techwritervoices.jpg
+podcast_album_art: /images/techwritervoices.jpg
 podcast_title: I'd Rather Be Writing iTunes Feed
 podcast_owner: Tom Johnson
 podcast_email: tom@idratherbewriting.com
