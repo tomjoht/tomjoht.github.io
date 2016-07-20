@@ -35,7 +35,7 @@ For example, here are a few features (based on requirements) that I added to my 
 
 Finding a way to do all of this with Jekyll (which was originally designed as a blogging tool but turns out to be flexible enough to allow you to do "whatever you want") was challenging. I mean first, I had to figure out *if* it could be done. Then I had to make it happen.
 
-{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">Clickhelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">ClickHelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
 
 ## My Rube Goldberg Machine
 
