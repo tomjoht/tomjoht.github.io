@@ -3,6 +3,7 @@ title: "Applying Tim Ferriss' 4-hour work week rules to tech comm projects"
 categories:
 - general
 - innovation
+- podcasts
 keywords: Tim Ferriss, project management, productivity, efficiency, 4-hour work week, kanban
 summary: "Principles in Tim Ferriss' book The 4-Hour Work Week can be applied to tech comm projects. By focusing on the 20% of tasks that result in 80% of the results, limiting your focus to two mission critical tasks a day, empowering those around you to make decisions, and avoiding distractions from trivial tasks, meetings, and email, you can be much more productive in your work. More than crossing off a list of tasks, this approach will likely make your efforts matter."
 date: 2016-07-21
@@ -17,6 +18,7 @@ podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcast
 podcast_file_size: 7.8 MB
 podcast_duration: "09:34"
 podcast_length: 7755917
+bitlink: http://bit.ly/ferrisprojmgmttc
 ---
 
 <div class="audioControls">
