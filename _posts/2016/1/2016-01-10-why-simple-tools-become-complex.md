@@ -35,7 +35,7 @@ For example, here are a few features (based on requirements) that I added to my 
 
 Finding a way to do all of this with Jekyll (which was originally designed as a blogging tool but turns out to be flexible enough to allow you to do "whatever you want") was challenging. I mean first, I had to figure out *if* it could be done. Then I had to make it happen.
 
-{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">Clickhelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user and is even free for small projects. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">Clickhelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
 
 ## My Rube Goldberg Machine
 
@@ -67,22 +67,5 @@ Regardless of the route you take, in the end, you're not going to escape the com
 
 <img src="{{ "/images/complexity-01.svg" | prepend: site.baseurl }}" alt="Complexity options" />
 
-If you create your own custom solutions, you have much more flexibility to do what you want &mdash; you just need the right skills. If you plug into standardized complexity (like DITA), you can buy  systems and platforms that remove some of the complexity for you and put it behind a closed door. However, making any modifications to some of these pre-built systems will certainly be daunting.
-
-
-
-
-
-
-
-
-
-People want modern-looking, interactive websites. Then they also explain on that they need PDF generation, translation, multi-edit capabilities, single source generation, workflows, and document statuses, etc. By the time the list of requirements is finalized, about the only tools that satisfy them are more traditional tech comm tools. 
-
-
-
-
-So, sure, that looks nice and clean compared with the comprehensive
-documentation I've produced for a product that's 100 times as complex. Robert Lauriston
-
+If you create your own custom solutions, you have much more flexibility to do what you want &mdash; you just need the right skills. If you plug into standardized complexity (like DITA), you can buy systems and platforms that remove some of the complexity for you and put it behind a closed door. However, making any modifications to some of these pre-built systems will certainly be daunting.
 
