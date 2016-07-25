@@ -212,8 +212,8 @@ If the previous instructions were confusing, just copy the following code and re
 <head>
   <meta charset="UTF-8">
   <title>Swagger UI</title>
-  <link rel="icon" type="image/png" href="/images_api/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/images_api/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16" />
+  <link rel="icon" type="image/png" href="images_api/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images_api/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16" />
   <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
