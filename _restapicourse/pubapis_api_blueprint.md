@@ -221,7 +221,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	
 	You'll be placed in the API Blueprint editor. 
 	
-	<img src="{{ "images_api/apiaryblueprinteditor.png" | prepend: site.baseurl}}" alt="API Blueprint editor" />
+	<img src="{{ "/images_api/apiaryblueprinteditor.png" | prepend: site.baseurl }}" alt="API Blueprint editor" />
 	
 	By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
 	

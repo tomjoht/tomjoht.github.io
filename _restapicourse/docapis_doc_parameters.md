@@ -20,7 +20,7 @@ Parameters refer to the various ways the endpoint can be configured to influence
 
 Here's an example from Yelp's documentation:
 
-<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "images_api/yelpparameters.png" | prepend: site.baseurl}}" alt="Yelp parameters" /></a>
+<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "/images_api/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
 
 You can format the values in a variety of ways. If using a definition list or other non-table format, you probably have styles that make these values easily readable.
 
@@ -63,7 +63,7 @@ However, if the parameter is part of the actual endpoint path (not added in the 
 
 Here's an example from Twilio:
 
-<a href="https://www.twilio.com/docs/api/rest/lookups"><img src="{{ "images_api/twiliosample.png" | prepend: site.baseurl}}" alt="Twilio Example" /></a>
+<a href="https://www.twilio.com/docs/api/rest/lookups"><img src="{{ "/images_api/twiliosample.png" | prepend: site.baseurl }}" alt="Twilio Example" /></a>
 
 The `{PhoneNumber}` value is described in the description of the endpoint rather than in another section that lists the query parameters you can pass to the endpoint.
 
@@ -119,7 +119,7 @@ By all means, if the JSON object is relatively small, a table is probably your b
 
 In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll):
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll"><img src="{{ "images_api/scrollto-550x310.png" | prepend: site.baseurl}}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll"><img src="{{ "/images_api/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
 
 When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
 
@@ -131,7 +131,7 @@ Finally, this approach doesn't allow for easy scanning. However, this scrolling 
 
 In Stripe's API documentation, the writers try to juxtapose the responses in a right side pane with the documentation in the main window.
 
-<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "images_api/stripe-550x373.png" | prepend: site.baseurl}}" alt="Stripe" style="border:1px solid #dedede;"/> </a>
+<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images_api/stripe-550x373.png" | prepend: site.baseurl }}" alt="Stripe" style="border:1px solid #dedede;"/> </a>
 
 The idea is that you can see both the description and a sample response at the same time, and just scroll down.
 
@@ -141,7 +141,7 @@ However, the description doesn't always line up with the sample response. (In so
 
 Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
 
-<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "images_api/twitternojsondoc.png" | prepend: site.baseurl}}" alt="Twitter" style="border:1px solid #dedede;"/></a>
+<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "/images_api/twitternojsondoc.png" | prepend: site.baseurl }}" alt="Twitter" style="border:1px solid #dedede;"/></a>
 
 Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms, often using abbreviations. The shorter the term, the more it needs accompanying documentation.
 
@@ -151,7 +151,7 @@ In one endpoint I documented, the response included about 20 different two-lette
 
 eBay's API takes a little different approach. For each item in the XML response, they give some context about where the item appears.
 
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "images_api/ebay-550x335.png" | prepend: site.baseurl}}" alt="eBay"  style="border:1px solid #dedede;"/></a>
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/ebay-550x335.png" | prepend: site.baseurl }}" alt="eBay"  style="border:1px solid #dedede;"/></a>
 
 For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`.
 
@@ -203,7 +203,7 @@ The Model Schema shows a sample of the syntax along with examples. When you clic
 ```
 Now click **Model** (the grayed out text) and look at the view. 
 
-<a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "images_api/swaggersubtlemodellink.png" | prepend: site.baseurl}}" alt="Swagger Model" /></a>
+<a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "/images_api/swaggersubtlemodellink.png" | prepend: site.baseurl }}" alt="Swagger Model" /></a>
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
@@ -230,7 +230,7 @@ The Petstore spec doesn't actually include many parameter descriptions in the Mo
 
 In this view, when there's a nested object, like `category`, it has a reference to another part of the model. You have to look at "Category" for details about category and look at "Tag" for details about tags.
 
-<img src="{{ "images_api/swagger-model.png" | prepend: site.baseurl}}" alt="Model versus Model Schema" />
+<img src="{{ "/images_api/swagger-model.png" | prepend: site.baseurl }}" alt="Model versus Model Schema" />
 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
 
@@ -242,7 +242,7 @@ The MYOB Developer Center takes an interesting approach in documenting the JSON 
 
 To the right of the JSON definitions is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
 
-<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "images_api/myobjsondoc.png" | prepend: site.baseurl}}" alt="MYOB JSON doc approach" /></a>
+<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "/images_api/myobjsondoc.png" | prepend: site.baseurl }}" alt="MYOB JSON doc approach" /></a>
 
 If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover + collapsible approach allows you to compress the table so you can jump to the part you're interested in.
 

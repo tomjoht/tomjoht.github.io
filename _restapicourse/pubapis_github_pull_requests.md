@@ -23,13 +23,13 @@ To make edits in a separate branch:
 
 1. Pretend you're a SME reviewer. Go to the Github repo and create a new branch by selecting the branch drop-down menu and typing a new branch name, such as "sme review."
 	
-	<img src="{{ "images_api/github_sme_review.png" | prepend: site.baseurl}}" alt="Creating a new branch" />
+	<img src="{{ "/images_api/github_sme_review.png" | prepend: site.baseurl }}" alt="Creating a new branch" />
 	
 	When you create a new branch, the content from the master is copied over into the new branch. The branch is like doing a "Save as" with an existing document.
 	
 2. Click the **README.txt** file, and then click the **Edit this file** button (pencil icon) to edit the file.
 	
-	<img src="{{ "images_api/github_making_branch_edits.png" | prepend: site.baseurl}}" alt="Making an edit" />
+	<img src="{{ "/images_api/github_making_branch_edits.png" | prepend: site.baseurl }}" alt="Making an edit" />
 	
 3. Make some changes to the content, and then scroll down and click **Commit Changes**. Explain the reason for the changes and commit the changes to your sme review branch, and then click **Commit Changes**.
 	
@@ -44,11 +44,11 @@ To create a pull request:
 1. View the repository and click the **Pull requests** button on the right.
 2. Click the **New pull request** button.
 	
-	<img src="{{ "images_api/github_new_pull_request.png" | prepend: site.baseurl}}" alt="New Pull Request" />
+	<img src="{{ "/images_api/github_new_pull_request.png" | prepend: site.baseurl }}" alt="New Pull Request" />
 	
 3. Select the branch ("sme review") that you want to compare against the master.
 	
-	<img src="{{ "images_api/github_compare_to.png" | prepend: site.baseurl}}" alt="Compare to" />
+	<img src="{{ "/images_api/github_compare_to.png" | prepend: site.baseurl }}" alt="Compare to" />
 	
 	When you compare the branch against the master, you can see a list of all the changes. You can view the changes through two viewing modes: Unified or Split. Unified shows the edits together in the same content area, whereas split shows the two files side by side.
 	
@@ -62,7 +62,7 @@ Now pretend you are the project owner, and you see that you received a new pull 
 1. Click the **Pull requests** button to see the pending pull requests.
 2. Click the pull request and view the changes by clicking the **Files changed** tab.
 	
-	<img src="{{ "images_api/github_files_changed.png" | prepend: site.baseurl}}" alt="" />
+	<img src="{{ "/images_api/github_files_changed.png" | prepend: site.baseurl }}" alt="" />
 	
 	{{note}}If you only want to implement some of the edits, go into the sme review branch and make the updates before processing the pull request. The pull request doesn't give you a line-by-line option about which changes you want to accept or reject (like in Microsoft Word's Track Changes). Merging pull requests is an all-or-nothing process.{{end}}
 	
@@ -77,7 +77,7 @@ Now pretend you are the project owner, and you see that you received a new pull 
 	
 	If you don't want to delete the branch here, you can always remove old branches by clicking the **branches** link while viewing your Github repository, and then click the **Delete** (trash can) button next to the branch. 
 	
-	<img src="{{ "images_api/github_delete_this_branch.png" | prepend: site.baseurl}}" alt="Deleting old branches" />
+	<img src="{{ "/images_api/github_delete_this_branch.png" | prepend: site.baseurl }}" alt="Deleting old branches" />
 	
 	If you look at your list of branches, you'll see that the deleted branch no longer appears.
 
@@ -95,4 +95,4 @@ To add collaborators to your Github project:
 3. Type the Github usernames of those you want to have access in the Collaborator area.
 4. Click **Add Collaborator**.
 	
-	<img src="{{ "images_api/github_add_collaborators.png" | prepend: site.baseurl}}" alt="Adding collaborators" />
+	<img src="{{ "/images_api/github_add_collaborators.png" | prepend: site.baseurl }}" alt="Adding collaborators" />

@@ -19,11 +19,11 @@ Because you can't really know which language your end users will be developing i
 
 However, some APIs do show simple code snippets in a variety of languages. Here's an example from Evernote's API documentation:
 
-<a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="{{ "images_api/codesamplesevernote.png" | prepend: site.baseurl}}" alt="Evernote API code samples" /></a>
+<a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="{{ "/images_api/codesamplesevernote.png" | prepend: site.baseurl }}" alt="Evernote API code samples" /></a>
 
 And another from Twilio:
 
-<a href="https://www.twilio.com/docs/api/rest/making-calls"><img src="{{ "images_api/twiliocodeexamples.png" | prepend: site.baseurl}}" alt="Twilio code samples" /></a>
+<a href="https://www.twilio.com/docs/api/rest/making-calls"><img src="{{ "/images_api/twiliocodeexamples.png" | prepend: site.baseurl }}" alt="Twilio code samples" /></a>
 
 However, don't feel so intimidated by this smorgasbord of code samples. Some API doc tools might actually automatically generate these code samples because the patterns for making REST requests in different programming languages follow a common template. This is why many APIs decide to provide one code sample (usually in cURL) and let the developer extrapolate the format in his or her own programming language.
 
@@ -33,11 +33,11 @@ You can auto-generate code samples from both Postman and Paw, if needed.
 
 Paw has more than a dozen code generator extensions:
 
-<a href="https://luckymarmot.com/paw/extensions/"><img src="{{ "images_api/pawcodegenerators.png" | prepend: site.baseurl}}" alt="" /></a>
+<a href="https://luckymarmot.com/paw/extensions/"><img src="{{ "/images_api/pawcodegenerators.png" | prepend: site.baseurl }}" alt="" /></a>
 
 Once you install them, generating a code sample is a one-click operation:
 
-<img src="{{ "images_api/pawcodegen.png" | prepend: site.baseurl}}" alt="Paw code generators" />
+<img src="{{ "/images_api/pawcodegen.png" | prepend: site.baseurl }}" alt="Paw code generators" />
 
 The Postman app has most of these code generators built in.
 
@@ -55,7 +55,7 @@ To generate a JavaScript code snippet from Postman:
 3. In the dialog box that appears, browse the available code samples using the drop-down menu. Note how your request data is implemented into each of the different code sample templates.
 4. Select the **JavaScript > jQuery AJAX** code sample:
 
-    <img src="{{ "images_api/postman_code_snippets.png" | prepend: site.baseurl}}" alt="" />
+    <img src="{{ "/images_api/postman_code_snippets.png" | prepend: site.baseurl }}" alt="" />
 
 5. Copy the content by clicking the **Copy** button.
 
@@ -141,7 +141,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	You should see the object logged to the console.
 	
-	<img src="{{ "images_api/consoleexamplefrompostman.png" | prepend: site.baseurl}}" alt="Object logged to the console" />
+	<img src="{{ "/images_api/consoleexamplefrompostman.png" | prepend: site.baseurl }}" alt="Object logged to the console" />
 	
 	Let's say you wanted to pull out the `sunrise` time and append it to a tag on the page. You could do so like this:
 	
@@ -189,11 +189,11 @@ An SDK is any kind of tooling that makes it easier to work with your API. SDKs a
 
 Although you could provide general code samples for every language with every call, it's usually not done. Instead, there's often a page that shows how to work with the code in various languages. For example, with the Wunderground Weather API, they have a page that shows general code samples:
 
-<a href="http://www.wunderground.com/weather/api/d/docs?d=resources/code-samples&MR=1"><img src="{{ "images_api/wundergroundcodesamples.png" | prepend: site.baseurl}}" alt="Wunderground code samples" /></a>
+<a href="http://www.wunderground.com/weather/api/d/docs?d=resources/code-samples&MR=1"><img src="{{ "/images_api/wundergroundcodesamples.png" | prepend: site.baseurl }}" alt="Wunderground code samples" /></a>
 
 Although the Mashape Weather API doesn't provide a code sample in the Weather API page, Mashape as a platform provides a general code sample on their [Consume an API in JS](http://docs.mashape.com/javascript) page. The writers explain that you can consume the API with code on an HTML web page like this:
 
-<img src="{{ "images_api/mashapejsconsumption.png" | prepend: site.baseurl}}" alt="Consuming a REST API through JavaScript" />
+<img src="{{ "/images_api/mashapejsconsumption.png" | prepend: site.baseurl }}" alt="Consuming a REST API through JavaScript" />
 
 You already worked with this code earlier, so it shouldn't be new. It's mostly same code as the JavaScript snippet we just used, but here there's an error function defined, and the header is set a bit differently.
 

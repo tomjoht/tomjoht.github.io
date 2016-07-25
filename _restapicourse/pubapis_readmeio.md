@@ -21,7 +21,7 @@ If you consider how much time it requires to build, maintain, troubleshoot, etc.
 {{activity}}
 In this tutorial we'll explore how to publish content on readme.io in more depth.
 
-<a href="http://readme.io"><img src="{{ "images_api/readmeio.png" | prepend: site.baseurl}}" alt="Readme.io" /></a>
+<a href="http://readme.io"><img src="{{ "/images_api/readmeio.png" | prepend: site.baseurl }}" alt="Readme.io" /></a>
 
 In this workshop activity, you'll publish this [weatherdata endpoint documentation](https://www.mashape.com/fyhao/weather-13#weatherdata) on readme.io. 
 
@@ -30,7 +30,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 1. Click the **Sign Up** button in the upper-right corner and sign up for an account.
 2. Add a Project Name (e.g., Weather API), Subdomain (e.g., weather-api), and Project Logo. Then click **Create Project**.
 	
-	<img src="{{ "images_api/projectsettingsreadmeio.png" | prepend: site.baseurl}}" alt="Project Settings" />
+	<img src="{{ "/images_api/projectsettingsreadmeio.png" | prepend: site.baseurl }}" alt="Project Settings" />
 
 ### b. Configure API settings
 {{activity}}
@@ -47,7 +47,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 	Accept application/json
    ```
 	
-	<img src="{{ "images_api/readmioheaders.png" | prepend: site.baseurl}}" alt="Readme.io static headers" />
+	<img src="{{ "/images_api/readmioheaders.png" | prepend: site.baseurl }}" alt="Readme.io static headers" />
 	
 5. Select the **API Explorer** check box (if it's not already selected).
 6. Click **Save**.
@@ -59,7 +59,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 3. Select the **GET** method next to title.	
 4. Add in the documentation from the [weatherdata endpoint documentation](https://www.mashape.com/fyhao/weather-13#weatherdata). For example, add the description, parameters, cURL call, and response.
 	
-	<img src="{{ "images_api/weatherdatareadmio.png" | prepend: site.baseurl}}" alt="Inputting weatherdata into readme.io" />
+	<img src="{{ "/images_api/weatherdatareadmio.png" | prepend: site.baseurl }}" alt="Inputting weatherdata into readme.io" />
 	
  5. Click **Save**. 
  6. At the top of the screen, click the project name to view the site. 
@@ -70,7 +70,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
  2. Click the **Weatherdata** endpoint in the sidebar.
  3. In the Try It Out section, insert some values into the lat and lng fields, and then click **Try It**.
     
-	<img src="{{ "images_api/readmeiotryitout.png" | prepend: site.baseurl}}" alt="Try it on readme.io" />
+	<img src="{{ "/images_api/readmeiotryitout.png" | prepend: site.baseurl }}" alt="Try it on readme.io" />
 	
 The experience is similar to Swagger in that the response appears directly in the documentation. This API Explorer gives you a sense of the data returned by the API.
 

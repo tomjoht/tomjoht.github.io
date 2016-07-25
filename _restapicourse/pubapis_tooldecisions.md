@@ -42,7 +42,7 @@ Having developers write or contribute to documentation provides several advantag
 By keeping documentation tightly coupled with code, you can avoid documentation drift. The idea is that documentation that exists separate from the documentation has a tendency to get out of sync with the actual code. As developers add new parameters, functions, and other details, the technical writers may not be aware of all these details. But many in-source document generators will actually drive the output directly from the parameters and classes in the code. 
 
 <a href="http://en.wikipedia.org/wiki/Continental_drift
-"><img src="{{ "images_api/continentaldrift.png" | prepend: site.baseurl}}" alt="Continental drift" /></a>
+"><img src="{{ "/images_api/continentaldrift.png" | prepend: site.baseurl }}" alt="Continental drift" /></a>
 
 ### Allows the person who creates the code (and so best understands it) to also document it
 
@@ -58,7 +58,7 @@ Here are a few cons in having developers write documentation.
 A developer who creates the API may assume too much of the audiences' technical ability. As a result, the descriptions may not be helpful. Steven Pinker explains that the [curse of knowledge](http://idratherbewriting.com/2007/01/24/the-curse-of-knowledge-the-more-you-know-the-worse-communicator-you-become/) is one reason why writing is often bad. 
 
 <a href="http://online.wsj.com/articles/the-cause-of-bad-writing-1411660188
-"><img src="{{ "images_api/pinkersourcebadwriting.png" | prepend: site.baseurl}}" alt="Steven Pinker on the source of bad writing" /></a>
+"><img src="{{ "/images_api/pinkersourcebadwriting.png" | prepend: site.baseurl }}" alt="Steven Pinker on the source of bad writing" /></a>
 
 The more you know about a topic, the more assumptions and background information you have automatically firing away in your brain. You become blind to all of these assumptions, terms, and other details that new learners struggle with. You're so familiar with a topic that you can't see it as a new learner would. You don't know the questions to ask, the things that don't make sense. 
 
@@ -68,7 +68,7 @@ Documentation generated from source files is feature-based. It's the equivalent 
 
 If developers write the documentation in the source, most likely the result will be somewhat useless feature-based documentation. Here's a text one of my colleagues, a project manager, sent me about the challenges he's facing with documentation: 
 
-<img src="{{ "images_api/briantext.png" | prepend: site.baseurl}}" alt="Text about dependencies and workflows" /></a>
+<img src="{{ "/images_api/briantext.png" | prepend: site.baseurl }}" alt="Text about dependencies and workflows" /></a>
 
 Capturing and describing the interdependencies, goals, workflows, and other tasks that cut across endpoints and setups is more of a task suited to a technical writer, not a developer who is simply defining a parameter in the source file of a class he or she created.
 
@@ -76,7 +76,7 @@ Capturing and describing the interdependencies, goals, workflows, and other task
 
 Documentation generated from the source doesn't integrate directly into a website except as a link from your other web pages. Like a HAT-produced webhelp file, the auto-doc is its own little website. Here's an example from Netty's documentation that shows how the auto-generated doc is separate from the rest of the site. 
 
-<a href=""><img src="{{ "images_api/nointegration.png" | prepend: site.baseurl}}" alt="No integration" /></a>
+<a href=""><img src="{{ "/images_api/nointegration.png" | prepend: site.baseurl }}" alt="No integration" /></a>
 
 Having separate outputs creates a somewhat fragmented or disjointed documentation experience. Branding the outputs to create one seamlessly branded site may require a lot of cobbling together and overwriting of stylesheets.
 

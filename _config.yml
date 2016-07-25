@@ -20,7 +20,7 @@ kramdown:
 
 gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-feed, jekyll-paginate]
 
-url: http://idratherbewriting.com/
+baseurl: http://idratherbewriting.com
 
 exclude:
   - _drafts

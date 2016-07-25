@@ -22,10 +22,10 @@ One of the most stark differences between regular GUI documentation and develope
 
 Here's the Backbone.js documentation: 
 
-<a href="http://documentcloud.github.io/backbone/"><img src="{{ "images_api/backbonejs.png" | prepend: site.baseurl}}" alt="Backbone JS" /></a>
+<a href="http://documentcloud.github.io/backbone/"><img src="{{ "/images_api/backbonejs.png" | prepend: site.baseurl }}" alt="Backbone JS" /></a>
 
 For another example of a long page, see the Reddit API:
-<a href="https://www.reddit.com/dev/api"><img src="{{ "images_api/redditpage.png" | prepend: site.baseurl}}" alt="Backbone JS" /></a>
+<a href="https://www.reddit.com/dev/api"><img src="{{ "/images_api/redditpage.png" | prepend: site.baseurl }}" alt="Backbone JS" /></a>
 
 ## Why long pages?
 

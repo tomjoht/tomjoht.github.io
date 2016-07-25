@@ -33,21 +33,21 @@ You could probably choose the terms that you like best. My favorite is to use *r
 
 Take look at [Mailchimp's API for an example](http://kb.mailchimp.com/api/resources/automations/emails/automations-emails-instance).
 
-<a href="http://kb.mailchimp.com/api/resources/automations/emails/automations-emails-instance"><img src="{{ "images_api/mailchimpresource.png" | prepend: site.baseurl}}" alt="Twitter resource" /></a>
+<a href="http://kb.mailchimp.com/api/resources/automations/emails/automations-emails-instance"><img src="{{ "/images_api/mailchimpresource.png" | prepend: site.baseurl }}" alt="Twitter resource" /></a>
 
 With Mailchimp, the resource might be "Automations Emails Instance." The endpoint to access this resource is <code>/automations/{workflow_id}/emails/{email_id}</code>.
 
 In contrast, look at Twitter's API. This page is called [GET statuses/retweets/:id](https://dev.twitter.com/rest/reference/get/statuses/retweets/%3Aid). To access it, you use the Resource URL <code>https://api.twitter.com/1.1/statuses/retweets/:id.json.</code>
 
-<a href="https://dev.twitter.com/rest/reference/get/statuses/retweets/%3Aid"><img src="{{ "images_api/twitterresource.png" | prepend: site.baseurl}}" alt="How Twitter refers to resources" /></a>
+<a href="https://dev.twitter.com/rest/reference/get/statuses/retweets/%3Aid"><img src="{{ "/images_api/twitterresource.png" | prepend: site.baseurl }}" alt="How Twitter refers to resources" /></a>
 
 Here's the approach by [Instagram](https://instagram.com/developer/endpoints/relationships/). Their doc calls it "endpoints" in the plural -- e.g., "Relationship endpoints," with each endpoint listed on the relationship page.
 
-<a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "images_api/instagramendpoints.png" | prepend: site.baseurl}}"/></a>
+<a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "/images_api/instagramendpoints.png" | prepend: site.baseurl }}"/></a>
 
 The [EventBrite API](https://www.eventbrite.com/developer/v3/endpoints/events/) shows a list of endpoints, but when you go to an endpoint, what you're really seeing is an object. On the object's page you can see the variety of endpoints you can use with the object.
 
-<a href="https://www.eventbrite.com/developer/v3/endpoints/events/"><img src="{{ "images_api/eventbriteobjects.png" | prepend: site.baseurl}}" alt="Eventbrite" /></a>
+<a href="https://www.eventbrite.com/developer/v3/endpoints/events/"><img src="{{ "/images_api/eventbriteobjects.png" | prepend: site.baseurl }}" alt="Eventbrite" /></a>
 
 {{tip}} Remember the distinction between resources and endpoints. A resource (or "object") can have many different endpoints and methods you can use with it. When you're writing documentation, it probably makes sense to group content by resources and then list the available endpoints for each resource on the resource's page, or as subpages under the resource.{{end}}
 
@@ -95,7 +95,7 @@ It can get awkward referring to the resource by its endpoint path. For example, 
 
 The [Box API](https://box-content.readme.io/reference#collaboration-object) has a good example of how the same resource can have multiple endpoints and methods.
 
-<a href="https://box-content.readme.io/reference#collaboration-object"><img src="{{ "images_api/boxexample.png" | prepend: site.baseurl}}" alt="Example from Box" /></a>
+<a href="https://box-content.readme.io/reference#collaboration-object"><img src="{{ "/images_api/boxexample.png" | prepend: site.baseurl }}" alt="Example from Box" /></a>
 
 The Box example has 5 different endpoints or methods you can call. Each of these methods lets you access the Collaboration resource or object in different ways. Why call it an object? When you get the Collaboration resource, the JSON is an object.
 

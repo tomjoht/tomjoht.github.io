@@ -26,7 +26,7 @@ There are different types of version control systems. A _centralized_ version co
 
 More commonly, software shops use _distributed_ version control systems. The most common systems are probably Git and Mercurial. Largely due to the fact that Github provides repositories for free on the web, Git is the most common version control repository for web and open source projects, so we'll be focusing on it more. However, these two systems share the same concepts and workflows. 
 
-<figure><a href="http://github.com"><img src="{{ "images_api/githubhomepage.png" | prepend: site.baseurl}}" alt="Github" /></a><figcaption>Github's distributed version control system allows for a phenomenon called "social coding."</figcaption></figure>
+<figure><a href="http://github.com"><img src="{{ "/images_api/githubhomepage.png" | prepend: site.baseurl }}" alt="Github" /></a><figcaption>Github's distributed version control system allows for a phenomenon called "social coding."</figcaption></figure>
 
 Note that Github provides online repositories and tools for Git. However, Git and Github aren't the same.
 
@@ -64,18 +64,18 @@ In this tutorial, you'll use Github Desktop to manage the workflow. First downlo
 1. Go to [Github.com](http://github.com) and create a new repository from the the **Repositories** tab. 
 2. View your repository, and then click the **Clone in Desktop** button.
 	
-	<img src="{{ "images_api/cloneindesktop.png" | prepend: site.baseurl}}" alt="Clone in Desktop" />
+	<img src="{{ "/images_api/cloneindesktop.png" | prepend: site.baseurl }}" alt="Clone in Desktop" />
 	
 3. Select the folder where you want to clone the repository (such as under your username), and then click **Clone**.
 	
 	Github Desktop should launch (you'll need to allow the application to launch, most likely) and add the newly created repository.
 	
-	<img src="{{ "images_api/githubrepojustadded.png" | prepend: site.baseurl}}" alt="Repo added to Github Desktop" />
+	<img src="{{ "/images_api/githubrepojustadded.png" | prepend: site.baseurl }}" alt="Repo added to Github Desktop" />
 	
 4. Go into the repository (using your Finder or browsing folders normally) and add a simple text file with some content. 
 5. Go back to Github Desktop and click the **Uncommitted Changes** link at the top. 
 	
-	<img src="{{ "images_api/uncommittedchanges.png" | prepend: site.baseurl}}" alt="Uncommitted changes" />
+	<img src="{{ "/images_api/uncommittedchanges.png" | prepend: site.baseurl }}" alt="Uncommitted changes" />
 	
 	You'll see the new file you added in the list of uncommitted changes. 
 	
@@ -90,16 +90,16 @@ Now let's create a branch, make some changes, and then merge the branch into the
 
 1. Click the **Add a branch** button and create a new branch. Call it something like "tom-edits," but use your own name.
 	
-	<img src="{{ "images_api/addingabranchtom.png" | prepend: site.baseurl}}" alt="Adding a branch" />
+	<img src="{{ "/images_api/addingabranchtom.png" | prepend: site.baseurl }}" alt="Adding a branch" />
 	
 	When you create the branch, you'll see the branch drop-down menu indicate that you're working in that branch. A branch is a copy of the master that exists on a separate line. You can see that the visual line in Github Desktop branches off to the side when you create a branch. 
 	
-	<img src="{{ "images_api/workinginbranch.png" | prepend: site.baseurl}}" alt="Working in a branch" />
+	<img src="{{ "/images_api/workinginbranch.png" | prepend: site.baseurl }}" alt="Working in a branch" />
 	
 2. Browse to the file you created earlier and make a change to it, such as adding a new line with some text. 
 3. Return to Github Desktop and notice that on the Uncommitted Changes tab, you have new modified files.
 	
-	<img src="{{ "images_api/newchangestocommitgithub.png" | prepend: site.baseurl}}" alt="New files modified" />
+	<img src="{{ "/images_api/newchangestocommitgithub.png" | prepend: site.baseurl }}" alt="New files modified" />
 	
 	The right pane shows the deleted lines in red and new lines in green. This helps you see what changed. 
 	
@@ -114,13 +114,13 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 2. Describe the pull request, and then click **Send Pull Request**.
 	
-	<img src="{{ "images_api/describethepullrequest.png" | prepend: site.baseurl}}" alt="" />
+	<img src="{{ "/images_api/describethepullrequest.png" | prepend: site.baseurl }}" alt="" />
 	
 3. Go to the link shown to evaluate the pull request online. In the browser interface, you can click the **Files changes** tab to see what files have changed in tom-edit that you are merging into the master.
 	
 4. Click **Merge Pull Request**.
 	
-	<img src="{{ "images_api/githubmergepullrequest.png" | prepend: site.baseurl}}" alt="Merging a pull request" />
+	<img src="{{ "/images_api/githubmergepullrequest.png" | prepend: site.baseurl }}" alt="Merging a pull request" />
 	
 	The branch gets merged into the master. You can delete the tom-edits branch now if you want.
 	
@@ -128,7 +128,7 @@ Now let's create a branch, make some changes, and then merge the branch into the
 	
 	The Sync button pulls the latest changes from the master and updates your working copy to it. You will see the pull request merged. It shows you the lines that have been added in the files. 
 	
-	<img src="{{ "images_api/pullrequestmergednow.png" | prepend: site.baseurl}}" alt="Merged pull request" />
+	<img src="{{ "/images_api/pullrequestmergednow.png" | prepend: site.baseurl }}" alt="Merged pull request" />
 
 
 ## Managing conflicts

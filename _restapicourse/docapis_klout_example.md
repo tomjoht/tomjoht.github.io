@@ -18,7 +18,7 @@ Use the Klout API to get your Klout score and a list of your influencers and inf
 
 Klout has an "interactive console" driven by Mashery I/O docs that allows you to insert parameters and go to an endpoint. The interactive console also contains brief descriptions of what each endpoint does.
 
-<a href="http://developer.klout.com/io-docs"><img src="{{ "images_api/klout_interactive_console-550x362.png" | prepend: site.baseurl}}" alt="Klout Interactive Console" /></a>
+<a href="http://developer.klout.com/io-docs"><img src="{{ "/images_api/klout_interactive_console-550x362.png" | prepend: site.baseurl }}" alt="Klout Interactive Console" /></a>
 
 ## 1. Get an API key to make requests
 To use the API, you have to register an "app," which allows you to get an API key. Go to [My API Keys](http://developer.klout.com/apps/mykeys) page to register your app and get the keys.
@@ -31,7 +31,7 @@ To get your Klout score, you need to use the `score` endpoint. This endpoint req
 
 Since you most likely don't know your Klout ID, use the `identity(twitter_screen_name)` endpoint first.
 
-<img src="{{ "images_api/kloutidentity.png" | prepend: site.baseurl}}" alt="Klout identity endpoint" />
+<img src="{{ "/images_api/kloutidentity.png" | prepend: site.baseurl }}" alt="Klout identity endpoint" />
 
 Instead of using the API console, you can also submit the request via your browser by going to the request URL:
 
@@ -45,7 +45,7 @@ My Klout ID is `1134760`.
 
 Now you can use the `score` endpoint to calculate your score.
 
-<img src="{{ "images_api/kloutscorenew.png" | prepend: site.baseurl}}" alt="Klout Score" />
+<img src="{{ "/images_api/kloutscorenew.png" | prepend: site.baseurl }}" alt="Klout Score" />
 
 My score is `54`. Klout's interactive console makes it easy to get responses for API calls, but you could equally submit the request URI in your browser.
 
@@ -301,7 +301,7 @@ Using jQuery, you can iterate through the JSON payload and pull out the informat
 {{note}} Remember to swap in your own API key in place of <code>APIKEY</code>.{{end}}
 The result looks like this:
 
-<img src="{{ "images_api/kloutinfluencelists.png" | prepend: site.baseurl}}" alt="Klout result" />
+<img src="{{ "/images_api/kloutinfluencelists.png" | prepend: site.baseurl }}" alt="Klout result" />
 
 ## Code explanation
 

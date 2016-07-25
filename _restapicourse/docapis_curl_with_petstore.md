@@ -12,7 +12,7 @@ type: notes_docapis
 
 Our sample weather API from Mashape doesn't allow you to use anything but a GET method, so for this example, we'll use the [petstore API from Swagger](http://petstore.swagger.io/), but without actually using the Swagger UI (which is something we'll explore later). For now, we just need an API that we can create, update, and delete content from. (You're just getting familiar with cURL here.)
 
-<a href="http://petstore.swagger.io/"><img src="{{ "images_api/petstore.png" | prepend: site.baseurl}}" alt="Swagger Petstore" /></a>
+<a href="http://petstore.swagger.io/"><img src="{{ "/images_api/petstore.png" | prepend: site.baseurl }}" alt="Swagger Petstore" /></a>
 
 In this example, you'll create a new pet, update the pet, get the pet's ID, delete the pet, and then try to get the deleted pet. Don't worry so much about understanding the petstore API.
 
@@ -160,7 +160,7 @@ You can import cURL commands into Postman by doing the following:
     curl -X GET --header "Accept: application/json" "http://petstore.swagger.io/v2/pet/5123123"
    ```
 
-    <img src="{{ "images_api/postmanimport.png" | prepend: site.baseurl}}" alt="Importing into Postman" />
+    <img src="{{ "/images_api/postmanimport.png" | prepend: site.baseurl }}" alt="Importing into Postman" />
 
     Make sure you don't have any extra spaces at the beginning.
 
@@ -174,7 +174,7 @@ You can export Postman to cURL by doing the following:
 
 1. In Postman, click the **Generate Code Snippet** button.
 
-    <img src="{{ "images_api/postmangeneratecodesnippet.png" | prepend: site.baseurl}}" alt="Generating code snippets" />
+    <img src="{{ "/images_api/postmangeneratecodesnippet.png" | prepend: site.baseurl }}" alt="Generating code snippets" />
 
 2. Select **Curl** from the menu.
 3. Copy the code snippet.

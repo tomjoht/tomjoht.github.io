@@ -26,7 +26,7 @@ You can code this Swagger file by hand in a text editor, or you can auto-generat
 
 In order to get a better understanding of Swagger, let's explore the Petstore example.
 
-<a href="http://petstore.swagger.io/"><img src="{{ "images_api/swaggerpetstoreui.png" | prepend: site.baseurl}}" alt="" /></a>
+<a href="http://petstore.swagger.io/"><img src="{{ "/images_api/swaggerpetstoreui.png" | prepend: site.baseurl }}" alt="" /></a>
 
 There are three resources: pet, store, and user. 
 
@@ -35,7 +35,7 @@ There are three resources: pet, store, and user.
 1. In the **Pet** resource, expand the **Post** method. 
 2. Click the yellow JSON in the Model Schema section:
 	
-	<img src="{{ "images_api/petstorepostpet.png" | prepend: site.baseurl}}" alt="Posting a new pet" />
+	<img src="{{ "/images_api/petstorepostpet.png" | prepend: site.baseurl }}" alt="Posting a new pet" />
 	
 	This populates the body value with the JSON. This is the JSON you must submit in order to create a pet. 
 	
@@ -66,7 +66,7 @@ There are three resources: pet, store, and user.
 	
 	Look and see the response. 
 	
-	<img src="{{ "images_api/swaggerpetstoreresponse.png" | prepend: site.baseurl}}" alt="JSON response" />
+	<img src="{{ "/images_api/swaggerpetstoreresponse.png" | prepend: site.baseurl }}" alt="JSON response" />
 
 ### Find your pet by the ID
 {{activity}}
@@ -90,7 +90,7 @@ Swagger has a number of different pieces:
 
 **[Swagger editor](http://editor.swagger.io/#/)**: The Swagger Editor is an online editor that validates your YML-formatted content against the rules of the Swagger spec. YML is a syntax that depends on spaces and nesting. You'll need to be familiar with YML syntax and the rules of the Swagger spec to be successful here. The Swagger editor will flag errors and give you formatting tips. (Note that the Swagger spec file can be in either JSON or YAML format.)
 
-<a href="http://editor.swagger.io/"><img src="{{ "images_api/swagger-editor-example.png" | prepend: site.baseurl}}" alt="Swagger online editor" /></a>
+<a href="http://editor.swagger.io/"><img src="{{ "/images_api/swagger-editor-example.png" | prepend: site.baseurl }}" alt="Swagger online editor" /></a>
 
 **[Swagger-UI](https://github.com/swagger-api/swagger-ui)**: The Swagger UI is an HTML/CSS/JS framework that parses a JSON or YML file that follows the Swagger spec and generates a navigable UI of the documentation. This is the tool that transforms your spec into the Swagger Petstore-like UI output.
 
@@ -116,7 +116,7 @@ Note a few limitations with the Swagger approach:
 {{activity}}
 In this activity, you'll create a Swagger UI display for the weatherdata endpoint in this [Mashape Weather API](https://www.mashape.com/fyhao/weather-13#weatherdata). (If you're jumping around in the documentation, this is a simple API that we used in earlier parts of the course.) You can see a demo of what we'll build [here](http://learnapidoc.com/swagger/tom):
 
-<a href="http://learnapidoc.com/swagger/tom"><img src="{{ "images_api/myswagger.png" | prepend: site.baseurl}}" alt="Swagger UI demo" /></a>
+<a href="http://learnapidoc.com/swagger/tom"><img src="{{ "/images_api/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
 
 ### a. Create a Swagger spec file
 {{activity}}
@@ -212,8 +212,8 @@ If the previous instructions were confusing, just copy the following code and re
 <head>
   <meta charset="UTF-8">
   <title>Swagger UI</title>
-  <link rel="icon" type="image/png" href="images_api/favicon-32x32.png" | prepend: site.baseurl}}" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images_api/favicon-16x16.png" | prepend: site.baseurl}}" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/images_api/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/images_api/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16" />
   <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>

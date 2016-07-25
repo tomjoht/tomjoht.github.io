@@ -10,7 +10,7 @@ weight: 6.1
 
 If you want to build a beautiful API doc website that rivals sites such as [Parse.com](http://parse.com) and others, you'll most likely need to involve a UX engineer to build it. Fortunately, this is a solution that many UX engineers and other web developers are usually excited to tackle.
 
-<a href=""><img src="{{ "images_api/uxteam.png" | prepend: site.baseurl}}" alt="Getting help from your UX team" /></a>
+<a href=""><img src="{{ "/images_api/uxteam.png" | prepend: site.baseurl }}" alt="Getting help from your UX team" /></a>
 
 ## When it makes sense to partner with UX
 

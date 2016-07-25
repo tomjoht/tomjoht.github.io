@@ -16,7 +16,7 @@ It's important to provide a sample response from the endpoint. This lets develop
 
 Here's an example from Flattr's API. In this case, the response actually includes the response header as well as the response body:
 
-<a href="http://developers.flattr.net/api/resources/activities/"><img src="{{ "images_api/flattr.png" | prepend: site.baseurl}}" alt="" /></a>
+<a href="http://developers.flattr.net/api/resources/activities/"><img src="{{ "/images_api/flattr.png" | prepend: site.baseurl }}" alt="" /></a>
 
 If the header information is important, include it. Otherwise, leave it out.
 
@@ -34,29 +34,29 @@ One of the problems with the Mashape Weather API is that it doesn't describe the
 
 Many times the response contains nested objects (objects within objects). Here Dropbox represents the nesting by using a slash. For example, `team/name` provides the documentation for the `name` object within the `team` object.
 
-<a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="{{ "images_api/returnvaluedefinitions.png" | prepend: site.baseurl}}" alt="" /></a>
+<a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="{{ "/images_api/returnvaluedefinitions.png" | prepend: site.baseurl }}" alt="" /></a>
 
 {{tip}} Notice how the response values are in a monospaced font while the descriptions are in a regular font? This helps improve the readability. {{end}}
 
 Other APIs will nest the response definitions to imitate the JSON structure. Here's an example from bit.ly's API:
 
-<a href="http://dev.bitly.com/user_info.html"><img src="{{ "images_api/bitlyresponsedoc.png" | prepend: site.baseurl}}" alt="Bitly response" /></a>
+<a href="http://dev.bitly.com/user_info.html"><img src="{{ "/images_api/bitlyresponsedoc.png" | prepend: site.baseurl }}" alt="Bitly response" /></a>
 
 Personally, I think the indented approach with different levels of bullets is an eyesore.
 
 In [Peter Gruenbaum's API tech writing course on Udemy](https://www.udemy.com/api-documentation-1-json-and-xml/), he also represents the nested objects using tables:
 
-<a href="http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/"><img src="{{ "images_api/gruenbaumtable.png" | prepend: site.baseurl}}" alt="Peter Gruenbaum course" /></a>
+<a href="http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/"><img src="{{ "/images_api/gruenbaumtable.png" | prepend: site.baseurl }}" alt="Peter Gruenbaum course" /></a>
 
 (However, Gruenbaum's use of tables is mostly to reduce the emphasis on tools and place it more on the content.)
 
 eBay's approach is a little more unique:
 
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "images_api/ebayexampleresponse.png" | prepend: site.baseurl}}" alt="eBay example response" /></a>
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/ebayexampleresponse.png" | prepend: site.baseurl }}" alt="eBay example response" /></a>
 
 For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`. (Note also that this response is in XML instead of JSON.)
 
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "images_api/ebaycode.png" | prepend: site.baseurl}}" alt="" /></a>
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/ebaycode.png" | prepend: site.baseurl }}" alt="" /></a>
 
 It's also interesting how much detail eBay includes for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.
 
@@ -66,7 +66,7 @@ It's also interesting how much detail eBay includes for each item. Whereas the T
 
 Some APIs collapse the response into a show/hide toggle to save space. Others put the response in a right column so you can see it while also looking at the endpoint description and parameters. Stripe's API made this tri-column design famous:
 
-<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "images_api/stripetripanedesign.png" | prepend: site.baseurl}}" alt="Stripe's tri-column design" /></a>
+<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images_api/stripetripanedesign.png" | prepend: site.baseurl }}" alt="Stripe's tri-column design" /></a>
 
 A lot of APIs have modeled their design after Stripe's. (For example, see <a href="https://github.com/tripit/slate">Slate</a> or <a href="http://readme.io">readme.io</a>.)
 
