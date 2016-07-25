@@ -215,7 +215,7 @@ Just remember, objects are set off with curly braces `{ }` and contain key-value
 {{tip}} It's important to understand the difference between objects and arrays because it determines how you access the data to pull out and display the information. More on that later.{{end}}
 
 ## Identify the objects and arrays in the weatherdata API response
-{{activity}}
+
 Look at the response from the `weatherdata` endpoint of the weather API.
 
 * Where are the objects?

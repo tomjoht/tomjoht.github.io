@@ -14,20 +14,21 @@ It's better that you install cURL before the course so that you aren't bogged do
 Follow these instructions for installing cURL:
 
 ### Mac
+
 If you have a Mac, by default, cURL is probably already installed. To check:
 
-1. Open Terminal (press **Cmd + space bar** to open Spotlight, and then type "Terminal").
-2. In Terminal type `curl -V`. The response should look something like this:
-
-   ```
+1.  Open Terminal (press **Cmd + space bar** to open Spotlight, and then type "Terminal").
+2.  In Terminal type `curl -V`. The response should look something like this:
+    
+    ```
     curl 7.37.1 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
     Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
     Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz
-   ```
+    ```
 
 If you don't see this, you need to [download and install cURL](http://curl.haxx.se/).
 
-To make a test API call, submit this:
+To make a test API call, submit the following:
 
 ```
 curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246" -H "X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p" -H "Accept: text/plain"
@@ -54,7 +55,7 @@ Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s
 Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz
 ```
 
-To make a test API call, submit this:
+To make a test API call, submit the following:
 
 ```
 curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246" -H "X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p" -H "Accept: text/plain"
@@ -69,7 +70,7 @@ You should get back a two-digit number in the response. (This is the "air qualit
 ## Notes about using cURL with Windows
 
 * Use double quotes in the Windows command line. (Windows doesn't support single quotes.)
-* Don't use backslashes (`\`) to separate lines.
-* By adding `-k` in the cURL command, you bypass cURL's security certificate. 
+* Don't use backslashes (`\`) to separate lines. (This is for readability only and doesn't affect the call on Macs. Unfortunately the Weather API on Mashape uses these slashes in their cURL examples.)
+* By adding `-k` in the cURL command, you bypass cURL's security certificate, which may or may not be necessary.
 
 

@@ -18,7 +18,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 
 ## Prepare the weather request in cURL format
 
-{{activity}}
+
 1. Go back into the [Weather API](https://www.mashape.com/fyhao/weather-13).
 2. Copy the cURL request example for the first endpoint (aqi) into your text editor:
 
@@ -36,7 +36,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
     {{note}} In the instruction here, <code>APIKEY</code> will be used instead of an actual API key. You should replace that part with your own API key. {{end}}
 
 ## Make the request in cURL (Mac)
-{{activity}}
+
 1. Open a terminal. To open Terminal, press **Cmd + space bar** and type **Terminal**.
 
 	{{tip}} If you plan on working in Terminal a lot, use <a href="https://www.iterm2.com/">iTerm</a> instead.{{end}}
@@ -64,7 +64,7 @@ You should see something like this as a response:
 The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
 ## Make the request in cURL (Windows 7)
-{{activity}}
+
 1. Copy the cURL call from your text editor. 
 2. Go to **Start** and type **cmd** to open up the commandline. (If you're on Windows 8, see [these instructions for accessing the commandline](http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm).)
 3. Right-click and then select **Paste** to insert the call. My call for the Mashape API looks like this:
@@ -99,8 +99,6 @@ curl -H "Content-Type: application/json" -H "Authorization: 123" -X POST -d @myp
 Here cURL will look in the existing directory for the mypostbody.json file, but you can also reference a path.
 
 ## Make cURL requests for each of the weather endpoints
-
-{{activity}}
 
 Make a cURL request for each of the weather endpoints for both the Mashape weather endpoints and the Aeris Weather endpoints, similar to how you made the requests in Postman.
 

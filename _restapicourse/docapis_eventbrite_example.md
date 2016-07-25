@@ -9,7 +9,7 @@ keywords: Eventbrite API example, REST APIs
 
 {% include notes.html %}
 ## The challenge
-{{activity}}
+
 Use the EventBrite API to get the event title and description of [this event](https://www.eventbrite.com/myevent?eid=17920884849).
 
 ## About EventBrite

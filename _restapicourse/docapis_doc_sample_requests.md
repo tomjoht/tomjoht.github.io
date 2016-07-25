@@ -57,7 +57,7 @@ One of the problems with showing a sample request and sample response is that di
 If the requests and responses vary dramatically, consider including multiple response examples. How many different requests and responses should you show? There's probably no easy answer, but probably no more than 3. You decide what makes sense for your API.
 
 ## Document the sample request with the surfreport/{beachId} endpoint
-{{activity}}
+
 Come back to the `surfreport/{beachId}` endpoint example. Create a sample request for it.
 
 Here's mine: 

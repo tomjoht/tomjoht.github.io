@@ -118,7 +118,7 @@ Beyond the processor, you need to know which type of Markdown the processor supp
 If you need more complexity than Markdown offers, a lot of tools will leverage other templating languages, such as [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) or [Coffeescript](http://coffeescript.org/). Many times these other processing languages will fill in the gaps for Markdown and provide you with the ability to create includes, conditional attributes, conditional text, and more.
 
 ## Analyzing a Markdown sample
-{{activity}}
+
 Take a look at the following Markdown content. Try to identify the various Markdown syntax used.
 
 <pre>
@@ -261,8 +261,6 @@ For simple demo purposes, the response is assigned to the `data` argument of the
 </pre>
 
 ## Write some Markdown on a page
-
-{{activity}}
 
 On your Github wiki page, edit the page and create the following:
 

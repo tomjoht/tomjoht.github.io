@@ -253,7 +253,7 @@ However, this approach requires more manual work from a documentation point of v
 You can see that there's a lot of variety in documenting JSON and XML responses. Peter's course helps start the discussion about how to document these types of information.
 
 ## Construct a table to list the surfreport parameters
-{{activity}}
+
 For our new surfreport endpoint, look through the parameters available and create a table similar to the one above.
 
 Here's what my table looks like:

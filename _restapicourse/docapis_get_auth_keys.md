@@ -24,8 +24,6 @@ In order to run the code samples in this course, you will need to use your own A
 
 ## Get the Mashape authorization keys
 
-{{activity}}
-
 To get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
 
 1. On [market.mashape.com](https://market.mashape.com/), click **Sign Up** in the upper-right corner and create an account.

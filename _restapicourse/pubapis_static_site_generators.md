@@ -51,7 +51,7 @@ But for the majority of the time, writing in Markdown is a joy. You can focus on
 Let's do an example in publishing in CloudCannon using the Documentation Theme for Jekyll (the theme I built). You don't need to have a Windows machine to facilitate the building and publishing &mdash; you'll do that via CloudCannon and Github.
 
 ## Set up your doc theme on Github
-{{activity}}
+
 1.  Go to the [Github page for the Documentation theme for Jekyll](https://github.com/tomjohnson1492/documentation-theme-jekyll) and click **Fork** in the upper-right.
     
 	When you fork a project, a copy of the project (using the same name) gets added to your own Github repository. You'll see the project at `https://github.com/{your github username}/documentation-theme-jekyll`.
@@ -78,7 +78,7 @@ Let's do an example in publishing in CloudCannon using the Documentation Theme f
 	It should look just like the [Documentation theme for Jekyll here](idratherbewriting.com/documentation-theme-jekyll).
 
 ## Make an update to your Github repo
-{{activity}}
+
 Remember your Github files are syncing from Github to CloudCannon. Let's see that workflow in action.
 
 1.  In your browser, go to your Github repository that you forked and make a change.
@@ -98,7 +98,7 @@ CloudCannon provides an easy way to allow subject matter experts to author and e
 However, CloudCannon wouldn't be a good solution if your docs require authentication in a highly secure environment. Additionally, Jekyll only provide static HTML files. If you want users to log in, and then personalize what they see when logged in, Jekyll won't provide this experience.
 
 ## Publish the surfreport in the Aviator Jekyll theme using CloudCannon's interface
-{{activity}}
+
 
 Let's say you want to use a theme that provides ready-made templates for REST API documentation. In this activity, you'll publish the weatherdata endpoints in a Jekyll theme called Aviator. Additionally, rather than syncing the files from a Github repository, you'll just work with the files directly in CloudCannon.
 
@@ -109,7 +109,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 {{note}} If you're on a Mac (with Rubygems and Jekyll installed), building Jekyll sites is a lot simpler. But even if you're on Windows, it won't matter for this tutorial. You'll be using CloudCannon, a SaaS website builder product, to build the Jekyll files.{{end}}
  
 ### a. Download the Jekyll Aviator theme
-{{activity}}
+
 1. Go to [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) and click the **Download ZIP** button.
 	
 	<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="{{ "/images_api/gitdownloadzip.png" | prepend: site.baseurl }}" alt="Download ZIP button for Aviator theme" /></a>
@@ -117,7 +117,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 2. Unzip the files. 
 
 ### b. Add the weatherdata endpoint doc to the theme
-{{activity}}
+
 1. Browse to the theme's files. In the _api folder, open 1_1_books_list.md in a text editor and look at the format. 
 	
 	In every Jekyll file, there's some "frontmatter" at the top. The frontmatter section has three dashes before and after it. 
@@ -273,7 +273,7 @@ curl --get --include 'https://simple-weather.p.mashape.com/weatherdata?lat=1.0&l
 ```
 
 ### c. Publish your Jekyll project on CloudCannon
-{{activity}}
+
 
 1. Go to [http://cloudcannon.com](http://cloudcannon.com) and, if you don't already have an account, sign up for a free test account by clicking **Sign Up**
 2. After signing up and logging in, click **Create Site**.

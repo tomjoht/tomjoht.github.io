@@ -58,7 +58,7 @@ Although most developers use the command line when working with version control 
 You can also see changes in a text file format, but the `>>>>>` and `<<<<<` tags aren't always that intuitive.
 
 ## Follow a typical workflow with a Github project using Github Desktop
-{{activity}}
+
 In this tutorial, you'll use Github Desktop to manage the workflow. First download and install [Github Desktop](https://desktop.github.com/). You'll also need a Github account.
 
 1. Go to [Github.com](http://github.com) and create a new repository from the the **Repositories** tab. 
@@ -85,7 +85,7 @@ In this tutorial, you'll use Github Desktop to manage the workflow. First downlo
 You can see the most recent commit there. If you view your repository online, you'll see that the change you made has been pushed to the master.
 
 ## Create a branch
-{{activity}}
+
 Now let's create a branch, make some changes, and then merge the branch into the master. 
 
 1. Click the **Add a branch** button and create a new branch. Call it something like "tom-edits," but use your own name.
@@ -173,7 +173,7 @@ Now make a commit and push it to the origin's master branch:
 git commit -m "fixed conflicts"
 ```
 
-{{activity}}
+
 
 
 Your options are the following:

@@ -211,11 +211,11 @@ There are many tools that can parse an API blueprint. [Drafter](https://github.c
 For a more comprehensive list of tools, see the [Tooling](https://apiblueprint.org/#tooling) section on apiblueprint.org. (Some of these tools require quite a few prerequisites, so I omitted the tutorial steps here for generating the output on your own machineapio.)
 
 ## Create a sample HTML output using API Blueprint and Apiary
-{{activity}}
+
 For this tutorial, we'll use a platform called Apiary to read and display the API Blueprint. Apiary is just a hosted platform that will remove the need for installing local libraries and utilities to generate the output.
 
 ### a. Create a new Apiary project
-{{activity}}
+
 1. Go to [apiary.io](https://apiary.io/) and click **Quick start with Github**. Sign in with your Github account. (If you don't have a Github account, create one first.)
 2. Sign up for a free hacker account and create a new project. 
 	
@@ -388,7 +388,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 5. Click **Save and Publish**.
 
 ### b. Interact with the API on Apiary
-{{activity}}
+
 In the Apiary's top navigation, click **Documentation**. Then interact with the API on Apiary by clicking **Switch to Console**. Call the resources and view the responses. 
 
 You can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key. This dual display &mdash; both the Example and the Console views &mdash; might align better with user needs: 

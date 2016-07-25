@@ -11,10 +11,11 @@ type: notes_docapis
 {% include notes.html %}
 
 ## The challenge
-{{activity}}
+
 Use the Flickr API to get photo images from [this Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/).
 
 ## Flickr Overview
+
 In this Flickr API example, you'll see that our goal requires us to call several endpoints. You'll see that just having an API reference that lists the endpoints and responses isn't enough. Often one endpoint requires other endpoint responses as inputs, and so on.
 
 In this example, we want to get all the photos from a [specific Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) and display them on a web page. Here's the gallery we want:
@@ -26,6 +27,7 @@ In this example, we want to get all the photos from a [specific Flickr gallery](
 Before you can make a request with the Flickr API, you'll need an API key, which you can read more about [here](https://www.flickr.com/services/apps/create/). When you register an app, you're given a key and secret.
 
 ## 2. Determine the resource and endpoint you need
+
 From the list of [Flickr's API methods](https://www.flickr.com/services/api/), the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint, which is listed under the galleries resource, is the one that will get photos from a gallery.
 
 <a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="{{ "/images_api/flickr_get_photos.png" | prepend: site.baseurl }}" alt="Flickr getPhotos endpoint" /></a>

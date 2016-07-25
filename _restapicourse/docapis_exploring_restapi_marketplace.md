@@ -23,7 +23,6 @@ Let's say that you're a web developer and you want to add a weather forecast fea
 You don't have your own meteorological service, so you're going to need to make some calls out to a weather service to get this information. Then you will present that information to users.
 
 ## Get an idea of the end goal
-{{activity}}
 
 {% unless site.target == "pdf" %}
 
@@ -82,7 +81,7 @@ Of course, the above example is extremely simple. You could also build an attrac
 
 ## Find the Weather API by fyhao on Mashape
 
-{{activity}}
+
 
 The Mashape Marketplace is a directory where publishers can publish their APIs, and where consumers can consume the APIs. Mashape manages the interaction between publishers and consumers by providing an interactive marketplace for APIs. 
 
@@ -121,8 +120,6 @@ Here's the Aeris weather forecast API in action making the same call as I showed
 As you can see, both APIs contain this same information about wind, but the units differ.
 
 ## Answer some questions about the APIs
-
-{{activity}}
 
 Spend a little time exploring the features and information that these weather APIs provide. Try to answer these basic questions:
 

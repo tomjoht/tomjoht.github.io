@@ -10,7 +10,7 @@ type: notes_docapis
 {% include notes.html %}
 
 ## The challenge
-{{activity}}
+
 Use the Klout API to get your Klout score and a list of your influencers and influencees.
 
 ## About Klout

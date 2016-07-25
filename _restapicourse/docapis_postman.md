@@ -35,13 +35,13 @@ Of the various GUI clients available, I think Postman is the best option, since 
 A lot of times abstract concepts don't make sense until you can contextualize them with some kind of action. In this course, I'm following more of an act-first-then-understand type of methodology. After you do an activity, we'll explore the concepts in more depth. So if it seems like I'm glossing over concepts things now, like what a GET method is or a resource URL, hang in there. When we deep dive into these points later, things will be a lot clearer. 
 
 ## Make a request in Postman
-{{activity}}
+
 1.  If you haven't already done so, download and install the [Postman app] at [www.getpostman.com](https://www.getpostman.com/). If you're on a Mac, choose the Mac app. If you're on Windows, choose the Chrome app. (Note that you must also have Chrome to run the Chrome app.)
 2.  You'll make a REST call for the first endpoint (`aqi`) in the Mashape Weather API. Select **GET** for the method.
 3.  Insert the endpoint into the main box (next to the method, which is GET by default): `https://simple-weather.p.mashape.com/aqi`
 4.  Click the **Params** button (to the right of the box where you inserted the endpoint) and insert `lat` and `lng` parameters with specific values (other than `1`).
     
-    {{site.data.alerts.note}} Only some countries are supported in the <code>aqi</code> call &mdash; specifically the United States, Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. To get the aqi for Singapore, for example, use <code>lat: 1.3321256</code> and <code>lng: 103.7373503</code>. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
+    {{site.data.alerts.note}} Only some countries are supported in the <code>aqi</code> call &mdash; specifically the United States, Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. The AQI for Santa Clara, California is <code>lat: 37.3710062</code> and <code>lng: 122.0375935</code>. For Singapore, it's <code>lat: 1.3321256</code> and <code>lng: 103.7373503</code>. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
     
     <img src="{{ "/images_api/googlemapslatlong.png" | prepend: site.baseurl }}" alt="Finding latitude and longitude on Google Maps" />
 	
@@ -61,8 +61,6 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 	
 ## Save the request
 
-{{activity}}
-
 1.  In Postman, click the **Save** button (next to Send). 
 2.  In the Save Request dialog box, create a new collection (for example, weather) by typing the collection name in the **"Or create new collection"** box.
 3.  In the Request Name box at the top of the dialog box, type a friendly name for the request, such as "AQI endpoint".
@@ -72,14 +70,12 @@ Saved endpoints appear in the left side pane under Collections.
 
 ## Make requests for the other endpoints
 
-{{activity}}
-
 Enter details into Postman for the other two endpoints for the Mashape Weather API:
 
 * weather
 * weatherdata
 
-{{important}}The Accept header tells the browser what format you will accept the response in. The Accept header for the <code>weatherdata</code> endpoint is <code>application/json</code>, whereas the first two endpoints (aqi and weather) are <code>text/plain</code>. {{end}}
+{{important}}The Accept header tells the browser what format you will accept the response in. Whereas the first two endpoints (aqi and weather) are <code>text/plain</code>, the Accept header for the <code>weatherdata</code> endpoint is <code>application/json</code>. {{end}}
 
 When you save these other endpoints, click the arrow next to Save and choose **Save As**. Then choose your collection and request name. (Otherwise you'll overwrite the settings of the existing request.)
 
@@ -88,8 +84,6 @@ When you save these other endpoints, click the arrow next to Save and choose **S
 (Alternatively, click the **+** button on the new tab and create new tabs each time.)
 
 ## View the format of the weatherdata response in JSON
-
-{{activity}}
 
 While the first two endpoint responses include text only, the weatherdata endpoint response is in JSON.
 
@@ -108,8 +102,6 @@ For the sake of variety with GUI clients, here's the same call made in Paw:
 Like Postman, Paw also allows you to easily see the request headers, response headers, URL parameters, and other data. However, Paw is specific to Mac only.
 
 ## Enter several requests for the Aeris API into Postman
-
-{{activity}}
 
 Now let's switch APIs a bit and see some weather information from the Aeris API. Constructing the endpoints for the Aeris Weather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint. 
 

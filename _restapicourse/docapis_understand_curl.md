@@ -27,7 +27,7 @@ cURL provides a generic, language agnostic way to demonstrate HTTP requests and 
 One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response to a more visual display. But you can also see the raw code. 
 
 ## Try using cURL to GET a web page
-{{activity}}
+
 To see an example of how cURL retrieves a web resource, open a terminal and type the following:
 
 ```bash
@@ -37,7 +37,7 @@ curl http://example.com
 You should see all the code behind the site [example.com](http://example.com). The browser's job is to make that code visually readable. cURL shows you what you're really retrieving.
 
 ## Requests and responses include headers too
-{{activity}}
+
 When you type an address into a website, you only see the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. The response also contains a header.
 
 1. To see the response header in a cURL request, include `-i` in the cURL request:

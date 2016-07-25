@@ -45,8 +45,6 @@ The Postman app has most of these code generators built in.
 
 ## Generate a JavaScript code sample from Postman
 
-{{activity}}
-
 {{note}} We covered some of this material earlier in more depth, so here I just cover it more briefly. {{end}}
 To generate a JavaScript code snippet from Postman:
 
@@ -62,7 +60,7 @@ To generate a JavaScript code snippet from Postman:
 This is the JavaScript code that you can attach to an event on your page.
 
 ## Implement the JavaScript code snippet
-{{activity}}
+
 1. Create a new HTML file with the basic HTML elements:
 	
    ```html
@@ -198,7 +196,7 @@ Although the Mashape Weather API doesn't provide a code sample in the Weather AP
 You already worked with this code earlier, so it shouldn't be new. It's mostly same code as the JavaScript snippet we just used, but here there's an error function defined, and the header is set a bit differently.
 
 ## Create a code sample for the surfreport endpoint
-{{activity}}
+
 As a technical writer, add a code sample to the `surfreport/{beachId}` endpoint that you're documenting. Use the same code as above, and add a short description about why the code is doing what it's doing.
 
 Here's my approach:

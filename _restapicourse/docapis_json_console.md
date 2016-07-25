@@ -19,7 +19,7 @@ With most API documentation, you don't need to show how to make use of JSON data
 However, to better understand how developers will access the data, we'll go through a brief tutorial in displaying the REST response on a web page. 
 
 ## Display part of the REST JSON response on a web page
-{{activity}}
+
 Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse and display the REST response on a web page using JavaScript. You could use it, but you could also use some auto-generated code from Postman to do pretty much the same thing.
 
 1. Start with a basic HTML template with jQuery referenced, like this:
@@ -136,7 +136,7 @@ Strings are always enclosed inside quotation marks, and you use the plus sign `+
 Customizing log messages is helpful if you're logging various things to the console and need to flag them with an identifier.
 
 ## Inspect the payload
-{{activity}}
+
 Inspect the payload by expanding each of the sections. Find the section that appears here: **object > query > results > channel > item > description.**
 
 

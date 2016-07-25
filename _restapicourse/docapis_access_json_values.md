@@ -11,7 +11,7 @@ type: notes_docapis
 {% include notes.html %}
 
 ## Accessing JSON values through dot notation
-{{activity}}
+
 You'll notice that in the main content display of the weatherdata code, the REST response information didn't appear. It only appeared in the JavaScript Console. You need to use dot notation to access the JSON values you want.
 
 {{note}} This section will use a tiny bit of JavaScript. You probably wouldn't use this code very much for documentation, but it's important to know anyway. {{end}}

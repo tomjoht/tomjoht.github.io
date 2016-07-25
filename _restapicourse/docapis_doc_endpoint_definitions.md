@@ -64,7 +64,7 @@ And here's an example from Linkedin's API:
 {{tip}} Sometimes the method is referred to as the "verb". GET, PUT, POST, and DELETE are all verbs or actions, after all. {{end}}
 
 ## Your turn to try: Write the endpoint definition for surfreport
-{{activity}}
+
 List out the endpoint definition and method for the surfreport/{beachId} endpoint.
 
 Here's my approach:

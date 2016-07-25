@@ -98,7 +98,7 @@ When I worked at Badgeville, we had a test/demo system we used to generate the r
 However, once the test system generated the responses, those responses were imported into the documentation through a script.
 
 ## Create a sample response in your surfreport/{beachId} endpoint
-{{activity}}
+
 For your `surfreport/{beachId}` endpoint, create a section that shows the sample response. Look over the response to make sure it shows what it should.
 
 Here's what mine looks like:

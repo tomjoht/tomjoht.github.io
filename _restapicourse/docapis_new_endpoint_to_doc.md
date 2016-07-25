@@ -19,7 +19,7 @@ Now let's shift perspectives. Now you're a technical writer working with the Mas
 {{note}} For this exercise, you could equally document a new endpoint for the Aeris Weather API, but since that API is already quite robust, we'll keep it simple and work with the more minimalist Mashape weather API.{{end}}
 
 ## You have a new endpoint to document
-{{activity}}
+
 The project manager calls you over and says they have a new API for you to document for the next release. (By "API," the manager really just means a new endpoint to the existing API. Some APIs like [Alchemy API](http://www.alchemyapi.com/api/) even refer to each endpoint as an API.)
 
 "Here's the wiki page that contains all the data," the manager says. The information is scattered and random on the wiki page. In reality, you probably wouldn't have any information like this at all, but to facilitate the course scenario (you can't ask the "team" questions about this fictitious new endpoint), the page will help.
@@ -121,7 +121,7 @@ In the next topics, you'll work on sorting this information out into eight commo
 * Code samples
 
 ## Create the basic structure for the endpoint documentation
-{{activity}}
+
 Open up a new text file and create sections for each of these elements. 
 
 Each of your endpoints should follow this same pattern and structure. A common template helps increase consistency and familiarity/predictability with how users consume the information.

@@ -112,7 +112,7 @@ The resource description usually starts with a verb and is a fragment. Here are 
 * [Box API](https://box-content.readme.io/#add-a-comment-to-an-item)
 
 ## How I go about it
-{{activity}}
+
 Here's how I went about creating the endpoint description. If you want to try crafting your own description of the endpoint first, and then compare yours to mine, go for it. However, you can also just follow along here.
 
 <div class="docSample">
@@ -138,7 +138,7 @@ Here's how I went about creating the endpoint description. If you want to try cr
 </div>
 
 ## Critique the Mashape Weather API descriptions
-{{activity}}
+
 Look over the descriptions of the three endpoints in the weather API. They're pretty short. For example, the `aqi` endpoint just says "Air Quality Index."
 
 I think these description are too short. But developers like concision. If shortening the surfreport description, you could also write:

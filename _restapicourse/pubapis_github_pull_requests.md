@@ -14,7 +14,7 @@ In the previous step, you used Github Desktop to manage the workflow of committi
 {{tip}} When you ask developers to review content, ask the specific developer who created the feature you're documenting. Developer tasks are usually specific. One developer may not understand what another developer is really doing (beyond a superficial level).{{end}}
 
 ## Make edits in a separate branch
-{{activity}}
+
 By default, your new repository has one branch called "Master." Usually when you're making changes or reviews/edits, you create a new branch and make all the changes in the branch. Then when finished, the repo owner merges edits from the branch into the master through a "pull request."
 
 {{note}}Although you can perform these operations using Git commands from your terminal, you can also perform the actions through the browser interface. This might be helpful if you have less technical people making edits to your content.{{end}}
@@ -36,7 +36,7 @@ To make edits in a separate branch:
 	Reviewers could continue making edits this way until they have finished reviewing all of the documentation. All of the changes are made on a branch, not the master.
 
 ## Create a pull request
-{{activity}}
+
 Now that the review process is complete, it's time to merge the branch into the master. You merge the branch into the master through a pull request. Any "collaborator" on the team with write access can initiate and complete the pull request. You can add collaborators through Settings.
 
 To create a pull request:
@@ -56,7 +56,7 @@ To create a pull request:
 5. Describe the pull request, and then click **Create pull request**.
 
 ## Process the pull request
-{{activity}}
+
 Now pretend you are the project owner, and you see that you received a new pull request. You want to process the pull request and merge the sme review branch into the master.
 
 1. Click the **Pull requests** button to see the pending pull requests.

@@ -9,7 +9,7 @@ type: notes_docapis
 {% include notes.html %}
 
 ## The challenge
-{{activity}}
+
 Use the Aeris Weather API to get the wind speed (MPH) for a specific place (your choice).
 
 ## The Aeris Weather API

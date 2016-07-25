@@ -17,7 +17,7 @@ Our sample weather API from Mashape doesn't allow you to use anything but a GET 
 In this example, you'll create a new pet, update the pet, get the pet's ID, delete the pet, and then try to get the deleted pet. Don't worry so much about understanding the petstore API.
 
 ### Create a new pet
-{{activity}}
+
 To create a pet, you have to pass a JSON message in the request body. Rather than trying to encode the JSON and pass it in the URL, you'll store the JSON in a file and reference the file.
 
 {{tip}}A lot of APIs require you to post requests containing JSON messages in the body. This is often how you configure something. The list of JSON key-value pairs that the API accepts is called the "model schema" in the Petstore API. {{end}}
@@ -73,7 +73,7 @@ To create a pet, you have to pass a JSON message in the request body. Rather tha
     {{tip}} Feel free to run this same request a few times more. REST APIs are "idempotent," which means that running the same request more than once won't end up duplicating the results (you just create one pet here, now multiple pets). Todd Fredrich explains idempotency by <a href="http://www.restapitutorial.com/lessons/idempotency.html">comparing it to a pregnant cow</a>. Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session. {{end}}
 
 ### Update your pet
-{{activity}}
+
 Guess what, your pet hates its name. Change your pet's name to something more formal using the update pet method.
 
 1. In the mypet.json file, change the pet's name.
@@ -84,7 +84,7 @@ Guess what, your pet hates its name. Change your pet's name to something more fo
    ```
 
 ### Get your pet's name by ID
-{{activity}}
+
 Now you want to find your pet's name by passing the ID into the `/pet/{petID}` endpoint.
 
 1. In your mypet.json file, copy the first `id` value.
@@ -124,7 +124,7 @@ Now you want to find your pet's name by passing the ID into the `/pet/{petID}` e
    ```
 
 ### Delete your pet
-{{activity}}
+
 Unfortunately, your pet has died. It's time to delete your pet from the pet registry. &lt;cry + tears / &gt;
 
 1. Use the DELETE method to remove your pet. Replace `5123123` with your pet ID:
@@ -150,7 +150,7 @@ This example has allowed you to see how you can work with cURL to create, read, 
 Although Postman is probably easier to use, cURL lends itself to power usage. Quality assurance teams often construct advanced test scenarios that iterate through a lot of cURL requests.
 
 ## Import cURL into Postman
-{{activity}}
+
 You can import cURL commands into Postman by doing the following:
 
 1. Open a new tab in Postman and click the **Import** button.
@@ -169,7 +169,7 @@ You can import cURL commands into Postman by doing the following:
 5. Click **Send**.
 
 ## Export Postman to cURL
-{{activity}}
+
 You can export Postman to cURL by doing the following:
 
 1. In Postman, click the **Generate Code Snippet** button.

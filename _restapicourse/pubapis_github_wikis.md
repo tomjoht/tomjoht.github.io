@@ -41,7 +41,7 @@ There are some limitations with Github wikis:
 * **No structure**. The Github wiki pages give you a blank page and basically allow you to add sections. You won't be able to do any advanced styling or sexy-looking interactive API doc.
 
 ## Create a Github wiki and publish content on a sample page
-{{activity}}
+
 In this section, you will create a new Github repo and publish a sample file there.
 
 {{note}} In this section, you'll be using Git commands through your terminal or command prompt. In later tutorials, you'll use the Github Desktop and Github browser tools. Basically, you can interact with Github in a variety of ways.{{end}}
@@ -92,7 +92,7 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 5. Navigate to the directory (either using standard ways of browsing for files on your computer or via the terminal) to see the files you downloaded. If you can view invisible files on your machine, you will also see a git folder.
 
 ## Set up Git and Github authentication
-{{activity}}
+
 1. Set up Git on your computer. 
 
 	{{tip}}It's easiest to install Git by <a href="https://desktop.github.com">installing Github Desktop</a>. Installing Github Desktop will include all the Git software as well.{{end}}
@@ -114,7 +114,7 @@ You could use this Github wiki in an entirely browser-based way for multiple peo
 After you make these configurations, close and re-open your terminal.
 	
 ## Make a change locally, commit it, and push the commit to the Github repository
-{{activity}}
+
 1. In a text editor, open the Markdown file you downloaded in the github repository. 
 2. Make a small change and save it.
 3. In your terminal, make sure you're in the directory where you downloaded the github project. To look at the directories under your current path, type `ls`. Then use `cd {directory name}` to drill into the folder, or `cd ../` to move up a level.

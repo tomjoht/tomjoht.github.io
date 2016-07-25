@@ -18,7 +18,7 @@ You can publish documentation on hosted platforms specifically built for API and
 If you consider how much time it requires to build, maintain, troubleshoot, etc. your own website, then it really does make sense to consider an existing third-party platform where someone has already built all of this out for you.
 
 ## Publish endpoint documentation on readme.io
-{{activity}}
+
 In this tutorial we'll explore how to publish content on readme.io in more depth.
 
 <a href="http://readme.io"><img src="{{ "/images_api/readmeio.png" | prepend: site.baseurl }}" alt="Readme.io" /></a>
@@ -26,14 +26,14 @@ In this tutorial we'll explore how to publish content on readme.io in more depth
 In this workshop activity, you'll publish this [weatherdata endpoint documentation](https://www.mashape.com/fyhao/weather-13#weatherdata) on readme.io. 
 
 ### a. Set up a readme.io project
-{{activity}}
+
 1. Click the **Sign Up** button in the upper-right corner and sign up for an account.
 2. Add a Project Name (e.g., Weather API), Subdomain (e.g., weather-api), and Project Logo. Then click **Create Project**.
 	
 	<img src="{{ "/images_api/projectsettingsreadmeio.png" | prepend: site.baseurl }}" alt="Project Settings" />
 
 ### b. Configure API settings
-{{activity}}
+
 1. In the left sidebar, under Settings, click **API Settings**. 
 
 	This is where you add the authentication information necessary for making calls to the API.
@@ -53,7 +53,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
 6. Click **Save**.
 
 ### c. Add endpoint documentation
-{{activity}}
+
 1. In the left sidebar, click **Documentation**. 
 2. Click **+** to add a new page, and choose the **RESTful API** template. 
 3. Select the **GET** method next to title.	
@@ -65,7 +65,7 @@ In this workshop activity, you'll publish this [weatherdata endpoint documentati
  6. At the top of the screen, click the project name to view the site. 
  
 ### d. Interact with the documentation
- {{activity}}
+ 
  1. Click **Documentation** in the header to go to your site.
  2. Click the **Weatherdata** endpoint in the sidebar.
  3. In the Try It Out section, insert some values into the lat and lng fields, and then click **Try It**.

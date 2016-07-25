@@ -31,7 +31,7 @@ In order to get a better understanding of Swagger, let's explore the Petstore ex
 There are three resources: pet, store, and user. 
 
 ### Create a pet
-{{activity}}
+
 1. In the **Pet** resource, expand the **Post** method. 
 2. Click the yellow JSON in the Model Schema section:
 	
@@ -69,7 +69,7 @@ There are three resources: pet, store, and user.
 	<img src="{{ "/images_api/swaggerpetstoreresponse.png" | prepend: site.baseurl }}" alt="JSON response" />
 
 ### Find your pet by the ID
-{{activity}}
+
 1. Expand the GET `pet/{petId}` method.
 2. Insert your pet's ID in the `petId` value box.
 3. Click **Try it out!**
@@ -113,13 +113,13 @@ Note a few limitations with the Swagger approach:
 * The Swagger UI will be a separate site from your other documentation.
 
 ## Create a Swagger UI display
-{{activity}}
+
 In this activity, you'll create a Swagger UI display for the weatherdata endpoint in this [Mashape Weather API](https://www.mashape.com/fyhao/weather-13#weatherdata). (If you're jumping around in the documentation, this is a simple API that we used in earlier parts of the course.) You can see a demo of what we'll build [here](http://learnapidoc.com/swagger/tom):
 
 <a href="http://learnapidoc.com/swagger/tom"><img src="{{ "/images_api/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
 
 ### a. Create a Swagger spec file
-{{activity}}
+
 To create a Swagger spec file:
 
 1. Go to the [Swagger online editor](http://editor.swagger.io/#/).
@@ -137,7 +137,7 @@ To create a Swagger spec file:
 You can also choose JSON as the format, but YAML is more readable and works just as well.
 
 ### b. Set Up the Swagger UI
-{{activity}}
+
 1. Go to the [Swagger UI](https://github.com/swagger-api/swagger-ui) Github project. Click the **Download ZIP** button. Download the files to a convenient location on your computer and extract the files.
 	
 	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files, which is beyond the scope of this tutorial.
@@ -335,7 +335,7 @@ If the previous instructions were confusing, just copy the following code and re
 ```
 
 ### c. Upload the Files to a Web Host
-{{activity}}
+
 You can't view the Swagger UI display locally &mdash; you must view it on a web server. If you already have a web server, great. Just upload the dist folder there and view it. 
 
 You can also run a web server locally on your computer through XAMPP:
@@ -351,7 +351,7 @@ You can also run a web server locally on your computer through XAMPP:
 The Swagger UI display should appear.
 	
 ### Interact with the Swagger UI
-{{activity}}
+
 1. Go to Google Maps and search for an address.
 2. Get the latitude and longitude from the URL, and plug it into your Swagger UI. (For example, **1.3319164** for lat, **103.7231246** for lng.)
 3. Click **Try it out**.
