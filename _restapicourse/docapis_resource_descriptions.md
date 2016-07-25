@@ -103,7 +103,7 @@ The Box example has 5 different endpoints or methods you can call. Each of these
 
 ## When describing the resource, start with a verb
 
-Review the <a href="{{ "/docapis_new_endpoint_to_doc">surf report wiki page</a> containing the information about the endpoint, and try to describe the endpoint in the length of one or two tweets (140 characters).
+Review the <a href="{{ "/docapis_new_endpoint_to_doc" | prepend: site.baseurl }}">surf report wiki page</a> containing the information about the endpoint, and try to describe the endpoint in the length of one or two tweets (140 characters).
 
 The resource description usually starts with a verb and is a fragment. Here are some examples:
 

@@ -28,7 +28,7 @@ It's now your task to sort through the information on this page and create docum
 
 Read through the wiki page to get a sense of the information. The upcoming topics will guide you through creating documentation for this new endpoint.
 
-<div class="docSample">
+<div class="docSample">{% raw %}
 <h2>The wiki page: "Surf Report API"</h2>
 
 <p>The new endpoint is <code>/surfreport/{beachId}</code>. This is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. <code>{beachId}</code> is retrieved from a list of beaches on our site.</p>
@@ -93,7 +93,7 @@ https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1
     ]
 }
 </pre>
- 
+
 <p>Negative numbers in the tide represent incoming tide.</p>
 
 <p>The report won't include any details about riptide conditions. </p>
@@ -106,6 +106,7 @@ https://simple-weather.p.mashape.com/surfreport/123?&days=2&units=metrics&hour=1
 
 <p>If the query is malformed, you get error code 400 and an indication of the error.</p>
 </div>
+{% endraw %}
 
 ## Essential sections in REST API documentation
 
