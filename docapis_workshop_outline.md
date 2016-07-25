@@ -8,7 +8,6 @@ course: "Documenting REST APIs"
 weight: 4600
 summary: 
 ---
-{% include restapicourse.html %}
 
 {{note}} These are the notes I use as an instructor when teaching this workshop. The notes accompany slides. {{end}}
 

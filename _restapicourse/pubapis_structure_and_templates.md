@@ -11,7 +11,7 @@ If you have a lot of endpoints, you can construct a template that forces specifi
 
 You could just remember to add the exact same sections on each page, but this requires more manual consistency.
 
-<a href="https://flic.kr/p/oFD6MM"><img src="{{ "/images/publishingapidocs/structure.png" | prepend: site.baseurl }}" alt="Structure, by Rafal Zych" /></a>
+<a href="https://flic.kr/p/oFD6MM"><img src="{{ "images_api/structure.png" | prepend: site.baseurl}}" alt="Structure, by Rafal Zych" /></a>
 
 ## Pushing values into more stylized outputs
 
@@ -34,7 +34,7 @@ And so on.
 You then use a for loop to cycle through each of the items and insert them into your template:
 
 {% raw %}
-```
+```liquid
 {% for p in site.endpoints %}
 <div class="resName">{{p.resource_name}}</div>
 <div class="resDesc">{{p.resource_description}}</div>

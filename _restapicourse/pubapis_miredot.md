@@ -11,7 +11,7 @@ One of the tools you can use to generate API documentation from source -- as lon
 
 Miredot is a plugin for Maven, which is a build tool that you integrate into your Java IDE. Miredot can generate an offline website that looks like this: 
 
-<a href="http://miredot.com/exampledocs/"><img src="{{ "/images/publishingapidocs/miredotexample.png" | prepend: site.baseurl }}" alt="Miredot example" /></a>
+<a href="http://miredot.com/exampledocs/"><img src="{{ "images_api/miredotexample.png" | prepend: site.baseurl}}" alt="Miredot example" /></a>
 
 You can read the [Getting started guide](http://miredot.com/docs/getting-started/) for Miredot for instructions on how to incorporate it into your Java project.
 
@@ -44,7 +44,7 @@ Miredot consumes this information and generates an output.
 1. First browse the [Miredot sample code](https://github.com/Qmino/miredot-petstore/blob/master/src/main/java/com/qmino/miredot/petstore/service/CatalogService.java).
 2. To see how this information gets rendered in the Miredot output, go to the [Petstore example docs](http://miredot.com/exampledocs/), expand **Catalog > Category** on the right, and then select **PUT**. Or go directly [here](http://www.miredot.com/exampledocs/#268738548).
 
-<a href="http://www.miredot.com/exampledocs/#268738548"><img src="{{ "/images/publishingapidocs/miredotupdatecategory.png" | prepend: site.baseurl }}" alt="Miredot update category" /></a>
+<a href="http://www.miredot.com/exampledocs/#268738548"><img src="{{ "images_api/miredotupdatecategory.png" | prepend: site.baseurl}}" alt="Miredot update category" /></a>
 
 If you browse the navigation of Miredot's output, it's an interesting-looking solution. This kind of documentation might fit a Java-based REST API well.
 

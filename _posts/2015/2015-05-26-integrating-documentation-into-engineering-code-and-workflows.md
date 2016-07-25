@@ -10,7 +10,11 @@ summary: "If you want to encourage engineers to write documentation, integrate y
 ## Write the Docs video
 If you work with developer documentation, definitely check out Riona Macnamara's Write the Docs 2015 presentation: [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/watch?v=EnB8GtPuauw).
 
+{% unless site.target == "pdf" %}
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/EnB8GtPuauw" frameborder="0" allowfullscreen></iframe>
+
+{% endunless %}
 
 ## The problem: Scattered documentation
 

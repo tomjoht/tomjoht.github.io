@@ -3,6 +3,7 @@ title: "Conclusion"
 permalink: /pubapis_conclusion/
 course: "Documenting REST APIs"
 type: notes_docapis
+weight: 8.2
 ---
 
 ## Congrats, you finished
@@ -26,4 +27,4 @@ Here are a few questions to consider:
 
 ## What publishing tools did you choose?
 
-I'm curious to know what publishing tools you chose. There are many options, and I could only cover a fraction of them during this course. <a href="{{ "/contact" | prepend: site.baseurl }}">Drop me a note</a> to let me know what publishing tool or platform you're using, and how it's working out.
+I'm curious to know what publishing tools you chose. There are many options, and I could only cover a fraction of them during this course. <a href="http://idratherbewriting.com/contact">Drop me a note</a> to let me know what publishing tool or platform you're using, and how it's working out.

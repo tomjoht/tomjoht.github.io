@@ -1,0 +1,123 @@
+name: "I'd Rather Be Writing"
+description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
+host: 127.0.0.1
+port: 4030
+feedback_email: tomjohnson1492@gmail.com
+sidebar_accordion: true
+disqus_shortname: idratherbewriting
+google_analytics: UA-408430-5
+markdown: redcarpet
+show_audience_label: true
+output: web
+paginate: 15
+timezone: America/Los_Angeles
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-feed, jekyll-paginate]
+
+exclude:
+  - _drafts
+  - .idea
+  - _site
+  - _posts
+  - pages
+
+# this enables collections
+collections:
+  restapicourse:
+    output: true
+  publishingapidocs:
+    output: true
+  voiceovertechniques:
+    output: true
+  visualcommunication:
+    output: true
+  podcasts:
+    output: true
+
+
+# these are defaults that get applied to each page or post's frontmatter. leave as is.
+permalink: /:year/:month/:day/:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "tooltips_demo"
+    values:
+      layout: "page"
+      search: true
+  -
+    scope:
+      path: ""
+      type: "restapicourse"
+    values:
+#      layout: "page_restapicourse"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
+      type: "podcasts"
+    values:
+      layout: "itunes"
+
+  -
+    scope:
+      path: ""
+      type: "visualcommunication"
+    values:
+      layout: "page_visualcommunication"
+      comments: true
+      search: true
+
+  -
+    scope:
+      path: ""
+      type: "revisioncontrol"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+
+sass:
+    sass_dir: _sass
+
+target: pdf
+
+## itunes feed settings
+
+podcast_url: http://www.idratherbewriting.com
+podcast_album_art: /images/techwritervoices.jpg
+podcast_title: I'd Rather Be Writing iTunes Feed
+podcast_owner: Tom Johnson
+podcast_email: tom@idratherbewriting.com
+podcast_category: Technology
+podcast_subcategory_one: Software How-To
+podcast_subcategory_two: Tech News
+podcast_explicit: "no"
+podcast_author: Tom Johnson
+podcast_description: Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.
+podcast_summary: A technical writing podcast about the latest trends and practices in the field of technical communication. Technical communication includes topics like technical writing (software help), information architecture, usability, API documentation, information design, web design, illustration, DITA, structured authoring, visual communication, and more. If you're a technical writer or interested in technical writing, this is the one of few podcasts in this niche. I also have a blog at http://idratherbewriting.com where the podcasts and other blog topics are published.
+podcast_subtitle: Technical writing trends and innovations, along with content from idratherbewriting.com. Hosted by Tom Johnson.
+

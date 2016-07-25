@@ -3,7 +3,7 @@ title: "Making edits to Javadoc tags"
 permalink: /nativelibraryapis_editing_javadoc/
 course: "Documenting REST APIs"
 type: notes_docapis
-weight:
+weight: 7.6
 ---
 
 ## Common scenarios

@@ -16,7 +16,7 @@ Although you've already listed the endpoint and parameters, you also include a s
 
 Here's an example from the NYTimes API:
 
-<a href="http://developer.nytimes.com/docs/read/article_search_api_v2"><img src="{{ "/images/restapicourse/nytimesexample.png" | prepend: site.baseurl }}" alt="New York Times API example" /></a>
+<a href="http://developer.nytimes.com/docs/read/article_search_api_v2"><img src="{{ "images_api/nytimesexample.png" | prepend: site.baseurl}}" alt="New York Times API example" /></a>
 
 In this case, adding the parameters looks kind of confusing because there's a square bracket in there after the query string. 
 
@@ -32,7 +32,7 @@ Fortunately, the NYTimes API [provides numerous request examples](http://develop
 
 Many APIs have a feature called an API Explorer. For example, you can see Foursquare's API Explorer here:
 
- <a href="https://developer.foursquare.com/docs/explore"><img src="{{ "/images/restapicourse/foursquareapiexplorer.png" | prepend: site.baseurl }}" alt="Foursquare's API Explorer" /></a>
+ <a href="https://developer.foursquare.com/docs/explore"><img src="{{ "images_api/foursquareapiexplorer.png" | prepend: site.baseurl}}" alt="Foursquare's API Explorer" /></a>
  
 The API Explorer lets you insert your own values, your own API key, and other parameters into a request so you can see the responses directly in the Explorer. Being able to see your own data maybe makes the response more real and immediate.
 
@@ -44,7 +44,7 @@ Additionally, the API Explorer can be a dangerous addition to your site. What if
 
 In Sendgrid's API, they include a warning message to users before testing out calls with their API Explorer:
 
-<a href="https://sendgrid.com/docs/API_Reference/Web_API/blocks.html"><img src="{{ "/images/restapicourse/sendgridwarningmessage.png" | prepend: site.baseurl }}" alt="SendGrid API Explorer warning message" /></a>
+<a href="https://sendgrid.com/docs/API_Reference/Web_API/blocks.html"><img src="{{ "images_api/sendgridwarningmessage.png" | prepend: site.baseurl}}" alt="SendGrid API Explorer warning message" /></a>
 
 Some platforms such as [Swagger](http://swagger.io/) and [Readme.io](http://readme.io) can integrate an API Explorer functionality directly into your documentation. 
 

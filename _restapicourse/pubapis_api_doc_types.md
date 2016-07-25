@@ -32,7 +32,7 @@ I think this division of content represents the API documentation genre well and
 
 In Mulesoft's API platform, you can see many of these sections in their standard template for API documentation:
 
-<a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api?ref=apihub"><img src="{{ "/images/restapicourse/commonsections.png" | prepend: site.baseurl }}" alt="Common sections in API documentation" /></a>
+<a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api?ref=apihub"><img src="{{ "images_api/commonsections.png" | prepend: site.baseurl}}" alt="Common sections in API documentation" /></a>
  
  I won't get into too much detail about each of these sections. In previous sections of this course, I explored the content development aspect of API documentation in depth. Here I'll just list the salient points. 
  
@@ -58,7 +58,7 @@ By showing the developer how to create something from beginning to end, you prov
 
 Here's a list of tutorials from Parse:
 
-<a href="https://www.parse.com/tutorials"><img src="{{ "/images/publishingapidocs/parsetutorials.png" | prepend: site.baseurl }}" alt="Parse tutorials" /></a>
+<a href="https://www.parse.com/tutorials"><img src="{{ "images_api/parsetutorials.png" | prepend: site.baseurl}}" alt="Parse tutorials" /></a>
 
 Some tutorials can even serve as reference implementations, showing full-scale code that shows how to implement something in a detailed way. This kind of code is highly appealing to developers because it usually helps clarify all the coding details.
 
@@ -83,7 +83,7 @@ Note that the endpoint documentation is never meant to be a starting point. The 
 
 Here's a sample page showing endpoints from Instagram's API: 
 
-<a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "/images/publishingapidocs/instagramref.png" | prepend: site.baseurl }}" alt="Instagram endpoints" /></a>
+<a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "images_api/instagramref.png" | prepend: site.baseurl}}" alt="Instagram endpoints" /></a>
 
 
 

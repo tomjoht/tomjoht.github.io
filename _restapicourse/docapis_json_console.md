@@ -41,7 +41,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 2. Open Postman and click the request to the `weatherdata` endpoint that you configured earlier.
 3. Click the **Generate Code Snippet** button.
 	
-	<img src="{{ "/images/restapicourse/postmangeneratecodesnippet.png" | prepend: site.baseurl }}" alt="Generate code snippet" />
+	<img src="{{ "images_api/postmangeneratecodesnippet.png" | prepend: site.baseurl}}" alt="Generate code snippet" />
 	
 4. Select **JavaScript > jQuery AJAX**.
 5. Copy the code sample.
@@ -87,7 +87,7 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	
 	The page body will be blank, but the weatherdata response should be logged to the JavaScript console. You can inspect the payload by expanding the sections.
 	
-	<img src="{{ "/images/restapicourse/jsonpayloadweatherdata.png" | prepend: site.baseurl }}" alt="JSON payload from weatherdata API logged to console" />
+	<img src="{{ "images_api/jsonpayloadweatherdata.png" | prepend: site.baseurl}}" alt="JSON payload from weatherdata API logged to console" />
 	
 	Note that Chrome tells you whether each expandable section is an object or an array. Knowing this is critical to accessing the value through JavaScript dot notation.
 	

@@ -59,7 +59,7 @@ cURL is a command-line utility that lets you execute HTTP requests with differen
 
 You should see something like this as a response:
 
-<img src="{{ "/images/restapicourse/aqi_curl_response.png" | prepend: site.baseurl }}" alt="cURL call" />
+<img src="{{ "images_api/aqi_curl_response.png" | prepend: site.baseurl}}" alt="cURL call" />
 
 The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
@@ -83,7 +83,7 @@ The response is just a single number: the air quality index for the location spe
 	
 	The response from Mashape looks like this:
 
-	<img src="{{ "/images/restapicourse/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
+	<img src="{{ "images_api/commandline.png" | prepend: site.baseurl}}" alt="Command line Windows" />
 	
 
 ## Single and Double Quotes with Windows cURL requests

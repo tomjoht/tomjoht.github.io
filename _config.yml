@@ -20,8 +20,8 @@ kramdown:
 
 gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-feed, jekyll-paginate]
 
-#url: "http://tomjohnson1492.github.io"
-url: http://idratherbewriting.com
+url: http://idratherbewriting.com/
+
 exclude:
   - _drafts
   - .idea
@@ -39,7 +39,6 @@ collections:
     output: true
   podcasts:
     output: true
-
 
 # these are defaults that get applied to each page or post's frontmatter. leave as is.
 permalink: /:year/:month/:day/:title/
@@ -78,6 +77,14 @@ defaults:
   -
     scope:
       path: ""
+      type: "nativelibraryapis"
+    values:
+      layout: "page_restapicourse"
+      comments: true
+      search: true
+  -
+    scope:
+      path: ""
       type: "podcasts"
     values:
       layout: "itunes"
@@ -103,6 +110,7 @@ defaults:
 sass:
     sass_dir: _sass
 
+target: web
 
 ## itunes feed settings
 

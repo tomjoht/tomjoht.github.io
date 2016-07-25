@@ -12,50 +12,56 @@ type: notes_docapis
 
 ## About authorization for API calls
 
-Almost every API has a method in place to authenticate requests. You usually have to provide an API key in requests in order to get a response. Authorization allows API publishers to do the following:
+Almost every API has a method in place to authenticate requests. You usually have to provide an API key in requests to get a response. Authorization allows API publishers to do the following:
 
 * License access to the API
 * Rate limit the number of requests
 * Control availability of certain features within the API, and more
 
-{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation. Later in the course we will dive into <a href="{{ "/docapis_more_about_authorization" | prepend: site.baseurl }}">authorization methods in more detail</a>.{{end}}
+{{tip}} Keep in mind how users authorize calls into an API &mdash; this is something you usually cover in API documentation. Later in the course we will dive into authorization methods in more detail.{{end}}
 
-In order to run the code samples in this course, you will need to use your own API keys, since these are usually treated like personal passwords and not given out or published openly on a web page.
+In order to run the code samples in this course, you will need to use your own API keys, since these keys are usually treated like personal passwords and not given out or published openly on a web page.
 
 ## Get the Mashape authorization keys
+
 {{activity}}
-In order to get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
+
+To get the authorization keys to use the Mashape API, you'll need to sign up for a Mashape account.
 
 1. On [market.mashape.com](https://market.mashape.com/), click **Sign Up** in the upper-right corner and create an account.
 2. Click **Applications** on the top navigation bar, and then select **Default Application**.
 3. In the upper-right corner, click **Get the Keys**.
 	
-	<img src="{{ "/images/restapicourse/mashape_get_keys.png" | prepend: site.baseurl }}" alt="Mashape -- getting the keys" />
+	<img src="{{ "images_api/mashape_get_keys.png" | prepend: site.baseurl}}" alt="Mashape -- getting the keys" />
 
-	{{note}}If you don't see the Get the Keys button, make sure you click <b>Applications > Default Application</b> on the top navigation bar first.{{end}}
+	{{note}}If you don't see the Get the Keys button, make sure you click <b>Applications > Default Application</b> on the top navigation bar first. You may have to horizontally scroll to the right (eek!) to see the Get the Keys button.{{end}}
 	
 3. When the Environment Keys dialog appears, click **Copy** to copy the keys. (Choose the Testing keys, since this type allows you to make unlimited requests.)
 
-    <img src="{{ "/images/environmentkeys.png" | prepend: site.baseurl }}" alt="Mashape keys" />
-
-4. Open up a text editor and paste the key so that you can easily access it later when you construct a call.
+    <img src="{{ "images_api/environmentkeys.png" | prepend: site.baseurl}}" alt="Mashape keys" />
+    
+4. Open a text editor and paste the key so that you can easily access it later when you construct a call.
 
 ## Get the Aeris Weather API secret and ID
 
-1. Go to [http://www.aerisweather.com](http://www.aerisweather.com) and click **Sign Up** in the upper-right corner.
-2. Select **API Developer**, if it's not already selected. Then click **Sign Up**. (Note that the free version limits the number of requests per day and per minute you can make.)
-3. Click **Checkout**. You're prompted to create an Aeris account.
-4. Complete the fields and create an Aeris account. When finished creating the account, you'll see a message that says "Your subscription has been successfully processed." 
-5. Once you sign up for an account, click **Account** in the upper-right corner.
+The Aeris Weather API requires both a secret and ID to make requests.
+
+1.  Go to [http://www.aerisweather.com](http://www.aerisweather.com) and click **Sign Up** in the upper-right corner.
+2.  Select **API Developer**, if it's not already selected. Then click **Sign Up**. (Note that the free version limits the number of requests per day and per minute you can make.)
+3.  Click **Checkout**. You're prompted to create an Aeris account. (Don't worry &mdash; you won't have to enter any credit card details.)
+4.  Complete the fields and create an Aeris account. When finished creating the account, you'll see a message that says "Your subscription has been successfully processed." 
+5.  Once you sign up for an account, click **Account** in the upper-right corner.
 	
-	<img src="{{ "/images/restapicourse/aerisaccount.png" | prepend: site.baseurl }}" alt="Aeris account" />
+	<img src="{{ "images_api/aerisaccount.png" | prepend: site.baseurl}}" alt="Aeris account" />
 	
-6. Click **Apps**, and then click **New Application**.
-7. In the dialog box, enter the following:
- * **Application Name**: My biking app (or something)
- * **Application Namespace**: localhost
- * **Company Name**: self
- * **Website**: local
+6.  Click **Apps** (on the second navigation row, to the right of "Usage"), and then click **New Application**.
+7.  In the dialog box, enter the following:
+    * **Application Name**: My biking app (or something)
+    * **Application Namespace**: localhost
+    * **Company Name**: self
+    * **Website**: local
+8.  Click **Save App**.  
+9.  Refresh the web page.
  
 Once your app registers, you should see an ID and secret for the app. Copy this information into a text file, since you'll need it to make requests.
 

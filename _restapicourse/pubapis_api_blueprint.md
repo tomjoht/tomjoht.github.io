@@ -221,7 +221,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	
 	You'll be placed in the API Blueprint editor. 
 	
-	<img src="{{ "/images/publishingapidocs/apiaryblueprinteditor.png" | prepend: site.baseurl }}" alt="API Blueprint editor" />
+	<img src="{{ "images_api/apiaryblueprinteditor.png" | prepend: site.baseurl}}" alt="API Blueprint editor" />
 	
 	By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
 	
@@ -383,7 +383,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	              
    ```
 	
-	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">view and download the file here</a>.{{end}}
+	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md">view and download the file here</a>.{{end}}
 	
 5. Click **Save and Publish**.
 

@@ -11,7 +11,7 @@ More than anything else, developers love code examples. Usually the more code yo
 
 Here's an example from Evernote's API: 
 
-<a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="{{ "/images/publishingapidocs/evernotecodesamples.png" | prepend: site.baseurl }}" alt="Evernote code examples" /></a>
+<a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="{{ "images_api/evernotecodesamples.png" | prepend: site.baseurl}}" alt="Evernote code examples" /></a>
 
 The writers at Parse [emphasize the importance of code samples](http://blog.parse.com/learn/engineering/designing-great-api-docs/):
 

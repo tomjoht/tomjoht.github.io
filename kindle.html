@@ -1,0 +1,36 @@
+---
+layout: none
+permalink: kindle.html
+type: kindle
+---
+
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Latin-1">
+
+    <title>Documenting REST APIs</title>
+    <meta name="description" content="Documenting REST APIs">
+    <meta name="author" content="Tom Johnson, I'd Rather Be Writing">
+
+    <link rel="stylesheet" href="css/customstyles.css">
+    <link rel="stylesheet" href="css/syntax.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+
+<body>
+{% include toc.html %}
+
+
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+    {% unless p.type == "kindle" %}
+<h1>{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+{% endunless %}
+{% endfor %}
+
+</body>
+</html>

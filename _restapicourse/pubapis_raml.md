@@ -6,14 +6,13 @@ course: "Publishing REST APIs"
 weight: 5.6
 type: notes_docapis
 ---
-{% include restapicourse.html %}
 
 ## About RAML
 RAML stands for REST API Modeling Language and is similar to Swagger and other API specifications. RAML is backed by [Mulesoft](https://www.mulesoft.com/), a commercial API company, and uses a more YAML-based syntax in the specification.
 
 Similar to Swagger, once you create a RAML file that describes your API, it can be consumed by different platforms to parse and display the information in attractive outputs. The RAML format, which uses YML syntax, tries to be human-readable, efficient, and simple. 
 
-<figure><img src="{{ "/images/restapicourse/ramlexample.png" | prepend: site.baseurl }}" alt="Sample RAML output in API Console" /></a><figcaption>This is a sample RAML output in something called API Console</figcaption></figure>
+<figure><img src="{{ "images_api/ramlexample.png" | prepend: site.baseurl}}" alt="Sample RAML output in API Console" /></a><figcaption>This is a sample RAML output in something called API Console</figcaption></figure>
 
 ## Auto-generating client SDK code
 
@@ -249,7 +248,7 @@ You can generate outputs using the RAML spec from a variety of platforms. Here a
 	
 	Note that you can add additional pages to your documentation here. 
 	
-	<img src="{{ "/images/restapicourse/addingmoreramlapiportal.png" | prepend: site.baseurl }}" alt="Adding additional pages" />
+	<img src="{{ "images_api/addingmoreramlapiportal.png" | prepend: site.baseurl}}" alt="Adding additional pages" />
 	
 	(Kudos to the Mulesoft team for recognizing that API documentation is more than just a set of reference endpoints.)
 	
@@ -258,7 +257,7 @@ You can generate outputs using the RAML spec from a variety of platforms. Here a
 10. Click the **Set to visible** icon (looks like an eye).
 11. Click **Live Portal**.
 	
-	<img src="{{ "/images/restapicourse/apireferenceanypoint.png" | prepend: site.baseurl }}" alt="AnyPoint Developer Portal" />
+	<img src="{{ "images_api/apireferenceanypoint.png" | prepend: site.baseurl}}" alt="AnyPoint Developer Portal" />
 
 ## Deliver doc through the API Console Project
 
@@ -268,14 +267,14 @@ You can also download the same code that generates the output on the Anypoint Pl
 2. Save your RAML file to some place locally on your computer (such as weather.raml on Desktop). 
 3. In the code you downloaded from Github, go to dist/index.html in your browser.
 	
-	<img src="{{ "/images/restapicourse/apiconsoleraml.png" | prepend: site.baseurl }}" alt="RAML Console" />
+	<img src="{{ "images_api/apiconsoleraml.png" | prepend: site.baseurl}}" alt="RAML Console" />
 	
 4. Copy the RAML code you created. 
 5. Insert your copied code into the **Or parse RAML here** text box. Then click **Load RAML**.
 	
 	The API Console loads your RAML content:
 	
-	<img src="{{ "/images/restapicourse/ramlloaded.png" | prepend: site.baseurl }}" alt="RAML loaded" />
+	<img src="{{ "images_api/ramlloaded.png" | prepend: site.baseurl}}" alt="RAML loaded" />
 	
 6. To auto-load a specific RAML file, add this to the body of the index.html file:
 	
@@ -320,7 +319,7 @@ To generate this kind of output:
 	
 	Here's the result: 
 	
-	<img src="{{ "/images/restapicourse/raml2htmloutput.png" | prepend: site.baseurl }}" alt="RAML2HTML" />
+	<img src="{{ "images_api/raml2htmloutput.png" | prepend: site.baseurl}}" alt="RAML2HTML" />
 	
 	{{tip}}To see this example in your browser, go to <a href="http://learnapidoc.com/raml/examples/index.html">learnapidoc.com/raml/examples/index.html</a>.{{end}}
 

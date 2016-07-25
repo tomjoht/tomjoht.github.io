@@ -1,6 +1,6 @@
 ---
-title: "Publishing API docs"
-permalink: /pubapis_overview/
+title: 'Publishing API docs'
+permalink: /docapis_flickr_example/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 4.5
