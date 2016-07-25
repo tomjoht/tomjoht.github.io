@@ -8,9 +8,10 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
+## An API is an interface between systems
+
 {{note}} This course is all about learning by doing, but while <i>doing</i> various activities, I'll periodically pause and dive into some more abstract concepts to fill in more detail. This is one of those deep dive moments.{{end}}
 
-## An API is an interface between systems
 In general, an API (or Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
 
 <a href="http://bit.ly/1DexWM0"><img src="{{ "/images_api/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>

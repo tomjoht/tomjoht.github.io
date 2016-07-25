@@ -4,6 +4,26 @@ permalink: kindle.html
 type: kindle
 ---
 
+<style>
+
+    h1 {
+        color: orange !important;
+    }
+    #toc ul li a {
+        list-style-type: none !important;
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    #toc ul li ul li a{
+        font-size: 100%;
+        font-weight: normal;
+    }
+    img {
+        max-width: 700px;
+    }
+</style>
+
 <!doctype html>
 
 <html lang="en">
@@ -29,7 +49,7 @@ type: kindle
     $( document ).ready(function() {
         // Handler for .ready() called.
 
-        $('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h1' });
+        $('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h1,h2.subhead' });
 
 
     });
@@ -37,14 +57,32 @@ type: kindle
 
     <div id="toc"></div>
 
-
+<h1 id="like-a-developer">Using an API like a developer</h1>
 {% assign apipages = site.restapicourse | sort: "weight" %}
 {% for p in apipages %}
-    {% unless p.type == "kindle" %}
-<h1 id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+    {% if p.weight < 2.4 %}
+<h2 class="subhead" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
 {{p.content}}
-{% endunless %}
+{% endif %}
 {% endfor %}
 
+<h1 id="like-a-tech-writer">Documenting a new endpoint</h1>
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+{% if p.weight > 2.4 and p.weight < 4.3 %}
+<h2 class="subhead" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+{% endif %}
+{% endfor %}
+
+
+<h1 id="like-a-publisher">Publishing API documentation</h1>
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+    {% if p.weight > 4.3 %}
+<h2 class="subhead" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+{% endif %}
+{% endfor %}
 </body>
 </html>
