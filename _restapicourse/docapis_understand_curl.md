@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## cURL is a cross-platform way to show requests and responses
 
-Before moving on, let's pause a bit and learn a bit more about cURL. 
+Before moving on, let's pause a bit and learn more about cURL. 
 
 One of the advantages of REST APIs is that you can use almost any programming language to call the endpoint. The endpoint is simply a resource located on a web server at a specific path.
 
@@ -38,25 +38,25 @@ You should see all the code behind the site [example.com](http://example.com). T
 
 ## Requests and responses include headers too
 
-When you type an address into a website, you only see the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. The response also contains a header.
+When you type an address into a website, you see only the body of the response. But actually, there's more going on behind the scenes. When you make the request, you're sending a header that contains information about the request. The response also contains a header.
 
-1. To see the response header in a cURL request, include `-i` in the cURL request:
+1.  To see the response header in a cURL request, include `-i` in the cURL request:
 
-   ```bash
+    ```bash
     curl http://example.com -i
-   ```
+    ```
 
     The header will be included *above* the body in the response.
 
-2. To limit the response to just the header, use `-I`:
-
-   ```bash
+2.  To limit the response to just the header, use `-I`:
+    
+    ```bash
     curl http://example.com -I
-   ```
-
+    ```
+    
     The response header is as follows:
 
-   ```
+    ```
     HTTP/1.1 200 OK
     Accept-Ranges: bytes
     Cache-Control: max-age=604800
@@ -69,18 +69,18 @@ When you type an address into a website, you only see the body of the response. 
     X-Cache: HIT
     x-ec-custom-error: 1
     Content-Length: 1270
-   ```
-
+    ```
+    
     The header contains the metadata about the response. All of this information is transferred to the browser whenever you make requests to URLs (that is, when you go to web pages), but the browser doesn't show you this information. You can see it using the Chrome Developer Tools console if you look on the Network tab.
-
-3. Now let's specify the method. The GET method is the default, but we'll make it explicit here:
-
-   ```bash
+    
+3.  Now let's specify the method. The GET method is the default, but we'll make it explicit here:
+    
+    ```bash
     curl -X GET http://example.com -I
-   ```
-
-    When you go to a website, you submit the request using the GET HTTP method. There are other HTTP methods you can use when interacting with REST APIs. Here are the common methods when working with REST endpoints:
-
+    ```
+    
+    When you go to a website, you submit the request using the GET HTTP method. There are other HTTP methods you can use when interacting with REST APIs. Here are the common methods used when working with REST endpoints:
+    
     | HTTP Method | Description |
 |-----|------|
 | POST | Create a resource |
@@ -88,7 +88,7 @@ When you type an address into a website, you only see the body of the response. 
 | PUT | Update a resource |
 | DELETE | Delete a resource |
 
-{{note}} When you use cURL to make HTTP requests other than GET, you need to specify the HTTP method.{{end}}
+{{note}} GET is used by default with cURL requests. If you use cURL to make HTTP requests other than GET, you need to specify the HTTP method.{{end}}
 
 ## Unpacking the weather API cURL request
 
@@ -100,27 +100,27 @@ Let's look more closely at the request you submitted for the weather:
   -H 'Accept: text/plain'
 ```
 
-cURL has shorthand names for the various options you include with your request. The `\` just creates a break for a new line for readability. (Don't use `\` in Windows.)
+cURL has shorthand names for the various options that you include with your request. The `\` just creates a break for a new line for readability. (Don't use `\` in Windows.)
 
 Here's what the commands mean:
 
 | cURL command | Description |
 |---------|---------|
-| `--get` |  The HTTP method to use. (This is actually unnecessary. You can remove this and the request returns the same response.) |
+| `--get` |  The HTTP method to use. (This is actually unnecessary. You can remove this and the request returns the same response, since GET is the method used by default.) |
 | `--include` | Whether to show the headers in the response. Also represented by `-i`. |
-| `-H`| Submits a custom header. Include an additional `-H` for each header you're submitting. |
+| `-H`| Submits a custom header. Include an additional `-H` for each header key-value pair you're submitting. |
 
 {{note}} Most cURL commands have a couple of different representations. <code>--get</code> can also be written as <code>-X GET</code>.{{end}}
 
 ## Query strings and parameters
 
-The latitude (`lat`) and longitude (`lng`) parameters were passed to the endpoint using "query strings." The `?` appended to the URL is the query string where the parameters are passed to the endpoint.
+The latitude (`lat`) and longitude (`lng`) parameters were passed to the endpoint using "query strings." The `?` appended to the URL is the query string where the parameters are passed to the endpoint:
 
 ```
 ?lat=37.354108&lng=-121.955236
 ```
 
-After the query string, each parameter is concatenated with other parameters through the `&` symbol. The order of the parameters doesn't matter. Order only matters if the parameters are part of the URL path itself (not listed after the query string).
+After the query string, each parameter is concatenated with other parameters through the `&` symbol. The order of the parameters doesn't matter. The order only matters if the parameters are part of the URL path itself (not listed after the query string).
 
 ## Common cURL commands related to REST
 
@@ -153,6 +153,8 @@ curl -i \
      -d "{status:MIA}" \
      http://personsreport.com/status/person123 \
 ```
+
+(Of course line breaks are problematic on Windows, so I don't recommend formatting cURL requests like this.)
 
 The `Accept` header instructs the server to process the post body as JSON.
 
