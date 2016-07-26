@@ -1,5 +1,5 @@
 ---
-title: "Review of Modern Technical Writing, by Andrew Etter"
+title: "Review of Andrew Etter's ebook: Modern Technical Writing"
 categories:
 - api-doc
 - book-reviews
