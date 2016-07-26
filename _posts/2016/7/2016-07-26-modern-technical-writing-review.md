@@ -77,9 +77,7 @@ I should note that, as the book's subtitle indicates ("An Introduction to Softwa
 
 It should come as no surprise that along with using lightweight markup languages like AsciiDoc and Markdown, static site generators, and building websites instead of PDFs, Etter also recommends using distributed version control systems, such as Git or Bitbucket, to store documentation. Etter writes,
 
-> If you have the opportunity to store your documentation in the same repository as its corresponding product source code, strongly consider doing so. The approach has some real appeal: 
-> * Documentation and code branches stay in sync. 
-> * Developers are more likely to contribute if they don't have to clone a separate repository.
+<blockquote>If you have the opportunity to store your documentation in the same repository as its corresponding product source code, strongly consider doing so. The approach has some real appeal: <ul><li>Documentation and code branches stay in sync.</li><li>Developers are more likely to contribute if they don't have to clone a separate repository.</li></ul></blockquote>
 
 Etter compares Git with Bitbucket, as well as interacting with these repositories through GUI clients and the command line. Etter also says that if it makes sense, you should also store your doc content in the same repository as the code, since it reduces documentation drift and encourages contribution.
 
