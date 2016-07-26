@@ -35,7 +35,7 @@ Recently to try to get better sleep, I switched from reading my iPhone at night 
 
 While reading on my Kindle, I stumbled across a book called [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter, published in 2016. It's is actually a short book (10,000 words), and you can read it about a half hour. 
 
-<figure><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img src="{{ "/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
+<figure><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img style="float: right; padding: 10px;" src="{{ "/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
 
 Who is [Andrew Etter](https://www.linkedin.com/in/andrew-etter-0a013349)? He provides almost no biographical details about himself in the book, but based on my Linkedin search, he seems to be a lead writer at Palantir, which is a company in the Bay area that I actually toured when I moved out here.
 
@@ -78,7 +78,6 @@ I should note that, as the book's subtitle indicates ("An Introduction to Softwa
 It should come as no surprise that along with using lightweight markup languages like AsciiDoc and Markdown, static site generators, and building websites instead of PDFs, Etter also recommends using distributed version control systems, such as Git or Bitbucket, to store documentation. Etter writes,
 
 > If you have the opportunity to store your documentation in the same repository as its corresponding product source code, strongly consider doing so. The approach has some real appeal: 
-  
 > * Documentation and code branches stay in sync. 
 > * Developers are more likely to contribute if they don't have to clone a separate repository.
 
