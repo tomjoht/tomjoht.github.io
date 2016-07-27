@@ -5,7 +5,7 @@ categories:
 - book-reviews
 - podcasts
 keywords: 
-summary: "In \"Modern Technical Writing: An Introduction to Software Documentation\", which is an e-book you can read on your Kindle, Andrew Etter argues for a model of technical writing that involves lightweight markup languages (like AsciiDoc and Markdown), static site generators (such as Sphinx), distributed version control systems (like Git or Bitbucket), constantly iterating/updating doc content on your website based on analytics, and more. Etter's book resonated with me because it articulates so many of the principles I've felt about how documentation should be." 
+summary: "In \"Modern Technical Writing: An Introduction to Software Documentation,\" which is an e-book you can read on your Kindle, Andrew Etter argues for a model of technical writing that involves lightweight markup languages (like AsciiDoc and Markdown), static site generators (such as Sphinx), distributed version control systems (like Git or Bitbucket), constantly iterating/updating doc content on your website based on analytics, and more. Etter's book resonated with me because it articulates so many of the principles I've felt about how documentation should be." 
 date: 2016-07-26
 tags:
 - technical writing
@@ -35,7 +35,7 @@ Recently to try to get better sleep, I switched from reading my iPhone at night 
 
 While reading on my Kindle, I stumbled across a book called [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter, published in 2016. It's is actually a short book (10,000 words), and you can read it about a half hour. 
 
-<figure><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img style="float: right; padding: 10px;" src="{{ "/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
+<figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{ "/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
 
 Who is [Andrew Etter](https://www.linkedin.com/in/andrew-etter-0a013349)? He provides almost no biographical details about himself in the book, but based on my Linkedin search, he seems to be a lead writer at Palantir, which is a company in the Bay area that I actually toured when I moved out here.
 
