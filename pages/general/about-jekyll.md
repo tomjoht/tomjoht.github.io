@@ -32,8 +32,10 @@ The following are a small list of documentation sites that use Jekyll or another
 *  [Atlassian Design](https://design.atlassian.com/)
 *  [Cloud Cannon docs](https://docs.cloudcannon.com/)
 *  [Wistia help center](http://wistia.com/support)
-*  [Balsamiq support portal](https://support.balsamiq.com/) (uses Hugo)</li>
+*  [Balsamiq support portal](https://support.balsamiq.com/)
 *  [devo.ps documentation](http://docs.devo.ps/)
 *  [healthcare.gov](http://www.healthcare.gov)
+*  [Docs.microsoft.com](https://docs.microsoft.com)
+*  [Mongo DB](https://docs.mongodb.com/)
 
 For help in setting up and installing the Documentation theme I created, see the [theme instructions here](http://idratherbewriting.com/documentation-theme-jekyll/).
