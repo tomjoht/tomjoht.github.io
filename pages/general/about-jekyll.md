@@ -22,8 +22,7 @@ If you want to read a series comparing Jekyll with DITA, see the [series of post
 The following are a small list of documentation sites that use Jekyll or another static site generator.
 
 <div>
-
-    <div style="float:left; margin-right: 50px;">
+<div style="float:left; margin-right: 50px;">
         <ul>
             <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
             <li><a href="http://help.beegit.com/">Beegit</li>
@@ -34,7 +33,7 @@ The following are a small list of documentation sites that use Jekyll or another
             <li><a href="http://jekyllrb.com/docs/home/">Jekyllrb docs</a></li>
         </ul>
     </div>
-    <div style="float:left;">
+<div style="float:left;">
         <ul>
             <li><a href="https://sendgrid.com/docs">SendGrid docs</a></li>
             <li><a href="https://design.atlassian.com/">Atlassian Design</a></li>
@@ -44,7 +43,7 @@ The following are a small list of documentation sites that use Jekyll or another
             <li><a href="http://docs.devo.ps/">devo.ps documentation</a></li>
             <li><a href="www.healthcare.gov">healthcare.gov</a></li>
         </ul>
-    </div>
+</div>
 </div>
 
 For help in setting up and installing the Documentation theme I created, see the [theme instructions here](http://idratherbewriting.com/documentation-theme-jekyll/).
