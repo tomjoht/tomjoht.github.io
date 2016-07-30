@@ -16,7 +16,7 @@ Seeing the response from cURL or Postman is cool, but how do you make use of the
 
 With most API documentation, you don't need to show how to make use of JSON data. You assume that developers will use their JavaScript skills to parse through the data and display it appropriately in their apps. 
 
-However, to better understand how developers will access the data, we'll go through a brief tutorial in displaying the REST response on a web page. 
+However, to better understand how developers will access the data, we'll go through a brief tutorial to display the REST response on a web page. 
 
 ## Display part of the REST JSON response on a web page
 
@@ -95,17 +95,17 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 
 ## The AJAX method from jQuery
 
-Probably the most useful method to know for code samples is the `ajax` method from jQuery.
+Probably the most useful method to know for showing code samples is the `ajax` method from jQuery.
 
-In brief, the `ajax` method takes an argument, such as `settings`.
+In brief, this `ajax` method takes one argument: `settings`.
 
 ```
 $.ajax(settings)
 ```
 
-This `settings` argument is an object that contains a variety of key-value pairs. Each of the allowed key-value pairs is defined in [jQuery's ajax documentation](http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
+The `settings` argument is an object that contains a variety of key-value pairs. Each of the allowed key-value pairs is defined in [jQuery's ajax documentation](http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
 
-Some important values are the `url`, which is the URI or endpoint you are submitting the request to. Another is `headers`, which allows you to include custom headers in the request.
+Some important values are the `url`, which is the URI or endpoint you are submitting the request to. Another value is `headers`, which allows you to include custom headers in the request.
 
 Look at the code sample you created. The `settings` variable is passed in as the argument to the `ajax` method. jQuery makes the request to the HTTP URL asynchronously, which means it won't hang up your computer while you wait for the response. You can continue using your application while the request executes.
 
@@ -115,6 +115,9 @@ The response object from the `ajax` call is assigned to the `done` method's argu
 
 You can then access the values from the response object using object notation. In this example, the response is just logged to the console.
 
+This is likely a bit fuzzy right now, but it will become more clear with an example in the next section.
+
+
 ## Logging responses to the console
 
 The piece of code that logged the response to the console was simply this:
@@ -123,7 +126,7 @@ The piece of code that logged the response to the console was simply this:
 console.log(response);
 ```
 
-Logging responses to the console is one of the most useful ways to test whether an API response is working or not. The console collapses each object inside its own expandable section. This allows you to inspect the payload.
+Logging responses to the console is one of the most useful ways to test whether an API response is working (it's also helpful for debugging or troubleshooting your code). The console collapses each object inside its own expandable section. This allows you to inspect the payload.
 
 You can add other information to the console log message. To preface the log message with a string, add something like this:
 
@@ -137,6 +140,6 @@ Customizing log messages is helpful if you're logging various things to the cons
 
 ## Inspect the payload
 
-Inspect the payload by expanding each of the sections. Find the section that appears here: **object > query > results > channel > item > description.**
+Inspect the payload by expanding each of the sections in the Mashape weather API. Find the section that appears here: **object > query > results > channel > item > description.**
 
 

@@ -20,13 +20,13 @@ You use a dot after the object name to access its properties. For example, suppo
 }
 ```
 
-To access `Tom`, I would use `data.name`.
+To access `Tom`, you would use `data.name`.
 
 It's important to note the different levels of nesting so you can trace back the appropriate objects and access the information you want. You access each level down through the object name followed by a dot.
 
 ## Use square brackets to access the values in an array
 
-To access a value in an array, you use square brackets followed by the position number:
+To access a value in an array, you use square brackets followed by the position number. For example, suppose you have the following array:
 
 ```
 "data" : {
@@ -106,7 +106,7 @@ In this activity, you'll practice accessing different values through dot notatio
     </html>
    ```
 
-    Here we have a JSON object custom-defined as a variable named `john`. Usually APIs retrieve the response through a URL request, but for practice here, we're just defining the object locally.
+    Here we have a JSON object defined as a variable named `john`. (Usually APIs retrieve the response through a URL request, but for practice here, we're just defining the object locally.)
 
     If you view the page in your browser, you'll see the page says "Sarah" for each item because we're accessing this value: `john.children[0].child1` for each item.
 
@@ -178,8 +178,8 @@ function checkWind() {
 ```
 A few things are different here, but it's essentially the same code:
 
-* Rather than running the `ajax` method on page load, it's wrapped inside a function called `checkWind`. When the button is clicked, it fires the `checkWind()` function through the `onclick` method.
-* When `checkWind` runs, it pulls out the wind chill, speed, and direction and writes them to several ID tags on the page. Units for each of these values are also added to the page.
+* Rather than running the `ajax` method on page load, the `ajax` method is wrapped inside a function called `checkWind`. When the web page's button is clicked, the `onclick` method fires the `checkWind()` function.
+* When `checkWind` runs, the wind chill, speed, and direction values are written to several ID tags on the page. Units for each of these values are also added to the page.
 * Some minimal styling is added. Bootstrap is loaded to make the button styling.
 
 When you load the page and click the button, the following should appear:

@@ -55,9 +55,9 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 
 7.  Click **Send**.
 
-	The response appears, such as `52`. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats, but since this response is text only, you won't see any difference.
+	The response appears, such as `52`. In this case, the response is text only. You can switch the format to HTML, JSON, XML, or other formats, but since this response is text only, you won't see any difference. Usually the responses are more detailed JSON, which allows you to select a specific part of the response to work with.
 	
-	{{note}} Usually the responses are more detailed JSON, which allows you to select a specific part of the response to work with.{{end}}
+	{{note}}If you get a response that says "Unsupported," this means your `lat` and `lng` values aren't supported. Use the lat and lng values shown here (`?lat=33.8351523&lng=-117.986186`). {{end}}
 	
 ## Save the request
 

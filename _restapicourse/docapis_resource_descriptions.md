@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## The terminology to describe a "resource" varies 
 
-When it comes to the right terminology to describe the resource, practices vary. Exactly what are the things that you access using a URL? Here are some of the terms used in API docs:
+When it comes to the right terminology to describe the resource, practices vary. Exactly what are the "things" that you access using a URL? Here are some of the terms used in different API docs:
 
 * API calls
 * Endpoints
@@ -25,7 +25,7 @@ When it comes to the right terminology to describe the resource, practices vary.
 
 Some docs get around the situation by not calling them anything explicitly. 
 
-You could probably choose the terms that you like best. My favorite is to use *resources* and *endpoints*. An API has various "resources" that you access through "endpoints." The endpoint gives you access to a resource. The endpoint is the URL path (in this example, `/surfreport`). The information the endpoint interacts with, though, is called a resource.
+You could probably choose the terms that you like best. My favorite is to use *resources* (along with *endpoint* for the URL. An API has various "resources" that you access through "endpoints." The endpoint gives you access to a resource. The endpoint is the URL path (in this example, `/surfreport`). The information the endpoint interacts with, though, is called a resource.
 
 {{tip}} A URI (Uniform Resource Identifier) describes what something is, whereas a URL (Uniform Resource Location) tells you where to locate it. Hence the resource itself is a URI that you access using a URL.{{end}}
 
