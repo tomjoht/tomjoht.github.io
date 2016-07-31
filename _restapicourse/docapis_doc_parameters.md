@@ -155,7 +155,7 @@ eBay's API takes a little different approach. For each item in the XML response,
 
 For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`.
 
-[![nesting](images_api/nesting.png)](http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html)
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/nesting.png" | prepend: site.baseurl }}" alt="RAML" /></a>
 
 It's also interesting how much detail they include for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.
 
@@ -163,7 +163,7 @@ It's also interesting how much detail they include for each item. Whereas the Tw
 
 When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endpoints with JSON objects in the request body, the RAML API Console output looks something like this:
 
-![RAML](images_api/ramljsonrepresentation.png)
+<img src="{{ "/images_api/ramljsonrepresentation.png" | prepend: site.baseurl }}" alt="RAML" />
 
 Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also somewhat confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
 
