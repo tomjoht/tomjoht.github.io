@@ -115,65 +115,21 @@ Tables work all right for documenting JSON, but they can be challenging as well.
 
 By all means, if the JSON object is relatively small, a table is probably your best option. But there are  other approaches that designers have taken as well.
 
-### The scrolling-to-definitions approach
+Take a look at eBay's [findItemsByProduct](http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) endpoint. 
 
-In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html):
+The sample request contains links to each of the parameters.
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html"><img src="{{ "/images_api/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
+<img src="{{ "/images_api/ebayparam1.png" | prepend: site.baseurl }}" alt="eBay parameters" />
 
-When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
+There's a table below the sample request that describes each parameter: 
+ 
+<img src="{{ "/images_api/ebayparam2.png" | prepend: site.baseurl }}" alt="eBay parameters" />
 
-One problem is that you end up with three scroll bars on one page, which isn't the best design. Additionally, the descriptions in this demo are just paragraphs. Usually you structure the information with more detail (for example, data type, description, notes, etc.).
-
-Finally, this approach doesn't allow for easy scanning. However, this scrolling view might be an alternative view to a more scannable table. That is, you could store the definitions in another file and then include the definitions in both this scrolling view and a master table list, allowing the user to choose the view he or she wants.
-
-### The side-by-side approach
-
-In Stripe's API documentation, the writers try to juxtapose the responses in a right side pane with the documentation in the main window.
-
-<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images_api/stripe-550x373.png" | prepend: site.baseurl }}" alt="Stripe" style="border:1px solid #dedede;"/> </a>
-
-The idea is that you can see both the description and a sample response at the same time, and just scroll down.
-
-However, the description doesn't always line up with the sample response. (In some places, child attributes are collapsed to save space.) I'm not sure why some items (such as `livemode`) aren't documented.
-
-### The no-need-for-descriptions approach
-
-Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
-
-<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "/images_api/twitternojsondoc.png" | prepend: site.baseurl }}" alt="Twitter" style="border:1px solid #dedede;"/></a>
-
-Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms or use abbreviations. The shorter the term, the more it needs accompanying documentation.
-
-In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant. Many developers didn't even know what the abbreviations meant.
-
-### The context-within-tables approach
-
-eBay's API takes a little different approach. For each item in the XML response, they give some context about where the item appears.
-
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/ebay-550x335.png" | prepend: site.baseurl }}" alt="eBay"  style="border:1px solid #dedede;"/></a>
-
-For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`.
-
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/nesting.png" | prepend: site.baseurl }}" alt="RAML" /></a>
-
-It's also interesting how much detail they include for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.
-
-### The RAML API Console approach
-
-When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endpoints with JSON objects in the request body, the RAML API Console output looks something like this:
-
-<img src="{{ "/images_api/ramljsonrepresentation.png" | prepend: site.baseurl }}" alt="RAML" />
-
-Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also somewhat confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
-
-The problem with RAML is that it tries to describe a JSON structure using a JSON structure itself, but the JSON structure of the description doesn't match the JSON structure it describes, so it's confusing.
-
-Further, this approach doesn't provide an example in context, which is what usually clarifies the data for the user.
+But also, when you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [ItemFilter](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). This is likely because the parameter values are more complex and require more explanation. The same parameter values might be used in other requests as well, so this facilitates re-use. Even so, I dislike jumping around to other pages for the information I need.
 
 ### Swagger UI's approach
 
-Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better? Not really. In some ways, it's more confusing. 
+Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better? Not really. 
 
 The [Swagger UI](https://github.com/swagger-api/swagger-ui) reads the Swagger spec file and displays it in the visual format that you see with examples such as the [Swagger Petstore](http://petstore.swagger.io/).
 
@@ -236,18 +192,6 @@ In this view, when there's a nested object, like `category`, it has a reference 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
 
 Ultimately, I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model view in the first place.
-
-## Custom-styled tables
-
-The MYOB Developer Center takes an interesting approach in documenting the JSON in their APIs. They list the JSON structure in a table-like way, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below. 
-
-To the right of the JSON definitions is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
-
-<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "/images_api/myobjsondoc.png" | prepend: site.baseurl }}" alt="MYOB JSON doc approach" /></a>
-
-If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover + collapsible approach allows you to compress the table so you can jump to the part you're interested in.
-
-However, this approach requires more manual work from a documentation point of view, and there isn't any interactivity to try out the endpoints. Still, if you have long JSON objects, it might be worth it.
 
 ## Conclusion
 

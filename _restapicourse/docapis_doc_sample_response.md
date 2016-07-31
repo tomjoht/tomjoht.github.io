@@ -99,6 +99,66 @@ At one company I worked for, we had a test system we used to generate the respon
 
 However, once the test system generated the responses, those responses were imported into the documentation through a script.
 
+## Creative approaches in documenting lengthy JSON responses
+
+In addition to using standard tables to document JSON responses, you can also implement some more creative approaches.
+
+### The scrolling-to-definitions approach
+
+In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html):
+
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html"><img src="{{ "/images_api/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
+
+When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
+
+One problem is that you end up with three scroll bars on one page, which isn't the best design. Additionally, the descriptions in this demo are just paragraphs. Usually you structure the information with more detail (for example, data type, description, notes, etc.).
+
+Also, this approach doesn't allow for easy scanning. However, this scrolling view might be an alternative view to a more scannable table. That is, you could store the definitions in another file and then include the definitions in both this scrolling view and a master table list, allowing the user to choose the view he or she wants.
+
+### The side-by-side approach
+
+In Stripe's API documentation, the writers try to juxtapose the responses in a right side pane with the documentation in the main window.
+
+<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images_api/stripe-550x373.png" | prepend: site.baseurl }}" alt="Stripe" style="border:1px solid #dedede;"/> </a>
+
+The idea is that you can see both the description and a sample response at the same time, and just scroll down.
+
+However, the description doesn't always line up with the sample response. (In some places, child attributes are collapsed to save space.) I'm not sure why some items (such as `livemode`) aren't documented.
+
+### The no-need-for-descriptions approach
+
+Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
+
+<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "/images_api/twitternojsondoc.png" | prepend: site.baseurl }}" alt="Twitter" style="border:1px solid #dedede;"/></a>
+
+Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms or use abbreviations. The shorter the term, the more it needs accompanying documentation.
+
+In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant. Many developers didn't even know what the abbreviations meant.
+
+### The RAML API Console approach
+
+When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endpoints with JSON objects in the request body, the RAML API Console output looks something like this:
+
+<img src="{{ "/images_api/ramljsonrepresentation.png" | prepend: site.baseurl }}" alt="RAML" />
+
+Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also somewhat confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
+
+The problem with RAML is that it tries to describe a JSON structure using a JSON structure itself, but the JSON structure of the description doesn't match the JSON structure it describes, so it's confusing.
+
+Further, this approach doesn't provide an example in context, which is what usually clarifies the data for the user.
+
+### Custom-styled tables
+
+The MYOB Developer Center takes an interesting approach in documenting the JSON in their APIs. They list the JSON structure in a table-like way, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below. 
+
+To the right of the JSON definitions is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
+
+<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "/images_api/myobjsondoc.png" | prepend: site.baseurl }}" alt="MYOB JSON doc approach" /></a>
+
+If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover + collapsible approach allows you to compress the table so you can jump to the part you're interested in.
+
+However, this approach requires more manual work from a documentation point of view, and there isn't any interactivity to try out the endpoints. Still, if you have long JSON objects, it might be worth it.
+
 ## Create a sample response in your surfreport/{beachId} endpoint
 
 For your `surfreport/{beachId}` endpoint, create a section that shows the sample response. Look over the response to make sure it shows what it should.

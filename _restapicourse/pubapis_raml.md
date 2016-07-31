@@ -1,7 +1,7 @@
 ---
 title: RAML tutorial
 permalink: /pubapis_raml/
-keywords: 
+keywords: RAML
 course: "Publishing REST APIs"
 weight: 5.6
 type: notes_docapis
