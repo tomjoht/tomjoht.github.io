@@ -12,29 +12,35 @@ type: notes_docapis
 
 ## The sample request clarifies how to use the endpoint
 
-Although you've already listed the endpoint and parameters, you also include one or more sample requests that shows the endpoint integrated with parameters in an easy-to-understand way.
+Although you've already listed the endpoint and parameters, you should also include one or more sample requests that shows the endpoint integrated with parameters in an easy-to-understand way.
 
-Here's an example from the CityGrid Places API:
-
-<a href="http://docs.citygridmedia.com/display/citygridv2/Places+API"><img src="{{ "/images_api/search_usage_examples.png" | prepend: site.baseurl }}" alt="CityGrid Places API example" /></a>
-
-In this example, there are four different sample requests. The basic endpoint is simply as follows:
+In the CityGrid Places API, the basic places endpoint is as follows:
 
 ```
 https://api.citygridmedia.com/content/places/v2/search/where
 ```
 
-There are 17 possible parameters you can add to this endpoint. These examples show several common combinations of the parameters. Adding multiple requests as samples especially makes sense when the parameters wouldn't usually be used together. For example, there are few cases where you might actually include all 17 parameters, so any sample request will be limited in what it can show.
+However, there are 17 possible query string parameters you can use with this endpoint. As a result, the documentation includes several sample requests show the parameters used with the endpoint:
 
-If the requests and responses vary a lot, consider including multiple response examples. How many different requests and responses should you show? There's probably no easy answer, but probably no more than a handful. You decide what makes sense for your API.
+<a href="http://docs.citygridmedia.com/display/citygridv2/Places+API"><img src="{{ "/images_api/search_usage_examples.png" | prepend: site.baseurl }}" alt="CityGrid Places API example" /></a>
 
-In the CityGrid Places API, notice how the examples don't include the sample responses but rather link to live examples. When you click the URL link, you execute the request in your browser and can see the response. (Here's [an example](http://api.citygridmedia.com/content/places/v2/search/where?type=movietheater&where=90045&publisher=test)). 
+These examples show several common combinations of the parameters. Adding multiple requests as samples  makes sense when the parameters wouldn't usually be used together. For example, there are few cases where you might actually include all 17 parameters in the same request, so any sample will be limited in what it can show.
 
-This approach is common and works well (for GET requests) when you can pull it off. Unfortunately, this approach makes it difficult to define the responses. The CityGrid API documentation is detailed and does include information in later sections that describes the responses.
+This example shows *Italian restaurants in Chicago using placement “sec-5”*:
 
-## API Explorers provide interactivity with your own data
+```
+https://api.citygridmedia.com/content/places/v2/search/where?what=restaurant&where=chicago,IL&tag=11279&placement=sec-5&publisher=test
+```
 
-Many APIs have a feature called an API Explorer. For example, you can see Foursquare's API Explorer here:
+If responses vary a lot, consider including multiple responses with the requests. How many different requests and responses should you show? There's probably no easy answer, but probably no more than a few. You decide what makes sense for your API.
+
+In the CityGrid Places API, notice how the examples don't include the sample responses on the same page but rather link to live examples. When you click the URL link, you execute the request in your browser and can see the response. (Here's [an example](http://api.citygridmedia.com/content/places/v2/search/where?type=movietheater&where=90045&publisher=test)). 
+
+This approach is common and works well (for GET requests) when you can pull it off. Unfortunately, this approach makes it difficult to define the responses. (The CityGrid API documentation is detailed and does include information in later sections that describes the responses.)
+
+## API explorers provide interactivity with your own data
+
+Many APIs have a feature called an API explorer. For example, you can see Foursquare's API explorer here:
 
  <a href="https://developer.foursquare.com/docs/explore"><img src="{{ "/images_api/foursquareapiexplorer.png" | prepend: site.baseurl }}" alt="Foursquare's API Explorer" /></a>
  
@@ -50,7 +56,7 @@ Here's another example from the New York Times API, which uses Lucybot (powered 
 
 ## API Explorers can be dangerous in the hands of a newbie
 
-Although interactivity is powerful, API Explorers can be a dangerous addition to your site. What if a novice user trying out a DELETE method accidentally removes data? And how do you later remove the test data added by POST or PUT methods? 
+Although interactivity is powerful, API Explorers can be a dangerous addition to your site. What if a novice user trying out a DELETE method accidentally removes data? How do you later remove the test data added by POST or PUT methods? 
 
 It's one thing to allow GET methods, but if you include other methods, users could inadvertently corrupt their data. With [IBM's Watson APIs](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/), which use the Swagger UI, they removed the Try it out button.
 
