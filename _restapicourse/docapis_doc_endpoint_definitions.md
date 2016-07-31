@@ -42,7 +42,7 @@ If you have path parameters in your endpoint, represent them through curly brace
 Better yet, put the path parameter in another color to set it off:
 
 <pre>
-/campaigns/<span class="red">{campaign_id}</span>/actions/send
+/campaigns/<span class="parameter">{campaign_id}</span>/actions/send
 </pre>
 
 {{tip}} If you set off your code block with `pre` tags, you can use `span` tags to set off specific elements in different colors. {{end}}

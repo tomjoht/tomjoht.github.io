@@ -22,7 +22,7 @@ Here's an example from Yelp's documentation:
 
 <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "/images_api/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
 
-You can format the values in a variety of ways. If using a definition list or other non-table format, you probably have styles that make these values easily readable.
+You can format the values in a variety of ways. If you're using a definition list or other non-table format, you probably have styles that make these values easily readable.
 
 ## Data types indicate the format for the values
 
@@ -33,9 +33,9 @@ It's important to list the data type for each parameter because APIs may not pro
 * **boolean**: true or false.
 * **object**: Key-value pairs in JSON format
 
-There are more data types in programming. In Java, for example, it's important to note the data type allowed because the program allocates space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. 
+There are more data types in programming, and if you have more specific data types, be sure to note them. In Java, for example, it's important to note the data type allowed because Java allocates memory space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. 
 
-However, you usually don't have to specify this level of detail with a REST API. You can probably just write "number".
+However, you usually don't have to specify this level of detail with a REST API. You can probably just write "number."
 
 ## Parameters should list allowed values
 
@@ -76,7 +76,7 @@ Here are a few other details to remember when describing parameters:
 
 ## Color coding parameter values
 
-When you list the parameters and endpoint definition, it can help to color code the parameters. This makes it clear what's a parameter and what's not in the endpoint. 
+When you list the parameters in your endpoint, it can help to color code the parameters both in the table and in the endpoint definition. This makes it clear what's a parameter and what's not. Through color you create an immediate connection between the endpoint and the parameter definitions. 
 
 For example, suppose your endpoint definition is as follows:
 
@@ -97,9 +97,9 @@ Note that if you're custom-color-coding the parameters, you'll need to skip the 
 
 Frequently with POST requests, you will submit a JSON object in the request body. This JSON object may be a lengthy list of key value pairs with multiple levels of nesting.
 
-For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the  request, you include a JSON object formatted, like this:
+For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the request, you include a JSON object, like this:
 
-```
+```json
 {
 "days": 2,
 "units": "imperial",
@@ -109,11 +109,11 @@ For example, the endpoint URL may be something simple, such as `/surfreport/{bea
 
 ## Documenting lengthy JSON objects in request bodies
 
-Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines? 
+Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines, or 1,000? 
 
-Tables work all right for documenting JSON, but they can be challenging as well. In a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object etc. can be confusing to represent.
+Tables work all right for documenting JSON, but they can be challenging as well. In a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object, etc., can be confusing to represent.
 
-By all means, if the JSON object is relatively small, a table is probably your best option. But there are some other approaches that designers have taken as well.
+By all means, if the JSON object is relatively small, a table is probably your best option. But there are  other approaches that designers have taken as well.
 
 ### The scrolling-to-definitions approach
 
