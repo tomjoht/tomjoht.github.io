@@ -117,13 +117,13 @@ By all means, if the JSON object is relatively small, a table is probably your b
 
 ### The scrolling-to-definitions approach
 
-In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll):
+In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html):
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll"><img src="{{ "/images_api/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html"><img src="{{ "/images_api/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
 
 When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
 
-One problem is that you end up with three scroll bars on one page, which isn't the best design. Additionally, the descriptions in this demo are just paragraphs. Usually you structure the information with more detail (e.g., data type, description, notes, etc.).
+One problem is that you end up with three scroll bars on one page, which isn't the best design. Additionally, the descriptions in this demo are just paragraphs. Usually you structure the information with more detail (for example, data type, description, notes, etc.).
 
 Finally, this approach doesn't allow for easy scanning. However, this scrolling view might be an alternative view to a more scannable table. That is, you could store the definitions in another file and then include the definitions in both this scrolling view and a master table list, allowing the user to choose the view he or she wants.
 
@@ -143,9 +143,9 @@ Some sites, like Twitter's API docs, don't seem to describe the items in the JSO
 
 <a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "/images_api/twitternojsondoc.png" | prepend: site.baseurl }}" alt="Twitter" style="border:1px solid #dedede;"/></a>
 
-Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms, often using abbreviations. The shorter the term, the more it needs accompanying documentation.
+Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms or use abbreviations. The shorter the term, the more it needs accompanying documentation.
 
-In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant. Some developers didn't even know.
+In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant. Many developers didn't even know what the abbreviations meant.
 
 ### The context-within-tables approach
 
@@ -171,15 +171,15 @@ The problem with RAML is that it tries to describe a JSON structure using a JSON
 
 Further, this approach doesn't provide an example in context, which is what usually clarifies the data for the user.
 
-### Swagger UI's Model versus Model Schema approach
+### Swagger UI's approach
 
 Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better? Not really. In some ways, it's more confusing. 
 
 The [Swagger UI](https://github.com/swagger-api/swagger-ui) reads the Swagger spec file and displays it in the visual format that you see with examples such as the [Swagger Petstore](http://petstore.swagger.io/).
 
-The Swagger UI lets you toggle between a "Model Schema" and a "Model" view for both responses and request body parameters.
+The Swagger UI lets you toggle between an "Example Value" and a "Model" view for both responses and request body parameters.
 
-The Model Schema shows a sample of the syntax along with examples. When you click the Model Schema (yellow box) in the [/Pet (POST) endpoint](http://petstore.swagger.io/#!/pet/addPet), Swagger inserts the content in the `body` parameter box. Here's the Pet POST endpoint Model Schema:
+The Example Value shows a sample of the syntax along with examples. When you click the Model (yellow box) in the [/Pet (POST) endpoint](http://petstore.swagger.io/#!/pet/addPet), Swagger inserts the content in the `body` parameter box. Here's the Pet POST endpoint Model Schema:
 
 ```json
 {
@@ -201,6 +201,7 @@ The Model Schema shows a sample of the syntax along with examples. When you clic
   "status": "available"
 }
 ```
+
 Now click **Model** (the grayed out text) and look at the view. 
 
 <a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "/images_api/swaggersubtlemodellink.png" | prepend: site.baseurl }}" alt="Swagger Model" /></a>
