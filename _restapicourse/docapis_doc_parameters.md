@@ -208,34 +208,34 @@ Now click **Model** (the grayed out text) and look at the view.
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
-```
+```json
 Pet {
-id (integer, optional),
-category (Category, optional),
-name (string),
-photoUrls (Array[string]),
-tags (Array[Tag], optional),
-status (string, optional): pet status in the store = ['available', 'pending', 'sold']
+    id (integer, optional),
+    category (Category, optional),
+    name (string),
+    photoUrls (Array[string]),
+    tags (Array[Tag], optional),
+    status (string, optional): pet status in the store = ['available', 'pending', 'sold']
 }
 Category {
-id (integer, optional),
-name (string, optional)
+    id (integer, optional),
+    name (string, optional)
 }
 Tag {
-id (integer, optional),
-name (string, optional)
+    id (integer, optional),
+    name (string, optional)
 }
 ```
 
-The Petstore spec doesn't actually include many parameter descriptions in the Model, but for any descriptions that are included, they appear here in the Model.
+The Petstore spec doesn't actually include many parameter descriptions in the Model, but for any descriptions that are included, they appear here in the Model rather than the Example Value.
 
 In this view, when there's a nested object, like `category`, it has a reference to another part of the model. You have to look at "Category" for details about category and look at "Tag" for details about tags.
 
-<img src="{{ "/images_api/swagger-model.png" | prepend: site.baseurl }}" alt="Model versus Model Schema" />
+<img src="{{ "/images_api/swagger-model.png" | prepend: site.baseurl }}" alt="Reading the Model" />
 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
 
-Ultimately, I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model View in the first place.
+Ultimately, I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model view in the first place.
 
 ## Custom-styled tables
 
@@ -251,7 +251,7 @@ However, this approach requires more manual work from a documentation point of v
 
 ## Conclusion
 
-You can see that there's a lot of variety in documenting JSON and XML responses. Peter's course helps start the discussion about how to document these types of information.
+You can see that there's a lot of variety in documenting JSON and XML responses. There's no right way to document the parameters, except to choose the method that depicts the parameters in the clearest, easiest to read way.
 
 ## Construct a table to list the surfreport parameters
 
