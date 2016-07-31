@@ -12,10 +12,11 @@ type: notes_docapis
 
 ## REST APIs are language agnostic and interoperable
 
-One ingenious aspect of REST APIs is that they aren't tied to a specific programming language. Developers can code their applications in any language, from Java to Ruby to JavaScript, Python, C#, Ruby, Node JS, or something else. As long as they can make an HTTP web request in that language, they can use the API. The response from the web request will contain the data in either JSON or XML.
+One aspect of REST APIs that facilitates widespread adoption is that they aren't tied to a specific programming language. Developers can code their applications in any language, from Java to Ruby to JavaScript, Python, C#, Ruby, Node JS, or something else. As long as they can make an HTTP web request in that language, they can use the API. The response from the web request will contain the data in either JSON or XML.
 
 ## Deciding which languages to show code samples in
-Because you can't really know which language your end users will be developing in, it's kind of fruitless to try to provide code samples in every language. Many APIs just show the format for submitting requests and a sample response, and they assume that developers will know how to submit HTTP requests in their particular programming language.
+
+Because you can't entirely know which language your end users will be developing in, it's kind of fruitless to try to provide code samples in every language. Many APIs just show the format for submitting requests and a sample response, and the authors will assume that developers will know how to submit HTTP requests in their particular programming language.
 
 However, some APIs do show simple code snippets in a variety of languages. Here's an example from Evernote's API documentation:
 
@@ -39,13 +40,14 @@ Once you install them, generating a code sample is a one-click operation:
 
 <img src="{{ "/images_api/pawcodegen.png" | prepend: site.baseurl }}" alt="Paw code generators" />
 
-The Postman app has most of these code generators built in.
+The Postman app has most of these code generators built in by default.
 
 {{note}} Although these code generators are probably helpful, they may or may not work for your API. Always review code samples with developers. In most cases, developers supply the code samples for the documentation, and technical writers briefly comment on the code samples. {{end}}
 
 ## Generate a JavaScript code sample from Postman
 
 {{note}} We covered some of this material earlier in more depth, so here I just cover it more briefly. {{end}}
+
 To generate a JavaScript code snippet from Postman:
 
 1. Configure a weatherdata request in Postman (or select one you've saved).
@@ -61,9 +63,11 @@ This is the JavaScript code that you can attach to an event on your page.
 
 ## Implement the JavaScript code snippet
 
-1. Create a new HTML file with the basic HTML elements:
+You usually don't need to show the code sample on a working HTML file, but if you want to show users code they can make work in their own browsers, you can do so.
+
+1.  Create a new HTML file with the basic HTML elements:
 	
-   ```html
+    ```html
 	<!DOCTYPE html>
 	<head>
 	<title>My sample page</title>
@@ -72,11 +76,11 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	</body>
 	</html>
-   ```
+    ```
 	
-2. Insert the JavaScript code you copied inside some `script` tags inside the `head`:
+2.  Insert the JavaScript code you copied inside some `script` tags inside the `head`:
 	
-   ```html
+    ```html
 	<!DOCTYPE html>
 	<head>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -101,11 +105,11 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	</body>
 	</html>
-   ```
+    ```
 	
-3. The Mashape Weather API requires the `dataType` parameter, which Postman doesn't automatically include. Add `"dataType": "json",` in the list of `settings`:
+3.  The Mashape Weather API requires the `dataType` parameter, which Postman doesn't automatically include. Add `"dataType": "json",` in the list of `settings`:
 	
-   ```html
+    ```html
 	<!DOCTYPE html>
 	<head>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -131,7 +135,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	hello
 	</body>
 	</html>
-   ```
+    ```
 	
 4. This code uses the `ajax` method from jQuery. The parameters are defined in a variable called `settings` and then passed into the method. The `ajax` method will make the request and assign the response to the `done` method's argument (`response`). The `response` object will be logged to the console.
 5. Open the file up in your Chrome browser.
@@ -143,7 +147,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	
 	Let's say you wanted to pull out the `sunrise` time and append it to a tag on the page. You could do so like this:
 	
-   ```html
+    ```html
 	<!DOCTYPE html>
 	<head>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -171,7 +175,7 @@ This is the JavaScript code that you can attach to an event on your page.
 	<div id="sunrise"></div>
 	</body>
 	</html>
-   ```
+    ```
 	
 	This code uses the `append` method from jQuery to assign a value from the response object to the `sunrise` ID tag on the page.
 
@@ -245,6 +249,6 @@ $.ajax(settings).done(function (response) {
 <p>We're just getting the surf height, but there's a lot of other data you could choose to display.</p>
 </div>
 
-You probably wouldn't include a detailed code sample like this for just one endpoint, but including some kind of code sample is almost always helpful.
+You might not include a detailed code sample like this for just one endpoint, but including some kind of code sample is almost always helpful.
 
 

@@ -26,13 +26,15 @@ Some APIs describe each item in the response, while others, perhaps because the 
 
 If the labels in the response are abbreviated or non-intuitive, however, you definitely should document the responses. Developers sometimes abbreviate the responses to increase performance by reducing the amount of text sent.
 
-Plus, if you're documenting some of the response items but not others, the doc will look inconsistent.
+Additionally, if you're documenting some of the response items but not others, the doc will look inconsistent.
 
-One of the problems with the Mashape Weather API is that it doesn't describe the meaning of the responses. If the air quality index is `25`, is that a good or bad value when compared to `65`? What is the scale to? Some air quality indexes are on a scale from 1 to 10. Does each city/country define its own index? Does a high number indicate a poor quality of air or a high quality? How does air quality differ from air pollution? These are the types of answers one would hope to learn in a description of the responses.
+One of the problems with the Mashape Weather API is that it doesn't describe the meaning of the responses. If the air quality index is `25`, is that a good or bad value when compared to `65`? What is the scale based on? 
+
+Does each city/country define its own index? Does a high number indicate a poor quality of air or a high quality? How does air quality differ from air pollution? These are the types of answers one would hope to learn in a description of the responses.
 
 ## Strategies for documenting nested objects
 
-Many times the response contains nested objects (objects within objects). Here Dropbox represents the nesting by using a slash. For example, `team/name` provides the documentation for the `name` object within the `team` object.
+Many times the response contains nested objects (objects within objects). Here Dropbox represents the nesting with a slash. For example, `team/name` provides the documentation for the `name` object within the `team` object.
 
 <a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="{{ "/images_api/returnvaluedefinitions.png" | prepend: site.baseurl }}" alt="" /></a>
 
@@ -42,13 +44,13 @@ Other APIs will nest the response definitions to imitate the JSON structure. Her
 
 <a href="http://dev.bitly.com/user_info.html"><img src="{{ "/images_api/bitlyresponsedoc.png" | prepend: site.baseurl }}" alt="Bitly response" /></a>
 
-Personally, I think the indented approach with different levels of bullets is an eyesore.
+The indented approach with different levels of bullets can be an eyesore, so I recommend avoiding it.
 
 In [Peter Gruenbaum's API tech writing course on Udemy](https://www.udemy.com/api-documentation-1-json-and-xml/), he also represents the nested objects using tables:
 
 <a href="http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/"><img src="{{ "/images_api/gruenbaumtable.png" | prepend: site.baseurl }}" alt="Peter Gruenbaum course" /></a>
 
-(However, Gruenbaum's use of tables is mostly to reduce the emphasis on tools and place it more on the content.)
+Gruenbaum's use of tables is mostly to reduce the emphasis on tools and place it more on the content.
 
 eBay's approach is a little more unique:
 
@@ -85,7 +87,7 @@ The response should contain realistic values. If developers give you a sample re
 Use proper JSON formatting for the response. A tool such as [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) can make sure the spacing is correct. 
 
 ## Add syntax highlighting
-If you can add syntax highlighting as well, definitely do it. One good Python-based syntax highlighter is [Pygments](http://pygments.org/). This highlighter relies on "lexers" to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`.
+If you can add syntax highlighting as well, definitely do it. One good Python-based syntax highlighter is [Pygments](http://pygments.org/). This highlighter relies on "lexers" to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`. A non-python-based equivalent to Pygments is Rouge.
 
 Since your tool and platform dictate the syntax highlighting options available, look for syntax highlighting options within the system that you're using. If you don't have any syntax highlighters to integrate directly into your tool, you could add syntax highlighting manually for each code sample by pasting it into the [syntaxhighlight.in](http://syntaxhighlight.in/) highlighter.
 
@@ -93,7 +95,7 @@ Since your tool and platform dictate the syntax highlighting options available, 
 
 Sometimes responses are generated dynamically based on API calls to a test system. For example, look at the [Rhapsody API](https://developer.rhapsody.com/api) and click an endpoint &mdash; it appears to be generated dynamically. 
 
-When I worked at Badgeville, we had a test/demo system we used to generate the responses. It was important that the test system has the right data to create good responses. You don't want a bunch of null or missing items in the response. 
+At one company I worked for, we had a test system we used to generate the responses. It was important that the test system had the right data to create good responses. You don't want a bunch of null or missing items in the response. 
 
 However, once the test system generated the responses, those responses were imported into the documentation through a script.
 

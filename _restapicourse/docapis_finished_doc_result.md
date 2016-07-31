@@ -59,9 +59,7 @@ Here's my example.
 <h2 id="sample-request">Sample request</h2>
 
 {% highlight bash %}
-curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
-  -H 'X-Mashape-Key: APIKEY'
-  -H 'Accept: application/json'
+curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' -H 'Accept: application/json'
 {% endhighlight %}
 
 <h2 id="sample-response">Sample response</h2>
@@ -208,5 +206,5 @@ $.ajax(settings).done(function (response) {
 
 If you have a lot of endpoints to document, you'll probably want to create templates that follow a common structure. 
 
-Additionally, if you want to add a lot of styling to each of the elements, you may want to push each of these elements into a template by way of a script. I'll talk more about publishing in the next course, Publishing API Documentation.
+Additionally, if you want to add a lot of styling to each of the elements, you may want to push each of these elements into your template by way of a script. I'll talk more about publishing in the upcoming sections, Publishing API Documentation.
 

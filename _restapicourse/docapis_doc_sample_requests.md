@@ -26,7 +26,7 @@ However, there are 17 possible query string parameters you can use with this end
 
 These examples show several common combinations of the parameters. Adding multiple requests as samples  makes sense when the parameters wouldn't usually be used together. For example, there are few cases where you might actually include all 17 parameters in the same request, so any sample will be limited in what it can show.
 
-This example shows *Italian restaurants in Chicago using placement “sec-5”*:
+This example shows "Italian restaurants in Chicago using placement 'sec-5'"*:
 
 ```
 https://api.citygridmedia.com/content/places/v2/search/where?what=restaurant&where=chicago,IL&tag=11279&placement=sec-5&publisher=test
@@ -54,7 +54,7 @@ Here's another example from the New York Times API, which uses Lucybot (powered 
  
  This example compels users to try out the endpoints to get a better understanding of the information they return.
 
-## API Explorers can be dangerous in the hands of a newbie
+## API Explorers can be dangerous in the hands of users
 
 Although interactivity is powerful, API Explorers can be a dangerous addition to your site. What if a novice user trying out a DELETE method accidentally removes data? How do you later remove the test data added by POST or PUT methods? 
 
@@ -78,9 +78,7 @@ Here's mine:
 
 <h2>Sample request</h2>
 {% highlight bash %}
-curl --get --include 'https://simple-weather.p.mashap .com/surfreport/123?units=imperial&days=1&time=1433772000' 
-  -H 'X-Mashape-Key: APIKEY'
-  -H 'Accept: application/json'
+curl --get --include 'https://simple-weather.p.mashap .com/surfreport/123?units=imperial&days=1&time=1433772000' -H 'X-Mashape-Key: APIKEY' -H 'Accept: application/json'
 {% endhighlight %}
 </div>
 
