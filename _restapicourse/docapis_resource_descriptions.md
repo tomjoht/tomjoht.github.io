@@ -41,7 +41,9 @@ In contrast, look at Twitter's API. This page is called [GET statuses/retweets/:
 
 <a href="https://dev.twitter.com/rest/reference/get/statuses/retweets/%3Aid"><img src="{{ "/images_api/twitterresource.png" | prepend: site.baseurl }}" alt="How Twitter refers to resources" /></a>
 
-Here's the approach by [Instagram](https://instagram.com/developer/endpoints/relationships/). Their doc calls it "endpoints" in the plural -- e.g., "Relationship endpoints," with each endpoint listed on the relationship page.
+No explicit names are used to refer to the resource.
+
+Here's the approach by [Instagram](https://instagram.com/developer/endpoints/relationships/). Their doc calls resources "endpoints" in the plural -- e.g., "Relationship endpoints," with each endpoint listed on the relationship page.
 
 <a href="https://instagram.com/developer/endpoints/relationships/"><img src="{{ "/images_api/instagramendpoints.png" | prepend: site.baseurl }}"/></a>
 
@@ -101,15 +103,33 @@ The Box example has 5 different endpoints or methods you can call. Each of these
 
 {{tip}} Developers often use the term "call a method" when talking about using a method. If you consider the endpoints as HTTP methods, then you can call an API method.{{end}}
 
+## Wait, I'm confused
+
+You're probably thinking, wait, I'm a bit confused. Exactly what am I supposed to call the things I'm documenting in an API? My recommendation is to call them resources. In your table of contents, you might group all the resources under a larger umbrella called "API Reference." 
+
+But my point is that there is no standard practice here. The terminology varies, and this is one of those cases where everyone chooses their favorite term.
+
 ## When describing the resource, start with a verb
+
+Regardless of the terms you use, the description is usually brief, from 1-3 sentences, and often expressed as a fragment in the active tense. 
 
 Review the <a href="{{ "/docapis_new_endpoint_to_doc" | prepend: site.baseurl }}">surf report wiki page</a> containing the information about the endpoint, and try to describe the endpoint in the length of one or two tweets (140 characters).
 
-The resource description usually starts with a verb and is a fragment. Here are some examples:
+Here are some examples of resource descriptions:
 
-* [Delicious API](https://github.com/SciDevs/delicious-api/blob/master/api/posts.md#v1postsupdate)
-* [Foursquare API](https://developer.foursquare.com/docs/venues/menu)
-* [Box API](https://box-content.readme.io/#add-a-comment-to-an-item)
+**[Delicious API](https://github.com/SciDevs/delicious-api/blob/master/api/posts.md#v1postsupdate)**
+
+> Check to see when a user last posted an item. Returns the last updated time for the user, as well as the number of new items in the user’s inbox since it was last visited.
+  
+  Use this before calling posts/all to see if the data has changed since the last fetch.
+  
+ 
+**[Foursquare API](https://developer.foursquare.com/docs/venues/menu)**
+
+> Returns menu information for a venue. 
+  
+  In some cases, menu information is provided by our partners. When displaying the information from a partner, you must attribute them using the attribution information included in the provider field. Not all menu information available on Foursquare is able to be redistributed through our API. 
+
 
 ## How I go about it
 
@@ -149,6 +169,12 @@ I think these description are too short. But developers like concision. If short
 
 Compare these descriptions with the endpoint descriptions from the [Aeris Weather API](http://www.aerisweather.com/support/docs/api/reference/endpoints/).
 
+With Aeris Weather, the description for the [forecasts endpoint](http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/) is as follows:
+
+>The forecasts endpoint/data set provides the core forecast data for US and international locations. Forecast information is available in daily, day/night intervals, as well as, custom intervals such as 3 hour or 1 hour intervals.
+ 
+In summary, the description provides a 1-3 sentence summary of the information the resource contains.
+
 ## Recognize the difference between reference docs versus user guides
 
 One thing to keep in mind is the difference between reference docs and user guides/tutorials:
@@ -160,7 +186,7 @@ With the description of surfreport, you might expand on this with much greater d
 
 You could link the description to the places in the user guide where you expand on it in more detail. But since developers often write API documentation, they sometimes never write the user guide (as is the case with the Weather API in Mashape).
 
-{{tip}}The description of the endpoint is likely something you'll re-use in different places: product overviews, tutorials, code samples, etc. As a result, put a lot of effort into crafting it.{{end}}
+{{tip}}The description of the endpoint is likely something you'll re-use in different places: product overviews, tutorials, code samples, quick references, etc. As a result, put a lot of effort into crafting it.{{end}}
 
 
 
