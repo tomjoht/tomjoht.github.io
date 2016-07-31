@@ -2,7 +2,7 @@
 title: Course summary
 course: "Documenting REST APIs"
 permalink: /nativelibraryapis_workshop_summary/
-weight: 8.0
+weight: 7.1
 type: notes_docapis
 ---
 
@@ -15,7 +15,6 @@ During this course, we explored the following:
 * Exploring other REST APIs
 * Publishing API docs
 * Design patterns
-* Documenting native library APIs
 
 You learned new tools and technologies, ways to publish and create interactive experiences for your audience. Now as you go forward into API documentation, hopefully you have a solid foundation to start.
 

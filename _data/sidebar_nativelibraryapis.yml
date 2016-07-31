@@ -1,0 +1,54 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Frontmatter
+      output: pdf
+      items:
+        - title: Title Page
+          url: /titlepage.html
+          output: pdf
+
+        - title: Table of Contents
+          url: /tocpage.html
+          output: pdf
+
+    - title: Documenting native library APIs
+      output: web, pdf
+      items:
+        - title: Overview of native library APIs
+          url: /nativelibraryapis_overview/
+          weight: 7.1
+          output: web, pdf
+        - title: Getting the Java source
+          url: /nativelibraryapis_getting_the_source/
+          weight: 7.2
+          output: web, pdf
+        - title: Java crash course
+          url: /nativelibraryapis_java_crash_course/
+          weight: 7.3
+          output: web, pdf
+        - title: Generate a Javadoc
+          url: /nativelibraryapis_create_javadoc/
+          weight: 7.4
+          output: web, pdf
+        - title: Javadoc tags
+          url: /nativelibraryapis_javadoc_tags/
+          weight: 7.5
+          output: web, pdf
+        - title: Exploring the Javadoc output
+          url: /nativelibraryapis_exploring_javadoc_output/
+          weight: 7.6
+          output: web, pdf
+        - title: Doxygen, another document generator
+          url: /nativelibraryapis_doxygen/
+          weight: 7.7
+          output: web, pdf
+        - title: Documenting non-reference API docs
+          url: /nativelibraryapis_nonrefdocs
+          weight: 7.8
+          output: web, pdf
+        - title: "My biggest tip: Test everything"
+          url: /nativelibraryapis_testing/
+          weight: 7.9
+          output: web, pdf

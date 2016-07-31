@@ -2,12 +2,13 @@
 title: The job market for API technical writers
 course: "Documenting REST APIs"
 permalink: /jobapis_overview/
-weight: 8.1
+weight: 7.0
 type: notes_docapis
 ---
 {% include notes.html %}
 
 ## Demand is high
+
 Technical writers who can write developer documentation are in high demand, especially in the Silicon Valley area. There are plenty of technical writers who can write documentation for graphical user interfaces but not many who can navigate the developer landscape to provide highly technical documentation for developers working in code.
 
 In this section of my API documentation course, I'll dive into the job market for API documentation.
@@ -65,6 +66,7 @@ As such, you might consider diving deep into one core programming language (like
 Of course, you'll need to find a lot of time for this as well. Don't expect to have much time on the job for actually learning it. It's best if you can make learning programming one of your "hobbies."
 
 ## Diverse technical landscape
+
 The technical landscape is diverse, so the generalizations I'm providing here may not hold true in all companies. You may be in a Java or JavaScript shop where all you need to know is Java/JavaScript. If that's the case, you'll need to develop a deeper knowledge of the programming language so you can provide more depth. 
 
 However, with the proliferation of REST APIs, this scenario is much less common. Companies can't afford to cater only to one programming language. Doing so drastically reduces their audience and limits their revenue. The advantages of providing a universally accessible API using any language platform usually outweigh the specifics you get from a native library API. 
@@ -90,6 +92,7 @@ With this scenario of having multiple client implementations, you'll face other 
 Additionally, product managers may want you to push out separate outputs within each programming language channel to keep things simple for the users. Can you imagine pushing out a dozen different outputs across different languages for content that follows highly similar patterns and has common explanations but differs in just enough ways to make single sourcing from the same core content an act of sorcery? Here is where you have to put your technical writing wizard hat on and pull off level 9 incantations.
 
 ## Not an easy problem to solve
+
 The diversity and complexity of programming languages is not an easy problem to solve. To be a successful API technical writer, you'll likely need to incorporate at least a regular regiment of programming study. 
 
 Fortunately, there are many helpful resources (my favorite being [Safari Books Online](http://www.safaribooksonline.com/)). If you can work in a couple of hours a day, you'll be surprised at the progress you can make. 
@@ -101,6 +104,7 @@ But in discussions with hiring managers looking to fill 6-month contracts for te
 The truth is that you can learn anything, but it may take a long time to do so. It can take years to learn Java programming, and you'll never get the kind of project experience that would give you the understanding that a developer possesses.
 
 ## Strategies to get by
+
 When you work in developer documentation environments, one strategy is to interview engineers about what's going on in the code, and then try your best to describe the actions in as clear speech as possible.
  
 You can always fall back on the idea that for those users who need Python, the Python code should look somewhat familiar to them. Well-written code should be, in some sense, self-descriptive in what it's doing. Unless there's something odd or non-standard in the approach, engineers fluent in code should be able to get a sense of what the code is doing.
