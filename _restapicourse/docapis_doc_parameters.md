@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## Parameters are ways to configure the endpoint
 
-Parameters refer to the various ways the endpoint can be configured to influence the result. Many times parameters are listed out in a simple table like this:
+Parameters refer to the various ways the endpoint can be configured to influence the response. Many times parameters are out in a simple table like this:
 
 | Parameter | Required? | Data Type | Example |
 |-----------|-----------|-----------|---------|
@@ -22,11 +22,20 @@ Here's an example from Yelp's documentation:
 
 <a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="{{ "/images_api/yelpparameters.png" | prepend: site.baseurl }}" alt="Yelp parameters" /></a>
 
-You can format the values in a variety of ways. If you're using a definition list or other non-table format, you probably have styles that make these values easily readable.
+You can format the values in a variety of ways. If you're using a definition list or other non-table format, you should develop styles that make the values easily readable.
+
+## Four types of parameters
+
+REST APIs have four types of parameters: 
+
+*  **Path parameters**: Parameters that appear within the path of the endpoint, before the query string (`?`) 
+*  **Query string parameters**: Parameters that appear in the query string of the endpoint, after the `?`.
+*  **Request body parameters**: Parameters that are included in the request body. Usually submitted as JSON.
+*  **Header parameters**: Parameters that are included in the request header. Usually header parameters relate to authorization.
 
 ## Data types indicate the format for the values
 
-It's important to list the data type for each parameter because APIs may not process the parameter correctly if it's the wrong data type or if it's not in the right format. These data types are the most common: 
+It's important to list the data type for each parameter because APIs may not process the parameter correctly if it's the wrong data type or wrong format. These data types are the most common: 
 
 * **string**: An alphanumeric sequence of letters and possibly numbers. 
 * **integer**: A whole number &mdash; can be positive or negative.
@@ -67,12 +76,9 @@ Here's an example from Twilio:
 
 The `{PhoneNumber}` value is described in the description of the endpoint rather than in another section that lists the query parameters you can pass to the endpoint.
 
-Here are a few other details to remember when describing parameters:
+Other important details about parameters are the maximum of minimum values allowed for the parameter, and whether the parameter is optional or required.
 
-* Note whether the parameter has a maximum or minimum value.
-* Note whether the parameters are optional or required.
-
-{{tip}} When you test the API, try running an endpoint without the required parameters, or with the wrong parameters. See what kind of error response comes back. Include that response in your response codes section.{{end}}
+{{tip}} When you test an API, try running an endpoint without the required parameters, or with the wrong parameters. See what kind of error response comes back. Include that response in your response codes section.{{end}}
 
 ## Color coding parameter values
 
@@ -84,20 +90,22 @@ For example, suppose your endpoint definition is as follows:
 <span class="muted">http://domain.com:port/</span>/service/myendpoint/user/<span class="parameter">{user}</span>/bicycles/<span class="parameter">{bicycles}</span>/
 </div>
 
+Follow through with this same color in your table describing the parameters: 
+
 | URL Parameter | Description |
 |-------|------|
 | <span class="parameter">user</span> | Here's my description of the user parameter. |
 | <span class="parameter">bicycles</span> | Here's my description of the bicycles parameter. |
 
-By color coding the parameters, it's easy to see it in contrast with the other parts of the URL.
+By color coding the parameters, it's easy to see the parameter in contrast with the other parts of the URL.
 
-Note that if you're custom-color-coding the parameters, you'll need to skip the automatic syntax highlighting options and just use either your own styles or a general `pre` element. 
+Note that if you're custom-color-coding the parameters, you'll need to skip the automatic syntax highlighting options in code blocks and just use either your own styles or a general `pre` element. 
 
 ## Passing parameters in the JSON body
 
 Frequently with POST requests, you will submit a JSON object in the request body. This JSON object may be a lengthy list of key value pairs with multiple levels of nesting.
 
-For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the request, you include a JSON object, like this:
+For example, the endpoint URL may be something simple, such as `/surfreport/{beachId}`. But in the body of the request, you might include a JSON object, like this:
 
 ```json
 {
@@ -107,17 +115,17 @@ For example, the endpoint URL may be something simple, such as `/surfreport/{bea
 }
 ```
 
+This is known as a request body parameter.
+
 ## Documenting lengthy JSON objects in request bodies
 
-Documenting JSON data is actually one of the trickier parts of API documentation. Documenting a JSON object in the request body or in the response is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines, or 1,000? 
+Documenting JSON data (both in request body parameters and responses) is actually one of the trickier parts of API documentation. Documenting a JSON object is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines, or 1,000? 
 
-Tables work all right for documenting JSON, but they can be challenging as well. In a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object, etc., can be confusing to represent.
+Tables work all right for documenting JSON, but in a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object, etc., can be confusing to represent.
 
 By all means, if the JSON object is relatively small, a table is probably your best option. But there are  other approaches that designers have taken as well.
 
 Take a look at eBay's [findItemsByProduct](http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) endpoint. 
-
-The sample request contains links to each of the parameters.
 
 <img src="{{ "/images_api/ebayparam1.png" | prepend: site.baseurl }}" alt="eBay parameters" />
 
@@ -125,17 +133,19 @@ There's a table below the sample request that describes each parameter:
  
 <img src="{{ "/images_api/ebayparam2.png" | prepend: site.baseurl }}" alt="eBay parameters" />
 
-But also, when you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [ItemFilter](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). This is likely because the parameter values are more complex and require more explanation. The same parameter values might be used in other requests as well, so this facilitates re-use. Even so, I dislike jumping around to other pages for the information I need.
+But the sample request also contains links to each of the parameters. When you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [ItemFilter](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). This is likely because the parameter values are more complex and require more explanation. 
 
-### Swagger UI's approach
+The same parameter values might be used in other requests as well, so this facilitates re-use. Even so, I dislike jumping around to other pages for the information I need.
 
-Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better? Not really. 
+## Swagger UI's approach
+
+Is the display from the [Swagger UI](http://idratherbewriting.com/pubapis_swagger/) any better?  
 
 The [Swagger UI](https://github.com/swagger-api/swagger-ui) reads the Swagger spec file and displays it in the visual format that you see with examples such as the [Swagger Petstore](http://petstore.swagger.io/).
 
 The Swagger UI lets you toggle between an "Example Value" and a "Model" view for both responses and request body parameters.
 
-The Example Value shows a sample of the syntax along with examples. When you click the Model (yellow box) in the [/Pet (POST) endpoint](http://petstore.swagger.io/#!/pet/addPet), Swagger inserts the content in the `body` parameter box. Here's the Pet POST endpoint Model Schema:
+The Example Value shows a sample of the syntax along with examples. When you click the Model (yellow box) in the [/Pet (POST) endpoint](http://petstore.swagger.io/#!/pet/addPet), Swagger inserts the content in the `body` parameter box. Here's the Pet POST endpoint's Example Value:
 
 ```json
 {
@@ -183,7 +193,7 @@ Tag {
 }
 ```
 
-The Petstore spec doesn't actually include many parameter descriptions in the Model, but for any descriptions that are included, they appear here in the Model rather than the Example Value.
+The Petstore spec doesn't actually include many parameter descriptions in the Model, but if any descriptions that are included, they would appear here in the Model rather than the Example Value.
 
 In this view, when there's a nested object, like `category`, it has a reference to another part of the model. You have to look at "Category" for details about category and look at "Tag" for details about tags.
 
