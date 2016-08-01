@@ -3,7 +3,7 @@ title: "The Story of Paligo -- a new browser-based CCMS with all the features yo
 categories:
 - general
 keywords: paligo, component content management systems, ccms, xml, docbook, help authoring tool, web content management, content management, web CMS for documentation teams
-summary: "Up until two years ago, Anders Svensson and his colleagues, based in Sweden, provided DITA and XML consulting. They eventually created their own XML-based component content management system (CCMS) called Paligo, which includes a full set of documentation features to handle single-sourcing, translation, and other features. Paligo solves the documentation challenges that Svennson's customers had been facing for years with other CCMS systems."
+summary: "Up until two years ago, Anders Svensson and his colleagues, based in Sweden, provided DITA and XML consulting. They eventually created their own XML-based component content management system (CCMS) called Paligo, which includes a full set of documentation features to handle single-sourcing, translation, and other documentation needs. Paligo solves the documentation challenges that Svennson's customers had been facing for years with other CCMS systems."
 thumb: 
 date: 2016-08-01
 tags:
@@ -44,7 +44,7 @@ They teamed up and, starting with the existing foundation code base that Arensme
 
 [Paligo](http://paligo.net/) is an XML-based component content management system (CCMS) that users access entirely in the cloud. Paligo's team built on top of a custom topic-based version of Docbook XML to create a number of user-friendly features. 
 
-<figure><img src="{{ "/images/Dashboard3-2280-fixed-languages-checkout.png" | prepend: site.baseurl }}"/><figcaption>Paligo</figcaption></figure>
+<figure><img src="{{ "/images/Dashboard3-2280-fixed-languages-checkout.png" | prepend: site.baseurl }}"/><figcaption>Paligo's user interace</figcaption></figure>
 
 With Paligo, you can do the following:
 
@@ -117,23 +117,32 @@ To explore Paligo with a free trial, click **Get Started** in the upper-right co
 
 The following are some screenshots of Paligo that give you a better sense of the user interface and functionality.
 
-<figure><img src="{{ "/images/StructureView-2280.png" | prepend: site.baseurl }}"/><figcaption>Structure view</figcaption></figure>
+**Structure view**
+<img src="{{ "/images/StructureView-2280.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/ResourceOverview.png" | prepend: site.baseurl }}"/><figcaption>Overview of resources, such as image assets</figcaption></figure>
+**Overview of resources, such as image assets**
+<img src="{{ "/images/ResourceOverview.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/Search-1549.png" | prepend: site.baseurl }}"/><figcaption>Searching for content based on keywords and elements</figcaption></figure>
+**Searching for content based on keywords and elements**
+<img src="{{ "/images/Search-1549.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/SelectVariable2.png" | prepend: site.baseurl }}"/><figcaption>Selecting variables</figcaption></figure>
+**Selecting variables**
+<img src="{{ "/images/SelectVariable2.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/DragAndDropWidgetStructure.png" | prepend: site.baseurl }}"/><figcaption>Drag and drop widget structure</figcaption></figure>
+**Drag and drop widget structure**
+<img src="{{ "/images/DragAndDropWidgetStructure.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/statisticsview.png" | prepend: site.baseurl }}"/><figcaption>Viewing statistics about re-use</figcaption></figure>
+**Viewing statistics about re-use**
+<img src="{{ "/images/statisticsview.jpg" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/TaxonomyColors.png" | prepend: site.baseurl }}"/><figcaption>Tags for taxonomy</figcaption></figure>
+**Tags for taxonomy**
+<img src="{{ "/images/TaxonomyColors.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/TranslationStatus-1549.png" | prepend: site.baseurl }}"/><figcaption>Translation management and status</figcaption></figure>
+**Translation management and status**
+<img src="{{ "/images/TranslationStatus-1549.png" | prepend: site.baseurl }}"/>
 
-<figure><img src="{{ "/images/Workflow5.png" | prepend: site.baseurl }}"/><figcaption>Workflow for documents</figcaption></figure>
+**Workflow for documents**
+<img src="{{ "/images/Workflow5.png" | prepend: site.baseurl }}"/>
 
 
 
