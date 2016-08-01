@@ -64,7 +64,7 @@ layout: null
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
             <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]></itunes:subtitle>
-            <itunes:summary><![CDATA[{{ ep.summary | expand_urls: site.url | cdata_escape }} Read more: {{ep.bitlink}}]]></itunes:summary>
+            <itunes:summary><![CDATA[{{ ep.summary | expand_urls: site.url | cdata_escape }} Read more: <a href="{{ep.bitlink}}">{{ep.bitlink}}</a>]]></itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
             <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
             <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
