@@ -1,9 +1,9 @@
 ---
-title: "New section in API documentation course: &quot;The Job market for API technical writers&quot;"
+title: "New section in API documentation course: The Job Market for API technical Writers"
 categories:
 - api-doc
 keywords: 
-summary: "I added a new section to my API documentation course called \"The Job market for API technical writers.\" In this section, I try to elaborate on why knowledge of programming is often listed as a requirement in API documentation jobs, even if you're mainly documenting a REST API."
+summary: "I added a new section to my API documentation course called The Job Market for API technical Writers. In this section, I try to elaborate on why knowledge of programming is often listed as a requirement in API documentation jobs, even if you're mainly documenting a REST API."
 thumb: jobreqstechwritersapi.png
 ---
 

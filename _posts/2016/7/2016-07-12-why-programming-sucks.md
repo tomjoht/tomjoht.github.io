@@ -1,10 +1,10 @@
 ---
-title: "Why \"Programming Sucks\" and the fallacy of documentation in the context of code chaos"
+title: "Why Programming Sucks and the fallacy of documentation in the context of code chaos"
 categories:
 - podcasts
 - stitcher
 keywords: peter welch, programming, documentation, chaos, order
-summary: "Yesterday on Write the Docs, someone shared an article titled \"Programming Sucks\", by Peter Welch. More than just a developer monologue, this article seems to hit on universal truths about programming, so much so that the article has been translated into 10 languages and even has a professionally-read audio version on iTunes (which I bought for $2)."
+summary: "Yesterday on Write the Docs, someone shared an article titled Programming Sucks, by Peter Welch. More than just a developer monologue, this article seems to hit on universal truths about programming, so much so that the article has been translated into 10 languages and even has a professionally-read audio version on iTunes (which I bought for $2)."
 bitlink: http://bit.ly/progchaos
 date: 2016-07-12
 tags:

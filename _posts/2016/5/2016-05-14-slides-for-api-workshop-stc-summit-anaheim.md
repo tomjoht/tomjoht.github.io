@@ -1,5 +1,5 @@
 ---
-title: "Slides for \"Documenting REST APIs\" workshop &mdash; 2016 STC Summit Anaheim, Calif."
+title: "Slides for Documenting REST APIs Workshop &mdash; 2016 STC Summit Anaheim, Calif."
 categories:
 - api-doc
 keywords: 

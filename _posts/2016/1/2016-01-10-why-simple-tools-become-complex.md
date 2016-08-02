@@ -1,5 +1,5 @@
 ---
-title: 'The problem with adopting "bleeding-edge" tools'
+title: The problem with adopting bleeding-edge tools
 categories:
 - jekyll
 - dita

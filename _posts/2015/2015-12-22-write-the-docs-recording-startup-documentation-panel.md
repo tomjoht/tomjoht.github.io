@@ -1,5 +1,5 @@
 ---
-title: 'Recording of "Creating documentation for startups: Panel discussion" &mdash; Write the Docs San Francisco'
+title: 'Recording of Creating Documentation for Startups: Panel Discussion &mdash; Write the Docs San Francisco'
 categories:
 - general
 - video
