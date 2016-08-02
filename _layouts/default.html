@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 70 }}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
     <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} | {{ site.name }} {% endif %}</title>
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend:site.baseurl }}"  type='text/css'>
@@ -43,16 +43,24 @@
     {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
             {% endif %}
-    {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{ page.summary }}">
             {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:description" content="{{ page.content | truncatewords: 60 | expand_urls: site.url | escape }}">
             {% endif %}
-    {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}">
+    {% if page.thumb %}
+    <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumb }}">
             {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/me.png">
+    <meta name="twitter:image:src" content="{{ site.url }}/images/tomjohnson.png">
             {% endif %}
+    <!-- Open Graph data -->
+       <meta property="og:title" content="{{page.title}}" />
+               <meta property="og:type" content="{{page.content}}" />
+               <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+               <meta property="og:image" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/tomjohnson.png"{% endif %}/>
+               <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ page.content | truncatewords: 60 | expand_urls: site.url | escape }}{% endif %}" />
+               <meta property="og:site_name" content="{{site.name}}" />
+               <meta property="fb:admins" content="1142152389" />
     </head>
 
 
@@ -81,8 +89,8 @@
 
             {% include topnav.html %}
 
-            <!-- Page Content -->
-            <div class="container">
+    <!-- Page Content -->
+    <div class="container">
             <!-- Content Row -->
             <div class="row">
             <!-- Sidebar Column -->
@@ -93,27 +101,27 @@
     {% include tinyletter.html %}
     {% include social_media_icons.html %}
     {% include recent_comments.html %}
-        </ul>
+    </ul>
     </div>
-            </div> <!-- /sidebarArea -->
+    </div> <!-- /sidebarArea -->
     </div><!-- /col-md-3 -->
 
 
     <!-- Content Column -->
 
     <div class="col-md-9">
-        {{content}}
+            {{content}}
 
-        <div id="sidebarAreaHomePage">
+    <div id="sidebarAreaHomePage">
             <!-- appears for mobile view only-->
             <ul id="mytechsidebar" class="nav">
-                {% include notestoc.html %}
-                {% include sidebar_ads.html %}
-                 {% include tinyletter.html %}
-                {% include social_media_icons.html %}
-                {% include recent_comments.html %}
-            </ul>
-        </div> <!-- /sidebarAreaHomePage -->
+            {% include notestoc.html %}
+    {% include sidebar_ads.html %}
+    {% include tinyletter.html %}
+    {% include social_media_icons.html %}
+    {% include recent_comments.html %}
+    </ul>
+    </div> <!-- /sidebarAreaHomePage -->
 
     </div> <!-- /col-md-9 -->
 
@@ -122,4 +130,4 @@
     </div><!-- /container -->
     </body>
     {% include google_analytics.html %}
-</html>
+    </html>
