@@ -8,7 +8,7 @@ thumb: techcommtrianglethumb.png
 ---
 {% include notes.html %}
 
-{{note}} You can now listen a podcast on this same topic: <a href="http://jacobmoses.com/podcast/tech-writer-podcast/types-of-knowledge/">Acquiring the Three Types of Knowledge Tech Writers Need to Succeed</a>. Podcaster Jacob Moses interviews Lisa Melancon and me. We explore each of these topics in depth.{{end}}
+{{note}} You can now listen a podcast on this same topic: <a href="http://jacobmoses.com/podcast/tech-writer-podcast/types-of-knowledge/">Acquiring the Three Types of Knowledge Tech Writers Need to Succeed</a>. Podcaster Jacob Moses interviews Lisa Melancon and me. We explore each type of knowledge (product, technical, and user knowledge) in depth.{{end}}
 
 I've illustrated the three types of knowledge in the following diagram.
  
