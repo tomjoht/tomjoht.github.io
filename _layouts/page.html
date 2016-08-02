@@ -8,7 +8,7 @@ layout: default
 
     <div class="post-content">
 
-        {% if page.summary %}<div class="summary">{{page.summary}}</div> {% else %}{{ page.content | truncatewords: 60 | expand_urls: site.url | escape }}{% endif %}
+        {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
 
         {{content}}
 {% unless page.focus == "homepage" %}
