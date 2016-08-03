@@ -24,7 +24,7 @@ You don't have your own meteorological service, so you're going to need to make 
 
 ## Get an idea of the end goal
 
-{% unless site.target == "pdf" %}
+{% if site.target == "web" %}
 
 To give you an idea of the end goal, here's a sample. It's not necessarily styled the same as the mockup, but it answers the question, "How windy is it?" 
 
@@ -64,10 +64,10 @@ $.ajax(settings)
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span><br />
 <b>Wind direction: </b><span id="wind_direction"></span>
 
-You can view the same code in a separate window here: <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl}} alt="Mashape example" target="_blank">Mashape API example</a>
-{% endunless %}
+You can view the same code in a separate window here: <a href="{{ "/files/restapicourse/wind-mashape.html" | prepend: site.baseurl}}" alt="Mashape example" target="_blank">Mashape API example</a>
+{% endif %}
 
-{% if site.output == "pdf %} 
+{% if site.output == "pdf" %} 
 To give you an idea of the end goal, go online to <a href="http://idratherbewriting.comfiles/restapicourse/wind-mashape.html">http://idratherbewriting.com/files/restapicourse/wind-mashape.html</a> and click the **Check wind conditions** button. 
 
 It's not necessarily styled the same as the mockup, but it answers the question, "How windy is it?" 
@@ -115,7 +115,7 @@ Now let's look at another weather API (this one not on Mashape). In contrast to 
 4. In the list of endpoints, click **forecasts**. 
 5. Browse the type of information that is available through this API.
 
-Here's the Aeris weather forecast API in action making the same call as I showed earlier with Mashape: <a href="{{ "/files/restapicourse/wind-aeris.html" alt="Aeris example" target="_blank">http://idratherbewriting.com/files/restapicourse/wind-aeris.html</a>.
+Here's the Aeris weather forecast API in action making the same call as I showed earlier with Mashape: <a href="{{ "/files/restapicourse/wind-aeris.html" | prepend: site.baseurl }}" alt="Aeris example" target="_blank">http://idratherbewriting.com/files/restapicourse/wind-aeris.html</a>.
 
 As you can see, both APIs contain this same information about wind, but the units differ.
 

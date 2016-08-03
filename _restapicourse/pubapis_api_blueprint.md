@@ -383,7 +383,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	              
    ```
 	
-	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md">view and download the file here</a>.{{end}}
+	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">view and download the file here</a>.{{end}}
 	
 5. Click **Save and Publish**.
 

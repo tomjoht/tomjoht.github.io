@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## Response codes let you know the status of the request
 
-Remember when we submitted the cURL call back in <a href="{{ "/docapis_make_curl_call">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
+Remember when we submitted the cURL call back in <a href="{{ "/docapis_make_curl_call" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
 
 ```bash
   curl --get -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: APIKEY' \
