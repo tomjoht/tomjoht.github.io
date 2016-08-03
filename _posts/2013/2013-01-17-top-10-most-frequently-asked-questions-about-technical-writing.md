@@ -14,6 +14,7 @@ status: publish
 type: post
 published: true
 ---
+
 <figure>[![Charting your course in technical communication](/images/sailboat2.png)](http://idratherassets.com/wp-content/uploads/sailboat2.png)<figcaption>Charting your course in technical communication</figcaption></figure>
 
 Through my blog, I receive a lot of questions from users.
