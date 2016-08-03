@@ -15,11 +15,11 @@ type: post
 published: true
 ---
 
-<figure><img alt="Charting your course in technical communication" src="http://idratherassets.com/wp-content/uploads/sailboat2.png"/><figcaption>Charting your course in technical communication</figcaption></figure>
-
 Through my blog, I receive a lot of questions from users.
 
 I've seen the same questions numerous times, so I've decided to compile a list of answers to those questions and add a link to them on my contact page.
+
+<figure><img alt="Charting your course in technical communication" src="http://idratherassets.com/wp-content/uploads/sailboat2.png"/><figcaption>Charting your course in technical communication</figcaption></figure>
 
 These are the 10 most frequently asked questions about technical writing:
 
