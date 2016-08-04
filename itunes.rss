@@ -2,9 +2,13 @@
 layout: null
 ---
 
+<?xml version="1.0"?>
+<!DOCTYPE rss
+    PUBLIC "-//Netscape Communications//DTD RSS 2.0//EN"
+    "http://my.netscape.com/publish/formats/rss-2.0.dtd">
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>I'd Rather Be Writing/title>
+    <title>I'd Rather Be Writing</title>
     <link>http://idratherbewriting.com</link>
     <description>Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.</description>
     <itunes:author>Tom Johnson</itunes:author>
