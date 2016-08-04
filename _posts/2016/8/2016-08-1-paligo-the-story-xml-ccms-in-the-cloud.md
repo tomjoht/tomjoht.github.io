@@ -1,5 +1,5 @@
 ---
-title: "The Story of Paligo -- a new browser-based CCMS with all the features you'd ever want"
+title: "The Story of Paligo: A new browser-based CCMS with all the features you'd ever want"
 categories:
 - general
 - podcasts

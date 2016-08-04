@@ -1,17 +1,8 @@
 ---
 layout: null
 ---
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-   xmlns:content="http://purl.org/rss/1.0/modules/content/"
-   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:atom="http://www.w3.org/2005/Atom"
-   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-   xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
->
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>{{ site.podcast_title }}</title>
         <atom:link href="{{ site.url }}/feed/podcast" rel="self" type="application/rss+xml" />
