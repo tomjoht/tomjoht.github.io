@@ -1,37 +1,32 @@
 ---
 layout: null
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-    <channel>
-        <title>{{ site.podcast_title }}</title>
-        <atom:link href="{{ site.url }}/feed/podcast" rel="self" type="application/rss+xml" />
-        <link>{{ site.url }}</link>
-        <description>{{ site.podcast_description }}</description>
-        <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
-        <language>en-US</language>
-        <sy:updatePeriod>hourly</sy:updatePeriod>
-        <sy:updateFrequency>1</sy:updateFrequency>
-        <generator>http://jekyllrb.com</generator>
-        <itunes:summary>{{ site.podcast_summary }}</itunes:summary>
-        <itunes:author>{{ site.podcast_author }}</itunes:author>
-        <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
-        <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
-        <itunes:owner>
-            <itunes:name>{{ site.podcast_owner }}</itunes:name>
-            <itunes:email>{{ site.podcast_email }}</itunes:email>
-        </itunes:owner>
-        <managingEditor>{{ site.podcast_email }} ({{ site.podcast_owner }})</managingEditor>
-        <itunes:subtitle>{{ site.podcast_subtitle }}</itunes:subtitle>
-        <image>
-            <title>{{ site.podcast_title }}</title>
-            <url>{{ site.url }}{{ site.podcast_album_art }}</url>
-            <link>{{ site.url }}</link>
-        </image>
-        <itunes:category text="{{ site.podcast_category }}">
-            <itunes:category text="{{ site.podcast_subcategory_one }}" />
-            <itunes:category text="{{ site.podcast_subcategory_two }}" />
-        </itunes:category>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>I'd Rather Be Writing/title>
+    <link>http://idratherbewriting.com</link>
+    <description>Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.</description>
+    <itunes:author>Tom Johnson</itunes:author>
+    <copyright>© 2016 I'd Rather Be Writing</copyright>
+
+    <language>en-us</language>
+    <pubDate>{{ page.date | date: '%B %d, %Y' }}</pubDate>
+    <lastBuildDate>{{ page.date | date: '%B %d, %Y' }}</lastBuildDate>
+    <itunes:category text="Technology">
+        <itunes:category text="Software How-to" />
+        <itunes:category text="Tech News" />
+    </itunes:category>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:image href="http://idratherbewriting.com/images/techwritervoices.jpg"/>
+
+    <itunes:subtitle>A podcast on technical writing</itunes:subtitle>
+    <itunes:summary>The New York Times's Jane Brody, "Personal Health" columnist, discusses the latest health news.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Tom Johnson</itunes:name>
+      <itunes:email>tom@idratherbewriting.com</itunes:email>
+    </itunes:owner>
+
         {% for ep in site.categories.stitcher %}
         <item>
             <title>{{ ep.title }}</title>
