@@ -37,7 +37,7 @@ layout: null
             <link>{{ site.url }}{{ ep.url }}</link>
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
-            <dc:creator><![CDATA[{{ site.author | cdata_escape }}]]></dc:creator>
+            <dc:creator><![CDATA[Tom Johnson]]></dc:creator>
             {% for category in ep.categories %}
             <category><![CDATA[{{ category | cdata_escape }}]]></category>
             {% endfor %}
