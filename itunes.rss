@@ -32,21 +32,21 @@ layout: null
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
             {% for category in ep.categories %}
-            <category><{{ category | cdata_escape }}></category>
+            <category>{{ category | cdata_escape }}</category>
             {% endfor %}
             {% for category in ep.tags %}
-            <category><{{ category | cdata_escape }}></category>
+            <category>{{ category | cdata_escape }}</category>
             {% endfor %}
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
             <description>
-                <{{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}>
+                {{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}
             </description>
             <content:encoded>
             </content:encoded>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
-            <itunes:subtitle><{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}></itunes:subtitle>
-            <itunes:summary><{{ ep.summary | expand_urls: site.url | cdata_escape }} Read more: {{ep.bitlink}}></itunes:summary>
+            <itunes:subtitle>{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
+            <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }} Read more: {{ep.bitlink}}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
             <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
             <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
