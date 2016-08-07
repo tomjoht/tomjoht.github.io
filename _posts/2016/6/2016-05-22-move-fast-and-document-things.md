@@ -2,6 +2,7 @@
 title: "Presentation recording: Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup, by Ruthie Bendor"
 categories:
 - podcasts
+- stitcher
 keywords: documentation, engineering, web design, internal engineering documentation
 summary: "During the May WTD meetup, Ruthie Bendor, a web engineer, gave a presentation titled Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup. This post contains the audio and video recording of her presentation."
 thumb: writethedocsthumb.png

@@ -3,6 +3,7 @@ title: "Podcast: The divide between academics and practitioners &mdash; Intervie
 categories:
 - beginners
 - podcasts
+- stitcher
 keywords: lisa meloncon, podcasts, academics, academic programs, research, paywalls, publications
 summary: "In this podcast, I talk with Lisa Meloncon, an associate professor at the University of Cincinnatti, about the academic-practitioner divide."
 thumb: microphone.png

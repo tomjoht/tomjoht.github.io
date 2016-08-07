@@ -3,6 +3,7 @@ title: Udemy podcast (with me) and infographic on technical writing
 categories:
 - beginners
 - podcasts
+- stitcher
 keywords: udemy, technical writing course, online learning, ugar akinci
 summary: "Recently I was interviewed by Alex Bankoff from Udemy for a podcast on the field of technical writing. The Udemy team also created an infographic about the topics covered in the podcast."
 date: 2015-10-06
