@@ -7,12 +7,24 @@ tags: [series_testing_documentation]
 series: testing_documentation
 summary: "Writing good documentation requires you to set up a test environment and test all of your instructions &mdash; testing the instructions yourself and against a user. Testing instructions can be time consuming and tricky, especially with developer documentation. It's hard to see past personal blind spots and assumptions. But testing instructions gives you access to insight that makes your documentation much more accurate and useful."
 weight: 1.0
+date: 2015-07-07
+tags:
+- testing
+- documentation
+- best practices
+- technical writing
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/testing_instructions.mp3
+podcast_file_size: 39.9 MB
+podcast_duration: "23:44"
+podcast_length: 39876989 
+bitlink: http://bit.ly/testingyourinstructions
 ---
 {% include series/seriesTagTestingDocs.html %}
 
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/testing_instructions.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/testing_instructions.mp3" alt="Testing instructions"/>download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/testing_instructions.mp3" alt="Testing instructions">download the MP3 file here</a>.
 
 ## Testing overview
 
