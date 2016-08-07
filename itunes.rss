@@ -27,7 +27,7 @@ layout: null
 
         {% for ep in site.categories.stitcher %}
         <item>
-            <title>{{ ep.title }}</title>
+            <title><![CDATA[{{ ep.title | cdata_escape }}]]></title>
             <link>{{ site.url }}{{ ep.url }}</link>
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
@@ -39,7 +39,7 @@ layout: null
             {% endfor %}
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
             <description>
-                {{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}
+                <![CDATA[{{ ep.summary | cdata_escape }}]]>
             </description>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
