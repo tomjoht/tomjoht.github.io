@@ -1,5 +1,5 @@
 ---
-title: "Podcast: How do design, length, and relevance affect how people use API reference docs — interview with Bob Watson"
+title: "Podcast: How do design, length, and relevance affect how people use API reference docs -- interview with Bob Watson"
 categories:
 - api-doc
 - podcasts

@@ -1,5 +1,5 @@
 ---
-title: "Podcast: The divide between academics and practitioners &#8211; Interview with Lisa Meloncon"
+title: "Podcast: The divide between academics and practitioners -- Interview with Lisa Meloncon"
 categories:
 - beginners
 - podcasts
