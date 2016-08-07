@@ -13,11 +13,13 @@ tags:
 - video
 - documentation
 - technical communication
+- stitcher
 image: http://idratherbewriting.com/images/techwritervoices.jpg
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "01:16:37"
 podcast_length: 56518010
+bitlink: http://bit.ly/videodocavrachwtd
 ---
 
 ## Presentation description

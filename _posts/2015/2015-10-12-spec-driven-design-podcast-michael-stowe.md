@@ -1,10 +1,21 @@
 ---
-title: "Podcast: Spec-driven Development of REST APIs, with a focus on RAML &mdash; interview with Michael Stowe"
+title: "Podcast: Spec-driven Development of REST APIs, with a focus on RAML -- interview with Michael Stowe"
 categories:
 - api-doc
 - podcasts
 keywords: 
 summary: "Spec-driven development is an approach to developing REST APIs by first describing and prototyping the API through a specification file (such as RAML or Swagger), and then coding the API. The spec not only serves as a contract for the API's development, it can also generate interaction documentation, unit tests, client SDKs, and provide other benefits."
+date: 2015-10-12
+tags:
+- RAML
+- API
+- specifications
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/mikestowe.mp3
+podcast_file_size: 76.9 MB
+podcast_duration: "45:48"
+podcast_length: 76933334
+bitlink: http://bit.ly/interactiveapidocsmikestowe
 ---
 <style>
 b {font-size:115%;}

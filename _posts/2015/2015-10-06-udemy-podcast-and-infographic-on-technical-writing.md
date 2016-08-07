@@ -5,6 +5,20 @@ categories:
 - podcasts
 keywords: udemy, technical writing course, online learning, ugar akinci
 summary: "Recently I was interviewed by Alex Bankoff from Udemy for a podcast on the field of technical writing. The Udemy team also created an infographic about the topics covered in the podcast."
+date: 2015-10-06
+tags:
+- technical writing
+- udemy
+- introduction
+- beginners
+- transitioning
+- trends
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: https://dujk9xa5fr1wz.cloudfront.net/extra_html/TechnicalWritingPodcast/Tom+Johnson+Edited+(1).mp3
+podcast_file_size: 93 MB
+podcast_duration: "38:46"
+podcast_length: 93046336
+bitlink: http://bit.ly/udemypodcasttechwriting
 ---
 
 Recently Alex Bankoff from Udemy interviewed me for a podcast on technical writing. He and his team also created an infographic based on the podcast as well. You can check out both the [podcast and infographic here](https://www.udemy.com/technical-writing-and-editing/#interview):

@@ -9,13 +9,24 @@ series: testing_documentation
 weight: 1.6
 summary: "Bob Watson recently finished a PhD with research that examined how the design and content of API reference docs affects the user's performance. In this podcast, I talk with Bob about his findings and his other research interests, primarily around goal testing to measure documentation's effectiveness."
 thumb: microphone.png
+date: 2015-07-30
+tags:
+- API documentation
+- best practices
+- usability
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/bobwatson_apidocs.mp3
+podcast_file_size: 56.5 MB
+podcast_duration: "52:21"
+podcast_length: 6530090 
+bitlink: http://bit.ly/bobwatsonpodcast
 ---
 
 ## Listen to the podcast
 
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/bobwatson_apidocs.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs"/>download the MP3 file here</a>.
+You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs">download the MP3 file here</a>.
 
 ## Summary
 

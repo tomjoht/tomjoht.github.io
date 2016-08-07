@@ -5,6 +5,18 @@ categories:
 - podcasts
 keywords: 
 summary: "You can watch the recording of Richard Mateosian's November 2015 presentation to the STC Silicon Valley about version control, writers, and workflows."
+date: 2015-12-17
+tags:
+- technical writing
+- version control
+- Github
+- engineering
+image: http://idratherbewriting.com/images/techwritervoices.jpg
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/richardmateosian.mp3
+podcast_file_size: 68.6 MB
+podcast_duration: "01:03:31"
+podcast_length: 68607356
+bitlink: http://bit.ly/versioncontrolworkflowswritersstc
 ---
 ## Video, audio, and slides
 

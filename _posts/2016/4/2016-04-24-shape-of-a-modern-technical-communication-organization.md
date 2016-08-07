@@ -12,11 +12,13 @@ tags:
 - documentation
 - management
 - technical communication
+- stitcher
 image: http://idratherbewriting.com/images/techwritervoices.jpg
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/sanbornvoiceonly.mp3
 podcast_file_size: 44.2 MB
 podcast_duration: "01:01:14"
 podcast_length: 44184559
+bitlink: http://bit.ly/shapeofmoderntechcommorg
 ---
 
 ## Presentation description

@@ -10,11 +10,13 @@ tags:
 - technical writing
 - documentation
 - technical communication
+- stitcher
 image: http://idratherbewriting.com/images/techwritervoices.jpg
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocssupportwtd.mp3
 podcast_file_size: 18.5 MB
 podcast_duration: "24:36"
 podcast_length: 18510066
+bitlink: http://bit.ly/supportdocgappres
 ---
 
 At the May WTD meetup, [Neal Kaplan](https://customersandcontent.com/) gave a presentation titled "Two great teams that work great together: Bridging the gap between documentation and support":
