@@ -41,8 +41,6 @@ layout: null
             <description>
                 {{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}
             </description>
-            <content:encoded>
-            </content:encoded>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
             <itunes:subtitle>{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
