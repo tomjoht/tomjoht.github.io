@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>I'd Rather Be Writing</title>
     <link>http://idratherbewriting.com</link>
@@ -10,7 +10,6 @@ layout: null
     <itunes:author>Tom Johnson</itunes:author>
     <copyright>© 2016 I'd Rather Be Writing</copyright>
     <language>en-us</language>
-    <atom:linkhref="http://idratherbewriting.com/itunes.rss"rel="self"type="application/rss+xml" />
     <lastBuildDate>{{ page.date | date: '%B %d, %Y' }}</lastBuildDate>
     <itunes:category text="Technology">
         <itunes:category text="Software How-to" />
