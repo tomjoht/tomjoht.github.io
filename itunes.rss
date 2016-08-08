@@ -16,7 +16,7 @@ layout: null
         <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:image href="http://idratherbewriting.com/images/techwritervoices.jpg"/>
+    <itunes:image href="http://idratherassets.com/wp-content/idratherbewritinglogo.png"/>
 
     <itunes:subtitle>A podcast on technical writing</itunes:subtitle>
     <itunes:summary>The New York Times's Jane Brody, "Personal Health" columnist, discusses the latest health news.</itunes:summary>
