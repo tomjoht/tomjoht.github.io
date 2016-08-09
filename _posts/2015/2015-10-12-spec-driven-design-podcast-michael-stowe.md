@@ -11,7 +11,7 @@ tags:
 - RAML
 - API
 - specifications
-image: http://idratherbewriting.com/images/techwritervoices.jpg
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/mikestowe.mp3
 podcast_file_size: 76.9 MB
 podcast_duration: "45:48"

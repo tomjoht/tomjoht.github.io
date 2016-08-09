@@ -11,7 +11,7 @@ tags:
 - technical writing
 - documentation
 - technical communication
-image: http://idratherbewriting.com/images/techwritervoices.jpg
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3
 podcast_file_size: 5.8 MB
 podcast_duration: "7:28"

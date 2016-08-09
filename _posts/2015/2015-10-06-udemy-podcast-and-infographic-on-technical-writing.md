@@ -14,7 +14,7 @@ tags:
 - beginners
 - transitioning
 - trends
-image: http://idratherbewriting.com/images/techwritervoices.jpg
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: https://dujk9xa5fr1wz.cloudfront.net/extra_html/TechnicalWritingPodcast/Tom+Johnson+Edited+(1).mp3
 podcast_file_size: 93 MB
 podcast_duration: "38:46"

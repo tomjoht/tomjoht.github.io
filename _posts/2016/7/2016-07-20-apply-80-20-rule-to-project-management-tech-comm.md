@@ -13,7 +13,7 @@ tags:
 - documentation
 - technical communication
 - project management
-image: http://idratherbewriting.com/images/techwritervoices.jpg
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/four-hour-projects.mp3
 podcast_file_size: 7.8 MB
 podcast_duration: "09:34"

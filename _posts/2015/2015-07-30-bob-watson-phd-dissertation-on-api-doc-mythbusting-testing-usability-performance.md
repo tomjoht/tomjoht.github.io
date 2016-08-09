@@ -15,7 +15,7 @@ tags:
 - API documentation
 - best practices
 - usability
-image: http://idratherbewriting.com/images/techwritervoices.jpg
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/bobwatson_apidocs.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "52:21"

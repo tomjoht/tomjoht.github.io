@@ -14,7 +14,7 @@ tags:
 - documentation
 - best practices
 - technical writing
-image: http://idratherbewriting.com/images/techwritervoices.jpg
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/testing_instructions.mp3
 podcast_file_size: 39.9 MB
 podcast_duration: "23:44"
