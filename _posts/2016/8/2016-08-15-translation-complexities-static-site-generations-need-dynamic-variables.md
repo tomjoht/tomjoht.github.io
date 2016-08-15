@@ -43,7 +43,7 @@ Since my content is in kramdown Markdown, translating the Markdown source format
 Notice I used the word "dynamic" in the last sentence. There's somewhat of a misnomer about static site generators. In your source content, you aren't working just with static content, because if you were, translation would be extremely difficult. In Discover Meteor, the authors explain that static is really more dynamic than we typically credit it as being. They note,
 
 > A classic Ruby or PHP app can be said to be dynamic because it can react to various parameters on each request (for example, variables passed through the URL).
-  
+> 
 > True, static HTML files can’t do that. But your static site generator can still take into account parameters during the build process. In other words, static sites are only static after they have been generated. --[Three More Ways To Make Your Static Sites Smarter](https://www.discovermeteor.com/blog/three-more-ways-to-make-your-static-sites-smarter/)
 
 The ability to use variables and parameters in your source is essential when setting up translation to multiple languages. It's the ability to use these parameters, variables, and other dynamic techniques during the build process -- before the files become static -- that allow you to account for more sophisticated scenarios like translation even though you're using a static site generator.  
