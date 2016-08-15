@@ -26,7 +26,7 @@ bitlink: http://bit.ly/ssgtranslationcomplexity
 <p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
 </div>
 
-I mentioned in previous posts that I was tackling translation with static site generators, and I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](http://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)). 
+I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](http://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)). 
 
 Translation is a complex undertaking. In Andrew Etter's [*Modern Technical Writing*](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS?tag=viglink124746-20#nav-subnav), he says translation projects are time-consuming and costly. To quote:
 
@@ -44,7 +44,7 @@ Notice I used the word "dynamic" in the last sentence. There's somewhat of a mis
 
 > A classic Ruby or PHP app can be said to be dynamic because it can react to various parameters on each request (for example, variables passed through the URL).
 > 
-> True, static HTML files can’t do that. But your static site generator can still take into account parameters during the build process. In other words, static sites are only static after they have been generated. --[Three More Ways To Make Your Static Sites Smarter](https://www.discovermeteor.com/blog/three-more-ways-to-make-your-static-sites-smarter/)
+> True, static HTML files can’t do that. But your static site generator can still take into account parameters during the build process. In other words, static sites are only static after they have been generated. (See [Three More Ways To Make Your Static Sites Smarter](https://www.discovermeteor.com/blog/three-more-ways-to-make-your-static-sites-smarter/))
 
 The ability to use variables and parameters in your source is essential when setting up translation to multiple languages. It's the ability to use these parameters, variables, and other dynamic techniques during the build process -- before the files become static -- that allow you to account for more sophisticated scenarios like translation even though you're using a static site generator.  
 
@@ -101,11 +101,11 @@ alerts:
 
 The note then uses a note include template (referenced just like the image template, except with `{% raw %}{% include note.html content="..."%}{% endraw %}`). The template for the include contains content that looks something like this: 
 
-```
-<div class="mynote">{{site.alerts.note}}: {{include.content}}</div>
+```html
+{% raw %}<div class="mynote">{{site.alerts.note}}: {{include.content}}</div>{% endraw %}
 ```
 
-The `{{site.alerts.note}}` references the value in the configuration file -- in this case, since the configuration file is for the German build, the value is `Hinweis`. If you had other strings that you wanted to isolate like this, you could separate them out into either your configuration file or into other data files (stored in your _data folder) and reference them as variables in your code.
+The `{% raw %}{{site.alerts.note}}{% endraw %}` references the value in the configuration file -- in this case, since the configuration file is for the German build, the value is `Hinweis`. If you had other strings that you wanted to isolate like this, you could separate them out into either your configuration file or into other data files (stored in your _data folder) and reference them as variables in your code.
 
 (BTW, these sample translations are just filler text -- I haven't actually translated them yet.)
 
