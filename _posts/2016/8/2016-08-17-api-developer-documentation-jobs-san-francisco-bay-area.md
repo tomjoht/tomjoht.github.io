@@ -49,9 +49,11 @@ Here's the video recording (slides + audio):
 
 ## Slides
 
+
+
 Here are the slides: 
 
-<a href="https://docs.google.com/presentation/d/15S5xxMSYRZgGpdQNdHo7K9cqQQd6puZdg7aehBG2QNk/edit#slide=id.g35ed75ccf_022"><img src="http://www.stc-siliconvalley.org/wp-content/uploads/2016/07/slidethumbandrew.png" alt="Hunting for Developer Doc Work around the Bay" width="299" height="170" class="alignleft size-full wp-image-7876" /></a>
+<a href="https://docs.google.com/presentation/d/15S5xxMSYRZgGpdQNdHo7K9cqQQd6puZdg7aehBG2QNk/edit#slide=id.g35ed75ccf_022"><img src="{{ "/images/slidethumbandrew.png" | prepend: site.baseurl }}" alt="Hunting for Developer Doc Work around the Bay" />
 
 The slides have detailed speaker notes, so be sure to check those out too.
 
