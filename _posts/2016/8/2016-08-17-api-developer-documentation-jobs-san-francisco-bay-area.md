@@ -49,13 +49,7 @@ Here's the video recording (slides + audio):
 
 ## Slides
 
-
-
-Here are the slides: 
-
-<a href="https://docs.google.com/presentation/d/15S5xxMSYRZgGpdQNdHo7K9cqQQd6puZdg7aehBG2QNk/edit#slide=id.g35ed75ccf_022"><img src="{{ "/images/slidethumbandrew.png" | prepend: site.baseurl }}" alt="Hunting for Developer Doc Work around the Bay" />
-
-The slides have detailed speaker notes, so be sure to check those out too.
+Here are the <a href="http://bit.ly/2b4ep9V">slides</a>. The slides have detailed speaker notes, so be sure to check those out too.
 
 ## Audio 
 
@@ -65,7 +59,7 @@ Just want the audio?
 <p><b>Listen to this post:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" alt="Hunting for API developer documentation jobs in the San Francisco Bay area">download the MP3 file</a> here.
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/huntingdevdoc.mp3" alt="Hunting for API developer documentation jobs in the San Francisco Bay are">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
 </div>
 
 ## About Andrew Davis
