@@ -59,8 +59,6 @@ Just want the audio? Play it here or <a href="http://www.podtrac.com/pts/redirec
 
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/huntingdevdoc.mp3" alt="Hunting for API developer documentation jobs in the San Francisco Bay are">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
-
 ## About Andrew Davis
 
 <img style="float:left; margin-right:10px;" src="{{ "/images/andrewdavisthumb.png" | prepend: site.baseurl}}" alt="Andrew Davis" />Andrew Davis has recruited technical content developers in the SF Bay Area since 1995. He is a former software industry Technical Writer and has a reputation for both understanding and championing the role of content development.
