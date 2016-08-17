@@ -16,7 +16,7 @@ podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcast
 podcast_file_size: 11.9 MB
 podcast_duration: "14:05"
 podcast_length: 11948010
-bitlink: http://bit.ly/ssgtranslationcomplexity
+bitlink: http://bit.ly/ssgtranslationcomplexities
 ---
 
 <div class="audioControls">
