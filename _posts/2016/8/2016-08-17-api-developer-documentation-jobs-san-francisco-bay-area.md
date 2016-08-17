@@ -39,6 +39,7 @@ Here's a description of Andrew's presentation:
 <li>What’s the work pay?</li>
 <li>How can I get there from here?</li>
 </ul>
+</blockquote>
 
 ## Video recording
 
