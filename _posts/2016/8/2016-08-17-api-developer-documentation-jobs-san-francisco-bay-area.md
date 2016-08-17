@@ -28,17 +28,23 @@ Andrew gave the the presentation "Hunting for Dev Doc Work Around the Bay" on Au
 
 Here's a description of Andrew's presentation:
 
-> The job market for developer documentation in Silicon Valley is the hottest in the country. But developer documentation jobs can be tricky to get, and also difficult to excel in, especially if you lack an engineering background. Despite the difficulties, technical writers in these positions can bring tremendous value to engineering teams. Immersed in developer documentation, you're constantly learning new technologies and interacting closely with engineers. 
-> 
-> In this presentation, <a href="http://www.synergistech.com/">Andrew Davis</a> will talk about developer documentation jobs in the Bay area, specifically:
+<blockquote>
+<p>The job market for developer documentation in Silicon Valley is the hottest in the country. But developer documentation jobs can be tricky to get, and also difficult to excel in, especially if you lack an engineering background. Despite the difficulties, technical writers in these positions can bring tremendous value to engineering teams. Immersed in developer documentation, you're constantly learning new technologies and interacting closely with engineers. </p>
+<p>In this presentation, <a href="http://www.synergistech.com/">Andrew Davis</a> will talk about developer documentation jobs in the Bay area, specifically:</p>
 ><ul>
-> 	<li>Why is developer doc work desirable?</li>
-> 	<li>Which skills and abilities open doors into developer doc jobs?</li>
-> 	<li>Which traits and assets keep the doors open?</li>
-> 	<li>Where is demand strongest?</li>
-> 	<li>What’s the work pay?</li>
-> 	<li>How can I get there from here?</li>
-></ul>
+<li>Why is developer doc work desirable?</li>
+<li>Which skills and abilities open doors into developer doc jobs?</li>
+<li>Which traits and assets keep the doors open?</li>
+<li>Where is demand strongest?</li>
+<li>What’s the work pay?</li>
+<li>How can I get there from here?</li>
+</ul>
+
+## Video recording
+
+Here's the video recording (slides + audio):
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/0myJY0WpG1U" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 
