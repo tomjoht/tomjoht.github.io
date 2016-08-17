@@ -51,7 +51,7 @@ Here's the video recording (slides + audio):
 
 Here are the slides. The slides have detailed speaker notes, so be sure to check those out too.
 
-<a href="http://bit.ly/2b4ep9V"><img src="{{ "/images/devdochuntslide.png" | prepend: site.baseurl }}" alt="API documentation jobs San Francisco Bay area" /></a>
+<a href="http://bit.ly/2b4ep9V"><img style="border: 1px solid gray;" src="{{ "/images/devdochuntslide.png" | prepend: site.baseurl }}" alt="API documentation jobs San Francisco Bay area" /></a>
 
 ## Audio 
 
