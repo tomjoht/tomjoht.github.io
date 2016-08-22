@@ -134,3 +134,5 @@ I will readily admit that the more languages and formats you output to (for exam
 Then again, I'm betting that each system has a learning curve along with some strengths and weaknesses, and given the variety of scenarios and requirements, push button solutions might not be advantageous over more flexible and custom setups using processes like I described here.
 
 If you've managed translation projects and want to share your insights, please do so in the comments below. One reason I write posts about topics or techniques that I'm still developing is to learn from others ahead of time and hopefully avoid mistakes that I might otherwise make without this input.
+
+{{site.data.alerts.ad}}To create great content for your user manuals, you need good, efficient <a href="http://bit.ly/clickhelponlinedoctool">online help tools</a>. ClickHelp is a modern help writing tool &mdash; hosted and browser-based, <a href="https://clickhelp.co/">Clickhelp</a> provides powerful single-sourcing features while remaining easy to use.{{site.data.alerts.end}}

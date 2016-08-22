@@ -73,3 +73,5 @@ Andrei Essaoulov made an interesting comment, essentially highlighting the short
 ## Conclusion
 
 Overall, Ferry's post provides an interesting lens on the tools that tech comm professionals use. If you're looking for a tool to do something, you might browse this list. This list of tools also shows you the diversity and variety of tools that people in our profession find indispensable.
+
+{{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
