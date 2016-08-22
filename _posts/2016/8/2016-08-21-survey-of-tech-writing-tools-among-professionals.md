@@ -10,15 +10,9 @@ thumb:
 
 ## Background
 
-Ferry Vermeulen [from Instructiv](http://instrktiv.com/en/) asked more than 70 technical writing professionals the following question:
+Ferry Vermeulen [from Instructiv](http://instrktiv.com/en/) asked more than 70 technical writing professionals (from conferences such as  Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom, and Information Energy) the following question:
 
->If you could use just three technical writing tools in your company, which ones should you use (in the technical writing tools definition, standards and other helpful attributes are included)? 
-
-See [Technical Writing Tools: The Ultimate Expert Choice](http://instrktiv.com/en/technical-writing-tools) to read the post.
-
-I asked Ferry how he gathered the list of people included in the post. He said:
-
-> I reached out to speakers on techcomm conferences held in April, May and June. These include amongst others Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom and Information Energy, 
+>If you could use just three technical writing tools in your company, which ones should you use (in the technical writing tools definition, standards and other helpful attributes are included)? (See [Technical Writing Tools: The Ultimate Expert Choice](http://instrktiv.com/en/technical-writing-tools).)
 
 Of course if you ask people at Madworld, a technical writing conference focused on Madcap Software products, what their favorite tools are, they're going to include Flare and other Madcap products, so just keep that in mind.
 
