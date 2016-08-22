@@ -10,7 +10,7 @@ thumb:
 
 ## Background
 
-Ferry Vermeulen [from Instructiv](http://instrktiv.com/en/) asked more than 70 technical writing professionals (from conferences such as  Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom, and Information Energy) the following question:
+Ferry Vermeulen [from INSTRKTIV](http://instrktiv.com/en/) asked more than 70 technical writing professionals (from conferences such as  Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom, and Information Energy) the following question:
 
 >If you could use just three technical writing tools in your company, which ones should you use (in the technical writing tools definition, standards and other helpful attributes are included)? (See [Technical Writing Tools: The Ultimate Expert Choice](http://instrktiv.com/en/technical-writing-tools).)
 
