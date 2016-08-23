@@ -41,7 +41,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 3.  Insert the endpoint into the main box (next to the method, which is GET by default): `https://simple-weather.p.mashape.com/aqi`
 4.  Click the **Params** button (to the right of the box where you inserted the endpoint) and insert `lat` and `lng` parameters with specific values (other than `1`).
     
-    {{site.data.alerts.note}} Only some countries are supported in the <code>aqi</code> call &mdash; specifically the United States, Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. The AQI for Santa Clara, California is <code>lat: 37.3710062</code> and <code>lng: 122.0375935</code>. For Singapore, it's <code>lat: 1.3321256</code> and <code>lng: 103.7373503</code>. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
+    {{site.data.alerts.note}} Only some countries are supported in the <code>aqi</code> call &mdash; specifically the United States, Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. The AQI for Santa Clara, California is <code>lat: 37.3710062</code> and <code>lng: -122.0375935</code>. For Singapore, it's <code>lat: 1.3321256</code> and <code>lng: 103.7373503</code>. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
     
     <img src="{{ "/images_api/googlemapslatlong.png" | prepend: site.baseurl }}" alt="Finding latitude and longitude on Google Maps" />
 	
