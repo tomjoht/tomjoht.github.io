@@ -1,7 +1,9 @@
 ---
-title: "Balancing the never-ending list of documentation to write with the total absorption of video games"
+title: "Balancing the never-ending list of documentation to write with your natural interests and passions"
 categories:
 - general
+- stitcher
+- podcasts
 keywords: 
 summary: "Sometimes I think that I've covered every possible topic on this blog that is possible to write about, and my muse becomes silent for a while. But then I remember the purpose of the blog -- to be a web-based log, or journal -- and I realize that the only reason I wouldn't have anything to write about is if I stopped having experiences, stopped reflecting on those experiences, and ultimately became a zombie. That zombie state is the death of any career. "
 date: 2016-09-02
