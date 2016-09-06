@@ -1,5 +1,5 @@
 ---
-title: "Recording of Let's Tell a Story -- Scenario-Based Documentation, by Matt Ness (STC Silicon Valley)"
+title: "Recording of Let's Tell a Story -- Scenario-Based Documentation, by Matt Ness (STC Silicon Valley Presentation)"
 categories:
 - general
 - stitcher
