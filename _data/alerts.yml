@@ -11,6 +11,6 @@ callout_success: '<div class="bs-callout bs-callout-success">'
 callout_info: '<div class="bs-callout bs-callout-info">'
 callout_warning: '<div class="bs-callout bs-callout-warning">'
 ad: '<div class="bs-callout bs-callout-info bs-callout-ad"> <div class="sponsorMessageTitle"><i>Sponsored message:</i></div>'
-
+announcement: '<div class="bs-callout bs-callout-info bs-callout-ad"> <div class="sponsorMessageTitle"><i>Announcement:</i></div>'
 hr_faded: '<hr class="faded"/>'
 hr_shaded: '<hr class="shaded"/>'
