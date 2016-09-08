@@ -1,5 +1,5 @@
 ---
-title: Introduction to Swagger (OpenAPI specification)
+title: Using Swagger (OpenAPI specification) for your API documentation
 permalink: /pubapis_swagger_intro/
 categories:
 - api-doc
