@@ -1,5 +1,5 @@
 ---
-title: Introduction to Swagger (or the OpenAPI specification)
+title: Introduction to Swagger (OpenAPI specification)
 permalink: /pubapis_swagger_intro/
 categories:
 - api-doc
@@ -10,7 +10,7 @@ type: notes_docapis
 ---
 {% include notes.html %}
 
-Note: This article was originally published in ISTC Communicator, Autumn 2016. 
+(*This article was originally published in [ISTC Communicator](http://www.istc.org.uk/publications-and-resources/communicator/), [Autumn 2016](http://www.istc.org.uk/wp-content/uploads/2016/05/Comm1609Web_TOC.pdf).*)
 
 ## Introduction
 
@@ -139,7 +139,7 @@ After customizing the parameters, you click **Try it out!** Swagger UI shows you
 
 <img src="{{ "/images_api/swagger_response_pic.png" | prepend: site.baseurl }}" alt="Swagger's response" />
 
-There are other tools besides Swagger UI that can parse your Swagger specification file. Some of these tools include [Restlet Studio](https://restlet.com/products/restlet-studio/), [Apiary](https://apiary.io/), [Apigee](http://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/)/[Mashape](https://www.mashape.com/), [Readme.io](http://readme.io/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui), [Postman Run Buttons]https://www.getpostman.com/docs/run_button) and more. 
+There are other tools besides Swagger UI that can parse your Swagger specification file. Some of these tools include [Restlet Studio](https://restlet.com/products/restlet-studio/), [Apiary](https://apiary.io/), [Apigee](http://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/)/[Mashape](https://www.mashape.com/), [Readme.io](http://readme.io/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui), [Postman Run Buttons](https://www.getpostman.com/docs/run_button) and more. 
 
 Some web designers have created integrations of Swagger with static site generators such as Jekyll (see [Carte](https:// github.com/Wiredcraft/carte)). More tools roll out regularly for parsing and displaying content from a Swagger specification file.
 
@@ -187,7 +187,9 @@ Swagger does provide a nice visual shape for an API. You can easily see all the 
 
 Based on this framework, you can help users grasp the basics of your API.
 
-Additionally, I found that learning the Swagger specification and describing my API helped shape my own API vocabulary. By poring through the specification, I realised that there were four types of parameters: “path” parameters, “header” parameters, “query” parameters, and “request body” parameters. I learned that parameter data types with REST were a “Boolean”, “number”, “integer”, or “string.” I learned that responses provided “objects” containing “strings” or “arrays.” In short, implementing the specification gave me an education about API terminology, which in turn helped me describe the various components of my API in credible ways.
+Additionally, I found that learning the Swagger specification and describing my API helped shape my own API vocabulary. By poring through the specification, I realised that there were four types of parameters: “path” parameters, “header” parameters, “query” parameters, and “request body” parameters. I learned that parameter data types with REST were a “Boolean”, “number”, “integer”, or “string.” I learned that responses provided “objects” containing “strings” or “arrays.” 
+
+In short, implementing the specification gave me an education about API terminology, which in turn helped me describe the various components of my API in credible ways.
 
 Swagger may not be the right approach for every API, but if your API has fairly simple parameters, without many interdependencies between endpoints, and if it’s practical to explore the API without making the user’s data problematic, Swagger can be a powerful complement to your documentation. You can give users the ability to try out requests and responses for themselves.
 
@@ -227,6 +229,8 @@ YAML
 : Recursive acronym for “YAML Ain’t No Markup Language.” A human- readable, space-sensitive syntax used in the Swagger specification file.
 
 ## Resources and further reading
+
+See the following resources for more information on Swagger:
 
 * [API Transformer ](https://apitransformer.com)
 * [APIMATIC](http://www.apimatic.io)

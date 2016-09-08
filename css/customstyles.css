@@ -427,11 +427,15 @@ dl dt p {
 }
 
 
-dl dd {
-    margin-top:12px;
-    margin-bottom:12px;
+dt {
+    margin-top: 40px;
 }
 
+dl dd {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 35px;
+}
 
 
 figcaption {
