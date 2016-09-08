@@ -1,16 +1,16 @@
 ---
-title: Implementing Swagger with Your API documentation
-permalink: /docapis_understand_curl/
+title: Introduction to Swagger (or the OpenAPI specification)
+permalink: /docapis_swagger_intro/
 categories:
 - api-doc
 keywords: 
 course: "Documenting REST APIs"
-weight: 1.8
+weight: 5.4
 type: notes_docapis
 ---
 {% include notes.html %}
 
-Note that this article was first published in ISTC's *Communicator*. 
+Note: This article was originally published in ISTC Communicator, Autumn 2016. 
 
 ## Introduction
 
@@ -90,7 +90,7 @@ It can take quite a while to figure out the Swagger specification. Give yourself
 
 When you’re implementing the specification, instead of working in a text editor, you can write your code in the [Swagger editor](http://editor.swagger.io/). The Swagger Editor dynamically validates whether the specification file you’re creating is valid.
 
----> insert image of swagger editor
+<img src="{{ "/images_api/swagger_editor_pic.png" | prepend: site.baseurl }}" alt="Swagger Editor" />
 
 While you’re coding in the Swagger Editor, if you make an error, you can quickly fix it before continuing, rather than waiting until a later time to run a build and sort out errors.
 
@@ -127,13 +127,17 @@ Probably the most common tool used to parse the Swagger specification is [Swagge
 
 The Swagger UI code generates a display that looks like this:
 
---->insert image
+<img src="{{ "/images_api/swagger_petstore_pic.png" | prepend: site.baseurl }}" alt="Swagger Petstore" />
 
 Some designers criticise the Swagger UI’s expandable/collapsible output as being dated. I somewhat agree: the collapsed design makes it difficult to scan the information and easily see the details. However, at the same time, developers find the one-page model attractive and like the ability to zoom out or in for details.
 
-As with most Swagger-based outputs, Swagger UI provides a “Try it out” button. After you populate the endpoint parameters with values and click Try it out!, Swagger UI shows you the cURL format of the request followed by the request URL and response. The response is usually returned in JSON format.
+As with most Swagger-based outputs, Swagger UI provides a “Try it out” button. First you populate the endpoint parameters with values. In the following image, users click the Example Value (yellow field) to populate the body parameter with the required JSON. In query parameters, there's a simple form where you enter the values. 
+ 
+<img src="{{ "/images_api/swagger_parameters_pic.png" | prepend: site.baseurl }}" alt="Swagger Parameters" /> 
+ 
+After customizing the parameters, you click **Try it out!** Swagger UI shows you the cURL format of the request followed by the request URL and response. The response is usually returned in JSON format.
 
----> insert image
+<img src="{{ "/images_api/swagger_response_pic.png" | prepend: site.baseurl }}" alt="Swagger's response" />
 
 There are other tools besides Swagger UI that can parse your Swagger specification file. Some of these tools include [Restlet Studio](https://restlet.com/products/restlet-studio/), [Apiary](https://apiary.io/), [Apigee](http://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/)/[Mashape](https://www.mashape.com/), [Readme.io](http://readme.io/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui), [Postman Run Buttons]https://www.getpostman.com/docs/run_button) and more. 
 

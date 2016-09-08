@@ -7,6 +7,8 @@ weight: 5.4
 ---
 {% include notes.html %}
 
+{% include note.html content="For a more general overview of Swagger (or the Open API specification), see <a href="{{ "/docapis_swagger_intro" | prepend: site.baseurl }}">Introduction to Swagger</a>." %}
+
 ## About Swagger
 
 Swagger is one of the most popular specifications for REST APIs for a number of reasons:

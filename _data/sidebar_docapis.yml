@@ -208,7 +208,7 @@ entries:
           url: /pubapis/docapis_swagger_intro/
           output: web, pdf
           weight: 5.4
-        - title: Swagger
+        - title: Swagger tutorial
           url: /pubapis_swagger/
           weight: 5.4.5
           output: web, pdf
