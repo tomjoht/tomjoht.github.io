@@ -1,6 +1,6 @@
 ---
 title: Introduction to Swagger (or the OpenAPI specification)
-permalink: /docapis_swagger_intro/
+permalink: /pubapis_swagger_intro/
 categories:
 - api-doc
 keywords: 
