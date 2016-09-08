@@ -7,7 +7,7 @@ weight: 5.41
 ---
 {% include notes.html %}
 
-{{site.data.alerts.note}} For a more general overview, see <a href="{{ "/pubapis_swagger_intro/" | prepend: site.baseurl }}">Introduction to Swagger</a>. {{site.data.alerts.end}}
+{{site.data.alerts.note}} For a more general overview, see <a href="{{ "/pubapis_swagger_intro/" | prepend: site.baseurl }}">Implementing Swagger with your API docs</a>. {{site.data.alerts.end}}
 
 ## About Swagger
 
