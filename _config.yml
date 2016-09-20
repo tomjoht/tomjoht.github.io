@@ -77,14 +77,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "nativelibraryapis"
-    values:
-      layout: "page_restapicourse"
-      comments: true
-      search: true
-  -
-    scope:
-      path: ""
       type: "podcasts"
     values:
       layout: "itunes"
