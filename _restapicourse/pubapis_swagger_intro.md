@@ -147,7 +147,7 @@ In fact, once you have a valid Swagger specification, using a tool called [API T
 
 ## Responses to Swagger documentation
 
-With my project, I used the Swagger UI to parse my Swagger specification. I customised Swagger UI's colours a bit, added a logo and a few other features. I spliced in a reference to Bootstrap so that I could have pop-up modals where users could generate their authorisation codes. I even added some collapse and expand features in the description element to provide necessary information to users about a sample project.
+With my project, I used the Swagger UI to parse my Swagger specification. I customised Swagger UI's colors a bit, added a logo and a few other features. I spliced in a reference to Bootstrap so that I could have pop-up modals where users could generate their authorisation codes. I even added some collapse and expand features in the description element to provide necessary information to users about a sample project.
 
 Beyond these simple modifications, however, it takes a bit of web developer prowess to significantly alter the Swagger UI display.
 
@@ -181,7 +181,7 @@ Finally, I found that only endpoints with simple request body parameters tend to
 
 Despite the shortcomings of Swagger, I still highly recommend it for describing your API.
 
-Swagger is quickly becoming a way for more and more tools (from Postman Run buttons to nearly every API platform) to quickly ingest the information about your API and make it discoverable and interactive with robust, interactive tooling. Through your Swagger specification, you can port your API onto many platforms and systems, as well as automatically set up unit testing and prototyping.
+Swagger is quickly becoming a way for more and more tools (from Postman Run buttons to nearly every API platform) to quickly ingest the information about your API and make it discoverable and interactive with robust, instructive tooling. Through your Swagger specification, you can port your API onto many platforms and systems, as well as automatically set up unit testing and prototyping.
 
 Swagger does provide a nice visual shape for an API. You can easily see all the endpoints and their parameters (like a quick-reference guide).
 
