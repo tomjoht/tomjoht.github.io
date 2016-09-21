@@ -17,7 +17,7 @@ podcast_file_size: 47.7 MB
 podcast_duration: "01:05:35"
 podcast_length: 47713678 
 bitlink: http://bit.ly/agilepanelstc
-summary: "Last Monday we had a record turnout at our STC Silicon Valley chapter (with about 40 attendees). The topic was a panel discussion on how to thrive in agile environments as a technical writer. With 5 panelists all at different companies, the perspectives and practices they shared varied a bit, which showed the variety and adaptations different writers and companies have made with agile to make the process work for them. This post contains a full description and recording of the event."
+summary: "Last Monday we had a record turnout at our STC Silicon Valley chapter (with about 40 attendees). The topic was a panel discussion on how to thrive in agile environments as a technical writer. With 5 panelists all from different companies, the perspectives and practices they shared varied a bit, which showed the adaptations different writers and companies have made with agile to make the process work for them. This post contains a full description and recording of the event."
 ---
 
 ## Audio Recording
