@@ -22,7 +22,7 @@ podcast_length: 5718142
 <p><b>Listen to this post:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/kanban-and-context-switching.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/kanban-and-context-switching.mp3" alt="Context switching and efficiency -- Kanban to the rescue?">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/kanban-and-context-switching.mp3" alt="Context switching and efficiency -- Kanban to the rescue?">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 You can read the article by Mattias Sander here: [Become more productive and motivated](http://techwritingengineer.com/keep-it-lean-become-more-productive-and-motivated/

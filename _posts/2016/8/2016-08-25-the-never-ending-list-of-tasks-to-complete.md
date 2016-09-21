@@ -24,7 +24,7 @@ bitlink: http://bit.ly/videogamereflection
 <p><b>Listen to this post:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/videogamereflection.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/videogamereflection.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a> or <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>.</p>
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/videogamereflection.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 Although most days are the same, they are a little different. My kids have returned to school, and so my summer routine of waking up "when I wake up" and riding my 8 miles to work along the scenic San Tomas Aquinas trail (which follows a half-dry canal) has changed a bit. I now ride my kids to school and then ride on to work. My two youngest (6 and 9) often glide along on roller skates while holding onto the back of a bike child carrier that I pull. My older two kids get themselves to school by bike and foot. 
