@@ -23,7 +23,7 @@ summary: "Last Monday we had a record turnout at our STC Silicon Valley chapter 
 ## Audio Recording
 
 <div class="audioControls">
-<p><b>Listen to this post:</b></p>
+<p><b>Listen to the recording:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/agilepanelstc.mp3" type="audio/mpeg" /></audio></p>
 
 <p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/agilepanelstc.mp3" alt="How to thrive as a technical writer in an agile environment">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
@@ -33,7 +33,7 @@ summary: "Last Monday we had a record turnout at our STC Silicon Valley chapter 
 
 Here's a description of the agile panel event: 
 
-> **How can technical writers can thrive in agile environments?
+> **How can technical writers can thrive in agile environments?**
 >
 > Most engineers in IT departments follow an agile scrum process: they track issues in sprints, assign and scope story points, meet daily to provide short updates on their work, and release updates every 2-3 weeks.
 > 
@@ -57,6 +57,8 @@ The following 5 people were panelists:
 
 [**Gina Blednyh**](https://www.linkedin.com/in/gblednyh) is a Staff Technical Writer at Salesforce. She’s worked in an Agile environment for almost six years. She’s also been a scrum master for both a writing team and an engineering team and is an Agile convert.
 
+I moderated the panel. 
+
 ## Questions discussed
 
 Here are some of the questions about agile and tech comm that we discussed:
@@ -74,3 +76,7 @@ Here are some of the questions about agile and tech comm that we discussed:
 *   Agile teams often follow a “fail quickly” approach that leads to coding in a lot of different directions in order to find something that works in the market. How can you avoid massive revisions of your documentation with each major direction during this highly volatile period of coding?
 *   Agile teams often want to minimize the amount of documentation in order to stay agile and flexible (the principle is “working software over comprehensive documentation”). How do technical writers negotiate the de-valuation of documentation on agile teams (even if the docs mostly refer to project documentation instead of user documentation)? How does minimalism factor into agile practices?
 * What time management techniques can you implement to be more efficient in order to meet the fast-paced demands of agile teams? What can you ignore or cut out of your day? Are all meetings necessary to attend in order to convey the importance of your role on the team?
+
+## Share your experience
+
+If you want to share your experiences with agile, you can do so in the comments on this post.
