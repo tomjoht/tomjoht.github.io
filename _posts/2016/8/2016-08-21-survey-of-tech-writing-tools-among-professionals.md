@@ -5,7 +5,7 @@ categories:
 - general
 keywords: 
 summary: "Ferry Vermeulen asked more than 70 tech comm pros -- from both the U.S and Europe -- what their 3 essential tools are. The combination of American and European responses makes for an interesting mix. While the majority of respondents listed either Madcap or XML tools, people also listed a variety of tools for working with images, prototypes, projects, and more. There were more than a dozen tools I'd never heard of. In this post, I highlighted some of the lesser known tools and also the responses that caught my attention as being  unique, insightful, or otherwise interesting. Overall, it's fun to look through the profiles and see the diversity of people, tools, and specializations in the tech comm field."
-thumb: 
+bitlink: http://bit.ly/toolsof70tcpros
 ---
 
 ## Background
