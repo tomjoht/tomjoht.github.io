@@ -2,8 +2,7 @@
 title: "Implementing Swagger in your API documentation -- My ISTC article"
 categories:
 - general
-- stitcher
-- podcasts
+- api-doc
 summary: "I recently published an article about Swagger in the Autumn 2016 edition of ISTC's magazine, Communicator. ISTC stands for Institute of Scientific and Technical Communicators. My article provides an introduction to using Swagger (now called OpenAPI specification) for publishing your REST API documentation."
 bitlink: http://bit.ly/istcswaggerarticle
 ---
