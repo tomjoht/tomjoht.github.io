@@ -18,7 +18,7 @@ podcast_length: 42114640
 bitlink: http://bit.ly/alisasavingsanity
 ---
 
-You can learn more about Alisa Bonsignore from her site, [clarifyingcomplexideas.com](http://clarifyingcomplexideas.com) 
+You can learn more about Alisa Bonsignore from her site, [clarifyingcomplexideas.com](http://clarifyingcomplexideas.com).
 
 ## Presentation description
 
