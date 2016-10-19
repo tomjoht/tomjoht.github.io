@@ -29,9 +29,9 @@ published: true
 <h3>1. Create a "Send Feedback" Link in Your Online Help</h3>
 <p>I add a Send Feedback link on every page of my online help. This allows users a point of connection when they can't find what they're looking for in the help. I add the Send Feedback link on the master page of my webhelp target, so one instance in the footer automatically propagates to every help topic.</p>
 <p>The link contains a javascript that opens the user's default email program and inserts the absolute URL of the help topic he or she was on at the time. This link is important in identifying the problem the user was trying to solve, because often the messages users send are cryptic and ungrammatical. It also lets you know they were actually in the help. Here's the script:</p>
-<pre lang="html">
+{% highlight js %}
             <script type="text/javascript">/*<![CDATA[*/document.write("<a href="mailto:youremail@company.org?subject=ACME%20Application%20("+document.title+")&body="+location.href+"%0A%0A"+"">Send Feedback</a>")/*]]>*/</script>
-</pre>
+{% endhighlight %}
 <p>I've heard some people say they have feedback links in their help and never receive any customer responses. For an application used by about 1,500 people, I receive about one feedback email every two weeks. The email is automatically distributed to a list that includes our core project team.</p>
 <p>It's cool to receive feedback from users, except when they point out an inaccurate step in the help or a broken link. At that point it's a little embarrassing, but still preferable to blissful ignorance.</p>
 <p>Other times they're trying to do something that's not possible in the application. For example, two nights ago I receive an email at 9 p.m. from a user asking how to perform a task. At first it wasn't clear what he was asking, but by visiting the embedded URL, I could piece together his real intentions.</p>

@@ -16,14 +16,15 @@ tags:
 <h3>1. First, register the new menu in your theme functions file.</h3>
 <p>a. If you have just one navigation menu in your theme, copy the first registration snippet in the tutorial notes.</p>
 <p>Registration code snippet 1:</p>
-<pre lang="PHP">add_action( 'init', 'register_my_menu' );
+{% highlight php %}
+add_action( 'init', 'register_my_menu' );
 function register_my_menu() {
 register_nav_menu( 'primary-menu', __( 'Primary Menu' ) );
 }
-</pre>
+{% endhighlight %}
 <p>If you have two navigation menus, copy the second registration code snippet.</p>
 <p>Registration code snippet 2:</p>
-<pre lang="PHP">
+{% highlight php %}
 add_action( 'init', 'register_my_menus' );
 
 function register_my_menus() {
@@ -34,22 +35,22 @@ function register_my_menus() {
 		)
 	);
 }
-</pre>
+{% endhighlight %}
 <p>b. Now go to <strong>Appearance &gt; Editor</strong> and click the <strong>Theme Functions (functions.php)</strong> file. Insert the code near the bottom, right before the closing ?&gt; tag. Then click <strong>Update File</strong>.</p>
 <h3>2. Now you need to replace your old menu template tag with the new one.</h3>
 <p>a. Your navigation menu is usually in your header.php file. Look for wp_list_pages or wp_list_cats. Either delete it or comment it out.</p>
 <p>b. If you have just one menu, add the first navigation menu template tag in the tutorial notes.</p>
 <p>Navigation menu template tag 1:</p>
-<pre lang="PHP"> 
+{% highlight php %}
 <?php wp_nav_menu( array( 'theme_location' ?> 'primary-menu' ) ); ?>
-</pre>
+{% endhighlight %}
 <p>If you have multiple menus, add the second navigation menu template tag in the tutorial notes.</p>
 <p>Navigation menu template tag 2:</p>
-<pre lang="PHP">
+{% highlight php %}
 <?php wp_nav_menu( array( 'theme_location' ?> 'upper-menu' ) ); ?>
 and
 <?php wp_nav_menu( array( 'theme_location' ?> 'lower-menu' ) ); ?>
-</pre>
+{% endhighlight %}
 <p>c. Then click <strong>Update File</strong>.</p>
 <h3>3. Now navigate to Appearance &gt; Menus in your theme and create the menus you want.</h3>
 <p>You can see that the theme location we specified appears in the upper left corner, in the Theme Locations section.</p>

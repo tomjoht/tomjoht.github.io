@@ -21,14 +21,14 @@ published: true
 <p>In your admin panel, go to <strong>Manage &gt; Categories</strong> and create the category you want to hide. In this example, we'll call this new category "Life" Look at the ID for the Off Topic category. In this case, it's 35.</p>
 <h3>2. Exclude the New Category from Appearing on Your Home Page</h3>
 <p>Go to Presentation &gt; Theme Editor and click your main index template file (index.php). This file determines the display of your home page. Right before the loop, paste the following code:</p>
-<blockquote><p><code>&lt;?php $page = (get_query_var('paged'))<br />
+{% highlight php %}
+&lt;?php $page = (get_query_var('paged'))<br />
 ? get_query_var('paged') : 1;<br />
-query_posts("cat=-35&amp;showposts=10&amp;paged=$page");<br />
-?&gt;<br />
-</code></p></blockquote>
+query_posts("cat=-35&amp;showposts=10&amp;paged=$page");
+{% endhighlight %}
 <p>In case you don't know where the loop code starts, put the above code right before this line: <code>  </code></p>
-<blockquote><p><code>&lt;?php if (have_posts()) : ?&gt;</code></p></blockquote>
-<p>If you go to this <a href="http://wordpress.org/support/topic/125555">WordPress support page</a>, you can find the original code. <code></code></p>
+{% highlight php %}&lt;?php if (have_posts()) : ?&gt;{% endhighlight %}
+<p>If you go to this <a href="http://wordpress.org/support/topic/125555">WordPress support page</a>, you can find the original code.
 <h3>3. Hide the Category from Your Feed</h3>
 <p>To hide category 35 from your feed, first deactivate any <a href="http://orderedlist.com/wordpress-plugins/feedburner-plugin/" title="FeedBurner Replacement Feed" target="_blank">FeedBurner Replacement Feed</a> plugins you have. The FeedBurner Replacement plugin routes all your site's feeds automatically to one FeedBurner feed. Since you'll have multiple feeds on your site, you don't want this automatic routing anymore.</p>
 <p>Your site's RSS feed is something like this:</p>

@@ -26,34 +26,34 @@ tags:
 <p>In trying to distill the basics of web managing and publishing, I've come up with 10 basic concepts that every technical writer should know when working with the web.</p>
 <h3>Understand Basic HTML Markup</h3>
 <p>Understand how to type basic HTML markup, such as a heading, list, image, or link. You type an unordered list like this:</p>
-<pre lang="HTML">
+{% highlight html %}
 <ul>My list
 	<li>First item in a list</li>
 	<li>Second item in a list</li>
 </ul>
-</pre>
+{% endhighlight %}
 <p>The code for an image is this:</p>
-<pre lang="HTML">
+{% highlight html %}
 <img src="/images/someimage.png" alt="my image name" />
-</pre>
+{% endhighlight %}
 <p>An image that links to something is just an image wrapped inside of a hyperlink.</p>
-<pre lang="HTML">
+{% highlight html %}
 <a href="http://someurl.com"> 
 <img src="/images/someimage.png" alt="my image name" />
 </a>
-</pre>
+{% endhighlight %}
 <h3>Transfer Files with FTP</h3>
 <p>FTP stands for file transfer protocol. It's the way you transfer files to and from a web host. The most common open-source FTP program for Windows is <a href="http://filezilla-project.org/">Filezilla</a>. To connect with FTP, you need a host address, user name, and password. Once connected, you usually see two panes: files on your local computer and files on your web host. You then move files from one side to the other to upload or download your files.</p>
 <h3>Modify CSS</h3>
 <p>CSS stands for cascading style sheets and is the language used to style almost everything on the web. You need to know CSS to design or modify a website, including changing the font or altering the headings or line height or layout widths. Almost nothing is coded in tables anymore (if it is, it's usually bad practice). Instead, CSS controls everything.</p>
 <p>Most websites reference an external stylesheet where all the styles are defined. This page, for example, puts h1 tags around the post title. These h1 tags are defined in the stylesheet as follows:</p>
-<pre lang="CSS">
+{% highlight css %}
 .entry h1 { 
                 border-bottom:1px solid #e6e6e6; 
                 margin-bottom:20px; 
                 padding-bottom: 20px;
           }
-</pre>
+{% endhighlight %}
 <p>The first part, .entry h1, is called a selector. Selectors can consist of HTML elements, classes, or IDs. When you stack selectors together, you get a complex selector. In the above example, the complex selector refers to only h1 headings inside the .entry class. This style wouldn't affect all content tagged with the h1 selector.</p>
 <p>For a good tutorial on CSS, see <a href="http://www.w3schools.com/css/">W3C Schools' CSS Tutorial</a>.</p>
 <h3>Leverage CSS Tools</h3>
@@ -64,16 +64,19 @@ tags:
 <p>In Firefox or IE, you can also view the source code of the page you're viewing by right-clicking the page and selecting <strong>View Source</strong>. This shows you all the code behind the site. By viewing the source code, you can look for the styles around the elements that you're trying to adjust. You can also select a part of the web page only and choose to just view that selection. Once you know what CSS selectors are used, you can find and adjust the properties for the selectors in your stylesheet.</p>
 <h3>Create New Styles</h3>
 <p>You can create a new style with just a few keystrokes. For example, add the following to your stylesheet:</p>
-<pre lang="CSS">
+{% highlight css %}
 .mynewstyle {
                    font-size:30px; 
                    margin-bottom:40px;
             }</pre>
 <p>Now on your web page, just add a div tag with that class before the text, like this:</p>
-<pre lang="HTML">
+{% endhighlight %}
+
+{% highlight html %}
 <div class="mynewstyle">
 This is my sample content ....
-</div></pre>
+</div>
+{% endhighlight %}
 <p>Now that text will appear in 30px font with a 40px bottom margin.</p>
 <p>Knowing how to create a style like this can be incredibly helpful. You can use classes or IDs to create the styles. The same class can appear multiple times on the page, but you can only use the same ID once.</p>
 <h3>Use the Right Image Format</h3>
