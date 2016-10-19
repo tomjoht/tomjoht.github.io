@@ -1,0 +1,54 @@
+---
+title: "Saving Your Sanity Through Better Client Relations -- with Alisa Bonsignore"
+categories:
+- general
+- stitcher
+- podcasts
+summary: "In this presentation, Alisa Bonsignore, a tech comm consultant based in the San Francisco Bay area, talks about how she developed confidence and experience in consulting with clients about writing projects. In the beginning, Alisa started out by apologizing for projects in which she worked excessive numbers hours for little pay, often trying to meet last-minute requests that required late nights and zapped her work-family balance. But project by project, she started to understand how to interact with clients in a more professional, self-respecting way. Ultimately this helped save her sanity and build a stable income through a reputable business."
+date: 2016-10-18
+tags:
+- technical writing
+- freelancing
+- client relations
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3
+podcast_file_size: 42.1 MB
+podcast_duration: "55:22"
+podcast_length: 42114640 
+bitlink: http://bit.ly/alisasavingsanity
+---
+
+You can learn more about Alisa Bonsignore from her site, [clarifyingcomplexideas.com](http://clarifyingcomplexideas.com) 
+
+## Presentation description
+
+Here's the description of Alisa Bonsignore's presentation, "Saving Your Sanity Through Better Client Relations":
+
+> Is work craziness creeping over into the rest of your life? You’re not alone. Having the confidence to take control of client relationships can improve all aspects of your life.
+> 
+> In this session, you’ll learn communication tricks that make the process work more smoothly and not only improve client satisfaction, but prevent the schedule creep that affects the rest of your life.
+> 
+> You’ll learn how to charge what you’re worth, and do so with confidence. You’ll also learn how to strategically use the word “no” to give yourself more authority and shift the balance of power out of the client’s favor.
+   
+(Read more details at [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/09/28/october-17-2016-saving-your-sanity-through-better-client-relations/))
+
+## Video
+
+You can watch a video of the recording here: 
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/mAKWUKpcNp8" frameborder="0" allowfullscreen></iframe>
+
+## Audio
+
+If you just want the audio, here it is: 
+
+<div class="audioControls">
+<p><b>Listen to this presentation:</b></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3" type="audio/mpeg" /></audio></p>
+
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3" alt="Saving Your Sanity Through Better Client Relations with Alisa Bonsignore">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+</div>
+
+## About Alisa Bonsignore
+
+<img style="float: left: padding-right: 10px;" src="{{ "/images/alisa-bonsignore.jpg" | prepend: site.baseurl }}" alt="Alisa Bonsignore" />Based in the Bay Area, Alisa Bonsignorespends her days clarifying complex ideas, translating technical and clinical information into understandable language tailored to the needs of healthcare, network security and healthcare IT clients around the globe. She uses humor and real-world scenarios to form the basis for her talks about professional development. Alisa has been elected to serve as Director of STC (2016-2018), and is past Chair of the Education Advisory Panel for STC. You can learn more about Alisa at [clarifyingcomplexideas.com](http://clarifyingcomplexideas.com).
