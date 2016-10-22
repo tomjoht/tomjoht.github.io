@@ -756,7 +756,7 @@ button.navbar-toggle {
     background-color: #666;
 }
 
-.sgithub, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter {
+.sgithub, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter, .sstitcher, .sfacebook {
     background: url(/images/sprites.png) no-repeat;
     float: left;
     padding: 6px;
@@ -779,7 +779,7 @@ button.navbar-toggle {
     width: 26px;
     height: 27px;
 }
-.sgoogleplus {
+.sfacebook {
     background-position: -150px 0;
     width: 26px;
     height: 27px;
@@ -794,6 +794,12 @@ button.navbar-toggle {
     width: 26px;
     height: 27px;
 }
+.sstitcher {
+    background-position: -300px 0;
+    width: 26px;
+    height: 27px;
+}
+
 
 .socialMediaButtons {
     padding-bottom:20px;
