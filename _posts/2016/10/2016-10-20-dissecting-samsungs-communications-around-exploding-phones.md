@@ -3,13 +3,29 @@ title: "Dissecting Samsung's response to their exploding phones"
 categories:
 - general
 keywords: 
-summary: "What would you do to rebuild trust in your brand after a product disaster like Samsung's exploding phones? I looked at Samsung's recall notice and newsroom to see what strategies they employed but found the communication brief, plain, and short of owning up to the full circumstances. I don't think companies can ever embrace communication that is transparent and emotionally honest enough to connect with readers on the Internet. "
-published: false 
+summary: "What would you do to rebuild trust in your brand after a product disaster like Samsung's exploding phones? I looked at Samsung's recall notice and newsroom to see what strategies they employed but found the communication brief, plain, and short of owning up to the full circumstances. I don't think companies can ever embrace communication that is transparent and emotionally honest enough to connect with readers on the Internet."
+published: false
 ---
 
 Dominating most technology podcasts is talk of Samsung's Galaxy Note 7, which overheats to the point that it either melts, catches fire, or explodes. Samsung initially recalled the product and sent replacements to users, but the replacements had the same problem, prompting Samsung to issue a double recall. What does Samsung's communication strategy look like in the midst of their disaster around the exploding Note 7 phones?
 
-The recall notice on their website seems to provide the main announcement: 
+Here's the [first recall statement on Sep 2](https://news.samsung.com/global/statement-on-galaxy-note7):
+
+>Samsung is committed to producing the highest quality products and we take every incident report from our valued customers very seriously. In response to recently reported cases of the new Galaxy Note7, we conducted a thorough investigation and found a battery cell issue.
+>
+>To date (as of September 1) there have been 35 cases that have been reported globally and we are currently conducting a thorough inspection with our suppliers to identify possible affected batteries in the market. However, because our customers’ safety is an absolute priority at Samsung, we have stopped sales of the Galaxy Note7.
+>
+>For customers who already have Galaxy Note7 devices, we will voluntarily replace their current device with a new one over the coming weeks.
+> 
+>We acknowledge the inconvenience this may cause in the market but this is to ensure that Samsung continues to deliver the highest quality products to our customers. We are working closely with our partners to ensure the replacement experience is as convenient and efficient as possible.
+
+Here's the [follow-up Oct 11 statement](https://news.samsung.com/global/samsung-will-ask-all-global-partners-to-stop-sales-and-exchanges-of-galaxy-note7-while-further-investigation-takes-place): 
+
+>We are working with relevant regulatory bodies to investigate the recently reported cases involving the Galaxy Note7. Because consumers’ safety remains our top priority, Samsung will ask all carrier and retail partners globally to stop sales and exchanges of the Galaxy Note7 while the investigation is taking place.
+> 
+>We remain committed to working diligently with appropriate regulatory authorities to take all necessary steps to resolve the situation. Consumers with either an original Galaxy Note7 or replacement Galaxy Note7 device should power down and stop using the device and take advantage of the remedies available.
+
+Here's the recall notice on their site: 
 
 > Samsung has announced an expanded voluntary recall on all original and replacement Galaxy Note7 devices sold or exchanged in the United States in cooperation with the U.S. Consumer Product Safety Commission and in partnership with carriers and retailers. Since the affected devices can overheat and pose a safety risk, we are asking consumers with a Galaxy Note7 to power it down and contact the carrier or retail outlet where they purchased their device. &mdash; [Samsung Expands Recall to All Galaxy Note7 Devices](http://www.samsung.com/us/note7recall/)
 
