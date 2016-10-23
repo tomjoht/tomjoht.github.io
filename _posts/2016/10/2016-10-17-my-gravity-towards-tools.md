@@ -4,6 +4,7 @@ categories:
 - general
 keywords: 
 summary: "Tools are an odd problem in tech comm. On the one hand, companies don't want you to spend hardly any time at all either learning or setting up authoring tools. Preferably, you should already be familiar with the company's tools before being hired. Then after you're hired, companies usually want you to focus on content, not any kind of tool configuration or setup. On the other hand, it seems like almost every company I've been at has needed extensive help with authoring/publishing tool setup and configuration. I am starting to think that my pattern of deep diving into tool sets at companies is indicative of a deeper interest in web development."
+bitlink: http://bit.ly/gravitytowardstools
 ---
 
 ## Background 
@@ -28,7 +29,7 @@ But in nearly every company I've worked at, authoring and publishing tools have 
 
 **2014** ... As a technical writer for 41st Parameter, a startup acquired by Experian, I first implemented DITA through OxygenXML and then later created a Jekyll theme to help move content out of Confluence-generated PDF into a web format. This is where I first started learning Jekyll.
 
-**2016** ... As a technical writer at Amazon, I created a hack to insert a navigation sidebar into an existing CMS (called Hippo), and also developed a more extensive Jekyll theme for local viewing and as a potentially deployable site. (More on this in some coming days...)
+**2016** ... As a technical writer at Amazon, I created a hack to insert a navigation sidebar into an existing CMS (called Hippo), and also developed a more extensive Jekyll theme for local viewing and as a potentially deployable site. (See [Coding the sidebar navigation element for documentation websites](http://idratherbewriting.com/2016/10/23/coding-sidebar-navigation-for-documentation-websites/) for more details.)
 
 It seems that no matter where I go, I get involved in the authoring and publishing toolchain more than most other tech writers. Where others are content to use the existing setup (no matter how poor it is), I'm always trying to innovate with tools.
 
