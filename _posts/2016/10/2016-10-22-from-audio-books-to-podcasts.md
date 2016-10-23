@@ -4,6 +4,7 @@ categories:
 - general
 keywords: 
 summary: "Lately I've been turning my attention away from audio fiction and back into technology podcasts. I'm curious whether looking at the tech comm angle associated with technology news might provide a fruitful angle for blog posts and discussion."
+bitlink: http://bit.ly/audibletopodcasts
 ---
 
 I've listened to audio books from Audible for the past 5 years or more, but lately I've started drifting back towards listening to technology podcasts instead. 

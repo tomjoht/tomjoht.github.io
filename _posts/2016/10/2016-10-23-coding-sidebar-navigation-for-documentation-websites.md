@@ -4,6 +4,7 @@ categories:
 - jekyll
 keywords: 
 summary: "Sidebar navigation is one of the more complex components of a documentation site, and it is critical for helping users understand and find documentation. I hacked together a sidebar menu for a doc site that's hosted on a somewhat inflexible platform, using Jekyll to generate the sidebar. Important features of a documentation sidebar include multiple levels of depth, expand/collapse options, accordion effects, fixed navigation, dynamic menu highlighting, and more."
+bitlink: http://bit.ly/docsidebarcode
 ---
 
 I mentioned in a previous post about [tools](http://idratherbewriting.com/2016/10/17/my-gravity-towards-tools/) that I was swimming in Jekyll code for the past few days. I finally finished the sidebar menu I was working on. If you look at this [documentation page](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv), there's now a three-level expandable/collapsible menu on the right. 
