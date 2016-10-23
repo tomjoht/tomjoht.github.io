@@ -7,6 +7,8 @@ summary: "What would you do to rebuild trust in your brand after a product disas
 published: false
 ---
 
+compare with: http://hub.dyn.com/dyn-blog/dyn-statement-on-10-21-2016-ddos-attack
+
 Dominating most technology podcasts is talk of Samsung's Galaxy Note 7, which overheats to the point that it either melts, catches fire, or explodes. Samsung initially recalled the product and sent replacements to users, but the replacements had the same problem, prompting Samsung to issue a double recall. What does Samsung's communication strategy look like in the midst of their disaster around the exploding Note 7 phones?
 
 Here's the [first recall statement on Sep 2](https://news.samsung.com/global/statement-on-galaxy-note7):
