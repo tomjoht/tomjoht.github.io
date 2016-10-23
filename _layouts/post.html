@@ -21,6 +21,9 @@ http://area51.stackexchange.com/proposals/101439/documentation" target="_blank">
 {% include toc.html %}
 
 {{ content }}
+
+{% include social_sharing_buttons.html %}
+
 <p>
 <a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fidratherbewriting.com%2Ffeed'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-big_2x.png' alt='follow us in feedly' width='131' height='56'></a></p>
 <hr/>
@@ -31,8 +34,6 @@ http://area51.stackexchange.com/proposals/101439/documentation" target="_blank">
 {% unless page.bio == false %}
 {% include mybio.html %}
 {% endunless %}
-
-{% include social_sharing_buttons.html %}
 
 {% comment %} {% include ziprecruiter_widget.html %}{% endcomment %}
 {% include single_post_ads.html %}
