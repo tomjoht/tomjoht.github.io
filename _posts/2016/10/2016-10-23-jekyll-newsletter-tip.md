@@ -4,7 +4,7 @@ categories:
 - jekyll
 keywords: 
 summary: "Although email may seem somewhat antiquated, it has by far the greatest reach of any communication method. If you have a Jekyll-based site, here's an easy approach to sending out an email newsletter. This approach involves using a for loop to get a summary of your latest posts and then pushing them into simple HTML formatting that you can paste into Tinyletter's template."
-bitlink: 
+date: 2016-10-23 08:49:08.000000000 -08:00
 ---
 
 I've been blogging since 2006, but it took me a number of years before I realized that email usually has a far greater reach than RSS or social media. Regardless of which venue has the most impact, you don't want to exclude email from your reach. Here's my approach to delivering email in a free, painless way.
