@@ -58,6 +58,14 @@
 
 
     <body>
+    <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=263655980663798";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
     <div id="masthead">
             <div class="topBannerAd"><a href="http://www.adobe.com/cfusion/tdrc/index.cfm?product=framemaker&loc=en_gb&sdid=XPCNHDD5&mv=other"><img src="{{ "/images/ads/adobe_rectangle.jpg" | prepend: site.baseurl }}" alt="Adobe Robohelp" /></a>
             </div>  <!-- /topBannerAd -->
