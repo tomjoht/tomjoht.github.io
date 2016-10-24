@@ -8,6 +8,10 @@ thumb:
 published: false
 ---
 
+
+https://ffeathers.wordpress.com/2016/09/24/how-to-get-started-with-markdown-and-where-to-try-it-out/
+https://www.linkedin.com/groups/2926/2926-6194889875708272645
+
 http://ericholscher.com/blog/2016/oct/6/authoring-documentation-with-semantic-meaning/
 http://ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/
 
@@ -158,7 +162,6 @@ Converting from Jekyll to Sphinx
 		• I want to submit JP content in the format we'll use going forward so that translation memory doesn't see future changes in format as requiring re-translation.
 	
 
-https://ffeathers.wordpress.com/2016/09/24/how-to-get-started-with-markdown-and-where-to-try-it-out/
 
 comment by Charles Miller
 Much like its sibling wiki markup, though, the more “capable” you try to make the markup by extending it and adding new features, the more you undermine the simplicity that was the whole point of it existing in the first place!
