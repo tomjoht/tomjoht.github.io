@@ -5,6 +5,7 @@ categories:
 keywords: 
 summary: "What would you do to rebuild trust in your brand after a product disaster like Samsung's exploding phones? I looked at Samsung's recall notice and newsroom articles to see what strategies they employed, but I found the communication brief, plain, and short of any detail that would help rekindle trust. If company's want to gain user trust, they must share more information and details with users, as Dyn did in their company blog posts after the recent DDoS attacks."
 date: 2016-10-23 09:49:08.000000000 -08:00
+bitlink: http://bit.ly/respondingtodisasters
 ---
 
 Dominating most technology podcasts is talk of Samsung's Galaxy Note 7, which overheats to the point that it either melts, catches fire, or explodes. Samsung initially recalled the product and sent replacements to users, but the replacements had the same problem, prompting Samsung to issue a double recall. What does Samsung's communication strategy look like in the midst of the disaster around the exploding Note 7 phones?
