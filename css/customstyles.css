@@ -1170,3 +1170,7 @@ ul#mysidebar li.active a {
     padding: 10px;
     border-radius: 10px;
 }
+
+.fb-share-button.fb_iframe_widget {
+    top: -5px;
+}
