@@ -967,6 +967,10 @@ blockquote {
     border-left: 0px;
 }
 
+blockquote p {
+    margin-top: 0px;
+}
+
 .thumb img {
     float: left;
     border:1px solid #dedede;
