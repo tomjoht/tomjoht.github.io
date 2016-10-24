@@ -959,9 +959,12 @@ img.inline {
 }
 
 blockquote {
-    background-color: #f0f0f0;
+    background-color: #eef7fa;;
     font-family: arial;
-    border-left: 3px solid orange;
+    font-size: 95%;
+    margin: 0px;
+    padding: 20px;
+    border-left: 0px;
 }
 
 .thumb img {
