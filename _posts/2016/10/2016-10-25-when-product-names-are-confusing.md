@@ -4,6 +4,7 @@ categories:
 - general
 keywords: 
 summary: "In the latest episode of This Week in Tech (TWIT episode 585), the hosts talk about how confusing Apple's two-factor authentication is compared to Apple's two-step verification. The hosts, who are all tech gurus, had trouble sorting out the difference, and their experience with the service was even more problematic. This naming fail points to a core challenge in tech comm in which Marketing's choice of terms makes it difficult for tech writers to communicate plainly."
+bitlink: http://bit.ly/confusingmarketingterms
 ---
 
 If you want to read a good explanation of the difference between two-step verification and two-factor authentication, see Oleg's [Apple Two-Factor Authentication vs. Two-Step Verification](http://blog.elcomsoft.com/2016/04/apple-two-factor-authentication-vs-two-step-verification/). But to get a real sense of the Apple tech writer's pain, you must read these two documentation topics: 
@@ -15,7 +16,7 @@ I feel sorry for the technical writer who had to write this. Although there are 
 
 But that's not my point here. I could care less about two-factor whatever. I'd simply like to highlight that Marketing groups often put tech writers into difficult positions when they come out with new services like this, where one service is highly similar to the previous service but with some vague differences. 
 
-According to the technical writer, two-factor authentication differs from two-step verification because "It uses different methods to trust devices and deliver verification codes, and offers a more streamlined user experience" ([Two-factor authentication for Apple ID](https://support.apple.com/en-us/HT204915). I can imagine the tech writer saying in product meetings, "Wait a minute, tell me again ... so how is this different from the previous two-step verification thing?"
+According to the technical writer, two-factor authentication differs from two-step verification because "It uses different methods to trust devices and deliver verification codes, and offers a more streamlined user experience" ([Two-factor authentication for Apple ID](https://support.apple.com/en-us/HT204915)). I can imagine the tech writer saying in product meetings, "Wait a minute, tell me again ... so how is this different from the previous two-step verification thing?"
 
 This example points to a larger pattern. Marketing frequently renames older features with newer terms to communicate the new features and differentiate them from the old. I doubt there are significant *semantic* differences between "two-step verification" and "two-factor authentication." The terms could probably be reversed. But why invent a totally new name for essentially the same feature? Perhaps they could have called "Two-factor authentication" something like "Two-step verification for iOS 9 and El Capitan or later devices." It's confusing to have two distinct names for essentially the same feature.
 
@@ -37,6 +38,6 @@ In the end, he noted that it's better to get involved earlier in the cycle but t
 
 What's the solution to situations like this, where you're forced into doc scenarios where you have to explain complex concepts and workflows using the wrong terminology? I'm not entirely sure. Ideally, tech writers should try to suggest clear, easy-to-understand names for products and features well ahead of the release date, before the name gets cemented by Legal and promoted in Marketing campaigns. That kind of approach requires you to step outside your normal role as a technical writer and play a larger part in shaping the product.
 
-The problem is that few of us have the luxury or clout to be involved so early in product design to have this influence. As a result, we often have to make do with the existing terminology. Likely the only practical solution is to provide more glossary-like sections in documentation that frequently remind users what we mean, with occasional parenthetical insertions that help clarify along the way.
+The problem is that few of us have the luxury or clout to be involved so early in product design with this influence. As a result, we often have to make do with the existing terminology. Likely the only practical solution is to provide more glossary-like sections in documentation that frequently remind users what we mean, with occasional parenthetical insertions that help clarify along the way.
 
-If you want to listen to the [TWIT episode](https://twit.tv/shows/this-week-in-tech/episodes/585?autostart=false), I recommend that you download [Stitcher](http://www.stitcher.com/) and listen to it that way. 
+If you want to listen to the [TWIT episode](https://twit.tv/shows/this-week-in-tech/episodes/585?autostart=false), I recommend that you download [Stitcher](http://www.stitcher.com/) and listen to it through the Stitcher app. 
