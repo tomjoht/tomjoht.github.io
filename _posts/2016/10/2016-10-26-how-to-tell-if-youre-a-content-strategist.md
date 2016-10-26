@@ -17,7 +17,7 @@ When the term "content strategy" first emerged about 5 years ago, I resisted the
 
 Overnight, some tech comm consultants latched onto the term "content strategist" and rebranded themselves. I was still content to be called a "technical writer," because most of the jobs used the term "technical writer," and because almost no one's title was "content strategist" anyway. 
 
-It's been interesting to see how content strategy has played out in the past few years. For the most part, if you search for ["content strategist" jobs on Indeed.com](http://www.indeed.com/jobs?q=content+strategist&l=), you'll find that content strategists fit more commonly in Marketing and UX writer groups.
+It's been interesting to see how content strategy has played out in the past few years. For the most part, if you search for [content strategist jobs on Indeed.com](http://www.indeed.com/jobs?q=content+strategist&l=), you'll find that content strategists fit more commonly in Marketing and UX writer groups.
 
 For example, here's what [this content strategist](http://www.indeed.com/viewjob?jk=7b8e0d239f19dfa2&q=content+strategist&tk=1avupij4qbs96avm&from=web) will do:
 
@@ -41,20 +41,50 @@ So making the "content strategist influencers" list from MindTouch has given me 
 
 Here are a few examples comparing the two activities:
 
-| Tactical | Strategic | 
-|-------|-------|
-| Document feature X.  | Analyze what information your audience needs in the first place. |
-| Organize your help topics into a logical arrangement. | Look at analytics (hits, time on page, keywords) for your help content to determine how the navigation should be arranged |
-| Attend a scrum meeting and start working on items assigned to you during the sprint. | Assess all the work the engineering teams are doing and prioritize which areas would most benefit from documentation based on market trends. |
-| Add details from a KB article logged by your support group into the documentation. | Look at reports in support logs and determine gaps or other missing areas in the documentation, and then investigate the causes for the gaps. |
-| Set up stylesheets for a help authoring tool. | Set up your authoring tools to be scalable enough for engineers and non-technical writers to contribute. |
-| Edit and publish material from an engineer onto the doc site | Evaluate whether the content addresses user needs and uses language that matches into your user's lexicon. | 
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+  <thead>
+    <tr>
+      <th>Tactical</th>
+      <th>Strategic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Document feature X.</td>
+      <td>Analyze what information your audience needs in the first place.</td>
+    </tr>
+    <tr>
+      <td>Organize your help topics into a logical arrangement.</td>
+      <td>Look at analytics (hits, time on page, keywords) for your help content to determine how the navigation should be arranged</td>
+    </tr>
+    <tr>
+      <td>Attend a scrum meeting and start working on items assigned to you during the sprint.</td>
+      <td>Assess all the work the engineering teams are doing and prioritize which areas would most benefit from documentation based on market trends.</td>
+    </tr>
+    <tr>
+      <td>Add details from a KB article logged by your support group into the documentation.</td>
+      <td>Look at reports in support logs and determine gaps or other missing areas in the documentation, and then investigate the causes for the gaps.</td>
+    </tr>
+    <tr>
+      <td>Set up stylesheets for a help authoring tool.</td>
+      <td>Set up your authoring tools to be scalable enough for engineers and non-technical writers to contribute.</td>
+    </tr>
+    <tr>
+      <td>Edit and publish material from an engineer onto the doc site</td>
+      <td>Evaluate whether the content addresses user needs and uses language that matches into your user’s lexicon.</td>
+    </tr>
+  </tbody>
+</table>
 
-It's not rocket science to classify activities as being more strategic or more tactical. Ideally, content strategists do a lot more of the strategy than the tactics. As Halvorson says, they do [planning for the creation, delivery, and governance of useful, usable content](http://contentmarketinginstitute.com/2015/09/content-strategy-halvorson/).
+It's not rocket science to classify activities as being more strategic or more tactical. Ideally, content strategists do a lot more of the strategy than the tactics. As Halvorson says, they do [*planning* for the creation, delivery, and governance of useful, usable content](http://contentmarketinginstitute.com/2015/09/content-strategy-halvorson/).
 
-I could definitely do more strategic thinking than I currently do. It's easy to get caught up in documentation task after documentation task. (I probably do most of my strategic thinking on this blog, actually.) Unfortunately, sitting down to do strategic analysis and planning requires bandwidth. But in the end, it should make your work more effective.
+I could definitely do more strategic thinking than I currently do. It's easy to get caught up in documentation task after documentation task. (I probably do most of my strategic thinking on this blog, actually.) Unfortunately, sitting down to do strategic analysis and planning requires bandwidth. But in the end, it should make our work more effective.
 
-Overall, strategy without tactics, and tactics without strategy, are both hollow endeavors. Incorporating both modes into my weekly work as a technical writer is something I can certainly improve on. For that encouragement, I welcome MindTouch's term "content strategist influencer." Career-wise, though, I prefer to think of myself as an API technical writer ... who thinks strategically.
+Overall, strategy without tactics, and tactics without strategy, are both hollow endeavors. Incorporating both modes into my weekly work as a technical writer is something I can certainly improve on. For that encouragement, I welcome MindTouch's term "content strategist influencer." Careerwise, though, I prefer to think of myself as an API technical writer ... who thinks strategically.
 
 
 
