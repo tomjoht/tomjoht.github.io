@@ -19,7 +19,7 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-feed, jekyll-paginate]
+gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
 
 url: http://idratherbewriting.com
 
