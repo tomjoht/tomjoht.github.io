@@ -164,16 +164,16 @@ topnav_dropdowns:
 
     - title: Other
       items:
-        - title: Advertising
-          url: /advertising/
-        - title: Jobs
-          url: /findjobs/
-        - title: Visual comm
-          url: /2016/05/01/visualcommunication_course_overview
-        - title: JavaScript note
-          url: /javascript/
-        - title: DITA notes
-          url: /ditaqrg/
-        - title: Java notes
-          url: /java-introduction/
+      - title: Advertising
+        url: /advertising/
+      - title: Jobs
+        url: /findjobs/
+      - title: Visual comm
+        url: /2016/05/01/visualcommunication_course_overview
+      - title: JavaScript note
+        url: /javascript/
+      - title: DITA notes
+        url: /ditaqrg/
+      - title: Java notes
+        url: /java-introduction/
 
