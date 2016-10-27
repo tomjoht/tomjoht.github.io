@@ -108,14 +108,6 @@ topnav_dropdowns:
       - title: From overlooked to center stage
         url: /2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/
 
-#    - title: Tech Notes
-#      items:
-#      - title: JavaScript
-#        url: /javascript/
-#      - title: DITA
-#        url: /ditaqrg/
-#      - title: Java
-#        url: /java-introduction/
 
     - title: Jekyll
       items:
@@ -177,5 +169,11 @@ topnav_dropdowns:
         - title: Jobs
           url: /findjobs/
         - title: Visual comm
-          url: /2016/05/01/visualcommunication_course_overview/
+          url: /2016/05/01/visualcommunication_course_overview
+        - title: JavaScript note
+          url: /javascript/
+        - title: DITA notes
+          url: /ditaqrg/
+        - title: Java notes
+          url: /java-introduction/
 
