@@ -4,7 +4,7 @@ categories:
 - general
 keywords: 
 summary: "Recently MindTouch published a list of the top 25 Content Strategist Influencers. In contrast to previous top influencer lists, this year's list shifts from the term 'tech comm influencer' to 'content strategist influencer'. They also broadened their measures for determining influence, including less online presence and more offline influence, such as conference presentations. I just barely made the list this year. It got me thinking about whether I am in fact a content strategist or a technical writer."
-bitlink:
+bitlink: http://bit.ly/ruacontentstrategist
 ---
 
 First, check out MindTouch's post: [Announcing the Top 25 Content Strategist Influencers for 2016](https://mindtouch.com/resources/announcing-top-25-content-strategist-influencers-2016).

@@ -3,7 +3,7 @@ title: "Apple's Two-Step Verification versus Two-Factor Authentication, or, When
 categories:
 - general
 keywords: 
-summary: "In the latest episode of This Week in Tech (TWIT episode 585), the hosts talk about how confusing Apple's two-factor authentication is compared to Apple's two-step verification. The hosts, who are all tech gurus, had trouble sorting out the difference, and their experience with the service was even more problematic. This naming fail points to a core challenge in tech comm in which Marketing's choice of terms makes it difficult for tech writers to communicate plainly."
+summary: "In the latest episode of This Week in Tech (TWIT episode 585), the hosts talk about how confusing Apple's two-factor authentication is compared to Apple's two-step verification. The hosts, who are all tech gurus, had trouble sorting out the difference, and their experience with the service was even more problematic. This naming fail points to a core challenge in tech comm that happens when Marketing's choice of terms makes it difficult or impossible for tech writers to communicate plainly."
 bitlink: http://bit.ly/confusingmarketingterms
 ---
 
