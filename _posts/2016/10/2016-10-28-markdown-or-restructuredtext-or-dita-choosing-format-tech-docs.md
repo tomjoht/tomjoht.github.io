@@ -5,7 +5,7 @@ categories:
 - dita
 - general
 keywords: 
-summary: "In the deliberation about authoring formats -- whether to use Markdown or reStructuredText or DITA (or something else) -- one detail that is frequently overlooked is the importance of the accompanying tool or platform that uses that format You almost never use these authoring formats alone but rather with a tool that stores, processes, and renders the source into an output. The tool you use with the authoring format is almost as important as the authoring format itself."
+summary: "In the deliberation about authoring formats -- whether to use Markdown or reStructuredText or DITA (or something else) -- one detail that is frequently overlooked is the importance of the accompanying tool or platform that uses that format. You almost never use these authoring formats alone but rather with a tool that stores, processes, and renders the source into an output. The tool you use with the authoring format is almost as important as the authoring format itself."
 ---
 
 ## The Debate About Markdown
@@ -22,7 +22,7 @@ Let's put aside that controversy for now. Among the lightweight markup groups, t
 
 > ... every tool implements a different flavor. Even tools that do similar things with the language use different syntax for it!
 > 
-> Without standard ways of denoting different types of content, such as warnings or links or other blocks, you can't do much in processing Markdown. ([Why You Shouldn’t Use “Markdown” for Documentation](http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/)
+> Without standard ways of denoting different types of content, such as warnings or links or other blocks, you can't do much in processing Markdown. ([Why You Shouldn’t Use “Markdown” for Documentation](http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/))
  
 On the other hand, other people criticize reStructuredText for being too complicated. Victor Zverovich writes:
 
@@ -32,9 +32,9 @@ DITA authors have more semantic richness with XML than reStructuredText, but the
 
 Sarah Maddox also recently shared tips on getting started with Markdown. Sarah's opinion about Markdown is mixed. She writes:
 
-> In my day job, I write docs in both HTML and Markdown. I prefer HTML for comprehensive technical documentation. Markdown is good for very simple documents, but the syntax becomes clumsy for more complex things like tables, anchors, and even images. On the other hand, there are excellent benefits to using Markdown for quick collaboration on a document. ([How to get started with Markdown and where to try it out](https://ffeathers.wordpress.com/2016/09/24/how-to-get-started-with-markdown-and-where-to-try-it-out/)
+> In my day job, I write docs in both HTML and Markdown. I prefer HTML for comprehensive technical documentation. Markdown is good for very simple documents, but the syntax becomes clumsy for more complex things like tables, anchors, and even images. On the other hand, there are excellent benefits to using Markdown for quick collaboration on a document. ([How to get started with Markdown and where to try it out](https://ffeathers.wordpress.com/2016/09/24/how-to-get-started-with-markdown-and-where-to-try-it-out/))
 
-There's even a new article on The Content Wrangler about the simplicity of Markdown, where Erik Martin argues that the embrace of Markdown is a "backlash against digital precociousness". Erik writes, 
+There's even a new article on The Content Wrangler about the simplicity of Markdown, where Erik Martin argues that the embrace of Markdown is a "backlash against digital precociousness." Erik writes, 
 
 > ... as many electronic tools become more complex, others survive and thrive in a state of simplistic bliss—appealing to modern consumers with their retro charm and unfussy features. ([Markdown: Markup That's Downright Simple](http://thecontentwrangler.com/2016/10/27/markdown-markup-thats-downright-simple/))
 
