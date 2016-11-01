@@ -46,7 +46,7 @@ You can also capture from a Retina display and then resize the image in your bro
 
 If you have a MacBook Pro (perhaps hooked up to multiple monitors that may not have Retina displays), move the browser you plan to capture to your Mac's Retina display and take your screen capture there. Using Snagit, when you save the screenshot you'll see a "Save using Retina size" check box. (This option only appears if you take the screen capture from a Retina display.)
 
-<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}"/></a><figcaption>The "Save using Retina size" option appears only when you save a screen capture taken from a Retina monitor</figcaption></figure>
+<figure><img src="{{ "/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}"/><figcaption>The "Save using Retina size" option appears only when you save a screen capture taken from a Retina monitor</figcaption></figure>
 
 Save using the Retina size, and then embed the screenshot on your page. If you were to view the embedded screen capture in the browser, you'll see that the screenshot is actually twice the size of the original dimensions. To compensate for this larger size, add some inline or embedded styles to rescale the display in the browser, such as this:  
  
