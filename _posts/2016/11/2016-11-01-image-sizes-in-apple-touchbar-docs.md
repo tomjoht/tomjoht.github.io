@@ -11,9 +11,9 @@ Why the difference? When you start with a large image and constrain its size dow
 
 You won't really see the difference on a regular monitor, but for fun, I embedded two graphics for comparison below. The first is the graphic at 400px width, while the second is 1600px wide.
 
-<img src="{{ "/images/initialgraphicapple.png" | prepend: site.baseurl }}" max-width="400px" alt="400px original size image" caption="The original size of this image is 400px." />
+<img src="{{ "/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" max-width="400px" alt="400px original size image" caption="The original size of this image is 400px." />
 
-<img src="{{ "/images/fullsizegraphicapple.png" | prepend: site.baseurl }}" max-width="400px" alt="1600px original size image" caption="The original size of this image is 1600px." />
+<img src="{{ "/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" max-width="400px" alt="1600px original size image" caption="The original size of this image is 1600px." />
 
 On a regularly 72 DPI monitor, there's not much difference. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with 1600px original size).
 
