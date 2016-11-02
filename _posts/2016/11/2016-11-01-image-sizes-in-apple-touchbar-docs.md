@@ -11,9 +11,9 @@ Why the difference? When you start with a large image and constrain its size dow
 
 You won't really see the difference on a regular monitor, but for fun, I embedded two graphics for comparison below. The first is the graphic at 400px width, while the second is 1600px wide.
 
-<img src="{{ "/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" max-width="400px" alt="400px original size image" caption="The original size of this image is 400px." />
+<img src="{{ "/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." />
 
-<img src="{{ "/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" max-width="400px" alt="1600px original size image" caption="The original size of this image is 1600px." />
+<img src="{{ "/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." />
 
 On a regularly 72 DPI monitor, there's not much difference. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with 1600px original size).
 
@@ -23,7 +23,7 @@ If you aren't sure how many pixels per inch your monitor has, look at [dpilove](
 
 When I take screenshots, it's best to take them from the high retina display using Snagit, because Snagit gives me the option to save my screenshot using the pixels captured from the high retina monitor. 
 
-<img src="{{ "/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}" alt="Save using retina size" />
+<img src="{{ "/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}" style="max-width: 500px"  alt="Save using retina size" />
 
 (This is one argument for using a high retina display when writing documentation.)
 
@@ -51,9 +51,9 @@ I tried to find some Apple documentation in Japanese to see if they also transla
 
 Without question, putting the text near the object it describes increases the readability. However, there's also a downside to putting text in callouts -- you have a limited amount of space. You can't expand with any more details than a 1-2 word description. 
 
-In that sense, the limited space available in text callouts makes them less understandable. You end up just giving items a name rather than providing both a name and some explanatory detail.
+In that sense, the limited space available in text callouts makes them less readable. You end up just giving items a name rather than providing both a name and some explanatory detail.
 
-Additionally, because the text callouts usually stick out on the left or right, you have to shrink your image size smaller to fit your image into the allowed space. If you have more than 5 or 6 text callouts, you have to get really creative in drawing lines to the various regions. Then you end up spending a lot of time aligning things and adding the right spacing. 
+Additionally, because the text callouts usually stick out on the left or right, you have to shrink your image size smaller to fit your image into the allowed space. If you have more than 5 or 6 text callouts, you have to get really creative in drawing lines to the various regions. Lines that cut across the image often need a white stroke to stay visible. Then you end up spending a lot of time aligning both text and lines so that everything is perfectly symmetrical.
 
 In the end, it doesn't really matter whether your text in crystal sharp in callouts, because text normally shouldn't appear in callouts anyway.
 
