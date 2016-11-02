@@ -1,5 +1,5 @@
 ---
-title: "How to get crisp images like in Apple's new Touch bar documentation"
+title: "How to get crisp text callouts like in Apple's new Touch bar documentation -- and why you might not want to"
 categories:
 - visual-communication
 summary: "Apple's new Macbook laptops include a Touch Bar that replaces the function keys at the top of the keyboard. You can program these keys with your own custom functions. I was curious to see what the documentation for the Touch Bar looked like. In looking at the Apple docs, the most interesting element is the image sizes -- the original image sizes are 4 times the size of the shown graphic. This technique helps create a sharp, crisp look to text when the large image is constrained in the browser. However, I'm not sure that text callouts are the best strategy for images, especially if you're planning to translate the content."
