@@ -52,6 +52,10 @@ entries:
           output: web, pdf
           url: /2016/05/30/building-a-workflow-user-map-with-css-and-js/
 
+        - title: Does Translation Mean You Should Omit Illustrations?
+          output: web, pdf
+          url: /2011/06/07/does-translation-mean-you-should-omit-illustrations
+
 
         - title: More complex user process maps in documentation systems
           output: web, pdf
