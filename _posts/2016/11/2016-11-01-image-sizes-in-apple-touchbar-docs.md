@@ -11,11 +11,11 @@ Why the difference? When you start with a large image and constrain its size dow
 
 You won't really see the difference on a regular monitor, but for fun, I embedded two graphics for comparison below. The first is the graphic at 400px width, while the second is 1600px wide.
 
-<img src="{{ "/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." />
+<a href="http://idratherbewriting.com/images/initialgraphicapple.jpg"><img src="{{ "/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." /></a>
 
-<img src="{{ "/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." />
+<a href="http://idratherbewriting.com/images/fullsizegraphicapple.jpg"><img src="{{ "/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." /></a>
 
-On a regularly 72 DPI monitor, there's not much difference. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with 1600px original size).
+On a regularly 72 DPI monitor, there's not much difference. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with the 1600px original size).
 
 If you aren't sure how many pixels per inch your monitor has, look at [dpilove](http://dpi.lv/). My Macbook Pro has 227 pixels per inch, but my Dell monitors have only 166 pixels per inch.
 
@@ -33,13 +33,13 @@ However, for all the theoretical advantages of vector graphics, they simply fall
 
 It turns out the [style hack](https://gist.github.com/larrybotha/7881691) I used for older IE browsers didn't work so well, nor did the display on some mobile devices. It's not only difficult to test vectors on all modern browsers (Chrome, Safari, Firefox, Edge, and IE 11), but especially difficult when you add in the plethora of mobile devices (iPad, iPhone, Kindle Fire, Android, Samsung, etc.).
 
-Today I threw in the towel on my vectors and decided to replace them with the large images similar to the Apple diagrams I referenced earlier. However, even though I enlarged the image to twice the original size, for some reason the constrained images still looked a little blurry on Dell monitors in the Chrome browser (but they were fine in Firefox). 
+Today I threw in the towel on my vectors and decided to replace them with the large images similar to the Apple diagrams I referenced earlier. However, even though I enlarged the image to twice the original size, for some reason the constrained images still looked a little blurry on my Dell monitors in the Chrome browser (but they were fine in Firefox). 
 
-The constrained images were sharp as ever on the Mac high retina display, but I could not for the life of me understand why downsizing an image made the text a little blurry on the Dell monitors in Chrome. I honestly spent about 2 hours playing with with various export settings in Illustrator (JPEG, PNG, 72-150-300 DPI, with transparency, without, 2x the original, 4x the original, maximum resolution, etc.). 
+The constrained images were sharp as ever on the Mac high retina display, but I could not for the life of me understand why downsizing an image made the text a little blurry on the Dell monitors in Chrome. I honestly spent about 2 hours playing with with various export settings in Illustrator (JPEG, PNG, 72-150-300 DPI, with transparency, without, 2x the original, 4x the original, quality 6, quality 8, quality 10, etc.). 
 
 Finally I decided to give it a rest, and while resting, I realized that images probably shouldn't have text callouts anyway, since it's going to make translation a nightmare. 
 
-Best practices with text and images -- particularly with translation -- is to put numbers in the callouts and elaborate below the image. Here are several examples:
+Best practices with text and images -- particularly with translation scenarios -- is to put numbers in the callouts and elaborate below the image. Here are several examples:
 
 * [http://news.mynavi.jp/articles/2014/02/10/tiwtter_howto/](http://news.mynavi.jp/articles/2014/02/10/tiwtter_howto/)
 * [http://psgips.blog24.fc2.com/blog-entry-068.html](http://psgips.blog24.fc2.com/blog-entry-068.html)
@@ -53,7 +53,7 @@ Without question, putting the text near the object it describes increases the re
 
 In that sense, the limited space available in text callouts makes them less readable. You end up just giving items a name rather than providing both a name and some explanatory detail.
 
-Additionally, because the text callouts usually stick out on the left or right, you have to shrink your image size smaller to fit your image into the allowed space. If you have more than 5 or 6 text callouts, you have to get really creative in drawing lines to the various regions. Lines that cut across the image often need a white stroke to stay visible. Then you end up spending a lot of time aligning both text and lines so that everything is perfectly symmetrical.
+Additionally, because the text callouts usually stick out on the left or right, you have to shrink your image size smaller to fit it into the allowed space (or you extend it vertically like Apple does). If you have more than 5 or 6 text callouts, you have to get really creative in drawing lines to the various regions. Lines that cut across the image often need a white stroke to stay visible. You then end up spending a lot of time aligning both text and lines so that everything is perfectly symmetrical.
 
 In the end, it doesn't really matter whether your text in crystal sharp in callouts, because text normally shouldn't appear in callouts anyway.
 
