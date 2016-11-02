@@ -47,7 +47,7 @@ Best practices with text and images -- particularly with translation -- is to pu
 
 I tried to find some Apple documentation in Japanese to see if they also translated the text callouts or if they used legends. Although I couldn't find the Touch Bar docs, I did find [this pdf](https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf), which suggests that they do translate the text callouts. 
 
-<a href="https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf"><img src="{{ "/images/applejpcallouts.png" | prepend: site.baseurl }}" alt="Translation of callouts" /></a>
+<a href="https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf"><img src="{{ "/images/applejpcallouts.jpg" | prepend: site.baseurl }}" alt="Translation of callouts" /></a>
 
 Without question, putting the text near the object it describes increases the readability. However, there's also a downside to putting text in callouts -- you have a limited amount of space. You can't expand with any more details than a 1-2 word description. 
 
