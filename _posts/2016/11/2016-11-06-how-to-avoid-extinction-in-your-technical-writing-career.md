@@ -3,7 +3,7 @@ title: "How to avoid becoming extinct in your technical writing career"
 categories:
 - general
 keywords: 
-summary: "In contrast to other professions, the rapidly evolving pace of technology means that our experience a decade ago is practically obsolete. With new platforms, programming languages, workplace methodologies, and other changes coming on the tech scene every year, IT professionals must implement an approach of continual learning to survive. Some resources for continual learning include Udacity's Nanodegree programs, Safari Books Online, and other online courses."
+summary: "In contrast to other professions, the rapidly evolving pace of technology means that our experience a decade ago is practically obsolete. With new platforms, programming languages, workplace methodologies, and other changes coming on the tech scene every year, IT professionals must implement an approach of continual learning to survive."
 ---
 
 ## Background 
@@ -14,7 +14,7 @@ Evans argues that technology is changing so rapidly, the knowledge and approache
 
 > Do you work in software? Do you have more than a decade of experience? You do? I’m sorry to hear that. That means there’s a strong possibility that much of what you know is already obsolete. Worse yet, there’s a good chance that you’re set in anachronistic ways, hidebound with habits which are now considered harmful. If you think your experience is automatically valuable, I warn you: think again.
 
-A decade ago, I was single sourcing content using Robohelp, outputting the content to Microsoft Word and running a kludge of macros to fix the formatting so we could also print a PDF. We often printed out copies of quick start guides and stapled them together before distributing them the financial analysts. 
+A decade ago, I was single sourcing content using Robohelp, outputting the content to Microsoft Word and running a kludge of macros to fix the formatting so we could also print a PDF. We often printed out copies of quick start guides and stapled them together before distributing them to financial analysts. 
 
 I also remember a senior technical writer explaining to me that I needed to provide detailed steps to users for even the simplest tasks, such as how to print something. 
 
@@ -34,7 +34,7 @@ Mehta makes a similar argument as Evans but applies it to the corporation. Corpo
 
 > The education that the workforce received was designed in the previous industrial age: front-loaded for first 20 years, and expected to apply to their jobs for the next 40 to 50 years. Today, we are in the knowledge economy, and there is new knowledge we are required to learn and apply daily.
 
-In other words, technology professions differ from others that have a long learning ramp followed by many years of implementation. (Think medicine, for example.) With technology, you don't just sink in 4+ years learning your trade. Because tech is evolving at such a rapid rate, your learning must be continual.
+In other words, technology professions differ from others that have a long learning ramp followed by many years of implementation. (Think medicine, for example.) With technology, you don't just sink in 4+ years learning your trade and then go to work for the next 20 years. Because tech is evolving at such a rapid rate, your learning must be continual.
 
 In fact, Mehta cites a study that predicts most Fortune 500 companies will be extinct in a decade:
 
@@ -54,7 +54,7 @@ Why Android? It's relevant to the products I document. Amazon's operating system
 
 I like knowing that the time I spend learning will be for a domain that has widespread applicability and isn't just a niche oddball technology product that is so specialized and unique, the knowledge gleaned would have little use elsewhere.
 
-Before starting this course, I made it 50% of the way through [Android Development for Beginners](https://classroom.udacity.com/courses/ud837). Honestly these Udacity are some of the best courses online I've ever seen. The pacing was just right, and the instructors are fun to listen to and learn from. Udacity knows how to put courses together. When you're matched up with the right level course, you don't feel stupid or lost.
+Before starting this course, I made it 50% of the way through [Android Development for Beginners](https://classroom.udacity.com/courses/ud837). These Udacity are some of the best courses online I've ever seen. The pacing was just right, and the instructors are fun to listen to and learn from. Udacity knows how to put courses together. When you're matched up with the right level course, you don't feel stupid or lost.
 
 ## Coding for Writers
 
@@ -68,7 +68,9 @@ The course is geared toward writers who are beginning to learn code. You can use
 
 Another resource I use is [Safari Books Online](https://www.safaribooksonline.com/home/). I love Safari Books because there are generally multiple resources (both books and video) addressing the same subject, and you can read from specific chapters or videos without taking in the entire resource.
 
-My Android Nanodegree program says students should have at least one year of Java programming experience prior to starting the course. My working knowledge of Java seems to be enough for most cases so far, but sometimes I need to refresh my memory or learn some things. For example, recently the Udacity trainer said to add an ArrayList in a Java class, and didn't explain much about how to do it. Unfamiliar with ArrayLists, I turned to Safari to learn more about the ArrayList and then returned back to Udacity.
+My Android Nanodegree program says students should have at least one year of Java programming experience prior to starting the course. My working knowledge of Java seems to be enough for most cases so far, but sometimes I need to refresh my memory or learn some things. 
+
+For example, recently the Udacity trainer said to add an ArrayList in a Java class, and didn't explain much about how to do it. Unfamiliar with ArrayLists, I turned to Safari to learn more about the ArrayList and then returned back to Udacity.
 
 Safari Books is pricey, but you can usually access this resource free through your local library's online portal or through a corporate subscription. 
 
