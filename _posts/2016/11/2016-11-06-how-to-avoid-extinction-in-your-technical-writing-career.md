@@ -16,7 +16,7 @@ Evans argues that technology is changing so rapidly, the knowledge and approache
 
 A decade ago, I was single sourcing content using Robohelp, outputting the content to Microsoft Word and running a kludge of macros to fix the formatting so we could also print a PDF. We often printed out copies of quick start guides and stapled them together before distributing them to financial analysts. 
 
-I also remember a senior technical writer explaining to me that I needed to provide detailed steps to users for even the simplest tasks, such as how to print something. 
+On my first week on the job, a senior technical writer explained that I needed to provide detailed steps to users for even the simplest tasks, such as how to print something. Now that kind of approach is looked down on as providing *obvious* documentation that no one needs.
 
 Evans continues:
 
@@ -46,7 +46,7 @@ The solution Mehta proposes is a similar one as Evans: continuous learning. Meht
 
 ## Udacity's Nanodegrees
 
-My company recently provided access and enrollment to [Udacy's Nanodegree programs](https://www.udacity.com/courses/all), among other learning resources (such as Big Ranch Nerd). I'm starting an [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801?v=ad1) program, which is co-created by Google. 
+How do you implement continuous learning in your career? My company recently provided access and enrollment to [Udacy's Nanodegree programs](https://www.udacity.com/courses/all), among other learning resources (such as Big Ranch Nerd). I'm starting an [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801?v=ad1) program, which is co-created by Google. 
 
 A "nanodegree" is a degree that has a granular focus on a specific skill, and takes about 9-12 months to complete. The course instructors recommend that you devote a specific block each day to working on the degree (about 8-10 hours a week). I find that dedicating the first hour of my day to the course is about the only way I can fit in in. Then I try to follow up with another hour before bed.
 
@@ -54,7 +54,7 @@ Why Android? It's relevant to the products I document. Amazon's operating system
 
 I like knowing that the time I spend learning will be for a domain that has widespread applicability and isn't just a niche oddball technology product that is so specialized and unique, the knowledge gleaned would have little use elsewhere.
 
-Before starting this course, I made it 50% of the way through [Android Development for Beginners](https://classroom.udacity.com/courses/ud837). These Udacity are some of the best courses online I've ever seen. The pacing was just right, and the instructors are fun to listen to and learn from. Udacity knows how to put courses together. When you're matched up with the right level course, you don't feel stupid or lost.
+Before starting this course, I made it 50% of the way through [Android Development for Beginners](https://classroom.udacity.com/courses/ud837). These Udacity are some of the best courses online I've ever seen. The pacing was just right, and the instructors are fun to listen to and learn from. Udacity knows how to put courses together. When you're matched up with the right level course, the instruction and activities can be incredibly helpful.
 
 ## Coding for Writers
 
@@ -62,7 +62,7 @@ Speaking of courses on coding, Peter Gruenbaum, who created several courses on A
 
 > Are you a writer who wants to learn how to code? There aren't many people who can both code and write well, so if you can do both, you will find there many exciting, highly-paid opportunities in the technology industry. This course teaches basic programming to writers, combining learning about coding with learning to write about coding. 
 
-The course is geared toward writers who are beginning to learn code. You can use coupon code IDRATHER to get a discount.
+The course is geared toward writers who are beginning to learn code. If this interests you, use coupon code IDRATHER to get a discount.
 
 ## Another Resource: Safari Books Online
 
