@@ -51,7 +51,7 @@ You get the point: Include the questions your users have. By avoiding this issue
 
 ## Best practices 
 
-I think that as a best practice, tech writers should follow Reddish's advice to imagine a conversation with our users. If our users have specific questions, we should make these questions and issues explicit. 
+I think that as a best practice, tech writers should follow Reddish's advice to imagine a conversation with users. If users have specific questions, we should make these questions and issues explicit. 
 
 Implementing this advice can be difficult because tech writers are usually overruled/bullied by product managers who don't want to say anything negative or controversial about their product ... ever. 
 
@@ -89,7 +89,7 @@ Apple's docs missed a point to show their humanity with this issue, but you don'
 
 > I'm sorry we took away all the ports and made you spend more than $100 in dongles that make your new lightweight, super thin Macbook Pro look somewhat laughable. But try to look at it from a future-facing perspective. You'll likely have your Macbook for a few years, and soon USB-C will be everywhere. We made the optical drive extinct, and see how that turned out?
 
-I'm **not** saying you need an approach like that, because this sort of tone definitely breaks what is the usual professional voice that companies adopt.
+I'm *not* saying you need an approach like that, because this sort of tone definitely breaks what is the usual professional voice that companies adopt.
 
 What I'm saying is that Reddish's approach of phrasing anticipated objections as questions and then providing answers is the way to go. You can do that without falling into jokey humor or a light-hearted tone.
 
