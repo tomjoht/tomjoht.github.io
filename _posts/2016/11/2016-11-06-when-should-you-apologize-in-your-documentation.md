@@ -73,7 +73,7 @@ In another section of my docs, one of the configuration steps for an app was rea
 
 > Although the query syntax in this section might seem a little complex, remember that Fire App Builder lets you use any feed structure you want, without limiting you to a specific order or specification (such as Media RSS). With this flexibility, it’s unavoidable that you’ll need to use more advanced query syntax to target the elements in your feed. [Set Up the Contents Recipe](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-contents)
 
-Another time, an issue came up where a group of users were using a device illegally, and a policy was enforced to inconvenience them by de-registering their devices. A post appeared on a blog, with a long comment thread. I could have included an FAQ in the docs to provide some information (though it would have only confirmed the reasons provided by the blogger), but PR steered me in another direction. 
+At other companies, I've had situations where I disagreed with the way a task was implemented, but it wasn't so bad that I felt compelled to apologize for it in the docs. If this were the case, though, you could always call out that this is an early version of the product and that it will keep iterating/improving with each new release.
 
 ## Opportunities to be real
 
