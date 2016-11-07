@@ -3,7 +3,7 @@ title: "How to avoid becoming extinct in your technical writing career"
 categories:
 - general
 keywords: 
-summary: "In contrast to other professions, the rapidly evolving pace of technology means that our experience a decade ago is practically obsolete. With new platforms, programming languages, workplace methodologies, and other changes coming on the tech scene every year, IT professionals must implement an approach of continual learning to survive."
+summary: "In contrast to other non-IT professions, the rapidly evolving pace of technology means that our experience a decade ago is practically obsolete. With new platforms, programming languages, workplace methodologies, and other changes coming on the tech scene every year, IT professionals must implement an approach of continual learning to survive."
 ---
 
 ## Background 
@@ -14,7 +14,7 @@ Evans argues that technology is changing so rapidly, the knowledge and approache
 
 > Do you work in software? Do you have more than a decade of experience? You do? I’m sorry to hear that. That means there’s a strong possibility that much of what you know is already obsolete. Worse yet, there’s a good chance that you’re set in anachronistic ways, hidebound with habits which are now considered harmful. If you think your experience is automatically valuable, I warn you: think again.
 
-A decade ago, I was single sourcing content using Robohelp, outputting the content to Microsoft Word and running a kludge of macros to fix the formatting so we could also print a PDF. We often printed out copies of quick start guides and stapled them together before distributing them to financial analysts. 
+A decade ago, I was single sourcing content using Robohelp, outputting the content to Microsoft Word and running a kludge of macros to fix the formatting so we could also print a PDF. We often printed out copies of quick start guides and stapled them together before distributing them to financial analysts. (Yes, using an actual stapler!)
 
 On my first week on the job, a senior technical writer explained that I needed to provide detailed steps to users for even the simplest tasks, such as how to print something. Now that kind of approach is looked down on as providing *obvious* documentation that no one needs.
 
