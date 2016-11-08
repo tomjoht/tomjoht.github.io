@@ -3,7 +3,7 @@ title: "Should you ever apologize for something product-related in your document
 categories:
 - general
 summary: "Apple's recent dongle fiasco raises an interesting tech comm question: Is there ever a time when you, as a technical writer, should apologize for something product-related in your documentation? I looked at Apple's end-user docs about their ports but didn't see any acknowledgement that they were inconveniencing their users in an extreme way. Instead, the tone was merely straightforward and factual about which adapters you would need. When an issue is controversial or obviously of deep concern to users, documentation should address the issue head-on. You don't need to try to communicate about the issue in an emotional way (though that tone might be  welcome to users), you just need to <i>include</i> the information, mostly following Reddish's documentation-as-conversation model."
-bitlink: 
+bitlink: http://bit.ly/apologiesindocs
 ---
 
 ## Background on the Dongle/Port Fiasco
