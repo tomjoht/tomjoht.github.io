@@ -1,8 +1,8 @@
 ---
-title: "How to get crisp text callouts like in Apple's new Touch bar documentation -- and why you might not want to"
+title: "How to get crisp text callouts like in Apple's new Touch bar documentation -- and why you might not want to with translation projects"
 categories:
 - visual-communication
-summary: "Apple's new Macbook laptops include a Touch Bar that replaces the function keys at the top of the keyboard. You can program these keys with your own custom functions. I was curious to see what the documentation for the Touch Bar looked like. In looking at the Apple docs, the most interesting element is the image sizes -- the original image sizes are 4 times the size of the shown graphic. This technique helps create a sharp, crisp look to text when the large image is constrained to a smaller size in the browser. However, I'm not sure that text callouts are the best strategy for images, especially if you're planning to translate the content."
+summary: "Apple's new Macbook laptops include a Touch Bar that replaces the function keys at the top of the keyboard. You can program these keys with your own custom functions. I was curious to see what the documentation for the Touch Bar looked like. In looking at the Apple docs, the most interesting element is the image sizes -- the original image sizes are 4 times the size of the shown graphic. This technique helps create a sharp, crisp look to text when the large image is constrained to a smaller size in the browser. However, if you're translating your content, text callouts can be problematic."
 bitlink: http://bit.ly/textcalloutstouchbardocs
 ---
 
@@ -20,9 +20,11 @@ You won't really see the difference on a regular monitor, but for fun, I embedde
 
 On a regularly 72 DPI monitor, you won't see much difference between the two. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with the 1600px original size).
 
+(I also explored this topic in [Retina Display and Screen Capture Sizes in Online Help](http://idratherbewriting.com/2012/11/10/high-retina-displays-and-screen-captures-into-online-help/).)
+
 If you aren't sure how many pixels per inch your monitor has, look at [dpilove](http://dpi.lv/). My Macbook Pro has 227 pixels per inch, but my Dell monitors have only 166 pixels per inch.
 
-(At my work, I have two flat panel Dell monitors connected to my Macbook Pro laptop. I *wish* I had a Thunderbolt monitor instead of the two Dells, but one can't have everything ...)
+(At my work, I have two flat panel Dell monitors connected to my Macbook Pro laptop. I *wish* I had a Thunderbolt or 5k monitor instead of the two Dells, but one can't have everything ...)
 
 When I take screenshots, it's best to take them from the high retina display using Snagit, because Snagit gives me the option to save my screenshot using the pixels captured from the high retina monitor. 
 
@@ -30,21 +32,19 @@ When I take screenshots, it's best to take them from the high retina display usi
 
 (This is one argument for using a high retina display when writing documentation.)
 
-To take clarity one step further, you could use vector diagrams instead of rasters (for your images with text callouts). Vectors use mathematical algorithms instead of pixels, so the display resizes to fill the width of its container, keeping the sharp, clear edges for your text.
+## Vector graphics 
 
-However, for all the theoretical advantages of vector graphics, they simply fall short when it comes to total cross-browser compatibility. I was feeling pretty confident in some vector graphics (just simple screenshots with callout text) I had with some docs at work, until I looked at [Browserstack.com](https://www.browserstack.com) to see the display across browsers. 
+To take clarity one step further, you could use vector diagrams instead of rasters (for your images with text callouts). Vectors use mathematical algorithms instead of pixels, so the display resizes to fill the width of its container, keeping the sharp, clear edges for your text. 
 
-It turns out the [style hack](https://gist.github.com/larrybotha/7881691) I used for older IE browsers didn't work so well, nor did the display on some mobile devices. It's not only difficult to test vectors on all modern browsers (Chrome, Safari, Firefox, Edge, and IE 11), but especially difficult when you add in the plethora of mobile devices (iPad, iPhone, Kindle Fire, Android, Samsung, etc.).
+For example, I used vectors in the text callouts for the documentation that I created [here](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-customize-look-and-feel). If you right click an image (with text callouts) and open it in another tab, such as [this svg image](https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/firetv/fireappbuilder/fireappbuilder_homepagediagram._TTH_.svg), and then resize your browser window, you can see how the SVG graphic dynamically resizes to fill the space of the container while also maintaining absolute crispness with the text. (Note that the screenshot itself isn't a vector -- just the text callouts.)
 
-Today I threw in the towel on my vectors and decided to replace them with the large images similar to the Apple diagrams I referenced earlier. However, even though I enlarged the image to twice the original size (and even four times), for some reason the constrained images still looked a little blurry on my Dell monitors in the Chrome browser (but they were fine in Firefox). 
+With vector graphics, make sure the graphics display properly across browsers. Beyond checking Chrome, Firefox, Safari, Edge, IE 11, and your mobile or tablet devices at hand, you can also use services like [Browserstack.com](https://www.browserstack.com) to increase your tests. I recommend this [style hack](https://gist.github.com/larrybotha/7881691) for targeting older IE browsers, which are problematic with vectors. 
 
-The constrained images were sharp as ever on the Mac high retina display, but I could not for the life of me understand why downsizing an image made the text a little blurry on the Dell monitors in Chrome. I honestly spent about 2 hours playing with with various export settings in Illustrator (JPEG, PNG, 72-150-300 DPI, with transparency, without, 2x the original, 4x the original, quality 6, quality 8, quality 10, etc.). 
+Although my tests with Browserstack did reveal some gaps in browser support, I'm not too worried. If developers are still using IE 8, they're not my target audience anyway.
 
-Finally I decided to give it a rest, and while resting, I realized that images probably shouldn't have text callouts anyway, since it's going to make translation a nightmare. 
+## Translation and text callouts
 
-## Turning against text callouts 
-
-Best practices with text and images -- particularly with translation scenarios -- is to put numbers or letters in the callouts and elaborate below the image with a legend. Here are several examples:
+If you're translating your content, you might not want to use text callouts in your diagrams. With translation, it's a best practice to put numbers or letters in the callouts and elaborate below the image with a legend. Here are several examples:
 
 * [http://psgips.blog24.fc2.com/blog-entry-068.html](http://psgips.blog24.fc2.com/blog-entry-068.html)
 * [http://news.mynavi.jp/articles/2014/02/10/tiwtter_howto/](http://news.mynavi.jp/articles/2014/02/10/tiwtter_howto/)
@@ -58,19 +58,19 @@ I tried to find some Apple documentation in Japanese to see if they also transla
 
 <a href="https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf"><img src="{{ "/images/applejpcallouts.jpg" | prepend: site.baseurl }}" alt="Translation of callouts" /></a>
 
-Without question, putting text near the object it describes increases the immediate readability. However, there's also a downside to putting text in callouts -- you have a limited amount of space. You can't expand with any more details than a 1-2 word description. 
+Without question, putting text near the object it describes increases the immediate readability. However, there's also a downside to putting text in callouts -- you have a limited amount of space. You can't expand with any more details other than a 1-2 word description. (Apple's text callout style uses a smaller font than their body font. This smaller size may be to accommodate more text in the allowed space.) 
 
-In that sense, the limited space available in text callouts makes them less readable. You end up just giving items a name rather than providing both a name and some explanatory detail.
+Still, the limited space available in text callouts makes them less readable. You end up giving items just a name rather than providing both a name and some explanatory detail.
 
-Additionally, because the text callouts usually stick out on the left or right, you have to shrink your image size smaller to fit it into the allowed space (or you extend your callouts vertically as with the Apple example). If you have more than 5 or 6 text callouts, you have to get really creative in drawing lines to the various regions. (With number or letter references, you also have draw lines to regions, but you aren't as constrained by the limited space.)
+Additionally, because the text callouts usually stick out on the left or right, you have to shrink your image size smaller to fit it into the allowed space (or you extend your callouts vertically as with the Apple example). If you have more than 5 or 6 text callouts, you have to get  creative in drawing lines to the various regions. (With number or letter references, you also have draw lines to regions, but you aren't as constrained by the limited space.)
 
-Bright accent colors such as red, orange, or magenta are often used for the callout liness -- because these colors usually stand out against the main background of a user interface. Apple's choice of gray for callout lines makes the lines a bit quieter, but this color will become problematic when the UI consists of gray tones. Lines that cut across the image often need a white stroke to stay visible. 
+Bright accent colors such as red, orange, or magenta are often used for the callout liness -- these colors usually stand out against the main background of a user interface. Apple's choice of gray for callout lines makes the lines a bit quieter, but this color will become problematic when the UI consists of gray tones. Lines that cut across the image often need a white stroke to stay visible. 
 
 When it comes time to translate the image, if the text is stored in the image file itself, you'll have to either extract the text into a standalone file or send the image file to the translator with some kind of denotation about which callout will refer to which translated name. 
 
 Additionally, when you get the file back, you'll have to re-align all of the text because no doubt the translated text will require adjustments with alignment and spacing. Overall, putting text in callouts greatly increases the difficulty of translation. 
 
-For all of these reasons, it's just best to use the legend approach with callouts.
+For all of these reasons, it's just best to use the legend approach with callouts when you're translating your content.
 
 
 
