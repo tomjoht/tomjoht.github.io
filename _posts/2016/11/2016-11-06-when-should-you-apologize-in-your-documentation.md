@@ -2,7 +2,8 @@
 title: "Should you ever apologize for something product-related in your documentation? Looking at Apple's dongle docs"
 categories:
 - general
-summary: "Apple's recent dongle fiasco raises an interesting tech comm question: Is there ever a time when you, as a technical writer, should apologize for something product-related in your documentation? I looked at Apple's end-user docs about their ports but didn't see any acknowledgement that they were inconveniencing their users in an extreme way. Instead, the tone was merely straightforward and factual about which adapters you would need. When an issue is controversial or obviously of deep concern to users, documentation should address the issue head-on. You don't need to try to communicate about the issue in an emotional way (though that tone might be  welcome to users), you just need to *include* the information, mostly following Reddish's documentation-as-conversation model."
+summary: "Apple's recent dongle fiasco raises an interesting tech comm question: Is there ever a time when you, as a technical writer, should apologize for something product-related in your documentation? I looked at Apple's end-user docs about their ports but didn't see any acknowledgement that they were inconveniencing their users in an extreme way. Instead, the tone was merely straightforward and factual about which adapters you would need. When an issue is controversial or obviously of deep concern to users, documentation should address the issue head-on. You don't need to try to communicate about the issue in an emotional way (though that tone might be  welcome to users), you just need to <i>include</i> the information, mostly following Reddish's documentation-as-conversation model."
+bitlink: 
 ---
 
 ## Background on the Dongle/Port Fiasco
@@ -35,9 +36,9 @@ I decided to check out Apple's documentation pages about the ports and required 
 
 There's nothing in the documentation that hints at the inconvenience and cumbersomeness of these dongles/adapters. (Apple's docs use the term "adapter" instead of "dongle.") 
 
-If you're trying to relate to your users, wouldn't you anticipate some of their questions and address these issues? In Ginny Reddish's book [Letting Go of the Words](http://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/), she explains that documentation should be written as if you're having a conversation with your users. Reddish explains:
+If you're trying to relate to your users, wouldn't you anticipate some of their questions and address these issues? In Ginny Reddish's book *Letting Go of the Words*, she explains that documentation should be written as if you're having a conversation with your users. Reddish explains:
  
-> If you think of the web as conversation, you'll realize that much of your content is meant to answer the questions that people come with. you do not want an entire site to be in a section called frequently asked questions. You do want to think about what people come wanting to know and then about how to give them that information as concisely and clearly as possible.
+> If you think of the web as conversation, you'll realize that much of your content is meant to answer the questions that people come with. you do not want an entire site to be in a section called frequently asked questions. You do want to think about what people come wanting to know and then about how to give them that information as concisely and clearly as possible. ([Letting Go of the Words](http://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/))
 
 If the Apple's tech writers were imagining what questions users might ask, surely they would have included some sections with the following titles:
 
@@ -63,7 +64,7 @@ It's easy to criticize Apple, but what would I do in a similar situations? What 
 
 I don't have any experience where my products caused such widespread controversy and uproar. But there are times when I sort of apologize here and there. In some image asset guidelines I recently wrote for an upcoming Fire TV UI refresh, I had trouble getting legal approval to use image assets from popular Amazon apps (because they're 3rd-party image assets). As a result, we had to use images from video shows produced by Amazon, even though most apps wouldn't be video shows. As a result, I added this note in my docs:
 
-> (Note that Bosche, a video series rather than an app, is used here because we are restricted to showing Amazon-produced assets only, and Amazon’s main assets are video rather than individual apps. To see an actual example of an app video, check out the video from Crossy Road.) [Image Asset Guidelines for Appstore Submission ("Trailer" tab)](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/asset-guidelines-for-app-submission#firetvassets)
+> (Note that Bosche, a video series rather than an app, is used here because we are restricted to showing Amazon-produced assets only, and Amazon’s main assets are video rather than individual apps. To see an actual example of an app video, check out the video from Crossy Road.) ([Image Asset Guidelines for Appstore Submission - "Trailer" tab](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/asset-guidelines-for-app-submission#firetvassets))
 
 I felt I needed to at least acknowledge why some of the image assets weren't app-focused. 
 
@@ -71,7 +72,7 @@ I also wanted to include a deadline for asset submission in the docs (a question
 
 In another section of my docs, one of the configuration steps for an app was really confusing. I decided to stick this note before the long explanation of how to write the query syntax:
 
-> Although the query syntax in this section might seem a little complex, remember that Fire App Builder lets you use any feed structure you want, without limiting you to a specific order or specification (such as Media RSS). With this flexibility, it’s unavoidable that you’ll need to use more advanced query syntax to target the elements in your feed. [Set Up the Contents Recipe](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-contents)
+> Although the query syntax in this section might seem a little complex, remember that Fire App Builder lets you use any feed structure you want, without limiting you to a specific order or specification (such as Media RSS). With this flexibility, it’s unavoidable that you’ll need to use more advanced query syntax to target the elements in your feed. ([Set Up the Contents Recipe](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-contents))
 
 At other companies, I've had situations where I disagreed with the way a task was implemented, but it wasn't so bad that I felt compelled to apologize for it in the docs. If this were the case, though, you could always call out that this is an early version of the product and that it will keep iterating/improving with each new release.
 
@@ -79,7 +80,7 @@ At other companies, I've had situations where I disagreed with the way a task wa
 
 As a tech writer, sometimes there are issues that are controversial or sensitive, and product managers and other execs may not want you to acknowledge or address the issues in the documentation. Only when issues become so controversial that the company's non-response becomes an issue in itself does the company finally speak up. In the case of the dongles, Apple finally had to release a statement:
 
-> “We recognize that many users, especially pros, rely on legacy connectors to get work done today and they face a transition. We want to help them move to the latest technology and peripherals, as well as accelerate the growth of this new ecosystem. Through the end of the year, we are reducing prices on all USB-C and Thunderbolt 3 peripherals we sell, as well as the prices on Apple’s USB-C adapters and cables.” [Apple is now officially a dongle company that happens to make smartphones and computers](https://www.extremetech.com/computing/238878-apple-now-officially-dongle-company-happens-make-smartphones-computers)
+> “We recognize that many users, especially pros, rely on legacy connectors to get work done today and they face a transition. We want to help them move to the latest technology and peripherals, as well as accelerate the growth of this new ecosystem. Through the end of the year, we are reducing prices on all USB-C and Thunderbolt 3 peripherals we sell, as well as the prices on Apple’s USB-C adapters and cables.” ([Apple is now officially a dongle company that happens to make smartphones and computers](https://www.extremetech.com/computing/238878-apple-now-officially-dongle-company-happens-make-smartphones-computers))
 
 It would be good to include a version of this note in Apple's docs.
 
