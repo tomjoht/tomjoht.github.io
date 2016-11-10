@@ -20,7 +20,7 @@ To recreate the acme project:
 
 1. If you already have the Java perspective enabled, go to **File > New > Java Project**. If you don't see this option, then the Java perspective is not enabled. Go to **File > New > Project**. In the New Project wizard, expand **Java** and select **Java Project**. Click **Next**. 
 	
-	<img src="{{ "/images/restapicourse/newjavaproject.png" | prepend: site.baseurl }}" alt="Creating a New Java Project in Eclipse" />
+	<img src="{{ "/images_api/newjavaproject.png" | prepend: site.baseurl }}" alt="Creating a New Java Project in Eclipse" />
 	
 2. Name the project `acme`, accept the other defaults, and then click **Finish**.
 	
@@ -28,7 +28,7 @@ To recreate the acme project:
 	
 3. In the **Project Explorer** (left pane), right-click your project name and select **New > Class**. 
 	
-	<img src="{{ "/images/restapicourse/eclipsenewclass.png" | prepend: site.baseurl }}" alt="Creating a new class" />
+	<img src="{{ "/images_api/eclipsenewclass.png" | prepend: site.baseurl }}" alt="Creating a new class" />
 	
 4. In the **Name** box, type **ACMESmartphone**, accept the other defaults, and click **Finish**. 
 5. In the new file that opens, remove the default content added, and then paste in the following content: 
@@ -195,7 +195,7 @@ To recreate the acme project:
 	
 9. Click the **Run** button. 
 	
-	<img src="{{ "/images/restapicourse/eclipserunbutton.png" | prepend: site.baseurl }}" alt="Eclipse Run button" />
+	<img src="{{ "/images_api/eclipserunbutton.png" | prepend: site.baseurl }}" alt="Eclipse Run button" />
 	
 	Some text should be printed in the console area.
 

@@ -17,7 +17,7 @@ In previous parts of the course, we focused exclusively on REST APIs. Native lib
 
 {{note}} We will focus this section on Java APIs, since they're probably one of the most common. However, many of the concepts and code conventions mentioned here will apply to the other languages, with minor differences.{{end}}
 
-<img src="{{ "/images/restapicourse/eclipseframe.png" | prepend: site.baseurl }}" alt="Eclipse" />
+<img src="{{ "/images_api/eclipseframe.png" | prepend: site.baseurl }}" alt="Eclipse" />
 
 ## Do you have to be a programmer to document native library APIs?
 

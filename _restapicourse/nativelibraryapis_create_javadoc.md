@@ -25,7 +25,7 @@ Here are some other characteristics of Javadoc:
 2. Expand **Java** and select **Javadoc.** Then click **Next**.
 3. Select your project and package. Then in the right pane, select the classes you want included in the Javadoc. Don't select the class that contains your main method.
 	
-	<img src="{{ "/images/restapicourse/generatejavadoc.png" | prepend: site.baseurl }}" alt="Generating a Javadoc" />
+	<img src="{{ "/images_api/generatejavadoc.png" | prepend: site.baseurl }}" alt="Generating a Javadoc" />
 	
 4. Select which visibility option you want: Private, Package, Protected, or Public. Generally you select **Public**. 
 	
@@ -35,13 +35,13 @@ Here are some other characteristics of Javadoc:
 6. Click the **Browse** button and select the output location where you want the Javadoc generated. 
 7. Click **Next**.
 	
-	<img src="{{ "/images/restapicourse/javadocnext1.png" | prepend: site.baseurl }}" alt="Javadoc next screen" />
+	<img src="{{ "/images_api/javadocnext1.png" | prepend: site.baseurl }}" alt="Javadoc next screen" />
 	
 	Here you can select if you want to omit some tags, such as @author and @deprecated. Generally you don't include the @author tag, since it may only be important internally, not externally. You can also select different options in the Javadoc frame. If you have a custom stylesheet, you can select it here. Most likely you would only make superficial style changes such as with colors. 
 	
 8. Click **Next**. 
 	
-	<img src="{{ "/images/restapicourse/generatejavadocnext2.png" | prepend: site.baseurl }}" alt="Overview page" />
+	<img src="{{ "/images_api/generatejavadocnext2.png" | prepend: site.baseurl }}" alt="Overview page" />
 	
 	Here you can select an HTML page that you want to be your overview page in the Javadoc. You can select any HTML page and it will be included in the index.
 	
@@ -55,4 +55,4 @@ Javadoc also checks your tags against the actual code. If you have parameters, e
 
 Try removing a parameter from a method and generate the Javadoc again. Make sure the console window is open. 
 
-<img src="{{ "/images/restapicourse/javadocerrorchecking.png" | prepend: site.baseurl }}" alt="" />
+<img src="{{ "/images_api/javadocerrorchecking.png" | prepend: site.baseurl }}" alt="" />

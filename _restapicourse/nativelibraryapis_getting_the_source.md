@@ -10,7 +10,7 @@ weight: 7.2
 
 In order to understand documentation for Java APIs, it helps to have a context of some sort. As such, I created a simple little Java application to demonstrate how the various tags get rendered into the Javadoc.
 
-<a href="https://github.com/tomjohnson1492/acmeproject"><img src="{{ "/images/restapicourse/acmeprojectgithub.png" | prepend: site.baseurl }}" alt="ACME project" /></a>
+<a href="https://github.com/tomjohnson1492/acmeproject"><img src="{{ "/images_api/acmeprojectgithub.png" | prepend: site.baseurl }}" alt="ACME project" /></a>
 
 The sample Java project is a little application about different tools that a coyote will use to capture a roadrunner. There are two classes (ACMESmartphone and Dynamite) and another class file called App that references the classes. 
 
@@ -41,7 +41,7 @@ Or click **Clone in Desktop** and navigate to the right path in Github Desktop.
 1. After you've cloned or downloaded the Java project, open Eclipse. Go to **File > New Java Project**.
 2. Clear the **Use default location** check box, and then browse to where you cloned the Github project.
 	
-	<img src="{{ "/images/restapicourse/importjavaproject.png" | prepend: site.baseurl }}" alt="Import existing Java project" />
+	<img src="{{ "/images_api/importjavaproject.png" | prepend: site.baseurl }}" alt="Import existing Java project" />
 	
 3. Click **Finish**.
 	
