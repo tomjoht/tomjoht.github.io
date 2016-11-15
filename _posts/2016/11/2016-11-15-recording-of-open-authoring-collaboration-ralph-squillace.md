@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 keywords: 
-date: 2016-10-18
+date: 2016-11-15
 tags:
 - developer documentation
 - open source
@@ -38,16 +38,15 @@ The slides are here:
 
 Here's a description of the presentation: 
 
-> At Microsoft, we are working to make technical content everyone’s responsibility. This presentation will focus on our efforts to increase collaboration across different disciplines at Microsoft by implementing open authoring strategies for areas like Azure using GitHub repos and Markdown. Our shift from a closed to open system enables our engineering, consulting, architecture, and support teams to actively engage and help drive up content satisfaction with customers. We’ll discuss our work to date, tools and best practices that are evolving to allow for collaboration, some of our plans for the future, as well as our lessons learned.
-> 
-> Key takeaways:
-> 
-> <ul>
-  <li>How collaboration across disciplines drives customer satisfaction</li>
-  <li>Open authoring strategies and tools that allow active collaboration across engineering, consulting, architecture, and support teams</li>
-  <li>Challenges of open authoring and cross-discipline content accountability</li>
-  <li>Best practices for sustainable collaboration</li>
-  </ul>
+<blockquote><p>At Microsoft, we are working to make technical content everyone’s responsibility. This presentation will focus on our efforts to increase collaboration across different disciplines at Microsoft by implementing open authoring strategies for areas like Azure using GitHub repos and Markdown. Our shift from a closed to open system enables our engineering, consulting, architecture, and support teams to actively engage and help drive up content satisfaction with customers. We’ll discuss our work to date, tools and best practices that are evolving to allow for collaboration, some of our plans for the future, as well as our lessons learned.</p>
+<p>Key takeaways:</p>
+<ul>
+<li>How collaboration across disciplines drives customer satisfaction</li>
+<li>Open authoring strategies and tools that allow active collaboration across engineering, consulting, architecture, and support teams</li>
+<li>Challenges of open authoring and cross-discipline content accountability</li>
+<li>Best practices for sustainable collaboration</li>
+</ul>
+</p>
 
 You can read more details from the event on the [STC Silicon Valley site](http://www.stc-siliconvalley.org/2016/10/17/november-14-2016-open-authoring-content-collaboration-across-disciplines/). 
 
