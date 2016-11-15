@@ -46,7 +46,6 @@ Here's a description of the presentation:
 <li>Challenges of open authoring and cross-discipline content accountability</li>
 <li>Best practices for sustainable collaboration</li>
 </ul>
-</p>
 </blockquote>
 
 You can read more details from the event on the [STC Silicon Valley site](http://www.stc-siliconvalley.org/2016/10/17/november-14-2016-open-authoring-content-collaboration-across-disciplines/). 
