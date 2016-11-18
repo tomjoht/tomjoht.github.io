@@ -43,8 +43,8 @@ layout: null
             </description>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
-            <itunes:subtitle>{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
-            <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }} Read more: {{ep.bitlink}}</itunes:summary>
+            <itunes:subtitle>{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
+            <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
             <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
             <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
