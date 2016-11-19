@@ -15,7 +15,7 @@ search: false
     {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{% if post.summary %}{{post.summary | xml_escape }}{% endif %} {% if post.bitlink %} <a href="{{post.bitlink}}">Read more &raquo; </a> {% endif %}</description>
+        <description>{% if post.summary %}{{post.summary | xml_escape }}{% endif %} {% if post.bitlink %} <a href="{{post.bitlink}}">Read more >></a> {% endif %}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
