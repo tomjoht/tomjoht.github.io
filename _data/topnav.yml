@@ -11,6 +11,9 @@ topnav:
 
     - title: Podcasts
       url: /category-podcasts/
+
+    - title: Jobs
+      url: http://idratherbewriting.com/findjobs/
 #Topnav dropdowns
 
 topnav_dropdowns:
@@ -163,13 +166,10 @@ topnav_dropdowns:
         url: /category-wordpress/
       - title: Writing
         url: /category-writing/
-
     - title: Other
       items:
       - title: Advertising
         url: /advertising/
-      - title: Jobs
-        url: /findjobs/
       - title: Visual comm
         url: /2016/05/01/visualcommunication_course_overview
       - title: JavaScript note
