@@ -126,119 +126,119 @@ To create a Swagger spec file:
 
 1. Go to the [Swagger online editor](http://editor.swagger.io/#/).
 2. Select **File > Open Example** and choose **PetStore Simple**. Click **Open**.
-	
-	You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">swagger.yaml</a>.
-	
-	Here's what the Swagger YAML file looks like:
-	
-	```yaml
-	swagger: "2.0"
-    info: 
-     version: "1.0.0"
-     title: "Weather API"
-     description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
-     termsOfService: "http://helloreverb.com/terms/"
-     contact: 
-       name: "Tom Johnson"
-       email: "tomjohnson1492@gmail.com"
-       url: "http://swagger.io"
-     license: 
-       name: "MIT"
-       url: "http://opensource.org/licenses/MIT"
-    host: "simple-weather.p.mashape.com"
-    schemes: 
-     - "https"
-    consumes: 
-     - "application/json"
-    produces: 
-     - "application/text"
-    paths: 
-     /aqi: 
-       get: 
-         tags: 
-           - "Air Quality"
-         description: "gets air quality index"
-         operationId: "getAqi"
-         produces: 
-           - "text"
-         parameters: 
-           - 
-             name: "lat"
-             in: "query"
-             description: "latitude"
-             required: false
-             type: "string"
-           - 
-             name: "lng"
-             in: "query"
-             description: "longitude"
-             required: false
-             type: "string"
-         responses: 
-           200: 
-             description: "aqi response"
-           default: 
-             description: "unexpected error"
-    
-     /weather: 
-       get: 
-         tags: 
-           - "Weather Forecast"
-         description: "gets weather forecast in short label"
-         operationId: "getWeather"
-         produces: 
-           - "text"
-         parameters: 
-           - 
-             name: "lat"
-             in: "query"
-             description: "latitude"
-             required: false
-             type: "string"
-           - 
-             name: "lng"
-             in: "query"
-             description: "longitude"
-             required: false
-             type: "string"
-         responses: 
-           200: 
-             description: "weather response"
-           default: 
-             description: "unexpected error"
-     /weatherdata: 
-       get: 
-         tags: 
-           - "Full Weather Data"
-         description: "Get weather forecast by Latitude and Longitude"
-         operationId: "getWeatherData"
-         produces: 
-           - "application/json"
-         parameters: 
-           - 
-             name: "lat"
-             in: "query"
-             description: "latitude"
-             required: false
-             type: "string"
-           - 
-             name: "lng"
-             in: "query"
-             description: "longitude"
-             required: false
-             type: "string"
-         responses: 
-           200: 
-             description: "weatherdata response"
-           default: 
-             description: "unexpected error"
-    
-    securityDefinitions:
-      internalApiKey:
-        type: apiKey
-        in: header
-        name: X-Mashape-Key
-    ```
+
+You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">swagger.yaml</a>.
+
+Here's what the Swagger YAML file looks like:
+
+```yaml
+swagger: "2.0"
+info: 
+ version: "1.0.0"
+ title: "Weather API"
+ description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
+ termsOfService: "http://helloreverb.com/terms/"
+ contact: 
+   name: "Tom Johnson"
+   email: "tomjohnson1492@gmail.com"
+   url: "http://swagger.io"
+ license: 
+   name: "MIT"
+   url: "http://opensource.org/licenses/MIT"
+host: "simple-weather.p.mashape.com"
+schemes: 
+ - "https"
+consumes: 
+ - "application/json"
+produces: 
+ - "application/text"
+paths: 
+ /aqi: 
+   get: 
+     tags: 
+       - "Air Quality"
+     description: "gets air quality index"
+     operationId: "getAqi"
+     produces: 
+       - "text"
+     parameters: 
+       - 
+         name: "lat"
+         in: "query"
+         description: "latitude"
+         required: false
+         type: "string"
+       - 
+         name: "lng"
+         in: "query"
+         description: "longitude"
+         required: false
+         type: "string"
+     responses: 
+       200: 
+         description: "aqi response"
+       default: 
+         description: "unexpected error"
+
+ /weather: 
+   get: 
+     tags: 
+       - "Weather Forecast"
+     description: "gets weather forecast in short label"
+     operationId: "getWeather"
+     produces: 
+       - "text"
+     parameters: 
+       - 
+         name: "lat"
+         in: "query"
+         description: "latitude"
+         required: false
+         type: "string"
+       - 
+         name: "lng"
+         in: "query"
+         description: "longitude"
+         required: false
+         type: "string"
+     responses: 
+       200: 
+         description: "weather response"
+       default: 
+         description: "unexpected error"
+ /weatherdata: 
+   get: 
+     tags: 
+       - "Full Weather Data"
+     description: "Get weather forecast by Latitude and Longitude"
+     operationId: "getWeatherData"
+     produces: 
+       - "application/json"
+     parameters: 
+       - 
+         name: "lat"
+         in: "query"
+         description: "latitude"
+         required: false
+         type: "string"
+       - 
+         name: "lng"
+         in: "query"
+         description: "longitude"
+         required: false
+         type: "string"
+     responses: 
+       200: 
+         description: "weatherdata response"
+       default: 
+         description: "unexpected error"
+
+securityDefinitions:
+  internalApiKey:
+    type: apiKey
+    in: header
+    name: X-Mashape-Key
+```
 	
 	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array). If you <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">download this file</a> instead of copy-and-pasting it above, you're less likely to run into spacing errors.{{end}}
 	
