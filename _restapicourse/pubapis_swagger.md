@@ -131,7 +131,7 @@ To create a Swagger spec file:
 	
 	Here's what the Swagger YAML file looks like:
 	
-	```
+	```yaml
 	swagger: "2.0"
     info: 
      version: "1.0.0"
@@ -240,7 +240,7 @@ To create a Swagger spec file:
         name: X-Mashape-Key
     ```
 	
-	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array).{{end}}
+	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array). If you <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">download this file</a> instead of copy-and-pasting it above, you're less likely to run into spacing errors.{{end}}
 	
 	The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file couldn't be parsed).
 	
@@ -422,4 +422,14 @@ By integrating Swagger into the code, you allow developers to easily write docum
 
 For other tools and libraries, see [Swagger services and tools](http://swagger.io/open-source-integrations/).
 
-{% comment %
+{% comment %} If you want to automatically set the API key, remove the security definition from the swagger.yaml file and put this before the closing script tag in the index file. 
+
+        function addApiKeyAuthorization(){
+         var key = encodeURIComponent($('#input_apiKey')[0].value);
+         if(key && key.trim() != "") {
+             var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
+             swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p", "header"));
+             log("added key " + key);
+         }
+
+{% endcomment %}
