@@ -294,7 +294,7 @@ You can also download the same code that generates the output on the Anypoint Pl
 	
 	View the file in your web browser. Note that if the file doesn't load in Chrome, open it in Firefox. Chrome tends to block local JavaScript for security reasons. 
 
-	{{tip}}Here's a <a href="http://learnapidoc.com/raml/specific.html">sample RAML API Console output</a> that integrates the weather.raml file. Here's a <a href="http://learnapidoc.com/raml/examples/weather.raml">generic RAML API Console</a> that allows you to insert your own RAML spec code.{{end}}
+	{{tip}}Here's a <a href="http://idratherbewriting.com.com/files/restapicourse/raml/specific.html">sample RAML API Console output</a> that integrates the weather.raml file. Here's a <a href="http://idratherbewriting.com.com/files/restapicourse/raml/examples/weather.raml">generic RAML API Console</a> that allows you to insert your own RAML spec code.{{end}}
 
 ## Deliver doc through the RAML2HTML Utility
 
@@ -321,7 +321,7 @@ To generate this kind of output:
 	
 	<img src="{{ "/images_api/raml2htmloutput.png" | prepend: site.baseurl }}" alt="RAML2HTML" />
 	
-	{{tip}}To see this example in your browser, go to <a href="http://learnapidoc.com/raml/examples/index.html">learnapidoc.com/raml/examples/index.html</a>.{{end}}
+	{{tip}}To see this example in your browser, go to <a href="http://idratherbewriting.com/files/restapicourse/raml/examples/index.html">idratherbewriting.com.com/files/restapicourseraml/examples/index.html</a>.{{end}}
 
 ## Other platforms that consume RAML and Swagger
 <a href="http://studio.restlet.com">Restlet Studio</a> is another platform to check out. Restlet Studio can process either Swagger or RAML specs. 

@@ -45,6 +45,7 @@ paths:
          description: "aqi response"
        default: 
          description: "unexpected error"
+
  /weather: 
    get: 
      tags: 
@@ -97,3 +98,9 @@ paths:
          description: "weatherdata response"
        default: 
          description: "unexpected error"
+
+securityDefinitions:
+  internalApiKey:
+    type: apiKey
+    in: header
+    name: X-Mashape-Key
