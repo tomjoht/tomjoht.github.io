@@ -118,7 +118,7 @@ Note a few limitations with the Swagger approach:
 
 In this activity, you'll create a Swagger UI display for the weatherdata endpoint in this [Mashape Weather API](https://www.mashape.com/fyhao/weather-13#weatherdata). (If you're jumping around in the documentation, this is a simple API that we used in earlier parts of the course.) You can see a demo of what we'll build [here](http://learnapidoc.com/swagger/tom):
 
-<a href="http://learnapidoc.com/swagger/tom"><img src="{{ "/images_api/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
+<a href="http://learnapidoc.com/swagger"><img src="{{ "/images_api/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
 
 ### a. Create a Swagger spec file
 
@@ -160,21 +160,10 @@ You can also choose JSON as the format, but YAML is more readable and works just
 5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.yaml";`.
 6. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
 	
+	If you want users to insert their own API keys in the Explore box to make the Swagger UI work, stop here and skip ahead to the [next section](#upload). If you want to prepopulate the Swagger UI display's Explore box with an API key by default, continue with the following steps.
 	
-7. The Mashape API also requires a header authorization, so you'll need to make another change.  Scroll down the index.html file until you find the `addApiKeyAuthorization` function:
-	
-   ```js
-      function addApiKeyAuthorization(){
-        var key = encodeURIComponent($('#input_apiKey')[0].value);
-        if(key && key.trim() != "") {
-            var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
-            window.swaggerUi.api.clientAuthorizations.add("api_key", apiKeyAuth);
-            log("added key " + key);
-        }
-   ```
-	
-8. Change that block so that it looks like this:
-	
+7. Before the closing `</script>` tag, insert the following function:
+    
    ```js
 	      function addApiKeyAuthorization(){
 	        var key = encodeURIComponent($('#input_apiKey')[0].value);
@@ -185,28 +174,11 @@ You can also choose JSON as the format, but YAML is more readable and works just
 	        }
    ```
 	
-8. Insert your API key in `APIKEY`. (Otherwise users will have to enter their own API keys.)
-	
-8. Uncomment out following lines here by removing the `/*` and `*/`:
-	
-   ```js
-	// if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
-	  /*
-	    var apiKey = "myApiKeyXXXX123456789";
-	    $('#input_apiKey').val(apiKey);
-	  */
-   ```
-	
-9. Add in your API key in place of the `myApiKeyXXXX123456789` value.
-	
-   ```js
-    var apiKey = "myApiKeyXXXX123456789";
-    $('#input_apiKey').val(apiKey);   
-   ```
+8. Insert your API key in `APIKEY` (inside quotation marks). (Otherwise users will have to enter their own API keys.)
 	
 10. Save the file.
 	
-If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `var apiKey = "APIKEY";`. Replace `APIKEY` in a couple of places with your own API key for Mashape.
+If the previous instructions were confusing, just copy the following code and replace your entire index.html file with it. The only thing you'll need to customize is the `APIKEY` value. Replace `APIKEY` with your own API key.
 
 ```html
 <!DOCTYPE html>
@@ -214,19 +186,20 @@ If the previous instructions were confusing, just copy the following code and re
 <head>
   <meta charset="UTF-8">
   <title>Swagger UI</title>
-  <link rel="icon" type="image/png" href="images_api/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images_api/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16" />
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
   <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/reset.css' media='print' rel='stylesheet' type='text/css'/>
   <link href='css/print.css' media='print' rel='stylesheet' type='text/css'/>
+
+  <script src='lib/object-assign-pollyfill.js' type='text/javascript'></script>
   <script src='lib/jquery-1.8.0.min.js' type='text/javascript'></script>
   <script src='lib/jquery.slideto.min.js' type='text/javascript'></script>
   <script src='lib/jquery.wiggle.min.js' type='text/javascript'></script>
   <script src='lib/jquery.ba-bbq.min.js' type='text/javascript'></script>
-  <script src='lib/handlebars-2.0.0.js' type='text/javascript'></script>
-  <script src='lib/js-yaml.min.js' type='text/javascript'></script>
+  <script src='lib/handlebars-4.0.5.js' type='text/javascript'></script>
   <script src='lib/lodash.min.js' type='text/javascript'></script>
   <script src='lib/backbone-min.js' type='text/javascript'></script>
   <script src='swagger-ui.js' type='text/javascript'></script>
@@ -269,7 +242,7 @@ If the previous instructions were confusing, just copy the following code and re
               clientSecret: "your-client-secret-if-required",
               realm: "your-realms",
               appName: "your-app-name",
-              scopeSeparator: ",",
+              scopeSeparator: " ",
               additionalQueryStringParams: {}
             });
           }
@@ -277,35 +250,15 @@ If the previous instructions were confusing, just copy the following code and re
           if(window.SwaggerTranslator) {
             window.SwaggerTranslator.translate();
           }
-
-          addApiKeyAuthorization();
         },
         onFailure: function(data) {
           log("Unable to Load SwaggerUI");
         },
         docExpansion: "none",
         jsonEditor: false,
-        apisSorter: "alpha",
         defaultModelRendering: 'schema',
         showRequestHeaders: false
       });
-
-        function addApiKeyAuthorization(){
-          var key = encodeURIComponent($('#input_apiKey')[0].value);
-          if(key && key.trim() != "") {
-              var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
-              swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p", "header"));
-              log("added key " + key);
-          }
-      }
-
-      $('#input_apiKey').change(addApiKeyAuthorization);
-
-      // if you have an apiKey you would like to pre-populate on the page for demonstration purposes...
-      
-        var apiKey = "EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p";
-        $('#input_apiKey').val(apiKey);
-      
 
       window.swaggerUi.load();
 
@@ -315,17 +268,25 @@ If the previous instructions were confusing, just copy the following code and re
         }
       }
   });
+
+        function addApiKeyAuthorization(){
+         var key = encodeURIComponent($('#input_apiKey')[0].value);
+         if(key && key.trim() != "") {
+             var apiKeyAuth = new SwaggerClient.ApiKeyAuthorization("api_key", key, "query");
+             swaggerUi.api.clientAuthorizations.add("key", new SwaggerClient.ApiKeyAuthorization("X-Mashape-Key", "APIKEY", "header"));
+             log("added key " + key);
+         }
   </script>
 </head>
 
 <body class="swagger-section">
 <div id='header'>
   <div class="swagger-ui-wrap">
-    <a id="logo" href="http://swagger.io">swagger</a>
+    <a id="logo" href="http://swagger.io"><img class="logo__img" alt="swagger" height="30" width="30" src="images/logo_small.png" /><span class="logo__title">swagger</span></a>
     <form id='api_selector'>
       <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
-      <div class='input'><input placeholder="api_key" id="input_apiKey" name="apiKey" type="text"/></div>
-      <div class='input'><a id="explore" href="#" data-sw-translate>Explore</a></div>
+      <div id='auth_container'></div>
+      <div class='input'><a id="explore" class="header__btn" href="#" data-sw-translate>Explore</a></div>
     </form>
   </div>
 </div>
@@ -336,7 +297,7 @@ If the previous instructions were confusing, just copy the following code and re
 </html>
 ```
 
-### c. Upload the Files to a Web Host
+### c. Upload the Files to a Web Host {#upload}
 
 You can't view the Swagger UI display locally &mdash; you must view it on a web server. If you already have a web server, great. Just upload the dist folder there and view it. 
 
