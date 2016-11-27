@@ -26,7 +26,7 @@ You can code this Swagger file by hand in a text editor, or you can auto-generat
 
 ## The Swagger Petstore example
 
-In order to get a better understanding of Swagger, let's explore the Petstore example.
+In order to get a better understanding of Swagger, let's explore the Petstore example. Note that this UI is Swagger UI. Swagger can be rendered into different visual displays based on the visual framework you decide to use to parse the Swagger spec.
 
 <a href="http://petstore.swagger.io/"><img src="{{ "/images_api/swaggerpetstoreui.png" | prepend: site.baseurl }}" alt="" /></a>
 
@@ -41,7 +41,7 @@ There are three resources: pet, store, and user.
 	
 	This populates the body value with the JSON. This is the JSON you must submit in order to create a pet. 
 	
-3. Change the value for the first `id` tag. (Make it really unique so that others don't use the same `id`.)
+3. Change the value for the first `id` tag. (Make it really unique so that others don't use the same `id`, and don't start with `0`.)
 4. Change `name` value to something unique. Here's an example:
 	
    ```json
