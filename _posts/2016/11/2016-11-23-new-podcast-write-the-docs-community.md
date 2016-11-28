@@ -20,11 +20,11 @@ I felt there was a need for a discussion-based podcast similar to Leo Laporte's 
 
 Although we'll be the core co-hosts, we're also planning to rotate in other WTD community members as well. Right now the podcast is in its early stages, and we have just one episode recorded. 
 
-The podcast is a group effort, with everyone pitching in, from the recording to the post-editing to the website and more. I helped build the site, so I'll mention a few details here.
+The podcast is a group effort, with everyone pitching in, from the recording to the post-editing to the website and more. 
 
 ## Building the podcast site 
 
-To build the site, we started with this [Soundcast HTML theme](http://preview.themeforest.net/item/soundcast-podcast-responsive-theme/full_screen_preview/15691831?_ga=1.186618985.1798318015.1478823039). I then converted it to Jekyll. The conversion to Jekyll is surprisingly simple. At some point I want to write a more detailed guide on how to convert a site to Jekyll, but basically converting an HTML site to Jekyll involves the following:
+I helped build the site, so I wanted to mention a few details here. To build the site, we started with this [Soundcast HTML theme](http://preview.themeforest.net/item/soundcast-podcast-responsive-theme/full_screen_preview/15691831?_ga=1.186618985.1798318015.1478823039). I then converted it to Jekyll. The conversion to Jekyll is surprisingly simple. At some point I want to write a more detailed guide on how to convert a site to Jekyll, but basically converting an HTML site to Jekyll involves the following:
 
 * Add a _config.yml file to the project.
 * Define a layout in the _layouts folder.
@@ -34,12 +34,14 @@ To build the site, we started with this [Soundcast HTML theme](http://preview.th
 
 The most difficult part was modifying the HTML from the original theme to exclude all the layouts that we didn't need, because we didn't have the right image assets and lacked more content. 
 
-The heart of any podcast site is the media RSS feed. You can see this feed at [http://podcast.writethedocs.org/itunes.rss](http://podcast.writethedocs.org/itunes.rss). The RSS feed is how you syndicate your site across different channels, such as [iTunes](https://itunes.apple.com/us/podcast/write-the-docs-podcast/id1178393510) and [Stitcher](http://www.stitcher.com/podcast/write-the-docs-podcast].
+The heart of any podcast site is the media RSS feed. You can see this feed at [http://podcast.writethedocs.org/itunes.rss](http://podcast.writethedocs.org/itunes.rss). The RSS feed is how you syndicate your site across different channels, such as [iTunes](https://itunes.apple.com/us/podcast/write-the-docs-podcast/id1178393510) and [Stitcher](http://www.stitcher.com/podcast/write-the-docs-podcast).
  
 The template for the media RSS feed is [here](https://github.com/writethedocspodcast/writethedocspodcast.github.io/blob/master/itunes.rss). In some places, the template gets values stored in the _config.yml file. 
 
-The template also loops through the latest posts ({% raw %}{% for ep in site.categories.podcasts %}{% endraw %}) that have `podcasts` as a category and inserts values from the frontmatter in those posts into the template. You can see the [frontmatter for the post here](https://github.com/writethedocspodcast/writethedocspodcast.github.io/blob/master/_posts/2016-11-19-episode-1-this-week-in-tech-comm.md).
- 
+The template also loops through the latest posts that have `podcasts` as a category and inserts values from the frontmatter in those posts into the template. You can see the [frontmatter for the post here](https://github.com/writethedocspodcast/writethedocspodcast.github.io/blob/master/_posts/2016-11-19-episode-1-this-week-in-tech-comm.md).
+
+## Subscribe 
+
 Enough of the technical details. I encourage you to subscribe in some form or another -- whether iTunes, Stitcher, Pocketcast, Youtube, RSS, Email, or some other method. We hope to publish regular podcasts here, with at least a monthly cadence, if not more frequent. 
 
 Let us know if you have any topic requests or feedback.
