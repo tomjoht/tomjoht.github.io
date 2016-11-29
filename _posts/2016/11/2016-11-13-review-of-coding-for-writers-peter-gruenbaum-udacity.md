@@ -5,7 +5,7 @@ categories:
 - beginners
 keywords: 
 summary: "Peter Gruenbaum has a new course on Udemy called Coding for Writers. Overall, this course takes a unique angle in not only teaching you the basics of coding (in this case, mostly JavaScript and Java), but also teaching you how to document the code, such as focusing on parameters, responses, and data types. He even talks about style conventions in the documentation, including verb tenses, code formatting, and sentence structures."
-thumb: 
+bitlink: http://bit.ly/reviewcoding4writers
 ---
 
 ## Coding for Writers 
