@@ -19,7 +19,12 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-gems: [jekyll-sitemap, jekyll-mentions, jekyll-redirect-from, jekyll-paginate]
+gems:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-paginate]
+  - algoliasearch-jekyll
 
 url: http://idratherbewriting.com
 
@@ -27,6 +32,7 @@ exclude:
   - _drafts
   - .idea
   - _site
+  - vendor
 
 # this enables collections
 collections:
@@ -122,3 +128,9 @@ podcast_description: Topics and issues for technical writers. Improve your techn
 podcast_summary: A technical writing podcast about the latest trends and practices in the field of technical communication. Technical communication includes topics like technical writing (software help), information architecture, usability, API documentation, information design, web design, illustration, DITA, structured authoring, visual communication, and more. If you're a technical writer or interested in technical writing, this is the one of few podcasts in this niche. I also have a blog at http://idratherbewriting.com where the podcasts and other blog topics are published.
 podcast_subtitle: Technical writing trends, innovations, and news. Content original from idratherbewriting.com. Hosted by Tom Johnson.
 
+
+####### Algolia configuration ###########
+algolia:
+  application_id: "HXUBJERYYB"
+  index_name: "idratherbewriting"
+  record_css_selector: 'p,ul,.summary'

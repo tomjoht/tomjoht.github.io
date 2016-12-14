@@ -145,4 +145,4 @@ Get more online: [uxcareershandbook.com/technical-communication](https://uxcaree
 
 Again, you [order the UX Careers Handbook from Amazon here](https://www.amazon.com/UX-Careers-Handbook-Cory-Lebson/dp/1138901067/ref=as_li_ss_tl?ie=UTF8&qid=1464783297&sr=8-1&keywords=ux+careers+handbook&linkCode=ll1&tag=uxca-20&linkId=6579f64f3bd0454cfce77342e8af7c0d).
 
-Special thanks to Ginny Reddish for her edits in my section and in the book overall.
+Special thanks to Ginny Redish for her edits in my section and in the book overall.

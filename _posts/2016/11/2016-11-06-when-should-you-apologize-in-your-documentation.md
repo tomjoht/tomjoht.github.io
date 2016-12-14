@@ -2,7 +2,7 @@
 title: "Should you ever apologize for something product-related in your documentation? Looking at Apple's dongle documentation"
 categories:
 - general
-summary: "Apple's recent dongle fiasco raises an interesting tech comm question: Is there ever a time when you, as a technical writer, should apologize for something product-related in your documentation? I looked at Apple's end-user docs about their ports but didn't see any acknowledgement that they were inconveniencing their users in an extreme way. Instead, the tone was merely straightforward and factual about which adapters you would need. When an issue is controversial or obviously of deep concern to users, documentation should address the issue head-on. You don't need to try to communicate about the issue in an emotional way (though that tone might be  welcome to users), you just need to <i>include</i> the information, mostly following Reddish's documentation-as-conversation model."
+summary: "Apple's recent dongle fiasco raises an interesting tech comm question: Is there ever a time when you, as a technical writer, should apologize for something product-related in your documentation? I looked at Apple's end-user docs about their ports but didn't see any acknowledgement that they were inconveniencing their users in an extreme way. Instead, the tone was merely straightforward and factual about which adapters you would need. When an issue is controversial or obviously of deep concern to users, documentation should address the issue head-on. You don't need to try to communicate about the issue in an emotional way (though that tone might be  welcome to users), you just need to <i>include</i> the information, mostly following Redish's documentation-as-conversation model."
 bitlink: http://bit.ly/apologiesindocs
 ---
 
@@ -36,7 +36,7 @@ I decided to check out Apple's documentation pages about the ports and required 
 
 There's nothing in the documentation that hints at the inconvenience and cumbersomeness of these dongles/adapters. (Apple's docs use the term "adapter" instead of "dongle.") 
 
-If you're trying to relate to your users, wouldn't you anticipate some of their questions and address these issues? In Ginny Reddish's book *Letting Go of the Words*, she explains that documentation should be written as if you're having a conversation with your users. Reddish explains:
+If you're trying to relate to your users, wouldn't you anticipate some of their questions and address these issues? In Ginny Redish's book *Letting Go of the Words*, she explains that documentation should be written as if you're having a conversation with your users. Redish explains:
  
 > If you think of the web as conversation, you'll realize that much of your content is meant to answer the questions that people come with. you do not want an entire site to be in a section called frequently asked questions. You do want to think about what people come wanting to know and then about how to give them that information as concisely and clearly as possible. ([Letting Go of the Words](http://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/))
 
@@ -52,7 +52,7 @@ You get the point: Include the questions your users have. By avoiding this issue
 
 ## Best practices 
 
-I think that as a best practice, tech writers should follow Reddish's advice to imagine a conversation with users. If users have specific questions, we should make these questions and issues explicit. 
+I think that as a best practice, tech writers should follow Redish's advice to imagine a conversation with users. If users have specific questions, we should make these questions and issues explicit. 
 
 Implementing this advice can be difficult because tech writers are usually overruled/bullied by product managers who don't want to say anything negative or controversial about their product ... ever. 
 
@@ -92,7 +92,7 @@ Apple's docs missed a point to show their humanity with this issue, but you don'
 
 I'm *not* saying you need an approach like that, because this sort of tone definitely breaks what is the usual professional voice that companies adopt.
 
-What I'm saying is that Reddish's approach of phrasing anticipated objections as questions and then providing answers is the way to go. You can do that without falling into jokey humor or a light-hearted tone.
+What I'm saying is that Redish's approach of phrasing anticipated objections as questions and then providing answers is the way to go. You can do that without falling into jokey humor or a light-hearted tone.
 
 I also think that technical writers can and should play stronger roles about what should or should not be communicated in documentation. In writing this, I realize that I've been too much of a "yes man" in IT groups. In more scenarios, I should push back against product managers who say "don't mention this" or "we don't want to say that." 
 
