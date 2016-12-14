@@ -1,5 +1,5 @@
 ---
-title: "Challenges in soliciting contributions to documentation: Updating a single page versus updating the documentation as a whole"
+title: "Updating a single page versus updating the documentation as a whole"
 categories:
 - general
 keywords:
@@ -15,8 +15,6 @@ As such, it may be particularly difficult for people with a narrow focus to cont
 Developers may write up coherent documentation on a single page describing how that feature works, but integrating that information into the larger documentation set requires them to be familiar with all the other parts of the documentation, with all the other existing features, the styles and conventions used in other areas, and more. They have to know what other content exists, and how their contribution fits into that content.
 
 Developers have rarely read all the documentation for a product, so the task of contributing in a holistic way to the documentation becomes more difficult and time-consuming. The required analysis and integration into larger information structures requires a wider, more encompassing view into documentation. It requires someone who has a broader (though probably shallower) knowledge of all topic areas rather than a deeper (but narrower) knowledge.
-
-## Silos within the same documentation set
 
 As the trend toward more specialized knowledge increases, we risk creating silos within the same documentation set. By silos, I mean standalone pieces of information that are complete unto themselves, but likely redundant, overlapping, and inconsistent when viewed as a whole against other documentation topics.
 
