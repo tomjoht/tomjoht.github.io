@@ -1178,3 +1178,7 @@ ul#mysidebar li.active a {
 .fb-share-button.fb_iframe_widget {
     top: -5px;
 }
+
+video {
+  max-width: 640px;
+}
