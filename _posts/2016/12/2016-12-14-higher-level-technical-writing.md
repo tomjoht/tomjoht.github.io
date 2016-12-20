@@ -4,6 +4,7 @@ categories:
 - general
 keywords:
 summary: "This past week I made some contributions to the Jekyll documentation, and in making the pull requests, I realized why technical writing is often so difficult. Making a request to one documentation topic often requires you to adjust other topics as well. So often we place the bar for contribution at whether someone can write. In reality, it's not just whether someone can construct clear, grammatically correct sentences. It's whether the person can integrate the information into a larger documentation set."
+bitlink: http://bit.ly/singlepageversuswhole
 ---
 
 ## Documentation topics are interconnected
