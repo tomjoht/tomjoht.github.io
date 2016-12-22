@@ -29,14 +29,15 @@ In this section, you'll use cURL to make the same requests you made previously w
 	  curl --get --include 'https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0' \
       -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' \
       -H 'Accept: text/plain'
-   ```
+    ```
+
 3.  If you're on Windows, do the following:
     * Change the single quotation marks to double quotation marks
     * Remove the backslashes (`\`)
     * Add `-k` after `--get`  as well to work around security certificate issues.
 
     The request should now look like this:
-    
+
     ```sh
     curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.0&lng=1.0" -H "X-Mashape-Key: APIKEY" -H "Accept: text/plain"
     ```
@@ -70,7 +71,7 @@ In this section, you'll use cURL to make the same requests you made previously w
     You should see something like this as a response:
 
     <img src="{{ "/images_api/aqi_curl_response.png" | prepend: site.baseurl }}" alt="cURL call" />
-
+    
     The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
 ## Make the request in cURL (Windows 7)
