@@ -71,7 +71,7 @@ In this section, you'll use cURL to make the same requests you made previously w
     You should see something like this as a response:
 
     <img src="{{ "/images_api/aqi_curl_response.png" | prepend: site.baseurl }}" alt="cURL call" />
-    
+
     The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
 ## Make the request in cURL (Windows 7)
@@ -80,19 +80,19 @@ In this section, you'll use cURL to make the same requests you made previously w
 2.  Go to **Start** and type **cmd** to open up the commandline. (If you're on Windows 8, see [these instructions for accessing the commandline](http://pcsupport.about.com/od/windows-8/a/command-prompt-windows-8.htm).)
 3.  Right-click and then select **Paste** to insert the call. My call for the Mashape API looks like this:
 
-   ```sh
-	curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246" -H "X-Mashape-Key: APIKEY" -H "Accept: text/plain"
-   ```
+    ```sh
+	  curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&lng=103.7231246" -H "X-Mashape-Key: APIKEY" -H "Accept: text/plain"
+    ```
 
-	For the Aeris endpoint, it looks like this:
+    For the Aeris endpoint, it looks like this:
 
-   ```sh
-	curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id=CLIENTID&client_secret=CLIENTSECRET" -H "Accept: application/json"
-   ```
+    ```sh
+    curl --get --include "http://api.aerisapi.com/observations/santa%20clara,ca?client_id=CLIENTID&client_secret=CLIENTSECRET" -H "Accept: application/json"
+    ```
 
-	The response from Mashape looks like this:
+    The response from Mashape looks like this:
 
-	<img src="{{ "/images_api/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
+    <img src="{{ "/images_api/commandline.png" | prepend: site.baseurl }}" alt="Command line Windows" />
 
 
 ## Single and Double Quotes with Windows cURL requests
