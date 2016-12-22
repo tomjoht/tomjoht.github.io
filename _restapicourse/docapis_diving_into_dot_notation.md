@@ -1,7 +1,7 @@
 ---
 title: Diving into dot notation
 permalink: /docapis_diving_into_dot_notation/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 2.3
 type: notes_docapis
@@ -14,7 +14,7 @@ Let's dive into dot notation a little more.
 
 You use a dot after the object name to access its properties. For example, suppose you have an object called `data`:
 
-```
+```json
 "data": {
 "name": "Tom"
 }
@@ -28,7 +28,7 @@ It's important to note the different levels of nesting so you can trace back the
 
 To access a value in an array, you use square brackets followed by the position number. For example, suppose you have the following array:
 
-```
+```json
 "data" : {
   "items": ["ball", "bat", "glove"]
 }
@@ -116,7 +116,7 @@ Check your work by looking at the <a href="{{ "/docapis_answers" | prepend: base
 
 ## Showing wind conditions on the page
 
-At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together. 
+At the beginning of the course, I showed an example of embedding the wind speed and other details on a website. Now let's revisit this code example and see how it's put together.
 
 Copy the following code into a basic HTML page, customize the `APIKEY` value, and view it in the browser:
 
@@ -185,4 +185,3 @@ A few things are different here, but it's essentially the same code:
 When you load the page and click the button, the following should appear:
 
 <img src="{{ "/images_api/windconditionsfinaloutput.png" | prepend: site.baseurl }}" alt="Final REST API" />
-

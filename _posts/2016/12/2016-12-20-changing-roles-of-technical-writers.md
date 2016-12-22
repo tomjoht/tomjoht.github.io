@@ -26,7 +26,7 @@ If I don't specialize my knowledge in the product's tech, how should I focus my 
 * I can solicit the information we need, commit engineers to write, and push the content through the appropriate approval channels. (In short, I would be a kind of producer on a movie set, directing actors and scenes for the desired result.)
 * I can analyze user feedback from forums, support logs, search queries, metrics, websites, and other channels. Based on my analysis, I could take action to either solicit the needed content, adjust the existing content, or provide more strategic direction about any gaps.
 * I can organize authoring workflows with git and repos to allow engineers to write and collaborate, submit pull requests, and push out new content somewhat autonomously. Orchestrating this distributed git workflow for doc can help us scale our efforts across the company.
-* I can analyze the information architecture of the doc site, how various products are organized, how users navigate to them, and provide the right tags and facts to increase findability across the documentation.
+* I can analyze the information architecture of the doc site, how various products are organized, how users navigate to them, and provide the right tags and facets to increase findability across the documentation.
 
 I *can* do all of the above, but often I don't simply because I'm focused on creating yet another new documentation article or topic by somewhat replicating the engineer's technical knowledge (a portion of it anyway). Writing is hard work, and I can easily spend the full day just creating one new doc article.
 
