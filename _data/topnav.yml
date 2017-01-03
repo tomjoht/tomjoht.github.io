@@ -168,11 +168,9 @@ topnav_dropdowns:
         url: /category-writing/
     - title: Other
       items:
-      - title: Advertising
-        url: /advertising/
       - title: Visual comm
         url: /2016/05/01/visualcommunication_course_overview
-      - title: JavaScript note
+      - title: JavaScript notes
         url: /javascript/
       - title: DITA notes
         url: /ditaqrg/
