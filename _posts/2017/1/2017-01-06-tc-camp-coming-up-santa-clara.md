@@ -1,0 +1,26 @@
+---
+title: "TC Camp in Santa Clara coming up on Jan 21"
+categories:
+- api-doc
+- beginners
+summary: "TC Camp is holding its annual, a free unconference for Tech Comm on Jan. 21 in Santa Clara. TC Camp starts with morning workshops given by experts in the field for a nominal fee. The unconference follows, where attendees vote on the topics to be discussed. It is a great event for networking and exchanging ideas."
+---
+
+The TC Camp Unconference is one of my favorite conferences for a number of reasons:
+
+* The sessions are user-led
+* The audience consists mainly of Bay area tech writers
+* It's free and just 2 miles from my house
+
+To learn more TC Camp, see the previous interview I did with Liz Fraley: [Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, TC Camp Founder](http://idratherbewriting.com/2016/01/06/tc-camp-unconference-interview-with-liz-fraley/)
+
+Before the unconference, several morning workshops are held (for minimal fees). Additionally, the day before the conference, on January 20, Peter Gruenbaum, president of SDK Bridge (which specializes in API documentation) and author of four online courses on writing API documentation on Udemy, each of which [I][1] [have][2] [reviewed][3] [on this site][4], will be giving a full-day [API workshop](http://www.tccamp.org/2016/12/api-workshop-tc-camp-west-2017/). This workshop is a great opportunity to learn API documentation from a guru in the field.
+
+
+[1]: http://idratherbewriting.com/2016/11/13/review-of-coding-for-writers-peter-gruenbaum-udacity/
+
+[2]: http://idratherbewriting.com/2016/02/08/third-api-course-from-peter-gruenbaum/
+
+[3]: http://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/
+
+[4]: http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/
