@@ -294,41 +294,41 @@ entries:
       items:
         - title: Overview of native library APIs
           url: /nativelibraryapis_overview/
-          weight: 8.1
+          weight: 7.3
           output: web, pdf
         - title: Getting the Java source
           url: /nativelibraryapis_getting_the_source/
-          weight: 8.2
+          weight: 7.4
           output: web, pdf
         - title: Java crash course
           url: /nativelibraryapis_java_crash_course/
-          weight: 8.3
+          weight: 7.5
           output: web, pdf
         - title: Generate a Javadoc
           url: /nativelibraryapis_create_javadoc/
-          weight: 8.4
+          weight: 7.6
           output: web, pdf
         - title: Javadoc tags
           url: /nativelibraryapis_javadoc_tags/
-          weight: 8.5
+          weight: 7.7
           output: web, pdf
         - title: Exploring the Javadoc output
           url: /nativelibraryapis_exploring_javadoc_output/
-          weight: 8.6
+          weight: 7.8
           output: web, pdf
         - title: Doxygen, another document generator
           url: /nativelibraryapis_doxygen/
-          weight: 8.7
+          weight: 7.9
           output: web, pdf
         - title: Documenting non-reference API docs
           url: /nativelibraryapis_nonrefdocs
-          weight: 8.8
+          weight: 8.0
           output: web, pdf
         - title: "My biggest tip: Test everything"
           url: /nativelibraryapis_testing/
-          weight: 8.9
+          weight: 8.1
           output: web, pdf
         - title: Course summary
           url: /nativelibraryapis_workshop_summary/
-          weight: 9.0
+          weight: 8.2
           output: web, pdf
