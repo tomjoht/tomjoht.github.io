@@ -1,5 +1,5 @@
 ---
-title: "TC Camp in Santa Clara coming up on Jan 21"
+title: "TC Camp in Santa Clara to be held Jan 21, 2017"
 categories:
 - api-doc
 - beginners
@@ -14,13 +14,13 @@ The TC Camp Unconference is one of my favorite conferences for a number of reaso
 
 To learn more TC Camp, see the previous interview I did with Liz Fraley: [Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, TC Camp Founder](http://idratherbewriting.com/2016/01/06/tc-camp-unconference-interview-with-liz-fraley/)
 
-Before the unconference, several morning workshops are held (for minimal fees). Additionally, the day before the conference, on January 20, Peter Gruenbaum, president of SDK Bridge (which specializes in API documentation) and author of four online courses on writing API documentation on Udemy, each of which [I][1] [have][2] [reviewed][3] [on this site][4], will be giving a full-day [API workshop](http://www.tccamp.org/2016/12/api-workshop-tc-camp-west-2017/). This workshop is a great opportunity to learn API documentation from a guru in the field.
+Before the unconference, several morning workshops are held (for minimal fees). Additionally, the day before the conference, on January 20, [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/), president of SDK Bridge and author of four online courses on writing API documentation on Udemy, each of which I have reviewed on this site ([1][1], [2][2], [3][3], [4][4]), will be giving a full-day [API workshop](http://www.tccamp.org/2016/12/api-workshop-tc-camp-west-2017/). This workshop is a great opportunity to learn API documentation from a guru in the field.
 
 
-[1]: http://idratherbewriting.com/2016/11/13/review-of-coding-for-writers-peter-gruenbaum-udacity/
+[4]: http://idratherbewriting.com/2016/11/13/review-of-coding-for-writers-peter-gruenbaum-udacity/
 
-[2]: http://idratherbewriting.com/2016/02/08/third-api-course-from-peter-gruenbaum/
+[3]: http://idratherbewriting.com/2016/02/08/third-api-course-from-peter-gruenbaum/
 
-[3]: http://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/
+[2]: http://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/
 
-[4]: http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/
+[1]: http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/

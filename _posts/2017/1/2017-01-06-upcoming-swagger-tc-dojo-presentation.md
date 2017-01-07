@@ -1,5 +1,5 @@
 ---
-title: "Attend my upcoming TC Dojo presentation on Swagger"
+title: "Attend my upcoming TC Dojo presentation on Swagger on Jan 9, 2017"
 categories:
 - api-doc
 keywords:
