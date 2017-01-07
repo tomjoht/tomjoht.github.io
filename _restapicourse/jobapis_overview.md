@@ -2,7 +2,7 @@
 title: The job market for API technical writers
 course: "Documenting REST APIs"
 permalink: /jobapis_overview/
-weight: 8.1
+weight: 8.2
 type: notes_docapis
 ---
 {% include notes.html %}

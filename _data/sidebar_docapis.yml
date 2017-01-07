@@ -303,17 +303,20 @@ entries:
           url: /nativelibraryapis_exploring_javadoc_output/
           weight: 7.5
           output: web, pdf
+        - title: Making edits to Javadoc tags"
+          permalink: /nativelibraryapis_editing_javadoc/
+          weight: 7.6
         - title: Doxygen, another document generator
           url: /nativelibraryapis_doxygen/
-          weight: 7.6
+          weight: 7.7
           output: web, pdf
         - title: Documenting non-reference API docs
           url: /nativelibraryapis_nonrefdocs
-          weight: 7.7
+          weight: 7.8
           output: web, pdf
         - title: Course summary
           url: /nativelibraryapis_workshop_summary/
-          weight: 7.8
+          weight: 7.9
           output: web, pdf
 
     - title: Misc. Topics
@@ -321,16 +324,16 @@ entries:
       items:
         - title: "My biggest tip: Test everything"
           url: /nativelibraryapis_testing/
-          weight: 7.9
+          weight: 8.0
         - title: Tools versus content
           url: /pubapis_tools_vs_content/
-          weight: 8.0
+          weight: 8.1
           output: web, pdf
         - title: Job market overview
           url: /jobapis_overview/
-          weight: 8.1
+          weight: 8.2
           output: web, pdf
         - title: Learning code -- how much is enough?
           url: /pubapis_learning_to_code/
-          weight: 8.2
+          weight: 8.3
           output: web, pdf

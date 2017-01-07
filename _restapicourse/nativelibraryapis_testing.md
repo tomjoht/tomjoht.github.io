@@ -2,7 +2,7 @@
 title: "My biggest tip: Test everything"
 course: "Documenting REST APIs"
 permalink: /nativelibraryapis_testing/
-weight: 7.9
+weight: 8.0
 type: notes_docapis
 ---
 

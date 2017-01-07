@@ -3,7 +3,7 @@ title: "Creating non-ref docs with native library APIs"
 permalink: /nativelibraryapis_nonrefdocs/
 course: "Documenting REST APIs"
 type: notes_docapis
-weight: 7.7
+weight: 7.8
 ---
 
 ## About non-reference docs

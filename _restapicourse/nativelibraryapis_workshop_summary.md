@@ -2,7 +2,7 @@
 title: Course summary
 course: "Documenting REST APIs"
 permalink: /nativelibraryapis_workshop_summary/
-weight: 7.8
+weight: 7.9
 type: notes_docapis
 ---
 
