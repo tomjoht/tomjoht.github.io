@@ -4,6 +4,7 @@ categories:
 - api-doc
 - beginners
 summary: "TC Camp is holding its annual, a free unconference for Tech Comm on Jan. 21 in Santa Clara. TC Camp starts with morning workshops given by experts in the field for a nominal fee. The unconference follows, where attendees vote on the topics to be discussed. It is a great event for networking and exchanging ideas."
+bitlink: http://bit.ly/tccampsantaclara
 ---
 
 The TC Camp Unconference is one of my favorite conferences for a number of reasons:

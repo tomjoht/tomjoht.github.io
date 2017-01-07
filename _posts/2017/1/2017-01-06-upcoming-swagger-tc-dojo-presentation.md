@@ -4,6 +4,7 @@ categories:
 - api-doc
 keywords:
 summary: "I'm giving a TC Dojo presentation this Monday morning (Jan 9) on Swagger. If you're interested, you can register and attend for free. The event will also be recorded."
+bitlink: http://bit.ly/tcdojoswagger
 ---
 
 In the spirit of a dojo, my presentation is called **Harnessing the Chi of Swagger in Your API Docs**. Here's the description:
@@ -13,7 +14,7 @@ In the spirit of a dojo, my presentation is called **Harnessing the Chi of Swagg
 **Date:** Mon, Jan 9, 2017 <br/>
 **Time**: 9:00 AM - 9:30 AM PST
 
-<a href="https://attendee.gotowebinar.com/register/2294274322258003203"><button type="button" class="btn btn-default">Register here</button></a>
+<a href="https://attendee.gotowebinar.com/register/2294274322258003203"><button type="button" class="btn btn-info">Register here</button></a>
 
 Interested in previewing my slides? You can check out an early draft [here](http://idratherbewriting.com/files/swaggerslides), though I'm still working on them.
 
