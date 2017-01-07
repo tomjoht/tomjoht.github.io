@@ -325,15 +325,12 @@ entries:
         - title: "My biggest tip: Test everything"
           url: /nativelibraryapis_testing/
           weight: 8.0
-        - title: Tools versus content
-          url: /pubapis_tools_vs_content/
-          weight: 8.1
           output: web, pdf
         - title: Job market overview
           url: /jobapis_overview/
-          weight: 8.2
+          weight: 8.1
           output: web, pdf
         - title: Learning code -- how much is enough?
           url: /pubapis_learning_to_code/
-          weight: 8.3
+          weight: 8.2
           output: web, pdf

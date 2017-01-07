@@ -4,7 +4,7 @@ permalink: /pubapis_learning_to_code/
 categories:
 - api-doc
 course: "Documenting REST APIs"
-weight: 8.3
+weight: 8.2
 type: notes_docapis
 ---
 {% include notes.html %}
