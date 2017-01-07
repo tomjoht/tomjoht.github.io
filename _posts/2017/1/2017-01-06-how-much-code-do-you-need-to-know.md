@@ -1,5 +1,5 @@
 ---
-title: "How much code do you need to know to do API developer documentation?"
+title: "How much code do you need to know to create API developer documentation?"
 categories:
 - api-doc
 - beginners
