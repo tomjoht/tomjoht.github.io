@@ -29,6 +29,11 @@
 				color: orange;
 				outline-color: gray;
 			}
+
+            li.orange {
+                color: orange;
+                font-weight: bold;
+            }
             .reveal figcaption {
                 font-size: 24px;
             }
@@ -154,16 +159,16 @@
 						<li>Plug into design vocab</li>
                         <li>Apply it to documentation</li>
                         <li>Group the principles logically</li>
-                        <li>Apply the principles to existing help content</li>
+                        <li>Evaluate the principles against help content</li>
 					</ul>
 				</section>
 
                 <section>
-                    <h2>Grouping the principles</h2>
+                    <h2>Grouping the design principles</h2>
                     <ol>
-                        <li>What to write</li>
-                        <li>How to organize it</li>
-                        <li>How to write it</li>
+                        <li class="orange"><i>What</i> to write</li>
+                        <li class="orange">How to <i>organize</i> it</li>
+                        <li class="orange">The <i>way</i> to write it</li>
 
                     </ol>
                 </section>
@@ -184,7 +189,7 @@
 
                 <section>
                     <h2>Normal Distribution</h2>
-                    <p>Document what most users need to know, and omit edge cases or obvious information. Edges cases and obvious info fall outside the normal curve of distribution. Adding them into the main doc dilutes the information for the majority.</p>
+                    <p>Document what most users need to know, and omit info that applies to only a small percentage of users (edge cases or obvious information). Adding it into the main doc dilutes the information for the majority.</p>
 
                     <aside class="notes"><a href="https://learn.mdsol.com/csa/en/csa-about-handling-incorrect-dates-65025158.html">Sample</a>. Seems like this is an edge case that might be better suited to a KB article. It's hard for me to discern what might be a fringe case because I'm not familiar with the content. </aside>
                 </section>
@@ -237,7 +242,7 @@ Who is medidata (or iMedidata) for? If there are clearly defined personas, perha
                 <section>
                     <section>
                     <h2>Hierarchy</h2>
-                    <p>A hierarchical outline of the content (with parent and child items organized in trees) helps users understand and visualize complex information. </p>
+                    <p>A hierarchical outline of the content (with parent and child items organized in trees) helps users both understand and visualize complex information. </p>
                     <p>Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.</p>
                 </section>
                     <section>
@@ -263,11 +268,11 @@ Who is medidata (or iMedidata) for? If there are clearly defined personas, perha
                     <section>
                         <h3>Hierarchy best practices</h3>
                         <ul>
-                            <li>Limit hierarchies to 3 levels in the left nav</li>
-                            <li>Provide a way for users to see the full hierarchy at a glance</li>
-                            <li>Break up complex hierarchies into multiple, separate hiearchies</li>
-                            <li>Provide a way to navigate from one hierarchy to another</li>
-                            <li>Put page-level hierarchies on the page, preferably on the right</li>
+                            <li>Limit navigation (hierarchy) to 3 levels, placed on left</li>
+                            <li>Allow users to see the full navigation menu at a glance</li>
+                            <li>Break up massive navigation into multiple  menus</li>
+                            <li>Provide a way to navigate from one nav menu to another</li>
+                            <li>Put page-level navigation on the page, preferably on right</li>
                         </ul>
 
                         <aside class="notes">
