@@ -2,7 +2,7 @@
 title: Java in a nutshell
 permalink: /nativelibraryapis_java_crash_course/
 course: "Documenting REST APIs"
-weight: 8.3
+weight: 7.2
 type: notes_docapis
 ---
 

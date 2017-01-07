@@ -3,7 +3,7 @@ title: "Exploring the Javadoc output"
 permalink: /nativelibraryapis_exploring_javadoc_output/
 course: "Documenting REST APIs"
 type: notes_docapis
-weight: 8.6
+weight: 7.5
 ---
 
 ## About the Javadoc output

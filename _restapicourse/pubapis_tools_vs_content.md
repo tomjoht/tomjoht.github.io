@@ -3,7 +3,7 @@ title: "Tools versus content"
 permalink: /pubapis_tools_vs_content/
 course: "Documenting REST APIs"
 type: notes_docapis
-weight: 7.0
+weight: 7.9
 ---
 
 ## Don't forget the content 
