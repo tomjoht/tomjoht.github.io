@@ -1,0 +1,1108 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>10 Strategies for User-Centered Documentation</title>
+      <meta name="description" content="presentation for improving the practices of technical documention by focusing on the user>
+      <meta name="author" content="Tom Johnson">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+      <!-- favicon icons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!-- end favicon code -->
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+      <!-- Code syntax highlighting -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+      <!-- Printing and PDF exports -->
+      <script>
+         var link = document.createElement( 'link' );
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+         document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+      <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+      <!-- these are my custom styles. remember that slide sizes scale, so try to use percentages. -->
+      <style>
+         p.alignLeft {
+         text-align: left;
+         }
+         span.orange, a.orange {
+         color: orange;
+         outline-color: gray;
+         }
+         div.innovation ul li {
+         margin-bottom:12px;
+         }
+         figcaption {
+         font-size:12px;
+         }
+         p.miscItems {
+         font-size:1.2em;
+         }
+         .slides section h3 {
+         color: orange !important; outline: gray;
+            margin:0px;
+         }
+         .slides img {
+         max-width: 83%;
+         max-height: 83%;
+         border:3px solid red;
+         }
+         #upcoming-slide .label {
+         color: #444 !important
+         }
+         ul.credits li {
+         font-size: .6em;
+         }
+         .reveal section h3 {
+            margin:0px;
+         }
+         .reveal section img {
+            margin-bottom:0px;
+         }
+         span.strategy {
+            border: 1px solid #dedede;
+            padding: 4px 6px;
+            border-radius: 8px;
+         }
+         span.myname {
+            font-weight: bold;
+            font-size: 52px;
+            color: #555;
+            font-family: "Lucida Handwriting";
+         }
+      </style>
+      <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
+   </head>
+   <body>
+      <div class="reveal innovation">
+         <!-- Any section element inside of this container is displayed as a slide -->
+         <div class="slides">
+            <section>
+               <h1>10 Strategies for <br /><span class="orange">User-Centered</span> Documentation</h1>
+               
+               <p>
+                  <small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                  <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
+               </p>
+               <aside class="notes">
+                  <p>- a little bit about yourself</p>
+                  <p>- your blog</p>
+                  <p>- ask questions at anytime</p>
+               </aside>
+            </section>
+
+            <section>
+               <h2>Observations in a usability lab</h2>
+               <a href="https://www.flickr.com/photos/44839709@N07/5739369780/in/photostream/"><img class="shortened" src="media/rasters/usability_lab.jpg"/></a>
+               <aside class="notes">
+                  <p>— double-glass window</p>
+                  <p>— adrenaline rush</p>
+                  <p>— designers think users are morons</p>
+               </aside>
+
+            </section>
+            <section>
+               <h2>Contrasting approaches</h2>
+               <img src="media/vectors/usercentered_usercentereddesign.svg" />
+               <aside class="notes">
+                  <p>— If user is out of sight, out of mind</p>
+                  <p>— All content decisions taken with user foremost in mind</p>
+                  <p>— Focusing on reader is good writing</p>
+               </aside>
+
+            </section>
+            <section>
+               <h2>10 patterns of user behavior with doc</h2>
+               <ol>
+
+                  <li>Users are frustrated, impatient</li>
+                  <li>Users read non-sequentially</li>
+                  <li>Users organize the same items differently</li>
+                  <li>Some users are beginners</li>
+                  <li>Some users are advanced</li>
+                  <li>Users resist going into help</li>
+                  <li>Users desire simple instructions</li>
+                  <li>Users want to begin right away</li>
+                  <li>Users gravitate toward visuals</li>
+                  <li>Users may not speak your "language"</li>
+               </ol>
+               <aside class="notes">
+                  <p>— Can't do usability studies every time</p>
+                  <p>— Instead, optimize for universal behaviors</p>
+                  <p>— List isn't exhaustive or scientific</p>
+               </aside>
+
+            </section>
+
+            <section>
+               <h2>Keyboard Shortcuts</h2>
+               <table>
+                  <tr>
+                     <td><b>Next Slide</b></td>
+                     <td>Space bar</td>
+                  </tr>
+                  <tr>
+                     <td><b>Full Screen</b></td>
+                     <td>F</td>
+                  </tr>
+                  <tr>
+                     <td><b>Thumbnail View</b></td>
+                     <td>Esc</td>
+                  </tr>
+               </table>
+               <p><small>View online at <a href="http://bitly.com/tom-ucd">bitly.com/tom-ucd</a></small><br/>
+                  <small><i><b>Note:</b> Many slides move down instead of to the side, so use the space bar to advance slides.</i></small>
+               </p>
+               <aside class="notes">
+                  <p>Congrats -- this is the speaker notes view.</p>
+                  <p>I only have brief notes here. I elaborate more in blog posts.</p>
+                  <p>Notice the navigation arrows in the lower corner.</p>
+               </aside>
+            </section>
+            <!--
+                            _   _                    _
+                _ __   __ _| |_| |_ ___ _ __ _ __   / |
+               | '_ \ / _` | __| __/ _ \ '__| '_ \  | |
+               | |_) | (_| | |_| ||  __/ |  | | | | | |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_| |_|
+               |_|
+               -->
+<section>
+               <h2>P1: Users read non-sequentially</h2>
+
+               <section>
+                  <blockquote>You can just read the sections about the tasks you want to do. <br /></blockquote>
+                  &mdash; John Carroll, <a
+                       href="http://faculty.washington.edu/farkas/dfpubs/Farkas-Williams-CarrollsNurnbergFunnel.pdf">The Nurnberg Funnel</a>
+                  <aside class="notes">
+                     <p>— Published in 1990</p>
+                     <p>— Reaction against sequential learning models at the time</p>
+                     <p>— Realized readers skip around out of sequence, impatient to act</p>
+                  </aside>
+               </section>
+               <section data-background="media/rasters/trainwreck.jpg">
+                  <h3>
+                     <span style="color: #444;">Topic-based authoring is great. Where do things go</span> wrong?</h3>
+                  <aside class="notes">
+                     <p>— Minimalism formed basis for topic-based authoring, structured authoring</p>
+                     <p>— Seems like a great idea, but can go wrong</p>
+                     <p>— 2 main reasons why</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Wrong: Building blocks &ne; presentation</h3>
+                  <img src="media/vectors/usercentered_buildingblocks.svg"/>
+                  <aside class="notes">
+                     <p>— DITA topic types not glued together</p>
+                     <p>— Result is massive information fragmentation</p>
+                     <p>— User plays information pinball in help</p>
+                  </aside>
+               </section>
+
+
+               <section>
+                  <h3>Wrong: Don't auto-burst print books</h3>
+                  <img src="media/vectors/usercentered_bookstoweb.svg"/>
+                  <aside class="notes">
+                     <p>— Auto-bursting is arbitrary division at heading level</p>
+                     <p>— Common in transition from print to online</p>
+                     <p>— Write content with the primary pub format in mind</p>
+                  </aside>
+               </section>
+               <section><h3>The Frankenbook</h3>
+                  <blockquote>A Frankenbook is organized neither for linear reading, nor for random access.
+                     No matter where you land in it, you are in the middle of a maze with buttons to move up, down,
+                     or sideways, but no means of finding the end of any thread of narrative, great or small. Every
+                     page is page 297 and none of them answer your question ....
+                     .</blockquote> &mdash; Mark Baker, <a href="http://everypageispageone.com/2012/02/24/frankenbooks-must-die-a-rant/">Every Page Is Page One</a>
+                  <aside class="notes">
+                     <p>— Mark Baker's book is reaction to info fragmentation in doc</p>
+                     <p>— Frankenbook is online help stitched together but not really functional</p>
+                     <p>— Classic example: arrive at topic but can't do anything</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Treat "Every Page Is Page One"</h3>
+                  <img src="media/rasters/pageone.png"/>
+                  <aside class="notes">
+                     <p>— Users arrive at any point -- usually from search</p>
+                     <p>— How functional is doc in this paradigm?</p>
+                     <p>— How do you write help for this?</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Characteristics of "Every Page Is Page One" topics:</h3>
+                  <ul style="font-size:80%;margin-top:20px;">
+                     <li>Self-contained</li>
+                     <li>Specific and limited purpose</li>
+                     <li>Conform to type</li>
+                     <li>Establish context</li>
+                     <li>Assume the reader is qualified</li>
+                     <li>Stay on one level</li>
+                     <li>Link richly</li>
+                  </ul>
+                  <aside class="notes">
+                     <p>— Dives into detail in book </p>
+                     <p>— Every topic can be set in some larger context </p>
+                     <p>— Draw the line somewhere. Provide necessary context.</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <h3>Strategy: Create self-contained topics</h3>
+                  <a href="https://codex.wordpress.org/Installing_WordPress"><img class="shortened" src="media/rasters/wordpress.png"/></a>
+                  <aside class="notes">
+                     <p>— WordPress installation page really long</p>
+                     <p>— Encyclopedic wikis lend themselves to EPPO style </p>
+                     <p>— Topics more thorough, standalone</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Provide context before</h3>
+                  <a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="media/rasters/aws.png" /></a>
+                  <aside class="notes">
+                     <p>— Simple graphic but incredibly helpful</p>
+                     <p>— No need to put all this content on the same page</p>
+                     <p>— Essential for sequential processes</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Provide context after</h3>
+                  <a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="media/rasters/firebase.png" /></a>
+                  <aside class="notes">
+                     <p>— What comes next? Handhold user</p>
+                     <p>— Helps provide context</p>
+                     <p>— Only necessary for sequence, but also helpful in other topics</p>
+                  </aside>
+               </section>
+
+            </section>
+           
+
+            <!--                _                    ____
+                _ __   __ _| |_| |_ ___ _ __ _ __   |___ \
+               | '_ \ / _` | __| __/ _ \ '__| '_ \    __) |
+               | |_) | (_| | |_| ||  __/ |  | | | |  / __/
+               | .__/ \__,_|\__|\__\___|_|  |_| |_| |_____|
+               |_|
+
+               -->
+ <section>
+               <h2>P2: Users feel frustrated, impatient</h2>
+               <section>
+                  <video width="650" controls>
+                     <source src="media/videos/shannon.mp4" type="video/mp4">
+                  </video>
+                  <p><small>How does this user consume help content? (<a href="https://vimeo.com/3432290">Vimeo link</a>)</small></p>
+                  <aside class="notes">
+                     <p>— Wife ordered books, wrong email address, already shipped</p>
+                     <p>— Emotional state creates different reading patterns </p>
+                     <p>— Need to design information for this state of mind</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <blockquote>
+                     <b>How Users Read on the Web</b>
+                     <p>Summary: They don't. People rarely read Web pages word by word; instead, they scan the page, picking out individual words and sentences. <br />&mdash; Jakob Nielsen, <a href="http://www.nngroup.com/articles/how-users-read-on-the-web/">Nielsen Norman Group</a></p>
+                  </blockquote>
+                  <aside class="notes">
+                     <p>— Consume content at a glance</p>
+                     <p>— Users trying to get to right page</p>
+                     <p>— Avg. time on page for most is under 2 sec</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Use article summaries</h3>
+                  <img src="media/rasters/nielsen_pd.png"/>
+                  <aside class="notes">
+                     <p>— Supports wayfinding behavior -- is this the page I want?</p>
+                     <p>— Very helpful on Nielsen's site</p>
+                     <p>— Similar to shordesc element in DITA. Summary can appear in many places.</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3> Strategy: Use lots of subheadings</h3>
+                  <a href="http://uxmovement.com/content/how-to-use-page-headings-to-increase-findability/"><img src="media/rasters/store2.png"/></a>
+                  <p><small><a href="http://uxmovement.com/content/how-to-use-page-headings-to-increase-findability/">UX Matters</a></small></p>
+                  <aside class="notes">
+                     <p>— One of most useful techniques in writing</p>
+                     <p>— Microcosm of page summary applied at paragraph level</p>
+                     <p>— Subheads should be clear -- this helps focus writing too</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3> Strategy: Structure information in lists</h3>
+                  <img src="media/rasters/krug_lists.png"/></a>
+                  <aside class="notes">
+                     <p>— Even non-list paragraphs can be restructured as lists</p>
+                     <p>— Bold intro. sentences facilitate scanning</p>
+                     <p>— Dramatically improves readability</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Unreadable content &mdash; no list formatting</h3>
+                  <p style="text-align:left;">Nebraska is filled with internationally recognized attractions that draw large crowds of people every year, without fail. In 1996, some of the most popular places were Fort Robinson State Park (355,000 visitors), Scotts Bluff National Monument (132,166), Arbor Lodge State Historical Park & Museum (100,000), Carhenge (86,598), Stuhr Museum of the Prairie Pioneer (60,002), and Buffalo Bill Ranch State Historical Park (28,446).</p>
+                  <aside class="notes">
+                     <p>— No list</p>
+                     <p>— Not concise</p>
+                     <p>— People gloss over long walls of text</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Rewritten for readability &mdash; 124% usability improvement</h3>
+                  <p>In 1996, six of the most-visited places in Nebraska were:
+                  <ul><li>Fort Robinson State Park</li>
+                     <li>Scotts Bluff National Monument</li>
+                     <li>Arbor Lodge State Historical Park & Museum</li>
+                     <li>Carhenge</li>
+                     <li>Stuhr Museum of the Prairie Pioneer</li>
+                     <li>Buffalo Bill Ranch State Historical Park</li></ul></p>
+                  <small>Jakob Nielsen, <a href="http://www.nngroup.com/articles/how-users-read-on-the-web/">How Users read on the web</a></small>
+                  <aside class="notes">
+                     <p>— List structure improves readability</p>
+                     <p>— Also more concise</p>
+                     <p>— Facilitates scanning</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3> Strategy: Make sentences short and easy</h3>
+                  <blockquote>We're thinking "great literature" (or at least "product brochure"), while the user’s reality is much closer to "billboard going by at 60 miles an hour." &mdash; Steve Krug, <i>Don't Make Me Think</i>
+                  </blockquote>
+                  <img src="media/rasters/krug.png" />
+                  <aside class="notes">
+                     <p>— Sentences need to be short b/c of reading speed</p>
+                     <p>— Can you consume all content on page at a glance?</p>
+                     <p>— Billboard text is really short</p>
+                  </aside>
+               </section>
+            </section>
+
+            
+
+            <!-- 
+                           _   _                    _____
+               _ __   __ _| |_| |_ ___ _ __ _ __   |___ /
+               | '_ \ / _` | __| __/ _ \ '__| '_ \    |_ \
+               | |_) | (_| | |_| ||  __/ |  | | | |  ___) |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_| |____/
+               |_|
+
+               -->         
+            <section>
+               <h2>P3: Users organize same items differently</h2>
+               <section>
+                  <figure>
+                     <a href="http://tech.lds.org/index.php/component/content/article/1-miscellanous/429-affinity-diagramming-for-ldsorg"><img src="media/rasters/affinitydiagramming.jpg"/></a>
+                     <figcaption><small>Affinity diagramming</small></figcaption>
+                  </figure>
+                  <aside class="notes">
+                     <p>— Classic usability technique to group content</p>
+                     <p>— People still disagree about how to arrange</p>
+                     <p>— People may not even understand the product</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Where would you find this in a store?</h3>
+                  <a href="http://www.vitacost.com/goya-cream-of-coconut-15-oz"><img src="media/rasters/coconutcream.png"/></a>
+                  <aside class="notes">
+                     <p>— Dessert aisle, coconuts, ethic, canned goods</p>
+                     <p>— We group and classify based on our own needs, assumptions </p>
+                     <p>— Can never find anything in stores</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Physical spaces vs. digital spaces</h3>
+                  <img class="shortened" src="media/rasters/weinberger.png"/>
+                  <aside class="notes">
+                     <p>— David Weinberger's Everything Is Miscellaneous</p>
+                     <p>— Classification systems break down, groupings don't work</p>
+                     <p>— Better to use metadata, let users pull based on facets they want </p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Faceted navigation</h3>
+                  <blockquote>Faceted navigation is arguably the most significant search innovation of the past decade. <br />&mdash; Peter Morville, <a href="http://searchpatterns.org/">Search Patterns</a></blockquote>
+                  <aside class="notes">
+                     <p>— How faceted navigation works</p>
+                     <p>— Why is it such a big deal?</p>
+                     <p>— Maybe a little over-hyped</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Leverage facets if they make sense</h3>
+                  <a href="http://www.sportsshoes.com/products/mens/running/shoe/?l=20"><img src="media/rasters/sportshoes.png"/></a>
+                  <aside class="notes">
+                     <p>— Works best if you have physical products with attributes</p>
+                     <p>— For info, facets might be model, brand, version</p>
+                     <p>— More applicable to a doc portal than standalone help</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Tags are practical facets</h3>
+                  <blockquote>With tags, your files and photos can be in two, three, or more “places” at once.</blockquote>
+                   &mdash; Gene Smith, <i>People-Powered Metadata for the Social Web</i>
+                  <aside class="notes">
+                     <p>— Almost every web system has tags</p>
+                     <p>— Tags allow for other groupings apart from TOC</p>
+                     <p>— Easy to implement, but only add meaningful tags</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Use tags to provide other groupings</h3>
+                  <a href="https://success.mindtouch.com/Documentation/Integration/Single_Sign_On/Active_Directory_and_LDAP_integration"><img src="media/rasters/mindtouch.png" /></a>
+                  <aside class="notes">
+                     <p>— Tags can surface related pages</p>
+                     <p>— You wouldn't have an Active Directory TOC in column</p>
+                     <p>— I like the idea of a metadata column on pages</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Another example of tags</h3>
+                  <a href="http://cat.danburylibrary.org/search~S4?/tcatcher+in+the+rye/tcatcher+in+the+rye/1%2C3%2C4%2CB/frameset&FF=tcatcher+in+the+rye&1%2C%2C2#"><img src="media/rasters/danbury.png" /></a>
+                  <aside class="notes">
+                     <p>— Tags work well for larger information systems</p>
+                     <p>— Suppose I want to read another book like Catcher in Rye</p>
+                     <p>— Don't go overboard with tagging</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Hierarchical Table of Contents fail</h3>
+                  <img src="media/vectors/usercentered_nonsequential.svg"/>
+                  <aside class="notes">
+                     from Mark Baker's post here: http://everypageispageone.com/2013/03/19/web-organization-is-not-like-book-organization.
+                  </aside>
+                  <aside class="notes">
+                     <p>— TOCs work only for small systems</p>
+                     <p>— Topics have multiple relationships with each other</p>
+                     <p>— TOC can't capture these relationships, fails</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Provide "Bottom-up" navigation</h3>
+                  <a href="http://en.wikipedia.org/wiki/Manicouagan_crater"><img src="media/rasters/bottomup.png" /></a>
+                  <p><small>Example from <a href="<a href="http://everypageispageone.com/2015/02/10/bottom-up-information-architecture-q-and-a-part-1/">"Every Page Is Page One</a></small></p>
+                  <aside class="notes">
+                     <p>— Just means linking within a topic</p>
+                     <p>— We arrive at the topic, from bottom</p>
+                     <p>— We don't think hierarchically, drilling through TOC levels</p>
+                  </aside>
+               </section>
+
+            </section>
+            <!-- 
+                            _   _                    _  _
+               _ __    __ _| |_| |_ ___ _ __ _ __   | || |
+               | '_ \ / _` | __| __/ _ \ '__| '_ \  | || |_
+               | |_) | (_| | |_| ||  __/ |  | | | | |__   _|
+               | .__/ \__,_|\__|\__\___|_|  |_| |_|    |_|
+               |_|
+               -->
+            <section>
+               <h2>P4: Some users are beginners</h2>
+               <section>
+                  <img src="media/rasters/clumsyninja.png"/>
+                  <aside class="notes">
+                     <p>— Common type of user</p>
+                     <p>— Beginners need diff. types of content</p>
+                  </aside>
+                  </section>
+               <section>
+                  <h3><span class="box">Strategy:</span> Create "getting started" guides</h3>
+                  <a href="http://docs.vagrantup.com/v2/getting-started/index.html"><img src="media/rasters/vagrant.png"/></a>
+                  <aside class="notes">
+                     <p>— Outlines first steps in application</p>
+                     <p>— This should be a required section in any guide</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3> Also "Getting Started" Guides</h3>
+                  <div style="margin-left: auto; margin-right: auto; width: 800px;">
+                     <a href="http://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; float:left;" src="media/rasters/quickreferenceguide1.png"/></a>
+                     <a href="http://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; margin-left: 50px; float:left;" src="media/rasters/quickreferenceguide2.png"/></a>
+                  </div>
+                  <aside class="notes">
+                     <p>— Prod. mgr cried when gave him this </p>
+                     <p>— Tech writer finally understands that users don't want long manuals</p>
+                     <p>— Popular during trainings, introductions</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3> Strategy: Provide sequential tutorials</h3>
+                  <a href="https://docs.oracle.com/javase/tutorial/getStarted/index.html"><img src="media/rasters/java_beginners.png"/></a>
+                  <aside class="notes">
+                     <p>— For beginner wanting to learn, sequence is okay</p>
+                     <p>— Beginners can't understand more complex topics initially</p>
+                     <p>— Learning Java, you'd be lost if going into reference docs</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3> Strategy: Give the big picture</h3>
+                  <a href="http://docs.splunk.com/Documentation/Splunk/6.2.2/Admin/LearnhowtoadministerSplunk"><img src="media/rasters/splunk.png"/></a>
+                  <aside class="notes">
+                     <p>— We get so focused on details, lose sight of big picture</p>
+                     <p>— Narrative workflow topics address this scenario</p>
+                     <p>— Step back. How and why does system work overall?</p>
+                  </aside>
+               </section>
+
+            </section>
+            <!--
+                            _   _                    ____
+               _ __   __  _| |_| |_ ___ _ __ _ __   | ___|
+               | '_ \ / _` | __| __/ _ \ '__| '_ \  |___ \
+               | |_) | (_| | |_| ||  __/ |  | | | |  ___) |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_| |____/
+               |_|
+               
+               --> 
+            <section>
+               <h2>P5: Some users are advanced</h2>
+               <section>
+                  <img
+                       src="media/rasters/advancedninja.png"/>
+                  <aside class="notes">
+                     <p>— People who have been using application</p>
+                     <p>— Also tech savvy people who think they don't need instructions</p>
+                     <p>— Help needs to go beyond obvious to support these types </p>
+                  </aside>
+                  </section>
+               <section>
+                  <h3>Strategy: Create "quick reference" guides </h3>
+                  <a href="http://cheat.markdunkley.com/"><img src="media/rasters/shopify.png" /></a>
+                  <aside class="notes">
+                     <p>— Differs from getting started -- quick summary of functions </p>
+                     <p>— Like cliff notes or cheat sheet</p>
+                     <p>— Especially helpful for lists of functions, classes, methods</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <h3> Strategy: Emphasize troubleshooting information</h3>
+                  <a href="https://support.twitter.com/groups/55-troubleshooting"><img src="media/rasters/twitter.png"/></a>
+                  <aside class="notes">
+                     <p>— Advanced users consult help in troubleshooting</p>
+                     <p>— Troubleshooting should be standard in any help</p>
+                     <p>— When documenting systems, go outside the happy path</p>
+                  </aside>
+               </section>
+      <section>
+            <h3>StackOverflow focuses on troubleshooting</h3>
+            <a href="http://stackoverflow.com/questions/25151736/jekyll-2-2-0-error-address-already-in-use-bind2"><img src="media/rasters/stackoverflow.png"/></a>
+            <aside class="notes">
+               <p>— Immense popularity b/c focuses on problems </p>
+               <p>— If can't find answer, add it. Next time user searches, answer appears</p>
+               <p>— Each topic is standalone. Good example of EPPO</p>
+            </aside>
+            </section>
+               <section>
+                  <h3>Strategy: Use homepage as routing page</h3>
+                  <a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="media/rasters/trainstation.jpg"/></a>
+                  <aside class="notes">
+                     <p>— Homepage should be train station routing people</p>
+                     <p>— Most popular page in help shouldn't focus only on beginning user</p>
+                     <p>— Homepage is a pathfinding page</p>
+                  </aside>
+               </section>
+            </section>
+            <!-- 
+                             _   _                     __
+                _ __   __  _| |_| |_ ___ _ __ _ __    / /_
+               | '_ \ / _` | __| __/ _ \ '__| '_ \  | '_ \
+               | |_) | (_| | |_| ||  __/ |  | | | | | (_) |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_|  \___/
+               |_|
+               
+               -->
+            <section>
+               <h2>P6: Users resist going into help</h2>
+               <section>
+                  <blockquote>The conclusion of most studies about how people use help is that people don't use help.</blockquote>
+                  -- Mike Hughes, <a href="http://idratherbewriting.com/2009/01/31/podcast-make-your-help-indispensable-safeguard-your-job/">I'd Rather Be Writing podcast</a>
+                  <h4 style="margin-top:30px">Audio excerpt</h4>
+                  <audio controls>
+                     <source src="http://idratherassets.com/podcastshughes_excerpt.mp3" type="audio/mpeg">
+                  </audio>
+                  <p><img src="media/rasters/mikehughes.gif" style="border-radius: 10px;"/></p>
+                  <aside class="notes">
+                     <p>— One of most memorable podcasts</p>
+                     <p>— Usability studies artificial</p>
+                     <p>— Way to get people to use help is to suggest it in difficult tasks</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Fitt's Law</h3>
+                  <blockquote>The further a user must travel with their cursor, the less accuracy the user will have in reaching the target object.</blockquote>
+                  <p>&mdash; Travis Lowdermilk, <a href="http://shop.oreilly.com/product/0636920028741.do"><i>User-centered Design</i></a></p>
+                  <aside class="notes">
+                     <p>— If answer is far from problem area, less likely to find</p>
+                     <p>— Proximity of info helps users find and use it</p>
+                     <p>— Help doesn't need to be separate</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Bring help into the UI</h3>
+               <a href="http://idratherbewriting.com/documentation-theme-jekyll/designer/tooltip_demo.html"><img src="media/rasters/tooltipdemo.png"/></a>
+                  <aside class="notes">
+                     <p>— Simple popovers or tooltips work well</p>
+                     <p>— Provide UX designers with JSON file to act as content API </p>
+                     <p>— This is easiest way to do in-app help</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Make the UI more helpful</h3>
+                  <img src="media/rasters/beegit.png"/>
+                  <aside class="notes">
+                     <p>— Look at all the text</p>
+                     <p>— UX doesn't want to overload b/c text only helpful the first time</p>
+                     <p>— Tech writers should play larger role in UI than they usually do </p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Half of the UI is text</h3>
+                  <img src="media/rasters/beegitblank.png"/>
+                  <aside class="notes">
+                     <p>— Useless without text</p>
+                     <p>— The UI is domain where wordsmiths should reign</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <h3>WordPress blanked out</h3>
+                  <img src="media/rasters/wpblank.png"/>
+               </section>
+               <section>
+                  <h3>Youtube blanked out</h3>
+                  <img src="media/rasters/youtubeblank.png"/>
+               </section>
+
+               <section>
+                  <h3>Strategy: Show tasks in the UI</h3>
+                  <a href="http://walkhub.net/content/walkthrough-white-houses-petition-site?autostart=1"><img src="media/rasters/walkhub.png"/></a>
+                  <aside class="notes">
+                     <p>— Walkhub</p>
+                     <p>— Requires a lot more programming, but kind of nifty</p>
+                     <p>— Allow users to learn while remaining in task domain </p>
+                  </aside>
+               </section>
+            </section>
+            <!--
+                            _   _                    _____
+                _ __   __ _| |_| |_ ___ _ __ _ __   |___  |
+               | '_ \ / _` | __| __/ _ \ '__| '_ \     / /
+               | |_) | (_| | |_| ||  __/ |  | | | |   / /
+               | .__/ \__,_|\__|\__\___|_|  |_| |_|  /_/
+               |_|
+               
+               -->
+            <section>
+               <h2>P7: Users desire simple instructions</h2>
+               <section>
+                  <blockquote>The same technology that simplifies life by providing more functions in each device also complicates life by making the device harder to learn, harder to use. This is the paradox of technology.</blockquote>
+                  <p>&mdash; Don Norman, <i><a href="http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/1452654123">The Design of Everyday Things</a></i></p>
+                  <aside class="notes">
+                     <p>— Impact on help -- users want simple, but complexity needs doc</p>
+                     <p>— If help is too brief, it's equally frustrating</p>
+                     <p>— Paradox of information -- more is less, less is more</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Documentation for a complex product</h3>
+                  <a href="http://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf"><img src="media/rasters/minson.png"/></a>
+                  <aside class="notes">
+                     <p>— Users often won't even read if too big</p>
+                     <p>— Martin Fowler's article: The Almighty Thud --> dread</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <h3>Special outputs per role?</h3>
+                  <a href="http://idratherbewriting.com/podcasts/uaeurope/browse_and_search_uaeurope.pdf"><img src="media/rasters/singlesourcing.png"/></a>
+                  <aside class="notes">
+                     <p>— Classic approach, but more suited for print paradigms</p>
+                     <p>— Online outputs get confused when users arrive via search</p>
+                     <p>— Relevant if clearly defined roles, but not if roles fuzzy</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Provide filtering mechanisms</h3>
+                  <blockquote>Include it all. Filter it afterward.</blockquote>
+                  &mdash; Dave Weinberger, <a href=http://idratherbewriting.com/2012/12/04/what-does-every-page-is-page-one-and-include-it-all-filter-it-afterward-mean/">Too Big to Know</a>
+                  <aside class="notes">
+                     <p>— Reduce complexity by providing filtering </p>
+                     <p>— A good search with facets that can narrow</p>
+                     <p>— When TOC is scrapped, why not include more?</p>
+                  </aside>
+                  </section>
+               <section><h3>Strategy: Apply progressive information disclosure</h3>
+                  <blockquote>Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
+                  &mdash; Jakob Nielsen, <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
+                  <aside class="notes">
+                     <p>— Major principle of usability</p>
+                     <p>— Showing all info at once produces info paralysis</p>
+                     <p>— Cognitive overload sets in as users must process items</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Example of progressive information disclosure</h3>
+                  <a href="https://www.getharvest.com/help/new-projects"><img src="media/rasters/harvest.png"></a>
+                  <aside class="notes">
+                     <p>— Makes help simpler, easier to navigate</p>
+                     <p>— Very basic architectural tools</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>An example of progressive disclosure in the UI</h3>
+                  <img src="media/rasters/wordpress_pd.png"/>
+                  <aside class="notes">
+                     <p>— Spoonfeed in UI; if more needed, click links</p>
+                     <p>— Can apply PD at various levels -- in app, in help, in topic</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Create different sidebars for different sections</h3>
+                  <a href="https://support.twitter.com/groups/54-mobile-apps"><img src="media/rasters/twitter_sidebar.png"/>
+                  </a>
+                  <aside class="notes">
+                     <p>— Not so common in HATs</p>
+                     <p>— Mini-TOC makes it more navigable</p>
+                     <p>— Get away from model where every page has same TOC</p>
+                  </aside>
+               </section>
+
+         </section>
+            <!--
+                             _   _                    ___
+                _ __    __ _| |_| |_ ___ _ __ _ __   ( _ )
+               | '_ \ / _` | __| __/ _ \ '__| '_ \   / _ \
+               | |_) | (_| | |_| ||  __/ |  | | | | | (_) |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_|  \___/
+               |_|
+               
+               -->
+            <section>
+               <h2>P8: Users want to begin right away</h2>
+               <section>
+                  <blockquote>
+                     The premise behind minimalism is that people learning to use computer software are impatient, mentally active, and curious. They want to begin right away getting their work done. <p>&mdash;
+                     <a href="http://faculty.washington.edu/farkas/dfpubs/Farkas-Williams-CarrollsNurnbergFunnel.pdf">David Farkas and Thomas Williams summarizing John Carroll</a></p>
+                  </blockquote>
+                  <aside class="notes">
+                     <p>— People usually start in app before going to help</p>
+                     <p>— Leaving app feels unproductive</p>
+                     <p>— Help people feel productive immediately</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Focus on real-world tasks</h3>
+                  <a href="http://users.edte.utwente.nl/meij/displaywriter.pdf"><img src="media/rasters/minimalism.png"/></a>
+                  <aside class="notes">
+                     <p>— The First Minimal Manual</p>
+                     <p>— Content must address real user's tasks</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Provide hello-world tutorials</h3>
+                  <a href="http://www.docker.com/tryit/"><img src="media/rasters/docker.png"/></a>
+               </section>
+               <aside class="notes">
+                  <p>— Carryover from API doc world with high relevance</p>
+                  <p>— Get some output with system in the most minimal way</p>
+                  <p>— Usually requires a workflow involve a series of independent topics</p>
+               </aside>
+               <section>
+                  <h3>Strategy: Keep the focus in the task domain</h3>
+                  <a href="http://ulyssesapp.com"><img src="media/rasters/ulysses.png"/></a>
+               </section>
+               <aside class="notes">
+                  <p>— The more you can put help in reader's focus, the better</p>
+                  <p>— Problem here is that user is given help prior to asking</p>
+                  <p>— Turn on or off help in application</p>
+               </aside>
+            </section>
+            <!--
+                            _   _                     ___
+                _ __   __ _| |_| |_ ___ _ __ _ __    / _ \
+               | '_ \ / _` | __| __/ _ \ '__| '_ \  | (_) |
+               | |_) | (_| | |_| ||  __/ |  | | | |  \__, |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_|    /_/
+               |_|
+               
+               -->
+           
+
+           <section>
+               <h2>P9: Users gravitate toward visuals</h2>
+              <section>
+                 <a href="http://idratherbewriting.com/2010/09/28/visuals-engage-users-why-arent-there-more-illustrations-in-help-content-visual-imagination-1/"><img src="media/rasters/graphics.png"/></a>
+                 <aside class="notes">
+                    <p>— Primary realization from usability sessions</p>
+                    <p>— Visuals more suited to beginners</p>
+                    <p>— One of most neglected aspects of doc</p>
+                 </aside>
+              </section>
+
+         <section><h3>Strategy: Use visuals to reduce cognitive load</h3></h3>
+               <figure>
+                  <a href=""><img src="media/rasters/howbrainswork.png" style="width: 63%;"/></a><figcaption><small>Ruth Clark and Chopeta Lyons, <a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448"><i>Graphics for Learning</i></a></small></figcaption>
+               </figure>
+            <aside class="notes">
+               <p>— Visuals manage cognitive load </p>
+               <p>— Working memory can only hold so much</p>
+               <p>— Dual encoding (adding audio) boosts learning</p>
+            </aside>
+            </section>
+
+
+              <section>
+                 <h3>Chartjunk doesn't enhance learning</h3>
+                 <figure><a href="http://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/"><img src="media/rasters/chartjunk.jpg"/></a>
+                    <figcaption><small>Edward Tufte, <a href="http://www.edwardtufte.com/tufte/books_ei">Envisioning Information</a></small></figcaption></figure>
+                 <aside class="notes">
+                    <p>— Chartjunk is decorative graphics</p>
+                    <p>— Graphics need to do work of learning</p>
+                    <p>— Chartjunk can actually detract/hurt learning</p>
+                 </aside>
+              </section>
+
+                 <section><h3>Show workflows and processes</h3>
+                  <a href="http://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="media/rasters/diagrams.png"/></a>
+                    <aside class="notes">
+                       <p>— Workflows very helpful, easy to create</p>
+                       <p>— Embed these into topics as image maps</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                  <h3>Strategy: Reduce distraction, focus on the point</h3>
+                  <figure>
+                     <a href="http://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="media/rasters/linedrawings.png"/><figcaption><small>Clark and Lyons,&nbsp; <i><a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448">Graphics for Learning</a></i></small></figcaption>
+                  </figure>
+                     <aside class="notes">
+                        <p>— Photos have distracting detail</p>
+                        <p>— Simpler the better </p>
+                     </aside>
+                  </section>
+              <section>
+                 <h3>Strategy: Worry about ideas, not high art</h3>
+                 <a href="https://support.apple.com/en-us/HT201735"><img src="media/rasters/apple.png"/></a>
+                 <aside class="notes">
+                    <p>— Dan Roam + others all say this</p>
+                    <p>— Hard part is coming up with illustration idea</p>
+                    <p>— Everything else just fancy execution of idea</p>
+                 </aside>
+                 </section>
+         </section>
+            <!--
+                           _   _                     _  ___
+               _ __   __ _| |_| |_ ___ _ __ _ __    / |/ _ \
+               | '_ \ / _` | __| __/ _ \ '__| '_ \  | | | | |
+               | |_) | (_| | |_| ||  __/ |  | | | | | | |_| |
+               | .__/ \__,_|\__|\__\___|_|  |_| |_| |_|\___/
+               |_|
+               
+               -->
+            <section>
+               <h2>P10: Users may not speak your "language"</h2>
+               <section>
+                  <blockquote>Science has become more complex, more specialized—every sub-discipline has its own vocabulary.</blockquote> &mdash; Stephen Hall, <a href="http://www.theatlantic.com/education/archive/2014/12/how-scientists-are-learning-to-write/383685/">How Scientists Are Learning to Write</a>
+                  <aside class="notes">
+                     <p>— Every product has its own terminology</p>
+                     <p>— Left-align, full justification, resizing -- we learn terms</p>
+                     <p>— Recognize jargon</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Peter Morville: Each search informs the next</h3>
+                  <a href="http://idratherbewriting.com/2013/06/24/recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation/"><img src="media/rasters/searchandlearn.png"/></a>
+                  <aside class="notes">
+                     <p>— Users learn terms via searches</p>
+                     <p>— Find way within help to teach users the terms</p>
+                     <p>— Scent of information</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Strategy: Define unfamiliar terms in a glossary</h3>
+                  <a href="http://sphinx-doc.org/glossary.html"><img src="media/rasters/sphinx.png"/></a>
+                  <aside class="notes">
+                     <p>— Should be standard part of any help</p>
+                     <p>— Glossaries help expose terms and orient reader</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <h3>Strategy: Put keywords, synonyms in page metadata</h3>
+<p>Add keywords in topics</p>
+<pre><code data-trim contenteditable>
+---
+title: Access ACME
+permalink: /access/
+tags: [getting-started]
+keywords: logging in, authentication, login
+---
+</code></pre>
+                  <p>Push keywords into page metadata</p>
+<pre><code data-trim contenteditable>
+      <meta name="keywords" content="{{page.tags}}, {{page.keywords}}">
+   </code></pre>
+                  <aside class="notes">
+                     <p>— This is Jekyll frontmatter</p>
+                     <p>— Simple searches read page metadata tags</p>
+                     <p>— Figure it out in your system</p>
+                  </aside>
+               </section>
+
+               <section>
+                  <h3>Strategy: Write for users who *really* don't speak your language</h3>
+                  <a href="https://www.flickr.com/photos/photograham/290709649">
+                     <img src="media/rasters/globe.jpg"/></a>
+                  <aside class="notes">
+                     <p>— Global audience with ESL</p>
+                     <p>— Short sentences, active voice</p>
+                     <p>— Other tips in writing for translation</p>
+                  </aside>
+               </section>
+            </section>
+
+<!--
+ _____         _   _                               _             _
+|_   _|__  ___| |_(_)_ __   __ _    ___ ___  _ __ | |_ ___ _ __ | |_
+  | |/ _ \/ __| __| | '_ \ / _` |  / __/ _ \| '_ \| __/ _ \ '_ \| __|
+  | |  __/\__ \ |_| | | | | (_| | | (_| (_) | | | | ||  __/ | | | |_
+  |_|\___||___/\__|_|_| |_|\__, |  \___\___/|_| |_|\__\___|_| |_|\__|
+                           |___/
+-->
+
+         <section>
+               <h2>How to test content</h2>
+
+            <section>
+               <h3>Give users a problem to solve with your docs</h3>
+
+              <p> <iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/v/x93bYLu88UE/?start=740&end=772" width="560"></iframe></p>
+               <aside class="notes">
+                  <p>— Alex Gaynor from Write the Docs Portland</p>
+                  <p>— Just as code needs QA, doc needs QA</p>
+                  <p>— QA for accuracy and usability</p>
+               </aside>
+            </section>
+
+               <section>
+                  <h3>Observe users do tasks during training sessions</h3>
+                  <a href="https://www.flickr.com/photos/kmakice/4390520489/"><img src="media/rasters/computertesting.jpg"/></a>
+                  <aside class="notes">
+                     <p>— Users get learning, you get usability feedback</p>
+                     <p>— Give tasks to do at start, let them try to figure out</p>
+                     <p>— Watch as they use the app</p>
+                  </aside>
+               </section>
+
+            <section>
+               <h3>Test users directly on reader comprehension</h3>
+               <a href="http://alistapart.com/article/testing-content"><img src="media/rasters/testingcontent.png"/></a>
+               <aside class="notes">
+                  <p>— Don't trust yes/no, like/dislike answers</p>
+                  <p>— Probe how well your content teaches</p>
+                  <p>— More quantatative results </p>
+               </aside>
+                </section>
+            </section>
+            </section>
+
+            <section><h2>Summary</h2>
+            <a href="summary.pdf" target="_blank"><img src="summary_circle.svg"/></a>
+               <aside class="notes">
+                  <p>— </p>
+                  <p>— </p>
+                  <p>— </p>
+               </aside>
+            </section>
+
+
+<section>
+   <h1>Thanks!</h1>
+   <div>
+      <div style="float:left; padding: 10px;">
+         <img src="media/rasters/family.png"/>
+      </div>
+<div style="float:left; padding: 10px; text-align: left;">
+   <p><span class="myname">Tom Johnson</span><br/>
+   &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
+      &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+      &mdash; <a href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a>
+   </p></div>
+   </div>
+   <aside class="notes">
+      <p>— </p>
+      <p>— </p>
+      <p>— </p>
+   </aside>
+</section>
+            <section>
+               <h4>Image credits</h4>
+               <ul style="font-size:22px;">
+                  <li>Various vector images from <a href="http://www.vecteezy.com/">Vecteezy</a></li>
+                  <li>Various images from Flickr: <a href="https://www.flickr.com/photos/44839709@N07/5739369780">ZBW
+                     Usability Lab</a>,<a
+                          href="https://www.flickr.com/photos/photolibrarian/5192377736/">photolibrarian</a>,
+                  </a> <a
+                          href="https://www.flickr.com/photos/nathancongleton/14806700660">Nathan Congleton</a>, <a href="https://www.flickr.com/photos/photograham/290709649">Graham</a>, <a href="https://www.flickr.com/photos/kmakice/4390520489/">Kevin Makice</a>, <a href="https://www.flickr.com/photos/49365126@N07/8310984224">Camilla Lindskoug</a></li>
+                  <li>Cartoon from <a href="http://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf">Ben Minson</a></li>
+               <li>ninja images from <a href="http://7-themes.com/6960295-free-3d-ninja.html">7-themes.com</a> and
+                  <a href="http://2p.com/game/U00744/Clumsy-Ninja.htm">clumsy ninja</a></li>
+               </ul>
+            </section>
+           
+         </div>
+      </div>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+      <script>
+         // Full list of configuration options available at:
+         // https://github.com/hakimel/reveal.js#configuration
+         Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: false,
+          slideNumber: true, 
+         
+         
+          transition: 'slide', // none/fade/slide/convex/concave/zoom
+         
+          // Optional reveal.js plugins
+          dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true }
+          ]
+         });
+         
+      </script>
+   </body>
+</html>

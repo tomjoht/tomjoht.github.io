@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>User-Centered Documentation</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+			p.alignLeft {
+				text-align: left;
+			}
+			span.orange, a.orange {
+				color: orange;
+				outline-color: gray;
+			}
+            .reveal figcaption {
+                font-size: 24px;
+            }
+			.slides section h3 {
+				color: orange !important; outline: gray;
+				margin:0px;
+			}
+			.slides img {
+				max-height: 500px;
+			}
+            .reveal a img {
+                border-color: #4d4dff;
+            }
+
+			span.myname {
+				font-weight: bold;
+				font-size: 52px;
+				color: #555;
+				font-family: "Lucida Handwriting";
+			}
+
+            .reveal p, .reveal ul li, .reveal ol li {
+                text-align: left;
+            }
+		</style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>Strategies for <br /><span class="orange">User-Centered</span> Documentation</h1>
+
+					<p>
+						<small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+							<a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Universal Principles of Design</h2>
+					<figure><img src="media/rasters/univprinciplesdesignbook.png"/><figcaption>Tested principles of design that work with humans.</figcaption></figure>
+				</section>
+
+				<section>
+					<h2>Applicable Design Principles </h2>
+
+					<section>
+
+					<table>
+						<tr>
+							<td>Confirmation</td>
+							<td>Consistency</td>
+							<td>Constraint</td>
+						</tr>
+						<tr>
+							<td>Control</td>
+							<td>Cost-benefit</td>
+							<td>Depth of processing</td>
+						</tr>
+						<tr>
+							<td>Design by committee</td>
+							<td>Desire line</td>
+							<td>Entry point</td>
+						</tr>
+						<tr>
+							<td>Errors</td>
+						    <td>Forgiveness</td>
+							<td>Feedback loop </td>
+						</tr>
+						<tr>
+							<td>Fitts' Law</td>
+							<td>Five Hat Racks</td>
+							<td>Freeze-Flight-Fight-Forfeit</td>
+						</tr>
+						<tr>
+							<td>Hierarchy of Needs</td>
+							<td>Highlighting</td>
+							<td>Iconic Representation</td>
+						</tr>
+					</table>
+				</section>
+
+					<section>
+					<table>
+
+						<tr>
+							<td>Immersion</td>
+							<td>Interference Effects</td>
+							<td>Inverted Pyramid</td>
+						</tr>
+						<tr>
+							<td>Iteration</td>
+							<td>Legibility</td>
+							<td>Modularity</td>
+						</tr>
+						<tr>
+							<td>Shaping</td>
+							<td>Normal Distribution</td>
+							<td>Performance Load</td>
+						</tr>
+						<tr>
+							<td>Picture Superiority Effect</td>
+							<td>Redundancy</td>
+							<td>Readability</td>
+						</tr>
+						<tr>
+							<td>Signal-to-Noise Ratio</td>
+							<td>Storytelling</td>
+							<td>Wayfinding</td>
+						</tr>
+
+					</table>
+					</section>
+
+				</section>
+
+
+				<section>
+					<h2>My approach</h2>
+					<ul>
+						<li>Plug into design vocab</li>
+                        <li>Apply it to documentation</li>
+                        <li>Group the principles logically</li>
+                        <li>Apply the principles to existing help content</li>
+					</ul>
+				</section>
+
+                <section>
+                    <h2>Grouping the principles</h2>
+                    <ol>
+                        <li>What to write</li>
+                        <li>How to organize it</li>
+                        <li>How to write it</li>
+
+                    </ol>
+                </section>
+
+
+                <section>
+                    <h1><span class="orange">1. What to write</span></h1>
+
+                </section>
+
+                <section>
+                    <h2>Signal-to-Noise Ratio</h2>
+                    <p>Focus the users' attention on what matters by reducing extraneous information. Eliminate content that is merely "noise" as opposed to meaningful information.</p>
+                    <aside class="notes">
+                        <p><a href="https://learn.mdsol.com/gm/contracting/creating-master-budgets-in-grants-manager-contracting-53357038.html">Sample</a> "More about negotiating benefits" seems redundant with navigation on left. Seems like this is EPPO's attempt at creating cross-links, but it comes across as noise to me. It's redundant with the nav on the left. It should only contain links to content outside of this space, and then it should probably appear at the end.</p>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Normal Distribution</h2>
+                    <p>Document what most users need to know, and omit edge cases or obvious information. Edges cases and obvious info fall outside the normal curve of distribution. Adding them into the main doc dilutes the information for the majority.</p>
+
+                    <aside class="notes"><a href="https://learn.mdsol.com/csa/en/csa-about-handling-incorrect-dates-65025158.html">Sample</a>. Seems like this is an edge case that might be better suited to a KB article. It's hard for me to discern what might be a fringe case because I'm not familiar with the content. </aside>
+                </section>
+
+                <section>
+                    <h2>Personas</h2>
+                    <p>Create fictitious descriptions of users based on real research to guide decision-making about design. These personas help you remember that you're not the user. Three primary personas and four secondary personas are sufficient.</p>
+                    <aside class="notes">
+Who is medidata (or iMedidata) for? If there are clearly defined personas, perhaps it should be more apparent who the various roles the doc is targeting. Here's the <a href="https://learn.mdsol.com/imedidata/en/about-imedidata-55479806.html">About page</a>. It says "Whether you are a study builder, clinical research coordinator (CRC), investigator, study administrator, clinical data manager (CDM), or site monitor, you can use iMedidata to access all your studies." There's also a developer role. But the doc is all lumped together into one site with multiple spaces, but it's hard to know which space corresponds to which role. Maybe some more high level entry point info around which spaces are designed for which roles.
+                    </aside>
+                </section>
+
+                <section><h1><span class="orange">How to organize it</span></h1></section>
+
+
+                <section>
+
+
+                    <section>
+                        <h2>Five Hat Racks</h2>
+                    <p>You can organize content in 5 ways:</p>
+                    <ul>
+                        <li>Alphabet</li>
+                        <li>Time</li>
+                        <li>Location</li>
+                        <li>Continuum (degree)</li>
+                        <li>Category (likeness)</li>
+                    </ul>
+                        <p>Generally, doc is grouped by category more than location (except with context-sensitive help). Tags can facilitate multiple organization schemes.</p>
+
+                    </section>
+
+                    <section>
+                        <h3>Five Hat Racks Example</h3>
+                        <figure><a href="media/rasters/fivehatracksdiagram.png" target="_blank"><img src="media/rasters/fivehatracksdiagram.png"/></a><figcaption>Click to enlarge. (From <i>Universal Principles of Design</i>)</figcaption></figure>
+
+                        <aside class="notes">
+                            <a href="https://learn.mdsol.com/csa/en/navigating-in-csa-53356865.html">Sample</a>. Look in left nav. Doc is organized by tab (location) instead of by task category. Organize around category instead of location except for context-sensitive help that might appear for that tab. some content resists organization by category, but it's the default. one strategy might be to implement tags that provide alternative organization schemes.
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h3>Faceted classification</h3>
+                        <p>One proposed solution to the problem of organization is faceted classification. See my presentation, <a href="http://idratherbewriting.com/2013/06/24/recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation/">Making Content More Findable When users Browse and Search</a> for more details. See also David Weinberger's works.</p>
+                    </section>
+
+                </section>
+
+
+                <section>
+                    <section>
+                    <h2>Hierarchy</h2>
+                    <p>A hierarchical outline of the content (with parent and child items organized in trees) helps users understand and visualize complex information. </p>
+                    <p>Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.</p>
+                </section>
+                    <section>
+                        <h3>Hierarchy provides meaning</h3>
+                        <blockquote>Navigation provides a narrative for people to follow on the web. <small><br/>&mdash; James Kalbach, <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
+                        </blockquote>
+                    </section>
+
+                    <section>
+                        <h3>Google hierarchy example</h3>
+                        <a href="https://developers.google.com/actions/develop/conversation"><img src="media/rasters/googlevoicedoc.png"/>
+                        </a>
+                    </section>
+
+
+                    <section>
+                        <h3>AWS hierarchy example</h3>
+                        <a href="https://aws.amazon.com/documentation/s3/"><img src="media/rasters/awss3doc.png"/>
+                        </a>
+                    </section>
+
+
+                    <section>
+                        <h3>Hierarchy best practices</h3>
+                        <ul>
+                            <li>Limit hierarchies to 3 levels in the left nav</li>
+                            <li>Provide a way for users to see the full hierarchy at a glance</li>
+                            <li>Break up complex hierarchies into multiple, separate hiearchies</li>
+                            <li>Provide a way to navigate from one hierarchy to another</li>
+                            <li>Put page-level hierarchies on the page, preferably on the right</li>
+                        </ul>
+
+                        <aside class="notes">
+<a href="https://learn.mdsol.com/imedidata/en/about-imedidata-user-loader-55479820.html">Example</a>. It's hard to take in the sidebar at a glance. The titles are clipped (maybe just remove "in Medidata"). The third-level expands only when you expand the second level. There's a sense that the information hierarchy could be much more complex than you would know. Also, the navigation is made more complex by all the links on the right. Those links on the right seem superflous and unnecessary. The Spaces link at the top is good in that it allows you to navigate from one space to another.
+                        </aside>
+                    </section>
+                </section>
+
+
+
+
+
+                <section>
+                    <section>
+                    <h2>Cost-Benefit | Performance Load </h2>
+                        <p><b>Cost-benefit</b>: Users apply a cost-benefit analysis to reading documentation. Is it worth spending hours in the documentation for the benefit? </p>
+                    <p><b>Performance load</b>: The larger the documentation, the greater the performance load will be on the user. With greater performance load, the user's chance of success decreases.</p>
+
+                    <p>Instead of eliminating potentially useful info, provide quick reference guides that help users get oriented quickly with minimal cognitive load and low cost.</p>
+                    </section>
+                    <section>
+                        <h3>Quick reference guides</h3>
+                        <ul>
+                            <li>Differs from getting started </li>
+                            <li>Main tasks described in compressed, poetry-like form</li>
+                            <li>Like cliff notes or cheat sheet</li>
+                            <li>Especially helpful for lists of functions, classes, methods</li>
+                        </ul>
+                        </aside>
+                    </section>
+                    <section>
+                        <h3>Quick reference guides example</h3>
+                        <a href="http://cheat.markdunkley.com/"><img src="media/rasters/shopify.png" /></a>
+
+                    </section>
+                    <section>
+                        <h3>Quick reference guide layouts</h3>
+                        <a href="http://idratherbewriting.com/quickreferenceguides"><img src="media/rasters/watershed1.png"></a>
+                        <aside class="notes"><a href="https://learn.mdsol.com/csa/en/medidata-centralized-statistical-analytics-csa-53356842.html">Sample</a>. Good to have a Getting Started section. The first link leads to <a href="https://learn.mdsol.com/csa/en/about-medidata-centralized-statistical-analytics-csa-53356863.html">this page</a>. You could take the getting started guides a step further and compress the essential instructions into a 2 page guide. Another <a href="https://learn.mdsol.com/api/mcc-resources/api-quick-reference-65027014.html">example</a> that is more QRG than GSG.</aside>
+                    </section>
+                </section>
+
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

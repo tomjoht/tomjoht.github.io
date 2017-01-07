@@ -124,128 +124,128 @@ In this activity, you'll create a Swagger UI display for the weatherdata endpoin
 
 To create a Swagger spec file:
 
-1. Go to the [Swagger online editor](http://editor.swagger.io/#/).
-2. Select **File > Open Example** and choose **PetStore Simple**. Click **Open**.
+1.  Go to the [Swagger online editor](http://editor.swagger.io/#/).
+2.  Select **File > Open Example** and choose **PetStore Simple**. Click **Open**.
 
-You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">swagger.yaml</a>.
+    You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">swagger.yaml</a>.
 
-Here's what the Swagger YAML file looks like:
+    Here's what the Swagger YAML file looks like:
 
-```yaml
-swagger: "2.0"
-info: 
- version: "1.0.0"
- title: "Weather API"
- description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
- termsOfService: "http://helloreverb.com/terms/"
- contact: 
-   name: "Tom Johnson"
-   email: "tomjohnson1492@gmail.com"
-   url: "http://swagger.io"
- license: 
-   name: "MIT"
-   url: "http://opensource.org/licenses/MIT"
-host: "simple-weather.p.mashape.com"
-schemes: 
- - "https"
-consumes: 
- - "application/json"
-produces: 
- - "application/text"
-paths: 
- /aqi: 
-   get: 
-     tags: 
-       - "Air Quality"
-     description: "gets air quality index"
-     operationId: "getAqi"
-     produces: 
-       - "text"
-     parameters: 
-       - 
-         name: "lat"
-         in: "query"
-         description: "latitude"
-         required: false
-         type: "string"
-       - 
-         name: "lng"
-         in: "query"
-         description: "longitude"
-         required: false
-         type: "string"
-     responses: 
-       200: 
-         description: "aqi response"
-       default: 
-         description: "unexpected error"
+    ```yaml
+    swagger: "2.0"
+    info:
+     version: "1.0.0"
+     title: "Weather API"
+     description: "A sample API that uses a Mashape weather API as an example to demonstrate features in the swagger-2.0 specification"
+     termsOfService: "http://helloreverb.com/terms/"
+     contact:
+       name: "Tom Johnson"
+       email: "tomjohnson1492@gmail.com"
+       url: "http://swagger.io"
+     license:
+       name: "MIT"
+       url: "http://opensource.org/licenses/MIT"
+    host: "simple-weather.p.mashape.com"
+    schemes:
+     - "https"
+    consumes:
+     - "application/json"
+    produces:
+     - "application/text"
+    paths:
+     /aqi:
+       get:
+         tags:
+           - "Air Quality"
+         description: "gets air quality index"
+         operationId: "getAqi"
+         produces:
+           - "text"
+         parameters:
+           -
+             name: "lat"
+             in: "query"
+             description: "latitude"
+             required: false
+             type: "string"
+           -
+             name: "lng"
+             in: "query"
+             description: "longitude"
+             required: false
+             type: "string"
+         responses:
+           200:
+             description: "aqi response"
+           default:
+             description: "unexpected error"
 
- /weather: 
-   get: 
-     tags: 
-       - "Weather Forecast"
-     description: "gets weather forecast in short label"
-     operationId: "getWeather"
-     produces: 
-       - "text"
-     parameters: 
-       - 
-         name: "lat"
-         in: "query"
-         description: "latitude"
-         required: false
-         type: "string"
-       - 
-         name: "lng"
-         in: "query"
-         description: "longitude"
-         required: false
-         type: "string"
-     responses: 
-       200: 
-         description: "weather response"
-       default: 
-         description: "unexpected error"
- /weatherdata: 
-   get: 
-     tags: 
-       - "Full Weather Data"
-     description: "Get weather forecast by Latitude and Longitude"
-     operationId: "getWeatherData"
-     produces: 
-       - "application/json"
-     parameters: 
-       - 
-         name: "lat"
-         in: "query"
-         description: "latitude"
-         required: false
-         type: "string"
-       - 
-         name: "lng"
-         in: "query"
-         description: "longitude"
-         required: false
-         type: "string"
-     responses: 
-       200: 
-         description: "weatherdata response"
-       default: 
-         description: "unexpected error"
+     /weather:
+       get:
+         tags:
+           - "Weather Forecast"
+         description: "gets weather forecast in short label"
+         operationId: "getWeather"
+         produces:
+           - "text"
+         parameters:
+           -
+             name: "lat"
+             in: "query"
+             description: "latitude"
+             required: false
+             type: "string"
+           -
+             name: "lng"
+             in: "query"
+             description: "longitude"
+             required: false
+             type: "string"
+         responses:
+           200:
+             description: "weather response"
+           default:
+             description: "unexpected error"
+     /weatherdata:
+       get:
+         tags:
+           - "Full Weather Data"
+         description: "Get weather forecast by Latitude and Longitude"
+         operationId: "getWeatherData"
+         produces:
+           - "application/json"
+         parameters:
+           -
+             name: "lat"
+             in: "query"
+             description: "latitude"
+             required: false
+             type: "string"
+           -
+             name: "lng"
+             in: "query"
+             description: "longitude"
+             required: false
+             type: "string"
+         responses:
+           200:
+             description: "weatherdata response"
+           default:
+             description: "unexpected error"
 
-securityDefinitions:
-  internalApiKey:
-    type: apiKey
-    in: header
-    name: X-Mashape-Key
-```
-	
-	{{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array). If you <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">download this file</a> instead of copy-and-pasting it above, you're less likely to run into spacing errors.{{end}}
-	
-	The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file couldn't be parsed).
-	
-3. Make sure the YAML file is valid in the Swagger editor. If there are any errors, fix them. 
-3. Go to **File > Download YAML** and save the file as "swagger.yaml" on your computer. (You could also just copy the code and insert it into a blank file and call it swagger.yaml.)
+    securityDefinitions:
+      internalApiKey:
+        type: apiKey
+        in: header
+        name: X-Mashape-Key
+    ```
+
+    {{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array). If you <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">download this file</a> instead of copy-and-pasting it above, you're less likely to run into spacing errors.{{end}}
+
+    The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file couldn't be parsed).
+
+3.  Make sure the YAML file is valid in the Swagger editor. If there are any errors, fix them.
+4.  Go to **File > Download YAML** and save the file as "swagger.yaml" on your computer. (You could also just copy the code and insert it into a blank file and call it swagger.yaml.)
 
 You can also choose JSON as the format, but YAML is more readable and works just as well.
 
@@ -256,139 +256,27 @@ You can also choose JSON as the format, but YAML is more readable and works just
 	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files, which is beyond the scope of this tutorial.
 	
 2. Drag the **dist** folder out of the swagger-ui-master folder so that it stands alone. Then delete the swagger-ui-master folder.
-3. Inside your "dist" folder, open index.html in a text editor. 
+3. Inside your **dist** folder, open **index.html** in a text editor.
 4. Look for the following code:
 	
    ```js
 	    url = "http://petstore.swagger.io/v2/swagger.json";
    ```
 5. Change the `url` value from `http://petstore.swagger.io/v2/swagger.json` to the following: `"swagger.yaml";`.
-6. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.	
+6. Drag the **swagger.yaml** file that you created earlier into the same directory as the index.html file you just edited.
 7. Save the file.
+8. To view the file, open it in Firefox. (Chrome may block the local Javascript.)
 
-Here's what the index.html file looks like:
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Swagger UI</title>
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/reset.css' media='print' rel='stylesheet' type='text/css'/>
-  <link href='css/print.css' media='print' rel='stylesheet' type='text/css'/>
-
-  <script src='lib/object-assign-pollyfill.js' type='text/javascript'></script>
-  <script src='lib/jquery-1.8.0.min.js' type='text/javascript'></script>
-  <script src='lib/jquery.slideto.min.js' type='text/javascript'></script>
-  <script src='lib/jquery.wiggle.min.js' type='text/javascript'></script>
-  <script src='lib/jquery.ba-bbq.min.js' type='text/javascript'></script>
-  <script src='lib/handlebars-4.0.5.js' type='text/javascript'></script>
-  <script src='lib/lodash.min.js' type='text/javascript'></script>
-  <script src='lib/backbone-min.js' type='text/javascript'></script>
-  <script src='swagger-ui.js' type='text/javascript'></script>
-  <script src='lib/highlight.9.1.0.pack.js' type='text/javascript'></script>
-  <script src='lib/highlight.9.1.0.pack_extended.js' type='text/javascript'></script>
-  <script src='lib/jsoneditor.min.js' type='text/javascript'></script>
-  <script src='lib/marked.js' type='text/javascript'></script>
-  <script src='lib/swagger-oauth.js' type='text/javascript'></script>
-
-  <!-- Some basic translations -->
-  <!-- <script src='lang/translator.js' type='text/javascript'></script> -->
-  <!-- <script src='lang/ru.js' type='text/javascript'></script> -->
-  <!-- <script src='lang/en.js' type='text/javascript'></script> -->
-
-  <script type="text/javascript">
-    $(function () {
-      var url = window.location.search.match(/url=([^&]+)/);
-      if (url && url.length > 1) {
-        url = decodeURIComponent(url[1]);
-      } else {
-        url = "swagger.yaml";
-      }
-
-      hljs.configure({
-        highlightSizeThreshold: 5000
-      });
-
-      // Pre load translate...
-      if(window.SwaggerTranslator) {
-        window.SwaggerTranslator.translate();
-      }
-      window.swaggerUi = new SwaggerUi({
-        url: url,
-        dom_id: "swagger-ui-container",
-        supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
-        onComplete: function(swaggerApi, swaggerUi){
-          if(typeof initOAuth == "function") {
-            initOAuth({
-              clientId: "your-client-id",
-              clientSecret: "your-client-secret-if-required",
-              realm: "your-realms",
-              appName: "your-app-name",
-              scopeSeparator: " ",
-              additionalQueryStringParams: {}
-            });
-          }
-
-          if(window.SwaggerTranslator) {
-            window.SwaggerTranslator.translate();
-          }
-        },
-        onFailure: function(data) {
-          log("Unable to Load SwaggerUI");
-        },
-        docExpansion: "none",
-        jsonEditor: false,
-        defaultModelRendering: 'schema',
-        showRequestHeaders: false
-      });
-
-      window.swaggerUi.load();
-
-      function log() {
-        if ('console' in window) {
-          console.log.apply(console, arguments);
-        }
-      }
-  });
-
-  </script>
-</head>
-
-<body class="swagger-section">
-<div id='header'>
-  <div class="swagger-ui-wrap">
-    <a id="logo" href="http://swagger.io"><img class="logo__img" alt="swagger" height="30" width="30" src="images/logo_small.png" /><span class="logo__title">swagger</span></a>
-    <form id='api_selector'>
-      <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
-      <div id='auth_container'></div>
-      <div class='input'><a id="explore" class="header__btn" href="#" data-sw-translate>Explore</a></div>
-    </form>
-  </div>
-</div>
-
-<div id="message-bar" class="swagger-ui-wrap" data-sw-translate>&nbsp;</div>
-<div id="swagger-ui-container" class="swagger-ui-wrap"></div>
-</body>
-</html>
-```
 
 ### c. Upload the Files to a Web Host {#upload}
 
-You can't view the Swagger UI display locally &mdash; you must view it on a web server. If you already have a web server, great. Just upload the dist folder there and view it. 
-
-You can also run a web server locally on your computer through XAMPP:
+In addition to viewing the Swagger file locally in Firefox, you can also run a web server locally on your computer through XAMPP:
 
 1. Download and install [XAMPP](https://www.apachefriends.org/). 
 2. After installation, in your Applications folder, open the XAMPP folder and start the '''manager-osx''' console.
 2. Click the **Manage Servers** tab in the console manager.
 3. Select **Apache Web Server** and click **Start**.
-4. Open the htdocs folder where XAMPP was installed. On a Mac, the location is usually in /Applications/XAMPP/xamppfiles/htdocs. 
+4. Open the **htdocs** folder where XAMPP was installed. On a Mac, the location is usually in `/Applications/XAMPP/xamppfiles/htdocs`.
 5. Drag the dist folder into this space.
 6. In your browser, go to localhost/dist. 
 

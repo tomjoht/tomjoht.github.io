@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Swagger</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+			p.alignLeft {
+				text-align: left;
+			}
+			span.orange, a.orange {
+				color: orange;
+				outline-color: gray;
+			}
+            .reveal figcaption {
+                font-size: 24px;
+            }
+			.slides section h3 {
+				color: orange !important; outline: gray;
+				margin:0px;
+			}
+			.slides img {
+				max-height: 500px;
+			}
+            .reveal a img {
+                border-color: #4d4dff;
+            }
+
+			span.myname {
+				font-weight: bold;
+				font-size: 52px;
+				color: #555;
+				font-family: "Lucida Handwriting";
+			}
+
+            .reveal p, .reveal ul li, .reveal ol li, .reveal blockquote {
+                text-align: left;
+            }
+		</style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>Swagger</h1>
+                    <h3>Harnessing the Chi of Swagger in Your API Docs</h3>
+                    <h5>TC Dojo, January 9, 2017</h5>
+
+					<p style="text-align: center">
+						<small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+							<a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
+					</p>
+
+				</section>
+
+                <section>
+                    <h2>More detail</h2>
+                    <p>For a written version of this presentation, see <a href="http://idratherbewriting.com/pubapis_swagger_intro/">Implementing Swagger (OpenAPI specification) with your REST API documentation</a> in my <a href="http://idratherbewriting.com/docapis_course_overview/">API doc course</a>.</p>
+                </section>
+
+                <section>
+                    <h2>Introduction</h2>
+                    <figure><img src="media/vectors/swagger_pushbutton.svg"/>
+                        <figcaption>What engineers want...</figcaption>
+                    </figure>
+
+                </section>
+
+                <section>
+                    <h2>About Swagger</h2>
+                    <p><a href="http://swagger.io/">Swagger</a> is a specification format for describing REST APIs. From this spec, you can create interactive documentation, automate test scripts, and more. Swagger is now called OpenAPI Specification.</p>
+                </section>
+
+                <section><h2>Sample spec</h2>
+<pre><code class="yaml" data-trim contenteditable>
+paths:
+  /pets:
+    get:
+      description: Returns all pets from the system that the user has access to
+      operationId: findPets
+      produces:
+        - application/json
+        - application/xml
+        - text/xml
+        - text/html
+      parameters:
+        - name: tags
+          in: query
+          description: tags to filter by
+          required: false
+          type: array
+          items:
+            type: string
+          collectionFormat: csv
+        - name: limit
+          in: query
+          description: maximum number of results to return
+          required: false
+          type: integer
+          format: int32
+      responses:
+        '200':
+          description: pet response
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/pet'
+</code>
+</pre>
+                    <small>The spec can be in either YAML or JSON formats.</small>
+
+                </section>
+
+                <section>
+                    <h2>Swagger editor</h2>
+                    <a href="http://editor.swagger.io/"><img src="media/rasters/swagger_editor_pic.png"/></a>
+
+                </section>
+
+
+                <section>
+                    <section>
+                    <h2>Manual or Automated?</h2>
+                    <ul>
+                        <li><b>Manual:</b> You write the spec file by hand.</li>
+                        <li><b>"Automated":</b> You add annotations in your source code, and then generate the spec.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Benefits of manual</h3>
+                    <div><figure><a href="http://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/"><img src="media/rasters/undisturbed_rest.jpg"/>
+                    </a><figcaption></figcaption>
+                    </figure>
+                        <ul>
+                            <li>The spec acts as a contract that developers write to. </li>
+                            <li>You as a tech writer have total control.</li>
+                            <li>Curse of knowledge makes devs write poor docs.</li>
+                </section>
+
+                <section><h3>The spec as a contract</h3>
+                    <blockquote>For developers, it’s very easy to jump in the code and just change code. And once you change the code, you introduce backwards incompatibilities, you can break other features without realizing it. But the spec is still there, it says no, you have to test this, you have to make sure it stays consistent. It is the contract, and by following it you know you’re not breaking backwards compatibility. <br/><br/><small>&mdash; Michael Stowe (<a href="http://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/">Podcast: Spec-driven Development of REST APIs, with a focus on RAML -- interview with Michael Stowe</a>)</small></blockquote>
+                </section>
+
+                    <section>
+                        <h3>Benefits of automated</h3>
+                        <ul><li>Reduces doc drift.</li>
+                            <li>Aligns devs with documentation creation and review.</li>
+                            <li>Eliminates frustrations in getting YAML syntax correct.</li>
+                        </ul>
+                    </section>
+
+
+                </section>
+
+                <section>
+                    <h2>Parsing the Swagger spec</h2>
+                    <figure><img src="media/rasters/swagger_petstore_pic.png"/>
+                        <figcaption>The spec alone does nothing. You need a display framework, such as <a href="http://swagger.io/swagger-ui/">Swagger UI</a>, to parse it.</figcaption>
+                    </figure>
+                </section>
+
+                <section><h2>How to use Swagger UI</h2>
+                <ul>
+                    <li>Go to <a href="http://petstore.swagger.io/">http://petstore.swagger.io/</a></li>
+                    <li>Create a new pet (using <code>POST /pet</code>)</li>
+                    <li>Retrieve your pet through the ID (using <code>GET /pet/{petID}</code>)</li>
+                    <li>Paste another swagger spec from <a href="http://learnapidoc.com/swagger/swagger.yaml">this link</a> into Explore.</li>
+                </ul>
+                </section>
+
+                <section>
+                    <h2>Weather API Swagger</h2>
+<ul>
+                    <li><a href="https://market.mashape.com/fyhao/weather-13">Weather by fyhao</a></li>
+                    <li><a href="http://learnapidoc.com/swagger/">Swagger spec</a></li>
+                    <li>Use the Full Weather Data endpoint, with lat <code>37.3708853</code> and <code>lng</code> <code>-122.0025719</code></li></ul>
+                </section>
+
+                <section><h2>Configuring Swagger UI</h2>
+
+                <ul>
+                    <li>Download <a href="https://github.com/swagger-api/swagger-ui">Swagger UI</a></li>
+                    <li>Extract and pull out <b>dist</b> folder.</li>
+                    <li>Open index.html file and edit <code>url</code> value to swagger spec.</li>
+                    <li>Load index.html into Firefox and try out.</li>
+                </ul>
+
+                </section>
+
+                <section>
+                    <h2>Learning the spec syntax</h2>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
