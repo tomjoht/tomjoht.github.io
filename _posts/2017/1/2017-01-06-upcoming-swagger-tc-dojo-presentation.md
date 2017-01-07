@@ -5,7 +5,7 @@ categories:
 keywords:
 summary: "I'm giving a TC Dojo presentation this Monday morning (Jan 9) on Swagger. If you're interested, you can register and attend for free. The event will also be recorded."
 bitlink: http://bit.ly/tcdojoswagger
-date: 2017-01-06 13:00:00
+date: 2017-01-06 17:00:00
 ---
 
 In the spirit of a dojo, my presentation is called **Harnessing the Chi of Swagger in Your API Docs**. Here's the description:
