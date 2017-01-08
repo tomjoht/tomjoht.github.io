@@ -84,7 +84,7 @@ Technical writers will likely be generalists with the code, not really good at d
 
 Some might consider the tech writer's bad coding ability and superficial knowledge somewhat disappointing. After all, if you want to excel in your career, usually this means mastering something in a thorough way.
 
-It might seem depressing to realize that your coding knowledge will usually be kindergartner-like in comparison to developers. This positions tech writers more like second-class citizens in the corporation -- in a university setting, it's the equivalent of having an associates degree where others have PhDs.
+It might seem depressing to realize that your coding knowledge will usually be kindergartner-like in comparison to developers. This positions tech writers more like second-class citizens in the corporation &mdash; in a university setting, it's the equivalent of having an associates degree where others have PhDs.
 
 However, I've since realized that this mindset is misguided. My role as a technical writer is not to code nor even to develop code. My role is to create awesome *documentation*. Creating awesome documentation isn't just about knowing code. There are a hundred other details that factor into the creation of good documentation.
 
