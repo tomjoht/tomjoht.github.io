@@ -74,12 +74,22 @@
 <body>
 <div class="reveal">
     <div class="slides">
+
+
+
         <section>
-            <h1>Strategies for <br /><span class="orange">User-Centered</span> Documentation</h1>
+            <h1 style="font-size:95px;">User-Centered Documentation</h1>
+                <h3>Applying Universal Principles of Design to Tech Comm</h3>
             <p style="text-align: center">
                 <small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
                     <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
             </p>
+        </section>
+        <section>
+            <h2>Observations in Usability Labs</h2>
+            <figure><img src="media/rasters/usability_lab.jpg"/>
+                <figcaption>It could take years of observation to arrive at design principles that are already known.</figcaption>
+            </figure>
         </section>
         <section>
             <h2>Universal Principles of Design</h2>
@@ -91,7 +101,7 @@
         <section>
             <h2>Applicable Design Principles </h2>
             <section>
-                <table>
+                <table style="margin-top:20px;">
                     <tr>
                         <td>Confirmation</td>
                         <td>Consistency</td>
@@ -157,8 +167,8 @@
         <section>
             <h2>My approach</h2>
             <ul>
-                <li>Plug into design vocab</li>
-                <li>Apply it to documentation</li>
+                <li>Plug into standard design principles</li>
+                <li>Apply the principles to documentation</li>
                 <li>Group the principles logically</li>
                 <li>Evaluate the principles against help content</li>
             </ul>
@@ -166,28 +176,29 @@
         <section>
             <h2>Grouping the design principles</h2>
             <ol>
-                <li class="orange"><i>What</i> to write</li>
-                <li class="orange">How to <i>organize</i> it</li>
-                <li class="orange">The <i>way</i> to write it</li>
+                <li class="orange">What content to create</li>
+                <li class="orange">How to organize it</li>
+                <li class="orange">How to create it</li>
             </ol>
         </section>
         <section>
-            <h1><span class="orange">1. What to write</span></h1>
-        </section>
-        <section>
-            <h2>Signal-to-Noise Ratio</h2>
-            <p>Focus the users' attention on what matters by reducing extraneous information. Eliminate content that is merely "noise" as opposed to meaningful information.</p>
-        </section>
-        <section>
-            <h2>Normal Distribution</h2>
-            <p>Document what most users need to know, and omit info that applies to only a small percentage of users (edge cases or obvious information). Adding it into the main doc dilutes the information for the majority.</p>
+            <h1><span class="orange">1. What content to create</span></h1>
         </section>
         <section>
             <h2>Personas</h2>
             <p>Create fictitious descriptions of users based on real research to guide decision-making about design. These personas help you remember that you're not the user. Three primary personas and four secondary personas are sufficient.</p>
         </section>
         <section>
-            <h1><span class="orange">How to organize it</span></h1>
+            <h2>Normal Distribution</h2>
+            <p>Document what most users need to know, and omit info that applies to only a small percentage of users (edge cases or obvious information). Adding it into the main doc dilutes the information for the majority.</p>
+        </section>
+        <section>
+            <h2>Signal-to-Noise Ratio</h2>
+            <p>Focus the users' attention on what matters by reducing extraneous information. Eliminate content that is merely "noise" as opposed to meaningful information.</p>
+        </section>
+
+        <section>
+            <h1><span class="orange">How to organize the content</span></h1>
         </section>
         <section>
             <section>
@@ -203,7 +214,7 @@
                 <p>Generally, doc is grouped by category more than location (except with context-sensitive help). Tags can facilitate multiple organization schemes.</p>
             </section>
             <section>
-                <h3>Five Hat Racks Example</h3>
+                <h2>Five Hat Racks Example</h2>
                 <figure>
                     <a href="media/rasters/fivehatracksdiagram.png" target="_blank"><img src="media/rasters/fivehatracksdiagram.png"/></a>
                     <figcaption>Click to enlarge. (From <i>Universal Principles of Design</i>)</figcaption>
@@ -355,17 +366,19 @@
         </section>
         <section>
             <section>
-                <h2>Cost-Benefit </h2>
-                <p>Users apply a cost-benefit analysis to reading documentation. Is it worth spending hours in the documentation for the benefit? </p>
+                <h2>Cost-Benefit, Performance Load, Hierarchy of Needs</h2>
+                <p class="fragment"><b>Cost-Benefit:</b> The user evaluates the time required to read the documentation against the perceived payoff for the time. </p>
+                <p class="fragment"><b>Performance Load:</b> The larger the documentation, the greater the performance load will be on the user. The greater the load, the lower the user's success.</p>
+                <p class="fragment"><b>Hierarchy of Needs:</b> Users need to understand the basics before moving on to advanced topics.</p>
+            </section>
+            <section><h3>When it becomes worth it</h3>
+                <blockquote>"An information retrieval system will tend not to be used whenever it is more painful and troublesome for a customer to have information than for him not to have it." <br /><a href="https://en.wikipedia.org/wiki/Mooers%27_law">Mooer's Law</a></blockquote>
             </section>
             <section>
-                <h2>Performance Load </h2>
-                <p>The larger the documentation, the greater the performance load will be on the user. With greater performance load, the user's chance of success decreases</p>
+                <h3>Users resist long documentation</h3>
+                <a href="http://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf"><img src="media/rasters/minson.png"/></a>
             </section>
-            <section>
-                <h2>Hierarchy of Needs</h2>
-                <p>Users need to understand the basics before moving on to advanced topics. Give an advanced user tips on how to run before the user knows how to walk doesn't meet the user's needs.</p>
-            </section>
+
             <section>
                 <h3>Strategy: Quick reference guides</h3>
                 <p>Instead of eliminating potentially useful info, provide quick reference guides that help users get oriented quickly with minimal cognitive load and low cost.</p>
@@ -374,9 +387,10 @@
             <section>
                 <h3>What are quick reference guides</h3>
                 <ul>
-                    <li>Differs from getting started </li>
+                    <li>Differs from getting started, but both welcome </li>
                     <li>Main tasks described in compressed, poetry-like form</li>
                     <li>Like cliff notes or cheat sheet</li>
+                    <li>Shows shape of help content</li>
                     <li>Especially helpful for lists of functions, classes, methods</li>
                 </ul>
                 </aside>
@@ -391,6 +405,104 @@
                 <aside class="notes"><a href="https://learn.mdsol.com/csa/en/medidata-centralized-statistical-analytics-csa-53356842.html">Sample</a>. Good to have a Getting Started section. The first link leads to <a href="https://learn.mdsol.com/csa/en/about-medidata-centralized-statistical-analytics-csa-53356863.html">this page</a>. You could take the getting started guides a step further and compress the essential instructions into a 2 page guide. Another <a href="https://learn.mdsol.com/api/mcc-resources/api-quick-reference-65027014.html">example</a> that is more QRG than GSG.</aside>
             </section>
         </section>
+
+        <section>
+            <section><h2>Progressive Disclosure</h2>
+
+            <p>Layer information so that you don't present everything to the user at once. This overwhelms and confuses users. You can make some information available only at secondary or tertiary levels of navigation.</p>
+            </section>
+                <section>
+                    <h2>Related principles</h2>
+
+                <p><b>Layering: </b>Group common topics and present those groups one at a time, in specific layers (rather than all at once).</p>
+
+                <p><b>Constraint: </b>Simplify the user experience by limiting the user's ability to do certain actions at certain places. For example, limiting the number of options available from a navigation menu or homepage helps guide user decision-making. Present more advanced options at deeper levels of navigation.</p>
+                </section>
+
+            <section><h3>Strategy: Strip tease your information</h3>
+                <blockquote>Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
+                &mdash; Jakob Nielsen, <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
+
+            </section>
+            <section>
+                <h3>Example of progressive information disclosure</h3>
+                <a href="hhttp://help.getharvest.com/harvest/"><img src="media/rasters/harvest2.png"></a>
+                <aside class="notes">
+                    <p>— Makes help simpler, easier to navigate</p>
+                    <p>— Very basic architectural tools</p>
+                </aside>
+            </section>
+            <section>
+                <h3>An example of progressive disclosure in the UI</h3>
+                <img src="media/rasters/wordpress_pd.png"/>
+                <aside class="notes">
+                    <p>— Spoonfeed in UI; if more needed, click links</p>
+                    <p>— Can apply PD at various levels -- in app, in help, in topic</p>
+                </aside>
+            </section>
+            <section>
+                <h3>Strategy: Different sidebars for different layers</h3>
+                <a href="https://support.twitter.com/"><img src="media/rasters/twitter_sidebar2.png"/>
+                </a>
+                <aside class="notes">
+                    <p>— Not so common in HATs</p>
+                    <p>— Mini-TOC makes it more navigable</p>
+                    <p>— Get away from model where every page has same TOC</p>
+                </aside>
+            </section>
+        </section>
+
+        <section>
+            <h2>Wayfinding</h2>
+            <p>Provide navigational signposts &mdash; such as in the form of breadcrumbs or other maps &mdash; to help orient users as to where they are in a larger system. Don't assume that the user navigated to the current page following the path you intended.</p>
+        </section>
+
+        <section>
+            <h2>Desire Line</h2>
+            <p><b>Desire Line:</b> Look at common paths users take through information, and then make those paths more prominent and standard. For example, if users consistently go to the same 5 main topics, put those topics front and center in your help system to facilitate a more standard path to those topics.</p>
+        </section>
+
+        <section>
+            <section>
+            <h2>Consistency</h2>
+            <p>Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. As much as possible, maintain consistency with industry-wide help standards and approaches.</p>
+        </section>
+            <section>
+                <h2>Related principles</h2>
+                <p><b>Interference Effects:</b> Users bring baggage to the mental model of how to use your help. The baggage consists of all previous experiences a user has had with help &mdash; how it's arranged, how to search, how to navigate, etc. The previous experience can potentially interfere with the current experience.</p>
+            </section>
+
+        <section>
+            <h3>Common patterns with help systems</h3>
+            <ul>
+                <li>Navigation on left</li>
+                <li>Search feature</li>
+                <li>On-page TOC either on right (fixed) or center </li>
+                <li>Login in upper-right</li>
+                <li>Steps arranged in list numbering</li>
+            </ul>
+        </section>
+        </section>
+
+        <section>
+            <h2>Entry Point</h2>
+            <p>The entry point to your documentation should orient users and allow them to easily get started. Avoid barriers that block, confuse, or otherwise hinder the user's progress to their goal.</p>
+        </section>
+
+        <section>
+            <section>
+            <h2>Immersion</h2>
+            <p>Users desire to be immersed in the application or system they're using, rather than leaving that system to consult a separate, external system for help. Allow users to stay immersed in the application context by bringing help into the application.</p>
+            <section>
+                <h2></h2>
+                <p><b>Fitt's Law:</b> The time it takes for a user to reach a documentation page depends on how far the page is from the user's current position. Put links to help in places where users are interacting with the feature (such as the UI or command line).</p>
+            </section>
+
+            </section>
+            </section>
+
+
+
     </div>
 </div>
 <script src="lib/js/head.min.js"></script>
