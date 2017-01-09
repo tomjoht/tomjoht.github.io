@@ -12,6 +12,10 @@ type: notes_docapis
 
 (*This article was originally published in [ISTC Communicator](http://www.istc.org.uk/publications-and-resources/communicator/), [Autumn 2016](http://www.istc.org.uk/wp-content/uploads/2016/05/Comm1609Web_TOC.pdf).*)
 
+I recently gave a presentation that covers the same concepts in this article. See the following:
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen></iframe>
+
 ## Introduction
 
 On a recent project, after I created documentation for a new API (Application Programming Interface), the project manager wanted to demo the new functionality to some field engineers. 
