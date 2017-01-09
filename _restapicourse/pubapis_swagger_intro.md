@@ -36,7 +36,7 @@ You can think of the Swagger specification like DITA but for APIs. With DITA, yo
 
 Many tools can parse valid DITA XML and transform the content into different outputs. The Swagger specification works similarly, only the specification is entirely different, since you’re describing an API instead of a help topic.
 
-The official description of the Swagger specification is available in a [Github repository](https://github.com/OAI/OpenAPISpecification). Some of these elements are `{path}`, `parameters`, `responses`, and `security`. Each of these elements is actually an “object” (instead of an XML element) that holds a number of fields and arrays.
+The official description of the Swagger specification is available in a [Github repository](https://github.com/OAI/OpenAPISpecification). Some of these elements are `path`, `parameters`, `responses`, and `security`. Each of these elements is actually an “object” (instead of an XML element) that holds a number of fields and arrays.
 
 In the Swagger specification, your endpoints are `paths`. If you had an endpoint called “pet", your Swagger specification for this endpoint might look as follows:
 
@@ -84,7 +84,7 @@ Here's what these objects mean:
 *  `parameters` lists the parameters for the endpoint. 
 *  `responses` lists the response from the request. 
 *  `200` is the HTTP status code. 
-*  `$ref` is actually a reference to another part of your implementation where the response is defined. (Swagger has a lot of $ref references like this to keep your code clean and to facilitate re-use.)
+*  `$ref` is actually a reference to another part of your implementation where the response is defined. (Swagger has a lot of `$ref` references like this to keep your code clean and to facilitate re-use.)
 
 It can take quite a while to figure out the Swagger specification. Give yourself a couple of weeks and a lot of example specification files to look at, especially in the context of the actual API you’re documenting. Remember that the Swagger specification is general enough to describe nearly every REST API, so some parts may be more applicable than others.
 
@@ -111,19 +111,19 @@ Although you can generate your specification file from code annotations, not eve
 
 In other words, developers consult the specification file to see what the parameter names should be called, what the responses should be, and so on. After this contract has been established, Stowe says you can then put the annotations in your code to auto-generate the specification file.
 
-Too often, development teams quickly jump to coding the API endpoints, parameters, and responses without doing much user testing or research into whether the API aligns with what users want. Since versioning APIs is extremely difficult (you have to support each new version going forward with full backwards compatibility to previous versions), you want to avoid the "faily fast" approach that is so commonly embraced with agile.
+Too often, development teams quickly jump to coding the API endpoints, parameters, and responses without doing much user testing or research into whether the API aligns with what users want. Since versioning APIs is extremely difficult (you have to support each new version going forward with full backwards compatibility to previous versions), you want to avoid the "fail fast" approach that is so commonly embraced with agile.
 
 From the Swagger specification file, some tools can generate a mock API that you can put before users to have them try out the requests.
 
 The mock API generates a response that looks like it’s coming from a real server, but it’s really just a pre-defined response in your code and appears to be dynamic to the user.
  
-With my project, our developers weren’t that familiar with Swagger, so I simply created the specification file by hand. Additionally, I didn’t have free access to the programming sourcecode, and our developers spoke English as a second or third language only. They weren’t eager to be in the documentation business.
+With my project, our developers weren’t that familiar with Swagger, so I simply created the specification file by hand. Additionally, I didn’t have free access to the programming source code, and our developers spoke English as a second or third language only. They weren’t eager to be in the documentation business.
  
 ## Parsing the Swagger specification
 
 Once you have a valid Swagger specification file that describes your API, you can then feed this specification to different tools to parse it and generate the interactive documentation similar to the Petstore example I referenced earlier.
 
-Probably the most common tool used to parse the Swagger specification is [Swagger UI](https:// github.com/swagger-api/swagger-ui). After you download Swagger UI, you basically just open up the index.html file inside the “dist” folder (which contains the Swagger UI project build) and reference your own Swagger specification file in place of the default one.
+Probably the most common tool used to parse the Swagger specification is [Swagger UI](https:// github.com/swagger-api/swagger-ui). After you download Swagger UI, you basically just open up the **index.html** file inside the **dist** folder (which contains the Swagger UI project build) and reference your own Swagger specification file in place of the default one.
 
 The Swagger UI code generates a display that looks like this:
 
@@ -187,7 +187,7 @@ Swagger does provide a nice visual shape for an API. You can easily see all the 
 
 Based on this framework, you can help users grasp the basics of your API.
 
-Additionally, I found that learning the Swagger specification and describing my API helped shape my own API vocabulary. By poring through the specification, I realised that there were four types of parameters: “path” parameters, “header” parameters, “query” parameters, and “request body” parameters. I learned that parameter data types with REST were a “Boolean”, “number”, “integer”, or “string.” I learned that responses provided “objects” containing “strings” or “arrays.” 
+Additionally, I found that learning the Swagger specification and describing my API helped inform my own API vocabulary. By poring through the specification, I realised that there were four types of parameters: “path” parameters, “header” parameters, “query” parameters, and “request body” parameters. I learned that parameter data types with REST were a “Boolean”, “number”, “integer”, or “string.” I learned that responses provided “objects” containing “strings” or “arrays.”
 
 In short, implementing the specification gave me an education about API terminology, which in turn helped me describe the various components of my API in credible ways.
 
