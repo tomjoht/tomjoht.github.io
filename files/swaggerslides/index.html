@@ -71,6 +71,12 @@
             .reveal p, .reveal ul li, .reveal ol li, .reveal blockquote {
                 text-align: left;
             }
+            span.myname {
+                font-weight: bold;
+                font-size: 52px;
+                color: #555;
+                font-family: "Lucida Handwriting";
+            }
 		</style>
 
 	</head>
@@ -101,6 +107,7 @@
                     <h2>Introduction</h2>
                     <figure><img src="media/vectors/swagger_pushbutton.svg"/>
                         <figcaption>What engineers want...</figcaption>
+                        <small>Image by <a href="https://thenounproject.com/term/push-button/683102/">Gulheim from The Noun Project</a></small>
                     </figure>
 
                 </section>
@@ -162,7 +169,7 @@ paths:
                     <h2>Manual or Automated?</h2>
                     <ul>
                         <li><b>Manual:</b> You write the spec file by hand.</li>
-                        <li><b>"Automated":</b> You add annotations in your source code, and then generate the spec.</li>
+                        <li><b>"Automated":</b> You add annotations in your source code, and then generate the spec file.</li>
                     </ul>
                 </section>
 
@@ -233,23 +240,23 @@ paths:
                 </section>
 
                 <section>
-                    <h2>Resources to explore: SwaggerHub</h2>
+                    <h2>SwaggerHub</h2>
                     <p><a href="https://app.swaggerhub.com">Swagger Hub</a> provides Cloud-based Swagger hosting, with team access + more</p>
                 </section>
 
 
                 <section>
                     <h2>RAML: Another spec</h2>
-                    <p>Sample display: <a href="http://learnapidoc.com/raml/">http://learnapidoc.com/raml/</a></p>
+                    <p>RAML is a competing spec. Sample display: <a href="http://learnapidoc.com/raml/">http://learnapidoc.com/raml/</a></p>
                 </section>
 
                 <section>
                     <h2>Responses to Swagger documentation</h2>
                     <ul>
-                        <li>Functions like quick reference guide</li>
                         <li>Everyone loves the interactivity</li>
-                        <li>Test environment setup is key</li>
+                        <li>Functions like quick reference guide</li>
                         <li>Taught me industry standard vocabulary for REST APIs</li>
+                        <li>Powerful learning capabilities with hands-on exploration</li>
                     </ul>
                 </section>
 
@@ -257,24 +264,44 @@ paths:
                     <h2>Downsides to Swagger</h2>
                     <ul>
                         <li>REST APIs can't have complex request body parameters</li>
-                        <li>Getting YAML syntax right to describe complex responses is hell</li>
-                        <li>Redundant with documentation content in regular documentation</li>
+                        <li>Getting YAML syntax right is hell</li>
+                        <li>Redundant with other documentation content</li>
+                        <li>Requires test environment to protect customer data</li>
 
                     </ul>
                 </section>
 
 
-                <section><h2>Redundant API doc?</h2>
+                <section><h2>Integrating Swagger into main doc</h2>
 
                     <p>Can I integrate Swagger into the rest of my docs? No, but see these resources:</p>
                     <ul>
                         <li><a href="https://github.com/Wiredcraft/carte">Carte Jekyll theme</a></li>
                         <li><a href="https://github.com/sourcey/spectacle">Spectacle</a></li>
                         <li><a href="https://www.npmjs.com/package/bootprint-swagger">Bootprint-Swagger</a></li>
+                        <li><a href="https://github.com/chenjianjx/swagger2html">Swagger2html</a></li>
                     </ul>
 
                 </section>
+                <section>
+                    <h1>Questions?</h1>
+                </section>
 
+                <section>
+                <h1>Thanks!</h1>
+                <div>
+                    <div style="float:left; padding: 10px;">
+                        <img src="media/rasters/family.png"/>
+                    </div>
+                    <div style="float:left; padding: 10px; text-align: left;">
+                        <p><span class="myname">Tom Johnson</span><br/>
+                            &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
+                            &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+                            &mdash; <a href="mailto:tom@idratherbewriting.com">tom@idratherbewriting.com</a>
+                        </p></div>
+                </div>
+
+                </section>
 
 			</div>
 		</div>
