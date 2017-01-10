@@ -52,7 +52,6 @@
         }
         .slides section h3 {
             color: orange !important; outline: gray;
-            margin:0px;
         }
         .slides img {
             max-height: 500px;
@@ -82,7 +81,11 @@
             font-weight: bold;
             font-size: 52px;
             color: #555;
-            font-family: "Lucida Handwriting";
+            font-family: Arial;
+        }
+
+        .reveal table {
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -110,7 +113,7 @@
                         <td>F</td>
                     </tr>
                     <tr>
-                        <td><b>Sitemap index view</b></td>
+                        <td><b>Index</b></td>
                         <td>Esc</td>
                     </tr>
                 </table>
@@ -120,7 +123,7 @@
                 </p>
             </section>
             <section>
-                Slides move down like this to drill into the same design principle with more detail. Headings also become <span class="orange">orange</span>. Slides move right when moving on to another design principle.
+                Slides move down to drill into the same principle with more detail. Headings also become <span class="orange">orange</span>. Slides move right when moving on to another principle.
             </section>
         </section>
         <section>
@@ -174,9 +177,7 @@
                     </div>
                 </div>
         </section>
-
         <!-- my approach -->
-
         <section>
             <h2>My approach</h2>
             <ul>
@@ -191,11 +192,9 @@
                 <li>Evaluate the principles against help content</li>
             </ul>
         </section>
-
         <section>
             <h1>Creating content</h1>
         </section>
-
         <!-- Freeze-Flight-Fight-Forfeit-->
         <section>
             <section>
@@ -207,6 +206,7 @@
                 <figure><iframe width="853" height="480" src="https://www.youtube.com/embed/kiW0vvnbI1k" frameborder="0" allowfullscreen></iframe><figcaption>How does this user consume help content?</figcaption></figure>
             </section>
             <section>
+                <h3>Readers scan</h3>
                 <blockquote>
                     <b>How Users Read on the Web</b>
                     <p>Summary: They don't. People rarely read Web pages word by word; instead, they scan the page, picking out individual words and sentences. <br />&mdash; Jakob Nielsen, <a href="http://www.nngroup.com/articles/how-users-read-on-the-web/">Nielsen Norman Group</a></p>
@@ -250,6 +250,15 @@
                     <p>— Dramatically improves readability</p>
                 </aside>
             </section>
+
+        </section>
+        <!-- Readability -->
+        <section>
+            <section>
+                <h2>Readability</h2>
+                <p>Sentences should be simple, clear, and easy-to-understand, especially as the concepts get more complex. In fact, the more complex the material, the simpler the sentences need to be.  </p>
+                <p><small>See also: Legibility, Highlighting</small></p>
+            </section>
             <section>
                 <h3>Unreadable content &mdash; no list formatting</h3>
                 <p>"Nebraska is filled with internationally recognized attractions that draw large crowds of people every year, without fail. In 1996, some of the most popular places were Fort Robinson State Park (355,000 visitors), Scotts Bluff National Monument (132,166), Arbor Lodge State Historical Park & Museum (100,000), Carhenge (86,598), Stuhr Museum of the Prairie Pioneer (60,002), and Buffalo Bill Ranch State Historical Park (28,446)."</p>                <small>Jakob Nielsen, <a href="http://www.nngroup.com/articles/how-users-read-on-the-web/">How Users read on the web</a></small>
@@ -270,48 +279,35 @@
                     <p>— Facilitates scanning</p>
                 </aside>
             </section>
-
+            <section>
+                <h3>Determine readability scores</h3>
+                <a href="https://readability-score.com"><img src="media/rasters/readabilityscore.png"/></a>
+            </section>
             <section>
                 <h3>Include a glossary</h3>
                 <a href="http://www.sphinx-doc.org/en/1.5.1/glossary.html"><img src="media/rasters/glossary.png"/></a>
             </section>
         </section>
-
-        <!-- Readability -->
-        <section>
-            <section>
-                <h2>Readability</h2>
-                <p>Sentences should be simple, clear, and easy-to-understand, especially as the concepts get more complex. In fact, the more complex the material, the simpler the sentences need to be.  </p>
-                <p><small>See also: Legibility, Highlighting</small></p>
-            </section>
-
-            <section>
-                <h3>Determine readability scores</h3>
-                <a href="https://readability-score.com"><img src="media/rasters/readabilityscore.png"/></a>
-            </section>
-        </section>
-
         <!-- Legibility -->
         <section>
             <section>
                 <h2>Legibility</h2>
                 <p>General guidelines:
-                    <ul>
-                <li>9-12pt font size</li>
-                <li>10-12 words (55 characters) per line</li>
-                <li>dark text on light background</li>
-                <li>70% + contrast</li>
-                <li>leading 1-4 pts more than font size</li>
-                <li>serif vs. san serif doesn't matter</li>
-            </ul>
+                <ul>
+                    <li>9-12pt font size</li>
+                    <li>10-12 words (55 characters) per line</li>
+                    <li>dark text on light background</li>
+                    <li>70% + contrast</li>
+                    <li>leading 1-4 pts more than font size</li>
+                    <li>serif vs. san serif doesn't matter</li>
+                </ul>
                 </p>
             </section>
             <section>
-                <h3>Example legibility from Apple</h3>
+                <h3>Legibility example from Apple</h3>
                 <a href="http://help.apple.com/iphone/10/#/iph3bf432fd"><img src="media/rasters/applelegibility.png"/></a>
             </section>
         </section>
-
         <!-- Signal to Noise -->
         <section>
             <section>
@@ -338,7 +334,6 @@
                     <p>— Content must address real user's tasks</p>
                 </aside>
             </section>
-
             <section>
                 <h3>Keep the focus in the task domain</h3>
                 <a href="http://ulyssesapp.com"><img src="media/rasters/ulysses.png"/></a>
@@ -349,7 +344,6 @@
                 </aside>
             </section>
         </section>
-
         <!--Picture Superiority Effect -->
         <section>
             <section>
@@ -388,16 +382,6 @@
                 </aside>
             </section>
             <section>
-                <h3>Avoid Chartjunk</h3>
-                <figure><a href="http://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/"><img src="media/rasters/chartjunk.jpg"/></a>
-                    <figcaption><small>Edward Tufte, <a href="http://www.edwardtufte.com/tufte/books_ei">Envisioning Information</a></small></figcaption></figure>
-                <aside class="notes">
-                    <p>— Chartjunk is decorative graphics</p>
-                    <p>— Graphics need to do work of learning</p>
-                    <p>— Chartjunk can actually detract/hurt learning</p>
-                </aside>
-            </section>
-            <section>
                 <h3>Use simple line drawings, not photographs</h3>
                 <figure>
                     <a href="http://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="media/rasters/linedrawings.png"/><figcaption><small>Clark and Lyons,&nbsp; <i><a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448">Graphics for Learning</a></i></small></figcaption>
@@ -405,6 +389,16 @@
                 <aside class="notes">
                     <p>— Photos have distracting detail</p>
                     <p>— Simpler the better </p>
+                </aside>
+            </section>
+            <section>
+                <h3>Avoid Chartjunk</h3>
+                <figure><a href="http://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/"><img src="media/rasters/chartjunk.jpg"/></a>
+                    <figcaption><small>Edward Tufte, <a href="http://www.edwardtufte.com/tufte/books_ei">Envisioning Information</a></small></figcaption></figure>
+                <aside class="notes">
+                    <p>— Chartjunk is decorative graphics</p>
+                    <p>— Graphics need to do work of learning</p>
+                    <p>— Chartjunk can actually detract/hurt learning</p>
                 </aside>
             </section>
             <section>
@@ -416,14 +410,12 @@
                     <p>— Everything else just fancy execution of idea</p>
                 </aside>
             </section>
-
         </section>
-
         <!-- Performance Load -->
         <section>
             <section>
                 <h2>Performance Load</h2>
-                <p>The larger the documentation, the greater the strain on the user. The greater the strain, the lower the user's success. In many cases, documentation that is too extensive deflates the user from even trying at all.</p>
+                <p>The larger, more complex the system, the greater the strain on the user. The greater the strain, the lower the user's success. In many cases, documentation that is too massive deflates the user from even trying at all.</p>
                 <p><small>See also: Cost-Benefit, Hierarchy of Needs, Control</small></p>
             </section>
             <section>
@@ -440,7 +432,7 @@
             <section>
                 <h3>What are quick reference guides</h3>
                 <ul>
-                    <li>Differs from getting started, but both welcome </li>
+                    <li>Differs from getting started, but both are welcome </li>
                     <li>Main tasks described in compressed, poetry-like form</li>
                     <li>Like cliff notes or cheat sheet</li>
                     <li>Shows shape of help content</li>
@@ -491,54 +483,47 @@
                 </aside>
             </section>
         </section>
-
         <!-- Personas -->
         <section>
             <h2>Personas</h2>
-            <p>Create fictitious descriptions of users based on real research to guide decision-making about design. These personas help you remember that you're not the user. Three primary personas and four secondary personas are sufficient.</p>
+            <p>Create composite descriptions of users based on real research to guide decision-making about design. These personas help you remember that you're not the user. Three primary personas
+                and four secondary personas are sufficient.</p>
         </section>
-
         <!-- Normal Distribution-->
         <section>
             <h2>Normal Distribution</h2>
-            <p>Document what most users need to know, and omit info that applies to only a small percentage of users (edge cases or obvious information). Adding it into the main doc dilutes the information for the majority.</p>
+            <p>Document what most users need to know, and omit info that applies to a tiny subset of users (edge cases or obvious information). Adding it into the main documentation dilutes the information for the majority.</p>
         </section>
-
         <!-- Design by Committee -->
         <section>
             <h2>Design by Committee</h2>
-            <p>Reduce the number of errors, gaps, and mistakes by involving a number of unbiased experts to influence the content. </p><p>Tech writers are usually outsiders to the business environment, not as familiar with the industry context of the product, nor as versed in the technology as engineers and QA. As such, involve their input as much as possible to increase the quality and comprehensiveness of the documentation.  </p>
+            <p>Reduce the number of errors, gaps, and mistakes by involving a number of unbiased experts to influence the content. </p><p>Tech writers are usually outsiders to the business environment, not as familiar with the industry context of the product nor as versed in the technology as engineers and QA. As such, involve their input as much as possible to increase the quality and comprehensiveness of the documentation.  </p>
         </section>
-
         <!-- Depth of Processing -->
         <section>
             <section>
-            <h2>Depth of Processing</h2>
-            <p>Users will better learn a system if they have to do more thinking, analysis, and other deep processing activities related to the system than if they just read it. <p>Consider including activities that have users think and analyze actions in scenarios, rather than just following step-by-step instructions.</p>
+                <h2>Depth of Processing</h2>
+                <p>Users will better learn a system if they have to do more thinking, analysis, and other deep processing activities related to the system. <p>Consider including activities that have users think and analyze actions in scenarios or other activities, rather than just following step-by-step instructions.</p>
             </section>
             <section>
                 <h3>Provide hello-world tutorials</h3>
                 <a href="http://www.docker.com/tryit/"><img src="media/rasters/docker.png"/></a>
             </section>
         </section>
-
         <!-- Iteration -->
         <section>
             <h2>Iteration</h2>
-            <p>Products usually starts out simple and gets increasingly more detailed and refined with each additional iteration. It often takes multiple iterations &mdash; through reviews, user feedback, testing, etc. &mdash; to achieve a high level of quality.
-
-                <p>When writing doc, recognize the iterative element behind writing documentation. Publishing version 1 shouldn't be considered done, just the first iteration of the doc.</p>
+            <p>Products usually start out simple and get increasingly more detailed and refined with each additional iteration. It often takes multiple iterations &mdash; through reviews, user feedback, testing, etc. &mdash; to achieve a high level of quality.
+            <p>When writing doc, recognize the iterative element behind writing documentation. Publishing version 1 shouldn't be considered done, just the first iteration of the content.</p>
         </section>
-
         <section>
             <h1>Organizing content</h1>
         </section>
-
         <!-- Modularity-->
         <section>
             <section>
                 <h2>Modularity</h2>
-                <p>Break up help content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own. </p>
+                <p>Break up content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own. </p>
             </section>
             <section>
                 <h3>Users read non-sequentially</h3>
@@ -553,7 +538,7 @@
             </section>
             <section data-background="media/rasters/trainwreck.jpg">
                 <h3>
-                    Modularity is great. Where do things go wrong?
+                    Modularity sounds great. Where do things go wrong?
                 </h3>
                 <aside class="notes">
                     <p>— Minimalism formed basis for topic-based authoring, structured authoring</p>
@@ -562,7 +547,7 @@
                 </aside>
             </section>
             <section>
-                <h3>1. Don't assume building blocks are presentation</h3>
+                <h3>1. Writers assume building blocks equal presentation</h3>
                 <img src="media/vectors/usercentered_buildingblocks.svg"/>
                 <aside class="notes">
                     <p>— DITA topic types not glued together</p>
@@ -571,7 +556,7 @@
                 </aside>
             </section>
             <section>
-                <h3>2. Don't auto-burst print books based on h2</h3>
+                <h3>2. Writers auto-burst print books based on h2</h3>
                 <img src="media/vectors/usercentered_booktoweb.svg"/>
                 <aside class="notes">
                     <p>— Auto-bursting is arbitrary division at heading level</p>
@@ -636,11 +621,10 @@
                     <li>Make topics meaningful enough to stand on their own</li>
                     <li>Don't be afraid to make long topics</li>
                     <li>Assume users might be starting at that page</li>
-                    <li>Provide any necessary context (prereqs, assumptions) at the beginning of the topic</li>
+                    <li>Link to any necessary context (prereqs, assumptions) at the beginning of the topic</li>
                 </ul>
             </section>
         </section>
-
         <!-- Hierarchy -->
         <section>
             <section>
@@ -659,14 +643,29 @@
                 </a>
             </section>
             <section>
+                <h3>Tip: Shorten titles in your navigation</h3>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>"Getting Started Building Widgets for System Z"</td>
+                        <td>"Build widgets"</td>
+                    </tr>
+                    <tr>
+                        <td>"About Managing Language Settings in Product Z"</td>
+                        <td>"Manage language settings"</td>
+                    </tr>
+                    <tr>
+                        <td>"Configuring the Gizmo Settings for Development Environments"</td>
+                        <td>"Set up developer environment"</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
                 <h3>Sentry hierarchy example</h3>
                 <a href="https://docs.sentry.io/"><img src="media/rasters/sentry.png"/></a>
             </section>
-            <section>
-                <h3>AWS hierarchy example</h3>
-                <a href="https://aws.amazon.com/documentation/s3/"><img src="media/rasters/awss3doc.png"/>
-                </a>
-            </section>
+
             <section>
                 <h3>Hierarchy best practices</h3>
                 <ul>
@@ -678,7 +677,6 @@
                 </ul>
             </section>
         </section>
-
         <!-- Five Hat Racks -->
         <section>
             <section>
@@ -700,7 +698,6 @@
                     <figcaption>Click to enlarge. (From <i>Universal Principles of Design</i>)</figcaption>
                 </figure>
             </section>
-
             <section>
                 <figure>
                     <a href="http://tech.lds.org/index.php/component/content/article/1-miscellanous/429-affinity-diagramming-for-ldsorg"><img src="media/rasters/affinitydiagramming.jpg"/></a>
@@ -713,11 +710,10 @@
                 </aside>
             </section>
             <section>
-                <h2>With docs, group by category</h2>
+                <h3>Group by category, not location</h3>
                 <figure><img src="media/vectors/usercentered_location.svg"/><figcaption>Only group by location if you're creating context-sensitive help within the UI.
                 </figcaption></figure>
             </section>
-
             <section>
                 <h3>Faceted navigation</h3>
                 <blockquote>Faceted navigation is arguably the most significant search innovation of the past decade. <br />&mdash; Peter Morville, <a href="http://searchpatterns.org/">Search Patterns</a></blockquote>
@@ -727,7 +723,6 @@
                     <p>— Maybe a little over-hyped</p>
                 </aside>
             </section>
-
             <section>
                 <h3>Tags are practical facets</h3>
                 <blockquote>With tags, your files and photos can be in two, three, or more “places” at once.</blockquote>
@@ -739,7 +734,6 @@
                 </aside>
             </section>
         </section>
-
         <!-- Progressive Disclosure -->
         <section>
             <section>
@@ -778,7 +772,6 @@
                 </aside>
             </section>
         </section>
-
         <!-- Entry Point -->
         <section>
             <section>
@@ -795,11 +788,10 @@
                 </aside>
             </section>
             <section>
-                <h3>Example Microsoft Azure homepage</h3>
+                <h3>Example Entry Point with Azure Docs</h3>
                 <a href="https://docs.microsoft.com/en-us/"><img src="media/rasters/azurehomepage.png"/></a>
             </section>
         </section>
-
         <!-- Desire Line-->
         <section>
             <section>
@@ -811,11 +803,11 @@
                 <figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="media/rasters/desirepath.jpg"/></a>
                     <figcaption><small>From Flickr by George Redgrave</small></figcaption></figure>
             </section>
-
             <section>
                 <h3>Determine lines through metrics</h3>
-                <img src="media/rasters/docmetrics.png"/>
-                <p>Which pages are getting the most hits? </p>
+                <figure><img src="media/rasters/docmetrics.png"/>
+                    <figcaption>Which pages are getting the most hits? Create a clear path to those
+                        pages.</figcaption></figure>
             </section>
             <section>
                 <h2>80/20 Rule</h2>
@@ -826,24 +818,23 @@
                 <p>If users consistently go to the same 10 topics, put those topics front and center in your help system to facilitate a more standard path to those topics.</p>
             </section>
         </section>
-
         <!-- Wayfinding -->
         <section>
             <section>
                 <h2>Wayfinding</h2>
-                <p>Provide navigational signposts &mdash; such as in the form of breadcrumbs or other maps &mdash; to help orient users as to where they are in a larger system. Don't assume that the user navigated to the current page following the path you intended.</p>
+                <p>Provide navigational signposts &mdash; such as breadcrumbs or other workflow maps &mdash; to help
+                    orient users as to where they are in a larger system. Don't assume that the user navigated to the current page following the path you intended.</p>
             </section>
             <section>
-                <h3>Facebook example</h3>
+                <h3>Example breadcrumbs from Facebook</h3>
                 <a href="https://developers.facebook.com/docs/accountkit/countrycodes"><img src="media/rasters/facebookbreadcrumbs.png"/></a>
             </section>
         </section>
-
         <!-- Immersion -->
         <section>
             <section>
                 <h2>Immersion</h2>
-                <p>Users desire to be immersed in the application or system they're using, rather than leaving that system to consult a separate, external system for help. Allow users to stay immersed in the application context by bringing help into the application.</p>
+                <p>Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help. Allow users to stay immersed in the application context by bringing help into the application.</p>
                 <p><small>See also: Fitt's Law</small></p>
             </section>
             <section>
@@ -868,7 +859,6 @@
             <section>
                 <h3>Fitt's Law</h3>
                 <blockquote>The further a user must travel with their cursor, the less accuracy the user will have in reaching the target object.<br/>&mdash; Travis Lowdermilk, <a href="http://shop.oreilly.com/product/0636920028741.do"><i>User-centered Design</i></a></blockquote>
-
                 <aside class="notes">
                     <p>— If answer is far from problem area, less likely to find</p>
                     <p>— Proximity of info helps users find and use it</p>
@@ -901,7 +891,6 @@
                 <img src="media/rasters/youtubeblank.png"/>
             </section>
         </section>
-
         <!-- Consistency -->
         <section>
             <section>
@@ -909,6 +898,7 @@
                 <p>Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. As much as possible, maintain consistency with industry-wide help standards and approaches.</p>
                 <p><small>See also: Interference Effects</small></p>
             </section>
+
             <section>
                 <h3>Same experience across doc sets</h3>
                 <a href="https://aws.amazon.com/documentation/"><img src="media/rasters/docsawsamazon.png"/></a>
@@ -924,25 +914,22 @@
                 </ul>
             </section>
             <section>
-                <h3>Sample Doc Following Consistency</h3>
+                <h3>Google doc follows common industry patterns</h3>
                 <a href="https://developers.google.com/maps/documentation/javascript/tutorial"><img src="media/rasters/googlemaps.png"/></a>
             </section>
         </section>
-
-
         <!--Forgiveness -->
         <section>
             <section>
-            <h2>Forgiveness</h2>
-            <p>Help users recover from errors when they happen. Taking risks, experimenting, and exploring on their own helps users learn. When users make errors during these activities, help guide them back on the right path. </p>
+                <h2>Forgiveness</h2>
+                <p>Taking risks, experimenting, and exploring systems on their own helps users learn. When users make errors during these activities, help guide them back on the right path. </p>
             </section>
             <section>
-                <h3>Sample help in error message</h3>
+                <h3>Sample help in console with Jekyll includes</h3>
                 <img src="media/rasters/errormessagejekyll.png"/></a>
             </section>
-
             <section>
-                <h3>Find all error messages in an application</h3>
+                <h3>Find all error messages in your system</h3>
                 <img src="media/rasters/twitterstatuscode.png"/>
             </section>
             <section>
@@ -950,7 +937,6 @@
                 <img src="media/rasters/testingeverything.jpg"/>
             </section>
         </section>
-
         <!-- Summary -->
         <section>
             <h2>Summary</h2>
@@ -988,11 +974,9 @@
                 </div>
             </div>
         </section>
-
         <section>
             <h1>Questions?</h1>
         </section>
-
         <section>
             <h1>Thanks!</h1>
             <div>
@@ -1012,8 +996,6 @@
                 <p>— </p>
             </aside>
         </section>
-
-
     </div>
 </div>
 <script src="lib/js/head.min.js"></script>
