@@ -107,8 +107,13 @@ defaults:
       comments: true
       search: true
 
-sass:
-    sass_dir: _sass
+  -
+    scope:
+      path: ""
+      type: "youngadultnovel"
+    values:
+      layout: "default"
+
 
 target: web
 

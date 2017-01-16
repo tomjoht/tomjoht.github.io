@@ -30,7 +30,7 @@ I helped build the site, so I want to mention a few details here. To build the s
 * Add a _config.yml file to the project.
 * Define a layout in the _layouts folder.
 * Insert the {% raw %} {{content}} tag {% endraw %} into the layout where you want page content to appear.
-* Add frontmatter tags into your pages, with the layout specified.
+* Add front matter tags into your pages, with the layout specified.
 * Use for loops to iterate through lists of content.
 
 The most difficult part was modifying the HTML from the original theme to exclude all the layouts that we didn't need or want.
