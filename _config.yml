@@ -24,7 +24,6 @@ gems:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-paginate]
-  - algoliasearch-jekyll
 
 url: http://idratherbewriting.com
 
