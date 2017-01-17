@@ -1,5 +1,5 @@
 ---
-title: "Adobe FrameMaker -- Evaluating FrameMaker's responsive HTML5 output"
+title: "Evaluating Adobe FrameMaker's responsive HTML5 output"
 categories:
 - general
 keywords: Adobe FrameMaker, responsive html5 webhelp, documentation websites
