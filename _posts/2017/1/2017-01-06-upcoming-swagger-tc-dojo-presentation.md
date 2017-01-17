@@ -2,7 +2,7 @@
 title: "Attend my upcoming TC Dojo presentation on Swagger on Jan 9, 2017"
 categories:
 - api-doc
-keywords:
+keywords: swagger, tutorial, presentation
 summary: "I'm giving a TC Dojo presentation this Monday morning (Jan 9) on Swagger. If you're interested, you can register and attend for free. The event will also be recorded."
 bitlink: http://bit.ly/tcdojoswagger
 date: 2017-01-06 17:00:00

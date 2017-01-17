@@ -1,10 +1,11 @@
 ---
 title: "Madcap Central -- a first look at Madcap’s new cloud-based collaboration and publishing solution"
 categories:
-- api-doc
-keywords:
+- general
+keywords: madcap central, madcap software, madcap flare, ccms, central hub
 summary: "Madcap Central, recently released in early January, is a new cloud-based collaboration and publishing solution for tech docs from Madcap Software. Madcap Central allows you to configure and deploy Flare builds from a central server. You can also manage tasks, teams, users, and other details related to each of your projects in Madcap Central."
 bitlink: http://bit.ly/madcapcentralreview
+date: 2017-01-16 17:00:00
 ---
 
 Here’s an introductory video with more details: 
