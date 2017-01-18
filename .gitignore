@@ -3,5 +3,5 @@ _site/
 .idea
 _site
 vendor/
-_algolia_api_key
+.jekyll-metadata
 
