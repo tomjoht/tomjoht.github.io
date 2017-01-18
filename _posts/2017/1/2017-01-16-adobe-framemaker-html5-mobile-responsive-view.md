@@ -4,7 +4,7 @@ categories:
 - general
 keywords: Adobe FrameMaker, responsive html5 webhelp, documentation websites
 summary: "If you look at the surveys and other data collected about tool usage and priorities in the technical communication field, it's impossible not to acknowledge FrameMaker as one of the most common tools. Year after year it appears at the top of the charts, and print publishing remains a high priority. Although commonly known for its print publishing capabilities, FrameMaker also has an excellent responsive HTML5 web output. Getting responsive design right is difficult, particularly with documentation websites that have robust navigation sidebars. FrameMaker's responsive output is both mobile-friendly and impressively designed."
-bitlink: http://bit.ly/adobeframemakertrends
+bitlink: http://bit.ly/fmweboutput
 date: 2017-01-16 18:00:00
 redirect_from:
   - /2017/01/16/adobe-framemaker-continues-to-top-charts/
