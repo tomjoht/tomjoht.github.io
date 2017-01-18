@@ -1,5 +1,5 @@
 ---
-title: "My top posts of 2016 are all Swagger-related -- lessons learned from 2016 analytics"
+title: "My top 3 posts of 2016 are all Swagger-related -- lessons learned from 2016 analytics"
 categories:
 - api-doc
 keywords: swagger, openAPI, trends, 2017
@@ -12,9 +12,9 @@ date: 2017-01-17 20:00:00
 
 Here are a couple of screenshots from Google Analytics:
 
-<figure><img src="/images/trends2017.png"/><figcaption>The blue line is 2016, the brown is 2015. Page views were 778k, up 24% from 626k the previous year. That's an average of 2k+ views a day.</figcaption></figure>
+<figure><img src="/images/trends2017.png"/><figcaption>The blue line is 2016, the brown is 2015. Page views were 778k for the year, up 24% from 626k the previous year. That's an average of 2k+ page views each day.</figcaption></figure>
 
-<figure><img src="/images/sessions2017.png"/><figcaption>Sessions were up 31%, to 497k from 377k the previous year. A session is a single visitor's time on the site, not counting the number of pages the user visits.</figcaption></figure>
+<figure><img src="/images/sessions2017.png"/><figcaption>Sessions were up 31% for the year, to 497k from 377k the previous year. A session is a single visitor's time on the site, not counting the number of pages the user visits.</figcaption></figure>
 
 ## Top pages
 
@@ -40,20 +40,20 @@ Some of the top pages can be explained away as flukes. I doubt people are search
 
 Posts about technical writing careers and certificate programs are perennial favorites. A lot of users (hello English majors!) are looking for tech writing information online and searching for career advice.
 
-The JavaScript article is one of those weird times where a single post shoots to the top based on unpredictable factors (the melting ice caps?).
+The JavaScript article is one of those weird instances where a single post shoots to the top based on unpredictable factors (the melting ice caps?).
 
-But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/) is driving a steady stream of visitors to my site. Yes, you're reading that right. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
+But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/) is driving a steady stream of visitors to my site. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
 
-If you search for "Swagger tutorial," it's in the top 3 results. I find this odd, because it's not even a very good tutorial!
+If you search for "Swagger tutorial," my page is in the top 3 results. I find this odd, because it's not even a very good tutorial.
 
 This tells me several things:
 
 * The [documentation for Swagger](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) is really bad, so people are looking elsewhere for information.
-* Swagger is a hot trend that people are hungrily searching for information about.
+* Swagger is a hot trend that people are hungry for information about.
 * I should probably fine tune the heck out of that page.
-* People searching on the web often include "tutorial" in what they're searching for.
+* People searching on the web often include "tutorial" in what they're searching for, especially when the official docs are confusing.
 
-{{site.data.alerts.tip}}If you want a tip about a book topic, try writing a user guide for Swagger that reads like friendly documentation rather than a spec!{{site.data.alerts.end}}
+{{site.data.alerts.tip}}If you want a tip for a book topic, try writing a user guide for Swagger that reads like friendly documentation rather than a spec!{{site.data.alerts.end}}
 
 ## The larger trend is documentation
 
