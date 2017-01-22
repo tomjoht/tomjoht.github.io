@@ -1,6 +1,6 @@
 ---
 title: Chapter 13
-permalink: /youngadultovel_chapter13/
+permalink: /youngadultnovel_chapter13/
 ---
 
 When Samantha got outside, Grandpa was standing at the end of the pit, pointing his shotgun at Harr and shouting, “Don’t move! Don’t move a muscle.” It must have been one of Grandpa’s traps, which he’d built to try to capture a sample of Harr’s people.
@@ -49,4 +49,4 @@ Grandpa was stroking his chin, looking at Harr like he used to look at other sci
 
 “Their location has been a mystery since their disappearance. But there is a secret map in the record keepers archives,” Harr said. “If you are willing, I can take you there.”
 
-<a href="{{ "/youngadultovel_chapter14" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter14" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

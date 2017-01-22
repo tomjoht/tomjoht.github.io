@@ -1,6 +1,6 @@
 ---
 title: Chapter 17
-permalink: /youngadultovel_chapter17/
+permalink: /youngadultnovel_chapter17/
 ---
 
 
@@ -118,5 +118,5 @@ Then the voices slowly started again.
 
 “Of course not,” Ji said. And then he laughed. The others laughed too, and it sounded like a grand old time they were having.
 
-<a href="{{ "/youngadultovel_chapter18" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter18" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
 

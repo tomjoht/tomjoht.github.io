@@ -1,6 +1,6 @@
 ---
 title: Chapter 12
-permalink: /youngadultovel_chapter12/
+permalink: /youngadultnovel_chapter12/
 ---
 
 By the time she reached her house, the moon was already out. Her Grandfather was standing on the upper deck looking through his telescope, looking for Samantha in the forest with it. When he spotted her riding up the driveway, he rushed out to greet her, practically jumping up and down with excitement.
@@ -75,4 +75,4 @@ Soon a different tune started to come out of mouth, and it was almost as if she 
 
 She sung through the entire melody, and the chorus, and was slowly come to find the words for lyrics. She was just drifting off to sleep, barely singing audibly anymore, when she heard a loud thud outside and brush falling. Samantha jumped to her window. Harr was standing at the bottom of a deep pit in the backyard — it was some kind of trap. Grandpa flipped on his light and ran outside with a shotgun.
 
-<a href="{{ "/youngadultovel_chapter13" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter13" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

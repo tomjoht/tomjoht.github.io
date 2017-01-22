@@ -1,6 +1,6 @@
 ---
 title: Chapter 15
-permalink: /youngadultovel_chapter15/
+permalink: /youngadultnovel_chapter15/
 ---
 
 As Harr stepped closer, Ji gripped his walking stick more tightly. Ji always carried a walking stick, but not because he was old and frail. In fact, Ji wasn’t even middle-aged; he was only about 40 years old. He was slender and tall, and had a beard. No other clan members wore a beard out of respect for Ji.
@@ -87,4 +87,4 @@ The hunters bound them with rope and marched them back to the main camp. They br
 
 “Take them from my sight,” Ji said, “and bury them in the pits.”
 
-<a href="{{ "/youngadultovel_chapter16" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter16" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

@@ -1,6 +1,6 @@
 ---
 title: Chapter 2
-permalink: /youngadultovel_chapter2/
+permalink: /youngadultnovel_chapter2/
 ---
 
 In the distance, Harr could hear searchers calling out. He saw flashlights, and heard barking dogs. He scurried above the hills and climbed into high trees to view the search party below. He blended almost invisibly into the dark green. In a tree, surrounded by green branches, holding himself still and hardly breathing, he seemed part of the structure, a thick vine. Positioned vertically along one of the branches, high in the tree, he gazed down on the searchers below. The searchers never thought to look up, and if they did, they would have seen only more forest.
@@ -29,4 +29,4 @@ Harr didn’t know what to do. He started to panic. His heart thumped. His mind 
 
 He ran several miles before slowing down. When he did finally stop, he sat down in front of a tree and put his head in his hands. His breathing gradually slowed. He didn’t know what to make of it, the feeling that had swelled inside his chest, the silhouette in his cabin, the possibility his home was now the dwelling of another creature. Who was she, and how did she find his cabin?
 
-<a href="{{ "/youngadultovel_chapter3" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter3" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

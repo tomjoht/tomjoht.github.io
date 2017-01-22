@@ -1,6 +1,6 @@
 ---
 title: Chapter 9
-permalink: /youngadultovel_chapter9/
+permalink: /youngadultnovel_chapter9/
 ---
 
 Once outside, Samantha mounted her grandpa’s old cruiser bike, a black bike with big fat tires, and rode down and out the gravel driveway. She pedaled down the country road a couple of miles, carefully riding on the shoulder, giddy that she had Grandpa’s secret notebook hidden inside her shirt. The thought that Grandpa didn’t have it, that she would soon know his secrets, spurred her to pedal faster and faster. The wind whipped through her hair and she let out a laugh, thinking about how Grandpa left the notebook out.
@@ -45,4 +45,4 @@ Samantha, who still hadn’t cracked open the notebook to discover Grandpa’s s
 
 “I have no idea what’s in that book,” Samantha protested. But Ji disregarded her pleading. They tied her against the trunk of a tree while the interpreters and other leaders gathered to study the book in more detail.
 
-<a href="{{ "/youngadultovel_chapter10" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter10" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

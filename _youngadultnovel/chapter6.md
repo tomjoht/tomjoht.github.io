@@ -1,6 +1,6 @@
 ---
 title: Chapter 6
-permalink: /youngadultovel_chapter6/
+permalink: /youngadultnovel_chapter6/
 ---
 
 Samantha awoke to sounds of ripping and looked up to see her mother standing beside her bed, ripping every page of the map out of the book, and then ripping it again, and then crumpling it up. Samantha cried out and reached for the book, but her mother turned and continued ripping it to shreds. The floor was covered with shreds of the map, and when Samantha protested, saying “Stop!” her mother ripped faster.
@@ -47,4 +47,4 @@ Grandpa opened the door as soon as they drove in. He hobbled a little due to a b
 
 That’s when Samantha noticed it — the telescope. Rather than aiming at the sky, the telescope was aimed directly into the forest.
 
-<a href="{{ "/youngadultovel_chapter7" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter7" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

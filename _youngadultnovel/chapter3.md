@@ -1,6 +1,6 @@
 ---
 title: Chapter 3
-permalink: /youngadultovel_chapter3/
+permalink: /youngadultnovel_chapter3/
 ---
 
 Samantha quickly closed the cabin door and moved the latch to secure the entrance from intruders. She had seen something in the bushes, or rather something had seen her. It was too dark to make out the exact shape, and at first she suspected it might be a coyote, or a wolf. But its movements were too sudden. She had seen the whites of its eyes, and a green glow below. Whatever it was, she didn’t feel safe wandering in the forest. She propped a chair beneath the door handle for extra security. Then she sat down beside the bed. Not on the bed, for she was too spooked to go to sleep. She sat on the ground beside the bed, leaning back on it. She hadn’t prayed in a long time, but now she got on her knees and brought her hands together. She said a pleading prayer to be kept safe, to not be hurt by whatever was out there in the woods. She prayed that she could once again find her family. As much as they misunderstood her, she was at least safe in her house, in her room. She needed some special protection, at least until daylight, she pleaded.
@@ -19,4 +19,4 @@ Samantha! The voices were farther off in the distance than she thought, moving a
 
 As Samantha rode home in the car, she kept one hand crossed in front of her stomach, just to make sure the leather book she had so recently found was close.
 
-<a href="{{ "/youngadultovel_chapter4" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter4" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

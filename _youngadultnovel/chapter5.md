@@ -1,6 +1,6 @@
 ---
 title: Chapter 5
-permalink: /youngadultovel_chapter5/
+permalink: /youngadultnovel_chapter5/
 ---
 
 When Harr returned to his cabin, he breathed a sigh of relief to find that the search party had left the forest. All would return to normal, he thought. He hadn’t eaten for more than a day, but he had hope, now that the searchers were gone, that the deer and rabbit would come out of hiding. They would fall into the traps, or become victims to a javelin.
@@ -63,4 +63,4 @@ Breaking the silence, from the far edges of the gathering, a young observer rais
 
 It was bold, but workable. Harr didn’t want to look timid. Now was his time to show that he could be an observer, that he could track this simple address and, just like observing an animal, observe the whereabouts of a missing records book. He asked the observer for the letter, and carefully put it in his pocket.
 
-<a href="{{ "/youngadultovel_chapter6" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter6" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

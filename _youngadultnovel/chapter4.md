@@ -1,6 +1,6 @@
 ---
 title: Chapter 4
-permalink: /youngadultovel_chapter4/
+permalink: /youngadultnovel_chapter4/
 ---
 
 Samantha didn’t show the book to anyone. She resumed her normal life, going to school, attending swim class, eating dinner at 6 pm with her family. But in the evenings she opened the leather book and studied its pages. Page one showed a map with various lines curving around and sometimes connecting. Page two showed another map with different lines curving and crossing, and sometimes meeting each other and sometimes leading off into nowhere. Little X’s appeared in various parts of the map. The next several pages showed the same, but with different X’s in different areas of the map. Some of the X’s were dark, and others were light. Above the X’s was an arrow tilted at various angles, some arrows leaning to the right, others to the left, others straight up, and others straight down. Each X had its own arrow.
@@ -23,4 +23,4 @@ And then an idea came to her. The trails — perhaps they weren’t trails at al
 
 Alone in her room, she began to sing the forest song. She liked to create her own melodies, often hybrids of familiar tunes but blended in a new way. But now she had a new rhythm and meter based on the map notations. She studied the map in her mind and began to trace out the melody in her voice. She hummed at first, getting the melody in her head. She sketched out the musical notes into sound. In a few places it was jagged, changing notes rapidly, but this gave the song a bit of energy and darkness. She then started adding words, a phrase here and there. She repeated the same phrase over until it she came up with a new line, and then added it into the mix. Despite her attempts, the music seemed to resist words — it remained a tempo and a kind of pulse, a forest pulse, she thought. She closed her eyes and lay back on her bed, the leather book clutched in her arms, and she kept humming the tune until she fell asleep.
 
-<a href="{{ "/youngadultovel_chapter5" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter5" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

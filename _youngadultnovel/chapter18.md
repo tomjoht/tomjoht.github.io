@@ -1,6 +1,6 @@
 ---
 title: Chapter 18
-permalink: /youngadultovel_chapter18/
+permalink: /youngadultnovel_chapter18/
 ---
 
 The next day, when Samantha awoke, all the other clan people were already up and ready, backpacks filled, gear on. Ji wore a black and grey bandanna on his head, and held his walking stick to his side. Grandpa was lacing up his boots. Harr sat on his cot with his hand on his head, thinking.
@@ -99,6 +99,6 @@ She walked on the dark, trying to interpret the music she was hearing. Behind th
 
 Although Samantha concentrated more on the sounds, the music soon faded and everything was silent again. She stood still in the darkness for a minute, keeping her eyes closed. Now that the music was quiet, she opened her eyes and turned to go back towards the tent. As she turned and started to go, she  jumped back, startled. There was a figure about ten yards behind her — a dark, towering, skinny figure, Ji.
 
-<a href="{{ "/youngadultovel_chapter19" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter19" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
 
 

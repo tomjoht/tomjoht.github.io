@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div id="topBannerImageHomepage">{% include topBannerAd.html %}</div>
+<div class="post-header">
+    {% include toc.html %}
+
+    <div class="post-content">
+        <h1 class="post-title-main">{{ page.title }}</h1>
+
+
+        {% if page.summary %}<div class="summary">{{page.summary}}</div> {% endif %}
+        {{site.data.alerts.note}}This is a chapter from a <a href="http://idratherbewriting.com/youngadultnovel_toc/">young adult novel</a> I was once writing. I never actually finished it, but I included it here in case I decide to take it up again one day.{{site.data.alerts.end}}
+
+        {% include yanoveltoc.html %}
+
+        {{content}}
+{% unless page.focus == "homepage" %}
+        <hr/>
+        <div style="max-width:400px">
+
+            {% include tinyletter.html %}
+        </div>
+        {% endunless %}
+
+        {% include social_sharing_buttons.html %}
+
+{% include single_post_ads.html %}
+
+{% include disqus.html %}
+
+</div>
+
+
+   <!-- Footer -->
+      {% include footer.html %}

@@ -1,6 +1,6 @@
 ---
 title: Chapter 20
-permalink: /youngadultovel_chapter20/
+permalink: /youngadultnovel_chapter20/
 ---
 
 The music notations on the cursed map looked innocent enough. They rose and fell in various scales and melodies. Samantha studied the notes for a few minutes. They appeared somewhat normal. The patterns did repeat several times in a looping fashion. She began to hum the music. The tune started slow and then escalated into a rising, more explosive melody of notes before falling quickly and returning back to the original slow rhythm. She hummed it several times.
@@ -113,4 +113,4 @@ Samantha looked at Grandpa. “I can see that, but I don’t really get it.”
 
 “Okay,” Samantha said. “Tomorrow we’ll walk east to the lake.”
 
-<a href="{{ "/youngadultovel_chapter21" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter21" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

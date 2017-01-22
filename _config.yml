@@ -111,7 +111,7 @@ defaults:
       path: ""
       type: "youngadultnovel"
     values:
-      layout: "default"
+      layout: "page_yanovel"
 
 
 target: web

@@ -1,6 +1,6 @@
 ---
 title: Chapter 22
-permalink: /youngadultovel_chapter22/
+permalink: /youngadultnovel_chapter22/
 ---
 
 As Samantha walked down the night trail, her eyes adjusted to the night. With the light of the stars she could make her way down the trail without veering off into the bushes and getting lost. She walked with an adrenaline bounce in her step, at first, the excitement and danger of breaking out on her own. She followed the trail, and knew exactly the route she needed to take. It would require many hours of walking, but not more than a good day’s hike. By coincidence, Grandpa had been right about heading towards the lake. Life tends to thrive near water, and this was still true for a lost people.

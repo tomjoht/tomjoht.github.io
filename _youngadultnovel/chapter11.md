@@ -1,6 +1,6 @@
 ---
 title: Chapter 11
-permalink: /youngadultovel_chapter11/
+permalink: /youngadultnovel_chapter11/
 ---
 
 The voice inside Samantha’s head whispered “Sing.” She could hear it again and again. “S-I-N-G.” That was it. One word. But what exactly did it mean? Sing now? Sing later? Practice singing? Hear someone sing? And even in this very moment, singing was, well, an awkward thing to do, with this greenish figure right before her.
@@ -83,4 +83,4 @@ With that, she mounted her bike and started to pedal away. “Wait,” Harr said
 
 Samantha smiled and pedaled away.
 
-<a href="{{ "/youngadultovel_chapter12" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter12" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

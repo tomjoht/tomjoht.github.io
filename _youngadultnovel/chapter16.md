@@ -1,6 +1,6 @@
 ---
 title: Chapter 16
-permalink: /youngadultovel_chapter16/
+permalink: /youngadultnovel_chapter16/
 ---
 
 At Ji’s command, the hunters led Samantha, Grandpa, and Harr over to a deep pit on the side of the main camp. The pit was used to trap deer and other animals, so it had a soft false floor that fell through to a 15 foot deep dirt pit. Harr had seen other disobedient clan members dropped in the pits before — they weren’t buried or immediately killed, but deprived of food and water, the buried souls would slowly starve. With no food, they grew weak over a few days. With no water, they grew delirious. If two men were buried in the pits, they would invariably turn on each after a few days, either going mad and seeing, in deluded ways, the other as a monster, or killing the other out of frustration and hunger.
@@ -59,4 +59,4 @@ Samantha closed her eyes again. Slowly, she started to sing. At first she hummed
 
 “Stop!” Ji shouted from above. She thought Ji was trying to silence her song, so she sung louder. A few seconds later, a rope dropped down the side of the pit. “Grab the rope!” Ji shouted. Samantha felt the falling rope land on her shoulder. She gripped it tightly and felt her body fly upward through the air.
 
-<a href="{{ "/youngadultovel_chapter17" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter17" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

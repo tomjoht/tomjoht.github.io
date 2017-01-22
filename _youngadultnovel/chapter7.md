@@ -1,6 +1,6 @@
 ---
 title: Chapter 7
-permalink: /youngadultovel_chapter7/
+permalink: /youngadultnovel_chapter7/
 ---
 
 Skilled in cartography, Harr knew how to read any map. Plenty of hikers had left maps on the trails, some accidentally, some just discarding them as litter. These maps he had collected and added to the storage box in his cabin. Although he didn’t venture out into the city much, if it could even be called a city, he was aware of it. With a vague sense of where the house might be, and a hooded sackcloth frock to hide his appearance, he set out for the house.
@@ -25,4 +25,4 @@ Harr slipped out of the backdoor as quietly as he had entered. His journey to re
 
 At last he reached the forest’s edge, and he turned up the familiar trail toward the clan’s gathering place. A few times he paused to consider going in another direction, perhaps running away, but he when he reflected on it more, he told himself the punishment would be temporary. He only needed to be humble and contrite, accept their sentence, and then all would return to normal. That’s what Harr thought, at least, until he heard a faint screaming in the distance. It was the scream of a girl. The screams intensified as Harr changed his slow walk to a jog and then, fearing it might be the girl with the book, a full out run.
 
-<a href="{{ "/youngadultovel_chapter8" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter8" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

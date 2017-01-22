@@ -1,6 +1,6 @@
 ---
 title: Chapter 21
-permalink: /youngadultovel_chapter21/
+permalink: /youngadultnovel_chapter21/
 ---
 
 When Samantha awoke, Ji and his companions were already up, stoking a fire and cooking some oatmeal Grandpa had bought. All were sitting around the fire waiting for Samantha. When Samantha emerged from the tent and walked over to the fire, everyone quieted down and looked at her, as if waiting for the day’s direction.
@@ -82,5 +82,5 @@ Why bring along this group after all, she wondered? She didn’t want to bring J
 She carefully zipped up her bag, which was propped up by the door of the tent. She laced up her boots, put on her backpack, and quietly headed down the trail toward the distant valley. About 30 feet outside the camp, she paused and looked back. All was silent, the embers of the fire still glowing. The song in her head had faded, and the night colors returned to black. It was dark, the unknown. But she wasn’t afraid. This was her destiny, her reunion with her ultimate purpose. She smiled briefly, and then headed down the trail into the night.
 
 
-<a href="{{ "/youngadultovel_chapter22" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter22" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
 

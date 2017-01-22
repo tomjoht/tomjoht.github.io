@@ -1,6 +1,6 @@
 ---
 title: Chapter 1
-permalink: /youngadultovel_chapter1/
+permalink: /youngadultnovel_chapter1/
 ---
 
 Impatiently, Samantha walked ahead, leading out in front of everyone else on the trail. The ferns and bushes on the sides of the trail sometimes brushed against her as she walked, but she was careful to avoid stinger nettles. She moved uphill and around rocks along the trail with a rhythm in her step that made her feel light and deer-like. She often looked at the vistas on the sides of the trail, or the colorful purple flowers growing on the edges.
@@ -70,6 +70,6 @@ At least out here, alone, she could sing as much as she wanted. The cabin’s wa
 
 Samantha knew she wasn’t normal, if there was such a thing. She felt she was special in some way, like she had a purpose. Only she didn’t know it. Her life was important, but for what end? How would she bring about the events that must surely come? Music was her future, somehow, but it was always discouraged, and so remained in the background, something she could do in her time alone. In her personal prayers at night, Samantha would feel the words, Sing, Samantha, Sing. But when she did, if her mother was around, her mother would say Quiet, Samantha. Focus.
 
-<a href="{{ "/youngadultovel_chapter2" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter2" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a><li>
 
 

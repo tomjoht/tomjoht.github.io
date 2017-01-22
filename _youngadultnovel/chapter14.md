@@ -1,6 +1,6 @@
 ---
 title: Chapter 14
-permalink: /youngadultovel_chapter14/
+permalink: /youngadultnovel_chapter14/
 ---
 
 Grandpa insisted that they go to the archives at once and retrieve whatever records existed, and this made Samantha a bit nervous. What if Harr had been making this up in an effort to get free of the pit and Grandpa. Was Harr’s intent to lure Grandpa right into the path of the other observers? She didn’t know Harr that well — maybe it was a trick. But she couldn’t confront Harr about it openly, since Grandpa was right there. If she showed distrust in Harr’s word, it might tip off Grandpa to her own embellishments, and then the whole situation would worsen.
@@ -59,5 +59,5 @@ As Harr and Samantha reached the camp, they noted various observers making a com
 
 Harr raised one of his hands and said, “I have the record keeper’s book.” Ji lowered his hands and then motioned for Harr to come forward.
 
-<a href="{{ "/youngadultovel_chapter15" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter15" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
 

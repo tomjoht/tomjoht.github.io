@@ -1,6 +1,6 @@
 ---
 title: Chapter 10
-permalink: /youngadultovel_chapter10/
+permalink: /youngadultnovel_chapter10/
 ---
 
 Harr continued running toward the direction he had heard the screams. It was coming from the meetingplace gathering ground, and he didn’t know what trouble might be going on. But if it involved the girl, he wanted to be there, to sort things out. Maybe he could get back the book.
@@ -41,4 +41,4 @@ They walked past a waterfall, with the bubbly white water at the base where the 
 
 Samantha stopped and turned, looking directly into Harr’s eyes. She brought a finger to her mouth and said, “Sshhh.” “I can hear it,” she said. “I can hear the voice now.”
 
-<a href="{{ "/youngadultovel_chapter11" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter11" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

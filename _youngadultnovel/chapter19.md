@@ -1,6 +1,6 @@
 ---
 title: Chapter 19
-permalink: /youngadultovel_chapter19/
+permalink: /youngadultnovel_chapter19/
 ---
 
 Ji moved slowly toward Samantha. He moved so quietly in the woods, with such stealth. He wasn’t even one of the hunters, yet he possessed the same grace and endurance as the other clansmen.
@@ -85,4 +85,4 @@ The rhythm raced around Samantha’s mind and filled her emotions with confidenc
 
 She took the cursed map in hand, unraveled the rest of it, felt the paper with her hands a bit. Then she sat up, opened her eyes, and look at the notations.
 
-<a href="{{ "/youngadultovel_chapter20" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter20" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>

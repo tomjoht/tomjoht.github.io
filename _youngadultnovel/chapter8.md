@@ -1,6 +1,6 @@
 ---
 title: Chapter 8
-permalink: /youngadultovel_chapter8/
+permalink: /youngadultnovel_chapter8/
 ---
 
 Grandpa decided to wait to start school until Samantha woke up on her own. He didn’t want to start off on the wrong foot, and he knew Sam would need some time to adjust to the transition. Sam — this is what he always called her, rather than Samantha. When Samantha finally came out of her room to ask Grandpa when they would start, she found him squirreled away in his office, peering through a telescope at the forest scene out his window.
@@ -51,4 +51,4 @@ He set the notebook down on the table and went to retrieve a few items for her d
 
 “Here you go, Sam,” Grandpa said. “Just in case.” Samantha adjusted the fanny pack around her waist and headed toward the forest. She did not tell Grandpa that, inside her shirt, without his knowing it, she had tucked away his special research notebook.
 
-<a href="{{ "/youngadultovel_chapter9" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
+<a href="{{ "/youngadultnovel_chapter9" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
