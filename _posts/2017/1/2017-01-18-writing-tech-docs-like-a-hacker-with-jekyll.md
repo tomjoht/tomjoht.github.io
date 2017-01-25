@@ -13,7 +13,6 @@ podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcast
 podcast_file_size: 51.9 MB
 podcast_duration: "59:18"
 podcast_length: 51863807
-redirect_from: /2017/01/24/hyperste-simplified-technical-english-asd-ste100/
 ---
 
 ## Slides
