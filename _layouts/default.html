@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 70 }}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+
+    <meta property="og:title"
+          content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="{{page.url}}"/>
+    <meta property="og:image" content="http://idratherbewriting.com/images/orangesquare.png"/>
+    <meta property="og:site_name" content="{{site.title}}"/>
+    <meta property="fb:app_id" content="247143161970549"/>
+    <meta property="og:description"
+          content="{% if page.summary %}{{page.summary}}{% else %}{{site.description}}{% endif %}"/>
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@tomjohnson" />
+    <meta name="twitter:creator" content="@tomjohnson" />
+
     <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} | {{ site.name }} {% endif %}</title>
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend:site.baseurl }}"  type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
