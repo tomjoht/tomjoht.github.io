@@ -63,29 +63,35 @@ This prediction didn't really play out. Although I listed [Contentful](https://w
 
 ## 2017 Trends
 
-Before jumping into predictions for 2017, let me preface this by saying that different documentation spaces have different trends. I'm in API documentation based in Silicon Valley. I'm not entrenched in machinery documentation in Germany. I'm not creating screencasts and instructional learning. I'm not on a team with hundreds of writers. I'm not writing GUI documentation. I'm not trying to break into the industry as a first-timer. Many of my views and perspectives are shaped by my own experience, and without a vast database of research, facts, and other data points to draw upon, much of my insight stems from my own experiences, which will always align with my environment, the business requirements and audience feedback I've received, and more.
+Before jumping into predictions for 2017, let me first say that different documentation spaces have different trends. Here's my space: **API documentation in Silicon Valley, California**. I'm not entrenched in machinery documentation in Germany. I'm not creating screencasts and instructional learning for large orgs. I'm not on a team that consists of hundreds of writers. I'm not writing GUI documentation. I'm not trying to break into the industry as a first-timer. I'm not an XML consultant.
 
-That said, I run one of the largest, most well-read blogs in the tech comm industry, and many consider my blog to embody the voice of the tech comm industry. When I post something bogus, people let me know. Every post I write, I get a sense of its validity and relevance through feedback across hundreds of technical writers. As a popular blogger, I have unique access to the pulse of tech comm in the industry.
-
-Here's what's coming for 2017, particularly in developer documentation spaces: **Github as the integration point for technical documentation.**
+So recognize that my views and perspectives are shaped by my own experience. With that said, here's what I think is coming for 2017, particularly in developer documentation spaces: **Github as a platform for managing and hosting technical documentation.**
 
 Here's why:
 
-Github has come to define the workflow and interaction model that developers follow in collaborating on documentation. Internally, many software shops implement models similar models following Git, but without the Github interface. However, I think documentation needs this GUI layer to manage issues, pull requests, facilitate reviews, and manage all aspects of the doc process is a more visible, trackable way.
+Github has come to define the workflow and interaction model that developers follow in collaborating on documentation. Internally, many software shops implement models similar models following Git, but without the Github interface. However, I think documentation needs this GUI layer to manage issues, handle pull requests, facilitate reviews, and manage all aspects of the doc process is a more visible, trackable way.
 
-The idea that documentation can be perfected by just a few writers working outside the business, outside of deep developer tasks, and alone is ludicrous. The past couple of months, I wanted to become more familiar with open source workflows for docs, so I participated in some documentation on the [Jekyll](http://jekyllrb.com) site. I thought I'd contributed heavily to some doc improvements, but then I looked at the [list of resolved issues in the 3.4.0 issues](http://jekyllrb.com/docs/history/#v3-4-0). Holy smokes. There are probably 100+ issues surfaced, discussed, resolved, and merged across dozens of different people. *A lot* of effort goes into running a software project, and seeing the list of doc updates humbled me. I realized that my contributions were a mere drop in the bucket, and that even with my contributions, others had followed to correct some errors or gaps in what I'd contributed.
+More and more, I'm realizing that documentation is a collaborative effort by communities of people. It isn't the effort of a single technical writer assigned to a project.
+
+The idea that documentation can be perfected by just a few technical writers working outside the business, outside immersion in deep developer tasks, and largely working alone is ludicrous.
+
+The past couple of months, I wanted to become more familiar with open source workflows for docs. So I participated in some documentation on the [Jekyll](http://jekyllrb.com) site. I thought I'd contributed heavily to some doc improvements, but then I looked at the [list of resolved issues in the 3.4.0 issues](http://jekyllrb.com/docs/history/#v3-4-0) and realized my contributions were a mere drop in the bucket.
+
+There were probably 100+ issues surfaced, discussed, resolved, and merged across dozens of different people and teams. *A lot* of effort goes into running a software project, and seeing the list of doc updates humbled me. Even with my contributions, others followed to correct some errors or gaps in what I'd written.
 
 If documentation for any project is going to thrive, it needs the attention and contributions of a whole village of users.
 
-At my work, we want to embrace a Github workflow. You can already see this revolution with Microsoft and their docs. They shifted away from the cumbersome, slow XML model with MSDN and have reinvented their docs in the community with a model that embodies the points Shaun mentioned: Markdown-based, generated with static site generators, housed on Github, continuously integrated, and more.
+At my work, we want to embrace a Github workflow. You can already see this revolution in other companies with [Microsoft and their Azure docs](https://docs.microsoft.com/en-us/azure/). They shifted away from the cumbersome, slow XML model with MSDN and have reinvented their docs in the community following an open source model. Their docs embody all the points Shaun mentioned: Markdown-based, generated with static site generators, housed on Github, continuously integrated, pull-request workflow for updates, and more.
 
-Solutions architects and business developers tell me that they want docs to be in the same space that devs are: on Github, Stack Overflow, and more. They want docs to tap into these communities and integrate into common developer touchpoints. They want to enable developers, field engineers, and others to flag issues with docs and track their progress.
+Solutions architects and business developers tell me that they want docs to be in the same space that devs are in. Developers are on Github, Stack Overflow, and more. We want our docs to tap into these communities and integrate into common developer touchpoints. We want to enable developers, field engineers, and others to flag issues with docs, and track the progress of submitted issues, submit pull requests, and more.
 
-Technical writers do not have the bandwidth to author every doc needed for a project. Engineers and others need to be able to contribute through pull requests and other direct contributions. The Github workflow is something developers understand and can easily work with. Technical writers will take on roles where they process pull requests, integrate doc into the larger site, edit and simplify and try out content to ensure accuracy, and more. But rather than manage this process through tedious email chains, they'll do it through Github. Technical writers will need to become masters of the Github workflow, understanding how to review pull requests, suggest improvements, clone patches and make edits themselves on top of these requests, run tests prior to merging, and more.
+Technical writers do not have the bandwidth to author every doc needed for a project. The Github workflow is something developers understand and can easily work with. Technical writers will take on roles where they process pull requests, integrate doc into the larger site, edit and simplify content, test out instructions to ensure accuracy, and more.
+
+But rather than manage this process through tedious email chains, or trying to insert yourself into the right meeting, they'll do it through Github. Technical writers will need to become masters of the Github workflow. They need to understand how to review pull requests, suggest improvements, clone patches and make edits themselves, run tests prior to merging, and more.
 
 In summary, in 2017 and beyond, we'll see developer documentation start to move to Github as the primary platform for interaction points with developers both inside and outside companies.
 
-Note that I'm just referring to developer docs, such as APi documentation, here. I'm not referring to documentation for non-technical end users, or documentation for airline mechanics or other users who aren't familiar with Github and engineering workflows.
+Note that I'm just referring to developer docs, such as APi documentation. I'm not referring to documentation for non-technical end users, or documentation for airline mechanics or other groups who might not be familiar with Github and engineering workflows.
 
 
 
