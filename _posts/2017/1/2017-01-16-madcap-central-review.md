@@ -1,9 +1,9 @@
 ---
-title: "Madcap Central -- a first look at Madcap’s new cloud-based collaboration and publishing solution"
+title: "MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution"
 categories:
 - general
 keywords: MadCap central, MadCap software, MadCap flare, ccms, central hub
-summary: "Madcap Central, recently released in early January, is a new cloud-based collaboration and publishing solution for tech docs from MadCap Software. MadCap Central allows you to configure and deploy Flare builds from a central server. You can also manage tasks, teams, users, and other details related to each of your projects in MadCap Central."
+summary: "MadCap Central, recently released in early January, is a new cloud-based collaboration and publishing solution for tech docs from MadCap Software. MadCap Central allows you to configure and deploy Flare builds from a central server. You can also manage tasks, teams, users, and other details related to each of your projects in MadCap Central."
 bitlink: http://bit.ly/madcapcentralreview
 date: 2017-01-16 17:00:00
 ---
@@ -22,23 +22,23 @@ With MadCap Central, you can do the following:
 * Create and track tasks by user and team
 * See project statistics in widgets on a dashboard, and more
 
-<img src="/images/central.png" alt="Madcap Central Interface" style="max-width: 700px; border: 1px solid #dedede;"/>
+<img src="/images/central.png" alt="MadCap Central Interface" style="max-width: 700px; border: 1px solid #dedede;"/>
 
 *Note: MadCap Software is one of the sponsors for this site.*
 
 ## Work locally, then upload to MadCap Central
 
-Madcap Central serves as the hub for your Flare projects, but you don’t work with your Flare files in the cloud. You work with your projects locally using Flare, and then use options within Flare 2017’s interface to commit your updates into MadCap Central.
+MadCap Central serves as the hub for your Flare projects, but you don’t work with your Flare files in the cloud. You work with your projects locally using Flare, and then use options within Flare 2017’s interface to commit your updates into MadCap Central.
 
 For example, in Flare 2017, go to **View > MadCap Central**. You'll see a pane on the left where you can log into MadCap Central and commit your current project.
 
-<figure><img src="/images/uploadpane.png" style="max-width: 400px;" alt="Flare upload pane" /><figcaption>Madcap Central provides a central online Dashboard for your Flare projects</figcaption></figure>
+<figure><img src="/images/uploadpane.png" style="max-width: 400px;" alt="Flare upload pane" /><figcaption>MadCap Central provides a central online Dashboard for your Flare projects</figcaption></figure>
 
 Within MadCap Central's admin interface, you'll see the Flare projects you've uploaded and can configure the builds for your projects.
 
 ## Use source control to commit into MadCap Central
 
-Madcap Central also provides source control for your Flare projects. Through source control, multiple writers can collaborate on the same project. When you commit your project in MadCap Central, the changes get stored on the server.
+MadCap Central also provides source control for your Flare projects. Through source control, multiple writers can collaborate on the same project. When you commit your project in MadCap Central, the changes get stored on the server.
 
 <img src="/images/changesstored.png" style="max-width: 400px;" alt="Changes stored on server" />
 
@@ -102,6 +102,6 @@ In contrast to CCMS systems, which simply store and manage your content in a cen
 
 You no longer need to use separate systems for source control, task management, permissions, and other details. It’s all contained and managed within one central hub. Overall, MadCap Central provides a much-needed publishing and content delivery solution for tech docs.
 
-Check out more here: [Madcap Central](http://www.madcapsoftware.com/products/central/).
+Check out more here: [MadCap Central](http://www.madcapsoftware.com/products/central/).
 
 
