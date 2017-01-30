@@ -17,7 +17,7 @@ During this time, if you have inline links that point to specific pages (which k
 
 Different tools have various approaches to avoiding broken links. 
 
-### Madcap Analyzer
+### MadCap Analyzer
 MadCap Flare has an [Analyzer tool](http://www.madcapsoftware.com/products/analyzer/) that checks your project for broken links (among other things) and lists them in a comprehensive report. Additionally, each time you change a file name in Flare, Flare updates all references to that file. Other help authoring tools have similar intelligence built in to help you avoid making errors. 
 
 These kinds of reporting tools and built-in updating are one of the key reasons why technical writers use help authoring tools. If you've decided to go the HAT route, broken links are probably not a huge issue for you. Even so, it's easy to still end up with orphan links in an output when your targets vary a lot.

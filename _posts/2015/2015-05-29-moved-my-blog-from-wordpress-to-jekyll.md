@@ -18,7 +18,7 @@ Here are some reasons why I switched:
 ## Tired of the split world view
 My main reason for switching probably differs from the most common reasons people switch from WordPress to Jekyll. I think that the publishing platforms we use to create technical documentation shouldn't be different from the publishing platforms we use to publish to the web.
 
-Throughout my career I've been using Madcap Flare or MediaWiki or OxygenXML or some other tech comm tool during the day, and then switched to using WordPress to blog in the evenings. Then it's back to tech comm tools in the morning. 
+Throughout my career I've been using MadCap Flare or MediaWiki or OxygenXML or some other tech comm tool during the day, and then switched to using WordPress to blog in the evenings. Then it's back to tech comm tools in the morning.
 
 Well, I'm tired of this split paradigm when it comes to publishing. *Why should web publishing tools be any different from tech comm publishing tools?*
 

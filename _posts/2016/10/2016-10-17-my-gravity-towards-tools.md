@@ -21,7 +21,7 @@ But in nearly every company I've worked at, authoring and publishing tools have 
 
 **2007** ... As a technical writer for a government contractor, I wrote everything in Microsoft Word and Visio, because these were formats people could work with and use after I left. I constructed elegant MS World styles throughout the docs and made the content all style-based. I also loved playing around in Visio.
 
-**2007** ... As a technical writer for a Utah-based non-profit, I introduced Madcap Flare and set up stylesheets, templates, PDF output, and other authoring details. I got space on a server for tech comm to directly publish to the web via FTP. 
+**2007** ... As a technical writer for a Utah-based non-profit, I introduced MadCap Flare and set up stylesheets, templates, PDF output, and other authoring details. I got space on a server for tech comm to directly publish to the web via FTP.
 
 **2010** ... Same company, different group. I also created a Mediawiki theme and published documentation on the wiki using stylized templates I'd created. I resisted the move to have another department's system consume and control our documentation (though that is ultimately what happened after I left).
 

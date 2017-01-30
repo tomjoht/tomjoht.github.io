@@ -64,7 +64,7 @@ Which is easier to read? Now imagine that you’re an airplane mechanic who spea
 
 It can be difficult to remember the 900 words in the STE dictionary and 65 writing rules. To help with this, there are various tools you can install as plugins in your authoring environment. These plugins act as grammar/style checkers that highlight problem text and provide suggestions or explanations in the margins.
 
-Etteplan, a technical services company based in Europe, Asia and North America, offers a plugin called [HyperSTE](https://technicaldocumentation.services/offering/hyper-ste/) that integrates with most help authoring tools. HyperSTE can work with Microsoft Word, Adobe FrameMaker, Madcap Flare, Oxygen, XMetal, Author-It, and most major content management systems.
+Etteplan, a technical services company based in Europe, Asia and North America, offers a plugin called [HyperSTE](https://technicaldocumentation.services/offering/hyper-ste/) that integrates with most help authoring tools. HyperSTE can work with Microsoft Word, Adobe FrameMaker, MadCap Flare, Oxygen, XMetal, Author-It, and most major content management systems.
 
 HyperSTE not only provides style and grammar checking for STE, it also lets you build your own dictionaries. These custom dictionaries contain your company's specific language and product terms.
 

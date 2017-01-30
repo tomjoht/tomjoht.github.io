@@ -71,7 +71,7 @@ Yes, there are many online tech comm programs. See this [guest post by Laura Pal
 
 It's hard to know which tools to focus on. I recommend learning more general languages such as HTML, CSS, JavaScript, and XML instead of a specific tool. But if you want to get more specific, learn the following:
  
-* Madcap Flare
+* MadCap Flare
 * OxygenXML with DITA 
 * Atlassian Confluence
  

@@ -31,7 +31,7 @@ For specific tools, look at [http://indeed.com](http://indeed.com) for technical
 
 In general, learn these four types of tools:
 
-*   Help authoring tools (such as [Jekyll](http://idratherbewriting.com/about-jekyll/), Madcap Flare, Confluence, Robohelp, Doc-to-Help, or some other)
+*   Help authoring tools (such as [Jekyll](http://idratherbewriting.com/about-jekyll/), MadCap Flare, Confluence, Robohelp, Doc-to-Help, or some other)
 *   Graphics tools (Snagit, Capture, Photoshop, Illustrator)
 *   Video recording tools (Camtasia Studio, Screenflow, Captivate)
 *   Page layout tool (InDesign, Word, Framemaker)
@@ -90,7 +90,7 @@ Most tech writers don't have a specific background in technical writing. You wil
 
 I use an open source tool called [Jekyll](http://idratherbewriting.com/about-jekyll/). This is a static site generator that helps you build HTML quickly and push out websites. If you're interested in this approach, you can try the [free Jekyll theme](http://idratherbewriting.com/documentation-theme-jekyll/) I developed specifically for documentation projects.
 
-You could purchase academic versions of the software for usually half price or less. For example, you can buy an academic license to Madcap Flare for $500\. Most Adobe products have similar academic discounts.
+You could purchase academic versions of the software for usually half price or less. For example, you can buy an academic license to MadCap Flare for $500\. Most Adobe products have similar academic discounts.
 
 If you consider the cost of software to be equivalent to buying books for class and paying tuition, the cost is more understandable. (Note that academic software restricts you from using the software commercially.)
 

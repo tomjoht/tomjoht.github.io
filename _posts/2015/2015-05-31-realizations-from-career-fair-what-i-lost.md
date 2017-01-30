@@ -89,7 +89,7 @@ I remember one day driving to my ITT-Tech class on a Friday evening and just ban
 
 I climbed up the salary ladder pretty quickly in my technical writing career. Due to too much drug-related activity in the Florida neighborhood we were living in, we decided to move to Utah. I jumped up in salary to $80k through a contract job at a government facility in Dugway, Utah. I also learned to supplement my income by creating WordPress websites on the side. 
 
-We were making it okay (now with three kids). But somewhere in the transition from dreamy-eyed student to technical writer/family income provider, I lost something. I lost a certain sense of curiosity and magic about the world. Instead of reading Walt Whitman on the back porch steps of my dorm/house, I focused my spare time in doing more technical activities, such as learning WordPress or Madcap Flare or CSS. 
+We were making it okay (now with three kids). But somewhere in the transition from dreamy-eyed student to technical writer/family income provider, I lost something. I lost a certain sense of curiosity and magic about the world. Instead of reading Walt Whitman on the back porch steps of my dorm/house, I focused my spare time in doing more technical activities, such as learning WordPress or MadCap Flare or CSS.
 
 In fact, today I almost never read fiction or write creatively anymore, apart from blogging.
 
