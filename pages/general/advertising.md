@@ -4,13 +4,13 @@ title: Advertising
 permalink: /advertising/
 ---
 
-<img style="border:1px solid #dedede; float:right; padding:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>Do you want to make technical writers aware of a product or service relevant to them? If so, I can help increase your product or service's visibility more than any other tech comm site online. 
-
-I have one of the largest hubs where technical writers gather and interact to stay updated with the latest technical writing news, trends, and information in the industry.
+<img style="float:right; padding:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>I can help increase your product or service's visibility more than any other tech comm site online. idratherbewriting.com is one of the largest hubs where technical writers go to stay updated with the latest technical writing news, trends, and information in the industry.
 
 ## How I increase visibility
 
-I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. Different ad spaces are more visible than others. You can select from among 3 different ad spaces. Impressions are tracked through Google Analytics.
+I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. In 2016, idratherbewriting.com had an average of 2,100 page views a day. Impressions are tracked through Google Analytics.
+
+Different ad spaces are more visible than others. You can select from among 3 different ad spaces.
 
 ### Sidebar ad space
 
@@ -21,6 +21,8 @@ Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensi
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a single column. They rotate randomly with each page refresh.</figcaption></figure>
 
+The cost for sidebar ads is $900 per year.
+
 ### Horizontal Inline Ad Space
 
 The Horizontal Inline space (728px x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
@@ -28,6 +30,8 @@ The Horizontal Inline space (728px x 90px) appears below each post, right above
 <figure><img src="/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" width="550" height="331" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
 Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. The positions also rotate randomly with each page refresh.
+
+The cost for inline horizontal ads is $1800 per year.
 
 ### Top Banner Ad Space
 
@@ -37,11 +41,13 @@ The top banner ad space (500px x 70px) refers to the top section of the site, i
 
 The top banner ad is placed in one of the most visually dominant places on the site. Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. 
 
-There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space. 
+There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space.
+
+The cost for top banner ads is $6,000 per year.
 
 ### Number of impressions per year
 
-From Jan 1, 2016 to Dec 31, 2016, Idratherbewriting.com had about 625,000 page views. Here's a chart from Google Analytics.
+From Jan 1, 2016 to Dec 31, 2016, Idratherbewriting.com had about 778,000 page views. Here's a chart from Google Analytics.
 
 <figure><img src="/images/2017googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 778,000 page views per year, or 2,100 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 778,000 page views per year, or 2,100 page views a day.</figcaption></figure>
 
@@ -56,7 +62,7 @@ The following table shows a little more detail from Google Analytics (date rang
     </thead>
     <tbody>
     <tr>
-        <td>Total Sessions (unique visits)</td>
+        <td>Total Sessions (unique visits to site)</td>
         <td>497,134 (about 1,360 visits a day)</td>
     </tr>
     <tr>
@@ -82,7 +88,11 @@ The following table shows a little more detail from Google Analytics (date rang
     </tbody>
 </table>
 
-As for audience demographics, Google Analytics indicates the following: 
+A session refers to a unique visit to the site, not counting the number of pages the visitor views per the session. (In a single session, a visitor could view a dozen pages.) A page view is when a visitor loads a page. If the same visitor loads a page twice, that would count as two page views.
+
+## Audience demographics
+
+Google Analytics indicates the following about audience demographics for idratherbewriting.com:
 
 *  43% of users are from the US, 11% from India, 6% Great Britain, 5% Canada, 3% Germany
 *  64% are using Chrome, 13% Firefox, 11%, Safari, 8% IE
