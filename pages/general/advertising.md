@@ -10,9 +10,15 @@ permalink: /advertising/
 
 I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. In 2016, idratherbewriting.com had an average of 2,100 page views a day. Impressions are tracked through Google Analytics.
 
-Different ad spaces are more visible than others. You can select from among 3 different ad spaces.
+Different ad spaces are more visible than others. You can select from among 3 different ad spaces:
 
-### Sidebar ad space
+* [Sidebar ad space](#sidebarad)
+* [Horizontal inline ad space](#horizontalinlinead)
+* [Top banner ad](#topbannerad)
+
+I also offer [product review posts](#productreviews)
+
+### Sidebar ad space {#sidebarad}
 
 Sidebar ads (125px x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
@@ -23,7 +29,7 @@ Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensi
 
 The cost for sidebar ads is $900 per year.
 
-### Horizontal Inline Ad Space
+### Horizontal Inline Ad Space {#horizontalinlinead}
 
 The Horizontal Inline space (728px x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
 
@@ -33,7 +39,7 @@ Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowe
 
 The cost for inline horizontal ads is $1800 per year.
 
-### Top Banner Ad Space
+### Top Banner Ad Space {#topbannerad}
 
 The top banner ad space (500px x 70px) refers to the top section of the site, in the upper-right corner.
 
@@ -45,9 +51,33 @@ There is only one ad in the Top Banner ad space, but it can rotate depending on 
 
 The cost for top banner ads is $6,000 per year.
 
+## Product review posts {#review_posts}
+
+I also offer product review posts to help with visibility. Here are some sample product reviews I wrote previously:
+
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/)
+* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/)
+* [Xeditor, a CMS editor for XML content](http://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
+
+Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
+
+These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience. A product review post typically takes 3-4 hours to write.
+
+If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
+
+Each product review post costs $500 per post. If you're already advertising on my site, I drop the price to $300. I will write as many product review posts as you want during the year.
+
+I always review these posts with you and, when published, I identify them as being sponsored posts.
+
+Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
+
+I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com.
+
 ### Number of impressions per year
 
-From Jan 1, 2016 to Dec 31, 2016, Idratherbewriting.com had about 778,000 page views. Here's a chart from Google Analytics.
+From Jan 1, 2016 to Dec 31, 2016, idratherbewriting.com had about 778,000 page views. Here's a chart from Google Analytics.
 
 <figure><img src="/images/2017googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 778,000 page views per year, or 2,100 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 778,000 page views per year, or 2,100 page views a day.</figcaption></figure>
 
@@ -92,7 +122,7 @@ A session refers to a unique visit to the site, not counting the number of pages
 
 ## Audience demographics
 
-Google Analytics indicates the following about audience demographics for idratherbewriting.com:
+Google Analytics indicates the following about audience demographics for idratherbewriting.com (for 2016):
 
 *  43% of users are from the US, 11% from India, 6% Great Britain, 5% Canada, 3% Germany
 *  64% are using Chrome, 13% Firefox, 11%, Safari, 8% IE
@@ -151,27 +181,6 @@ The cost for each ad space is as follows:
 
 **CPM**. Here's a breakdown of ad costs in CPM (costs per mille). Assuming 778,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.15 CPM, for the horizontal inline view $2.31 CPM, and for the top banner ad space, $7.71 CPM. These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).
 
-## Product review posts {#review_posts}
-
-I also offer product review posts to help with visibility. Here are some sample product reviews I wrote previously:
-
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/)
-* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/)
-* [Xeditor, a CMS editor for XML content](http://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
-
-Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
-
-These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience.
-
-If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and message you want to communicate.
-
-Product review posts cost $500 per post. If you're already advertising on my site, I drop the price to $300. I will write as many product review posts as you want during the year.
-
-I always review these posts with you and, when published, I identify them as being sponsored posts.
-
-Product review posts are powerful. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that these product review posts appear on the **first page of search results**. This is because my site has a high page rank and influence. I also infuse the posts with SEO techniques to surface higher.
 
 ## Billing
 
