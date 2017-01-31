@@ -188,7 +188,7 @@ For billing, I send you an invoice through Paypal. Billing is done prior to any 
 
 If you have questions, [contact me](http://idratherbewriting.com/contact).
 
-google-xeditor: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xeditor
-google-hyperste: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hyperste
-google-paligo: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=paligo
-google-madcap-central: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=madcap+central
+[google-xeditor]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xeditor
+[google-hyperste]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hyperste
+[google-paligo]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=paligo
+[google-madcap-central]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=madcap+central
