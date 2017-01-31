@@ -16,7 +16,7 @@ Different ad spaces are more visible than others. You can select from among 3 di
 * [Horizontal inline ad space](#horizontalinlinead)
 * [Top banner ad](#topbannerad)
 
-I also offer [product review posts](#productreviews)
+I also offer [product review posts](#review_posts).
 
 ### Sidebar ad space {#sidebarad}
 
