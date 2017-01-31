@@ -151,7 +151,7 @@ The cost for each ad space is as follows:
 
 **CPM**. Here's a breakdown of ad costs in CPM (costs per mille). Assuming 778,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.15 CPM, for the horizontal inline view $2.31 CPM, and for the top banner ad space, $7.71 CPM. These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).
 
-## Product review posts
+## Product review posts {#review_posts}
 
 I also offer product review posts to help with visibility. Here are some sample product reviews I wrote previously:
 
@@ -161,18 +161,25 @@ I also offer product review posts to help with visibility. Here are some sample 
 * [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/)
 * [Xeditor, a CMS editor for XML content](http://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
 
-Product review posts are typically about 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
+Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
 
 These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience.
 
-If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also supply me with the information and message you want to communicate.
+If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and message you want to communicate.
 
 Product review posts cost $500 per post. If you're already advertising on my site, I drop the price to $300. I will write as many product review posts as you want during the year.
 
 I always review these posts with you and, when published, I identify them as being sponsored posts.
+
+Product review posts are powerful. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that these product review posts appear on the **first page of search results**. This is because my site has a high page rank and influence. I also infuse the posts with SEO techniques to surface higher.
 
 ## Billing
 
 For billing, I send you an invoice through Paypal. Billing is done prior to any advertising efforts. Although the transaction is through PayPal, you can use either your credit card or PayPal account to submit payment. You can also mail me a check if you prefer.
 
 If you have questions, [contact me](http://idratherbewriting.com/contact).
+
+google-xeditor: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xeditor
+google-hyperste: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hyperste
+google-paligo: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=paligo
+google-madcap-central: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=madcap+central
