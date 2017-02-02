@@ -32,7 +32,7 @@ bitlink: http://bit.ly/docsascodeargument
 
 ## Responses to Review Post were enormous
 
-The number of comments on my recent post, [Review of Andrew Etter's ebook on Modern Technical Writing](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/) showed an overwhelming interest in this topic. The post went viral. In addition to 300+ clicks on Twitter and Linkedin, there were about 1,200 page views and an equal number of clicks on the audio files. People spent an average of 5 minutes 11 seconds reading the post. The post had a lively discussion both on [techwr-l](http://www.techwr-l.com/archives/1607/techwhirl-1607-00065.html#.V6nmTpMrK1s) and in the post's comments. 
+The number of comments on my recent post, [Review of Andrew Etter's ebook on Modern Technical Writing](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/), showed an overwhelming interest in this topic. The post went viral. In addition to 300+ clicks on Twitter and Linkedin, there were about 1,200 page views and an equal number of clicks on the audio files. People spent an average of 5 minutes 11 seconds reading the post. The post had a lively discussion both on [techwr-l](http://www.techwr-l.com/archives/1607/techwhirl-1607-00065.html#.V6nmTpMrK1s) and in the post's comments.
 
 I want to respond generally to at least one trend in the comments -- the idea that the docs-as-code solution won't scale.
 

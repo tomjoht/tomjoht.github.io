@@ -75,7 +75,7 @@ I was earning $33k a year, with my savings dwindling fast. We were sinking finan
 
 I had a colleague back at the American University of Cairo who told me numerous times that I would be a perfect technical writer. He had done technical writing for corporations before, so he had some experience with it. I had always created websites to accompany my classes, so maybe this is what gave him the impression that I was technical.
 
-For mostly monetary reasons, I turned to technical writing. Leveraging the detailed explanations of how protein worked as my writing samples, I landed a job at Raymond James Financial. After a while I found that, despite my preconceptions about how boring and lifeless technical writing would be, it wasn't bad so bad after all. 
+For mostly monetary reasons, I turned to technical writing. Leveraging the detailed explanations of how protein worked as my writing samples, I landed a job at Raymond James Financial. After a while I found that, despite my preconceptions about how boring and lifeless technical writing would be, it wasn't so bad after all.
 
 In fact, I kind of liked it. I liked the tools aspect of it, and figuring things out. I liked that I didn't exhaust so much creative energy throughout the day. I liked working in teams, with engineers and UX designers and project managers. 
 
