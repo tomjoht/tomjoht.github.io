@@ -1,5 +1,5 @@
 ---
-* [Introduction to User-Centered Documentation
+title: Introduction to User-Centered Documentation
 permalink: /ucd-introduction/
 categories:
 - user-centered-documentation
