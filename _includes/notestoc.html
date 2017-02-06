@@ -25,6 +25,10 @@
     {% assign sidebarTitle = "Documenting REST APIs" %}
     {% assign sidebar = site.data.sidebar_docapis.entries %}
 
+    {% elsif page.type == "notes_ucd" %}
+    {% assign sidebarTitle = "User-Centered Documentation" %}
+    {% assign sidebar = site.data.sidebar_user_centered_documentation.entries %}
+
     {% elsif page.type == "visualcommunication" %}
     {% assign sidebarTitle = "Visual communication" %}
     {% assign sidebar = site.data.sidebar_visualcommunication.entries %}

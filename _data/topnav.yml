@@ -12,8 +12,6 @@ topnav:
     - title: Podcasts
       url: /category-podcasts/
 
-    - title: Jobs
-      url: http://idratherbewriting.com/findjobs/
 #Topnav dropdowns
 
 topnav_dropdowns:
@@ -32,6 +30,8 @@ topnav_dropdowns:
 
     - title: Archives
       items:
+        - title: 2017
+          url: /archives-2017/
         - title: 2016
           url: /archives-2016/
         - title: 2015
@@ -168,7 +168,9 @@ topnav_dropdowns:
         url: /category-writing/
     - title: Other
       items:
-      - title: Visual comm
+      - title: User-Centered Documentation
+        url: http://idratherbewriting.com/ucd-introduction/
+      - title: Visual communication
         url: /2016/05/01/visualcommunication_course_overview
       - title: JavaScript notes
         url: /javascript/
@@ -176,3 +178,5 @@ topnav_dropdowns:
         url: /ditaqrg/
       - title: Java notes
         url: /java-introduction/
+      - title: Jobs
+        url: /findjobs/

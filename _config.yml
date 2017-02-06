@@ -47,6 +47,8 @@ collections:
     output: true
   youngadultnovel:
     output: true
+  user_centered_doc:
+    output: true
 # these are defaults that get applied to each page or post's frontmatter. leave as is.
 permalink: /:year/:month/:day/:title/
 defaults:
@@ -100,19 +102,18 @@ defaults:
   -
     scope:
       path: ""
-      type: "revisioncontrol"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-
-  -
-    scope:
-      path: ""
       type: "youngadultnovel"
     values:
       layout: "page_yanovel"
 
+  -
+    scope:
+      path: ""
+      type: "user_centered_doc"
+    values:
+      layout: "page_user_centered_doc"
+      comments: true
+      search: true
 
 target: web
 

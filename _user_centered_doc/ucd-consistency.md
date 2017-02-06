@@ -1,0 +1,32 @@
+---
+title: Consistency
+permalink: /ucd-consistency/
+categories:
+- user-centered-documentation
+keywords:
+course: "User-Centered Documentation"
+type: notes_ucd
+---
+
+> Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. As much as possible, maintain consistency with industry-wide help standards and approaches.
+
+## Same experience across doc sets
+
+<a href="https://aws.amazon.com/documentation/"><img src="/user_centered_doc/media/rasters/docsawsamazon.png"/></a>
+
+
+## Common patterns with help systems
+
+* Navigation on left
+* Search feature
+* On-page TOC either on right (fixed) or center 
+* Login in upper-right
+* Steps arranged in list numbering
+
+## Google doc follows common industry patterns
+
+<a href="https://developers.google.com/maps/documentation/javascript/tutorial"><img src="/user_centered_doc/media/rasters/googlemaps.png"/></a>
+
+## Related principles
+
+* See also: Interference Effects.
