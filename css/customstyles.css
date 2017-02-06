@@ -1182,3 +1182,7 @@ ul#mysidebar li.active a {
 video {
   max-width: 640px;
 }
+
+ul#mysidebar li.active > a {
+    color: white;
+}

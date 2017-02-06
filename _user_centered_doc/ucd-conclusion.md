@@ -8,8 +8,6 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-
-
 Here are the principles covered in the course.
 
 ### Creating content

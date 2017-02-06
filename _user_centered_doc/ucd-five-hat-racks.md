@@ -18,6 +18,8 @@ type: notes_ucd
 </ul>
 <p>Generally, doc is grouped by category more than location (except with context-sensitive help).</p></blockquote>
 
+{% comment %}
+
 ## Five Hat Racks Example
 
 <figure>
@@ -54,3 +56,5 @@ type: notes_ucd
 * Almost every web system has tags
 * Tags allow for other groupings apart from TOC
 * Easy to implement, but only add meaningful tags
+
+{% endcomment %}

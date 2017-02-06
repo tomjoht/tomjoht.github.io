@@ -1,6 +1,6 @@
 ---
 title: Depth of Processing
-permalink: /ucd-depth-of-processing/
+permalink: /ucd-forgiveness/
 categories:
 - user-centered-documentation
 keywords:
@@ -10,6 +10,7 @@ type: notes_ucd
 
 > Taking risks, experimenting, and exploring systems on their own helps users learn. When users make errors during these activities, help guide them back on the right path. </p>
 
+{% comment %}
 ## Sample help in console with Jekyll includes
 
 <img src="/user_centered_doc/media/rasters/errormessagejekyll.png"/></a>
@@ -20,3 +21,5 @@ type: notes_ucd
 ## Test everything yourself
 
 <img src="/user_centered_doc/media/rasters/testingeverything.jpg"/>
+
+{% endcomment %}

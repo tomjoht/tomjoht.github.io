@@ -17,7 +17,9 @@ type: notes_ucd
 > * leading 1-4 pts more than font size
 > * serif vs. san serif doesn't matter
 
+{% comment %}
 ## Legibility example from Apple
 
 <a href="http://help.apple.com/iphone/10/#/iph3bf432fd"><img src="/user_centered_doc/media/rasters/applelegibility.png"/></a>
 
+{% endcomment %}

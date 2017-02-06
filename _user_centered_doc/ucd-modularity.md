@@ -10,6 +10,7 @@ type: notes_ucd
 
 > Break up content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.
 
+{% comment %}
 ## Users read non-sequentially
 
 > You can just read the sections about the tasks you want to do. <br /></blockquote>
@@ -19,7 +20,7 @@ type: notes_ucd
 * Reaction against sequential learning models at the time
 * Realized readers skip around out of sequence, impatient to act
 
-<img src="media/rasters/trainwreck.jpg"/>
+<img src="/user_centered_doc/media/rasters/trainwreck.jpg"/>
 
 ## Modularity sounds great. Where do things go wrong?
 
@@ -50,7 +51,6 @@ type: notes_ucd
 * Mark Baker's book is reaction to info fragmentation in doc
 * Frankenbook is online help stitched together but not really functional
 * Classic example: arrive at topic but can't do anything
-
 
 ## Treat "Every Page Is Page One"
 
@@ -92,3 +92,4 @@ type: notes_ucd
 * Assume users might be starting at that page
 * Link to any necessary context (prereqs, assumptions) at the beginning of the topic
 
+{% endcomment %}

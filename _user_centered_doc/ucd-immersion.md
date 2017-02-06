@@ -10,6 +10,7 @@ type: notes_ucd
 
 > Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help. Allow users to stay immersed in the application context by bringing help into the application.
 
+{% comment %}
 ## Users don't want to use help
 
 > "The conclusion of most studies about how people use help is that people don't use help."<br/>-- Mike Hughes, <a href="http://idratherbewriting.com/2009/01/31/podcast-make-your-help-indispensable-safeguard-your-job/">I'd Rather Be Writing podcast</a>
@@ -28,12 +29,11 @@ type: notes_ucd
 * Simple popovers or tooltips work well
 * Provide UX designers with JSON file to act as content API 
 * This is easiest way to do in-app help
-        </aside>
-    </section>
-    <section>
-        <h3>Fitt's Law
-        <blockquote>The further a user must travel with their cursor, the less accuracy the user will have in reaching the target object.<br/>&mdash; Travis Lowdermilk, <a href="http://shop.oreilly.com/product/0636920028741.do"><i>User-centered Design</i></a></blockquote>
-        <aside class="notes">
+
+## Fitt's Law
+
+<blockquote>The further a user must travel with their cursor, the less accuracy the user will have in reaching the target object.<br/>&mdash; Travis Lowdermilk, <a href="http://shop.oreilly.com/product/0636920028741.do"><i>User-centered Design</i></a></blockquote>
+
 * If answer is far from problem area, less likely to find
 * Proximity of info helps users find and use it
 * Help doesn't need to be separate
@@ -64,4 +64,6 @@ type: notes_ucd
 ## Related principles
 
 * See also: Fitt's Law
+
+{% endcomment %}
 

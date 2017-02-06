@@ -1,6 +1,6 @@
 ---
 title: Progressive Disclosure
-permalink: /ucd-progress-disclosure/
+permalink: /ucd-progressive-disclosure/
 categories:
 - user-centered-documentation
 keywords:
@@ -10,6 +10,7 @@ type: notes_ucd
 
 > Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels of navigation. (See also: Layering, Constraint.)
 
+{% comment %}
 ## Strip tease your information
 
 > "Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet." &mdash; Jakob Nielsen, <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
@@ -36,4 +37,5 @@ type: notes_ucd
 * Mini-TOC makes it more navigable
 * Get away from model where every page has same TOC
 
+{% endcomment %}
 

@@ -10,6 +10,7 @@ type: notes_ucd
 
 > Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. As much as possible, maintain consistency with industry-wide help standards and approaches.
 
+{% comment %}
 ## Same experience across doc sets
 
 <a href="https://aws.amazon.com/documentation/"><img src="/user_centered_doc/media/rasters/docsawsamazon.png"/></a>
@@ -30,3 +31,5 @@ type: notes_ucd
 ## Related principles
 
 * See also: Interference Effects.
+
+{% endcomment %}

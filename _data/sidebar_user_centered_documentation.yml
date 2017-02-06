@@ -20,7 +20,7 @@ entries:
           url: /ucd-picture-superiority-effect/
           output: web, pdf
         - title: Performance Load
-          url: /performance-load/
+          url: /ucd-performance-load/
           output: web, pdf
         - title: Personas
           url: /ucd-personas/
@@ -44,7 +44,7 @@ entries:
           url: /ucd-hierarchy/
           output: web, pdf
         - title: Five Hat Racks
-          url: /ucd-give-hat-racks/
+          url: /ucd-five-hat-racks/
           output: web, pdf
         - title: Progressive Disclosure
           url: /ucd-progressive-disclosure/

@@ -10,6 +10,7 @@ type: notes_ucd
 
 > A hierarchical outline of the content (with parent and child items organized in trees) helps users both understand and visualize complex information. Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.
 
+{% comment %}
 ## Hierarchy provides meaning
 
 > "Navigation provides a narrative for people to follow on the web." <small><br/>&mdash; James Kalbach, <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
@@ -51,3 +52,5 @@ type: notes_ucd
 * Break up massive navigation into multiple  menus
 * Provide a way to navigate from one nav menu to another
 * Put page-level navigation on the page, preferably on right
+
+{% endcomment %}

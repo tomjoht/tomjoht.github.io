@@ -10,6 +10,8 @@ type: notes_ucd
 
 > The larger, more complex the system, the greater the strain on the user. The greater the strain, the lower the user's success. In many cases, documentation that is too massive deflates the user from even trying at all.
 
+
+{% comment %}
 ## Users resist long documentation
 
 <a href="http://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf"><img src="/user_centered_doc/media/rasters/minson.png"/></a>
@@ -73,3 +75,4 @@ Instead of eliminating potentially useful info, provide quick reference guides t
 ## Related principles
 
 * See also: Cost-Benefit, Hierarchy of Needs, Control
+{% endcomment %}

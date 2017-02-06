@@ -10,6 +10,7 @@ type: notes_ucd
 
 > Pictures combined with text provides users with better comprehension and recall. Especially as users quickly scan a page, pictures (simple, concrete, and reinforcing a clear message) help users understand the material better.
 
+{% comment %}
 ## Engineers love the whiteboard
 
 <img src="/user_centered_doc/media/rasters/lightningtalk_whiteboarding.png"/>
@@ -67,3 +68,4 @@ type: notes_ucd
 ## Related principles
 
 * See also: Iconic Representation, Redundancy
+{% endcomment %}
