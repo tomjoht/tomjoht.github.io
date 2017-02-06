@@ -8,15 +8,15 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-<blockquote>You can organize content in 5 ways:
+<blockquote>You can organize content by the following facets:
 <ul>
     <li>Alphabet</li>
     <li>Time</li>
     <li>Location</li>
-    <li>Continuum (degree)</li>
-    <li>Category (likeness)</li>
+    <li>Degree</li>
+    <li>Likeness</li>
 </ul>
-<p>Generally, doc is grouped by category more than location (except with context-sensitive help).</p></blockquote>
+<p>Generally, group documentation topics by likeness more than location (except with context-sensitive help).</p></blockquote>
 
 {% comment %}
 

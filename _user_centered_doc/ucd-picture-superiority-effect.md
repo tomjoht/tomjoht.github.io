@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> Pictures combined with text provides users with better comprehension and recall. Especially as users quickly scan a page, pictures (simple, concrete, and reinforcing a clear message) help users understand the material better.
+> Pictures combined with text provide users with better comprehension and recall. Especially as users quickly scan a page, pictures help users understand the material better. Pictures should be simple, concrete, and reinforce a clear message.
 
 {% comment %}
 ## Engineers love the whiteboard

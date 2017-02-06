@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> Users under stress go through an emotional state where they first freeze, then potentially flee, or fight, and finally forfeit. Write documentation with the assumption that users will read it in a state of annoyance, anger, and tension. This means readers will scan, jump around, and read quickly.
+> Users feeling stress go through an emotional state where they first freeze, then potentially flee, or fight, and finally forfeit. Write documentation with the assumption that users will read it in a state of freeze/flight. This means readers will scan, jump around, and read quickly.
 
 {% comment %}
 

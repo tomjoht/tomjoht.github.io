@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> The larger, more complex the system, the greater the strain on the user. The greater the strain, the lower the user's success. In many cases, documentation that is too massive deflates the user from even trying at all.
+> The larger, more complex the system, the greater the strain on the user. The greater the strain, the lower the user's success. In many cases, documentation that is too massive deflates the user from even trying at all. Provide getting started tutorials and quick reference guides to reduce the performance load and encourage first steps in a system.
 
 
 {% comment %}

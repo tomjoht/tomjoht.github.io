@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. As much as possible, maintain consistency with industry-wide help standards and approaches.
+> Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. Additionally, maintain consistency with industry-wide help standards and approaches.
 
 {% comment %}
 ## Same experience across doc sets

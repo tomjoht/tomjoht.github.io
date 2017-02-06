@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels of navigation. (See also: Layering, Constraint.)
+> Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels of navigation.
 
 {% comment %}
 ## Strip tease your information
@@ -36,6 +36,10 @@ type: notes_ucd
 * Not so common in HATs
 * Mini-TOC makes it more navigable
 * Get away from model where every page has same TOC
+
+## Related principles
+
+* See also: Layering, Constraint
 
 {% endcomment %}
 

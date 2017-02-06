@@ -12,10 +12,9 @@ type: notes_ucd
 >
 > * 9-12pt font size
 > * 10-12 words (55 characters) per line
-> * dark text on light background
+> * Dark text on light background
 > * 70% + contrast
-> * leading 1-4 pts more than font size
-> * serif vs. san serif doesn't matter
+> * Leading 1-4 pts more than font size
 
 {% comment %}
 ## Legibility example from Apple

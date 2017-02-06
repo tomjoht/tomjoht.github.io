@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> The entry point to your system should orient users and allow them to easily get started. Avoid barriers that block, confuse, or otherwise hinder the user's progress to their goal.
+> The entry point to your system should orient users and allow them to easily get started. Avoid barriers that block, confuse, or otherwise hinder the user's progress to a goal.
 
 {% comment %}
 ## Use homepage as routing page

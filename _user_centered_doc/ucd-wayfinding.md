@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> Provide navigational signposts &mdash; such as breadcrumbs or other workflow maps &mdash; to help
+> Provide navigational sign posts such as breadcrumbs or other workflow maps to help
 orient users as to where they are in a larger system. Don't assume that the user navigated to the current page following the path you intended.
 
 {% comment %}

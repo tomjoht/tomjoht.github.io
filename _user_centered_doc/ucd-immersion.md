@@ -8,7 +8,7 @@ course: "User-Centered Documentation"
 type: notes_ucd
 ---
 
-> Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help. Allow users to stay immersed in the application context by bringing help into the application.
+> Users desire to be immersed in the application or system they're using. They don't want to leave that system to consult a separate, external system for help. As much as possible, bring help into the application to prolong the user's immersion in the application context.
 
 {% comment %}
 ## Users don't want to use help
