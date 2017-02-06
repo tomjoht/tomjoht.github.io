@@ -52,7 +52,7 @@ The following are the most applicable design principles to documentation. I've g
 
 * [Readability](/ucd-readability/)
 * [Legibility](/ucd-legibility/)
-* [Signal-to-Noise Ratio](/ucd-signal-to-noise-ratio/])
+* [Signal-to-Noise Ratio](/ucd-signal-to-noise-ratio/)
 * [Picture Superiority Effect](/ucd-picture-superiority-effect/)
 * [Performance Load](/ucd-performance-load/)
 * [Personas](/ucd-personas/)
