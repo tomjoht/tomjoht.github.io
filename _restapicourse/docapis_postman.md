@@ -109,7 +109,7 @@ Here are a few requests to configure for Aeris. You can just paste the requests 
 
 Note that the Aeris API doesn't use a Header field to pass the API keys &mdash; the key and secret are passed directly in the request URL as part of the query string.
 
-{{note}} When you make the following requests, insert your own values for the `CLIENTID` and `CLIENTSECRET`.{{end}}
+{{note}} When you make the following requests, insert your own values for the <code>CLIENTID</code> and <code>CLIENTSECRET</code>.{{end}}
 
 Get the weather forecast for your area:
 
