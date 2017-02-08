@@ -12,7 +12,7 @@ bitlink: http://bit.ly/2017techwritingtrends
 
 Before jumping into trends for 2017, let me briefly review how my 2016 trends predictions turned out.
 
-In 2016, I based my trends predictions off of the rapid growth of REST APIs. Based on API growth, I [outlined 10 ripple effects]((http://idratherbewriting.com/2015/12/29/trends-technical-writing-2016/)) that would extend to technical writers.
+In 2016, I based my trends predictions off of the rapid growth of REST APIs. Based on API growth, I [outlined 10 ripple effects](http://idratherbewriting.com/2015/12/29/trends-technical-writing-2016/) that would extend to technical writers.
 
 ### 1. Use of Swagger with API docs becomes an expectation (2016)
 
