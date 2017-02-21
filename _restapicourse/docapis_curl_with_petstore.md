@@ -121,7 +121,7 @@ Now you want to find your pet's name by passing the ID into the `/pet/{petID}` e
       ],
       "status": "available"
     }
-   ```
+    ```
 
 ### Delete your pet
 
