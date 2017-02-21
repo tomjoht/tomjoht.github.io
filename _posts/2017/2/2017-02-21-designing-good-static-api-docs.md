@@ -1,5 +1,5 @@
 ---
-title: "Guest post: Design Choices for Organizing API Reference with Content with Other Docs"
+title: "Guest post: Design Choices for Organizing API Reference Content with Other Docs"
 categories:
 - api-doc
 keywords: api best practices
