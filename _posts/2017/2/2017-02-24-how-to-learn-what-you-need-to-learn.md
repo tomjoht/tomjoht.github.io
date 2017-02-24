@@ -162,7 +162,7 @@ A decade later, you can look back at your current time period and wonder nostalg
 * Wood, Adam. "[Enough to Be Dangerous: The Joy of Bad Python][6]" Hackwrite. January 1, 2017.
 
 
-[1]: https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f.
+[1]: https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f
 [2]: https://www.nytimes.com/2016/02/14/technology/gearing-up-for-the-cloud-att-tells-its-workers-adapt-or-else.html
 [3]: http://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/
 [4]: http://idratherbewriting.com/2016/04/27/triangle-for-tech-comm/#comment-2649234858
