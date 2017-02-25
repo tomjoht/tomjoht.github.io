@@ -4,4 +4,4 @@ _site/
 _site
 vendor/
 .jekyll-metadata
-
+**/.DS_Store
