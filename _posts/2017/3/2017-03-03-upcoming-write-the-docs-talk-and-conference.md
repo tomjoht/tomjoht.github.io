@@ -38,5 +38,6 @@ I submitted a talk about doc navigation and it was accepted. Here's the abstract
 <li>Provide abundant inline links in your sentences that help users navigate directly within the field of  vision. Freely infuse links into phrases, words, or other parts of the sentence without always listing out the full title of the cross-reference.</li>
 <li>At the beginning of topics, add contextual links to orient the user. At the end, add next-steps links to guide the user's next decision. For sequences or tutorials spanning multiple pages, add workflow maps to make the user's progress in the sequence clear.</li>
 </ol>
+</blockquote>
 
 I know my presentation topic isn't particularly clever or insightful, but there are large discussions within the tech comm community about the value of doc sidebars and inline links. Whether 20 min. will allow me to dig in deep enough or not, I'm not sure. At any rate, doc navigation (which informs findability and the user experience) surely makes up a huge part of the task of documentation.
