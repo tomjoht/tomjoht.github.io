@@ -4,7 +4,7 @@ categories:
 - general
 keywords:
 bitlink: http://bit.ly/madcapcentralguestreview
-summary: "The following is a guest post is from Michał Skowron and Jakub Wiśniewski, two technical writers working for 3di. 3di is a manufacturing operations management (MOM) solution and a management system for wireless networks. In this short review, Skowron and Wiśniewski evaluate MadCap Central, a new product from MadCap Software. MadCap Central is a cloud-based platform where you can host your MadCap Flare projects, manage builds, track tasks, manage users and their permissions, and collaborate with others. The article looks at the product from the perspective of a company delivering tech comm services."
+summary: "The following is a guest post from Michał Skowron and Jakub Wiśniewski, two technical writers working for 3di. 3di is a company providing technical authoring, translation and localization services. In this short review, Skowron and Wiśniewski evaluate MadCap Central, a new product from MadCap Software. MadCap Central is a cloud-based platform where you can host your MadCap Flare projects, manage builds, track tasks, manage users and their permissions, and collaborate with others. The article looks at the product from the perspective of a company delivering tech comm services."
 ---
 
 ## Introduction
@@ -23,9 +23,7 @@ At this stage, only MadCap Flare 2016 r2 and 2017 are integrated with MadCap Cen
 
 ## Source control
 
-As far as source control goes, MadCap thought of two alternative solutions &mdash; a single-bound and dual-bound model. In the single-bound model, you use MadCap Central as your primary source-control system.
-
-In the dual-bound model, you use a system like SVN or Git, and MadCap Central serves as an additional repository. It is certainly good to have that choice if you already have a source control solution in place and you don't want to abandon it after moving to MadCap Central.
+As far as source control goes, MadCap thought of two alternative solutions &mdash; a single-bound and dual-bound model. In the single-bound model, you use MadCap Central as your primary source-control system. In the dual-bound model, you use a system like SVN or Git, and MadCap Central serves as an additional repository. It is certainly good to have that choice if you already have a source control solution in place and you don't want to abandon it after moving to MadCap Central.
 
 You perform all source control tasks, like push and pull, from Flare. Depending on the chosen model, you use the new MadCap Central window, the Source Control tab, or both. If you used Flare projects bound to source control before, you will be able to quickly start working with MadCap Central-bound projects.
 
@@ -51,9 +49,7 @@ What we found useful are customizable widgets that can be added to MadCap Centra
 
 ![Task Summary widget in MadCap Central](/images/task_summary_widget.png)
 
-MadCap Central users can collaborate more efficiently while dealing with their tasks thanks to the built-in messaging system.
-
-Although it's purely internal (there is no integration with any external messaging systems), the possibility of communicating with your colleagues without the need to leave MadCap Central can definitely speed up the process of resolving tasks.
+MadCap Central users can collaborate more efficiently while dealing with their tasks thanks to the built-in messaging system. Although it's purely internal (there is no integration with any external messaging systems), the possibility of communicating with your colleagues without the need to leave MadCap Central can definitely speed up the process of resolving tasks.
 
 It'd be great if the task management could be enhanced in upcoming versions of MadCap Central with some additional features. We'd really like the option to link tasks to one another and the possibility to mention other users in comments that triggers notifications.
 
@@ -61,15 +57,11 @@ It'd be great if the task management could be enhanced in upcoming versions of M
 
 Apart from managing tasks, MadCap Central also offers some features for managing builds. You can build your Flare projects, download the output, and schedule the build process. Scheduling is handy because you don't need to install a separate build automation tool.
 
-Builds can be set as private (to view them only from MadCap Central) or live (to get permanent links for public access). If you don't need all the customization possibilities offered by a traditional hosting service, MadCap Central can be a good candidate for taking over the role of your publishing platform.
-
-Even if you already publish your documentation in a hosting service, you can still use MadCap Central as a temporary publishing platform for testing and reviewing purposes. This combo solution will be much easier to implement if in the future MadCap decides to extend MadCap Central with the possibility to publish to external servers.
+Builds can be set as private (to view them only from MadCap Central) or live (to get permanent links for public access). If you don't need all the customization possibilities offered by a traditional hosting service, MadCap Central can be a good candidate for taking over the role of your publishing platform. Even if you already publish your documentation in a hosting service, you can still use MadCap Central as a temporary publishing platform for testing and reviewing purposes. This combo solution will be much easier to implement if in the future MadCap decides to extend MadCap Central with the possibility to publish to external servers.
 
 ![Build Management screen in MadCap Central](/images/build_management.png)
 
-It goes without saying that MadCap Central offers useful build management features, but there are also some limitations that you need to consider. There's no auto-sync of imported files, no support for multilingual output, and you can't automatically get latest files for dual-bound projects.
-
-Some output formats cannot be generated from Central (e.g., Adobe FrameMaker) and other output formats cannot be viewed there (e.g., DITA and MS Word). In some scenarios, these limitations may be hard to overcome, but let's keep in mind that this is the first version of MadCap Central. We believe that these obstacles will be tackled in subsequent versions.
+It goes without saying that MadCap Central offers useful build management features, but there are also some limitations that you need to consider. There's no auto-sync of imported files, no support for multilingual output, and you can't automatically get latest files for dual-bound projects. Some output formats cannot be generated from Central (e.g., Adobe FrameMaker) and other output formats cannot be viewed there (e.g., DITA and MS Word). In some scenarios, these limitations may be hard to overcome, but let's keep in mind that this is the first version of MadCap Central. We believe that these obstacles will be tackled in subsequent versions.
 
 ## Summary
 
@@ -91,7 +83,7 @@ If you want to try MadCap Central, visit [https://www.madcapsoftware.com/downloa
 
 Michał is a Senior Technical Writer with over five years of experience, a co-admin of the [techwriter.pl blog](http://techwriter.pl/), and a trainer for ITCQF. Before joining 3di, he worked for Dassault Systèmes and Proximetry creating documentation for a manufacturing operations management (MOM) solution and a management system for wireless networks. He moved to the technical communication field after spending three years in technical support, software implementation, and English teaching. In 2009, he graduated from the University of Silesia in Katowice, specializing in English translation.
 
-### About Jakub Wiśniewski – Junior Technical Writer
+### About Jakub Wiśniewski
 
 Jakub is a Junior Technical Writer, starting his adventure with technical communication. Before joining 3di, he worked as an English teacher and translator. In 2015, he graduated from Jagiellonian University in Krakow, specializing in English translation studies. He pursues his interests in literary translation theory by studying for a PhD at the same university, where he also gives writing classes and analyses technical writing language in translation.
 
