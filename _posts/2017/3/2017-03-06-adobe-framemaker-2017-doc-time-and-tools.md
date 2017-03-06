@@ -2,8 +2,9 @@
 title: Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content
 keywords: Adobe, FrameMaker 2017, help authoring tools.
 summary: "Adobe FrameMaker has a new release (called Adobe FrameMaker 2017) that has a ton of improvements toward simplicity and usability. Some of the new features include new responsive HTML5 layouts, auto-complete search, more intuitive menus for authors, and more. Tools like FrameMaker that allow you to focus on content (instead of worrying about creating your own search, site design, pdf output, navigation menu, and more) provide a huge win for both technical writers and companies, since these tools allow you to focus on content."
-tags:
+categories:
 - general
+- writing
 bitlink: http://bit.ly/adobeframemaker2017idbw
 ---
 
