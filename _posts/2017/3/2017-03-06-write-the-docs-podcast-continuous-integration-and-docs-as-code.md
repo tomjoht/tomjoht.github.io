@@ -23,5 +23,7 @@ For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast,
 * [Docs like Code book site](http://docslikecode.com/book/)
 * [Remodeling Documentation](Remodeling documentation)
 
+{{site.data.alerts.ad}}Modern companies go online with their documentation and user manuals. To start your own documentation site today, just use <a href="http://bit.ly/clickhelponlinedoctool">ClickHelp</a> &mdash; sign up and start writing in minutes using this <a href="https://clickhelp.co/online-documentation-tool/">hosted technical writing tool</a>.{{site.data.alerts.end}}
+
 [1]: http://podcast.writethedocs.org/2017/03/05/episode-4-continuous-integration-and-docs-like-code/
 [2]: http://podcast.writethedocs.org/how-to-subscribe/
