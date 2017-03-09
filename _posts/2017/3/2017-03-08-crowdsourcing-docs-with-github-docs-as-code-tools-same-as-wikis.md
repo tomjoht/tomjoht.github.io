@@ -158,9 +158,9 @@ Simplicity has its own tradeoffs, though. In exchange for simpler tools, you giv
 >
 > I miss using oXygen. I miss it's SEARCH. I miss using it's link checker. I miss seeing reused content appear inline in my topic. I miss being able to filter out conditioned content. I miss wysiwig table editors and I miss seeing my images inline. I miss seeing tag errors inline. I am a fairly technical person--I often used the text editor more than the Wysiwyg editors...
 
-While some aspects of authoring are simplified, others -- such as developing your own custom output -- became more complex. In the end, you have to weigh whether the simplification is worth it given your goals.
+While some aspects of authoring are simplified, others -- such as developing your own custom output, or engineering search functionality -- become more complex. In the end, you have to weigh whether the simplification of some aspects is worth the complication of others.
 
-For example, is writing in a simple Markdown syntax worth it if it makes it more problematic to push your content through translation workflows? Are broken links worth it if the format and process is one that inspires engineers to take ownership of doc content?
+For example, is writing in a simple Markdown syntax worth it if it makes it more problematic to push your content through translation workflows? Is a system that allows for occasional edits from contributing engineers worth it if you have to develop a number of custom, complicated programming scripts to validate, build, and deploy your content?
 
 ## Conclusion
 
@@ -168,7 +168,7 @@ If you can cultivate a community where devs contribute their time and attention 
 
 Although I mentioned crickets as a response for crowdsourcing docs in my current role, it's not entirely fair. We do have several groups outside of our own that learned the doc-as-code tools and published their docs. They didn't edit my docs -- they created their own.
 
-Regardless of the participation, I'm planning to leave my docs on GitHub for a lot longer before evaluating the efforts. I suspect it's too early to expect a culture change with docs. Most engineers probably don't realize they *can* edit docs, so I have some education efforts to make both internally and externally.
+Regardless of the participation, I'm planning to leave my docs on GitHub for a lot longer before evaluating the efforts. I suspect it's too early to evaluate much of anything. Most engineers probably don't realize they *can* edit docs, so I have some education efforts to make both internally and externally. Only after I get the collaboration engine moving along can I begin to evaluate whether the tradeoffs for simplicity were worth it.
 
 {{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
 
