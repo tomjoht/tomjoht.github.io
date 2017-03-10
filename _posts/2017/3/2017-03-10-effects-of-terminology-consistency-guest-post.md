@@ -70,4 +70,4 @@ I bet you noticed I randomly used "terminology," "lexicon," and "vocabulary" for
 
 ## About Yves Pierrot
 
-Yves Pierrot started out as usability consultant. During ten years practice, he used cognitive psychology experimental methodologies for finding answers to his client's questions. He specialized in the knowledge and analysis of technical expertise. He then practiced technical communication for another ten years. Yves is a fervent advocate of the application of usability techniques to the search for perfect technical communication.
+[Yves Pierrot](https://www.linkedin.com/in/yves-pierrot-b13a051/) started out as usability consultant. During ten years practice, he used cognitive psychology experimental methodologies for finding answers to his client's questions. He specialized in the knowledge and analysis of technical expertise. He then practiced technical communication for another ten years. Yves is a fervent advocate of the application of usability techniques to the search for perfect technical communication.
