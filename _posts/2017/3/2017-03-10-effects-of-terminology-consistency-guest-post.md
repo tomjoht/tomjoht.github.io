@@ -1,5 +1,5 @@
 ---
-title: "Guest post -- The effects of terminology consistency on reader's comprehension and attitude"
+title: "Guest post -- The effects of terminology consistency on the reader's comprehension and attitude"
 categories:
 - writing
 keywords: terminology, comprehension, usability
