@@ -10,8 +10,10 @@ thumb: techcommtrianglethumb.png
 
 {{note}} You can now listen a podcast on this same topic: <a href="http://jacobmoses.com/podcast/tech-writer-podcast/types-of-knowledge/">Acquiring the Three Types of Knowledge Tech Writers Need to Succeed</a>. Podcaster Jacob Moses interviews Lisa Melancon and me. We explore each type of knowledge (product, technical, and user knowledge) in depth.{{end}}
 
+{{tip}}For a more updated and detailed version of this post, see <a href="http://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/">How do you learn what you need to learn to be successful as a technical writer?</a>.{{end}}
+
 I've illustrated the three types of knowledge in the following diagram.
- 
+
 <figure><img src="{{ "/images/techcommtriangle-01.png" | prepend: site.baseurl }}"/><figcaption>These are the three types of knowledge you need to be successful as a technical writer.</figcaption></figure>
 
 When you combine technical knowledge, product knowledge, and user knowledge, you become a key player in your organization. Usually engineers dominate the technical, product managers dominate the product, and support dominates the users. Technical writers need to a decent understanding of all three of these domains to write useful documentation.
