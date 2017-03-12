@@ -6,8 +6,24 @@ type: kindle
 
 <style>
 
-    h1 {
+    div.section {
         color: orange !important;
+        font-size: 32px;
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 6px;
+        text-align: right;
+    }
+    h1.chapter {
+      color: black;
+    }
+    h2 {
+      color: #555;
+    }
+    h3 {
+      color: gray;
+    }
+    body {
+      padding: 30px;
     }
     #toc ul li a {
         list-style-type: none !important;
@@ -49,40 +65,96 @@ type: kindle
     $( document ).ready(function() {
         // Handler for .ready() called.
 
-        $('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h1,h2.subhead' });
+        $('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h1,h2,h3,h4' });
 
 
     });
     </script>
-
-    <div id="toc"></div>
-
-<h1 id="like-a-developer">Using an API like a developer</h1>
+    
+<mbp:section>
+<div class="section">Using a REST API like a developer</div>
 {% assign apipages = site.restapicourse | sort: "weight" %}
 {% for p in apipages %}
-    {% if p.weight < 2.4 %}
-<h2 class="subhead" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{% if p.weight <= 2.3 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
 {{p.content}}
+<mbp:pagebreak />
 {% endif %}
 {% endfor %}
+</mbp:section>
 
-<h1 id="like-a-tech-writer">Documenting a new endpoint</h1>
+
+<mbp:section>
+<div class="section">Documenting a new API endpoint</div>
 {% assign apipages = site.restapicourse | sort: "weight" %}
 {% for p in apipages %}
-{% if p.weight > 2.4 and p.weight < 4.3 %}
-<h2 class="subhead" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{% if p.weight >= 2.4 and p.weight <= 3.1 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
 {{p.content}}
+<mbp:pagebreak />
 {% endif %}
 {% endfor %}
+</mbp:section>
 
-
-<h1 id="like-a-publisher">Publishing API documentation</h1>
+<mbp:section>
+<div class="section">">Documenting non-reference sections</div>
 {% assign apipages = site.restapicourse | sort: "weight" %}
 {% for p in apipages %}
-    {% if p.weight > 4.3 %}
-<h2 class="subhead" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{% if p.weight >= 3.2 and p.weight <= 3.8 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
 {{p.content}}
+<mbp:pagebreak />
 {% endif %}
 {% endfor %}
+</mbp:section>
+
+<mbp:section>
+<div class="section">Exploring other REST APIs</div>
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+{% if p.weight >= 3.9 and p.weight <= 4.4 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+<mbp:pagebreak />
+{% endif %}
+{% endfor %}
+</mbp:section>
+
+<mbp:section>
+<div class="section">Publishing API documentation</div>
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+{% if p.weight >= 4.5 and p.weight <= 6.2 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+<mbp:pagebreak />
+{% endif %}
+{% endfor %}
+</mbp:section>
+
+<mbp:section>
+<div class="section">Design patterns</div>
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+{% if p.weight >= 6.3 and p.weight <= 6.9 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+<mbp:pagebreak />
+{% endif %}
+{% endfor %}
+</mbp:section>
+
+<mbp:section>
+<div class="section">Documenting native libary APIs</div>
+{% assign apipages = site.restapicourse | sort: "weight" %}
+{% for p in apipages %}
+{% if p.weight >= 7.0 and p.weight <= 7.9 %}
+<h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</a></h1>
+{{p.content}}
+<mbp:pagebreak />
+{% endif %}
+{% endfor %}
+</mbp:section>
+
 </body>
 </html>
