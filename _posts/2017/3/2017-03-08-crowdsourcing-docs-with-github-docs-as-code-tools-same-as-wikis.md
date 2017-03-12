@@ -148,7 +148,7 @@ In my GitHub repo, there are active contributions from a writer who is our local
 
 ## Simplicity has its tradeoffs
 
-Simplicity has its own tradeoffs, though. In exchange for simpler tools, you give up more robust functionality. In a recent comment on a previous post, a reader who was accustomed to using DITA and Docbook for over a decade lamented about the loss of switching to Markdown. [Kate writes][kate]:
+Simplicity has its own tradeoffs, though. In exchange for simpler tools, you give up more robust functionality. In a recent comment on a previous post, a reader who was accustomed to using DITA and DocBook for over a decade lamented about the loss of switching to Markdown. [Kate writes][kate]:
 
 > I am desperately trying to embrace Markdown after 10 years of using DocBook and then DITA. But I am increasingly finding it difficult.
 >
@@ -175,5 +175,5 @@ Regardless of the participation, I'm planning to leave my docs on GitHub for a l
 [1]: http://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/
 
 [2]: https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture)
-[sarah]: ttp://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/
+[sarah]: http://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/
 [kate]: http://idratherbewriting.com/2016/10/28/markdown-or-restructuredtext-or-dita-choosing-format-tech-docs/#comment-3193454817
