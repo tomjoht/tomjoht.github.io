@@ -92,7 +92,7 @@ If the string matches the signature in the request header, it accepts the reques
 
 Here's a diagram depicting this workflow:
 
-<img src="{{ "/images_api/restapi_hmac.svg" | prepend: site.baseurl }}" alt="HMAC workflow" />
+<img src="{{ "images_api/restapi_hmac.svg" | prepend: site.baseurl }}" alt="HMAC workflow" />
 
 The important point is that the secret key (critical to reconstructing the hash) is known only to the sender and receiver. The secret key is not included in the request.
 
@@ -102,7 +102,7 @@ HMAC security is used when you want to ensure the request is both authentic and 
 
 One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when  you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook. 
 
-<img src="{{ "/images_api/oauthwindow.png" | prepend: site.baseurl }}" alt="OAuth login window" />
+<img src="{{ "images_api/oauthwindow.png" | prepend: site.baseurl }}" alt="OAuth login window" />
 
 There are a few varieties of OAuth &mdash; namely, "one-legged OAuth" and "three-legged OAuth." One-legged OAuth is used when you don't have sensitive data to secure. This might be the case if you're just retrieving general, read-only information (such as news articles).
 
@@ -114,7 +114,7 @@ In contrast, three-legged OAuth is used when you need to protect sensitive data.
 
 Here's the basic workflow of OAuth 2.0:
 
-<img src="{{ "/images_api/restapi_oauth.svg" | prepend: site.baseurl }}" alt="OAuth workflow" />
+<img src="{{ "images_api/restapi_oauth.svg" | prepend: site.baseurl }}" alt="OAuth workflow" />
 
 First the consumer application sends over an application key and secret to a login page at the authentication server. If authenticated, the authentication server responds to the user with an access token.
 
@@ -152,7 +152,7 @@ Since the API keys section is usually essential before developers can start usin
 
 Here's a screenshot from SendGrid's documentation on API keys:
 
-<a style="max-width: 700px;" href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="{{ "/images_api/sendgridapikeys.png" | prepend: site.baseurl }}" alt="SendGrid API Keys" /></a>
+<a style="max-width: 700px;" href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="{{ "images_api/sendgridapikeys.png" | prepend: site.baseurl }}" alt="SendGrid API Keys" /></a>
 
 ## Include information on rate limits
 Whether in the authorization keys or another section, you should list any applicable rate limits to the API calls. Rate limits determine how frequently you can call a particular endpoint. Different tiers and licenses may have different capabilities or rate limits.
@@ -161,7 +161,7 @@ If your site has hundreds of thousands of visitors a day, and each page reload c
 
 Here's a great example of the rate limits section from the Github API:
 
-<a  style="max-width: 700px;" href="https://developer.github.com/v3/#rate-limiting"><img src="{{ "/images_api/githubratelimiting.png" | prepend: site.baseurl }}" alt="Rate limiting section from Github" /></a>
+<a  style="max-width: 700px;" href="https://developer.github.com/v3/#rate-limiting"><img src="{{ "images_api/githubratelimiting.png" | prepend: site.baseurl }}" alt="Rate limiting section from Github" /></a>
 
 <hr />
 

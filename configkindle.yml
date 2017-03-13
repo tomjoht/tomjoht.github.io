@@ -5,13 +5,16 @@ port: 4030
 feedback_email: tomjohnson1492@gmail.com
 sidebar_accordion: true
 
-highlighter: rouge
+encoding: ISO-8859-1
+
 markdown: kramdown
 kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
-show_audience_label: true
+ input: GFM
+ auto_ids: true
+ syntax_highlighter: rouge
+ show_audience_label: true
+
+encoding: ISO-8859-1
 
 timezone: America/Los_Angeles
 highlighter: rouge

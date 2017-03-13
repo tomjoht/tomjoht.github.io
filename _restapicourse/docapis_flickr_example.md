@@ -20,7 +20,7 @@ In this Flickr API example, you'll see that our goal requires us to call several
 
 In this example, we want to get all the photos from a [specific Flickr gallery](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) and display them on a web page. Here's the gallery we want:
 
-<a href="https://www.flickr.com/photos/flickr/galleries/72157647277042064/"><img src="{{ "/images_api/flickrgallery.png" | prepend: site.baseurl }}" alt="Flickr gallery" /></a>
+<a href="https://www.flickr.com/photos/flickr/galleries/72157647277042064/"><img src="images_api/flickrgallery.png" alt="Flickr gallery" /></a>
 
 ## 1. Get an API key to make requests
 
@@ -30,13 +30,13 @@ Before you can make a request with the Flickr API, you'll need an API key, which
 
 From the list of [Flickr's API methods](https://www.flickr.com/services/api/), the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint, which is listed under the galleries resource, is the one that will get photos from a gallery.
 
-<a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="{{ "/images_api/flickr_get_photos.png" | prepend: site.baseurl }}" alt="Flickr getPhotos endpoint" /></a>
+<a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="images_api/flickr_get_photos.png" alt="Flickr getPhotos endpoint" /></a>
 
 One of the arguments we need for the getPhotos endpoint is the gallery ID. Before we can get the gallery ID, however, we have to use another endpoint to retrieve it. *Rather unintuitively, the gallery ID is <em>not</em> the ID that appears in the URL of the gallery.*
 
 We use the [flickr.urls.lookupGallery](https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery) endpoint listed in the URLs resource section to get the gallery ID from a gallery URL:
 
-<a href="https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery"><img src="{{ "/images_api/flickr_gallery_id.png" | prepend: site.baseurl }}" alt="Flickr lookupGallery endpoint endpoint" /></a>
+<a href="https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery"><img src="images_api/flickr_gallery_id.png" alt="Flickr lookupGallery endpoint endpoint" /></a>
 
 The gallery ID is `66911286-72157647277042064`. We now have the arguments we need for the [flickr.galleries.getPhotos](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint.
 
@@ -46,13 +46,13 @@ We can make the request to get the list of photos for this specific gallery ID.
 
 Flickr provides an API Explorer to simplify calls to the endpoints. If we go to the [API Explorer for the galleries.getPhotos endpoint](https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos), we can plug in the gallery ID and see the response, as well as get the URL syntax for the endpoint.
 
-<a href="https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos"><img src="{{ "/images_api/flickrcallmethod.png" | prepend: site.baseurl }}" alt="Using the Flickr API Explorer to get the request syntax" /></a>
+<a href="https://www.flickr.com/services/api/explore/flickr.galleries.getPhotos"><img src="images_api/flickrcallmethod.png" alt="Using the Flickr API Explorer to get the request syntax" /></a>
 
 Insert the gallery ID, select **Do not sign call** (we're just testing here, so we don't need extra security), and then click **Call Method**.
 
 Here's the result:
 
-<img src="{{ "/images_api/flickrresultfromcallmethod.png" | prepend: site.baseurl }}" alt="Flickr gallery response" /></a>
+<img src="images_api/flickrresultfromcallmethod.png" alt="Flickr gallery response" /></a>
 
 The URL below the response shows the right syntax for using this method:
 
@@ -64,7 +64,7 @@ https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=
 
 If you submit the request direct in your browser using the given URL, you can see the same response but in the browser rather than the API Explorer:
 
-<img src="{{ "/images_api/flickrresponseinbrowser.png" | prepend: site.baseurl }}" alt="Flickr response in browser" />
+<img src="images_api/flickrresponseinbrowser.png" alt="Flickr response in browser" />
 
 {{tip}}I'm using the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">JSON Formatting extension for Chrome</a> to make the JSON response more readable. Without this plugin, the JSON response is compressed. {{end}}
 
@@ -176,7 +176,7 @@ $("#flickr").append('<img src="https://farm' + farmId + '.staticflickr.com/' + s
 And the result looks like this:
 
 
-<img src="{{ "/images_api/flickrcolorgallerydemo-550x190.png" | prepend: site.baseurl }}" alt="Flickr gallery demo" />
+<img src="images_api/flickrcolorgallerydemo-550x190.png" alt="Flickr gallery demo" />
 
 ## Code explanation
 

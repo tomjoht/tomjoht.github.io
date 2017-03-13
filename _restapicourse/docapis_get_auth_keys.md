@@ -30,13 +30,13 @@ To get the authorization keys to use the Mashape API, you'll need to sign up for
 2. Click **Applications** on the top navigation bar, and then select **Default Application**.
 3. In the upper-right corner, click **Get the Keys**.
 	
-	<img src="{{ "/images_api/mashape_get_keys.png" | prepend: site.baseurl }}" alt="Mashape -- getting the keys" />
+	<img src="images_api/mashape_get_keys.png" alt="Mashape -- getting the keys" />
 
 	{{note}}If you don't see the Get the Keys button, make sure you click <b>Applications > Default Application</b> on the top navigation bar first. You may have to horizontally scroll to the right (eek!) to see the Get the Keys button.{{end}}
 	
 3. When the Environment Keys dialog appears, click **Copy** to copy the keys. (Choose the Testing keys, since this type allows you to make unlimited requests.)
 
-    <img src="{{ "/images_api/environmentkeys.png" | prepend: site.baseurl }}" alt="Mashape keys" />
+    <img src="images_api/environmentkeys.png" alt="Mashape keys" />
     
 4. Open a text editor and paste the key so that you can easily access it later when you construct a call.
 
@@ -50,7 +50,7 @@ The Aeris Weather API requires both a secret and ID to make requests.
 4.  Complete the fields and create an Aeris account. When finished creating the account, you'll see a message that says "Your subscription has been successfully processed." 
 5.  Once you sign up for an account, click **Account** in the upper-right corner.
 	
-	<img src="{{ "/images_api/aerisaccount.png" | prepend: site.baseurl }}" alt="Aeris account" />
+	<img src="images_api/aerisaccount.png" alt="Aeris account" />
 	
 6.  Click **Apps** (on the second navigation row, to the right of "Usage"), and then click **New Application**.
 7.  In the dialog box, enter the following:

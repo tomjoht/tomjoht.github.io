@@ -14,11 +14,11 @@ You can download the Doxywizard tool when you install Doxygen. See the [Doxygen]
 
 Here's Doxygen's front-end GUI generator (Doxywizard):
 
-<img src="{{ "/images_api/doxygenfrontendgui.png" | prepend: site.baseurl }}" alt="Doxygen front-end GUI generator" />
+<img src="images_api/doxygenfrontendgui.png" alt="Doxygen front-end GUI generator" />
 
 Here's the Doxygen output:
 
-<img src="{{ "/images_api/doxygensample.png" | prepend: site.baseurl }}" alt="Doxygen Sample" />
+<img src="images_api/doxygensample.png" alt="Doxygen Sample" />
 
 By the way, you don't need to use the wizard. You can also just generate Doxygen through a configuration file. This is how developers typically run Doxygen builds from a server.
 

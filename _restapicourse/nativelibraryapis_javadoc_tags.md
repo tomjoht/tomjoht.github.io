@@ -16,7 +16,7 @@ The following are the most common tags used in Javadoc. Each tag has a word that
 {{tip}} To see a lengthy Javadoc tag, see this <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#examples
 ">example from Oracle</a>. {{end}}
 
-| Javadoc tag | Description | 
+| Javadoc tag | Description |
 |-------|----------|
 | @author  | A person who made significant contribution to the code. Applied only at the class, package, or overview level. Not included in Javadoc output. It's not recommended to include this tag since authorship changes often. |
 | @param | A parameter that the method or constructor accepts. Write the description like this: `@param count Sets the number of widgets you want included.`  |
@@ -254,9 +254,9 @@ Oracle says there are 3 scenarios where the doc comments get inherited, so you d
 
 ## @see tags
 
-The @see tag provides a see also reference. There are various ways to denote what you're linking to in order to create the link. If you're linking to a field, constructor, or method within the same field, use `#`. 
+The @see tag provides a see also reference. There are various ways to denote what you're linking to in order to create the link. If you're linking to a field, constructor, or method within the same field, use `#`.
 
-If you're linking to another class, put that class name first followed by the `#` and the constructor, method, or field name. 
+If you're linking to another class, put that class name first followed by the `#` and the constructor, method, or field name.
 
 If you're linking to a class in another package, put the package name first, then the class, and so on. See this sample from Oracle:
 
@@ -309,7 +309,7 @@ To change the linked text, put a word after `#baz` like this: `@see #baz Baz met
 
 In Eclipse, you can use the Javadoc tab at the bottom of the screen to preview the Javadoc information included for the class you're viewing.
 
-<img src="{{ "/images/javadocpane.png" | prepend: site.baseurl }}" alt="" />
+<img src="images_api/javadocpane.png" alt="Javadoc pane" />
 
 ## More information
 

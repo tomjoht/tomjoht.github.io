@@ -15,8 +15,8 @@ However, the comments that developers add are usually poor, incomplete, or incom
 When you make edits to Javadoc content, look for the following: 
 
 * **Missing doc**. Lots of Javadoc is incomplete. Look for missing documentation.
-* **Consistent style**. See if the existing tags follow Java’s style conventions.
-* **Clarity**. Some descriptions are unintelligible due to the curse of knowledge, but it’s hard to judge without a stronger grasp of Java.
+* **Consistent style**. See if the existing tags follow Java's style conventions.
+* **Clarity**. Some descriptions are unintelligible due to the curse of knowledge, but it's hard to judge without a stronger grasp of Java.
 
 In this exercise, you'll make some edits to the Javadoc tags and see how they get rendered in the output.
 

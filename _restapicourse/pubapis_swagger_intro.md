@@ -3,42 +3,42 @@ title: Implementing Swagger (OpenAPI specification) with your REST API documenta
 permalink: /pubapis_swagger_intro/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 5.4
 type: notes_docapis
 ---
 {% include notes.html %}
 
-(*This article was originally published in [ISTC Communicator](http://www.istc.org.uk/publications-and-resources/communicator/), [Autumn 2016](http://www.istc.org.uk/wp-content/uploads/2016/05/Comm1609Web_TOC.pdf).*)
+I recently gave a presentation that covers the same concepts in this article. See the following: {% if site.target == "pdf" %}https://www.youtube.com/watch?v=wC5hxY0RItQ{% endif %}
 
-I recently gave a presentation that covers the same concepts in this article. See the following:
-
+{% unless site.target == "pdf" %}
 <iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen></iframe>
+{% endunless %}
 
 ## Introduction
 
-On a recent project, after I created documentation for a new API (Application Programming Interface), the project manager wanted to demo the new functionality to some field engineers. 
+On a recent project, after I created documentation for a new API (Application Programming Interface), the project manager wanted to demo the new functionality to some field engineers.
 
 To prepare for the demo, the project manager summarised, in a PowerPoint presentation, the new endpoints that had been added. The request and responses from each endpoint, along with their parameters, were included as attractively as possible in a number of PowerPoint slides.
 
 During the demo, the project manager talked through each of the slides, explaining the new endpoints, the parameters the users can configure, and the responses from the server. How did the field engineers react to the new demo?
 
-The field engineers wanted to try out the requests and see the responses for themselves. They wanted to “push the buttons," so to speak, and see how the API responded. I’m not sure if they were skeptical of the API’s advertised behavior, or if they had questions the slides failed to answer. But they insisted on making actual calls themselves and seeing the responses, despite what the project manager had noted on each slide.
+The field engineers wanted to try out the requests and see the responses for themselves. They wanted to “push the buttons," so to speak, and see how the API responded. I'm not sure if they were skeptical of the API's advertised behavior, or if they had questions the slides failed to answer. But they insisted on making actual calls themselves and seeing the responses, despite what the project manager had noted on each slide.
 
-The field engineers’ insistence on trying out every endpoint made me rethink my API documentation. All the engineers I’ve ever known have had similar inclinations to explore and experiment on their own. 
+The field engineers' insistence on trying out every endpoint made me rethink my API documentation. All the engineers I've ever known have had similar inclinations to explore and experiment on their own.
 
-I have a mechanical engineering friend who once nearly entirely dismantled his car’s engine to change a head gasket: he simply loved to take things apart and put them back together. It’s the engineering mind. When you force engineers to passively watch a PowerPoint presentation, they quickly lose interest.
+I have a mechanical engineering friend who once nearly entirely dismantled his car's engine to change a head gasket: he simply loved to take things apart and put them back together. It's the engineering mind. When you force engineers to passively watch a PowerPoint presentation, they quickly lose interest.
 
 After the meeting, I wanted to make my documentation more interactive, with options for users to try out the calls themselves. I had heard of [Swagger](https://github.com/OAI/OpenAPI-Specification) (which is now called the OpenAPI specification but still commonly referred to as Swagger). I knew that Swagger was a way to make my API documentation interactive. Looking at the [Swagger demo](http://petstore.swagger.io), I knew I had to figure it out.
 
 ## About Swagger
 
-Swagger is a specification for describing REST APIs. This means Swagger provides a set of objects, with a specific schema about their naming, order, and contents, that you use to describe each part of your API. 
+Swagger is a specification for describing REST APIs. This means Swagger provides a set of objects, with a specific schema about their naming, order, and contents, that you use to describe each part of your API.
 
 You can think of the Swagger specification like DITA but for APIs. With DITA, you have a number of elements that you use to describe your help content (for example, `task`, `step`, `cmd`). The elements have a specific order they have to appear in. The `cmd` element must appear inside a `step`, which must appear inside a `task`, and so on. The elements have to be used correctly according to the XML schema in order to be valid.
 
-Many tools can parse valid DITA XML and transform the content into different outputs. The Swagger specification works similarly, only the specification is entirely different, since you’re describing an API instead of a help topic.
+Many tools can parse valid DITA XML and transform the content into different outputs. The Swagger specification works similarly, only the specification is entirely different, since you're describing an API instead of a help topic.
 
 The official description of the Swagger specification is available in a [Github repository](https://github.com/OAI/OpenAPISpecification). Some of these elements are `path`, `parameters`, `responses`, and `security`. Each of these elements is actually an “object” (instead of an XML element) that holds a number of fields and arrays.
 
@@ -81,37 +81,37 @@ paths:
 
 This [YAML code](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/petstore.yaml) actually comes from the [Swagger Petstore demo](http://petstore.swagger.io/).
 
-Here's what these objects mean: 
+Here's what these objects mean:
 
-*  `/pets` is the endpoint path. 
-*  `get` is the HTTP method. 
-*  `parameters` lists the parameters for the endpoint. 
-*  `responses` lists the response from the request. 
-*  `200` is the HTTP status code. 
+*  `/pets` is the endpoint path.
+*  `get` is the HTTP method.
+*  `parameters` lists the parameters for the endpoint.
+*  `responses` lists the response from the request.
+*  `200` is the HTTP status code.
 *  `$ref` is actually a reference to another part of your implementation where the response is defined. (Swagger has a lot of `$ref` references like this to keep your code clean and to facilitate re-use.)
 
-It can take quite a while to figure out the Swagger specification. Give yourself a couple of weeks and a lot of example specification files to look at, especially in the context of the actual API you’re documenting. Remember that the Swagger specification is general enough to describe nearly every REST API, so some parts may be more applicable than others.
+It can take quite a while to figure out the Swagger specification. Give yourself a couple of weeks and a lot of example specification files to look at, especially in the context of the actual API you're documenting. Remember that the Swagger specification is general enough to describe nearly every REST API, so some parts may be more applicable than others.
 
-When you’re implementing the specification, instead of working in a text editor, you can write your code in the [Swagger editor](http://editor.swagger.io/). The Swagger Editor dynamically validates whether the specification file you’re creating is valid.
+When you're implementing the specification, instead of working in a text editor, you can write your code in the [Swagger editor](http://editor.swagger.io/). The Swagger Editor dynamically validates whether the specification file you're creating is valid.
 
-<img src="{{ "/images_api/swagger_editor_pic.png" | prepend: site.baseurl }}" alt="Swagger Editor" />
+<img src="images_api/swagger_editor_pic.png" alt="Swagger Editor" />
 
-While you’re coding in the Swagger Editor, if you make an error, you can quickly fix it before continuing, rather than waiting until a later time to run a build and sort out errors.
+While you're coding in the Swagger Editor, if you make an error, you can quickly fix it before continuing, rather than waiting until a later time to run a build and sort out errors.
 
-For your specification file’s format, you have the choice of working in either JSON or YAML. The previous code sample is in [YAML](http://yaml.org/). YAML refers to “YAML Ain’t Markup Language,” meaning YAML doesn’t have any markup tags (`<>`), as is common with other markup
+For your specification file's format, you have the choice of working in either JSON or YAML. The previous code sample is in [YAML](http://yaml.org/). YAML refers to “YAML Ain't Markup Language,” meaning YAML doesn't have any markup tags (`<>`), as is common with other markup
 languages such as XML.
 
-YAML depends on spacing and colons to establish the object syntax. This makes the code more human-readable, but it’s also trickier to get the spacing right.
+YAML depends on spacing and colons to establish the object syntax. This makes the code more human-readable, but it's also trickier to get the spacing right.
 
 ## Manual or automated?
 
-So far I’ve been talking about creating the Swagger specification file as if it’s the technical writer’s task and requires manual coding in a text editor based on close study of the specification. That’s how I approached it, but developers can also automate the specification file through annotations in the programming source code.
+So far I've been talking about creating the Swagger specification file as if it's the technical writer's task and requires manual coding in a text editor based on close study of the specification. That's how I approached it, but developers can also automate the specification file through annotations in the programming source code.
 
-Swagger offers a variety of libraries that you can add to your programming code. These libraries will parse through your code’s annotations and generate a specification file. Of course, someone has to know exactly what annotations to add and how to add them. Then someone has to write content for each of the annotation’s values (describing the endpoint, the parameters, and so on).
+Swagger offers a variety of libraries that you can add to your programming code. These libraries will parse through your code's annotations and generate a specification file. Of course, someone has to know exactly what annotations to add and how to add them. Then someone has to write content for each of the annotation's values (describing the endpoint, the parameters, and so on).
 
 Still, many developers get excited about this approach because it offers a way to “automatically” generate documentation from code annotations, which is what developers have been doing for years with other programming languages such as Java (using [Javadoc](http://www.oracle.com/technetwork/articles/java/index-137868.html)) or C++ (using [Doxygen](http://www.stack.nl/~dimitri/doxygen/)). They usually feel that generating documentation from the code results in less documentation drift.
 
-Although you can generate your specification file from code annotations, not everyone agrees that this is the best approach. In [Undisturbed REST: A Guide to Designing the Perfect API](https://www.mulesoft.com/lp/ebook/api/restbook), [Michael Stowe](https://twitter.com/mikegstowe) recommends that teams implement the specification by hand and then treat the specification file as a contract that developers use when doing the actual coding. 
+Although you can generate your specification file from code annotations, not everyone agrees that this is the best approach. In [Undisturbed REST: A Guide to Designing the Perfect API](https://www.mulesoft.com/lp/ebook/api/restbook), [Michael Stowe](https://twitter.com/mikegstowe) recommends that teams implement the specification by hand and then treat the specification file as a contract that developers use when doing the actual coding.
 
 In other words, developers consult the specification file to see what the parameter names should be called, what the responses should be, and so on. After this contract has been established, Stowe says you can then put the annotations in your code to auto-generate the specification file.
 
@@ -119,10 +119,10 @@ Too often, development teams quickly jump to coding the API endpoints, parameter
 
 From the Swagger specification file, some tools can generate a mock API that you can put before users to have them try out the requests.
 
-The mock API generates a response that looks like it’s coming from a real server, but it’s really just a pre-defined response in your code and appears to be dynamic to the user.
- 
-With my project, our developers weren’t that familiar with Swagger, so I simply created the specification file by hand. Additionally, I didn’t have free access to the programming source code, and our developers spoke English as a second or third language only. They weren’t eager to be in the documentation business.
- 
+The mock API generates a response that looks like it's coming from a real server, but it's really just a pre-defined response in your code and appears to be dynamic to the user.
+
+With my project, our developers weren't that familiar with Swagger, so I simply created the specification file by hand. Additionally, I didn't have free access to the programming source code, and our developers spoke English as a second or third language only. They weren't eager to be in the documentation business.
+
 ## Parsing the Swagger specification
 
 Once you have a valid Swagger specification file that describes your API, you can then feed this specification to different tools to parse it and generate the interactive documentation similar to the Petstore example I referenced earlier.
@@ -131,23 +131,23 @@ Probably the most common tool used to parse the Swagger specification is [Swagge
 
 The Swagger UI code generates a display that looks like this:
 
-<img src="{{ "/images_api/swagger_petstore_pic.png" | prepend: site.baseurl }}" alt="Swagger Petstore" />
+<img src="images_api/swagger_petstore_pic.png" alt="Swagger Petstore" />
 
-Some designers criticise the Swagger UI’s expandable/collapsible output as being dated. I somewhat agree: the collapsed design makes it difficult to scan the information and easily see the details. However, at the same time, developers find the one-page model attractive and like the ability to zoom out or in for details.
+Some designers criticise the Swagger UI's expandable/collapsible output as being dated. I somewhat agree: the collapsed design makes it difficult to scan the information and easily see the details. However, at the same time, developers find the one-page model attractive and like the ability to zoom out or in for details.
 
-As with most Swagger-based outputs, Swagger UI provides a “Try it out” button. First you populate the endpoint parameters with values. In the following image, users click the Example Value (yellow field) to populate the body parameter with the required JSON. In query parameters, there's a simple form where you enter the values. 
- 
-<img src="{{ "/images_api/swagger_parameters_pic.png" | prepend: site.baseurl }}" alt="Swagger Parameters" /> 
- 
+As with most Swagger-based outputs, Swagger UI provides a “Try it out” button. First you populate the endpoint parameters with values. In the following image, users click the Example Value (yellow field) to populate the body parameter with the required JSON. In query parameters, there's a simple form where you enter the values.
+
+<img src="images_api/swagger_parameters_pic.png" alt="Swagger Parameters" />
+
 After customizing the parameters, you click **Try it out!** Swagger UI shows you the cURL format of the request followed by the request URL and response. The response is usually returned in JSON format.
 
-<img src="{{ "/images_api/swagger_response_pic.png" | prepend: site.baseurl }}" alt="Swagger's response" />
+<img src="images_api/swagger_response_pic.png" alt="Swagger's response" />
 
-There are other tools besides Swagger UI that can parse your Swagger specification file. Some of these tools include [Restlet Studio](https://restlet.com/products/restlet-studio/), [Apiary](https://apiary.io/), [Apigee](http://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/)/[Mashape](https://www.mashape.com/), [Readme.io](http://readme.io/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui), [Postman Run Buttons](https://www.getpostman.com/docs/run_button) and more. 
+There are other tools besides Swagger UI that can parse your Swagger specification file. Some of these tools include [Restlet Studio](https://restlet.com/products/restlet-studio/), [Apiary](https://apiary.io/), [Apigee](http://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/)/[Mashape](https://www.mashape.com/), [Readme.io](http://readme.io/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui), [Postman Run Buttons](https://www.getpostman.com/docs/run_button) and more.
 
 Some web designers have created integrations of Swagger with static site generators such as Jekyll (see [Carte](https:// github.com/Wiredcraft/carte)). More tools roll out regularly for parsing and displaying content from a Swagger specification file.
 
-In fact, once you have a valid Swagger specification, using a tool called [API Transformer](https://apitransformer.com), you can even transform it into other API specifications, such as [RAML](http://raml.org/) or [API Blueprint](https://apiblueprint.org/). In this way you can expand your tool horizons even wider. (RAML and API Blueprint are alternative specifications to Swagger: they’re not as popular, but the logic of the specifications is similar.)
+In fact, once you have a valid Swagger specification, using a tool called [API Transformer](https://apitransformer.com), you can even transform it into other API specifications, such as [RAML](http://raml.org/) or [API Blueprint](https://apiblueprint.org/). In this way you can expand your tool horizons even wider. (RAML and API Blueprint are alternative specifications to Swagger: they're not as popular, but the logic of the specifications is similar.)
 
 ## Responses to Swagger documentation
 
@@ -161,25 +161,25 @@ Overall, delivering the Swagger output was a huge feather in my cap at the compa
 
 ## A slight trough of disillusionment
 
-Despite Swagger’s interactive power to appeal to the “let me try” desires of users, I began to realise there were some downsides to Swagger.
+Despite Swagger's interactive power to appeal to the “let me try” desires of users, I began to realise there were some downsides to Swagger.
 
-Swagger’s output is still just a reference document. It provides the basics about each endpoint, including a description, the parameters, a sample request, and a response. It doesn’t provide space for a Hello World tutorial, information about how to get API keys, how to configure any API services, information about rate limits, or the thousand other details that go into a user guide.
+Swagger's output is still just a reference document. It provides the basics about each endpoint, including a description, the parameters, a sample request, and a response. It doesn't provide space for a Hello World tutorial, information about how to get API keys, how to configure any API services, information about rate limits, or the thousand other details that go into a user guide.
 
-So, even though you have this cool, interactive tool for users to explore and learn about your API, at the same time you still have to provide a user guide. Similarly, delivering a Javadoc or Doxygen output for a library-based API won’t teach users how to actually use your API. You still have to describe scenarios for using a class or method, how to set your code up, what to do with the response, how to troubleshoot problems, and so on. In short, you still have to write actual help guides and tutorials.
+So, even though you have this cool, interactive tool for users to explore and learn about your API, at the same time you still have to provide a user guide. Similarly, delivering a Javadoc or Doxygen output for a library-based API won't teach users how to actually use your API. You still have to describe scenarios for using a class or method, how to set your code up, what to do with the response, how to troubleshoot problems, and so on. In short, you still have to write actual help guides and tutorials.
 
-With Swagger in the mix, you now have some additional challenges. You have two places where you’re describing your endpoints and parameters, and you have to either keep the two in sync, or you have to link between the two.
+With Swagger in the mix, you now have some additional challenges. You have two places where you're describing your endpoints and parameters, and you have to either keep the two in sync, or you have to link between the two.
 
 [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/), who has published several tutorials on writing API documentation on Udemy, says that automated tools such as Swagger work best when the APIs are simple.
 
-I agree. When you have endpoints that have complex interdependencies and require special setup workflows or other unintuitive treatment, the straightforward nature of Swagger’s Try-it-out interface will likely leave users scratching their heads.
+I agree. When you have endpoints that have complex interdependencies and require special setup workflows or other unintuitive treatment, the straightforward nature of Swagger's Try-it-out interface will likely leave users scratching their heads.
 
-For example, if you must first configure an API service before an endpoint returns anything, and then use one endpoint to get a certain object that you pass into the parameters of another endpoint, and so on, the Try it out features in the Swagger UI output won’t make a lot of sense to users.
+For example, if you must first configure an API service before an endpoint returns anything, and then use one endpoint to get a certain object that you pass into the parameters of another endpoint, and so on, the Try it out features in the Swagger UI output won't make a lot of sense to users.
 
-Additionally, some users may not realise that clicking “Try it out!” makes actual calls against their own accounts based on the API keys they’re using. Mixing an invitation to use an exploratory sandbox like Swagger with real data can create some headaches later on when users ask how they can remove all of the test data, or why their actual data is now messed up. If your API executes orders for supplies or makes other transactions, it can be even more challenging.
+Additionally, some users may not realise that clicking “Try it out!” makes actual calls against their own accounts based on the API keys they're using. Mixing an invitation to use an exploratory sandbox like Swagger with real data can create some headaches later on when users ask how they can remove all of the test data, or why their actual data is now messed up. If your API executes orders for supplies or makes other transactions, it can be even more challenging.
 
 (For these scenarios, I recommend setting up sandbox or test accounts for users.)
 
-Finally, I found that only endpoints with simple request body parameters tend to work in Swagger. Another API I had to document included requests with request body parameters that were hundreds of lines long. With this sort of request body parameter, Swagger UI’s display fell hopelessly short of being usable. The team reverted to much more primitive approaches (such as tables and spreadsheets) for listing all of the parameters and their descriptions.
+Finally, I found that only endpoints with simple request body parameters tend to work in Swagger. Another API I had to document included requests with request body parameters that were hundreds of lines long. With this sort of request body parameter, Swagger UI's display fell hopelessly short of being usable. The team reverted to much more primitive approaches (such as tables and spreadsheets) for listing all of the parameters and their descriptions.
 
 ## Some consolations
 
@@ -195,13 +195,13 @@ Additionally, I found that learning the Swagger specification and describing my 
 
 In short, implementing the specification gave me an education about API terminology, which in turn helped me describe the various components of my API in credible ways.
 
-Swagger may not be the right approach for every API, but if your API has fairly simple parameters, without many interdependencies between endpoints, and if it’s practical to explore the API without making the user’s data problematic, Swagger can be a powerful complement to your documentation. You can give users the ability to try out requests and responses for themselves.
+Swagger may not be the right approach for every API, but if your API has fairly simple parameters, without many interdependencies between endpoints, and if it's practical to explore the API without making the user's data problematic, Swagger can be a powerful complement to your documentation. You can give users the ability to try out requests and responses for themselves.
 
 With this interactive element, your documentation becomes more than just information. Through Swagger, you create a space for users to both read your documentation and experiment with your API at the same time. That combination tends to provide a powerful learning experience for users.
 
 ## Glossary
 
-API 
+API
 : Application Programming Interface. Enables different systems to interact with each other programmatically. Two types of APIs are web services and library-based APIs.
 
 cURL
@@ -230,7 +230,7 @@ Swagger UI
 : A display framework. The most common way to parse a Swagger specification file and produce the interactive documentation as shown in the Petstore demo.
 
 YAML
-: Recursive acronym for “YAML Ain’t No Markup Language.” A human- readable, space-sensitive syntax used in the Swagger specification file.
+: Recursive acronym for “YAML Ain't No Markup Language.” A human- readable, space-sensitive syntax used in the Swagger specification file.
 
 ## Resources and further reading
 
@@ -244,9 +244,12 @@ See the following resources for more information on Swagger:
 * [Swagger Petstore demo](http://petstore.swagger.io)
 * [Swagger Tools](http://swagger.io/tools)
 * [Swagger tutorial (long)](http://apihandyman.io/writing-openapi-swaggerspecification-tutorial-part-1-introduction)
-* [Swagger tutorial (short)](http://idratherbewriting.com/pubapis_swagger) 
-* [Swagger/OpenAPI specification](https://github.com/OAI/OpenAPISpecification) 
+* [Swagger tutorial (short)](http://idratherbewriting.com/pubapis_swagger)
+* [Swagger/OpenAPI specification](https://github.com/OAI/OpenAPISpecification)
 * [Swagger2postman](https://github.com/josephpconley/swagger2postman)
 * [Swagger-ui Responsive theme](https://github.com/jensoleg/swagger-ui)
 * [Swagger-ui](https://github.com/swagger-api/swagger-ui)
 * [Undisturbed REST: A Guide to Designing the Perfect API](http://www.mulesoft.com/lp/ebook/api/restbook), by Michael Stowe
+
+
+(*This article was originally published in [ISTC Communicator](http://www.istc.org.uk/publications-and-resources/communicator/), [Autumn 2016](http://www.istc.org.uk/wp-content/uploads/2016/05/Comm1609Web_TOC.pdf).*)

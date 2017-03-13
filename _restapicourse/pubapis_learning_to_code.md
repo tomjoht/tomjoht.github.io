@@ -30,7 +30,7 @@ James Rhea, in response to my post on [Generalist versus Specialist](http://idra
 
 > I wouldn't aim for deep technical knowledge. I would aim for adequate technical knowledge, recognizing that what constitutes adequacy may vary by project, and that technical knowledge ought to grow over time due to immersion in the documentation and exposure to the technology and the industry.
 >
-> I speculate that the need for writers to have deep technical knowledge diminishes as Tech Comm teams grow in size and as other skills become more important than they are for smaller Tech Comm teams. I’m not claiming that deep technical knowledge is useless. I’m suggesting that (to frame it negatively) neglecting deep technical knowledge has less severe consequences than neglecting content curation, doc tool set, or workflow considerations. ([Adding Value as a Technical Writer](https://withintheordinary.wordpress.com/2016/12/21/adding-value-as-a-technical-writer/))
+> I speculate that the need for writers to have deep technical knowledge diminishes as Tech Comm teams grow in size and as other skills become more important than they are for smaller Tech Comm teams. I'm not claiming that deep technical knowledge is useless. I'm suggesting that (to frame it negatively) neglecting deep technical knowledge has less severe consequences than neglecting content curation, doc tool set, or workflow considerations. ([Adding Value as a Technical Writer](https://withintheordinary.wordpress.com/2016/12/21/adding-value-as-a-technical-writer/))
 
 ## Tech comm work that gets neglected
 
@@ -50,9 +50,15 @@ Neiman says tech writers often need to look over a developer's shoulder, watchin
 
 Neiman also says you may need to take the code examples in Java and produce equivalent samples in another language, such as C++, all on your own. In Neiman's view, API technical writers need more technical depth to excel than Wood and Rhea suggest.
 
-James Neiman and [Andrew Davis](http://www.synergistech.com/) recently gave a presentation titled [Finding the right API Technical Writer](https://www.youtube.com/embed/lmNHBg20ql0) at a API conference in London last October.  Watch this excerpt at around the 23 minute mark:
+James Neiman and [Andrew Davis](http://www.synergistech.com/) recently gave a presentation titled [Finding the right API Technical Writer](https://www.youtube.com/embed/lmNHBg20ql0) at a API conference in London last October.  
+
+{% if site.target == "pdf" %}See https://www.youtube.com/watch?v=wC5hxY0RItQ for the video. Watch the video around the 23 minute mark. {% endif %}
+
+{% unless site.target == "pdf" %}
+Watch this excerpt at around the 23 minute mark:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lmNHBg20ql0?start=22m33s&end=24m17s" frameborder="0" allowfullscreen></iframe>
+{% endunless %}
 
 Clearly, Neiman argues for a higher level of coding proficiency than Wood or Rhea. The level of coding knowledge required no doubt depends on the position, environment, and expectations. If you're in a situation where the code is over your head, developers may send you chunks of code to add to the documentation.
 

@@ -7,7 +7,7 @@ weight: 5.41
 ---
 {% include notes.html %}
 
-{{site.data.alerts.note}} For a more general overview, see <a href="{{ "/pubapis_swagger_intro/" | prepend: site.baseurl }}">Implementing Swagger with your API docs</a>. {{site.data.alerts.end}}
+{{site.data.alerts.note}} For a more general overview, see <a href="/pubapis_swagger_intro/">Implementing Swagger with your API docs</a>. {{site.data.alerts.end}}
 
 ## About Swagger
 
@@ -18,7 +18,7 @@ Swagger is one of the most popular specifications for REST APIs for a number of 
 * The Swagger file can be auto-generated from code annotations on a lot of different platforms.
 * Swagger has a strong community with helpful contributors.
 
-The Swagger spec provides a way to describe your API using a specific JSON or YAML schema that outlines the names, order, and other details of the API. 
+The Swagger spec provides a way to describe your API using a specific JSON or YAML schema that outlines the names, order, and other details of the API.
 
 You can code this Swagger file by hand in a text editor, or you can auto-generate it from annotations in your source code. Different tools can consume the Swagger file to generate the interactive API documentation.
 
@@ -28,22 +28,22 @@ You can code this Swagger file by hand in a text editor, or you can auto-generat
 
 In order to get a better understanding of Swagger, let's explore the Petstore example. Note that this UI is Swagger UI. Swagger can be rendered into different visual displays based on the visual framework you decide to use to parse the Swagger spec.
 
-<a href="http://petstore.swagger.io/"><img src="{{ "/images_api/swaggerpetstoreui.png" | prepend: site.baseurl }}" alt="" /></a>
+<a href="http://petstore.swagger.io/"><img src="images_api/swaggerpetstoreui.png" alt="Petstore UI" /></a>
 
-There are three resources: pet, store, and user. 
+There are three resources: pet, store, and user.
 
 ### Create a pet
 
-1. In the **Pet** resource, expand the **Post** method. 
+1. In the **Pet** resource, expand the **Post** method.
 2. Click the yellow JSON in the Model Schema section:
-	
-	<img src="{{ "/images_api/petstorepostpet.png" | prepend: site.baseurl }}" alt="Posting a new pet" />
-	
-	This populates the body value with the JSON. This is the JSON you must submit in order to create a pet. 
-	
+
+	<img src="images_api/petstorepostpet.png" alt="Posting a new pet" />
+
+	This populates the body value with the JSON. This is the JSON you must submit in order to create a pet.
+
 3. Change the value for the first `id` tag. (Make it really unique so that others don't use the same `id`, and don't start with `0`.)
 4. Change `name` value to something unique. Here's an example:
-	
+
    ```json
 	{
 	  "id": 37987,
@@ -65,23 +65,23 @@ There are three resources: pet, store, and user.
 	}
    ```
 5. Click the **Try it out!** button.
-	
-	Look and see the response. 
-	
-	<img src="{{ "/images_api/swaggerpetstoreresponse.png" | prepend: site.baseurl }}" alt="JSON response" />
+
+	Look and see the response.
+
+	<img src="images_api/swaggerpetstoreresponse.png" alt="JSON response" />
 
 ### Find your pet by the ID
 
 1. Expand the GET `pet/{petId}` method.
 2. Insert your pet's ID in the `petId` value box.
 3. Click **Try it out!**
-	
-	The pet you created is returned in the response. 
-	
-	By default, the response will be in XML. Change the **Response Content Type** selector to **application/json** and click **Try it out!** again. 
-	
+
+	The pet you created is returned in the response.
+
+	By default, the response will be in XML. Change the **Response Content Type** selector to **application/json** and click **Try it out!** again.
+
 	The pet response is returned in JSON format.
-	
+
 {{important}} The emphasis in Swagger documentation is to learn by doing. You make real requests and see responses to better understand how the Petstore API really works. However, note also that now you have created a new pet in your actual Petstore database. This test data may be something you have to wipe clean when you transition from exploring and learning about the API to actually using the API for production use. {{end}}
 
 ## Sorting out the Swagger components
@@ -92,7 +92,7 @@ Swagger has a number of different pieces:
 
 **[Swagger editor](http://editor.swagger.io/#/)**: The Swagger Editor is an online editor that validates your YML-formatted content against the rules of the Swagger spec. YML is a syntax that depends on spaces and nesting. You'll need to be familiar with YML syntax and the rules of the Swagger spec to be successful here. The Swagger editor will flag errors and give you formatting tips. (Note that the Swagger spec file can be in either JSON or YAML format.)
 
-<a href="http://editor.swagger.io/"><img src="{{ "/images_api/swagger-editor-example.png" | prepend: site.baseurl }}" alt="Swagger online editor" /></a>
+<a href="http://editor.swagger.io/"><img src="images_api/swagger-editor-example.png" alt="Swagger online editor" /></a>
 
 **[Swagger-UI](https://github.com/swagger-api/swagger-ui)**: The Swagger UI is an HTML/CSS/JS framework that parses a JSON or YML file that follows the Swagger spec and generates a navigable UI of the documentation. This is the tool that transforms your spec into the Swagger Petstore-like UI output.
 
@@ -108,7 +108,7 @@ Before we get into this tutorial, check out a few Swagger implementations:
 
 Most of them look pretty much the same, with minimal branding. You'll notice the documentation is short and sweet in a Swagger implementation. This is because the Swagger display is meant to be an interactive experience where you can try out calls and see responses &mdash; using your own API key to see your own data. It's the learn-by-doing-and-seeing-it approach.
 
-Note a few limitations with the Swagger approach: 
+Note a few limitations with the Swagger approach:
 
 * There's not much room to describe in detail the workings of the endpoint.
 * The Swagger UI looks mostly the same for each output.
@@ -118,7 +118,7 @@ Note a few limitations with the Swagger approach:
 
 In this activity, you'll create a Swagger UI display for the weatherdata endpoint in this [Mashape Weather API](https://www.mashape.com/fyhao/weather-13#weatherdata). (If you're jumping around in the documentation, this is a simple API that we used in earlier parts of the course.) You can see a demo of what we'll build [here](http://idratherbewriting.com/files/restapicourse/swagger):
 
-<a href="http://idratherbewriting.com/files/restapicourse/swagger"><img src="{{ "/images_api/myswagger.png" | prepend: site.baseurl }}" alt="Swagger UI demo" /></a>
+<a href="http://idratherbewriting.com/files/restapicourse/swagger"><img src="images_api/myswagger.png" alt="Swagger UI demo" /></a>
 
 ### a. Create a Swagger spec file
 
@@ -127,7 +127,7 @@ To create a Swagger spec file:
 1.  Go to the [Swagger online editor](http://editor.swagger.io/#/).
 2.  Select **File > Open Example** and choose **PetStore Simple**. Click **Open**.
 
-    You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">swagger.yaml</a>.
+    You could just customize this sample YML file with the weatherdata endpoint documentation. However, if you're new to Swagger it will take you some time to learn the spec. For the sake of convenience, just go to the following file, and then copy and paste its code into the Swagger editor: <a href="http://idratherbewriting.com/files/restapicourse/swagger/swagger.yaml">swagger.yaml</a>.
 
     Here's what the Swagger YAML file looks like:
 
@@ -240,7 +240,7 @@ To create a Swagger spec file:
         name: X-Mashape-Key
     ```
 
-    {{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array). If you <a href="{{ "/files/restapicourse/swagger/swagger.yaml" | prepend: site.baseurl }}">download this file</a> instead of copy-and-pasting it above, you're less likely to run into spacing errors.{{end}}
+    {{note}} Notice that this is YML instead of JSON. YML syntax is a more human-readable form of JSON. With YML, spacing matters. New levels are set with two indented spaces. The colon indicates an object. Hyphens represent a sequence or list (like an array). If you <a href="http://idratherbewriting.com/files/restapicourse/swagger/swagger.yaml">download this file</a> instead of copy-and-pasting it above, you're less likely to run into spacing errors.{{end}}
 
     The Swagger editor shows you how the file will look in the output. You'll also be able to see if there are any validity errors. Without this online editor, you would only know that the YML syntax is valid when you run the code (and see errors indicating that the YAML file couldn't be parsed).
 
@@ -252,13 +252,13 @@ You can also choose JSON as the format, but YAML is more readable and works just
 ### b. Set Up the Swagger UI
 
 1. Go to the [Swagger UI](https://github.com/swagger-api/swagger-ui) Github project. Click the **Download ZIP** button. Download the files to a convenient location on your computer and extract the files.
-	
+
 	The only folder you'll be working with here is the dist folder. Everything else is used only if you're regenerating the files, which is beyond the scope of this tutorial.
-	
+
 2. Drag the **dist** folder out of the swagger-ui-master folder so that it stands alone. Then delete the swagger-ui-master folder.
 3. Inside your **dist** folder, open **index.html** in a text editor.
 4. Look for the following code:
-	
+
    ```js
 	    url = "http://petstore.swagger.io/v2/swagger.json";
    ```
@@ -272,34 +272,34 @@ You can also choose JSON as the format, but YAML is more readable and works just
 
 In addition to viewing the Swagger file locally in Firefox, you can also run a web server locally on your computer through XAMPP:
 
-1. Download and install [XAMPP](https://www.apachefriends.org/). 
+1. Download and install [XAMPP](https://www.apachefriends.org/).
 2. After installation, in your Applications folder, open the XAMPP folder and start the '''manager-osx''' console.
 2. Click the **Manage Servers** tab in the console manager.
 3. Select **Apache Web Server** and click **Start**.
 4. Open the **htdocs** folder where XAMPP was installed. On a Mac, the location is usually in `/Applications/XAMPP/xamppfiles/htdocs`.
 5. Drag the dist folder into this space.
-6. In your browser, go to localhost/dist. 
+6. In your browser, go to localhost/dist.
 
 The Swagger UI display should appear.
-	
+
 ### Interact with the Swagger UI
 
 1. Go to the URL where you uploaded your Swagger files. Alternatively, if you're using XAMPP locally, go to localhost/dist.
-2. In the upper-right corner, click **Authorize** and enter your Mashape API key. If you don't have a Mashape API key, you can use **EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p**. 
+2. In the upper-right corner, click **Authorize** and enter your Mashape API key. If you don't have a Mashape API key, you can use **EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p**.
 3. Go to Google Maps and search for an address.
 4. Get the latitude and longitude from the URL, and plug it into your Swagger UI. (For example, **1.3319164** for lat, **103.7231246** for lng.)
 5. Click **Try it out**.
-	
+
 	If successful, you should see something in the response body like this:
-	
+
    ```
 	9 c, Mostly Cloudy at South West, Singapore
    ```
-   
+
    If you see a response that says "Not supported," try the lat and lng coordinates used here.
-	
+
 	Try working with each of your endpoints and see the data that gets returned.
-	
+
 	Note that if you refresh the page, you'll need to re-enter your API key.
 
 ## Auto-generating the Swagger file from code annotations
@@ -310,7 +310,7 @@ By integrating Swagger into the code, you allow developers to easily write docum
 
 For other tools and libraries, see [Swagger services and tools](http://swagger.io/open-source-integrations/).
 
-{% comment %} If you want to automatically set the API key, remove the security definition from the swagger.yaml file and put this before the closing script tag in the index file. 
+{% comment %} If you want to automatically set the API key, remove the security definition from the swagger.yaml file and put this before the closing script tag in the index file.
 
         function addApiKeyAuthorization(){
          var key = encodeURIComponent($('#input_apiKey')[0].value);

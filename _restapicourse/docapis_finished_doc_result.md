@@ -3,7 +3,7 @@ title: Putting it all together
 permalink: /docapis_finished_doc_result/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.1
 type: notes_docapis
@@ -13,7 +13,7 @@ type: notes_docapis
 ## Full working example
 In this example, let's pull together the various parts you've worked on to showcase the full example. I chose to format mine in Markdown syntax in a text editor.
 
-Here's my example. 
+Here's my example.
 
 <div class="docSample">
 <h1 id="surfreport/{beachid}">surfreport/{beachId}</h1>
@@ -58,13 +58,13 @@ Here's my example.
 
 <h2 id="sample-request">Sample request</h2>
 
-{% highlight bash %}
+<pre class="bash">
 curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' -H 'X-Mashape-Key: EF3g83pKnzmshgoksF83V6JB6QyTp1cGrrdjsnczTkkYgYrp8p' -H 'Accept: application/json'
-{% endhighlight %}
+</pre>
 
 <h2 id="sample-response">Sample response</h2>
 
-{% highlight json %}
+<pre class="json">
 {
     "surfreport": [
         {
@@ -95,7 +95,7 @@ curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=
         }
     ]
 }
-{% endhighlight %}
+</pre>
 
 <p>The following table describes each item in the response.</p>
 
@@ -164,7 +164,7 @@ curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=
 
 <p>The following code samples shows how to use the surfreport endpoint to get the surf height for a specific beach. </p>
 
-{% highlight html %}
+<pre class="html">
 <!DOCTYPE html>
 <head>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -192,7 +192,7 @@ $.ajax(settings).done(function (response) {
 <div id="surfheight"></div>
 </body>
 </html>
-{% endhighlight %}
+</pre>
 
 <p>In this example, the <code>ajax</code> method from jQuery is used because it allows us to load a remote resource asynchronously.</p>
 <p>In the request, you submit the authorization through the header rather than directly in the endpoint path. The endpoint limits the days returned to 1 in order to increase the download speed.</p>
@@ -204,7 +204,6 @@ $.ajax(settings).done(function (response) {
 
 ## Structure and templates
 
-If you have a lot of endpoints to document, you'll probably want to create templates that follow a common structure. 
+If you have a lot of endpoints to document, you'll probably want to create templates that follow a common structure.
 
 Additionally, if you want to add a lot of styling to each of the elements, you may want to push each of these elements into your template by way of a script. I'll talk more about publishing in the upcoming sections, Publishing API Documentation.
-

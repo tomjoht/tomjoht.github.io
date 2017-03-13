@@ -10,8 +10,12 @@ type: notes_docapis
 {% include notes.html %}
 
 {% unless site.target == "pdf" %}
-<iframe width="640" height="360" src="https://www.youtube.com/embed/h_WsKO_NWuw" frameborder="0" allowfullscreen></iframe>
+<img src="images_api/restapi_apidoc.svg" alt="REST API diagram" />
 {% endunless %}
+
+{% if site.target == "pdf" %}
+<img src="images_api/restapi_apidoc.png" alt="REST API diagram" />
+{% endif %}
 
 ## Documenting REST APIs course
 
@@ -41,7 +45,7 @@ Finally, you'll dive into different ways to publish REST API documentation, expl
 
 You'll learn how to leverage templates, build interactive API consoles so users can try out requests and see responses, and learn different ways to host and publish your documentation.
 
-In summary, this course is divided into the following sections: 
+In summary, this course is divided into the following sections:
 
 *  **Using a REST API like a developer**
 *  **Documenting a new API endpoint**
@@ -49,7 +53,7 @@ In summary, this course is divided into the following sections:
 *  **Exploring other REST APIs**
 *  **Publishing API documentation**
 *  **Design patterns**
-*  **Documenting native libary APIs**
+*  **Documenting native library APIs**
 
 ## Learn with a real example and context
 

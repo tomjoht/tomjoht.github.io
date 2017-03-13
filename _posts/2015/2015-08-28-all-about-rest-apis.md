@@ -41,7 +41,7 @@ Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport pro
 
 Here's the general model of a REST API:
 
-<img src="{{ "/images_api/restapi_restapi.svg" | prepend: site.baseurl }}" alt="REST API" />
+<img src="{{ "images_api/restapi_restapi.svg" | prepend: site.baseurl }}" alt="REST API" />
 
 ### Any message format can be used
 As an architectural style, you aren't limited to XML as the message format. REST APIs can use any message format the API developers want to use, including XML, JSON, Atom, RSS, CSV, HTML, and more.
@@ -78,7 +78,7 @@ The terminology of URIs and GET requests and message responses transported over 
 
 If you open a browser and go to http://idratherbewriting.com, you're really using HTTP protocol (`http://`)  to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
 
-<img src="{{ "/images_api/restapi_www.svg" | prepend: site.baseurl }}" alt="Web as REST API" />
+<img src="{{ "images_api/restapi_www.svg" | prepend: site.baseurl }}" alt="Web as REST API" />
 
 You can see this response in cURL if you open a Terminal prompt and type `curl http://idratherbewriting.com`. The web itself is an example of RESTful style architecture.
 
@@ -115,5 +115,3 @@ Responses can be in JSON or XML.
 With most REST APIs, you don't use `$` before the query parameters like you do with OData. Query parameters are usually separated by `?`, and each REST API has its own variety of unique parameters.
 
 OData is championed by Microsoft and used by Azure (the Microsoft cloud services). To learn more about OData, see the [http://www.odata.org/](http://www.odata.org/).
-
-

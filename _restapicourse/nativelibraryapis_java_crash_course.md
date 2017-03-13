@@ -168,7 +168,7 @@ Now I use this constructor when creating a new Bicycle object:
 Bicycle myBicycle = new Bicycle ("Trek", 22);
 ```
 
-It's a best practice to include a constructor even if it’s just the default.
+It's a best practice to include a constructor even if it's just the default.
 
 ## Packages
 

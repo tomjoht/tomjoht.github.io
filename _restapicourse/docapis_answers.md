@@ -1,7 +1,6 @@
 ---
 title: Answers
 permalink: /docapis_answers/
-keywords: 
 course: "Documenting REST APIs"
 type: notes_docapis
 ---
@@ -20,16 +19,16 @@ This page provides answers to some of the exercises during the course.
 
 Here's what your dot notation should look like:
 
-{% highlight js %}
+```js
 var sarahjson = john.children[0].child1;
 var greenjson = john.eyes;
 var nikejson = john.shoes.brand;
 var goldenrodjson = john.favcolors[1];
 var jimmyjson = john.children[1].child2;
-{% endhighlight %}
+```
 
 <h2 id="dotNotationWindSpeed">Dot Notation: Windspeed</h2>
 
-{% highlight js %}
+```json
 data.query.results.channel.wind.speed
-{% endhighlight %}
+```

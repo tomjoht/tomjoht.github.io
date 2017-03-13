@@ -14,7 +14,7 @@ Although much attention tends to be given to the reference documentation with AP
 
 [Jacob Kaplan Moss says](http://jacobian.org/writing/what-to-write/) that reference docs can be an illusion:
 
->… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don’t have documentation just admit to it. Maybe a volunteer will offer to write some! But don’t lie and give me that auto-documentation crap. – Jacob Kaplan Moss 
+>… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don't have documentation just admit to it. Maybe a volunteer will offer to write some! But don't lie and give me that auto-documentation crap. – Jacob Kaplan Moss 
 
 Other people seem to have [similar opinions](https://communities.cisco.com/community/developer/blog/2014/09/03/introducing-devnet-slate):
 

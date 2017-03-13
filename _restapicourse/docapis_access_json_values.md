@@ -3,7 +3,7 @@ title: Access and print a specific JSON value
 permalink: /docapis_access_json_values/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 2.2
 type: notes_docapis
@@ -42,7 +42,7 @@ Your code should look like this:
 
 Refresh your Chrome browser and see the information that appears in the console:
 
-<img src="{{ "/images_api/weatherdatapartlycloudy.png" | prepend: site.baseurl }}" alt="Weather description that gets pulled out through dot notation" />
+<img src="images_api/weatherdatapartlycloudy.png" alt="Weather description that gets pulled out through dot notation" />
 
 ## Printing a JSON value to the page
 
@@ -50,7 +50,7 @@ Let's say you wanted to print part of the JSON (the description element) to the 
 
 1. Add a named element to the body of your page, like this:
 
-   ```
+   ```html
     <div id="weatherDescription"></div>
    ```
 
@@ -106,8 +106,6 @@ Let's say you wanted to print part of the JSON (the description element) to the 
 
     Here's the result:
 
-    <img src="{{ "/images_api/weatherdatabrowserdisplay.png" | prepend: site.baseurl }}" alt="Printing JSON to the page" />
+    <img src="images_api/weatherdatabrowserdisplay.png" alt="Printing JSON to the page" />
 
     Now change the display to access the wind speed instead.
-
-

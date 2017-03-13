@@ -1,7 +1,7 @@
 ---
 title: What is a REST API?
 permalink: /docapis_what-is-a-rest-api/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 1.2
 type: notes_docapis
@@ -14,11 +14,11 @@ type: notes_docapis
 
 In general, an API (or Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
 
-<a href="http://bit.ly/1DexWM0"><img src="{{ "/images_api/spinning_gears.jpg" | prepend: site.baseurl }}" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
+<a href="http://bit.ly/1DexWM0"><img src="images_api/spinning_gears.jpg" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
 
 In an API workshop by Jim Bisso, an experienced API technical writer in the Silicon Valley area, Bisso said to consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
 
-<img src="{{ "/images_api/calculator.png" | prepend: site.baseurl }}" alt="calculator" />
+<img src="images_api/calculator.png" alt="calculator" />
 
 APIs often work in similar ways. But instead of interacting within the same system, web APIs call remote services to get their information.
 
@@ -32,7 +32,7 @@ All APIs that use HTTP protocol as the transport format for requests and respons
 
 ## Language agnostic
 
-With web services, the client making the request and the API server providing the response can use any programming language or platform &mdash; it doesn't matter because the message request and response are made through a common HTTP web protocol. 
+With web services, the client making the request and the API server providing the response can use any programming language or platform &mdash; it doesn't matter because the message request and response are made through a common HTTP web protocol.
 
 This is part of the beauty of web services: they are language agnostic and therefore interoperable across different platforms and systems.
 
@@ -52,19 +52,19 @@ SOAP messages are enclosed in an "envelope" that includes a header and body, usi
 
 The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where file size and bandwidth are critical. The verbose message format slows processing times, which makes SOAP interactions more slow.
 
-SOAP is still used in enterprise application scenarios with server-to-server communication, but in the past 5 years, SOAP has largely been replaced by REST, especially for APIs on the open web. You can browse some SOAP APIs at [http://xmethods.com/ve2/index.po](http://xmethods.com/ve2/index.po). 
+SOAP is still used in enterprise application scenarios with server-to-server communication, but in the past 5 years, SOAP has largely been replaced by REST, especially for APIs on the open web. You can browse some SOAP APIs at [http://xmethods.com/ve2/index.po](http://xmethods.com/ve2/index.po).
 
 ## REST is a style, not a standard
 
-Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport protocol for the message requests and responses. However, unlike SOAP, REST is an architectural style, not a standard protocol. This is why REST APIs are sometimes called _RESTful_ APIs &mdash; REST is a general style that the API follows. 
+Like SOAP, REST (REpresentational State Transfer) uses HTTP as the transport protocol for the message requests and responses. However, unlike SOAP, REST is an architectural style, not a standard protocol. This is why REST APIs are sometimes called _RESTful_ APIs &mdash; REST is a general style that the API follows.
 
-A RESTful API might not follow all of the official characteristics of REST as outlined by [Dr. Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding), who first described the model. Hence these APIs are "RESTful" or "REST-like." 
+A RESTful API might not follow all of the official characteristics of REST as outlined by [Dr. Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding), who first described the model. Hence these APIs are "RESTful" or "REST-like."
 
 ## Requests and Responses
 
 Here's the general model of a REST API:
 
-<img src="{{ "/images_api/restapi_restapi.svg" | prepend: site.baseurl }}" alt="REST API" />
+<img src="images_api/restapi_restapi.png alt="REST API" />
 
 As you can see, there's a request and a response between a client to the API server. The client and server can be based in any language, but HTTP is the protocol used to transport the message. This request-and-response pattern is fundamentally how REST APIs work.
 
@@ -110,17 +110,23 @@ The terminology of "URIs" and "GET requests" and "message responses" transported
 
 If you open a browser and go to http://idratherbewriting.com, you're really using HTTP protocol (`http://`) to submit a GET request to the resource available on a web server. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
 
-<img src="{{ "/images_api/restapi_www.svg" | prepend: site.baseurl }}" alt="Web as REST API" />
+{% unless site.target == "pdf" %}
+<img src="images_api/restapi_www.svg" alt="Web as REST API" />
+{% endunless %}
 
-You can see this response in cURL if you open a Terminal prompt and type `curl http://idratherbewriting.com`. 
+{% if site.target == "pdf" %}
+<img src="images_api/restapi_www.png" alt="Web as REST API" />
+{% endif %}
+
+You can see this response in cURL if you open a Terminal prompt and type `curl http://idratherbewriting.com`.
 
 Because the web itself is an example of RESTful style architecture, the way REST APIs work will likely become second nature to you.
 
 ### REST APIs are stateless and cacheable
 
-Some additional features of REST APIs are that they are stateless and cacheable. Stateless means that each time you access a resource through an endpoint, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each request. 
+Some additional features of REST APIs are that they are stateless and cacheable. Stateless means that each time you access a resource through an endpoint, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each request.
 
-The responses can also be cached in order to increase the performance. If the browser's cache already contains the information asked for in the request, the browser can simply return the information from the cache instead of getting the resource from the server again. 
+The responses can also be cached in order to increase the performance. If the browser's cache already contains the information asked for in the request, the browser can simply return the information from the cache instead of getting the resource from the server again.
 
 Caching with REST APIs is similar to caching on web pages. The browser uses the last-modified-time value in the HTTP headers to determine if it needs to get the resource again. If the content hasn't been modified since the last time it was retrieved, the cached copy can be used instead. This increases the speed of the response.
 
@@ -130,7 +136,7 @@ Understanding REST at a higher, more theoretical level isn't my goal here, nor i
 
 ### REST APIs don't use WSDL files, but some specs exist
 
-An important aspect of REST APIs, especially in terms of documentation, is that they don't use a WSDL file to describe the elements and parameters allowed in the requests and responses. 
+An important aspect of REST APIs, especially in terms of documentation, is that they don't use a WSDL file to describe the elements and parameters allowed in the requests and responses.
 
 Although there is a possible WADL (Web Application Description Language) file that can be used to describe REST APIs, they're rarely used since the WADL files don't adequately describe all the resources, parameters, message formats, and other attributes the REST API. (Remember that the REST API is an architectural style, not a standardized protocol.)
 
@@ -140,8 +146,6 @@ Some formal specifications &mdash; for example, Swagger (also called OpenAPI) an
 
 The Swagger or RAML output can take the place of the WSDL file that was more common with SOAP. These spec-driven outputs are usually interactive (featuring API Consoles or API Explorers) and allow you to try out REST calls and see responses directly in the documentation.
 
-But don't expect Swagger UI or RAML API Console documentation outputs to include all the details users would need to work with your API (for example, how to include authorization keys, details about workflows and interdependencies between endpoints, and so on). The Swagger or RAML output usually contains reference documentation only, which typically only accounts for part of the total needed documentation. 
+But don't expect Swagger UI or RAML API Console documentation outputs to include all the details users would need to work with your API (for example, how to include authorization keys, details about workflows and interdependencies between endpoints, and so on). The Swagger or RAML output usually contains reference documentation only, which typically only accounts for part of the total needed documentation.
 
 Overall, REST APIs are more varied and flexible than SOAP, and you almost always need to read the documentation in order to understand how to interact with a REST API. As you explore REST APIs, you will find that they differ greatly from one to another (especially the format and display of their documentation sites), but they all share the common patterns outlined here. At the core of any REST API is a request and response.
-
-

@@ -3,7 +3,7 @@ title: Documenting response and error codes
 permalink: /docapis_doc_response_codes/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.6
 type: notes_docapis
@@ -12,7 +12,7 @@ type: notes_docapis
 
 ## Response codes let you know the status of the request
 
-Remember when we submitted the cURL call back in <a href="{{ "/docapis_make_curl_call" | prepend: site.baseurl }}">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
+Remember when we submitted the cURL call back in <a href="/docapis_make_curl_call">an earlier lesson</a>? We submitted a cURL call and specified that we wanted to see the response headers (`--include` or `-i`):
 
 ```bash
   curl --get -include 'https://simple-weather.p.mashape.com/aqi?lat=37.354108&lng=-121.955236' \-H 'X-Mashape-Key: APIKEY' \
@@ -35,14 +35,14 @@ Connection: keep-alive
 
 The first line, `HTTP/1.1 200 OK`, tells us the status of the request. (If you change the method, you'll get back a different status code.)
 
-With a GET request, it's pretty easy to tell if the request is successful or not because you get back something in the response. 
+With a GET request, it's pretty easy to tell if the request is successful or not because you get back something in the response.
 
 But suppose you're making a POST, PUT, or DELETE call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API?
 
 HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
 
 ## Common status codes follow standard protocols
-Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the Mashape Weather API developers. `200` is a universally accepted code for a successful HTTP request. 
+Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the Mashape Weather API developers. `200` is a universally accepted code for a successful HTTP request.
 
 You can see a list of common [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) and a [general list of HTTP status codes here](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 ).
@@ -51,11 +51,11 @@ You can see a list of common [REST API status codes here](http://www.restapituto
 
 Most APIs should have a general page listing response and error codes across the entire API. Twitter's API has a good example of the possible status and error codes you will receive when making requests:
 
-<a href="https://dev.twitter.com/overview/api/response-codes"><img src="{{ "/images_api/twitterstatuscode.png" | prepend: site.baseurl }}" alt="Twitter API status codes" /></a>
+<a href="https://dev.twitter.com/overview/api/response-codes"><img src="images_api/twitterstatuscode.png" alt="Twitter API status codes" /></a>
 
 In contrast, with the Flickr API, each "method" (endpoint) lists error codes:
 
-<a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="{{ "/images_api/flickrerrorcodes.png" | prepend: site.baseurl }}" alt="Flickr API" /></a>
+<a href="https://www.flickr.com/services/api/flickr.galleries.getPhotos.html"><img src="images_api/flickrerrorcodes.png" alt="Flickr API" /></a>
 
 Either location has merits, but my preference is a single centralized page for the entire API because listing them out on each endpoint page would add a lot of extra repeated words on each page.
 
@@ -68,13 +68,13 @@ For example, if you exceed the rate limit for a specific all, the API might retu
 
 In the Flattr API, sometimes endpoints return particular status codes. For example, when you "Check if a thing exists," the response includes `HTTP/1.1 302 Found` when the object is found. This is a standard HTTP response. If it's not found, you see a 404 status code.
 
-<a href="http://developers.flattr.net/api/resources/things/#update-a-thing"><img src="{{ "/images_api/flattrnotfound.png" | prepend: site.baseurl }}" alt="Not found status code" /></a>
+<a href="http://developers.flattr.net/api/resources/things/#update-a-thing"><img src="images_api/flattrnotfound.png" alt="Not found status code" /></a>
 
-If the status code is specific to a particular endpoint, you can include it with that endpoint's documentation. 
+If the status code is specific to a particular endpoint, you can include it with that endpoint's documentation.
 
 Alternatively, you can have a general status and error codes page that lists all possible codes for all the endpoints. For example, with the Dropbox API, the writers list out the error codes related to the API:
 
-<a href="https://www.dropbox.com/developers/core/docs"><img src="{{ "/images_api/apierrorsdropbox.png" | prepend: site.baseurl }}" alt="" /></a>
+<a href="https://www.dropbox.com/developers/core/docs"><img src="images_api/apierrorsdropbox.png" alt="Dropbox API example with errors" /></a>
 
 In particular, you should look for codes that return when there is an error, since this information helps developers troubleshoot problems.
 
@@ -111,4 +111,3 @@ A section on troubleshooting could list possible error messages users get when t
 * A required parameter is absent from the endpoint
 
 Where possible, document the exact text of the error in the documentation so that it easily surfaces in searches.
-

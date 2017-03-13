@@ -17,13 +17,13 @@ Here's a sample to get a sense of the syntax:
 ```
 ## Heading 2
 
-This is a bulleted list: 
+This is a bulleted list:
 
 * first item
 * second item
 * third item
 
-This is a numbered list: 
+This is a numbered list:
 
 1. Click this **button**.
 2. Go to [this site](http://www.example.com).
@@ -43,11 +43,11 @@ In contrast, DITA is a committee-based XML architecture derived from a committee
 
 ## Why developers love Markdown
 
-In many development tools you use for publishing documentation, many of them will use Markdown. For example, Github uses Markdown. If you upload files containing Markdown and use an md file extension, Github will render the Markdown into HTML. 
+In many development tools you use for publishing documentation, many of them will use Markdown. For example, Github uses Markdown. If you upload files containing Markdown and use an md file extension, Github will render the Markdown into HTML.
 
 Markdown has appeal especially by developers for a number of reasons:
 
-* You can work in text-file format using your favorite code editor. 
+* You can work in text-file format using your favorite code editor.
 * You can treat the Markdown files with the same workflow and routing as code.
 * Markdown is easy to learn.
 
@@ -55,7 +55,8 @@ Markdown has appeal especially by developers for a number of reasons:
 
 Although you can also work with DITA in a text editor, it's a lot harder to read the code with all the XML tag syntax. For example, look at the tags required by DITA for a simple instruction about printing a page:
 
-{% highlight xml %}<task id="task_mhs_zjk_pp">
+```xml
+<task id="task_mhs_zjk_pp">
     <title>Printing a page</title>
     <taskbody>
 <steps>
@@ -71,21 +72,22 @@ Although you can also work with DITA in a text editor, it's a lot harder to read
 </steps>
     </taskbody>
 </task>
-{% endhighlight %}
+```
 
-Now compare the same syntax with Markdown: 
+Now compare the same syntax with Markdown:
 
-{% highlight bash %}
+
+```markdown
 ## Print a page
 1. Go to **File > Print**.
 2. Click the **Print** button.
-{% endhighlight %}
+```
 
-Although you can read the XML and get used to it, most people who write in XML use specialized XML editors (like OxygenXML) that make the raw text more readable. Or simply by working in XML all day, you get used to working with all the tags. 
+Although you can read the XML and get used to it, most people who write in XML use specialized XML editors (like OxygenXML) that make the raw text more readable. Or simply by working in XML all day, you get used to working with all the tags.
 
 But if you send a developer an XML file, they probably won't be familiar with all the tags, nor the nesting schema of the tags. For whatever reason, developers tend to be allergic to XML.
 
-In contrast, Markdown allows you to easily read it and work with it in a text editor. 
+In contrast, Markdown allows you to easily read it and work with it in a text editor.
 
 {{tip}}Most text editors (for example, Sublime Text or Webstorm or Atom) have Markdown plugins/extensions that will create syntax highlighting based on Markdown tags.{{end}}
 
@@ -109,7 +111,7 @@ Markdown has a few drawbacks:
 
 ## Markdown has different flavors
 
-Whatever system you adopt, if it uses Markdown, make sure you understand what type of Markdown it supports. There are two components to Markdown. First is the processor that converts the Markdown into HTML. Some processors include Red Carpet, [Kramdown](http://kramdown.gettalong.org/), Pandoc, Discount, and more. 
+Whatever system you adopt, if it uses Markdown, make sure you understand what type of Markdown it supports. There are two components to Markdown. First is the processor that converts the Markdown into HTML. Some processors include Red Carpet, [Kramdown](http://kramdown.gettalong.org/), Pandoc, Discount, and more.
 
 Beyond the processor, you need to know which type of Markdown the processor supports. Some examples include basic Markdown, Github-flavored Markdown, Multimarkdown, and others.
 
@@ -124,7 +126,7 @@ Take a look at the following Markdown content. Try to identify the various Markd
 <pre>
 # surfreport/{beachId}
 
-Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing. 
+Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing.
 
 `{beachId}` refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.
 
@@ -134,21 +136,21 @@ Returns information about surfing conditions at a specific beach ID, including t
 
 ## HTTP method
 
-&lt;span class="label label-primary"&gt;GET&lt;/span&gt; 
+&lt;span class="label label-primary"&gt;GET&lt;/span&gt;
 
 ## Parameters
 
-| Parameter | Description | Data Type | 
+| Parameter | Description | Data Type |
 |-----------|------|-----|-----------|
-| days | *Optional*. The number of days to include in the response. Default is 3. | integer | 
+| days | *Optional*. The number of days to include in the response. Default is 3. | integer |
 | units | *Optional*. Whether to return the values in imperial or metric measurements. Imperial will use feet, knots, and fahrenheit. Metric will use centimeters, kilometers per hour, and celsius. | string |
 | time | *Optional*. If you include the time, then only the current hour will be returned in the response.| integer. Unix format (ms since 1970) in UTC. |
 
 ## Sample request
 
 ```
-curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000' 
-  -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET' 
+curl --get --include 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&days=1&time=1433772000'
+  -H 'X-Mashape-Key: WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET'
   -H 'Accept: application/json'
 ```
 
@@ -191,20 +193,20 @@ The following table describes each item in the response.
 
 |Response item | Description |
 |----------|------------|
-| **beach** | The beach you selected based on the beach ID in the request. The beach name is the official name as described in the National Park Service Geodatabase. | 
-| **{day}** | The day of the week selected. A maximum of 3 days get returned in the response. | 
-| **{time}** | The time for the conditions. This item is only included if you include a time parameter in the request. | 
-| **{day}/{time}/tide** | The level of tide at the beach for a specific day and time. Tide is the distance inland that the water rises to, and can be a positive or negative number. When the tide is out, the number is negative. When the tide is in, the number is positive. The 0 point reflects the line when the tide is neither going in nor out but is in transition between the two states. | 
-| **{day}/{time}/wind** | The wind speed at the beach, measured in knots per hour or kilometers per hour depending on the units you specify. Wind affects the surf height and general wave conditions. Wind speeds of more than 15 knots per hour make surf conditions undesirable, since the wind creates white caps and choppy waters. | 
+| **beach** | The beach you selected based on the beach ID in the request. The beach name is the official name as described in the National Park Service Geodatabase. |
+| **{day}** | The day of the week selected. A maximum of 3 days get returned in the response. |
+| **{time}** | The time for the conditions. This item is only included if you include a time parameter in the request. |
+| **{day}/{time}/tide** | The level of tide at the beach for a specific day and time. Tide is the distance inland that the water rises to, and can be a positive or negative number. When the tide is out, the number is negative. When the tide is in, the number is positive. The 0 point reflects the line when the tide is neither going in nor out but is in transition between the two states. |
+| **{day}/{time}/wind** | The wind speed at the beach, measured in knots per hour or kilometers per hour depending on the units you specify. Wind affects the surf height and general wave conditions. Wind speeds of more than 15 knots per hour make surf conditions undesirable, since the wind creates white caps and choppy waters. |
 | **{day}/{time}/watertemp** | The temperature of the water, returned in Farenheit or Celsius depending upon the units you specify. Water temperatures below 70 F usually require you to wear a wetsuit. With temperatures below 60, you will need at least a 3mm wetsuit and preferably booties to stay warm.|
-| **{day}/{time}/surfheight** | The height of the waves, returned in either feet or centimeters depending on the units you specify. A surf height of 3 feet is the minimum size needed for surfing. If the surf height exceeds 10 feet, it is not safe to surf. | 
-| **{day}/{time}/recommendation** | An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) "Go surfing!", (2) "Surfing conditions are okay, not great", and (3) "Not a good day for surfing." Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yields response 3. | 
+| **{day}/{time}/surfheight** | The height of the waves, returned in either feet or centimeters depending on the units you specify. A surf height of 3 feet is the minimum size needed for surfing. If the surf height exceeds 10 feet, it is not safe to surf. |
+| **{day}/{time}/recommendation** | An overall recommendation based on a combination of the various factors (wind, watertemp, surfheight). Three responses are possible: (1) "Go surfing!", (2) "Surfing conditions are okay, not great", and (3) "Not a good day for surfing." Each of the three factors is scored with a maximum of 33.33 points, depending on the ideal for each element. The three elements are combined to form a percentage. 0% to 59% yields response 3, 60% - 80% and below yields response 2, and 81% to 100% yields response 3. |
 
 ## Error and status codes
 
 The following table lists the status and error codes related to this request.
 
-| Status code | Meaning | 
+| Status code | Meaning |
 |--------|----------|
 | 200 | Successful response |
 | 400 | Bad request -- one or more of the parameters was rejected. |
@@ -223,34 +225,34 @@ The following code samples shows how to use the surfreport endpoint to get the s
   &lt;title&gt;API Weather Query&lt;/title&gt;
   &lt;script&gt;
 
-  function getSurfReport() { 
+  function getSurfReport() {
 
 // use AJAX to avoid CORS restrictions in API calls.
  var output = $.ajax({
-    url: 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&amp;days=1&amp;time=1433772000', 
-    type: 'GET', 
-    data: {}, 
+    url: 'https://simple-weather.p.mashape.com/surfreport/123?units=imperial&amp;days=1&amp;time=1433772000',
+    type: 'GET',
+    data: {},
     dataType: 'json',
     success: function(data) {
         //Here we pull out the recommendation from the JSON object.
         //To see the whole object, you can output it to your browser console using console.log(data);
-        document.getElementById(&quot;output&quot;).innerHTML = data.surfreport[0].monday.2pm.recommendation; 
+        document.getElementById(&quot;output&quot;).innerHTML = data.surfreport[0].monday.2pm.recommendation;
         },
     error: function(err) { alert(err); },
     beforeSend: function(xhr) {
     xhr.setRequestHeader(&quot;X-Mashape-Authorization&quot;, &quot;WOyzMuE8c9mshcofZaBke3kw7lMtp1HjVGAjsndqIPbU9n2eET&quot;); // Enter here your Mashape key
     }
 });
-	
+
 }
- 
+
 &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-	
+
   &lt;button onclick=&quot;getSurfReport()&quot;&gt;See the surfing recommendation&lt;/button&gt;
   &lt;div id=&quot;output&quot;&gt;&lt;/div&gt;
-  
+
 &lt;/body&gt;
 &lt;/html&gt;
 ```
@@ -270,4 +272,3 @@ On your Github wiki page, edit the page and create the following:
 * a bold word
 * a code sample with html highlighting
 * a table
-

@@ -18,7 +18,7 @@ Whereas the endpoint documentation explains how to use each of the endpoints, yo
 
 In Mulesoft's API tooling, you can see some other sections common to API documentation:
 
-<a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api"><img src="{{ "/images_api/commonsections.png" | prepend: site.baseurl }}" alt="Common sections in API documentation" /></a>
+<a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api"><img src="images_api/commonsections.png" alt="Common sections in API documentation" /></a>
 
 Although this is the Yahoo Weather API page, all APIs using the Mulesoft platform have this same template. 
 

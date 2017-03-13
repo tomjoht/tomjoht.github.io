@@ -8,7 +8,7 @@ weight: 5.7
 {% include notes.html %}
 ## API Blueprint is another spec
 
-Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)). If you describe your API with this blueprint, then different tools can read and display the information. 
+Just as Swagger defines a spec for describing a REST API, API Blueprint is another spec (which you can [read here](https://github.com/apiaryio/api-blueprint/blob/master/API%20Blueprint%20Specification.md)). If you describe your API with this blueprint, then different tools can read and display the information.
 
 The API Blueprint spec is written in a Markdown-flavored syntax. It's not normal Markdown, but it has a lot of the same, familiar Markdown syntax. However, the blueprint is clearly a very specific schema that is either valid or not valid based on the element names, order, spacing, and other details. In this way, it's not nearly as flexible or forgiving as pure Markdown. But it may be preferable to YAML.
 
@@ -217,57 +217,57 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 ### a. Create a new Apiary project
 
 1. Go to [apiary.io](https://apiary.io/) and click **Quick start with Github**. Sign in with your Github account. (If you don't have a Github account, create one first.)
-2. Sign up for a free hacker account and create a new project. 
-	
-	You'll be placed in the API Blueprint editor. 
-	
-	<img src="{{ "/images_api/apiaryblueprinteditor.png" | prepend: site.baseurl }}" alt="API Blueprint editor" />
-	
-	By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
-	
-3. At this point, you would start describing your API using the blueprint syntax in the editor. When you make a mistake, error flags indicate what's wrong. 
-	
-	You can [read the Apiary tutorial](https://apiary.io/blueprint) and structure your documentation in the blueprint format. The syntax seems to accommodate different methods applied to the same resources. 
+2. Sign up for a free hacker account and create a new project.
 
-	For this tutorial, you'll integrate the Mashape weather API information info formatted in the blueprint format. 
-	
+	You'll be placed in the API Blueprint editor.
+
+	<img src="images_api/apiaryblueprinteditor.png" alt="API Blueprint editor" />
+
+	By default the Polls blueprint is loaded so you can see how it looks. This blueprint gives you an example of the required format for the Apiary tool to parse and display the content. You can also see the [raw file here](https://raw.githubusercontent.com/apiaryio/api-blueprint/master/examples/Polls%20API.md).
+
+3. At this point, you would start describing your API using the blueprint syntax in the editor. When you make a mistake, error flags indicate what's wrong.
+
+	You can [read the Apiary tutorial](https://apiary.io/blueprint) and structure your documentation in the blueprint format. The syntax seems to accommodate different methods applied to the same resources.
+
+	For this tutorial, you'll integrate the Mashape weather API information info formatted in the blueprint format.
+
 4. Copy the following code, which aligns with the API Blueprint spec, and paste it into the Apiary blueprint editor.
-	
+
    ```
 	FORMAT: 1A
 	HOST: https://simple-weather.p.mashape.com
-	
+
 	# Weather API
-	
+
 	Display Weather forecast data by latitude and longitude. Get raw weather data OR simple label description of weather forecast of some places.
-	
+
 	# Weather API Root [/]
-	
+
 	# Group Weather
-	
+
 	Resources related to weather in the API.
-	
+
 	## Weather data [/weatherdata{?lat,lng}]
-	
+
 	### Get the weather data [GET]
-	
+
 	Get the weather data in your area.
-	
+
 	+ Parameters
 	    + lat: 55.749792 (required, number) - Latitude
 	    + lng: 37.632495 (required, number) - Longitude
-	
+
 	+ Request JSON Message
-	
+
 	    + Headers
-	    
+
 	            X-Mashape-Authorization: APIKEY
 	            Accept: text/plain
-	
+
 	+ Response 200 (application/json)
-	            
+
 	    + Body
-	    
+
 	            [
 	                {
 	              "query": {
@@ -380,25 +380,18 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
 	              }
 	            }
 	            ]
-	              
+
    ```
 	
-	{{note}} If the code isn't easy to copy and paste, you can <a href="{{ "/files/publishingapidocs/apiblueprintweatherdata.md" | prepend: site.baseurl }}">view and download the file here</a>.{{end}}
-	
+	{{note}} If the code isn't easy to copy and paste, you can <a href="http://idratherbewriting.com/files/publishingapidocs/apiblueprintweatherdata.md">view and download the file here</a>.{{end}}
+
 5. Click **Save and Publish**.
 
 ### b. Interact with the API on Apiary
 
-In the Apiary's top navigation, click **Documentation**. Then interact with the API on Apiary by clicking **Switch to Console**. Call the resources and view the responses. 
+In the Apiary's top navigation, click **Documentation**. Then interact with the API on Apiary by clicking **Switch to Console**. Call the resources and view the responses.
 
-You can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key. This dual display &mdash; both the Example and the Console views &mdash; might align better with user needs: 
+You can switch between an Example and a Console view in the documentation. The Example view shows pre-built responses. The Console view allows you to enter your own values and generate dynamic responses based on your own API key. This dual display &mdash; both the Example and the Console views &mdash; might align better with user needs:
 
-* For users who might not have good data or might not want to make requests that would affect their data, they can view the Example. 
+* For users who might not have good data or might not want to make requests that would affect their data, they can view the Example.
 * For users who want to see how the API specifically returns their data, or certain parameters, they can use the Console view.
-
-
-
-
-
-
-

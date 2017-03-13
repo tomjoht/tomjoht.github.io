@@ -65,7 +65,7 @@ curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=1.3319164&
 
 You should get back a two-digit number in the response. (This is the "air quality index" for the weather.)
 
-{{tip}}If you're on Windows 8.1 and you encounter an error that says, "The program can’t start because MSVCR100.dll is missing from your computer," see <a href="http://www.faqforge.com/windows/fix-the-program-cant-start-because-msvcr100-dll-is-missing-from-your-computer-error-on-windows/">this article</a> and install the suggested package.{{end}}
+{{tip}}If you're on Windows 8.1 and you encounter an error that says, "The program can't start because MSVCR100.dll is missing from your computer," see <a href="http://www.faqforge.com/windows/fix-the-program-cant-start-because-msvcr100-dll-is-missing-from-your-computer-error-on-windows/">this article</a> and install the suggested package.{{end}}
 
 ## Notes about using cURL with Windows
 

@@ -1,12 +1,13 @@
 ---
 title: Documenting authentication and authorization
 permalink: /docapis_more_about_authorization/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.5
 type: notes_docapis
 ---
 {% include notes.html %}
+
 ## Authentication and authorization overview
 
 Before users can make requests with your API, they'll usually need to register for some kind of application key, or learn other ways to authenticate the requests.
@@ -58,7 +59,7 @@ One type of authorization is called Basic Auth. With this method, the sender pla
 Authorization: Basic bG9sOnNlY3VyZQ==
 ```
 
-APIs that use Basic Auth will also use HTTPS, which means the message content will be encrypted within the HTTP transport protocol. (Without HTTPS, it would be easy for people to decode the username and password.) 
+APIs that use Basic Auth will also use HTTPS, which means the message content will be encrypted within the HTTP transport protocol. (Without HTTPS, it would be easy for people to decode the username and password.)
 
 When the API server receives the message, it decrypts the message and examines the header. After decoding the string and analyzing the username and password, it then decides whether to accept or reject the request.
 
@@ -78,19 +79,25 @@ Postman handles the Base64 encoding for you automatically when you enter a usern
 
 ## HMAC (Hash-based message authorization code)
 
-HMAC stands for Hash-based message authorization code and is a stronger type of authentication. 
+HMAC stands for Hash-based message authorization code and is a stronger type of authentication.
 
-With HMAC, both the sender and receiver know a secret key that no one else does. The sender creates a message based on some system properties (for example, the request timestamp plus account ID). 
+With HMAC, both the sender and receiver know a secret key that no one else does. The sender creates a message based on some system properties (for example, the request timestamp plus account ID).
 
 The message is then encoded by the secret key and passed through a secure hashing algorithm (SHA). (A hash is a scramble of a string based on an algorithm.) The resulting value, referred to as a signature, is placed in the request header.
 
-When the receiver (the API server) receives the request, it takes the same system properties (the request timestamp plus account ID) and uses the secret key (which only the requester and API server know) and SHA to generate the same string. 
+When the receiver (the API server) receives the request, it takes the same system properties (the request timestamp plus account ID) and uses the secret key (which only the requester and API server know) and SHA to generate the same string.
 
 If the string matches the signature in the request header, it accepts the request. If the strings don't match, then the request is rejected.
 
 Here's a diagram depicting this workflow:
 
-<img src="{{ "/images_api/restapi_hmac.svg" | prepend: site.baseurl }}" alt="HMAC workflow" />
+{% unless site.target == "pdf" %}
+<img src="images_api/restapi_hmac.svg" alt="HMAC workflow" />
+{% endunless %}
+
+{% if site.target == "pdf" %}
+<img src="images_api/restapi_hmac.png" alt="HMAC workflow" />
+{% endif %}
 
 The important point is that the secret key (critical to reconstructing the hash) is known only to the sender and receiver. The secret key is not included in the request.
 
@@ -98,9 +105,9 @@ HMAC security is used when you want to ensure the request is both authentic and 
 
 ## OAuth 2.0
 
-One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when  you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook. 
+One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when  you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook.
 
-<img src="{{ "/images_api/oauthwindow.png" | prepend: site.baseurl }}" alt="OAuth login window" />
+<img src="images_api/oauthwindow.png" alt="OAuth login window" />
 
 There are a few varieties of OAuth &mdash; namely, "one-legged OAuth" and "three-legged OAuth." One-legged OAuth is used when you don't have sensitive data to secure. This might be the case if you're just retrieving general, read-only information (such as news articles).
 
@@ -112,7 +119,13 @@ In contrast, three-legged OAuth is used when you need to protect sensitive data.
 
 Here's the basic workflow of OAuth 2.0:
 
-<img src="{{ "/images_api/restapi_oauth.svg" | prepend: site.baseurl }}" alt="OAuth workflow" />
+{% unless site.target == "pdf" %}
+<img src="images_api/restapi_oauth.svg" alt="OAuth workflow" />
+{% endunless %}
+
+{% if site.target == "pdf" %}
+<img src="images_api/restapi_oauth.png" alt="OAuth workflow" />
+{% endif %}
 
 First the consumer application sends over an application key and secret to a login page at the authentication server. If authenticated, the authentication server responds to the user with an access token.
 
@@ -150,7 +163,7 @@ Since the API keys section is usually essential before developers can start usin
 
 Here's a screenshot from SendGrid's documentation on API keys:
 
-<a style="max-width: 700px;" href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="{{ "/images_api/sendgridapikeys.png" | prepend: site.baseurl }}" alt="SendGrid API Keys" /></a>
+<a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="images_api/sendgridapikeys.png" alt="SendGrid API Keys" /></a>
 
 ## Include information on rate limits
 Whether in the authorization keys or another section, you should list any applicable rate limits to the API calls. Rate limits determine how frequently you can call a particular endpoint. Different tiers and licenses may have different capabilities or rate limits.
@@ -159,4 +172,4 @@ If your site has hundreds of thousands of visitors a day, and each page reload c
 
 Here's a great example of the rate limits section from the Github API:
 
-<a  style="max-width: 700px;" href="https://developer.github.com/v3/#rate-limiting"><img src="{{ "/images_api/githubratelimiting.png" | prepend: site.baseurl }}" alt="Rate limiting section from Github" /></a>
+<a href="https://developer.github.com/v3/#rate-limiting"><img src="images_api/githubratelimiting.png" alt="Rate limiting section from Github" /></a>

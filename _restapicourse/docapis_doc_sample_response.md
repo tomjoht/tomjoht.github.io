@@ -3,7 +3,7 @@ title: Documenting sample responses
 permalink: /docapis_doc_sample_responses/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 2.9
 type: notes_docapis
@@ -12,11 +12,11 @@ type: notes_docapis
 
 ## Provide a sample response for the endpoint
 
-It's important to provide a sample response from the endpoint. This lets developers know if the endpoint contains the information they want, and how that information is labeled. 
+It's important to provide a sample response from the endpoint. This lets developers know if the endpoint contains the information they want, and how that information is labeled.
 
 Here's an example from Flattr's API. In this case, the response actually includes the response header as well as the response body:
 
-<a href="http://developers.flattr.net/api/resources/activities/"><img src="{{ "/images_api/flattr.png" | prepend: site.baseurl }}" alt="" /></a>
+<a href="http://developers.flattr.net/api/resources/activities/"><img src="images_api/flattr.png" alt="Flattr example" /></a>
 
 If the header information is important, include it. Otherwise, leave it out.
 
@@ -28,7 +28,7 @@ If the labels in the response are abbreviated or non-intuitive, however, you def
 
 Additionally, if you're documenting some of the response items but not others, the doc will look inconsistent.
 
-One of the problems with the Mashape Weather API is that it doesn't describe the meaning of the responses. If the air quality index is `25`, is that a good or bad value when compared to `65`? What is the scale based on? 
+One of the problems with the Mashape Weather API is that it doesn't describe the meaning of the responses. If the air quality index is `25`, is that a good or bad value when compared to `65`? What is the scale based on?
 
 Does each city/country define its own index? Does a high number indicate a poor quality of air or a high quality? How does air quality differ from air pollution? These are the types of answers one would hope to learn in a description of the responses.
 
@@ -36,29 +36,29 @@ Does each city/country define its own index? Does a high number indicate a poor 
 
 Many times the response contains nested objects (objects within objects). Here Dropbox represents the nesting with a slash. For example, `team/name` provides the documentation for the `name` object within the `team` object.
 
-<a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="{{ "/images_api/returnvaluedefinitions.png" | prepend: site.baseurl }}" alt="" /></a>
+<a href="https://www.dropbox.com/developers/core/docs#disable-token"><img src="images_api/returnvaluedefinitions.png" alt="Dropbox nested example" /></a>
 
 {{tip}} Notice how the response values are in a monospaced font while the descriptions are in a regular font? This helps improve the readability. {{end}}
 
 Other APIs will nest the response definitions to imitate the JSON structure. Here's an example from bit.ly's API:
 
-<a href="http://dev.bitly.com/user_info.html"><img src="{{ "/images_api/bitlyresponsedoc.png" | prepend: site.baseurl }}" alt="Bitly response" /></a>
+<a href="http://dev.bitly.com/user_info.html"><img src="images_api/bitlyresponsedoc.png" alt="Bitly response" /></a>
 
 The indented approach with different levels of bullets can be an eyesore, so I recommend avoiding it.
 
 In [Peter Gruenbaum's API tech writing course on Udemy](https://www.udemy.com/api-documentation-1-json-and-xml/), he also represents the nested objects using tables:
 
-<a href="http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/"><img src="{{ "/images_api/gruenbaumtable.png" | prepend: site.baseurl }}" alt="Peter Gruenbaum course" /></a>
+<a href="http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/"><img src="images_api/gruenbaumtable.png" alt="Peter Gruenbaum course" /></a>
 
 Gruenbaum's use of tables is mostly to reduce the emphasis on tools and place it more on the content.
 
 eBay's approach is a little more unique:
 
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/ebayexampleresponse.png" | prepend: site.baseurl }}" alt="eBay example response" /></a>
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="images_api/ebayexampleresponse.png" alt="eBay example response" /></a>
 
 For example, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`. (Note also that this response is in XML instead of JSON.)
 
-<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="{{ "/images_api/ebaycode.png" | prepend: site.baseurl }}" alt="" /></a>
+<a href="http://developer.ebay.com/Devzone/shopping/docs/CallRef/FindPopularItems.html"><img src="images_api/ebaycode.png" alt="eBay nested example" /></a>
 
 It's also interesting how much detail eBay includes for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.
 
@@ -68,13 +68,13 @@ It's also interesting how much detail eBay includes for each item. Whereas the T
 
 Some APIs collapse the response into a show/hide toggle to save space. Others put the response in a right column so you can see it while also looking at the endpoint description and parameters. Stripe's API made this tri-column design famous:
 
-<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images_api/stripetripanedesign.png" | prepend: site.baseurl }}" alt="Stripe's tri-column design" /></a>
+<a href="https://stripe.com/docs/api#charge_object"><img src="images_api/stripetripanedesign.png" alt="Stripe's tri-column design" /></a>
 
 A lot of APIs have modeled their design after Stripe's. (For example, see <a href="https://github.com/tripit/slate">Slate</a> or <a href="http://readme.io">readme.io</a>.)
 
-To represent the child objects, Stripe uses an expandable section under the parent (see the "Hide Child Attributes" link in the screenshot above). 
+To represent the child objects, Stripe uses an expandable section under the parent (see the "Hide Child Attributes" link in the screenshot above).
 
-I'm not sure that the tripane column is so usable. The original idea of the design was to allow you to see the response and description at the same time, but when the description is lengthy (such as is the case with `source`), it creates unevenness in the juxtaposition. 
+I'm not sure that the tripane column is so usable. The original idea of the design was to allow you to see the response and description at the same time, but when the description is lengthy (such as is the case with `source`), it creates unevenness in the juxtaposition.
 
 Many times in Stripe's documentation, the descriptions aren't in the same viewing area as the sample response, so what's the point of arranging them side by side? It splits the viewer's focus and causes more up and down scrolling.
 
@@ -82,9 +82,9 @@ Many times in Stripe's documentation, the descriptions aren't in the same viewin
 
 The response should contain realistic values. If developers give you a sample response, make sure each of the possible items that can be included are shown. The values for each should be reasonable (not bogus test data that looks corny).
 
-## Format the JSON in a readable way 
+## Format the JSON in a readable way
 
-Use proper JSON formatting for the response. A tool such as [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) can make sure the spacing is correct. 
+Use proper JSON formatting for the response. A tool such as [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) can make sure the spacing is correct.
 
 ## Add syntax highlighting
 If you can add syntax highlighting as well, definitely do it. One good Python-based syntax highlighter is [Pygments](http://pygments.org/). This highlighter relies on "lexers" to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`. A non-python-based equivalent to Pygments is Rouge.
@@ -93,9 +93,9 @@ Since your tool and platform dictate the syntax highlighting options available, 
 
 ## Embedding dynamic responses
 
-Sometimes responses are generated dynamically based on API calls to a test system. For example, look at the [Rhapsody API](https://developer.rhapsody.com/api) and click an endpoint &mdash; it appears to be generated dynamically. 
+Sometimes responses are generated dynamically based on API calls to a test system. For example, look at the [Rhapsody API](https://developer.rhapsody.com/api) and click an endpoint &mdash; it appears to be generated dynamically.
 
-At one company I worked for, we had a test system we used to generate the responses. It was important that the test system had the right data to create good responses. You don't want a bunch of null or missing items in the response. 
+At one company I worked for, we had a test system we used to generate the responses. It was important that the test system had the right data to create good responses. You don't want a bunch of null or missing items in the response.
 
 However, once the test system generated the responses, those responses were imported into the documentation through a script.
 
@@ -107,7 +107,7 @@ In addition to using standard tables to document JSON responses, you can also im
 
 In my [documentation theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll), I tried an approach to documenting JSON that uses a jQuery plugin called ScrollTo. You can [see it here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html):
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html"><img src="{{ "/images_api/scrollto-550x310.png" | prepend: site.baseurl }}" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_scroll.html"><img src="images_api/scrollto-550x310.png" alt="Scrollto"  style="border:1px solid #dedede;"/></a>
 
 When you click on an item in the JSON object, the right-pane scrolls to the item's description. I like this approach, though I've not really seen it done in other API documentation sites.
 
@@ -119,7 +119,7 @@ Also, this approach doesn't allow for easy scanning. However, this scrolling vie
 
 In Stripe's API documentation, the writers try to juxtapose the responses in a right side pane with the documentation in the main window.
 
-<a href="https://stripe.com/docs/api#charge_object"><img src="{{ "/images_api/stripe-550x373.png" | prepend: site.baseurl }}" alt="Stripe" style="border:1px solid #dedede;"/> </a>
+<a href="https://stripe.com/docs/api#charge_object"><img src="images_api/stripe-550x373.png" alt="Stripe" style="border:1px solid #dedede;"/> </a>
 
 The idea is that you can see both the description and a sample response at the same time, and just scroll down.
 
@@ -129,7 +129,7 @@ However, the description doesn't always line up with the sample response. (In so
 
 Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this [long response for the post status/retweet endpoint](https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid) in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?
 
-<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="{{ "/images_api/twitternojsondoc.png" | prepend: site.baseurl }}" alt="Twitter" style="border:1px solid #dedede;"/></a>
+<a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid"><img src="images_api/twitternojsondoc.png" alt="Twitter" style="border:1px solid #dedede;"/></a>
 
 Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. However, to reduce the size and increase the speed of the response, developers often resort to shorter terms or use abbreviations. The shorter the term, the more it needs accompanying documentation.
 
@@ -139,7 +139,7 @@ In one endpoint I documented, the response included about 20 different two-lette
 
 When you use [RAML](http://idratherbewriting.com/pubapis_raml/) to document endpoints with JSON objects in the request body, the RAML API Console output looks something like this:
 
-<img src="{{ "/images_api/ramljsonrepresentation.png" | prepend: site.baseurl }}" alt="RAML" />
+<img src="images_api/ramljsonrepresentation.png" alt="RAML" />
 
 Here each body parameter is a named JSON object that has standard values such as `description` and `type`. While this looks a little cleaner initially, it's also somewhat confusing. The actual request body object won't contain `description` and `type` parameters like this, nor would it contain the `schema`, `type`, or `properties` keys either.
 
@@ -149,11 +149,11 @@ Further, this approach doesn't provide an example in context, which is what usua
 
 ### Custom-styled tables
 
-The MYOB Developer Center takes an interesting approach in documenting the JSON in their APIs. They list the JSON structure in a table-like way, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below. 
+The MYOB Developer Center takes an interesting approach in documenting the JSON in their APIs. They list the JSON structure in a table-like way, with different levels of indentation. You can move your mouse over a field for a tooltip description, or you can click it to have a description expand below.
 
 To the right of the JSON definitions is a code sample with real values. When you select a value, both the element in the table and the element in the code sample highlight at the same time.
 
-<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="{{ "/images_api/myobjsondoc.png" | prepend: site.baseurl }}" alt="MYOB JSON doc approach" /></a>
+<a href="http://developer.myob.com/api/accountright/v2/generalledger/account/#GET"><img src="images_api/myobjsondoc.png" alt="MYOB JSON doc approach" /></a>
 
 If you have long JSON objects like this, a custom table with different classes applied to different levels might be the only truly usable solution. It facilitates scanning, and the popover + collapsible approach allows you to compress the table so you can jump to the part you're interested in.
 
@@ -171,7 +171,7 @@ Here's what mine looks like:
 
 The following is a sample response from the <code>surfreport/{beachId}</code> endpoint:
 
-{% highlight json %}
+<pre class="json">
 {
     "surfreport": [
         {
@@ -202,7 +202,7 @@ The following is a sample response from the <code>surfreport/{beachId}</code> en
         }
     ]
 }
-{% endhighlight%}
+</pre>
 
 <p>The following table describes each item in the response.*</p>
 
@@ -248,5 +248,3 @@ The following is a sample response from the <code>surfreport/{beachId}</code> en
 
 <small>*Because this is a fictitious endpoint, I'm making the descriptions up.</small>
 </div>
-
-

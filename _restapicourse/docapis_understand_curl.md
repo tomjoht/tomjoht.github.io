@@ -3,7 +3,7 @@ title: Understand cURL more
 permalink: /docapis_understand_curl/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 1.8
 type: notes_docapis
@@ -12,19 +12,19 @@ type: notes_docapis
 
 ## cURL is a cross-platform way to show requests and responses
 
-Before moving on, let's pause a bit and learn more about cURL. 
+Before moving on, let's pause a bit and learn more about cURL.
 
 One of the advantages of REST APIs is that you can use almost any programming language to call the endpoint. The endpoint is simply a resource located on a web server at a specific path.
 
-Each programming language has a different way of making web calls. Rather than exhausting your energies trying to show how to make web calls in Java, Python, C++, JavaScript, Ruby, and so on, you can just show the call using cURL. 
- 
-cURL provides a generic, language agnostic way to demonstrate HTTP requests and responses. Users can see the format of the request, including any headers and other parameters. Your users can translate this into the specific format for the language they're using. 
+Each programming language has a different way of making web calls. Rather than exhausting your energies trying to show how to make web calls in Java, Python, C++, JavaScript, Ruby, and so on, you can just show the call using cURL.
+
+cURL provides a generic, language agnostic way to demonstrate HTTP requests and responses. Users can see the format of the request, including any headers and other parameters. Your users can translate this into the specific format for the language they're using.
 
 {{important}}Almost every API shows how to interact with the API using cURL.{{end}}
 
 ## REST APIs follow the same model of the web
 
-One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response to a more visual display. But you can also see the raw code. 
+One reason REST APIs are so familiar is because REST follows the same model as the web. When you type an `http` address into a browser address bar, you're telling the browser to make an HTTP request to a resource on a server. The server returns a response, and your browser converts the response to a more visual display. But you can also see the raw code.
 
 ## Try using cURL to GET a web page
 
@@ -49,11 +49,11 @@ When you type an address into a website, you see only the body of the response. 
     The header will be included *above* the body in the response.
 
 2.  To limit the response to just the header, use `-I`:
-    
+
     ```bash
     curl http://example.com -I
     ```
-    
+
     The response header is as follows:
 
     ```
@@ -70,17 +70,17 @@ When you type an address into a website, you see only the body of the response. 
     x-ec-custom-error: 1
     Content-Length: 1270
     ```
-    
+
     The header contains the metadata about the response. All of this information is transferred to the browser whenever you make requests to URLs (that is, when you go to web pages), but the browser doesn't show you this information. You can see it using the Chrome Developer Tools console if you look on the Network tab.
-    
+
 3.  Now let's specify the method. The GET method is the default, but we'll make it explicit here:
-    
+
     ```bash
     curl -X GET http://example.com -I
     ```
-    
+
     When you go to a website, you submit the request using the GET HTTP method. There are other HTTP methods you can use when interacting with REST APIs. Here are the common methods used when working with REST endpoints:
-    
+
     | HTTP Method | Description |
 |-----|------|
 | POST | Create a resource |
@@ -167,14 +167,12 @@ Fill in the blanks to see how much you remember:
 * `-X POST` means...
 * `-d` means...
 
-See the <a href="{{ "/docapis_answers" | prepend: site.baseurl}}#curlParameters">cURL parameters</a> on the answer page to check your responses.
+{% unless site.target == "pdf" %}See the <a href="/docapis_answers#curlParameters">cURL parameters</a> on the answer page to check your responses.{% endunless %}
+
+{% if site.target == "pdf" %}See the <a href="#curlParameters">cURL parameters</a> on the answer page to check your responses.{% endif %}
 
 {{tip}} When you use cURL, the terminal and iTerm on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that <i>just work</i> on a Mac. {{end}}
 
 ## More Resources
 
 To learn more about cURL with REST documentation, see [REST-esting with cURL](http://blogs.plexibus.com/2009/01/15/rest-esting-with-curl/).
-
-
-
-

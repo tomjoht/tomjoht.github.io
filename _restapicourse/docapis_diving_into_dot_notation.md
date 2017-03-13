@@ -112,7 +112,7 @@ In this activity, you'll practice accessing different values through dot notatio
 
 2. Change `john.children[0].child1` to display the right values for each item. For example, the word `green` should appear at the ID tag called `green`.
 
-Check your work by looking at the <a href="{{ "/docapis_answers" | prepend: baseurl }}#dotNotation">Dot Notation section</a> on the answers page.
+Check your work by looking at the <a href="/docapis_answers#dotNotation">Dot Notation section</a> on the answers page.
 
 ## Showing wind conditions on the page
 
@@ -184,4 +184,4 @@ A few things are different here, but it's essentially the same code:
 
 When you load the page and click the button, the following should appear:
 
-<img src="{{ "/images_api/windconditionsfinaloutput.png" | prepend: site.baseurl }}" alt="Final REST API" />
+<img src="images_api/windconditionsfinaloutput.png" alt="Final REST API" />
