@@ -11,7 +11,7 @@ If you have a lot of endpoints, you can construct a template that forces specifi
 
 You could just remember to add the exact same sections on each page, but this requires more manual consistency.
 
-<a href="https://flic.kr/p/oFD6MM"><img src="images_api/structure.png" alt="Structure, by Rafal Zych" /></a>
+<a href="https://flic.kr/p/oFD6MM"><img src="/images_api/structure.png" alt="Structure, by Rafal Zych" /></a>
 
 ## Pushing values into more stylized outputs
 

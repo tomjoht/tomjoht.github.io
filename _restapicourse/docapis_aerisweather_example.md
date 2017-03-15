@@ -25,7 +25,7 @@ See the [Getting Started](http://www.aerisweather.com/support/docs/api/getting-s
 
 Browse through the [available endpoints](http://www.aerisweather.com/support/docs/api/reference/endpoints/) and look for one that would give you the wind speed. The [forecasts](http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/) resource provides information about wind speed.
 
-<a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/"><img src="images_api/aerisforecasts.png" alt="Aeris Weather forecasts resource" /></a>
+<a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/forecasts/"><img src="/images_api/aerisforecasts.png" alt="Aeris Weather forecasts resource" /></a>
 
 To get the forecast details for Santa Clara, California, add it after `/forecasts`, like this:
 
@@ -177,5 +177,5 @@ To add a little variety to the code samples, here's one that's a bit different. 
 
 Here's the result:
 
-<img src="images_api/notthatwindy.png" alt="Aeris Weather example" />
+<img src="/images_api/notthatwindy.png" alt="Aeris Weather example" />
 

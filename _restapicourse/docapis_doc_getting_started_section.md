@@ -43,19 +43,19 @@ Once users know the domain root, they can easily add any endpoint to that domain
 ## Sample Getting Started sections
 Here's the Getting Started section from the Alchemy API:
 
-<a href="http://www.alchemyapi.com/developers/getting-started-guide"><img src="images_api/alchemyapigettingstarted.png" alt="Alchemy API" /></a>
+<a href="http://www.alchemyapi.com/developers/getting-started-guide"><img src="/images_api/alchemyapigettingstarted.png" alt="Alchemy API" /></a>
 
 Here's a Getting Started tutorial from the HipChat API:
 
-<a href="https://www.hipchat.com/docs/apiv2"><img src="images_api/hipchatgettingstarted.png" alt="HipChat API Getting Started" /></a>
+<a href="https://www.hipchat.com/docs/apiv2"><img src="/images_api/hipchatgettingstarted.png" alt="HipChat API Getting Started" /></a>
 
 Here's a Getting Started section from the Aeris Weather API:
 
-<a href="http://www.aerisweather.com/support/docs/api/getting-started/"><img src="images_api/aerisgettingstarted.png" alt="Aeris weather Getting started" /></a>
+<a href="http://www.aerisweather.com/support/docs/api/getting-started/"><img src="/images_api/aerisgettingstarted.png" alt="Aeris weather Getting started" /></a>
 
 Here's another example of a Getting Started tutorial from Smugmug's API:
 
-<a href="https://api.smugmug.com/api/v2/doc"><img src="images_api/smugmuggettingstarted.png" alt="Smugmug" /></a>
+<a href="https://api.smugmug.com/api/v2/doc"><img src="/images_api/smugmuggettingstarted.png" alt="Smugmug" /></a>
 
 I like how, right from the start, Smugmug tries to hold your hand to get you started. In this case, the tutorial for getting started is integrated directly in with the main documentation.
 

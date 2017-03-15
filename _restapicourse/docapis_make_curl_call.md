@@ -70,7 +70,7 @@ In this section, you'll use cURL to make the same requests you made previously w
 
     You should see something like this as a response:
 
-    <img src="images_api/aqi_curl_response.png" alt="cURL call" />
+    <img src="/images_api/aqi_curl_response.png" alt="cURL call" />
 
     The response is just a single number: the air quality index for the location specified. (This response is just text, but most of the time responses from REST APIs are in JSON.)
 
@@ -92,7 +92,7 @@ In this section, you'll use cURL to make the same requests you made previously w
 
     The response from Mashape looks like this:
 
-    <img src="images_api/commandline.png" alt="Command line Windows" />
+    <img src="/images_api/commandline.png" alt="Command line Windows" />
 
 
 ## Single and Double Quotes with Windows cURL requests

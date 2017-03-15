@@ -14,11 +14,11 @@ type: notes_docapis
 
 In general, an API (or Application Programming Interface) provides an interface between two systems. It's like a cog that allows two systems to interact with each other.
 
-<a href="http://bit.ly/1DexWM0"><img src="images_api/spinning_gears.jpg" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
+<a href="http://bit.ly/1DexWM0"><img src="/images_api/spinning_gears.jpg" alt="Spinning gears. By Brent 2.0. Flickr." /></a>
 
 In an API workshop by Jim Bisso, an experienced API technical writer in the Silicon Valley area, Bisso said to consider your computer's calculator. When you press buttons, functions underneath are interacting with other components to get information. Once the information is returned, the calculator presents the data back to the GUI.
 
-<img src="images_api/calculator.png" alt="calculator" />
+<img src="/images_api/calculator.png" alt="calculator" />
 
 APIs often work in similar ways. But instead of interacting within the same system, web APIs call remote services to get their information.
 
@@ -64,7 +64,7 @@ A RESTful API might not follow all of the official characteristics of REST as ou
 
 Here's the general model of a REST API:
 
-<img src="images_api/restapi_restapi.png alt="REST API" />
+<img src="/images_api/restapi_restapi.png alt="REST API" />
 
 As you can see, there's a request and a response between a client to the API server. The client and server can be based in any language, but HTTP is the protocol used to transport the message. This request-and-response pattern is fundamentally how REST APIs work.
 
@@ -111,11 +111,11 @@ The terminology of "URIs" and "GET requests" and "message responses" transported
 If you open a browser and go to http://idratherbewriting.com, you're really using HTTP protocol (`http://`) to submit a GET request to the resource available on a web server. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
 
 {% unless site.target == "pdf" %}
-<img src="images_api/restapi_www.svg" alt="Web as REST API" />
+<img src="/images_api/restapi_www.svg" alt="Web as REST API" />
 {% endunless %}
 
 {% if site.target == "pdf" %}
-<img src="images_api/restapi_www.png" alt="Web as REST API" />
+<img src="/images_api/restapi_www.png" alt="Web as REST API" />
 {% endif %}
 
 You can see this response in cURL if you open a Terminal prompt and type `curl http://idratherbewriting.com`.

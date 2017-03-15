@@ -43,7 +43,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
     
     {{site.data.alerts.note}} Only some countries are supported in the <code>aqi</code> call &mdash; specifically the United States, Singapore, Malaysia, Europe, and Australia. If the country isn't supported, you'll see "Not supported" in the API response. The AQI for Santa Clara, California is <code>lat: 37.3710062</code> and <code>lng: -122.0375935</code>. For Singapore, it's <code>lat: 1.3321256</code> and <code>lng: 103.7373503</code>. You can find latitude and longitude values from the URL in Google Maps when you go to a specific location.{{site.data.alerts.end}}
     
-    <img src="images_api/googlemapslatlong.png" alt="Finding latitude and longitude on Google Maps" />
+    <img src="/images_api/googlemapslatlong.png" alt="Finding latitude and longitude on Google Maps" />
 	
 	When you add these `lat` and `lng` parameters, they will dynamically be added as a query string to the endpoint URI. The query string is the code followed by the `?` in the endpoint URL. A request URL only has one query string (one `?`). If you have additional parameters in the query string, they're joined with an ampersand `&` symbol.
 	
@@ -51,7 +51,7 @@ A lot of times abstract concepts don't make sense until you can contextualize th
 	
     Your inputs should look like this:
 
-	<img src="images_api/postmannewinterface.png" alt="Postman request" />
+	<img src="/images_api/postmannewinterface.png" alt="Postman request" />
 
 7.  Click **Send**.
 
@@ -79,7 +79,7 @@ Enter details into Postman for the other two endpoints for the Mashape Weather A
 
 When you save these other endpoints, click the arrow next to Save and choose **Save As**. Then choose your collection and request name. (Otherwise you'll overwrite the settings of the existing request.)
 
-<img src="images_api/postmansaveas.png" alt="Save as" />
+<img src="/images_api/postmansaveas.png" alt="Save as" />
 
 (Alternatively, click the **+** button on the new tab and create new tabs each time.)
 
@@ -89,7 +89,7 @@ While the first two endpoint responses include text only, the weatherdata endpoi
 
 In Postman, make a request to the weatherdata API. Then toggle the options to **Pretty** and **JSON**.
 
-<img src="images_api/postmanjsonresponse.png" alt="JSON response" />
+<img src="/images_api/postmanjsonresponse.png" alt="JSON response" />
 
 The Pretty JSON view expands the JSON response into more readable code. 
 
@@ -97,7 +97,7 @@ The Pretty JSON view expands the JSON response into more readable code.
 
 For the sake of variety with GUI clients, here's the same call made in Paw:
 
-<img src="images_api/pawexample.png" alt="Paw" />
+<img src="/images_api/pawexample.png" alt="Paw" />
 
 Like Postman, Paw also allows you to easily see the request headers, response headers, URL parameters, and other data. However, Paw is specific to Mac only.
 

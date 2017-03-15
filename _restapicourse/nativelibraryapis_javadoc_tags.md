@@ -309,7 +309,7 @@ To change the linked text, put a word after `#baz` like this: `@see #baz Baz met
 
 In Eclipse, you can use the Javadoc tab at the bottom of the screen to preview the Javadoc information included for the class you're viewing.
 
-<img src="images_api/javadocpane.png" alt="Javadoc pane" />
+<img src="/images_api/javadocpane.png" alt="Javadoc pane" />
 
 ## More information
 

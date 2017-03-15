@@ -10,11 +10,11 @@ type: notes_docapis
 {% include notes.html %}
 
 {% unless site.target == "pdf" %}
-<img src="images_api/restapi_apidoc.svg" alt="REST API diagram" />
+<img src="/images_api/restapi_apidoc.svg" alt="REST API diagram" />
 {% endunless %}
 
 {% if site.target == "pdf" %}
-<img src="images_api/restapi_apidoc.png" alt="REST API diagram" />
+<img src="/images_api/restapi_apidoc.png" alt="REST API diagram" />
 {% endif %}
 
 ## Documenting REST APIs course

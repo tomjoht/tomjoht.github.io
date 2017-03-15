@@ -14,7 +14,7 @@ Jekyll is one of the most popular static site generators. All of my help content
 
 Here's the documentation theme that I developed for Jekyll:
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="images_api/jekylldocumentationtheme.png" alt="My Jekyll Documentation theme" /></a>
+<a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="/images_api/jekylldocumentationtheme.png" alt="My Jekyll Documentation theme" /></a>
 
 There isn't any kind of special API reference endpoint formatting here (yet), but the platform is so flexible, you can do anything with it as long as you know HTML, CSS, and JavaScript (the fundamental language of the web.
 
@@ -38,7 +38,7 @@ One of the questions people ask about authoring content with static site generat
 
 When you're authoring a Jekyll site, you open up a preview server that continuously builds your site with each change you save. I open up my text editor on the left, and the auto-generating site on the right. On a third monitor, I usually put the Terminal window so I can see when a new build is done (it takes about 10 seconds for my doc sites).
 
-<img src="images_api/writinginjekyll.png" alt="Writing in Jekyll" />
+<img src="/images_api/writinginjekyll.png" alt="Writing in Jekyll" />
 
 This setup works fairly well. Granted, I do have a Mac Thunderbolt 21-inch monitor, so it gives me more real estate. On a small screen, you might have to switch back and forth between screens to see the output.
 
@@ -73,7 +73,7 @@ Let's do an example in publishing in CloudCannon using the Documentation Theme f
 9. Wait about 5 minutes for the files from your Github repository to sync over to CloudCannon. In the left sidebar, click **File Browser**. If you see a bunch of files with a green check mark, it means the files have synced over from the Github repo.
 10. View your CloudCannon site at the preview URL in the upper-left corner.
 
-	<img src="images_api/previewurlcloudcannon.png" alt="Preview URL" />
+	<img src="/images_api/previewurlcloudcannon.png" alt="Preview URL" />
 
 	It should look just like the [Documentation theme for Jekyll here](idratherbewriting.com/documentation-theme-jekyll).
 
@@ -104,7 +104,7 @@ Let's say you want to use a theme that provides ready-made templates for REST AP
 
 The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) by Cloud Cannon is designed for REST APIs. You'll use this theme to input a new endpoint. If you're continuing on from the previous course (Documenting REST APIs), you already have a new endpoint called surfreport.
 
-<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="images_api/aviatortheme.png" alt="Cloud Cannon Aviator theme" /></a>
+<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="/images_api/aviatortheme.png" alt="Cloud Cannon Aviator theme" /></a>
 
 {{note}} If you're on a Mac (with Rubygems and Jekyll installed), building Jekyll sites is a lot simpler. But even if you're on Windows, it won't matter for this tutorial. You'll be using CloudCannon, a SaaS website builder product, to build the Jekyll files.{{end}}
 
@@ -112,7 +112,7 @@ The [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jek
 
 1. Go to [Aviator API documentation theme](https://github.com/CloudCannon/Aviator-Jekyll-Theme) and click the **Download ZIP** button.
 
-	<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="images_api/gitdownloadzip.png" alt="Download ZIP button for Aviator theme" /></a>
+	<a href="https://github.com/CloudCannon/Aviator-Jekyll-Theme"><img src="/images_api/gitdownloadzip.png" alt="Download ZIP button for Aviator theme" /></a>
 
 2. Unzip the files.
 
@@ -281,20 +281,20 @@ curl --get --include 'https://simple-weather.p.mashape.com/weatherdata?lat=1.0&l
 4. Type a name for the site (e.g., Aviator Test) and press your **Enter** key.
 3. Click the **Upload Files** button in the upper-right corner.
 
-	<img src="images_api/cloudcannonupload.png" alt="Uploading to Cloud Cannon" />
+	<img src="/images_api/cloudcannonupload.png" alt="Uploading to Cloud Cannon" />
 
 4. Open your Aviator theme files, select them all, and drag them into the upload file dialog box. (Don't just drag the Aviator theme folder into CloudCannon).
 
 5. After the files finish uploading (and little green check marks appear next to the files), click the preview link in the upper-left corner:
 
-	<img src="images_api/previewlinkcc.png" alt="Preview link" />
+	<img src="/images_api/previewlinkcc.png" alt="Preview link" />
 
 6. When prompted for a password for viewing the site to add, add one.
 7. Click the preview link to view the site.
 
 The site should appear as follows:
 
-<img src="images_api/weatherdataendpointcloudcannon.png" alt="CloudCannon Weatherdata endpoint" />
+<img src="/images_api/weatherdataendpointcloudcannon.png" alt="CloudCannon Weatherdata endpoint" />
 
 You can see my site at [http://delightful-nightingale.cloudvent.net/](http://delightful-nightingale.cloudvent.net/). The password is `stcsummit`.
 

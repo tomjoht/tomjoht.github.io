@@ -10,7 +10,7 @@ type: notes_docapis
 
 Walking through all the steps in documentation yourself, as a technical writer, is critical to producing good documentation. But the more complex setup you have, the more difficult it can be to walk through all of the steps. Especially with developer documentation, the tasks required to test out your documentation are not trivial. Still, they are essential to creating user-centered documentation. This is my biggest tip for having success as a technical writer creating API documentation: test everything.
 
-<a href="https://flic.kr/p/6Grete"><img src="images_api/testingeverything.jpg" alt="Testing everything" /></a>
+<a href="https://flic.kr/p/6Grete"><img src="/images_api/testingeverything.jpg" alt="Testing everything" /></a>
 
 ## Step 1: Set up a test environment
 

@@ -14,7 +14,7 @@ For APIs not on these platforms, wiring up an API Explorer is often done by engi
 
 Here's a sample API explorer from Twitter: 
 
-<a href="https://dev.twitter.com/rest/tools/console"><img src="images_api/twitterapiexplorer.png" alt="Twitter API Explorer" /></a>
+<a href="https://dev.twitter.com/rest/tools/console"><img src="/images_api/twitterapiexplorer.png" alt="Twitter API Explorer" /></a>
 
 ## Novel or actually instructive?
 

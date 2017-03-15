@@ -25,7 +25,7 @@ The EventBrite API documentation is here: [developer.eventbrite.com](https://www
 
 To get event information, we'll use the [event](https://www.eventbrite.com/developer/v3/endpoints/events/) object.
 
-<a href="https://www.eventbrite.com/developer/v3/endpoints/events/"><img src="images_api/eventsendpointeventbrite.png" alt="EventBrite Event" /></a>
+<a href="https://www.eventbrite.com/developer/v3/endpoints/events/"><img src="/images_api/eventsendpointeventbrite.png" alt="EventBrite Event" /></a>
 
 {{note}} Instead of calling them "resources," the EventBrite API uses the term "objects." {{end}}
 
@@ -51,7 +51,7 @@ https://www.eventbriteapi.com/v3/events/:id/?token={your api key}
 
 Find an ID of an event you want to use, such as this event:
 
-<a href="https://www.eventbrite.com/myevent?eid=17920884849"><img src="images_api/eventbrite_event.png" alt="Sample event" /></a>
+<a href="https://www.eventbrite.com/myevent?eid=17920884849"><img src="/images_api/eventbrite_event.png" alt="Sample event" /></a>
 
 The event ID appears in the URL. Now populate the request with the ID of this event:
 ```
@@ -142,7 +142,7 @@ We covered this approach earlier in the course, so I won't go into much detail h
 
 Here's the result:
 
-<img src="images_api/eventbriteresultjoewelinske.png" alt="Eventbrite result" />
+<img src="/images_api/eventbriteresultjoewelinske.png" alt="Eventbrite result" />
 
 ## Code explanation
 

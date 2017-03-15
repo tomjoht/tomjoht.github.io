@@ -20,7 +20,7 @@ Parameters refer to the various ways the endpoint can be configured to influence
 
 Here's an example from Yelp's documentation:
 
-<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="images_api/yelpparameters.png" alt="Yelp parameters" /></a>
+<a href="https://www.yelp.com/developers/documentation/v2/search_api"><img src="/images_api/yelpparameters.png" alt="Yelp parameters" /></a>
 
 You can format the values in a variety of ways. If you're using a definition list or other non-table format, you should develop styles that make the values easily readable.
 
@@ -72,7 +72,7 @@ However, if the parameter is part of the actual endpoint path (not added in the 
 
 Here's an example from Twilio:
 
-<a href="https://www.twilio.com/docs/api/rest/lookups"><img src="images_api/twiliosample.png" alt="Twilio Example" /></a>
+<a href="https://www.twilio.com/docs/api/rest/lookups"><img src="/images_api/twiliosample.png" alt="Twilio Example" /></a>
 
 The `{PhoneNumber}` value is described in the description of the endpoint rather than in another section that lists the query parameters you can pass to the endpoint.
 
@@ -127,11 +127,11 @@ By all means, if the JSON object is relatively small, a table is probably your b
 
 Take a look at eBay's [findItemsByProduct](http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) endpoint. 
 
-<img src="images_api/ebayparam1.png" alt="eBay parameters" />
+<img src="/images_api/ebayparam1.png" alt="eBay parameters" />
 
 There's a table below the sample request that describes each parameter: 
  
-<img src="images_api/ebayparam2.png" alt="eBay parameters" />
+<img src="/images_api/ebayparam2.png" alt="eBay parameters" />
 
 But the sample request also contains links to each of the parameters. When you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [ItemFilter](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). This is likely because the parameter values are more complex and require more explanation. 
 
@@ -170,7 +170,7 @@ The Example Value shows a sample of the syntax along with examples. When you cli
 
 Now click **Model** (the grayed out text) and look at the view. 
 
-<a href="http://petstore.swagger.io/#!/pet/addPet"><img src="images_api/swaggersubtlemodellink.png" alt="Swagger Model" /></a>
+<a href="http://petstore.swagger.io/#!/pet/addPet"><img src="/images_api/swaggersubtlemodellink.png" alt="Swagger Model" /></a>
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
@@ -197,7 +197,7 @@ The Petstore spec doesn't actually include many parameter descriptions in the Mo
 
 In this view, when there's a nested object, like `category`, it has a reference to another part of the model. You have to look at "Category" for details about category and look at "Tag" for details about tags.
 
-<img src="images_api/swagger-model.png" alt="Reading the Model" />
+<img src="/images_api/swagger-model.png" alt="Reading the Model" />
 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
 

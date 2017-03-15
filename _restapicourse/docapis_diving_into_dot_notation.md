@@ -184,4 +184,4 @@ A few things are different here, but it's essentially the same code:
 
 When you load the page and click the button, the following should appear:
 
-<img src="images_api/windconditionsfinaloutput.png" alt="Final REST API" />
+<img src="/images_api/windconditionsfinaloutput.png" alt="Final REST API" />

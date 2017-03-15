@@ -12,7 +12,7 @@ Help authoring tools (HATs) refer to the common toolset often used by technical 
 
 Here's a sample help output from Flare for the Photobucket API:
 
-<a href="https://pic.photobucket.com/dev_help/WebHelpPublic/PhotobucketPublicHelp_Left.htm#CSHID=FAQ/FAQOverview.htm|StartTopic=Content/FAQ/FAQOverview.htm|SkinName=WebHelp"><img src="images_api/hatphotobucket.png" alt="Publishing API docs" /></a>
+<a href="https://pic.photobucket.com/dev_help/WebHelpPublic/PhotobucketPublicHelp_Left.htm#CSHID=FAQ/FAQOverview.htm|StartTopic=Content/FAQ/FAQOverview.htm|SkinName=WebHelp"><img src="/images_api/hatphotobucket.png" alt="Publishing API docs" /></a>
 
 ## Pros of using a help authoring tool
 

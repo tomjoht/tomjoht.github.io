@@ -22,7 +22,7 @@ https://api.citygridmedia.com/content/places/v2/search/where
 
 However, there are 17 possible query string parameters you can use with this endpoint. As a result, the documentation includes several sample requests show the parameters used with the endpoint:
 
-<a href="http://docs.citygridmedia.com/display/citygridv2/Places+API"><img src="images_api/search_usage_examples.png" alt="CityGrid Places API example" /></a>
+<a href="http://docs.citygridmedia.com/display/citygridv2/Places+API"><img src="/images_api/search_usage_examples.png" alt="CityGrid Places API example" /></a>
 
 These examples show several common combinations of the parameters. Adding multiple requests as samples  makes sense when the parameters wouldn't usually be used together. For example, there are few cases where you might actually include all 17 parameters in the same request, so any sample will be limited in what it can show.
 
@@ -42,7 +42,7 @@ This approach is common and works well (for GET requests) when you can pull it o
 
 Many APIs have a feature called an API explorer. For example, you can see Foursquare's API explorer here:
 
- <a href="https://developer.foursquare.com/docs/explore"><img src="images_api/foursquareapiexplorer.png" alt="Foursquare's API Explorer" /></a>
+ <a href="https://developer.foursquare.com/docs/explore"><img src="/images_api/foursquareapiexplorer.png" alt="Foursquare's API Explorer" /></a>
 
 The API Explorer lets you insert your own values, your own API key, and other parameters into a request so you can see the responses directly in the Explorer. Being able to see your own data maybe makes the response more real and immediate.
 
@@ -50,7 +50,7 @@ However, if you don't have the right data in your system, using your own API key
 
 Here's another example from the New York Times API, which uses Lucybot (powered by Swagger) to handle the interactive API explorer features:
 
- <a href="http://developer.nytimes.com/books_api.json"><img src="images_api/nytimesapirequests.png" alt="NYTimes API Explorer created through Lucybot and Swagger" /></a>
+ <a href="http://developer.nytimes.com/books_api.json"><img src="/images_api/nytimesapirequests.png" alt="NYTimes API Explorer created through Lucybot and Swagger" /></a>
 
  This example compels users to try out the endpoints to get a better understanding of the information they return.
 
@@ -62,7 +62,7 @@ It's one thing to allow GET methods, but if you include other methods, users cou
 
 In Sendgrid's API, they include a warning message to users before testing out calls with their API Explorer:
 
-<a href="https://sendgrid.com/docs/API_Reference/Web_API/blocks.html"><img src="images_api/sendgridwarningmessage.png" alt="SendGrid API Explorer warning message" /></a>
+<a href="https://sendgrid.com/docs/API_Reference/Web_API/blocks.html"><img src="/images_api/sendgridwarningmessage.png" alt="SendGrid API Explorer warning message" /></a>
 
 As far as integrating other API Explorer tooling, this is a task that should be relatively easy for developers. All the Explorer does it map values from a field to an API call and return the response to the same interface. In other words, the API plumbing is all there &mdash; you just need a little JavaScript and front-end skills to make it happen.
 

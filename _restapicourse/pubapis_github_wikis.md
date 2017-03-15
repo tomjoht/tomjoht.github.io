@@ -13,7 +13,7 @@ When you create a repository on Github, the repository comes with a wiki that yo
 
 Here's an example of the Basecamp API, which is housed on Github.
 
-<a href="https://github.com/basecamp/bcx-api"><img src="images_api/basecampapi.png" alt="Basecamp API" /></a>
+<a href="https://github.com/basecamp/bcx-api"><img src="/images_api/basecampapi.png" alt="Basecamp API" /></a>
 
 ## Markdown syntax
 You write wiki pages in Markdown syntax. There's a special flavor of Markdown syntax for Github wikis. The [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/) allows you to create tables, add classes to code blocks (for proper syntax highlighting), and more.
@@ -49,11 +49,11 @@ In this section, you will create a new Github repo and publish a sample file the
 1. Go to [Github.com](http://github.com) and either sign in or create an account.
 2. After you're signed in, click the **+** button in the upper-right corner and select **New repository**.
 
-	<a href="https://github.com/new"><img src="images_api/newrepositorygithub.png" alt="Creating a new Github repository" /></a>
+	<a href="https://github.com/new"><img src="/images_api/newrepositorygithub.png" alt="Creating a new Github repository" /></a>
 
 3. Give the repository a name, description, select **Public**, select to **Initialize the repo with a README**, and then click **Create repository**.
 
-	<img src="images_api/github_new_repo.png" alt="Creating a new Github repository" />
+	<img src="/images_api/github_new_repo.png" alt="Creating a new Github repository" />
 
 4. Click the **Wiki** link at the top of the repository.
 5. Click **Create first page**.
