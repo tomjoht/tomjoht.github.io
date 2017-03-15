@@ -1,10 +1,25 @@
 ---
-layout: kindle
-permalink: kindle.html
+layout: null
+permalink: kindlecontent.html
 ---
 
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Documenting REST APIs">
+  <meta name="author" content="Tom Johnson, I'd Rather Be Writing">
+  <meta name="dc.language" CONTENT="US">
+  <meta name="dc.title" CONTENT="Documenting REST APIs: A guide for technical writers">
+  <meta name="dc.keywords" CONTENT="REST APIs, documentation, technical writing, API documentation">
+  <meta name="dc.subject" CONTENT="Documenting REST APIs">
+  <meta name="dc.description" CONTENT="A guide for technical writers on how to document REST APIs.">
+<title>Documenting REST APIs</title>
+    <link rel="stylesheet" type="text/css" href="css/syntax.css"/>
+    <link rel="stylesheet" type="text/css" href="css/kindle.css"/>
+</head>
+<body>
+
 <h2>Table of Contents</h2>
-{% include kindletoc.html %}
 
 <mbp:section>
 <div class="section">Using a REST API like a developer</div>
@@ -14,6 +29,7 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}} {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
@@ -27,6 +43,7 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
@@ -39,6 +56,7 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
@@ -51,6 +69,7 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
@@ -63,6 +82,7 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
@@ -75,6 +95,7 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
@@ -87,6 +108,10 @@ permalink: kindle.html
 <h1 class="chapter" id="{{p.permalink | remove: "/"}}">{{p.weight}}  {{p.title}}</h1>
 {{p.content}}
 <mbp:pagebreak />
+<div class="pagebreak"></div>
 {% endif %}
 {% endfor %}
 </mbp:section>
+
+</body>
+</html>

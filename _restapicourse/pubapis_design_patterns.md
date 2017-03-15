@@ -3,7 +3,7 @@ title: "Design patterns"
 permalink: /pubapis_design_patterns/
 course: "Documenting REST APIs"
 type: notes_docapis
-weight: 6.3
+weight: 6.8
 ---
 
 ## What are design patterns
@@ -34,6 +34,3 @@ Here are some non-patterns. By this, I mean these are elements that aren't as co
 * Video tutorials
 
 By non-patterns, it's not to say these elements aren't a good idea. But generally they aren't emphasized in many of the API doc sites.
-
-
-

@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: kindletoc.html
+---
+<div id="toc">
+<h2>Table of Contents </h2>
+<ul>
+        {% for entry in site.data.sidebar_docapis.entries %}
+        {% for subcategory in entry.subcategories %}
+        {% if subcategory.output contains "web" %}
+        <li>{{ subcategory.title }}</li>
+            <ul>
+                {% for item in subcategory.items %}
+                {% if item.output contains "web" %}
+                <li><a href="kindlecontent.html#{{item.url | remove: "/"}}">{{item.weight}} {{item.title}}</a></li>
+                {% for thirdlevel in item.thirdlevel %}
+                {% if thirdlevel.output contains "web" %}
+                <li>{{ thirdlevel.title }}</li>
+                    <ul>
+                        {% for deeplevel in thirdlevel.thirdlevelitems %}
+                        {% if deeplevel.output contains "web" %}
+                        <li><a href="kindlecontent.html#{{deeplevel.url | remove: "/"}}">{{deeplevel.title}}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+</ul>
+<div class="pagebreak"></div>

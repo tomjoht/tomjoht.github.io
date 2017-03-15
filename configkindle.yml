@@ -14,7 +14,7 @@ kramdown:
  syntax_highlighter: rouge
  show_audience_label: true
 
-encoding: ISO-8859-1
+# encoding: ISO-8859-1
 
 timezone: America/Los_Angeles
 highlighter: rouge
