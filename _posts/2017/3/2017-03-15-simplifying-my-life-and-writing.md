@@ -26,7 +26,7 @@ My efforts toward simplification don't mean reducing my writing/blogging activit
 
 I also want to simplify my writing. In editing my wife's academic essays, I've realized how wordy and unnecessarily complicated writing often gets. I've started pushing much of my writing through the [Hemingway app][hemingway] to look for ways to simplify it.
 
-I also try to follow the ASD-STE100 guidelines of communicating just one idea per sentence. It's much, much hard to make content simple and readable than it is to do brain dumps in long, complex sentences.
+I also try to follow the ASD-STE100 guidelines of communicating just one idea per sentence. It's much harder to make content simple and readable than it is to do brain dumps in long, complex sentences.
 
 I also started using Kanban workflows more diligently at work and at home. Kanban reduces the number of items in progress and lets me focus with more sanity and less scatter-brainedness.
 
