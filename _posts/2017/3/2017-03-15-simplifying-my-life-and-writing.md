@@ -18,6 +18,8 @@ In [Zen Habits][zen], the short list on how to simplify your life involves just 
 
 Although outside commitments look small, they start to build up. Pretty soon you may find yourself spending more time than you want involved in these activities, in meetings with people (that you might not be especially fond of) when you'd rather be at home with your family or simply doing other things, like writing or coding.
 
+{{site.data.alerts.note}} When people initially read this post, their immediate question was whether I was going to stop blogging. No! By no means am I planning to stop writing and blogging. In fact, I want to clear my schedule to write more. {{site.data.alerts.end}}
+
 In identifying what's important me, I decided to reduce my outside commitments as much as possible. For example, I started saying no to present at STC chapters or give webinars. I transitioned my program management, webmaster, and media recording/publishing roles in the STC Silicon Valley chapter to other people. I stepped down from my co-organizer role in the Write the Docs SF meetup group. I'm only attending [one conference](http://www.writethedocs.org/conf/na/2017/speakers/#speaker-tom-johnson) this year.
 
 For a while I removed the contact information from my blog as well, but [this Reddit thread](https://www.reddit.com/r/technicalwriting/comments/5x2d6s/hosting_documentation_on_github_pages/) changed my mind, so I re-added it.
