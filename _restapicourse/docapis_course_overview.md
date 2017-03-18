@@ -86,3 +86,9 @@ Here are a few things you'll need in this course:
 ## Stay updated
 
 If you're taking this course, you most likely want to learn more about APIs. I publish regular articles that talk about APIs and strategies for documenting them. You can stay updated about these posts by subscribing to my free newsletter at [https://tinyletter.com/tomjohnson1492](https://tinyletter.com/tomjohnson1492).
+
+## Short version of the course in video
+
+If you'd prefer a short version of the course in video form, see this workshop I gave to the STC Sacramento chapter:
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/GerbihyUpdo" frameborder="0" allowfullscreen></iframe>
