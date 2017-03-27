@@ -141,7 +141,7 @@ There's another reason why you might want to embrace the docs-as-code model: if 
 
 For example, take a look at this documentation site: [PlayFab](https://api.playfab.com/Documentation/Client). Much of the documentation is built from JSON files that the API generates (you can see the [JSON here](https://github.com/PlayFab/API_Specs)). Their [SDK generator](https://github.com/PlayFab/SDKGenerator), built on NodeJS, also makes use of the same JSON. How would you integrate this kind of workflow into an XML/CCMS based system? If you can generate some doc material from code annotations, that's usually the approach engineers prefer.
 
-When I was developing my [API documentation course](http://idratherbewriting.com/docapis_course_overview/), I surveyed about [100 REST APIs](http://idratherbewriting.com/pubapis_apilist/). Almost all of them follow similar characteristics:
+When I was developing my [API documentation course](http://idratherbewriting.com/learnapidoc/), I surveyed about [100 REST APIs](http://idratherbewriting.com/pubapis_apilist/). Almost all of them follow similar characteristics:
 
 *  The docs are somewhat small (at least not tens of thousands of pages).
 *  The docs are published on custom-branded websites.

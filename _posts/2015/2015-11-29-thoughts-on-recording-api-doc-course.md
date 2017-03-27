@@ -7,14 +7,14 @@ summary: "As I prepare to record my API doc course, I'm finalizing a few thought
 thumb:
 ---
 
-I've been planning to convert my [API documentation course content](http://idratherbewriting.com/docapis_course_overview/) into an online course for a while. I mostly have everything in place now; it's just a matter of doing it. These past few weeks I've been trying to clean up a few things with my blog, and the holidays seem to bring their own slow-down, with parties to attend, get-togethers, family activities, and so on. In short, I've been procrastinating.
+I've been planning to convert my [API documentation course content](http://idratherbewriting.com/learnapidoc/) into an online course for a while. I mostly have everything in place now; it's just a matter of doing it. These past few weeks I've been trying to clean up a few things with my blog, and the holidays seem to bring their own slow-down, with parties to attend, get-togethers, family activities, and so on. In short, I've been procrastinating.
 
 I want to outline a few thoughts and plans I have for recording the videos. 
 
 ## Finalized content
 First, I need to make sure the content is more or less locked down before I start recording anything. It would be a waste to record a video, post-process it, and later decide that the content itself needs a lot of revision. 
 
-I've been fine-tuning the [API documentation course content](http://idratherbewriting.com/docapis_course_overview/) as I was teaching some API doc workshops recently. I think it's mostly there; it just needs to be more conversational and script friendly. 
+I've been fine-tuning the [API documentation course content](http://idratherbewriting.com/learnapidoc/) as I was teaching some API doc workshops recently. I think it's mostly there; it just needs to be more conversational and script friendly. 
 
 However, I won't really know what works and what doesn't until I start recording it.
 

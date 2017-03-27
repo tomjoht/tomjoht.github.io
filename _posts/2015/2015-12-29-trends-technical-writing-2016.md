@@ -265,7 +265,7 @@ When analyzing trends, I recommend that you look at technology trends in general
 
 If there are other ripple effects to API growth that I haven't considered here, please let me know. 
 
-If you want some tips on how to document APIs, see my free course, <a href="http://idratherbewriting.com/docapis_course_overview/">Documenting REST APIs</a>. (This is a resource I keep adding to and growing, so keep watching it.)
+If you want some tips on how to document APIs, see my free course, <a href="http://idratherbewriting.com/learnapidoc/">Documenting REST APIs</a>. (This is a resource I keep adding to and growing, so keep watching it.)
 
 
 

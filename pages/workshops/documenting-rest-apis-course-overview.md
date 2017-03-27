@@ -6,7 +6,7 @@ categories:
 keywords: 
 ---
 {% include notes.html %}
-{{tip}} You can access an online version of the workshop here: <a href="http://idratherbewriting.com/docapis_course_overview/">Documenting REST APIs</a>. {{end}}
+{{tip}} You can access an online version of the workshop here: <a href="http://idratherbewriting.com/learnapidoc/">Documenting REST APIs</a>. {{end}}
 
 <h2>Workshop description</h2>
 

@@ -30,7 +30,7 @@ Here are links to pages listed in the above screenshot:
 * [Quick reference guides](http://idratherbewriting.com/quickreferenceguides/)
 * [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](http://idratherbewriting.com/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
 * [Quick reference guides: Short and sweet documentation](http://idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/)
-* [Documenting REST APIs](http://idratherbewriting.com/docapis_course_overview/)
+* [Documenting REST APIs](http://idratherbewriting.com/learnapidoc/)
 * [Javascript Event Listeners](http://idratherbewriting.com/events-and-listeners-javascript/)
 * [Are Certificate Programs Helpful for Transitioning into Technical Writing?](http://idratherbewriting.com/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
 

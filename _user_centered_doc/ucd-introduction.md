@@ -12,7 +12,7 @@ Recently I gave a two-hour workshop about user-centered documentation to a compa
 
 <a href="http://idratherbewriting.com/files/user-centered-documentation-principles/"><img style="max-width: 350px" src="/images/ucdthumb2.png" />
 
-I decided to convert the presentation into a User-Centered Documentation course on my site (similar to my [API doc course](http://idratherbewriting.com/docapis_course_overview/)).
+I decided to convert the presentation into a User-Centered Documentation course on my site (similar to my [API doc course](http://idratherbewriting.com/learnapidoc/)).
 
 Rather than populating the course page by page, I instead pasted the content from the presentation into different pages as a skeleton outline for the course. You can navigate the pages using the sidebar on the left.
 

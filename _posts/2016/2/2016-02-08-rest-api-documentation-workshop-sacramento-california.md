@@ -43,7 +43,7 @@ Here is a description of the API workshop I'm giving in Sacramento:
 * Swagger
 * RAML
 >
-This course will mostly provide an introduction to these concepts. There are many detailed examples and activities you can walk through with the API documentation tutorials on my site here: http://idratherbewriting.com/docapis_course_overview/
+This course will mostly provide an introduction to these concepts. There are many detailed examples and activities you can walk through with the API documentation tutorials on my site here: http://idratherbewriting.com/learnapidoc/
 >
 >All participants in workshop will need the following:
 >
@@ -59,4 +59,4 @@ You can find more information on the [STC Sacramento site here](http://www.stcsa
 
 Note that I'm also giving a [similar API documentation workshop](http://sched.co/5o4O) at the STC Summit in Anaheim, California in May (though the cost is 10 times as much).
 
-If you're interested in API documentation but can't attend either of these events, you can get the same information from my site here: [API documentation course](http://idratherbewriting.com/docapis_course_overview/).
+If you're interested in API documentation but can't attend either of these events, you can get the same information from my site here: [API documentation course](http://idratherbewriting.com/learnapidoc/).

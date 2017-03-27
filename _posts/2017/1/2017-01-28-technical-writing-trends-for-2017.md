@@ -58,7 +58,7 @@ In 2016, I had numerous people ask me advice about learning a programming langua
 
 Adam Wood also has a good post on [What (and how much) to learn?](http://hackwrite.com/posts/what-and-how-much-to-learn/) Udemy has taken off with its array of [Nanodegree courses](https://www.udacity.com/nanodegree), and more technical writers are hungry to learn development techniques.
 
-Additionally, numerous people went through my [API documentation course](http://idratherbewriting.com/docapis_course_overview/) and found it helpful. For example, [David Wilks said](http://idratherbewriting.com/docapis_course_overview/#comment-3124829110), "Tom, this course is great. I'm only part way through it, but it already helped me get a job by appearing fluent in APIs during an interview." I've heard similar feedback from a lot of people this year.
+Additionally, numerous people went through my [API documentation course](http://idratherbewriting.com/learnapidoc/) and found it helpful. For example, [David Wilks said](http://idratherbewriting.com/learnapidoc/#comment-3124829110), "Tom, this course is great. I'm only part way through it, but it already helped me get a job by appearing fluent in APIs during an interview." I've heard similar feedback from a lot of people this year.
 
 Through this API doc course, technical writers are digging into cURL, JSON, Postman, JavaScript, YAML, the command line, and other common technologies related to REST APIs.
 

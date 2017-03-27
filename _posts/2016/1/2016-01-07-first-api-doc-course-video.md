@@ -7,7 +7,7 @@ summary: "This is the first video I recorded for my API documentation course. Si
 thumb: firstapidoccoursevideo.png
 ---
 
-Here's the first video for my [API documentation course](http://idratherbewriting.com/docapis_course_overview/).
+Here's the first video for my [API documentation course](http://idratherbewriting.com/learnapidoc/).
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/h_WsKO_NWuw" frameborder="0" allowfullscreen></iframe>
 

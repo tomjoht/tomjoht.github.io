@@ -16,7 +16,7 @@ Here are the [slides](http://idratherbewriting.com/files/swaggerslides/#/) and t
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen>
 
-To learn more, see my [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/), which is the most popular article on my site and part of my [REST API documentation course](http://idratherbewriting.com/docapis_course_overview/).
+To learn more, see my [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/), which is the most popular article on my site and part of my [REST API documentation course](http://idratherbewriting.com/learnapidoc/).
 
 You can learn more about the [TC Dojo here](http://www.single-sourcing.com/products/tcdojo/).
 
