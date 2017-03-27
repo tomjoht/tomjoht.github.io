@@ -4,6 +4,7 @@ permalink: /pubapis_github_pull_requests/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 5.2
+redirect_to: /learnapidoc/pubapis_github_pull_requests.html
 ---
 {% include notes.html %}
 

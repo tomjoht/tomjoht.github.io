@@ -4,6 +4,7 @@ permalink: /pubapis_challenging_factors/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.9
+redirect_to: /learnapidoc/pubapis_challenging_factors.html
 ---
 
 ## Requirements that may cause problems
@@ -21,5 +22,4 @@ With my Jekyll doc theme, I'm single sourcing one of my projects into about 9 di
 
 To handle PDF, I'm using a tool called Prince that converts a list of HTML pages into a PDF document, complete with running headers and footers, page numbering, and other print styling.
 
-To handle authentication, I upload the content into a Salesforce site.com and use Salesforce as the authentication layer. It's my least favorite part of the solution, but a more integrated authentication will probably involve some engineering resources to help out. 
-
+To handle authentication, I upload the content into a Salesforce site.com and use Salesforce as the authentication layer. It's my least favorite part of the solution, but a more integrated authentication will probably involve some engineering resources to help out.

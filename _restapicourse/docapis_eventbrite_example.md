@@ -5,6 +5,7 @@ type: notes_docapis
 course: "Documenting REST APIs"
 weight: 4.0
 keywords: Eventbrite API example, REST APIs
+redirect_to: /learnapidoc/docapis_eventbrite_example.html
 ---
 
 {% include notes.html %}

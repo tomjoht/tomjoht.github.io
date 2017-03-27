@@ -4,12 +4,13 @@ permalink: /pubapis_code_samples/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.6
+redirect_to: /learnapidoc/pubapis_code_samples.html
 ---
 
 ## Developers love code examples
-More than anything else, developers love code examples. Usually the more code you can add to your documentation, the better. 
+More than anything else, developers love code examples. Usually the more code you can add to your documentation, the better.
 
-Here's an example from Evernote's API: 
+Here's an example from Evernote's API:
 
 <a href="https://dev.evernote.com/doc/articles/note-sharing.php"><img src="/images_api/evernotecodesamples.png" alt="Evernote code examples" /></a>
 
@@ -19,7 +20,7 @@ The writers at Parse [emphasize the importance of code samples](http://blog.pars
 
 ## Syntax highlighting
 
-For code samples, you want to incorporate syntax highlighting. There are numerous syntax highlighters that you can usually incorporate into your platform. For example, Jekyll uses either Pygments or Rouge. These highlighters have stylesheets prepared to highlight languages based on specific syntax. 
+For code samples, you want to incorporate syntax highlighting. There are numerous syntax highlighters that you can usually incorporate into your platform. For example, Jekyll uses either Pygments or Rouge. These highlighters have stylesheets prepared to highlight languages based on specific syntax.
 
 When you include a code sample, you usually instruct the syntax highlighter what language to use. If you don't have access to a syntax highlighter for your platform, you can always [manually add the highlighting using syntax highlighter library](http://code.tutsplus.com/tutorials/quick-tip-how-to-add-syntax-highlighting-to-any-project--net-21099).
 

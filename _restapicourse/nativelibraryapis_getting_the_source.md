@@ -4,6 +4,7 @@ permalink: /nativelibraryapis_getting_the_source/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 7.1
+redirect_to: /learnapidoc/nativelibraryapis_getting_the_source.html
 ---
 
 ## About the sample project

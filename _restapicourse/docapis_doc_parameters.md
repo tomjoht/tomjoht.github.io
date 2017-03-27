@@ -3,10 +3,11 @@ title: Documenting parameters
 permalink: /docapis_doc_parameters/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 2.7
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_doc_parameters.html
 ---
 {% include notes.html %}
 
@@ -26,23 +27,23 @@ You can format the values in a variety of ways. If you're using a definition lis
 
 ## Four types of parameters
 
-REST APIs have four types of parameters: 
+REST APIs have four types of parameters:
 
-*  **Path parameters**: Parameters that appear within the path of the endpoint, before the query string (`?`) 
+*  **Path parameters**: Parameters that appear within the path of the endpoint, before the query string (`?`)
 *  **Query string parameters**: Parameters that appear in the query string of the endpoint, after the `?`.
 *  **Request body parameters**: Parameters that are included in the request body. Usually submitted as JSON.
 *  **Header parameters**: Parameters that are included in the request header. Usually header parameters relate to authorization.
 
 ## Data types indicate the format for the values
 
-It's important to list the data type for each parameter because APIs may not process the parameter correctly if it's the wrong data type or wrong format. These data types are the most common: 
+It's important to list the data type for each parameter because APIs may not process the parameter correctly if it's the wrong data type or wrong format. These data types are the most common:
 
-* **string**: An alphanumeric sequence of letters and possibly numbers. 
+* **string**: An alphanumeric sequence of letters and possibly numbers.
 * **integer**: A whole number &mdash; can be positive or negative.
 * **boolean**: true or false.
 * **object**: Key-value pairs in JSON format
 
-There are more data types in programming, and if you have more specific data types, be sure to note them. In Java, for example, it's important to note the data type allowed because Java allocates memory space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. 
+There are more data types in programming, and if you have more specific data types, be sure to note them. In Java, for example, it's important to note the data type allowed because Java allocates memory space based on the size of the data. As such, Java gets much more specific about the size of numbers. You have a byte, short, int, double, long, float, char, boolean, and so on.
 
 However, you usually don't have to specify this level of detail with a REST API. You can probably just write "number."
 
@@ -52,7 +53,7 @@ One of the problems with the Mashape Weather API is that it doesn't tell you whi
 
 ## Parameter order doesn't matter
 
-Often the parameters are added with a query string (`?`) at the end of the endpoint, and then each parameter is listed one right after the other with an ampersand (`&`) separating them. Usually the order in which parameters are passed to the endpoint does not matter. 
+Often the parameters are added with a query string (`?`) at the end of the endpoint, and then each parameter is listed one right after the other with an ampersand (`&`) separating them. Usually the order in which parameters are passed to the endpoint does not matter.
 
 For example:
 
@@ -82,7 +83,7 @@ Other important details about parameters are the maximum of minimum values allow
 
 ## Color coding parameter values
 
-When you list the parameters in your endpoint, it can help to color code the parameters both in the table and in the endpoint definition. This makes it clear what's a parameter and what's not. Through color you create an immediate connection between the endpoint and the parameter definitions. 
+When you list the parameters in your endpoint, it can help to color code the parameters both in the table and in the endpoint definition. This makes it clear what's a parameter and what's not. Through color you create an immediate connection between the endpoint and the parameter definitions.
 
 For example, suppose your endpoint definition is as follows:
 
@@ -90,7 +91,7 @@ For example, suppose your endpoint definition is as follows:
 <span class="muted">http://domain.com:port/</span>/service/myendpoint/user/<span class="parameter">{user}</span>/bicycles/<span class="parameter">{bicycles}</span>/
 </div>
 
-Follow through with this same color in your table describing the parameters: 
+Follow through with this same color in your table describing the parameters:
 
 | URL Parameter | Description |
 |-------|------|
@@ -99,7 +100,7 @@ Follow through with this same color in your table describing the parameters:
 
 By color coding the parameters, it's easy to see the parameter in contrast with the other parts of the URL.
 
-Note that if you're custom-color-coding the parameters, you'll need to skip the automatic syntax highlighting options in code blocks and just use either your own styles or a general `pre` element. 
+Note that if you're custom-color-coding the parameters, you'll need to skip the automatic syntax highlighting options in code blocks and just use either your own styles or a general `pre` element.
 
 ## Passing parameters in the JSON body
 
@@ -119,21 +120,21 @@ This is known as a request body parameter.
 
 ## Documenting lengthy JSON objects in request bodies
 
-Documenting JSON data (both in request body parameters and responses) is actually one of the trickier parts of API documentation. Documenting a JSON object is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines, or 1,000? 
+Documenting JSON data (both in request body parameters and responses) is actually one of the trickier parts of API documentation. Documenting a JSON object is easy if the object is simple, with just a few key-value pairs. But what if you have a JSON object with multiple objects inside objects, numerous levels of nesting, and lengthy and conditional data? What if the JSON object spans more than 100 lines, or 1,000?
 
 Tables work all right for documenting JSON, but in a table, it can be hard to distinguish between top-level and sub-level items. The object that contains an object that also contains an object, etc., can be confusing to represent.
 
 By all means, if the JSON object is relatively small, a table is probably your best option. But there are  other approaches that designers have taken as well.
 
-Take a look at eBay's [findItemsByProduct](http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) endpoint. 
+Take a look at eBay's [findItemsByProduct](http://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) endpoint.
 
 <img src="/images_api/ebayparam1.png" alt="eBay parameters" />
 
-There's a table below the sample request that describes each parameter: 
- 
+There's a table below the sample request that describes each parameter:
+
 <img src="/images_api/ebayparam2.png" alt="eBay parameters" />
 
-But the sample request also contains links to each of the parameters. When you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [ItemFilter](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). This is likely because the parameter values are more complex and require more explanation. 
+But the sample request also contains links to each of the parameters. When you click a parameter value in the sample request, you go to a page that provides more details about that parameter value, such as the [ItemFilter](http://developer.ebay.com/DevZone/finding/CallRef/types/ItemFilter.html). This is likely because the parameter values are more complex and require more explanation.
 
 The same parameter values might be used in other requests as well, so this facilitates re-use. Even so, I dislike jumping around to other pages for the information I need.
 
@@ -168,7 +169,7 @@ The Example Value shows a sample of the syntax along with examples. When you cli
 }
 ```
 
-Now click **Model** (the grayed out text) and look at the view. 
+Now click **Model** (the grayed out text) and look at the view.
 
 <a href="http://petstore.swagger.io/#!/pet/addPet"><img src="/images_api/swaggersubtlemodellink.png" alt="Swagger Model" /></a>
 
@@ -199,7 +200,7 @@ In this view, when there's a nested object, like `category`, it has a reference 
 
 <img src="/images_api/swagger-model.png" alt="Reading the Model" />
 
-Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other. 
+Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other.
 
 Ultimately, I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties. I'm also not sure why the Swagger team didn't include descriptions of each parameter in the request body, because those descriptions could appear in the Model view and thereby provide more rationale for having the Model view in the first place.
 
@@ -243,5 +244,3 @@ Here's what my table looks like:
 </tr>
 </tbody></table>
 </div>
- 
-

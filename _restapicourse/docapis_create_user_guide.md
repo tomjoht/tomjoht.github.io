@@ -3,10 +3,11 @@ title: Creating the user guide
 permalink: /docapis_create_user_guide/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.2
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_create_user_guide.html
 ---
 {% include notes.html %}
 
@@ -20,7 +21,7 @@ In Mulesoft's API tooling, you can see some other sections common to API documen
 
 <a href="http://api-portal.anypoint.mulesoft.com/yahoo/api/yahoo-weather-api"><img src="/images_api/commonsections.png" alt="Common sections in API documentation" /></a>
 
-Although this is the Yahoo Weather API page, all APIs using the Mulesoft platform have this same template. 
+Although this is the Yahoo Weather API page, all APIs using the Mulesoft platform have this same template.
 
 ## Essential sections in a user guide
 
@@ -39,13 +40,13 @@ Since the content of these sections varies a lot based on your API, it's not pra
 
 ## Also include the usual user guide stuff
 
-Beyond the sections outlined above, you should include the usual stuff that you put in user guides. By the usual stuff, I mean you list out the common tasks you expect your users to do. What are their real business scenarios for which they'll use your API? 
+Beyond the sections outlined above, you should include the usual stuff that you put in user guides. By the usual stuff, I mean you list out the common tasks you expect your users to do. What are their real business scenarios for which they'll use your API?
 
 Sure, there are innumerable ways that users can put together different endpoints for a variety of outcomes. And the permutations of parameters and responses also provide endless combinations. But no doubt there are some core tasks that most developers will use your API to do. For example, with the Twitter API, most people want to do the following:
- 
+
  * Embed a timeline of tweets on a site
  * Embed a hashtag of tweets as a stream
  * Provide a Tweet This button below posts
  * Show the number of times a post has been retweeted
- 
- Provide how-to's for these tasks just like you would with any user guide. Seeing the tasks users can do with an API may be a little less familiar because you don't have a GUI to click through. But the basic concept is the same &mdash; ask what will users want to do with this product, what can they do, and how do they do it. 
+
+ Provide how-to's for these tasks just like you would with any user guide. Seeing the tasks users can do with an API may be a little less familiar because you don't have a GUI to click through. But the basic concept is the same &mdash; ask what will users want to do with this product, what can they do, and how do they do it.

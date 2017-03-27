@@ -4,6 +4,7 @@ permalink: /pubapis_web_platforms/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.5
+redirect_to: /learnapidoc/pubapis_web_platforms.html
 ---
 
 ## One integrated website
@@ -14,7 +15,7 @@ Many API doc sites provide one integrated website to find all of the information
 
 ## Documentation as product interface
 
-I hinted at this earlier, but with API documentation, there isn't an application interface that the documentation complements. In most cases, the API documentation itself is the product that users navigate to use your product. As such, users will expect more from it. 
+I hinted at this earlier, but with API documentation, there isn't an application interface that the documentation complements. In most cases, the API documentation itself is the product that users navigate to use your product. As such, users will expect more from it.
 
 ## Integrating information across the entire site
 

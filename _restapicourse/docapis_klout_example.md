@@ -6,6 +6,7 @@ categories:
 course: "Documenting REST APIs"
 weight: 4.2
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_klout_example.html
 ---
 {% include notes.html %}
 

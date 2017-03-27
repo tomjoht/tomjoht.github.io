@@ -4,6 +4,7 @@ permalink: /pubapis_longish_pages/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.7
+redirect_to: /learnapidoc/pubapis_longish_pages.html
 ---
 
 ## Minimize clicking
@@ -20,7 +21,7 @@ One of the most stark differences between regular GUI documentation and develope
 
 ## Examples of long pages
 
-Here's the Backbone.js documentation: 
+Here's the Backbone.js documentation:
 
 <a href="http://documentcloud.github.io/backbone/"><img src="/images_api/backbonejs.png" alt="Backbone JS" /></a>
 
@@ -39,7 +40,3 @@ Why do API doc sites tend to have long-ish pages? Here are a few reasons:
 ## Is it a best practice to make long pages?
 
 Usually the long pages on a site are the reference pages. Personally, I'm not a fan of listing every endpoint on the same page. Either way you approach it, developers probably won't care that much. They will care much more about the content on the page rather than the page length.
-
-
-
-

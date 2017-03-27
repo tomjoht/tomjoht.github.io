@@ -7,7 +7,7 @@ keywords:
 course: "Documenting REST APIs"
 weight: 5.1
 type: notes_docapis
-summary:
+redirect_to: /learnapidoc/pubapis_version_control.html
 ---
 
 ## About version control systems

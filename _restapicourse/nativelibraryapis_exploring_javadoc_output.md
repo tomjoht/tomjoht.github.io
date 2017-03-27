@@ -4,6 +4,7 @@ permalink: /nativelibraryapis_exploring_javadoc_output/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 7.5
+redirect_to: /learnapidoc/nativelibraryapis_exploring_javadoc_output.html
 ---
 
 ## About the Javadoc output
@@ -16,19 +17,19 @@ The class summary page shows a short version of each of the classes. The descrip
 
 <img src="/images_api/classsummary.png" alt="Class summary" />
 
-You click a class name to dive into the details. 
+You click a class name to dive into the details.
 
 ## Class details
 
-When you view a class page, you're presented with a brief summary of the fields, constructors, and methods for the class. Again this is just an overview. When you scroll down, you can see the full details about each of them. 
+When you view a class page, you're presented with a brief summary of the fields, constructors, and methods for the class. Again this is just an overview. When you scroll down, you can see the full details about each of them.
 
 <img src="/images_api/fulldetails.png" alt="full class details" />
 http://docs.oracle.com/javase/7/docs/api/
 
 ## Other navigation
 
-If you click **Package** at the top, you can also browse the classes by package. Or you can go to the classes by clicking the class name in the left column. You can also browse everything by clicking the **Index** link. 
+If you click **Package** at the top, you can also browse the classes by package. Or you can go to the classes by clicking the class name in the left column. You can also browse everything by clicking the **Index** link.
 
-<img src="/images_api/allclassesjavadoc.png" alt="Left pane" /> 
+<img src="/images_api/allclassesjavadoc.png" alt="Left pane" />
 
 For more information about how the Javadoc is organized, click the **Help** button.

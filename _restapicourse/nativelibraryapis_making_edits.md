@@ -4,6 +4,7 @@ permalink: /nativelibraryapis_editing_javadoc/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 7.6
+redirect_to: /learnapidoc/nativelibraryapis_editing_javadoc.html
 ---
 
 ## Common scenarios
@@ -12,7 +13,7 @@ It's pretty common for developers to add Javadoc tags and brief comments as they
 
 However, the comments that developers add are usually poor, incomplete, or incomprehensible. A tech writer's job with Javadoc is often to edit the content that's already there, providing more clarity, structure, inserting the right tags, and more.
 
-When you make edits to Javadoc content, look for the following: 
+When you make edits to Javadoc content, look for the following:
 
 * **Missing doc**. Lots of Javadoc is incomplete. Look for missing documentation.
 * **Consistent style**. See if the existing tags follow Java's style conventions.
@@ -23,7 +24,3 @@ In this exercise, you'll make some edits to the Javadoc tags and see how they ge
 ## Make some edits
 {{activity}}
 Make some edits to a class and method. Then regenerate the Javadoc and find your changes.
-
-
-
-

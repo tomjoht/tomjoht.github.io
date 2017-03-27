@@ -4,6 +4,7 @@ permalink: /docapis_install_curl/
 course: "Documenting REST APIs"
 weight: 1.6
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_install_curl.html
 ---
 {% include notes.html %}
 
@@ -19,7 +20,7 @@ If you have a Mac, by default, cURL is probably already installed. To check:
 
 1.  Open Terminal (press **Cmd + space bar** to open Spotlight, and then type "Terminal").
 2.  In Terminal type `curl -V`. The response should look something like this:
-    
+
     ```
     curl 7.37.1 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
     Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
@@ -72,5 +73,3 @@ You should get back a two-digit number in the response. (This is the "air qualit
 * Use double quotes in the Windows command line. (Windows doesn't support single quotes.)
 * Don't use backslashes (`\`) to separate lines. (This is for readability only and doesn't affect the call on Macs. Unfortunately the Weather API on Mashape uses these slashes in their cURL examples.)
 * By adding `-k` in the cURL command, you bypass cURL's security certificate, which may or may not be necessary.
-
-

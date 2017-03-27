@@ -3,6 +3,7 @@ title: List of about 100 APIs
 permalink: /pubapis_apilist/
 type: notes_docapis
 weight: 4.6
+redirect_to: /learnapidoc/pubapis_apilist.html
 ---
 {% include notes.html %}
 ## A survey of API documentation sites
@@ -114,4 +115,4 @@ Note that Programmableweb only lists web APIs, meaning APIs that you can access 
 ## Look at 5 different APIs
 
 
-Look at about 5 different APIs (choose any of those listed on the page). Look for one thing that the APIs have in common. 
+Look at about 5 different APIs (choose any of those listed on the page). Look for one thing that the APIs have in common.

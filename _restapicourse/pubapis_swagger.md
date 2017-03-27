@@ -4,6 +4,7 @@ permalink: /pubapis_swagger/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 5.41
+redirect_to: /learnapidoc/pubapis_swagger.html
 ---
 {% include notes.html %}
 

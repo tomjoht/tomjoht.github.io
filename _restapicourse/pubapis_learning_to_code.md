@@ -6,6 +6,7 @@ categories:
 course: "Documenting REST APIs"
 weight: 8.2
 type: notes_docapis
+redirect_to: /learnapidoc/pubapis_learning_to_code.html
 ---
 {% include notes.html %}
 

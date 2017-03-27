@@ -4,10 +4,11 @@ permalink: /nativelibraryapis_java_crash_course/
 course: "Documenting REST APIs"
 weight: 7.2
 type: notes_docapis
+redirect_to: /learnapidoc/nativelibraryapis_java_crash_course.html
 ---
 
 ## Overview
-To understand the different components of a Javadoc, you have to first understand a bit about Java. Just being familiar with the names of the different components of Java will allow you to enter conversations and understand code at a high level. When you describe different aspects of sample code, knowing when to call something a class, method, parameter, or enum can be critical to your documentation's credibility. 
+To understand the different components of a Javadoc, you have to first understand a bit about Java. Just being familiar with the names of the different components of Java will allow you to enter conversations and understand code at a high level. When you describe different aspects of sample code, knowing when to call something a class, method, parameter, or enum can be critical to your documentation's credibility.
 
 I'll run you through a brief crash course in the basics. For more detail about learning Java, I recommend consulting [lynda.com](http://lynda.com) and [safaribooksonline](http://safaribooksonline.com). Below I'll focus on some basic concepts in Java that will be important in understanding the Javadoc tags and elements.
 
@@ -19,7 +20,7 @@ Java is one of the most common languages used because of its flexibility. Java i
 
 Classes are templates or blueprints that drive pretty much everything in Java. It's easiest to understand classes through an example. Think of a class like a general blueprint of a "bicycle." There are many different types of bicycles (Trek bikes, Specialized bikes, Giant bikes, Raleigh bikes, etc.). But they're all just different instances of the general class of a bicycle.
 
-In Java, you start out by defining classes. Each class is its own file, and begins with a capital letter. The file name matches the class name, which means you have just one class per file. 
+In Java, you start out by defining classes. Each class is its own file, and begins with a capital letter. The file name matches the class name, which means you have just one class per file.
 
 Each class can contain a number of fields (variables for the class) and methods (subroutines the class can do).
 
@@ -45,7 +46,7 @@ You mostly need to focus on `public` classes, since these are the classes that w
 ## Methods
 
 Methods are subroutines or actions that the class can do. For example, with a bicycle you can pedal, brake, and turn. A class can have as many methods as it needs.
- 
+
 Methods can take arguments, so there are parentheses `()` after the method name. The arguments are variables that are used within the code for that method. For example:
 
 ```java
@@ -54,7 +55,7 @@ sum = a + b;
 }
 ```
 
-Methods can return values. When a method finishes, the value can be returned to the caller of the method. 
+Methods can return values. When a method finishes, the value can be returned to the caller of the method.
 
 Before the method name, the method indicates what type of data it returns. If the method doesn't return anything, `void` is listed. Other options are `String` or `int`.
 
@@ -69,7 +70,7 @@ class Bicycle {
 	void pedal(int rotations) {
 	System.out.println("Your speed is " + rotations + " per minute".);
 	}
-	
+
 	int brake(int force, int weight) {
 	torque == force * weight;
 	return torque;
@@ -77,7 +78,7 @@ class Bicycle {
 }
 ```
 
-See how the `brake` method accepts two arguments &mdash; `force` and `weight`? These arguments are integers, so Java excepts whole numbers here. (You must put the data type before the parameters in the method.) The arguments passed into this method get used to calculate the `torque`. The `torque` is then returned to the caller. 
+See how the `brake` method accepts two arguments &mdash; `force` and `weight`? These arguments are integers, so Java excepts whole numbers here. (You must put the data type before the parameters in the method.) The arguments passed into this method get used to calculate the `torque`. The `torque` is then returned to the caller.
 
 In Javadoc outputs, you'll see methods divided into two groups:
 
@@ -88,7 +89,7 @@ Somewhere in your Java application, users will have something called a `main` me
 
 ```java
 	public static void main(String[] args) {
-	
+
 	}
 ```
 
@@ -96,7 +97,7 @@ Inside the main method is where you add your code to make your program run. This
 
 ## Fields
 
-Fields are variables available within the class. A variable is a placeholder that is populated with a different value depending on what the user wants. 
+Fields are variables available within the class. A variable is a placeholder that is populated with a different value depending on what the user wants.
 
 Fields indicate their data types, because all data in Java is "statically typed" (meaning, its format/length is defined) so that the data doesn't take up more space than it needs. Some data types include `byte`, `short`, `long`, `int`, `float`, or `double`. Basically these are numbers or decimals of different sizes. You can also specify a `char`, `string`, or `boolean`.
 
@@ -126,7 +127,7 @@ If I wanted to use the `Bicycle` class, I would create an instance of the class.
 Bicycle myBicycle = new Bicycle();
 ```
 
-You write the class name followed by the object name for the class. Then assign the object to be a new instance of the class. Now you've got `myBicycle` to work with. 
+You write the class name followed by the object name for the class. Then assign the object to be a new instance of the class. Now you've got `myBicycle` to work with.
 
 The object inherits all of the fields and methods available to the class.
 
@@ -143,13 +144,13 @@ You probably won't see many objects in the native library. Instead, the develope
 
 ## Constructors
 
-Constructors are methods used to create new instances of the class. The default constructor for the class looks like the one above, with `new Bicycle()`. 
+Constructors are methods used to create new instances of the class. The default constructor for the class looks like the one above, with `new Bicycle()`.
 
 The constructor uses the same name as the class and is followed by parentheses (because constructors are methods).
 
-Often classes have constructors that initialize the object with specific values passed in to the constructor. 
+Often classes have constructors that initialize the object with specific values passed in to the constructor.
 
-For example, suppose we had a constructor that initialized the object with the brand and size: 
+For example, suppose we had a constructor that initialized the object with the brand and size:
 
 ```java
 public class Bicycle{
@@ -172,7 +173,7 @@ It's a best practice to include a constructor even if it's just the default.
 
 ## Packages
 
-Classes are organized into different packages. Packages are like folders or directories where the classes are stored. Putting classes into packages helps avoid naming conflicts. 
+Classes are organized into different packages. Packages are like folders or directories where the classes are stored. Putting classes into packages helps avoid naming conflicts.
 
 When you create your class, if it's in a package called `vehicles`, you list this package at the top of the class:
 
@@ -184,7 +185,7 @@ public class Bicycle{
 }
 ```
 
-Classes also set boundaries on access based on the package. If the access modifier did not say `public`, the class would only be accessible to members of the same package. If the access modifier were `protected`, the class would only be accessible to the class, package, and subclasses. 
+Classes also set boundaries on access based on the package. If the access modifier did not say `public`, the class would only be accessible to members of the same package. If the access modifier were `protected`, the class would only be accessible to the class, package, and subclasses.
 
 When you want to instantiate the class (and your file is outside the package), you need to import the package into your class, like this:
 
@@ -192,7 +193,7 @@ When you want to instantiate the class (and your file is outside the package), y
 import vehicles
 
 	public static void main(String[] args) {
-	
+
 	}
 ```
 
@@ -204,15 +205,15 @@ import transportation.motorless.vehicles.
 
 Here I would have a transportation package containing a package called motorless containing a package called vehicles. Package naming conventions are like URLs in reverse (com > yoursite > subdomain).
 
-Maven handles package management for Java projects. Maven will automatically go out and get all the package dependencies for a project when you install a Maven project. 
+Maven handles package management for Java projects. Maven will automatically go out and get all the package dependencies for a project when you install a Maven project.
 
 ## Exceptions
 
-In order to avoid broken code, developers anticipate potential problems with exception handling. Exceptions basically say, if there's an issue here, flag the error with this exception and then continue on through the code. 
+In order to avoid broken code, developers anticipate potential problems with exception handling. Exceptions basically say, if there's an issue here, flag the error with this exception and then continue on through the code.
 
 Different types of errors throw different exceptions. By identifying the type of exception thrown, you can more easily troubleshoot problems when code breaks because you know the specific error that's happening.
 
-You can identify a specific exception the class throws in the class name after the keyword `throws`: 
+You can identify a specific exception the class throws in the class name after the keyword `throws`:
 
 ```java
 public class Bicycle throws IOException {
@@ -240,10 +241,10 @@ An interface is a class that has methods with no code inside the method. Interfa
 
 ## JAR files and WAR files
 
-The file extension for a class is .java, but when compiled by the Java Development Kit into the Java program, the file becomes .class. The .class file is binary code, which means only computers (in this case, the Java Virtual Machine, or JVM) can read it. 
- 
-Developers often package up java files into a JAR file, which is like a zip file for Java projects. When you distribute your Java files, you'll likely provide a JAR file that the developer audience will add to their Java projects. 
- 
+The file extension for a class is .java, but when compiled by the Java Development Kit into the Java program, the file becomes .class. The .class file is binary code, which means only computers (in this case, the Java Virtual Machine, or JVM) can read it.
+
+Developers often package up java files into a JAR file, which is like a zip file for Java projects. When you distribute your Java files, you'll likely provide a JAR file that the developer audience will add to their Java projects.
+
 Developers will add their JAR to their class path to make the classes available to their project. To do this, you right-click your project and select **Properties**. In the dialog box, select **Java Build Path**, then click the **Libraries** tab. Then click **Add JARs** and browse to the JAR.
 
 When you deliver a JAR file, developers can use the classes and methods available in the JAR. However, the JAR will not show them the source code, that is, the raw Java files. For this, users will consult the Javadoc.
@@ -260,7 +261,7 @@ Here's a quick summary of the concepts we talked about:
 
 * **Class**: blueprints for something
 * **Object**: an instance of a class
-* **Methods**: what the object/class can do 
+* **Methods**: what the object/class can do
 * **Fields**: variables in the object/class
 * **Constructor**: a method to create an object for a class
 * **Package**: a folder that groups classes
@@ -270,4 +271,3 @@ Here's a quick summary of the concepts we talked about:
 * **Subclass**: a class that inherits the fields + methods of another class
 * **JAR file**: a zip-like file containing Java classes
 * **WAR file**: a compiled Java web application to be deployed on a server
-

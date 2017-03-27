@@ -7,6 +7,7 @@ keywords:
 course: "Documenting REST APIs"
 weight: 2.2
 type: notes_docapis
+redirect_to: /learnapidoc/.htmldocapis_access_json_values.html
 ---
 {% include notes.html %}
 

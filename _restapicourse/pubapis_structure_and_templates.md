@@ -4,6 +4,7 @@ permalink: /pubapis_structure_and_templates/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.4
+redirect_to: /learnapidoc/pubapis_structure_and_templates.html
 ---
 
 ## Using a template
@@ -19,7 +20,7 @@ You might want to insert various values (descriptions, methods, parameters, etc.
 
 ## Templates in Jekyll
 
-Different authoring tools have different ways of processing templates. In Jekyll, a static site generator, this is how you do it. 
+Different authoring tools have different ways of processing templates. In Jekyll, a static site generator, this is how you do it.
 
 In the frontmatter of a page, you list out the key value pairs:
 
@@ -29,7 +30,7 @@ resource_description: Gets the surf conditions for a specific beach.
 endpoint: /surfreport
 ```
 
-And so on. 
+And so on.
 
 You then use a for loop to cycle through each of the items and insert them into your template:
 
@@ -47,4 +48,3 @@ You then use a for loop to cycle through each of the items and insert them into 
 This approach makes it easy to change your template without reformatting all of your pages. For example, if you decide to change the order of the elements on the page, or if you want to add new classes or something, you just alter the template. The values remain the same, since they can be processed in any order.
 
 Note that this kind of structure is really only necessary if you have a lot of different endpoints. If you only have a handful, there's no need to really automate the template process.
-

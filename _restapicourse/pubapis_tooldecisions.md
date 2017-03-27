@@ -4,6 +4,7 @@ permalink: /pubapis_tooldecisions/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 4.8
+redirect_to: /learnapidoc/pubapis_tooldecisions.html
 ---
 
 ## Writers tools or developers tools

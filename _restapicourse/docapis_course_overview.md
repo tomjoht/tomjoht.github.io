@@ -5,6 +5,7 @@ redirect: http://idratherbewriting.com/restapicourse/
 course: "Documenting REST APIs"
 weight: 1.0
 type: notes_docapis
+redirect_to: /learnapidoc/index.html
 ---
 
 {% include notes.html %}

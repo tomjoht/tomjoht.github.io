@@ -1,16 +1,17 @@
 ---
 title: Creating the quick reference guide
 permalink: /docapis_doc_quick_reference/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.8
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_doc_quick_reference.html
 ---
 {% include notes.html %}
 
 ## About quick reference guides
 
-For those power users who just want to glance at the content to understand it, provide a quick reference guide. 
+For those power users who just want to glance at the content to understand it, provide a quick reference guide.
 
 The quick reference guide serves a different function from the getting started guide. The getting started guide helps beginners get oriented; the quick reference guide helps advanced users quickly find details about endpoints and other API details.
 

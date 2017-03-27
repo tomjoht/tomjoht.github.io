@@ -4,12 +4,13 @@ permalink: /pubapis_miredot/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.0
+redirect_to: /learnapidoc/pubapis_miredot.html
 ---
 ## How Miredot works
 
-One of the tools you can use to generate API documentation from source -- as long as your source is Java-based -- is Miredot. 
+One of the tools you can use to generate API documentation from source -- as long as your source is Java-based -- is Miredot.
 
-Miredot is a plugin for Maven, which is a build tool that you integrate into your Java IDE. Miredot can generate an offline website that looks like this: 
+Miredot is a plugin for Maven, which is a build tool that you integrate into your Java IDE. Miredot can generate an offline website that looks like this:
 
 <a href="http://miredot.com/exampledocs/"><img src="/images_api/miredotexample.png" alt="Miredot example" /></a>
 
@@ -19,7 +20,7 @@ Miredot supports many annotations in the source code to generate the output. The
 
 ## Example annotations
 
-Here's an example of what these annotations look like. Look at the [CatalogService.java](https://github.com/Qmino/miredot-petstore/blob/master/src/main/java/com/qmino/miredot/petstore/service/CatalogService.java) file. In it, one of the methods is `updateCategory`. 
+Here's an example of what these annotations look like. Look at the [CatalogService.java](https://github.com/Qmino/miredot-petstore/blob/master/src/main/java/com/qmino/miredot/petstore/service/CatalogService.java) file. In it, one of the methods is `updateCategory`.
 
 You can see that above this method is a "doc block" that provides a description, the parameters, method, and other details:
 
@@ -37,7 +38,7 @@ You can see that above this method is a "doc block" that provides a description,
     public void updateCategory(@PathParam("id") Long categoryId, Category category);
 ```
 
-Miredot consumes this information and generates an output. 
+Miredot consumes this information and generates an output.
 
 ## Activity: Explore Miredot's output
 

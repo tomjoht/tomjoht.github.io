@@ -4,6 +4,7 @@ permalink: /pubapis_static_site_generators/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 5.8
+redirect_to: /learnapidoc/pubapis_static_site_generators.html
 ---
 
 ## What are static site generators

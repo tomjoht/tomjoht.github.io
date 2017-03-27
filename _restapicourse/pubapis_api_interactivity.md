@@ -4,15 +4,16 @@ permalink: /pubapis_api_interactivity/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.8
+redirect_to: /learnapidoc/pubapis_api_interactivity.html
 ---
 
 ## API explorers
 
-A recurring feature in many API doc publishing sites is interactivity. Swagger, readme.io, Apiary, and many other platforms allow you to try out calls and see responses. 
+A recurring feature in many API doc publishing sites is interactivity. Swagger, readme.io, Apiary, and many other platforms allow you to try out calls and see responses.
 
-For APIs not on these platforms, wiring up an API Explorer is often done by engineers. Since you already have the API wiring to make calls and receive responses, creating an API Explorer is a feasible task for a UI developer. 
+For APIs not on these platforms, wiring up an API Explorer is often done by engineers. Since you already have the API wiring to make calls and receive responses, creating an API Explorer is a feasible task for a UI developer.
 
-Here's a sample API explorer from Twitter: 
+Here's a sample API explorer from Twitter:
 
 <a href="https://dev.twitter.com/rest/tools/console"><img src="/images_api/twitterapiexplorer.png" alt="Twitter API Explorer" /></a>
 
@@ -26,6 +27,6 @@ Nevertheless, clearly it is a design pattern to provide this kind of interactivi
 
 ## Dynamically populated code samples with API keys
 
-If your users log in, you can store their API keys and dynamically populate the calls with API keys. Not doing so seems a bit lazy with the user experience. The API key can most likely be a variable that stores the user's API key. 
+If your users log in, you can store their API keys and dynamically populate the calls with API keys. Not doing so seems a bit lazy with the user experience. The API key can most likely be a variable that stores the user's API key.
 
 However, if you store customer API keys on your site, this might create authentication and login requirements that make your site more complicated. If you have users logging in and dynamically populating the explorer with their API keys, you'll probably need a front-end designer and web developer to pull this off. [readme.io](http://readme.io) is one of the platforms that allows you to store API keys for users and dynamically populate your code samples with them.

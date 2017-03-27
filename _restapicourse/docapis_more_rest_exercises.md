@@ -1,10 +1,11 @@
 ---
 title: Exploring more REST APIs
 permalink: /docapis_more_rest_exercises/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.9
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_more_rest_exercises.html
 ---
 {% include notes.html %}
 

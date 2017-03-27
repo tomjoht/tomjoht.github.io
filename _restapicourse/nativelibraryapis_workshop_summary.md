@@ -4,6 +4,7 @@ course: "Documenting REST APIs"
 permalink: /nativelibraryapis_workshop_summary/
 weight: 7.9
 type: notes_docapis
+redirect_to: /learnapidoc/nativelibraryapis_workshop_summary.html
 ---
 
 {% include notes.html %}

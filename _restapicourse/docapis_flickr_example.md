@@ -6,6 +6,7 @@ categories:
 course: "Documenting REST APIs"
 weight: 4.1
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_flickr_example.html
 ---
 
 {% include notes.html %}

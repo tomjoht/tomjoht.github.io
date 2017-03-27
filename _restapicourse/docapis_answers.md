@@ -3,6 +3,7 @@ title: Answers
 permalink: /docapis_answers/
 course: "Documenting REST APIs"
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_answers.html
 ---
 {% include notes.html %}
 

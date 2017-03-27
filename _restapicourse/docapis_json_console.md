@@ -3,27 +3,28 @@ title: Using the JSON from the response payload
 permalink: /docapis_json_console/
 categories:
 - api-doc
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 2.1
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_json_console.html
 ---
 {% include notes.html %}
 
 ## Making use of the JSON response
 
-Seeing the response from cURL or Postman is cool, but how do you make use of the JSON data? 
+Seeing the response from cURL or Postman is cool, but how do you make use of the JSON data?
 
-With most API documentation, you don't need to show how to make use of JSON data. You assume that developers will use their JavaScript skills to parse through the data and display it appropriately in their apps. 
+With most API documentation, you don't need to show how to make use of JSON data. You assume that developers will use their JavaScript skills to parse through the data and display it appropriately in their apps.
 
-However, to better understand how developers will access the data, we'll go through a brief tutorial to display the REST response on a web page. 
+However, to better understand how developers will access the data, we'll go through a brief tutorial to display the REST response on a web page.
 
 ## Display part of the REST JSON response on a web page
 
 Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse and display the REST response on a web page using JavaScript. You could use it, but you could also use some auto-generated code from Postman to do pretty much the same thing.
 
 1. Start with a basic HTML template with jQuery referenced, like this:
-	
+
    ```html
 	<html>
 	<head>
@@ -31,30 +32,30 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
-	
+
 	</body>
 	</html>
    ```
-	
+
 	Save your file with a name such as weatherdata.html.
-	
+
 2. Open Postman and click the request to the `weatherdata` endpoint that you configured earlier.
 3. Click the **Generate Code Snippet** button.
-	
+
 	<img src="/images_api/postmangeneratecodesnippet.png" alt="Generate code snippet" />
-	
+
 4. Select **JavaScript > jQuery AJAX**.
 5. Copy the code sample.
-6. Insert the Postman code sample between `<script>` tags in the same template you started building in step 1. 
-	
+6. Insert the Postman code sample between `<script>` tags in the same template you started building in step 1.
+
 	You can put the script in the `head` section if you want &mdash; just make sure you add it after the jQuery reference.
-	
+
 7. The Postman code sample needs one more parameter: `dataType`. Add `"dataType": "json"` as parameter in `settings`.
 
 	{{warning}} Make sure you capitalize the <code>T</code> in <code>dataType</code>.{{end}}
-	
+
 	Your final code should look like this:
-	
+
    ```html
 	<html>
 	<head>
@@ -81,16 +82,16 @@ Mashape [provides some sample code](http://docs.mashape.com/javascript) to parse
 	</body>
 	</html>
    ```
-	
+
 8. Start Chrome and open the JavaScript Console by going to **View > Developer > JavaScript Console**.
 9. Open the weatherdata.html file in Chrome (**File > Open File**).
-	
+
 	The page body will be blank, but the weatherdata response should be logged to the JavaScript console. You can inspect the payload by expanding the sections.
-	
+
 	<img src="/images_api/jsonpayloadweatherdata.png" alt="JSON payload from weatherdata API logged to console" />
-	
+
 	Note that Chrome tells you whether each expandable section is an object or an array. Knowing this is critical to accessing the value through JavaScript dot notation.
-	
+
 	The following sections will explain this AJAX code a bit more.
 
 ## The AJAX method from jQuery
@@ -141,5 +142,3 @@ Customizing log messages is helpful if you're logging various things to the cons
 ## Inspect the payload
 
 Inspect the payload by expanding each of the sections in the Mashape weather API. Find the section that appears here: **object > query > results > channel > item > description.**
-
-

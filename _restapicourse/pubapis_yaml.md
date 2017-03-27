@@ -4,6 +4,7 @@ permalink: /pubapis_yaml/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 5.5
+redirect_to: /learnapidoc/pubapis_yaml.html
 ---
 {% include notes.html %}
 
@@ -12,10 +13,10 @@ weight: 5.5
 When you created the Swagger file, you used a syntax called YML. YML stands for "YAML Ain't Markup Language." This means that the YAML syntax doesn't have markup tags such as `<` or `>`.
 
 <figure><a href="http://yaml.org/"><img src="/images_api/yamlscreenshot.png" alt="YAML" /></a><figcaption>The YAML site itself is written using YAML, which you can immediately see is not intended for coding web pages.</figcaption></figure>
- 
-YML is easier to work with because it generally removes the brackets, curly braces, and commas that get in the way of reading content. 
 
-YML is an attempt to create a more human readable data exchange format. It's similar to JSON (JSON is actually a subset of YAML) but uses spaces to indicate the structure. 
+YML is easier to work with because it generally removes the brackets, curly braces, and commas that get in the way of reading content.
+
+YML is an attempt to create a more human readable data exchange format. It's similar to JSON (JSON is actually a subset of YAML) but uses spaces to indicate the structure.
 
 Many computers ingest data in a YML or JSON format. It's a syntax commonly used in configuration files and an increasing number of platforms (like Jekyll), so it's a good idea to become familiar with it.
 
@@ -39,11 +40,11 @@ Each level can contain either a single key-value pair (also referred to as a dic
 
 ```yaml
 ---
-  level3: 
-    - 
+  level3:
+    -
       itema: "one"
       itemameta: "two"
-    - 
+    -
       itemb: "three"
       itembmeta: "four"
 ```
@@ -52,7 +53,7 @@ YAML files begin with `---`. The values for each key can optionally be enclosed 
 
 ## Comparing JSON to YAML
 
-Earlier in the course, we looked at various JSON structures involving objects and arrays. Here let's look at the equivalent YAML syntax for each of these same JSON objects. 
+Earlier in the course, we looked at various JSON structures involving objects and arrays. Here let's look at the equivalent YAML syntax for each of these same JSON objects.
 
 {{tip}} You can use <a href="http://www.unserialize.me/">Unserialize.me</a> to make the conversion from JSON to YAML or YAML to JSON. {{end}}
 
@@ -137,18 +138,18 @@ Here's the same array containing objects converted to YAML:
     name: Shannon
     age: 37
 ```
-   
+
 Hopefully by seeing the syntax side by side, it will begin to make more sense. Is the YAML syntax more readable? It might be difficult to see in these simple examples.
 
-JavaScript uses the same dot notation techniques to access the values in YAML as it does in JSON. (They're pretty much interchangeable formats.) The benefit to using YAML, however, is that it's more readable than JSON. 
+JavaScript uses the same dot notation techniques to access the values in YAML as it does in JSON. (They're pretty much interchangeable formats.) The benefit to using YAML, however, is that it's more readable than JSON.
 
 However, YAML is more tricky sometimes because it depends on getting the spacing just right. Sometimes that spacing is hard to see (especially with a complex structure), and that's where JSON (while maybe more cumbersome) maybe easier to troubleshoot.
 
 ## Some features of YAML not present in JSON
 
-YAML has some features that JSON lacks. 
+YAML has some features that JSON lacks.
 
-You can add comments in YAML files using the `#` sign. 
+You can add comments in YAML files using the `#` sign.
 
 YAML also allows you to use something called "anchors." For example, suppose you have two definitions that are similar. You could write the definition once and use a pointer to refer to both:
 
@@ -160,5 +161,4 @@ application_programming_interface: *apidef
 If you access the value (e.g., `yamlfile.api` or `yamlfile.application_programming_interface`), the same definition will be used for both. The `*apidef` acts as an anchor or pointer to the definition established at `&apidef`.
 
 For details on other differences, see [Learn YAML in Minutes](http://learnxinyminutes.com/docs/yaml/).
-To learn more about YML, see this [YML tutorial](http://rhnh.net/2011/01/31/yaml-tutorial). 
-
+To learn more about YML, see this [YML tutorial](http://rhnh.net/2011/01/31/yaml-tutorial).

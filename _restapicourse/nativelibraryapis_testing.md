@@ -4,6 +4,7 @@ course: "Documenting REST APIs"
 permalink: /nativelibraryapis_testing/
 weight: 3.11
 type: notes_docapis
+redirect_to: /learnapidoc/nativelibraryapis_testing.html
 ---
 
 ## Testing overview

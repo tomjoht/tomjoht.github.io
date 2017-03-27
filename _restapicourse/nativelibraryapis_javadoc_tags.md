@@ -4,6 +4,7 @@ permalink: /nativelibraryapis_javadoc_tags/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 7.4
+redirect_to: /learnapidoc/nativelibraryapis_javadoc_tags.html
 ---
 
 {% include notes.html %}

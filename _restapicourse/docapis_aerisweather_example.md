@@ -1,10 +1,11 @@
 ---
 title: 'Aeris Weather Example: Get wind speed and use as conditional value'
 permalink: /docapis_aerisweather_example/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 4.3
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_aerisweather_example.html
 ---
 {% include notes.html %}
 
@@ -178,4 +179,3 @@ To add a little variety to the code samples, here's one that's a bit different. 
 Here's the result:
 
 <img src="/images_api/notthatwindy.png" alt="Aeris Weather example" />
-

@@ -7,6 +7,7 @@ keywords:
 course: "Documenting REST APIs"
 weight: 1.3
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_scenario_for_using_weather_api.html
 ---
 {% include notes.html %}
 

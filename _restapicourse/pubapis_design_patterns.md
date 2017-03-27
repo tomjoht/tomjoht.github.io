@@ -4,6 +4,7 @@ permalink: /pubapis_design_patterns/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.8
+redirect_to: /learnapidoc/pubapis_design_patterns.html
 ---
 
 ## What are design patterns

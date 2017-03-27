@@ -1,10 +1,11 @@
 ---
 title: Writing the Getting Started section
 permalink: /docapis_doc_getting_started_section/
-keywords: 
+keywords:
 course: "Documenting REST APIs"
 weight: 3.4
 type: notes_docapis
+redirect_to: /learnapidoc/docapis_doc_getting_started_section.html
 ---
 {% include notes.html %}
 
@@ -68,4 +69,3 @@ In developer documentation, one common topic type is a Hello World tutorial. The
 Although you don't usually write Hello World messages with the API, the concept is the same. You want to show a user how to use your API to get the simplest and easiest result, so they get a sense of how it works and feel productive. That's what the Getting Started section is all about.
 
 You could take a common, basic use case for your API and show how to construct a request, as well as what response returns. If a developer can make that call successfully, he or she can probably be successful with the other calls too.
-

@@ -4,6 +4,7 @@ permalink: /pubapis_api_blueprint/
 course: "Documenting REST APIs"
 type: notes_docapis
 weight: 5.7
+redirect_to: /learnapidoc/pubapis_api_blueprint.html
 ---
 {% include notes.html %}
 ## API Blueprint is another spec

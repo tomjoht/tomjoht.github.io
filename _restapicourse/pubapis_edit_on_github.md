@@ -5,6 +5,7 @@ course: "Documenting REST APIs"
 type: notes_docapis
 weight: 6.81
 published: false
+redirect_to: /learnapidoc/pubapis_api_blueprint.html
 ---
 {% include notes.html %}
 
