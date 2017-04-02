@@ -94,7 +94,7 @@ Upon arrival, the user opens the door and signs for the incoming agent. The deli
 
 This model of tier 1, tier 2, and tier 3 support aligns with Amazon's goal to be the *most customer-centric company in the world*.
 
-Although still in the design phase, there is also discussions about a possible tier 4 support. With tier 4 support, a drone with a small cargo bay is dispatched to your door. The user inserts the product or computer into the drone's cargo bay, and the drone returns to a nearby customer resolution center.
+Although still in the design phase, there are also discussions about a possible tier 4 support. With tier 4 support, a drone with a small cargo bay is dispatched to your door. The user inserts the product or computer into the drone's cargo bay, and the drone returns to a nearby customer resolution center.
 
 When the issue is resolved, the customer receives a text and the drone returns to the user's location with the product correctly configured or fixed. Implementation of Tier 4 support is dependent on the rollout of Amazon's drone program, which is still in development.
 
