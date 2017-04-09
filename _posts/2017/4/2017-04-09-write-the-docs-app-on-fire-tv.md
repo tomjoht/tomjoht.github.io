@@ -21,7 +21,7 @@ Here's what the app screens look like on your Fire TV:
 
 The app also contains meetup recordings. The meetups are divided by category, making them easy to navigate.
 
-## Why I build a Fire TV app
+## Why I built a Fire TV app
 
 I didn't set out to build a Fire TV app because I think a lot of tech writers are eager to watch video recordings of podcasts or meetups at home on their TV through a ten-foot experience. I made the app as a sample app for a product I'm documenting at work called [Fire App Builder](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview).
 
