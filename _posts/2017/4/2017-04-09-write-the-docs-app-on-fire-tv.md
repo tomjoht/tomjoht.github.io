@@ -7,17 +7,21 @@ summary: "The Write the Docs Podcast app is now on Fire TV. If you have a Fire T
 bitlink: http://bit.ly/tryyourdoccode
 ---
 
+## Viewing the WTD Fire TV app
+
 You can view the Write the Docs podcast app in the Amazon Appstore web UI [here](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs).
 
-<a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs"><img src=""/images/writethedocastfiretvapp.png" />
+<a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs"><img src="/images/writethedocastfiretvapp.png" />
 
 Here's what the app screens look like on your Fire TV:
 
-![Write the Docs Podcast app](/images/wtdpodcastscreenshot1)
+![Write the Docs Podcast app](/images/wtdpodcastscreenshot1.png)
 
-![Write the Docs Podcast app](/images/wtdpodcastscreenshot2)
+![Write the Docs Podcast app](/images/wtdpodcastscreenshot2.png)
 
 The app also contains meetup recordings. The meetups are divided by category, making them easy to navigate.
+
+## Why I build a Fire TV app
 
 I didn't set out to build a Fire TV app because I think a lot of tech writers are eager to watch video recordings of podcasts or meetups at home on their TV through a ten-foot experience. I made the app as a sample app for a product I'm documenting at work called [Fire App Builder](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview).
 
@@ -81,6 +85,8 @@ The most difficult part in setting up this feed was configuring the `recommendat
 
 After I had the media and the feed, integrating it into Fire App Builder was easy because, after all, I [wrote the documentation](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview) on how to do this.
 
+## Submitting the app into the Appstore
+
 Submitting the app into the Appstore was actually fun. And it helped me see some challenges developers were having in submitting apps. For example, I found out that device targeting (listing certain features in your manifest to identify which Fire devices your app supports) doesn't work correctly for Fire TV apps. This issue wasn't directly related to the Fire App Builder template, though.
 
 I also discovered an issue with the app template that devs had been unaware of. Although devs had tested the app template for many months, they hadn't tested pushing apps into the Appstore with it. It turns out that the app has an in-app purchases component (not active or configured by default) that triggers the Appstore to automatically add a tag indicating that the app contains in-app purchases.
@@ -93,6 +99,8 @@ It's not always possible to run code through real situations, and there are some
 
 It is often difficult to set up scenarios to test developer tools, but it's necessary, and once you set up a system, it empowers you to test and try out many other features. For example, after I had the app built, I could then test out the [recommendations feature](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-recommendations-overview), which was the big feature in the release. I could also test out device targeting, and so on.
 
+## Challenges in testing developer documentation
+
 Testing documentation for developers is difficult because we often just provide reference APIs for them to integrate into their own apps. We assume that they already have apps, and so all they need is the API integration information.
 
 For example, for general Fire TV users who aren't using the Fire App Builder template, I also wrote documentation on how to integrate and send [recommendations](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-tv-recommendations-overview). But since I didn't have my own Fire TV app to test this with, I didn't play around with the code to actually send recommendations. I had to take on faith much of this information based on the engineer's instructions and the feedback we were getting from users.
@@ -100,5 +108,7 @@ For example, for general Fire TV users who aren't using the Fire App Builder tem
 As you can imagine, I later discovered gaps in the docs that I need to address. For example, when you actually send recommendations to Fire TV, Fire TV only uses some of the recommendations info you send, but I didn't indicate in the docs which fields actually get used. This can leave devs wondering if they integrated the recommendations correctly.
 
 Putting together an app from scratch that leverages all the recommendations API calls is something I need to do, but getting that initial foundation going is much harder than starting with a sample app template. Even so, it's the next step I need to take.
+
+## Conclusion
 
 Overall, make sure to test the code you're documenting in as real of a situation as you can. You'll be surprised what you discover. Reporting back the issues to your team will make your product stronger and increase your value. It also makes tech writing a lot more engaging.
