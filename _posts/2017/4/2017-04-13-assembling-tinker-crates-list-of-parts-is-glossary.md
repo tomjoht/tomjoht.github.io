@@ -41,13 +41,13 @@ It's not so important to know that you have all the parts. No, what's important 
 
 This list of parts is really a **dictionary** that assigns names to the parts you'll be working with. Imagine if you had to assemble something without having this list of parts and their names. Here's a sample "dictionary" for working with a Tinker Crate project:
 
-<img src="/images/tinkerpartsglossary.jpg" />
+<img src="/images/tinkerpartsglossary2.jpg" />
 
 When you go to a step that might say, "Place the jellyfish decorations on the jellyfish felt piece," or "Place the doohicky on the thingamajiggle," or "Take the left hexapiece and insert it into the square knobkin," or whatever, without a map/dictionary correlating objects with names, you would have to guess what each name referred to.
 
 Even with IKEA's wordless manuals, they still name their parts with 2x, 3x, and so forth names.
 
-<img src="/images/ikeapartsglossary.jpg"/>
+<img src="/images/ikeapartsglossary2.jpg"/>
 
 I think we will all admit that assembly instructions **must** provide a list of parts along with their names. And we assume that the writer will use these names consistently throughout the instructions. Following instructions is mostly a matter of learning new vocabulary and doing things with that new vocabulary. (Following instructions requires you to learn a new language.)
 
