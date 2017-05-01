@@ -8,9 +8,9 @@ summary: "I recently created an HTML5 web app called Calm Meditation. If you hav
 bitlink: http://bit.ly/calm-meditation-app
 ---
 
-You can view my Calm Meditation app in the Amazon Appstore [here](https://www.amazon.com/Id-Rather-Be-Writing-Meditation/dp/B07113FTD2/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1493162145&sr=1-1&keywords=calm+meditation).
+You can view my Calm Meditation app in the Amazon Appstore [here](https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1).
 
-<a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditation/dp/B07113FTD2/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1493162145&sr=1-1&keywords=calm+meditation"><img src="/images/calm-meditation-app.png"></a>
+<a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1"><img src="/images/calm-meditation-app.png"></a>
 
 On your Fire TV, search for "Calm Meditation." (The app doesn't work on Kindle tablets.)
 

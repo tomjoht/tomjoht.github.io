@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Building navigation for your doc site: 5 best practices</title>
+    <title>Building navigation for your doc site: 5 design principles</title>
     <!-- favicon icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -95,7 +95,7 @@
         <section>
             <h1 style="font-size:95px;">Building navigation for docs
             </h1>
-            <h1 style="font-size:75px;">5 best practices</h1>
+            <h1 style="font-size:75px;">5 design principles</h1>
 
             <p class="center">
                 <small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
@@ -106,7 +106,7 @@
                 <small style="color: gray">Write the Docs Portland 2017 <br/>May 15, 2017</small>
             </p>
         </section>
-
+<!--
        <section>
            <h2>About me</h2>
            <div>
@@ -157,7 +157,7 @@
             </section>
         </section>
 
-
+-->
         <section>
             <h2>Observations in Usability Labs</h2>
             <figure>
@@ -176,7 +176,7 @@
 <section>
   <section>
   <h2>1. Entry Point</h2>
-  <p>The entry point to your system should orient users and allow them to easily get started.</p>
+  <p>Design the entry point to your system to orient users and allow them to easily get started.</p>
 </p>
 </section>
 
@@ -213,10 +213,11 @@
 
 </section>
 
+<!-- Hierarchy -->
 <section>
   <section>
   <h2>2. Hierarchy</h2>
-  <p>A hierarchical outline of the content (with parent and child items) helps users both understand and visualize complex information. </p>
+  <p>Create a hierarchical outline of the content to help users both understand and visualize complex information. </p>
   <aside class="notes">
   <p>Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.</p>
 
@@ -283,6 +284,7 @@
 
 </section>
 
+<!-- Modularity -->
 <section>
   <section>
   <h2>3. Modularity</h2>
@@ -379,7 +381,7 @@
 <section>
     <section>
         <h2>4. Progressive Disclosure</h2>
-        <p>Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels.</p>
+        <p>Layer the information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels.</p>
     </section>
     <section><h3>Basics first, then expert features</h3>
         <blockquote>Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
@@ -401,14 +403,52 @@
             <p>— Can apply PD at various levels -- in app, in help, in topic</p>
         </aside>
     </section>
-
+    <section>
+        <h3>Quick reference guides</h3>
+        <p>Instead of eliminating potentially useful info, provide quick reference guides that help users get oriented quickly with minimal cognitive load and low cost.</p>
+    </section>
+    <section>
+        <h3>What are quick reference guides</h3>
+        <ul>
+            <li>Differs from getting started, but both are welcome </li>
+            <li>Main tasks described in compressed, poetry-like form</li>
+            <li>Like cliff notes or cheat sheet</li>
+            <li>Shows shape of help content</li>
+            <li>Especially helpful for lists of functions, classes, methods</li>
+        </ul>
+        </aside>
+    </section>
+    <section>
+        <h3>Quick reference guides example</h3>
+        <a href="http://cheat.markdunkley.com/"><img src="media/rasters/shopify.png" /></a>
+    </section>
+    <section>
+        <h3><span class="box">Strategy:</span> Create "getting started" guides</h3>
+        <a href="http://docs.vagrantup.com/v2/getting-started/index.html"><img src="media/rasters/vagrant.png"/></a>
+        <aside class="notes">
+            <p>— Outlines first steps in application</p>
+            <p>— This should be a required section in any guide</p>
+        </aside>
+    </section>
+    <section>
+        <h3> Complex process layouts</h3>
+        <div style="margin-left: auto; margin-right: auto; width: 800px;">
+            <a href="http://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; float:left;" src="media/rasters/quickreferenceguide1.png"/></a>
+            <a href="http://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; margin-left: 50px; float:left;" src="media/rasters/quickreferenceguide2.png"/></a>
+        </div>
+    </section>
+    <section>
+        <h3>Quick reference guide layouts</h3>
+        <a href="http://idratherbewriting.com/quickreferenceguides"><img src="media/rasters/oneprocess.png"></a>
+        <aside class="notes"><a href="https://learn.mdsol.com/csa/en/medidata-centralized-statistical-analytics-csa-53356842.html">Sample</a>. Good to have a Getting Started section. The first link leads to <a href="https://learn.mdsol.com/csa/en/about-medidata-centralized-statistical-analytics-csa-53356863.html">this page</a>. You could take the getting started guides a step further and compress the essential instructions into a 2 page guide. Another <a href="https://learn.mdsol.com/api/mcc-resources/api-quick-reference-65027014.html">example</a> that is more QRG than GSG.</aside>
+    </section>
 </section>
 
 <!-- Wayfinding -->
 <section>
     <section>
         <h2>5. Wayfinding</h2>
-        <p>Provide navigational signposts &mdash; such as breadcrumbs or other workflow maps &mdash; to help orient users as to where they are in a larger system. </p>
+        <p>Provide navigational signposts &mdash; such as breadcrumbs and workflow maps &mdash; to help orient users as to where they are in a larger system. </p>
         <aside class="notes"><p>Don't assume that the user navigated to the current page following the path you intended.</p>
         <p>Provide breadcrumbs above your topic titles that show the path to the topics. Assume that users may not arrive at the topic in the way you expect, and they will appreciate the context that breadcrumb provides.</p>
           <p>Also provide abundant inline links in your sentences that help users navigate directly within the field of vision. Freely infuse links into phrases, words, or other parts of the sentence without always listing out the full title of the cross-reference.
@@ -425,13 +465,13 @@
       <!-- Summary -->
         <section>
             <h2>Summary of doc navigation principles</h2>
-            <ul>
-                <li>1. Entry Point</li>
-                <li>2. Hierarchy</li>
-                <li>3. Modularity</li>
-                <li>4. Progressive Disclosure</li>
-                <li>5. Wayfinding</li>
-            </ul>
+            <ol>
+                <li>Entry Point</li>
+                <li>Hierarchy</li>
+                <li>Modularity</li>
+                <li>Progressive Disclosure</li>
+                <li>Wayfinding</li>
+            </ol>
         </section>
 
         <section>
