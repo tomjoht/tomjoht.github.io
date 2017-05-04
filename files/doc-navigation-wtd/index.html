@@ -88,6 +88,8 @@
             margin-top: 30px;
         }
     </style>
+    <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
+
 </head>
 <body>
 <div class="reveal">
@@ -176,6 +178,7 @@
 <section>
   <section>
   <h2>1. Entry Point</h2>
+  <img src="media/vectors/wtd_doc_navigation_entrypoint.svg"/>
   <p>Design the entry point to your system to orient users and allow them to easily get started.</p>
 </p>
 </section>
@@ -217,55 +220,21 @@
 <section>
   <section>
   <h2>2. Hierarchy</h2>
-  <p>Create a hierarchical outline of the content to help users both understand and visualize complex information. </p>
+  <img src="media/vectors/wtd_doc_navigation_hierarchy.svg"/>
+  <p>Create a hierarchical outline of the content to help users both understand and visualize the body of information. </p>
   <aside class="notes">
   <p>Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.</p>
 
   <p>Include a navigation sidebar that contains a hierarchical representation of a group of topics. Right-size the group so that it's not too massive, nor too small, but rather provides meaningful at-a-glance context at a defined scope.</p>
 </aside>
   </section>
-  <section>
-      <h3>Hierarchy provides meaning</h3>
-      <blockquote>Navigation provides a narrative for people to follow on the web. <small><br/>&mdash; James Kalbach, <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
-      </blockquote>
 
-      <aside class="notes">
-     Classifying things into groups is one of the first acts of science and contributes to the meaning of those things. Things in one group have certain characteristics that differ from other groupings, and so on. These groupings provide meaning.
-      </aside>
-  </section>
   <section>
       <h3>Example: Google</h3>
       <a href="https://developers.google.com/actions/develop/conversation"><img src="media/rasters/googlevoicedoc.png"/>
       </a>
   </section>
-  <section>
-      <h3>Tip: Shorten titles in your navigation</h3>
-      <table style="font-size: 24px;>
-          <tbody>
-          <tr style="margin-bottom:10px;">
-              <td style="padding: 20px;">"Getting Started Building <br/>Widgets for System Z"</td>
-              <td style="padding: 20px;">→</td>
-              <td style="padding: 20px;">"Build widgets"</td>
-          </tr>
-          <tr>
-              <td style="padding: 20px;">"About Managing Language <br/>Settings in Product Z"</td>
-              <td style="padding: 20px;">→</td>
-              <td style="padding: 20px;">"Manage language settings"</td>
-          </tr>
-          <tr>
-              <td style="padding: 20px;">"Configuring the Gizmo Settings<br/> for Development Environments"</td>
-              <td style="padding: 20px;">→</td>
-              <td style="padding: 20px;">"Set up developer environment"</td>
-          </tr>
-          </tbody>
-      </table>
-  </section>
 
-  <section>
-    <h3>Avoid non-standard design</h3>
-    <img src="media/rasters/intersection.jpg"/>
-
-</section>
   <section>
       <h3>Example: Sentry</h3>
       <a href="https://docs.sentry.io/"><img src="media/rasters/sentry.png"/></a>
@@ -282,12 +251,98 @@
       </aside>
   </section>
 
+<section>
+  <h3>A hierarchy is a list of parts</h3>
+  <img src="media/vectors/wtd_doc_navigation_listofparts.svg"/>
+
+</section>
+
+  <section>
+    <h3>Hierarchies provide an overview of the "whole"</h3>
+    <img src="media/vectors/wtd_doc_navigation_wholevspart.svg"/>
+  </section>
+
+
+
+  <section>
+      <h3>Hierarchy provides meaning</h3>
+      <blockquote>Navigation provides a narrative for people to follow on the web. <small><br/>&mdash; James Kalbach, <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
+      </blockquote>
+
+      <aside class="notes">
+     Classifying things into groups is one of the first acts of science and contributes to the meaning of those things. Things in one group have certain characteristics that differ from other groupings, and so on. These groupings provide meaning.
+      </aside>
+  </section>
+
+  <section>
+    <h3>Hierarchies show what's in the neighborhood</h3>
+    <img src="media/vectors/wtd_doc_navigation_neighborhood.svg"/>
+  </section>
+
+  <section>
+    <h3>Avoid deep hierarchies</h3>
+    <img src="media/vectors/wtd_doc_navigation_flatdeephierarchies.svg"/>
+  </section>
+
+
+  <section>
+    <h3>Avoid non-standard design</h3>
+    <img src="media/rasters/intersection.jpg"/>
+    <aside class="notes">
+<p>Users expect to see the navigation sidebar on the left. Don't get too creative in how you display this. For example, avoid navigation that shows all the options listed in the breadcrumb paths as drop-downs.</p>
+    </aside>
+
+</section>
+</section>
+
+<!-- Wayfinding -->
+<section>
+    <section>
+        <h2>3. Wayfinding</h2>
+        <img src="media/vectors/wtd_doc_navigation_wayfinding.svg"/>
+
+        <p>Provide navigational signposts &mdash; such as links, breadcrumbs, and workflow maps &mdash; to help orient users as to where they are in a larger system. </p>
+
+        <aside class="notes"><p>Don't assume that the user navigated to the current page following the path you intended.</p>
+        <p>Provide breadcrumbs above your topic titles that show the path to the topics. Assume that users may not arrive at the topic in the way you expect, and they will appreciate the context that breadcrumb provides.</p>
+          <p>Also provide abundant inline links in your sentences that help users navigate directly within the field of vision. Freely infuse links into phrases, words, or other parts of the sentence without always listing out the full title of the cross-reference.
+          </aside>
+
+    </section>
+
+    <section>
+        <h3>Users primarily navigate with inline links</h3>
+        <img src="media/vectors/wtd_doc_navigation_inlinelinks.svg"/>
+    </section>
+
+    <section>
+        <h3>Bottom-up navigation</h3>
+        <blockquote>
+          <ul>
+            <li>If you tell me I can do something, link to how to do that something</li>
+            <li>if you tell me I can use something, link to a description of that something</li>
+            <li>if you mention a concept or an idea, link to a description of that concept or idea</li>
+          </blockquote>
+    </section>
+
+    <section>
+      <h3>Example: Wikipedia</h3>
+      <img src=""/>
+
+    </section>
+
+
+    <section>
+        <h3>Example breadcrumbs from Facebook</h3>
+        <a href="https://developers.facebook.com/docs/accountkit/countrycodes"><img src="media/rasters/facebookbreadcrumbs.png"/></a>
+    </section>
 </section>
 
 <!-- Modularity -->
 <section>
   <section>
   <h2>3. Modularity</h2>
+  <img src="media/vectors/wtd_doc_navigation_modularity.svg"/>
   <p>Break up content into independent topics that can be viewed, understood, and updated independent of the whole.  </p>
 <aside class="notes">
   <p>A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.</p>
@@ -381,7 +436,8 @@
 <section>
     <section>
         <h2>4. Progressive Disclosure</h2>
-        <p>Layer the information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels.</p>
+        <img src="media/vectors/wtd_doc_navigation_progressivedisclosure.svg"/>
+        <p>Layer the information so that you don't present everything at once but rather make some content available only at secondary or tertiary levels.</p>
     </section>
     <section><h3>Basics first, then expert features</h3>
         <blockquote>Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
@@ -441,23 +497,6 @@
         <h3>Quick reference guide layouts</h3>
         <a href="http://idratherbewriting.com/quickreferenceguides"><img src="media/rasters/oneprocess.png"></a>
         <aside class="notes"><a href="https://learn.mdsol.com/csa/en/medidata-centralized-statistical-analytics-csa-53356842.html">Sample</a>. Good to have a Getting Started section. The first link leads to <a href="https://learn.mdsol.com/csa/en/about-medidata-centralized-statistical-analytics-csa-53356863.html">this page</a>. You could take the getting started guides a step further and compress the essential instructions into a 2 page guide. Another <a href="https://learn.mdsol.com/api/mcc-resources/api-quick-reference-65027014.html">example</a> that is more QRG than GSG.</aside>
-    </section>
-</section>
-
-<!-- Wayfinding -->
-<section>
-    <section>
-        <h2>5. Wayfinding</h2>
-        <p>Provide navigational signposts &mdash; such as breadcrumbs and workflow maps &mdash; to help orient users as to where they are in a larger system. </p>
-        <aside class="notes"><p>Don't assume that the user navigated to the current page following the path you intended.</p>
-        <p>Provide breadcrumbs above your topic titles that show the path to the topics. Assume that users may not arrive at the topic in the way you expect, and they will appreciate the context that breadcrumb provides.</p>
-          <p>Also provide abundant inline links in your sentences that help users navigate directly within the field of vision. Freely infuse links into phrases, words, or other parts of the sentence without always listing out the full title of the cross-reference.
-          </aside>
-
-    </section>
-    <section>
-        <h3>Example breadcrumbs from Facebook</h3>
-        <a href="https://developers.facebook.com/docs/accountkit/countrycodes"><img src="media/rasters/facebookbreadcrumbs.png"/></a>
     </section>
 </section>
 
