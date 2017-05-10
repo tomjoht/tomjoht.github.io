@@ -3,8 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 200" enable-background="new 0 0 600 200" xml:space="preserve">
-<polygon points="223.9,38.8 188.5,38.8 188.5,161.2 191.5,161.2 191.5,62.1 223.9,62.1 "/>
-<path d="M400.3,143.3h-31.4V121h31.4V143.3z M360.6,143.3h-40.5V121h40.5V143.3z M311.7,143.3h-31.4V121h31.4V143.3z M269.2,95
-	h-12.4V83.9h12.4V95z M221,158.5V121h38l0,37.5H221z M209.1,95V83.9h12.4V95H209.1z M225,83.9h12.4V95H225V83.9z M240.9,83.9h12.4
-	V95h-12.4V83.9z M277.1,100.5V75.6h3.2v-6.1l-84,0v6.1h5.2v85.6h75.6l132,0v-54.6h2.3v-6.1H277.1z"/>
+<path d="M254.2,102.7v37.5h-37.5v12.5h50v-50H254.2z M229.2,77.7v37.5h-37.5v12.5h50v-50H229.2z M166.7,52.7v50h50v-50H166.7z"/>
+<line fill="none" stroke="#070707" stroke-miterlimit="10" x1="217" y1="61.5" x2="322" y2="61.5"/>
+<line fill="none" stroke="#070707" stroke-miterlimit="10" x1="234" y1="93.5" x2="344" y2="93.5"/>
+<line fill="none" stroke="#070707" stroke-miterlimit="10" x1="263" y1="128.5" x2="370" y2="128.5"/>
+<text transform="matrix(1 0 0 1 334.2015 67.499)" font-family="'MyriadPro-Regular'" font-size="25">Level 1</text>
+<text transform="matrix(1 0 0 1 375.6992 135.0005)" font-family="'MyriadPro-Regular'" font-size="25">Level 3</text>
+<text transform="matrix(1 0 0 1 354.1992 102.0027)" font-family="'MyriadPro-Regular'" font-size="25">Level 2</text>
 </svg>
