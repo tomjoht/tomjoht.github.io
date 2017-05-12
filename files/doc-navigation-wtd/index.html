@@ -1,585 +1,409 @@
 <!doctype html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Building navigation for your doc site: 5 best practices</title>
-    <!-- favicon icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- end favicon code -->
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
-    <!-- Printing and PDF exports -->
-    <script>
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
-    <style>
-        p.alignLeft {
-            text-align: left;
-        }
-        span.orange, a.orange {
-            color: orange;
-            outline-color: gray;
-        }
-        li.orange {
-            color: orange;
-            font-weight: bold;
-        }
-        .reveal figcaption {
-            font-size: 24px;
-        }
-        .slides section h3 {
-            color: orange !important; outline: gray;
-        }
-        .slides img {
-            max-height: 500px;
-        }
-        .reveal a img {
-            border-color: #63D1F4;
-            border-width: 1px;
-        }
-        span.myname {
-            font-weight: bold;
-            font-size: 52px;
-            color: #555;
-            font-family: "Lucida Handwriting";
-        }
-        .reveal p, .reveal ul li, .reveal ol li {
-            text-align: left;
-        }
-        p.center {
-            text-align: center;
-        }
-        p.note {
-            background-color: #dedede; padding: 15px;
-        }
-        ul ul li {
-            list-style: circle;
-        }
-        span.myname {
-            font-weight: bold;
-            font-size: 52px;
-            color: #555;
-            font-family: Arial;
-        }
-
-        .reveal table {
-            margin-top: 30px;
-        }
-
-        a.link {
-          color: blue;
-        }
-
-        a.link:hover {
-          color: #3591ba;
-        }
-
-        blockquote ul li {
-          margin-bottom:12px !important;
-        }
-
-        .reveal section img {
-          background-color: white;
-        }
-    </style>
-    <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
-
-</head>
-<body>
-<div class="reveal">
-    <div class="slides">
-        <section>
-            <h1 style="font-size:95px;">Building navigation <br/>for your doc site
-            </h1>
-            <h3>5 best practices</h3>
-
-            <p class="center">
-                <small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
-                    <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
-            </p>
-
-            <p class="center">
-                <small style="color: gray">Write the Docs Portland 2017 <br/>May 15, 2017</small>
-            </p>
-        </section>
-<!--
-        <section>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>Building navigation for your doc site: 5 best practices</title>
+      <!-- favicon icons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!-- end favicon code -->
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/black.css">
+      <!-- Theme used for syntax highlighting of code -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+      <!-- Printing and PDF exports -->
+      <script>
+         var link = document.createElement( 'link' );
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+         document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+      <style>
+         p.alignLeft {
+         text-align: left;
+         }
+         span.orange, a.orange {
+         color: orange;
+         outline-color: gray;
+         }
+         li.orange {
+         color: orange;
+         font-weight: bold;
+         }
+         .reveal figcaption {
+         font-size: 24px;
+         }
+         .slides section h3 {
+         color: orange !important; outline: gray;
+         }
+         .slides img {
+         max-height: 500px;
+         }
+         .reveal a img {
+         border-color: #63D1F4;
+         border-width: 1px;
+         }
+         span.myname {
+         font-weight: bold;
+         font-size: 52px;
+         color: #555;
+         font-family: "Lucida Handwriting";
+         }
+         /*.reveal p, .reveal ul li, .reveal ol li {
+         text-align: left;
+         }*/
+         p.center {
+         text-align: center;
+         }
+         p.note {
+         background-color: #dedede; padding: 15px;
+         }
+         ul ul li {
+         list-style: circle;
+         }
+         span.myname {
+         font-weight: bold;
+         font-size: 52px;
+         color: #555;
+         font-family: Arial;
+         }
+         .reveal table {
+         margin-top: 30px;
+         }
+         a.link {
+         color: blue;
+         }
+         a.link:hover {
+         color: #3591ba;
+         }
+         blockquote ul li {
+         margin-bottom:12px !important;
+         }
+         .reveal section img {
+         background-color: white;
+         opacity: .95;
+         }
+         .reveal h2, .reveal p {
+           opacity: .95;
+         }
+      </style>
+      <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
+   </head>
+   <body>
+      <div class="reveal">
+         <div class="slides">
             <section>
-                <h2>Keyboard Shortcuts</h2>
-                <table>
-                    <tr>
-                        <td><b>Next slide</b></td>
-                        <td>Space bar</td>
-                    </tr>
-                    <tr>
-                        <td><b>Full screen</b></td>
-                        <td>F</td>
-                    </tr>
-                    <tr>
-                        <td><b>Index</b></td>
-                        <td>Esc</td>
-                    </tr>
-                </table>
-                <p class="note">
-                    <small><i><b>Note:</b> Slides can also move down, such as when I'm exploring a design principle in depth. <br/>
-                        If so, the arrow on the lower-right indicates the vertical direction. Test it out now.</i></small>
-                </p>
+               <h1 style="font-size:95px;">Building navigation <br/>for your doc site
+               </h1>
+               <h3>5 best practices</h3>
+               <p class="center">
+                  <small>Created by Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                  <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
+               </p>
+               <p class="center">
+                  <small style="color: gray">Write the Docs Portland 2017 <br/>May 15, 2017</small>
+               </p>
             </section>
+            <!--
+               <section>
+                   <section>
+                       <h2>Keyboard Shortcuts</h2>
+                       <table>
+                           <tr>
+                               <td><b>Next slide</b></td>
+                               <td>Space bar</td>
+                           </tr>
+                           <tr>
+                               <td><b>Full screen</b></td>
+                               <td>F</td>
+                           </tr>
+                           <tr>
+                               <td><b>Index</b></td>
+                               <td>Esc</td>
+                           </tr>
+                       </table>
+                       <p class="note">
+                           <small><i><b>Note:</b> Slides can also move down, such as when I'm exploring a design principle in depth. <br/>
+                               If so, the arrow on the lower-right indicates the vertical direction. Test it out now.</i></small>
+                       </p>
+                   </section>
+                   <section>
+                       Slides move down to drill into the same principle with more detail. Headings also become <span class="orange">orange</span>. Slides move right when moving on to another principle.
+                   </section>
+               </section>
+
+               -->
             <section>
-                Slides move down to drill into the same principle with more detail. Headings also become <span class="orange">orange</span>. Slides move right when moving on to another principle.
+               <h2>Universal Principles of Design</h2>
+               <style>
+                  section.present .sidebyside {
+                  margin-left: 150px;
+                  }
+                  .sidebyside {
+                  max-width: 100%;
+                  margin-left: auto;
+                  margin-right: auto;
+                  }
+                  .bookelement, .listelement {
+                  float: left;
+                  margin:20px;
+                  }
+                  .listelement ol li {
+                  margin-bottom: 15px;
+                  }
+                  .bookelement img {
+                  max-width: 300px;
+                  }
+                  .sidebyside ol {
+                  padding-left:100px;
+                  padding-top:20px;
+                  }
+               </style>
+               <div class="sidebyside">
+                  <div class="bookelement">
+                     <a href="https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079"><img src="media/rasters/univprinciplesdesignbook.png"/></a>
+                  </div>
+                  <div class="listelement">
+                     <ol>
+                        <li>Entry Point</li>
+                        <li>Hierarchy</li>
+                        <li>Immersion</li>
+                        <li>Modularity</li>
+                        <li>Wayfinding</li>
+                     </ol>
+                  </div>
+               </div>
+               <div style="clear:both;"></div>
             </section>
-        </section>
-
--->
-
-<!--
-        <section>
-            <h2>Observations in Usability Labs</h2>
-            <figure>
-                <img src="media/rasters/usability_lab.jpg"/>
-                <figcaption>It could take years of observation to arrive at design principles that are already known.</figcaption>
-            </figure>
-        </section>
--->
-        <section>
-            <h2>Universal Principles of Design</h2>
-            <style>
-            section.present .sidebyside {
-              margin-left: 150px;
-            }
-            .sidebyside {
-              max-width: 100%;
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .bookelement, .listelement {
-              float: left;
-              margin:20px;
-            }
-            .listelement ol li {
-              margin-bottom: 15px;
-            }
-            .bookelement img {
-              max-width: 300px;
-            }
-            .sidebyside ol {
-              padding-left:100px;
-              padding-top:20px;
-            }
-            </style>
-            <div class="sidebyside">
-
-          <div class="bookelement">
-            <a href="https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079"><img src="media/rasters/univprinciplesdesignbook.png"/></a>
-</div>
-<div class="listelement">
-<ol>
-  <li>Entry Point</li>
-  <li>Hierarchy</li>
-  <li>Immersion</li>
-  <li>Modularity</li>
-  <li>Wayfinding</li>
-</ol>
-</div>
-</div>
-<div style="clear:both;"></div>
-        </section>
-
-
 <!-- Entry Point -->
-<section>
-  <section>
-  <h2>1. Entry Point</h2>
-  <img src="media/vectors/wtd_doc_navigation_entrypoint.svg"/>
-  <p>Design the entry point to your system to orient users and allow them to easily get started.</p>
-</p>
-</section>
+            <section>
+               <section>
+                  <h2>1. Entry Point</h2>
+                  <img src="media/vectors/wtd_doc_navigation_entrypoint.svg"/>
+                  <p>"A point of physical or attentional entry into a design."</p>
+                  </p>
+               </section>
+               <section>
+                  <h3>Portal homepage = Train station</h3>
+                  <figure>
+                     <a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="media/rasters/trainstation.jpg"/></a>
+                     <figcaption>This is a pathfinding page, not a destination</figcaption>
+                  </figure>
+               </section>
+               <section>
+                  <h3>Entry point example: Azure</h3>
+                  <a href="https://docs.microsoft.com/en-us/"><img src="media/rasters/azurehomepage.png"/></a>
+               </section>
+               <section>
+                  <h3>On prod. home, cement the desire lines</h2>
 
-    <section>
-        <h3>Homepage == train station</h3>
-        <figure><a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="media/rasters/trainstation.jpg"/></a><figcaption><small>From Flickr by Nathan Congleton</small></figcaption></figure>
-        <aside class="notes">
-          <p>Use the doc homepage as a routing portal to let users choose the right doc set. Think of the home page as a train station with various terminals for departure. You might have different squares or lists of links that go to different products. This is a pathfinding page. It's usually the most popular page in your help.</p>
-        </aside>
-    </section>
-    <section>
-        <h3>Entry point example: Azure</h3>
-        <a href="https://docs.microsoft.com/en-us/"><img src="media/rasters/azurehomepage.png"/></a>
-    </section>
-    <section>
-        <h3>Desire lines</h2>
-        <figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="media/rasters/desirepath.jpg"/></a>
-            <figcaption><small>From Flickr by George Redgrave</small></figcaption></figure>
+                     <a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="media/rasters/desirepath.jpg"/></a>
+                  <p>"Desire line: Traces of use or wear that indicate preferred methods of interaction with an object or environment."</p>
+               </section>
+               <section>
+                  <h3>Desire line example: Twitter</h3>
+                  <a href="https://support.twitter.com/"><img src="media/rasters/twitter_sidebar2.png"/>
+                  </a>
+               </section>
+            </section>
 
-            <aside class="notes">
-              <p>Look at common paths users take through information, and then make those paths more prominent and standard. Determine lines through metrics, and apply the 80/20 rule. 80% of your hits come from 20% of your pages, so make those 20% really visible. You might put the top 10 articles on the entry page. In general, if users consistently go to the same 10 topics, put those topics front and center in your help system to facilitate a more standard path to those topics. We did this on the Amazon Developer Documentation homepage here: https://developer.amazon.com/documentation</p>
-              </aside>
-    </section>
+            <!-- Hierarchy -->
+            <section>
+               <section>
+                  <h2>2. Hierarchy</h2>
+                  <img src="media/vectors/wtd_doc_navigation_hierarchy.svg"/>
+                  <p>"Hierarchical organization is the simplest structure for visualizing and understanding complexity."
+               </section>
+               <section>
+                  <h3>Hierarchy example: Google</h3>
+                  <a href="https://developers.google.com/actions/develop/conversation"><img src="media/rasters/googlevoicedoc.png"/>
+                  </a>
+               </section>
+               <section>
+                  <h3>A hierarchy is a list of parts</h3>
+                  <img src="media/vectors/wtd_doc_navigation_listofparts.svg"/>
+               </section>
+               <section>
+                  <h3>Hierarchies give idea of "whole"</h3>
+                  <img src="media/vectors/wtd_doc_navigation_wholevspart.svg"/>
+               </section>
+               <section>
+                  <h3>Avoid deep hierarchies</h3>
+                  <img src="media/vectors/wtd_doc_navigation_flatdeephierarchies.svg"/>
+                  <aside class="notes">
+                     <p>Some ridiculous examples would be Wikipedia's category hierarchies or Yahoo's hierarchy directory. Beyone 1-2 levels, the deep hierarchies become difficult to process. Our brains aren't really wired for it.</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Layer the advanced info deeper</h3>
+                  <a href="http://help.getharvest.com/harvest/"><img style="max-width: 700px" src="media/rasters/harvest2.png"></a>
+                  <p>"Progressive disclosure: A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p>
+               </section>
+            </section>
 
-    <section>
-        <h3>Desire lines example: Twitter</h3>
-        <a href="https://support.twitter.com/"><img src="media/rasters/twitter_sidebar2.png"/>
-        </a>
-        <aside class="notes">
-            <p>Great example of putting the commonly asked questions right at the top. I bet the majority of the questions involve these six topics. Also, Twitter provides a great example of breaking up the docs into subgroups. You don't want to have one massive sidebar for all of your content. You want to make the sidebar understandable at a glance.</p>
-        </aside>
-    </section>
-
-
-
-</section>
-
-<!-- Hierarchy -->
-<section>
-  <section>
-  <h2>2. Hierarchy</h2>
-  <img src="media/vectors/wtd_doc_navigation_hierarchy.svg"/>
-  <p>Create a hierarchical outline of the content to help users both understand and visualize the body of information. </p>
-  <aside class="notes">
-  <p>Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.</p>
-
-  <p>Include a navigation sidebar that contains a hierarchical representation of a group of topics. Right-size the group so that it's not too massive, nor too small, but rather provides meaningful at-a-glance context at a defined scope.</p>
-</aside>
-  </section>
-
-  <section>
-      <h3>Hierarchy example: Google</h3>
-      <a href="https://developers.google.com/actions/develop/conversation"><img src="media/rasters/googlevoicedoc.png"/>
-      </a>
-  </section>
-
-
-<!--
-  <section>
-      <h3>Example: Sentry</h3>
-      <a href="https://docs.sentry.io/"><img src="media/rasters/sentry.png"/></a>
-      <aside class="notes"><p>In this example, the titles are shortened and you can easily scan them to get a gist of the whole. The nav menu is just two levels, so it's not overwhelming.</p>
-
-        <p>Here are some best practices for hierarchy:</p>
-        <ul>
-            <li>Limit navigation (hierarchy) to 3 levels, placed on left</li>
-            <li>Allow users to see the full navigation menu at a glance</li>
-            <li>Break up massive navigation into multiple  menus</li>
-            <li>Provide a way to navigate from one nav menu to another</li>
-            <li>Put page-level navigation on the page, preferably on right</li>
-        </ul>
-      </aside>
-  </section>
--->
-<section>
-  <h3>A hierarchy is a list of parts</h3>
-  <img src="media/vectors/wtd_doc_navigation_listofparts.svg"/>
-
-</section>
-
-  <section>
-    <h3>Hierarchies provide an overview of the "whole"</h3>
-    <img src="media/vectors/wtd_doc_navigation_wholevspart.svg"/>
-  </section>
-<!--
-  <section>
-      <h3>Hierarchy provides meaning</h3>
-      <blockquote>Navigation provides a narrative for people to follow on the web. <small><br/>&mdash; James Kalbach, <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
-      </blockquote>
-
-      <aside class="notes">
-     Classifying things into groups is one of the first acts of science and contributes to the meaning of those things. Things in one group have certain characteristics that differ from other groupings, and so on. These groupings provide meaning.
-      </aside>
-  </section>
--->
-  <section>
-    <h3>Avoid deep hierarchies</h3>
-    <img src="media/vectors/wtd_doc_navigation_flatdeephierarchies.svg"/>
-    <aside class="notes">
-<p>Some ridiculous examples would be Wikipedia's category hierarchies or Yahoo's hierarchy directory. Beyone 1-2 levels, the deep hierarchies become difficult to process. Our brains aren't really wired for it.</p>
-    </aside>
-  </section>
-<!--
-  <section>
-    <h3>Hierarchies show what's in the neighborhood</h3>
-    <img src="media/vectors/wtd_doc_navigation_neighborhood.svg"/>
-
-    <aside class="notes">
-<p>The content here can help answer the question, how do I learn what I don't even realize I don't know?</p>
-    </aside>
-  </section>
-
--->
-</section>
-
-<!-- Immersion -->
-
-<section>
-  <section>
-    <h2>3. Immersion</h2>
-    <img src="media/vectors/wtd_doc_navigation_dontleavesystem.svg"/>
-
-    <p>Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help.  </p>
-
-  </section>
-
-  <section>
-    <h3>Even in help, users want to stay inline</h3>
-    <img src="media/vectors/wtd_doc_navigation_usersclickinlinelinks.svg"/>
-
-  </section>
-
-<section>
-    <h3>Bottom-up navigation</h3>
-<blockquote>
-      <ul>
-        <li>If you tell me I can do something, link to how to do that something.</li>
-        <li>If you tell me I can use something, link to a description of that something.</li>
-        <li>If you mention a concept or an idea, link to a description of that concept or idea.</li>
-      </ul>
-    </blockquote> &mdash; Mark Baker
-</section>
-<!--
-<section>
-  <h3>Bottom-up navigation example</h3>
-  <div style="font-size:20pt;">
-  <p>When you <a class="link" href="#">create an app with Fire App Builder</a>, you <a class="link" href="#">configure the settings</a> for your <a class="link" href="#">data feed</a>, <a class="link" href="#">screen layouts</a>, and <a class="link" href="#">functionality</a> through a series of <a class="link" href="#">JSON files</a>. You also <a class="link" href="#">construct query syntax</a> to get the <a class="link" href="#">categories</a> and <a class="link" href="#">contents</a> from your <a class="link" href="#">media feed</a>.</p>
-  <p>For <a class="link" href="#">authentication</a>, <a class="link" href="#">ads</a>, <a class="link" href="#">analytics</a>, or <a class="link" href="#">in-app purchasing</a>, <a class="link" href="#">you can use a variety of pluggable components</a> that implement <a class="link" href="#">interfaces</a>. To <a class="link" href="#">customize the look and feel of your app</a>, including <a class="link" href="#">font</a>, <a class="link" href="#">colors</a>, <a class="link" href="#">logos</a>, <a class="link" href="#">layouts</a>, and <a class="link" href="#">other details</a>, you simply <a class="link" href="#">update some values in XML or JSON files</a> (rather than coding directly in Java).</p>
-  <p>Overall, Fire App Builder allows you to quickly <a class="link" href="#">develop a high quality app</a> without doing Java programming. If you want to <a class="link" href="#">extend Fire App Builder with more advanced functionality</a>, you can use Fire App Builder as the underlying framework and <a class="link" href="#">build on top of it</a>, since most of <a class="link" href="#">Fire App Builder’s components</a> are modular.</p>
-</div>
-</section>
--->
-<section>
-  <h3>Immersion example: Wikipedia</h3>
-  <a href="https://en.wikipedia.org/wiki/Portland,_Oregon"><img src="media/rasters/wikipedia.png"/></a>
-</section>
-
-</section>
+            <!-- Immersion -->
+            <section>
+               <section>
+                  <h2>3. Immersion</h2>
+                  <img src="media/vectors/wtd_doc_navigation_dontleavesystem.svg"/>
+                  <p>"A state of mental focus so intense that awareness of the 'real' world is lost, generally resulting a feeling of joy and satisfaction."</p>
+               </section>
+               <section>
+                  <h3>Even in help, users want to stay inline</h3>
+                  <img src="media/vectors/wtd_doc_navigation_usersclickinlinelinks.svg"/>
+               </section>
+               <section>
+                  <h3>Bottom-up navigation</h3>
+                  <blockquote>
+                     <ul>
+                        <li>If you tell me I can do something, link to how to do that something.</li>
+                        <li>If you tell me I can use something, link to a description of that something.</li>
+                        <li>If you mention a concept or an idea, link to a description of that concept or idea.</li>
+                     </ul>
+                  </blockquote>
+                  &mdash; Mark Baker
+               </section>
+               <section>
+                  <h3>Immersion example: Wikipedia</h3>
+                  <a href="https://en.wikipedia.org/wiki/Portland,_Oregon"><img src="media/rasters/wikipedia.png"/></a>
+               </section>
+            </section>
 
 
-<!-- Modularity -->
-<section>
-  <section>
-  <h2>4. Modularity</h2>
-  <img src="media/vectors/wtd_doc_navigation_modularity.svg"/>
-  <p>Break up content into independent topics that can be viewed, understood, and updated independent of the whole.  </p>
-<aside class="notes">
-  <p>A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.</p>
-</aside>
-</section>
+            <!-- Modularity -->
+            <section>
+               <section>
+                  <h2>4. Modularity</h2>
+                  <img src="media/vectors/wtd_doc_navigation_modularity.svg"/>
+                  <p>"A method of managing system complexity that involves dividing large systems into multiple, smaller self-contained systems."  </p>
+               </section>
+               <section>
+                  <h3>Users read non-sequentially</h3>
+                  <blockquote>You can just read the sections about the tasks you want to do. <br /></blockquote>
+                  &mdash; John Carroll, <a
+                     href="http://faculty.washington.edu/farkas/dfpubs/Farkas-Williams-CarrollsNurnbergFunnel.pdf">The Nurnberg Funnel</a>
+                  <aside class="notes">
+                     <p>— Published in 1990</p>
+                     <p>— Reaction against sequential learning models at the time</p>
+                     <p>— Realized readers skip around out of sequence, impatient to act</p>
+                     <p>— Minimalism formed basis for topic-based authoring, structured authoring</p>
+                     <p>— Seems like a great idea, but can go wrong</p>
+                     <p>— 2 main reasons why</p>
+                  </aside>
+               </section>
+               <section>
+                  <h3>Building blocks <span style="font-size: 120%; font-weight: bold; color: red;">≠</span> presentation</h3>
+                  <img src="media/vectors/usercentered_buildingblocks.svg"/>
+               </section>
+               <section>
+                  <h3>Create self-contained "articles"</h3>
+                  <a href="https://codex.wordpress.org/Installing_WordPress"><img class="shortened" src="media/rasters/wordpress.png"/></a>
+               </section>
+            </section>
 
-<section>
-    <h3>Users read non-sequentially</h3>
-    <blockquote>You can just read the sections about the tasks you want to do. <br /></blockquote>
-    &mdash; John Carroll, <a
-        href="http://faculty.washington.edu/farkas/dfpubs/Farkas-Williams-CarrollsNurnbergFunnel.pdf">The Nurnberg Funnel</a>
-    <aside class="notes">
-        <p>— Published in 1990</p>
-        <p>— Reaction against sequential learning models at the time</p>
-        <p>— Realized readers skip around out of sequence, impatient to act</p>
-        <p>— Minimalism formed basis for topic-based authoring, structured authoring</p>
-        <p>— Seems like a great idea, but can go wrong</p>
-        <p>— 2 main reasons why</p>
-    </aside>
-</section>
-<section>
-    <h3>Building blocks <span style="font-size: 120%; font-weight: bold; color: red;">≠</span> presentation</h3>
-    <img src="media/vectors/usercentered_buildingblocks.svg"/>
-    <aside class="notes">
-        <p>— DITA topic types not glued together</p>
-        <p>— Result is massive information fragmentation</p>
-        <p>— User plays information pinball in help</p>
-    </aside>
-</section>
-
-<section>
-    <h3>Create self-contained "articles"</h3>
-    <a href="https://codex.wordpress.org/Installing_WordPress"><img class="shortened" src="media/rasters/wordpress.png"/></a>
-    <aside class="notes">
-        <p>— WordPress installation page really long</p>
-        <p>— Encyclopedic wikis lend themselves to EPPO style </p>
-        <p>— Topics more thorough, standalone</p>
-    </aside>
-</section>
-</section>
-<!-- wayfinding -->
-
-<section>
-    <section>
-        <h2>5. Wayfinding</h2>
-        <img  src="media/vectors/wtd_doc_navigation_wayfinding.svg"/>
-
-        <p>Provide navigational signposts to help orient users as to where they are in a larger system. </p>
-
-        <aside class="notes"><p>Don't assume that the user navigated to the current page following the path you intended.</p>
-        <p>Provide breadcrumbs above your topic titles that show the path to the topics. Assume that users may not arrive at the topic in the way you expect, and they will appreciate the context that breadcrumb provides.</p>
-          <p>Also provide abundant inline links in your sentences that help users navigate directly within the field of vision. Freely infuse links into phrases, words, or other parts of the sentence without always listing out the full title of the cross-reference.
-          </aside>
-    </section>
-
-    <section>
-        <h3>Provide context before</h3>
-        <a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="media/rasters/aws.png" /></a>
-        <aside class="notes">
-            <p>— Simple graphic but incredibly helpful</p>
-            <p>— No need to put all this content on the same page</p>
-            <p>— Essential for sequential processes</p>
-        </aside>
-    </section>
-
-    <section>
-        <h3>Provide a mini-map during</h3>
-        <a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview"><img src="media/rasters/fabtoc.png"/></a>
-    </section>
-    <section>
-        <h3>Provide context after</h3>
-        <a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="media/rasters/firebase.png" /></a>
-        <aside class="notes">
-            <p>— What comes next? Handhold user</p>
-            <p>— Helps provide context</p>
-            <p>— Only necessary for sequence, but also helpful in other topics</p>
-        </aside>
-    </section>
-
-
-
-
-</section>
-</section>
-
-      <!-- Summary -->
-
-      <!--
-        <section>
-            <h2>Summary of doc navigation principles</h2>
-            <ol>
-                <li>Entry Point</li>
-                <li>Hierarchy</li>
-                <li>Immersion</li>
-                <li>Modularity</li>
-                <li>Wayfinding</li>
-            </ol>
-        </section>
-      -->
-<!--
-        <section>
-          <h3>Avoid non-standard design</h3>
-          <img src="media/rasters/intersection.jpg"/>
-          <aside class="notes">
-      <p>Users expect to see the navigation sidebar on the left. Don't get too creative in how you display this. For example, avoid navigation that shows all the options listed in the breadcrumb paths as drop-downs.</p>
-          </aside>
-
-      </section>
--->
-        <section>
-            <h1>Question</h1>
-            <h3>With your own documentation in mind, how well do you incorporate each of the following design principles?</h3>
-            <ol>
-                <li>Entry Point</li>
-                <li>Desire Line</li>
-                <li>Hierarchy</li>
-                <li>Immersion</li>
-                <li>Modularity</li>
-                <li>Wayfinding</li>
-            </ol>
-
-            <img  src="media/vectors/wtd_doc_navigation_discussionquestion.svg"/>
-          </section>
-<!--
+          <!-- wayfinding -->
           <section>
-            <h2>Additional Questions</h2>
+             <section>
+                <h2>5. Wayfinding</h2>
+                <img src="media/vectors/wtd_doc_navigation_wayfinding.svg"/>
+                <p>"The process of using spatial and environmental information to navigate to a destination." </p>
+                <aside class="notes">
+                   <p>Don't assume that the user navigated to the current page following the path you intended.</p>
+                   <p>Provide breadcrumbs above your topic titles that show the path to the topics. Assume that users may not arrive at the topic in the way you expect, and they will appreciate the context that breadcrumb provides.</p>
+                   <p>Also provide abundant inline links in your sentences that help users navigate directly within the field of vision. Freely infuse links into phrases, words, or other parts of the sentence without always listing out the full title of the cross-reference.
+                </aside>
+             </section>
+             <section>
+                <h3>Provide context before</h3>
+                <a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="media/rasters/aws.png" /></a>
+                <aside class="notes">
+                   <p>— Simple graphic but incredibly helpful</p>
+                   <p>— No need to put all this content on the same page</p>
+                   <p>— Essential for sequential processes</p>
+                </aside>
+             </section>
+             <section>
+                <h3>Provide a mini-map during</h3>
+                <a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview"><img src="media/rasters/fabtoc.png"/></a>
+             </section>
+             <section>
+                <h3>Provide context after</h3>
+                <a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="media/rasters/firebase.png" /></a>
+                <aside class="notes">
+                   <p>— What comes next? Handhold user</p>
+                   <p>— Helps provide context</p>
+                   <p>— Only necessary for sequence, but also helpful in other topics</p>
+                </aside>
+             </section>
+          </section>
 
-             <ul>
-<li class="fragment"></li>
-<li class="fragment">What techniques do you do to ensure links are valid in your output? </li>
-<li class="fragment">In your experience using help systems, do you use the sidebar navigation or just inline links?</li>
-<li class="fragment">When would you consider the number of links in the sidebar to be too long/massive in one set?</li>
-<li class="fragment">How do you link across repos in an automated way?  cx  2 X</li>
+          <!-- Question -->
 
+        <section>
+           <h2 style="color: orange">Discussion Question</h2>
+           <p>With your own documentation in mind, how are you incorporating some of the following design principles?</p>
+<div class="leftcolumn" style="float: left; margin: 10px; margin-left: 100px;">
+           <ul>
+              <li>Entry Point</li>
+              <li>Desire Line</li>
+              <li>Hierarchy</li>
+              <li>Progressive Disclosure</li>
             </ul>
+
+            </div>
+            <div class="rightcolumn" style="float: left; margin: 10px;">
+              <ul>
+              <li>Immersion</li>
+              <li>Modularity</li>
+              <li>Wayfinding</li>
+           </ul>
+         </div>
         </section>
+
+        <!-- image credits
+desire lines:
+        <figcaption><small>From Flickr by George Redgrave</small></figcaption>
+
+        train:                      <figcaption><small>From Flickr by Nathan Congleton</small></figcaption>
+
       -->
-        <section>
-            <h2>Thanks!</h2>
-            <div>
-                <div style="float:left; padding: 10px;">
-                    <img src="media/rasters/family.png"/>
-                </div>
-                <div style="float:left; padding: 10px; text-align: left;">
-                    <p><span class="myname">Tom Johnson</span><br/>
-                        &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
-                        &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
-                        &mdash; <a href="mailto:tom@idratherbewriting.com">tom@idratherbewriting.com</a>
-                    </p></div>
-            </div>
-            <aside class="notes">
-                <p>— </p>
-                <p>— </p>
-                <p>— </p>
-            </aside>
-        </section>
+         </div>
+      </div>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+      <script>
+         // More info https://github.com/hakimel/reveal.js#configuration
+         Reveal.initialize({
+             history: true,
+             progress: true,
+             slideNumber: true,
+             showNotes: false,
 
-        <section>
-            <h2>About me</h2>
-            <div>
-                <div style="float:left; margin-right: 20px;">
-            <img src="media/rasters/tomjohnsonpic.jpg" />
-                </div>
- <style>
-     ul.biopic li {margin: 10px 0px;}
- </style>
-                <div style="float:left; padding-left: 15px;">
-                    <ul class="biopic">
-                        <li>Live in Silicon Valley</li>
-                        <li>Work at Amazon Lab 126</li>
-                        <li>Focus on developer doc</li>
-                        <li>Like building sites with Jekyll</li>
-                        <li>Creative writing background</li>
-                        <li>Family with 4 daughters</li>
-                        <li>Love cycling, basketball, writing</li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-    </div>
-</div>
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
-<script>
-    // More info https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        history: true,
-        progress: true,
-        slideNumber: true,
-        showNotes: false,
-
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        dependencies: [
-            { src: 'plugin/markdown/marked.js' },
-            { src: 'plugin/markdown/markdown.js' },
-            { src: 'plugin/notes/notes.js', async: true },
-            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-        ]
-    });
-</script>
-</body>
+             // More info https://github.com/hakimel/reveal.js#dependencies
+             dependencies: [
+                 { src: 'plugin/markdown/marked.js' },
+                 { src: 'plugin/markdown/markdown.js' },
+                 { src: 'plugin/notes/notes.js', async: true },
+                 { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+             ]
+         });
+      </script>
+   </body>
 </html>
