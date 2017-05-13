@@ -208,7 +208,7 @@ Amplifying the number of inline links create some challenges:
 
 Even with these challenges, don't neglect or minimize inline links. They're how many users simply navigate content. Why? The web has driven this behavior into our brains.
 
-The web teaches us navigate this way because our searches typically follow this pattern: we google something, land on a page, become disatisfied, jump back to google's results, click to another page, click links within the page, and move to another page as we search for the right information.
+The web teaches us navigate this way because our searches typically follow this pattern: we google something, land on a page, become dissatisfied, jump back to google's results, click to another page, click links within the page, and move to another page as we search for the right information.
 
 Even if we don't *always* operate in this mode, the many times we do operate in this mode condition us to act this way even when we're not on the web. We rarely navigate via the sidebar because we're so used to jumping across different websites (clicking back and forward on different google results) instead of moving within the same system using a logical sidebar.
 
@@ -236,6 +236,10 @@ href="http://faculty.washington.edu/farkas/dfpubs/Farkas-Williams-CarrollsNurnbe
 
 Because users skip around and are impatient to act, we have to design our help material to support entry at any point. Help topics that are modular can stand alone and function as independent entities without requiring users to read a lot of before-or-after topics to make sense of the content.
 
+Usually when you create standalone, modular topics, the topics end up being somewhat long. Don't be afraid of long topics. Some Wikipedia articles are so long they could be printed as ebooks.
+
+<img src="../media/vectors/wtd_doc_navigation_topiclength.svg"  class="vectorStyle"/>
+
 Most of us agree with this modularity in theory, but it's hard to implement in practice, in part due to the information structures we may be following.
 
 ### Don't assume building blocks == presentation
@@ -251,8 +255,6 @@ You aren't required to have a two-sentence topic that stands as its own page bec
 If you fragment your information into a [million little content pieces](http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/), you force users to jump around from topic to topic, like a pinball bouncing off of different walls and targets, looking for the information they need. That design leads to a disjointed, tiring experience. Instead, combine these chunks into more comprehensive "articles," just like rocks can be stacked in different combinations to form more elaborate and purposeful cairns.
 
 <img src="../media/rasters/cairns.png" style="vectorImage"/>
-
-Usually when you create standalone, modular topics, the topics end up being somewhat long. Don't be afraid of long topics. Some Wikipedia articles are so long they could be printed as ebooks.
 
 Not all help information can stand <i>entirely</i> on its own. Frequently one concept or task builds on another topic, or requires knowledge of another topic. But there's usually a logical boundary line between topics. You can decide  how large to draw the boundaries. Just make sure your users aren't bouncing from one topic to another trying to get answers for a single task or goal they're trying to achieve.
 
