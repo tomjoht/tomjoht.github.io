@@ -3,6 +3,15 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 775 445" enable-background="new 0 0 775 445" xml:space="preserve">
+<g>
+	<g>
+		<path d="M617.7,120.7c-9.1,0.2-16.9,5.9-24,11c-9.6,6.9-19.9,12.8-30,18.9c-10,6.1-20.2,12.1-29,19.9c-7.8,7-14.3,15.4-20.4,23.8
+			c-6.4,8.7-12.4,17.6-19.1,26c-7.1,8.8-14.9,17.1-22.3,25.7c-14.4,16.6-28.1,34.3-35.4,55.3c-0.6,1.8,2.3,2.6,2.9,0.8
+			c7.2-21,21.3-38.6,35.7-55.2c6.7-7.8,13.6-15.4,20.2-23.2c6.4-7.6,12-15.9,17.8-24c6-8.4,12.2-16.5,19.4-23.9
+			c8.3-8.4,18.5-14.5,28.5-20.6c9.5-5.8,19.4-11.2,28.6-17.6c8.1-5.6,16.8-13.7,27.1-13.9C619.6,123.7,619.6,120.7,617.7,120.7
+			L617.7,120.7z"/>
+	</g>
+</g>
 <line fill="none" stroke="#444343" stroke-miterlimit="10" x1="397.5" y1="12" x2="397.5" y2="434"/>
 <text transform="matrix(1 0 0 1 43.9999 418.1003)" font-family="'MyriadPro-Regular'" font-size="30">Long, standalone content</text>
 <text transform="matrix(1 0 0 1 425.7656 418.1006)" font-family="'MyriadPro-Regular'" font-size="30">Short, fragmented content</text>
@@ -18,8 +27,46 @@
 <line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="114" y1="67" x2="282" y2="67"/>
 <line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="114" y1="97" x2="282" y2="97"/>
 <line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="114" y1="36" x2="282" y2="36"/>
-<rect x="456" y="19" fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="204" height="112"/>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="473" y1="67" x2="641" y2="67"/>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="473" y1="97" x2="641" y2="97"/>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="473" y1="36" x2="641" y2="36"/>
+<rect x="526" y="21" fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="204" height="92"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="543" y1="65" x2="711" y2="65"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="543" y1="92" x2="711" y2="92"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="543" y1="38" x2="711" y2="38"/>
+<rect x="424" y="154" fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="204" height="92"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="441" y1="198" x2="609" y2="198"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="441" y1="225" x2="609" y2="225"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="441" y1="171" x2="609" y2="171"/>
+<rect x="609" y="285" fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="156" height="92"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="622" y1="329.5" x2="750" y2="329.5"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="622" y1="356.5" x2="750" y2="356.5"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="622" y1="302.5" x2="750" y2="302.5"/>
+<g>
+	<g>
+		<path d="M661.1,120.2c8.4-0.2,16.3,3.9,23.5,7.8c6.7,3.5,13.6,7.1,19.8,11.5c15.3,10.7,23.4,26.4,27.6,44.2
+			c4.5,19.4,4.1,39.6,4.1,59.3c0,8.2,0,16.4-2.3,24.4c-1.4,4.8-3.9,8.3-8.9,9.6c-3.5,0.8-7.1,0.9-10.5,2.2c-1.8,0.6-1,3.5,0.8,2.9
+			c6.7-2.4,14-1.1,18.7-7.4c4.7-6.2,4.9-16.3,5.1-23.7c0.6-21.9,0.6-44.6-3.8-66.2c-3.7-18.2-11.9-34.6-26.9-46
+			c-7.3-5.5-15.5-9.7-23.5-14c-7.3-3.8-15.3-7.6-23.7-7.5C659.1,117.3,659.1,120.3,661.1,120.2L661.1,120.2z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M611.8,273.1c-8.2,0.6-15.8-4.3-22.6-8.3c-6.8-4.1-14.2-6.9-17.1-14.8c-0.7-1.8-3.6-1-2.9,0.8c3.1,8.6,9.9,11.4,17.3,15.9
+			c7.6,4.6,16.1,10.1,25.4,9.5C613.7,276,613.7,273,611.8,273.1L611.8,273.1z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M466.2,148.9c0-9.8,0.4-19.6,2.8-29.1c2.5-9.7,7.9-17.8,12.6-26.5c8.2-15.1,16.4-31.7,35.3-34.1c1.9-0.2,1.9-3.2,0-3
+			c-18.6,2.3-27.8,16.8-36.1,32.1c-4.9,9.2-10.7,17.9-13.9,27.8c-3.4,10.5-3.7,21.8-3.7,32.8C463.2,150.8,466.2,150.8,466.2,148.9
+			L466.2,148.9z"/>
+	</g>
+</g>
+<rect x="399" y="285" fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="127" height="92"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="410" y1="329.5" x2="514" y2="329.5"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="410" y1="356.5" x2="514" y2="356.5"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="410" y1="302.5" x2="514" y2="302.5"/>
+<polygon fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="471.4,146.8 466.6,159.9 457.7,149.2 "/>
+<polygon fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="629.1,115.4 621.9,127.4 615.2,115.1 "/>
+<polygon fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="714.3,275.5 726.4,282.5 714.3,289.5 "/>
+<polygon fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="562.5,239.9 575.2,245.6 563.9,253.8 "/>
+<polygon fill="#F4F4F4" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="446.7,296.1 441,283.4 454.9,284.8 "/>
 </svg>

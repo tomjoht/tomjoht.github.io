@@ -11,89 +11,71 @@ img.vectorStyle {
   background-color: ivory;
 }
 </style>
+
+## Where the problem first surfaced
+
+If you've ever had the opportunity to watch someone use your documentation in a lab, but it can be pretty eye-opening. A few years ago I worked at a company that had a usability lab. It was actually left over from the previous company that inhabited the building. At some point our company formed a usability team and started to do some testing in the room.
+
+Usability labs are set up similar to interrogation rooms, with one-way mirrored glass separating two rooms. On one side, the participants uses a computer, often following prompts from a usability tester. In the other room, behind the mirrored glass, the designers, engineers, program managers, and other stakeholders eagerly watch the participants fumble and act like "idiots."
+
+<img src="../media/rasters/usability_lab.jpg"/>
+
+When I heard about these tests, I persuaded our usability tester to push users into my documentation so we could evaluate their effectiveness. The tester would ask users to do a difficult task, a task they wouldn't be able to figure out from the interface on their own. Eventually the user either clicked the help or, more commonly, the usability tester suggested they look in the help for the answer.
+
+(Actually, the user would often draw a blank with the task. The usability tester would ask, Where can you find help that would give you more information about this? Users would continue with the blank stare. The usability tester would then ask, Could the documentation be helpful in finding this information? A light would then go on in the user's head. Watching this scenario unfold was truly mind-boggling.)
+
+Once the users forayed into the help, they began a meandering path of poking around, skimming, scanning, browsing, reading here and there, and generally not finding their answers. I wrote about some [general observations here](http://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). Different users prefer different types of content, and they have different ways of consuming the information (new users watch videos, advanced users skim and scan text). But they all had one thing in common: both spent most of their time looking for the right answer only to not find it, eventually giving up.
+
+We didn't have more than half a dozen participants, but it seemed rare that a user actually found the answer in the help. They clicked links, scrolled, hunted around in studious ways, and sometimes failed to see the answer when they were staring right at it on the page.
+
+This experience helped me realize one of the biggest challenges in documentation: helping users find the right answer amid a sea of documentation. We spend a lot of time developing clear, accurate information, but if users can't find it, that information does them no good. We don't sink nearly enough time into solving issues of findability in documentation. Perhaps we're too busy writing the information or reviewing it with engineers to consider that users may never actually find what we're so diligently creating.
+
+## New company ... same problem
+
+The idea that users can't find info in docs (assuming that the info exists) isn't an isolated or unique problem. This problem addresses the core of what it means to create documentation. A few years later I started working at another company only to run into the same problem. (I'm sure the problem continued regularly at every company, but I didn't always have access to observe or gather info from users, so I generally didn't know. Tech writers usually operate in the dark about how their information product (documentation) is used &mdash; this allows tech writers to continue believing in higher purpose of their undervalued work.)
+
+In this new instance, the company had hired a third party to evaluate the product and its documentation. This time the audience consisted of developers creating apps, not end users interacting with a user interface. Unsurprisingly, the users reported difficulty in finding the information. There were a lot of issues with the product, and the studies weren't targeted at just evaluating the docs. Users complained about information being circular or redundant in places, being poorly organized. But not being able to locate the right information again surfaced in their myriad complaints.
+
+How can we help users find what they're looking for in our documentation? If you can solve this problem, you can elevate the user experience in your docs by multiple levels.
+
 ## Starting points with design
 
-When thinking about strategies for navigation within your documentation, it's helpful to start with some design principles that have already been developed and studied, even if the design principles weren't necessarily formulated in documentation or information scenarios. (This is especially necessary when there isn't ample tech comm research on doc navigation patterns.)
+When thinking about strategies for navigation within your documentation, it's helpful to start with some design principles that have already been developed and studied, even if the design principles weren't necessarily formulated in documentation or information scenarios. This is especially necessary because there isn't ample tech comm research about navigation patterns within documentation.
 
 In the book [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=Z3N8PRGT94SFH1Z5765N), the authors explore design principles that they feel are universal and which apply across a wide variety of industries, products, and scenarios. The book provides concise summaries about a range of design topics.
 
-From 125 separate design principles, I selected a handful of principles that I think have particular application to document navigation. The core 5 principles include the following:
+From 125 separate design principles, I selected a handful of principles that I think have particular relevance to document navigation. The core 5 principles include the following:
 
-* Entry point
 * Hierarchy
+* Progressive disclosure
 * Immersion
+* Desire line
 * Modularity
 * Wayfinding
 
 <a href="https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079"><img src="../media/rasters/univprinciplesdesignbook.png" style="max-width: 350px;"/></a>
 
-Applying these principles in the way we design our docs can create a better experience for users, both in their ability to find and navigation information.
+Applying these principles in the way we design our docs can create a better experience for users, both in their ability to find and navigation information. Rather than just discussing these principles abstractly, I'll explain how I tried to improve my docs be applying these design principles to the content.
 
-## 1. Entry Point
+## Action 1: Group topics in product sidebars
 
-<img src="../media/vectors/wtd_doc_navigation_entrypoint.svg" class="vectorStyle" />
+When I started at the company, the content was organized in a flat way on a web CMS. By flat, I mean each page existed as an independently floating page, without any structure in a sidebar navigation (apart from a general category) that would show various groupings of content in parent-child trees.
 
-The first principle of design I'd like to start with is the entry point.
+The lack of this sidebar was mainly due to the platform &mdash; as a general web CMS, it didn't support granular navigation of tech docs in a sidebar.
 
-<div class="bs-callout bs-callout-primary"><b>Entry point:</b> "A point of physical or attentional entry into a design."</div>
+I found the lack of a sidebar challenging as I tried to use the content. How big was the documentation for each product? 5 pages? 500 pages? What pages and topics were included or relevant in the documentation? In other words, what was there to know about the topic?
 
-With the entry point, "barriers should not encumber entry points," and they "should allow people to become oriented and clearly survey available options." Additionally, you should use lures "to attract and pull people through the entry point."
+I decided that each product needed a sidebar that would show the general pages in that collection of documentation. It wasn't too much trouble to hack a sidebar in there to serve this purpose.
 
-Although the entry point for docs might be any doc page (as I explain later in [Modularity](#modularity)), I want to focus on the doc portal homepage, because it's one of formal entry points in documentation.
+<img src="media/rasters/amazondevportalsidebar.png"/>
 
-The doc portal homepage should list out the documentation in a way that makes sense, such as by product and version, or by user role or goal. (This assumes that you have multiple sets of documentation.) The grouping should be helpful for users to see what's available, to orient themselves in the right direction, and to get started.
+There wasn't room on the left, since the general category sidebar occupied that space. So I added it on the right.
 
-I like to think of the doc portal homepage as a train station. It should clearly direct users on where to go.
+### Design principle: Hierarchy
 
-<figure><a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="../media/rasters/trainstation.jpg"/></a><figcaption><small>From Flickr by Nathan Congleton</small></figcaption></figure>
-
-The homepage isn't a destination page in itself with explanatory information. Instead, it directs users to the correct "terminals" for their documentation routes.
-
-Here's an example of an entry point with Microsoft's Azure documentation.
-
-<a href="https://docs.microsoft.com/en-us/"><img src="../media/rasters/azurehomepage.png"/></a>
-
-I like the visual attractiveness of cards on the homepage. These cards draw the eye and invite you to click and explore them. They're a good way to give balance and visual appeal to what would otherwise be a list of links. The card design on the homepage is a common pattern with documentation.
-
-That said, a list of links (such as with [AWS](https://aws.amazon.com/documentation/)) also works if you have a lot of different doc sets. The list format allows users to quickly scan the page and take in the whole at a glance, which is a principle I'll explore more later.
-
-In addition to terminals for documentation, a getting started tutorial or other beginner walk-through task can act as a progressive lure to pull users into the system. It's common to provide a Hello World tutorial that gets users up and running within minutes so they get a sense of how the system works.
-
-Additionally, quick reference guides or other getting started tasks would be appropriate on the homepage. Depending on the size of your help system, you will likely have a doc portal homepage followed by a product documentation homepage. The getting started tutorials and quick reference guide tutorials would be more appropriate on the product documentation homepage.
-
-Overall, users come to the homepage to figure out where to go, to see what's available, and to get oriented. Try to make it as easy as possible for them to do get started.
-
-Users also start forming opinions and biases about the documentation from the entry point. If the entry point is disorganized and doesn't help them get started, the user's confidence is already crippled as they head into the rest of the documentation.
-
-### Desire lines
-
-Another design principle to implement on your entry point is to formalize your desire lines. Desire lines are the natural paths that form based on frequent user preferences.
-
-<div class="bs-callout bs-callout-primary"><b>Desire Line:</b> "Traces of use or wear that indicate preferred methods of interaction with an object or environment."</div>
-
-The most common example of a desire line is a shortcut across a lawn.
-
-<figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="../media/rasters/desirepath.jpg"/></a>
- <figcaption><small>From Flickr by George Redgrave</small></figcaption></figure>
-
-A desire line is the natural path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in.
-
-In your help system, you probably have a list of popular topics that make up the bulk of search results (following the 80/20 rule). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
-
-Here's an example from Twitter. By putting the most popular topics right at the top, the authors embrace the desire lines to these topics.
-
-<a href="https://support.twitter.com/"><img src="../media/rasters/twitter_sidebar2.png"/>
-</a>
-
-On the [Amazon Developer Documentation homepage](https://developer.amazon.com/documentation), we looked at the top 10 most viewed topics in our help and made this content visually prominent in a carousel at the top.
-
-<!-- Hierarchy -->
-
-## 2. Hierarchy
+One of principles of design in [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079) is hierarchy.
 
 <img src="../media/vectors/wtd_doc_navigation_hierarchy.svg"  class="vectorStyle"/>
-
-Another design principle to consider in your doc navigation is hierarchy.
 
 <div class="bs-callout bs-callout-primary"><b>Hierarchy:</b> "Hierarchical organization is the simplest structure for visualizing and understanding complexity." </div>
 
@@ -105,6 +87,10 @@ A good example of hierarchy in a sidebar is with Google.
 </a>
 
 Here you can see that the various topics appear in the left, divided into different groups.
+
+Creating a hierarchical sidebar is nothing new in documentation, for sure. It's odd *not* to have one, and only when your content is more like a knowledge base repo or endless wiki (with single page encyclopedic entries) do you usually omit the sidebar. But doing the sidebar right is tough.
+
+### Right-sizing the sidebar
 
 When you create your sidebar menu, right-size the doc navigation so that it's not too massive, nor too small, but rather provides meaningful at-a-glance context at a defined scope. In the Google example, there aren't so many topics that you can't get meaningful information at a glance about the whole.
 
@@ -128,7 +114,7 @@ In other words, the sidebar menu grounds users with a sense of the whole, even i
 
 ## The necessity of seeing the whole
 
-To better understand why we need this hierarchy sidebar nav, think of this sidebar as a list of parts that make up the whole.
+To better understand why we need this sense of the whole, think of this sidebar as a *list of parts*.
 
 <img src="../media/vectors/wtd_doc_navigation_listofparts.svg" style="border: 1px solid #dedede;"/>
 
@@ -136,35 +122,125 @@ Breaking down a complex system into a list of parts can help simplify the system
 
 <img src="../media/vectors/wtd_doc_navigation_wholevspart.svg" style="border: 1px solid #dedede;"/>
 
-If you think about it, with just about any complex system or object, to understand it, users break down the whole into a list of parts. It's the first step in wrangling complexity &mdash; converting a complex entity into smaller parts to better understand what's going on. Here are some examples:
+If you think about it, with just about any complex system or object, to understand it, users break down the whole into a list of parts. It's the first step in wrangling complexity &mdash; converting a complex entity into smaller parts to better understand what's going on. That's what the design principle asserts &mdash; "Hierarchical organization is the simplest structure for visualizing and *understanding complexity*."
+
+We regularly break down complex systems into hierarchies that list out the parts. Here are some examples:
 
 * To understand a philosophical theorem, you break it down into assumptions, premises, and conclusions.
-* To understand a company's organization, you might break it down into different departments, groups,  managers.
+* To understand a company's organization, you might break it down into different departments, groups, and managers.
 * To understand a product to assemble, you check out the list of parts, tools, and tasks.
 * To understand a story, you break it down into exposition, rising action, climax, and denouement.
-* To understand a conference, you look at the speakers, venue, schedule.
+* To understand a conference, you look at the speakers, venue, and schedule.
 * To understand an API, you look at the authentication mechanism, the base URL, a sample request, a sample response.
-* To understand the animal kingdom, you can classify them into various groups: birds, fish, reptiles, amphibians, anthropods, mammals, etc.
+* To understand the animal kingdom, you classify animals into birds, fish, reptiles, amphibians, anthropods, mammals, and other groups.
 
-Our natural action in understanding any complex system is to break the system down into a list of parts, and then analyze how those parts work together. That's basically what a sidebar navigation menu is, only instead of one long flat list, the list of parts are often organized into parent-child trees (smaller hierarchies) that make sense.
+Our natural action in understanding any complex system is to break the system down into a list of parts, and then analyze how those parts work together. That's basically what a sidebar navigation menu is, only instead of one long flat list, the list of parts are often organized into parent-child trees (smaller hierarchies) as it makes sense to do so.
 
-When users have this larger map of the whole system, with each of its parents logically grouped, it can provide meaning to users. According to James Kalbach,
+When users have this larger map of the whole system, with each of its parents logically grouped, this whole can provide meaning to users. According to James Kalbach,
 
 <blockquote>Navigation provides a narrative for people to follow on the web. <small><br/>&mdash; <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
 </blockquote>
 
+A narrative is a story. Your hierarchy can tell the story of your information.
+
 ### Avoid deep hierarchies
 
-As you structure your sidebar, try to avoid deep hierarchies. Deep hierarchies are folders that contain folders that contain folders that contain folders, etc. Deep hierarchical nesting prevents users from grasping the whole at a glance. This undercuts the purpose of the sidebar.
+As you structure your sidebar, try to avoid deep hierarchies. Deep hierarchies are folders that contain folders that contain folders, etc. Deep hierarchical nesting prevents users from grasping the whole at a glance and undercuts the purpose of the sidebar.
 
 <img src="../media/vectors/wtd_doc_navigation_flatdeephierarchies.svg" style="border: 1px solid #dedede;"/>
 
 Some examples of deep hierarchical nesting would be [Wikipedia's category hierarchies](https://en.wikipedia.org/wiki/Portal:Contents/Categories) or [Yahoo's hierarchy directory](https://arstechnica.com/information-technology/2014/09/yahoo-killing-off-yahoo-after-20-years-of-hierarchical-organization/). Beyond 1-2 levels, the deep hierarchies become difficult to process. Our brains aren't wired for it.
 
+## Action 2: Navigate from doc set to doc set
 
-<!-- Immersion -->
+After I right-sized the product sidebar, I had a handful of different sidebars to manage. Remember I said the sidebar shouldn't be so massive that it contains endless pages of nested documentation. As a result, I had about 4 other sidebars scoped to somewhat different or related products.
 
-## 3. Immersion
+Additionally, there were some other doc sets that would be relevant to users, which were owned by other writers. I put a "Related Resources" section at the bottom of the sidebar that would allow users to easily navigate to other sidebars.
+
+<img src="media/rasters/navamongdocsets.png"/>
+
+We also created a doc index page that listed all the different documentation across the site.
+
+### Design principle: Progressive disclosure
+
+<img src="../media/vectors/wtd_doc_navigation_entrypoint.svg" class="vectorStyle" />
+
+Progressive disclosure is almost redundant from the previous section but is worth calling out here since it acts as a primary tool in your usability toolbox.
+
+<div class="bs-callout bs-callout-primary"><b>Progressive disclosure:</b> "A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p> &mdash; <i>Universal Principles of Design</i></div>
+
+The basic idea of progressive disclosure is to layer your information at different levels. Designers creating mocks for websites regularly consider these different levels in their UI layouts. I remember the last time I evaluated some comps from a UX designer. He pointed out the type of information that would appear to users at level 1, level 2, level 3, and level 4.
+
+In techwriterville, we usually operate at one level and don't have this multi-tiered approach to information in our list of concerns.
+
+## Basic information first, then advanced information
+
+The idea of progressive disclosure can be extracted into various applications. Beyond layers of information, you can also start by showing basic information first and more advanced information at different stages. According to Jakob Nielsen:
+
+> Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
+&mdash; <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
+
+The most common application of progressive disclosure is with context-sensitive help. Provide little tooltips or other on-screen text in your user interface and let the user click for more information if desired.
+
+That's a great strategy if your product has a user interface, but if you're working with developer documentation and APIs, there may not actually be any such UI to hang this information.
+
+The way progressive disclosure applies here is with the layers of information exposed by the sidebar. Think about the type of information shown at these levels:
+
+* Doc portal homepage (Level 1)
+* Product homepage (Level 2)
+* Section homepage (Level 3)
+* Page (Level 4)
+
+You can think of these points as levels 1 through 4. What information should you show to users at each level?
+
+### Doc portal homepage
+
+It depends on the size and scope of your products and documentation, but generally the doc portal home likely lists the various product documentation available.  
+
+Here's an example with Microsoft's Azure documentation.
+
+<a href="https://docs.microsoft.com/en-us/"><img src="../media/rasters/azurehomepage.png"/></a>
+
+The doc portal homepage should list out the documentation in a way that makes sense, such as by product and version, or by user role or goal. The grouping should be helpful for users to see what's available, to orient themselves in the right direction, and to get started.
+
+I like to think of the doc portal homepage as a train station. It should clearly direct users on where to go.
+
+<figure><a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="../media/rasters/trainstation.jpg"/></a><figcaption><small>From Flickr by Nathan Congleton</small></figcaption></figure>
+
+The homepage isn't a destination page in itself with explanatory information. Instead, it directs users to the correct "terminals" for their documentation routes.
+
+I like the visual attractiveness of cards on the homepage. These cards draw the eye and invite you to click and explore them. They're a good way to give balance and visual appeal to what would otherwise be a list of links. The card design on the homepage is a common pattern with documentation.
+
+That said, a list of links (such as with [AWS](https://aws.amazon.com/documentation/)) also works if you have a lot of different doc sets. The list format allows users to quickly scan the page and take in the whole at a glance, which is a principle I'll explore more later. You also don't have to scramble/brainstorm for graphic representations of your documentation.
+
+Users start forming opinions and biases about the documentation from this first entry point. If the entry point is disorganized and doesn't help them get started, the user's confidence is already crippled as they head into the rest of the documentation.
+
+### Product homepage
+
+When you click into a product homepage, the navigation sidebar should show links for that product. The scope and focus of the information changes to become more specific to the product.
+
+A product homepage is not so much a train station terminal for routing. Instead, the product homepage should help users get started with the product. You might list a getting started or Hello World tutorial or other beginner task (e.g, a tour of the app, or the most popular tasks). The information should act as a progressive lure to pull users into the system.
+
+Additionally, quick reference guides or other getting started tasks would be appropriate on the product homepage.
+
+Overall, users come to the homepage to figure out where to go, to see what's available, and to get oriented. Try to make it as easy as possible for them to do get started.
+
+### Section homepage
+
+Whether you have a section homepage or not depends on the size of your information. At any rate, the section homepage is a microcosm of the product homepage, except that it's more focused on a sub-topic within the product.
+
+For example, if your product contains various widgets, your section homepage might provide an overview of the available widgets, with links to the pages for the widgets. If your sections are huge (e.g., 20-30 pages per section), you might narrow the scope of the sidebar to just show pages within that section (with navigation to go to the other sections).
+
+### Page
+
+Finally, we arrive at the page level. The page level should provide an on-page table of contents that let's users know the scope of information at that page. Users shouldn't have to manually scroll the page to get a sense of the information the page contains.
+
+Manually scrolling the page doesn't let users see the h2, h3, and possibly h4 heading levels that give users a sense of the information. The on-page TOC performs the same function as the sidebar TOC in giving users a sense of the whole, except that the on-page TOC is a microcosm with a much narrower scope.
+
+## Action 3: Allow navigation within content
+
+
+### 3. Immersion
 
 <img src="../media/vectors/wtd_doc_navigation_dontleavesystem.svg"  class="vectorStyle"/>
 
@@ -213,6 +289,33 @@ The web teaches us navigate this way because our searches typically follow this 
 Even if we don't *always* operate in this mode, the many times we do operate in this mode condition us to act this way even when we're not on the web. We rarely navigate via the sidebar because we're so used to jumping across different websites (clicking back and forward on different google results) instead of moving within the same system using a logical sidebar.
 
 This kind of hit-and-miss navigation through keyword searches and results pages is jumpy and nauseating in the long run, but because we have internalized the behavior as part of an Internet culture, we can't neglect this design pattern in our help material. Instead, we should build links into our content to help users navigate.
+
+
+### Desire lines
+
+Another design principle to implement on your entry point is to formalize your desire lines. Desire lines are the natural paths that form based on frequent user preferences.
+
+<div class="bs-callout bs-callout-primary"><b>Desire Line:</b> "Traces of use or wear that indicate preferred methods of interaction with an object or environment."</div>
+
+The most common example of a desire line is a shortcut across a lawn.
+
+<figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="../media/rasters/desirepath.jpg"/></a>
+ <figcaption><small>From Flickr by George Redgrave</small></figcaption></figure>
+
+A desire line is the natural path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in.
+
+In your help system, you probably have a list of popular topics that make up the bulk of search results (following the 80/20 rule). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
+
+Here's an example from Twitter. By putting the most popular topics right at the top, the authors embrace the desire lines to these topics.
+
+<a href="https://support.twitter.com/"><img src="../media/rasters/twitter_sidebar2.png"/>
+</a>
+
+On the [Amazon Developer Documentation homepage](https://developer.amazon.com/documentation), we looked at the top 10 most viewed topics in our help and made this content visually prominent in a carousel at the top.
+
+
+
+
 
 ## 4. Modularity {#modularity}
 
