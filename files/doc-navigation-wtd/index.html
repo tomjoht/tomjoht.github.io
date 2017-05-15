@@ -24,7 +24,7 @@
       <meta name="theme-color" content="#ffffff">
       <!-- end favicon code -->
       <link rel="stylesheet" href="css/reveal.css">
-      <link rel="stylesheet" href="css/theme/black.css">
+      <link rel="stylesheet" href="css/theme/beige.css">
       <!-- Theme used for syntax highlighting of code -->
       <link rel="stylesheet" href="lib/css/zenburn.css">
       <!-- Printing and PDF exports -->
@@ -51,7 +51,7 @@
          font-size: 24px;
          }
          .slides section h3 {
-         color: orange !important; outline: gray;
+         color: #666 !important;
          }
          .slides img {
          max-height: 500px;
@@ -168,7 +168,7 @@
                 <section>
                   <h2>New company ... same problem</h2>
                   <img src="media/vectors/wtd_doc_navigation_journeytoamazon.svg"/>
-                  <p>How do you increase the user's ability to find answers in your help?</p>
+                  <p style="font-size: 99%">How do you increase the user's ability to find answers in docs?</p>
                   <aside class="notes">
                     <ul>
                     <li>Usability testing on app creation experience</li>
@@ -179,7 +179,7 @@
                   </section>
 
             <section>
-               <h2>Design principles used in solving the problem</h2>
+               <h2>Design principles to tackle the problem</h2>
 
                <style>
                   section.present .sidebyside {
@@ -330,7 +330,7 @@
              </aside>
              </section>
                 <section>
-                  <h3>Desgn princ.: Progressive disclosure</h3>
+                  <h3>Design principle: Progressive disclosure</h3>
                   <img src="media/vectors/wtd_doc_navigation_progressivedisclosure.svg"/>
                   <p>"A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p> &mdash; <i>Universal Principles of Design</i>
                   <aside class="notes">
@@ -496,9 +496,9 @@
                 <img src="media/rasters/longertopicsamazon.png"/>
                 <aside class="notes">
                   <ul>
-                  <li>My pet peeve are tiny topics</li>
+                  <li>My pet peeve is tiny topics</li>
                   <li>Content didn't really have this problem</li>
-                  <li></li>
+                  <li>Constant questoin -- can I consolidate, reduce # of pages?</li>
                 </ul>
               </aside>
               </section>
@@ -522,7 +522,7 @@
                      <aside class="notes">
                        <ul>
                        <li>Reacting against sequential learning modules</li>
-                       <li></li>
+                       <li>Help must support entry at any point</li>
                        <li></li>
                      </ul>
                    </aside>
@@ -531,9 +531,9 @@
                  <img src="media/vectors/wtd_doc_navigation_topiclength.svg" />
                  <aside class="notes">
                    <ul>
-                   <li></li>
-                   <li></li>
-                   <li></li>
+                   <li>Don't be afraid of longer topics.</li>
+                   <li>break the topic when it's too confusing to have all the info on the same page </li>
+                   <li>people can navigate a single page if you have toc</li>
                  </ul>
                </aside>
                </section>
@@ -542,38 +542,26 @@
                   <img src="media/vectors/usercentered_buildingblocks.svg"/>
                   <aside class="notes">
                     <ul>
-                    <li></li>
-                    <li></li>
+                    <li>task, concept, reference --> doesn't have to be mini-topics</li>
+                    <li>don't force users to be pinballs</li>
                     <li></li>
                   </ul>
                 </aside>
                </section>
-               <!-- <section>
-                  <h3>Create self-contained "articles"</h3>
-                  <a href="https://codex.wordpress.org/Installing_WordPress"><img class="shortened" src="media/rasters/wordpress.png"/></a>
-               </section> -->
-               <aside class="notes">
-                 <ul>
-                 <li></li>
-                 <li></li>
-                 <li></li>
-               </ul>
-             </aside>
             </section>
 
           <!-- wayfinding -->
           <section>
-            <section><h2>Action 6: Provide signposts along the way</h2>
+            <section><h2>Action 6: Hang signposts along the way</h2>
               <a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-categories"><img src="media/rasters/amazonsignposts.png"/></a>
               <aside class="notes">
                 <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>like hiker on a path</li>
+                <li>context before</li>
+                <li>big believe in next steps</li>
               </ul>
             </aside>
             </section>
-
 
              <section>
                 <h3>Design principle: Wayfinding</h3>
@@ -581,9 +569,9 @@
                 <p>"The process of using spatial and environmental information to navigate to a destination." <br/>&mdash; <i>Universal Principles of Design</i></p>
                 <aside class="notes">
                   <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>users have big picture, now they need signposts along the way</li>
+                  <li>links at start (for context) and end (next steps)</li>
+                  <li>give users a map to follow for their tasks</li>
                 </ul>
               </aside>
              </section>
@@ -592,9 +580,9 @@
                 <a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="media/rasters/aws.png" /></a>
                 <aside class="notes">
                   <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>this only works for simple, linear processes</li>
+                  <li>you could also consolidate on same page with expandable sections</li>
+                  <li>more realistic is to have a complex workflow map with many decision trees</li>
                 </ul>
               </aside>
              </section>
@@ -603,9 +591,9 @@
                 <a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="media/rasters/firebase.png" /></a>
                 <aside class="notes">
                   <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>not all tasks have next steps, but suggest one anyway</li>
+                  <li>most tasks are situated inside a larger process</li>
+                  <li>if you can gamify the process with a progress bar, even better!</li>
                 </ul>
               </aside>
              </section>
@@ -614,9 +602,9 @@
                  <a href="https://developers.facebook.com/docs/accountkit/countrycodes"><img src="media/rasters/facebookbreadcrumbs.png"/></a>
                  <aside class="notes">
                    <ul>
-                   <li></li>
-                   <li></li>
-                   <li></li>
+                   <li>welcome addition for context</li>
+                   <li>not always easy to implement</li>
+                   <li>avoid constructing your entire nav through breadcrumbs</li>
                  </ul>
                </aside>
              </section>
@@ -625,7 +613,7 @@
           <!-- Question -->
 
         <section>
-           <h2 style="color: orange">Discussion Question</h2>
+           <h2>Discussion Question</h2>
            <p>With your own documentation in mind, how are you incorporating some of the following design principles?</p>
 <div class="leftcolumn" style="float: left; margin: 10px; margin-left: 100px;">
            <ul>
@@ -657,18 +645,16 @@
                     <img src="media/rasters/family.png"/>
                 </div>
                 <div style="float:left; padding: 10px; text-align: left;">
-                    <p> <span style="color: orange;">Tom Johnson</span><br/>
+                    <p>Tom Johnson<br/>
                         &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
                         &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
                         &mdash; <a href="mailto:tom@idratherbewriting.com">tom@idratherbewriting.com</a>
                     </p></div>
             </div>
-            <aside class="notes">
-                <p>— </p>
-                <p>— </p>
-                <p>— </p>
-            </aside>
+
         </section>
+
+
 
          </div>
       </div>
