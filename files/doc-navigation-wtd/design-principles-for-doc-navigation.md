@@ -67,7 +67,7 @@ I found the lack of a sidebar challenging as I tried to use the content. How big
 
 I decided that each product needed a sidebar that would show the general pages in that collection of documentation. It wasn't too much trouble to hack a sidebar in there to serve this purpose.
 
-<img src="media/rasters/amazondevportalsidebar.png"/>
+<img src="../media/rasters/amazondevportalsidebar.png"/>
 
 There wasn't room on the left, since the general category sidebar occupied that space. So I added it on the right.
 
@@ -77,7 +77,7 @@ One of principles of design in [Universal Principles of Design](https://www.amaz
 
 <img src="../media/vectors/wtd_doc_navigation_hierarchy.svg"  class="vectorStyle"/>
 
-<div class="bs-callout bs-callout-primary"><b>Hierarchy:</b> "Hierarchical organization is the simplest structure for visualizing and understanding complexity." </div>
+<div class="bs-callout bs-callout-primary"><b>Hierarchy:</b> "Hierarchical organization is the simplest structure for visualizing and understanding complexity." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
 When we organize our documentation, we usually create a hierarchical outline of the content to help users both understand and visualize the body of information. We usually have a sidebar navigation feature that lists the topics in the documentation (within a particular product scope). The documents are often grouped in parent-child trees.
 
@@ -157,7 +157,7 @@ After I right-sized the product sidebar, I had a handful of different sidebars t
 
 Additionally, there were some other doc sets that would be relevant to users, which were owned by other writers. I put a "Related Resources" section at the bottom of the sidebar that would allow users to easily navigate to other sidebars.
 
-<img src="media/rasters/navamongdocsets.png"/>
+<img src="../media/rasters/navamongdocsets.png"/>
 
 We also created a doc index page that listed all the different documentation across the site.
 
@@ -167,7 +167,7 @@ We also created a doc index page that listed all the different documentation acr
 
 Progressive disclosure is almost redundant from the previous section but is worth calling out here since it acts as a primary tool in your usability toolbox.
 
-<div class="bs-callout bs-callout-primary"><b>Progressive disclosure:</b> "A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p> &mdash; <i>Universal Principles of Design</i></div>
+<div class="bs-callout bs-callout-primary"><b>Progressive disclosure:</b> "A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p> &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
 The basic idea of progressive disclosure is to layer your information at different levels. Designers creating mocks for websites regularly consider these different levels in their UI layouts. I remember the last time I evaluated some comps from a UX designer. He pointed out the type of information that would appear to users at level 1, level 2, level 3, and level 4.
 
@@ -239,20 +239,25 @@ Manually scrolling the page doesn't let users see the h2, h3, and possibly h4 he
 
 ## Action 3: Allow navigation within content
 
+Although the sidebar is important for seeing the whole, it's also important to build navigation inline within the sentences of your content itself. Users tend to navigate by clicking links inline rather than via the sidebar. I added links where appropriate in my content.
 
-### 3. Immersion
+<img src="../media/rasters/amazoninlinelinks.png"/>
+
+### Design principle: Immersion
+
+The design principle at work here might be considered immersion.
 
 <img src="../media/vectors/wtd_doc_navigation_dontleavesystem.svg"  class="vectorStyle"/>
 
-Another principle to design for is immersion.
+<div class="bs-callout bs-callout-primary"><b>Immersion:</b> "A state of mental focus so intense that awareness of the "real" world is lost, generally resulting a feeling of joy and satisfaction." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
-<div class="bs-callout bs-callout-primary"><b>Immersion:</b> "A state of mental focus so intense that awareness of the "real" world is lost, generally resulting a feeling of joy and satisfaction."</div>
+Although immersion mostly refers to removing distractions from the outside world so the user can become engrossed within a system and forget the outside world, there are ties with documentation here. Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help. Users usually feel like going into the help detracts them from the focus and progress toward their goal.
 
-Although immersion mostly refers to removing distractions from the outside world so the user can become engrossed within a system, forgetting the outside world, there are ties with documentation here. Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help. Users usually feel like going into the help detracts them from the focus and progress toward their goal.
+The first way to cater to immersion is to bring the help to the user. Don't require users to go to the help &mdash; through context-sensitive features and other on-screen text, bring the help to the natural location where users are at.
 
-The first way to cater to immersion, therefore, is to bring the help to the user. Don't require users to go to the help &mdash; through context-sensitive features and other on-screen text, bring the help to users. This assumes there's a user interface for you to push the help. With developer docs, the help might best appear in the form of code comments, error messages, or interactive REST clients like Swagger.
+Of course this assumes there's a user interface for you to push the help. With developer docs, the help might best appear in the form of code comments, error messages, man[ual] pages in the terminal.
 
-But even when a user goes to your help system, the principle of immersion still applies. Users consuming content prefer to stay within that content page rather than move back and forth with a sidebar nav, which exists somewhat "outside" of the page content.
+But even when a user goes to your help system, the principle of immersion still applies. Users consuming content prefer to stay within that content  of thepage rather than move back and forth with a sidebar nav, which exists somewhat "outside" of page content.
 
 <img src="../media/vectors/wtd_doc_navigation_usersclickinlinelinks.svg"  style="border: 1px solid #dedede;"/>
 
@@ -260,7 +265,7 @@ Immersed in a topic, users are more apt to click and navigate using the links wi
 
 ### Bottom-up navigation
 
-The idea of navigating from within your content is called "bottom-up navigation" (rather than "top-down navigation," where users would drill down into the content through hierarchies). Bottom-up navigation is a principle that Mark Baker emphasizes on his site [Every Page Is Page One](http://everypageispageone.com/2015/02/10/bottom-up-information-architecture-q-and-a-part-1/).
+The idea of navigating from within your content is called "bottom-up navigation" (rather than "top-down navigation," where users would drill down into the content through hierarchies at the top, often abstract/general level). Bottom-up navigation is a principle that Mark Baker emphasizes on his site [Every Page Is Page One](http://everypageispageone.com/2015/02/10/bottom-up-information-architecture-q-and-a-part-1/).
 
 Although Mark describes bottom-up navigation in more articulate, abstract ways in his posts and book, I like the down-to-earth description he gives in a [comment on one of my posts](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3286566056):
 
@@ -276,35 +281,46 @@ These principles may seem like commonsense. In general, we link to topics as it 
 
 <img src="../media/rasters/wikipedia.png"/>
 
+Admittedly, I haven't amplified the number of links that Mark suggests. I would need to increase these links by about 5 times the amount I currently have.
+
 Amplifying the number of inline links create some challenges:
 
-* It can be hard to author content when your text is littered with links. (If using Markdown, use the reference style linking.)
+* It can be hard to author content when your text is littered with links. (If using Markdown, use [reference style linking](https://daringfireball.net/projects/markdown/syntax#link) that uses a variable inline to reference a URL at the end of your content.)
 * As you rename files, page titles, and headings, the links can easily break or list the wrong page titles.
 * Inline links create decision points in your content that force users to decide whether to continue reading or to jump to a new topic. This can result in users jumping around more in your content, which might [reduce readability and increase documentation fatigue](http://idratherbewriting.com/2010/06/19/finally-convinced-about-removing-inline-links-to-increase-readability/).
 
 Even with these challenges, don't neglect or minimize inline links. They're how many users simply navigate content. Why? The web has driven this behavior into our brains.
 
-The web teaches us navigate this way because our searches typically follow this pattern: we google something, land on a page, become dissatisfied, jump back to google's results, click to another page, click links within the page, and move to another page as we search for the right information.
+## How the web has taught us to navigate
 
-Even if we don't *always* operate in this mode, the many times we do operate in this mode condition us to act this way even when we're not on the web. We rarely navigate via the sidebar because we're so used to jumping across different websites (clicking back and forward on different google results) instead of moving within the same system using a logical sidebar.
+The web teaches us navigate through inline links way because our searches typically follow this pattern: we google something, land on a page, become dissatisfied, jump back to google's results, click to another page, click links within the page, possibly move back to the search results, and then move to another page as we search for the right information.
 
-This kind of hit-and-miss navigation through keyword searches and results pages is jumpy and nauseating in the long run, but because we have internalized the behavior as part of an Internet culture, we can't neglect this design pattern in our help material. Instead, we should build links into our content to help users navigate.
+Even if we don't *always* operate in this mode, the many times we do operate in this mode condition us to act this way even when we're not on the web. We rarely navigate via the sidebar because we're so used to *jumping across different websites* (clicking back and forward on different google results) instead of moving within the same system using a logical sidebar.
 
+This kind of hit-and-miss navigation through keyword searches and search results pages is jumpy and nauseating in the long run, but because we have internalized the behavior as part of an Internet culture, we can't neglect this design pattern in our help material. Instead, we should build links into our content to help users navigate.
 
-### Desire lines
+## Action 4: Make popular topics easy to access
 
-Another design principle to implement on your entry point is to formalize your desire lines. Desire lines are the natural paths that form based on frequent user preferences.
+In addition to using inline links, I also wanted to surface the most popular topics in more visible, easy-to-find places. For example, one of the most popular topics was information on specifications. Based on metrics analysis, it seemed that of all topics in the help, this was the one most people were viewing.
 
-<div class="bs-callout bs-callout-primary"><b>Desire Line:</b> "Traces of use or wear that indicate preferred methods of interaction with an object or environment."</div>
+I moved this topic up more prominently in the help by listing it immediately after the overview, linking to it on the overview page, and featuring it on the doc portal homepage.
+
+<img src="../media/rasters/amazonpopulartopics.png" />
+
+### Design principle: Desire line
+
+The design principle here is one called "Desire line." Desire lines are the natural paths that form based on frequent user preferences.
+
+<div class="bs-callout bs-callout-primary"><b>Desire Line:</b> "Traces of use or wear that indicate preferred methods of interaction with an object or environment." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
 The most common example of a desire line is a shortcut across a lawn.
 
 <figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="../media/rasters/desirepath.jpg"/></a>
  <figcaption><small>From Flickr by George Redgrave</small></figcaption></figure>
 
-A desire line is the natural path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in.
+A desire line is the most common path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in. (This is how the designers created the walking paths at Central Park.)
 
-In your help system, you probably have a list of popular topics that make up the bulk of search results (following the 80/20 rule). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
+In your help system, you probably have a list of popular topics that make up the bulk of search results (following the [80/20 rule](http://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/)). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
 
 Here's an example from Twitter. By putting the most popular topics right at the top, the authors embrace the desire lines to these topics.
 
@@ -313,17 +329,27 @@ Here's an example from Twitter. By putting the most popular topics right at the 
 
 On the [Amazon Developer Documentation homepage](https://developer.amazon.com/documentation), we looked at the top 10 most viewed topics in our help and made this content visually prominent in a carousel at the top.
 
+It's nearly impossible to identify your desire lines without diving into metrics, so don't just guess. Start with quantitative data about what pages users are actually searching for. The results might surprise you.
 
+You can take desire lines a step further by dedicating more time to content development for those pages. If this small number of pages accounts for the bulk of your user's viewing time, spend more time developing, expanding, and testing the content on those pages.
 
+## Action 5: Reduce information fragmentation
 
+Another action I took to help tackle findability issues was to consolidate information into longer, more complete pages where necessary. Fortunately, with this help system, short, fragmented content wasn't a huge issue, but as I developed new content, I conscientiously avoided splitting up content when it could be consolidated in a readable way on the same page.
 
-## 4. Modularity {#modularity}
+For example, the following is a screenshot of a topic on customizing the appearance of your app. There were various ways to customize the app, and I could have broken each element into its own topic (for example, change the logo, change the background color, change the layout, etc.). Instead, I decided to put all the content on the same page, making it navigable through an on-page table of contents (TOC).
+
+<img src="../media/rasters/longertopicsamazon.png"/>
+
+The longer pages you have, the more imperative the on-page TOC becomes for enabling users to navigate the information on that page.
+
+### Design principle: Modularity {#modularity}
+
+The design principle behind consolidating information into longer, more complete topics is modularity.
 
 <img src="../media/vectors/wtd_doc_navigation_modularity.svg"  class="vectorStyle"/>
 
-In the previous section, I explained that users often arrive at a page from a search, because that's how the web has conditioned us to act, through hundreds of searches we do on a weekly/monthly basis. This transitions us to the next design principle, modularity.
-
-<div class="bs-callout bs-callout-primary"><b>Modularity:</b> "A method of managing system complexity that involves dividing large systems into multiple, smaller self-contained systems." </div>
+<div class="bs-callout bs-callout-primary"><b>Modularity:</b> "A method of managing system complexity that involves dividing large systems into multiple, smaller self-contained systems." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
 Applying modularity to documentation means breaking up content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.
 
@@ -349,24 +375,39 @@ Most of us agree with this modularity in theory, but it's hard to implement in p
 
 For example, you may be writing in a documentation structure that separates content into tasks, concepts, and reference topics. If so, remember that these structures are a way of chunking content so you can re-use it. The re-use reduces your word count, lowers translation costs, avoids duplication, and provides other efficiency benefits.
 
-However, remember that these information chunks are building blocks only. Like legos, you can arrange the blocks into more lengthy displays.
+However, remember that these information chunks are *building blocks only*. Like legos, you can arrange the blocks into more lengthy creations.
 
 <img src="../media/vectors/usercentered_buildingblocks.svg"  style="border: 1px solid #dedede;"/>
 
 You aren't required to have a two-sentence topic that stands as its own page because it's a concept. You don't need a topic that is just 3 steps and nothing more because it's a "task." Users don't think in terms of topic types but rather goals and problems.
 
-If you fragment your information into a [million little content pieces](http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/), you force users to jump around from topic to topic, like a pinball bouncing off of different walls and targets, looking for the information they need. That design leads to a disjointed, tiring experience. Instead, combine these chunks into more comprehensive "articles," just like rocks can be stacked in different combinations to form more elaborate and purposeful cairns.
+If you fragment your information into a [million little content pieces](http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/), you force users to jump around from topic to topic, like a pinball bouncing off of different side walls and backstops, looking for the information they need. That design leads to a disjointed, tiring experience. Instead, combine these chunks into more comprehensive "articles."
+
+Continuing with more analogies, consider each chunk of content as a rock. You can certainly store and manage the rocks as individual chunks. But if you want to convey meaningful information to users, stack the rocks into various combinations to create more elaborate and purposeful displays.
+
+On trails, these stacks of rocks are called "cairns" and serve as guide posts to users on trails that often lack clear boundaries or pathways.
 
 <img src="../media/rasters/cairns.png" style="vectorImage"/>
 
-Not all help information can stand <i>entirely</i> on its own. Frequently one concept or task builds on another topic, or requires knowledge of another topic. But there's usually a logical boundary line between topics. You can decide  how large to draw the boundaries. Just make sure your users aren't bouncing from one topic to another trying to get answers for a single task or goal they're trying to achieve.
+Not all help information can stand <i>entirely</i> on its own. Frequently one concept or task builds on another topic, or requires knowledge of another topic. But there's usually a logical boundary line between topics. You can decide  how large to draw the boundaries.
 
-Although I shy away from actual word count numbers, I think a good-sized page can range anywhere from 800 to 3,000 words. It mainly depends on whether the topic is complete. Beyond 3,000 words, I usually start chunking the information.
+When content becomes unwieldy or hard to follow because it's all listed on the same page, break it up into multiple pages. Just make sure your users aren't bouncing from one topic to another trying to get answers for a single task or goal they're trying to achieve.
 
+Although I shy away from actual word count numbers, I think a good-sized page can range anywhere from 800 to 3,000 words. It mainly depends on whether the topic is complete. Beyond 3,000 words, I usually start chunking the information. But again, these are rough word counts. How much information you can fit into a page depends on the navigation mechanisms on your site.
+
+### Going overboard with modularity
+
+It is possible to go overboard with modularity. In [version 3 of Bootstrap's component documentation](https://getbootstrap.com/components/), the authors listed all components on the same page. As a result, the content was approximately 8,000 words long.
+
+In [version 4 of Bootstrap's component docs](https://v4-alpha.getbootstrap.com/components/alerts/), the component documentation is more broken up. For example, this [doc page on alerts](https://v4-alpha.getbootstrap.com/components/alerts/) has just 800 words. I don't know the reasoning behind Bootstrap's documentation decisions, but it's clear that they felt the previous organization in putting all content on the same page had some downsides.
 
 <!-- wayfinding -->
 
-## 5. Wayfinding
+## Action 6: Hang signposts along the way
+
+<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-categories"><img src="media/rasters/amazonsignposts.png"/></a>
+
+### Wayfinding
 
 <img src="../media/vectors/wtd_doc_navigation_wayfinding.svg" class="vectorStyle"/>
 
