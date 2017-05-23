@@ -1,11 +1,11 @@
 ---
-title: "Impressions from the Write the Docs Conference -- achieving sustainability without selling out to vendors"
+title: "Impressions from the Write the Docs Conference -- and thoughts on achieving sustainability without selling out to vendors"
 categories:
 - api-doc
 - general
 keywords:
 summary: "I recently returned from the 2017 Write the Docs conference in Portland, Oregon. The conference had two days of sessions (Monday and Tuesday), preceded by a day of doc writing sprints and workshops. I also participated in a 5-mile conference hike on Saturday. Although this was the fifth year of the WTD conference (it began in 2013), this was my first time attending. In this post, I'll share my impressions of the conference, contrasting it primarily with other tech comm conferences such as the STC."
-bitlink: "http://bit.ly/"
+bitlink: "http://bit.ly/wtdconfwriteup"
 ---
 
 ## Origins of WTD
