@@ -18,7 +18,7 @@ It wasn't until later that this tribe learned about other documentation tribes a
 
 At the first WTD conference, there were an astounding 250 attendees. This surprised the co-founders and reinforced the need for a documentation community. Now at the fifth year of the WTD conference, the conference sold out with a cap of 600 attendees. They moved into a larger venue, [The Crystal Ballroom](http://www.crystalballroompdx.com/), and have a host of speakers, workshops, unconference sessions, and other activities for 4 days straight.
 
-<a href="http://www.crystalballroompdx.com/"><img src="/images/writethedocsconferencevenue.jpg" /></a>
+<a href="http://www.crystalballroompdx.com/"><img src="/images/writethedocsconferencevenue.jpg"/></a>
 
 ## At the center of WTD
 
@@ -69,7 +69,7 @@ Perhaps there's not a need for a ton of revenue to provide the community offerin
 
 Unless you're an altruistic saint, though, you have to get *something* out of your efforts. What do you get out of all your volunteer time? “Burnout” is an awakening to the imbalance of value. If you find yourself expending a lot of time and effort for little value/reward back, you may one day decide that imbalanced equation isn't worth it. Eric does benefit by driving more visibility to his [ReadtheDocs.com business](https://readthedocs.com/), which provides hosted documentation solutions (for open source, it's free, but not for commercial clients). Even so, I'm not sure the WTD community provides much carry over to Read the Docs.
 
-## Same challenge is everyone with online endeavors
+## Same challenge is everywhere with online endeavors
 
 In some ways, every online entrepreneur faces the same challenge. I provide free content on my blog. I provide my [API doc course](http://idratherbewriting.com/learnapidoc/) for free. I have been writing and publishing content for readers for years, and you have been reading me, without subscribing or sending me money. I provide an “information product” that I give away. Other sites, like online newspapers or journals or other community-based tech writing sites (like Techwr-l), also provide information products for free. How do you maintain sustainability and long-term motivation for your efforts when you give everything away for free?
 
