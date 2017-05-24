@@ -18,7 +18,7 @@ It wasn't until later that this tribe learned about other documentation tribes a
 
 At the first WTD conference, there were an astounding 250 attendees. This surprised the co-founders and reinforced the need for a documentation community. Now at the fifth year of the WTD conference, the conference sold out with a cap of 600 attendees. They moved into a larger venue, [The Crystal Ballroom](http://www.crystalballroompdx.com/), and have a host of speakers, workshops, unconference sessions, and other activities for 4 days straight.
 
-<a href="http://www.writethedocs.org/conf/"/><img src="/images/writethedocsconferencevenue.jpg" /></a>
+<a href="http://www.crystalballroompdx.com/"><img src="/images/writethedocsconferencevenue.jpg" /></a>
 
 ## At the center of WTD
 
