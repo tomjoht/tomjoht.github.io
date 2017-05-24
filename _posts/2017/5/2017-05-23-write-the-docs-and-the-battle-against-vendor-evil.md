@@ -69,7 +69,7 @@ Perhaps there's not a need for a ton of revenue to provide the community offerin
 
 Unless you're an altruistic saint, though, you have to get *something* out of your efforts. What do you get out of all your volunteer time? “Burnout” is an awakening to the imbalance of value. If you find yourself expending a lot of time and effort for little value/reward back, you may one day decide that imbalanced equation isn't worth it. Eric does benefit by driving more visibility to his [ReadtheDocs.com business](https://readthedocs.com/), which provides hosted documentation solutions (for open source, it's free, but not for commercial clients). Even so, I'm not sure the WTD community provides much carry over to Read the Docs.
 
-## Same challenge is everyone online
+## Same challenge is everyone with online endeavors
 
 In some ways, every online entrepreneur faces the same challenge. I provide free content on my blog. I provide my [API doc course](http://idratherbewriting.com/learnapidoc/) for free. I have been writing and publishing content for readers for years, and you have been reading me, without subscribing or sending me money. I provide an “information product” that I give away. Other sites, like online newspapers or journals or other community-based tech writing sites (like Techwr-l), also provide information products for free. How do you maintain sustainability and long-term motivation for your efforts when you give everything away for free?
 
