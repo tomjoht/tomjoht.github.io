@@ -8,8 +8,6 @@ summary: "If there's been a theme for the past year in tech comm, it's to treat 
 bitlink: http://bit.ly/limitstodocsascode
 ---
 
-<img src="/images/limitstodocsascode.png"/>
-
 ## First, what we mean by docs like code
 
 Before I draw limits around docs like code, let me briefly describe what "docs as code" means. To treat docs like code generally means doing some of the following:
@@ -23,6 +21,8 @@ Before I draw limits around docs like code, let me briefly describe what "docs a
 *  Using an open-source static site generator like Sphinx, Jekyll, or Hugo to build the files locally, using your customized theme with all files open and editable in an IDE-like editor such as Atom (rather than relying commercial tools with proprietary, closed systems that function like black-boxes)
 
 In short, treating docs like code means to use the same systems, processes, and workflows with docs as you do with programming code.
+
+<img src="/images/limitstodocsascode.png"/>
 
 Few people do all of the above points. For example, it doesn't make sense for me to store my docs in the same repos as code, because most of the code repos are never deployed publically, and even if they were, engineers release much less frequently than tech docs. This brings me to my main point: docs aren't just like code, and we should probably not push this docs-as-code treatment too far.
 
@@ -63,7 +63,7 @@ But you don't need a super heavy process process for deploying docs. If you're b
 
 If you let engineers define your deployment process for docs as code, you might end up with something  heavy, complex, and total overkill (because they're following the same deployment strategies as code) for what is essentially a two-minute file transfer task. In short, if you really treat docs like code, you can end up over-engineering the deployment solution.
 
-## Review processes {#reviewprocesses}
+### Review processes {#reviewprocesses}
 
 If you've ever tried to review docs using tools like GitHub, which has the best interface by far for code reviews, it's cumbersome. I've participated in a number of doc reviews with GitHub for Jekyll's docs, and I find GitHub awkward and inefficient. Tools like Google Docs or even Microsoft Word work much better at facilitating conversations around specific points in your docs.
 
@@ -91,14 +91,16 @@ This is why for years, tech writers have purchased third-party authoring tools a
 
 ## Conclusion
 
-In conclusion, although I like the docs-as-code idea and enjoy working with some of these approaches, docs aren't entirely like code. Docs differ from code in release frequency, release complexity, review processes, and company support. You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs.
+In conclusion, although I like the docs-as-code idea and enjoy working with some of these approaches, docs aren't entirely like code. Docs differ from code in release frequency, release complexity, review processes, and company support.
+
+You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs.
 
 Documentation is different from code in ways that deserve not only to be noted, but celebrated. For example, here are a few unique qualities with docs:
 
 * Docs are written in simple, conversational language that you can say out loud.
 * Docs can be iteratively updated each time someone reads it and provides feedback.
 * Docs help you perform a task in a company product; they usually aren't the product themselves.
-* The quality of docs is subjective, and the comprehension/readability varies based on the user. 
+* The quality of docs is subjective, and the comprehension/readability varies based on the user.
 * Docs can connect emotionally with an audience.
 
 Sure, you could probably say similar things about the readability of code among programmers. But documentation surely differs from programming code in significant ways that deserves some acknowledgement.  Given that docs are different from code, should we really be treating them the same way? To some extent, sure. But let's not get swept away drinking too much of the docs-as-code koolaid.
