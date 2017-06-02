@@ -47,7 +47,7 @@ Most likely you won't have power to commit to the same code repo at all. Enginee
 
 I know I could do better with my commit messages, but I honestly don't think users read them. If they want to see what's new, they check out the release notes. Developer users often look at commit logs because, outside of code comments, it's often the only place where developers write anything.
 
-Despite my preference to store docs in their own repository, I still keep my docs in a git repository, which I push both to an internal git repo and to an external GitHub repo. Git is an ingenious solution for collaborating with others as well as organizing your docs (through branches) as you work on various features.
+Despite the challenges in integrating with code repositories, I still keep my docs in a git repository, which I push both to an internal git repo and to an external GitHub repo. Git is an ingenious solution for collaborating with others as well as organizing your docs (through branches) as you work on various features.
 
 ### Release complexity {#releasecomplexity}
 
@@ -93,7 +93,7 @@ This is why for years, tech writers have purchased third-party authoring tools a
 
 In conclusion, although I like the docs-as-code idea and enjoy working with some of these approaches, docs aren't entirely like code. Docs differ from code in release frequency, release complexity, review processes, and company support.
 
-You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs. 
+You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs.
 
 Documentation is different from code in ways that deserve not only to be noted, but celebrated. For example, here are a few unique qualities with docs:
 
