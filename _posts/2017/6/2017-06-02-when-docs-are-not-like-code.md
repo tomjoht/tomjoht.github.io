@@ -93,7 +93,7 @@ This is why for years, tech writers have purchased third-party authoring tools a
 
 In conclusion, although I like the docs-as-code idea and enjoy working with some of these approaches, docs aren't entirely like code. Docs differ from code in release frequency, release complexity, review processes, and company support.
 
-You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs.
+You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs. 
 
 Documentation is different from code in ways that deserve not only to be noted, but celebrated. For example, here are a few unique qualities with docs:
 
