@@ -52,3 +52,5 @@ As you build out the navigation for your doc site, follow these 5 design princip
 To watch other Write the Docs 2017 Portland conferences videos, see the [this playlist on the Write the Docs YouTube channel](https://www.youtube.com/playlist?list=PLZAeFn6dfHpkBld-70TsOoYToM3CaTxRC).
 
 To learn more about the Portland Write the Docs conference, see [writethedocs.org/conf/na/2017/](http://www.writethedocs.org/conf/na/2017/).
+
+If you missed my conference write-up, see [Impressions from the Write the Docs Conference -- and thoughts on achieving sustainability without selling out to vendors](http://idratherbewriting.com/2017/05/23/write-the-docs-and-the-battle-against-vendor-evil/).
