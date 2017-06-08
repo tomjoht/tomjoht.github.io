@@ -45,7 +45,7 @@ The top banner ad space (500px x 70px) refers to the top section of the site, i
 
 <figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" width="600" height="292" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
-The top banner ad is placed in one of the most visually dominant places on the site. Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. 
+The top banner ad is placed in one of the most visually dominant places on the site. Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed.
 
 There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space.
 
@@ -60,6 +60,7 @@ I also offer product review posts to help with visibility. Here are some sample 
 * [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/)
 * [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/)
 * [Xeditor, a CMS editor for XML content](http://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](http://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/)
 
 Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
 
@@ -67,7 +68,7 @@ These review posts aren't merely marketing material converted into a blog post. 
 
 If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
 
-Each product review post costs $500 per post. If you're already advertising on my site, I drop the price to $300. I will write as many product review posts as you want during the year.
+Each product review post costs $600 per post. If you're already advertising on my site, I drop the price to $300. I will write as many product review posts as you want during the year.
 
 I always review these posts with you and, when published, I identify them as being sponsored posts.
 
@@ -140,7 +141,7 @@ The quality of impressions depends on the influence of the site. Impressions fro
 
 Is idratherbewriting.com an influential site? Yes. MindTouch regularly ranks the most influential people in tech comm. They have consistently named in their top influencers lists since they started publishing reports.
 
-<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class="   wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
+<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class=" wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
 
 See the following links for more details:
 
