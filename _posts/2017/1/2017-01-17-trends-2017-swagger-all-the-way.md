@@ -24,7 +24,7 @@ What pages were users visiting? Here are the top 10:
 
 Here are links to pages listed in the above screenshot:
 
-* [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/)
+* [Swagger tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html)
 * [10 realizations as I was creating my Swagger spec and Swagger UI](http://idratherbewriting.com/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/)
 * [Swagger tutorial link](http://idratherbewriting.com/2015/09/14/swagger-tutorial/)
 * [Quick reference guides](http://idratherbewriting.com/quickreferenceguides/)
@@ -42,7 +42,7 @@ Posts about technical writing careers and certificate programs are perennial fav
 
 The JavaScript article is one of those weird instances where a single post shoots to the top based on unpredictable factors (the melting ice caps?).
 
-But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/) is driving a steady stream of visitors to my site. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
+But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is driving a steady stream of visitors to my site. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
 
 If you search for "Swagger tutorial," my page is in the top 3 results. I find this odd, because it's not even a very good tutorial.
 

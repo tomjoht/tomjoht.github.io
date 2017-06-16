@@ -16,7 +16,7 @@ In 2016, I based my trends predictions off of the rapid growth of REST APIs. Bas
 
 ### 1. Use of Swagger with API docs becomes an expectation (2016)
 
-The [most popular 3 posts on my site during 2016](http://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/) were all Swagger related, with the [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/) taking the number one spot and driving a massive uptake in traffic to my site. So I'd say yes, Swagger continued its upward trajectory in 2016.
+The [most popular 3 posts on my site during 2016](http://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/) were all Swagger related, with the [Swagger tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html) taking the number one spot and driving a massive uptake in traffic to my site. So I'd say yes, Swagger continued its upward trajectory in 2016.
 
 ### 2. Markdown as an authoring format gets taken more seriously by the tech comm community (2016)
 

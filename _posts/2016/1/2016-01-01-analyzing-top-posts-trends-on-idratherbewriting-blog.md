@@ -20,7 +20,7 @@ Based on Google Analytics, these 10 posts written in 2015 received the most traf
 
 1. [My *real* top 10 technical writing trend predictions for 2015](http://idratherbewriting.com/2015/01/05/my-real-top-10-technical-writing-trend-predictions-for-2015/)
 2. [Reveal JS: An HTML5 alternative to PowerPoint, with support for SVG graphics](http://idratherbewriting.com/2015/03/11/reveal-js-an-html5-alternative-to-powerpoint-with-support-for-svg-graphics/)
-3. [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/)
+3. [Swagger tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html)
 4. [Why no one stopped by my technical writing booth at career fair day](http://idratherbewriting.com/2015/05/31/realizations-from-career-fair-what-i-lost/)
 5. [10 reasons for moving away from DITA](http://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/)
 6. [Newbie to Technical Writer in 4 Easy Steps](http://idratherbewriting.com/2015/04/03/newbie-to-technical-writer-in-4-easy-steps/)
@@ -144,7 +144,7 @@ Whenever I look at my stats, I always want to deny the most staggering, mind-blo
 
 A lot of my visitors are new to technical writing. They're searching for information on technical writing certification programs, jobs, salaries, skills, and other details associated with technical writing careers. In other words, most of my traffic is from newbies trying to learn about technical writing. Is that what I should focus on? 
 
-Last year there was also a lot of traffic with my [API documentation writing course](http://idratherbewriting.com/learnapidoc/) and [Swagger tutorial](http://idratherbewriting.com/pubapis_swagger/). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe. 
+Last year there was also a lot of traffic with my [API documentation writing course](http://idratherbewriting.com/learnapidoc/) and [Swagger tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe. 
 
 The regular users who comment on my blog don't represent the overwhelming traffic from organic search. It's easy to overlook that and just think of my regular commenters as my readers. But those who comment are in the minority by far. The bulk of my visitors are like the dark matter of the Internet &mdash; present and undeniable but ethereal and unknown. Who the heck are all the users from the other sessions? How can I convert them into regular subscribers?
 

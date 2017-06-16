@@ -27,7 +27,7 @@ This is pretty awesome. Good quality content is finally being rewarded. I think 
 
 Last January, when I poured through my 2015 metrics, I noticed a slight downward trend in the readership of my blog. (See my post, [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](http://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/).)
 
-The downward trend was slight and not easy to analyze. Was I not posting as much as the previous year? Were readers getting tired of "blogs"? Was there simply more content to read online on other sites? Who knew. Someone even suggested that my focus on API documentation was turning off readers. Actually, my [Swagger Tutorial](http://idratherbewriting.com/pubapis_swagger/) is my top most viewed page on my site, with 40,700 page views!
+The downward trend was slight and not easy to analyze. Was I not posting as much as the previous year? Were readers getting tired of "blogs"? Was there simply more content to read online on other sites? Who knew. Someone even suggested that my focus on API documentation was turning off readers. Actually, my [Swagger Tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is my top most viewed page on my site, with 40,700 page views!
 
 Maybe Google was aware of this trend on a larger scale and implemented an update to help users find content-rich sites? At any rate, what a pleasant surprise to see the rise in traffic.
 
