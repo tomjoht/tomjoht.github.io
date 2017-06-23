@@ -45,11 +45,13 @@ The FAQ is a bad idea for a number of reasons:
 
 1. The laundry list of questions doesn't tell the story of your app or describe a user journey. It simply provides a list of possible questions and answers in random order. The task of a writer is to organize information into a story-like structure &mdash; in this case, to analyze the user's goals and describe how to accomplish them.
 
-2. The laundry list of questions are no longer "frequently asked." They're just a long string of miscellaneous questions. No one wants to title it "Miscellaneous questions" or "Random questions" or "A bunch of questions in an endless list," but that's what it is.
+2. This question-list approach doesn't scale. The FAQ doesn't have any task-oriented topics where the needed details can be integrated into. As a result, when you have another detail to add, you have to just create another Q&A block to add to your ever-growing list. When you hit a certain point, your list is so long it's ridiculous.
 
-3. This question-list approach doesn't scale. The FAQ doesn't have any user goals where the needed details can be integrated into, so there's no alternative space to add a needed detail but to simply add another question in the ever-growing list.
+3. There's no hierarchy to the list. Each question is just as important as the others, which means the trivial questions dilute focus from the more important questions.
 
-4. There's no hierarchy to the list. Each question is just as important as the others, which means the trivial questions dilute focus from the more important questions.
+4. The laundry list of questions, spanning everything from trivial to important, are not longer questions that are "frequently asked." They're just a long string of miscellaneous questions. No one wants to title it "Miscellaneous questions" or "Random questions" or "A bunch of questions in an endless list," but that's what it is.
+
+5. These questions rarely originate from actual users. They're often safe, sanitized, and positive questions imagined by the product team. As such, they're not really "questions" either. The product team  just uses a question-like format to give the impression of answering user's questions.
 
 ## FAQ is an easy writing model
 
@@ -93,7 +95,7 @@ Of course, one could flip around these goal statements into questions &mdash;
 - How do I build a gizmo using an RSS feed?
 - How do I style the look and feel of my gizmo to match my corporate branding?
 
-But the difference is that the answer to these goal-oriented questions will entail a heck of a lot more information and detail than the random FAQ. The random FAQ is extremely granular and narrow:
+But the difference is that the answer to these goal-oriented questions will entail a heck of a lot more information and detail than the random FAQ (and hence will be broken into separate pages). The random FAQ is extremely granular and narrow:
 
 - How many letters are in the word gizmo?
 - How do I restart my gizmo?
