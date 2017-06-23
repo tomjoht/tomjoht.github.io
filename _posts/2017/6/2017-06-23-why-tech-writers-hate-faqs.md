@@ -1,5 +1,5 @@
 ---
-title: "Why you should avoid the FAQ (in the beginning)"
+title: "The problem with FAQs in documentation"
 categories:
 - writing
 - general
