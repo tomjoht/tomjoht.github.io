@@ -24,7 +24,7 @@ The team member (again, usually not a technical writer) cranks out quick respons
 
 As the project progresses, and especially as the team starts to do beta testing and gathers feedback from actual users, the list of FAQs grows. Now there are 20+ FAQs instead of an original 10. At this point the team member may try to group the FAQs to give them some sense of organization.
 
-The final week before the release, everyone and their cousin is checking out the software and begins asking many more questions. What the team originally thought was intuitive and obvious is suddenly called into question.
+The final week before the release, everyone and their cousin is checking out the software and begins asking many more questions. What the team originally thought was intuitive and obvious is suddenly called into question. More questions are added:
 
 - How do you block unauthorized access to your gizmo?
 - How do you monetize your gizmo given the restrictions?
@@ -47,9 +47,9 @@ The FAQ is a bad idea for a number of reasons:
 
 2. The laundry list of questions are no longer "frequently asked." They're just a long string of miscellaneous questions. No one wants to title it "Miscellaneous questions" or "Random questions" or "A bunch of questions in an endless list," but that's what it is.
 
-3. This approach doesn't scale. You can't just keep adding more and more questions to your list. At some point you need to actually write and organize information about how to use your software. The FAQ doesn't have any user goals where the needed details can be integrated into, so there's no alternative but to simply add another question in the ever-growing list.
+3. This question-list approach doesn't scale. The FAQ doesn't have any user goals where the needed details can be integrated into, so there's no alternative space to add a needed detail but to simply add another question in the ever-growing list.
 
-4. There's no hierarchy to the list. Each question is just as important as the others, which means the trivial questions dilute focus from the more important questions. 
+4. There's no hierarchy to the list. Each question is just as important as the others, which means the trivial questions dilute focus from the more important questions.
 
 ## FAQ is an easy writing model
 
@@ -93,14 +93,13 @@ Of course, one could flip around these goal statements into questions &mdash;
 - How do I build a gizmo using an RSS feed?
 - How do I style the look and feel of my gizmo to match my corporate branding?
 
-But the difference is that the answer to these goal-oriented questions will entail a heck of a lot more information and detail than the random FAQ. The random FAQ can and usually is extremely granular and focused:
+But the difference is that the answer to these goal-oriented questions will entail a heck of a lot more information and detail than the random FAQ. The random FAQ is extremely granular and narrow:
 
 - How many letters are in the word gizmo?
-- Should I capitalize the name of my gizmo?
 - How do I restart my gizmo?
 - How do I save changes to my gizmo?
 
-There's a difference.
+There's a difference between questions and goals.
 
 ## User stories
 
