@@ -5,7 +5,7 @@ categories:
 - general
 - beginners
 keywords: faqs, frequently asked questions
-summary: "Many tech writers have a heavy disdain for FAQs. At first this disdain seemed a bit unfounded and elitist to me, but now, after a recent project, I'm starting to get the reasons for the disdain. All too often the FAQ format is abused by non-writers who want an easy way to write. The list of random questions grows with each incoming question until it's a ridiculous hodgepodge of information thrown together, with no larger story or narrative."
+summary: "Many tech writers have a heavy disdain for FAQs. At first this disdain seemed a bit unfounded and elitist to me, but now, after a recent project, I'm starting to understand the reasons for the disdain. All too often the FAQ format is abused by non-writers who want an easy way to write. The list of random questions grows with each incoming question until it's a ridiculous hodgepodge of information thrown together, with no larger story or narrative."
 bitlink: http://bit.ly/faqversusgoals
 ---
 
@@ -49,13 +49,13 @@ The FAQ is a bad idea for a number of reasons:
 
 3. There's no hierarchy to the list. Each question is just as important as the others, which means the trivial questions dilute focus from the more important questions.
 
-4. The laundry list of questions, spanning everything from trivial to important, are not longer questions that are "frequently asked." They're just a long string of miscellaneous questions. No one wants to title it "Miscellaneous questions" or "Random questions" or "A bunch of questions in an endless list," but that's what it is.
+4. The laundry list of questions, spanning everything from trivial to important, are no longer questions that are "frequently asked." They're just a long string of miscellaneous questions. No one wants to title it "Miscellaneous questions" or "Random questions" or "A bunch of questions in an endless list," but that's what it is.
 
-5. These questions rarely originate from actual users. They're often safe, sanitized, and positive questions imagined by the product team. As such, they're not really "questions" either. The product team  just uses a question-like format to give the impression of answering user's questions.
+5. These questions rarely originate from actual users. They're often safe, sanitized, and positive questions imagined by the product team. As such, they're not really "questions" either. The product team  just uses a question-like format to give the impression of answering user's questions. In this light, since the questions are neither "frequent" or actually "asked" by users, the topic is an outright falsehood from the start.
 
 ## FAQ is an easy writing model
 
-The FAQ format will probably never go away because the approach provides a sort of template that teams can use to fill in. Think of the FAQ as a form with two fields &mdash; question, answer. Like this:
+The FAQ format will probably never go away because the approach provides an easy template that teams can use to fill in. Think of the FAQ as a form with two fields &mdash; question, answer. Like this:
 
 ```
 - question:
@@ -81,7 +81,7 @@ There's a simple, predictable pattern that non-writers can fill in. If we want t
   steps:
 ```
 
-This pivot changes the basic form to think about goals instead of random questions. A question could be anything, but a goal helps focus the direction in more substantial, narrative ways.
+This approach changes the basic form to think about goals instead of random questions. A question could be anything, but a goal helps focus the direction in more substantial, narrative ways.
 
 Instead of writing documentation around questions such as, "For what purpose were gizmos created?" The goals might be something like these:
 
