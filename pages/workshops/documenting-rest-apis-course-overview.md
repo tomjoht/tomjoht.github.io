@@ -3,7 +3,7 @@ title: Documenting REST APIs Workshop
 permalink: /documenting-rest-apis-course-overview/
 categories:
 - api-doc
-keywords: 
+keywords:
 ---
 {% include notes.html %}
 {{tip}} You can access an online version of the workshop here: <a href="http://idratherbewriting.com/learnapidoc/">Documenting REST APIs</a>. {{end}}
@@ -12,11 +12,13 @@ keywords:
 
 Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using a simple weather API to put a weather forecast on your site.
 
+{% include random_ad.html %}
+
 As you use the API, you learn about cURL, JSON, endpoints, parameters, data types, authentication, and other details associated with REST APIs. The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a semi-real scenario.
 
 After you use the API as a developer might, you then shift perspectives and become a technical writer tasked with documenting a new endpoint that has been added to the API.
 
-As a technical writer, you tackle each element of a reference topic in REST API documentation: 
+As a technical writer, you tackle each element of a reference topic in REST API documentation:
 
 * Resource descriptions
 * Endpoint definitions and methods
@@ -44,4 +46,3 @@ Note that your computer needs to be able to connect to a wifi network.
 <h2>Duration</h2>
 
 The workshop lasts 3 hours.
-

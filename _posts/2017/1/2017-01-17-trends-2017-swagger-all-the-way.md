@@ -14,6 +14,8 @@ Here are a couple of screenshots from Google Analytics:
 
 <figure><img src="/images/trends2017.png"/><figcaption>The blue line is 2016, the brown is 2015. Page views were 778k for the year, up 24% from 626k the previous year. That's an average of 2k+ page views each day.</figcaption></figure>
 
+{% include random_ad.html %}
+
 <figure><img src="/images/sessions2017.png"/><figcaption>Sessions were up 31% for the year, to 497k from 377k the previous year. A session is a single visitor's time on the site, not counting the number of pages the user visits.</figcaption></figure>
 
 ## Top pages

@@ -7,7 +7,7 @@ summary: "In this guest post, Derric Gilling, CEO at Moesif, explores various de
 bitlink: http://bit.ly/designchoicesapidocs
 ---
 
-## Introduction 
+## Introduction
 
 Designing and writing good API documentation can be a daunting task, but it's critical for any API-driven or B2D company to ensure developer success. Your documentation is also your company's marketing asset and may be the first few pages a new prospect visits to understand how hard your integration is and how your product works.
 
@@ -27,12 +27,12 @@ Before discussing specific documentation features, it's worthwhile to discuss th
 
 Companies that fall into this category have usually have at least two layers of documentation: *Developer Docs* and *API Reference.*
 
-Companies with both docs and API reference split visitors into two groups: 
+Companies with both docs and API reference split visitors into two groups:
 
 -   Developers who are interested in higher level integrations or SDKs
 -   Developers who are interested in the raw REST API or API wrapper libraries
 
-The *main developer docs* doesn't discuss the REST API at all, nor does it discuss API wrapper libraries. Instead, there are navigational links from the docs to a separate and independent *API reference* website. 
+The *main developer docs* doesn't discuss the REST API at all, nor does it discuss API wrapper libraries. Instead, there are navigational links from the docs to a separate and independent *API reference* website.
 
 Many times, the API reference uses a different design or layout (such as 3-column vs 2-column) compared to the rest of the documentation. The main developer docs then focus on getting started guides and how to use or integrate each product feature.
 
@@ -40,9 +40,11 @@ Companies that follow this approach may be very API-focused or developer focused
 
 <img src="/images/moesif-image01.png" style="border: 1px solid #dedede; max-width: 600px;" />
 
-For Moesif, many developers will not need to work with the REST API directly as there are higher-level integrations to get started with. Thus, a new NodeJS developer visiting the docs for the first time will probably be more interested in the *moesif-express* middleware rather than reading about the raw *NodeJS API wrapper* library. 
+For Moesif, many developers will not need to work with the REST API directly as there are higher-level integrations to get started with. Thus, a new NodeJS developer visiting the docs for the first time will probably be more interested in the *moesif-express* middleware rather than reading about the raw *NodeJS API wrapper* library.
 
-Look at the difference in topics between the [main developer docs](https://www.moesif.com/docs/) and the [API reference](https://www.moesif.com/docs/api). If both the NodeJS and the Express middleware were at the same level, a new developer might be confused about whether to get started with the Express middleware or NodeJS API library. 
+Look at the difference in topics between the [main developer docs](https://www.moesif.com/docs/) and the [API reference](https://www.moesif.com/docs/api). If both the NodeJS and the Express middleware were at the same level, a new developer might be confused about whether to get started with the Express middleware or NodeJS API library.
+
+{% include random_ad.html %}
 
 Remember, while you are probably very intimate with your own API and its SDKs, a new developer may not be. Keeping them separate can help reduce confusion.
 
@@ -74,7 +76,7 @@ Remember, while you are probably very intimate with your own API and its SDKs, a
 
 ## 2. Centralized docs *combined* with API reference {#centralized-docs-combined-api-ref}
 
-Companies that fall into this category combine their API reference with the rest of their developer docs and have no separate API reference website. 
+Companies that fall into this category combine their API reference with the rest of their developer docs and have no separate API reference website.
 
 Companies with combined developer docs generally see their visitors as belonging to at least one of the following groups:
 
@@ -120,7 +122,7 @@ Decentralized documentation is different from the other two categories. Rather t
 
 As an example, Twilio's products include not only SMS messaging, but also authentication and video. Thus they silo [Twilio's docs](https://www.twilio.com/docs/) along product lines rather than docs vs API reference. Many of Twilio's users who want to integrate Twilio's SMS product may not care about their authentication product *Authy*.
 
-Rather than cluttering a centralized doc site, these companies decentralize such that when viewing Twilio's API reference, you're only viewing the documentation related to you. If you're interested in Authy, then you only browse Authy. (They do have a cool *OR* function if you need to browse multiple products at the same time.) 
+Rather than cluttering a centralized doc site, these companies decentralize such that when viewing Twilio's API reference, you're only viewing the documentation related to you. If you're interested in Authy, then you only browse Authy. (They do have a cool *OR* function if you need to browse multiple products at the same time.)
 
 Decentralized docs can be a good fit for large companies that don't have centralized documentation teams, where each product owns its respective documentation.
 
@@ -162,7 +164,7 @@ Accordion style navigation can help declutter really long sidebars. However, the
 
 ### 3-column documentation
 
-As mentioned, our docs were inspired by Stripe's 3-column API reference using [github.com/lord/slate](https://github.com/lord/slate) as a boilerplate. 3-column docs can be beautiful for API reference since this layout allows the core text of the docs to be the same for each language while allowing visitors to chose their specific language. 
+As mentioned, our docs were inspired by Stripe's 3-column API reference using [github.com/lord/slate](https://github.com/lord/slate) as a boilerplate. 3-column docs can be beautiful for API reference since this layout allows the core text of the docs to be the same for each language while allowing visitors to chose their specific language.
 
 API reference material is ideal for this format since your entity schemas and method names/endpoints are usually the same no matter if you're using raw HTTP requests, a Java library, or a NodeJS library.
 
@@ -172,13 +174,13 @@ We've seen doc designers try to implement getting started guides or non-API refe
 
 ### Long single page vs many pages
 
-A single page is useful especially for API reference where a visitor can use their browser search to skip through the entire spec. For example, searching for all endpoints that support a particular JSON key in its schema, a user wouldn't want to open up all doc pages in separate browser tabs. 
+A single page is useful especially for API reference where a visitor can use their browser search to skip through the entire spec. For example, searching for all endpoints that support a particular JSON key in its schema, a user wouldn't want to open up all doc pages in separate browser tabs.
 
 At the same time, single pages may not scale well for general, non-API reference documentation with hundreds of how-to and getting started guides.
 
 ### Edit on Github button
 
-A link directly to the source on Github can encourage your visitors to be actively engaged in updating documentation. This can help both presenting your company as open for feedback, but also to ensure mistakes are fixed. When combined with storing your documentation source in Github, it shows an open culture. Just don't add unnecessary login gates to suggest edits. 
+A link directly to the source on Github can encourage your visitors to be actively engaged in updating documentation. This can help both presenting your company as open for feedback, but also to ensure mistakes are fixed. When combined with storing your documentation source in Github, it shows an open culture. Just don't add unnecessary login gates to suggest edits.
 
 Many larger companies are also using GitHub. Even Microsoft Azure has [azure-docs on Github](https://github.com/Microsoft/azure-docs).
 
@@ -186,7 +188,7 @@ Many larger companies are also using GitHub. Even Microsoft Azure has [azure-doc
 
 ### Markdown
 
-Markdown is practically the standard syntax used in developer documentation since it makes it easy to mark up static pages (like editing a wiki). Pretty much any developer who has written README.md or a Github repo is familiar with the syntax. 
+Markdown is practically the standard syntax used in developer documentation since it makes it easy to mark up static pages (like editing a wiki). Pretty much any developer who has written README.md or a Github repo is familiar with the syntax.
 
 With Atom plugins like [markdown-preview](https://atom.io/packages/markdown-preview), you can have a free WYSIWYG solution in your authoring tool. Just keep in mind what Markdown renderer and flavor you choose, since there are a few of them and have some nuances. You should be good if you support GitHub Flavored Markdown (GFM), as many developers will be familiar with it.
 

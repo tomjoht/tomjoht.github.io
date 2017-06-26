@@ -7,9 +7,11 @@ keywords: jekyll, swagger, raml, duplication, copy and paste, inefficiency, vari
 summary: "You can use Jekyll to populate variables in both your Swagger spec and main documentation. This allows you to single source your content into both of these outputs in a more efficient way."
 ---
 
-One of the challenges with Swagger is that the output duplicates a lot of the descriptions that already appear in your main documentation. 
+One of the challenges with Swagger is that the output duplicates a lot of the descriptions that already appear in your main documentation.
 
-In your Swagger spec, you list your resources and endpoints, with descriptions, code samples, and other content. Most likely all of this content **already exists in your main documentation**. 
+{% include random_ad.html %}
+
+In your Swagger spec, you list your resources and endpoints, with descriptions, code samples, and other content. Most likely all of this content **already exists in your main documentation**.
 
 As a result, you may end up either copying and pasting the same descriptions from your main doc into your Swagger spec file. Or you end up trying to generate Markdown from the Swagger spec that you can then paste in your documentation. Either way, it seems like you end up copying and pasting from one output to another.
 
@@ -21,7 +23,7 @@ In Jekyll, create a YAML file (e.g., acme.yml) in the \_data folder. Add key-val
 description: "This is a description of my API..."
 ```
 
-Put your Swagger spec file inside your Jekyll project. Reference the description stored in the data file: 
+Put your Swagger spec file inside your Jekyll project. Reference the description stored in the data file:
 
 {% raw %}
 ```
@@ -38,7 +40,7 @@ info:
 ```
 {% endraw %}
 
-Add Jekyll frontmatter tags so that Jekyll will process the file, but don't use your regular layout. 
+Add Jekyll frontmatter tags so that Jekyll will process the file, but don't use your regular layout.
 
 {% raw %}
 ```
@@ -60,7 +62,7 @@ info:
 
 When Jekyll builds the site, it will populate those variable fields ({% raw %}`{{site.data.resolve.res_api.description}}`{% endraw %}) with content.
 
-The result looks like this: 
+The result looks like this:
 
 {% raw %}
 ```
@@ -77,7 +79,7 @@ info:
 ```
 {% endraw %}
 
-In the main documentation, for the description of the API, you would also use the same variable: 
+In the main documentation, for the description of the API, you would also use the same variable:
 
 {% raw %}
 ```
@@ -87,6 +89,6 @@ In the main documentation, for the description of the API, you would also use th
 ```
 {% endraw %}
 
-This way you will be populating both the Swagger spec file and your main documentation from the same source. 
+This way you will be populating both the Swagger spec file and your main documentation from the same source.
 
 I did a small test and this approach seems to work. Now I'm just implementing the rest of my Swagger spec with this approach. What do you think? Is this a good approach, or is there a better way to avoid the duplication?

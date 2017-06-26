@@ -2,7 +2,7 @@
 title: "REST API documentation workshop recording (STC Sacramento)"
 categories:
 - api-doc
-keywords: 
+keywords:
 summary: "I recently gave a workshop on REST API documentation to the STC Sacramento chapter. The workshop is about 3.5 hrs long and covers a lot of the concepts that I detail in my API doc course. In the workshop I first show you how to use a REST API like a developer. We then walk through common sections in API documentation, especially reference topics. Finally I give a tour of API documentation publishing tools."
 thumb: restapiworkshopsacramentothumb.png
 ---
@@ -16,6 +16,8 @@ The REST API workshop that I gave in Sacramento the other week is available on Y
 I didn't edit the workshop content much at all. There are some times during the workshop where people struggled using Postman and cURL, so you might want to fast forward a few places if there's an extended lull.
 
 I also realized that I have about 9 hours of material that I tried to compress in 3.5 hours, so I ended up skipping around a lot with the slides. You can go through the same material online in my [API doc course](http://idratherbewriting.com/learnapidoc/).
+
+{% include random_ad.html %}
 
 ## REST API workshop description
 

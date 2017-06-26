@@ -13,6 +13,8 @@ thumb: restapithumb.png
 
 In general, a web service is a web-based application that provides information in a format consumable by other computers. Web services include various types of APIs (Application Programming Interfaces), including both REST and SOAP APIs. Web services are basically request and response interactions between clients and servers (one computer makes the request, and the API provides the response).
 
+{% include random_ad.html %}
+
 All APIs that use HTTP protocol as the transport format for requests and responses can be classified as web services.
 
 With web services, the client making the request and the API server providing the response can use any programming language or platform &mdash; it doesn't matter because the message request and response are made through a common HTTP web protocol. This is part of the beauty of web services: they are platform agnostic and therefore interoperable across different languages and platforms.

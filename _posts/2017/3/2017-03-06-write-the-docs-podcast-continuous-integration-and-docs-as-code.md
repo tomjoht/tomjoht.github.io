@@ -12,6 +12,8 @@ bitlink: http://bit.ly/wtdpod4cianddocascode
 
 For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast, see the many [many subscription options][2].
 
+{% include random_ad.html %}
+
 ### Links mentioned during the podcast
 
 * [Improve Documentation by Automating Spelling and Grammar Checks](https://blog.codeship.com/improve-documentation-by-automating-spelling-and-grammar-checks/)

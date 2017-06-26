@@ -12,6 +12,8 @@ You can view my Calm Meditation app in the Amazon Appstore [here](https://www.am
 
 <a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1"><img src="/images/calm-meditation-app.png"></a>
 
+{% include random_ad.html %}
+
 On your Fire TV, search for "Calm Meditation." (The app doesn't work on Kindle tablets.)
 
 My primary role at Amazon involves creating documentation for third-party developers creating Fire TV apps. Previously, I wrote about how I created an [Android app from the Write the Docs podcasts](http://idratherbewriting.com/2017/04/09/write-the-docs-app-on-fire-tv/). HTML5 web apps differ from Android apps in that they use web technologies (HTML5, JS, CSS) instead of Java and Android APIs. I didn't want to have two different apps with the same content, so I set about to capturing some generic video content last weekend to build the web app.

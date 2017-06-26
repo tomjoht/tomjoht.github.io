@@ -8,7 +8,7 @@ thumb: pullrequeststhumb.png
 ---
 
 ## Pull request tutorial
-The other day I was exploring Github's pull request workflow with more detail. I created a [tutorial for using pull requests here](http://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests.html). 
+The other day I was exploring Github's pull request workflow with more detail. I created a [tutorial for using pull requests here](http://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests.html).
 
 <a href="http://idratherbewriting.com/pubapis_github_pull_requests"><img src="{{ "images_api/github_compare_to.png" | prepend: site.baseurl }}" alt="Pull request tutorial" /></a>
 
@@ -20,6 +20,8 @@ The project owner who receives the pull request looks over the proposed changes 
 I'm eager to try out this pull request workflow for edits to my help material. During the last review, my reviewer sent me a Microsoft Word document listing about 75 changes. In the Word document, the reviewer had three columns &mdash; one column listing the topic title, the second column listing the section title on the page, and the third column describing the edit.
 
 Finding the actual text in my project to make the edit was tedious. It seems like the pull request method would make things easier, since the person could either make the proposed change directly in a branch, or at least add a comment there.
+
+{% include random_ad.html %}
 
 ## Challenges with the pull request method
 I think the pull request method is brilliant, but I do see a few challenges:

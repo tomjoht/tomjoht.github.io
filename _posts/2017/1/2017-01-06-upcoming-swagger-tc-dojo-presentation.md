@@ -19,10 +19,12 @@ In the spirit of a dojo, my presentation is called **Harnessing the Chi of Swagg
 
 Interested in previewing my slides? You can check out an early draft [here](http://idratherbewriting.com/files/swaggerslides), though I'm still working on them.
 
+{% include random_ad.html %}
+
 The TC Dojo presentation is sponsored by [Single-Sourcing Solutions](http://single-sourcing.com/). You can learn more about [TC Dojo here](http://www.single-sourcing.com/products/tcdojo/).
 
 <hr/>
 
-**Jan 10, 2017 update**: If you missed the presentation, you can watch it here: 
+**Jan 10, 2017 update**: If you missed the presentation, you can watch it here:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen>

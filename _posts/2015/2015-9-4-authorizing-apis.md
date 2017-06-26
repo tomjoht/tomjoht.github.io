@@ -2,12 +2,14 @@
 title: How authorization works with APIs
 categories:
 - api-doc
-keywords: 
+keywords:
 summary: "Some common forms of authentication and authorization with APIs include Basic Auth, HMAC, and OAuth 2.0. In this post, I explain how these methods work. This material comes from other content I'm preparing about REST APIs."
 thumb: apiauth.png
 ---
 
 Lately I've been busy working on [content for some API documentation workshops](http://idratherbewriting.com/learnapidoc/). One of the topics I wanted to cover in the workshop is how authentication and authorization work with APIs. This is probably one of the more complicated aspects of APIs, so I'd like to get as much feedback as possible about this section.
+
+{% include random_ad.html %}
 
 ## Authentication and authorization overview
 
@@ -60,7 +62,7 @@ One type of authorization is called Basic Auth. With this method, the sender pla
 Authorization: Basic bG9sOnNlY3VyZQ==
 ```
 
-APIs that use Basic Auth will also use HTTPS, which means the message content will be encrypted within the HTTP transport protocol. (Without HTTPS, it would be easy for people to decode the username and password.) 
+APIs that use Basic Auth will also use HTTPS, which means the message content will be encrypted within the HTTP transport protocol. (Without HTTPS, it would be easy for people to decode the username and password.)
 
 When the API server receives the message, it decrypts the message and examines the header. After decoding the string and analyzing the username and password, it then decides whether to accept or reject the request.
 
@@ -80,13 +82,13 @@ Postman handles the Base64 encoding for you automatically when you enter a usern
 
 ## HMAC (Hash-based message authorization code)
 
-HMAC stands for Hash-based message authorization code and is a stronger type of authentication. 
+HMAC stands for Hash-based message authorization code and is a stronger type of authentication.
 
-With HMAC, both the sender and receiver know a secret key that no one else does. The sender creates a message based on some system properties (for example, the request timestamp plus account ID). 
+With HMAC, both the sender and receiver know a secret key that no one else does. The sender creates a message based on some system properties (for example, the request timestamp plus account ID).
 
 The message is then encoded by the secret key and passed through a secure hashing algorithm (SHA). (A hash is a scramble of a string based on an algorithm.) The resulting value, referred to as a signature, is placed in the request header.
 
-When the receiver (the API server) receives the request, it takes the same system properties (the request timestamp plus account ID) and uses the secret key (which only the requester and API server know) and SHA to generate the same string. 
+When the receiver (the API server) receives the request, it takes the same system properties (the request timestamp plus account ID) and uses the secret key (which only the requester and API server know) and SHA to generate the same string.
 
 If the string matches the signature in the request header, it accepts the request. If the strings don't match, then the request is rejected.
 
@@ -100,7 +102,7 @@ HMAC security is used when you want to ensure the request is both authentic and 
 
 ## OAuth 2.0
 
-One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when  you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook. 
+One popular method for authenticating and authorizing users is to use OAuth 2.0. This approach relies upon an authentication server to communicate with the API server in order to grant access. You often see OAuth 2.0 when  you're using a site and are prompted to log in using a service like Twitter, Google, or Facebook.
 
 <img src="{{ "images_api/oauthwindow.png" | prepend: site.baseurl }}" alt="OAuth login window" />
 

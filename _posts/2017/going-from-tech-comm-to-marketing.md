@@ -1,7 +1,6 @@
 ---
 title: How did Intelligent Content go from tech comm to marketing?
 categories:
-- api-doc
 - beginners
 - blogging
 - book-reviews
@@ -22,7 +21,7 @@ categories:
 - wikis
 - wordpress
 - writing
-keywords: 
+keywords:
 summary: ""
 published: false
 ---
@@ -50,10 +49,8 @@ I think the original intention was to create a conference that broke down silos 
 
 But with a focus now on marketers instead of both "technical writers and marketers," it seems like we're back to the silos again. Technical writers will implement their content re-use strategies through their DITA XML and component content management systems. And marketing writers will implement their content re-use strategies through some other method (Contentful?). I highly doubt that content will flow freely across the different systems. The fact that the audiences couldn't be merged seems like a strong argument that the silos will continue within companies as well.
 
-Overall, maybe technical writing and marketing writing (or content marketing content) are just too different to bring these two groups together to collaborate in productive ways. One group works on a white paper that highlights a case study with a customer, while the other group writes a getting started tutorial for an SDK. 
+Overall, maybe technical writing and marketing writing (or content marketing content) are just too different to bring these two groups together to collaborate in productive ways. One group works on a white paper that highlights a case study with a customer, while the other group writes a getting started tutorial for an SDK.
 
 If we're going to break silos, the easier silo to break is the one between support and tech docs. In this case there is a real use case for repurposing content.
 
 http://www.intelligentcontentconference.com/mother-of-content-strategy-embraces-content-marketing/
-
-

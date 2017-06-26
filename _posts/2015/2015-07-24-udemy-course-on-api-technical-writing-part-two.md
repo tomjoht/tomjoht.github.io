@@ -13,13 +13,13 @@ Peter Gruenbaum has released [part 2 of his Udemy course on API technical writin
 <figure>
 <a href="https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers"><img src="{{ "/images/gruenbaumpart2restapi.png" | prepend: site.baseurl }}" alt="Peter Gruenbaum's Udemy course on REST API technical writing part 2" /></a><figcaption>This is part 2 of Peter Gruenbaum's course on REST API doc on Udemy</figcaption></figure>
 
-In part 2, Peter dives into headers, authorization, methods, query parameters, and other aspects of REST API documentation. He explores various APIs (including the [NPR API](http://api.npr.org/)), walks you through [Swagger's PetStore API](http://petstore.swagger.io/), and gives you a reference template for covering each aspect of REST API doc. The course consists of videos, quizzes, and hands-on exercises. It takes about 2 hours to complete the course. 
+In part 2, Peter dives into headers, authorization, methods, query parameters, and other aspects of REST API documentation. He explores various APIs (including the [NPR API](http://api.npr.org/)), walks you through [Swagger's PetStore API](http://petstore.swagger.io/), and gives you a reference template for covering each aspect of REST API doc. The course consists of videos, quizzes, and hands-on exercises. It takes about 2 hours to complete the course.
 
 ## Course discount
 
 If you want to take the course at a discount, use the code **idrather** or click [this link](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/?couponCode=idrather).
 
-## Keeping things simple 
+## Keeping things simple
 
 Peter's approach is to keep things simple. He doesn't assume that you have a programming background, and he avoids getting mired into tool details. By having you go through exercises that use tables in a word-processing application, he keeps the focus on the content instead of the tool. That's probably a good approach to avoid distraction into the tool side of API doc publishing.
 
@@ -27,6 +27,6 @@ In this course, Peter does actually dive into oAuth authorization, and the techn
 
 Overall, I highly recommend taking Peter's course. The instruction about REST APIs geared towards technical writers is unparalleled. Check it out: [Learn API Technical Writing 2: REST for Writers](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/?couponCode=idrather)
 
+{% include random_ad.html %}
+
 For a review of review of Part 1 of Peter's course, see my previous post, [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](http://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/).
-
-

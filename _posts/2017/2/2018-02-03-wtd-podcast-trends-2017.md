@@ -23,6 +23,8 @@ summary: "In this episode of the Write the Docs podcast, we discuss top technica
 
 To subscribe to the Write the Docs podcast, see [http://podcast.writethedocs.org/](podcast.writethedocs.org/).
 
+{% include random_ad.html %}
+
 You might also want to join the [Write the Docs Slack group](http://slack.writethedocs.org/). The [Write the Docs Newsletter](http://www.writethedocs.org/newsletter/) and [blog](http://www.writethedocs.org/blog/) are highly engaging.
 
 Also, check out the upcoming [Write the Docs conference](http://www.writethedocs.org/conf/na/2017/) to be held in Portland on May 14-16, 2017.

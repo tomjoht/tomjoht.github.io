@@ -1,7 +1,6 @@
 ---
-title: ""
+title: "Riding to work and back"
 categories:
-- api-doc
 - beginners
 - blogging
 - book-reviews
@@ -23,7 +22,7 @@ categories:
 - wikis
 - wordpress
 - writing
-keywords: 
+keywords:
 summary: ""
 thumb:
 published: false

@@ -29,6 +29,8 @@ I primarily write documentation for third-party developers building streaming me
 
 This was no small feat, and it's something I've been working on for months. First, I needed video content. I could have used generic videos, but then I'm not sure that I could've actually submitted the app with that generic video content.
 
+{% include random_ad.html %}
+
 I decided to download the YouTube videos from our [Write the Docs podcast](http://podcast.writethedocs.org) and any other WTD meetups that had published recordings on YouTube. After downloading the MP4s, I uploaded them first to Dropbox as an attempt to host the media (I couldn't just directly link to YouTube because our app template didn't support this approach). When the links to Dropbox locations didn't work, I uploaded the videos directly to my web host, Bluehost. That worked.
 
 Then I needed to construct the media feed that I would use to integrate with Fire App Builder. Fire App Builder basically reads all the media from a feed whose syntax you target with Jayway Jsonpath or XPath expression queries.

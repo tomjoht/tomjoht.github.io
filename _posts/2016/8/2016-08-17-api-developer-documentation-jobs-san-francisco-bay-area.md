@@ -24,7 +24,7 @@ bitlink: http://bit.ly/huntingdevdocjobsbay
 ## Presentation description
 
 Andrew gave a presentation titled "Hunting for Dev Doc Work Around the Bay" on August 15, 2016 at the [STC Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/07/21/august-15-hunting-for-dev-doc-work-around-the-bay/
-) in Santa Clara, California. 
+) in Santa Clara, California.
 
 Here's a description of Andrew's presentation:
 
@@ -53,11 +53,13 @@ Here are the slides. The slides have detailed speaker notes, so be sure to check
 
 <a href="http://bit.ly/2b4ep9V"><img style="border: 1px solid gray;" src="{{ "/images/devdochuntslide.png" | prepend: site.baseurl }}" alt="API documentation jobs San Francisco Bay area" /></a>
 
-## Audio 
+## Audio
 
 Just want the audio? Play it here or <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/huntingdevdoc.mp3">download it</a>.
 
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
+
+{% include random_ad.html %}
 
 ## About Andrew Davis
 
@@ -66,4 +68,3 @@ Just want the audio? Play it here or <a href="http://www.podtrac.com/pts/redirec
 Andrew enjoys helping those who communicate complex information get ahead by recognizing and refining their value to technology companies. He's candid and connected and, just as importantly, he likes to help tech industry workers achieve their goals and achieve independence from intermediaries.
 
 Andrew ran Synergistech Communications during the Internet Gold Rush years and has recently returned to solo recruiting mode, incorporating his business as Tech Comm Talent. He remains focused on recruiting great technical content development talent for discerning local technology companies. Join him <a href="http://www.linkedin.com/in/synergistech">on Linkedin</a> and go to [Synergistech](http://www.synergistech.com/) to learn more.
-

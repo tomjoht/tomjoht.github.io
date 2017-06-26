@@ -19,7 +19,7 @@ image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/bobwatson_apidocs.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "52:21"
-podcast_length: 6530090 
+podcast_length: 6530090
 bitlink: http://bit.ly/bobwatsonpodcast
 ---
 
@@ -31,7 +31,7 @@ You can <a href="http://www.podtrac.com/pts/redirect.mp3?http://idratherassets.c
 
 ## Summary
 
-Bob was a software engineer for 17+ years. He decided to get a PhD from the University of Washington's [Human Centered Design and Engineering](http://www.hcde.washington.edu/) because he felt that if the documentation for his software were better, the adoption of the software would increase. This led him to pursue research in technical communications. 
+Bob was a software engineer for 17+ years. He decided to get a PhD from the University of Washington's [Human Centered Design and Engineering](http://www.hcde.washington.edu/) because he felt that if the documentation for his software were better, the adoption of the software would increase. This led him to pursue research in technical communications.
 
 He soon found that many other factors besides documentation contribute to product adoption. Still, the tech comm domain held his interest, as it contained many interesting problems to solve. For his PhD, Bob examined several questions related to API documentation:
 
@@ -44,6 +44,8 @@ He found that his changes to the topics' visual design didn't affect performance
 He also found that whether reference topics contained relevant information or not, people spent the same amount of time evaluating the topic for relevance (about 44 seconds).
 
 Finally, he found that topic length influenced performance. Shorter topics were quicker to assess, but longer topics increased the user's perception of the topic's credibility and professionalism.
+
+{% include random_ad.html %}
 
 ## Goal testing documentation
 

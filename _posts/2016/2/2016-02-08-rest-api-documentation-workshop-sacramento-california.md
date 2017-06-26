@@ -2,7 +2,7 @@
 title: Upcoming REST API documentation workshop in Sacramento
 categories:
 - api-doc
-keywords: 
+keywords:
 summary: "I'm giving an API documentation workshop in Sacramento on March 19, 2016, from 10am to 2pm. The cost is $25, and the event will be held at the Rocklin Public Library. The workshop will focus on how to write documentation for REST APIs, and will cover topics such as documenting endpoints, parameters, sample requests, sample responses, status codes, error codes, and more. You'll get some exposure to Postman and cURL as well."
 thumb: sacapiworkshop.png
 ---
@@ -10,6 +10,8 @@ thumb: sacapiworkshop.png
 {{site.data.alerts.note}}For a recording of the workshop, see this post: <a href="http://idratherbewriting.com/2016/03/27/rest-api-workshop-recording-sacramento-stc/" title="REST API documentation workshop">REST API documentation workshop recording (STC Sacramento)</a>.{{site.data.alerts.end}}
 
 <a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
+
+{% include random_ad.html %}
 
 Here is a description of the API workshop I'm giving in Sacramento:
 
@@ -55,7 +57,7 @@ This course will mostly provide an introduction to these concepts. There are man
 >
 >In addition to covering technical strategies for documenting REST APIs, we'll also talk generally about the job market for developer documentation, the skills in demand, and challenges in working in developer environments.
 
-You can find more information on the [STC Sacramento site here](http://www.stcsacramento.org/calendar.html). 
+You can find more information on the [STC Sacramento site here](http://www.stcsacramento.org/calendar.html).
 
 Note that I'm also giving a [similar API documentation workshop](http://sched.co/5o4O) at the STC Summit in Anaheim, California in May (though the cost is 10 times as much).
 

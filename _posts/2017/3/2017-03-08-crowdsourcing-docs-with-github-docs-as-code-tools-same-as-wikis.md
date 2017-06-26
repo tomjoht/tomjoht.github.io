@@ -22,6 +22,8 @@ The term "crowdsource" hadn't been in my mind when putting my docs on GitHub, bu
 
 It seemed I was well on my way to setting up a massive collaboration engine for documentation. I expected developers to immediately start logging issues, submitting pull requests, and more. But even after a couple of weeks, almost no one made an edit, logged an issue, or contributed any pull requests. (Well, except one mysterious person, who created a small PR but then closed it.)
 
+{% include random_ad.html %}
+
 Two weeks is hardly the blink of an eye, and one can't expect much, especially without promoting and educating users about it. Still, I hoped for a bit more.
 
 I decided to ask the gurus on WTD Slack how they got developers to contribute edits.

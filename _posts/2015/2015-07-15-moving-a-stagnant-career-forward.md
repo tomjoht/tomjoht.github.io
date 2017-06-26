@@ -21,6 +21,8 @@ I recently received the following question:
 
 <p>Of late I feel I'm doing monotonous work and that I'm not learning anything new. Also my salary isn't good enough for a person with 5 years experience. In an expensive city like New York, my salary is just enough to get by (thankfully my husband is a Java developer and gets good salary). </p>
 
+{% include random_ad.html %}
+
 <p>I'm stuck in this low-paying job and I don't know how I can improve my career path. In my current job I get to use Microsoft Sharepoint, through which I've learned HTML/CSS, Javascript up to beginner level, but this is just out of interest and I know that's not going to help me as a technical writer. I feel that career prospects for a technical writer isn't great since user interfaces are becoming more and more intuitive, what do you say?</p>
 
 <p>I constantly update myself about the new tools and trends in the field of technical writing reading your blog. I really admire you for you have grown so much as a technical writer and I look up to you as my role model.</p>
@@ -70,21 +72,21 @@ Yes, there are many online tech comm programs. See this [guest post by Laura Pal
 <b>What technical writing tools can I learn on my own in my spare time?</b>
 
 It's hard to know which tools to focus on. I recommend learning more general languages such as HTML, CSS, JavaScript, and XML instead of a specific tool. But if you want to get more specific, learn the following:
- 
+
 * MadCap Flare
-* OxygenXML with DITA 
+* OxygenXML with DITA
 * Atlassian Confluence
- 
- I see those tools referenced in a lot in jobs. I also recommend a video creation tool such as Camtasia Studio, and a graphics tool, such as Illustrator. 
+
+ I see those tools referenced in a lot in jobs. I also recommend a video creation tool such as Camtasia Studio, and a graphics tool, such as Illustrator.
 
 <b>How can I learn API documentation?</b>
 
-Try taking these two Udemy courses by Peter Gruenbaum: 
+Try taking these two Udemy courses by Peter Gruenbaum:
 
 * [Learn API Technical Writing: JSON and XML](https://www.udemy.com/api-documentation-1-json-and-xml/)
 * [Learn API Technical Writing: REST for Writers](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/)
 
-Also see my online content on similar topics: 
+Also see my online content on similar topics:
 
 * [Documenting REST APIs](http://idratherbewriting.com/restapicourse/)
 * [Publishing REST API Documentation](http://idratherbewriting.com/publishingapidocs/)
@@ -95,10 +97,8 @@ You can learn a lot about APIs by simply using them. Using an API will help you 
 
 If your husband knows Java, you've got a great resource to teach you right at home. Also see this topic from my API doc survey: [The most common programming languages tech writers know](http://idratherbewriting.com/2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/).
 
-It's hard to learn a programming language if you're not regularly using it, though. I think I've learned Java twice now and forgotten 50% of it each time, since I don't use it regularly. 
+It's hard to learn a programming language if you're not regularly using it, though. I think I've learned Java twice now and forgotten 50% of it each time, since I don't use it regularly.
 
 I'm personally most interested in web publishing technologies, perhaps because I regularly use them on this blog and in my tech comm toolset. I had a lot of fun learning Jekyll because it allowed me to use HTML, CSS, and JavaScript directly.
 
-If any readers have advice, please add it in the comments below. 
-
-
+If any readers have advice, please add it in the comments below.

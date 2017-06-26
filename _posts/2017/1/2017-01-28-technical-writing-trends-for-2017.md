@@ -36,6 +36,8 @@ In an insightful post about 2016 trends, Shaun McCance, who runs [Open Help conf
 
 Perhaps most important is the [Write the Docs Slack group](http://slack.writethedocs.org/), which has become the technical writer's watercooler on the Internet, replacing other social media spaces, such as Twitter, for tech writers.
 
+{% include random_ad.html %}
+
 ### 5. Security paranoia forces authentication of docs (2016)
 
 2016 saw numerous scandals with security, from [Yahoo's implosion with millions of hacked accounts](https://www.nytimes.com/2016/12/14/technology/yahoo-hack.html?_r=0), political information from the [DNC leaked](https://en.wikipedia.org/wiki/2016_Democratic_National_Committee_email_leak), ["misinformation hacks" from Russia](http://dayontheday.com/2016/12/13/are-cia-claims-on-russia-hacking-legit-or-part-of-misinformation-campaign/) (if they can be considered hacks), and more. Nevertheless, I haven't noticed any particular trends in the authentication of docs (except maybe this [Documentation behind a login thread on Techwhirl](http://www.techwr-l.com/archives/1701/techwhirl-1701-00059.html#.WJHz1LYrKYU)). I don't have a lot of data about authenticated docs, though.
@@ -101,6 +103,3 @@ In summary, in 2017 and beyond, we'll see developer documentation start to move 
 Remember that I'm just referring to trends with *developer docs*, such as API documentation. I'm not referring to documentation for non-technical end users, or documentation for airline mechanics or other groups who might not use Github and engineering workflows.
 
 What do you think? Am I on target with my 2017 predictions? Do you foresee problems with this direction?
-
-
-

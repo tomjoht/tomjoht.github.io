@@ -1,7 +1,6 @@
 ---
 title: Video editing notes
 categories:
-- api-doc
 - beginners
 - blogging
 - book-reviews
@@ -23,7 +22,7 @@ categories:
 - wordpress
 - writing
 published: false
-keywords: 
+keywords:
 summary: ""
 ---
 
@@ -60,4 +59,3 @@ iphone 5 video is probably better than vixia.
 camtasia can handle large video
 export as mp4 and mp4 as main concept
 audio rates differ among recording devices.
-
