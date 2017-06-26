@@ -25,6 +25,6 @@ Each time we do a doc review with someone, even if the person isn't a real user 
 
 Here's a graphic that shows my point:
 
-<img src="/images/secondchancepoints.png" />
+<img src="/images/secondchancepoints.png" style="max-width:100%" />
 
 Note that I don't mean we should publish multiple versions of the same content, only that our doc  iterates through multiple versions before it finally connects with users with the exact information they need. My basketball analogy is ultimately an analogy, and all analogies break down at some point.
