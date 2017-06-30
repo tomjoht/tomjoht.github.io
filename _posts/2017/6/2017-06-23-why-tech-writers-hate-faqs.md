@@ -1,5 +1,5 @@
 ---
-title: "The problem with FAQs in documentation"
+title: "The problem with Frequently Asked Questions (FAQs) in documentation"
 categories:
 - writing
 - general

@@ -3,8 +3,8 @@ title: "Circle review -- How to manage your kids' access to Internet devices"
 categories:
 - general
 keywords: circle, wifi router restrictions
-summary: "With four kids and a house full of devices, it can be pretty hard to wrangle devices from kids' hands and shut off Internet time. In the past, I tried putting all the kids' devices onto a guest network and all my devices onto a main network. When I wanted to shut off the  kids' access to the Internet, I would log into my router and shut off the guest network."
-bitlink: http://bit.ly/circlereview
+summary: "With four kids and a house full of devices, it can be pretty hard to wrangle devices from kids' hands and shut off Internet time. In the past, I tried putting all the kids' devices onto a guest network and all my devices onto a main network. When I wanted to shut off the  kids' access to the Internet, I would log into my router and shut off the guest network. Now I have a new approach that seems to work much better."
+bitlink: http://bit.ly/tomcirclereview
 thumb: circlepicthumb.png
 ---
 
