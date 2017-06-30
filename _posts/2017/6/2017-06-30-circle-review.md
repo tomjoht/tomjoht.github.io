@@ -25,24 +25,30 @@ Here are a few screenshots:
 <style>
 .circle_screenshots img {
   float: left;
-  padding: 10px;
+  padding: 20px;
+  max-width: 200px;
+  border: 1px solid #dedede;
 }
 </style>
 <div class="circle_screenshots">
+<img class="circle" src="/images/circlescreenshot7.png"/>
+
 <img class="circle" src="/images/circlescreenshot1.png"/>
 
-<img class="circle" src="/images/circlescreenshot2.png"/>
+<img class="circle" src="/images/circlescreenshot6.png"/>
 
+
+<div style="clear: both"></div>
 <img class="circle" src="/images/circlescreenshot3.png"/>
 
 <img class="circle" src="/images/circlescreenshot4.png"/>
 
 <img class="circle" src="/images/circlescreenshot5.png"/>
 
-<img class="circle" src="/images/circlescreenshot6.png"/>
 </div>
 
-I won't give a detailed tutorial here, but basically every device that connects to your network can be identified (renamed so you can recognize it), and added to a profile. In the profile, you can set time restrictions (for specific sites like YouTube or Tumblr), filters (kid, teen, adult), bedtime time limits, and more.
+<div style="clear: both"></div>
+I won't give a detailed tutorial here, but basically every device that connects to your network can be identified (and renamed so you can recognize it), and then added to a profile. In the profile, you can set time restrictions (for specific sites like YouTube or Tumblr), filters (kid, teen, adult), bedtime time limits, and more.
 
 You can see a history of that profile, including the number of minutes they spent online, the sites they visited, and so on.
 
