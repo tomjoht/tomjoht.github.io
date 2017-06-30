@@ -6,6 +6,7 @@ categories:
 keywords:
 summary: "Slides for my presentation on doc navigation are available below. I'm giving this presentation at Write the Docs Portland on May 15. The presentation is about 20 minutes long."
 bitlink: http://bit.ly/wtdportlandslides
+thumb: wtdportslidethumb.png
 ---
 
 <a href="http://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="/images/wtdpresoportland.png"/></a>

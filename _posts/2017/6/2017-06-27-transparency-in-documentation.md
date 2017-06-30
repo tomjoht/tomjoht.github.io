@@ -6,6 +6,7 @@ keywords:
 summary: "Although traditionally as a technical writer you don't run into too many ethical scenarios for docs, sometimes you have situations where your ability to be transparent about a system's limitations gets curtailed by marketing or product management. Although it can be frustrating to have your documentation filtered like this, you can take comfort knowing that, given the decentralized nature of information on the web, where users can post information in forums, blogs, or other sites, the information filtered out of your docs will eventually be written and accessible online."
 bitlink: http://bit.ly/transparencyindocs
 published: false
+thumb: transparencyindoc.png
 ---
 
 ## Sample scenario with documentation and transparency

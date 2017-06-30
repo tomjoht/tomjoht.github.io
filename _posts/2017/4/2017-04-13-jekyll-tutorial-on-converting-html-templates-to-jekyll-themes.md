@@ -5,6 +5,7 @@ categories:
 keywords:
 summary: "I recently added a tutorial on converting an HTML site into a Jekyll theme. This tutorial shows how easy it is to make any HTML site Jekyll ready with just a few tags. Creating Jekyll themes is one of the aspects of Jekyll I enjoy the most."
 bitlink: http://bit.ly/jekyllnavdoc
+thumb: tutorialjekyllconverttheme.png
 ---
 
 You can view the tutorial here: [Convert an HTML site to Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/). Here's the intro:

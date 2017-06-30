@@ -5,6 +5,7 @@ categories:
 keywords:
 summary: "How big should your documentation repo be, especially if you have multiple products in your documentation? Although you could put all content into the same repo, it might be easier to have lots of little repos. Jekyll accommodates this architecture quite nicely through gem-based themes."
 bitlink: http://bit.ly/sizeofrepos
+thumb: reposizethumb.png
 ---
 
 <img src="/images/reposize.png"/>

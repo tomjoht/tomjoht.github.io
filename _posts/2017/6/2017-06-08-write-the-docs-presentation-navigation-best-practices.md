@@ -6,6 +6,7 @@ categories:
 keywords:
 summary: "Here's the recording of the presentation I gave at the Write the Docs 2017 Portland conference. The presentation explores best practices for doc navigation, including principles such as hierarchy, modularity, progressive disclosure, entry point, and wayfinding. The presentation is about 20 minutes long, and you can either watch a video or listen to audio. Other WTD presentation recordings are also available."
 bitlink: http://bit.ly/wtdportlandtjpreso
+thumb: wtdpresovid.png
 ---
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/w-kEmsLwPDE" frameborder="0" allowfullscreen></iframe>

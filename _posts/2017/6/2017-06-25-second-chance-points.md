@@ -5,6 +5,7 @@ categories:
 keywords:
 summary: "In addition to being a technical writer, I also play basketball. I might spend more time playing basketball, in fact, than I do writing on this blog. I never played college ball, but I love playing pickup basketball several times a week at various courts. Now that NBA season recently finished, I figure it may be relevant to expound a bit on a pet theory of mine about how to win at pickup basketball games, and how that same strategy might apply to winning at documentation."
 bitlink: http://bit.ly/secondchancepoints
+thumb: secondchancethumb.png
 ---
 
 In my experience, what wins basketball games more than anything else is **rebounds**. Why? When you dominate the boards with rebounds, you end up getting second-chance points. When you snatch a rebound, particularly an offensive rebound, you get another shot attempt.
@@ -27,4 +28,4 @@ Here's a graphic that shows my point:
 
 <img src="/images/secondchancepoints.svg" />
 
-Note that I don't mean we should publish multiple versions of the same content, only that our doc should iterate through multiple versions before it gets good enough that it connects with the exact needs of the user. 
+Note that I don't mean we should publish multiple versions of the same content, only that our doc should iterate through multiple versions before it gets good enough that it connects with the exact needs of the user.
