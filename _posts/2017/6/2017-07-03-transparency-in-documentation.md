@@ -9,6 +9,8 @@ published: false
 thumb: transparencyindoc.png
 ---
 
+{% comment %}I remember a colleague at a previous job getting told off for prefacing some instructions with something along the lines of: "You need to follow every step of these instructions to the letter, even if they seem weird or pointless, otherwise the whole thing will break." But it was a fantastic way (IMO) of demonstrating just how broken the product was. -- Slack, beth.aitman {% endcomment %}
+
 ## Sample scenario with documentation and transparency
 
 Here's a sample scenario where transparency gets complicated in docs. Let's say you're working on documentation for Project X. There are certain features of Project X that are currently missing (but might be forthcoming in the future &mdash; who knows). The missing features are surely ones that users will ask about, but the project manager doesn't want you (as a tech writer) to include the information about these missing features for fear that the documentation will generate negativity among the users.

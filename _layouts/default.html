@@ -11,7 +11,7 @@
           content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="{{page.url}}"/>
-    <meta property="og:image" content="http://idratherbewriting.com/images/orangesquare.png"/>
+    {% if page.thumb %}<meta property="og:image" content="http://idratherbewriting.com/images/thumbnails/{{page.thumb}}"/>{% endif %}
     <meta property="og:site_name" content="{{site.title}}"/>
     <meta property="fb:app_id" content="247143161970549"/>
     <meta property="og:description"
@@ -64,7 +64,7 @@
     <meta name="twitter:description" content="{{ site.description }}">
             {% endif %}
     {% if page.thumb %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumb }}">
+    <meta name="twitter:image:src" content="{{ site.url }}/images/thumbnails/{{ page.thumb }}">
             {% else %}
     <meta name="twitter:image:src" content="{{ site.url }}/images/tomjohnson.png">
             {% endif %}
