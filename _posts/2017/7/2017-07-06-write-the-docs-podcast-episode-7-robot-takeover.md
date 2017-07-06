@@ -22,4 +22,4 @@ thumb: wtdpawel.png
 * [soap! -- Poland tech writing conference](http://soapconf.com/)
 
 
-For more details, see the [post on the WTD podcast site](http://bit.ly/wtdpodcast6).
+For more details, see the [post on the WTD podcast site](http://podcast.writethedocs.org/2017/07/03/episode-7-machine-automation-and-poland/).
