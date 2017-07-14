@@ -33,7 +33,7 @@ Other times a product might not be broken; it might just be missing key features
 
 Usually the project manager doesn't want you (as a tech writer) to include the information about these missing features for fear that the documentation will generate negativity or other resentment among the users. Perhaps in product or marketing manager's minds, this information would play out as follows in the user's head:
 
->[User reads instructions...]"You can't control the timer setting on the gizmo." What?!!! Oh heck, I didn't even realize how much I needed a timer setting feature. Now that I realize I can't adjust the timer, I want to adjust it even more! I must be able to have all power and autonomy over this device. Anger anger anger!!!*
+>[User reads instructions...] *You can't control the timer setting on the gizmo.* What?!!! Oh heck, I didn't even realize how much I needed a timer setting feature. Now that I realize I can't adjust the timer, I want to adjust it even more! I must be able to have all power and autonomy over this device. Anger anger anger!!!
 
 Product and marketing managers would rather keep users in a state of unknown unknowns. What users don't know can't make them upset. But by revealing to users the product's limitations, we introduce awareness of these limitations and henceforth frustration/anger among users. (At least this is the product manager mentality as I understand it.)
 
@@ -103,7 +103,7 @@ Back in 2009, I wrote a series of posts about the "7 Deadly Sins of Blogging." I
 
 Transparency was as important at the beginning of blogging as it is today. The lack of transparency is why corporate blogs never took off and never will. Corporate blogs are little more than a variant of the press release.
 
-I'm not quite sure why Marketing (and by association, Product Management) doesn't get the importance of transparency. On the Internet, you can't withhold or control information for very long. You can't control information **because we no longer live in a decentralized information model**. There isn't someone at the top who is controlling and deciding which information reaches the peons at the bottom.
+I'm not quite sure why Marketing (and by association, Product Management) don't seem to get the importance of transparency. On the Internet, you can't withhold or control information for very long. You can't control information **because we no longer live in a decentralized information model**. There isn't someone at the top who is controlling and deciding which information reaches the peons at the bottom.
 
 If information is lacking in the official docs, Joe Blogger will post the information on his site, and then it will appear in google searches when people look for the information. Worse, when you don't provide the information on your own site, you relinquish control of the narrative. You let Joe Blogger tell the story of this highly sensitive topic that you chose to omit from your documentation.
 
