@@ -1,0 +1,32 @@
+---
+title: ""
+categories:
+- api-doc
+- beginners
+- blogging
+- book-reviews
+- creativity
+- dita
+- family
+- findability
+- general
+- innovation
+- jekyll
+- jobs
+- podcasts
+- quick-reference-guides
+- screencasting
+- stitcher
+- user-centered-documentation
+- video
+- visual-communication
+- web-design
+- wikis
+- wordpress
+- writing
+keywords:
+summary: ""
+bitlink: http://bit.ly/
+---
+
+the writing differs in tech comm b/c it's designed for people to do something with it. the act of writing is active in the literal sense.
