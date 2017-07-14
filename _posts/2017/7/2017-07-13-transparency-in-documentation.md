@@ -111,7 +111,7 @@ If Joe Blogger doesn't write about it, Francis Forum-Goer will ask about it in t
 
 You can't hide information or control the narrative by omitting it. That's why we love the Internet &mdash; it is our omniscient friend, ready to spill the secrets others aren't willing to share. If the Internet lacks the information, we add it.
 
-<img src="/images/decentralized_information.png" />
+<img src="/images/decentralized_information-01.svg" />
 
 In the list of reasons for uneasiness with information filtering, my blogger identity ranks high as a contributing cause.
 
