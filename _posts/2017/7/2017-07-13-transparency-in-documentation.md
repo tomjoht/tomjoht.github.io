@@ -2,6 +2,8 @@
 title: "Transparency in documentation: dealing with limits about what you can and cannot say"
 categories:
 - general
+- stitcher
+- podcasts
 keywords:
 summary: "Although traditionally as a technical writer you don't run into too many ethical scenarios for docs, sometimes you have situations where your ability to be transparent about a system's limitations gets curtailed by marketing or product management. It can be frustrating to have your documentation filtered like this, but you can take comfort knowing that, given the decentralized nature of information on the web, where any user can post information in forums, blogs, and other sites, the information filtered out of your docs will eventually be published online (it just might not be published by you)."
 bitlink: http://bit.ly/transparencyindocs
