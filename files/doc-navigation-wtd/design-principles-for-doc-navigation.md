@@ -16,7 +16,7 @@ img.vectorStyle {
 
 If you've ever had the opportunity to watch someone use your documentation in a lab, but it can be pretty eye-opening. A few years ago I worked at a company that had a usability lab. It was actually left over from the previous company that inhabited the building. At some point our company formed a usability team and started to do some testing in the room.
 
-Usability labs are set up similar to interrogation rooms, with one-way mirrored glass separating two rooms. On one side, the participants uses a computer, often following prompts from a usability tester. In the other room, behind the mirrored glass, the designers, engineers, program managers, and other stakeholders eagerly watch the participants fumble and act like "idiots."
+Usability labs are set up similar to interrogation rooms, with one-way mirrored glass separating two rooms. On one side, the participant uses a computer, often following prompts from a usability tester. In the other room, behind the mirrored glass, the designers, engineers, program managers, and other stakeholders eagerly watch the participants fumble and act like "idiots."
 
 <img src="../media/rasters/usability_lab.jpg"/>
 
@@ -24,19 +24,23 @@ When I heard about these tests, I persuaded our usability tester to push users i
 
 (Actually, the user would often draw a blank with the task. The usability tester would ask, Where can you find help that would give you more information about this? Users would continue with the blank stare. The usability tester would then ask, Could the documentation be helpful in finding this information? A light would then go on in the user's head. Watching this scenario unfold was truly mind-boggling.)
 
-Once the users forayed into the help, they began a meandering path of poking around, skimming, scanning, browsing, reading here and there, and generally not finding their answers. I wrote about some [general observations here](http://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). Different users prefer different types of content, and they have different ways of consuming the information (new users watch videos, advanced users skim and scan text). But they all had one thing in common: both spent most of their time looking for the right answer only to not find it, eventually giving up.
+After the users forayed into the help, they began a meandering path of poking around, skimming, scanning, browsing, reading here and there, and generally not finding their answers. I wrote about these [general observations here](http://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). Different users prefer different types of content, and they have different ways of consuming the information (new users watch videos, advanced users skim and scan text). But they all have one thing in common: both spend most of their time looking for the right answer only to not find it, and eventually they give up.
 
-We didn't have more than half a dozen participants, but it seemed rare that a user actually found the answer in the help. They clicked links, scrolled, hunted around in studious ways, and sometimes failed to see the answer when they were staring right at it on the page.
+Granted, we didn't have more than half a dozen participants, but it seemed rare that a user would actually found the answer in the help. They click links, scroll, hunt around in studious ways, and regularly fails to see the answer when they were staring right at it on the page.
 
-This experience helped me realize one of the biggest challenges in documentation: helping users find the right answer amid a sea of documentation. We spend a lot of time developing clear, accurate information, but if users can't find it, that information does them no good. We don't sink nearly enough time into solving issues of findability in documentation. Perhaps we're too busy writing the information or reviewing it with engineers to consider that users may never actually find what we're so diligently creating.
+This experience helped me realize one of the biggest challenges in documentation: helping users find the right answer amid a sea of documentation topics. We spend a lot of time developing clear, accurate information, but if users can't find it, that information does them no good.
+
+We don't sink nearly enough time into solving issues of findability in documentation. Perhaps we're too busy writing the information or reviewing it with engineers to consider that users may never actually find what we're so diligently creating.
 
 ## New company ... same problem
 
-The idea that users can't find info in docs (assuming that the info exists) isn't an isolated or unique problem. This problem addresses the core of what it means to create documentation. A few years later I started working at another company only to run into the same problem. (I'm sure the problem continued regularly at every company, but I didn't always have access to observe or gather info from users, so I generally didn't know. Tech writers usually operate in the dark about how their information product (documentation) is used &mdash; this allows tech writers to continue believing in higher purpose of their undervalued work.)
+The idea that users can't find info in docs (assuming that the info exists) isn't an isolated or unique problem. The findability problem addresses the core of what it means to create documentation. A few years later I started working at another company only to run into the same findability issues. (I'm sure the problem continued regularly at every company I've worked at, but I didn't always have access to observe or gather info from users, so I generally didn't know. Tech writers usually operate in the dark about how their information product (the documentation) is used &mdash; this mindset allows tech writers to continue believing in higher purpose of their undervalued work.)
 
-In this new instance, the company had hired a third party to evaluate the product and its documentation. This time the audience consisted of developers creating apps, not end users interacting with a user interface. Unsurprisingly, the users reported difficulty in finding the information. There were a lot of issues with the product, and the studies weren't targeted at just evaluating the docs. Users complained about information being circular or redundant in places, being poorly organized. But not being able to locate the right information again surfaced in their myriad complaints.
+In this new go-around, the company had hired a third party to evaluate the product and its documentation. And this time the audience consisted of developers creating apps, not end users interacting with a user interface. Unsurprisingly, the users reported difficulty in finding the information.
 
-How can we help users find what they're looking for in our documentation? If you can solve this problem, you can elevate the user experience in your docs by multiple levels.
+Granted, there were a lot of issues with the product, and the studies weren't targeted at just evaluating the docs. Users complained about information being circular and redundant in places, being poorly organized. Not being able to locate the right information again surfaced in their myriad complaints. It seems the findability problem just wouldn't go away.
+
+How can we help users find what they're looking for in our documentation? How can we eradicate this problem once and for all so that users can locate the right information quickly and efficiently, without so much hunting, scrolling, and fruitless searching?
 
 ## Starting points with design
 
@@ -44,7 +48,7 @@ When thinking about strategies for navigation within your documentation, it's he
 
 In the book [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=pd_lpo_sbs_14_img_0?_encoding=UTF8&psc=1&refRID=Z3N8PRGT94SFH1Z5765N), the authors explore design principles that they feel are universal and which apply across a wide variety of industries, products, and scenarios. The book provides concise summaries about a range of design topics.
 
-From 125 separate design principles, I selected a handful of principles that I think have particular relevance to document navigation. The core 5 principles include the following:
+From 125 separate design principles, there are a handful of design principles that I think have particular relevance to document navigation. The core principles include the following:
 
 * Hierarchy
 * Progressive disclosure
@@ -55,13 +59,15 @@ From 125 separate design principles, I selected a handful of principles that I t
 
 <a href="https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079"><img src="../media/rasters/univprinciplesdesignbook.png" style="max-width: 350px;"/></a>
 
-Applying these principles in the way we design our docs can create a better experience for users, both in their ability to find and navigation information. Rather than just discussing these principles abstractly, I'll explain how I tried to improve my docs be applying these design principles to the content.
+Applying these principles in the way we design our docs can create a better experience for users, both in their ability to find and navigate information.
+
+Rather than just discussing these principles abstractly, I'll explain how I tried to improve my docs be applying these design principles to the content.
 
 ## Action 1: Group topics in product sidebars
 
-When I started at the company, the content was organized in a flat way on a web CMS. By flat, I mean each page existed as an independently floating page, without any structure in a sidebar navigation (apart from a general category) that would show various groupings of content in parent-child trees.
+When I started at my current company, the content was organized in a flat way on a web CMS. By flat, I mean each page existed as an independently floating page, without any structure in a sidebar navigation (apart from a general category) that would show various groupings of content in parent-child trees. It was kind of like a knowledge base, only the content consisted of documentation, not standalone support articles.
 
-The lack of this sidebar was mainly due to the platform &mdash; as a general web CMS, it didn't support granular navigation of tech docs in a sidebar.
+The lack of this sidebar was mainly due to the platform &mdash; as a general web CMS, the platform didn't support granular navigation of tech docs in a sidebar.
 
 I found the lack of a sidebar challenging as I tried to use the content. How big was the documentation for each product? 5 pages? 500 pages? What pages and topics were included or relevant in the documentation? In other words, what was there to know about the topic?
 
@@ -88,7 +94,7 @@ A good example of hierarchy in a sidebar is with Google.
 
 Here you can see that the various topics appear in the left, divided into different groups.
 
-Creating a hierarchical sidebar is nothing new in documentation, for sure. It's odd *not* to have one, and only when your content is more like a knowledge base repo or endless wiki (with single page encyclopedic entries) do you usually omit the sidebar. But doing the sidebar right is tough.
+Creating a hierarchical sidebar is nothing new in documentation, for sure. It's odd *not* to have one, and only when your content is more like a knowledge base repo or endless wiki (with single page encyclopedic entries) do you usually omit the sidebar. But getting the sidebar right is tough.
 
 ### Right-sizing the sidebar
 
@@ -98,13 +104,13 @@ Here's another example of a sidebar menu from Sentry:
 
 <a href="https://docs.sentry.io/"><img src="../media/rasters/sentry.png"/></a>
 
-I like these examples because you can easily scan them to get a sense of the whole. The nav menu is just two levels, so it's not overwhelming. There aren't a million topics that would make it difficult to grasp the whole. Being able to get a sense of the whole is one of the main purposes of this hierarchy.
+I like these examples because you can easily scan the sidebar to get a sense of the whole. The nav menu is just two levels, so it's not overwhelming. There aren't a million topics that would make it difficult to grasp the whole. Being able to get a sense of the whole is one of the main purposes of this hierarchy.
 
 ### Can you get rid of the sidebar nav?
 
 Although the sidebar navigation is fairly common in docs, it's also somewhat controversial. Some people think the sidebar nav is detritus from another era (e.g., dated tripane help). They argue that it's not something people frequently use, so why bother with it?
 
-In my experience, if you remove the sidebar from your docs, users tend to dislike its absence. In a comment on a post on my site, [Barry Grennon](https://www.linkedin.com/in/barrygrenon/) [explains](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3288347593):
+But I think if you remove the sidebar from your docs, users end up disoriented and in need of more context and grounding. In a comment on my site, [Barry Grennon](https://www.linkedin.com/in/barrygrenon/) [explains](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3288347593):
 
 > ... We also tried getting rid of TOCs, and people hated it. However, our web analytics show that users almost never interact with the TOC. And if they do, it is usually only with the few proximate pages in the TOC to the page they happen to be on.
 >
@@ -118,30 +124,32 @@ To better understand why we need this sense of the whole, think of this sidebar 
 
 <img src="../media/vectors/wtd_doc_navigation_listofparts.svg" style="border: 1px solid #dedede;"/>
 
-Breaking down a complex system into a list of parts can help simplify the system for users.
+Breaking down a complex system into a list of parts helps simplify the system for users.
 
 <img src="../media/vectors/wtd_doc_navigation_wholevspart.svg" style="border: 1px solid #dedede;"/>
 
-If you think about it, with just about any complex system or object, to understand it, users break down the whole into a list of parts. It's the first step in wrangling complexity &mdash; converting a complex entity into smaller parts to better understand what's going on. That's what the design principle asserts &mdash; "Hierarchical organization is the simplest structure for visualizing and *understanding complexity*."
+If you think about it, with just about any complex system or object, to understand it, you break down the whole into a list of parts. It's the first step in wrangling complexity &mdash; converting a complex entity into smaller parts to better understand what's going on. That's what the design principle asserts &mdash; "Hierarchical organization is the simplest structure for visualizing and *understanding complexity*."
 
-We regularly break down complex systems into hierarchies that list out the parts. Here are some examples:
+Notice that the definition doesn't say hierarchy is a simple structure for organizing complexity. It's a simple structure for *understanding* complexity. Hierarchy is a semantic tool that communicates meaning. It's not just a grouping mechanism; grouping itself is semantic.
+
+We regularly break down complex systems into hierarchies that list out the parts. This listing of parts aids in our understanding of the complex whole. Here are some examples:
 
 * To understand a philosophical theorem, you break it down into assumptions, premises, and conclusions.
-* To understand a company's organization, you might break it down into different departments, groups, and managers.
+* To understand a company's organization, you break it down into different departments, groups, and managers.
 * To understand a product to assemble, you check out the list of parts, tools, and tasks.
 * To understand a story, you break it down into exposition, rising action, climax, and denouement.
 * To understand a conference, you look at the speakers, venue, and schedule.
 * To understand an API, you look at the authentication mechanism, the base URL, a sample request, a sample response.
 * To understand the animal kingdom, you classify animals into birds, fish, reptiles, amphibians, anthropods, mammals, and other groups.
 
-Our natural action in understanding any complex system is to break the system down into a list of parts, and then analyze how those parts work together. That's basically what a sidebar navigation menu is, only instead of one long flat list, the list of parts are often organized into parent-child trees (smaller hierarchies) as it makes sense to do so.
+Our natural action in understanding any complex system is to break the system down into a list of parts, and then analyze how those parts work together. That's basically what a sidebar navigation menu is, only instead of one long flat list, the list of parts are often organized into parent-child trees (in other words, smaller hierarchies) as it makes sense to do so.
 
 When users have this larger map of the whole system, with each of its parents logically grouped, this whole can provide meaning to users. According to James Kalbach,
 
 <blockquote>Navigation provides a narrative for people to follow on the web. <small><br/>&mdash; <a href="https://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108/ref=sr_1_1?s=books&ie=UTF8&qid=1483721104&sr=1-1&keywords=designing+web+navigation+kalbach">Designing Web Navigation: Optimizing the User Experience</a></small>
 </blockquote>
 
-A narrative is a story. Your hierarchy can tell the story of your information.
+A narrative is a story. Your hierarchy can tell the story of your information by communicating to users how each part relates to the others.
 
 ### Avoid deep hierarchies
 
@@ -153,13 +161,13 @@ Some examples of deep hierarchical nesting would be [Wikipedia's category hierar
 
 ## Action 2: Navigate from doc set to doc set
 
-After I right-sized the product sidebar, I had a handful of different sidebars to manage. Remember I said the sidebar shouldn't be so massive that it contains endless pages of nested documentation. As a result, I had about 4 other sidebars scoped to somewhat different or related products.
+After I right-sized the product sidebar at my company, I had a handful of different sidebars to manage. Remember I said the sidebar shouldn't be so massive that it contains endless pages of nested documentation. As a result, I had about 4 other sidebars scoped to somewhat different or related products.
 
 Additionally, there were some other doc sets that would be relevant to users, which were owned by other writers. I put a "Related Resources" section at the bottom of the sidebar that would allow users to easily navigate to other sidebars.
 
 <img src="../media/rasters/navamongdocsets.png"/>
 
-We also created a doc index page that listed all the different documentation across the site.
+We also created a [doc index page](https://developer.amazon.com/documentation) that listed all the different documentation across the site.
 
 ### Design principle: Progressive disclosure
 
@@ -171,14 +179,7 @@ Progressive disclosure is almost redundant from the previous section but is wort
 
 The basic idea of progressive disclosure is to layer your information at different levels. Designers creating mocks for websites regularly consider these different levels in their UI layouts. I remember the last time I evaluated some comps from a UX designer. He pointed out the type of information that would appear to users at level 1, level 2, level 3, and level 4.
 
-In techwriterville, we usually operate at one level and don't have this multi-tiered approach to information in our list of concerns.
-
-## Basic information first, then advanced information
-
-The idea of progressive disclosure can be extracted into various applications. Beyond layers of information, you can also start by showing basic information first and more advanced information at different stages. According to Jakob Nielsen:
-
-> Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
-&mdash; <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
+In techwriterville, we usually operate at one level and don't have this multi-tiered approach to information in our list of concerns. But it's helpful to model your information by thinking about what is exposed at each level of the user experience.
 
 The most common application of progressive disclosure is with context-sensitive help. Provide little tooltips or other on-screen text in your user interface and let the user click for more information if desired.
 
@@ -193,9 +194,14 @@ The way progressive disclosure applies here is with the layers of information ex
 
 You can think of these points as levels 1 through 4. What information should you show to users at each level?
 
+Beyond layers of information, you can also start by showing basic information first and more advanced information at different stages. According to Jakob Nielsen:
+
+> Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
+&mdash; <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
+
 ### Doc portal homepage
 
-It depends on the size and scope of your products and documentation, but generally the doc portal home likely lists the various product documentation available.  
+It depends on the size and scope of your products and documentation, but generally the doc portal homepage likely lists the various product documentation available.  
 
 Here's an example with Microsoft's Azure documentation.
 
@@ -219,9 +225,9 @@ Users start forming opinions and biases about the documentation from this first 
 
 When you click into a product homepage, the navigation sidebar should show links for that product. The scope and focus of the information changes to become more specific to the product.
 
-A product homepage is not so much a train station terminal for routing. Instead, the product homepage should help users get started with the product. You might list a getting started or Hello World tutorial or other beginner task (e.g, a tour of the app, or the most popular tasks). The information should act as a progressive lure to pull users into the system.
+A *product* homepage is not so much a train station terminal for routing; instead, it's more of a welcoming party. You've already taken the train to the new city, and now you've arrived. The product homepage is like that welcoming station, with a visitor center that gives you information about the city (recommended attractions, restaurants, walking tour maps, audio tours, etc.).
 
-Additionally, quick reference guides or other getting started tasks would be appropriate on the product homepage.
+On the product homepage, you might list a getting started or Hello World tutorial or other beginner task (e.g, a tour of the app, or the most popular tasks). The information should act as a progressive lure to pull users into the system. Additionally, quick reference guides or other getting started tasks would be appropriate on the product homepage.
 
 Overall, users come to the homepage to figure out where to go, to see what's available, and to get oriented. Try to make it as easy as possible for them to do get started.
 
@@ -245,7 +251,7 @@ Although the sidebar is important for seeing the whole, it's also important to b
 
 ### Design principle: Immersion
 
-The design principle at work here might be considered immersion.
+The design principle at work here with inline links might be considered immersion.
 
 <img src="../media/vectors/wtd_doc_navigation_dontleavesystem.svg"  class="vectorStyle"/>
 
@@ -257,7 +263,7 @@ The first way to cater to immersion is to bring the help to the user. Don't requ
 
 Of course this assumes there's a user interface for you to push the help. With developer docs, the help might best appear in the form of code comments, error messages, man[ual] pages in the terminal.
 
-But even when a user goes to your help system, the principle of immersion still applies. Users consuming content prefer to stay within that content  of thepage rather than move back and forth with a sidebar nav, which exists somewhat "outside" of page content.
+But even when a user goes to your help system, the principle of immersion still applies. Users consuming content prefer to stay within that content of the page rather than move back and forth with a sidebar nav, which exists somewhat "outside" of page content.
 
 <img src="../media/vectors/wtd_doc_navigation_usersclickinlinelinks.svg"  style="border: 1px solid #dedede;"/>
 
@@ -267,7 +273,7 @@ Immersed in a topic, users are more apt to click and navigate using the links wi
 
 The idea of navigating from within your content is called "bottom-up navigation" (rather than "top-down navigation," where users would drill down into the content through hierarchies at the top, often abstract/general level). Bottom-up navigation is a principle that Mark Baker emphasizes on his site [Every Page Is Page One](http://everypageispageone.com/2015/02/10/bottom-up-information-architecture-q-and-a-part-1/).
 
-Although Mark describes bottom-up navigation in more articulate, abstract ways in his posts and book, I like the down-to-earth description he gives in a [comment on one of my posts](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3286566056):
+Although Mark describes bottom-up navigation in more articulate, abstract ways in his posts and book, I like the down-to-earth description he gives in a [comment on one of my posts](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3286566056). What does bottom-up navigation mean?
 
 <blockquote>
 <ul>
@@ -277,7 +283,7 @@ Although Mark describes bottom-up navigation in more articulate, abstract ways i
 </ul>
 </blockquote>
 
-These principles may seem like commonsense. In general, we link to topics as it makes sense to do so. But bottom-up navigation takes inline linking to a another level. Consider amplifying the number of links by two or three times the amount so that your pages begin to resemble the inline links in Wikipedia.
+These principles may seem like commonsense. In general, we link to topics as it makes sense to do so. But bottom-up navigation takes inline linking to a another level. Consider amplifying the number of links by two or three times the amount so that your pages begin to resemble the inline links in a Wikipedia article.
 
 <img src="../media/rasters/wikipedia.png"/>
 
@@ -373,7 +379,7 @@ Most of us agree with this modularity in theory, but it's hard to implement in p
 
 ### Don't assume building blocks == presentation
 
-For example, you may be writing in a documentation structure that separates content into tasks, concepts, and reference topics. If so, remember that these structures are a way of chunking content so you can re-use it. The re-use reduces your word count, lowers translation costs, avoids duplication, and provides other efficiency benefits.
+You may be writing in a documentation structure that separates content into tasks, concepts, and reference topics. If so, remember that these structures are a way of chunking content so you can re-use it. The re-use reduces your word count, lowers translation costs, avoids duplication, and provides other efficiency benefits.
 
 However, remember that these information chunks are *building blocks only*. Like legos, you can arrange the blocks into more lengthy creations.
 
@@ -385,11 +391,11 @@ If you fragment your information into a [million little content pieces](http://i
 
 Continuing with more analogies, consider each chunk of content as a rock. You can certainly store and manage the rocks as individual chunks. But if you want to convey meaningful information to users, stack the rocks into various combinations to create more elaborate and purposeful displays.
 
-On trails, these stacks of rocks are called "cairns" and serve as guide posts to users on trails that often lack clear boundaries or pathways.
+On trails in the wilderness, these stacks of rocks are called "cairns" and serve as guide posts to users on trails that often lack clear boundaries or pathways.
 
 <img src="../media/rasters/cairns.png" style="vectorImage"/>
 
-Not all help information can stand <i>entirely</i> on its own. Frequently one concept or task builds on another topic, or requires knowledge of another topic. But there's usually a logical boundary line between topics. You can decide  how large to draw the boundaries.
+Not all help information can stand <i>entirely</i> on its own. Frequently one concept or task builds on another topic, or requires knowledge of another topic. But there's usually a logical boundary line between topics. You can decide how large to draw the boundaries.
 
 When content becomes unwieldy or hard to follow because it's all listed on the same page, break it up into multiple pages. Just make sure your users aren't bouncing from one topic to another trying to get answers for a single task or goal they're trying to achieve.
 
@@ -400,8 +406,6 @@ Although I shy away from actual word count numbers, I think a good-sized page ca
 It is possible to go overboard with modularity. In [version 3 of Bootstrap's component documentation](https://getbootstrap.com/components/), the authors listed all components on the same page. As a result, the content was approximately 8,000 words long.
 
 In [version 4 of Bootstrap's component docs](https://v4-alpha.getbootstrap.com/components/alerts/), the component documentation is more broken up. For example, this [doc page on alerts](https://v4-alpha.getbootstrap.com/components/alerts/) has just 800 words. I don't know the reasoning behind Bootstrap's documentation decisions, but it's clear that they felt the previous organization in putting all content on the same page had some downsides.
-
-<!-- wayfinding -->
 
 ## Action 6: Hang signposts along the way
 
