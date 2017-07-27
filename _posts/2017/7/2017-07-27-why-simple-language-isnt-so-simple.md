@@ -5,16 +5,15 @@ categories:
 - writing
 - stitcher
 - podcasts
-keywords:
+keywords: plain language, simple language, discourse communities
 summary: "Although you can adjust your content's style to be simpler and more readable, technical documentation introduces many new terms and concepts for readers to learn. Many readers who don't already understand the discourse community may find this language impenetrable. Glossaries and inline tooltips can potentially help novice users, but there's no easy solution for simplifying your language for both novice and expert users."
 bitlink: http://bit.ly/limitsofplainlanguage
 thumb: plainlanguagethumb.png
 image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/limitsofplainlanguage.mp3
-podcast_file_size: 14.3 MB
-podcast_duration: "17:52"
-podcast_length: 14326715
-published: false
+podcast_file_size: 25 MB
+podcast_duration: "30:12"
+podcast_length: 25002593
 ---
 
 {% include audio.html %}
@@ -25,7 +24,7 @@ In my previous post, [When the pain of ignorance exceeds the pain of learning](h
 
 To write for the user in this state of mind, we have to make our docs extremely simple to scan and skim. Among the techniques we can implement, embracing a simple language ranks high as a best practice. While most of us would agree that simple language is the way to go, adopting simple language is much harder in practice.
 
-Here are a few reasons why writers simple language isn't so simple to embrace:
+Here are a few reasons writers don't often use simple language:
 
 * [Writers don't often realize that their sentences are hard to read](#hardtoread)
 * [Writers don't want to convert their beautiful prose into short, choppy sentences](#choppysentences)
@@ -84,7 +83,7 @@ Here we have zero flags with no sentences that are hard to read, and the readabi
 
 <img src="/images/2017/7/hemingwayapprewritefurther.png"/>
 
-It's hard to simplify it more without eliminating details from the original. In my rewrites, I didn't omit any information. Simplification is not just about shortening sentences and language. It's also about taking out unnecessary details, words, and other "fat" from the sentence. With that approach, I would probably cut the first paragraph of that last rewrite entirely.
+It's hard to simplify it more without eliminating details from the original. In my rewrites, I didn't omit any information. But simplification is not just about shortening sentences and language. It's also about taking out unnecessary details, words, and other "fat" from the sentence. With that approach, I would probably cut the first paragraph of that last rewrite entirely.
 
 If you embrace simple language, do you also embrace short, choppy sentences? Near the end of his review, Crouch asks:
 
@@ -175,7 +174,7 @@ Here's an example. In the Android Developer docs, an "Intent" is described as fo
 >
 > An Intent provides a facility for performing late runtime binding between the code in different applications. Its most significant use is in the launching of activities, where it can be thought of as the glue between activities. It is basically a passive data structure holding an abstract description of an action to be performed. ([Intent](https://developer.android.com/reference/android/content/Intent.html))
 
-The writer uses simple language. And the passage scores OK with Grade 13 in the Hemingway app. But it's hardly understandable. The incomprehensibility is not due to the stylistic constructions. It's due to the unfamiliar terminology. This documentation requires readers to learn a new vocabulary. Behind the new terms is often a new concept as well.
+The writer uses a simple style. And the passage scores OK with Grade 13 in the Hemingway app. But it's hardly understandable. The incomprehensibility is not due to the stylistic constructions. It's due to the unfamiliar terminology. This documentation requires readers to learn a new vocabulary. Behind the new terms is often a new concept as well.
 
 No matter how you try to simplify it, users unfamiliar with the terms and concepts will find this documentation impenetrable.
 
@@ -195,13 +194,13 @@ The problem of simple language is more difficult with technical documentation (p
 
 There's no easy way around the terminology problem. If you explain technical words and concepts in a way that novices can understand, you put off advanced users who already speak the language and have the necessary vocabulary background. For example, if the Android developer docs were written with novices in mind, they would be 2-3 times longer than they currently are. *Do you sacrifice concision for one audience to gain clarity with another?*
 
-Technical writers often find themselves in impossible positions. You can write for novices, or you can write for advanced users, but it's difficult to do both at the same time. Your approach will be sure to frustrate one or the other. You also can't feasibly create two versions of the documentation. You don't have the bandwidth.
+Technical writers often find themselves in impossible situations. You can write for novices, or you can write for advanced users, but it's difficult to do both at the same time. Your approach will be sure to frustrate one or the other. And you also can't feasibly create two versions of the documentation. You don't have the bandwidth.
 
 As a result, you have to choose the audience you want your content to connect with.
 
 <img src="/images/2017/7/plainlanguagediagram-01.svg"/>
 
-The question of addressing both advanced and novice users with the same set of docs is an age-old conundrum in technical communication. One solution is to choose a language that the majority of your users presumably speak. In [Content Audits and Inventories](https://www.amazon.com/Content-Audits-Inventories-Paula-Ladenburg/dp/1937434389), Paul Ladenburg Land defines simple language as follows:
+The question of addressing both advanced and novice users with the same set of docs is an age-old conundrum in technical communication. One solution is to choose a language that *the majority* of your users presumably understand. In [Content Audits and Inventories](https://www.amazon.com/Content-Audits-Inventories-Paula-Ladenburg/dp/1937434389), Paul Ladenburg Land defines simple language as follows:
 
 > A document, website or other information is in plain language if the target audience can read it, understand what they read, and confidently act on it. (9.5. Plain Language)
 
@@ -217,16 +216,16 @@ In other words, if possible you should separate expert and novice content. But u
 
 ## Glossaries and tooltips as help for novices
 
-I think providing a glossary is a good first step in helping users understand your content. When you provide a glossary with your docs, you give users a way to learn your system's language. Further, when you can gracefully link unfamiliar terms inline with tooltips or glossary references, you make those terms available to the user at the time the user needs them.
+Providing a glossary is a good first step in helping users understand your content. When you provide a glossary with your docs, you give users a way to learn your system's language. Further, when you can gracefully link unfamiliar terms inline with tooltips or glossary references, you make those terms available to the user at the time the user needs them.
 
 Weaving these tooltips into your documentation manually is tedious and prone to error. If you link every instance of the term Intent, PendingIntent, Activity, startActivity, and broadcastActivity to their corresponding glossary pages, and even link glossary definitions that define one term with another, you end up with a lot of links.
 
-The abundance of inline links can be distracting and paradoxically make it harder for users to read the content. Each link presents a jumping off point, and users must constantly make decisions about whether to click links or not. Still, if you can pull off an inline glossary, especially in an automated way, I think it's a good move.
+The abundance of inline links can be distracting and paradoxically make it harder for users to read the content. Each link presents a [jumping off point](http://idratherbewriting.com/2010/06/19/finally-convinced-about-removing-inline-links-to-increase-readability/), and users must constantly make decisions about whether to click links or not. Still, if you can pull off an inline glossary, especially in an automated way, I think it's a good move.
 
-Whether people use the glossary is also debatable. Coming back to the impatient, frustrated user who searches for an answer &mdash; will he or she take the time to learn the necessary vocabulary before reading your documentation? Probably not, and the docs will seem like gibberish. But at least you've given the user a lifeline to grab hold of in the water. There's now a clear starting point to avoid drowning.
+Whether people *use* the glossary is also debatable. Coming back to the impatient, frustrated user who searches for an answer &mdash; will he or she take the time to learn the necessary vocabulary before reading your documentation? Probably not, and the docs will seem like gibberish. But at least you've given the user a lifeline to grab hold of in the water. There's now a clear starting point to avoid drowning.
 
 ## Conclusion
 
-In developer documentation, the struggle for creating simple-to-read documentation is two-fold. First, technical writers have to learn this technical language so they can speak it effectively in the discourse community. For example, if you're describing a sample Java app, you have to be conversant in Java lingo and conventions so that other Java developers can understand you. You also have to recognize the language so that you can evaluate and edit any content that your Java engineers provide to you.
+In developer documentation, the struggle for creating simple-to-read documentation is two-fold. First, technical writers have to learn this technical language so they can speak it effectively in the user's discourse community. For example, if you're describing a sample Java app, you have to be conversant in Java lingo and conventions so that other Java developers can understand you. You also have to recognize the language so that you can evaluate and edit any content that your Java engineers provide to you.
 
 At the same time, you have to be sensitive to users who may not be conversant in this language. If you're a novice, you can probably spot the areas of confusion more easily than engineers. In these areas of confusion, you can link to glossary terms and provide other helps for new users.
