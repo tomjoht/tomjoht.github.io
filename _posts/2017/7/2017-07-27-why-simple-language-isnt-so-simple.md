@@ -152,7 +152,7 @@ Glance back at that previous academic passage. What was it really saying? I've r
 
 > When we communicate with people outside our culture, we have to consider how our language and conventions get interpreted from their cultural perspective.
 
-For example, when someone from another country points with their middle finger, we wonder, is this person subtly flipping me off, or is that just how they point in their culture? Likewise, if we give a thumbs up to show our approval, how does that gesture resonate in Iran or Germany? Turns out it's offensive.
+For example, when someone from another country points with their middle finger, we wonder, is this person subtly flipping me off, or is that just how they point in their culture? Likewise, if we give a thumbs up to show our approval, how does that gesture resonate in the Middle East? Turns out it's offensive.
 
 If the writer were to simplify the language, the point might sound too obvious and simple. *Of course, readers interpret language based on their culture. Of course, we live in a globalized world now and must consider implications of our content in other cultures.* What's the insight here?
 
