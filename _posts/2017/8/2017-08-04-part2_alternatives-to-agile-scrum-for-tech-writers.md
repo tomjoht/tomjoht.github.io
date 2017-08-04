@@ -14,7 +14,7 @@ podcast_duration: "31:07"
 podcast_length: 23964717
 ---
 
-{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: [Tech docs and Agile: Problems with integrating tech writers into Scrum teams](http://idratherbewriting.com/2017/08/04/part2_when-agile-doesnt-work-technical-writers/). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: [Tech docs and Agile: Problems with integrating tech writers into engineering Scrum teams](http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/). {{site.data.alerts.end}}
 
 {% include audio.html %}
 
@@ -77,7 +77,7 @@ Finally, there's using no methodology at all, which I suspect is the most common
 
 I need to add a note about Lean, because it's related here. Lean isn't a methodology like Scrum. Lean might use Kanban or Kaizen (continuous improvement) as a methodology. Instead, Lean is more of a high-level philosophy, similar to Agile, about reducing waste and increasing value to the user.
 
-Whereas Agile "is aimed at executing tasks faster, adapting to changes easier," Lean aims to "improve virtually everything you do by eliminating anything that doesn’t bring value to the customer" ([How to choose between Agile and Lean, Scrum and Kanban — which methodology is the best?](https://realtimeboard.com/blog/choose-between-Agile-lean-Scrum-kanban/#.WYHV7NMrKYU)). Agile philosophy is actually a subset of Lean philosophy.
+Whereas Agile "is aimed at executing tasks faster, adapting to changes easier," Lean aims to "improve virtually everything you do by eliminating anything that doesn’t bring value to the customer" ([How to choose between Agile and Lean, Scrum and Kanban — which methodology is the best?](https://realtimeboard.com/blog/choose-between-agile-lean-scrum-kanban/#.WYHV7NMrKYU)). Agile philosophy is actually a subset of Lean philosophy.
 
 Mark Baker has a lot of insight about applying Lean principles to docs. See Mark's four-part series:
 
@@ -88,7 +88,7 @@ Mark Baker has a lot of insight about applying Lean principles to docs. See Mark
 
 Mark examines ways to eliminate the frequency of errors in tech docs. Sure, revision is helpful. But why are there errors in the first place, he asks, and how can we avoid them? And how can we increase the value of our doc efforts? That which doesn't produce value can be considered waste.
 
-Mark says, "Don’t just try to fit into development’s Agile process. Create your own lean content development process" ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-Agile-process/)). He warns that Agile Scrum integrations often lead tech writers to create product-centered documentation rather than user-centered documentation (I touched on this point in my previous post).
+Mark says, "Don’t just try to fit into development’s Agile process. Create your own lean content development process" ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-agile-process/)). He warns that Agile Scrum integrations often lead tech writers to create product-centered documentation rather than user-centered documentation (I touched on this point in my previous post).
 
 Lean's philosophy of reducing waste and increasing value in docs should be strategies for any tech writer. The question is what methodology (Scrum, Kanban, Kaizen, Waterfall, Tim Feiress' approach) one should use to implement Lean and Agile principles. I'll probably circle back to Lean in another post.
 
@@ -100,11 +100,11 @@ Another alternative might be to create your own Scrum that consists entirely of 
 
 Mark Baker also seems to recommend a similar approach:
 
-> This is why I always advise tech comm groups not to simply integrate writers into development’s Agile process, but to develop their own lean/Agile process and optimize the interface between their process and development’s process. ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-Agile-process/))
+> This is why I always advise tech comm groups not to simply integrate writers into development’s Agile process, but to develop their own lean/Agile process and optimize the interface between their process and development’s process. ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-agile-process/))
 
 In a forum thread on a Scrum site, one Scrum master explains the difficulty of integrating a tech writer. After some back and forth (for example, separate user stories for docs, or separate sprints), he concludes:
 
-> ... One tech writer can't be divided in 4-5 Sprints. I think I would go with separate project for documentation until I sort out the resource constraint issue and let the regular Sprints move ahead. ([Technical writer in Scrum team](https://www.Scrum.org/forum/Scrum-forum/8574/technical-writer-Scrum-team))
+> ... One tech writer can't be divided in 4-5 Sprints. I think I would go with separate project for documentation until I sort out the resource constraint issue and let the regular Sprints move ahead. ([Technical writer in Scrum team](https://www.scrum.org/forum/scrum-forum/8574/technical-writer-scrum-team))
 
 Here's another thread on the same Scrum.org site where a documentation team formed its own Scrum. This is my favorite thread. Gina asks Joshua about how to integrate a tech writer who is allocated to multiple projects into the various Scrum teams.
 
@@ -135,9 +135,9 @@ Gina writes:
 >
 > Why does it become unworkable? Did you discuss it with the engineers during retrospectives?
 >
+> Joshua
 > ...
 >
-> Joshua
 >
 > Hi Joshua,
 >
@@ -147,7 +147,7 @@ Gina writes:
 >
 > Gina
 >
-> [Technical documentation/translation in Scrum](https://www.Scrum.org/forum/Scrum-forum/5522/technical-documentationtranslation-Scrum)
+> (See [Technical documentation/translation in Scrum](https://www.Scrum.org/forum/Scrum-forum/5522/technical-documentationtranslation-Scrum))
 
 There's good logic for following Scrum methodology. Even with its flaws, it's how software companies do work. If you try to shoehorn another approach, others (at least in Engineering) won't understand how to work with you.
 
@@ -185,7 +185,7 @@ Running your own Scrum project, you're guaranteed *not* to be sucked into any ir
 
 ## You drive the backlog
 
-When you're the one driving the project, you have control about the user stories and other tasks you tackle. Rather than taking orders from a project manager about the needed docs, you can survey the industry, technology, and business domains as an active product researcher to determine what documentation gaps need to be addressed. (I wrote about the need to be an active researcher here: [How do you learn what you need to learn to be successful as a technical writer?](http://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/).)
+When you're the one driving the project, you have control about the user stories and other tasks you tackle. Rather than taking orders from a project manager about the needed docs, you can survey the industry, technology, and business domains as an active product researcher to determine what documentation gaps need to be addressed. (I wrote about the need to be an active researcher here: [How do you learn what you need to learn to be successful as a technical writer?](http://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/))
 
 Of course, in many cases, much of your work might stem from project managers and their scrums. But the user stories should also originate from your active, self-directed research looking at forums, support tickets, industry blogs, and other feedback.
 
@@ -231,24 +231,24 @@ It might work out great, or not. Most methodologies would work well enough if we
 
 But if you're going about it all on your own, it will be easy to discard elements that seem dumb, or to alter processes as you see fit, and if desired, try something else entirely on a whim. That fragility for the process can't be good, so in all reality, my excitement for the process might be forgotten in a few weeks. Perhaps in an upcoming post, I'll explore strategies for staying the course in whatever task management methodology you've chosen.
 
-{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: [Tech docs and Agile: Problems with integrating tech writers into Scrum teams](http://idratherbewriting.com/2017/08/04/part2_when-agile-doesnt-work-technical-writers/). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: [Tech docs and Agile: Problems with integrating tech writers into engineering Scrum teams](http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/). {{site.data.alerts.end}}
 
 ## Related reading
 
 If you'd like to read more about tech comm and Scrum, see the following:
 
-* [Agile and Tech Comm: Writer Challenges in Scrum and Traditional Development Teams](https://techwhirl.com/Scrum-and-tech-comm-writer-challenges-development-teams/)
+* [Agile and Tech Comm: Writer Challenges in Scrum and Traditional Development Teams](https://techwhirl.com/scrum-and-tech-comm-writer-challenges-development-teams/)
 * [How can technical writers thrive in Scrum environments? Event recording and details](http://idratherbewriting.com/2016/09/20/thriving-in-Scrum-environments-as-technical-writers/)
-* [Manifesto for Scrum Software Development](http://Scrummanifesto.org/)
-[Principles behind the Scrum Manifesto](http://Scrummanifesto.org/principles.html)
+* [Manifesto for Scrum Software Development](http://scrummanifesto.org/)
+[Principles behind the Scrum Manifesto](http://scrummanifesto.org/principles.html)
 * [The Scrum technical writer](https://ffeathers.wordpress.com/2008/01/20/the-Scrum-technical-writer/)
-* [Technical Writing In Scrum Software Development – Part 1](https://www.atlassian.com/blog/archives/technical_writing_in_Scrum_software_development_part_1)
-* [Mobile and Scrum: The Floating Writer's Survival Kit](http://www.writersua.com/articles/Scrum/index.html)
-* [The Scrum technical writer II](https://ffeathers.wordpress.com/2008/01/26/the-Scrum-technical-writer-ii/)
-* [Technical Writing In Scrum Software Development – Part 1](https://www.atlassian.com/blog/archives/technical_writing_in_Scrum_software_development_part_1)
-* [Technical Writing In Scrum Software Development – Part 2](https://www.atlassian.com/blog/archives/technical_writing_in_Scrum_software_development_part_2)
-* [Technical Writing In Scrum Software Development – Part 3](http://atlassianblog.wpengine.com/2009/09/technical_writing_in_Scrum_software_development_part_3/)
+* [Technical Writing In Scrum Software Development – Part 1](https://www.atlassian.com/blog/archives/technical_writing_in_scrum_software_development_part_1)
+* [Mobile and Scrum: The Floating Writer's Survival Kit](http://www.writersua.com/articles/scrum/index.html)
+* [The Scrum technical writer II](https://ffeathers.wordpress.com/2008/01/26/the-scrum-technical-writer-ii/)
+* [Technical Writing In Scrum Software Development – Part 1](https://www.atlassian.com/blog/archives/technical_writing_in_scrum_software_development_part_1)
+* [Technical Writing In Scrum Software Development – Part 2](https://www.atlassian.com/blog/archives/technical_writing_in_scrum_software_development_part_2)
+* [Technical Writing In Scrum Software Development – Part 3](http://atlassianblog.wpengine.com/2009/09/technical_writing_in_scrum_software_development_part_3/)
 * [Hacker news: I can't take this Scrum crap any longer. It's lunacy.](https://news.ycombinator.com/item?id=5406384)
-* [Should Scrum be used for a project with only one person working on it?](https://softwareengineering.stackexchange.com/questions/89148/should-Scrum-be-used-for-a-project-with-only-one-person-working-on-it)
-* [Scrum for one](http://www.lifehack.org/articles/featured/Scrum-for-one.html)
-* [Personal Scrum: Another story of applying scrum to personal life](http://www.Scrumadvice.com/2006/07/17/Scrum-case-studies/personal-Scrum-another-story-of-applying-Scrum-to-personal-life/](PERSONAL Scrum)
+* [Should Scrum be used for a project with only one person working on it?](https://softwareengineering.stackexchange.com/questions/89148/should-scrum-be-used-for-a-project-with-only-one-person-working-on-it)
+* [Scrum for one](http://www.lifehack.org/articles/featured/scrum-for-one.html)
+* [Personal Scrum: Another story of applying scrum to personal life](http://www.scrumadvice.com/2006/07/17/scrum-case-studies/personal-scrum-another-story-of-applying-scrum-to-personal-life/)

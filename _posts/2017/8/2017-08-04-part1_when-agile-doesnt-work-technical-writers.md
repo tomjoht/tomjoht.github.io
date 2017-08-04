@@ -1,5 +1,5 @@
 ---
-title: "Tech docs and Agile: Problems with integrating tech writers into Scrum teams (Part 1)"
+title: "Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)"
 categories:
 - general
 - stitcher
@@ -14,7 +14,7 @@ podcast_duration: "35:04"
 podcast_length: 26840393
 ---
 
-{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: [Alternatives to integrating into engineering Scrums: Run your own doc product Scrum](http://idratherbewriting.com/2017-08-04-part1_when-agile-doesnt-work-technical-writers). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: [Alternatives to integrating into engineering Scrums: Run your own doc product Scrum](http://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/). {{site.data.alerts.end}}
 
 {% include audio.html %}
 
@@ -55,7 +55,7 @@ The most common approach to tackling software projects is Scrum, and it has been
 
 ## Definitions
 
-First, I want to clarify terms and provide some caveats. "Scrum" refers to the method and mechanics used to implement Agile principles. For example, an Agile principle might be to "satisfy the customer through early and continuous delivery of valuable software" ([Principles behind the Agile Manifesto](http://Agilemanifesto.org/principles.html)). Scrum would be the tactics for doing so, such as scheduling two-week sprints and providing biweekly demos.
+First, I want to clarify terms and provide some caveats. "Scrum" refers to the method and mechanics used to implement Agile principles. For example, an Agile principle might be to "satisfy the customer through early and continuous delivery of valuable software" ([Principles behind the Agile Manifesto](http://agilemanifesto.org/principles.html)). Scrum would be the tactics for doing so, such as scheduling two-week sprints and providing biweekly demos.
 
 Agile is a larger philosophy that has different implementations (such as Kanban or Extreme Programming). I'll briefly discuss these methodology alternatives later. I usually use the term Scrum when discussing mechanics and tactics, and Agile when referring to a more overarching philosophy.
 
@@ -72,7 +72,7 @@ I also want to emphasize how important this topic is. Tech docs and Agile remain
 
 Surely there's a sensitive nerve here. I suspect many tech writers have similar issues related to Scrum they're trying to resolve.
 
-About a year ago, we held a panel discussion on [how tech writers can thrive in an Agile environment](http://www.stc-siliconvalley.org/2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-Scrum-environments/) in the STC Silicon Valley chapter. We had double the attendance of usual meetings. That recording has been listened to nearly 3,500 times, which is about three times as many listens as other recordings.
+About a year ago, we held a panel discussion on [how tech writers can thrive in an Agile environment](http://www.stc-siliconvalley.org/2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-scrum-environments/) in the STC Silicon Valley chapter. We had double the attendance of usual meetings. That recording has been listened to nearly 3,500 times, which is about three times as many listens as other recordings.
 
 With that said, let me lay out some of the problems I've observed in trying to integrate into Scrum teams as a technical writer. These problems may be why the topic is of such great interest to technical writers.
 
@@ -82,7 +82,7 @@ If you plug into a Scrum team and start attending the meetings, the first thing 
 
 Best practices for Scrum recommend one team per member, as this immersion increases efficiency. In a thread on Scrum.org, one Scrum expert says you have to consider the inefficiency of task switching when team members are allocated to multiple Scrums:
 
-> As a rough guide, based on my experience, it takes between 30 minutes and an hour for a developer to switch from one task to another and it is usually not viable to split them between more than two projects. A developer split three ways is rarely productive at all. ([Partially allocated team members](https://www.Scrum.org/forum/Scrum-forum/5304/partially-allocated-team-members))
+> As a rough guide, based on my experience, it takes between 30 minutes and an hour for a developer to switch from one task to another and it is usually not viable to split them between more than two projects. A developer split three ways is rarely productive at all. ([Partially allocated team members](https://www.scrum.org/forum/scrum-forum/5304/partially-allocated-team-members))
 
 In addition to being partially allocated, as a tech writer, you'll find that 90% of these meetings consist of developer-fueled discussions about topics mostly irrelevant to documentation. Sure, you'll run across a nugget of relevance now and then &mdash; such as a 30-second mention of a feature that is changing, which you probably wouldn't have realized had you not been at that meeting.
 
@@ -94,9 +94,9 @@ Another issue is that tech writers aren't usually co-located with the other team
 
 Without co-location, you miss out on many of the impromptu discussions, conversations, and other team chatter. In Scrum, this communication can be vital, since Scrum encourages collaboration without documentation.
 
-For example, you may often see tasks logged without any details, because the details are discussed during standups or other hallway conversations. Developers aren't being lazy &mdash; this is just Agile. The Agile principle is summarized as "Working software over comprehensive documentation" ([http://Scrummanifesto.org/](http://Scrummanifesto.org/). Or with more detail:
+For example, you may often see tasks logged without any details, because the details are discussed during standups or other hallway conversations. Developers aren't being lazy &mdash; this is just Agile. The Agile principle is summarized as "Working software over comprehensive documentation" ([scrummanifesto.org/](http://scrummanifesto.org/)). Or with more detail:
 
-> The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. ([Principles behind the Scrum Manifesto](http://Scrummanifesto.org/principles.html))
+> The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. ([Principles behind the Scrum Manifesto](http://scrummanifesto.org/principles.html))
 
 If you're not part of the face-to-face conversations, where will you get the details you need in writing the user documentation? You won't find requirements documents, detailed specs, or other documentation to gather information from.
 
@@ -130,7 +130,7 @@ Worse is when there are multiple issue tracking systems across the company. When
 
 Beyond the challenges with Scrum mechanics, there are larger issues with Agile and docs. Integrating into a Agile Scrum team tends to focus your attention toward creating documentation for *upcoming* features. As a result, you end up creating product-centered documentation rather than user-centered documentation.
 
-See Mark Baker's post [Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-Agile-process/). He quotes [Petko Mihailov](https://www.linkedin.com/groups/1115987/1115987-5809451592881025027), who says:
+See Mark Baker's post [Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-agile-process/). He quotes [Petko Mihailov](https://www.linkedin.com/groups/1115987/1115987-5809451592881025027), who says:
 
 > My experience has been that Agile methodology naturally leads to product-centered documentation and it is quite a struggle to maintain the user perspective and the needed content structure.
 >
@@ -138,7 +138,7 @@ See Mark Baker's post [Don’t Lean on Development’s Agile Process](http://eve
 
 How does the Scrum's focus shift tech writers towards product-centered doc? Mark explains,
 
-> Inserting tech comm into development’s process involves inserting tech comm into development’s value stream. The value that development produces is features, so naturally there will be a tendency for tech comm to end up documenting features, and it will be hard to find time to develop docs that are not tied to a specific feature, as Mikhailov notes. ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-Agile-process/))
+> Inserting tech comm into development’s process involves inserting tech comm into development’s value stream. The value that development produces is features, so naturally there will be a tendency for tech comm to end up documenting features, and it will be hard to find time to develop docs that are not tied to a specific feature, as Mikhailov notes. ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-agile-process/))
 
 If your focus is always on the new features developers are creating, rather than the user's perspective and feedback, you're probably steering the ship towards a single trajectory that might not yield the greatest value for users.
 
@@ -161,7 +161,7 @@ You'll encounter these challenges whether you integrate into the Scrum team or n
 ## Missing out on core principle of Agile: frequent user check-ins
 
 I've discussed the mechanics of Scrum without diving into the heart of the Agile philosophy. The core philosophy of Agile is "to satisfy the customer through early and continuous delivery
-of valuable software" (see [Principles behind the Agile Manifesto](http://Scrummanifesto.org/principles.html)). By regularly demonstrating the completed work to the customer every couple of weeks, project teams make sure they're on track with what the user wants.
+of valuable software" (see [Principles behind the Agile Manifesto](http://scrummanifesto.org/principles.html)). By regularly demonstrating the completed work to the customer every couple of weeks, project teams make sure they're on track with what the user wants.
 
 This principle makes good sense. Customers often don't know what they want until they see it. You don't want your developers to spend months heads-down working on features, only to realize, upon release 6 months to a year later, that they misinterpreted the customer's needs, or that the market changed and your product is no longer aligned with current needs, or that something else was askew early on and resulted in a lot of throw-away work.
 
@@ -195,7 +195,7 @@ Additionally, if you let too much doc build up before sending it out for review 
 
 You can even take concurrent doc work a step further and require docs to be complete before a user story can close. Alyssa Fox says her writers work this way:
 
-> Each time a feature is documented, that documentation must be reviewed by the ID lead/manager and by QE for technical accuracy before the team can close the user story. ([Agile and Tech Comm: Writer Challenges in Agile and Traditional Development Teams](https://techwhirl.com/Scrum-and-tech-comm-writer-challenges-development-teams/))
+> Each time a feature is documented, that documentation must be reviewed by the ID lead/manager and by QE for technical accuracy before the team can close the user story. ([Agile and Tech Comm: Writer Challenges in Agile and Traditional Development Teams](https://techwhirl.com/scrum-and-tech-comm-writer-challenges-development-teams/))
 
 Adding this requirement to user stories might be a strong win for making sure documentation isn't forgotten. It gives you a clear framework and a compelling reason to make documentation a requirement.
 
@@ -216,4 +216,4 @@ In the end, with most Scrum teams, I am an adopted orphan &mdash; not really par
 
 In my next post, I'll briefly discuss some alternatives to integrating into engineering Scrum teams.
 
-{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: [Alternatives to integrating into engineering Scrums: Run your own doc product Scrum](http://idratherbewriting.com/2017-08-04-part1_when-agile-doesnt-work-technical-writers). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: [Alternatives to integrating into engineering Scrums: Run your own doc product Scrum](http://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/). {{site.data.alerts.end}}
