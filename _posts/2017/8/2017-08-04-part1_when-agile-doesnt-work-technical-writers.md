@@ -14,7 +14,7 @@ podcast_duration: "35:04"
 podcast_length: 26840393
 ---
 
-{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: [Alternatives to integrating into engineering Scrums: Run your own doc product Scrum](http://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: <a href="http://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/">Tech docs and Agile Part 2: Alternatives to integrating into engineering Scrums</a>. {{site.data.alerts.end}}
 
 {% include audio.html %}
 
@@ -216,4 +216,4 @@ In the end, with most Scrum teams, I am an adopted orphan &mdash; not really par
 
 In my next post, I'll briefly discuss some alternatives to integrating into engineering Scrum teams.
 
-{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: [Alternatives to integrating into engineering Scrums: Run your own doc product Scrum](http://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 1 in a two part series. Part 2 is available here: <a href="http://idratherbewriting.com/2017/08/04/part2_alternatives-to-agile-scrum-for-tech-writers/">Tech docs and Agile Part 2: Alternatives to integrating into engineering Scrums</a>. {{site.data.alerts.end}}

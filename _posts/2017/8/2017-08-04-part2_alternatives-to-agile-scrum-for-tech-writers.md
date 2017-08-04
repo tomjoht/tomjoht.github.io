@@ -14,7 +14,7 @@ podcast_duration: "31:07"
 podcast_length: 23964717
 ---
 
-{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: [Tech docs and Agile: Problems with integrating tech writers into engineering Scrum teams](http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
 
 {% include audio.html %}
 
@@ -231,7 +231,7 @@ It might work out great, or not. Most methodologies would work well enough if we
 
 But if you're going about it all on your own, it will be easy to discard elements that seem dumb, or to alter processes as you see fit, and if desired, try something else entirely on a whim. That fragility for the process can't be good, so in all reality, my excitement for the process might be forgotten in a few weeks. Perhaps in an upcoming post, I'll explore strategies for staying the course in whatever task management methodology you've chosen.
 
-{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: [Tech docs and Agile: Problems with integrating tech writers into engineering Scrum teams](http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/). {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
 
 ## Related reading
 
