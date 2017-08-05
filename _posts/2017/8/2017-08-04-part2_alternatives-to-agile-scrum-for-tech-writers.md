@@ -94,7 +94,7 @@ Lean's philosophy of reducing waste and increasing value in docs should be strat
 
 ## Doc teams with their own Scrum
 
-Another alternative might be to create your own Scrum that consists entirely of documentation tasks from all your various projects. I'm not the only one to propose this shift towards document product Scrums. For example, in a Linkedin thread, Petko Mihailov says:
+Another alternative might be to create your own Scrum that consists entirely of documentation tasks from all your various projects. I'm not the only one to propose this shift towards documentation Scrums. For example, in a Linkedin thread, Petko Mihailov says:
 
 > Seems like it would be useful to either exempt the documentation from the Agile process and ... consider the documentation a product per se and have an Agile documentation team with its own sprints, whose members work in tight collaboration with the Agile development teams… ([Product vs. User Perspective in Agile Documentation](https://www.linkedin.com/groups/1115987/1115987-5809451592881025027))
 
