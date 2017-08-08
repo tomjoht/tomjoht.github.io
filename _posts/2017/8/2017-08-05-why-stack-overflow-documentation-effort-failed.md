@@ -45,7 +45,7 @@ Now, to make sense of the failure for technical writers. Was Stack Overflow's Do
 
 * **Missed out on industry standard doc platform**. We might have abandoned all our fragmented tools and just started using Stack Overflow's platform for documentation. This could have eliminated a lot of tool tinkering and inefficiency while introducing a standard industry-wide platform and format for tech docs.
 
-* **Not forced into more interesting careers.** If Documentation had ended the careers of technical writers, we could have potentially transitioned into more interesting lines of work. I've always wanted to join the CIA, military, or police force. If tech writing had been serious threatened by the Stack Overflow Documentation model, it might have forced me to look elsewhere. As is, I'll probably just keep my boring ol' tech writer job. (I'm mostly kidding here. I love writing docs.)
+* **Not forced into more interesting careers.** If Documentation had ended the careers of technical writers, we could have potentially transitioned into more interesting lines of work. I've always wanted to join the CIA, military, or police force. If tech writing had been seriously threatened by the Stack Overflow Documentation model, it might have forced me to look elsewhere. As is, I'll probably just keep my boring ol' tech writer job. (I'm mostly kidding here. I love writing docs.)
 
 ## How could Documentation be tweaked for success?
 
@@ -71,4 +71,6 @@ Perhaps instead of trying to introduce a new model, Stack Overflow should build 
 
 ## Conclusion
 
-Now that the Documentation experiment is over, I'll be interested to see what new innovations Stack Overflow follows. I can't say that I participated much in Documentation or used it, but it was awesome to see the effort and interesting to interpret the result.
+Now that the Documentation experiment is over, I'll be interested to see what innovations Stack Overflow follows next. I can't say that I participated much in Documentation or used it, but it was awesome to see the effort and interesting to interpret the result.
+
+To read more on this topic, see Beth Aitman's post [Thoughts on Stack Overflow's Documentation beta](https://medium.com/@beth.aitman/thoughts-on-stack-overflows-documentation-beta-f5a8b7f10c8).
