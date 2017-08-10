@@ -15,7 +15,7 @@ podcast_length: 9684748
 
 {% include audio.html %}
 
-For an introduction and tour of Stack Overflow's documentation, see [Welcome to Stack Overflow Documentation](https://stackoverflow.com/tour/documentation).
+For an introduction and tour of Stack Overflow's documentation, see [Welcome to Stack Overflow Documentation](https://stackoverflow.com/tour/documentation). For their sunset announcement, see [Sunsetting Documentation](https://meta.stackoverflow.com/questions/354217/sunsetting-documentation).
 
 ## Why Stack Overflow's Documentation failed
 
@@ -24,8 +24,8 @@ Here are a few reasons why Stack Overflow's [Documentation effort failed](https:
 * **Documentation was largely redundant from the original sites**, so the Documentation pages didn't receive the anticipated traffic. There's not a compelling reason to go to Stack Overflow instead of the more authoritative source. For example, when creating a new project in Android Studio, would you go to [Stack Overflow](https://stackoverflow.com/documentation/android/85/getting-started-with-android/537/creating-a-new-project#t=201708080613182384865) or [Android's docs](https://developer.android.com/studio/projects/create-project.html)? Turns out more people went to the latter.
 * **Examples-heavy model didn't take off**. The model of foregrounding examples before textual explanations was supposed to be the differentiating characteristic in Stack Overflow's Documentation, but it didn't seem important enough to users to persuade them against the original sources.
 * **Documentation doesn't granularize into little chunks that can be easily crowdsourced.** It's a lot of work to write documentation. If the effort for contributors is too high, fewer people participate. Forum responses are much easier to crowdsource than entire documentation topics.
-* **Contributing authors felt less confident writing docs than they did forum posts.** It takes more of a sense of expertise and authoritativeness to write documentation than to answer a forum question. Additionally, in a forum you're contributing your perspective amid a variety of other potential answers, not providing a single authoritative answer. This intimidated contributors.
-* **The interaction model for writing documentation isn't as compelling as answering forum posts.** With a forum post, you're directly helping someone. Documentation, on the other hand, is more general. "You aren't documenting a specific problem you're facing, you're helping others deal with an entire class of problems by documenting" ([Welcome to Stack Overflow Documentation](https://stackoverflow.com/tour/documentation). You start out expounding on a general topic, not answering an actual question a user asked and needs help with. As a result, the effort isn't as engaging.
+* **Contributing authors felt less confident writing docs than they did forum posts.** It takes more of a sense of expertise and authoritativeness to write documentation than to answer a forum question. Additionally, in a forum you're contributing your perspective amid a variety of other potential answers, not providing a single authoritative answer. Contributors felt intimidated.
+* **The interaction model for writing documentation isn't as compelling as answering forum posts.** With a forum post, you're directly helping someone. Documentation, on the other hand, is more general. "You aren't documenting a specific problem you're facing, you're helping others deal with an entire class of problems by documenting" ([Welcome to Stack Overflow Documentation](https://stackoverflow.com/tour/documentation). You start out expounding on a general topic, not answering an actual question a user asked and needs help with. As a result, the effort to contribute isn't as engaging.
 
 ## Was the failure of Stack Overflow Documentation good or bad for professional technical writers?
 
@@ -43,9 +43,9 @@ Now, to make sense of the failure for technical writers. Was Stack Overflow's Do
 
 * **Missed out on Wikipedia for tech docs.** If the model had worked, Documentation could have turned out to be an incredible resource for the Internet, on par with Wikipedia but with tech docs. This could have been the first fully functional crowdsourcing model for documentation. Given how influential Wikipedia has been at distributing and disseminating information, we could really use a similar model with documentation, which has traditionally been seen as "terrible" and a "waste of time" by many users.
 
-* **Missed out on industry standard doc platform**. We might have abandoned all our fragmented tools and just started using Stack Overflow's platform for documentation. This could have eliminated a lot of tool tinkering and inefficiency while introducing a standard industry-wide platform and format for tech docs.
+* **Missed out on industry standard doc platform**. We might have abandoned all our fragmented tools and just started using Stack Overflow's platform for documentation. This could have eliminated a lot of tool tinkering and inefficiency while introducing a standard industry-wide platform and format for tech docs. Users would have had a central location to turn to for documentation.
 
-* **Not forced into more interesting careers.** If Documentation had ended the careers of technical writers, we could have potentially transitioned into more interesting lines of work. I've always wanted to join the CIA, military, or police force. If tech writing had been seriously threatened by the Stack Overflow Documentation model, it might have forced me to look elsewhere. As is, I'll probably just keep my boring ol' tech writer job. (I'm mostly kidding here. I love writing docs.)
+* **Not forced into more interesting careers.** If Documentation had ended the careers of technical writers, we could have potentially transitioned into [more interesting lines of work](http://idratherbewriting.com/2015/05/31/realizations-from-career-fair-what-i-lost/). I've always wanted to join the CIA, military, or police force. If tech writing had been seriously threatened by the Stack Overflow Documentation model, it might have forced me to look elsewhere. As is, I'll probably just keep my [boring ol' tech writer job](http://idratherbewriting.com/2007/03/14/tech-writer-voices-podcast-is-technical-writing-boring-tech-writers-as-information-architects/). (I'm mostly kidding here. I love writing docs.)
 
 ## How could Documentation be tweaked for success?
 
@@ -61,16 +61,20 @@ That Stack Overflow tried to reinvent the documentation format in an unfamiliar 
 
 ## Despite failure, Stack Overflow's forums are still documentation
 
-Stack Overflow shouldn't consider the information in their forums as something other than documentation. Stack Overflow's forums provide comprehensive documentation for niche cases. Mark Baker regularly [champions Stack Overflow as a model for successful "Every Page Is Page One" documentation](http://everypageispageone.com/examples-of-eppo-topics/).
+Stack Overflow shouldn't consider the information in their forums as something other than documentation. Stack Overflow's forums provide helpful documentation for niche cases. Mark Baker regularly [champions Stack Overflow as a model for successful "Every Page Is Page One" documentation](http://everypageispageone.com/examples-of-eppo-topics/).
 
 Perhaps instead of trying to introduce a new model, Stack Overflow should build on their existing forum model to make the information more valuable and documentation-like. Some ways they could improve their forum documentation might be as follows:
 
 * **Cross-link topics better.** Wikipedia took internal cross-linking to another level that Stack Overflow could model. Stack Overflow already cross-links to redundant topics, but they could perhaps automatically link more topics in a more robust way.
-* **Use forum questions as a starting point for more elaborate explanations.** Sure, the quick code reply is helpful, but they could add a "More Details" option for responders to give more information about the principles, background, and other info in the code samples. In this way, the forum would start with a specific question and the answers would transition into more general documentation. (This may or may not work -- it's just an idea.)
+* **Use forum questions as a starting point for more elaborate explanations.** Sure, the quick code reply is helpful, but they could add a "More Details" option for responders to give more information about the principles, background, and other info in the code samples. In this way, the forum would start with a specific question and the answers would transition into more general documentation. (This may or may not work &mdash; it's just an idea.)
 * **Really reinvent the documentation-interaction model with chatbots/AI.** Here's a moonshot, but could chatbots and AI be leveraged in the interaction model? This could be a killer feature. Rather than searching for an answer using a text box, users could interact with an automated Stack Overflow chatbot that has an index of Stack Overflow information in its brain, ready to reply with the most popular answers, or to help new users nuance the right vocabulary for their questions.
 
 ## Conclusion
 
 Now that the Documentation experiment is over, I'll be interested to see what innovations Stack Overflow follows next. I can't say that I participated much in Documentation or used it, but it was awesome to see the effort and interesting to interpret the result.
 
-To read more on this topic, see Beth Aitman's post [Thoughts on Stack Overflow's Documentation beta](https://medium.com/@beth.aitman/thoughts-on-stack-overflows-documentation-beta-f5a8b7f10c8).
+## Additional reading
+
+To read more on this topic, see Beth Aitman's post [Thoughts on Stack Overflow's Documentation beta](https://medium.com/@beth.aitman/thoughts-on-stack-overflows-documentation-beta-f5a8b7f10c8). See also Bob Watson's thoughts in [It’s hard to write good technical docs](http://docsbydesign.com/2017/08/03/its-hard-to-write-good-technical-docs/), [Learning from V1](http://docsbydesign.com/2017/08/04/learning-from-v1/), and [Still buzzing about Stack Overflow documentation](http://docsbydesign.com/2017/08/08/still-buzzing-about-stackoverflow-documentation/).
+
+See also [Tearing Down the Structure of Documentation](https://meta.stackoverflow.com/questions/349410/tearing-down-the-structure-of-documentation) and [Sunsetting Documentation](https://meta.stackoverflow.com/questions/354217/sunsetting-documentation).
