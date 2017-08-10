@@ -3,6 +3,8 @@ title: "Why Stack Overflow's Documentation effort failed -- a few thoughts from 
 categories:
 - general
 - writing
+- podcasts
+- stitcher
 keywords: Stack Overflow, crowdsourcing, documentation
 bitlink: http://bit.ly/stackoverflowdocfail
 summary: "Stack Overflow, mostly known as a forum for answering niche software questions, recently tried to launch a Documentation component to their site. The goal of Documentation was to 'do for Documentation what we did for Q&A'. In other words, provide substantial, valuable information that could be the go-to source for tech docs instead of just one-off answers around niche topics. However, the effort failed and now Stack Overflow is sunsetting their Documentation."
