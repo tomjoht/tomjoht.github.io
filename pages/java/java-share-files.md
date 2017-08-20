@@ -27,13 +27,13 @@ If you're sharing Java files, you need Eclipse and the JDK as well as Git. If yo
 
 ![cloneurl](/images/cloneurl.png)
 
-For example, the Github repo URL for my Java samples is https://github.com/tomjohnson1492/eclipse-java.git.
+For example, the Github repo URL for my Java samples is https://github.com/tomjoht/eclipse-java.git.
 
 3.  On your computer, open a command prompt and type `pwd` to see your present working directory. Then create a subdirectory called "projects" or something similar by typing `mkdir projects`. Then `cd` to this projects directory.
 
 **Tip:** Although you can put your directory anywhere, it's most convenient to use a subdirectory under the default directory your command prompt opens to.
 
-4.  In the directory where you want to clone the repository, type the following, replacing `{repo_url}` with the actual URL of the Github repository (such as https://github.com/tomjohnson1492/eclipse-java.git).
+4.  In the directory where you want to clone the repository, type the following, replacing `{repo_url}` with the actual URL of the Github repository (such as https://github.com/tomjoht/eclipse-java.git).
 
 {% highlight html %}git clone {repo_url}{% endhighlight %}
 
@@ -61,14 +61,14 @@ If you're sharing Java project files, this section is relevant. If you're just s
 
 Participants who want to grab the files from the Github repo follow these steps. If you created this repository, you don't need to follow these steps.
 
-1.  Browse to the Github repository you want to pull. For example: [https://github.com/tomjohnson1492/eclipse-java.git](https://github.com/tomjohnson1492/eclipse-java.git)
+1.  Browse to the Github repository you want to pull. For example: [https://github.com/tomjoht/eclipse-java.git](https://github.com/tomjoht/eclipse-java.git)
 2.  On the right-side of the page, copy the HTTPS clone URL.
 
 ![cloneurl](/images/cloneurl.png)
 
-For example, my Github repo URL is https://github.com/tomjohnson1492/eclipse-java.git.
+For example, my Github repo URL is https://github.com/tomjoht/eclipse-java.git.
 
-* `cd` to a convenient directory, such as as `users/projects`.* In the directory where you want to clone the repository, type the following, replacing `{repo_url}` with the actual URL of the Github repository (such as `https://github.com/tomjohnson1492/eclipse-java.git`).
+* `cd` to a convenient directory, such as as `users/projects`.* In the directory where you want to clone the repository, type the following, replacing `{repo_url}` with the actual URL of the Github repository (such as `https://github.com/tomjoht/eclipse-java.git`).
 
 {% highlight html %}git clone {repo_url}{% endhighlight %}
 

@@ -9,7 +9,7 @@ thumb: jekyll50thumb.png
 
 ## Where to download the theme
 
-You can download the [Documentation Theme for Jekyll](https://github.com/tomjohnson1492/documentation-theme-jekyll) and find instructions for using it [here](http://idratherbewriting.com/documentation-theme-jekyll/).
+You can download the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) and find instructions for using it [here](http://idratherbewriting.com/documentation-theme-jekyll/).
 
 <figure><a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="{{ "/images/jekylltheme50.png" | prepend: site.baseurl }}" alt="Documentation Theme for Jekyll version 5.0" /></a><figcaption>Documentation theme for Jekyll 5.0. This version allows you to associate unique sidebars for different products.</figcaption></figure>
 

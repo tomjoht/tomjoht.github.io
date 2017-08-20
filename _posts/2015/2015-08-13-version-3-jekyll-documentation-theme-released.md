@@ -12,7 +12,7 @@ thumb: jekylltheme.png
 
 ## Version 3.0 released
 
-Version 3.0 of my Documentation theme for Jekyll is now available. You can download the source code from the [theme's Github repo](https://github.com/tomjohnson1492/documentation-theme-jekyll).
+Version 3.0 of my Documentation theme for Jekyll is now available. You can download the source code from the [theme's Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
 Here's an example output: [http://idratherbewriting.com/documentation-theme-jekyll/](http://idratherbewriting.com/documentation-theme-jekyll/).
 

@@ -22,7 +22,7 @@ In another version, I made the workflow scrollable (and in one row), with a spec
 
 Here's the JS Fiddle:
 
-<script async src="http://jsfiddle.net/tomjohnson1492/gj1agw00/2/embed/"></script>
+<script async src="http://jsfiddle.net/tomjoht/gj1agw00/2/embed/"></script>
 
 The underlying code is all HTML, JS, and CSS. The idea is that you create the map in one file, and then include the file at the top of each doc page where it applies. On each page, you add a small JS script that specifies the scroll position and CSS that specifies which box is active. If you have 20 workflow squares, that's okay &mdash; the scroll position automatically moves to the workflow square in view.
 
@@ -81,7 +81,7 @@ This user map consists of `div` tags because they behave better than tables.
 
 Here's a JS Fiddle with the code:
 
-<script async src="http://jsfiddle.net/tomjohnson1492/LsrbcvLw/embed/"></script>
+<script async src="http://jsfiddle.net/tomjoht/LsrbcvLw/embed/"></script>
 
 What happens if you have more than 5 steps to follow? While you could create multiple rows, I think this would be unwise. It's probably better to link to a full view of the map. This list of five steps is a zoomed-out version of the larger map.
 

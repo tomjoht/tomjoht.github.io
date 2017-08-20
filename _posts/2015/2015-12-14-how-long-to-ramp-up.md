@@ -32,7 +32,7 @@ As for the amount of time spent in relation to creating actual content, this is 
 
 But when I started using Jekyll, there were a lot of things that weren't clearly defined, such as generating PDFs, creating a robust TOC, doing context-sensitive help, re-using content across projects, and more. I spent a lot of time just figuring out the best approaches for each of these. Now that I've settled on some best practices, though, the time is minimal.
 
-If you want to learn more about the Documentation Theme for Jekyll I created, see the [Github repo](https://github.com/tomjohnson1492/documentation-theme-jekyll) and [demo here](http://idratherbewriting.com/documentation-theme-jekyll).
+If you want to learn more about the Documentation Theme for Jekyll I created, see the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll) and [demo here](http://idratherbewriting.com/documentation-theme-jekyll).
 
 If you want to go the static site generator route, there are some other great options outside of Jekyll. Check out the following:
 

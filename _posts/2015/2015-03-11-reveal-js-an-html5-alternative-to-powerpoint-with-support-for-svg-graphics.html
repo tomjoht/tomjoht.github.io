@@ -10,7 +10,7 @@ type: post
 published: true
 ---
 <p>In trying to find a slide format that supported SVG image formats, I was exploring some PowerPoint alternatives and stumbled across <a href="http://lab.hakim.se/reveal-js/#/">Reveal JS</a>. <i>I like Reveal JS so much, I do not think I will ever use PowerPoint again.</i></p>
-<p>Here's the slide show I put together with Reveal JS: <a target="_blank" href="http://tomjohnson1492.github.io/innovation/">Innovation in Technical Communication</a>.</p>
+<p>Here's the slide show I put together with Reveal JS: <a target="_blank" href="http://tomjoht.github.io/innovation/">Innovation in Technical Communication</a>.</p>
 <p>Press <strong>F</strong> to switch to full screen mode, and then press your space bar to progress through the slides. If you want to see my speaker notes, press <strong>S</strong>.</p>
 <p>Reveal JS is a JavaScript library that renders HTML5 tags in a presentation-like way. To work with it, do the following:</p>
 <ol>
@@ -18,7 +18,7 @@ published: true
 <li>Open the index.html page in a text editor. </li>
 <li>Customize the content inside <code>section</code> elements.</li>
 </ol>
-<p>See the <a href="http://lab.hakim.se/reveal-js/#/">documentation here</a> or simply <a href="https://github.com/tomjohnson1492/innovation/">fork my slides</a> to see the code.</p>
+<p>See the <a href="http://lab.hakim.se/reveal-js/#/">documentation here</a> or simply <a href="https://github.com/tomjoht/innovation/">fork my slides</a> to see the code.</p>
 <p>Here's a quick Reveal JS tutorial:</p>
 <p><a href="http://lab.hakim.se/reveal-js/#/"><img src="/images/revealjs-550x353.png" alt="Reveal JS tutorial" width="550" height="353" class="alignnone size-medium wp-image-22622" /></a></p>
 <h2>Advantages of Reveal JS</h2>
@@ -34,7 +34,7 @@ published: true
 <li>Theme the slides with CSS styles and effects. </li>
 <li>Get syntax highlighting with code samples.</li>
 </ul>
-<p>To upload to slideshare, you can render the presentation as a PDF by adding <code>?print-pdf</code> to the end of the URL. It actually looks great. Here's the <a href="https://github.com/tomjohnson1492/innovation/blob/gh-pages/innovation.pdf?raw=true">PDF version of my slides</a>.</p>
+<p>To upload to slideshare, you can render the presentation as a PDF by adding <code>?print-pdf</code> to the end of the URL. It actually looks great. Here's the <a href="https://github.com/tomjoht/innovation/blob/gh-pages/innovation.pdf?raw=true">PDF version of my slides</a>.</p>
 <h2>Limitations of Reveal JS</h2>
 <p>Here are a couple of the limitations:</p>
 <p><strong>Callout overlays on top of images.</strong> Let's say you want to add a text box on top of an image. Well, unless you want to create a style that has an absolute position, this is going to be cumbersome. Here's a better workflow instead. If you want a text overlay, place your raster image in an Adobe Illustrator artboard and add the text callout there. Export the ai file to an SVG, and then reference the SVG file in your HTML.</p>
@@ -47,7 +47,7 @@ published: true
 <h2>SVG format</h2>
 <p>Okay, here's the big feature for me. I am a fan of Adobe Illustrator, and I've used it extensively in preparing previous presentations. For example, take a look at a <a href="http://idratherbewriting.com/2013/10/23/recording-and-slides-for-why-users-cant-find-answers-in-help-presentation-to-stc-silicon-valley/">previous slidedeck here</a>, where each slide was actually exported to PNG from an Illustrator artboard.</p>
 <p>The benefit with SVG graphics is that, in the SVG format, they remain crisp at any scale, and the format is supported by all modern browsers. This is important for slides because the slideshow mode expands the scale. Additionally, different browsers will view the same graphic at different scales and resolutions.</p>
-<p>You can test it out by going to some of the slides containing vectors in my presentation, such as <a href="http://tomjohnson1492.github.io/innovation/#/6">this one</a>. Scale the browser small and large -- the text is still just as crisp at any resolution.</p>
+<p>You can test it out by going to some of the slides containing vectors in my presentation, such as <a href="http://tomjoht.github.io/innovation/#/6">this one</a>. Scale the browser small and large -- the text is still just as crisp at any resolution.</p>
 <p>Here's how I handled the vectors with my innovation slides. I created an Illustrator file called innovation.ai. I put all my artboards in this same file. Each artboard's dimensions are about 770 x 470 (a factor of 300px taller). Each artboard has a separate name. When I'm ready to export to SVG, I select "Save As" and choose "SVG" (and I selected <code>embedded</code> rather than <code>linked</code> in the options).</p>
 <p>Each artboard gets saved as innovation_artboardname.svg, where artboardname is whatever I've called the artboard. In my Reveal JS page, I incorporate the SVG image like this:</p>
 <p>
@@ -81,8 +81,8 @@ published: true
 <p>Granted, if you don't use Illustrator and don't care about crisp vector graphics, this method probably isn't for you. But I enjoy the freedom and flexibility of Illustrator for graphics much more than PowerPoint.</p>
 <h2>Publishing</h2>
 <p>Since the Reveal JS slide is just HTML and other code, you can upload it to Github. I created a <a href="https://pages.github.com/">Github Pages</a> branch for a Github repository and published my slides there. Github Pages lets you use your Github repository as a web host.</p>
-<p>Here's my innovation Github repo: <a href="https://github.com/tomjohnson1492/innovation/">https://github.com/tomjohnson1492/innovation/</a></p>
-<p>Here's the Github Pages rendering of the repo: <a href="http://tomjohnson1492.github.io/innovation/">http://tomjohnson1492.github.io/innovation/</a></p>
+<p>Here's my innovation Github repo: <a href="https://github.com/tomjoht/innovation/">https://github.com/tomjoht/innovation/</a></p>
+<p>Here's the Github Pages rendering of the repo: <a href="http://tomjoht.github.io/innovation/">http://tomjoht.github.io/innovation/</a></p>
 <p>When I want to update and publish the slides, I just push the update to my repo using the following sequence in the command line:</p>
 <p>
 {% highlight bash %}

@@ -2,7 +2,7 @@ name: "I'd Rather Be Writing"
 description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
 host: 127.0.0.1
 port: 4030
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: tomjoht@gmail.com
 sidebar_accordion: true
 
 encoding: ISO-8859-1

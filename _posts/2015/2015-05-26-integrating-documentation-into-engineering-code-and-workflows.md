@@ -52,7 +52,7 @@ Much of the content is also single sourced from one version to another.
 
 ## Publishing scenarios are more complex
 
-Additionally, my [doc theme](http://tomjohnson1492.github.io/documentation-theme-jekyll/) is somewhat sophisticated (because I've rigged the theme to do single sourcing). A developer could contribute pages, and I could add them to a project. But asking the developer to do any of the following might be problematic:
+Additionally, my [doc theme](http://tomjoht.github.io/documentation-theme-jekyll/) is somewhat sophisticated (because I've rigged the theme to do single sourcing). A developer could contribute pages, and I could add them to a project. But asking the developer to do any of the following might be problematic:
 
 - add the topic to a sidebar navigation
 - add an include from another file

@@ -30,9 +30,9 @@ create a new github repo. you want to create a User Page style repo, not a proje
 
 create it in the master branch.
 
-name it after your github account name, so if your github name was tomjohnson1492, then you name this github repo tomjohnson1492.github.io
+name it after your github account name, so if your github name was tomjoht, then you name this github repo tomjoht.github.io
 
-put an index file there with some content, and go to tomjohnson1492.github.io to confirm that it's working.
+put an index file there with some content, and go to tomjoht.github.io to confirm that it's working.
 
 now add your jekyll site. 
 
@@ -42,4 +42,4 @@ add a CNAME with your domain
 
 in your _config.yml file, put for your URL this:
 
-tomjohnson1492.github.io
+tomjoht.github.io

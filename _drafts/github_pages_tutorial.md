@@ -60,13 +60,13 @@ If you're on a Windows machine and you don't have Jekyll installed, you can also
 
 <img src="{{ "/images/publishingapidocs/cloneurl.png" | prepend: site.baseurl }}" alt="clone URL" />
 
-12. Open a terminal, browse to a convenient location, and type `git clone https://github.com/tomjohnson1492/aviatortheme.git`, replacing the `https://github.com/tomjohnson1492/aviatortheme.git` with your repository's https clone URL that you copied.
+12. Open a terminal, browse to a convenient location, and type `git clone https://github.com/tomjoht/aviatortheme.git`, replacing the `https://github.com/tomjoht/aviatortheme.git` with your repository's https clone URL that you copied.
 
 13. Move the jekyll theme files into this new folder that you just created during the previous step.
 14. Open the _config.yml file and add the following:
 
 ```
-url: tomjohnson1492.github.io
+url: tomjoht.github.io
 baseurl: /avaiatortheme
 ```
 
@@ -84,5 +84,5 @@ Change the url to your github account name, and the baseurl to your repo name.
 
 Github Pages will now automatically build your site. Wait a minute or two, and then visit 
 
-tomjohnson1492.github.io/aviatortheme
+tomjoht.github.io/aviatortheme
 

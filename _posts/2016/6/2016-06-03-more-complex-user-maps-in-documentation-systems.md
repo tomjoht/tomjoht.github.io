@@ -36,7 +36,7 @@ This example users [modals from Bootstrap](http://getbootstrap.com/javascript/#m
 
 Here's a JS Fiddle for this code:
 
-<script async src="http://jsfiddle.net/tomjohnson1492/nuvcqbu5/embed/"></script>
+<script async src="http://jsfiddle.net/tomjoht/nuvcqbu5/embed/"></script>
 
 Ultimately this is still a linear workflow, but I've extracted out the steps into larger groups. Each group can have a combination of required and optional steps, along with other informational topics. This kind of map is probably more realistic, though it's not as straightforward as the simple linear workflow.
 

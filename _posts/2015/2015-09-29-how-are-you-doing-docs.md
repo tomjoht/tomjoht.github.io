@@ -10,7 +10,7 @@ A reader asks,
 
 >How are you publishing and delivering your documentation these days?
 
-As far as publishing, I'm using [Jekyll](http://jekyllrb.com) with [this doc theme](http://idratherbewriting.com/documentation-theme-jekyll/) I created. (You can see the [Github source here](https://github.com/tomjohnson1492/documentation-theme-jekyll).)
+As far as publishing, I'm using [Jekyll](http://jekyllrb.com) with [this doc theme](http://idratherbewriting.com/documentation-theme-jekyll/) I created. (You can see the [Github source here](https://github.com/tomjoht/documentation-theme-jekyll).)
 
 To deliver the content, I have several channels. For internal audiences, I upload the HTML output onto an internal server using FTP. For external audiences, I upload the HTML output into a [site.com repository on Salesforce](https://help.salesforce.com/HTViewHelpDoc?id=siteforce_overview.htm). This is because the content must be authenticated for access, and our users already access Salesforce to submit tickets and get files, so adding documentation there seemed natural.
 
