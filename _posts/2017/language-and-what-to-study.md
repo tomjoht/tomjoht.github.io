@@ -36,3 +36,45 @@ hypercorrection
 what are the "rules" of writing? these rules are a collective notion.
 the smug feeling of knowing someone is using it wrong
 grammar superiority.
+people who have very little going on in their lives tend to blow small things out of proportion.
+
+comprise = contain/include
+
+The key rule to remember is that the whole comprises the elements or parts, and the elements or parts compose the whole
+
+
+Because sloppy language leads to sloppy thinking, and bad usage creeps from blogs and advertising to print to work settings.
+
+a word used incorrectly should be allowed to contain its new definition when used incorrectly enough. This one is pretty funny, though.
+
+relation to compromise? how about promise? com - promise?
+
+compromised
+comprise and compose -- both don't seem to mean anything. com = together + pose or prise?
+
+http://blog.dictionary.com/comprise-vs-compose/
+
+not wure when it's ever a good idea to use comprise instead of contain. the us. comprises 50 states. when does it just sound awesome? there are plenty of clearer words so people only choose this one when they are trying to sound fancy.
+
+
+1. when is snobbery about language acceptable?
+2.
+
+tech writers seem to have dumbed down their vocabulary. i read my wife's papers, and a great many words she uses are words i could never use in a paper. and philosophically, i don't really feel the need to use them. what is the point of using a more sophisticated word when you can substitute it for a simpler one? we have so many words in our language....
+
+but doesn't language couple with thought, so if we adopt simplified tech english, are we simplifying our thoughts as well? is this why tech writers lead such boring lives?
+
+language is a social status, and when we speak more formally, are we trying to crawl up that social scale?
+language is how we show our education? it also affects our level of sophistication. if you can use 23 different words for snow, it shows that you have a lot of education on this topic.
+
+is it alarming that tech writers have more or less simplified their vocabulary to the point that they use simplistic writing almost always? not just words, but simpler constructions? reading an academic paper is an experience in recognizing how far we've come.
+
+is there ever a time when you should use comprise instead of contains or includes?
+
+Your vocabulary demonstrates your expertise.
+
+the problem with tech is that we do have sophisticated language,but it's jargon around a domain. i was explaining that the \_docs folder is a colleciton.
+
+the email from a disgruntled person about the lack of defined terms like like REST API. this actually gets back to the heart of tech comm and the challenges. we want to use simple language, but you really can't.
+
+maybe you could go through your entire REST API doc site and implement popovers for all of the vocab. this could be a great exercise in how to break down these language barriers.
