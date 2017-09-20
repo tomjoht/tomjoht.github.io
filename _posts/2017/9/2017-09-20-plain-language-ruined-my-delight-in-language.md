@@ -1,14 +1,23 @@
 ---
-title: "Trading eloquence for simplicity: The language we gained/lost working in tech comm"
+title: "Has plain language deepened or ruined our delight in language?"
 categories:
 - general
+- writing
+- podcasts
+- stitcher
 keywords:
 summary: "Although technical writers champion plain language, embracing plain language for many years can cripple your ability to use more eloquent language, like that of a literary author or essayist. There isn't much room for literary play or playful tones in technical documentation. Following the rules of simple language has distorted my ability to read anything that blatantly violates those rules without questioning the author's word choice and sentence construction. Sometimes I feel that simple language has removed my ability to delight more in language and to express myself in more articulate, interesting ways."
-bitlink: http://bit.ly/
-published: false
+bitlink: http://bit.ly/plainlanguageanddelight
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/plainlanguageanddelight.mp3
+podcast_file_size: 14.3 MB
+podcast_duration: "18:07"
+podcast_length: 4347754
 ---
 
-My wife is in a masters of liberal arts programs at Stanford. When she writes an essay, she asks me to read it and provide feedback. Every time I review an academic essay, it reminds me of the stark differences in language. In tech comm, most of the more interesting, flavorful words she uses in her essay are off-limits for technical documentation.
+{% include audio.html %}:
+
+My wife is in a master of liberal arts program at Stanford. When she writes an essay, she asks me to read it and provide feedback. Every time I review an academic essay, it reminds me of the stark differences in language. In tech comm, most of the more interesting, flavorful words she uses in her essay are off-limits for technical documentation.
 
 For example, here's a smattering of words and phrases she used in her last essay:
 
@@ -48,13 +57,12 @@ For example, here's a smattering of words and phrases she used in her last essay
 
 *None* of those words would be welcome in technical documentation. Instead, best practices for language in technical documentation are to use simple, unambiguous words that have one easy-to-understand meaning. You also use short sentences, small paragraphs, and frequent subheadings.
 
-Despite our attempt at simplicity, our technical documentation struggles with its own jargon. In a topic I was working on last week, the following words might be just as challenging as the previous academic ones:
+Despite the technical writer's attempt at simplicity, technical documentation struggles with its own jargon. In a topic I was working on last week, the following words might be just as challenging as the previous academic ones:
 
 * Android Nougat
 * Fire TV Generation 2
 * Android 7.1.2, level 25
 * Fire TV Edition
-* Fire TV Stick Gen 1 and 2
 * backported Marshmallow
 * Lollipop, or Android 5.1, level 21
 * uplevel
@@ -91,11 +99,11 @@ This is especially the case when reading academic essays. I have to constantly r
 
 ## Comprise
 
-As an example of plain versus complex language, let's look at a specific use word: **comprise**. From a plain language advocate's point of view, is there ever a time you should use **comprise**? Probably not.
+As an example of plain language versus complex language, let's look at a specific word: **comprise**. From a plain language advocate's point of view, is there ever a time you should use **comprise**? Probably not.
 
 In Wikipedia's article on [New England](https://en.wikipedia.org/wiki/New_England), the entry begins:
 
-> New England is a geographical region comprising six states of the northeastern United States: Maine, Vermont, New Hampshire, Massachusetts, Rhode Island, and Connecticut.
+> New England is a geographical region **comprising** six states of the northeastern United States: Maine, Vermont, New Hampshire, Massachusetts, Rhode Island, and Connecticut.
 
 In technical documentation, a guide might use similar language:
 
@@ -128,9 +136,9 @@ At any rate, tech comm's focus on precision and clarity means the word "comprise
 
 ## Language as a tool of expression
 
-For the literary essayist or novelist, language is a tool for expression. The more words you know, the more precise you can be in finding the exact word or phrase to describe something. When my wife writes her essays, maybe there's no better phrase to capture her meaning than "erstwhile acolyte." In my head, I ask, would "former follower" or "previous disciple" not have worked equally well? Is it always necessary to send readers to the dictionary? Then again, perhaps there's a play on words she's going for (partial alliteration), or maybe she's mimicking the diction of the early 20th-century author (her essay focuses on Virginia Wolf), or she might be mocking someone by using a pseudo-formal phrase.
+For the literary essayist or novelist, language is a tool for expression. The more words you know, the more precise you can be in finding the exact word or phrase to describe something. When my wife writes her essays, maybe there's no better phrase to capture her meaning than "erstwhile acolyte." But in my head, I ask, would "former follower" or "previous disciple" not have worked equally well? Is it always necessary to send readers to the dictionary? Then again, perhaps there's a play on words she's going for (partial alliteration), or maybe she's mimicking the diction of the early 20th-century author (her essay focuses on Virginia Wolf), or she might be mocking someone by using a pseudo-formal phrase.
 
-I'm 42 years old, and I don't think I've ever used the word "erstwhile" in either speech or writing, let alone "erstwhile acolyte.. Why would someone decide to suddenly use this phrase instead of something simpler?
+I'm 42 years old, and I don't think I've ever used the word "erstwhile" in either speech or writing, let alone "erstwhile acolyte. Why would someone decide to suddenly use this phrase instead of something simpler?
 
 The [Simplified Technical English (STE) dictionary](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) limits the number of words you can use to around 900. Any word that has multiple meanings is usually restricted, or if used, can only be used in its most conventional way. Would literature be better off following the guidelines of Simplified Technical English? Is it time to move "erstwhile" to the growing list of extinct words?
 
@@ -138,25 +146,25 @@ No, of course we can't force literature to follow simplified English without gut
 
 Ultimately, our thoughts are made up of words. The more words we have, the more tools we have for both constructing and expressing our thoughts. Many words often express little ideas in themselves, sometimes revealing a whole philosophy in a single word.
 
-Using phrases like "blessed cessation of incessant demand," as my wife writes, is not always antithetical to communication. It's surely possible to be both sophisticated and clear.
+Using phrases like "blessed cessation of incessant demand," as my wife writes, is not always antithetical to communication. It's surely possible to be both sophisticated, playful, and clear. And yet, my delight in this language has been irreparably damaged.
 
-## Programming rhetorical play in language
+## Rhetorical play in programming language
 
-Although documentation usually doesn't have sophisticated or playful language, there is sometimes a playful *tone* in docs. Android candy release names (such as Kit Kat, Lollipop, Marshmallow, Nougat, Oreo, etc.) inject a little fun into programming. But sometimes programming docs also sneak in little irreverent remarks, or slide into a playful and quirky tones, often in snarky code comments, as bleary-eyed programmers type struggle against a baffling or insanely intricate piece of code. You also see these tones commonly in third-party guide books where authors have latitude to cut loose and be more authentic.
+Although documentation usually doesn't have sophisticated or playful language, there is sometimes a playful *tone* in docs. Android candy release names (such as Kit Kat, Lollipop, Marshmallow, Nougat, Oreo, etc.) inject a little fun into programming. But sometimes programming docs also sneak in little irreverent remarks, or slide into a playful and quirky tones, often in snarky code comments, as bleary-eyed programmers struggle against a baffling or insanely intricate piece of code. You also see these tones commonly in third-party guide books where authors have latitude to cut loose and be more authentic.
 
-I once read a programming book on Java where the author explained the reason for this [playful, irreverent tone](http://idratherbewriting.com/2014/01/11/tips-for-writing-code-comments-in-developer-documentation/). The author explains that programming tends to be dry and boring (it is, after all, describing interactions with a non-human device). As such, by adding a little quirky, irreverent tangent every now and then, you wake up the reader and remind each other that you're both human. Tim Wright explains:
+I once read a programming book on Java where the author explained the reason for this [playful, irreverent tone](http://idratherbewriting.com/2014/01/11/tips-for-writing-code-comments-in-developer-documentation/). The author explains that programming tends to be dry and boring (programming is, after all, describing interactions with a non-human device). As such, by adding a little quirky, irreverent tangent every now and then, you wake up the reader and remind each other that you're both human. Tim Wright explains:
 
 > Coding can always be a little more stressful than we would like, so don't be afraid to inject some humor into your comments. As far as brightening up someone's day when they're eyeballs deep in code, it doesn't get much better than reading a funny comment someone left. I've even caught myself laughing at comments I've written in the past. It's always a nice surprise and lightens the mood. (Chapter 9: Code Design) See [Learning JavaScript: A Hands-on Guide to the Fundamentals of Modern JavaScript](http://www.amazon.com/Learning-JavaScript-Hands-On-Fundamentals-Modern/dp/0321832744)
 
-This non-standard tone is rarely allowed from company style guides, since companies often have many technical writers and so need to adopt a consistent and general voice (which they usually describe as friendly and helpful, but which is usually just professional and boring).
+This non-standard tone is rarely allowed in company style guides, since companies often have many technical writers and so need to adopt a consistent and general voice (which they usually describe as friendly and helpful, but which is usually just professional and boring).
 
-Unless you're writing tech docs in a third-party guidebook, you're probably stuck with a standard, professional tone coupled with a form of Simplified Technical English. You can't break the professional tone nor delight in any kind of word play. In fact, eloquence and diction are usually far from my mind when I'm working on tech docs, as I'm just trying to understand what I'm even writing. As I said early, tech comm (particularly developer doc) has enough issues in simplifying its own technical jargon, so making everything else as simple as possible is a must.
+Unless you're writing tech docs in a third-party guidebook, you're probably stuck with a standard, professional tone coupled with a form of Simplified Technical English. You can't break the professional tone nor delight in any kind of word play. In fact, eloquence and diction are usually far from my mind when I'm working on tech docs, as I'm just trying to understand what I'm even writing. As I said early, tech comm (particularly developer documentation) has enough issues in simplifying its own technical jargon, so making everything else as simple as possible is a must.
 
 ## Questions and dilemmas
 
-Where is the issue, then? Many of us studied literature for years in college, or we wrote (or aspire to) write creatively. The idea of combining language with technology for a career in technical writing appealed to our literary side. We had the idea that we could use our command of the English language to shape sentences, articulate complex ideas, and play with words all day like a child playing in a fountain at the park. Has operating in simplified vocabulary for years on end made us essentially sub-lingual and hostile to literary or academic discourses? On a deeper level, does our limited language (900 allowed vocabulary words) trap us with simple thoughts?
+Where is the issue, then? Many of us studied literature for years in college, or we wrote (or aspire to) write creatively. The idea of combining language with technology for a career in technical writing appealed to our literary side. We had the idea that we could use our command of the English language to shape sentences, articulate complex ideas, and play with words all day like a child playing in a fountain at the park. Has operating in simplified vocabulary for years on end made us essentially sub-lingual and hostile to literary or academic discourses? On a deeper level, does our limited language (900 allowed vocabulary words) trap us in simple thoughts?
 
-Or instead, perhaps I've been looking at this all wrong, perhaps we technical writers have been cured of an illness that infects so many others with poor communication? While academics write in 20-line sentences and employ polysyllabic words that 90% of the population has never used, maybe technical writers have become the St. Francis of language. We have thrown our ornate gowns down to the streets, sold our excess belongings, given our money to the poor, and simplified our lives with singleness of purpose so that we can be free.
+Or instead, perhaps I've been looking at this all wrong, perhaps we technical writers have been cured of an illness that infects so many others with poor communication? While academics write in 20-line sentences and employ polysyllabic words that 90% of the population has never used, maybe technical writers have become the St. Francis of language. We have thrown our ornate gowns down to the streets, sold our excess belongings, given our money to the poor, and simplified our linguistic lives with singleness of purpose so that we can be free.
 
 By stripping away fuzzy, ornate speech, we focus on precision in meaning. We convey ideas to readers in shorter, more compressed speech, increasing the efficiency of the exchange between the writer and reader.
 

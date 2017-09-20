@@ -19,7 +19,7 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-redirect-from
