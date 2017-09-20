@@ -15,7 +15,7 @@ podcast_duration: "18:07"
 podcast_length: 4347754
 ---
 
-{% include audio.html %}:
+{% include audio.html %}
 
 My wife is in a master of liberal arts program at Stanford. When she writes an essay, she asks me to read it and provide feedback. Every time I review an academic essay, it reminds me of the stark differences in language. In tech comm, most of the more interesting, flavorful words she uses in her essay are off-limits for technical documentation.
 
