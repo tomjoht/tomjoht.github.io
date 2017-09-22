@@ -112,13 +112,13 @@ published: true
 <h2>Converting HTML back to Markdown</h2>
 <p>What happens when you need to revise an article you've already published? Assuming the article is now in HTML, how do you convert it back to Markdown? There are a lot of techniques you could use. If you don't have tables, then just go to the same stackedit site, click the # button in the upper-left corner, click <b>Open from</b>, select <b>Markdown</b>, and then paste your HTML in the dialog box. The HTML will be converted to classic Markdown. </p>
 <p>If you have tables (which aren't supported in classic Markdown), you can use Pandoc, a document conversion utility tool, to convert them. First you'll need to <a href="http://johnmacfarlane.net/pandoc/installing.html">install Pandoc</a>. Save your HTML to a file. Open your Terminal window and navigate to the folder containing the HTML file you want to convert. After navigating to the right folder, enter a command such as this:<br />
-[powershell]<br />
+{% highlight bash %}
 pandoc startfile.html -f html -t markdown-simple_tables-multiline_tables<br />
 -s -o output.html --no-wrap<br />
-[/powershell]<br />
+{% endhighlight %}
 Where startfile.html is the HTML file you want to convert, and output.html is the result you want Pandoc to produce. The -f html -t markdown specifies that you want to convert from HTML to Markdown, and the -simple_tables-multiline_tables indicates that you want to convert the table format to multiline tables. </p>
-<p>Note that if your tables have block level formatting in them, such as a <p> tag, the tables will be converted to a grid table rather than a multiline table. Unfortunately stackedit won't process grid tables. </p>
+<p>Note that if your tables have block level formatting in them, such as a <code><p></code> tag, the tables will be converted to a grid table rather than a multiline table. Unfortunately stackedit won't process grid tables. </p>
 <h2 id="conclusion">Conclusion</h2>
 <p>I frequently receive questions from people outside of tech comm on how to publish help material. They often have simple needs and get hung up in trying to navigate the world of tech comm tools and processes. If at the end of the day you just need a help website, the method I described here can provide the means. At the very least, this method can be an interim solution for a more robust process to be worked out later.</p>
 
-{{site.data.alerts.tip}}Check out the <a href="http://idratherbewriting.com/2017/09/22/generate-markdown-from-google-docs/">gd2md-html add-on for Google Docs</a>. This add-on will convert your Google Docs content into either Markdown or HTML.{{site.data.alerts.end}}
+{{site.data.alerts.tip}}Check out the <a href="http://idratherbewriting.com/2017/09/22/convert-google-docs-to-markdown/">gd2md-html add-on for Google Docs</a>. This add-on will convert your Google Docs content into either Markdown or HTML.{{site.data.alerts.end}}
