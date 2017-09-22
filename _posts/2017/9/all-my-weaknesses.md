@@ -8,6 +8,7 @@ bitlink: http://bit.ly/
 published: false
 ---
 
+some more notes. 
 relevance: started this as a part of a review process. thought it would be good to reflect and think through some of these things.
 
 - do it all myself.
