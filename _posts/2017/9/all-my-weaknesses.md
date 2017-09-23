@@ -8,10 +8,10 @@ bitlink: http://bit.ly/
 published: false
 ---
 
-some more notes. 
+some more notes.
 relevance: started this as a part of a review process. thought it would be good to reflect and think through some of these things.
 
-- do it all myself.
+- ***do it all myself.***
 - let people get under my skin.
 - focus too much on tools.
 - let trivial things take priority.
@@ -31,6 +31,8 @@ relevance: started this as a part of a review process. thought it would be good 
 - never eat lunch with my colleagues
 - quick to judge others
 - last two jobs i was there 1.5 yrs only
+- constantly make goals that i can't keep
+- constantly change my goals
 -
 
 is it good to even do this?
