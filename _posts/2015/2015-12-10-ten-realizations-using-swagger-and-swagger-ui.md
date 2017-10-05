@@ -6,6 +6,8 @@ keywords: swagger, swagger ui, swagger editor, configuration, specification, api
 summary: "As I've been configuring the Swagger spec file and UI for one of the APIs I document, I had a few realizations that I wanted to share. Some realizations involve understanding the Model versus Model Schema part of the Swagger UI, the syntax of using JSON references within the spec, how validation works, and more."
 ---
 
+{{site.data.alerts.note}}The [new version of Swagger UI](https://github.com/swagger-api/swagger-ui) fixes many of the issues I noted here. For more up-to-date info on Swagger, see the [Swagger introduction](http://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) and [Swagger tutorial](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html) that I have created in my [API documentation course](http://idratherbewriting.com/learnapidoc/index.html). {{site.data.alerts.end}}
+
 ## Using Swagger
 Although I created a [Swagger tutorial for my REST API course](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html), the Swagger spec I created was for a simple API that just had a few basic endpoints with several query parameters.
 
@@ -19,11 +21,13 @@ First, some terms. The Swagger spec file describes your API following the [offic
 
 The [Swagger UI](https://github.com/swagger-api/swagger-ui) reads the Swagger spec file and displays it in the visual format that you see with examples such as the [Swagger Petstore](http://petstore.swagger.io/).
 
-(Note that because my Swagger file is behind the firewall, I can't link to it here. But I'll use Petstore or generic examples that clarify my points.)
+(Note that because my Swagger spec file is behind the firewall, I can't link to it here. But I'll use Petstore or generic examples that clarify my points.)
 
 ## 1. There's a Model Schema and Model view
 
 The Swagger UI lets you toggle between a "Model Schema" and a "Model" view for both responses and request body parameters.
+
+**Update: In the new version of the Swagger UI, these options are called "Example Value" and "Model," which makes more sense.**
 
 The Model Schema shows a sample of the syntax along with examples. When you click the Model Schema (yellow box) in the [/Pet (POST) endpoint](http://petstore.swagger.io/#!/pet/addPet), Swagger inserts the content in the `body` parameter box. Here's the Pet POST endpoint Model Schema:
 
@@ -79,6 +83,8 @@ The Petstore spec doesn't actually include many parameter descriptions in the Mo
 In this view, when there's a nested object, like `category`, it has a reference to another part of the model. You have to look at "Category" for details about category and look at "Tag" for details about tags.
 
 <img src="{{ "/images/swagger-model.png" | prepend: site.baseurl }}" alt="Model versus Model Schema" />
+
+**Update: The new version of the Swagger UI displays the model as expandable/collapsible sections, which fixes the usability issues described here.**
 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other.
 
@@ -228,11 +234,11 @@ When I realized this, I did a few mental backflips for joy. Being able to expose
 
 ## 7. Interoperability between specs may not be so clear cut
 
-I know that sites like [API transformer](https://apitransformer.com/) allow you to convert from one spec to another. I converted my Swagger spec to RAML so I could see how it looked in the RAML API Console, but the generated RAML wasn't valid. The Transformer interpreted all of my `descriptions` as separate properties in the JSON objects.
+I know that sites like [API transformer](https://apitransformer.com/) allow you to convert from one spec to another. I converted my Swagger spec file to RAML so I could see how it looked in the RAML API Console, but the generated RAML wasn't valid. The Transformer interpreted all of my `descriptions` as separate properties in the JSON objects.
 
 This experience made me wonder if it's really so easy to move from one spec to another in a kind of a = b = c logic.
 
-It could be that my Swagger spec isn't actually valid. Although it validates in the Swagger editor and gets a green light with the [Swagger Validator Badge](https://github.com/swagger-api/validator-badge), sites like [Restlet Studio](https://studio.restlet.com/#/) or [API Spark](https://apispark.restlet.com/dashboard) tell me the Swagger file is invalid.
+It could be that my Swagger spec file isn't actually valid. Although it validates in the Swagger editor and gets a green light with the [Swagger Validator Badge](https://github.com/swagger-api/validator-badge), sites like [Restlet Studio](https://studio.restlet.com/#/) or [API Spark](https://apispark.restlet.com/dashboard) tell me the Swagger file is invalid.
 
 Perhaps "valid" is be a relative term (despite the standards-based specification) and depends on platform nuances? I need to explore ways to see what is being flagged as invalid by Restlet / API Spark.
 
