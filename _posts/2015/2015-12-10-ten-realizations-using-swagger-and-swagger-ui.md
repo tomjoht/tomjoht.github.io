@@ -59,22 +59,22 @@ Now click **Model** (the grayed out text) and look at the view.
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
-```
+```json
 Pet {
-id (integer, optional),
-category (Category, optional),
-name (string),
-photoUrls (Array[string]),
-tags (Array[Tag], optional),
-status (string, optional): pet status in the store = ['available', 'pending', 'sold']
+  id (integer, optional),
+  category (Category, optional),
+  name (string),
+  photoUrls (Array[string]),
+  tags (Array[Tag], optional),
+  status (string, optional): pet status in the store = ['available', 'pending', 'sold']
 }
 Category {
-id (integer, optional),
-name (string, optional)
+  id (integer, optional),
+  name (string, optional)
 }
 Tag {
-id (integer, optional),
-name (string, optional)
+  id (integer, optional),
+  name (string, optional)
 }
 ```
 
@@ -97,13 +97,11 @@ Modeling a response or request syntax that has nested objects and nested arrays 
 Suppose you want to model something like this:
 
 ```json
-
 {
   "myInput": {
     "identifier code": "string"
   }
 }
-
 ```
 
 The `body` object (unnamed) contains an object called `myInput`, which just contains one key-value pair.
