@@ -1,5 +1,5 @@
 ---
-title: "New OpenAPI 3.0 specification tutorial"
+title: "New OpenAPI 3.0 specification tutorial in my API Course"
 categories:
 - api-doc
 keywords:
