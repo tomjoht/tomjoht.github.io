@@ -66,7 +66,7 @@
          }
          .slides img {
          max-width: 81%;
-       
+
          border:3px solid red;
          }
          #upcoming-slide .label {
@@ -109,7 +109,7 @@
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
 margin:0px;
 }
-  
+
 
       </style>
       <!-- Note: Make artboard sizes about 775px wide X 445px tall. -->
@@ -120,13 +120,13 @@ margin:0px;
          <div class="slides">
             <section>
                <h2>Best practices for Documenting REST APIs</h2>
-        
+
                <p>
                   <small>By Tom Johnson, <a href="http://idratherbewriting.com">idratherbewriting.com</a></small>
                </p>
                <img src="media/vectors/restapi_apidoc.svg" style="max-width:70%; background-color: f0f0f0"/>
             </section>
-           
+
             <section>
                <h2>API doc course</h2>
 
@@ -148,7 +148,7 @@ margin:0px;
             </section>
             <!-- <section data-background="#dfd3a2"> -->
             <section>
-          
+
                <h2>I. The market for REST API doc</h2>
                <section>
                   <h3>API doc is the product interface</h3>
@@ -189,11 +189,11 @@ margin:0px;
                   <img src="media/vectors/restapi_www.svg"/>
                </section>
             </section>
-       
+
                <section>
                   <h2>III. A developer scenario with APIs</h2>
-                  <a href="http://idratherbewriting.com/docapis_scenario_for_using_weather_api/"><img src="media/vectors/restapi_windycall.svg" style="max-height: 500px;"/></a>
-              
+                  <a href="http://idratherbewriting.com/learnapidoc/docapis_scenario_for_using_weather_api.html"><img src="media/vectors/restapi_windycall.svg" style="max-height: 500px;"/></a>
+
                </section>
 
                 <section>
@@ -202,23 +202,23 @@ margin:0px;
                </section>
                              <section>
                <h2>Get authorization keys</h2>
-                  <a href="http://www.aerisweather.com/account/apps"><img src="media/rasters/aerisapikeys.png"/></a>               
+                  <a href="http://www.aerisweather.com/account/apps"><img src="media/rasters/aerisapikeys.png"/></a>
             </section>
 
             <section>
                <h2>Submit requests with cURL</h2>
                <section><h3>Request</h3>
-               <img src="media/rasters/aeriscurl.png" />   
+               <img src="media/rasters/aeriscurl.png" />
              </section>
 
              <section><h3>Response</h3>
-               <img src="media/rasters/aeriscurlresponse.png" />   
+               <img src="media/rasters/aeriscurlresponse.png" />
              </section>
 
             </section>
 
                <section>
-               <h2>Submit requests with Postman</h2>         
+               <h2>Submit requests with Postman</h2>
                   <img src="media/rasters/aerispostman.png"/>
             </section>
 
@@ -232,12 +232,12 @@ margin:0px;
                   <img src="media/rasters/aerispostmancodesamples.png" />
                 </section>
 
-                
+
                </section>
-       
+
             <section>
                <h2>Analyze the JSON response</h2>
-           
+
                   <pre><code data-trim contenteditable>
 {
   "success": true,
@@ -332,13 +332,13 @@ margin:0px;
  </code></pre>
                </section>
 
-               
+
                <section>
                   <h2>Sample API integration</h2>
 
                       <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
-   
+
     <style>
         #wind_direction, #wind_chill, #wind_speed, #temperature, #speed {color: red; font-weight: bold;}
         body {margin:20px;}
@@ -371,17 +371,17 @@ margin:0px;
 <p style="text-align: left"><b>Wind chill: </b><span id="wind_chill"></span> <span id="temperature"></span><br>
 <b>Wind speed: </b><span id="wind_speed"></span> <span id="speed"></span><br>
 <b>Wind direction: </b><span id="wind_direction"></span>
-                  
+
                      <p style="font-size: small; text-align: left"><a href="http://idratherbewriting.com/files/restapicourse/wind-aeris.html">link</a></p>
-                
+
 
                </section>
 
-            
+
            <section>
                <h2>IV. API Reference topic elements</h2>
-              
-               
+
+
                   <ol>
                      <li>Resource description</li>
                      <li>Endpoint</li>
@@ -391,7 +391,7 @@ margin:0px;
                      <li>Request response example</li>
                      <li>Code samples</li>
                   </ol>
-               
+
             </section>
             <section>
                <h2>1. Resource description</h2>
@@ -408,7 +408,7 @@ margin:0px;
                      <li>Requests</li>
                   </ul>
                </section>
-               
+
                <section>
                   <h3>A single resource can have multiple endpoints</h3>
                   <pre><code data-trim contenteditable>
@@ -437,12 +437,12 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 // gets the rewards available for a specific mission
   </code></pre>
                </section>
-               
+
             </section>
             </section>
             <section>
                <h2>2. Endpoint definition</h2>
-         
+
                   <h3>Terminology for "endpoint" varies</h3>
                   <ul>
                      <li>Requests</li>
@@ -453,12 +453,12 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                      <li>URL syntax</li>
                   </ul>
 
-               
+
             </section>
                <section>
                   <h2>3. Method</h2>
-    
-   
+
+
                   <ul>
                      <li>POST</li>
                      <li>PUT</li>
@@ -466,8 +466,8 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                      <li>DELETE</li>
                      <li>PATCH</li>
                   </ul>
-            
-               
+
+
             </section>
             <section>
                <h2>4. Parameters</h2>
@@ -522,7 +522,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 }
   </code></pre></section>
 
-  
+
             </section>
             <section>
                <h2>5. Sample request</h2>
@@ -534,7 +534,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                <a href="https://developer.foursquare.com/docs/explore"><img src="media/rasters/foursquareapiexplorer.png"></a>
              </section>
 
-           
+
 
 
             </section>
@@ -552,7 +552,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                  <a href="https://stripe.com/docs/api#charge_object"><img src="media/rasters/stripetripanedesign.png"/></a>
                </section>
 
-            
+
 
             </section>
 
@@ -562,15 +562,15 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                  <p>See also <a href="https://www.twilio.com/docs/api/rest/making-calls">Twilio</a></p>
                </section>
 
-            
+
 
             <section>
                <h2>Putting it all together</h2>
-               <a href="http://idratherbewriting.com/docapis_finished_doc_result/"><img src="media/rasters/puttingitalltogether.png" /></a>
+               <a href="http://idratherbewriting.com/learnapidoc/docapis_finished_doc_result.html"><img src="media/rasters/puttingitalltogether.png" /></a>
             </section>
 <section>
                <h2>V. Other sections in API doc</h2>
-               
+
              <ol>
                <li>Overview</li>
                <li>Getting started</li>
@@ -645,10 +645,10 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                <a href="http://api.eventful.com/docs"><img src="media/rasters/eventfulquickreference.png"/></a>
                <p>See also the <a href="http://cheat.markdunkley.com/">Shopify cheat sheet</a>.</p>
             </section>
-    
+
             </section>
-            
-            <section> 
+
+            <section>
 
    <h2>VI. Tool decisions</h2>
 
@@ -663,8 +663,8 @@ api_site.com/{apikey}/missions/{missionid}/rewards
    <iframe width="640" height="360" src="https://www.youtube.com/embed/EnB8GtPuauw" frameborder="0" allowfullscreen></iframe>
    </section>
 
-             <section> 
-   
+             <section>
+
             <h2>Why devs don't use HATs</h2>
             <ol>
                <li>No integration into version control</li>
@@ -712,9 +712,9 @@ api_site.com/{apikey}/missions/{missionid}/rewards
 
 
 
- <section> 
+ <section>
       <h2>VII. Design patterns</h2>
-     
+
 
          <ul>
             <li>Structure and templates</li>
@@ -722,7 +722,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
             <li>Abundant code samples</li>
             <li>Long-ish pages</li>
             <li>API Interactivity</li>
- 
+
          </ul>
    </section>
 
@@ -763,7 +763,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
       </ul>
    </section>
 
-   
+
 
 
          <section>
@@ -781,7 +781,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
                   </div>
                </div>
             </section>
-    
+
          </div>
       </div>
       <script src="lib/js/head.min.js"></script>
@@ -794,11 +794,11 @@ api_site.com/{apikey}/missions/{missionid}/rewards
           progress: true,
           history: true,
           center: false,
-          slideNumber: true, 
-         
-         
+          slideNumber: true,
+
+
           transition: 'slide', // none/fade/slide/convex/concave/zoom
-         
+
           // Optional reveal.js plugins
           dependencies: [
             { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -809,7 +809,7 @@ api_site.com/{apikey}/missions/{missionid}/rewards
             { src: 'plugin/notes/notes.js', async: true }
           ]
          });
-         
+
       </script>
    </body>
 </html>
