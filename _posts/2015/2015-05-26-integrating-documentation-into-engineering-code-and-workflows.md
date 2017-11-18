@@ -65,7 +65,7 @@ I'm also shaky on the revision control software workflow. If engineers clone my 
 
 For now, developers sometimes add readme.txt files with their code, and I add the information to the documentation (in another code repo). No one really collaborates with me in my code repo -- I just push commits to it.
 
-Ideally, I'd like to point developers to the doc repository and provide a simple interface (like [http://prose.io](Prose.io) to edit the files. But clearly I'm still trying to figure out how to integrate into an engineer workflow.
+Ideally, I'd like to point developers to the doc repository and provide a simple interface (like [http://prose.io](http://prose.io/) to edit the files. But clearly I'm still trying to figure out how to integrate into an engineer workflow.
 
 ## Conclusion
 
