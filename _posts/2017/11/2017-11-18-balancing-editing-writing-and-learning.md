@@ -25,7 +25,7 @@ I do think blogging can be a tremendous tool for incrementally building out long
 
 But these last few weeks, where I've been heads-down focused on finalizing my API doc content, I've realized something. Although I certainly see the value in editing, if I spend all my time editing and revising, I lose interest in writing. My favorite part of writing is creating new content. I like filling a blank page. It's as if I have an unlimited supply of creative energy inside me, waiting to find its way into newly crafted posts and essays. If you've been following my blog for the past decade, you've no doubt seen this energy come out in post after post.
 
-Many people start out blogs with endeavors to sustain it in the long run, only to find that they lack long-term interest or energy for it. But for me, creating content is my strong point. What isn't my strength is revising and editing existing content over and over and over until my eyes get bleary and I get sick of reading the content &mdash; so sick of it that I just want to hit Publish and move it.
+Many people start out blogs with endeavors to sustain it in the long run, only to find that they lack long-term interest or energy for it. But for me, creating content is my strong point. What isn't my strength is revising and editing existing content over and over and over until my eyes get bleary and I get sick of reading the content &mdash; so sick of it that I just want to hit Publish and move on.
 
 I do edit what I write -- don't get me wrong. I may read a post 10 times or more (especially spaced over several days) before publishing it. But here's what I've realized. Writing is a steady balance of three activities:
 
