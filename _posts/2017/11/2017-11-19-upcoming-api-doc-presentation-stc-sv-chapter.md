@@ -30,4 +30,6 @@ Also, I'm not planning to cover any new material that isn't already in my [API d
 
 The presentation will be recorded. I'll follow up next week to post the recording here.
 
+<a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="/images/stcsvscreenshot22.png"/></a>
+
 {% include random_ad.html %}
