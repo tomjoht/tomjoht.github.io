@@ -32,4 +32,10 @@ The presentation will be recorded. I'll follow up next week to post the recordin
 
 <a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="/images/stcsvscreenshot22.png"/></a>
 
+## Slides
+
+My slides are here: [idratherbewriting.com/intro-to-api-documentation](http://idratherbewriting.com/intro-to-api-documentation/index.html).
+
+<a href="http://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="/images/stcsv-intro-api-doc.png"/></a>
+
 {% include random_ad.html %}
