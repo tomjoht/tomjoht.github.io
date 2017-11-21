@@ -1,12 +1,35 @@
 ---
-title: "Upcoming Intro to API Documentation presentation at STC Silicon Valley chapter on 11/20/2017"
+title: "Intro to API Documentation -- recording of presentation to STC Silicon Valley chapter on 11/20/2017"
 categories:
 - api-doc
 - writing
+- podcasts
+- stitcher
 keywords:
-summary: "Tomorrow (11/20/2017) I'm giving a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter. The meeting, scheduled for 7-8pm, takes place in Santa Clara, California, at the IHOP next to Great America / Levi Stadium."
+summary: "I recently gave a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter in Santa Clara, California. The recording and audio is available here."
 bitlink: http://bit.ly/upcomingstcsvapidocpreso
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stcsv-introtoapidocs.mp3
+podcast_file_size: 49.6 MB
+podcast_duration: "1:05:04"
+podcast_length: 49595665
 ---
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NawxzLB4aro" frameborder="0" allowfullscreen></iframe>
+
+## Audio
+
+{% include audio.html %}
+
+## Slides
+
+My slides are here: [idratherbewriting.com/intro-to-api-documentation](http://idratherbewriting.com/intro-to-api-documentation/index.html).
+
+<a href="http://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="/images/stcsv-intro-api-doc.png" style="border: 1px solid #dedede"/></a>
+
+## Presentation details
 
 To view more details about the API doc presentation, see the STC Silicon Valley event details: [November 20, 2017: Introduction to API Documentation](http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/).
 
@@ -20,22 +43,18 @@ Here's the presentation description:
 >
 > In this presentation, you’ll learn what a REST API is, the 8 essential sections in endpoint reference documentation, and how to test and analyze API requests. You can find more details in my [API documentation course here](http://idratherbewriting.com/learnapidoc/).
 
-If you're in the South Bay area and are interested in getting into API documentation, drop by for the presentation. Note that this presentation will be geared towards beginners, not advanced gurus who have worked on API doc projects for a number of years.
+Note that this presentation is geared towards beginners, not advanced gurus who have worked on API doc projects for a number of years.
 
-Also, I'm not planning to cover any new material that isn't already in my [API documentation course](http://idratherbewriting.com/learnapidoc/). Specifically, I'll be covering these first 3 sections from my API doc course:
+Also, I don't cover any new material that isn't already in my [API documentation course](http://idratherbewriting.com/learnapidoc/). Specifically, I briefly cover these first 3 sections from my API doc course:
 
 * [Introduction to REST APIs](http://idratherbewriting.com/learnapidoc/docapis_introtoapis.html)
 * [Using a REST API as a developer](http://idratherbewriting.com/learnapidoc/likeadeveloper.html)
 * [Documenting endpoints](http://idratherbewriting.com/learnapidoc/docendpoints.html)
 
-The presentation will be recorded. I'll follow up next week to post the recording here.
+To learn more about the Silicon Valley chapter of the STC, see [http://www.stc-siliconvalley.org](http://www.stc-siliconvalley.org).
 
 <a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="/images/stcsvscreenshot22.png"/></a>
 
-## Slides
 
-My slides are here: [idratherbewriting.com/intro-to-api-documentation](http://idratherbewriting.com/intro-to-api-documentation/index.html).
-
-<a href="http://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="/images/stcsv-intro-api-doc.png"/></a>
 
 {% include random_ad.html %}
