@@ -1,5 +1,5 @@
 ---
-title: "How do you communicate user progress in a course without an LMS?"
+title: "How do you communicate user progress in a course without a Learning Management System (LMS)?"
 categories:
 - writing
 - podcasts
@@ -28,9 +28,9 @@ When I created my [API documentation site](http://idratherbewriting.com/learnapi
 
 Users aren't consulting my API documentation material as a just-in-time learning situation, where they go to quickly consult the right terminology for documenting an endpoint and then return to their work context. Instead, most users want to transition into the field of API documentation. Either they're traditional tech writers working with software documentation and want to make the switch, or they're students trying to ramp up their skills for a future job. Others are tech writers who are assigned an API doc project at work and need a course of some kind to learn the needed skills.
 
-In short, I now suddenly find myself in an eLearning situation. I'm developing a "course" when course development isn't usually in my target's sights. I'm a technical writer. I produce information, not long-form learning experiences. How do I pull users from start to finish through a whole course and help them achieve their larger career objective? How can I inspire and motivate my users to consume and complete long-form material?
+In short, I now suddenly find myself in an eLearning situation. I'm developing a "course" when course development isn't usually in my target sights. I'm a technical writer. I produce information, not long-form learning experiences. How do I pull users from start to finish through a whole course and help them achieve their larger career objective? How can I inspire and motivate my users to consume and complete long-form material?
 
-In [The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work](https://www.amazon.com/Progress-Principle-Ignite-Engagement-Creativity/dp/1491514353), researchers Teresa Amabile and Steven Kramer argue that the greatest motivator (whatever the context) comes from feeling a sense of progress. They explain:
+In [The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work](https://www.amazon.com/Progress-Principle-Ignite-Engagement-Creativity/dp/1491514353), researchers Teresa Amabile and Steven Kramer argue that the greatest motivation comes from feeling a sense of progress. They explain:
 
 > Real progress triggers positive emotions like satisfaction, gladness, even joy. It leads to a sense of accomplishment and self-worth as well as positive views of the work and, sometimes, the organization. Such thoughts and perceptions (along with those positive emotions) feed the motivation, the deep engagement, that is crucial for ongoing blockbuster performance.
 
@@ -46,7 +46,7 @@ If progress is a primary motivator for inspiring employees, or for inspiring par
 
 My initial idea was to capture the user's progress through the course (based on the page they're viewing) and display it in a widget, maybe showing completed pages with a check mark icon.
 
-But to do this properly, I think I'd need to switch from Jekyll, which produces static HTML and which is what I'm using for my course, to a database-based LMS system (probably something like [WP Courseware](https://flyplugins.com/wp-courseware/) or [Learndash](https://www.learndash.com/), or use an e-learning platform like Udemy or Udacity). Alternatively, I could integrate a database through [Firebase](https://firebase.google.com/) and allow users to log in, and then save data captured through their session, but this solution looks too much effort for a quick implementation. (It might take me months to learn how to do that.)
+But to do this properly, I think I'd need to switch from Jekyll, which produces static HTML and which is what I'm using for my course, to a databased learning management system (LMS) system (probably something like [WP Courseware](https://flyplugins.com/wp-courseware/) or [Learndash](https://www.learndash.com/), or use an e-learning platform like Udemy or Udacity). Alternatively, I could integrate a database through [Firebase](https://firebase.google.com/) and allow users to log in, and then save data captured through their session, but this solution looks too much effort for a quick implementation. (It might take me months to learn how to do that.)
 
 Given my static setup, are there alternative ways to inspire users with a sense of progress without using an LMS-like system to save their session details and track their progress? Can someone actually implement a course with static site generator? Should I switch systems and start using an LMS tool of some kind?
 
@@ -54,7 +54,7 @@ Even without a database to track progress, I decided to start small. I embedded 
 
 <img src="/images/progressbarjs.png"/>
 
-(This progress, by the way, is mathematically calculated and dynamically generated (see the [source here](https://github.com/tomjoht/learnapidoc/blob/master/_includes/progress.html)).) The idea is that no user likes to see that their progress isn't complete, so it might motivate them to keep going.
+(This progress, by the way, is mathematically calculated and dynamically generated (see the [source here](https://github.com/tomjoht/learnapidoc/blob/master/_includes/progress.html)). The idea is that no user likes to see that their progress isn't complete, so it might motivate them to keep going.
 
 I also incorporated some workflow maps for my [API reference tutorial](http://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html) and for my [OpenAPI tutorial](http://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html). Workflow maps as shown below appear at the top of each of these tutorial pages.
 
@@ -76,9 +76,9 @@ Completing all the modules in an online course and scoring 100% on little quizze
 
 How do you make progress toward breaking into API documentation? After I finished teaching the initial API workshops to a tech writing staffing company in the Bay area, the main feedback I got was that, sure, I'd given the writers a foundation in API documentation, but they needed convincing portfolios full of API documentation samples to be attractive to companies.
 
-Although we kicked around the idea of immersing everyone in open-source API projects, the effort never gained momentum. Helping someone find an API doc project that has doc needs, showing them how to contribute (through version control), identifying gaps and other ways to contribute, etc., and doing it for all the different, unique projects across an entire group of people is a time-intensive, challenging task.
+Although we kicked around the idea of immersing everyone in open-source API projects, that effort never gained momentum. Helping someone find an API doc project that has doc needs, showing them how to contribute (through version control), identifying gaps and other ways to contribute, etc., and doing it for all the different, unique projects across an entire group of people is a time-intensive, challenging task.
 
-It's not just time intensive for the workshop leader, but for each participant. These were working pros who didn't have hours/weeks/months of time to sink into open-source projects, so the idea of building an API doc portfolio was even more farfetched.
+It's not just time intensive for the workshop leader, but for each participant. These were working professionals who didn't have hours/weeks/months of time to sink into open-source projects, so the idea of building an API doc portfolio was even more farfetched.
 
 Real activities that will build a portfolio take a lot of time to create. For example, it could take hours to find a suitable open-source project, and a few days to a few weeks to ramp up on the project's technology. Then more time to identify the documentation needs, time to figure out how to make pull requests in GitHub, and so forth. It's much easier to give someone a short 2-minute quiz and move on. But which is more valuable for the progress the user is seeking?
 
