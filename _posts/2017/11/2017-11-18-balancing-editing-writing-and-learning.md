@@ -27,11 +27,11 @@ But these last few weeks, where I've been heads-down focused on finalizing my AP
 
 Many people start out blogs with endeavors to sustain it in the long run, only to find that they lack long-term interest or energy for it. But for me, creating content is my strong point. What isn't my strength is revising and editing existing content over and over and over until my eyes get bleary and I get sick of reading the content &mdash; so sick of it that I just want to hit Publish and move on.
 
-I do edit what I write -- don't get me wrong. I may read a post 10 times or more (especially spaced over several days) before publishing it. But here's what I've realized. Writing is a steady balance of three activities:
+I do edit what I write -- don't get me wrong. I may read a post 10 times or more (especially spaced over several days) before publishing it. But here's what I've realized: **Writing is a steady balance of three activities**:
 
-* Learning
-* Writing
-* Editing
+* **Learning**
+* **Writing**
+* **Editing**
 
 Pretty much in that order, and pretty much in even parts. For example, to write a good post (or article or page or essay), you might spend 3 hours learning, 3 hours writing, and 3 hours editing.
 

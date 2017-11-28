@@ -160,7 +160,7 @@ I once read a programming book on Java where the author explained the reason for
 
 This non-standard tone is rarely allowed in company style guides, since companies often have many technical writers and so need to adopt a consistent and general voice (which they usually describe as friendly and helpful, but which is usually just professional and boring).
 
-Unless you're writing tech docs in a third-party guidebook, you're probably stuck with a standard, professional tone coupled with a form of Simplified Technical English. You can't break the professional tone nor delight in any kind of word play. In fact, eloquence and diction are usually far from my mind when I'm working on tech docs, as I'm just trying to understand what I'm even writing. As I said early, tech comm (particularly developer documentation) has enough issues in simplifying its own technical jargon, so making everything else as simple as possible is a must.
+Unless you're writing tech docs in a third-party guidebook, you're probably stuck with a standard, professional tone coupled with a form of Simplified Technical English. You can't break the professional tone nor delight in any kind of word play. In fact, eloquence and diction are usually far from my mind when I'm working on tech docs, as I'm just trying to understand what I'm even writing. As I said earlier, tech comm (particularly developer documentation) has enough issues in simplifying its own technical jargon, so making everything else as simple as possible is a must.
 
 ## Questions and dilemmas
 
