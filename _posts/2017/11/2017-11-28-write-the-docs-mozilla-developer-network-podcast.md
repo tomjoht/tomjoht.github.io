@@ -1,13 +1,11 @@
 ---
-title: "WTD Podcast Episode 11 explores the Mozilla Developer Network's Web Docs project"
+title: "WTD Podcast Episode 11: Exploring the Mozilla Developer Network's Web Docs project"
 categories:
 - podcasts
 keywords:
 summary: "In this episode of the Write the Docs podcast, we chat with Kadir Topal, product manager for Mozilla Developer Network Web Docs project, about how they manage their large body of documentation for web developers. The MDN project provides standards-based documentation around web development topics (for example, HTML, CSS, and JS) intended for web developers, with the goal of producing consistent experiences for users across web browsers. Kadir gives us an inside look into the challenges, goals, and roadmap of this project."
 bitlink: http://bit.ly/wtdpodcast11
 ---
-
-You can explore the [Mozilla Developer Network Web Docs project here](https://developer.mozilla.org/en-US/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bSMpdsbigpw" frameborder="0" allowfullscreen></iframe>
 
@@ -30,9 +28,10 @@ For more detail, see [Mozilla brings Microsoft, Google, the W3C, Samsung togethe
 
 ## Additional links
 
+* [Mozilla Developer Network Web Docs project](https://developer.mozilla.org/en-US/).
 * [Contributing to MDN](https://developer.mozilla.org/en-US/docs/MDN/Contribute)
 * [Writing Day at Write the Docs](http://www.writethedocs.org/conf/portland/2018/writing-day/)
 
 You can follow Kadir at [@atopal](https://twitter.com/atopal) on Twitter and read his blog at [https://redronin.de/](https://redronin.de/).
 
-You can also view this content on the [Write the Docs podcast site](http://podcast.writethedocs.org/). See [Subscribe to the podcast](http://podcast.writethedocs.org/how-to-subscribe/) for ways to follow the podcast.
+You can also view this content on the [Write the Docs podcast site](http://podcast.writethedocs.org/). *See [Subscribe to the podcast](http://podcast.writethedocs.org/how-to-subscribe/) for ways to follow the podcast.*
