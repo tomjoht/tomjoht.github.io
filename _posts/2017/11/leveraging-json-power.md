@@ -42,3 +42,15 @@ cs1
 - json isn't an authoring format, for sure. but yaml might be in some ways. xml is an authoring format. difference in modes?
 - why are you drawn to json? its simplicity? ties more into apis, which almost all use json.
 - the main appeal of json seems to be integration into the ui, right? where else might it come in handy? the scenario of dynamically updating that list of whitelisted domains? could you do that with xml? build a help api? what would that look like?
+
+cs2
+- how does writing for cs help change how you author content? awareness that you have to compress content into twitter-like help messages, and then cascade into larger explanations in the docs. must be able to depiece your content more.
+- what are successful strategies for writing cs help content? storage into snippets. abiltiy to manipulate into other formats as needed.
+- how much is too much help in the UI? not sure there's a clear delineation. but tooltips have clear restrictions.
+- do static site generators have the edge when it comes to generating cs help? i think so. define your own json object? put into the cloud? your api becomes essentially the scripts you write to access this content.
+- what is an example of a successful csh app? not sure, but there are usually interfaces to things. don't minimize this entirely in API doc.
+- what other methods have you used with csh? haven't done a lot of this. but handing off text files to devs doesn't scale and sucks.
+- can you implement a content api? how could you take it to the next level? yeah, maybe with csh, stop thinking of your help asset as a static central asset but rather as an api that can be leveraged as needed in diff. places. delivered dynamically.
+- isn't the idea that you could deliver help as an api pretty cool? yes. did it take off with contently?
+- does this mean you'd use a lot of javascript? yeah, b/c it's the language of these apps for the most part.
+- where would you store your help api assets? a cdn.
