@@ -83,7 +83,7 @@ In the check boxes, remove the check box from "Use <textpath> element for Text o
 Now it's time to insert the SVG on your page. You can treat it just like an image:
 
 ```
-<img src="images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
+<img src="/images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
 ```
 
 Vector graphics provide a lot of possibilities beyond just simple diagrams here. You can also add animation, link different elements, and do a lot of other things with graphics. However, you can also just create simple workflow diagrams, like I've shown here.

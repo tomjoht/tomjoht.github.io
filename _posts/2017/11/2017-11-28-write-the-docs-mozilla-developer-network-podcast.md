@@ -3,7 +3,7 @@ title: "WTD Podcast Episode 11: Exploring the Mozilla Developer Network's Web Do
 categories:
 - podcasts
 keywords:
-summary: "In this episode of the Write the Docs podcast, we chat with Kadir Topal, product manager for Mozilla Developer Network Web Docs project, about how they manage their large body of documentation for web developers. The MDN project provides standards-based documentation around web development topics (for example, HTML, CSS, and JS) intended for web developers, with the goal of producing consistent experiences for users across web browsers. Kadir gives us an inside look into the challenges, goals, and roadmap of this project."
+summary: "In this episode of the Write the Docs podcast, we chat with Kadir Topal, product manager for Mozilla Developer Network Web Docs project, about how they manage their large body of documentation for web developers. The MDN project provides standards-based documentation around web development topics (for example, HTML, CSS, and JS) intended for web developers, with the goal of producing consistent experiences for users across web browsers. Kadir gives us an inside look into the challenges, goals, and roadmap with this project."
 bitlink: http://bit.ly/wtdpodcast11
 ---
 
