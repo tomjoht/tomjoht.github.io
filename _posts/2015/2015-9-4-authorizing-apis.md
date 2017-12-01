@@ -8,7 +8,7 @@ thumb: apiauth.png
 ---
 
 {{site.data.alerts.note}}
-For a more up-to-date version of this content, see [Documenting authentication and authorization requirements](http://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html) in my API course.
+For a more up-to-date version of this content, see <a href="http://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html">Documenting authentication and authorization requirements</a> in my API course.
 {{site.data.alerts.end}}
 
 Lately I've been busy working on [content for some API documentation workshops](http://idratherbewriting.com/learnapidoc/). One of the topics I wanted to cover in the workshop is how authentication and authorization work with APIs. This is probably one of the more complicated aspects of APIs, so I'd like to get as much feedback as possible about this section.
