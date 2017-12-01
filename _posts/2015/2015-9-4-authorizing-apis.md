@@ -5,7 +5,6 @@ categories:
 keywords:
 summary: "Some common forms of authentication and authorization with APIs include Basic Auth, HMAC, and OAuth 2.0. In this post, I explain how these methods work. This material comes from other content I'm preparing about REST APIs."
 thumb: apiauth.png
-redirect
 ---
 
 {{site.data.alerts.note}}
