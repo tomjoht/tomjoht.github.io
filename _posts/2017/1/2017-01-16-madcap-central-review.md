@@ -8,9 +8,9 @@ bitlink: http://bit.ly/madcapcentralreview
 date: 2017-01-16 17:00:00
 ---
 
-Here’s an introductory video with more details: 
+Here’s an introductory video with more details:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/7gCKuRKmSHQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lqa2LqOGYIE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 You can view more videos about MadCap Central here: [madcapsoftware.com/videos/central](http://www.madcapsoftware.com/videos/central/)
 
 With MadCap Central, you can do the following:
@@ -66,7 +66,7 @@ You can point your company's domain or subdomain to the MadCap Central DNS so th
 
 What stands out to me as most significant about MadCap Central is the easy publishing workflow. I've been in plenty of companies that make it difficult to publish content on a server.
 
-Outside of the corporate world, publishing files on a web server managed through a web hosting company (for example, I use BlueHost and GitHub) is drop-dead simple. But companies usually restrict the publishing of files to servers in complete ways (to satisfy security requirements). 
+Outside of the corporate world, publishing files on a web server managed through a web hosting company (for example, I use BlueHost and GitHub) is drop-dead simple. But companies usually restrict the publishing of files to servers in complete ways (to satisfy security requirements).
 
 In most companies, you can't simply FTP files to a server. You can't interact with a production server at all. Permissioned engineers that interact with the servers often do so through the command line with Unix commands.
 
@@ -86,12 +86,12 @@ It's important to note that the build takes place on MadCap Central. You don't n
 
 For example, when you fix a typo and want to deploy the update, you don’t need to build anything locally. You just commit the update to MadCap Central. The build scripts on MadCap Central kick off a build (you can either build immediately or build based on a schedule), and once complete, the build can be published at a URL.
 
-## Building on the server instead of building locally 
+## Building on the server instead of building locally
 
 Moving the build process to the server provides a number of wins:
 
-*  It reduces your need to monitor the build process locally. (If you have 20 builds you're running on your local machine, this consumes processing power and requires monitoring.) 
-*  You don't have to worry about excluding temporary folders from source control that are used during the build process. 
+*  It reduces your need to monitor the build process locally. (If you have 20 builds you're running on your local machine, this consumes processing power and requires monitoring.)
+*  You don't have to worry about excluding temporary folders from source control that are used during the build process.
 *  There's no time lag in having to transfer all the built files to the server. If you have a project that's 1 GB in size (due to all the media), you don't have to wait for all those files to transfer to the server each time you want to make an update. Instead, you just transfer the changed files from the commit.
 
 Committing updates through Git and then triggering the build process on the server is one of the trends I'm predicting for more help systems in 2017.
@@ -103,5 +103,3 @@ In contrast to CCMS systems, which simply store and manage your content in a cen
 You no longer need to use separate systems for source control, task management, permissions, and other details. It’s all contained and managed within one central hub. Overall, MadCap Central provides a much-needed publishing and content delivery solution for tech docs.
 
 Check out more here: [MadCap Central](http://www.madcapsoftware.com/products/central/).
-
-
