@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 70 }}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-<meta name="p:domain_verify" content="dcbdefe28bc9bcd493cc78f412df863f"/>
     <meta property="og:title"
           content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"/>
     <meta property="og:type" content="article"/>
@@ -84,7 +83,7 @@
     <div id="masthead">
 
             <div class="topBannerAd">
-              {% include top_banner_ad.html %}
+              {% include topBannerAd.html %}
             </div>  <!-- /topBannerAd -->
             <div class="container">
             <div class="row">
