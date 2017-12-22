@@ -13,6 +13,8 @@ podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcast
 podcast_file_size: 5.4 MB
 podcast_duration: "06:58"
 podcast_length: 5389413
+redirect_from:
+- /2017/12/01/how-to-become-a-voractious-reader/
 ---
 
 {% include audio.html %}
