@@ -27,24 +27,24 @@ It's hard to find authors who write like that. When I was in college, I read a l
 
 The books that appealed to me in college don't appeal to me today. I'm now a working professional and family provider, and I'm more cautious about the demands on my time. I have little patience for topics that don't seem relevant. It could take hours or weeks to sit down and read a book from cover to cover. I assess the ROI of any endeavor. Will it give me new awareness or skills, or at least satiate a deep curiosity about something? If not, I might not have the time.
 
-Now more than the author's style, I choose books by relevant topics. As a technical writer, tech-comm-related books are relevant, but they're typically either beginner or reference. Both put me to sleep. Philosophy appeals to me, but the higher-level, abstract questions they ask (what exists? how can we know? is there free will?) don't always resonate with me.
+Now more than the author's style, I choose books by relevant topics. As a technical writer, tech-comm-related books are relevant, but they're typically either beginner or reference. Both put me to sleep. Philosophy appeals to me, but the higher-level, abstract questions they ask (what exists? how can we know it? is there free will?) don't always resonate with me.
 
 At the end of the day, the topic probably doesn't matter much. All topics, if examined deeply enough, reach down into the same roots. It's the analytical mind that's interesting, regardless of the content.
 
 So why am I not reading more? Reading for reading's sake can be a chore, especially if it's the wrong text. My problem is that I sometimes read without purpose. I need to more firmly ground my reading by searching for answers to my own questions.
 
-Answering questions is at the heart of both writing and reading. In most non-fiction texts, an author begins with a question. Some authors make the question explicit, while others begin with the answer directly. Identifying the question the author is trying to answer is the first step to reading engagement.
+Answering questions is at the heart of both writing and reading. In most non-fiction texts, an author begins with a question. Some authors make the question explicit, while others begin with the answer directly. Identifying the question the author is trying to answer is the first step toward engaging with texts.
 
 Once the question is identified, the reader decides if it's relevant. If so, the reader figuratively gets in the passenger seat while the author drives toward the answer. A skilled author takes you on the journey to find the answer, showing you the roads traveled, the detours, the vistas, and other scenery along the way. You don't want the author to drive aimlessly or circuitously, but you also don't expect a straight shot.
 
 In the end, difficult questions rarely have clear-cut answers, so the author usually finds some partial answer that yields some satisfaction.
 
-If it's the case that we get engaged in reading by asking relevant questions, then the key to becoming a voracious reader is to become a voracious thinker and questioner. When we're actively thinking and asking questions, we start reading more because we're engaged with a particular topic that we want to learn more about.
+If it's the case that we get engaged in reading by asking relevant questions, then the key to becoming a voracious reader is to become a voracious thinker and questioner. When we're actively thinking and asking questions, we start reading more because we're engaged with a particular topic that we want to learn about.
 
-What questions are we asking even before we seek out the text to read? What are we genuinely curious about? Curiosity is the first step to reading because it gives a purpose to reading. We seek out texts because we're looking for answers or thoughts on a topic; we're not just reading for reading's sake.
+What questions are we asking even before we seek out the text to read? What are we genuinely curious about? Curiosity is the first step to reading because it gives a purpose. We seek out texts because we're looking for answers or thoughts on a topic; we're not just reading for reading's sake.
 
 Granted, there are plenty of bookworms who are happy to figuratively hitchhike in many different author's cars, going every which direction, without much care where they end up. There's value in that &mdash; books often make us aware of subjects we previously didn't even know to ask about.
 
-But my life doesn't seem to move in that rhythm. I need something more to ground me in a more directed way.  Like Pythagoras, the first philosopher, dwelling in a cave and living and devoting his life to enquiry, or Thoreau living deliberately by himself in the woods, I want to lead more of an examined life.
+But my life doesn't seem to move in that rhythm. I need something more to ground me in a more directed way. Like Pythagoras, the first philosopher, dwelling in a cave and living and devoting his life to enquiry, or Thoreau living deliberately in the woods, I want to lead more of an examined life.
 
 Undeniably, it's hard to sustain that kind of extended focus and even to find substantial sources to read. And yet, what else can drive voracious reading habits?
