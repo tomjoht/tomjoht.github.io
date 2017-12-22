@@ -1,9 +1,9 @@
 ---
-title: Why is the TC Camp Unconference format so popular? Interview with Liz Fraley, TC Camp Founder
+title: Why is TC Camp's unconference format so popular? Interview with Liz Fraley, TC Camp Founder
 categories:
 - general
 keywords: tc camp, unconference, liz fraley, san francisco conferences for technical writers, free
-summary: "Liz Fraley started the TC Camp Unconference out of a growing dissatisfaction with other conferences. She modeled TC Camp after another camp that was low-cost, run by a non-profit, and intended to better the community. TC Camp's popularity arises from its unconference format &mdash; it places more focus on the attendees instead of juried presentations. As long as you participate, vote, and interact in the discussions, you're guaranteed to connect."
+summary: "TC Camp 2018 is just around the corner (Jan 26-27, 2018). Liz Fraley started the TC Camp unconference out of a growing dissatisfaction with other conferences. She modeled TC Camp after another camp that was low-cost, run by a non-profit, and intended to better the community. TC Camp's popularity arises from its unconference format &mdash; it places more focus on the attendees instead of juried presentations. As long as you participate, vote, and interact in the discussions, you're guaranteed to connect."
 thumb: tccamp2016thumb.png
 redirect_from:
 - /2016/01/06/tc-camp-unconference-interview-with-liz-fraley/
@@ -14,9 +14,9 @@ bitlink: http://bit.ly/tccamp2018post
 
 ## About the TC Camp Unconference
 
-The [TC Camp Unconference](http://www.tccamp.org/) is just around the corner. Held January 26-27, 2018, in Santa Clara, California, this conference has been growing in popularity due to its unique unconference format.
+The [2018 TC Camp](http://www.tccamp.org/2017/09/unconference-tc-camp-2018/) is just around the corner. Held January 26-27, 2018, in Santa Clara, California, this conference has been growing in popularity due to its unique unconference format.
 
-<a href="http://www.tccamp.org/"><img src="{{ "/images/header-post-register-1.png" | prepend: site.baseurl }}" alt="TC Camp Santa Clara" /></a>
+<a href="http://www.tccamp.org/2017/09/unconference-tc-camp-2018/"><img src="{{ "/images/header-post-register-1.png" | prepend: site.baseurl }}" alt="TC Camp Santa Clara" /></a>
 
 The TC Camp Unconference doesn't include any pre-scheduled sessions or speakers. (Although there are some morning workshops available, these aren't part of the unconference format.)
 
