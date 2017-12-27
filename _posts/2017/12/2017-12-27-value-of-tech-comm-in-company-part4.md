@@ -1,11 +1,11 @@
 ---
-title: "Arguments for the value of documentation and tech writers in a company &mdash; Part III: Information flow and content experience"
+title: "Part IV: Enabling information flow (Arguments for the value of documentation and tech writers)"
 categories:
 - general
 keywords: value, organizations, information flow, content experience
-summary: "This is part III in the essay."
-bitlink: http://bit.ly/valuetechcomm3
-weight: 3.0
+summary: "Technical writers can add more value by encouraging information flow across disparate groups within an organization (such as Support, Engineering, Marketing, Training, Field Engineering, and more). Encouraging two-way communication not only empowers these groups with better information, it also encourages them to share feedback and input that dramatically improves the documentation as well. However, information flow alone is too tenuous of a value to add, and probably only applies in large organizations."
+bitlink: http://bit.ly/valuetechcomm4
+weight: 4
 tags: series_value_of_tech_comm
 series: "Value arguments for docs and tech comm"
 published: false
@@ -13,7 +13,7 @@ published: false
 
 {% include series/seriesTagValueOfTechComm.html %}
 
-{{site.data.alerts.note}}This is part II in a three-part essay. Read the previous section, <a href="/2017/12/22/value-of-tech-comm-in-company-part2">Determining value through usage</a> before diving in here. {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is part IV in a five-part essay. Read the previous section, <a href="/2017/12/27/value-of-tech-comm-in-company-part3">Determining value through usage</a> before diving in here. {{site.data.alerts.end}}
 
 Our argument about the value of documentation has taken on some difficult obstacles. It's not enough that documentation has value through perceived high usage among important groups, because so do other resources in the organization. Both the photocopier and espresso machine have high usage among in the company, but with a finite budget, how do we chose? We still haven't proved that documentation has a higher value than some other needed company resource.
 
@@ -22,7 +22,7 @@ Our argument about the value of documentation has taken on some difficult obstac
 
 ## Docs aren't the espresso machine
 
-One problem is that documentation as an asset aren't sexy &mdash; they don't have a high value or esteem in an organization. People dislike the very idea of docs. As mentioned earlier, for UX designers, the very inclusion of docs suggests a failure in design. For product managers, the idea that their product, which is supposed to be easy and intuitive/simple to use, should actually require a lot of documentation also suggests failure. Your product needed help for users to understand it? Oh, it needed docs, like a cripple needs a crutch. Users, too, do not welcome a hefty user guide in a welcome light. Just as the almighty thud would fill users with dread in the days of print, infinite online pages overwhelm users with a sense of distaste as well.
+One problem is that documentation as an asset aren't sexy &mdash; they don't have a high value or esteem in an organization. People dislike the very idea of docs. As mentioned earlier, for UX designers, the very inclusion of docs suggests a failure in design. For product managers, the idea that their product (which is supposed to be easy and intuitive/simple to use) should actually require a lot of documentation also suggests failure. Your product needed help for users to understand it? Oh, it needed docs, like a cripple needs a crutch. Users, too, do not welcome a hefty user guide in a welcome light. Just as the almighty thud would fill users with dread in the days of print, infinite online pages overwhelm users with a sense of distaste as well.
 
 If docs are our only contribution, will we ever rise above our low place on the totem pole of value? Can we move past the idea that the technical writer merely contributes documentation? Why should we do that, and what would these additional avenues of value look like?
 
@@ -32,7 +32,7 @@ If the only value technical writers provide to an organization is documentation,
 
 We thought the setup was just some annoying accounting group trying to track spending. But one day, the company announced that they were laying off *all* the technical writers (in addition to about 7% of the total IT workforce). This shocked us. I didn't think they would remove an entire function within an organization. Maybe 1-2 writers, but not *everyone*, and surely not me. But alas, it was true. *Audios, amigos!*
 
-In retrospect, I think this is what happened. Behind the scenes, some damn accountant was doing an internal-versus-external cost analysis, similar to a buy-versus-build cost analysis. Was it cheaper to employ full time technical writers at, say, $80 an hour, or to outsource technical writing needs to an external vendor for $60 an hour? The decision must have been to choose outsourcing because it was less expensive, and you still got documentation in the end.
+In retrospect, I think this is what happened. Behind the scenes, some bow-tie-wearing, clever accountant was doing an internal-versus-external cost analysis, similar to a buy-versus-build cost analysis. Was it cheaper to employ full time technical writers at, say, $80 an hour, or to outsource technical writing needs to an external vendor for $60 an hour? The decision must have been to choose outsourcing because it was less expensive, and you still got documentation in the end.
 
 The corporation provided generous compensation packages, and I made my way to California and started a new life there. Over time, I learned that the corporation hired many of the tech writer employees it laid off as long-term external vendors, and paid them more than they were earning as salaried employees. Some departments even re-hired full-time technical writers on an individual basis (rather than having a centralized tech writing team). So clearly, the decision to outsource as a way to cut expenses was not a slam-dunk for cost savings as the accountant had hoped. Why not?
 
@@ -63,21 +63,37 @@ This might seem like an ingenious way to assign a direct value to documentation.
 
 But now Department X starts doing some research. Although your tech writing team wants to charge $16,000, they find that a contractor will do it for $10,000. This becomes a no-brainer. They just saved $6,000, which they can use to pay a software engineer intern to do even more work.
 
-I'd love to find examples of tech comm groups that actually started charging for docs to see if my thought experiment is correct. But my point is this: It's not enough to just provide documentation. Tech writers must provide additional value to the organization. Where might this additional value come from? One benefit might be toi foster **information flow** within the organization.
+I'd love to find examples of tech comm groups that actually started charging for docs to see if my thought experiment is correct. But my point is this: It's not enough to just provide documentation. Tech writers must provide additional value to the organization. Where might this additional value come from? One benefit might be to foster **information flow** within the organization.
 
 ## The value of information flow
 
 What do I mean by information flow? Consider the graphic I previously used to show the many groups that use documentation. Now let's pivot the graphic to show how information might flow through these same groups.
 
-<img src="/images/intersecting_groups-02.svg"/>
+<img src="/images/intersecting_groups_information_flow.svg"/>
 
 Because technical writers are at the intersection of these groups, we are poised to enable information flow in a powerful way. We don't just document the needed information and publish it; we channel it to the right group that needs it, and to pull information from other groups that have it. We connect information across groups, bringing information through these pipelines and pulling together the right people into conversations.
 
-For example, I'm currently creating documentation for the APK upload process with app submission. I'm pulling information from trends identified by Support. I'm also interacting with field engineers to identify issues with APKs for the customers they work with. As I improve the documentation around APK uploading, I'll channel the feedback to the UX team, who is redesigning this area of the submission console. I'll also let engineers know what specific pain points users have with the APK processing. When I finish the docs, I'll let Marketing know so they can potentially highlight the new design as an incentive to show continued improvement for app developers. Business development can benefit from knowing that some previous issues have been resolved or clarified, so that they can speak more persuasively to prospective clients. I'll also let Support know about the updates so their forum responses can leverage the new content. All of this chatter will surely draw Ccs and input from people I don't even know should be involved or have input.
+In earlier research I cited the work on value by Emily January Peterson. She noted
+
+> Practitioners know that TPC crosses boundaries and is therefore networked in a way that no other profession currently is.
+
+If tech comm is networked in deeper ways than any other profession, can we use that deep networking to leverage additional forms of value?
+
+Hughes also noted that dissemination of the knowledge assets we create is a natural action for technical communicators to take:
+
+> Technical communicators who see themselves as creators of knowledge think beyond the concept of documentation and think in terms of knowledge management systems. Writing becomes a secondary and subordinate activity to content management. The user community becomes just one of many stakeholders who can benefit from the knowledge the technical communicator has created, and the technical communicator seeks ways to distribute that knowledge to all the stakeholders—for example, marketing, operations, engineering, and so forth.
+
+Here's an example. I'm currently creating documentation for the APK upload process with app submission. I'm pulling information from trends identified by Support. I'm also interacting with field engineers to identify issues with APKs for the customers they work with. As I improve the documentation around APK uploading, I'll channel the feedback to the UX team, who is redesigning this area of the submission console. I'll also let engineers know what specific pain points users have with the APK processing. When I finish the docs, I'll let Marketing know so they can potentially highlight the new design as an incentive to show continued improvement for app developers. Business development can benefit from knowing that some previous issues have been resolved or clarified, so that they can speak more persuasively to prospective clients. I'll also let Support know about the updates so their forum responses can leverage the new content. All of this chatter will surely draw Ccs and input from people I don't even know should be involved or have input.
 
 As a technical writer, I can foster this conversation because all of these groups the documentation gives me a common point of intersection. The work I'm doing has some relevance to all of them, and I can involve them, get information from them, and connect them with each other in conversation-enabling ways and therein make information flow.
 
-Too often, technical writers work in isolation, not interacting with other groups much at all. We sometimes accept this interactivity by dismissing ourselves as introverts. (Maybe in our minds, we imagine ourselvews as a writer sequestered away in a remote, isolated cabin working on a novel for years?) But it shouldn't be like this. Technical writers can be the primary force behind information flow within an organization. By increasing our interaction with the groups, we can not only inform them, but more accurately identify and meet their needs. Tech writers have a big picture perspective in an organization that allows them to see across teams and connect the right people together with needed information.
+In the most recent issue of *Tech Comm Journal*, Sarah Martin et al argue that technical communicators are in a key position to provide organizational value due to their intersection with other groups:
+
+> Wilson and Wolford (2017) remind us that TCs are “almost always located at the nexus of data, language, and meaning, trafficking in expanding economies of information within organizations” (p. 5). As such, TCs, through their user-centered approach, can add value to a variety of workplace initiatives (Dubinsky, 2004). [Promoting User Advocacy to Shift Technical Communication Identity and Value](https://www.stc.org/techcomm/2017/11/01/promoting-user-advocacy-to-shift-technical-communication-identity-and-value/)
+
+Their focus is on playing user advocate roles with user experience design, but tech writers can play many more roles as well.
+
+Too often, technical writers work in isolation, not interacting with other groups much at all. We sometimes accept this interactivity by dismissing ourselves as introverts. (Maybe in our minds, we imagine ourselves as a writer sequestered away in a remote, isolated cabin working on a novel for years?) But it shouldn't be like this. Technical writers can be the primary force behind information flow within an organization. By increasing our interaction with the groups, we can not only inform them, but more accurately identify and meet their needs. Tech writers have a big picture perspective in an organization that allows them to see across teams and connect the right people together with needed information.
 
 Helping needed information flow across these different groups is not merely a byproduct of docs or a side role to play. This flow of information across all the groups actually helps technical writers create better documentation, because it elicits input from these other groups in ways that will dramatically inform and improve the documentation. The more information tech writers move around, the better the docs get. The better the docs get, the more they empower others to be powerful in their roles. The docs have empowered these other groups with better tools.
 
@@ -98,44 +114,28 @@ If information flow is a high-value benefit of technical writers, this goal shou
 > A cautionary tale comes from a business-to-business company whose customer and product teams failed to collaborate in serving a key segment: large, cross-product customers. To manage relationships with important clients, the company had established a customer-focused marketing group, which developed customer outreach programs, innovative pricing models, and tailored promotions and discounts. But this group issued no clear and consistent reports of its initiatives and progress to the product units and had difficulty securing time with the regular cross-unit management to discuss key performance issues. Each product unit communicated and planned in its own way, and it took tremendous energy for the customer group to understand the units’ various priorities and tailor communications to each one. So the units were not aware, and had little faith, that this new division was making constructive inroads into a key customer segment. Conversely (and predictably), the customer team felt the units paid only perfunctory attention to its plans and couldn’t get their cooperation on issues critical to multiproduct customers, such as potential trade-offs and volume discounts.
 > ... as the market became more competitive, customers began to view the firm as unreliable and, generally, as a difficult supplier, and they became increasingly reluctant to enter into favorable relationships. &mdash; [The Secrets to Successful Strategy Execution](https://hbr.org/2008/06/the-secrets-to-successful-strategy-execution)
 
-Who better to unstick companies from this inertia than the very group through which almost every role interacts? Tech writers can play a tremendous role in the information flow in a company &mdash; if we see it as part of the value we add. If this is the value we add, tech writers should not be siloed, introverted groups with their heads down typing away for months creating docs. We should see ourselves as an interactive group that moves information through many different parts of an organization, connecting groups together and making the right parties aware of the information they need. This information can be the lifeblood of effective decisions that lead to successful outcomes for a company. Try tracking information flow!
+Who better to unstick companies from this inertia than the very group through which almost every role interacts? Tech writers can play a tremendous role in the information flow in a company &mdash; if we see it as part of the value we add. As such, tech writers should not be siloed, introverted groups with their heads down typing away for months creating docs. We should see ourselves as an interactive group that moves information through many parts of an organization, connecting groups together and making the right parties aware of the information they need. This information can be the lifeblood of effective decisions that lead to successful outcomes for a company.
 
-This brings me to another point. Instead of technical writers, this move towards information flow brings me to another idea: content experience.
+In a job description for technical writers at Google, the description reads:
 
-## Content experience across all customer touchpoints
+> Technical writers play a big part at Google. They are a key link between engineers, marketing associates, developer advocates, as well as all the external users and developers, tying together many vital but disparate parts of the Google ecosystem. ([careers.google.com](https://careers.google.com/jobs?src=Online/Job+Board/indeed&utm_source=indeed&utm_medium=jobaggr&utm_campaign=freeaggr#!t=jo&jid=/google/technical-writer-user-documentation-google-building-41-1600-amphitheatre-2738990359))
 
-There's a trend in the industry for tech writers to expand as content strategists that look at every touchpoint the user has with information along his or her journey. The idea is for tech writers to stop focusing singularly on documentation and instead look at how customers interact with content at every touchpoint in both pre- and post-sales scenarios.
+How do technical writers play a key link between the disparate parts of a company's ecosystem? Clearly, the documentation role by its very nature connects these groups together.
 
-This examination of content touchpoints forces users to interact in marketing spaces, support spaces, sales spaces, training spaces, and more. Companies such as MindTouch promote the idea of being a content influencer or content experience professional more than just a technical writer. MindTouch's Ari Hoffman explains that this new, emerging role for technical communications is called **Content Experience**. Hoffman describes the *Content Experience Influencer* role as follows:
+Note that, the larger the organization, the more such a role becomes relevant. A small startup doesn't have nearly the same information flow needs as a technology giant. But as companies get larger, like Google, Microsoft, Amazon, and others, linking together these groups becomes key.
 
-> This role [Content Experience Influencer] is not defined or exclusively owned by Product, Marketing, Sales, Support, or Success. Content Experience often lives in different departments depending on organizational structure, or as an independent vertical that manages all content produced by relevant departments.
->
-> Content Experience is the evolution of content strategy blending with technical communication. It’s an understanding that your content provides self-service experiences not only for your customers, but for potential prospects researching and/or buying your product as well.
->
-> If you understand how your customers and prospects are accessing, consuming, and sharing your technical content, then you can inform Marketing on campaigns to produce, Sales on strategic talking points, Success on how to scale their efforts, and even Product on weaknesses in the current offering (amongst many many other value props). &mdash; [Announcing 2017’s TOP25 Content Experience Influencers and TOP200 Strategists](https://mindtouch.com/resources/announcing-2017s-top25-content-experience-influencers-top200-strategists)
+Let's return to the scenario of the poor photocopy machine that is likely going to be replaced by the new larger fridge, watercooler, and espresso machine in the breakroom. The photocopier's original function was to provide documents &mdash; scans, copies, faxes, etc., of important agreements, proposals, and other documents for review, annotation, signing, and so on.
 
-The more we interact in these other spaces (Marketing, Training, Support, Field Engineering, and more), the more aware we become of their needs. These needs become actionable items that have ripple effects into the documentation and other communications we produce. We begin to adjust our outputs to serve the needs of these groups in more direct ways. This in turn makes the documentation more valuable to these groups, and they begin to use it more because it directly meets their needs.
+What if the photocopier didn't just perform these document-related functions but also did something more? Already, all employees in the department send jobs to the photocopier by way of the network through a printer queue. The photocopier just happens to be the intersection point through which nearly every employee's work flows. Suppose the printer's job-queue software gets an enhancement that amplifies its intelligence about jobs processed. The software captures the document title, metadata, and sender, and then performs some comparison analysis on this print jobs to match up similar document titles with senders. And not just within the same department, but across the entire company?
 
-## Challenges with Content Experience
+Each manager can access a report of documents flowing through the system to see what types of documents are coming through, who is sending them, and more importantly, where similar roles and documents overlap across the entire organization.
 
-Not to draw attention to myself, but I actually made MindTouch's 2017 list of [top 25 content experience influencers](https://mindtouch.com/resources/announcing-2017s-top25-content-experience-influencers-top200-strategists). They announced this list near the beginning of Fall this year. I actually had some exchanges with Ari, who was excited to share the Content Experience Influencer role description with me. At the time, I wasn't that persuaded about the role. I explained:
+Now that photocopier versus fridge / watercooler / espresso machine decision is a lot more complicated. This photocopier has a potentially interesting ability to deliver strategic information to the organization. The department manager, Cornelius, is curious to know what Max is printing so frequently  in the copy room, but more importantly, he's interested to know if other groups handle NDA agreements, and how they process them, because it's a major slow-down in his group. They have to route them through several legal bureaucrats before round-tripping them to customers, and it's insane. Just maybe the photocopier's network and job intelligence can give him some insight, gleaned from other NDA-processing groups, that will help him become a better manager.
 
-> I wish I could speak from more personal experience about how I've implemented a consistent customer experience across multiple touchpoints (Marketing, Docs, Support, and more). But it's a lot for one to tackle. Usually tech docs has its hands full just doing tech docs. I don't see how someone can actually scale their bandwidth into these other areas as an individual contributor.
+Still going for the fridge / watercooler / espresso machine? Or are you now leaning towards the photocopier?
 
-> I agree with the idea and philosophy behind this role. Don't get me wrong. But I'm not sure this topic speaks to me in a way that I could champion it like you might envision. ... I'm afraid I might end up taking a subversive perspective on this one. In my experience, companies expect technical writers to be individual contributors. To fill the role described here, one would have to be a strategic generalist, I think.
+Enabling information flow is can be a value that provides strategic enablement in an organization. But it's a little hard to measure, and the task doesn't entirely connect in with the technical writers main skillset, which involves content development. How can we marry the idea of information flow with the technical writer's strength of content development? This brings me to the next idea station in this essay: Content Experience.
 
-I felt that the list of content influencers ultimately measured the degree to which people promoted the idea of content influence, not necessarily who executed it. And execution seemed impossible. Later, I was somewhat amused yet pleased to see that I made the list of content influencers, even the top 25, because I hadn't considered myself a content strategist nor did I write much about interacting across these other customer touchpoints as a content influencer/strategist. I'd written quite a bit about API documentation the past year, and other concerns more rooted in technical writing.
+{{site.data.alerts.note}}Continue on to read <a href="/2017/12/27/value-of-tech-comm-in-company-part5">part V: Influencing the content experience</a>.{{site.data.alerts.end}}
 
-But writing this essay has caused me to think deeply about this topic. I didn't intend to write a 7,000 word essay, nor did I intend to steer toward information flow and content experience. But as I've worked through the logic labyrinth of value, this is the conclusion I've reached.
-
-I agree that one problem with this expanding influence is that budgets usually don't span across groups. If your tech writers are rooted in Group X, why will Group X care about the impact on Groups A, B, and C? Sure, the tech writer can play an influential role in an organization's information flow and content experience across groups, but how do you make this shift when your primary responsibility is merely documentation for Group X?
-
-Maybe the only solution is to move sufficiently high up the org chart so that the group tech writers are in covers all related groups. But here I am starting to drift into speculation, and have lost the energy to think more thoroughly about these roles until I gather more experience in this area. This essay served its purpose by helping me frame the primary value that I think technical writers can add to an organization, and I feel sufficiently oriented now in the direction I should go. There are many details to work out with information flow and content experience, and I've only scratched the surface. Some addition questions might be as follows?
-
-* How do you make information flow without spamming everyone with ever-increasing email threads?
-* How do you track and measure information flow and content experience?
-* How do you rebrand expectations of your tech writer role, so that people don't pigeonhole you into documentation only?
-* How do you learn to navigate the constantly changing personnel and teams within a large organization?
-* If you spend all day informing other groups and being informed by them, but don't get to writing any documentation, what are your "accomplishments"?
-
-As always, I welcome your feedback about my conclusions and hope to benefit from your experiences and wisdom.
+{% include series/seriesTagValueOfTechComm_next.html %}
