@@ -3,7 +3,7 @@ title: "Part IV: Enabling information flow (Arguments for the value of documenta
 categories:
 - general
 keywords: value, organizations, information flow, content experience
-summary: "Technical writers can add more value by encouraging information flow across disparate groups within an organization (such as Support, Engineering, Marketing, Training, Field Engineering, and more). Encouraging two-way communication not only empowers these groups with better information, it also encourages them to share feedback and input that dramatically improves the documentation as well. However, information flow alone is too tenuous of a value to add, and probably only applies in large organizations."
+summary: "Technical writers can add more value by encouraging information flow across disparate groups within an organization (such as Support, Engineering, Marketing, Training, Field Engineering, and more). Encouraging information flow not only empowers these groups with better knowledge, it also encourages them to share feedback and input that dramatically improves the documentation. However, information flow alone is too tenuous of a value to attribute to technical writers, and probably only applies in large organizations."
 bitlink: http://bit.ly/valuetechcomm4
 weight: 4
 tags: series_value_of_tech_comm

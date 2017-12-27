@@ -15,24 +15,30 @@ published: false
 
 {{site.data.alerts.note}}This is part II in a six-part essay. Read the previous section, <a href="/2017/12/27/value-of-tech-comm-in-company-part2">Reviewing past research"</a> before diving in here. {{site.data.alerts.end}}
 
-Before jumping into the value debate, I want to review some of the research that has been done previously. With this topic, the STC's publications has a rich history of study and exploration.
+Before jumping into the value debate, I want to review some of the research that has been done previously. With this topic, the STC's academic publications have a rich history of study and exploration.
 
 * TOC
 {:toc}
 
-## Value as Financial ROI
+## Value as financial ROI
 
-Bob Watson has a good introduction to the topic in [Measuring the value of technical writing](http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing/). He comments on research from Ginny Redish in her seminal 1995 article, "Adding Value as a Professional Technical Communicator" (Technical communication, 42(1)). Reddish defines value in terms of measurable return on investment (ROI):
+In July 2017, easyDITA published an infographic on [Measuring the Value of Technical Communication](https://easydita.com/infographic-measuring-the-value-of-technical-communication/#comments), based on a survey of 149 technical communicators.
+
+<a href="https://easydita.com/infographic-measuring-the-value-of-technical-communication/#comments"><img src="images/easyditameasuringvalue.png"/></a>
+
+In response to this infographic, Bob Watson wrote a post also titled [Measuring the value of technical writing](http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing/) responding to and evaluating this topic. Watson is an Assistant Professor of Technical Communication at Mercer University, and his research focuses on measuring and improving technical communication methods and practices, so measurement is a topic he is passionate about.
+
+Watson says "in a data-driven world, no data is easily equated with no value" &mdash; hence the importance of measurement. Watson brings up research from Ginny Redish in her 1995 flagship article, "Adding Value as a Professional Technical Communicator" (*Technical Communication*, 42(1), 1995).
+
+Here I'll jump into Redish's article a bit and expand on some of the details. Reddish defines value in terms of measurable return on investment (ROI):
 
 > Managers are interested in the “bottom line”; in costs and benefits, in return on investment. We add value when we contribute to improving an organization’s return on its investment in what we do. In considering this balance, we can focus either on reducing the investment or on improving the return on the investment.
 
-Redish's approach to attempt to measure the value against financial impact follows an argument around concepts of value that would set the general direction around value for many years to come. (However, as we shall later see, this approach doesn't yield practical results.)
+Redish's approach to attempt to measure the value against financial impact set the general direction around value for many years to come. (However, as we shall later see, this approach doesn't yield practical results.)
 
-Redish properly acknowledges the complexity of measuring ROI. She notes how budgets within organizations are often independent, and savings in one group's budget might not matter if your ROI is calculated in another group's budget. Tech docs probably saves a great deal of money in Support, but if Support and Tech Docs are driven by different budgets, grouped in separate divisions, making arguments about ROI might not resonate with these managers. Redish explains, quoting an earlier publication she co-authored:
+Despite her focus on ROI, Redish properly acknowledges the complexity of this approach. She notes how budgets within organizations are often independent, and savings in one group's budget might not matter if your ROI is calculated in another group's budget. For example, Tech Docs probably saves Support a great deal of money (without Tech Docs, Support would have to write a lot more KB articles), but if Support and Tech Docs are driven by different budgets, grouped in separate divisions, making arguments about ROI might not resonate with these managers. Redish explains:
 
-> The manager who must get the manual to the printer on a certain schedule and within a certain cost is not responsible for whatever havoc the manual might cause later on (Redish and Selzer 1985, p. 51).
-
-Continuing with the Support versus Tech Docs example, Support might be more invested in documentation endeavors if both Support and Tech Docs had the same resourcing constraints, but as these groups are often separate, efforts in one aren't always mandated by the other.
+> The manager who must get the manual to the printer on a certain schedule and within a certain cost is not responsible for whatever havoc the manual might cause later on ...
 
 Reddish then explores the myriad ways that you can measure the impact from documentation:
 
@@ -59,17 +65,21 @@ missing answers
 > * Less litigation; lower litigation costs (Mauro 1994; Tchobanoff
 1997)
 
-Overall, the emphasis on proving the tech writer's value is by measuring the ROI. Bob comments on the need (and difficulty) to measure impact:
+Redish's emphasis is on proving the tech writer's value is by directly measuring the ROI.
 
-> if you can’t measure it, then how do you know you have actually delivered it? Further, if you can’t measure it, how can you show improvement in that—(a) whatever it is, it’s now better and (b) it’s better because of a decision you implemented. That’s a trick question. You can’t. So, how can you measure this? &mdash; [Measuring the value of technical writing](http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing)
-
-Bob notes that tech writers have been unable to successfully follow through with these measurements, and so the issue of proving value wasn't merely closed with Redish's article in 1995.
-
-Bob also adds that measuring tech comm's value is further problematic because we aren't starting with a dire situation where tech docs don't exist and confusion is rampant. Instead, we're already in a pretty good spot. He visually depicts this as follows:
+Watson notes that tech writers have been unable to successfully follow through with these measurements, and so the issue of proving value wasn't merely closed with Redish's article in 1995. Why is measurement so problematic? Watson says that one problem is that we aren't starting with a dire situation where tech docs don't exist and confusion is rampant. Instead, we're already in a pretty good spot. He visually depicts this as follows:
 
 <a href="http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing"><img src="/images/ROI_web.png"/></a>
 
-To really measure the value of tech docs, you'd need a scenario where tech docs are totally absent.
+He says that many of the measures (as reported by the easyDITA survey) that tech writers see as the value of tech comm &mdash; increased customer satisfaction, reduced support costs, and reduced training and development costs &mdash; position tech writing "a service or cost center &mdash; one that takes value instead of adds value." This value position is problematic because it will lead managers to further reduce costs:
+
+> When you’re a cost center, the only way to improve (or be recognized as improving) is by reducing costs&mdash;invariably YOUR cost. Is that what the company really wants or do they really want the value you add (but don’t realize it because you haven’t made it visible?
+
+However, as managers attempt to further reduce costs, they end up sacrificing the values of tech comm. If you reduce training costs, for example, you also reduce customer satisfaction.
+
+In evaluating whether tech writers add value or simply reduce costs, he says adding value is a more attractive value proposition but more difficult to measure. He sums up the problem as follows:
+
+> The attraction of a cost-focus is that cost is easy to quantify, but as they say in statistics, not everything that can be counted, counts; and not everything that counts, can be counted [easily].
 
 ## Value as knowledge creation
 

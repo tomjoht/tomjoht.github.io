@@ -116,21 +116,21 @@ Could we end discussions of value by creating documentation that provides value 
 
 ## Conclusion
 
-This essay started out as one post and expanded into six, because I kept searching for what I felt was the right answer. In the end, establishing value doesn't mean selecting one direction and ignoring the others. All of these directions are complementary and help you increase the value of documentation. Increasing information flow and looking at all content across the customer experience are essential activities to creating documentation that simplifies complexity. You can't write the kind of genius-level documentation around complex topics that has tremendous value if you operate solely within the boundaries of your own head. You have to interact widely with these other groups to gather and evaluate the needed information. As such, these interactions are prerequisites, not options.
+This essay started out as one post and expanded into six, because I kept searching for what I felt was the right answer. In the end, establishing value doesn't mean selecting one direction and ignoring the others. All of these directions are complementary and help you increase the value of documentation. Increasing information flow and looking at all content across the customer experience are essential activities to creating documentation that simplifies complexity. You can't write the kind of genius-level documentation around complex topics that has tremendous value if you operate solely within the boundaries of your own head and context. You have to interact widely with these other groups to gather and evaluate user pain points and needed information. As such, these interactions are prerequisites, not options.
 
-Writing this essay also helped me evaluate an idea I recently encountered. The idea was this: Technical writers might act as mere facilitators of the writing and publishing process; they provide the tools for others in the organization to write and publish technical content. They might step in to ensure the content meets basic standards, but the burden of content creation lies with each project team, not the technical writers.
+Writing this essay also helped me evaluate an idea I recently encountered. The idea was this: Technical writers should act as mere facilitators of the writing and publishing process, providing the tools for others in the organization to write and publish technical content. They might review the content to ensure it meets basic standards, but the burden of content development lies with each project team, not the technical writers.
 
-Such an idea severely shortchanges the knowledge value and role that technical writers can and should play. It perpetuates a secretarial status to technical writers and will surely lead to a devaluation of our role, not to mention a lowering of the knowledge assets of the company. Writing this essay helped me value the important knowledge contributions of my own role and see my effort in the proper light.
+Such an idea severely shortchanges the knowledge value that technical writers can and should play. It perpetuates a secretarial status to technical writers and will surely lead to a devaluation of our role, not to mention a lowering of the knowledge assets of the company. Writing this essay helped me value the important knowledge contributions of technical writers and see my effort in the proper light.
 
 ## Action items and takeaways
 
-Readers will form their own conclusions and takeaways, but because I started this essay by saying I needed to reconcile the value question for myself, I'll also end it with my own list of takeaways. I have 5 main conclusions:
+Readers will form their own conclusions and takeaways, but because I started this essay by saying I needed to reconcile the value question for myself, I'll also end it with my own list of takeaways. I have 5 main takeaways:
 
-* Tech writers are a group through which many organizational groups intersect; as such, we can play a pivotal role in improving the customer experience.
-* Tech writers provide high corporate value by creating knowledge assets, not by merely editing or publishing information that engineers write. As such, their primary focus should be knowledge creation.
-* Tech writers must focus on the complexities (pain points) users face &mdash; they can understand these complexities only by interacting with groups across the organization (such as Field Engineering, Support, and Marketing).
+* Tech writers are a group through which many organizational groups intersect; as such, we can play a pivotal role in improving the entire customer experience. Many groups rely on the tools we create for their jobs.
+* Tech writers provide high corporate value by creating knowledge assets, not by merely editing or publishing information that engineers write. As such, our primary focus should be knowledge creation.
+* Tech writers must focus on the complexities (pain points) users face &mdash; we can understand these complexities only by interacting with groups across the organization (such as Field Engineering, Support, and Marketing).
 * Tech writers should promote their knowledge assets across organizational lines; this not only improves information flow but also helps promote the tech writer's role and value to these groups.
-* Measuring your value through metrics is impractical and ill-advised; it is better to gather word-of-mouth perceptions of your value from groups that use your documentation. These interactions will also help inform tech writers about needs in the documentation.
+* Measuring our value through metrics is impractical and ill-advised; it is better to gather word-of-mouth perceptions of our value from groups that use our documentation. These interactions will also help inform us about needs in the documentation.
 
 
 
