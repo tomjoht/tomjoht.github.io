@@ -967,6 +967,11 @@ blockquote {
     border-left: 0px;
 }
 
+blockquote ul {
+  padding: 0px 15px;
+  margin: 0 10px;
+}
+
 blockquote p {
     margin-top: 0px;
 }
