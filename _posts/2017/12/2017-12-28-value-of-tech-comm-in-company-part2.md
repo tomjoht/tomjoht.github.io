@@ -4,7 +4,7 @@ categories:
 - general
 keywords: value, tech comm, research, redish, carliner
 summary: "Before jumping into the value debate, I want to review some of the research that has been done previously. With this topic, the STC's academic publications have a rich history of study and exploration."
-bitlink: http://bit.ly/valuetechcomm2
+bitlink: http://bit.ly/valueargspart2
 weight: 2
 tags: series_value_of_tech_comm
 series: "Value arguments for docs and tech comm"

@@ -621,6 +621,7 @@ div.alert code, h2 code {
 body {
     font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
     font-size:16px;
+    padding-top: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {

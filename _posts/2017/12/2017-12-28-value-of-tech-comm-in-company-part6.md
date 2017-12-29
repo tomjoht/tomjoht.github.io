@@ -4,7 +4,7 @@ categories:
 - general
 keywords: value, organizations, information flow, content experience
 summary: "Technical writers can also deepen the value of the documentation they create by focusing on areas of complexity to users. Complexity not only involves articulating the \"string theory\" parts of a system but also formulating the content in a way that users, regardless of their level, can understand. The task of simplifying complexity can only be achieved by leveraging many perspectives across groups; thus, focusing on simplifying complexity will also achieve goals around enabling information flow and improving the customer experience."
-bitlink: http://bit.ly/valuetechcomm6
+bitlink: http://bit.ly/valueargspart6
 weight: 6
 tags: series_value_of_tech_comm
 series: "Value arguments for docs and tech comm"
