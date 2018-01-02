@@ -58,7 +58,7 @@ In 2018, we'll begin to increase our value by becoming flexperts in domains such
 
 This coming year, we'll begin to understand these other domains and develop a level of depth and expertise across these domains that will make our content objectives more valuable. After all, you can't create content without understanding the context, the user journey, and other needs of the group or domain. Developing this understanding will enrich us somewhat as polymaths or flexperts more than just generalists.
 
-Academics will explore content strategy with more depth in 2018 as well. A call for proposals with the *Technical Communication* journal actually focuses on content strategy:
+Academics will explore content strategy with more depth in the future as well. A call for proposals with the *Technical Communication* journal (for the February 2019 issue) actually focuses on content strategy:
 
 > The aim of the issue is to place content strategy within the larger grid of professions that collaborate and sometimes overlap. In content strategy, the common denominator is the systematization of content. The specialties may range from marketing to product to social to entertainment content; creating a plan to ensure that the right content gets to the right audiences in the right context is what separates a content strategist from a technical communicator, content designer, copywriter, UX writer, and so on. ([Call for Proposals: Special Issue of Technical Communication on Content Strategy](https://www.stc.org/techcomm/call-for-proposals-2/))
 
