@@ -1,9 +1,9 @@
 ---
-title: "Technical communication trends for 2018"
+title: "What technical writing trends will we see in 2018?"
 categories:
 - general
 keywords:
-summary: "Looking at technical communication trends is always a popular topic. Now that 2017 is wrapping up, let's review some tech comm highlights for the year and outline some trends in technical communication for 2018."
+summary: "Looking at technical writing trends is always a popular topic. Now that 2017 is wrapping up, let's review some tech comm highlights for the year and outline some trends in technical communication for 2018."
 bitlink: http://bit.ly/tctrends2017and2018
 ---
 

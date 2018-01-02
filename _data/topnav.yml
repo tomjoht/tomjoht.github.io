@@ -30,6 +30,8 @@ topnav_dropdowns:
 
     - title: Archives
       items:
+        - title: 2018
+          url: /archives-2018/
         - title: 2017
           url: /archives-2017/
         - title: 2016
@@ -60,6 +62,9 @@ topnav_dropdowns:
       - title: Value arguments for docs and tech comm
         url: /2017/12/28/value-of-tech-comm-in-company-part1/
 
+      - title: Visual communication
+        url: /2016/05/01/visualcommunication_course_overview
+      
       - title: Testing documentation
         url: /2015/07/07/testing-your-instructions/
 
@@ -171,10 +176,10 @@ topnav_dropdowns:
         url: /category-writing/
     - title: Other
       items:
+      - title: Guidelines for academic guest posts
+        url: /academic-guest-post-guidelines/
       - title: User-Centered Documentation
         url: http://idratherbewriting.com/ucd-introduction/
-      - title: Visual communication
-        url: /2016/05/01/visualcommunication_course_overview
       - title: JavaScript notes
         url: /javascript/
       - title: DITA notes
