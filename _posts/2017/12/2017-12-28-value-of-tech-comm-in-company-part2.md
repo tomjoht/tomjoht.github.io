@@ -138,7 +138,7 @@ In summary, attempting a quantitative approach to measure ROI will likely be uns
 
 ## Value from focusing on complex (not secretarial) work {#peterson}
 
-The most recent issue of *Technical Communication* explores the value question as well, in Emily January Peterson's "Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace" (*Technical Communication*, 2017).
+The most recent issue of *Technical Communication* explores the value question as well, in Emily January Peterson's [Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace](https://www.stc.org/techcomm/2017/08/01/articulating-value-amid-persistent-misconceptions-about-technical-and-professional-communication-in-the-workplace/) (*Technical Communication*, 2017).
 
 Peterson interviews 39 women in tech comm to see whether others in the company value their role and contributions as technical writers. She finds that many tech writers are essentially treated like secretaries, and their work is minimized as merely fixing grammar or making other cosmetic improvements. Peterson writes,
 
