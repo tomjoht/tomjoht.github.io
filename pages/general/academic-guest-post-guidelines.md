@@ -20,8 +20,11 @@ If you're an academic who has published an article within the past several years
 As part of the practitioner-friendly version of your article, consider the following guidelines:
 
 *   **Limit the word count.** To accommodate shorter attention spans online and optimize for the length of the most popular posts, keep the content between 800 to 1,600 words in length.
+*   **Use shorter paragraphs and subheadings.** For online readability, keep paragraphs somewhat short, such as 3-4 sentences. Also, include more subheadings to facilitate scanning and visual scaffolding.
 *   **Use a first-person point of view.** Feel free to use the first-person point of view ("I") in your article, especially in the first section where you introduce the relevance of the topic. Readers want to know _why_ a particular topic is relevant. Was there an experience or conversation that made this topic relevant to you?
 *   **Minimize the methodology details.** You might want to save some of the methodological details of your study for the journal publication. Practitioners won't be interested to know the full details of how you number crunched the data with this or that statistical method.
+*   **Use everyday examples to illustrate your points.** Consider how examples, anecdotes, or other experiences might convey certain theoretical ideas. Using more familiar and immediate experiences can show how theory applies to work-world interests.
+*   **Define theoretical concepts in 3-5 words.** You can use theoretical terms in your writing, but if you do use unfamiliar words, try to define them in 3-5 words.
 *   **Write the content in Google docs.** I prefer that you write the post in Google docs and share it with me ([tomjoht@gmail.com](mailto:tomjoht@gmail.com)). Google docs allows for easy conversations, editing, word count estimating, and lets me export to Markdown.
 
 ## Sections to include at the end of the article
@@ -37,5 +40,6 @@ At the end of your article, you can include the following information:
 Publishing the article is just the first step. After the post is published, you can gauge more of the impact of your content. Do the following:
 
 *   **Share the post.** Share the link to your post on Twitter, Linkedin, and any other forums where you participate. Include the hashtag `#techcomm`. You may feel uncomfortable promoting yourself, but don't think of it like this. You're sharing yourself &mdash; your ideas, your research, your contributions to the profession &mdash; with others through these social media links.
+*  **Let me know where you've promoted your article.** It will be helpful for me to know where you've promoted your article so that I can get a better feel for what venues (used by academics) might work effectively over time for getting word out and drawing traffic to the posts.
 *   **Respond to comments.** Make one comment below the article to ensure that you receive email notification of any comments. When people comment, try to respond in some way. People like the interaction, even if the response merely agrees or reflects on their comment.
 *   **Analyze metrics**. At the end of the year, I'll send you metrics from Google analytics around your article. The metrics will include the number of views, the average time on page, the geographical location of readers, and other details.
