@@ -8,7 +8,7 @@ summary: "Keeping pace with new technology and information is a core challenge f
 bitlink: http://bit.ly/howtolearnsuccesstw
 ---
 
-*Note: This is a first draft of an article I'm working on for an upcoming issue of the [STC Intercom](http://intercom.stc.org/) focused on research in the workplace.*
+{{site.data.alerts.note}}This is an earlier draft of an article I was working on for an upcoming issue of the <a href="http://intercom.stc.org">STC Intercom</a> focused on research in the workplace. To read the final published version, which incorporates the idea of "research" more than simply "learning," as I do here, see <a href="https://www.stc.org/intercom/2017/12/how-to-research-what-you-need-to-learn-to-be-successful-as-a-technical-writer/">How to Research What You Need to Learn to Be Successful as a Technical Writer</a>. The article appeared in the Nov/Dec 2017 issue. {{site.data.alerts.end}}
 
 ## Challenges we face
 
