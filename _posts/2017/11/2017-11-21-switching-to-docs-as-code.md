@@ -8,3 +8,5 @@ bitlink: http://bit.ly/switchtodocsascode
 ---
 
 You can read the article here: [Case study: Switching tools to docs-as-code](http://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html).
+
+{% include random_ad.html %}

@@ -4,7 +4,7 @@ layout: none
 
 <a href="http://idratherbewriting.com"><img src="http://idratherbewriting.com/images/idratherbewriting-site-logo.png"></a>
 
-{% for post in site.posts reversed limit:7 %}
+{% for post in site.posts limit:3 %}
 <h2>{{post.title}}</h2>
 <p>{{post.summary}} <a href="{{post.bitlink}}">Read more &raquo;</a></p>
 
