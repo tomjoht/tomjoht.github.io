@@ -8,7 +8,7 @@ summary: "I'm giving a presentation called \"Publishing tools for API documentat
 bitlink: http://bit.ly/tctrends2017and2018
 ---
 
-For details, see [Publishing tools for API documentation](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
+For details, see the event description on the WTD San Francisco meetup group: [Publishing tools for API documentation](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
 
 The description is as follows:
 
