@@ -5,10 +5,15 @@ categories:
 - api-doc
 keywords:
 summary: "I'm giving a presentation called \"Publishing tools for API documentation\" at the Write the Docs South Bay meetup group on January 18, 2018. The location for the meetup is Google's Mountain View campus."
-bitlink: http://bit.ly/tctrends2017and2018
+bitlink: http://bit.ly/upcomingwtdsouthbayapipreso
 ---
 
 For details, see the event description on the WTD San Francisco meetup group: [Publishing tools for API documentation](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
+
+**Date:** Jan 18, 2018<br/>
+**Time:** 6:30-8:30pm<br/>
+**Location:** Google Building 1310, 1310 Shorebird Way, Mountain View, CA<br/>
+**Cost:** Free but you must RSVP through<br/> [meetup.com](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
 
 The description is as follows:
 

@@ -4,7 +4,7 @@ categories:
 - general
 keywords:
 summary: "Looking at technical writing trends is always a popular topic. Now that 2017 is wrapping up, let's review some tech comm highlights for the year and outline some trends in technical communication for 2018."
-bitlink: http://bit.ly/tctrends2017and2018
+bitlink: http://bit.ly/techwritingtrends2018
 ---
 
 ## What technical writing trends stood out in 2017?
@@ -31,7 +31,7 @@ Although I don't have quantitative numbers, I think the trends I've highlighted 
 
 What will 2018 bring for the field of tech comm? Here's what I think. **In 2018, tech writers will play more cross-functional, interdisciplinary roles in order to establish value as generalists.**
 
-Let me explain. We all know that for the past few decades, technology has been getting more and more specialized. Knowledge is becoming more extensive, detailed, and deep. The idea of a Renaissance person, one can adeptly navigate across history, science, philosophy, literature, and mathematics, etc. is lost. Today, scholars and professionals study one specific field, going in depth in a particular detail in the field. A 2011 article in the *Harvard Business Review* noted the trend toward "Hyperspecialization," explaining:
+Let me explain. We all know that for the past few decades, technology has been getting more and more specialized. Knowledge is becoming more extensive, detailed, and deep. The idea of a Renaissance person, one who can adeptly navigate across history, science, philosophy, literature, and mathematics, etc. is lost. Today, scholars and professionals study one specific field, going in depth in a particular detail in the field. A 2011 article in the *Harvard Business Review* noted the trend toward "Hyperspecialization," explaining:
 
 > Just as people in the early days of industrialization saw single jobs (such as a pin maker’s) transformed into many jobs (Adam Smith observed 18 separate steps in a pin factory), we will now see knowledge-worker jobs—salesperson, secretary, engineer—atomize into complex networks of people all over the world performing highly specialized tasks. ([The Big Idea: The Age of Hyperspecialization](https://hbr.org/2011/07/the-big-idea-the-age-of-hyperspecialization))
 
