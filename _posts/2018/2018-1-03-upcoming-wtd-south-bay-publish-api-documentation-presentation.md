@@ -13,7 +13,7 @@ For details, see the event description on the WTD San Francisco meetup group: [P
 **Date:** Jan 18, 2018<br/>
 **Time:** 6:30-8:30pm<br/>
 **Location:** Google Building 1310, 1310 Shorebird Way, Mountain View, CA<br/>
-**Cost:** Free but you must RSVP through<br/> [meetup.com](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
+**Cost:** Free but you must RSVP through [meetup.com](https://www.meetup.com/Write-the-Docs-SF/events/246427319/).
 
 The description is as follows:
 
