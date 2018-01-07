@@ -8,7 +8,7 @@ permalink: /advertising/
 
 ## How I increase visibility
 
-I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. In 2017, idratherbewriting.com had an average of 2,100 page views a day. Impressions are tracked through Google Analytics.
+I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. In 2017, idratherbewriting.com had an average of 2,300 page views a day. Impressions are tracked through Google Analytics.
 
 Different ad spaces are more visible than others. You can select from among 3 different ad spaces:
 
@@ -20,18 +20,18 @@ I also offer [product review posts](#review_posts).
 
 ### Sidebar ad space {#sidebarad}
 
-Sidebar ads (125px x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+Sidebar ads (125 x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
 Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
-<img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a single column. They rotate randomly with each page refresh.</figcaption></figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
 
 The cost for sidebar ads is $900 per year.
 
 ### Horizontal Inline Ad Space {#horizontalinlinead}
 
-The Horizontal Inline space (728px x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
+The Horizontal Inline space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
 
 <figure><img src="/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" width="550" height="331" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
@@ -41,7 +41,7 @@ The cost for inline horizontal ads is $1800 per year.
 
 ### Top Banner Ad Space {#topbannerad}
 
-The top banner ad space (500px x 70px) refers to the top section of the site, in the upper-right corner.
+The top banner ad space (500 x 70px) refers to the top section of the site, in the upper-right corner.
 
 <figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" width="600" height="292" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
@@ -55,12 +55,12 @@ The cost for top banner ads is $6,000 per year.
 
 I also offer product review posts to help with visibility. Here are some sample product reviews I wrote previously:
 
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/)
-* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/)
-* [Xeditor, a CMS editor for XML content](http://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
-* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](http://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/)
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
+* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
+* [Xeditor, a CMS editor for XML content](http://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/) (1,000 page views from 2016 to 2017)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](http://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
 
 Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
 
@@ -82,6 +82,10 @@ From Jan 1, 2017 to Dec 31, 2017, idratherbewriting.com had about 845,000 page v
 
 <figure><img src="/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
 
+Here's another slice of analytics:
+
+<figure><img src="/images/2018analyticsuseranalysis.png" alt="Breakdown of analytics" <figcaption></figcaption></figure>
+
 The following table shows a little more detail from Google Analytics (date range is Jan 1 2017 to Dec 31, 2017):
 
 <table>
@@ -97,24 +101,40 @@ The following table shows a little more detail from Google Analytics (date rang
         <td>845,000 (about 2,300 page views a day)</td>
     </tr>
     <tr>
-        <td>Unique page views (unique visits to site)</td>
-        <td>723,000 (about 2,000 visits a day)</td>
+        <td>Sessions (unique visits)</td>
+        <td>534,000</td>
     </tr>
     <tr>
-        <td>Pages per visit</td>
-        <td>1.57 pages</td>
+      <td>Pages per session (unique visit)</td>
+      <td>1.58</td>
     </tr>
     <tr>
-        <td>Users</td>
-        <td>359,000</td>
+        <td>Bounce rate</td>
+        <td>79%/td>
     </tr>
     <tr>
-        <td>New sessions</td>
-        <td>72%</td>
-    </tr>
-    <tr>
-        <td>Average visit duration</td>
+        <td>Average time on page</td>
         <td>2:37 minutes</td>
+    </tr>
+    <tr>
+      <td>New users</td>
+      <td>392,000</td>
+    </tr>
+    <tr>
+      <td>Acquisition of sessions from organic search</td>
+      <td>73%</td>
+    </tr>
+    <tr>
+      <td>Acquisition of sessions from social media</td>
+      <td>2%</td>
+    </tr>
+    <tr>
+      <td>Sessions from social media</td>
+      <td>Twitter (3.1k), Linkedin (2.7k), Facebook (1.4k)</td>
+    </tr>
+    <tr>
+      <td>Acquisition of sessions from direct URLs</td>
+      <td>17%</td>
     </tr>
     </tbody>
 </table>
@@ -123,28 +143,27 @@ A session refers to a unique visit to the site, not counting the number of pages
 
 ## Audience demographics
 
-Google Analytics indicates the following about audience demographics for idratherbewriting.com (for 2016):
+Google Analytics indicates the following about audience demographics for idratherbewriting.com (for 2017):
 
-*  43% of users are from the US, 11% from India, 6% Great Britain, 5% Canada, 3% Germany
-*  64% are using Chrome, 13% Firefox, 11%, Safari, 8% IE
-*  60% use Windows, 19% use Mac
-*  33% of readers are male, 67% female
-*  17% are 18-24 years old, 39% are 25-34 years old, 25% are 35-44 years old
-*  72% are new visitors, 18% are returning visitors
-*  84% arrive by desktop, 13% by mobile, 3% by tablets
-*  38% of mobile comes from iPhone
-*  77% of visitors arrive through Google's organic search
+* 74% of readers use the US English language, 10% use Great Britain English
+* 42% of readers originate from US, 12% from India, 6% from UK, 5% from Canada, 3% from Germany, 2% from Australia
+* Top US cities: New York, Boston, San Francisco, Toronto
+* Top non-US cities: Bengaluru, London, Hyderabad, Pune, Chennai
+* Top browsers: Chrome (67%), Safari (11%), Firefox (10%), Internet Explorer (7%)
+* Top operating systems: Windows (60%), Mac (19%), iOS (8%), Android (8%)
+* 34% of readers are male, 66% are female
+* 18% of readers are 18-24 yrs old, 40% of readers are 25-34 yrs old, 25% are 35-44
+* Most readers are technophiles, shutterbugs, business professionals, movie lovers, and value shoppers
 
 ### Quality of impressions
 
-The quality of impressions depends on the influence of the site. Impressions from a highly influential site carry more weight than impressions from a less influential site.
-
-Is idratherbewriting.com an influential site? Yes. MindTouch regularly ranks the most influential people in tech comm. They have consistently named in their top influencers lists since they started publishing reports.
+The quality of impressions depends on the influence of the site. Impressions from a highly influential site carry more weight than impressions from a less influential site. MindTouch regularly ranks the most influential people in tech comm. They have consistently named in their top influencers lists since they started publishing reports.
 
 <figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class=" wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
 
 See the following links for more details:
 
+*  [Top 25 Content Experience Influencer 2017](https://mindtouch.com/resources/announcing-2017s-top25-content-experience-influencers-top200-strategists)
 *  [Top 25 Content Strategist Influencer 2016](https://mindtouch.com/resources/announcing-top-25-content-strategist-influencers-2016)
 *  [Most Valuable Professional #2014](http://www.drexplain.com/mvp/tom-johnson/), Indigo Byte Systems.
 *  [#3 Influencer in #techcomm in 2014](http://www.mindtouch.com/blog/2014/04/25/top-50-most-influential-techcomm-experts-lets-connect-at-the-stc-summit-2014-techwhirl-or-writethedocs)
@@ -166,22 +185,21 @@ The cost for each ad space is as follows:
     </thead>
     <tbody>
     <tr>
-        <td>Sidebar graphic (125px x 125px)</td>
+        <td>Sidebar graphic (125 x 125px)</td>
         <td>$900/year</td>
     </tr>
     <tr>
-        <td>Horizontal inline post view (728px x 90px)</td>
+        <td>Horizontal inline post view (728 x 90px)</td>
         <td>$1,800/year</td>
     </tr>
     <tr>
-        <td>Top Banner space (500px x 70px)</td>
+        <td>Top Banner space (500 x 70px)</td>
         <td>$6,000/year</td>
     </tr>
     </tbody>
 </table>
 
-**CPM**. Here's a breakdown of ad costs in CPM (costs per mille). Assuming 778,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.15 CPM, for the horizontal inline view $2.31 CPM, and for the top banner ad space, $7.71 CPM. These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).
-
+**CPM**. Here's a breakdown of ad costs in CPM (costs per mille). Assuming 845,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.06 CPM, for the horizontal inline view $2.13 CPM, and for the top banner ad space, $7.10 CPM (cpm = cost divided by hits/1000). These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).
 
 ## Billing
 
