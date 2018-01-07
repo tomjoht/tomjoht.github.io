@@ -4,11 +4,11 @@ title: Advertising
 permalink: /advertising/
 ---
 
-<img style="float:right; padding:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>I can help increase your product or service's visibility more than any other tech comm site online. idratherbewriting.com is one of the largest hubs where technical writers go to stay updated with the latest technical writing news, trends, and information in the industry.
+<img style="float:right; padding:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>I can help increase your product or service's visibility more than any other tech comm site online. idratherbewriting.com is one of the most popular sites where technical writers go to stay updated with the latest technical writing news, trends, and information in the industry.
 
 ## How I increase visibility
 
-I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. In 2016, idratherbewriting.com had an average of 2,100 page views a day. Impressions are tracked through Google Analytics.
+I help increase visibility of your product primarily through ad impressions. An impression occurs when someone loads a page where your ad is visible. In 2017, idratherbewriting.com had an average of 2,100 page views a day. Impressions are tracked through Google Analytics.
 
 Different ad spaces are more visible than others. You can select from among 3 different ad spaces:
 
@@ -22,7 +22,7 @@ I also offer [product review posts](#review_posts).
 
 Sidebar ads (125px x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
-Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensions must be exactly 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
+Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a single column. They rotate randomly with each page refresh.</figcaption></figure>
@@ -78,27 +78,27 @@ I also infuse the posts with SEO techniques when I write them. Almost no one els
 
 ### Number of impressions per year
 
-From Jan 1, 2016 to Dec 31, 2016, idratherbewriting.com had about 778,000 page views. Here's a chart from Google Analytics.
+From Jan 1, 2017 to Dec 31, 2017, idratherbewriting.com had about 845,000 page views. Here's a chart from Google Analytics.
 
-<figure><img src="/images/2017googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 778,000 page views per year, or 2,100 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 778,000 page views per year, or 2,100 page views a day.</figcaption></figure>
+<figure><img src="/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
 
-The following table shows a little more detail from Google Analytics (date range is Jan 1 2016 to Dec 31, 2016):
+The following table shows a little more detail from Google Analytics (date range is Jan 1 2017 to Dec 31, 2017):
 
 <table>
     <thead>
     <tr>
-        <th>Jan 1, 2016 to Dec 31, 2016</th>
+        <th>Jan 1, 2017 to Dec 31, 2017</th>
         <th>Metric</th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td>Total Sessions (unique visits to site)</td>
-        <td>497,134 (about 1,360 visits a day)</td>
+        <td>Page Views</td>
+        <td>845,000 (about 2,300 page views a day)</td>
     </tr>
     <tr>
-        <td>Page Views</td>
-        <td>778,000 (about 2,100 page views a day)</td>
+        <td>Unique page views (unique visits to site)</td>
+        <td>723,000 (about 2,000 visits a day)</td>
     </tr>
     <tr>
         <td>Pages per visit</td>
@@ -114,7 +114,7 @@ The following table shows a little more detail from Google Analytics (date rang
     </tr>
     <tr>
         <td>Average visit duration</td>
-        <td>1:34 minutes</td>
+        <td>2:37 minutes</td>
     </tr>
     </tbody>
 </table>

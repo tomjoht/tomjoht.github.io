@@ -2,13 +2,16 @@
 title: Latest Posts
 layout: page
 focus: homepage
+redirect_from:
+- /therapeuten/chris-lenaerts/
+- /therapieën/
 ---
 <div class="post-content">
 
     <div class="home-post-title">
         {% for post in paginator.posts %}
       {% unless post.categories contains "family" %}
-    
+
         <div class="entry"><a href="{{ post.url }}">{{ post.title }}</a>
             <div class="home-post-meta">
                 {{ post.date | date: "%b %-d, %Y" }} &#8226;
