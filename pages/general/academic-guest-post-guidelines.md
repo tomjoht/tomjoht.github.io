@@ -19,7 +19,7 @@ If you're an academic who has published an article within the past several years
 
 As part of the practitioner-friendly version of your article, consider the following guidelines:
 
-*   **Limit the word count.** To accommodate shorter attention spans online and optimize for the length of the most popular posts, keep the content between 800 to 1,600 words in length.
+*   **Limit the word count.** To accommodate shorter attention spans online and optimize for the length of the most popular posts, keep the content to about 1,600 words in length.
 *   **Use shorter paragraphs and subheadings.** For online readability, keep paragraphs somewhat short, such as 3-4 sentences. Also, include more subheadings to facilitate scanning and visual scaffolding.
 *   **Use a first-person point of view.** Feel free to use the first-person point of view ("I") in your article, especially in the first section where you introduce the relevance of the topic. Readers want to know _why_ a particular topic is relevant. Was there an experience or conversation that made this topic relevant to you?
 *   **Minimize the methodology details.** You might want to save some of the methodological details of your study for the journal publication. Practitioners won't be interested to know the full details of how you number crunched the data with this or that statistical method.

@@ -212,6 +212,8 @@ I also infuse the posts with SEO techniques when I write them. Almost no one els
 
 If you have questions, [contact me](http://idratherbewriting.com/contact).
 
+{{site.data.alerts.tip}}To see more metrics and data about my site for 2017, see <a href="/2018/1/08/comprehensive-metrics-for-idratherbewriting-in-2017">Comprehensive 2017 Metrics for I'd Rather Be Writing</a>.{{site.data.alerts.tip}}
+
 [google-xeditor]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xeditor
 [google-hyperste]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hyperste
 [google-paligo]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=paligo
