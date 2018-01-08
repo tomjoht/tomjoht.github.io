@@ -92,15 +92,15 @@ The cost for top banner ads is $6,000 per year.
 
 From Jan 1, 2017 to Dec 31, 2017, idratherbewriting.com had about 845,000 page views. Here's a chart from Google Analytics.
 
-<figure><img src="/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." width="550" height="304" class="size-medium wp-image-22444" /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
+<figure><img src="/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
 
-(There was a slight dip mid-year because I split out the [API doc site](http://idratherbewriting.com/learnapidoc/) into a separate Jekyll project and didn't have analytics configured.)
+(There was a slight dip mid-year because I split out the [API doc site](http://idratherbewriting.com/learnapidoc/) into a separate Jekyll project and didn't have analytics configured correctly for a while.)
 
 Here's another slice of analytics focusing more on audience:
 
 <figure><img src="/images/2018analyticsuseranalysis.png" alt="Breakdown of analytics" /> <figcaption></figcaption></figure>
 
-How do "page views" and "sessions" differ? A page view is when the page loads, regardless of whether it's the same visitor or a different visitor. A session refers to a *unique visit* to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.58.
+{{site.data.alerts.note}} How do "page views" and "sessions" differ? A page view is when the page loads, regardless of whether it's the same visitor or a different visitor. A session refers to a *unique visit* to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.58.{{site.data.alerts.end}}
 
 The following table shows a little more detail from Google Analytics (date range is Jan 1 2017 to Dec 31, 2017). These metrics aren't all shown from the above screenshots:
 
@@ -112,7 +112,7 @@ The following table shows a little more detail from Google Analytics (date rang
     <thead>
     <tr>
         <th>Jan 1, 2017 to Dec 31, 2017</th>
-        <th>Metric</th>
+        <th>Number</th>
     </tr>
     </thead>
     <tbody>
@@ -129,7 +129,7 @@ The following table shows a little more detail from Google Analytics (date rang
       <td>1.58</td>
     </tr>
     <tr>
-        <td><b>Bounce rate (visitors who viewed 1-page only)</b></td>
+        <td><b>Bounce rate (visitors who viewed one page only)</b></td>
         <td>79%</td>
     </tr>
     <tr>
@@ -161,8 +161,8 @@ Google Analytics indicates the following about audience demographics for 2017:
 
 * 74% of readers read US English language, 10% read Great Britain English
 * 42% of readers originate from US, 12% from India, 6% from UK, 5% from Canada, 3% from Germany, 2% from Australia
-* Top US cities are New York, Boston, San Francisco, Toronto
-* Top non-US cities are Bengaluru, London, Hyderabad, Pune, Chennai
+* Top US cities are New York, Boston, San Francisco
+* Top non-US cities are Bengaluru, Toronto, London, Hyderabad, Pune, Chennai
 * Top browsers are Chrome (67%), Safari (11%), Firefox (10%), Internet Explorer (7%)
 * Top operating systems are Windows (60%), Mac (19%), iOS (8%), Android (8%)
 * 34% of readers are male, 66% are female

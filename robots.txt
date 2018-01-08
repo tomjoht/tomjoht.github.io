@@ -1,1 +1,2 @@
 Sitemap: http://idratherbewriting.com/sitemap.xml
+Sitemap: http://idratherbewriting.com/learnapidoc/sitemap.xml

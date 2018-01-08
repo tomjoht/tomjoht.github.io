@@ -23,7 +23,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-redirect-from
-  - jekyll-paginate]
+  - jekyll-paginate
 
 url: http://idratherbewriting.com
 
