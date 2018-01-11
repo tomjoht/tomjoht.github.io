@@ -326,7 +326,7 @@ Hmmm, *I* would click on each of these articles. So maybe there is something to 
 
 In 2008, I observed that the most popular posts have lists in the titles, but I decided that making laundry lists of everything was artificial and suggested superficial thinking rather than deeper structured arguments (see [Three Notable Characteristics of Top 10 Posts: Lists, Headings, Images](http://idratherbewriting.com/2008/01/09/three-notable-characteristics-of-top-10-posts-lists-headings-images/)).
 
-## Realization #3: The ideal content length is ... long (1,600+ words)
+### Realization #3: The ideal content length is ... long (1,600+ words)
 
 I once read that the ideal length for the most popular posts was 1,600 words &mdash; see [Clive Thompson on How Tweets and Texts Nurture In-Depth Analysis](https://www.wired.com/2010/12/st_thompson_short_long/). This seemed to run against earlier advice about "optimized" lengths for online content, which typically put the recommended word length at around 500-800 words due to shorter online attention spans. Is the ideal length of online content really twice that?
 
