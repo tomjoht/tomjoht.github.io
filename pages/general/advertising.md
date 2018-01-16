@@ -202,7 +202,7 @@ These review posts aren't merely marketing material converted into a blog post. 
 
 If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
 
-Each product review post costs $600 per post. If you're already advertising on my site, I drop the price to $300. I will write as many product review posts as you want during the year.
+Each product review post costs $500 per post. I will write as many product review posts as you want during the year.
 
 I always review these posts with you and, when published, I identify them as being sponsored posts.
 
