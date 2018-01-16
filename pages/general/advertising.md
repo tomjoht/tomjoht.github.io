@@ -132,10 +132,10 @@ The following table shows a little more detail from Google Analytics (date rang
         <td><b>Bounce rate (visitors who viewed one page only)</b></td>
         <td>79%</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td><b>Average time on page</b></td>
         <td>2:37 minutes</td>
-    </tr>
+    </tr> -->
     <tr>
       <td><b>New users</b></td>
       <td>392,000</td>
@@ -212,7 +212,7 @@ I also infuse the posts with SEO techniques when I write them. Almost no one els
 
 If you have questions, [contact me](http://idratherbewriting.com/contact).
 
-{{site.data.alerts.tip}}To see more metrics and data about my site for 2017, see <a href="/2018/1/08/comprehensive-metrics-for-idratherbewriting-in-2017">Comprehensive 2017 Metrics for I'd Rather Be Writing</a>.{{site.data.alerts.tip}}
+{{site.data.alerts.tip}}To see more metrics and data about my site for 2017, see <a href="http://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/">Unexpected realizations after a comprehensive review of my 2017 site metrics</a>.{{site.data.alerts.end}}
 
 [google-xeditor]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xeditor
 [google-hyperste]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hyperste

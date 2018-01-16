@@ -1,5 +1,5 @@
 ---
-title: "4 Unexpected realizations after a comprehensive review of my 2017 site metrics"
+title: "Unexpected realizations after a comprehensive review of my 2017 site metrics"
 categories:
 - general
 keywords: trends, analytics, hits, interests, topics
