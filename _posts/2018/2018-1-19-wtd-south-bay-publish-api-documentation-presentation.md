@@ -8,7 +8,6 @@ categories:
 keywords:
 summary: "I recently gave a presentation called \"Publishing tools for API documentation\" to the Write the Docs South Bay meetup group on January 18, 2018. The location for the meetup was Google's Mountain View campus."
 bitlink: http://bit.ly/upcomingwtdsouthbayapipreso
-redirect_from: /2018/01/03/upcoming-wtd-south-bay-publish-api-documentation-presentation/
 categories:
 - writing
 
@@ -19,14 +18,14 @@ podcast_file_size: 48.3 MB
 podcast_duration: "01:05:21"
 podcast_length: 48252845
 redirect_from:
-- /2017/12/01/how-to-become-a-voractious-reader/
+- /2018/01/03/upcoming-wtd-south-bay-publish-api-documentation-presentation/
 ---
 
 ## Slides
 
 Here are the slides:
 
-<a href="http://idratherbewriting.com/publishing-api-docs/"><img src="/images/publishing-api-docs-thumb.png" /></a>
+<a href="http://idratherbewriting.com/publishing-api-docs/"><img alt="Publishing API documentation" src="/images/publishing-api-docs-thumb.png" /></a>
 
 ## Audio
 
