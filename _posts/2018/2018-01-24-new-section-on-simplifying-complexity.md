@@ -7,7 +7,7 @@ summary: "In an earlier post on value, I mentioned that in 2018, I plan to explo
 bitlink: http://bit.ly/
 ---
 
-You can read the post here: [Switching between macro and micro views with embedded maps](idratherbewriting.com/simplifying-complexity/macro-micro.html).
+You can read the post here: [Switching between macro and micro views with embedded maps](http://idratherbewriting.com/simplifying-complexity/macro-micro.html).
 
 The micro-macro principle is as follows:
 
