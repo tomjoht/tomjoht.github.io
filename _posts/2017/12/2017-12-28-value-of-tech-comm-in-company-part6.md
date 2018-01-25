@@ -111,5 +111,4 @@ On the other hand, suppose you were to push back on your project scope and limit
 
 {{site.data.alerts.tip}}I created a new section on my site for topics and techniques related to simplifying complexity. Click the <b>Complexity</b> button on my main navigation bar, or go directly here: <a href="http://idratherbewriting.com/simplifying-complexity/index.html">idratherbewriting.com/simplifying-complexity</a>.{{site.data.alerts.end}}
 
-
 {% include series/seriesTagValueOfTechComm_next.html %}
