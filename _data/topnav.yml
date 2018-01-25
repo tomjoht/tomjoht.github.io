@@ -6,6 +6,9 @@ topnav:
     - title: Beginners
       url: /category-beginners/
 
+    - title: Complexity
+      url: /simplifying-complexity
+
     - title: API doc
       url: /learnapidoc/
 
@@ -64,7 +67,7 @@ topnav_dropdowns:
 
       - title: Visual communication
         url: /2016/05/01/visualcommunication_course_overview
-      
+
       - title: Testing documentation
         url: /2015/07/07/testing-your-instructions/
 
@@ -134,7 +137,7 @@ topnav_dropdowns:
         external_url: http://stackoverflow.com/questions/tagged/jekyll
 
 
-    - title: Categories
+    - title: Tags
       items:
       - title: API documentation
         url: /category-api-doc/
