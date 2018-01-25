@@ -33,7 +33,7 @@ Here are the slides:
 
 ## Video
 
-The video is forthcoming ... stay tuned.
+<iframe width="640" height="360" src="https://www.youtube.com/embed/__vSXJn-JQo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Event Description
 
