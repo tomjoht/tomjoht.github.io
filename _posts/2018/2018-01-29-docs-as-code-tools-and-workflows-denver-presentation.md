@@ -1,14 +1,13 @@
 ---
-title: "Upcoming presentation: Docs-as-code tools and workflows (March 9, 2018)"
+title: "Upcoming presentation in Denver: Docs-as-code tools and workflows (March 9, 2018)"
 categories:
 - api-doc
 keywords:
-summary: "I'm giving a presentation to the WTD Denver meetup on Docs-as-code workflows and tools on March 9, 2018."
+summary: "I'm giving a presentation to the Rocky Mountain STC on \"Docs-as-code workflows\" and tools on March 9, 2018. In this presentation, I'll explore what happens when you treat documentation as if it were software code, subjecting to the same tools, workflows, collaborative processes, and other developer practices. The docs-as-code approach currently saturates the developer doc space."
 bitlink: http://bit.ly/docascodeworkflowstoolswtddenver
-published: false
 ---
 
-You can view the event details here...
+The event is hosted through the [Rocky Mountain STC group](http://www.stcrmc.org/). You can view the event details here: [Docs-as-code workflows and tools](https://www.eventbrite.com/e/docs-as-code-workflows-and-tools-tickets-42621205172).
 
 > ## Docs-as-code workflows and tools
 >
@@ -34,7 +33,19 @@ You can view the event details here...
 
 ## Event details
 
-Location:
+**Location:**
 
+Metropolitan State University of Denver: Room CN 113 <br/>
+1198 11th Street<br/>
+Denver, CO 80204<br/>
 
-Time: 
+**Time:**
+
+Fri, March 9, 2018<br/>
+6:00 PM – 8:30 PM MST
+
+**Cost:**
+
+The cost is between $0 to 10, depending on whether you're a student or chapter member. You can register for the event through [Eventbrite](https://www.eventbrite.com/e/docs-as-code-workflows-and-tools-tickets-42621205172).
+
+{% include random_ad.html %}

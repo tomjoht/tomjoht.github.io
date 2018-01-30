@@ -3,10 +3,11 @@ title: "Upcoming API workshop in Denver (March 10, 2018)"
 categories:
 - api-doc
 keywords:
-summary: "I'm giving a half-day API workshop in Denver on March 10, 2018. Topics in the workshop will include documenting reference API content, documenting non-reference topics, the OpenAPI specification and Swagger, and publishing tools for API docs."
+summary: "I'm giving a half-day API workshop in Denver on March 10, 2018. Topics in the workshop will include  reference API content (endpoints, parameters, requests, etc.), non-reference topics (status and error codes, rate limiting, getting started, sample apps), creating an OpenAPI specification and Swagger UI output, and publishing tools for API docs (from static site generators to hosted platforms designed for APIs)."
 bitlink: http://bit.ly/apiworkshopdenver
-published: false
 ---
+
+The event is sponsored by the [Rocky Mountain STC chapter](http://www.stcrmc.org/). You can learn more about the event here: [API Documentation Workshop](https://www.eventbrite.com/e/api-documentation-workshop-tickets-42621663543).
 
 The workshop will cover many of the topics from my [API doc course](http://idratherbewriting.com/learnapidoc/) Here's the workshop description.
 
@@ -37,5 +38,22 @@ The workshop will cover many of the topics from my [API doc course](http://idrat
 > Finally, we’ll explore different ways to publish REST API documentation, looking at tools such as GitHub, Jekyll, and other docs-as-code approaches. You’ll learn how to choose the right source format, manage your content through version control, build from the server with continuous delivery, and more.
 >
 > This workshop covers a broad range of topics, so the depth we go into with each area can vary based on the participants' questions and interests. My approach is to first learn what questions and information needs participants have and then give emphasis to those areas. Questions and discussion throughout will be welcome. We will do some hands-on activities during the workshop, but we won't get too detailed with technical activities, sticking more with high-level concepts and techniques.
+
+## Event details
+
+**Date and time**
+
+Sat, March 10, 2018<br/>
+9:00 AM – 1:30 PM MST
+
+**Location**
+
+Metropolitan State University of Denver: Room CN113 <br/>
+1198 11th Street<br/>
+Denver, CO 80204<br/>
+
+**Cost**
+
+The cost ranges from $10-75 depending on whether you're a member or student. You can sign up through [Eventbrite](https://www.eventbrite.com/e/api-documentation-workshop-tickets-42621663543).
 
 {% include random_ad.html %}
