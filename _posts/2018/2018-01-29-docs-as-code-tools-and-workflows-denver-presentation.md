@@ -3,11 +3,15 @@ title: "Upcoming presentation in Denver: Docs-as-code tools and workflows (March
 categories:
 - api-doc
 keywords:
-summary: "I'm giving a presentation to the Rocky Mountain STC on \"Docs-as-code workflows\" and tools on March 9, 2018. In this presentation, I'll explore what happens when you treat documentation as if it were software code, subjecting to the same tools, workflows, collaborative processes, and other developer practices. The docs-as-code approach currently saturates the developer doc space."
+summary: "I'm giving a presentation to the Rocky Mountain STC on \"Docs-as-code workflows and tools\" on March 9, 2018. The docs-as-code approach is most common in the developer doc space. In this presentation, I'll explore the upsides and downsides of treating documentation as software code, and what details are involved in adopting engineering tools, workflows, collaborative processes, and other practices. The presentation will include a number of concrete examples and demos."
 bitlink: http://bit.ly/docascodeworkflowstoolswtddenver
 ---
 
 The event is hosted through the [Rocky Mountain STC group](http://www.stcrmc.org/). You can view the event details here: [Docs-as-code workflows and tools](https://www.eventbrite.com/e/docs-as-code-workflows-and-tools-tickets-42621205172).
+
+## Event description
+
+Here's the event description:
 
 > ## Docs-as-code workflows and tools
 >

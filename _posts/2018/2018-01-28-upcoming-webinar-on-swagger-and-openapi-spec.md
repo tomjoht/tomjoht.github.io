@@ -7,7 +7,15 @@ summary: "I'm giving a virtual presentation to the STC San Diego chapter and WTD
 bitlink: http://bit.ly/stcsdpresoswaggeropenapi
 ---
 
-You can read the details on the STC San Diego site here: [February Meeting: Swagger UI and the Open API Specification with Tom Johnson](https://www.stc-sd.org/index.php/events/february-meeting-swagger-ui-and-the-open-api-specification-with-tom-johnson/), or on the [Write the Docs - San Diego site here](https://www.meetup.com/Write-the-Docs-San-Diego/). Here's the presentation description:
+You can read the details in either the STC or WTD event pages:
+
+* [STC San Diego](https://www.stc-sd.org/index.php/events/february-meeting-swagger-ui-and-the-open-api-specification-with-tom-johnson/)
+* [Write the Docs - San Diego](https://www.meetup.com/Write-the-Docs-San-Diego/)
+
+
+## Presentation description
+
+Here's the presentation description:
 
 >## Swagger UI and the OpenAPI specification
 >
@@ -22,9 +30,9 @@ You can read the details on the STC San Diego site here: [February Meeting: Swag
 **Date:** February 13, 2018 <br/>
 **Time:** 6:00-8:30pm
 
-You can register through Eventbrite on the [STC San Diego site](https://www.stc-sd.org/index.php/events/february-meeting-swagger-ui-and-the-open-api-specification-with-tom-johnson/).
+You can register through [Eventbrite](https://www.stc-sd.org/index.php/events/february-meeting-swagger-ui-and-the-open-api-specification-with-tom-johnson/).
 
-The event is open to everyone &mdash; you don't have to be a member of STC or WTD to attend it. These are just the hosts.
+The event is open to everyone &mdash; you don't have to be a member of STC or WTD to attend it. 
 
 
 {% include random_ad.html %}

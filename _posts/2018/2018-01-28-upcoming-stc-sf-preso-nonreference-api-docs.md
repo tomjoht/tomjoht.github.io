@@ -7,7 +7,11 @@ summary: "I'm giving a presentation to the STC San Francisco chapter called \"Be
 bitlink: http://bit.ly/stcsfpresononrefapicontent
 ---
 
-You can read the event details on the [STC San Francisco site](https://stc-sf.org/). Here's the description:
+You can read the event details on the [STC San Francisco site](https://stc-sf.org/).
+
+## Event description
+
+Here's the description:
 
 > ## Beyond mere endpoint reference — the overlooked content in API documentation
 > Most discussions about API documentation center on the reference content — the endpoints, parameters, sample requests, and responses, and so on. But actually, the reference docs make up only a fraction of the total documentation related to an API. API documentation also includes how-to topics, tutorials, and other conceptual information. In this presentation, we’ll dive into the non-reference content that is typically found in API documentation. Some of these non-reference sections include the following:
