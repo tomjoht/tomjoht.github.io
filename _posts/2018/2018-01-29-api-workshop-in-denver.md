@@ -7,7 +7,7 @@ summary: "I'm giving a half-day API workshop in Denver on March 10, 2018. Topics
 bitlink: http://bit.ly/apiworkshopdenver
 ---
 
-The event is sponsored by the [Rocky Mountain STC chapter](http://www.stcrmc.org/). You can learn more about the event here: [API Documentation Workshop](https://www.eventbrite.com/e/api-documentation-workshop-tickets-42621663543).
+The event is sponsored by the [Rocky Mountain STC chapter](http://www.stcrmc.org/) and [Write the Docs Denver](https://www.meetup.com/Write-the-Docs-Boulder-Denver/events/past/). You can learn more about the event here: [API Documentation Workshop](https://www.eventbrite.com/e/api-documentation-workshop-tickets-42621663543).
 
 ## Event description
 
