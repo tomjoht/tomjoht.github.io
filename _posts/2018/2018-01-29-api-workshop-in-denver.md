@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 summary: "I'm giving a half-day API workshop in Denver on March 10, 2018. Topics in the workshop will include  reference API content (endpoints, parameters, requests, etc.), non-reference topics (status and error codes, rate limiting, getting started, sample apps), creating an OpenAPI specification and Swagger UI output, and publishing tools for API docs (such as static site generators, hosted API platforms, and more)."
-bitlink: http://bit.ly/apiworkshopdenver
+bitlink: http://bit.ly/apiworkshopdenvertom
 ---
 
 The event is sponsored by the [Rocky Mountain STC chapter](http://www.stcrmc.org/) and [Write the Docs Denver](https://www.meetup.com/Write-the-Docs-Boulder-Denver/events/past/). You can learn more about the event here: [API Documentation Workshop](https://www.eventbrite.com/e/api-documentation-workshop-tickets-42621663543).
