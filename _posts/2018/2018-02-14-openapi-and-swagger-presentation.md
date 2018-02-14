@@ -1,5 +1,5 @@
 ---
-title: "Recording of presentation on Swagger UI and the OpenAPI spec (for STC and WTD San Diego)"
+title: "Recording of OpenAPI and Swagger presentation (for STC and WTD San Diego)"
 categories:
 - api-doc
 - podcasts
@@ -22,7 +22,7 @@ You can watch two versions of the video. If you want the STC San Diego version t
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ysw2dMPOKbo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-I didn't like how my talking head seemed to squish the video over to the left, so I also uploaded my own recording. For the video from my view, which excludes the talking head and expands the window full screen, and also shows the chat window and occasional webinar controls, see this video:
+I didn't like how my talking head seemed to squish the video over to the left, so I also uploaded my own recording. This second recording excludes the talking head and expands the window full screen, and also shows the chat window and occasional webinar controls.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gcDSL-8pkvU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
