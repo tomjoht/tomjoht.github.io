@@ -99,4 +99,4 @@ I marched in the January 2017 Women's March in Washington DC. I traveled in a ca
 * [Video candidate statement](http://bit.ly/pambrewer)
 * [STC election page](https://www.stc.org/wiki/elections/2018-election-slate/pam-brewer/)
 * [STC official blog post](https://www.stc.org/notebook/meet-candidates-pam-estes-brewer-stc-vice-president/)
-* Email: [brewer_pe@mercer.edu](mailto=brewer_pe@mercer.edu)
+* Email: <a href="mailto:brewer_pe@mercer.edu">brewer_pe@mercer.edu</a>
