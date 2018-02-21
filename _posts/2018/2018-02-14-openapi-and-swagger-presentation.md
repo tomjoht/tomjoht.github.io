@@ -6,7 +6,7 @@ categories:
 - stitcher
 keywords:
 summary: "I recently gave a presentation to the STC San Diego chapter and WTD San Diego group called \"Swagger UI and the OpenAPI specification\" (February 13, 2018). You can view a recording of the presentation, browse the slides, and listen to the audio here."
-bitlink: http://bit.ly/stcsdpresoswaggeropenapi
+bitlink: http://bit.ly/recordingopenapiswaggersandiego
 redirect_from:
 - /2018/01/28/upcoming-webinar-on-swagger-and-openapi-spec/
 image: http://idratherassets.com/wp-content/idratherbewritinglogo.png

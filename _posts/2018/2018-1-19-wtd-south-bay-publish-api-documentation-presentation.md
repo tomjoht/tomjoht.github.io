@@ -6,8 +6,8 @@ categories:
 - podcasts
 - stitcher
 keywords:
-summary: "I recently gave a presentation called \"Publishing tools for API documentation\" to the Write the Docs South Bay meetup group on January 18, 2018. The location for the meetup was Google's Mountain View campus."
-bitlink: http://bit.ly/upcomingwtdsouthbayapipreso
+summary: "I recently gave a presentation called \"Publishing tools for API documentation\" to the Write the Docs South Bay meetup group on January 18, 2018. You can view a recording of the presentation, browse the slides, and listen to the audio here."
+bitlink: http://bit.ly/recordingwtdsouthbayapipresopubtools
 categories:
 - writing
 

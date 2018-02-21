@@ -5,6 +5,7 @@ categories:
 keywords:
 summary: "I'm giving a presentation to the STC San Francisco chapter called \"Beyond mere endpoint reference — the overlooked content in API documentation\" on February 21, 2018."
 bitlink: http://bit.ly/stcsfpresononrefapicontent
+
 ---
 
 You can read the event details on the [STC San Francisco site](https://stc-sf.org/).
