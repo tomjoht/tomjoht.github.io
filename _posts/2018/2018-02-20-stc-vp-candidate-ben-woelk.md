@@ -37,7 +37,7 @@ As a 501c3 and a formal organization, STC has been able to work with government 
 
 [Write the Docs (WTD)](http://www.writethedocs.org/) is a grassroots community with a loose organizational structure and is primarily concerned with software documentation. As a friend has described, it's adept at F2F meetings and online discussions. It has a totally different mission, structure, and membership engagement strategy.
 
-[ISTC (International Society for Technical Communication)](http://www.istc.org.uk/) has a primarily UK-based membership. It's led by volunteers and outsources its administrative functions. There are Area Groups that don't hold funds. Its members work primarily in small IT-focused firms. ISTC doesn't offer courses and there are no TC programs at the University level. (Thank you to Ellis Pratt for providing this information for me.)
+[ISTC (Institute of Scientific and Technical Communicators)](http://www.istc.org.uk/) has a primarily UK-based membership. It's led by volunteers and outsources its administrative functions. There are Area Groups that don't hold funds. Its members work primarily in small IT-focused firms. ISTC doesn't offer courses and there are no TC programs at the University level. (Thank you to Ellis Pratt for providing this information for me.)
 
 [tekom Europe](http://www.technical-communication.org/about-tekom-europe.html) is a European-based association founded in 2013. Its growth has been rapid. It works to organize groups of practitioners and is a lobby organization that engages at the EU level on policy development and worker education. It's also involved in the development of international standards.
 
