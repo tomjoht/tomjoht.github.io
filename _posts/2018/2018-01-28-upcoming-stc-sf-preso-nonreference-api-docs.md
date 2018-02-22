@@ -35,6 +35,12 @@ Here's the description:
 >
 > **Sample apps and SDKs.** Although most APIs are language agnostic, you often provide client SDKs in specific programming languages, such as Java or C++. A single API might have 3-4 SDKs, including implementations for Android and iOS apps. How should technical writers document these sample apps, especially when they’re in programming languages the tech writer doesn’t know? Should you document a sample app with inline code comments?
 
+## Slides
+
+Here are my slides:
+
+<a href="http://idratherbewriting.com/nonref-content-api-docs/"><img src="/images/nonrefslides.png"/></a>
+
 ## Event details
 
 The event details are available on the [STC SF site](https://stc-sf.org/).
