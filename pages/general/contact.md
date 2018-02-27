@@ -10,18 +10,7 @@ published: true
 focus: noform
 ---
 
-Hey there, before contacting me, note the following:
-
-* If you're a marketer who wants to write a "guest post," sorry, I'm not interested.
-* If you're a student who has an assignment to ask a professional technical writer two questions, sorry, no, I've already responded to this assignment too many times.
-* If you're a tech writing group who wants me to speak at an event, sorry, I'm currently taking a break from presenting.
-* If you're trying to break into tech comm and want my guidance/mentorship, sorry, my life is already full (but see my <a href="http://idratherbewriting.com/2013/01/17/top-10-most-frequently-asked-questions-about-technical-writing/">top tech writing FAQ</a>).
-* If you're a recruiter who wants to contact me about a job opportunity, sorry, I'm not interested at the moment.
-* If you want to send me a note about a post you liked, great. But if you wouldn't mind, please use the Disqus form for comments.
-
-If your reason for contacting me lies outside all of the above, then ideally you can reach out to me. My preference is for you to join the <a href="http://slack.writethedocs.org/" target="\_blank">WTD Slack group</a>; then direct message me at <a href="https://writethedocs.slack.com/team/tomjohnson">@tomjohnson</a>. You can also email me at tom@idratherbewriting.com. Or you can use the form below.
-
-*But before reaching out, keep in mind, if you ask me about any of the above points, I probably won't respond. Don't take it personally. I just get bombarded with dozens of emails like this each day.*
+Feel free to contact me at [tom@idratherbewriting.com](mailto:tom@idratherbewriting.com) or use the form below. Please note that any questions you send me via email may end up as a Q&A type blog post (with your identity anonymized). If you want to avoid having your question posted as a Q&A, let me know.
 
 <div style="margin-bottom:15px; padding-bottom:10px;">
 <div id="wufoo-mlxbnfd14yabfn">
