@@ -21,8 +21,7 @@ Different ad spaces are more visible than others. You can select from several di
 * [Sidebar ad space](#sidebarad)
 * [Horizontal inline ad space](#horizontalinlinead)
 * [Top banner ad](#topbannerad)
-* [Newsletter footer graphic](#newsletterfooter)
-* [Newsletter centerpiece graphic](#newslettercenterprice)
+* [Newsletter space](#newsletterspace)
 * [Product review posts](#review_posts)
 
 The cost for each ad space is as follows:
@@ -48,12 +47,8 @@ The cost for each ad space is as follows:
         <td>$6,000/year</td>
     </tr>
     <tr>
-        <td>Newsletter footer graphic + announcements (400 x 60px)</td>
-        <td>$3,000/year</td>
-    </tr>
-    <tr>
-        <td>Newsletter centerpiece</td>
-        <td>$3,000/year</td>
+        <td>Newsletter space</td>
+        <td>$5,000/year</td>
     </tr>
     <tr>
         <td>Product review post</td>
@@ -99,17 +94,17 @@ The cost for top banner ads is $6,000 per year.
 
 ### Newsletter Space {#newsletterspace}
 
-I send out approximately 2 newsletters a month to all my email subscribers (4,300+). These newsletters contain links and excerpts to the latest posts. Usually, each link in the newsletter gets around 300 clicks (which I track through Bitly). Below the links is an advertising space for a graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+I send out approximately 2-3 newsletters a month to all my email subscribers (4,300+). These newsletters contain links and excerpts to the latest posts. Usually, each link in the newsletter gets around 300 clicks (which I track through Bitly). Below the links is the newsletter advertising space. You can add a 600 x 70px graphic here. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
 <figure><img src="/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers.</figcaption></figure>
 
-You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive). The newsletter ad dimension is 600 x 70px here (if desired, I can simply resize the horizontal inline ad). Animation is not allowed. As desired, I can include brief 1-3 line notes about upcoming webinars, events, or other news.
+You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive). As desired, you can also include brief 1-3 line notes about upcoming webinars, events, or other news.
 
-Cost for advertising in the newsletter space is $3,000 per year.
+Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
 
-## Newsletter Centerpiece {#newsletterproductfeature}
+<figure><a href="http://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
 
-You can also include a product feature in the newsletter mailing. This product feature can include an expanded graphic section with other details in a more more full-featured, centerpiece style. The newsletter mailing will still start out with a couple of links from I'd Rather Be Writing but then transition into the centerpiece focus from the advertiser. This style of newsletter product feature is allowed once per month. You must supply the creative material in HTML. Cost is $3,000 per year.
+Cost for advertising in the newsletter space is $5,000 per year.
 
 ## Product review posts {#review_posts}
 
