@@ -48,7 +48,7 @@ The cost for each ad space is as follows:
     </tr>
     <tr>
         <td>Newsletter space</td>
-        <td>$5,000/year</td>
+        <td>$1,000/year</td>
     </tr>
     <tr>
         <td>Product review post</td>
@@ -98,13 +98,15 @@ I send out approximately 2-3 newsletters a month to all my email subscribers (4,
 
 <figure><img src="/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers.</figcaption></figure>
 
+The cost for advertising in the newsletter space is $1,800 per year.
+
+{% comment %}
 You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive). As desired, you can also include brief 1-3 line notes about upcoming webinars, events, or other news.
 
 Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
 
 <figure><a href="http://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
-
-Cost for advertising in the newsletter space is $5,000 per year.
+{% endcomment %}
 
 ## Product review posts {#review_posts}
 
