@@ -48,7 +48,7 @@ The cost for each ad space is as follows:
     </tr>
     <tr>
         <td>Newsletter space</td>
-        <td>$1,200/year</td>
+        <td>$500/year or $1,200/year</td>
     </tr>
     <tr>
         <td>Product review post</td>
@@ -98,7 +98,7 @@ I send out approximately 2-3 newsletters a month to all my email subscribers (4,
 
 <figure><img src="/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers.</figcaption></figure>
 
-The cost for advertising in the newsletter space is $1,200 per year. The image format can be any standard image format (JPG, PNG, GIF), but not animated.
+The image format can be any standard image format (JPG, PNG, GIF), but not animated. The cost for advertising in the newsletter space is $1,200 per year for inclusion of the banner *with each newsletter* (2-3 times per month). For inclusion of the banner just *once per month*, the cost is $500.
 
 {% comment %}
 You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive). As desired, you can also include brief 1-3 line notes about upcoming webinars, events, or other news.
