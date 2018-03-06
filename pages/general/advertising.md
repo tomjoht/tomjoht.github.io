@@ -16,13 +16,14 @@ If you think about it, 2,300 is more people per day than people who attend a tec
 
 ## Ad space options and costs
 
-Different ad spaces are more visible than others. You can select 3 different spaces:
+Different ad spaces are more visible than others. You can select from several different spaces or services:
 
 * [Sidebar ad space](#sidebarad)
 * [Horizontal inline ad space](#horizontalinlinead)
 * [Top banner ad](#topbannerad)
-
-I also offer [product review posts](#review_posts).
+* [Newsletter footer graphic](#newsletterfooter)
+* [Newsletter centerpiece graphic](#newslettercenterprice)
+* [Product review posts](#review_posts)
 
 The cost for each ad space is as follows:
 
@@ -43,26 +44,36 @@ The cost for each ad space is as follows:
         <td>$1,800/year</td>
     </tr>
     <tr>
-        <td>Top Banner space (500 x 70px)</td>
+        <td>Top Banner space (400 x 60px)</td>
         <td>$6,000/year</td>
+    </tr>
+    <tr>
+        <td>Newsletter footer graphic + announcements (400 x 60px)</td>
+        <td>$3,000/year</td>
+    </tr>
+    <tr>
+        <td>Newsletter centerpiece</td>
+        <td>$3,000/year</td>
+    </tr>
+    <tr>
+        <td>Product review post</td>
+        <td>$500/post</td>
     </tr>
     </tbody>
 </table>
 
 **CPM**. Here's a breakdown of ad costs in CPM (costs per mille). Assuming 845,000 page views per year, the CPM rate for the sidebar graphic comes out to $1.06 CPM, for the horizontal inline view $2.13 CPM, and for the top banner ad space, $7.10 CPM (cpm = ad cost divided by hits/1,000). These costs align with the [average CPM rates for 2014](http://monetizepros.com/blog/2014/average-cpm-rates/).
 
-## Billing
-
-For billing, I send you an invoice through Paypal. Billing is done prior to any advertising efforts. Although the transaction is through PayPal, you can use either your credit card or PayPal account to submit payment. You can also mail me a check if you prefer.
+For billing, I usually send you an invoice through Paypal. Billing is done prior to any advertising efforts. Although the transaction is through PayPal, you can use either your credit card or PayPal account to submit payment. You can also mail me a check if you prefer.
 
 ### Sidebar ad space {#sidebarad}
 
 Sidebar ads (125 x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
-Your ad can be any image type (JPG, GIF, PNG, or SVG) and color, but the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
+Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
-<img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" width="340" height="420" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
 
 The cost for sidebar ads is $900 per year.
 
@@ -70,23 +81,57 @@ The cost for sidebar ads is $900 per year.
 
 The Horizontal Inline space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
 
-<figure><img src="/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" width="550" height="331" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
+<figure><img src="/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
 Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. The positions also rotate randomly with each page refresh.
 
-The cost for inline horizontal ads is $1800 per year.
+The cost for inline horizontal ads is $1,800 per year.
 
 ### Top Banner Ad Space {#topbannerad}
 
-The top banner ad space (500 x 70px) refers to the top section of the site, in the upper-right corner.
+The top banner ad space (400 x 60px) refers to the top section of the site, in the upper-right corner.
 
-<figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" width="600" height="292" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
+<figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" max-width="600" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
-The top banner ad is placed in one of the most visually dominant places on the site. Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed.
-
-There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads in this space.
+The top banner ad is placed in one of the most visually dominant places on the site. Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There is only one ad in the Top Banner ad space, but it can rotate depending on the number of ads you want to put in this space.
 
 The cost for top banner ads is $6,000 per year.
+
+### Newsletter Space {#newsletterspace}
+
+I send out approximately 2 newsletters a month to all my email subscribers (4,300+). These newsletters contain links and excerpts to the latest posts. Usually, each link in the newsletter gets around 300 clicks (which I track through Bitly). Below the links is an advertising space for a graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+
+<figure><img src="/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers.</figcaption></figure>
+
+You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive). The newsletter ad dimension is 600 x 70px here (if desired, I can simply resize the horizontal inline ad). Animation is not allowed. As desired, I can include brief 1-3 line notes about upcoming webinars, events, or other news.
+
+Cost for advertising in the newsletter space is $3,000 per year.
+
+## Newsletter Centerpiece {#newsletterproductfeature}
+
+You can also include a product feature in the newsletter mailing. This product feature can include an expanded graphic section with other details in a more more full-featured, centerpiece style. The newsletter mailing will still start out with a couple of links from I'd Rather Be Writing but then transition into the centerpiece focus from the advertiser. This style of newsletter product feature is allowed once per month. You must supply the creative material in HTML. Cost is $3,000 per year.
+
+## Product review posts {#review_posts}
+
+I also offer product review posts to help with visibility. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Here are some sample product reviews I wrote previously:
+
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
+* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](http://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
+
+Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
+
+These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience. A product review post typically takes 3-4 hours to write.
+
+If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
+
+Each product review post costs $500 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
+
+Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
+
+I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com.
 
 ### Number of impressions per year
 
@@ -185,28 +230,6 @@ See the following links for more details:
 *  [#1 Influencer in #techcomm 2012](http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/ "I'd Rather Be Writing is most influential blog of 2012")
 *  [Most innovative tech comm blogger of 2011](http://mndt.ch/MI-2011?utm_source=mt-blog&utm_medium=210%C3%9757banner&utm_campaign=07292010techcomm10%C3%9757banner&utm_campaign=07292010techcomm "Most innovative blog of 2011")
 *  [#2 Influencer in #techcomm 2010](http://www.mindtouch.com/blog/2010/07/29/the-most-influential-technical-communicator-bloggers/ "Second most influential blog, I'd Rather Be Writing")
-
-## Product review posts {#review_posts}
-
-I also offer product review posts to help with visibility. Here are some sample product reviews I wrote previously:
-
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
-* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
-* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](http://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
-
-Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
-
-These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience. A product review post typically takes 3-4 hours to write.
-
-If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
-
-Each product review post costs $500 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
-
-Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
-
-I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com.
 
 If you have questions, [contact me](http://idratherbewriting.com/contact).
 
