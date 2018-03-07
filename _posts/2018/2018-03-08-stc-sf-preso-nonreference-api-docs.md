@@ -1,18 +1,40 @@
 ---
-title: "Upcoming STC San Francisco presentation: Beyond mere endpoint reference — the overlooked content in API documentation (Feb 21, 2018)"
+title: "Recording of STC San Francisco presentation: Beyond mere endpoint reference — the overlooked content in API documentation"
 categories:
 - api-doc
-keywords:
-summary: "I'm giving a presentation to the STC San Francisco chapter called \"Beyond mere endpoint reference — the overlooked content in API documentation\" on February 21, 2018."
+keywords: API documentation, non-reference content, tutori8al content
+summary: "I recently gave a presentation to the STC San Francisco chapter called \"Beyond mere endpoint reference — the overlooked content in API documentation\" on February 21, 2018. You can browse the slides and listen to the audio recording here."
 bitlink: http://bit.ly/stcsfpresononrefapicontent
-
+categories:
+- api-doc
+- podcasts
+- stitcher
+image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stcsfpresononref.mp3
+podcast_file_size: 47.7 MB
+podcast_duration: "59:49"
+podcast_length: 47699020
+redirect_from:
+- /2018/01/28/upcoming-stc-sf-preso-nonreference-api-docs/
 ---
 
-You can read the event details on the [STC San Francisco site](https://stc-sf.org/).
+## Slides
+
+Here are the slides:
+
+<a href="http://idratherbewriting.com/nonref-content-api-docs/"><img src="/images/nonrefslides.png"/></a>
+
+## Audio
+
+Here's the audio:
+
+{% include audio.html %}
+
+(Note that due to a crash with Camtasia, the screen video didn't record.)
 
 ## Event description
 
-Here's the description:
+Here's the presentation description:
 
 > ## Beyond mere endpoint reference — the overlooked content in API documentation
 > Most discussions about API documentation center on the reference content — the endpoints, parameters, sample requests, and responses, and so on. But actually, the reference docs make up only a fraction of the total documentation related to an API. API documentation also includes how-to topics, tutorials, and other conceptual information. In this presentation, we’ll dive into the non-reference content that is typically found in API documentation. Some of these non-reference sections include the following:
@@ -35,15 +57,7 @@ Here's the description:
 >
 > **Sample apps and SDKs.** Although most APIs are language agnostic, you often provide client SDKs in specific programming languages, such as Java or C++. A single API might have 3-4 SDKs, including implementations for Android and iOS apps. How should technical writers document these sample apps, especially when they’re in programming languages the tech writer doesn’t know? Should you document a sample app with inline code comments?
 
-## Slides
-
-Here are my slides:
-
-<a href="http://idratherbewriting.com/nonref-content-api-docs/"><img src="/images/nonrefslides.png"/></a>
-
-## Event details
-
-The event details are available on the [STC SF site](https://stc-sf.org/).
+You can read the event details on the [STC San Francisco site](https://stc-sf.org/).
 
 **Location:**
 
