@@ -9,6 +9,12 @@ bitlink: http://bit.ly/docascodeworkflowstoolswtddenver
 
 The event is hosted through the [Rocky Mountain STC group](http://www.stcrmc.org/). You can view the event details here: [Docs-as-code workflows and tools](https://www.eventbrite.com/e/docs-as-code-workflows-and-tools-tickets-42621205172).
 
+## Slides
+
+You can view my slides here:
+
+<a class="noCrossRef" href="https://github.com/tomjoht/docs-as-code-tools-and-workflows"><img src="http://idratherbewriting.com/learnapidoc/images/docsascodepresotitle.png"/></a>.
+
 ## Event description
 
 Here's the event description:
