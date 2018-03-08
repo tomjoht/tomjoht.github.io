@@ -13,7 +13,7 @@ The event is hosted through the [Rocky Mountain STC group](http://www.stcrmc.org
 
 You can view my slides here:
 
-<a class="noCrossRef" href="https://github.com/tomjoht/docs-as-code-tools-and-workflows"><img src="http://idratherbewriting.com/learnapidoc/images/docsascodepresotitle.png"/></a>.
+<a class="noCrossRef" href="http://idratherbewriting.com/docs-as-code-tools-and-workflows"><img src="http://idratherbewriting.com/learnapidoc/images/docsascodepresotitle.png"/></a>
 
 ## Event description
 
