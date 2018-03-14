@@ -10,6 +10,8 @@ type: notes_ucd
 
 > Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels of navigation.
 
+See [Applying Progressive Information Disclosure to Online Help Navigation](http://idratherbewriting.com/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) for more details.
+
 {% comment %}
 ## Strip tease your information
 
@@ -42,4 +44,3 @@ type: notes_ucd
 * See also: Layering, Constraint
 
 {% endcomment %}
-
