@@ -18,7 +18,7 @@ For more information, see the following:
 
 * [Hemingway Editor](http://www.hemingwayapp.com/)
 * [AlexJS](http://alexjs.com/)
-* [Carolyn's Lightning talk in Iceland](https://www.youtube.com/watch?v=jY2xglypPkQ)
+* [Carolyn's Lightning talk in Berlin](https://www.youtube.com/watch?v=jY2xglypPkQ)
 * [Slide deck on Humanizing documentation](https://speakerdeck.com/carolstran/humanizing-your-documentation-full-talk)
 
 For some I'd Rather Be Writing posts related to these topics, see:
