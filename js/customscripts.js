@@ -1,10 +1,3 @@
-function my_search_google()
-{
-    var query = document.getElementById("my-google-search").value;
-    window.open("http://google.com/search?q=" + query
-    + "%20site:" + "http://idratherbewriting.com");
-}
-  
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
