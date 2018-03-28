@@ -136,6 +136,12 @@ podcast_subtitle: Technical writing trends, innovations, and news. Content origi
 
 ####### Algolia configuration ###########
 algolia:
-  application_id: "HXUBJERYYB"
-  index_name: "idratherbewriting"
-  record_css_selector: 'p,ul,.summary'
+  application_id: MXM0JWJNIW
+  index_name: idratherbewriting
+  search_only_api_key: ff7b0847d8705c279222272303e68527
+  files_to_exclude:
+    - ./*.html
+    - redirects/*
+    - pages/category-archives/*
+    - pages/date-based-archives/*
+  nodes_to_index: 'p,.summary'

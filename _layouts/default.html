@@ -31,12 +31,15 @@
     <link rel="stylesheet" href="{{ "/css/customstyles.css" | prepend:site.baseurl }}"  type='text/css'>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script src="{{ "/js/jquery.navgoco.min.js" | prepend:site.baseurl }}"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/js/customscripts.js" | prepend:site.baseurl }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
     <link rel="shortcut icon" href="//idratherbewriting.com/favicon.ico" type="image/x-icon">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -113,11 +116,11 @@
             <!-- Sidebar Column -->
             <div class="col-md-3">
             <div id="sidebarArea">
-            {% include sidebar.html %}
-    {% include sidebar_ads.html %}
-    {% include tinyletter.html %}
-    {% include social_media_icons.html %}
-    {% include recent_comments.html %}
+              {% include sidebar.html %}
+          {% include sidebar_ads.html %}
+          {% include tinyletter.html %}
+          {% include social_media_icons.html %}
+          {% include recent_comments.html %}
     </ul>
     </div>
     </div> <!-- /sidebarArea -->
@@ -127,16 +130,17 @@
     <!-- Content Column -->
 
     <div class="col-md-9">
-            {{content}}
+      {% include search_results.html %}
+      <div id="content">{{content}}</div>
 
     <div id="sidebarAreaHomePage">
             <!-- appears for mobile view only-->
             <ul id="mytechsidebar" class="nav">
-            {% include notestoc.html %}
-    {% include sidebar_ads.html %}
-    {% include tinyletter.html %}
-    {% include social_media_icons.html %}
-    {% include recent_comments.html %}
+              {% include notestoc.html %}
+        {% include sidebar_ads.html %}
+        {% include tinyletter.html %}
+        {% include social_media_icons.html %}
+        {% include recent_comments.html %}
     </ul>
     </div> <!-- /sidebarAreaHomePage -->
 

@@ -28,10 +28,10 @@ title: My Page
 permalink: /mypage/
 ---
 </pre>
-<p>Jekyll will take all the content in this page and stuff it inside the <code>{{content}}</code> tag in the layout you specified (page.html). Page.html also usually has a layout defined (default.html), so Jekyll takes all the content stuffed into the page.html layout and stuffs it into the <code>{{content}}</code> tag on the default.html page.</p>
+<p>Jekyll will take all the content in this page and stuff it inside the <code>{% raw %}{{content}}{% endraw %}</code> tag in the layout you specified (page.html). Page.html also usually has a layout defined (default.html), so Jekyll takes all the content stuffed into the page.html layout and stuffs it into the <code>{% raw %}{{content}}{% endraw %}</code> tag on the default.html page.</p>
 <p>(You could just specify your layout as <code>default</code> from the beginning, but you might have various HTML layouts, such as a layout for pages, posts, and specific content types (such as API doc), which all plug into default.html.)</p>
 <h2>Pushing content into JSON</h2>
-<p>Now let's move to the JSON use case. Rather than stuffing content into <code>{{content}}</code> tags, you create a file that looks like this:</p>
+<p>Now let's move to the JSON use case. Rather than stuffing content into <code>{% raw %}{{content}}{% endraw %}</code> tags, you create a file that looks like this:</p>
 <pre>
 ---
 layout: none
@@ -49,7 +49,7 @@ search: exclude
 ]
 }
 </pre>
-<p>"tooltips" is the name of a collection I created inside Jekyll. This code has the basic structure of the JSON that I want, but you'll notice some placeholders. A <code>for</code> loop iterates through all the pages inside the tooltips collection and, with each page, the page's id gets inserted into the <code>{{page.id}}</code> placeholder, and the page content gets inserted into the <code>{{page.content}}</code> placeholder.</p>
+<p>"tooltips" is the name of a collection I created inside Jekyll. This code has the basic structure of the JSON that I want, but you'll notice some placeholders. A <code>for</code> loop iterates through all the pages inside the tooltips collection and, with each page, the page's id gets inserted into the <code>{{page.id}}</code> placeholder, and the page content gets inserted into the <code>{% raw %}{{page.content}}{% endraw %}</code> placeholder.</p>
 <p>Assuming our pages were short descriptions of sports, here's what the <a href="http://idratherassets.com/wp-content/apidemos/tooltips.json">result might look like</a>:</p>
 <pre>
 {
