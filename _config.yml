@@ -142,6 +142,7 @@ algolia:
   files_to_exclude:
     - ./*.html
     - redirects/*
+    - files/**/*
     - pages/category-archives/*
     - pages/date-based-archives/*
   nodes_to_index: 'p,.summary'

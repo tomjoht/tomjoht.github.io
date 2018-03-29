@@ -23,81 +23,83 @@ published: true
 <p>Here's a sample page showing how one might call the endpoint to retrieve and append the information on a page: <a target="_blank" href="http://idratherassets.com/wp-content/apidemos/sampledocapicall.html">Sample Doc API Call</a>.</p>
 <p><a target="_blank" href="http://idratherassets.com/wp-content/apidemos/sampledocapicall.html"><img src="/images/sampledoccalls-550x374.png" alt="sampledoccalls" width="550" height="374" class="alignnone size-medium wp-image-22551" /></a></p>
 <p>Just view the source code on that page for the details. There are four examples. I've copied the code here for convenience:</p>
-<p>{% highlight html %}<br />
-<!DOCTYPE html><br />
-<html><br />
-<head><br />
-<style><br />
-#applesGoHere {<br />
-	margin:15px;<br />
-}<br />
-</style><br />
-<title>Sample API calls to doc</title><br />
-</head></p>
-<p><!-- you need jquery for the each and append methods --><br />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script></p>
-<p><!-- script for example 1--><br />
-<script><br />
-    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";<br />
-    $.getJSON(url, function(data) {<br />
-        console.log(data);<br />
-        $("#directNotation").append(data.entries[0].body);<br />
-    });<br />
-</script></p>
-<p><!-- script for example 2 --><br />
-<script><br />
-    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";<br />
-    $.getJSON(url, function(data) {<br />
-        console.log(data);</p>
-<p>        $.each(data.entries, function(i, page) {<br />
-            if (page.title == "About") {<br />
-                $("#eachLoop").append(page.body);<br />
-            }</p>
-<p>        });<br />
-    });<br />
-</script></p>
-<p><!-- script for example 3 --></p>
-<p><script><br />
-    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";<br />
-    $.getJSON(url, function(data) {<br />
-        console.log(data);</p>
-<p>        $.each(data.entries, function(i, page) {<br />
-            if (page.url == "/wp-content/apidemos/docasapi/mynameistom/") {<br />
-                $("#tomsmyname").append(page.body);<br />
-            }</p>
-<p>        });<br />
-    });<br />
-</script></p>
-<p><!-- script for example 4 --><br />
-<script></p>
-<p>$(document).ready(function() {<br />
-$( "#apples" ).click(function() {<br />
-    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";<br />
-    $.getJSON(url, function(data) {<br />
-        console.log(data);</p>
-<p>        $.each(data.entries, function(i, page) {<br />
-            if (page.url == "/wp-content/apidemos/docasapi/mynameistom/") {<br />
-                $("#applesGoHere").append(page.body);<br />
-            }</p>
-<p>        });<br />
-    });<br />
-});<br />
-});</p>
-<p></script></p>
-<p><h2>Example 1: Here's the text grabbed by direct dot notation</h2></p>
-<p><div id="directNotation"></div></p>
-<p><hr/></p>
-<p><h2>Example 2: Here's the text grabbed via an each function</h2></p>
-<p><div id="eachLoop"></div></p>
-<p><h2>Example 3: Here's another page identified by the url</h2></p>
-<p><div id="tomsmyname"></div></p>
-<p><h2>Example 4: Get the content when button is clicked</h2></p>
-<p><p>This data is retrieved after the button is clicked.</p></p>
-<p><button id="apples">Get my data</button></p>
-<p><div id="applesGoHere"></div></p>
-<p></body><br />
-</html></p>
-<p>{% endhighlight %}</p>
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #applesGoHere {
+        margin:15px;
+      }
+    </style>
+    <title>Sample API calls to doc</title>
+  </head>
+  <!-- you need jquery for the each and append methods -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- script for example 1-->
+  <script>
+    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";
+    $.getJSON(url, function(data) {
+      console.log(data);
+      $("#directNotation").append(data.entries[0].body);
+    });
+  </script>
+  <!-- script for example 2 -->
+  <script>
+    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";
+    $.getJSON(url, function(data) {
+      console.log(data);
+      $.each(data.entries, function(i, page) {
+        if (page.title == "About") {
+          $("#eachLoop").append(page.body);
+        }
+      });
+    });
+  </script>
+  <!-- script for example 3 -->
+  <script>
+    var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";
+    $.getJSON(url, function(data) {
+      console.log(data);
+      $.each(data.entries, function(i, page) {
+        if (page.url == "/wp-content/apidemos/docasapi/mynameistom/") {
+          $("#tomsmyname").append(page.body);
+        }
+      });
+    });
+  </script>
+  <!-- script for example 4 -->
+  <script>
+    $(document).ready(function() {
+      $( "#apples" ).click(function() {
+        var url = "http://idratherassets.com/wp-content/apidemos/docasapi/api/v1/pages.json";
+        $.getJSON(url, function(data) {
+          console.log(data);
+          $.each(data.entries, function(i, page) {
+            if (page.url == "/wp-content/apidemos/docasapi/mynameistom/") {
+              $("#applesGoHere").append(page.body);
+            }
+          });
+        });
+      });
+    });
+  </script>
+  <h2>Example 1: Here's the text grabbed by direct dot notation</h2>
+  <div id="directNotation"></div>
+  <hr/>
+  <h2>Example 2: Here's the text grabbed via an each function</h2>
+  <div id="eachLoop"></div>
+  <h2>Example 3: Here's another page identified by the url</h2>
+  <div id="tomsmyname"></div>
+  <h2>Example 4: Get the content when button is clicked</h2>
+  This data is retrieved after the button is clicked.
+  <button id="apples">Get my data</button>
+  <div id="applesGoHere"></div>
+  </body>
+</html>
+{% endhighlight %}
+
 <p>Tip: When you check out the sample calls, open your JavaScript Console (in Chrome, go to View > Developer > JavaScript Console) to view the payload logged to the console. (I added some console log messages in the scripts to make the payload more inspectable.)</p>
 <p>I won't go into much detail about the code except to point out that I demonstrated 4 ways to get the data. Example 1 uses direct dot notation: <code>data.entries[0].body</code>. This is simply how you access the JSON you want. However, since the order of the objects might change, this approach would be hard to manage.</p>
 <p>The second example uses jQuery's <code>each</code> method to iterate through the JSON data looking for a page titled "About". However, this method is a little shaky too since page titles frequently change.</p>
