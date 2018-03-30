@@ -11,4 +11,4 @@ In the previous article on Simplifying Complexity, [Ensuring information harmony
 
 Conversely, the opposite activity &mdash; taking an existing body of information and distilling its essence down into a smaller information unit (whether that smaller unit is a title, overview, heading, topic sentence, quick reference guide, or some other compressed form of information) also requires cognitive prowess. Crystalizing large information into a brief distillation that captures the main point in as little a space as possible can be a difficult skill that rivals a poet’s astuteness with language and articulation. Despite the difficulty, this distillation is worth it because this content can go a long way towards simplifying a complex system.
 
-Read more here: <a href='http://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html.html'>Reduction, layering, and distillation as a strategy for simplicity</a>.
+Read more here: <a href='http://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html'>Reduction, layering, and distillation as a strategy for simplicity</a>.

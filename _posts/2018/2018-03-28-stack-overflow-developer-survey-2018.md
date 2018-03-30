@@ -13,7 +13,11 @@ The 2018 Stack Overflow results are [available here](https://insights.stackoverf
 
 <img src="/images/waysdeveloperslearn.png"/>
 
-Additionally, the survey found that "Python has risen in the ranks of programming languages on our survey, surpassing C# in popularity this year, much like it surpassed PHP last year." This is good, because there are many good resources online for learning Python.
+Additionally, the survey found that
+
+> Python has risen in the ranks of programming languages on our survey, surpassing C# in popularity this year, much like it surpassed PHP last year.
+
+This is good, because there are many good resources online for learning Python.
 
 However, this isn't what surprised me the most. Here's what caught my attention. Of the 100,000 survey participants &mdash;
 
@@ -33,8 +37,8 @@ If you recall from a [previous post on value](https://idratherbewriting.com/2017
 
 > Overall, according to the interview data, TPC [Technical and Professional Communication] is misconceived as cosmetic, secretarial, unarticulated across disciplines, unnecessary, invisible, and unquantifiable, which means such workers often feel expendable.
 
-I can't help but wonder if the devaluation of technical writing roles in the workplace has some connection with the homogeneous male engineering culture. In [Why Can’t Silicon Valley Solve Its Diversity Problem?](https://www.newyorker.com/business/currency/why-cant-silicon-valley-solve-its-diversity-problem), Anna Wiener writes,
+I can't help but wonder if the devaluation of technical writing roles in the workplace has some connection with the homogeneous male engineering culture. In [Why Can’t Silicon Valley Solve Its Diversity Problem?](https://www.newyorker.com/business/currency/why-cant-silicon-valley-solve-its-diversity-problem) Anna Wiener writes,
 
 > The tech industry is metrics-obsessed, always optimizing, and eager to find technical fixes for inefficiencies. But the conversation about diversity in tech is also a conversation about social change&mdash;about economic inequality, access to education, and the latent racism and sexism of an industry that prides itself on building the future. It’s about the social insularity of Silicon Valley, and the insistence on clustering along a forty-mile strip of land, despite the ballooning international reach of technology products.
 
-The homogeneity of engineers in the workplace isn't new, and I'm not a minority myself. I don't have any solutions or novel insights here; I just wanted to highlight the most interesting results from the Stack Overflow survey.
+This issue isn't new, and I don't have any solutions or novel insights here; I just wanted to highlight the most interesting results from the Stack Overflow survey.
