@@ -41,4 +41,4 @@ I can't help but wonder if the devaluation of technical writing roles in the wor
 
 > The tech industry is metrics-obsessed, always optimizing, and eager to find technical fixes for inefficiencies. But the conversation about diversity in tech is also a conversation about social change&mdash;about economic inequality, access to education, and the latent racism and sexism of an industry that prides itself on building the future. It’s about the social insularity of Silicon Valley, and the insistence on clustering along a forty-mile strip of land, despite the ballooning international reach of technology products.
 
-This issue isn't new, and I don't have any solutions or novel insights here; I just wanted to highlight the most interesting results from the Stack Overflow survey.
+The diversity-in-engineering issue isn't new, and I don't have any solutions or novel insights here; I just wanted to highlight the most interesting results from the Stack Overflow survey.
