@@ -483,6 +483,15 @@ ul.nav li ul li a {
   background-postion: top left;
 }
 
+/* adjust algolia search box*/
+#search-hits-wrapper {
+  display: none;
+}
+.ais-search-box--input {
+height: 80% !important;
+margin-top: 3px !important;
+}
+
 
 span.projectTitle {
     font-family: Helvetica;
