@@ -3,14 +3,11 @@ title: "A Review of the MadWorld Conference -- guest post by Jayna Locke"
 categories:
 - general
 keywords:
-summary: "In this guest post, Jayna Locke explains what brought her to MadWorld the first time and what kept her returning. She describes the main reasons for attending, tips for getting the most out of the conference, best practices, and more."
+summary: "In this guest post, Jayna Locke explains what brought her to the <a href='https://www.madcapsoftware.com/conference/madworld-2018/'>MadWorld Conference</a> the first time and what keeps her returning. She describes the main reasons for attending, tips for getting the most out of the conference, best practices, and more. The MadWorld Conference takes place June 3-6, 2018 in San Diego, California."
 bitlink: http://bit.ly/madworldconferencereview
 ---
 
 The technical writing profession tends to be an overall solitary one, and it can be a vacuum. I'm a believer that everyone should attend a conference from time to time. If your company doesn't have a budget, try to find a way. As writers, we especially need community and the magical mental unblocking that can happen when we get away from our desks.
-
-* TOC
-{:toc}
 
 ## Why MadWorld?
 
@@ -18,7 +15,7 @@ When I started out as a technical writer, we were a bit of a rare breed and no o
 
 First, I don't work for MadCap Software, and I'm not putting in a plug. I'm just going to tell you why I attend.
 
-### What brought me to my first MadWorld
+## What brought me to my first MadWorld
 
 It all started four years ago, in the spring of 2014, when my team was immersed in a search for a single sourcing tool that would allow us to gain control over our large and cumbersome content inventory. My company had grown by acquisition. And along the way, almost every time a new document needed to be created, the writer duplicated an existing document and made the relevant changes in the copy.
 
@@ -32,13 +29,13 @@ But MadWorld changed everything. I spent quite a bit of time talking to people w
 
 And that was when the lightbulb went on. I realized we could do almost everything we could do in DITA, but faster and cheaper and with fewer headaches. I called company headquarters from San Diego and told them to halt the purchase of the DITA CCMS. The moment I returned, we launched into the project to convert our content to Flare. We now have all of our content single sourced, which saves the company bundles of money when it comes to creating new documentation and fixing and updating existing documentation.
 
-### Why I go to MadWorld each year
+## Why I go to MadWorld each year
 
 MadWorld is an opportunity to continue learning best practices, hear about other people's experience with MadCap tools, and learn about new features. It's also a great opportunity to connect with interesting people from all over the world, and it's just plain fun. The conference this June will be my fourth conference, and my second time speaking. Every year I have a blast.
 
 So let me break those statements down a bit and provide some more detail.
 
-#### Best practices
+### Best practices
 
 Here's where people who use trite phrases like "I can't stress this enough" use that phrase. The opportunity to attend conference sessions and chat with other people who have figured out really cool tips and tricks is astounding. Each year one of my biggest challenges is choosing which track to attend in any given time slot because there's so much great stuff.
 
@@ -52,7 +49,7 @@ What will you learn? Here are a few examples:
 
 Even if you haven't decided on MadCap Flare or the other tools in the suite, you will still benefit from learning about best practices in the sessions.
 
-#### Connecting with other content professionals
+### Connecting with other content professionals
 
 Every year it blows me away how I make instant friends at MadWorld. Have you ever gone to a party and realized you have something in common with everyone there, which instantly puts everyone at ease? No? You'd be right that such a party would be a rare find. Well, that has been my experience at MadWorld. Every time I sit down at a table, I'm able to strike up a conversation and find common ground right away.
 
@@ -60,13 +57,13 @@ These are people who are passionate about content. So right there, you've got th
 
 It is not uncommon to join a group of people talking passionately about topics like content audits or HTML5 output, with seasoned users freely sharing their knowledge.
 
-#### Last but not least: the fun
+### Last but not least: the fun
 
 Let me first say that MadCap Software knows the importance of a well-fueled brain. From the opening reception to the closing party, you never need to worry where your meals, snacks and caffeinated beverages are coming from. All meals are supplied, via enormous buffets. There's also typically an evening event at a local establishment, and the last night ends with a great party and games.
 
 There's also a MadWorld app where you can share great moments and fun pictures, or even ask if anyone wants to share a Lyft ride to Coronado or the airport.
 
-### A few recommendations
+## A few recommendations
 
 If you go, here are some things I do each year that I recommend.
 
@@ -79,6 +76,6 @@ Thanks for reading. See you at MadWorld!
 
 Learn more about the upcoming[ MadWorld 2018](https://www.madcapsoftware.com/conference/madworld-2018/) conference, taking place on June 3-6 at the Hotel del Coronado.
 
-### About Jayna Locke, Content Strategist, Digi International
+**About Jayna Locke, Content Strategist, Digi International**
 
-Jayna Locke is a content strategist with a background in technical communications and digital marketing. Her experience includes content strategy, copy writing, technical writing, and technical publications team management. Her team began dabbling in MadCap Flare in 2013, and moved to full adoption in 2015.
+_Jayna Locke is a content strategist with a background in technical communications and digital marketing. Her experience includes content strategy, copy writing, technical writing, and technical publications team management. Her team began dabbling in MadCap Flare in 2013, and moved to full adoption in 2015._
