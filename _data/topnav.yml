@@ -163,6 +163,8 @@ topnav_dropdowns:
         url: /category-quick-reference-guides/
       - title: Screencasting
         url: /category-screencasting/
+      - title: Simplifying Complexity
+        url: /simplifying-complexity
       - title: User-centered documentation
         url: /category-user-centered-documentation/
       - title: Video
