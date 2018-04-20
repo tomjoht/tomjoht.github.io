@@ -3,7 +3,7 @@ title: "New Simplifying Complexity article on shaping information into familiar 
 categories:
 - simplifying-complexity
 keywords:
-summary: "In case you haven't been following previous posts, I have a microsite called <a href='http://idratherbewriting.com/simplifying-complexity/'>Simplifying Complexity</a> where I'm exploring various approaches and techniques for making complex information more usable and consumable. This microsite contains longer, more in-depth articles following a specific theme. My latest addition to the site is a new article called 'Reducing complexity by shaping information into familiar schemas, especially story'."
+summary: "In case you haven't been following previous posts, I have a microsite called <a href='http://idratherbewriting.com/simplifying-complexity/'>Simplifying Complexity</a> where I'm exploring various approaches for making complex information more usable and consumable. This microsite contains longer, more in-depth articles following a specific theme. My latest addition to the site is a new article called 'Reducing complexity by shaping information into familiar schemas, especially story'."
 bitlink: http://bit.ly/simpcompschemapointer
 ---
 
