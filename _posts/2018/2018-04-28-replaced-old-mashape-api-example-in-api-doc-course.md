@@ -13,6 +13,8 @@ Because I wove this API into a lot of different parts of my course (including th
 
 I replaced the API with the [OpenWeatherMap API](https://openweathermap.org/api). The OpenWeatherMap's Weather API is much more stable and functional. It's not too robust that users will get confused, and although I would have liked an even simpler (and still free) API, I need stability and reliability. When I look at the [OpenWeatherMap's Team page](https://openweathermap.org/team) and see a whole team of people, it reassures me that their weather API will be around a long time.
 
+{% include random_ad.html %}
+
 In today's open-source GitHub era, where anyone can clone a repo, pull in other frameworks or services, and build an app or other piece of code, it's easy to find and include code that you need. However, I'm wary of hobby projects like the initial weather API I incorporated, because they come back to bite me.
 
 At work I had a similar issue this past week. One of the projects I work on uses a tool for querying JSON syntax. It's a fork of someone else's implementation of JSONpath. The project has an online evaluator that I referenced heavily in my documentation, and now the online evaluator is down. I filed an issue for the GitHub project, but when I look at the 101 open issues and 20 outstanding pull requests, it doesn't give me confidence that the developer is still actively involved.
