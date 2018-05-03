@@ -23,15 +23,15 @@ As far as tech writer populations, San Jose/Sunnyvale/Santa Clara ranks fourth i
 
 <a href="/images/largestmsatechwriters.png"><img src="/images/largestmsatechwriters.png" /></a>
 
-What's interesting is that, even despite the seeming job mecca for tech writers in Silicon Valley, the number of tech writers in San Jose/Sunnyvale/Santa Clara has decreased. Here are a few other cities that are decreasing in tech writer populations:
+What's interesting is that, even despite the seeming job mecca for tech writers in Silicon Valley, the number of tech writers in San Jose/Sunnyvale/Santa Clara has decreased:
 
 <a href="/images/losingcitiesfortechwriters.png"><img src="/images/losingcitiesfortechwriters.png"/></a>
 
-This means jobs are even more present in these areas. In contrast, here are some up-and-coming tech cities that might be more affordable and feasible for tech writers:
+This means jobs are even more present in these areas. In contrast, here are some up-and-coming tech cities that are growing their tech writer populations:
 
 <a href="/images/fastestgrowingcities.png"><img src="/images/fastestgrowingcities.png" /></a>
 
-In short, although San Jose/Sunnyvale/Santa Clara would seem to attract more tech writers due to the high salaries and jobs available, this number is decreasing (by about 15% in 2016), no doubt because the cost of living is so high. It is really difficult to buy a home.
+In short, although San Jose/Sunnyvale/Santa Clara would seem to attract more tech writers due to the high salaries and jobs available, this number is decreasing (by about 15% in 2016), no doubt because the cost of living is so high. It is really difficult to buy a home in this area.
 
 Villegas writes:
 
@@ -53,7 +53,7 @@ I, too, can't quite understand the reasons why tech workers need to be on site. 
 
 Actually, these small teams make it much more difficult for technical writers. Here's why. When small teams are physically grouped together (as agile would have it), it means teams can make decisions based on impromptu meetings, such as during times when engineers collaborate in their cubes or during standups, or otherwise. Well, guess what. Unless you're right there with them, this information gets missed. Changes start taking place in applications, and as a tech writer, you often aren't kept in the loop. Documentation drift starts happening.
 
-For engineers grouped in small agile teams, this isn't much of a problem. But for distributed workers like tech writers, who support 5-6 agile teams or more, we are not usually physically embedded in these engineering teamx' spaces. I know I'm not. I support a few products that have *lots* of different teams located in many different buildings, cities, and countries. I really appreciate it when engineering teams post information online, in detailed JIRA tickets, sprint plans, and other written artifacts because it allows me to see what's going on. Fortunately, engineers are usually excellent in documenting changes through tickets (unlike other groups, such as Marketing, that rarely use ticking systems).
+For engineers grouped in small agile teams, this isn't much of a problem. But for distributed workers like tech writers, who support 5-6 agile teams or more, we are not usually physically embedded in these engineering teams' spaces. I know I'm not. I support a few products that have *lots* of different teams located in many different buildings, cities, and countries. I really appreciate it when engineering teams post information online, in detailed JIRA tickets, sprint plans, and other written artifacts because it allows me to see what's going on. Fortunately, engineers are usually excellent in documenting changes through tickets (unlike other groups, such as Marketing, that rarely use ticking systems).
 
 Personally, I think companies are going through a transition. In Silicon Valley, what will companies do when they can't find an API tech writer to come into the local office every day? Tech writers are already a scarcity here. I know because I've seen attempts to hire an experienced API tech writer go on for months without being filled &mdash; there simply aren't qualified candidates locally available. It's even more difficult for smaller companies to attract top-notch engineers. The big tech companies have lured them away with higher salaries and perks. For example, would you rather work for a half-baked startup that has an 80% chance of folding in three years, or a big tech company whose name every one will recognize and which provides a wide variety of commercially interesting products?
 
