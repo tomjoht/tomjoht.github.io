@@ -29,13 +29,11 @@ Stoplight's visual modeling tools eliminate the need to be familiar with the for
 
 As part of the visual modeling tools, Stoplight's interface for describing JSON schemas (used in request bodies or responses) is especially welcome. Details about how to document JSON schemas aren't fully documented in the OpenAPI spec, so they can be particularly challenging.  What's especially neat is that you can simply paste in a chunk of JSON and Stoplight will automatically describe it in the right syntax for you. You do this using the **Generate from JSON** button, as I've demonstrated in this short video:
 
-<figure><iframe width="560" height="315" src="https://www.youtube.com/embed/0IOWY0Hj3Xc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><figcaption>Describing the JSON format in the responses can be especially tricky. Stoplight's visual modeling tools are especially helpful here, since they allow you to automatically create the correct JSON schema definition from a block of JSON that you paste in.</figcaption></figure>
-
+<figure><iframe width="640" height="360" src="https://www.youtube.com/embed/0IOWY0Hj3Xc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><figcaption>Describing the JSON format in the responses can be especially tricky. Stoplight's visual modeling tools are especially helpful here, since they allow you to automatically create the correct JSON schema definition from a block of JSON that you paste in.</figcaption></figure>
 
 Additionally, you can toggle between the visual tools and the specification code easily. If you want to work in the code, your updates will update the UI as well. The two sync perfectly when you make updates in either mode. Here's a short video I made showing this:
 
-<figure><iframe width="560" height="315" src="https://www.youtube.com/embed/vqDJBa-haYs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><figcaption>When you switch to the code view, the editor automatically goes to the part of the spec you were creating in the visual editor and highlights it. When you switch back, the visual UI updates with any changes you made in the code. Switching between modes is seamless and easy.</figcaption></figure>
-
+<figure><iframe width="640" height="360" src="https://www.youtube.com/embed/vqDJBa-haYs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><figcaption>When you switch to the code view, the editor automatically goes to the part of the spec you were creating in the visual editor and highlights it. When you switch back, the visual UI updates with any changes you made in the code. Switching between modes is seamless and easy.</figcaption></figure>
 
 ## Not just simpler tools, but a design-first philosophy
 
