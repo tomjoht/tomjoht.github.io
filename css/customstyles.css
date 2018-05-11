@@ -1286,3 +1286,8 @@ video {
 ul#mysidebar li.active > a {
     color: white;
 }
+
+.summary a {
+    color: #b8860b;
+    text-decoration: underline;
+}
