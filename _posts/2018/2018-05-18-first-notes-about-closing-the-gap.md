@@ -7,7 +7,7 @@ summary: "One of the most complex tasks technical writers face is to reconstruct
 bitlink: http://bit.ly/theabsentreader
 ---
 
-This week I'm trying something a bit different. Usually, when I'm writing a post for my [Simplifying Complexity series](/simplifying-complexity/), I work on it for a couple of weeks and then publish it. But this week I thought, why not work through my thoughts step by step as I go, blogging about the content here before compiling all my thoughts into a final, finished piece on Simplifying Complexity? That waySo here is the first bit of notes on the next article.
+This week I'm trying something a bit different. Usually, when I'm writing a post for my [Simplifying Complexity series](/simplifying-complexity/), I work on it for a couple of weeks and then publish it. But this week I thought, why not work through my thoughts step by step as I go, blogging about the content here before compiling all my thoughts into a final, finished piece on Simplifying Complexity? So here is the first bit of notes on the next article.
 
 I listened to an interesting Freakonomics podcast the other day called [Evolution, Accelerated](http://freakonomics.com/podcast/evolution-accelerated/). The podcasters discussed the emerging science of gene editing, where genetic engineers can identify a corrupt gene and then catalyze the body's own repair process to fix it.
 
