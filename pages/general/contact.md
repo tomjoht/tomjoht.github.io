@@ -10,7 +10,7 @@ published: true
 focus: noform
 ---
 
-Feel free to contact me at [tom@idratherbewriting.com](mailto:tom@idratherbewriting.com) or use the form below. Please note that any questions you send me via email may end up as a Q&A type blog post (with your identity anonymized). If you want to avoid having your question posted as a Q&A, let me know.
+Feel free to contact me at [tom@idratherbewriting.com](mailto:tom@idratherbewriting.com) or use the form below. 
 
 <div style="margin-bottom:15px; padding-bottom:10px;">
 <div id="wufoo-mlxbnfd14yabfn">

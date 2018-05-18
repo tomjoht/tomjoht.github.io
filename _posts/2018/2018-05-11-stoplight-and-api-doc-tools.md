@@ -4,7 +4,7 @@ categories:
 - api-docs
 keywords: stoplight, api documentation, openapi spec
 summary: "<a href='https://stoplight.io/'>Stoplight</a> provides a platform with visual modeling tools to create an OpenAPI document for your API -- without requiring you to know the OpenAPI spec details or code the spec line by line. This API specification document can act as a single source of truth that empowers the whole API lifecycle, from UX prototyping to testing, development, documentation, sales, and more."
-bitlink: http://bit.ly/algoliasearchirbw
+bitlink: http://bit.ly/stoplightopenapitools
 ---
 
 *Note that Stoplight is one of the sponsors of my site.*
