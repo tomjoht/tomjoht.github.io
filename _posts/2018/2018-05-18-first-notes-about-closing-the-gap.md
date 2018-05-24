@@ -5,7 +5,6 @@ categories:
 keywords:
 summary: "One of the most complex tasks technical writers face is to reconstruct the thoughts, assumptions, and needs of an absent reader."
 bitlink: http://bit.ly/theabsentreader
-published: false
 ---
 
 This week I'm trying something a bit different. Usually, when I'm writing a post for my [Simplifying Complexity series](/simplifying-complexity/), I work on it for a couple of weeks and then publish it. But this week I thought, why not work through my thoughts step by step as I go, blogging about the content here before compiling all my thoughts into a final, finished piece on Simplifying Complexity? So here is the first bit of notes on the next article.
