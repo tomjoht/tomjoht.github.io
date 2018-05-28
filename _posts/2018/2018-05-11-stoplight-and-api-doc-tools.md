@@ -3,7 +3,7 @@ title: "Stoplight -- creating a single source of truth to drive the API lifecycl
 categories:
 - api-docs
 keywords: stoplight, api documentation, openapi spec
-summary: "<a href='https://stoplight.io/'>Stoplight</a> provides a platform with visual modeling tools to create an OpenAPI document for your API -- without requiring you to know the OpenAPI spec details or code the spec line by line. This API specification document can act as a single source of truth that empowers the whole API lifecycle, from UX prototyping to testing, development, documentation, sales, and more."
+summary: "<a href='https://stoplight.io?utm_source=idratherbewriting'>Stoplight</a> provides a platform with visual modeling tools to create an OpenAPI document for your API -- without requiring you to know the OpenAPI spec details or code the spec line by line. This API specification document can act as a single source of truth that empowers the whole API lifecycle, from UX prototyping to testing, development, documentation, sales, and more."
 bitlink: http://bit.ly/stoplightopenapitools
 ---
 
@@ -84,6 +84,6 @@ Stoplight also allows you to create variables to use in *both* your specificatio
 
 Although I generally like working directly in the code, I've found that Stoplight lets me focus more on the content and less on the details of the spec's format. Ideally, you can probably get developers and other project team members to populate reference content in Stoplight themselves, since this is an activity that needs to happen much earlier in the API design process anyway.
 
-If you're documenting an API, [Stoplight](https://stoplight.io) (and their [hosted doc solution](https://stoplight.io/platform/docs/)) are definitely worth checking out. But don't think of Stoplight as just a documentation platform or an easy way to generate the OpenAPI description. Consider Stoplight a way to design the single source of truth that will empower all other teams in a more efficient toward a successful API.
+If you're documenting an API, [Stoplight](https://stoplight.io) (and their [hosted doc solution](https://stoplight.io?utm_source=idratherbewritingplatform/docs/)) are definitely worth checking out. But don't think of Stoplight as just a documentation platform or an easy way to generate the OpenAPI description. Consider Stoplight a way to design the single source of truth that will empower all other teams in a more efficient toward a successful API.
 
 {{site.data.alerts.tip}}In my <a href='http://idratherbewriting.com/learnapidoc/'>API documentation course</a>, I added an activity for using Stoplight. Check out <a href='http://idratherbewriting.com/learnapidoc/pubapis_stoplight_activity.html'>Activity: Use Stoplight to edit your OpenAPI spec</a> for a hands-on exercise working with Stoplight and the OpenAPI spec.{{site.data.alerts.end}}
