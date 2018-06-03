@@ -79,11 +79,11 @@ There wasn't room on the left, since the general category sidebar occupied that 
 
 ### Design principle: Hierarchy
 
-One of principles of design in [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079) is hierarchy.
+One of principles of design in <a href='https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079'>Universal Principles of Design</a> is hierarchy.
 
 <img src="../media/vectors/wtd_doc_navigation_hierarchy.svg"  class="vectorStyle"/>
 
-<div class="bs-callout bs-callout-primary"><b>Hierarchy:</b> "Hierarchical organization is the simplest structure for visualizing and understanding complexity." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
+<div class="bs-callout bs-callout-primary"><b>Hierarchy:</b> "Hierarchical organization is the simplest structure for visualizing and understanding complexity." &mdash; <a href='https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079'>Universal Principles of Design</a></div>
 
 When we organize our documentation, we usually create a hierarchical outline of the content to help users both understand and visualize the body of information. We usually have a sidebar navigation feature that lists the topics in the documentation (within a particular product scope). The documents are often grouped in parent-child trees.
 
@@ -175,7 +175,7 @@ We also created a [doc index page](https://developer.amazon.com/documentation) t
 
 Progressive disclosure is almost redundant from the previous section but is worth calling out here since it acts as a primary tool in your usability toolbox.
 
-<div class="bs-callout bs-callout-primary"><b>Progressive disclosure:</b> "A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p> &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
+<div class="bs-callout bs-callout-primary"><b>Progressive disclosure:</b> "A strategy for managing information complexity in which only necessary or requested information is displayed at any given time."</p> &mdash; <a href='https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079'>Universal Principles of Design</a></div>
 
 The basic idea of progressive disclosure is to layer your information at different levels. Designers creating mocks for websites regularly consider these different levels in their UI layouts. I remember the last time I evaluated some comps from a UX designer. He pointed out the type of information that would appear to users at level 1, level 2, level 3, and level 4.
 
@@ -196,7 +196,7 @@ You can think of these points as levels 1 through 4. What information should you
 
 Beyond layers of information, you can also start by showing basic information first and more advanced information at different stages. According to Jakob Nielsen:
 
-> Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.</blockquote>
+> Progressive disclosure is the best tool so far: show people the basics first, and once they understand that, allow them to get to the expert features. But don't show everything all at once or you will only confuse people and they will waste endless time messing with features that they don't need yet.
 &mdash; <a href="https://www.interaction-design.org/encyclopedia/progressive_disclosure.html">Interaction Design</a>
 
 ### Doc portal homepage
@@ -255,7 +255,7 @@ The design principle at work here with inline links might be considered immersio
 
 <img src="../media/vectors/wtd_doc_navigation_dontleavesystem.svg"  class="vectorStyle"/>
 
-<div class="bs-callout bs-callout-primary"><b>Immersion:</b> "A state of mental focus so intense that awareness of the "real" world is lost, generally resulting a feeling of joy and satisfaction." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
+<div class="bs-callout bs-callout-primary"><b>Immersion:</b> "A state of mental focus so intense that awareness of the "real" world is lost, generally resulting a feeling of joy and satisfaction." &mdash; <a href='https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079'>Universal Principles of Design</a></div>
 
 Although immersion mostly refers to removing distractions from the outside world so the user can become engrossed within a system and forget the outside world, there are ties with documentation here. Users desire to be immersed in the application or system they're using rather than leaving that system to consult a separate, external system for help. Users usually feel like going into the help detracts them from the focus and progress toward their goal.
 
@@ -317,7 +317,7 @@ I moved this topic up more prominently in the help by listing it immediately aft
 
 The design principle here is one called "Desire line." Desire lines are the natural paths that form based on frequent user preferences.
 
-<div class="bs-callout bs-callout-primary"><b>Desire Line:</b> "Traces of use or wear that indicate preferred methods of interaction with an object or environment." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
+<div class="bs-callout bs-callout-primary"><b>Desire Line:</b> "Traces of use or wear that indicate preferred methods of interaction with an object or environment." &mdash; <a href='https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079'>Universal Principles of Design</a></div>
 
 The most common example of a desire line is a shortcut across a lawn.
 
@@ -355,7 +355,7 @@ The design principle behind consolidating information into longer, more complete
 
 <img src="../media/vectors/wtd_doc_navigation_modularity.svg"  class="vectorStyle"/>
 
-<div class="bs-callout bs-callout-primary"><b>Modularity:</b> "A method of managing system complexity that involves dividing large systems into multiple, smaller self-contained systems." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
+<div class="bs-callout bs-callout-primary"><b>Modularity:</b> "A method of managing system complexity that involves dividing large systems into multiple, smaller self-contained systems." &mdash; <a href='https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079'>Universal Principles of Design</a></div>
 
 Applying modularity to documentation means breaking up content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.
 
