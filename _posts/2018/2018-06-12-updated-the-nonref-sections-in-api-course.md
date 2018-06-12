@@ -1,10 +1,10 @@
 ---
-title: "Non-Reference Content section in API course has been revamped"
+title: "Non-Reference Content section updated in API course"
 categories:
 - api-doc
 keywords:
 summary: "I updated and reworked the topics in the Non-Reference Content section in my API doc course. This section includes the following topics: API overview, Getting started, Authentication and authorization, Status and error codes, Rate limiting and thresholds, Code samples and tutorials, SDKs and sample apps, Quick reference guides, API best practices, and Glossary. These sections are important in API documentation but tend to be overlooked as most discussions around API documentation focus on endpoint documentation only."
-bitlink: http://bit.ly/simpcompreconstabsence
+bitlink: http://bit.ly/nonrefsectionupdate
 ---
 
 Although this seems like a relatively easy section, it was actually one of the most tedious to write. It took me about a month to make these updates. I originally started updating this section when I [presented on non-reference content to the SF STC chapter back in March](http://idratherbewriting.com/2018/03/08/stc-sf-preso-nonreference-api-docs/). I then presented on the topic again in the [API workshop in Denver (it's Part III)](http://idratherbewriting.com/2018/03/12/api-documentation-workshop-in-denver/#video-recordings). I finally articulated some of the same instruction I gave during these presentations into written topics.
