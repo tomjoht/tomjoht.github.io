@@ -30,6 +30,8 @@ topnav_dropdowns:
           url: /presentations/
         - title: Advertising
           url: /advertising/
+        - title: Donate
+          url: /donate/
 
     - title: Archives
       items:
