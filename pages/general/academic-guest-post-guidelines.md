@@ -11,7 +11,7 @@ published: true
 
 I'm engaged in a year-long experiment (along with some others) to see if we can change attitudes in the industry that practitioners have toward academics, and vice versa. Part of this experiment involves inviting academics to publish shorter, practitioner-oriented versions of their academic articles on this site (I'd Rather Be Writing), which is one of the most visited tech writing blogs that practitioners read.
 
-More than 4,300 tech comm professionals subscribe to I'd Rather Be Writing, and the site receives approximately 1,500 hits a day. Each article offers commenting features for discussion, and social media buttons make it easy to share articles.
+More than 4,500 tech comm professionals subscribe to I'd Rather Be Writing, and the site receives approximately 1,500 hits a day. Each article offers commenting features for discussion, and social media buttons make it easy to share articles.
 
 If you're an academic who has published an article within the past several years, I invite you to create a practitioner-friendly version of content as a guest post. You've already done the research, written the content, and made your conclusions. The guest post involves simply rendering this same information in a practitioner-friendly format (think of articles you might read in _Intercom_ or the _Harvard Business Review_).
 

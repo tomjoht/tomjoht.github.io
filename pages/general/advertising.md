@@ -94,15 +94,15 @@ The cost for top banner ads is $6,000 per year.
 
 ### Newsletter Space {#newsletterspace}
 
-I send out approximately 2-3 newsletters a month to all my email subscribers (4,300+). These newsletters contain links and excerpts to the latest posts. Usually, each link in the newsletter gets around 300 clicks (which I track through Bitly). Below the links is the newsletter advertising space. You can add a 600 x 70px graphic here. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+I send out approximately 3 newsletters a month to all my email subscribers (4,500+). These newsletters contain links and excerpts to the latest posts. Usually, each link in the newsletter gets around 300 clicks (which I track through Bitly). Below the links is the newsletter advertising space. You can add a 600 x 70px graphic here. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
 <figure><img src="/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers.</figcaption></figure>
 
-The image format can be any standard image format (JPG, PNG, GIF), but not animated. The cost for advertising in the newsletter space is $1,200 per year for inclusion of the banner *with each newsletter* (2-3 times per month). For inclusion of the banner just *once per month*, the cost is $500.
+The image format can be any standard image format (JPG, PNG, GIF), but not animated. The cost for advertising in the newsletter space is $1,200 per year for inclusion of the banner *with each newsletter* (3 times per month). For inclusion of the banner just *once per month* (over the course of 12 months), the cost is $500.
+
+You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive).
 
 {% comment %}
-You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive). As desired, you can also include brief 1-3 line notes about upcoming webinars, events, or other news.
-
 Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
 
 <figure><a href="http://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
