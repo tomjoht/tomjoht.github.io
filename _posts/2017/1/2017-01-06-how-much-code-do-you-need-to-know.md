@@ -7,6 +7,6 @@ summary: "With developer documentation roles, some level of coding is required. 
 date: 2017-01-06 18:00:00
 ---
 
-Read more here: [Learning to code -- how much is enough?](http://idratherbewriting.com/learnapidoc/pubapis_learning_to_code.html)
+Read more here: [Learning to code -- how much is enough?](http://idratherbewriting.com/learnapidoc/jobapis_learning_code.html)
 
 {% include random_ad.html %}
