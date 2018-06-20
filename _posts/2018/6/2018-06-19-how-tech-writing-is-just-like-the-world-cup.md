@@ -70,7 +70,7 @@ I'm pretty sure that without the vuvuzela, fans at soccer matches would devolve 
 
 Same with tech comm. Sometimes it's helpful to go inside a conference room and just blow a vuvuzela. I mean, it's a really productive way to deal with stress from a product manager who sanitizes your docs or from an engineer who ignores your emails asking for a doc review. Just blow the vuvuzela with all your lung's might, and the world becomes a happier place.
 
-Okay, I don't currently have a vuvuzela (though I did have during a previous World Cup season just for fun and found the instrument fascinatingly loud). But I do often take off at around 3pm for a good 20 minutes to go down to our campus gym and shoot hoops. It lets me blow off some steam a bit, or just gives me a change of pace that refreshes me.
+Okay, I don't currently have a vuvuzela (though I did have one during a previous World Cup season just for fun and found the instrument fascinatingly loud). But I do often take off at around 3pm for a good 20 minutes to go down to our campus gym and shoot hoops. It lets me blow off some steam a bit, or just gives me a change of pace that refreshes me.
 
 ## 10. It feels good to be part of something larger than yourself.
 
