@@ -12,7 +12,7 @@ date: 2018-06-19T14:11:32+00:00
 
 ## 1. You have to go out of your way to win the referee / project manager over.
 
-It seems that every few minutes, a soccer player who is barely tapped or nudged falls perilously to the ground and writhes in pain for a few minutes. Then miraculously, even though it seemed just minutes ago he had his ankle snapped or shoulder shattered, the player is back running in full strength.
+It seems that every few minutes, a soccer player who is barely tapped or nudged falls perilously to the ground and writhes in pain for a few minutes. Then miraculously, even though it seemed just minutes ago he had his ankle snapped or shoulder shattered, the player is back running with full strength.
 
 In tech comm, you have to speak up in somewhat forceful ways in order to get calls your way. Try being silent or mild-mannered in a meeting and people will just walk all over you. While you don't need to perform heavy theatrics like soccer players, you do need to perform a bit more than usual. We introverts need to come out of our shells and do a little angry dance to get the project's team's attention. Sometimes to get a help button in an app, I have to feign utter shock and shake my head like the world is ending before the PM pauses a minute and blows the whistle on some misguided direction they were going.
 
@@ -38,7 +38,7 @@ In a PRI article profiling a soccer team consisting of all writers, the author i
 
 > Team members can be heard shouting instructions to their teammates and cursing when the other team scores a goal. “I think that soccer is a game that is essentially about failure and emptiness,” said Eilenberger cheerfully. Soccer players try to control a ball with their feet, he explained, but most of the time they end up losing control. “The very fact that life is failure, and your everyday experience is failure, is somehow symbolized by the soccer experience.” ([Germany has a soccer team made up entirely of writers](https://www.pri.org/stories/2017-01-24/germany-has-soccer-team-made-entirely-writers-0))
 
-Tech writers, too, much exert incredible patience and persist against failure and emptiness. As releases get pushed out, or deadlines are months in advance, you have to be patient and methodically try to move the ball down field. 90 days might pass before you can finally hit Publish on a single doc. Then right when you're ready to hit Publish, the project gets canceled, and you have to shelve all your work for good. The parallels are uncanny here.
+Tech writers, too, must exert incredible patience and persist against failure and emptiness. As releases get pushed out, or deadlines are months in advance, you have to be patient and methodically try to move the ball down field. 90 days might pass before you can finally hit Publish on a single doc. Then right when you're ready to hit Publish, the project gets canceled, and you have to shelve all your work for good. The parallels are uncanny here.
 
 ## 5. Even something usually considered boring can suddenly become interesting.
 
