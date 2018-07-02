@@ -12,7 +12,7 @@ date: 2018-06-19T14:11:32+00:00
 
 ## 1. You have to go out of your way to win the referee / project manager over.
 
-It seems that every few minutes, a soccer player who is barely tapped or nudged falls perilously to the ground and writhes in pain for a few minutes. Then miraculously, even though it seemed just minutes ago he had his ankle snapped or shoulder shattered, the player is back running with full strength.
+It seems that every few minutes, a soccer player who is [barely tapped](https://www.reddit.com/r/sports/comments/8sk7ag/world_cup_ending_injury_for_portugals_pepe/) or nudged falls perilously to the ground and writhes in pain for a few minutes. Then miraculously, even though it seemed just minutes ago he had his ankle snapped or shoulder shattered, the player is back running with full strength.
 
 In tech comm, you have to speak up in somewhat forceful ways in order to get calls your way. Try being silent or mild-mannered in a meeting and people will just walk all over you. While you don't need to perform heavy theatrics like soccer players, you do need to perform a bit more than usual. We introverts need to come out of our shells and do a little angry dance to get the project's team's attention. Sometimes to get a help button in an app, I have to feign utter shock and shake my head like the world is ending before the PM pauses a minute and blows the whistle on some misguided direction they were going.
 

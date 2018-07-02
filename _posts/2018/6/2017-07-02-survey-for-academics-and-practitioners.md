@@ -1,0 +1,28 @@
+---
+title: "A short survey to measure academic/practitioner attitudes"
+categories:
+- general
+keywords:
+summary: "The following two surveys will capture the thoughts and attitudes that Tech Comm practitioners and academics have towards each other as members of the same field. The survey takes approximately 1 minute to complete and consists only of 7 selections about whether you agree of disagree (along a scale). Your answers are anonymous. The responses here will be compared to a similar survey administered at a later time."
+bitlink: http://bit.ly/
+---
+
+<style>
+button.btn {
+  font-family: Arial; Verdana; Tahoma;
+  font-variant: small-caps;
+  margin: 10px;
+  margin-left: 0px;
+}
+.btn {
+  font-size: 20px;
+}
+</style>
+
+Take the survey that corresponds to your role. (If you play both roles, you can take both surveys.)
+
+<a href="https://www.questionpro.com/t/AOaGwZcWtz" target="\_blank"><button type="button" class="btn btn-info">Survey for practitioners to take</button></a> <br/>*Take this survey if you're a practitioner &mdash; e.g., employed as a tech writer for a company*.
+
+<a href="https://www.questionpro.com/t/AOaGwZcWKC" target="\_blank"><button type="button" class="btn btn-warning">Survey for academics to take</button></a> <br/>*Take this survey if you're an academic &mdash; e.g, employed by a college to teach TC courses*.
+
+Thanks for participating in the survey! I'll be discussing some challenges related to academics and practitioners in an upcoming podcast, so stay tuned.
