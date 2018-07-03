@@ -3,10 +3,9 @@ layout: default
 comments: true
 ---
 <div id="topBannerImageHomepage">{% include topBannerAd.html %}</div>
-{% comment %}
-{{site.data.alerts.announcement}} We need your help to establish a <a href="
-http://area51.stackexchange.com/proposals/101439/documentation" target="_blank">Documentation site on Stack Overflow</a>. To support the effort, up-vote some of the questions and pose a few example questions of your own. {{site.data.alerts.end}}
-{% endcomment %}
+{% unless page.no_survey %}
+{{site.data.alerts.announcement}} I'm conducting a short survey measuring attitudes that practitioners and academics have of each other. If you'd like to participate, you can <a href="http://bit.ly/techcommattitudessurvey">take the survey here</a>. {{site.data.alerts.end}}
+{% endunless %}
 <h1>{{ page.title }}</h1>
 <p class="page-meta">
     {{ page.date | date: "%b %-d, %Y" }} &#8226;
