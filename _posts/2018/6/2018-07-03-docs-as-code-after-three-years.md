@@ -1,5 +1,5 @@
 ---
-title: "Docs-as-code after 3 years -- it works!"
+title: "Docs-as-code after 3 years -- it still works!"
 categories:
 - writing
 keywords:
