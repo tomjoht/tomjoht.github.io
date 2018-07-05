@@ -114,7 +114,7 @@ I have developed this class from my own knowledge as a practitioner and as an in
 If you are interested in more on technological adaptability, I have several learning opportunities:
 
 *   Check out my workbook _Technological Adaptability: Learning Technology Quickly_. It’s designed for the general public, though it would work well as part of a technical communication course. The [Instructor's Guide](https://www.amazon.com/dp/B07CGT62SR) is currently available from Amazon in Kindle and print versions. The student version is available in [Kindle](https://www.amazon.com/dp/B07CN57MQV) with hard copy on the way. The book is now available to other bookstores, even academic bookstores, through Ingram Book company.  If you are an instructor and are interested in an evaluation copy of the workbook, email me: mmcmichael@technodaptability.com.
-*   Through STC, I will be providing a [three-course series](https://www.stc.org/course/technological-adaptability-developing-basic-technical-skills/) on how to become technologically adaptable, starting in June of this year.
+*   Through STC, I will be providing a [three-course series](https://www.stc.org/course/technological-adaptability-growing-technical-skills/) on how to become technologically adaptable, starting in June of this year.
 *   I conducted free webinar for STC members &mdash; _“_[What is Technological Adaptability?](https://www.stc.org/event/what-is-technological-adaptability/)”\-\- on May 16.
 *   At the [STC Summit](https://summit.stc.org/), I gave a talk on how formalizing and codifying technological adaptability as a skill can assist technical communication as a field.
 

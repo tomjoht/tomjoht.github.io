@@ -35,6 +35,10 @@ topnav_dropdowns:
 
     - title: Archives
       items:
+        - title: Tags
+          url: /tags
+        - title: Series
+          url: /series
         - title: 2018
           url: /archives-2018/
         - title: 2017
@@ -61,68 +65,6 @@ topnav_dropdowns:
           url: /archives-2007/
         - title: 2006
           url: /archives-2006/
-    - title: Series
-      items:
-
-      - title: Value arguments for docs and tech comm
-        url: /2017/12/28/value-of-tech-comm-in-company-part1/
-
-      - title: Visual communication
-        url: /2016/05/01/visualcommunication_course_overview
-
-      - title: Testing documentation
-        url: /2015/07/07/testing-your-instructions/
-
-      - title: Voiceover techniques
-        url: /2008/11/14/finding-a-conversational-voice-in-video-tutorials/
-
-      - title: 7 deadly sins of blogging
-        url: /2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/
-
-      - title: API documentation podcasts
-        url: /2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/
-
-      - title: API documentation survey
-        url: /2014/12/12/i-need-your-responses-to-my-api-documentation-survey/
-
-      - title: Author in DITA and Publish with WordPress
-        url: /2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/
-
-      - title: DITA journey
-        url: /2014/04/16/my-dita-journey-begins/
-
-      - title: Dallas STC Summit videocasts
-        url: /2010/05/11/a-few-ways-to-make-the-next-stc-summit-better/
-
-      - title: Get a Job in Technical Writing
-        url: /2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/
-
-      - title: Innovation in tech comm
-        url: /2015/02/10/sustaining-and-disruptive-innovations/
-
-      - title: Jekyll versus DITA
-        url: /2015/03/23/new-series-jekyll-versus-dita/
-
-      - title: My DITA journey
-        url: /2014/04/16/my-dita-journey-begins/
-
-      - title: Quick reference guides
-        url: /2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/
-
-      - title: Search engine optimization
-        url: /2013/09/22/how-to-search-engine-optimize-your-help-content-or-documentation/
-
-      - title: User-centered documentation
-        url: /2008/05/30/podcast-how-to-create-user-centered-documentation-interview-with-joe-sokohl/
-
-      - title: My journey to and from wikis
-        url: /2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/
-
-      - title: Findability / Organizing content
-        url: /2010/05/17/new-series-organizing-content-organizing-content-1/
-
-      - title: From overlooked to center stage
-        url: /2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/
 
 
     - title: Jekyll
@@ -138,60 +80,22 @@ topnav_dropdowns:
       - title: Jekyll on Stack Overflow
         external_url: http://stackoverflow.com/questions/tagged/jekyll
 
-
-    - title: Tags
-      items:
-      - title: API documentation
-        url: /category-api-doc/
-      - title: Beginner tips, career advice
-        url: /category-beginners/
-      - title: Blogging
-        url: /category-blogging/
-      - title: Creativity
-        url: /category-creativity/
-      - title: DITA
-        url: /category-dita/
-      - title: Family
-        url: /category-family/
-      - title: Findability
-        url: /category-findability/
-      - title: General
-        url: /category-general/
-      - title: Innovation
-        url: /category-innovation/
-      - title: Jekyll
-        url: /category-jekyll/
-      - title: Quick reference guides
-        url: /category-quick-reference-guides/
-      - title: Screencasting
-        url: /category-screencasting/
-      - title: Simplifying Complexity
-        url: /simplifying-complexity
-      - title: User-centered documentation
-        url: /category-user-centered-documentation/
-      - title: Video
-        url: /category-video/
-      - title: Visual communication
-        url: /category-visual-communication/
-      - title: Web design
-        url: /category-web-design/
-      - title: Wikis
-        url: /category-wikis/
-      - title: WordPress
-        url: /category-wordpress/
-      - title: Writing
-        url: /category-writing/
-    - title: Other
+    - title: Academics
       items:
       - title: Guidelines for academic guest posts
         url: /academic-guest-post-guidelines/
-      - title: User-Centered Documentation
-        url: http://idratherbewriting.com/ucd-introduction/
-      - title: JavaScript notes
-        url: /javascript/
-      - title: DITA notes
-        url: /ditaqrg/
-      - title: Java notes
-        url: /java-introduction/
-      - title: Jobs
-        url: /findjobs/
+      - title: Academic/Practitioner Bridge
+        url: /academic-practitioner-bridge/
+      - title: Academic/Practitioner Podcasts
+        url: /academic-practitioner-podcasts
+
+      # - title: User-Centered Documentation
+      #   url: http://idratherbewriting.com/ucd-introduction/
+      # - title: JavaScript notes
+      #   url: /javascript/
+      # - title: DITA notes
+      #   url: /ditaqrg/
+      # - title: Java notes
+      #   url: /java-introduction/
+      # - title: Jobs
+      #   url: /findjobs/
