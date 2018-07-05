@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 <div id="topBannerImageHomepage">{% include topBannerAd.html %}</div>
-{% unless page.no_survey %}
+{% unless page.embed_survey == "no_way" %}
 {{site.data.alerts.announcement}} I'm conducting a short survey measuring attitudes that practitioners and academics have of each other. If you'd like to participate, you can <a href="http://bit.ly/techcommattitudessurvey">take the survey here</a>. {{site.data.alerts.end}}
 {% endunless %}
 <h1>{{ page.title }}</h1>
