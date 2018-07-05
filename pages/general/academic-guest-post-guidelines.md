@@ -11,9 +11,9 @@ I'm engaged in a year-long experiment (along with some others) to see if we can 
 
 I believe we can change attitudes (for better or worse) by breaking down the content barriers between practitioners and academics. Most academics publish in journals that practitioners can't access; when practitioners can access the content, the articles are usually written in a way that doesn't speak to practitioners.
 
-If practitioners could read and provide feedback on research from academics, would this change practitioner attitudes towards academics? On the one hand, practitioners might deepen their appreciation of the research academics do. On the other, it might solidify the feelings they already heave. Either way, I'd like to help break down the barriers between these groups.
+If practitioners could read and provide feedback on research from academics, would this change practitioner attitudes towards academics? On the one hand, practitioners might deepen their appreciation of the research academics do. On the other, it might solidify the feelings they already have. Either way, I'd like to help break down the barriers between these groups.
 
-It's not just practitioner attitudes I'm looking to change. I'm convinced that academics have a poor understanding of their practitioner audience. Ideally, academics who write guest posts on this blog will sharpen their awareness of their practitioner audience and get a better sense of what's important, interesting, and relevant to industry practitioners.
+It's not just practitioner attitudes I'm looking to change. Many academics have a poor understanding of their practitioner audience's needs. Ideally, academics who write guest posts on this blog will sharpen their awareness of their practitioner audience and get a better sense of what's important, interesting, and relevant to industry practitioners.
 
 More than 4,500 tech comm professionals subscribe to I'd Rather Be Writing, and the site receives approximately 1,500 hits a day. Each article offers commenting features for discussion, and social media buttons make it easy to share articles.
 
