@@ -13,7 +13,7 @@ Lately I've been thinking about our throwaway culture, and when to choose buying
 
 Thanks to the "planned obsolescence" model that companies follow, where products are designed to last only a certain duration, we've grown accustomed to throwing things away when products break, even if it's just a minor issue with an otherwise good product. Companies deliberately make repairing broken products harder than simply buying new ones. Gaia Vince explains that "this way of selling more products by designing products that deliberately fail, cannot be repaired, or have a set lifespan imposed in some other way is known as *planned obsolescence*" ([The High Cost of our Throwaway Culture](http://www.bbc.com/future/story/20121129-the-cost-of-our-throwaway-culture)).
 
-Think of your light bulbs. Light bulbs *can* last for years, but companies build them to burn out after a number of months so you have to replace them.
+Think of your light bulbs. [Light bulbs *can* last for years](https://www.youtube.com/watch?v=ZKLip7Q_Y0s&feature=youtu.be), but companies build them to burn out after a number of months so you have to replace them.
 
 Or think of Macbook Pro laptops, where the memory and hard-drive are soldered in and can't be replaced. As newer operating systems require more memory and rich multimedia requires more and more space, the products meet their inevitable end of life &mdash; by design.
 

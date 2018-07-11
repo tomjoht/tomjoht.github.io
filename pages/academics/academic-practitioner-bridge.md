@@ -1,15 +1,20 @@
 ---
 layout: page
-title: Academic/Practitioner Bridge
+title: Academic/practitioner bridge
 permalink: /academic-practitioner-bridge/
 status: publish
 type: page
 published: true
 ---
 
-## What is this bridge?
+## The need for a bridge
 
-Tech Comm practitioners and academics are like two sides of a coin. Practitioners need academics in order to move past perceptions of simply being word technicians, where writing is viewed as a commodity that can easily be performed by anyone. Likewise, academics look to do research to advance the tech comm field, but they need practitioner input for data, relevance, and workplace understanding. Both groups need each other, but there's no clear mechanism for each for communication between the two groups.
+Tech comm practitioners and academics are members of the same profession, yet they often (sadly) operate in independent spheres. This is unfortunate because both sides need each other:
+
+* *Practitioners* need academics in order to move past perceptions of simply being word technicians, where writing is viewed as a commodity that can easily be performed by anyone.
+* *Academics* need to do research to advance the tech comm field, but they need practitioner input for data, relevance, and workplace understanding.
+
+Although both groups need each other, there's no clear mechanism for each for communication between the two groups.
 
 ## What information will appear in this space
 

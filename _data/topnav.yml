@@ -80,7 +80,7 @@ topnav_dropdowns:
       - title: Jekyll on Stack Overflow
         external_url: http://stackoverflow.com/questions/tagged/jekyll
 
-    - title: Academics
+    - title: Academics & Practitioners
       items:
       - title: Guidelines for academic guest posts
         url: /academic-guest-post-guidelines/
