@@ -1,5 +1,5 @@
 ---
-title: "Reducing the complexity of technical language (New article in Simplifying Complexity series)"
+title: "Reducing the complexity of technical language (new article in Simplifying Complexity series)"
 categories:
 - user-experience
 - podcasts

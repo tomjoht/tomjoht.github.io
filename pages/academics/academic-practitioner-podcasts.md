@@ -6,6 +6,9 @@ status: publish
 type: page
 published: true
 podcasts:
+  - title: The relationship between academics and practitioners -- Podcast with Kirk St. Amant
+    url: /2018/07/11/research-as-bridge-between-academics-and-practitioners-kirk-st-amant-podcast/
+    date: July 11, 2018
   - title: Evaluating the user experience of documentation -- Podcast with Bob Watson
     url: /2018/06/18/podcast-on-the-user-experience/
     date: Jun 18, 2018
@@ -18,7 +21,7 @@ I'm launching a series of podcasts focused on academic/practitioner conversation
 
 The podcasts will be listed in my [regular podcast feed](/category-podcasts/), but they'll also appear here.
 
-## Latest podcasts
+**Latest podcasts**:
 
 {% for item in page.podcasts %}
 * [{{item.title}}]({{item.url}}) ({{item.date}})
