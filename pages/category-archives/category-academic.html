@@ -1,12 +1,12 @@
 ---
 title: "Academic guest posts"
-permalink: /category-academic-guest-posts/
-categoryName: academic-guest-posts
+permalink: /category-academics-and-practitioners/
+categoryName: academics-and-practitioners
 ---
 
 <p>The following content is in the <b>{{page.categoryName}}</b> category:
 
-    {% for p in site.categories.academic-guest-posts %}
+    {% for p in site.categories.academics-and-practitioners %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
 </h4>
 {% endfor %}

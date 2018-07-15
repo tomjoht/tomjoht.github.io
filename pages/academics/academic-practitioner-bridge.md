@@ -16,9 +16,9 @@ Tech comm practitioners and academics are members of the same profession, yet th
 
 Although both groups need each other, there's no clear mechanism for each for communication between the two groups.
 
-## Academic-practitioner-bridge email group
+## Academic/Practitioner Bridge email group
 
-I created an email group dedicated to this purpose. If you're an academic who wants to collaborate with practitioners, or vice versa, be sure to sign up.
+I created an email group called "Academic/Practitioner Bridge" dedicated to this purpose. If you're an academic who wants to collaborate with practitioners, or if you're a practitioner who wants to collaborate with academics, be sure to sign up.
 
 <div class="classictemplate template" style="display: block;">
 <style type="text/css">
@@ -51,7 +51,7 @@ I created an email group dedicated to this purpose. If you're an academic who wa
     }
 </style>
 <div id="groupsio_embed_signup">
-<form action="https://groups.io/g/tc-academic-practitioner-bridge/signup?u=2369740628663070372" method="post" id="groupsio-embedded-subscribe-form" name="groupsio-embedded-subscribe-form" target="_blank">
+<form action="https://groups.io/g/tc-academic-practitioner-bridge/signup?u=2369740628663070372" method="post" id="groupsio-embedded-subscribe-form" name="groupsio-embedded-subscribe-form" target="\_blank">
     <div id="groupsio_embed_signup_scroll">
       <label for="email" id="templateformtitle">Subscribe to our group</label>
       <input type="email" value="" name="email" class="email" id="email" placeholder="email address" required="">
@@ -66,7 +66,7 @@ I created an email group dedicated to this purpose. If you're an academic who wa
 
 See the [group homepage](https://groups.io/g/tc-academic-practitioner-bridge) for more details.
 
-To send a message to the group, send an email to tc-academic-practitioner-bridge@groups.io.
+To send a message to the group, send an email to [tc-academic-practitioner-bridge@groups.io](mailto:tc-academic-practitioner-bridge@groups.io).
 
 ## What information will appear in the email group?
 

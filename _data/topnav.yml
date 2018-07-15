@@ -82,6 +82,8 @@ topnav_dropdowns:
 
     - title: Academics & Practitioners
       items:
+      - title: The Academic/Practitioner Blog Project
+        url: /academic-practitioner-project/
       - title: Guidelines for academic guest posts
         url: /academic-guest-post-guidelines/
       - title: Academic/Practitioner Bridge

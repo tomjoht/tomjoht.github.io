@@ -1,7 +1,8 @@
 ---
 title: "Teaching Technological Adaptability to Bridge the Gap (Guest post by Melonie McMichael)"
 categories:
-- academic-guest-posts
+- academics-and-practitioners
+- general
 keywords:
 summary: "The following is a guest post by <a href='#lonie'>Melonie McMichael</a>, a senior instructor at the University of Colorado and the proprietor of <a href='http://www.technodaptability.com/'>Technodaptability</a>. She explores the challenge of teaching technology to students in tech comm programs. She argues that perhaps the chief challenge of teaching adaptability is the need to be adaptable ourselves."
 bitlink: http://bit.ly/technologicaladaptability

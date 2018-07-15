@@ -7,19 +7,7 @@ type: page
 published: true
 ---
 
-I'm engaged in a year-long experiment (along with some others) to see if we can change attitudes in the industry that practitioners have toward academics, and vice versa. In July 2018, I [published a survey](http://idratherbewriting.com/2018/07/02/survey-for-academics-and-practitioners/) gathering a baseline of attitudes.
-
-I believe we can change attitudes (for better or worse) by breaking down the content barriers between practitioners and academics. Most academics publish in journals that practitioners can't access; when practitioners can access the content, the articles are usually written in a way that doesn't speak to practitioners.
-
-If practitioners could read and provide feedback on research from academics, would this change practitioner attitudes towards academics? On the one hand, practitioners might deepen their appreciation of the research academics do. On the other, it might solidify the disdain some already have. Either way, I'd like to help break down the barriers between these groups and help them interact more regularly.
-
-It's not just practitioner attitudes I'm looking to change. Many academics have a poor understanding of their practitioner audience's needs. Ideally, academics who write guest posts on this blog will sharpen their awareness of their practitioner audience and get a better sense of what's important, interesting, and relevant to industry practitioners. They'll be more aware of workplace issues, trends, criteria in job interview and selection, and more.
-
-Who will this effort influence? More than 4,500 tech comm professionals subscribe to I'd Rather Be Writing, and the site receives approximately 1,500 hits a day. Each article offers commenting features for discussion, and social media buttons make it easy to share articles.
-
 If you're an academic who has published an article within the past several years, I invite you to create a practitioner-friendly version of your research as a guest post. You've already done the research, written the content, and made your conclusions. The guest post involves simply rendering this same information in a practitioner-friendly format (think of articles you might read in _Intercom_ or the _Harvard Business Review_).
-
-Alternatively, you can also simply write a short intro to your article and then link to your PDF (which might be on your own website, on [https://dissem.in/](https://dissem.in/), or in a folder on my web server).
 
 ## Guidelines for making content practitioner friendly
 

@@ -1,7 +1,8 @@
 ---
 title: "A short survey to measure academic/practitioner attitudes"
 categories:
-- general
+- academics-and-practitioners
+- jobs
 keywords:
 summary: "The following two surveys will capture the thoughts and attitudes that Tech Comm practitioners and academics have towards each other as members of the same field. The survey takes approximately 1 minute to complete and consists only of 7 selections about whether you agree or disagree (along a scale). Your answers are anonymous. The responses here will be compared to a similar survey administered at a later time."
 bitlink: http://bit.ly/techcommattitudessurvey

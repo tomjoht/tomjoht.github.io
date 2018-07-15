@@ -1,7 +1,7 @@
 ---
 title: "Combatting the \"Make-It-Pretty\" Philosophy: Technical Writers Fight Back (Guest post by Emily January Peterson)"
 categories:
-- academic-guest-posts
+- academics-and-practitioners
 keywords:
 summary: "In this guest post, <a href='#emily'>Emily January Peterson</a>, an assistant professor at Weber State University in the Professional and Technical Writing Program, talks about stereotypes in the workplace that devalues the work the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
 bitlink: http://bit.ly/stereotypesmythsworkplace

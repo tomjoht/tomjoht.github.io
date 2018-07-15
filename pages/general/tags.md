@@ -4,7 +4,7 @@ permalink: /tags/
 layout: page
 mytags:
 - title: Academic Guest Posts
-  url: /category-academic-guest-posts/
+  url: /category-academics-and-practitioners/
 - title: API documentation
   url: /category-api-doc/
 - title: Beginner tips, career advice
