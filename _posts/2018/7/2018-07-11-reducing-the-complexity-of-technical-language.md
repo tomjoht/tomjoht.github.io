@@ -1,7 +1,7 @@
 ---
 title: "Reducing the complexity of technical language (new article in Simplifying Complexity series)"
 categories:
-- user-experience
+- simplifying-complexity
 - podcasts
 - stitcher
 keywords:  complexity, language, jargon

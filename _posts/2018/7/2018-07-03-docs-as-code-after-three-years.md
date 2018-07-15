@@ -1,7 +1,7 @@
 ---
 title: "Thoughts on docs-as-code after 3 years -- it works!"
 categories:
-- writing
+- api-doc
 keywords:
 summary: "I've been quite happy with our current docs-as-code implementation. It's worthwhile to periodically reflect why the docs-as-code approach tends to work so well."
 bitlink: http://bit.ly/docsascodecheckin
@@ -45,6 +45,8 @@ Okay, so not to sound like I'm in a honeymoon phase with a tool, I'll note a few
 * **Longevity of open source projects**: I kind of wonder how long Jekyll is going to be around. The project has transitioned the original maintainers three times since its beginning in 2008, which is remarkable. The work of the volunteers astounds me. I'm glad that GitHub embraced Jekyll into its tooling workflow. Even so, there's no monetization model around Jekyll. If it folds one day, it wouldn't surprise me. (As a side note, I feel bad about taking so much from open source projects without giving back.)
 
 * **Growing degree of custom scripts**: I'm a bit worried about the growing number of custom scripts and innovations I've made with our Jekyll site. I have about a dozen different includes that do everything from glossary lists and notes/alerts/cautions to images, drop-down selectors, and more. If we have to transition to another tool, we can always just grab the HTML output, since HTML is a standard, but we'd need to figure out how to reproduce the same efficiencies in the source. I'm pretty sure we'll be on Jekyll for quite a while.
+
+{% include random_ad.html %}
 
 ## More reading
 

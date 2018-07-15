@@ -3,6 +3,8 @@ title: Tags
 permalink: /tags/
 layout: page
 mytags:
+- title: Academic Guest Posts
+  url: /category-academic-guest-posts/
 - title: API documentation
   url: /category-api-doc/
 - title: Beginner tips, career advice

@@ -5,7 +5,8 @@ categories:
 keywords:
 summary: "The following is a guest post by <a href='#lonie'>Melonie McMichael</a>, a senior instructor at the University of Colorado and the proprietor of <a href='http://www.technodaptability.com/'>Technodaptability</a>. She explores the challenge of teaching technology to students in tech comm programs. She argues that perhaps the chief challenge of teaching adaptability is the need to be adaptable ourselves."
 bitlink: http://bit.ly/technologicaladaptability
-published: false
+# published: false
+practitioner_survey: https://docs.google.com/forms/d/1AbBl34UuHKwnjWfGzHDXMSRPAJ2zCbaMDgdAlClczdI/
 ---
 
 I am fortunate to have been both a long-time practitioner in the high-tech industry and, now, a long-time instructor. From my viewpoint, the rift between practitioners and academics centers around speed, technology, and adaptability. The academic branch of technical communication does not move quickly, nor is it very comfortable with technology (for the most part).
@@ -125,3 +126,5 @@ One thing we can guarantee our students: technology will change, as will the way
 Having been in the field of technical communication for 25 years, [Dr. Melonie McMichael](https://www.linkedin.com/in/melonie-mcmichael-81aba7117/) has experience in both industry and academia. She worked as a technical communicator in Austin’s high-tech sector for over a decade, including multiple stints at AMD as well as contracting work for 3M and working as a lone writer for a small software company. She held multiple roles in the field that ranged from production through writing to print buying.
 
 In 2010, Melonie earned her PhD in Technical Communication and Rhetoric from Texas Tech University where she taught for five years. Since 2011, she has taught at the University of Colorado Colorado Springs in the Professional and Technical Writing emphasis. With over a decade’s worth of workplace experience and another decade teaching technical communication, she brings both scholarship and industry knowledge to the classroom.
+
+{% include practitioner_survey.html %}

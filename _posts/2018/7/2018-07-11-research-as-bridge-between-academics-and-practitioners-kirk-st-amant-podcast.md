@@ -1,7 +1,7 @@
 ---
 title: "The relationship between academics and practitioners &mdash; Podcast with Kirk St. Amant"
 categories:
-- user-experience
+- academic-guest-posts
 - podcasts
 - stitcher
 keywords: usability, twilio, user experience

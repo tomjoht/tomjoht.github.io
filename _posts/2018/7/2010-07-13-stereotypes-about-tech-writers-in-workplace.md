@@ -1,11 +1,13 @@
 ---
 title: "Combatting the \"Make-It-Pretty\" Philosophy: Technical Writers Fight Back (Guest post by Emily January Peterson)"
 categories:
-- general
+- academic-guest-posts
 keywords:
-summary: "In this guest post, [Emily January Peterson](#emily), an assistant professor at Weber State University in the professional and technical writing program, talks about stereotypes in the workplace that devalues the work the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
+summary: "In this guest post, <a href='#emily'>Emily January Peterson</a>, an assistant professor at Weber State University in the professional and technical writing program, talks about stereotypes in the workplace that devalues the work the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
 bitlink: http://bit.ly/stereotypesmythsworkplace
-published: false
+practitioner_survey: https://docs.google.com/forms/d/1cPkozD8NPSrrelfSbBT4zLde8fM-SfgfYfRtDzxVEfM/
+author: <a href='#emily'>Emily January Peterson</a>
+# published: false
 ---
 
 ## Introduction
@@ -73,3 +75,7 @@ Wolfe, I. (2013, August 26). 65 percent of today's students will be employed in 
 ## About Emily January Petersen {#emily}
 
 Emily January Petersen is an assistant professor at Weber State University in the professional and technical writing program. She earned a Ph.D. in technical communication and rhetoric at Utah State University. Her research focuses on women in technical communication, historically, professionally, technologically, and extra-institutionally. She enjoys traveling, reading, and spending time with her two children. She has conducted research in India and is currently planning an archival research trip to South Africa and Botswana to look at technical documentation from women's organizations as part of an effort to recognize women's historical and global technical communication work. She can be reached at emilypetersen2@weber.edu.
+
+
+
+{% include practitioner_survey.html %}
