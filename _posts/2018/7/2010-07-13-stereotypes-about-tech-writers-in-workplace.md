@@ -3,7 +3,7 @@ title: "Combatting the \"Make-It-Pretty\" Philosophy: Technical Writers Fight Ba
 categories:
 - academic-guest-posts
 keywords:
-summary: "In this guest post, <a href='#emily'>Emily January Peterson</a>, an assistant professor at Weber State University in the professional and technical writing program, talks about stereotypes in the workplace that devalues the work the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
+summary: "In this guest post, <a href='#emily'>Emily January Peterson</a>, an assistant professor at Weber State University in the Professional and Technical Writing Program, talks about stereotypes in the workplace that devalues the work the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
 bitlink: http://bit.ly/stereotypesmythsworkplace
 practitioner_survey: https://docs.google.com/forms/d/1cPkozD8NPSrrelfSbBT4zLde8fM-SfgfYfRtDzxVEfM/
 author: <a href='#emily'>Emily January Peterson</a>
@@ -70,7 +70,7 @@ Educating others and speaking up about the value of technical communication cont
 
 ## References
 
-Wolfe, I. (2013, August 26). 65 percent of today's students will be employed in jobs that don't exist yet. _Success Performance Solutions_. Retrieved from https://www.successperformancesolutions.com/65-percent-of-todays-students-will-be-employed-in-jobs-that-dont-exist-yet/
+Wolfe, I. (2013, August 26). [65 percent of today's students will be employed in jobs that don't exist yet](https://www.successperformancesolutions.com/65-percent-of-todays-students-will-be-employed-in-jobs-that-dont-exist-yet/). _Success Performance Solutions_.
 
 ## About Emily January Petersen {#emily}
 
