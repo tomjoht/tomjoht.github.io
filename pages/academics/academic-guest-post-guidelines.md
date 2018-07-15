@@ -7,7 +7,7 @@ type: page
 published: true
 ---
 
-If you're an academic who has published an article within the past several years, I invite you to create a practitioner-friendly version of your research as a guest post. You've already done the research, written the content, and made your conclusions. The guest post involves simply rendering this same information in a practitioner-friendly format (think of articles you might read in _Intercom_ or the _Harvard Business Review_).
+If you're an academic who has published an article within the past several years, I invite you to create a practitioner-friendly version of your research as a guest post. You've already done the research, written the content, and made your conclusions. The guest post involves simply rendering this same information in a practitioner-friendly format (think of articles you might read in _Intercom_ or the _Harvard Business Review_). {% comment %}You can read some examples of posts in the [academics-and-practitioners tag archive](/category-academics-and-practitioners/).{% endcomment %}
 
 ## Guidelines for making content practitioner friendly
 

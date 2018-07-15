@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Academic/practitioner bridge
+title: Academic/practitioner bridge email group
 permalink: /academic-practitioner-bridge/
 status: publish
 type: page
@@ -18,7 +18,7 @@ Although both groups need each other, there's no clear mechanism for each for co
 
 ## Academic/Practitioner Bridge email group
 
-I created an email group called "Academic/Practitioner Bridge" dedicated to this purpose. If you're an academic who wants to collaborate with practitioners, or if you're a practitioner who wants to collaborate with academics, be sure to sign up.
+I created an email group called [Academic/Practitioner Bridge](https://groups.io/g/tc-academic-practitioner-bridge) dedicated to this purpose. If you're an academic who wants to collaborate with practitioners, or if you're a practitioner who wants to collaborate with academics, be sure to sign up.
 
 <div class="classictemplate template" style="display: block;">
 <style type="text/css">
@@ -64,9 +64,14 @@ I created an email group called "Academic/Practitioner Bridge" dedicated to this
 </div>
 </div>
 
-See the [group homepage](https://groups.io/g/tc-academic-practitioner-bridge) for more details.
+After joining the group and confirming your email, here's how you work with the group:
 
-To send a message to the group, send an email to [tc-academic-practitioner-bridge@groups.io](mailto:tc-academic-practitioner-bridge@groups.io).
+* To send a message to the group, send an email to [tc-academic-practitioner-bridge@groups.io](mailto:tc-academic-practitioner-bridge@groups.io).
+* You can also send a message by [creating a new post](https://groups.io/g/tc-academic-practitioner-bridge/post).
+* To see and modify all of your groups, go to [https://groups.io](https://groups.io).
+* You can view and search past messages [here](https://groups.io/g/tc-academic-practitioner-bridge/topics).
+* You can subscribe to the group's [RSS feed](https://groups.io/g/tc-academic-practitioner-bridge/rss).
+* To unsubscribe from the group, send an email to[ tc-academic-practitioner-bridge+unsubscribe@groups.io](tc-academic-practitioner-bridge+unsubscribe@groups.io).
 
 ## What information will appear in the email group?
 
