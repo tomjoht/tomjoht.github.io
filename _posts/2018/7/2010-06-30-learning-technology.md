@@ -1,7 +1,7 @@
 ---
 title: "Teaching Technological Adaptability to Bridge the Gap (Guest post by Melonie McMichael)"
 categories:
-- general
+- academic-guest-posts
 keywords:
 summary: "The following is a guest post by <a href='#lonie'>Melonie McMichael</a>, a senior instructor at the University of Colorado and the proprietor of <a href='http://www.technodaptability.com/'>Technodaptability</a>. She explores the challenge of teaching technology to students in tech comm programs. She argues that perhaps the chief challenge of teaching adaptability is the need to be adaptable ourselves."
 bitlink: http://bit.ly/technologicaladaptability
@@ -116,7 +116,7 @@ I have developed this class from my own knowledge as a practitioner and as an in
 If you are interested in more on technological adaptability, I have several learning opportunities:
 
 *   Check out my workbook [Technological Adaptability: Learning Technology Quickly](https://www.amazon.com/dp/B07CN57MQV). It’s designed for the general public, though it would work well as part of a technical communication course. The book is now available to other bookstores, even academic bookstores, through Ingram Book company.  If you are an instructor and are interested in an evaluation copy of the workbook, email me: mmcmichael@technodaptability.com. The [Instructor's Guide](https://www.amazon.com/dp/B07CGT62SR) is currently available from Amazon in Kindle and print versions.
-*   Through STC, I will be providing a three-course series called [Technological Adaptability: Growing Your Technical Skills](https://www.stc.org/course/technological-adaptability-growing-technical-skills/), starting in August 9 through September 13 of this year.
+*   Through STC, I will be providing a three-course series called [Technological Adaptability: Growing Your Technical Skills](https://www.stc.org/course/technological-adaptability-growing-technical-skills/), beginning August 9 through September 13 of this year.
 *   I conducted a free webinar for STC members &mdash; [What is Technological Adaptability?](https://www.stc.org/event/what-is-technological-adaptability/) on May 16, 2018.
 *   At the [STC Summit](https://summit.stc.org/), I gave a talk on how formalizing and codifying technological adaptability as a skill can assist technical communication as a field.
 
