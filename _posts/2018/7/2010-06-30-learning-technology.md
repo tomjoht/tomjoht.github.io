@@ -70,8 +70,8 @@ If we can stop the cycle, some our next wave of academics may be technologically
 Teaching technological adaptability is simple, but it is not easy. To teach adaptability effectively, students need to face many new software programs in a short period of time. Teaching strategies and subskills for becoming technologically adaptable assist in the process. The strategies are simple and fall into three categories:
 
 *   **Pattern recognition**: For example, I point out that most programs are built with a structure and logic that, once students comprehend that logic, they can work with the program intuitively.
-*   **Exploration**: I train the students to dig into a program, noting the location of commands and functions.
-*   **Extrapolation**: I have them adapt troubleshooting information that does not quite meet their needs.
+*   **Exploration**: For example, I train the students to dig into a program, noting the location of commands and functions.
+*   **Extrapolation**: For example, I have them adapt troubleshooting information that does not quite meet their needs.
 
 These subskills help students become adaptable a bit more quickly.
 
@@ -116,10 +116,9 @@ I have developed this class from my own knowledge as a practitioner and as an in
 
 If you are interested in more on technological adaptability, I have several learning opportunities:
 
-*   Check out my workbook [Technological Adaptability: Learning Technology Quickly](https://www.amazon.com/dp/B07CN57MQV). It’s designed for the general public, though it would work well as part of a technical communication course. The book is now available to other bookstores, even academic bookstores, through Ingram Book company.  If you are an instructor and are interested in an evaluation copy of the workbook, email me: mmcmichael@technodaptability.com. The [Instructor's Guide](https://www.amazon.com/dp/B07CGT62SR) is currently available from Amazon in Kindle and print versions.
-*   Through STC, I will be providing a three-course series called [Technological Adaptability: Growing Your Technical Skills](https://www.stc.org/course/technological-adaptability-growing-technical-skills/), beginning August 9 through September 13 of this year.
-*   I conducted a free webinar for STC members &mdash; [What is Technological Adaptability?](https://www.stc.org/event/what-is-technological-adaptability/) on May 16, 2018.
-*   At the [STC Summit](https://summit.stc.org/), I gave a talk on how formalizing and codifying technological adaptability as a skill can assist technical communication as a field.
+* Check out my workbook [Technological Adaptability: Learning Technology Quickly](https://www.amazon.com/dp/B07CN57MQV). It’s designed for the general public, though it would work well as part of a technical communication course. The book is now available to any bookstore, even academic bookstores, through Ingram Book company. Both the [Instructor’s Guide](https://www.amazon.com/dp/B07CGT62SR) and [student version](https://www.amazon.com/Technological-Adaptability-Learning-Technology-Quickly/dp/1732249326/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1531741408&sr=1-2) are currently available from Amazon in Kindle and print versions. If you are an instructor and are interested in an evaluation copy of the workbook, email me: [mmcmichael@technodaptability.com](mailto:mmcmichael@technodaptability.com).
+* Through STC, I will be providing two courses. [Technological Adaptability: Growing Your Technical Skills](https://www.stc.org/course/technological-adaptability-growing-technical-skills/) runs from August 9 through September 13 of this year. [Technological Adaptability: Building a Technology-Rich Portfolio](https://www.stc.org/course/technological-adaptability-building-technology-rich-portfolio/) will run from October 2 to November 6.
+* I will be replaying my talk, "Technological Adaptability: Formalizing a Vital Skill," from the STC Summit for the [Instructional Design and Learning SIG on September 13](http://www.stcidlsig.org/sept-13-2018-technological-adaptability-webinar-with-melonie-mcmichael/). The talk is free to members and available to non-members with a modest fee.
 
 One thing we can guarantee our students: technology will change, as will the way they do their jobs. If we teach them to be technologically adaptable, they can change with it. Most importantly, by teaching technological adaptability we can help bridge the gap between academic and practitioner. By embracing technological adaptability and attempting to become more adaptable ourselves, we can better meet the needs of our field.
 
