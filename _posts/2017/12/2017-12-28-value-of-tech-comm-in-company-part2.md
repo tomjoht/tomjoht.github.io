@@ -136,19 +136,19 @@ Now suppose you release docs and measure hits. Even if you're counting up metric
 
 In summary, attempting a quantitative approach to measure ROI will likely be unsuccessful; instead, we should focus on shaping the *perceived value* of docs in the minds of business leaders.
 
-## Value from focusing on complex (not secretarial) work {#peterson}
+## Value from focusing on complex (not secretarial) work {#petersen}
 
-The most recent issue of *Technical Communication* explores the value question as well, in Emily January Peterson's [Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace](https://www.stc.org/techcomm/2017/08/01/articulating-value-amid-persistent-misconceptions-about-technical-and-professional-communication-in-the-workplace/) (*Technical Communication*, 2017).
+The most recent issue of *Technical Communication* explores the value question as well, in Emily January Petersen's [Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace](https://www.stc.org/techcomm/2017/08/01/articulating-value-amid-persistent-misconceptions-about-technical-and-professional-communication-in-the-workplace/) (*Technical Communication*, 2017).
 
-Peterson interviews 39 women in tech comm to see whether others in the company value their role and contributions as technical writers. She finds that many tech writers are essentially treated like secretaries, and their work is minimized as merely fixing grammar or making other cosmetic improvements. Peterson writes,
+Petersen interviews 39 women in tech comm to see whether others in the company value their role and contributions as technical writers. She finds that many tech writers are essentially treated like secretaries, and their work is minimized as merely fixing grammar or making other cosmetic improvements. Petersen writes,
 
 > Overall, according to the interview data, TPC [Technical and Professional Communication] is misconceived as cosmetic, secretarial, unarticulated across disciplines, unnecessary, invisible, and unquantifiable, which means such workers often feel expendable.
 
-By "unarticulated," Peterson means the technical writer's improvement or creation of the content isn't noticed. Others often assume the tech writer merely got the content that way from engineers. Peterson explains,
+By "unarticulated," Petersen means the technical writer's improvement or creation of the content isn't noticed. Others often assume the tech writer merely got the content that way from engineers. Petersen explains,
 
 > Colleagues may engage with user guides or online help as much as customers do, but they might also think that Shirley’s [the tech writer's] hand in creating that documentation was unnecessary and, therefore, she is adjunct to the real work of the company and product. She [Shirley] explained that this is frustrating because, “I sit in sales now, and I can hear them talking about my work every single day. That’s part of how they sell the product. … I know they use it.” She sees them using the documentation, but she has also heard that what she does is unnecessary.
 
-Peterson highlights the contributions to knowledge that Hughes argued for. Peterson concludes that tech writers have to make a constant case for their value, correcting stereotypes and misperceptions across disciplines to make their value known and understood. One way to correct these stereotypes is by focusing on areas of complexity and collaboration. Overall, Peterson says "articulation is and must be a continued concern of the field as a whole."
+Petersen highlights the contributions to knowledge that Hughes argued for. Petersen concludes that tech writers have to make a constant case for their value, correcting stereotypes and misperceptions across disciplines to make their value known and understood. One way to correct these stereotypes is by focusing on areas of complexity and collaboration. Overall, Petersen says "articulation is and must be a continued concern of the field as a whole."
 
 I've only scratched the surface on research done around value. As I said earlier, this topic has been the dominant theme in tech comm since the beginning. It is a question that largely remains unresolved &mdash; if tech writers provide such value to the organization, why is their value so regularly questioned? And how do we establish our value to business leaders in persuasive ways?
 

@@ -70,7 +70,7 @@ What do I mean by information flow? Consider the graphic I previously used to sh
 
 Because technical writers are at the intersection of these groups, we are poised to enable information flow through these lines. We don't just document the needed information and publish it; we channel the information to the right group that needs it, and we pull information from other groups that have it. We connect information across groups, bringing information through these pipelines and pulling together the right people into conversations.
 
-In earlier research I cited the work on value by Emily January Peterson, who noted:
+In earlier research I cited the work on value by Emily January Petersen, who noted:
 
 > Practitioners know that TPC crosses boundaries and is therefore networked in a way that no other profession currently is.
 

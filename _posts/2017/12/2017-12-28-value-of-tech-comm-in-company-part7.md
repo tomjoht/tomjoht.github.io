@@ -50,7 +50,7 @@ Neilson, Gary; Martin, Karla; Powers, Elizabeth. ["The Secrets to Successful Str
 
 O'Keefe, Sarah. ["Content strategy for technical communication."](https://www.scriptorium.com/2016/02/content-strategy-for-technical-communication/) February 2016.
 
-Peterson, Emily January. "Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace." *Technical Communication*, Volume 64, Number 3, August 2017.
+Petersen, Emily January. "Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace." *Technical Communication*, Volume 64, Number 3, August 2017.
 
 Rawson, Alex; Duncan, Conor Jones. ["The Truth About Customer Experience."](https://hbr.org/2013/09/the-truth-about-customer-experience). September 2013.
 
