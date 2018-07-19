@@ -4,11 +4,12 @@ categories:
 - academics-and-practitioners
 - general
 keywords:
-summary: "The following is a guest post by <a href='#lonie'>Melonie McMichael</a>, a senior instructor at the University of Colorado and the proprietor of <a href='http://www.technodaptability.com/'>Technodaptability</a>. She explores the challenge of teaching technology to students in tech comm programs. She argues that perhaps the chief challenge of teaching adaptability is the need to be adaptable ourselves."
-bitlink: http://bit.ly/technologicaladaptability
+summary: "The following is a guest post by <a href='#lonie'>Melonie McMichael</a>, a senior instructor at the University of Colorado and the proprietor of <a href='http://www.technodaptability.com/'>Technodaptability</a>. In this post, she explores the challenge of teaching technology to students in tech comm programs, arguing that perhaps the chief challenge of teaching adaptability is the need to be adaptable ourselves."
+bitlink: http://bit.ly/technologicaladaptpost
 # published: false
 practitioner_survey: https://docs.google.com/forms/d/1AbBl34UuHKwnjWfGzHDXMSRPAJ2zCbaMDgdAlClczdI/
 author: <a href='#lonie'>Melonie McMichael</a>
+date: 2018-07-18T20:04:46+00:00
 ---
 
 I am fortunate to have been both a long-time practitioner in the high-tech industry and, now, a long-time instructor. From my viewpoint, the rift between practitioners and academics centers around speed, technology, and adaptability. The academic branch of technical communication does not move quickly, nor is it very comfortable with technology (for the most part).

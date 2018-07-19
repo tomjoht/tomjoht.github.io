@@ -9,9 +9,6 @@ published: true
 
 I'm engaged in a year-long experiment to see if we can change attitudes in the industry that practitioners have toward academics in the same field, and vice versa. The project is called Academic/Practitioner Conversations. By breaking down the barriers that separate the two groups, I hope to encourage more interaction and knowledge sharing between tech comm academics and practitioners.
 
-* TOC
-{:toc}
-
 ## Project Overview
 
 For more background around the divide between TC academics and practitioners, see the November 2016 issue (Volume 63, issue 4) of the [*Technical Communication Journal*](http://www.ingentaconnect.com/content/stc/tc/2016/00000063/00000004;jsessionid=1g71c4ds12iuv.x-ic-live-01). (The issue is dedicated to this entire topic.) Essentially, although the two groups should be working closely with each other, they operate in independent spheres.

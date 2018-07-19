@@ -3,7 +3,7 @@ title: "Combatting the \"Make-It-Pretty\" Philosophy: Technical Writers Fight Ba
 categories:
 - academics-and-practitioners
 keywords:
-summary: "In this guest post, <a href='#emily'>Emily January Petersen</a>, an assistant professor at Weber State University in the Professional and Technical Writing Program, talks about stereotypes in the workplace that devalues the work the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
+summary: "In this guest post, <a href='#emily'>Emily January Petersen</a>, an assistant professor at Weber State University in the Professional and Technical Writing Program, talks about stereotypes in the workplace that devalues the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
 bitlink: http://bit.ly/stereotypesmythsworkplace
 practitioner_survey: https://docs.google.com/forms/d/1cPkozD8NPSrrelfSbBT4zLde8fM-SfgfYfRtDzxVEfM/
 author: <a href='#emily'>Emily January Petersen</a>
@@ -67,15 +67,15 @@ Unfortunately, and despite some of our best efforts, misconceptions continue to 
 
 Educating others and speaking up about the value of technical communication continues to be a critical part of the workplace experience. The varied work of practitioners demonstrates that technical communication is an integral part of an expanding knowledge economy. Technical communicators' work is threaded through the history and current practice of various fields, and we must continue to challenge and change stereotypes.
 
-
 ## References
 
 Wolfe, I. (2013, August 26). [65 percent of today's students will be employed in jobs that don't exist yet](https://www.successperformancesolutions.com/65-percent-of-todays-students-will-be-employed-in-jobs-that-dont-exist-yet/). _Success Performance Solutions_.
 
+{{site.data.alerts.tip}}You can read the academic version of this article that was published in the <i>Technical Communication Journal</i> here: <a href="https://www.stc.org/techcomm/2017/08/01/articulating-value-amid-persistent-misconceptions-about-technical-and-professional-communication-in-the-workplace/">Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace</a> (If you don't have access to the journal, you can request a copy through <a href="https://www.researchgate.net/publication/319901346_Articulating_value_amid_persistent_misconceptions_about_technical_and_professional_communication_in_the_workplace">ResearchGate</a>.){{site.data.alerts.end}}
+
+
 ## About Emily January Petersen {#emily}
 
-Emily January Petersen is an assistant professor at Weber State University in the professional and technical writing program. She earned a Ph.D. in technical communication and rhetoric at Utah State University. Her research focuses on women in technical communication, historically, professionally, technologically, and extra-institutionally. She enjoys traveling, reading, and spending time with her two children. She has conducted research in India and is currently planning an archival research trip to South Africa and Botswana to look at technical documentation from women's organizations as part of an effort to recognize women's historical and global technical communication work. She can be reached at emilypetersen2@weber.edu.
-
-
+Emily January Petersen is an assistant professor at Weber State University in the professional and technical writing program. She earned a Ph.D. in technical communication and rhetoric at Utah State University. Her research focuses on women in technical communication, historically, professionally, technologically, and extra-institutionally. She enjoys traveling, reading, and spending time with her two children. She has conducted research in India and is currently planning an archival research trip to South Africa and Botswana to look at technical documentation from women's organizations as part of an effort to recognize women's historical and global technical communication work. She can be reached at [emilypetersen2@weber.edu](mailto:emilypetersen2@weber.edu).
 
 {% include practitioner_survey.html %}
