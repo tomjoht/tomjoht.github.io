@@ -10,6 +10,8 @@ author: <a href='#emily'>Emily January Petersen</a>
 # published: false
 ---
 
+{{site.data.alerts.tip}}You can read the academic version of this article that was published in the <i>Technical Communication Journal</i> here: <a href="https://www.academia.edu/35267996/Articulating_Value_Amid_Persistent_Misconceptions_about_Technical_and_Professional_Communication_in_the_Workplace">Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace</a>.{{site.data.alerts.end}}
+
 ## Introduction
 
 After looking for jobs with an English degree in technical writing and editing, I was told that I was not qualified to be a secretary. I completed college with what I thought were important skills, yet people did not understand the skills that I would bring to their organizations. 	
@@ -70,9 +72,6 @@ Educating others and speaking up about the value of technical communication cont
 ## References
 
 Wolfe, I. (2013, August 26). [65 percent of today's students will be employed in jobs that don't exist yet](https://www.successperformancesolutions.com/65-percent-of-todays-students-will-be-employed-in-jobs-that-dont-exist-yet/). _Success Performance Solutions_.
-
-{{site.data.alerts.tip}}You can read the academic version of this article that was published in the <i>Technical Communication Journal</i> here: <a href="https://www.stc.org/techcomm/2017/08/01/articulating-value-amid-persistent-misconceptions-about-technical-and-professional-communication-in-the-workplace/">Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace</a> (If you don't have access to the journal, you can request a copy through <a href="https://www.researchgate.net/publication/319901346_Articulating_value_amid_persistent_misconceptions_about_technical_and_professional_communication_in_the_workplace">ResearchGate</a>.){{site.data.alerts.end}}
-
 
 ## About Emily January Petersen {#emily}
 
