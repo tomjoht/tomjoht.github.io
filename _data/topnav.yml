@@ -84,12 +84,13 @@ topnav_dropdowns:
       items:
       - title: Academic/Practitioner Conversations Project
         url: /academic-practitioner-project/
-      - title: Guidelines for academic posts
-        url: /academic-post-guidelines/
       - title: Academic/Practitioner Bridge
         url: /academic-practitioner-bridge/
-      - title: Academic/Practitioner Podcasts
-        url: /academic-practitioner-podcasts
+      - title: Guidelines for academic posts
+        url: /academic-post-guidelines/
+
+      # - title: Academic/Practitioner Podcasts
+      #   url: /academic-practitioner-podcasts
 
       # - title: User-Centered Documentation
       #   url: http://idratherbewriting.com/ucd-introduction/
