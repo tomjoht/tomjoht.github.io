@@ -136,7 +136,7 @@ Why is it so difficult to get a realistic count of the number of people using DI
 
 **TJ:** Someone recently approached me to ask if there has been any research done around the viability of Markdown as a sustainable and robust enough format for a tech pubs team. The person wanted to leverage any research on the topic (to inform their company's decision) but could not locate any. Markdown is emerging as another huge format for tech docs, and yet again, just like with DITA, the academic community is silent on this. Can we expect any academic research focusing on Markdown (besides your LwDITA research)?
 
-**CE:** I have been using Markdown in my courses probably since 200, and I have done informal research with students. I do not have a big research question about it, so that has not been a focus in my research work. But I do use it a lot and even wrote most of my book in Markdown (or MDITA, to be more precise).
+**CE:** I have been using Markdown in my courses probably since 2007, and I have done informal research with students. I do not have a big research question about it, so that has not been a focus in my research work. But I do use it a lot and even wrote most of my book in Markdown (or MDITA, to be more precise).
 
 I hope your conversations series helps in the formulation of research questions worth exploring in this area.
 
