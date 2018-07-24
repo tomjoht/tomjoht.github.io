@@ -15,7 +15,7 @@ This is my favorite type of post because, more than anything else, it facilitate
 
 I share these passages with you in a Google doc, and then you can respond at the timeline you set. When you're finished, I publish the conversation.
 
-(I don't have any current examples of conversation posts yet, but they're coming soon.)
+Here's an example of a [conversations post with Carlos Evia](http://idratherbewriting.com/2018/07/23/adventures-of-techie-academic-conversation-with-carlos-evia/).
 
 ## Guest posts {#guest_posts}
 
