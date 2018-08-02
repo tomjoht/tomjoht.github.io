@@ -164,7 +164,7 @@ As technical writers try to get a foothold in the developer doc world, they'll t
 
 As technical writers interact with APIs, explaining how to retrieve data and integrate it into web applications, technical writers will become curious about delivering some of their own doc content through an API.
 
-In an earlier post, I provided a basic approach to rendering your content as a JSON file that can be consumed through JavaScript inside an application interface. See [Help APIs and UI Tooltips](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api).
+In an earlier post, I provided a basic approach to rendering your content as a JSON file that can be consumed through JavaScript inside an application interface. See [Help APIs and UI Tooltips](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api).
 
 [Contentful](https://www.contentful.com/) is an actual API service to manage your content. According to their site, Contentful is "a content delivery backend with a RESTful JSON API, plus a web app for managing the content" ([Developer Center](https://www.contentful.com/developers/docs/).
 
@@ -253,7 +253,7 @@ Contentful also allows you to create and update content, deliver previews, downl
 
 By storing the content on an API server in the cloud and allowing applications to download the content they need, Contentful allows for multi-channel delivery across any number of sites and platforms, essentially replacing the need for a content management system.
 
-I doubt Contentful will gain early traction in the tech comm market any time this year, but the idea of delivering user interface content (such as tooltips or interface tutorials) through a JSON file is something that is going to grow in popularity. I delivered UI content using Jekyll and the method I [described earlier](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api), and I found it incredibly effective. I was able to single source the definitions from my main documentation help into both the JSON file (used for UI tooltips) and various documentation pages.
+I doubt Contentful will gain early traction in the tech comm market any time this year, but the idea of delivering user interface content (such as tooltips or interface tutorials) through a JSON file is something that is going to grow in popularity. I delivered UI content using Jekyll and the method I [described earlier](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api), and I found it incredibly effective. I was able to single source the definitions from my main documentation help into both the JSON file (used for UI tooltips) and various documentation pages.
 
 Contentful may have slow adoption in the tech comm community, but it's one of the fastest growing APIs. Take a look at this article on Programmableweb.com: [How SDKs and Community Drove Contentful's 2000% Growth In Two Years](http://www.programmableweb.com/news/how-sdks-and-community-drove-contentfuls-2000-growth-two-years/analysis/2015/12/03).
 
@@ -267,4 +267,4 @@ When analyzing trends, I recommend that you look at technology trends in general
 
 If there are other ripple effects to API growth that I haven't considered here, please let me know.
 
-If you want some tips on how to document APIs, see my free course, <a href="http://idratherbewriting.com/learnapidoc/">Documenting REST APIs</a>. (This is a resource I keep adding to and growing, so keep watching it.)
+If you want some tips on how to document APIs, see my free course, <a href="https://idratherbewriting.com/learnapidoc/">Documenting REST APIs</a>. (This is a resource I keep adding to and growing, so keep watching it.)

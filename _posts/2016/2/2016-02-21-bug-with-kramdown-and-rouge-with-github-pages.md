@@ -67,6 +67,6 @@ If you have 4 spaces instead of 3, Kramdown will set off the code with `code` ta
 
 ## A Kramdown/Rouge test
  
-As a test, I published a [sample Jekyll site here built by Github Pages](http://idratherbewriting.com/kramdowntest/jekyll/update/2016/02/05/welcome-to-jekyll.html) that contains the Kramdown/Rouge configuration. The page has code blocks both inside and outside of list items. 
+As a test, I published a [sample Jekyll site here built by Github Pages](https://idratherbewriting.com/kramdowntest/jekyll/update/2016/02/05/welcome-to-jekyll.html) that contains the Kramdown/Rouge configuration. The page has code blocks both inside and outside of list items. 
 
 The repo is here -- [kramdowntest](https://github.com/tomjoht/kramdowntest) -- if you want to clone it and play around with it.

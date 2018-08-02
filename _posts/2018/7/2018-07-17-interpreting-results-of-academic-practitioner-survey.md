@@ -19,11 +19,11 @@ QuestionPro (the survey tool I used) provides various ways to present the data. 
 
 ## Background on the survey
 
-I initially started shaping the survey topics by asking [open-ended questions](http://idratherbewriting.com/2018/02/06/survey-to-measure-tc-academic-practitioner-attitudes/) that invited people to respond. I received about 30 responses with *a lot* of feedback to read through. Working with a professor interested in the project, we then formulated the responses into a representative list of [agree/disagree statements](http://idratherbewriting.com/2018/07/02/survey-for-academics-and-practitioners/) (a Likert scale) whose responses could be quantitatively measured.  
+I initially started shaping the survey topics by asking [open-ended questions](https://idratherbewriting.com/2018/02/06/survey-to-measure-tc-academic-practitioner-attitudes/) that invited people to respond. I received about 30 responses with *a lot* of feedback to read through. Working with a professor interested in the project, we then formulated the responses into a representative list of [agree/disagree statements](https://idratherbewriting.com/2018/07/02/survey-for-academics-and-practitioners/) (a Likert scale) whose responses could be quantitatively measured.  
 
 I kept the survey open for 2 weeks and, in total, collected 407 practitioner responses and 65 academic responses. As this second survey was a quantitative measure, it gave me a specific number as a baseline to compare later responses.
 
-My plan is to now start the "conversations" phase of my project. I describe this in more detail here: [Academic/Practitioner Conversations](http://idratherbewriting.com/academic-practitioner-project/). The basic idea is to create conversations (in the form of Q&A posts, guest posts, podcasts, and other exchanges) between practitioners and academics by pulling them both into the same (virtual) space as a means to lessen the divide.
+My plan is to now start the "conversations" phase of my project. I describe this in more detail here: [Academic/Practitioner Conversations](https://idratherbewriting.com/academic-practitioner-project/). The basic idea is to create conversations (in the form of Q&A posts, guest posts, podcasts, and other exchanges) between practitioners and academics by pulling them both into the same (virtual) space as a means to lessen the divide.
 
 ## Interpreting the survey results
 
@@ -33,7 +33,7 @@ Now that the survey results are in, what do we make of the responses? I invite y
 
 Here's a breakdown of the responses:
 
-<a target="\_blank" href="http://idratherbewriting.com/images/psurvey2.png"><img src="/images/psurvey2.png" style="max-width: 100%"/></a>
+<a target="\_blank" href="https://idratherbewriting.com/images/psurvey2.png"><img src="/images/psurvey2.png" style="max-width: 100%"/></a>
 
 The responses here are varied. If you just look at the overall distribution, the 2.83 score appears as if most are undecided (42% are undecided). But the responses are also a bit polarized. About 35% disagree or strongly disagree, and about 23% agree or strongly agree.
 
@@ -49,7 +49,7 @@ Now let's flip to the other side and look at the results from the academic surve
 
 Here's a breakdown of the responses:
 
-<a target="\_blank" href="http://idratherbewriting.com/images/asurvey2.png"><img src="/images/asurvey2.png" style="max-width: 100%"/></a>
+<a target="\_blank" href="https://idratherbewriting.com/images/asurvey2.png"><img src="/images/asurvey2.png" style="max-width: 100%"/></a>
 
 About 50% of the academic participants either disagree or strongly disagree that practitioners are the audience for their research. 28% are undecided, and only 23% agree or strongly agree. Holy smokes! Notice that the question didn't say that practitioners *should* be the audience for academic research, so maybe academics believe that the current state isn't the ideal or desired state. But is it any surprise that practitioners aren't diving into academic research given that they aren't the audience for it? (And if they aren't the audience, then practitioners' disagreement with the relevance of academic research makes sense.)
 
@@ -59,7 +59,7 @@ If academics aren't doing research for practitioners, who is their research for?
 
 Here's another way to interpret the survey response. Even without practitioners reading journals, academic research will trickle down into practitioner workspaces on its own. It's like the news &mdash; even if you don't read or watch the news, you still get a sense of what's going on. You hear about it from somewhere (someone circulates it), even if you don't know the source. Consider how many end-users don't actually read the documentation, but they learn about the right techniques through support agents who *do* read the documentation. Thus, in this model, academics might be writing for other academics without worry about excluding practitioner audience. They are writing for practitioners *indirectly*.
 
-A similar argument is that, in academic journals, academics write for other academics. These are, after all, academic spaces and clearly, based on the methodological details and academic discourse, academics don't have practitioners in mind. But, as Bob Watson explains in the [comments below](http://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/#comment-3994284432), "Academic researchers share and build on [each others'] research and, after a while, some will take this body of knowledge and write a book (blog post, conference presentation, etc.) for practitioners." In this view, academic journals are a place for academics to rightly exchange with other academics, and eventually, the information that holds up finds its way to practitioners through other forms.
+A similar argument is that, in academic journals, academics write for other academics. These are, after all, academic spaces and clearly, based on the methodological details and academic discourse, academics don't have practitioners in mind. But, as Bob Watson explains in the [comments below](https://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/#comment-3994284432), "Academic researchers share and build on [each others'] research and, after a while, some will take this body of knowledge and write a book (blog post, conference presentation, etc.) for practitioners." In this view, academic journals are a place for academics to rightly exchange with other academics, and eventually, the information that holds up finds its way to practitioners through other forms.
 
 But notice that the survey statement didn't mention journal articles at all. It stated, "Industry practitioners (rather than other academics) are the primary audience for *research*." Perhaps the split responses to the question are due to how respondents interpreted the word "research." Does it refer to the research projects academics undertake as a whole, or to the published journal articles about their research? One would hope that the projects do have practitioners in mind as an audience, even if the (initial) publications ignore that audience.
 
@@ -67,7 +67,7 @@ A final, more cynical interpretation of this response is that the research acade
 
 ## Conclusion and next steps
 
-The divide between academics and practitioners is a sorry state of affairs (though it's not unique to our discipline). What can we do about it? I'm going to start a project that I'm calling [Academic/Practitioner Conversations](http://idratherbewriting.com/academic-practitioner-project/). Part of the problem, as academics such as Stacey Pigg have pointed out (in her article on [Multidirectional Knowledge Flows](https://www.stc.org/techcomm/2016/11/01/toward-multidirectional-knowledge-flows-lessons-from-research-and-publication-practices-of-technical-communication-entrepreneurs/)), is that academics and practitioners have different knowledge flows; they operate and interact in different spheres and spaces. One goes to conferences and reads blogs, the other goes to the library and talks with students in the classroom.
+The divide between academics and practitioners is a sorry state of affairs (though it's not unique to our discipline). What can we do about it? I'm going to start a project that I'm calling [Academic/Practitioner Conversations](https://idratherbewriting.com/academic-practitioner-project/). Part of the problem, as academics such as Stacey Pigg have pointed out (in her article on [Multidirectional Knowledge Flows](https://www.stc.org/techcomm/2016/11/01/toward-multidirectional-knowledge-flows-lessons-from-research-and-publication-practices-of-technical-communication-entrepreneurs/)), is that academics and practitioners have different knowledge flows; they operate and interact in different spheres and spaces. One goes to conferences and reads blogs, the other goes to the library and talks with students in the classroom.
 
 The idea behind my research project is to bring these two groups into a common space where they can interact through conversations. Over the course of the year, I'm planning to have conversations (in the form of question-and-answer posts) with academics about their articles and research. I invite others to join me as well. These conversations will take the form of blog posts and podcasts. More than any other site, I want I'd Rather Be Writing to function as a bridge between academics and practitioners.  
 

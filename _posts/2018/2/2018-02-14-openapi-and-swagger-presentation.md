@@ -30,7 +30,7 @@ I didn't like how my talking head seemed to squish the video over to the left, s
 
 Here are the slides:
 
-<a target="_blank" href="http://idratherbewriting.com/openapi-and-swagger"><img src="/images/openapiandswagger.png" style="max-width: 400px;" /></a>
+<a target="_blank" href="https://idratherbewriting.com/openapi-and-swagger"><img src="/images/openapiandswagger.png" style="max-width: 400px;" /></a>
 
 ## Audio only
 

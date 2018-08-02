@@ -15,7 +15,7 @@ This is my favorite type of post because, more than anything else, it facilitate
 
 I share these passages with you in a Google doc, and then you can respond at the timeline you set. When you're finished, I publish the conversation.
 
-Here's an example of a [conversations post with Carlos Evia](http://idratherbewriting.com/2018/07/23/adventures-of-techie-academic-conversation-with-carlos-evia/).
+Here's an example of a [conversations post with Carlos Evia](https://idratherbewriting.com/2018/07/23/adventures-of-techie-academic-conversation-with-carlos-evia/).
 
 ## Guest posts {#guest_posts}
 
@@ -37,7 +37,7 @@ Here's an example of a podcast with Kirk St. Amant on the [relationship between 
 
 ## Individual surveys to follow posts
 
-In order to align and evaluate the goals of the Academic/Practitioner Conversations project, at the end of each post I'll include a survey form that asks the same questions as the [original survey](2018/07/17/interpreting-results-of-academic-practitioner-survey/) but personalized to you. This gives you more direct feedback about your topic or other writing connects or doesn't connect with the practitioner audience. The individual surveys are done through Google Forms. You can see an example [here](http://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/#emily).
+In order to align and evaluate the goals of the Academic/Practitioner Conversations project, at the end of each post I'll include a survey form that asks the same questions as the [original survey](2018/07/17/interpreting-results-of-academic-practitioner-survey/) but personalized to you. This gives you more direct feedback about your topic or other writing connects or doesn't connect with the practitioner audience. The individual surveys are done through Google Forms. You can see an example [here](https://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/#emily).
 
 ## Optional sections
 

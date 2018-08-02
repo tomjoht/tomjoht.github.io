@@ -13,7 +13,7 @@ type: notes_ucd
 {% comment %}
 ## Users don't want to use help
 
-> "The conclusion of most studies about how people use help is that people don't use help."<br/>-- Mike Hughes, <a href="http://idratherbewriting.com/2009/01/31/podcast-make-your-help-indispensable-safeguard-your-job/">I'd Rather Be Writing podcast</a>
+> "The conclusion of most studies about how people use help is that people don't use help."<br/>-- Mike Hughes, <a href="https://idratherbewriting.com/2009/01/31/podcast-make-your-help-indispensable-safeguard-your-job/">I'd Rather Be Writing podcast</a>
 
 **Audio excerpt**
 
@@ -24,7 +24,7 @@ type: notes_ucd
 
 ## Bring help into the UI
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api.html"><img src="/user_centered_doc/media/rasters/tooltipdemo.png"/></a>
+<a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api.html"><img src="/user_centered_doc/media/rasters/tooltipdemo.png"/></a>
 
 * Simple popovers or tooltips work well
 * Provide UX designers with JSON file to act as content API 

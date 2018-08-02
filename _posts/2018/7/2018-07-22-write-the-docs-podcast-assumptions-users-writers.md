@@ -15,6 +15,6 @@ See these links for more information:
 
 * [Research Like You're Wrong](https://www.youtube.com/watch?v=aCNbVf9Id5Y&index=2&list=PLZAeFn6dfHplUgfLOLEuHHAm1HdrIyaZ7), by Jen Lambourne
 
-* [Combatting the "Make-It-Pretty" Philosophy](http://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/), by Emily January Petersen
+* [Combatting the "Make-It-Pretty" Philosophy](https://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/), by Emily January Petersen
 
-* [Results from Academic/Practitioner Attitudes surveys now available](http://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/), by Tom Johnson
+* [Results from Academic/Practitioner Attitudes surveys now available](https://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/), by Tom Johnson

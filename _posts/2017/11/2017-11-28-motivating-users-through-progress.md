@@ -24,7 +24,7 @@ eLearning approaches learning as more of a long-form course or training that a u
 
 ## Reference content versus a "course"
 
-When I created my [API documentation site](http://idratherbewriting.com/learnapidoc/), I compiled the material as reference content for workshops I was leading. I didn't approach the content as an eLearning deliverable, because eLearning concerns aren't in my tech comm DNA. However, after I started receiving a lot of feedback from users who were progressing through the material as a "course," I started to consider some of these eLearning considerations.
+When I created my [API documentation site](https://idratherbewriting.com/learnapidoc/), I compiled the material as reference content for workshops I was leading. I didn't approach the content as an eLearning deliverable, because eLearning concerns aren't in my tech comm DNA. However, after I started receiving a lot of feedback from users who were progressing through the material as a "course," I started to consider some of these eLearning considerations.
 
 Users aren't consulting my API documentation material as a just-in-time learning situation, where they go to quickly consult the right terminology for documenting an endpoint and then return to their work context. Instead, most users want to transition into the field of API documentation. Either they're traditional tech writers working with software documentation and want to make the switch, or they're students trying to ramp up their skills for a future job. Others are tech writers who are assigned an API doc project at work and need a course of some kind to learn the needed skills.
 
@@ -56,11 +56,11 @@ Even without a database to track progress, I decided to start small. I embedded 
 
 (This progress, by the way, is mathematically calculated and dynamically generated (see the [source here](https://github.com/tomjoht/learnapidoc/blob/master/_includes/progress.html)). The idea is that no user likes to see that their progress isn't complete, so it might motivate them to keep going.
 
-I also incorporated some workflow maps for my [API reference tutorial](http://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html) and for my [OpenAPI tutorial](http://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html). Workflow maps as shown below appear at the top of each of these tutorial pages.
+I also incorporated some workflow maps for my [API reference tutorial](https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html) and for my [OpenAPI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html). Workflow maps as shown below appear at the top of each of these tutorial pages.
 
-<a href="http://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html"><img src="/images/workflowmapexample_apiref.png" alt="API reference tutorial"/></a>
+<a href="https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html"><img src="/images/workflowmapexample_apiref.png" alt="API reference tutorial"/></a>
 
-<a href="http://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="/images/workflowmapexample_openapi.png" alt="OpenAPI tutorial"/></a>
+<a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="/images/workflowmapexample_openapi.png" alt="OpenAPI tutorial"/></a>
 
 While workflow maps are good, they mostly act as navigational aids to help users recognize that they're following a larger process that spans multiple pages, and that each step should be more or less followed in the sequence shown. The workflow boxes highlight based on where you're currently at in the tutorial, but they don't record your session progress in any way.
 
@@ -88,10 +88,10 @@ For my course, I wanted to measure progress toward the real goal users have: bre
 
 To this end, I recently created several activities more designed for users to build up the API doc samples in their portfolios. See the following:
 
-* [Activity: Find an Open Source Project ](http://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html)
-* [Activity: Critique or create an API reference topic](http://idratherbewriting.com/learnapidoc/docapis_api_reference_activity.html)
-* [Activity: Create an OpenAPI specification document](http://idratherbewriting.com/learnapidoc/pubapis_openapi_activity.html)
-* [Activity: Create your own Swagger UI display](http://idratherbewriting.com/learnapidoc/pubapis_swagger_ui_activity.html)
+* [Activity: Find an Open Source Project ](https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html)
+* [Activity: Critique or create an API reference topic](https://idratherbewriting.com/learnapidoc/docapis_api_reference_activity.html)
+* [Activity: Create an OpenAPI specification document](https://idratherbewriting.com/learnapidoc/pubapis_openapi_activity.html)
+* [Activity: Create your own Swagger UI display](https://idratherbewriting.com/learnapidoc/pubapis_swagger_ui_activity.html)
 
 With each new piece in their portfolio, users grow one step closer to their goal. The compilation of the portfolio will establish their credibility and marketability. Ultimately, it can help them either move into API doc (or figure out much earlier in the course whether they're suited for this specialization).
 

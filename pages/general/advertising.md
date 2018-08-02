@@ -105,18 +105,18 @@ You can see the [newsletter archive here](https://tinyletter.com/tomjoht/archive
 {% comment %}
 Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
 
-<figure><a href="http://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
 {% endcomment %}
 
 ## Product review posts {#review_posts}
 
 I also offer product review posts to help with visibility. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Here are some sample product reviews I wrote previously:
 
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](http://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](http://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
-* [Simplified Technical English and HyperSTE](http://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
-* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](http://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](https://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
+* [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](https://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
 
 Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
 
@@ -136,7 +136,7 @@ From Jan 1, 2017 to Dec 31, 2017, idratherbewriting.com had about 845,000 page v
 
 <figure><img src="/images/2018googleanalytics.png" alt="I&#039;d Rather Be Writing gets about 845,000 page views per year, or 2,300 page views a day." /> <figcaption>I'd Rather Be Writing gets about 845,066 page views per year, or 2,300 page views a day.</figcaption></figure>
 
-(There was a slight dip mid-year because I split out the [API doc site](http://idratherbewriting.com/learnapidoc/) into a separate Jekyll project and didn't have analytics configured correctly for a while.)
+(There was a slight dip mid-year because I split out the [API doc site](https://idratherbewriting.com/learnapidoc/) into a separate Jekyll project and didn't have analytics configured correctly for a while.)
 
 Here's another slice of analytics focusing more on audience:
 
@@ -228,9 +228,9 @@ See the following links for more details:
 *  [Most innovative tech comm blogger of 2011](http://mndt.ch/MI-2011?utm_source=mt-blog&utm_medium=210%C3%9757banner&utm_campaign=07292010techcomm10%C3%9757banner&utm_campaign=07292010techcomm "Most innovative blog of 2011")
 *  [#2 Influencer in #techcomm 2010](http://www.mindtouch.com/blog/2010/07/29/the-most-influential-technical-communicator-bloggers/ "Second most influential blog, I'd Rather Be Writing")
 
-If you have questions, [contact me](http://idratherbewriting.com/contact).
+If you have questions, [contact me](https://idratherbewriting.com/contact).
 
-{{site.data.alerts.tip}}To see more metrics and data about my site for 2017, see <a href="http://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/">Unexpected realizations after a comprehensive review of my 2017 site metrics</a>.{{site.data.alerts.end}}
+{{site.data.alerts.tip}}To see more metrics and data about my site for 2017, see <a href="https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/">Unexpected realizations after a comprehensive review of my 2017 site metrics</a>.{{site.data.alerts.end}}
 
 [google-xeditor]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xeditor
 [google-hyperste]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hyperste

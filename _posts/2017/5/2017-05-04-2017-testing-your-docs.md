@@ -11,8 +11,8 @@ thumb: testinginlab.png
 
 Here are the pages on testing your documentation:
 
-* [Set up a test environment](http://idratherbewriting.com/learnapidoc/testingdocs_test_environment.html)
-* [Test all instructions yourself](http://idratherbewriting.com/learnapidoc/testingdocs_test_your_instructions.html)
-* [Test your assumptions](http://idratherbewriting.com/learnapidoc/testingdocs_testing_assumptions.html)
+* [Set up a test environment](https://idratherbewriting.com/learnapidoc/testingdocs_test_environment.html)
+* [Test all instructions yourself](https://idratherbewriting.com/learnapidoc/testingdocs_test_your_instructions.html)
+* [Test your assumptions](https://idratherbewriting.com/learnapidoc/testingdocs_testing_assumptions.html)
 
 {% include random_ad.html %}

@@ -25,7 +25,7 @@ type: notes_ucd
 
 ## Use lots of subheadings<
 
-<figure><a href="http://uxmovement.com/content/how-to-use-page-headings-to-increase-findability/"><img src="/user_centered_doc/media/rasters/store2.png"/></a><figcaption><small><a href="http://uxmovement.com/content/how-to-use-page-headings-to-increase-findability/">Image from UX Matters</a>. See also <a href="http://idratherbewriting.com/2013/08/23/subheadings-perhaps-the-most-useful-technique-in-technical-writing/">Subheadings: Perhaps the Most Useful Technique in Technical Writing</a></small></figcaption></figure>
+<figure><a href="http://uxmovement.com/content/how-to-use-page-headings-to-increase-findability/"><img src="/user_centered_doc/media/rasters/store2.png"/></a><figcaption><small><a href="http://uxmovement.com/content/how-to-use-page-headings-to-increase-findability/">Image from UX Matters</a>. See also <a href="https://idratherbewriting.com/2013/08/23/subheadings-perhaps-the-most-useful-technique-in-technical-writing/">Subheadings: Perhaps the Most Useful Technique in Technical Writing</a></small></figcaption></figure>
 
 ## Make sentences short and easy
 

@@ -78,11 +78,11 @@ This might be an endpoint that retrieves a home resource with an ID of `1234`. W
 ### The web follows REST
 The terminology of URIs and GET requests and message responses transported over HTTP protocol might seem unfamiliar, but really this is just the official REST terminology to describe what's happening. If you've used the web, you're already familiar with how REST APIs work, because the web itself more or less follows a RESTful style.
 
-If you open a browser and go to http://idratherbewriting.com, you're really using HTTP protocol (`http://`)  to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
+If you open a browser and go to https://idratherbewriting.com, you're really using HTTP protocol (`http://`)  to submit a GET request to the resource available at idratherbewriting.com. The response from the server sends the content at this resource back to you using HTTP. Your browser is just a client that makes the message response look pretty.
 
 <img src="{{ "images_api/restapi_www.svg" | prepend: site.baseurl }}" alt="Web as REST API" />
 
-You can see this response in cURL if you open a Terminal prompt and type `curl http://idratherbewriting.com`. The web itself is an example of RESTful style architecture.
+You can see this response in cURL if you open a Terminal prompt and type `curl https://idratherbewriting.com`. The web itself is an example of RESTful style architecture.
 
 ### REST APIs are stateless and cacheable
 Some additional features of REST APIs are that they are stateless and cacheable. Stateless means that each time you access a resource through a URI, the API provides the same response. It doesn't remember your last request and take that into account when providing the new response. In other words, there aren't any previously remembered states that the API takes into account with each request. And the responses can be cached in order to increase the performance.

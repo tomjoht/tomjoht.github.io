@@ -22,7 +22,7 @@ At the Honors Banquet, I'll also be accepting an award for outstanding guest-edi
 
 >For guest-editing an issue of Intercom that contributes to the professional development of technical communicators by delivering valuable information that appeals to both the novice and the veteran technical communicator. This comprehensive issue showcases articles that enlighten and educate readers with useful examples and context for application, as well as effective strategies for practitioners to implement.
 
-You can [read the issue here](http://idratherbewriting.com/2014/09/10/stc-intercom-issue-entirely-dedicated-to-api-documentation/). As a guest editor, here's what I did: 
+You can [read the issue here](https://idratherbewriting.com/2014/09/10/stc-intercom-issue-entirely-dedicated-to-api-documentation/). As a guest editor, here's what I did: 
 
 * Selected a theme
 * Listed out the desired topics

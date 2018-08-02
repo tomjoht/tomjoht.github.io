@@ -7,7 +7,7 @@ summary: "At a recent WTD meetup, we tried out a \"Solve This!\" format, which f
 thumb: deadpoetsocietythumb.png
 ---
 
-Last week we held an interactive, open-discussion style WTD meetup called [Solve This!](http://idratherbewriting.com/2016/06/22/solve-this-write-the-docs-meetup/). The idea was to hold a discussion where people shared their biggest challenges, and other people shared advice on how to overcome the challenges. The idea was to move away from the presentation-style format and embrace a more interactive, personal information sharing type of format.
+Last week we held an interactive, open-discussion style WTD meetup called [Solve This!](https://idratherbewriting.com/2016/06/22/solve-this-write-the-docs-meetup/). The idea was to hold a discussion where people shared their biggest challenges, and other people shared advice on how to overcome the challenges. The idea was to move away from the presentation-style format and embrace a more interactive, personal information sharing type of format.
 
 Did it work?
 

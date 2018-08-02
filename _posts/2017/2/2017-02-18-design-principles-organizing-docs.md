@@ -40,4 +40,4 @@ If you just want the audio, here it is:
 
 Here are the slides:
 
-<a href="http://idratherbewriting.com/files/design-principles-for-organizing-docs/"><img src="/images/ucdthumbstctwin.png" style="border: 1px solid gray" /></a>
+<a href="https://idratherbewriting.com/files/design-principles-for-organizing-docs/"><img src="/images/ucdthumbstctwin.png" style="border: 1px solid gray" /></a>

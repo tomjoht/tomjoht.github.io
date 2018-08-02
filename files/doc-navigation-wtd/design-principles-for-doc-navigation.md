@@ -24,7 +24,7 @@ When I heard about these tests, I persuaded our usability tester to push users i
 
 (Actually, the user would often draw a blank with the task. The usability tester would ask, Where can you find help that would give you more information about this? Users would continue with the blank stare. The usability tester would then ask, Could the documentation be helpful in finding this information? A light would then go on in the user's head. Watching this scenario unfold was truly mind-boggling.)
 
-After the users forayed into the help, they began a meandering path of poking around, skimming, scanning, browsing, reading here and there, and generally not finding their answers. I wrote about these [general observations here](http://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). Different users prefer different types of content, and they have different ways of consuming the information (new users watch videos, advanced users skim and scan text). But they all have one thing in common: both spend most of their time looking for the right answer only to not find it, and eventually they give up.
+After the users forayed into the help, they began a meandering path of poking around, skimming, scanning, browsing, reading here and there, and generally not finding their answers. I wrote about these [general observations here](https://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). Different users prefer different types of content, and they have different ways of consuming the information (new users watch videos, advanced users skim and scan text). But they all have one thing in common: both spend most of their time looking for the right answer only to not find it, and eventually they give up.
 
 Granted, we didn't have more than half a dozen participants, but it seemed rare that a user would actually found the answer in the help. They click links, scroll, hunt around in studious ways, and regularly fails to see the answer when they were staring right at it on the page.
 
@@ -110,7 +110,7 @@ I like these examples because you can easily scan the sidebar to get a sense of 
 
 Although the sidebar navigation is fairly common in docs, it's also somewhat controversial. Some people think the sidebar nav is detritus from another era (e.g., dated tripane help). They argue that it's not something people frequently use, so why bother with it?
 
-But I think if you remove the sidebar from your docs, users end up disoriented and in need of more context and grounding. In a comment on my site, [Barry Grennon](https://www.linkedin.com/in/barrygrenon/) [explains](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3288347593):
+But I think if you remove the sidebar from your docs, users end up disoriented and in need of more context and grounding. In a comment on my site, [Barry Grennon](https://www.linkedin.com/in/barrygrenon/) [explains](https://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3288347593):
 
 > ... We also tried getting rid of TOCs, and people hated it. However, our web analytics show that users almost never interact with the TOC. And if they do, it is usually only with the few proximate pages in the TOC to the page they happen to be on.
 >
@@ -273,7 +273,7 @@ Immersed in a topic, users are more apt to click and navigate using the links wi
 
 The idea of navigating from within your content is called "bottom-up navigation" (rather than "top-down navigation," where users would drill down into the content through hierarchies at the top, often abstract/general level). Bottom-up navigation is a principle that Mark Baker emphasizes on his site [Every Page Is Page One](http://everypageispageone.com/2015/02/10/bottom-up-information-architecture-q-and-a-part-1/).
 
-Although Mark describes bottom-up navigation in more articulate, abstract ways in his posts and book, I like the down-to-earth description he gives in a [comment on one of my posts](http://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3286566056). What does bottom-up navigation mean?
+Although Mark describes bottom-up navigation in more articulate, abstract ways in his posts and book, I like the down-to-earth description he gives in a [comment on one of my posts](https://idratherbewriting.com/2017/05/01/write-the-docs-podcast-episode-5-where-do-we-belong/#comment-3286566056). What does bottom-up navigation mean?
 
 <blockquote>
 <ul>
@@ -293,7 +293,7 @@ Amplifying the number of inline links create some challenges:
 
 * It can be hard to author content when your text is littered with links. (If using Markdown, use [reference style linking](https://daringfireball.net/projects/markdown/syntax#link) that uses a variable inline to reference a URL at the end of your content.)
 * As you rename files, page titles, and headings, the links can easily break or list the wrong page titles.
-* Inline links create decision points in your content that force users to decide whether to continue reading or to jump to a new topic. This can result in users jumping around more in your content, which might [reduce readability and increase documentation fatigue](http://idratherbewriting.com/2010/06/19/finally-convinced-about-removing-inline-links-to-increase-readability/).
+* Inline links create decision points in your content that force users to decide whether to continue reading or to jump to a new topic. This can result in users jumping around more in your content, which might [reduce readability and increase documentation fatigue](https://idratherbewriting.com/2010/06/19/finally-convinced-about-removing-inline-links-to-increase-readability/).
 
 Even with these challenges, don't neglect or minimize inline links. They're how many users simply navigate content. Why? The web has driven this behavior into our brains.
 
@@ -326,7 +326,7 @@ The most common example of a desire line is a shortcut across a lawn.
 
 A desire line is the most common path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in. (This is how the designers created the walking paths at Central Park.)
 
-In your help system, you probably have a list of popular topics that make up the bulk of search results (following the [80/20 rule](http://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/)). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
+In your help system, you probably have a list of popular topics that make up the bulk of search results (following the [80/20 rule](https://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/)). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
 
 Here's an example from Twitter. By putting the most popular topics right at the top, the authors embrace the desire lines to these topics.
 
@@ -387,7 +387,7 @@ However, remember that these information chunks are *building blocks only*. Like
 
 You aren't required to have a two-sentence topic that stands as its own page because it's a concept. You don't need a topic that is just 3 steps and nothing more because it's a "task." Users don't think in terms of topic types but rather goals and problems.
 
-If you fragment your information into a [million little content pieces](http://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/), you force users to jump around from topic to topic, like a pinball bouncing off of different side walls and backstops, looking for the information they need. That design leads to a disjointed, tiring experience. Instead, combine these chunks into more comprehensive "articles."
+If you fragment your information into a [million little content pieces](https://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces/), you force users to jump around from topic to topic, like a pinball bouncing off of different side walls and backstops, looking for the information they need. That design leads to a disjointed, tiring experience. Instead, combine these chunks into more comprehensive "articles."
 
 Continuing with more analogies, consider each chunk of content as a rock. You can certainly store and manage the rocks as individual chunks. But if you want to convey meaningful information to users, stack the rocks into various combinations to create more elaborate and purposeful displays.
 

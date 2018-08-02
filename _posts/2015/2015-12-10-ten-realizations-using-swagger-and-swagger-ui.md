@@ -6,10 +6,10 @@ keywords: swagger, swagger ui, swagger editor, configuration, specification, api
 summary: "As I've been configuring the Swagger spec file and UI for one of the APIs I document, I had a few realizations that I wanted to share. Some realizations involve understanding the Model versus Model Schema part of the Swagger UI, the syntax of using JSON references within the spec, how validation works, and more."
 ---
 
-{{site.data.alerts.note}}The <a href="https://github.com/swagger-api/swagger-ui">new version of Swagger UI</a> fixes many of the issues I noted here. For more up-to-date info on Swagger, see the <a href="http://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html">Swagger introduction</a> and <a href="http://idratherbewriting.com/learnapidoc/pubapis_swagger.html">Swagger tutorial</a> that I created in my <a href="http://idratherbewriting.com/learnapidoc/">API documentation course</a>.{{site.data.alerts.end}}
+{{site.data.alerts.note}}The <a href="https://github.com/swagger-api/swagger-ui">new version of Swagger UI</a> fixes many of the issues I noted here. For more up-to-date info on Swagger, see the <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html">Swagger introduction</a> and <a href="https://idratherbewriting.com/learnapidoc/pubapis_swagger.html">Swagger tutorial</a> that I created in my <a href="https://idratherbewriting.com/learnapidoc/">API documentation course</a>.{{site.data.alerts.end}}
 
 ## Using Swagger
-Although I created a [Swagger tutorial for my REST API course](http://idratherbewriting.com/learnapidoc/pubapis_swagger.html), the Swagger spec I created was for a simple API that just had a few basic endpoints with several query parameters.
+Although I created a [Swagger tutorial for my REST API course](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html), the Swagger spec I created was for a simple API that just had a few basic endpoints with several query parameters.
 
 This past week I've been creating a real Swagger spec and UI output for one of the APIs I document at work. The API requests and responses are much more complex. In this post, I want to share a few realizations I had in configuring the Swagger spec and UI display.
 

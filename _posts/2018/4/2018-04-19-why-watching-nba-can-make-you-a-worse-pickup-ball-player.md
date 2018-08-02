@@ -61,9 +61,9 @@ This strategy could extend to lots of non-sports situations as well. In my daily
 
 ## Other posts about basketball
 
-* [My second-chance points strategy with documentation](http://idratherbewriting.com/2017/06/25/second-chance-points/)
-* [What makes Basketball Fun? Gamifying Exercise](http://idratherbewriting.com/2013/05/01/what-makes-basketball-fun-gamifying-exercise/)
-* [Following the NBA Can Make You a Better Technical Writer](http://idratherbewriting.com/2009/05/26/following-the-nba-can-make-you-a-better-technical-writer/)
+* [My second-chance points strategy with documentation](https://idratherbewriting.com/2017/06/25/second-chance-points/)
+* [What makes Basketball Fun? Gamifying Exercise](https://idratherbewriting.com/2013/05/01/what-makes-basketball-fun-gamifying-exercise/)
+* [Following the NBA Can Make You a Better Technical Writer](https://idratherbewriting.com/2009/05/26/following-the-nba-can-make-you-a-better-technical-writer/)
 
 
 Also, check out this video explaining Labron's flaw. It's related to the topics I've touched upon here.

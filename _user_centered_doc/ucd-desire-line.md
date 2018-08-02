@@ -21,7 +21,7 @@ The following images shows a sample desire line.
 
 ## 80/20 Rule
 
-<figure><a href="http://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/"><img src="/user_centered_doc/media/rasters/paretolarge.gif"/></a><figcaption>80% of your hits come from 20% of your pages. It might follow that this 20% should occupy 80% of the visibility.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/"><img src="/user_centered_doc/media/rasters/paretolarge.gif"/></a><figcaption>80% of your hits come from 20% of your pages. It might follow that this 20% should occupy 80% of the visibility.</figcaption></figure>
 
 ## Put top 10 articles on entry point
 

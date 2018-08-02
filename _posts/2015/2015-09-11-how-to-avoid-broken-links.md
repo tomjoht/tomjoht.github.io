@@ -23,13 +23,13 @@ MadCap Flare has an [Analyzer tool](http://www.madcapsoftware.com/products/analy
 These kinds of reporting tools and built-in updating are one of the key reasons why technical writers use help authoring tools. If you've decided to go the HAT route, broken links are probably not a huge issue for you. Even so, it's easy to still end up with orphan links in an output when your targets vary a lot.
 
 ### DITA relationship tables
-DITA uses [relationship tables](http://idratherbewriting.com/relationship_tables/) to avoid breaking links. If you've never heard of relationship tables, it's an entirely unique approach. You basically create a giant grid of links in various columns to define which pages should contain which links pointing to which pages. If the output doesn't include a particular link, the link just doesn't appear on that page. 
+DITA uses [relationship tables](https://idratherbewriting.com/relationship_tables/) to avoid breaking links. If you've never heard of relationship tables, it's an entirely unique approach. You basically create a giant grid of links in various columns to define which pages should contain which links pointing to which pages. If the output doesn't include a particular link, the link just doesn't appear on that page. 
 
 The main drawback of relationship tables is that your inline links don't appear in the place where the link is mentioned or is most relevant. (Nor can you tell readers to look in the link section for details since the link may or may not appear there depending upon your output.) The relationship table links ends up being placed in a bibliography style reference section at the end of the topic.
 
 One nice feature with DITA and cross references is that the reference to the link can automatically pull in the title for that page. (This isn't true for static site generators.)
 
-DITA also offers [keyrefs](http://idratherbewriting.com/keyref_links/), which are keys that you define and then reference in your topics. For example, if you define key `a` to be a specific link, then you just refer to `a`  in your text instead of the link. If you need to update the link, you just update what `a` refers to. This approach (called indirect referencing) is most similar to the method I'll later describe using YAML.
+DITA also offers [keyrefs](https://idratherbewriting.com/keyref_links/), which are keys that you define and then reference in your topics. For example, if you define key `a` to be a specific link, then you just refer to `a`  in your text instead of the link. If you need to update the link, you just update what `a` refers to. This approach (called indirect referencing) is most similar to the method I'll later describe using YAML.
 
 ### Tags instead of links
 Some other strategies for avoiding broken links involve using tags instead of links. With tags, the tag page lists all pages containing the tag. With this approach, you're much less likely to have a broken link. If the topic isn't included in the output, that page just won't appear on the tag page listing the links. 
@@ -56,7 +56,7 @@ For example, if my sidebar navigation says "Config settings," but the page itsel
 
 ## How I'm approaching link management in Jekyll
 
-Here's the approach I've come up with. I'm briefly summarizing it here, but there's more detail on the [links page in my Jekyll theme](http://idratherbewriting.com/documentation-theme-jekyll/doc_hyperlinks.html) and in the [Links validation](http://idratherbewriting.com/documentation-theme-jekyll/doc_link_validation.html) topic.
+Here's the approach I've come up with. I'm briefly summarizing it here, but there's more detail on the [links page in my Jekyll theme](https://idratherbewriting.com/documentation-theme-jekyll/doc_hyperlinks.html) and in the [Links validation](https://idratherbewriting.com/documentation-theme-jekyll/doc_link_validation.html) topic.
 
 By the way, this approach doesn't entirely solve the problem. Ideally, you want to maintain page titles and page URLs in just one place and have those titles and URLs propagate throughout the entire help system. (I just don't think this is possible in Jekyll without a custom plugin.)
 
@@ -96,7 +96,7 @@ The only limitation with the title checker is that the URLs in the sidebar have 
 
 I've also found that, contrary to my general disdain for PDF, generating a PDF is a great way to spot broken links. If the PDF has a cross reference that says "page 0" or "see .", then I know there's a broken link somewhere. 
 
-However, getting Prince XML (which is [how I generate PDFs](http://idratherbewriting.com/documentation-theme-jekyll/doc_generating_pdfs.html)) to render cross references only for links pointing to other topics in the help (and not to external websites, navigation tabs, file downloads, or collapsible sections &mdash; all of which incorporate anchor tags) is tricky, and I'm still fine tuning my style sheets.
+However, getting Prince XML (which is [how I generate PDFs](https://idratherbewriting.com/documentation-theme-jekyll/doc_generating_pdfs.html)) to render cross references only for links pointing to other topics in the help (and not to external websites, navigation tabs, file downloads, or collapsible sections &mdash; all of which incorporate anchor tags) is tricky, and I'm still fine tuning my style sheets.
 
 ## Designing a beautiful 404 page
 

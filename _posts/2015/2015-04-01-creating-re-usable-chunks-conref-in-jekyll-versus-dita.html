@@ -12,7 +12,7 @@ weight: 1.3
 ---
 {% include series/seriesTagJekyllVsDITA.html %}
 
-<p>In my <a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">previous post</a>, I explained how to do variables and conditional processing in Jekyll. <a href="http://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/#comment-263691">One of the commenters wondered</a> about how you create "intelligent content" with Jekyll:</p>
+<p>In my <a href="https://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">previous post</a>, I explained how to do variables and conditional processing in Jekyll. <a href="https://idratherbewriting.com/2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/#comment-263691">One of the commenters wondered</a> about how you create "intelligent content" with Jekyll:</p>
 <blockquote><p>how does a Jekyll (or similar) approach let us create intelligent content?</p></blockquote>
 <p>There was a recent conference in San Francisco focused on intelligent content, and one of the attendees (Trinity Hartman) wrote a brief description describing just what intelligent content is. Trinity says intelligent content has four characteristics:</p>
 <blockquote><p>
@@ -23,12 +23,12 @@ weight: 1.3
 </p></blockquote>
 <p>&mdash; see <a href="http://content26.com/blog/intelligent-content-adapt-or-get-left-behind/">Intelligent Content: Adapt or Get Left Behind</a></p>
 <p>Let's look at the two middle attributes here: reusable and reconfigurable (I'll save the others for another post). To make your content intelligent (as opposed to dull or dimwitted), the basic approach is to chunk your content into little topics so that you can mix and match the chunks in places you need them. By chunking your content into little bits, you have greater flexibility to arrange them into different outputs, reusing content as needed.</p>
-<p>I explored chunking previously in a post called <a href="http://idratherbewriting.com/2011/04/18/the-importance-of-chunking-for-sorting/">The Importance of Chunking for Sorting</a>. In that post, I noted how rock cairns (guide signs for hikers that consist of stacked rocks) can be arranged in many different ways because of their small chunks:</p>
+<p>I explored chunking previously in a post called <a href="https://idratherbewriting.com/2011/04/18/the-importance-of-chunking-for-sorting/">The Importance of Chunking for Sorting</a>. In that post, I noted how rock cairns (guide signs for hikers that consist of stacked rocks) can be arranged in many different ways because of their small chunks:</p>
 <p><img src="/images/cairns.png" alt="Rock Cairns" /></p>
 <p>Contrast the small rocks approach with big rocks, which have little capacity for varied arrangements:</p>
 <p><img src="/images/bigrocks.png" alt="Big rocks" /></p>
 <p>It makes sense to chunk material into small pieces if you want to construct a lot of different arrangements.</p>
-<p>See also <a href="http://idratherbewriting.com/2011/04/27/topic-chunking-and-the-broken-clock/">Topic chunking and the broken alarm clock</a>, in which I respond to a point Mark Baker makes about the effects of chunking too small. If you break apart an alarm clock into its little pieces, those little pieces may not make sense in isolation. You may end up with topics that no longer make sense on their own but require someone to constantly navigate a TOC to construct a coherent set of information.</p>
+<p>See also <a href="https://idratherbewriting.com/2011/04/27/topic-chunking-and-the-broken-clock/">Topic chunking and the broken alarm clock</a>, in which I respond to a point Mark Baker makes about the effects of chunking too small. If you break apart an alarm clock into its little pieces, those little pieces may not make sense in isolation. You may end up with topics that no longer make sense on their own but require someone to constantly navigate a TOC to construct a coherent set of information.</p>
 <h2>How you chunk in DITA</h2>
 <p>In the DITA world, "conref" is synonymous with re-use. People like the term so much, they use it as a verb, as in, <i>Hey, I need to "conref" this information here...</i>.</p>
 <p>DITA uses the <code>conref</code> element for chunking. For example, if you have a note that you're reusing, you create a topic and put the note in it like this:</p>
@@ -43,7 +43,7 @@ weight: 1.3
 {% endhighlight %}</p>
 <p>There is one limitation with this approach, though. The element must be valid where you insert it. For example, you can only use this note in places where the <code>note</code> element is valid.</p>
 <p>Notes are valid in a lot of places, so it wouldn't pose much of a problem. But suppose you have an entire <code>section</code> that you're reusing. You couldn't insert that in both a strict task topic as well as a concept topic.</p>
-<p>DITA also offers a conref range option. If you're re-using several steps, or several paragraphs, you can start with <code>conref</code> and end with <code>conrefend</code> to mark where the re-use should stop. For details, see <a href="http://idratherbewriting.com/conref/">DITA: Conref</a>.</p>
+<p>DITA also offers a conref range option. If you're re-using several steps, or several paragraphs, you can start with <code>conref</code> and end with <code>conrefend</code> to mark where the re-use should stop. For details, see <a href="https://idratherbewriting.com/conref/">DITA: Conref</a>.</p>
 <h2>How to "conref" in Jekyll</h2>
 <p>In Jekyll, conrefs are called "includes" (which is a more traditional term for re-use). When you want to include content from another file, you add an include.</p>
 <p>Using the same example as before, to reuse a note, I could create a file called bolt_note.md and add this content:</p>
@@ -70,7 +70,7 @@ bolt_note: "Warning: Don't overtighten the bolts, as it may cause stripping."
 {% endhighlight %}</p>
 
 
-<p>If you read my last post (<a href="http://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">Variables and conditional processing</a>), you'll see a similar technique. Instead of using <code>site.audience</code>, which gets info from the configuration file, you use <code>site.data.notes</code> to get info from the notes.yml file inside the _data folder.</p>
+<p>If you read my last post (<a href="https://idratherbewriting.com/2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/">Variables and conditional processing</a>), you'll see a similar technique. Instead of using <code>site.audience</code>, which gets info from the configuration file, you use <code>site.data.notes</code> to get info from the notes.yml file inside the _data folder.</p>
 <p>(Through the <code>data_source</code> property in your configuration file, you can specify a different data folder source if you don't want to use the default _data folder. This way you can have different data sources for different configuration files.)</p>
 <p>Now suppose you want to add some formatting to the note style. If you have Bootstrap integrated, the official style might look like this:</p>
 <p>{% highlight xml %}

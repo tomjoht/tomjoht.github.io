@@ -8,7 +8,7 @@ thumb:
 published: false
 ---
 
-I recently wrote a brief summary of a recent article in the Technical Communication journal about [lightweight DITA](http://idratherbewriting.com/2016/02/23/lightweight-dita-hdita-model/). The main gist of lightweight DITA is to simplify the authoring process by removing some of the complexity. I'm not sure they really understand the complexity that I'm talking about with DITA, though.
+I recently wrote a brief summary of a recent article in the Technical Communication journal about [lightweight DITA](https://idratherbewriting.com/2016/02/23/lightweight-dita-hdita-model/). The main gist of lightweight DITA is to simplify the authoring process by removing some of the complexity. I'm not sure they really understand the complexity that I'm talking about with DITA, though.
 
 When we refer to DITA as being complex, in my mind it's not the XML structure that is complex. Even with 330 elements, that's not the issue. You use only a small subset of those elements, and at the end of the day it's not so different from tags in HTML. 
 

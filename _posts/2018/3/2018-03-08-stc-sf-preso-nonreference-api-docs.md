@@ -22,7 +22,7 @@ redirect_from:
 
 Here are the slides:
 
-<a href="http://idratherbewriting.com/nonref-content-api-docs/"><img src="/images/nonrefslides.png"/></a>
+<a href="https://idratherbewriting.com/nonref-content-api-docs/"><img src="/images/nonrefslides.png"/></a>
 
 ## Audio
 

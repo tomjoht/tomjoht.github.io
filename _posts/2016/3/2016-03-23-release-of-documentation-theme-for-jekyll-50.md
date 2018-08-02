@@ -9,9 +9,9 @@ thumb: jekyll50thumb.png
 
 ## Where to download the theme
 
-You can download the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) and find instructions for using it [here](http://idratherbewriting.com/documentation-theme-jekyll/).
+You can download the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) and find instructions for using it [here](https://idratherbewriting.com/documentation-theme-jekyll/).
 
-<figure><a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img src="{{ "/images/jekylltheme50.png" | prepend: site.baseurl }}" alt="Documentation Theme for Jekyll version 5.0" /></a><figcaption>Documentation theme for Jekyll 5.0. This version allows you to associate unique sidebars for different products.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img src="{{ "/images/jekylltheme50.png" | prepend: site.baseurl }}" alt="Documentation Theme for Jekyll version 5.0" /></a><figcaption>Documentation theme for Jekyll 5.0. This version allows you to associate unique sidebars for different products.</figcaption></figure>
 
 ## Unique sidebars with different products in the same output
 
@@ -25,7 +25,7 @@ Problems with this model include the following:
 
 Version 5.0 of my doc theme allows you to associate a unique sidebar for each product. For example, let's say you have 7 products all on the same site (a single website). With each page, you can specify a particular sidebar in the frontmatter. 
 
-To see it in action, go to the [theme](http://idratherbewriting.com/documentation-theme-jekyll). In the top navigation menu, select from among three different products in the Products menu. Note how the sidebars change.
+To see it in action, go to the [theme](https://idratherbewriting.com/documentation-theme-jekyll). In the top navigation menu, select from among three different products in the Products menu. Note how the sidebars change.
 
 ## Advantages of multiple sidebars in the same site
 
@@ -48,7 +48,7 @@ The multi-product site does pose some challenges:
 
 Note that I haven't integrated a more robust search with this theme. At some point, I would need to integrate with something like [Algolia](http://algolia.com) or [Swiftype](http://swifttype.com) to provide a more powerful search feature. To get facets, I'd probably need to integrate something from [Apache Solr](http://lucene.apache.org/solr/). In that sense, the theme is somewhat limited. But there's a chance that you could leverage engineering resources to build out this functionality. Tech writers tend to focus mostly on content, which is what this theme allows you to do.
 
-If you'd like to try out the Jekyll theme, I'd be interested to hear your feedback. If you're new to Jekyll (no matter your platform), I'm especially interested to hear if you can get Jekyll up and running with my installation instructions ([Mac](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_mac/) or [Windows](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows/)).
+If you'd like to try out the Jekyll theme, I'd be interested to hear your feedback. If you're new to Jekyll (no matter your platform), I'm especially interested to hear if you can get Jekyll up and running with my installation instructions ([Mac](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_mac/) or [Windows](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows/)).
 
 
 

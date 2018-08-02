@@ -21,7 +21,7 @@ redirect_from:
 
 Here are the slides:
 
-<a href="http://idratherbewriting.com/publishing-api-docs/"><img alt="Publishing API documentation" src="/images/publishing-api-docs-thumb.png" /></a>
+<a href="https://idratherbewriting.com/publishing-api-docs/"><img alt="Publishing API documentation" src="/images/publishing-api-docs-thumb.png" /></a>
 
 ## Audio
 
@@ -69,8 +69,8 @@ This was the first "South Bay" meeting for the [WTD San Francisco group](https:/
 
 ## Other API doc presentations
 
-I'm giving a few API doc presentations this year. They won't all be the same presentation. Instead, I'm covering different sections in my [API documentation course](http://idratherbewriting.com/learnapidoc/).
+I'm giving a few API doc presentations this year. They won't all be the same presentation. Instead, I'm covering different sections in my [API documentation course](https://idratherbewriting.com/learnapidoc/).
 
-Whereas the STC Silicon Valley presentation covered the [Intro to API documentation section](http://idratherbewriting.com/learnapidoc/docapis_introtoapis.html), [Using a REST API like a developer](http://idratherbewriting.com/learnapidoc/likeadeveloper.html), and [Documenting API reference ](http://idratherbewriting.com/learnapidoc/docendpoints.html) sections, the WTD South Bay chapter covered the [Publishing your API documentation](http://idratherbewriting.com/learnapidoc/publishingapis.html) section. Of course, given the limited time, the presentations only cover these sections in a cursory way.
+Whereas the STC Silicon Valley presentation covered the [Intro to API documentation section](https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html), [Using a REST API like a developer](https://idratherbewriting.com/learnapidoc/likeadeveloper.html), and [Documenting API reference ](https://idratherbewriting.com/learnapidoc/docendpoints.html) sections, the WTD South Bay chapter covered the [Publishing your API documentation](https://idratherbewriting.com/learnapidoc/publishingapis.html) section. Of course, given the limited time, the presentations only cover these sections in a cursory way.
 
-For other presentations scheduled in 2018, see my [Presentations page](http://idratherbewriting.com/presentations/).
+For other presentations scheduled in 2018, see my [Presentations page](https://idratherbewriting.com/presentations/).

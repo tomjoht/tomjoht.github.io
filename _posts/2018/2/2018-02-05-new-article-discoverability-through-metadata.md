@@ -9,4 +9,4 @@ redirect_from:
 - /2018/02/18/new-article-discoverability-through-metadata/
 ---
 
- You can read the tutorial here: [Discoverability through metadata -- strategies to guide users through complex, non-linear systems](http://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html).
+ You can read the tutorial here: [Discoverability through metadata -- strategies to guide users through complex, non-linear systems](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html).

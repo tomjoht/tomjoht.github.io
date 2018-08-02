@@ -17,7 +17,7 @@ Layout is crucial for some technical documentation. For example, for a fold-out 
 
 Sometimes the technical documentation is primarily visual, for example, Lego assembly instructions.
  
-<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/LEGOturkey2.jpg" | prepend: site.baseurl }}"/></a><figcaption>How to build a turkey from standard LEGO blocks</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{ "/images/LEGOturkey2.jpg" | prepend: site.baseurl }}"/></a><figcaption>How to build a turkey from standard LEGO blocks</figcaption></figure>
 
 For some products, the company chooses to brand itself by using top quality visual design in the technical documentation.
 

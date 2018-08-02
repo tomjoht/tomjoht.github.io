@@ -9,7 +9,7 @@ thumb: jekylltheme40thumb.png
 
 I recently made some updates to my Jekyll Documentation Theme. 
 
-<a href="http://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>
+<a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>
 
 Here's what's new in version 4.0.
 
@@ -21,7 +21,7 @@ In order to share content across projects, we had to combine all of the doc proj
 
 Because the theme uses relative links, this folder organization presented some challenges. All files for your project must exist within a particular subfolder (rather than living in the root directory). The file paths to the CSS, JS, sidebar links, topnav links, inline links, search, tags, and other areas had to be updated to support this new structure.
 
-Also, because the index.html page lives in the project's root, I added a redirect on index.html to point to a file called "home.html" in the appropriate project subfolder. For example, when you go to http://idratherbewriting.com/documentation-theme-jekyll/index.html, it forwards to http://idratherbewriting.com/documentation-theme-jekyll. 
+Also, because the index.html page lives in the project's root, I added a redirect on index.html to point to a file called "home.html" in the appropriate project subfolder. For example, when you go to https://idratherbewriting.com/documentation-theme-jekyll/index.html, it forwards to https://idratherbewriting.com/documentation-theme-jekyll. 
 
 This restructuring was necessary because all pages must have the same path pointing to the CSS and JS files (since the theme depends on relative paths). If you have some pages in the root directory and other pages in a subfolder, the links to the CSS and JS would break. (If your project uses absolute linking, you don't run into this problem, but then you have other issues &mdash; your site can only be valid at the URL specified in your configuration. Since tech docs need to easily be moved around from one directory to another, relative linking is a must.)
 
@@ -37,15 +37,15 @@ Converting the Jekyll theme into a multi-author solution is a huge paradigm shif
 
 ## URL generator
 
-There's a URL generator file that makes it easier to create and maintain links to other files. In the generator output, the urls_mydoc.txt file contains code that iterates over the links in the sidebar and top nav, and puts the link formatting into a YAML file. Here's the [result](http://idratherbewriting.com/documentation-theme-jekyll/urls_mydoc.txt). 
+There's a URL generator file that makes it easier to create and maintain links to other files. In the generator output, the urls_mydoc.txt file contains code that iterates over the links in the sidebar and top nav, and puts the link formatting into a YAML file. Here's the [result](https://idratherbewriting.com/documentation-theme-jekyll/urls_mydoc.txt). 
 
 Just copy the output from this file into a data file internally in your \_data folder. (I wish I could avoid this step and just generate the YAML directly inside the theme, but I haven't figure out how to do that yet...)
 
-To link to a page, you just reference a YAML value in a data file. You can either reference the full link with the page title, or just the link. See the [Hyperlinks](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_hyperlinks) topic for details. 
+To link to a page, you just reference a YAML value in a data file. You can either reference the full link with the page title, or just the link. See the [Hyperlinks](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_hyperlinks) topic for details. 
 
 ## Title checker
 
-To make sure the titles in the sidebar correspond with page names, there's a title checker in the root directory. In the output, browse to the title-checker.html page in your browser. Here's [an example](http://idratherbewriting.com/documentation-theme-jekyll/title-checker.html). 
+To make sure the titles in the sidebar correspond with page names, there's a title checker in the root directory. In the output, browse to the title-checker.html page in your browser. Here's [an example](https://idratherbewriting.com/documentation-theme-jekyll/title-checker.html). 
 
 If a page name conflicts with the sidebar name in the title, the checker tells you there's an inconsistency. It will say something like this:
 
@@ -57,7 +57,7 @@ There are some limitations with the title checker. If the filename or path itsel
 
 The build scripts are more fleshed out and automated. There are 5 build scripts &mdash; the fifth one will execute the first four. The build scripts automate the generating of PDFs and website outputs, including the transfer of files to a server.
 
-Once you configure the scripts, you can run them all by just executing mydoc_all.sh. In other words, the build scripts make publishing and deployment an entire operation that you can execute from one terminal command.See [10. Configure the build scripts](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_build_scripts) for more details. 
+Once you configure the scripts, you can run them all by just executing mydoc_all.sh. In other words, the build scripts make publishing and deployment an entire operation that you can execute from one terminal command.See [10. Configure the build scripts](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_build_scripts) for more details. 
 
 ## Links with subheadings
 
@@ -69,7 +69,7 @@ Links to external sites have a pop-out icon next to them. This is just a simple 
 
 ## More detailed getting started section
 
-The instructions for getting started are updated. See the [Getting started](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_getting_started) section.
+The instructions for getting started are updated. See the [Getting started](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_getting_started) section.
 
 ## Syntax highlighting preserved in PDF output
 

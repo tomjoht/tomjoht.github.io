@@ -89,7 +89,7 @@ Overall, you can create sophisticated HTML templates and then simply make each c
 In this way, you use Jekyll to get past the limitations of Markdown syntax. For example, with the images, it would be a pain to type this syntax every time:
 
 ```html
-<figure><a class="no_icon" target="_blank" href="http://jekyllrb.com"><img class="docimage" src="http://idratherbewriting.com/documentation-theme-jekyll/images/jekyll.png" alt="Jekyll" /></a><figcaption>This is a sample caption</figcaption></figure>
+<figure><a class="no_icon" target="_blank" href="http://jekyllrb.com"><img class="docimage" src="https://idratherbewriting.com/documentation-theme-jekyll/images/jekyll.png" alt="Jekyll" /></a><figcaption>This is a sample caption</figcaption></figure>
 ```
 
 With the include approach, the syntax is much simpler:
@@ -110,14 +110,14 @@ Markdown syntax is limiting. Its simplicity is also its strength, since it allow
 
 [2]: http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/
 
-[3]: http://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/
+[3]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/
 
-[4]: http://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/#callouts
+[4]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts/#callouts
 
-[5]: http://idratherbewriting.com/documentation-theme-jekyll/mydoc_images/
+[5]: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_images/
 
-[6]: http://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/
+[6]: https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/
 
-[7]: http://idratherbewriting.com/2016/06/03/more-complex-user-maps-in-documentation-systems/
+[7]: https://idratherbewriting.com/2016/06/03/more-complex-user-maps-in-documentation-systems/
 
 [8]: https://shopify.github.io/liquid/

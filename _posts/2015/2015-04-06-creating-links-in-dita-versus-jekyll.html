@@ -12,18 +12,18 @@ weight: 1.7
 ---
 {% include series/seriesTagJekyllVsDITA.html %}
 
-<p>In this <a href="http://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/">ongoing series</a>, I'm comparing tech comm techniques with DITA versus Jekyll, a popular static site generator. How you create links is more than a simple technical detail. Linking is one of the main strategies for connecting and interrelating information.</p>
+<p>In this <a href="https://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/">ongoing series</a>, I'm comparing tech comm techniques with DITA versus Jekyll, a popular static site generator. How you create links is more than a simple technical detail. Linking is one of the main strategies for connecting and interrelating information.</p>
 <h2>How to create links in DITA</h2>
 <p>In DITA, you have several choices for making links. You can create a cross reference to another topic like this:</p>
 <p>{% highlight xml %}
 <xref href="sample.dita"/>
 {% endhighlight %}</p>
 <p>The name of the topic will be pulled in when you build your output.</p>
-<p>To link to an external web page with an <a href="http://idratherbewriting.com/toc_linking/inline_links/">inline link</a>, you add some attributes that let the build system know the page is an external site:</p>
+<p>To link to an external web page with an <a href="https://idratherbewriting.com/toc_linking/inline_links/">inline link</a>, you add some attributes that let the build system know the page is an external site:</p>
 <p>{% highlight xml %}
 <xref href="http://example.org" scope="external" outputclass="external" format="html">Example.org</xref>
 {% endhighlight %}</p>
-<p>Another way to create links to internal topics is through key references. You can create a link in your DITA map that stores a key value (<code>keydef</code>), and then use that key value for each of your links, using the <code>keyref</code> attribute. I call these <a href="http://idratherbewriting.com/toc_linking/keyref_links/">keyref-style links</a>. Here's what you might put in your ditamap file for the key:</p>
+<p>Another way to create links to internal topics is through key references. You can create a link in your DITA map that stores a key value (<code>keydef</code>), and then use that key value for each of your links, using the <code>keyref</code> attribute. I call these <a href="https://idratherbewriting.com/toc_linking/keyref_links/">keyref-style links</a>. Here's what you might put in your ditamap file for the key:</p>
 <p>{% highlight xml %}
 <keydef href="argument_acme.dita" keys="argument" />
 {% endhighlight %}</p>
@@ -32,7 +32,7 @@ weight: 1.7
 <xref keyref="argument"/>
 {% endhighlight %}</p>
 <p>The advantage of keyref-style links is that if you change the reference in the ditamap, you only have to update the value for the key in one place. You won't need to do a global find and replace to change the value.</p>
-<p>If you want to manually specify <a href="http://idratherbewriting.com/toc_linking/related_links/">related links</a> below a topic, you can add them using <code>related-links</code> element:</p>
+<p>If you want to manually specify <a href="https://idratherbewriting.com/toc_linking/related_links/">related links</a> below a topic, you can add them using <code>related-links</code> element:</p>
 <p>{% highlight xml %}
 <related-links>
     <link href="sample1.dita"><linktext>Sample 1 Page</linktext></link>
@@ -40,7 +40,7 @@ weight: 1.7
     <link href="sample3.dita"/>
    </related-links>
 {% endhighlight %}</p>
-<p>Most of the link methods I mentioned don't align with the total extensibility model for DITA. Although you can create links using these methods, really the recommended way of creating links with DITA is through <a href="http://idratherbewriting.com/toc_linking/relationship_tables/">relationship tables</a>.</p>
+<p>Most of the link methods I mentioned don't align with the total extensibility model for DITA. Although you can create links using these methods, really the recommended way of creating links with DITA is through <a href="https://idratherbewriting.com/toc_linking/relationship_tables/">relationship tables</a>.</p>
 <p>A relationship table creates a list of pages that are all related to each other through their placement in the table. Based on the relationships established in the table, links to the other pages appear at the bottom of each page.</p>
 <p>Relationship tables allow you to create different outputs without worrying about whether the pages you link to are included in the output. If the page isn't included in the output, the link simply doesn't appear in the relationship table.</p>
 <p>Here's a sample relationship table that defines link relationships between pages. (You would put this in your ditamap.)</p>

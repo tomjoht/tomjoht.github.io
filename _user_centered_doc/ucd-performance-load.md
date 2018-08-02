@@ -14,7 +14,7 @@ type: notes_ucd
 {% comment %}
 ## Users resist long documentation
 
-<a href="http://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf"><img src="/user_centered_doc/media/rasters/minson.png"/></a>
+<a href="https://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf"><img src="/user_centered_doc/media/rasters/minson.png"/></a>
  
  ## When it becomes worth it
 
@@ -48,13 +48,13 @@ Instead of eliminating potentially useful info, provide quick reference guides t
 ## Complex process layouts
 
 <div>
-<a href="http://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; float:left;" src="/user_centered_doc/media/rasters/quickreferenceguide1.png"/></a>
-    <a href="http://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; margin-left: 50px; float:left;" src="/user_centered_doc/media/rasters/quickreferenceguide2.png"/></a>
+<a href="https://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; float:left;" src="/user_centered_doc/media/rasters/quickreferenceguide1.png"/></a>
+    <a href="https://idratherbewriting.com/quickreferenceguides/"><img style="max-height: 450px; margin-left: 50px; float:left;" src="/user_centered_doc/media/rasters/quickreferenceguide2.png"/></a>
 </div>
 
 ## Quick reference guide layouts
 
-<a href="http://idratherbewriting.com/quickreferenceguides"><img src="/user_centered_doc/media/rasters/oneprocess.png"></a>
+<a href="https://idratherbewriting.com/quickreferenceguides"><img src="/user_centered_doc/media/rasters/oneprocess.png"></a>
 
 ## Provide sequential tutorials
 

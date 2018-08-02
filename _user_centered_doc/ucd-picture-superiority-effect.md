@@ -17,7 +17,7 @@ type: notes_ucd
 
 ## Beginners are especially drawn to visuals
 
-<a href="http://idratherbewriting.com/2010/09/28/visuals-engage-users-why-arent-there-more-illustrations-in-help-content-visual-imagination-1/"><img src="/user_centered_doc/media/rasters/graphics.png"/></a>
+<a href="https://idratherbewriting.com/2010/09/28/visuals-engage-users-why-arent-there-more-illustrations-in-help-content-visual-imagination-1/"><img src="/user_centered_doc/media/rasters/graphics.png"/></a>
 
 * Primary realization from usability sessions
 * Visuals more suited to beginners
@@ -35,7 +35,7 @@ type: notes_ucd
 
 ## Show workflows and processes
 
-<a href="http://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="/user_centered_doc/media/rasters/diagrams.png"/></a>
+<a href="https://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="/user_centered_doc/media/rasters/diagrams.png"/></a>
 
 * Workflows very helpful, easy to create
 * Embed these into topics as image maps
@@ -43,14 +43,14 @@ type: notes_ucd
 ## Use simple line drawings, not photographs
 
 <figure>
-    <a href="http://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="/user_centered_doc/media/rasters/linedrawings.png"/><figcaption><small>Clark and Lyons,&nbsp; <i><a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448">Graphics for Learning</a></i></small></figcaption>
+    <a href="https://idratherbewriting.com/2013/10/03/learning-how-to-communicate-visually-in-documentation/"><img src="/user_centered_doc/media/rasters/linedrawings.png"/><figcaption><small>Clark and Lyons,&nbsp; <i><a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448">Graphics for Learning</a></i></small></figcaption>
 
 * Photos have distracting detail
 * Simpler the better
 
 ## Avoid Chartjunk
 
-<figure><a href="http://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/"><img src="/user_centered_doc/media/rasters/chartjunk.jpg"/></a>
+<figure><a href="https://idratherbewriting.com/2010/11/01/what-is-chartjunk-visual-imagination-2/"><img src="/user_centered_doc/media/rasters/chartjunk.jpg"/></a>
     <figcaption><small>Edward Tufte, <a href="http://www.edwardtufte.com/tufte/books_ei">Envisioning Information</a></small></figcaption></figure>
 
 * Chartjunk is decorative graphics

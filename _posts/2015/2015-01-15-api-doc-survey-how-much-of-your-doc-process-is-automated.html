@@ -11,7 +11,7 @@ weight: 2.1
 ---
 {% include series/seriesTagAPIDocSurvey.html %}
 
-<p>This question in my <a href="http://idratherbewriting.com/series/api-documentation-survey/">API doc survey</a> was so poorly worded that the answers are mostly confusing. Unfortunately, this was the first question in the survey and probably the most vague. Here's the question:</p>
+<p>This question in my <a href="https://idratherbewriting.com/series/api-documentation-survey/">API doc survey</a> was so poorly worded that the answers are mostly confusing. Unfortunately, this was the first question in the survey and probably the most vague. Here's the question:</p>
 <p><strong><b>Do you generate Javadoc or Doxygen files manually, or are they auto-rendered as part of the build process?</b></strong></p>
 <p>REST API documentation is notably different from platform-specific API documentation. With platform-specific API documentation, such as for Java, C++, and .NET, document generators are commonly used. Usually you use Javadoc for Java, Doxygen for C++, VSDocman or Sandcastle with .NET, and so on.</p>
 <p>At my work, Javadoc and Doxygen are actually integrated into the software build process. Meaning, when engineers push a release into a general availability status on Bamboo, a build process on the Bamboo server initiates a script that builds a Javadoc or Doxygen file from the source code. I don't have to manually build the Javadoc or Doxygen files. (With one exception -- the .NET file wasn't properly integrated into the build process, so I manually built it using the Doxygen document generator.)</p>

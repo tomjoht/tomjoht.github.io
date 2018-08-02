@@ -13,6 +13,6 @@ In postings for API documentation jobs, you'll often see requirements like this:
 
 Although your core task may be to document a REST API, most likely there will be numerous client implementations in different programming languages that you will also need to document.
 
-The variety of programming languages creates challenges for technical writers, especially when employers want technical writers, from day one, to already be proficient in every language needed. In this new jobs section, I try to dive into this topic with more depth. You can read the new section here: [The Job market for API technical writers](http://idratherbewriting.com/jobapis_overview/).
+The variety of programming languages creates challenges for technical writers, especially when employers want technical writers, from day one, to already be proficient in every language needed. In this new jobs section, I try to dive into this topic with more depth. You can read the new section here: [The Job market for API technical writers](https://idratherbewriting.com/jobapis_overview/).
 
 {% include random_ad.html %}

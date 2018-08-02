@@ -10,7 +10,7 @@ thumb: university.png
 
 {% include notes.html %}
 
-{{tip}} Check out the podcast I recorded on this same topic here: <a href="http://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/">Podcast: The divide between academics and practitioners — Interview with Lisa Meloncon</a>. {{end}}
+{{tip}} Check out the podcast I recorded on this same topic here: <a href="https://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/">Podcast: The divide between academics and practitioners — Interview with Lisa Meloncon</a>. {{end}}
 
 ## The divide between practitioners and academics
 TechCommGeekMom recently attended IEEE ProComm in Ireland and [wrote an interesting post](http://techcommgeekmom.com/2015/07/20/oh-the-academian-and-the-practitioner-should-be-friends-engaging-techcomm-professionals/) highlighting the divide that exists between practitioners and academics.
@@ -70,7 +70,7 @@ How can we help turn things around? Here's a list of possible solutions from a p
 3. Practitioners can help academics by helping providing information (such as from surveys, inquiries, and other information-gathering methods) back to academics for their research. Those long surveys you sometimes hear about are essential if academics are to get the research information they need.
 4. Practitioners can provide more feedback and interest in what academics are writing about. (In some ways, academics write for academics because only academics end up reading the journals, so it's circular.)
 5. Practitioners should call out academic research that fails to deliver. If an academic writes a paper that has an uninsightful, inaccurate, or everyone-already-knows-this topic, practitioners should let the academic know. (In short, promote more cross-communication.)
-6. Finally, practitioners can record podcasts with academics about some of their findings. The [previous podcast I published with Bob Watson](http://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/) is an example. Alternatively, practitioners can invite academics to present at local STC meetings.
+6. Finally, practitioners can record podcasts with academics about some of their findings. The [previous podcast I published with Bob Watson](https://idratherbewriting.com/2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/) is an example. Alternatively, practitioners can invite academics to present at local STC meetings.
 
 What do you think? How can we bridge the divide?
 

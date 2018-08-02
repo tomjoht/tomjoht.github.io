@@ -26,7 +26,7 @@ bitlink: http://bit.ly/ssgtranslationcomplexities
 <p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
-I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](http://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).
+I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](https://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).
 
 Translation is a complex undertaking. In Andrew Etter's [*Modern Technical Writing*](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS?tag=viglink124746-20#nav-subnav), he says translation projects are time-consuming and costly. To quote:
 

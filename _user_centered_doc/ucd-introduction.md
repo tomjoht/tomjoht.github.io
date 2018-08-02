@@ -10,9 +10,9 @@ type: notes_ucd
 
 Recently I gave a two-hour workshop about user-centered documentation to a company. You can view the slides here:
 
-<a href="http://idratherbewriting.com/files/user-centered-documentation-principles/"><img style="max-width: 350px" src="/images/ucdthumb2.png" />
+<a href="https://idratherbewriting.com/files/user-centered-documentation-principles/"><img style="max-width: 350px" src="/images/ucdthumb2.png" />
 
-I decided to convert the presentation into a User-Centered Documentation course on my site (similar to my [API doc course](http://idratherbewriting.com/learnapidoc/)).
+I decided to convert the presentation into a User-Centered Documentation course on my site (similar to my [API doc course](https://idratherbewriting.com/learnapidoc/)).
 
 Rather than populating the course page by page, I instead pasted the content from the presentation into different pages as a skeleton outline for the course. You can navigate the pages using the sidebar on the left.
 
@@ -27,7 +27,7 @@ You can learn a lot by watching users in usability labs. At a previous company, 
     <figcaption>Usability labs have a mirrored glass that lets you observe users without them realizing they're being watched.</figcaption>
 </figure>
 
-I gained some [good insights from these usability sessions](http://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). For example, beginning users prefer video. Advanced users like to skim text.
+I gained some [good insights from these usability sessions](https://idratherbewriting.com/2011/07/22/a-few-notes-from-usability-testing-video-tutorials-get-watched-text-gets-skipped/). For example, beginning users prefer video. Advanced users like to skim text.
 
 However, these insights were drawn from a small number subjects. It could take years of observation to arrive at a core set of design principles that would be thoroughly tested across many different documentation scenarios and demographics.
 

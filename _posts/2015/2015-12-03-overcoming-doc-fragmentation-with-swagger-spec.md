@@ -36,7 +36,7 @@ info:
   contact:
     name: Tom Johnson
     email: tom@idratherbewriting.com
-    url: http://idratherbewriting.com
+    url: https://idratherbewriting.com
 ```
 {% endraw %}
 
@@ -56,7 +56,7 @@ info:
   contact:
     name: Tom Johnson
     email: tom@idratherbewriting.com
-    url: http://idratherbewriting.com
+    url: https://idratherbewriting.com
 ```
 {% endraw %}
 
@@ -75,7 +75,7 @@ info:
   contact:
     name: Tom Johnson
     email: tom@idratherbewriting.com
-    url: http://idratherbewriting.com
+    url: https://idratherbewriting.com
 ```
 {% endraw %}
 

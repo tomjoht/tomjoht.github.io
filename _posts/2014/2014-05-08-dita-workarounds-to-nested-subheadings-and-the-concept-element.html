@@ -47,7 +47,7 @@ Thingees
 {% endhighlight %}
 <p class="p">By breaking up the document, you can more easily re-use the different parts in different areas of your documentation. For example, if you have an audience that is only interested in thingees, you could more easily reuse thingees in a ditamap built just for this audience.</p>
 <p>One advantage of breaking content down into small chunks like this is the information becomes easier to manage. It's no fun working in a really long document that has multiple heading hierarchies. Documents with multiple heading hierarchies tend to get quite long and unwieldy. Splitting up your content ensures that you keep things relatively short and simple.</p>
-<p>The downside of the small units model is that it's not so easy to glue everything back together. If you want to get that same long document, you could use the <code>chunk="to-content"</code> attribute on the first topic. Then everything would merge into one article. However, using this attribute gets you into problems with relationship tables, as I explained in my previous post (<a class="xref" href="http://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/" target="_blank">DITA: Limitations with the chunk=”to-content” attribute in relationship tables</a>). </p>
+<p>The downside of the small units model is that it's not so easy to glue everything back together. If you want to get that same long document, you could use the <code>chunk="to-content"</code> attribute on the first topic. Then everything would merge into one article. However, using this attribute gets you into problems with relationship tables, as I explained in my previous post (<a class="xref" href="https://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/" target="_blank">DITA: Limitations with the chunk=”to-content” attribute in relationship tables</a>). </p>
 <p>The best approach would be to create an overview topic that acts as a parent (which means all child pages will be embedded as links on the parent), avoid the chunk attribute, and only use the overview parent in the relationship table.</p>
 <h2>Approach #2: Nested concepts</h2>
 <p>Another approach to writing for heading level 3 sections is to nest concept elements within concept elements. You can nest one concept tag within another, like this:</p>
@@ -169,6 +169,6 @@ Thingees
 <p class="p">The result would look just like a heading level 3, but without the semantic significance of being a heading level.</p>
 <p>No doubt this third method is a simple hack that is probably frowned upon, but it would be a quick way to achieve the same nested subheading result. The only problem is in making outlines for your pages. If you implement a table of contents plugin on your web page, usually the plugin will look for the heading levels and render and outline accordingly. If your third levels are simply a class, they won't appear in the outline.</p>
 <h2>Related links</h2>
-<p>See also the <a href="http://idratherbewriting.com/combining_topics">Combining topics</a> page in my DITA QRG.</p>
+<p>See also the <a href="https://idratherbewriting.com/combining_topics">Combining topics</a> page in my DITA QRG.</p>
 
 {% include series/seriesTagDITAJourney_next.html %}

@@ -109,6 +109,6 @@ A question about scope remains. Should you continue to try to juggle 5 projects 
 
 On the other hand, suppose you were to push back on your project scope and limit yourself to 1-2 projects only, but you deliver documentation that has strong value. Your documentation takes complexity and makes it simple for users to understand and follow. Perhaps you can make a case based on this value to hire more writers. But how do you get the authority to push back on the project loads? The question is not easy to answer, and perhaps I haven't fully addressed some of the questions I set out to answer, which include how to persuade senior leaders of your value. But if you can make a case for value, using some of these strategies I explored earlier, perhaps you can start to move the organization in the right direction.
 
-{{site.data.alerts.tip}}I created a new section on my site for topics and techniques related to simplifying complexity. Click the <b>Complexity</b> button on my main navigation bar, or go directly here: <a href="http://idratherbewriting.com/simplifying-complexity/index.html">idratherbewriting.com/simplifying-complexity</a>.{{site.data.alerts.end}}
+{{site.data.alerts.tip}}I created a new section on my site for topics and techniques related to simplifying complexity. Click the <b>Complexity</b> button on my main navigation bar, or go directly here: <a href="https://idratherbewriting.com/simplifying-complexity/index.html">idratherbewriting.com/simplifying-complexity</a>.{{site.data.alerts.end}}
 
 {% include series/seriesTagValueOfTechComm_next.html %}

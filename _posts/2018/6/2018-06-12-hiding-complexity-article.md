@@ -3,7 +3,7 @@ title: "Hiding Complexity -- A new Simplifying Complexity article"
 categories:
 - simplifying-complexity
 keywords:
-summary: "I added another article in my Simplifying Complexity series. This one is called <a href='http://idratherbewriting.com/simplifying-complexity/hiding-complexity.html'>Hiding complexity through JavaScript show/hide elements</a>. The basic principle is to look for ways to reduce complexity by hiding less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, and more."
+summary: "I added another article in my Simplifying Complexity series. This one is called <a href='https://idratherbewriting.com/simplifying-complexity/hiding-complexity.html'>Hiding complexity through JavaScript show/hide elements</a>. The basic principle is to look for ways to reduce complexity by hiding less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, and more."
 bitlink: http://bit.ly/hidingcomplexitynewarticle
 ---
 
@@ -13,4 +13,4 @@ Here's how the article begins:
 >
 > This scenario is common in developer docs because you often have multiple languages to account for. You might have a process for calling an API that you need to explain using PHP, Java, .NET, or other languages and frameworks. The general approach might typically be the same, but the code samples and specific technical details will differ....
 
-*Read the rest:* [Hiding complexity through JavaScript show/hide elements](http://idratherbewriting.com/simplifying-complexity/hiding-complexity.html)
+*Read the rest:* [Hiding complexity through JavaScript show/hide elements](https://idratherbewriting.com/simplifying-complexity/hiding-complexity.html)

@@ -168,7 +168,7 @@ My colleague expressed a deep truth about documentation and user behavior. It's 
 [1]: An information retrieval system will tend not to be used whenever it is more painful and troublesome for a customer to have information than for him not to have it.
 [2]: https://en.wikipedia.org/wiki/Moore%27s_law
 [3]: https://www.quora.com/Whats-the-best-mindset-for-learning-and-how-do-you-attain-it
-[4]: http://idratherbewriting.com/2009/03/02/emotional-states-of-computer-users-in-times-of-frustration/
-[5]: http://idratherbewriting.com/2011/01/25/making-help-content-enjoyable-to-read-impossible-quest-or-achievable-reality/
+[4]: https://idratherbewriting.com/2009/03/02/emotional-states-of-computer-users-in-times-of-frustration/
+[5]: https://idratherbewriting.com/2011/01/25/making-help-content-enjoyable-to-read-impossible-quest-or-achievable-reality/
 [6]: https://www.trymyui.com/blog/2016/09/15/4-user-frustration-behavior-patterns/
-[7]: http://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/
+[7]: https://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/

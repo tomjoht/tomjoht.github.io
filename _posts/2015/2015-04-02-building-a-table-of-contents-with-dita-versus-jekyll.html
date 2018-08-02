@@ -12,7 +12,7 @@ weight: 1.4
 ---
 {% include series/seriesTagJekyllVsDITA.html %}
 
-<p>In my <a href="http://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/">ongoing series comparing Jekyll against DITA</a>, I want to touch on how you construct a table of contents.</p>
+<p>In my <a href="https://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/">ongoing series comparing Jekyll against DITA</a>, I want to touch on how you construct a table of contents.</p>
 <h2>Creating a TOC with DITA</h2>
 <p>The ditamap file in DITA is arguably the most important file in a DITA project, and it has a lot of features. Basically, the ditamap defines the table of contents for the project, which is how users navigate all the files (apart from search).</p>
 <p>Additionally, any file that you want included in your output <em>must</em> appear in your ditamap file. Otherwise it's excluded from the build.</p>
@@ -52,7 +52,7 @@ weight: 1.4
 <p>{% highlight xml %}
 <topicref processing-role="resource-only" href="notes.dita" />
 {% endhighlight %}</p>
-<p>For more details on ditamap files, see my page on <a href="http://idratherbewriting.com/toc_linking/mapfiles/">ditamap files</a>.</p>
+<p>For more details on ditamap files, see my page on <a href="https://idratherbewriting.com/toc_linking/mapfiles/">ditamap files</a>.</p>
 <h2>Creating a TOC with Jekyll via categories</h2>
 <p>Jekyll provides a lot of different ways to create a TOC. Since many Jekyll sites are blogs, more emphasis seems to be given to <em>post</em> sorting than <em>page</em> sorting, but Jekyll also provides an interesting paradigm to handle the TOC for pages.</p>
 <p>You have at least two main options for create a TOC. You can add a category and weight as frontmatter in your page, and then run <code>for</code> loops to sort the content based on the category and weight.</p>
@@ -148,9 +148,9 @@ entries:
 <h2>Dynamic assembly of content</h2>
 <p>One strength of DITA is the ability to dynamically assemble larger topics from smaller ones, but this might also be seen as a weakness. In OxygenXML's webhelp output, if you use the <code>chunk</code> attribute to glue a topic together at build time, you can still find the individual chunks in search (they're only glued together in the TOC, not physically in the file contents).</p>
 <p>These individual chunks are problematic -- they don't make much sense out of context from the larger topic they were chunked into. (You might think the chunk attribute permanently glues them together, but that magic only happens in the TOC.)</p>
-<p>Additionally, if you have a relationship table in a "chunked" topic (meaning a topic that is dynamically assembled through the <code>chunk</code> attribute), the relationship table appears (oddly enough) after the first chunk, and then the other sections appear (see <a href="http://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/">this post</a> for more detail).</p>
+<p>Additionally, if you have a relationship table in a "chunked" topic (meaning a topic that is dynamically assembled through the <code>chunk</code> attribute), the relationship table appears (oddly enough) after the first chunk, and then the other sections appear (see <a href="https://idratherbewriting.com/2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/">this post</a> for more detail).</p>
 <p>This odd behavior of the Open Toolkit is necessary (I think) so that the relationship table can appear at the bottom of the all the individual chunks that don't appear glued together in the TOC topic but rather surface independently, for example, through search.</p>
-<p>If you're going to include a topic in another topic, there's no reason not to use a conref from within the topic itself, or if using Jekyll, to <a href="http://idratherbewriting.com/2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/">use includes</a> from within the topic.</p>
+<p>If you're going to include a topic in another topic, there's no reason not to use a conref from within the topic itself, or if using Jekyll, to <a href="https://idratherbewriting.com/2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/">use includes</a> from within the topic.</p>
 <h2>Conclusion</h2>
 <p>Overall, I hope to have shown that Jekyll provides some robust options when it comes to creating your table of contents. What's especially important is that the TOC content is not merged into the theme in a tight way. Content is separated from format (stored in a data file) and merged together at build time with your theme's template.</p>
 

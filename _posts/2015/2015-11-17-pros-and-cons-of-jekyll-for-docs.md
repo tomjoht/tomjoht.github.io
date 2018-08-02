@@ -16,7 +16,7 @@ This caught my attention because I realized how easy it is to brand yourself wit
 
 Of course, few things are as polarizing as DITA in the tech comm community (and apparently in the international community as well). But I don't want to come across as DITA enemy #1, as Neal Kaplan [once described his experience](http://customersandcontent.com/2014/05/13/hey-i-actually-liked-a-conference/) after writing a post that was less than favorable toward DITA.
 
-To balance out perceptions, in this post I want to note the pros *and cons* with Jekyll. I usually champion the underdog and want to see developing systems move forward into mainstream usage. But at the risk of coming across as a "Jekyll-ite," I'm going to offer up 10 shortcomings of using Jekyll for documentation (not too unlike my [10 shortcomings with DITA post](http://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/)).
+To balance out perceptions, in this post I want to note the pros *and cons* with Jekyll. I usually champion the underdog and want to see developing systems move forward into mainstream usage. But at the risk of coming across as a "Jekyll-ite," I'm going to offer up 10 shortcomings of using Jekyll for documentation (not too unlike my [10 shortcomings with DITA post](https://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/)).
 
 Lest I get ostracized by the Jekyll community, though, I'll follow up these items with 10 pros of using Jekyll for documentation.
 

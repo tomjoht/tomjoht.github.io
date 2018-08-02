@@ -108,9 +108,9 @@ At the end of each sprint, project teams should demo what they've accomplished. 
 
 How would this sprint demo apply if you're learning Java? Here's one approach. As you're learning, take notes. Draft your notes into organized, information-rich nuggets that you can read through to review the material. For example, I put some of my notes here:
 
-* [JavaScript notes](http://idratherbewriting.com/javascript/)
-* [DITA notes](http://idratherbewriting.com/ditaqrg/)
-* [Java notes](http://idratherbewriting.com/java-introduction/)
+* [JavaScript notes](https://idratherbewriting.com/javascript/)
+* [DITA notes](https://idratherbewriting.com/ditaqrg/)
+* [Java notes](https://idratherbewriting.com/java-introduction/)
 
 By making notes, I'm trying to avoid living the story of Sisyphus, where I continually roll the same boulder up a hill, only to have it roll back again. I'm soaking in a lot of new information &mdash; through my notes, hopefully I can shorten any re-learning efforts as time passes and my memory fades. 
 

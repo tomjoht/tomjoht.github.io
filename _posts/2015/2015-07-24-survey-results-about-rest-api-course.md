@@ -8,7 +8,7 @@ summary: "Here are the survey results from my survey I conducted about a possibl
 
 ## Survey results
 
-Earlier this week I asked for your [feedback about a possible REST API workshop](http://idratherbewriting.com/2015/07/20/survey-about-possible-rest-api-workshop/) I was thinking about providing. If you would like to view the answers from the survey, you can [read them here](https://www.surveymonkey.com/results/SM-NLCQLJCY/) or from the screenshot below.
+Earlier this week I asked for your [feedback about a possible REST API workshop](https://idratherbewriting.com/2015/07/20/survey-about-possible-rest-api-workshop/) I was thinking about providing. If you would like to view the answers from the survey, you can [read them here](https://www.surveymonkey.com/results/SM-NLCQLJCY/) or from the screenshot below.
 
 <a href="https://www.surveymonkey.com/results/SM-NLCQLJCY/"><img src="{{ "/images/restapiresponsessurvey.png" | prepend: site.baseurl }}" alt="Responses to survey about possible REST API workshop" /></a>
 

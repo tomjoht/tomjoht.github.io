@@ -19,7 +19,7 @@ Lately I've been more on the fence about the right tools for developer documenta
 
 (I'm sure there's a more official depiction of these phases, but I don't need to go there.)
 
-Why the good but challenges and disillusionment stages? I mentioned them in [previous posts](http://idratherbewriting.com/2016/01/10/why-simple-tools-become-complex/), but as a quick recap, a few shortcomings of the static site generator approach are as follows:
+Why the good but challenges and disillusionment stages? I mentioned them in [previous posts](https://idratherbewriting.com/2016/01/10/why-simple-tools-become-complex/), but as a quick recap, a few shortcomings of the static site generator approach are as follows:
 
 * No validity checking for broken links
 * No automatic updates for cross reference titles and links

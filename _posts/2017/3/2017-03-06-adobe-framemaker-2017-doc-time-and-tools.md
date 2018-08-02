@@ -128,7 +128,7 @@ If you want to enable productivity with content authoring, check out time-tested
 <a href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG"><button type="button" class="btn btn-info">Download a trial of FrameMaker 2017</button></a>
 
 
-[1]: http://idratherbewriting.com/2016/02/27/retrospective-on-the-good-and-bad/
+[1]: https://idratherbewriting.com/2016/02/27/retrospective-on-the-good-and-bad/
 [2]: http://www.welinske.com/2014-user-assistance-tools-survey/
 [3]: http://thecontentwrangler.com/2016/05/26/2016-technical-communication-industry-benchmarking-survey/
 [4]: http://www.welinske.com/skills-and-technologies-survey-2016-technologies/
@@ -139,6 +139,6 @@ If you want to enable productivity with content authoring, check out time-tested
 [9]: http://www.douwriteright.com/PDF/word_v_framemaker_comparison_guide_ue.pdf
 [10]: http://www.adobe.com/products/framemaker/reviews.html
 [11]: http://www.adobe.com/products/xml-documentation-add-on-for-experience-manager.html
-[12]: http://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/
+[12]: https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/
 [13]: http://blogs.adobe.com/techcomm/2017/01/2017-release-of-framemaker.html
 [14]: https://docs.adobe.com/content/docs/en/aem/6-2.html

@@ -11,7 +11,7 @@ published: false
 
 Last weekend I toured Stanford's Cantor museum. Since I had user maps on my mind, I was intrigued by the museum map:
 
-<figure><a href="http://idratherbewriting.com/images/stanfordmap.jpg"><img src="{{ "/images/standfordmapsmall.jpg" | prepend: site.baseurl }}"/></a><figcaption>This museum map presents me with a lot of different choices.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/images/stanfordmap.jpg"><img src="{{ "/images/standfordmapsmall.jpg" | prepend: site.baseurl }}"/></a><figcaption>This museum map presents me with a lot of different choices.</figcaption></figure>
 
 My goal in visiting the museum was to see interesting, inspiring art. Because I had a goal, I also needed to follow a process to achieve that goal.
 
@@ -74,7 +74,7 @@ what also comes to mind are mark baker's affinity maps, where you have affinity 
 
 this map is more like a physical description of an actual system. it is a metphor in carnate.
 
-<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/designmap.png" | prepend: site.baseurl }}"/></a><figcaption>your caption</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{ "/images/designmap.png" | prepend: site.baseurl }}"/></a><figcaption>your caption</figcaption></figure>
 
 https://thevirtualleader.wordpress.com/tag/process-mapping/
 
@@ -100,13 +100,13 @@ mini-tabs horizontal: http://vault.simplebits.com/bits/minitabs.html#
 
 i like the pattern of 5 across. you could click a square and a modal pops up. you could fit 3 tasks per square, making them more column like.
 
-In a previous post, I wrote about [linear workflow maps for users](http://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/). But not all tech doc (and actually very little tech doc) consists of straightforward linear steps like this.
+In a previous post, I wrote about [linear workflow maps for users](https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/). But not all tech doc (and actually very little tech doc) consists of straightforward linear steps like this.
 
 Instead, workflows in user documentation are often non-linear, optional, branching, and depending on user goals. There isn't always one way through the documentation, but rather a lot of different routes users can take depending on what they want to learn about or do.
 
 Today I toured the Stanford Museum with my family and friends. Here's the map you receive upon entering the museum:
 
-<figure><a href="http://idratherbewriting.com"><img src="{{ "/images/standfordmap.JPG" | prepend: site.baseurl }}"/></a><figcaption>This map presents me with a lot of different choices.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{ "/images/standfordmap.JPG" | prepend: site.baseurl }}"/></a><figcaption>This map presents me with a lot of different choices.</figcaption></figure>
 
 First of all, there isn't a directional arrow leading me through the content. I may not want to see Ancient Americas exhibit. Maybe I just want to see the Contemporary Art. When there isn't a set path through the content, workflow arrows don't make sense. This map is the equivalent of a table of contents in a help file -- it tells me what's contained in each section, but not the order in which I should proceed through the sections.
 

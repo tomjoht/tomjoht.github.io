@@ -23,4 +23,4 @@ You can view more podcasts at [podcast.writethedocs.org](http://podcast.writethe
 **Links mentioned during the podcast:**
 
 * [Melbourne Cup](https://en.wikipedia.org/wiki/Melbourne_Cup)
-* [Convert Google Docs content to Markdown or HTML](http://idratherbewriting.com/2017/09/22/convert-google-docs-to-markdown/)
+* [Convert Google Docs content to Markdown or HTML](https://idratherbewriting.com/2017/09/22/convert-google-docs-to-markdown/)

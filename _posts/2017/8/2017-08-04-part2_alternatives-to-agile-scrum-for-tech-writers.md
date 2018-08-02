@@ -14,7 +14,7 @@ podcast_duration: "31:07"
 podcast_length: 23964717
 ---
 
-{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
 
 {% include audio.html %}
 
@@ -31,7 +31,7 @@ Even if you reject Scrum as a methodology for yourself, you'll still be writing 
 
 ## Kanban
 
-As one alternative, you could incorporate a [Kanban approach](http://idratherbewriting.com/2016/09/23/playing-content-curation-publishing-roles/). In a nutshell, Kanban limits the flow of work to a manageable rate.
+As one alternative, you could incorporate a [Kanban approach](https://idratherbewriting.com/2016/09/23/playing-content-curation-publishing-roles/). In a nutshell, Kanban limits the flow of work to a manageable rate.
 
 To implement Kanban, you first model your flow of work. For example, doc items might move through 5 stages:
 
@@ -65,7 +65,7 @@ With Extreme Programming and docs, you might start with bare-bones documentation
 
 ## Tim Ferriss' 4-hour Work Week
 
-There are also a variety of personal productivity (getting-things-done) type approaches to work. I wrote about one of them in a post called [Applying Tim Ferriss' 4-hour work week rules to tech comm projects](http://idratherbewriting.com/2016/07/20/apply-80-20-rule-to-project-management-tech-comm/).
+There are also a variety of personal productivity (getting-things-done) type approaches to work. I wrote about one of them in a post called [Applying Tim Ferriss' 4-hour work week rules to tech comm projects](https://idratherbewriting.com/2016/07/20/apply-80-20-rule-to-project-management-tech-comm/).
 
 In a nutshell, everyday you wake up, look at the two highest-priority tasks you want to tackle for that day, and focus on them first. You block out all other distractions (email, meetings, phone calls, etc.) until you've finished these two tasks. (In this model, the many Scrum meetings you usually attend might be a huge deterrent to productivity.)
 
@@ -185,7 +185,7 @@ Running your own Scrum project, you're guaranteed *not* to be sucked into any ir
 
 ## You drive the backlog
 
-When you're the one driving the project, you have control about the user stories and other tasks you tackle. Rather than taking orders from a project manager about the needed docs, you can survey the industry, technology, and business domains as an active product researcher to determine what documentation gaps need to be addressed. (I wrote about the need to be an active researcher here: [How do you learn what you need to learn to be successful as a technical writer?](http://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/))
+When you're the one driving the project, you have control about the user stories and other tasks you tackle. Rather than taking orders from a project manager about the needed docs, you can survey the industry, technology, and business domains as an active product researcher to determine what documentation gaps need to be addressed. (I wrote about the need to be an active researcher here: [How do you learn what you need to learn to be successful as a technical writer?](https://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/))
 
 Of course, in many cases, much of your work might stem from project managers and their scrums. But the user stories should also originate from your active, self-directed research looking at forums, support tickets, industry blogs, and other feedback.
 
@@ -231,14 +231,14 @@ It might work out great, or not. Most methodologies would work well enough if we
 
 But if you're going about it all on your own, it will be easy to discard elements that seem dumb, or to alter processes as you see fit, and if desired, try something else entirely on a whim. That fragility for the process can't be good, so in all reality, my excitement for the process might be forgotten in a few weeks. Perhaps in an upcoming post, I'll explore strategies for staying the course in whatever task management methodology you've chosen.
 
-{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="http://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
+{{site.data.alerts.note}}This is Part 2 in a two part series. Part 1 is available here: <a href="https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/">Tech docs and Agile Part 1: Problems with integrating tech writers into engineering Scrum teams</a>. {{site.data.alerts.end}}
 
 ## Related reading
 
 If you'd like to read more about tech comm and Scrum, see the following:
 
 * [Agile and Tech Comm: Writer Challenges in Scrum and Traditional Development Teams](https://techwhirl.com/scrum-and-tech-comm-writer-challenges-development-teams/)
-* [How can technical writers thrive in Scrum environments? Event recording and details](http://idratherbewriting.com/2016/09/20/thriving-in-Scrum-environments-as-technical-writers/)
+* [How can technical writers thrive in Scrum environments? Event recording and details](https://idratherbewriting.com/2016/09/20/thriving-in-Scrum-environments-as-technical-writers/)
 * [Manifesto for Scrum Software Development](http://scrummanifesto.org/)
 [Principles behind the Scrum Manifesto](http://scrummanifesto.org/principles.html)
 * [The Scrum technical writer](https://ffeathers.wordpress.com/2008/01/20/the-Scrum-technical-writer/)

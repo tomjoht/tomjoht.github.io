@@ -52,9 +52,9 @@ To credit, there is a lesson that shows how to create a topic in Oxygen, but tha
 
 ## Why am I reviewing this course?
 
-If you know me, you may wonder why I'm reviewing a course on DITA, since I [abandoned DITA for Jekyll](http://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/) some months ago. 
+If you know me, you may wonder why I'm reviewing a course on DITA, since I [abandoned DITA for Jekyll](https://idratherbewriting.com/2015/01/28/10-reasons-for-moving-away-from-dita/) some months ago. 
 
-Well, I'm interested in seeing different approaches to online courses and learning. Whereas [Peter Gruenbaum's course on API documentation](http://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/) was primarily video-based, the [learningdita.com course](http://learningdita.com/) is primarily text-based. 
+Well, I'm interested in seeing different approaches to online courses and learning. Whereas [Peter Gruenbaum's course on API documentation](https://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/) was primarily video-based, the [learningdita.com course](http://learningdita.com/) is primarily text-based. 
 
 Also, I'm trying to highlight more newsworthy events on my blog, and this course on DITA is a first of its kind. Congrats to [Scriptorium](http://scriptorium.com) for making this information available for free on the web.
 

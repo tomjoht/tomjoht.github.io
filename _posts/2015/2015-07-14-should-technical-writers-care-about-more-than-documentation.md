@@ -10,7 +10,7 @@ weight: 1.3
 ---
 {% include series/seriesTagTestingDocs.html %}
 
-In my [previous post on communicating feedback from testing documentation](http://idratherbewriting.com/2015/07/10/communicating-feedback-from-testing/), I noted how testing documentation leads to increased visibility and overlapping roles. When you start testing documentation, you discover bugs with the software, find ideas for product improvement, and have other opinions. You're no longer just a quiet, introverted scribe but rather an active, vocal player with an increasingly team-centered role.
+In my [previous post on communicating feedback from testing documentation](https://idratherbewriting.com/2015/07/10/communicating-feedback-from-testing/), I noted how testing documentation leads to increased visibility and overlapping roles. When you start testing documentation, you discover bugs with the software, find ideas for product improvement, and have other opinions. You're no longer just a quiet, introverted scribe but rather an active, vocal player with an increasingly team-centered role.
 
 However, there are limits to going beyond the documentation role. It's one thing to log and bug now and then, and to offer feedback to the product manager, but what if you start going full throttle in these directions, doing the following:
 
@@ -36,7 +36,7 @@ When I read the email, my thoughts immediately turned to the question of technic
 
 >If you want to focus on something more than help, more than publishing, more than most everything, then you might even be moving toward tech writers as content strategists. However, content strategy is not a topic that excites me. It's actually a topic that I find frustrating because we all tend to do it to some degree already, yet so many people viciously defend the space as belonging to a unique elite.  
 
-I've actually explored the multiple-hat path before, when I [presented a keynote to another regional STC conference about 5 years ago](http://idratherbewriting.com/2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/). I didn't want to re-assess the identity topic. 
+I've actually explored the multiple-hat path before, when I [presented a keynote to another regional STC conference about 5 years ago](https://idratherbewriting.com/2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/). I didn't want to re-assess the identity topic. 
 
 But in reality, I never had a good conclusion for the many faceted roles that technical writers play. Maybe there's more to think about? Should I move beyond doc into overlapping roles, or should I stick to my main responsibility and just focus on documentation?
 

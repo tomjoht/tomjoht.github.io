@@ -32,7 +32,7 @@ bitlink: http://bit.ly/docsascodeargument
 
 ## Responses to Review Post were enormous
 
-The number of comments on my recent post, [Review of Andrew Etter's ebook on Modern Technical Writing](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/), showed an overwhelming interest in this topic. The post went viral. In addition to 300+ clicks on Twitter and Linkedin, there were about 1,200 page views and an equal number of clicks on the audio files. People spent an average of 5 minutes 11 seconds reading the post. The post had a lively discussion both on [techwr-l](http://www.techwr-l.com/archives/1607/techwhirl-1607-00065.html#.V6nmTpMrK1s) and in the post's comments.
+The number of comments on my recent post, [Review of Andrew Etter's ebook on Modern Technical Writing](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/), showed an overwhelming interest in this topic. The post went viral. In addition to 300+ clicks on Twitter and Linkedin, there were about 1,200 page views and an equal number of clicks on the audio files. People spent an average of 5 minutes 11 seconds reading the post. The post had a lively discussion both on [techwr-l](http://www.techwr-l.com/archives/1607/techwhirl-1607-00065.html#.V6nmTpMrK1s) and in the post's comments.
 
 I want to respond generally to at least one trend in the comments -- the idea that the docs-as-code solution won't scale.
 
@@ -44,19 +44,19 @@ But Etter's ebook seems to legitimize the approach, and his title "Modern Techni
 
 In their responses, a few people argued that that the docs-as-code approach would only work for small shops. For larger documentation scenarios, it wouldn't scale.
 
-For example, one reader [said](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2819188210):
+For example, one reader [said](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2819188210):
 
 > Having worked in ginormous and more boutique-sized content projects, the tips and methods described in Andrew's book are geared more towards the boutique-sized end of the spectrum. Which is fine, as there are many writers who work on projects of that size.
 
-Another person (who noted that he works for easyDITA) [said](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2820720617):
+Another person (who noted that he works for easyDITA) [said](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2820720617):
 
 > I'm sure it could work for a very small team but when you get into tens of thousands of topics (not uncommon) it would be a nightmare. And the entire publishing process enabled by a CCMS offers the advantage of eliminating constant formatting while enabling real time updates. Having multiple Jekyll sites, for example, means keeping track of what is where and somehow making them easily accessible to end users. And what about search? How do you search across all these apps with one search? Etc.,etc.
 
-He continued with some more [commentary](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2818952629) about content re-use and formatting later:
+He continued with some more [commentary](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2818952629) about content re-use and formatting later:
 
 >  let's imagine a part number changes that is used across multiple products and appears in multiple docs published to various media. How do you change every instance of that part number other than manually looking for them? There are so many reasons why structure was developed. The average tech writer spends as much as 40% of their time formatting their documentation for multiple delivery options. Formatting is automated in XML-based systems.
 
-Another person also [pointed out](http://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2820114467) the difficulty of scaling these solutions, saying:
+Another person also [pointed out](https://idratherbewriting.com/2016/07/26/modern-technical-writing-review/#comment-2820114467) the difficulty of scaling these solutions, saying:
 
 > when content grows, from my experience, it's really hard to manage it all with a self-made solution. Especially when it comes to translation!
 
@@ -95,7 +95,7 @@ I'll concede that I don't have a lot of experience working on massive documentat
 
 Let's look at another objection: *You can't identify and change a component that appears in multiple places.*
 
-This idea assumes that you can't re-use components in a static site generator model. Actually, you can. I talked about this in my series comparing DITA versus Jekyll. See [Creating re-usable chunks (conref) in Jekyll versus DITA](http://idratherbewriting.com/2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/).
+This idea assumes that you can't re-use components in a static site generator model. Actually, you can. I talked about this in my series comparing DITA versus Jekyll. See [Creating re-usable chunks (conref) in Jekyll versus DITA](https://idratherbewriting.com/2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/).
 
 In fact, re-using content is easier in a static site generator than it is with DITA, because DITA requires the content to be "valid" in every place it's re-used. This means a note that appears inside a task element might not be valid if the note appears outside the task.
 
@@ -115,7 +115,7 @@ Let's say you want to maintain separate repos but still re-use content across th
 
 While you could manage theme updates this way, you could also distribute re-usable content in the same way. Instead of theme-based includes, you could deliver content to be included across projects.
 
-Another way to re-use content across projects is by rendering the content into JSON and then pulling the content into your project where it's needed. I explored this approach in [Help APIs and UI Tooltips](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api.html). This is also more or less the approach used by [Contentful](https://www.contentful.com/), an API-based content management system.
+Another way to re-use content across projects is by rendering the content into JSON and then pulling the content into your project where it's needed. I explored this approach in [Help APIs and UI Tooltips](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api.html). This is also more or less the approach used by [Contentful](https://www.contentful.com/), an API-based content management system.
 
 One bit of info that static site generators won't show you, though, is an automatic UI display that lists where the content is re-used. You would likely need to do a text search for the re-used component. However, searching for text in an editor like Atom, Sublime, or WebStorm is quite easy. It's not as if you're using Notepad to author content.
 
@@ -133,9 +133,9 @@ Let's look at the final objection: *When you have multiple delivery options, thi
 
 Without question, most static site generators are optimized to deliver web-based HTML output. They aren't optimized for generating PDFs, so if PDF is a huge requirement, you might want to use a standard XML-based system.
 
-That said, you can generate beautiful PDFs using a static site generator. I explained how to do it using Prince XML with Jekyll here: [Generating PDFs](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_generating_pdfs.html). It's a little trickier to set up, but you also have greater control to customize the output without having to dig into XSL-FO stylesheets.
+That said, you can generate beautiful PDFs using a static site generator. I explained how to do it using Prince XML with Jekyll here: [Generating PDFs](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_generating_pdfs.html). It's a little trickier to set up, but you also have greater control to customize the output without having to dig into XSL-FO stylesheets.
 
-Generally I'm content with a single HTML output, because you should avoid PDF for all the reasons I listed in this post: [Why do we need PDFs?](http://idratherbewriting.com/2015/02/05/why-do-we-need-pdfs/)
+Generally I'm content with a single HTML output, because you should avoid PDF for all the reasons I listed in this post: [Why do we need PDFs?](https://idratherbewriting.com/2015/02/05/why-do-we-need-pdfs/)
 
 ## Other reasons: Developer documentation
 
@@ -143,7 +143,7 @@ There's another reason why you might want to embrace the docs-as-code model: if 
 
 For example, take a look at this documentation site: [PlayFab](https://api.playfab.com/Documentation/Client). Much of the documentation is built from JSON files that the API generates (you can see the [JSON here](https://github.com/PlayFab/API_Specs)). Their [SDK generator](https://github.com/PlayFab/SDKGenerator), built on NodeJS, also makes use of the same JSON. How would you integrate this kind of workflow into an XML/CCMS based system? If you can generate some doc material from code annotations, that's usually the approach engineers prefer.
 
-When I was developing my [API documentation course](http://idratherbewriting.com/learnapidoc/), I surveyed about [100 REST APIs](http://idratherbewriting.com/learnapidoc/pubapis_apilist.html). Almost all of them follow similar characteristics:
+When I was developing my [API documentation course](https://idratherbewriting.com/learnapidoc/), I surveyed about [100 REST APIs](https://idratherbewriting.com/learnapidoc/pubapis_apilist.html). Almost all of them follow similar characteristics:
 
 *  The docs are somewhat small (at least not tens of thousands of pages).
 *  The docs are published on custom-branded websites.

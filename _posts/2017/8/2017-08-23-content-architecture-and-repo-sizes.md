@@ -22,7 +22,7 @@ To provide a little background, at my work we are developing a system to build o
 
 One challenge we faced was in determining the right content architecture &mdash; specifically, how to divide up the content. With two teams of writers (about 10 writers total), and approximately 15 or so distinct products, each with their own documentation, what is the right content architecture? Should we have lots of little repos &mdash; that is, one repo per product? Or should we have 1 or 2 repos that consolidate documentation for a lot of different products?
 
-<img src="http://idratherbewriting.com/images/reposize-01.svg"/>
+<img src="https://idratherbewriting.com/images/reposize-01.svg"/>
 
 I've tried both, and I opted for smaller repos based on the following reasons:
 
@@ -142,7 +142,7 @@ I learned a lot by working on this project. First and foremost, I realized that 
 
 I'm not sure if the software development model aligns well with the needs of documentation development. In many ways, it works out. But when I want to fix a small typo, will the software management process be overkill? Will I be able to easily iterate with my content based on incoming feedback? Is building from a build management system really better and easier than building the HTML output locally and uploading it individually?
 
-I wrote about some of these reservations previously here: [Limits to the idea of treating docs as code](http://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/). My main concern is that software development demands a heavy release process to ensure no bugs exist in the software. Software isn't designed for any single individual to push quickly to production without going through stringent QA testing and hardening. In fact, for one of my projects at work, the project manager prefers to limit new versions to quarterly releases because the QA process required for each release is so time intensive.
+I wrote about some of these reservations previously here: [Limits to the idea of treating docs as code](https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/). My main concern is that software development demands a heavy release process to ensure no bugs exist in the software. Software isn't designed for any single individual to push quickly to production without going through stringent QA testing and hardening. In fact, for one of my projects at work, the project manager prefers to limit new versions to quarterly releases because the QA process required for each release is so time intensive.
 
 When following a docs-as-code model, as we saddle our documentation processes with build management servers and software release pipelines, will we someday find that doc isn't quite the same as code? Will pushing out that quick fix to address the typo or missing detail become more effort than it's worth? Probably.
 

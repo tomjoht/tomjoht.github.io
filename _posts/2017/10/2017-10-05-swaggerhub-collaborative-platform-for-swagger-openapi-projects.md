@@ -23,7 +23,7 @@ Smartbear recently announced [support for new OpenAPI **3.0** version of the spe
 
 (Note: Before continuing, I want to clarify a few terms for those who may be unfamiliar with the OpenAPI/Swagger landscape. ["Smartbear"](https://smartbear.com/) is the company that maintains and develops the open source Swagger tooling (Swagger Editor, Swagger UI, Swagger Codegen, and others). Smartbear formed the "OpenAPI Initiative" and leads the evolution of the ["OpenAPI specification"](https://github.com/OAI/OpenAPI-Specification/). ["SwaggerHub"](https://swaggerhub.com/) was developed by Smartbear as a way for teams to collaborate around the OpenAPI specification file. "Swagger" was the original name of the spec, but it was changed to "OpenAPI" to reinforce the open, non-proprietary nature of the standard. People often refer to both names interchangeably, but "OpenAPI" is the preferred term. The Swagger YAML file that you create to describe your API is called either the "OpenAPI specification file" or the "OpenAPI contract." Now that I've cleared up those terms, let's continue.)
 
-I've written in the past about how [Swagger-related posts are the most visited posts](http://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/) on my site. The OpenAPI/Swagger specification (instead of RAML or API Blueprint) continues to be the most dominant specification for describing REST APIs. In a [recent webinar description about the OpenAPI 3.0 spec](https://zoom.us/webinar/register/293803506/success?user_id=aaANmfCXRHiEjpR25qzVBg&occurrence_times=%3B1506520800000), Smartbear says OpenAPI "has emerged as the world’s standard for defining and describing RESTful APIs" &mdash; it would be hard to argue otherwise. Because of this emergence as the world standard, in my [API course](http://idratherbewriting.com/learnapidoc/), I added a [tutorial on OpenAPI/Swagger](http://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) and another tutorial on [Managing OpenAPI/Swagger Projects with SwaggerHub](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html).
+I've written in the past about how [Swagger-related posts are the most visited posts](https://idratherbewriting.com/2017/01/17/trends-2017-swagger-all-the-way/) on my site. The OpenAPI/Swagger specification (instead of RAML or API Blueprint) continues to be the most dominant specification for describing REST APIs. In a [recent webinar description about the OpenAPI 3.0 spec](https://zoom.us/webinar/register/293803506/success?user_id=aaANmfCXRHiEjpR25qzVBg&occurrence_times=%3B1506520800000), Smartbear says OpenAPI "has emerged as the world’s standard for defining and describing RESTful APIs" &mdash; it would be hard to argue otherwise. Because of this emergence as the world standard, in my [API course](https://idratherbewriting.com/learnapidoc/), I added a [tutorial on OpenAPI/Swagger](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) and another tutorial on [Managing OpenAPI/Swagger Projects with SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html).
 
 {{site.data.alerts.note}}SwaggerHub is one of the sponsors of my site.{{site.data.alerts.end}}
 
@@ -43,7 +43,7 @@ When you discover the OpenAPI specification for describing REST APIs, you sudden
 
 If the OpenAPI spec were simple and easy to follow, producing documentation would be a no-brainer for both developers and technical writers. But because the API landscape is technically diverse, the OpenAPI spec is technically diverse as well.
 
-Unlike SOAP (a previous protocol for describing web APIs), REST is an *architectural style* that follows a number of characteristics, not an exact protocol (see [What is a REST API?](http://idratherbewriting.com/learnapidoc/docapis_what-is-a-rest-api.html)). This architectural style means there's variety from one API to the next &mdash; variety around endpoint operations, parameter types, authorizations used, response formats, and so on.
+Unlike SOAP (a previous protocol for describing web APIs), REST is an *architectural style* that follows a number of characteristics, not an exact protocol (see [What is a REST API?](https://idratherbewriting.com/learnapidoc/docapis_what-is-a-rest-api.html)). This architectural style means there's variety from one API to the next &mdash; variety around endpoint operations, parameter types, authorizations used, response formats, and so on.
 
 The OpenAPI spec has to be flexible and robust enough to describe all of this variety. As a result, the OpenAPI spec can be somewhat time-consuming to understand and create, especially if you're creating it manually.
 
@@ -71,7 +71,7 @@ Remember this is Hacker News, so most commenters are developers. Granted, not al
 
 Overall, creating the OpenAPI spec is not a simple undertaking (especially if your API is complicated), and even many developers find it a difficult task. And yet, I don't see how the OpenAPI spec could somehow be any less complex than the complexity it describes.
 
-To get a sense of the OpenAPI YAML referenced here, take a look at the [sample OpenAPI spec file in my API course](http://idratherbewriting.com/learnapidoc/pubapis_swagger_sample_specification_file.html). This spec file describes a simple Weather API that I document in my API course.
+To get a sense of the OpenAPI YAML referenced here, take a look at the [sample OpenAPI spec file in my API course](https://idratherbewriting.com/learnapidoc/pubapis_swagger_sample_specification_file.html). This spec file describes a simple Weather API that I document in my API course.
 
 The sample spec has various objects, such as `info`, `paths`, `securityDefinitions`, and so on. Each object has certain properties you can use to describe it. For example, a `paths` object contains the endpoints (such as `/aqi`). Each endpoint contains the operations allowed (such as `get` or `post`). Each operation contains properties such as `summary`, `parameters`, and `responses`. To begin a new level in YAML, you add a colon (`:`), break to a new line, and indent two spaces. This is the equivalent of an object in JSON.
 
@@ -105,18 +105,18 @@ With SwaggerHub, you aren't emailing files back and forth. You don't need to cre
 
 <a href="https://swaggerhub.com"><img src="/images/swaggerhub_comment_feature_post.png" alt="Inline commenting in Swaggerhub"/></a>
 
-Collaboration is just one aspect of SwaggerHub, of course. In my tutorial on how to [Manage OpenAPI Projects with SwaggerHub](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html), I cover a number of other SwaggerHub features including the following:
+Collaboration is just one aspect of SwaggerHub, of course. In my tutorial on how to [Manage OpenAPI Projects with SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html), I cover a number of other SwaggerHub features including the following:
 
-* [The Swagger Editor](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html)
-* [Version support](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#versions)
-* [Inline commenting/review](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#inline-commentingreview)
-* [Auto-generation of client SDKs](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#auto-generate-client-sdks)
-* [HTML export](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#export-to-html)
-* [Mocking servers](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#mocking-servers)
-* [Content re-use (domains)](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#content-re-use-domains)
-* [Organizations and projects](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#organizations-and-projects)
+* [The Swagger Editor](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html)
+* [Version support](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#versions)
+* [Inline commenting/review](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#inline-commentingreview)
+* [Auto-generation of client SDKs](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#auto-generate-client-sdks)
+* [HTML export](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#export-to-html)
+* [Mocking servers](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#mocking-servers)
+* [Content re-use (domains)](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#content-re-use-domains)
+* [Organizations and projects](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html#organizations-and-projects)
 
-See my tutorial [Manage OpenAPI/Swagger Projects with SwaggerHub](http://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html) to learn more.
+See my tutorial [Manage OpenAPI/Swagger Projects with SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html) to learn more.
 
 ## Conclusion
 

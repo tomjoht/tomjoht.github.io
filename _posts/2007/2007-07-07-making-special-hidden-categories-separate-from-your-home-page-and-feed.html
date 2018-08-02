@@ -32,20 +32,20 @@ query_posts("cat=-35&amp;showposts=10&amp;paged=$page");
 <h3>3. Hide the Category from Your Feed</h3>
 <p>To hide category 35 from your feed, first deactivate any <a href="http://orderedlist.com/wordpress-plugins/feedburner-plugin/" title="FeedBurner Replacement Feed" target="_blank">FeedBurner Replacement Feed</a> plugins you have. The FeedBurner Replacement plugin routes all your site's feeds automatically to one FeedBurner feed. Since you'll have multiple feeds on your site, you don't want this automatic routing anymore.</p>
 <p>Your site's RSS feed is something like this:</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php</code></pre>
+<pre><code>https://idratherbewriting.com/wp-rss2.php</code></pre>
 <p>(Except you have a different domain, obviously.)</p>
-<p>Feeds syntaxes can vary. If your site's feed is http://idratherbewriting.com/feed, change it to the syntax above.</p>
+<p>Feeds syntaxes can vary. If your site's feed is https://idratherbewriting.com/feed, change it to the syntax above.</p>
 <p>Here's something fascinatingly simple: To exclude a category from your feed, change your feed path to the following:</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php?cat=-35</code></pre>
+<pre><code>https://idratherbewriting.com/wp-rss2.php?cat=-35</code></pre>
 <p>If you have multiple categories you want to exclude, separate them with commas, like this:</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php?cat=-35,-6,-5</code></pre>
+<pre><code>https://idratherbewriting.com/wp-rss2.php?cat=-35,-6,-5</code></pre>
 <p>The minus sign removes the category from your feed. Conversely, the following syntax gives you a feed of only category 34:</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php?cat=35</code></pre>
+<pre><code>https://idratherbewriting.com/wp-rss2.php?cat=35</code></pre>
 <p>And</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php?cat=-35,6,5</code></pre>
+<pre><code>https://idratherbewriting.com/wp-rss2.php?cat=-35,6,5</code></pre>
 <p>gives you a feed of only categories 35, 6, and 5.</p>
-<p>Now that you know how to modify your feed, log into <a href="http://feedburner.com" title="FeedBurner" target="_blank">FeedBurner</a> (if you have burned your feed through its services) and edit your original feed details so that instead of a feed URL like http://idratherbewriting.com/wp-rss2.php or http://idratherbewriting.com/feed, you now have</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php?cat=-35</code></pre>
+<p>Now that you know how to modify your feed, log into <a href="http://feedburner.com" title="FeedBurner" target="_blank">FeedBurner</a> (if you have burned your feed through its services) and edit your original feed details so that instead of a feed URL like https://idratherbewriting.com/wp-rss2.php or https://idratherbewriting.com/feed, you now have</p>
+<pre><code>https://idratherbewriting.com/wp-rss2.php?cat=-35</code></pre>
 <p>(Again, 34 is just the ID of the sample category we're excluding.)</p>
 <p>Now your special category is hidden from both your home page and feed.</p>
 <h3>4. Hide the Category from your Sidebar's List of Categories</h3>
@@ -60,7 +60,7 @@ wp_list_categories('orderby=name&amp;exclude=35&amp;title_li=');
 <p>You can view all posts in your hidden category (we're still using 35 as the sample category ID) by going to its archive link:</p>
 <pre><code>http://www.idratherbewriting.com/category/off-topic</code></pre>
 <p>In this case, category 35's category slug is "Life" Look to see the specific name of your category.</p>
-<p>You can add this link anywhere you want in your sidebar. But since it's such a unique category, you may want to dress the category page up a little. For example, when you view my <a href="http://idratherbewriting.com/category/life" title="My Off Topic Category -- Note the unique text at the top">Life category page</a>,  you'll see that I have some unique text at the top. This text is present in the template for this specific category, but not in my other categories.</p>
+<p>You can add this link anywhere you want in your sidebar. But since it's such a unique category, you may want to dress the category page up a little. For example, when you view my <a href="https://idratherbewriting.com/category/life" title="My Off Topic Category -- Note the unique text at the top">Life category page</a>,  you'll see that I have some unique text at the top. This text is present in the template for this specific category, but not in my other categories.</p>
 <p>To create a category template for your special hidden category, download the archive.php file from your theme's files. Change the name to category-35.php, modify the template as desired, and then upload it back into your theme's files.</p>
 <p>When you view posts from category 35, WordPress automatically calls category-35.php rather than archive.php.</p>
 <p>You can also create a custom sidebar for your category template. For your category template to have a unique sidebar, download your existing sidebar.php file, modify it as desired, change its name (for example, rename it to something like lifesidebar.php) and reupload it to your theme's files.</p>
@@ -69,7 +69,7 @@ wp_list_categories('orderby=name&amp;exclude=35&amp;title_li=');
 <p>Now your special hidden category has its own appearance and sidebar.</p>
 <h3>6. Create a Feed for your Hidden Category</h3>
 <p>Log back into FeedBurner (again, if you're using FeedBurner, that is) and burn a new feed for your special category. Like I explained previously, the category-specific feed path for category 35 is as follows:</p>
-<pre><code>http://idratherbewriting.com/wp-rss2.php?cat=35</code></pre>
+<pre><code>https://idratherbewriting.com/wp-rss2.php?cat=35</code></pre>
 <p>After you create the feed, while still in FeedBurner, click the <strong>Publicize </strong>tab and then click the <strong>friendly graphic</strong> link to get the code for an RSS button and graphic. Add this to your sidebar where your category link is.</p>
 <p>Was this tutorial helpful? If so, let me know. You can do more with category feeds. For example, you can create custom keyword feeds from your favorite sites. Go this <a href="http://lorelle.wordpress.com/2006/03/27/customizing-rss-feed-links-for-wordpresscom-and-wordpress-sidebar-widgets/#content" title="Lorelle's post on custom keyword feeds" target="_blank">post by Lorelle</a> and see the section titled "Custom Keyword Feeds from Various Sources."</p>
 <h3>Additional Resources</h3>

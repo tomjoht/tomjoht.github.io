@@ -7,7 +7,7 @@ summary: "I'm giving an API documentation workshop in Sacramento on March 19, 20
 thumb: sacapiworkshop.png
 ---
 
-{{site.data.alerts.note}}For a recording of the workshop, see this post: <a href="http://idratherbewriting.com/2016/03/27/rest-api-workshop-recording-sacramento-stc/" title="REST API documentation workshop">REST API documentation workshop recording (STC Sacramento)</a>.{{site.data.alerts.end}}
+{{site.data.alerts.note}}For a recording of the workshop, see this post: <a href="https://idratherbewriting.com/2016/03/27/rest-api-workshop-recording-sacramento-stc/" title="REST API documentation workshop">REST API documentation workshop recording (STC Sacramento)</a>.{{site.data.alerts.end}}
 
 <a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
 
@@ -45,7 +45,7 @@ Here is a description of the API workshop I'm giving in Sacramento:
 * Swagger
 * RAML
 >
-This course will mostly provide an introduction to these concepts. There are many detailed examples and activities you can walk through with the API documentation tutorials on my site here: http://idratherbewriting.com/learnapidoc/
+This course will mostly provide an introduction to these concepts. There are many detailed examples and activities you can walk through with the API documentation tutorials on my site here: https://idratherbewriting.com/learnapidoc/
 >
 >All participants in workshop will need the following:
 >
@@ -61,4 +61,4 @@ You can find more information on the [STC Sacramento site here](http://www.stcsa
 
 Note that I'm also giving a [similar API documentation workshop](http://sched.co/5o4O) at the STC Summit in Anaheim, California in May (though the cost is 10 times as much).
 
-If you're interested in API documentation but can't attend either of these events, you can get the same information from my site here: [API documentation course](http://idratherbewriting.com/learnapidoc/).
+If you're interested in API documentation but can't attend either of these events, you can get the same information from my site here: [API documentation course](https://idratherbewriting.com/learnapidoc/).

@@ -9,7 +9,7 @@ summary: "I'm going to be giving a workshop on API documentation and a presentat
 thumb: stcsummitupcomingpre2016.png
 ---
 
-My API workshop will more or less follow the same content as my [API doc course](http://idratherbewriting.com/learnapidoc/). This content is online and available right now.
+My API workshop will more or less follow the same content as my [API doc course](https://idratherbewriting.com/learnapidoc/). This content is online and available right now.
 
 For my presentation on Jekyll, here's the presentation title and description:
 

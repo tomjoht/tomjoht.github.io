@@ -10,9 +10,9 @@ type: visualcommunication
 
 ## Map background
 
-I've been thinking more about user maps lately. My [first user map](http://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/) looked like this:
+I've been thinking more about user maps lately. My [first user map](https://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/) looked like this:
 
-<figure><a href="http://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/"><img src="{{ "/images/diagram_setupworkflowdiagram.png" | prepend: site.baseurl }}"/></a><figcaption>This shows all the steps in the workflow.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/2016/05/11/establishing-more-context-in-tech-comm/"><img src="{{ "/images/diagram_setupworkflowdiagram.png" | prepend: site.baseurl }}"/></a><figcaption>This shows all the steps in the workflow.</figcaption></figure>
 
 The feedback I got was that it was too massive. It made the process look really complicated.
 
@@ -28,9 +28,9 @@ The underlying code is all HTML, JS, and CSS. The idea is that you create the ma
 
 However, when I showed this to my wife, she said she didn't like having to scroll. She wanted to see the whole map at once. I agree that having to scroll is less than ideal. 99% of the time, horizontal scrolling is a fail with user design.
 
-So I made another version without scrolling, which you can see here: [Sample 1](http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
+So I made another version without scrolling, which you can see here: [Sample 1](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
 
-<figure><a href="http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{ "/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{ "/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>
 
 I like this example, so I coded it into my Jekyll documentation theme. You just add some values in the frontmatter like this:
 

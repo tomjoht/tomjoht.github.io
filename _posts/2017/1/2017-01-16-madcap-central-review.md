@@ -98,7 +98,7 @@ Committing updates through Git and then triggering the build process on the serv
 
 ## Conclusion
 
-In contrast to CCMS systems, which simply store and manage your content in a central database, MadCap Central tackles the publishing and content delivery aspect of content. Pushing the latest updates to your project online in a quick and easy way gives you many advantages in the context of [DocOps](http://idratherbewriting.com/2014/10/21/docops-interview-with-jim-turcotte/) and agile.
+In contrast to CCMS systems, which simply store and manage your content in a central database, MadCap Central tackles the publishing and content delivery aspect of content. Pushing the latest updates to your project online in a quick and easy way gives you many advantages in the context of [DocOps](https://idratherbewriting.com/2014/10/21/docops-interview-with-jim-turcotte/) and agile.
 
 You no longer need to use separate systems for source control, task management, permissions, and other details. It’s all contained and managed within one central hub. Overall, MadCap Central provides a much-needed publishing and content delivery solution for tech docs.
 

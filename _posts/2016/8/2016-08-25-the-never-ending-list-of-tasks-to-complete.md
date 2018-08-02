@@ -33,7 +33,7 @@ My wife is an early riser who leaves while it's still dark and heads up to the "
 
 The extra ride to school adds another 4 miles to my route, which puts my daily biking round trip at about 20 miles. When I also add in a few games of some post-work basketball, all the exercise can seriously wear me out. (Unfortunately, I still manage to eat enough calories to more than enough compensate for all the calories I'm burning.)
 
-The fatigue from riding sometimes carries over into a sense of fatigue about endless documentation tasks. I'm still trying to follow [Tim Ferris' advice](http://idratherbewriting.com/2016/07/20/apply-80-20-rule-to-project-management-tech-comm/) to focus on the highest two priority items first thing in the day and block out everything else.
+The fatigue from riding sometimes carries over into a sense of fatigue about endless documentation tasks. I'm still trying to follow [Tim Ferris' advice](https://idratherbewriting.com/2016/07/20/apply-80-20-rule-to-project-management-tech-comm/) to focus on the highest two priority items first thing in the day and block out everything else.
 
 Sadly, I'm lucky if I get one of the two items finished. Even if I do finish it, I usually can't publish the documentation I write until I can get the right subject matter expert to review and sign off on the content -- a process that can take anywhere from a few days to more than a week. 
 

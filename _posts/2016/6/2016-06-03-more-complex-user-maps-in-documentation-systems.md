@@ -10,7 +10,7 @@ type: visualcommunication
 
 ## Background
 
-In my previous post, I outlined a method for [showing linear workflows](http://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/), and pointed users to [this example](http://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/).
+In my previous post, I outlined a method for [showing linear workflows](https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/), and pointed users to [this example](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/).
 
 Linear workflows work fine for simple processes that have a clear number of steps (especially when the steps are just a few, like the example I showed).
 
@@ -28,9 +28,9 @@ Rather than stacking these up into 9 workflow boxes, I'll break them up into thr
 * Build your widgets
 * Publish your app
 
-I created an example of how to build this workflow map [here](http://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/):
+I created an example of how to build this workflow map [here](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/):
 
-<figure><a href="http://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/"><img src="{{ "/images/complexusermapsample.png" | prepend: site.baseurl }}"/></a><figcaption>Complex user map sample -- click the workflow squares to see more details. Each square opens a modal that shows all associated topics in that collection.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/"><img src="{{ "/images/complexusermapsample.png" | prepend: site.baseurl }}"/></a><figcaption>Complex user map sample -- click the workflow squares to see more details. Each square opens a modal that shows all associated topics in that collection.</figcaption></figure>
 
 This example users [modals from Bootstrap](http://getbootstrap.com/javascript/#modals) to pop up information boxes that contain the various topic groupings. You could design each box more attractively, even adding background images into each one and such. But this simple implementation shows the general idea.
 

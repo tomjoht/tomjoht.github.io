@@ -7,7 +7,7 @@ summary: "Sidebar navigation is one of the more complex components of a document
 bitlink: http://bit.ly/docsidebarcode
 ---
 
-I mentioned in a previous post about [tools](http://idratherbewriting.com/2016/10/17/my-gravity-towards-tools/) that I was swimming in Jekyll code for the past few days. I finally finished the sidebar menu I was working on. If you look at this [documentation page](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv), there's now a three-level expandable/collapsible menu on the right. 
+I mentioned in a previous post about [tools](https://idratherbewriting.com/2016/10/17/my-gravity-towards-tools/) that I was swimming in Jekyll code for the past few days. I finally finished the sidebar menu I was working on. If you look at this [documentation page](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv), there's now a three-level expandable/collapsible menu on the right. 
 
 <a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img style="max-width: 500px" src="{{ "/images/jekyllsidebarmenu.png" | prepend: site.baseurl }}" alt="My Jekyll sidebar menu" /></a>
 
@@ -31,7 +31,7 @@ Originally I was trying to imitate the AWS docs sidebar, which you can see in th
 
 Another design difference is that the AWS sidebar is fixed in place as you scroll down the page. This is how my Jekyll sidebar ideally *should* be. However, when you put the sidebar on the right and its height exceeds the page's height, fixing it in place would result in *two* scrollbars side by side, which can be confusing to users and reflects poor design. (I once created a site that had 3 scrollbars on the right, and a UX designer almost had a heart attack.) By the way, this is solid argument for keeping the navigation on the left. With a right-based nav, you can't fix a sidebar in place as you scroll and avoid dual sidebars.
 
-For now, the sidebar is what it is. In the future, I plan to incorporate some of the techniques I used here to improve the sidebar in my [Jekyll documentation theme](http://idratherbewriting.com/documentation-theme-jekyll/). With the Jekyll documentation theme, the sidebar currently has styling that really only looks good with one level, not three. When you want to have three levels, you need more of the +/- button style similar to what I've been showing here.
+For now, the sidebar is what it is. In the future, I plan to incorporate some of the techniques I used here to improve the sidebar in my [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/). With the Jekyll documentation theme, the sidebar currently has styling that really only looks good with one level, not three. When you want to have three levels, you need more of the +/- button style similar to what I've been showing here.
 
 To take a step back a bit, what started me down this path to improve the documentation sidebar was a fork someone made of my documentation theme that was used as a basis for the [Loopback.io documentation site](http://loopback.io/doc/). Check out Loopback.io. It's really an impressive doc site, entirely coded with Jekyll.
 

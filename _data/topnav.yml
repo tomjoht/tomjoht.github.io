@@ -74,7 +74,7 @@ topnav_dropdowns:
       - title: Github theme repo
         external_url: https://github.com/tomjoht/documentation-theme-jekyll
       - title: Jekyll doc theme
-        external_url: http://idratherbewriting.com/documentation-theme-jekyll/
+        external_url: https://idratherbewriting.com/documentation-theme-jekyll/
       - title: Jekyll Talk
         external_url: https://talk.jekyllrb.com
       - title: Jekyll on Stack Overflow
@@ -93,7 +93,7 @@ topnav_dropdowns:
       #   url: /academic-practitioner-podcasts
 
       # - title: User-Centered Documentation
-      #   url: http://idratherbewriting.com/ucd-introduction/
+      #   url: https://idratherbewriting.com/ucd-introduction/
       # - title: JavaScript notes
       #   url: /javascript/
       # - title: DITA notes

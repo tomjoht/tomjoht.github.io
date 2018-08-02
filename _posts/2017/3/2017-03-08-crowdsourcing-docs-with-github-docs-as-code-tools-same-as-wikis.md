@@ -174,8 +174,8 @@ Regardless of the participation, I'm planning to leave my docs on GitHub for a l
 
 {{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
 
-[1]: http://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/
+[1]: https://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/
 
 [2]: https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture)
 [sarah]: http://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/
-[kate]: http://idratherbewriting.com/2016/10/28/markdown-or-restructuredtext-or-dita-choosing-format-tech-docs/#comment-3193454817
+[kate]: https://idratherbewriting.com/2016/10/28/markdown-or-restructuredtext-or-dita-choosing-format-tech-docs/#comment-3193454817

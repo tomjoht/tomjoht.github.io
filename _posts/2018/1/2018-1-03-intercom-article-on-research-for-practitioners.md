@@ -15,6 +15,6 @@ If you're an STC member, you can read the article on the STC Intercom site here:
 In the article, I explain four facets of knowledge &mdash; Product knowledge, Technical knowledge, User knowledge, and Industry knowledge &mdash; and how this knowledge informs documentation. I also explore strategies for incorporating this knowledge into your daily workflow.
 
 If you don't have access to the STC Intercom magazine, you can read an earlier version of the article on my site here: [How do you learn what you need to learn to be successful as a technical writer?
-](http://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/)
+](https://idratherbewriting.com/2017/02/24/how-to-learn-what-you-need-to-learn/)
 
 The differences between the two aren't substantial. In the earlier version, I wrote about *learning* what you need to know to be successful. In the final version, I contextualized learning as "research" to better fit in with the larger themes in the issue.

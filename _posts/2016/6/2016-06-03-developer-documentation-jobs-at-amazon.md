@@ -24,4 +24,4 @@ On another note, I had no idea how difficult it was to find technical writers wi
 
 That said, this role focuses on web services, not Java programming or other mainstream programming languages. (There are many other tech writer roles with developer doc that would require more technical expertise.)
 
-If you're interested, [contact me](http://idratherbewriting.com/contact) and send me your resume.  Note that this position isn't remote. You have to work in Seattle or Sunnyvale (or possibly Irvine).
+If you're interested, [contact me](https://idratherbewriting.com/contact) and send me your resume.  Note that this position isn't remote. You have to work in Seattle or Sunnyvale (or possibly Irvine).

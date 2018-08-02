@@ -24,7 +24,7 @@ In identifying what's important me, I decided to reduce my outside commitments a
 
 For a while I removed the contact information from my blog as well, but [this Reddit thread](https://www.reddit.com/r/technicalwriting/comments/5x2d6s/hosting_documentation_on_github_pages/) changed my mind, so I re-added it.
 
-My efforts toward simplification don't mean reducing my writing/blogging activities. Writing is one of the activities I enjoy. In fact, *I want to do more writing*. I especially want to start writing e-books for Kindle. Primarily I want to finish converting my [API doc course](http://idratherbewriting.com/learnapidoc/) into an e-book.
+My efforts toward simplification don't mean reducing my writing/blogging activities. Writing is one of the activities I enjoy. In fact, *I want to do more writing*. I especially want to start writing e-books for Kindle. Primarily I want to finish converting my [API doc course](https://idratherbewriting.com/learnapidoc/) into an e-book.
 
 I also want to simplify my writing. In editing my wife's academic essays, I've realized how wordy and unnecessarily complicated writing often gets. I've started pushing much of my writing through the [Hemingway app][hemingway] to look for ways to simplify it.
 

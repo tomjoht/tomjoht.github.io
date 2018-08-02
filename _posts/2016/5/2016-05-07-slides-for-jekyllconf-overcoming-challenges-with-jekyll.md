@@ -9,7 +9,7 @@ thumb: jekyllconfslidesthumb.png
 
 Here are my slides: 
 
-<figure><a href="http://idratherbewriting.com/files/jekyllwritetechdocslikehacker/"><img src="{{ "/images/jekyllconfslides.png" | prepend: site.baseurl }}"/></a><figcaption>My slides for Jekyll Conf 2016</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/files/jekyllwritetechdocslikehacker/"><img src="{{ "/images/jekyllconfslides.png" | prepend: site.baseurl }}"/></a><figcaption>My slides for Jekyll Conf 2016</figcaption></figure>
 
 If you're watching Jekyll Conf, go [http://jekyllconf.com/](http://jekyllconf.com/) for the live stream. You can ask questions on Twitter using the hashtag [#jekyllconf](https://twitter.com/search?q=%23jekyllconf&src=typd).
 

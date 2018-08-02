@@ -166,8 +166,8 @@ A decade later, you can look back at your current time period and wonder nostalg
 
 [1]: https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f
 [2]: https://www.nytimes.com/2016/02/14/technology/gearing-up-for-the-cloud-att-tells-its-workers-adapt-or-else.html
-[3]: http://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/
-[4]: http://idratherbewriting.com/2016/04/27/triangle-for-tech-comm/#comment-2649234858
+[3]: https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/
+[4]: https://idratherbewriting.com/2016/04/27/triangle-for-tech-comm/#comment-2649234858
 [5]: https://techcrunch.com/2016/10/30/in-a-knowledge-economy-corporate-learning-is-necessary-to-survive/
 [6]: http://hackwrite.com/posts/enough-to-be-dangerous/
 [7]: http://stackoverflow.com/questions/tagged/android

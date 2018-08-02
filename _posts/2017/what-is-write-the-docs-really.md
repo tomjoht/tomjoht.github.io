@@ -94,5 +94,5 @@ The only problem is that, given our limited time to participate in groups and ch
 
 ## Related resources
 
-* [Lifelines to the STC](http://idratherbewriting.com/2009/06/20/lifelines-to-the-stc/)
-* [The death of associations](http://idratherbewriting.com/2007/05/24/the-death-of-associations-declining-stc-statistics-prompt-innovation-realigning-of-value/)
+* [Lifelines to the STC](https://idratherbewriting.com/2009/06/20/lifelines-to-the-stc/)
+* [The death of associations](https://idratherbewriting.com/2007/05/24/the-death-of-associations-declining-stc-statistics-prompt-innovation-realigning-of-value/)

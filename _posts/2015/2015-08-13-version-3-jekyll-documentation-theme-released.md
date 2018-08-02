@@ -14,7 +14,7 @@ thumb: jekylltheme.png
 
 Version 3.0 of my Documentation theme for Jekyll is now available. You can download the source code from the [theme's Github repo](https://github.com/tomjoht/documentation-theme-jekyll).
 
-Here's an example output: [http://idratherbewriting.com/documentation-theme-jekyll/](http://idratherbewriting.com/documentation-theme-jekyll/).
+Here's an example output: [https://idratherbewriting.com/documentation-theme-jekyll/](https://idratherbewriting.com/documentation-theme-jekyll/).
 
 The theme is built for single sourcing, so the default theme has a couple of outputs: Designers and Writers. The Designers output has detailed instructions for working with the theme.
 
@@ -24,7 +24,7 @@ The Writers output is a slightly scaled back version of the same content (elimin
 
 <img src="{{ "/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
-The [Getting started page](http://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
+The [Getting started page](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
 
 ## Prominent theme features
 
@@ -46,9 +46,9 @@ For a more detailed list of supported features, see [Supported features](http://
 
 ## Getting started
 
-To get started using the theme, see [Getting started with this theme](http://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html).
+To get started using the theme, see [Getting started with this theme](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html).
 
-Then see [Setting configuration options](http://idratherbewriting.com/documentation-theme-jekyll/doc_configuration_settings.html) and [Customizing the theme](http://idratherbewriting.com/documentation-theme-jekyll/doc_customizing_the_theme.html).
+Then see [Setting configuration options](https://idratherbewriting.com/documentation-theme-jekyll/doc_configuration_settings.html) and [Customizing the theme](https://idratherbewriting.com/documentation-theme-jekyll/doc_customizing_the_theme.html).
 
 ## Comparing this Jekyll theme to HATs and DITA
 

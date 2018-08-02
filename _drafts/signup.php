@@ -1,6 +1,6 @@
 <?php 
 	//------------------- Edit here --------------------//
-	$sendy_url = 'http://idratherbewriting.com/sendy';
+	$sendy_url = 'https://idratherbewriting.com/sendy';
 	$list = 'T5XB9u6LwtocCHe6JWNy5g';
 	//------------------ /Edit here --------------------//
 

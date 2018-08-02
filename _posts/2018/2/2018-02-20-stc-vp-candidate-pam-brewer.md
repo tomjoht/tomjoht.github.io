@@ -3,7 +3,7 @@ title: "Perspectives on tech comm from the VP Candidates &mdash; Q&A with Pam Br
 categories:
 - general
 keywords: Pam Brewer, STC, society for technical communication, vice president
-summary: "With the beginning of the <a href='https://www.stc.org/wiki/elections/'>2018 STC elections</a>, I decided to ask the Vice President candidates a few questions to get to know their perspectives on tech comm. The elected VP automatically transitions into the president role the following year after election, so it's an important voting decision. I asked both <a href='https://www.stc.org/wiki/elections/2018-election-slate/pam-brewer/'>Pam Brewer</a> and <a href='https://www.stc.org/wiki/elections/2018-election-slate/ben-woelk/'>Ben Woelk</a> the same questions. The following are Pam's responses. (You can read <a href='http://idratherbewriting.com/2018/02/20/stc-vp-candidate-ben-woelk/'>Ben's responses here</a>.)"
+summary: "With the beginning of the <a href='https://www.stc.org/wiki/elections/'>2018 STC elections</a>, I decided to ask the Vice President candidates a few questions to get to know their perspectives on tech comm. The elected VP automatically transitions into the president role the following year after election, so it's an important voting decision. I asked both <a href='https://www.stc.org/wiki/elections/2018-election-slate/pam-brewer/'>Pam Brewer</a> and <a href='https://www.stc.org/wiki/elections/2018-election-slate/ben-woelk/'>Ben Woelk</a> the same questions. The following are Pam's responses. (You can read <a href='https://idratherbewriting.com/2018/02/20/stc-vp-candidate-ben-woelk/'>Ben's responses here</a>.)"
 bitlink: http://bit.ly/stcpambrewervpcandidate
 ---
 
