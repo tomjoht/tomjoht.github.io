@@ -7,7 +7,7 @@ categories:
 keywords: usability, twilio, user experience
 summary: "This week I chatted with <a href='https://www.linkedin.com/in/docsbydesign/'>Bob Watson</a>, an assistant professor of tech comm at <a href='https://engineering.mercer.edu/academics/undergraduate/technical-communication/'>Mercer University</a>, about how to evaluate the user experience of documentation. The idea of doing a podcast came up during a comment thread on a previous post about <a href='https://idratherbewriting.com/simplifying-complexity/reconstructing-the-absent-user.html'>reconstructing the absent user.</a> We had a long exchange in the comment threads and thought it would be good to have a podcast about the topic."
 bitlink: http://bit.ly/evaluatinguserexperiencebobwatson
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/evaluatinguserexperience.mp3
 podcast_file_size: 42.1 MB
 podcast_duration: "58:19"

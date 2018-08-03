@@ -6,7 +6,7 @@ categories:
 - stitcher
 keywords: lms, user progress, learning management system, motivation, goals, course, api documentation
 bitlink: http://bit.ly/communicateprogress
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/progresswithoutanlms.mp3
 podcast_file_size: 11.6 MB
 podcast_duration: "14:21"

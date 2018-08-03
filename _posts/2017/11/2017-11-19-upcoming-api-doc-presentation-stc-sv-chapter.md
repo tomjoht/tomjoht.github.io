@@ -8,7 +8,7 @@ categories:
 keywords:
 summary: "I recently gave a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter in Santa Clara, California. The video recording and audio are available here."
 bitlink: http://bit.ly/upcomingstcsvapidocpreso
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stcsv-introtoapidocs.mp3
 podcast_file_size: 49.6 MB
 podcast_duration: "1:05:04"

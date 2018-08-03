@@ -22,7 +22,7 @@ Pick a general topic you are passionate about, and stick with that focus as you 
 
 Allow comments, and respond to comments. Blogs are dialogues, not monologues. If you turn commenting off, you lose out on the Web 2.0 aspects of your blog. Comments enrich your thoughts and take you to a higher level of analysis. You benefit from the additions, corrections, tips, and other feedback from readers. To encourage comments, don't require sign in. Activate [Akismet](http://akismet.com) and this [math plugin](http://sw-guide.de/wordpress/math-comment-spam-protection-plugin/) to avoid spam. Add the [Subscribe to Comments](http://txfx.net/code/wordpress/subscribe-to-comments/) plugin so users can be aware of follow-up comments. When people comment, respond to their comments, and keep the dialogue going because this is what Web 2.0 is all about: connecting users to each other and sharing information.
 
-[![Enable comments](/images/comments2.png)](http://idratherassets.com/wp-content/uploads/2007/04/comments.png "Enable comments")
+[![Enable comments](/images/comments2.png)](https://idratherassets.com/wp-content/uploads/2007/04/comments.png "Enable comments")
 
 ## 3. Make it easy to subscribe
 
@@ -157,7 +157,7 @@ However, if you have nothing to say, don't blog fluff. That annoys readers even 
 *   [Top 10 blog mistakes? - maybe](http://kay.zombiecoder.com/index.php/archives/top-ten-blog-mistakes-maybe), by Kay Smoljak
 *   [Common Blog Mistakes and Users Can't Distinguish Blogs](http://rssdiary.marketingstudies.net/content/common_blog_mistakes_and_users_cant_distinguish_blogs.php?src=e28), by Rok Hrastnik
 *   [10 Principles of Highly Effective Blogging](http://www.citebite.com/n9f8u6tture), by Darren McLaughlin
-*   [10 Ways to Make Your Blog More Appealing](http://www.idratherbewriting.com/2007/02/12/10-simple-ways-to-make-your-blog-more-appealing/), by Tom Johnson
+*   [10 Ways to Make Your Blog More Appealing](https://idratherbewriting.com/2007/02/12/10-simple-ways-to-make-your-blog-more-appealing/), by Tom Johnson
 *   [How to Start a Blog](http://www.windley.com/essays/2004/how_to_start_a_blog#), by Phil Windley
 *   [The 120 Day Wonder: How to Evangelize a Blog](http://blog.guykawasaki.com/2006/04/the_120_day_won.html), by Guy Kawasaki
 *   [Why Blog Post Frequency Does Not Matter Anymore](http://www.mpdailyfix.com/2006/06/w_why_blog_post_frequency_does.html), by Eric Kintz

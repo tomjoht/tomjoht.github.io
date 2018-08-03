@@ -9,7 +9,7 @@ summary: "I recently gave a presentation to the STC San Diego chapter and WTD Sa
 bitlink: http://bit.ly/recordingopenapiswaggersandiego
 redirect_from:
 - /2018/01/28/upcoming-webinar-on-swagger-and-openapi-spec/
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stc-san-diego-webinar-openapi-swagger.mp3
 podcast_file_size: 53.3 MB
 podcast_duration: "01:01:44"

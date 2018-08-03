@@ -12,7 +12,7 @@ tags:
 - static site generators
 - modern technical writing
 - palantir
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ettermodern.mp3
 podcast_file_size: 52.6 MB
 podcast_duration: "01:02:00"
@@ -54,7 +54,7 @@ If you just want the audio only, you can listen here:
 
 You can view the slides in PDF here:
 
-<a href="http://idratherassets.com/podcasts/ettermodern.pdf"><img src="/images/ettermodernslides.png"/></a>
+<a href="https://idratherassets.com/podcasts/ettermodern.pdf"><img src="/images/ettermodernslides.png"/></a>
 
 ## More info
 

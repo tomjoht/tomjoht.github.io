@@ -10,7 +10,7 @@ tags:
 - usability
 - design
 - documentation
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/user-centered-doc-organization.mp3
 podcast_file_size: 50.4 MB
 podcast_duration: "57:58"

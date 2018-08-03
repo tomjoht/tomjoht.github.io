@@ -14,7 +14,7 @@ tags:
 - beginners
 - transitioning
 - trends
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/tomjohnsonudemy.mp3
 podcast_file_size: 93 MB
 podcast_duration: "38:46"

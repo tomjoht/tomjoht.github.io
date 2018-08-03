@@ -10,7 +10,7 @@ tags:
 - technical writing
 - freelancing
 - client relations
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3
 podcast_file_size: 42.1 MB
 podcast_duration: "55:22"

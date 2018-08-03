@@ -49,14 +49,14 @@ weight: 1.0
 <p>The neat thing about the import tool is that you can import content successively into WordPress without creating new pages. The later imports just overwrite the existing pages as a new version. If you have comments attached to a page, you won't lose the comments. Your links will also stay the same with each import.</p>
 <h2>Quick Demo</h2>
 <p>Because seeing is believing, here's a quick demo of how this process and workflow works. Note that I haven't actually tried this on a real help project, so no doubt there are problems I haven't anticipated.</p>
-<p>http://www.youtube.com/watch?v=MQWPH1obXa0</p>
+<p>https://www.youtube.com/watch?v=MQWPH1obXa0</p>
 <h2>Technical Details</h2>
 <p>If you want to use this tool, you have to do a bit of hopscotch to get it to work. The developer created it many WordPress moons ago, and now it's no longer compatible with the latest version of WordPress as a plugin.</p>
 <h3>Set up the DITA import tool</h3>
 <p>To get the tool to work, first, recognize that it's not a plugin. You don't upload it from your Plugins page, nor do you activate the plugin. Follow these steps to set up the DITA import tool:</p>
 <ol>
 <li>I assume you've already installed WordPress somewhere. If you haven't yet, do that first. (For details on installing WordPress, see the <a href="http://wordpress.org/download/">WordPress Download page</a>.)</li>
-<li>Download the modified import file here: <a href="http://idratherassets.com/wp-content/uploads/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
+<li>Download the modified import file here: <a href="https://idratherassets.com/wp-content/uploads/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
 <li>Using FTP, upload the ditahelp.php file to the wp-admin folder of your WordPress installation.</li>
 <li>From that same wp-admin folder, download admin.php.</li>
 <li>In the admin.php folder, below this line:<code> require_once(ABSPATH . 'wp-admin/includes/admin.php');</code>add this:<code>require_once('ditahelp.php');</code>Note: I know it's a poor practice to modify a core WordPress file, because it will just be overwritten the next time you update WordPress. This method is just an interim workaround until the plugin gets updated to work with the latest version of WordPress.</li>

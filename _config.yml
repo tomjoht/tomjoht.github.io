@@ -120,7 +120,7 @@ target: web
 
 ## itunes feed settings
 
-podcast_url: http://www.idratherbewriting.com
+podcast_url: https://www.idratherbewriting.com
 podcast_album_art: /images/techwritervoices.jpg
 podcast_title: I'd Rather Be Writing Podcast
 podcast_owner: Tom Johnson

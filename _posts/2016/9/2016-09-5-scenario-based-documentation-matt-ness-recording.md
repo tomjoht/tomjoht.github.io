@@ -12,7 +12,7 @@ tags:
 - storytelling
 - documentation
 - creativity
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/mattness.mp3
 podcast_file_size: 43.6 MB
 podcast_duration: "55:28"

@@ -13,7 +13,7 @@ tags:
 - management
 - technical communication
 - stitcher
-image: http://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/sanbornvoiceonly.mp3
 podcast_file_size: 44.2 MB
 podcast_duration: "01:01:14"

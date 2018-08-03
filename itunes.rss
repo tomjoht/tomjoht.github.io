@@ -16,7 +16,7 @@ layout: null
         <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:image href="http://idratherassets.com/wp-content/idratherbewritinglogo.png"/>
+    <itunes:image href="https://idratherassets.com/wp-content/idratherbewritinglogo.png"/>
 
     <itunes:subtitle>A podcast on technical writing</itunes:subtitle>
     <itunes:summary>Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.</itunes:summary>
