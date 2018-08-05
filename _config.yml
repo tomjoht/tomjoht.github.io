@@ -6,7 +6,6 @@ port: 4029
 feedback_email: tomjoht@gmail.com
 sidebar_accordion: true
 disqus_shortname: idratherbewriting
-google_analytics: UA-408430-5
 markdown: redcarpet
 show_audience_label: true
 output: web
