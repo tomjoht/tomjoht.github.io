@@ -3,4 +3,29 @@ caption,th{text-align:left}#definition-box-container div a.active,li.dropdownAct
 .mailingListSubtext {
   margin-bottom: 8px;
   font-size: 11px;
+  text-align: left;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.form-group.irbw {
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+
+.newsletterSubscribeHeading {
+    color: #444;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-family: Montserrat,"Helvetica Neue",Arial,sans-serif;
+    font-size: 125%;
+    margin-bottom: 15px;
+}
+
+input#tlemail {
+    font-size: 12px;
 }
