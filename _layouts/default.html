@@ -21,14 +21,13 @@
     <meta name="twitter:creator" content="@tomjohnson" />
 
     <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} | {{ site.name }} {% endif %}</title>
-    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend:site.baseurl }}"  type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="{{ "/css/modern-business.css" | prepend:site.baseurl }}"> -->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ "/css/customstyles.css" | prepend:site.baseurl }}"  type='text/css'>
+    <link rel="stylesheet" href="{{ "/css/syntax.min.css" | prepend:site.baseurl }}"  type='text/css'>
+    <link rel="stylesheet" href="{{ "/css/customstyles.min.css" | prepend:site.baseurl }}"  type='text/css'>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
@@ -138,9 +137,9 @@
             <!-- appears for mobile view only-->
             <ul id="mytechsidebar" class="nav">
               {% include notestoc.html %}
-        {% include sidebar_ads.html %}
-        {% include tinyletter.html %}
+        {% include mailchimp.html %}
         {% include social_media_icons.html %}
+        {% include sidebar_ads.html %}
         {% include recent_comments.html %}
     </ul>
     </div> <!-- /sidebarAreaHomePage -->

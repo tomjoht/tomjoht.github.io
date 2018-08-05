@@ -1291,3 +1291,25 @@ ul#mysidebar li.active > a {
     color: #b8860b;
     text-decoration: underline;
 }
+
+/*mailchimp*/
+#mc_embed_signup.irbw {
+    background: lightsteelblue;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+}
+#socialMediaButtons.irbw {
+margin-bottom:15px;
+}
+
+#mc_embed_signup.irbw input.email {
+  min-width: 200px;
+}
+
+.sidebarAds {
+  padding-top: 20px;
+}
