@@ -14,7 +14,7 @@ thumb: problemwithfaqs.png
 
 ## How the FAQ begins
 
-Here's how the FAQ typically begins. Someone on the team (it could be an engineer or a project manager) decides to add an FAQ that lists out some randomly thought-up questions about the software.
+Here's how the FAQ typically begins. Someone on the team (it could be an engineer or a project manager) decides to add a FAQ that lists out some randomly thought-up questions about the software.
 
 - What does gizmo do? Why was gizmo created?
 - How do I publish my gizmo? What configuration options exist for my gizmo?
