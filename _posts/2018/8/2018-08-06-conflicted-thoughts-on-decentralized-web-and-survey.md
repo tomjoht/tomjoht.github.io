@@ -33,7 +33,7 @@ There's also an entire section about resources you consult for professional deve
 
 I'm excited to see blogs listed as sources for professional development here, because in my view it celebrates the decentralization of the web. The very fact that I would be listed among other sources such as peer-reviewed journals, formal conferences, or other trade magazines for professional development suggests that the dynamics of the web have destabilized the hierarchy of information in interesting ways.
 
-Given that a [Decentralized Web Summit](https://decentralizedweb.net/) just ended (I didn't attend but there are recordings), it's worth making a few extra notes decentralization. In a post summarizing highlights from the conference, *Computing* summarizes takeaways from two key speakers (speakers from Mozilla and the Internet Archive):
+Given that a [Decentralized Web Summit](https://decentralizedweb.net/) just ended (I didn't attend but there are recordings), it's worth making a few extra notes on decentralization. In a post summarizing highlights from the conference, *Computing* summarizes takeaways from two key speakers (the speakers were Mitchell Baker from the Mozilla Foundation and Brewster Kahle from the Internet Archive). *Computing* explains:
 
 > The ideology of the web's early pioneers, according to Baker, was free software and open source. "Money was considered evil," she said. So when companies came in to commercialize the internet, the original architects were unprepared. "Advertising is the internet's original sin," Kahle told the packed room. "Advertising is winner-take-all, and that's how we've ended up with centralization and monopolies."
 >
