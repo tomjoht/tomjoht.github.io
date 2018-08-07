@@ -29,7 +29,7 @@ There's also an entire section about resources you consult for professional deve
 
 <img src="/images/profblogsyouconsult.png"/>
 
-## I am the decentralized web
+## Advertising's impact on the web's original ideals
 
 I'm excited to see blogs listed as sources for professional development here, because in my view it celebrates the decentralization of the web. The very fact that I would be listed among other sources such as peer-reviewed journals, formal conferences, or other trade magazines for professional development suggests that the dynamics of the web have destabilized the hierarchy of information in interesting ways.
 
