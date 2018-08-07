@@ -6,7 +6,7 @@ categories:
 - stitcher
 - academics-and-practitioners
 keywords:
-summary: "Seeing my name in the Census of Technical Communicators survey as a source for information about tech comm made me think about the impact of blogs as a learning resource. Advertising encourages bloggers to create rapid-fire, lightweight content in order to increase page views and other attention on the advertised product or service. The proliferation of blog content turns the wheels of social media, creating micro-bursts of attention for companies. The negative impact, however, is that more traditional forms of learning, such as scholarly journal articles, take a hit. The web's architecture and monetization model around content is optimized for blog content, so unless other mediums can find a way to become more visible and engaging within the architecture of the web, they will continue their slide into invisibility (at least to mainstream users)."
+summary: "Seeing my name in the Census of Technical Communicators survey as a possible source for professional development made me think about the impact of blogs as a learning resource. Advertising encourages bloggers to create rapid-fire, lightweight content in order to increase page views and other attention on the advertised product or service. The proliferation of blog content turns the wheels of social media, creating micro-bursts of attention for companies. The negative impact, however, is that more traditional forms of learning, such as scholarly journal articles, take a hit. The web's architecture and monetization model around content is optimized for blog content, so unless other mediums can find a way to become more visible and engaging within the architecture of the web, they will continue their slide into invisibility (at least to mainstream users)."
 bitlink: http://bit.ly/decentralizationandblogging
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/decentralizationandblogging.mp3
@@ -25,13 +25,13 @@ Some of the census questions will prompt some serious reflection. For example, t
 * As a technical writer, where do you feel the most pain or friction?
 * How do technical writers in your organization feel the most pain or friction?
 
-There's also an entire section about resources you consult for information about tech comm, including blogs. The survey names several blogs specifically, including the one you're reading:
+There's also an entire section about resources you consult for professional development, including blogs. The survey names several blogs specifically, including the one you're reading:
 
 <img src="/images/profblogsyouconsult.png"/>
 
 ## A shining example of the decentralized web
 
-I'm excited to see blogs listed as sources for tech comm here, because in my view it celebrates the decentralization of the web. The very fact that I would be listed among other sources such as peer-reviewed journals, formal conferences, or other trade magazines for tech comm information suggests that the dynamics of the web have destabilized the hierarchy of information in interesting ways.
+I'm excited to see blogs listed as sources for professional development here, because in my view it celebrates the decentralization of the web. The very fact that I would be listed among other sources such as peer-reviewed journals, formal conferences, or other trade magazines for professional development suggests that the dynamics of the web have destabilized the hierarchy of information in interesting ways.
 
 Given that a [Decentralized Web Summit](https://decentralizedweb.net/) just ended (I didn't attend but there are recordings), it's worth making a few extra notes decentralization. In a post summarizing highlights from the conference, *Computing* summarizes takeaways from two key speakers (speakers from Mozilla and the Internet Archive):
 
@@ -43,7 +43,7 @@ In other words, the web was founded on free software and open source, but advert
 
 While web enthusiasts have traditionally celebrated decentralization, the recent political scene has caused many to question the value of decentralization. Given that external entities (e.g., Russia) can destabilize our sense of real news by injecting fake, polarizing news stories circulated through social media channels (e.g., Facebook), many have called out the downsides of a decentralized web. In a centralized web, presumably these fake stories would be filtered out by judicious editors.
 
-So given this context, I can only wonder whether there are downsides *with my blog* appearing in this list of information resources. Maybe the editors of TC peer-reviewed journals look at my site and shake their heads, thinking *there goes that crazy blogger again, cranking out more new posts that have people spinning around like wild chickens.*
+So given this context, I can only wonder whether there are downsides *with my blog* appearing in this list of professional development resources. Maybe the editors of TC peer-reviewed journals look at my site and shake their heads, thinking *there goes that crazy blogger again, cranking out more new posts that have people spinning around like wild chickens.*
 
 While I would never intentionally post fake news on my blog, there are some undeniable characteristics inherent in blogging that are questionable. For starters, you have to crank out *a lot of content* on a regular basis. For example, see this post from a professional blogger explaining [how she makes a living blogging](https://www.makealivingwriting.com/how-i-make-5k-blogging/). She writes 58 posts per month for various sites in order to earn $5,100/month. That is about 2 posts per day. This rapid production of content feeds the social media machine, creating little "bursts of attention" that entice readers to visit a site. Each page visit contributes to eyeballs on advertising media, which generates revenue for web businesses.
 
@@ -91,6 +91,6 @@ The only way out of this isolating discourse into the visibility of the web is f
 
 ## Conclusion
 
-Coming back to the Census survey &mdash; definitely [take the survey](https://survey.concordia.ca/limesurvey/index.php/497757?lang=en). When you arrive at the part of the survey that asks you to identify sources you read, think about some of the ideas I've tossed around here. Certainly, this Census survey doesn't slant you to think any source is better than another. In fact, this survey is likely a model for how surveys should be properly constructed and carried out &mdash; soliciting fair, unbiased responses. I am only commenting on *my own ideas* swimming in my head after I finished the survey, and how I come to terms with seeing my name and blog as a source for tech comm information.
+Coming back to the Census survey &mdash; definitely [take the survey](https://survey.concordia.ca/limesurvey/index.php/497757?lang=en). When you arrive at the part of the survey that asks you to identify sources you read, think about some of the ideas I've tossed around here. Certainly, this Census survey doesn't slant you to think any source is better than another. In fact, this survey is likely a model for how surveys should be properly constructed and carried out &mdash; soliciting fair, unbiased responses. I am only commenting on *my own ideas* swimming in my head after I finished the survey, and how I come to terms with seeing my name and blog as a source for professional development.
 
 I don't know if I have corrupted good reading habits. Surely for some, I've sparked ideas that maybe weren't there before. For others, I might have only distracted you from immersion in better sources. For better or worse, I will keep blogging because it is the inevitable route to follow on the web.
