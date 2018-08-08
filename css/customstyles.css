@@ -1313,3 +1313,7 @@ margin-bottom:15px;
 .sidebarAds {
   padding-top: 20px;
 }
+
+.footer, p.external a, p.rss-subscribe {
+  font-size: 14px;
+}
