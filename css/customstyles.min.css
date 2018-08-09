@@ -29,3 +29,7 @@ caption,th{text-align:left}#definition-box-container div a.active,li.dropdownAct
 input#tlemail {
     font-size: 12px;
 }
+
+.poll .answer_control {
+    vertical-align: middle;
+}
