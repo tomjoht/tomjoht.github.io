@@ -1,21 +1,16 @@
 ---
 layout: page
-title: Guidelines for academic conversation posts, guest posts, and podcasts
+title: Guidelines for academic guest posts and podcasts
 permalink: /academic-post-guidelines/
 status: publish
 type: page
 published: true
 ---
 
-As part of my [Academic/Practitioner Conversations project](/academic-practitioner-project/), I'm highlighting research published by academics and blending spaces where practitioners and academics interact. I'm doing this by inviting academics to engage in [conversation posts](#conversations), [guest posts](#guest_posts), and [podcasts](#podcasts). The following sections provide more details about these posts.
+As part of my [Academic/Practitioner Conversations project](/academic-practitioner-project/), I'm highlighting research published by academics and blending spaces where practitioners and academics interact. I'm doing this by inviting academics to engage in writing guest posts or participating in podcasts.
 
-## Conversation posts {#conversations}
-
-This is my favorite type of post because, more than anything else, it facilitates a deep conversation. For a conversation post, I usually read one of your articles and ask a series of questions. I'll often excerpt a passage and then ask you to explain the approach or position in light of this or that concern.
-
-I share these passages with you in a Google doc, and then you can respond at the timeline you set. When you're finished, I publish the conversation.
-
-Here's an example of a [conversations post with Carlos Evia](https://idratherbewriting.com/2018/07/23/adventures-of-techie-academic-conversation-with-carlos-evia/).
+* TOC
+{:toc}
 
 ## Guest posts {#guest_posts}
 
@@ -23,15 +18,15 @@ Guest posts are basically posts that you author from start to finish. You might 
 
 If you've grown tired of the academic discourse that you've been writing in, the guest post gives you an opportunity to write in a more creative style. You can tell a story, explain how a research topic first became relevant to you, be personal or transparent in dangerous ways. Remember, it's a blog, so there are no rules except to be interesting.
 
-As with the conversation post, write your guest post in Google docs and share it with me. This makes it easy to convert it to Markdown.
+The process for submitting the guest post is simple: write your guest post in Google docs and share it with me (tomjoht@gmail.com). Google Docs makes it easy to convert it to Markdown.
 
-Here's an example guest post from Emily January Peterson on [stereotypes](/2018/07/18/stereotypes-about-tech-writers-in-workplace/).
+Here's an example guest post from Emily January Peterson on [stereotypes](/2018/07/18/stereotypes-about-tech-writers-in-workplace/), and another guest post by Melonie McMichael on [technological adaptability](https://idratherbewriting.com/2018/07/18/learning-technology/).
 
 ## Podcasts {#podcasts}
 
-A third type of post is a podcast. You might choose this option if you'd like to have a conversation and you prefer the spoken exchange, as you might feel it's easier to explain ideas this way. Or you might prefer the more dynamic aspect of podcasts &mdash; by dynamic, I mean your responses might change the questions and direction of the podcast in more natural, spontaneous ways. This kind of dynamic direction isn't always possible through written asynchronous conversation posts.
+A second type of post is a podcast. You might choose this option if you'd like to have a conversation and you prefer the spoken exchange, as you might feel it's easier to explain ideas this way. Or you might prefer the more dynamic aspect of podcasts &mdash; by dynamic, I mean your responses might change the questions and direction of the podcast in more natural, spontaneous ways.
 
-For podcasts, I'll pretty much prepare the same series of questions as I do in conversation posts, but rather than write your responses, we'll chat through Skype. You'll need some type of microphone for the podcast.
+For podcasts, I'll usually start with something you've published as a springboard into the discussion. I can send a few questions or talking points ahead of time for you to prepare. We'll chat through Skype, so you'll need a USB microphone.
 
 Here's an example of a podcast with Kirk St. Amant on the [relationship between academics and practitioners](/2018/07/11/research-as-bridge-between-academics-and-practitioners-kirk-st-amant-podcast/).
 
