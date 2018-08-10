@@ -137,7 +137,7 @@ After some brainstorming, here are a few hyphenated or hybrid roles for technica
 
 Which of these hyphenations will be the best strategy and route for a technical writer? It depends on your interest and skill set. I made a little poll you can take if you'd like to see how your hybrid matches up with others. You can select multiple options.
 
-*You can see the poll results [here](https://www.questionpro.com/t/PEF3zZcjlR).*
+**You can see the poll results [here](https://www.questionpro.com/t/PEF3zZcjlR).**
 
 <script language="JavaScript" src="https://www.questionpro.com/a/TakePoll?pollID=6257214"></script><noscript><a href="http://www.questionpro.com" title="online survey">Online Survey</a></noscript>
 
