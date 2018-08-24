@@ -12,7 +12,7 @@ tags:
 - technical writing
 - static site generators
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3
 podcast_file_size: 11.9 MB
 podcast_duration: "14:05"
 podcast_length: 11948010
@@ -21,9 +21,9 @@ bitlink: http://bit.ly/ssgtranslationcomplexities
 
 <div class="audioControls">
 <p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ssgtranslationcomplexity.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](https://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).

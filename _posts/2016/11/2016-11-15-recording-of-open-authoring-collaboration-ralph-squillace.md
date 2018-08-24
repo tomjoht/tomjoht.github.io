@@ -11,7 +11,7 @@ tags:
 - open source
 - collaboration
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ralph_squillace.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ralph_squillace.mp3
 podcast_file_size: 74.7 MB
 podcast_duration: "01:36:25"
 podcast_length: 74656136
@@ -25,9 +25,9 @@ Here's the audio from Ralph's presentation:
 
 <div class="audioControls">
 <p><b>Listen to this presentation:</b></p>
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ralph_squillace.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ralph_squillace.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ralph_squillace.mp3" alt="Recording Open Authoring -- Collaboration Across Disciplines">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ralph_squillace.mp3" alt="Recording Open Authoring -- Collaboration Across Disciplines">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 The slides are here:

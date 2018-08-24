@@ -15,7 +15,7 @@ tags:
 - technical communication
 - stitcher
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "01:16:37"
 podcast_length: 56518010
@@ -48,9 +48,9 @@ For more details, see the [Write the Docs meetup announcement](http://www.meetup
 
 ## Audio
 
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3" alt="Alicia Avrach">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/aliciaavrachaudio.mp3" alt="Alicia Avrach">download the MP3 file here</a>.
 
 ## Slides
 

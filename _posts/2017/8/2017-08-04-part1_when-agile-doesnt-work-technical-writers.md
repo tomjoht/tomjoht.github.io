@@ -8,7 +8,7 @@ keywords:
 summary: "Although it seems like documentation should be treated like other features worked on by a Scrum team, frequently it is not. When tech writers try to integrate into engineering Scrum teams, they usually run into a host of challenges. These challenges stem mainly from floating across multiple projects. Often doc tasks aren't assigned points or grouped in with other tasks in a real sprint, nor are tech writers co-located with project teams. This is a two-part post. In this first part, I outline problems for tech writers integrating into Scrum teams. In part 2, I explore solutions."
 bitlink: http://bit.ly/techdocsandagilepart1
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/docsandagile_part1.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/docsandagile_part1.mp3
 podcast_file_size: 26.8 MB
 podcast_duration: "35:04"
 podcast_length: 26840393
