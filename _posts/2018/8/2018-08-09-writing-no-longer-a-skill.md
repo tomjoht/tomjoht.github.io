@@ -2,6 +2,9 @@
 title: "If writing is no longer a marketable skill, what is?"
 categories:
 - writing
+- podcasts
+- stitcher
+- simplifying-complexity
 keywords:
 summary: "When we try to sell our tech comm skills, promoting our <i>writing</i> skills doesn't seem to impress people anymore, as writing is considered more of a presumed skill everyone has. To give a sense of value, we need to hyphenate our job titles, becoming more of a hybrid professional."
 bitlink: http://bit.ly/writingmarketingskills
