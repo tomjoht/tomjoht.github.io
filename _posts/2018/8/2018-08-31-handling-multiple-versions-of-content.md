@@ -17,7 +17,7 @@ The approach I've taken here has greatly simplified the specification info, and 
 So here's how this whole setup works. I store all the specification information in a YAML file. For example, I have a firetv-specs.yml file that looks like this:
 
 
-```json
+```yaml
 media_specifications:
   video:
     h265:
