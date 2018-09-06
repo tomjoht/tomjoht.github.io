@@ -8,7 +8,7 @@ bitlink: http://bit.ly/devicespecsjekyll
 date: 2018-08-31T16:04:33+00:00
 ---
 
-One of the most popular doc pages I work on is the [Fire TV device specifications page](https://developer.amazon.com/docs/fire-tv/device-specifications.html). This page has the specs for about 10 different Fire TV devices (including sticks, smart TVs, cubes, etc.). The page gets the most traffic of all our docs, so this information tends to be a high priority. Handling this information wasn't easy.
+One of the most popular doc pages I work on is the [Fire TV device specifications page](https://developer.amazon.com/docs/fire-tv/device-specifications.html). This page has the specs for about 10 different Fire TV devices (including sticks, smart TVs, cubes, etc.). The page gets the most traffic of all our docs, so this information tends to be a high priority. Handling this information wasn't easy -- at first.
 
 The page started out listing the specs in a table with various columns for each device. After about 5 devices, the table format no longer worked because the columns became too narrow. At that point, I switched to a drop-down list format. When you select a device, all the information on the page switches to that device. The URL stays the same except that a query string gets appended to the URL. You can load a specific option from the drop-down menu by using a query string such as `?v=firetveditiontoshiba4k`. This query string gets automatically appended when you select an option from the drop-down menu.
 
@@ -51,7 +51,7 @@ Next, I create a template that will use the information in the YAML file. The te
 {% raw %}{% assign device = {{include.device}} %}{% endraw %}
 ## Media Specifications
 <table class="grid" style="width: 100%">
-    <caption>{{include.device_friendly_name}}</caption>
+    <caption>{% raw %}{{include.device_friendly_name}}{% endraw %}</caption>
     <colgroup>
         <col width="15%" />
         <col width="20%" />
@@ -71,17 +71,19 @@ Next, I create a template that will use the information in the YAML file. The te
             <td class="white" rowspan="7"><b>Video</b></td>
             <td class="white">H.265 (HEVC)<br/><small>(High Efficiency Video Coding)</small></td>
             <td class="white">video/hevc</td>
-            <td class="white">{{site.data.firetv-specs.media_specifications.video.h265[device]}}</td>
+            <td class="white">{% raw %}{{site.data.firetv-specs.media_specifications.video.h265[device]}}{% endraw %}</td>
         </tr>
         <tr>
             <td class="white">H.264</td>
             <td class="white">video/avc</td>
-            <td class="white">{{site.data.firetv-specs.media_specifications.video.h264[device]}}</td>
+            <td class="white">{% raw %}{{site.data.firetv-specs.media_specifications.video.h264[device]}}{% endraw %}</td>
         </tr>
 ....
 ```
 
-I save this file as an [include](https://jekyllrb.com/docs/includes/) in Jekyll so that I can re-use it. Basically, this table is used for each device specification. Notice that `[device]` is a variable here, as is `device_friendly_name`. These variables will be populated based on parameters I pass in when calling the include (see [Passing parameters to includes](https://jekyllrb.com/docs/includes/#passing-parameters-to-includes) for more info.).
+Note that `{% raw %}{{site.data.firetv-specs.media_specifications.video.h265[device]}}{% endraw %}` will pull in data from the YAML file.
+
+I save this file as an [include](https://jekyllrb.com/docs/includes/) in Jekyll so that I can re-use it. Then this table is used for each device specification. Notice that `device` is a variable here, as is `device_friendly_name`. These variables will be populated based on parameters I pass in when calling the include (see [Passing parameters to includes](https://jekyllrb.com/docs/includes/#passing-parameters-to-includes) for more info.).
 
 Next, I create a separate page for each device. So I do actually have about 10 pages, but each page just has this include:
 
@@ -89,7 +91,9 @@ Next, I create a separate page for each device. So I do actually have about 10 p
 {% raw %}{% include firetv_specs_table.html device="ftvcube" device_friendly_name="Fire TV Cube" %}{% endraw %}
 ```
 
-When the include is called, the `device` and `device_friendly_name` parameters gets populated. In this case, `ftvcube` is used in a way that retrieves the right info from the YAML file. `device_friendly_name` just populates this value into some headings in the template.
+When the include is called, the `device` and `device_friendly_name` parameters get populated. In this case, `ftvcube` is used in a way that retrieves the right info from the YAML file. It will be inserted into `{% raw %}{{site.data.firetv-specs.media_specifications.video.h264[device]}}{% endraw %}` so that it's populated like this: `{% raw %}{{site.data.firetv-specs.media_specifications.video.h264.ftvcube}}{% endraw %}`. The variable assignment (`{% raw %}{% assign device = {{include.device}} %}{% endraw %}` and brackets are needed because we're inserting this into formatting that already has double curly braces.
+
+For the other variable, `device_friendly_name`, this gets inserted into `{% raw %}<caption>{{include.device_friendly_name}}</caption>{% endraw %}`. Since this variable isn't already inside curly braces, no brackets are needed.
 
 Now in another file called `device-specifications.md`, I have another include called `version_includes.html` that populates the page with a list of files (each of the 10 specification files) specified in the page's frontmatter. The `version_includes.html` file populates the drop-down selector with each of the files, and then does about another five really cool (and complicated things) to generate a mini-TOC, set the query string parameter in the URL, activate the right stylesheet, and populate other aspects all based on some logic I configured.
 
