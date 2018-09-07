@@ -95,7 +95,7 @@ When the include is called, the `device` and `device_friendly_name` parameters g
 
 For the other variable, `device_friendly_name`, this gets inserted into `{% raw %}<caption>{{include.device_friendly_name}}</caption>{% endraw %}`. Since this variable isn't already inside curly braces, no brackets are needed.
 
-(Note: I'm sorry for the poor explanation here, but more proper explanations about how Jekyll works would require me to back up several revolutions and create a much longer post here.)
+(Note: I'm sorry for the poor explanation here, but more proper explanations about how Jekyll works would require me to back up several revolutions and create a much longer post.)
 
 Now in another file called `device-specifications.md`, I have another include called `version_includes.html` that populates the page with a list of files (each of the 10 specification files) specified in the page's frontmatter. The `version_includes.html` file populates the drop-down selector with each of the files, and then does about another five really cool (and complicated things) to generate a mini-TOC, set the query string parameter in the URL, activate the right stylesheet, and populate other aspects all based on some logic I configured.
 
