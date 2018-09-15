@@ -85,7 +85,7 @@ The Salary Database author explains:
 
 The STC Salary Survey pulls its data from the "Occupational Employment Statistics" wage survey conducted by the Bureau of Labor Statistics (BLS). If you look at the [BLS Employment Projections](https://data.bls.gov/projections/occupationProj), you can see similar information (though it puts the number of tech writers in 2016 at 52,400 instead of 49,780 &mdash; I'm not sure why there's a slight difference there, other than maybe the STC excluded some small segment.)
 
-The BLS says the job *growth rate* for [software developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) from 2016 to 2026 is projected at 24% (a rate tha tis "much faster than average"), while the average for all jobs is projected at just 7%. The job growth for [technical writers](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm) is projected at 11% (which is still "faster than average.")
+The BLS says the job *growth rate* for [software developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) from 2016 to 2026 is projected at 24% (a rate that is "much faster than average"), while the average for all jobs is projected at just 7%. The job growth for [technical writers](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm) is projected at 11% (which is still "faster than average.")
 
 It seems pretty clear that if software engineering jobs are growing 13% faster than technical writing jobs (24% minus 11% = 13%), then even though technical writer jobs aren't actually shrinking, they are shrinking in comparison to engineering jobs.
 
