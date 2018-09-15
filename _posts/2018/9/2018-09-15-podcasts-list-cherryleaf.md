@@ -13,7 +13,7 @@ I'd like to note a few details about podcasts that I think are worth mentioning.
 
 Additionally, I think too many people underestimate the connection power of a podcast. When someone listens to a podcast, it's like allowing someone to whisper into your ear for a half hour or more. Well, not whispering. But it's a much more intimate experience than reading a blog post. The person's personality, enthusiasm, and other characteristics come through with voice in unmistakable ways.
 
-One problem with podcasts is that because listeners aren't usually sitting at their computers, providing feedback is more difficult. I'd like to get some general feedback about podcasts through a short survey embedded below. (You view the responses to the survey [here](https://www.questionpro.com/t/PEOsYZcwS7).
+One problem with podcasts is that because listeners aren't usually sitting at their computers, providing feedback is more difficult. I'd like to get some general feedback about podcasts through a short survey embedded below. *You view the responses to the survey [here](https://www.questionpro.com/t/PEOsYZcwS7*.
 
 <script>
 EMBED_PARAMS = {};
