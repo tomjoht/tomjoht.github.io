@@ -7,7 +7,7 @@ summary: "The latest Cherryleaf podcast lists the available tech comm podcasts a
 bitlink: http://bit.ly/podcastsurveytc
 ---
 
-This past year, [Cherryleaf](https://cherryleaf.podbean.com) has developed its voice in the tech comm space through podcasts. I've tweeted about a few episodes previously, and I find Ellis has a natural talent for the podcast medium. In his latest podcast, ["The one about podcasts"](https://cherryleaf.podbean.com/e/43-the-one-about-podcasts/), Ellis lists all the tech comm podcasts plus a few others he listens to. Go to Cherryleaf for the full list.
+This past year, [Cherryleaf](https://cherryleaf.podbean.com) has developed its voice in the tech comm space through podcasts. I've tweeted about a few episodes previously, and I find Ellis has a natural talent for the podcast medium. In his latest podcast, "[The one about podcasts](https://cherryleaf.podbean.com/e/43-the-one-about-podcasts/)," Ellis lists all the tech comm podcasts plus a few others he listens to. Go to Cherryleaf for the full list.
 
 I'd like to note a few details about podcasts that I think are worth mentioning. First, it seems like podcasts have made a comeback recently. I'm not entirely sure why (it could be that people are so tired of political news that they want to escape into niche topics instead), but podcasts seem to be going strong this year, with Cherryleaf, Scriptorium, and 10-minute Tech Comm producing many episodes.
 
