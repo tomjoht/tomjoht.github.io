@@ -33,3 +33,22 @@ input#tlemail {
 .poll .answer_control {
     vertical-align: middle;
 }
+
+.btn .caret {
+    margin-left: 7px !important;
+  }
+
+.subheading {
+  font-size: 22px;
+  color: #996508;
+}
+
+.subheading::before {
+  content: "Series";
+  margin-right: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: #666;
+  padding: 4px;
+  font-size:18px;
+}

@@ -1,5 +1,5 @@
 ---
-title: "Part IV: Enabling information flow (Value arguments for docs and tech comm)"
+title: "Part IV: Enabling information flow"
 categories:
 - general
 keywords: value, organizations, information flow, content experience

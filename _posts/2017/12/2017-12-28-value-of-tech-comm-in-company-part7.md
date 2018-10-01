@@ -1,5 +1,5 @@
 ---
-title: "Part VII: Conclusion (Value arguments for docs and tech comm)"
+title: "Part VII: Conclusion"
 categories:
 - general
 keywords: value, organizations, information flow, content experience

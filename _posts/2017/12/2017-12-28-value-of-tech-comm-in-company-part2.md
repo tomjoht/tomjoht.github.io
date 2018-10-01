@@ -1,5 +1,5 @@
 ---
-title: "Part II: Reviewing past research (Value arguments for docs and tech comm)"
+title: "Part II: Reviewing past research"
 categories:
 - general
 keywords: value, tech comm, research, redish, carliner
