@@ -1,5 +1,6 @@
 ---
-title: "Part I: Introduction to the series \"Value arguments for docs and tech comm\""
+title: Value arguments for docs and tech comm (Part I)
+subtitle: "Part I: Introduction to the series"
 categories:
 - general
 keywords: value, tech comm, research, redish, carliner, roles, complexity, organizational status

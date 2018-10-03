@@ -1,5 +1,6 @@
 ---
-title: "Part VI: Deepening documentation's value by simplifying complexity"
+title: Value arguments for docs and tech comm (Part VI)
+subtitle: "Part VI: Deepening documentation's value by simplifying complexity"
 categories:
 - general
 keywords: value, organizations, information flow, content experience

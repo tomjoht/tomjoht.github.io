@@ -1,5 +1,6 @@
 ---
-title: "Part V: Influencing the content experience"
+title: Value arguments for docs and tech comm (Part V)
+subtitle: "Part V: Influencing the content experience"
 categories:
 - general
 keywords: value, organizations, information flow, content experience

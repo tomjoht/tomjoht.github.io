@@ -1,5 +1,6 @@
 ---
-title: "Part II: Why tech writer jobs are moving toward the developer domain"
+title: "Tech comm trends: Providing value as a generalist in a sea of specialists (Part II)"
+subtitle: "Part II: Why tech writer jobs are moving toward the developer domain"
 categories:
 - api-doc
 - simplifying-complexity
@@ -8,7 +9,8 @@ keywords:
 weight: 2
 tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
-summary:
+summary: "Thanks to UX design, technology is becoming a simpler experience for end-users; however, the code is becoming more complex behind the scenes. As a result, more technical writing jobs are transitioning to these areas of complexity in the developer domain."
+date: 2018-10-02T03:13:41+00:00
 published: false
 ---
 
@@ -119,6 +121,8 @@ Recently in a  Write the Docs Slack channel, during a discussion about how to ha
 > I remember a colleague at a previous job getting told off for prefacing some instructions with something along the lines of: “You need to follow every step of these instructions to the letter, even if they seem weird or pointless, otherwise the whole thing will break.” ... It was a fantastic way (IMO) of demonstrating just how broken the product was. ([Transparency in documentation: dealing with limits about what you can and cannot say](https://idratherbewriting.com/2017/07/13/transparency-in-documentation/))
 
 Developers probably intend to embrace simple solutions at the start and only turn to more complex or nonstandard workarounds when they encounter an impasse. To get around the impasse, they have to invent creative workarounds to get past the limitations. In some ways, complexity is just a necessary reality of coding. Still, without the same design constraints, I wonder if the simplicity bar is set too low.
+
+{% include random_ad.html %}
 
 I’m sure you’ve encountered code that developers have created, which you must document, and thought, _who allowed the developer to create this monstrosity_? Developers aren’t often checked by any design constraints as they are with UX. If UX designers would vet developer products themselves, it might be a different outcome. But without this UX filter, developers seem to have unlimited freedom to create nightmares of non-standard complexity.
 

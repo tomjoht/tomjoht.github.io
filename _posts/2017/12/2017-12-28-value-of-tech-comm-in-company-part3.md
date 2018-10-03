@@ -1,5 +1,6 @@
 ---
-title: "Part III: Determining value through usage"
+title: Value arguments for docs and tech comm (Part III)
+subtitle: "Part III: Determining value through usage"
 categories:
 - general
 keywords: tech writing, value, usage, documentation

@@ -1,5 +1,6 @@
 ---
-title: "Part VI: Information usability principles"
+title: "Tech comm trends: Providing value as a generalist in a sea of specialists (Part VI)"
+subtitle: "Part VI: Information usability principles"
 categories:
 - api-doc
 - simplifying-complexity
@@ -8,26 +9,30 @@ keywords:
 weight: 6
 tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
-summary:
+summary: "When specialists write, they often neglect principles of information usability that can make their content more easily consumable by readers. Some of these principles include letting users switch between macro and micro views, making information discoverable as the user needs it, ensuring information harmony in the larger landscape, and reducing and distilling vast information down to its essence."
+date: 2018-10-02T03:13:37+00:00
 published: false
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}
 
-
 ## Information usability
 
 Another gap that opens up in this era of specialization is an opportunity with information usability. Information usability refers to making information simpler and easier to use. It’s just like product usability but focusing on the information instead of UI design.
 
-When engineers and other specialists create documentation, they rarely consider information usability. Mostly, engineers pretty much just try to explain the complexity and go no further with their effort to make the information accessible or understandable to users. It’s the same phenomenon as when engineers create interfaces — they just sort of throw it all together. Remember that sample modal that was obviously designed by engineers:
+When engineers and other specialists create documentation, they rarely consider information usability. Mostly, engineers pretty much just try to explain the complexity and go no further with their effort to make the information accessible or understandable to users. It’s the same phenomenon as when engineers create interfaces &mdash; they just sort of throw it all together. Remember that sample dialog box that was designed by engineers?
 
 <figure><a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/"><img src="/images/when_developers_create_interfaces.png"/></a><figcaption>When developers create user interfaces, this happens. Image from <a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/">Coding Horror</a></figcaption></figure>
 
 Consider the equivalent output in documentation and you get a sense of information usability.
 
-There’s a common phenomenon you see when specialists start writing. It’s call the “curse of knowledge.” It highlights how people who accrue more knowledge become increasingly inarticulate to convey that knowledge in understandable ways. For example, my father-in-law is a doctor, and whenever we ask him some health-related questions, he almost always refers to different parts of the body with their medical names. When I jammed my finger, he explained about the “proximal interphalangeal joints” or "PIP joints" and such, because that’s the vocabulary in the specialist’s head for articulating problems.  My point is that when specialists try to articulate a concept, they’re trapped by their own specialized knowledge in ways that make it difficult for them to communicate the ideas simply.
+There’s a common phenomenon you see when specialists start writing. It’s call the “curse of knowledge.” It highlights how people who accrue more knowledge become increasingly inarticulate to convey that knowledge in understandable ways.
 
-As a generalist, you can bring your knowledge about information usability to the specialist’s knowledge to make the information more accessible and consumable to users. This practice of designing information to make it more accessible, consumable, and useful is really just the practice of simplifying complexity. I have a series of essays where I try to identify some immediate, concrete ways to make information more usable. Here are 10 principles of information usability:
+For example, my father-in-law is a doctor, and whenever we ask him some health-related questions related to some injury, he almost always refers to different parts of the body with their medical names. When I jammed my finger, he explained about the “proximal interphalangeal joints” or "PIP joints" and such, because that’s the vocabulary in the specialist’s head for articulating problems.
+
+My point is that when specialists try to articulate a concept, they’re trapped by their own specialized knowledge in ways that make it difficult for them to communicate the ideas simply.
+
+As a generalist, you can bring your skills in information usability to the specialist’s knowledge to make the information more accessible and consumable to users. This practice of designing information to make it more accessible, consumable, and useful is really just the practice of simplifying complexity. Here are 7 principles of information usability that we'll explore here:
 
 * Principle 1: Let users switch between macro and micro views
 * Principle 2: Make information discoverable as the user needs it
@@ -41,7 +46,9 @@ I dive pretty deep into each of these principles in my series on Simplifying Com
 
 <figure><a href="https://idratherbewriting.com/simplifying-complexity"><img src="/images/simpcomplexscreenshot.png"/></a><figcaption>I explore these principles in depth in a series that I've been calling Simplifying Complexity</figcaption></figure>
 
-I’ll give you some of the highlights here in a quick way, and you can see if any of the topics interest you to learn more. In some ways, conference talks are meant to be like variety appetizers that you sample. You’re not meant to eat the whole meal but to figure out if something appeals to you.
+I’ll give you some of the highlights here in a quick way, and you can see if any of the topics interest you to learn more. In some ways, blog posts and presentations are meant to be like variety appetizers that you sample. You’re not meant to eat the whole meal but to figure out if something appeals to you.
+
+{% include random_ad.html %}
 
 ### Principle 1: Let users switch between macro and micro views
 
@@ -49,13 +56,13 @@ One way that we simplify any complex process is by dividing it up into smaller s
 
 <figure><img src="https://idratherbewriting.com/simplifying-complexity/images/dogman_process.jpg"/><figcaption>Here my seven-year-old is learning to draw <i>Dog Man.</i> To simplify the task of drawing Dog Man, the author has broken the process out into \"28 ridiculously easy steps\."</figcaption></figure>
 
-Chunking long, complicated tasks into a series of subtasks is a key, foundational principle in tech comm. However, when you chunk up a complex process into small steps, it’s easy for users to get lost in the details, especially if the chunked tasks span several pages or more.
+Chunking long, complicated tasks into a series of subtasks is a key, foundational principle in tech comm. However, when you chunk up a complex process into small steps, it’s easy for users to get lost in the details, especially if the chunked tasks span several topics and pages or more.
 
 To help move the user through each of the steps, it helps to embed a workflow map at the top of these steps. The workflow map helps orient users through a larger process. Here’s an example of a simple process map I used in some of my documentation:
 
 <figure><a href="https://developer.amazon.com/docs/app-submission/publish-app-login-and-add-app.html"><img src="https://idratherbewriting.com/simplifying-complexity/images/map-app-submission.png"/></a><figcaption>When submitting an app into the Amazon Appstore, you follow these steps. The workflow map helps keep people oriented and provides context to their larger place in the process.</figcaption></figure>
 
-Creating these maps is pretty easy, but it can become more challenging when you have various branching or conditional scenarios. I tend to create different process maps for different aspects of documentation. For example, you might have several process maps within docs.
+Creating these maps is pretty easy, but it can become more challenging when you have various branching or conditional scenarios. I tend to create different process maps for different aspects of documentation. For example, you might have [several process maps within docs](https://developer.amazon.com/docs/fire-app-builder/end-to-end-process.html) rather than one single map.
 
 I think the absence of maps in documentation constitutes one of the main reasons why people get lost. Imagine going on a hike without a map. Maps are critical for orienting users through complex terrain. Just as maps help us navigate cities and wildernesses, they can also help us navigate information spaces as well. Adding these maps is particularly appropriate for installation or setup tasks, as there's a clear start to end progression.
 
@@ -63,13 +70,17 @@ To read more, see [Principle 1: Let users switch between macro and micro views](
 
 ### Principle 2: Make information discoverable as the user needs it
 
-While maps work well for linear processes, in complex systems, sometimes you can’t lay out a clear path for the user to follow. One definition of a complex system is that the feedback the user receives at each step of the way influences the next decision they make. One analogy for complex systems is to think about mathematically describing buoys in water after a boat goes by. The buoy's up and down movements depend on a continuous feedback loop not only from the wake but from other buoys and their motions.
+While maps work well for linear processes, in complex systems, sometimes you can’t lay out a clear path for the user to follow.
+
+One definition of a complex system is that the feedback the user receives at each step of the way influences the next decision they make. One analogy for complex systems is to think about mathematically describing buoys in water after a boat goes by. The buoy's up and down movements depends on a continuous feedback loop not only from the wake but from other buoys and their motions.
 
 One scholar, Michael Albers, describes this scenario of complexity as follows:
 
-> Each new piece of data the user uncovers affects the path taken and the eventual outcome. … it does not lend itself to being performed with a defined set of tasks nor can those tasks be performed in a fixed order. ([Content and Complexity](https://www.amazon.com/Content-Complexity-information-Technical-Communication/dp/0805841415))
+> Each new piece of data the user uncovers affects the path taken and the eventual outcome. ... it does not lend itself to being performed with a defined set of tasks nor can those tasks be performed in a fixed order. ([Content and Complexity](https://www.amazon.com/Content-Complexity-information-Technical-Communication/dp/0805841415))
 
-In these systems, presenting the user with a linear map that consists of specific tasks won’t help much. Albers suggests that for these scenarios, the topics in the information system need to dynamically adhere together around the user’s specific and constantly changing context. By decoupling the information into separate, semantically identified pieces, Albers says these pieces can be dynamically assembled to address the context the user needs at a particular moment in his or her journey. He uses an analogy of "cintering" (a ceramics process) to describe this:
+In these systems, presenting the user with a linear map that consists of specific tasks won’t help much. Albers suggests that for these scenarios, the topics in the information system need to dynamically adhere together around the user’s specific and constantly changing context.
+
+By decoupling the information into separate, semantically identified pieces, Albers says these pieces can be dynamically assembled to address the context the user needs at a particular moment in his or her journey. He uses an analogy of "cintering" (a ceramics process where separate molecules suddenly adhere together) to describe this. Here's a video on cintering:
 
 <iframe width="640" height="380" src="https://www.youtube.com/embed/NzCeMxq0bPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -79,13 +90,13 @@ There are lots of different applications of this idea, but a simple one is to si
 
 When specialists write, probably the last concern on their minds is the SEO of the topic. They aren’t thinking about how to surface this material in the moment the user needs it. By adding the right metadata to the topic and structuring it in way that supports SEO, you can help support this principle of information design.
 
-One easy way to encourage this is by adding a two-sentence description of your topic that encapsulates the point of your topic in a quick, easy way. This description should be the starting point for your topic, as these first two sentences factor heavily in SEO. Make sure this short description gets pushed into the meta tags of your page.
+One easy way to encourage discoverability is by adding a two-sentence description of your topic that encapsulates the point of your topic in a quick, easy way. This description should be the starting point for your topic, as these first two sentences factor heavily in SEO. Make sure this short description gets pushed into the meta tags of your page.
 
 The next step would be to research metrics around page visibility. Based on your analysis of analytics, are users finding the page? Why or why not? If not, can you link to the topic from within a context that the user does see (such as user interface page or error message)? Or can you link to the topic from more popular topics? Alternatively, are you even using the right keywords in the topic that users are likewise using? That kind of SEO analysis on the visibility of content is rarely something that specialists consider when creating docs.
 
-I won't go into depth about my forays into SEO, but I do pay attention to page metrics. I noticed that about 14% of our doc traffic was focused on specification pages, so I expanded and amplified the information on that page to be even more comprehensive and navigable, and I started linking out to other pages from that master specification page. The specification page sort of becomes the landing page and entry point for a lot of other docs. The first step in any kind of SEO turning starts by analyzing metrics &mdash; what pages users visit most, least, and why.
+I won't go into depth about my forays into SEO, but I do pay attention to page metrics. In looking at my docs at work, I noticed that about 14% of our doc traffic was focused on specification pages, so I expanded and amplified the specification information on that page to be even more comprehensive and navigable. I also started linking out to other pages from that master specification page. The specification page sort of becomes the landing page and entry point for a lot of other docs.
 
-To read more, see [Principle 2: Make information discoverable as the user needs it](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html).
+The first step in any kind of SEO turning starts by analyzing metrics &mdash; what pages users visit most, least, and why. To read more, see [Principle 2: Make information discoverable as the user needs it](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html).
 
 ### Principle: Ensure information harmony in the larger landscape
 
@@ -101,7 +112,9 @@ A contributor’s myopia would be acceptable if each of the documentation compon
 
 The nature of the web is trending toward an interconnected web of APIs, where multiple systems interact and influence each other. This is where specialization and interconnected systems create a risk of unpredictability and lack of interoperability.
 
-Before adding new topics to an information landscape, look to see how the new information will fit in with the existing information &mdash; across all information forms, from docs to blogs, forums, white papers, and more. Synthesizing information to harmonize with the larger information landscape requires wide reading and analysis but is essential for the user experience, since users often bounce from one information source to another as they consume information. It can be like taking a graduate level course where you have to crunch through large amounts of material and analyze the fit of new information. This kind of broad and deep reading across the entire site isn't something specialists are likely to do.
+Before adding new topics to an information landscape, look to see how the new information will fit in with the existing information &mdash; across all information forms, from docs to blogs, forums, white papers, and more.
+
+Synthesizing information to harmonize with the larger information landscape requires wide reading and analysis but is essential for the user experience, since users often bounce from one information source to another as they consume information. It can be like taking a graduate level course where you have to crunch through large amounts of material and analyze the fit of new information. This kind of broad and deep reading across the entire site isn't something specialists are likely to do, as they are often narrowly focused on their own specialization.
 
 <figure><img src="https://idratherbewriting.com/simplifying-complexity/images/distillation_and_integration_integration.svg"/><figcaption>Integrating information into a larger whole requires you to understand that larger whole and how the new information does or does not fit in.</figcaption></figure>
 
@@ -111,13 +124,13 @@ For more information, see [Principle 3: Ensure information harmony in the larger
 
 ### Principle: Reduce and distill information to its essence
 
-In contrast to integrating information into larger structures, the opposite activity &mdash; taking an existing body of information and distilling its essence down into a smaller information unit (whether that smaller unit is a title, overview, heading, topic sentence, quick reference guide, or some other compressed form of information) also requires cognitive prowess.
+In contrast to integrating information into larger structures, the opposite activity &mdash; taking an existing body of information and distilling its essence down into a smaller information unit (whether that smaller unit is a title, overview, heading, topic sentence, or other information) also requires cognitive prowess.
 
 Crystalizing large information into a brief distillation that captures the main point in as little a space as possible can be a difficult skill that rivals a poet’s astuteness with language and articulation. Despite the difficulty with the task, this distillation is worth it as it can go a long way towards simplifying a complex system.
 
 <figure><img src="https://idratherbewriting.com/simplifying-complexity/images/distillation_and_integration_distillation.svg"/><figcaption>Distilling large amounts of information into consumable and understandable summaries also involves a lot of skill and prowess.</figcaption></figure>
 
-For example, a good structure in a doc page usually provides a title, summary, headings, mini-TOC, and topic sentences that lets users take in the information at a glance rather than reading the content line by line. These elements are simple, but they are the bread-and-butter of information usability. Let me just focus on the summary, which I think is the most important.
+For example, a good structure in a doc page usually provides a title, summary, headings, mini-TOC, and topic sentences that let users take in the information at a glance rather than reading the content line by line. These elements are simple, but they are the bread-and-butter of information usability. Let me just focus on the summary, which I think is the most important.
 
 A couple of years ago, while browsing information on Jakob Nielsen’s site, I became converted to the benefit of summaries in content. Seeing this summary allowed me to quickly process whether the article contained the information I was looking for.
 

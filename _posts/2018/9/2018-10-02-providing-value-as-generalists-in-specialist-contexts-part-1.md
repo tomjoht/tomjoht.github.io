@@ -1,5 +1,6 @@
 ---
-title: "Part I: Introduction and argument overview"
+title: "Tech comm trends: Providing value as a generalist in a sea of specialists (Part I)"
+subtitle: "Part I: Introduction and argument overview"
 categories:
 - api-doc
 - simplifying-complexity
@@ -8,7 +9,8 @@ keywords:
 weight: 1
 tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
-summary: ""
+summary: "Technical writing jobs have shifted more from the end-user domain to the developer domain. This creates challenges because most technical writers are generalists, not specialists, when it comes to technology. In these specialist context, technical writers can add value by focusing on (1) authoring/publishing processes and tools, (2) knowledge of the user experience, and (3) information usability."
+date: 2018-10-02T03:13:42+00:00
 published: false
 ---
 
@@ -45,5 +47,7 @@ I’ll dive into each of these points in depth.
 ## Interactive surveys
 
 On each page, I include a short survey to gather your responses and input. In some ways, I'm hoping to gather some professional consensus about a lot of the points I make here. I want to know if I'm advancing ideas that seem shaky or that don't align with your own experience. Ideally, everything I write or argue for would be meticulously based on lengthy research and studies; however, that isn't always possible, so I'm hoping to leverage your own experiences and insights.
+
+{% include random_ad.html %}
 
 {% include series/seriesTagGeneralistSpecialists_next.html %}
