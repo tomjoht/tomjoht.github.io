@@ -11,6 +11,7 @@ tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 summary: "When specialists write docs, they tend to stick with simple formats and tools. As a result, incorporating structure or writing to specifications often gets overlooked. This is one area where technical writers can add value."
 date: 2018-10-03T03:13:39+00:00
+bitlink: genandspecialisttrendspart3
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}

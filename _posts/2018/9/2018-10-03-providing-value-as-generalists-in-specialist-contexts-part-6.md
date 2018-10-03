@@ -11,6 +11,7 @@ tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 summary: "My discussion of information usability principles continues here. Some additional information usability principles include conforming to the patterns and expectations of the genre and schemas, reducing the complexity of technical language, and iterating and incrementing on content following an agile approach."
 date: 2018-10-03T03:13:36+00:00
+bitlink: genandspecialisttrendspart6
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}

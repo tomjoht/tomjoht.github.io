@@ -11,6 +11,7 @@ tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 summary: "When specialists write, they often neglect principles of information usability that can make their content more easily consumable by readers. Some of these principles include letting users switch between macro and micro views, making information discoverable as the user needs it, ensuring information harmony in the larger landscape, and reducing and distilling vast information down to its essence."
 date: 2018-10-03T03:13:37+00:00
+bitlink: genandspecialisttrendspart5
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}
