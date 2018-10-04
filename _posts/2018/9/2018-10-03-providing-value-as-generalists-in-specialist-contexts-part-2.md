@@ -148,7 +148,9 @@ Because the needed documentation in the developer domain is so highly specialize
 
 <figure><img src="/images/generalist_specialist_developers_writing.svg" /><figcaption>More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary.</figcaption></figure>
 
-As evidence, just look at the emergence and growth of the [Write the Docs](http://www.writethedocs.org/) groups. This group started out, in part, as engineers who write docs looking to connect and help other engineers writing docs. And this group has taken off in tremendous ways over the past few years.
+## Write the Docs as Evidence that Developer Docs Is Growing
+
+As evidence that the developer domain is flourishing with engineering writers, just look at the emergence and growth of the [Write the Docs](http://www.writethedocs.org/) groups. This group started out, in part, as engineers who write docs looking to connect and help other engineers writing docs. And this group has taken off in tremendous ways over the past few years.
 
 <figure><a href="http://www.writethedocs.org/"><img src="/images/writethedocshomepage.png"/></a><figcaption>Write the Docs was founded mainly by developers who were writing documentation and wanted more community</figcaption></figure>
 
@@ -166,9 +168,9 @@ For example, Microsoft's developer docs were previously in XML, but they have si
 
 The shift toward simpler documentation formats is only one indicator of a deeper trend: When specialists engage in documentation authoring and publishing, they prefer to remain in their own specialization bubbles and won’t necessarily embrace anything sophisticated with authoring tools. So you might end up with a Markdown document or a Word document or wiki page and nothing more. (I'm short-selling the complexity of the publishing toolchains for docs-as-code solutions, for sure. But the basic format of topics is usually simple Markdown rather than a specialized DITA topic.)
 
-## The current scenario for tech comm
+## The current predicament for tech comm
 
-Enough with trends. This is the scenario where we find ourselves in: We are generalists suddenly surrounded in a context of specialization. How do we prove our value? How do we avoid becoming second-class citizens in developer organizations?
+Enough with trends. This is the predicament where we find ourselves in: We are generalists suddenly surrounded in a context of specialization. How do we prove our value? How do we avoid becoming second-class citizens in developer organizations?
 
 I think that in these specialist contexts, certain gaps open up. Technical writers can focus on these gaps to provide their value. In the scenario I've described, particularly when specialists start writing docs, at least three gaps open up. These three gaps involve the following:
 

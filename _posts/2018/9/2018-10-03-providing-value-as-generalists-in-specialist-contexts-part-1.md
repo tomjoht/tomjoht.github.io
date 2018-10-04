@@ -51,4 +51,8 @@ I’ll dive into each of these points in depth.
 
 On each page, I include a short survey to gather your responses and input. Through these surveys, I'm hoping to gather some professional consensus about a lot of the points I make here. I want to know if I'm advancing ideas that seem shaky or that don't align with your own experience. Ideally, everything I write or argue for would be meticulously based on lengthy research and studies; however, that isn't always possible, so I'm hoping to leverage your own experiences and insights to get more confirmation.
 
+## Slides
+
+I'm giving several presentations related to this series topic. For a slide presentation, see [idratherbewriting.com/trends-generalists-specialists/](https://idratherbewriting.com/trends-generalists-specialists/index.html). You can also download a [PDF of the slides here](https://idratherbewriting.com/trends-generalists-specialists/trends_generalist_specialist.pdf).
+
 {% include series/seriesTagGeneralistSpecialists_next.html %}

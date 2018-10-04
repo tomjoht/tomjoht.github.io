@@ -22,9 +22,9 @@ One way to reduce the complexity of experience is through a psychological princi
 
 For example, when checking into a hotel, users encounter the lobby, receptionist, concierge, waiting area, check-in desk, and other details that trigger users into an automatic routine based on previous experiences. Almost without thought, when users encounter these “prototypes of space” (aligning with their previous details in similar spaces), they know what to do, the routine to follow, what’s expected of them, and what to expect from others.
 
-By prompting users with the right stimuli &mdash; stimuli that align with the prototypes the user associates with that space &mdash; you help users naturally move about and operate in that space. Amant explains:
+By prompting users with the right stimuli &mdash; stimuli that align with the prototypes the user associates with that space &mdash; you help users naturally move about and operate in that space. St. Amant explains:
 
-> By catering my design to meeting your experiences, I make these items easier for you to use in that context (Reflexes, Reactions, and Usability: Examining How Prototypes of Place Can Enhance UXD Practices, *Communication Design Quarterly*).
+> By catering my design to meeting your experiences, I make these items easier for you to use in that context.
 
 Every genre has certain expectations around it. When you align your text with these genre conventions, you make it easier for users to find, navigate, and absorb the information.
 

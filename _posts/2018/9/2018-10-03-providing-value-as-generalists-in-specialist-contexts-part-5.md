@@ -50,7 +50,7 @@ I’ll provide some of the highlights here in a quick way, and you can see if an
 
 {% include random_ad.html %}
 
-### Principle 1: Let users switch between macro and micro views
+## Principle 1: Let users switch between macro and micro views
 
 One way that we simplify any complex process is by dividing it up into smaller steps. For example, in drawing books for kids, one way to make it easier to draw is by chunking up the process, like this:
 
