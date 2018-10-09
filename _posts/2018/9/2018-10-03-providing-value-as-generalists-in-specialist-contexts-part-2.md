@@ -11,14 +11,16 @@ tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 summary: "Thanks to UX design, technology is becoming a simpler experience for end-users; however, the code is becoming more complex behind the scenes. As a result, more technical writing jobs are transitioning to the areas of complexity in the developer domain. Because content in the developer domain is so technical and specialized, many developers are collaborating and assisting with the documentation. As developers get involved in docs, they usually adopt docs-as-code tools, writing in simpler Markdown files."
 date: 2018-10-03T03:13:41+00:00
-bitlink: genandspecialisttrendspart2
+bitlink: http://bit.ly/genandspecialisttrendspart2
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}
 
+{{site.data.alerts.note}}I have a more up-to-date version of this post that incorporates a lot of the feedback I received in the comments and survey. Check out [Tech comm trends -- why tech writers will be collaborating more with engineers](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/) for my second take on trends. {{site.data.alerts.end}}
+
 ## The impact of UX and the need for documentation
 
-It seems that technology is getting simpler on the front-end for mainstream end users, but also more complex on the backend with development. In a recent episodes of the Cherryleaf podcast, [40. The evolution of the technical communicator’s career](https://cherryleaf.podbean.com/e/the-evolution-of-technical-communication/), Ellis Pratt discusses an article called [Software technical writing is a dying career (but here’s what writers can do to stay in the software game)](https://softwaresaltmines.com/2015/06/16/software-technical-writing-dying/), by Jim Grey published in 2015.
+It seems that technology is getting simpler on the front-end for mainstream end users, but also more complex on the backend with development. In a recent episode of the Cherryleaf podcast, [40. The evolution of the technical communicator’s career](https://cherryleaf.podbean.com/e/the-evolution-of-technical-communication/), Ellis Pratt discusses an article called [Software technical writing is a dying career (but here’s what writers can do to stay in the software game)](https://softwaresaltmines.com/2015/06/16/software-technical-writing-dying/), by Jim Grey published in 2015.
 
 Grey’s main argument is that "companies are leaning into good user-interface design and stepping away from online Help systems and printed/PDF documentation." Grey explains that he had lunch with a business owner who explained this transition, saying:
 

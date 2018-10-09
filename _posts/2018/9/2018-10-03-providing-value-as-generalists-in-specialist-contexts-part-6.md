@@ -11,7 +11,7 @@ tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 summary: "My discussion of information usability principles continues here. Some additional information usability principles include conforming to the patterns and expectations of the genre and schemas, reducing the complexity of technical language, and iterating and incrementing on content following an agile approach."
 date: 2018-10-03T03:13:36+00:00
-bitlink: genandspecialisttrendspart6
+bitlink: http://bit.ly/genandspecialisttrendspart6
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}
@@ -32,10 +32,10 @@ One of the first steps to organizing and presentation information, therefore, is
 
 Documentation is a genre that has specific conventions that users expect. What are some of these conventions? Hans van der Meij is an academic researcher who “spent hundreds upon hundreds of hours analysing the products of technical communicators” to arrive at a pattern he calls the Four Components model. In this model, he found that procedures consist of the following four components:
 
-> goals<br/>
-> prerequisite states<br/>
-> action and reaction<br/>
-> unwanted states (warnings and troubleshooting information)
+> - goals<br/>
+> - prerequisite states<br/>
+> - action and reaction<br/>
+> - unwanted states (warnings and troubleshooting information)
 
 In other words, these are the core conventions of the documentation genre. When you shape information into these elements, users more naturally understand and interact with the documentation.
 

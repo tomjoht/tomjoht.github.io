@@ -11,7 +11,7 @@ tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 summary: "Specialists often lack user feedback to guide and inform their decisions. This is an area that technical writers can provide value, especially in helping identify problem areas in the user experience."
 date: 2018-10-03T03:13:38+00:00
-bitlink: genandspecialistrendspart4
+bitlink: http://bit.ly/genandspecialistrendspart4
 ---
 
 {% include series/seriesTagGeneralistSpecialists.html %}
