@@ -16,7 +16,7 @@ bitlink: http://bit.ly/genandspecialisttrendspart2
 
 {% include series/seriesTagGeneralistSpecialists.html %}
 
-{{site.data.alerts.note}}I have a more up-to-date version of this post that incorporates a lot of the feedback I received in the comments and survey. Check out [Tech comm trends -- why tech writers will be collaborating more with engineers](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/) for my second take on trends. {{site.data.alerts.end}}
+{{site.data.alerts.note}}I have a more up-to-date version of this post that incorporates a lot of the feedback I received in the comments and survey. Check out <a href='https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/'>Tech comm trends -- why tech writers will be collaborating more with engineers</a> for my second take on trends. {{site.data.alerts.end}}
 
 ## The impact of UX and the need for documentation
 
