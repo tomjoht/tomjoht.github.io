@@ -63,13 +63,13 @@ However, I don't do a lot of UX copywriting (maybe once a month), since we have 
 
 Was Grey right or wrong? So far, I haven't presented any data. It's easy to trade anecdote for anecdote, but what does the data say about tech comm jobs? Are they diminishing? If so, why? Let's dive into some data from the Bureau of Labor Statistics (BLS).
 
-If you look at the latest [STC Salary Database](https://www.stc.org/salary-database/) (based on BLS data), you can see that tech writing jobs have largely remained the same since 2012:
+If you look at the latest [STC Salary Database](https://www.stc.org/salary-database/) (based on BLS data), you can see that tech writing jobs have actually grown by about 3,620 jobs in 4 years:
 
-<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewriting.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have largely remained the same since 2012</figcaption></figure>
+<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewriting.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs.</figcaption></figure>
 
-Plus or minus a few thousand jobs, there are about 50,000 technical writing jobs in the United States. The report notes that technical writing is "the only occupation [among professional writing disciplines] which has seen employment growth in each year since 2011, with an average annual employment increase of 1.9%."
+Overall, in 2016, there were about 50,000 technical writing jobs in the United States. The report notes that technical writing is "the only occupation [among professional writing disciplines] which has seen employment growth in each year since 2011, with an average annual employment increase of 1.9%."
 
-Despite the continued growth, technical writing jobs aren't necessarily keeping pace with software development jobs. The BLS says the [job growth for software developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) from 2016 to 2026 is projected at 24%, but for [technical writers](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm), the job growth is projected at just 11%. (Both growth rates are higher than the national average, which is 7%.)
+Despite the growth, technical writing jobs aren't necessarily keeping pace with software development jobs. The BLS says the [job growth for software developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) from 2016 to 2026 is projected at 24%, but for [technical writers](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm), the job growth is projected at just 11%. (Both growth rates are higher than the national average, which is 7%.)
 
 To put these numbers into perspective, suppose 10 technical writers support 1,000 engineers. In 2026, **11** technical writers will support **1,240** engineers. If the rate stays the same for the next decade, in 2036, **12** technical writers will support **1,538** engineers.
 
