@@ -361,6 +361,10 @@ EMBED_PARAMS.border = "hidden";
 <div id="div_6339674"></div>
 <script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>
 
+## Slides
+
+For slides related to this topic, see [https://idratherbewriting.com/trends-collaboration-with-engineers/](https://idratherbewriting.com/trends-collaboration-with-engineers/).
+
 ## References
 
 [*2016-2017 STC Salary Database (based on 2016 data).*](https://www.stc.org/salary-database/) *Society for Technical Communication.* Retrieved Oct 2018.
