@@ -5,7 +5,7 @@ categories:
 - simplifying-complexity
 - writing
 keywords:
-summary: "Trends in technical communication can be hard to decipher, even when looking at data. But one underlying trend is that technology seems to be getting more specialized and complex. This trend toward specialization is driving up the value of technical knowledge, making it more prized than writing skills. To handle the complexity, technical writers may find that they must play increasingly collaborative roles with engineers to create documentation. To drive up their value in organizations, technical writers should look for ways to collaborate more skillfully with engineers in creating content."
+summary: "Trends in technical communication can be hard to decipher, even when looking at data. But one underlying trend is that technology seems to be getting more specialized and complex. This trend toward specialization is driving up the value of technical knowledge, making it more prized than writing skills. To handle the complexity, technical writers must play increasingly collaborative roles with engineers to create documentation."
 bitlink: http://bit.ly/trendscollabwithengineers
 ---
 
@@ -17,7 +17,7 @@ In this post, I've expanded the section on trends with more depth, analysis, and
 
 At the bottom of this post (in [Your reactions and input](#reactions-and-input)), I also have some survey questions to gather your level of agreement or disagreement. Your responses help me better align my observations. Thanks!
 
-## Why trends intrigue us
+## Why trends intrigue me
 
 Posts about trends usually receive a lot of views and comments, which suggests that trends are an important topic for tech comm professionals. Why are trends important to recognize and follow? In a rapidly changing field like technology, almost everything is in constant flux. Sometimes you wake up and so much seems to have changed.
 
@@ -58,6 +58,8 @@ In other words, rather than remove writers from the equation, UX designers becom
 The latter is true for me. I occasionally work with a design team in my current role. They create design mocks, and they ask me to review the text. I provide detailed feedback that covers every aspect of text in the UI, from button labels to microcopy, dialog box text, error messages, and more.
 
 However, I don't do a lot of UX copywriting (maybe once a month), since we have a small design team and they don't crank out new user interfaces too often. But without the UX team, I'm not sure I would be regularly included in these UI writing efforts. In this case, UX has increased my role rather than taken it away.
+
+On the other hand, without the UX design team, I'm sure the user interface that the engineers (without UX skills) might create would be so bad that I'd be called in with great urgency to provide more detailed explanations, even video tutorials walking users through the confusing process. So whether UX has a positive or negative influence on my need within teams is somewhat uncertain to me.
 
 ## Evaluating trends based on tech comm job data
 
@@ -135,7 +137,7 @@ Lanier summarizes a respondent's point of view in another academic article advoc
 
 > This reflects the trend that technical communication is moving away from a “Jack of all trades” model, where technical writing is a very generalized concept, and toward a model that is more specialized and contextually defined. Giammona (2004) likewise found participants stating that new writers would benefit from experience within the industry they are going to write for, and Kim and Tolley (2004) related the story of a writer whose supervisor found the participant’s background in science more important than her knowledge of computing.
 
-Given that Lanier restricts his data set to jobs requiring 2 years or less of experience, it's hard to compare the data set with Brumberger and Lauer's. However, 38% in 2006 and 45% in 2013 suggests a constant emphasis on specialized knowledge. Deciding to specialize in a particular engineering domain wouldn't be considered a *new* trend, but its consistency for the past 15 years suggests that it's an ongoing requirement.
+Given that Lanier restricts his data set to jobs requiring 2 years or less of experience, it's hard to compare the data set with Brumberger and Lauer's. However, 34% in 2006 and 45% in 2013 suggests a constant emphasis on specialized knowledge. Deciding to specialize in a particular engineering domain wouldn't be considered a *new* trend, but its consistency for the past 15 years suggests that it's an ongoing requirement &mdash; one that is possibly increasing as a criteria for jobs.
 
 ## Technical knowledge valued more than writing skills
 
@@ -172,7 +174,7 @@ Of course, these dual roles are self-defined only. In the HR books, one is usual
 
 One of the early trends to carve the intellectual heart out of technical writing was the content strategy movement. When content strategy became a common term, it deflated the intellectual and analytical foundations of technical writing, reducing the act of  writing to mere wordsmithing.
 
-The discussion about whether writing involves intellectual and analytical thought has been going on in other disciplines as well, such as in academia. Writing is rarely allowed to be its own discipline but is rather a complementary skill for other knowledge-oriented fields such as Engineering. Robert Johnson, a professor of writing, counterargues by noting that from the earliest days of the Greeks, the true artist had to consider the end goals of their art. Quoting John Wild, Johnson explains,
+The discussion about whether writing involves intellectual and analytical thought has been going on in other disciplines as well, such as in academia. Writing is rarely allowed to be its own discipline but is rather a complementary skill for other knowledge-oriented fields such as Engineering. Robert Johnson, a professor of writing, counter-argues by noting that from the earliest days of the Greeks, the true artist had to consider the end goals of their art. Johnson explains,
 
 > … *techne* and the arts of making have two ends (*telos*). The initial end is the thing being produced, the product. Beyond the product, however, is the use (or uses) for the product. ([Craft Knowledge: Of Disciplinarity in Writing Studies](https://www.jstor.org/stable/27917868))
 
@@ -182,7 +184,7 @@ And yet, that's not how people perceive writing anymore. Writing is merely words
 
 ## More complexity in technology is driving the valuation of technical knowledge
 
-What exactly is driving the emphasis on technical knowledge over writing skills? If you consider an analogy from economics, technical knowledge is becoming more prized because it is becoming a scarce commodity. And it is becoming scarcer because technology is getting more complex and specialized. It is the law of supply and demand at work in the enterprise, applied to knowledge. When very few people have knowledge of X, your possession of X knowledge can make you highly valued (assuming people care about X).
+What exactly is driving the emphasis on technical knowledge over writing skills? If you consider an analogy from economics, technical knowledge is becoming more prized because it is becoming a scarce commodity. And it is becoming a scarce commodity because technology is getting more complex and specialized. It is the law of supply and demand at work in the enterprise, applied to knowledge. When very few people have knowledge of X, your possession of X knowledge can make you highly valued (assuming people care about X).
 
 Some will object that technical writers *are* specialists, but of another kind of knowledge. As a technical writer, you're a specialist in language simplification, clarity, information usability, publishing, and user analysis. But is this type of knowledge *special* enough? Is it valued enough in the enterprise? Perhaps not. People seem to get by with simple tools like wikis and Microsoft Word, but they can't get by without the raw technical content.
 
