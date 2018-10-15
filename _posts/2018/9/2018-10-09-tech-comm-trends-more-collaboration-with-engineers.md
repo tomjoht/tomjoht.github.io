@@ -9,6 +9,12 @@ summary: "Trends in technical communication can be hard to decipher, even when l
 bitlink: http://bit.ly/trendscollabwithengineers
 ---
 
+{% comment %}
+work this in:
+https://www.reddit.com/r/technicalwriting/comments/9nxr21/how_much_weight_does_a_certificate_in_technical/
+I work in engineering documentation, so I would always choose a candidate that has solid domain expertise even if they only have adequate writing skills. It's easier to train the writing skills than teach the domain expertise.
+{% endcomment %}
+
 ## Note about this revision
 
 Last week I published a 7-part series called [Tech comm trends: Providing value as a generalist in a sea of specialists](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/). However, I felt that the essay series (and its accompanying presentation) were trying to cover too much ground. I was not only identifying trends but also trying to argue for strategies to address gaps that the trends created. The approach felt like it lacked coherence and focus. As a result, I decided to limit the scope to just the first part: trends. I realize this means cutting out about half the essay/presentation, but I think it has more punch this way.
