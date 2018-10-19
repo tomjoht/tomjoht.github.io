@@ -3,7 +3,7 @@ title: "Brainstorming by transposing patterns from one category to another"
 categories:
 - writing
 keywords:
-summary: "Last week during an internal writers conference at Amazon, Carla Johnson (co-author of the *Experiences: 7th Era of Marketing* and other books) gave a workshop that ostensibly was about how to create more persuasive pitches for change within an organization. But what resonated with me a bit more was the novel technique for brainstorming by transposing categories of experience, which despite my background in literature and writing, I had never encountered."
+summary: "Last week during an internal writers conference at Amazon, Carla Johnson (co-author of the <i>Experiences: 7th Era of Marketing</i> and other books) gave a workshop that ostensibly was about how to create more persuasive pitches for change within an organization. But what resonated with me a bit more was the novel technique for brainstorming by transposing categories of experience, which despite my background in literature and writing, I had never encountered."
 bitlink: http://bit.ly/brainstormingbytransposing
 ---
 
