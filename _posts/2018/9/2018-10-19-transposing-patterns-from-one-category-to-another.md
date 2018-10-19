@@ -3,11 +3,11 @@ title: "Brainstorming by transposing patterns from one category to another"
 categories:
 - writing
 keywords:
-summary: ""
-bitlink: http://bit.ly/
+summary: "Last week during an internal writers conference at Amazon, Carla Johnson (co-author of the *Experiences: 7th Era of Marketing* and other books) gave a workshop that ostensibly was about how to create more persuasive pitches for change within an organization. But what resonated with me a bit more was the novel technique for brainstorming by transposing categories of experience, which despite my background in literature and writing, I had never encountered."
+bitlink: http://bit.ly/brainstormingbytransposing
 ---
 
-Last week during an internal writers conference at Amazon, Carla Johnson (co-author of the *Experiences: 7th Era of Marketing* and other books) gave a workshop that ostensibly was about how to create more persuasive pitches for change within an organization. But what resonated with me a bit more was the novel technique for brainstorming by transposing categories of experience, which despite my background in literature and writing, I had never encountered.
+## The brainstorming technique
 
 The basic idea is that patterns you observe in one category can be transposed to another category to create a new way of seeing that category. It's difficult to explain the technique without an example, so here's what we did in the workshop.
 
@@ -34,6 +34,8 @@ Our pitch was basically this:
 Here's the process depicted in a quick graphic:
 
 <img src="/images/carlajohnsonworkshop_process.svg" />
+
+## Thoughts
 
 Interesting, eh? I don't make many pitches, though I think I'll try this out when I do. I'm more intrigued by the idea that the observations in one experience (a coffee shop) can be extracted into higher level patterns that you can transpose on a completely different domain (technical reviews) to see it in a new light.
 
