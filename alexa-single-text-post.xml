@@ -1,0 +1,21 @@
+---
+layout: null
+search: false
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    {% for post in site.posts limit:1 %}
+    {% unless post.categories contains "stitcher" %}
+    <item>
+      <guid>{{ post.url }}</guid>
+      <title>{{ post.title | markdownify | escape_html }}</title>
+      <description>{{ post.summary | markdownify | strip_html }}{{ post.content | markdownify | strip_html }}</description>
+      <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+      <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
+     </item>
+     {% endunless %}
+     {% endfor %}
+  </channel>
+</rss>

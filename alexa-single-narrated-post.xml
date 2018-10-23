@@ -1,0 +1,22 @@
+---
+layout: null
+search: false
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    {% for post in site.posts %}
+    {% if post.categories contains "stitcher" %}
+    <item>
+      <guid>{{ post.url }}</guid>
+      <title>{{ post.title | markdownify | escape_html }}</title>
+      <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+      <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
+      <enclosure url="{{ post.podcast_link}}"
+		length="{{post.podcast_length}}" type="audio/mpeg" />
+     </item>
+     {% endif %}
+     {% endfor %}
+  </channel>
+</rss>
