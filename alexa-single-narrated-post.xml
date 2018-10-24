@@ -10,7 +10,7 @@ search: false
     {% if post.categories contains "stitcher" %}
     <item>
       <guid>{{ post.url }}</guid>
-      <title>{{ post.title | markdownify | escape_html }}</title>
+      <title>{{ post.title | markdownify | strip_html }}</title>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
       <enclosure url="{{ post.podcast_link}}"
