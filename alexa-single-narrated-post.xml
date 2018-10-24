@@ -6,17 +6,17 @@ search: false
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    {% for post in site.posts %}
-    {% if post.categories contains "stitcher" %}
+    {% assign narrated_cats = site.posts | where: "categories", "stitcher" %}
+    {% for post in narrated_cats limit: 1 %}
+    <ttl>30</ttl>
     <item>
       <guid>{{ post.url }}</guid>
       <title>{{ post.title | markdownify | strip_html }}</title>
+      <description>{{ post.summary | markdownify | strip_html }}{{ post.content | markdownify | strip_html }}</description>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
-      <enclosure url="{{ post.podcast_link}}"
-		length="{{post.podcast_length}}" type="audio/mpeg" />
+      <enclosure url="{{ post.podcast_link}}" length="{{post.podcast_length}}" type="audio/mpeg" />
      </item>
-     {% endif %}
      {% endfor %}
   </channel>
 </rss>

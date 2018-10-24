@@ -6,8 +6,8 @@ search: false
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    {% for post in site.posts limit:1 %}
-    {% unless post.categories contains "stitcher" %}
+    {% assign text_cats = site.posts | where_exp: "item", "item.categories != 'stitcher'" %}
+    {% for post in text_cats limit: 1 %}
     <item>
       <guid>{{ post.url }}</guid>
       <title>{{ post.title | markdownify | strip_html }}</title>
@@ -15,7 +15,6 @@ search: false
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
      </item>
-     {% endunless %}
      {% endfor %}
   </channel>
 </rss>
