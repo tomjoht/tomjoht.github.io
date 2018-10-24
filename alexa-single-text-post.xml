@@ -7,12 +7,11 @@ search: false
 <rss version="2.0">
   <channel>
     {% assign text_cats = site.posts | where_exp: "item", "item.categories != 'stitcher'" %}
-    {% for post in text_cats limit: 1 %}
+    {% for post in text_cats limit: 3 %}
     <item>
       <guid>{{ post.url }}</guid>
       <title>{{ post.title | markdownify | strip_html }}</title>
-      <description>{{post.title}}... Summary ... {{ post.summary | markdownify | strip_html }}
-        .  Now let's jump into the post ... {{ post.content | markdownify | strip_html | truncate: 4000, ".... To hear more of this post, go to I'd Rather Be Writing dot com." }}
+      <description>{{post.title}} ... {{ post.summary | markdownify | strip_html }} ... {{ post.content | markdownify | strip_html | truncate: 4000, ".... To hear more, go to I'd Rather Be Writing dot com." }}
       </description>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
