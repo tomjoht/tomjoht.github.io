@@ -11,7 +11,7 @@ search: false
     <item>
       <guid>{{ post.url }}</guid>
       <title>{{ post.title | markdownify | strip_html }}</title>
-      <description>{{post.title}} ... {{ post.summary | markdownify | strip_html }} ... {{ post.content | markdownify | strip_html | truncate: 4000, ".... To hear more, go to I'd Rather Be Writing dot com." }}
+      <description>{{post.title}} ... {{ post.summary | markdownify | strip_html }} ... {{ post.content | markdownify | strip_html | truncate: 4000, ".... To hear more, go to I'd Rather Be Writing dot com." }}</description>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
       <enclosure url="{{ post.podcast_link}}" length="{{post.podcast_length}}" type="audio/mpeg" />
