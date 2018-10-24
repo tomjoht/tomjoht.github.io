@@ -8,7 +8,6 @@ search: false
   <channel>
     {% assign narrated_cats = site.posts | where: "categories", "stitcher" %}
     {% for post in narrated_cats limit: 1 %}
-    <ttl>30</ttl>
     <item>
       <guid>{{ post.url }}</guid>
       <title>{{ post.title | markdownify | strip_html }}</title>
