@@ -75,3 +75,5 @@ We'll see how long I can keep it up, as it does make me less productive at work,
 Here's a short poll to see if you agree:
 
 <script language="JavaScript" src="https://www.questionpro.com/a/TakePoll?pollID=6363803"></script><noscript><a href="http://www.questionpro.com" title="online survey">Online Survey</a></noscript>
+
+You can [view the poll results here](https://www.questionpro.com/t/PEaL3ZdCOo).
