@@ -9,6 +9,7 @@ redirect_from:
  - /2013/10/26/guest-post-by-edgar-allen-poe-the-tell-tale-project/
 summary: "The following is a guest post by Edgar Allen Poe. Poe completed many works of both fiction and nonfiction in his life, including \"The Raven,\" \"The Fall of the House of Usher,\" <i>Eureka</i>, and most famously, the \"Tell-Tale Heart.\" Many are unaware that one of Poe's first jobs was as a technical writer. In this post, he explains some deep conflicts and challenges he had on one project, and how he overcame the challenges."
 author: Edgar Allen Poe
+bitlink: edgarallenpoeguestpost
 ---
 <img src="/images/edgar-allen-poe.png" style="float: right; padding: 15px;"/>
 
