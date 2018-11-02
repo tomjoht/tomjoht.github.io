@@ -4,6 +4,7 @@ categories:
 - api-doc
 - podcasts
 - stitcher
+- api-doc
 keywords:
 summary: "In the debate between being a specialist or generalist, there's also a third option: developing <i>technical acuity</i>. A person with a high degree of technical acuity has the technical mindset needed to understand and solve problems across a variety of technical domains. Given the ever growing number of technologies, developing technical acuity can be more advantageous, especially in technical writing contexts since technical writers work with a lot of different technologies."
 bitlink: http://bit.ly/techacuity123
@@ -45,6 +46,8 @@ Preferring technical acuity over specialized knowledge isn't a hard argument to 
 ## If we believe technical acuity, do we believe in writing acuity?
 
 Strangely, we don't always accept the same arguments about writing. What if a candidate were to say, "Well, I don't know the details around technical writing, but I've written several *plays.*" Or, "I've never done technical writing before, but I was once the *poet laureate of my town!*" Or in reverse, "I haven't done grant writing before, but I've done plenty of technical writing."
+
+{% include random_ad.html %}
 
 If technical acuity would allow for potential competence across technical domains, why shouldn't writing be the same? After all, aren't we addressing a similar rhetorical situation in these other writing domains? Aren't we negotiating our language strategies as we consider audience and purpose? Isn't this "writing acuity"?
 
