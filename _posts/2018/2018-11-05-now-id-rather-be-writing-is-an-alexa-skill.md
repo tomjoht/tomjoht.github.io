@@ -17,7 +17,7 @@ podcast_length: 7268866
 
 {% include audio.html %}
 
-If you listen to [Flash Briefings](https://www.amazon.com/gp/help/customer/display.html?nodeId=201601880) on your Alexa device, you can now add [I'd Rather Be Writing](https://www.amazon.com/gp/product/B07K5THQ3L?ie=UTF8&ref-suffix=ss_rw) to your list of news sources. I'd Rather Be Writing is now an Alexa Flash Briefing skill.
+If you listen to [Flash Briefings](https://www.amazon.com/gp/help/customer/display.html?nodeId=201601880) on your Alexa-enabled device, such as Echo, you can now add [I'd Rather Be Writing](https://www.amazon.com/gp/product/B07K5THQ3L?ie=UTF8&ref-suffix=ss_rw) to your list of news sources. I'd Rather Be Writing is now an Alexa Flash Briefing skill.
 
 To add I'd Rather Be Writing to your Alexa Flash Briefing skills:
 
@@ -71,7 +71,7 @@ search: false
 </rss> {% endraw %}
 ```
 
-What's special about my feed? Well, after limiting the content to one specific category, it first converts any markdown into HTML through the `markdownify` filter, and then it strips out the HTML with the `strip_html`. It includes a `description` element, but this description is ignored because I configured my Flash briefing to look for the `enclosure`. The feed limits the items to just one, because Flash Briefings just read one post.
+What's special about my feed? Well, after limiting the content to one specific category (`stitcher`), it first converts any markdown into HTML through the `markdownify` filter, and then it strips out the HTML with the `strip_html`. It includes a `description` element, but this description is ignored because I configured my Flash briefing to look for the `enclosure`. (The `description` would be useful for the text feed types.) The feed limits the items to just one, because Flash Briefings just read one post.
 
 Why not just have Alexa read my content? After listening to various Flash Briefings, I was convinced that the better briefings contain custom audio rather than the machine-read text (as good as Alexa is at reading text).
 
@@ -82,6 +82,8 @@ The real challenge is not configuring Flash Briefing on a technical level. It's 
 I'm going to try to get more regular in creating audio versions of my posts. I want to do this for several reasons:
 
 * I'm an avid listener of podcasts and audio books, consuming at least 1.5 hrs a day during my morning and evening commute on my bike.
-* I enjoy listening to content in the audio form. You can get a better sense of how the author feels about what they're saying. I just enjoy consuming content in audio form.
+* I enjoy listening to content in the audio form. You can get a better sense of how the author feels about what they're saying.
 * I have more time to listen to content at a consumable pace than I have time to read it.
 * I want to improve my ability to narrate audio in an engaging, conversational way.
+
+If you have feedback on my Alexa skill, please share it with me. 
