@@ -18,7 +18,7 @@ redirect_from:
 
 {% include audio.html %}
 
-## Critical inquiry versus vocational knowledge.
+## Critical inquiry versus vocational knowledge
 
 Lately I've been thinking about two types of knowledge: intellectual knowledge versus vocational knowledge. Or rather, critical inquiry versus technical how-to. Or theoretical knowledge versus practical knowledge. In short, asking *why* versus asking *how* or *what*. I'm not entirely sure how to characterize the differences, but the difference in focus has contributed to some angst in my tech writing career lately.
 
