@@ -12,6 +12,8 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcas
 podcast_file_size: 23 MB
 podcast_duration: "27:16"
 podcast_length: 23023302
+redirect_from:
+- /2018/11/18/different-types-of-knowledge/
 ---
 
 {% include audio.html %}
