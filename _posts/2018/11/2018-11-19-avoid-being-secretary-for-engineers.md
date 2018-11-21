@@ -123,7 +123,7 @@ As long as I keep focused on the challenges and difficulties in solving document
 
 ## Short feedback survey on this post
 
-Would you like to take a short survey to provide your input on the ideas in this post? If so, you can [take the survey here](https://www.questionpro.com/t/AOaGwZdLxu).
+Would you like to take a short survey to provide your input on the ideas in this post? If so, you can [take the survey here](https://www.questionpro.com/t/AOaGwZdLxu). Thanks!
 
 You can see the survey responses (so far) [here](https://www.questionpro.com/t/PEglNZdLxu).
 
