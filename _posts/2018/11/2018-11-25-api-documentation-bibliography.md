@@ -19,3 +19,5 @@ If you're looking for some good articles to start, check out these two:
 * "When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects." By Andrew Head, Caitlin Sadowski, Emerson Murphy-Hill, and Andrea Knight. *2018 ACM/IEEE 40th International Conference on Software Engineering.* ([ResearchGate link](https://www.researchgate.net/publication/325732077_When_not_to_comment_questions_and_tradeoffs_with_API_documentation_for_C_projects). I also found it online [here](https://people.eecs.berkeley.edu/~andrewhead/pdf/comment.pdf).)
 
 Lately I've been interested to learn more about techniques and strategies for documenting code. It seems like software code is one of the most difficult things to document, and I wanted to see what attention this topic has received in academic studies.
+
+{% include random_ad.html %}
