@@ -4,7 +4,7 @@ categories:
 - general
 - api-doc
 keywords:
-summary: "I'll be giving an upcoming presentation and workshop at the STC Summit in Denver, Colorado, held May 5-8, 2018. My presentation is on trends and the dilemma between being a specialist or generalist; my workshop is an API documentation workshop."
+summary: "I'll be giving an upcoming presentation and workshop at the STC Summit in Denver, Colorado, held May 5-8, 2018. My presentation is on trends and the dilemma between being a specialist or generalist; my workshop is on API documentation."
 bitlink: http://bit.ly/myupcomingstcsummitpresworkshop
 ---
 
