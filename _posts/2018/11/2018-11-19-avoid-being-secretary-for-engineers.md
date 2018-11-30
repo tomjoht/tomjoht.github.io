@@ -19,6 +19,26 @@ redirect_from:
 
 {% include audio.html %}
 
+{% comment %}
+see if you can work this quote in:
+
+In the rare instances where program documentation is
+written by technical communicators, they are often brought
+into the loop after the program has been largely completed.
+Typically, material is simply tossed over the fence for the
+communicators to figure out. At that point, many of the
+key decisions made by the developers during the program’s
+design and implementation have been lost. The technical
+writer faces the hurdle of learning as much as possible about
+a program with little help from the developer, who may now
+be more concerned with a new project than discussing old
+code. The end result is again program documentation that
+is of relatively low quality.
+
+Connecting Technical Communicators
+with Technical Developers. SIGDOC’02, October 20–23, 2002, Toronto, Ontario, Canada.
+ {% endcomment %}
+
 ## Critical inquiry versus vocational knowledge
 
 Lately I've been thinking about two types of knowledge: intellectual knowledge versus vocational knowledge. Or rather, critical inquiry versus technical how-to. Or theoretical knowledge versus practical knowledge. In short, asking *why* versus asking *how* or *what*. I'm not entirely sure how to characterize the differences, but the difference in focus has contributed to some angst in my tech writing career lately.
