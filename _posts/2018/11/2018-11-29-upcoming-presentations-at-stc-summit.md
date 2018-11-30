@@ -2,6 +2,7 @@
 title: "My upcoming presentation and workshop at the 2019 STC Summit in Denver"
 categories:
 - general
+- api-doc
 keywords:
 summary: "I'll be giving an upcoming presentation and workshop at the STC Summit in Denver, Colorado, held May 5-8, 2018. My presentation is on trends and the dilemma between being a specialist or generalist; my workshop is an API documentation workshop."
 bitlink: http://bit.ly/myupcomingstcsummitpresworkshop
@@ -24,3 +25,5 @@ See the [Full Schedule](https://summit.stc.org/schedule/) for details.
 My preconference workshop is on API documentation. See the [Preconference Workshops](API Documentation Workshop, Tom Johnson) for details. The workshop will cover the same topics as in my [API documentation site](/learnapidoc/).
 
 You can learn more about the STC Summit here: [https://summit.stc.org/](https://summit.stc.org).
+
+{% include random_ad.html %}
