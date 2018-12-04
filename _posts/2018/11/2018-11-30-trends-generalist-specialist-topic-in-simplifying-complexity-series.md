@@ -2,6 +2,8 @@
 title: "New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist through your technical acuity"
 categories:
 - simplifying-complexity
+- stitcher
+- podcasts
 keywords:
 summary: "In my <a href='/simplifying-complexity'>Simplifying Complexity series</a>, I added a new post called, <i>Principle 11: Be both a generalist and specialist through your technical acuity.</i> I also recorded this essay as a narrated podcast."
 bitlink: http://bit.ly/simplifyingcomplexityseriesgenspectrends
