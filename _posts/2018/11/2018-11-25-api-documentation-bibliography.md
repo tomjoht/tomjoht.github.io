@@ -11,7 +11,7 @@ A while ago I mentioned that there didn't seem to be many academic articles focu
 
 Thanks Bob for putting this together. This is a great resource! I've been looking for articles on how people approach code in documentation, and this list has been a helpful resource.
 
-Many academic articles on API documentation can be found in a diversity of journal articles, so they're not always easy to track down. One trick is that if you find one relevant academic article, you can mine the works cited for related sources.
+Many academic articles on API documentation can be found in a diversity of journal articles, so they're not always easy to track down. One trick is that if you find one relevant academic article, you can mine the references for related sources.
 
 If you're looking for some good articles to start, check out these two:
 
