@@ -11,13 +11,13 @@ A while ago I mentioned that there didn't seem to be many academic articles focu
 
 Thanks Bob for putting this together. This is a great resource! I've been looking for articles on how people approach code in documentation, and this list has been a helpful resource.
 
-Many academic articles on API documentation can be found in a diversity of journal articles, so they're not always easy to track down. One trick is that if you find one relevant academic article, check out the works cited for additional sources.
+Many academic articles on API documentation can be found in a diversity of journal articles, so they're not always easy to track down. One trick is that if you find one relevant academic article, you can mine the works cited for related sources.
 
 If you're looking for some good articles to start, check out these two:
 
 * "Application Programming Interface Documentation: What Do Software Developers Want?" by Michael Meng, Stephanie Steinhardt, and Andreas Schubert. *Journal of Technical Writing and Communication.* 2018, Vol. 48(3) 295–330. ([ResearchGate link](https://www.researchgate.net/publication/318733467_Application_Programming_Interface_Documentation_What_Do_Software_Developers_Want))
 * "When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects." By Andrew Head, Caitlin Sadowski, Emerson Murphy-Hill, and Andrea Knight. *2018 ACM/IEEE 40th International Conference on Software Engineering.* ([ResearchGate link](https://www.researchgate.net/publication/325732077_When_not_to_comment_questions_and_tradeoffs_with_API_documentation_for_C_projects). I also found it online [here](https://people.eecs.berkeley.edu/~andrewhead/pdf/comment.pdf).)
 
-Lately I've been interested to learn more about techniques and strategies for documenting code. It seems like software code is one of the most difficult things to document, and I wanted to see what attention this topic has received in academic studies.
+Lately I've been interested to learn more about techniques and strategies for documenting code. It seems like software code is one of the most difficult things to document, and I wanted to see what attention this topic has received in academic studies. More on this topic later...
 
 {% include random_ad.html %}
