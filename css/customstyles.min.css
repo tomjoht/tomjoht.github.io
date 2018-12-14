@@ -52,3 +52,10 @@ input#tlemail {
   padding: 4px;
   font-size:18px;
 }
+
+div.feedlybutton {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 2px;
+}
