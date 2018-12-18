@@ -5,9 +5,10 @@ categories:
 - writing
 keywords:
 summary: "Wondering what to get the precious technical writer in your family or workplace for the holidays? Here are some gift ideas."
-bitlink: http://bit.ly/xmasgifts4techwriters
+bitlink: http://bit.ly/holidaygiftstechcomm
 redirect_from:
 - /2018/12/16/christmas-gifts-for-technical-writers/
+- /2018/12/18/christmas-gifts-for-technical-writers/
 ---
 
 I posted my question about holiday gifts for tech writers on Twitter, and a host of people responded. You can read the thread below:
