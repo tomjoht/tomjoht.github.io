@@ -1,14 +1,16 @@
 ---
-title: "Christmas gifts for technical writers"
+title: "Top 10 holiday gifts for technical writers"
 categories:
 - general
 - writing
 keywords:
-summary: "Wondering what to get the precious technical writer in your family or workplace for Christmas? Here are some gift ideas."
+summary: "Wondering what to get the precious technical writer in your family or workplace for the holidays? Here are some gift ideas."
 bitlink: http://bit.ly/xmasgifts4techwriters
+redirect_from:
+- /2018/12/16/christmas-gifts-for-technical-writers/
 ---
 
-I posted my question about Christmas gifts for tech writers on Twitter, and a host of people responded. You can read the thread below:
+I posted my question about holiday gifts for tech writers on Twitter, and a host of people responded. You can read the thread below:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I’m putting together a post about the best Christmas gifts to get technical writers. Any ideas for me? Stuff uniquely suited for tech writer people? <a href="https://twitter.com/hashtag/techcomm?src=hash&amp;ref_src=twsrc%5Etfw">#techcomm</a></p>&mdash; Tom Johnson (@tomjohnson) <a href="https://twitter.com/tomjohnson/status/1074049610702704640?ref_src=twsrc%5Etfw">December 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -19,7 +21,7 @@ Although many people offered relevant writer-oriented suggestions, one person wi
 
 I agree. This pretty much cancels out anything like Udemy courses, professional memberships, style guides, screen recording software, or other writerly accoutrements. What's left? You have to get a bit more creative.
 
-Back in 2008, I published [Top 10 Gag Christmas Gifts for Technical Writers](https://idratherbewriting.com/2008/11/30/top-10-christmas-gifts-for-technical-writers/). This time around, I decided to create a Christmas list *based on products I personally own*. (By the way, this is a fun, not-so-serious post.) With that introduction, here are my top 10 Christmas gifts for technical writers:
+Back in 2008, I published [Top 10 Gag Christmas Gifts for Technical Writers](https://idratherbewriting.com/2008/11/30/top-10-christmas-gifts-for-technical-writers/). This time around, I decided to create a holiday list *based on products I personally own*. (By the way, this is a fun, not-so-serious post.) With that introduction, here are my top 10 holiday gifts for technical writers:
 
 
 ## 1. Metro Vacuum ED500P DataVac 500-Watt, 75-HP Electric Duster {#duster}
