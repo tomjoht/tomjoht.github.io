@@ -16,9 +16,11 @@ I posted my question about holiday gifts for tech writers on Twitter, and a host
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I’m putting together a post about the best Christmas gifts to get technical writers. Any ideas for me? Stuff uniquely suited for tech writer people? <a href="https://twitter.com/hashtag/techcomm?src=hash&amp;ref_src=twsrc%5Etfw">#techcomm</a></p>&mdash; Tom Johnson (@tomjohnson) <a href="https://twitter.com/tomjohnson/status/1074049610702704640?ref_src=twsrc%5Etfw">December 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Although many people offered relevant writer-oriented suggestions, one person wisely noted,
+Although many people offered relevant writer-oriented suggestions, one person ([@plaindocs](https://twitter.com/plaindocs)), wisely noted:
 
-> I'm gonna be the grump here. Let people buy and expense work tools, and buy them something they will enjoy outside of work.
+><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m gonna be the grump here. Let people buy and expense work tools, and buy them something they will enjoy outside of work.</p>&mdash; Documentation Demon (@plaindocs) <a href="https://twitter.com/plaindocs/status/1074280460505808902?ref_src=twsrc%5Etfw">December 16, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 I agree. This pretty much cancels out anything like Udemy courses, professional memberships, style guides, screen recording software, or other writerly accoutrements. What's left? You have to get a bit more creative.
 
