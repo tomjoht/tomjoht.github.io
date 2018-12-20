@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords:
 summary: "In this post, I summarize the findings of an extensive research project about how developers at Google find and use code documentation. The research found that for simple code, sometimes developers prefer to read the code directly. However, for more complex code, developers consult documentation, often by looking in the formal class declarations for information they need; other times they look at comments in the implementation code. Besides the location of docs, the researchers also identify what type of answers and guidance developers want in code documentation."
-bitlink: http://bit.ly/
+bitlink: http://bit.ly/whennottocommentcode
 ---
 
 ## Research on code documentation
@@ -68,3 +68,5 @@ Overall, this research has many insights and conclusions. Probably the main take
 Skipping docs based on the assumption that code is more readable on its own also assumes that you can trust the judgment of the engineers who designed and created the code. In my experience, the development team almost always overestimates the level of intuitiveness of the code they wrote and assumes more capability in their audience than the audience actually has. How many times have you heard engineers say, "Users will understand this &mdash; and if they don't, they *shouldn't* be using the API." Are the risks of omitting docs greater than the risk of including them?
 
 The article addresses many of these concerns and presents a complex view about each of these facets &mdash; where to store documentation, when to document, what questions to address, and more. There's not always a clear path to follow (it's messy), and many environment, product, and audience details must factor into the documentation strategy. Still, this article provides solid research and probes the topic in illuminating ways.
+
+{% include random_ad.html %}
