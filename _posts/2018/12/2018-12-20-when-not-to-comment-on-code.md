@@ -30,7 +30,9 @@ Overall, the researchers found that most developers looked in the header files f
 
 > Survey respondents reported it would be most convenient to find answers to many of these questions in header files, though interviewees indicated code could be accurate and quick enough to read in many cases.
 
-The researchers also found that, for simpler APIs, many developers read the code (rather than consulting the docs) to see if they can quickly understand the API. Some developers have philosophical views about distrusting the accuracy and currency of documentation and preferring to view the code as the primary source of information. In some cases, maintaining documentation for code becomes more of a liability and a hindrance for developers. For simple code, doc just gets in the way or becomes outdated (thus misleading and harming the documentation's credibility).
+The researchers also found that, for simpler APIs, many developers read the code (rather than consulting the docs) to see if they can quickly understand the API. Some developers have philosophical views about distrusting the accuracy and currency of documentation and prefer to view the code as the primary source of information. In some cases, maintaining documentation for code becomes more of a liability and a hindrance for developers. For simple code, doc just gets in the way or becomes outdated (thus misleading and harming the documentation's credibility).
+
+Beyond skipping docs when the code is simple enough to understand on its own, the researchers also recommend avoiding docs while development is in constant flux (because it would make documentation a constantly evolving target). The researchers say you might also consider skipping code documentation when there aren't sufficient resources to keep the documentation updated. When maintainers can't keep the documentation up to date, it "rots" and becomes more of a liability.
 
 The following chart shows when documentation might not be necessary with code:
 
@@ -40,8 +42,6 @@ However, for more complex code, especially where multiple files and generated co
 
 > When isn’t code enough to be self-documenting? Sometimes, developers had no problem reading code, and in fact preferred it
 for finding more accurate information. However, there are some cases where self-documentation isn’t feasible, like code with overly complex method signatures and generated code. Other details, like recommended usage, just can’t be conveyed by source code.
-
-Beyond skipping docs when the code is simple enough to understand on its own, the researchers also recommend avoiding docs while development is in constant flux (because it would make documentation a constantly evolving target). The researchers say you might also consider skipping code documentation when there aren't sufficient resources to keep the documentation updated. When maintainers can't keep the documentation up to date, it "rots" and becomes more of a liability.
 
 ## When to document code
 
@@ -67,6 +67,6 @@ Overall, this research has many insights and conclusions. Probably the main take
 
 Skipping docs based on the assumption that code is more readable on its own also assumes that you can trust the judgment of the engineers who designed and created the code. In my experience, the development team almost always overestimates the level of intuitiveness of the code they wrote and assumes more capability in their audience than the audience actually has. How many times have you heard engineers say, "Users will understand this &mdash; and if they don't, they *shouldn't* be using the API." Are the risks of omitting docs greater than the risk of including them?
 
-The article addresses many of these concerns and presents a complex view about each of these facets &mdash; where to store documentation, when to document, what questions to address, and more. There's not always a clear path to follow (it's messy), and many environment, product, and audience details must factor into the documentation strategy. Still, this article provides solid research and probes the topic in illuminating ways.
+The article addresses many of these concerns and presents a complex view about each of these facets &mdash; where to store documentation, when to document, what questions to address, and more. There's not always a clear path to follow (it's messy), and many environmental, product, and audience details must factor into the documentation strategy. Still, this article provides solid research and probes the topic in illuminating ways.
 
 {% include random_ad.html %}
