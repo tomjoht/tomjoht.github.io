@@ -13,14 +13,14 @@ type: notes_javascript
 <h2>Declare a Function</h2>
 <p>To declare a function, write the word <code>function</code> followed by the name of the function, the function's parameters (in parentheses), and then the function's code block.</p>
 <p>{% highlight javascript %}//declare the function
-function identifyWidgets () {
+function identifyWidgets() {
 // run some code ...;
 }{% endhighlight %}</p>
 <h2>Parameters in Functions</h2>
 <p>The parentheses after the function name allow you to store parameters for the function. Parameters are variables that the function works with. When you call the function in your web page code, you can pass the function specific values for the parameters, and those values will replace the parameters in the function's code.</p>
 <p>Here's an example function with 4 parameters:</p>
 <p>{% highlight javascript %}//declare a function with 4 parameters
-function identifyWidgets (quadrant,size,duration,location) {
+function identifyWidgets(quadrant,size,duration,location) {
 //run some code that includes those parameters
 var widgetTotal = quadrant + size + duration + location;
 console.log(widgetTotal);
@@ -46,4 +46,4 @@ console.log(widgetTotal);
 //return the value for widgetTotal
 return widgetTotal;
 }{% endhighlight %}</p>
-<p>In this example, the value for widgetTotal will be passed back to the place where you called the function.</p>
+<p>In this example, the value for <code>widgetTotal</code> will be passed back to the place where you called the function.</p>
