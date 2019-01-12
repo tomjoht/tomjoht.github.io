@@ -187,12 +187,12 @@ p.post-meta {font-size: 80%; color: #777;}
 }
 
 
-div#toc ul li {
+div#toc ul li, ul#markdown-toc ul li {
     margin: 8px 0px 8px 22px;
     font-size: 90%;
     list-style: square;
 }
-div#toc ul {
+div#toc ul, ul#markdown-toc {
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
@@ -200,16 +200,16 @@ div#toc ul {
     color: gray;
 }
 
-div#toc ul li ul {
+div#toc ul li ul, ul#markdown-toc ul li ul {
     padding-left:8px;
 
 }
 
-div#toc ul li ul li::before {
+div#toc ul li ul li::before, ul#markdown-toc ul li ul li::before {
     content: "–  ";
 }
 
-div#toc >ul::before {
+div#toc >ul::before, ul#markdown-toc >ul::before {
     content: "Contents";
     font-weight: bold;
     color: #555;
