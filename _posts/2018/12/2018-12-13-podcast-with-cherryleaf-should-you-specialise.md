@@ -42,7 +42,7 @@ Here's a list of some of the topics discussed:
 
 Here are links to some of the articles we discussed:
 
-* [Tech comm trends -- Take two](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
+* [Tech comm trends -- why tech writers will be collaborating more with engineers](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
 * [Principle 11: Be both a generalist and specialist through your technical acuity](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html)
 * [Clients from Hell](http://clientsfromhell.net/)
 

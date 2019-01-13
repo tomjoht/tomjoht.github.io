@@ -1,5 +1,5 @@
 ---
-title: "Tech comm trends -- Take two"
+title: "Tech comm trends -- why tech writers will be collaborating more with engineers"
 categories:
 - api-doc
 - simplifying-complexity
