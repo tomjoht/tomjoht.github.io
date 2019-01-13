@@ -59,7 +59,7 @@ The cost for each ad space is as follows:
     <tr>
         <td markdown="span">[Inline text blurbs](#inline_text_blurbs)</td>
         <td markdown="span">1-2 sentences</td>
-        <td markdown="span">$1,500/year</td>
+        <td markdown="span">$2,000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Guest post](#guest_posts)</td>
@@ -114,11 +114,13 @@ Additionally, once a month I allow a more expanded product feature focus. This p
 
 ### Inline text blurbs {#inline_text_blurbs}
 
-Inline text blurbs are short snippets of text, about 1-2 sentences, that appear randomly in the body of a page. Here's an example:
+Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of the my [API documentation site](/learnapidoc/). Here's an example:
 
 {% include random_ad.html %}
 
-The text blurb's text changes randomly with each page refresh. However, the position of the blurb on the page remains the same (based on where I randomly insert the tag on each page). Text blurbs appear on my
+The text blurb's text changes randomly with each page refresh. However, the position of the blurb on the page remains the same (based on where I randomly insert the tag on each page). You can define 10 ad blurbs with the variety of content and links you want.
+
+The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. Cost for inline text blurbs to appear on the API documentation site is $2,000 per year.
 
 ### Guest posts {#guest_posts}
 
