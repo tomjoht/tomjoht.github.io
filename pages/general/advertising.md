@@ -130,9 +130,9 @@ These guest posts aren't merely marketing material converted into a blog post. T
 
 You can also infuse the posts with SEO techniques when you write them. Almost no one else in the tech comm industry has as much online influence as idratherbewriting.com.
 
-## Site traffic analytics for 2018 {#site_traffic}
+## Site analytics for 2019
 
-Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018, to Dec 31, 2018. I use Google Analytics to track traffic.
+Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018 through Dec 31, 2018 (based on Google Analytics):
 
 <figure><img src="/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
 
@@ -140,9 +140,9 @@ Here's another slice of analytics focusing more on audience:
 
 <figure><img src="/images/google-analytics2019-audience.png" alt="Breakdown of analytics" /> <figcaption>Here you can see a breakdown of sessions. During 2018, there were about 942,000 sessions, with users viewing 1.65 pages per session. </figcaption></figure>
 
-{{site.data.alerts.note}}How do "page views" and "sessions" differ? A page view is when the page loads, regardless of whether it's the same visitor or a different visitor. A session refers to a *unique visit* to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of pages per session is 1.65.{{site.data.alerts.end}}
+{{site.data.alerts.note}}A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.65.{{site.data.alerts.end}}
 
-The following table shows a little more detail from Google Analytics (the date range is Jan 1, 2018 to Dec 31, 2018). These metrics aren't all shown from the above screenshots:
+The following table includes more details from other Google Analytics reports (the date range is Jan 1, 2018, to Dec 31, 2018):
 
 <table>
 <colgroup>
@@ -151,7 +151,7 @@ The following table shows a little more detail from Google Analytics (the date 
 </colgroup>
     <thead>
     <tr>
-        <th>Jan 1, 2018 to Dec 31, 2018</th>
+        <th>Jan 1, 2018 &mdash; Dec 31, 2018</th>
         <th>Number</th>
     </tr>
     </thead>
@@ -231,15 +231,21 @@ The following table shows a little more detail from Google Analytics (the date 
 
 The majority of traffic comes to my [API documentation site](/learnapidoc/):
 
-<figure><img src="/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site</a></figure>
+<figure><img src="/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site.</a></figure>
+
+The traffic from the API documentation visitors is outperforming other traffic sources.
 
 ### Growth from the previous year
 
-I'd Rather Be Writing received significantly more traffic in 2018 from the previous year:
+I'd Rather Be Writing received significantly more traffic in 2018 than the previous year. The blue line represents 2018, while the brown line represents 2017.
 
 <figure><img src="/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption></figcaption>Traffic comparison by year</figure>
 
-### Top 10 pages during 2018
+The increased traffic from the API documentation site probably accounts for the massive growth.
+
+### Top 10 pages overall (across all sites)
+
+Here are the top 10 overall pages that received the most traffic last year. (The pages weren't necessarily written during 2018.)
 
 1.  [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (12%)
 2.  [Documenting APIs: A guide for technical writers](/learnapidoc/) (5%)
@@ -252,11 +258,15 @@ I'd Rather Be Writing received significantly more traffic in 2018 from the previ
 9.  [JavaScript: Events and Listeners](/events-and-listeners-javascript/) (1%)
 10. [Inspect the JSON from the response payload](/docapis_json_console.html) (1%)
 
+Again, these top pages show that most of the traffic is coming through my [API documentation site](/learnapidoc/), with [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) leading the way.
+
 ### Age and gender
 
 The breakdown of audience age and gender is as follows:
 
-<figure><img src="/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption></figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture, </figure>
+<figure><img src="/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption></figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture. </figure>
+
+For more details about site analytics, see [Site analytics from 2018 -- web traffic sources, patterns, and analysis](/2019/01/14/site-analytics-from-2018-web-traffic-directions-patterns-analysis/).
 
 ### Quality of impressions
 
