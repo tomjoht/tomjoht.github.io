@@ -165,6 +165,10 @@ The following table includes more details from other Google Analytics reports (t
         <td markdown="span">4,253</td>
     </tr>
     <tr>
+        <td markdown="span"><b>Average page views per hour</b></td>
+        <td markdown="span">177</td>
+    </tr>
+    <tr>
         <td markdown="span"><b>Unique page views</b></td>
         <td markdown="span">1,331,869</td>
     </tr>
@@ -237,7 +241,7 @@ The traffic from the API documentation visitors is outperforming other traffic s
 
 ### Growth from the previous year
 
-I'd Rather Be Writing received significantly more traffic in 2018 than the previous year. The blue line represents 2018, while the brown line represents 2017.
+I'd Rather Be Writing received significantly more traffic in 2018 (nearly double the page views) than the previous year. The blue line represents 2018, while the brown line represents 2017.
 
 <figure><img src="/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption></figcaption>Traffic comparison by year</figure>
 
@@ -264,9 +268,9 @@ Again, these top pages show that most of the traffic is coming through my [API d
 
 The breakdown of audience age and gender is as follows:
 
-<figure><img src="/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption></figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture. </figure>
+<figure><img src="/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
 
-For more details about site analytics, see [Site analytics from 2018 -- web traffic sources, patterns, and analysis](/2019/01/14/site-analytics-from-2018-web-traffic-directions-patterns-analysis/).
+For more details about site analytics, see [Site analytics from Jan 1 to Dec 31, 2018 -- 59% of overall traffic going to API doc site](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site).
 
 ### Quality of impressions
 
