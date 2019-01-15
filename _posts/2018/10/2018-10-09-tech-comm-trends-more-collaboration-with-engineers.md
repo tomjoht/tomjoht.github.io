@@ -9,6 +9,9 @@ summary: "Trends in technical communication can be hard to decipher, even when l
 bitlink: http://bit.ly/trendscollabwithengineers
 ---
 
+{{site.data.alerts.tip}}
+To read a more up-to-date version of this trends argument, see <a href='https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html'>Principle 11: Be both a generalist and specialist through your technical acuity</a> in my <a href='https://idratherbewriting.com/simplifying-complexity/'>Simplifying Complexity series</a>.{{site.data.alerts.end}}
+
 {% comment %}
 work this in:
 https://www.reddit.com/r/technicalwriting/comments/9nxr21/how_much_weight_does_a_certificate_in_technical/
