@@ -136,11 +136,9 @@ The breakdown of audience age and gender is as follows:
 
 <figure><img src="/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
 
-In years past, the gender distribution was more balanced. But with more traffic coming in through my API documentation site, it means more programmers are reading the content.
+In years past, the gender distribution was more balanced. But with more traffic coming in through my API documentation site, it suggests more programmers are reading the content. Why? The [2018 GitHub survey](https://insights.stackoverflow.com/survey/2018/#demographics) found that the gender breakdown among engineers was 92.9% male, 6.9% female. Given that my overall gender breakdown is now 71.7% male, 28.3% female, I think many of those readers are engineers rather than technical writers. In years past (such as [2017](https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/)), the gender breakdown on my site was more evenly balanced. In fact, just last year, Google Analytics indicated that 34% of readers were male, 66% female.
 
-The [2018 GitHub survey](https://insights.stackoverflow.com/survey/2018/#demographics) found that the gender breakdown among engineers was 92.9% male, 6.9% female. Given that my overall gender breakdown is now 71.7% male, 28.3% female suggests that many of my readers are engineers rather than technical writers. In years past (such as [2017](https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/)), the gender breakdown on my site was more evenly balanced. In fact, just last year, Google Analytics indicated that 34% of readers were male, 66% female.
-
-### Top 10 lists for 2018
+## Top 10 lists for 2018
 
 Here are a list of top 10 pages, sliced in different ways.
 
@@ -219,15 +217,15 @@ By the way, while we're talking about visibility, if you would like to advertise
 
 ## Reflection and analysis
 
-Based on these analytics, what conclusions can we draw? Since most traffic (at least 59%) is coming into the API documentation site, it seems logical that I should continue to work on and develop the content there. Just because the content isn't in the form of blog posts, it doesn't mean traffic is any less. I worked a ton on the page content there during 2018 &mdash; incremental updates, refinements, re-organizations, screenshots, activities, slides, and more. I spent as much time working on the API content as on my regular blog, but look at the differences in traffic.
+Based on these analytics, what conclusions can we draw? Since most traffic (at least 59%) is coming into the API documentation site, it seems logical that I should continue to work on and develop the content there. Just because the content isn't in the form of blog posts, it doesn't mean traffic is any less. I worked a ton on the page content there during 2018 &mdash; incremental updates, refinements, re-organizations, screenshots, activities, slides, and more. I spent as much time working on the API content as on my regular blog.
 
-Only 4.42% of traffic to my site comes in through blog posts written in 2018. 1.28% of the traffic comes in through my [Simplifying Complexity](/simplifying-complexity) site. (The rest of the traffic comes in through older blog posts or other pages.)
+In contrast, only 4.42% of traffic to my site comes in through blog posts written in 2018. 1.28% of the traffic comes in through my [Simplifying Complexity](/simplifying-complexity) site. (The rest of the traffic comes in through older blog posts or other pages.)
 
 Overall, the increased traffic to my API documentation site grew my page views from 845,066 in 2017 to 1,552,615 in 2018, which is nearly double! This lopsidedness in traffic has given me a lot to think about.
 
 That said, I think the engineering audience who comes to the API documentation site is less likely to comment, subscribe, and become regular readers. The bump in newsletter subscribers (about a thousand this year) doesn't necessarily reflect the doubling of site traffic.
 
-I posted [video recordings of the two API workshops](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html) that I gave (in Denver and Menlo Park) this year. There were 4,691 views on YouTube for the collective videos, so these were also popular.
+In 2018, I also posted [video recordings of the two API workshops](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html) that I gave (in Denver and Menlo Park) this year. There were 4,691 views on YouTube for the collective videos, so these were also popular.
 
 Some efforts that didn't have much success this year include the [Simplifying Complexity](/simplifying-complexity) site and the [Academic Practitioner collaboration project](https://idratherbewriting.com/academic-practitioner-project/). Low traffic and page views for this content suggests that I should discontinue (or at least de-emphasize) these efforts. I probably won't, though. I enjoy that kind of writing more.
 
@@ -239,39 +237,39 @@ Let's reflect on some ideas and predictions I wrote about in [What technical wri
 
 In short, increasing specialization is driving engineers to write more documentation.
 
-Looking at my metrics, I think there's some truth to my observations. If a lot more engineers are searching for and consuming information on API documentation, it suggests that more engineers are writing documentation, rather than technical writers. This trend reinforces the idea that technical writers are playing more generalist roles while engineers handle the authoring of more specialized documentation topics such as API reference information.
+Looking at my metrics, I think there's some truth to my observations. If a lot more engineers are searching for and consuming information on API documentation, it suggests that more engineers are writing documentation. This trend reinforces the idea that technical writers are playing more generalist roles while engineers handle the authoring of more specialized reference information.
 
-If that weren't the case, why would so many engineers be landing on my site? I mean, traffic to that site accounts for a majority of my traffic.
+If that weren't the case, why would so many engineers be landing on my site? I mean, how else do you explain this:
 
 <img src="/images/learnapidocmetrics.png" alt="Everything is shifting to API documentation." />
 
-I could be wrong about the demographic &mdash; maybe the traffic represents hoards of technical writers trying to transition into the API documentation space. That surely accounts for some percentage of the users, but given the drastic male gender imbalance in the metrics, it seems more likely that the bump in traffic consists of engineers, given that engineering is also more male-dominated. In years past, gender breakdowns on my site were much more balanced.
+I could be wrong about the demographic &mdash; maybe the traffic represents hoards of technical writers trying to transition into the API documentation space. That surely accounts for some percentage of the users, but given the drastic male gender imbalance in the metrics, it seems more likely that the bump in traffic consists of engineers. I'm planning to add a survey to the site to get a better sense of the user profile.
 
 Another explanation might be that engineers previously looked to other sites for information. But after I added a site that explains approaches for reference API documentation, these same engineers have shifted their attention away from the other sites and over to mine. In this scenario, the number of engineers writing docs remains the same, but their location online has changed. I find this argument unlikely, but I'd need to do more research to make a definitive argument.
 
-Here's another interesting metric. The [STC Salary Database](https://www.stc.org/salary-database/) says that only "180" technical writer jobs were added to the U.S. economy in 2017.
+Here's another interesting metric that supports my argument that more engineers are writing docs. The [STC Salary Database](https://www.stc.org/salary-database/) says that only "180" technical writer jobs were added to the U.S. economy in 2017.
 
-<a href="https://www.stc.org/salary-database/"><img src="/images/stcsalarydatabase2017flat.png" alt="2017-2018 Salary Database confirms that technical writing jobs are flat" /></a>
+<figure><a href="https://www.stc.org/salary-database/"><img src="/images/stcsalarydatabase2017flat.png" alt="2017-2018 Salary Database confirms that technical writing jobs are flat" /></a><figcaption>In 2017, there were 49,960 tech writers employed in the US, compared to 49,780 in 2016. </figcaption></figure>
 
-Yet I bet a lot more than 180 software engineering jobs were added during 2017. I don't have a five-year history of engineering employment job growth (there are many different developer jobs), but if you compare the IT jobs ads between Q2 2017 and Q2 2018 for "software developers," you will find that, according to Association of Information Technology Professionals, "postings for software developers increased by more than 50,000" (["IT in Demand: Software developer job postings continue to increase"](https://www.aitp.org/blog/aitp-blog/2018/09/25/it-in-demand-software-development-job-postings-continue-to-increase/)). Here's a graphic that shows this growth:
+Yet I bet a lot more than 180 software engineering jobs were added during 2017. I don't have a five-year history of engineering employment job growth (there are many different developer categories), but if you compare the IT jobs ads between Q2 2017 and Q2 2018 for "software developers," you will find that, according to Association of Information Technology Professionals, "postings for software developers increased by more than 50,000" (["IT in Demand: Software developer job postings continue to increase"](https://www.aitp.org/blog/aitp-blog/2018/09/25/it-in-demand-software-development-job-postings-continue-to-increase/)). Here's their graphic that shows this growth:
 
 <a href="https://www.aitp.org/blog/aitp-blog/2018/09/25/it-in-demand-software-development-job-postings-continue-to-increase/"><img src="/images/postingsforsoftwaredevelopers.png" alt="Postings for software developers increased by more than 50,000."/></a>
 
 Who is documenting all the code and other products that the additional 50,000 engineers are creating? The 180 new technical writers? Uh, I kind of doubt it. Engineers are likely playing more documentation roles.
 
-As more evidence that engineers are writing, consider that [docs-as-code tooling](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html) has flourished as a standard approach to writing and publishing documentation. Why would it be flourishing, if not because more engineers are writing?
+As more evidence that engineers are writing, consider that [docs-as-code tooling](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html) has flourished as a standard approach to writing and publishing documentation. Why would a software-engineering-based doc approach be flourishing, if not because more engineers are writing?
 
 I wrote and focused on trends a lot this year. I argued that the increased amount of specialization means more engineers will be writing docs &mdash; because the content is so specialized, it exceeds the capacity of tech writers (typically generalists) to explain it. As a result, tech writers either need to step up their technical game, or they need to get more skilled at collaborating with engineers to elicit the needed information.
 
-In other posts this year about trends, I explained the ramifications of the increase in specialization. I wrote:
+In some posts about trends, I explained the ramifications of the increase in specialization. I wrote:
 
 > However much I dislike the model where engineers develop content and technical writers add information usability, this just might be the norm in years to come. If the content is so specialized that only engineers can fully articulate it at the required level, then technical writers will play more supporting editorial roles, guiding engineers with content creation and making the information more readable/usable.
 >
 > The degree to which engineers collaborate in the documentation process falls along a spectrum, for sure. But I don’t see how we can accommodate increasing amounts of specialization and complexity in the technology landscape without also incorporating more engineers into the writing process. ([Embracing a more collaborative role in authoring specialized content](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/#embracing-a-more-collaborative-role-in-authoring-specialized-content))
 
-In short, trends in specialization are shifting the tech writer's role to more of an editorial and publishing role, where tech writers collaborate more fully with engineers in the documentation process.
+In short, the increase in specialization is shifting the tech writer's role to more of an editorial and publishing role, where tech writers collaborate more fully with engineers in the documentation process.
 
-In a recent review of my site by Craig Cardimon on Techwr-l, Craig wrote,
+Let me conclude with a bit of reflection. In a recent review of my site by Craig Cardimon on Techwr-l, Craig wrote,
 
 > I’d Rather Be Writing remains a fantastic resource for new and seasoned technical writers. I admit I visited his site more when Johnson discussed more general technical writing topics regularly. He has migrated toward API programming documentation and producing podcasts, whereas I am still enjoying myself quite a bit as a software technical writer. Still, I bookmarked his site long ago, and visit it whenever I need a refresher or an introduction to topics around the career I love. ([Review: Tom Johnson’s “I’d Rather Be Writing” Website](https://techwhirl.com/review-tom-johnsons-id-rather-writing-website/))
 
