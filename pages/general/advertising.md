@@ -44,7 +44,7 @@ The cost for each ad space is as follows:
     <tr>
         <td markdown="span">[Horizontal inline post view](#horizontalinlinead)</td>
         <td markdown="span">728 x 90px</td>
-        <td markdown="span">$3,000/year</td>
+        <td markdown="span">$2,000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Top Banner space](#topbannerad)</td>
@@ -114,13 +114,13 @@ Additionally, once a month I allow a more expanded product feature focus. This p
 
 ### Inline text blurbs {#inline_text_blurbs}
 
-Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of my [API documentation site](/learnapidoc/), or on every page of the [blog](/) (one or the other). You can define 10 ad blurbs with the variety of content and links you want. Here's an example:
+Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of my [API documentation site](/learnapidoc/). You can define 10 ad blurbs with the variety of content and links you want. Here's an example:
 
 {% include random_ad.html %}
 
 The text blurb's text changes randomly with each page refresh. However, the position of the blurb on the page remains in the same (initially random) location.
 
-The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs can appear on each page. Cost for inline text blurbs to appear on either site is $3,000 per year.
+The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs can appear on each page. Cost for inline text blurbs to appear on the API doc site is $3,000 per year.
 
 ### Guest posts {#guest_posts}
 
