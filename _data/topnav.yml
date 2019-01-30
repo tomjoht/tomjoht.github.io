@@ -39,6 +39,8 @@ topnav_dropdowns:
           url: /tags
         - title: Series
           url: /series
+        - title: 2019
+          url: /archives-2019/
         - title: 2018
           url: /archives-2018/
         - title: 2017

@@ -59,7 +59,7 @@ The cost for each ad space is as follows:
     <tr>
         <td markdown="span">[Inline text blurbs](#inline_text_blurbs)</td>
         <td markdown="span">1-2 sentences</td>
-        <td markdown="span">$2,000/year</td>
+        <td markdown="span">$3,000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Guest post](#guest_posts)</td>
