@@ -20,6 +20,8 @@ Links for more information:
 * [Netlify](https://www.netlify.com/)
 * [Netlify CMS](https://www.netlifycms.org/)
 * [Jamstack templates](https://templates.netlify.com/)
+* [Headless CMS](https://headlesscms.org/)
+* [Strapi](https://strapi.io/)
 * [How to pronounce "thorough"](https://dictionary.cambridge.org/us/pronunciation/english/thorough)
 
 Note that unfortunately I was out of town for this episode, but after listening to it, I think it's one of the best we've had. It's especially interesting to compare the docs-as-code tool discussions with this [Tools Selection Podcast](https://www.scriptorium.com/2019/01/tools-selection-podcast/) from Scriptorium. Both podcasts are excellent, but their contrast illuminates how divergent the tooling for documentation has become in the industry.
