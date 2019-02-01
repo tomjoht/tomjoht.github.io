@@ -1,5 +1,5 @@
 ---
-title: "Write the Docs Podcast Episode 19: Static site generators"
+title: "Write the Docs Podcast Episode 19: Static site generators, with Jessica Parsons"
 categories:
 - podcasts
 keywords: static site generators, hugo, netlify, jekyll, sphinx
@@ -7,7 +7,7 @@ summary: "Jessica Parsons, a documentation engineer from Netlify, joins us for E
 bitlink: http://bit.ly/wtdpodcast_episode19_pointer
 ---
 
-Discussions focus on differing paradigms for static site generators, some even with their own APIs that call content from their own data stores or that have CMS-like wrappers. Script languages, templating, engineering workflows, deployment hosts, and other topics in this docs-as-code tool ecosystem are explored.
+Discussions focus on considerations for choosing a static site generator, and how to manage the content they consume, from APIs to Git-tracked markdown files. Headless CMS options like API-driven Strapi and Git-wrapper Netlify CMS make an appearance.
 
 You can view or listen to the episode on the <a href="http://bit.ly/wtdpodcast19">post on Write the Docs Podcast</a> or watch it below.
 
