@@ -19,7 +19,7 @@ summary: "I often see the term 'rock star' used to describe industry experts in 
 
 ## Tip #1: Record your meetings with engineers
 
-With developer doc projects, engineers can quickly jump into excessive jargon and assumptions about my technical knowledge and familiarity with the code. But when I record our meetings, I can go back over what they say numerous times, and slowly piece it together. Most online meeting tools (e.g, Chime) have a record function, and in-person meeting tools like Evernote also provide recording capabilities built-in to the editor.
+With developer doc projects, engineers can quickly jump into excessive jargon and assumptions about my technical knowledge and familiarity with the code. This can be like a firehose of information that is too overwhelming to comprehend fully at the time (at least not the extent that I can write documentation). But when I *record* our meetings, I can go back over what they say numerous times, and slowly piece it together. Most online meeting tools (e.g, Chime) have a record function, and in-person meeting tools like Evernote also provide recording capabilities built-in to the editor.
 
 If I have to delay a project for a while, having the recording to listen to allows me to refresh my memory perfectly even after weeks of focusing on other projects. Almost no one objects to being recorded, and when I produce documentation that recalls all the details at a perfectly granular level, SMEs are really impressed.
 
@@ -29,11 +29,11 @@ Ideally, I'd like to get more expert at pulling information out of engineers' he
 
 The quicker I respond to emails and messages, the more people feel connected and listened to. Even if I can respond in a terse way (logging the issue as a ticket for further work later), this responsiveness helps build rapport and trust. In fact, knowing that often the faster I respond, the less detail I need to include, can be a motivator for responding quickly. (Also, my kids tell me that with texts, lengthy responses are a sign that I'm getting old.)
 
-I'm not quite sure how to respond quickly without losing efficiency and flow with my current tasks, and I know some productivity experts recommend shutting down email so you can focus. And yet, prompt responses seem to improve relationships and communication so much, I'm hesitant to let messages sit (and easily get buried and forgotten).
+I'm not quite sure how to respond quickly without losing efficiency and flow with my current tasks. I know some productivity experts recommend shutting down email (and blocking out all other distractions) so you can focus. And yet, prompt responses seem to improve relationships and communication so much, I'm hesitant to let messages sit (and easily get buried and forgotten).
 
 ## Tip #3: Iterate on content multiple times
 
-Writing docs for complex content requires a few iterations to get right. If you get the right SMEs reviewing the content, take them through several rounds of reviews and edits before you get it to the needed level. Most of my documents go through half a dozen or more SME reviews before they're ready for distribution. First drafts are almost always poor, but by the time I get to versions 7-8, the content looks solid. I try to go in with the assumption that I'm going to be generating lots of drafts before I get this content right.
+Writing docs for complex content requires a few iterations to get right. Once I get the right SMEs reviewing the content, I try to take them through several rounds of reviews and edits before I get it to the needed level. Most of my documents go through half a dozen or more SME reviews before they're ready for distribution. First drafts are almost always poor, but by the time I get to versions 7-8, the content looks solid. I try to go in with the assumption that I'm going to be generating lots of drafts before I get this content right.
 
 For the first draft, I don't spend too much time on language and granular details. I make sure I have the general shape and content chunking right. Most of the time, I talk SMEs through what I've written in the first draft (rather than having them read it) so I can gauge whether I have the puzzle pieces in the right order. Many times I don't have the fundamental shape right, and I'm glad I didn't spend more time finessing the content.
 
@@ -49,11 +49,11 @@ When I do request a review, I never send out blanket requests for document revie
 
 ## Tip #5: If someone asks you to do something, put some work back on them
 
-My colleague once gave me this tip, and it's golden. Many times you will encounter people whose job it is merely to check boxes and make sure your work gets done. At work we call these people "technical program managers." It seems like all they want to do is check a box indicating that the documentation (and everything else for the project) is complete. (I know their role has more merit that I'm not really acknowledging here.) They can be quite annoying because they don't seem to add much value other than to goad you to finish your work, hoping to hear the much-awaited "yes, docs are complete" response.
+My colleague once gave me this tip, and it's golden. Many times you will encounter people whose job it is merely to check boxes and make sure your work gets done. At work we call these people "technical program managers." It seems like all they want to do is check a box indicating that the documentation (and everything else for the project) is complete. (I know their role has more merit that I'm not really acknowledging here.) They can be quite annoying because they don't seem to add much value other than to goad my to finish the work, hoping to hear the much-awaited "yes, docs are complete" response.
 
-My colleague says that when people ask you to do something, find a way to put some of the work back on them. For example, you can ask a technical program manager to review some of the content. Or you can note that you need help tracking an unknown SME in order to gather more information. Or you can ask for more information about user profiles and environments.
+My colleague says that when people ask you to do something, find a way to *put some of the work back on them*. For example, you can ask a technical program manager to review some of the content. Or you can note that you need help tracking an unknown SME in order to gather more information. Or you can ask for more information about user profiles and environments.
 
-You'll find that as soon as you start putting some work back on these people, asking them to do something, they disappear. It's really ingenious. Of course, it probably doesn't make you a rock star at work, but it does help avoid the tendency to pull all the work onto your own plate. The ability to delegate and distribute the work must surely factor into efficiency strategies.
+You'll find that as soon as you start putting some work back on these people, asking them to do something, they disappear. It's really ingenious. Of course, it probably doesn't make you a rock star at work, but it does help avoid the tendency to pull all the work onto your own plate. The ability to delegate and distribute the work must surely factor into efficiency strategies. I've found that if I do put some of the work back on them, and they do it, the effort shows real sincerity about the docs.
 
 ## What are your tips?
 
