@@ -61,6 +61,8 @@ In my mind, a 10X technical writer, especially at a big company with thousands o
 
 In a previous post about [motivating users to provide feedback](https://idratherbewriting.com/2019/02/01/motivating-user-feedback-through-survey-links/), I noted that prompt replies to incoming feedback encourages users to share more, especially as they're usually still in the midst of some challenge and will often provide more details and ask additional questions. The email exchange builds a relationship of trust. But if you let days build up before responding, the conversation dies.
 
+{{site.data.alerts.tip}} For more on this topic, see <a href='https://www.nytimes.com/2019/02/15/opinion/sunday/email-etiquette.html'>No, You Can’t Ignore Email. It’s Rude</a> by Adam Grant in the <i>New York Times</i>.{{sited.data.alerts.end}}
+
 ## Tip #3: Iterate on content with ever-expanding layers of reviewers
 
 Writing docs for complex content requires a few iterations to get right. Once I get the right SMEs reviewing the content, I try to take them through several rounds of reviews and edits before I get it to the needed level. Most of my documents go through half a dozen or more SME reviews before they're ready for distribution. First drafts are almost always poor, but by the time I get to versions 7-8, the content looks solid. I try to go in with the assumption that I'm going to be generating lots of drafts before I get this content right.
