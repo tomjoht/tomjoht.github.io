@@ -1,5 +1,5 @@
 ---
-title: "Asserting your expertise in the workplace as a SME: Q&A with Jennifer Mallette and Megan Gehrke"
+title: "Asserting your expertise as a SME in the workplace: Q&A with Jennifer Mallette and Megan Gehrke"
 categories:
 - academics-and-practitioners
 keywords:
