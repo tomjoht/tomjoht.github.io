@@ -60,6 +60,11 @@ div.feedlybutton {
     margin-left: 2px;
 }
 
+span.linkedInWidget {
+      margin-right: 4px;
+      float: left;
+      margin-top: 28px;
+  }
 @media print {
   div#masthead, div#sidebarArea, .col-md-3, nav.navbar.navbar-inverse, .singlePostAds, .socialArea, .form-group.irbw {
     display: none;
