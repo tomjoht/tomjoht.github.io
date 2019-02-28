@@ -7,18 +7,22 @@ categories:
 - writing
 keywords: tech comm trends, technical writing trends, jobs, technical skills, writing skills
 bitlink: http://bit.ly/sccitrends
-summary: "This week I'm going to Louisiana to attend the Symposium for Communicating Complex Information and present on tech comm trends. You can view my slides and latest thoughts on trends here."
+summary: "This week I traveled to Louisiana to attend the Symposium for Communicating Complex Information and present on tech comm trends. You can listen to the recording, view my slides, and read my latest thoughts on trends here."
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/trends-scci-keynote.mp3
 podcast_file_size: 32.8 MB
 podcast_duration: "42:01"
 podcast_length: 32827015
 ---
 
+## About the Symposium for Communicating Complex Information
+
 You can view the conference program and schedule here: <a href="https://scci2019.weebly.com/program-and-schedule.html">Symposium for Communicating Complex Information</a>.
 
 <figure><a href="https://scci2019.weebly.com/"><img src="/images/sccihomepage.png" alt="Symposium for Communicating Complex Information (SCCI)" /></a><figcaption></figcaption></figure>
 
-My presentation is a keynote on trends called <a href="https://scci2019.weebly.com/keynote.html">Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a>. You can view my slides at [trends-growing-disproportions](https://idratherbewriting.com/trends-growing-disproportions/#/).
+## My presentation on trends
+
+My presentation was a keynote on trends called <a href="https://scci2019.weebly.com/keynote.html">Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a>. You can view my slides at [trends-growing-disproportions](https://idratherbewriting.com/trends-growing-disproportions/#/).
 
 <a href="https://idratherbewriting.com/trends-growing-disproportions/#/"><img src="/images/sccitrendspresothumb.png" style="max-width: 350px;" /></a>
 
@@ -26,9 +30,11 @@ The recording of my presentation is available here:
 
 {% include audio.html %}
 
-Although I've written and spoken about trends several times this year, I've shifted focuses a bit in this presentation. I'm abandon the argument that technical skills are in such high demand because the technology landscape is getting more complex. (It might be true, but it's a hard argument to make, and I'm not so sure about it anymore given some responses in my ongoing [Engineers writing docs survey](https://www.questionpro.com/t/PE5tIZduq7).)
+## Latest thoughts on trends
 
-Instead, I'm argue that technical writers are supporting increasing numbers of engineers. I dug out more specific employment data from the BLS showing that the job growth between 2010 to 2016 for software developers was 37% but for technical writers was just 6%. Combine this fact with other survey responses indicating that 76% of tech writers agree that the ratio between engineers and tech writers is getting more lopsided each year in favor of engineers.
+Although I've written and spoken about trends several times this year, I shifted focuses a bit in this presentation. I abandon the argument that technical skills are in such high demand because the technology landscape is getting more complex. (It might be true, but it's a hard argument to make, and I'm not so sure about it anymore given some responses in my ongoing [Engineers writing docs survey](https://www.questionpro.com/t/PE5tIZduq7).)
+
+Instead, I argue that technical writers are supporting increasing numbers of engineers. I dug out more specific employment data from the BLS showing that the job growth between 2010 to 2016 for software developers was 37% but for technical writers was just 6%. Combine this fact with other survey responses indicating that 76% of tech writers agree that the ratio between engineers and tech writers is getting more lopsided each year in favor of engineers.
 
 Together, this data presents an alarming trend where tech writers are becoming dwarfed by the explosion of engineers. This trend also aligns with my own experiences in the workplace where I seem to be getting spread thinner and thinner.
 
