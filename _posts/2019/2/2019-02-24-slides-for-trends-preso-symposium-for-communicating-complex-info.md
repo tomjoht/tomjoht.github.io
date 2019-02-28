@@ -1,10 +1,17 @@
 ---
-title: "Slides for my trends presentation at the Symposium for Communicating Complex Information (SCCI)"
+title: "Recording and slides for my trends presentation at the Symposium for Communicating Complex Information (SCCI)"
 categories:
 - general
-keywords:
+- stitcher
+- podcasts
+- writing
+keywords: tech comm trends, technical writing trends, jobs, technical skills, writing skills
 bitlink: http://bit.ly/sccitrends
 summary: "This week I'm going to Louisiana to attend the Symposium for Communicating Complex Information and present on tech comm trends. You can view my slides and latest thoughts on trends here."
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/trends-scci-keynote.mp3
+podcast_file_size: 32.8 MB
+podcast_duration: "42:01"
+podcast_length: 32827015
 ---
 
 You can view the conference program and schedule here: <a href="https://scci2019.weebly.com/program-and-schedule.html">Symposium for Communicating Complex Information</a>.
@@ -15,9 +22,13 @@ My presentation is a keynote on trends called <a href="https://scci2019.weebly.c
 
 <a href="https://idratherbewriting.com/trends-growing-disproportions/#/"><img src="/images/sccitrendspresothumb.png" style="max-width: 350px;" /></a>
 
-Although I've written and spoken about trends several times this year, I've shifted focuses a bit in this presentation. I'm abandoning the argument that technical skills are in such high demand because the technology landscape is getting more complex. (It might be true, but it's a hard argument to make, and I'm not so sure about it anymore given some responses in my ongoing [Engineers writing docs survey](https://www.questionpro.com/t/PE5tIZduq7).)
+The recording of my presentation is available here:
 
-Instead, I'm arguing that technical writers are supporting increasing numbers of engineers. I dug out more specific employment data from the BLS showing that the job growth between 2010 to 2016 for software developers was 37% but for technical writers was just 6%. Combine this fact with other survey responses indicating that 76% of tech writers agree that the ratio between engineers and tech writers is getting more lopsided each year in favor of engineers.
+{% include audio.html %}
+
+Although I've written and spoken about trends several times this year, I've shifted focuses a bit in this presentation. I'm abandon the argument that technical skills are in such high demand because the technology landscape is getting more complex. (It might be true, but it's a hard argument to make, and I'm not so sure about it anymore given some responses in my ongoing [Engineers writing docs survey](https://www.questionpro.com/t/PE5tIZduq7).)
+
+Instead, I'm argue that technical writers are supporting increasing numbers of engineers. I dug out more specific employment data from the BLS showing that the job growth between 2010 to 2016 for software developers was 37% but for technical writers was just 6%. Combine this fact with other survey responses indicating that 76% of tech writers agree that the ratio between engineers and tech writers is getting more lopsided each year in favor of engineers.
 
 Together, this data presents an alarming trend where tech writers are becoming dwarfed by the explosion of engineers. This trend also aligns with my own experiences in the workplace where I seem to be getting spread thinner and thinner.
 
@@ -28,5 +39,3 @@ The other ramification of supporting more engineers is that it dilutes the tech 
 To counteract this trend toward the dilution of tech knowledge, I also think tech writers need to more purposefully study and dive into tech learning, even at the expense of some writing productivity. In almost all tech writer job requirements, the demand for strong technical knowledge continues to be a key requirement &mdash; one that over overshadows one's writing ability.
 
 Feedback in surveys provides a lot of insight that helps me refine my thoughts about directions with trends. I know I've written about this topic extensively this year, and with each iteration, I've been collecting feedback and refining my ideas. This iteration shows another adjustment. At the Symposium for Communicating Complex Information, I'll be interacting with more academics who will hopefully help me understand and assess these trends with greater depth, scrutiny, and other insights.
-
-I'll be recording my talk, so stay tuned and I'll post it here next week some time.
