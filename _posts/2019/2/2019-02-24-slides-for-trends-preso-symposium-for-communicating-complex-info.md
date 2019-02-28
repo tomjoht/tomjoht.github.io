@@ -16,7 +16,7 @@ podcast_length: 32827015
 
 ## About the Symposium for Communicating Complex Information
 
-You can view the conference program and schedule here: <a href="https://scci2019.weebly.com/program-and-schedule.html">Symposium for Communicating Complex Information</a>.
+You can view the conference program and schedule for the Symposium for Communicating Complex Information <a href="https://scci2019.weebly.com/program-and-schedule.html">here</a>.
 
 <figure><a href="https://scci2019.weebly.com/"><img src="/images/sccihomepage.png" alt="Symposium for Communicating Complex Information (SCCI)" /></a><figcaption></figcaption></figure>
 
