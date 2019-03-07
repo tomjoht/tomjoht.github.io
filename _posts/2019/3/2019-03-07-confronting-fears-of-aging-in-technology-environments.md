@@ -4,7 +4,7 @@ categories:
 - general
 keywords:
 bitlink: http://bit.ly/growingoldwhileyoung
-summary: "The engineering demographic can make even a relatively young person seem old. This sense of growing old is causing panic in many in Silicon Valley. One solution is to change your mindset about what it means to be young, and to learn to unlearn what you think you know."
+summary: "The engineering demographic can make even a relatively young person seem old. This sense of growing old is causing panic in many tech workers in Silicon Valley. One solution might be to change your mindset about what it means to be young, and to learn to unlearn what you have already internalized unconsciously."
 ---
 
 A recent article in the *New York Times* describes a retreat for <i>aging</i> tech workers in Silicon Valley, attended by some **as young as 30**. Here are a few excerpts from [A New Luxury Retreat Caters to Elderly Workers in Tech (Ages 30 and Up)](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html):
@@ -25,7 +25,7 @@ One of the participants confesses he has trouble emotionally connecting with the
 
 The leader, Chip Conley, says that the irony is that "you actually are much happier in your 60s and 70s, so why aren’t we preparing for that?”
 
-In a real sense this article about people as young as 30 experiencing fears of aging in Silicon Valley struck a chord with me. As laughable as it sounds, the article has merit, particularly when you're surrounded by seemingly college-age demographics. In the [2018 Github Developer Survey](https://insights.stackoverflow.com/survey/2018/), the average age range for programmers is about 35:
+In a real sense ,this article about people as young as 30 experiencing fears of aging in Silicon Valley struck a chord with me. As laughable as it sounds, the article has merit, particularly when you're surrounded by seemingly college-age demographics. In the [2018 Github Developer Survey](https://insights.stackoverflow.com/survey/2018/), "about three-fourths of professional developers who took [the] survey are younger than 35."
 
 <a href="https://insights.stackoverflow.com/survey/2018/#developer-profile-age"><img src="/images/github_age_survey.png" /></a>
 
