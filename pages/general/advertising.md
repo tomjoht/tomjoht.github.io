@@ -2,12 +2,15 @@
 layout: page
 title: Advertising
 permalink: /advertising/
+type: page
 summary: "I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially concerning <a href='/learnapidoc/'>API documentation</a>. Because of this, I can help increase your product or service's visibility more than any other technical writing site online."
 ---
 
-<img style="float:right; padding-left:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>
+{{site.data.alerts.note}} For details about how many page views, sessions, and other analytics information, see the <a href="/analytics">2019 site traffic and analytics</a>.{{site.data.alerts.end}}
 
 ## Ad space options and costs
+
+<img style="float:right; padding-left:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>
 
 I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 4,250 page views a day. Users created 942,306 sessions, with 1.65 pages per session and an average of 1:44 minutes per session. Analytics are tracked through Google Analytics. More analytics details are provided below in [Site traffic analytics for 2018](#site_traffic).
 
@@ -18,6 +21,8 @@ You can advertise your product or service on idratherbewriting.com. Different ad
 * [Top banner ad](#topbannerad)
 * [Newsletter space](#newsletterspace)
 * [Inline text blurbs](#inline_text_blurbs)
+* [Product review posts](#product_review_posts)
+* [Podcasts](#podcasts)
 * [Guest posts](#guest_posts)
 
 The cost for each ad space is as follows:
@@ -49,7 +54,7 @@ The cost for each ad space is as follows:
     <tr>
         <td markdown="span">[Top Banner space](#topbannerad)</td>
         <td markdown="span">400 x 60px</td>
-        <td markdown="span">$7,000/year</td>
+        <td markdown="span">$6,000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Newsletter space](#newsletterspace)</td>
@@ -62,16 +67,26 @@ The cost for each ad space is as follows:
         <td markdown="span">$3,000/year</td>
     </tr>
     <tr>
-        <td markdown="span">[Guest post](#guest_posts)</td>
-        <td markdown="span">500-1,000 words</td>
-        <td markdown="span">One per year free with other advertising purchases</td>
+        <td markdown="span">[Product review posts](#product_review_posts)</td>
+        <td markdown="span">800-1,000 words</td>
+        <td markdown="span">$500</td>
+    </tr>
+    <tr>
+        <td markdown="span">[Guest posts](#guest_posts)</td>
+        <td markdown="span">800-1,000 words</td>
+        <td markdown="span">$300</td>
+    </tr>
+    <tr>
+        <td markdown="span">[Podcasts](#podcasts)</td>
+        <td markdown="span">30 minutes</td>
+        <td markdown="span">$300</td>
     </tr>
     </tbody>
 </table>
 
 For billing, I usually send you an invoice through Paypal. Billing is done prior to any advertising efforts. Although the transaction is through PayPal, you can use either your credit card or PayPal account to submit payment. You can also mail me a check if you prefer.
 
-### Sidebar ad space {#sidebarad}
+## Sidebar ad space {#sidebarad}
 
 Sidebar ads (125 x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
@@ -82,7 +97,7 @@ Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions 
 
 The cost for sidebar ads is $1,000 per year. (Shorter advertising durations aren't allowed.)
 
-### Horizontal Inline Ad Space {#horizontalinlinead}
+## Horizontal Inline Ad Space {#horizontalinlinead}
 
 The Horizontal Inline space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
 
@@ -90,15 +105,15 @@ The Horizontal Inline space (728 x 90px) appears below each post, right above t
 
 Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There is no limit to the number of horizontal inline post ads. The cost for inline horizontal ads is $2,000 per year.
 
-### Top Banner Ad Space {#topbannerad}
+## Top Banner Ad Space {#topbannerad}
 
 The top banner ad space (400 x 60px) refers to the top section of the site, in the upper-right corner. The top banner ad is placed in one of the most visually dominant places on the site.
 
 <figure><img src="/images/top_banner-600x292.png" alt="Top Banner Ad Space" max-width="600" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
-Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There is only one ad in the Top Banner ad space per advertiser, but it can rotate depending on the number of ads you want to put in this space. For example, if you have three top banner ads, the ads can rotate in this space with each page refresh. The cost for top banner ads is $7,000 per year.
+Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There is only one ad in the Top Banner ad space per advertiser, but it can rotate depending on the number of ads you want to put in this space. For example, if you have three top banner ads, the ads can rotate in this space with each page refresh. The cost for top banner ads is $6,000 per year.
 
-### Newsletter Space {#newsletterspace}
+## Newsletter Space {#newsletterspace}
 
 I send out 4 newsletters a month (one per week) to all my email subscribers (4,750+ readers). These newsletters contain links and excerpts to the latest posts (there are usually two posts per newsletter). Usually, each blog post in the newsletter gets around 300 clicks, and the advertising graphic receives approximately 60 clicks. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
@@ -112,7 +127,7 @@ Additionally, once a month I allow a more expanded product feature focus. This p
 <figure><a href="https://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
 {% endcomment %}
 
-### Inline text blurbs {#inline_text_blurbs}
+## Inline text blurbs {#inline_text_blurbs}
 
 Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of my [API documentation site](/learnapidoc/). You can define 10 ad blurbs with the variety of content and links you want. Here's an example:
 
@@ -122,170 +137,46 @@ The text blurb's text changes randomly with each page refresh. However, the posi
 
 The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs can appear on each page. Cost for inline text blurbs to appear on the API doc site is $3,000 per year.
 
-### Guest posts {#guest_posts}
+## Product review posts {#review_posts}
+
+I also offer product review posts to help with visibility. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Here are some sample product reviews I wrote previously:
+
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](https://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
+* [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](https://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
+
+Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
+
+These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience. A product review post typically takes 3-4 hours to write.
+
+If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
+
+Each product review post costs $500 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
+
+Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
+
+I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com.
+
+
+## Guest posts {#guest_posts}
 
 If you advertise your product or service on my site, I allow you to contribute one guest post per year. You write the guest post yourself, though I might edit it for style. Guest posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
 
-These guest posts aren't merely marketing material converted into a blog post. Try to put a personal spin on your post to connect with the audience. Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see some of these review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
+These guest posts shouldn't merely marketing material converted into a blog post. Try to put a personal spin on your post to connect with the audience. Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see some of these review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
 
 You can also infuse the posts with SEO techniques when you write them. Almost no one else in the tech comm industry has as much online influence as idratherbewriting.com.
 
-## Site analytics for 2019
+If you don't purchase any other advertising, the cost for a guest post is $300 per post. Guest posts always include notes that they are sponsored posts.
 
-Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018 through Dec 31, 2018 (based on Google Analytics):
+## Podcasts {#podcasts}
 
-<figure><img src="/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
+Podcasts are 30-minute audio conversations that are recorded and distributed as on-demand audio files. If you'd like your company or product to be featured in a podcast, this format can help listeners get a better sense of your personality and story. Podcasts might not have as many hits as online readers, but those who do listen to podcasts feel a stronger connection with the hosts and story than with written posts.
 
-Here's another slice of analytics focusing more on audience:
+To prepare for podcasts, I send you about 10 questions focused on the product or service that you want highlighted. The podcast length is typically 20-30 minutes and syndicated out on iTunes, Stitcher, and other channels. The cost is $300 per podcast.
 
-<figure><img src="/images/google-analytics2019-audience.png" alt="Breakdown of analytics" /> <figcaption>Here you can see a breakdown of sessions. During 2018, there were about 942,000 sessions, with users viewing 1.65 pages per session. </figcaption></figure>
-
-{{site.data.alerts.note}}A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.65.{{site.data.alerts.end}}
-
-The following table includes more details from other Google Analytics reports (the date range is Jan 1, 2018, to Dec 31, 2018):
-
-<table>
-<colgroup>
-   <col width="50%" />
-   <col width="50%" />
-</colgroup>
-    <thead>
-    <tr>
-        <th>Jan 1, 2018 &mdash; Dec 31, 2018</th>
-        <th>Number</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td markdown="span"><b>Page views</b></td>
-        <td markdown="span">1,552,615</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Average page views per day</b></td>
-        <td markdown="span">4,253</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Average page views per hour</b></td>
-        <td markdown="span">177</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Unique page views</b></td>
-        <td markdown="span">1,331,869</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Average time on page</b></td>
-        <td markdown="span">2:40</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Users</b></td>
-        <td markdown="span">687,818</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Sessions</b></td>
-        <td markdown="span">942,306</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Sessions per user</b></td>
-        <td markdown="span">1.37</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Average session duration</b></td>
-        <td markdown="span">1:44</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Pages per session</b></td>
-        <td markdown="span">1.65</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Bounce rate</b></td>
-        <td markdown="span">78%</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Organic search traffic</b></td>
-        <td markdown="span">495,033</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Traffic from social</b></td>
-        <td markdown="span">5,596</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Social site breakdown</b></td>
-        <td markdown="span">Linkedin 49%, Facebook 20%, Twitter 17%</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Geographical region</b></td>
-        <td markdown="span">US 35%, India 16%, UK 5%</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Browser</b></td>
-        <td markdown="span">Chrome 73%, Firefox 9%</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Operating System</b></td>
-        <td markdown="span">Windows 60%, Mac 20%, Android/iOS 13%</td>
-    </tr>
-    <tr>
-        <td markdown="span"><b>Device type</b></td>
-        <td markdown="span">Desktop 86%, mobile 12%, tablet 2%</td>
-    </tr>
-    </tbody>
-</table>
-
-### API doc traffic percentage
-
-The majority of traffic comes to my [API documentation site](/learnapidoc/):
-
-<figure><img src="/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site.</a></figure>
-
-The traffic from the API documentation visitors is outperforming other traffic sources.
-
-### Growth from the previous year
-
-I'd Rather Be Writing received significantly more traffic in 2018 (nearly double the page views) than the previous year. The blue line represents 2018, while the brown line represents 2017.
-
-<figure><img src="/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption></figcaption>Traffic comparison by year</figure>
-
-The increased traffic from the API documentation site probably accounts for the massive growth.
-
-### Top 10 pages overall (across all sites)
-
-Here are the top 10 overall pages that received the most traffic last year. (The pages weren't necessarily written during 2018.)
-
-1.  [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (12%)
-2.  [Documenting APIs: A guide for technical writers](/learnapidoc/) (5%)
-3.  [Step 3: Parameters (API reference tutorial)](/learnapidoc/docapis_doc_parameters.html) (4%)
-4.  [I'd Rather Be Writing: Latest posts](/) (4%)
-5.  [Submit requests through Postman](/learnapidoc/docapis_postman.html) (3%)
-6.  [Quick Reference Guide Templates](/quickreferenceguides/) (2%)
-7.  [10 realizations as I was creating my Swagger spec and Swagger UI](/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/) (1%)
-8.  [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview) (1%)
-9.  [JavaScript: Events and Listeners](/events-and-listeners-javascript/) (1%)
-10. [Inspect the JSON from the response payload](/docapis_json_console.html) (1%)
-
-Again, these top pages show that most of the traffic is coming through my [API documentation site](/learnapidoc/), with [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) leading the way.
-
-### Age and gender
-
-The breakdown of audience age and gender is as follows:
-
-<figure><img src="/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
-
-For more details about site analytics, see [Site analytics from Jan 1 to Dec 31, 2018 -- 59% of overall traffic going to API doc site](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site).
-
-### Quality of impressions
-
-The quality of impressions depends on the influence of the site. Impressions from a highly influential site carry more weight than impressions from a less influential site. MindTouch previously tracked top influencers in tech comm (lately they've shifted to "customer success"instead of teach comm). Links to previous rankings are below.
-
-<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class=" wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="420" height="241" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
-
-*  [Top 25 Content Experience Influencer 2017](https://mindtouch.com/resources/announcing-2017s-top25-content-experience-influencers-top200-strategists)
-*  [Top 25 Content Strategist Influencer 2016](https://mindtouch.com/resources/announcing-top-25-content-strategist-influencers-2016)
-*  [Most Valuable Professional #2014](http://www.drexplain.com/mvp/tom-johnson/), Indigo Byte Systems.
-*  [#3 Influencer in #techcomm in 2014](http://www.mindtouch.com/blog/2014/04/25/top-50-most-influential-techcomm-experts-lets-connect-at-the-stc-summit-2014-techwhirl-or-writethedocs)
-*  [#1 Influencer in #techcomm 2013](http://www.mindtouch.com/blog/2013/04/04/2013-influencers-in-techcomm/)
-*  [#1 Influencer in #techcomm 2012](http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/ "I'd Rather Be Writing is most influential blog of 2012")
-*  [Most innovative tech comm blogger of 2011](http://mndt.ch/MI-2011?utm_source=mt-blog&utm_medium=210%C3%9757banner&utm_campaign=07292010techcomm10%C3%9757banner&utm_campaign=07292010techcomm "Most innovative blog of 2011")
-*  [#2 Influencer in #techcomm 2010](http://www.mindtouch.com/blog/2010/07/29/the-most-influential-technical-communicator-bloggers/ "Second most influential blog, I'd Rather Be Writing")
+## Taking the next step
 
 If you have questions, [contact me](https://idratherbewriting.com/contact).
 
