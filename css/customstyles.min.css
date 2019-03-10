@@ -43,6 +43,10 @@ input#tlemail {
   color: #996508;
 }
 
+.socialArea img {
+    height: 20px;
+}
+
 .subheading::before {
   content: "Series";
   margin-right: 10px;

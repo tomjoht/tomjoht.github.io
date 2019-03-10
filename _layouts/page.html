@@ -12,15 +12,15 @@ layout: default
     <div class="post-content">
 
         {{content}}
-{% unless page.focus == "homepage" %}
-        <hr/>
+
         <div style="max-width:300px">
 
             {% include tinyletter.html %}
         </div>
-        {% endunless %}
 
-    {% include social_sharing_buttons.html %}
+        {% include social_sharing_buttons.html %}
+
+        <hr/>
 
     {% include single_post_ads.html %}
 

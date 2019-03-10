@@ -3,14 +3,17 @@ layout: page
 title: 2019 Site Traffic and Analytics
 permalink: /analytics/
 type: page
-summary: "If you're thinking of advertising on idratherbewriting.com, it's important to get a better sense of the traffic and analytics of the audience. I update the information here each after diving deep into the information from Google Analytics."
 ---
+
+If you're thinking of advertising on idratherbewriting.com, it's important to get a  sense of the traffic and analytics of the audience so that your ad not only has visibility, but visibility with the right audience.
+
+In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 4,250 page views a day. More specifically, users created 942,306 sessions, with 1.65 pages per session and an average of 1:44 minutes per session. I update the information here each after diving deep into the information from Google Analytics.
 
 {{site.data.alerts.note}}For details about advertising spaces available, see <a href="/advertising">Advertising</a>. {{site.data.alerts.end}}
 
 ## Analytics
 
-Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018 through Dec 31, 2018.
+Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018 through Dec 31, 2018, according to Google Analytics.
 
 <figure><img src="/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
 
@@ -111,11 +114,11 @@ The following table includes more details from other Google Analytics reports (t
 
 ## API doc traffic percentage
 
-In 2018, the majority of traffic came from my [API documentation site](/learnapidoc/):
+In 2018, the majority of traffic came to my [API documentation site](/learnapidoc/):
 
-<figure><img src="/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site.</a></figure>
+<figure><img src="/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site. The rest pretty much does to my blog.</a></figure>
 
-The traffic from the API documentation visitors is outperforming other traffic sources. It represents a potentially new audience to which you can market tech comm solutions.
+The traffic from the API documentation visitors is outperforming other traffic sources. This represents a potentially new audience to which you can market tech comm solutions.
 
 ## Growth from the previous year
 
