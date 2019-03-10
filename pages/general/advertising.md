@@ -131,12 +131,12 @@ The in-text ads are denoted with a Bootstrap alert-type formatting, with text th
 
 I also offer product review posts to help with visibility. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Here are some sample product reviews I wrote previously:
 
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](https://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,560 page views in 2017)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (1,250 page views in 2017)
-* [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (2260 page views in 2017)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (810 page views in 2017)
-* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](https://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (1,170 page views in 2017)
-* [Xeditor, a CMS editor for XML content](https://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](https://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,968 page views as of 3-10-19)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (5,533 page views as of 3-10-19)
+* [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (4,056 page views as of 3-10-19)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (1,164 page views as of 3-10-19)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](https://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (2,042 page views as of 3-10-19)
+* [Xeditor, a CMS editor for XML content](https://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/) (1,335 page views as of 3-10-19)
 
 Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article's relevance.)
 
@@ -149,7 +149,6 @@ Each product review post costs $500 per post. I always review these posts with y
 Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the first page of search results. This is because my site has a high page rank and influence.
 
 I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com.
-
 
 ## Guest posts {#guest_posts}
 
