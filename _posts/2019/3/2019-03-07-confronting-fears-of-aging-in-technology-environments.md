@@ -86,3 +86,33 @@ EMBED_PARAMS.border = "hidden";
 </script>
 <div id="div_6553045"></div>
 <script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>
+
+
+{% comment %}
+
+Nietzsche believed that the truly free spirit will resemble children at play, who discover the world for the first time, unburdened by what came before (hence the “forgetting”). The child is curious and filled with wonder. The child is not weighed down by rules and values, the child discovers for themselves the meaning in things.
+
+Having uttered the “sacred No” to reject everything that came before, the child shouts the “sacred Yes” that affirms life.
+
+We can create our own values, to take the risks to find what we want from life. The sacred Yes, Nietzsche tells us, is the for the game of creation. The spirit becomes its own will, it wins its own world.
+
+https://medium.com/lessons-from-history/nietzsches-three-steps-to-a-meaningful-life-f063793adfc4
+
+also https://idratherbewriting.com/2015/05/31/realizations-from-career-fair-what-i-lost/
+https://www.youtube.com/watch?v=qK1BJkBJdtY
+
+the ability to think outside the box. this is hard.
+
+There’s a lot here. Talk about nietszche and child and overman, what it means to take risks and try new things. This fits neatly into your identity as a blogger. It also connects with larger themes that are more fitting for keynote addresses. You could write maybe a 5 part essay series on this —
+
+— taking risks. What does this mean?
+— trying new things
+— challenging assumptions
+— keeping an open mind
+
+
+risks. When you’re young, you do things like major in creative writing and take out a big college loan and move to NYC, or go to Egypt. You aspire to write magazine articles and dream of being a big-time writer. Then that moment happens when financial reality sets in. You find yourself working 2 jobs, working as a marketing copy writer writing shitty marketing copy for products you hate and never use, while also teaching weekends at ITT-Tech to former military people who have no actual interest in writing. I think later in life this sets in, and you take those grand ambitions you once had and tone them down a bit. You don’t understand why students don’t look at technical writing as a career — because it’s wired into their DNA to take risks. My daughter is a history major, and every part of me says this is going to end badly. You’ll be in debt with a degree of little marketability (like mine was). Choose something safer, right? But this is what youth is all about — willing to risk it all on an aspiration, on a dream. How far are you willing to dream, to place your ambitions? As we get older, these ambitions start to get lower and lower, and perhaps from how experiences turned out badly, we are more apt to choose the safer route, the sure bet, the one that will not end up with us asking for change on the street corner. But this is also a kind of death. This comfort, where we stop taking risks and lower ourselves because life has taught us this. Well, life has another lesson in store for you — companies don’t want people who aren’t risk takers, who aren’t willing to dream big and then chase after those dreams. So major in history, go to the best university you can, or whoever, and follow your heart. And when you end up in that situation where you’re asking why you chose a certain path, why you didn’t become an accountant instead, recognize that at that point, you will have lost your youth and vitality. I think someone else had something to say on this topic — alton, David??
+
+alan watts: a new individual approaches life and it becomes new. ways of seeing. learning to see in ways that differ. you start to think of everything in terms of survival and profit. things cease to have magic. as you get old, you have this turning point where you cease to see magic. you are no longer fulfilling nature's game .... and so we die. something else comes online with a new view.
+
+{% endcomment %}

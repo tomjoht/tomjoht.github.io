@@ -3,7 +3,7 @@ title: "XML Documentation for Adobe Experience Manager (AEM) &mdash; Integrating
 categories:
 - general
 keywords:
-bitlink: http://bit.ly/xmlmgraempost
+bitlink: http://bit.ly/xmldocaem
 summary: "XML Documentation for Adobe Experience Manager (AEM) provides a DITA-based CCMS for both technical documentation and digital asset management. Palo Alto Networks used AEM to build a world-class documentation portal. A driving factor in their adoption was the ability to integrate documentation and marketing content."
 ---
 
