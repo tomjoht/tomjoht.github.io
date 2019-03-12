@@ -71,6 +71,8 @@ Picasso once said, when asked why his earlier paintings were dark and formal whe
 
 Following his advice, to return to a child-like state, I think you have to *un-learn* what you've already learned. Or rather, you have to acquire new learning that challenges or subverts what you thought you already knew. This is the paradox of it all &mdash; learning keeps you young, but only if you can unlearn what you've previously learned. That sense of awareness about yourself and life rarely correlates with age.
 
+Tip: To read more on this topic, see [How to encourage risk-taking and idealism without falling prey to cynical attitudes born from experience](/2019/03/12/encourage-risk-taking-and-idealism-without-falling-prey-to-cynical-attitudes).
+
 <hr/>
 
 Here are a few short survey questions to gauge your thoughts on this topic. You can view the [ongoing results here](https://www.questionpro.com/t/PFd5IZd2F8):
