@@ -38,7 +38,7 @@ As you can see on my site, I put ads into my top banner area and sidebar. What h
 
 If you shrink your browser, when the viewport size gets to 980px, the top banner ad "moves" to the Latest Posts section. Additionally, the sidebar content "moves" below the posts.
 
-I say "moves" because the element doesn't actually move &mdash; one element gets hidden and another element is suddenly shown. Here's how I did that. For the top banner, I have the ad inserted in two places in my theme. In the desktop view, the top space has an ID tag called `topBannerAd`. When the viewport is more than 980px, it is set to display normally. When the viewport is under 980px, it's set to display `none`. 
+I say "moves" because the element doesn't actually move &mdash; one element gets hidden and another element is suddenly shown. Here's how I did that. For the top banner, I have the ad inserted in two places in my theme. In the desktop view, the top space has an ID tag called `topComic`. When the viewport is more than 980px, it is set to display normally. When the viewport is under 980px, it's set to display `none`. 
 
 There's another instance of the ad (`topBannerImageHomepage`) that has the reverse display settings. When the viewport is more than 980px, it's set to `display:none`. But when the viewport is less than 980px, it displays `block`. The same technique is used with the sidebar. Here's the code:
 
@@ -60,7 +60,7 @@ There's another instance of the ad (`topBannerImageHomepage`) that has the rever
         max-width: 80%;
     }
         /* top banner area, normal sidebar area */
-    #sidebarArea, .topBannerAd {
+    #sidebarArea, .topComic {
         display: none;
     }
 }

@@ -9,7 +9,7 @@ I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites w
 
 ## Ad space options and costs
 
-<img style="float:right; padding-left:15px;" src="/images/ads/youradhere.png" alt="advertising on I'd Rather Be Writing"/>
+<img style="float:right; padding-left:15px;" src="/images/comics/yourcomichere.png" alt="advertising on I'd Rather Be Writing"/>
 
 I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 4,250 page views a day. More specifically, users created 942,306 sessions, with 1.65 pages per session and an average of 1:44 minutes per session.
 
@@ -42,7 +42,7 @@ You can advertise your product or service on idratherbewriting.com. Different ad
         <td markdown="span">$2,000/year</td>
     </tr>
     <tr>
-        <td markdown="span">[Top Banner space](#topbannerad)</td>
+        <td markdown="span">[Top Banner space](#topComic)</td>
         <td markdown="span">400 x 60px</td>
         <td markdown="span">$6,000/year</td>
     </tr>
@@ -95,7 +95,7 @@ The Horizontal Inline space (728 x 90px) appears below each post, right above t
 
 Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There is no limit to the number of horizontal inline post ads that can appear below the post (currently there are 4). The cost for inline horizontal ads is $2,000 per year.
 
-## Top Banner Ad Space {#topbannerad}
+## Top Banner Ad Space {#topComic}
 
 The top banner ad space (400 x 60px) refers to the top section of the site, in the upper-right corner. The top banner ad is placed in one of the most visually dominant places on the site.
 

@@ -2,7 +2,7 @@
 layout: default
 comments: true
 ---
-<div id="topBannerImageHomepage">{% include topBannerAd.html %}</div>
+<div id="topBannerImageHomepage">{% include topComic.html %}</div>
 {% comment %}
 {% unless page.embed_survey == "no_way" %}
 {{site.data.alerts.announcement}} I'm conducting a short survey measuring attitudes that practitioners and academics have of each other. If you'd like to participate, you can <a href="http://bit.ly/techcommattitudessurvey">take the survey here</a>. {{site.data.alerts.end}}
@@ -40,6 +40,6 @@ comments: true
 {% include mybio.html %}
 {% endunless %}
 
-{% include single_post_ads.html %}
+{% include single_post_comics.html %}
 
 {% include disqus.html %}

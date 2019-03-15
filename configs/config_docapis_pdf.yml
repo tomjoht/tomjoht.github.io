@@ -27,7 +27,7 @@ exclude:
   - _site
   - _posts
   - pages/
-  - _includes/sidebar_ads.html
+  - _includes/sidebar_comics.html
   - js/customscripts.js
 
 

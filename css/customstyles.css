@@ -757,13 +757,13 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #dedede;
 }
 
-.sidebarAds img, #mytechsidebar img {
+.sidebarComics img, #mytechsidebar img {
     float:left;
     padding:5px;
     max-width:125px;
 }
 
-.sidebarAds {
+.sidebarComics {
     margin:20px 0px;
     clear: both;
 }
@@ -799,12 +799,12 @@ h3.notesTitle {
     max-width: 100%;
 }
 
-div.topBannerAd {
+div.topComic {
     position: relative;
     float: right;
 
 }
-div.topBannerAd img {
+div.topComic img {
     max-width:500px;
     padding:10px;
     max-width:100%;
@@ -963,10 +963,10 @@ div.well ul li {
     color: #23527c;
 }
 
-.singlePostAds img {
+.singlePostComics img {
     padding-top: 10px;
 }
-.singlePostAds {
+.singlePostComics {
     margin-bottom:20px;
 }
 
@@ -1125,7 +1125,7 @@ ul#mysidebar li.active a {
 }
 /* media queries */
 
-.singlePostAds img {
+.singlePostComics img {
     max-width: 100%;
 }
 
@@ -1143,7 +1143,7 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1350px), only screen and (max-device-width: 1350px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 475px
     }
 }
@@ -1152,7 +1152,7 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1300px), only screen and (max-device-width: 1300px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 450px
     }
 }
@@ -1160,7 +1160,7 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1250px), only screen and (max-device-width: 1250px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 425px
     }
 }
@@ -1168,7 +1168,7 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 400px
     }
 }
@@ -1176,7 +1176,7 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1150px), only screen and (max-device-width: 1150px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 375px
     }
 }
@@ -1185,7 +1185,7 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1100px), only screen and (max-device-width: 1100px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 350px
     }
 }
@@ -1194,14 +1194,14 @@ ul#mysidebar li.active a {
 @media only screen and (max-width: 1050px), only screen and (max-device-width: 1100px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 325px
     }
 }
 @media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
     /* mobile sidebar area, mobile top banner ad area */
 
-    div.topBannerAd img {
+    div.topComic img {
         max-width: 300px
     }
 }
@@ -1220,7 +1220,7 @@ ul#mysidebar li.active a {
         max-width: 100%;
     }
     /* top banner area, normal sidebar area */
-    #sidebarArea, .topBannerAd {
+    #sidebarArea, .topComic {
         display: none;
     }
     .col-md-9 img, iframe, video {
@@ -1228,7 +1228,7 @@ ul#mysidebar li.active a {
         max-height: 100%;
     }
 
-    .singlePostAds img {
+    .singlePostComics img {
         max-width: 100%;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
@@ -1310,7 +1310,7 @@ margin-bottom:15px;
   min-width: 200px;
 }
 
-.sidebarAds {
+.sidebarComics {
   padding-top: 20px;
 }
 

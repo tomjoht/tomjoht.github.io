@@ -30,7 +30,7 @@ layout: none
 {% endfor %}
 
 <!-- advertising -->
-<p><a href="https://idratherbewriting.com/images/ads/adobefm.jpg"><img src="https://idratherbewriting.com/images/ads/adobefm.jpg"></p></a>
+<p><a href="https://idratherbewriting.com/images/comics/adobefm.jpg"><img src="https://idratherbewriting.com/images/comics/adobefm.jpg"></p></a>
 {% endraw %}
 ```
 
