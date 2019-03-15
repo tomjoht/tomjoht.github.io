@@ -4,7 +4,7 @@ categories:
 - general
 keywords:
 bitlink: http://bit.ly/risktakingvscynicism
-summary: "In our attempt to encourage risk-taking and idealism in youth, it's hard to avoid adopting a more cynical attitude born from our own learned experience. And yet, encouraging youth to avoid risk-taking and follow a safer route also diminishes the chances of their success."
+summary: "When we see risk-taking and idealism in younger people, it's hard to avoid adopting a more cynical attitude born from our own learned experience. And yet, encouraging youth to avoid risk-taking and follow a safer route also diminishes the chances of their success."
 ---
 
 ## Survey responses indicate engagement with growing older topic
@@ -43,7 +43,7 @@ But eventually I realized that my job teaching composition was going nowhere, an
 
 One week, as I was driving from one job to another on a Friday evening, moving slowly in congested traffic across the Tampa bridge, I grew frustrated at myself for the choices I had made. In fact, I had a kind of emotional breakdown. Here I was, straddling two jobs, barely making enough to keep afloat, one kid at home and another on the way. Why didn't I become an accountant or choose some other job that provided more security and financial stability? Why did I pursue this writing path that led me to where I currently found myself &mdash; with two poor-paying jobs and no time to rest? Is this what the remainder of my life looked like? Why was I so stupid?
 
-That was my turning point. That's where the vitality of my youth, the risk-taking and the dreaming big with limitless ambitions started to hit a reality check. I started to grow more cautious and prudent about my choices and where I should pour my energy. I stopped reading Whitman and instead spent my time learning WordPress. I became a technical writer. Eventually I steered into the most marketable and stable area of technical writing &mdash; API documentation. Each move reduced the risk even more.
+That was my turning point. That's where the vitality of my youth, the risk-taking and the dreaming big with limitless ambitions, started to hit a reality check. I started to grow more cautious and prudent about my choices and where I should pour my energy. I stopped reading Whitman and instead spent my time learning WordPress. I became a technical writer. Eventually I steered into the most marketable and stable area of technical writing &mdash; API documentation. Each move reduced the risk even more.
 
 I have a friend who teaches writing at BYU-Idaho, and when I lived in Utah, he would regularly invite me up to their campus during their professional writing week. I would try my best to persuade the dreamy students that their futures as book editors in New York or as poets and creative writers were probably going to run their course and, like me, they would need a more financially sustainable career. Few ever [listened to me](https://idratherbewriting.com/2008/11/03/podcast-debunking-the-boredom-myth-of-technical-writing/) about technical writing. When you're young, you dream, and these dreams rarely entail writing documentation.
 
@@ -59,7 +59,7 @@ Where did I learn this fear? When did I decide the safe route was the better one
 
 Another perspective might be to encourage her risk-taking. She has an open mind and says she isn't quite sure what she'll do. Maybe teaching, or government, or something else. The future is changing so quickly &mdash; half the careers that will exist in the future haven't even been invented yet. Thinking about her youthful ambition, I want to encourage her toward her big ideas. Follow your passions, bury yourself in the library, pour through philosophy and psychology and the events of the world. Synthesize it all in your mind. Have faith that you'll pull it all together toward some great end. You'll write a book, or become a history professor, or teach at a prestigious private high school, or become a museum curator in some fascinating urban center, or lead the United Nations, or simply find a fulfilling and enjoyable life of one who studies the narratives of the world. Who knows.
 
-I want to encourage this perspective and direction, but I know that one day she might have a reality-check moment like me. I want to protect her from that. The irony is that by protecting her from this risk-taking trajectory, I also prepare her to fail because it is precisely this risk-taking mindset that fuels her potential success. If I had squelched my creative ambition long ago to pursue a safer route (perhaps as an accountant), would this blog even exist?
+I want to encourage this perspective and direction, but I know that one day she might have a reality-check moment like me. I want to protect her from that. The irony is that by protecting her from this risk-taking trajectory, I also prepare her to fail because it is precisely this risk-taking mindset that fuels her potential success. If I had squelched my creative ambition long ago to pursue a safer route (perhaps as an accountant), would this blog, and my career success in the field, have come about?
 
 ## Topics for future essays and presentations
 
