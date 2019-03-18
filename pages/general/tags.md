@@ -9,6 +9,8 @@ mytags:
   url: /category-api-doc/
 - title: Beginner tips, career advice
   url: /category-beginners/
+- title: Biking
+  url: /category-biking/
 - title: Blogging
   url: /category-blogging/
 - title: Creativity

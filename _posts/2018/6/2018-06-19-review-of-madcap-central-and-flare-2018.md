@@ -1,5 +1,5 @@
 ---
-title: "Guest post from Una Cogavin: A Review of MadCap Flare 2018 and MadCap Central May 2018 Release "
+title: "MadCap Flare 2018 and MadCap Central Review for the May 2018 Release -- Guest post"
 categories:
 - general
 keywords:
