@@ -73,7 +73,7 @@ Again, I want to repeat that I know almost nothing about documentation related t
 
 Also, it's worth noting that the training for these pilots doesn't just include documentation but usually involves multi-million dollar flight simulators that pilots would need to train a certain number of hours with. It's not as if pilots are turning pages in software manuals before firing up a billion-dollar plane. (Though apparently, the training for the 737 Max included just [58 minutes on an iPad](https://www.youtube.com/watch?v=pal217dIhFc), according to Trevor Noah on the Daily Show.)
 
-Sill, I think the questions I raised here are semi-applicable to most documentation projects. They are by no means easy questions to address.
+Still, I think the questions I raised here are semi-applicable to most documentation projects. They are by no means easy questions to address.
 
 {{site.data.alerts.tip}} For more discussion on the Boeing topic and documentation, see this Reddit thread: <a href="https://www.reddit.com/r/technicalwriting/comments/b1stjl/the_boeing_737_max_8_flight_manual/">The Boeing 737 Max 8 Flight Manual</a>.{{site.data.alerts.end}}
 
