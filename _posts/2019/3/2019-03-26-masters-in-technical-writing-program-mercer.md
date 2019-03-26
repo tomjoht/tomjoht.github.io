@@ -18,7 +18,7 @@ Our technical communication program can be completed in two years, and it has be
 
 <figure><a href="https://engineering.mercer.edu/ms-tcm"><img src="/images/masters-in-technical-writing-mercer.png" alt="Masters in technical writing at Mercer"></a><figcaption>If you're thinking about an online masters program in technical communication, consider Mercer's program. The two-year online program is called <a href="https://engineering.mercer.edu/ms-tcm">Master of Science in Technical Communication Management</a>.</figcaption></figure>
 
-<h3> Pam, can you tell us a little about yourself? </h3>
+<h3> Can you tell us a little about you? </h3>
 
 Sure. I was a practicing technical communicator before I made the move into education and earned a PhD. I worked for LexisNexis (actually, for their predecessor) and for Cincom Systems. I continue to do government and consulting work.
 
