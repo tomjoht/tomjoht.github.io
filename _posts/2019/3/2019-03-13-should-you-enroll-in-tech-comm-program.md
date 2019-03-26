@@ -51,6 +51,8 @@ The problem is that when you finish your program and start looking for jobs, mos
 
 I say "sniff test" because it's almost impossible to evaluate writing with any depth unless you can spend a lot more time with the document than most hiring managers are willing to do (spending time to understand the documentation's context, its place within your doc portal, its audience and skill level, evaluate the accuracy, assess the terminology, and so on).
 
+{{site.data.alerts.callout_mercer}}
+
 Without more understanding about how to evaluate your writing, they'll begin to evaluate your technical skills instead. Technical skills are much easier to assess than writing skills. Hiring managers can assign a junior programmer to probe your technical knowledge. The programmer might draw a function on the board and ask you what it does. With tech knowledge, it's easy to check boxes &mdash; does the person know the various parts of a function/class/algorithm? Either they know the various components of the function, or they don't. Easy to assess.
 
 Because tech skills are easier to assess than writing skills, the hiring process will often focus more on the tech skills rather than the writing skills. Much of that knowledge about the theoretical foundations of tech comm that you learned in a tech comm program will be overlooked &mdash; not because it isn't valuable or useful or highly relevant, but because most hiring teams simply lack the awareness about how to assess writing beyond a superficial level.
