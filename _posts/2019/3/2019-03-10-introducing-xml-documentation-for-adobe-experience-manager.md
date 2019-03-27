@@ -11,7 +11,7 @@ summary: "XML Documentation for Adobe Experience Manager (AEM) provides a DITA-b
 
 ## Introducing XML Documentation for Adobe Experience Manager
 
-XML Documentation for Adobe Experience Manager (AEM) was initially released in July 2016. One of the early adopters was Palo Alto Networks, which Adobe featured in a [case study](https://blogs.adobe.com/techcomm/2018/08/adobe-customer-story-palo-alto-networks.html) on their blog. The following video tells the story of why Palo Alto Networks implemented XML Documentation for AEM:
+[XML Documentation for Adobe Experience Manager (AEM)](https://www.adobe.com/products/xml-documentation-for-experience-manager.html) was initially released in July 2016. One of the early adopters was Palo Alto Networks, which Adobe featured in a [case study](https://blogs.adobe.com/techcomm/2018/08/adobe-customer-story-palo-alto-networks.html) on their blog. The following video tells the story of why Palo Alto Networks implemented XML Documentation for AEM:
 
 <figure><a href="https://images-tv.adobe.com/avp/vr/2ebf7798-cf83-4979-bf73-b8dbe6f7cfb1/fc140e46-9938-4bef-8a4e-7bb94474f6a1/b058dc03-2117-44f7-9a68-e0f0fa60eb87_20180712073812.1280x720at2000_h264.mp4"><img src="/images/paloaltonetworksvideo.png"></a><figcaption>The video is embedded from a post on the Adobe Tech Comm blog called <a href="https://blogs.adobe.com/techcomm/2018/08/adobe-customer-story-palo-alto-networks.html">[Adobe Customer Story] Palo Alto Networks – Increasing Content Reach with Integrated Technical Documentation.</a></figcaption></figure>
 
