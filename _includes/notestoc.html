@@ -56,6 +56,11 @@
     {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
 
 
+    {% elsif page.series == "simplifying_complexity" %}
+    {% assign sidebarTitle = "Simplifying Complexity" %}
+    {% assign sidebar = site.data.sidebar_simplifying_complexity.entries %}
+
+
     {% endif %}
 
     <h3>{{sidebarTitle}}</h3>

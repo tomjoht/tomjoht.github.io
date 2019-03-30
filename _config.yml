@@ -18,6 +18,7 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
+format: web
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
