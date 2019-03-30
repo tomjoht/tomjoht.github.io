@@ -30,7 +30,7 @@ bitlink: http://bit.ly/ferrisfourhourtcprojects
 
 I've written previously about the [inefficiency of context-switching](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.
 
-To give you a sense of my day, last week I started regulating tasks following Kanban principles. To the right of my desk, I have a whiteboard where I wrote the three tasks I wanted to accomplish that day. 
+To give you a sense of my day, last week I started regulating tasks following Kanban principles. To the right of my desk, I have a whiteboard where I wrote the three tasks I wanted to accomplish that day.
 
 During the day, other tasks kept getting added to my plate, so I noted them by writing them on the same whiteboard below a horizontal line. By the end of the day, my whiteboard looked like a jumble of notes written by someone who is scattered-brained:
 
@@ -44,12 +44,12 @@ That's why I started reading Tim Ferriss' *[The 4-Hour Work Week](http://fourhou
 
 > Pareto's Law can be summarized as follows: 80% of the outputs result from 20% of the inputs. Alternative ways to phrase this, depending on the context, include:
 >
->* 80% of the consequences flow from 20% of the causes. 
+>* 80% of the consequences flow from 20% of the causes.
 >* 80% of the results come from 20% of the effort and time.
 >* 80% of the company profits come from 20% of the products and customers.
 >* 80% of all stock market gains are realized by 20% of the investors and 20% of an individual portfolio.
 
-Let's apply this to the goal of handling two major projects at once. Suppose you have 10 tasks to complete for Project A, and another 10 to complete with Project B. Identify the 20% that is responsible for the 80% -- that is, identify the two most important tasks from each project that actually matter to customers, and tackle those. 
+Let's apply this to the goal of handling two major projects at once. Suppose you have 10 tasks to complete for Project A, and another 10 to complete with Project B. Identify the 20% that is responsible for the 80% -- that is, identify the two most important tasks from each project that actually matter to customers, and tackle those.
 
 This means you only have 4 tasks to complete total, instead of 20. Now juggling two projects suddenly seems much more practical. If the 80-20 rule really holds true, this approach might let me actually tackle both projects in a semi-feasible way.
 
@@ -57,7 +57,7 @@ Ferriss explains that a lot of people will keep busy all day by completing a lis
 
 >Slow down and remember this: Most things make no difference. *Being busy is a form of laziness--lazy thinking and indiscriminate action. Being overwhelmed is often as unproductive as doing nothing, and is far more unpleasant. Being selective--doing less--is the path of the productive. Focus on the important few and ignore the rest.... It's easy to get caught in a flood of minutiae, and the key to not feeling rushed is remembering that *lack of time is actually lack of priorities.*
 
-Previously, when I had a list of 20 tasks to complete, I would often pick tasks that I thought I could easily finish, since this accomplishment would give me momentum and energy to keep moving through the list. 
+Previously, when I had a list of 20 tasks to complete, I would often pick tasks that I thought I could easily finish, since this accomplishment would give me momentum and energy to keep moving through the list.
 
 But focusing on more trivial tasks isn't the right approach. Ferriss says, "Doing something well does not make it important. ... *What* you do is infinitely more important than *how* you do it."
 
@@ -89,12 +89,10 @@ Other time wasters include meetings and email. Here Ferriss is relentless at rem
 
 > Decide that, given the non-urgent nature of most issues, you will steer people toward the following means of communication, in order of preference: e-mail, phone, and in-person meetings. ...I haven't had an in-person meeting for my business in more than five years and have had fewer than a dozen conference calls, all lasting less than 30 minutes.
 >
-> Do not e-mail first thing in the morning or last thing at night. The former scrambles your priorities and plans for the day, and the latter just gives you insomnia. E-mail can wait until 10 A.M, after you've completed at least one of your critical to-do items. 
+> Do not e-mail first thing in the morning or last thing at night. The former scrambles your priorities and plans for the day, and the latter just gives you insomnia. E-mail can wait until 10 A.M, after you've completed at least one of your critical to-do items.
 
 By focusing on your two mission-critical tasks the first thing in the morning -- instead of responding to email and focusing on trivial errands -- you set yourself up to be more productive. And if you know that you're leaving the office at 4pm, you're less likely to let time slip by chatting at the watercooler, browsing websites, or sitting in pointless meetings.
 
 Overall, some of Ferriss' tactics seem too harsh. I'm probably not going to shut down all social interactions, cancel meetings, and take myself offline for hours at a time. But I am going to focus on those top 2 tasks that are responsible for 80% of the output. Even if the list of tasks continues to grow on Projects A and B, perhaps it won't matter as much because I'll be completing the things that matter.
 
-{{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
-
-
+{{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a rel="nofollow" href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}

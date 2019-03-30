@@ -53,5 +53,5 @@ This map is too bulky to add at the top of each page, so I'm looking at differen
 
 The other challenge is that I want the graphic to be an SVG graphic so that I can edit the text and hyperlink the boxes to the appropriate page. I also want to add unique style to each element and highlight that element to be another color when the user is viewing the page. This would allow me to use the same SVG instead of duplicating it into 15 variants.
 
-{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">ClickHelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a rel="nofollow" href="https://clickhelp.com/">ClickHelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a rel="nofollow" href="https://clickhelp.com/">clickhelp.co</a>.{{site.data.alerts.end}}
 

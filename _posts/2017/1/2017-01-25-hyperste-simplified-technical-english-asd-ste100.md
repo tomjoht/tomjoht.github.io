@@ -5,8 +5,11 @@ categories:
 keywords: hyperste, acrolinx, writing checker
 summary: "Simplified Technical English (STE) is an approach to writing developed by the aerospace and defense industries to simplify technical documentation. STE consists of a dictionary of about 900 allowed words and a set of 65 writing rules. Together, this controlled language is formalized into a specification called ASD-STE100, which many regulatory industries must follow to ensure clear, consistent content. HyperSTE is a plugin offered by Etteplan to check your content for adherence to the rules and grammar of the ASD-STE100 specification."
 bitlink: http://bit.ly/asd-ste1000hyperste
-redirect_from: /2017/01/24/hyperste-simplified-technical-english-asd-ste100/
+redirect_from:
+- /2017/01/24/hyperste-simplified-technical-english-asd-ste100/
 ---
+
+*Note: Etteplan is one of the sponsors of this site.*
 
 ## Using tools to assist with writing
 
@@ -66,7 +69,7 @@ Which is easier to read? Now imagine that you’re an airplane mechanic who spea
 
 It can be difficult to remember the 900 words in the STE dictionary and 65 writing rules. To help with this, there are various tools you can install as plugins in your authoring environment. These plugins act as grammar/style checkers that highlight problem text and provide suggestions or explanations in the margins.
 
-Etteplan, a technical services company based in Europe, Asia and North America, offers a plugin called [HyperSTE](https://technicaldocumentation.services/offering/hyper-ste/) that integrates with most help authoring tools. HyperSTE can work with Microsoft Word, Adobe FrameMaker, MadCap Flare, Oxygen, XMetal, Author-It, and most major content management systems.
+Etteplan, a technical services company based in Europe, Asia and North America, offers a plugin called <a rel="nofollow" href="https://technicaldocumentation.services/offering/hyper-ste/">HyperSTE</a> that integrates with most help authoring tools. HyperSTE can work with Microsoft Word, Adobe FrameMaker, MadCap Flare, Oxygen, XMetal, Author-It, and most major content management systems.
 
 HyperSTE not only provides style and grammar checking for STE, it also lets you build your own dictionaries. These custom dictionaries contain your company's specific language and product terms.
 
@@ -80,6 +83,4 @@ Etteplan also provides training on Simplified Technical English and ASD-STE100. 
 
 ## Conclusion
 
-Although you technically don’t require a plugin to follow the ASD-STE100 specification (which is nearly 400 pages), it is highly recommended to use HyperSTE to make technical authoring much easier and cost effective. To learn more about HyperSTE, see [HyperSTE](https://technicaldocumentation.services/offering/hyper-ste/).
-
-*Note: Etteplan is one of the sponsors of this site.*
+Although you technically don’t require a plugin to follow the ASD-STE100 specification (which is nearly 400 pages), it is highly recommended to use HyperSTE to make technical authoring much easier and cost effective. To learn more about HyperSTE, see <a rel="nofollow" href="https://technicaldocumentation.services/offering/hyper-ste/">HyperSTE</a>.

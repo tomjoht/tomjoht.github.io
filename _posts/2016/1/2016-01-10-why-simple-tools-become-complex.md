@@ -3,7 +3,7 @@ title: The problem with adopting bleeding-edge tools
 categories:
 - jekyll
 - dita
-keywords: help authoring tools, technical writing trends, tools 
+keywords: help authoring tools, technical writing trends, tools
 summary: "The problem with adopting bleeding-edge tools is that they usually handle only the simplest use cases. When you try to make these bleeding-edge tools handle complex publishing requirements, the simple tools transform into Rube Goldberg machines of sorts. Since engineers usually don't have to solve these complex publishing requirements themselves, they tend to embrace the simple bleeding-edge tools and can't understand why anyone would pursue a more complex route."
 thumb: complexityoptions.png
 ---
@@ -11,7 +11,7 @@ thumb: complexityoptions.png
 ## What are the bleeding-edge tools?
 In a recent discussion on the [Techw-l listserv](http://www.techwr-l.com/archives/), an academic was looking to find advice about the "bleeding-edge" trends in help authoring tools. Academics want to prepare students to succeed in the job market once they graduate, and since academics usually aren't focused on tools, this person was looking for guidance.
 
-One of the commenters on the thread made a particularly astute observation about bleeding-edge tools. [Robert Lauriston noted](http://www.techwr-l.com/archives/1601/techwhirl-1601-00009.html#.VpFLgpMrIyk): 
+One of the commenters on the thread made a particularly astute observation about bleeding-edge tools. [Robert Lauriston noted](http://www.techwr-l.com/archives/1601/techwhirl-1601-00009.html#.VpFLgpMrIyk):
 
 > This happens to me over and over: an engineer mentions a product that they think has great documentation. I look at their docs for a few minutes and see that (1) the product is very simple and (2) the docs are nevertheless only around 10-50% complete.
 
@@ -35,7 +35,7 @@ For example, here are a few features (based on requirements) that I added to my 
 
 Finding a way to do all of this with Jekyll (which was originally designed as a blogging tool but turns out to be flexible enough to allow you to do "whatever you want") was challenging. I mean first, I had to figure out *if* it could be done. Then I had to make it happen.
 
-{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a href="http://bit.ly/clickhelp">ClickHelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a href="http://bit.ly/clickhelp">clickhelp.co</a>.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}Want to explore the latest cloud-based documentation tools? <a rel="nofollow" href="https://clickhelp.com/">ClickHelp</a> lets you author, collaborate, review, and publish your documentation through one slick browser-based interface. Prices for teams start as low as $29/month per user. Learn more at <a rel="nofollow" href="https://clickhelp.com/">clickhelp.co</a>.{{site.data.alerts.end}}
 
 ## My Rube Goldberg Machine
 
@@ -43,17 +43,17 @@ The problem is that the ways to handle the publishing requirements have now made
 
 Bleeding-edge tools rarely satisfy the requirements placed on tech writers. For example, I was looking more closely at [Contentful](http://www.contentful.com), an API-based CMS that looks to be bleeding edge. Do you think you could use a variable within a topic so that the same content source might use a different term depending on the output? If so, I didn't see that capability.
 
-Or take [readme.io](http://readme.io). Looks cool, right? But what if you want to re-use the same chunk of content in multiple outputs. Not possible. (In fact, I don't even think multiple outputs beyond basic versioning are possible.) 
+Or take [readme.io](http://readme.io). Looks cool, right? But what if you want to re-use the same chunk of content in multiple outputs. Not possible. (In fact, I don't even think multiple outputs beyond basic versioning are possible.)
 
 Interestingly, Confluence was mentioned as one of the bleeding-edge tools. If you've tried to re-use content with Confluence, or version content, you'll see that it too gets complicated. And when you try to architect any kind of Confluence output into another HTML target (besides the built-in HTML output that is primitive), you're also going to run into complexity.
 
-## Evaluating complexity 
+## Evaluating complexity
 
-As I was adding a new PDF output to a subset of our Jekyll topics the other week (troubleshooting a colleague's configuration), I tried to decide whether my Jekyll Rube Goldberg machine was easier or harder than it would be with a DITA-based Rube Goldberg machine. 
+As I was adding a new PDF output to a subset of our Jekyll topics the other week (troubleshooting a colleague's configuration), I tried to decide whether my Jekyll Rube Goldberg machine was easier or harder than it would be with a DITA-based Rube Goldberg machine.
 
-With DITA, you would be setting up keyrefs that leveraged different conditional attributes, and then you would be configuring your DITAVAL files inside a tool such as OxygenXML, and so on. 
+With DITA, you would be setting up keyrefs that leveraged different conditional attributes, and then you would be configuring your DITAVAL files inside a tool such as OxygenXML, and so on.
 
-Here's what I decided: **Any system you use will get complex when you try to satisfy complex requirements.** DITA is complex because it was designed from the ground up to handle complex requirements, as are other systems built for technical writers. 
+Here's what I decided: **Any system you use will get complex when you try to satisfy complex requirements.** DITA is complex because it was designed from the ground up to handle complex requirements, as are other systems built for technical writers.
 
 If you just have simple requirements to fulfill, the execution is a lot simpler. But technical writers are hired to handle complex publishing requirements. (If it were easy, the company wouldn't need you.)
 
@@ -68,4 +68,3 @@ Regardless of the route you take, in the end, you're not going to escape the com
 <img src="{{ "/images/complexity-01.svg" | prepend: site.baseurl }}" alt="Complexity options" />
 
 If you create your own custom solutions, you have much more flexibility to do what you want &mdash; you just need the right skills. If you plug into standardized complexity (like DITA), you can buy systems and platforms that remove some of the complexity for you and put it behind a closed door. However, making any modifications to some of these pre-built systems will certainly be daunting.
-

@@ -172,7 +172,7 @@ Although I mentioned crickets as a response for crowdsourcing docs in my current
 
 Regardless of the participation, I'm planning to leave my docs on GitHub for a lot longer before evaluating the efforts. I suspect it's too early to evaluate much of anything. Most engineers probably don't realize they *can* edit docs, so I have some education efforts to make both internally and externally. Only after I get the collaboration engine moving along can I begin to evaluate whether the tradeoffs for simplicity were worth it.
 
-{{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}With the modern online documentation tools like ClickHelp, you can <a rel="nofollow" href="https://clickhelp.co/online-documentation-tool/">create Web Help output</a> as well generate PDF, DOCX, EPUB and other formats from the same source. Start your own documentation portal today: get ClickHelp trial. Get your <a rel="nofollow" href="https://clickhelp.co/online-documentation-tool-free-trial/">ClickHelp.co trial</a> today and give it a try.{{site.data.alerts.end}}
 
 [1]: https://idratherbewriting.com/2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/
 

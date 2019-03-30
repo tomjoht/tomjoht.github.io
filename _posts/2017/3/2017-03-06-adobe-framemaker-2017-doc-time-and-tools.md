@@ -28,13 +28,13 @@ When I transitioned from my previous job to my new job, I made a post of [regret
 
 What matters is content, not so much the tool. If there's a way to reduce your time spent tinkering with tools and allow you to deep dive into content, I'm all for that approach.
 
-With that context, I'd like to take some time to promote one of the tools of my sponsors: Adobe FrameMaker. Specifically, I want to highlight the recent [Adobe FrameMaker 2017 release][6].
+With that context, I'd like to take some time to promote one of the tools of my sponsors: Adobe FrameMaker. Specifically, I want to highlight the recent <a rel="nofollow" href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG">Adobe FrameMaker 2017 release</a>.
 
 ## Adobe FrameMaker 2017 highlights
 
 Adobe recently released FrameMaker 2017.
 
-<a href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG" alt="Adobe FrameMaker 2017"><img src="/images/framemaker2017banner.png" style="max-width: 600px;"/></a>
+<a rel="nofollow" href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG" alt="Adobe FrameMaker 2017"><img src="/images/framemaker2017banner.png" style="max-width: 600px;"/></a>
 
 The main features of the FrameMaker 2017 release include the following:
 
@@ -42,7 +42,7 @@ The main features of the FrameMaker 2017 release include the following:
 * Best-in-class search, including auto-complete search
 * New responsive HTML5 layouts and a plain HTML layout
 * Professional outputs for mobile, web, desktop, and print formats
-* Integration with [Adobe Experience Manager][11] (Adobe's DITA CCMS)
+* Integration with <a href="https://idratherbewriting.com/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/">Adobe Experience Manager</a> (Adobe's DITA CCMS)
 * A variety of enhancements to increase productivity through simplicity
 
 I briefly listed highlights, but let's jump into the details.
@@ -73,11 +73,11 @@ The search index uses JSON for fast-indexing of the content. If you use SVG imag
 
 Additionally, you can automatically merge your CSS files into a single file to improve the loading times in the responsive HTML5 output.
 
-FrameMaker 2017 also integrates with the [Adobe Experience Manager][14], which is Adobe's DITA CCMS. This allows teams with CCMS needs to scale up their solution.
+FrameMaker 2017 also integrates with the <a rel="nofollow" href="https://docs.adobe.com/content/docs/en/aem/6-2.html">Adobe Experience Manager</a>, which is Adobe's DITA CCMS. This allows teams with CCMS needs to scale up their solution.
 
 To learn more about these new features, check out these other articles:
 
-* [2017 Release of FrameMaker][13], by Abishek Jain
+* <a rel="nofollow" href="http://blogs.adobe.com/techcomm/2017/01/2017-release-of-framemaker.html">2017 Release of FrameMaker</a>, by Abishek Jain
 * [Adobe Tech Comm Suite 2017 is better than ever!][7], by Danielle Villegas
 * [Review: FrameMaker (2017 Release)][8], by Matt Sullivan
 * [FrameMaker 2017 and MS Word 2016 Feature Comparison][9], from douwriteright.com
@@ -125,7 +125,7 @@ Companies prefer their employees to spend time focusing on documentation for the
 
 If you want to enable productivity with content authoring, check out time-tested tools like Adobe FrameMaker. FrameMaker has a large community of users (see the recent [Content Wrangler Benchmarking survey][3] and [WritersUA Tools survey][4] for evidence of its popularity). It is also a mature product with 14 major releases. FrameMaker is a tool that is designed from the ground up to support tech comm workflows and scenarios.
 
-<a href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG"><button type="button" class="btn btn-info">Download a trial of FrameMaker 2017</button></a>
+<a rel="nofollow" href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG"><button type="button" class="btn btn-info">Download a trial of FrameMaker 2017</button></a>
 
 
 [1]: https://idratherbewriting.com/2016/02/27/retrospective-on-the-good-and-bad/
@@ -133,12 +133,7 @@ If you want to enable productivity with content authoring, check out time-tested
 [3]: http://thecontentwrangler.com/2016/05/26/2016-technical-communication-industry-benchmarking-survey/
 [4]: http://www.welinske.com/skills-and-technologies-survey-2016-technologies/
 [5]: https://www.indeed.com/jobs?q=framemaker&l=
-[6]: http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG
 [7]: https://techcommgeekmom.com/2017/02/14/adobe-tech-comm-suite-2017-is-better-than-ever/
 [8]: http://www.techcommtools.com/review-framemaker-2017-release/
 [9]: http://www.douwriteright.com/PDF/word_v_framemaker_comparison_guide_ue.pdf
-[10]: http://www.adobe.com/products/framemaker/reviews.html
-[11]: http://www.adobe.com/products/xml-documentation-add-on-for-experience-manager.html
 [12]: https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/
-[13]: http://blogs.adobe.com/techcomm/2017/01/2017-release-of-framemaker.html
-[14]: https://docs.adobe.com/content/docs/en/aem/6-2.html

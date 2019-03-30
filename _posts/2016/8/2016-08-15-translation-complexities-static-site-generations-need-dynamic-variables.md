@@ -137,4 +137,4 @@ Then again, I'm betting that each system has a learning curve along with some st
 
 If you've managed translation projects and want to share your insights, please do so in the comments below. One reason I write posts about topics or techniques that I'm still developing is to learn from others ahead of time and hopefully avoid mistakes that I might otherwise make without this input.
 
-{{site.data.alerts.ad}}To create great content for your user manuals, you need good, efficient <a href="http://bit.ly/clickhelponlinedoctool">online help tools</a>. ClickHelp is a modern help writing tool &mdash; hosted and browser-based, <a href="https://clickhelp.co/">Clickhelp</a> provides powerful single-sourcing features while remaining easy to use.{{site.data.alerts.end}}
+{{site.data.alerts.ad}}To create great content for your user manuals, you need good, efficient <a rel="nofollow" href="https://clickhelp.com/">online help tools</a>. ClickHelp is a modern help writing tool &mdash; hosted and browser-based, <a rel="nofollow" href="https://clickhelp.co/">ClickHelp</a> provides powerful single-sourcing features while remaining easy to use.{{site.data.alerts.end}}
