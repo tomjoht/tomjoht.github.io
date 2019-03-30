@@ -12,7 +12,7 @@ summary: "Considering earning a master's in technical writing to move up the car
 
 <h3>Thanks for chatting with me about the master's in technical writing program at Mercer. At a high-level, what's the program all about?</h3>
 
-Thanks for the opportunity to tell you about our online [Master of Science in Technical Communication Management (MSTCM) program](https://engineering.mercer.edu/ms-tcm). We're very proud of it because we focus on professional context, and our faculty have current, real-world experience. Our position in the School of Engineering also gives us a technical connection that sets us apart from the crowd.
+Thanks for the opportunity to tell you about our online <a rel="nofollow" href="https://engineering.mercer.edu/ms-tcm">Master of Science in Technical Communication Management (MSTCM) program</a>. We're very proud of it because we focus on professional context, and our faculty have current, real-world experience. Our position in the School of Engineering also gives us a technical connection that sets us apart from the crowd.
 
 Our technical communication program can be completed in two years, and it has been recognized as "one of the most affordable and effective" in the country, and our students speak highly about their experience.
 
@@ -88,7 +88,7 @@ Students who take six credit hours per semester qualify for federal loan program
 
 I don't know about "hybrid academics," but all of our faculty have workplace experience in technical communication, and we continue to consult and work on grants in order to keep our skills current. Part of our requirements for tenure and promotion is technical currency.
 
-Our faculty is committed to advancing students' careers and customizing their education for their workplace growth and development. Contact us if this unique program sounds like it might be right for you. Visit[ https://engineering.mercer.edu/ms-tcm](https://engineering.mercer.edu/ms-tcm) for more information. You can also reach out to me directly with any questions at brewer_pe@mercer.edu.
+Our faculty is committed to advancing students' careers and customizing their education for their workplace growth and development. Contact us if this unique program sounds like it might be right for you. Visit Mercer's <a rel="nofollow" href="https://engineering.mercer.edu/ms-tcm">Master of Science in Technical Communication Management (MSTCM) program</a> for more information. You can also reach out to me directly with any questions at brewer_pe@mercer.edu.
 
 <h3> Your reactions and input </h3>
 

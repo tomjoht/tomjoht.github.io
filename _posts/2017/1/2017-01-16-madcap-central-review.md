@@ -11,9 +11,9 @@ date: 2017-01-16 17:00:00
 Here’s an introductory video with more details:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lqa2LqOGYIE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-You can view more videos about MadCap Central here: [madcapsoftware.com/videos/central](http://www.madcapsoftware.com/videos/central/)
+You can view more <a href="http://www.madcapsoftware.com/videos/central/" rel="nofollow">videos about MadCap Central here</a>.
 
-With MadCap Central, you can do the following:
+With <a href="http://www.madcapsoftware.com/products/central/" rel="nofollow">MadCap Central</a>, you can do the following:
 
 * Upload Flare projects into a central space
 * Configure user and team permissions for projects
@@ -48,7 +48,8 @@ If there are conflicts between writers who commit the conflicting changes to Mad
 
 If you're using another source control system outside of MadCap Central, you can designate your project as "dual bound." With dual bound projects, it's assumed that you've already done any conflict resolution on commits. When you commit a dual bound project, the last commit wins (rather than presenting conflict resolution dialogs).
 
-For more info on the source control used with MadCap Central, see the [Source Control](http://www.madcapsoftware.com/products/central/faq.aspx) section of their FAQ.
+For more info on the source control used with MadCap Central, see the
+<a href="http://www.madcapsoftware.com/products/central/faq.aspx" rel="nofollow">Source Central</a> section of their FAQ.
 
 ## Configuring build schedules for projects
 
@@ -102,4 +103,4 @@ In contrast to CCMS systems, which simply store and manage your content in a cen
 
 You no longer need to use separate systems for source control, task management, permissions, and other details. It’s all contained and managed within one central hub. Overall, MadCap Central provides a much-needed publishing and content delivery solution for tech docs.
 
-Check out more here: [MadCap Central](http://www.madcapsoftware.com/products/central/).
+Check out more here: <a href="http://www.madcapsoftware.com/products/central/" rel="nofollow">MadCap Central</a>.
