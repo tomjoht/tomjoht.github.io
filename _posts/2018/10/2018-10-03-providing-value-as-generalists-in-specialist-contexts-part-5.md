@@ -54,13 +54,13 @@ I’ll provide some of the highlights here in a quick way, and you can see if an
 
 One way that we simplify any complex process is by dividing it up into smaller steps. For example, in drawing books for kids, one way to make it easier to draw is by chunking up the process, like this:
 
-<figure><img src="https://idratherbewriting.com/images/simplifying-complexity/dogman_process.jpg"/><figcaption>Here my seven-year-old is learning to draw <i>Dog Man.</i> To simplify the task of drawing Dog Man, the author has broken the process out into \"28 ridiculously easy steps\."</figcaption></figure>
+<figure><img src="https://idratherbewriting.comsimplifying-complexity/images/dogman_process.jpg"/><figcaption>Here my seven-year-old is learning to draw <i>Dog Man.</i> To simplify the task of drawing Dog Man, the author has broken the process out into \"28 ridiculously easy steps\."</figcaption></figure>
 
 Chunking long, complicated tasks into a series of subtasks is a foundational principle in tech comm. However, when you chunk up a complex process into small steps, it’s easy for users to get lost in the details, especially if the chunked tasks span several topics and pages or more.
 
 To help move the user through each of the steps, it helps to embed a workflow map at the top of these steps. The workflow map helps orient users through a larger process. Here’s an example of a simple process map I used in some of my documentation:
 
-<figure><a href="https://developer.amazon.com/docs/app-submission/publish-app-login-and-add-app.html"><img src="https://idratherbewriting.com/images/simplifying-complexity/map-app-submission.png"/></a><figcaption>When submitting an app into the Amazon Appstore, you follow these steps. The workflow map helps keep people oriented and provides context to their larger place in the process.</figcaption></figure>
+<figure><a href="https://developer.amazon.com/docs/app-submission/publish-app-login-and-add-app.html"><img src="https://idratherbewriting.comsimplifying-complexity/images/map-app-submission.png"/></a><figcaption>When submitting an app into the Amazon Appstore, you follow these steps. The workflow map helps keep people oriented and provides context to their larger place in the process.</figcaption></figure>
 
 Creating these maps is pretty easy, but it can become more challenging when you have various branching or conditional scenarios. I tend to create different process maps for different aspects of documentation. For example, I might have [several process maps within docs](https://developer.amazon.com/docs/fire-app-builder/end-to-end-process.html) rather than one single map.
 
@@ -116,7 +116,7 @@ Before adding new topics to an information landscape, look to see how the new in
 
 Synthesizing information to harmonize with the larger information landscape requires wide reading and analysis but is essential for the user experience, since users often bounce from one information source to another as they consume information. Consuming this information can be akin to taking a graduate level course where you have to crunch through large amounts of material and analyze the content. This kind of broad and deep reading across the entire site isn't something specialists are likely to do, as they are often narrowly focused on their own area of expertise only.
 
-<figure><img src="/images/simplifying-complexity/distillation_and_integration_integration.svg"/><figcaption>Integrating information into a larger whole requires you to understand that larger whole and how the new information does or does not fit in.</figcaption></figure>
+<figure><img src="simplifying-complexity/images/distillation_and_integration_integration.svg"/><figcaption>Integrating information into a larger whole requires you to understand that larger whole and how the new information does or does not fit in.</figcaption></figure>
 
 In my projects, when one of the engineering teams wanted to contribute docs that touched on other content, I Cc'd the other teams and asked them to evaluate whether the new information to be integrated harmonized. One engineer raised some issues about it, and noted potential conflicts. I then got the two engineers battling off against each other. Had I just worked with a single team on content, I might have simply published out the new content without realizing that I was contributing towards a contradictory and conflicting information experience for users.
 
@@ -128,13 +128,13 @@ In contrast to integrating information into larger structures, the opposite acti
 
 Crystalizing large information into a brief distillation that captures the main point in as little a space as possible can be a difficult skill that rivals a poet’s astuteness with language and articulation. Despite the difficulty with the task, this distillation can go a long way towards simplifying a complex system.
 
-<figure><img src="/images/simplifying-complexity/distillation_and_integration_distillation.svg"/><figcaption>Distilling large amounts of information into consumable and understandable summaries also involves a lot of skill and prowess.</figcaption></figure>
+<figure><img src="simplifying-complexity/images/distillation_and_integration_distillation.svg"/><figcaption>Distilling large amounts of information into consumable and understandable summaries also involves a lot of skill and prowess.</figcaption></figure>
 
 For example, a good structure in a doc page usually provides a title, summary, headings, mini-TOC, and topic sentences that let users take in the information at a glance rather than reading the content line by line. These elements are simple, but they are the bread-and-butter of information usability. Let me just focus on the summary, which I think is the most important.
 
 A couple of years ago, while browsing information on Jakob Nielsen’s site, I became converted to the benefit of summaries in content. Seeing this summary allowed me to quickly process whether the article contained the information I was looking for.
 
-<figure><a href="https://www.nngroup.com/articles/moderated-remote-usability-test/"><img src="https://idratherbewriting.com/images/simplifying-complexity/nielsonsummaryexample.png"/></a><figcaption>A good summary lets you know immediately what the content is about and whether it matches your information needs.</figcaption></figure>
+<figure><a href="https://www.nngroup.com/articles/moderated-remote-usability-test/"><img src="https://idratherbewriting.comsimplifying-complexity/images/nielsonsummaryexample.png"/></a><figcaption>A good summary lets you know immediately what the content is about and whether it matches your information needs.</figcaption></figure>
 
 In almost all my blog posts, you see a short summary at the top that usually tries to capture the main point of the article. On my [Simplifying Complexity site](https://idratherbewriting.com/simplifying-complexity), I’ve put this information into a “Principle” at the top.
 
@@ -148,11 +148,11 @@ Interestingly, this summary is one of the hardest elements to write. I’ve been
 
 In addition to making information on a single page more usable, the summaries can be pulled out into a "Pages at a Glance" feature that would work as a section overview. For example:
 
-<figure><a href="https://developer.amazon.com/docs/fire-tv/toc-overview.html"><img src="https://idratherbewriting.com/images/simplifying-complexity/firetvdocssummaries.png"/></a><figcaption>The sections at a glance require structured properties in pages (title and description).</figcaption></figure>
+<figure><a href="https://developer.amazon.com/docs/fire-tv/toc-overview.html"><img src="https://idratherbewriting.comsimplifying-complexity/images/firetvdocssummaries.png"/></a><figcaption>The sections at a glance require structured properties in pages (title and description).</figcaption></figure>
 
 Besides distilling information into summaries, another approach is to distill information into quick reference guides. A quick reference guide provides a 1-2-page guide (in an attractive magazine-style layout) that briefly summarizes the core tasks and features in the system. Here’s an example:
 
-<figure><img src="https://idratherbewriting.com/images/simplifying-complexity/watershed6101.png"/><figcaption>The quick reference guide should provide the user with just enough information to get the gist of what the system is about, how to do key tasks, and get going. Almost invariably, you write the quick reference guide near the end of your documentation project, when you can see the whole and compress it accordingly.</figcaption></figure>
+<figure><img src="https://idratherbewriting.comsimplifying-complexity/images/watershed6101.png"/><figcaption>The quick reference guide should provide the user with just enough information to get the gist of what the system is about, how to do key tasks, and get going. Almost invariably, you write the quick reference guide near the end of your documentation project, when you can see the whole and compress it accordingly.</figcaption></figure>
 
 For more information, see [Principle 4: Reduce and distill vast information down to its essence](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html).
 
