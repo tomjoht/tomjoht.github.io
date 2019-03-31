@@ -1,7 +1,7 @@
 ---
 title: "Saving Your Sanity Through Better Client Relations -- with Alisa Bonsignore"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 summary: "In this presentation, Alisa Bonsignore, a technical communication consultant based in the San Francisco Bay area, talks about how she developed confidence and experience in consulting with clients about writing projects. In the beginning, Alisa started out by apologizing for projects in which she worked excessive numbers of hours for little pay, often trying to meet last-minute requests that required late nights and zapped her work-family balance. But project by project, she started to understand how to interact with clients in a more professional, self-respecting way. Ultimately this helped save her sanity and build a stable income through a reputable business."

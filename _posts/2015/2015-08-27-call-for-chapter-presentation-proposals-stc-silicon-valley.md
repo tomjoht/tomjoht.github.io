@@ -2,7 +2,7 @@
 title: "Proposals for 2016 *STC Silicon Valley Chapter* presentations now accepted"
 keywords: society for technical communication, silicon valley, stc, santa clara, speaking, presenting, proposals
 categories:
-- general
+- technical-writing
 summary: "If you would like to present to the Silicon Valley STC Chapter (located in Santa Clara, Calif.), you can submit a proposal to speak. Chapter meetings are held on Monday evenings once a month and last about an hour. We're inviting proposals this year to give more people a chance to speak. Speaking at a chapter event can build credibility for a Summit proposal as well."
 thumb: stcsv.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Confronting the fear of growing older when you're surrounded by young programmers"
 categories:
-- general
+- technical-writing
 keywords:
 bitlink: http://bit.ly/growingoldwhileyoung
 summary: "The engineering demographic can make even a relatively young person seem old. This sense of growing old is causing panic in many tech workers in Silicon Valley. One solution might be to change your mindset about what it means to be young, and to learn to unlearn what you have already internalized unconsciously."

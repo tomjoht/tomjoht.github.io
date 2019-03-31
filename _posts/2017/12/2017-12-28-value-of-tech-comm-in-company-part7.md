@@ -2,7 +2,7 @@
 title: Value arguments for docs and tech comm (Part VII)
 subtitle: "Part VIII: Conclusion"
 categories:
-- general
+- technical-writing
 keywords: value, organizations, information flow, content experience
 summary: "It's time to wrap up this essay with some concluding thoughts and takeaways. I also list the references here for more reading."
 bitlink: http://bit.ly/valueargspart7

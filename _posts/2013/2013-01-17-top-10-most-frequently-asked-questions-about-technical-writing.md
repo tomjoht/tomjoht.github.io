@@ -4,7 +4,7 @@ title: Top 10 Most Frequently Asked Questions about Technical Writing
 date: 2013-01-17 01:08:05.000000000 -08:00
 categories:
 - beginners
-- general
+- technical-writing
 tags:
 - careers
 - portfolios

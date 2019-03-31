@@ -2,7 +2,7 @@
 title: Voiceover Techniques Series
 permalink: /voiceovertechniques/
 categories:
-- general
+- technical-writing
 - screencasting
 - video
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: "Transparency in documentation: dealing with limits about what you can and cannot say"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 keywords:

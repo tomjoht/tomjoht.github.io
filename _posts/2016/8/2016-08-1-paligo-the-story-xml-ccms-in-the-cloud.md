@@ -1,7 +1,7 @@
 ---
 title: "The Story of Paligo: A new browser-based CCMS with all the features you'd ever want"
 categories:
-- general
+- technical-writing
 - podcasts
 - stitcher
 keywords: paligo, component content management systems, ccms, xml, docbook, help authoring tool, web content management, content management, web CMS for documentation teams

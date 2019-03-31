@@ -1,7 +1,7 @@
 ---
 title: Should QA test documentation?
 categories:
-- general
+- technical-writing
 tags: [series_testing_documentation]
 series: testing_documentation
 keywords: quality assurance, testing, documentation, rigorous review

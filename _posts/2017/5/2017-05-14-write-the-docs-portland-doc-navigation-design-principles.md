@@ -2,7 +2,7 @@
 title: "Slides for Write the Docs Portland presentation on doc navigation best practices"
 categories:
 - findability
-- general
+- technical-writing
 keywords:
 summary: "Slides for my presentation on doc navigation are available below. I'm giving this presentation at Write the Docs Portland on May 15. The presentation is about 20 minutes long."
 bitlink: http://bit.ly/wtdportlandslides

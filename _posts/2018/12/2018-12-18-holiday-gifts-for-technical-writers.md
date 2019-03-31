@@ -1,7 +1,7 @@
 ---
 title: "Top 10 holiday gifts for technical writers"
 categories:
-- general
+- technical-writing
 - writing
 keywords:
 summary: "Wondering what to get the precious technical writer in your family or workplace for the holidays? Here are some gift ideas."

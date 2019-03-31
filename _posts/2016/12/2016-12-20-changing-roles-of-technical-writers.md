@@ -1,7 +1,7 @@
 ---
 title: "Generalist versus specialist: What should you focus on with knowledge building in your tech writing role?"
 categories:
-- general
+- technical-writing
 keywords: specialist, generalist, deep technical knowledge, time, engineers, technical writing roles, content curator, publisher
 summary: "I've been thinking about how I should focus my time with knowledge building in my tech writing career, especially given my context in a large organization. Lately, rather than primarily writing content, I've been playing more of a content curator / tools developer / publisher role. I'm okay with this. But sometimes I feel like I have to choose between acquiring deep technical knowledge versus acquiring deep tech doc tools/publishing knowledge."
 bitlink: http://bit.ly/generalistvsspecialist

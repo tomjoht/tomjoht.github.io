@@ -1,7 +1,7 @@
 ---
 title: Write the Docs versus the STC -- an explanation of differences
 categories:
-- general
+- technical-writing
 keywords: Write the docs, 
 summary: "Write the Docs is an informal meetup group whose members have a variety of professional roles. The group values open source principles, has an entirely volunteer, grassroots style of organization, and has more origins with developer documentation. Because Write the Docs is free and open, it is becoming an increasingly attractive alternative to professional associations like the STC that require yearly dues and have a closed system."
 thumb: wtdstcthumb.png

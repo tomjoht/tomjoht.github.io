@@ -1,7 +1,7 @@
 ---
 title: Seeing what others commit.
 categories:
-- general
+- technical-writing
 keywords: 
 summary: ""
 published: false

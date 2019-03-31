@@ -1,7 +1,7 @@
 ---
 title: "Has plain language deepened or ruined our delight in language?"
 categories:
-- general
+- technical-writing
 - writing
 - podcasts
 - stitcher

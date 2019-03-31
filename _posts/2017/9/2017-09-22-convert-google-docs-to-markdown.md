@@ -1,7 +1,7 @@
 ---
 title: "Convert Google Docs content to Markdown or HTML using the gd2md-html add-on"
 categories:
-- general
+- technical-writing
 keywords: google docs, markdown, converter, sme review
 summary: "gd2md-html is a Google Docs add-on that will convert your Google Doc content into either Markdown or HTML. This tool provides a much-needed converter that enables you to use Google Docs as a platform for content development without manually reformatting the content when you're ready to publish it in another system."
 bitlink: http://bit.ly/gd2md-html

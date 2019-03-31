@@ -1,7 +1,7 @@
 ---
 title: "Recording and slides for my trends presentation at the Symposium for Communicating Complex Information (SCCI)"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 - writing

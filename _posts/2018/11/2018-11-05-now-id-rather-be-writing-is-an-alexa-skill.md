@@ -1,7 +1,7 @@
 ---
 title: "I'd Rather Be Writing is now an Alexa Flash Briefing skill"
 categories:
-- general
+- technical-writing
 - writing
 - stitcher
 keywords:

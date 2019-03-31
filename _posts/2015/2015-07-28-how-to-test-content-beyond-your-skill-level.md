@@ -1,7 +1,7 @@
 ---
 title: How do you test content that's beyond your skill level?
 categories:
-- general
+- technical-writing
 tags: [series_testing_documentation]
 series: testing_documentation
 keywords: testing complex content, admin server setups

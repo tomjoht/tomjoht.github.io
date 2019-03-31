@@ -2,7 +2,7 @@
 layout: post
 title: 'The Tell-Tale Project &mdash; Guest Post by Edgar Allan Poe, Technical Writer'
 categories:
-- general
+- technical-writing
 type: post
 published: true
 redirect_from:

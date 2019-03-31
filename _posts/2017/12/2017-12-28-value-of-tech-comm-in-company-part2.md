@@ -2,7 +2,7 @@
 title: Value arguments for docs and tech comm (Part II)
 subtitle: "Part II: Reviewing past research"
 categories:
-- general
+- technical-writing
 keywords: value, tech comm, research, redish, carliner
 summary: "Before jumping into the value debate, I want to review some of the research that has been done previously. With this topic, the STC's academic publications have a rich history of study and exploration."
 bitlink: http://bit.ly/valueargspart2

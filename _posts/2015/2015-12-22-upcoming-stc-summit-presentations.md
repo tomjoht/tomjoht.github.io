@@ -3,7 +3,7 @@ title: My upcoming 2016 STC Summit workshop and presentation
 categories:
 - api-doc
 - jekyll
-- general
+- technical-writing
 keywords:
 summary: "I'm going to be giving a workshop on API documentation and a presentation about Jekyll at the STC Summit in Anaheim, California in May."
 thumb: stcsummitupcomingpre2016.png

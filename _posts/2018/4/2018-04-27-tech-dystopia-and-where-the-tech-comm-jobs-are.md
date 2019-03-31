@@ -1,7 +1,7 @@
 ---
 title: "Do you have to relocate to an urban tech hub to find a technical writing job?"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "To find high-paying jobs in tech comm, many technical writers move to urban technology hubs because companies want their workers on site. Living in an urban tech hub usually involves high costs of living and the sacrifice of a more rural, suburban lifestyle. It's unclear why the digital revolution doesn't motivate more companies to welcome remote workers."
 bitlink: http://bit.ly/urbantechwriterjobs

@@ -1,7 +1,7 @@
 ---
 title: "Question: What qualities should technical writers have to work at startups?"
 categories:
-- general
+- technical-writing
 - beginners
 keywords: 
 summary: "To excel in a startup environment, technical writers need to have a strong technical aptitude, the ability to both lead and be independent, the capacity to evaluate content strategy decisions instead of just documentation, versatility to write in a variety of situations, and stability to weather the roller-coaster ride of startup finances."

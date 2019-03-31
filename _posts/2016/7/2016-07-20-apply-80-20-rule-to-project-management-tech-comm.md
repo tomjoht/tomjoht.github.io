@@ -1,7 +1,7 @@
 ---
 title: "Applying Tim Ferriss' 4-hour work week rules to tech comm projects"
 categories:
-- general
+- technical-writing
 - innovation
 - podcasts
 - stitcher

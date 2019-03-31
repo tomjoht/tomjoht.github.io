@@ -3,7 +3,7 @@ title: "How can technical writers thrive in agile environments? Event recording 
 categories:
 - podcasts
 - stitcher
-- general
+- technical-writing
 - beginners
 date: 2016-09-20
 tags:

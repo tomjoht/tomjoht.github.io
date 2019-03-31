@@ -1,7 +1,7 @@
 ---
 title: "The ideal number of slides for an hour-long presentation, and other thoughts on preparing slides"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "When giving an hour long presentation, about 15 slides is ideal. Although having fewer slides might make you panic about possibly forgetting what you want to say, in reality fewer slides gives you more flexibility to narrate your idea journey in a dynamic way. If you have too many slides, it locks you into a fixed, rigid structure that can actually make presenting harder. Additionally, a good essay is often the foundation for a good presentation because many of the rhetorical elements of an essay (the introduction, thesis, evidence, argument, etc.) are reflected in presentations as well."
 bitlink: http://bit.ly/

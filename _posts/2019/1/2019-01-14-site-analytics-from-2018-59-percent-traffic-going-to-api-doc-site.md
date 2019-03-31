@@ -1,7 +1,7 @@
 ---
 title: "Site analytics from Jan 1 to Dec 31, 2018 -- are more engineers writing docs now?"
 categories:
-- general
+- technical-writing
 - api-doc
 - stitcher
 - podcasts

@@ -1,7 +1,7 @@
 ---
 title: How do you authenticate your documentation?
 categories:
-- general
+- technical-writing
 - jekyll
 keywords: content management, access control, identity access management 
 summary: "Authenticating documentation poses significant challenges with identity access control. Ideally, customers should only see documentation for products they purchased. Rather than creating separate sites for each audience, a content management system can map viewing rights to user groups."

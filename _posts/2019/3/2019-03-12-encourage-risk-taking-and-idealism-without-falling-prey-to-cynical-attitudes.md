@@ -1,7 +1,7 @@
 ---
 title: "How to encourage risk-taking and idealism without falling prey to cynical attitudes born from experience"
 categories:
-- general
+- technical-writing
 keywords:
 bitlink: http://bit.ly/risktakingvscynicism
 summary: "When we see risk-taking and idealism in younger people, it's hard to avoid adopting a more cynical attitude born from our own learned experience. And yet, encouraging youth to avoid risk-taking and follow a safer route also diminishes the chances of their success."

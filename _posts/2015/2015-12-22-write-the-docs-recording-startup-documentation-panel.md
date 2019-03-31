@@ -1,7 +1,7 @@
 ---
 title: 'Recording of Creating Documentation for Startups: Panel Discussion &mdash; Write the Docs San Francisco'
 categories:
-- general
+- technical-writing
 - video
 keywords: 
 summary: "The following is a recording of a panel discussion at a Write the Docs San Francisco meetup held Dec 17, 2015. The topic is on creating documentation for startups."

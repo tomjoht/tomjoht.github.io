@@ -1,7 +1,7 @@
 ---
 title: "MadCap Flare 2018 and MadCap Central Review for the May 2018 Release -- Guest post"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "The following is a guest post from <a href='#unacogavin'>Una Cogavin</a>, a certified MadCap Advanced Developer and Flare consultant. In this post, Cogavin reviews Flare 2018 and Central and explains the features she finds most useful in these tools."
 bitlink: http://bit.ly/flarecentralcogavin

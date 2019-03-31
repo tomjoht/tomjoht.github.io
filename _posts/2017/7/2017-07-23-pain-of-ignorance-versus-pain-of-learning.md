@@ -1,7 +1,7 @@
 ---
 title: "When the pain of ignorance exceeds the pain of learning"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: "Question: How are you publishing and delivering your docs?"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "I'm publishing my documentation through Jekyll, delivering the content on internal servers for internal customers, and delivering it on Salesforce.com for external customers. I wish I had a better delivery mechanism externally other than Salesforce, but authentication solutions are either complicated or costly."
 ---

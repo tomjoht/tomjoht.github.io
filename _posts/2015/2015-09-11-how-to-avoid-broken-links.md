@@ -1,7 +1,7 @@
 ---
 title: "How to avoid broken links when single sourcing"
 categories:
-- general
+- technical-writing
 keywords: 
 summary: "Identifying and preventing broken links in single sourcing scenarios is a challenge with almost every tool and platform in tech comm. It is especially challenging with static site generators. I'm trying to implement some validity checkers with my Jekyll project to make sure I don't end up with dead or orphan links."
 ---

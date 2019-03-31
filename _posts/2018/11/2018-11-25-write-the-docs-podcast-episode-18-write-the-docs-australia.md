@@ -1,7 +1,7 @@
 ---
 title: "Recap and thoughts on the WTD Australia 2018 conference (Write the Docs podcast episode 18)"
 categories:
-- general
+- technical-writing
 - podcasts
 keywords: write the docs, Australia, conference
 summary: "In episode 18 of the Write the Docs podcast, we discuss the recent Write the Docs Australia 2018 conference held in Melbourne, Australia. Jared was an emcee at the event and shares his inside perspective about what made the event so successful. We dive deep into the unconference format, how to instill the Write the Docs brand into the conference experience, how super volunteers can avoid burnout, what sessions stood out, and more. Also, Chris confesses that he has attended about 40 conferences this year, and explains a few reasons why."

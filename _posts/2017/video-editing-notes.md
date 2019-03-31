@@ -8,7 +8,7 @@ categories:
 - dita
 - family
 - findability
-- general
+- technical-writing
 - innovation
 - jekyll
 - podcasts

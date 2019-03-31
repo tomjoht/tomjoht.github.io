@@ -1,7 +1,7 @@
 ---
 title: "Balancing the never-ending list of documentation to write with your natural interests and passions"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 keywords: 

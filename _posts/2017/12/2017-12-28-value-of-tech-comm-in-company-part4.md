@@ -2,7 +2,7 @@
 title: Value arguments for docs and tech comm (Part IV)
 subtitle: "Part IV: Enabling information flow"
 categories:
-- general
+- technical-writing
 keywords: value, organizations, information flow, content experience
 summary: "Technical writers can add more value by encouraging information flow across disparate groups within an organization (such as Support, Engineering, Marketing, Training, Field Engineering, and more). Encouraging information flow not only empowers these groups with better knowledge, it also encourages them to share feedback and input that dramatically improves the documentation. However, information flow alone is too tenuous of a value to attribute to technical writers, and probably only applies to large organizations."
 bitlink: http://bit.ly/valueargspart4

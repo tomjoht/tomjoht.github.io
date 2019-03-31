@@ -1,7 +1,7 @@
 ---
 title: "Strategies from pickup basketball -- Why you shouldn't guard the worst player or focus too much on the documentation no one reads"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "Most of my readers are technical writers, so I rarely post about basketball. But given the current NBA playoffs, I'd like to briefly explain my latest pickup basketball strategy and how it can help you win not only on the court, but on documentation projects too."
 bitlink: http://bit.ly/pickupballstratsanddocs

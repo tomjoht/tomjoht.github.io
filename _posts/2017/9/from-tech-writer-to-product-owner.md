@@ -1,7 +1,7 @@
 ---
 title: "What does it mean to be a product owner?"
 categories:
-- general
+- technical-writing
 keywords:
 summary: ""
 bitlink: http://bit.ly/

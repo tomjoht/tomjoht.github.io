@@ -3,7 +3,7 @@ title: "Reader question: How do I move forward out of a stagnant tech writing ca
 categories:
 - api-doc
 - beginners
-- general
+- technical-writing
 keywords: careers
 summary: "To move out of a stagnant career, immerse yourself in learning on your own. You can learn programming online, for example, or specialize in a knowledge domain or tools."
 ---

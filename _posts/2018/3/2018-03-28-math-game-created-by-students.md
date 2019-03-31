@@ -1,7 +1,7 @@
 ---
 title: "The math game my daughter and her friend created with Codesters"
 categories:
-- general
+- technical-writing
 keywords: games, learning code
 summary: "My 13-year-old daughter and her classmate recently created a math game designed for fifth grade students learning variables. They used Codesters, which is a website that uses Python to let kids code directly in the browser in an easy-to-learn way."
 bitlink: http://bit.ly/codestersappmath

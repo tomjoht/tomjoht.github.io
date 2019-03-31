@@ -1,7 +1,7 @@
 ---
 title: "Recent Write the Docs presentation recordings"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "We recently hosted a Write the Docs meetup in Redwood City with a couple of excellent presenters. Recordings of their presentations are below. I also explain a bit about my new lapel mic and recording process."
 thumb: writethedocsthumb.png

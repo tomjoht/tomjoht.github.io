@@ -1,7 +1,7 @@
 ---
 title: "My second-chance points strategy with documentation"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "In addition to being a technical writer, I also play basketball. I might spend more time playing basketball, in fact, than I do writing on this blog. I never played college ball, but I love playing pickup basketball several times a week at various courts. Now that NBA season recently finished, I figure it may be relevant to expound a bit on a pet theory of mine about how to win at pickup basketball games, and how that same strategy might apply to winning at documentation."
 bitlink: http://bit.ly/secondchancepoints

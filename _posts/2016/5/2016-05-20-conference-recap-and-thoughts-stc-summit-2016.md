@@ -2,7 +2,7 @@
 title: "Some post-STC Summit thoughts"
 categories:
 - api-doc
-- general
+- technical-writing
 keywords: STC Summit, Jekyll, conferences,  
 thumb: stcsummitanaheimworkshopthumb.png
 summary: "I attended the 2016 STC Summit in Anaheim, California this year. This is a brief, rambling post that recaps some of my thoughts and experiences."

@@ -1,7 +1,7 @@
 ---
 title: Should you add your testing scenarios into your documentation?
 categories:
-- general
+- technical-writing
 tags: [series_testing_documentation]
 series: testing_documentation
 keywords: testing documentation, test cases, use cases, tutorials

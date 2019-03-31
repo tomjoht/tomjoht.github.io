@@ -1,7 +1,7 @@
 ---
 title: Survey analyzing skill requirements in job postings
 categories:
-- general
+- technical-writing
 keywords: 
 summary: "A grad student in tech comm needs your response to a short survey that examines responses to skill requirements in job postings. You can post your responses in comments."
 ---

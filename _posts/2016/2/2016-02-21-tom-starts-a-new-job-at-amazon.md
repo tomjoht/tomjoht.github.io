@@ -1,7 +1,7 @@
 ---
 title: "I'm starting a new job at Amazon Lab126"
 categories:
-- general
+- technical-writing
 keywords: Amazon Lab126, Experian, lab126, jobs, transition, technical writer roles
 summary: "I'm starting a new job at Amazon Lab126 in Sunnyvale, California this week. This past week I closed out the remaining projects, tasks, and other final details at 41st Parameter / Experian in preparation for the transition. This week I'll be in Seattle (where Amazon's headquarters are located) all week for training."
 thumb: amazonlab126screenthumb.png

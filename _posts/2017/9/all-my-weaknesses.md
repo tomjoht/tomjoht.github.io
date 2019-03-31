@@ -1,7 +1,7 @@
 ---
 title: "All my weaknesses -- expounded"
 categories:
-- general
+- technical-writing
 keywords:
 summary: ""
 bitlink: http://bit.ly/

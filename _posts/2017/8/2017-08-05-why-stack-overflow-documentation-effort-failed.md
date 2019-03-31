@@ -1,7 +1,7 @@
 ---
 title: "Why Stack Overflow's Documentation effort failed -- a few thoughts from a technical writer's perspective"
 categories:
-- general
+- technical-writing
 - writing
 - podcasts
 - stitcher

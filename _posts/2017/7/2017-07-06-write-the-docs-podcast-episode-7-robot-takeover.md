@@ -2,7 +2,7 @@
 title: "Write the Docs Podcast Episode #7:  Let The Robots Do The Work"
 categories:
 - findability
-- general
+- technical-writing
 keywords: write the docs, metadata, user interface copy
 summary: "In this podcast, we first explore the flourishing community of technical writers in Poland, discussing why the tech writing scene in Krakow is taking off so quickly and what trends this young tech writing community is embracing. We're joined by special guest Pawel Kowaluk, a Polish tech writer who runs SOAP (a tech comm conference based in Poland). We also talk about automation and robot takeovers of tech writing jobs. How are machine-assisted technologies enhancing or displacing technical writers and their work? Given the increase in automation, is tool expertise becoming more or less essential to thrive as a technical writer?"
 bitlink: http://bit.ly/wtdpodcast6idbw

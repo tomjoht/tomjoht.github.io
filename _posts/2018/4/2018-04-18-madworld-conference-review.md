@@ -1,7 +1,7 @@
 ---
 title: "A Review of the MadWorld Conference -- guest post by Jayna Locke"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "In this guest post, Jayna Locke explains what brought her to the <a href='https://www.madcapsoftware.com/conference/madworld-2018/'>MadWorld Conference</a> the first time and what keeps her returning. She describes the main reasons for attending, tips for getting the most out of the conference, best practices, and more. The MadWorld Conference takes place June 3-6, 2018 in San Diego, California."
 bitlink: http://bit.ly/madworldconferencereview

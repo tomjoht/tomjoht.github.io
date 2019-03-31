@@ -1,7 +1,7 @@
 ---
 title: "The difference between marketing writing and technical writing in one small sign"
 categories:
-- general
+- technical-writing
 keywords: marketing copy, marketing writing, technical writing, plain, concise, clear, plain language
 summary: "On a recent trip to Claire's with my three girls, I saw a sign that captured the distinction between marketing writing and technical writing perfectly."
 thumb: clairethumb.png

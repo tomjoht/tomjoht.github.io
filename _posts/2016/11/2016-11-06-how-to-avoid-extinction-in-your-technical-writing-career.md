@@ -1,7 +1,7 @@
 ---
 title: "How to avoid becoming extinct in your technical writing career"
 categories:
-- general
+- technical-writing
 keywords: 
 summary: "In contrast to other non-IT professions, the rapidly evolving pace of technology means that our experience a decade ago is practically obsolete. With new platforms, programming languages, workplace methodologies, and other changes coming on the tech scene every year, IT professionals must implement an approach of continual learning to survive."
 bitlink: http://bit.ly/avoidextincttccareer

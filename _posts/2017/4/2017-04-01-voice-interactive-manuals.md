@@ -1,7 +1,7 @@
 ---
 title: "Amazon begins pilot with voice-interactive user manuals"
 categories:
-- general
+- technical-writing
 - writing
 keywords:
 summary: "Amazon's technical writers are taking their manuals to the next level using voice-interactive features with Alexa. The guides are still delivered through traditional means (PDF and web), but these guides now include an additional interactive voice enhancement that users can optionally leverage when they get confused or frustrated."

@@ -3,7 +3,7 @@ layout: post
 title: Quick reference guide slides from the Transalpine Conference
 date: 2009-06-13 02:19:38.000000000 -07:00
 categories:
-- general
+- technical-writing
 keywords:
 - conferences
 - Notes

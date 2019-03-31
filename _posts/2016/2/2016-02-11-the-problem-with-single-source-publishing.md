@@ -1,7 +1,7 @@
 ---
 title: Three models for single source publishing &mdash; and challenges with each
 categories:
-- general
+- technical-writing
 summary: "When publishing different versions of content for different audiences, you can choose from among several single source publishing models: individual outputs, rights-based views, and dynamic filtering. Each option has challenges, however, and is not easy to pull off."
 thumb: threemodels.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Upcoming BrightTALK webinar on trends -- January 15, 2019"
 categories:
-- general
+- technical-writing
 keywords:
 summary: "I'll be giving an upcoming free webinar about trends on BrightTALK on January 15, 2019."
 bitlink: http://bit.ly/upcomingbrighttalkwebinar

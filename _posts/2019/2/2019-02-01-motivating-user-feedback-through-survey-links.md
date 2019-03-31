@@ -1,7 +1,7 @@
 ---
 title: "How to motivate users to provide feedback: Show that you're listening to their input"
 categories:
-- general
+- technical-writing
 - podcasts
 - stitcher
 - user-centered-documentation

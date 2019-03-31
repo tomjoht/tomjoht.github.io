@@ -1,7 +1,7 @@
 ---
 title: "Recording of Let's Tell a Story -- Scenario-Based Documentation, by Matt Ness (STC Silicon Valley Presentation)"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 summary: "Matt Ness, a technical writer at Splunk and a co-organizer for WTD San Francisco, recently gave a presentation to the STC Silicon Valley chapter called Let's Tell a Story: Scenario-Based Documentation. In this presentation, Matt talks about ways to integrate storytelling techniques into documentation, drawing upon his experience as a Dungeons and Dragons player and his player experience from other video game or fantasy worlds. To help users on their journeys and quests, you need a narrative to guide them and a manual to help them overcome obstacles. Video, slides, and audio from the presentation are included in this post."

@@ -1,7 +1,7 @@
 ---
 title: "Tech docs and Agile: Alternatives to integrating into engineering Scrums (Part 2)"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 keywords: Agile

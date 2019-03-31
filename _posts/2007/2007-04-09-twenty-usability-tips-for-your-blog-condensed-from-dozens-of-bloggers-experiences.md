@@ -4,7 +4,7 @@ title: Twenty Usability Tips for Your Blog — Condensed from Dozens of Bloggers
 date: 2007-04-09 20:09:43.000000000 -07:00
 categories:
 - blogging
-- general
+- technical-writing
 tags: []
 status: publish
 type: post

@@ -1,7 +1,7 @@
 ---
 title: "How to avoid being a secretary for engineers"
 categories:
-- general
+- technical-writing
 - writing
 - stitcher
 - podcasts

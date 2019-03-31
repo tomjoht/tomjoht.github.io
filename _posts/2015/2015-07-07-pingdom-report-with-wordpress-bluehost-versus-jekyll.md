@@ -1,7 +1,7 @@
 ---
 title: "Pingdom reports with WordPress on Bluehost/MaxCDN versus with Jekyll on Github"
 categories:
-- general
+- technical-writing
 keywords: maxcdn, bluehost, jekyll, github, speed, performance
 summary: "My blog is both faster and more stable with Jekyll on Github than it was with WordPress on Bluehost with MaxCDN."
 ---

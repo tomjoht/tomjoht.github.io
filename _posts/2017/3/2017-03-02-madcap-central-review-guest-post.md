@@ -1,7 +1,7 @@
 ---
 title: "Guest Post -- MadCap Central: A Review for Companies Delivering Technical Communication Services"
 categories:
-- general
+- technical-writing
 keywords:
 bitlink: http://bit.ly/madcapcentralguestreview
 summary: "The following is a guest post from Michał Skowron and Jakub Wiśniewski, two technical writers working for 3di. 3di is a company providing technical authoring, translation and localization services. In this short review, Skowron and Wiśniewski evaluate MadCap Central, a new product from MadCap Software. MadCap Central is a cloud-based platform where you can host your MadCap Flare projects, manage builds, track tasks, manage users and their permissions, and collaborate with others. The article looks at the product from the perspective of a company delivering tech comm services."

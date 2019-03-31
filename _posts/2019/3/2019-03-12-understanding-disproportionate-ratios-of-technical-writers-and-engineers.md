@@ -2,7 +2,7 @@
 title: "Understanding disproportionate ratios between technical writers and engineers"
 categories:
 - academics-and-practitioners
-- general
+- technical-writing
 - writing
 keywords:
 bitlink: http://bit.ly/

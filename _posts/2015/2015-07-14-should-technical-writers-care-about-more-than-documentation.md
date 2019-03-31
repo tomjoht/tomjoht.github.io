@@ -1,7 +1,7 @@
 ---
 title: Should technical writers care about more than documentation?
 categories:
-- general
+- technical-writing
 tags: [series_testing_documentation]
 series: testing_documentation
 keywords: content strategy, the customer experience, holistic customer journeys

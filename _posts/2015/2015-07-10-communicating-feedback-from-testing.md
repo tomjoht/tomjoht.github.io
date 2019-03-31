@@ -1,7 +1,7 @@
 ---
 title: Communicating feedback from testing documentation
 categories:
-- general
+- technical-writing
 tags: [series_testing_documentation]
 series: testing_documentation
 keywords: jira, bugs, agile processes, issue tracking, visibility

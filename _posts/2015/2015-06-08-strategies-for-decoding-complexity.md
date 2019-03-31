@@ -2,7 +2,7 @@
 title: How can technical writers cut through engineering jargon and decode complex information?
 categories:
 - beginners
-- general
+- technical-writing
 keywords: complexity, simplification, natural speech, reducing jargon, plain speech, cryptic engineers
 summary: "As technical writers, we know our task is to explain how complex products work through simple, easy-to-understand language. But before you can explain something, you first have to decode that complexity for yourself. You can decode complexity by approaching it piece by piece, asking engineers for details, drawing pictures, experimenting, and more."
 ---

@@ -1,7 +1,7 @@
 ---
 title: Increase efficiency 24 times faster when fixing errors &mdash; implications for technical writers on agile teams
 categories:
-- general
+- technical-writing
 keywords: 
 summary: "If you want to influence developers to make changes to code (such as with UI text), it's 24 times easier for developers to make the changes if you tell them the same day they code the feature than if you wait a few weeks later. This means technical writers should keep pace with the features coded during each sprint."
 ---

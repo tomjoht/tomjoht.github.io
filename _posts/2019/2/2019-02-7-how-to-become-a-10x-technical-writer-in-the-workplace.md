@@ -3,7 +3,7 @@ title: "How to become a 10X technical writer in the workplace"
 categories:
 - podcasts
 - stitcher
-- general
+- technical-writing
 - innovation
 - writing
 keywords:

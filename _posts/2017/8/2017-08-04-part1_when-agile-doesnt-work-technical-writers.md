@@ -1,7 +1,7 @@
 ---
 title: "Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)"
 categories:
-- general
+- technical-writing
 - stitcher
 - podcasts
 keywords:

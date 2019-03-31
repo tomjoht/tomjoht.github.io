@@ -1,7 +1,7 @@
 ---
 title: "Hi there – Let’s get casual… Guest post by Lavanya Krishnamurthy"
 categories:
-- general
+- technical-writing
 keywords: casual tone, emotional documentation, rhetoric, persona, conversation, establishing trust, translation
 summary: "In this guest post, Lavanya Krishnamurthy explores the use of a casual tone in documentation as a way to give users a sense of having a conversation with the author. She presents several easy techniques for implementing a casual tone, and also notes the potential tradeoffs this approach can have."
 thumb: lavanya.png

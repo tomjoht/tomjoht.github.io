@@ -1,7 +1,7 @@
 ---
 title: "My gravity towards tools"
 categories:
-- general
+- technical-writing
 keywords: 
 summary: "Tools are an odd problem in tech comm. On the one hand, companies don't want you to spend hardly any time at all either learning or setting up authoring tools. Preferably, you should already be familiar with the company's tools before being hired. Then after you're hired, companies usually want you to focus on content, not any kind of tool configuration or setup. On the other hand, it seems like almost every company I've been at has needed extensive help with authoring/publishing tool setup and configuration. I am starting to think that my pattern of deep diving into tool sets at companies is indicative of a deeper interest in web development."
 bitlink: http://bit.ly/gravitytowardstools
