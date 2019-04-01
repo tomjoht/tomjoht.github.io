@@ -131,6 +131,7 @@ The in-text ads are denoted with a Bootstrap alert-type formatting, with text th
 
 I also offer product review posts to help with visibility. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Here are some sample product reviews I wrote previously:
 
+* [XML Documentation for Adobe Experience Manager (AEM) — Integrating documentation and marketing content into a seamless whole](https://idratherbewriting.com/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/) (668 page views as of 3-25-19)
 * [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](https://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,968 page views as of 3-10-19)
 * [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (5,533 page views as of 3-10-19)
 * [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (4,056 page views as of 3-10-19)
@@ -146,9 +147,9 @@ If possible, I'll download and explore your product before writing about it. But
 
 Each product review post costs $500 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
 
-Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the first page of search results. This is because my site has a high page rank and influence.
+Product review posts have good results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the first page of search results. This is because my site has a high page rank and influence.
 
-I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com.
+I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com. However, note that for per the [Link Schemes](https://support.google.com/webmasters/answer/66356?hl=en) policy with Google, I'm required to add `rel=nofollow` to any links that appear to companies (and their products) when I'm being paid to write the post. This attribute reduces the Pagerank that flows from my site through the link, but it avoids potential penalties or other spam-point assignments in the search algorithm.
 
 ## Guest posts {#guest_posts}
 

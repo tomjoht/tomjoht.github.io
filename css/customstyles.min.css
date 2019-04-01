@@ -491,6 +491,7 @@ ul#mysidebar li.active a:hover {
 
 .search-header-title {
     flex: auto
+    font-size: 32px;
 }
 
 .search-header-logo {

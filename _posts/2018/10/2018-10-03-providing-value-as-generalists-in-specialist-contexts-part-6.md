@@ -43,7 +43,7 @@ In other words, these are the core conventions of the documentation genre. When 
 
 But we can apply this idea even further. This four components model (especially with goals, actions, and unwanted states) isn't too far off from the structure of story itself, which underlies much of the way we see the world, not just documentation. In *The User’s Journey*, Donna Lichaw depicts the structure of story as follows:
 
-<figure><a href="https://www.amazon.com/Users-Journey-Storymapping-Products-People/dp/1933820314"><img src="https://idratherbewriting.comsimplifying-complexity/images/lichaw-usage-story.png"/></a><figcaption>The typical story includes exposition, inciting action, rising action, crisis, climax, denouement, and end. Her depiction of story follows the typical breakdown of “characters, goals, and conflict” — elements Aristotle called out as the foundation of story, she explains. Stories have a clear beginning, middle, and end.</figcaption></figure>
+<figure><a href="https://www.amazon.com/Users-Journey-Storymapping-Products-People/dp/1933820314"><img src="https://idratherbewriting.com/simplifying-complexity/images/lichaw-usage-story.png"/></a><figcaption>The typical story includes exposition, inciting action, rising action, crisis, climax, denouement, and end. Her depiction of story follows the typical breakdown of “characters, goals, and conflict” — elements Aristotle called out as the foundation of story, she explains. Stories have a clear beginning, middle, and end.</figcaption></figure>
 
 In all my blog posts, presentations, and other writing projects, I always have one primary structure in mind: story. If you can shape information into a story, you'll never go wrong. For example, recently at work, I was asked to do a competitive analysis of another product. I’d never written a competitive analysis before, and I started by gathering as much information as I could about the competitor’s product. I gathered a ton of information through research, but then I needed to figure out how to organize it.
 
@@ -67,7 +67,7 @@ API evangelist Kin Lane recently noted his frustration with an API’s language 
 
 As a technical writer, using the correct terms for your knowledge and product domain is necessary. To simplify the language, you can’t just omit the appropriate terminology for the domain or substitute in more friendly names.
 
-<figure><img src="https://idratherbewriting.comsimplifying-complexity/images/jargon.svg" /><figcaption>Without a mutual understanding of terms, the effectiveness of communication plummets
+<figure><img src="https://idratherbewriting.com/simplifying-complexity/images/jargon.svg" /><figcaption>Without a mutual understanding of terms, the effectiveness of communication plummets
 </figcaption></figure>
 
 One approach for teaching users how to speak this language involves defining unfamiliar words for the user. You can define unfamiliar words in two simple ways: (1) in a glossary, (2) in “Background Knowledge” sections.
@@ -76,7 +76,7 @@ Most people are already familiar with glossaries, so I'll focus on the Backgroun
 
 For example, in a topic I was writing about how device filtering and compatibility works in the Appstore, I provided a number of links to foundational material in a "Background Knowledge" section to help users ramp up to the right level.
 
-<figure><a href="https://developer.amazon.com/docs/app-submission/device-filtering-and-compatibility.html#background-knowledge"><img src="https://idratherbewriting.comsimplifying-complexity/images/background-knowledge-terms.png"/></a><figcaption>Background knowledge sections help users ramp up without requiring you to always start them from ground zero on foundational topics</figcaption></figure>
+<figure><a href="https://developer.amazon.com/docs/app-submission/device-filtering-and-compatibility.html#background-knowledge"><img src="https://idratherbewriting.com/simplifying-complexity/images/background-knowledge-terms.png"/></a><figcaption>Background knowledge sections help users ramp up without requiring you to always start them from ground zero on foundational topics</figcaption></figure>
 
 Glossaries and Background Sections only take you so far in simplifying language. There's actually more you can do. The next step is to read the competitor's documentation and see what terms they use for the same terms and concepts. By reading through the competitor’s documentation, you get a better grounding about the terms users expect and which are common in the domain you're writing in.
 
@@ -112,7 +112,7 @@ While this approach is sound for working with agile projects, it misses the whol
 
 Instead, where iterative development with the software product ends (at least with its first big release), iterative development with the documentation should begin. Upon release (or earlier with focus groups, if possible), documentation itself should undergo the same iterations and cycles of review, similar to the software development process. At this point, documentation should be seen as its own project with its own life cycle, independent of the software project.
 
-<figure><img src="https://idratherbewriting.comsimplifying-complexity/images/agiledocdev_swimlanes.svg"/><figcaption>Documentation should follow similar iterative development cycles as software</figcaption></figure>
+<figure><img src="https://idratherbewriting.com/simplifying-complexity/images/agiledocdev_swimlanes.svg"/><figcaption>Documentation should follow similar iterative development cycles as software</figcaption></figure>
 
 For more information, see [Iterate and increment on content following an agile approach](https://idratherbewriting.com/simplifying-complexity/iterative-and-increment-on-content.html).
 

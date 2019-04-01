@@ -21,8 +21,6 @@ mytags:
   url: /category-family/
 - title: Findability
   url: /category-findability/
-- title: General
-  url: /category-general/
 - title: Innovation
   url: /category-innovation/
 - title: Jekyll
@@ -33,6 +31,8 @@ mytags:
   url: /category-screencasting/
 - title: Simplifying Complexity
   url: /simplifying-complexity
+- title: Technical writing (general)
+  url: /technical-writing
 - title: User-centered documentation
   url: /category-user-centered-documentation/
 - title: Video

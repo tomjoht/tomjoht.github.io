@@ -423,6 +423,7 @@ ul.nav li ul li a {
 }
 .search-header-title {
   flex: auto;
+  font-size: 32px;
 }
 .search-header-logo {
   flex: none;
