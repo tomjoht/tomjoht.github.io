@@ -141,7 +141,7 @@ Here are the top 10 overall pages that received the most traffic last year. (The
 7.  [10 realizations as I was creating my Swagger spec and Swagger UI](/2015/12/10/ten-realizations-using-swagger-and-swagger-ui/) (1%)
 8.  [OpenAPI 3.0 tutorial overview](/learnapidoc/pubapis_openapi_tutorial_overview) (1%)
 9.  [JavaScript: Events and Listeners](/events-and-listeners-javascript/) (1%)
-10. [Inspect the JSON from the response payload](/docapis_json_console.html) (1%)
+10. [Inspect the JSON from the response payload](/learnapidoc/docapis_json_console.html) (1%)
 
 Again, these top pages show that most of the traffic is coming through my [API documentation site](/learnapidoc/), with [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) leading the way.
 

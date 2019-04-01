@@ -1487,3 +1487,7 @@ span.linkedInWidget {
         display: none;
     }
 }
+
+ul.dropdown-menu li a {
+    font-size: 14px;
+}

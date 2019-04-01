@@ -88,8 +88,8 @@ Try taking these two Udemy courses by Peter Gruenbaum:
 
 Also see my online content on similar topics:
 
-* [Documenting REST APIs](https://idratherbewriting.com/restapicourse/)
-* [Publishing REST API Documentation](https://idratherbewriting.com/publishingapidocs/)
+* [Documenting REST APIs](https://idratherbewriting.com/learnapidoc/)
+* [Publishing REST API Documentation](https://idratherbewriting.com/learnapidoc/publishingapis.html)
 
 You can learn a lot about APIs by simply using them. Using an API will help you practice your technical skills as well.
 

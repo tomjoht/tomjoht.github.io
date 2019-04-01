@@ -12,7 +12,7 @@ Here are the slides from my workshop on REST API documentation. I have two sets 
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/xpiI7lHFfJ037" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TomJohnson7/documenting-rest-apis" title="Documenting REST APIs" target="\_blank">Documenting REST APIs</a> </strong> from <strong><a href="//www.slideshare.net/TomJohnson7" target="\_blank">Tom Johnson</a></strong> </div>
 
-For detailed notes, see <a href="{{ "/restapicourse" | prepend: site.baseurl }}">Documenting REST APIs</a>.
+For detailed notes, see <a href="{{ "/learnapidoc" | prepend: site.baseurl }}">Documenting REST APIs</a>.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/g4K9lnzZhSpxDn" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TomJohnson7/publishing-api-documentation-workshop" title="Publishing API documentation -- Workshop" target="\_blank">Publishing API documentation -- Workshop</a> </strong> from <strong><a href="//www.slideshare.net/TomJohnson7" target="\_blank">Tom Johnson</a></strong> </div>
 
