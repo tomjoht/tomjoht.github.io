@@ -146,9 +146,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Content Column -->
 
     <div class="col-md-9">
-
+      <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
       {% include search_results.html %}
-
+      <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
       <div id="content">{{content}}</div>
 
     <div id="sidebarAreaHomePage">
@@ -167,9 +167,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div><!-- /row -->
     <hr>
     </div><!-- /container -->
-    <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
-    <script type="text/javascript" src="https://idratherbewriting.disqus.com/combination_widget.js?num_items=10&hide_mods=0&color=grey&default_tab=recent&excerpt_length=70"></script>
-      <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
     </body>
     {% include google_analytics.html %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
