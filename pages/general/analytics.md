@@ -5,7 +5,7 @@ permalink: /analytics/
 type: page
 ---
 
-If you're thinking of advertising on idratherbewriting.com, it's important to get a  sense of the traffic and analytics of the audience so that your ad not only has visibility, but visibility with the right audience.
+If you're thinking of [advertising on idratherbewriting.com](/advertising/), it's important to get a  sense of the traffic and analytics of the audience so that your ad not only has visibility, but visibility with the right audience.
 
 In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 4,250 page views a day. More specifically, users created 942,306 sessions, with 1.65 pages per session and an average of 1:44 minutes per session. I update the information here each after diving deep into the information from Google Analytics.
 

@@ -6,14 +6,20 @@ topnav:
     - title: Beginners
       url: /category-beginners/
 
-    - title: Complexity
-      url: /simplifying-complexity
+    # - title: Complexity
+    #   url: /simplifying-complexity
 
-    - title: API doc
+    - title: API documentation
       url: /learnapidoc/
+
+    - title: Jekyll doc theme
+      external_url: https://idratherbewriting.com/documentation-theme-jekyll/
 
     - title: Podcasts
       url: /category-podcasts/
+
+    - title: Site traffic
+      url: /analytics/
 
 #Topnav dropdowns
 
@@ -71,27 +77,27 @@ topnav_dropdowns:
           url: /archives-2006/
 
 
-    - title: Jekyll
-      items:
-      - title: About Jekyll
-        url: /about-jekyll/
-      - title: Github theme repo
-        external_url: https://github.com/tomjoht/documentation-theme-jekyll
-      - title: Jekyll doc theme
-        external_url: https://idratherbewriting.com/documentation-theme-jekyll/
-      - title: Jekyll Talk
-        external_url: https://talk.jekyllrb.com
-      - title: Jekyll on Stack Overflow
-        external_url: http://stackoverflow.com/questions/tagged/jekyll
+    # - title: Jekyll
+    #   items:
+    #   - title: About Jekyll
+    #     url: /about-jekyll/
+    #   - title: Github theme repo
+    #     external_url: https://github.com/tomjoht/documentation-theme-jekyll
+    #   - title: Jekyll doc theme
+    #     external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+      # - title: Jekyll Talk
+      #   external_url: https://talk.jekyllrb.com
+      # - title: Jekyll on Stack Overflow
+      #   external_url: http://stackoverflow.com/questions/tagged/jekyll
 
-    - title: Academics & Practitioners
-      items:
-      - title: Academic/Practitioner Conversations Project
-        url: /academic-practitioner-project/
-      - title: Academic/Practitioner Bridge
-        url: /academic-practitioner-bridge/
-      - title: Guidelines for academic posts
-        url: /academic-post-guidelines/
+    # - title: Academics & Practitioners
+    #   items:
+    #   - title: Academic/Practitioner Conversations Project
+    #     url: /academic-practitioner-project/
+    #   - title: Academic/Practitioner Bridge
+    #     url: /academic-practitioner-bridge/
+    #   - title: Guidelines for academic posts
+    #     url: /academic-post-guidelines/
 
       # - title: Academic/Practitioner Podcasts
       #   url: /academic-practitioner-podcasts
