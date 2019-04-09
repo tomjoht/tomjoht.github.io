@@ -43,6 +43,8 @@ topnav_dropdowns:
 
     - title: Archives
       items:
+        - title: Simplifying Complexity
+          url: /simplifying-complexity/
         - title: Tags
           url: /tags
         - title: Series
