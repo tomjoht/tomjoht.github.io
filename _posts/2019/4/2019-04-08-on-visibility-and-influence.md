@@ -1,6 +1,6 @@
 ---
 title: "A hypothesis on how to exert more influence and visibility inside the corporation"
-permalink: /influence-visibility-inside-corporation/
+permalink: /blog/influence-visibility-inside-corporation/
 categories:
 - writing
 keywords:
