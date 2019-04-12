@@ -1,10 +1,13 @@
 ---
-title: "When you're in the business of complexification -- looking suspiciously at TurboTax and the IRS"
+title: "When you're in the business of complexification"
+permalink: /blog/the-business-of-complexification/
 categories:
 - writing
 keywords:
 bitlink: http://bit.ly/taxesandturbotaxirs
 summary: "Some businesses thrive on complexity and would have you believe there's no simple approach apart from purchasing their software. There's no better example of this than TurboTax and the IRS."
+redirect_from:
+- /2019/04/10/before-you-celebrate-turbo-tax
 ---
 
 As I was doing my taxes this year with TurboTax, I couldn't help but be impressed by the way TurboTax incorporates online help directly into its UI. For an extremely confusing topic, they seem to add just the right amount of help in a convenient, easily accessible way. It's easy to celebrate their online app as a great way to do help.
