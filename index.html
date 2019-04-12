@@ -17,6 +17,7 @@ focus: noform
                 {% for cat in post.categories %}
                 <a href="{{ "/category-" | prepend: site.baseurl | append: cat}}">{{cat}}</a>{% unless forloop.last %}, {% endunless%}
                 {% endfor %}
+                 &#8226; <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">0 Comments</a>
             </div>
             <div>{% if post.thumb %}
                 <div class="thumb"> <a href="{{ post.url }}"><img src="{{site.baseurl}}/images/thumbnails/{{post.thumb}}" alt="{{post.title}}"/></a>
@@ -51,6 +52,8 @@ focus: noform
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+{% comment %}
+I think this is old disqus code...
 {% if site.disqus_shortname %}
 <script type="text/javascript">
     var disqus_shortname = 'idratherbewriting';
@@ -63,3 +66,4 @@ focus: noform
     }());
 </script>
 {% endif %}
+{% endcomment %}
