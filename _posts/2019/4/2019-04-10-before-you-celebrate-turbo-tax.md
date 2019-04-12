@@ -1,0 +1,32 @@
+---
+title: "When you're in the business of complexification -- looking suspiciously at TurboTax and the IRS"
+categories:
+- writing
+keywords:
+bitlink: http://bit.ly/taxesandturbotaxirs
+summary: "Some businesses thrive on complexity and would have you believe there's no simple approach apart from purchasing their software. There's no better example of this than TurboTax and the IRS."
+---
+
+As I was doing my taxes this year with TurboTax, I couldn't help but be impressed by the way TurboTax incorporates online help directly into its UI. For an extremely confusing topic, they seem to add just the right amount of help in a convenient, easily accessible way. It's easy to celebrate their online app as a great way to do help.
+
+But after I championed TurboTax a bit with my wife, she brought up the counterargument, explaining that they want you to think that you can't possibly do taxes on your own. You become entirely dependent on them to help you through the confusing tax landscape. It's an interesting idea.
+
+As technical writers, we often stake our value in simplifying complexity. But some companies actually thrive on complexity and build their business around it. It's in TurboTax's best interest to persuade you that doing your taxes is an incredibly complicated process that requires deep knowledge of arcane tax forms and grants and other strategies in order to get the return you deserve. The only real solution is ... to buy their software so you can survive the April 15 ordeal.
+
+That may be true (the tax code is complex on its own, independent of TurboTax), but I can't help but feel that there's a category of businesses that thrive on complexification. The more complex the tax code, the more appealing TurboTax becomes. If taxes were simplified, there would be little incentive to buy TurboTax.
+
+It's sad to say, but the IRS thrives on complexification as well. The more complex your taxes, the more they stand to benefit from you not doing your taxes properly. The more confusing they can make it to get your refund, the more money they can make. Here's a simple example. Suppose you're a 17-year-old kid who just earned a few thousand dollars from a summer of lifeguarding (as was the case with my oldest daughter). You're not sure if you need to pay taxes, so you look up the instructions for 1040 to see the minimum filing requirements:
+
+<caption><a href="https://www.irs.gov/pub/irs-pdf/i1040gi.pdf"> <img src="/images/irsfilingrequirements.png" alt="Minimum filing requirements" /><figcaption>Minimum filing requirements</figcaption></caption>
+
+From this it would appear that you don't need to file taxes unless you make at least $12,000. What a relief! What they fail to tell you is that if you don't file taxes, you're letting the government keep your refund. A more appropriate callout here might say, *If you do not file, the government gets to keep your refund! (You aren't required to file taxes, of course. If so, we thank you for your donation.)*
+
+The first year my daughter needed to do taxes, we looked up the minimum filing requirements, saw the threshold, and skipped filing. This year, realizing that we were leaving money with the government, we filed both 2018 and 2017 taxes to collect nearly $500 in refunds from her summers of lifeguarding.
+
+Also, if you've ever tried filling out the paper method of the 1040 form (required for doing back taxes), there's a fun puzzle-like logic you have to complete. Add these numbers, subtract from this line, add in this number and subtract it from the sum of the other two, and so on. I have to wonder if the IRS purposely tries to make what should probably be automated directly from the W-2 into a chicanery of instructions just to complexify the situation.
+
+<caption><a href="https://www.irs.gov/pub/irs-pdf/f1040.pdf"> <img src="/images/unnecessary_complexity_taxes.png" alt="Minimum filing requirements" /><figcaption>Is all this jumping around with adding and subtracting across different rows really necessary?</figcaption></caption>
+
+Maybe the IRS is full of earnest people who have attempted to simplify the tax code as much as possible. Or not. I'm not sure. This morning I read that TurboTax lobbied the IRS to eliminate the government from creating free or simpler solutions for filing taxes. See [TurboTax, H&R Block Spend Big Bucks Lobbying for Us to Keep Doing Our Own Taxes](https://www.nbcnews.com/business/taxes/turbotax-h-r-block-spend-millions-lobbying-us-keep-doing-n736386). Huh? I don't quite understand why the IRS would bow to this lobby, but it confirms my suspicions that complexity is working in the business interests of both groups, and they have no real desire to simplify the process &mdash; only to simplify your decision to buy their software, or to let the government keep your refund.
+
+As technical writers, this phenomenon is interesting because we're in the business of simplification. It's good to remember that others are in the business of complexification. But in a way, we too benefit from complexification. The more confusing a process is, the more people become dependent on technical writers. So I don't necessarily think tech writers are saints while businesses that thrive on complexity are malicious. But it is good to remember that at times, companies stand to benefit from complex processes, and replacing them with simple ones might shake their whole business model. In the example of TurboTax, they ingeniously provide seamlessly integrated help to appear as if they are simplifying taxes for you, while working feverishly behind the scenes with the IRS to make sure the tax process outside of their software usage remains a complex, murky process.
