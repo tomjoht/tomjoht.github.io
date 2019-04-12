@@ -21,7 +21,7 @@ At one point, most of the traffic on my site was going to this grasshopper post.
 
 It seems a bit foolish to tailor your interests and passions around web traffic. So what if my [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is driving thousands of visits to my site. I'm not going to pivot my entire career and all my free energy around specializing in Swagger tutorials and going around the country giving workshops on Swagger, focusing exclusively on marketing opportunities based on Swagger.
 
-Why not? I was reading an David Brooks' column on [The Moral Peril of Meritocracy](https://www.nytimes.com/2019/04/06/opinion/sunday/moral-revolution-david-brooks.html) that provides the perspective I needed to bring more balance to my scenario. In this column, Brooks writes about a two-sided mountain that people climb. Here's an except:
+Why not? I was reading a David Brooks' column on [The Moral Peril of Meritocracy](https://www.nytimes.com/2019/04/06/opinion/sunday/moral-revolution-david-brooks.html) that provides the perspective I needed to bring more balance to my scenario. In this column, Brooks writes about a two-sided mountain that people climb. Here's an excerpt:
 
 > Many of the people I admire lead lives that have a two-mountain shape. They got out of school, began their career, started a family and identified the mountain they thought they were meant to climb &mdash; I’m going to be an entrepreneur, a doctor, a cop. They did the things society encourages us to do, like make a mark, become successful, buy a home, raise a family, pursue happiness.
 >
