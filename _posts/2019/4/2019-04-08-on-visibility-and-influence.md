@@ -3,8 +3,8 @@ title: "A hypothesis on how to exert more influence and visibility inside the co
 permalink: /blog/influence-visibility-inside-corporation/
 categories:
 - writing
-keywords:
-bitlink: http://bit.ly/
+keywords: 
+bitlink: https://rebrand.ly/hypothesisoncorpinfluence
 summary: "Can the same principles for visibility and influence online lead to visibility and influence inside corporate walls?"
 ---
 
