@@ -64,7 +64,7 @@ For more, see [What is Category Manager?](https://docs.document360.io/docs/what-
 
 You can customize the HTML in each documentation website with unique branding. The following screenshot shows the HTML for the footer, which is fully customizable as well as the header, CSS, and JS. With the control for customization, your documentation can have unique branding to match the look and feel of the corresponding product.
 
-<figure><img src="/images/Doc360_customhtml.png" alt="Custom headers, footers, and styles in Document 360" /><figcaption>Custom headers, footers, and styles in Document 360</figcaption></figure>
+<figure><img src="/images/doc360_customhtml.png" alt="Custom headers, footers, and styles in Document 360" /><figcaption>Custom headers, footers, and styles in Document 360</figcaption></figure>
 
 For more, see <a rel="nofollow" href="https://docs.document360.io/docs/appearance-general-settings">General Settings</a> and <a rel="nofollow" href="https://docs.document360.io/docs/custom-css-javascript">Custom CSS & JavaScript</a>.
 
