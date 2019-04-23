@@ -15,7 +15,7 @@ Although I like [API documentation](/learnapidoc/) topics, I don't want to devot
 
 My current situation reminds me of an earlier time. Back in 2007, I wrote a [trivial post about a grasshopper](https://idratherbewriting.com/2007/07/31/grasshoppers-that-look-like-aliens/), and I had a detailed picture of said grasshopper that I photoshopped on my kid's head. (That kid, by the way, is now on her way to college in the fall.)
 
-<a href="https://idratherbewriting.com/2007/07/31/grasshoppers-that-look-like-aliens/"><figure><img src="/images/grasshoppers_post.png" alt="My famous grasshoppers post" /></a><figcaption>My famous grasshopper post</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/2007/07/31/grasshoppers-that-look-like-aliens/"><img src="/images/grasshoppers_post.png" alt="My famous grasshoppers post" /></a><figcaption>My famous grasshopper post</figcaption></figure>
 
 At one point, most of the traffic on my site was going to this grasshopper post. If you did an image search for grasshopper, my post appeared in the top few results. By all accounts, a savvy web entrepreneur would have looked to market the opportunity. What could I sell? Grasshopper pesticides? Grasshopper posters? I could have added more posts about grasshoppers and linked them to each other, driving up my SEO. Maybe I could have made a killing in web searches for *all species* of grasshoppers. And if successful, I could have opened up an online store selling grasshoppers, or started collecting grasshoppers into the world's most impressive collection. Do universities offer PhDs in grasshopperology? Sign me up!
 
