@@ -3,26 +3,26 @@ title: "First look at Document360 -- an authoring/publishing tool that satisfies
 permalink: /blog/document360-hybrid-between-tech-docs-and-support-tools/
 categories:
 - writing
-keywords:
-bitlink: https://rebrand.ly/document360review
-summary: "<a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> is a new a new authoring and publishing tool that spans the needs of both support teams creating KB content and technical writers creating documentation. Document360 provides a good balance of features that will satisfy both audiences. Launched in July 2017, Document360 is already growing rapidly with a robust customer base. In this post, I'll show screenshots related to many of these features and talk about the need to bridge the gap between KB and tech doc content."
+keywords: Document360, knowledge base authoring tool, hybrid solution
+bitlink: https://rebrand.ly/doc360prodreviewirbw
+summary: "<a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> is a new authoring and publishing tool that spans the needs of both support teams creating KB content and technical writers creating documentation. Document360 provides a good balance of features that will satisfy both audiences. Launched in July 2017, Document360 is already growing rapidly with a robust customer base. In this post, I'll show screenshots related to many of these features and talk about the need to bridge the gap between KB and tech doc content."
 ---
 
 *Note: Document360 is one of my site sponsors.*
 
 ## Bridging the gap
 
-Typically, support engineers who create knowledge base (KB) content use tools such as Zendesk, Help Desk, Salesforce Knowledge, or other KB platforms. These tools are designed to create one-off articles with tags that can be surfaced in search, and are sometimes integrated into case management platforms.
+Typically, support engineers who create knowledge base (KB) content use tools such as Zendesk, Help Desk, Salesforce Knowledge, or other KB platforms. These tools are more focused on providing a solid customer support system like ticketing or chat, and typically the knowledge base capability is very limited.
 
 Technical writers creating documentation have more robust publishing needs that require content re-use, versioning, multiple output formats, navigation menus, taxonomies, and more. Typical tech tools for technical writers include MadCap Flare, Paligo, static site generators, or others.
 
-<a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> aims to bridge the gap between these two worlds with a cloud-hosted, robust tool that is convenient enough for support engineers writing KB content but also robust enough  for technical writers with their advanced publishing needs.
+<a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> aims to bridge the gap between these two worlds with a cloud-hosted, robust tool that is convenient enough for support engineers writing KB content but also robust enough  for technical writers with advanced publishing needs.
 
 <figure><a href='https://rebrand.ly/doc360' rel='nofollow'><img src="/images/doc360homepage.png" alt="Document360 aims to bridge the gap between support and tech docs" /></a><figcaption><a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> aims to bridge the gap between support and tech docs</figcaption></figure>
 
 ## Highlighted features
 
-To provide a better sense of Document360, I'll show a handful of screenshots along with short discussion below.
+To provide a better sense of Document360, I'll show a handful of screenshots and include a short discussion below.
 
 ### Write in Markdown
 
@@ -34,15 +34,23 @@ Document360 also includes some built-in snippets for notes, warnings, or other c
 
 ### Multiple documentation websites
 
-You can create multiple documentation websites for all the products you document. For example, in the following screenshot, all of the tiles represent documentation for different products. Each product has its own documentation website, which can be consolidated into a larger doc portal with its own <a rel="nofollow" href="https://docs.document360.io/docs/what-is-a-landing-page">custom landing page</a>.
+You can create multiple documentation websites for all the products you document. For example, in the following screenshot, all of the tiles represent documentation for different products. This is useful for multi-product companies where content writers need to switch between different knowledge bases.
 
 <figure><img src="/images/doc360_docportals.png" alt="Multiple documentation websites" /><figcaption>Multiple documentation websites</figcaption></figure>
 
 Additionally, you can create granular permissions for each documentation website. You can make some documentation websites public, others private. You can also configure permissions for team members on a project-by-project basis as well, giving authoring control for some portals, or read-only control for others.
 
+For more, see <a rel="nofollow" href="https://docs.document360.io/docs/document360-user-website">Document360 User website</a>.
+
+## Landing page editor
+
+In addition to providing structure for your knowledge base, Document360 also provides a rich landing page editor. This helps you build custom landing pages (home pages) without any assistance from your developers.
+
 <figure><img src="/images/doc360_search.png" alt="Documentation landing page" /><figcaption>Documentation landing page</figcaption></figure>
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/document360-user-website">Document360 User website</a>.
+Each of these documentation websites can be consolidated into a larger doc portal.
+
+For more, see <a rel="nofollow" href="https://docs.document360.io/docs/landing-page-customization">Landing Page Customization</a>.
 
 ### Sidebar navigation
 
@@ -54,7 +62,7 @@ For more, see [What is Category Manager?](https://docs.document360.io/docs/what-
 
 ### Custom HTML
 
-You can customize the HTML for each doc portal with unique branding. The following screenshot shows the HTML for the footer, which is fully customizable as well as the header, CSS, and JS. With the control for customization, each doc site can have unique branding to match the look and feel of its product.
+You can customize the HTML in each documentation website with unique branding. The following screenshot shows the HTML for the footer, which is fully customizable as well as the header, CSS, and JS. With the control for customization, your documentation can have unique branding to match the look and feel of the corresponding product.
 
 <figure><img src="/images/Doc360_customhtml.png" alt="Custom headers, footers, and styles in Document 360" /><figcaption>Custom headers, footers, and styles in Document 360</figcaption></figure>
 
@@ -70,7 +78,7 @@ For more, see <a rel="nofollow" href="https://docs.document360.io/docs/document3
 
 ### Built-in analytics
 
-Document360 has built-in analytics that show your most popular articles, search queries, comments, and other user traffic.
+Document360 has built-in analytics that shows your most popular articles, search queries, comments, and other user traffic.
 
 <figure><img src="/images/doc360_builtinanalytics.png" alt="Built-in document analytics in Document 360" /><figcaption>Built-in document analytics in Document 360</figcaption></figure>
 
@@ -94,7 +102,7 @@ For more, see <a rel="nofollow" href="https://docs.document360.io/docs/article-s
 
 ### Additional features
 
-Document360 has a host of additional features that tech doc groups often need, including the follow:
+Document360 has a host of additional features that tech doc groups often need, including the following:
 
 - Bulk operations
 - Daily backups
@@ -110,7 +118,7 @@ For more, see <a href='https://docs.document360.io/docs/how-document360-is-diffe
 
 Overall, <a href='https://rebrand.ly/doc360'>Document360</a> looks like a solid new tool for creating help content. As a cloud-based solution, the platform is continually evolving with additional features. For a tool that is less than a year old, Document360 already has many features that make it extremely competitive in the market.
 
-Despite my focus on the feature set in this post, the larger narrative around Document 360 is how it merges the gap between support and tech docs. In a [previous post](https://idratherbewriting.com/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/), I looked at how AEM tries to merge the gap between documentation and marketing. Document360's focus is on merging a different gap (between support and tech docs), and arguably one that is a lot more relevant and practical. Both support and tech docs have largely the same purpose (helping customers be successful), and their information source should empower both groups to achieve that same end.
+Despite my focus on the feature set in this post, the larger story around Document 360 is how it merges the gap between support and tech docs. In a [previous post](https://idratherbewriting.com/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/), I looked at how AEM tries to merge the gap between documentation and marketing. Document360's focus is on merging a different gap (between support and tech docs), and arguably one that is a lot more relevant and practical. Both support and tech docs have largely the same purpose (helping customers be successful), and their information source should empower both groups to achieve that same end.
 
 Why are these groups, which have such similar goals, so often using tools that don't overlap, which are completely siloed and independent of each other? If support creates a new KB article to address a customer pain point, typically the doc team needs to discover the KB article and decide whether to roll it into the docs. Likewise, when the docs team pushes out a new topic into the documentation, support needs to be aware of the information update so they can more efficiently respond to users.
 

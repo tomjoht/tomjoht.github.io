@@ -4,7 +4,7 @@ permalink: /blog/recording-a-workshop-video-audio-technical-details/
 categories:
 - general
 keywords:
-bitlink: https://rebrand.ly/howirecordworkshops
+bitlink: https://rebrand.ly/myrecordingprocessvids
 summary: "In case you're curious about my process for recording workshops and producing the videos, such as in <a href='https://idratherbewriting.com/learnapidoc/docapis_course_videos.html'>Video recordings of API doc workshops</a>, I've detailed the process here. In short, I capture the screen video and audio separately and then combine them in post-production. There's room for improvement in my approach &mdash; mainly to capture audience voices and picture in picture, but this tends to require more work than it's worth."
 ---
 
