@@ -56,7 +56,7 @@ I think [OpenAPI specs](https://idratherbewriting.com/learnapidoc/pubapis_swagge
 
 One person commented, "I wish I didn’t have to write docs, but they’re incredibly important to our customer success." Another said, "Not convinced most docs are ever read." I guess quite a few developers actually enjoy writing documentation. There is a common stereotype that most developers hate to write docs, but that might be a minority sentiment. But as I said before, this survey only includes engineers who write docs. There might be many, many more developers who didn't come to the API docs site and who hate writing docs with a passion. They would have never even taken in this survey.
 
-**46% said that when they read documentation themselves, they would rather read content written by an engineer (rather than a tech writer), even if it's written poorly.**
+**28% said that when they read documentation themselves, they would rather read content written by an engineer (rather than a tech writer), even if it's written poorly.**
 
 Responses suggest that engineers aren't necessarily biased against technical writers creating docs, and they might have a more balanced perspective about the quality of docs written by engineers. Many times when engineers write docs, they can be poor and unusable. On the other hand, one person said, "I rarely to never read documentation," which suggests that perhaps many didn't agree (or were neutral) simply because they feel they never read documentation (even though they write it themselves).
 
