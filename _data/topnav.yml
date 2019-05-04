@@ -4,54 +4,27 @@ topnav:
 - title: Topnav
   subcategories:
 
-    - title: API documentation
+
+    - title: About
+      url: /aboutme/
+
+    - title: Documenting APIs
       url: /learnapidoc/
 
-    - title: Simplifying Complexity
+    - title: Simplifying complexity
       url: /simplifying-complexity
 
     - title: Podcasts
       url: /category-podcasts/
+
+    - title: Contact
+      url: /contact/
 
 #Topnav dropdowns
 
 topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
-
-    - title: Acad. & Pract.
-      items:
-      - title: Academic/Practitioner Conversations Project
-        url: /academic-practitioner-project/
-      - title: Academic/Practitioner Bridge
-        url: /academic-practitioner-bridge/
-      - title: Guidelines for academic posts
-        url: /academic-post-guidelines/
-
-    - title: About
-      items:
-        - title: About Me
-          url: /aboutme/
-        - title: Contact
-          url: /contact/
-        - title: Presentations
-          url: /presentations/
-    - title: Other
-      items:
-        - title: Jekyll doc theme
-          external_url: https://idratherbewriting.com/documentation-theme-jekyll/
-        - title: Posts for beginners
-          url: /category-beginners/
-        - title: Traffic and analytics
-          url: /analytics/
-        - title: Advertising info
-          url: /advertising/
-        - title: Donations
-          url: /donate/
-        - title: Tags
-          url: /tags
-        - title: Series
-          url: /series
 
     - title: Archives
       items:
@@ -83,6 +56,27 @@ topnav_dropdowns:
           url: /archives-2007/
         - title: 2006
           url: /archives-2006/
+
+    - title: Misc.
+      items:
+        - title: Presentations
+          url: /presentations/
+        - title: Jekyll doc theme
+          external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+        - title: Posts for beginners
+          url: /category-beginners/
+        - title: Traffic and analytics
+          url: /analytics/
+        - title: Advertising info
+          url: /advertising/
+        - title: Academic/Practitioner Conversations Project
+          url: /academic-practitioner-project/
+        - title: Donations
+          url: /donate/
+        - title: View posts by tag
+          url: /tags
+        - title: View posts by series
+          url: /series
 
 
     # - title: Jekyll

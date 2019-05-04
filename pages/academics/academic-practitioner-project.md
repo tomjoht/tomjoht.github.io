@@ -30,7 +30,7 @@ More than 4,500 tech comm professionals subscribe to I'd Rather Be Writing, and 
 The Academic/Practitioner Conversations project has three simple phases:
 
 * **Phase I**: Capture a baseline of attitudes that each group has toward the other.
-* **Phase II**: Launch a series of posts and podcasts that follow a conversational format between practitioners and academics.
+* **Phase II**: Launch a series of posts and podcasts that follow a conversational format between practitioners and academics. See [Guidelines for Academic Guest Posts](/academic-post-guidelines/).
 * **Phase III**: After a year, perform the same survey as in Phase I, looking to see if the increased content moved the scale on any of the attitudes each group has toward the other.
 
 In my surveys, I've decided to measure attitudes, using an agree/disagree spectrum (the Likert approach). I'm hopeful that attitudes can be representative of more concrete results. A sour attitude likely indicates little interaction or benefit from one group to the other, whereas a glowing attitude indicates a more healthy relationship. At any rate, perhaps something larger will come about from this effort &mdash; I'm not sure.
