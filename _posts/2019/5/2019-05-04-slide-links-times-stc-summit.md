@@ -42,7 +42,8 @@ Description:
 Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/oBqOlU2rVR)
-* [Presentation slides](/slides/trends_stc19/ )
+* [Web slides](/slides/trends_stc19/)
+* [Downloadable PPTX, PDF](http://idratherassets.com/stc19trends.zip)
 
 ## Introduction to API Documentation {#apidoc}
 
@@ -51,10 +52,11 @@ Time: 10:00 AM - 11:00 AM<br/>
 Track: Tools & Technologies
 Location: Granite A-C
 
-Description: 
+Description:
 > Technical writers who can document application programming interfaces (APIs) are in high demand. Documentation is critical for an API to be successful in the marketplace. This presentation is for writers who want to learn more about APIs, or want to break into the field of API documentation. This talk provides an introduction to REST API documentation. You will learn what a REST API is and the components of an API. You will learn some of the basics of what API writers need to know, including the eight essential sections in REST API endpoint reference documentation, and how to test and analyze API requests and responses.
 
 Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/q0giL7hGfF)
-* Presentation slides: coming soon...
+* [Web slides](https://idratherbewriting.com/slides/trends_stc19/)
+* [Downloadable PPTX, PDF](http://idratherassets.com/stc19introapidocs.zip)
