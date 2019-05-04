@@ -2,52 +2,50 @@
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 350" enable-background="new 0 0 600 350" xml:space="preserve">
-<rect x="0" y="44.1" fill="none" width="600" height="45.9"/>
-<text transform="matrix(1 0 0 1 34.5638 65.5091)" font-family="'ArialMT'" font-size="25px">“Candidate should know [X] technology already” </text>
-<text transform="matrix(0.9804 0 0 1 68.8237 268.2908)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="11px">Strongly </tspan><tspan x="-0.3" y="13.2" font-family="'ArialMT'" font-size="11px">Disagree</tspan></text>
-<text transform="matrix(0.9804 0 0 1 68.5234 228.5086)" font-family="'ArialMT'" font-size="11px">Disagree</text>
-<text transform="matrix(0.9804 0 0 1 89.6574 183.325)" font-family="'ArialMT'" font-size="11px">Undecided</text>
+<text transform="matrix(0.9804 0 0 1 88.8237 218.291)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="11px">Strongly </tspan><tspan x="-0.3" y="13.2" font-family="'ArialMT'" font-size="11px">Disagree</tspan></text>
+<text transform="matrix(0.9804 0 0 1 88.5234 178.5088)" font-family="'ArialMT'" font-size="11px">Disagree</text>
+<text transform="matrix(0.9804 0 0 1 109.6574 133.3252)" font-family="'ArialMT'" font-size="11px">Undecided</text>
 <g>
-	<text transform="matrix(0.9804 0 0 1 231.3559 295.6053)" font-family="'ArialMT'" font-size="11px">Strongly Agree</text>
-	<text transform="matrix(0.9804 0 0 1 256.2309 309.4783)" font-family="'ArialMT'" font-size="11px">22%</text>
+	<text transform="matrix(0.9804 0 0 1 251.3559 245.6055)" font-family="'ArialMT'" font-size="11px">Strongly Agree</text>
+	<text transform="matrix(0.9804 0 0 1 276.2309 259.4785)" font-family="'ArialMT'" font-size="11px">22%</text>
 </g>
-<text transform="matrix(0.9804 0 0 1 82.3091 295.6053)" font-family="'ArialMT'" font-size="11px">4%</text>
-<text transform="matrix(0.9804 0 0 1 105.9074 193.4744)" font-family="'ArialMT'" font-size="9.7142px">19%</text>
-<text transform="matrix(0.9804 0 0 1 83.9721 243.265)" font-family="'ArialMT'" font-size="11px">9%</text>
+<text transform="matrix(0.9804 0 0 1 102.3091 245.6055)" font-family="'ArialMT'" font-size="11px">4%</text>
+<text transform="matrix(0.9804 0 0 1 125.9074 143.4746)" font-family="'ArialMT'" font-size="9.7142px">19%</text>
+<text transform="matrix(0.9804 0 0 1 103.9721 193.2653)" font-family="'ArialMT'" font-size="11px">9%</text>
 <g>
-	<text transform="matrix(0.9804 0 0 1 248.8251 223.2889)" font-family="'ArialMT'" font-size="11px">Agree</text>
-	<text transform="matrix(0.9804 0 0 1 256.2309 234.9256)" font-family="'ArialMT'" font-size="11px">45%</text>
+	<text transform="matrix(0.9804 0 0 1 268.8251 173.2891)" font-family="'ArialMT'" font-size="11px">Agree</text>
+	<text transform="matrix(0.9804 0 0 1 276.2309 184.9258)" font-family="'ArialMT'" font-size="11px">45%</text>
 </g>
 <g>
 	<g>
 		<g>
 			<g>
-				<path fill="#ECECEC" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M179.9,242L118,219.5
-					c9.5-26.2,34-43.3,61.9-43.3V242z"/>
+				<path fill="#ECECEC" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M199.9,192L138,169.5
+					c9.5-26.2,34-43.3,61.9-43.3V192z"/>
 			</g>
 		</g>
 		<g>
 			<g>
-				<path fill="#7B7B7B" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M179.9,242l-64.4,13.7
-					c-2.7-12.9-2-23.8,2.5-36.2L179.9,242z"/>
+				<path fill="#7B7B7B" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M199.9,192l-64.4,13.7
+					c-2.7-12.9-2-23.8,2.5-36.2L199.9,192z"/>
 			</g>
 		</g>
 		<g>
 			<g>
-				<path fill="#404040" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M179.9,242l-58.7,29.9
-					c-2.7-5.2-4.5-10.5-5.7-16.2L179.9,242z"/>
+				<path fill="#404040" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M199.9,192l-58.7,29.9
+					c-2.7-5.2-4.5-10.5-5.7-16.2L199.9,192z"/>
 			</g>
 		</g>
 		<g>
 			<g>
-				<path fill="#D1E9D6" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M179.9,242l19.3,63
-					c-30.9,9.4-63.3-4.3-77.9-33.1L179.9,242z"/>
+				<path fill="#D1E9D6" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M199.9,192l19.3,63
+					c-30.9,9.4-63.3-4.3-77.9-33.1L199.9,192z"/>
 			</g>
 		</g>
 		<g>
 			<g>
-				<path fill="#B5DDBE" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M179.9,242v-65.9
-					c36.4,0,65.9,29.5,65.9,65.9c0,29.8-18.2,54.3-46.6,63L179.9,242z"/>
+				<path fill="#B5DDBE" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M199.9,192v-65.9
+					c36.4,0,65.9,29.5,65.9,65.9c0,29.8-18.2,54.3-46.6,63L199.9,192z"/>
 			</g>
 		</g>
 	</g>
@@ -64,7 +62,7 @@
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 42.7042 96.7584)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="12px">&quot;Subject matter familiarity is a key </tspan><tspan x="0" y="14.4" font-family="'ArialMT'" font-size="12px">requirement in a lot of the tech comm </tspan><tspan x="0" y="28.8" font-family="'ArialMT'" font-size="12px">jobs I&apos;ve looked at. It seems employers </tspan><tspan x="0" y="43.2" font-family="'ArialMT'" font-size="12px">often want me to know X, Y, and Z </tspan><tspan x="0" y="57.6" font-family="'ArialMT'" font-size="12px">technologies already from the start.&quot;</tspan></text>
+<text transform="matrix(1 0 0 1 62.7042 46.7586)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="12px">&quot;Subject matter familiarity is a key </tspan><tspan x="0" y="14.4" font-family="'ArialMT'" font-size="12px">requirement in a lot of the tech comm </tspan><tspan x="0" y="28.8" font-family="'ArialMT'" font-size="12px">jobs I&apos;ve looked at. It seems employers </tspan><tspan x="0" y="43.2" font-family="'ArialMT'" font-size="12px">often want me to know X, Y, and Z </tspan><tspan x="0" y="57.6" font-family="'ArialMT'" font-size="12px">technologies already from the start.&quot;</tspan></text>
 <image overflow="visible" width="1634" height="1470" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABmIAAAW+CAYAAAB01D++AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAW
 JQAAFiUBSVIk8AAAQABJREFUeAHsnQdcFcf2x39waYIgoCJVuoCIvaDGEmssscdYkpjExNRnevmn
 vrSX8l56NcYYozE9MYkxxhZji72BiggKooCoiPR24X9m7917d2+hqxc88/nAzk7bme/s3Z2dM+eM
@@ -8317,8 +8315,8 @@ J6Xit0WLBMUePXuibt26qFGjBooWLSp4ciTl3NxLFbDMw1p8VuXUepa2LY+5rGVcZseSjqWcFM/3
 WpuWvJYcxREBIkAEiAARIAJEgAgQASJABIgAESACRIAIEAEiQASIABEgAtYJqMfb1WHrGhmnJCUl
 ITIyElevXsXZs2cRHByMR48eyTNhHBwczBwxun179hkzNkmpRIAIEAEiQASIABEgAkSACBABIkAE
 iAARIAJEgAgQASJABIgAESACWSHgkBUl0iECRIAIEAEiQASIABEgAkSACBABIkAEiAARIAJEgAgQ
-ASJABIgAEcicwP8BANt3PQczDqEAAAAASUVORK5CYII=" transform="matrix(0.123 0 0 0.123 311.9352 89)">
+ASJABIgAEcicwP8BANt3PQczDqEAAAAASUVORK5CYII=" transform="matrix(0.123 0 0 0.123 331.9352 39)">
 </image>
-<path fill="none" stroke="#484848" stroke-width="0.5" stroke-miterlimit="10" d="M167.3,296.8c4.3,9,12.7,16,22.4,18.5
+<path fill="none" stroke="#484848" stroke-width="0.5" stroke-miterlimit="10" d="M187.3,246.8c4.3,9,12.7,16,22.4,18.5
 	c9.7,2.5,20.4,0.6,28.6-5.1c4.7-3.3,8.5-7.7,13-11.3"/>
 </svg>
