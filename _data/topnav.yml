@@ -3,23 +3,15 @@
 topnav:
 - title: Topnav
   subcategories:
-    - title: Beginners
-      url: /category-beginners/
-
-    # - title: Complexity
-    #   url: /simplifying-complexity
 
     - title: API documentation
       url: /learnapidoc/
 
-    - title: Jekyll doc theme
-      external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+    - title: Simplifying Complexity
+      url: /simplifying-complexity
 
     - title: Podcasts
       url: /category-podcasts/
-
-    - title: Site traffic
-      url: /analytics/
 
 #Topnav dropdowns
 
@@ -34,21 +26,25 @@ topnav_dropdowns:
           url: /contact/
         - title: Presentations
           url: /presentations/
+    - title: Other
+      items:
+        - title: Jekyll doc theme
+          external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+        - title: Posts for beginners
+          url: /category-beginners/
         - title: Traffic and analytics
           url: /analytics/
-        - title: Advertising
+        - title: Advertising info
           url: /advertising/
-        - title: Donate
+        - title: Donations
           url: /donate/
-
-    - title: Archives
-      items:
-        - title: Simplifying Complexity
-          url: /simplifying-complexity/
         - title: Tags
           url: /tags
         - title: Series
           url: /series
+
+    - title: Archives
+      items:
         - title: 2019
           url: /archives-2019/
         - title: 2018

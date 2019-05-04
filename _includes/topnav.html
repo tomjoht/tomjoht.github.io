@@ -11,6 +11,18 @@
         </div><!-- /navbar-header -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
+              {% for entry in site.data.topnav.topnav %}
+              {% for subcategory in entry.subcategories %}
+              {% if subcategory.external_url %}
+              <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+              {% elsif page.url contains subcategory.url %}
+              <li class="active"><a href="{{subcategory.url | prepend: site.baseurl}}">{{subcategory.title}}</a></li>
+              {% else %}
+              <li><a href="{{subcategory.url | prepend: site.baseurl | append: site.suffix}}">{{subcategory.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+              
                 {% for entry in site.data.topnav.topnav_dropdowns %}
                 {% for subcategory in entry.subcategories %}
                 <li class="dropdown">
@@ -27,17 +39,6 @@
                         {% endfor %}
                     </ul>
                 </li>
-                {% endfor %}
-                {% endfor %}
-                {% for entry in site.data.topnav.topnav %}
-                {% for subcategory in entry.subcategories %}
-                {% if subcategory.external_url %}
-                <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
-                {% elsif page.url contains subcategory.url %}
-                <li class="active"><a href="{{subcategory.url | prepend: site.baseurl}}">{{subcategory.title}}</a></li>
-                {% else %}
-                <li><a href="{{subcategory.url | prepend: site.baseurl | append: site.suffix}}">{{subcategory.title}}</a></li>
-                {% endif %}
                 {% endfor %}
                 {% endfor %}
                 <li id="search-searchbar"></li>
