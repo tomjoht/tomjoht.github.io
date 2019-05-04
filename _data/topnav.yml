@@ -18,6 +18,16 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
+
+    - title: Acad. & Pract.
+      items:
+      - title: Academic/Practitioner Conversations Project
+        url: /academic-practitioner-project/
+      - title: Academic/Practitioner Bridge
+        url: /academic-practitioner-bridge/
+      - title: Guidelines for academic posts
+        url: /academic-post-guidelines/
+
     - title: About
       items:
         - title: About Me
@@ -87,15 +97,6 @@ topnav_dropdowns:
       #   external_url: https://talk.jekyllrb.com
       # - title: Jekyll on Stack Overflow
       #   external_url: http://stackoverflow.com/questions/tagged/jekyll
-
-    # - title: Academics & Practitioners
-    #   items:
-    #   - title: Academic/Practitioner Conversations Project
-    #     url: /academic-practitioner-project/
-    #   - title: Academic/Practitioner Bridge
-    #     url: /academic-practitioner-bridge/
-    #   - title: Guidelines for academic posts
-    #     url: /academic-post-guidelines/
 
       # - title: Academic/Practitioner Podcasts
       #   url: /academic-practitioner-podcasts
