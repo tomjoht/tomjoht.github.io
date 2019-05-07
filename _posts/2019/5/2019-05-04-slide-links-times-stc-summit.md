@@ -43,7 +43,6 @@ Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/oBqOlU2rVR)
 * [Web slides](/slides/trends_stc19/)
-* [Downloadable PPTX, PDF](http://idratherassets.com/stc19trends.zip)
 
 ## Introduction to API Documentation {#apidoc}
 
@@ -59,4 +58,3 @@ Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/q0giL7hGfF)
 * [Web slides](https://idratherbewriting.com/learnapidoc/slides/crash_course.html)
-* [Downloadable PPTX, PDF](http://idratherassets.com/stc19introapidocs.zip)
