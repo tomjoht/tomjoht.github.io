@@ -1,5 +1,5 @@
 ---
-title: "My Slide links and presentation times at the 2019 STC Summit"
+title: "My Slide links and presentations at the 2019 STC Summit"
 permalink: /my-slide-links-times-stc-summit/
 categories:
 - writing
@@ -28,6 +28,8 @@ Links:
 
 {{site.data.alerts.note}}If possible, please prepare beforehand by following the setup in <a href="/learnapidoc/index.html#what-youll-need">What You'll Need</a>.{{site.data.alerts.end}}
 
+<b><i>Post-Summit Note:</i></b> *Although I didn't record this workshop, you can find previous workshop recordings [here](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html).*
+
 <hr/>
 
 ## Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists {#trends}
@@ -44,6 +46,8 @@ Links:
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/oBqOlU2rVR)
 * [Web slides](/slides/trends_stc19/)
 
+<b><i>Post-Summit Note:</i></b> *I didn't record this presentation, but I'm giving a similar presentation at the [STC Puget Sound Chapter on May 21](https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/). I'll record that one.*
+
 ## Introduction to API Documentation {#apidoc}
 
 Date: Tuesday, May 7, 2019<br/>
@@ -58,3 +62,5 @@ Links:
 
 * [Compass schedule](https://event.crowdcompass.com/stcsummit19/activity/q0giL7hGfF)
 * [Web slides](https://idratherbewriting.com/learnapidoc/slides/crash_course.html)
+
+<b><i>Post-Summit Note:</i></b> *I recorded this presentation using the on-board mic on my laptop, and STC let me post it here. The sound in the recording isn't great, but if you're interested, the video is available [here](https://www.youtube.com/watch?v=5pzhtrrtkXY&t=287s).*

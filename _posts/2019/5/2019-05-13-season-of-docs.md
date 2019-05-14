@@ -2,7 +2,7 @@
 title: "Season of Docs -- opportunities for both tech writers and open-source organizations to benefit from each other"
 categories:
 - general
-keywords:
+keywords: open-source, volunteering, experience, portfolio, technical writers
 bitlink: http://bit.ly/
 summary: "When I was at the STC Summit last week, I was chatting with Sarah Maddox about Season of Docs. This is a program where technical writers looking to gain experience in the field can work with an open-source organization for a three-month timeframe on specific projects. Open-source organizations can benefit from having dedicated, enthusiastic technical writers building out their documentation."
 ---

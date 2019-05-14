@@ -1,5 +1,5 @@
 ---
-title: "Upcoming Conference: The Tech Comm Roundup, by The Content Wrangler"
+title: "Upcoming conference: The Tech Comm Roundup, by The Content Wrangler"
 categories:
 - general
 keywords:
