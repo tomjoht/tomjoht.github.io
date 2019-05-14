@@ -1,6 +1,8 @@
 ---
 title: "Season of Docs -- opportunities for both tech writers and open-source organizations to benefit from each other"
 permalink: /blog/season-of-docs/
+redirect_from:
+- /2019/05/13/season-of-docs/
 categories:
 - general
 keywords: open-source, volunteering, experience, portfolio, technical writers

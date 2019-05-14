@@ -1,6 +1,8 @@
 ---
 title: "Upcoming presentation at the STC Puget Sound chapter in Seattle"
 permalink: /blog/upcoming-presentation-stc-puget-sound-chapter-seattle/
+redirect_from:
+- /2019/05/12/upcoming-presentation-stc-puget-sound-trends/
 categories:
 - general
 keywords:

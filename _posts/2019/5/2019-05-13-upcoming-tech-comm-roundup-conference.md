@@ -1,6 +1,8 @@
 ---
 title: "Upcoming conference: The Tech Comm Roundup, by The Content Wrangler"
 permalink: /blog/tech-comm-roundup-conference/
+redirect_from:
+- /2019/05/13/upcoming-tech-comm-roundup-conference/
 categories:
 - general
 keywords:
