@@ -1,19 +1,20 @@
 ---
 title: "Season of Docs -- opportunities for both tech writers and open-source organizations to benefit from each other"
+permalink: /blog/season-of-docs/
 categories:
 - general
 keywords: open-source, volunteering, experience, portfolio, technical writers
-bitlink: http://bit.ly/
-summary: "When I was at the STC Summit last week, I was chatting with Sarah Maddox about Season of Docs. This is a program where technical writers looking to gain experience in the field can work with an open-source organization for a three-month timeframe on specific projects. Open-source organizations can benefit from having dedicated, enthusiastic technical writers building out their documentation."
+bitlink: https://idratherbewriting.site/seasonofdocs
+summary: "When I was at the STC Summit last week, I was chatting with Sarah Maddox about Season of Docs. This is a program where technical writers looking to gain experience in the field can work with an open-source organization for a three-month timeframe on specific projects, building up both experience and a portfolio of sample docs. In turn, open-source organizations can benefit from having dedicated, enthusiastic technical writers creating much-needed documentation."
 ---
 
 You can read more about the program at [Season of Docs](https://developers.google.com/season-of-docs/).
 
 <a href="https://developers.google.com/season-of-docs/"><img src="/images/season-of-docs.png" alt="Season of Docs" style="max-width: 800px"/></a>
 
-I had heard of Season of the Docs before the Summit, but I didn't realize that <a href='https://ffeathers.wordpress.com/'>Sarah Maddox</a> was the one who organized the whole program. Given the size and scope of this program, it's really impressive. You can read more about Season of Docs on her blog here: [Season of Docs is now ready for tech writer exploration](https://ffeathers.wordpress.com/2019/05/02/season-of-docs-is-now-ready-for-tech-writer-exploration/).
+I had heard of Season of the Docs before the Summit, but I didn't realize that <a href='https://ffeathers.wordpress.com/'>Sarah Maddox</a> was the one who organized the whole program. Given the size and scope of this program, it's a really impressive effort &mdash; Sara believes 100% in open-source, and it shows. You can read more about Season of Docs on her blog here: [Season of Docs is now ready for tech writer exploration](https://ffeathers.wordpress.com/2019/05/02/season-of-docs-is-now-ready-for-tech-writer-exploration/).
 
-Getting experience as a new tech writer can be difficult, and despite the many projects on GitHub, finding one can be hard to navigate and integrate into. Season of the Docs looks like a first-of-its-kind program to bring volunteer tech writers and organizations together. The program even provides a small stipend to each group.
+Getting experience as a new tech writer can be difficult, and despite the many projects on GitHub, finding a good documentation project can be difficult (not to mention the challenge of integrating into the team). Season of the Docs looks like a first-of-its-kind program to bring volunteer tech writers and organizations together. The program even provides a small stipend to each group.
 
 Here's a brief excerpt from the Season of Docs homepage:
 
@@ -28,3 +29,5 @@ Here's a brief excerpt from the Season of Docs homepage:
 
 <p>Introduce a technical writer to your open source project and community. Help the technical writer use the project's tools and understand the product. Contribute together to some shiny new docs that enhance your community and your code. <a href="https://developers.google.com/season-of-docs/docs/mentor-guide">Learn more &raquo;</a></p>
 </div>
+
+Learn more at [Season of Docs](https://developers.google.com/season-of-docs/).

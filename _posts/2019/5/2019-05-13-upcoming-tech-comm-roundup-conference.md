@@ -1,13 +1,14 @@
 ---
 title: "Upcoming conference: The Tech Comm Roundup, by The Content Wrangler"
+permalink: /blog/tech-comm-roundup-conference/
 categories:
 - general
 keywords:
-bitlink: http://bit.ly/
+bitlink: https://idratherbewriting.site/techcommroundup
 summary: "Scott Abel has put together a new conference called <a href='https://technicaldocumentationroundup.com/'>Technical Documentation Roundup</a>, held May 21-23, 2019, in Menlo Park, California. If you're interested in attending the conference, there's currently an opportunity to get two tickets for the price of one."
 ---
 
-I asked Scott to tell me a little bit about the conference.
+I asked Scott to tell me a little bit about the conference. Here's the high-level description:
 
 <div style="background-color: #f8f8f8; border: 1px solid #dedede; padding: 15px; margin: 15px 0px;">
 
@@ -18,9 +19,7 @@ I asked Scott to tell me a little bit about the conference.
 
 <p><a rel="nofollow" href="https://technicaldocumentationroundup.com/"><img src="/images/techcomm-roundup.png" alt="Technical Documentation RoundUp, by The Content Wrangler" /></a></p>
 
-<p>You’ll hear from mindfulness expert Janet Fouts (about the <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c731c92bb5c2269fb177e85">difference between empathy and compassion</a>) and from behavioral change specialist Andrew Lawless about the importance of using science to <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c731f57bb5c2267242775c9">build technical documentation team synergy</a>.</p>
-
-<p>Time management coach Alexis Haselberger will share <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c71793c83f45f2a4805f7e7">tactics that successful people</a> use to accomplish their personal goals and keep their business project timelines on track. She’s also agreed to teach a <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c734353bb5c225bc95ba814">time management mastery</a> half-day workshop. And Nance Rosen, "America’s Top Job Coach," will help you find the exact words and phrases to convince others to trust, like, and care about your ideas and your work.</p>
+<p>You’ll hear from mindfulness expert Janet Fouts (about the <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c731c92bb5c2269fb177e85">difference between empathy and compassion</a>) and from behavioral change specialist Andrew Lawless about the importance of using science to <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c731f57bb5c2267242775c9">build technical documentation team synergy</a>. Time management coach Alexis Haselberger will share <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c71793c83f45f2a4805f7e7">tactics that successful people</a> use to accomplish their personal goals and keep their business project timelines on track. She’s also agreed to teach a <a rel="nofollow" href="https://technicaldocumentationroundup.com/conference/sessions/5c734353bb5c225bc95ba814">time management mastery</a> half-day workshop. And Nance Rosen, "America’s Top Job Coach," will help you find the exact words and phrases to convince others to trust, like, and care about your ideas and your work.</p>
 
 <p><a rel="nofollow" href="https://technicaldocumentationroundup.com/"><img style="float: left; max-width: 75px; margin: 0px; padding-right: 5px;" src="/images/buyonegetonefree.png" alt="Buy one get one free" /></a></p>
 

@@ -1,9 +1,10 @@
 ---
 title: "Upcoming presentation at the STC Puget Sound chapter in Seattle"
+permalink: /blog/upcoming-presentation-stc-puget-sound-chapter-seattle/
 categories:
 - general
 keywords:
-bitlink: http://bit.ly/
+bitlink: https://idratherbewriting.site/stcpugetsoundtrends
 summary: "On May 21, 2019, I'm giving a presentation on trends to the STC Puget Sound Chapter in Seattle, Washington. The venue is at the University of Washington and will be from 6:00-8:30pm."
 ---
 
