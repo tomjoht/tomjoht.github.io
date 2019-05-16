@@ -8,7 +8,7 @@ topnav:
     - title: About
       url: /aboutme/
 
-    - title: Documenting APIs
+    - title: API documentation course
       url: /learnapidoc/
 
     - title: Simplifying complexity
