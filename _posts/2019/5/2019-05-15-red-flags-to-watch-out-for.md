@@ -4,7 +4,7 @@ permalink: /blog/red-flags-tech-writer-with-complete-control/
 categories:
 - general
 keywords:
-bitlink: http://idratherbewriting.site/redflagshiring
+bitlink: https://idratherbewriting.site/redflagshiring
 summary: "A reader wonders whether having complete control as the lone writer in a company is a red flag he should watch out for, based on his previous experience. I agree that it is."
 ---
 
