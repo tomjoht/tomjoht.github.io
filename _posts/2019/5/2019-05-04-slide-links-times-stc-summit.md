@@ -4,7 +4,7 @@ permalink: /blog/my-slide-links-times-stc-summit/
 categories:
 - writing
 keywords:
-bitlink: https://idratherbewriting.site/tomsummittimes
+bitlink: https://idratherbewriting.site/tomsummittimesx2
 published: true
 redirect_from:
 - /my-slide-links-times-stc-summit/

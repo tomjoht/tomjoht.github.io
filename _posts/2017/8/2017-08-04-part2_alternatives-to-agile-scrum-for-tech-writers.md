@@ -201,7 +201,7 @@ Now that I've outlined what your user documentation Scrum might look like, let's
 
 Scrum is the workflow language that engineers live and breathe, and your interactions with engineers and project managers will be better if you follow a similar methodology. You will speak the same language and follow similar principles.
 
-Additionally, by being a diligent follower of Scrum yourself, you'll increase your understanding of its principles and mechanics and by so doing, increase your understand of other Scrum team dynamics.
+Additionally, by being a diligent follower of Scrum yourself, you'll increase your understanding of its principles and mechanics and by so doing, increase your understanding of other Scrum team dynamics.
 
 For example, when I first learned the philosophy and principles of Scrum, it helped me understand how software teams get work done, and that helped me interact better with engineering teams. I realized that nothing gets done without a JIRA item, and that item has to be assigned to a sprint. I learned to be patient and hold back on trying to change the scope of a planned sprint. The time to petition for change is during sprint planning.
 
