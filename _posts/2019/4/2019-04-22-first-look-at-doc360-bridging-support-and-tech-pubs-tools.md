@@ -126,6 +126,8 @@ When these groups operate with separate knowledge sources, the information gaps 
 
 To learn more, see <a href='https://rebrand.ly/doc360'>Document360</a>. You can get a good sense of Document360 by <a rel="nofollow" href="https://docs.document360.io/docs">exploring its own documentation</a> (which of courses uses Document360).
 
+For more comments and discussion on this post, see the [related Linkedin thread](https://www.linkedin.com/feed/update/urn:li:activity:6526458595519926272).
+
 ## Your reactions and input
 
 I'd like to hear your reactions and input about Document360. Here are a few questions. You can see the [ongoing results here](https://www.questionpro.com/t/PGD3QZeLzc).
