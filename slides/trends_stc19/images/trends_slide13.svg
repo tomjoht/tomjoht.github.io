@@ -262,4 +262,6 @@ f//Z" transform="matrix(0.24 0 0 0.24 145.442 55.4019)">
 <circle fill="#BFBEBE" cx="289.2" cy="60.8" r="7.5"/>
 <circle fill="#BFBEBE" cx="238.2" cy="55" r="9"/>
 <circle fill="#BFBEBE" cx="264.7" cy="56.1" r="7.5"/>
+<line fill="none" stroke="#B5B5B6" stroke-miterlimit="10" x1="423.8" y1="175" x2="463.9" y2="273.6"/>
+<text transform="matrix(1 0 0 1 432.5749 286.4748)" font-family="'ArialMT'" font-size="10px">(i.e., the tech specialist)</text>
 </svg>
