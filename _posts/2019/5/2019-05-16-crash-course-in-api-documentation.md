@@ -3,6 +3,8 @@ title: "Crash course in API documentation -- a one-hour video"
 permalink: /blog/crash-course-in-api-documentation/
 categories:
 - general
+- stitcher
+- podcasts
 keywords: api documentation
 bitlink: https://idratherbewriting.site/crashcourseapidocs
 summary: "If you want a condensed, one-hour version of what I cover in my API documentation workshop, check out this crash-course video."
