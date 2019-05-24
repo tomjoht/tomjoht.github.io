@@ -27,3 +27,5 @@ For more API documentation recordings, see [Video recordings of API doc workshop
 I also rendered this video as a standalone audio file in case you prefer it this way:
 
 {% include audio.html %}
+
+{% include random_ad.html %}

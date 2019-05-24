@@ -38,4 +38,4 @@ I really have no idea what the answer to this question is. It probably ties in w
 
 But if you're a lone tech writer, others will still not know how to gauge whether the 100 pages of documentation you wrote in a week, or the doc theme you coded from scratch, or the vector graphics you designed in excruciating detail, or the style guide decisions you made after hours of research is all just par for the course for a technical writer. So yeah, this is a red flag. You might want to probe deeper to find out more about how much they will really champion doc culture, especially if they don't understand doc culture. Because as I said earlier, most people underestimate the work involved for roles they don't understand.
 
-**Note:** There's a lot of discussion on Linkedin on this post [here](https://www.linkedin.com/feed/update/urn:li:activity:6534815124753125376/).
+**Note:** There's a lot of discussion about this post on [Linkedin here](https://www.linkedin.com/feed/update/urn:li:activity:6534815124753125376/) and on [Reddit here](https://www.reddit.com/r/technicalwriting/comments/bs49m8/is_being_the_only_tech_writer_at_a_company_a/).
