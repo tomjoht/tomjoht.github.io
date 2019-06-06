@@ -52,7 +52,7 @@ You allow only a limited number of items (for example, 3) in your "Doing" catego
 
 I'm constantly bombarded with emails, instant messages, social media notifications, and meetings, not to mention having multiple projects I'm working on, so it's hard to not get swept into the inefficiency of multi-tasking.
 
-Sander's article resonates with a post I read by Joel Spolsky &mdash; [Human Task Switches Considered Harmful][http://www.joelonsoftware.com/articles/fog0000000022.html]. Spolsky talks about the inefficiency that occurs specifically when programmers have to switch tasks:
+Sander's article resonates with a post I read by Joel Spolsky &mdash; [Human Task Switches Considered Harmful](http://www.joelonsoftware.com/articles/fog0000000022.html). Spolsky talks about the inefficiency that occurs specifically when programmers have to switch tasks:
 
 >The trick here is that when you manage programmers, specifically, task switches take a really, really, really long time. That's because programming is the kind of task where you have to keep a lot of things in your head at once. The more things you remember at once, the more productive you are at programming. A programmer coding at full throttle is keeping zillions of things in their head at once: everything from names of variables, data structures, important APIs, the names of utility functions that they wrote and call a lot, even the name of the subdirectory where they store their source code. If you send that programmer to Crete for a three week vacation, they will forget it all. The human brain seems to move it out of short-term RAM and swaps it out onto a backup tape where it takes forever to retrieve.
 
