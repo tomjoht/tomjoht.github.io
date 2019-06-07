@@ -4,7 +4,7 @@ permalink: /blog/documentation-project-plan-template/
 categories:
 - technical-writing
 keywords:
-bitlink: http://bit.ly/
+bitlink: http://idratherbewriting.site/docplantemplate
 summary: "In this post I share my documentation project plan template. This is designed for project managers to complete. Having all these details present helps you scope projects and recall all needed details if you have to de-prioritize the project for a while."
 ---
 
