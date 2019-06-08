@@ -142,7 +142,7 @@ How does the Scrum's focus shift tech writers towards product-centered doc? Mark
 
 If your focus is always on the new features developers are creating, rather than the user's perspective and feedback, you're probably steering the ship towards a single trajectory that might not yield the greatest value for users.
 
-For example, suppose there's a lot of confusion with an existing feature released two years ago, but no Scrum team is focused on that feature. As a result, it gets neglected. Yet, docs should primarily align with the user's need for high-priority information. Sure, writing docs for upcoming features is important and anticipates the user's need for future information. But it also disregards the current work toward documentation refinement and iteration that also needs to happen with existing information.
+For example, suppose there's a lot of confusion with an existing feature released two years ago, but no Scrum team is focused on that feature. As a result, it gets neglected. Yet docs should primarily align with the user's need for high-priority information. Sure, writing docs for upcoming features is important and anticipates the user's need for future information. But it also disregards the current work toward documentation refinement and iteration that also needs to happen with existing information.
 
 ## Working *in* Scrum versus working *with* Scrum
 

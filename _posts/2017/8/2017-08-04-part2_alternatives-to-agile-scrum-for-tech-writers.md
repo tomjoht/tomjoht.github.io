@@ -71,7 +71,7 @@ In a nutshell, everyday you wake up, look at the two highest-priority tasks you 
 
 ## No methodology at all
 
-Finally, there's using no methodology at all, which I suspect is the most common. With this approach, you sort of bounce from task to task as people ask for things. The louder someone screams for a doc, the more attention you put on it. And if no one is screaming for doc, you gravitate toward the doc you actually want to work on. And you probably spend a lot of time on Slack.
+Finally, there's using no methodology at all, which I suspect is the most common. With this approach, you sort of bounce from task to task as people ask for things. The louder someone screams for a doc, the more attention you put on it. And if no one is screaming for doc, you gravitate toward the doc you actually want to work on. (And you probably spend a lot of time on Slack.)
 
 ## What about Lean?
 
