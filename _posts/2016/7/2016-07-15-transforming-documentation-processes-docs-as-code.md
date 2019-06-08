@@ -12,7 +12,7 @@ tags:
 - documentation
 - technical communication
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/transforming-doc-processes.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/transforming-doc-processes.mp3
 podcast_file_size: 8.1 MB
 podcast_duration: "09:56"
 podcast_length: 8053544
@@ -20,9 +20,9 @@ podcast_length: 8053544
 
 <div class="audioControls">
 <p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/transforming-doc-processes.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/transforming-doc-processes.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/transforming-doc-processes.mp3" alt="Thoughts on Transforming Documentation Processes presentation at WTD: Evaluating the trend to treat documentation as code">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/transforming-doc-processes.mp3" alt="Thoughts on Transforming Documentation Processes presentation at WTD: Evaluating the trend to treat documentation as code">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 You can watch the [Transforming Your Documentation Process](https://www.youtube.com/watch?v=Y2TGwUPb8R4) presentation here:
@@ -37,13 +37,13 @@ Riona started the panel by posing the problem that started her documentation tra
 
 Riona said the survey's findings closely paralleled those from the [2016 Developer Survey on Stack Overflow](https://stackoverflow.com/research/developer-survey-2016#work-challenges-at-work), which found that poor documentation was one of the greatest challenges in the workplace:
 
-<figure><a href="https://stackoverflow.com/research/developer-survey-2016#work-challenges-at-work"><img src="{{ "/images/docsurveystackoverflow.png" | prepend: site.baseurl }}"/></a><figcaption>According to the 2016 Developer Survey on Stack Overflow, the second greatest challenge in the workplace is poor documentation.</figcaption></figure>
+<figure><a href="https://stackoverflow.com/research/developer-survey-2016#work-challenges-at-work"><img src="{{ "https://idratherbewritingmedia.com/images/docsurveystackoverflow.png" | prepend: site.baseurl }}"/></a><figcaption>According to the 2016 Developer Survey on Stack Overflow, the second greatest challenge in the workplace is poor documentation.</figcaption></figure>
 
 *50,000* developers took the survey on Stack Overflow. Even if the sample is biased toward people who are inclined to value good documentation (and hence provide informaton / survey responses on Stack Overflow), it's hard to dismiss the results about the importance of documentation to developers.
 
 As more support for the value of docs, a 2013 survey conducted by [Programmableweb](http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07) (which included about 250 developers) also found that "complete and accurate documentation" was the most important factor in an API:
 
-<figure><a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "/images/progwebdoc.png" | prepend: site.baseurl }}"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
+<figure><a href="http://www.programmableweb.com/news/api-consumers-want-reliability-documentation-and-community/2013/01/07"><img src="{{ "https://idratherbewritingmedia.com/images/progwebdoc.png" | prepend: site.baseurl }}"/></a><figcaption>Good documentation is the most important factor in an API</figcaption></figure>
 
 (As exciting as it is to find these surveys, don't get too excited -- few people seem to take them seriously, as evidenced by the [steady decline or flatlining of employed tech writers](https://idratherbewriting.com/innovation/#/8/2). But let's not dwell on that.)
 

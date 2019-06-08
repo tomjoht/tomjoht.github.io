@@ -12,7 +12,7 @@ tags:
 - scrum
 - documentation
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/agilepanelstc.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/agilepanelstc.mp3
 podcast_file_size: 47.7 MB
 podcast_duration: "01:05:35"
 podcast_length: 47713678 
@@ -25,9 +25,9 @@ bitlink: http://bit.ly/agilepanelstc
 
 <div class="audioControls">
 <p><b>Listen to the recording:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/agilepanelstc.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/agilepanelstc.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/agilepanelstc.mp3" alt="How to thrive as a technical writer in an agile environment">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/agilepanelstc.mp3" alt="How to thrive as a technical writer in an agile environment">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## Agile panel event description

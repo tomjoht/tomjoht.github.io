@@ -13,7 +13,7 @@ Danielle Villegas at <a href='https://techcommgeekmom.com'>TechCommGeekMom</a> w
 
 If you look at the [2016-2017 STC Salary database](https://www.stc.org/salary-database/) (which is arguably the most valuable publication the STC provides), it shows some interesting data. Here are the highest-paying cities for tech writers:
 
-<a href="/images/highestpaying.png"><img src="/images/highestpaying.png" /></a>
+<a href="https://idratherbewritingmedia.com/images/highestpaying.png"><img src="https://idratherbewritingmedia.com/images/highestpaying.png" /></a>
 
 (*Click the images for the full sizes. "MSA" stands for metropolitan statistical area.*)
 
@@ -21,15 +21,15 @@ It's no surprise that San Jose/Sunnyvale/Santa Clara (aka Silicon Valley) tops t
 
 As far as tech writer populations, San Jose/Sunnyvale/Santa Clara ranks fourth in the number of tech writers. New York - New Jersey area ranks first:
 
-<a href="/images/largestmsatechwriters.png"><img src="/images/largestmsatechwriters.png" /></a>
+<a href="https://idratherbewritingmedia.com/images/largestmsatechwriters.png"><img src="https://idratherbewritingmedia.com/images/largestmsatechwriters.png" /></a>
 
 What's interesting is that, even despite the seeming job mecca for tech writers in Silicon Valley, the number of tech writers in San Jose/Sunnyvale/Santa Clara has decreased:
 
-<a href="/images/losingcitiesfortechwriters.png"><img src="/images/losingcitiesfortechwriters.png"/></a>
+<a href="https://idratherbewritingmedia.com/images/losingcitiesfortechwriters.png"><img src="https://idratherbewritingmedia.com/images/losingcitiesfortechwriters.png"/></a>
 
 This means jobs are even more present in these areas. In contrast, here are some up-and-coming tech cities that are growing their tech writer populations:
 
-<a href="/images/fastestgrowingcities.png"><img src="/images/fastestgrowingcities.png" /></a>
+<a href="https://idratherbewritingmedia.com/images/fastestgrowingcities.png"><img src="https://idratherbewritingmedia.com/images/fastestgrowingcities.png" /></a>
 
 In short, although San Jose/Sunnyvale/Santa Clara would seem to attract more tech writers due to the high salaries and jobs available, this number is decreasing (by about 15% in 2016), no doubt because the cost of living is so high. It is really difficult to buy a home in this area.
 

@@ -14,7 +14,7 @@ tags:
 - technical writing
 - research
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/lisameloncon.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/lisameloncon.mp3
 podcast_file_size: 61.6 MB
 podcast_duration: "57:01"
 podcast_length: 61581340
@@ -23,9 +23,9 @@ bitlink: http://bit.ly/lisamacademicpractpodcast
 
 Here's the audio for the podcast:
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/lisameloncon.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/lisameloncon.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/lisameloncon.mp3" alt="Lisa Meloncon on the practitioner academic divide">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/lisameloncon.mp3" alt="Lisa Meloncon on the practitioner academic divide">download the MP3 file here</a>.
 
 ## Podcast summary
 

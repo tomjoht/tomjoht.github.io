@@ -15,7 +15,7 @@ tags:
 - transitioning
 - trends
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/tomjohnsonudemy.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/tomjohnsonudemy.mp3
 podcast_file_size: 93 MB
 podcast_duration: "38:46"
 podcast_length: 93046336
@@ -24,7 +24,7 @@ bitlink: http://bit.ly/udemypodcasttechwriting
 
 Recently Alex Bankoff from Udemy interviewed me for a podcast on technical writing. He and his team also created an infographic based on the podcast as well. You can check out both the [podcast and infographic here](https://www.udemy.com/technical-writing-and-editing/#interview):
 
-<a href="https://www.udemy.com/technical-writing-and-editing/#interview"><img src="{{ "/images/udemypodcast.png" | prepend: site.baseurl }}" alt="Udemy podcast and infographic on technical writing" /></a>
+<a href="https://www.udemy.com/technical-writing-and-editing/#interview"><img src="{{ "https://idratherbewritingmedia.com/images/udemypodcast.png" | prepend: site.baseurl }}" alt="Udemy podcast and infographic on technical writing" /></a>
 
 The infographic adds visual appeal and provides a nice summary for the podcast.
 

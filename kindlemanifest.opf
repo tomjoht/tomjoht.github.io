@@ -8,7 +8,7 @@
             <dc:Copyrights>Copyright Tom Johnson</dc:Copyrights>
             <dc:Publisher>I'd Rather Be Writing</dc:Publisher>
             <x-metadata>
-                <EmbeddedCover>images_api/restapi_apidoc.png</EmbeddedCover>
+                <EmbeddedCover>/learnapidoc/images/restapi_apidoc.png</EmbeddedCover>
             </x-metadata>
         </dc-metadata>
     </metadata>

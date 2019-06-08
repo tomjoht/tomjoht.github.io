@@ -10,7 +10,7 @@ thumb: pullrequeststhumb.png
 ## Pull request tutorial
 The other day I was exploring Github's pull request workflow with more detail. I created a [tutorial for using pull requests here](https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests.html).
 
-<a href="https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests"><img src="{{ "/images_api/github_compare_to.png" | prepend: site.baseurl }}" alt="Pull request tutorial" /></a>
+<a href="https://idratherbewriting.com/learnapidoc/pubapis_github_pull_requests"><img src="{{ "/learnapidoc/images/github_compare_to.png" | prepend: site.baseurl }}" alt="Pull request tutorial" /></a>
 
 ## How pull requests work
 Here's the basic idea of a pull request. Someone wants to make a change to a file in your Github project. Rather than directly making the edit to the "master," the person creates a separate branch from the master and makes the change. Then the person creates a request (a <i>pull request</i>) to merge the branch back into the master.

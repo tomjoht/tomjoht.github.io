@@ -11,7 +11,7 @@ thumb: calmmeditationappthumb.png
 
 You can view my Calm Meditation app in the Amazon Appstore [here](https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1).
 
-<a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1"><img src="/images/calm-meditation-app.png"></a>
+<a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1"><img src="https://idratherbewritingmedia.com/images/calm-meditation-app.png"></a>
 
 {% include random_ad.html %}
 

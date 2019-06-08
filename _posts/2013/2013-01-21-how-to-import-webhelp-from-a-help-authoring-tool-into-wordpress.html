@@ -57,7 +57,7 @@ weight: 1.0
 <p>To get the tool to work, first, recognize that it's not a plugin. You don't upload it from your Plugins page, nor do you activate the plugin. Follow these steps to set up the DITA import tool:</p>
 <ol>
 <li>I assume you've already installed WordPress somewhere. If you haven't yet, do that first. (For details on installing WordPress, see the <a href="http://wordpress.org/download/">WordPress Download page</a>.)</li>
-<li>Download the modified import file here: <a href="https://idratherassets.com/wp-content/uploads/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
+<li>Download the modified import file here: <a href="https://idratherassets.com//images/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
 <li>Using FTP, upload the ditahelp.php file to the wp-admin folder of your WordPress installation.</li>
 <li>From that same wp-admin folder, download admin.php.</li>
 <li>In the admin.php folder, below this line:<code> require_once(ABSPATH . 'wp-admin/includes/admin.php');</code>add this:<code>require_once('ditahelp.php');</code>Note: I know it's a poor practice to modify a core WordPress file, because it will just be overwritten the next time you update WordPress. This method is just an interim workaround until the plugin gets updated to work with the latest version of WordPress.</li>
@@ -69,10 +69,10 @@ weight: 1.0
 <p>Now it's time to watch the magic happen. In this step, we will import our webhelp into WordPress.</p>
 <ol>
 <li>Using your help authoring tool, generate a webhelp output. For example, if you're using Flare, generate an HTML5 target.</li>
-<li>Upload the content folder in the output to a web folder on your server (the same one where you have WordPress installed). I uploaded mine to a folder at wp-content/uploads/helpcontent.  The HTML files can be nested in subfolders — it doesn't matter. The tool will grab all of the HTML files.</li>
+<li>Upload the content folder in the output to a web folder on your server (the same one where you have WordPress installed). I uploaded mine to a folder at /images/helpcontent.  The HTML files can be nested in subfolders — it doesn't matter. The tool will grab all of the HTML files.</li>
 <li>In WordPress, go to <strong>Tools &gt; Import</strong> and click <strong>DITA help</strong>.</li>
 <li>In the DITA help Directory path, enter the absolute URL of your content. For example, in my test project, my path is<code><br />
-/home1/idrathe1/public_html/wpsandbox/test/wp-content/uploads/helpcontent<br />
+/home1/idrathe1/public_html/wpsandbox/test//images/helpcontent<br />
 </code>Note: If you don't know the absolute path, you can find it by installing the <a href="http://wordpress.org/extend/plugins/wp-dbmanager/">WP DB Manager plugin by Lester Chan</a>. When you go to Database &gt; Backup DB, you will see the absolute path to your site. (By the way, after you activate the WP DB Manager plugin, you'll be prompted to download an htaccess.txt file from one folder, move it to another, and rename it to .htaccess.)</li>
 <li>Click <strong>Import Files</strong>. Then proceed through the five stages of the import. There's nothing to do in each stage except click the Stage or Next button at the bottom. (I'm not sure why the plugin breaks the import process down into these five stages, but Mike describes what the import tool does <a href="http://zed1.com/journalized/wordpress-plugins/dita-to-wordpress-import-tool/">here</a>.)</li>
 </ol>

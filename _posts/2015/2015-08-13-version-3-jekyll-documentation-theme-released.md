@@ -18,11 +18,11 @@ Here's an example output: [https://idratherbewriting.com/documentation-theme-jek
 
 The theme is built for single sourcing, so the default theme has a couple of outputs: Designers and Writers. The Designers output has detailed instructions for working with the theme.
 
-<img src="{{ "/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
+<img src="{{ "https://idratherbewritingmedia.com/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
 The Writers output is a slightly scaled back version of the same content (eliminating some explanations of how the theme works), with another theme applied.
 
-<img src="{{ "/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
+<img src="{{ "https://idratherbewritingmedia.com/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
 The [Getting started page](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
 

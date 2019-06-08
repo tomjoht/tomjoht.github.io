@@ -9,7 +9,7 @@ bitlink: http://bit.ly/wtdportlandslides
 thumb: wtdportslidethumb.png
 ---
 
-<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="/images/wtdpresoportland.png"/></a>
+<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://idratherbewritingmedia.com/images/wtdpresoportland.png"/></a>
 
 Here's the [description](http://www.writethedocs.org/conf/na/2017/speakers/#speaker-tom-johnson):
 

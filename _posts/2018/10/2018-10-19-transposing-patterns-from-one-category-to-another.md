@@ -33,7 +33,7 @@ Our pitch was basically this:
 
 Here's the process depicted in a quick graphic:
 
-<img src="/images/carlajohnsonworkshop_process.svg" />
+<img src="https://idratherbewritingmedia.com/images/carlajohnsonworkshop_process.svg" />
 
 ## Thoughts
 

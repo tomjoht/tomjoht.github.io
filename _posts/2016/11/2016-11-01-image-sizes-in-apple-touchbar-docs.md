@@ -14,9 +14,9 @@ Why the difference? When you start with a large image and constrain its size dow
 
 You won't really see the difference on a regular monitor, but for fun, I embedded two graphics for comparison below. The first is the graphic at 400px width, while the second is 1600px wide.
 
-<a href="https://idratherbewriting.com/images/initialgraphicapple.jpg"><img src="{{ "/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." /></a>
+<a href="https://idratherbewriting.com/images/initialgraphicapple.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." /></a>
 
-<a href="https://idratherbewriting.com/images/fullsizegraphicapple.jpg"><img src="{{ "/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." /></a>
+<a href="https://idratherbewriting.com/images/fullsizegraphicapple.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." /></a>
 
 On a regularly 72 DPI monitor, you won't see much difference between the two. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with the 1600px original size).
 
@@ -28,7 +28,7 @@ If you aren't sure how many pixels per inch your monitor has, look at [dpilove](
 
 When I take screenshots, it's best to take them from the high retina display using Snagit, because Snagit gives me the option to save my screenshot using the pixels captured from the high retina monitor. 
 
-<img src="{{ "/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}" style="max-width: 500px"  alt="Save using retina size" />
+<img src="{{ "https://idratherbewritingmedia.com/images/testresolution/saveusingretinasize.png" | prepend: site.baseurl }}" style="max-width: 500px"  alt="Save using retina size" />
 
 (This is one argument for using a high retina display when writing documentation.)
 
@@ -52,11 +52,11 @@ If you're translating your content, you might not want to use text callouts in y
 
 This is probably the best one: 
 
-<a href="http://psgips.blog24.fc2.com/blog-entry-068.html](http://psgips.blog24.fc2.com/blog-entry-068.html"><img src="{{ "/images/calloutgoodexample.png" | prepend: site.baseurl }}" alt="A good example of callouts." /></a>
+<a href="http://psgips.blog24.fc2.com/blog-entry-068.html](http://psgips.blog24.fc2.com/blog-entry-068.html"><img src="{{ "https://idratherbewritingmedia.com/images/calloutgoodexample.png" | prepend: site.baseurl }}" alt="A good example of callouts." /></a>
 
 I tried to find some Apple documentation in Japanese to see if they also translated the text callouts or if they used the legend approach. Although I couldn't find the Touch Bar docs, I did find [this pdf](https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf), which suggests that they do translate the text callouts. 
 
-<a href="https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf"><img src="{{ "/images/applejpcallouts.jpg" | prepend: site.baseurl }}" alt="Translation of callouts" /></a>
+<a href="https://manuals.info.apple.com/MANUALS/1000/MA1761/ja_JP/macbook_pro_13_2t3_late2016_qs_j.pdf"><img src="{{ "https://idratherbewritingmedia.com/images/applejpcallouts.jpg" | prepend: site.baseurl }}" alt="Translation of callouts" /></a>
 
 Without question, putting text near the object it describes increases the immediate readability. However, there's also a downside to putting text in callouts -- you have a limited amount of space. You can't expand with any more details other than a 1-2 word description. (Apple's text callout style uses a smaller font than their body font. This smaller size may be to accommodate more text in the allowed space.) 
 

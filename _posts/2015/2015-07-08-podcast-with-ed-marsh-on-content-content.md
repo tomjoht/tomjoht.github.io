@@ -13,8 +13,8 @@ If you like podcasts, check out episode 4 of Ed Marsh's [Content Content podcast
 
 {% include random_ad.html %}
 
-<a href="http://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson"><img src="{{ "/images/edmarshpodcastwithme.png" | prepend: site.baseurl }}" alt="Content Content podcast with Ed Marsh and me" /></a>
+<a href="http://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson"><img src="{{ "https://idratherbewritingmedia.com/images/edmarshpodcastwithme.png" | prepend: site.baseurl }}" alt="Content Content podcast with Ed Marsh and me" /></a>
 
 Chatting with Ed made me remember how much I like both listening to and recording podcasts. I think he's given me renewed enthusiasm for recording more regular podcasts.
 
-Here's the [direct link to the MP3 file](http://media.blubrry.com/contentcontent/p/edmarsh.com/wp-content/uploads/2015/07/Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3).
+Here's the [direct link to the MP3 file](http://media.blubrry.com/contentcontent/p/edmarsh.com//images/2015/07/Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3).

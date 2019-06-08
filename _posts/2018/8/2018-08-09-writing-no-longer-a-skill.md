@@ -9,7 +9,7 @@ keywords:
 summary: "When we try to sell our tech comm skills, promoting our <i>writing</i> skills doesn't seem to impress people anymore, as writing is considered more of a presumed skill everyone has. To give a sense of value, we need to hyphenate our job titles, becoming more of a hybrid professional."
 bitlink: http://bit.ly/writingmarketingskills
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/writingmarketingskills.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/writingmarketingskills.mp3
 podcast_file_size: 21.8 MB
 podcast_duration: "25:35"
 podcast_length: 21801999
@@ -21,11 +21,11 @@ podcast_length: 21801999
 
 The other day I looked at site metrics for my two sub-projects: [API documentation](/learnapidoc/) and [Simplifying Complexity](/simplifying-complexity). The traffic on my Simplifying Complexity site is only about 1.73% of the overall traffic on my site &mdash; here the traffic for Simplifying Complexity for the past 3 months:
 
-<img src="/images/simplifying-complexity-stats.png" alt="Traffic on Simplifying Complexity"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity-stats.png" alt="Traffic on Simplifying Complexity"/>
 
 In contrast, the traffic on my API documentation site (for the past 3 months) is about 60% of my site's overall traffic:
 
-<img src="/images/learnapidoc-stats-graph.png" alt="Traffic on API doc site"/>
+<img src="https://idratherbewritingmedia.com/images/learnapidoc-stats-graph.png" alt="Traffic on API doc site"/>
 
 How do you interpret this disparity? It seems pretty clear that one type of content is sought after more than the other. Granted, the API doc site has more pages (96 instead of 11) and it's been around longer, and I've given lots of [API doc presentations](https://idratherbewriting.com/learnapidoc/docapis_course_videos.html) referring to it. But I think it's more than that. People seek to learn about skills *they lack*. API documentation is one of these sought-after skills; simplifying complexity isn't a skill people search out.
 
@@ -77,7 +77,7 @@ Grey transitioned into software testing instead, leveraging many of the skills h
 
 Continuing Ellis's position, if you look at another source, the [STC Salary Database](https://www.stc.org/salary-database/), you can see that tech writer jobs have largely remained the same:
 
-<img src="/images/techwriterjobsovertime.png" alt="technical writing job growth over the past 5 years" />
+<img src="https://idratherbewritingmedia.com/images/techwriterjobsovertime.png" alt="technical writing job growth over the past 5 years" />
 
 The Salary Database author explains:
 

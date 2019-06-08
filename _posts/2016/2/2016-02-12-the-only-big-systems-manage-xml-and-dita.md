@@ -16,7 +16,7 @@ This encouraged me to publish some realizations I've had about tools for some ti
 
 Almost all of the documentation platforms built to manage large amounts of technical documentation require a structured format. There are some exceptions, but I don't think any CCMS out there will manage Markdown content. 
 
-<img src="{{ "/images/systemstoscale-01.svg" | prepend: site.baseurl }}" alt="Plugging content into robust systems" />
+<img src="{{ "https://idratherbewritingmedia.com/images/systemstoscale-01.svg" | prepend: site.baseurl }}" alt="Plugging content into robust systems" />
 
 At most, if all your content is in Markdown, you can convert it into HTML and manage it in a web CMS (or add a Markdown plugin in the CMS to do it for you). However, web content management systems (such as Drupal or WordPress) are typically made for publishing one-off web articles for websites and blogs, not for managing tech docs that have requirements involving multi-channel output, translation, cross-references, related links, content re-use, variables, and more.
 

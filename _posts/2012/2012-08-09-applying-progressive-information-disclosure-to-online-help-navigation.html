@@ -18,17 +18,17 @@ published: true
 <p>A classic example is on-screen help text that presents a brief sentence followed by a "Read more" link, which takes the reader to a more detailed explanation on another page.</p>
 <p>Many websites follow progressive information disclosure techniques with their navigation. On the top menu of a website, you see a dozen or so main buttons.  When you select a topic, the landing page for that topic presents you with many more specific options. Some people differentiate these two types of navigation menus as "main navigation" and "local navigation."</p>
 <p>For example, go to <a href="http://www.amazon.com">Amazon.com</a>. Browse the main topics in the left sidebar. Click Books, and then from the flyout menu, choose Books again.</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/books.png"><img class=" wp-image-11682 alignnone" title="books" alt="" src="/images/books.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/books.png"><img class=" wp-image-11682 alignnone" title="books" alt="" src="https://idratherbewritingmedia.com/images/books.png" /></a></p>
 <p>After selecting Books, you arrive at a landing page that has a lot more granular options relating to books. You can click Best Books of 2011, Summer Reading, Summer Reading for Kids &amp; Teens, Best Books of the Month, Kindle Books, Textbook Store, twenty or more book categories, and many more options (which I've highlighted in the image below)</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/books2.png"><img class="alignnone  wp-image-11683" title="books2" alt="" src="/images/books2.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/books2.png"><img class="alignnone  wp-image-11683" title="books2" alt="" src="https://idratherbewritingmedia.com/images/books2.png" /></a></p>
 <p>If Amazon were to present the reader with all of these options up front, on the home page, it would overwhelm the reader. And yet, this is exactly what help authoring tools set you up to do.</p>
 <h2>Aggressive Information Expansion</h2>
 <p>The classic webhelp file presents a table of contents on the left. You expand a book and find additional topics and sub-books inside. You expand the sub-books to view the topics inside of them. Hopefully there aren't sub-sub-sub-books, but sometimes there are.</p>
 <p>For fun, open up all the books in an online help file and look over the topics. Rather than following a progressive information disclosure model, webhelp systems follow an <em>aggressive information expansion </em>model.<em> </em></p>
 <p>Here's an example from Flare's help:</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/flare-help.png"><img class=" wp-image-11684 alignnone" title="flare-help" alt="" src="/images/flare-help.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/flare-help.png"><img class=" wp-image-11684 alignnone" title="flare-help" alt="" src="https://idratherbewritingmedia.com/images/flare-help.png" /></a></p>
 <p>And from Microsoft:</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/org-1.png"><img class="alignnone  wp-image-11686" title="microsoft help" alt="" src="/images/org-1.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/org-1.png"><img class="alignnone  wp-image-11686" title="microsoft help" alt="" src="https://idratherbewritingmedia.com/images/org-1.png" /></a></p>
 <p>(By the way, I am by no means criticizing the help content. Both Microsoft and Madcap have excellent help content. I'm only pointing out that typical webhelp files do not embrace progressive information disclosure in their table of contents (TOC). Instead, we load up our TOCs with all the information we can possibly fit in there, assuming the user will browse for the topic he or she wants among hundreds of options.)</p>
 <p>My brother-in-law job-shadowed me the other day at work, and as I opened up all the topics in one of my help files, he said his eyes just glazed over all that information. He said in seeing all those topics, his first reaction was to close that help file and look at it some other time [meaning never].</p>
 <p>Presumably, one advantage to presenting the reader with so many options is that the user can quickly navigate to the right topic without wading through page reload after reload, moving to one topic after another to see if the content has answers the user is looking for. Traditional websites don't offer this navigation speed.</p>
@@ -38,7 +38,7 @@ published: true
 <p>My wife uses progressive information disclosure on our kids all the time. For chores, she asks them to unload 20 items from the dishwasher. Just 20, she will say. So the kids begin to unload 20 items, and before you know it, the kids have unloaded much more than that.</p>
 <p>Sometimes it's better if people don't know everything they're getting into.</p>
 <p>The other day, I tried setting up my help according to a progressive information disclosure model in Flare. I narrowed down the topics to about 10 topics in the TOC (left sidebar). When you click a topic, you see a sidebar on the right that lists tasks related to that topic.</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/org-51.png"><img class="alignnone  wp-image-11688" title="related tasks on the right" alt="" src="/images/org-51.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/org-51.png"><img class="alignnone  wp-image-11688" title="related tasks on the right" alt="" src="https://idratherbewritingmedia.com/images/org-51.png" /></a></p>
 <p>The right sidebar shows information from a relationship table. You only see those topics after selecting a topic from the table of contents on the left.</p>
 <p>Unfortunately, this model cuts against the way Flare was designed. Each time I compile the help, I see warnings for topics that aren't listed in the table of contents but are nonetheless linked in the help. It's as if Flare <em>wants</em> me to list everything in the table of contents.</p>
 <p>As I fiddled around with this approach, I decided to bag it. My brother-in-law pointed out how the links look similar to ads in gmail. The eye barely notices them. And navigating them felt odd, because with relationship tables, the page you're viewing isn't listed in the table, so the nav options kept changing with each click.</p>
@@ -46,9 +46,9 @@ published: true
 <p>Another technique might be to include more topics as drop-down hotspots on the page itself, taking advantage of jQuery effects to show and hide content.</p>
 <p>For example, you could begin the topic with a two paragraph conceptual explanation, followed by a "Read more" link that would expand to show more detail if the reader desired to read it. Below the conceptual intro to the topic, you could have various tasks collapsed in drop-down hotspots.</p>
 <p>Flare help uses this technique a lot:</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/flareexpandingsections.png"><img class="alignnone  wp-image-11690" title="flareexpandingsections" alt="" src="/images/flareexpandingsections.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/flareexpandingsections.png"><img class="alignnone  wp-image-11690" title="flareexpandingsections" alt="" src="https://idratherbewritingmedia.com/images/flareexpandingsections.png" /></a></p>
 <p>And I've also used it in my help:</p>
-<p><a href="https://idratherassets.com/wp-content/uploads/2012/08/dropdownhotspots.png"><img class="alignnone  wp-image-11689" title="dropdownhotspots" alt="" src="/images/dropdownhotspots.png" /></a></p>
+<p><a href="https://idratherassets.com//images/2012/08/dropdownhotspots.png"><img class="alignnone  wp-image-11689" title="dropdownhotspots" alt="" src="https://idratherbewritingmedia.com/images/dropdownhotspots.png" /></a></p>
 <p>My brother-in-law preferred this method because it gives readers options to see more if desired. And it doesn't overwhelm the reader with too many topics in the table of contents.</p>
 <h2>Keeping Information Together</h2>
 <p>Embedding drop-down hotspots on a page may work better than splitting out the topics as separate entries in the TOC because it keeps the information together. In <a href="http://www.amazon.com/Designing-Web-Navigation-Optimizing-Experience/dp/0596528108">Designing Web Navigation</a>, James Kalbach says,</p>

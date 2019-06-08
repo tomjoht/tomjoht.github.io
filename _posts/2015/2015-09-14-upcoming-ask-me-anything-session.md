@@ -15,6 +15,6 @@ Vinish Garg is following this same pattern on Content Hug, and he invited me to 
 
 For more information, see the [details on Content Hug](http://contenthug.com/september-17-live-ama-ask-me-anything-i-am-tom-johnson-owner-influential-blog-idratherbewriting). 
 
-<a href="http://contenthug.com/september-17-live-ama-ask-me-anything-i-am-tom-johnson-owner-influential-blog-idratherbewriting"><img src="{{ "/images/amasession.png" | prepend: site.baseurl }}" alt="AMA session" /></a>
+<a href="http://contenthug.com/september-17-live-ama-ask-me-anything-i-am-tom-johnson-owner-influential-blog-idratherbewriting"><img src="{{ "https://idratherbewritingmedia.com/images/amasession.png" | prepend: site.baseurl }}" alt="AMA session" /></a>
 
 I'll offer candid and transparent responses to any questions you ask me. (I've never participated in this kind of thing, so I'm interested to see how it goes.)

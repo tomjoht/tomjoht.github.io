@@ -45,7 +45,7 @@ To assemble your bike:
 <p>In WordPress, there's a plugin called <a href="https://wordpress.org/plugins/threewp-broadcast/">ThreeWP Broadcast</a> that allows you to broadcast the same post or page content to other sites in a linked way. </p>
 <p>ThreeWP Broadcast works with <a href="http://codex.wordpress.org/Create_A_Network">Wordpress Multisite</a>, which is a network of sites rather than a standalone site. You author all of your content into a WordPress Multisite base site, and then choose which sites you want to broadcast the information to.</p>
 <p>I set up a quick demo of a WordPress multisite that contains a base site and two network sites. On my WordPress base site, I have a sample page here: <a href="https://idratherbewriting.com/wp/blog/test-123/">https://idratherbewriting.com/wp/blog/test-123/</a>. ThreeWP Broadcast provides a little Broadcast box in the lower-right corner of your posts and pages. To broadcast the page to other network sites, just select which sites you want to broadcast it to.</p>
-<p><img src="/images/broadcast2.png" alt="broadcastoption" width="465" height="310" class="alignnone size-full wp-image-21593" /></p>
+<p><img src="https://idratherbewritingmedia.com/images/broadcast2.png" alt="broadcastoption" width="465" height="310" class="alignnone size-full wp-image-21593" /></p>
 <p>Because I selected sites 2 and 3, the post will automatically be duplicated/posted on sites 2 and 3, without my having to do anything:</p>
 <ul>
 <li>Base site: <a href="https://idratherbewriting.com/wp/blog/test-123/">https://idratherbewriting.com/wp/blog/test-123/</a></li>
@@ -82,9 +82,9 @@ function site_content_fn( $atts, $content="" ) {
 add_shortcode( 'site', 'site_content_fn' );
 </pre>
 <p>When you <a href="https://idratherbewriting.com/wp/site2/test-123/">view the page on site 2</a>, step 4 doesn't appear. </p>
-<p><a href="https://idratherbewriting.com/wp/site2/test-123/"><img src="/images/site2.png" alt="site2" width="654" height="516" class="alignnone size-full wp-image-21596" /></a></p>
+<p><a href="https://idratherbewriting.com/wp/site2/test-123/"><img src="https://idratherbewritingmedia.com/images/site2.png" alt="site2" width="654" height="516" class="alignnone size-full wp-image-21596" /></a></p>
 <p>When you <a href="https://idratherbewriting.com/wp/site3/test-123/">view the page on site 3</a>, you see that step 4 appears. </p>
-<p><a href="https://idratherbewriting.com/wp/site3/test-123/"><img src="/images/site3.png" alt="site3" width="654" height="547" class="alignnone size-full wp-image-21597" /></a></p>
+<p><a href="https://idratherbewriting.com/wp/site3/test-123/"><img src="https://idratherbewritingmedia.com/images/site3.png" alt="site3" width="654" height="547" class="alignnone size-full wp-image-21597" /></a></p>
 <p>Is that cool or what! </p>
 <p>(By the way, thanks to <a href="https://premium.wpmudev.org/">wpmudev</a> for developing that shortcode for me. If you're working with WordPress multisites, wpmudev is a must-have resource.)</p>
 <p>Admittedly, the shortcode in there is specific to WordPress. This means that if you decide you no longer want to publish in WordPress, but rather Alfresco or Sharepoint, you'll have a lot of square brackets in your code. However, it might not be so difficult to programmatically convert the content back to strict XML or some other format. It's essentially the tradeoff decision you have to make. </p>
@@ -112,7 +112,7 @@ function get_product_name() {
 add_shortcode( 'product', 'get_product_name' );
 </pre>
 <p>The blog_id values refer to the auto-generated numerical values for your sites. You can find your network site IDs (the blog IDs) by going to your list of network sites (Network Admin > Sites).</p>
-<p><img src="/images/siteidvalue.png" alt="siteidvalue" width="624" height="597" class="alignnone size-full wp-image-21598" /></p>
+<p><img src="https://idratherbewritingmedia.com/images/siteidvalue.png" alt="siteidvalue" width="624" height="597" class="alignnone size-full wp-image-21598" /></p>
 <p>Now on my base site page, I'll insert the following:</p>
 <pre>
 Thank you for buying [product].

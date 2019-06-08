@@ -15,11 +15,11 @@ Vector graphics are actually XML files that are mathematically drawn, whereas ra
 
 Here's a sample. This is a vector graphic (SVG):
 
-<img class="shrink" src="{{ "/images/samplevectordiagram.svg" | prepend: site.baseurl }}" alt="Sample vector graphic" style="max-width: 700px" />
+<img class="shrink" src="{{ "https://idratherbewritingmedia.com/images/samplevectordiagram.svg" | prepend: site.baseurl }}" alt="Sample vector graphic" style="max-width: 700px" />
 
 And this is a raster graphic (PNG):
 
-<img  class="shrink" src="{{ "/images/samplerasterdiagram.png" | prepend: site.baseurl }}" alt="Sample raster graphic" />
+<img  class="shrink" src="{{ "https://idratherbewritingmedia.com/images/samplerasterdiagram.png" | prepend: site.baseurl }}" alt="Sample raster graphic" />
 
 They look almost identical, really. But the vector graphic is slightly sharper.
 
@@ -54,7 +54,7 @@ Also note that SVG graphics will fill their containing element regardless of the
 
 As for graphics, I think they be simple and minimalist. My favorite source for vector graphics is <a href="https://thenounproject.com/">The Noun Project</a>:
 
-<a href="https://thenounproject.com/"><img src="{{ "/images/thenounproject.png" | prepend: site.baseurl }}" alt="The Noun Project" /></a>
+<a href="https://thenounproject.com/"><img src="{{ "https://idratherbewritingmedia.com/images/thenounproject.png" | prepend: site.baseurl }}" alt="The Noun Project" /></a>
 
 As long as you attribute the graphics from The Noun Project, they're free (otherwise it costs $100/year). What's great about the Noun Project is that the icons, being minimalist, all fit together thematically. And there are about 150,000 of them.
 
@@ -66,7 +66,7 @@ To save the Illustrator file as an SVG, you don't use Export. Instead, you use F
 
 When you choose to Save As an SVG, you're presented with a dialog box that looks like this:
 
-<img src="{{ "/images/illustratoroptions.png" | prepend: site.baseurl }}" alt="Options when saving AI as SVG" />
+<img src="{{ "https://idratherbewritingmedia.com/images/illustratoroptions.png" | prepend: site.baseurl }}" alt="Options when saving AI as SVG" />
 
 The dialog box has a lot of options, but I've highlighted the sections I want to comment on.
 
@@ -83,7 +83,7 @@ In the check boxes, remove the check box from "Use <textpath> element for Text o
 Now it's time to insert the SVG on your page. You can treat it just like an image:
 
 ```
-<img src="/images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
+<img src="https://idratherbewritingmedia.com/images/samplevectordiagram.svg" alt="Sample vector graphic" style="max-width: 700px" />
 ```
 
 Vector graphics provide a lot of possibilities beyond just simple diagrams here. You can also add animation, link different elements, and do a lot of other things with graphics. However, you can also just create simple workflow diagrams, like I've shown here.

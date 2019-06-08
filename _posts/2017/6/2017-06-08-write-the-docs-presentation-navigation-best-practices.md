@@ -19,16 +19,16 @@ If you just want the audio, here it is:
 
 <div class="audioControls">
 <p><b>Listen to this presentation:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/wtdportland2017navigationbestpractices.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can also <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/wtdportland2017navigationbestpractices.mp3" alt="Recording of User-Centered Design Principles for Organizing Documentation">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can also <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3" alt="Recording of User-Centered Design Principles for Organizing Documentation">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## Slides
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="/images/wtdpresoportland.png"/></a>
+<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://idratherbewritingmedia.com/images/wtdpresoportland.png"/></a>
 
 ## Presentation description
 

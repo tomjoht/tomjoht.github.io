@@ -54,7 +54,7 @@ In other words, instead of directly pitching your products through marketing col
 
 As you publish content that people care about, you align yourself more closely with your audience's needs and interests. Only after you have a substantial audience do you even mention your products.
  
-<figure><img src="{{ "/images/cmi_content.png" | prepend: site.baseurl }}" alt="Building relationships with people through content" style="max-width:500px;"/><figcaption>Content helps you build relationships with an audience</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/cmi_content.png" | prepend: site.baseurl }}" alt="Building relationships with people through content" style="max-width:500px;"/><figcaption>Content helps you build relationships with an audience</figcaption></figure>
 
 Joe says,
 

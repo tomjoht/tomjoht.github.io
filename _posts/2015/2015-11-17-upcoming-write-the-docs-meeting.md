@@ -9,7 +9,7 @@ thumb: wtdpaneliststhumb.png
 ---
 Here are the four panelists scheduled for the meetup:
 
-<a href="http://www.meetup.com/Write-the-Docs/events/226495517/"><img src="{{ "/images/wtd_panelists.jpeg" | prepend: site.baseurl }}" alt="Write the Docs panelists" /></a>
+<a href="http://www.meetup.com/Write-the-Docs/events/226495517/"><img src="{{ "https://idratherbewritingmedia.com/images/wtd_panelists.jpeg" | prepend: site.baseurl }}" alt="Write the Docs panelists" /></a>
 
 For more details, see [the meetup description](http://www.meetup.com/Write-the-Docs/events/226495517/).
 

@@ -15,7 +15,7 @@ tags:
 - component content management
 - Paligo
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/paligo.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/paligo.mp3
 podcast_file_size: 7.3 MB
 podcast_duration: "08:46"
 podcast_length: 7312169
@@ -24,9 +24,9 @@ bitlink: http://bit.ly/xmlccmspaligo
 
 <div class="audioControls">
 <p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/paligo.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/paligo.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/paligo.mp3" alt="The Story of Paligo">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/paligo.mp3" alt="The Story of Paligo">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## Beginnings
@@ -45,7 +45,7 @@ They teamed up and, starting with the existing foundation code base that Arensme
 
 <a href="http://paligo.net/" rel="nofollow">Paligo</a> is an XML-based component content management system (CCMS) that users access entirely in the cloud. Paligo's team built on top of a custom topic-based version of Docbook XML to create a number of user-friendly features.
 
-<figure><img src="{{ "/images/Dashboard3-2280-fixed-languages-checkout.png" | prepend: site.baseurl }}"/><figcaption>Paligo's user interace</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/Dashboard3-2280-fixed-languages-checkout.png" | prepend: site.baseurl }}"/><figcaption>Paligo's user interace</figcaption></figure>
 
 With Paligo, you can do the following:
 
@@ -119,31 +119,31 @@ To explore Paligo with a free trial, click **Get Started** in the upper-right co
 The following are some screenshots of Paligo that give you a better sense of the user interface and functionality.
 
 **Structure view**
-<img src="{{ "/images/StructureView-2280.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/StructureView-2280.png" | prepend: site.baseurl }}"/>
 
 **Overview of resources, such as image assets**
-<img src="{{ "/images/ResourceOverview.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/ResourceOverview.png" | prepend: site.baseurl }}"/>
 
 **Searching for content based on keywords and elements**
-<img src="{{ "/images/Search-1549.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/Search-1549.png" | prepend: site.baseurl }}"/>
 
 **Selecting variables**
-<img src="{{ "/images/SelectVariable2.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/SelectVariable2.png" | prepend: site.baseurl }}"/>
 
 **Drag and drop widget structure**
-<img src="{{ "/images/DragAndDropWidgetStructure.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/DragAndDropWidgetStructure.png" | prepend: site.baseurl }}"/>
 
 **Viewing statistics about re-use**
-<img src="{{ "/images/statisticsview.jpg" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/statisticsview.jpg" | prepend: site.baseurl }}"/>
 
 **Tags for taxonomy**
-<img src="{{ "/images/TaxonomyColors.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/TaxonomyColors.png" | prepend: site.baseurl }}"/>
 
 **Translation management and status**
-<img src="{{ "/images/TranslationStatus-1549.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/TranslationStatus-1549.png" | prepend: site.baseurl }}"/>
 
 **Workflow for documents**
-<img src="{{ "/images/Workflow5.png" | prepend: site.baseurl }}"/>
+<img src="{{ "https://idratherbewritingmedia.com/images/Workflow5.png" | prepend: site.baseurl }}"/>
 
 
 

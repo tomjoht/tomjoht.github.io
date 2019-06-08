@@ -14,7 +14,7 @@ type: notes_ucd
 {% comment %}
 ## Users resist long documentation
 
-<a href="https://idratherbewriting.com/wp-content/uploads/qrgpowerpoint.pdf"><img src="/user_centered_doc/media/rasters/minson.png"/></a>
+<a href="https://idratherbewriting.com//images/qrgpowerpoint.pdf"><img src="/user_centered_doc/media/rasters/minson.png"/></a>
  
  ## When it becomes worth it
 

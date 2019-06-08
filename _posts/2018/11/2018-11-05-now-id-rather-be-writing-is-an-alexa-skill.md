@@ -9,7 +9,7 @@ summary: "Now you can listen to the latest narrated post on I'd Rather Be Writin
 bitlink: http://bit.ly/alexaskillidratherbewriting
 # image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 image: https://idratherbewriting.com/images/idratherbewriting-alexa-skill.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nowanalexaskill.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/nowanalexaskill.mp3
 podcast_file_size: 7.3 MB
 podcast_duration: "8:48"
 podcast_length: 7268866
@@ -29,7 +29,7 @@ To add I'd Rather Be Writing to your Alexa Flash Briefing skills:
 6.  Click the **I'd Rather Be Writing** skill in the search results.
 7.  Click the **Enable** button:
 
-    <a href="https://alexa.amazon.com/spa/index.html#skills/dp/B07K5THQ3L/?ref=skill_dsk_skb_fb_0&qid=1541477623"><img src="/images/idratherbewriting-alexa-skill.png"/></a>
+    <a href="https://alexa.amazon.com/spa/index.html#skills/dp/B07K5THQ3L/?ref=skill_dsk_skb_fb_0&qid=1541477623"><img src="https://idratherbewritingmedia.com/images/idratherbewriting-alexa-skill.png"/></a>
 
     After you enable the skill, the Enable button changes to "Settings." Clicking Settings lets you manage your Flash Briefing skills by toggling them on or off and changing the order.
 

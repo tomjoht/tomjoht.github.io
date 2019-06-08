@@ -10,7 +10,7 @@ categories:
 - podcasts
 - stitcher
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stcsfpresononref.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stcsfpresononref.mp3
 podcast_file_size: 47.7 MB
 podcast_duration: "59:49"
 podcast_length: 47699020
@@ -22,7 +22,7 @@ redirect_from:
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/nonref-content-api-docs/"><img src="/images/nonrefslides.png"/></a>
+<a href="https://idratherbewriting.com/nonref-content-api-docs/"><img src="https://idratherbewritingmedia.com/images/nonrefslides.png"/></a>
 
 ## Audio
 

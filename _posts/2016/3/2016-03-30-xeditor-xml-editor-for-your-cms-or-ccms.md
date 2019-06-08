@@ -21,7 +21,7 @@ However, here's the problem. Almost all CMSs require the content to be structure
 
 Here's a screenshot of a sample Xeditor interface:
 
-<figure><a rel="nofollow" href="http://www.xeditor.com/portal/en/technical-documentation-1771"><img src="{{ "/images/xeditorinterface.png" | prepend: site.baseurl }}"/></a><figcaption>Xeditor's interface makes XML authoring simple, like working in Microsoft Word.</figcaption></figure>
+<figure><a rel="nofollow" href="http://www.xeditor.com/portal/en/technical-documentation-1771"><img src="{{ "https://idratherbewritingmedia.com/images/xeditorinterface.png" | prepend: site.baseurl }}"/></a><figcaption>Xeditor's interface makes XML authoring simple, like working in Microsoft Word.</figcaption></figure>
 
 Check it out at <a rel="nofollow" href="http://www.xeditor.com/">Xeditor</a>.
 
@@ -33,15 +33,15 @@ In my explorations with Xeditor, I found the interface responsive and easy to wo
 
 Xeditor hides the code view, but you can still see it as read-only by expanding the XML pane.
 
-<figure><img src="{{ "/images/xeditorcodeview.png" | prepend: site.baseurl }}" alt="The Xeditor code view" /><figcaption>You can expand the XML pane to see the XML code. The code is formatted nicely and syncs to your position on the page.</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/xeditorcodeview.png" | prepend: site.baseurl }}" alt="The Xeditor code view" /><figcaption>You can expand the XML pane to see the XML code. The code is formatted nicely and syncs to your position on the page.</figcaption></figure>
 
 Additionally, an expandable Attributes pane provides a view of the attributes for the element you're working with. In XML, attributes are properties of elements, such as the platform, product, or audience tags that determine how the element gets processed.
 
-<figure><img src="{{ "/images/xeditor_attributes.png" | prepend: site.baseurl }}" alt="Xeditor Attributes pane" /></a><figcaption>When you click an element, the Attributes pane shows the attributes or properties for those elements.</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/xeditor_attributes.png" | prepend: site.baseurl }}" alt="Xeditor Attributes pane" /></a><figcaption>When you click an element, the Attributes pane shows the attributes or properties for those elements.</figcaption></figure>
 
 Another handy feature of Xeditor is the comment and review functionality. To comment on any text, just highlight the word and click the Comment button. Add your comment in the Comments pane. Reviewers can accept or reject the changes, and you can even turn on a Track Changes mode.
 
-<figure><img src="{{ "/images/xeditor_comments.png" | prepend: site.baseurl }}" alt="Xeditor comments" /></a><figcaption>Here I've added a comment to the word "anywhere."</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/xeditor_comments.png" | prepend: site.baseurl }}" alt="Xeditor comments" /></a><figcaption>Here I've added a comment to the word "anywhere."</figcaption></figure>
 
 ## Common questions
 

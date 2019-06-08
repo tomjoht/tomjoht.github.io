@@ -10,7 +10,7 @@ bitlink: http://bit.ly/recordingopenapiswaggersandiego
 redirect_from:
 - /2018/01/28/upcoming-webinar-on-swagger-and-openapi-spec/
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stc-san-diego-webinar-openapi-swagger.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stc-san-diego-webinar-openapi-swagger.mp3
 podcast_file_size: 53.3 MB
 podcast_duration: "01:01:44"
 podcast_length: 53,288,566
@@ -30,7 +30,7 @@ I didn't like how my talking head seemed to squish the video over to the left, s
 
 Here are the slides:
 
-<a target="_blank" href="https://idratherbewriting.com/openapi-and-swagger"><img src="/images/openapiandswagger.png" style="max-width: 400px;" /></a>
+<a target="_blank" href="https://idratherbewriting.com/openapi-and-swagger"><img src="https://idratherbewritingmedia.com/images/openapiandswagger.png" style="max-width: 400px;" /></a>
 
 ## Audio only
 

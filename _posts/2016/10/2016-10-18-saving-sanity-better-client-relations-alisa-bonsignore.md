@@ -11,7 +11,7 @@ tags:
 - freelancing
 - client relations
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/alisabonsignore.mp3
 podcast_file_size: 42.1 MB
 podcast_duration: "55:22"
 podcast_length: 42114640 
@@ -44,11 +44,11 @@ If you just want the audio, here it is:
 
 <div class="audioControls">
 <p><b>Listen to this presentation:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/alisabonsignore.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/alisabonsignore.mp3" alt="Saving Your Sanity Through Better Client Relations with Alisa Bonsignore">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/alisabonsignore.mp3" alt="Saving Your Sanity Through Better Client Relations with Alisa Bonsignore">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## About Alisa Bonsignore
 
-<p><img style="float: left; max-width: 150px; padding-right: 10px;" src="{{ "/images/alisa-bonsignore.jpg" | prepend: site.baseurl }}" alt="Alisa Bonsignore" />Based in the Bay Area, Alisa Bonsigno respends her days clarifying complex ideas, translating technical and clinical information into understandable language tailored to the needs of healthcare, network security and healthcare IT clients around the globe. She uses humor and real-world scenarios to form the basis for her talks about professional development. Alisa has been elected to serve as Director of STC (2016-2018), and is past Chair of the Education Advisory Panel for STC. You can learn more about Alisa at <a href="http://clarifyingcomplexideas.com">clarifyingcomplexideas.com</a>.</p>
+<p><img style="float: left; max-width: 150px; padding-right: 10px;" src="{{ "https://idratherbewritingmedia.com/images/alisa-bonsignore.jpg" | prepend: site.baseurl }}" alt="Alisa Bonsignore" />Based in the Bay Area, Alisa Bonsigno respends her days clarifying complex ideas, translating technical and clinical information into understandable language tailored to the needs of healthcare, network security and healthcare IT clients around the globe. She uses humor and real-world scenarios to form the basis for her talks about professional development. Alisa has been elected to serve as Director of STC (2016-2018), and is past Chair of the Education Advisory Panel for STC. You can learn more about Alisa at <a href="http://clarifyingcomplexideas.com">clarifyingcomplexideas.com</a>.</p>

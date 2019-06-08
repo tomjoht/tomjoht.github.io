@@ -11,7 +11,7 @@ A recent article in the *New York Times* describes a retreat for <i>aging</i> te
 
 > In and around San Francisco, the conventional wisdom is that tech jobs require a limber, associative mind and an appetite for risk &mdash; both of which lessen with age. As Silicon Valley work culture becomes American work culture, these attitudes are spreading to all industries.
 > ...
-> Their anxieties are well founded. In Silicon Valley, the hiring rate seems to slow for workers once they hit 34, according to [a 2017 study by Visier](https://www.visier.com/wp-content/uploads/2017/09/Visier-Insights-AgeismInTech-Sept2017.pdf), a human-resources analytics provider. The median age of a worker at Facebook, LinkedIn and SpaceX is 29, according to a recent [analysis by the workplace transparency site PayScale](https://www.payscale.com/data-packages/top-tech-companies-compared).
+> Their anxieties are well founded. In Silicon Valley, the hiring rate seems to slow for workers once they hit 34, according to [a 2017 study by Visier](https://www.visier.com//images/2017/09/Visier-Insights-AgeismInTech-Sept2017.pdf), a human-resources analytics provider. The median age of a worker at Facebook, LinkedIn and SpaceX is 29, according to a recent [analysis by the workplace transparency site PayScale](https://www.payscale.com/data-packages/top-tech-companies-compared).
 
 In the retreat, held in a resort-like area in Cabo San Lucas, these "aging" tech workers adorn stickers on their bodies with negative thoughts about aging, and then they rip the stickers off and burn them in a fire pit. The author writes,
 
@@ -27,7 +27,7 @@ The leader, Chip Conley, says that the irony is that "you actually are much happ
 
 In a real sense ,this article about people as young as 30 experiencing fears of aging in Silicon Valley struck a chord with me. As laughable as it sounds, the article has merit, particularly when you're surrounded by seemingly college-age demographics. In the [2018 Github Developer Survey](https://insights.stackoverflow.com/survey/2018/), "about three-fourths of professional developers who took [the] survey are younger than 35."
 
-<a href="https://insights.stackoverflow.com/survey/2018/#developer-profile-age"><img src="/images/github_age_survey.png" /></a>
+<a href="https://insights.stackoverflow.com/survey/2018/#developer-profile-age"><img src="https://idratherbewritingmedia.com/images/github_age_survey.png" /></a>
 
 I'm currently 43, so in just two more years I'll enter the 45-54-years-old bracket, where only 5.1% of people reside. That means that for every 100 developers I interact with, about 95 will be younger than me.
 

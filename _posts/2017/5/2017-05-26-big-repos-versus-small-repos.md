@@ -8,7 +8,7 @@ bitlink: http://bit.ly/sizeofrepos
 thumb: reposizethumb.png
 ---
 
-<img src="/images/reposize.png"/>
+<img src="https://idratherbewritingmedia.com/images/reposize.png"/>
 
 When I set up the Jekyll doc system for our team, I initially started by having team members store content for each product in separate repos. However, updating the documentation theme became problematic because the themes were hard-coded in each repo (rather than distributed via the cloud). Since the theme code was in flux (I was still fine-tuning it every couple of weeks), it was a pain to update the theme across all the different product repos.
 

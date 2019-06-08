@@ -36,7 +36,7 @@ When you open a project, the folder remains open. This uses some of Eclipse's me
 
 You can either remove or delete a project by right-clicking it. You can then choose whether to remove the project from the workspace or delete it from the disk. The former just removes it from displaying in Eclipse, whereas the latter actually deletes the project entirely.
 
-<img src="{{ "/images/deletingprojects.png" | prepend: site.baseurl }}" alt="" />
+<img src="{{ "https://idratherbewritingmedia.com/images/deletingprojects.png" | prepend: site.baseurl }}" alt="" />
 
 ## Renaming classes or files
 

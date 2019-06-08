@@ -18,7 +18,7 @@ As an example of how voice-interactive manuals work, if a user is unclear about 
 Alexa then responds with additional details. Although writers could provide these additional details embedded in the manual (in expandable sections, for example), interacting with Alexa for the information provides the human touch most users crave when learning or setting up a new technology.
 
 <figure>
-<img src="/images/aprilfools-01.png" style="max-width:570px; border: 1px solid #dedede;" />
+<img src="https://idratherbewritingmedia.com/images/aprilfools-01.png" style="max-width:570px; border: 1px solid #dedede;" />
 <figcaption>Voice-interactive manuals let users ask Alexa for additional help when they get stuck.</figcaption></figure>
 
 John Baker, a user who is part of the pilot trial with the voice-interactive manuals, explains:

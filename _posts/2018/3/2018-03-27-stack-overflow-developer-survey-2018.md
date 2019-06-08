@@ -11,7 +11,7 @@ The 2018 Stack Overflow results are [available here](https://insights.stackoverf
 
 > Over 80% of respondents rely on Stack Overflow Q&A when learning something new. Additionally, developers understand the value of good documentation, as over 80% also use documentation as a resource when learning.
 
-<img src="/images/waysdeveloperslearn.png"/>
+<img src="https://idratherbewritingmedia.com/images/waysdeveloperslearn.png"/>
 
 Additionally, the survey found that
 

@@ -10,7 +10,7 @@ bitlink: http://bit.ly/faqversusgoals
 thumb: problemwithfaqs.png
 ---
 
-<img src="/images/faqsversusgoals.png"/>
+<img src="https://idratherbewritingmedia.com/images/faqsversusgoals.png"/>
 
 ## How the FAQ begins
 

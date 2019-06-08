@@ -28,7 +28,7 @@ Grey’s main argument is that "companies are leaning into good user-interface d
 
 Grey argues that UX design has displaced the need for tech comm in software companies. Instead of hiring a tech writer to provide explanations for confusing interfaces, companies (at least those that want to be successful) hire UX designers to get the design intuitive from the start.
 
-<figure><img src="/images/generalist_specialist_design_not_docs.svg"/><figcaption>Grey says the trend, at least for end-user products, is to hire UX designers to create products that don't need documentation</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/generalist_specialist_design_not_docs.svg"/><figcaption>Grey says the trend, at least for end-user products, is to hire UX designers to create products that don't need documentation</figcaption></figure>
 
 Companies recognize that a usable interface can easily work with can make the difference between success and failure. Companies like Apple have cemented the idea that users are willing to pay for well-designed products that don't rely on a lot of documentation.  
 
@@ -62,13 +62,13 @@ So tech writer jobs haven’t simply disappeared because of the emergence of wha
 
 While user interfaces are often getting simpler, the code behind them is getting more complex. The classic example of this shift towards simple frontends and complex backends is Google’s homepage. On the surface, it looks pretty simple. But go to View > Source and copy the code on that page, and then paste it into Microsoft Word. It’s _73_ pages long!
 
-<figure><a href="https://google.com/"><img src="/images/googlehomepagescreenshot.png"/></a><figcaption>Google's home page looks simple on the surface, but the code fills 73 pages </figcaption></figure>
+<figure><a href="https://google.com/"><img src="https://idratherbewritingmedia.com/images/googlehomepagescreenshot.png"/></a><figcaption>Google's home page looks simple on the surface, but the code fills 73 pages </figcaption></figure>
 
 Consider another example: voice interaction. When I say to my Fire TV, "Alexa, show me the latest action movies," this natural language interface attempts to simplify the user experience. There’s no need to find the right menu, to type out my search using the remote controller’s direction pad, and so on. But behind the scenes, making this simple natural language interaction has an incredible amount of complexity and code. There are multiple systems interacting in harmony with each other &mdash; or sometimes clashing, which can result in Alexa misinterpreting your utterance and returning something unexpected.
 
 Technology is like an iceberg &mdash; seemingly simple on the surface, but with massive amounts of code underneath.
 
-<figure><img src="/images/generalist_specialist_iceberg.svg" /><figcaption>Technology is often made simple on the surface for end users but is complex below the surface, dependent on a lot of advanced systems interacting with each other.</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/generalist_specialist_iceberg.svg" /><figcaption>Technology is often made simple on the surface for end users but is complex below the surface, dependent on a lot of advanced systems interacting with each other.</figcaption></figure>
 
 Technical writers are always needed where there’s complexity &mdash; if there’s nothing complicated or sophisticated, tech writers are extraneous. Hence, this complexity is pulling tech comm professionals more toward developer documentation, away from end-user documentation.
 
@@ -116,7 +116,7 @@ As a result, developers are left on their own when it comes to designing their A
 
 The outcome, when engineers play roles in design (even code design), is often parallel to the outcomes when developers created user interfaces. Remember back before UX designers were common, engineers would create user interfaces that looked something like this:
 
-<figure><a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/"><img src="/images/when_developers_create_interfaces.png"/></a><figcaption>When developers create user interfaces, the result is often an atrocity. But what about products that are code-based? Well, without the designer to prototype, vet, and perform usability analyses, the end result can also be atrocious. (Image from <a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/">Coding Horror</a>)</figcaption></figure>
+<figure><a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/"><img src="https://idratherbewritingmedia.com/images/when_developers_create_interfaces.png"/></a><figcaption>When developers create user interfaces, the result is often an atrocity. But what about products that are code-based? Well, without the designer to prototype, vet, and perform usability analyses, the end result can also be atrocious. (Image from <a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/">Coding Horror</a>)</figcaption></figure>
 
 Looking at this, we laugh. But when developers create developer products (that is, tools for developers), the result is often the same but less visible because developer products don’t often have interfaces. Developers create code spaghetti and kluges, with really confusing processes and setups.
 
@@ -138,7 +138,7 @@ As a tech writer explaining this to users, at some point I started to wonder whe
 
 Bob Watson notes that when APIs are hard to document, it's often a sign that your API is poorly designed and will experience trouble in the market &mdash; see [If your API is hard to document, be warned](https://docsbydesign.com/2018/02/18/if-your-api-is-hard-to-document-be-warned/). Let's put aside issues of design and just agree that the developer domain is complex. It is likely complex for a number of reasons (not just the absence of UX designers). My larger point here is that **tech writer roles are transitioning into the developer domain**. We’re moving from GUIs to code, from mainstream end-user domains to developer domains because that's where the complexity is. This transition is _huge_ and significant and presents all kinds of new challenges that many tech comm professionals have never faced.
 
-<figure><img src="/images/generalist_specialist_job_trends.svg"><figcaption>With job trends, there seem to be more tech writing jobs in the developer domain (APIs, SDKs, etc.) than in the end-user domain (for GUIs and products for mainstream users)</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/generalist_specialist_job_trends.svg"><figcaption>With job trends, there seem to be more tech writing jobs in the developer domain (APIs, SDKs, etc.) than in the end-user domain (for GUIs and products for mainstream users)</figcaption></figure>
 
 ## Why developers are writing more docs
 
@@ -148,13 +148,13 @@ Navigating the developer domain often requires an engineering level of knowledge
 
 Because the needed documentation in the developer domain is so highly specialized, another huge trend is occurring: more engineers are writing and contributing to documentation.
 
-<figure><img src="/images/generalist_specialist_developers_writing.svg" /><figcaption>More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary.</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/generalist_specialist_developers_writing.svg" /><figcaption>More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary.</figcaption></figure>
 
 ## Write the Docs as Evidence that Developer Docs Is Growing
 
 As evidence that the developer domain is flourishing with engineering writers, just look at the emergence and growth of the [Write the Docs](http://www.writethedocs.org/) groups. This group started out, in part, as engineers who write docs looking to connect and help other engineers writing docs. And this group has taken off in tremendous ways over the past few years.
 
-<figure><a href="http://www.writethedocs.org/"><img src="/images/writethedocshomepage.png"/></a><figcaption>Write the Docs was founded mainly by developers who were writing documentation and wanted more community</figcaption></figure>
+<figure><a href="http://www.writethedocs.org/"><img src="https://idratherbewritingmedia.com/images/writethedocshomepage.png"/></a><figcaption>Write the Docs was founded mainly by developers who were writing documentation and wanted more community</figcaption></figure>
 
 In fact, Write the Docs, [started in 2013](https://www.writethedocs.org/origin-story/), now has yearly conferences on 3 continents, meetups in 30 cities, and thousands of participants in the Slack channel. The group’s focus is on software documentation &mdash; not specifically developer docs but that’s what a lot of the presentations and members tend to focus on.
 

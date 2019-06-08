@@ -22,7 +22,7 @@ With <a href="http://www.madcapsoftware.com/products/central/" rel="nofollow">Ma
 * Create and track tasks by user and team
 * See project statistics in widgets on a dashboard, and more
 
-<img src="/images/central.png" alt="MadCap Central Interface" style="max-width: 700px; border: 1px solid #dedede;"/>
+<img src="https://idratherbewritingmedia.com/images/central.png" alt="MadCap Central Interface" style="max-width: 700px; border: 1px solid #dedede;"/>
 
 *Note: MadCap Software is one of the sponsors for this site.*
 
@@ -32,7 +32,7 @@ MadCap Central serves as the hub for your Flare projects, but you don’t work w
 
 For example, in Flare 2017, go to **View > MadCap Central**. You'll see a pane on the left where you can log into MadCap Central and commit your current project.
 
-<figure><img src="/images/uploadpane.png" style="max-width: 400px;" alt="Flare upload pane" /><figcaption>MadCap Central provides a central online Dashboard for your Flare projects</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/uploadpane.png" style="max-width: 400px;" alt="Flare upload pane" /><figcaption>MadCap Central provides a central online Dashboard for your Flare projects</figcaption></figure>
 
 Within MadCap Central's admin interface, you'll see the Flare projects you've uploaded and can configure the builds for your projects.
 
@@ -40,7 +40,7 @@ Within MadCap Central's admin interface, you'll see the Flare projects you've up
 
 MadCap Central also provides source control for your Flare projects. Through source control, multiple writers can collaborate on the same project. When you commit your project in MadCap Central, the changes get stored on the server.
 
-<img src="/images/changesstored.png" style="max-width: 400px;" alt="Changes stored on server" />
+<img src="https://idratherbewritingmedia.com/images/changesstored.png" style="max-width: 400px;" alt="Changes stored on server" />
 
 The source control used by MadCap Central is a simplified form of Git that reduces the complexity of full Git and tailors the options to technical writers.
 
@@ -55,7 +55,7 @@ For more info on the source control used with MadCap Central, see the
 
 After committing your Flare project to MadCap Central, you configure the build and deployment details for your project. Within the build configuration details, you can build a project immediately, configure a build schedule, and set other details.
 
-<img src="/images/buildschedules.png" style="max-width: 400px;" alt="Build schedules" />
+<img src="https://idratherbewritingmedia.com/images/buildschedules.png" style="max-width: 400px;" alt="Build schedules" />
 
 You can even select whether to build or not when no changes have been committed.
 
@@ -81,7 +81,7 @@ With MadCap Central, you can actually log into an admin interface (on MadCap Cen
 
 The following screenshot shows the builds I've set up for a project called flaretest.
 
-<img src="/images/builddashboard.png" style="max-width: 700px;" alt="Build Dashboard" />
+<img src="https://idratherbewritingmedia.com/images/builddashboard.png" style="max-width: 700px;" alt="Build Dashboard" />
 
 It's important to note that the build takes place on MadCap Central. You don't need to transfer all your build files to the server each time you want to make an update.
 

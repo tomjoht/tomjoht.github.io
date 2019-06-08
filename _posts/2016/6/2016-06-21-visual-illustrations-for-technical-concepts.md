@@ -11,7 +11,7 @@ You can view the [Android Vocabulary Glossary here](https://developers.google.co
 
 For example, check out the [Setter Method](https://google-developers.appspot.com/android/for-all/vocab-words/index_0172fb7b3e434aea701aa821ef43d5df.frame?card=setter-method#).
 
-<figure><a href="https://developers.google.com/android/for-all/vocab-words/"><img src="{{ "/images/gettersettermethods.png" | prepend: site.baseurl }}"/></a><figcaption>Visual communication in developer doc</figcaption></figure>
+<figure><a href="https://developers.google.com/android/for-all/vocab-words/"><img src="{{ "https://idratherbewritingmedia.com/images/gettersettermethods.png" | prepend: site.baseurl }}"/></a><figcaption>Visual communication in developer doc</figcaption></figure>
 
 This visual is actual a looping gif animation that provides an interesting, unique way of explaining getter and setter methods.
 

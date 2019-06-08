@@ -14,7 +14,7 @@ A couple of weeks ago, I thought I was taking a big step forward by putting my d
 
 Here's what my docs look like with the Edit on Github button:
 
-<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img src="/images/myeditongithubbutton.png" style="max-width:500px;"/></a>
+<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img src="https://idratherbewritingmedia.com/images/myeditongithubbutton.png" style="max-width:500px;"/></a>
 
 When I announced the new Github integration to my project team, the project manager responded enthusiastically about the potential for "crowdsourcing docs."
 
@@ -38,7 +38,7 @@ Putting docs into the same repo as the code might be helpful, but not all docs h
 
 As I was browsing around on some tech comm blogs, I ran across this [slide deck][sarah] from Sarah O'Keefe about her keynote at tcworld India.
 
-<figure><a href="http://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/"><img src="/images/isitafad.png" style="max-width: 500px;"/></a><figcaption>Slide 29</figcaption></figure>
+<figure><a href="http://www.scriptorium.com/2017/03/tcworld-india-2017-focus-future/"><img src="https://idratherbewritingmedia.com/images/isitafad.png" style="max-width: 500px;"/></a><figcaption>Slide 29</figcaption></figure>
 
 Although I don't have more details about this part of her presentation, the word "fad" got me thinking. Is docs as code a fad? How exactly is the docs-as-code trend different from the wiki trend, which peaked about eight years ago and then floundered?
 
@@ -135,7 +135,7 @@ Even for non-engineers, giving people a simple tool and publishing workflow can 
 
 Again, forget about crowdsourcing. Docs as code is giving people simple, free, open-source tools to do the writing/publishing tasks they need to do. For that purpose alone, docs as code has the power to move beyond just being a fad. There is real value in empowering common people to author and publish content (without expensive help authoring tools, without knowledge of XML syntax, without years of professional tech writing know-how, etc.).
 
-<img src="/images/simplifiedauthoringtools-01.png" style="max-width: 600px;"/>
+<img src="https://idratherbewritingmedia.com/images/simplifiedauthoringtools-01.png" style="max-width: 600px;"/>
 
 Simplification of authoring and publishing tools is at the heart of the docs-as-code movement. No more black boxes that handle your content. No more expensive, proprietary systems to submit to. No more impossible-to-adjust-outputs-unless-you-know XSLT/XSFO-XS-whatever to style your output. You can integrate it all simply, easily, and inexpensively. It works with other web tools and other systems too. You can integrate with the latest web technologies and tools. You can leverage help from modern UX devs.
 

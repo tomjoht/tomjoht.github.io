@@ -301,7 +301,7 @@ If you want to create a "see also" reference, use this format: `@see #baz`. To c
 
 In Eclipse, see the Javadoc tab at the bottom of the screen to preview the Javadoc information included for the class you're viewing.
 
-<img src="{{ "/images/javadocpane.png" | prepend: site.baseurl }}" alt="" />
+<img src="{{ "https://idratherbewritingmedia.com/images/javadocpane.png" | prepend: site.baseurl }}" alt="" />
 
 ## More information
 
