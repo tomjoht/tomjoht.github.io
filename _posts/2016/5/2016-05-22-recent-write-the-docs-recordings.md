@@ -11,9 +11,9 @@ At the meetup, first [Neal Kaplan](https://customersandcontent.com/) gave a pres
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1MtcHfK2M_I" frameborder="0" allowfullscreen></iframe>
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/nealdocssupportwtd.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocssupportwtd.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/nealdocsupportwtd.mp3" alt="Neal Kaplan">download the MP3 file here</a> and view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nealdocsupportwtd.mp3" alt="Neal Kaplan">download the MP3 file here</a> and view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
 
 Then [Ruthie Bendor](https://twitter.com/unruthless), a web engineer, gave a presentation titled "Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup":
 
@@ -21,9 +21,9 @@ Then [Ruthie Bendor](https://twitter.com/unruthless), a web engineer, gave a pre
 
 (The title is a play on Facebook's old slogan, "Move fast and break things.")
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ruthiemovefastanddocwtd.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" alt="Ruthie BenDor">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/ruthiemovefastanddocwtd.mp3" alt="Ruthie BenDor">download the MP3 file here</a>.
 
 Having multiple presentations in a short amount of time gives the meetup more energy and interest. At least one attendee commented that he liked this format because it encouraged people to get more quickly to the point.
 

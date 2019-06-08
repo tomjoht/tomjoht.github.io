@@ -14,7 +14,7 @@ tags:
 - technical communication
 - project management
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/four-hour-projects.mp3
 podcast_file_size: 7.8 MB
 podcast_duration: "09:34"
 podcast_length: 7755917
@@ -23,9 +23,9 @@ bitlink: http://bit.ly/ferrisfourhourtcprojects
 
 <div class="audioControls">
 <p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/four-hour-projects.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3" alt="Applying 4-hour work week rules to tech comm projects">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/four-hour-projects.mp3" alt="Applying 4-hour work week rules to tech comm projects">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 I've written previously about the [inefficiency of context-switching](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.

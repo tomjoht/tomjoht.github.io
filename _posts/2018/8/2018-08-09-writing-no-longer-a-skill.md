@@ -9,7 +9,7 @@ keywords:
 summary: "When we try to sell our tech comm skills, promoting our <i>writing</i> skills doesn't seem to impress people anymore, as writing is considered more of a presumed skill everyone has. To give a sense of value, we need to hyphenate our job titles, becoming more of a hybrid professional."
 bitlink: http://bit.ly/writingmarketingskills
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/writingmarketingskills.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/writingmarketingskills.mp3
 podcast_file_size: 21.8 MB
 podcast_duration: "25:35"
 podcast_length: 21801999

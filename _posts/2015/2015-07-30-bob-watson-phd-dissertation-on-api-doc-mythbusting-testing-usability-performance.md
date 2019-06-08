@@ -16,7 +16,7 @@ tags:
 - best practices
 - usability
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/bobwatson_apidocs.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/bobwatson_apidocs.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "52:21"
 podcast_length: 6530090

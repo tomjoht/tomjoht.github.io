@@ -9,7 +9,7 @@ summary: "Users turn to documentation when the pain of their ignorance exceeds t
 bitlink: http://bit.ly/painofignorancevspainoflearning
 thumb: painofignorancethumb.png
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/painofignorance.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/painofignorance.mp3
 podcast_file_size: 14.3 MB
 podcast_duration: "17:52"
 podcast_length: 14326715

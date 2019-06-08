@@ -10,7 +10,7 @@ categories:
 - podcasts
 - stitcher
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stcsfpresononref.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/stcsfpresononref.mp3
 podcast_file_size: 47.7 MB
 podcast_duration: "59:49"
 podcast_length: 47699020

@@ -9,7 +9,7 @@ summary: "Now you can listen to the latest narrated post on I'd Rather Be Writin
 bitlink: http://bit.ly/alexaskillidratherbewriting
 # image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
 image: https://idratherbewriting.com/images/idratherbewriting-alexa-skill.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/nowanalexaskill.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/nowanalexaskill.mp3
 podcast_file_size: 7.3 MB
 podcast_duration: "8:48"
 podcast_length: 7268866

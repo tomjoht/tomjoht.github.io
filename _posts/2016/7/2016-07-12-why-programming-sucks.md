@@ -12,7 +12,7 @@ tags:
 - documentation
 - technical communication
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/programming-sucks-fallacy.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3
 podcast_file_size: 5.8 MB
 podcast_duration: "7:28"
 podcast_length: 5797577
@@ -20,9 +20,9 @@ podcast_length: 5797577
 
 <div class="audioControls">
 <p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/programming-sucks-fallacy.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/programming-sucks-fallacy.mp3" alt="Why Programming Sucks and the fallacy of documentation in the context of code chaos">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/programming-sucks-fallacy.mp3" alt="Why Programming Sucks and the fallacy of documentation in the context of code chaos">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 

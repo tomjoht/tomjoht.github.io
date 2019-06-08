@@ -8,7 +8,7 @@ keywords:
 summary: "This past week I had some good discussions with developers about the right directions in our doc-as-code project at work. I say good discussions, but actually they were challenging. The outcome led me to realize more details about embracing docs as code. The more you treat docs as code, the more you may have to set aside some common tech writer models of handling content and instead embrace the software code workflows entirely. Some of these principles include storing only source code in repositories, building from a build management system, and reducing build pipelines to work with 1 or 2 larger repositories only."
 bitlink: http://bit.ly/docsascodepathrealizations
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/docsascoderealizations.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/docsascoderealizations.mp3
 podcast_file_size: 19.8 MB
 podcast_duration: "23:59"
 podcast_length: 19821010
