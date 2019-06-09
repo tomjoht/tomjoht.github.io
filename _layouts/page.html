@@ -13,13 +13,15 @@ layout: default
 
         {{content}}
 
+{% comment %}
         <div style="max-width:300px">
 
             {% include tinyletter.html %}
         </div>
 
-        {% include social_sharing_buttons.html %}
 
+        {% include social_sharing_buttons.html %}
+{% endcomment %}
         <hr/>
 
     {% include single_post_comics.html %}

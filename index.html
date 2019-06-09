@@ -20,7 +20,7 @@ focus: noform
                  &#8226; <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">0 Comments</a>
             </div>
             <div>{% if post.thumb %}
-                <div class="thumb"> <a href="{{ post.url }}"><img src="{{site.baseurl}}/images/thumbnails/{{post.thumb}}" alt="{{post.title}}"/></a>
+                <div class="thumb"> <a href="{{ post.url }}"><img src="https://idratherbewritingmedia.com/images/thumbnails/{{post.thumb}}" alt="{{post.title}}"/></a>
                 </div>
                 {% endif %}
                 <div class="homepageSummary">{{post.summary}}</div>
@@ -51,19 +51,3 @@ focus: noform
 
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-{% comment %}
-I think this is old disqus code...
-{% if site.disqus_shortname %}
-<script type="text/javascript">
-    var disqus_shortname = 'idratherbewriting';
-
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-{% endif %}
-{% endcomment %}
