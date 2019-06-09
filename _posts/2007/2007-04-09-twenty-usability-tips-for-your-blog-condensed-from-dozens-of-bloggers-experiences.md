@@ -24,7 +24,7 @@ Pick a general topic you are passionate about, and stick with that focus as you 
 
 Allow comments, and respond to comments. Blogs are dialogues, not monologues. If you turn commenting off, you lose out on the Web 2.0 aspects of your blog. Comments enrich your thoughts and take you to a higher level of analysis. You benefit from the additions, corrections, tips, and other feedback from readers. To encourage comments, don't require sign in. Activate [Akismet](http://akismet.com) and this [math plugin](http://sw-guide.de/wordpress/math-comment-spam-protection-plugin/) to avoid spam. Add the [Subscribe to Comments](http://txfx.net/code/wordpress/subscribe-to-comments/) plugin so users can be aware of follow-up comments. When people comment, respond to their comments, and keep the dialogue going because this is what Web 2.0 is all about: connecting users to each other and sharing information.
 
-[![Enable comments](/images/comments2.png)](https://idratherassets.com//images/2007/04/comments.png "Enable comments")
+[![Enable comments](/images/comments2.png)](https://idratherwritingmedia.com/images/2007/04/comments.png "Enable comments")
 
 ## 3. Make it easy to subscribe
 

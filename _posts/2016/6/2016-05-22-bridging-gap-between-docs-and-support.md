@@ -11,7 +11,7 @@ tags:
 - documentation
 - technical communication
 - stitcher
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/nealdocssupportwtd.mp3
 podcast_file_size: 18.5 MB
 podcast_duration: "24:36"

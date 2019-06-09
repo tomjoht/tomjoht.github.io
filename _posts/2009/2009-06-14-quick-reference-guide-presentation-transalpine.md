@@ -17,6 +17,6 @@ weight: 1.7
 ---
 {% include series/seriesTagQuickReferenceGuides.html %}
 
-You can download my slides for the [quick reference guide presentation that I gave at the Transalpine conference in Vienna here](https://idratherassets.com/podcasts/quick_reference_guides_vienna.zip).
+You can download my slides for the [quick reference guide presentation that I gave at the Transalpine conference in Vienna here](https://idratherbewritingmedia.com/podcasts/quick_reference_guides_vienna.zip).
 
 {% include series/seriesTagQuickReferenceGuides_next.html %}

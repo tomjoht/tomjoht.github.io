@@ -11,7 +11,7 @@ tags:
 - translation
 - technical writing
 - static site generators
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ssgtranslationcomplexity.mp3
 podcast_file_size: 11.9 MB
 podcast_duration: "14:05"

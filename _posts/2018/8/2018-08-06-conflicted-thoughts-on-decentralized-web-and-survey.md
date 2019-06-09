@@ -8,7 +8,7 @@ categories:
 keywords:
 summary: "Seeing my name in the Census of Technical Communicators survey as a possible source for professional development made me think about the impact of blogs as a learning resource. Advertising encourages bloggers to create rapid-fire, lightweight content in order to increase page views and other attention on the advertised product or service. The proliferation of blog content turns the wheels of social media, creating micro-bursts of attention for companies. The negative impact, however, is that more traditional forms of learning, such as scholarly journal articles and books, take a hit. The web's architecture and monetization model around content is optimized for blog content, so unless other mediums can find a way to become more visible and engaging within the architecture of the web, they will continue their slide into invisibility (at least to mainstream users)."
 bitlink: http://bit.ly/decentralizationandblogging
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/decentralizationandblogging.mp3
 podcast_file_size: 19.5 MB
 podcast_duration: "24:44"

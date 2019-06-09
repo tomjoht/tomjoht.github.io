@@ -42,7 +42,7 @@ Some of the more prominent features of the theme include the following:
 * Help API and UI tooltips
 * Extensive documentation and tutorials
 
-For a more detailed list of supported features, see [Supported features](https://idratherassets.com/documentation-theme-jekyll/doc_designers/doc_supported_features.html).
+For a more detailed list of supported features, see [Supported features](https://idratherbewritingmedia.com/documentation-theme-jekyll/doc_designers/doc_supported_features.html).
 
 ## Getting started
 

@@ -17,21 +17,21 @@ published: true
 ---
 <p>Customizing a SharePoint site is not necessary -- you can use the default theme or related themes straight from the box. And this is really how SharePoint was intended to be used by the mainstream. But if you don't want your SharePoint site to look like the hundred other SharePoint sites at your company, you can customize the look and feel. This is something I've been experimenting with.</p>
 <p>I am, by no means, an expert on SharePoint customization. But I am able to transform a default SharePoint site, such as the following --</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/2.png"><img class="size-full wp-image-2793" title="2" src="https://idratherbewritingmedia.com/images/21.png" alt="2" width="483" height="242" /></a><figcaption>Default SharePoint blog theme</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/2.png"><img class="size-full wp-image-2793" title="2" src="https://idratherbewritingmedia.com/images/21.png" alt="2" width="483" height="242" /></a><figcaption>Default SharePoint blog theme</figcaption></figure></p>
 <p>Into a SharePoint site that looks like this:</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/screenbluedout1.png"><img class="size-full wp-image-2807" title="Blueband theme, slightly modified" src="https://idratherbewritingmedia.com/images/screenbluedout11.png" alt="Blueband theme, slightly modified" width="530" height="286" /></a><figcaption>Blueband theme, slightly modified</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/screenbluedout1.png"><img class="size-full wp-image-2807" title="Blueband theme, slightly modified" src="https://idratherbewritingmedia.com/images/screenbluedout11.png" alt="Blueband theme, slightly modified" width="530" height="286" /></a><figcaption>Blueband theme, slightly modified</figcaption></figure></p>
 <p>Or like this:</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/screenblackedout2.png"><img class="size-full wp-image-2808" title="Blueband theme with more heavily modified stylesheet" src="https://idratherbewritingmedia.com/images/screenblackedout21.png" alt="screenblackedout2" width="530" height="346" /></a><figcaption>Blueband theme with more heavily modified stylesheet</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/screenblackedout2.png"><img class="size-full wp-image-2808" title="Blueband theme with more heavily modified stylesheet" src="https://idratherbewritingmedia.com/images/screenblackedout21.png" alt="screenblackedout2" width="530" height="346" /></a><figcaption>Blueband theme with more heavily modified stylesheet</figcaption></figure></p>
 <p>(I removed the content of the above image for confidentiality reasons.)</p>
 <p>Here are the steps I follow to customize a SharePoint site. Before jumping into this tutorial, you should know that not all SharePoint implementations are the same. My process may be different from yours. Still, I think the general steps for customization are relatively similar. The steps assume some familiarity with SharePoint. </p>
 <p><strong>Note:</strong> These steps explain how to install and customize the SharePoint blog site type as the root site. If the blog is a subsite, the steps are a bit different (but the basic techniques are the same.) See the last section, "Alternative Method: Creating the Blog as a Subsite."</p>
 <p>By the way, I'd really appreciate any feedback on this post, especially if you are a SharePoint expert. Is there a better method for doing this? Are the quirks due to a unique implementation, or is this how SharePoint works universally?</p>
 <h3>Install the Blog Site Type</h3>
 <p>Whatever your process is for creating a new site (it's usually a one-button click process), go through it, choosing the blog site type. When you choose the Blog site type, you can embed posts on the home page of the site, rather than creating the blog as a subsite.</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/1.png"><img class="size-full wp-image-2792" title="1" src="https://idratherbewritingmedia.com/images/11.png" alt="1" width="537" height="269" /></a><figcaption>Creating a new blog site type</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/1.png"><img class="size-full wp-image-2792" title="1" src="https://idratherbewritingmedia.com/images/11.png" alt="1" width="537" height="269" /></a><figcaption>Creating a new blog site type</figcaption></figure></p>
 <p>After the SharePoint blog site installs, you're prompted to set up groups for the site. By default, SharePoint provides you with three groups: Visitors, Members, and Owners. Usually these groups tie in with your Active Directory, so add the names of the people you want to access your site.</p>
 <p>After setting up your groups, your SharePoint site shows the Default theme, which doesn't look bad -- it's just so unoriginal.</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/2.png"><img class="size-full wp-image-2793" title="Default SharePoint blog site type" src="https://idratherbewritingmedia.com/images/21.png" alt="2" width="537" height="269" /></a><figcaption></figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/2.png"><img class="size-full wp-image-2793" title="Default SharePoint blog site type" src="https://idratherbewritingmedia.com/images/21.png" alt="2" width="537" height="269" /></a><figcaption></figcaption></figure></p>
 <h3>Activate the Publishing Features</h3>
 <p>You'll be limited to the basic selection of themes until you activate the publishing features. To activate these features, you must activate them at the site collection level first and then at the site level.</p>
 <ol>
@@ -42,7 +42,7 @@ published: true
 <li>Under Site Administration, select <strong>Site features</strong>.</li>
 <li>Next to Office SharePoint Server Publishing, click the <strong>Activate </strong>button.</li>
 </ol>
-<p><figure><a href="https://idratherassets.com//images/2009/01/3.png"><img class="size-full wp-image-2794" title="3" src="https://idratherbewritingmedia.com/images/31.png" alt="3" width="537" height="269" /></a><figcaption>Activating the publishing features</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/3.png"><img class="size-full wp-image-2794" title="3" src="https://idratherbewritingmedia.com/images/31.png" alt="3" width="537" height="269" /></a><figcaption>Activating the publishing features</figcaption></figure></p>
 <p style="margin-left: 18pt"><strong>Note:</strong> The order of activation is critical. If you reverse the order, it's not possible to activate the publishing features.</p>
 <p>After activating SharePoint's publishing features, you'll notice that you have a lot more options available on the Site Actions menu.</p>
 <h3>Select a New Master Page</h3>
@@ -53,13 +53,13 @@ published: true
 <li>Under Look and Feel, click <strong>Master page</strong>.</li>
 <li>In the first two drop-down boxes on the right, select a new master page (the same one for each). I like the look of the Blueband.master page, but there are various master pages to choose from. The master pages are not brilliant or eye-dropping, but they are at least different from the default looking SharePoint sites.</li>
 <li>Select the <strong>Reset all subsites to inherit</strong> check boxes under the drop-down boxes.</li>
-<p><figure><a href="https://idratherassets.com//images/2009/01/4.png"><img class="size-full wp-image-2795" title="4" src="https://idratherbewritingmedia.com/images/41.png" alt="4" width="537" height="269" /></a><figcaption>The Blueband master theme</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/4.png"><img class="size-full wp-image-2795" title="4" src="https://idratherbewritingmedia.com/images/41.png" alt="4" width="537" height="269" /></a><figcaption>The Blueband master theme</figcaption></figure></p>
 <li>Leave the last option as is. There's no need to change it.</li>
 <li>Click <strong>OK</strong>.</li>
 </ol>
 <p>Now when you view your site, you'll notice that it looks like the Blueband master theme, except for the Quick Launch sidebar.</p>
 <p><strong>Note:</strong> Whether the Quick Launch sidebar displays problematically or not may be due to the way your SharePoint system was installed -- I'm not sure.</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/5.png"><img class="size-full wp-image-2796" title="5" src="https://idratherbewritingmedia.com/images/51.png" alt="5" width="537" height="269" /></a><figcaption>Blueband theme installed -- Quick Launch sidebar doesn&#39;t match</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/5.png"><img class="size-full wp-image-2796" title="5" src="https://idratherbewritingmedia.com/images/51.png" alt="5" width="537" height="269" /></a><figcaption>Blueband theme installed -- Quick Launch sidebar doesn&#39;t match</figcaption></figure></p>
 <h3>Fix the Problematic Sidebar</h3>
 <p>This step may not be necessary, depending on how your SharePoint site looks. But in my environment, the Quick Launch sidebars don't match the theme. This irregularity is either due to some glitch in the implementation of SharePoint at my work, or it's a defect in the SharePoint product itself. Either way, there's a quick workaround for it. You'll need SharePoint Designer, by the way.</p>
 <p>To make the Quick Launch sidebar match the master page you selected:</p>
@@ -67,7 +67,7 @@ published: true
 <li>Open your site in SharePoint Designer. (If you don't have it, I believe you can download a free trial.) Sharepoint Designer is how you edit your SharePoint files. You don't open them up in Dreamweaver or Notepad and FTP them back and forth into a site directory. SharePoint Designer interfaces directly with the file locations. To open your site, go to <strong>File &gt; Open Site</strong> and type in your site's URL. All the files will load.</li>
 <li>Open the default.aspx page (it appears at the bottom of the Folder List in the left pane.)</li>
 <li>In the Design viewing area, select the Quick Launch sidebar, click the arrow beside it, and select <strong>Default to Master's Content.</strong></li>
-<p><figure><a href="https://idratherassets.com//images/2009/01/6.png"><img class="size-full wp-image-2797" title="6" src="https://idratherbewritingmedia.com/images/61.png" alt="6" width="537" height="269" /></a><figcaption>Defaulting the sidebar to the master&#39;s content</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/6.png"><img class="size-full wp-image-2797" title="6" src="https://idratherbewritingmedia.com/images/61.png" alt="6" width="537" height="269" /></a><figcaption>Defaulting the sidebar to the master&#39;s content</figcaption></figure></p>
 <li>It warns you that everything in the region will be removed from the page. Click <strong>Yes </strong>to continue, and then save the file.  You're warned that saving your changes will customize a page from the site definition. Click <strong>Yes </strong>to continue.</li>
 <li>Expand the <strong>Lists </strong>folder, expand the <strong>Posts </strong>folder, and open the <strong>Post.aspx </strong>page.</li>
 <li>Select the <strong>Quick Launch</strong> sidebar, click the arrow beside it, and select <strong>Default to Master's Content</strong>. You're prompted that saving your changes will customize a page from the site definition. Click <strong>Yes </strong>to continue, and then Save the file.  Click <strong>Yes </strong>to continue.</li>
@@ -75,7 +75,7 @@ published: true
 </ol>
 <p>Now when you go back to your SharePoint site, the sidebars should match the mater pages you selected. (Before I figured out this fix, I nearly give up on SharePoint's master pages altogether. )</p>
 <p>If you see an error message, refresh your page a few times. It sometimes takes SharePoint a few minutes for this change to set it. When it does, your sidebar should be fixed.</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/7.png"><img class="size-full wp-image-2798" title="7" src="https://idratherbewritingmedia.com/images/71.png" alt="7" width="537" height="269" /></a><figcaption>Blueband master theme with the Quick Launch sidebar fixed</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/7.png"><img class="size-full wp-image-2798" title="7" src="https://idratherbewritingmedia.com/images/71.png" alt="7" width="537" height="269" /></a><figcaption>Blueband master theme with the Quick Launch sidebar fixed</figcaption></figure></p>
 <p><strong>Note: </strong>If you install the team site type (rather than the blog site type) and follow the same steps -- activating the Publishing feature and selecting the master theme -- you may not have any trouble with the sidebar.</p>
 <h3>Sever the Link to the Parent and Unghost the Style Sheet</h3>
 <p>At this point, you have the basic frame, which looks all right, but no doubt you'll want to customize the site even further. To do this, you need to unghost the style sheet. Currently, most of your site's styles exist at the server's root level, which you probably don't have access to unless you administer SharePoint for your entire company. When you sever the link to this parent, the parent's stylesheet will copy down to your local level (the process of "unghosting").</p>
@@ -83,14 +83,14 @@ published: true
 <li>Open your site in SharePoint Designer and go to<strong> _catalogs &gt; masterpage (Master Page Gallery)</strong>.</li>
 <li>Right-click the <strong>default.master </strong>page and select <strong>Check Out</strong>. Then double-click the file to open it.</li>
 <li>Select the body area frame.</li>
-<p><figure><a href="https://idratherassets.com//images/2009/01/8.png"><img class="size-full wp-image-2799" title="8" src="https://idratherbewritingmedia.com/images/81.png" alt="8" width="537" height="269" /></a><figcaption>Selecting the body area frame</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/8.png"><img class="size-full wp-image-2799" title="8" src="https://idratherbewritingmedia.com/images/81.png" alt="8" width="537" height="269" /></a><figcaption>Selecting the body area frame</figcaption></figure></p>
 <li>Select the<strong> CSS properties</strong> tab in the lower-left corner. (If no styles appear, select another area on the body frame until styles actually appear here.)</li>
 <li>Change the color from black to green (or make some other small change). Notice the unghosting of the core.css style sheet as a new tab! If it doesn't, you're not selecting the right region of the page. Put your cursor in another area and make a change. Now undo what you changed and save the file. In addition to the unghosted core.css file that appears, you'll also notice a new styles folder in the list of folders that organize the SharePoint site. This is where core.css lives.</li>
 <li>When you save the file, you're prompted that saving your changes will customize a page from the site definition. Click <strong>Yes </strong>to continue.</li>
 <li>Right-click the <strong>default.master</strong> file and select <strong>Check in</strong>. Then click <strong>OK </strong>at the check-in version prompt.</li>
 </ol>
 <p>After doing this step, you'll see two new stylesheets that you can customize: band.css and core.css. These stylesheets are what you'll modify to change the look and feel of your site.</p>
-<p><figure><a href="https://idratherassets.com//images/2009/01/10.png"><img class="size-full wp-image-2791" title="10" src="https://idratherbewritingmedia.com/images/101.png" alt="10" width="226" height="371" /></a><figcaption>The unghosted stylesheets: band.css and core.css</figcaption></figure></p>
+<p><figure><a href="https://idratherwritingmedia.com/images/2009/01/10.png"><img class="size-full wp-image-2791" title="10" src="https://idratherbewritingmedia.com/images/101.png" alt="10" width="226" height="371" /></a><figcaption>The unghosted stylesheets: band.css and core.css</figcaption></figure></p>
 <p><strong>Note:</strong> If you install the blog as a subsite, rather than having the band.css and core.css stylesheet unghost (or copy down), you'll see only the core.css stylesheet. I'm not sure why.</p>
 <p>Although these stylesheets has been copied down from the server, only the stylesheet copies down, not the images. So the stylesheet will still have references to images located in the default server root that you don't have access to. Nevertheless, this turns out not to be such a big deal. For now, you have access to the stylesheets that drive your site. Later, when you need to modify the images, you just change the background URL references in the stylsheet to absolute URL references to images you upload to an image library.</p>
 <h3>Customize the Style Sheet</h3>

@@ -14,7 +14,7 @@ tags:
 - XML
 - component content management
 - Paligo
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/paligo.mp3
 podcast_file_size: 7.3 MB
 podcast_duration: "08:46"

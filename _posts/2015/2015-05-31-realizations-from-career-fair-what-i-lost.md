@@ -25,7 +25,7 @@ Here's what my technical writing booth looked like:
 
 I tried to make it as fun as possible by bringing in a microphone, showing a screen of a [video tutorial about a video game](https://www.youtube.com/watch?v=9XzwTcAyqkc), tech comm books from the field, sample [quick reference guides](http://idratherewriting.com/quickreferenceguides), and more.
 
-(If you can't see the booth text and you actually want to read it, here's a <a href="{{ "https://idratherbewritingmedia.com/images/closerlook.png" | prepend: site.baseurl }}">closer look</a> and <a href="https://idratherassets.com/files/techwriter_career_fair.pdf" target="_blank">the accompanying text</a>.)
+(If you can't see the booth text and you actually want to read it, here's a <a href="{{ "https://idratherbewritingmedia.com/images/closerlook.png" | prepend: site.baseurl }}">closer look</a> and <a href="https://idratherbewritingmedia.com/files/techwriter_career_fair.pdf" target="_blank">the accompanying text</a>.)
 
 ## Where students went
 

@@ -11,9 +11,9 @@ bitlink: http://bit.ly/surveyresultsacademicspractitioners
 
 Here are the results for both practitioner and academic surveys:
 
-* Practitioner responses: [Infographic report](https://idratherassets.com/apsurvey/survey_for_practitioners_to_take_infographic.pdf) \| [Dashboard report](https://idratherassets.com/apsurvey/survey_for_practitioners_to_take.html)
+* Practitioner responses: [Infographic report](https://idratherbewritingmedia.com/apsurvey/survey_for_practitioners_to_take_infographic.pdf) \| [Dashboard report](https://idratherbewritingmedia.com/apsurvey/survey_for_practitioners_to_take.html)
 
-* Academic responses: [Infographic report](https://idratherassets.com/apsurvey/survey_for_academics_to_take_infographic.pdf) \| [Dashboard report](https://idratherassets.com/apsurvey/survey_for_academics_to_take.html)
+* Academic responses: [Infographic report](https://idratherbewritingmedia.com/apsurvey/survey_for_academics_to_take_infographic.pdf) \| [Dashboard report](https://idratherbewritingmedia.com/apsurvey/survey_for_academics_to_take.html)
 
 QuestionPro (the survey tool I used) provides various ways to present the data. I presented two versions here. I think the Infographic report is a bit more scannable and easy to read, but the Dashboard report provides more details.
 

@@ -7,7 +7,7 @@ categories:
 keywords:
 summary: "I'm giving a full-day API documentation workshop on Nov 8, 2018, in Menlo Park, California, in coordination with Scott Abel (aka, The Content Wrangler). There are still a few open spots left in the workshop."
 bitlink: http://bit.ly/upcomingapidocmenlopark
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/upcomingapidocworkshopmenlopark.mp3
 podcast_file_size: 1 MB
 podcast_duration: "1:08"

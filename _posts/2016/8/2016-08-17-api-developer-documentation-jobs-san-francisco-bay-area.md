@@ -13,7 +13,7 @@ tags:
 - developer documentation
 - san francisco bay area
 - API documentation jobs
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3
 podcast_file_size: 53.9 MB
 podcast_duration: "01:13:42"

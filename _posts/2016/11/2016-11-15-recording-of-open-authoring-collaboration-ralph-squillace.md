@@ -10,7 +10,7 @@ tags:
 - developer documentation
 - open source
 - collaboration
-image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ralph_squillace.mp3
 podcast_file_size: 74.7 MB
 podcast_duration: "01:36:25"
