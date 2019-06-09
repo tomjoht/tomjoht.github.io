@@ -9,7 +9,7 @@ keywords:
 summary: "In the debate between being a specialist or generalist, there's also a third option: developing <i>technical acuity</i>. A person with a high degree of technical acuity has the technical mindset needed to understand and solve problems across a variety of technical domains. Given the ever growing number of technologies, developing technical acuity can be more advantageous, especially in technical writing contexts since technical writers work with a lot of different technologies."
 bitlink: http://bit.ly/techacuity123
 image: https://idratherassets.com/wp-content/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/technicalacuity.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/technicalacuity.mp3
 podcast_file_size: 11.6 MB
 podcast_duration: "13:07"
 podcast_length: 11586969

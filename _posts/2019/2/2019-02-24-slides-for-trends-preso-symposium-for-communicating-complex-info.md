@@ -8,7 +8,7 @@ categories:
 keywords: tech comm trends, technical writing trends, jobs, technical skills, writing skills
 bitlink: http://bit.ly/sccitrends
 summary: "This week I traveled to Louisiana to attend the Symposium for Communicating Complex Information and presented on tech comm trends. You can listen to the recording, view my slides, and read my latest thoughts on trends here."
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/trends-scci-keynote.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/trends-scci-keynote.mp3
 podcast_file_size: 32.8 MB
 podcast_duration: "42:01"
 podcast_length: 32827015
