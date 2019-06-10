@@ -119,7 +119,7 @@ body.frontmatter {counter-reset: page 1}
         content: counter(page, lower-roman);
     }
     @bottom-left {
-        content: "tom@idratherbewriting.com";   }
+        content: "tomjoht@gmail.com";   }
 }
 
 body.first_page {counter-reset: page 1}

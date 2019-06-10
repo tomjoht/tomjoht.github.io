@@ -10,7 +10,7 @@ published: true
 focus: noform
 ---
 
-Feel free to contact me at [tom@idratherbewriting.com](mailto:tom@idratherbewriting.com) or use the form below. 
+Feel free to contact me at [tomjoht@gmail.com](mailto:tomjoht@gmail.com) or use the form below. 
 
 <div style="margin-bottom:15px; padding-bottom:10px;">
 <div id="wufoo-mlxbnfd14yabfn">
