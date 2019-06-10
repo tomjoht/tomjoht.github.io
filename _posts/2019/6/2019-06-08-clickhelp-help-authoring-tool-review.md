@@ -1,5 +1,8 @@
 ---
 title: "ClickHelp -- a flexible online platform for authoring and publishing technical documentation"
+permalink: /blog/clickhelp-authoring-tool-review/
+redirect_from:
+- /2019/06/08/clickhelp-help-authoring-tool-review/
 categories:
 - technical-writing
 keywords:
