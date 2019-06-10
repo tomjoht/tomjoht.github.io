@@ -77,26 +77,7 @@ Also note that this doc plan is more geared towards working in a large company w
 * **Beta release date:**
 * **General launch date:**
 
-## Scope and complexity
-
-*How much doc work is involved:*
-
-* **Big project (4+ weeks of work):**
-* **Medium-sized project (1-3 weeks of work):**
-* **Small project (0-1 weeks of work):**
-
-## Doc deliverables
-
-*Documentation deliverables that are needed:*
-
-* **Web pages:**
-* **Tutorials:**
-* **PDF:**
-* **UX microcopy:**
-* **Screencasts:**
-* **Sample apps:**
-
-## Getting information
+## Project information sources
 
 *How information flows within your team. This helps us stay in the loop.*
 
@@ -155,12 +136,38 @@ Also note that this doc plan is more geared towards working in a large company w
 * <br/>
 * <br/>
 
+<hr/>
+<hr/>
+
+*This section to be completed by the technical writer*
+
+## Scope and complexity
+
+*How much doc work is involved:*
+
+* **Big project (4+ weeks of work):**
+* **Medium-sized project (1-3 weeks of work):**
+* **Small project (0-1 weeks of work):**
+
+## Doc deliverables
+
+*Documentation deliverables that are needed:*
+
+* **Web pages:**
+* **Tutorials:**
+* **PDF:**
+* **UX microcopy:**
+* **Screencasts:**
+* **Sample apps:**
+
+## Doc tickets
+
+* **Ticket folder:**
+
 ## Running notes
 
 [In this area, I keep a log of running notes after meetings and other contacts with the products.]
 </div>
-
-<hr/>
 
 Overall, this project plan works fairly well. There's a lot of info here that people need to make explicit. When we estimate the doc work for a project, it's impossible to estimate the scope without this information. And without scope, we end up being pulled into projects that are more massive than they initially appear.
 
