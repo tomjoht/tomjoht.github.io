@@ -8,7 +8,7 @@ keywords:
 summary: "Now you can listen to the latest narrated post on I'd Rather Be Writing as an Alexa Flash Briefing skill. This means you can listen to my audio content through your Echo device."
 bitlink: http://bit.ly/alexaskillidratherbewriting
 # image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-image: https://idratherbewriting.com/images/idratherbewriting-alexa-skill.png
+image: https://idratherbewritingmedia.com/images/idratherbewriting-alexa-skill.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/nowanalexaskill.mp3
 podcast_file_size: 7.3 MB
 podcast_duration: "8:48"

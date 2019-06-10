@@ -52,7 +52,7 @@ In other words, he says the jobs haven’t disappeared, but the _roles have evol
 
 If you look at the latest [STC Salary Database](https://www.stc.org/salary-database/), you can see that tech writing jobs have largely remained the same since 2012:
 
-<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewriting.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have largely remained the same since 2012</figcaption></figure>
+<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewritingmedia.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have largely remained the same since 2012</figcaption></figure>
 
 Plus or minus a few thousand jobs, there are about 50,000 technical writing jobs in the United States. This information comes from the [Bureau of Labor Statistics](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm), or BLS. Among professional writing disciplines, the report notes that technical writing is "the only occupation which has seen employment growth in each year since 2011, with an average annual employment increase of 1.9%."
 

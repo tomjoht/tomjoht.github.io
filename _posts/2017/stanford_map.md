@@ -11,7 +11,7 @@ published: false
 
 Last weekend I toured Stanford's Cantor museum. Since I had user maps on my mind, I was intrigued by the museum map:
 
-<figure><a href="https://idratherbewriting.com/images/stanfordmap.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/standfordmapsmall.jpg" | prepend: site.baseurl }}"/></a><figcaption>This museum map presents me with a lot of different choices.</figcaption></figure>
+<figure><a href="https://idratherbewritingmedia.com/images/stanfordmap.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/standfordmapsmall.jpg" | prepend: site.baseurl }}"/></a><figcaption>This museum map presents me with a lot of different choices.</figcaption></figure>
 
 My goal in visiting the museum was to see interesting, inspiring art. Because I had a goal, I also needed to follow a process to achieve that goal.
 

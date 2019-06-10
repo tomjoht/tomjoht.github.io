@@ -7,7 +7,7 @@ categories:
 keywords:
 summary: "The recording for the full-day API workshop that I recently gave in Menlo Park, California, is now available. This recording provides more than 5 hours of instruction about writing API docs &mdash; for free. I also share some thoughts on cardioid versus omnidirectional microphones, and which is better in a workshop setting. The audio narration of this post switches around the microphones so you can hear the difference."
 bitlink: http://bit.ly/menloparkapidocrecording
-image: https://idratherbewriting.com/images/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/apidocandcardioidversusomni.mp3
 podcast_file_size: 9.6 MB
 podcast_duration: "11:05"

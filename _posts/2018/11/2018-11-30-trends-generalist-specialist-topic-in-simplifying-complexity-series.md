@@ -7,7 +7,7 @@ categories:
 keywords:
 summary: "In my <a href='/simplifying-complexity'>Simplifying Complexity series</a>, I added a new post called, <i>Principle 11: Be both a generalist and specialist through your technical acuity.</i> I also recorded this essay as a narrated podcast."
 bitlink: http://bit.ly/simplifyingcomplexityseriesgenspectrends
-image: https://idratherbewriting.com/images/idratherbewritinglogo.png
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/specgentrends.mp3
 podcast_file_size: 66 MB
 podcast_duration: "01:02:10"

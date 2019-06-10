@@ -14,9 +14,9 @@ Why the difference? When you start with a large image and constrain its size dow
 
 You won't really see the difference on a regular monitor, but for fun, I embedded two graphics for comparison below. The first is the graphic at 400px width, while the second is 1600px wide.
 
-<a href="https://idratherbewriting.com/images/initialgraphicapple.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." /></a>
+<a href="https://idratherbewritingmedia.com/images/initialgraphicapple.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/initialgraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="400px original size image" caption="The original size of this image is 400px." /></a>
 
-<a href="https://idratherbewriting.com/images/fullsizegraphicapple.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." /></a>
+<a href="https://idratherbewritingmedia.com/images/fullsizegraphicapple.jpg"><img src="{{ "https://idratherbewritingmedia.com/images/fullsizegraphicapple.jpg" | prepend: site.baseurl }}" style="max-width: 400px" alt="1600px original size image" caption="The original size of this image is 1600px." /></a>
 
 On a regularly 72 DPI monitor, you won't see much difference between the two. But if you view the same images on a high retina display, which packs in a lot more pixels per inch, the text looks a lot sharper in the second image (with the 1600px original size).
 

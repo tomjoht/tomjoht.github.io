@@ -114,7 +114,7 @@ The image format can be any standard image format (JPG, PNG, GIF), but not anima
 {% comment %}
 Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
 
-<figure><a href="https://idratherbewriting.com/images/samplenewsletterfeature.png"><img src="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
+<figure><a href="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png"><img src="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
 {% endcomment %}
 
 ## Inline text blurbs {#inline_text_blurbs}

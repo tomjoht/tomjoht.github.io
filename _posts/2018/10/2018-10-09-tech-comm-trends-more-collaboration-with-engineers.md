@@ -76,7 +76,7 @@ Was Grey right or wrong? So far, I haven't presented any data. It's easy to trad
 
 If you look at the latest [STC Salary Database](https://www.stc.org/salary-database/) (based on BLS data), you can see that tech writing jobs have actually grown by about 3,620 jobs in 4 years:
 
-<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewriting.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs.</figcaption></figure>
+<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewritingmedia.com/images/techwriterjobsovertime.png"/></a><figcaption>Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs.</figcaption></figure>
 
 Overall, in 2016, there were about 50,000 technical writing jobs in the United States. The report notes that technical writing is "the only occupation [among professional writing disciplines] which has seen employment growth in each year since 2011, with an average annual employment increase of 1.9%."
 

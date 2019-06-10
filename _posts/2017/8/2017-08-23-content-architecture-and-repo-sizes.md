@@ -22,7 +22,7 @@ To provide a little background, at my work we are developing a system to build o
 
 One challenge we faced was in determining the right content architecture &mdash; specifically, how to divide up the content. With two teams of writers (about 10 writers total), and approximately 15 or so distinct products, each with their own documentation, what is the right content architecture? Should we have lots of little repos &mdash; that is, one repo per product? Or should we have 1 or 2 repos that consolidate documentation for a lot of different products?
 
-<img src="https://idratherbewriting.com/images/reposize-01.svg"/>
+<img src="https://idratherbewritingmedia.com/images/reposize-01.svg"/>
 
 I've tried both, and I opted for smaller repos based on the following reasons:
 

@@ -12,16 +12,16 @@ published: true
 ---
 <p>I've written a lot about documenting APIs, but what if your documentation itself could function as an API? By this I mean, what if you could give developers an endpoint through which they could retrieve different parts of your documentation? This setup would work well for context-sensitive help within an application.</p>
 <p>I stumbled across a cool Jekyll plugin called <a href="https://github.com/18F/jekyll_pages_api">Jekyll Pages API</a> that actually allows you to do this. The plugin creates a JSON file containing your site's pages and posts. From this JSON file, developers can make calls for specific data.</p>
-<p>Here's an example. I uploaded a vanilla Jekyll site here: <a href="https://idratherbewritingmedia.com/images/apidemos/docasapi/" target="_blank">docasapi</a>.</p>
+<p>Here's an example. I uploaded a vanilla Jekyll site here: <a href="https://idratherbewritingmedia.com/files/apidemos/docasapi/" target="_blank">docasapi</a>.</p>
 <p>The site has 2 pages. I will get the content from those pages using the following endpoint:</p>
-<p><a target="_blank" href="https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json">https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json</a>.</p>
+<p><a target="_blank" href="https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json">https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json</a>.</p>
 {% include random_ad.html %}
 <p>You can see the page content formatted as a JSON file by going to the endpoint:</p>
-<p><a target="_blank" href="https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json"><img src="https://idratherbewritingmedia.com/images/endpointsample-550x317.png" alt="endpointsample" width="550" height="317" class="alignnone size-medium wp-image-22550" /></a></p>
+<p><a target="_blank" href="https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json"><img src="https://idratherbewritingmedia.com/images/endpointsample-550x317.png" alt="endpointsample" width="550" height="317" class="alignnone size-medium wp-image-22550" /></a></p>
 <p>(BTW, it helps to add the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">Chrome JSON formatter extension</a> to format the JSON in your browser.)</p>
 <p>The <a href="https://github.com/18F/jekyll_pages_api">Jekyll Pages API</a> creates a pages.json file when you build your site.</p>
-<p>Here's a sample page showing how one might call the endpoint to retrieve and append the information on a page: <a target="_blank" href="https://idratherbewritingmedia.com/images/apidemos/sampledocapicall.html">Sample Doc API Call</a>.</p>
-<p><a target="_blank" href="https://idratherbewritingmedia.com/images/apidemos/sampledocapicall.html"><img src="https://idratherbewritingmedia.com/images/sampledoccalls-550x374.png" alt="sampledoccalls" width="550" height="374" class="alignnone size-medium wp-image-22551" /></a></p>
+<p>Here's a sample page showing how one might call the endpoint to retrieve and append the information on a page: <a target="_blank" href="https://idratherbewritingmedia.com/files/apidemos/sampledocapicall.html">Sample Doc API Call</a>.</p>
+<p><a target="_blank" href="https://idratherbewritingmedia.com/files/apidemos/sampledocapicall.html"><img src="https://idratherbewritingmedia.com/images/sampledoccalls-550x374.png" alt="sampledoccalls" width="550" height="374" class="alignnone size-medium wp-image-22551" /></a></p>
 <p>Just view the source code on that page for the details. There are four examples. I've copied the code here for convenience:</p>
 
 {% highlight html %}
@@ -39,7 +39,7 @@ published: true
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- script for example 1-->
   <script>
-    var url = "https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json";
+    var url = "https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json";
     $.getJSON(url, function(data) {
       console.log(data);
       $("#directNotation").append(data.entries[0].body);
@@ -47,7 +47,7 @@ published: true
   </script>
   <!-- script for example 2 -->
   <script>
-    var url = "https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json";
+    var url = "https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json";
     $.getJSON(url, function(data) {
       console.log(data);
       $.each(data.entries, function(i, page) {
@@ -59,7 +59,7 @@ published: true
   </script>
   <!-- script for example 3 -->
   <script>
-    var url = "https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json";
+    var url = "https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json";
     $.getJSON(url, function(data) {
       console.log(data);
       $.each(data.entries, function(i, page) {
@@ -73,7 +73,7 @@ published: true
   <script>
     $(document).ready(function() {
       $( "#apples" ).click(function() {
-        var url = "https://idratherbewritingmedia.com/images/apidemos/docasapi/api/v1/pages.json";
+        var url = "https://idratherbewritingmedia.com/files/apidemos/docasapi/api/v1/pages.json";
         $.getJSON(url, function(data) {
           console.log(data);
           $.each(data.entries, function(i, page) {

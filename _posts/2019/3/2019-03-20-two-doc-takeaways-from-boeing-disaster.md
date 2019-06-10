@@ -43,7 +43,7 @@ It's actually hard to get buy-in for some high-level comparisons between devices
 
 Let's look briefly at the second question: What does the customer need to know? This question is one that technical writers constantly evaluate. It's the question we regularly ask as we try to reduce and simplify content. I wrote about this in [Reduce information bloat](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html#reducing-information-bloat) (a section within a larger essay called "Principle 4: Reduce and distill vast information down to its essence"). In that essay, I cite an article from Mike Hughes who depicts the technical writer's job like this:
 
-<figure><img src="https://idratherbewriting.com/images/actionableinformation.png"><figcaption>"Moving from Information Transfer to Knowledge Creation" in *Technical Communication*, 2002)</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/actionableinformation.png"><figcaption>"Moving from Information Transfer to Knowledge Creation" in *Technical Communication*, 2002)</figcaption></figure>
 
 As technical writers, we frequently ask, does the user need to know this information to perform his or her task? Is this information just unnecessary background knowledge from engineers? In my essay, I explain:
 
