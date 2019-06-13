@@ -57,7 +57,7 @@ weight: 1.0
 <p>To get the tool to work, first, recognize that it's not a plugin. You don't upload it from your Plugins page, nor do you activate the plugin. Follow these steps to set up the DITA import tool:</p>
 <ol>
 <li>I assume you've already installed WordPress somewhere. If you haven't yet, do that first. (For details on installing WordPress, see the <a href="http://wordpress.org/download/">WordPress Download page</a>.)</li>
-<li>Download the modified import file here: <a href="https://idratherwritingmedia.com/files/ditaimporter/ditahelp.zip">ditahelp.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
+<li>Download the modified import file here: <a href="https://idratherwritingmedia.com/files/ditaimporter.zip">ditaimporter.zip</a> and extract the php file inside. I made a slight update to the way the file handles links (I'll explain this later).</li>
 <li>Using FTP, upload the ditahelp.php file to the wp-admin folder of your WordPress installation.</li>
 <li>From that same wp-admin folder, download admin.php.</li>
 <li>In the admin.php folder, below this line:<code> require_once(ABSPATH . 'wp-admin/includes/admin.php');</code>add this:<code>require_once('ditahelp.php');</code>Note: I know it's a poor practice to modify a core WordPress file, because it will just be overwritten the next time you update WordPress. This method is just an interim workaround until the plugin gets updated to work with the latest version of WordPress.</li>
