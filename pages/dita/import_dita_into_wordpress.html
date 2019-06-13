@@ -13,7 +13,7 @@ WordPress site or multisite."
 <p>This tool is a modification from the original tool created by <a class="xref external" href="http://journalized.zed1.com/wordpress-plugins/dita-to-wordpress-import-tool/" target="_blank">Mike Little here</a>. I have made a few
                 modifications with the way links and images are handled. Additionally, I have unique
                 installation instructions here. (Note that this is not a plugin -- it's a file you
-                add to your WordPress instance that allows you to import XHTML files from DITA. (My modified file is <a href="https://idratherbewritingmedia.com/files/ditaimporter/ditaimporter.zip">here</a>.) </p>
+                add to your WordPress instance that allows you to import XHTML files from DITA. (My modified file is <a href="https://idratherbewritingmedia.com/files/ditaimporter.zip">here</a>.) </p>
 
 <p class="p toc">
 </p></div>
@@ -86,7 +86,7 @@ WordPress site or multisite."
 	if</strong> (!empty</strong>($href) && ( ($cls == 'xref'</span> && $cls == 'link'</span>) || ($cls == 'xref'</span>) || ($cls == 'link'</span>) || ($cls == null ) ) ) {
                 $href = $this->HELP_ROOT_PATH . '/'</span> . $this-> processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
                 $a-> setAttribute('href'</span>, $href);
-	} 
+	}
 
 	elseif</strong> (!empty</strong>($href) && ($cls == 'external'</span> && $cls == 'xref'</span>) ) {
 		  $href = $this->processFilenameToId($href); <em class="hl-comment" style="color:#006400">// hard coded -- BAD</em>
@@ -165,7 +165,7 @@ WordPress site or multisite."
 <div class="body taskbody">
 <ol class="ol steps">
 <li class="li step stepexpand">
-                <span class="ph cmd">Download the <a class="xref external" href="https://idratherbewritingmedia.com/files/ditaimporter/ditaimporter.zip" target="_blank">ditahelp.zip file</a> here and unzip it.</span>
+                <span class="ph cmd">Download the <a class="xref external" href="https://idratherbewritingmedia.com/files/ditaimporter.zip" target="_blank">ditahelp.zip file</a> here and unzip it.</span>
             </li>
 <li class="li step stepexpand"><span class="ph cmd">Upload the ditahelp.php file to <span class="ph filepath">wp-content/ditaimporter</span> in your WordPress
                             file structure. (Create the <span class="ph filepath">ditaimporter</span>
@@ -501,22 +501,22 @@ remove_filter( 'the_excerpt', 'wpautop' );                     {% endhighlight %
 {% highlight xml %}
 <div class="accordion clean">
 <?php
-$args = array</strong>( 
+$args = array</strong>(
 'page_id' => 104,
 );
- 
+
 $the_query = new WP_Query( $args );
- 
+
 // The Loop
 if ( $the_query->have_posts() ) :
 while ( $the_query->have_posts() ) : $the_query->the_post();
   the_content();
 endwhile;
 endif;
- 
+
 // Reset Post Data
 wp_reset_postdata();
- 
+
 ?>
 </div>
 </div>      {% endhighlight %}
