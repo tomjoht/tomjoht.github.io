@@ -23,7 +23,7 @@ To lessen the divide, I'll be publishing "conversations" with academics focused 
 
 Also note that my research project isn't to simply discover information but rather to create social change. It is writing meant to change attitudes, to shape directions and long-held positions. Ideally, the social outcomes of these conversations might include more partnerships between academics and practitioners, more cross-sharing of ideas and information, and ultimately more relevance toward each other's concerns.
 
-More than 4,500 tech comm professionals subscribe to I'd Rather Be Writing, and my site receives approximately 1,500 hits a day. Each article offers commenting features for discussion, and social media buttons make it easy to share articles. More than any other site, I'd Rather Be Writing is positioned to serve as a communication bridge between academics and practitioners.
+More than 5,000 tech comm professionals subscribe to I'd Rather Be Writing, and my site receives approximately 1,500 hits a day. Each article offers commenting features for discussion, and social media buttons make it easy to share articles. More than any other site, I'd Rather Be Writing is positioned to serve as a communication bridge between academics and practitioners.
 
 ## Phases of the project
 
