@@ -1,9 +1,9 @@
 ---
-title: "If the current trend in software development is independent agile teams, does enterprise content strategy have any chance of realistic adoption"
+title: "If the current trend in software development is independent agile teams, does enterprise content strategy have any chance of realistic adoption?"
 categories:
 - technical-writing
 permalink: /blog/agile-teams-and-enterprise-content-strategy/
-bitlink: https://idratherbewriting.com/site/agileandenterprise
+bitlink: https://idratherbewriting.site/agileandenterprise
 summary: "Agile seems to favor independent, autonomous teams. In contrast, enterprise content looks to harmonize content across multiple teams and boundaries. In a current where agile trends dominate, how do you reconcile larger needs for enterprise content strategy?"
 ---
 
