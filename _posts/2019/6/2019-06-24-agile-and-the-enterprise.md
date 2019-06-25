@@ -4,12 +4,12 @@ categories:
 - technical-writing
 permalink: /blog/agile-teams-and-enterprise-content-strategy/
 bitlink: https://idratherbewriting.site/agileandenterprise
-summary: "Agile seems to favor independent, autonomous teams. In contrast, enterprise content looks to harmonize content across multiple teams and boundaries. In a current where agile trends dominate, how do you reconcile larger needs for enterprise content strategy?"
+summary: "Agile seems to favor independent, autonomous teams. In contrast, enterprise content looks to harmonize content across multiple teams and boundaries. In a current model where agile trends dominate, how do you reconcile larger needs for enterprise content strategy?"
 ---
 
 ## Agile versus the enterprise
 
-I've been listening to some podcasts from [Towards a Smarter World](https://simplea.com/Treasury/Podcasts), produced by Cruce Sanders at [A] ([simplea.com](https://simplea.com)). Listening to these podcasts has got me thinking about how agile fits in with enterprise content strategies. The issue is that agile teams tend to be independent, autonomous smallish groups. For example, companies might spin off a group of 20 people (including various roles &mdash; engineers, testers, UX, project managers, and sometimes a technical writer) to build out a solution. The agile teams function as small startups within the larger company.
+I've been listening to some podcasts from [Towards a Smarter World](https://simplea.com/Treasury/Podcasts), produced by Cruce Sanders at [A] ([simplea.com](https://simplea.com)). Listening to these podcasts has prompted me to think about how agile fits in with enterprise content strategies. The issue is that agile teams tend to be independent, autonomous smallish groups. For example, companies might spin off a group of 20 people (including various roles &mdash; engineers, testers, UX, project managers, and sometimes a technical writer) to build out a solution. The agile teams function as small startups within the larger company.
 
 Agile implementations and adaptions vary considerably, but these teams are often autonomous and single-threaded so they can be nimble and execute on a solution from end to end. You need to move fast to stay competitive in a rapidly evolving tech landscape. The doc produced by the tech writer might be a standalone help system, maybe even integrated into the same repository as the code.
 
@@ -27,11 +27,11 @@ It's a valid position to take, I guess, but the content produced will likely be 
 
 Even setting aside content and focusing on code only, engineers face similar problems. If engineers build separate systems that don't integrate, the user experience also ends up being disjointed and impractical. Users might find that one SDK doesn't integrate with another, or that one tool is built on a technology that is incompatible with another.
 
-This kind of disjointed hodgepodge of tech is understandable in acquisitions, but few users will understand and be patient with the idea that the single company they interact with is actually made up of dozens of small, independent internal companies that, it has become clear, don't seem to know what each other is working on or building, since none of the products work together.
+This kind of disjointed hodgepodge of tech is understandable in mergers and acquisitions, but few users will understand and be patient with the idea that the single company they interact with is actually made up of dozens of small, independent internal companies that, it has become clear, don't seem to know what each other is working on or building, since none of the products work together.
 
 As a worse case, in massive companies, totally isolated teams might even be working on different solutions for the same problem, unaware of each other's existence.
 
-Good writing can't be written with blinders on. I wrote about the need to make information harmonize in the larger landscape in [Principle 3: Ensure information harmony in the larger landscape](/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html). I summarized this principle as follows:
+Good documentation can't be written with blinders on. I wrote about the need to make information harmonize in the larger landscape in [Principle 3: Ensure information harmony in the larger landscape](/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html). I summarized this principle as follows:
 
 > Before adding new topics to an information landscape, look to see how the new information will fit in with the existing information &mdash; across all information forms, from docs to blogs, forums, white papers, and more. Synthesizing information to harmonize with the larger information landscape requires wide reading and analysis but is essential for the user experience, since users often bounce from one information source to another as they consume information.
 
@@ -41,15 +41,15 @@ The standalone nature of writing is what makes blogging so easy. Before writing 
 
 The traditional strategy for allowing independent, autonomous teams to harmonize within the larger content landscape is to create style, brand, and design guides that everyone aligns with. UX and marketing teams are excellent at producing these guides &mdash; clearly explaining color palettes, voice, logo usage, and such. Style guides for tech docs are similarly helpful, but content by nature is messier. Content has the added problem of not making sense with other content (rather than merely clashing in style).
 
-To give you an example, I'm currently documenting video skills for multimodal devices. In exploring other content, I found that the end-user docs (written by another team) calls these same devices "Echo devices with a screen." Another doc team is creating content for custom skills and how to get custom skills on multimodal devices (which they're calling "Alexa-enabled devices with screens"). Don't confuse video skills with custom skills, even though they're part of the same Alexa Skills Kit and are used with multimodal devices. Do users understand that content produced on our doc portal is the product of multiple doc teams, as well as some other independent groups with lone writers, and that each of these teams has no real obligation to be aware of what each is writing, let alone to conform to the same terminology and style?
+To give you an example, I'm currently documenting video skills for multimodal devices. In exploring other content, I found that the end-user docs (written by another team) calls these same devices "Echo devices with a screen." Another doc team is creating content for custom skills and how to get custom skills on multimodal devices (which they're calling "Alexa-enabled devices with screens"). Don't confuse "video skills" with "custom skills," even though they're part of the same Alexa Skills Kit and are used with multimodal devices. Do users understand that content produced on our doc portal is the product of multiple doc teams, as well as some other independent groups with lone writers, and that each of these teams has no real obligation to be aware of what each is writing, let alone to conform to the same terminology and style?
 
 Content on any doc site might all read with the same general tone and follow similar structures (due to convention with industry standards), but in many places the content might be muddled and confusing. Those intermixed semantics are what degrade the user experience, not necessarily style differences. Many writers wearing blinders tackling the same subject without understanding the larger landscape they're writing in results in a disjointed customer experience, for sure.
 
 ## Levels of awareness
 
-If there's a scale for content quality, the next level of awareness (beyond awareness of other documentation written by other groups) is to be cognizant of content outside the documentation domain &mdash; content on blogs, white papers, ebooks, business development slide decks, and other collateral produced by other groups.
+If there's a scale for content quality, the next level of awareness (beyond awareness of other documentation written by other groups) is to be cognizant of content outside the documentation domain &mdash; content on blogs, white papers, ebooks, business development slide decks, and other collateral produced by other groups outside of documentation.
 
-And stretching even further, a good writer is also aware of the competitor's landscape. I wrote about this in [My documentation takeaways from the Boeing disaster -- two essential doc questions to ask for any project](/2019/03/20/two-doc-takeaways-from-boeing-disaster). In that post I argued that good documentation should address the question, "How does this product differ from other products?"
+And stretching even further, a good writer should also be aware of the competitor's landscape. I wrote about this in [My documentation takeaways from the Boeing disaster -- two essential doc questions to ask for any project](/2019/03/20/two-doc-takeaways-from-boeing-disaster). In that post I argued that good documentation should address the question, "How does this product differ from other products?"
 
 > This question is actually rarely addressed in documentation, since many companies do not call out competitors or compare their products with competitors. For example, even though my audience for Amazon Appstore documentation are users who presumably have apps that they’re also submitting to the Google Play store, I rarely call out differences between Amazon Appstore and Google Play. There are two reasons for not doing this.
 >
@@ -63,7 +63,7 @@ Here is where practitioners can actually learn from academic genre conventions. 
 
 ## Wrestling with boundaries
 
-Let's return to the original issue: if the current trend in software development is independent agile teams, does enterprise content strategy have any chance of realistic adoption? Most writers won't expand their horizons to consume more than their immediate product documentation requires. No one will force you to read documentation written by other departments or docs written by competitors. So should you even bother? Surely this expanded analysis isn't scoped into your project plan or expectations, right? Where, then, do you find the time or bandwidth to do it?
+Let's return to the original issue: If the current trend in software development is independent agile teams, does enterprise content strategy have any chance of realistic adoption? Most writers won't expand their horizons to consume more than their immediate product documentation requires. No one will force you to read documentation written by other departments or docs written by competitors. So should you even bother? Surely this expanded analysis isn't scoped into your project plan or expectations, right? Where, then, do you find the time or bandwidth to do it?
 
 I'm not sure. In companies like Microsoft, the developer docs include author names and timestamps, which helps provide context. There might be value in celebrating the individual authorship &mdash; users might be more sympathetic to differences of style and semantics, or overlapping content, even from the same company.
 
