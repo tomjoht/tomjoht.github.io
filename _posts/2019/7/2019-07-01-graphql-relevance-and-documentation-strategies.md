@@ -10,7 +10,7 @@ summary: "GraphQL, a query language developed by Facebook, is an alternative to 
 
 ## Introduction
 
-<figure><img src="https://idratherbewritingmedia.com/images/marat-gilyadzinov-69BTCuFDuDA-unsplash.jpg" alt="Should GraphQL be on your radar?" /><figcaption>Should GraphQL be on your radar? (Photo by Marat Gilyadzinov on <a href="https://unsplash.com/photos/69BTCuFDuDA">Unsplash</a>)</figcaption></figure>
+<figure><a href="https://unsplash.com/photos/69BTCuFDuDA"><img alt="Photo by Marat Gilyadzinov on Unsplash" src="https://idratherbewritingmedia.com/images/marat-gilyadzinov-69BTCuFDuDA-unsplash.jpg" alt="Should GraphQL be on your radar?" /></a><figcaption>Should GraphQL be on your radar?</figcaption></figure>
 
 If you are like me, a budding technical writer, and you are just getting started with writing developer documentation, then you might already feel like you have a full plate in terms of learning new technologies. Alas, the evolving world of developer tools and API related technology has shown that it has absolutely no intention of slowing down for us!
 
