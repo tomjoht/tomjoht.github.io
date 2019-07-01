@@ -116,7 +116,7 @@ While GraphQL is a topic that is shrouded behind a wall of developers, a few car
 
 On the Codeship blog, [Chris writes](https://blog.codeship.com/documenting-graphql/):
 
-> As a technical writer, I was intrigued by the claim that GraphQL reduces the time you need to spend on documenting an API and reduces the amount of documentation your application needs." He goes on to explain, "The role of documentation with a REST API is to explain the individual endpoints, what function they perform, and the parameters a developer can pass to them. With a GraphQL API, you describe the data types, fields, and the interaction points between them, and a developer can assemble an appropriate query to get the information they need. With both technologies, you document components but from different perspectives."
+> As a technical writer, I was intrigued by the claim that GraphQL reduces the time you need to spend on documenting an API and reduces the amount of documentation your application needs." He goes on to explain, "The role of documentation with a REST API is to explain the individual endpoints, what function they perform, and the parameters a developer can pass to them. With a GraphQL API, you describe the data types, fields, and the interaction points between them, and a developer can assemble an appropriate query to get the information they need. With both technologies, you document components but from different perspectives.
 
 So, we see that this is an interesting point. The different perspectives he is talking about is looking at the endpoints with REST vs looking at the data itself with GraphQL (i.e., exactly what is requested).
 
