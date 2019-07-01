@@ -142,7 +142,7 @@ First, I asked one recruiter who focuses on API writers and programming writers,
 
 Second, I made the rounds with job search websites, only finding a small number of technical writing jobs that specifically referenced GraphQL.
 
-My guess is that maybe the movement is [driven by developers who decide to use it](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf), and they don’t think to get a tech writer involved? Or, GraphQL APIs are not be being implemented enough to be spotted in job ads or by recruiters?
+My guess is that maybe the movement is [driven by developers who decide to use it](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf), and they don’t think to get a tech writer involved? Or, GraphQL APIs are not being implemented enough to be spotted in job ads or by recruiters?
 
 However, tech writers that work with it do exist! Here, for example, is a technical writer, Andrew Johnston, at Shopify talking about their process of documenting a GraphQL API at Shopify:
 
