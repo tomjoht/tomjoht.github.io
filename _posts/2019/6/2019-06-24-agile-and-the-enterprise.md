@@ -78,3 +78,7 @@ Whatever your position, if you want to write more informed documentation, try to
 <img src="https://idratherbewritingmedia.com/images/triangleofawareness.svg" alt="triangle of awareness" />
 
 Start with awareness of content related to your product, and then expand to learn about similar content across the company, and then look at the same content in other business groups, and finally expand your analysis of competitor documentation for similar products. Most tech writers do the base layer and maybe the second, but few climb up higher.
+
+<hr/>
+
+*You can see more comments on this post on [Linkedin](https://www.linkedin.com/in/tomjoht/detail/recent-activity/).*
