@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/graphqlguestpost
-summary: "GraphQL, a query language developed by Facebook, is an alternative to REST that is rising in popularity. Exactly how does GraphQL differ from REST, and what documentation strategies and conventions should you follow when documenting a GraphQL project? In this guest post, Casey Armstrong explores GraphQL &mdash; the query language, its use cases, its tools, and what developers need from its docs, and whether this GraphQL is worth learning. Overall, Casey argues that learning GraphQL is a great way to specialize and stand out as a technical writer, but the technology is not talked about in the tech comm/API writing community as much as it is in the developer community."
+summary: "GraphQL, a query language developed by Facebook, is an alternative to REST that is rising in popularity. Exactly how does GraphQL differ from REST, and what documentation strategies and conventions should you follow when documenting a GraphQL project? In this guest post, Casey Armstrong explores GraphQL &mdash; the query language, its use cases, its tools, what developers need from its docs, and whether GraphQL is worth learning. Overall, Casey argues that learning GraphQL is a great way to specialize and stand out as a technical writer, but the technology is not talked about in the tech comm/API writing community as much as it is in the developer community."
 ---
 
 ## Introduction
