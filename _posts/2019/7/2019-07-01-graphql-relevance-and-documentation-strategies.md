@@ -174,7 +174,7 @@ Want to share your own perspective on GraphQL documentation? Please do tell in t
 
 <hr/>
 
-Casey Armstrong is a recent graduate from the Masters and Technical Professional Writing program at Portland State University. He lives in Cambridge, Massachusetts. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC).
+Casey Armstrong is a recent graduate from the Masters and Technical Professional Writing program at Portland State University. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC).
 
 
 {% include random_ad.html %}
