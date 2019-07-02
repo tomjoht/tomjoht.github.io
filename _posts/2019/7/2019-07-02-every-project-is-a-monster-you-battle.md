@@ -5,6 +5,7 @@ categories:
 keywords:
 bitlink: http://bit.ly/
 summary: ""
+published: false
 ---
 
 I've been thinking about a quote I once heard related to writing &mdash; that every novel is a monster you battle, or something. I couldn't find the original quote, but the idea of writing projects being monsters that you go up against couldn't be more perfect a description for a recent project of mine.
