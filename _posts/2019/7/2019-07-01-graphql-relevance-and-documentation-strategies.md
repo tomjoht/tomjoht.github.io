@@ -52,7 +52,7 @@ Otherwise, let’s take a look at the basics with a sample query and what comes 
 
 1. Query the object "assistant" and return their name.
 
-   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage1.jpg" />
+   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage3.jpg" />
 
 2. You would get back the name "Siri" as a string.
 
@@ -60,7 +60,7 @@ Otherwise, let’s take a look at the basics with a sample query and what comes 
 
 3. Next, looking at a request for related objects, we can request info about Siri’s colleagues:
 
-   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage3.jpg" />
+   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage1.jpg" />
 
 4. We get back an array of Siri’s colleagues.
 
