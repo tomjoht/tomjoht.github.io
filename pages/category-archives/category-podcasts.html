@@ -6,12 +6,13 @@ categoryName: podcasts
 
 To subscribe to the podcast, here are some quick links:
 
-* [iTunes](https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275)
-* [Stitcher](https://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast)
-* [Pocketcasts](https://pca.st/qoZt)
-* The podcast RSS feed is: [https://idratherbewriting.com/itunes.rss](https://idratherbewriting.com/itunes.rss)
+<ul>
+  <li><a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">iTunes</a></li>
+  <li><a href="https://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast">Stitcher</a></li>
+  <li><a href="https://pca.st/qoZt">Pocketcasts</a> (search for <code>https://pca.st/qoZt</code>)</li>
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>The podcast RSS feed <a href="https://idratherbewriting.com/itunes.rss">https://idratherbewriting.com/itunes.rss</a>.</p>
+
 
     {% for p in site.categories.podcasts %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
