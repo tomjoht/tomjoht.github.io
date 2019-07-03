@@ -26,7 +26,7 @@ I still have a lot of work to do, but I feel like I understand the product's sec
 
 Not all projects are monsters to battle, for sure. Some projects are just annoying and tedious. But more often than not, complex technical writing projects are monsters we battle. We might have to learn some technical language or framework to make progress, meet with engineers, re-listen to recordings of meetings, sift through QA test scripts, logs, and other sessions before things start to make sense. But at some point the product seems to unlock, and we understand key concepts, and this empowers our ability to write.
 
-Although I'm writing about tech comm projects, I'm know fiction writers encounter similar monsters. Only instead of understanding how a product works, they rack their brains to understand how character's mind works, how plots fit together, how motivations and psychology interact in intricate ways. I don't write fiction (at least not intentionally in docs), but I can see overlap.
+Although I'm writing about tech comm projects, I know fiction writers encounter similar monsters. Only instead of understanding how a product works, they rack their brains to understand how character's mind works, how plots fit together, how motivations and psychology interact in intricate ways. I don't write fiction (at least not intentionally in docs), but I can see overlap.
 
 As I was hunting around for that writing quote, I also ran across a writing quote from Nietzsche, who happens to be my favorite philosopher. Nietzsche says,
 
@@ -42,7 +42,7 @@ I heard a similar echo in a Jack Reacher book I'm currently listening to. In *Ne
 
 > They thought my brain was wired backwards. They got all excited about my DNA. Maybe they were planning to breed a new race of warriors. You know what the Pentagon was like back then. But they were young anyway. When it comes to fear my DNA is the same as anyone else's. I trained myself, that's all, to turn fear into aggression automatically.... I figured it was a choice. Either I cower back or I get in their faces.
 
-You have to be a monster to kill a monster &mash; return intimidation with greater intimidation.
+You have to be a monster to kill a monster &mdash; return intimidation with greater intimidation.
 
 I'm not sure if Nietzsche is entirely relevant here, or if filling your soul with an abyss or darkness or becoming a monster is somehow necessary to defeat a tech comm project monster. But perhaps there's something to this idea.
 
