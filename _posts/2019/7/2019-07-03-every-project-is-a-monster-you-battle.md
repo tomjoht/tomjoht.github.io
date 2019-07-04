@@ -26,7 +26,7 @@ I still have a lot of work to do, but I feel like I understand the product's sec
 
 Not all projects are monsters to battle, for sure. Some projects are just annoying and tedious. But more often than not, complex technical writing projects are monsters we battle. We might have to learn some technical language or framework to make progress, meet with engineers, re-listen to recordings of meetings, sift through QA test scripts, logs, and other sessions before things start to make sense. But at some point the product seems to unlock, and we understand key concepts, and this empowers our ability to write.
 
-Although I'm writing about tech comm projects, I know fiction writers encounter similar monsters. Only instead of understanding how a product works, they rack their brains to understand how character's mind works, how plots fit together, how motivations and psychology interact in intricate ways. I don't write fiction (at least not intentionally in docs), but I can see overlap.
+Although I'm writing about tech comm projects, I know fiction writers encounter similar monsters. Only instead of understanding how a product works, they rack their brains to understand how a character's mind works, how plots fit together, how motivations and psychology interact in intricate ways. I don't write fiction (at least not intentionally in docs), but I can see overlap.
 
 As I was hunting around for that writing quote, I also ran across a writing quote from Nietzsche, who happens to be my favorite philosopher. Nietzsche says,
 
@@ -38,11 +38,11 @@ Certainly, when you find yourself with a new, highly complex, confusing, and  in
 
 Maybe. I've been binge-watching a show on Netflix lately called *Outlander*. In it, one of the characters, after a traumatic and humiliating experience, descends into a darkness from which he can't seem to recover. He stops eating and lies inert in his bed week after week while his wife stands by, not understanding how to help. Someone finally tells her that if she wants to save her husband, she'll have to descend into the darkness with him. So she does, more or less, nearly taking her own life. And it works. She brings her husband back from the darkness.
 
-I heard a similar echo in a Jack Reacher book I'm currently listening to. In *Never Go Back*, Reacher explains why when he sees a monster he instinctually lunges at it instead of running:
+I heard a similar echo in a Jack Reacher book I'm currently listening to. In *Never Go Back*, Reacher explains why it is that when he sees a monster coming at him, he instinctually lunges back at it instead of running away. Talking with a colleague, he explains:
 
 > They thought my brain was wired backwards. They got all excited about my DNA. Maybe they were planning to breed a new race of warriors. You know what the Pentagon was like back then. But they were young anyway. When it comes to fear my DNA is the same as anyone else's. I trained myself, that's all, to turn fear into aggression automatically.... I figured it was a choice. Either I cower back or I get in their faces.
 
-You have to be a monster to kill a monster &mdash; return intimidation with greater intimidation.
+You return intimidation with greater intimidation, return aggression by getting in their faces, become a monster to kill a monster.
 
 I'm not sure if Nietzsche is entirely relevant here, or if filling your soul with an abyss or darkness or becoming a monster is somehow necessary to defeat a tech comm project monster. But perhaps there's something to this idea.
 
@@ -54,8 +54,8 @@ I'm not sure that going berserk or Rambo-like in these scenarios (turning into t
 
 In short, for complex technical projects, the monsters we battle, maybe Nietzsche is right here &mdash; we have to become a monster to kill the monster? But for our own sanity's sake, I hope this isn't the case.
 
-On another note, with some help on Twitter (thanks @TheLauriest), I finally found the quote I was initially searching for. It is from Winston Churchill:
+On another note, with some help on Twitter (thanks [@TheLauriest](https://twitter.com/thelauriest)), I finally found the quote I was initially searching for. It is from Winston Churchill:
 
 > Writing a book is an adventure. To begin with it is a toy and an amusement. Then it becomes a mistress, then it becomes a master, then it becomes a master, then it becomes a tyrant. The last phase is that just as you are about to be reconciled to your servitude, you kill the monster and fling him to the public.
 
-Churchill describes the evolution of the writing project from an amusing toy to a mistress, master, tyrant, and monster. But what about the corresponding evolution of the writer with each phase?
+Churchill describes the evolution of the writing project from an amusing toy to a mistress, master, tyrant, and monster. But what about the corresponding evolution of the writer with each phase? That is the more interesting story.
