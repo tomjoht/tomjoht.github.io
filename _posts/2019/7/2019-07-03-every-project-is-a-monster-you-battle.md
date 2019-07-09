@@ -42,7 +42,7 @@ I heard a similar echo in a Jack Reacher book I'm currently listening to. In *Ne
 
 > They thought my brain was wired backwards. They got all excited about my DNA. Maybe they were planning to breed a new race of warriors. You know what the Pentagon was like back then. But they were young anyway. When it comes to fear my DNA is the same as anyone else's. I trained myself, that's all, to turn fear into aggression automatically.... I figured it was a choice. Either I cower back or I get in their faces.
 
-You return intimidation with greater intimidation, return aggression by getting in their faces, become a monster to kill a monster.
+You return intimidation with greater intimidation, return aggression by getting into the aggressor's face, become a monster to kill a monster.
 
 I'm not sure if Nietzsche is entirely relevant here, or if filling your soul with an abyss or darkness or becoming a monster is somehow necessary to defeat a tech comm project monster. But perhaps there's something to this idea.
 
