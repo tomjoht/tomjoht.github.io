@@ -56,6 +56,6 @@ In short, for complex technical projects, the monsters we battle, maybe Nietzsch
 
 On another note, with some help on Twitter (thanks [@TheLauriest](https://twitter.com/thelauriest)), I finally found the quote I was initially searching for. It is from Winston Churchill:
 
-> Writing a book is an adventure. To begin with it is a toy and an amusement. Then it becomes a mistress, then it becomes a master, then it becomes a master, then it becomes a tyrant. The last phase is that just as you are about to be reconciled to your servitude, you kill the monster and fling him to the public.
+> Writing a book is an adventure. To begin with it is a toy and an amusement. Then it becomes a mistress, then it becomes a master, then it becomes a tyrant. The last phase is that just as you are about to be reconciled to your servitude, you kill the monster and fling him to the public.
 
 Churchill describes the evolution of the writing project from an amusing toy to a mistress, master, tyrant, and monster. But what about the corresponding evolution of the writer with each phase? That is the more interesting story.
