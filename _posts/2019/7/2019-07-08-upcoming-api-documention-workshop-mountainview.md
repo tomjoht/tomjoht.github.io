@@ -5,6 +5,7 @@ categories:
 keywords:
 bitlink: https://idratherbewriting.site/apidocworkshopmtnview
 summary: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993'>API Documentation Workshop</a> in Mountain View, California, on August 30, 2019. Although I've given more than a dozen API documentation workshops at various conferences over the past several years, this one is different. For this workshop, I'm organizing it myself. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993'>register on Eventbrite</a>."
+embed_survey: no_way
 ---
 
 Previous API workshops I've given have usually been by request through some organizing sponsor, such as STC group, private company, or conference. But I've come to wonder if that organizing group is even necessary, so I'll just experiment at least once giving the workshop on my own, marketing it myself, setting up the venue myself, handling registration myself, etc. If it's successful, I'll repeat it regularly. And if it's not, I'll at least have more experience running an event.
