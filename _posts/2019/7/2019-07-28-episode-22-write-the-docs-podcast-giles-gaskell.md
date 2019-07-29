@@ -1,5 +1,8 @@
 ---
 title: "WTD Episode 22: Managing multiple doc projects across Git repositories, with Giles Gaskell"
+permalink: /blog/wtd-episode-22-managing-multiple-doc-projects-in-git/
+redirect_from:
+- /2019/07/28/episode-22-write-the-docs-podcast-giles-gaskell/
 categories:
 - technical-writing
 - podcasts
