@@ -15,11 +15,11 @@ In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 
 
 Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018 through Dec 31, 2018, according to Google Analytics.
 
-<figure><img src="https://idratherbewritingmedia.com/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
 
 Here's another slice of analytics focusing more on audience:
 
-<figure><img src="https://idratherbewritingmedia.com/images/google-analytics2019-audience.png" alt="Breakdown of analytics" /> <figcaption>Here you can see a breakdown of sessions. During 2018, there were about 942,000 sessions, with users viewing 1.65 pages per session. </figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/google-analytics2019-audience.png" alt="Breakdown of analytics" /> <figcaption>Here you can see a breakdown of sessions. During 2018, there were about 942,000 sessions, with users viewing 1.65 pages per session. </figcaption></figure>
 
 {{site.data.alerts.note}}A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.65.{{site.data.alerts.end}}
 
@@ -116,7 +116,7 @@ The following table includes more details from other Google Analytics reports (t
 
 In 2018, the majority of traffic came to my [API documentation site](/learnapidoc/):
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site. The rest pretty much does to my blog.</a></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption></figcaption>About 59% of traffic to my site goes to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site. The rest pretty much does to my blog.</a></figure>
 
 The traffic from the API documentation visitors is outperforming other traffic sources. This represents a potentially new audience to which you can market tech comm solutions.
 
@@ -124,7 +124,7 @@ The traffic from the API documentation visitors is outperforming other traffic s
 
 I'd Rather Be Writing received significantly more traffic in 2018 (nearly double the page views) than the previous year. The blue line represents 2018, while the brown line represents 2017.
 
-<figure><img src="https://idratherbewritingmedia.com/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption></figcaption>Traffic comparison by year</figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption></figcaption>Traffic comparison by year</figure>
 
 The increased traffic from the API documentation site probably accounts for the massive growth.
 
@@ -149,7 +149,7 @@ Again, these top pages show that most of the traffic is coming through my [API d
 
 The breakdown of audience age and gender is as follows:
 
-<figure><img src="https://idratherbewritingmedia.com/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
 
 For more details about site analytics, see [Site analytics from Jan 1 to Dec 31, 2018 -- 59% of overall traffic going to API doc site](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site).
 
@@ -159,7 +159,7 @@ The quality of impressions depends on the influence of the site. Impressions fro
 
 {{site.data.alerts.note}} MindTouch previously tracked top influencers in tech comm. However, after 2017 they shifted to "customer success" instead of teach comm. Links to previous rankings are below.{{site.data.alerts.end}}
 
-<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class=" wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="https://idratherbewritingmedia.com/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="345" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
+<figure><a href="http://www.mindtouch.com/blog/2012/01/06/techcomm-contentstrategy-400-knowledgebase/"><img class=" wp-image-10417" title="Most influential of 400+ tech comm bloggers" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/most_influential_tom_johnson-600x345.png" alt="Most influential of 400+ tech comm bloggers" width="345" style="border:1px solid #dedede;" /></a> <figcaption>Influence among tech comm bloggers</figcaption></figure>
 
 *  [Top 25 Content Experience Influencer 2017](https://mindtouch.com/resources/announcing-2017s-top25-content-experience-influencers-top200-strategists)
 *  [Top 25 Content Strategist Influencer 2016](https://mindtouch.com/resources/announcing-top-25-content-strategist-influencers-2016)

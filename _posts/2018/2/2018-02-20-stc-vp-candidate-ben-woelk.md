@@ -9,7 +9,7 @@ bitlink: http://bit.ly/stcbenwoelkvpcandidate
 
 ## In 3-5 sentences, can you describe who you are, what you do, and why are you running?
 
-<figure style="float: right; padding: 0px 20px;"><img src="https://idratherbewritingmedia.com/images/benwoelk.jpg"><figcaption>Ben Woelk, candidate for STC Vice President</figcaption></figure>
+<figure style="float: right; padding: 0px 20px;"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/benwoelk.jpg"><figcaption>Ben Woelk, candidate for STC Vice President</figcaption></figure>
 
 I'm a transformative servant leader, innovator, and problem solver who has been able to make a positive impact both at the local and international level of STC and in my industry vertical, higher education information security. I'm the program manager in the Information Security Office at the Rochester Institute of Technology where I manage many of our information security initiatives and teach Technical Communications and Computing Security classes as an adjunct instructor. Leveraging a technical communication skill set, I've been able to build an effective and respected information security awareness program. I'm running for STC VP because I love the organization and I believe I can help lead its transformation to ensure we're sustainable and have a positive impact for our members and the profession as a whole.
 

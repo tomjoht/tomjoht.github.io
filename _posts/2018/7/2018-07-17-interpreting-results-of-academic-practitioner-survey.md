@@ -11,9 +11,9 @@ bitlink: http://bit.ly/surveyresultsacademicspractitioners
 
 Here are the results for both practitioner and academic surveys:
 
-* Practitioner responses: [Infographic report](https://idratherbewritingmedia.com/images/apsurvey/survey_for_practitioners_to_take_infographic.pdf) \| [Dashboard report](https://idratherbewritingmedia.com/images/apsurvey/survey_for_practitioners_to_take.html)
+* Practitioner responses: [Infographic report](https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/apsurvey/survey_for_practitioners_to_take_infographic.pdf) \| [Dashboard report](https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/apsurvey/survey_for_practitioners_to_take.html)
 
-* Academic responses: [Infographic report](https://idratherbewritingmedia.com/images/apsurvey/survey_for_academics_to_take_infographic.pdf) \| [Dashboard report](https://idratherbewritingmedia.com/images/apsurvey/survey_for_academics_to_take.html)
+* Academic responses: [Infographic report](https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/apsurvey/survey_for_academics_to_take_infographic.pdf) \| [Dashboard report](https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/apsurvey/survey_for_academics_to_take.html)
 
 QuestionPro (the survey tool I used) provides various ways to present the data. I presented two versions here. I think the Infographic report is a bit more scannable and easy to read, but the Dashboard report provides more details.
 
@@ -33,7 +33,7 @@ Now that the survey results are in, what do we make of the responses? I invite y
 
 Here's a breakdown of the responses:
 
-<a target="\_blank" href="https://idratherbewritingmedia.com/images/psurvey2.png"><img src="https://idratherbewritingmedia.com/images/psurvey2.png" style="max-width: 100%"/></a>
+<a target="\_blank" href="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/psurvey2.png"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/psurvey2.png" style="max-width: 100%"/></a>
 
 The responses here are varied. If you just look at the overall distribution, the 2.83 score appears as if most are undecided (42% are undecided). But the responses are also a bit polarized. About 35% disagree or strongly disagree, and about 23% agree or strongly agree.
 
@@ -49,7 +49,7 @@ Now let's flip to the other side and look at the results from the academic surve
 
 Here's a breakdown of the responses:
 
-<a target="\_blank" href="https://idratherbewritingmedia.com/images/asurvey2.png"><img src="https://idratherbewritingmedia.com/images/asurvey2.png" style="max-width: 100%"/></a>
+<a target="\_blank" href="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/asurvey2.png"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/asurvey2.png" style="max-width: 100%"/></a>
 
 About 50% of the academic participants either disagree or strongly disagree that practitioners are the audience for their research. 28% are undecided, and only 23% agree or strongly agree. Holy smokes! Notice that the question didn't say that practitioners *should* be the audience for academic research, so maybe academics believe that the current state isn't the ideal or desired state. But is it any surprise that practitioners aren't diving into academic research given that they aren't the audience for it? (And if they aren't the audience, then practitioners' disagreement with the relevance of academic research makes sense.)
 

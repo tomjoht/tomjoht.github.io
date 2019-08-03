@@ -21,7 +21,7 @@ I received the following question from a reader:
 
 I asked my Twitter and blog friends to respond with their recommendations. Here they are (the name in brackets after the book is the person who recommended it):
 
-<img src="https://idratherbewritingmedia.com/images/book24.png" style="float:right; padding: 20px;"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/book24.png" style="float:right; padding: 20px;"/>
 
 [Technical Writing Process](https://www.amazon.com/Technical-Writing-Process-five-step-procedures/dp/0994169310/ref=sr_1_1?s=books&ie=UTF8&qid=1518580945&sr=1-1&keywords=technical+writing+process), Kieran Morgan. Morgan gives would-be technical writers various templates and structures for different types of deliverables. Awesome for a junior or novice in the field. [Nathaniel Wilson]
 

@@ -12,7 +12,7 @@ tags:
 - technical writing
 - video games
 - hobbies
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/videogamereflection.mp3
 podcast_file_size: 10.2 MB
 podcast_duration: "11:56"

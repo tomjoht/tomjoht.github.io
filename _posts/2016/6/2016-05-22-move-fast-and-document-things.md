@@ -14,7 +14,7 @@ tags:
 - technical writing
 - documentation
 - technical communication
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3
 podcast_file_size: 27.3 MB
 podcast_duration: "35:50"

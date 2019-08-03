@@ -16,13 +16,13 @@ I've come across several other students who read my blog, see the emphasis on [A
 
 My chat with the SFSU student got me thinking about tech comm programs in general. The topic seems to be constantly cropping up regularly. For example, on the [technical writing forum on Reddit](https://www.reddit.com/r/technicalwriting/), I often see threads like this:
 
-<a href="https://www.reddit.com/r/technicalwriting/comments/axhzf7/finished_my_certificate_on_tech_writing/"><img src="https://idratherbewritingmedia.com/images/reddit-tech-writing-post1.png"></a>
-<a href="https://www.reddit.com/r/technicalwriting/comments/axb0kn/are_certifications_worth_it_for_an_experienced/"><img src="https://idratherbewritingmedia.com/images/reddit-tech-writing-post2.png"></a>
-<a href="https://www.reddit.com/r/technicalwriting/comments/ax86gt/master_of_arts_in_technical_communication/"><img src="https://idratherbewritingmedia.com/images/reddit-tech-writing-post3.png"></a>
+<a href="https://www.reddit.com/r/technicalwriting/comments/axhzf7/finished_my_certificate_on_tech_writing/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/reddit-tech-writing-post1.png"></a>
+<a href="https://www.reddit.com/r/technicalwriting/comments/axb0kn/are_certifications_worth_it_for_an_experienced/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/reddit-tech-writing-post2.png"></a>
+<a href="https://www.reddit.com/r/technicalwriting/comments/ax86gt/master_of_arts_in_technical_communication/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/reddit-tech-writing-post3.png"></a>
 
 Also of recent note, [Lisa Meloncon](https://tek-ritr.com/), one of the experts on tech comm programs, [published a cool interactive map](http://tek-ritr.com/techcomm-programmatic-central/maps-of-tpc-programs/) showing the locations of tech comm programs across the country.
 
-<a href="http://tek-ritr.com/techcomm-programmatic-central/maps-of-tpc-programs/"><img src="https://idratherbewritingmedia.com/images/map-of-tech-comm-programs.png"/></a>
+<a href="http://tek-ritr.com/techcomm-programmatic-central/maps-of-tpc-programs/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/map-of-tech-comm-programs.png"/></a>
 
 (By the way, for more scholarly research on tech comm academic programs, see Lisa's article [Master's Programs in Technical Communication: A Current Overview](https://www.researchgate.net/publication/290651673_Master's_Programs_in_Technical_Communication_A_Current_Overview).)
 

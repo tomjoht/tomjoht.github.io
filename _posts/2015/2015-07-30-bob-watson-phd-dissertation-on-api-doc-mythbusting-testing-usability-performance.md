@@ -15,7 +15,7 @@ tags:
 - API documentation
 - best practices
 - usability
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/bobwatson_apidocs.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "52:21"
@@ -25,9 +25,9 @@ bitlink: http://bit.ly/bobwatsonpodcast
 
 ## Listen to the podcast
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://idratherbewritingmedia.com/podcasts/bobwatson_apidocs.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/bobwatson_apidocs.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://idratherbewritingmedia.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs">download the MP3 file here</a>.
 
 ## Summary
 

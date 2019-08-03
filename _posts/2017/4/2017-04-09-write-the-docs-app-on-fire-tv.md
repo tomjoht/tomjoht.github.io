@@ -12,7 +12,7 @@ thumb: wtdpodcastappfiretv.png
 
 You can view the Write the Docs podcast app in the Amazon Appstore web UI [here](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs).
 
-<a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs"><img src="https://idratherbewritingmedia.com/images/writethedocastfiretvapp.png" />
+<a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/writethedocastfiretvapp.png" />
 
 Here's what the app screens look like on your Fire TV:
 

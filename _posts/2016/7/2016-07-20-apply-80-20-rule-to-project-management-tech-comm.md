@@ -13,7 +13,7 @@ tags:
 - documentation
 - technical communication
 - project management
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3
 podcast_file_size: 7.8 MB
 podcast_duration: "09:34"
@@ -34,7 +34,7 @@ To give you a sense of my day, last week I started regulating tasks following Ka
 
 During the day, other tasks kept getting added to my plate, so I noted them by writing them on the same whiteboard below a horizontal line. By the end of the day, my whiteboard looked like a jumble of notes written by someone who is scattered-brained:
 
-<img src="{{ "https://idratherbewritingmedia.com/images/chaosflow.jpg" | prepend: site.baseurl }}" alt="My chaos flow. I started out with just 3 tasks on this board, but by the end of the day it looked like a jumble of notes." />
+<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/chaosflow.jpg" | prepend: site.baseurl }}" alt="My chaos flow. I started out with just 3 tasks on this board, but by the end of the day it looked like a jumble of notes." />
 
 I didn't act on each of these incoming tasks but rather noted them only and later, at the end of the day, entered them in an issue tracking system to tackle later. By doing this, I was attempting to regulate the flow of tasks.
 

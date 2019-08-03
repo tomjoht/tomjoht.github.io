@@ -12,7 +12,7 @@ tags:
 - version control
 - Github
 - engineering
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/richardmateosian.mp3
 podcast_file_size: 68.6 MB
 podcast_duration: "01:03:31"

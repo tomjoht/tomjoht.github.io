@@ -8,7 +8,7 @@ categories:
 keywords: swaggerhub, swagger, openapi specification, open api
 summary: "When documenting REST APIs, the OpenAPI specification (formerly called Swagger) is pretty much the default standard. Yet learning the OpenAPI spec is not a trivial undertaking and requires significant ramp-up. SwaggerHub is a tool can reduce the complexity in creating your OpenAPI spec file because it enables collaboration between both developers and technical writers. This collaboration not only helps compensate for gaps in understanding with the spec, SwaggerHub also offers many other features (such as versioning, content re-use, inline commenting, and more) to make the authoring and publishing experience easier."
 bitlink: http://bit.ly/swaggerhubcollabplatform
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/swaggerhubcollabplatform.mp3
 podcast_file_size: 13.7 MB
 podcast_duration: "16:47"
@@ -89,7 +89,7 @@ What's one possible solution to overcoming the technical hurdles around OpenAPI?
 
 [SwaggerHub](https://swaggerhub.com/) provides a collaboration point for technical writers and developers to interact together on the OpenAPI specification file. As a cloud-based solution, SwaggerHub gives you a secure, online space where both you and developers can log in and interact with a rich-featured editor to create the OpenAPI specification file.
 
-<a href="https://swaggerhub.com"><img src="https://idratherbewritingmedia.com/images/swaggerhubscreenshot.png" alt="Swaggerhub"/></a>
+<a href="https://swaggerhub.com"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/swaggerhubscreenshot.png" alt="Swaggerhub"/></a>
 
 For teams that require on-premise installation, SwaggerHub also offers the ability to install and host behind your company’s firewall in its Enterprise offering.
 
@@ -103,7 +103,7 @@ Either way, technical writers and developers can *guide each other* through the 
 
 With SwaggerHub, you aren't emailing files back and forth. You don't need to create and merge branches in git (though, you can source the file from Github if you want). You don't need to try to use Google Docs or Dropbox to collaborate. In fact, SwaggerHub even allows you to add comments in the margins of the spec, so when a developer provides a jargon-filled description of something, you can highlight it and ask, "What do you mean here &mdash; can you be more specific?"
 
-<a href="https://swaggerhub.com"><img src="https://idratherbewritingmedia.com/images/swaggerhub_comment_feature_post.png" alt="Inline commenting in Swaggerhub"/></a>
+<a href="https://swaggerhub.com"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/swaggerhub_comment_feature_post.png" alt="Inline commenting in Swaggerhub"/></a>
 
 Collaboration is just one aspect of SwaggerHub, of course. In my tutorial on how to [Manage OpenAPI Projects with SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html), I cover a number of other SwaggerHub features including the following:
 

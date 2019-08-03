@@ -26,21 +26,21 @@ In fact, although the exact definition of micro content varies (some people use 
 
 Another common instance of micro content is the search results page. If you search google for [how do i tie a tie](https://www.google.com/search?q=how+do+i+tie+a+tie&oq=how+do+i+tie+a+tie&aqs=chrome..69i57j0l5.766j0j4&sourceid=chrome&ie=UTF-8), you don't have to click through links on the search results page to view the content. Instead, Google's algorithm identifies the answer from the search results and excerpts that answer as micro content directly in the search result:
 
-<caption><a href="https://www.google.com/search?q=how+do+i+tie+a+tie&oq=how+do+i+tie+&aqs=chrome.0.0j69i57j0l4.6114j0j4&sourceid=chrome&ie=UTF-8"><img src="https://idratherbewritingmedia.com/images/how-to-tie-a-tie.png" alt="example of microcontent" /></a><figcaption>With micro content on search results pages, you see the content pulled directly onto the results page.</figcaption></caption>
+<caption><a href="https://www.google.com/search?q=how+do+i+tie+a+tie&oq=how+do+i+tie+&aqs=chrome.0.0j69i57j0l4.6114j0j4&sourceid=chrome&ie=UTF-8"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/how-to-tie-a-tie.png" alt="example of microcontent" /></a><figcaption>With micro content on search results pages, you see the content pulled directly onto the results page.</figcaption></caption>
 
 This reduces the number of clicks users have to proceed through to get answers to their questions. Other micro content appears directly in the search box as you type.
 
-<caption><img src="https://idratherbewritingmedia.com/images/micro-content-as-you-type.png" alt="Micro content as you type"/><figcaption>Micro content appearing as you type</figcaption></caption>
+<caption><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/micro-content-as-you-type.png" alt="Micro content as you type"/><figcaption>Micro content appearing as you type</figcaption></caption>
 
 Part of Google's genius is in figuring out how to identify and surface micro content in search results pages. With Flare, you can now leverage similar features in your own help files. If you go to the Flare help and <a href="https://help.madcapsoftware.com/flare2019/Content/Flare/Search-Results/Search-Results.htm?q=snippets" rel="nofollow">search for "snippet"</a>, you'll see some micro content about snippets appear directly in Madcap's search results:
 
-<caption><a rel="nofollow" href="https://help.madcapsoftware.com/flare2019/Content/Flare/Search-Results/Search-Results.htm?q=snippets"><img src="https://idratherbewritingmedia.com/images/micro-content-in-action.png" alt="Example of micro content in Flare's help pages" /></a><figcaption>Example of micro content in Flare's help pages</figcaption></caption>
+<caption><a rel="nofollow" href="https://help.madcapsoftware.com/flare2019/Content/Flare/Search-Results/Search-Results.htm?q=snippets"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/micro-content-in-action.png" alt="Example of micro content in Flare's help pages" /></a><figcaption>Example of micro content in Flare's help pages</figcaption></caption>
 
 You can even include animated gifs and other graphics in the micro content.
 
 Chatbots and search-engine results pages are just a couple of uses for micro content. MadCap identifies about half a dozen uses for micro content:
 
-<caption><a href="https://help.madcapsoftware.com/flare2019/Content/Flare/Micro-Content/About-Micro-Content.htm" rel="nofollow"><img src="https://idratherbewritingmedia.com/images/possible-uses-of-micro-content.png" alt="possible uses for micro content" /></a><figcaption>Possible uses for micro content</figcaption></caption>
+<caption><a href="https://help.madcapsoftware.com/flare2019/Content/Flare/Micro-Content/About-Micro-Content.htm" rel="nofollow"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/possible-uses-of-micro-content.png" alt="possible uses for micro content" /></a><figcaption>Possible uses for micro content</figcaption></caption>
 
 You can learn more about micro content in Flare here: <a href="https://help.madcapsoftware.com/flare2019/Content/Flare/Micro-Content/About-Micro-Content.htm" rel="nofollow">About Micro Content</a>.
 

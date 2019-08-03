@@ -17,10 +17,10 @@ published: true
 <p>To better understand ScrollSpy, go to one of the content pages on the <a href="http://getbootstrap.com/javascript/#scrollspy">Get Bootstrap site</a> and just start scrolling down -- you'll see the navigation on the right dynamically highlight the TOC heading you're viewing.</p>
 <p>Here's a short video showing ScrollSpy (expand the video to full-size for better readability):</p>
 <p><video class="loopingVideo" id="video1" controls preload>
-    <source src="https://idratherbewritingmedia.com/video/bootstrap_infinite_scroll.mp4" type="video/mp4">
-    <source src="https://idratherbewritingmedia.com/video/bootstrap_infinite_scroll.webm" type="video/webm">
-    <source src="https://idratherbewritingmedia.com/video/bootstrap_infinite_scroll.mov" type="video/mov">
-    <source src="https://idratherbewritingmedia.com/video/bootstrap_infinite_scroll.ogg" type="video/ogg">
+    <source src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/video/bootstrap_infinite_scroll.mp4" type="video/mp4">
+    <source src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/video/bootstrap_infinite_scroll.webm" type="video/webm">
+    <source src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/video/bootstrap_infinite_scroll.mov" type="video/mov">
+    <source src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/video/bootstrap_infinite_scroll.ogg" type="video/ogg">
     Your browser does not support HTML5 video.
   </source></source></source></source></video></p>
 <h2>Bootstrap and Jekyll</h2>
@@ -29,7 +29,7 @@ published: true
 Bootstrap's documentation, included in this repo in the root directory, is built with Jekyll and publicly hosted on GitHub Pages at [http://getbootstrap.com](http://getbootstrap.com). The docs may also be run locally.
 </p></blockquote>
 <p>Bootstrap is particularly interesting and relevant because they provide ready-made components to build your own sites. For example, do you need an label? Copy and paste a little snippet of code and you have it.</p>
-<p><a href="http://getbootstrap.com/components/#labels"><img src="https://idratherbewritingmedia.com/images/bootstraplabels-550x277.png" alt="bootstrap labels" width="550" height="277" class="alignnone size-medium wp-image-22525" /></a></p>
+<p><a href="http://getbootstrap.com/components/#labels"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/bootstraplabels-550x277.png" alt="bootstrap labels" width="550" height="277" class="alignnone size-medium wp-image-22525" /></a></p>
 <p>Do you need a dropdown menu, a font icon, an alert message, or even a "jumbotron"? No problem, just copy and paste little snippets of code from Bootstrap's site -- browse the <a href="http://getbootstrap.com/components/">components here</a> and the <a href="http://getbootstrap.com/css/">/css</a>. As long as you have the Bootstrap library and JavaScript file referenced in your HTML, the Bootstrap code works. (And it's kind of like magic, I have to say.)</p>
 <p>Bootstrap is also interesting because their site is built on Jekyll, and you can actually download and install the whole Bootstrap site on your local machine and freely fork it. Here's <a href="https://github.com/twbs/bootstrap/blob/master/README.md#documentation">how to install Bootstrap locally</a>. Or see my abbreviated instructions below.</p>
 <h2>Installing Bootstrap's site locally</h2>
@@ -51,10 +51,10 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 </ol>
 <p>(If Chrome pushes this address to a search, replace <code>0.0.0</code> with <code>localhost</code>.)</p>
 <p>You should then see something like this:</p>
-<p><figure><img src="https://idratherbewritingmedia.com/images/bootstraplocal-550x326.png" alt="Note the URL: http://0.0.0.0:9001/" width="550" height="326" class="size-medium wp-image-22526" /><figcaption>Note the URL: http://0.0.0.0:9001/</figcaption></figure></p>
+<p><figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/bootstraplocal-550x326.png" alt="Note the URL: http://0.0.0.0:9001/" width="550" height="326" class="size-medium wp-image-22526" /><figcaption>Note the URL: http://0.0.0.0:9001/</figcaption></figure></p>
 <h2>How Bootstrap implements Scrollspy on their site<</h2>
 <p>I was particularly interested in how Bootstrap implemented their <a href="http://getbootstrap.com/javascript/#scrollspy">ScrollSpy feature</a>, because unfortunately the full functionality doesn't seem out of the box with the ScrollSpy template provided on <a href="http://www.bootply.com/new?visual=1#">Bootply</a>, which is a site that provides ready-made templates for building websites using the Bootstrap framework.</p>
-<p><a href="http://www.bootply.com/new?visual=1#"><img src="https://idratherbewritingmedia.com/images/bootplyscrollspy-550x406.png" alt="bootplyscrollspy" width="550" height="406" class="alignnone size-medium wp-image-22527" /></a></p>
+<p><a href="http://www.bootply.com/new?visual=1#"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/bootplyscrollspy-550x406.png" alt="bootplyscrollspy" width="550" height="406" class="alignnone size-medium wp-image-22527" /></a></p>
 <p>I downloaded and built the Bootstrap site locally because I wanted to see how it was put together, particularly the ScrollSpy sidebar. First, they use both grunt and bower to automate some of their building. Honestly, I'm still a bit new to those technologies, so I'm not entirely familiar with them. But the Jekyll site I am more familiar with.</p>
 <p>Let's look specifically at the <a href="http://getbootstrap.com/css/">CSS page here</a>, which is inside docs/css.html in the download. In the code, this isn't one long page. Each of these sections is a separate file. They are pulled together through includes:</p>
 
@@ -126,7 +126,7 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 <p>With a bit of fiddling (okay, with a day of mesmerizing trial and error), and reading this insanely helpful blog post -- <a href="http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html">Bootstrap Docs Sidebar Explained</a> -- and copying and pasting some code from <a href="http://www.bootply.com/yBqcf4kncL">this awesome bootply template here</a>, I managed to get ScrollSpy working on my Jekyll prototype!</p>
 <p>But here it gets better. I found an <a href="https://github.com/ghiculescu/jekyll-table-of-contents">auto-toc generator built specifically for Jekyll</a>. I integrated it and voila, it freaking worked!!! I no longer had to manually code the links in the sidebar, because the auto-generator created them based on the heading IDs that were auto-rendered by the Red Carpet Markdown extension processor. I was floored.</p>
 <p>Here's a <a href="https://idratherbewriting.com/jekyll/scrollspy">demo of scrollspy in my prototype</a>.</p>
-<p><a href="https://idratherbewriting.com/jekyll/scrollspy"><img src="https://idratherbewritingmedia.com/images/scrollspydemo-550x327.png" alt="ScrollSpy demo" width="550" height="327" class="alignnone size-medium wp-image-22528" /></a></p>
+<p><a href="https://idratherbewriting.com/jekyll/scrollspy"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/scrollspydemo-550x327.png" alt="ScrollSpy demo" width="550" height="327" class="alignnone size-medium wp-image-22528" /></a></p>
 <p>BTW, this Jekyll site is a work in progress, and I'm far from finished. (Once I get it finished, I'll push it out to github for anyone to fork.) Also, don't pay attention to the other content for now -- the text is just my notes on various Jekyll things (but I'll be adding to it).</p>
 <p>BTW, to implement ScrollSpy on your own theme, make sure you use Markdown for your heading syntax.</p>
 

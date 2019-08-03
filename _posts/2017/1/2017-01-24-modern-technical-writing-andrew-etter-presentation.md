@@ -12,7 +12,7 @@ tags:
 - static site generators
 - modern technical writing
 - palantir
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ettermodern.mp3
 podcast_file_size: 52.6 MB
 podcast_duration: "01:02:00"
@@ -54,7 +54,7 @@ If you just want the audio only, you can listen here:
 
 You can view the slides in PDF here:
 
-<a href="https://idratherbewritingmedia.com/podcasts/ettermodern.pdf"><img src="https://idratherbewritingmedia.com/images/ettermodernslides.png"/></a>
+<a href="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/ettermodern.pdf"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/ettermodernslides.png"/></a>
 
 ## More info
 

@@ -61,8 +61,8 @@ Below are the lightning talks from the March 29 [Write the Docs San Francisco Me
 
 If you just want the audio, compiled into one long file, you can listen here:
 
-<audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://idratherbewritingmedia.com/podcasts/lightningtalkssanfranciscoaudioonly.mp3" type="audio/mpeg" /></audio>
+<audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/lightningtalkssanfranciscoaudioonly.mp3" type="audio/mpeg" /></audio>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://idratherbewritingmedia.com/podcasts/lightningtalkssanfranciscoaudioonly.mp3" title="Lighting talks San Francisco">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/lightningtalkssanfranciscoaudioonly.mp3" title="Lighting talks San Francisco">download the MP3 file here</a>.
 
 If you organize meetings for writing groups, I highly recommend trying out this lightning talk format. It's a great change of pace, fun to see new faces, and generates a lively momentum and energy to the meeting. 

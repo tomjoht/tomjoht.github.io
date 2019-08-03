@@ -14,7 +14,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/pugetsoundtrendspreso
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3
 podcast_file_size: 83.9 MB
 podcast_duration: "01:26:50"
 podcast_length: 68378174
@@ -31,7 +31,7 @@ summary: "I recently gave a presentation on technical communication trends to th
 
 ## Slides
 
-<a href="https://idratherbewriting.com/slides/trends_stc19/#/"><img src="https://idratherbewritingmedia.com/images/trendsslidesthumb.png" style="max-width: 350px" alt="Tech Comm Trends slides"/></a>
+<a href="https://idratherbewriting.com/slides/trends_stc19/#/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/trendsslidesthumb.png" style="max-width: 350px" alt="Tech Comm Trends slides"/></a>
 
 ## Presentation description
 
@@ -48,7 +48,7 @@ summary: "I recently gave a presentation on technical communication trends to th
 
 ## Venue
 
-<a href="https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/"><img src="https://idratherbewritingmedia.com/images/stcpugetsoundgenspec.png" alt="STC Puget Sound presentation" /></a>
+<a href="https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/stcpugetsoundgenspec.png" alt="STC Puget Sound presentation" /></a>
 
 Details about the event from STC Puget sound are [here](https://www.stc-psc.org/event/tech-comm-trends-providing-value-as-a-generalist-in-a-sea-of-specialists/).
 

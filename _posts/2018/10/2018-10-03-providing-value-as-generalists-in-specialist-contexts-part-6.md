@@ -39,7 +39,7 @@ Documentation is a genre that has specific conventions that users expect. What a
 
 In other words, these are the core conventions of the documentation genre. When you shape information into these elements, users more naturally understand and interact with the documentation.
 
-<figure><img src="https://idratherbewritingmedia.com/images/generalist_specialist_schemas.svg"/><figcaption>When we follow expected genre conventions, the pieces fit naturally into pre-slotted spaces in our mind for those elements.</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/generalist_specialist_schemas.svg"/><figcaption>When we follow expected genre conventions, the pieces fit naturally into pre-slotted spaces in our mind for those elements.</figcaption></figure>
 
 But we can apply this idea even further. This four components model (especially with goals, actions, and unwanted states) isn't too far off from the structure of story itself, which underlies much of the way we see the world, not just documentation. In *The User’s Journey*, Donna Lichaw depicts the structure of story as follows:
 
@@ -53,7 +53,7 @@ I needed to structure this jumble of information in a way that would make sense 
 
 We structure it in the shape of a story &mdash; in this case, I structured it around "The User's Journey." This story structure makes complex information more consumable and usable to users.
 
-<figure><img src="https://idratherbewritingmedia.com/images/generalist_specialist_customer_journey.svg"/><figcaption>I structured the competitive analysis around the common steps in the user's journey.</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/generalist_specialist_customer_journey.svg"/><figcaption>I structured the competitive analysis around the common steps in the user's journey.</figcaption></figure>
 
 For more information, see [Conform to the patterns and expectations of the genre and schemas](https://idratherbewriting.com/simplifying-complexity/reducing-complexity-by-shaping-into-schemas-esp-story.html).
 

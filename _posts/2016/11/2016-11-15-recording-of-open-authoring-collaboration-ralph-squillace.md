@@ -10,7 +10,7 @@ tags:
 - developer documentation
 - open source
 - collaboration
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ralph_squillace.mp3
 podcast_file_size: 74.7 MB
 podcast_duration: "01:36:25"
@@ -54,6 +54,6 @@ You can read more details from the event on the [STC Silicon Valley site](http:/
 
 ## About Ralph Squillace
 
-<p><img style="float: left; max-width: 150px; padding-right: 10px;" src="{{ "https://idratherbewritingmedia.com/images/ralph_squillace_profile.jpg" | prepend: site.baseurl }}" alt="Ralph Squillace" />Ralph Squillace (pronounced "Squillachey") is a senior content engineer for the Microsoft Azure Infrastructure team based in San Francisco, California. He works directly with customers trying and breaking Azure, as well as writing, publishing, and teaching cloud and distributed architecture and devops development mainly on Linux workloads and working with Linux, Mac, and Windows. He’s responsible for much of the Azure CLI documentation, as well as Azure documentation for Docker, CoreOS, and various container orchestration systems such as Deis, Weave, Kubernetes, Mesos, and Docker’s machine, swarm, and compose for contained applications.</p>
+<p><img style="float: left; max-width: 150px; padding-right: 10px;" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/ralph_squillace_profile.jpg" | prepend: site.baseurl }}" alt="Ralph Squillace" />Ralph Squillace (pronounced "Squillachey") is a senior content engineer for the Microsoft Azure Infrastructure team based in San Francisco, California. He works directly with customers trying and breaking Azure, as well as writing, publishing, and teaching cloud and distributed architecture and devops development mainly on Linux workloads and working with Linux, Mac, and Windows. He’s responsible for much of the Azure CLI documentation, as well as Azure documentation for Docker, CoreOS, and various container orchestration systems such as Deis, Weave, Kubernetes, Mesos, and Docker’s machine, swarm, and compose for contained applications.</p>
 
 To learn more about Ralph, you can follow him on Twitter [@ralph_squillace](https://twitter.com/ralph_squillace) and [Linkedin profile](https://www.linkedin.com/in/ralph-squillace-382a5013).

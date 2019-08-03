@@ -34,7 +34,7 @@ With that context, I'd like to take some time to promote one of the tools of my 
 
 Adobe recently released FrameMaker 2017.
 
-<a rel="nofollow" href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG" alt="Adobe FrameMaker 2017"><img src="https://idratherbewritingmedia.com/images/framemaker2017banner.png" style="max-width: 600px;"/></a>
+<a rel="nofollow" href="http://www.adobe.com/products/framemaker.html?sdid=KVGRV6V5&mv=other&promoid=70114000002CZxcAAG" alt="Adobe FrameMaker 2017"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/framemaker2017banner.png" style="max-width: 600px;"/></a>
 
 The main features of the FrameMaker 2017 release include the following:
 

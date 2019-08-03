@@ -15,7 +15,7 @@ tags:
 - Andrew Etter
 - modern technical writing
 - version control
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/modern-technical-writing-etter.mp3
 podcast_file_size: 8.4 MB
 podcast_duration: "10:24"
@@ -36,7 +36,7 @@ Recently to try to get better sleep, I switched from reading my iPhone at night 
 
 While reading on my Kindle, I stumbled across a book called [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter, published in 2016. It's is actually a short book (10,000 words), and you can read it about a half hour.
 
-<figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{ "https://idratherbewritingmedia.com/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
+<figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
 
 {% include random_ad.html %}
 

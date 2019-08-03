@@ -8,7 +8,7 @@ categories:
 keywords:
 summary: "To encourage users to leave more feedback, add a contact email field on your feedback submission form. When you receive feedback, provide a quick response that shows you're listening and taking action on their input."
 bitlink: http://bit.ly/motivatinguserfeedback
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/motivatinguserfeedback.mp3
 podcast_file_size: 9.1 MB
 podcast_duration: "09:48"
@@ -21,11 +21,11 @@ podcast_length: 9083336
 
 A few months ago, we added a feedback form to our Appstore docs at work. Right below the title on every page, we added an easily visible button that says “Submit Feedback.”  The button opens a Qualtrics form where users can submit ratings and comments.
 
-<img src="https://idratherbewritingmedia.com/images/feedbacksubmitbuttonwork.png" style="max-width: 600px;"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/feedbacksubmitbuttonwork.png" style="max-width: 600px;"/>
 
 This initial feedback form looked like this:
 
-<a href="https://amazon6.qualtrics.com/jfe/form/SV_6DzfbuTrUVlOaCV"><img src="https://idratherbewritingmedia.com/images/initialfeedbackformwork.png"/></a>
+<a href="https://amazon6.qualtrics.com/jfe/form/SV_6DzfbuTrUVlOaCV"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/initialfeedbackformwork.png"/></a>
 
 Not a lot of feedback came in through this form &mdash; maybe one legitimate comment a day on average. Our metrics say about a thousand people visit the docs a day, so why weren't more people leaving feedback? I doubted they were all finding exactly what they needed and leaving happy and satisfied.
 
@@ -47,7 +47,7 @@ I realized our original feedback form didn’t have a contact email address for 
 
 I also decided to adjust a few of the questions to align with AWS's feedback form (here's [an example][aws-feedback-form]). Our revised feedback form now looks like this:
 
-<a href="https://amazon6.qualtrics.com/jfe/form/SV_eY6MEvUz1XW3ril"><img src="https://idratherbewritingmedia.com/images/revisedfeedbackformwork.png"/></a>
+<a href="https://amazon6.qualtrics.com/jfe/form/SV_eY6MEvUz1XW3ril"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/revisedfeedbackformwork.png"/></a>
 
 Adding this contact email field makes a significant difference because it invites a conversation. It indicates that we are listening and will potentially respond.
 

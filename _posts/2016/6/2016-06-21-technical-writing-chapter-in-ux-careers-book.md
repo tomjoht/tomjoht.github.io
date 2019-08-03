@@ -9,7 +9,7 @@ thumb: uxcareershandbookthumb.png
 
 Here's the book:
 
-<figure><a href="https://uxcareershandbook.com"><img src="{{ "https://idratherbewritingmedia.com/images/uxcareershandbook.png" | prepend: site.baseurl }}"/></a><figcaption>UX Careers Handbook</figcaption></figure>
+<figure><a href="https://uxcareershandbook.com"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/uxcareershandbook.png" | prepend: site.baseurl }}"/></a><figcaption>UX Careers Handbook</figcaption></figure>
 
 What does *UX Careers Handbook* contain?
 

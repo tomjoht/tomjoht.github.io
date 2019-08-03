@@ -7,7 +7,7 @@ categories:
 keywords: usability, twilio, user experience
 summary: "In this podcast, I chat with Professor <a href='#kirk_st_amant'>Kirk St. Amant</a> about the relationship between practitioners and academics. Kirk recently co-authored an article about research as a unifying focus to bring academics and practitioners together. Using this article as the basis for discussion, we dive into origins of the divide, why both practitioners and academics of the same field need each other, potential solutions, and more."
 bitlink: http://bit.ly/practitioneracademicrelationships
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/researchkirkstamantpodcast.mp3
 podcast_file_size:  50 MB
 podcast_duration: "56:22"
@@ -18,7 +18,7 @@ podcast_length: 50027689
 
 ## Journal article we discuss
 
-The journal article we discuss is [Reflections on Research: Examining Practitioner Perspectives on the State of Research in Technical Communication (PDF)](http://www.ingentaconnect.com/search/article?option1=tka&value1=reflections+on+research&operator3=AND&option3=journalbooktitle&value3=technical+communication&freetype=unlimited&sortDescending=true&sortField=default&pageSize=10&index=1), published in the Nov 2016 *Technical Communication Journal*. (If you don't have access to Ingenta, you can view the article <a target="\_blank" href='https://idratherbewritingmedia.com/academic_articles/reflections_on_research_kirk_st_amant.pdf'>here</a>.)
+The journal article we discuss is [Reflections on Research: Examining Practitioner Perspectives on the State of Research in Technical Communication (PDF)](http://www.ingentaconnect.com/search/article?option1=tka&value1=reflections+on+research&operator3=AND&option3=journalbooktitle&value3=technical+communication&freetype=unlimited&sortDescending=true&sortField=default&pageSize=10&index=1), published in the Nov 2016 *Technical Communication Journal*. (If you don't have access to Ingenta, you can view the article <a target="\_blank" href='https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/academic_articles/reflections_on_research_kirk_st_amant.pdf'>here</a>.)
 
 Here's a brief excerpt:
 

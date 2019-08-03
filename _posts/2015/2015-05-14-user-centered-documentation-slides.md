@@ -14,7 +14,7 @@ weight: 1.3
 <p>This is a post in my on-going <a href="https://idratherbewriting.com/series/user-centered-documentation/">series on user-centered documentation</a>.</p>
 <p>I usually write a series of posts, and then create a slide presentation summarizing my insights at the end. Then I usually give the presentation at some venue.</p>
 <p>Well, I didn't have time to write out the posts before giving the presentation this time, so I actually have the slides already prepared. You can view the user-centered documentation slides here.</p>
-<p><a href="https://idratherbewriting.com/files/user-centered-documentation"><img src="https://idratherbewritingmedia.com/images/ucdthumb.png" alt="user-centered documentation" width="350" height="283" class="alignnone size-full wp-image-22705" /></a></p>
+<p><a href="https://idratherbewriting.com/files/user-centered-documentation"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/ucdthumb.png" alt="user-centered documentation" width="350" height="283" class="alignnone size-full wp-image-22705" /></a></p>
 <p>(Note that when you move through the slides, use your space bar rather than your arrow key because many of the slides move down instead of right.)</p>
 <p>Now that I have the slides up and available, you'll get a sense of the direction I'm going with this series. In each of the posts to come, I'll explore these patterns with more depth.</p>
 

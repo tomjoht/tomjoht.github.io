@@ -8,7 +8,7 @@ keywords:
 summary: "Although traditionally as a technical writer you don't run into too many ethical scenarios for docs, sometimes you have situations where your ability to be transparent about a system's limitations gets curtailed by marketing or product management. It can be frustrating to have your documentation filtered like this, but you can take comfort knowing that, given the decentralized nature of information on the web, where any user can post information in forums, blogs, and other sites, the information filtered out of your docs will eventually be published online (it just might not be published by you)."
 bitlink: http://bit.ly/transparencyindocs
 thumb: transparencyindoc.png
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/transparencyindocs.mp3
 podcast_file_size: 14.6 MB
 podcast_duration: "18:28"
@@ -113,7 +113,7 @@ If Joe Blogger doesn't write about it, Francis Forum-Goer will ask about it in t
 
 You can't hide information or control the narrative by omitting it. That's why we love the Internet &mdash; it is our omniscient friend, ready to spill the secrets others aren't willing to share. If the Internet lacks the information, we add it.
 
-<img src="https://idratherbewritingmedia.com/images/decentralized_information-01.svg" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/decentralized_information-01.svg" />
 
 In the list of reasons for uneasiness with information filtering, my blogger identity ranks high as a contributing cause.
 

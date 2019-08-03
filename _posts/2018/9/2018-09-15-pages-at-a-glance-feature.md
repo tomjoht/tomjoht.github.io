@@ -96,7 +96,7 @@ Ideally, when defining the Jekyll templates, I should have made the `description
 
 In my blog posts here, one of my best decisions was to define a `summary` section in my page's frontmatter that I then incorporated into the layout. I created this `summary` section about two years ago after seeing it on [Jakob Nielsen's blog](https://www.nngroup.com/articles/) (for example, see this post [here](https://www.nngroup.com/articles/signal-noise-ratio/) to see the summary).
 
-<figure><a href="https://www.nngroup.com/articles/signal-noise-ratio/"><img src="https://idratherbewritingmedia.com/images/nielsenexamplesummaries.png"/></a><figcaption>You can quickly get an idea of what the page is about by reading the two sentence summary at the top.</figcaption></figure>
+<figure><a href="https://www.nngroup.com/articles/signal-noise-ratio/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/nielsenexamplesummaries.png"/></a><figcaption>You can quickly get an idea of what the page is about by reading the two sentence summary at the top.</figcaption></figure>
 
 If any of my posts omit the `description`, the layout has a gaping hole. In this way, the structure forces me to align with best practices, because I know this `description` is probably just about the only part many people read. (Of course, real enforcement would break the build if the `description` property were missing from the frontmatter, but the ugly gap in the layout works well enough.)
 

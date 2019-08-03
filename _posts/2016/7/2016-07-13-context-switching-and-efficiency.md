@@ -11,7 +11,7 @@ tags:
 - technical writing
 - documentation
 - technical communication
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/kanban-and-context-switching.mp3
 podcast_file_size: 5.7 MB
 podcast_duration: "07:09"

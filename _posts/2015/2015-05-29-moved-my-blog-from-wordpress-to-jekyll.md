@@ -9,7 +9,7 @@ summary: "I moved my blog from WordPress to Jekyll because I want to use the sam
 
 After experimenting with Jekyll as a documentation platform for the past several months, I decided to migrate my blog from WordPress to Jekyll. 
 
-<img src="{{ "https://idratherbewritingmedia.com/images/jekyllrblogo.png" | prepend: site.baseurl }}" alt="" />	
+<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/jekyllrblogo.png" | prepend: site.baseurl }}" alt="" />	
 
 Although I think WordPress is a nearly perfect blogging platform, and I have extensive knowledge about building sites in WordPress, I still made the switch. 
 

@@ -8,7 +8,7 @@ categories:
 keywords:
 summary: "In the debate between being a specialist or generalist, there's also a third option: developing <i>technical acuity</i>. A person with a high degree of technical acuity has the technical mindset needed to understand and solve problems across a variety of technical domains. Given the ever growing number of technologies, developing technical acuity can be more advantageous, especially in technical writing contexts since technical writers work with a lot of different technologies."
 bitlink: http://bit.ly/techacuity123
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/technicalacuity.mp3
 podcast_file_size: 11.6 MB
 podcast_duration: "13:07"
@@ -37,7 +37,7 @@ Why might technical acuity be more valuable than specialized knowledge? Well, sp
 
 For an example of the needed variety, look at this explosion of technologies between 2005 and 2016 as [depicted by Thoughtworks](https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives):
 
-<a href="https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives"><img src="https://idratherbewritingmedia.com/images/techstackcomplexity.png" /></a>
+<a href="https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/techstackcomplexity.png" /></a>
 
 In the transition from single vendor technology stacks (e.g., Microsoft) to multi-vendor stacks, it's impractical to hire individual specialists to handle every unique component. Instead, engineers need to be able to traverse the tech stack as needed and self-learn what they need to know. What's more valuable in this explosion of technology? Someone who knows 2-3 of these boxes in depth, or someone with strong technical acuity (who might only know 1 box) but who can ramp up and make sense of a dozen boxes in a few months?
 

@@ -7,7 +7,7 @@ categories:
 keywords:
 summary: "This past week I had some good discussions with developers about the right directions in our doc-as-code project at work. I say good discussions, but actually they were challenging. The outcome led me to realize more details about embracing docs as code. The more you treat docs as code, the more you may have to set aside some common tech writer models of handling content and instead embrace the software code workflows entirely. Some of these principles include storing only source code in repositories, building from a build management system, and reducing build pipelines to work with 1 or 2 larger repositories only."
 bitlink: http://bit.ly/docsascodepathrealizations
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/docsascoderealizations.mp3
 podcast_file_size: 19.8 MB
 podcast_duration: "23:59"
@@ -22,7 +22,7 @@ To provide a little background, at my work we are developing a system to build o
 
 One challenge we faced was in determining the right content architecture &mdash; specifically, how to divide up the content. With two teams of writers (about 10 writers total), and approximately 15 or so distinct products, each with their own documentation, what is the right content architecture? Should we have lots of little repos &mdash; that is, one repo per product? Or should we have 1 or 2 repos that consolidate documentation for a lot of different products?
 
-<img src="https://idratherbewritingmedia.com/images/reposize-01.svg"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/reposize-01.svg"/>
 
 I've tried both, and I opted for smaller repos based on the following reasons:
 

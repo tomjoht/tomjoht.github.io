@@ -9,7 +9,7 @@ bitlink: http://bit.ly/openapi30tutorial
 
 You can view my OpenAPI 3.0 tutorial here: [OpenAPI 3.0 tutorial overview](https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html). Here are the 8 steps in the tutorial:
 
-<a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="https://idratherbewritingmedia.com/images/open-api-tutorial-workflow.png"/></a>
+<a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/open-api-tutorial-workflow.png"/></a>
 
 * [Step 1: openapi object](https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html)
 * [Step 2: info object](https://idratherbewriting.com/learnapidoc/pubapis_openapi_step2_info_object.html)

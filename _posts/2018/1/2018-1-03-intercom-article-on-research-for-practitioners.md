@@ -10,7 +10,7 @@ bitlink: http://bit.ly/stcintercomresearcharticle
 If you're an STC member, you can read the article on the STC Intercom site here: [How to Research What You Need to Learn to Be Successful as a Technical Writer
 ](https://www.stc.org/intercom/2017/12/how-to-research-what-you-need-to-learn-to-be-successful-as-a-technical-writer/).
 
-<a href="https://www.stc.org/intercom/2017/12/how-to-research-what-you-need-to-learn-to-be-successful-as-a-technical-writer/"><img src="https://idratherbewritingmedia.com/images/intercom-research-article.png"/></a>
+<a href="https://www.stc.org/intercom/2017/12/how-to-research-what-you-need-to-learn-to-be-successful-as-a-technical-writer/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/intercom-research-article.png"/></a>
 
 In the article, I explain four facets of knowledge &mdash; Product knowledge, Technical knowledge, User knowledge, and Industry knowledge &mdash; and how this knowledge informs documentation. I also explore strategies for incorporating this knowledge into your daily workflow.
 

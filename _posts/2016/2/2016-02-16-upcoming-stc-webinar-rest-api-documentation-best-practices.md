@@ -12,7 +12,7 @@ Feb 20 update: If you would like to view the slides from my API doc presentation
 
 This Thursday I'll be giving an STC webinar titled [Best Practices for Documenting REST APIs](http://www.stc.org/education/online-education/live-seminars/item/best-practices-for-documenting-rest-apis?category_id=53).
 
-<a href="http://www.stc.org/education/online-education/live-seminars/item/best-practices-for-documenting-rest-apis?category_id=53"><img src="{{ "https://idratherbewritingmedia.com/images/stcwebinarbestpractrestapis.png" | prepend: site.baseurl }}" alt="Best Practices for Documenting REST APIs" /></a>
+<a href="http://www.stc.org/education/online-education/live-seminars/item/best-practices-for-documenting-rest-apis?category_id=53"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/stcwebinarbestpractrestapis.png" | prepend: site.baseurl }}" alt="Best Practices for Documenting REST APIs" /></a>
 
 I know I've been focusing a lot on API documentation lately on my site, and it seems I've given dozens of different API doc presentations over the past couple of years. In this presentation, I'm going to try to distill the essence of my [API documentation course](https://idratherbewriting.com/learnapidoc/) in about 45 minutes. I might try to record a practice run of the webinar as well.
 
@@ -20,4 +20,4 @@ I know I've been focusing a lot on API documentation lately on my site, and it s
 
 On the same topic of API documentation, if you're in the San Francisco Bay area, this Thursday the Write the Docs group is also holding a [meetup on API documentation](http://www.meetup.com/Write-the-Docs/events/228074123/) in Redwood City. Andrew Fuchs from Google will be presenting.
 
-<a href="http://www.meetup.com/Write-the-Docs/events/228074123/"><img src="{{ "https://idratherbewritingmedia.com/images/wtdmeetupapidocaf.png" | prepend: site.baseurl }}" alt="Write the Docs meetup on API documentation" /></a>
+<a href="http://www.meetup.com/Write-the-Docs/events/228074123/"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/wtdmeetupapidocaf.png" | prepend: site.baseurl }}" alt="Write the Docs meetup on API documentation" /></a>

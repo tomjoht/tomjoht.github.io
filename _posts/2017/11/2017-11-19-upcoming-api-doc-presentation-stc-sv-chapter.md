@@ -8,7 +8,7 @@ categories:
 keywords:
 summary: "I recently gave a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter in Santa Clara, California. The video recording and audio are available here."
 bitlink: http://bit.ly/upcomingstcsvapidocpreso
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stcsv-introtoapidocs.mp3
 podcast_file_size: 49.6 MB
 podcast_duration: "1:05:04"
@@ -27,7 +27,7 @@ podcast_length: 49595665
 
 My slides are here: [idratherbewriting.com/intro-to-api-documentation](https://idratherbewriting.com/intro-to-api-documentation/index.html).
 
-<a href="https://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="https://idratherbewritingmedia.com/images/stcsv-intro-api-doc.png" style="border: 1px solid #dedede"/></a>
+<a href="https://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/stcsv-intro-api-doc.png" style="border: 1px solid #dedede"/></a>
 
 ## Presentation details
 
@@ -53,7 +53,7 @@ Also, I don't cover any new material that isn't already in my [API documentation
 
 To learn more about the Silicon Valley chapter of the STC, see [http://www.stc-siliconvalley.org](http://www.stc-siliconvalley.org).
 
-<a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="https://idratherbewritingmedia.com/images/stcsvscreenshot22.png"/></a>
+<a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/stcsvscreenshot22.png"/></a>
 
 
 

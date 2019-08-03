@@ -26,6 +26,6 @@ Each time we do a doc review with someone, even if the person isn't a real user 
 
 Here's a graphic that shows my point:
 
-<img src="https://idratherbewritingmedia.com/images/secondchancepoints.svg" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/secondchancepoints.svg" />
 
 Note that I don't mean we should publish multiple versions of the same content, only that our doc should iterate through multiple versions before it gets good enough that it connects with the exact needs of the user.

@@ -14,7 +14,7 @@ tags:
 - documentation
 - technical communication
 - stitcher
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/aliciaavrachaudio.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "01:16:37"

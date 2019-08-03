@@ -38,7 +38,7 @@ Many times, the API reference uses a different design or layout (such as 3-colum
 
 Companies that follow this approach may be very API-focused or developer focused, yet already have higher-level integrations. As such, working with the API directly is not be needed. Such companies include [Stripe](https://stripe.com/docs) and also us at Moesif. Stripe, for example, has their Stripe.js and Android/iOS SDKs front and center compared to their REST API.
 
-<img src="https://idratherbewritingmedia.com/images/moesif-image01.png" style="border: 1px solid #dedede; max-width: 600px;" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image01.png" style="border: 1px solid #dedede; max-width: 600px;" />
 
 For Moesif, many developers will not need to work with the REST API directly as there are higher-level integrations to get started with. Thus, a new NodeJS developer visiting the docs for the first time will probably be more interested in the *moesif-express* middleware rather than reading about the raw *NodeJS API wrapper* library.
 
@@ -86,7 +86,7 @@ Companies with combined developer docs generally see their visitors as belonging
 
 Mixpanel and Amplitude both follow this approach pretty closely. Square also follows this with the [Square Docs](https://docs.connect.squareup.com/).
 
-<img src="https://idratherbewritingmedia.com/images/moesif-image03.png" style="border: 1px solid #dedede; max-width: 600px;"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image03.png" style="border: 1px solid #dedede; max-width: 600px;"/>
 
 Unlike Moesif, these companies market to both developers and non-developers. For Mixpanel and Amplitude, the primary user is not necessarily the developer who integrates the product. Rather, Mixpanel and Amplitude are marketing their product to data-curious marketers and product managers. Square is marketing their product to merchants and retailers. These companies are marketing the flexibility of the product rather than the flexibility of the API.
 
@@ -126,7 +126,7 @@ Rather than cluttering a centralized doc site, these companies decentralize such
 
 Decentralized docs can be a good fit for large companies that don't have centralized documentation teams, where each product owns its respective documentation.
 
-<img src="https://idratherbewritingmedia.com/images/moesif-image05.png" style="border: 1px solid #dedede; max-width: 600px;" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image05.png" style="border: 1px solid #dedede; max-width: 600px;" />
 
 ### Benefits
 
@@ -148,7 +148,7 @@ In addition to choices about where to include your API reference material, you h
 
 This feature is a must for anyone creating long documents. As visitors scroll through your long document, they shouldn't have to scroll to the top just to see the navigation. No matter if you look at Stripe's, Auth0's, or Algolia's docs, they all have something in common: sticky sidebars in the left column.
 
-<img src="https://idratherbewritingmedia.com/images/moesif-image07.gif" style="border: 1px solid #dedede; max-width: 600px;" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image07.gif" style="border: 1px solid #dedede; max-width: 600px;" />
 
 ### Saved scroll state
 
@@ -160,7 +160,7 @@ Most documentation is organized around some sort of sitemap menu on left. Some d
 
 Accordion style navigation can help declutter really long sidebars. However, they can also impede developers from seeing a quick sitemap of the documentation. Accordion menus work especially well with REST API reference docs when each sub-menu is a simple CRUD operation and is important to show as part of a sitemap.
 
-<img src="https://idratherbewritingmedia.com/images/moesif-image08.gif" style="border: 1px solid #dedede; max-width: 340px;" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image08.gif" style="border: 1px solid #dedede; max-width: 340px;" />
 
 ### 3-column documentation
 
@@ -170,7 +170,7 @@ API reference material is ideal for this format since your entity schemas and me
 
 We've seen doc designers try to implement getting started guides or non-API reference documentation using Stripe's three-column format. Sometimes it can work, but many times it's not the correct design choice.
 
-<img src="https://idratherbewritingmedia.com/images/moesif-image09.png" style="border: 1px solid #dedede; max-width: 600px;" />
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image09.png" style="border: 1px solid #dedede; max-width: 600px;" />
 
 ### Long single page vs many pages
 
@@ -184,7 +184,7 @@ A link directly to the source on Github can encourage your visitors to be active
 
 Many larger companies are also using GitHub. Even Microsoft Azure has [azure-docs on Github](https://github.com/Microsoft/azure-docs).
 
-<a href="https://github.com/Microsoft/azure-docs"><img src="https://idratherbewritingmedia.com/images/moesif-image11.jpg" style="border: 1px solid #dedede; max-width: 160px;" /></a>
+<a href="https://github.com/Microsoft/azure-docs"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/moesif-image11.jpg" style="border: 1px solid #dedede; max-width: 160px;" /></a>
 
 ### Markdown
 
@@ -200,4 +200,4 @@ This goes without saying, but don't forget responsive design. While most visitor
 
 ## About Derric Gilling
 
-<img src="{{ "https://idratherbewritingmedia.com/images/derric.jpg" | prepend: site.baseurl }}" alt="Derric Gilling" style="float: left; border: 1px solid #dedede; padding-right:10px; padding-top:0px; margin-top:5px; max-width: 150px;" />Derric Gilling is the current CEO at Moesif, an error analysis platform, based in San Francisco, CA. He also was the CTO at Trove Market and a computer architect at Intel on the Xeon Phi CPU. He studied Computer Engineering at the University of Michigan. He focuses on API design and development, debugging, analytics, and computer architecture.  
+<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/derric.jpg" | prepend: site.baseurl }}" alt="Derric Gilling" style="float: left; border: 1px solid #dedede; padding-right:10px; padding-top:0px; margin-top:5px; max-width: 150px;" />Derric Gilling is the current CEO at Moesif, an error analysis platform, based in San Francisco, CA. He also was the CTO at Trove Market and a computer architect at Intel on the Xeon Phi CPU. He studied Computer Engineering at the University of Michigan. He focuses on API design and development, debugging, analytics, and computer architecture.  

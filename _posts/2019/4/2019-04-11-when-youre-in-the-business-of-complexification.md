@@ -20,7 +20,7 @@ That may be true (the tax code is complex on its own, independent of TurboTax), 
 
 The IRS thrives on complexification as well. The more complex your taxes, the more they stand to benefit from you not doing your taxes properly. The more confusing they can make it to get your refund, the more money they can keep. Here's a simple example. Suppose you're a 17-year-old kid who just earned a few thousand dollars from a summer of lifeguarding (as was the case with my oldest daughter). You're not sure if you need to pay taxes, so you look up the instructions for 1040 to see the minimum filing requirements:
 
-<caption><a href="https://www.irs.gov/pub/irs-pdf/i1040gi.pdf"> <img src="https://idratherbewritingmedia.com/images/irsfilingrequirements.png" alt="Minimum filing requirements" /></a><figcaption>Minimum tax filing requirements. This chart shows that as long as you make under $12k, you don't need to file.</figcaption></caption>
+<caption><a href="https://www.irs.gov/pub/irs-pdf/i1040gi.pdf"> <img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/irsfilingrequirements.png" alt="Minimum filing requirements" /></a><figcaption>Minimum tax filing requirements. This chart shows that as long as you make under $12k, you don't need to file.</figcaption></caption>
 
 From this it would appear that you don't need to file taxes unless you make at least $12,000. What a relief! What they fail to tell you is that if you don't file taxes, you're letting the government keep your refund. A more appropriate description here might say, "You're not *required* to file. But if you do not file, the government gets to keep your refund, if you have one available. If you choose this option, we thank you for your donation."
 
@@ -28,7 +28,7 @@ The first year my daughter needed to do taxes, we looked up the minimum filing r
 
 Also, if you've ever tried filling out the paper method of the 1040 form (required for doing back taxes), there's a fun puzzle-like logic you have to complete. Add these numbers, subtract from this line, add in this number and subtract it from the sum of the other two, and so on. I have to wonder if the IRS purposely tries to make what should probably be automated directly from the W-2 into a chicanery of instructions just to complexify the situation.
 
-<caption><a href="https://www.irs.gov/pub/irs-pdf/f1040.pdf"> <img src="https://idratherbewritingmedia.com/images/unnecessary_complexity_taxes.png" alt="Minimum filing requirements" style="border: 1px solid #dedede;"/></a><figcaption>Is all this jumping around with adding and subtracting across different rows really necessary?</figcaption></caption>
+<caption><a href="https://www.irs.gov/pub/irs-pdf/f1040.pdf"> <img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/unnecessary_complexity_taxes.png" alt="Minimum filing requirements" style="border: 1px solid #dedede;"/></a><figcaption>Is all this jumping around with adding and subtracting across different rows really necessary?</figcaption></caption>
 
 Maybe the IRS is full of earnest people who have attempted to simplify the tax code as much as possible. Or not. I'm not sure. This morning I read that TurboTax lobbied the IRS to eliminate the government from creating free or simpler solutions for filing taxes &mdash; see [TurboTax, H&R Block Spend Big Bucks Lobbying for Us to Keep Doing Our Own Taxes](https://www.nbcnews.com/business/taxes/turbotax-h-r-block-spend-millions-lobbying-us-keep-doing-n736386).
 

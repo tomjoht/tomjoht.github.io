@@ -7,7 +7,7 @@ summary: "A recent article in the <i>Technical Communication Journal</i> explore
 thumb: techcommjonline.png
 ---
 
-<a href="http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/"><img style="float: right; padding: 10px;" src="{{ "https://idratherbewritingmedia.com/images/techcommjonline.png" | prepend: site.baseurl }}" alt="Technical Communication Journal" /></a>
+<a href="http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/"><img style="float: right; padding: 10px;" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/techcommjonline.png" | prepend: site.baseurl }}" alt="Technical Communication Journal" /></a>
 
 The February 2016 issue of the Technical Communication Journal (an academic journal containing scholarly articles about technical communication) contains a article well worth reading titled [Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation](http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/), by Carlos Evia, who teaches at Virginia Tech, and Michael Priestley, who works at IBM.
 

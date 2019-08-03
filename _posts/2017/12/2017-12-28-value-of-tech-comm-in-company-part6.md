@@ -47,7 +47,7 @@ As a profession, I think we underestimate the degree of difficulty required for 
 
 To provide the most value, technical writers shouldn't merely gravitate towards documenting the obvious or easy features in a system. Instead, we should focus on the areas that are the most complicated for the users. That's where we should live, swimming in that deep, turbulent ocean water where users are drowning.
 
-<figure><img src="https://idratherbewritingmedia.com/images/intersecting_groups_complexity.svg"/><figcaption>The technical writer simplifies complexity in a way that connects with users and makes sense to them.</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/intersecting_groups_complexity.svg"/><figcaption>The technical writer simplifies complexity in a way that connects with users and makes sense to them.</figcaption></figure>
 
 To put it another way, tech writers should focus on string theory, not on directions to the corner store. (This assumes users struggle to understand string theory and already know where the corner store is.) Clearly, anyone who can explain string theory in a way that's easy to understand will have value in an organization, without the need to continually justify his or her role.
 
@@ -59,15 +59,15 @@ The challenge with simplifying complexity is that it's not just a matter of iden
 
 Because complexity is relative, it's even harder to handle because you no longer have a clear measure of whether something is complex. Here's an example. Last weekend I visited the Cantor Museum with my wife and two youngest children. On the second floor, there was an activity station for children:
 
-<img src="https://idratherbewritingmedia.com/images/foldcardhowtosign.jpg"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/foldcardhowtosign.jpg"/>
 
 The idea is to fold a piece of paper in a right way as to create a mini-book. The station is intended for little children who get bored by the exhibits and need a more hands-on activity. Great, we just fold some paper in a defined pattern to make a book, right? Sounds simple. Here are the instructions:
 
-<img src="https://idratherbewritingmedia.com/images/foldacardinstructions.png"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/foldacardinstructions.png"/>
 
 Although it seems easy, it turned out to be quite complicated for the user, which in this case is my 7-year-old, who needed Mom to explain it. In contrast, my 11-year-old found it easy and did not need help.
 
-<figure><img src="https://idratherbewritingmedia.com/images/showing_molly_foldacard.jpg" style="max-width: 100%"/><figcaption>My daughter is at the top of her class for math and is an excellent reader, but she's stuck on the second picture! How do you translate these instructions for the 7-year-old mind, while at the same time serving the 11-year-old who immediately gets it?</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/showing_molly_foldacard.jpg" style="max-width: 100%"/><figcaption>My daughter is at the top of her class for math and is an excellent reader, but she's stuck on the second picture! How do you translate these instructions for the 7-year-old mind, while at the same time serving the 11-year-old who immediately gets it?</figcaption></figure>
 
 Consider the same scenario with the iPhone. For the digital native, few instructions are needed. But for senior citizens like my Dad or others who didn't grow up installing apps on smartphones, it can be quite complex when something goes wrong. In fact, even understanding the difference between cellular network data and wifi network data is somewhat beyond the folks in his assisted living center. About half the people don't even know their network wifi password in these places (I'm not kidding). He is constantly frustrated that his iPhone doesn't seem to have any instructions that put information in clear, understandable English.
 

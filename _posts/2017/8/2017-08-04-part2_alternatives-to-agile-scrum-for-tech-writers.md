@@ -7,7 +7,7 @@ categories:
 keywords: Agile
 summary: "This is part two in a series on Agile and tech docs. In the previous post, I outlined challenges in integrating into engineering Scrum teams. Some alternatives to Scrum include Kanban, Extreme programming, Waterfall, and various productivity methodologies. The most compelling solution, to me, seems to be to form your own documentation-focused Scrum. This allows you to keep with the same project management approach and language in the company, while also allowing you to avoid the pitfalls previously described with integrating into an engineering Scrum. Even so, there's not an extremely compelling reason for docs to adopt Scrum, so its main aid might be to give you a disciplined approach to your doc work."
 bitlink: techdocsandagilepart2
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/docsandagile_part2.mp3
 podcast_file_size: 24 MB
 podcast_duration: "31:07"

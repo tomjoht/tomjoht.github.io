@@ -6,7 +6,7 @@ categories:
 - stitcher
 keywords: lms, user progress, learning management system, motivation, goals, course, api documentation
 bitlink: http://bit.ly/communicateprogress
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/progresswithoutanlms.mp3
 podcast_file_size: 11.6 MB
 podcast_duration: "14:21"
@@ -52,15 +52,15 @@ Given my static setup, are there alternative ways to inspire users with a sense 
 
 Even without a database to track progress, I decided to start small. I embedded a progress bar at the bottom of every page that shows users how far they are in the course. This progress bar is populated based on the page they're viewing in the course. If the user randomly lands on a page in the middle of the course, the site will think the user completed all the previous pages up to that point, so it's a bit of a fiction. But it does convey the idea that the user is progressing in a larger system.
 
-<img src="https://idratherbewritingmedia.com/images/progressbarjs.png"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/progressbarjs.png"/>
 
 (This progress, by the way, is mathematically calculated and dynamically generated (see the [source here](https://github.com/tomjoht/learnapidoc/blob/master/_includes/progress.html)). The idea is that no user likes to see that their progress isn't complete, so it might motivate them to keep going.
 
 I also incorporated some workflow maps for my [API reference tutorial](https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html) and for my [OpenAPI tutorial](https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html). Workflow maps as shown below appear at the top of each of these tutorial pages.
 
-<a href="https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html"><img src="https://idratherbewritingmedia.com/images/workflowmapexample_apiref.png" alt="API reference tutorial"/></a>
+<a href="https://idratherbewriting.com/learnapidoc/docapis_resource_descriptions.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/workflowmapexample_apiref.png" alt="API reference tutorial"/></a>
 
-<a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="https://idratherbewritingmedia.com/images/workflowmapexample_openapi.png" alt="OpenAPI tutorial"/></a>
+<a href="https://idratherbewriting.com/learnapidoc/pubapis_openapi_step1_openapi_object.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/workflowmapexample_openapi.png" alt="OpenAPI tutorial"/></a>
 
 While workflow maps are good, they mostly act as navigational aids to help users recognize that they're following a larger process that spans multiple pages, and that each step should be more or less followed in the sequence shown. The workflow boxes highlight based on where you're currently at in the tutorial, but they don't record your session progress in any way.
 

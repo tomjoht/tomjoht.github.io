@@ -7,7 +7,7 @@ categories:
 keywords:
 summary: "I recently gave a half-day API workshop in Denver on March 10, 2018. Topics in the workshop included how to document reference API content (endpoints, parameters, requests, etc.), what non-reference topics (for example, status and error codes, rate limiting, getting started, sample apps) are common, how to create an OpenAPI specification document and Swagger UI output, and more. You can view a recording of the workshop, browse the slides, and listen to the audio here. Because of the length, the content is divided into three parts."
 bitlink: http://bit.ly/apiworkshopdenvertomrecording
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_all.mp3
 podcast_file_size: 191.3 MB
 podcast_duration: "03:51:12"
@@ -76,15 +76,15 @@ If you just want to browse the slides, you can do so here:
 
 **Part I**:
 
-<a href="https://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="https://idratherbewritingmedia.com/images/introapidoctitleslide.png" style="max-width: 300px; border: 1px solid #dedede;"></a>
+<a href="https://idratherbewriting.com/intro-to-api-documentation/index.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/introapidoctitleslide.png" style="max-width: 300px; border: 1px solid #dedede;"></a>
 
 **Part II**:
 
-<a href="https://idratherbewriting.com/openapi-and-swagger/#/"><img src="https://idratherbewritingmedia.com/images/openapiswaggertitleslide.png" style="max-width: 300px; border: 1px solid #dedede;"></a>
+<a href="https://idratherbewriting.com/openapi-and-swagger/#/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/openapiswaggertitleslide.png" style="max-width: 300px; border: 1px solid #dedede;"></a>
 
 **Part III**:
 
-<a href="https://idratherbewriting.com/nonref-content-api-docs/#/"><img src="https://idratherbewritingmedia.com/images/nonreftitleslide.png" style="max-width: 300px; border: 1px solid #dedede;"></a>
+<a href="https://idratherbewriting.com/nonref-content-api-docs/#/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/nonreftitleslide.png" style="max-width: 300px; border: 1px solid #dedede;"></a>
 
 The slides are all stored on GitHub:
 

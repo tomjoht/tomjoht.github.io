@@ -16,7 +16,7 @@ This scenario usually ended up with me fishing around in the router cords trying
 
 I'm happy to say, fingers crossed, that these days of online/offline Internet connectivity might be over. My wife purchased a device called [Circle](https://meetcircle.com/), which was about $100. This little box sits between your router and your wifi. All wifi-connected devices go through Circle to get to the router's wifi.
 
-<a href="https://meetcircle.com/"><img src="https://idratherbewritingmedia.com/images/circlerouter.png"/></a>
+<a href="https://meetcircle.com/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlerouter.png"/></a>
 
 (BTW, this isn't any kind of paid review or sponsored post. I just really like this device.)
 
@@ -32,19 +32,19 @@ Here are a few screenshots from the Circle app:
 }
 </style>
 <div class="circle_screenshots">
-<img class="circle" src="https://idratherbewritingmedia.com/images/circlescreenshot7.png"/>
+<img class="circle" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlescreenshot7.png"/>
 
-<img class="circle" src="https://idratherbewritingmedia.com/images/circlescreenshot1.png"/>
+<img class="circle" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlescreenshot1.png"/>
 
-<img class="circle" src="https://idratherbewritingmedia.com/images/circlescreenshot6.png"/>
+<img class="circle" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlescreenshot6.png"/>
 
 
 <div style="clear: both"></div>
-<img class="circle" src="https://idratherbewritingmedia.com/images/circlescreenshot3.png"/>
+<img class="circle" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlescreenshot3.png"/>
 
-<img class="circle" src="https://idratherbewritingmedia.com/images/circlescreenshot4.png"/>
+<img class="circle" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlescreenshot4.png"/>
 
-<img class="circle" src="https://idratherbewritingmedia.com/images/circlescreenshot5.png"/>
+<img class="circle" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/circlescreenshot5.png"/>
 
 </div>
 

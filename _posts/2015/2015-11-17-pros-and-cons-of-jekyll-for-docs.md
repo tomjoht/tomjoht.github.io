@@ -7,7 +7,7 @@ summary: "As with any help system, there are some pros and cons with using Jekyl
 thumb: thumbsupdown_hands.png
 ---
 
-<img class="alignright" src="{{ "https://idratherbewritingmedia.com/images/thumbnails/thumbsupdown_hands.png" | prepend: site.baseurl }}" alt="Pros and cons of Jekyll" />
+<img class="alignright" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/thumbnails/thumbsupdown_hands.png" | prepend: site.baseurl }}" alt="Pros and cons of Jekyll" />
 We had a lively turnout at the [last STC meeting](http://www.stc-siliconvalley.org/2015/11/15/version-control-workflows-for-help-content/). By lively, I think we had about 30+ people in attendance, and good all-around discussion. 
 
 I had the chance to meet several new people, and one person mentioned that he reads my blog; as a bonus, he had positive things to say. We got to talking, and the conversation turned to DITA (in part because of Sarah OKeefe's [recent post](http://www.scriptorium.com/2015/11/sturm-und-dita-drang-at-tekom/) about the controversy in Germany), and my new friend said, "I know you're a bit of a naysayer with DITA..."

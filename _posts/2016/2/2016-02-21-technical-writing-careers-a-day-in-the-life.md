@@ -16,7 +16,7 @@ James is expecting to publish this second edition book in the next month. On the
 You can view more details about the book here: [How to Get Started As a Technical Writer](https://leanpub.com/getstartedtechwriting)
 
 
-<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "https://idratherbewritingmedia.com/images/jamesgilltechwriterbook.png" | prepend: site.baseurl }}" alt="How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing" /></a><figcaption>James Gill's upcoming book, <i>How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing</i></figcaption></figure>
+<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/jamesgilltechwriterbook.png" | prepend: site.baseurl }}" alt="How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing" /></a><figcaption>James Gill's upcoming book, <i>How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing</i></figcaption></figure>
   
 Here are my responses to the questionnaire:
 

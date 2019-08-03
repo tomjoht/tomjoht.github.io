@@ -10,7 +10,7 @@ type: notes_ucd
 
 Recently I gave a two-hour workshop about user-centered documentation to a company. You can view the slides here:
 
-<a href="https://idratherbewriting.com/files/user-centered-documentation-principles/"><img style="max-width: 350px" src="https://idratherbewritingmedia.com/images/ucdthumb2.png" />
+<a href="https://idratherbewriting.com/files/user-centered-documentation-principles/"><img style="max-width: 350px" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/ucdthumb2.png" />
 
 I decided to convert the presentation into a User-Centered Documentation course on my site (similar to my [API doc course](https://idratherbewriting.com/learnapidoc/)).
 

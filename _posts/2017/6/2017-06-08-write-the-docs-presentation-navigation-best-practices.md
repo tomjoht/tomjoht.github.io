@@ -28,7 +28,7 @@ If you just want the audio, here it is:
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://idratherbewritingmedia.com/images/wtdpresoportland.png"/></a>
+<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/wtdpresoportland.png"/></a>
 
 ## Presentation description
 

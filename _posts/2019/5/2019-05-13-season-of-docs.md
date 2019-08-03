@@ -12,7 +12,7 @@ summary: "When I was at the STC Summit last week, I was chatting with Sarah Madd
 
 You can read more about the program at [Season of Docs](https://developers.google.com/season-of-docs/).
 
-<a href="https://developers.google.com/season-of-docs/"><img src="https://idratherbewritingmedia.com/images/season-of-docs.png" alt="Season of Docs" style="max-width: 800px"/></a>
+<a href="https://developers.google.com/season-of-docs/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/season-of-docs.png" alt="Season of Docs" style="max-width: 800px"/></a>
 
 I had heard of Season of the Docs before the Summit, but I didn't realize that <a href='https://ffeathers.wordpress.com/'>Sarah Maddox</a> was the one who organized the whole program. Given the size and scope of this program, it's a really impressive effort &mdash; Sara believes 100% in open-source, and it shows. You can read more about Season of Docs on her blog here: [Season of Docs is now ready for tech writer exploration](https://ffeathers.wordpress.com/2019/05/02/season-of-docs-is-now-ready-for-tech-writer-exploration/).
 

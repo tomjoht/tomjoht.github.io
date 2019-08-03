@@ -15,7 +15,7 @@ Sort of. It started out great. Participants listed their challenges ahead of tim
 
 It worked all right. But here's the problem. Some people are introverts who don't speak up, while others are more open to sharing information. The more open, vocal people tended to share more and more, while the quiet introverts remained quiet. As a result, it seemed like the meeting was dominated by a small handful of people who perhaps over-commented. But at the same time, no one else was raising his or her hand.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/wtdsolvethis.jpg" | prepend: site.baseurl }}" alt="The interactive Solve This format at Write the Docs" />
+<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/wtdsolvethis.jpg" | prepend: site.baseurl }}" alt="The interactive Solve This format at Write the Docs" />
 
 The solution to this would have been fairly simple. Instead of holding a large group discussion, we should have broken up into mini-groups that better facilitated sharing and interaction. Essentially this format would have almost mirrored the unconference format at TC Camp. The only difference is that instead of posting general topics for discussion, people posted the topics as challenges they were facing.
 

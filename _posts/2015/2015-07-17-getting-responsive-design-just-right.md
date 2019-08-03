@@ -70,7 +70,7 @@ If you're new to media queries, you can see them in CSS stylesheets with the `@m
 
 There are a ton of different devices, so deciding what to change at what width is a bit of a conundrum. However, you can use a site called [Protofluid.com](http://app.protofluid.com) to see how your site looks at different viewport sizes. Here's what my site looks like on an iPhone 5.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/protofluid.png" | prepend: site.baseurl }}" alt="Protofluid" /><figcaption>Protofluid lets you change the viewport dimensions to see how your site looks with different device sizes.</figcaption></figure>
+<figure><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/protofluid.png" | prepend: site.baseurl }}" alt="Protofluid" /><figcaption>Protofluid lets you change the viewport dimensions to see how your site looks with different device sizes.</figcaption></figure>
 
 You can see there are some challenges with that top banner. At the desktop display, the width is 480px, but this is too big for the iPhone display. I just set the width to 80% instead, because I wanted the ad smaller in relation to the other elements with the mobile view, not just filling 100% of its container.
 
@@ -78,7 +78,7 @@ You can see there are some challenges with that top banner. At the desktop displ
 
 Typically when sites sell ad spaces to advertisers, they promise certain sizes and spaces. For example, with [blogads.com](http://blogads.com), which is an ad network that publishes ads across a variety of sites in its network, the application process requires you to indicate what ad slots you're selling on your site. 
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/blogads.png" | prepend: site.baseurl }}" alt="Fixed spaces for blog ads" /><figcaption>You can see spaces to advertises here. Publishers promise certain ad spaces to publishers, who design creative media to fill the designated slots.</figcaption></figure>
+<figure><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/blogads.png" | prepend: site.baseurl }}" alt="Fixed spaces for blog ads" /><figcaption>You can see spaces to advertises here. Publishers promise certain ad spaces to publishers, who design creative media to fill the designated slots.</figcaption></figure>
 
 But how do these same spaces change when your site shifts into mobile view? No mobile view has this kind of real estate. 
 

@@ -9,7 +9,7 @@ I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites w
 
 ## Ad space options and costs
 
-<img style="float:right; padding-left:15px;" src="https://idratherbewritingmedia.com/images/comics/yourcomichere.png" alt="advertising on I'd Rather Be Writing"/>
+<img style="float:right; padding-left:15px;" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/comics/yourcomichere.png" alt="advertising on I'd Rather Be Writing"/>
 
 I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 4,250 page views a day. More specifically, users created 942,306 sessions, with 1.65 pages per session and an average of 1:44 minutes per session.
 
@@ -83,7 +83,7 @@ Sidebar ads (125 x 125px) appear in the left sidebar and randomly rotate positi
 Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
-<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://idratherbewritingmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
 
 The cost for sidebar ads is $1,000 per year. For 6 months only, the cost is $600.
 
@@ -91,7 +91,7 @@ The cost for sidebar ads is $1,000 per year. For 6 months only, the cost is $600
 
 The Horizontal Inline space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
 
-<figure><img src="https://idratherbewritingmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
 Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There is no limit to the number of horizontal inline post ads that can appear below the post (currently there are 4). The cost for inline horizontal ads is $2,000 per year.
 
@@ -99,7 +99,7 @@ Horizontal Inline ads can be JPG, GIF, PNG, or SVG. Animated GIF is also allowe
 
 The top banner ad space (400 x 60px) refers to the top section of the site, in the upper-right corner. The top banner ad is placed in one of the most visually dominant places on the site.
 
-<figure><img src="https://idratherbewritingmedia.com/images/top_banner-600x292.png" alt="Top Banner Ad Space" max-width="600" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/top_banner-600x292.png" alt="Top Banner Ad Space" max-width="600" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
 Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There is only one ad in the Top Banner ad space per advertiser, but it can rotate depending on the number of ads you want to put in this space. For example, if you have three top banner ads, the ads can rotate in this space with each page refresh. The cost for top banner ad space is $6,000 per year. Only one advertiser can rent this space. It's like the main billboard for my site.
 
@@ -107,14 +107,14 @@ Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There
 
 I send out 4 newsletters a month (one per week) to all my email subscribers (4,750+ readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
-<figure><img src="https://idratherbewritingmedia.com/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
+<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
 
 The image format can be any standard image format (JPG, PNG, GIF), but not animated (because the ads appear in email). The cost for advertising in the newsletter space is $1,500 per year. Shorter advertising durations aren't allowed.
 
 {% comment %}
 Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
 
-<figure><a href="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png"><img src="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
+<figure><a href="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/samplenewsletterfeature.png"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
 {% endcomment %}
 
 ## Inline text blurbs {#inline_text_blurbs}

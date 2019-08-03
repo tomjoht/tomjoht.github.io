@@ -9,7 +9,7 @@ thumb: anaheimstcslidesapithumb.png
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/files/apiworkshopslidesstc/" target="\_blank"><img src="{{ "https://idratherbewritingmedia.com/images/docrestapisstcanaheim.png" | prepend: site.baseurl }}"/></a>
+<a href="https://idratherbewriting.com/files/apiworkshopslidesstc/" target="\_blank"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/docrestapisstcanaheim.png" | prepend: site.baseurl }}"/></a>
 
 You can find more detail in my [API doc course](https://idratherbewriting.com/learnapidoc/). (These slides are slightly updated from some of the topics in my course, but generally the slide number in the heading title corresponds with the course number.)
 
