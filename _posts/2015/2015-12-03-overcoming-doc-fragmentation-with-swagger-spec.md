@@ -35,7 +35,7 @@ info:
   description: {{site.data.acme.description}}
   contact:
     name: Tom Johnson
-    email: tom@idratherbewriting.com
+    email: tomjoht@gmail.com
     url: https://idratherbewriting.com
 ```
 {% endraw %}
@@ -55,7 +55,7 @@ info:
   description: {{site.data.acme.description}}
   contact:
     name: Tom Johnson
-    email: tom@idratherbewriting.com
+    email: tomjoht@gmail.com
     url: https://idratherbewriting.com
 ```
 {% endraw %}
@@ -74,7 +74,7 @@ info:
   description: This is a description of my API..."
   contact:
     name: Tom Johnson
-    email: tom@idratherbewriting.com
+    email: tomjoht@gmail.com
     url: https://idratherbewriting.com
 ```
 {% endraw %}

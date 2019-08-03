@@ -22,7 +22,7 @@ layout: null
     <itunes:summary>Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.</itunes:summary>
     <itunes:owner>
       <itunes:name>Tom Johnson</itunes:name>
-      <itunes:email>tom@idratherbewriting.com</itunes:email>
+      <itunes:email>tomjoht@gmail.com</itunes:email>
     </itunes:owner>
 
         {% for ep in site.categories.stitcher %}
