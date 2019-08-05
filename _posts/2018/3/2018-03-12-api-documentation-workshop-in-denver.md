@@ -8,7 +8,7 @@ keywords:
 summary: "I recently gave a half-day API workshop in Denver on March 10, 2018. Topics in the workshop included how to document reference API content (endpoints, parameters, requests, etc.), what non-reference topics (for example, status and error codes, rate limiting, getting started, sample apps) are common, how to create an OpenAPI specification document and Swagger UI output, and more. You can view a recording of the workshop, browse the slides, and listen to the audio here. Because of the length, the content is divided into three parts."
 bitlink: http://bit.ly/apiworkshopdenvertomrecording
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_all.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_all.mp3
 podcast_file_size: 191.3 MB
 podcast_duration: "03:51:12"
 podcast_length: 191263369
@@ -40,26 +40,26 @@ The recording of the workshop is divided into three parts. Each of these section
 **Part I**:
 
 <div class="audioControls">
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_part1.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_part1.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-<a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_part1.mp3">Download MP3</a>
+<a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_part1.mp3">Download MP3</a>
 
 **Part II**:
 
 <div class="audioControls">
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_part2.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_part2.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-<a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_part2.mp3">Download MP3</a>
+<a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_part2.mp3">Download MP3</a>
 
 **Part III**:
 
 <div class="audioControls">
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_part3.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_part3.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-<a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_part3.mp3">Download MP3</a>
+<a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/denverapiworkshop_part3.mp3">Download MP3</a>
 
 If you're driving across the country and you want to listen to all audio combined into one consolidated file (consisting of parts I, II, and III), you can do so here:
 

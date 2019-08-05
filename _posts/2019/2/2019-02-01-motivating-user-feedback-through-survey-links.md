@@ -9,7 +9,7 @@ keywords:
 summary: "To encourage users to leave more feedback, add a contact email field on your feedback submission form. When you receive feedback, provide a quick response that shows you're listening and taking action on their input."
 bitlink: http://bit.ly/motivatinguserfeedback
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/motivatinguserfeedback.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/motivatinguserfeedback.mp3
 podcast_file_size: 9.1 MB
 podcast_duration: "09:48"
 podcast_length: 9083336

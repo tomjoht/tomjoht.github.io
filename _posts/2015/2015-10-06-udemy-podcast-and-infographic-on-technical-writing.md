@@ -15,7 +15,7 @@ tags:
 - transitioning
 - trends
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/tomjohnsonudemy.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/tomjohnsonudemy.mp3
 podcast_file_size: 93 MB
 podcast_duration: "38:46"
 podcast_length: 93046336

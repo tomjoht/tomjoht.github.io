@@ -7,7 +7,7 @@ categories:
 keywords: lms, user progress, learning management system, motivation, goals, course, api documentation
 bitlink: http://bit.ly/communicateprogress
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/progresswithoutanlms.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/progresswithoutanlms.mp3
 podcast_file_size: 11.6 MB
 podcast_duration: "14:21"
 podcast_length: 11591898

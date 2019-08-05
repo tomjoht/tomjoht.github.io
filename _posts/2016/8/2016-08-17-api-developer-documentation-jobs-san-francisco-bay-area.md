@@ -14,7 +14,7 @@ tags:
 - san francisco bay area
 - API documentation jobs
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3
 podcast_file_size: 53.9 MB
 podcast_duration: "01:13:42"
 podcast_length: 53927298
@@ -55,9 +55,9 @@ Here are the slides. The slides have detailed speaker notes, so be sure to check
 
 ## Audio
 
-Just want the audio? Play it here or <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3">download it</a>.
+Just want the audio? Play it here or <a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3">download it</a>.
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
 
 {% include random_ad.html %}
 

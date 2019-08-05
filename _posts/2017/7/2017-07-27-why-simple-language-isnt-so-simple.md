@@ -10,7 +10,7 @@ summary: "Although you can adjust your content's style to be simpler and more re
 bitlink: http://bit.ly/limitsofplainlanguage
 thumb: plainlanguagethumb.png
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/limitsofplainlanguage.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/limitsofplainlanguage.mp3
 podcast_file_size: 25 MB
 podcast_duration: "30:12"
 podcast_length: 25002593

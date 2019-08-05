@@ -15,7 +15,7 @@ tags:
 - best practices
 - technical writing
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/testing_instructions.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/testing_instructions.mp3
 podcast_file_size: 39.9 MB
 podcast_duration: "23:44"
 podcast_length: 39876989 

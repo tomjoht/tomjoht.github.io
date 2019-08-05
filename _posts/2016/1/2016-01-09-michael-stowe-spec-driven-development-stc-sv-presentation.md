@@ -19,9 +19,9 @@ Here are Michael's slides:
 
 Here's the audio recording:
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stowestcsv.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/stowestcsv.mp3" type="audio/mpeg" /></audio></p>
 
-You can also [download the MP3 file](https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stowestcsv.mp3) directly.
+You can also [download the MP3 file](https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/stowestcsv.mp3) directly.
 
 (Next time we'll record the video too.)
 

@@ -8,7 +8,7 @@ categories:
 - writing
 keywords:
 bitlink: http://bit.ly/10xtechnicalwriter
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/howtobecome10xtechnicalwriter.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/howtobecome10xtechnicalwriter.mp3
 podcast_file_size: 23.1 MB
 podcast_duration: "23:52"
 podcast_length: 23071687

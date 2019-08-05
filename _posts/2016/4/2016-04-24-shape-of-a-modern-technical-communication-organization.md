@@ -14,7 +14,7 @@ tags:
 - technical communication
 - stitcher
 image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/sanbornvoiceonly.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/sanbornvoiceonly.mp3
 podcast_file_size: 44.2 MB
 podcast_duration: "01:01:14"
 podcast_length: 44184559
@@ -38,6 +38,6 @@ For more details, see the [STC Silicon Valley event post](http://www.stc-silicon
 
 ## Audio file
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/sanbornvoiceonly.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/sanbornvoiceonly.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/sanbornvoiceonly.mp3" alt="Sanborn Hodgkin on the shape of a modern technical communication organization">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/sanbornvoiceonly.mp3" alt="Sanborn Hodgkin on the shape of a modern technical communication organization">download the MP3 file here</a>.
