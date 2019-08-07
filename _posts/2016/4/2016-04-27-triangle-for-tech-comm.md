@@ -14,7 +14,7 @@ thumb: techcommtrianglethumb.png
 
 I've illustrated the three types of knowledge in the following diagram.
 
-<figure><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/techcommtriangle-01.png" | prepend: site.baseurl }}"/><figcaption>These are the three types of knowledge you need to be successful as a technical writer.</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/techcommtriangle-01.png" | prepend: site.baseurl }}"/><figcaption>These are the three types of knowledge you need to be successful as a technical writer.</figcaption></figure>
 
 When you combine technical knowledge, product knowledge, and user knowledge, you become a key player in your organization. Usually engineers dominate the technical, product managers dominate the product, and support dominates the users. Technical writers need to a decent understanding of all three of these domains to write useful documentation.
 

@@ -75,7 +75,7 @@ Most likely one finds a middle ground here &mdash; finding some awareness of oth
 
 Whatever your position, if you want to write more informed documentation, try to climb up this pyramid of awareness:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/triangleofawareness.svg" alt="triangle of awareness" />
+<img src="https://idratherbewritingmedia.com/images/triangleofawareness.svg" alt="triangle of awareness" />
 
 Start with awareness of content related to your product, and then expand to learn about similar content across the company, and then look at the same content in other business groups, and finally expand your analysis of competitor documentation for similar products. Most tech writers do the base layer and maybe the second, but few climb up higher.
 

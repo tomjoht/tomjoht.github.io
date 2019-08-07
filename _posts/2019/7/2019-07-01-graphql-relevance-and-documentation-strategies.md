@@ -10,7 +10,7 @@ summary: "GraphQL, a query language developed by Facebook, is an alternative to 
 
 ## Introduction
 
-<figure><a href="https://unsplash.com/photos/69BTCuFDuDA"><img alt="Photo by Marat Gilyadzinov on Unsplash" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/marat-gilyadzinov-69BTCuFDuDA-unsplash.jpg" alt="Should GraphQL be on your radar?" /></a><figcaption>Should GraphQL be on your radar?</figcaption></figure>
+<figure><a href="https://unsplash.com/photos/69BTCuFDuDA"><img alt="Photo by Marat Gilyadzinov on Unsplash" src="https://idratherbewritingmedia.com/images/marat-gilyadzinov-69BTCuFDuDA-unsplash.jpg" alt="Should GraphQL be on your radar?" /></a><figcaption>Should GraphQL be on your radar?</figcaption></figure>
 
 If you are like me, a budding technical writer, and you are just getting started with writing developer documentation, then you might already feel like you have a full plate in terms of learning new technologies. Alas, the evolving world of developer tools and API related technology has shown that it has absolutely no intention of slowing down for us!
 
@@ -52,19 +52,19 @@ Otherwise, let’s take a look at the basics with a sample query and what comes 
 
 1. Query the object "assistant" and return their name.
 
-   <img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/graphqlkcimage3.jpg" />
+   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage3.jpg" />
 
 2. You would get back the name "Siri" as a string.
 
-   <img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/graphqlkcimage2.jpg" />
+   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage2.jpg" />
 
 3. Next, looking at a request for related objects, we can request info about Siri’s colleagues:
 
-   <img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/graphqlkcimage1.jpg" />
+   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage1.jpg" />
 
 4. We get back an array of Siri’s colleagues.
 
-   <img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/graphqlkcimage4.jpg" />
+   <img src="https://idratherbewritingmedia.com/images/graphqlkcimage4.jpg" />
 
 (Note: I modeled this after James Scott’s example in this great talk, [Is GraphQL Really "Self-documenting"?](https://www.youtube.com/watch?v=rKzHc1hozB8&feature=youtu.be&t=579))
 

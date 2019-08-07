@@ -9,7 +9,7 @@ thumb: googlebumpthumb.png
 
 Tonight I was digging out some site stats for a guest post someone contributed on my site last year when I saw this in my Google Analytics:
 
-<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/googlebump.png" | prepend: site.baseurl }}" alt="Google traffic jumped up considerably around here and stayed up" />
+<img src="{{ "https://idratherbewritingmedia.com/images/googlebump.png" | prepend: site.baseurl }}" alt="Google traffic jumped up considerably around here and stayed up" />
 
 Around the beginning of the year in January 2016, traffic jumped up considerably. December 2015 had 43,000 page views, but then January 2016 had 58,000, February had 61,000, and March had 64,0000. The traffic wasn't a one-time spike but a sustained influx of traffic.
 

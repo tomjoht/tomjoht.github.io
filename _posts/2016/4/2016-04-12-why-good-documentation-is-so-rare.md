@@ -86,7 +86,7 @@ Ideally, I'd like to integrate some feedback mechanism (such as [Disqus](https:/
 
 Tech writers can't be expected to catch everything, but through continual feedback from users, you can refine and improve docs. If we can learn to see docs as an iterative process that get better each time someone uses them, this is surely the key to developing great docs.
 
-<figure><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/iterativedocfeedback.png" | prepend: site.baseurl }}" alt="Iterative doc feedback" /><figcaption>Each time someone uses your documentation, it's like conducting user feedback. The trick is to capture the user's feedback so you can improve the documentation for the next user.</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/iterativedocfeedback.png" | prepend: site.baseurl }}" alt="Iterative doc feedback" /><figcaption>Each time someone uses your documentation, it's like conducting user feedback. The trick is to capture the user's feedback so you can improve the documentation for the next user.</figcaption></figure>
 
 Having numerous people test your docs in real business scenarios, with different operating systems and environments, would lead to better and better docs each time. But if you can't capitalize on that real-world testing by capturing user feedback, it all goes to waste. The user gets frustrated because he or she can't follow a step, and there's no way to let the tech writer know there's an issue.
 
@@ -112,7 +112,7 @@ But now I see that Atlassian has neatly added a link from each help topic into t
 
 Let's say you're viewing a topic (such as [Supported platforms](https://confluence.atlassian.com/doc/supported-platforms-207488198.html)) and you say, wait, I have a question. To interact with Atlassian, you click the link at the bottom of the article, and it takes you to this [Atlassian Answers forum](https://answers.atlassian.com/questions/topics/32768991/207488198). There you can see all questions about the specific article.
 
-<figure><a href="https://confluence.atlassian.com/doc/supported-platforms-207488198.html"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/atlassiancommentbox.png" | prepend: site.baseurl }}"/></a><figcaption>This box appears at the bottom of each help topic and takes you to a forum thread for that topic.</figcaption></figure>
+<figure><a href="https://confluence.atlassian.com/doc/supported-platforms-207488198.html"><img src="{{ "https://idratherbewritingmedia.com/images/atlassiancommentbox.png" | prepend: site.baseurl }}"/></a><figcaption>This box appears at the bottom of each help topic and takes you to a forum thread for that topic.</figcaption></figure>
 
 Their Answers tool allows upvoting and auto-sorts the most upvoted questions to the top. This saves people from the hassle of having to scan down, in a linear fashion, a long wall of comments, hoping someone has asked and answered a particular question. Additionally, it groups related comment threads together.
 
@@ -120,7 +120,7 @@ Additionally, the forum software allows support engineers to more easily interac
 
 However, their Answers page is orphaned from the original topic, and the questions don't necessarily make sense without the context of the topic. For example, if you were browsing Answers for your question, the title looks like this:
 
-<figure><a href="https://answers.atlassian.com/questions/topics/32768991/207488198"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/wtfatlassian.png" | prepend: site.baseurl }}"/></a><figcaption>Questions about "207488198"</figcaption></figure>
+<figure><a href="https://answers.atlassian.com/questions/topics/32768991/207488198"><img src="{{ "https://idratherbewritingmedia.com/images/wtfatlassian.png" | prepend: site.baseurl }}"/></a><figcaption>Questions about "207488198"</figcaption></figure>
 
 The answer thread makes no sense without the context of the "Supported Platforms" topic. There's not even a link back to the topic!
 

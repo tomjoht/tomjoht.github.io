@@ -9,7 +9,7 @@ bitlink: http://bit.ly/docsidebarcode
 
 I mentioned in a previous post about [tools](https://idratherbewriting.com/2016/10/17/my-gravity-towards-tools/) that I was swimming in Jekyll code for the past few days. I finally finished the sidebar menu I was working on. If you look at this [documentation page](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv), there's now a three-level expandable/collapsible menu on the right. 
 
-<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img style="max-width: 500px" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/jekyllsidebarmenu.png" | prepend: site.baseurl }}" alt="My Jekyll sidebar menu" /></a>
+<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img style="max-width: 500px" src="{{ "https://idratherbewritingmedia.com/images/jekyllsidebarmenu.png" | prepend: site.baseurl }}" alt="My Jekyll sidebar menu" /></a>
 
 Let me tell you a little about that sidebar ... 
 

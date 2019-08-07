@@ -40,13 +40,13 @@ One way to evaluate the mobile responsiveness of a site is to use [Google's Mobi
  
 I took a [sample page from FrameMaker's responsive HTML5 help](http://help.adobe.com/en_US/framemaker/2015/using/index.html#t=using-framemaker-2015%2Ffrm_generating_output%2FGenerate_dynamic_content_output-.htm&rhsearch=html5&rhsyns=%20&rhhlterm=html5) and analyzed it with Google's tool. 
 
-<a href="https://search.google.com/search-console/mobile-friendly?id=50wpj4cVoP8N5TMwWfO6-w"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/framemakermobilefriendlyreport.png" style="max-width: 700px" />
+<a href="https://search.google.com/search-console/mobile-friendly?id=50wpj4cVoP8N5TMwWfO6-w"><img src="https://idratherbewritingmedia.com/images/framemakermobilefriendlyreport.png" style="max-width: 700px" />
 
 Google's assessed it as mobile friendly.
 
 You can also manually shrink your browser window smaller to see the mobile responsive view. Or you can use the Developer Tools option in Chrome by going to **View > Developer > Developer Tools**. Then click the Toggle Device Toolbar button as shown in the following screenshot:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/devicetoolbarchrome.png" style="max-width: 500px;"/>
+<img src="https://idratherbewritingmedia.com/images/devicetoolbarchrome.png" style="max-width: 500px;"/>
 
 You can choose different device displays from the drop-down menu at the top (highlighted in yellow above).
 
@@ -71,7 +71,7 @@ All of the above can pose issues. For example, images might extend beyond the vi
 
 Without question, the most difficult aspect of *documentation* websites is what to do with the navigation menu in the mobile view. In [Google's Mobile SEO guide](https://developers.google.com/webmasters/mobile-sites/), the authors show how elements may need to shift around in the mobile view: 
 
-<a href="https://developers.google.com/webmasters/mobile-sites/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/responsiveshifts.png" style="max-width: 400px" />
+<a href="https://developers.google.com/webmasters/mobile-sites/"><img src="https://idratherbewritingmedia.com/images/responsiveshifts.png" style="max-width: 400px" />
 
 Typically, websites will move navigation from the side into the main column for mobile displays. While this may work for simple navigation, documentation websites with more robust navigation controls don't look good with extensive navigation embedded in the main column.
 
@@ -82,10 +82,10 @@ Adobe has done a superb job with their mobile friendliness, making a complex web
 Here are a few screenshots from FrameMaker's responsive help taken with my iPhone 5:
 
 <div>
-<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/framemakerscreenshot4.png"/><figcaption>Single page view</figcaption></figure>
-<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/framemakerscreenshot3.png"/><figcaption>Nav menu expanded</figcaption></figure>
-<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/framemakerscreenshot2.png"/><figcaption>Glossary menu expanded</figcaption></figure>
-<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/framemakerscreenshot1.png"/><figcaption>Search results</figcaption></figure>
+<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://idratherbewritingmedia.com/images/framemakerscreenshot4.png"/><figcaption>Single page view</figcaption></figure>
+<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://idratherbewritingmedia.com/images/framemakerscreenshot3.png"/><figcaption>Nav menu expanded</figcaption></figure>
+<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://idratherbewritingmedia.com/images/framemakerscreenshot2.png"/><figcaption>Glossary menu expanded</figcaption></figure>
+<figure style="margin: 5px 15px; float: left;"><img style="max-width: 300px; border: 1px solid #dedede;" src="https://idratherbewritingmedia.com/images/framemakerscreenshot1.png"/><figcaption>Search results</figcaption></figure>
 </div>
 
 <div style="clear: left;"></div>
@@ -96,7 +96,7 @@ The navigation menu controls are easy to touch. The expand/collapse buttons in t
 
 In Scott Abel's [2016 Technical Communication Benchmarking Survey](http://thecontentwrangler.com/2016/05/26/2016-technical-communication-industry-benchmarking-survey/), which included more than 700 respondents, Scott found that Adobe FrameMaker is used more than any other help authoring tool. (The only tool more used is TechSmith's Snagit, which is used for graphics, not help authoring.)
 
-<a href="http://thecontentwrangler.com/2016/05/26/2016-technical-communication-industry-benchmarking-survey/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/benchmarkingsurveytoolslist.png" style="max-width:300px;" /></a>
+<a href="http://thecontentwrangler.com/2016/05/26/2016-technical-communication-industry-benchmarking-survey/"><img src="https://idratherbewritingmedia.com/images/benchmarkingsurveytoolslist.png" style="max-width:300px;" /></a>
 
 Scott writes:
 

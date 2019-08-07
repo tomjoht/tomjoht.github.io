@@ -10,6 +10,6 @@ I'm growing increasingly nervous by the number of studies that show how sitting 
 
 I decided to download [Break Time](http://breaktimeapp.com/) from the App store. 
 
-<a href="http://breaktimeapp.com/"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/breaktime.png" | prepend: site.baseurl }}" alt="Break Time" /></a>
+<a href="http://breaktimeapp.com/"><img src="{{ "https://idratherbewritingmedia.com/images/breaktime.png" | prepend: site.baseurl }}" alt="Break Time" /></a>
 
 So far it works pretty well. The timer cycles down every 20 minutes and dims your computer screen, prompting you to take a break. I then get up and stretch my legs and walk around a bit. It's simple but effective.

@@ -28,7 +28,7 @@ It could be that later, these questions might turn out to be unnecessary, easily
 
 Overall, this is where I think good documentation gets written:
 
-<figure><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/goodspacesforwritingdocs-01.png" | prepend: site.baseurl }}" alt="The best documentation is written in this space between knowing and not knowing." /><figcaption>The best documentation is written in this space between knowing and not knowing. You can't really write doc until you know the system you're writing about. But you also can't write good doc if you're blind to all the things that someone who doesn't know has questions about.</figcaption></figure>
+<figure><img src="{{ "https://idratherbewritingmedia.com/images/goodspacesforwritingdocs-01.png" | prepend: site.baseurl }}" alt="The best documentation is written in this space between knowing and not knowing." /><figcaption>The best documentation is written in this space between knowing and not knowing. You can't really write doc until you know the system you're writing about. But you also can't write good doc if you're blind to all the things that someone who doesn't know has questions about.</figcaption></figure>
 
 ## We all start at different levels
 

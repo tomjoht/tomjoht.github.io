@@ -23,7 +23,7 @@ Before I draw limits around docs like code, let me briefly describe what "docs a
 
 In short, treating docs like code means to use the same systems, processes, and workflows with docs as you do with programming code.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/limitstodocsascode.png"/>
+<img src="https://idratherbewritingmedia.com/images/limitstodocsascode.png"/>
 
 Few people do all of the above points. For example, it doesn't make sense for me to store my docs in the same repos as code, because most of the code repos are never deployed publically, and even if they were, engineers release much less frequently than tech docs. This brings me to my main point: docs aren't just like code, and we should probably not push this docs-as-code treatment too far.
 

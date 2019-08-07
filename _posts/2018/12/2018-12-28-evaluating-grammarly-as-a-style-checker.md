@@ -32,7 +32,7 @@ That said, one typo within a beautiful piece of writing will distract readers. A
 
 Grammarly not only checks for typos but also checks for style as well, which includes areas such as clarity, variety, concision, confidence, and so on. As style checkers go, it's probably one of the best available. Although I feel pretty confident in my grammar knowledge, Grammarly helped me identify some consistent style issues in my writing, such as starting sentences with "This ..." and over-using the words "simply" and "actually."
 
-<a href="https://app.grammarly.com/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/grammarlyscreenshot.png" alt="Grammarly"/></a>
+<a href="https://app.grammarly.com/"><img src="https://idratherbewritingmedia.com/images/grammarlyscreenshot.png" alt="Grammarly"/></a>
 
 ## Sample problematic sentences to plug into Grammarly
 

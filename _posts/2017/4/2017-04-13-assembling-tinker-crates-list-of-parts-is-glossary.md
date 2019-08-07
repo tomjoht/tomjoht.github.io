@@ -12,7 +12,7 @@ thumb: tinkercratethumb.png
 
 This past weekend, as most people do in their free time, I put together some stuff by following someone's instructions. My wife ordered [Tinker Crate kits](http://www.kiwicrate.com/tinker) for our kids. Tinker Crates are little science kits in a box that require you to follow instructions to make some cool little model, contraption, or other gizmo. In this case, I helped my 6-year-old build an [infinity mirror](http://www.kiwicrate.com/infinity-mirror.html).
 
-<a href="http://www.kiwicrate.com/infinity-mirror.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/tinkercrateinfinitymirrorproject.png" style="max-width: 500px;" /></a>
+<a href="http://www.kiwicrate.com/infinity-mirror.html"><img src="https://idratherbewritingmedia.com/images/tinkercrateinfinitymirrorproject.png" style="max-width: 500px;" /></a>
 
 (There are actually many more parts than shown here.)
 
@@ -42,13 +42,13 @@ It's not so important to know that you have all the parts. No, what's important 
 
 This list of parts is really a **dictionary** that assigns names to the parts you'll be working with. Imagine if you had to assemble something without having this list of parts and their names. Here's a sample "dictionary" for working with a Tinker Crate project:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/tinkerpartsglossary2.jpg" />
+<img src="https://idratherbewritingmedia.com/images/tinkerpartsglossary2.jpg" />
 
 When you go to a step that might say, "Place the jellyfish decorations on the jellyfish felt piece," or "Place the doohicky on the thingamajiggle," or "Take the left hexapiece and insert it into the square knobkin," or whatever, without a map/dictionary correlating objects with names, you would have to guess what each name referred to.
 
 Even with IKEA's wordless manuals, they still name their parts with 2x, 3x, and so forth names.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/ikeapartsglossary2.jpg"/>
+<img src="https://idratherbewritingmedia.com/images/ikeapartsglossary2.jpg"/>
 
 I think we will all admit that assembly instructions **must** provide a list of parts along with their names. And we assume that the writer will use these names consistently throughout the instructions. Following instructions is mostly a matter of learning new vocabulary and doing things with that new vocabulary. (Following instructions requires you to learn a new language.)
 

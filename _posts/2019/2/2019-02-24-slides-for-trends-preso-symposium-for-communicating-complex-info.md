@@ -8,7 +8,7 @@ categories:
 keywords: tech comm trends, technical writing trends, jobs, technical skills, writing skills
 bitlink: http://bit.ly/sccitrends
 summary: "This week I traveled to Louisiana to attend the Symposium for Communicating Complex Information and presented on tech comm trends. You can listen to the recording, view my slides, and read my latest thoughts on trends here."
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/trends-scci-keynote.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/trends-scci-keynote.mp3
 podcast_file_size: 32.8 MB
 podcast_duration: "42:01"
 podcast_length: 32827015
@@ -18,13 +18,13 @@ podcast_length: 32827015
 
 You can view the conference program and schedule for the Symposium for Communicating Complex Information <a href="https://scci2019.weebly.com/program-and-schedule.html">here</a>.
 
-<figure><a href="https://scci2019.weebly.com/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/sccihomepage.png" alt="Symposium for Communicating Complex Information (SCCI)" /></a><figcaption></figcaption></figure>
+<figure><a href="https://scci2019.weebly.com/"><img src="https://idratherbewritingmedia.com/images/sccihomepage.png" alt="Symposium for Communicating Complex Information (SCCI)" /></a><figcaption></figcaption></figure>
 
 ## My presentation on trends
 
 My presentation was a keynote on tech comm trends called <a href="https://scci2019.weebly.com/keynote.html">Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a>. You can view my slides at [trends-growing-disproportions](https://idratherbewriting.com/trends-growing-disproportions/#/).
 
-<a href="https://idratherbewriting.com/trends-growing-disproportions/#/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/sccitrendspresothumb.png" style="max-width: 350px;" /></a>
+<a href="https://idratherbewriting.com/trends-growing-disproportions/#/"><img src="https://idratherbewritingmedia.com/images/sccitrendspresothumb.png" style="max-width: 350px;" /></a>
 
 The recording of my presentation is available here:
 

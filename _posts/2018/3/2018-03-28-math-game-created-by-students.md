@@ -15,13 +15,13 @@ Or go directly to the code [here](https://www.codesters.com/preview/efa3d3e874aa
 
 They did this project for a science fair &mdash; the following image shows a printout out the code. There are literally about 30 pages of code here:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/codeoodlesofit.png"/>
+<img src="https://idratherbewritingmedia.com/images/codeoodlesofit.png"/>
 
 They used [Codesters](https://www.codesters.com/) to create the app. Codesters uses Python and a mix of block-coding and raw code designed to help students learn to code. You can drag blocks into a code window, and the blocks convert to code when dropped; or you can just work in the code directly.
 
 Creating a sophisticated application involves much more than dragging and dropping blocks, as you can imagine. Once my daughter understood the code, she started working directly in it and created some complex logic.
 
-<a href="https://www.codesters.com/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/codestsersscreen.png"/></a>
+<a href="https://www.codesters.com/"><img src="https://idratherbewritingmedia.com/images/codestsersscreen.png"/></a>
 
 My daughter and her friend created this entire project from start to finish. A couple of brief times, I helped her overcome a simple glitch. But her code eventually became quite complex, and her function names were more fun and creative than descriptive, making the code nearly impossible to anyone except the creators. This project engrossed her like no other, and she stayed up many nights fixing and adding to the code. (I think she may have a knack for coding.)
 

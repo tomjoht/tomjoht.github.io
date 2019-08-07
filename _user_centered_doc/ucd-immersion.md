@@ -18,7 +18,7 @@ type: notes_ucd
 **Audio excerpt**
 
 <audio controls>
-    <source src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/hughes_excerpt.mp3" type="audio/mpeg">
+    <source src="https://idratherbewritingmedia.com/podcasts/hughes_excerpt.mp3" type="audio/mpeg">
 </audio>
 <img src="/user_centered_doc/media/rasters/mikehughes.gif" style="border-radius: 10px;"/>
 

@@ -23,7 +23,7 @@ They'll then need to score by shooting threes (a lower-percentage shot). If you 
 
 Here's a rough depiction of the strategy:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/rover-01.svg"/>
+<img src="https://idratherbewritingmedia.com/images/rover-01.svg"/>
 
 This strategy tends to fail only when the other team doesn't have a weak player, or when the other team has good outside shooters. But remember, this is pickup ball. Usually, at least one person on the other team is notably weak. This weak player is a major advantage to exploit, and you can do so by simply not guarding (or only loosely guarding) that player.
 

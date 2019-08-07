@@ -14,7 +14,7 @@ Here's an analogy. You've got a basket of fruit that you're offering to people, 
 
 There seem to be at least three separate models for tackling this kind of single-sourcing scenario.
 
-<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/threemodelssinglesourcing-01.svg" | prepend: site.baseurl }}" alt="Three models for single sourcing" />
+<img src="{{ "https://idratherbewritingmedia.com/images/threemodelssinglesourcing-01.svg" | prepend: site.baseurl }}" alt="Three models for single sourcing" />
 
 ## Model 1: Separate outputs
 

@@ -10,7 +10,7 @@ thumb: 14wpstatsthumb.png
 ## The popularity of WordPress
 Despite the popularity of WordPress as detailed in [14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage), this web CMS still hasn't emerged as a competing help authoring tool in the tech comm industry. 
 
-<a href="https://managewp.com/14-surprising-statistics-about-wordpress-usage"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/14wpstats.png" | prepend: site.baseurl }}" alt="Surprising statistics about WordPress" /></a>
+<a href="https://managewp.com/14-surprising-statistics-about-wordpress-usage"><img src="{{ "https://idratherbewritingmedia.com/images/14wpstats.png" | prepend: site.baseurl }}" alt="Surprising statistics about WordPress" /></a>
 
 Here are some of the staggering statistics about WordPress usage mentioned in the article:
 

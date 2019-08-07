@@ -67,7 +67,7 @@ I'd love to find examples of tech comm groups that actually started charging for
 
 What do I mean by information flow? Consider the graphic I previously used to show the many groups that use documentation. Now let's pivot the graphic to show how information might flow through these same groups:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/intersecting_groups_information_flow.svg"/>
+<img src="https://idratherbewritingmedia.com/images/intersecting_groups_information_flow.svg"/>
 
 Because technical writers are at the intersection of these groups, we are poised to enable information flow through these lines. We don't just document the needed information and publish it; we channel the information to the right group that needs it, and we pull information from other groups that have it. We connect information across groups, bringing information through these pipelines and pulling together the right people into conversations.
 

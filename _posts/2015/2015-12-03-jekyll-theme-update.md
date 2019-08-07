@@ -9,7 +9,7 @@ thumb: jekylltheme40thumb.png
 
 I recently made some updates to my Jekyll Documentation Theme. 
 
-<a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>
+<a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "https://idratherbewritingmedia.com/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>
 
 Here's what's new in version 4.0.
 

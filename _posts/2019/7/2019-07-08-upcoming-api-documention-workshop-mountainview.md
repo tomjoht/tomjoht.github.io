@@ -12,7 +12,7 @@ Previous API workshops I've given have usually been by request through some orga
 
 Here are the details:
 
-<a href="https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/restapiworkshopeventbritewoodgrain.png" alt="API Documentation Workshop"/></a>
+<a href="https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993"><img src="https://idratherbewritingmedia.com/images/restapiworkshopeventbritewoodgrain.png" alt="API Documentation Workshop"/></a>
 
 **Title:** API Documentation Workshop<br/>
 **Instructor:** Tom Johnson<br/>

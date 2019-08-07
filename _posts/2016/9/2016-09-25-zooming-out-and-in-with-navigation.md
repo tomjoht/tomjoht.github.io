@@ -6,7 +6,7 @@ summary: "The Android documentation is one of the most interesting documentation
 bitlink: http://bit.ly/navigationzoom
 ---
 
-<a href="https://developer.android.com/index.html"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/androiddoc.png" | prepend: site.baseurl }}" alt="Android reference documentation" /></a>
+<a href="https://developer.android.com/index.html"><img src="{{ "https://idratherbewritingmedia.com/images/androiddoc.png" | prepend: site.baseurl }}" alt="Android reference documentation" /></a>
 
 Here's a short (silent) demo of how the Android navigation moves horizontally left to right:
 

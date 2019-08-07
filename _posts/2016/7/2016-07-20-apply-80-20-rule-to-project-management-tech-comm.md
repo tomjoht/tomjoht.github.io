@@ -13,8 +13,8 @@ tags:
 - documentation
 - technical communication
 - project management
-image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3
 podcast_file_size: 7.8 MB
 podcast_duration: "09:34"
 podcast_length: 7755917
@@ -23,9 +23,9 @@ bitlink: http://bit.ly/ferrisfourhourtcprojects
 
 <div class="audioControls">
 <p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3" alt="Applying 4-hour work week rules to tech comm projects">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/four-hour-projects.mp3" alt="Applying 4-hour work week rules to tech comm projects">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 I've written previously about the [inefficiency of context-switching](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.
@@ -34,7 +34,7 @@ To give you a sense of my day, last week I started regulating tasks following Ka
 
 During the day, other tasks kept getting added to my plate, so I noted them by writing them on the same whiteboard below a horizontal line. By the end of the day, my whiteboard looked like a jumble of notes written by someone who is scattered-brained:
 
-<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/chaosflow.jpg" | prepend: site.baseurl }}" alt="My chaos flow. I started out with just 3 tasks on this board, but by the end of the day it looked like a jumble of notes." />
+<img src="{{ "https://idratherbewritingmedia.com/images/chaosflow.jpg" | prepend: site.baseurl }}" alt="My chaos flow. I started out with just 3 tasks on this board, but by the end of the day it looked like a jumble of notes." />
 
 I didn't act on each of these incoming tasks but rather noted them only and later, at the end of the day, entered them in an issue tracking system to tackle later. By doing this, I was attempting to regulate the flow of tasks.
 

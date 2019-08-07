@@ -7,7 +7,7 @@ summary: "Last week I ran across an interesting site called <a href='https://doc
 bitlink: http://bit.ly/doctoolhubstory
 ---
 
-<figure><a href="https://doctoolhub.com/"><img style="border: 1px solid #dedede;" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/doctoolhubscreen.png" alt="DocToolHub"/></a><figcaption>DocToolHub helps you find the right documentation tool for the job.</figcaption></figure>
+<figure><a href="https://doctoolhub.com/"><img style="border: 1px solid #dedede;" src="https://idratherbewritingmedia.com/images/doctoolhubscreen.png" alt="DocToolHub"/></a><figcaption>DocToolHub helps you find the right documentation tool for the job.</figcaption></figure>
 
 ## Introduction
 
@@ -35,7 +35,7 @@ In my mind, having a list of all or most tools on one site is something to aspir
 
 Sites showing categorized lists of products such as [Startup Stash](http://startupstash.com/) are pretty impressive. Not only is this site's UI aesthetically pleasing, but it offers a schema for instantly recognizing the usage and functions of tools--a real time saver compared with combing through each site individually.
 
-<a href="http://startupstash.com/"><img style="border: 1px solid #dedede" src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/startup-stash.png" alt="Startup Stash" /></a>
+<a href="http://startupstash.com/"><img style="border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/startup-stash.png" alt="Startup Stash" /></a>
 
 You will notice that search is a major feature of this site. When the filters below don't work for you, there's always full-text search to fall back on.
 
@@ -45,7 +45,7 @@ This site's UI was of course my inspiration for creating [DocToolHub](https://do
 
 The first step was to build a taxonomy by thinking of the ways documentation professionals might go about researching tools.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/doctoolhub-use-cases.png" alt="Use cases"/>
+<img src="https://idratherbewritingmedia.com/images/doctoolhub-use-cases.png" alt="Use cases"/>
 
 Categories such as "user manuals" and "online help" convey more meaning about use cases however than about the tools themselves. As a professional, I find it more useful to think of a tool as a "word processor" or a "static site generator" for example.
 
@@ -132,7 +132,7 @@ Preferring a minimalist design, I added tooltip explanations to each filter and 
 
 Below are the designs in [Sketch](https://www.sketchapp.com/) that I created for desktop, tablet, and smartphone.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/doctoolhub-sketch.png" alt="Sketch artboards"/>
+<img src="https://idratherbewritingmedia.com/images/doctoolhub-sketch.png" alt="Sketch artboards"/>
 
 The site is a single-page application developed in jQuery and JavaScript, and integrates APIs from Algolia and Firebase. Both of these backend APIs refer to a single tool index file in JSON format. Each entry in this JSON file represents a tool and contains a standard set of fields (e.g., "product name," "product description," "file formats," "platforms," etc.).
 

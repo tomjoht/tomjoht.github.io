@@ -11,7 +11,7 @@ bitlink: http://bit.ly/upcomingbrighttalkwebinar
 
 I'm giving a free webinar on January on BrightTALK on trends and the dilemma between being a specialist or generalist.
 
-<a href="https://www.brighttalk.com/webcast/9273/343232"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/brighttalkwebinar.png" /></a>
+<a href="https://www.brighttalk.com/webcast/9273/343232"><img src="https://idratherbewritingmedia.com/images/brighttalkwebinar.png" /></a>
 
 Here's a description:
 

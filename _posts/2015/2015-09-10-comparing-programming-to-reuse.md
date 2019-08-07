@@ -9,7 +9,7 @@ thumb: oodesignthumb.png
 
 Mark Lewis, author of [DITA Metrics 101](http://www.rockley.com/DITAMetrics101/AboutTheAuthor.html) and a long-time friend from the Suncoast STC chapter, sent me a link to a recording of a presentation he gave comparing object-oriented design to content re-use. You can listen to it [here](https://www.linkedin.com/pulse/alignment-understanding-objects-mark-lewis).
 
-<a href="https://www.linkedin.com/pulse/alignment-understanding-objects-mark-lewis"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/lewisood.png" | prepend: site.baseurl }}" alt="Mark Lewis on object-oriented design" /></a>
+<a href="https://www.linkedin.com/pulse/alignment-understanding-objects-mark-lewis"><img src="{{ "https://idratherbewritingmedia.com/images/lewisood.png" | prepend: site.baseurl }}" alt="Mark Lewis on object-oriented design" /></a>
 
 It's an interesting presentation to listen to. The basic idea is that when programmers create classes, they include attributes and methods for each class. "Objects" are derived from the classes (kind of like how all the different breeds of dogs are all derived from the general species of "dog"). Each object uses the attributes and methods from the class. While each object shares common characteristics with the class, the specific values for the attributes and methods in each object are often unique.
 

@@ -11,7 +11,7 @@ thumb: peterudemycourse3.png
 
 {% include random_ad.html %}
 
-<a href="https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/peter-api-3rd.png" | prepend: site.baseurl }}" alt="The Art of API Documentation" /></a>
+<a href="https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather"><img src="{{ "https://idratherbewritingmedia.com/images/peter-api-3rd.png" | prepend: site.baseurl }}" alt="The Art of API Documentation" /></a>
 
 In general, this course is a little bit shorter than the others and focuses on how to create content for the non-reference topics in your documentation. Peter gets into topics such as tutorials, code samples, diagrams, and getting started sections. He explains how to use Postman, cURL, how to find open source projects to build your API documentation expertise, and more.
 

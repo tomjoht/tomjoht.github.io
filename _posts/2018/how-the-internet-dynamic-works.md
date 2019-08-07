@@ -12,7 +12,7 @@ When I analyze my metrics, I find that posts about trends get a lot of visits. F
 
 My [2018 tech writing trends](http://bit.ly/techwritingtrends2018) post had about 800 clicks on social media (according to Bitly). This is twice as many social media clicks as even my most popular posts, which often get 400 social media clicks. The total visits to the page also skyrocketed, as you can see from this Google Analytics graph:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/2018trendsanalytics.png"/>
+<img src="https://idratherbewritingmedia.com/images/2018trendsanalytics.png"/>
 
 Traffic jumped from about 1,500 visits a day to 2,500 visits a day during that week (which, admittedly, was kind of a sleepy holiday week, but still).
 

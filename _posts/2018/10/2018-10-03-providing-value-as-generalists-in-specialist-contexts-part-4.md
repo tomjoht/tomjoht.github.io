@@ -40,13 +40,13 @@ There are a variety of ways to gather this feedback and relay it to the appropri
 
 On our docs, we added a “Submit Feedback” button directly below the title, like this:
 
-<figure><a href="https://developer.amazon.com/docs/fire-tv/getting-started-developing-apps-and-games.html"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/submitfeedbackbuttonfiretvdocs.png"/></a><figcaption>Users can click Submit Feedback to provide their comments</figcaption></figure>
+<figure><a href="https://developer.amazon.com/docs/fire-tv/getting-started-developing-apps-and-games.html"><img src="https://idratherbewritingmedia.com/images/submitfeedbackbuttonfiretvdocs.png"/></a><figcaption>Users can click Submit Feedback to provide their comments</figcaption></figure>
 
 In other experiments, we had the button off to the sidebar but most people simply missed it. We wanted the button to be unmistakably visible.
 
 The feedback form is pretty simple. It looks like this:
 
-<figure><a href="https://amazon6.qualtrics.com/jfe/form/SV_6DzfbuTrUVlOaCV"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/docfeedbackformquestions.png"/></a><figcaption>This is the feedback form -- it's simple and provides a mix of structured and freeform responses.</figcaption></figure>
+<figure><a href="https://amazon6.qualtrics.com/jfe/form/SV_6DzfbuTrUVlOaCV"><img src="https://idratherbewritingmedia.com/images/docfeedbackformquestions.png"/></a><figcaption>This is the feedback form -- it's simple and provides a mix of structured and freeform responses.</figcaption></figure>
 
 The form is just a survey. On average, we get only a handful of responses each week, but the responses are usually worthwhile. They identify gaps or other problem areas that we otherwise wouldn’t realize. Since we work with a lot of doc sets, not all of which we directly authored or own, when we receive doc feedback, we create an issue for it in our issue tracker and assign it to the appropriate engineering team to address. In this way, we don’t always play a direct role in authoring the content ourselves, but we do help identify problem areas and connect engineers with those problems.
 
@@ -56,7 +56,7 @@ Besides embedding visible feedback forms on doc pages, here are a couple of othe
 
 I just started doing this, but the results so far are good. I gather up the email addresses for developers with recently published apps and then find out what they found frustrating or noteworthy in their experience.
 
-<figure><a href="https://amazon6.qualtrics.com/jfe/form/SV_1AC66cH1d960hH7"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/milestonesurveyforappdevs.png"/></a><figcaption>This is a survey we send out to developers who just recently published an app in the Appstore</figcaption></figure>
+<figure><a href="https://amazon6.qualtrics.com/jfe/form/SV_1AC66cH1d960hH7"><img src="https://idratherbewritingmedia.com/images/milestonesurveyforappdevs.png"/></a><figcaption>This is a survey we send out to developers who just recently published an app in the Appstore</figcaption></figure>
 
 Responses to the survey usually indicate higher-level trends, noting the experience overall and frustrations with certain processes rather than calling attention to specific errors or gaps in existing documentation pages.
 
@@ -66,13 +66,13 @@ More details on the results of these surveys is still forthcoming. Another group
 
 Another technique we use is less common but also has interesting results. Each week, we write a summary of all the issues we tackled during that week. We already do this as a reporting mechanism for our group, but we also send this list of resolved doc issues out to a wider group of people that includes product managers, field engineers, tech evangelists, marketers, and support groups. The email contains all the tickets we resolved and a short description of each issue.
 
-<figure><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/issues_summary_slide.png"><figcaption>Each week we summarize all the doc updates we've made. We send this email to a huge list of interested people.</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/issues_summary_slide.png"><figcaption>Each week we summarize all the doc updates we've made. We send this email to a huge list of interested people.</figcaption></figure>
 
 This weekly email works quite well for letting others know what we worked on, since most people tend to be unaware of what doc updates take place (and when and by whom). The regular communication (particularly with the field engineers and support group) lets them know who to reach out to with their doc feedback. Since the field engineers and support teams are our most important groups for receiving doc direction and feedback, we want to keep open the lines of communication and allow information to flow as much as possible.
 
 I've found that documentation is a common intersection point for nearly every group in the organization, since almost every group uses docs as tools in their job. Some months ago, I depicted this intersection point in a graphic and [posted it on Twitter](https://twitter.com/tomjohnson/status/942867105845723136). This tweet had 73 favorites and 37 retweets:
 
-<figure><a href="https://twitter.com/tomjohnson/status/942867105845723136"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/generalist_specialist_intersection.svg"/></a><figcaption>Because documentation is used by nearly every group in the organization, it becomes a common intersection point through which you can gather input from many different intersecting groups.</figcaption></figure>
+<figure><a href="https://twitter.com/tomjohnson/status/942867105845723136"><img src="https://idratherbewritingmedia.com/images/generalist_specialist_intersection.svg"/></a><figcaption>Because documentation is used by nearly every group in the organization, it becomes a common intersection point through which you can gather input from many different intersecting groups.</figcaption></figure>
 
 Marketing uses tech docs in their blog posts, support agents point to it in responses, training uses docs in their materials, product evangelists use docs in their webinars and presentations, field engineers use docs with partners, and even internal engineers all use the documentation.
 

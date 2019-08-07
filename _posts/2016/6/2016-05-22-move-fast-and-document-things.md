@@ -14,8 +14,8 @@ tags:
 - technical writing
 - documentation
 - technical communication
-image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3
 podcast_file_size: 27.3 MB
 podcast_duration: "35:50"
 podcast_length: 27289440
@@ -26,9 +26,9 @@ bitlink: http://bit.ly/movefastandocthings
 
 (The title is a play on Facebook's old slogan, "Move fast and break things.")
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" alt="Ruthie BenDor">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" alt="Ruthie BenDor">download the MP3 file here</a>.
 
 You can follow Ruthie on Twitter here: [Ruthie Bendor](https://twitter.com/unruthless).
 

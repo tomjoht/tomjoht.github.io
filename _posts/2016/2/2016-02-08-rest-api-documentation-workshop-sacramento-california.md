@@ -9,7 +9,7 @@ thumb: sacapiworkshop.png
 
 {{site.data.alerts.note}}For a recording of the workshop, see this post: <a href="https://idratherbewriting.com/2016/03/27/rest-api-workshop-recording-sacramento-stc/" title="REST API documentation workshop">REST API documentation workshop recording (STC Sacramento)</a>.{{site.data.alerts.end}}
 
-<a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
+<a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "https://idratherbewritingmedia.com/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
 
 {% include random_ad.html %}
 

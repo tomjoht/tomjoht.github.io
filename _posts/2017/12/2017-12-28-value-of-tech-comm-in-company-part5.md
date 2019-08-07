@@ -21,7 +21,7 @@ There's a trend in the industry for tech writers to expand as content experience
 
 Here's a sample graphic showing a customer's journey:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/intersecting_groups_customer_journey.svg"/>
+<img src="https://idratherbewritingmedia.com/images/intersecting_groups_customer_journey.svg"/>
 
 In this example, instead of focusing on different groups, we might look at the specific touchpoints irrespective of the groups responsible for the interactions. In this sample scenario, first, app developers might do web searches that orient them toward a solution. They probably land on marketing pages that provide more detail. The business development group might have phone calls with product managers to discuss plans, needs, and timelines. The journey then transitions to developers discussing with field engineers about specific coding needs, frameworks, and technical details. The developers then start coding their app. If they need help, they might post questions in a forum or reach out directly to support. After development, they test their apps using testing services and tools. They submit their app through a submission console, periodically receiving messages about the app's status. Finally, after their app is live, they might update their app with another release.
 
@@ -40,7 +40,7 @@ This examination of content touchpoints, as plotted along a customer journey (ra
 
 The recurring question is where content and the customer intersect:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/intersecting_groups_venn_diagram.svg"/>
+<img src="https://idratherbewritingmedia.com/images/intersecting_groups_venn_diagram.svg"/>
 
 Given how broad customer interactions and content might be, looking at where customers interact with content helps us limit the scope. By working on the content used in these journey touchpoints, technical writers can help drive a more consistent, rich customer experience.
 
@@ -58,7 +58,7 @@ Given tech comm's key role across all these groups, it makes sense to ground cus
 
 Remember our [earlier graphic](/2017/12/28/value-of-tech-comm-in-company-part3#relationship_usage_value), where documentation was at the center and all groups somehow intersected it? We can tweak it a bit:
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/intersecting_groups_customer_experience.svg"/>
+<img src="https://idratherbewritingmedia.com/images/intersecting_groups_customer_experience.svg"/>
 
 If you want to improve the customer experience, work through documentation.
 
@@ -78,7 +78,7 @@ I think the term content experience is really just a variation of content strate
 
 She uses a graphic to emphasize the point:
 
-<a href="https://www.scriptorium.com/2016/02/content-strategy-for-technical-communication/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/cs_in_tc_red.png"/></a>
+<a href="https://www.scriptorium.com/2016/02/content-strategy-for-technical-communication/"><img src="https://idratherbewritingmedia.com/images/cs_in_tc_red.png"/></a>
 
 We're drawing similar pictures with both content experience and content strategy. While the roles overlap, content strategy focuses more on content while customer experience focuses more on the customer. But the two can't entirely be separated. (In general, content strategy establishes value by lowering the costs of content production and publication &mdash; lowing costs through localization, content re-use, standardized terminology, and more. In short, content strategy receives its value by being more strategic about content. I should probably have an entire section on content strategy, but I don't.)
 

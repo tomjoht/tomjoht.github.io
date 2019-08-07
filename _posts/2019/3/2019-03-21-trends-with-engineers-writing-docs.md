@@ -16,7 +16,7 @@ I wanted to understand more about this audience, so I embedded [a survey](https:
 
 Here are the [survey results](https://www.questionpro.com/a/showVOCDashboardII.do?mode=default&lcfpn=false).
 
-<a href="https://www.questionpro.com/t/PE5tIZduq7"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/engineersurveyresponses.png" alt="Responses to survey about engineers writing docs" /></a>
+<a href="https://www.questionpro.com/t/PE5tIZduq7"><img src="https://idratherbewritingmedia.com/images/engineersurveyresponses.png" alt="Responses to survey about engineers writing docs" /></a>
 
 ## Results and analysis
 

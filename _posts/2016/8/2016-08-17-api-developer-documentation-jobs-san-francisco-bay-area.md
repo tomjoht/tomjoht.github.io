@@ -13,8 +13,8 @@ tags:
 - developer documentation
 - san francisco bay area
 - API documentation jobs
-image: https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3
+image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3
 podcast_file_size: 53.9 MB
 podcast_duration: "01:13:42"
 podcast_length: 53927298
@@ -51,19 +51,19 @@ Here's the video recording (slides + audio):
 
 Here are the slides. The slides have detailed speaker notes, so be sure to check those out too.
 
-<a href="http://bit.ly/2b4ep9V"><img style="border: 1px solid gray;" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/devdochuntslide.png" | prepend: site.baseurl }}" alt="API documentation jobs San Francisco Bay area" /></a>
+<a href="http://bit.ly/2b4ep9V"><img style="border: 1px solid gray;" src="{{ "https://idratherbewritingmedia.com/images/devdochuntslide.png" | prepend: site.baseurl }}" alt="API documentation jobs San Francisco Bay area" /></a>
 
 ## Audio
 
-Just want the audio? Play it here or <a href="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3">download it</a>.
+Just want the audio? Play it here or <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3">download it</a>.
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
 
 {% include random_ad.html %}
 
 ## About Andrew Davis
 
-<img style="float:left; margin-right:10px;" src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/andrewdavisthumb.png" | prepend: site.baseurl}}" alt="Andrew Davis" />Andrew Davis has recruited technical content developers in the SF Bay Area since 1995. He is a former software industry Technical Writer and has a reputation for both understanding and championing the role of content development.
+<img style="float:left; margin-right:10px;" src="{{ "https://idratherbewritingmedia.com/images/andrewdavisthumb.png" | prepend: site.baseurl}}" alt="Andrew Davis" />Andrew Davis has recruited technical content developers in the SF Bay Area since 1995. He is a former software industry Technical Writer and has a reputation for both understanding and championing the role of content development.
 
 Andrew enjoys helping those who communicate complex information get ahead by recognizing and refining their value to technology companies. He's candid and connected and, just as importantly, he likes to help tech industry workers achieve their goals and achieve independence from intermediaries.
 

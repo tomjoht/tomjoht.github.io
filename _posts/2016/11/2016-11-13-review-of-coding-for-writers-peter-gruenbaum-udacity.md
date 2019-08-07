@@ -16,7 +16,7 @@ You can take Peter's [Coding for Writers course here](https://www.udemy.com/codi
 
 Peter gave me free access to check out the course and provide a review. Overall, this is the only tech course I've taken where the instructor not only teaches you code, but specifically calls out what you should document in the code and how you should do it. For example, here's a slide where Peter explains what you should focus on in function documentation:
 
-<a href="https://www.udemy.com/coding-for-writers-1-basic-programming/?couponCode=IDRATHER"><img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/codingforwriters.png" | prepend: site.baseurl }}" alt="Coding for Writers" /></a>
+<a href="https://www.udemy.com/coding-for-writers-1-basic-programming/?couponCode=IDRATHER"><img src="{{ "https://idratherbewritingmedia.com/images/codingforwriters.png" | prepend: site.baseurl }}" alt="Coding for Writers" /></a>
 
 That unique angle of combining "how to code" with "how to document code" makes the course worthwhile. I do wish with the course focused more heavily on the documentation side of code, but that's okay -- all the info is highly worthwhile.
 

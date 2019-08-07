@@ -21,17 +21,17 @@ Actually, several of the *adults* accompanying the students showed interest in t
 
 Here's what my technical writing booth looked like:
 
-<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/booth.png" | prepend: site.baseurl }}" alt="" />
+<img src="{{ "https://idratherbewritingmedia.com/images/booth.png" | prepend: site.baseurl }}" alt="" />
 
 I tried to make it as fun as possible by bringing in a microphone, showing a screen of a [video tutorial about a video game](https://www.youtube.com/watch?v=9XzwTcAyqkc), tech comm books from the field, sample [quick reference guides](http://idratherewriting.com/quickreferenceguides), and more.
 
-(If you can't see the booth text and you actually want to read it, here's a <a href="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/closerlook.png" | prepend: site.baseurl }}">closer look</a> and <a href="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/files/techwriter_career_fair.pdf" target="_blank">the accompanying text</a>.)
+(If you can't see the booth text and you actually want to read it, here's a <a href="{{ "https://idratherbewritingmedia.com/images/closerlook.png" | prepend: site.baseurl }}">closer look</a> and <a href="https://idratherbewritingmedia.com/files/techwriter_career_fair.pdf" target="_blank">the accompanying text</a>.)
 
 ## Where students went
 
 At first my pride was hurt when no one stopped by. I was a little deflated. Directly across from me, the "chef" reeled in students by the truckloads. They stopped by his booth and remained there for long stretches while he mesmerized them with his cooking and storytelling. 
 
-<img src="{{ "https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/thechef.png" | prepend: site.baseurl }}" alt="The damned chef" />
+<img src="{{ "https://idratherbewritingmedia.com/images/thechef.png" | prepend: site.baseurl }}" alt="The damned chef" />
 
 About the only thing I could hear him saying was how "on game days" he had to work 16 hour days, but that it meant "a lot of overtime pay."
 
