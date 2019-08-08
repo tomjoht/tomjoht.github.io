@@ -43,3 +43,4 @@ _site/
 **/*.idea
 .DS_Store
 reindex.sh
+images
