@@ -6,17 +6,5 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/
-summary: "I added another topic to the Documenting Code section in my API documentation course. This new topic is called <a href='/learnapidoc/docapis_code_strategies.html'>Five strategies for documenting code</a> and explores approaches for documenting code."
+summary: "Previous articles I've shared on documenting code introduced the complexity of the challenge. In this article, I expand on five different techniques writers take in documenting their code, including the Lego approach, the Nautilus approach, juxtaposed columns, and more. In particular, I expand on why describing the finalized code might not be so instructive for users, and why it's nearly impossible for writers to decompile the developer's logic that led to the finalized code. See <a href='/learnapidoc/docapis_code_strategies.html'>Five strategies for documenting code</a>."
 ---
-
-The five approaches covered in this article are as follows:
-
-> Approach 1: Separate the “how” into inline comments, the “why” into external docs
-> Approach 2: Juxtaposed commentary in a third column
-> Approach 3: The Lego approach
-> Approach 4: The Nautilus approach
-> Approach 5: Interactive browser experiences
-
-Read the article here: [Five strategies for documenting code](https://idratherbewriting.com/learnapidoc/docapis_code_strategies.html).
-
-{% include random_ad.html %}
