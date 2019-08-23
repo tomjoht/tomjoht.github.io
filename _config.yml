@@ -148,4 +148,3 @@ algolia:
     - pages/category-archives/*
     - pages/date-based-archives/*
   nodes_to_index: 'p,.summary'
-eventbrite_token: NRLNWKHG4PPWNXV5IQAX
