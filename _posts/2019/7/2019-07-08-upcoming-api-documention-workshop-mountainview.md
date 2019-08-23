@@ -31,7 +31,7 @@ Here's a description of the [API documentation workshop](https://www.eventbrite.
          var settings = {
            "async": true,
            "crossDomain": true,
-           "url": "https://www.eventbriteapi.com/v3/events/64803158993/?token=NRLNWKHG4PPWNXV5IQAX",
+           "url": "https://www.eventbriteapi.com/v3/events/64803158993/?token={{site.eventbrite_token}}",
            "method": "GET"
          }
 
