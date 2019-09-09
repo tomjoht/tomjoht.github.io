@@ -8,6 +8,8 @@ summary: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-
 embed_survey: no_way
 ---
 
+{{site.data.alerts.note}}This workshop has passed, but I've scheduled another workshop in San Francisco (Financial District) for November 19, 2019. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329'>view workshop details here</a>.{{site.data.alerts.end}}
+
 Previous API workshops I've given have usually been by request through some organizing sponsor, such as STC group, private company, or conference. But I've come to wonder if that organizing group is even necessary, so I'll just experiment at least once giving the workshop on my own, marketing it myself, setting up the venue myself, handling registration myself, etc. If it's successful, I'll repeat it regularly. And if it's not, I'll at least have more experience running an event.
 
 Here are the details:
