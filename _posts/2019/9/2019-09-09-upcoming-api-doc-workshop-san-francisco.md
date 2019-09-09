@@ -11,7 +11,7 @@ embed_survey: no_way
 
 ## Event Description
 
-<a href="https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993"><img src="https://idratherbewritingmedia.com/images/api/sanfrancisco_api_workshop.png" alt="API Documentation Workshop - San Francisco Nov 19"/></a>
+<a href="https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329"><img src="https://idratherbewritingmedia.com/images/api/sanfrancisco_api_workshop.png" alt="API Documentation Workshop - San Francisco Nov 19"/></a>
 
 **Event:** API Documentation Workshop<br/>
 **Instructor:** Tom Johnson<br/>
@@ -21,7 +21,7 @@ embed_survey: no_way
 **Time:** 9am to 5pm (arrive 8:30am)<br/>
 **Cost:** $499 through Oct 15, $599 after
 
-Here's a description of the [API documentation workshop](https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993):
+Here's a description of the [API documentation workshop](https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329):
 
 <div style="background-color: #f8f8f8; border: 1px solid #dedede; padding: 15px; margin: 15px 0px;">
 <script>
