@@ -1,5 +1,5 @@
 ---
-title: "An inside look at DeveloperHub -- a hosted documentation portal for API docs"
+title: "An inside look at DeveloperHub -- hosted documentation portals for API docs"
 permalink: /blog/developerhub-product-faq/
 categories:
 - api-doc
@@ -30,7 +30,7 @@ Our target audience is tech companies, mainly SaaS, but also general software an
 
 I've been developing products, APIs, and SDKs for 7 years, and every time I get to the documentation phase, I realize how all the solutions out there are very time-consuming. The developer experience has changed dramatically since I started working professionally, from PDFs to markdown readmes in GitHub projects, to static websites, to what are now called developer hubs, or developer portals.
 
-The problem is, creating developer portals is very hard. It's a complete product and companies have to assign a big team of product managers, developers, designers, DevOps, etc., to get that developer portal up and ready. Writers have to learn new skills or burden the developers with requests to copy google docs into the documentation code.
+The problem is, creating developer portals is very hard. It's a complete product and companies have to assign a big team of product managers, developers, designers, DevOps, etc., to get that developer portal up and ready. Writers have to learn new skills or burden the developers with requests to copy Google Docs into the documentation code.
 
 Going through this journey, I realized how out-dated most technical writing software is. It's shocking to see how developer tools are so convenient and powerful, but still, tech writing software is many years behind.
 
