@@ -76,7 +76,7 @@ We do not have any on-premise offerings.
 
 DeveloperHub documentation can be [private](https://docs.developerhub.io/support-center/password-protection){:rel="nofollow"} or public. Public documentation is available for everyone on the web. Private documentation can be accessed in two ways:
 * **Using a password**. You will be prompted to enter a password on attempting to access the documentation.
-* **Using a secure link**. Using Google Docs for sharing, you can provide your readers with a secure link that bypasses the login and allows them to view content.
+* **Using a secure link**. Similar to how Google Docs allows you to share links, DeveloperHub allows you to provide your readers with a secure link that bypasses the login and allows them to view content.
 
 ### Can you re-use the same content on different pages?
 
