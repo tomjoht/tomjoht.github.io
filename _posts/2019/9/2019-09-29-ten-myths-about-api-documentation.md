@@ -7,11 +7,11 @@ categories:
 - stitcher
 - technical-writing
 keywords:
-bitlink: https://idratherbewriting.site/
+bitlink: https://idratherbewriting.site/10mythsapidocs
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/ten-myths-of-api-documentation.mp3
-podcast_file_size: 31.5 MB
-podcast_duration: "32:52"
-podcast_length: 30972318
+podcast_file_size: 30.4 MB
+podcast_duration: "31:57"
+podcast_length: 30211280
 summary: "In this podcast, I debunk 10 myths about API documentation. For example, some myths are that only engineers can write API docs, or that you have to write API docs by deciphering an engineer's source code. In this podcast, I go through these myths one by one with discussion and analysis."
 ---
 
