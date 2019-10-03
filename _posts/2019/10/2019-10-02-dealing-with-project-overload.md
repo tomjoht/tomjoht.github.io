@@ -1,5 +1,5 @@
 ---
-title: "Podcast: Dealing with Project Overload -- Strategies to Manage Overflowing Tasks"
+title: "Podcast: Dealing with Project Overload -- Strategies to Manage Overflowing Documentation Tasks"
 permalink: /blog/dealing-with-project-overload/
 categories:
 - podcasts
