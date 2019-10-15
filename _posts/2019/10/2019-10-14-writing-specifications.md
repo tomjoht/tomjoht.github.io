@@ -1,5 +1,5 @@
 ---
-title: "Some specifications docs I've been working on -- and thoughts on strategies and techniques for managing specification documentation"
+title: "Some specifications docs I've been working on -- and thoughts on strategies and techniques for managing specs"
 permalink: /blog/specificiations-documentation-strategies/
 categories:
 - technical-writing
