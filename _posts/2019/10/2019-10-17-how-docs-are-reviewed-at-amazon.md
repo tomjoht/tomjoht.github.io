@@ -29,3 +29,17 @@ The other challenge is that it's hard to gather every stakeholder together into 
 Another challenge with doc reviews in which everyone is in the same room is figuring out how to pinpoint the outcome of the discussion. Often times discussions start to spiral and there are back-and-forth exchanges and so on, and it all feels like the content is being reviewed and decided on, but when the meeting is over, I find myself asking, so what exactly was decided here? Or I find that the different viewpoints don't in fact make sense together, or it's just murky what people were actually advocating for. When people leave comments on documents, on the other hand, the meaning is often more precise and clear. To address the confusion, I'll often record meetings and re-listen to them later.
 
 Overall, although in my mind, the most efficient way to review content would be for each reviewer to read the content on their own time and make precise, detailed comments using an annotation tool, replying to other comments and so on, this method rarely works in my company. Instead, people have become accustomed to reading only when handed a document during a meeting. With that in mind, I foresee many more meetings in my future.
+
+Beyond carving out meeting time to allow for the reading of documentation, there are a couple of other key considerations for doc reviews. Companies tend to have toolsets that they use for collaboration and review of content. At one company I worked at, everyone was on G Suite, so they used Google Docs to review everything. It worked out extremely well. At Amazon, different groups use different tools, but in my group, [Quip](https://quip.com/) tends to predominate. Quip is basically Salesforce's version of Google Docs. I get much better reviews if I put content on Quip than on, say, Workdocs or distributed as a PDF or a Word doc.
+
+Finally, there's one other technique that tends to work well with documentation reviews: reviewers love to be asked questions. I'll often create a Quip doc that simply lists all my questions for the reviewers. People tend to enjoy being asked a specific question rather than just reviewing content. I'm not sure why, but it focuses the discussion and presents a clear issue to which they can respond. I like questions too, I guess. If you've ever been on a podcast in which the interviewer asks you a bunch of questions, it's fun to respond.
+
+In summary, when you think about the best way to review your documentation with engineers and other stakeholders, consider these points:
+
+* Identify existing company culture for reviewing documents (if there is one), and try to follow it with technical documentation reviews as well.
+* Consider setting up meetings and devoting the first half of it to simply reading the content.
+* Use the collaboration tools that your company uses most often.
+* Ask reviewers specific questions that you want them to address.
+
+
+ask questions
