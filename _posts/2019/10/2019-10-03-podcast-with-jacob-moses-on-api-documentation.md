@@ -21,7 +21,7 @@ Here's a description of the podcast from Jacob's site:
 >
 > In this episode, Tom shares how to get started in API documentation, including where the tech writer fits in the API documentation process, what skills tech writers need to excel at API documentation, and where to find the best resources to ramp up those skills.
 
-You can listen to the podcast on the [Not-Boring Tech Writer site here](ttps://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26):
+You can listen to the podcast on the [Not-Boring Tech Writer site here](https://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26):
 
 <a href="https://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26"><img src="https://idratherbewritingmedia.com/images/jacobmosespodcastepisode26.png"/></a>
 
