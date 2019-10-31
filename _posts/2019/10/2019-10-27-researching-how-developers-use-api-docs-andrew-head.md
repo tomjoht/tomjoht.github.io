@@ -1,6 +1,6 @@
 ---
 title: "WTD Episode 25: Researching how developers use API docs, with Andrew Head"
-permalink: /blog/wtd-episode-24-wtd-conference-chatter-and-australian-scene/
+permalink: /blog/wtd-episode-25-researching-how-developers-use-api-docs/
 categories:
 - technical-writing
 - podcasts
