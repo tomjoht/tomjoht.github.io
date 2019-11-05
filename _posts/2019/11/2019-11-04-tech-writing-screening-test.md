@@ -24,7 +24,7 @@ Note: As this is the first iteration of my tests, this version is entirely exper
 
 The tests have the following requirements and procedures:
 
-* You have to log in to Easy LMS (via the embedded instance below) to take each test. I won't do anything with your name or email. Nothing is public. You can use a bogus name and email if you want.
+* •	You have to provide a name and email to take each test. You can use a bogus name and email if you want. I won't do anything with your name or email. Nothing is public.
 * You have only *10 minutes* to complete the test. The time remaining is shown as a blue bar in the upper-right area of the test. Move your mouse over the bar to see the specific time that remains.
 
   <img src="https://idratherbewritingmedia.com/images/bluebartimer.png" style="max-width: 400px"/>
