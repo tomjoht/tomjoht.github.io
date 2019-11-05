@@ -1,9 +1,9 @@
 ---
-title: "4 Technical Writing Tests for Screening Candidates"
+title: "4 Technical Writing Tests to Screen Candidates"
 permalink: /blog/technical-writing-tests-for-screening-candidates/
 categories:
 - technical-writing
-bitlink: https://idratherbewriting.site/tech-writing-screening-test
+bitlink: https://idratherbewriting.site/tech-writing-screening-tests
 summary: "In an attempt to more easily filter technical writing candidates in the hiring process, I'm experimenting with a series of multiple-choice tests to  \"take the pulse\" of any technical writing candidate to easily see whether a candidate is worth moving up to the next level in a hiring process (for example, moving from the resume pile to a phone screen)."
 ---
 
