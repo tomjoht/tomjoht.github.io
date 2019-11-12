@@ -7,6 +7,8 @@ bitlink: https://idratherbewriting.site/tech-writing-screening-tests
 summary: "In an attempt to more easily filter technical writing candidates in the hiring process, I'm experimenting with a series of multiple-choice tests to  \"take the pulse\" of any technical writing candidate to easily see whether a candidate is worth moving up to the next level in a hiring process (for example, moving from the resume pile to a phone screen)."
 ---
 
+Nov 11, 2019 Update: See my follow-up post here: [Follow-up to 4 Technical Writing Tests Post](/blog/follow-up-to-technical-writing-tests-for-screening-candidates/).
+
 ## About the tests
 
 These tests are specifically for tech comm candidates applying to *mid-level of senior-level software tech writing roles that involve creating or working with API documentation*.  
@@ -110,3 +112,7 @@ Here are the four tests:
     );
 </script>
 <script type="text/javascript" async defer src="https://d24s38jd6z1bka.cloudfront.net/script/embed.min.js"></script>
+
+<hr/>
+
+In addition to the Disqus comment thread below, you can also [view comments on Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6598660706588069888).
