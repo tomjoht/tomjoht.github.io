@@ -115,4 +115,4 @@ Here are the four tests:
 
 <hr/>
 
-In addition to the Disqus comment thread below, you can also [view comments on Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6598660706588069888).
+In addition to the Disqus comment thread below, you can also [view comments on Linkedin](https://www.linkedin.com/posts/tomjoht_4-technical-writing-tests-for-screening-candidates-activity-6597533156478459904-uyQR).
