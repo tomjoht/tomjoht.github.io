@@ -10,7 +10,11 @@ published: true
 focus: noform
 ---
 
-Feel free to contact me at [tomjoht@gmail.com](mailto:tomjoht@gmail.com) or use the form below. 
+Feel free to contact me at [tomjoht@gmail.com](mailto:tomjoht@gmail.com) or use the form below. If you're looking for answers to common questions, check out these posts:
+
+* [Read this before asking about salaries, what education you need, or how to start a technical writing career](https://www.reddit.com/r/technicalwriting/comments/bomlrj/read_this_before_asking_about_salaries_what/) (Reddit),
+* [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](https://idratherbewriting.com/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
+* [Top 10 Most Frequently Asked Questions about Technical Writing](https://idratherbewriting.com/2013/01/17/top-10-most-frequently-asked-questions-about-technical-writing)
 
 <div style="margin-bottom:15px; padding-bottom:10px;">
 <div id="wufoo-mlxbnfd14yabfn">
