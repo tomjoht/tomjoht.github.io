@@ -7,7 +7,7 @@ categories:
 - stitcher
 - technical-writing
 keywords: usability, API, design web
-bitlink: https://idratherbewriting.site/webdesignusability
+bitlink: https://idratherbewriting.site/webdesignusabilityal
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/api_design_usability_arnaud.mp3
 podcast_file_size: "40.9 MB"
 podcast_duration: "54:39"
