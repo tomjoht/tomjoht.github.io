@@ -32,13 +32,13 @@ Here are some of the API design/usability topics we chat about in the podcast:
 * Spec-first design versus auto-generating the OpenAPI from the code
 * Which framework you would you choose to work with to render the API spec
 * Whether we'll eventually move into a state where manually editing the OpenAPI spec code by hand becomes antiquated
-* The [Open Map visual diagram]((https://openapi-map.apihandyman.io/) that shows the OpenAPI structure
+* The [Open Map visual diagram](https://openapi-map.apihandyman.io/) that shows the OpenAPI structure
 * Recommended APIs that we should learn from and why
 * Why providing the OpenAPI spec is important even if you don't generate your docs from it
 * How tech writers might interact with their company’s API style/design guide and why
 * Whether the reference content and user guide should be separate or seamless
 
-{{site.data.alerts.tip}}If you'd like to explore these ideas in more depth, consider getting a copy of <a href='https://www.manning.com/books/the-design-of-web-apis'><i>The Design of Web APIs</i></a>). I've read the book and found it relevant and helpful to the work of technical documentation.{{site.data.alerts.end}}
+{{site.data.alerts.tip}}If you'd like to explore these ideas in more depth, consider getting a copy of <a href='https://www.manning.com/books/the-design-of-web-apis'><i>The Design of Web APIs</i></a>. I've read the book and found it relevant and helpful to the work of technical documentation.{{site.data.alerts.end}}
 
 ## Resources
 
