@@ -2,10 +2,10 @@
 title: "WTD Podcast episode 26: Technical writing and Reddit, with Alan Bowman"
 permalink: "/blog/wtd-podcast-episode-26-technical-writing-and-reddit/"
 categories:
-- api-doc
 - technical-writing
+- beginners
 keywords: reddit, slack, transparency, authenticity, taboo topics, salary, overwhelm, frustration
-bitlink: https://idratherbewriting.site/tech-writing-and-reddit
+bitlink: https://idratherbewriting.site/wtdpodcast26
 summary: "In episode 26 of the Write the Docs podcast, we talk with Alan Bowman about the technical writing forum on Reddit as well as the WTD Slack channel, comparing and contrasting the two spaces. Topics covered include pros and cons of anonymity on the internet, transparency around sensitive or taboo topics (e.g., salary, masters programs, feelings of overwhelm), age/experience demographics for both communities, balancing honesty with professionalism, responding to posts from overwhelmed tech writers, dealing with recurring topics, strategies for participating, and more."
 ---
 

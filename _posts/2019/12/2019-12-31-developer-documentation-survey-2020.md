@@ -5,8 +5,8 @@ categories:
 - api-doc
 - technical-writing
 keywords: survey, developer documentation, trends, hot topics
-bitlink: https://idratherbewriting.site/devdocsurvey2020
-summary: "Around this time of year, I tend to look at tech comm trends for the previous and upcoming year. As I surveyed other tech comm posts about trends, two recent research efforts articles stand out as informative and research-based. Both of these articles were published in the December 2018 issue of <i>Intercom</i>: Saul Carliner's Tech Comm Census results, and Scott Abel's Benchmarking Survey results. Although informative, I wanted to see data more specific to developer documentation, a specialized niche within tech comm, so I decided to create my own survey."
+bitlink: https://idratherbewriting.site/devdocsurvey2020bg
+summary: "Around this time of year, I tend to look at tech comm trends for the previous and upcoming year. As I surveyed other tech comm posts about trends, two recent research efforts articles stand out as informative and research-based. Both of these articles were published in the December 2018 issue of <i>Intercom</i>: Saul Carliner's Tech Comm Census results, and Scott Abel's Benchmarking Survey results. Although informative, I wanted to see data more specific to developer documentation, a specialized niche within tech comm, so I decided to <a href='https://www.questionpro.com/t/AOaGwZgCFE'>create my own survey</a>."
 ---
 
 ## Saul Carliner's Tech Comm Census results
