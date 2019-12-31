@@ -86,4 +86,4 @@ The following are some sample threads demonstrating the sensitive/taboo topics o
 
 * [Technical Writing Subreddit](https://www.reddit.com/r/technicalwriting/)
 * [Write the Docs Slack Channel](https://www.writethedocs.org/slack/)
-* [Alanbowman.net](http://alanbowman.net/)
+* [Alan Bowman on Linkedin](https://www.linkedin.com/in/ralanbowman/)
