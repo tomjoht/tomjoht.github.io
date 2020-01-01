@@ -15,7 +15,7 @@ comments: true
 {% if page.subtitle %}<div class="subheading">{{page.subtitle}}</div>{% endif %}
 <p class="page-meta">
   {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} &#8226; <a href="{{ page.url }}#commento">Comments</a></i><br/>
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} &#8226; <a href="{{ post.url }}#commento"></a></i><br/>
   {% endunless %}
 {% if page.categories %}
  categories: {% for cat in page.categories %}
