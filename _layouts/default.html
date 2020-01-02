@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{% comment %}  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KGWJ2NC');</script>
-<!-- End Google Tag Manager -->
-{% endcomment %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,29 +23,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} {% if page.subtitle %}{{ page.subtitle | before: "|" }}{% endif %} | {{ site.name }} {% endif %}</title>
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="{{ "/css/modern-business.css" | prepend:site.baseurl }}"> -->
-    <!-- <link rel="stylesheet" href="{{ "/css/syntax.min.css" | prepend:site.baseurl }}"  type='text/css'> -->
     <link rel="stylesheet" href="{{ "/css/customstyles.min.css" | prepend:site.baseurl }}"  type='text/css'>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css"> -->
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script> -->
-    <!-- <script src="{{ "/js/jquery.navgoco.min.js" | prepend:site.baseurl }}"></script> -->
-    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
-    <!-- <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script> -->
-    <!-- <script src="{{ "/js/customscripts.js" | prepend:site.baseurl }}"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script> -->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- <script type="text/javascript" src="{{ "/js/signup.js" | prepend:site.baseurl }}"></script> -->
 
     <meta name="twitter:card" content="summary">
             <meta name="twitter:site" content="@tomjohnson">
@@ -81,20 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <body>
-{% comment %}
-      <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGWJ2NC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{% endcomment %}
-    <div id="fb-root"></div>
-            <!-- <script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=263655980663798";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script> -->
+
     <div id="masthead">
 
             <div class="topComic">
@@ -130,13 +90,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div id="sidebarArea">
               <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
               <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-              <!-- <script src="{{ "/js/customscripts.js" | prepend:site.baseurl }}"></script> -->
+
               {% include sidebar.html %}
               {% include tinyletter.html %}
               {% include social_media_icons.html %}
           {% include sidebar_comics.html %}
-          {% include recent_comments.html %}
-          {% include awards.html %}
+          <div>
+          <p></p>
     </ul>
     </div>
     </div> <!-- /sidebarArea -->
@@ -158,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {% include tinyletter.html %}
         {% include social_media_icons.html %}
         {% include sidebar_comics.html %}
-        {% include recent_comments.html %}
+        <div>
 
     </ul>
     </div> <!-- /sidebarAreaHomePage -->
@@ -168,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div><!-- /row -->
     <hr>
     </div><!-- /container -->
-    <script src="https://cdn.commento.io/js/count.js"></script>
+    <script id="dsq-count-scr" src="//idratherbewriting.disqus.com/count.js" async></script>
     </body>
     {% include google_analytics.html %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -178,34 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
     <link rel="shortcut icon" href="//idratherbewriting.com/favicon.ico" type="image/x-icon">
 
-<!--fb script -->
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=263655980663798";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- end FB script -->
 
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-var disqus_config = function () {
-this.page.url = "{{page.url | prepend: "https://idratherbewriting.com"}}";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "{{page.url}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://idratherbewriting.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
 
 <!-- activate bootstrap tooltips -->
 <script>
