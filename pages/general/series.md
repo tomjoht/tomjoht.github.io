@@ -5,7 +5,7 @@ layout: page
 series:
 
   - title: Simplifying complexity
-    url: /simplifying-complexity/index.html/
+    url: /simplifying-complexity/index.html
 
   - title: Value arguments for docs and tech comm
     url: /2017/12/28/value-of-tech-comm-in-company-part1/
