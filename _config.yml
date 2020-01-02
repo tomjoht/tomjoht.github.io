@@ -6,7 +6,6 @@ host: 127.0.0.1
 port: 4029
 feedback_email: tomjoht@gmail.com
 sidebar_accordion: true
-disqus_shortname: idratherbewriting
 markdown: redcarpet
 show_audience_label: true
 output: web

@@ -966,6 +966,7 @@ div.well ul li {
 
 .singlePostComics img {
     padding-top: 10px;
+    margin-bottom: 15px;
 }
 .singlePostComics {
     margin-bottom:20px;
@@ -1231,6 +1232,7 @@ ul#mysidebar li.active a {
 
     .singlePostComics img {
         max-width: 100%;
+        margin-bottom: 15px;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
