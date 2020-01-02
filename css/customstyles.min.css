@@ -1069,7 +1069,7 @@ div.docSample {
 }
 
 .singlePostComics img {
-    padding-top: 10px
+    padding-top: 0px
 }
 
 .singlePostComics {
@@ -1239,7 +1239,8 @@ ul#mysidebar li.active a {
 }
 
 .singlePostComics img {
-    max-width: 100%
+    max-width: 100%;
+    padding-top: 0px;
 }
 
 .bs-callout-comic {
