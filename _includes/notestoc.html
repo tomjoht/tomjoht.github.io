@@ -43,6 +43,10 @@
     {% assign sidebarTitle = "JavaScript notes" %}
     {% assign sidebar = site.data.sidebar_javascript.entries %}
 
+    {% elsif page.type == "simplifying_complexity" %}
+    {% assign sidebarTitle = "Simplifying Complexity" %}
+    {% assign sidebar = site.data.sidebar_simplifying_complexity.entries %}
+
     {% elsif page.type == "notes_dita" %}
     {% assign sidebarTitle = "My DITA notes" %}
     {% assign sidebar = site.data.sidebar_dita.entries %}

@@ -1,13 +1,12 @@
-
 entries:
 - title: Sidebar
   subcategories:
     - title: Simplifying Complexity
-      url: /simplifying-complexity/principle-list.html
+      url: /simplifying-complexity/principles-for-simplifying-complexity.html
       output: web, pdf
       items:
         - title: Introduction
-          url: /simplifying-complexity/introduction.html
+          url: /simplifying-complexity/index.html
           output: web, pdf
 
         - title: "Principle 1: Let users switch between macro and micro views"
