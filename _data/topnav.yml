@@ -13,7 +13,7 @@ topnav:
 
     - title: Simplifying complexity
       url: /simplifying-complexity/index.html
-      
+
     - title: Podcasts
       url: /category-podcasts/
 
@@ -28,6 +28,8 @@ topnav_dropdowns:
 
     - title: Archives
       items:
+        - title: 2020
+          url: /archives-2020/
         - title: 2019
           url: /archives-2019/
         - title: 2018
