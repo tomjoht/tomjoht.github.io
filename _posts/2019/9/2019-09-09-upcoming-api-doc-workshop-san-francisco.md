@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/apidocworkshopsfnov19
-summary: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329'>API Documentation Workshop</a> in San Francisco, California, on November 19, 2019. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329'>register on Eventbrite here</a>."
+description: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329'>API Documentation Workshop</a> in San Francisco, California, on November 19, 2019. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-san-francisco-nov-19-2019-tickets-72043928329'>register on Eventbrite here</a>."
 embed_survey: no_way
 ---
 

@@ -3,7 +3,7 @@ title: "Question: Can I earn a living blogging?"
 categories:
 - blogging
 keywords: blogging revenue, making money
-summary: "Although you can't earn much direct revenue from blogging, writing a professional blog can be brand you as an expert in a specific field. This can open doors for you professionally."
+description: "Although you can't earn much direct revenue from blogging, writing a professional blog can be brand you as an expert in a specific field. This can open doors for you professionally."
 ---
 
 A reader asks,

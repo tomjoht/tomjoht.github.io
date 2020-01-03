@@ -5,7 +5,7 @@ categories:
 - general
 keywords:
 bitlink: https://idratherbewriting.site/organizingworkshops
-summary: "This past week I held my first API documentation workshop in which I organized it from start to finish myself (handling registration, venue, dates, catering, marketing, setup, and other details), and now I'd like to reflect a bit on it."
+description: "This past week I held my first API documentation workshop in which I organized it from start to finish myself (handling registration, venue, dates, catering, marketing, setup, and other details), and now I'd like to reflect a bit on it."
 ---
 
 ## What was different this time

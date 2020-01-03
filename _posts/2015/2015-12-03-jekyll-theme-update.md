@@ -3,8 +3,8 @@ title: Version 4.0 released for the Jekyll Documentation Theme
 categories:
 - jekyll
 keywords: jekyll, documentation, creating documentation with jekyll, static site generators for technical writing
-summary: "Version 4.0 of the Jekyll Documentation Theme now supports multiple projects inside the same theme. This allows you to use the theme for any number of documentation projects with any number of authors."
-thumb: jekylltheme40thumb.png
+description: "Version 4.0 of the Jekyll Documentation Theme now supports multiple projects inside the same theme. This allows you to use the theme for any number of documentation projects with any number of authors."
+image: https://idratherbewritingmedia.com/images/thumbnails/jekylltheme40thumb.png
 ---
 
 I recently made some updates to my Jekyll Documentation Theme. 

@@ -3,7 +3,7 @@ title: "How I handled data for about 10 device specifications on the same page -
 categories:
 - writing
 keywords:
-summary: "Jekyll provides flexibility and customization in ways that make it extremely attractive for addressing complex scenarios. You can separate data from the presentation layer, define templates, and iterate through data to populate the templates. In this post, I explain how I approached a device specifications page that has specs for about 10 different devices all shown on the same page."
+description: "Jekyll provides flexibility and customization in ways that make it extremely attractive for addressing complex scenarios. You can separate data from the presentation layer, define templates, and iterate through data to populate the templates. In this post, I explain how I approached a device specifications page that has specs for about 10 different devices all shown on the same page."
 bitlink: http://bit.ly/devicespecsjekyll
 date: 2018-08-31T16:04:33+00:00
 ---

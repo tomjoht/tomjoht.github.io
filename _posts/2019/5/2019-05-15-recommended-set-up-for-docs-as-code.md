@@ -5,7 +5,7 @@ categories:
 - general
 keywords: docs-as-code tools, hugo, jekyll
 bitlink: https://idratherbewriting.site/docsascoderecommends
-summary: "A reader asks for my recommended docs-as-code tooling setup. I said probably Hugo with Docsy and Netlify, or maybe a solution like Readthedocs.com or Readme.io."
+description: "A reader asks for my recommended docs-as-code tooling setup. I said probably Hugo with Docsy and Netlify, or maybe a solution like Readthedocs.com or Readme.io."
 ---
 
 A reader asks,

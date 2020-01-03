@@ -6,7 +6,7 @@ categories:
 - stitcher
 - podcasts
 keywords:
-summary: "Every year, when I re-examine my site analytics, I take the time to reflect on trends I’m seeing with traffic to my own site. Not necessarily industry trends, just trends about which topics are popular on my site. Based on these trends, I assess and re-evaluate some of my directions. This year, I found that the increase in traffic on my API documentation site (which accounts for 59% of my overall site traffic) suggests that more engineers are writing docs. This confirms my earlier predictions at the beginning of 2018 that specialization will drive more engineers to write API documentation, with technical writers playing more supporting editorial and publishing roles."
+description: "Every year, when I re-examine my site analytics, I take the time to reflect on trends I’m seeing with traffic to my own site. Not necessarily industry trends, just trends about which topics are popular on my site. Based on these trends, I assess and re-evaluate some of my directions. This year, I found that the increase in traffic on my API documentation site (which accounts for 59% of my overall site traffic) suggests that more engineers are writing docs. This confirms my earlier predictions at the beginning of 2018 that specialization will drive more engineers to write API documentation, with technical writers playing more supporting editorial and publishing roles."
 bitlink: http://bit.ly/siteanalytics2018irbw
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/2018analyticsanalysis.mp3

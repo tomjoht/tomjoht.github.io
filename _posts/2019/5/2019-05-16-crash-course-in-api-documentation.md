@@ -7,7 +7,7 @@ categories:
 - podcasts
 keywords: api documentation
 bitlink: https://idratherbewriting.site/crashcourseapidocs
-summary: "If you want a condensed, one-hour version of what I cover in my API documentation workshop, check out this crash-course video."
+description: "If you want a condensed, one-hour version of what I cover in my API documentation workshop, check out this crash-course video."
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/api_docs_crash_course.mp3
 podcast_file_size: 46.2 MB
 podcast_duration: "58:04"

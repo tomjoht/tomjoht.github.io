@@ -3,7 +3,7 @@ title: "Guest post: The story behind DocToolHub, a site for finding tech comm to
 categories:
 - technical-writing
 keywords:
-summary: "Last week I ran across an interesting site called <a href='https://doctoolhub.com'>DocToolHub</a> that classifies hundreds of tech comm authoring and publishing tools. When I <a href='https://twitter.com/tomjohnson/status/963987569431080960'>shared the link on Twitter</a>, it received 38 favorites and 16 retweets, so I assume many others found the site useful as well. I decided to follow up with <a href='https://twitter.com/grbabb'>Greg Babb</a>, the person who created DocToolHub, to find out more details and the story behind DocToolHub. I told Greg I was interested in strategies for tagging and classification, as these strategies apply more generally to documentation as well. The following is a guest post by Greg Babb about DocToolHub."
+description: "Last week I ran across an interesting site called <a href='https://doctoolhub.com'>DocToolHub</a> that classifies hundreds of tech comm authoring and publishing tools. When I <a href='https://twitter.com/tomjohnson/status/963987569431080960'>shared the link on Twitter</a>, it received 38 favorites and 16 retweets, so I assume many others found the site useful as well. I decided to follow up with <a href='https://twitter.com/grbabb'>Greg Babb</a>, the person who created DocToolHub, to find out more details and the story behind DocToolHub. I told Greg I was interested in strategies for tagging and classification, as these strategies apply more generally to documentation as well. The following is a guest post by Greg Babb about DocToolHub."
 bitlink: http://bit.ly/doctoolhubstory
 ---
 

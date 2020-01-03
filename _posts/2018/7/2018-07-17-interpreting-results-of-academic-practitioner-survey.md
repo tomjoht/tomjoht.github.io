@@ -3,7 +3,7 @@ title: "Results from my Academic/Practitioner Attitudes surveys now available"
 categories:
 - academic-and-practitioners
 keywords:
-summary: "The results of my Academic/Practitioner Attitudes surveys are now available. The most interesting response (for the practitioner survey) was regarding the statement that academics understand issues that practitioners face in the workplace. Most (42%) were undecided while 36% disagreed or strongly disagreed. For the academic survey, the most interesting response was regarding the statement that practitioners (rather than other academics) are the primary audience for academic research. About 50% of the academic participants either disagreed or strongly disagreed. Overall, 407 practitioners and 65 academics completed the surveys. The results will fuel phase II of my project, which involves creating academic/practitioner conversation posts."
+description: "The results of my Academic/Practitioner Attitudes surveys are now available. The most interesting response (for the practitioner survey) was regarding the statement that academics understand issues that practitioners face in the workplace. Most (42%) were undecided while 36% disagreed or strongly disagreed. For the academic survey, the most interesting response was regarding the statement that practitioners (rather than other academics) are the primary audience for academic research. About 50% of the academic participants either disagreed or strongly disagreed. Overall, 407 practitioners and 65 academics completed the surveys. The results will fuel phase II of my project, which involves creating academic/practitioner conversation posts."
 bitlink: http://bit.ly/surveyresultsacademicspractitioners
 ---
 

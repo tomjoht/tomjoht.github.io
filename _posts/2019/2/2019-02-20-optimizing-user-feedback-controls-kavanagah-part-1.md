@@ -5,7 +5,7 @@ categories:
 - user-centered-documentation
 keywords:
 bitlink: http://bit.ly/
-summary: "User feedback is a common feature of online help these days. They are a quick and easy method of surveying users' experience of documentation after deployment. However, the feedback feature can sometimes appear to have been added as an afterthought, so I asked the question: how do they measure up to principles of design and content? In this essay, I analysed the feedback methods applied in the online help systems of twenty project management products"
+description: "User feedback is a common feature of online help these days. They are a quick and easy method of surveying users' experience of documentation after deployment. However, the feedback feature can sometimes appear to have been added as an afterthought, so I asked the question: how do they measure up to principles of design and content? In this essay, I analysed the feedback methods applied in the online help systems of twenty project management products"
 published: false
 ---
 

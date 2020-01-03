@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: write the docs, podcast, documentation, language, gender
 bitlink: https://idratherbewriting.site/expandswaggerfullscreen
-summary: "One challenge with REST API docs, if you're generating out the reference content using Open API, is how to embed Swagger UI in your docs in a seamless way that doesn't look like a website within a website. In this post, I explain how to embed a Navigation toggle to hide your sidebar and give more width to the embedded Swagger UI display."
+description: "One challenge with REST API docs, if you're generating out the reference content using Open API, is how to embed Swagger UI in your docs in a seamless way that doesn't look like a website within a website. In this post, I explain how to embed a Navigation toggle to hide your sidebar and give more width to the embedded Swagger UI display."
 ---
 
 If you want to simply grab the code from Swagger UI and put it into an HTML page of your docs, you can do so without too much trouble. Just copy the code from the `index.html` file from the `dist` folder (from [Swagger UI](https://swagger.io/tools/swagger-ui/)) into your doc page (more or less). The latest version of Swagger has a more responsive, liquid design. It almost looks *designed* to be embedded into another site.

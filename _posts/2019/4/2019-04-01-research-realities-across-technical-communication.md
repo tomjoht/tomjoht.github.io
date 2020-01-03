@@ -4,7 +4,7 @@ categories:
 - academics-and-practitioners
 keywords:
 bitlink: http://bit.ly/researchrealities
-summary: "In this guest post, Kirk St. Amant argues that despite having common ground through similar research interests, 5 barriers tend to separate tech comm practitioners from academics. These barriers involve Scope, Scale, Speed, Strategy, and Situatedness."
+description: "In this guest post, Kirk St. Amant argues that despite having common ground through similar research interests, 5 barriers tend to separate tech comm practitioners from academics. These barriers involve Scope, Scale, Speed, Strategy, and Situatedness."
 author: <a href='#kirk_st_amant'>Kirk St. Amant</a>
 ---
 

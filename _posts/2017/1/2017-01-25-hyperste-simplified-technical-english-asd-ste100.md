@@ -3,7 +3,7 @@ title: "Simplified Technical English and HyperSTE"
 categories:
 - api-doc
 keywords: hyperste, acrolinx, writing checker
-summary: "Simplified Technical English (STE) is an approach to writing developed by the aerospace and defense industries to simplify technical documentation. STE consists of a dictionary of about 900 allowed words and a set of 65 writing rules. Together, this controlled language is formalized into a specification called ASD-STE100, which many regulatory industries must follow to ensure clear, consistent content. HyperSTE is a plugin offered by Etteplan to check your content for adherence to the rules and grammar of the ASD-STE100 specification."
+description: "Simplified Technical English (STE) is an approach to writing developed by the aerospace and defense industries to simplify technical documentation. STE consists of a dictionary of about 900 allowed words and a set of 65 writing rules. Together, this controlled language is formalized into a specification called ASD-STE100, which many regulatory industries must follow to ensure clear, consistent content. HyperSTE is a plugin offered by Etteplan to check your content for adherence to the rules and grammar of the ASD-STE100 specification."
 bitlink: http://bit.ly/asd-ste1000hyperste
 redirect_from:
 - /2017/01/24/hyperste-simplified-technical-english-asd-ste100/

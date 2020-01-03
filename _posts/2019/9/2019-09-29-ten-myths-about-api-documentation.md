@@ -12,7 +12,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: 30.4 MB
 podcast_duration: "31:53"
 podcast_length: 30156232
-summary: "In this podcast, I debunk 10 myths about API documentation. For example, some myths are that only engineers can write API docs, or that you have to write API docs by deciphering an engineer's source code. In this podcast, I go through these myths one by one with discussion and analysis."
+description: "In this podcast, I debunk 10 myths about API documentation. For example, some myths are that only engineers can write API docs, or that you have to write API docs by deciphering an engineer's source code. In this podcast, I go through these myths one by one with discussion and analysis."
 ---
 
 {% include audio.html %}

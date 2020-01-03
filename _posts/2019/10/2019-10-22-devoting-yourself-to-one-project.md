@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 bitlink: https://idratherbewriting.site/longtermarrowstrats
-summary: "One strategy for maintaining productivity when working on multiple projects is to try to complete one main task on each project each day. I have an illustration with arrows and blocks that helps keep me on track and aligns my focus in the long-term."
+description: "One strategy for maintaining productivity when working on multiple projects is to try to complete one main task on each project each day. I have an illustration with arrows and blocks that helps keep me on track and aligns my focus in the long-term."
 ---
 
 ## Immersion versus partition

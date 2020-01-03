@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords: documentation review.
 bitlink: https://rebrand.ly/essenceandstagesofreview
-summary: "The essence of technical writing is in making a complex product work from beginning to end. In my doc process, I push content through five stages of review, but this first one, which includes my own review, is the most important."
+description: "The essence of technical writing is in making a complex product work from beginning to end. In my doc process, I push content through five stages of review, but this first one, which includes my own review, is the most important."
 ---
 
 ## The essence of technical writing

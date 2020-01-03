@@ -6,7 +6,7 @@ categories:
 - podcasts
 - stitcher
 keywords:
-summary: "I recently gave a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter in Santa Clara, California. The video recording and audio are available here."
+description: "I recently gave a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter in Santa Clara, California. The video recording and audio are available here."
 bitlink: http://bit.ly/upcomingstcsvapidocpreso
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/stcsv-introtoapidocs.mp3

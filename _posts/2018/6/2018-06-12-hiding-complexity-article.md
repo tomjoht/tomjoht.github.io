@@ -3,7 +3,7 @@ title: "Hiding Complexity -- A new Simplifying Complexity article"
 categories:
 - simplifying-complexity
 keywords:
-summary: "I added another article in my Simplifying Complexity series. This one is called <a href='https://idratherbewriting.com/simplifying-complexity/hiding-complexity.html'>Hiding complexity through JavaScript show/hide elements</a>. The basic principle is to look for ways to reduce complexity by hiding less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, and more."
+description: "I added another article in my Simplifying Complexity series. This one is called <a href='https://idratherbewriting.com/simplifying-complexity/hiding-complexity.html'>Hiding complexity through JavaScript show/hide elements</a>. The basic principle is to look for ways to reduce complexity by hiding less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, and more."
 bitlink: http://bit.ly/hidingcomplexitynewarticle
 ---
 

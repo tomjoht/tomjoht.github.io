@@ -3,7 +3,7 @@ title: "How Internet branding works"
 categories:
 - blogging
 keywords:
-summary: "After my last post on 2018 tech writing trends went viral (well, as viral as tech comm posts can get), it made me realize how Internet branding works. It's kind of a scary self-perpetuating model that anyone can understand and exploit."
+description: "After my last post on 2018 tech writing trends went viral (well, as viral as tech comm posts can get), it made me realize how Internet branding works. It's kind of a scary self-perpetuating model that anyone can understand and exploit."
 bitlink: http://bit.ly/
 published: false
 ---

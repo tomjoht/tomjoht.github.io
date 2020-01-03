@@ -3,7 +3,7 @@ title: "Combatting the \"Make-It-Pretty\" Philosophy: Technical Writers Fight Ba
 categories:
 - academics-and-practitioners
 keywords:
-summary: "In this guest post, <a href='#emily'>Emily January Petersen</a>, an assistant professor at Weber State University in the Professional and Technical Writing Program, talks about stereotypes in the workplace that devalues the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
+description: "In this guest post, <a href='#emily'>Emily January Petersen</a>, an assistant professor at Weber State University in the Professional and Technical Writing Program, talks about stereotypes in the workplace that devalues the work of technical and professional communicators. These myths perpetuate the idea that technical communication work is cosmetic, secretarial, unknown, and unnecessary."
 bitlink: http://bit.ly/stereotypesmythsworkplace
 practitioner_survey: https://docs.google.com/forms/d/1cPkozD8NPSrrelfSbBT4zLde8fM-SfgfYfRtDzxVEfM/
 author: <a href='#emily'>Emily January Petersen</a>

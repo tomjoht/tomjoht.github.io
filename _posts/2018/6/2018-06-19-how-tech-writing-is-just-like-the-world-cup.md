@@ -3,7 +3,7 @@ title: "10 ways technical writing is just like the World Cup"
 categories:
 - technical-writing
 keywords:
-summary: "I don't usually watch soccer, but I do get drawn into the World Cup. And this year, I'm finding that there are a surprising number of similarities between the World Cup and technical writing. Yes!!! So let's get started with the top 10 ways that technical writing is just like the soccer at the World Cup."
+description: "I don't usually watch soccer, but I do get drawn into the World Cup. And this year, I'm finding that there are a surprising number of similarities between the World Cup and technical writing. Yes!!! So let's get started with the top 10 ways that technical writing is just like the soccer at the World Cup."
 bitlink: http://bit.ly/worldcupandtechwriting
 date: 2018-06-19T14:11:32+00:00
 ---

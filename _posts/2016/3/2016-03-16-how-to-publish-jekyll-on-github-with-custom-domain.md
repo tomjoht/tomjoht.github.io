@@ -3,8 +3,8 @@ title: "How to publish Jekyll on Github Pages using a custom domain managed thro
 categories:
 - jekyll
 keywords: 
-summary: ""
-thumb: 
+description: ""
+image: https://idratherbewritingmedia.com/images/thumbnails/
 published: false
 ---
 

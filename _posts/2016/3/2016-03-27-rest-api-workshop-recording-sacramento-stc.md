@@ -3,8 +3,8 @@ title: "REST API documentation workshop recording (STC Sacramento)"
 categories:
 - api-doc
 keywords:
-summary: "I recently gave a workshop on REST API documentation to the STC Sacramento chapter. The workshop is about 3.5 hrs long and covers a lot of the concepts that I detail in my API doc course. In the workshop I first show you how to use a REST API like a developer. We then walk through common sections in API documentation, especially reference topics. Finally I give a tour of API documentation publishing tools."
-thumb: restapiworkshopsacramentothumb.png
+description: "I recently gave a workshop on REST API documentation to the STC Sacramento chapter. The workshop is about 3.5 hrs long and covers a lot of the concepts that I detail in my API doc course. In the workshop I first show you how to use a REST API like a developer. We then walk through common sections in API documentation, especially reference topics. Finally I give a tour of API documentation publishing tools."
+image: https://idratherbewritingmedia.com/images/thumbnails/restapiworkshopsacramentothumb.png
 ---
 
 ## REST API documentation workshop recording

@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 bitlink: http://bit.ly/shouldyougetatcdegree
-summary: "If you're considering entering a tech comm program to transition into technical writing, keep in mind two considerations &mdash; the emphasis on technical skills, and the potential drift from corporate relevance."
+description: "If you're considering entering a tech comm program to transition into technical writing, keep in mind two considerations &mdash; the emphasis on technical skills, and the potential drift from corporate relevance."
 ---
 
 ## Tech comm programs are a popular topic

@@ -3,8 +3,8 @@ title: "My technical communication contribution to the UX Careers Handbook"
 categories:
 - beginners
 keywords: User Experience careers, handbook, transitioning into technical writing, Cory Lebson, technical writing careers
-summary: "A while ago, Cory Lebson, a seasoned user experience consultant, invited me to write a chapter on technical communication in part of his upcoming UX Careers Handbook. The book was just published and is now available for order. My chapter provides a detailed introduction to technical writing for any beginning trying to transition into this field."
-thumb: uxcareershandbookthumb.png
+description: "A while ago, Cory Lebson, a seasoned user experience consultant, invited me to write a chapter on technical communication in part of his upcoming UX Careers Handbook. The book was just published and is now available for order. My chapter provides a detailed introduction to technical writing for any beginning trying to transition into this field."
+image: https://idratherbewritingmedia.com/images/thumbnails/uxcareershandbookthumb.png
 ---
 
 Here's the book:

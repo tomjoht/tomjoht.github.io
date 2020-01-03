@@ -4,7 +4,7 @@ categories:
 - api-doc
 - jekyll
 keywords:
-summary: "At the last WTD meetup, someone wanted to know my current thoughts on using Jekyll. Is it still what I recommend? There are challenges with search, file directory fragmentation, and authentication, but only the first point is inherent with static site generators."
+description: "At the last WTD meetup, someone wanted to know my current thoughts on using Jekyll. Is it still what I recommend? There are challenges with search, file directory fragmentation, and authentication, but only the first point is inherent with static site generators."
 ---
 
 Last week I attended a [Write the Docs meetup in San Francisco](http://www.meetup.com/Write-the-Docs), at Atlassian's stylish industrial-urban themed location. About 40 *documentation enthusiasts* (as they're called in WTD lingo) showed up, and we had an excellent panel discussion about creating documentation for startups.

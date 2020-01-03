@@ -3,7 +3,7 @@ title: "Moved my API doc site into separate repo"
 categories:
 - api-doc
 keywords:
-summary: "I recently moved my API doc course into a separate repo. Previously, I had the material inside my main site in its own collection. But I wanted to completely separate out the site into its own repo, with its own theme and configuration file and other settings. This will allow me to more easily output the content to other formats, such as MOBI and PDF. I'm happy that I did this, as I think it allows users to focus more fully on the content. It also makes it easier for me to generate the content into other outputs."
+description: "I recently moved my API doc course into a separate repo. Previously, I had the material inside my main site in its own collection. But I wanted to completely separate out the site into its own repo, with its own theme and configuration file and other settings. This will allow me to more easily output the content to other formats, such as MOBI and PDF. I'm happy that I did this, as I think it allows users to focus more fully on the content. It also makes it easier for me to generate the content into other outputs."
 bitlink: http://bit.ly/separatereposforcontent
 ---
 

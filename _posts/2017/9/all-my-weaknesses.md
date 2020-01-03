@@ -3,7 +3,7 @@ title: "All my weaknesses -- expounded"
 categories:
 - technical-writing
 keywords:
-summary: ""
+description: ""
 bitlink: http://bit.ly/
 published: false
 ---

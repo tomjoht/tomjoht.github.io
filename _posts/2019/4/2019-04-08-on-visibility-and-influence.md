@@ -5,7 +5,7 @@ categories:
 - writing
 keywords: 
 bitlink: https://rebrand.ly/hypothesisoncorpinfluence
-summary: "Can the same principles for visibility and influence online lead to visibility and influence inside corporate walls?"
+description: "Can the same principles for visibility and influence online lead to visibility and influence inside corporate walls?"
 ---
 
 One of the paradoxes of my career is to be recognized as a thought leader and influencer on the web among tech comm circles but to feel relatively insignificant and invisible at my place of work. In other words, to be a blogebrity online among the tech comm crowd, but to just be a nameless commoner at work with everyone else. This year I'd like to fix that ... somehow.

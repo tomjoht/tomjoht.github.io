@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: http://bit.ly/growingoldwhileyoung
-summary: "The engineering demographic can make even a relatively young person seem old. This sense of growing old is causing panic in many tech workers in Silicon Valley. One solution might be to change your mindset about what it means to be young, and to learn to unlearn what you have already internalized unconsciously."
+description: "The engineering demographic can make even a relatively young person seem old. This sense of growing old is causing panic in many tech workers in Silicon Valley. One solution might be to change your mindset about what it means to be young, and to learn to unlearn what you have already internalized unconsciously."
 ---
 
 A recent article in the *New York Times* describes a retreat for <i>aging</i> tech workers in Silicon Valley, attended by some **as young as 30**. Here are a few excerpts from [A New Luxury Retreat Caters to Elderly Workers in Tech (Ages 30 and Up)](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html):

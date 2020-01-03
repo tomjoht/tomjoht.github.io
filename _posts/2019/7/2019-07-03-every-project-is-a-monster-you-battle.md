@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/techcommmonsters
-summary: "Some tech comm projects are like monsters we battle. Is there any truth to the idea that it takes a monster to kill a monster?"
+description: "Some tech comm projects are like monsters we battle. Is there any truth to the idea that it takes a monster to kill a monster?"
 ---
 
 I've been thinking of a quote I once heard about writing being a monster that you battle and slay. I couldn't initially find the quote, but I liked the idea that writing projects were *monsters* that you go up against. This couldn't be more perfect a description for a recent project of mine.

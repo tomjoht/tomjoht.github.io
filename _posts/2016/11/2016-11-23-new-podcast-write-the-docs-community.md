@@ -3,7 +3,7 @@ title: "New podcast from the Write the Docs community"
 categories:
 - technical-writing
 keywords: podcasts, write the docs
-summary: "The Write the Docs community now has a podcast available. The podcast follows a discussion-based format with several co-hosts talking about recent articles or topics related to tech comm. The podcast is available on almost every podcast platform."
+description: "The Write the Docs community now has a podcast available. The podcast follows a discussion-based format with several co-hosts talking about recent articles or topics related to tech comm. The podcast is available on almost every podcast platform."
 bitlink: http://bit.ly/wtdpodcastepisode1
 ---
 

@@ -6,8 +6,8 @@ categories:
 - stitcher
 - academics-and-practitioners
 keywords: lisa meloncon, podcasts, academics, academic programs, research, paywalls, publications
-summary: "In this podcast, I talk with Lisa Meloncon, an associate professor at the University of Cincinnatti, about the academic-practitioner divide."
-thumb: microphone.png
+description: "In this podcast, I talk with Lisa Meloncon, an associate professor at the University of Cincinnatti, about the academic-practitioner divide."
+image: https://idratherbewritingmedia.com/images/thumbnails/microphone.png
 date: 2015-08-10
 tags:
 - academic programs
@@ -29,7 +29,7 @@ You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia
 
 ## Podcast summary
 
-One common response I usually get with podcasts is that people want a transcript of the audio. Although I don't have time to make a verbatim transcript, I decided to write out a brief summary of notes and highlights (based on what jumped out at me during my own listening) in a more informal way this time. Here's the summary:
+One common response I usually get with podcasts is that people want a transcript of the audio. Although I don't have time to make a verbatim transcript, I decided to write out a brief summary of notes and highlights (based on what jumped out at me during my own listening) in a more informal way this time. Here's the description:
 
 *Tell me a little bit about yourself.*
 

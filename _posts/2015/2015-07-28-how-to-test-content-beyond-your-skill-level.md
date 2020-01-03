@@ -5,7 +5,7 @@ categories:
 tags: [series_testing_documentation]
 series: testing_documentation
 keywords: testing complex content, admin server setups
-summary: "Sometimes with developer documentation, some of the content may be beyond your skill level to set up and test. In these cases, you can ask developers for help in setting up your system so that you can run the necessary tests. Alternatively, you can test the instructions with users and gather feedback indirectly."
+description: "Sometimes with developer documentation, some of the content may be beyond your skill level to set up and test. In these cases, you can ask developers for help in setting up your system so that you can run the necessary tests. Alternatively, you can test the instructions with users and gather feedback indirectly."
 weight: 1.5
 ---
 {% include series/seriesTagTestingDocs.html %}

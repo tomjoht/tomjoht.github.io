@@ -4,7 +4,7 @@ categories:
 - api-doc
 - dita
 keywords: 
-summary: "Tools used for technical documentation continues to be a fragmented proliferation of diverging technologies. Despite the growing ubiquity of DITA in component content management systems (CCMS), these systems don't model themselves after the REST API specifications that are growing more common in API doc environments."
+description: "Tools used for technical documentation continues to be a fragmented proliferation of diverging technologies. Despite the growing ubiquity of DITA in component content management systems (CCMS), these systems don't model themselves after the REST API specifications that are growing more common in API doc environments."
 published: false
 ---
 

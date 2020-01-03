@@ -3,7 +3,7 @@ title: Swagger tutorial for REST API documentation
 categories:
 - api-doc
 keywords: Swagger, automated REST API documentation, Swagger tutorial
-summary: "I updated the Swagger tutorial in my API doc course. If you'd like to learn more about Swagger, you can follow along here for step-by-step instruction."
+description: "I updated the Swagger tutorial in my API doc course. If you'd like to learn more about Swagger, you can follow along here for step-by-step instruction."
 ---
 
 Swagger is a REST specification that allows you to generate interactive API documentation. I created a [tutorial for using Swagger](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) in the API doc course I'm working on.

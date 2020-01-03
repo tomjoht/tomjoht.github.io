@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/specsdocsstrategies
-summary: "Although specification documentation (which covers technical information about product details), doesn't involve much actual writing, it does require you to make many judgments about what information to include, how to gather and retrieve these details, and how to structure and present the information. These tasks are at the heart of technical communication."
+description: "Although specification documentation (which covers technical information about product details), doesn't involve much actual writing, it does require you to make many judgments about what information to include, how to gather and retrieve these details, and how to structure and present the information. These tasks are at the heart of technical communication."
 ---
 
 ## Background

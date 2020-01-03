@@ -3,8 +3,8 @@ title: Spec-driven Development with RAML &mdash; presentation by Michael Stowe t
 categories:
 - api-doc
 keywords: RAML, REST API Modeling Language, Swagger, specification, API documentation, Mulesoft, Michael Stowe
-summary: "In October 2015 Michael Stowe presented to the STC Silicon Valley chapter about spec-driven development, with a demo of RAML, which is an API specification similar to Swagger. Pretty much everyone who attended his presentation was impressed at how cool RAML is in making API documentation interactive. You can view Michael's slides and listen to the spec-driven development presentation recording here."
-thumb: stowestcspecdrivendev.png
+description: "In October 2015 Michael Stowe presented to the STC Silicon Valley chapter about spec-driven development, with a demo of RAML, which is an API specification similar to Swagger. Pretty much everyone who attended his presentation was impressed at how cool RAML is in making API documentation interactive. You can view Michael's slides and listen to the spec-driven development presentation recording here."
+image: https://idratherbewritingmedia.com/images/thumbnails/stowestcspecdrivendev.png
 ---
 
 ## Slides

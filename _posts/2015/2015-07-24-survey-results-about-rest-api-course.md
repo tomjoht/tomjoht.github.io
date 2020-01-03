@@ -3,7 +3,7 @@ title: Survey results about the possible REST API workshop
 categories:
 - api-doc
 keywords: REST API workshop, API training, learn APIs
-summary: "Here are the survey results from my survey I conducted about a possible REST API workshop. Although a workshop would have a lot of appeal, many people are interested in online options since they aren't located in the area where I would give the workshop."
+description: "Here are the survey results from my survey I conducted about a possible REST API workshop. Although a workshop would have a lot of appeal, many people are interested in online options since they aren't located in the area where I would give the workshop."
 ---
 
 ## Survey results

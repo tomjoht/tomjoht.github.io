@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords: documenting code
 bitlink: https://idratherbewriting.site/difficultyofcodedoc
-summary: "I recently added a new section in my API documentation course on documenting code. This is an entire section that I'm building out with about 7-8 topics. The introduction is called <a href='/learnapidoc/docapis_code_difficulty.html'>Why documenting code is so difficult</a>."
+description: "I recently added a new section in my API documentation course on documenting code. This is an entire section that I'm building out with about 7-8 topics. The introduction is called <a href='/learnapidoc/docapis_code_difficulty.html'>Why documenting code is so difficult</a>."
 ---
 
 Here's the intro:

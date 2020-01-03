@@ -3,7 +3,7 @@ title: "Balancing writing, editing, and learning in equal measures"
 categories:
 - writing
 keywords:
-summary: "Writing is an activity that is best balanced with equal measures of editing and learning. Overdoing any one activity can lead to exhaustion and burnout, but by balancing these three activities &mdash; writing, editing, and learning &mdash; you can switch to different neural muscles and find more energy in the long-term."
+description: "Writing is an activity that is best balanced with equal measures of editing and learning. Overdoing any one activity can lead to exhaustion and burnout, but by balancing these three activities &mdash; writing, editing, and learning &mdash; you can switch to different neural muscles and find more energy in the long-term."
 bitlink: http://bit.ly/balancingwritingeditinglearning
 ---
 

@@ -3,7 +3,7 @@ title: Added native library API section to API doc course
 categories:
 - api-doc
 keywords:
-summary: "I added a section to my API documentation course on native library API documentation. For technical writers, this is one of the most difficult areas to excel in without a programming background."
+description: "I added a section to my API documentation course on native library API documentation. For technical writers, this is one of the most difficult areas to excel in without a programming background."
 ---
 
 I added a section to my API documentation course on [native library APIs](https://idratherbewriting.com/learnapidoc/nativelibraryapis_overview.html). Check it out and let me know what you think.

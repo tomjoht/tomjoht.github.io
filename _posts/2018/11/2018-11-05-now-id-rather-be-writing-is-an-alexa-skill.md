@@ -5,7 +5,7 @@ categories:
 - writing
 - stitcher
 keywords:
-summary: "Now you can listen to the latest narrated post on I'd Rather Be Writing as an Alexa Flash Briefing skill. This means you can listen to my audio content through your Echo device."
+description: "Now you can listen to the latest narrated post on I'd Rather Be Writing as an Alexa Flash Briefing skill. This means you can listen to my audio content through your Echo device."
 bitlink: http://bit.ly/alexaskillidratherbewriting
 # image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 image: https://idratherbewritingmedia.com/images/idratherbewriting-alexa-skill.png

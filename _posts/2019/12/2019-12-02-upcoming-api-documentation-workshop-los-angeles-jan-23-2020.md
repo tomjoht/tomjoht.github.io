@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/apidocworkshoplajan23
-summary: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089'>API Documentation Workshop</a> in Los Angeles, California, on January 23, 2020. Details are below. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089'>register on Eventbrite here</a>."
+description: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089'>API Documentation Workshop</a> in Los Angeles, California, on January 23, 2020. Details are below. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089'>register on Eventbrite here</a>."
 embed_survey: no_way
 ---
 

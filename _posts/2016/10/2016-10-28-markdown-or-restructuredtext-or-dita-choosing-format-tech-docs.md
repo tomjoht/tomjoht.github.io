@@ -5,7 +5,7 @@ categories:
 - dita
 - technical-writing
 keywords: 
-summary: "In the deliberation about authoring formats -- whether to use Markdown or reStructuredText or DITA (or something else) -- one detail that is frequently overlooked is the importance of the accompanying tool or platform that uses that format. You almost never use these authoring formats alone but rather with a tool that stores, processes, and renders the source into an output. The tool you use with the authoring format is almost as important as the authoring format itself."
+description: "In the deliberation about authoring formats -- whether to use Markdown or reStructuredText or DITA (or something else) -- one detail that is frequently overlooked is the importance of the accompanying tool or platform that uses that format. You almost never use these authoring formats alone but rather with a tool that stores, processes, and renders the source into an output. The tool you use with the authoring format is almost as important as the authoring format itself."
 bitlink: http://bit.ly/techdocformats
 ---
 

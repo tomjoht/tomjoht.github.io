@@ -3,8 +3,8 @@ title: "Creative maps to depict workflows through information spaces"
 categories:
 - visual-communication
 keywords:
-summary: ""
-thumb: userprocesscomplexthumb.png
+description: ""
+image: https://idratherbewritingmedia.com/images/thumbnails/userprocesscomplexthumb.png
 type: visualcommunication
 published: false
 ---

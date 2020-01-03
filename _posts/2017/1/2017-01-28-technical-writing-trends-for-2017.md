@@ -4,7 +4,7 @@ categories:
 - api-doc
 - technical-writing
 keywords: trends, documentation, technical writing, github, software documentation
-summary: "My 2016 technical writing trends/predictions turned out to be pretty accurate. For 2017 technical writing trends, I'm predicting that more technical writers turn to Github in their documentation workflows. This trend applies mainly to companies where programming technical writers work with engineers to create developer documentation."
+description: "My 2016 technical writing trends/predictions turned out to be pretty accurate. For 2017 technical writing trends, I'm predicting that more technical writers turn to Github in their documentation workflows. This trend applies mainly to companies where programming technical writers work with engineers to create developer documentation."
 bitlink: http://bit.ly/2017techwritingtrends
 ---
 

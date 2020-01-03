@@ -11,7 +11,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: 19.9 MB
 podcast_duration: "20:07"
 podcast_length: 19649147
-summary: "In this podcast, I talk about how to deal with project overload, specifically covering strategies to manage tasks. Scrum is one framework for dealing with project work by allowing you to limit the work you have before you in a more systematic way. I also explain the importance of focusing on a project to build up flow and momentum, without always context switching."
+description: "In this podcast, I talk about how to deal with project overload, specifically covering strategies to manage tasks. Scrum is one framework for dealing with project work by allowing you to limit the work you have before you in a more systematic way. I also explain the importance of focusing on a project to build up flow and momentum, without always context switching."
 ---
 
 {% include audio.html %}

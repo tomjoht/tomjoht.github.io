@@ -3,7 +3,7 @@ title: "How to tell if you're a content strategist"
 categories:
 - technical-writing
 keywords: 
-summary: "Recently MindTouch published a list of the top 25 Content Strategist Influencers. In contrast to previous top influencer lists, this year's list shifts from the term 'tech comm influencer' to 'content strategist influencer'. They also broadened their measures for determining influence, including less online presence and more offline influence, such as conference presentations. I just barely made the list this year. It got me thinking about whether I am in fact a content strategist or a technical writer."
+description: "Recently MindTouch published a list of the top 25 Content Strategist Influencers. In contrast to previous top influencer lists, this year's list shifts from the term 'tech comm influencer' to 'content strategist influencer'. They also broadened their measures for determining influence, including less online presence and more offline influence, such as conference presentations. I just barely made the list this year. It got me thinking about whether I am in fact a content strategist or a technical writer."
 bitlink: http://bit.ly/ruacontentstrategist
 ---
 

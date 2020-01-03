@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://rebrand.ly/microcontentinflare2019
-summary: "MadCap Software's 2019 release of Flare provides an interesting feature for creating and managing <i>micro content</i>. Support for micro content takes steps toward content management for AI scenarios, giving you better tools to build content for chatbots, search results pages, and more."
+description: "MadCap Software's 2019 release of Flare provides an interesting feature for creating and managing <i>micro content</i>. Support for micro content takes steps toward content management for AI scenarios, giving you better tools to build content for chatbots, search results pages, and more."
 ---
 
 *Note: MadCap Software is one of the sponsors of my blog.*

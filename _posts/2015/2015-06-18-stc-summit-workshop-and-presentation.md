@@ -3,7 +3,7 @@ title: My upcoming workshop and presentation at the STC Summit 2015 in Columbus,
 categories:
 - technical-writing
 keywords: api documentation, api workshop. rest api
-summary: "I'm giving both a workshop and presentation at the STC Summit in Columbus, Ohio. I'm also receiving an award for oustanding guest-edited issue of the Intercom."
+description: "I'm giving both a workshop and presentation at the STC Summit in Columbus, Ohio. I'm also receiving an award for oustanding guest-edited issue of the Intercom."
 ---
 
 ## Upcoming API documentation workshop

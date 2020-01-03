@@ -3,8 +3,8 @@ title: "Version 5.0 of my Documentation Theme for Jekyll now available"
 categories:
 - jekyll
 keywords: 
-summary: "Version 5.0 of my Documentation Theme for Jekyll is now available. This version allows you to associate different sidebars for different products on the same site. I'm trying to move away from the separate outputs model to provide a more web-friendly and integrated doc site experience that facilitates navigation across products on the same site."
-thumb: jekyll50thumb.png
+description: "Version 5.0 of my Documentation Theme for Jekyll is now available. This version allows you to associate different sidebars for different products on the same site. I'm trying to move away from the separate outputs model to provide a more web-friendly and integrated doc site experience that facilitates navigation across products on the same site."
+image: https://idratherbewritingmedia.com/images/thumbnails/jekyll50thumb.png
 ---
 
 ## Where to download the theme

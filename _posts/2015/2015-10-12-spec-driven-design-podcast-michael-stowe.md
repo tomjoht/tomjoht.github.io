@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 keywords:
-summary: "Spec-driven development is an approach to developing REST APIs by first describing and prototyping the API through a specification file (such as RAML or Swagger), and then coding the API. The spec not only serves as a contract for the API's development, it can also generate interaction documentation, unit tests, client SDKs, and provide other benefits."
+description: "Spec-driven development is an approach to developing REST APIs by first describing and prototyping the API through a specification file (such as RAML or Swagger), and then coding the API. The spec not only serves as a contract for the API's development, it can also generate interaction documentation, unit tests, client SDKs, and provide other benefits."
 date: 2015-10-12
 tags:
 - RAML

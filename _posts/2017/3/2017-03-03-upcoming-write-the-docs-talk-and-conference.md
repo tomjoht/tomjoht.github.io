@@ -4,7 +4,7 @@ categories:
 - findability
 - technical-writing
 keywords: write the docs, findability, navigation
-summary: "This year I'm planning to attend the 2017 Write the Docs conference in Portland. The conference takes place May 14-16 and draws about 400 people who come together for three days 'to explore the art and science of documentation'. I'll be presenting a short talk on doc navigation best practices."
+description: "This year I'm planning to attend the 2017 Write the Docs conference in Portland. The conference takes place May 14-16 and draws about 400 people who come together for three days 'to explore the art and science of documentation'. I'll be presenting a short talk on doc navigation best practices."
 bitlink: http://bit.ly/wtdconfdocnav
 ---
 

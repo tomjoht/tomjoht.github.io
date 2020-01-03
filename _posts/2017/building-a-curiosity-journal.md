@@ -3,8 +3,8 @@ title: "Building a curiosity journal"
 categories:
 - writing
 keywords: 
-summary: ""
-thumb: 
+description: ""
+image: https://idratherbewritingmedia.com/images/thumbnails/
 published: false
 ---
 

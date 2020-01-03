@@ -3,7 +3,7 @@ title: "Why static site generators are purposely kept simple"
 keywords:
 categories:
 - jekyll
-summary:""
+description: ""
 published: false
 ---
 

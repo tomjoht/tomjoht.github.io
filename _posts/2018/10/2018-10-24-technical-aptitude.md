@@ -6,7 +6,7 @@ categories:
 - stitcher
 - api-doc
 keywords:
-summary: "In the debate between being a specialist or generalist, there's also a third option: developing <i>technical acuity</i>. A person with a high degree of technical acuity has the technical mindset needed to understand and solve problems across a variety of technical domains. Given the ever growing number of technologies, developing technical acuity can be more advantageous, especially in technical writing contexts since technical writers work with a lot of different technologies."
+description: "In the debate between being a specialist or generalist, there's also a third option: developing <i>technical acuity</i>. A person with a high degree of technical acuity has the technical mindset needed to understand and solve problems across a variety of technical domains. Given the ever growing number of technologies, developing technical acuity can be more advantageous, especially in technical writing contexts since technical writers work with a lot of different technologies."
 bitlink: http://bit.ly/techacuity123
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/technicalacuity.mp3

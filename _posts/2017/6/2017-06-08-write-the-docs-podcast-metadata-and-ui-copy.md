@@ -4,9 +4,9 @@ categories:
 - findability
 - technical-writing
 keywords: write the docs, metadata, user interface copy
-summary: "In episode 6, we explore the role of metadata in documentation and how it can be used to classify topics and assist in the discoverability of information. We’re joined by special guest Eva Jackolis who explains a strategy for metadata used in German mechanical engineering documentation. We also discuss involving tech writers in UX copy and the challenges inherent in influencing UI copy, product naming, and working with UX designers and product teams."
+description: "In episode 6, we explore the role of metadata in documentation and how it can be used to classify topics and assist in the discoverability of information. We’re joined by special guest Eva Jackolis who explains a strategy for metadata used in German mechanical engineering documentation. We also discuss involving tech writers in UX copy and the challenges inherent in influencing UI copy, product naming, and working with UX designers and product teams."
 bitlink: http://bit.ly/wtdpodcast6idbw
-thumb: evapodcast.png
+image: https://idratherbewritingmedia.com/images/thumbnails/evapodcast.png
 ---
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/uGnDzVoJ2Lw" frameborder="0" allowfullscreen></iframe>

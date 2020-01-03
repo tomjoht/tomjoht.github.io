@@ -2,7 +2,7 @@
 title: "TC Camp in Santa Clara to be held Jan 21, 2017"
 categories:
 - beginners
-summary: "TC Camp is holding its annual free unconference for Tech Comm on Jan. 21 in Santa Clara. TC Camp starts with morning workshops given by experts in the field for a nominal fee. The unconference follows, where attendees vote on the topics to be discussed. It's a great event for networking and exchanging ideas, and I'll definitely be there."
+description: "TC Camp is holding its annual free unconference for Tech Comm on Jan. 21 in Santa Clara. TC Camp starts with morning workshops given by experts in the field for a nominal fee. The unconference follows, where attendees vote on the topics to be discussed. It's a great event for networking and exchanging ideas, and I'll definitely be there."
 date: 2017-01-06 15:00:00
 bitlink: http://bit.ly/tccampsantaclara
 ---

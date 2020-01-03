@@ -3,9 +3,9 @@ title: "Following instructions involves learning a new language -- adventures wi
 categories:
 - technical-writing
 keywords:
-summary: "In following instructions to assemble a Tinker Crate project over the weekend, I realized that a list of parts (essential for assembly kits) is similar to a glossary in that it teaches you a new vocabulary. Software projects also involve new vocabulary terms, but software instructions often omit the glossary (or list of parts). However, if you look at the glossary as a dictionary for new vocabulary, its inclusion in software instructions becomes just as essential as a list of parts in an assembly manual."
+description: "In following instructions to assemble a Tinker Crate project over the weekend, I realized that a list of parts (essential for assembly kits) is similar to a glossary in that it teaches you a new vocabulary. Software projects also involve new vocabulary terms, but software instructions often omit the glossary (or list of parts). However, if you look at the glossary as a dictionary for new vocabulary, its inclusion in software instructions becomes just as essential as a list of parts in an assembly manual."
 bitlink: http://bit.ly/tinkercrateprojects
-thumb: tinkercratethumb.png
+image: https://idratherbewritingmedia.com/images/thumbnails/tinkercratethumb.png
 ---
 
 ## Tinker Crate projects

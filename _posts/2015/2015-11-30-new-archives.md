@@ -3,7 +3,7 @@ title: Archives now browsable by date
 categories:
 - blogging
 keywords: 
-summary: "You can now browse my blog by viewing date-based archives."
+description: "You can now browse my blog by viewing date-based archives."
 published: false
 ---
 

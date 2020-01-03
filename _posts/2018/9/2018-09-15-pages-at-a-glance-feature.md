@@ -4,7 +4,7 @@ categories:
 - simplifying-complexity
 - web-design
 keywords:
-summary: "Showing users the 'Pages at a glance' when they click a folder title in a sidebar can help users get a quick understanding of the whole without slogging through the details of each page. The first two sentences of a topic should encapsulate the point of the whole topic is a condensed and informative way."
+description: "Showing users the 'Pages at a glance' when they click a folder title in a sidebar can help users get a quick understanding of the whole without slogging through the details of each page. The first two sentences of a topic should encapsulate the point of the whole topic is a condensed and informative way."
 bitlink: http://bit.ly/firsttwosentencestc
 ---
 

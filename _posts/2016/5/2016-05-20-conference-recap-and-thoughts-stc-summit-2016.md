@@ -4,8 +4,8 @@ categories:
 - api-doc
 - technical-writing
 keywords: STC Summit, Jekyll, conferences,  
-thumb: stcsummitanaheimworkshopthumb.png
-summary: "I attended the 2016 STC Summit in Anaheim, California this year. This is a brief, rambling post that recaps some of my thoughts and experiences."
+image: https://idratherbewritingmedia.com/images/thumbnails/stcsummitanaheimworkshopthumb.png
+description: "I attended the 2016 STC Summit in Anaheim, California this year. This is a brief, rambling post that recaps some of my thoughts and experiences."
 ---
 
 Overall, I think the [Summit](http://summit.stc.org/) was a good conference (as usual) -- it was well-organized and executed, with top speakers and a wide variety of topics. I believe attendance was up this year, with around 600 attendees. The expo hall was full of vendors, including a virtual reality vendor with goggles that let you view an Ohio State University football game and campus tour.

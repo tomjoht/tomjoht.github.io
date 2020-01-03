@@ -5,8 +5,8 @@ categories:
 - jekyll
 - technical-writing
 keywords:
-summary: "I'm going to be giving a workshop on API documentation and a presentation about Jekyll at the STC Summit in Anaheim, California in May."
-thumb: stcsummitupcomingpre2016.png
+description: "I'm going to be giving a workshop on API documentation and a presentation about Jekyll at the STC Summit in Anaheim, California in May."
+image: https://idratherbewritingmedia.com/images/thumbnails/stcsummitupcomingpre2016.png
 ---
 
 My API workshop will more or less follow the same content as my [API doc course](https://idratherbewriting.com/learnapidoc/). This content is online and available right now.

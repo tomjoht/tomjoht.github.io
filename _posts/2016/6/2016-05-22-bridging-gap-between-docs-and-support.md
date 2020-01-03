@@ -3,8 +3,8 @@ title: "Presentation recording: Two Great Teams that Work Great Together: Bridgi
 categories:
 - podcasts
 keywords: support, documentation, service tickets
-summary: "At the May WTD meetup, Neal Kaplan gave a presentation titled Two Great Teams that Work Great Together: Bridging the Gap Between Documentation and Support. This post contains the audio and video recording of the presentation."
-thumb: writethedocsthumb.png
+description: "At the May WTD meetup, Neal Kaplan gave a presentation titled Two Great Teams that Work Great Together: Bridging the Gap Between Documentation and Support. This post contains the audio and video recording of the presentation."
+image: https://idratherbewritingmedia.com/images/thumbnails/writethedocsthumb.png
 date: 2016-05-22
 tags:
 - technical writing

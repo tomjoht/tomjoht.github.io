@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 - jekyll
-summary: "Translation is a complex undertaking that usually requires you to take advantage of dynamic variables and other parameters in your source format in order to generate out different languages. Although most people think of static site generators as containing static content only, it's actually only static output. During the build process, you can take advantage of these more dynamic characteristics to handle rules for outputting to different languages. In this post, I explain some of the details you have to account for (includes, links, images, re-used content, etc.) when managing a translation project using a static site generator such as Jekyll."
+description: "Translation is a complex undertaking that usually requires you to take advantage of dynamic variables and other parameters in your source format in order to generate out different languages. Although most people think of static site generators as containing static content only, it's actually only static output. During the build process, you can take advantage of these more dynamic characteristics to handle rules for outputting to different languages. In this post, I explain some of the details you have to account for (includes, links, images, re-used content, etc.) when managing a translation project using a static site generator such as Jekyll."
 date: 2016-08-15
 tags:
 - translation

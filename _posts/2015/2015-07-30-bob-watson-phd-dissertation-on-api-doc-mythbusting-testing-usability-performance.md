@@ -8,8 +8,8 @@ keywords: bob watson, api usability, reference docs, design, performance, releva
 tags: [series_testing_documentation]
 series: testing_documentation
 weight: 1.6
-summary: "Bob Watson recently finished a PhD with research that examined how the design and content of API reference docs affects the user's performance. In this podcast, I talk with Bob about his findings and his other research interests, primarily around goal testing to measure documentation's effectiveness."
-thumb: microphone.png
+description: "Bob Watson recently finished a PhD with research that examined how the design and content of API reference docs affects the user's performance. In this podcast, I talk with Bob about his findings and his other research interests, primarily around goal testing to measure documentation's effectiveness."
+image: https://idratherbewritingmedia.com/images/thumbnails/microphone.png
 date: 2015-07-30
 tags:
 - API documentation

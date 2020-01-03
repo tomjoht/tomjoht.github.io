@@ -4,8 +4,8 @@ categories:
 - writing
 - technical-writing
 keywords: technical writing, beginners, statistics, traffic, top posts
-summary: "The main traffic on my site comes from new technical writers looking for general information about technical writing careers. To increase my readership, I would probably need to post more general information about technical writing (salaries, programs, skills, tools, etc.). But this kind of focus may take away from my brand or sense of expertise about more specialized topics. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
-thumb: 2016stats.png
+description: "The main traffic on my site comes from new technical writers looking for general information about technical writing careers. To increase my readership, I would probably need to post more general information about technical writing (salaries, programs, skills, tools, etc.). But this kind of focus may take away from my brand or sense of expertise about more specialized topics. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
+image: https://idratherbewritingmedia.com/images/thumbnails/2016stats.png
 ---
 
 ## Analysis overview

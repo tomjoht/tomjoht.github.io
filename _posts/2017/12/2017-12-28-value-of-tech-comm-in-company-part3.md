@@ -4,7 +4,7 @@ subtitle: "Part III: Determining value through usage"
 categories:
 - technical-writing
 keywords: tech writing, value, usage, documentation
-summary: "Documentation is valuable. It derives this value not from a carefully measured financial ROI, which is impractical to measure, but from the perceived value by the many groups within the company that use the documentation. But even though documentation has value from perceived usage, it might not have more value relative to other organizational resources that are also used by the same groups. As such, arguments about value based on usage fall short. Tech comm must seek for additional forms of value to tip the balance."
+description: "Documentation is valuable. It derives this value not from a carefully measured financial ROI, which is impractical to measure, but from the perceived value by the many groups within the company that use the documentation. But even though documentation has value from perceived usage, it might not have more value relative to other organizational resources that are also used by the same groups. As such, arguments about value based on usage fall short. Tech comm must seek for additional forms of value to tip the balance."
 bitlink: http://bit.ly/valueargspart3
 weight: 3
 tags: series_value_of_tech_comm

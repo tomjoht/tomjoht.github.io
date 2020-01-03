@@ -4,9 +4,9 @@ categories:
 - technical-writing
 - writing
 keywords:
-summary: "Amazon's technical writers are taking their manuals to the next level using voice-interactive features with Alexa. The guides are still delivered through traditional means (PDF and web), but these guides now include an additional interactive voice enhancement that users can optionally leverage when they get confused or frustrated."
+description: "Amazon's technical writers are taking their manuals to the next level using voice-interactive features with Alexa. The guides are still delivered through traditional means (PDF and web), but these guides now include an additional interactive voice enhancement that users can optionally leverage when they get confused or frustrated."
 bitlink: http://bit.ly/voice-interactive-manuals
-thumb: aprilfoolsalexapostthumb.png
+image: https://idratherbewritingmedia.com/images/thumbnails/aprilfoolsalexapostthumb.png
 ---
 
 ## Example scenarios for voice interactions

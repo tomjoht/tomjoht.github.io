@@ -24,7 +24,7 @@ categories:
 - wordpress
 - writing
 keywords: 
-summary: ""
+description: ""
 thumb:
 published: false
 ---

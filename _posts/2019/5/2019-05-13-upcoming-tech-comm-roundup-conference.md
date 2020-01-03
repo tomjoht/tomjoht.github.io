@@ -7,7 +7,7 @@ categories:
 - general
 keywords:
 bitlink: https://idratherbewriting.site/techcommroundup
-summary: "Scott Abel has put together a new conference called <a href='https://technicaldocumentationroundup.com/'>Technical Documentation Roundup</a>, held May 21-23, 2019, in Menlo Park, California. If you're interested in attending the conference, there's currently an opportunity to get two tickets for the price of one."
+description: "Scott Abel has put together a new conference called <a href='https://technicaldocumentationroundup.com/'>Technical Documentation Roundup</a>, held May 21-23, 2019, in Menlo Park, California. If you're interested in attending the conference, there's currently an opportunity to get two tickets for the price of one."
 ---
 
 I asked Scott to tell me a little bit about the conference. Here's the high-level description:

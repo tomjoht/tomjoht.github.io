@@ -5,7 +5,7 @@ categories:
 - writing
 keywords: masters in technical writing, technical communication masters program, mercer tech comm program
 bitlink: http://bit.ly/mercertechcomm
-summary: "Considering earning a master's in technical writing to move up the career ladder? If so, check out Mercer's online master's in Technical Communication Management program, which is positioned within Mercer's School of Engineering and focuses on teaching you management skills to influence significant organizational change. There are many details to consider when choosing a master's in technical writing program, so I reached out to Pam Brewer, who directs the program at Mercer, with some questions."
+description: "Considering earning a master's in technical writing to move up the career ladder? If so, check out Mercer's online master's in Technical Communication Management program, which is positioned within Mercer's School of Engineering and focuses on teaching you management skills to influence significant organizational change. There are many details to consider when choosing a master's in technical writing program, so I reached out to Pam Brewer, who directs the program at Mercer, with some questions."
 ---
 
 *Note that Mercer is one of my site's sponsors.*

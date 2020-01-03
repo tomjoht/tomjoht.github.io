@@ -3,7 +3,7 @@ title: "Question: How long does it take to ramp up on your Jekyll theme?"
 categories:
 - jekyll
 keywords: 
-summary: "Using Jekyll for documentation will probably require more time and effort than a commercial out-of-the-box authoring tool. On the other hand, Jekyll may be more suitable to you if you're customizing a doc website, want a developer's workflow, or simply want the freedom of using open source tools and working in code."
+description: "Using Jekyll for documentation will probably require more time and effort than a commercial out-of-the-box authoring tool. On the other hand, Jekyll may be more suitable to you if you're customizing a doc website, want a developer's workflow, or simply want the freedom of using open source tools and working in code."
 ---
 
 A reader asks:

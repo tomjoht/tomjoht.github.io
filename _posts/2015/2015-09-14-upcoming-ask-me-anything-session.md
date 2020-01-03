@@ -3,7 +3,7 @@ title: Upcoming "Ask Me Anything" (AMA) session
 categories:
 - technical-writing
 keywords: 
-summary: "I'll be available September 17 for an AMA session where you can ask me any questions you want, and I'll try to answer them."
+description: "I'll be available September 17 for an AMA session where you can ask me any questions you want, and I'll try to answer them."
 ---
 
 {% include notes.html %}

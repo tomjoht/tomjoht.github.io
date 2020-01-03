@@ -4,7 +4,7 @@ categories:
 - technical-writing
 - writing
 keywords:
-summary: "Wondering what to get the precious technical writer in your family or workplace for the holidays? Here are some gift ideas."
+description: "Wondering what to get the precious technical writer in your family or workplace for the holidays? Here are some gift ideas."
 bitlink: http://bit.ly/holidaygiftstechcomm
 redirect_from:
 - /2018/12/16/christmas-gifts-for-technical-writers/

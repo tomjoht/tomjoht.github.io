@@ -3,7 +3,7 @@ title: "Swagger presentation recording -- Harnessing the Chi of Swagger in your 
 categories:
 - api-doc
 keywords: swagger, openAPI, trends, 2017
-summary: "Recently I gave a presentation on Swagger as part of the TC Dojo webinar series. If you missed the presentation, you can view the Swagger recording here."
+description: "Recently I gave a presentation on Swagger as part of the TC Dojo webinar series. If you missed the presentation, you can view the Swagger recording here."
 bitlink: http://bit.ly/swaggertcdojorecording
 date: 2017-01-17 19:00:00
 ---

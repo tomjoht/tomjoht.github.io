@@ -4,9 +4,9 @@ categories:
 - api-doc
 - technical-writing
 keywords: testing docs, qa, environments
-summary: "Testing your documentation is such an important part of tech writing that I decided to expand the sections on testing docs in my API doc course. I actually grouped these pages into their own section, amplifying the content with more detail and better organization."
+description: "Testing your documentation is such an important part of tech writing that I decided to expand the sections on testing docs in my API doc course. I actually grouped these pages into their own section, amplifying the content with more detail and better organization."
 bitlink: http://bit.ly/testingyourdocsapi
-thumb: testinginlab.png
+image: https://idratherbewritingmedia.com/images/thumbnails/testinginlab.png
 ---
 
 Here are the pages on testing your documentation:

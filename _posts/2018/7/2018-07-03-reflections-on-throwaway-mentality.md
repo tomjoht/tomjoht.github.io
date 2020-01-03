@@ -3,7 +3,7 @@ title: "Random reflections on the throwaway mentality in our culture"
 categories:
 - writing
 keywords:
-summary: "When should you fix a broken process and when should you simply throw it away? Sometimes we continue on within broken processes for years; it might make sense to systematically try to fix broken processes &mdash; to a point."
+description: "When should you fix a broken process and when should you simply throw it away? Sometimes we continue on within broken processes for years; it might make sense to systematically try to fix broken processes &mdash; to a point."
 bitlink: http://bit.ly/fixversusthrowaway
 ---
 

@@ -8,7 +8,7 @@ categories:
 - podcasts
 keywords: write the docs, podcast, documentation
 bitlink: https://idratherbewriting.site/wtdpocastepisode22pointer
-summary: "In episode 22 of the Write the Docs podcast, Giles Gaskell from Squiz in Australia joins us to talk about managing multiple doc projects across Git repositories through Antora. Giles explains how to establish processes such that updating documentation becomes part of the definition of done, how to manage build process across multiple Gitlab repositories, strategies for distributing doc work across engineers through templates, how to scale workloads when you're the lone technical writer in the company, times when dogfooding your own product for docs makes sense and when it does not, pros and cons of Asciidoc versus Markdown, and more docs-as-code topics."
+description: "In episode 22 of the Write the Docs podcast, Giles Gaskell from Squiz in Australia joins us to talk about managing multiple doc projects across Git repositories through Antora. Giles explains how to establish processes such that updating documentation becomes part of the definition of done, how to manage build process across multiple Gitlab repositories, strategies for distributing doc work across engineers through templates, how to scale workloads when you're the lone technical writer in the company, times when dogfooding your own product for docs makes sense and when it does not, pros and cons of Asciidoc versus Markdown, and more docs-as-code topics."
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6aQZT6EwBtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

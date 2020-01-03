@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/
-summary: "A reader recently asked how to collaborate with Git with other writers. He said they found it hard to develop a Git workflow that allowed them to work on content together and wondered if another approach might be more suitable."
+description: "A reader recently asked how to collaborate with Git with other writers. He said they found it hard to develop a Git workflow that allowed them to work on content together and wondered if another approach might be more suitable."
 ---
 
 The reader asks,

@@ -3,8 +3,8 @@ title: "So People Don't RTFM? Write a FM That's Worth R'ing &mdash; Guest post b
 categories:
 - technical-writing
 keywords: RTFM, read the fucking manual, read the fine manual, marcia riefer johnston, larry kunz
-summary: "The following is a guest post by Marcia Riefer Johnston exploring an alternative view towards the RTFM argument. In this post, Marcia argues that it's the writer's care and interest in the product and users that leads to producing help content worth reading versus content that is mechanical, dry, and lifeless."
-thumb: marciar.png
+description: "The following is a guest post by Marcia Riefer Johnston exploring an alternative view towards the RTFM argument. In this post, Marcia argues that it's the writer's care and interest in the product and users that leads to producing help content worth reading versus content that is mechanical, dry, and lifeless."
+image: https://idratherbewritingmedia.com/images/thumbnails/marciar.png
 author: marcia
 ---
 

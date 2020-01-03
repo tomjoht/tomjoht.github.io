@@ -3,7 +3,7 @@ title: "The reason I always find time to write on this blog"
 categories:
 - writing
 keywords:
-summary: "I finally realized why I write so much: because not writing tends to be deflating."
+description: "I finally realized why I write so much: because not writing tends to be deflating."
 bitlink: http://bit.ly/whyiwritetheanswer
 ---
 

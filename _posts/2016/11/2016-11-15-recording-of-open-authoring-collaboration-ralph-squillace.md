@@ -16,7 +16,7 @@ podcast_file_size: 74.7 MB
 podcast_duration: "01:36:25"
 podcast_length: 74656136
 bitlink: http://bit.ly/ralphsquillacestc
-summary: "Ralph Squillace, a senior content engineer for the Microsoft Azure Infrastructure team based in San Francisco, California, recently gave a presentation to the STC Silicon Valley chapter (on November 14, 2016) on <i>Open Authoring -- Collaboration Across Disciplines</i>. In the presentation, Ralph talks about Microsoft's approach to scaling their authoring and publishing efforts across the company by embracing Markdown, Github, open source tools, and other processes that allowed everyone in the company to write and contribute to Azure's documentation."
+description: "Ralph Squillace, a senior content engineer for the Microsoft Azure Infrastructure team based in San Francisco, California, recently gave a presentation to the STC Silicon Valley chapter (on November 14, 2016) on <i>Open Authoring -- Collaboration Across Disciplines</i>. In the presentation, Ralph talks about Microsoft's approach to scaling their authoring and publishing efforts across the company by embracing Markdown, Github, open source tools, and other processes that allowed everyone in the company to write and contribute to Azure's documentation."
 ---
 
 ## Audio

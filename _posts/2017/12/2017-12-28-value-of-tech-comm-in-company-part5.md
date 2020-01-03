@@ -4,7 +4,7 @@ subtitle: "Part V: Influencing the content experience"
 categories:
 - technical-writing
 keywords: value, organizations, information flow, content experience
-summary: "Content experience &mdash; influencing the content across all touchpoints in the customer's journey &mdash; is another area where tech writers can add more value. This roots the tech writer's contributions in content development activities, not merely information flow. However, given the expanded bandwidth that cross-functional contributions require, these efforts require backing from customer satisfaction groups in the organization. Additionally, despite the good fit of docs to influence the customer experience, companies still primarily want someone to write clear docs, not necessarily someone to address the customer experience."
+description: "Content experience &mdash; influencing the content across all touchpoints in the customer's journey &mdash; is another area where tech writers can add more value. This roots the tech writer's contributions in content development activities, not merely information flow. However, given the expanded bandwidth that cross-functional contributions require, these efforts require backing from customer satisfaction groups in the organization. Additionally, despite the good fit of docs to influence the customer experience, companies still primarily want someone to write clear docs, not necessarily someone to address the customer experience."
 bitlink: http://bit.ly/valueargspart5
 weight: 5
 tags: series_value_of_tech_comm

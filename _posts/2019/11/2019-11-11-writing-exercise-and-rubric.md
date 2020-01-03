@@ -4,7 +4,7 @@ permalink: /blog/writing-exercise-for-technical-candidates-and-a-rubric/
 categories:
 - technical-writing
 bitlink: https://idratherbewriting.site/writing-exercise-and-rubric
-summary: ""
+description: ""
 published: false
 ---
 

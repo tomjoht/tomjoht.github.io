@@ -3,7 +3,7 @@ title: "Biking at Alviso County Park (Santa Clara)"
 categories:
 - biking
 keywords:
-summary: "A brief account of biking in Alviso County park's pathways."
+description: "A brief account of biking in Alviso County park's pathways."
 ---
 
 I usually just write about topics related to technical writing on this blog, but for fun I'm going to start including some additional topics, mostly related to biking in the Santa Clara county area. If this topic doesn't interest you, just tune out the category.

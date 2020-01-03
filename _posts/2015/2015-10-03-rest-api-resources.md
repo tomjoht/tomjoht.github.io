@@ -3,7 +3,7 @@ title: 5 REST API resources to add to your reading list
 categories:
 - api-doc
 keywords:
-summary: "The following is a collection of 5 worthwhile REST API resources (blogs, newsletters, or other tutorials) to add to your API reading list."
+description: "The following is a collection of 5 worthwhile REST API resources (blogs, newsletters, or other tutorials) to add to your API reading list."
 ---
 
 Here are a few good REST API resources to add to your reading list:

@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 bitlink: https://rebrand.ly/taxesandturbotaxirs
-summary: "In this post, I share a few thoughts after doing my taxes. Some businesses thrive on complexity and would have you believe there's no simple approach apart from purchasing their software."
+description: "In this post, I share a few thoughts after doing my taxes. Some businesses thrive on complexity and would have you believe there's no simple approach apart from purchasing their software."
 redirect_from:
 - /2019/04/10/before-you-celebrate-turbo-tax
 ---

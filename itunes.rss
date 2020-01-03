@@ -9,7 +9,7 @@ layout: null
     <atom:link href="https://idratherbewriting.com/itunes.rss" rel="self" type="application/rss+xml" />
     <description>Technical writing podcast. Includes tech comm (technical communication) presentations at venues such as Write the Docs and STC, audio versions of posts from I'd Rather Be Writing (idratherbewriting.com), and more. This tech writing podcast's focus is on documentation, user guides, user assistance, tutorials, and other topics for technical writers, technical communicators, content strategists, and documentarians. Produced by Tom Johnson.</description>
     <itunes:author>Tom Johnson</itunes:author>
-    <copyright>© 2016 I'd Rather Be Writing</copyright>
+    <copyright>© 2020 I'd Rather Be Writing</copyright>
     <language>en-us</language>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
     <itunes:category text="Technology">
@@ -39,12 +39,12 @@ layout: null
             {% endfor %}
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
             <description>
-                <![CDATA[{{ ep.summary | cdata_escape }}]]>
+                <![CDATA[{{ ep.description | cdata_escape }}]]>
             </description>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
-            <itunes:subtitle>{{ ep.summary | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
-            <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }}</itunes:summary>
+            <itunes:subtitle>{{ ep.description | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
+            <itunes:summary>{{ ep.description | expand_urls: site.url | cdata_escape }}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
             <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
             <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>

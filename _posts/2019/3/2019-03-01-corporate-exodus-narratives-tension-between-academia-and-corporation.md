@@ -10,7 +10,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.co
 podcast_file_size: 30.6 MB
 podcast_duration: "27:52"
 podcast_length: 30596201
-summary: "Corporations often expect tech comm academics to fashion their curriculums to suit corporate needs; in contrast, academic departments want to give students a safe space free of corporate agendas for critical inquiry. Tech comm academics are often caught between these two groups and must satisfy both."
+description: "Corporations often expect tech comm academics to fashion their curriculums to suit corporate needs; in contrast, academic departments want to give students a safe space free of corporate agendas for critical inquiry. Tech comm academics are often caught between these two groups and must satisfy both."
 ---
 
 {% include audio.html %}

@@ -3,7 +3,7 @@ title: "My top 3 posts of 2016 are all Swagger-related -- lessons learned from 2
 categories:
 - api-doc
 keywords: swagger, openAPI, trends, 2017
-summary: "This past year the stats on my blog showed some surprising results. From about mid-2016 on through the present, there was a notably upward trend in page views. I attribute the upward trend primarily to some posts on Swagger. The larger trend is that all top posts on my site could be classified as documentation content."
+description: "This past year the stats on my blog showed some surprising results. From about mid-2016 on through the present, there was a notably upward trend in page views. I attribute the upward trend primarily to some posts on Swagger. The larger trend is that all top posts on my site could be classified as documentation content."
 bitlink: http://bit.ly/2017swagger
 date: 2017-01-17 20:00:00
 ---

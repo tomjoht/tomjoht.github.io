@@ -3,7 +3,7 @@ title: "New OpenAPI 3.0 specification tutorial in my API Course"
 categories:
 - api-doc
 keywords:
-summary: "I added a new tutorial on creating an OpenAPI 3.0 specification document in my API course. (OpenAPI was formerly referred to as Swagger.) The tutorial has 8 steps and guides you through the process of creating the specification document in the context of a sample weather API. Additionally, I explain how the specification fields get displayed in Swagger UI. Swagger UI is the display framework that reads the OpenAPI spec and generates an interactive documentation website."
+description: "I added a new tutorial on creating an OpenAPI 3.0 specification document in my API course. (OpenAPI was formerly referred to as Swagger.) The tutorial has 8 steps and guides you through the process of creating the specification document in the context of a sample weather API. Additionally, I explain how the specification fields get displayed in Swagger UI. Swagger UI is the display framework that reads the OpenAPI spec and generates an interactive documentation website."
 bitlink: http://bit.ly/openapi30tutorial
 ---
 

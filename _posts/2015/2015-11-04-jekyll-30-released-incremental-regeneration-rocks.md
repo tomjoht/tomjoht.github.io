@@ -3,7 +3,7 @@ title: "Why incremental regeneration in Jekyll 3.0 is such a big deal"
 categories:
 - jekyll
 keywords: 
-summary: "Jekyll's incremental regeneration continuously rebuilds your project each time you save a change. This can help you quickly identify errors and fix them immediately, since the time between when you make the error and when you're notified of the broken build is reduced."
+description: "Jekyll's incremental regeneration continuously rebuilds your project each time you save a change. This can help you quickly identify errors and fix them immediately, since the time between when you make the error and when you're notified of the broken build is reduced."
 ---
 
 Last week at the [Static Web Tech Meetup in San Francisco](http://www.staticwebtech.com/presentations/launching-jekyll-3.0/), Parker Moore (the primary maintainer of the Jekyll project) announced the release of Jekyll 3.0. 

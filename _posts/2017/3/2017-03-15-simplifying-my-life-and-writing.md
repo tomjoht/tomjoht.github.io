@@ -3,7 +3,7 @@ title: "Simplifying my life and writing"
 categories:
 - writing
 keywords:
-summary: "For a while now I've wanted to simplify my life. When I tell this to people, almost everyone can relate. But the move toward simplicity isn't just about removing busy-ness. Simplicity lets you focus on the things you actually want to do, rather than those things you feel obligated to do but have no desire to do. I have a goal to simplify my writing style as well, using tools such as the Hemingway app and basic simplicity principles."
+description: "For a while now I've wanted to simplify my life. When I tell this to people, almost everyone can relate. But the move toward simplicity isn't just about removing busy-ness. Simplicity lets you focus on the things you actually want to do, rather than those things you feel obligated to do but have no desire to do. I have a goal to simplify my writing style as well, using tools such as the Hemingway app and basic simplicity principles."
 bitlink: http://bit.ly/lifesimplificationtom
 ---
 

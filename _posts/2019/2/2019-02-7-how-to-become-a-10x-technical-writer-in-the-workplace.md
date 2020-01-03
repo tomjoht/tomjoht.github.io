@@ -12,7 +12,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.co
 podcast_file_size: 23.1 MB
 podcast_duration: "23:52"
 podcast_length: 23071687
-summary: "How do you become a 10X technical writer in the workplace (10X means 10 times more efficient and productive than others)? In this post, I raise the question and then offer a few tips I try to follow: (1) Record your meetings with engineers, (2) Respond quickly to emails and messages, (3) Iterate on content with ever-expanding layers of reviewers, (4) Put some work back on those who request it, and (5) Learn to say no so you can focus on fewer projects with deeper engagement."
+description: "How do you become a 10X technical writer in the workplace (10X means 10 times more efficient and productive than others)? In this post, I raise the question and then offer a few tips I try to follow: (1) Record your meetings with engineers, (2) Respond quickly to emails and messages, (3) Iterate on content with ever-expanding layers of reviewers, (4) Put some work back on those who request it, and (5) Learn to say no so you can focus on fewer projects with deeper engagement."
 redirect_from:
 - /2019/02/06/tips-for-being-a-rock-star-technical-writer-in-the-workplace/
 ---

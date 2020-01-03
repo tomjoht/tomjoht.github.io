@@ -3,7 +3,7 @@ title: "Question: If you weren't a technical writer, what would you be?"
 categories:
 - beginners
 keywords: 
-summary: "My alternative to doing technical writing would be to do web design. I'd also like to use my creative talents to finish an API documentation course, among other efforts."
+description: "My alternative to doing technical writing would be to do web design. I'd also like to use my creative talents to finish an API documentation course, among other efforts."
 ---
 
 A reader asks,

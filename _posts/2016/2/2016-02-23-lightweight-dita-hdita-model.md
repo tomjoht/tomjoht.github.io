@@ -3,8 +3,8 @@ title: "Lightweight DITA article in Technical Communication Journal"
 categories:
 - dita
 keywords: 
-summary: "A recent article in the <i>Technical Communication Journal</i> explores lightweight DITA and the way it removes some of the complexity from the authoring process. Lightweight DITA is still in development, but it holds great promise in simplifying DITA and allowing authors to connect into larger systems for managing doc content without abandoning HTML."
-thumb: techcommjonline.png
+description: "A recent article in the <i>Technical Communication Journal</i> explores lightweight DITA and the way it removes some of the complexity from the authoring process. Lightweight DITA is still in development, but it holds great promise in simplifying DITA and allowing authors to connect into larger systems for managing doc content without abandoning HTML."
+image: https://idratherbewritingmedia.com/images/thumbnails/techcommjonline.png
 ---
 
 <a href="http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/"><img style="float: right; padding: 10px;" src="{{ "https://idratherbewritingmedia.com/images/techcommjonline.png" | prepend: site.baseurl }}" alt="Technical Communication Journal" /></a>

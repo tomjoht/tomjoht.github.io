@@ -3,7 +3,7 @@ title: "First notes on understanding the absent reader"
 categories:
 - simplifying-complexity
 keywords:
-summary: "One of the most complex tasks technical writers face is to reconstruct the thoughts, assumptions, and needs of an absent reader."
+description: "One of the most complex tasks technical writers face is to reconstruct the thoughts, assumptions, and needs of an absent reader."
 bitlink: http://bit.ly/theabsentreader
 published: false
 ---

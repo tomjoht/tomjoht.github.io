@@ -3,8 +3,8 @@ title: "My 2016 technical writing trends and predictions, or the ripple effects 
 categories:
 - api-doc
 keywords:
-summary: "In 2016, the continued growth of APIs will create a ripple effect across the technical writing community that involves a variety of changes. Some of these changes include an increased adoption of Swagger, Markdown, revision control, learning programming, authentication solutions, Write the Docs meetups, new authoring tools, tutorials, API-based CMSs, and more."
-thumb: rippleapi.png
+description: "In 2016, the continued growth of APIs will create a ripple effect across the technical writing community that involves a variety of changes. Some of these changes include an increased adoption of Swagger, Markdown, revision control, learning programming, authentication solutions, Write the Docs meetups, new authoring tools, tutorials, API-based CMSs, and more."
+image: https://idratherbewritingmedia.com/images/thumbnails/rippleapi.png
 ---
 
 {{site.data.alerts.note}} This article also appeared in the <a href="http://intercom.stc.org/2016/03/2016-technical-writing-trends-and-predictions-or-the-ripple-effects-of-api-growth-on-technical-writers/">Feb 2016 issue of Intercom.</a> {{site.data.alerts.end}}

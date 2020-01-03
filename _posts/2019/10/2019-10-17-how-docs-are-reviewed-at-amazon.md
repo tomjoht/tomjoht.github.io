@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/matchingcompanytodocreview
-summary: "Although I've been doing tech writing for enough years that this issue shouldn't even be an issue, I'm still perplexed by best practices around document review. The right practices seem to vary from company to company, from toolset to toolset, from group to group. I've written previously about <a href='https://idratherbewriting.com/2014/07/31/how-to-review-dita-content-with-subject-matter-experts-6-essential-points/'>various review practices</a>, but in this post, I'll reflect on Amazon's document review process."
+description: "Although I've been doing tech writing for enough years that this issue shouldn't even be an issue, I'm still perplexed by best practices around document review. The right practices seem to vary from company to company, from toolset to toolset, from group to group. I've written previously about <a href='https://idratherbewriting.com/2014/07/31/how-to-review-dita-content-with-subject-matter-experts-6-essential-points/'>various review practices</a>, but in this post, I'll reflect on Amazon's document review process."
 ---
 
 In this linkbait article, [Jeff Bezos: This is the ‘smartest thing we ever did’ at Amazon](https://www.cnbc.com/2019/10/14/jeff-bezos-this-is-the-smartest-thing-we-ever-did-at-amazon.html), CNBC writes,

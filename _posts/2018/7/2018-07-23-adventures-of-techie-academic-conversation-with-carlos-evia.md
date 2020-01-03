@@ -3,7 +3,7 @@ title: "Adventures of a Techie Academic with Lightweight DITA (LwDITA): Conversa
 categories:
 - academics-and-practitioners
 keywords:
-summary: "In this conversation with <a href='#carlos_evia'>Carlos Evia</a>, we focus mostly on lightweight DITA, exploring what led to his initial interest in DITA, what it means to focus on technology in the context of academia, why more general academic research hasn't focused on DITA (but has investigated single-sourcing and content re-use), why DITA can be so polarizing, his participation in OASIS on the DITA committee and how the standards process works, and more."
+description: "In this conversation with <a href='#carlos_evia'>Carlos Evia</a>, we focus mostly on lightweight DITA, exploring what led to his initial interest in DITA, what it means to focus on technology in the context of academia, why more general academic research hasn't focused on DITA (but has investigated single-sourcing and content re-use), why DITA can be so polarizing, his participation in OASIS on the DITA committee and how the standards process works, and more."
 bitlink: http://bit.ly/techieacademiclwdita
 practitioner_survey: https://docs.google.com/forms/d/1l2FFcKzLwy_lMZ-TwahZAtp1PBRVIALdPTr-Tor8hL4/edit
 ---

@@ -3,8 +3,8 @@ title: "Advanced formatting with Markdown using Jekyll and Includes"
 categories:
 - jekyll
 keywords: markdown, jekyll, includes, transclusion
-summary: "Although the basic Markdown syntax can be pretty limiting, you can create more sophisticated HTML syntax and store it in templates. Using include syntax, you can pass parameters into these templates. This allows you to leverage more advanced HTML formatting (or other logic) without having to introduce the same level of complexity into your page authoring."
-thumb: jekyllthumbimage.png
+description: "Although the basic Markdown syntax can be pretty limiting, you can create more sophisticated HTML syntax and store it in templates. Using include syntax, you can pass parameters into these templates. This allows you to leverage more advanced HTML formatting (or other logic) without having to introduce the same level of complexity into your page authoring."
+image: https://idratherbewritingmedia.com/images/thumbnails/jekyllthumbimage.png
 ---
 
 ## Conversation about Markdown and limitations
@@ -55,7 +55,7 @@ For example, the frontmatter for one of the user map pages contains the followin
 ---
 title: Sample 1 Topic
 keywords: sample
-summary: "This is just a sample topic..."
+description: "This is just a sample topic..."
 sidebar: product2_sidebar
 permalink: /p2_sample1/
 map: true

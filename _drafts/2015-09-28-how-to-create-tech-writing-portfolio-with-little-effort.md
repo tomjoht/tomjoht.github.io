@@ -3,7 +3,7 @@ title: "Question: How can I create a tech writing portfolio with as little effor
 categories:
 - beginners
 keywords: 
-summary: ""
+description: ""
 published: false
 ---
 

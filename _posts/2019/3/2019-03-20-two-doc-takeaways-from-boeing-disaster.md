@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 bitlink: http://bit.ly/boeingdoctakeaways
-summary: "Although I'm not familiar with FAA-regulated flight manuals, when I read about the Boeing disaster and the lack of information around the controversial MCAS feature, my two takeaways from a documentation perspective are to ask these questions: <i>How does this product differ from other products?</i> and <i>What does the customer need to know?</i> These are challenging questions in any documentation project."
+description: "Although I'm not familiar with FAA-regulated flight manuals, when I read about the Boeing disaster and the lack of information around the controversial MCAS feature, my two takeaways from a documentation perspective are to ask these questions: <i>How does this product differ from other products?</i> and <i>What does the customer need to know?</i> These are challenging questions in any documentation project."
 ---
 
 ## The Boeing disaster's relevance to tech comm

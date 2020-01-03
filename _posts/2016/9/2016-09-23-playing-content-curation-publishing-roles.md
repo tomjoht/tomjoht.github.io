@@ -3,7 +3,7 @@ title: "Kanban may be a better fit than scrum when you support large numbers of 
 categories:
 - technical-writing
 keywords: 
-summary: "Since I've been working at Amazon, my tech comm role has shifted more to content curator and publisher than simply author. This shift in roles brings with it some new challenges and responsibilities. Some of the previous scrum methods with agile no longer seem to fit. I'm finding that kanban might align better with my workflow."
+description: "Since I've been working at Amazon, my tech comm role has shifted more to content curator and publisher than simply author. This shift in roles brings with it some new challenges and responsibilities. Some of the previous scrum methods with agile no longer seem to fit. I'm finding that kanban might align better with my workflow."
 bitlink: http://bit.ly/kanbandocrole
 ---
 

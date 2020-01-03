@@ -3,7 +3,7 @@ title: "Guest post: Design choices for organizing API reference content with oth
 categories:
 - api-doc
 keywords: api best practices
-summary: "In this guest post, Derric Gilling, CEO at Moesif, explores various design choices for organizing API reference content in relation to the rest of your programming tutorials. He looks at three different strategies: (1) Centralized docs with separate API reference, (2)  Centralized docs combined with API reference, and (3) Decentralized docs. The question of how to integrate API documentation into one seamless user experience -- particularly when you have auto-generated outputs of API reference topics from tools such as Swagger -- is a question that many technical writers regularly ask about."
+description: "In this guest post, Derric Gilling, CEO at Moesif, explores various design choices for organizing API reference content in relation to the rest of your programming tutorials. He looks at three different strategies: (1) Centralized docs with separate API reference, (2)  Centralized docs combined with API reference, and (3) Decentralized docs. The question of how to integrate API documentation into one seamless user experience -- particularly when you have auto-generated outputs of API reference topics from tools such as Swagger -- is a question that many technical writers regularly ask about."
 bitlink: http://bit.ly/designchoicesapidocs
 ---
 

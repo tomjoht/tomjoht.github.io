@@ -3,7 +3,7 @@ title: "Coding the sidebar navigation element for documentation websites"
 categories:
 - jekyll
 keywords: 
-summary: "Sidebar navigation is one of the more complex components of a documentation site, and it is critical for helping users understand and find documentation. I hacked together a sidebar menu for a doc site that's hosted on a somewhat inflexible platform, using Jekyll to generate the sidebar. Important features of a documentation sidebar include multiple levels of depth, expand/collapse options, accordion effects, fixed navigation, dynamic menu highlighting, and more."
+description: "Sidebar navigation is one of the more complex components of a documentation site, and it is critical for helping users understand and find documentation. I hacked together a sidebar menu for a doc site that's hosted on a somewhat inflexible platform, using Jekyll to generate the sidebar. Important features of a documentation sidebar include multiple levels of depth, expand/collapse options, accordion effects, fixed navigation, dynamic menu highlighting, and more."
 bitlink: http://bit.ly/docsidebarcode
 ---
 

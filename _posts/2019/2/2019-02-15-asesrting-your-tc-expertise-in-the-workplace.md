@@ -4,7 +4,7 @@ categories:
 - academics-and-practitioners
 keywords:
 bitlink: http://bit.ly/cdqsmesq&a
-summary: "In the workplace, why aren't technical writers recognized as SMEs with the same credibility and respect as engineering SMEs? Why do PMs and others often override the judgment of technical writers on matters of language and docs? This post explores the challenges that technical writers experience as SMEs in the workplace, and strategies they can implement for asserting their expertise. The format is a Q&A with authors of a CDQ article, with a survey at the end."
+description: "In the workplace, why aren't technical writers recognized as SMEs with the same credibility and respect as engineering SMEs? Why do PMs and others often override the judgment of technical writers on matters of language and docs? This post explores the challenges that technical writers experience as SMEs in the workplace, and strategies they can implement for asserting their expertise. The format is a Q&A with authors of a CDQ article, with a survey at the end."
 ---
 
 ## Background

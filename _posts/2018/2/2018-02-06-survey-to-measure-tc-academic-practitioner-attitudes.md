@@ -4,7 +4,7 @@ categories:
 - technical-writing
 - academics-and-practitioners
 keywords:
-summary: "In my <a href='https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/'>2018 trends post</a>, I mentioned that I plan to give some attention to TC academic/practitioner attitudes, opportunities, and interactions. I have a larger project in mind that involves changing attitudes, which I'll expand on in the future. However, for now I need a baseline starting point to measure against later."
+description: "In my <a href='https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/'>2018 trends post</a>, I mentioned that I plan to give some attention to TC academic/practitioner attitudes, opportunities, and interactions. I have a larger project in mind that involves changing attitudes, which I'll expand on in the future. However, for now I need a baseline starting point to measure against later."
 bitlink: http://bit.ly/tc-acad-pract-survey
 ---
 <style>

@@ -18,7 +18,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: 83.9 MB
 podcast_duration: "01:26:50"
 podcast_length: 68378174
-summary: "I recently gave a presentation on technical communication trends to the STC Puget Sound Chapter in Seattle, Washington, on May 21, 2019. This is one of the better presentations on trends I've given and culminates a lot of research and other iterations on this topic during the past year. You can view a recording of the presentation, check out the slides, grab the audio file, and see other details here."
+description: "I recently gave a presentation on technical communication trends to the STC Puget Sound Chapter in Seattle, Washington, on May 21, 2019. This is one of the better presentations on trends I've given and culminates a lot of research and other iterations on this topic during the past year. You can view a recording of the presentation, check out the slides, grab the audio file, and see other details here."
 ---
 
 ## Video

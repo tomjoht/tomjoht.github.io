@@ -7,7 +7,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/clickhelpreviewpost
-summary: "Let's say you need to create and publish technical documentation. Maybe you have a team of distributed authors, and you need all the robustness of an advanced tech doc solution, but you don't want to create your own version from scratch. (I've argued in numerous posts that creating your own tools from scratch can require a lot of time and hidden expenses.) Enter ClickHelp. ClickHelp is a flexible, online help authoring solution that offers an impressive number of features, from context-sensitive help to built-in metrics, content re-use, PDF export, full-text search, password protection, full review cycles, readability analysis, and more. In this post, I'll provide brief descriptions and screenshots as we browse through the various features ClickHelp offers."
+description: "Let's say you need to create and publish technical documentation. Maybe you have a team of distributed authors, and you need all the robustness of an advanced tech doc solution, but you don't want to create your own version from scratch. (I've argued in numerous posts that creating your own tools from scratch can require a lot of time and hidden expenses.) Enter ClickHelp. ClickHelp is a flexible, online help authoring solution that offers an impressive number of features, from context-sensitive help to built-in metrics, content re-use, PDF export, full-text search, password protection, full review cycles, readability analysis, and more. In this post, I'll provide brief descriptions and screenshots as we browse through the various features ClickHelp offers."
 ---
 
 *Note that this is a sponsored post.*

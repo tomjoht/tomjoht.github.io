@@ -3,7 +3,7 @@ title: "How to respond to product disasters: Analyzing Samsung's response to the
 categories:
 - technical-writing
 keywords: 
-summary: "What would you do to rebuild trust in your brand after a product disaster like Samsung's exploding phones? I looked at Samsung's recall notice and newsroom articles to see what strategies they employed, but I found the communication brief, plain, and short of any detail that would help rekindle trust. If company's want to gain user trust, they must share more information and details with users, as Dyn did in their company blog posts after the recent DDoS attacks. Particularly, the information the company shares should align with the kind of information users want to see."
+description: "What would you do to rebuild trust in your brand after a product disaster like Samsung's exploding phones? I looked at Samsung's recall notice and newsroom articles to see what strategies they employed, but I found the communication brief, plain, and short of any detail that would help rekindle trust. If company's want to gain user trust, they must share more information and details with users, as Dyn did in their company blog posts after the recent DDoS attacks. Particularly, the information the company shares should align with the kind of information users want to see."
 date: 2016-10-23 09:49:08.000000000 -08:00
 bitlink: http://bit.ly/respondingtodisasters
 ---

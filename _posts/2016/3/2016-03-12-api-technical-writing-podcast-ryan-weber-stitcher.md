@@ -4,8 +4,8 @@ categories:
 - podcasts
 - api-doc
 keywords: ryan weber, podcasts, api technical writing, trends
-summary: "Ryan Weber, the Director of Business and Technical Writing at the University of Alabama in Huntsville, has a podcast called 10 Minute Tech Comm. In this podcast, he records short interviews with technical writing practitioners and innovators covering a wide variety of topics. Recently Ryan interviewed me for a podcast on API technical writing."
-thumb: tenminutetechcommthumb.png
+description: "Ryan Weber, the Director of Business and Technical Writing at the University of Alabama in Huntsville, has a podcast called 10 Minute Tech Comm. In this podcast, he records short interviews with technical writing practitioners and innovators covering a wide variety of topics. Recently Ryan interviewed me for a podcast on API technical writing."
+image: https://idratherbewritingmedia.com/images/thumbnails/tenminutetechcommthumb.png
 ---
 
 You can listen to the API technical writing podcast [here](http://www.stitcher.com/podcast/10minute-tech-comm/e/42943843) or through the embedded player below.

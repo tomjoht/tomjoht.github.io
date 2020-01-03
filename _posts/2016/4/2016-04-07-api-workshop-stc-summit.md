@@ -3,8 +3,8 @@ title: "API documentation workshop opportunity at the STC Summit"
 categories:
 - api-doc
 keywords:
-summary: "If you're planning to go to the STC Summit this year, or you're looking to get more information on API documentation, check out my pre-conference Summit workshop. I'm teaching a half-day workshop on REST API documentation. This will take place Sunday, May 15 from 8:30am to noon."
-thumb: stcsummitanaheimworkshopthumb.png
+description: "If you're planning to go to the STC Summit this year, or you're looking to get more information on API documentation, check out my pre-conference Summit workshop. I'm teaching a half-day workshop on REST API documentation. This will take place Sunday, May 15 from 8:30am to noon."
+image: https://idratherbewritingmedia.com/images/thumbnails/stcsummitanaheimworkshopthumb.png
 ---
 
 During this 3.5 hours, I'll teach you everything you need to know to document REST APIs. You'll learn the essential sections of API reference topics, including how to document resources, endpoints, parameters, sample requests, and responses. I'll teach you how to use Postman to test REST endpoints, how to use cURL on the command line, how to read and document JSON, and more.

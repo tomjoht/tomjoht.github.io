@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 - jekyll
-summary: "Andrew Davis recently gave a presentation on finding developer documentation jobs (mostly for API documentation) in the San Francisco Bay area. The title of the presentation is Hunting for Dev Doc Work around the Bay. You can listen to the presentation recording, check out the slides, or just download the audio."
+description: "Andrew Davis recently gave a presentation on finding developer documentation jobs (mostly for API documentation) in the San Francisco Bay area. The title of the presentation is Hunting for Dev Doc Work around the Bay. You can listen to the presentation recording, check out the slides, or just download the audio."
 date: 2016-08-15
 tags:
 - technical writing

@@ -6,7 +6,7 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/
-summary: "I added another topic to the Documenting Code section in my API documentation course. This new topic is called <a href='/learnapidoc/docapiscode_research_on_documenting_code.html'>Research on documenting code</a> and summarizes/discusses two academic articles on documenting code."
+description: "I added another topic to the Documenting Code section in my API documentation course. This new topic is called <a href='/learnapidoc/docapiscode_research_on_documenting_code.html'>Research on documenting code</a> and summarizes/discusses two academic articles on documenting code."
 ---
 
 Here's a summary of the content:

@@ -3,7 +3,7 @@ title: "What can we learn from the homogenous profiles in the Stack Overflow 201
 categories:
 - technical-writing
 keywords: games, learning code
-summary: "Stack Overflow recently published their 2018 survey, which included more than 100,000 developers. What surprised me most was the lack of diversity in the survey participants."
+description: "Stack Overflow recently published their 2018 survey, which included more than 100,000 developers. What surprised me most was the lack of diversity in the survey participants."
 bitlink: http://bit.ly/sosurveyresultsthoughts
 ---
 

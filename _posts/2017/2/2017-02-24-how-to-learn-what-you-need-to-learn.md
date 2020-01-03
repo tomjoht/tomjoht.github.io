@@ -4,7 +4,7 @@ categories:
 - api-doc
 - technical-writing
 keywords: api best practices
-summary: "Keeping pace with new technology and information is a core challenge for tech writers. You can divide the needed knowledge into four areas: product, technology, user, and industry domains. To limit the scope in each domain, filter by the users' tasks. To find time for the learning, implement morning routines for gathering information and log issues for needed documentation. Then as you work on the documentation and find yourself lacking knowledge, jump into online resources to learn what you need."
+description: "Keeping pace with new technology and information is a core challenge for tech writers. You can divide the needed knowledge into four areas: product, technology, user, and industry domains. To limit the scope in each domain, filter by the users' tasks. To find time for the learning, implement morning routines for gathering information and log issues for needed documentation. Then as you work on the documentation and find yourself lacking knowledge, jump into online resources to learn what you need."
 bitlink: http://bit.ly/howtolearnsuccesstw
 ---
 

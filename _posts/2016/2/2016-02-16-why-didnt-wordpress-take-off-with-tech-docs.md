@@ -3,8 +3,8 @@ title: Why didn't WordPress take off with tech docs?
 categories:
 - wordpress
 keywords: 
-summary: "Despite the dominance of WordPress as a web publishing platform, which is used for nearly 75 million websites today, WordPress has rarely been used by technical writers as a platform for publishing technical documentation. Some of the reasons WordPress is avoided is due to its heavy LAMP stack architecture,  lack of component content re-use, and inability to publish multiple outputs such as PDF."
-thumb: 14wpstatsthumb.png
+description: "Despite the dominance of WordPress as a web publishing platform, which is used for nearly 75 million websites today, WordPress has rarely been used by technical writers as a platform for publishing technical documentation. Some of the reasons WordPress is avoided is due to its heavy LAMP stack architecture,  lack of component content re-use, and inability to publish multiple outputs such as PDF."
+image: https://idratherbewritingmedia.com/images/thumbnails/14wpstatsthumb.png
 ---
 
 ## The popularity of WordPress

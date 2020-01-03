@@ -3,7 +3,7 @@ title: "Upcoming BrightTALK webinar on trends -- January 15, 2019"
 categories:
 - technical-writing
 keywords:
-summary: "I'll be giving an upcoming free webinar about trends on BrightTALK on January 15, 2019."
+description: "I'll be giving an upcoming free webinar about trends on BrightTALK on January 15, 2019."
 bitlink: http://bit.ly/upcomingbrighttalkwebinar
 ---
 
@@ -13,7 +13,7 @@ I'm giving a free webinar on January on BrightTALK on trends and the dilemma bet
 
 <a href="https://www.brighttalk.com/webcast/9273/343232"><img src="https://idratherbewritingmedia.com/images/brighttalkwebinar.png" /></a>
 
-Here's a description:
+Here's a summary:
 
 > **Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists**
 >

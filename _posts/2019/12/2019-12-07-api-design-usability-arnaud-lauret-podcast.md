@@ -12,7 +12,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: "40.9 MB"
 podcast_duration: "54:39"
 podcast_length: "40220547"
-summary: "Arnaud Lauret, also known as the API Handyman, recently published a book called <a href='https://www.manning.com/books/the-design-of-web-apis'><i>The Design of Web APIs</i></a>. In this podcast, I chat with Arnaud about his book, specifically exploring best practices for designing web APIs and focusing on the roles technical writers can play."
+description: "Arnaud Lauret, also known as the API Handyman, recently published a book called <a href='https://www.manning.com/books/the-design-of-web-apis'><i>The Design of Web APIs</i></a>. In this podcast, I chat with Arnaud about his book, specifically exploring best practices for designing web APIs and focusing on the roles technical writers can play."
 ---
 
 {% include audio.html %}

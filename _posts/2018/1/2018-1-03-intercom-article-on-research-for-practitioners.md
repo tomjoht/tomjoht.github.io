@@ -3,7 +3,7 @@ title: "New STC Intercom article: How to Research What You Need to Learn to Be S
 categories:
 - technical-writing
 keywords:
-summary: "I published an article in the most recent issue of STC's Intercom magazine titled \"How to Research What You Need to Learn to Be Successful as a Technical Writer\" (Nov/Dec 2017). The article explores the approach I take in \"researching\" topics at work to gather the information needed for documentation."
+description: "I published an article in the most recent issue of STC's Intercom magazine titled \"How to Research What You Need to Learn to Be Successful as a Technical Writer\" (Nov/Dec 2017). The article explores the approach I take in \"researching\" topics at work to gather the information needed for documentation."
 bitlink: http://bit.ly/stcintercomresearcharticle
 ---
 

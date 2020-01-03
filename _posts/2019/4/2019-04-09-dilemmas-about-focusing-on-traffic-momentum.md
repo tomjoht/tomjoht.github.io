@@ -6,7 +6,7 @@ categories:
 - writing
 keywords:
 bitlink: https://rebrand.ly/grasshoppersandclicks
-summary: "Although site analytics can be insightful in identifying popular topics, sometimes your most visited content isn't your most beloved content. It doesn't mean you have to switch your interests to align with your visitors' interests over your own."
+description: "Although site analytics can be insightful in identifying popular topics, sometimes your most visited content isn't your most beloved content. It doesn't mean you have to switch your interests to align with your visitors' interests over your own."
 ---
 
 I was browsing my site metrics last night (see [screencast here](https://www.screencast.com/t/w7yBGochHiB)), adjusting the date range from the beginning of the year to the present date, and I realized that the most visited posts consist almost entirely of API doc pages or other technical how-to. I wrote about this trend earlier this year when I suddenly noticed that [59% of my overall site traffic was going to my API doc site](https://idratherbewriting.com/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site/). As I was browsing the analytics last night, I felt a sense of confusion because my most visited content isn't necessarily my most beloved content.

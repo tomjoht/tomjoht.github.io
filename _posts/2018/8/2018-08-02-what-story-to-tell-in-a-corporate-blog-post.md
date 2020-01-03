@@ -4,7 +4,7 @@ categories:
 - blogging
 - writing
 keywords:
-summary: "When contributing to a corporate blog, the stories that get the most traction and approval are how-to stories about overcoming technology challenges. These stories are much the same ones that we tell in documentation."
+description: "When contributing to a corporate blog, the stories that get the most traction and approval are how-to stories about overcoming technology challenges. These stories are much the same ones that we tell in documentation."
 bitlink: http://bit.ly/corporateblogchall
 ---
 

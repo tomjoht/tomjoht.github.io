@@ -3,9 +3,9 @@ title: "Write the Docs Podcast app now on Fire TV, and the importance of testing
 categories:
 - api-doc
 keywords:
-summary: "The Write the Docs Podcast app is now on Fire TV. If you have a Fire TV, search for <i>write the docs</i> or even just <i>technical writing</i> in the Amazon Appstore and you'll find it. I created this app to better understand the Android app template I was documenting. This app template, called Fire App Builder, is designed for third-party Java Android developers creating streaming media apps."
+description: "The Write the Docs Podcast app is now on Fire TV. If you have a Fire TV, search for <i>write the docs</i> or even just <i>technical writing</i> in the Amazon Appstore and you'll find it. I created this app to better understand the Android app template I was documenting. This app template, called Fire App Builder, is designed for third-party Java Android developers creating streaming media apps."
 bitlink: http://bit.ly/tryyourdoccode
-thumb: wtdpodcastappfiretv.png
+image: https://idratherbewritingmedia.com/images/thumbnails/wtdpodcastappfiretv.png
 ---
 
 ## Viewing the WTD Fire TV app
@@ -48,7 +48,7 @@ layout: null
   {
     "id": "{{ep.guid}}",
     "title": "{{ep.title}}",
-    "description": "{{ep.summary}}",
+    "description": "{{ep.description}}",
     "duration": "{{ep.podcast_duration}}",
     "thumbURL": "{{site.url}}/{{ep.mp4_thumbnail | escape}}",
     "imgURL": "{{site.url}}/{{ep.mp4_thumbnail | escape}}",

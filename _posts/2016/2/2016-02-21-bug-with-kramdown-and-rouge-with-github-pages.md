@@ -3,8 +3,8 @@ title: "Updating from redcarpet and Pygments to Kramdown and Rouge on Github Pag
 categories:
 - jekyll
 keywords: rouge, pygments, kramdown, github-pages, bug with backticks, pre code blocks, syntax highlighting
-summary: "Github Pages is a sweet service that builds your Jekyll site for you when you commit changes to a Github repo. If you were using redcarpet and Pygments, you now should switch to Kramdown and Rouge to stay updated with the recommended Markdown filter and syntax highlighter supported by Github Pages. Switching to Kramdown requires you to both update your configuration file and usually use 3 spaces when inserting code blocks within list items instead of 4."
-thumb: githubkramdowncrapthumb.png
+description: "Github Pages is a sweet service that builds your Jekyll site for you when you commit changes to a Github repo. If you were using redcarpet and Pygments, you now should switch to Kramdown and Rouge to stay updated with the recommended Markdown filter and syntax highlighter supported by Github Pages. Switching to Kramdown requires you to both update your configuration file and usually use 3 spaces when inserting code blocks within list items instead of 4."
+image: https://idratherbewritingmedia.com/images/thumbnails/githubkramdowncrapthumb.png
 ---
 
 ## Updates to Markdown filter and syntax highlighters

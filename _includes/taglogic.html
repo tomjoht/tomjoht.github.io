@@ -7,7 +7,7 @@
         {% if tag == thisTag %}
         
         <tr><td><a href="{{ page.permalink | prepend: site.baseurl | append: site.suffix" }}">{{page.title}}</a></td>
-          <td>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+          <td>{% if page.description %} {{ page.description | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</td>
         </tr>
         {% endif %}
      {% endfor %}

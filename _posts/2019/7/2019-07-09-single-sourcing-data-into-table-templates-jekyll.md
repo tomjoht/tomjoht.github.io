@@ -5,7 +5,7 @@ categories:
 - jekyll
 keywords:
 bitlink: https://idratherbewriting.site/tablesjekyll
-summary: "Jekyll lets you separate out your data from your presentation layer. You can store your data in a YAML file and then populate the data into templates as desired, passing parameters into includes. In this post, I describe my process for creating tables where I might re-use the same definitions in various places in the docs."
+description: "Jekyll lets you separate out your data from your presentation layer. You can store your data in a YAML file and then populate the data into templates as desired, passing parameters into includes. In this post, I describe my process for creating tables where I might re-use the same definitions in various places in the docs."
 ---
 
 ## Introduction

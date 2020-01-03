@@ -3,7 +3,7 @@ title: "New section on my site: Simplifying complexity"
 categories:
 - simplifying-complexity
 keywords:
-summary: "In an earlier post on value arguments for tech comm, I mentioned that in 2018, I plan to explore some innovative ways to simplify complexity so that I can deepen the value I provide to users. To host this content, I created a new section on my site called \"Simplifying Complexity.\" So far I've added just one topic there on navigation maps. In the topic, I argue that by allowing users to toggle between micro and macro views of a system, often through embedded workflow maps, you can help users better understand and orient themselves in complex systems."
+description: "In an earlier post on value arguments for tech comm, I mentioned that in 2018, I plan to explore some innovative ways to simplify complexity so that I can deepen the value I provide to users. To host this content, I created a new section on my site called \"Simplifying Complexity.\" So far I've added just one topic there on navigation maps. In the topic, I argue that by allowing users to toggle between micro and macro views of a system, often through embedded workflow maps, you can help users better understand and orient themselves in complex systems."
 bitlink: http://bit.ly/newsectionsimplifyingcomplexity
 ---
 

@@ -4,7 +4,7 @@ subtitle: "Part I: Introduction to the series"
 categories:
 - technical-writing
 keywords: value, tech comm, research, redish, carliner, roles, complexity, organizational status
-summary: "In this essay, I explore arguments for the value of documentation and technical writers in an organization. Although metrics usually fall short as a way to measure value, documentation's value can be established in part through usage. Technical writers can also contribute value by enabling information flow, influencing the content touchpoints along the user's journey, and by simplifying complexity for users."
+description: "In this essay, I explore arguments for the value of documentation and technical writers in an organization. Although metrics usually fall short as a way to measure value, documentation's value can be established in part through usage. Technical writers can also contribute value by enabling information flow, influencing the content touchpoints along the user's journey, and by simplifying complexity for users."
 bitlink: http://bit.ly/valueargspart1
 weight: 1
 tags: series_value_of_tech_comm

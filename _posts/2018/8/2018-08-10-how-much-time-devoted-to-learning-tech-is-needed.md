@@ -3,7 +3,7 @@ title: "Strategies for learning technology -- podcast recommendation and a poll"
 categories:
 - api-doc
 keywords: learning technology
-summary: "Learning technology is a core task for thriving in developer docs. Here's a great podcast recommendation and a poll on this topic."
+description: "Learning technology is a core task for thriving in developer docs. Here's a great podcast recommendation and a poll on this topic."
 bitlink: http://bit.ly/stratlearntech
 ---
 

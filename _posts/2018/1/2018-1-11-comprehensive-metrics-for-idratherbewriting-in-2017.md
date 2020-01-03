@@ -3,7 +3,7 @@ title: "Unexpected realizations after a comprehensive review of my 2017 site met
 categories:
 - technical-writing
 keywords: trends, analytics, hits, interests, topics
-summary: "I usually start the beginning of the year by reviewing metrics for the previous year. These metrics help me better understand my readers, the trending topics and issues, and other points of interest. In 2017, my site averaged 2,300 page views a day. The average reader is a 30-year-old female living in New York using Chrome on a Windows PC who identifies as a technophile. Looking at the metrics, I had some unexpected realizations. First, these topics seem to emerge as the most popular: Swagger, agile, quick reference guides, trends, plain language, and tech writing careers. Longer posts, usually 1,600+ words, are more frequently read. Titles with words that include \"fail\" or \"realizations\" or \"limits\" or other contrarian triggers get more reads. Social media traffic is small compared to organic search. And finally, no common narrative pattern emerged in the posts other than a simple relevance technique in the intro, which I usually always start with."
+description: "I usually start the beginning of the year by reviewing metrics for the previous year. These metrics help me better understand my readers, the trending topics and issues, and other points of interest. In 2017, my site averaged 2,300 page views a day. The average reader is a 30-year-old female living in New York using Chrome on a Windows PC who identifies as a technophile. Looking at the metrics, I had some unexpected realizations. First, these topics seem to emerge as the most popular: Swagger, agile, quick reference guides, trends, plain language, and tech writing careers. Longer posts, usually 1,600+ words, are more frequently read. Titles with words that include \"fail\" or \"realizations\" or \"limits\" or other contrarian triggers get more reads. Social media traffic is small compared to organic search. And finally, no common narrative pattern emerged in the posts other than a simple relevance technique in the intro, which I usually always start with."
 bitlink: http://bit.ly/comprehensivemetrics2017
 ---
 
@@ -395,7 +395,7 @@ Although I glanced through each of the posts to try to detect a pattern, I could
 
 ## End summary
 
-As an end summary:
+As an end description:
 
 * Don't neglect these topics: swagger, agile, trends, lain language, quick reference guides, TC careers, certificate programs, learning.
 * Write posts that are 1,600 words or longer.

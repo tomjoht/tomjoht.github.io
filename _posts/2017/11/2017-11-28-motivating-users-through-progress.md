@@ -11,7 +11,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.co
 podcast_file_size: 11.6 MB
 podcast_duration: "14:21"
 podcast_length: 11591898
-summary: "When you don't have a system that logs users in and tracks their progress, it can be a challenge to show their progress in a course. However, rather than showing progress through completed pages, quizzes, or other interactive exercises, progress can also be measured through larger user goals that extend beyond the course. In the case of my API documentation course, the user's goal is to break into the field of API documentation, not so much to finish a course. Breaking into API documentation requires users to build a compelling portfolio, which is how I'm choosing to measure the user's progress."
+description: "When you don't have a system that logs users in and tracks their progress, it can be a challenge to show their progress in a course. However, rather than showing progress through completed pages, quizzes, or other interactive exercises, progress can also be measured through larger user goals that extend beyond the course. In the case of my API documentation course, the user's goal is to break into the field of API documentation, not so much to finish a course. Breaking into API documentation requires users to build a compelling portfolio, which is how I'm choosing to measure the user's progress."
 ---
 
 {% include audio.html %}

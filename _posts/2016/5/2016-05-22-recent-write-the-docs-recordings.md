@@ -3,8 +3,8 @@ title: "Recent Write the Docs presentation recordings"
 categories:
 - technical-writing
 keywords:
-summary: "We recently hosted a Write the Docs meetup in Redwood City with a couple of excellent presenters. Recordings of their presentations are below. I also explain a bit about my new lapel mic and recording process."
-thumb: writethedocsthumb.png
+description: "We recently hosted a Write the Docs meetup in Redwood City with a couple of excellent presenters. Recordings of their presentations are below. I also explain a bit about my new lapel mic and recording process."
+image: https://idratherbewritingmedia.com/images/thumbnails/writethedocsthumb.png
 ---
 
 At the meetup, first [Neal Kaplan](https://customersandcontent.com/) gave a presentation titled "Two great teams that work great together: Bridging the gap between documentation and support":
@@ -29,7 +29,7 @@ Having multiple presentations in a short amount of time gives the meetup more en
 
 If you're in the San Francisco Bay area, definitely join the [Write the Docs group](http://www.meetup.com/Write-the-Docs-SF/) (it's free!) to stay updated about upcoming events. You can also join the [WTD Slack group](http://slack.writethedocs.org/).
 
-Our next event is called [Solve This!](http://www.meetup.com/Write-the-Docs-SF/events/231272920/) Here's a description:
+Our next event is called [Solve This!](http://www.meetup.com/Write-the-Docs-SF/events/231272920/) Here's a summary:
 
 >For this meetup, we will help each other with the challenges that we face at work. Here's how it we will do this. You add a major challenge that you have to the list here.  The list is anonymous.  The challenge should be a problem that you haven't been able to solve yourself. During the meetup, we will go through each of the challenges on the list and share opinions about the best solutions.
 

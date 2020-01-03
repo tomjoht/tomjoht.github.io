@@ -3,8 +3,8 @@ title: "Every journey starts with a map"
 categories:
 - visual-communication
 keywords: 
-summary: ""
-thumb: 
+description: ""
+image: https://idratherbewritingmedia.com/images/thumbnails/
 ---
 
 1 why a map? you start out on a journey. you have a point a and point b path you want to travel.

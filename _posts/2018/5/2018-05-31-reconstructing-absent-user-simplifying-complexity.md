@@ -3,7 +3,7 @@ title: "New article in Simplifying Complexity: Reconstructing the absent user"
 categories:
 - simplifying-complexity
 keywords:
-summary: "I have a new article in my series on <a href='http://bit.ly/reconstructabsentuser'>Simplifying Complexity</a>. This article talks about why reconstructing the absent users is essential to creating good documentation."
+description: "I have a new article in my series on <a href='http://bit.ly/reconstructabsentuser'>Simplifying Complexity</a>. This article talks about why reconstructing the absent users is essential to creating good documentation."
 bitlink: http://bit.ly/simpcompreconstabsence
 ---
 

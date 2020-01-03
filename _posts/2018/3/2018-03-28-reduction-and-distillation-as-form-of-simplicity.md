@@ -3,7 +3,7 @@ title: "New article on Simplifying Complexity: Reduction, layering, and distilla
 categories:
 - simplifying-complexity
 keywords: simplification, distillation
-summary: "I published a new article on Simplifying Complexity called <a href='https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html'>Reduction, layering, and distillation as a strategy for simplicity</a>. It's all about how reduction and distillation of information helps reduce complexity for users."
+description: "I published a new article on Simplifying Complexity called <a href='https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html'>Reduction, layering, and distillation as a strategy for simplicity</a>. It's all about how reduction and distillation of information helps reduce complexity for users."
 bitlink: http://bit.ly/reductionforsimplicity
 ---
 

@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 keywords: paligo, component content management systems, ccms, xml, docbook, help authoring tool, web content management, content management, web CMS for documentation teams
-summary: "Up until two years ago, Anders Svensson and his colleagues, based in Sweden, provided DITA and XML consulting. They eventually created their own XML-based component content management system (CCMS) called Paligo, which includes a full set of documentation features to handle single-sourcing, translation, and other documentation needs. Paligo solves the challenges that Svensson's customers had been facing for years with other CCMS systems."
+description: "Up until two years ago, Anders Svensson and his colleagues, based in Sweden, provided DITA and XML consulting. They eventually created their own XML-based component content management system (CCMS) called Paligo, which includes a full set of documentation features to handle single-sourcing, translation, and other documentation needs. Paligo solves the challenges that Svensson's customers had been facing for years with other CCMS systems."
 date: 2016-08-01
 tags:
 - technical writing

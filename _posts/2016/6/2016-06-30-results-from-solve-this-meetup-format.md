@@ -3,8 +3,8 @@ title: "How the Solve This! meetup format turned out -- plus some unachieved par
 categories:
 - technical-writing
 keywords: meetups, creative formats, interactivity
-summary: "At a recent WTD meetup, we tried out a \"Solve This!\" format, which focused on open discussion around challenges people were facing. It worked all right. But with large groups, discussions tend to become dominated by vocal participants while shy participants retreat into their shells. I wanted to recreate a similar dynamic as a Dead Poet's Society type meetup, but now I realize that large groups make this dynamic nearly impossible. One alternative might be to regularly break up into smaller groups."
-thumb: deadpoetsocietythumb.png
+description: "At a recent WTD meetup, we tried out a \"Solve This!\" format, which focused on open discussion around challenges people were facing. It worked all right. But with large groups, discussions tend to become dominated by vocal participants while shy participants retreat into their shells. I wanted to recreate a similar dynamic as a Dead Poet's Society type meetup, but now I realize that large groups make this dynamic nearly impossible. One alternative might be to regularly break up into smaller groups."
+image: https://idratherbewritingmedia.com/images/thumbnails/deadpoetsocietythumb.png
 ---
 
 Last week we held an interactive, open-discussion style WTD meetup called [Solve This!](https://idratherbewriting.com/2016/06/22/solve-this-write-the-docs-meetup/). The idea was to hold a discussion where people shared their biggest challenges, and other people shared advice on how to overcome the challenges. The idea was to move away from the presentation-style format and embrace a more interactive, personal information sharing type of format.

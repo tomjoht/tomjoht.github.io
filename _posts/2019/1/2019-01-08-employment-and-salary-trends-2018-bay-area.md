@@ -3,7 +3,7 @@ title: "Employment and salary outlook for technical writers based on the 2017-20
 categories:
 - technical-writing
 keywords:
-summary: "The <a href='https://www.stc.org/salary-database/'>2017-2018 STC Salary Database</a> was recently released, and the employment and salary levels for technical writers are looking really good &mdash; especially for some areas. 'San Jose-Sunnyvale-Santa Clara' (a Metropolitan Statistical Area or MSA) had a 34.5% increase in tech writer employment for 2017 and continued to be the highest-paying MSA for the fifth straight year in a row. In this post, I'll share a few highlights from the report."
+description: "The <a href='https://www.stc.org/salary-database/'>2017-2018 STC Salary Database</a> was recently released, and the employment and salary levels for technical writers are looking really good &mdash; especially for some areas. 'San Jose-Sunnyvale-Santa Clara' (a Metropolitan Statistical Area or MSA) had a 34.5% increase in tech writer employment for 2017 and continued to be the highest-paying MSA for the fifth straight year in a row. In this post, I'll share a few highlights from the report."
 bitlink: http://bit.ly/stcsalarydbhighlights201718
 ---
 

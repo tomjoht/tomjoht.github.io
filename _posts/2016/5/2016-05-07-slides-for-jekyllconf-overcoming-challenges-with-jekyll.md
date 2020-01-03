@@ -3,8 +3,8 @@ title: "Jekyll Conf 2016 slides and video: Overcoming Challenges in Using Jekyll
 categories:
 - jekyll
 keywords: 
-summary: "My slides and video for Jekyll Conf 2016 are available below. In this presentation, I talk about the various challenges I've had in using Jekyll for technical documentation. I explain my attempts to overcome requirements with everything from conditional filtering to generating PDFs, publishing across different environments, re-using content across projects, templatizing notes and alerts, and more."
-thumb: jekyllconfslidesthumb.png
+description: "My slides and video for Jekyll Conf 2016 are available below. In this presentation, I talk about the various challenges I've had in using Jekyll for technical documentation. I explain my attempts to overcome requirements with everything from conditional filtering to generating PDFs, publishing across different environments, re-using content across projects, templatizing notes and alerts, and more."
+image: https://idratherbewritingmedia.com/images/thumbnails/jekyllconfslidesthumb.png
 ---
 
 Here are my slides: 

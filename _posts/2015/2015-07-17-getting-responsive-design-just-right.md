@@ -3,7 +3,7 @@ title: "Getting mobile friendly display and responsive design just right, especi
 categories:
 - technical-writing
 keywords: careers
-summary: "Not having a mobile friendly display for your site not only strains readers on mobile devices, it can hurt your SEO. Making your site mobile friendly also poses some unique challenges with advertising slots, because the slots shift around when you switch from desktop to mobile."
+description: "Not having a mobile friendly display for your site not only strains readers on mobile devices, it can hurt your SEO. Making your site mobile friendly also poses some unique challenges with advertising slots, because the slots shift around when you switch from desktop to mobile."
 ---
 
 ## Mobile friendly displays now a requirement, not an extra

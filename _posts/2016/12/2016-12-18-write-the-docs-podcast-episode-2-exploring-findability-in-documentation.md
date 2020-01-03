@@ -2,7 +2,7 @@
 title: "Write the Docs Podcast Episode 2 (which Focuses on Findability) Now Available "
 categories:
 - technical-writing
-summary: "Episode 2 in the Write the Docs podcast is now available. The topic of episode 2 is findability: How do you allow your users to find what they're looking for in your documentation? We talk about various tools for findability: search, tags, faceted filters, sidebar navigation, inline links, related links, terms/glossaries, and breadcrumbs. In this post, I also share a few more details about Lunr search."
+description: "Episode 2 in the Write the Docs podcast is now available. The topic of episode 2 is findability: How do you allow your users to find what they're looking for in your documentation? We talk about various tools for findability: search, tags, faceted filters, sidebar navigation, inline links, related links, terms/glossaries, and breadcrumbs. In this post, I also share a few more details about Lunr search."
 bitlink: http://bit.ly/wtdpodcastep2findability
 ---
 

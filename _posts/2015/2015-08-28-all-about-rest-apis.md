@@ -3,8 +3,8 @@ title: What is a REST API?
 keywords:
 categories:
 - api-doc
-summary: "REST APIs use HTTP protocol (or rather, the web) to transport the request and response messages between clients and servers. The client and server can run on any language or platform as long as the request/response is sent via HTTP. To understand REST APIs, it helps to compare them with their predecessor: SOAP APIs. Both SOAP and REST APIs are a kind of web service. "
-thumb: restapithumb.png
+description: "REST APIs use HTTP protocol (or rather, the web) to transport the request and response messages between clients and servers. The client and server can run on any language or platform as long as the request/response is sent via HTTP. To understand REST APIs, it helps to compare them with their predecessor: SOAP APIs. Both SOAP and REST APIs are a kind of web service. "
+image: https://idratherbewritingmedia.com/images/thumbnails/restapithumb.png
 ---
 
 {% include notes.html %}

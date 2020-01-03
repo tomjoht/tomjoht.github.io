@@ -19,11 +19,11 @@ focus: noform
                 {% endfor %}
                  &#8226; <a href="{{ post.url }}#commento"></a>
             </div>
-            <div>{% if post.thumb %}
-                <div class="thumb"> <a href="{{ post.url }}"><img src="https://idratherbewritingmedia.com/images/thumbnails/{{post.thumb}}" alt="{{post.title}}"/></a>
+            <div>{% if post.image %}
+                <div class="thumb"> <a href="{{ post.url }}"><img src="{{post.image}}" alt="{{post.title}}"/></a>
                 </div>
                 {% endif %}
-                <div class="homepageSummary">{{post.summary}}</div>
+                <div class="homepageSummary">{{post.description}}</div>
 
             </div>
             <div style="clear:left;"></div>

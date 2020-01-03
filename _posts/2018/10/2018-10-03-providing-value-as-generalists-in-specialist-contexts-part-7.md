@@ -9,7 +9,7 @@ keywords:
 weight: 7
 tags: series_trends_specialist_generalist
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
-summary: "Wrapping up this series, the conclusion recaps the argument highlights and information usability principles."
+description: "Wrapping up this series, the conclusion recaps the argument highlights and information usability principles."
 date: 2018-10-03T03:13:35+00:00
 bitlink: http://bit.ly/genandspecialisttrendspart7
 ---

@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 bitlink: http://bit.ly/surveyresultsengineersanddocs
-summary: "I recently conducted a survey with engineers who write documentation to see why they are coming to my API documentation site &mdash; whether certain trends are pushing them to write more documentation, or whether the technology landscape is becoming more complex, or some other reason. Results from the survey are provided below. The most interesting result is that engineers who write docs almost unanimously agree that they prefer to treat docs like code."
+description: "I recently conducted a survey with engineers who write documentation to see why they are coming to my API documentation site &mdash; whether certain trends are pushing them to write more documentation, or whether the technology landscape is becoming more complex, or some other reason. Results from the survey are provided below. The most interesting result is that engineers who write docs almost unanimously agree that they prefer to treat docs like code."
 ---
 
 ## About the survey

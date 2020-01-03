@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: http://idratherbewriting.site/docplantemplate
-summary: "In this post I share my documentation project plan template. This is designed for project managers to complete. Having all these details present helps you scope projects and recall all needed details if you have to de-prioritize the project for a while."
+description: "In this post I share my documentation project plan template. This is designed for project managers to complete. Having all these details present helps you scope projects and recall all needed details if you have to de-prioritize the project for a while."
 ---
 
 In my previous post, [How to avoid inefficiencies even with context switching](/blog/avoid-inefficiencies-even-with-context-switching/), I mentioned that having a doc plan helps you maintain all the needed details for a project so you can re-familiarize yourself more quickly with the project as needed. For example, if you have to switch contexts from one project to another, you can return to the de-prioritized project and ramp back up more quickly with all the contextual details you need to be productive.

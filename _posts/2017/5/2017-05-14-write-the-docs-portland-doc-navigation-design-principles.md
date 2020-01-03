@@ -4,9 +4,9 @@ categories:
 - findability
 - technical-writing
 keywords:
-summary: "Slides for my presentation on doc navigation are available below. I'm giving this presentation at Write the Docs Portland on May 15. The presentation is about 20 minutes long."
+description: "Slides for my presentation on doc navigation are available below. I'm giving this presentation at Write the Docs Portland on May 15. The presentation is about 20 minutes long."
 bitlink: http://bit.ly/wtdportlandslides
-thumb: wtdportslidethumb.png
+image: https://idratherbewritingmedia.com/images/thumbnails/wtdportslidethumb.png
 ---
 
 <a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://idratherbewritingmedia.com/images/wtdpresoportland.png"/></a>

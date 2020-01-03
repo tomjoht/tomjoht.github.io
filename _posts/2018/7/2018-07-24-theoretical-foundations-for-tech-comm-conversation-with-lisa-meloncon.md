@@ -3,7 +3,7 @@ title: "Looking at the theoretical foundations for tech comm -- Conversation wit
 categories:
 - academics-and-practitioners
 keywords:
-summary: "In this conversation post, I chat with <a href='#lisa_meloncon'>Lisa Melonçon</a> about the theoretical underpinnings of tech comm, mainly its connection to rhetoric that allows tech comm to get a seat at the English table within academia. We chat about what rhetoric is, why it is or isn't important to tech comm today, and why constant participation and involvement is critical for inclusion within either academia or the workplace."
+description: "In this conversation post, I chat with <a href='#lisa_meloncon'>Lisa Melonçon</a> about the theoretical underpinnings of tech comm, mainly its connection to rhetoric that allows tech comm to get a seat at the English table within academia. We chat about what rhetoric is, why it is or isn't important to tech comm today, and why constant participation and involvement is critical for inclusion within either academia or the workplace."
 bitlink: http://bit.ly/techcommfoundationslisa
 practitioner_survey: https://docs.google.com/forms/d/1zwdqrNcaI3eAqTPkZk2wIUqUxTNXTEmLM8iqSj0GEVc/edit
 ---

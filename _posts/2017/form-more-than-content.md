@@ -25,7 +25,7 @@ categories:
 - wordpress
 - writing
 keywords:
-summary: ""
+description: ""
 bitlink: http://bit.ly/
 published: false
 ---

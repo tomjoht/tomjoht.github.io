@@ -4,7 +4,7 @@ categories:
 - api-doc
 - jekyll
 keywords: jekyll, swagger, raml, duplication, copy and paste, inefficiency, variables, auto-populate, single source
-summary: "You can use Jekyll to populate variables in both your Swagger spec and main documentation. This allows you to single source your content into both of these outputs in a more efficient way."
+description: "You can use Jekyll to populate variables in both your Swagger spec and main documentation. This allows you to single source your content into both of these outputs in a more efficient way."
 ---
 
 One of the challenges with Swagger is that the output duplicates a lot of the descriptions that already appear in your main documentation.

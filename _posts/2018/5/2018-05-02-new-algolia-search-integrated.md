@@ -2,7 +2,7 @@
 title: "My site now has Algolia search integrated"
 categories:
 - technical-writing
-summary: "You might have noticed a new search box on my site. My new search integrates <a href='https://www.algolia.com/'>Algolia</a>'s search service, replacing the Google Custom Search Engine I previously had. While Google Custom Search Engine was good, it draws people away from my site and more into the general web. There are tradeoffs to both Google Custom Search and Algolia."
+description: "You might have noticed a new search box on my site. My new search integrates <a href='https://www.algolia.com/'>Algolia</a>'s search service, replacing the Google Custom Search Engine I previously had. While Google Custom Search Engine was good, it draws people away from my site and more into the general web. There are tradeoffs to both Google Custom Search and Algolia."
 bitlink: http://bit.ly/algoliasearchirbw
 ---
 Let's look at a few pros and cons of each.

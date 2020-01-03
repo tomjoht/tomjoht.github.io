@@ -3,8 +3,8 @@ title: How authorization works with APIs
 categories:
 - api-doc
 keywords:
-summary: "Some common forms of authentication and authorization with APIs include Basic Auth, HMAC, and OAuth 2.0. In this post, I explain how these methods work. This material comes from other content I'm preparing about REST APIs."
-thumb: apiauth.png
+description: "Some common forms of authentication and authorization with APIs include Basic Auth, HMAC, and OAuth 2.0. In this post, I explain how these methods work. This material comes from other content I'm preparing about REST APIs."
+image: https://idratherbewritingmedia.com/images/thumbnails/apiauth.png
 ---
 
 {{site.data.alerts.note}}

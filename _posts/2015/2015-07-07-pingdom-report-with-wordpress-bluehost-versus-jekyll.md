@@ -3,7 +3,7 @@ title: "Pingdom reports with WordPress on Bluehost/MaxCDN versus with Jekyll on 
 categories:
 - technical-writing
 keywords: maxcdn, bluehost, jekyll, github, speed, performance
-summary: "My blog is both faster and more stable with Jekyll on Github than it was with WordPress on Bluehost with MaxCDN."
+description: "My blog is both faster and more stable with Jekyll on Github than it was with WordPress on Bluehost with MaxCDN."
 ---
 
 [Pingdom](https://www.pingdom.com/) is a service that checks your website for performance, measuring download speed, outages, and more. For free, you can configure Pingdom to periodically check your site and let you know when it's down.

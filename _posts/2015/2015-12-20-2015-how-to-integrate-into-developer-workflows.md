@@ -3,7 +3,7 @@ title: How do you stay updated with changes developers are silently making?
 categories:
 - api-doc
 keywords:
-summary: "You can stay updated with what developers are working on by analyzing the items assigned to the current sprint and asking the assigned developer for details."
+description: "You can stay updated with what developers are working on by analyzing the items assigned to the current sprint and asking the assigned developer for details."
 ---
 
 A reader asks,

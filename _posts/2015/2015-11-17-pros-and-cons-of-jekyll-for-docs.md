@@ -3,8 +3,8 @@ title: My pros and cons of using Jekyll for documentation
 categories:
 - jekyll
 keywords: 
-summary: "As with any help system, there are some pros and cons with using Jekyll for documentation sites. Since I usually emphasize the pros of Jekyll in my posts, I wanted to balance out the perspective a bit by listing 10 cons and 10 pros."
-thumb: thumbsupdown_hands.png
+description: "As with any help system, there are some pros and cons with using Jekyll for documentation sites. Since I usually emphasize the pros of Jekyll in my posts, I wanted to balance out the perspective a bit by listing 10 cons and 10 pros."
+image: https://idratherbewritingmedia.com/images/thumbnails/thumbsupdown_hands.png
 ---
 
 <img class="alignright" src="{{ "https://idratherbewritingmedia.com/images/thumbnails/thumbsupdown_hands.png" | prepend: site.baseurl }}" alt="Pros and cons of Jekyll" />

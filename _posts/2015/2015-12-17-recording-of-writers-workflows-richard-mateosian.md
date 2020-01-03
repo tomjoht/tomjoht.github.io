@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 keywords:
-summary: "You can watch the recording of Richard Mateosian's November 2015 presentation to the STC Silicon Valley about version control, writers, and workflows."
+description: "You can watch the recording of Richard Mateosian's November 2015 presentation to the STC Silicon Valley about version control, writers, and workflows."
 date: 2015-12-17
 tags:
 - technical writing

@@ -1,6 +1,6 @@
 ---
 title: "How to become a voracious reader"
-summary: "Voracious reading begins with voracious thinking. Asking questions gives us a purpose and drive for reading."
+description: "Voracious reading begins with voracious thinking. Asking questions gives us a purpose and drive for reading."
 bitlink: http://bit.ly/voraciousreadinghowto2
 categories:
 - writing

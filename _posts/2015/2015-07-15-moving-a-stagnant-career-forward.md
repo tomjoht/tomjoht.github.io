@@ -5,7 +5,7 @@ categories:
 - beginners
 - technical-writing
 keywords: careers
-summary: "To move out of a stagnant career, immerse yourself in learning on your own. You can learn programming online, for example, or specialize in a knowledge domain or tools."
+description: "To move out of a stagnant career, immerse yourself in learning on your own. You can learn programming online, for example, or specialize in a knowledge domain or tools."
 ---
 
 I recently received the following question:

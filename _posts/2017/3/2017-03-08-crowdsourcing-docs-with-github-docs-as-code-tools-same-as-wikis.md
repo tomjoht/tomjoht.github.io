@@ -4,7 +4,7 @@ categories:
 - api-doc
 - wikis
 keywords:
-summary: "Adding an Edit on GitHub button to my docs didn't have the immediate collaborative result I anticipated. In analyzing why crowdsourcing efforts succeed or fail, I decided to look back at my efforts with wikis some years ago. Docs as code provides new tools for simplifying authoring and publishing, as did wikis at the time. But crowdsourcing writing proves to be tricky no matter what tool you use. Writing doesn't break down into granular chunks that can easily be crowdsourced, so efforts to crowdsource writing will likely be the same. However, docs-as-code tools can empower people to author and publish their own content -- without expensive help authoring tools."
+description: "Adding an Edit on GitHub button to my docs didn't have the immediate collaborative result I anticipated. In analyzing why crowdsourcing efforts succeed or fail, I decided to look back at my efforts with wikis some years ago. Docs as code provides new tools for simplifying authoring and publishing, as did wikis at the time. But crowdsourcing writing proves to be tricky no matter what tool you use. Writing doesn't break down into granular chunks that can easily be crowdsourced, so efforts to crowdsource writing will likely be the same. However, docs-as-code tools can empower people to author and publish their own content -- without expensive help authoring tools."
 bitlink: http://bit.ly/crowdsourcingdocsascode
 ---
 

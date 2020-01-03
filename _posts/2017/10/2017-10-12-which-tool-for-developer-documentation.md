@@ -4,7 +4,7 @@ categories:
 - api-doc
 - beginners
 keywords:
-summary: "Finding the right software tools to write API docs is a constant and difficult challenge given the wide variety of tooling and environments in the developer doc space. However, if your goal is to break into developer documentation (rather than specifically reworking your company's documentation tools), you would be better off deepening your technical background with programming languages rather than focusing on doc tools."
+description: "Finding the right software tools to write API docs is a constant and difficult challenge given the wide variety of tooling and environments in the developer doc space. However, if your goal is to break into developer documentation (rather than specifically reworking your company's documentation tools), you would be better off deepening your technical background with programming languages rather than focusing on doc tools."
 bitlink: http://bit.ly/whichtoolsapidocs
 ---
 

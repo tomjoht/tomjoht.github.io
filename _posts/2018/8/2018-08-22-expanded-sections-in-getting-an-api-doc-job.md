@@ -3,7 +3,7 @@ title: "Getting a job in API documentation -- new topics and expansions in my AP
 categories:
 - api-doc
 keywords: api documentation jobs, job searches, api docs
-summary: "I recently expanded the <a href='/learnapidoc/jobapis.html'>Getting a job in API documentation</a> section in my <a href='/learnapidoc/'>API documentation course</a>. This section explores issues such as why API technical writers need programming knowledge, the tradeoffs between being a writer who learns programming versus a programmer who learns writing, states in the U.S. where most of the API documentation jobs are located (and whether you should move there), and more."
+description: "I recently expanded the <a href='/learnapidoc/jobapis.html'>Getting a job in API documentation</a> section in my <a href='/learnapidoc/'>API documentation course</a>. This section explores issues such as why API technical writers need programming knowledge, the tradeoffs between being a writer who learns programming versus a programmer who learns writing, states in the U.S. where most of the API documentation jobs are located (and whether you should move there), and more."
 bitlink: http://bit.ly/apidocjobsectionexpansion
 ---
 

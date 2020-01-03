@@ -3,8 +3,8 @@ title: "What is the technical writer's role in content marketing?"
 categories:
 - writing
 keywords: content marketing, joe pullizi, unified customer experience 
-summary: "Technical writers should repurpose their information-rich content into content marketing deliverables that can be used to build relationships with potential audiences in the market. This content can help establish thought leadership, visibility, and trust with your audience so that when you start releasing and mentioning your 1.0 product, your audience adopts it."
-thumb: contentmarketingconceptthumb.png
+description: "Technical writers should repurpose their information-rich content into content marketing deliverables that can be used to build relationships with potential audiences in the market. This content can help establish thought leadership, visibility, and trust with your audience so that when you start releasing and mentioning your 1.0 product, your audience adopts it."
+image: https://idratherbewritingmedia.com/images/thumbnails/contentmarketingconceptthumb.png
 ---
 
 ## Hearing a lot lately about "unified customer experience"

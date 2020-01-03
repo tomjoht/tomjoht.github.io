@@ -3,7 +3,7 @@ title: "Emphasizing the 'Communication' in Technical Communication"
 keywords: communication, training, marketing
 categories:
 - technical-writing
-summary: ""
+description: ""
 published: false
 ---
 {% include notes.html %}

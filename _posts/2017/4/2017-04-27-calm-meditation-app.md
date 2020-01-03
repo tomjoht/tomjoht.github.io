@@ -4,9 +4,9 @@ categories:
 - api-doc
 - technical-writing
 keywords:
-summary: "I recently created an HTML5 web app called Calm Meditation. If you have a Fire TV, you can check out the app by searching for it in the Amazon Appstore. I'm not really into meditation, but I needed some sample video content to test out a web app framework I'm documenting. The idea I came up with for generic video content involved nature still scenes with some background music. I think it worked out okay, actually. There's a whole genre of these types of apps, apparently."
+description: "I recently created an HTML5 web app called Calm Meditation. If you have a Fire TV, you can check out the app by searching for it in the Amazon Appstore. I'm not really into meditation, but I needed some sample video content to test out a web app framework I'm documenting. The idea I came up with for generic video content involved nature still scenes with some background music. I think it worked out okay, actually. There's a whole genre of these types of apps, apparently."
 bitlink: http://bit.ly/calm-meditation-app
-thumb: calmmeditationappthumb.png
+image: https://idratherbewritingmedia.com/images/thumbnails/calmmeditationappthumb.png
 ---
 
 You can view my Calm Meditation app in the Amazon Appstore [here](https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1).

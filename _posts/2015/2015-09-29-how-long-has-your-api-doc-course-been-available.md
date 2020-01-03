@@ -3,7 +3,7 @@ title: "Question: How long has your API doc course been available?"
 categories:
 - api-doc
 keywords: api documentation, online learning, payment gateways
-summary: "I'm developing an online course for documenting REST APIs. I'm not quite done, and I'm trying to figure out the best freemium delivery model."
+description: "I'm developing an online course for documenting REST APIs. I'm not quite done, and I'm trying to figure out the best freemium delivery model."
 ---
 
 A reader notes:

@@ -3,7 +3,7 @@ title: "Recording of Trends presentation on The Content Wrangler BrightTALK chan
 categories:
 - technical-writing
 keywords:
-summary: "Yesterday I gave a presentation called <a href='https://www.brighttalk.com/webcast/9273/343232'>Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a> on <a href='https://www.brighttalk.com/channel/9273/the-content-wrangler'>The Content Wrangler BrightTALK channel</a>. The recording is embedded below."
+description: "Yesterday I gave a presentation called <a href='https://www.brighttalk.com/webcast/9273/343232'>Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists</a> on <a href='https://www.brighttalk.com/channel/9273/the-content-wrangler'>The Content Wrangler BrightTALK channel</a>. The recording is embedded below."
 bitlink: http://bit.ly/brighttalktrendsrecording
 ---
 

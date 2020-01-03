@@ -3,7 +3,7 @@ title: Check out my conversation on ContentHug
 categories:
 - technical-writing
 keywords: user-centered documentation, content strategy, challenges, siloes
-summary: "ContentHug is a content curation service focused on tech comm. Currently the site has a theme of conversations with various tech comm pros, mostly about content strategy."
+description: "ContentHug is a content curation service focused on tech comm. Currently the site has a theme of conversations with various tech comm pros, mostly about content strategy."
 ---
 
 Vinish Garg has a series of "[conversations](http://contenthug.com/conversations)" going on his site, [Contenthug](http://contenthug.com/). Today he posted a conversation he had <a href="http://contenthug.com/conversations/our-guest-today-tom-johnson">with me</a>. 

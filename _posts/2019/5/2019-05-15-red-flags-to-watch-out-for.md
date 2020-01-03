@@ -5,7 +5,7 @@ categories:
 - general
 keywords:
 bitlink: https://idratherbewriting.site/redflagshiring
-summary: "A reader wonders whether having complete control as the lone writer in a company is a red flag he should watch out for, based on his previous experience. I agree that it is."
+description: "A reader wonders whether having complete control as the lone writer in a company is a red flag he should watch out for, based on his previous experience. I agree that it is."
 ---
 
 > Hi Tom,

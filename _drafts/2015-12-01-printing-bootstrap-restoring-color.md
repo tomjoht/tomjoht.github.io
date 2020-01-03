@@ -23,7 +23,7 @@ categories:
 - wordpress
 - writing
 keywords: 
-summary: ""
+description: ""
 ---
 
 When printing websites that use Bootstrap, Bootstrap applies a color: 

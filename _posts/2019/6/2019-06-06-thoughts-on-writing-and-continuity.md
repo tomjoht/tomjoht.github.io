@@ -5,7 +5,7 @@ categories:
 - writing
 keywords: context switching, inefficiency, lean, project plans,
 bitlink: https://idratherbewriting.site/efficiency-context-switching
-summary: "When you switch focus from one project to another with higher priority, this context switching can lead to a lot of inefficiencies. However, if you take time to review or work on the de-prioritized projects even just a little each day, then according to the Forgetting Curve, you'll be more likely to retain the needed context. When you do fully switch back to the project, you won't have to start over."
+description: "When you switch focus from one project to another with higher priority, this context switching can lead to a lot of inefficiencies. However, if you take time to review or work on the de-prioritized projects even just a little each day, then according to the Forgetting Curve, you'll be more likely to retain the needed context. When you do fully switch back to the project, you won't have to start over."
 ---
 
 It's been a while since I've posted &mdash; about two weeks, which is a long time for me. Partly it's because after conference season I felt somewhat burned out from so many presentations, workshops, and conference sessions, along with all the travel that goes with it. But also, it's easy to fall out of the writing habit, and the longer you go without writing, the harder it is to regain momentum.

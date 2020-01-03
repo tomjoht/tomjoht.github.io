@@ -3,7 +3,7 @@ title: "Non-Reference Content section updated in API course"
 categories:
 - api-doc
 keywords:
-summary: "I updated and reworked the topics in the Non-Reference Content section in my API doc course. This section includes the following topics: API overview, Getting started, Authentication and authorization, Status and error codes, Rate limiting and thresholds, Code samples and tutorials, SDKs and sample apps, Quick reference guides, API best practices, and Glossary. These sections are important in API documentation but tend to be overlooked as most discussions around API documentation focus on endpoint documentation only."
+description: "I updated and reworked the topics in the Non-Reference Content section in my API doc course. This section includes the following topics: API overview, Getting started, Authentication and authorization, Status and error codes, Rate limiting and thresholds, Code samples and tutorials, SDKs and sample apps, Quick reference guides, API best practices, and Glossary. These sections are important in API documentation but tend to be overlooked as most discussions around API documentation focus on endpoint documentation only."
 bitlink: http://bit.ly/nonrefsectionupdate
 ---
 

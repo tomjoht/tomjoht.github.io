@@ -4,7 +4,7 @@ categories:
 - technical-writing
 - podcasts
 keywords: write the docs, Australia, conference
-summary: "In episode 18 of the Write the Docs podcast, we discuss the recent Write the Docs Australia 2018 conference held in Melbourne, Australia. Jared was an emcee at the event and shares his inside perspective about what made the event so successful. We dive deep into the unconference format, how to instill the Write the Docs brand into the conference experience, how super volunteers can avoid burnout, what sessions stood out, and more. Also, Chris confesses that he has attended about 40 conferences this year, and explains a few reasons why."
+description: "In episode 18 of the Write the Docs podcast, we discuss the recent Write the Docs Australia 2018 conference held in Melbourne, Australia. Jared was an emcee at the event and shares his inside perspective about what made the event so successful. We dive deep into the unconference format, how to instill the Write the Docs brand into the conference experience, how super volunteers can avoid burnout, what sessions stood out, and more. Also, Chris confesses that he has attended about 40 conferences this year, and explains a few reasons why."
 bitlink: http://bit.ly/wtdepisode18australia
 ---
 

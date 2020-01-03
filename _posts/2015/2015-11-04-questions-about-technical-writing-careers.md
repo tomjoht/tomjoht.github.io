@@ -3,7 +3,7 @@ title: "Tell me about your career as a technical writer..."
 categories:
 - beginners
 keywords: technical writing careers, programs of study for technical writing, day in the life of a technical writer, technical author
-summary: "Technical writing is a pretty awesome career. You'll probably enjoy it unless you dislike writing, aren't technical, hate working in team environments, and prefer to write content that pressures people to buy crap they don't need."
+description: "Technical writing is a pretty awesome career. You'll probably enjoy it unless you dislike writing, aren't technical, hate working in team environments, and prefer to write content that pressures people to buy crap they don't need."
 ---
 
 A reader asks a few questions:

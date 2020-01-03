@@ -8,7 +8,7 @@ bitlink: https://idratherbewriting.site/tomsummittimesx2
 published: true
 redirect_from:
 - /my-slide-links-times-stc-summit/
-summary: "If you're attending the <a href='https://summit.stc.org/'>2019 STC Summit in Denver</a> and you want to attend my presentations, download my slides, or get other info, I've added details below."
+description: "If you're attending the <a href='https://summit.stc.org/'>2019 STC Summit in Denver</a> and you want to attend my presentations, download my slides, or get other info, I've added details below."
 ---
 
 ## API Documentation Workshop {#workshop}

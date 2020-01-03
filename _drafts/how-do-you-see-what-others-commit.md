@@ -3,7 +3,7 @@ title: Seeing what others commit.
 categories:
 - technical-writing
 keywords: 
-summary: ""
+description: ""
 published: false
 ---
 One of the things I'm interested in is pagination.

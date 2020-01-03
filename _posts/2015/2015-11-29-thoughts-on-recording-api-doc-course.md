@@ -3,7 +3,7 @@ title: Planning my API doc course
 categories:
 - technical-writing
 keywords: 
-summary: "As I prepare to record my API doc course, I'm finalizing a few thoughts about the content, setup, and other details."
+description: "As I prepare to record my API doc course, I'm finalizing a few thoughts about the content, setup, and other details."
 thumb:
 ---
 

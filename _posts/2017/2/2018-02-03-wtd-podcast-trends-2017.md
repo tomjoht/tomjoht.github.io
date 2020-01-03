@@ -9,7 +9,7 @@ tags:
 - docs as code
 - podcast
 bitlink: http://bit.ly/wtdpodcastepisode3trends
-summary: "In this episode of the Write the Docs podcast, we discuss top technical writing trends for 2017. Chris Ward discusses how more technical writers are interacting with support groups, and even being embedded within support departments. Jared Morgan discusses how docs are being planned for earlier in development cycles, as more product managers are seeing the value of docs. I talk about how more technical writers are treating documentation as code, and the challenges inherent in developer tools and workflows."
+description: "In this episode of the Write the Docs podcast, we discuss top technical writing trends for 2017. Chris Ward discusses how more technical writers are interacting with support groups, and even being embedded within support departments. Jared Morgan discusses how docs are being planned for earlier in development cycles, as more product managers are seeing the value of docs. I talk about how more technical writers are treating documentation as code, and the challenges inherent in developer tools and workflows."
 ---
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/aiZTc6dffng" frameborder="0" allowfullscreen></iframe>

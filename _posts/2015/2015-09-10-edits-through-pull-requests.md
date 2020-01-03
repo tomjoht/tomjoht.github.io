@@ -3,8 +3,8 @@ title: Editing workflows and reviews through Github's pull requests
 categories:
 - api-doc
 keywords:
-summary: "Pull requests are requests to merge edits from a branch back into the master. This workflow facilitates review of technical content on Github, but implementing it has some challenges. Namely, the reviewer would need to be familiar with code syntax, locations, and branching."
-thumb: pullrequeststhumb.png
+description: "Pull requests are requests to merge edits from a branch back into the master. This workflow facilitates review of technical content on Github, but implementing it has some challenges. Namely, the reviewer would need to be familiar with code syntax, locations, and branching."
+image: https://idratherbewritingmedia.com/images/thumbnails/pullrequeststhumb.png
 ---
 
 ## Pull request tutorial

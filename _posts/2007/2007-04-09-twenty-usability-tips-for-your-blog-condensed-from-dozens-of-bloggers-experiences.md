@@ -9,7 +9,7 @@ tags: []
 status: publish
 type: post
 published: true
-summary: I've been doing research on what distinguishes good blogs from poor ones, especially by reading "lessons learned" posts by bloggers. I've come up with 20 principles I think are worthwhile. Let me know which ones you agree or disagree with.
+description: I've been doing research on what distinguishes good blogs from poor ones, especially by reading "lessons learned" posts by bloggers. I've come up with 20 principles I think are worthwhile. Let me know which ones you agree or disagree with.
 redirect_from: 
   - /2007/04/09/twenty-usability-tips-for-your-blog-%E2%80%94-condensed-from-dozens-of-bloggers-experiences/
 ---

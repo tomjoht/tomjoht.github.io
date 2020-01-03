@@ -3,7 +3,7 @@ title: "Recording of STC San Francisco presentation: Beyond mere endpoint refere
 categories:
 - api-doc
 keywords: API documentation, non-reference content, tutori8al content
-summary: "I recently gave a presentation to the STC San Francisco chapter called \"Beyond mere endpoint reference — the overlooked content in API documentation\" on February 21, 2018. You can browse the slides and listen to the audio recording here."
+description: "I recently gave a presentation to the STC San Francisco chapter called \"Beyond mere endpoint reference — the overlooked content in API documentation\" on February 21, 2018. You can browse the slides and listen to the audio recording here."
 bitlink: http://bit.ly/stcsfpresononrefapicontentrecording
 categories:
 - api-doc

@@ -5,7 +5,7 @@ categories:
 - simplifying-complexity
 - writing
 keywords:
-summary: "Trends in technical communication can be hard to decipher, even when looking at data. But one underlying trend is that technology seems to be getting more specialized and complex. This trend toward specialization is driving up the value of technical knowledge, making it more prized than writing skills. To handle the complexity, technical writers must play increasingly collaborative roles with engineers to create documentation."
+description: "Trends in technical communication can be hard to decipher, even when looking at data. But one underlying trend is that technology seems to be getting more specialized and complex. This trend toward specialization is driving up the value of technical knowledge, making it more prized than writing skills. To handle the complexity, technical writers must play increasingly collaborative roles with engineers to create documentation."
 bitlink: http://bit.ly/trendscollabwithengineers
 ---
 

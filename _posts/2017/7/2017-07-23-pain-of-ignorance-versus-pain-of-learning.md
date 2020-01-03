@@ -5,9 +5,9 @@ categories:
 - stitcher
 - podcasts
 keywords:
-summary: "Users turn to documentation when the pain of their ignorance exceeds the pain of learning. Unfortunately, this is the worst state of mind to try to learn anything in. To address this impatient state of mind, we need to write documentation in simpler, easier to digest ways. Task-based documentation gets us part way there. But the varying starting points, unique pathway needs, and messy branching complicate the promised simple linear nature of steps. Overall, we need to increase the simplicity factor in our docs much more than we generally do."
+description: "Users turn to documentation when the pain of their ignorance exceeds the pain of learning. Unfortunately, this is the worst state of mind to try to learn anything in. To address this impatient state of mind, we need to write documentation in simpler, easier to digest ways. Task-based documentation gets us part way there. But the varying starting points, unique pathway needs, and messy branching complicate the promised simple linear nature of steps. Overall, we need to increase the simplicity factor in our docs much more than we generally do."
 bitlink: http://bit.ly/painofignorancevspainoflearning
-thumb: painofignorancethumb.png
+image: https://idratherbewritingmedia.com/images/thumbnails/painofignorancethumb.png
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/painofignorance.mp3
 podcast_file_size: 14.3 MB

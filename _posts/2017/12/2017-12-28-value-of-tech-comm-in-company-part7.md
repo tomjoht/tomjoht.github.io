@@ -4,7 +4,7 @@ subtitle: "Part VIII: Conclusion"
 categories:
 - technical-writing
 keywords: value, organizations, information flow, content experience
-summary: "It's time to wrap up this essay with some concluding thoughts and takeaways. I also list the references here for more reading."
+description: "It's time to wrap up this essay with some concluding thoughts and takeaways. I also list the references here for more reading."
 bitlink: http://bit.ly/valueargspart7
 weight: 7
 tags: series_value_of_tech_comm

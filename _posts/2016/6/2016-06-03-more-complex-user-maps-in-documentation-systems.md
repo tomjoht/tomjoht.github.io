@@ -3,8 +3,8 @@ title: "More complex user process maps in documentation systems"
 categories:
 - visual-communication
 keywords:
-summary: "For more complex user process maps, you can group the associated topics into larger collections. When users click a workflow step, you can show them all the relevant topics within that collection. This approach accommodates a more complex user process workflow."
-thumb: userprocesscomplexthumb.png
+description: "For more complex user process maps, you can group the associated topics into larger collections. When users click a workflow step, you can show them all the relevant topics within that collection. This approach accommodates a more complex user process workflow."
+image: https://idratherbewritingmedia.com/images/thumbnails/userprocesscomplexthumb.png
 type: visualcommunication
 ---
 

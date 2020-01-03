@@ -4,7 +4,7 @@ categories:
 - beginners
 - family
 keywords: engineering workflows
-summary: "I hosted a technical writing booth at my 8th-grade daughter's career fair day, but almost no one stopped by. Deflated, I tried to analyze why. I realized that in becoming an adult and family provider, my world-view shifted to a focus on survival and profit, which is far from the world-view of students."
+description: "I hosted a technical writing booth at my 8th-grade daughter's career fair day, but almost no one stopped by. Deflated, I tried to analyze why. I realized that in becoming an adult and family provider, my world-view shifted to a focus on survival and profit, which is far from the world-view of students."
 ---
 
 ## Technical writing booth at Career Fair day

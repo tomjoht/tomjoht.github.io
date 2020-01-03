@@ -3,8 +3,8 @@ title: The third API course from Peter Gruenbaum on Udemy
 categories:
 - api-doc
 keywords:
-summary: "Peter Gruenbaum's third API documentation course is now available on Udemy. This course covers topics in API documentation outside of reference material, such as tutorials and overview sections. This course will expose you to the many different needs in API documentation, and is a course I recommend even though it is briefer than Peter's other courses."
-thumb: peterudemycourse3.png
+description: "Peter Gruenbaum's third API documentation course is now available on Udemy. This course covers topics in API documentation outside of reference material, such as tutorials and overview sections. This course will expose you to the many different needs in API documentation, and is a course I recommend even though it is briefer than Peter's other courses."
+image: https://idratherbewritingmedia.com/images/thumbnails/peterudemycourse3.png
 ---
 
 [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/) recently published a third course on writing API documentation on Udemy. I reviewed the other two courses in previous posts [here](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/) and [here](https://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/). Peter's third course is called [The Art of API Documentation](https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather).

@@ -5,7 +5,7 @@ categories:
 - category-api-doc
 keywords:
 bitlink: https://idratherbewriting.site/
-summary: "I added a new article in my API doc course that expands the notion of docs as code to include not only tools but processes as well. I included an excerpt below and a link to the full article."
+description: "I added a new article in my API doc course that expands the notion of docs as code to include not only tools but processes as well. I included an excerpt below and a link to the full article."
 ---
 
 > **Following agile scrum with documentation projects**

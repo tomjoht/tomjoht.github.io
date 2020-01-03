@@ -3,7 +3,7 @@ title: "New article in Simplifying Complexity series -- Iterate and increment on
 categories:
 - simplifying-complexity
 keywords:
-summary: "I added a new article in my Simplifying Complexity series about iterative content development. The article is titled 'Iterate and increment on content following an agile approach'. This is a principle I feel strongly about as a central approach in all writing, but one with particular application to complex scenarios."
+description: "I added a new article in my Simplifying Complexity series about iterative content development. The article is titled 'Iterate and increment on content following an agile approach'. This is a principle I feel strongly about as a central approach in all writing, but one with particular application to complex scenarios."
 bitlink: http://bit.ly/simpcomp
 ---
 

@@ -4,7 +4,7 @@ categories:
 - api-doc
 - podcasts
 - stitcher
-summary: "My previous post reviewing Andrew Etter's ebook on Modern Technical Writing got an enormous response. Some readers said the docs-as-code approach works only for small shops and doesn't scale to large projects. They said content re-use and translation also become problematic. However, perhaps the real differentiator shouldn't be product size as much as product category. The docs-as-code approach (which is what I'm calling it) works particularly well for developer documentation, such as API documentation, which usually doesn't contain the same challenges that component content management systems (or CCMSs) were meant to solve."
+description: "My previous post reviewing Andrew Etter's ebook on Modern Technical Writing got an enormous response. Some readers said the docs-as-code approach works only for small shops and doesn't scale to large projects. They said content re-use and translation also become problematic. However, perhaps the real differentiator shouldn't be product size as much as product category. The docs-as-code approach (which is what I'm calling it) works particularly well for developer documentation, such as API documentation, which usually doesn't contain the same challenges that component content management systems (or CCMSs) were meant to solve."
 date: 2016-08-01
 tags:
 - technical writing

@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/reflectionssfworkshop
-summary: "Last week I gave another API documentation <a href='https://idratherbewriting.com/blog/upcoming-api-doc-workshop-san-francisco-nov-19/'>workshop in downtown San Francisco</a>. This was the second API doc workshop that I fully organized from start to finish myself, and overall it went pretty well. In this post, I want to reflect on a few of the things I learned."
+description: "Last week I gave another API documentation <a href='https://idratherbewriting.com/blog/upcoming-api-doc-workshop-san-francisco-nov-19/'>workshop in downtown San Francisco</a>. This was the second API doc workshop that I fully organized from start to finish myself, and overall it went pretty well. In this post, I want to reflect on a few of the things I learned."
 ---
 
 ## Picking the date

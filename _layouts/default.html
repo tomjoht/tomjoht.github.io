@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% include google_analytics.html %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 170 }}{% else %}{{page.content | strip | strip_html | truncate: 170}}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 170 }}{% else %}{{page.content | strip | strip_html | truncate: 170}}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-    <meta property="og:title"
-          content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:url" content="{{page.url}}"/>
-    {% if page.thumb %}<meta property="og:image" content="//idratherbewritingmedia.com/images/thumbnails/{{page.thumb}}"/>{% endif %}
-    <meta property="og:site_name" content="{{site.title}}"/>
-    <meta property="fb:app_id" content="247143161970549"/>
-    <meta property="og:description"
-          content="{% if page.summary %}{{page.summary}}{% else %}{{site.description}}{% endif %}"/>
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@tomjohnson" />
-    <meta name="twitter:creator" content="@tomjohnson" />
 
     <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} {% if page.subtitle %}{{ page.subtitle | before: "|" }}{% endif %} | {{ site.name }} {% endif %}</title>
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
@@ -27,29 +15,7 @@
     <link rel="stylesheet" href="{{ "/css/customstyles.min.css" | prepend:site.baseurl }}"  type='text/css'>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-
-    <meta name="twitter:card" content="summary">
-            <meta name="twitter:site" content="@tomjohnson">
-            <meta name="twitter:creator" content="@tomjohnson">
-            {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-            {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
-            {% endif %}
-    {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-            {% endif %}
-    {% if page.summary %}
-    <meta name="twitter:description" content="{{ page.summary }}">
-            {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-            {% endif %}
-    {% if page.thumb %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/thumbnails/{{ page.thumb }}">
-            {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/tomjohnson.png">
-            {% endif %}
-
+    {% seo %}
     </head>
 
 
@@ -130,7 +96,7 @@
     </div><!-- /container -->
     <script src="https://cdn.commento.io/js/count.js"></script>
     </body>
-    {% include google_analytics.html %}
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ "/css/syntax.min.css" | prepend:site.baseurl }}"  type='text/css'>

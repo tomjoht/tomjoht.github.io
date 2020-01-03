@@ -3,7 +3,7 @@ title: "Question: Why don't you have more articles on project management?"
 categories:
 - blogging
 keywords: 
-summary: "."
+description: "."
 published: false
 ---
 

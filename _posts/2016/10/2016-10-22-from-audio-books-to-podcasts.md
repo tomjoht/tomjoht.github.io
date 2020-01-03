@@ -3,7 +3,7 @@ title: "From podcasts to audio books and now back to podcasts -- experimenting w
 categories:
 - technical-writing
 keywords: 
-summary: "Lately I've been turning my attention away from audio fiction and back into technology podcasts. I'm curious whether looking at the tech comm angle associated with technology news might provide a fruitful angle for blog posts and discussion."
+description: "Lately I've been turning my attention away from audio fiction and back into technology podcasts. I'm curious whether looking at the tech comm angle associated with technology news might provide a fruitful angle for blog posts and discussion."
 bitlink: http://bit.ly/audibletopodcasts
 ---
 

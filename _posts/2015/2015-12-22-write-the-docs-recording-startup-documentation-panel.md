@@ -4,8 +4,8 @@ categories:
 - technical-writing
 - video
 keywords: 
-summary: "The following is a recording of a panel discussion at a Write the Docs San Francisco meetup held Dec 17, 2015. The topic is on creating documentation for startups."
-thumb: wtdthumbpanelstartup.png
+description: "The following is a recording of a panel discussion at a Write the Docs San Francisco meetup held Dec 17, 2015. The topic is on creating documentation for startups."
+image: https://idratherbewritingmedia.com/images/thumbnails/wtdthumbpanelstartup.png
 ---
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ZMc_GAg1i3A" frameborder="0" allowfullscreen></iframe>

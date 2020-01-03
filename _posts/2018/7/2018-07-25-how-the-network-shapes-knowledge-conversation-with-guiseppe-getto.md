@@ -3,7 +3,7 @@ title: "Reciprocal knowledge networks and the iFixit Technical Writing Project -
 categories:
 - academics-and-practitioners
 keywords:
-summary: "In this conversation post, I chat with <a href='#guiseppe'>Guiseppe Getto</a> about the reciprocal influences within networks that contribute towards better knowledge creation. We talk about the <a href='https://edu.ifixit.com/'>iFixit's Technical Writing project</a>, Latour's Actor-Network Theory, the revolution of the spudger in circumventing corporate non-repair agendas, why students learned to triple-check their work and begin tinkering deeply with broken devices, and more."
+description: "In this conversation post, I chat with <a href='#guiseppe'>Guiseppe Getto</a> about the reciprocal influences within networks that contribute towards better knowledge creation. We talk about the <a href='https://edu.ifixit.com/'>iFixit's Technical Writing project</a>, Latour's Actor-Network Theory, the revolution of the spudger in circumventing corporate non-repair agendas, why students learned to triple-check their work and begin tinkering deeply with broken devices, and more."
 bitlink: http://bit.ly/networkinfluenceguiseppe
 practitioner_survey: https://docs.google.com/forms/d/1z9rGRIlWOJNyos86h8dwc0uqLypxlly3WKjafjs_r8o/edit
 ---

@@ -5,7 +5,7 @@ categories:
 - podcasts
 - stitcher
 keywords:
-summary: "I recently gave a half-day API workshop in Denver on March 10, 2018. Topics in the workshop included how to document reference API content (endpoints, parameters, requests, etc.), what non-reference topics (for example, status and error codes, rate limiting, getting started, sample apps) are common, how to create an OpenAPI specification document and Swagger UI output, and more. You can view a recording of the workshop, browse the slides, and listen to the audio here. Because of the length, the content is divided into three parts."
+description: "I recently gave a half-day API workshop in Denver on March 10, 2018. Topics in the workshop included how to document reference API content (endpoints, parameters, requests, etc.), what non-reference topics (for example, status and error codes, rate limiting, getting started, sample apps) are common, how to create an OpenAPI specification document and Swagger UI output, and more. You can view a recording of the workshop, browse the slides, and listen to the audio here. Because of the length, the content is divided into three parts."
 bitlink: http://bit.ly/apiworkshopdenvertomrecording
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/denverapiworkshop_all.mp3

@@ -6,8 +6,8 @@ categories:
 - innovation
 - jekyll
 - web-design
-summary: "Version 3.0 of my Documentation theme for Jekyll is now available. This theme has a ton of features, such as tags, series, collections, search, PDF generation, and more. Additionally, I've written up detailed documentation for using the theme. Overall, the theme shows how to do single sourcing (including both web and print output) as well as conditional filtering of content based on different attributes. "
-thumb: jekylltheme.png
+description: "Version 3.0 of my Documentation theme for Jekyll is now available. This theme has a ton of features, such as tags, series, collections, search, PDF generation, and more. Additionally, I've written up detailed documentation for using the theme. Overall, the theme shows how to do single sourcing (including both web and print output) as well as conditional filtering of content based on different attributes. "
+image: https://idratherbewritingmedia.com/images/thumbnails/jekylltheme.png
 ---
 
 ## Version 3.0 released

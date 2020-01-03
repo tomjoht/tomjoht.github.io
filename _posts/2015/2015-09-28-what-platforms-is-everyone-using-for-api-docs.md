@@ -3,7 +3,7 @@ title: "Question: How do I tell what platform people are using for API docs?"
 categories:
 - api-doc
 keywords: doc platforms, viewing source
-summary: "It's difficult to tell what platform someone is using for docs, but static site generators are pretty common. Other branding is sometimes easy to recognize."
+description: "It's difficult to tell what platform someone is using for docs, but static site generators are pretty common. Other branding is sometimes easy to recognize."
 ---
 
 A reader asks,

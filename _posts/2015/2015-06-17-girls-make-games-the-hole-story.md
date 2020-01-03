@@ -3,7 +3,7 @@ title: My daughter published a real video game through "Girls Make Games" camp
 categories:
 - family
 keywords: Girls Make Games, video gaming, camp
-summary: "Girls Make Games is game programming camp for girls. My daughter participated in it last year, and the game she and her team made is now available to download."
+description: "Girls Make Games is game programming camp for girls. My daughter participated in it last year, and the game she and her team made is now available to download."
 ---
 
 [Girls Make Games](http://girlsmakegames.com/) is a camp devoted to teaching girls from grade school through high school how to make games on computers. This short video shows the purpose behind the Girls Make Games camp: 

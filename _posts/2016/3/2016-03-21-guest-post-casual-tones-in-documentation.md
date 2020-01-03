@@ -3,8 +3,8 @@ title: "Hi there – Let’s get casual… Guest post by Lavanya Krishnamurthy"
 categories:
 - technical-writing
 keywords: casual tone, emotional documentation, rhetoric, persona, conversation, establishing trust, translation
-summary: "In this guest post, Lavanya Krishnamurthy explores the use of a casual tone in documentation as a way to give users a sense of having a conversation with the author. She presents several easy techniques for implementing a casual tone, and also notes the potential tradeoffs this approach can have."
-thumb: lavanya.png
+description: "In this guest post, Lavanya Krishnamurthy explores the use of a casual tone in documentation as a way to give users a sense of having a conversation with the author. She presents several easy techniques for implementing a casual tone, and also notes the potential tradeoffs this approach can have."
+image: https://idratherbewritingmedia.com/images/thumbnails/lavanya.png
 ---
 
 We use the latest technology and modern software products in our daily lives. Have you observed the tone in which these products communicate with us? It’s no longer the boring, formal tone. It’s the casual, conversational tone that invites you when you go to their websites, interact with their UI, and so forth. So, is the casual style something that we should adapt for technical documentation as well? Read on…

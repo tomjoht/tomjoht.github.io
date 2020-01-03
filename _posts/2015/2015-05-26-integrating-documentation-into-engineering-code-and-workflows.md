@@ -4,7 +4,7 @@ categories:
 - jekyll
 - api-doc
 keywords: engineering workflows
-summary: "If you want to encourage engineers to write documentation, integrate your writing tools and process into their toolchain and workflow."
+description: "If you want to encourage engineers to write documentation, integrate your writing tools and process into their toolchain and workflow."
 ---
 
 ## Write the Docs video

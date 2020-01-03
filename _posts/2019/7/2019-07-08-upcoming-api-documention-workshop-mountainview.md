@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/apidocworkshopmtnview
-summary: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993'>API Documentation Workshop</a> in Mountain View, California, on August 30, 2019. Although I've given more than a dozen API documentation workshops at various conferences over the past several years, this one is different. For this workshop, I'm organizing it myself. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993'>register on Eventbrite</a>."
+description: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993'>API Documentation Workshop</a> in Mountain View, California, on August 30, 2019. Although I've given more than a dozen API documentation workshops at various conferences over the past several years, this one is different. For this workshop, I'm organizing it myself. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-tickets-64803158993'>register on Eventbrite</a>."
 embed_survey: no_way
 ---
 

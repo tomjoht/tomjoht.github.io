@@ -3,7 +3,7 @@ title: "Tutorials versus docs -- why you need both"
 categories:
 - jekyll
 keywords: jekyll
-summary: "There's a new tutorials section in the Jekyll docs. I actually added this new section and contributed a couple of tutorials there. I initially did this because I wanted to become more familiar with github workflows with open source projects, but I also just like playing around with Jekyll. In adding tutorials, we decided to distinguish tutorials from docs on the site. This division between tutorials and documentation is an interesting one. Most documentation could benefit from including more tutorials because tutorials help connect the dots in how you use the various doc topics together."
+description: "There's a new tutorials section in the Jekyll docs. I actually added this new section and contributed a couple of tutorials there. I initially did this because I wanted to become more familiar with github workflows with open source projects, but I also just like playing around with Jekyll. In adding tutorials, we decided to distinguish tutorials from docs on the site. This division between tutorials and documentation is an interesting one. Most documentation could benefit from including more tutorials because tutorials help connect the dots in how you use the various doc topics together."
 bitlink: http://bit.ly/docsversustutorials
 ---
 

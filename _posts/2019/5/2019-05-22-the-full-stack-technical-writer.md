@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/fullstacktechwriterdebate
-summary: "A reader asks whether he should be focusing not only on writing good developer docs but also building out doc portals and marketing material &mdash; in other words, being more of a 'full-stack' technical writer. This question taps into the dilemma between being a specialist or generalist."
+description: "A reader asks whether he should be focusing not only on writing good developer docs but also building out doc portals and marketing material &mdash; in other words, being more of a 'full-stack' technical writer. This question taps into the dilemma between being a specialist or generalist."
 ---
 
 A reader recently asked,

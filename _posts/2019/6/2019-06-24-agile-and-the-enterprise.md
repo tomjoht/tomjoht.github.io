@@ -4,7 +4,7 @@ categories:
 - technical-writing
 permalink: /blog/agile-teams-and-enterprise-content-strategy/
 bitlink: https://idratherbewriting.site/agileandenterprise
-summary: "Agile seems to favor independent, autonomous teams. In contrast, enterprise content looks to harmonize content across multiple teams and boundaries. In a current model where agile trends dominate, how do you reconcile larger needs for enterprise content strategy?"
+description: "Agile seems to favor independent, autonomous teams. In contrast, enterprise content looks to harmonize content across multiple teams and boundaries. In a current model where agile trends dominate, how do you reconcile larger needs for enterprise content strategy?"
 ---
 
 ## Agile versus the enterprise

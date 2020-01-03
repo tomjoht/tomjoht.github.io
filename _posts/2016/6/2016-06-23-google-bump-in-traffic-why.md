@@ -3,8 +3,8 @@ title: "A jump in Google traffic due to content quality?"
 categories:
 - technical-writing
 keywords: google traffic, google analytics, web metrics
-summary: "In early 2016 Google updated their search algorithm to reward sites with good content. I benefitted from this update and saw my blog's traffic jump up about 15,000 extra hits per month."
-thumb: googlebumpthumb.png
+description: "In early 2016 Google updated their search algorithm to reward sites with good content. I benefitted from this update and saw my blog's traffic jump up about 15,000 extra hits per month."
+image: https://idratherbewritingmedia.com/images/thumbnails/googlebumpthumb.png
 ---
 
 Tonight I was digging out some site stats for a guest post someone contributed on my site last year when I saw this in my Google Analytics:

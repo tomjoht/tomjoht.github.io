@@ -3,7 +3,7 @@ title: "Thoughts on docs-as-code after 3 years -- it works!"
 categories:
 - api-doc
 keywords:
-summary: "I've been quite happy with our current docs-as-code implementation. It's worthwhile to periodically reflect why the docs-as-code approach tends to work so well."
+description: "I've been quite happy with our current docs-as-code implementation. It's worthwhile to periodically reflect why the docs-as-code approach tends to work so well."
 bitlink: http://bit.ly/docsascodecheckin
 ---
 

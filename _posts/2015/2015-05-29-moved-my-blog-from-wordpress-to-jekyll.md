@@ -4,7 +4,7 @@ categories:
 - jekyll
 - wordpress
 keywords: engineering workflows
-summary: "I moved my blog from WordPress to Jekyll because I want to use the same publishing paradigms for both tech comm and the web. Jekyll also loads more quickly."
+description: "I moved my blog from WordPress to Jekyll because I want to use the same publishing paradigms for both tech comm and the web. Jekyll also loads more quickly."
 ---
 
 After experimenting with Jekyll as a documentation platform for the past several months, I decided to migrate my blog from WordPress to Jekyll. 

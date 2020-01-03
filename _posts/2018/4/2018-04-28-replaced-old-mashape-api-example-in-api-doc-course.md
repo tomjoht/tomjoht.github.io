@@ -3,7 +3,7 @@ title: "Replaced the previous weather API example in my API course to now use Op
 categories:
 - api-doc
 keywords:
-summary: "I updated the sample weather API in my API course to use a more robust and stable weather API from OpenWeatherMap. Any time you incorporate free or open-source projects, you run the risk that the code won't be supported in the long term."
+description: "I updated the sample weather API in my API course to use a more robust and stable weather API from OpenWeatherMap. Any time you incorporate free or open-source projects, you run the risk that the code won't be supported in the long term."
 bitlink: http://bit.ly/newweatherapiincourse
 ---
 

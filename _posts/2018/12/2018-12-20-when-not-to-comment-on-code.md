@@ -4,7 +4,7 @@ categories:
 - academics-and-practitioners
 - api-doc
 keywords:
-summary: "In this post, I summarize the findings of an extensive research project about how developers at Google find and use code documentation. The research found that for simple code, sometimes developers prefer to read the code directly. However, for more complex code, developers consult documentation, often by looking in the formal class declarations for information they need; other times they look at comments in the implementation code. Besides the location of docs, the researchers also identify what type of answers and guidance developers want in code documentation."
+description: "In this post, I summarize the findings of an extensive research project about how developers at Google find and use code documentation. The research found that for simple code, sometimes developers prefer to read the code directly. However, for more complex code, developers consult documentation, often by looking in the formal class declarations for information they need; other times they look at comments in the implementation code. Besides the location of docs, the researchers also identify what type of answers and guidance developers want in code documentation."
 bitlink: http://bit.ly/whennottocommentcode
 ---
 

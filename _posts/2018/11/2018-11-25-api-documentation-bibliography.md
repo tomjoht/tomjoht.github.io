@@ -3,7 +3,7 @@ title: Bibliography of API documentation articles
 categories:
 - api-doc
 keywords:
-summary: "If you're doing research on API documentation, Bob Watson's <a href='https://docsbydesign.com/useful-stuff/api-documentation-bibliography/'>API Bibliography</a>, listing more than 100 articles, can be a great starting point."
+description: "If you're doing research on API documentation, Bob Watson's <a href='https://docsbydesign.com/useful-stuff/api-documentation-bibliography/'>API Bibliography</a>, listing more than 100 articles, can be a great starting point."
 bitlink: http://bit.ly/apidocbibliography
 ---
 

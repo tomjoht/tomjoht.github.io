@@ -3,7 +3,7 @@ title: Is Premium Grammarly worth it for identifying style and grammar issues in
 categories:
 - writing
 keywords:
-summary: "I recently ran every page of my API doc site through <a href='https://app.grammarly.com/'>Grammarly</a> to identify and correct style and grammar issues. Grammarly provides a lot of valuable feedback that is worth considering as you edit your writing. However, the issues flagged are more helpful for conceptual and narrative information rather than for technical procedures, in part due to the restricted vocabulary, unique tech terms, and more frequent passive voice in tech docs. Also, data privacy issues probably prevent Grammarly from gaining more traction in the enterprise."
+description: "I recently ran every page of my API doc site through <a href='https://app.grammarly.com/'>Grammarly</a> to identify and correct style and grammar issues. Grammarly provides a lot of valuable feedback that is worth considering as you edit your writing. However, the issues flagged are more helpful for conceptual and narrative information rather than for technical procedures, in part due to the restricted vocabulary, unique tech terms, and more frequent passive voice in tech docs. Also, data privacy issues probably prevent Grammarly from gaining more traction in the enterprise."
 bitlink: http://bit.ly/evaluatinggrammarly
 ---
 

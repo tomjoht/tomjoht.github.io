@@ -4,9 +4,9 @@ categories:
 - api-doc
 - jekyll
 keywords:
-summary: "If there's been a theme for the past year in tech comm, it's to treat docs like code. Most people get behind this idea with a great amount of enthusiasm. And yet, in many ways, <i>docs are not entirely like code</i>. You can make processes a lot more complicated if you push the the docs-as-code idea to the limits. Docs differ significantly from code when it comes to release frequency, release complexity, review processes, and company support."
+description: "If there's been a theme for the past year in tech comm, it's to treat docs like code. Most people get behind this idea with a great amount of enthusiasm. And yet, in many ways, <i>docs are not entirely like code</i>. You can make processes a lot more complicated if you push the the docs-as-code idea to the limits. Docs differ significantly from code when it comes to release frequency, release complexity, review processes, and company support."
 bitlink: http://bit.ly/limitstodocsascode
-thumb: docsascodelimits.png
+image: https://idratherbewritingmedia.com/images/thumbnails/docsascodelimits.png
 ---
 
 ## First, what we mean by docs like code

@@ -6,7 +6,7 @@ categories:
 - stitcher
 - user-centered-documentation
 keywords:
-summary: "To encourage users to leave more feedback, add a contact email field on your feedback submission form. When you receive feedback, provide a quick response that shows you're listening and taking action on their input."
+description: "To encourage users to leave more feedback, add a contact email field on your feedback submission form. When you receive feedback, provide a quick response that shows you're listening and taking action on their input."
 bitlink: http://bit.ly/motivatinguserfeedback
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/motivatinguserfeedback.mp3

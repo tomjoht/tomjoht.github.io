@@ -2,7 +2,7 @@
 title: "Zooming out and in with navigation"
 categories:
 - findability
-summary: "The Android documentation is one of the most interesting documentation sites I've seen. To appreciate the site, look at the left sidebar navigation. Not only does it expand and collapse vertically in accordion style, it also moves right and left horizontally into additional level hierarchies. The site authors have made a massive sidebar menu more navigable through JavaScript wizardry."
+description: "The Android documentation is one of the most interesting documentation sites I've seen. To appreciate the site, look at the left sidebar navigation. Not only does it expand and collapse vertically in accordion style, it also moves right and left horizontally into additional level hierarchies. The site authors have made a massive sidebar menu more navigable through JavaScript wizardry."
 bitlink: http://bit.ly/navigationzoom
 ---
 

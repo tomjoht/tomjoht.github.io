@@ -3,8 +3,8 @@ title: "11 images issues for tech doc systems &mdash; guest post by Jeanine Shep
 categories:
 - visual-communication
 keywords: images, translation
-summary: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues that images present with tech docs. For example, sorting out references to the images, single sourcing re-used images, converting SVG image formats to ensure browser compatibility, and ensuring the right file size for optimal page loading are some of the challenges that tech writers face when working with images in tech docs."
-thumb: legothumb.png 
+description: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues that images present with tech docs. For example, sorting out references to the images, single sourcing re-used images, converting SVG image formats to ensure browser compatibility, and ensuring the right file size for optimal page loading are some of the challenges that tech writers face when working with images in tech docs."
+image: https://idratherbewritingmedia.com/images/thumbnails/legothumb.png 
 bio: false
 type: visualcommunication
 ---

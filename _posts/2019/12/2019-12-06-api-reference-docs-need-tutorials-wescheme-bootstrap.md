@@ -6,7 +6,7 @@ categories:
 - api-docs
 keywords:
 bitlink: https://idratherbewriting.site/bootstrapweschemedocs
-summary: "This past week my 7th-grade daughter started a programming component in her Algebra class. I was elated about this because, sadly, whenever she needs help with math, I'm usually not much help. My wife is much sharper with math and seems to remember everything, so she takes the lead. But with the switch into programming, I got called up from the dugout to help out. After I browsed the material assigned and required tasks, I started to feel sorry for my daughter, the teacher, and the whole school's attempt to jump into programming."
+description: "This past week my 7th-grade daughter started a programming component in her Algebra class. I was elated about this because, sadly, whenever she needs help with math, I'm usually not much help. My wife is much sharper with math and seems to remember everything, so she takes the lead. But with the switch into programming, I got called up from the dugout to help out. After I browsed the material assigned and required tasks, I started to feel sorry for my daughter, the teacher, and the whole school's attempt to jump into programming."
 ---
 
 Which language are they learning? They're learning "Bootstrap." Not the [Bootstrap web framework](https://getbootstrap.com/) that you're probably thinking of (the HTML, CSS, and JS front-end components). No, Bootstrap is a programming language someone made up. *It's its own thing*. See [Bootstrapworld.org](https://www.bootstrapworld.org/) for details.
