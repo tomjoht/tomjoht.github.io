@@ -1319,6 +1319,10 @@ margin-bottom:15px;
   padding-top: 20px;
 }
 
-.footer, p.external a, p.rss-subscribe {
+.footer, p.external a {
   font-size: 14px;
+}
+
+p.rss-subscribe {
+  
 }
