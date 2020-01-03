@@ -1,0 +1,25 @@
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Value arguments for tech comm
+      items:
+        - title: "Part I: Introduction to the series"
+          url: /2017/12/28/value-of-tech-comm-in-company-part1/
+
+        - title: "Part II: Reviewing past research"
+          url: /2017/12/28/value-of-tech-comm-in-company-part2/
+
+        - title: "Part III: Determining value through usage"
+          url: /2017/12/28/value-of-tech-comm-in-company-part3/
+
+        - title: "Part IV: Enabling information flow"
+          url: /2017/12/28/value-of-tech-comm-in-company-part4/
+
+        - title: "Part V: Influencing the content experience"
+          url: "/2017/12/28/value-of-tech-comm-in-company-part5"
+
+        - title: "Part VI: Deepening documentation's value by simplifying complexity"
+          url: /2017/12/28/value-of-tech-comm-in-company-part6/
+
+        - title: "Part VIII: Conclusion"
+          url: /2017/12/28/value-of-tech-comm-in-company-part7/

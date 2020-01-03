@@ -332,12 +332,6 @@ a.accordion-toggle {
     content: '\25b4'
 }
 
-.nav ul#mysidebar li:hover,
-.nav ul#mysidebar li.active {
-    background-color: #8D8D8D
-
-}
-
 .nav ul li.subcatTitle ul li a:hover {
     color: #fff
 }
@@ -370,10 +364,6 @@ ul#mysidebar li a {
     font-size: 15px;
 }
 
-ul#mysidebar li:hover, ul#mysidebar li a:hover {
-    background-color: #8D8D8D;
-}
-
 ul#mysidebar {
     border-radius: 0;
     padding: 20px width: 250px
@@ -397,10 +387,6 @@ ul#mysidebar li.firstLevel a:hover {
 
 .nav li {
     border-top: 1px solid #f0f0f0
-}
-
-.nav li.active {
-    border-top: 1px solid darkgray;
 }
 
 .nav ul li ul li a,
@@ -456,7 +442,7 @@ ul#mysidebar li a {
 }
 
 ul#mysidebar li.active a:hover {
-  color: white;
+  color: #777;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -1377,7 +1363,9 @@ video {
 }
 
 ul#mysidebar li.active>a {
-    color: #fff
+    color: #444;
+    font-weight: bold;
+
 }
 
 .summary a {

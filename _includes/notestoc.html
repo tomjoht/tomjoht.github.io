@@ -2,30 +2,10 @@
 
 <ul id="mytechsidebar" class="nav">
     {% if page.type or page.series %}
-    <script>
-        $(document).ready(function() {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: {{site.sidebar_accordion}},
-            openClass: 'active', // open
-                    save: false, // leave false or nav higlighting doesn't work right
-                    cookie: {
-                name: 'navgoco',
-                        expires: false,
-                        path: '/'
-            },
-            slide: {
-                duration: 400,
-                        easing: 'swing'
-            }
-        });
-        });
-    </script>
 
-    {% if page.type == "notes_docapis" %}
-    {% assign sidebarTitle = "Documenting REST APIs" %}
-    {% assign sidebar = site.data.sidebar_docapis.entries %}
+    {% if page.type == "notes_value_tech_comm" %}
+    {% assign sidebarTitle = "Series: Value arguments for tech comm" %}
+    {% assign sidebar = site.data.sidebar_value_tech_comm.entries %}
 
     {% elsif page.type == "notes_ucd" %}
     {% assign sidebarTitle = "User-Centered Documentation" %}
@@ -65,12 +45,9 @@
     <ul id="mysidebar" class="nav">
         {% for entry in sidebar %}
         {% for subcategory in entry.subcategories %}
-        {% if subcategory.output contains "web" %}
         <li class="subcatTitle">
-            <a href="#">{{ subcategory.title }}</a>
             <ul>
                 {% for item in subcategory.items %}
-                {% if item.output contains "web" %}
                 {% if item.external_url %}
                 <li><a href="{{item.external_url}}" target="_blank">{{subcategory.title}}</a></li>
                 {% elsif page.url == item.url %}
@@ -79,12 +56,10 @@
                 <li><a href="{{item.url | prepend: site.baseurl}}">{{item.weight}} {{item.title}}</a></li>
                 {% endif %}
                 {% for thirdlevel in item.thirdlevel %}
-                {% if thirdlevel.output contains "web" %}
                 <li class="thirdlevel">
                     <a href="#">{{ thirdlevel.title }}</a>
                     <ul>
                         {% for deeplevel in thirdlevel.thirdlevelitems %}
-                        {% if deeplevel.output contains "web" %}
                         {% if deeplevel.external_url %}
                         <li><a href="{{deeplevel.external_url}}" target="_blank">{{deeplevel.title}}</a></li>
                         {% elsif page.url == deeplevel.url %}
@@ -92,23 +67,14 @@
                         {% else %}
                         <li><a href="{{deeplevel.url | prepend: site.baseurl}}">{{deeplevel.title}}</a></li>
                         {% endif %}
-                        {% endif %}
                         {% endfor %}
                     </ul>
                 </li>
-                {% endif %}
                 {% endfor %}
-                {% endif %}
                 {% endfor %}
             </ul>
-            {% endif %}
             {% endfor %}
             {% endfor %}
-            <!-- if you aren't using the accordion, uncomment this block:
-               <p class="external">
-                   <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
-               </p>
-               -->
         </li>
     </ul>
     {% endif %}

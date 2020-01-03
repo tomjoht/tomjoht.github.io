@@ -2,61 +2,52 @@
 entries:
 - title: Sidebar
   subcategories:
-    - title: Frontmatter
-      output: pdf
-      items:
-        - title: Title Page
-          url: /titlepage.html
-          output: pdf
 
-        - title: Table of Contents
-          url: /tocpage.html
-          output: pdf
 
     - title: Visual Communication
       output: web, pdf
       items:
         - title: Starting a new series on visual communication
           url: /2016/03/12/new-series-on-visual-communication/
-          output: web, pdf
+
 
         - title: Course overview
           url: /2016/05/01/visualcommunication_course_overview/
-          output: web, pdf
+
 
         - title: Learning How to Communicate Visually in Documentation
           url: /2013/10/03/learning-how-to-communicate-visually-in-documentation/
-          output: web, pdf
+
 
         - title: Getting sharp, clear screenshots
           url: /2016/05/10/visualcommunication_sharp_clear_screenshots/
-          output: web, pdf
+
 
         - title: Creating professional looking graphics
           url: /2016/05/05/visualcommunication_noun_project/
-          output: web, pdf
+
 
         - title: How do you establish more context in a topic-based writing model?
           url: /2016/05/11/establishing-more-context-in-tech-comm/
-          output: web, pdf
+
 
         - title: 11 images issues for tech doc systems
           url: /2016/05/26/image-handling-strategies-guest-post/
-          output: web, pdf
+
 
         - title: 8 image translation issues for tech docs
           url: /2016/05/26/image-translation-with-technical-documentation-guest-post/
-          output: web, pdf
+
 
         - title: Examples of linear workflow user maps built with JS and CSS
-          output: web, pdf
+
           url: /2016/05/30/building-a-workflow-user-map-with-css-and-js/
 
         - title: Does Translation Mean You Should Omit Illustrations?
-          output: web, pdf
+
           url: /2011/06/07/does-translation-mean-you-should-omit-illustrations
 
 
         - title: More complex user process maps in documentation systems
-          output: web, pdf
+
           url: /2016/06/03/more-complex-user-maps-in-documentation-systems/

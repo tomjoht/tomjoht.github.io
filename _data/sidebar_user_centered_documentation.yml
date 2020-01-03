@@ -2,71 +2,69 @@ entries:
 - title: Sidebar
   subcategories:
     - title: Introduction
-      output: web, pdf
       items:
         - title: Overview
           url: /ucd-introduction/
-          output: web, pdf
+
         - title: Readability
           url: /ucd-readability/
-          output: web, pdf
+
         - title: Legibility
           url: /ucd-legibility/
-          output: web, pdf
+
         - title: Signal-to-Noise Ratio
           url: /ucd-signal-to-noise-ratio/
-          output: web, pdf
+
         - title: Picture Superiority Effect
           url: /ucd-picture-superiority-effect/
-          output: web, pdf
+
         - title: Performance Load
           url: /ucd-performance-load/
-          output: web, pdf
+
         - title: Personas
           url: /ucd-personas/
-          output: web, pdf
+
         - title: Normal Distribution
           url: /ucd-normal-distribution/
-          output: web, pdf
+
         - title: Design by Committee
           url: /ucd-design-by-committee/
-          output: web, pdf
+
         - title: Depth of Processing
           url: /ucd-depth-of-processing/
-          output: web, pdf
+
         - title: Iteration
           url: /ucd-iteration/
-          output: web, pdf
+
         - title: Modularity
           url: /ucd-modularity/
-          output: web, pdf
+
         - title: Hierarchy
           url: /ucd-hierarchy/
-          output: web, pdf
+
         - title: Five Hat Racks
           url: /ucd-five-hat-racks/
-          output: web, pdf
+
         - title: Progressive Disclosure
           url: /ucd-progressive-disclosure/
-          output: web, pdf
+
         - title: Entry Point
           url: /ucd-entry-point/
-          output: web, pdf
+
         - title: Desire Line
           url: /ucd-desire-line/
-          output: web, pdf
+
         - title: Wayfinding
           url: /ucd-wayfinding/
-          output: web, pdf
+
         - title: Immersion
           url: /ucd-immersion/
-          output: web, pdf
+
         - title: Consistency
           url: /ucd-consistency/
-          output: web, pdf
+
         - title: Forgiveness
           url: /ucd-forgiveness/
-          output: web, pdf
+
         - title: Conclusion
           url: /ucd-conclusion/
-          output: web, pdf
