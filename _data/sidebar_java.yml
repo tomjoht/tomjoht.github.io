@@ -117,7 +117,7 @@ entries:
         - title: Delegates
           url: /java-delegates/
 
-        - title: Null
+        - title: "Null"
           url: /java-null/
 
         - title: Inner classes

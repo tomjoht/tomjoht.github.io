@@ -1,0 +1,46 @@
+entries:
+- title: Sidebar
+  subcategories:
+    - title: API documentation survey - 2014
+      items:
+        - title: I need your responses to my API Documentation Survey
+          url: /2014/12/12/i-need-your-responses-to-my-api-documentation-survey/
+
+        - title: The most popular type of APIs that technical writers document
+          url: /2014/12/17/the-most-popular-type-of-apis-that-technical-writers-document/
+
+        - title: The most common programming languages tech writers know
+          url: /2014/12/22/most-common-programming-languages-tech-writers-in-my-survey-know/
+
+        - title: Authoring tools preferred by API documentation writers
+          url: /2014/12/24/authoring-tools-preferred-by-api-doc-writers-in-my-survey/
+
+        - title: Do you create API doc by looking at source code?
+          url: /2015/01/02/api-doc-survey-do-you-create-doc-by-looking-at-source-code/
+
+        - title: Do you test out the API calls used in your doc yourself?
+          url: /2015/01/02/api-doc-survey-do-you-test-out-the-api-calls-used-in-your-doc-yourself/
+
+        - title: What IDE do you use?
+          url: /2015/01/02/api-doc-survey-what-ide-do-you-use
+
+        - title: Automating REST API documentation
+          url: /2015/01/06/api-doc-survey-automating-rest-api-documentation/
+
+        - title: How do you get the source files that contain code comments?
+          url: /2015/01/06/api-doc-survey-result-how-do-you-get-the-source-files-that-contain-code-comments/
+
+        - title: How to learn what you need to know?
+          url: /2015/01/07/api-doc-survey-result-how-to-learn-what-you-need-to-know/
+
+        - title: Most challenging aspect of API documentation
+          url: /2015/01/12/api-doc-survey-most-challenging-aspect-of-api-documentation/
+
+        - title: Do engineers write API doc in the source code?
+          url: /2015/01/15/api-doc-survey-do-engineers-write-api-doc-in-the-source-code/
+
+        - title: How much of your doc process is automated?
+          url: /2015/01/15/api-doc-survey-how-much-of-your-doc-process-is-automated/
+
+        - title: Most important factor in APIs is complete and accurate documentation
+          url: /2015/01/15/most-important-factor-in-apis-is-complete-and-accurate-documentation/

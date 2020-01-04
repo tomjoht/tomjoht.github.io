@@ -364,6 +364,10 @@ ul#mysidebar li a {
     font-size: 15px;
 }
 
+ul#mysidebar li.active {
+    border-top: 1px solid #dedede;
+}
+
 ul#mysidebar {
     border-radius: 0;
     padding: 20px width: 250px

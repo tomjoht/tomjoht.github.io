@@ -11,7 +11,7 @@ series:
     url: /2017/12/28/value-of-tech-comm-in-company-part1/
 
   - title: Visual communication
-    url: /2016/05/01/visualcommunication_course_overview
+    url: /2016/03/12/new-series-on-visual-communication/
 
   - title: Testing documentation
     url: /2015/07/07/testing-your-instructions/
@@ -19,11 +19,8 @@ series:
   - title: Voiceover techniques
     url: /2008/11/14/finding-a-conversational-voice-in-video-tutorials/
 
-  - title: 7 deadly sins of blogging
+  - title: Seven deadly sins of blogging
     url: /2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/
-
-  - title: API documentation podcasts
-    url: /2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/
 
   - title: API documentation survey
     url: /2014/12/12/i-need-your-responses-to-my-api-documentation-survey/
