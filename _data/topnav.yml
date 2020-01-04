@@ -5,8 +5,6 @@ topnav:
   subcategories:
 
 
-    - title: About
-      url: /aboutme/
 
     - title: API documentation course
       url: /learnapidoc/
@@ -17,8 +15,6 @@ topnav:
     - title: Podcasts
       url: /category-podcasts/
 
-    - title: Contact
-      url: /contact/
 
 #Topnav dropdowns
 
@@ -26,59 +22,129 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   subcategories:
 
-    - title: Archives
-      items:
-        - title: 2020
-          url: /archives-2020/
-        - title: 2019
-          url: /archives-2019/
-        - title: 2018
-          url: /archives-2018/
-        - title: 2017
-          url: /archives-2017/
-        - title: 2016
-          url: /archives-2016/
-        - title: 2015
-          url: /archives-2015/
-        - title: 2014
-          url: /archives-2014/
-        - title: 2013
-          url: /archives-2013/
-        - title: 2012
-          url: /archives-2012/
-        - title: 2011
-          url: /archives-2011/
-        - title: 2010
-          url: /archives-2010/
-        - title: 2009
-          url: /archives-2009/
-        - title: 2008
-          url: /archives-2008/
-        - title: 2007
-          url: /archives-2007/
-        - title: 2006
-          url: /archives-2006/
+  - title: About
+    items:
+    - title: About me
+      url: /aboutme/
+    - title: Presentations
+      url: /presentations/
+    - title: Contact
+      url: /contact/
 
-    - title: Misc.
-      items:
-        - title: Presentations
-          url: /presentations/
-        - title: Jekyll doc theme
-          external_url: https://idratherbewriting.com/documentation-theme-jekyll/
-        - title: Posts for beginners
-          url: /category-beginners/
-        - title: Traffic and analytics
-          url: /analytics/
-        - title: Advertising info
-          url: /advertising/
-        - title: Academic/Practitioner Conversations Project
-          url: /academic-practitioner-project/
-        - title: Donations
-          url: /donate/
-        - title: View posts by tag
-          url: /tags
-        - title: View posts by series
-          url: /series
+  - title: Archives
+    items:
+      - title: 2020
+        url: /archives-2020/
+      - title: 2019
+        url: /archives-2019/
+      - title: 2018
+        url: /archives-2018/
+      - title: 2017
+        url: /archives-2017/
+      - title: 2016
+        url: /archives-2016/
+      - title: 2015
+        url: /archives-2015/
+      - title: 2014
+        url: /archives-2014/
+      - title: 2013
+        url: /archives-2013/
+      - title: 2012
+        url: /archives-2012/
+      - title: 2011
+        url: /archives-2011/
+      - title: 2010
+        url: /archives-2010/
+      - title: 2009
+        url: /archives-2009/
+      - title: 2008
+        url: /archives-2008/
+      - title: 2007
+        url: /archives-2007/
+      - title: 2006
+        url: /archives-2006/
+      - title: Posts by tag
+        url: /tags
+
+  - title: Series
+    items:
+      - title: Simplifying complexity
+        url: /simplifying-complexity/index.html
+
+      - title: Value arguments for docs and tech comm
+        url: /2017/12/28/value-of-tech-comm-in-company-part1/
+
+      - title: Visual communication
+        url: /2016/03/12/new-series-on-visual-communication/
+
+      - title: Testing documentation
+        url: /2015/07/07/testing-your-instructions/
+
+      - title: Voiceover techniques
+        url: /2008/11/14/finding-a-conversational-voice-in-video-tutorials/
+
+      - title: Seven deadly sins of blogging
+        url: /2009/09/15/seven-deadly-sins-of-blogging-1-being-fake/
+
+      - title: API documentation survey
+        url: /2014/12/12/i-need-your-responses-to-my-api-documentation-survey/
+
+      - title: Author in DITA and Publish with WordPress
+        url: /2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/
+
+      - title: DITA journey
+        url: /2014/04/16/my-dita-journey-begins/
+
+      - title: Dallas STC Summit videocasts
+        url: /2010/05/11/a-few-ways-to-make-the-next-stc-summit-better/
+
+      - title: Get a Job in Technical Writing
+        url: /2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/
+
+      - title: Innovation in tech comm
+        url: /2015/02/10/sustaining-and-disruptive-innovations/
+
+      - title: Jekyll versus DITA
+        url: /2015/03/23/new-series-jekyll-versus-dita/
+
+      - title: My DITA journey
+        url: /2014/04/16/my-dita-journey-begins/
+
+      - title: Quick reference guides
+        url: /2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/
+
+      - title: Search engine optimization
+        url: /2013/09/22/how-to-search-engine-optimize-your-help-content-or-documentation/
+
+      - title: User-centered documentation
+        url: /2008/05/30/podcast-how-to-create-user-centered-documentation-interview-with-joe-sokohl/
+
+      - title: My journey to and from wikis
+        url: /2012/06/11/essay-my-journey-to-and-from-wikis-why-i-adopted-wikis-why-i-veered-away-from-them-and-a-new-model-for-collaboration/
+
+      - title: Findability / Organizing content
+        url: /2010/05/17/new-series-organizing-content-organizing-content-1/
+
+      - title: From overlooked to center stage
+        url: /2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/
+
+  - title: Misc.
+    items:
+
+      - title: Jekyll doc theme
+        external_url: https://idratherbewriting.com/documentation-theme-jekyll/
+      - title: Posts for beginners
+        url: /category-beginners/
+      - title: Traffic and analytics
+        url: /analytics/
+      - title: Advertising info
+        url: /advertising/
+      - title: Academic/Practitioner Conversations Project
+        url: /academic-practitioner-project/
+      - title: Donations
+        url: /donate/
+
+
 
 
     # - title: Jekyll

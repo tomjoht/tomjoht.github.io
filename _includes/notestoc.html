@@ -1,5 +1,3 @@
-<script async src="https://idratherbewriting.com/js/jquery.navgoco.min.js"></script>
-
 <ul id="mytechsidebar" class="nav">
     {% if page.type or page.series %}
 
@@ -30,6 +28,18 @@
     {% elsif page.type == "visualcommunication" %}
     {% assign sidebarTitle = "Visual communication" %}
     {% assign sidebar = site.data.sidebar_visualcommunication.entries %}
+
+    {% elsif page.type == "notes_dallas_stc_summit" %}
+    {% assign sidebarTitle = "Dallas STC Summit" %}
+    {% assign sidebar = site.data.sidebar_dallas_stc_summit.entries %}
+
+    {% elsif page.type == "notes_job_tech_writing" %}
+    {% assign sidebarTitle = "How to get a technical writing job" %}
+    {% assign sidebar = site.data.sidebar_getting_a_job.entries %}
+
+    {% elsif page.type == "notes_dita_journey" %}
+    {% assign sidebarTitle = "My DITA Journey" %}
+    {% assign sidebar = site.data.sidebar_dita_journey.entries %}
 
     {% elsif page.type == "notes_java" %}
     {% assign sidebarTitle = "My Java notes" %}
