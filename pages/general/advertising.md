@@ -11,7 +11,7 @@ I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites w
 
 <img style="float:right; padding-left:15px;" src="https://idratherbewritingmedia.com/images/comics/yourcomichere.png" alt="advertising on I'd Rather Be Writing"/>
 
-I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2018, idratherbewriting.com had an average of 1,552,615 page views, or about 4,250 page views a day. More specifically, users created 942,306 sessions, with 1.65 pages per session and an average of 1:44 minutes per session.
+I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page views a day (225 an hour). More specifically, users created 1,207,264 sessions, with 1.64 pages per session and an average of 1:41 minutes per session.
 
 {{site.data.alerts.note}} For details about how many page views, sessions, and other analytics information, see the <a href="/analytics">2019 site traffic and analytics</a>.{{site.data.alerts.end}}
 
@@ -44,7 +44,7 @@ You can advertise your product or service on idratherbewriting.com. Different ad
     <tr>
         <td markdown="span">[Top Banner space](#topComic)</td>
         <td markdown="span">400 x 60px</td>
-        <td markdown="span">$6,000/year</td>
+        <td markdown="span">$4,000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Newsletter space](#newsletterspace)</td>
@@ -101,7 +101,7 @@ The top banner ad space (400 x 60px) refers to the top section of the site, in 
 
 <figure><img src="https://idratherbewritingmedia.com/images/top_banner-600x292.png" alt="Top Banner Ad Space" max-width="600" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
 
-Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There is only one ad in the Top Banner ad space per advertiser, but it can rotate depending on the number of ads you want to put in this space. For example, if you have three top banner ads, the ads can rotate in this space with each page refresh. The cost for top banner ad space is $6,000 per year. Only one advertiser can rent this space. It's like the main billboard for my site.
+Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There is only one ad in the Top Banner ad space per advertiser, but it can rotate depending on the number of ads you want to put in this space. For example, if you have three top banner ads, the ads can rotate in this space with each page refresh. The cost for top banner ad space is $4,000 per year. Only one advertiser can rent this space. It's like the main billboard for my site.
 
 ## Newsletter Space {#newsletterspace}
 
