@@ -30,6 +30,8 @@ topnav_dropdowns:
       url: /presentations/
     - title: Contact
       url: /contact/
+    - title: Site analytics
+      url: /analytics/
 
   - title: Archives
     items:
@@ -135,8 +137,6 @@ topnav_dropdowns:
         external_url: https://idratherbewriting.com/documentation-theme-jekyll/
       - title: Posts for beginners
         url: /category-beginners/
-      - title: Traffic and analytics
-        url: /analytics/
       - title: Advertising info
         url: /advertising/
       - title: Academic/Practitioner Conversations Project

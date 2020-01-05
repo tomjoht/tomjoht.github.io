@@ -37,6 +37,14 @@
     {% assign sidebarTitle = "How to get a technical writing job" %}
     {% assign sidebar = site.data.sidebar_getting_a_job.entries %}
 
+    {% elsif page.type == "notes_innovation_tech_comm" %}
+    {% assign sidebarTitle = "Innovation in tech comm" %}
+    {% assign sidebar = site.data.sidebar_innovation_tech_comm.entries %}
+
+    {% elsif page.type == "notes_jekyll_versus_dita" %}
+    {% assign sidebarTitle = "Jekyll versus DITA" %}
+    {% assign sidebar = site.data.sidebar_jekyll_vs_dita.entries %}
+
     {% elsif page.type == "notes_dita_journey" %}
     {% assign sidebarTitle = "My DITA Journey" %}
     {% assign sidebar = site.data.sidebar_dita_journey.entries %}

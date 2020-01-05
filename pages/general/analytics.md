@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2019 Site Traffic and Analytics
+title: 2019 Site Analytics
 permalink: /analytics/
 type: page
 ---

@@ -5,6 +5,9 @@ entries:
     - title: My DITA Journey
       items:
         - title: My DITA journey begins
+          url: /2014/04/16/my-dita-journey-begins/
+
+        - title: "DITA: Folder hierarchy, conref, mapref, and more"
           url: /2014/04/22/dita-folder-hierarchy-conref-mapref-and-more/
 
         - title: "DITA: Why DITA, metadata, working in code and author views, and relationship tables"

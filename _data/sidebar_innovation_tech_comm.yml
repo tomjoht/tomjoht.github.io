@@ -1,0 +1,44 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Innovation in tech comm
+      items:
+        - title: Sustaining and disruptive innovations
+          url: /2015/02/10/sustaining-and-disruptive-innovations/
+
+        - title: A long list of technical innovations semi-relevant to technical writers
+          url: /2015/02/12/examples-of-technical-innovations/
+
+        - title: The only significant innovation for tech comm
+          url: /2015/02/13/the-only-significant-innovation/
+
+        - title: "XML and the web: drifting farther apart?"
+          url: /2015/02/13/xml-and-the-web-drifting-farther-apart/
+
+        - title: The genius of Github and how it can transform tech comm
+          url: /2015/02/18/the-genius-of-github/
+
+        - title: Microsoft and the last 5 great technological innovations
+          url: /2015/02/20/microsoft-and-the-last-5-great-technological-innovations/
+
+        - title: Piggybacking onto the innovation of the web
+          url: /2015/02/24/piggybacking-onto-the-innovation-of-the-web/
+
+        - title: Some web tools worth using in help solutions
+          url: /2015/02/26/some-web-tools-worth-using-in-help-solutions/
+
+        - title: Static site generators start to replace web publishing platforms like WordPress
+          url: /2015/02/27/static-site-generators-start-to-displace-online-cmss/
+
+        - title: How to create a help API
+          url: /2015/03/04/how-to-create-a-help-api/
+
+        - title: Pushing content into any format with Jekyll
+          url: /2015/03/06/pushing-content-into-any-format-with-jekyll/
+
+        - title: Slides for tcworld India 2015 presentations
+          url: /2015/03/11/slides-for-tcworld-india-2015-presentations/
+
+        - title: Recording of Innovation in Technical Communication keynote at tcworld India 2015
+          url: /2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/
