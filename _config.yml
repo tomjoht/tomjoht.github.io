@@ -153,15 +153,15 @@ eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV
 ####### jekyll seo tag configuration #######
 title: I'd Rather Be Writing
 tagline: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
-description: This blog covers topics in technical writing, technical communication, API documentation, and other topics. 
-url: https://idratherbewriting.com/learnapidoc
+description: This blog covers topics in technical writing, technical communication, API documentation, and other topics.
+url: https://idratherbewriting.com
 author:
   twitter: tomjohnson
 twitter:
   username: tomjohnson
   card: summary
 
-logo: https://idratherbewritingmedia.com/images/api/learnapidoclogo-01.svg
+logo: https://idratherbewritingmedia.com/images/idratherbewriting-site-logo.png
 
 social:
   name: Tom Johnson
