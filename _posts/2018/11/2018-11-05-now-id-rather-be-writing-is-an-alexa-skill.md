@@ -61,7 +61,7 @@ search: false
     <item>
       <guid>{{ post.url }}</guid>
       <title>{{ post.title | markdownify | strip_html }}</title>
-      <description>{{post.title}} ... {{ post.summary | markdownify | strip_html }}</description>
+      <description>{{post.title}} ... {{ post.description | markdownify | strip_html }}</description>
       <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       <pubDate>{{ post.date | date: "%Y-%m-%d"  }}</pubDate>
       <enclosure url="{{ post.podcast_link}}" length="{{post.podcast_length}}" type="audio/mpeg" />
@@ -86,4 +86,4 @@ I'm going to try to get more regular in creating audio versions of my posts. I w
 * I have more time to listen to content at a consumable pace than I have time to read it.
 * I want to improve my ability to narrate audio in an engaging, conversational way.
 
-If you have feedback on my Alexa skill, please share it with me. 
+If you have feedback on my Alexa skill, please share it with me.
