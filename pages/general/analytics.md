@@ -7,7 +7,7 @@ type: page
 
 If you're thinking of [advertising on idratherbewriting.com](/advertising/), it's important to get a  sense of the traffic and analytics of the audience so that your ad not only has visibility, but visibility with the right audience.
 
-In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page views a day (225 page views an hour). More specifically, users created 1,207,264 sessions, with 1.64 pages per session and an average of 1:41 minutes per session. I update the information here each after diving deep into the information from Google Analytics.
+In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page views a day (225 page views an hour). More specifically, users created 1,207,264 sessions, with 1.64 pages per session and an average of 1:41 minutes per session.
 
 {{site.data.alerts.note}}For details about advertising spaces available, see <a href="/advertising">Advertising</a>. {{site.data.alerts.end}}
 
@@ -15,15 +15,15 @@ In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page vie
 
 Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2019 through Dec 31, 2019, according to Google Analytics. The blue line represents 2019, while the brown line represents 2014 for comparison.
 
-<figure><img src="https://idratherbewritingmedia.com/images/google-analytics2020-audience.png"  alt="I'd Rather Be Writing received 1,974,524 page views during 2019. This equates to 5,409 page views a day." /> <figcaption>I';d Rather Be Writing received 1,974,524 page views during 2019, or 5,409 page views a day</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/google-analytics2020-audience.png"  alt="I'd Rather Be Writing received 1,974,524 page views during 2019. This equates to 5,409 page views a day." /> <figcaption>I'd Rather Be Writing received 1,974,524 page views during 2019, or 5,409 page views a day</figcaption></figure>
 
-The above screenshot compares the traffic of the site in 2019 with the traffic 5 years early, in 2014. In 2014, the total page views for the year was 588,826. The site's traffic has grown about 335% over 5 years.
+The above screenshot compares the traffic of the site in 2019 with the traffic 5 years earlier. In 2014, the total page view count for the year was 588,826. The site's traffic has grown by 335% over 5 years.
 
 {{site.data.alerts.note}}A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. The average number of page views per session is 1.65.{{site.data.alerts.end}}
 
 ## Analytics breakdown
 
-The following table includes more details from other Google Analytics reports. To make the data more meaningful, I've provided the both the 2018 and 2019 data so you can see the changes from one year to the next. The actual dates are Jan 1, 2018 - Dec 31, 2019 --> Jan 1, 2019 - Dec 31, 2019. I also round data to the nearest whole number (e.g., 1.51% is rounded to 2%; 1.49% is rounded to 1%).
+The following table includes more details from other Google Analytics reports. To make the data more meaningful, I've provided both the 2018 and 2019 data so you can compare the changes from one year to the next. I also round data to the nearest whole number (e.g., 1.51% is rounded to 2%; 1.49% is rounded to 1%).
 
 <table>
 <colgroup>
