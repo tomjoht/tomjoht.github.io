@@ -1,5 +1,5 @@
 ---
-title: "Updated Intro to API documentation to expand on types of APIs and include research from Smartbear's 'The State of API 2019' report"
+title: "Updated Intro to API documentation topic"
 permalink: /blog/updated-intro-to-api-documentation-topic/
 categories:
 - api-doc
