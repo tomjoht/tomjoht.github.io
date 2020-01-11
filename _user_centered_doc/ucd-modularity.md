@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Break up content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.

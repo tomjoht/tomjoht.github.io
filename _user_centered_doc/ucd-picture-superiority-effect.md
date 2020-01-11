@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Pictures combined with text provide users with better comprehension and recall. Especially as users quickly scan a page, pictures help users understand the material better. Pictures should be simple, concrete, and reinforce a clear message.

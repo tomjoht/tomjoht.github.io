@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 Recently I gave a two-hour workshop about user-centered documentation to a company. You can view the slides here:

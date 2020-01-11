@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Look at common paths users take through information, and then make those paths more prominent and standard.

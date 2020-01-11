@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Layer information so that you don't present everything to the user at once. Make some information available only at secondary or tertiary levels of navigation.

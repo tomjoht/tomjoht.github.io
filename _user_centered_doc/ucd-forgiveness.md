@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Taking risks, experimenting, and exploring systems on their own helps users learn. When users make errors during these activities, help guide them back on the right path. </p>

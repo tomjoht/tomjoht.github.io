@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Users desire to be immersed in the application or system they're using. They don't want to leave that system to consult a separate, external system for help. As much as possible, bring help into the application to prolong the user's immersion in the application context.

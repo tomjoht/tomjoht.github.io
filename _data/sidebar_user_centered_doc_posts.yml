@@ -1,0 +1,20 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: User-centered documentation posts
+      items:
+        - title: "Podcast: How to Create User-Centered Documentation, Interview with Joe Sokohl"
+          url: /2008/05/30/podcast-how-to-create-user-centered-documentation-interview-with-joe-sokohl/
+
+        - title: Writing User-Centered Documentation, or, My Best Days as a Technical Writer
+          url: /2012/06/21/writing-user-centered-documentation-or-my-best-days-as-a-technical-writer/
+
+        - title: "New series: User-centered documentation"
+          url: /2015/04/23/new-series-user-centered-documentation/
+
+        - title: How to design documentation for non-linear reading behavior
+          url: /2015/05/15/writing-for-users-who-read-non-sequentially/
+
+        - title: User-centered documentation slides
+          url: /2015/05/14/user-centered-documentation-slides/

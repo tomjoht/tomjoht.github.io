@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Users feeling stress go through an emotional state where they first freeze, then potentially flee, or fight, and finally forfeit. Write documentation with the assumption that users will read it in a state of freeze/flight. This means readers will scan, jump around, and read quickly.

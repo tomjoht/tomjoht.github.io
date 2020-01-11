@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_principles
+
 ---
 
 > Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. Additionally, maintain consistency with industry-wide help standards and approaches.
@@ -20,7 +21,7 @@ type: notes_ucd
 
 * Navigation on left
 * Search feature
-* On-page TOC either on right (fixed) or center 
+* On-page TOC either on right (fixed) or center
 * Login in upper-right
 * Steps arranged in list numbering
 

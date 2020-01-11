@@ -1,7 +1,7 @@
 entries:
 - title: Sidebar
   subcategories:
-    - title: Introduction
+    - title: User-centered documentation principles
       items:
         - title: Overview
           url: /ucd-introduction/

@@ -1,0 +1,17 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Search engine optimization
+      items:
+        - title: "How to Search Engine Optimize (SEO) Your Help Documentation"
+          url: /2013/09/22/how-to-search-engine-optimize-your-help-content-or-documentation/
+
+        - title: Introduction, frames, iframes, and tech comm tools
+          url: /2013/12/13/seo-for-help-documentation-introduction-frames-and-iframes/
+
+        - title: Single sourcing and duplicate content
+          url: /2013/12/16/seo-duplicate-content-and-single-sourcing/
+
+        - title: Researching the right keywords
+          url: /2013/12/23/researching-the-right-keywords-search-engine-optimization/

@@ -69,9 +69,25 @@
     {% assign sidebarTitle = "My API notes" %}
     {% assign sidebar = site.data.sidebar_apis.entries %}
 
-    {% elsif page.series == "testing_documentation" %}
+    {% elsif page.type == "testing_documentation" %}
     {% assign sidebarTitle = "Testing documentation" %}
     {% assign sidebar = site.data.sidebar_testing_documentation.entries %}
+
+    {% elsif page.type == "notes_quick_reference_guides" %}
+    {% assign sidebarTitle = "Quick reference guides" %}
+    {% assign sidebar = site.data.sidebar_quick_reference_guides.entries %}
+
+    {% elsif page.type == "notes_search_engine_optimization" %}
+    {% assign sidebarTitle = "Search engine optimization" %}
+    {% assign sidebar = site.data.sidebar_search_engine_optimization.entries %}
+
+    {% elsif page.type == "notes_user_centered_doc_posts" %}
+    {% assign sidebarTitle = "User-centered documentation posts" %}
+    {% assign sidebar = site.data.sidebar_user_centered_doc_posts.entries %}
+
+    {% elsif page.type == "notes_user_centered_doc_principles" %}
+    {% assign sidebarTitle = "User-centered documentation principles" %}
+    {% assign sidebar = site.data.sidebar_user_centered_doc_principles.entries %}
 
     {% endif %}
 

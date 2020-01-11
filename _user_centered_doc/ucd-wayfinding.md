@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_course
+
 ---
 
 > Provide navigational sign posts such as breadcrumbs or other workflow maps to help

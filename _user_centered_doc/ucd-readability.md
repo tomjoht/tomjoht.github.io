@@ -5,7 +5,8 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_ucd
+type: notes_user_centered_doc_course
+
 ---
 
 > Sentences should be simple, clear, and easy-to-understand, especially as the concepts get more complex. In fact, the more complex the material, the simpler the sentences need to be.
