@@ -5,7 +5,7 @@ permalink: /java-null/
 date: 2015-01-01 20:11:19.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 `null` can be used when you must specify an argument in a particular place but don't have any.

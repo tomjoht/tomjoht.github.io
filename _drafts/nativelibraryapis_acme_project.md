@@ -2,7 +2,7 @@
 title: "Adding a Sample Project"
 permalink: /nativelibraryapis_acme_project/
 course: "Documenting REST APIs"
-type: notes_docapis
+jtype: notes_docapis
 weight:
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Principle 2: Make information discoverable as the user needs it"
 permalink: /simplifying-complexity/discoverability-through-metadata.html
-type: simplifying_complexity
+jtype: notes_simplifying_complexity
 summary: "Complex, non-linear processes often have feedback loops that influence the next step. In these systems, users need to be able to find information that meets their ever-changing needs. Metadata embedded in topics can facilitate more intelligent pushing and pulling of information for these shifting scenarios. The metadata can also inform better search results."
 ---
 

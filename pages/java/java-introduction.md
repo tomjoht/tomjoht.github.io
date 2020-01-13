@@ -5,7 +5,7 @@ permalink: /java-introduction/
 date: 2015-01-01 23:39:33.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 This section contains my notes on Java. It's a constantly evolving section, and I put the notes here mainly to provide quick access for me to review and update my knowledge about various Java topics.

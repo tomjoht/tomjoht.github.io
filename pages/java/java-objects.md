@@ -5,7 +5,7 @@ permalink: /java-objects/
 date: 2015-01-01 20:12:47.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 

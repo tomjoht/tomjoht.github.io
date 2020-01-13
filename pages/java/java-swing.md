@@ -5,7 +5,7 @@ permalink: /java-swing/
 date: 2015-01-01 20:26:21.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 * Swing classes is a Java package used to build a local user interface (buttons, menus, drop downs). It's not used for a web interface.

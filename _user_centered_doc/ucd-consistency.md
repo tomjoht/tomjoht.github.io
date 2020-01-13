@@ -5,7 +5,7 @@ categories:
 - user-centered-documentation
 keywords:
 course: "User-Centered Documentation"
-type: notes_user_centered_doc_principles
+jtype: notes_user_centered_doc_principles
 
 ---
 

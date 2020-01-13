@@ -5,7 +5,7 @@ permalink: /java-static-blocks/
 date: 2015-01-01 20:24:53.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 > Static blocks are handy bits of code that let you define one block of code and have it be included in every constructor. Let's consider an example (in the form of a different class) in Listing 2-17.

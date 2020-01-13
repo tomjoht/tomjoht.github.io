@@ -2,7 +2,7 @@
 title: 'Artboards and images'
 permalink: /visualcommunication_artboards_and_images/
 keywords:
-type: visualcommunication
+jtype: notes_visualcommunication
 category: visual-communication
 published: false
 ---

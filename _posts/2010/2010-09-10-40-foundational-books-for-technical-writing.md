@@ -12,7 +12,7 @@ tags:
 - reading
 - Technical Writing
 status: publish
-type: post
+
 published: true
 ---
 I received the following question from a reader:

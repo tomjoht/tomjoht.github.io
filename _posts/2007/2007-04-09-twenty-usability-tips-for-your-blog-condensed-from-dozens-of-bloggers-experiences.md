@@ -7,7 +7,7 @@ categories:
 - technical-writing
 tags: []
 status: publish
-type: post
+
 published: true
 description: I've been doing research on what distinguishes good blogs from poor ones, especially by reading "lessons learned" posts by bloggers. I've come up with 20 principles I think are worthwhile. Let me know which ones you agree or disagree with.
 redirect_from: 

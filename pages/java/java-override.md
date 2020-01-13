@@ -5,7 +5,7 @@ permalink: /java-override/
 date: 2015-01-01 20:13:28.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Override

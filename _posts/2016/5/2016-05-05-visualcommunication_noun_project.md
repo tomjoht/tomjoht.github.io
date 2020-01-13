@@ -1,7 +1,7 @@
 ---
 title: "Creating professional looking graphics in the easiest, simplest way possible"
 keywords:
-type: visualcommunication
+jtype: notes_visualcommunication
 category: visual-communication
 description: "I recently gave a lightning talk at a Write the Docs meetup in downtown San Francisco. My talk was titled <i>Creating professional graphics in the easiest, simplest way possible.</i> This post contains the slides, recordings, and other notes."
 ---

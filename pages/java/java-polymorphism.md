@@ -5,7 +5,7 @@ permalink: /java-polymorphism/
 date: 2015-01-01 20:16:16.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 * Polymorphism is subclassing a class -- the same parent has different children that all inherit properties from the parent but override them.

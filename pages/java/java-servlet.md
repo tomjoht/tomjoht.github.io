@@ -5,7 +5,7 @@ permalink: /java-servlet/
 date: 2015-01-01 20:22:33.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 A servlet is a Java class that serves up HTML to a browser.

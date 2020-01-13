@@ -6,7 +6,7 @@ keywords: images, translation
 description: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues that images present with tech docs. For example, sorting out references to the images, single sourcing re-used images, converting SVG image formats to ensure browser compatibility, and ensuring the right file size for optimal page loading are some of the challenges that tech writers face when working with images in tech docs."
 image: https://idratherbewritingmedia.com/images/thumbnails/legothumb.png 
 bio: false
-type: visualcommunication
+jtype: notes_visualcommunication
 ---
 
 Images can be a great supplement to technical documentation text. As the fiction writers say: <i>Show, don't tell</i>. However, including images can be a headache for the technical writer. This post explores some of the challenges inherent in handling images in technical documentation. A future post will focus on translating image text.

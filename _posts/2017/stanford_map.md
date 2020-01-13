@@ -5,7 +5,7 @@ categories:
 keywords:
 description: ""
 image: https://idratherbewritingmedia.com/images/thumbnails/userprocesscomplexthumb.png
-type: visualcommunication
+jtype: notes_visualcommunication
 published: false
 ---
 

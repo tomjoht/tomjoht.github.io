@@ -5,7 +5,7 @@ permalink: /java-jar-file/
 date: 2015-01-03 18:29:54.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 JAR is like Zip but for Java files. A JAR file simply contains a bunch of Java files and resources.

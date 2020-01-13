@@ -1,7 +1,7 @@
 ---
 title: "An argument for complexity rather than simplicity"
 permalink: /simplifying-complexity/argument-for-complexity-rather-than-simplicity.html
-type: simplifying_complexity
+jtype: notes_simplifying_complexity
 summary: "In the name of simplicity, many teams will remove key information that users actually need to successfully use and troubleshoot products. It may be more helpful to envision the tech writer's task as making complex information <i>usable</i> rather than just simple. In the minds of many product teams, simple means brief. Removing documentation doesn't make products easier to use. Many times, removing information makes the user experience more complicated."
 ---
 

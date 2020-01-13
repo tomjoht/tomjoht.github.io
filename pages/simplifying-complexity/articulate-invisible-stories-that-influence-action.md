@@ -1,7 +1,7 @@
 ---
 title: "Principle 8: Align the product story with the user story"
 permalink: /simplifying-complexity/articulate-invisible-stories-that-influence-action.html
-type: simplifying_complexity
+jtype: notes_simplifying_complexity
 summary: "In any documentation scenario, there are usually at least two competing stories: the company's story about their product, and the user's story. The two stories don't always align. For a product or feature to be successful, the overall story about that product needs to align with the user's story. These stories aren't always apparent, and learning to see them constitutes a complex task, since you have to reduce a sea of action and noise down to its essence. The misalignment of these stories often explains why products fail."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Visual communication overview"
 keywords:
-type: visualcommunication
+jtype: notes_visualcommunication
 category: visual-communication
 description: "In this series on visual communication, I'm going to explore in a variety of topics in visual communication, such as screenshots, diagrams, concept illustrations, SVG graphics, translation, image file management, graphics programs, getting professional-looking images, images on mobile displays, print versus online images, design principles, and more."
 ---

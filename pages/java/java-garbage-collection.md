@@ -5,7 +5,7 @@ permalink: /java-garbage-collection/
 date: 2015-01-01 19:49:43.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 * Garbage collection is Java's process for freeing up memory by removing old object references that are no longer valid.

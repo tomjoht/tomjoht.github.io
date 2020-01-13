@@ -5,7 +5,7 @@ permalink: /java-comments/
 date: 2015-01-01 19:37:17.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 

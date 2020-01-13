@@ -4,6 +4,7 @@ categories:
 - technical-writing
 tags: [series_testing_documentation]
 series: testing_documentation
+jtype: notes_testing_documentation
 keywords: quality assurance, testing, documentation, rigorous review
 description: "The past few years, I've allowed doc to be treated as an external product, separate from the software engineering code. In reality, doc would probably benefit tremendously from a more strict integration with the engineering code review cycles, with the review split between QA and product management."
 weight: 1.1
@@ -14,21 +15,21 @@ In my previous post, [The key to writing good documentation: Testing your instru
 
 However, I'm starting to think that my approach with documentation has been too laissez-faire in terms of its insertion into the engineering process. Engineering code goes through rigorous review by QA and product managers weeks before release, but most teams are happy to move documentation outside of this process. Just having the doc finished is enough. If done, they can "check a box" and include it in the product, without reviewing it more than cursorily.
 
-But maybe this approach is wrong. If you insert documentation into a similar workflow as engineering code, you would submit the documentation to QA in time for review. This means you would need to finish the documentation usually two weeks before the release cycle. 
+But maybe this approach is wrong. If you insert documentation into a similar workflow as engineering code, you would submit the documentation to QA in time for review. This means you would need to finish the documentation usually two weeks before the release cycle.
 
-This can be difficult since it's hard to write documentation when code is still developing. A lot of times features aren't yet fixed, so it's hard to create documentation for them. Still, the sacrifices necessary to insert code into QA's review process might be worthwhile, since the benefits would outweigh the added pressure to finish the doc early. 
+This can be difficult since it's hard to write documentation when code is still developing. A lot of times features aren't yet fixed, so it's hard to create documentation for them. Still, the sacrifices necessary to insert code into QA's review process might be worthwhile, since the benefits would outweigh the added pressure to finish the doc early.
 
 ## QA review of documentation
 
 Let's say that QA cuts you some slack and allows you to submit doc to them one week before release. If so, QA will need some clear guidelines on what they're supposed to test. QA might test the following:
 
-* **Functionality within the doc system itself.** Do links work? Do navigation items work? Does search work? Are there formatting issues anywhere? 
+* **Functionality within the doc system itself.** Do links work? Do navigation items work? Does search work? Are there formatting issues anywhere?
 * **Code samples in pages.** Are the code samples accurate? Do the code samples correspond to the latest version? Is there a code sample for each of the main tasks?
-* **Accuracy of steps.** For each task, are the steps to follow accurate? Are there any missing steps? 
+* **Accuracy of steps.** For each task, are the steps to follow accurate? Are there any missing steps?
 * **Coverage of release notes.** For each feature in the release, is the documentation updated appropriately? Do the release notes address each of the points of the release?
 * **Is there a help button in the interface pointing to the documentation?** Does the right doc set open for the right user role? Does the help open in a new window?
 
-If you don't give QA guidelines, they won't know what to test. Just as QA needs to know what the system is designed to do in order to test it, QA needs to know what the doc is designed to do in order to test it. The poor reviews I've gotten from QA in the past were probably because I didn't give them any guidelines about what to check. 
+If you don't give QA guidelines, they won't know what to test. Just as QA needs to know what the system is designed to do in order to test it, QA needs to know what the doc is designed to do in order to test it. The poor reviews I've gotten from QA in the past were probably because I didn't give them any guidelines about what to check.
 
 ## Product management review of documentation
 
@@ -47,7 +48,7 @@ Product managers and marketers do wonderful jobs assessing the doc content quali
 The pros of inserting documentation into an official engineering review process are as follows:
 
 * **You become accountable to a tighter deadline.** I work best with deadlines, so knowing exactly when documentation is due can be helpful in prompting me to actually get it done. If there's no fixed deadline (except the final release date of the product), other tasks can easily get in the way. But if I know the doc is due on X date so that both engineering and product management can review it, that can be helpful.
-* **You keep pace with the application development.** If you only release every two months, it can be easy to fall behind and find that, at the last moment, you have a ton of documentation to write. But if you keep pace with each sprint, submitting documentation for review at these sprint intervals, it might help you keep up the rhythm of engineering development. 
+* **You keep pace with the application development.** If you only release every two months, it can be easy to fall behind and find that, at the last moment, you have a ton of documentation to write. But if you keep pace with each sprint, submitting documentation for review at these sprint intervals, it might help you keep up the rhythm of engineering development.
 * **Doc is a part of the product and should be treated that way.** By not including doc in the formal code review process, I think documentation tends to get marginalized. If it's not a product, why should people care? But if it is a product, part of the user experience, then it takes on greater importance. Because documentation is an important company product, it should be treated with more rigor in the code review life cycle.
 
 ## Cons of inserting doc into an official review process
@@ -64,5 +65,3 @@ Although I sometimes like having doc be outside the engineering review process, 
 Inserting docs into the code review process will also help me avoid time crunch situations in which I'm cramming to finish the docs before release, and everyone is too busy to review the help in any detail.
 
 {% include series/seriesTagTestingDocs_next.html %}
-
-

@@ -7,7 +7,7 @@ categories:
 tags:
 - series_user_centered_documentation
 series: "User-centered documentation"
-type: notes_user_centered_doc_posts
+jtype: notes_user_centered_doc_posts
 weight: 1.3
 ---
 {% include series/seriesTagUserCenteredDocumentation.html %}

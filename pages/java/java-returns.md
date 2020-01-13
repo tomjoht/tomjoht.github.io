@@ -5,7 +5,7 @@ permalink: /java-returns/
 date: 2015-01-01 20:21:32.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Quick summary

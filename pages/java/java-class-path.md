@@ -5,7 +5,7 @@ permalink: /java-class-path/
 date: 2015-01-03 18:48:13.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 

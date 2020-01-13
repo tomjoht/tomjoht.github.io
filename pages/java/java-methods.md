@@ -5,7 +5,7 @@ permalink: /java-methods/
 date: 2015-01-01 20:08:45.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Quick summary

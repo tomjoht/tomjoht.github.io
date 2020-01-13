@@ -3,7 +3,7 @@ title: "Principle 11: Be both a generalist and specialist at the same time"
 permalink: /simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html
 redirect_from:
 - /simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html
-type: simplifying_complexity
+jtype: notes_simplifying_complexity
 summary: "Looking at trends in job advertisements tells us that subject-matter familiarity is frequently in demand in technical writing roles. To write about complex topics, you usually need some subject-matter familiarity with the topic. Without this familiarity, you can't author content; you can only edit and publish content and work beside others who have that knowledge. Developing specialized knowledge is probably out of reach given the tech writer's diversity of projects and wide-ranging responsibilities. At most, technical writers can develop technical acuity and try to learn what they need to know for each documentation scenario, and also collaborate with engineers to fill in the gaps."
 ---
 

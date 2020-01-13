@@ -8,7 +8,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 170 }}{% else %}{{page.content | strip | strip_html | truncate: 170}}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
 
-    <title>{% if page.type == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} {% if page.subtitle %}{{ page.subtitle | before: "|" }}{% endif %} | {{ site.name }} {% endif %}</title>
+    <title>{% if page.jtype == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{ page.title }} {% if page.subtitle %}{{ page.subtitle | before: "|" }}{% endif %} | {{ site.name }} {% endif %}</title>
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">

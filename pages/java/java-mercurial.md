@@ -5,7 +5,7 @@ permalink: /java-mercurial/
 date: 2015-01-01 19:56:39.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 These are notes for using Mercurial. (They really don't belong in the Java QRG section, but since I use Mercurial to get Java source files, it feels appropriate for me to include them here.)

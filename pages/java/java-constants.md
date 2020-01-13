@@ -5,7 +5,7 @@ permalink: /java-constants/
 date: 2015-01-01 19:38:05.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 

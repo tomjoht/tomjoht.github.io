@@ -5,7 +5,7 @@ permalink: /java-code-formatting/
 date: 2015-01-01 19:34:58.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Code formatting

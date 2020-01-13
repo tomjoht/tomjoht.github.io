@@ -5,7 +5,7 @@ permalink: /java-javadoc-tags/
 date: 2015-01-01 20:04:48.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 The following are the most common tags used in Javadoc. Each tag has a word that follows it. For example, `@param latitude` means the parameter is "latitude".

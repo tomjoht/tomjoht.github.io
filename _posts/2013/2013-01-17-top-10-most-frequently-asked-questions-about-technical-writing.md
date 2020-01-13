@@ -11,7 +11,7 @@ tags:
 - tips
 - tools
 status: publish
-type: post
+
 published: true
 ---
 

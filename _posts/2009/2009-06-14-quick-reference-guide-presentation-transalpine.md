@@ -11,7 +11,7 @@ keywords:
 - social networks
 - vienna
 series: "Quick reference guides"
-type: notes_quick_reference_guides
+jtype: notes_quick_reference_guides
 tags:
 - series_quick_reference_guides
 weight: 1.7

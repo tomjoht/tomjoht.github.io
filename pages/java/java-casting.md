@@ -5,7 +5,7 @@ permalink: /java-casting/
 date: 2015-01-01 19:33:32.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Quick summary

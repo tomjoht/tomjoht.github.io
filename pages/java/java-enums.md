@@ -5,7 +5,7 @@ permalink: /java-enums/
 date: 2015-01-01 19:42:11.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Quick summary

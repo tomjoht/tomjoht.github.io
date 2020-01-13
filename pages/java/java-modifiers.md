@@ -5,7 +5,7 @@ permalink: /java-modifiers/
 date: 2015-01-01 20:09:50.000000000 -08:00
 categories:
 - java
-type: notes_java
+jtype: notes_java
 ---
 
 ## Quick summary
