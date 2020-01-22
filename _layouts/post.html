@@ -5,9 +5,9 @@ comments: true
 <div id="topBannerImageHomepage">{% include topComic.html %}</div>
 
 {% unless page.embed_survey == "no_way" %}
-{{site.data.alerts.announcement}} I'm giving an <a href="https://idratherbewriting.com/blog/upcoming-api-documentation-workshop-los-angeles-jan-23/">API documentation workshop in Los Angeles, California</a>, on January 23, 2020. Check it out on <a href="https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089">EventBrite</a>. {{site.data.alerts.end}}
+{% comment %}{{site.data.alerts.announcement}} I'm giving an <a href="https://idratherbewriting.com/blog/upcoming-api-documentation-workshop-los-angeles-jan-23/">API documentation workshop in Los Angeles, California</a>, on January 23, 2020. Check it out on <a href="https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089">EventBrite</a>. {{site.data.alerts.end}}{% endcomment %}
 
-{{site.data.alerts.announcement2}} I'm gathering data about trends in developer documentation for 2020. If you write docs for developers, please <a href='https://www.questionpro.com/t/AOaGwZgCFE'>take this survey</a>. (You can view the ongoing results <a href="https://www.questionpro.com/t/PGhS9ZgCFE">here.</a>){{site.data.alerts.end}}
+{{site.data.alerts.announcement2}} <b>Input needed:</b> I'm gathering data about trends in developer documentation for 2020. If you write docs for developers, please <a href='https://www.questionpro.com/t/AOaGwZgCFE'>take this survey</a>. (You can view the ongoing results <a href="https://www.questionpro.com/t/PGhS9ZgCFE">here.</a>){{site.data.alerts.end}}
 {% endunless %}
 
 
