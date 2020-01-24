@@ -1,19 +1,18 @@
 ---
-title: "Upcoming webinar: Comparing trends in developer docs with more general tech comm trends."
-permalink: /blog/upcoming-webinar-comparing-dev-doc-trends/
+title: "Upcoming webinar: How Trends in API Documentation Differ from other Tech Comm Trends"
+permalink: /blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/
 categories:
 - api-doc
 keywords:
 bitlink: https://idratherbewriting.site/webinardevdoctrends
 description: "I'm giving a webinar on trends in developer docs on March 12, 2020. The webinar is through the STC Washington DC chapter but anyone is invited to attend. Details are below."
-published: false
 ---
 
 ## Webinar Description
 
 <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><img style="border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/apiwebinardevdocdc.png" alt="Webinar on Comparing trends in developer docs with more general tech comm trends"/></a>
 
-**Webinar:** Comparing trends in developer docs with more general tech comm trends.<br/>
+**Webinar:** How Trends in API Documentation Differ from other Tech Comm Trends<br/>
 **Presenter:** Tom Johnson<br/>
 **Date:** Thursday, March 12, 2020 <br/>
 **Location:** Online<br/>
