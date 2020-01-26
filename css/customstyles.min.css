@@ -861,7 +861,7 @@ p {
 .sidebarComics img {
     float: left;
     padding: 5px;
-    width: 150px !important;
+    width: 125px !important;
 }
 
 p {
@@ -1559,11 +1559,11 @@ ul#mysidebar.nav > li.subcatTitle {
 @media (min-width: 992px) {
 
 .col-md-9 {
-    width: 71%;
+    width: 75%;
 }
 
 .col-md-3 {
-    width: 29%;
+    width: 25%;
 }
 
 }

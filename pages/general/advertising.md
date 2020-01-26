@@ -33,7 +33,7 @@ You can advertise your product or service on idratherbewriting.com. Different ad
     <tbody>
     <tr>
         <td markdown="span">[Sidebar graphic](#sidebarad)</td>
-        <td markdown="span">150 x 150px</td>
+        <td markdown="span">125 x 125px</td>
         <td markdown="span">$1,000/year</td>
     </tr>
     <tr>
@@ -73,9 +73,9 @@ For billing, I usually send you an invoice through Paypal. Billing is done prior
 
 ## Sidebar ad space {#sidebarad}
 
-Sidebar ads (150 x 150px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+Sidebar ads (125 x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
-Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 150 x 150 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
+Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="https://idratherbewritingmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
