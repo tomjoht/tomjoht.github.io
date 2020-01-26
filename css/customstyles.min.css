@@ -860,8 +860,8 @@ p {
 #mytechsidebar img,
 .sidebarComics img {
     float: left;
-    padding: 5px;
-    width: 125px !important;
+    padding: 3px;
+    width: 130px !important;
 }
 
 p {
@@ -1326,9 +1326,6 @@ only screen and (max-device-width:980px) {
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
         color: #444
-    }
-    #mytechsidebar img {
-        max-width: 125px
     }
 }
 
