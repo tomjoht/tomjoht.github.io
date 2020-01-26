@@ -131,7 +131,7 @@ All of this information is provided through Google Analytics by default. (I don'
 
 In 2018, 59% of my site traffic came to my API documentation site ([/learnapidoc/](/learnapidoc/). In 2019, that percentage jumped up to 72%
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidoc_traffic3.png" alt="API documentation traffic" /> <figcaption>The traffic to my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site</a> accounted for about 72% of the overall site traffic.</figcaption></figure>
+<figure><img src="https://idratherbewritingmedia.com/images/learnapidoc_traffic3.png" alt="API documentation traffic" /> <figcaption>The traffic to my <a href='/learnapidoc/'>API documentation site</a> accounted for about 72% of the overall site traffic.</figcaption></figure>
 
 Here's a graph that compares this growth to the previous period:
 
@@ -158,7 +158,8 @@ If you look at my [Presentations](/presentations/), you can see that I've also g
 
 For more details about analytics, see the following posts. These posts expand on audience interests and demographics.
 
-* 2018 &mdash; [Site analytics from Jan 1 to Dec 31, 2018 -- are more engineers writing docs now?](https://idratherbewriting.com/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site/)
-* 2017 &mdash; [Unexpected realizations after a comprehensive review of my 2017 site metrics](https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017)
-* 2016 &mdash; [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/)
-* 2015 &mdash; [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](https://idratherbewriting.com/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/)
+* 2019 &mdash; [Reflections on my 2019 site analytics](/blog/reflections-on-site-analytics-for-2019/)
+* 2018 &mdash; [Site analytics from Jan 1 to Dec 31, 2018 -- are more engineers writing docs now?](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site/)
+* 2017 &mdash; [Unexpected realizations after a comprehensive review of my 2017 site metrics](/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017)
+* 2016 &mdash; [Analyzing top posts on my blog during 2015 — Deciding between brand versus readership](/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/)
+* 2015 &mdash; [Top 10 posts, podcasts, tweets of 2014 -- and what it all means](/2015/01/05/top-10-posts-podcasts-tweets-of-2014-and-what-it-all-means/)
