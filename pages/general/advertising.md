@@ -33,7 +33,7 @@ You can advertise your product or service on idratherbewriting.com. Different ad
     <tbody>
     <tr>
         <td markdown="span">[Sidebar graphic](#sidebarad)</td>
-        <td markdown="span">125 x 125px</td>
+        <td markdown="span">150 x 150px</td>
         <td markdown="span">$1,000/year</td>
     </tr>
     <tr>
@@ -59,17 +59,12 @@ You can advertise your product or service on idratherbewriting.com. Different ad
     <tr>
         <td markdown="span">[Product review posts](#product_review_posts)</td>
         <td markdown="span">800-1,000 words</td>
-        <td markdown="span">$500/post</td>
-    </tr>
-    <tr>
-        <td markdown="span">[Guest posts](#guest_posts)</td>
-        <td markdown="span">800-1,000 words</td>
-        <td markdown="span">$300/post</td>
+        <td markdown="span">$700/post</td>
     </tr>
     <tr>
         <td markdown="span">[Podcasts](#podcasts)</td>
         <td markdown="span">30 minutes</td>
-        <td markdown="span">$300/post</td>
+        <td markdown="span">$300/podcast</td>
     </tr>
     </tbody>
 </table>
@@ -78,9 +73,9 @@ For billing, I usually send you an invoice through Paypal. Billing is done prior
 
 ## Sidebar ad space {#sidebarad}
 
-Sidebar ads (125 x 125px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+Sidebar ads (150 x 150px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
-Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 125 x 125 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
+Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 150 x 150 pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="https://idratherbewritingmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
@@ -105,19 +100,13 @@ Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There
 
 ## Newsletter Space {#newsletterspace}
 
-I send out 4 newsletters a month (one per week) to all my email subscribers (4,750+ readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+I send out 4 newsletters a month (one per week) to all my email subscribers (5,400 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
 <figure><img src="https://idratherbewritingmedia.com/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
 
 The image format can be any standard image format (JPG, PNG, GIF), but not animated (because the ads appear in email). The cost for advertising in the newsletter space is $1,500 per year. Shorter advertising durations aren't allowed.
 
-{% comment %}
-Additionally, once a month I allow a more expanded product feature focus. This product feature can include an expanded graphic section with other details in a more more full-featured way. The newsletter mailing will still start out with a couple of links and excerpts from I'd Rather Be Writing but then transition into your centerpiece focus. Here's an example:
-
-<figure><a href="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png"><img src="https://idratherbewritingmedia.com/images/samplenewsletterfeature.png" alt="Newsletter product feature" style="max-width: 600px"></a><figcaption>The product feature provides your creative HTML content in a more attention-getting way.</figcaption></figure>
-{% endcomment %}
-
-## Inline text blurbs {#inline_text_blurbs}
+## Inline text blurbs (API doc site only){#inline_text_blurbs}
 
 Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of my [API documentation site](/learnapidoc/). You can define 10 ad blurbs with the variety of content and links you want. Here's an example:
 
@@ -125,7 +114,7 @@ Inline text blurbs are short snippets of text, about 1-3 sentences in length (or
 
 The text blurb's text changes randomly with each page refresh. However, the position of the blurb on the page remains in the same (initially random) location.
 
-The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs can appear on each page. Cost for inline text blurbs to appear on the API doc site is $3,000 per year.
+The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs (from different advertisers) can appear on each page. Cost for inline text blurbs to appear on the API doc site is $3,000 per year.
 
 ## Product review posts {#product_review_posts}
 
@@ -145,21 +134,11 @@ These review posts aren't merely marketing material converted into a blog post. 
 
 If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
 
-Each product review post costs $500 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
+Each product review post costs $700 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
 
 Product review posts have good results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the first page of search results. This is because my site has a high page rank and influence.
 
 I also infuse the posts with SEO techniques when I write them. Almost no one else in the tech comm industry has as much online influence as I do with idratherbewriting.com. However, note that for per the [Link Schemes](https://support.google.com/webmasters/answer/66356?hl=en) policy with Google, I'm required to add `rel=nofollow` to any links that appear to companies (and their products) when I'm being paid to write the post. This attribute reduces the Pagerank that flows from my site through the link, but it avoids potential penalties or other spam-point assignments in the search algorithm.
-
-## Guest posts {#guest_posts}
-
-If you advertise your product or service on my site, I allow you to contribute one guest post per year. You write the guest post yourself, though I might edit it for style. Guest posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article as relevant.)
-
-These guest posts shouldn't merely marketing material converted into a blog post. Try to put a personal spin on your post to connect with the audience. Product review posts have powerful results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see some of these review posts appear on the **first page of search results**. This is because my site has a high page rank and influence.
-
-You can also infuse the posts with SEO techniques when you write them. Almost no one else in the tech comm industry has as much online influence as idratherbewriting.com.
-
-If you don't purchase any other advertising, the cost for a guest post is $300 per post. Guest posts always include notes that they are sponsored posts.
 
 ## Podcasts {#podcasts}
 

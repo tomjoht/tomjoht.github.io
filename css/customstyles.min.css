@@ -861,7 +861,7 @@ p {
 .sidebarComics img {
     float: left;
     padding: 5px;
-    max-width: 125px
+    width: 150px !important;
 }
 
 p {
@@ -1554,4 +1554,16 @@ p.warning::before {
 
 ul#mysidebar.nav > li.subcatTitle {
     background-color: orange;
+}
+
+@media (min-width: 992px) {
+
+.col-md-9 {
+    width: 71%;
+}
+
+.col-md-3 {
+    width: 29%;
+}
+
 }
