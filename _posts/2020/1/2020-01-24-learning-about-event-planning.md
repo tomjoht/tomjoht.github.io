@@ -4,7 +4,7 @@ permalink: /blog/learning-about-event-planning-with-jack-molisani/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/eventplanningjacklifeprotips
 description: "If you've been following my blog, you know that I've started a series of API documentation workshops that I'm organizing on my own. Yesterday I finished teaching a workshop in Los Angeles, California, to a group of 15 people. Before this workshop, I had the privilege of eating dinner with <a href='https://www.linkedin.com/in/jackmolisani/'>Jack Molisani</a>, conference organizer extraordinaire for <a href='https://lavacon.org/'>The LavaCon Conference on Content Strategy and TechComm Management</a>, and I got to peer inside the mind of someone who has mastered the art of event planning. In this post, I'll share a few tips that I learned from Jack."
 ---
 
@@ -28,7 +28,7 @@ Last year I did some research about locations for API doc jobs, and I wrote an a
 
 What about Boston? I specifically asked. Jack says that's an expensive city, which can detract participants. If it costs several hundred dollars just to book a hotel, take that into consideration. Then again, if people are already in Boston, the hotel might not be an issue. This is one challenge with API doc workshops: locations where API skills are in demand are often major urban centers where costs are also high.
 
-Which brings me to another point: Conferences differ from workshops in significant ways. A multi-day conference can be held in an interesting, non-tech-hub city like Portland or New Orleans in part because people traveling to the area might be drawn to the area itself. You don't see many conferences held in Des Moines or Omaha, Jack said. One-day workshops, on the other hand, aren't multi-day getaways, and even if I held my conference in a fun, non-tech-hub location (e.g., Anaheim, Las Vegas, Miami, Missoula, Savannah), it likely wouldn't draw people. A conference has a different dynamic at play in terms of location. Jack even holds some conferences in Hawaii.
+Which brings me to another point &mdash; conferences differ from workshops in significant ways. A multi-day conference can be held in an interesting, non-tech-hub city like Portland or New Orleans in part because people traveling to the area might be drawn to the area itself. You don't see many conferences held in Des Moines or Omaha, Jack said. One-day workshops, on the other hand, aren't multi-day getaways, and even if I held my conference in a fun, non-tech-hub location (e.g., Anaheim, Las Vegas, Miami, Missoula, Savannah), it likely wouldn't draw people. A conference has a different dynamic at play in terms of location. Jack even holds some conferences in Hawaii.
 
 ## Choosing the date
 

@@ -8,8 +8,6 @@ bitlink: https://idratherbewriting.site/webinardevdoctrends
 description: "I'm giving a webinar on trends in developer docs on March 12, 2020. The webinar is through the STC Washington DC chapter but anyone is invited to attend. Details are below."
 ---
 
-## Webinar Description
-
 <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><img style="border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/apiwebinardevdocdc.png" alt="Webinar on Comparing trends in developer docs with more general tech comm trends"/></a>
 
 **Webinar:** How Trends in API Documentation Differ from other Tech Comm Trends<br/>
@@ -18,6 +16,8 @@ description: "I'm giving a webinar on trends in developer docs on March 12, 2020
 **Location:** Online<br/>
 **Time:** 1:00 PM – 2:00 PM EDT<br/>
 **Cost:** $0 to $15
+
+<a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><button type="button" class="btn btn-warning">Register on Eventbrite</button></a>
 
 Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647):
 
