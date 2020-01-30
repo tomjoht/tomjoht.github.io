@@ -106,7 +106,7 @@ I send out 4 newsletters a month (one per week) to all my email subscribers (5,4
 
 The image format can be any standard image format (JPG, PNG, GIF), but not animated (because the ads appear in email). The cost for advertising in the newsletter space is $1,500 per year. Shorter advertising durations aren't allowed.
 
-## Inline text blurbs (API doc site only){#inline_text_blurbs}
+## Inline text blurbs (API doc site only) {#inline_text_blurbs}
 
 Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of my [API documentation site](/learnapidoc/). You can define 10 ad blurbs with the variety of content and links you want. Here's an example:
 
