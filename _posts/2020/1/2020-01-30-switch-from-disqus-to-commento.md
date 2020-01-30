@@ -1,5 +1,5 @@
 ---
-title: "Site update: I switched from Disqus to Commento"
+title: "Site update: Switched from Disqus to Commento"
 permalink: /blog/switch-from-disqus-to-commento/
 categories:
 - innovation
