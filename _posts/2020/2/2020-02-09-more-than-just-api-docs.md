@@ -15,7 +15,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: "3.04 MB"
 podcast_duration: "32:29"
 podcast_length: "29943785"
-description: "One comment I often hear from API workshop participants and other readers is that they want a more advanced course. I've been thinking about what that more advanced course would involve, in addition to what might be involved in leveling up at my work, and I've come to a realization that I need to transition more from *API documentation* to *developer portal strategies*. Developer portal strategies includes API documentation but also reflects broader concerns as well. "
+description: "One comment I often hear from API workshop participants and other readers is that they want a more advanced course. I've been thinking about what that more advanced course would involve, in addition to what might be involved in leveling up at my work, and I've come to a realization that I need to transition more from <i>API documentation</i> to <i>developer portal strategies</i>. Developer portal strategies includes API documentation but also encompasses broader concerns as well, not too different from content strategy. "
 ---
 
 I also recorded this post as a conversational podcast (rather than a narrated one).
@@ -24,9 +24,9 @@ I also recorded this post as a conversational podcast (rather than a narrated on
 
 ## Parallels with content strategy
 
-The transition from API documentation to the more encompassing developer portals mirrors the same transition that took place in tech comm domain from documentation to content strategy. When that transition happened, I resisted calling myself a content strategist because I felt like much of the tech writer's role already involves making many decisions about content strategy. But not always. And then we saw how the meaning of "content strategy" forked into several different connotations whether you're in marketing, tech comm, or running an SEO business.
+The transition from API documentation to developer portals mirrors the same transition that took place in tech comm domain from documentation to content strategy. When that transition happened, I resisted calling myself a content strategist because I felt like much of the tech writer's role already involves making many decisions about content strategy. But it's not always the case, and probably much less often than I initially assumed. Then we saw how the meaning of "content strategy" forked into several different connotations whether you're in marketing, tech comm, or running an SEO business, which further complicated the direction.
 
-But in many circles related to API docs, I keep seeing an emphasis on "developer portals." Sometimes anything that isn't strictly "API reference documentation" is considered a developer portal topic, such as a Getting Started tutorial, how you authorize your calls, your publishing platform, contributor workflows, etc. In many ways, a developer portal is similar to a documentation portal, but the developer portal has some unique traits and considerations.
+Regardless of parallels, in many circles related to API docs, I keep seeing an emphasis on "developer portals." Sometimes anything that isn't strictly "API reference documentation" is considered part of the developer portal, such as a Getting Started tutorial, how you authorize your calls, your publishing platform, contributor workflows, etc. In many ways, a developer portal is similar to a documentation portal, but the developer portal has some unique traits and considerations.
 
 In this post, I'll outline a few details of what's involved in running and managing a developer portal that goes beyond mere content development. There are many topics to cover, but I'll limit the focus here to brief bullet points.
 
