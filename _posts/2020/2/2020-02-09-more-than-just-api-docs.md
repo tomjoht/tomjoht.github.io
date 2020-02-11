@@ -1,5 +1,5 @@
 ---
-title: "From API docs to developer portals (podcast)"
+title: "From API docs to developer portals"
 permalink: /blog/from-api-docs-to-developer-portals/
 categories:
 - api-doc
@@ -15,7 +15,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: "3.04 MB"
 podcast_duration: "32:29"
 podcast_length: "29943785"
-description: "One comment I often hear from API workshop participants and other readers is that they want a more advanced course. I've been thinking about what that more advanced course would involve, in addition to what might be involved in leveling up at my work, and I've come to a realization that I need to transition more from <i>API documentation</i> to <i>developer portal strategies</i>. Developer portal strategies includes API documentation but also encompasses broader concerns as well, not too different from content strategy. "
+description: "One comment I often hear from API workshop participants and other readers is that they want a more advanced API course. I've been thinking about what that more advanced course would involve, in addition to what might be involved in leveling up at my work, and I've come to a realization that I need to transition more from <i>API documentation</i> to <i>developer portal strategies</i>. Developer portal strategies includes API documentation but also encompasses broader concerns as well, not too different from content strategy. "
 ---
 
 I also recorded this post as a conversational podcast (rather than a narrated one).
@@ -24,15 +24,15 @@ I also recorded this post as a conversational podcast (rather than a narrated on
 
 ## Parallels with content strategy
 
-The transition from API documentation to developer portals mirrors the same transition that took place in tech comm domain from documentation to content strategy. When that transition happened, I resisted calling myself a content strategist because I felt like much of the tech writer's role already involves making many decisions about content strategy. But it's not always the case, and probably much less often than I initially assumed. Then we saw how the meaning of "content strategy" forked into several different connotations whether you're in marketing, tech comm, or running an SEO business, which further complicated the direction.
+The transition from API documentation to developer portals mirrors the same transition that took place in tech comm domain from documentation to content strategy. When that transition happened, I resisted calling myself a content strategist because I felt like much of the tech writer's role already involves making many decisions about content strategy. But it's not always the case, and probably much less often than I assumed. The meaning of "content strategy" forked into several different connotations whether you're in marketing, tech comm, or running an SEO business, which further complicated the direction.
 
-Regardless of parallels, in many circles related to API docs, I keep seeing an emphasis on "developer portals." Sometimes anything that isn't strictly "API reference documentation" is considered part of the developer portal, such as a Getting Started tutorial, how you authorize your calls, your publishing platform, contributor workflows, etc. In many ways, a developer portal is similar to a documentation portal, but the developer portal has some unique traits and considerations.
+Regardless of parallels, in many circles related to API docs, I keep seeing an emphasis on "developer portals." Sometimes anything that isn't strictly "API reference documentation" is considered part of the developer portal, such as a Getting Started tutorial, how you authorize your calls, your publishing platform, your contributor workflows with Git, etc. In many ways, a developer portal is similar to a documentation portal, but the developer portal has some unique traits and considerations given the developer audience.
 
-In this post, I'll outline a few details of what's involved in running and managing a developer portal that goes beyond mere content development. There are many topics to cover, but I'll limit the focus here to brief bullet points.
+In this post, I'll outline a few details of what's involved in running and managing a developer portal that goes beyond mere content development. There are many topics to cover, but I'll limit the focus here to brief bullet points. I do elaborate a little more in the podcast, but not much.
 
 ## Developer portal topics
 
-The following topics are roughly grouped into four categories: tools, policies and procedures, high-level strategies, and user flows.
+The following topics are roughly grouped into four categories: tools, policies and procedures, high-level strategies, and user flows. If you have feedback on any of these topics or directions, I'd love to hear it.
 
 ### Tools
 
@@ -42,11 +42,11 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Git workflows and permissions
 
-*  Review and monitoring of git commits and contributors
+*  Review and monitoring of Git commits and contributors
 
 *  Implementation of style/grammar checkers at the platform level
 
-*  The design and style of the docs
+*  The design and style of the docs (the theme)
 
 *  Security tickets and the developer portal
 
@@ -54,9 +54,9 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Understanding how the doc toolchain builds and publishes content from end to end
 
-*  Management of cloud console and resources for distributing files and resources
+*  Management of the cloud console and resources for distributing files and storing assets
 
-*  Verification scripts to perform automated checking such as looking for broken links or style infractions
+*  Verification scripts to perform automated checking (such as looking for broken links or style inconsistencies)
 
 *  Search engine optimization and discoverability in search engine results
 
@@ -64,7 +64,7 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Release process for SDKs, sample apps, and other code artifacts
 
-*  Contributor process (e.g., pull requests or other strategies)
+*  Contributor processes (e.g., pull requests or other strategies for outside contributors)
 
 *  Localization processes, priorities, and workflows
 
@@ -74,23 +74,23 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Processes for collecting feedback from beta partners
 
-*  Onboarding guide for contributors, training
+*  Onboarding guide for contributors, including training
 
 *  Monitoring and handling incoming tickets from other groups
 
-*  Content audit of entire site, with current list of owners and contact points
+*  Content audit of the entire site, with a current list of owners and contact points
 
 *  Ensuring all docs meet common guidelines, including release notes for changes, etc.
 
-*  Intake processes for product launches that span across field engineers, marketing, support, etc.
+*  Intake processes for product launches that span across field engineers, marketing, and support, etc.
 
-*  Deprecating old content and establishing correct processes
+*  Deprecation old content and establishing correct processes
 
-*  Defining the review process for docs that might include various levels (e.g., product team, legal, beta) prior to publication
+*  Defining the review process for docs (this might include various levels, such as doc team, product team, field engineers, legal team, and beta partners) prior to publication
 
 *  Defining the internal team's workflow of tickets via a Scrum or agile methodology
 
-*  Defining policies for when PDF is delivered
+*  Defining policies for when PDFs are delivered
 
 *  Establishing standards for REST API reference content such as using OpenAPI
 
@@ -98,7 +98,7 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Defining templates for docs that provide standards for content such as CLI docs, schemas, and other structured information that doesn't have an industry standard
 
-*  Defining and implementation the display of specification information for different products -- the attributes, display approach, data storage approach
+*  Defining and implementation the display of specification information for different products &mdash; the attributes, display approach, and data storage approach
 
 *  Awareness and understanding of legal red flags and danger zones, as well as the legal review process and resolution
 
@@ -114,21 +114,21 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Aligning the team's efforts and priorities with larger org's priorities
 
-*  Coordination and partnerships with other doc teams, aligning on similar directions
+*  Coordination and partnerships with other doc teams, including aligning on similar directions, tools, or processes
 
 *  Analyzing trending support tickets and products (even when not filed by these teams against docs), and syncing with engineering teams on resolutions
 
-*  Syncing with field engineers and other groups on a regular basis to gather input points and roadmap
+*  Syncing with field engineers and other groups on a regular basis to gather input points from customers and product roadmaps
 
-*  Assessing incoming requests and deciding how to approach them, whether to work on them or not
-
+*  Assessing incoming requests and deciding how to approach them, whether to work on them
+ or not
 *  Understanding your team's correct fit in the organizational chart (e.g., Engineering, Marketing) and vying for correct placement
 
-*  Reporting upwards with weekly, monthly, and yearly reports for higher-ups
+*  Reporting upwards with weekly, monthly, and yearly reporting cadences
 
 *  Understanding larger initiatives in executive strategies/reports and connecting the dots with all of these products
 
-*  Strategies for funneling information from developers back to product teams
+*  Developing strategies for funneling information from developers back to product teams
 
 *  Providing input on developer satisfaction surveys and then taking action on the results
 
@@ -138,7 +138,7 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  User journeys from marketing landing pages to docs
 
-*  How content across the portal all fits and flows together -- docs, marketing, support, console
+*  How content across the portal all fits and flows together &mdash; docs, marketing, support, console
 
 *  Arrangement of multiple doc sets into a master index or starting point
 
@@ -152,7 +152,7 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Building trust with developers
 
-*  Understanding customer side of each developer product
+*  Understanding the customer side of each developer product
 
 *  Awareness and review of pages outside the docs that include the post-login console, marketing pages, Stack Overflow, GitHub, etc.
 
