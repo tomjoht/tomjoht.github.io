@@ -4,7 +4,7 @@ permalink: /blog/from-api-docs-to-developer-portals/
 categories:
 - api-doc
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/apidocstodevportals
 categories:
 - api-doc
 - podcasts
