@@ -1,6 +1,6 @@
 ---
 title: "New podcast: Unifying Technical Content Sets into a Broader Ecosystem, on Towards a Smarter World with [A]"
-permalink: /blog/some-path/
+permalink: /blog/podcast-with-cruce-sanders-enterprise-versus-agile/
 categories:
 - podcasts
 - technical-writing
