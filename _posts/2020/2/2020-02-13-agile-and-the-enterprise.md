@@ -1,5 +1,5 @@
 ---
-title: "If the current trend in software development is independent agile teams, does enterprise content strategy have any chance of realistic adoption?"
+title: "Autonomous Agile Teams and Enterprise Content Strategy: An Impossible Combination?"
 categories:
 - technical-writing
 permalink: /blog/agile-teams-and-enterprise-content-strategy/
@@ -7,7 +7,7 @@ bitlink: https://idratherbewriting.site/agileandenterprise
 description: "Agile software development seems to favor independent, autonomous teams. In contrast, enterprise content strategy looks to harmonize content across multiple teams and boundaries. In a current software development model where agile dominates as the norm, how do you reconcile larger needs for enterprise content strategy?"
 ---
 
-{{site.data.alerts.note}} This article  appeared in the <a href='https://www.stc.org/intercom/2020/01/autonomous-agile-teams-and-enterprise-content-strategy-an-impossible-combo/'>November 2019 issue of the <i>STC Intercom</i> magazine</a> (vol 66, issue 7), with the title "Autonomous Agile Teams and Enterprise Content Strategy: An Impossible Combo?" The original version was a blog post I wrote in mid-2019, which I revised and updated for the *Intercom* article, with the editorial help and input from <a href='https://simplea.com/Home'>Cruce Sanders at [A]</a>.{{site.data.alerts.end}}
+{{site.data.alerts.note}} This article  appeared in the <a href='https://www.stc.org/intercom/2020/01/autonomous-agile-teams-and-enterprise-content-strategy-an-impossible-combo/'>November 2019 issue of the <i>STC Intercom</i> magazine</a> (vol 66, issue 7). The original version was a blog post I wrote in mid-2019, which I revised and updated for the *Intercom* article, with the editorial help and input from <a href='https://simplea.com/Home'>Cruce Sanders at [A]</a>. You can also listen to a related podcast called <a href='https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem'>Unifying Technical Content Sets into a Broader Ecosystem</a>, where Cruce and I talk about these issues. {{site.data.alerts.end}}
 
 ## Agile versus the enterprise
 
