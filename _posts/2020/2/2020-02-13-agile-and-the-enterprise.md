@@ -52,7 +52,7 @@ Style guides for tech docs are similarly helpful, but content by nature is messy
 
 Independent documentation that doesn’t consider anything beyond itself might be acceptable, just as a C or B- might be a passing grade on a test. To increase the quality of documentation, writers have to increase their sense of awareness. The following graphic shows these degrees of awareness:
 
-<img src="https://idratherbewritingmedia.com/images/awarenesstrianglesimplea.png" alt="Levels of awareness" />
+<img src="https://idratherbewritingmedia.com/images/awarenesstrianglesimplea2.png" alt="Levels of awareness" />
 
 The first level of awareness is to master your own product. Understanding your product as a SME is practically required to write detailed documentation in the first place.
 
