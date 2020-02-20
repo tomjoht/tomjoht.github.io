@@ -1,0 +1,317 @@
+---
+layout: null
+presentation:
+  title: "How you write influences what you write"
+  subtitle: "Musings on tool trends over time"
+  date: Feb 20, 2020
+  location: San Francisco, CA
+  author: Tom Johnson
+  site: idratherbewriting.com
+
+slides:
+
+- image: lightningtalk_frustration.svg
+  title: Frustrated by TC surveys
+
+- image: lightningtalk_my_survey.svg
+  title: "My own dev doc survey"
+
+- image: lightningtalk_other_findings.svg
+  title: "Other findings"
+
+- image: lightningtalk_tools_jeans.svg
+  title: "Are tools just changing fashions?"
+
+- image: lightningtalk_tools_history.svg
+  title: "How tools have influenced content"
+
+- image: lightningtalk_more_reading.svg
+  title: "More reading"
+---
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>{{page.slides.presentation.title}}</title>
+
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+    <style>
+       p.alignLeft {
+       text-align: left;
+       }
+       span.orange, a.orange {
+       color: orange;
+       outline-color: gray;
+       }
+       div.innovation ul li {
+       margin-bottom:12px;
+       }
+       figcaption {
+       font-size:12px;
+       }
+       .reveal p.miscItems, p, li {
+       font-size:.9em;
+       }
+       .slides section h3 {
+       color: orange !important; outline: gray;
+       margin:0px;
+       /*padding-top: 80px;*/
+       font-size: 1.3em;
+       }
+       .slides img {
+       /*max-width: 80%;
+       max-height: 80%;*/
+       /*border:3px solid red;*/
+       }
+       #upcoming-slide .label {
+       color: #444 !important
+       }
+       ul.credits li {
+       font-size: .6em;
+       }
+       .reveal section h3 {
+       margin:0px;
+       }
+       .reveal section img {
+       margin-bottom:0px;
+       /*max-height: 460px !important;*/
+       border: none;
+       }
+       span.strategy {
+       border: 1px solid #dedede;
+       padding: 4px 6px;
+       border-radius: 8px;
+       }
+       span.myname {
+       font-weight: bold;
+       font-size: 52px;
+       color: #555;
+       font-family: cursive;
+       }
+       .reveal pre code, pre {
+       padding:20px;
+       background-color: #3f3f3f;
+       }
+       .reveal img {
+       background-color: white !important;
+       }
+       .reveal div.imageFit {
+       max-width: 85%;
+       margin-left: auto;
+       margin-right: auto;
+       }
+       .reveal blockquote {
+       width: 85%;
+       }
+
+       .reveal section.references h4 {
+         font-size:24px;
+         color: black;
+         text-align: left;
+       }
+       .reveal section.references p {
+         text-align: left;
+         font-size: 18px;
+       }
+
+       .reveal .scrollable-slide {
+          height: 500px;
+          overflow-y: auto !important;
+      }
+
+      .reveal h1 {
+    line-height: 1.1em;
+     }
+
+
+
+
+    </style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <div class="slides">
+                 <section>
+                    <h1>{{page.presentation.title}}</h1>
+                    <h3>{{page.presentation.subtitle}}</h3>
+                    <p>
+                       <small>By Tom Johnson / <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                       <a href="https://idratherbewriting.com">idratherbewriting.com</a></small><br/><br/>
+                       <p><small>Slides available at <br/><a href="https://idratherbewriting.com/slides/trends_stc19/">idratherbewriting.com/slides/trends_stc19/</a></small></p>
+                    </p>
+                    <aside class="notes">
+                      * trends always so popular
+                      <br>* bloggers and trends go together
+                      <br>* finally decide to dig in with depth
+                      </aside>
+                 </section>
+
+        {% for item in page.slides %}
+          <section>
+            <h2>{{item.title}}</h2>
+            {% if item.image %}<img src="images/{{item.image}}" />{% endif %}
+            {% if item.content %}{{item.content}}{% endif %}
+        <aside class="notes">
+          {{item.notes}}
+        </aside>
+        </section>
+        {% endfor %}
+
+        <section>
+   <h1>The end</h1>
+   <div>
+      <div style="float:left; padding: 10px;">
+         <img src="images/tomjohnson.jpg"/>
+      </div>
+      <div style="float:left; padding: 10px; text-align: left;">
+         <p><span class="myname">Tom Johnson</span><br/>
+            &mdash; <a href="http://idratherbewriting.com">idratherbewriting.com</a><br/>
+            &mdash;  <a href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+            &mdash; <a href="mailto:tomjoht@gmail.com">tomjoht@gmail.com</a>
+         </p>
+      </div>
+   </div>
+</section>
+
+{% comment %}
+<section class="references">
+
+<h2>References and additional reading</h2>
+
+<div class="scrollable-slide" data-markdown>
+
+
+#### [Slide 1: Why trends intrigue us](#/1)
+
+Thangavelu, Poonkulali. ["Companies That Went Bankrupt From Innovation Lag."](https://www.investopedia.com/articles/investing/072115/companies-went-bankrupt-innovation-lag.asp) *Investopedia*. Retrieved Oct 2018.
+
+Johnson, Tom. ["What technical writing trends will we see in 2018?"](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review) 2 Jan 2018.
+
+#### [Slide 2: Impact of UX and need for docs](#/2)
+
+Grey, Jim. ["Software technical writing is a dying career (but here’s what writers can do to stay in the software game)."](https://softwaresaltmines.com/2015/06/16/software-technical-writing-dying/) *Delivering software through leading people well.* 16 June 2015.
+
+#### [Slide 3: Evolution of roles ... towards what?](#/3)
+
+Pratt, Ellis. ["40. The evolution of the technical communicator’s career."](https://cherryleaf.podbean.com/e/the-evolution-of-technical-communication/) *Cherryleaf*. 2 Aug 2018.
+
+Johnson, Tom. [Survey results](https://www.questionpro.com/t/PESakZc1sh) from survey questions embedded in ["Tech comm trends: Providing value as a generalist in a sea of specialists (Part II)"](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-2/). 89 responses to the question "Technical writing jobs haven't diminished, but the profession is evolving." *Idratherbewriting.com* 9 Oct 2018.
+
+#### [Slide 4: BLS data: TW and SD job growth](#/4)
+
+["Software Developers."](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) *Bureau of Labor Statistics: Occupational Outlook Handbook.* 13 Apr 2018. (Note: For previous years (2010, 2012, 2014), use the [Wayback Machine](https://archive.org/web/) with these same URLs.)
+
+["Technical Writers."](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm) *Bureau of Labor Statistics: Occupational Outlook Handbook.* 13 Apr 2018. (Note: For previous years (2010, 2012, 2014), use the [Wayback Machine](https://archive.org/web/) with these same URLs.)
+
+[*2016-2017 STC Salary Database (based on 2016 data).*](https://www.stc.org/salary-database/) *Society for Technical Communication.* Retrieved Oct 2018.
+
+#### [Slide 5: Growth projections compared](#/5)
+
+Johnson, Tom. [Survey results](https://www.questionpro.com/t/PEUzEZc5vF) from survey questions embedded in ["Tech comm trends -- why tech writers will be collaborating more with engineers"](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers). 77 responses to the question "The number of engineers I support seems to be growing each year, making the ratio of tech writers to engineers more lopsided (with fewer tech writers and more engineers)."  *Idratherbewriting.com* 9 Oct 2018.
+
+#### [Slide 6: Common questions and objections](#/6)
+
+* Questions from discussion at Symposium for Communicating Complex Information (SCCI) conference
+
+#### [Slide 7: Trends trajectories](#/7)
+
+No references needed.
+
+#### [Slide 8: Barometer for trends: job ads](#/8)
+
+Brumberger, Eva and Lauer, Claire. ["The Evolution of Technical Communication: An Analysis of Industry Job Postings."](https://www.ingentaconnect.com/contentone/stc/tc/2015/00000062/00000004/art00002) *Technical Communication, Volume 62, Number 4.* Nov 2015.
+
+#### [Slide 9: Constant theme: tech familiarity](#/9)
+
+Lanier, Clinton. ["Analysis of the Skills Called for by Technical Communication Employers in Recruitment Postings."](http://www.ingentaconnect.com/contentone/stc/tc/2009/00000056/00000001/art00008) *Technical Communication, Volume 56, Number 1*. Feb 2009.
+
+Baehr, Craig. "Complexities in Hybridization: Professional Identities and Relationships in Technical Communication." *Technical Communication Journal*. Volume 62, Number 2, May 2015.
+
+#### [Slide 10: ... should know [X] tech already](#/10)
+
+Johnson, Tom. [Survey results](https://www.questionpro.com/t/PEUzEZc5vF) from survey questions embedded in ["Tech comm trends -- why tech writers will be collaborating more with engineers"](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers). 77 responses to the question "Subject matter familiarity is a key requirement in a lot of the tech comm jobs I've looked at. It seems employers often want me to know X, Y, and Z technologies already from the start." *Idratherbewriting.com* 9 Oct 2018.
+
+Amazon Jobs. [Senior Technical Writer](https://www.amazon.jobs/en/jobs/764259/sr-technical-writer). Feb 2018.
+
+#### [Slide 11: Tech knowledge beats writing skills](#/11)
+
+Johnson, Tom. ["If writing is no longer a marketable skill, what is?"](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/). *IdRatherBeWriting.com* 9 Aug 2018.
+
+["How much weight does a certificate in technical writing carry?"](https://www.reddit.com/r/technicalwriting/comments/9nxr21/how_much_weight_does_a_certificate_in_technical/) Technical Writing forum, Reddit. October 2018.
+
+#### [Slide 12: Strategy #1: Developers who write as a brand](#/12)
+
+["How much code do you need to know?"](https://idratherbewriting.com/learnapidoc/jobapis_learning_code.html#techniques-for-learning-code) *Documenting APIs.* 2018.
+
+#### [Slide 13: 'Technical Technical' Writer wins job](#/12)
+
+[Survey results](https://www.questionpro.com/t/PE5tIZduq7) from [questions embedded](https://www.questionpro.com/a/TakeSurvey?tt=EUog6ET5DAw%3D) in [Documenting APIs site](https://idratherbewriting.com/learnapidoc/). 21 responses to the question "When I engage in documentation efforts, I prefer to treat documentation like software (using Git, text editors, Markdown, static site generators, building from the server, etc.)" Feb 2018.
+
+["Docs-as-code tools"](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html). *Documenting APIs.* 2018
+
+["Recording of Docs-as-code tools and workflows presentation"](https://idratherbewriting.com/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/). *IdRatherBeWriting.com* 9 Mar 2018.
+
+#### [Slide 13: Strategy #3: Develop project management skills](#/13)
+
+["How to become a 10X technical writer in the workplace"](https://idratherbewriting.com/2019/02/07/how-to-become-a-10x-technical-writer-in-the-workplace/). *IdRatherBeWriting.com* 7 Feb 2019
+
+["Documentation for Software Engineers."](https://www.parson-europe.com/en/knowledge-base/11-documentation-for-software-engineers.html) *Parson.* Retrieved 26 Nov 2018.
+
+#### Related posts on trends from my site
+
+[Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html). 2018.
+
+[What technical writing trends will we see in 2018?](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/) 2 Jan 2018.
+
+[Recording of Trends presentation on The Content Wrangler BrightTALK channel](https://idratherbewriting.com/2019/01/17/recording-brighttalk-trends/). 17 Jan 2019
+
+[Tech comm trends -- why tech writers will be collaborating more with engineers](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/). 9 Oct 2018.
+
+[Tech comm trends: Providing value as a generalist in a sea of specialists](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1). 2 Oct 2018.
+
+</div>
+{% endcomment %}
+			</div>
+		</div>
+
+		<script src="../js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        history: true,
+        center: false,
+        progress: true,
+        slideNumber: true,
+				dependencies: [
+					{ src: '../plugin/markdown/marked.js' },
+					{ src: '../plugin/markdown/markdown.js' },
+					{ src: '../plugin/notes/notes.js', async: true },
+					{ src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
