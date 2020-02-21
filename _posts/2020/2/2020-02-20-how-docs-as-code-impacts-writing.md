@@ -4,7 +4,7 @@ permalink: /blog/how-you-write-influences-what-you-write/
 categories:
 - writing
 keywords: pdf, web, dita, wikis, ccms, docs-as-code
-rebrandly: https://idratherbewriting.site/howdetermineswhat
+rebrandly: https://idratherbewriting.site/howinfluenceswhat
 description: "In tech comm tool usage over the past 50 years, we've seen tools trends ranging from PDF to web, XML, wikis, CCMSs, and docs-as-code. Although some dismiss tools as short-lived and always changing, the tools we use &mdash; <i>how</i> we write &mdash; do influence what we write, to a degree."
 ---
 
@@ -14,7 +14,7 @@ During the last holiday break, I was sitting inside a cozy hotel room in Red Riv
 
 I found two recent research efforts about trends to be the most noteworthy: Saul Carliner's [Tech Comm Census results](https://www.stc.org/intercom/download/2018/) (published in Dec 2018 *STC Intercom*) and [Scott Abel's Benchmarking Survey](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf) (also summarized in the same *Intercom* issue).
 
-<img src="/slides/how_influences_what/images/lightningtalk_frustration.svg" alt="Reading the latest industry surveys on tech comm trends" />
+<img src="https://idratherbewritingmedia.com/images/lightningtalk_frustration.svg" alt="Reading the latest industry surveys on tech comm trends" />
 
 Saul Carliner set about gathering a "Tech Comm Census" by gathering responses from 60 questions covering seemingly every facet of the technical communicator's work life. He partnered with the STC to promote the survey and gathered 676 responses. The results are interesting and encouraging, especially the finding that 70% of technical writers are satisfied with their job. At the same time, the survey seemed to miss many of the trends I'd been seeing within the developer doc space around Write the Docs and docs-as-code tools. I felt like the survey's results only partially represented my tech comm world.
 
@@ -121,7 +121,7 @@ There's a lot that one could focus on these survey results, but I think the most
 
 One immediate objection is why focus on tools? Aren't tools like shifting fashions? Like the style of jeans that changes from one decade to the next.
 
-<img src="/slides/how_influences_what/images/lightningtalk_tools_jeans.svg" alt="Tools are like changing fashions"/>
+<img src="https://idratherbewritingmedia.com/images/lightningtalk_tools_jeans.svg" alt="Tools are like changing fashions"/>
 
 This is why academics dislike tools &mdash; they feel so ephemeral. One day it's Tool X, tomorrow it's Tool Y, and next week it's Tool Z. But what matters is the content and the theoretical foundations that determine what we write and how we present it to the user, right?
 
@@ -133,7 +133,7 @@ To make this argument, I'll survey the doc tools technical communicators have us
 
 Warning: At this level, I will make broad generalizations and try to connect trends together based on shaping forces and challenges that drive the evolution. At this level, it will be somewhat speculative but hopefully still informative. This tour through tool usage looks somewhat like this:
 
-<img src="/slides/how_influences_what/images/lightningtalk_tools_history.svg" alt="Trends with tools" />
+<img src="https://idratherbewritingmedia.com/images/lightningtalk_tools_history.svg" alt="Trends with tools" />
 
 Note that this timeline isn't necessarily a progression &mdash; all of these tools are still in use to varying degrees. And some of these categories overlap.
 
