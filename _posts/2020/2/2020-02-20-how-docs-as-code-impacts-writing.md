@@ -5,7 +5,7 @@ categories:
 - writing
 keywords: pdf, web, dita, wikis, ccms, docs-as-code
 rebrandly: https://idratherbewriting.site/howinfluenceswhat
-description: "In tech comm tool usage over the past 50 years, we've seen tools trends ranging from PDF to web, XML, wikis, CCMSs, and docs-as-code. Although some dismiss tools as short-lived and always changing, the tools we use &mdash; <i>how</i> we write &mdash; do influence what we write, to a degree."
+description: "In tech comm tool usage over the past 50 years, we've seen tools trends ranging from PDF to web, XML, wikis, CCMSs, and docs-as-code. Although some dismiss tools as short-lived and always changing, the tools and technologies we use do influence what we write, to a degree."
 ---
 
 ## Trying to pin down noteworthy trends
