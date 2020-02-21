@@ -1,5 +1,5 @@
 ---
-title: "How you write influences what you write &mdash; interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code"
+title: "*How* you write influences *what* you write &mdash; interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code"
 permalink: /blog/how-you-write-influences-what-you-write/
 categories:
 - writing
@@ -36,7 +36,7 @@ Saul acknowledged that his survey did not segment based on audiences tech writer
 
 Scott Abel's [*Technical Communication Industry Benchmarking Survey*](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf) (summarized in an *Intercom* article titled [Survey Reveals Top Tools, Trends, and Technologies in Use in Technical Communication Teams](https://www.stc.org/intercom/2019/01/survey-reveals-top-tools-trends-and-technologies-in-use-in-technical-communication-teams/)) gathers information about tools, trends, technologies, and other details from 600+ professional technical communicators. No details are provided about the intended audiences the respondents write for (e.g., engineering vs non-engineering audiences), but I assume the demographics of both authors and audiences generally align with those who read [The Content Wrangler](http://contentwrangler.com) and attend conferences such as [Information Development World](https://www.informationdevelopmentworld.com/), which tend to focus on content strategy, enterprise content re-use, multi-channel publishing, localization, chatbots, and more.
 
-Scott's survey does actually include some API-related information. He found that "Fifty-eight percent of technical communication teams surveyed say they currently document APIs; 10 percent plan to in the future." One challenge tech writers face in documenting APIs is "using software tools not optimized for ease-of-use or writing efficiency, and lack of experience," Scott said.
+Scott's survey does actually include some API-related information. He found that "Fifty-eight percent of technical communication teams surveyed say they currently document APIs; 10 percent plan to in the future." One challenge tech writers face in documenting APIs is "using software tools not optimized for ease-of-use or writing efficiency, and lack of experience," Scott writes.
 
 These responses about APIs are more relevant to my tech comm world, but they don't go far enough into dev docs for my interests. As with Saul's census, Scott's survey hardly mentions docs-as-code tools or workflows. In both surveys, communities like [Write the Docs](https://writethedocs.org/) aren't mentioned, and other more developer-oriented topics are left out, such as how writers integrate with engineering scrum teams, whether writers auto-generate the OpenAPI spec or manually create it, whether docs reviews are conducted like code reviews, and so on.
 
@@ -117,13 +117,13 @@ You can view the [results here](https://www.questionpro.com/t/PGhS9ZgCFE). As th
 
 ## Focusing on tools &mdash; ephemeral shifting winds only?
 
-There's a lot that one could focus on these survey results, but I think the most salient feature, or one that catches my attention, is the prevalence of the tools. Clearly, with 23% using static site generators (SSGs) and only 2% using FrameMaker, this represents a major shift. Surely this merits more exploration.
+There's a lot that one could focus on these survey results, but I think the most salient feature, or one that catches my attention, is the prevalence of static site generator tools. Clearly, with 23% using static site generators (SSGs) and only 2% using FrameMaker, this represents a major shift. Surely this merits more exploration.
 
-One immediate objection is why focus on tools? Aren't tools like shifting fashions? Like the style of jeans that changes from one decade to the next.
+One immediate objection might be this question: why focus on tools? Aren't tools like shifting fashions? Like the style of jeans that changes from one decade to the next.
 
 <img src="https://idratherbewritingmedia.com/images/lightningtalk_tools_jeans.svg" alt="Tools are like changing fashions"/>
 
-This is why academics dislike tools &mdash; they feel so ephemeral. One day it's Tool X, tomorrow it's Tool Y, and next week it's Tool Z. But what matters is the content and the theoretical foundations that determine what we write and how we present it to the user, right?
+This is why academics dislike tools &mdash; tools are ephemeral. One day it's Tool X, tomorrow it's Tool Y, and next week it's Tool Z. But what matters is the content and the theoretical foundations that determine what we write and how we present it to the user, right?
 
 Sure, for the most part, I agree that tools are like the basketball player's shoes &mdash; undoubtedly not as important as the style of play, not as important as the plays that teams run or the strategies players apply to win the game.
 
@@ -131,7 +131,7 @@ But here's the thing. To some degree, *how* you write influences *what* you writ
 
 To make this argument, I'll survey the doc tools technical communicators have used over the past 50 years or so and comment generally on how those tools influenced the user experience. This will be a birds-eye view with many general observations as I move from PDF to web, then to XML, wikis, CCMSs, and finally to docs-as-code.
 
-Warning: At this level, I will make broad generalizations and try to connect trends together based on shaping forces and challenges that drive the evolution. At this level, it will be somewhat speculative but hopefully still informative. This tour through tool usage looks somewhat like this:
+*Warning:* At this level, I will make broad generalizations and try to connect trends together based on shaping forces and challenges that drive the evolution. At this level, it will be somewhat speculative but hopefully still informative. This tour through tool usage looks somewhat like this:
 
 <img src="https://idratherbewritingmedia.com/images/lightningtalk_tools_history.svg" alt="Trends with tools" />
 
@@ -147,7 +147,7 @@ Even so, the book paradigm encouraged sections and chapters rather than individu
 
 ## Web encourages topic-based authoring
 
-With the web medium, topic-based authoring took the spotlight, and tech writers began breaking up their content into small, standalone chunks online. The transition from book-length authoring to topic-based authoring introduced many new challenges. For content auto-bursted at breakpoints like subheadings, the chunks often didn't make sense alone.
+With the web medium, topic-based authoring took the spotlight, and tech writers began breaking up their content into small, standalone chunks online (like articles). The transition from book-length authoring to topic-based authoring introduced many new challenges. For content auto-bursted at breakpoints like subheadings, the chunks often didn't make sense alone.
 
 Mark Baker's [Every Page Is Page One](https://idratherbewriting.com/2011/05/16/every-page-is-page-one/) is a reaction against these chunks that don't make sense alone (see [Topic Chunking and The Broken Alarm Clock](https://idratherbewriting.com/2011/04/27/topic-chunking-and-the-broken-clock/)). When you encounter help content that seems to require some other starting point to make sense, leaving you scratching your head at your starting point without the proper orientation to make sense from your entry point, the docs fail for that user. Mark said every page should sufficiently orient the user as if it were the user's first entry point in the docs.
 
