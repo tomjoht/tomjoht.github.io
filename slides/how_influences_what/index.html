@@ -169,7 +169,7 @@ slides:
         {% for item in page.slides %}
           <section>
             <h2>{{item.title}}</h2>
-            {% if item.image %}<img src="images/{{item.image}}" />{% endif %}
+            {% if item.image %}<img src="/slides/how_influences_what/images/{{item.image}}" />{% endif %}
             {% if item.content %}{{item.content}}{% endif %}
         <aside class="notes">
           {{item.notes}}
