@@ -1,5 +1,5 @@
 ---
-title: "The relationship between academics and practitioners &mdash; Podcast with Kirk St. Amant"
+title: "The relationship between academics and practitioners -- Podcast with Kirk St. Amant"
 categories:
 - academics-and-practitioners
 - podcasts
