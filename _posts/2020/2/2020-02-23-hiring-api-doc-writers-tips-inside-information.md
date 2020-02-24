@@ -17,8 +17,6 @@ description: "I recently chatted with <a href='http://www.linkedin.com/in/synerg
 
 ## Podcast
 
-You can listen to the podcast here:
-
 {% include audio.html %}
 
 ## High-level summary
