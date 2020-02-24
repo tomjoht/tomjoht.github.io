@@ -7,7 +7,7 @@ layout: null
     <title>I'd Rather Be Writing</title>
     <link>https://idratherbewriting.com</link>
     <atom:link href="https://idratherbewriting.com/itunes.rss" rel="self" type="application/rss+xml" />
-    <description>Technical writing podcast. Includes tech comm (technical communication) presentations at venues such as Write the Docs and STC, audio versions of posts from I'd Rather Be Writing (idratherbewriting.com), and more. This tech writing podcast's focus is on documentation, user guides, user assistance, tutorials, and other topics for technical writers, technical communicators, content strategists, and documentarians. Produced by Tom Johnson.</description>
+    <description>{{site.podcast_summary}}</description>
     <itunes:author>Tom Johnson</itunes:author>
     <copyright>© 2020 I'd Rather Be Writing</copyright>
     <language>en-us</language>
@@ -15,8 +15,8 @@ layout: null
     <itunes:explicit>No</itunes:explicit>
     <itunes:image href="https://idratherbewritingmedia.com/images/idratherbewritinglogo.png"/>
 
-    <itunes:subtitle>A podcast on technical writing</itunes:subtitle>
-    <itunes:summary>Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.</itunes:summary>
+    <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
+    <itunes:summary>{{site.podcast_description}}</itunes:summary>
     <itunes:owner>
       <itunes:name>Tom Johnson</itunes:name>
       <itunes:email>tomjoht@gmail.com</itunes:email>
