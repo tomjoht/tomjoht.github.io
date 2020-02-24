@@ -2,7 +2,7 @@
 title: "My podcast about writing with Ellis Pratt on Cherryleaf"
 categories:
 - podcasts
-- stitcher
+- technical-writing
 keywords:
 description: "I recently chatted with Ellis Pratt on his Cherryleaf podcast. The episode is called <a href='https://www.cherryleaf.com/2018/12/podcast-49-should-you-specialise-interview-with-tom-johnson/'>Podcast 49: Should you specialise? Interview with Tom Johnson.</a> We chatted about a whole bunch of topics, not just the <i>should you specialize</i> question in the title. Topics include purposes for writing, the influence of blog and podcasts, long and short forms of content, evidence for trends, what employers are looking for in jobs, unicorn candidates, how to define yourself, and more. If you like podcasts, definitely listen to this one."
 bitlink: http://bit.ly/cherryleafpodcasttomjohnson
