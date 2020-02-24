@@ -12,9 +12,7 @@ layout: null
     <copyright>© 2020 I'd Rather Be Writing</copyright>
     <language>en-us</language>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
-    <itunes:category text="Education">
-        <itunes:category text="How to" />
-    </itunes:category>
+    <itunes:category text="History" />
     <itunes:explicit>No</itunes:explicit>
     <itunes:image href="https://idratherbewritingmedia.com/images/idratherbewritinglogo.png"/>
 
