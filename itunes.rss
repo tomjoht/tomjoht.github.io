@@ -43,7 +43,7 @@ layout: null
             <itunes:subtitle>{{ ep.description | strip_html | truncatewords: 30 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
             <itunes:summary>{{ ep.description | expand_urls: site.url | cdata_escape }}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
-            <itunes:image href="{{ site.url }}{{ site.podcast_album_art }}" />
+            <itunes:image href="{{ site.podcast_album_art }}" />
             <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
             <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
         </item>

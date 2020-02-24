@@ -122,13 +122,11 @@ target: web
 ## itunes feed settings
 
 podcast_url: https://www.idratherbewriting.com
-podcast_album_art: /images/techwritervoices.jpg
+podcast_album_art: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_title: I'd Rather Be Writing Podcast
 podcast_owner: Tom Johnson
 podcast_email: tomjoht@gmail.com
 podcast_category: Technology
-podcast_subcategory_one: Software How-To
-podcast_subcategory_two: Tech News
 podcast_explicit: "no"
 podcast_author: Tom Johnson
 podcast_description: Topics and issues for technical writers. Improve your technical communication role. Empower users with better documentation.
