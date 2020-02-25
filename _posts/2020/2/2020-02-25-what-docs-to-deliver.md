@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/docsuitechecklist
-description: "In your reading for the week, check out <a href='https://expertsupport.com/2020/02/the-ideal-documentation-suite-for-software-developers/'>The Ideal Documentation Suite for Software Developers</a>, by Gustafson. In this article, Paul answers the question, <i>What does Expert Support recommend for the contents of an ideal documentation suite for software targeted at software developers?</i>"
+description: "In your reading for the week, check out <a href='https://expertsupport.com/2020/02/the-ideal-documentation-suite-for-software-developers/'>The Ideal Documentation Suite for Software Developers</a>, by Paul Gustafson. In this article, Paul answers the question, <i>What does Expert Support recommend for the contents of an ideal documentation suite for software targeted at software developers?</i>"
 ---
 
 Since [Expert Support](https://expertsupport.com/services/) contracts out technical writers to companies, I imagine that in many conversations with clients needing docs, the client often asks what types of docs they need. (Recognize that many companies aren't even aware of what type of documentation they need, only that they need *something.*) Paul provides the following list as the "ideal documentation suite" for software developer docs:
