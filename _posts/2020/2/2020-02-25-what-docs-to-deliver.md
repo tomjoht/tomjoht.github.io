@@ -49,3 +49,4 @@ And so on. An API might have different implementations and considerations for di
 Overall, Paul's list prompts some reflection about how API docs differ from traditional docs. With API docs, the uses are more open, flexible, and variant. As such, the docs you deliver for the API might reflect a broader set of deliverables.
 
 {% include random_ad.html %}
+{% comment %} small edit to trigger rebuild {% endcomment %}
