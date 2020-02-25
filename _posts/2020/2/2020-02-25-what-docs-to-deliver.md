@@ -1,6 +1,6 @@
 ---
 title: "Checklist of different types of API docs"
-permalink: /blog/doc-suite-checklist
+permalink: /blog/doc-suite-checklist/
 categories:
 - api-doc
 - technical-writing
