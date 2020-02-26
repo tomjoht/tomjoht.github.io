@@ -34,7 +34,7 @@ Most of us aren't accustomed to this line of thought, about welcoming surprises 
 
 While elaborating on the design is typically not done in traditional end-user docs, it might be more appropriate in more flexible systems that allow more creative solutions and applications. When you find users pursuing Goal Z and following tasks not described in your docs, you shouldn't consider that a shortcoming in your task analysis or docs.
 
-In the same light, another deliverable in Paul's list &mdash; "recipes and cookbooks" &mdash; speak to the diverse ways that an API might be used to achieve different ends. Paul explains,
+In the same light, another deliverable in Paul's list &mdash; "recipes and cookbooks" &mdash; speaks to the diverse ways that an API might be used to achieve different ends. Paul explains,
 
 > With food, recipes give cooks the measurements and techniques to prepare meals like chefs. The same is true for APIs and related software development platforms. Simple, step-by-step instructions are powerful in that they provide the information needed for API users to become adept with your technology. This can accelerate customer success, deliver real value sooner, and build momentum for your technology within the organization adopting it.
 
