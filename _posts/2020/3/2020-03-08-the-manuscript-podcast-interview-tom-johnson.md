@@ -1,11 +1,11 @@
 ---
-title: "The Manuscript Podcast, with Breno Barreto - Episode 2, How technical should a tech writer be?"
+title: "The Manuscript Podcast, with Breno Barreto -- Episode 2, How technical should a tech writer be?"
 permalink: /blog/the-manuscript-podcast-interview-with-tom-johnson/
 categories:
 - podcasts
 - technical-writing
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/themanuscriptpodcast
 description: "<a href='https://brenobarreto.co/the-manuscript-podcast/'>The Manuscript</a> is a new tech comm podcast produced by Breno Barreto, a technical writer working for VTEX in Brazil. Breno interviewed me for episode 2, titled <i>How technical should a tech writer be?</i> In this podcast, we talked about changes in the tech comm field, how I got started, comparisons with copywriting, API docs, processes for tech writing at Amazon, explanatory writing versus exploratory writing, trends I'm seeing, and more."
 ---
 

@@ -6,10 +6,10 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/exploratorywritingworkplace
 published: false
-description: "In a recent episode of <i>The Manuscript</i>, a new podcast by Breno B, he asked me questions about blogging and motivations and such. I explained two different modes of writing: explanatory versus exploratory. Technical documentation is explanatory writing, but many of the posts on my blog are exploratory. Breno asked whether there's a place for exploratory writing in the workplace. Indeed, this is the great question that every humanities-rooted curious person who is immersed in a corporate world must ask in order to thrive."
+description: "In a recent episode of <i>The Manuscript</i>, a new podcast by Breno Barreto, Breno asked me questions about blogging and motivations and such. I explained two different modes of writing: explanatory versus exploratory writing. Technical documentation is <i>explanatory</i> writing, but many of the posts on my blog are <i>exploratory</i>. Breno asked whether there's a place for exploratory writing in the workplace. Indeed, this is the great question that every humanities-rooted, curious person who is immersed in a corporate world must ask in order to thrive."
 ---
 
-I've touched on these topics before in [Exploratory writing]() and [some post about asking how rather than what]. So this is a theme I return to often, I guess.
+I've touched on these topics before in [Exploratory writing]() and [](https://idratherbewriting.com/2018/11/19/avoid-being-secretary-for-engineers/)[some post about asking how rather than what]. So this is a theme I return to often, I guess.
 
 To summarize, exploratory writing seeks to ask why, whereas explanatory writing answers the question how. Exploratory writing focuses on a question and seeks answers. Explanatory writing typically answers how a goal can be achieved using the  tool at hand.
 
@@ -35,4 +35,4 @@ I hadn't thought about doing more business writing until a recent off-site meeti
 
 As I was sitting there, it dawned on me that maybe I should be doing a lot more of this type of writing. Why wasn't I? I consider myself a critical thinker, one who can research and analyze and synthesize information. Why wasn't I engaging with the core issues of the business at the higher level? Why wasn't I killing it with my writing skills in this space? Am I just letting my talents sit dormant while people all around me writing poorly worded business documents with herd mentality thoughts and hasty, non-evidence-based conclusions?
 
-And then I remembered all the documentation I had to write, the upcoming deadlines, the open tickets and emails from people asking about this and that. 
+And then I remembered all the documentation I had to write, the upcoming deadlines, the open tickets and emails from people asking about this and that.
