@@ -1,5 +1,5 @@
 ---
-title: "Podcast: How Paligo is filling a niche in the CCMS market for complex documentation, with Anders Svennson"
+title: "Podcast: How Paligo is filling a niche in the CCMS market for complex documentation, with Anders Svensson"
 permalink: /blog/paligo-filling-a-niche-in-ccms-market-for-complex-docs/
 categories:
 - api-doc
