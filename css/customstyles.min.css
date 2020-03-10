@@ -1570,3 +1570,8 @@ ul#mysidebar.nav > li.subcatTitle {
 }
 
 }
+
+.bs-callout.bs-callout-success.bs-callout-comic {
+    background-color: lightgoldenrodyellow;
+    color: #444;
+}
