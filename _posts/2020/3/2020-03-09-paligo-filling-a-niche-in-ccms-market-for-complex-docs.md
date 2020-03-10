@@ -14,7 +14,7 @@ podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewriting
 podcast_file_size: "21 MB"
 podcast_duration: "51:35"
 podcast_length: "20920772"
-description: "I recently chatted with Anders Svennson about how Paligo, a cloud-based CCMS, is filling a niche in the CCMS market for complex documentation needs. Complex documentation refers to documentation with multiple product variants, versions, languages, audiences, and more. In these scenarios, content re-use and scalability become more challenging. Paligo is filling a need for documentation teams that have grown beyond their help authoring tools and need the more robust support that a component content management system (CCMS) offers but without the price tag and implementation timeline."
+description: "I recently chatted with Anders Svensson about how Paligo, a cloud-based CCMS, is filling a niche in the CCMS market for complex documentation needs. Complex documentation refers to documentation with multiple product variants, versions, languages, audiences, and more. In these scenarios, content re-use and scalability become more challenging. Paligo is filling a need for documentation teams that have grown beyond their help authoring tools and need the more robust support that a component content management system (CCMS) offers but without the price tag and implementation timeline."
 ---
 ## Listen to the podcast
 
