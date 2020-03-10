@@ -861,7 +861,9 @@ p {
 .sidebarComics img {
     float: left;
     padding: 3px;
-    max-width: 130px;
+    max-width: 175px;
+    margin-left: 15%;
+    padding-bottom: 20px;
 
 }
 
@@ -1409,6 +1411,10 @@ ul#mysidebar li.active>a {
     margin-top: 20px;
     margin-bottom: 15px;
     background-color: aliceblue;
+}
+
+.form-group.irbw .btn {
+  max-width: 90%;
 }
 
 .newsletterSubscribeHeading {
