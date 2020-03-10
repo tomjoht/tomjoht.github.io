@@ -20,7 +20,7 @@ description: "I recently chatted with Anders Svennson about how Paligo, a cloud-
 
 {% include audio.html %}
 
-## Topics covered
+## Questions/topics covered
 
 Some topics covered during the podcast include the following:
 
