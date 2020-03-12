@@ -1,22 +1,18 @@
 ---
-title: "Webinar: How Trends in API Documentation Differ from other Tech Comm Trends"
+title: "Webinar recording: How Trends in API Documentation Differ from other Tech Comm Trends"
 permalink: /blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/
 categories:
 - api-doc
-keywords:
-bitlink: https://idratherbewriting.site/webinardevdoctrends
-description: "I'm giving a webinar on trends in developer docs on March 12, 2020. The webinar is through the STC Washington DC chapter but anyone is invited to attend. Details are below."
+- podcasts
+- stitcher
+keywords: API documentation, trends, surveys, postman, making requests
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/devdoctrendswebinar.mp3
+podcast_file_size: "59:01 MB"
+podcast_duration: "01:28:07"
+podcast_length: "50,276,297"
+bitlink: https://idratherbewriting.site/webinardevdoctrendsrecordingo
+description: "I recently gave a webinar on trends in developer docs to the STC Washington DC chapter on March 12, 2020. In this presentation, I presented the results and analysis of my <a href='https://www.questionpro.com/t/PGhS9ZgCFE'>Trends in Developer Documentation 2020 survey</a>. A recording and audio file is available below."
 ---
-
-<a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><img style="border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/apiwebinardevdocdc.png" alt="Webinar on Comparing trends in developer docs with more general tech comm trends"/></a>
-
-**Webinar:** How Trends in API Documentation Differ from other Tech Comm Trends<br/>
-**Presenter:** Tom Johnson<br/>
-**Date:** Thursday, March 12, 2020 <br/>
-**Location:** Online<br/>
-**Time:** 1:00 PM – 2:00 PM EDT<br/>
-**Cost:** $0 to $15
-**Registration:** <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647">EventBrite</a>
 
 ## Slides
 
@@ -26,9 +22,19 @@ My slides are here:
 
 ## Recording
 
-Coming soon... The recording will be posted and embedded here after the webinar.
+<iframe width="640" height="360" src="https://www.youtube.com/embed/YzCPZwfF5SY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Description
+## Standalone audio
+
+Just want to listen to the audio? You can do so here:
+
+{% include audio.html %}
+
+## Survey results
+
+* [Trends in developer documentation 2020 - Dashboard](https://www.questionpro.com/t/PGhS9ZgCFE)
+
+## Webinar Description
 
 Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647):
 
@@ -57,3 +63,13 @@ Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-dev
 </div>
 
 <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><button type="button" class="btn btn-warning">Register on Eventbrite</button></a>
+
+## Webinar details
+
+**Webinar:** How Trends in API Documentation Differ from other Tech Comm Trends<br/>
+**Presenter:** Tom Johnson<br/>
+**Date:** Thursday, March 12, 2020 <br/>
+**Location:** Online<br/>
+**Time:** 1:00 PM – 2:00 PM EDT<br/>
+**Cost:** $0 to $15<br/>
+**Registration:** <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647">EventBrite</a>
