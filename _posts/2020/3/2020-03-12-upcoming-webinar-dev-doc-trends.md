@@ -1,5 +1,5 @@
 ---
-title: "Upcoming webinar: How Trends in API Documentation Differ from other Tech Comm Trends"
+title: "Webinar: How Trends in API Documentation Differ from other Tech Comm Trends"
 permalink: /blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/
 categories:
 - api-doc
@@ -16,8 +16,19 @@ description: "I'm giving a webinar on trends in developer docs on March 12, 2020
 **Location:** Online<br/>
 **Time:** 1:00 PM – 2:00 PM EDT<br/>
 **Cost:** $0 to $15
+**Registration:** <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647">EventBrite</a>
 
-<a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><button type="button" class="btn btn-warning">Register on Eventbrite</button></a>
+## Slides
+
+My slides are here:
+
+<a href="https://idratherbewriting.com/learnapidoc/slides/devdoctrends.html"><img style="max-width: 400px" src="https://idratherbewritingmedia.com/images/api/trendstitleslideapidocpreso.png" /></a>
+
+## Recording
+
+Coming soon... The recording will be posted and embedded here after the webinar.
+
+## Description
 
 Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647):
 
@@ -44,3 +55,5 @@ Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-dev
       <h2><div id="eventName"></div></h2>
       <div id="eventDescription"></div>
 </div>
+
+<a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647"><button type="button" class="btn btn-warning">Register on Eventbrite</button></a>
