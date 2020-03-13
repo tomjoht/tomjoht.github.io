@@ -20,7 +20,7 @@ My slides are here:
 
 <a href="https://idratherbewriting.com/learnapidoc/slides/devdoctrends.html"><img style="max-width: 400px" src="https://idratherbewritingmedia.com/images/api/trendstitleslideapidocpreso.png" /></a>
 
-## Recording
+## Webinar recording
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/UOc2g-yRFxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -72,4 +72,3 @@ Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-dev
 **Location:** Online<br/>
 **Time:** 1:00 PM – 2:00 PM EDT<br/>
 **Cost:** $0 to $15<br/>
-**Registration:** <a href="https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647">EventBrite</a>
