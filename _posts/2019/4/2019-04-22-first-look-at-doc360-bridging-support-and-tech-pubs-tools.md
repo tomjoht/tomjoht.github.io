@@ -30,7 +30,7 @@ In Document360, you author content in Markdown. Document360 provides a split-pan
 
 <figure><img src="https://idratherbewritingmedia.com/images/doc360_markdown.png" alt="Writing in Markdown in Document 360" /><figcaption>Writing in Markdown in Document 360</figcaption></figure>
 
-Document360 also includes some built-in snippets for notes, warnings, or other common formatting. For more, see <a rel="nofollow" href="https://docs.document360.io/docs/markdown-guide">Markdown Guide</a>.
+Document360 also includes some built-in snippets for notes, warnings, or other common formatting. For more, see <a href="https://docs.document360.io/docs/markdown-guide">Markdown Guide</a>.
 
 ### Multiple documentation websites
 
@@ -40,7 +40,7 @@ You can create multiple documentation websites for all the products you document
 
 Additionally, you can create granular permissions for each documentation website. You can make some documentation websites public, others private. You can also configure permissions for team members on a project-by-project basis as well, giving authoring control for some portals, or read-only control for others.
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/document360-user-website">Document360 User website</a>.
+For more, see <a href="https://docs.document360.io/docs/document360-user-website">Document360 User website</a>.
 
 ## Landing page editor
 
@@ -50,7 +50,7 @@ In addition to providing structure for your knowledge base, Document360 also pro
 
 Each of these documentation websites can be consolidated into a larger doc portal.
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/landing-page-customization">Landing Page Customization</a>.
+For more, see <a href="https://docs.document360.io/docs/landing-page-customization">Landing Page Customization</a>.
 
 ### Sidebar navigation
 
@@ -66,7 +66,7 @@ You can customize the HTML in each documentation website with unique branding. T
 
 <figure><img src="https://idratherbewritingmedia.com/images/doc360_customhtml.png" alt="Custom headers, footers, and styles in Document 360" /><figcaption>Custom headers, footers, and styles in Document 360</figcaption></figure>
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/appearance-general-settings">General Settings</a> and <a rel="nofollow" href="https://docs.document360.io/docs/custom-css-javascript">Custom CSS & JavaScript</a>.
+For more, see <a href="https://docs.document360.io/docs/appearance-general-settings">General Settings</a> and <a href="https://docs.document360.io/docs/custom-css-javascript">Custom CSS & JavaScript</a>.
 
 ### Algolia-based search
 
@@ -74,7 +74,7 @@ Each documentation website has its own Algolia-powered search feature, which can
 
 <figure><img src="https://idratherbewritingmedia.com/images/doc360_immediatesearchresults.png" alt="Algolia-based search results in Document 360" /><figcaption>Algolia-based search results in Document 360</figcaption></figure>
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/document360-user-website">Search Option</a> in General Settings.
+For more, see <a href="https://docs.document360.io/docs/document360-user-website">Search Option</a> in General Settings.
 
 ### Built-in analytics
 
@@ -82,7 +82,7 @@ Document360 has built-in analytics that shows your most popular articles, search
 
 <figure><img src="https://idratherbewritingmedia.com/images/doc360_builtinanalytics.png" alt="Built-in document analytics in Document 360" /><figcaption>Built-in document analytics in Document 360</figcaption></figure>
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/analytics">Analytics Metrics</a>.
+For more, see <a href="https://docs.document360.io/docs/analytics">Analytics Metrics</a>.
 
 ### Version control
 
@@ -90,7 +90,7 @@ Document360 provides version control features for content, in case you need to s
 
 <figure><img src="https://idratherbewritingmedia.com/images/doc360_versioncontrol.png" alt="Version control in Document 360" /><figcaption>Version control in Document 360</figcaption></figure>
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/article-versioning">Article versioning</a>.
+For more, see <a href="https://docs.document360.io/docs/article-versioning">Article versioning</a>.
 
 ### SEO
 
@@ -98,7 +98,7 @@ You can also customize the SEO for content, providing a title and description th
 
 <figure><img src="https://idratherbewritingmedia.com/images/doc360_seo_tags_related.png" alt="Customizing articles with SEO information, related articles, and tags" /><figcaption>Customizing articles with SEO information, related articles, and tags</figcaption></figure>
 
-For more, see <a rel="nofollow" href="https://docs.document360.io/docs/article-settings">Article Settings</a>.
+For more, see <a href="https://docs.document360.io/docs/article-settings">Article Settings</a>.
 
 ### Additional features
 
@@ -124,7 +124,7 @@ Why are these groups, which have such similar goals, so often using tools that d
 
 When these groups operate with separate knowledge sources, the information gaps between the two grow wider and users suffer. Document360 give us a new solution to the docs/support problem with an impressive platform that might just be the right way to bring these two groups together.
 
-To learn more, see <a href='https://rebrand.ly/doc360'>Document360</a>. You can get a good sense of Document360 by <a rel="nofollow" href="https://docs.document360.io/docs">exploring its own documentation</a> (which of courses uses Document360).
+To learn more, see <a href='https://rebrand.ly/doc360'>Document360</a>. You can get a good sense of Document360 by <a href="https://docs.document360.io/docs">exploring its own documentation</a> (which of courses uses Document360).
 
 For more comments and discussion on this post, see the [related Linkedin thread](https://www.linkedin.com/feed/update/urn:li:activity:6526458595519926272).
 

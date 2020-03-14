@@ -4,7 +4,36 @@ permalink: /category-podcasts/
 categoryName: podcasts
 ---
 
-<p>You can subscribe to my podcast here: <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">iTunes</a> | <a href="https://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast">Stitcher</a> | <a href="https://pca.st/qoZt">Pocketcasts</a> | <a href="https://idratherbewriting.com/itunes.rss">RSS</a> | <a href="https://podcasts.google.com/?feed=aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL3R3dnBvZGNhc3Q">Google Podcasts</a></p>
+<p>You can listen to the I'd Rather Be Writing podcast on most podcast platforms:</p>
+
+<div class="podcastButtons">
+<div class="podcastcol1">
+
+<a target="_blank" href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275"><img src="https://idratherbewritingmedia.com/images/apple-listen.png" /></a>
+
+<a target="_blank" href="https://podcasts.google.com/?feed=aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL3R3dnBvZGNhc3Q"><img src="https://idratherbewritingmedia.com/images/google-listen.png"/></a>
+
+<a target="_blank" href="https://pca.st/qoZt"><img src="https://idratherbewritingmedia.com/images/pocketcasts_large_dark@2x.png" /></a>
+</div>
+
+<div class="podcastcol2">
+<a target="_blank" href="https://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"><img src="https://idratherbewritingmedia.com/images/stitcher-listen.png" /></a>
+
+<a target="_blank" href="https://overcast.fm/itunes277365275/id-rather-be-writing"><img src="https://idratherbewritingmedia.com/images/overcast-listen.jpg" /></a>
+
+<a target="_blank" href="https://tunein.com/podcasts/Technology-Podcasts/Id-Rather-Be-Writing-p1175738/"><img src="https://idratherbewritingmedia.com/images/tunein-listen2.png"/></a>
+</div>
+<div class="podcastcol3">
+
+<a target="_blank" href="#"><img src="https://idratherbewritingmedia.com/images/spotify-listen2.png" /></a>
+
+<a target="_blank" href="https://idratherbewriting.com/itunes.rss"><img src="https://idratherbewritingmedia.com/images/listen-in-rss.svg" /></a>
+
+<a target="_blank" href="https://feeds.acast.com/public/shows/5e6d6311adf575a35115f6c8"><img src="https://idratherbewritingmedia.com/images/listen-acast4.png"/></a>
+</div>
+</div>
+<div style="clear: both;"></div>
+
 
     {% for p in site.categories.podcasts %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
