@@ -1585,7 +1585,7 @@ ul#mysidebar.nav > li.subcatTitle {
   max-width: 150px;
 }
 
-.podcastButtons .podcastcol1, .podcastButtons .podcastcol2, .podcastButtons .podcastcol3 {
+.podcastButtons .podcastcol1, .podcastButtons .podcastcol2, .podcastButtons .podcastcol3, .podcastButtons .podcastcol4 {
   float: left;
   padding: 10px;
 }

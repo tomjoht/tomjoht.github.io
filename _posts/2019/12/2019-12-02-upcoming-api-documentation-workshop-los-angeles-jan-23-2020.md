@@ -57,4 +57,17 @@ If you have any questions, just reach out to me at <a href="mailto:tomjoht@gmail
 
 (By the way, the above title, description, and link are pulled from EventBrite directly through the [Retrieve an Event](https://www.eventbrite.com/platform/api#/reference/event/retrieve-an-event) endpoint in the EventBrite API. This is something you'll learn to do in the workshop.)
 
+## Video recording
+
+I recorded the first part of the workshop and have made it available below.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Ew3_sdRcEA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This recording covers these two sections in my [API course](/learnapidoc/):
+
+* [Introduction to REST API documentation](/learnapidoc/docapis_intro_to_rest_api_doc.html)
+* [Using an API like a developer](/learnapidoc/likeadeveloper.html)
+
+See [Introduction to API documentation - Recording from Los Angeles API documentation workshop](/blog/introduction-to-api-documentation-la-workshop-recording/) for more details.
+
 {% include random_ad.html %}
