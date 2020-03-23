@@ -3,7 +3,7 @@ title: "How life has changed with the pandemic"
 permalink: /blog/how-life-has-changed-with-the-pandemic/
 categories:
 - writing
-keywords:
+keywords: corona virus, working from home, disruption, world events
 rebrandly: https://idratherbewriting.site/howlifechanged
 description: "These past two weeks have been incredibly disruptive in terms of world events, and while I usually avoid writing about current events and tend to stay within the tech comm focus, it seems like ignoring the elephant in the room not to mention something about the Corona Virus pandemic."
 ---

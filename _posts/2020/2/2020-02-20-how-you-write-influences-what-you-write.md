@@ -171,7 +171,7 @@ The promise of wikis was to allow docs to be crowdsourced by a community of disp
 
 Wikis provided an interesting platform. During the heyday of wikis, I was smack in the middle of a volunteer community and publishing content on MediaWiki. It was cool to monitor updates across the site and wonder about the identify of all the contributors making edits. Wikis introduced a more collaborative platform than any other before (and one that has won out as the default platform for internal docs).
 
-One academic, Guiseppe Getto, who engages in iFixit projects with students, noted that wikis provide a "reciprocal network" that creates constant feedback loops in writing. He referenced [Latour's Actor-network theory](https://en.wikipedia.org/wiki/Actor%E2%80%93network_theory) to describe a model where the tool one uses literally becomes an actor in a network of influences that produces a result.
+One academic, Guiseppe Getto, who engages in iFixit projects with students, noted that wikis provide a "reciprocal network" that creates constant feedback loops in writing. He referenced [Latour's Actor-network theory](https://en.wikipedia.org/wiki/Actor-network_theory) to describe a model where the tool one uses literally becomes an actor in a network of influences that produces a result.
 
 Guiseppe writes,
 
