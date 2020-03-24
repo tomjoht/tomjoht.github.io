@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/wfhpurchases
-description: "Now that most of us are working from home, I thought I might write a post about things I've bought as a result of working from home in an effort to be more comfortable and productive."
+description: "Now that most of us are working from home, I thought I might write a post about things I've bought in an effort to be more comfortable and productive in wfh mode."
 ---
 
 <style>
@@ -22,7 +22,7 @@ description: "Now that most of us are working from home, I thought I might write
 }
 </style>
 
-First, let me note that I don't regularly work from home (WFH), so I'm not a pro here about what to buy. At any rate, here are about 10 things I either purchased, brought home from work, or acquired in the past and am using now in a WFH arrangement.
+First, let me note that I don't regularly work from home, so I'm not a pro here about what to buy. At any rate, here are about 10 things I either purchased, brought home from work, or acquired in the past and am using now in a WFH arrangement.
 
 <hr/>
 
@@ -38,7 +38,7 @@ First, let me note that I don't regularly work from home (WFH), so I'm not a pro
 
 <hr style="clear:both"/>
 
-<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B0794WBPHK/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_mouse_pad.png" alt="oversized mouse/desk pad"/></a><a href="https://www.amazon.com/gp/product/B0794WBPHK/">Oversized mouse/desk pad</a>. I love this over-sized mouse/desk pad as it seems to give more visual packaging to my work area. It also eliminates the possibility of dragging my mouse off of a small square. The only problem is that it can become a placemat for anything I set in front of me, like coffee.</p>
+<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B0794WBPHK/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_mouse_pad.png" alt="oversized mouse/desk pad"/></a><a href="https://www.amazon.com/gp/product/B0794WBPHK/">Oversized mouse/desk pad</a>. I love this over-sized mouse/desk pad as it seems to give more visual packaging to my work area. It also eliminates the possibility of dragging my mouse off of a small square. The only problem is that it can become a placemat for anything I set in front of me, like coffee. I'm guessing that overtime it will get dirty like a placemat too.</p>
 
 <hr style="clear:both"/>
 
@@ -50,7 +50,7 @@ First, let me note that I don't regularly work from home (WFH), so I'm not a pro
 
 <hr style="clear:both"/>
 
-<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B00SAYCVTQ/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_headphones.png" alt="headphones"/></a><a href="https://www.amazon.com/gp/product/B00SAYCVTQ/">Headphones</a>. I love these headphones. They cancel out quite a bit of noise and are comfortable to wear. The mic is removable, but I often just switch them around so the mic is on back when I'm not in meetings. Otherwise, the extended mic cuts into my peripheral vision. I can't emphasize enough how important it is to block out noise when you're working from home with 5 other people in a small house. I highly recommend these headphones. No BlueTooth, so you still have a cord. The USB is detachable so you can use either the mic jack or USB.</p>
+<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B00SAYCVTQ/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_headphones.png" alt="headphones"/></a><a href="https://www.amazon.com/gp/product/B00SAYCVTQ/">Headphones</a>. I love these headphones. They cancel out quite a bit of noise and are comfortable to wear. The mic is removable, but I often just switch the headphones around so the mic is on back when I'm not in meetings. Otherwise, the extended mic cuts into my peripheral vision. I can't emphasize enough how important it is to block out noise when you're working from home with 5 other people in a small house. I highly recommend these headphones. No BlueTooth, so you still have a cord. The USB is detachable so you can use either the mic jack or USB.</p>
 
 <hr style="clear:both"/>
 
@@ -58,11 +58,11 @@ First, let me note that I don't regularly work from home (WFH), so I'm not a pro
 
 <hr style="clear:both"/>
 
-<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B00TCN0NP8/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_bidet.png" alt="bidet"/></a><a href="https://www.amazon.com/gp/product/B00TCN0NP8/">Bidet</a>. With the run on toilet paper, I decided to get this bidet. I wanted one that could withstand a lot of stress from kids and which wouldn't require me to plug something in (since I'd have to wrap the cord up and around my sink). Plus, I didn't want a heated seat because it would encourage people to camp out in the bathroom. So far, this is great. The bidet experience is a new one for me, but after a couple of days use, I'm already persuaded that bidets do a much better job than toilet paper. I won't be reverting to toilet paper after the pandemic. The plastic seat for this bidet seems a little flimsy, and it fits half an inch short and sometimes gets misaligned, but as this is my first bidet, I have no comparison points. The spray is super easy to activate and you can control the intensity. There are a couple of positions to choose from, but you might have to angle yourself for it to hit exactly where you want.</p>
+<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B00TCN0NP8/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_bidet.png" alt="bidet"/></a><a href="https://www.amazon.com/gp/product/B00TCN0NP8/">Bidet</a>. With the run on toilet paper, I decided to get this bidet. I wanted one that could withstand a lot of tinkering/button-pushing from kids and which wouldn't require me to plug something in (since I'd have to wrap the cord up and around my sink). Plus, I didn't want a heated seat because it would encourage people to camp out in the bathroom. So far, this is great. The bidet experience is a new one for me, but after a couple of days use, I'm already persuaded that bidets do a much better job than toilet paper. I won't be reverting to toilet paper after the pandemic. The plastic seat for this bidet seems a little flimsy, and it fits half an inch short and sometimes gets misaligned, but as this is my first bidet, I have no comparison points. The spray is super easy to activate and you can control the intensity. There are a couple of spray positions to choose from, but you might have to angle yourself for it to hit exactly where you want.</p>
 
 <hr style="clear:both"/>
 
-<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B07MHJTGKM/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_lumbar_support.png" alt="Lumbar support cushion"/></a><a href="https://www.amazon.com/gp/product/B07MHJTGKM/">Lumbar support cushion</a>. My back was hurting the first few days working from home, so I ordered this lumbar cushion. It works well but pushes me a good 3 inches forward in my chair. I guess that's the point, as it helps my posture. I only use the lumbar support occasionally. I also started going on a walk each day (about an hour), and I switched out my previous office chair with an Aeron office chair from work, which is much more comfortable. I think I might need to start doing more core strengthening exercises to fix my back issues.</p>
+<div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B07MHJTGKM/"><img class="thumbnailreview" src="http://idratherbewritingmedia.com/images/amazon_lumbar_support.png" alt="Lumbar support cushion"/></a><a href="https://www.amazon.com/gp/product/B07MHJTGKM/">Lumbar support cushion</a>. My back was hurting the first few days working from home, so I ordered this lumbar cushion. It works well but pushes me a good 3 inches forward in my chair. I guess that's the point, as it helps my posture. I only use the lumbar support occasionally. I also started going on a walk each day (about an hour), and I switched out my previous office chair with an Aeron office chair from work, which is much more comfortable. I think I might also need to start doing more core strengthening exercises to fix my back issues.</p>
 
 <hr style="clear:both"/>
 
