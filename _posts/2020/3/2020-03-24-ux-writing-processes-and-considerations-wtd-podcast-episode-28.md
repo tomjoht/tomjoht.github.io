@@ -1,6 +1,6 @@
 ---
 title: "UX writing processes and considerations -- WTD podcast episode 28"
-permalink: /blog/ux-writing-considerations-wtd-podcast-episode-28/
+permalink: /blog/ux-writing-processes-and-considerations-wtd-podcast-episode-28/
 categories:
 - writing
 - podcasts
