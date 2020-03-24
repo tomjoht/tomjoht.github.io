@@ -5,7 +5,7 @@ categories:
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/lifeonreset
-description: "With the shift to sheltering in place and working from home, I've noticed that my family has grown closer together and that working remotely is surprisingly better because everyone is remote."
+description: "With the shift to sheltering in place and working from home, I've noticed that my family has grown closer together and that working remotely goes better when everyone is also remote."
 ---
 
 We've taken a turn recently into uncharted territory with the recent pandemic. Not that the world hasn't seen pandemics like this before (for example, check this nifty [History of Pandemics infographic](https://external-preview.redd.it/DzleXs_rMnlhN1bbZsDtzwFVQOBP5KN3h_CUhR26uFY.jpg?auto=webp&s=0c4382952df250bf938499055c590fba2aaadb15)), but never at a point in time like this, when technology makes news a global instant, when social media saturates the world, when so many digital information jobs abound, and so on.

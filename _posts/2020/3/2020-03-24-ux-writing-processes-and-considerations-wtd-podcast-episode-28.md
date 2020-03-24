@@ -6,7 +6,7 @@ categories:
 - podcasts
 keywords:
 rebrandly: https://idratherbewriting.site/uxwriting
-description: "Write the Docs podcast episode 28 is a recording of a Berlin WTD meetup focused on UX writing processes. The event was live streamed on March 9, 2020 at the Humanitec in Berlin by Chris Ward."
+description: "Write the Docs podcast episode 28 is a recording of a Berlin WTD meetup focused on UX writing processes and considerations. The event was live streamed on March 9, 2020 at the Humanitec in Berlin by Chris Ward."
 ---
 
 ## Event description
@@ -18,7 +18,9 @@ The Berlin meetup recording features two speakers:
 
 ## Listen to the recording
 
-You can listen to the episode here: [WTD Episode 28: UX writing - Starting and Scaling at your Company, Berlin WTD meetup](https://podcast.writethedocs.org/2020/03/17/episode-28-ux-writing-berlin-meetup/).
+You can listen to the episode here: [WTD Episode 28: UX writing - Starting and Scaling at your Company, Berlin WTD meetup](https://podcast.writethedocs.org/2020/03/17/episode-28-ux-writing-berlin-meetup/). Or through the embedded Youtube video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5oVi5TubspY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here are some photos from the event:
 
