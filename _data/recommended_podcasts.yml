@@ -1,0 +1,62 @@
+podcasts:
+
+
+- title: 10 Minute Tech Comm podcast
+  author: Ryan Weber
+  url: https://www.stitcher.com/podcast/uah-technical-writing/10minute-tech-comm
+  img: tenminute.jpg
+
+- title: Cherryleaf podcast
+  author: Ellis Pratt
+  url: https://cherryleaf.podbean.com/
+  img: cherryleaf.jpg
+
+- title: Content Content podcast
+  author: Ed Marsh
+  url: http://edmarsh.com/content-content-podcast/
+  img: edmarsh.jpg
+
+- title: Scriptorium - The Content Strategy Experts podcast
+  author: Ed Marsh
+  url: https://www.scriptorium.com/category/podcast/
+  img: contentstrategyexperts.jpg
+
+- title: I'd Rather Be Writing podcasts
+  author: Tom Johnson
+  url: http://idratherbewriting.com/category-podcasts/
+  img: tomjohnsonpodcast.jpg
+
+- title: Grammar Girl podcast
+  author: Mignon Fogarty
+  url: https://www.quickanddirtytips.com/grammar-girl
+  img: grammargirl.jpg
+
+- title: Write the Docs podcast
+  author: Chris Ward, Tom Johnson, and other WTD community
+  url: http://podcast.writethedocs.org/
+  img: wtdpodcast.png
+
+- title: The Not Boring Tech Writer
+  author: Jacob Moses
+  url: https://www.thenotboringtechwriter.com/
+  img: jacobmoses.jpg
+
+- title: Writers of Silicon Valley
+  author: Patrick Stafford
+  url: https://www.writersofsiliconvalley.com/
+  img: writers_of_silicon_valley.png
+
+- title: The Manuscript
+  author: Breno Barreto
+  url: https://podcasts.apple.com/podcast/the-manuscript/id1501843799
+  img: the_manuscript.png
+
+- title: Knowledgebase Ninjas
+  author: Gowri Ramkumar
+  url: https://document360.io/blog/category/knowledgebase-ninjas/
+  img: knowledgebase_ninjas.png
+
+- title: The Content Strategy Podcast
+  author: Kristina Halvorson
+  url: https://www.contentstrategy.com/podcast
+  img: content_strategy.png

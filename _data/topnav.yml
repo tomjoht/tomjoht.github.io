@@ -141,6 +141,8 @@ topnav_dropdowns:
         external_url: https://idratherbewriting.com/documentation-theme-jekyll/
       - title: Posts for beginners
         url: /category-beginners/
+      - title: Technical writing podcasts
+        url: /technical-writing-podcasts/
       - title: Advertising info
         url: /advertising/
       - title: Academic/Practitioner Conversations Project

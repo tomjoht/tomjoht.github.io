@@ -1593,3 +1593,9 @@ ul#mysidebar.nav > li.subcatTitle {
 #podcastButtonArea {
   background-color: #f0f0f0;
 }
+
+img.recommendedPodcasts {
+    float: left;
+    padding: 20px;
+    max-width: 150px;
+}

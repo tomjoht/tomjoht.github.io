@@ -4,7 +4,7 @@ permalink: /blog/working-from-home-things-i-have-bought/
 categories:
 - writing
 keywords:
-rebrandly: https://idratherbewriting.site/wfhaccoutrements
+rebrandly: https://idratherbewriting.site/wfhpurchases
 description: "Now that most of us are working from home, I thought I might write a post about things I've bought as a result of working from home in an effort to be more comfortable and productive."
 ---
 
