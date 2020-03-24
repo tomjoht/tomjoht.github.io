@@ -23,6 +23,7 @@ In addition to the above, you might also enjoy these other tech comm podcasts:
 * [The Not Boring Tech Writer](https://www.thenotboringtechwriter.com/)
 * [10 Minute Tech Comm](https://www.stitcher.com/podcast/uah-technical-writing/10minute-tech-comm)
 * [Content Content](http://edmarsh.com/content-content-podcast/)
+* [Instrktiv's Insane Instructions Show](https://open.spotify.com/show/0OqluDn7YSjc1cdAULPOB8) (new)
 * [The Manuscript](https://podcasts.apple.com/podcast/the-manuscript/id1501843799) (new)
 * [The Knowledgebase Ninjas](https://document360.io/blog/category/knowledgebase-ninjas/) (new)
 
