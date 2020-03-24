@@ -4,7 +4,7 @@ permalink: /blog/tech-comm-podcasts-are-growing/
 categories:
 - podcasts
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/podcastsgrowing
 description: "Podcasts seem to be growing now more than ever. Here's a list of more than ten that you can listen to."
 ---
 
@@ -28,7 +28,7 @@ In addition to the above, you might also enjoy these other tech comm podcasts:
 
 I added a list of these podcasts on a new page on my site called [Technical writing podcasts](/technical-writing-podcasts/):
 
-<a href="/technical-writing-podcasts/"><img style="max-width=500px; border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/recommendpodcastsscreenshot.png"/></a>
+<a href="/technical-writing-podcasts/"><img style="max-width=500px; border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/recommendpodcastsscreenshot2.png"/></a>
 
 Also, on my [Podcasts page](/category-podcasts/), I added some more subscribe buttons:
 
