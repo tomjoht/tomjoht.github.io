@@ -12,6 +12,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
               {% for entry in site.data.topnav.topnav %}
+              {% include navtoggle.html %}
               {% for subcategory in entry.subcategories %}
               {% if subcategory.external_url %}
               <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
@@ -22,7 +23,7 @@
               {% endif %}
               {% endfor %}
               {% endfor %}
-              
+
                 {% for entry in site.data.topnav.topnav_dropdowns %}
                 {% for subcategory in entry.subcategories %}
                 <li class="dropdown">
