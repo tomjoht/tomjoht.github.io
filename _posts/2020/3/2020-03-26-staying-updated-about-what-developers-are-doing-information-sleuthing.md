@@ -47,7 +47,7 @@ EMBED_PARAMS.surveyID =7234748;
 EMBED_PARAMS.domain ="//www.questionpro.com";
 EMBED_PARAMS.src ="//www.questionpro.com/a/TakeSurvey?tt=IakgWmNzGHM%3D";
 EMBED_PARAMS.width ="100%";
-EMBED_PARAMS.height = null;
+EMBED_PARAMS.height = "600px";
 EMBED_PARAMS.border = "hidden";
 </script>
 <div id="div_7234748"></div>
