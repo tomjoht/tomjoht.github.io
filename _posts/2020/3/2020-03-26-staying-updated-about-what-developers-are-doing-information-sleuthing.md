@@ -41,7 +41,6 @@ Again, information sleuthing probably shouldn't be required in a "doc-first" typ
 
 Just for fun, I'm including a few survey questions to gather your feedback and experience. You can see the ongoing results [here](https://www.questionpro.com/t/PGsPNZg2Sb).
 
-
 <script>
 EMBED_PARAMS = {};
 EMBED_PARAMS.surveyID =7234748;

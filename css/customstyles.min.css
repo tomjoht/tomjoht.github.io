@@ -1599,3 +1599,38 @@ img.recommendedPodcasts {
     padding: 20px;
     max-width: 150px;
 }
+/* nav toggle into reading mode */
+.navToggle {
+display: none !important;
+}
+
+.expand {
+width: 74%;
+margin-left: 15%;
+margin-right: 10%;
+}
+#tg-sb-link:hover, #tg-sb-link:active,  #tg-sb-link:focus, #tg-sb-link {
+text-decoration: none !important;
+color: #444;
+}
+
+.fa-toggle-on {
+  color: gray;
+}
+div.col-md-9.expand p,
+div.col-md-9.expand li,
+div.col-md-9.expand .homepageSummary,
+div.col-md-9.expand blockquote
+ {
+  font-size: 26px;
+  font-size: 22px;
+  color: #777;
+  line-height: 36px;
+  color: #777;
+}
+div.col-md-9.expand .summary {
+  font-size: 26px;
+}
+div.col-md-7.expand .siteLogo img {
+  display: none;
+}

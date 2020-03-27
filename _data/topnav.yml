@@ -4,6 +4,9 @@ topnav:
 - title: Topnav
   subcategories:
 
+    - title: Home
+      url: https://idratherbewriting.com/
+
     - title: API documentation course
       url: /learnapidoc/
 
