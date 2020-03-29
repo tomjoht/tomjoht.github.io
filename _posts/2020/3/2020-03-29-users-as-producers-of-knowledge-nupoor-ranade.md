@@ -25,7 +25,7 @@ We explore some of these questions during the podcast:
 * Docs-as-code approaches in the workplace
 * How writers' responsibilities have changed within the docs-as-code workflow
 * Skills writers need to develop to succeed and thrive in these changing roles
-* Focusing on the "changing nature of audiences especially in participatory networks, where audiences are not only the consumers of information but also the producers of knowledge" ([Introduction to Nupoor Ranade](http://www.digitalrhetoriccollaborative.org/2019/09/27/introduction-to-nupoor-ranade)
+* Focusing on the "changing nature of audiences especially in participatory networks, where audiences are not only the consumers of information but also the producers of knowledge" ([Introduction to Nupoor Ranade](http://www.digitalrhetoriccollaborative.org/2019/09/27/introduction-to-nupoor-ranade))
 * How audiences for dissertation research can co-create the research and shape the dissertation content
 
 ## Participating in the Nupoor's research
@@ -83,10 +83,15 @@ p.nupoorStyle {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+div.break {
+  background-color: white;
+}
 </style>
 
 {: .tomStyle}
 **Tom:** You're listening to a podcast from I'd Rather Be Writing. My name is Tom Johnson, and today I am speaking with Nupoor Ranade, a PhD candidate at the North Carolina State University. Nupoor, can you introduce yourself a little bit? Tell us what program you're in and what you are studying.
+
+<div class="break">&nbsp;</div>
 
 {: .nupoorStyle}
 **Nupoor:** Hi, Tom. Thanks for having me. Sure, I'd like to introduce myself here. I'm a PhD candidate in the Communications, Rhetoric and Digital Media program at the North Carolina State University. I joined the program in 2017 while I was completing my coursework and my prospective for my dissertation. At that time I was a "PhD student" or a doctoral student, and now that I'm in the last phase, which is my thesis or dissertation phase, I'm a "PhD candidate."
@@ -97,8 +102,12 @@ I work with Dr Jason Swarts. He's my advisor and the chair of my dissertation co
 {: .nupoorStyle}
 My research interests fall under technical communication, user experience research, and audience studies or user generated content because we have a lot of overlap among each other. Right now, I'm in my dissertation phase and basically in the data collection phase for my dissertation.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** Great! Now for listeners who don't know, actually in 2015 I met you at the tcworld conference, in Bangalore. I remember at that time you hadn't entered your PhD program, right? You were still a student working at a company -- I think you said Tibco. You were very energetic and really into tech comm. I remember you had a high energy level and interest in tech comm, and I kind of thought you would just follow the corporate route like most people, jumping from one company to another, climbing the ladders or whatever route we take in our careers. But instead you went the academic route &mdash; you entered a master's program at North Carolina in tech comm, and then a PhD program, and now you're entering the final stages of that with your dissertation. I'm just kind of curious, what prompted you to pursue the academic route rather than the traditional corporate route?
+
+<div class="break">&nbsp;</div>
 
 {: .nupoorStyle}
 **Nupoor:** Yes, I remember we met at the tcWorld 2015 conference and you were the keynote speaker. I was really excited to see you there. At that time I was a recent computer engineering graduate student and had just graduated from undergrad, and I was working as a technical writer with Tibco software.
@@ -121,11 +130,17 @@ The second reason to pursue a PhD was the visa issues. Not many people know abou
 {: .nupoorStyle}
 The insecurity, you know, the idea of losing the opportunity of staying in this country or continuing working with the organization that you're part of, is difficult for some students to navigate, which is why they turn to PhD programs &mdash; it's better for the visa or the work permit situation. We've got a non-exempt track, which is just a different track, being an academician. So it's about the more security granted to different folks. I wanted to stay in this country, continue research, and not go back to doing what I was doing in India. Those were the two main reasons.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** Wow. That's really interesting. I mean, this whole idea that you're working in a company, but then when you switch gears into an academic program you realize there's a huge disconnect between what you'd been taught on the job versus the theoretical foundations you were learning, is interesting to me. Do you plan to go back to India and grow the industry there with what you're learning in your program?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** I don't see myself doing that at least for the next five years. Currently, my focus is to graduate and perform more research here. In India, a lot of formal education programs in tech comm are growing, or at least people are starting up some of those programs and they go to universities. So if that happens, that would give me a good space art, a good platform to go and like share my research with students as well as the industry. At that point I would make the change.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** You've kind of surfaced a topic that I've written about on my blog before, and it's this divide between academia and the industry. I like your depiction here of how the industry might have more emphasis on tools and tech, and how on the flip side, the industry or the corporate world often doesn't have the emphasis on the critical analysis or the rhetorical thinking that is often emphasized in academic programs. I've often kind of lamented this divide in a lack of communication between the two, the disconnect.
@@ -133,17 +148,23 @@ The insecurity, you know, the idea of losing the opportunity of staying in this 
 {: .tomStyle}
 And so I'm excited to see your focus here and that you've actually been pretty successful in your research. I saw that you won a student research competition at SIGDOC. You won an award recently. Can you tell me a little bit about that?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Like I earlier mentioned, one of my research focuses this year is that experience and usability studies. When I was at SaaS, when I was interning there, I had an opportunity to conduct usability testing on their product documentation. At that time, they were revamping it a lot and wondered about how to gather more user input. This was a research projected that I conducted back then, as a way to optimize usability. My focus was on audience research, about how user research helps us dive deeper and how do we analyze our audiences and classify them or look at users from a multidimensional perspective. Dr. Albers, at ECU, talks about looking at your users from a multidimensional perspective, such as understanding the background, understanding other users based on specific characteristics.
 
 {: .nupoorStyle}
 I applied that model and wrote an algorithm to conduct a usability test and get more data than we get in conventional ones. I presented that research as SIGDOC, at the student research competition, which is sponsored by Microsoft. I was one of the first to do research on optimizing usability. And I also wrote a proceeding, which was published on their website as well.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** That's great. Yeah. I've actually been to a SIGDOC conference. There was one in Louisiana last year a couple of years ago. I met Dr. Albers there. He seemed like a pretty knowledgeable guy. Definitely very well known in the industry, very accomplished. So that's cool. And I like hearing about your research now. I was reading another article you wrote on the digital rhetoric rhetoric collaborative website, where you're saying that your current research focus, at least at the time of this article, was to "look at the changing nature of audiences, especially in participatory networks where audiences or audiences are not only the consumers of information, but also the producers of knowledge."
 
 {: .tomStyle}
 This perspective about looking at the audience as a producer of knowledge seems to be something that you're interested in. Can you tell me, is this kind of the focus of your PhD research, or is it different? And tell us a little bit more about that focus.
+
+<div class="break">&nbsp;</div>
 
 {: .nupoorStyle}
 **Nupoor:** Yes, this is definitely the focus of my PhD dissertation project  &mdash; to look at this change or transition in the way that we view audiences, but my research also goes back to the disconnect between academia and industry. The idea of docs as code or open authoring is absent currently from academic research, and it's being talked about all over the place, in the industry.
@@ -166,11 +187,15 @@ The information gets lost somewhere. For example, tools like Google analytics pr
 {: .nupoorStyle}
 Also taking the research to the industry to help industry practitioners, what they can get out of it and what to do with it, helping practitioners make sense of the data that they are getting about the users.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** Cool. I like this focus on the users actually. I think if we were to boil down what's a best practice for writing in general, it would be to focus on the user &mdash; their pain points, their information needs, what their goals are, what problems are encountering. If there's anything that drags documentation down, it's our lack of awareness of that user. So it's definitely a great focus. And this whole emerging trend about docs-as-code, I think it's great to hear that you're including that and focusing on that, because it's sort of absent from academia. I think that's a definitely a gap, and these two worlds can connect in better ways. We're going to dive into that more as we talk.
 
 {: .tomStyle}
 I know you want to collect data for your research, since you're in the data collection sort of phase of your dissertation, right? What are you hoping to get help from practitioners about? What kind of data are you trying to gather?
+
+<div class="break">&nbsp;</div>
 
 {: .nupoorStyle}
 **Nupoor:** Just by talking to practitioners about their day to day activities, I'm learning a lot about the documentation process itself. Earlier we used the waterfall models in most companies for documentation, and now we've changed to a more agile approach. As a result, a lot of practices are changing in terms of how writers collaborate with developers and other stakeholders. This collaboration extends to users as well. I'm interested in those practices.
@@ -180,6 +205,8 @@ I want to know the ways in which writers try to understand users or connect with
 
 {: .nupoorStyle}
 This kind of collaborative space that practitioners talk about, their relationship with the outside world of users, their interactions outside the organization, their infrastructure and collaboration channels and what interactions are happening &mdash; that's what I'm interested in.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Oh, that's good. I think we're going to have a lot more to say about this collaborative space, especially when we're talking about docs-as-code, because I think this workflow definitely opens up the communication channels between users and those producing content.
@@ -193,8 +220,12 @@ He said that with minimalism, a third of the content should really be focused on
 {: .tomStyle}
 All right, so now you have some questions for me, too, that you want to ask, so why don't we shift gears a little bit and now you drive questions and all I'll answer?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Great, I'd like to continue from the previous question, what I asked practitioners, and also ask you too. Can you talk about what you do on a day to day basis as the technical or professional communicator with the organization that you're part of?
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** I work at Amazon in the Appstore side of the business, which is not AWS. Most people just kind of assume that I work in AWS and it's not the case. There are hundreds of technical writers at Amazon. Only like a third of them are AWS. Anyway, the Appstore is focused on getting third-party developers to build apps for Amazon's platforms, like Fire TV, Fire tablet, and other services.
@@ -208,17 +239,24 @@ In my current group, we're a two person team in terms of the tech writers. We pl
 {: .tomStyle}
 Because we're only two, two people, we will often work with a lot of different teams within the organization. Sometimes we write the docs for these teams, but other times we'll just say, hey, you need to submit a pull request (or code review, CR) with the changes you want into the documentation, because we're not going to write it. We don't know your product, and we're not going to ramp up on it, but we are going to edit and publish your documentation. That's becoming more common as the organization grows and it just becomes impossible to write for all these different teams. As a result, we end up becoming more like the gatekeepers and managers and content stewards of the content. This role has its pluses and minuses.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Yeah, I an see that with the gatekeeper manager role. I'm sure you also have to do a lot of editing and reviewing each other's work since you are the only two writers there. Do you have an editorial team for that kind of work?
 
+<div class="break">&nbsp;</div>
 {: .tomStyle}
 **Tom:** There's another doc team that has an editor and they've got a style guide, and they're a little bit more robust in terms of their size. I think they have, you know, five times as many writers as our team (or they once did). So yeah, it just varies. There's lots of like different pockets of writers at Amazon. Some are more robust than others.
 
 {: .tomStyle}
 If you're part of AWS, then you're part of a group of more than a hundred writers. And if you're part of Seller Central, you're also part of a big group. But you could also be a lone writer, and as such maybe you'll have to come up with all your own tools, your own delivery method, whereas if you're part of a big group, you're, you're aligning with that group's existing toolset and workflow.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** That's great. So do you use the docs-as-code approach?
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Yes, we do. And now here's where I do want to expand a little bit. To provide some background on docs-as-code, because this is new concept for many academics and others, the basic philosophy is to treat documentation somewhat the same as you treat code.
@@ -241,14 +279,22 @@ Methodologies and practices vary of course. In my group, the term we use is to "
 {: .tomStyle}
 One advantage of docs as code is that people don't need special tools or proprietary licenses. You can change their content after you merge it in, or you can reject the pull request and require them to fix a few things first. You can say, no, this isn't good enough to merge in. Or you need more detail, so work on it more. And people sort of understand that workflow, you don't have to explain it. They get it. And that's kind of a cool approach. But again, only for developers and only in basically software documentation shops that are creating dev docs such as API docs. If you're in other industries, I don't think it makes as much sense.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** You were talking about the format of the documents and that because it's Markdown, it's easier to merge in their pull requests. So I'm assuming that you're using GitHub for the infrastructure?
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** We're using Git. We're not, not necessarily GitHub. Github is just an online hub that manages Git projects. Most companies have their own internal Git infrastructure. We're just piggybacking off of that at our company for docs. I recently did some surveys asking people what their tools are, and it's very common that people have custom tools. By custom it's likely their company's infrastructure, engineering build management systems and so forth. That's pretty much the default now. Developers manage their code using Git within their company's own infrastructure. We're just leveraging that. If you have developers helping to build out our own doc workflows, it will be easier to use the same infrastructure and tooling. It just makes it easier.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** But ...
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Sorry, I wanted to add one more thing. I have tried actually putting content out on GitHub, and I know that AWS group does do this, or rather, one of their *outputs* is GitHub, interestingly enough. GitHub is probably important to consider if you're trying to get users, not just internal engineers and stakeholders, to author and contribute to the content. If you want to actually get the user's feedback, GitHub can be important because it gives them a place to log issues and otherwise interact. Whereas if you don't have that, that distribution point, it makes it very difficult.
@@ -256,14 +302,22 @@ One advantage of docs as code is that people don't need special tools or proprie
 {: .tomStyle}
 But having all your source on GitHub is not easy because when you're creating content prior to release, you can't really push it out there on GitHub because a GitHub is open. So you have more complexities in terms of how you're going to manage that content. Anyway....
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Yeah, no, I think that's a great point. And I can understand how this could work best for like a smaller team, a team where you have developers contributing content such as API docs in your case. But like you said, being open puts a lot of pressure on the project management process itself in some ways. There are many people participate in constantly other release cycles and tend to doing all of that.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** When you say too many people participating, do you mean like internal, internal engineer's authoring or external users?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** I mean external users creating issues and constantly the documentation being updated in some way or the other.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Yeah, one unfortunate reality is that once you release a product, you kind of move on to another, same with the development team. Teams aren't allocated and resourced to projects for the entire life of the project. You're not always available and dedicated to that project. So let's say you create a sample app, you push it out to GitHub, and at first it's exciting. You know, people are are downloading it, they're cloning your project, they're forking it. But then the engineering team moves on. The tech writer moves on because that project is sort of done, but users keep logging issues on GitHub. They have suddenly a public space where they can note problems, right?
@@ -277,8 +331,12 @@ That's kind of the realities of having a lot of different projects and a lot of 
 {: .tomStyle}
 But it can be a bad thing if you're like, uh, we're kind of archiving this project in a read-only mode. GitHub empowers people with a voice. But you might only want that input if you're actively working on the project, trying to make it better. This is usually a best practice. There's no way you can anticipate all the problems people will have with things, before it's released. But on the other hand, writers and dev teams aren't always working in this mode to actively improve products, and when this happens, the public space for users to interact can be difficult, especially if you're a customer-centric company.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Yeah, that's really interesting. Considering the lifetime of the project, it's such an important thing as they move to collecting user feedback. I'm trying to understand how the writer's responsibilities have changed, changed, over the period of time, either for using the docs as code approach or for content that is otherwise openly authored, where anyone can come in and contribute. I'm interested in how writers are now acting more as collaborators, as reviewers, moderators, gatekeepers, like you mentioned earlier. Could you, tell us a little more about each of these goals.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Yes, I do think the role is significantly changing, especially in, in the developer documentation domain. A lot of times the technologies are complex, right? They're often things that like the engineers themselves just need to document and explain. I mean, technical writers can, of course, write all this content, and there are varying levels of tech savvy, but the ability to, to jump in and suddenly explain it all, like o, here's how you're gonna make all your calls with this C++ API, and here's the workflow, etc., it's not practical to quickly document all of this. You want to let developers explain the code that they've written. At the same time, developers often don't have much of a clue about publishing tools or how to get content in front of users. So technical writers will often play more of an editorial and publishing role.
@@ -307,8 +365,12 @@ Or everybody's going to page X and we have no idea why &mdash; is there some iss
 {: .tomStyle}
 All those activities are incredibly important because they influence the content, but they don't necessarily require you to author the content. That said, it's not as if you can be completely unaware of what the content is all about, right? If there's a workflow that describes something, you have to understand whether the right language is being used, the right terms and lingo, whether it's aligning with sort of industry best practices and so forth. But a lot of that will come out when you begin this review process.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** That's really interesting to me. It seems like it's a very genre specific, so it works for the product documentation and, and bigger, or like maybe smaller organizations, but more of in a software company, where the focus is on content publishing and involves different teams. I'm also wondering about those beginning in technical writing, maybe trying to do a certification course or a master's degree in technical communication and who wants to apply for a job like this. Do you think that that's a skill, the collaboration aspect, is that a skill that you look for when you're hiring technically writers for your team?
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** This is another sad kind of aspect of the profession &mdash; there's a disconnect between the hiring criteria and what people actually do on the job. Hiring criteria basically requires, at least in the API doc space, requires candidates to be tech savvy. A lot of companies, especially if they have engineers who are running the hiring committee will favor tech, and if a candidate can't articulate a code sample in the way they want, then they may get passed over. I don't think that when people hire, they're aware of all of these other roles technical writers can play. These roles such as editor, publisher, a collaborator reviewer, they're often overlooked.
@@ -331,17 +393,23 @@ So it's not just a matter of giving lip service to having people skills. It's be
 {: .tomStyle}
 And then when they get in the role, you'll realize that you have multi-dimensional role as an editor and a publisher and a collaborator and a reviewer. There's a lot of different facets of tech comm, and they might be emphasized in different scenarios and teams.
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Yeah, that is interesting. I really liked the idea of presenting yourself as a user advocate, which I think students can do in their own spaces, when they are working on their graduate studies or when they are working on projects by themselves or open source authoring and trying to contribute to these open source software and documentation.
 
 {: .nupoorStyle}
 I mean, that could be a good place to start for them. And then to showcase their skills and the ability to play these different roles. So I think those were all the questions that I had.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** Hey, I just have one more question. This was one I had on my list for you, but I didn't ask earlier. So you're focusing a lot on having the user be a producer of knowledge or looking at ways users influence the production of knowledge.
 
 {: .tomStyle}
 I'm just kinda wondering how these concepts might apply in academia. Let's say that PhD candidates are writing dissertations. How could you have the audience for the dissertation also be part producer in that dissertation? Is that something that's ever been done or like, is that not feasible and why?
+
+<div class="break">&nbsp;</div>
 
 {: .nupoorStyle}
 **Nupoor:** Incidentally, because I've chosen this project, or this idea for my dissertation, I decided to write my dissertation on GitHub. And NC state has their own enterprise version of GitHub. So right now I have hosted the first chapter on GitHub, which I can open up to collaborators or other researchers who would want to contribute to it. But because dissertation as a genre which is focused on a single student and their own work throughout their PhD, there might be privacy concerns.
@@ -364,6 +432,8 @@ So I think it could work. Just like I think it's good work for technical manuals
 {: .nupoorStyle}
 The idea of open source documentation where a lot of people contribute, but only 5% of that content is really helpful. But then in order to generate that 5%, we need so many more resources, which are so hard to find. I am bringing that reference just to explain this more clearly, the kind of value that collaboration can add to any project, based on if they understand the genre, the context, and the purpose of, of writing it.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** Well, I think that's great. I'm sort of blown away by the mere fact that you're managing your dissertation in a project on GitHub. Now you've suddenly made everything open, right? Now we can see the progress, assuming it's a open GitHub project, we can see kind of the directions you're taking. We can make notes. I could go in and log an issue and maybe say, Hey, consider this or add this research. I think that's awesome.
 
@@ -376,17 +446,25 @@ It's hard to collaborate on a single piece of writing, but if you have a lot of 
 {: .tomStyle}
 What kind of input can I channel your way from practitioners? e.g., surveys? Are you trying to gather more contact points for people who want to share their experiences, or is there any other way that I can help you, gather practitioner input for your data collection?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** I would like to hear from practitioners who are working in software companies and who used the open docs as code approach or the open authoring approach, in which they collect feedback from users in some way. That's what I would like to know. Sometimes the feedback is more visible, especially with processes such as users creating or logging issues, writing feedback about the documentation, etc. Other times the audience influence is less visible, such as when writers collect user data from channels such as Google Analytics or any other kinds of data analytics too.
 
 {: .nupoorStyle}
 And if they're doing any of these things, then I would really like to talk to them and understand the ways in which they are writing and publishing documentation. So that would be great help.
 
+<div class="break">&nbsp;</div>
+
 {: .tomStyle}
 **Tom:** I can definitely round up some people. I recently realized that having a popular blog gives me visibility with people. When I did my recent developer document trends survey, I just embedded this little note at the top of every post, and gathered around 400 responses. So I would be more than happy to put a little note there saying, Hey, if you are gathering data from users who want to participate in this survey/research, reach out to Nupoor. How many people are you looking to get? Do you want to have 20 people or 200 people?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** I'm looking for 15 to 20 people. Okay.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Okay, cool. Yes, I mean, I'm trying to facilitate sort of a bridge between industry and academic collaboration points, just because I feel like I have that opportunity. And if we could get you the right data, that would be great because I would personally be very interested to see the different approaches people have, what are people doing to leverage all this user feedback to influence, the knowledge produced and so on.
@@ -394,8 +472,12 @@ And if they're doing any of these things, then I would really like to talk to th
 {: .tomStyle}
 Nupoor, thank you so much for being on his podcast. I enjoyed it. And, enjoyed hearing about your research and I hope this project goes well. Any last words or thoughts that you want to share? Like how maybe how people can find you or where they can learn more about you?
 
+<div class="break">&nbsp;</div>
+
 {: .nupoorStyle}
 **Nupoor:** Sure, thanks Tom for having me and I'm really excited to share the idea on your blog and hear how people are contributing. I can be reached through email at nsjalind@ncsu.edu. Also, my Twitter handle is @nupoorwriting. Thanks so much for having me.
+
+<div class="break">&nbsp;</div>
 
 {: .tomStyle}
 **Tom:** Thank you.
