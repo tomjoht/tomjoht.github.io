@@ -2,7 +2,7 @@
 title: "Principle 2: Make information discoverable as the user needs it"
 permalink: /simplifying-complexity/discoverability-through-metadata.html
 jtype: notes_simplifying_complexity
-summary: "Complex, non-linear processes often have feedback loops that influence the next step. In these systems, users need to be able to find information that meets their ever-changing needs. Metadata embedded in topics can facilitate more intelligent pushing and pulling of information for these shifting scenarios. The metadata can also inform better search results."
+description: "Complex, non-linear processes often have feedback loops that influence the next step. In these systems, users need to be able to find information that meets their ever-changing needs. Metadata embedded in topics can facilitate more intelligent pushing and pulling of information for these shifting scenarios. The metadata can also inform better search results."
 ---
 
 In the [previous tutorial](https://idratherbewriting.com/simplifying-complexity/macro-micro.html), we looked at embedding maps to help guide users through larger processes. But all the maps I showed were *linear* maps. What about maps for non-linear, complex systems? In this section, we'll explore ways to guide users when defined paths don't exist.

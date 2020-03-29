@@ -2,7 +2,7 @@
 title: "Principle 10: Hide complexity with UX design (such as through JS or CSS)"
 permalink: /simplifying-complexity/hiding-complexity.html
 jtype: notes_simplifying_complexity
-summary: "If you can't delete information to reduce complexity, look for ways to hide less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, navtabs, tooltips, and more."
+description: "If you can't delete information to reduce complexity, look for ways to hide less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, navtabs, tooltips, and more."
 ---
 
 ## Techniques for hiding less-used information

@@ -2,7 +2,7 @@
 title: "Simplifying complexity"
 permalink: /simplifying-complexity/index.html
 jtype: notes_simplifying_complexity
-summary: "Although technical writing is often described as the task of simplifying complexity, there isn't much information on how to actually do it &mdash; that is, how to convert complex, confusing information into content that is easy to follow, understand, and apply. This series intends to explore various methods, tips, and strategies for simplifying complex information."
+description: "Although technical writing is often described as the task of simplifying complexity, there isn't much information on how to actually do it &mdash; that is, how to convert complex, confusing information into content that is easy to follow, understand, and apply. This series intends to explore various methods, tips, and strategies for simplifying complex information."
 ---
 
 ## Overview

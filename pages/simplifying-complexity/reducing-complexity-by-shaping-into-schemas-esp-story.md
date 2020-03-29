@@ -2,7 +2,7 @@
 title: "Principle 5: Conform to the patterns and expectations of the genre and schemas"
 permalink: /simplifying-complexity/reducing-complexity-by-shaping-into-schemas-esp-story.html
 jtype: notes_simplifying_complexity
-summary: "Look at the genre conventions for the topics you're writing about, and make your new information conform to the expectations in the genre. On a larger level, look for opportunities to structure information around stories in the user journey, as this will provide a more natural organization for the information. Identifying the journey will require you to look across the help topics, both inside and outside of your product, and at the many decision points and frictions users experience."
+description: "Look at the genre conventions for the topics you're writing about, and make your new information conform to the expectations in the genre. On a larger level, look for opportunities to structure information around stories in the user journey, as this will provide a more natural organization for the information. Identifying the journey will require you to look across the help topics, both inside and outside of your product, and at the many decision points and frictions users experience."
 ---
 
 ## Overview
