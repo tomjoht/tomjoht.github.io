@@ -30,7 +30,7 @@ We explore some of these questions during the podcast:
 
 ## Participating in the Nupoor's research
 
-If you'd like to be interviewed for Nupoor's research, reach out to Nupoor at sjalind@ncsu.edu or on Twitter at [@nupoorwriting](https://twitter.com/nupoorwriting) to indicate your interest. She will then probably set up a time to interview you for her study on audience participation in software product documentation. The interview might consist of the following sample questions:
+If you'd like to be interviewed for Nupoor's research, reach out to Nupoor at nsjalind@ncsu.edu or on Twitter at [@nupoorwriting](https://twitter.com/nupoorwriting) to indicate your interest. She will then probably set up a time to interview you for her study on audience participation in software product documentation. The interview might consist of the following sample questions:
 
 * Do you develop content collaboratively for internal/external documentation?
 * Can you describe your role as a business or professional communicator with the organization that you are part of?
