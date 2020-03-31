@@ -481,3 +481,7 @@ Nupoor, thank you so much for being on his podcast. I enjoyed it. And, enjoyed h
 
 {: .tomStyle}
 **Tom:** Thank you.
+
+## More reading
+
+To read more of my thoughts on this topic, see this follow-up post, [Are technical writers increasingly playing non-technical roles? Some thoughts on the evolution of technical writing roles](/blog/evolving-roles-of-technical-wrters/).
