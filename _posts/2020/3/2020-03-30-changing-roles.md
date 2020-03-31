@@ -1,5 +1,5 @@
 ---
-title: "Evolving roles of technical writers"
+title: "Evolving roles of technical writers and non-writing functions: convener, user champion, editor, publisher, promoter"
 permalink: /blog/evolving-roles-of-technical-wrters/
 categories:
 - academics-and-practitioners
@@ -13,6 +13,7 @@ podcast_file_size: "23.9 MB"
 podcast_duration: "26:55"
 podcast_length: "23917146"
 description: "How is the role of the technical writer evolving? It seems we're moving away from writing and more towards other roles, such as convener, user champion, editor, publisher, and promoter. However, it's difficult to gauge change, and in some scenarios, writing might never have been why we were hired."
+published: false
 ---
 
 {% include audio.html %}

@@ -860,16 +860,8 @@ p {
 #mytechsidebar img,
 .sidebarComics img {
     float: left;
-    padding: 3px;
-    /* max-width: 175px;
-    margin-left: 15%; */
-    padding-bottom: 20px;
     max-width: 250px;
-}
-
-/* temporary style until all ads are resized */
-#mytechsidebar img.shorten, .sidebarComics img.shorten {
-    max-height: 200px;
+    margin-bottom: 20px;
 }
 
 p {
