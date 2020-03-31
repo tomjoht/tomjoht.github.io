@@ -438,7 +438,7 @@ The idea of open source documentation where a lot of people contribute, but only
 **Tom:** Well, I think that's great. I'm sort of blown away by the mere fact that you're managing your dissertation in a project on GitHub. Now you've suddenly made everything open, right? Now we can see the progress, assuming it's a open GitHub project, we can see kind of the directions you're taking. We can make notes. I could go in and log an issue and maybe say, Hey, consider this or add this research. I think that's awesome.
 
 {: .tomStyle}
-This reminds me, there's is a project that Ann Gentle has with, collecting docs as code case studies or samples. She has this whole book on docs like code and she tries to find different people who have implemented docs like code who want to share their experiences. She lets people submit them as case studies.
+This reminds me, there's is a project that Ann Gentle has with collecting docs as code case studies or samples. She has this whole book on docs like code and she tries to find different people who have implemented docs like code who want to share their experiences. She lets people submit them as case studies.
 
 {: .tomStyle}
 It's hard to collaborate on a single piece of writing, but if you have a lot of different experiences that people can write up and contribute, I think that that works too.
