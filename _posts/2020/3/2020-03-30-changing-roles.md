@@ -8,6 +8,7 @@ categories:
 - api-doc
 - technical-writing
 keywords: academics
+rebrandly: nonwriting_roles
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/evolving_career_not_writing.mp3
 podcast_file_size: "23.9 MB"
 podcast_duration: "26:55"

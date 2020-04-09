@@ -891,12 +891,15 @@ h3.sidebar {
 
 div.topComic {
     position: relative;
-    float: right
+    float: right;
+    margin-right: 100px;
 }
 
 div.topComic img {
-    padding: 10px;
-    max-width: 100%
+    padding: 6px;
+    max-width: 100%;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
 }
 
 .navbar-inverse {
@@ -1243,7 +1246,7 @@ ul#mysidebar li.active a {
     font-weight: 700;
     margin-bottom: 5px
 }
-
+/*
 @media only screen and (max-width:1350px),
 only screen and (max-device-width:1350px) {
     div.topComic img {
@@ -1298,21 +1301,25 @@ only screen and (max-device-width:1000px) {
     div.topComic img {
         max-width: 300px
     }
-}
+} */
 
 @media only screen and (max-width:980px),
 only screen and (max-device-width:980px) {
     #topBannerImageHomepage img,
     .singlePostComics img,
     pre {
-        max-width: 100%
+        max-width: 100%;
+    }
+    #topBannerImageHomepage img{
+        padding: 6px;
+        border: 1px solid #dedede;
     }
     #sidebarAreaHomePage {
         display: block
     }
     #topBannerImageHomepage {
         display: block;
-        margin-top: 10px
+        margin-top: 10px;
     }
     #sidebarArea,
     .topComic {
