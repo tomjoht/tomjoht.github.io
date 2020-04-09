@@ -896,7 +896,7 @@ div.topComic {
 }
 
 div.topComic img {
-    padding: 6px;
+    /* padding: 6px; */
     max-width: 100%;
     border: 1px solid #dedede;
     margin-bottom: 20px;
@@ -1311,7 +1311,7 @@ only screen and (max-device-width:980px) {
         max-width: 100%;
     }
     #topBannerImageHomepage img{
-        padding: 6px;
+        /* padding: 6px; */
         border: 1px solid #dedede;
     }
     #sidebarAreaHomePage {
