@@ -892,14 +892,14 @@ h3.sidebar {
 div.topComic {
     position: relative;
     float: right;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 div.topComic img {
     /* padding: 6px; */
     max-width: 100%;
     border: 1px solid #dedede;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .navbar-inverse {
