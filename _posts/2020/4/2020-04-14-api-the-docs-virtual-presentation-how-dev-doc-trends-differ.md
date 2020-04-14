@@ -4,6 +4,7 @@ permalink: /blog/api-the-docs-virtual-conference-2020/
 categories:
 - podcasts
 - community
+- api-doc
 keywords:
 rebrandly: https://idratherbewriting.site/apithedocsvirtual
 description: "I'm giving a presentation on May 27 in the API The Docs Virtual series titled <a href='https://apithedocs.org/virtual/tom-johnson'>How Trends in API Documentation Differ from Other Tech Comm Trends</a>. You can <a href='https://www.eventbrite.com/e/api-the-docs-virtual-series-tickets-100381696356?utm_medium=referral&utm_source=eventpage'>register for free on EventBrite</a>. API The Docs is typically a one-day conference event but has gone virtual and is experimenting with different formats in interesting ways."
@@ -71,6 +72,8 @@ Re the three-hour length, this is also challenging. At a physical event, you can
 Re the breakout sessions, I enjoyed this part of the conference most and actually prefer the unconference sessions at conferences more than presentations. But given that only about 7 people attended these (including the two speakers and scribe), it makes me wonder about their popularity. These breakout sessions weren't recorded for later viewing either (but [notes](https://docs.google.com/forms/d/e/1FAIpQLScuessZ6UrqVzr2K9mWHlhkVA8GktdIA5m9KE2T310TKLEelw/viewform) are available). The breakout sessions attempted to replicate the more free-form, interactive elements of a live event.
 
 I have no idea if future API The Docs sessions will follow the same pattern or try out new strategies. I also haven't looked into other virtual conferences to see what might be working in other industries and groups. Many people have different learning preferences, and although I like podcasts and breakout sessions, many other people prefer live webinars where they sit at their computer and view slides. Some like free-form discussion while others flee from them and prefer formal presentations.
+
+{% include random_ad.html %}
 
 Regarding platforms, clearly concatenating Slack + GoToMeeting + Google Hangouts + Google Docs is a miscellany of tools, all used for their best features. I wasn't that impressed by GoToMeeting, but Zoom is equally problematic for the security issues. I'm surprised that some of these tools don't offer a more complete conference offering, especially Slack.
 
