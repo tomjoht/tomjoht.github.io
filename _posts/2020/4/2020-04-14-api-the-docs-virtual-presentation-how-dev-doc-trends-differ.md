@@ -6,8 +6,8 @@ categories:
 - community
 - api-doc
 keywords:
-rebrandly: https://idratherbewriting.site/apithedocsvirtual
-description: "I'm giving a presentation on May 27 in the API The Docs Virtual series titled <a href='https://apithedocs.org/virtual/tom-johnson'>How Trends in API Documentation Differ from Other Tech Comm Trends</a>. You can <a href='https://www.eventbrite.com/e/api-the-docs-virtual-series-tickets-100381696356?utm_medium=referral&utm_source=eventpage'>register for free on EventBrite</a>. API The Docs is typically a one-day conference event but has gone virtual and is experimenting with different formats in interesting ways."
+rebrandly: https://idratherbewriting.site/api-the-docs-virtual-conference-2020
+description: "I'm giving a presentation on May 27 in the API The Docs Virtual series titled <a href='https://apithedocs.org/virtual/tom-johnson'>How Trends in API Documentation Differ from Other Tech Comm Trends</a>. You can <a href='https://www.eventbrite.com/e/api-the-docs-virtual-series-tickets-100381696356?utm_medium=referral&utm_source=eventpage'>register for free on EventBrite</a>. API The Docs is typically a one-day conference event but has gone virtual and is experimenting with different formats in interesting ways. In this post, I also share a few thoughts on the first virtual sessions and the challenges of finding the right online format for conferences."
 ---
 
 ## About API The Docs
