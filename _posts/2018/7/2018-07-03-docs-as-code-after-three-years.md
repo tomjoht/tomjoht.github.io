@@ -13,7 +13,7 @@ I've both written and presented about [docs-as-code](https://idratherbewriting.c
 
 If you've been hesitant about embracing docs-as-code because it might seem like another fad or newfangled approach, don't worry. Once you get used to it, there's no turning back.
 
-I know that people get stubborn about tools and tend to put blinders on. Note I'm not singling out Jekyll here as the best tool by any means but rather am referring to the whole genre of docs-as-code tools (which I described at length in [Publishing tool options for developer docs](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code_tool_options.html)). This genre could mean any static site generator (Jekyll, Sphinx, Hugo, etc.) and publishing platform (Github, S3, Netlify) along with a variety of continuous delivery processes. Many of the tools and workflows are highly similar.
+I know that people get stubborn about tools and tend to put blinders on. Note I'm not singling out Jekyll here as the best tool by any means but rather am referring to the whole genre of docs-as-code tools (which I described at length in [Publishing tool options for developer docs](/learnapidoc/pubapis_docs_as_code.html)). This genre could mean any static site generator (Jekyll, Sphinx, Hugo, etc.) and publishing platform (Github, S3, Netlify) along with a variety of continuous delivery processes. Many of the tools and workflows are highly similar.
 
 Before I get into why it's working so well, I'd just to add some acknowledgements about assumptions. Note the following:
 
