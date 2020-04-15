@@ -1,5 +1,5 @@
 ---
-title: "My Knowledgebase Ninjas podcast episode -- Metrics don't work"
+title: "My Knowledgebase Ninjas podcast episode -- \"Metrics don't work\""
 permalink: /blog/knowledgebase-ninjas-podcast-metrics-dont-work.html
 categories:
 - technical-writing
