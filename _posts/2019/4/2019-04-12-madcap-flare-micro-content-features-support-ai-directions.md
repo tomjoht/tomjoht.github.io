@@ -32,9 +32,9 @@ This reduces the number of clicks users have to proceed through to get answers t
 
 <caption><img src="https://idratherbewritingmedia.com/images/micro-content-as-you-type.png" alt="Micro content as you type"/><figcaption>Micro content appearing as you type</figcaption></caption>
 
-Part of Google's genius is in figuring out how to identify and surface micro content in search results pages. With Flare, you can now leverage similar features in your own help files. If you go to the Flare help and <a href="https://help.madcapsoftware.com/flare2019/Content/Flare/Search-Results/Search-Results.htm?q=snippets" rel="nofollow">search for "snippet"</a>, you'll see some micro content about snippets appear directly in Madcap's search results:
+Part of Google's genius is in figuring out how to identify and surface micro content in search results pages. With Flare, you can now leverage similar features in your own help files. If you go to the Flare help and <a href="https://help.madcapsoftware.com/flare2019r2/Content/Search-Results.htm?q=snippets" rel="nofollow">search for "snippet"</a>, you'll see some micro content about snippets appear directly in Madcap's search results:
 
-<caption><a rel="nofollow" href="https://help.madcapsoftware.com/flare2019/Content/Flare/Search-Results/Search-Results.htm?q=snippets"><img src="https://idratherbewritingmedia.com/images/micro-content-in-action.png" alt="Example of micro content in Flare's help pages" /></a><figcaption>Example of micro content in Flare's help pages</figcaption></caption>
+<caption><a rel="nofollow" href="https://help.madcapsoftware.com/flare2019r2/Content/Search-Results.htm?q=snippets"><img src="https://idratherbewritingmedia.com/images/micro-content-in-action.png" alt="Example of micro content in Flare's help pages" /></a><figcaption>Example of micro content in Flare's help pages</figcaption></caption>
 
 You can even include animated gifs and other graphics in the micro content.
 

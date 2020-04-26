@@ -848,7 +848,7 @@ h6 {
 
 .sidebarComics,
 p {
-    margin: 20px 0
+    margin: 20px 0;
 }
 
 .btn-primary {
@@ -866,23 +866,23 @@ p {
 }
 
 p {
-    line-height: 26px
+    line-height: 26px;
 }
 
 .col-md-9 {
-    padding-left: 40px
+    padding-left: 40px;
 }
 
 .col-md-3 {
     background-color: #f0f0f0;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 h3.notesTitle,
 h3.sidebar {
     color: #777;
     font-weight: 400;
-    padding-top: 30px
+    padding-top: 30px;
 }
 
 .siteLogo img {
@@ -911,20 +911,20 @@ div.topComic img {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #444
+    color: #444;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #777
+    color: #777;
 }
 
 div#masthead {
-    background-color: #fff
+    background-color: #fff;
 }
 
 table.gsc-table-result td {
     background-color: #fff;
-    border: 0 #fff
+    border: 0 #fff;
 }
 
 .gsc-results table {
@@ -938,7 +938,7 @@ table.gsc-resultsHeader {
 h4.categoryArchive {
     margin-bottom: 30px;
     margin-top: 30px;
-    font-weight: 400
+    font-weight: 400;
 }
 
 button.navbar-toggle {
@@ -957,62 +957,62 @@ button.navbar-toggle {
     float: left;
     padding: 6px;
     margin-top: 18px;
-    margin-left: 6px
+    margin-left: 6px;
 }
 
 .srssfeed {
-    background-position: 0 0
+    background-position: 0 0;
 }
 
 .stwitter {
-    background-position: -50px 0
+    background-position: -50px 0;
 }
 
 .sstitcher {
-    background-position: -100px 0
+    background-position: -100px 0;
 }
 
 .sfacebook {
-    background-position: -150px 0
+    background-position: -150px 0;
 }
 
 .situnes {
-    background-position: -200px 0
+    background-position: -200px 0;
 }
 
 .slinkedin {
-    background-position: -250px 0
+    background-position: -250px 0;
 }
 
 .sgithub {
-    background-position: -300px 0
+    background-position: -300px 0;
 }
 
 .socialMediaButtons {
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .entry {
-    margin: 30px 0
+    margin: 30px 0;
 }
 
 .pagination {
     font-size: 16px;
     padding: 10px;
-    background-color: #dedede
+    background-color: #dedede;
 }
 
 h2 {
-    font-size: 26px
+    font-size: 26px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    font-size: 14px
+    font-size: 14px;
 }
 
 div.well ul li {
     margin: 12px 0;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .recentComments .dsq-combo-avatar {
