@@ -4,8 +4,8 @@ permalink: /blog/api-docs-start-with-visual-first/
 categories:
 - api-doc
 keywords:
-rebrandly: https://idratherbewriting.site/
-description: "One of the most challenging aspects of my API documentation course is with the <a href='/learnapidoc/restapispecifications.html'>OpenAPI specification</a>. Describing how to code this detailed spec line by line is not only tedious but highly prone to error, confusion, and frustration. Recently, I decided to shift the approach in my course to begin first with coding the OpenAPI spec in a visual editor using Stoplight Studio, and then later, if desired, transition to a code-based approach."
+rebrandly: https://idratherbewriting.site/visualfirstthencode
+description: "One of the most challenging aspects of my API documentation course is with the <a href='/learnapidoc/restapispecifications.html'>OpenAPI specification</a>. Describing how to code this detailed spec line-by-line is not only tedious but highly prone to error, confusion, and frustration. Recently, I decided to shift the approach in my course to begin first with coding the OpenAPI spec in a visual editor using Stoplight Studio, and then later, if desired, transition to a code-based approach."
 ---
 
 The new flow in the OpenAPI section looks like this:
