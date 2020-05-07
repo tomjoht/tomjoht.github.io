@@ -4,6 +4,7 @@ permalink: /blog/wapi-radio-building-great-documentation-recording/
 categories:
 - podcasts
 - technical-writing
+- api-doc
 keywords:
 rebrandly: https://idratherbewriting.site/wapiradioepisode
 description: "I recently participated in an online radio-style chat about documentation with the folks at <a href='https://readme.com'>Readme.com</a>. In an ambitious undertaking, Readme created a 24-hour streaming radio show (called <a href='https://wapi.fm/'>\"WAPI FM\"</a>') focused on APIs, from March 26-27, 2020. They are publishing some of the recordings week by week. During this hour, Ryan Openshaw and Greg Koberger chatted with <a href='https://www.linkedin.com/in/andrewtorkbaker/'>Andrew Baker from Twilio</a> and me about a host of documentation topics."
@@ -48,3 +49,5 @@ Here are some topics from the discussion:
 * Scaling up demands for live training with hands-on, self-directed approaches
 * Parts of the job that we find the most fulfilling, what we're most passionate about related to the developer experience
 * How to get into technical writing world, ways to improve documentation
+
+{% include random_ad.html %}
