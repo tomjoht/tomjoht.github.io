@@ -16,7 +16,7 @@ In the <a href="{{ "/documenting-rest-apis-course-overview" | prepend: site.base
 * RAML
 * Jekyll and static site generators
 * Miredot
-* Readme.io
+* Readme.com
 * Help authoring tools such as Flare
 
 With almost every one of these tools, you'll deploy a sample file to publish content.

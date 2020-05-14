@@ -5,7 +5,7 @@ categories:
 - general
 keywords: docs-as-code tools, hugo, jekyll
 bitlink: https://idratherbewriting.site/docsascoderecommends
-description: "A reader asks for my recommended docs-as-code tooling setup. I said probably Hugo with Docsy and Netlify, or maybe a solution like Readthedocs.com or Readme.io."
+description: "A reader asks for my recommended docs-as-code tooling setup. I said probably Hugo with Docsy and Netlify, or maybe a solution like Readthedocs.com or Readme.com."
 ---
 
 A reader asks,
@@ -20,7 +20,7 @@ Jekyll's not bad by any means, but when your site starts growing into thousands 
 
 In my [previous post about red flags](https://idratherbewriting.com/blog/red-flags-tech-writer-with-complete-control/), I mentioned that you should probably look for pre-built solutions when it comes to tools, since companies typically want you to focus on content more than tooling. If you use Docsy, you already have a starting point for your documentation theme, but you'll probably still need to do a lot of figuring out.
 
-Some easier options (which involve third-party hosting) might be [Readthedocs.com](https://readthedocs.com/) and [Readme.io](https://readme.io/). You won't have as much control, but that also means less time spent with tool development. A lot of your decisions depend on whether you consider yourself a "tools person."
+Some easier options (which involve third-party hosting) might be [Readthedocs.com](https://readthedocs.com/) and [Readme.com](https://readme.com/). You won't have as much control, but that also means less time spent with tool development. A lot of your decisions depend on whether you consider yourself a "tools person."
 
 For more reading on tools, see the section on [Publishing API docs](/learnapidoc/pubapis_overview.html) in my API documentation course. Specifically, for a more in-depth analysis to the question of tools, see [Which tool to choose for API docs — my recommendations](/learnapidoc/pubapis_which_tool_to_choose.html). You might want to deep dive into your requirements and such. (If you find that everyone expects PDF books and localization workflows, then you might want to reconsider your direction with static site generators.)
 

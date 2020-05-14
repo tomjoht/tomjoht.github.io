@@ -40,7 +40,7 @@ Here is a description of the API workshop I'm giving in Sacramento:
 >With REST APIs, there's not usually a GUI interface for users to navigate. Instead, the documentation itself provides the interface that users navigate. Because of this, we'll also explore various ways to publish your API documentation. Here are a few platforms we'll cover:
 >
 * Github
-* Readme.io
+* Readme.com
 * Jekyll
 * Swagger
 * RAML

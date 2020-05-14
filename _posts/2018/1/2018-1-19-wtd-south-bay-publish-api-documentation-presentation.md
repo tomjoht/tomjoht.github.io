@@ -7,7 +7,7 @@ categories:
 keywords:
 description: "I recently gave a presentation called \"Publishing tools for API documentation\" to the Write the Docs South Bay meetup group on January 18, 2018. You can view a recording of the presentation, browse the slides, and listen to the audio here."
 bitlink: http://bit.ly/recordingwtdsouthbayapipresopubtools
-keywords: API documentation, developer documentation, readme.io, static site generators, headless cms, hosting and deployment platforms
+keywords: API documentation, developer documentation, readme.com, static site generators, headless cms, hosting and deployment platforms
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/publishing-api-docs-wtdsouthbay.mp3
 podcast_file_size: 48.3 MB

@@ -48,7 +48,7 @@ I also gave a 45 minute presentation that was also part of the virtual track. I 
 
 Because I was in the virtual track, I had to submit my presentation ahead of time and use a dedicated computer running Adobe Connect. I could have browsed online during the presentation, but I would've had to use the screen-sharing options inside of Adobe Connect and also sign into various sites.
 
-The next time I present this information, though, I'll probably show the demos. Because really, the demos that I have prepared are pretty good. I took the same API information from a simple Mashape Weather API and published it across at least 5 different platforms (Github, Apiary, Swagger, Jekyll, and readme.io). Again, detailed notes are here: <a href="https://idratherbewriting.com/publishingapidocs">Publishing API docs</a>.
+The next time I present this information, though, I'll probably show the demos. Because really, the demos that I have prepared are pretty good. I took the same API information from a simple Mashape Weather API and published it across at least 5 different platforms (Github, Apiary, Swagger, Jekyll, and readme.com). Again, detailed notes are here: <a href="https://idratherbewriting.com/publishingapidocs">Publishing API docs</a>.
 
 ## Summit takeaways
 

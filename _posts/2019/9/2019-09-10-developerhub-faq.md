@@ -38,7 +38,7 @@ It was clear to me then that the problem does not exist only for developer porta
 
 ### How does DeveloperHub differ from Readme?
 
-[Readme](https://readme.io){:rel="nofollow"} has a great offering for enterprise with its developer metrics. It has paved the way for dynamic documentation adoption. Regardless, we've had many customers moving off from Readme to DeveloperHub due to a few reasons:
+[Readme](https://readme.com){:rel="nofollow"} has a great offering for enterprise with its developer metrics. It has paved the way for dynamic documentation adoption. Regardless, we've had many customers moving off from Readme to DeveloperHub due to a few reasons:
 
 * [**Customisability**](https://docs.developerhub.io/support-center/customising-visuals){:rel="nofollow"}: DeveloperHub is highly customizable to the last CSS option, just as if you're editing it in the browsers' DevTools. It's your documentation portal &mdash; please show off your branding!
 * **Editor**: Our editor is one of the best out there. Markdown is constrained to developers, and extensibility is very limited. Our customers report 30% faster content development using our editor due to the modern instant formatting and the different formatting options there are (Markdown, toolbar, and keyboard shortcuts).

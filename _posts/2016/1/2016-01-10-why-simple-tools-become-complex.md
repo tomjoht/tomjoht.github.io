@@ -43,7 +43,7 @@ The problem is that the ways to handle the publishing requirements have now made
 
 Bleeding-edge tools rarely satisfy the requirements placed on tech writers. For example, I was looking more closely at [Contentful](http://www.contentful.com), an API-based CMS that looks to be bleeding edge. Do you think you could use a variable within a topic so that the same content source might use a different term depending on the output? If so, I didn't see that capability.
 
-Or take [readme.io](http://readme.io). Looks cool, right? But what if you want to re-use the same chunk of content in multiple outputs. Not possible. (In fact, I don't even think multiple outputs beyond basic versioning are possible.)
+Or take [readme.com](http://readme.com). Looks cool, right? But what if you want to re-use the same chunk of content in multiple outputs. Not possible. (In fact, I don't even think multiple outputs beyond basic versioning are possible.)
 
 Interestingly, Confluence was mentioned as one of the bleeding-edge tools. If you've tried to re-use content with Confluence, or version content, you'll see that it too gets complicated. And when you try to architect any kind of Confluence output into another HTML target (besides the built-in HTML output that is primitive), you're also going to run into complexity.
 

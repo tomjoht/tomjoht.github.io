@@ -43,7 +43,7 @@ It seems everyone is talking about Markdown these days. Where do you stand in th
 
 ## My Advice
 
-Here's my advice on the subject. Remember that the format you write in is only part of the authoring process. For example, you can write reStructuredText and use Sphinx or Github to render it. You can write DITA and use OxygenXML, a robust CMS like IXIASOFT, or even Notepad and the command line to render it. You can write Markdown and use Jekyll, Readme.io, Gitbook, Middleman, or countless other [static site generators](http://www.staticgen.com/) to render it. 
+Here's my advice on the subject. Remember that the format you write in is only part of the authoring process. For example, you can write reStructuredText and use Sphinx or Github to render it. You can write DITA and use OxygenXML, a robust CMS like IXIASOFT, or even Notepad and the command line to render it. You can write Markdown and use Jekyll, Readme.com, Gitbook, Middleman, or countless other [static site generators](http://www.staticgen.com/) to render it. 
 
 The systems that store, process, and render the content are perhaps more important than the format of the content you're writing in. Mark Baker once said he felt the main reason for moving to XML is not so much for the information typing architecture, but for the ability to use the systems that manage your content.
 

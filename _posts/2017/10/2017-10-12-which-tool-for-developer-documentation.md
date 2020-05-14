@@ -24,7 +24,7 @@ We're also not generating a full website with Jekyll, but are instead inserting 
 
 If you want to pursue the docs-as-code route, you could use a number of tools besides Jekyll. Sphinx, Hugo, Middleman, Slate, and Mkdocs are just a few [static site generator options](https://www.staticgen.com/).
 
-In this same category of static-site-generator tools, there are also many hosted options for developer docs. [Readthedocs.com](https://readthedocs.com/), [Forestry.io](https://forestry.io/), [CloudCannon](https://cloudcannon.com/) are all excellent choices. Also check out [Readme.io](http://readme.io/). If your company allows you to use third-party hosting for your content and you have budget, I'd recommend this route instead of trying to build your own theme.
+In this same category of static-site-generator tools, there are also many hosted options for developer docs. [Readthedocs.com](https://readthedocs.com/), [Forestry.io](https://forestry.io/), [CloudCannon](https://cloudcannon.com/) are all excellent choices. Also check out [Readme.com](http://readme.com/). If your company allows you to use third-party hosting for your content and you have budget, I'd recommend this route instead of trying to build your own theme.
 
 If you're documenting REST APIs, definitely check out the [OpenAPI specification](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html) and [SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis_swaggerhub_smartbear.html). Find a doc tool that supports the OpenAPI specification.
 

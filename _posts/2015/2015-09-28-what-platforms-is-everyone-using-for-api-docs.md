@@ -26,7 +26,7 @@ You can tell that Sendgrid uses Jekyll because of [a blog post here](https://sen
 
 You can try searching for the doc source on Github. This would show you the raw format, which would be a huge indicator. A lot of doc sites on the web have repos on Github.
 
-Some platforms are readily recognizable, like [readme.io](http://readme.io), [readthedocs.com](http://readthedocs.com), [MKdocs](http://www.mkdocs.org/), or [Slate template](https://github.com/tripit/slate). Once you know the look and feel of the main template, it's easy to recognize instances of it.
+Some platforms are readily recognizable, like [readme.com](http://readme.com), [readthedocs.com](http://readthedocs.com), [MKdocs](http://www.mkdocs.org/), or [Slate template](https://github.com/tripit/slate). Once you know the look and feel of the main template, it's easy to recognize instances of it.
 
 Additionally, interactive consoles are easy to spot regardless of whether one is using Swagger, RAML, or API Blueprint because they all follow predictable branding.
 

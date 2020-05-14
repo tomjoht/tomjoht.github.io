@@ -53,7 +53,7 @@ one main problem is that there's so much variety in skill level among the audien
 
 
 
-there are some commercial tools as well like readme.io.
+there are some commercial tools as well like readme.com.
 
 some design patterns: single page docs, tri columns,
 
@@ -98,7 +98,7 @@ with static site gens, easy to embed code for demos.
 
 - building templates to cycle through standard sections
 
-- some big tools: readme.io, readthedocs.com, mulesoft
+- some big tools: readme.com, readthedocs.com, mulesoft
 
 
 - ref docs and user guides not easy to mush together

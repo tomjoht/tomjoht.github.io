@@ -86,7 +86,7 @@ As you work with engineers who are developing APIs, you will be immersed in engi
 
 Since API documentation at times contains highly technical material that is most suitable to be authored by engineers themselves, engineers will opt for solutions that involve Markdown instead of XML. These same engineers are often the ones building the tools that writers use, so their preferences will help drive the adoption of Markdown.
 
-You can see this, for example, with [readme.io](http://readme.io), which was created by a developer/designer for API doc and uses Markdown.
+You can see this, for example, with [readme.com](http://readme.com), which was created by a developer/designer for API doc and uses Markdown.
 
 In short, if developers are collaborating on docs, you will likely adopt tools that developers prefer.
 
@@ -128,7 +128,7 @@ At the same time, the increased need for visibility and thought leadership onlin
 
 As technical writers start documenting APIs, they'll start looking at a lot of API doc sites for examples. They'll meet with UX designers who may suggest the most usable ways to present reference topics that show the endpoints, parameters, sample requests, sample responses, and so on.
 
-In this new landscape, more technical writers will explore non-traditional tools, such as static site generators and other sites such as readme.io, readthedocs.com, Sphinx, Corilla, and Asciidoctor, which give them more flexibility to design powerful user experiences.
+In this new landscape, more technical writers will explore non-traditional tools, such as static site generators and other sites such as readme.com, readthedocs.com, Sphinx, Corilla, and Asciidoctor, which give them more flexibility to design powerful user experiences.
 
 Since API docs are essentially the user interface for products, technical writers will work hand-in-hand with UX designers to deliver modern, user-friendly websites. The tripane site-in-a-box output from traditional help authoring tools will be pushed aside for more contemporary UX tools.
 

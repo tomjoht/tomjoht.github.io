@@ -14,7 +14,7 @@ If I weren't a technical writer, I would be a web designer. I love the web and h
 
 I like having the freedom and capability to control both the authoring and publishing process. However, I currently don't have the expertise to do professional web design. I'm just an amateur hack who takes different pieces of code (such as from Bootstrap) and cobbles them together. If I wanted to be a professional, I'd have to dedicate a lot of time to learning and mastering these technologies.
 
-Technical writers are really jacks of all trades, masters of none. As a result, I know a little about many different technologies. I can build you an output using WordPress, Jekyll, Drupal, Joomla, Swagger, RAML, API Blueprint, MadCap Flare, Adobe Robohelp, Author-it,  Confluence, Mediawiki, Readme.io, OxygenXML, and probably quite a few more. That's the nature of technical writing. You're a generalist.
+Technical writers are really jacks of all trades, masters of none. As a result, I know a little about many different technologies. I can build you an output using WordPress, Jekyll, Drupal, Joomla, Swagger, RAML, API Blueprint, MadCap Flare, Adobe Robohelp, Author-it,  Confluence, Mediawiki, Readme.com, OxygenXML, and probably quite a few more. That's the nature of technical writing. You're a generalist.
 
 As for what I'd like to accomplish and experience professionally, that is a tough question. My greatest strength is my creativity. I like to think creatively about topics that are relevant to me. But I feel I don't often use my creativity, and my talent lies dormant. 
 
