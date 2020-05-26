@@ -21,9 +21,9 @@ You can read the event description here: [Remote discussion: Techcomm in the tim
 
 We'll talk about two topics, primarily. First, the [results of the pandemic survey](https://www.questionpro.com/t/PGzGMZhSHg). (I also recently posted thoughts about this here: [Results of Pandemic Impact on Tech Comm survey](https://idratherbewriting.com/blog/results-of-pandemic-impact-on-tech-comm-survey/).)
 
-Second, we'll approach the topic from a totally different angle, and this is where Kirk St. Amant, an expert in health tech comm, comes into play. Kirk has written about [Communicating about Covid-19](https://communicating-about-covid19.weebly.com/) and has some thoughts about effective tech comm approaches.
+Second, we'll approach the topic from a totally different angle, and this is where Kirk St. Amant, an expert in health tech comm, comes into play. Kirk has written about [Communicating about Covid-19](https://communicating-about-covid19.weebly.com/) and has some thoughts about effective tech comm approaches. He also recently posted [Prepositions for Planning Post-COVID-19 Processes](https://communicating-about-covid19.weebly.com/prepositions-for-planning-post-covid-19.html), which explores more theoretical approaches to transitioning our expectations for different spaces.
 
-This isn't a formal presentation but rather more of a discussion.
+This event isn't a formal presentation but rather more of a discussion.
 
 ## Registration
 
