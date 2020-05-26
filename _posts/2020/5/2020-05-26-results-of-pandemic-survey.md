@@ -30,6 +30,10 @@ How will the pandemic impact tech comm in the long term?
 * 10% say there will be an increased demand for tech writers due to cutbacks on call centers and other live support
 * 14% say more there will be more focus on projects related to media, gaming, meditation, online commerce, and other areas thriving in the pandemic, etc.
 
+You can browse the results here:
+
+<a href="https://www.questionpro.com/t/PGzGMZhSHg"><img src="https://idratherbewritingmedia.com/images/pandemicsurveyimpact.jpg"/></a>
+
 ## Freeform comments
 
 Survey respondents added freeform comments at the end of the survey in response to the question, "Would you like to share any comments, feedback, or insight about this topic?" You can read the full list in the [survey results](https://www.questionpro.com/t/PGzGMZhSHg). I selected about 15 comments that I thought were particularly insightful:
