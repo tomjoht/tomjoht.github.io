@@ -1,11 +1,11 @@
 ---
-title: "Upcoming API the Docs presentation on 5/27: 5th Edition, API docs trends & API design"
+title: "Upcoming API the Docs presentation on 5/27: \"5th Edition, API docs trends & API design\""
 permalink: /blog/api-the-docs-virtual-series-fifth-edition-api-doc-trends-design/
 categories:
 - api-doc
 keywords:
-rebrandly: https://idratherbewriting.site/
-description: "I'm presenting an upcoming session at the <a href='https://apithedocs.org/virtual'>API the Docs virtual series</a> this Wednesday, May 27, 2020. The session is from 9-11am PST (or 6-8pm CEST)."
+rebrandly: https://idratherbewriting.site/apithedocsvirtual5thedition
+description: "I'm presenting an upcoming session at the <a href='https://apithedocs.org/virtual'>API the Docs virtual series</a> this Wednesday, May 27, 2020. The 5th edition is from 9-11am PST (or 6-8pm CEST). My session covers dev doc trends, and another session covers API design."
 ---
 
 ## API the Docs Virtual Series
