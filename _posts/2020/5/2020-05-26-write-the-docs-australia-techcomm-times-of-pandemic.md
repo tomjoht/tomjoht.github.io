@@ -17,12 +17,14 @@ You can read the event description here: [Remote discussion: Techcomm in the tim
 >
 > Kirk published an article about the tech comm facets of the pandemic that health communicators have been working in or against [https://communicating-about-covid19.weebly.com/](https://communicating-about-covid19.weebly.com/)
 
-The event is hosted through [Write the Docs Australia](https://www.meetup.com/Write-the-Docs-Australia/events/). Anyone is welcome to attend. Log into [meetup.com](https://www.meetup.com) and then select to [attend the event](https://www.meetup.com/Write-the-Docs-Australia/events/270641270/).
-
 ## What we'll chat about
 
 We'll talk about two topics, primarily. First, the [results of the pandemic survey](https://www.questionpro.com/t/PGzGMZhSHg). (I also recently posted thoughts about this here: [Results of Pandemic Impact on Tech Comm survey](https://idratherbewriting.com/blog/results-of-pandemic-impact-on-tech-comm-survey/).)
 
 Second, we'll approach the topic from a totally different angle, and this is where Kirk St. Amant, an expert in health tech comm, comes into play. Kirk has written about [Communicating about Covid-19](https://communicating-about-covid19.weebly.com/) and has some thoughts about effective tech comm approaches.
 
-This isn't a formal presentation but rather more of a discussion. 
+This isn't a formal presentation but rather more of a discussion.
+
+## Registration
+
+The event is hosted through [Write the Docs Australia](https://www.meetup.com/Write-the-Docs-Australia/events/). Anyone is welcome to attend. Log into [meetup.com](https://www.meetup.com) and then select to [attend the event](https://www.meetup.com/Write-the-Docs-Australia/events/270641270/).
