@@ -60,3 +60,10 @@ Overall, I am not sure that these survey results depict the community of tech wr
 You can [take my developer documentation survey here](https://www.questionpro.com/t/AOaGwZgCFE).
 
 You can see [ongoing results here](https://www.questionpro.com/t/PGhS9ZgCFE).
+
+## Post-survey analysis 
+
+For more details, see the following:
+
+* [*How* you write influences *what* you write &mdash; interpreting trends through movements from PDF to web, DITA, wikis, CCMSs, and docs-as-code](/blog/how-you-write-influences-what-you-write/)
+* [Webinar recording: How Trends in API Documentation Differ from other Tech Comm Trends](/blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/)
