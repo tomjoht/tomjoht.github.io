@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/wtdaustraliatechcommpandemic
-description: "I'm participating in a remote discussion with WTD Australia this Friday, May 29, 2020, in an event called <a href='https://www.meetup.com/Write-the-Docs-Australia/events/270641270/'>Techcomm in the times of pandemic</a>. Other participants include Kirk St. Amant, Swapnil Ogale, and Sarah Maddox."
+description: "I'm participating in a remote discussion with WTD Australia this Thursday, May 28, 2020, at 7pm PST (or May 29 in GMT+10/Brisbane) in an event called <a href='https://www.meetup.com/Write-the-Docs-Australia/events/270641270/'>Techcomm in the times of pandemic</a>. Other participants include Kirk St. Amant, Swapnil Ogale, and Sarah Maddox."
 ---
 
 ## Event description
