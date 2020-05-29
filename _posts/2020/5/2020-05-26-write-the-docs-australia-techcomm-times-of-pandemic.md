@@ -13,11 +13,12 @@ description: "I'm participating in a remote discussion with WTD Australia this T
 
 You can read the event description here: [Remote discussion: Techcomm in the times of pandemic](https://www.meetup.com/Write-the-Docs-Australia/events/270641270/)
 
-<a href="https://www.meetup.com/Write-the-Docs-Australia/events/270641270/"><img src="https://idratherbewritingmedia.com/images/wtdaustraliaeventpandemic.png"/></a>
-
 > Tom recently put out a survey [https://idratherbewriting.com/blog/quarantine-pandemic-impact-on-tech-comm-survey/](https://idratherbewriting.com/blog/quarantine-pandemic-impact-on-tech-comm-survey/)
 >
 > Kirk published an article about the tech comm facets of the pandemic that health communicators have been working in or against [https://communicating-about-covid19.weebly.com/](https://communicating-about-covid19.weebly.com/)
+
+<a href="https://www.meetup.com/Write-the-Docs-Australia/events/270641270/"><img src="https://idratherbewritingmedia.com/images/wtdaustraliaeventpandemic.png"/></a>
+
 
 ## What we'll chat about
 
