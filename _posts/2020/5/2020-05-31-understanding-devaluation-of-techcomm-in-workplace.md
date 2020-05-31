@@ -7,11 +7,12 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/unimportant
 description: "A reader whose company recently laid two-thirds of their tech pubs staff recently asked why technical writers are often seen as unimportant in a company. I asked <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an academic at the University of Minnesota who has been doing research into tech comm value in the workplace, to respond to the reader's question."
+author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
 ---
 
 ## The question
 
-I recently received a question from a reader asking about the devaluation of tech writers in the workplace. The reader writes:
+I recently received a question from a reader asking about the devaluation of tech writers in the workplace. The person writes:
 
 > I started my career as a writer last July. I came from technical support. I thought the support team was at the bottom of the chain at our company. Today, I stand corrected. It is definitely our tech writing team. Our company, along with many others, recently furloughed many employees. We are an international company that works in retail manufacturing. We had five technical writers with a developer to writer ratio of 43:2. They furloughed three of the five. I and one other person remain. Percentagewise, although other teams are much bigger than us, our team took the biggest hit. I can't understand this because obviously we were so terribly understaffed to begin with. Also, our backlog was already huge. It's not like there was no work for us. We were drowning in it. I don't know what the ratio is now, but I know it's bad. It is a constant uphill battle to get the resources that we need just to get our jobs done and we are often treated as last priority. I just wanted to ask you, is this normal? Are technical writers often treated as such an unimportant part of a company? Is there a common movement happening to get rid of technical writers?
 
@@ -23,15 +24,13 @@ I decided to ask Jeremy Rosselot-Merritt, who recently published some research a
 
 **How Knowledge and Perceptions of Technical Communication Can Influence Its Utilization within Workplaces**
 
-From what the writer has seen so far in her organization, it's reasonable to ask those questions. When the economy slows down, companies downsize, and when that happens, there's uncertainty and concern (rightfully so). Those challenges aren't unique to technical writing, yet there isn't much consolation in knowing that when these things happen. Something that can be helpful to think about is technical writing's status as a broader field.
+From what the reader has seen so far in her organization, it's reasonable to ask those questions. When the economy slows down, companies downsize, and when that happens, there's uncertainty and concern (rightfully so). Those challenges aren't unique to technical writing, yet there isn't much consolation in knowing that when these things happen. Something that can be helpful to think about is technical writing's status as a broader field.
 
 I've long been asking what factors influence the value that companies and individuals place on technical  writing. To this end, in my research at the University of Minnesota, I've been asking the question, "How is technical writing perceived by people who aren't actually technical writers?"
 
 There are good reasons to ask this question.
 
-First is the fact that, as the writer's experience shows, technical writers typically do most of their work:
-
-
+First is the fact that, as the readers's experience shows, technical writers typically do most of their work:
 
 *   With people are not technical writers
 *   For people who are not technical writers (i.e., supervisors, managers, and executives)
@@ -60,7 +59,7 @@ When you ask somebody what they think of when they hear the term "technical comm
 *   "...when I hear technical communication, I tend to think about the communication in those fields. So again, very specific. Not just a layperson type communication and things like that, but writing for very specific purposes frequently within the areas of STEM. For specifically within very technical, highly educated areas." _(An engineering college staff member at a state university)_
 *   "I think of technology. That's where my mind goes to and I don't know if that's right or wrong, but I think of what technologies people use to communicate, especially in this day and age where everything is based on technology. So, whether it's texting, it's apps you can use, that's what I think of." _(An independent consultant in the HR industry)_
 *   "I usually think of something that's related to the technical aspect of my job, which is primarily the computer." _(A dietitian in a health care system)_
-*   "When I hear the term ‘technical communication,' I typically think of the art and skill of accurately describing complicated processes in a way that makes them easily replicable."_ (A marketing specialist in the software industry)_
+*   "When I hear the term ‘technical communication,' I typically think of the art and skill of accurately describing complicated processes in a way that makes them easily replicable." _(A marketing specialist in the software industry)_
 *   "With my background, I first think about communication with technology (online FAQ, forms, etc.). In my current industry, I think about communicating technical details of the jobs we're working on. This could include someone seeking out our technical expertise or walking someone how to do something with the equipment." _(A project manager at an industrial equipment company)_
 *   "I guess, having really no idea, I guess it would be...like announcements and things like that. A platform." _(An academic advisor at a state university)_
 
@@ -118,4 +117,4 @@ Does that mean that the market for technical writers is as good as it was _befor
 
 ## About the Author {#jeremy}
 
-Jeremy Rosselot-Merritt is a PhD candidate in the [University of Minnesota's Rhetoric and Scientific and Technical Communication (RSTC) program](https://cla.umn.edu/writing-studies/graduate/degrees/ma-phd). His 14 years of experience as a technical writer influence his research interests in workplace writing and communication as well as emerging and open source technologies, among other areas. He holds a master's degree in technical and scientific communication (MTSC) from Miami University (Ohio). Originally from the Cincinnati, Ohio, region, he currently lives in the Minneapolis-St. Paul metro. Feel free to follow up at [jrmerritt@umn.edu](mailto:jrmerritt@umn.edu).
+Jeremy Rosselot-Merritt is a PhD candidate in the [University of Minnesota's Rhetoric and Scientific and Technical Communication (RSTC) program](https://cla.umn.edu/writing-studies/graduate/degrees/ma-phd). His 14 years of experience as a technical writer influence his research interests in workplace writing and communication as well as emerging and open source technologies, among other areas. He holds a master's degree in technical and scientific communication (MTSC) from Miami University (Ohio). Feel free to follow up at [jrmerritt@umn.edu](mailto:jrmerritt@umn.edu).
