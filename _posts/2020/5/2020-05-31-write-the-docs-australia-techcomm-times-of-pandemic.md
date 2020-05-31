@@ -1,5 +1,5 @@
 ---
-title: "WTD Australia event recording &mdash; \"Remote discussion: Techcomm in the times of pandemic\""
+title: "WTD Australia event recording &mdash; 'Remote discussion: Techcomm in the times of pandemic'"
 permalink: /blog/write-the-docs-australia-techcomm-times-of-pandemic/
 categories:
 - academics-and-practitioners
@@ -7,11 +7,22 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/wtdaustraliatechcommpandemic
 description: "I recently co-presented in a <a href='https://www.meetup.com/Write-the-Docs-Australia'>WTD Australia event</a> titled <a href='https://www.meetup.com/Write-the-Docs-Australia/events/270641270/'>Techcomm in the times of pandemic</a> on May 28, 2020. The other presenter was professor Kirk St. Amant."
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/wtdaustralia_pandemic_discussion.mp3
+podcast_file_size: "117.5 MB"
+podcast_duration: "01:10:47"
+podcast_length: "101924081"
+transcript: "transcripts/2020-05-31-write-the-docs-australia-techcomm-times-of-pandemic.md"
 ---
 
 ## Watch the event
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RbQOFgBRnGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Audio only
+
+If you only want the audio, you can listen here:
+
+{% include audio.html %}
 
 ## Event description
 

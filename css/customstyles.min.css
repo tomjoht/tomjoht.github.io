@@ -1635,3 +1635,26 @@ div.col-md-9.expand .summary {
 div.col-md-7.expand .siteLogo img {
   display: none;
 }
+/*transcript styles*/
+div.podcastTranscript {
+  background-color: #fafafa;
+  padding: 15px;
+  border: #dedede;
+}
+
+
+h3.transcript a {
+  background: url("/css/sprite.png") 15px 13px no-repeat #dedede;
+  display: block;
+  padding: 10px;
+  padding-left: 32px;
+  margin: 0;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  text-decoration: none !important;
+}
+h3:hover { background: rgb(228,10,85); }
+h3.open  { background: rgb(255,70,120); }
+h3.open a { background-position: 13px -25px; }
+h3 + div { padding: 10px; }
