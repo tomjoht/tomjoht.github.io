@@ -32,7 +32,7 @@ There are good reasons to ask this question.
 
 First is the fact that, as the readers's experience shows, technical writers typically do most of their work:
 
-*   With people are not technical writers
+*   With people who are not technical writers
 *   For people who are not technical writers (i.e., supervisors, managers, and executives)
 *   In a role that supports the work of—and is often directed by—people in product-centered and/or client-facing roles (engineering, sales, project management, software development, and so on).
 
