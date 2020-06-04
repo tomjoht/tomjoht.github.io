@@ -1,5 +1,5 @@
 ---
-title: "Making a comfortable office environment when working from home"
+title: "Making a comfortable office environment when working from home is harder than it seems"
 permalink: /blog/comfortable-office-environment/
 categories:
 - technical writing
