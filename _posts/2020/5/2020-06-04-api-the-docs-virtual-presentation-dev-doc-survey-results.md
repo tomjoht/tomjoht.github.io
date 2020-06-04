@@ -5,7 +5,7 @@ categories:
 - api-doc
 keywords:
 rebrandly: https://idratherbewriting.site/apithedocsvirtual5thedition
-description: "I recently presented a session at the <a href='https://apithedocs.org/virtual'>API the Docs virtual series</a> on Wednesday, May 27, 2020, as part of the <i>5th edition</i>. My session covered dev doc trends, and another session covered API design. A recording is available below."
+description: "I recently presented a session at the <a href='https://apithedocs.org/virtual'>API the Docs virtual series</a> on Wednesday, May 27, 2020, as part of the <i>5th edition</i>. My session covered dev doc trends, and another session covered API design. A recording of my presentation is available below."
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/apithedocs_virtualseries_trends.mp3
 podcast_file_size: "27.3 MB"
 podcast_duration: "32:02"
