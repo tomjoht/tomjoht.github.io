@@ -6,6 +6,11 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/apithedocsvirtual5thedition
 description: "I recently presented a session at the <a href='https://apithedocs.org/virtual'>API the Docs virtual series</a> on Wednesday, May 27, 2020, as part of the <i>5th edition</i>. My session covered dev doc trends, and another session covered API design. A recording is available below."
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/apithedocs_virtualseries_trends.mp3
+podcast_file_size: "27.3 MB"
+podcast_duration: "32:02"
+podcast_length: "27022667"
+transcript: "transcripts/2020-06-04-api-the-docs-virtual-presentation-dev-doc-survey-results.md"
 ---
 
 ## API the Docs Virtual Series
@@ -32,6 +37,12 @@ Here's the recorded video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/swktxdNozXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can view more recaps here: [Recordings, slides and recaps available:](https://pronovix.com/event/api-docs-virtual-2020). There's also an [API the Docs podcast](https://anchor.fm/api-the-docs-podcast) that captures some of the Q&A around events.
+
+## Audio only
+
+If you only want the audio, you can listen here:
+
+{% include audio.html %}
 
 ## Registering for more API the Docs events
 

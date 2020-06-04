@@ -34,7 +34,7 @@ comments: true
 {% if page.transcript %}
 <script src="/js/jquery.collapse.js"></script>
 <div id="podcastTranscript" data-collapse>
-<h3 class="transcript">Transcript</h3>
+<h3 id="transcript" class="transcript">Transcript</h3>
 <div class="podcastTranscript">
 <p><i>The following is a machine-generated transcript of the podcast. Expect typos, misspellings, and other inaccuracies from the actual speech.</i></p>
 {% include {{page.transcript}} %}
