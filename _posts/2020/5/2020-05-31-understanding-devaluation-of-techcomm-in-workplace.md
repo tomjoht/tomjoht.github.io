@@ -6,7 +6,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/unimportant
-description: "A reader whose company recently laid off two-thirds of their tech pubs staff recently asked why technical writers are often seen as unimportant in a company. I asked <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an academic at the University of Minnesota who has been doing research into tech comm value in the workplace, to respond to the reader's question."
+description: "A reader whose company recently laid off two-thirds of their tech pubs staff asked why technical writers are often seen as unimportant in a company. I asked <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an academic at the University of Minnesota who has been doing research into tech comm value in the workplace, to respond to the reader's question."
 author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
 ---
 
