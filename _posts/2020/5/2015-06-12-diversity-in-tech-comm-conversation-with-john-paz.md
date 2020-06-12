@@ -169,7 +169,7 @@ Finally, if you don't start promoting Black and Brown people into management and
 
 ## About John Paz {#johnpaz}
 
-John Paz is a senior content designer with more than 14 years of professional writing and editing experience. He currently works at Atlassian, focusing on Bitbucket Cloud and many other projects. He has a BA in English from the University of Central Florida. Describing himself, John says, "I'm not the typical techie. I didn't take a traditional path to working in tech, and I openly share my story to inspire others to find their place working in technology."
+John Paz is a senior content designer with more than 14 years of professional writing and editing experience. He currently works at Atlassian on the Field Operations team, which supports Atlassian's largest enterprise customers. He has a BA in English from the University of Central Florida. Describing himself, John says, "I'm not the typical techie. I didn't take a traditional path to working in tech, and I openly share my story to inspire others to find their place working in technology."
 
 You can learn more about John at [https://johnapaz.com](https://johnapaz.com) and follow him on Twitter at [@SrContentDesign](https://twitter.com/SrContentDesign). In October, John will be speaking at [Button](https://www.buttonconf.com/), a product content conference.
 
