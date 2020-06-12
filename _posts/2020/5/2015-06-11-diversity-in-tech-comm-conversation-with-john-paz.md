@@ -167,7 +167,7 @@ It's not enough to just hope minorities apply, you need to make space for minori
 
 Finally, if you don't start promoting Black and Brown people into management and leadership positions, you will never make significant inroads into making people feel like they belong. If I can't see an example of myself in a leadership position somewhere, there's no point in my sticking around to be their "first" minority anything. The Whiteness of the boardroom and managers' table is telling, and the best of us aspire to leadership, so there needs to be precedence. Promote Black people, and stop waiting for the perfect storm of opportunity and "readiness" (which is bullshit anyway, no one is ready until they try).
 
-## About John Paz
+## About John Paz {#johnpaz}
 
 John Paz is a senior content designer with more than 14 years of professional writing and editing experience. He currently works at Atlassian, focusing on Bitbucket Cloud and many other projects. He has a BA in English from the University of Central Florida. Describing himself, John says, "I'm not the typical techie. I didn't take a traditional path to working in tech, and I openly share my story to inspire others to find their place working in technology."
 
