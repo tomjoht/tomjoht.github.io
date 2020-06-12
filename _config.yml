@@ -145,7 +145,7 @@ algolia:
     - files/**/*
     - pages/category-archives/*
     - pages/date-based-archives/*
-  nodes_to_index: 'p,.summary'
+  nodes_to_index: 'p,.description'
 eventbrite_public_token: FUQRFCCTNLYIUXJZQCSV
 
 ####### jekyll seo tag configuration #######
