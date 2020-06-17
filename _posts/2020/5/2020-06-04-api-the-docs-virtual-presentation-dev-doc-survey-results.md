@@ -44,6 +44,12 @@ If you only want the audio, you can listen here:
 
 {% include audio.html %}
 
+## Slides only
+
+If you only want the slides, they're here:
+
+<a href="../learnapidoc/slides/devdoctrends_results.html"><img src="https://idratherbewritingmedia.com/images/api/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" style="max-width:500px; border: 1px solid #444"  /></a>
+
 ## Registering for more API the Docs events
 
 If you haven't registered for upcoming Virtual Series events, you can [register on Eventbrite](https://www.eventbrite.com/e/api-the-docs-virtual-series-tickets-100381696356?utm_medium=referral&utm_source=eventpage). You can also become an [API the Docs supporter here](https://ti.to/pronovix/api-the-docs-virtual-series).
