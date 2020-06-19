@@ -24,9 +24,9 @@ Few attempts try to be so polite as this sign, but it comes across as unnecessar
 
 <img src="https://idratherbewritingmedia.com/images/covid_sign7.jpg" alt="Sign 7" />
 
-This sign prompts people who would normally pause here to look at cows, sheep, and other animals to keep moving, since congregating in one area leads to crowds. Other signs in this farm area are equally humorous -- "Sheep your distance!"
+This sign prompts people who would normally pause here to look at cows, sheep, and other animals to keep moving, since congregating in one area leads to crowds. Other signs in this farm area are equally humorous -- "Sheep your distance!" and "You goat this!"
 
-Humor works well here, but the signs don't need to do much work because there are either wood panels or canvas cloth covering the fences anyway and no animals to see. Most people appreciate good puns, though. I've seen subreddit threads go on and on with puns sometimes.
+Humor works well here, but the signs don't need to do much work because there is heavy black canvas covering the fences anyway and no animals to see. Most people appreciate good puns, though. I've seen subreddit threads go on and on with puns sometimes.
 
 That said, it's probably tricky to be funny during a time when thousands of people are dying in a pandemic. Humor probably only works in a small number of scenarios, such as with farm signs.
 
@@ -54,19 +54,45 @@ I was excited to see park officials re-install basketball rims at the park, but 
 
 <img src="https://idratherbewritingmedia.com/images/bballcovidgathering.jpg" alt="Bball effect" />
 
-This leads to another point. It's one thing to put up a sign that clearly states an expected behavior but much more effective to change the environment in a way that enforces the behavior. With the previous sign that said "Keep mooving!", without the wood paneling covering the sheep and cow pens, people would have inevitably stopped and congregated to look at the animals.
+This leads to another point. It's one thing to put up a sign that clearly states an expected behavior but much more effective to change the environment in a way that enforces the behavior. When the park removed the basketball rims, it was effective in deterring play, but also effective in sending many ballers into states of depression.
 
-When the park removed the basketball rims, it was effective in deterring play, but also effective in sending many ballers into states of depression.
+With the previous sign that said "Keep mooving!", without the black cloth covering the fences, people would have inevitably stopped and congregated to look at the sheep, goats, cows, etc.
+
+<img src="https://idratherbewritingmedia.com/images/farmwallscovid.jpg" alt="Walls preventing visibility" />
+
+With these coverings, there's no point in stopping anymore.
+
+Here's another example where the sign doesn't need to do much because the behavior is enforced. Even if you wanted to drink from the fountain, you would not be able to.
+
+<img src="https://idratherbewritingmedia.com/images/drinkingfountainsigncovid.jpg" alt="Drinking fountains taped up" />
 
 ## Combining familiar iconography with new messaging
 
+Now let's look at the approach that I think works best.
+
 <img src="https://idratherbewritingmedia.com/images/covid_sign9.jpg" alt="Sign 9" />
 
-This is my favorite sign because it combines familiar iconography ("One Way") with Covid instructions. [Rancho San Antonio](https://www.openspace.org/preserves/rancho-san-antonio) is a system of urban hiking trails, and someone was genius enough to create one-way flows on these trails to eliminate (or at least reduce) two-way traffic. It works extremely well, and even after Covid I would appreciate the same signs because the trail flow is so much better.
-
-Overall, this sign gets my winning vote. In addition to combining familiar signposting with Covid instructions, there's good visual balance, the message is brief and clear, and even though nothing enforces the behavior on the trail, going the wrong way on a one-way trail just feels wrong.
+This is my favorite sign because it combines familiar iconography or symbology ("One Way") with Covid instructions. [Rancho San Antonio](https://www.openspace.org/preserves/rancho-san-antonio) is a system of urban hiking trails, and someone was genius enough to create one-way flows on these trails to eliminate (or at least reduce) two-way traffic. It works extremely well, and even after Covid I would appreciate the same signs because the trail flow is so much better.
 
 The text cascades from large to small, getting more detailed as you keep reading. If you read the hashtag, #keepyourparksopen, it's even a subtle attempt to instill fear for non-compliance. If you disregard the sign, the park may close.
+
+Here are a few more examples of signs that combine familiar iconography/symbology with Covid instructions:
+
+<img src="https://idratherbewritingmedia.com/images/donotentercovid.jpg" alt="Familiar symbology" />
+
+We unconsciously follow this sign because our driving habits have taught us the danger of disobeying Do Not Enter signs.
+
+Here's another Do Not Enter combined with a familiar construction barricade. Using these familiar caution/warning symbols and icons goes a long way toward tapping into our unconscious responses to these signs. Disobeying this sign and walking up this trail would make me feel uncomfortable.
+
+<img src="https://idratherbewritingmedia.com/images/donotentercovid2.jpg" alt="Familiar symbology/iconography" />
+
+Here's one more. This just works:
+
+<img src="https://idratherbewritingmedia.com/images/onlycovidsign.jpg" alt="Familiar symbology/iconography" />
+
+You can get the message here at a quick glance, and the instruction is unmistakable.  
+
+Overall, this approach &mdash; combining familiar symbology and iconography with Covid instruction &mdash; gets my winning vote. In addition to combining familiar signposting with Covid instructions, these signs have good visual balance, the messages are brief and clear, and even though nothing enforces the behavior on the trail, going the wrong way on a one-way trail just feels wrong.
 
 ## Lumping together groups of people
 
@@ -114,6 +140,6 @@ Much of this applies to UI text. For example, when we create a tooltip for a con
 * Avoid trying to be polite or funny
 * Avoid shouting at people
 * Avoid confusing terms or messaging
-* Leverage familiar iconography
+* Leverage familiar iconography/symbology that people are accustomed to
 
 As with most writing scenarios, communication in one scenario often has similar principles for communication in other scenarios. If you have favorite Covid signs you want to share, feel free to add links in the comments below.
