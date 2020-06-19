@@ -88,7 +88,7 @@ If you try to pick out pieces of what's changed in a file diff display, you can'
 
 As I move forward into more of a prose-like-prose model, I plan to develop more content in Quip and have a lot of back-and-forth with engineering/product teams. I hope that this new process will reduce my workload without putting undue stress on others to develop content. I'm curious to hear your feedback and learn whether similar processes work for you.
 
-## Your feedback and opinion
+## Your feedback and input
 
 I like knowing whether the ideas I'm leaning towards in posts have merit, or if I'm just talking myself into a direction that might be counterproductive in the long run. I want to leverage your wisdom and experience as much as possible, so if you'd like to provide input in the following short survey, please do so. You can view the [ongoing results here](https://www.questionpro.com/t/PG6OEZhu3z).
 

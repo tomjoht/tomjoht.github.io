@@ -4,7 +4,7 @@ permalink: /blog/what-makes-good-covid-sign/
 categories:
 - visual-communication
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/goodcovidsigns
 description: "Have you noticed lately that there are a million new signs everywhere providing instruction about how to act due to Covid19? The different approaches in these signs makes them interesting to analyze. I took a few pictures the other day of signs I saw on my hike near Rancho San Antonio, a stop at Trader Joe's, and then a trip to my local park. I thought it would be fun to write a post critiquing the different approaches and to arrive at a conclusion about what makes a good Covid sign. Do the same principles behind a good sign also apply to UI text?"
 ---
 
