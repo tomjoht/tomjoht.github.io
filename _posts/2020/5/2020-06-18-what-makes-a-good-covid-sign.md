@@ -98,7 +98,7 @@ Overall, this approach &mdash; combining familiar symbology and iconography with
 
 <img src="https://idratherbewritingmedia.com/images/covid_sign2.jpg" alt="Sign 2" />
 
-The sign here lacks visual design (except a yellow cover), but it commits another error with "SENIOR/DISABLED" people grouped together. I'm sure that when I'm a senior, I will resent being referred to in this way, just as many are frustrated when people group "women and children" together in the same category. Also, "disabled" is a term that can also offend "persons with disabilities."
+The sign here lacks visual design (except a yellow color), but it commits another error with "SENIOR/DISABLED" people grouped together. I'm sure that when I'm a senior, I will resent being referred to in this way, just as many are frustrated when people group "women and children" together in the same category. Also, "disabled" is a term that can also offend persons with disabilities.
 
 ## Shouting at people
 
