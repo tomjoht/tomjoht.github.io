@@ -5,7 +5,7 @@ categories:
 - api-doc
 - podcasts
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/devportalstratskristof
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/kristof_developer_portal_strategies.mp3
 podcast_file_size: "43 MB"
 podcast_duration: "52:24"
@@ -30,7 +30,7 @@ Here are a few questions I asked Kristof during the podcast:
 
 * How has Covid19 prompted companies to shift from physical proximity to digital proximity? Are APIs pivotal in the ability to make this transformation?
 
-* In your presentation, you talk about a Cynafin framework that has different landscapes as metaphors, including a "dancing" landscape to reflect complexity. Are we in a dancing landscape right now?
+* In your presentation, you talk about a Cynefin framework that has different landscapes as metaphors, including a "dancing" landscape to reflect complexity. Are we in a dancing landscape right now?
 
 * You mention how in complex landscapes, companies need to allow developers to adapt and modify the prescribed implementation. This is because often by the time they finish their implementation, the landscape may have already changed, introducing new factors not previously present. How does this constantly changing landscape influence our approach in documenting APIs?
 
@@ -46,12 +46,18 @@ Here are some other resources mentioned during the podcast:
 
 * [A Role for Developer Portals in Digital Transformation,](https://www.youtube.com/watch?v=54VQ3j4f6yA)
 * [DevPortal Awards](https://devportalawards.org/)
-* [API Handyman](https://apihandyman.io/) and [The Design of Web APIs](https://www.manning.com/books/the-design-of-web-apis?a_aid=everyday_apis&a_bid=ad5a0fe0)
 * [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework)
-* [Matthias Biehl](https://twitter.com/mattbiehl) (APIs as toolboxes)
 * [Facilitating Organization Change: Lessons from Complexity Science](Facilitating Organization Change: Lessons from Complexity Science 1st Edition)
 * [API the Docs virtual series](https://apithedocs.org/virtual)
 * [Developer portals & API docs newsletter](https://pronovix.us6.list-manage.com/subscribe?u=5756ad9696bad5dc41c7b93f9&id=782d338a0b)
+* [The Design of Web APIs](https://www.manning.com/books/the-design-of-web-apis?a_aid=everyday_apis&a_bid=ad5a0fe0) by [API Handyman](https://apihandyman.io/)
+
+Kristof also wanted to acknowledge and attribute various ideas to people:
+
+* [Matthias Biehl](https://twitter.com/mattbiehl) (coined "digital proximity")
+* [Robin Meissner](https://www.linkedin.com/in/robin-meissner/) (impact of constraints between REST and SOAP)
+* [Matthias Buesher](https://www.linkedin.com/in/matthias-buescher/) (devportals as a toolbox)
+* [Cristiano Betta a.k.a. Doctor DX](https://betta.io/) ("building blocks" APIs you use and document together )
 
 ## About Kristof van Tomme
 
