@@ -1654,7 +1654,6 @@ h3.transcript a {
   font-weight: normal;
   text-decoration: none !important;
 }
-h3:hover { background: rgb(228,10,85); }
 h3.open  { background: rgb(255,70,120); }
 h3.open a { background-position: 13px -25px; }
 h3 + div { padding: 10px; }

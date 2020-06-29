@@ -1,26 +1,3 @@
-<!-----
-Copy and paste the converted output.
-
-NEW: Check the "Suppress top comment" option to remove this info from the output.
-
-Conversion time: 2.008 seconds.
-
-
-Using this HTML file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β25
-* Sun May 31 2020 14:51:41 GMT-0700 (PDT)
-* Source doc: Untitled document
------>
-
-
 <p>
 <strong>wtdaustralia_pandemic_discussion</strong>
 </p>
