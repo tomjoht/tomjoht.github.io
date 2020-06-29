@@ -1241,67 +1241,74 @@ ul#mysidebar li.active a {
 .bs-callout-comic {
     font-family: arial;
     font-size: 15px;
-    color: gray
+    color: gray;
 }
 
 .suppMessageTitle {
     font-weight: 700;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 @media only screen and (max-width:1350px),
 only screen and (max-device-width:1350px) {
     div.topComic img {
-        width: 475px
+        width: 475px;
     }
 }
 
 @media only screen and (max-width:1300px),
 only screen and (max-device-width:1300px) {
     div.topComic img {
-        width: 450px
+        width: 450px;
     }
 }
 
 @media only screen and (max-width:1250px),
 only screen and (max-device-width:1250px) {
     div.topComic img {
-        width: 425px
+        width: 425px;
     }
 }
 
 @media only screen and (max-width:1200px),
 only screen and (max-device-width:1200px) {
     div.topComic img {
-        width: 400px
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:1199px),
+only screen and (max-device-width:1199px) {
+    .sidebarComics img {
+        max-width: 100%;
     }
 }
 
 @media only screen and (max-width:1150px),
 only screen and (max-device-width:1150px) {
     div.topComic img {
-        width: 375px
+        width: 375px;
     }
 }
 
 @media only screen and (max-width:1100px),
 only screen and (max-device-width:1100px) {
     div.topComic img {
-        width: 350px
+        width: 350px;
     }
 }
 
 @media only screen and (max-width:1050px),
 only screen and (max-device-width:1100px) {
     div.topComic img {
-        width: 325px
+        width: 325px;
     }
 }
 
 @media only screen and (max-width:1000px),
 only screen and (max-device-width:1000px) {
     div.topComic img {
-        width: 300px
+        width: 300px;
     }
 }
 
