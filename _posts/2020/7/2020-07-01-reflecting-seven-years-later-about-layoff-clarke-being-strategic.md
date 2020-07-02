@@ -80,6 +80,6 @@ I’ve already explored the point about needing a C-level champion at length ear
 
 Overall, Darnell says that “If you see that you are engaged in at least two of these five red flags, you’re going to find yourself getting laid off sooner than you think.” For example, if you’re not strategic and you don’t have a sponsor, this combination could send you to the layoff list. One red flag alone might not be enough to push you to the layoff list.
 
-And although Darnell is focusing on the layoff list, the points could equally apply to the “non-important resources” list. Not a layoff list, but a “could care less about” list.
+And although Darnell is focusing on the layoff list, the points could equally apply to the “non-important resources” list. Not a layoff list, but a “low-value” list.
 
 {% include series/seriesLayoffReflections_next.html %}
