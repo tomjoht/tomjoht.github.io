@@ -5,6 +5,10 @@
     {% assign sidebarTitle = "Value arguments for tech comm" %}
     {% assign sidebar = site.data.sidebar_value_tech_comm.entries %}
 
+    {% elsif page.jtype == "notes_layoff_reflections" %}
+    {% assign sidebarTitle = "Reflecting seven years later about why we were laid off" %}
+    {% assign sidebar = site.data.sidebar_layoff_reflections.entries %}
+
     {% elsif page.jtype == "notes_biking" %}
     {% assign sidebarTitle = "Biking" %}
     {% assign sidebar = site.data.sidebar_biking.entries %}
