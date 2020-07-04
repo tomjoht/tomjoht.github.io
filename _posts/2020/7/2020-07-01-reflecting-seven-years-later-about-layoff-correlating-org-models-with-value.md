@@ -6,7 +6,7 @@ date: 2020-07-01 03:00:000000000 -07:00
 categories:
 - technical-writing
 keywords: layoff, value, low estimation, low-value, hierarchy
-description: "A prominent factor in the low-value equation for tech comm in many companies might be the company's organization model &mdash; whether the tech comm group is centralized, decentralized, or distributed. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded drop-down menus.)</i>"
+description: "A prominent factor in the low-value equation for tech comm in many companies might be the company's organization model &mdash; whether the tech comm group is centralized, decentralized, or distributed. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded menus.)</i>"
 rebrandly: https://idratherbewriting.site/
 weight: 3
 tags: series_layoff_reflections

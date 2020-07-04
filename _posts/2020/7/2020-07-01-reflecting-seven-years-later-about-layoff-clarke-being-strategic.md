@@ -6,7 +6,7 @@ date: 2020-07-01 05:00:000000000 -07:00
 categories:
 - technical-writing
 keywords: layoff, value, low estimation, low-value, hierarchy
-description: "Darnell Clarke explains several reasons why employees find themselves on a layoff list. Some of the reasons include not being strategic, not being interpersonal (staying in the shadows), and not having a sponsor. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded drop-down menus.)</i>"
+description: "Darnell Clarke explains several reasons why employees find themselves on a layoff list. Some of the reasons include not being strategic, not being interpersonal (staying in the shadows), and not having a sponsor. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded menus.)</i>"
 rebrandly: https://idratherbewriting.site/
 weight: 5
 tags: series_layoff_reflections

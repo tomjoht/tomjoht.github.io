@@ -6,7 +6,7 @@ date: 2020-07-01 02:00:000000000 -07:00
 categories:
 - technical-writing
 keywords: layoff, value, low estimation, low-value, hierarchy
-description: "Even though we were all laid off at the same time, each of my colleague's has a unique story about their layoff, the reasons for it, and how they steered their career in different directions afterwards. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded drop-down menus.)</i>"
+description: "Even though we were all laid off at the same time, each of my colleague's has a unique story about their layoff, the reasons for it, and how they steered their career in different directions afterwards. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded menus.)</i>"
 rebrandly: https://idratherbewriting.site/
 weight: 2
 tags: series_layoff_reflections

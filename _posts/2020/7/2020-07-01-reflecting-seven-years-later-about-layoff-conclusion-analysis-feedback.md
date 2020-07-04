@@ -6,7 +6,7 @@ date: 2020-07-01 06:00:000000000 -07:00
 categories:
 - technical-writing
 keywords: layoff, value, low estimation, low-value, hierarchy
-description: "Several takeaways to fix the low-value / layoff issue with tech comm is to focus on strategic projects, limit your scope, and be more visible with the documentation you're creating. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded drop-down menus.)</i>"
+description: "Several takeaways to fix the low-value / layoff issue with tech comm is to focus on strategic projects, limit your scope, and be more visible with the documentation you're creating. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded menus.)</i>"
 rebrandly: https://idratherbewriting.site/
 weight: 6
 tags: series_layoff_reflections

@@ -6,7 +6,7 @@ date: 2020-07-01 04:00:000000000 -07:00
 categories:
 - technical-writing
 keywords: layoff, value, low estimation, low-value, hierarchy
-description: "Jonathon Colman presents an interesting solution to the over-allocation problem for content designers by reducing their project load to just 1-2 projects so that content designers can immerse more deeply and play a hybrid content/product designer role on teams. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded drop-down menus.)</i>"
+description: "Jonathon Colman presents an interesting solution to the over-allocation problem for content designers by reducing their project load to just 1-2 projects so that content designers can immerse more deeply and play a hybrid content/product designer role on teams. <i>(Note: This post is divided up into six parts &mdash; see the navigation in the left sidebar or use the embedded menus.)</i>"
 rebrandly: https://idratherbewriting.site/
 weight: 4
 tags: series_layoff_reflections
