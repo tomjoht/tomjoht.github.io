@@ -1,11 +1,11 @@
 ---
-title: "New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist through your technical acuity"
+title: "New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist at the same time"
 categories:
 - simplifying-complexity
 - stitcher
 - podcasts
 keywords:
-description: "In my <a href='/simplifying-complexity'>Simplifying Complexity series</a>, I added a new post called, <i>Principle 11: Be both a generalist and specialist through your technical acuity.</i> I also recorded this essay as a narrated podcast."
+description: "In my Simplifying Complexity series, I added a new post called, Principle 11: Be both a generalist and specialist at the same time. I also recorded this essay as a narrated podcast."
 bitlink: http://bit.ly/simplifyingcomplexityseriesgenspectrends
 image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/specgentrends.mp3
@@ -16,7 +16,7 @@ podcast_length: 66047185
 
 {% include audio.html %}
 
-You can read the essay here: [Principle 11: Be both a generalist and specialist through your technical acuity](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html).
+You can read the essay here: [Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html).
 
 How exactly does the topic of being a generalist or specialist tie in with simplifying complexity? Here's an excerpt:
 
@@ -26,7 +26,7 @@ Note that this content has undergone multiple iterations:
 
 * [First version](https://idratherbewriting.com/2018/10/02/providing-value-as-generalists-in-specialist-contexts-part-1/)
 * [Second version](https://idratherbewriting.com/2018/10/09/tech-comm-trends-more-collaboration-with-engineers/)
-* [Third version](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html)
+* [Third version](https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html)
 
 In this third version, I expanded the research in places, provided better organization in my analysis, and tried to integrate some more personal stories in places. I also narrated it as a podcast. Overall, this still remains a challenging topic, and the length of the article probably shows.
 

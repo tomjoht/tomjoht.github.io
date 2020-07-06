@@ -10,7 +10,7 @@ bitlink: http://bit.ly/trendscollabwithengineers
 ---
 
 {{site.data.alerts.tip}}
-To read a more up-to-date version of this trends argument, see <a href='https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-through-technical-acuity.html'>Principle 11: Be both a generalist and specialist through your technical acuity</a> in my <a href='https://idratherbewriting.com/simplifying-complexity/'>Simplifying Complexity series</a>.{{site.data.alerts.end}}
+To read a more up-to-date version of this trends argument, see <a href='https://idratherbewriting.com/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html'>Principle 11: Be both a generalist and specialist at the same time</a> in my <a href='https://idratherbewriting.com/simplifying-complexity/'>Simplifying Complexity series</a>.{{site.data.alerts.end}}
 
 {% comment %}
 work this in:

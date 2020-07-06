@@ -14,7 +14,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/pugetsoundtrendspreso
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3
 podcast_file_size: 83.9 MB
 podcast_duration: "01:26:50"
 podcast_length: 68378174

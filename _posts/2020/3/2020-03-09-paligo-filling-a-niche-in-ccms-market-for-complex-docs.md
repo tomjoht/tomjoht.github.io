@@ -10,7 +10,7 @@ categories:
 - podcasts
 - stitcher
 keywords: paligo, ccms, podcast, content re-use, localization, variants, versions
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/paligo_podcast_ccms.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/paligo_podcast_ccms.mp3
 podcast_file_size: "21 MB"
 podcast_duration: "51:35"
 podcast_length: "20920772"

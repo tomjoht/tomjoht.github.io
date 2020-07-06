@@ -10,7 +10,7 @@ categories:
 - podcasts
 - stitcher
 keywords: API documentation, trends, surveys, postman, making requests
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/la_workshop_intro_section.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/la_workshop_intro_section.mp3
 podcast_file_size: "69.2 MB"
 podcast_duration: "01:28:07"
 podcast_length: "69110376"

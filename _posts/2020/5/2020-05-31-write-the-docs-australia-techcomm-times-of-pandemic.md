@@ -7,7 +7,7 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/wtdaustraliatechcommpandemic
 description: "I recently co-presented in a <a href='https://www.meetup.com/Write-the-Docs-Australia'>WTD Australia event</a> titled <a href='https://www.meetup.com/Write-the-Docs-Australia/events/270641270/'>Techcomm in the times of pandemic</a> on May 28, 2020. The other presenter was professor Kirk St. Amant. A recording is available below."
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/wtdaustralia_pandemic_discussion.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/wtdaustralia_pandemic_discussion.mp3
 podcast_file_size: "117.5 MB"
 podcast_duration: "01:10:47"
 podcast_length: "101924081"

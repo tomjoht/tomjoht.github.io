@@ -4,9 +4,10 @@ permalink: /blog/developer-portal-strategies-complex-landscapes-kristof-van-tomm
 categories:
 - api-doc
 - podcasts
+- stitcher
 keywords:
 rebrandly: https://idratherbewriting.site/devportalstratskristof
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/kristof_developer_portal_strategies.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/kristof_developer_portal_strategies.mp3
 podcast_file_size: "43 MB"
 podcast_duration: "52:24"
 podcast_length: "42866964"

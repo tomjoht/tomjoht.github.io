@@ -54,4 +54,4 @@ EMBED_PARAMS.border = "hidden";
 <div id="div_7462560"></div>
 <script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>
 
-{% include series/seriesLayoffReflections_next.html %}
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:6684521859846946816/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6684521859846946816%2C6685562071821668352)">Read comments on Linkedin</a>

@@ -6,12 +6,12 @@ categories:
 - podcasts
 - stitcher
 keywords: API documentation, trends, surveys, postman, making requests
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/devdoctrendswebinar.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/devdoctrendswebinar.mp3
 podcast_file_size: "51.4 MB"
 podcast_duration: "59:01"
 podcast_length: "50658316"
 bitlink: https://idratherbewriting.site/webinardevdoctrendsrecordingo
-description: "I recently gave a webinar on trends in developer docs to the STC Washington DC chapter on March 12, 2020. In this presentation, I presented the results and analysis of my <a href='https://www.questionpro.com/t/PGhS9ZgCFE'>Trends in Developer Documentation 2020 survey</a>. A recording and audio file is available below."
+description: "I recently gave a webinar on trends in developer docs to the STC Washington DC chapter on March 12, 2020. In this presentation, I presented the results and analysis of my Trends in Developer Documentation 2020 survey. A recording and audio file is available below."
 ---
 
 ## Slides

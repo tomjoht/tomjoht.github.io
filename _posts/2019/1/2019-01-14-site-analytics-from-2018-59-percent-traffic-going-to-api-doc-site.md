@@ -191,7 +191,7 @@ Here are the top 10 podcasts in 2018:
 7.  [Evaluating the user experience of documentation — Podcast with Bob Watson](https://idratherbewriting.com/2018/06/18/podcast-on-the-user-experience/) (1,112 downloads)
 8.  [Upcoming full-day API documentation workshop in Menlo Park](https://idratherbewriting.com/2018/10/31/upcoming-api-doc-workshop/) (1,022 downloads)
 9.  [My conflicted thoughts about the decentralized web (while taking the Census of Technical Communicators survey)](https://idratherbewriting.com/2018/08/06/conflicted-thoughts-on-decentralized-web-and-survey/) (900 downloads)
-10. [New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist through your technical acuity](https://idratherbewriting.com/2018/11/30/trends-generalist-specialist-topic-in-simplifying-complexity-series/) (679 downloads)
+10. [New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist at the same time](https://idratherbewriting.com/2018/11/30/trends-generalist-specialist-topic-in-simplifying-complexity-series/) (679 downloads)
 
 I use Podtrac to track downloads. I've never seen a single podcast get as many downloads as the [Recording of API documentation workshop in Denver](https://idratherbewriting.com/2018/03/12/api-documentation-workshop-in-denver/#workshop-activities), with 8,357 downloads. Across all podcasts ever published on my site, there were about 42,000 downloads in 2018.
 
