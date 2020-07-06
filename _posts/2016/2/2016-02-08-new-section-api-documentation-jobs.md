@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "I added a new section to my API documentation course called The Job Market for API technical Writers. In this section, I try to elaborate on why knowledge of programming is often listed as a requirement in API documentation jobs, even if you're mainly documenting a REST API."
-image: https://idratherbewritingmedia.com/images/thumbnails/jobreqstechwritersapi.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jobreqstechwritersapi.png
 ---
 
 In postings for API documentation jobs, you'll often see requirements like this:

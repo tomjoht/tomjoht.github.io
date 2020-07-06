@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "Pull requests are requests to merge edits from a branch back into the master. This workflow facilitates review of technical content on Github, but implementing it has some challenges. Namely, the reviewer would need to be familiar with code syntax, locations, and branching."
-image: https://idratherbewritingmedia.com/images/thumbnails/pullrequeststhumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/pullrequeststhumb.png
 ---
 
 ## Pull request tutorial

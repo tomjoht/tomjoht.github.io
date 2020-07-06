@@ -5,7 +5,7 @@ categories:
 - DITA
 keywords: developer documentation, API documentation, interactivity, code, contributions, community, technical writer tooling, DITA
 description: "When deciding on the right tool to use for developer documentation, you have to evaluate just how much developers will be contributing and interacting with the documentation. In some scenarios, it will make sense to use developer tooling for docs to support more developer involvement. In other scenarios, it may be better to simply give developers a space where they can do brain dumps of technical info, but then to have tech writers edit, rewrite, and transition the content into tech writer tooling in order to handle more robust requirements."
-image: https://idratherbewritingmedia.com/images/thumbnails/developertoolingmodelthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/developertoolingmodelthumb.png
 ---
 
 ## My tool dilemmas
@@ -39,7 +39,7 @@ These are all the qualities you might expect to find in a more robust content ma
 Last week as I attended a [Write the Docs meetup in Redwood City](http://www.meetup.com/Write-the-Docs/events/228074123/), I realized some things. (It's not that I haven't said them before on this blog; it's that I forgot, I guess.) If you're writing developer doc and you want to get developers involved in contributing, reviewing, and interacting with the documentation, you're probably better off using developer tools and developer environments. After all, if you want to live in the developer's world, it sort of makes sense to adopt the developer's environment.
 
 <div style="max-width:400px;">
-<figure><object type="image/svg+xml" data="{{ "https://idratherbewritingmedia.com/images/developertooling-01.svg" | prepend: site.baseurl }}">Your browser does not support SVG</object><figcaption>Both writers and developers work on documentation that exists in similar tooling as other developer tools (for example, Markdown in text files pushed to a static site generator, stored in Github)</figcaption></figure>
+<figure><object type="image/svg+xml" data="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developertooling-01.svg" | prepend: site.baseurl }}">Your browser does not support SVG</object><figcaption>Both writers and developers work on documentation that exists in similar tooling as other developer tools (for example, Markdown in text files pushed to a static site generator, stored in Github)</figcaption></figure>
 </div>
 
 During the WTD presentation (which was on API documentation), one commenter (who works on Microsoft Azure) noted that they write their docs in Markdown and push them out to various Github repos. In these repos, lots of developers from the community frequently log issues, make comments (using Disqus), and contribute code themselves. That kind of energy and momentum around the docs wouldn't happen if the docs weren't embedded in developer environments.
@@ -80,7 +80,7 @@ During a lunch conversation I had with an articulate developer &mdash; who frequ
 Wise words for sure, but he wasn't suggesting that developers never write docs, only that developers don't write documentation that gets pushed out to customer-facing, production environments without involvement from technical writers. Instead, he liked the idea of providing an internal wiki for developers to draft content, which technical writers could then look at, edit, copy, review, or otherwise adjust before moving into production.
 
 <div style="max-width: 650px">
-<figure><a href=""><img src="{{ "https://idratherbewritingmedia.com/images/developertooling-02.svg" | prepend: site.baseurl }}" alt="Developer to writer tooling model" /></a><figcaption>Developers draft content in a wiki, which technical writers then pull from as they create the more formal documentation using writers' tools (such as XML, CCMS, or some help authoring tool)</figcaption></figure>
+<figure><a href=""><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developertooling-02.svg" | prepend: site.baseurl }}" alt="Developer to writer tooling model" /></a><figcaption>Developers draft content in a wiki, which technical writers then pull from as they create the more formal documentation using writers' tools (such as XML, CCMS, or some help authoring tool)</figcaption></figure>
 </div>
 
 As far as wikis go, he liked Confluence even though it doesn't allow native authoring in a syntax format. (With Confluence, you're stuck with a WYSIWYG editor.) He noted that with an alternative wiki platform such as Mediawiki, which provides native support for wiki syntax in a raw text format, you couldn't publish table-based information very easily. The switch to the WYSIWYG model with Confluence was a huge step forward, he felt.

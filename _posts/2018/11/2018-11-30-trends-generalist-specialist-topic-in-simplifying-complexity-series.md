@@ -7,8 +7,8 @@ categories:
 keywords:
 description: "In my Simplifying Complexity series, I added a new post called, Principle 11: Be both a generalist and specialist at the same time. I also recorded this essay as a narrated podcast."
 bitlink: http://bit.ly/simplifyingcomplexityseriesgenspectrends
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/specgentrends.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/specgentrends.mp3
 podcast_file_size: 66 MB
 podcast_duration: "01:02:10"
 podcast_length: 66047185

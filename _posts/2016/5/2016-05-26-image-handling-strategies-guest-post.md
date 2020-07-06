@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords: images, translation
 description: "The following is a guest post by Jeanine Shepstone. In this post, Jeanine talks about some of the issues that images present with tech docs. For example, sorting out references to the images, single sourcing re-used images, converting SVG image formats to ensure browser compatibility, and ensuring the right file size for optimal page loading are some of the challenges that tech writers face when working with images in tech docs."
-image: https://idratherbewritingmedia.com/images/thumbnails/legothumb.png 
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/legothumb.png 
 bio: false
 jtype: notes_visualcommunication
 ---
@@ -17,7 +17,7 @@ Layout is crucial for some technical documentation. For example, for a fold-out 
 
 Sometimes the technical documentation is primarily visual, for example, Lego assembly instructions.
  
-<figure><a href="https://idratherbewriting.com"><img src="{{ "https://idratherbewritingmedia.com/images/LEGOturkey2.jpg" | prepend: site.baseurl }}"/></a><figcaption>How to build a turkey from standard LEGO blocks</figcaption></figure>
+<figure><a href="https://idratherbewriting.com"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/LEGOturkey2.jpg" | prepend: site.baseurl }}"/></a><figcaption>How to build a turkey from standard LEGO blocks</figcaption></figure>
 
 For some products, the company chooses to brand itself by using top quality visual design in the technical documentation.
 
@@ -89,7 +89,7 @@ These are some of the issues with images that I've come across. Feel free to add
 
 ## About Jeanine Shepstone
 
-<img src="{{ "https://idratherbewritingmedia.com/images/jeanine.jpg" | prepend: site.baseurl }}" alt="Jeanine" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Jeanine Shepstone writes user information for generator control systems. There are plenty of images to contend with.
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jeanine.jpg" | prepend: site.baseurl }}" alt="Jeanine" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Jeanine Shepstone writes user information for generator control systems. There are plenty of images to contend with.
 
 <div style="clear: both;"></div>
 

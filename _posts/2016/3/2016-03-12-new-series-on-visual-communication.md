@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords: visual communication, screenshots, images, technical documentation visuals, screen captures, best practices
 description: "The other week on Twitter I noted that, despite the power visuals play in communicating technical concepts, there's not a lot of good information out there on visual communication in the context of technical documentation. As a result, I'm starting a series focused on visual communication, somewhat like the series I wrote about API documentation. One benefit of publishing this info on a blog is that I can regularly publish small articles and benefit from widespread feedback to help me course-correct early and move towards more accurate information."
-image: https://idratherbewritingmedia.com/images/thumbnails/visualcommunicationthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/visualcommunicationthumb.png
 jtype: notes_visualcommunication
 ---
 

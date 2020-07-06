@@ -20,7 +20,7 @@ jtype: notes_value_tech_comm
 
 In July 2017, easyDITA published an infographic on [Measuring the Value of Technical Communication](https://easydita.com/infographic-measuring-the-value-of-technical-communication/#comments), based on a survey of 149 technical communicators.
 
-<a href="https://easydita.com/infographic-measuring-the-value-of-technical-communication/#comments"><img src="https://idratherbewritingmedia.com/images/easyditameasuringvalue.png"/></a>
+<a href="https://easydita.com/infographic-measuring-the-value-of-technical-communication/#comments"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/easyditameasuringvalue.png"/></a>
 
 This infographic kicked off some debate and helped me connect with academic research on the topic. In response to this infographic, Bob Watson wrote a post also titled [Measuring the value of technical writing](http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing/), responding to and evaluating this topic. Watson is an Assistant Professor of Technical Communication at Mercer University, and his research focuses on measuring and improving technical communication methods and practices, so measurement is a topic he's passionate about.
 
@@ -59,7 +59,7 @@ And so on. (The lists are much longer in the article &mdash; I excerpted a selec
 
 Watson notes that tech writers have been unable to successfully follow through with these measurements, and so the issue of proving value wasn't merely closed with this twenty-year-old article. Why is measurement so problematic? Watson says that one problem is that we aren't starting with a dire situation where tech docs don't exist. Instead, we're already in a pretty good spot. He visually depicts this as follows:
 
-<a href="http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing"><img src="https://idratherbewritingmedia.com/images/ROI_web_bob_watson.png" style="max-width: 400px;"/></a>
+<a href="http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ROI_web_bob_watson.png" style="max-width: 400px;"/></a>
 
 He says that many of the measures (as reported by the easyDITA survey) which tech writers see as the value of tech comm &mdash; increased customer satisfaction, reduced support costs, and reduced training and development costs &mdash; position tech writing "a service or cost center &mdash; one that takes value instead of adds value." The value position as a cost center is problematic because it will lead managers to try to further reduce costs:
 
@@ -75,7 +75,7 @@ In evaluating whether tech writers add value or simply reduce costs, he says add
 
 A number of other authors have undertaken similar efforts to study the value of tech comm, and articles and books are abundant on this topic. For example, in "Moving from Information Transfer to Knowledge Creation: A New Value Proposition for Technical Communicators" (*Technical Communication*, 2002), Michael Hughes sees the value proposition of tech comm not merely as information transfer but rather knowledge creation. Knowledge is information in action; it is an interpretation of the information or product within the user's context (hence usually interpreted in the form of actionable tasks). Hughes depicts this knowledge creation as follows:
 
-<figure><img src="https://idratherbewritingmedia.com/images/actionableinformation.png" style="max-width: 400px;"/><figcaption>Hughes shows how technical communicators create knowledge assets from information. Technical communicators don't just translate information into readable prose; they actually create new knowledge assets.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/actionableinformation.png" style="max-width: 400px;"/><figcaption>Hughes shows how technical communicators create knowledge assets from information. Technical communicators don't just translate information into readable prose; they actually create new knowledge assets.</figcaption></figure>
 
 Hughes explains that much of the knowledge inside an organization is tacit, meaning so innate that the engineers assume everyone knows it; this tacit information "enables acts of unconscious competence." On the other end of the stick, users often don't even know what to ask. They are unaware of what they don't know &mdash; they have unconscious incompetence. It is in this space &mdash; between unconscious competence and unconscious incompetence &mdash; that technical communicators create new knowledge that provides tremendous value. Hughes writes,
 

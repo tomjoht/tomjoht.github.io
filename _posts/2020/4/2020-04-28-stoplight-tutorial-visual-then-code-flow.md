@@ -10,7 +10,7 @@ description: "One of the most challenging aspects of my API documentation course
 
 The new flow in the OpenAPI section looks like this:
 
-<a href="https://idratherbewriting.com/learnapidoc/restapispecifications.html"><img src="http://idratherbewritingmedia.com/images/newuserflowopenapispec2.png"/>
+<a href="https://idratherbewriting.com/learnapidoc/restapispecifications.html"><img src="http://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newuserflowopenapispec2.png"/>
 
 As part of this new flow, I added an extensive Stoplight tutorial here: [Create an OpenAPI specification document using Stoplight Studio's visual editor](/learnapidoc/pubapis_openapis_quickstart_stoplight.html).
 

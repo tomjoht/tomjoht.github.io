@@ -8,7 +8,7 @@ description: "ContentHug is a content curation service focused on tech comm. Cur
 
 Vinish Garg has a series of "[conversations](http://contenthug.com/conversations)" going on his site, [Contenthug](http://contenthug.com/). Today he posted a conversation he had <a href="http://contenthug.com/conversations/our-guest-today-tom-johnson">with me</a>. 
 
-<a href="http://contenthug.com/conversations/our-guest-today-tom-johnson"><img src="{{ "https://idratherbewritingmedia.com/images/contenthugconversation.png" | prepend: site.baseurl }}" alt="Conversation on Contenthug.com with Tom Johnson" /></a>
+<a href="http://contenthug.com/conversations/our-guest-today-tom-johnson"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/contenthugconversation.png" | prepend: site.baseurl }}" alt="Conversation on Contenthug.com with Tom Johnson" /></a>
 
 The conversations are short, interactive Q&A, mostly about content strategy and organizational challenges that relate to tech comm.
 

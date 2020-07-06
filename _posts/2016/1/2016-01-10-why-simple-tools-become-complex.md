@@ -5,7 +5,7 @@ categories:
 - dita
 keywords: help authoring tools, technical writing trends, tools
 description: "The problem with adopting bleeding-edge tools is that they usually handle only the simplest use cases. When you try to make these bleeding-edge tools handle complex publishing requirements, the simple tools transform into Rube Goldberg machines of sorts. Since engineers usually don't have to solve these complex publishing requirements themselves, they tend to embrace the simple bleeding-edge tools and can't understand why anyone would pursue a more complex route."
-image: https://idratherbewritingmedia.com/images/thumbnails/complexityoptions.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/complexityoptions.png
 ---
 
 ## What are the bleeding-edge tools?
@@ -65,6 +65,6 @@ I do value simplicity and strive to use the easiest solution possible. If a proj
 
 Regardless of the route you take, in the end, you're not going to escape the complexity inherent in the solution, no matter which route you take.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/complexity-01.svg" | prepend: site.baseurl }}" alt="Complexity options" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/complexity-01.svg" | prepend: site.baseurl }}" alt="Complexity options" />
 
 If you create your own custom solutions, you have much more flexibility to do what you want &mdash; you just need the right skills. If you plug into standardized complexity (like DITA), you can buy systems and platforms that remove some of the complexity for you and put it behind a closed door. However, making any modifications to some of these pre-built systems will certainly be daunting.

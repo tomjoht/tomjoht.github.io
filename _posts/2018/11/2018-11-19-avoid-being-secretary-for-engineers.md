@@ -8,8 +8,8 @@ categories:
 keywords:
 description: "If we just see our task as documenting solutions that engineers have solved, it removes the creativity and critical thinking dimension from tech comm. The creative dimension in tech comm comes into play as we identify and solve tech comm challenges, such as devising ways to simplify complexity or otherwise improve the user experience."
 bitlink: http://bit.ly/avoidbeingengineersecretary
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/asecretaryforengineers.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/asecretaryforengineers.mp3
 podcast_file_size: 23 MB
 podcast_duration: "27:16"
 podcast_length: 23023302

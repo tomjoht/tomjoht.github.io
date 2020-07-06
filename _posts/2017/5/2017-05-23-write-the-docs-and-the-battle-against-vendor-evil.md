@@ -6,7 +6,7 @@ categories:
 keywords:
 description: "I recently returned from the 2017 Write the Docs conference in Portland, Oregon. The conference had two days of sessions (Monday and Tuesday), preceded by a day of doc writing sprints and workshops. I also participated in a 5-mile conference hike on Saturday. Although this was the fifth year of the WTD conference (it began in 2013), this was my first time attending. In this post, I'll share my impressions of the conference, contrasting it primarily with other tech comm conferences such as the STC."
 bitlink: "http://bit.ly/wtdconfwriteup"
-image: https://idratherbewritingmedia.com/images/thumbnails/wtdportlandstorm.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdportlandstorm.png
 ---
 
 ## Origins of WTD

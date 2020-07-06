@@ -15,11 +15,11 @@ Apparently, many schools incorporate Bootstrap into their curricula, in part bec
 
 Well, things start to go downhill when you get to the docs. Bootstrap has a browser-based editor called [https://www.wescheme.org/](https://www.wescheme.org/).
 
-<a href="https://www.wescheme.org/openEditor"><img style="border: 1px solid #dedede" src="https://idratherbewritingmedia.com/images/weschemeeditor.png"/></a>
+<a href="https://www.wescheme.org/openEditor"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/weschemeeditor.png"/></a>
 
 Notice the prominent [Documentation](https://www.wescheme.org/doc/wescheme.html) link in the top navigation bar. The documentation starts out all right. It provides an overview, example programs, information about the environment, and even a hello world tutorial.  
 
-<a href="https://www.wescheme.org/doc/wescheme.html"><img src="https://idratherbewritingmedia.com/images/weschemedocpage.png"/></a>
+<a href="https://www.wescheme.org/doc/wescheme.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/weschemedocpage.png"/></a>
 
 I will even overlook the fact that the sample resource in the hello world tutorial, `http://racket-lang.org/logo.png`, doesn't load in the WeScheme Editor. You can swap in your own web resource to an image and continue on.
 
@@ -35,7 +35,7 @@ First, the docs break up the information into a series of small chunks of digest
 
 After some basics, you finally get to the part where the function syntax is defined.
 
-<a href="https://www.bootstrapworld.org/materials/spring2020/courses/hour-of-code/en-us/#"><img src="https://idratherbewritingmedia.com/images/hourofcodebootstrap.png"/></a>
+<a href="https://www.bootstrapworld.org/materials/spring2020/courses/hour-of-code/en-us/#"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/hourofcodebootstrap.png"/></a>
 
 We now see that `(star 50 "solid" "blue")` follows a "contract" of `star : Number String String -> Image!`, where `star` is the function name and the next three items (`Number String String`) are arguments. The `--> Image!` refers to the output when you run the function. Now the reference docs begin to make more sense!
 

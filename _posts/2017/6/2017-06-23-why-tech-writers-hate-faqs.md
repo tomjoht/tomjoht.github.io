@@ -7,10 +7,10 @@ categories:
 keywords: faqs, frequently asked questions
 description: "Many tech writers have a heavy disdain for Frequently Asked Questions (FAQs) in documentation. At first this disdain seemed a bit unfounded and elitist to me, but now, after a recent project, I'm starting to understand the reasons for the disdain. All too often the FAQ format is abused by non-writers who want an easy way to write. The list of random questions grows with each incoming question until it's a ridiculous hodgepodge of information thrown together, with no larger story or narrative."
 bitlink: http://bit.ly/faqversusgoals
-image: https://idratherbewritingmedia.com/images/thumbnails/problemwithfaqs.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/problemwithfaqs.png
 ---
 
-<img src="https://idratherbewritingmedia.com/images/faqsversusgoals.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/faqsversusgoals.png"/>
 
 ## How the FAQ begins
 

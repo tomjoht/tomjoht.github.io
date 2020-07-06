@@ -8,9 +8,9 @@ categories:
 keywords: plain language, simple language, discourse communities
 description: "Although you can adjust your content's style to be simpler and more readable, technical documentation introduces many new terms and concepts for readers to learn. Many readers who don't already understand the discourse community may find this language impenetrable. Glossaries and inline tooltips can potentially help novice users, but there's no easy solution for simplifying your language for both novice and expert users."
 bitlink: http://bit.ly/limitsofplainlanguage
-image: https://idratherbewritingmedia.com/images/thumbnails/plainlanguagethumb.png
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/limitsofplainlanguage.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/plainlanguagethumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/limitsofplainlanguage.mp3
 podcast_file_size: 25 MB
 podcast_duration: "30:12"
 podcast_length: 25002593
@@ -59,7 +59,7 @@ Let's look an example. In [Hemingway takes the Hemingway test](http://www.newyor
 
 Crouch says this paragraph scored an OK with a Grade 11 score in the Hemingway app.
 
-<img src="https://idratherbewritingmedia.com/images/2017/7/hemingwayappresult.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/hemingwayappresult.png"/>
 
 (I suspect the writer deliberately added some complexity to his language to have an example of content that scored poorly. His overall grade level in the article is actually an 8 and scores "Good.")
 
@@ -69,7 +69,7 @@ The shorter sentences near the end of the paragraph balance out the more difficu
 
 This version also scores an OK with a grade 11 score, but no sentences are "very hard to read."
 
-<img src="https://idratherbewritingmedia.com/images/2017/7/hemingwayappresultrewrite.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/hemingwayappresultrewrite.png"/>
 
 Okay, let's simplify it even further, removing all hard-to-read sentences and breaking up the long paragraph:
 
@@ -81,7 +81,7 @@ Okay, let's simplify it even further, removing all hard-to-read sentences and br
 
 Here we have zero flags with no sentences that are hard to read, and the readability is still OK. The grade level is 10.
 
-<img src="https://idratherbewritingmedia.com/images/2017/7/hemingwayapprewritefurther.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/hemingwayapprewritefurther.png"/>
 
 It's hard to simplify it more without eliminating details from the original. In my rewrites, I didn't omit any information. But simplification is not just about shortening sentences and language. It's also about taking out unnecessary details, words, and other "fat" from the sentence. With that approach, I would probably cut the first paragraph of that last rewrite entirely.
 
@@ -95,7 +95,7 @@ Although Crouch doesn't explicitly reject the Hemingway app, he seems to disrega
 
 It seems he abandoned any attempts at simplicity and adopted the normal New Yorker literary style. His article scores a Poor, with a Grade 14. Almost every sentence is "very hard to read."
 
-<img src="https://idratherbewritingmedia.com/images/2017/7/hemingwayappcurrentcroucharticle.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/hemingwayappcurrentcroucharticle.png"/>
 
 Maybe writers don't embrace simple language because they fear this simplicity will lead to uneducated-looking prose?
 
@@ -119,7 +119,7 @@ Writers are trapped by the conventions of their discourse communities. Professor
 
 In the Hemingway test, this passage scores Poor, with a readability of "Post-graduate."
 
-<img src="https://idratherbewritingmedia.com/images/2017/7/hemingwaytechcommjournal.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/hemingwaytechcommjournal.png"/>
 
 For academics, it's difficult not to slip into the expected discourse. If you read enough academic texts, these polysyllabic words just roll off your tongue:
 
@@ -198,7 +198,7 @@ Technical writers often find themselves in impossible situations. You can write 
 
 As a result, you have to choose the audience you want your content to connect with.
 
-<img src="https://idratherbewritingmedia.com/images/2017/7/plainlanguagediagram-01.svg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2017/7/plainlanguagediagram-01.svg"/>
 
 The question of addressing both advanced and novice users with the same set of docs is an age-old conundrum in technical communication. One solution is to choose a language that *the majority* of your users presumably understand. In [Content Audits and Inventories](https://www.amazon.com/Content-Audits-Inventories-Paula-Ladenburg/dp/1937434389), Paul Ladenburg Land defines simple language as follows:
 

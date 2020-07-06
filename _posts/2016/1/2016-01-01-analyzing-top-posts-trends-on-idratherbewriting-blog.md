@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords: technical writing, beginners, statistics, traffic, top posts
 description: "The main traffic on my site comes from new technical writers looking for general information about technical writing careers. To increase my readership, I would probably need to post more general information about technical writing (salaries, programs, skills, tools, etc.). But this kind of focus may take away from my brand or sense of expertise about more specialized topics. The topics you write about brand yourself as an expert in those topics, and ultimately you have to weigh what matters most to you."
-image: https://idratherbewritingmedia.com/images/thumbnails/2016stats.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/2016stats.png
 ---
 
 ## Analysis overview
@@ -67,7 +67,7 @@ Here are some general stats from Google Analytics around my blog. The duration i
 
 The stats are not too different from last year. This chart compares 2015 with 2014.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/twblogs2014.png" | prepend: site.baseurl }}" alt="2015 vs 2014 Google Analytics Comparison" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2014.png" | prepend: site.baseurl }}" alt="2015 vs 2014 Google Analytics Comparison" />
 
 The number of sessions are relatively the same, but the pageviews, pages per session, and average session duration increased in noticeable ways. 
 
@@ -85,7 +85,7 @@ Google Analytics has a host of analytical data about my visitors. Here's a smatt
 
 Here's the statistic that always blows my mind: 
 
-<img src="{{ "https://idratherbewritingmedia.com/images/organicsearch2015.png" | prepend: site.baseurl }}" alt="Traffic" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/organicsearch2015.png" | prepend: site.baseurl }}" alt="Traffic" />
 
 In other words, here's how people arrive at my blog:
 
@@ -125,11 +125,11 @@ I have 2,212 URLs submitted in my sitemap, and 2,154 URLs indexed. (I'm not sure
 
 Google says the average page loading time is *7.16 seconds*.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/avgpagetimegoogle.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/avgpagetimegoogle.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
 
 I honestly don't know how to interpret this statistic. [Pingdom Tools](http://tools.pingdom.com/fpt/) puts my average page load time much quicker. You can see when I [switched from WordPress to Jekyll](https://idratherbewriting.com/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), the page loading time dropped from about 2 seconds to 0.2 seconds.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/pingdomreport2016.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pingdomreport2016.png" | prepend: site.baseurl }}" alt="Average page load time according to Pingdom" />
 
 ## Analysis
 
@@ -150,7 +150,7 @@ The regular users who comment on my blog don't represent the overwhelming traffi
 
 Last year I also started using [Bit.ly](http://tools.pingdom.com/fpt/) to track hits on posts. Looking at Bitly, it was pretty clear that sending out links in an email newsletter is a major strategy for driving traffic to the posts. If you just submit the links to Twitter and Linkedin, you only get a tenth of the traffic that you do from sending out the links via an email newsletter.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/tinyletterstats.png" | prepend: site.baseurl }}" alt="Tinyletter" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tinyletterstats.png" | prepend: site.baseurl }}" alt="Tinyletter" />
 
 But then again, most traffic originates from organic Google searches rather than social media anyway.
 

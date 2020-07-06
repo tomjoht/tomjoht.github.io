@@ -5,11 +5,11 @@ categories:
 keywords: 
 description: "Write the Docs has a meetup in downtown San Francisco on Dec. 17. The topic is on creating documentation for startups, and will feature a panel discussion. You can ask questions ahead of time, or come prepared to ask them at the meeting."
 published: true
-image: https://idratherbewritingmedia.com/images/thumbnails/wtdpaneliststhumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdpaneliststhumb.png
 ---
 Here are the four panelists scheduled for the meetup:
 
-<a href="http://www.meetup.com/Write-the-Docs/events/226495517/"><img src="{{ "https://idratherbewritingmedia.com/images/wtd_panelists.jpeg" | prepend: site.baseurl }}" alt="Write the Docs panelists" /></a>
+<a href="http://www.meetup.com/Write-the-Docs/events/226495517/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wtd_panelists.jpeg" | prepend: site.baseurl }}" alt="Write the Docs panelists" /></a>
 
 For more details, see [the meetup description](http://www.meetup.com/Write-the-Docs/events/226495517/).
 

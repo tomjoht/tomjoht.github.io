@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords:
 description: "For more complex user process maps, you can group the associated topics into larger collections. When users click a workflow step, you can show them all the relevant topics within that collection. This approach accommodates a more complex user process workflow."
-image: https://idratherbewritingmedia.com/images/thumbnails/userprocesscomplexthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/userprocesscomplexthumb.png
 jtype: notes_visualcommunication
 ---
 
@@ -30,7 +30,7 @@ Rather than stacking these up into 9 workflow boxes, I'll break them up into thr
 
 I created an example of how to build this workflow map [here](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/):
 
-<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/"><img src="{{ "https://idratherbewritingmedia.com/images/complexusermapsample.png" | prepend: site.baseurl }}"/></a><figcaption>Complex user map sample -- click the workflow squares to see more details. Each square opens a modal that shows all associated topics in that collection.</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample6/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/complexusermapsample.png" | prepend: site.baseurl }}"/></a><figcaption>Complex user map sample -- click the workflow squares to see more details. Each square opens a modal that shows all associated topics in that collection.</figcaption></figure>
 
 This example users [modals from Bootstrap](http://getbootstrap.com/javascript/#modals) to pop up information boxes that contain the various topic groupings. You could design each box more attractively, even adding background images into each one and such. But this simple implementation shows the general idea.
 

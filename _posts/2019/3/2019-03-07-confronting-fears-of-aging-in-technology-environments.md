@@ -27,7 +27,7 @@ The leader, Chip Conley, says that the irony is that "you actually are much happ
 
 In a real sense ,this article about people as young as 30 experiencing fears of aging in Silicon Valley struck a chord with me. As laughable as it sounds, the article has merit, particularly when you're surrounded by seemingly college-age demographics. In the [2018 Github Developer Survey](https://insights.stackoverflow.com/survey/2018/), "about three-fourths of professional developers who took [the] survey are younger than 35."
 
-<a href="https://insights.stackoverflow.com/survey/2018/#developer-profile-age"><img src="https://idratherbewritingmedia.com/images/github_age_survey.png" /></a>
+<a href="https://insights.stackoverflow.com/survey/2018/#developer-profile-age"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/github_age_survey.png" /></a>
 
 I'm currently 43, so in just two more years I'll enter the 45-54-years-old bracket, where only 5.1% of people reside. That means that for every 100 developers I interact with, about 95 will be younger than me.
 

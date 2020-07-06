@@ -11,8 +11,8 @@ tags:
 - RAML
 - API
 - specifications
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/mikestowe.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mikestowe.mp3
 podcast_file_size: 76.9 MB
 podcast_duration: "45:48"
 podcast_length: 76933334
@@ -25,15 +25,15 @@ b {font-size:115%;}
 
 {{note}} If you're in the Bay area, come listen to Michael Stowe speak tonight (Monday, Oct 12) at the STC Silicon Valley chapter in Santa Clara. See the <a href="http://www.stc-siliconvalley.org/2014/10/09/october-12-2015-spec-driven-development-raml-api-documentation/">meeting details here</a>.{{end}}
 
-<a href="http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1"><img class="alignright" src="{{ "https://idratherbewritingmedia.com/images/undisturbed_rest_mike_stowe.png" | prepend: site.baseurl }}" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe" /></a>
+<a href="http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1"><img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/undisturbed_rest_mike_stowe.png" | prepend: site.baseurl }}" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe" /></a>
 
 In this episode, I interview Michael Stowe, author of [Undisturbed REST: The guide to designing the perfect API](http://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700&ref_=sr_1_1&sr=8-1), about spec-driven design for REST APIs. The podcast has an emphasis on RAML as the specification format, but the discussion goes beyond a particulate specification to discuss development approaches that focus on creating a specification file (which acts like a contract) before coding the API.
 
 You can listen to the audio here:
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/mikestowe.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mikestowe.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/mikestowe.mp3" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mikestowe.mp3" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe">download the MP3 file here</a>.
 
 (The audio is a little choppy in the beginning due to some bit rate issues &mdash; sorry about that.)
 

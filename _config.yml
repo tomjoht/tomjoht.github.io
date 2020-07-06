@@ -1,7 +1,7 @@
 title: "I'd Rather Be Writing - Tom Johnson"
 name: "I'd Rather Be Writing"
 description: Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.
-media: https://idratherbewritingmedia.com/
+media: https://s3.us-west-1.wasabisys.com/idbwmedia.com/
 host: 127.0.0.1
 port: 4029
 feedback_email: tomjoht@gmail.com
@@ -122,7 +122,7 @@ target: web
 ## itunes feed settings
 
 podcast_url: https://www.idratherbewriting.com
-podcast_album_art: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
+podcast_album_art: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
 podcast_title: I'd Rather Be Writing Podcast
 podcast_owner: Tom Johnson
 podcast_email: tomjoht@gmail.com
@@ -159,7 +159,7 @@ twitter:
   username: tomjohnson
   card: summary
 
-logo: https://idratherbewritingmedia.com/images/idratherbewriting-site-logo.png
+logo: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting-site-logo.png
 
 social:
   name: Tom Johnson

@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: 
 description: "I'm trying to come up with way of providing more context for users in documentation. Providing context is essential to helping users understand how all the various pieces fit together. Without context, the information becomes fragmented and seems unorganized, maybe even random. I've tried a couple of approaches to establishing context -- consolidating the information more while I draft it, and also putting maps with signposts throughout the content. I still have a ways to go to figure this out."
-image: https://idratherbewritingmedia.com/images/thumbnails/contextworkflowmapthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/contextworkflowmapthumb.png
 jtype: notes_visualcommunication
 category: visual-communication
 ---

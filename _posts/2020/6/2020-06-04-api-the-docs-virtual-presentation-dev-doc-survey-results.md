@@ -8,7 +8,7 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/apithedocsvirtual5thedition
 description: "I recently presented a session at the <a href='https://apithedocs.org/virtual'>API the Docs virtual series</a> on Wednesday, May 27, 2020, as part of the <i>5th edition</i>. My session covered dev doc trends, and another session covered API design. A recording of my presentation is available below."
-# podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/apithedocs_virtualseries_trends.mp3
+# podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/apithedocs_virtualseries_trends.mp3
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/apithedocs_virtualseries_trends.mp3
 podcast_file_size: "27.3 MB"
 podcast_duration: "32:02"
@@ -51,7 +51,7 @@ If you only want the audio, you can listen here:
 
 If you only want the slides, they're here:
 
-<a href="../learnapidoc/slides/devdoctrends_results.html"><img src="https://idratherbewritingmedia.com/images/api/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" style="max-width:500px; border: 1px solid #444"  /></a>
+<a href="../learnapidoc/slides/devdoctrends_results.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" style="max-width:500px; border: 1px solid #444"  /></a>
 
 ## Registering for more API the Docs events
 

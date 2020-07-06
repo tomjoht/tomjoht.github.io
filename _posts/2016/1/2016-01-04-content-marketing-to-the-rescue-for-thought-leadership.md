@@ -4,7 +4,7 @@ categories:
 - writing
 keywords: content marketing, joe pullizi, unified customer experience 
 description: "Technical writers should repurpose their information-rich content into content marketing deliverables that can be used to build relationships with potential audiences in the market. This content can help establish thought leadership, visibility, and trust with your audience so that when you start releasing and mentioning your 1.0 product, your audience adopts it."
-image: https://idratherbewritingmedia.com/images/thumbnails/contentmarketingconceptthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/contentmarketingconceptthumb.png
 ---
 
 ## Hearing a lot lately about "unified customer experience"
@@ -54,7 +54,7 @@ In other words, instead of directly pitching your products through marketing col
 
 As you publish content that people care about, you align yourself more closely with your audience's needs and interests. Only after you have a substantial audience do you even mention your products.
  
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/cmi_content.png" | prepend: site.baseurl }}" alt="Building relationships with people through content" style="max-width:500px;"/><figcaption>Content helps you build relationships with an audience</figcaption></figure>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cmi_content.png" | prepend: site.baseurl }}" alt="Building relationships with people through content" style="max-width:500px;"/><figcaption>Content helps you build relationships with an audience</figcaption></figure>
 
 Joe says,
 

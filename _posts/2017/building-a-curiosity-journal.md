@@ -4,7 +4,7 @@ categories:
 - writing
 keywords: 
 description: ""
-image: https://idratherbewritingmedia.com/images/thumbnails/
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/
 published: false
 ---
 

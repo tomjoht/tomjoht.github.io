@@ -11,7 +11,7 @@ description: "The following is a guest post by Edgar Allen Poe. Poe completed ma
 author: Edgar Allen Poe
 bitlink: http://bit.ly/edgarallenpoeguestpost
 ---
-<img src="https://idratherbewritingmedia.com/images/edgar-allen-poe.png" style="float: right; padding: 15px;"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/edgar-allen-poe.png" style="float: right; padding: 15px;"/>
 
 <h2>The Tell-Tale Project</h2>
 

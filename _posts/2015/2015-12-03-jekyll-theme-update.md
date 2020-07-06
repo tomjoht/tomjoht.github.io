@@ -4,12 +4,12 @@ categories:
 - jekyll
 keywords: jekyll, documentation, creating documentation with jekyll, static site generators for technical writing
 description: "Version 4.0 of the Jekyll Documentation Theme now supports multiple projects inside the same theme. This allows you to use the theme for any number of documentation projects with any number of authors."
-image: https://idratherbewritingmedia.com/images/thumbnails/jekylltheme40thumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekylltheme40thumb.png
 ---
 
 I recently made some updates to my Jekyll Documentation Theme. 
 
-<a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "https://idratherbewritingmedia.com/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>
+<a href="https://idratherbewriting.com/documentation-theme-jekyll/"><img style="border:1px solid #dedede;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekylltheme40.png" | prepend: site.baseurl }}" alt="Jekyll documentation theme" /></a>
 
 Here's what's new in version 4.0.
 

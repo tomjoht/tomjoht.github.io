@@ -8,7 +8,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/10mythsapidocs
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/ten-myths-of-api-documentation.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ten-myths-of-api-documentation.mp3
 podcast_file_size: 30.4 MB
 podcast_duration: "31:53"
 podcast_length: 30156232

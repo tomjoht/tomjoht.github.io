@@ -22,7 +22,7 @@ Given these constraints, what story could I tell? The very definition of story i
 
 I was about to give up and leave marketing to the marketers when it dawned on me what the right story is for a corporate technology blog: *how to overcome technical challenges &mdash; the same how-to territory as docs.* Tech how-to is the safe space for corporate blogs.
 
-<img src="https://idratherbewritingmedia.com/images/safespace-01.svg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/safespace-01.svg"/>
 
 The cool thing about this angle is that, by focusing on technology challenges, you can still create a story arc (somewhat anyway). With this new perspective, I pivoted the post a bit and voila, everyone was happy with it. You can read it here: [Voice-Enabling Your Media Transport Controls with Fire App Builder 1.0.7](https://developer.amazon.com/blogs/appstore/post/a42f7f98-678c-41f9-a0f7-45d3fa265f09/voice-enabling-your-media-transport-controls-with-fire-app-builder-1-0-7).
 

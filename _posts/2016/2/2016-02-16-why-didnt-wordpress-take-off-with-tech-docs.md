@@ -4,13 +4,13 @@ categories:
 - wordpress
 keywords: 
 description: "Despite the dominance of WordPress as a web publishing platform, which is used for nearly 75 million websites today, WordPress has rarely been used by technical writers as a platform for publishing technical documentation. Some of the reasons WordPress is avoided is due to its heavy LAMP stack architecture,  lack of component content re-use, and inability to publish multiple outputs such as PDF."
-image: https://idratherbewritingmedia.com/images/thumbnails/14wpstatsthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/14wpstatsthumb.png
 ---
 
 ## The popularity of WordPress
 Despite the popularity of WordPress as detailed in [14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage), this web CMS still hasn't emerged as a competing help authoring tool in the tech comm industry. 
 
-<a href="https://managewp.com/14-surprising-statistics-about-wordpress-usage"><img src="{{ "https://idratherbewritingmedia.com/images/14wpstats.png" | prepend: site.baseurl }}" alt="Surprising statistics about WordPress" /></a>
+<a href="https://managewp.com/14-surprising-statistics-about-wordpress-usage"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/14wpstats.png" | prepend: site.baseurl }}" alt="Surprising statistics about WordPress" /></a>
 
 Here are some of the staggering statistics about WordPress usage mentioned in the article:
 

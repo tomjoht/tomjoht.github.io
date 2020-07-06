@@ -24,6 +24,6 @@ See also this post: [Special Father's Day Post: Description of My Dad](/2007/06/
 
 Here is a screenshot of our family tree going a few generations back.
 
-<img src="https://idratherbewritingmedia.com/images/familytree-david-johnson.png" alt="David Johnson family tree" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/familytree-david-johnson.png" alt="David Johnson family tree" />
 
 This is in Family Search and goes back to the 1500s or so (not research that I've done, but which someone has done for us).

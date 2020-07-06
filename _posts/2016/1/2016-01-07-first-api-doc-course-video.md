@@ -4,7 +4,7 @@ categories:
 - api-doc
 keywords:
 description: "This is the first video I recorded for my API documentation course. Since it's the first course video, I want to make sure my approach works well for later videos, so any feedback you have about it would be helpful. For example, you might comment on the lighting, background, length, on-screen text, my delivery, the audio or video quality, and other details."
-image: https://idratherbewritingmedia.com/images/thumbnails/firstapidoccoursevideo.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/firstapidoccoursevideo.png
 ---
 
 Here's the first video for my [API documentation course](https://idratherbewriting.com/learnapidoc/).

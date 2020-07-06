@@ -7,7 +7,7 @@ categories:
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/dealingwithoverload
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/dealingwithoverload.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/dealingwithoverload.mp3
 podcast_file_size: 19.9 MB
 podcast_duration: "20:07"
 podcast_length: 19649147

@@ -7,8 +7,8 @@ categories:
 - podcasts
 - stitcher
 keywords: reading, thinking, engagement
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/voraciousreadinghowto.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/voraciousreadinghowto.mp3
 podcast_file_size: 5.4 MB
 podcast_duration: "06:58"
 podcast_length: 5389413

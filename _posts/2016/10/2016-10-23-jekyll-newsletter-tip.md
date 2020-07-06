@@ -21,7 +21,7 @@ layout: none
 ---
 
 <!-- site logo -->
-<a href="https://idratherbewriting.com"><img src="https://idratherbewritingmedia.com/images/idratherbewriting-site-logo.png"></a>
+<a href="https://idratherbewriting.com"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting-site-logo.png"></a>
 
 {% for post in site.posts limit:6 %}
 <h2>{{post.title}}</h2>
@@ -30,7 +30,7 @@ layout: none
 {% endfor %}
 
 <!-- advertising -->
-<p><a href="https://idratherbewritingmedia.com/images/comics/adobefm.jpg"><img src="https://idratherbewritingmedia.com/images/comics/adobefm.jpg"></p></a>
+<p><a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/comics/adobefm.jpg"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/comics/adobefm.jpg"></p></a>
 {% endraw %}
 ```
 

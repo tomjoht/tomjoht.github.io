@@ -15,7 +15,7 @@ In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page vie
 
 Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2019 through Dec 31, 2019, according to Google Analytics. The blue line represents 2019, while the brown line represents 2014 for comparison.
 
-<figure><img src="https://idratherbewritingmedia.com/images/google-analytics2020-audience.png"  alt="I'd Rather Be Writing received 1,974,524 page views during 2019. This equates to 5,409 page views a day." /> <figcaption>I'd Rather Be Writing received 1,974,524 page views during 2019, or 5,409 page views a day</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/google-analytics2020-audience.png"  alt="I'd Rather Be Writing received 1,974,524 page views during 2019. This equates to 5,409 page views a day." /> <figcaption>I'd Rather Be Writing received 1,974,524 page views during 2019, or 5,409 page views a day</figcaption></figure>
 
 The above screenshot compares the traffic of the site in 2019 with the traffic 5 years earlier. In 2014, the total page view count for the year was 588,826. The site's traffic has grown by 335% over 5 years.
 
@@ -131,11 +131,11 @@ All of this information is provided through Google Analytics by default. (I don'
 
 In 2018, 59% of my site traffic came to my API documentation site ([/learnapidoc/](/learnapidoc/). In 2019, that percentage jumped up to 72%
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidoc_traffic3.png" alt="API documentation traffic" /> <figcaption>The traffic to my <a href='/learnapidoc/'>API documentation site</a> accounted for about 72% of the overall site traffic.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidoc_traffic3.png" alt="API documentation traffic" /> <figcaption>The traffic to my <a href='/learnapidoc/'>API documentation site</a> accounted for about 72% of the overall site traffic.</figcaption></figure>
 
 Here's a graph that compares this growth to the previous period:
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidocpreviousperiod.png" alt="API documentation traffic in 2019 compared to traffic in 2018" /> <figcaption>API documentation traffic in 2019 compared to traffic in 2018</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidocpreviousperiod.png" alt="API documentation traffic in 2019 compared to traffic in 2018" /> <figcaption>API documentation traffic in 2019 compared to traffic in 2018</figcaption></figure>
 
 The traffic from the API documentation visitors is outperforming other traffic sources. My most popular page is [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (8.24% of total traffic), followed by [Parameters](/learnapidoc/docapis_doc_parameters.html) (8.18%),  [OpenAPI tutorial](/learnapidoc/pubapis_openapi_tutorial_overview.html) (2.41%), [Postman](/learnapidoc/docapis_postman.html) (2.27%), and [Access and print JSON](/learnapidoc/docapis_access_json_values.html) (2.05%). The remaining pages are all under 2% of total traffic.
 

@@ -47,7 +47,7 @@ I export the enhanced audio from Camtasia into standalone audio files (WAV), and
 I upload the audio files to my Bluehost web hosting space and embed them on the page using standard HTML5 audio tags. I also include some Podtrac code on the link to count the number of listens. The Podtrac code looks like this:
 
 <pre>
-<span style="color: red">http://www.podtrac.com/pts/redirect.mp3</span>/idratherbewritingmedia.com/podcasts/raleighapidoc/apiworkshopvid3.mp3
+<span style="color: red">http://www.podtrac.com/pts/redirect.mp3</span>/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid3.mp3
 </pre>
 
 Overall, it takes me about 5-6 hours to do all of this. I've found that I usually need about 15GB of space on my computer for all of these files. Eventually, after 2-3 weeks post-publication (where any issues will have been note), I just delete this content locally and let it live on YouTube and Bluehost. Again, to listen to these videos, see <a href='https://idratherbewriting.com/learnapidoc/docapis_course_videos.html'>Video recordings of API doc workshops</a>.

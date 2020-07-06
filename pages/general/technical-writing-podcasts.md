@@ -10,7 +10,7 @@ Beside [my podcasts](/category-podcasts/), here are some technical writing podca
 
 {% for item in site.data.recommended_podcasts.podcasts %}
 
-<a href="{{item.url}}"><img class="recommendedPodcasts" src="https://idratherbewritingmedia.com/images/{{item.img}}" alt="{{item.title}}"/></a>
+<a href="{{item.url}}"><img class="recommendedPodcasts" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/{{item.img}}" alt="{{item.title}}"/></a>
 
 {% endfor %}
 

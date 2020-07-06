@@ -15,8 +15,8 @@ tags:
 - documentation
 - best practices
 - technical writing
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/testing_instructions.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/testing_instructions.mp3
 podcast_file_size: 39.9 MB
 podcast_duration: "23:44"
 podcast_length: 39876989 
@@ -24,9 +24,9 @@ bitlink: http://bit.ly/testingyourinstructions
 ---
 {% include series/seriesTagTestingDocs.html %}
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://idratherbewritingmedia.com/podcasts/testing_instructions.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/testing_instructions.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://idratherbewritingmedia.com/podcasts/testing_instructions.mp3" alt="Testing instructions">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/testing_instructions.mp3" alt="Testing instructions">download the MP3 file here</a>.
 
 ## Testing overview
 

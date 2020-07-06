@@ -14,11 +14,11 @@ description: "MadCap Software's 2020 release for MadCap Flare and MadCap Central
 
 A welcome improvement in the [MadCap Flare 2020 release](https://www.madcapsoftware.com/madcap-flare-2020/#content?utm_source=idratherbewriting&utm_medium=banner&utm_campaign=flare2020) is a new code editor with syntax highlighting. If you have a code sample, you can now apply syntax highlighting:
 
-<img src="https://idratherbewritingmedia.com/images/flarecodesyntaxhighlighting2.png" alt="Code syntax highlighting in MadCap Flare 2020" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flarecodesyntaxhighlighting2.png" alt="Code syntax highlighting in MadCap Flare 2020" />
 
 Selecting the language will apply the right color coding for different elements. Additionally, a continuous numbering option will pick up numbering from the previous line number. Here's what continuous numbering looks like:
 
-<img src="https://idratherbewritingmedia.com/images/madcapcontinuouslinenumbering3.png" alt="Code syntax highlighting with continuous numbering in MadCap Flare 2020" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/madcapcontinuouslinenumbering3.png" alt="Code syntax highlighting with continuous numbering in MadCap Flare 2020" />
 
 Continuous numbering could be especially useful if you have a large code sample that you want to show in entirety at first, and then follow up section by section with narration after every few lines. Users could still retain the larger context by looking at the full code sample to see where their specific line number appears. In short, line numbers can help preserve the context even when you chunk up different lines of code in more narrative explanation.  A "copy" button is included in Flare's Responsive HTML5 output, so a reader can copy the code, right from the docs.
 
@@ -28,7 +28,7 @@ Last year I wrote a post called [Flare adds micro content feature, taking steps 
 
 What is micro content? In short, micro content is content (text, images, or even animated gifs) that surface directly in the search results rather than requiring you to click into another page. You can see how it works in Flare's help by [searching for a topic such as "conditions"](https://help.madcapsoftware.com/flare2020/Content/Search-Results.htm?q=conditions):
 
-<a href="https://help.madcapsoftware.com/flare2020/Content/Search-Results.htm?q=conditions"><img src="https://idratherbewritingmedia.com/images/conditionsflaremicrocontent.png" alt="Micro content conditions demo" />
+<a href="https://help.madcapsoftware.com/flare2020/Content/Search-Results.htm?q=conditions"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/conditionsflaremicrocontent.png" alt="Micro content conditions demo" />
 
 Rather than clicking one of the search results topics, e.g., [Conditions](https://help.madcapsoftware.com/flare2020/Content/Flare/Conditions/Conditions.htm?Highlight=conditions), you can view content directly in the search results. Typically, micro content shows only a fraction of the content from the full topic. Micro content is like a tweet rather than a full article.
 
@@ -44,15 +44,15 @@ MadCap introduced micro content authoring in the Flare 2019 release, making it e
 
 For example, suppose you have a topic called "How to Watch Star Wars." First, you would define a tag such as "TopicOnly":
 
-<img src="https://idratherbewritingmedia.com/images/starwarstopiconly.png" alt="Micro content conditions in MadCap Flare 2020" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/starwarstopiconly.png" alt="Micro content conditions in MadCap Flare 2020" />
 
 Then you would tag the content you want to appear in the topic only:
 
-<img src="https://idratherbewritingmedia.com/images/starwarsfulltopic.png" alt="Applying micro-content conditions in MadCap Flare 2020"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/starwarsfulltopic.png" alt="Applying micro-content conditions in MadCap Flare 2020"/>
 
 Based on rules configured for your micro content (e.g., exclude TopicOnly tags), here's what that condensed version might look like:
 
-<img src="https://idratherbewritingmedia.com/images/starwarslinkedmicrocontent.png" alt="Preview of micro content conditions in MadCap Flare 2020" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/starwarslinkedmicrocontent.png" alt="Preview of micro content conditions in MadCap Flare 2020" />
 
 For many tech writers, search is a black box, and as such it's difficult to map inputs (i.e., search queries) to outputs (i.e., search results). Because of this lack of control, search is often neglected.
 
@@ -64,15 +64,15 @@ Based on how you map user inputs to your help topic outputs, you can significant
 
 Besides the collaborative publishing features, in October 2019, [MadCap Central](https://www.madcapsoftware.com/madcap-central-2020/#content?utm_source=idratherbewriting&utm_medium=banner&utm_campaign=centralmay2020) started offering extensive, easy-to-access analytics for your Flare projects. In your Flare project, you can define which provider you want to use for analytics (e.g., MadCap Central), and then you can access the analytics for the Flare output ("target") in MadCap Central. Here's a screenshot showing various targets tracked in MadCap Central. Each target is configured through a key in your Flare project.
 
-<img src="https://idratherbewritingmedia.com/images/madcapcentrallistofprojects.png" alt="Output analytics in MadCap Central 2020"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/madcapcentrallistofprojects.png" alt="Output analytics in MadCap Central 2020"/>
 
 When you click a target, you see the analytics details. For example, you can see all "Phrases" users search for:
 
-<img src="https://idratherbewritingmedia.com/images/madcapcentralphrases.png" alt="Phrases users search for in MadCap Central 2020"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/madcapcentralphrases.png" alt="Phrases users search for in MadCap Central 2020"/>
 
 *More importantly, you can also see "Phrases with No Results":*
 
-<img src="https://idratherbewritingmedia.com/images/madcapcentralphrasesnoresults.png" alt="Phrases with No Results in MadCap Central 2020"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/madcapcentralphrasesnoresults.png" alt="Phrases with No Results in MadCap Central 2020"/>
 
 After identifying  search phrases, you can then go into Flare and create phrases (and alternate phrases), and link these phrases to the micro content you want returned. The more phrases you collect as input, the more you can map the output. Few other systems let you control the input and output experience with so much granular configuration.
 
@@ -82,7 +82,7 @@ When you have valid outputs (micro content returned) for every input (search que
 
 Another interesting area surfaced by MadCap Central analytics is context-sensitive help calls. Suppose you have GUIDs integrated into various help links in a user interface, and you want to know which GUIDs are accessed more so that you can identify pain points in the UI. The Context Sensitive Help Calls report can help you identify these trends:
 
-<img src="https://idratherbewritingmedia.com/images/madcapcentralcshresults.png" alt="Context Sensitive Help in MadCap Central 2020"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/madcapcentralcshresults.png" alt="Context Sensitive Help in MadCap Central 2020"/>
 
 Based on these pain points, you then could create additional micro content to anticipate and address these friction areas. By connecting micro content with search analytics, you can level up your content's findability.
 

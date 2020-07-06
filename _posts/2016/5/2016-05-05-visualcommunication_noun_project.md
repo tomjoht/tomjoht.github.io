@@ -22,7 +22,7 @@ Here's the recording:
 
 Text without graphics is somewhat boring, harder to understand, and lacks appeal.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/visualcommunication/lightningtalk_text.png" | prepend: site.baseurl }}"/><figcaption>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_text.png" | prepend: site.baseurl }}"/><figcaption>
     Text without graphics can be a bit boring. </figcaption></figure>
 
 Note that by graphics, I'm not really referring to screenshots, but rather to general illustrations. Not all documentation needs a healthy supply of visuals, but there are some key scenarios where conceptual illustrations, diagrams, or other visuals play a strong role to increase the appeal and clarity of the concepts. Some of these scenarios include the following:
@@ -39,7 +39,7 @@ We make things harder on ourselves by not leveraging graphics to explain complex
 
 I once worked at a place where one of the product managers insisted on getting more whiteboards because whenever someone tried to explain something, the person would invariably draw it out on a whiteboard (and we had just one whiteboard). Have you noticed how at your work, whenever someone is trying to explain a complicated idea to another person, he or she ends up drawing it on a whiteboard?
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/visualcommunication/lightningtalk_whiteboarding.png" | prepend: site.baseurl }}"/><figcaption>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_whiteboarding.png" | prepend: site.baseurl }}"/><figcaption>
     Ideas are harder to explain without drawing </figcaption></figure>
 
 Even with the poorly drawn whiteboard images of boxes, circles, and arrows, the visuals help clarify ideas for both the listener and the explainer. The latter is a key point often emphasized &mdash; you don't necessarily understand something until you can draw it.
@@ -48,7 +48,7 @@ Even with the poorly drawn whiteboard images of boxes, circles, and arrows, the 
 
 We all usually agree that including visuals is a great idea. The problem is that as writers, we often lack graphic design skills. We pour immense amounts of effort into getting the exact words, tone, and sentence structures with our text. We are perfectionists who are bothered when people who can't spell or follow a consistent capitalization style.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/visualcommunication/lightningtalk_artist.png" | prepend: site.baseurl }}"/><figcaption>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_artist.png" | prepend: site.baseurl }}"/><figcaption>
     Creating graphics is hard. They don't look professional. </figcaption></figure>
 
 The thought of producing graphics that look like kindergarten art horrifies us, so we often don't even try. We explain away the lack of graphics with common rationalizations:
@@ -66,14 +66,14 @@ The more minimal the artwork is, the easier it is to make simple changes. If you
 
 Additionally, focusing on too much artistic detail actually *detracts* from the real intent of the visual, which is to communicate a concept.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/visualcommunication/lightningtalk_minimalist.png" | prepend: site.baseurl }}"/><figcaption>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_minimalist.png" | prepend: site.baseurl }}"/><figcaption>
     Follow minimalist design principles to avoid distraction. </figcaption></figure>    
 
 In <a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448">Graphics for Learning: Proven Guidelines for Planning, Designing, and Evaluating Visuals in Training Materials</a>, Ruth Clark and Chopeta Lyons explain that removing distracting and non-essential elements of visuals can reduce cognitive load and help users focus on what really matters.
 
 Here's an image from their book that compares a photograph versus a line drawing in a car guide:
 
-<figure><img src="https://idratherbewritingmedia.com/images/cognitiveload.png" alt="Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual." width="512" height="697" class="size-full wp-image-18761" /> <figcaption>Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cognitiveload.png" alt="Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual." width="512" height="697" class="size-full wp-image-18761" /> <figcaption>Using a line drawing instead of a photograph reduces cognitive load on the user by eliminating the non-essential elements of the visual.</figcaption></figure>
 
 Clark and Lyons explain:
 
@@ -96,7 +96,7 @@ The Noun Project is a library of vector-based pictograms covering just about any
 * You can drag the icons from the Noun Project app directly into Illustrator (on a Mac).
 * With a subscription to the Noun Project ($10/month), you don't have to give credit to the creators or pay individual royalties.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/visualcommunication/lightningtalk_nounproject.png" | prepend: site.baseurl }}"/><figcaption>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_nounproject.png" | prepend: site.baseurl }}"/><figcaption>
     Use the Noun Project for convenience or inspiration.</figcaption></figure>
 
 Because the graphics are vectors, you can make adjustments that you wouldn't otherwise be able to do with raster graphics. Granted, this assumes you have an application such as Adobe Illustrator, but if you can get Illustrator it's well worth it.
@@ -111,7 +111,7 @@ I often combine visuals from separate graphics and make quick little adjustments
 
 The more visuals you create, the more ready-to-use components you'll have at your disposal. If you settle on a certain icon for "server," for example, then use that same icon in your other visuals. This helps you build a whole visual vocabulary that you can then leverage for your project.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/visualcommunication/lightningtalk_library.png" | prepend: site.baseurl }}"/><figcaption>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_library.png" | prepend: site.baseurl }}"/><figcaption>
    Re-use the same graphics components for other visuals.</figcaption></figure>
 
 The more visuals you create, the easier they become for several reasons:

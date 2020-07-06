@@ -953,7 +953,7 @@ button.navbar-toggle {
 .srssfeed,
 .sstitcher,
 .stwitter {
-    background: url(https://idratherbewritingmedia.com/images/sprites.png) no-repeat;
+    background: url(https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sprites.png) no-repeat;
     float: left;
     padding: 6px;
     margin-top: 18px;
@@ -1651,7 +1651,7 @@ div.podcastTranscript {
 
 
 h3.transcript a {
-  background: url("https://idratherbewritingmedia.com/images/sprite.png") 15px 13px no-repeat #dedede;
+  background: url("https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sprite.png") 15px 13px no-repeat #dedede;
   display: block;
   padding: 10px;
   padding-left: 32px;

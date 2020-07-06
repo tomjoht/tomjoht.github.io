@@ -101,7 +101,7 @@ In other words, when you invoke a theory and when you invoke a research is conti
 
 **TJ:** We have a sign in our break room that tries to get users to make coffee when the pot runs out:
 
-<img src="https://idratherbewritingmedia.com/images/coffee_roulette.jpeg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/coffee_roulette.jpeg"/>
 
 The sign reads,
 

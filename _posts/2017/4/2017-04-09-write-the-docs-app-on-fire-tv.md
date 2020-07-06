@@ -5,14 +5,14 @@ categories:
 keywords:
 description: "The Write the Docs Podcast app is now on Fire TV. If you have a Fire TV, search for <i>write the docs</i> or even just <i>technical writing</i> in the Amazon Appstore and you'll find it. I created this app to better understand the Android app template I was documenting. This app template, called Fire App Builder, is designed for third-party Java Android developers creating streaming media apps."
 bitlink: http://bit.ly/tryyourdoccode
-image: https://idratherbewritingmedia.com/images/thumbnails/wtdpodcastappfiretv.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdpodcastappfiretv.png
 ---
 
 ## Viewing the WTD Fire TV app
 
 You can view the Write the Docs podcast app in the Amazon Appstore web UI [here](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs).
 
-<a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs"><img src="https://idratherbewritingmedia.com/images/writethedocastfiretvapp.png" />
+<a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1491708630&sr=1-1&keywords=write+the+docs"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/writethedocastfiretvapp.png" />
 
 Here's what the app screens look like on your Fire TV:
 

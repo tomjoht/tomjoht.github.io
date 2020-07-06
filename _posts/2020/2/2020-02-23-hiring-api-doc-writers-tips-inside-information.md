@@ -7,7 +7,7 @@ categories:
 - stitcher
 - technical-writing
 keywords: hiring, resourcing, sourcing, job posts, resumes, linkedin
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/andrew_podcast_hiring_processes.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/andrew_podcast_hiring_processes.mp3
 podcast_file_size: "46.1 MB"
 podcast_duration: "55:11"
 podcast_length: "45634536"

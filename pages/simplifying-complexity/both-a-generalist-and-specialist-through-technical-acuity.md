@@ -15,9 +15,9 @@ Here's a video of a presentation I gave on this topic in May 2019:
 
 <div class="audioControls">
 <p><b>Listen to this article:</b></p>
-<p><audio controls="controls"><source src="https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/pugetsoundtrends.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/pugetsoundtrends.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 For details about the presentation, see [this post](https://idratherbewriting.com/blog/tech-comm-trends-stc-puget-sound/).
@@ -227,7 +227,7 @@ In my recent blog post, ["If writing is no longer a marketable skill, what is?"]
 * Technical writer/video producer (3%)
 * Technical writer/DITA specialist (3%)
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/hybridtechcommrole.png" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/hybridtechcommrole.png" />
 
 Of course, these dual roles are self-defined only. In the HR books, one is usually still classified as a "technical writer," but that's not how we promote ourselves. Just being a "technical writer" isn't nearly sexy enough to sell yourself in the technology marketplace. Technical writing has come to be viewed as wordsmithing only.
 

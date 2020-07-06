@@ -4,7 +4,7 @@ categories:
 - beginners
 keywords: how to get started as a technical writer, james gill, getting started, technical writing careers, transition into technical writing
 description: "James Gill is working on the second edition of his book, <i>How to Get Started As a Technical Writer</i>. I contributed a questionnaire for a section that explores a day in the life of a technical writer. In addition to describing common tasks I do as a technical writer, I explain how I got started in technical writing, what I like best about technical writing, challenges and difficulties I face as a technical writer, future directions for technical writing, and more."
-image: https://idratherbewritingmedia.com/images/thumbnails/jamesgillhowtotechbookthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jamesgillhowtotechbookthumb.png
 ---
 
 ## My Tech writer "day in the life" contribution
@@ -16,7 +16,7 @@ James is expecting to publish this second edition book in the next month. On the
 You can view more details about the book here: [How to Get Started As a Technical Writer](https://leanpub.com/getstartedtechwriting)
 
 
-<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "https://idratherbewritingmedia.com/images/jamesgilltechwriterbook.png" | prepend: site.baseurl }}" alt="How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing" /></a><figcaption>James Gill's upcoming book, <i>How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing</i></figcaption></figure>
+<figure><a href="https://leanpub.com/getstartedtechwriting"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jamesgilltechwriterbook.png" | prepend: site.baseurl }}" alt="How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing" /></a><figcaption>James Gill's upcoming book, <i>How to Get Started As a Technical Writer: The Practical, Personal, No-Nonsense Guide to Launching Your Career in Technical Writing</i></figcaption></figure>
   
 Here are my responses to the questionnaire:
 

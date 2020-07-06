@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: casual tone, emotional documentation, rhetoric, persona, conversation, establishing trust, translation
 description: "In this guest post, Lavanya Krishnamurthy explores the use of a casual tone in documentation as a way to give users a sense of having a conversation with the author. She presents several easy techniques for implementing a casual tone, and also notes the potential tradeoffs this approach can have."
-image: https://idratherbewritingmedia.com/images/thumbnails/lavanya.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/lavanya.png
 ---
 
 We use the latest technology and modern software products in our daily lives. Have you observed the tone in which these products communicate with us? It’s no longer the boring, formal tone. It’s the casual, conversational tone that invites you when you go to their websites, interact with their UI, and so forth. So, is the casual style something that we should adapt for technical documentation as well? Read on…
@@ -59,7 +59,7 @@ User interface (UI) text is already ahead of the curve in terms of using a casua
 
 ## About Lavanya Krishnamurthy
 
-<img src="{{ "https://idratherbewritingmedia.com/images/lavanya.png" | prepend: site.baseurl }}" alt="Lavanya Krishnamurthy" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Lavanya Krishnamurthy is a Principal Information Services Engineer with CA Technologies, based out of Bangalore, India (looking forward to her move to the pearl city, Hyderabad). She has 13+ years of experience in technical writing. During her career, she expanded her horizon into information management, information architecture, and embedded user assistance. She loves the autonomy that she gets with her job. Currently, she is experimenting with casual styles of writing for one of the incubation products in CA. That’s the source and inspiration for this blog post as well. Her interests are completely vested in her kids and family. When she is not writing, she is reviewing her kids' homework, reports, and other writing projects to give them feedback.
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/lavanya.png" | prepend: site.baseurl }}" alt="Lavanya Krishnamurthy" style="float: left; padding-right:10px; padding-top:0px; margin-top:5px;" />Lavanya Krishnamurthy is a Principal Information Services Engineer with CA Technologies, based out of Bangalore, India (looking forward to her move to the pearl city, Hyderabad). She has 13+ years of experience in technical writing. During her career, she expanded her horizon into information management, information architecture, and embedded user assistance. She loves the autonomy that she gets with her job. Currently, she is experimenting with casual styles of writing for one of the incubation products in CA. That’s the source and inspiration for this blog post as well. Her interests are completely vested in her kids and family. When she is not writing, she is reviewing her kids' homework, reports, and other writing projects to give them feedback.
 
 <hr />
 

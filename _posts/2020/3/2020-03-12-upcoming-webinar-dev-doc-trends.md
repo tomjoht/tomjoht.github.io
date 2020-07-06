@@ -6,7 +6,7 @@ categories:
 - podcasts
 - stitcher
 keywords: API documentation, trends, surveys, postman, making requests
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/devdoctrendswebinar.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/devdoctrendswebinar.mp3
 podcast_file_size: "51.4 MB"
 podcast_duration: "59:01"
 podcast_length: "50658316"
@@ -18,7 +18,7 @@ description: "I recently gave a webinar on trends in developer docs to the STC W
 
 My slides are here:
 
-<a href="https://idratherbewriting.com/learnapidoc/slides/devdoctrends.html"><img style="max-width: 400px" src="https://idratherbewritingmedia.com/images/api/trendstitleslideapidocpreso.png" /></a>
+<a href="https://idratherbewriting.com/learnapidoc/slides/devdoctrends.html"><img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/trendstitleslideapidocpreso.png" /></a>
 
 ## Webinar recording
 

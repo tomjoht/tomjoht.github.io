@@ -11,7 +11,7 @@ categories:
 - stitcher
 keywords: usability, API, design web
 bitlink: https://idratherbewriting.site/devportalsintro
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/devportalsintro.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/devportalsintro.mp3
 podcast_file_size: "3.04 MB"
 podcast_duration: "32:29"
 podcast_length: "29943785"

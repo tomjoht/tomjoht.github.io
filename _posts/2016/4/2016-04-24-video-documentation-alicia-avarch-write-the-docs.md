@@ -5,7 +5,7 @@ categories:
 - podcasts
 keywords: video documentation, video tutorials, screencasts, screen recordings, video production
 description: "Alicia Avrach, a content strategist at ThoughtSpot, gave a presentation about video documentation at a recent Write the Docs San Francisco meetup. In this presentation, Alicia covers all the aspects of video production, from scripting to recording, post-processing, publishing, and more."
-image: https://idratherbewritingmedia.com/images/thumbnails/videodocthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/videodocthumb.png
 date: 2016-04-24
 categories: podcasts
 tags:
@@ -14,8 +14,8 @@ tags:
 - documentation
 - technical communication
 - stitcher
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/aliciaavrachaudio.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3
 podcast_file_size: 56.5 MB
 podcast_duration: "01:16:37"
 podcast_length: 56518010
@@ -48,9 +48,9 @@ For more details, see the [Write the Docs meetup announcement](http://www.meetup
 
 ## Audio
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/aliciaavrachaudio.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3" type="audio/mpeg" /></audio></p>
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/aliciaavrachaudio.mp3" alt="Alicia Avrach">download the MP3 file here</a>.
+You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3" alt="Alicia Avrach">download the MP3 file here</a>.
 
 ## Slides
 

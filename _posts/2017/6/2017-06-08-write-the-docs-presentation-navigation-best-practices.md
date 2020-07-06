@@ -7,8 +7,8 @@ categories:
 keywords:
 description: "Here's the recording of the presentation I gave at the Write the Docs 2017 Portland conference. The presentation explores best practices for doc navigation, including principles such as hierarchy, modularity, progressive disclosure, entry point, and wayfinding. The presentation is about 20 minutes long, and you can either watch a video or listen to audio. Other WTD presentation recordings are also available."
 bitlink: http://bit.ly/wtdportlandtjpreso
-image: https://idratherbewritingmedia.com/images/thumbnails/wtdpresovid.png
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdpresovid.png
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3
 podcast_file_size: "27.8 MB"
 podcast_duration: "21:19"
 podcast_length: "26965353"
@@ -23,16 +23,16 @@ If you just want the audio, here it is:
 
 <div class="audioControls">
 <p><b>Listen to this presentation:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can also <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3" alt="Recording of User-Centered Design Principles for Organizing Documentation">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can also <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/wtdportland2017navigationbestpractices.mp3" alt="Recording of User-Centered Design Principles for Organizing Documentation">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## Slides
 
 Here are the slides:
 
-<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://idratherbewritingmedia.com/images/wtdpresoportland.png"/></a>
+<a href="https://idratherbewriting.com/files/doc-navigation-wtd/index.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wtdpresoportland.png"/></a>
 
 ## Presentation description
 

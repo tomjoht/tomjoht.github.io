@@ -8,8 +8,8 @@ categories:
 keywords:
 description: "Every year, when I re-examine my site analytics, I take the time to reflect on trends I’m seeing with traffic to my own site. Not necessarily industry trends, just trends about which topics are popular on my site. Based on these trends, I assess and re-evaluate some of my directions. This year, I found that the increase in traffic on my API documentation site (which accounts for 59% of my overall site traffic) suggests that more engineers are writing docs. This confirms my earlier predictions at the beginning of 2018 that specialization will drive more engineers to write API documentation, with technical writers playing more supporting editorial and publishing roles."
 bitlink: http://bit.ly/siteanalytics2018irbw
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/2018analyticsanalysis.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/2018analyticsanalysis.mp3
 podcast_file_size: 32 MB
 podcast_duration: "33:35"
 podcast_length: 31926066
@@ -21,17 +21,17 @@ podcast_length: 31926066
 
 Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2018, through Dec 31, 2018 (based on Google Analytics):
 
-<figure><img src="https://idratherbewritingmedia.com/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics2019-overall.png"  alt="I&#039;d Rather Be Writing received 1,552,615 page views during 2018, or 4,253 page views a day." /> <figcaption>I'd Rather Be Writing gets about 1,552,615 page views per year, or 4,253 page views a day.</figcaption></figure>
 
 Here's another slice of analytics focusing more on audience:
 
-<figure><img src="https://idratherbewritingmedia.com/images/google-analytics2019-audience.png" alt="Breakdown of analytics" /> <figcaption>Here you can see a breakdown of sessions. During 2018, there were about 942,000 sessions, with users viewing 1.65 pages per session. </figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/google-analytics2019-audience.png" alt="Breakdown of analytics" /> <figcaption>Here you can see a breakdown of sessions. During 2018, there were about 942,000 sessions, with users viewing 1.65 pages per session. </figcaption></figure>
 
 {{site.data.alerts.note}}A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. Users viewed an average of 1.65 page views per session.{{site.data.alerts.end}}
 
 I'd Rather Be Writing received significantly more traffic in 2018 (nearly double the page views) than the previous year. The blue line represents 2018, while the brown line represents 2017.
 
-<figure><img src="https://idratherbewritingmedia.com/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption>Traffic comparison by year. The increased traffic from the API documentation site probably accounts for the massive growth.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption>Traffic comparison by year. The increased traffic from the API documentation site probably accounts for the massive growth.</figcaption></figure>
 
 The following table includes more details from other Google Analytics reports (the date range is Jan 1, 2018, to Dec 31, 2018):
 
@@ -126,7 +126,7 @@ The following table includes more details from other Google Analytics reports (t
 
 Here's the big revelation. About 59% of the overall traffic to my site comes from my <a href='https://idratherbewriting.com/learnapidoc/'>API documentation site</a>:
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption>Traffic related to API documentation dwarfs all other traffic.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidocmetrics.png" alt="API documentation traffic" /> <figcaption>Traffic related to API documentation dwarfs all other traffic.</figcaption></figure>
 
 The [83 posts I wrote during 2018](/archives-2018/) only accounted for 4.42% of my site's traffic. The traffic from the API documentation visitors is outperforming other traffic sources.
 
@@ -134,7 +134,7 @@ The [83 posts I wrote during 2018](/archives-2018/) only accounted for 4.42% of 
 
 The breakdown of audience age and gender is as follows:
 
-<figure><img src="https://idratherbewritingmedia.com/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics-age-and-gender.png" alt="Age and gender breakdown" /> <figcaption>There are twice as many males as females reading my site. This demographic reflects the more male-centric programmer culture.</figcaption> </figure>
 
 In years past, the gender distribution was more balanced. But with more traffic coming in through my API documentation site, it suggests more programmers are reading the content. Why? The [2018 GitHub survey](https://insights.stackoverflow.com/survey/2018/#demographics) found that the gender breakdown among engineers was 92.9% male, 6.9% female. Given that my overall gender breakdown is now 71.7% male, 28.3% female, I think many of those readers are engineers rather than technical writers. In years past (such as [2017](https://idratherbewriting.com/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017/)), the gender breakdown on my site was more evenly balanced. In fact, just last year, Google Analytics indicated that 34% of readers were male, 66% female.
 
@@ -241,7 +241,7 @@ Looking at my metrics, I think there's some truth to my observations. If a lot m
 
 If that weren't the case, why would so many engineers be landing on my site? I mean, how else do you explain this:
 
-<img src="https://idratherbewritingmedia.com/images/learnapidocmetrics.png" alt="Everything is shifting to API documentation." />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidocmetrics.png" alt="Everything is shifting to API documentation." />
 
 I could be wrong about the demographic &mdash; maybe the traffic represents hoards of technical writers trying to transition into the API documentation space. That surely accounts for some percentage of the users, but given the drastic male gender imbalance in the metrics, it seems more likely that the bump in traffic consists of engineers. I'm planning to add a survey to the site to get a better sense of the user profile.
 
@@ -249,11 +249,11 @@ Another explanation might be that engineers previously looked to other sites for
 
 Here's another interesting metric that supports my argument that more engineers are writing docs. The [STC Salary Database](https://www.stc.org/salary-database/) says that only "180" technical writer jobs were added to the U.S. economy in 2017.
 
-<figure><a href="https://www.stc.org/salary-database/"><img src="https://idratherbewritingmedia.com/images/stcsalarydatabase2017flat.png" alt="2017-2018 Salary Database confirms that technical writing jobs are flat" /></a><figcaption>In 2017, there were 49,960 tech writers employed in the US, compared to 49,780 in 2016. </figcaption></figure>
+<figure><a href="https://www.stc.org/salary-database/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsalarydatabase2017flat.png" alt="2017-2018 Salary Database confirms that technical writing jobs are flat" /></a><figcaption>In 2017, there were 49,960 tech writers employed in the US, compared to 49,780 in 2016. </figcaption></figure>
 
 Yet I bet a lot more than 180 software engineering jobs were added during 2017. I don't have a five-year history of engineering employment job growth (there are many different developer categories), but if you compare the IT jobs ads between Q2 2017 and Q2 2018 for "software developers," you will find that, according to Association of Information Technology Professionals, "postings for software developers increased by more than 50,000" (["IT in Demand: Software developer job postings continue to increase"](https://www.aitp.org/blog/aitp-blog/2018/09/25/it-in-demand-software-development-job-postings-continue-to-increase/)). Here's their graphic that shows this growth:
 
-<a href="https://www.aitp.org/blog/aitp-blog/2018/09/25/it-in-demand-software-development-job-postings-continue-to-increase/"><img src="https://idratherbewritingmedia.com/images/postingsforsoftwaredevelopers.png" alt="Postings for software developers increased by more than 50,000."/></a>
+<a href="https://www.aitp.org/blog/aitp-blog/2018/09/25/it-in-demand-software-development-job-postings-continue-to-increase/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/postingsforsoftwaredevelopers.png" alt="Postings for software developers increased by more than 50,000."/></a>
 
 Who is documenting all the code and other products that the additional 50,000 engineers are creating? The 180 new technical writers? Uh, I kind of doubt it. Engineers are likely playing more documentation roles.
 

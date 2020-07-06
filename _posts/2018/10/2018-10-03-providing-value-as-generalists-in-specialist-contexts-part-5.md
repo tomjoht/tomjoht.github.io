@@ -22,7 +22,7 @@ Another gap that opens up in the era of specialization is an opportunity with in
 
 When engineers and other specialists create documentation, they rarely consider information usability. Mostly, engineers just try to explain the complexity and go no further with their effort to make the information accessible or understandable to users. It’s the same phenomenon as when engineers create interfaces &mdash; they just sort of throw it all together. Remember that sample dialog box that was designed by engineers?
 
-<figure><a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/"><img src="https://idratherbewritingmedia.com/images/when_developers_create_interfaces.png"/></a><figcaption>When developers create user interfaces, this happens. Image from <a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/">Coding Horror</a></figcaption></figure>
+<figure><a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/when_developers_create_interfaces.png"/></a><figcaption>When developers create user interfaces, this happens. Image from <a href="https://blog.codinghorror.com/this-is-what-happens-when-you-let-developers-create-ui/">Coding Horror</a></figcaption></figure>
 
 Consider the equivalent output in documentation and you get a sense of the lack of information usability.
 
@@ -44,7 +44,7 @@ As a generalist, you can bring your skills in information usability to the speci
 
 I dive pretty deep into each of these principles in my series on Simplifying Complexity: [Simplifying complexity](https://idratherbewriting.com/simplifying-complexity/).
 
-<figure><a href="https://idratherbewriting.com/simplifying-complexity"><img src="https://idratherbewritingmedia.com/images/simpcomplexscreenshot.png"/></a><figcaption>I explore these principles in depth in a series that I've been calling Simplifying Complexity</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/simplifying-complexity"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simpcomplexscreenshot.png"/></a><figcaption>I explore these principles in depth in a series that I've been calling Simplifying Complexity</figcaption></figure>
 
 I’ll provide some of the highlights here in a quick way, and you can see if any of the topics interest you to learn more. (In some ways, blog posts and presentations are meant to be like variety appetizers that you sample. You’re not meant to eat the whole meal but to figure out if something appeals to you.)
 

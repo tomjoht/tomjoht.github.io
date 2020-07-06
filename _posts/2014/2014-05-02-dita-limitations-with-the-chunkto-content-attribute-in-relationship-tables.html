@@ -53,7 +53,7 @@ weight: 1.4
 <p>The problem is that this method introduces two different methods for tagging for lists, which feels inconsistent. Ideally, it would be best to stick with one way of structuring lists in instructions.</p>
 <h2>Dita topic type (composite)</h2>
 <p>You could also use a dita topic type (sometimes called ditabase), which allows any element (concept, task, reference). However, when you refer to the dita topic in the relationship table, the related links produced by the relationship table will appear after the first element (after the changing_tire_overview.dita topic, not after the last topic in the set).</p>
-<p><img src="https://idratherbewritingmedia.com/images/otprocessingerror.jpg" alt="otprocessingerror" width="826" height="820" class="alignnone size-full wp-image-20609" /></p>
+<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/otprocessingerror.jpg" alt="otprocessingerror" width="826" height="820" class="alignnone size-full wp-image-20609" /></p>
 <h2>Refer to the first section, hack the XSLT</h2>
 <p>Another workaround would be to refer to the first topic rather than the topicset ID in your relationship table. This technique results in the same effect as referring to a ditabase file — the relationship table appears after the first topic, not after the set of topics.</p>
 <p>I've been told I could hack the XSLT with an override to get the functionality I want — putting the relationship tables at the end of the topics. I'm not sure whether this hack would be involved or trivial, and what other impacts it might have on the way related links works. Apparently this is not a feature many others have been complaining about (though this perplexes me).</p>
@@ -63,7 +63,7 @@ weight: 1.4
 <p>The problem is that DITA gets a lot of efficiency in its linking model through relationship tables. Not using them sacrifices significant functionality.</p>
 <h2>Chunk by-document instead of to-content</h2>
 <p>There are myriad other values for the chunk attribute. (Take a look at the <a href="http://docs.oasis-open.org/dita/v1.2/os/spec/archSpec/chunking.html#chunking">OASIS explanation of chunking here</a>. One of the alternatives is <code>chunk="by-document"</code>. This produces an interesting result. Instead of merging the other files into the same unit, the other files are nested like child pages in the document. This creates another layer for the user to drill into. </p>
-<p><img src="https://idratherbewritingmedia.com/images/chunk-by-document.jpg" alt="chunk-by-document" width="581" height="511" class="alignnone size-full wp-image-20610" /></p>
+<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/chunk-by-document.jpg" alt="chunk-by-document" width="581" height="511" class="alignnone size-full wp-image-20610" /></p>
 <p>Using <code>by-document</code> isn't a bad solution, but again, searches for a keyword might take a user to this little piece of information rather than the whole unit. Only by back-navigating through breadcrumbs or a table of contents hierarchy will the user be able to trace back to find the whole topicset.</p>
 <h2>Nest task elements within task elements</h2>
 <p>Instead of creating separate task files, you could nest tasks within tasks to bring all of this information into the same topic. Here's an example:</p>
@@ -144,7 +144,7 @@ weight: 1.4
 </task>
 {% endhighlight %}
 <p>However, when you include the file in a relationship table, the related link still appears right below the first task element, like this:</p>
-<p><img src="https://idratherbewritingmedia.com/images/wrongplace.jpg" alt="wrongplace" width="747" height="617" class="alignnone size-full wp-image-20679" /></p>
+<p><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wrongplace.jpg" alt="wrongplace" width="747" height="617" class="alignnone size-full wp-image-20679" /></p>
 <h2>Conclusion</h2>
 <p>I have asked quite a few people for solutions to this problem, including <a href="http://www.oxygenxml.com/forum/topic10637.html">Oxygen's forum</a>, the <a href="https://groups.yahoo.com/neo/groups/dita-users/conversations/messages/34870">Yahoo DITA users group</a>, and DITA consultants. I hoped that I was simply misunderstanding the right chunking configuration, but no, this appears to be a limitation of DITA.</p>
 <p>A while ago I wrote a really controversial post on called <a href="https://idratherbewriting.com/2013/04/22/does-dita-encourage-authors-to-fragment-information-into-a-million-little-pieces">Does DITA Encourage Authors to Fragment Information into a Million Little Pieces?</a>. Many experts chimed in to reassure me that the ditamap was where you glued them all together in the arrangement you want. And indeed that is the case with a table of contents navigation — just not with relationship tables. </p>

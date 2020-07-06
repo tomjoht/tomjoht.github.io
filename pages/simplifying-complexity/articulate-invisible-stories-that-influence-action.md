@@ -7,9 +7,9 @@ description: "In any documentation scenario, there are usually at least two comp
 
 <div class="audioControls">
 <p><b>Listen to this article:</b></p>
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/articulating_stories.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/articulating_stories.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/articulating_stories.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/articulating_stories.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## Looking at larger trajectories

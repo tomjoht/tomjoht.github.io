@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: Write the docs, 
 description: "Write the Docs is an informal meetup group whose members have a variety of professional roles. The group values open source principles, has an entirely volunteer, grassroots style of organization, and has more origins with developer documentation. Because Write the Docs is free and open, it is becoming an increasingly attractive alternative to professional associations like the STC that require yearly dues and have a closed system."
-image: https://idratherbewritingmedia.com/images/thumbnails/wtdstcthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdstcthumb.png
 published: false
 ---
 
@@ -16,7 +16,7 @@ published: false
 
 I participate in both [Write the Docs](http://www.writethedocs.org/)(WTD) and [Society for Technical Communication](http://stc.org) (STC) groups. Some people have never heard of Write the Docs, and when they learn of it, they wonder how it differs from the STC or other writing groups. In this post, I'll outline the major differences between the two groups. My intent is not to slam either group, but to clearly and frankly explain how they differ from each other.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/wtdstc.png" | prepend: site.baseurl }}" style="float: right; padding-left: 15px;" alt="Write the Docs versus STC" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wtdstc.png" | prepend: site.baseurl }}" style="float: right; padding-left: 15px;" alt="Write the Docs versus STC" />
 
 ## What does "write the docs" mean?
 

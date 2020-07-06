@@ -31,7 +31,7 @@ gem 'github-pages'
 
 If you're on a Mac, Jekyll will auto-rebuild the site. If your YML syntax is valid, you should see the new endpoint in the documentation.
 
-<a href=""><img src="{{ "https://idratherbewritingmedia.com/images/publishingapidocs/aviatorthemesurfreport.png" | prepend: site.baseurl }}" alt="Surfreport endpoint added to Aviator theme" /></a>
+<a href=""><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/publishingapidocs/aviatorthemesurfreport.png" | prepend: site.baseurl }}" alt="Surfreport endpoint added to Aviator theme" /></a>
 
 ## Build the site in Github Pages
 
@@ -48,17 +48,17 @@ If you're on a Windows machine and you don't have Jekyll installed, you can also
 7. Leave the other options at the defaults and click **Create repository**.
 8. Click the **Settings** button. 
 
-<img src="{{ "https://idratherbewritingmedia.com/images/publishingapidocs/githubreposettings.png" | prepend: site.baseurl }}" alt="Github repo settings" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/publishingapidocs/githubreposettings.png" | prepend: site.baseurl }}" alt="Github repo settings" />
 9. Go to your repository's home page, and click the branch drop-down menu. 
 10. Create a new branch called **gh-pages**.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/publishingapidocs/ghpages.png" | prepend: site.baseurl }}" alt="Creating a Github Pages branch" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/publishingapidocs/ghpages.png" | prepend: site.baseurl }}" alt="Creating a Github Pages branch" />
 
 11. Click **Settings** and change the default branch to **gh-pages**.
 
 11. Go back to your repository's homepage. With the gh-pages branch selected, copy the **https clone url**:
 
-<img src="{{ "https://idratherbewritingmedia.com/images/publishingapidocs/cloneurl.png" | prepend: site.baseurl }}" alt="clone URL" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/publishingapidocs/cloneurl.png" | prepend: site.baseurl }}" alt="clone URL" />
 
 12. Open a terminal, browse to a convenient location, and type `git clone https://github.com/tomjoht/aviatortheme.git`, replacing the `https://github.com/tomjoht/aviatortheme.git` with your repository's https clone URL that you copied.
 

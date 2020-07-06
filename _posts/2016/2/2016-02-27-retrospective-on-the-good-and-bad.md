@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: retrospective, evaluation, best practices, learning
 description: "As I move into my new job, one goal I have is to learn from the experiences at my former job and improve this time around. I want to avoid repeating the same mistakes but also remember to build on those things that worked. This post is a retrospective look at the good and bad of previous experiences."
-image: https://idratherbewritingmedia.com/images/thumbnails/retrospectivethumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/retrospectivethumb.png
 ---
 
 Although I'll likely implement this learning naturally and unconsciously, a good blog post that lists out the things I did well versus the things I wasn't so pleased with seems like a good idea.
@@ -13,7 +13,7 @@ Of course I can't go into too many details here, and I want to acknowledge that 
 
 <div style="max-width:500px;">
 <figure>
-<object type="image/svg+xml" data="{{ "https://idratherbewritingmedia.com/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object><figcaption>The purpose of this retrospective is to look back at previous experiences in order to move forward more productively in the future.</figcaption></figure>
+<object type="image/svg+xml" data="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object><figcaption>The purpose of this retrospective is to look back at previous experiences in order to move forward more productively in the future.</figcaption></figure>
 </div>
 
 

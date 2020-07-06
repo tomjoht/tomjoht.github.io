@@ -4,7 +4,7 @@ categories:
 - jobs
 keywords: 
 description: "I've added a Zip Recruiter job feature on my site to help you more easily find jobs in your area."
-image: https://idratherbewritingmedia.com/images/thumbnails/jobalerts.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jobalerts.png
 ---
 
 I've added a Zip Recruiter feature on my site. You can now search for jobs by clicking the **Jobs** button on the top navigation bar. Additionally, you can sign up for job alerts by filling out the form at the bottom of each post. 

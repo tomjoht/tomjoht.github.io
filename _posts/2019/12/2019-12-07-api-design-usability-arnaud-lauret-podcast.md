@@ -8,7 +8,7 @@ categories:
 - technical-writing
 keywords: usability, API, design web
 bitlink: https://idratherbewriting.site/webdesignusabilityal
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/api_design_usability_arnaud.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/api_design_usability_arnaud.mp3
 podcast_file_size: "40.9 MB"
 podcast_duration: "54:39"
 podcast_length: "40220547"
@@ -17,7 +17,7 @@ description: "Arnaud Lauret, also known as the API Handyman, recently published 
 
 {% include audio.html %}
 
-<figure style="float: right; padding-left: 15px"><a href="https://www.manning.com/books/the-design-of-web-apis"><img style="max-width: 200px" src="https://idratherbewritingmedia.com/images/design-of-web-apis.png" /><figcaption><i>The Design of Web APIs</i>, by Arnaud Lauret</figcaption></a></figure>
+<figure style="float: right; padding-left: 15px"><a href="https://www.manning.com/books/the-design-of-web-apis"><img style="max-width: 200px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/design-of-web-apis.png" /><figcaption><i>The Design of Web APIs</i>, by Arnaud Lauret</figcaption></a></figure>
 
 ## Podcast topics
 

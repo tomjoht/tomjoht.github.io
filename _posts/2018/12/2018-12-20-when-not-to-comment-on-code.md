@@ -18,7 +18,7 @@ One of the most exciting articles I've found on the topic is "When Not to Commen
 
 This research combines efforts among academic researchers, engineers, usability specialists, and members from Google’s Engineering Productivity Research team. Given how important documentation is for understanding code, the researchers wanted to know the best location for documentation as well as what information engineers want in docs. Specifically, they focused on C++ APIs and asked whether engineers are more inclined to consult the header files (where classes are defined) or the implementation files (where classes are implemented) for the information they need. The following screenshot (from their article) describes the difference between header and implementation files:
 
-<img src="https://idratherbewritingmedia.com/images/header_or_implementation_files.png" style="max-width: 500px" alt="Header files versus implementation files" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/header_or_implementation_files.png" style="max-width: 500px" alt="Header files versus implementation files" />
 
 Basically, in C++, the header files (`.h`) contain the classes and the main documentation. The implementation files (`.cc`) instantiate and implement the classes from the header. Implementation files have comments peppered in with the code, whereas header files have more formal documentation that follows specific annotation conventions.
 
@@ -36,7 +36,7 @@ Beyond skipping docs when the code is simple enough to understand on its own, th
 
 The following chart shows when documentation might not be necessary with code:
 
-<img src="https://idratherbewritingmedia.com/images/when-not-comment-on-code.png" style="max-width: 400px" alt="When not to comment on code"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/when-not-comment-on-code.png" style="max-width: 400px" alt="When not to comment on code"/>
 
 However, for more complex code, especially where multiple files and generated code might be involved, developers still relied on documentation to understand it. The researchers explain:
 
@@ -59,7 +59,7 @@ The researchers also try to understand what types of answers and guidance should
 
 The researchers arrange this information into a chart for readability:
 
-<img src="https://idratherbewritingmedia.com/images/api-usage-what-to-document.png" alt="What to focus on in documentation" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api-usage-what-to-document.png" alt="What to focus on in documentation" />
 
 ## Conclusion
 

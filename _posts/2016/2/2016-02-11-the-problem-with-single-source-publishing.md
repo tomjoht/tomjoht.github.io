@@ -3,7 +3,7 @@ title: Three models for single source publishing &mdash; and challenges with eac
 categories:
 - technical-writing
 description: "When publishing different versions of content for different audiences, you can choose from among several single source publishing models: individual outputs, rights-based views, and dynamic filtering. Each option has challenges, however, and is not easy to pull off."
-image: https://idratherbewritingmedia.com/images/thumbnails/threemodels.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/threemodels.png
 ---
 
 As I try to wrap my mind around the requirements of one of my current projects, I find myself struggling with the fundamental paradigm of single source publishing. 
@@ -14,7 +14,7 @@ Here's an analogy. You've got a basket of fruit that you're offering to people, 
 
 There seem to be at least three separate models for tackling this kind of single-sourcing scenario.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/threemodelssinglesourcing-01.svg" | prepend: site.baseurl }}" alt="Three models for single sourcing" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/threemodelssinglesourcing-01.svg" | prepend: site.baseurl }}" alt="Three models for single sourcing" />
 
 ## Model 1: Separate outputs
 

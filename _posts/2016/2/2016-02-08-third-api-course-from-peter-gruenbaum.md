@@ -4,14 +4,14 @@ categories:
 - api-doc
 keywords:
 description: "Peter Gruenbaum's third API documentation course is now available on Udemy. This course covers topics in API documentation outside of reference material, such as tutorials and overview sections. This course will expose you to the many different needs in API documentation, and is a course I recommend even though it is briefer than Peter's other courses."
-image: https://idratherbewritingmedia.com/images/thumbnails/peterudemycourse3.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/peterudemycourse3.png
 ---
 
 [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/) recently published a third course on writing API documentation on Udemy. I reviewed the other two courses in previous posts [here](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/) and [here](https://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/). Peter's third course is called [The Art of API Documentation](https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather).
 
 {% include random_ad.html %}
 
-<a href="https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather"><img src="{{ "https://idratherbewritingmedia.com/images/peter-api-3rd.png" | prepend: site.baseurl }}" alt="The Art of API Documentation" /></a>
+<a href="https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/peter-api-3rd.png" | prepend: site.baseurl }}" alt="The Art of API Documentation" /></a>
 
 In general, this course is a little bit shorter than the others and focuses on how to create content for the non-reference topics in your documentation. Peter gets into topics such as tutorials, code samples, diagrams, and getting started sections. He explains how to use Postman, cURL, how to find open source projects to build your API documentation expertise, and more.
 

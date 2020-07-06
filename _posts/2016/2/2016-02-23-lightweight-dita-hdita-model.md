@@ -4,10 +4,10 @@ categories:
 - dita
 keywords: 
 description: "A recent article in the <i>Technical Communication Journal</i> explores lightweight DITA and the way it removes some of the complexity from the authoring process. Lightweight DITA is still in development, but it holds great promise in simplifying DITA and allowing authors to connect into larger systems for managing doc content without abandoning HTML."
-image: https://idratherbewritingmedia.com/images/thumbnails/techcommjonline.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/techcommjonline.png
 ---
 
-<a href="http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/"><img style="float: right; padding: 10px;" src="{{ "https://idratherbewritingmedia.com/images/techcommjonline.png" | prepend: site.baseurl }}" alt="Technical Communication Journal" /></a>
+<a href="http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/"><img style="float: right; padding: 10px;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/techcommjonline.png" | prepend: site.baseurl }}" alt="Technical Communication Journal" /></a>
 
 The February 2016 issue of the Technical Communication Journal (an academic journal containing scholarly articles about technical communication) contains a article well worth reading titled [Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation](http://techcomm.stc.org/2016/02/structured-authoring-without-xml-evaluating-lightweight-dita-for-technical-documentation/), by Carlos Evia, who teaches at Virginia Tech, and Michael Priestley, who works at IBM.
 

@@ -54,7 +54,7 @@ I have [Algolia](https://www.algolia.com/) integrated into my blog. Someone from
 
 Here's the search analytics dashboard in Algolia for the past 30 days:
 
-<img src="https://idratherbewritingmedia.com/images/algoliasearchanalytics.png" alt="Algolia search analytics" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/algoliasearchanalytics.png" alt="Algolia search analytics" />
 
 Search analytics retention is only 30 days in my plan (and in the community plan, there's no retention at all).
 
@@ -62,13 +62,13 @@ Apparently, 23,383 unique users performed a search during the last 30 days. They
 
 Looking more closely at the searches, there seems to be a glitch in the analytics.
 
-<img src="//idratherbewritingmedia.com/images/algolia_analytics_count2.png" alt="Empty searches Algolia" />
+<img src="//s3.us-west-1.wasabisys.com/idbwmedia.com/images/algolia_analytics_count2.png" alt="Empty searches Algolia" />
 
 36,220 of the searches are just empty? WTF?
 
 If I look at the actual visitors on my site for the same 30 days by looking at Google Analytics, the count is around 160k page views for 86k users, so the empty search with Algolia can't be a mere page load but might be users putting their cursor in the search field or something? Here's my Google Analytics dashboard:
 
-<img src="//idratherbewritingmedia.com/images/googleanalytics30days.png" alt="Google Analytics data"/>
+<img src="//s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics30days.png" alt="Google Analytics data"/>
 
 159k page views doesn't explain the 36k empty searches from Algolia, so I have no idea what's going on.
 

@@ -14,7 +14,7 @@ Packing in 6 people into a 1,000 square foot home with one bathroom means everyo
 
 Both my wife and I transitioned to working from home. Since I already work with so many remote teams in Irvine, Seattle, Chennai, and Bangalore, all the remote setup was already in place. But I did bring my big monitor home and have set up my space more comfortably at home. Here's my little office nook:
 
-<img src="https://idratherbewritingmedia.com/images/virtualofficeathome.jpg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/virtualofficeathome.jpg"/>
 
 I actually like my home setup and just ordered some new headphones to improve my experience in meetings. In some ways, with everyone working from home, it's easier to interface with remote people. Previously, when I would call into stand-ups taking place elsewhere, I could barely hear people, as they often did not go of their way to speak into a mic. Now with everyone dialing in, I can hear everything crystal clear. And I won't be left out of hallway conversations and other spontaneous undocumented decisions. Even so, it's distracting to work from home with so many people in the house.
 

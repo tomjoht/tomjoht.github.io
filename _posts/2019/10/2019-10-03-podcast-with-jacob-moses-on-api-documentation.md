@@ -23,6 +23,6 @@ Here's a description of the podcast from Jacob's site:
 
 You can listen to the podcast on the [Not-Boring Tech Writer site here](https://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26):
 
-<a href="https://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26"><img src="https://idratherbewritingmedia.com/images/jacobmosespodcastepisode26.png"/></a>
+<a href="https://www.thenotboringtechwriter.com/blog/2019/9/30/skill-26"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jacobmosespodcastepisode26.png"/></a>
 
 You can also subscribe in [iTunes](https://podcasts.apple.com/us/podcast/the-not-boring-tech-writer/id1093182479) and [Podbean](https://jacobmoses.podbean.com/).

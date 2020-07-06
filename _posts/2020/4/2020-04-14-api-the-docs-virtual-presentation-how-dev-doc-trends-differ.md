@@ -19,7 +19,7 @@ description: "I'm giving a presentation on May 27 in the API The Docs Virtual se
 
 API The Docs was originally scheduled to be held the Friday before the [WTD Portland conference](https://www.writethedocs.org/conf/portland/2020), but as with other conferences, was canceled and moved to a virtual offering instead. Instead of holding all sessions on a single day, as is in the norm for in-person API The Docs conferences, the organizers have broken up the virtual conference into a series of shorter sessions held over a number of weeks. You can see the upcoming event listings here: [API The Docs Virtual](https://apithedocs.org/virtual).
 
-<a href="https://apithedocs.org/virtual"><img src="https://idratherbewritingmedia.com/images/apithedocsbanner.png"/></a>
+<a href="https://apithedocs.org/virtual"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apithedocsbanner.png"/></a>
 
 The first API The Docs Virtual event was held on April 8, 2020, and included two speakers (Leah Tucker and Kristof Van Tomme) who gave presentations followed by Q&A for 2 hours. Then the sessions transitioned to breakout rooms for more free-form discussion on various topics.
 
@@ -32,7 +32,7 @@ Upcoming API The Docs sessions are scheduled for the following dates:
 
 You can view the speaker details and topics here:
 
-<a href="https://apithedocs.org/virtual#block-views-block-speakers-block-1"><img src="https://idratherbewritingmedia.com/images/apithedocsupcomingspeakers.png" /></a>
+<a href="https://apithedocs.org/virtual#block-views-block-speakers-block-1"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apithedocsupcomingspeakers.png" /></a>
 
 My session on May 27 is as follows:
 

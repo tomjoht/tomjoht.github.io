@@ -12,7 +12,7 @@ If you want to simply grab the code from Swagger UI and put it into an HTML page
 
 However, the effect is kind of clunky and is obvious that the content is embedded from some other document generator. It's not a seamlessly branded experience but more like a website within a website. Here an example where Swagger is embedded directly in the docs: [App Submission API](https://developer.amazon.com/docs/app-submission-api/appsubapi-endpoints.html)
 
-<figure><a class="noExtIcon" href="https://developer.amazon.com/docs/app-submission-api/appsubapi-endpoints.html"><img class="docimage large " src="https://idratherbewritingmedia.com/images/api/appsubmissionendpoints.png" alt="Embedding Swagger into your existing doc site" /></a><figcaption>Embedding Swagger into your existing doc site</figcaption></figure>
+<figure><a class="noExtIcon" href="https://developer.amazon.com/docs/app-submission-api/appsubapi-endpoints.html"><img class="docimage large " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/appsubmissionendpoints.png" alt="Embedding Swagger into your existing doc site" /></a><figcaption>Embedding Swagger into your existing doc site</figcaption></figure>
 
 Another example of the same embedding technique is here: [Moments Developer Guide](https://developer.amazon.com/docs/moments/rewards-api-endpoints.html).
 

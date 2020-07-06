@@ -14,7 +14,7 @@ I found the lack of a sidebar challenging as I tried to use the content. How big
 
 I decided that each product needed a sidebar that would show the general pages in that collection of documentation. It wasn't too much trouble to hack a sidebar in there to serve this purpose.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/amazondevportalsidebar.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/amazondevportalsidebar.png"/>
 
 There wasn't room on the left, since the general category sidebar occupied that space. So I added it on the right.
 
@@ -22,7 +22,7 @@ There wasn't room on the left, since the general category sidebar occupied that 
 
 One of principles of design in [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079) is hierarchy.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_hierarchy.svg"  class="vectorStyle"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/wtd_doc_navigation_hierarchy.svg"  class="vectorStyle"/>
 
 <div class="bs-callout bs-callout-primary"><b>Hierarchy:</b> "Hierarchical organization is the simplest structure for visualizing and understanding complexity." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
@@ -30,7 +30,7 @@ When we organize our documentation, we usually create a hierarchical outline of 
 
 A good example of hierarchy in a sidebar is with Google.
 
-<a href="https://developers.google.com/actions/develop/conversation"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/googlevoicedoc.png"/>
+<a href="https://developers.google.com/actions/develop/conversation"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/googlevoicedoc.png"/>
 </a>
 
 Here you can see that the various topics appear in the left, divided into different groups.
@@ -43,7 +43,7 @@ When you create your sidebar menu, right-size the doc navigation so that it's no
 
 Here's another example of a sidebar menu from Sentry:
 
-<a href="https://docs.sentry.io/"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/sentry.png"/></a>
+<a href="https://docs.sentry.io/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/sentry.png"/></a>
 
 I like these examples because you can easily scan the sidebar to get a sense of the whole. The nav menu is just two levels, so it's not overwhelming. There aren't a million topics that would make it difficult to grasp the whole. Being able to get a sense of the whole is one of the main purposes of this hierarchy.
 
@@ -63,11 +63,11 @@ In other words, the sidebar menu grounds users with a sense of the whole, even i
 
 To better understand why we need this sense of the whole, think of this sidebar as a *list of parts*.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_listofparts.svg" style="border: 1px solid #dedede;"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/wtd_doc_navigation_listofparts.svg" style="border: 1px solid #dedede;"/>
 
 Breaking down a complex system into a list of parts helps simplify the system for users.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_wholevspart.svg" style="border: 1px solid #dedede;"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/wtd_doc_navigation_wholevspart.svg" style="border: 1px solid #dedede;"/>
 
 If you think about it, with just about any complex system or object, to understand it, you break down the whole into a list of parts. It's the first step in wrangling complexity &mdash; converting a complex entity into smaller parts to better understand what's going on. That's what the design principle asserts &mdash; "Hierarchical organization is the simplest structure for visualizing and *understanding complexity*."
 
@@ -96,6 +96,6 @@ A narrative is a story. Your hierarchy can tell the story of your information by
 
 As you structure your sidebar, try to avoid deep hierarchies. Deep hierarchies are folders that contain folders that contain folders, etc. Deep hierarchical nesting prevents users from grasping the whole at a glance and undercuts the purpose of the sidebar.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_flatdeephierarchies.svg" style="border: 1px solid #dedede;"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/wtd_doc_navigation_flatdeephierarchies.svg" style="border: 1px solid #dedede;"/>
 
 Some examples of deep hierarchical nesting would be [Wikipedia's category hierarchies](https://en.wikipedia.org/wiki/Portal:Contents/Categories) or [Yahoo's hierarchy directory](https://arstechnica.com/information-technology/2014/09/yahoo-killing-off-yahoo-after-20-years-of-hierarchical-organization/). Beyond 1-2 levels, the deep hierarchies become difficult to process. Our brains aren't wired for it.

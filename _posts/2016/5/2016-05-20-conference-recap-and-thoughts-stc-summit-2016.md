@@ -4,7 +4,7 @@ categories:
 - api-doc
 - technical-writing
 keywords: STC Summit, Jekyll, conferences,  
-image: https://idratherbewritingmedia.com/images/thumbnails/stcsummitanaheimworkshopthumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/stcsummitanaheimworkshopthumb.png
 description: "I attended the 2016 STC Summit in Anaheim, California this year. This is a brief, rambling post that recaps some of my thoughts and experiences."
 ---
 

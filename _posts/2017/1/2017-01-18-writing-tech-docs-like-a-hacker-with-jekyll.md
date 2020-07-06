@@ -8,8 +8,8 @@ keywords: jekyll, documentation, static site generators
 description: "I recently gave a presentation titled Writing tech docs like a hacker with Jekyll to the to the Southern Ontario STC chapter (on Jan 18, 2017). In the presentation, I introduce reasons why we started using Jekyll, how static site generators differ from content management systems, how to get started with Jekyll, and challenges involved in using Jekyll for technical documentation sites."
 bitlink: http://bit.ly/writetechdocshackersoc
 date: 2017-01-18
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/writetechdocshackersoc.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/writetechdocshackersoc.mp3
 podcast_file_size: 51.9 MB
 podcast_duration: "59:18"
 podcast_length: 51863807
@@ -31,9 +31,9 @@ If you just want the audio, here it is:
 
 <div class="audioControls">
 <p><b>Listen to this presentation:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/writetechdocshackersoc.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/writetechdocshackersoc.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can also <a href="https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/writetechdocshackersoc.mp3" alt="Writing tech docs like a hacker with Jekyll">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can also <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/writetechdocshackersoc.mp3" alt="Writing tech docs like a hacker with Jekyll">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 ## Description

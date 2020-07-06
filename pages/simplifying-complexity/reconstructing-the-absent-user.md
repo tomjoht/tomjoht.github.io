@@ -143,7 +143,7 @@ Another way to gather more evaluative feedback about our documentation is to ask
 
 It's not uncommon to see "Feedback" buttons on doc pages, giving users the ability to provide thumbs-up or thumbs-down reactions, or other simple responses. Here's an example from YouTube:
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/likeordislikebuttons.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/likeordislikebuttons.png"/>
 
 Every documentation page should probably have some type of feedback mechanism. In addition to simply letting the users give a thumbs up or down, a free-form response field can capture more actionable information.
 
@@ -151,7 +151,7 @@ Recently, we experimented by adding a simple Feedback form in some of our docs (
 
 Survey tools can be more powerful. Take a look at [Usabilla.com](https://usabilla.com), for example. When you click the Feedback button Usabilla provides, you're prompted with options to either provide specific feedback or general feedback.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/usabilla.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/usabilla.png"/>
 
 If you choose to provide specific feedback, you can then highlight an area of the page you want to provide feedback about. I don't know how well this tool works, but it seems useful and interesting.
 
@@ -167,7 +167,7 @@ You could schedule dozens or hundreds of users in to evaluate an interface, but 
 
 I've seen similar results from my blogging metrics. I've been blogging for a decade now, and after I publish a post, I'm eager to answer a similar question: was the post any good? Was the post a dud or a home run, or just okay? I mostly measure the results through link tracking with [Bitly](https://bitly.com), particularly via my [newsletter](https://idratherbewriting.com/newsletter), [Twitter](https://twitter.com/tomjohnson), and [Linkedin](https://www.linkedin.com/in/tomjoht/). For my previous post, [Stoplight -- creating a single source of truth to drive the API lifecycle](https://idratherbewriting.com/2018/05/11/stoplight-and-api-doc-tools/), Bitly indicates that it received 403 clicks.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/sharedlinksbitly.png" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/sharedlinksbitly.png" />
 
 Just looking at the clicks in Bitly usually tells me whether the post connected with the audience or not. For more info, I can correlate these clicks with page views in Google Analytics, but the analytics usually just confirms the popularity of the post from the Bitly metrics. Any post that gets more than 300 clicks I consider successful. The page views for the post will be much higher than the clicks from Bitly, and so might interactions on other channels, but this small sample size from the initial Bitly tracking almost always answers my initial question about whether the post was good.
 

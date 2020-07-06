@@ -32,7 +32,7 @@ How will the pandemic impact tech comm in the long term?
 
 You can browse the results here:
 
-<a href="https://www.questionpro.com/t/PGzGMZhSHg"><img src="https://idratherbewritingmedia.com/images/pandemicsurveyimpact.jpg"/></a>
+<a href="https://www.questionpro.com/t/PGzGMZhSHg"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pandemicsurveyimpact.jpg"/></a>
 
 ## Freeform comments
 

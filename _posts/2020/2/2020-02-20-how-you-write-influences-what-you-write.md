@@ -14,7 +14,7 @@ During the last holiday break, I was sitting inside a cozy hotel room in Red Riv
 
 I found two recent research efforts about trends to be the most noteworthy: Saul Carliner's [Tech Comm Census results](https://www.stc.org/intercom/download/2018/) (published in Dec 2018 *STC Intercom*) and [Scott Abel's Benchmarking Survey](http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf) (also summarized in the same *Intercom* issue).
 
-<img src="https://idratherbewritingmedia.com/images/lightningtalk_frustration.svg" alt="Reading the latest industry surveys on tech comm trends" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/lightningtalk_frustration.svg" alt="Reading the latest industry surveys on tech comm trends" />
 
 Saul Carliner set about gathering a "Tech Comm Census" by gathering responses from 60 questions covering seemingly every facet of the technical communicator's work life. He partnered with the STC to promote the survey and gathered 676 responses. The results are interesting and encouraging, especially the finding that 70% of technical writers are satisfied with their job. At the same time, the survey seemed to miss many of the trends I'd been seeing within the developer doc space around Write the Docs and docs-as-code tools. I felt like the survey's results only partially represented my tech comm world.
 
@@ -22,7 +22,7 @@ The census reports only generally about "technologies" that technical communicat
 
 All tools (authoring, graphics, storage, planning, etc.) are lumped together, so it's hard to sort them out. The table looks like this:
 
-<a href="https://www.stc.org/intercom/download/2018/"><img src="https://idratherbewritingmedia.com/images/technologiesusedsaul.png" style="max-width: 400px; border: 1px solid #dedede" alt="Technologies used" /></a>
+<a href="https://www.stc.org/intercom/download/2018/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/technologiesusedsaul.png" style="max-width: 400px; border: 1px solid #dedede" alt="Technologies used" /></a>
 
 If you narrow that down to actual authoring tools, it looks like this:
 
@@ -54,7 +54,7 @@ Although the tools numbers between Scott and Saul's surveys more or less align, 
 
 Upon closer reading of the Benchmarking report's results, I realized that the report doesn't say how many are actually using XML tools &mdash; the report says that for those who answered "Yes" to using XML, 73% are using DITA.
 
-<a href="http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf"><img src="http://idratherbewritingmedia.com/images/xmlcontentresultsscott.png" alt="XML usage and tools"/></a>
+<a href="http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf"><img src="http://s3.us-west-1.wasabisys.com/idbwmedia.com/images/xmlcontentresultsscott.png" alt="XML usage and tools"/></a>
 
 We don't know how many out of 600 answered Yes to using XML. It could be six or six hundred. Likewise, the statistic about FrameMaker's usage at 29% qualifies that segment only to "tech comm departments that create multi-channel, multi-language content for highly configurable products or services." How many departments like this are there? Again, six or six hundred?
 
@@ -62,7 +62,7 @@ At any rate, the tools usage reported by the Benchmarking survey isn't too far o
 
 Scott's survey does find that 21% of technical communicators use Markdown to create docs:
 
-<a href="http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf"><img src="https://idratherbewritingmedia.com/images/markdownresultsscott.png" alt="Markdown usage" /></a>
+<a href="http://public2.brighttalk.com/resource/core/217857/the-state-of-technical-communication_474463.pdf"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/markdownresultsscott.png" alt="Markdown usage" /></a>
 
 This statistic doesn't seem pre-filtered and also fits in with my larger interests related to API documentation.
 
@@ -121,7 +121,7 @@ There's a lot that one could focus on these survey results, but I think the most
 
 One immediate objection might be this question: why focus on tools? Aren't tools like shifting fashions? Like the style of jeans that changes from one decade to the next.
 
-<img src="https://idratherbewritingmedia.com/images/lightningtalk_tools_jeans.svg" alt="Tools are like changing fashions"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/lightningtalk_tools_jeans.svg" alt="Tools are like changing fashions"/>
 
 This is why academics dislike tools &mdash; tools are ephemeral. One day it's Tool X, tomorrow it's Tool Y, and next week it's Tool Z. But what matters is the content and the theoretical foundations that determine what we write and how we present it to the user, right?
 
@@ -133,7 +133,7 @@ To make this argument, I'll survey the doc tools technical communicators have us
 
 *Warning:* At this level, I will make broad generalizations and try to connect trends together based on shaping forces and challenges that drive the evolution. At this level, it will be somewhat speculative but hopefully still informative. This tour through tool usage looks somewhat like this:
 
-<img src="https://idratherbewritingmedia.com/images/lightningtalk_tools_history.svg" alt="Trends with tools" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/lightningtalk_tools_history.svg" alt="Trends with tools" />
 
 Note that this timeline isn't necessarily a progression &mdash; all of these tools are still in use to varying degrees. And some of these categories overlap.
 

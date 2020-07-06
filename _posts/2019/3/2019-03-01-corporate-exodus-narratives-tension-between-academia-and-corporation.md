@@ -6,7 +6,7 @@ categories:
 - podcasts
 keywords: academics, practitioners, corporation, tension, inside look at professors
 bitlink: http://bit.ly/corporateexodusnarratives
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/corporateexodusnarratives.mp3
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/corporateexodusnarratives.mp3
 podcast_file_size: 30.6 MB
 podcast_duration: "27:52"
 podcast_length: 30596201

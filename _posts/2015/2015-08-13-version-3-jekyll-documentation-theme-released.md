@@ -7,7 +7,7 @@ categories:
 - jekyll
 - web-design
 description: "Version 3.0 of my Documentation theme for Jekyll is now available. This theme has a ton of features, such as tags, series, collections, search, PDF generation, and more. Additionally, I've written up detailed documentation for using the theme. Overall, the theme shows how to do single sourcing (including both web and print output) as well as conditional filtering of content based on different attributes. "
-image: https://idratherbewritingmedia.com/images/thumbnails/jekylltheme.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/jekylltheme.png
 ---
 
 ## Version 3.0 released
@@ -18,11 +18,11 @@ Here's an example output: [https://idratherbewriting.com/documentation-theme-jek
 
 The theme is built for single sourcing, so the default theme has a couple of outputs: Designers and Writers. The Designers output has detailed instructions for working with the theme.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllthemescreenshot.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
 The Writers output is a slightly scaled back version of the same content (eliminating some explanations of how the theme works), with another theme applied.
 
-<img src="{{ "https://idratherbewritingmedia.com/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
+<img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
 The [Getting started page](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
 
@@ -42,7 +42,7 @@ Some of the more prominent features of the theme include the following:
 * Help API and UI tooltips
 * Extensive documentation and tutorials
 
-For a more detailed list of supported features, see [Supported features](https://idratherbewritingmedia.com/documentation-theme-jekyll/doc_designers/doc_supported_features.html).
+For a more detailed list of supported features, see [Supported features](https://s3.us-west-1.wasabisys.com/idbwmedia.com/documentation-theme-jekyll/doc_designers/doc_supported_features.html).
 
 ## Getting started
 

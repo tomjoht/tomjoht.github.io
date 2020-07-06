@@ -7,7 +7,7 @@ categories:
 - stitcher
 - api-doc
 keywords: academics
-podcast_link: https://dts.podtrac.com/redirect.mp3/idratherbewritingmedia.com/podcasts/usersasproducers_nupoor_ranade.mp3
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/usersasproducers_nupoor_ranade.mp3
 podcast_file_size: "42.4 MB"
 podcast_duration: "50:06"
 podcast_length: "42356777"

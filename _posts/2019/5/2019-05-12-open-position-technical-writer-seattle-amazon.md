@@ -8,7 +8,7 @@ bitlink: https://idratherbewriting.site/twseattle52019
 description: "We have an open position on our team for a <a href='https://www.amazon.jobs/en/jobs/854945/technical-writer'>technical writer in Seattle or Irvine</a>. This position is more of a mid-level rather than a senior-level, and the person will be documenting details around the app submission process with the Amazon Appstore. Contact me if you're interested."
 ---
 
-<a href="https://www.amazon.jobs/en/jobs/854945/technical-writer"><img src="https://idratherbewritingmedia.com/images/technical-writer-amazon-seattle.png" alt="technical writer position in seattle or irvine"/></a>
+<a href="https://www.amazon.jobs/en/jobs/854945/technical-writer"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/technical-writer-amazon-seattle.png" alt="technical writer position in seattle or irvine"/></a>
 
 Here's a description of the [technical writer position](https://www.amazon.jobs/en/jobs/854945/technical-writer).
 

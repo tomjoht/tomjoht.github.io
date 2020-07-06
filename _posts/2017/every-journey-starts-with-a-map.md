@@ -4,7 +4,7 @@ categories:
 - visual-communication
 keywords: 
 description: ""
-image: https://idratherbewritingmedia.com/images/thumbnails/
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/
 ---
 
 1 why a map? you start out on a journey. you have a point a and point b path you want to travel.

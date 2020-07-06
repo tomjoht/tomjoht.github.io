@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: tc camp, unconference, liz fraley, san francisco conferences for technical writers, free
 description: "TC Camp 2018 is just around the corner (Jan 26-27, 2018). Liz Fraley started the TC Camp unconference out of a growing dissatisfaction with other conferences. She modeled TC Camp after another camp that was low-cost, run by a non-profit, and intended to better the community. TC Camp's popularity arises from its unconference format &mdash; it places more focus on the attendees instead of juried presentations. As long as you participate, vote, and interact in the discussions, you're guaranteed to connect."
-image: https://idratherbewritingmedia.com/images/thumbnails/tccamp2016thumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/tccamp2016thumb.png
 redirect_from:
 - /2016/01/06/tc-camp-unconference-interview-with-liz-fraley/
 bitlink: http://bit.ly/tccamp2018post
@@ -16,7 +16,7 @@ bitlink: http://bit.ly/tccamp2018post
 
 The [2018 TC Camp](http://www.tccamp.org/2017/09/unconference-tc-camp-2018/) is just around the corner. Held January 26-27, 2018, in Santa Clara, California, this conference has been growing in popularity due to its unique unconference format.
 
-<a href="http://www.tccamp.org/2017/09/unconference-tc-camp-2018/"><img src="{{ "https://idratherbewritingmedia.com/images/header-post-register-1.png" | prepend: site.baseurl }}" alt="TC Camp Santa Clara" /></a>
+<a href="http://www.tccamp.org/2017/09/unconference-tc-camp-2018/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/header-post-register-1.png" | prepend: site.baseurl }}" alt="TC Camp Santa Clara" /></a>
 
 The TC Camp Unconference doesn't include any pre-scheduled sessions or speakers. (Although there are some morning workshops available, these aren't part of the unconference format.)
 

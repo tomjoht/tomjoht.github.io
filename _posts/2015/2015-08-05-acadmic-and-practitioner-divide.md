@@ -5,7 +5,7 @@ categories:
 - academics-and-practitioners
 keywords: 
 description: "Although the work of practitioners and academics should inform each other in mutually beneficial ways, these groups tend to be somewhat isolated and separate. Some reasons for the divide include lack of focus on tools, paywalls set up with publications, and the topics in journal articles."
-image: https://idratherbewritingmedia.com/images/thumbnails/university.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/university.png
 ---
 
 {% include notes.html %}

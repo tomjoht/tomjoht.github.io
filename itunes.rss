@@ -13,7 +13,7 @@ layout: null
     <language>en-us</language>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:image href="https://idratherbewritingmedia.com/images/idratherbewritinglogo.png"/>
+    <itunes:image href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png"/>
 
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.podcast_description}}</itunes:summary>

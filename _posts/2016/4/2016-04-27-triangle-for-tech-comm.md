@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords: knowledge, success, technical writing, user understanding, technical knowledge
 description: "Today I was thinking about the most important element in a successful technical writing career, and I think it's knowledge. The more you know, the better information you can write. There are at least three main types of knowledge: product knowledge, technical knowledge, and user knowledge. Just knowing one of the three won't provide you with the kind of information you need to write good documentation. "
-image: https://idratherbewritingmedia.com/images/thumbnails/techcommtrianglethumb.png
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/techcommtrianglethumb.png
 ---
 {% include notes.html %}
 
@@ -14,7 +14,7 @@ image: https://idratherbewritingmedia.com/images/thumbnails/techcommtrianglethum
 
 I've illustrated the three types of knowledge in the following diagram.
 
-<figure><img src="{{ "https://idratherbewritingmedia.com/images/techcommtriangle-01.png" | prepend: site.baseurl }}"/><figcaption>These are the three types of knowledge you need to be successful as a technical writer.</figcaption></figure>
+<figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/techcommtriangle-01.png" | prepend: site.baseurl }}"/><figcaption>These are the three types of knowledge you need to be successful as a technical writer.</figcaption></figure>
 
 When you combine technical knowledge, product knowledge, and user knowledge, you become a key player in your organization. Usually engineers dominate the technical, product managers dominate the product, and support dominates the users. Technical writers need to a decent understanding of all three of these domains to write useful documentation.
 

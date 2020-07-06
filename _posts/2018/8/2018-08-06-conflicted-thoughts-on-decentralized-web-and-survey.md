@@ -8,8 +8,8 @@ categories:
 keywords:
 description: "Seeing my name in the Census of Technical Communicators survey as a possible source for professional development made me think about the impact of blogs as a learning resource. Advertising encourages bloggers to create rapid-fire, lightweight content in order to increase page views and other attention on the advertised product or service. The proliferation of blog content turns the wheels of social media, creating micro-bursts of attention for companies. The negative impact, however, is that more traditional forms of learning, such as scholarly journal articles and books, take a hit. The web's architecture and monetization model around content is optimized for blog content, so unless other mediums can find a way to become more visible and engaging within the architecture of the web, they will continue their slide into invisibility (at least to mainstream users)."
 bitlink: http://bit.ly/decentralizationandblogging
-image: https://idratherbewritingmedia.com/images/idratherbewritinglogo.png
-podcast_link: https://www.podtrac.com/pts/redirect.mp3/idratherbewritingmedia.com/podcasts/decentralizationandblogging.mp3
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/decentralizationandblogging.mp3
 podcast_file_size: 19.5 MB
 podcast_duration: "24:44"
 podcast_length: 19533658
@@ -27,7 +27,7 @@ Some of the census questions will prompt some serious reflection. For example, t
 
 There's also an entire section about resources you consult for professional development, including blogs. The survey names several blogs specifically, including the one you're reading:
 
-<img src="https://idratherbewritingmedia.com/images/profblogsyouconsult.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/profblogsyouconsult.png"/>
 
 ## Advertising's impact on the web's original ideals
 
@@ -73,7 +73,7 @@ So advertising is the necessary evil required to power free information and serv
 
 Advertising creates a distortion in the very forms of information that we consume &mdash; information has been hollowed out, clickbaited, and generated at such a rapid and constant rate that it has warped our attention span and caused us to constantly seek out what's new. Our ability for deep immersion and flow has been crippled. Advertising hurts our creativity and intellectual engagement.
 
-<img src="https://idratherbewritingmedia.com/images/contentbeforeandafteradvertising_advertising.svg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/contentbeforeandafteradvertising_advertising.svg"/>
 
 I know that to some extent, I am contributing to this degeneration of information. Even with my lengthy, longwinded posts, where I try to question assumptions and think critically, I also fall prey to more lightweight, unchecked content. I'm under (self-imagined) pressure to produce more content, to keep the page views high on my blog, to stay a relevant hub for information. I have to *produce, produce, produce* for my site to stay visible and relevant.
 

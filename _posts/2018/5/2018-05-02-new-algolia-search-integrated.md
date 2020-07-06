@@ -20,7 +20,7 @@ Google recently [deprecated their custom search](https://searchengineland.com/go
 
 The main problem with custom search engine is that searches on Google lead users away from your site. Additionally, I recently noticed that after you click a result and return to Google's results page, you're prompted with similar searches that take you even more easily away from the site-specific search you initially executed. Here's an example:
 
-<figure><img src="https://idratherbewritingmedia.com/images/googlesearchsimilar.png"/><figcaption>After you click this result and return to the search results page, Google shows you similar queries, but those similar queries aren't restricted to the site-specific domain you initially entered.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlesearchsimilar.png"/><figcaption>After you click this result and return to the search results page, Google shows you similar queries, but those similar queries aren't restricted to the site-specific domain you initially entered.</figcaption></figure>
 
 ## Pros and cons of Algolia
 

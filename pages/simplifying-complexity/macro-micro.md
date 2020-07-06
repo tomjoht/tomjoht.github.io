@@ -148,23 +148,23 @@ Maps are a simple way to let users navigate between the macro and micro. That's 
 
 For example, I was recently hiking in Hidden Villa, a green area near Los Altos (near Silicon Valley). The map looked like this:
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/hidden_villa_map.png"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/hidden_villa_map.png"/>
 
 We wanted to hike up Ewing Hill (shown in the upper-left of the map). The large map looked easy enough to follow, but when we started hiking, the right direction wasn't so clear.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/cannot_see.jpg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/cannot_see.jpg"/>
 
 Are we going the right way? Without any signs to confirm, we trudge along the trail, hoping it's the right way to Ewing Hill. There are lots of trails, and they often crisscross. Here we're heading up a hill, so that's good, but there are lots of hills around here.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/winding_trail.jpg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/winding_trail.jpg"/>
 
 Let's look at the map.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/winding_trail_with_map.jpg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/winding_trail_with_map.jpg"/>
 
 Yep, looks about right. The ability to toggle between the macro (the map) and the micro (the immediate terrain) is essential for navigation. Signposts along the way in the micro (immediate terrain) also help confirm that we're in the right place as well.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/ewingtrail.jpg"/>
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/ewingtrail.jpg"/>
 
 With the help of the map, we finally made it to the top.
 
@@ -177,13 +177,13 @@ With actual trail maps, the switch between macro and micro modes is common and c
 
 Another type of high-level map is a quick reference guide. Whereas the workflow maps I've been describing explain how to navigate among the various tasks for a specific goal, the quick reference guide provides a summary of the entire system at a glance. Here's a sample layout for a quick reference guide:
 
-<a href="https://idratherbewritingmedia.com/images/2009/04/watershed1.png"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/quickreferenceguidelayout1.png"/></a>
+<a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2009/04/watershed1.png"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/quickreferenceguidelayout1.png"/></a>
 
 This guide usually describes, in a brief, summarizing way, the core tasks in the system. It lets users know in just a minute or two what the system can do, how you do it, and the general scope of the system.
 
 Here's another design for a quick reference guide:
 
-<a href="https://idratherbewritingmedia.com/images/2009/04/whataremyoptions.png"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/quickreferenceguidelayout2.png"/></a>
+<a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2009/04/whataremyoptions.png"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/quickreferenceguidelayout2.png"/></a>
 
 Whereas workflow maps provide a depiction of the steps in a process, quick-reference guides provide a macro view of the system &mdash; its capabilities, core tasks and features, and supported goals. In short, it's just another way to zoom out and give the user a macro view of the system, usually in 1-2 pages.
 
