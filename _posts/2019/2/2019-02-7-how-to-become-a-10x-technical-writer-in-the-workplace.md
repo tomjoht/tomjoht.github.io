@@ -129,7 +129,9 @@ Overall, if you want to be a 10X technical writer, I'm convinced that you have t
 
 ## What are your tips?
 
-I'd like to hear what your tips are for being a 10X technical writer at work. What are you doing to be more productive in your tech comm role? I want to hear your insights and strategies. Use the embedded survey below or the comment form. You can view the [resuts here](https://www.questionpro.com/t/PE1rtZdpw9).
+I'd like to hear what your tips are for being a 10X technical writer at work. What are you doing to be more productive in your tech comm role? I want to hear your insights and strategies. Use the embedded survey below or the comment form. You can view the [results here](https://www.questionpro.com/t/PE1rtZdpw9).
+
+{{site.data.alerts.tip}} For more on productivity, check out this tip: <a href="/blog/writing-productivity-through-focus-sessions/">Writing productivity tip: Focus sessions</a>.
 
 <script>
 EMBED_PARAMS = {};

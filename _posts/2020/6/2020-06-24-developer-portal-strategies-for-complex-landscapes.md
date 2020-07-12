@@ -11,7 +11,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: "43 MB"
 podcast_duration: "52:24"
 podcast_length: "42866964"
-transcript: "transcripts/2020-06-23-developer-portal-strategies-for-complex-landscapes.md"
+transcript: "transcripts/2020-06-23-developer-portal-strategies-for-complex-landscapes.html"
 description: "Recently I chatted with Kristof van Tomme, CEO and co-founder of Pronovix, about a topic that's become increasingly relevant in the past several months: how to deal with complex, rapidly evolving landscapes. Specifically, we focus on developer portal strategies that involve finding a balance between constraints and flexibility. Too many constraints reduces your ability to adapt to uncertain changes that might require innovative, unknown solutions. Too much flexibility might not lead to any coherent, overarching story about how to use your APIs in an integrated way toward a business goal."
 ---
 

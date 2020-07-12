@@ -13,7 +13,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: "27.3 MB"
 podcast_duration: "32:02"
 podcast_length: "27022667"
-transcript: "transcripts/2020-06-04-api-the-docs-virtual-presentation-dev-doc-survey-results.md"
+transcript: "transcripts/2020-06-04-api-the-docs-virtual-presentation-dev-doc-survey-results.html"
 ---
 
 ## API the Docs Virtual Series

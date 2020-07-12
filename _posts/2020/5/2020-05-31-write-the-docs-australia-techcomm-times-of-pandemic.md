@@ -4,6 +4,9 @@ permalink: /blog/write-the-docs-australia-techcomm-times-of-pandemic/
 categories:
 - academics-and-practitioners
 - technical-writing
+- podcasts
+- technical-writing
+- stitcher
 keywords:
 rebrandly: https://idratherbewriting.site/wtdaustraliatechcommpandemic
 description: "I recently co-presented in a <a href='https://www.meetup.com/Write-the-Docs-Australia'>WTD Australia event</a> titled <a href='https://www.meetup.com/Write-the-Docs-Australia/events/270641270/'>Techcomm in the times of pandemic</a> on May 28, 2020. The other presenter was professor Kirk St. Amant. A recording is available below."
@@ -11,7 +14,7 @@ podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/id
 podcast_file_size: "117.5 MB"
 podcast_duration: "01:10:47"
 podcast_length: "101924081"
-transcript: "transcripts/2020-05-31-write-the-docs-australia-techcomm-times-of-pandemic.md"
+transcript: "transcripts/2020-05-31-write-the-docs-australia-techcomm-times-of-pandemic.html"
 ---
 
 ## Watch the event
