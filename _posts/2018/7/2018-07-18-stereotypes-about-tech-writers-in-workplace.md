@@ -7,7 +7,7 @@ description: "In this guest post, <a href='#emily'>Emily January Petersen</a>, a
 bitlink: http://bit.ly/stereotypesmythsworkplace
 practitioner_survey: https://docs.google.com/forms/d/1cPkozD8NPSrrelfSbBT4zLde8fM-SfgfYfRtDzxVEfM/
 author: <a href='#emily'>Emily January Petersen</a>
-# published: false
+bio: false
 ---
 
 {{site.data.alerts.tip}}You can read the academic version of this article that was published in the <i>Technical Communication Journal</i> here: <a href="https://www.academia.edu/35267996/Articulating_Value_Amid_Persistent_Misconceptions_about_Technical_and_Professional_Communication_in_the_Workplace">Articulating Value Amid Persistent Misconceptions About Technical and Professional Communication in the Workplace</a>.{{site.data.alerts.end}}

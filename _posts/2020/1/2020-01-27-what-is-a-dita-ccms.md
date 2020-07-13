@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idratherbewriting.site/whatisditaccms
 description: "In this guest post from <a href='#john_baker'>John Baker</a>, Content Marketing Manager for easyDITA, John explains what a component content management system (CCMS) is and why DITA is often used in these systems. John's article provides a solid introduction to why these larger, more robust systems are used with documentation. The ability to reuse content at a component level, assemble it into documents, track the component's usage across the system, include metadata, automate templates and formatting, and handle other tasks gives you a powerful way to manage content in an enterprise."
 author: John Baker
+bio: false
 ---
 
 *Note that easyDITA is a site sponsor.*

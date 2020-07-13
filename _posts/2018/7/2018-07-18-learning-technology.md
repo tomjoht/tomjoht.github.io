@@ -9,6 +9,7 @@ bitlink: http://bit.ly/technologicaladaptpost
 practitioner_survey: https://docs.google.com/forms/d/1AbBl34UuHKwnjWfGzHDXMSRPAJ2zCbaMDgdAlClczdI/
 author: <a href='#lonie'>Melonie McMichael</a>
 date: 2018-07-18T20:04:46+00:00
+bio: false
 ---
 
 I am fortunate to have been both a long-time practitioner in the high-tech industry and, now, a long-time instructor. From my viewpoint, the rift between practitioners and academics centers around speed, technology, and adaptability. The academic branch of technical communication does not move quickly, nor is it very comfortable with technology (for the most part).
