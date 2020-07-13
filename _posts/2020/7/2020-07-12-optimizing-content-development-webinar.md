@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/
-description: "I'm participating in an upcoming webinar called <a href='https://www.zoominsoftware.com/webinars/optimize-content-development/'>Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team, with Paul Gustafson and Megan Gilhooly</a> on August 5, 2020."
+description: "I'm participating in an upcoming webinar called <a href='https://www.zoominsoftware.com/webinars/optimize-content-development/'>Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team</a>, with Paul Gustafson and Megan Gilhooly on August 5, 2020."
 ---
 
 ## Webinar details

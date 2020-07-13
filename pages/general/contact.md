@@ -14,13 +14,14 @@ Feel free to contact me using the form below. However, for most questions, I rec
 
 * [Reddit Technical Writing subreddit](https://www.reddit.com/r/technicalwriting/). This is a great space to ask beginner questions. You can also ask anonymous questions if you want.
 * [Write the Docs Slack](https://www.writethedocs.org/slack/). This is a popular space where a lot of technical writers interact, with many different channels.
-* [Twitter - @tomjohnson](https://twitter.com/tomjohnson). Feel free to direct message me on Twitter with your questions. I like Twitter because it encourages succinct communication.
 
 If you're looking for answers to common questions, check out these posts:
 
 * [Technical Writing Careers -- Answering 13 Questions about Technical Writing Jobs](https://idratherbewriting.com/2008/02/16/technical-writing-careers-answering-13-questions-about-technical-writing-jobs/)
 * [Top 10 Most Frequently Asked Questions about Technical Writing](https://idratherbewriting.com/2013/01/17/top-10-most-frequently-asked-questions-about-technical-writing)
-* [Posts for beginners](https://idratherbewriting.com/category-beginners/) category. This category contains posts that are intended for those new to the tech comm space.
+* [Posts for beginners](https://idratherbewriting.com/category-beginners/)
+
+Still want to contact me?
 
 Note that I ignore a few topics:
 
@@ -29,6 +30,8 @@ Note that I ignore a few topics:
 * Requests to write guest posts that contain backlinks to your product
 * Invitations for SEO services for my site
 * Outreach from recruiters trying to fill contract roles at companies
+
+Although you can use the contact form below, note that you can also direct message me on Twitter [@tomjohnson](https://twitter.com/tomjohnson). I like Twitter because it encourages succinct communication.
 
 <div style="margin-bottom:15px; padding-bottom:10px;">
 <div id="wufoo-mlxbnfd14yabfn">
