@@ -8,6 +8,7 @@ keywords:
 rebrandly: https://idratherbewriting.site/unimportant
 description: "A reader whose company recently laid off two-thirds of their tech pubs staff asked why technical writers are often seen as unimportant in a company. I asked <a href='#jeremy'>Jeremy Rosselot-Merritt</a>, an academic at the University of Minnesota who has been doing research into tech comm value in the workplace, to respond to the reader's question."
 author: <a href='#jeremy'>Jeremy Rosselot-Merritt</a>
+bio: false
 ---
 
 ## The question
@@ -118,3 +119,7 @@ Does that mean that the market for technical writers is as good as it was _befor
 ## About the Author {#jeremy}
 
 Jeremy Rosselot-Merritt is a PhD candidate in the [University of Minnesota's Rhetoric and Scientific and Technical Communication (RSTC) program](https://cla.umn.edu/writing-studies/graduate/degrees/ma-phd). His 14 years of experience as a technical writer influence his research interests in workplace writing and communication as well as emerging and open source technologies, among other areas. He holds a master's degree in technical and scientific communication (MTSC) from Miami University (Ohio). Feel free to follow up at [jrmerritt@umn.edu](mailto:jrmerritt@umn.edu).
+
+<hr/>
+
+{{site.data.alerts.tip}} For a follow-up to this post, see <a href='https://idratherbewriting.com/blog/reflecting-seven-years-later-about-layoff-intro/'>Reflecting seven years later about why we were laid off</a>. {{site.data.alerts.end}}
