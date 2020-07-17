@@ -7,7 +7,7 @@ categories:
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/
-description: "I'm trying out a new writing productivity tip that seems to be working fairly well for me: focus sessions. A writing focus session is a one-hour session focused on a writing task. I made a goal last week of doing four writing focus sessions (at work) each day. I figured I should at least be able to devote half of my work day as a professional technical writer doing writing. This technique has boosted my writing productivity last week."
+description: "I'm trying out a new writing productivity tip that seems to be working fairly well for me: focus sessions. A writing focus session is a one-hour session focused on a writing task. I made a goal last week of doing four writing focus sessions (at work) each day. I figured I should at least be able to devote half of my work day as a professional technical writer doing writing. This technique has boosted my writing productivity recently."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/focussessions.mp3
 podcast_file_size: "7.4 MB"
 podcast_duration: "08:08"
