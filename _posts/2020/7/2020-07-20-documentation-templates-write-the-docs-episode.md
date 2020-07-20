@@ -1,5 +1,5 @@
 ---
-title: "Write the Docs Episode 30: Documentation templates"
+title: "Write the Docs Episode 30: Documentation templates, with Juan Lara"
 permalink: /blog/documentation-templates-write-the-docs-episode/
 categories:
 - podcasts
