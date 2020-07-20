@@ -14,7 +14,9 @@ layout: null
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
     <itunes:explicit>No</itunes:explicit>
     <itunes:image href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png"/>
-
+    <itunes:category text="Education">
+        <itunes:category text="How-To" />
+    </itunes:category>
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.podcast_description}}</itunes:summary>
     <itunes:owner>
@@ -29,6 +31,9 @@ layout: null
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
             {% for category in ep.categories %}
+            <itunes:category text="Education">
+                <itunes:category text="How-To"/>
+             </itunes:category>
             <category>{{ category | cdata_escape }}</category>
             {% endfor %}
             {% for category in ep.tags %}

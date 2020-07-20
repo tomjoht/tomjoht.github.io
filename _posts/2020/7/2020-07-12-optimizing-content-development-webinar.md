@@ -4,7 +4,7 @@ permalink: /blog/optimizing-content-development-growing-content-without-growing-
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idratherbewriting.site/
+rebrandly: https://idratherbewriting.site/growcontentfastnoresources
 description: "I'm participating in an upcoming webinar called <a href='https://www.zoominsoftware.com/webinars/optimize-content-development/'>Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team</a>, with Paul Gustafson and Megan Gilhooly on August 5, 2020."
 ---
 

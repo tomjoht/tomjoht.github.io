@@ -21,9 +21,7 @@ If you're looking for answers to common questions, check out these posts:
 * [Top 10 Most Frequently Asked Questions about Technical Writing](https://idratherbewriting.com/2013/01/17/top-10-most-frequently-asked-questions-about-technical-writing)
 * [Posts for beginners](https://idratherbewriting.com/category-beginners/)
 
-Still want to contact me?
-
-Note that I ignore a few topics:
+Still want to contact me? Note that I ignore a few topics:
 
 * Requests to describe a day in the life of a technical writer
 * Questions about whether tech writing is a good career fit for you
@@ -31,7 +29,7 @@ Note that I ignore a few topics:
 * Invitations for SEO services for my site
 * Outreach from recruiters trying to fill contract roles at companies
 
-Although you can use the contact form below, note that you can also direct message me on Twitter [@tomjohnson](https://twitter.com/tomjohnson). I like Twitter because it encourages succinct communication.
+Although you can use the contact form below, note that you can also direct message me on Twitter [@tomjohnson](https://twitter.com/tomjohnson). Allow for 1-2 days for me to get back to you, as my inbox is a constant stream of incoming messages.
 
 <div style="margin-bottom:15px; padding-bottom:10px;">
 <div id="wufoo-mlxbnfd14yabfn">
