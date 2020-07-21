@@ -30,7 +30,7 @@ If you want to increase your value and avoid being laid off, you need to align y
 
 Based on this argument, the best model for tech comm might not be as a centralized service but rather as integrated with the divisions that need documentation. When you’re integrated with teams that need documentation, you’re seen as much more valuable, and your importance to the division can be immediately felt.
 
-## Centralized, cecentralized, and distributed models
+## Centralized, decentralized, and distributed models
 
 Introducing the organization model into the equation is a new angle to the tech comm value discussion, and one that doesn’t have any research that I could find. However, there are many broader discussions (outside of tech comm) about different organization models and the tradeoffs of each. Three models are common:
 
