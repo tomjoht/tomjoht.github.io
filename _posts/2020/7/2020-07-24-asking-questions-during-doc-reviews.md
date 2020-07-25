@@ -9,6 +9,10 @@ categories:
 keywords: doc reviews, engineers
 rebrandly: https://idratherbewriting.site/docreviewsquestions
 description: "Although doc reviews are a central part of the tech writing process, it's often a challenge to get teams to review docs. One tip is to bring a list of questions to the doc review. This provides more structure and focus to the review meeting."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/doc_review_list_of_questions.mp3
+podcast_file_size: "7.1 MB"
+podcast_duration: "08:08"
+podcast_length: "7140112"
 ---
 
 ## How to have a bad doc review
@@ -41,3 +45,7 @@ People love seeing questions in a list like this. It focuses the meeting, gives 
 I recorded a short videocast explaining this tip:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mi1bFiWiesA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+For just the audio:
+
+{% include audio.html %}
