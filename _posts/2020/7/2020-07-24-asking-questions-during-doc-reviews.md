@@ -3,7 +3,10 @@ title: "A tip for doc reviews -- bring a list of questions"
 permalink: /blog/tip-for-doc-reviews-bring-list-of-questions/
 categories:
 - technical-writing
-keywords:
+- podcasts
+- stitcher
+- writing
+keywords: doc reviews, engineers
 rebrandly: https://idratherbewriting.site/docreviewsquestions
 description: "Although doc reviews are a central part of the tech writing process, it's often a challenge to get teams to review docs. One tip is to bring a list of questions to the doc review. This provides more structure and focus to the review meeting."
 ---
