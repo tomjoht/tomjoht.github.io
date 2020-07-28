@@ -1664,3 +1664,15 @@ h3.transcript a {
 h3.open  { background: rgb(255,70,120); }
 h3.open a { background-position: 13px -25px; }
 h3 + div { padding: 10px; }
+
+.surveySummary {
+background-color: #f8f8f8;
+border: 1px solid #dedede;
+padding: 15px;
+margin: 15px 0px;
+}
+.surveySummaryTitle {
+font-size:18px;
+font-weight: bold;
+margin: 15px 0px;
+}

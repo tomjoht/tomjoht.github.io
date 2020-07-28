@@ -1,7 +1,7 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part I)
+title: "Part I: Introduction and background"
 permalink: /blog/reflecting-seven-years-later-about-layoff-intro/
-subtitle: "Part I: Introduction and background"
+subtitle: ""
 date: 2020-07-01 01:00:000000000 -07:00
 categories:
 - technical-writing

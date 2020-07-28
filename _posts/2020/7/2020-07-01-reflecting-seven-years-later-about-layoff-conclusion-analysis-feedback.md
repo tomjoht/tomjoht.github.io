@@ -1,7 +1,6 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part VI)
+title: "Part VI: Conclusion, analysis, and feedback"
 permalink: /blog/reflecting-seven-years-later-about-layoff-conclusion-analysis-feedback/
-subtitle: "Part VI: Conclusion, analysis, and feedback"
 date: 2020-07-01 06:00:000000000 -07:00
 categories:
 - technical-writing

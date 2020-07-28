@@ -1,7 +1,6 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part III)
+title: "Part III: Correlating organization models with low value estimations"
 permalink: /blog/reflecting-seven-years-later-about-layoff-correlating-org-models-with-value/
-subtitle: "Part III: Correlating organization models with low value estimations"
 date: 2020-07-01 03:00:000000000 -07:00
 categories:
 - technical-writing

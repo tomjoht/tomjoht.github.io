@@ -1,7 +1,6 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part IV)
+title: "Part IV: Engaging deep enough to blur the lines between content and product design"
 permalink: /blog/reflecting-seven-years-later-about-layoff-colman-designer-hybrid/
-subtitle: "Part IV: Engaging deep enough to blur the lines between content and product design"
 date: 2020-07-01 04:00:000000000 -07:00
 categories:
 - technical-writing

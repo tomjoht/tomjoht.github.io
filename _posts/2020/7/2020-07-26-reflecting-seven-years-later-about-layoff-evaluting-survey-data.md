@@ -1,7 +1,6 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part VII)
+title: "Part VI: Results from the survey correlating org models and tech writer value"
 permalink: /blog/reflecting-seven-years-later-about-layoff-evaluating-survey-data/
-subtitle: "Part VI: Results from the survey"
 date: 2020-07-26 06:00:000000000 -07:00
 categories:
 - technical-writing
@@ -22,13 +21,13 @@ You can browse the results of the survey [here](https://www.questionpro.com/t/PG
 
 49 to 99 people isn't a large number of respondents. However, I allowed for a lot of freeform answers, and if you've ever tried to make sense of freeform answers from 50-100 people, you know it's a lot of work. Also, small sizes are often enough to gather a general trend, and these initial responses could always be used for a follow-up survey that is more informed and which has more precise multiple choice options.
 
-Respondents spent an average of 14 minutes completing the survey. Also, presumably they read the post series prior to taking the survey. Given the length of the post series (approximately 11,000 words), respondents probably spend at least 20 minutes reading, which is an indicator of their interest in the topic.
+Respondents spent an average of 14 minutes completing the survey. Also, presumably they read the post series prior to taking the survey. Given the length of the post series (approximately 11,000 words), respondents probably spent at least 20 minutes reading, which is an indicator of their interest in the topic.
 
-I didn't collect details about companies, sectors, age, gender, years of experience, etc. The survey was meant only to be an informal survey to see if there was any validity about a correlation between org models and tech writer value.
+I didn't collect details about companies, sectors, age, gender, years of experience, etc. The survey was meant only to be an informal survey to see if there was any support for a correlation between org models and tech writer value.
 
 Also, I used branching in the survey, so if someone indicated that they were never laid off, I didn't ask them why they think they were laid off, and so on.
 
-In the following sections, I'll highlight the survey responses and provide some analyses. Note that with freeform responses, I identified key themes in responses and counted up their instances. Some people gave more than one reason. Because of that, the number of reasons won't correlate with the number of responses. Also, some people were laid off multiple times at different companies, and they explained differing reasons for each scenario. Again, you can browse the survey results (including all the freeform answers) [here](https://www.questionpro.com/t/PG9KAZh2hD).
+In the following sections, I'll highlight the survey responses and provide some analyses. Note that with freeform responses, I identified key themes in responses and counted up their instances. Some people gave more than one reason. Because of that, the number of reasons won't correlate with the number of responses. Also, some people were laid off multiple times at different companies, and they explained differing reasons for each scenario. Finally, I had to interpret their responses into general categories. Again, you can browse the survey results (including all the freeform answers) [here](https://www.questionpro.com/t/PG9KAZh2hD).
 
 ## Survey responses
 
@@ -36,11 +35,13 @@ In the following sections, I'll highlight the survey responses and provide some 
 <div class="surveySummaryTitle">Survey summary</div>
 
 **Have you been laid off at some point in your tech comm career? (84 responses)**
+
 * 48% Yes
 * 49% No
 * 3% Other
 
 **What organizational model best describes the tech comm structure at the company where the layoff? (29 responses)**
+
 * 52% Centralized
 * 38% Distributed
 * 7% Decentralized
@@ -141,19 +142,6 @@ In the following sections, I'll highlight the survey responses and provide some 
 * Other (3)
 
 </div>
-<style>
-.surveySummary {
-background-color: #f8f8f8;
-border: 1px solid #dedede;
-padding: 15px;
-margin: 15px 0px;
-}
-.surveySummaryTitle {
-font-size:18px;
-font-weight: bold;
-margin: 15px 0px;
-}
-</style>
 
 ## Favorite quotes
 
@@ -185,7 +173,7 @@ I also realized that making sense of any survey data is challenging and  require
 
 ## Trending highlights
 
-Now for the higher-level extrapolation and analysis. Based on the responses, I don't think there's any clear correlation between an org model and the tech writer's sense of value/importance. Org models are probably more nuanced than the three buckets (centralized, distributed, decentralized) I described. That said, 48% of people disagreed that the org model has no impact, so the org model does have an influence, but it seems other factors are more important (e.g., appropriate allocation of projects, executive sponsorship, integration with teams, alignment with strategic priorities, specialization with products, etc).
+Now for the higher-level analysis and extrapolation. Based on the responses, I don't think there's any clear correlation between an org model and the tech writer's sense of value/importance. Org models are probably more nuanced than the three buckets I described (centralized, distributed, decentralized). That said, 48% of people disagreed that the org model has no impact, so the org model does have an influence, but it seems people felt other factors are more important (e.g., appropriate allocation of projects, executive sponsorship, integration with teams, alignment with strategic priorities, specialization with products, etc).
 
 Most writers feel that a distributed model (hybrid) is best. Sit with the engineering teams, but find a larger tech writer community within the company. Centralized tech comm teams might benefit from increased consistency and more formal writing standards, but they take a hit with visibility and rapport with engineering teams. By not being co-located with engineering teams, these centralized tech writers are less known, less visible, less integrated, less kept in the loop, less understood, etc. The resulting docs often show this. The benefits you gain from co-locating with product teams outweighs the benefits you gain from co-locating with other tech writers. And users care more about content than commas.
 
@@ -193,11 +181,11 @@ Further, if you can embed with engineering teams, you're less likely to be dilut
 
 When you become a product SME, teams are much more likely to value you. And your docs are more likely to become high-quality docs with visible customer impact. You'll be gathering more valuable information that results in a much influential result. Tech writers only have as much value as the information they provide, so the more valuable information you can gather and communicate, the more valuable you become. It's as simple as that.
 
-With higher doc quality, internal teams will see your output and esteem you with higher respect and importance. Customers will express their appreciation for the docs. Sales will use your docs in pre-sales scenarios, which will ratchet up your value. But if your only contribution to the project is to fix the language, your value will be much lower (especially if others don't even understand the style adjustments you're making).
+With higher doc quality, internal teams will see your output and esteem you with higher respect and importance. Customers will express their appreciation for the docs. Sales will use your docs in pre-sales scenarios, which will make you more valuable. But if your only contribution to the project is to fix the language, your value will be much lower (especially if others don't even understand the style adjustments you're making).
 
 One trend you especially want to avoid is the downward cycle of poor documentation and under-resourcing. If the docs lack value because they are poor, this can lead to less staffing/prioritization for the documentation team, which leads to even poorer docs. In other words, docs aren't important because they're poor, so no effort/priority is given to docs, which makes them even poorer.
 
-Given how crucial it is to go deep with a limited number of projects and to increase visibility with project teams, I'm a little perplexed why there isn't a stronger correlation with tech writer value and the distributed/decentralized model. It could be that this term was fuzzy or didn't describe the respondents' org structures, or maybe respondents didn't have that many experiences with differing structures to really draw a conclusion. Many felt that an organization's culture, leadership, and other factors outweighed the specific model.
+Given how crucial it is to go deep with a limited number of projects and to increase visibility with project teams, I'm a little perplexed why there isn't a stronger correlation with tech writer value and the distributed/hybrid model. It could be that this term was fuzzy or didn't describe the respondents' org structures, or maybe respondents didn't have that many experiences with differing structures to really draw a conclusion. Many felt that an organization's culture, leadership, and other factors outweighed the specific model.
 
 But this attitude is also encouraging, because you can't always change your organizational model. If you're stuck in a centralized system, it's not as if all is lost. You can still ratchet up your value by diving deep with the products you document, attending as many product meetings as you can, and generally inserting yourself into the product team &mdash; if you have the time.
 
@@ -205,9 +193,11 @@ In fact, given our current pandemic times, it's easy to co-locate with teams &md
 
 Further, virtually attending meetings lets you more easily tune out those meetings where the signal-to-noise ratio is low (e.g., some engineering standups where engineers prattle on about issues that seem irrelevant). Perhaps give the meeting your partial attention to avoid those situations where you feel like you're wasting your time.
 
-Attending meetings, ramping up on products, tracking down and interviewing engineers, and integrating yourself and energy into projects takes time. This is likely challenging if you have many projects. I still don't know how to reduce project loads. It's difficult to tell teams "no." (Saying no can create more work than actually creating the documentation itself, I've found.) My experimental strategy is to adjust my level of effort with the team (choosing between playing a role as an author, editor, or publisher in varying degrees based on whether the project is a strategic priority).
+Attending meetings, ramping up on products, tracking down and interviewing engineers, and integrating yourself and energy into projects takes time. This is likely challenging if you have many projects. I still don't know how to reduce project loads. It's difficult to tell teams "no." (Saying no can create more work than actually creating the documentation itself, I've found.) My experimental strategy is to adjust my level of effort with the team, choosing between playing a role as an author, editor, or publisher in varying degrees based on whether the project is a strategic priority. The problem is that if I just play a role as an editor/publisher, I want to avoid the assumption that I was also the author, especially if the content is sub-standard.
 
-There are a lot of comments about executive sponsorship being essential. While I agree, I also think that executive sponsorship is a result of other factors. If your docs have high quality, executive sponsors will likely follow. For example, suppose business development teams are able to secure important business deals through documentation. You'll have earned a champion at the senior level. I'm not sure that senior leaders harbor prejudices for or against docs regardless of the doc quality, though maybe it's true. Maybe they've built up years of experiences with docs and will see them as unimportant and of little value no matter how outstanding of a job you do. I'm inclined to think that with enough good customer feedback and internal stakeholder support, a senior champion at the C-suite level can be cultivated (eventually).
+There are a lot of survey responses about executive sponsorship being essential. While I agree, I also think that executive sponsorship is a *result* of other factors. If your docs have high quality, executive sponsorship will likely follow. For example, suppose business development teams are able to secure important business deals because the documentation looks so compelling. You'll have earned a champion at the senior level.
+
+I'm not sure that senior leaders harbor prejudices for or against docs regardless of the doc quality, though maybe it's true. Maybe they've built up years of experiences with docs and will see them as unimportant and of little value no matter how outstanding of a job you do. I'm inclined to think that with enough good customer feedback and internal stakeholder support, a senior champion at the C-suite level can be cultivated (eventually). The problem is how to communicate upwards to influence the C-suite, since they're usually in larger business conversations and not in the weeds of documentation.
 
 ## Revisiting the Takeaways
 
@@ -219,12 +209,14 @@ In the previous section, [Part VI: Conclusion, analysis, and feedback](/blog/ref
 
 How does the survey data change or influence these earlier takeaways? Previously, I was leaning towards a correlation with organization models and value. But the responses to this survey encouraged me to rethink the relevance of the org model. The distributed model seems best, but no matter how your company draws the org lines (whether centralized, distributed, or de-centralized), I think clever tech writers who follow these three principles will find success.
 
-The last bullet (cultivating sponsorship) is one that I haven't expanded much on, but it's something I've been thinking about. The great irony of my career is to be a thought influencer (sorry for the cliché) outside of work through this blog and other activities, but to be relatively invisible inside my company, especially to business leaders and others. I can connect with other tech writers, so why can't I connect with business leaders and cultivate an influence of executive sponsorship inside corporate walls? That is the next great stage of my career.
+The last bullet (cultivating sponsorship) is one that I haven't expanded much on, but it's something I've been thinking about. The great irony of my career is to be influential outside of work through this blog and other activities, but to be relatively invisible inside my company, especially to business leaders and others. I can connect with other tech writers, so why can't I connect with business leaders and cultivate an influence of executive sponsorship inside corporate walls? That is the next great stage of my career, I think.
 
-Currently, my lack of internal influence is because basically, I haven't tried. I don't write an internal blog. I don't have an internal newsletter (other than periodic email blasts listing doc updates). I don't write posts on different topics and share the results and thoughts with others. I haven't figured out how to do that, or how to overcome the awkwardness of it (there doesn't seem to be a clear path for this).
+Currently, I think my lack of more internal influence is because basically, I haven't tried. I don't write an internal blog. I don't have an internal newsletter (other than periodic email blasts listing doc updates to stakeholders). I don't write posts on different topics and share the results and thoughts with others. I haven't figured out how to do that, or how to overcome the awkwardness of it (there doesn't seem to be a clear path for this).
 
-But I'm noodling on an idea that I intend to experiment with more &mdash; a "center of excellence." This would be an internal site that is part blog, part best practices, part announcements. I also want to build up a stakeholder mailing list, and then try to post once a week in our center of excellence and share the post on the mailing list. I'm not sure how this will go or how much time it will take. I've been blogging externally for more than a dozen years. Influence, either internal or external, is a slow process.
+But I'm noodling on an idea that I intend to experiment with more &mdash; a "center of excellence," or maybe an "internal release notes blog." This would be an internal site that is part blog, part best practices, part announcements. I also want to build up a stakeholder mailing list, and then try to post once a week in our site and share the post on the mailing list. I'm not sure how this will go or how much time it will take. I've been blogging externally for more than a dozen years. Influence, either internal or external, is a slow process. And it takes time to write interesting content.
 
-Some of the survey responses give me encouragement for this direction. In response to the question, "Why do you think the company treated tech comm as important and highly valuable?" one of the respondents said that they "run learning sessions on API documentation for product mangers to help them understand what's important for great doc." This never actually occurred to me. Are product managers interested in learning best practices for documentation? Maybe.
+Even so, some of the survey responses give me encouragement for this direction. In response to the survey question, "Why do you think the company treated tech comm as important and highly valuable?" one of the respondents said that they "run learning sessions on API documentation for product mangers to help them understand what's important for great doc." Running learning sessions for PMs never actually occurred to me. Are product managers interested in learning best practices for documentation? Maybe.
 
-I think many people within a company might be interested in similar learning sessions about documentation &mdash; understanding what makes for good docs, key qualities to incorporate, and more. I can't imagine these sessions being very packed or even well-attended, but maybe eventually they can reach the right stakeholders, little by little.
+I think people in many different roles within a company might be interested in similar learning sessions about documentation &mdash; understanding what makes for good docs, key qualities to incorporate, and more. I know many people are interested in basic grammar and style, unfortunately. I can't imagine these sessions being very packed or even well-attended, but maybe eventually they can reach the right stakeholders, little by little.
+
+If you've engaged in creating an internal site like this, let me know so that I can learn from your experience.

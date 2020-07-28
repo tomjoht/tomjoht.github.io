@@ -1,7 +1,6 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part II)
+title: "Part II: Personal layoff stories and reasons"
 permalink: /blog/reflecting-seven-years-later-about-layoff-collegue-stories/
-subtitle: "Part II: Personal layoff stories and reasons"
 date: 2020-07-01 02:00:000000000 -07:00
 categories:
 - technical-writing

@@ -71,6 +71,9 @@ topnav_dropdowns:
 
   - title: Series
     items:
+      - title: Reflecting seven years later about why we were laid off
+        url: /blog/reflecting-seven-years-later-about-layoff-intro/
+
       - title: Simplifying complexity
         url: /simplifying-complexity/index.html
 

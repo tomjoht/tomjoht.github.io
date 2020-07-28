@@ -1,6 +1,5 @@
 ---
-title: Value arguments for docs and tech comm (Part IV)
-subtitle: "Part IV: Enabling information flow"
+title: "Part IV: Enabling information flow"
 categories:
 - technical-writing
 keywords: value, organizations, information flow, content experience

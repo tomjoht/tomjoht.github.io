@@ -1,6 +1,5 @@
 ---
-title: Value arguments for docs and tech comm (Part I)
-subtitle: "Part I: Introduction to the series"
+title: "Part I: Introduction to the series"
 categories:
 - technical-writing
 keywords: value, tech comm, research, redish, carliner, roles, complexity, organizational status

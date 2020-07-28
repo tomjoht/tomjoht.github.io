@@ -1,7 +1,6 @@
 ---
-title: Reflecting seven years later about why we were laid off (Part V)
+title: "Part V: On being strategic, interpersonal, and sponsored"
 permalink: /blog/reflecting-seven-years-later-about-layoff-clarke-being-strategic/
-subtitle: "Part V: On being strategic, interpersonal, and sponsored"
 date: 2020-07-01 05:00:000000000 -07:00
 categories:
 - technical-writing
