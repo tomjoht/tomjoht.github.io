@@ -25,4 +25,4 @@ Resources mentioned during the show:
 
 You can see the original post here: [WTD Episode 30: Documentation templates, with Juan Lara](https://podcast.writethedocs.org/2020/07/19/episode-30-documentation-templates/).
 
-See also the [Conceptual topics in API docs](https://idratherbewriting.com/learnapidoc/docconceptual.html) for a list of best practices about overviews, getting started tutorials, quick references, glossaries, and other common topic types more specific to API documentation.
+See also the [Conceptual topics in API docs](/learnapidoc/docconceptual.html) in my API docs course for a list of best practices about overviews, getting started tutorials, quick references, glossaries, and other common topic types more specific to API documentation.
