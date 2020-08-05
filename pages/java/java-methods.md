@@ -20,13 +20,49 @@ jtype: notes_java
 * Methods have something called a "method signature." This is simply the declaration part of a method -- for example: `int childAge(int years);`
 * Suppose your method returns a string. If so, `add return x` at the end of the method.
 * Methods are written in camel case.
- 
+
 ## Eclipse
-See the getter_and_setter2 example. 
+See the getter_and_setter2 example.
+
+Keyboard.java:
+
+```java
+package getter_and_setter;
+
+public class Keyboard {
+	private String functionKeys;
+
+	public String getFunctionKeys() {
+		return functionKeys;
+	}
+
+	public void setFunctionKeys(String functionKeys) {
+		this.functionKeys = functionKeys;
+	}
+
+}
+```
+
+App.java:
+
+```java
+package getter_and_setter;
+
+public class App {
+
+	public static void main(String[] args) {
+		Keyboard myKeyboard = new Keyboard();
+		myKeyboard.setFunctionKeys("f11, f10, f9");
+		myKeyboard.getFunctionKeys();
+	}
+
+}
+```
+
 
 ## Return types
 
-| Return types | Description | 
+| Return types | Description |
 |--------|--------|
 | **void** | returns nothing |
 | **String** | returns a string |

@@ -25,75 +25,130 @@ jtype: notes_java
 
 ## Example
 
+`Dog.java`:
+
 ```java
-public class Dog{
+package dog;
 
-String breed;
+public class Dog {
 
-int age;
-int size;
+	String breed;
 
-String color;
+	int age;
+	int size;
 
-void bark(){   }
+	String color;
 
-void hungry(){   }
+	void bark(){  
+		System.out.println("bark bark bark");
+	}
 
-void sleeping(){   }
+	void hungry(){   }
+
+	void sleeping(){   }
 
 }
 
-public static void main (String[] args) {
+`App.java`:
 
-Dog d = new Dog(); // make a new object
-d.bark(); // call the bark method on my object
-d.size = 40; // set the size for the object
+```java
+package dog;
+
+public class App {
+
+		public static void main (String[] args) {
+
+		Dog d = new Dog(); // make a new object
+		d.bark(); // call the bark method on my object
+    	d.size = 40; // set the size for the object
+	}
+
 }
+```
+
+Here's another example. In this case, everything is in one class file called Song.java. The `main` method can appear inside of a class, which is perhaps easier to follow for these short examples.
+
+`Song.java`:
+
+```java
+package song;
+
+public class Song {
+
+	void setArtist(String name) {
+		System.out.println(name);
+	}
+
+	void setTitle(String song) {
+		System.out.println(song);
+	}
+
+
+	public static void main (String[] args) {
+
+	Song t2 = new Song();
+
+	t2.setArtist("Travis");
+	t2.setTitle("Sing");
+
+	Song s3 = new Song();
+	s3.setArtist("Sex Pistols");
+	s3.setTitle("My Way");
+
+	}
+
+}
+```
+
+What it returns when you run:
+
+```
+Travis
+Sing
+Sex Pistols
+My Way
 ```
 
 Here's another example:
 
-```java
-class Song {
-
-void setArtist(String name) {
-}
-
-void setTitle(String song) {
-}
-}
-
-public static void main (String[] args) {
-
-Song t2 = new Song();
-t2.setArtist("Travis");
-t2.setTitle("Sing");
-Song s3 = new Song();
-s3.setArtist("Sex Pistols");
-s3.setTitle("My Way");
-
-}
-```
-
-Here's an example that initializes with an argument:
+`Puppy.java`:
 
 ```java
-public class Puppy
-{   public Puppy(String name)
-{      // This constructor has one parameter, name.
+package puppy;
 
-System.out.println("Passed Name is :" + name );
+public class Puppy {
+	String name;
+	int age;
+
 }
 ```
 
-```
-public static void main(String []args)
+`App.java`:
 
-{      // Following statement would create an object myPuppy
+```java
+package puppy;
 
-Puppy myPuppy = new Puppy( "tommy" );   }
+public class App {
+
+		public static void main (String[] args) {
+
+			// Following statement would create an object myPuppy
+
+			Puppy myPuppy = new Puppy();
+			myPuppy.name = "tommy";
+			myPuppy.age = 3;
+
+			System.out.println("my puppy's name is " + myPuppy.name + ", and he is " + myPuppy.age + " years old.");
+
+	}
 
 }
+```
+
+Output:
+
+```
+my puppy's name is tommy, and he is 3 years old.
 ```
 
 * * *
@@ -197,11 +252,11 @@ The variables declared inside a class are referred to generically as fields. How
 
 ## Questions to ask about a class
 
-* Is it public or private? 
-* What fields and methods does the class have? 
-* Does the class inherit another class? 
-* What does the class do? 
-* What does the class return? 
+* Is it public or private?
+* What fields and methods does the class have?
+* Does the class inherit another class?
+* What does the class do?
+* What does the class return?
 * How is the class instantiated?
 
 ## Fields

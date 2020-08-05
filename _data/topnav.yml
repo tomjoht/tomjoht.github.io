@@ -140,6 +140,15 @@ topnav_dropdowns:
       - title: From overlooked to center stage
         url: /2010/04/11/if-youre-in-atlanta-next-week-be-sure-to-check-out-currents/
 
+      - title: Java notes
+        url: https://idratherbewriting.com/java-introduction/
+
+      - title: JavaScript notes
+        url: https://idratherbewriting.com/javascript/
+
+      - title: DITA notes
+        url: https://idratherbewriting.com/ditaqrg/
+
   - title: Misc.
     items:
 
