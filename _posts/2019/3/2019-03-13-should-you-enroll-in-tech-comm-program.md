@@ -51,8 +51,6 @@ The problem is that when you finish your program and start looking for jobs, mos
 
 I say "sniff test" because it's almost impossible to evaluate writing with any depth unless you can spend a lot more time with the document than most hiring managers are willing to do (spending time to understand the documentation's context, its place within your doc portal, its audience and skill level, evaluate the accuracy, assess the terminology, and so on).
 
-{{site.data.alerts.callout_mercer}}
-
 Without more understanding about how to evaluate your writing, they'll begin to evaluate your technical skills instead. Technical skills are much easier to assess than writing skills. Hiring managers can assign a junior programmer to probe your technical knowledge. The programmer might draw a function on the board and ask you what it does. With tech knowledge, it's easy to check boxes &mdash; does the person know the various parts of a function/class/algorithm? Either they know the various components of the function, or they don't. Easy to assess.
 
 Because tech skills are easier to assess than writing skills, the hiring process will often focus more on the tech skills rather than the writing skills. Much of that knowledge about the theoretical foundations of tech comm that you learned in a tech comm program will be overlooked &mdash; not because it isn't valuable or useful or highly relevant, but because most hiring teams simply lack the awareness about how to assess writing beyond a superficial level.
@@ -102,7 +100,7 @@ There are many PhD topics that *do* look relevant to corporate needs. For exampl
 
 Overall, there's a lot of freedom under the umbrella of rhetoric, and students are free to choose their own topics and interests. Many academics don't see themselves as a ["tool of the capitalist state,"](https://idratherbewriting.com/2019/03/01/corporate-exodus-narratives-tension-between-academia-and-corporation/) and so you will find that rhetoric is a discipline that stands on its own, with a rich history of analysis that doesn't need to have anything to do with technical writing at a company.
 
-Admittedly, to some extent, the topic of inquiry doesn't really matter (whether you're analyzing coffee grounds or oil rigs or the patterns ants follow on sidewalks); what matters if how your approach the topic, because the real focus in an academic program is to deepen your analytical skills and research abilities. Even so, if you do your master's thesis or dissertation on a topic of little interest to corporations, and then you start shopping yourself around to companies, they might be completely baffled by your research. Not only do corporations already lack understanding of writing beyond the basics, they understand rhetoric even less (*we try to avoid rhetoric around here*, they might say). They will look at some of these topics and perhaps dismiss their relevance entirely.
+Admittedly, to some extent, the topic of inquiry doesn't really matter (whether you're analyzing coffee grounds or oil rigs or the patterns ants follow on sidewalks); what matters is how your approach the topic, because the real focus in an academic program is to deepen your analytical skills and research abilities. Even so, if you do your master's thesis or dissertation on a topic of little interest to corporations, and then you start shopping yourself around to companies, they might be completely baffled by your research. Not only do corporations already lack understanding of writing beyond the basics, they understand rhetoric even less (*we try to avoid rhetoric around here*, they might say). They will look at some of these topics and perhaps dismiss their relevance entirely.
 
 ## Small-time programs versus big-name programs
 
@@ -137,7 +135,7 @@ And if you have your target set on a corporate job, take care to do the followin
 If tech comm programs don't fit into your life (maybe you already have a full-time job and family obligations, or maybe the programs are too expensive), then don't worry. You can make yourself marketable by doing the same two points:
 
 * Take some technical courses online (e.g., with Lynda.com, Pluralsight, Udacity, Udemy, Coursera, etc.). Take as many as you can related to the specialization you're targeting.
-* Make your knowledge visible through a blog. Write a dozen posts that show off your curious, analytical, articulate mind in action. Focus your posts on tech comm theory (which you can learn from reading books, journal articles, and blogs on tech comm topics). This will impress hiring managers about all the writing considerations they probably never considered.
+* Make your knowledge visible through a blog. Write a dozen posts that show off your curious, analytical, articulate mind in action. Focus your posts on tech comm theory (which you can learn from reading books, journal articles, and blogs on tech comm topics). This will impress hiring managers about all the writing elements they probably never considered.
 
 ## Your reactions and input
 

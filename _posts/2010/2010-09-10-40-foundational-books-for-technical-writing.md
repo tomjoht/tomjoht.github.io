@@ -47,8 +47,6 @@ I asked my Twitter and blog friends to respond with their recommendations. Here 
 
 [On Writing Well](http://www.amazon.com/Writing-Well-25th-Anniversary-Nonfiction/dp/0060006641) by William Zinsser, a classic on non-fiction writing.
 
-{{site.data.alerts.callout_mercer}}
-
 [Elements of Style](http://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X/ref=pd_sim_b_2) by William Strunk Jr. et. al., another classic for writing.
 
 It might help to keep a few reference books on the shelf. Here are a few of my favorites: \[Quinn Warnick\]
