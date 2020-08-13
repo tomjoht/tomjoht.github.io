@@ -1,16 +1,22 @@
 ---
-title: "Upcoming webinar -- Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team"
+title: "Webinar -- Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team"
 permalink: /blog/optimizing-content-development-growing-content-without-growing-team/
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idratherbewriting.site/growcontentfastnoresources
-description: "I'm participating in an upcoming webinar called <a href='https://www.zoominsoftware.com/webinars/optimize-content-development/'>Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team</a>, with Paul Gustafson and Megan Gilhooly on August 5, 2020."
+description: "I recently participated in webinar called <a href='https://www.zoominsoftware.com/webinars/optimize-content-development/'>Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team</a>, with Paul Gustafson and Megan Gilhooly on August 5, 2020. A link to the recording is now available."
 ---
 
-## Webinar details
+{{site.data.alerts.note}} <b>August 13, 2020 update</b>: I updated this post with a link to the recording.{{site.data.alerts.end}}
 
-<a href="https://www.zoominsoftware.com/webinars/optimize-content-development/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/optimizingcontentwebinar.png" alt="Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team, with Paul Gustafson and Megan Gilhooly" /></a>
+## Webinar recording
+
+You can now view a recording of the webinar [here](https://www.zoominsoftware.com/webinars/optimize-content-development/):
+
+<a href="https://www.zoominsoftware.com/webinars/optimize-content-development/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/webinarrecordingzoominbrighttalk.png" alt="Optimizing Content Development: Grow Your Content Faster Than You Grow Your Team, with Tom Johnson, Paul Gustafson, Megan Gilhooly" /></a>
+
+## Webinar details
 
 Here's the full webinar description:
 
@@ -30,7 +36,7 @@ Attendees will learn:
 
 </div>
 
-You can [register through Zoomin here](https://www.zoominsoftware.com/webinars/optimize-content-development/). The webinar is sponsored by Zoomin software.
+The webinar was sponsored by Zoomin software and hosted through BrightTalk with Scott Abel.
 
 ## Preliminary thoughts
 
