@@ -105,6 +105,21 @@ Overall, I've only been using Wasabi for a couple of months now, but I'm happy w
 
 This explanation isn't one that I totally understand, because according to my egress utilization, my egressGB for August was 354.6, while the total storage in that same bucket was at the most about 37 GB. So admittedly, I don't understand why my egress is free (37 GB storage < 354.6 GB egress). But I'm not complaining.
 
+To avoid misinformation, though, I reached out to Wasabi to ask why my egress was free if my egress utilization is 354.6 GB while the storage is about 37 GB (not a 1:1 ratio). They said,
+
+> Free egress is a good use case for us when the model is 1:1 ratio of storage to monthly download amount. If your storage use case exceeds the guidelines of our free egress policy on a regular basis, we reserve the right to limit or suspend your account.
+[Wasabi Pricing FAQs](https://wasabi-support.zendesk.com/hc/en-us/articles/360027020311-Wasabi-Pricing-FAQs?source=search)
+>
+> Many of our customers use CDN's if they intend to share objects and will exceed their storage volume otherwise.
+> That's also better for their customers. Please see the details in these two KB articles:
+[Can I use Wasabi to host my videos?](https://wasabi-support.zendesk.com/hc/en-us/articles/360000451052-Can-I-use-Wasabi-to-host-my-videos-?source=search)
+
+So basically, at some future point in time, they could limit or suspend my account. The [Can I use Wasabi to host my videos?](https://wasabi-support.zendesk.com/hc/en-us/articles/360000451052-Can-I-use-Wasabi-to-host-my-videos-?source=search) page explains,
+
+>  The business model with public cloud object storage is that egress traffic (i.e. downloads) from the storage service to the player location is generally chargeable on a per-GB basis*. The price is generally less than $.10 per GB but if you are doing many downloads and the files are large, this can result in some meaningful egress fee charges.  
+
+If my egress utilization is $.10 per GB and my monthly utilization is 354.6 GB, then the cost should be around $35 &mdash; in that case, AWS S3 and Wasabi would be about the same. But until that free egress period expires, I guess I'll stick with Wasabi.
+
 ## Conclusion
 
-So far, combining [Wasabi](https://wasabi.com/) ($6/month) with [GitHub Pages](https://pages.github.com/) (free) seems like an inexpensive way to host a large website (which includes many image and audio files). Additionally, I get the benefits of the CLI-based media upload. I almost never visit the Wasabi GUI to look at my files, and it's probably safer that way.
+For now, combining [Wasabi](https://wasabi.com/) ($6/month) with [GitHub Pages](https://pages.github.com/) (free) seems like an inexpensive way to host a website (which includes many image and audio files). Additionally, I get the benefits of the CLI-based media upload. I almost never visit the Wasabi GUI to look at my files, and it's probably safer that way. But knowing that my egress usage doesn't fall into the free tier makes me suspicious about long-term viability of Wasabi as an inexpensive replacement.
