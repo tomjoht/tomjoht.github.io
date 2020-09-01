@@ -1,0 +1,110 @@
+---
+title: "Inexpensive media hosting and CLI uploading with Wasabi"
+permalink: /blog/inexpensive-media-hosting-and-cli-uploading-with-wasabi/
+categories:
+- writing
+keywords:
+rebrandly: https://idbwrtng.com/
+description: "If you're looking for an inexpensive way to host a lot of media, check out Wasabi. Combined with GitHub Pages, this can be an inexpensive way to host a website."
+---
+
+## The challenge of media hosting
+
+About six years ago I switched off Bluehost and WordPress over to Jekyll and GitHub Pages. I quickly learned that hosting many image and audio files in a GitHub repository doesn't work, so I continued to host my media on Bluehost for a couple of years. Eventually, I hit Bluehost's max size limit with shared hosting (mainly due to audio files with podcasts), so I decided to shift all media over to what I thought would be the less expensive and more logical hosting source: [Amazon S3](https://aws.amazon.com/free/storage/s3/).
+
+I shifted all my media over to an S3 bucket, then hooked up the bucket to [CloudFront](https://aws.amazon.com/cloudfront/) for a content distributed network (CDN) and also to [Route 53](https://aws.amazon.com/route53/) with a custom domain. I set the expiring cache on the S3 assets for a lengthy amount of time. I thought this was the way to go, and I especially liked uploading via the command line with the [AWS CLI](https://aws.amazon.com/cli/). But I soon discovered that the bandwidth costs for the web traffic on the media turned out to be way more than I anticipated. Just storing 26 GB of data on S3 doesn't cost much at all (maybe $2/month). But if the files are served up through web requests from a website, look out &mdash; it's a whole different cost tier. My bill was regularly about $30-35 a month.
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/awss3bill.png" alt="Sample AWS bill" />
+
+I stayed on AWS S3 for about 6 months because moving around 26 GB of media files is not easy, and I didn't have a better solution. (I didn't want to revert to Bluehost, for example.) I told myself that uploading images via the command line was saving me time, etc, and I wanted to become more familiar with the AWS ecosystem, but I knew that $30+/month for media hosting for a blog was not a long-term solution I wanted.
+
+## Trying out Wasabi and the concept of egress
+
+I remember hearing about another cloud storage provider called [Wasabi](https://wasabi.com/) (from the [This Week in Tech Podcast (TWIT)](https://twit.tv/) by Leo Laporte). Wasabi emphasizes how they don't charge for "egress," which refer to web requests to serve up the stored files. Wasabi explains,
+
+> Most leading cloud providers allow their customers to input data into the cloud for free. However, when that data is retrieved from the cloud, these providers will then charge large fees; this is what’s known as a data egress....
+>
+> Egress charges have long been one of the biggest inhibitors to companies wanting to move their data into (and out of) the cloud, and that’s because these charges make it virtually impossible to predict how much money will actually be spent to effectively manage data.
+>
+> While all the other leading object storage vendors still charge their customers to retrieve data from storage, Wasabi has made it a point to eliminate all egress fees. By getting rid of all these and other hidden charges that are all-too-commonly associated with cloud storage, we’re helping to increase transparency for our customers, while eliminating unpredictable, frustrating, and complex access expenses. ([What Are Egress Charges?](https://wasabi.com/help/glossary-of-terms/egress-charges-definition/))
+
+In other words, it's easy to get files in, but costly to get files out (e.g., load with a web page request). I decided to give Wasabi a try.
+
+*By the way, this post isn't sponsored or in any way influenced by any compensation from Wasabi. I have no affiliation with Wasabi whatsoever.*
+
+Interestingly enough, Wasabi uses the AWS CLI tools, so you use the same AWS CLI parameters to upload media to Wasabi as with S3. Also, Wasabi seems to be highly similar to the S3 bucket model with AWS, except that you also have an "[immutability](https://wasabi.com/blog/data-immutability-done-right/)" option, which means you can make it so that you can't accidentally delete all your files.
+
+At first, I didn't activate immutability, and then like an idiot I was browsing my uploaded files via the Wasabi GUI and I accidentally deleted all my files. (I thought I was selecting all files on one page of results, but it turns out the All box selected all files on all pages of results.) Anyway, as I had only recently downloaded my files from AWS S3, I had a handy backup. After another solid night of uploading 26 GB files (btw, uploading via the command line is much faster than uploading via other methods, especially versus the GUI), all files were back online. I then set my folders to immutable, which means if I want to overwrite a file, I can't. I just upload the same file with a new name.
+
+Now to the big question. Is Wasabi cheaper? Totally. My bill is about $6/month. Here's a recent bill:
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wasabisamplebill.png" alt="Sample Wasabi bill" />
+
+It literally is about 80% cheaper than AWS S3 storage, which aligns with Wasabi's promises.
+
+## Limitations with Wasabi
+
+Note that Wasabi doesn't offer the multitude of other cloud services like AWS. Wasabi just offers the file storage with S3-like functionality, nothing more. You can't even map a custom domain to the bucket (as with Route 53), so my media URLs look like this: `https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/`. Also, all images are served from the us-west-1 location that I chose (I don't believe edge caching for higher-tier performance, as with AWS, is even available).
+
+The loading time, if longer, isn't noticeable to me (after all, it's just a blog, so it's not a huge deal even if it's slightly slower). Additionally, the Wasabi GUI seems less stable and more amateur. (Sometimes I see text that says "Redirect token" when I hit a back button, for example.) Their help docs aren't great either (see this [example](https://wasabi-support.zendesk.com/hc/en-us/articles/115001910791-How-do-I-use-AWS-CLI-with-Wasabi-)).
+
+However, given that I just need inexpensive file hosting, Wasabi is working out well for me (so far anyway).
+
+## Uploading media through a CLI
+
+Best of all, I can still use the command line to upload files. In my Jekyll projects (my blog and API doc site use Jekyll), I created an `upload.sh` file that contains this:
+
+```sh
+aws s3 cp ~/projects/idratherbewriting/images/$1 s3://idbwmedia.com/images/ --profile wasabi
+
+echo '<a href=""><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/'$1
+echo '" alt="" /></a>'
+```
+
+Notice the aws s3 CLI (`aws s3`). This `cp` command copies the file from `~/projects/idratherbewriting/images/$1` (where I store images locally) to my Wasabi bucket in the cloud: `s3://idbwmedia.com/images/`. The `--profile wasabi` uses my Wasabi profile's credentials rather than my other AWS credentials.
+
+The `$1` accepts a parameter from the command line. When I type `. upload.sh somefile.png`, the `somefile.png` gets inserted into the `$1` variable.
+
+Because I'm usually just uploading files to embed as images in a post, I use the `echo` return to print the HTML image tag back to me, with the filename inserted here at the `$1` position as well.
+
+For some reason I had trouble installing Wasabi's required version of Python on my Macbook (I ran into conflicts with my Mac's system Python), so I ended up putting the Wasabi CLI into a [Python virtual environment](https://docs.python.org/3/library/venv.html). My real script looks like this:
+
+```sh
+myvenv
+aws s3 cp ~/projects/idratherbewriting/images/$1 s3://idbwmedia.com/images/ --profile wasabi
+
+echo '<a href=""><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/'$1
+echo '" alt="" /></a>'
+deactivate
+```
+
+`myvenv` is an alias in my `.bash_profile` that just activates the Python virtual environment:
+
+```sh
+alias myvenv='source /Users/tomjoht/myvenv/bin/activate'
+```
+
+The script then runs `deactivate` when finished. (Really, this virtual environment is probably not a necessary hack but something I included due to conflicts I encountered.) Here's a sample demo of uploading an image via the command line:
+
+<iframe width="640" height="385" src="https://www.youtube.com/embed/0umiySDHwfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The result:
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sample_image_cli_upload.png" alt="Sample image upload" />
+
+One interesting thing I've noticed, as I examine costs for file hosting, is that the most expensive images on my site are the ad images in my sidebar. Those images get served with each page load. A heavy file there translates into a larger financial impact with hosting (which was much more noticeable with AWS). At some point while on AWS S3, I considered enforcing a smaller file size with advertisers. Now with Wasabi, it doesn't much matter. At any rate, if you do have images that are part of your site's layout (e.g., subscribe buttons or banner images) and which load with each page load, make sure they are highly optimized.
+
+## Understanding pricing tiers
+
+Overall, I've only been using Wasabi for a couple of months now, but I'm happy with the service and plan to stay. I feel like it's the least expensive hosting option for large amounts of media. There are different price tiers, though, and it's complicated trying to figure out just how much media hosting will cost. At some point my costs might change, as there is a bandwidth threshold where egress is no longer free (but I guess I haven't reached it yet). Wasabi explains:
+
+> * If your monthly downloads (egress) are less than or equal to your active storage volume, then your storage use case is a good fit for Wasabi’s free egress policy.
+> * If your monthly downloads (egress) are greater than your active storage volume, then your storage use case is not a good fit for Wasabi’s free egress policy.
+>
+> For example, if you store 100 TB with Wasabi and download 100 TB or less within a monthly billing cycle, then your storage use case is a good fit for our free egress policy. If your monthly downloads exceed 100 TB, then your use case is not a good fit. ([Pricing FAQs](https://wasabi.com/cloud-storage-pricing/pricing-faqs/))
+
+This explanation isn't one that I totally understand, because according to my egress utilization, my egressGB for August was 354.6, while the total storage in that same bucket was at the most about 37 GB. So admittedly, I don't understand why my egress is free (37 GB storage < 354.6 GB egress). But I'm not complaining.
+
+## Conclusion
+
+So far, combining [Wasabi](https://wasabi.com/) ($6/month) with [GitHub Pages](https://pages.github.com/) (free) seems like an inexpensive way to host a large website (which includes many image and audio files). Additionally, I get the benefits of the CLI-based media upload. I almost never visit the Wasabi GUI to look at my files, and it's probably safer that way.
