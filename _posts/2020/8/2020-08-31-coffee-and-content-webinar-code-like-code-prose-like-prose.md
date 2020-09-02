@@ -26,7 +26,7 @@ Here's the Coffee and Content webinar description:
 
 ## Background
 
-This topic came about after I wrote a post called [Treat code like code and prose like prose](/blog/treat-code-like-code-and-prose-like-prose/#prose-like-prose). I think this post falsely gave the impression that I was somehow abandoning the docs-as-code workflow, when in fact I was just pushing back on code review tools as a primary form of doc review given that code review tools cater almost exclusively to engineers. My point was that a good review process is more inclusive of other roles (such as PMs and field engineers). A code review for doc changes might still be appropriate to target engineer reviewers, or as part of a formal release process.
+This topic came about after I wrote a post called [Treat code like code and prose like prose](/blog/treat-code-like-code-and-prose-like-prose/). I think this post falsely gave the impression that I was somehow abandoning the docs-as-code workflow, when in fact I was just pushing back on code review tools as a primary form of doc review given that code review tools cater almost exclusively to engineers. My point was that a good review process is more inclusive of other roles (such as PMs and field engineers). A code review for doc changes might still be appropriate to target engineer reviewers, or as part of a formal release process.
 
 ## Discussion topics
 
