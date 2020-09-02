@@ -4,7 +4,7 @@ permalink: /blog/coffee-and-content-webinar-code-like-code-prose-like-prose/
 categories:
 - api-doc
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/coffeeandcontentwebinarcode
 description: "I'm participating in an upcoming Coffee and Content webinar called <a href='https://www.brighttalk.com/webcast/9273/425657'>Treat Code Like Code; Treat Prose Like Prose</a> on September 24, 2020, with Scott Abel and Patrick Bosek."
 ---
 

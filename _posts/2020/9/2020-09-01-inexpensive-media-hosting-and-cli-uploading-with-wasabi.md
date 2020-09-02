@@ -4,7 +4,7 @@ permalink: /blog/inexpensive-media-hosting-and-cli-uploading-with-wasabi/
 categories:
 - writing
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/wasabimediahosting
 description: "If you're looking for an inexpensive way to host a lot of media, check out Wasabi. Combined with GitHub Pages, this <i>might</i> be an inexpensive way to host a website."
 ---
 
