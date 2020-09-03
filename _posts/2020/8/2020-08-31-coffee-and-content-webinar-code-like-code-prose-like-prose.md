@@ -10,6 +10,8 @@ description: "I'm participating in an upcoming Coffee and Content webinar called
 
 ## Coffee and Content webinar details
 
+<a href="https://www.brighttalk.com/webcast/9273/425657"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/coffeewebinarscottpatrickcode.jpeg" alt="Upcoming Coffee and Content webinar: Treat Code Like Code; Treat Prose Like Prose" /></a>
+
 Here's the Coffee and Content webinar description:
 
 > **Treat Code Like Code; Treat Prose Like Prose**
