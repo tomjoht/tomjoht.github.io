@@ -6,7 +6,6 @@ categories:
 keywords:
 course: "User-Centered Documentation"
 jtype: notes_user_centered_doc_principles
-
 ---
 
 > The entry point to your system should orient users and allow them to easily get started. Avoid barriers that block, confuse, or otherwise hinder the user's progress to a goal.

@@ -6,7 +6,6 @@ categories:
 keywords:
 course: "User-Centered Documentation"
 jtype: notes_user_centered_doc_principles
-
 ---
 
 Here are the principles covered in the course.
