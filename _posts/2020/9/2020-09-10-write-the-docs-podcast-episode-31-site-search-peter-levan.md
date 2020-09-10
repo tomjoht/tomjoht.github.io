@@ -11,4 +11,4 @@ description: "So many documentation websites rely on search as part of their inf
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VP0JH6n82ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can view the original post on the Write the Docs Podcast site here: [https://podcast.writethedocs.org/2020/09/10/episode-31-site-search/].
+You can view the original post on the Write the Docs Podcast site here: [WTD Episode 31: Strategies for site search, with Peter Levan](https://podcast.writethedocs.org/2020/09/10/episode-31-site-search/).
