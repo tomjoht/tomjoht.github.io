@@ -127,8 +127,8 @@ A later follow-up from support makes it more clear that I'm violating the free e
 
 If they revoke the free egress on my account and start charging $.10 per GB for egress, and my monthly utilization is 354.6 GB, then I think the cost would be around $35 &mdash; in that case, AWS S3 and Wasabi would be about the same. Actually, AWS would be less expensive.
 
+However, if you think about it, Wasabi's 1:1 ratio about active storage volume to egress doesn't make much sense. If I'm violating the ratio by having 354 GB of egress for only 37 GB of storage, then I just need to upload some large files into my account to balance it out. The pricing tier allows me to store up to 1 TB of data for $5.99/month. Uploading a bunch of dummy files like this seems ridiculous and a waste of time for both me and Wasabi.
+
 ## Conclusion
 
 If you don't have a high amount of site traffic, combining [Wasabi](https://wasabi.com/) ($6/month) with [GitHub Pages](https://pages.github.com/) (free) could be an inexpensive way to host a website. Additionally, you get the benefits of the CLI-based media upload.
-
-However, it looks like Wasabi, while initially promising, will eventually be something I have to migrate away from. My next host will likely be a CDN that is more specialized for high-traffic websites.
