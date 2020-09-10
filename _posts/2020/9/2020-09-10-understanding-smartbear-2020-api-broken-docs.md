@@ -1,5 +1,5 @@
 ---
-title: "SmartBear's 2020 API report finds 'Accurate and Detailed Docs' to be second-most important characteristic of APIs"
+title: "SmartBear's 2020 API report finds 'Accurate and detailed documentation' to be second-most important characteristic of APIs"
 permalink: /blog/smartBear-2020-state-of-api-docs-review/
 categories:
 - api-doc
