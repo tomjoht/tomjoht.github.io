@@ -36,7 +36,7 @@ Perhaps many API consumers take these characteristics for granted, assuming that
 
 > According to 64% of the survey participants, *Limited time* is the biggest obstacle to providing up-to-date API documentation. Following that, 47% of the organizations surveyed deal with API Documentation that is now out of sync with the API implementation. Lastly, for 29% of respondents, they could deal with the problem of outdated API documentation if they had more personnel.
 
-Admittedly, if we're expecting engineers to write docs while simultaneously writing code, it's no wonder they lack the time. It's no surprise that why when they do write docs, they do it in haste and without the care and meticulousness the activity requires (trying to cram in the docs alongside other extensive coding tickets).
+Admittedly, if we're expecting engineers to write docs while simultaneously writing code, it's no wonder they lack the time, or that they do it in haste and without the care and meticulousness the activity requires (trying to cram in the docs alongside other extensive coding tickets).
 
 In some places, the SmartBear report seems to suggest that generating docs from an OpenAPI spec is the main request/process around docs, and that most engineering teams can handle this documentation task without technical writers. They only mention technical writers as a fallback to engineers who can't auto-generate API docs from the spec:
 
