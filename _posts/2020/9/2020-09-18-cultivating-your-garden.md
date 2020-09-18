@@ -1,10 +1,10 @@
 ---
-title: On cultivating a garden while the world is crumbling around you
+title: "On cultivating a garden while the world is crumbling around you"
 permalink: /blog/cultivating-your-garden-world-crumbling/
 categories:
 - writing
 keywords:
-rebrandly: https://idbwrtng.com/cultivategarden
+rebrandly: https://idbwrtng.com/cultivategardenchaos
 description: "Last Monday was one of my lowest days of the pandemic. The wildfires burning up and down the west coast had made our air toxic, so I'd been indoors for the past four days. We'd already been at home all day because of the pandemic, but at least we could go for hikes and bike rides and walks. Now we just had the surrounding walls of our home."
 ---
 
