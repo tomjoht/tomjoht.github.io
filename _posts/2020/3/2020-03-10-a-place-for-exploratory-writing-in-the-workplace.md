@@ -28,7 +28,7 @@ In [Jeff Bezos: This is the ‘smartest thing we ever did’ at Amazon](https://
 >
 > To replace the PowerPoint presentations, Bezos created a new way to hold meetings: Meetings start with each attendee sitting and silently reading a "six-page, narratively-structured memo" for about the first 30 minutes of the meeting.
 >
-> "[The memo is] supposed to create the context for what will then be a good discussion," Bezos said.)
+> "[The memo is] supposed to create the context for what will then be a good discussion," Bezos said.
 
 Is this type of business writing exploratory writing? It certainly could be. At the heart of many of these business documents is a decision to be made. Should we go in a certain direction? Should a specific approach be implemented? Why? That pivot to the *why* defines the heart of exploratory writing.
 
