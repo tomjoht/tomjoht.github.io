@@ -19,6 +19,8 @@ description: "Arnaud Lauret, also known as the API Handyman, recently published 
 
 <figure style="float: right; padding-left: 15px"><a href="https://www.manning.com/books/the-design-of-web-apis"><img style="max-width: 200px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/design-of-web-apis.png" /><figcaption><i>The Design of Web APIs</i>, by Arnaud Lauret</figcaption></a></figure>
 
+{{site.data.alerts.tip}} See also this topic in my API course: [API design and usability](/learnapidoc/evaluating-api-design.html). In this topic, I expand on many of the principles Arnaud discusses in his book. {{site.data.alerts.end}}
+
 ## Podcast topics
 
 Here are some of the API design/usability topics we chat about in the podcast:
