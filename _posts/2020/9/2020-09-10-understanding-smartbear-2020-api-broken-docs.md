@@ -101,7 +101,7 @@ A more formalized recognition of documentation and a more integral role in Scrum
 
 To illustrate, what developer shop would feel comfortable implementing a software development process that doesn't involve QA? But for writers, who QAs the documentation? Devs (the same ones who create the product and who are overworked as is with too many development tasks) are often the QA. To better understand why devs might not have the bandwidth to review docs, see this video: [Why Do So Many Programmers Lose Hope?](https://www.youtube.com/watch?v=NdA6aQR-s4U).
 
-Developers would rarely would push code straight to production without getting approval from the QA team. Granted, some developers fill hybrid-QA roles, so it's not this black and white. But there's a strong tradition of QA acting as quality control for devs, but no tradition of any role acting as a stringent quality control mechanism for writers.
+Developers would rarely push code straight to production without getting approval from the QA team. Granted, some developers fill hybrid-QA roles, so it's not this black and white. But there's a strong tradition of QA acting as quality control for devs, but no tradition of any role acting as a stringent quality control mechanism for writers.
 
 Note that when I say "mechanism," I'm referring to some more integral checkpoint built into a process &mdash; something that writers can't easily bypass and ignore when it's inconvenient to follow it. In the next section, I'll review some common practices writers follow for documentation quality.
 
