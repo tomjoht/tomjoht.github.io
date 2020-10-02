@@ -1,16 +1,20 @@
 ---
-title: "Upcoming Coffee and Content webinar: Treat Code Like Code; Treat Prose Like Prose"
+title: "Coffee and Content webinar recording: Treat Code Like Code; Treat Prose Like Prose"
 permalink: /blog/coffee-and-content-webinar-code-like-code-prose-like-prose/
 categories:
 - api-doc
 keywords:
 rebrandly: https://idbwrtng.com/coffeeandcontentwebinarcode
-description: "I'm participating in an upcoming Coffee and Content webinar called <a href='https://www.brighttalk.com/webcast/9273/425657'>Treat Code Like Code; Treat Prose Like Prose</a> on September 24, 2020, with Scott Abel and Patrick Bosek."
+description: "I recently participated in an upcoming Coffee and Content webinar called <a href='https://www.brighttalk.com/webcast/9273/425657'>Treat Code Like Code; Treat Prose Like Prose</a> on September 24, 2020, with Scott Abel and Casey Jordan. A recording of the video is now available."
 ---
 
-## Coffee and Content webinar details
+## Video recording now available
 
-<a href="https://www.brighttalk.com/webcast/9273/425657"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/coffeewebinarscottpatrickcode.jpeg" alt="Upcoming Coffee and Content webinar: Treat Code Like Code; Treat Prose Like Prose" /></a>
+{{site.data.alerts.tip}} <i>October 2, 2020 update:</i> The video recording is now available on <a href='https://www.brighttalk.com/webcast/9273/425657'>BrightTALK</a>. The recording is about 40 minutes and features Scott Abel (left), Casey Jordan (right), and me (bottom). {{site.data.alerts.end}}
+
+<a href="https://www.brighttalk.com/webcast/9273/425657"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/brighttalkcodelikecodeprosewebinarscreenshot.png" alt="Coffee and content webinar: Treat code like code; treat prose like prose" /></a>
+
+## Coffee and Content webinar details
 
 Here's the Coffee and Content webinar description:
 
@@ -25,6 +29,8 @@ Here's the Coffee and Content webinar description:
 **Channel:** BrightTALK <br/>
 **Cost:** Free <br/>
 **Registration:** You can [register here](https://www.brighttalk.com/webcast/9273/425657).
+
+<a href="https://www.brighttalk.com/webcast/9273/425657"><img style="border: 1px solid #dedede;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/coffeewebinarscottpatrickcode.jpeg" alt="Upcoming Coffee and Content webinar: Treat Code Like Code; Treat Prose Like Prose" /></a>
 
 ## Background
 
