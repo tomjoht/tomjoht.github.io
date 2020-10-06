@@ -11,15 +11,53 @@ description: ""
 
 This past week I have been thinking about whether to move out of California. I live near Sunnyvale (south of San Francisco about 30 miles) and have been here about 7 years. Before California, I lived in Utah for about 5 years, and before that, Florida for about the same. Before that, Cairo, and before that, New York, and before that, Washington State (where I grew up).
 
-Nearly every relocation has been related to work or school. While moving out of California after living here for this many years fits my own migration pattern, I also think there's evidence of a larger trend away from urban centers that is being driven by the pandemic. But I'm not sure, and I want to think through some ideas in this post. Ultimately, my question is this: Does it make sense to stay closely connected to an urban hub (whether California or some other), or have world events (not just the pandemic WFH, but climate change and other factors) prompted us to a more virtual model? When the pandemic is over, will we all go back to work, or are we actually never going back to work?
+Nearly every relocation has been related to work or school. While moving out of California after living here for this many years fits my own migration pattern, I also think there's evidence of a larger trend away from urban centers that is being driven by the pandemic. But I'm not sure, and I want to think through some ideas in this post. Ultimately, my question is this: Does Silicon Valley or some other), or have world events (not just the pandemic WFH, but climate change and other factors) prompted us to a more virtual model? When the pandemic is over, will we all go back to work, or are we actually never going back to work? The answer to that question -- what happens when the pandemic ends -- is driving a ton of thought about where people live.
 
-I remember back in March when I first received the WFH order. I remember clearing out my desk, packing up my computer and other belongings, leaving a mostly empty office. I had a weird feeling that maybe this wouldn't be temporary. Maybe I was looking at this office space for the last time. Six months later, I think the premonition was true.
+I remember back in March when I first received the WFH order. I remember clearing out my desk, packing up my computer and other belongings, leaving a mostly empty office. I had a weird feeling that maybe this wouldn't be temporary. Maybe I was looking at this office space for the last time. Six months later, that premonition still rings somewhat true. But is it? When the pandemic ends, will I return to the empty desk and set up my things once again?
 
-As the last six months has proven, tech companies can thrive in a WFH environment. The tech industry itself blossoms in this arrangement. Put aside tech employees, society in general purchases a lot more electronics (computers, web cams, routers, etc.) to set up functional offices and schools from home. The working environment becomes one in which your computer is a terminal to the world. You shut off the world outside (due to bad air or fears of corona), fire up your Internet browser, and you're plugged in and immersed. It's just like Ready Player One. Your electronics are your lifeline, sad to say.
+To answer this question, I'll explore it from several angles.
 
-I wouldn't have guessed that work-life balance (WLB) would be the thing I struggle with most. It's not just about setting boundaries between work and personal time, figuring out when to exit the virtual office and interact with the family. It's that without other events (soccer games, playing basketball at that park, festivals, trips to the beach), there's a lack of things going on. It feels like being on house arrest. As such, I naturally gravitate to work projects and end up working on them at irregular schedules. The last three weekends I worked off and on finishing a project that was "due" at a certain date. (Surprise, nothing happened on the release date.) But strangely, I almost didn't mind -- it gave me something to do. If I'm going to make it in this WFH model, I need to break out of this cycle where work and personal life blur together in nauseating ways.
+## Purchase of electronics and tech equipment/services
+
+The first question is whether it makes economic sense for companies to encourage work from home scenarios. The last six months have proven that tech companies can thrive in a WFH environment. The tech industry itself blossoms in this arrangement. First off, people in general purchase a lot more electronics (computers, web cams, routers, etc.) to set up functional offices and schools from home. The working environment becomes one in which your computer is a terminal to the world. Most everyone in the family now has his or her own computer and other equipment. Not all sales of tech are up due to home office equipment purchases, though, so this is likely a small segment that benefits companies like Best Buy.
+
+## Reduction of office space costs
+
+Companies could reduce the expense of maintaining elaborate offices and campuses for employees. I don't know how much office space costs companies, or cafeterias and parking garages, but it's a percentage of the cost associated with each employee. If companies could remove this office expense, wouldn't they welcome it? Currently, companies still have giant offices that they are maintaining, but eventually, they could potentially reduce the amount of space they need.
+
+Some companies have floated the idea of "hot desks," where they aren't dedicated to the same employees but are used by the employees in the office at that time. In that model, you could have a smaller campus that is shared by employees who come into work at different times.
+
+But generally speaking, if you don't need office space for your employees, this should reduce some expenses. Everyone seems to be supplying their own home office instead.
+
+## Productivity
+
+Work hasn't slowed down with the pandemic. If anything, it has increased, in part because no one is taking vacations, and the general pace of projects seems to continue either as usual or at an increased pace. However, it's unclear whether productivity is boosted due to the pandemic rather than working from home conditions. During the pandemic, there's not a lot else going on, so many people naturally gravitate to work for meaning.
+
+Working from home, I wouldn't have guessed that work-life balance would be the thing I struggle with most. It's not just about setting boundaries between work and personal time, or figuring out when to exit the virtual office and interact with the family. It's that without other events (soccer games, playing basketball at that park, community events, trips to the beach), there's a lack of things going on. As such, I naturally gravitate to work projects and end up working on them at irregular schedules. The last three weekends I worked off and on finishing a project that that had an aggressive due date. But strangely, I almost didn't mind -- it gave me something to do. Going forward, I plan to break out of this cycle where work and personal life blur together.
+
+During non-pandemic times, where you do actually have events going on, who's to say that productivity would be the same? If I could go to a gym during the day, drive to the beach, browse a museum, etc., I might not be focusing so much time on work projects. However, I wouldn't have the time sink of a commute. Then again, the commute is what helps me mentally separate work versus personal life.
+
+## Salary reductions
+
+Another economic motivator might be that companies can pay employees located in lower-cost of living areas a smaller salary. For example, you could pay your employee based in Wyoming a smaller salary than your employee based in New York City. The argument about salary reductions becomes somewhat unjustified, though, if both the New York City employee and Wyoming employee are both virtual, doing the same work. If the New York City employee was going into an office every day, while the Wyoming employee did not, that might be an argument. But a model where everyone is virtual but paid by cost-of-living doesn't make much sense.
+
+## Talent recruitment
+
+Probably the biggest advantage is talent recruitment. If you're not limited to the vicinity around your company, presumably you could hire across the globe to find the talent you need. In the hiring processes I've participated in, many well-qualified candidates were interested in positions but unable or unwilling to relocate. In some ways, settling for the talent available in the same general zip code
+
+
+what about entirely virtual companies? Automattic
+
+
+Overall, are companies economically motivated to embrace a WFH model due to profit incentives? The cost savings is probably not significant enough influence any work paradigm shifts here.
+
+## Climate change
+
+
+
 
 Part of the feeling of being trapped at home is due to the poor AQI, which fluctuates based on whether there's a nearby fire or not. When I came to California seven years ago, I arrived at the beginning of a severe two year drought. The drought conditions gave rise to other environmental issues, like beetles devouring forests, which then made fire conditions more prone, and then the dry lightening storms lit the state on fire.
+
 
 But it's not just California. Climate change is prompting people to move away from affected areas. In [How Climate Migration Will Reshape America](https://www.nytimes.com/interactive/2020/09/15/magazine/climate-crisis-migration-america.html), Abrham Lustgarten explores how climate change is influencing a massive migration and change across the country. Abrham writes:
 

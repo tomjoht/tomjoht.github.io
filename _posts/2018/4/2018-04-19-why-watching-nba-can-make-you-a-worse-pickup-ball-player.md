@@ -43,7 +43,7 @@ When this rover defender comes out of nowhere to provide an additional defense, 
 
 If teams play the Rockets, this rover-strategy is the only strategy for guarding James Harden or Chris Paul, because no one can guard these players by themselves. However, the Rockets have been successful because they stack their team with ace three-point shooters (who also spread out on the floor) so that if a rover-like defender comes off his player to double-team Harden or Paul, it leaves open either a deadly shooter (Eric Gordon, Ryan Anderson, P.J. Tucker, or Trevor Ariza), or they lob it to Clint Capella for the dunk.
 
-This is also why the Cavaliers probably won't make it past the second round in the playoffs. As brilliant as Labron James is, no one can have continued success drive after drive when he or she is double-teamed. This is why Labron has as many assists as he does. Even though Labron is also unguardable (similar to Harden of Paul), when Labron looks for the open player to pass the ball to, these other open players don't have the same three-point shooting prowess as the Rockets do (although, when Kevin Love and J.R. Smith are on target, the Cavs become much better).
+This is also why the Cavaliers probably won't make it past the second round in the playoffs. As brilliant as Lebron James is, no one can have continued success drive after drive when he or she is double-teamed. This is why Lebron has as many assists as he does. Even though Lebron is also unguardable (similar to Harden of Paul), when Lebron looks for the open player to pass the ball to, these other open players don't have the same three-point shooting prowess as the Rockets do (although, when Kevin Love and J.R. Smith are on target, the Cavs become much better).
 
 In pickup ball, players don't have this basketball IQ. If, as a rover, you rotate onto someone who is driving, the offense rarely exploits the open player. Remember, this open player is usually a less experienced player, and he or she doesn't have the basketball IQ to do anything to exploit the lack of defense. The person with the ball can't lob it up to this open player for an easy dunk or lay-in, for example. Nor can this open player move to a three point spot on the other side of the floor and wait for a pass because this player is usually a terrible shooter. As a result, the double-teamed player with the ball usually gets frustrated because he or she sees the extra defense but can't exploit the open player.
 
@@ -66,6 +66,6 @@ This strategy could extend to lots of non-sports situations as well. In my daily
 * [Following the NBA Can Make You a Better Technical Writer](https://idratherbewriting.com/2009/05/26/following-the-nba-can-make-you-a-better-technical-writer/)
 
 
-Also, check out this video explaining Labron's flaw. It's related to the topics I've touched upon here.
+Also, check out this video explaining Lebron's flaw. It's related to the topics I've touched upon here.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/uU3PnJLAFIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
