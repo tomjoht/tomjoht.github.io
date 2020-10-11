@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/cultivategardenchaos
 description: "Last Monday was one of my lowest days of the pandemic. The wildfires burning up and down the west coast had made our air toxic, so I'd been indoors for the past four days. We'd already been at home all day because of the pandemic, but at least we could go for hikes and bike rides and walks. Now we just had the surrounding walls of our home."
+jtype: notes_pandemic
 ---
 
 And news feeds. All the news seems to only fuel the sense that the world was sliding downhill &mdash; the pandemic, police brutality (do not scan the [publicfreakout subreddit](https://www.reddit.com/r/PublicFreakout/) on a daily basis), polarization of our society, the general unrest and daily protests, the political maelstrom (which will only get worse as the election nears), climate change (from fires to hurricanes on a weekly basis), toxic air (soccer practice canceled again!), coronavirus cases never ending, vaccines always so far off, kids at home all day, political scandal after scandal, and so on.

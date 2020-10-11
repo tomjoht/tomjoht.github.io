@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/pandemicsurveyresults
 description: "The results of the Pandemic survey are <a href='https://www.questionpro.com/t/PGzGMZhSHg'>available here</a>. The survey is still open, but with 230 responses, I'd like to describe a few highlights and thoughts about it."
+jtype: notes_pandemic
 ---
 
 ## Survey highlights

@@ -1,0 +1,26 @@
+entries:
+- title: Sidebar
+  subcategories:
+
+    - title: Pandemic-related posts
+      items:
+        - title: "Does working outside with the world as your office actually work?"
+          url: /blog/working-outside/
+
+        - title: "On cultivating a garden while the world is crumbling around you"
+          url: /blog/cultivating-your-garden-world-crumbling/
+
+        - title: "WTD Australia event recording — 'Remote discussion: Techcomm in the times of pandemic'"
+          url: /blog/write-the-docs-australia-techcomm-times-of-pandemic
+
+        - title: "Results of Pandemic Impact on Tech Comm survey"
+          url: /blog/results-of-pandemic-impact-on-tech-comm-survey/
+
+        - title: "Short survey about quarantine/pandemic impact on tech comm"
+          url: /blog/quarantine-pandemic-impact-on-tech-comm-survey/
+
+        - title: "Working from home — things I've bought"
+          url: /blog/working-from-home-things-i-have-bought/
+
+        - title: "How life has changed with the pandemic"
+          url: /blog/how-life-has-changed-with-the-pandemic/

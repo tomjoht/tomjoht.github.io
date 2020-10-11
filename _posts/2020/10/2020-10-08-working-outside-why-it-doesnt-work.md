@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/workingoutside
 description: "The other week I was trying to get a better grip on work-life balance. For me, the key challenge was that, without a commute and being at the office, there wasn't a clear separation between work and home. As the result, the two began to blend together. I spent a few weekends working off and on between family and football, and I felt like I needed to change things. To try to fix this and create a more firm separation between work and home, I decided to take my virtual office to a nearby park and work there all day, simulating being at the office. Then at 5 pm I planned to return home, hoping it would have the same effect as if I'd been at the office all day. It didn't go as planned, but not for reasons I thought."
+jtype: notes_pandemic
 ---
 
 Before my planned work-from-the-park day, I knew connectivity would be an issue, so I mapped out some [relevant Xfinity wifi hotspots near parks](https://www.google.com/maps/d/u/0/edit?mid=1ND1nCRD7pOpwYBHbADlNShqRJpHSOJ0u&ll=37.35132322392484%2C-121.92461189887695&z=11) ahead of time that might also have benches and power outlets.

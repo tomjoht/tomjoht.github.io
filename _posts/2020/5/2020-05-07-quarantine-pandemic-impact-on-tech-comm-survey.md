@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/tcpandemicimpact
 description: "I'm curious to know how the quarantine/pandemic is affecting tech comm. I created a short survey to gather some insights about possible trends. It's unclear how tech comm will play out &mdash; there could be gains in places and losses in others."
+jtype: notes_pandemic
 ---
 
 You can see [ongoing survey results here](https://www.questionpro.com/t/PGzGMZhSHg).

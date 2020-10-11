@@ -109,6 +109,10 @@
     {% assign sidebarTitle = "From overlooked to center stage" %}
     {% assign sidebar = site.data.sidebar_overlooked_to_center_stage.entries %}
 
+    {% elsif page.jtype == "notes_pandemic" %}
+    {% assign sidebarTitle = "Pandemic-related posts" %}
+    {% assign sidebar = site.data.sidebar_pandemic.entries %}
+
     {% endif %}
 
     <h3>{{sidebarTitle}}</h3>
