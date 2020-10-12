@@ -10,7 +10,7 @@ description: "I recently participated in an upcoming Coffee and Content webinar 
 
 ## Video recording now available
 
-{{site.data.alerts.tip}} <i>October 2, 2020 update:</i> The video recording is now available on <a href='https://www.brighttalk.com/webcast/9273/425657'>BrightTALK</a>. The recording is about 40 minutes and features Scott Abel (left), Casey Jordan (right), and me (bottom). {{site.data.alerts.end}}
+{{site.data.alerts.tip}} <i>October 2, 2020 update:</i> The video recording is now available on <a href='https://www.brighttalk.com/webcast/9273/425657'>BrightTALK</a>. The recording is about 40 minutes long and features Scott Abel (left), Casey Jordan (right), and me (bottom). {{site.data.alerts.end}}
 
 <a href="https://www.brighttalk.com/webcast/9273/425657"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/brighttalkcodelikecodeprosewebinarscreenshot.png" alt="Coffee and content webinar: Treat code like code; treat prose like prose" /></a>
 
