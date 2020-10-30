@@ -80,6 +80,9 @@ Juxtaposing these two ideas gives us a lot to think about in our current context
 
 I don't have much influence or insight to change anything (at least not of any significance -- I can't even change myself). I just want to feel like I'm part of something larger that is contributing towards a better world. For many years, I felt that tech was moving us in that direction. And in many ways, I still hope it is. For sure, few of us are willing to throw away our smartphones and cancel our Internet service. Maybe at the end of the day, we can promote more worthwhile use cases for the technologies we document, even if the applications are side hobbies that are secondary to larger profit goals.
 
+{{site.data.alerts.tip}}
+For an engaging post about how an engineer left a 200k/year job for an 88k/year mission-statement-type job, see <a href='https://www.reddit.com/r/financialindependence/comments/jhe6va/i_left_a_faang_prefi_for_a_more_fulfilling_job/'>I left a FAANG pre-FI for a more fulfilling job and took more than a 50% pay cut. It was not everything I expected it to be</a>.{{site.data.alerts.end}}
+
 **Your feedback**
 
 Here's a survey to gather some feedback. You can read [ongoing responses here](https://www.questionpro.com/t/PHNirZi19O).
