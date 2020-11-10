@@ -10,7 +10,6 @@ description: "Many tech writers are familiar with using AsciiDoc for documentati
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i1N6OEPhVwQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## Topics discussed
 
 - Workflows for writers and publishers during content development, review, and publishing
