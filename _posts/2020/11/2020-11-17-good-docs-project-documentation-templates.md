@@ -1,5 +1,5 @@
 ---
-title: "Documentation templates and The Good Docs Project"
+title: "Documentation templates and The Good Docs Project -- guest post by Ankita Tripathi"
 permalink: /blog/documentation-templates-good-docs-project/
 categories:
 - writing
