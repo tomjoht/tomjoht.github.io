@@ -1,16 +1,16 @@
 ---
-title: "Documentation templates and the Good Docs Project"
+title: "Documentation templates and The Good Docs Project"
 permalink: /blog/documentation-templates-good-docs-project/
 categories:
 - writing
 keywords:
 rebrandly: https://idbwrtng.com/
-description: "Documentation templates not only help teams align with consistent approaches in docs, templates help guide engineers, non-writers, or other roles in creating content, removing the intimidation of a blank page. A group of writers passionate about templates have been working together to create templates for a variety of documentation scenarios. This group's project is called <a href='https://thegooddocsproject.dev/'>The Good Docs Project</a>. The project makes available templates for API overviews, quickstart, reference, how-to topics, discussions, tutorials, and more. The following is a guest post by <a href='#ankita'>Ankita Tripathi</a>, a member of the Good Docs project, discussing the project and her motivations for getting involved."
+description: "Documentation templates not only help teams align with consistent approaches in docs, templates help guide engineers, non-writers, or other roles in creating content, removing the intimidation of a blank page. A group of writers passionate about templates have been working together to create templates for a variety of documentation scenarios. This group's project is called <a href='https://thegooddocsproject.dev/'>The Good Docs Project</a>. The project makes available templates for API overviews, quickstart, reference, how-to topics, discussions, tutorials, and more. The following is a guest post by <a href='#ankita'>Ankita Tripathi</a>, a member of The Good Docs project, discussing the project and her motivations for getting involved."
 author: <a href='#ankita'>Ankita Tripathi</a>
 bio: false
 ---
 
-## Getting involved in the Good Docs project
+## Getting involved in The Good Docs project
 
 I was surprised to learn that even after all these years of dealing with open-source projects, one exhausting factor persisted: "Handling of a shared vision." When a team comes together to contribute to an open-source project, they forget its importance over time. And what suffers is proper maintenance, documentation, licensing, or chalking out guidelines. While all these factors need supervision, my focus for this blog post is on documentation.
 
