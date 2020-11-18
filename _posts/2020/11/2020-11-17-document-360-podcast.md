@@ -7,7 +7,7 @@ categories:
 - stitcher
 - writing
 keywords:
-rebrandly: https://idratherbewriting.site/document360podcast
+rebrandly: https://idbwrtng.site/document360podcast
 description: "In a <a href='/blog/document-360-review/'>previous post</a>, I explored how <a href='https://document360.io/?ref=idratherbewriting'>Document360</a>, a new cloud-based documentation platform, handles API documentation scenarios. This time, I decided to record a podcast with Saravana Kumar, founder of Document360, to get the behind-the-scenes story about how Document360 came about, what's driving their fast pace of development, and their roadmap for the future."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/doc360podcastsaravana.mp3
 podcast_file_size: "18.4 MB"

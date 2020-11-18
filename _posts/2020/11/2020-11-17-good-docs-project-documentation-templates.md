@@ -4,7 +4,7 @@ permalink: /blog/documentation-templates-good-docs-project/
 categories:
 - writing
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/gooddocsproject
 description: "Documentation templates not only help teams align with consistent approaches in docs, templates help guide engineers, non-writers, or other roles in creating content, removing the intimidation of a blank page. A group of writers passionate about templates have been working together to create templates for a variety of documentation scenarios. This group's project is called <a href='https://thegooddocsproject.dev/'>The Good Docs Project</a>. The project makes available templates for API overviews, quickstart, reference, how-to topics, discussions, tutorials, and more. The following is a guest post by <a href='#ankita'>Ankita Tripathi</a>, a member of The Good Docs project, discussing the project and her motivations for getting involved."
 author: <a href='#ankita'>Ankita Tripathi</a>
 bio: false
