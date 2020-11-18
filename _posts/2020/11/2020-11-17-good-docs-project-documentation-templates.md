@@ -57,7 +57,7 @@ The *bazinga* moment happened when a team of technical writers who have been reg
 
 I stumbled upon the project when they called for members from the [Season of Docs](https://developers.google.com/season-of-docs), [Write the Docs](https://www.writethedocs.org/), and other communities to form a global team.
 
-# The Good Docs Project
+## The Good Docs Project
 
 The Good Docs Project came into existence because the founders wanted to create a suite of templates and best practices for open source technical documentation. Templates that could be extended and reused by anyone according to their requirements.
 
@@ -73,7 +73,7 @@ We know the documentation scope expands when we look at the diversified arenas a
 
 We started by creating a suite of templates so that cross-domain open source projects can improve their documentation and increase contributions to their projects. But is it so easy to customize a template?
 
-# Who does this cater to?
+## Who does this cater to?
 
 Our concern with the creation of basic templates was to entice everyone to use them. Our target audience for Good Docs templates are:
 
@@ -95,7 +95,7 @@ With the launch of [Season of Docs](https://developers.google.com/season-of-docs
 
 {{site.data.alerts.tip}} To access our templates (alpha phase), head over to our <a href='https://github.com/thegooddocsproject/templates'>Github project</a> and look at the progress we've been achieving. {{site.data.alerts.end}}
 
-# What are the other Good Docs Projects?
+## What are the other Good Docs Projects?
 
 While The Good Docs Project covers many aspects of open source technical documentation, the umbrella project remains the same: solve the most challenging writing problems with templates.
 
