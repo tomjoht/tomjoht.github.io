@@ -8,6 +8,7 @@ categories:
 keywords:
 weight: 2
 tags: series_trends_specialist_generalist
+jtype: notes_value_tech_comm
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 description: "Thanks to UX design, technology is becoming a simpler experience for end-users; however, the code is becoming more complex behind the scenes. As a result, more technical writing jobs are transitioning to the areas of complexity in the developer domain. Because content in the developer domain is so technical and specialized, many developers are collaborating and assisting with the documentation. As developers get involved in docs, they usually adopt docs-as-code tools, writing in simpler Markdown files."
 date: 2018-10-03T03:13:41+00:00

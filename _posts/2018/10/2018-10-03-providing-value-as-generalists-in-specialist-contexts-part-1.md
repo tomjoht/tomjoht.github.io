@@ -8,6 +8,7 @@ categories:
 keywords:
 weight: 1
 tags: series_trends_specialist_generalist
+jtype: notes_value_tech_comm
 series: "Tech comm trends: Providing value as a generalist in a sea of specialists"
 description: "Technical writing jobs have shifted more from the end-user domain to the developer domain. This creates challenges because most technical writers are generalists, not specialists, when it comes to technology they document. In these specialist contexts, technical writers can add value by focusing on authoring/publishing processes and tools, knowledge of the user experience, and information usability."
 date: 2018-10-03T03:13:42+00:00
