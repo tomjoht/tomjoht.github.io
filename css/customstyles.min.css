@@ -1687,3 +1687,7 @@ margin: 15px 0px;
     padding-left: 50px;
     font-size: 18px;
 }
+figcation {
+    font-style: italic;
+    font-size: smaller;
+}

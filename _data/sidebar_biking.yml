@@ -4,6 +4,9 @@ entries:
     - title: Biking
       items:
 
+        - title: "The most perfect 20-mile biking loop in Santa Clara"
+          url: /blog/biking-the-santa-clara-loop/
+
         - title: Biking at Alviso County Park
           url: /2019/03/17/biking-alviso/
 
