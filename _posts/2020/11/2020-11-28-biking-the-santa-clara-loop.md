@@ -3,7 +3,7 @@ title: "The most perfect 20-mile biking loop in Santa Clara"
 permalink: /blog/biking-the-santa-clara-loop/
 categories:
 - biking
-keywords: santa clara, biking
+keywords: santa clara, biking, routes
 jtype: notes_biking
 rebrandly: https://idbwrtng.com/
 description: "A couple of years ago, I was chatting with a local tech writer at a WTD meetup, and he mentioned that while he enjoys my posts on tech comm, he wished I would post more about biking in the area. This surprised me because I didn't really think anyone read or cared about my biking posts. Since his note, I admit I haven't posted anything about biking for a while. I did compile my previous posts about biking into a sidebar for easier navigation, but I failed to follow through with more biking posts. Today I hope to remedy that by sharing the best biking route in all of Santa Clara! I call this the Santa Clara loop."
