@@ -1,6 +1,6 @@
 ---
 title: "Moving to Seattle and making housing decisions using virtual tools"
-permalink: /blog/moving-to-seattle/
+permalink: /blog/moving-to-seattle-exploring-places-with-vr/
 categories:
 - technical-writing
 keywords:
@@ -85,6 +85,6 @@ After Seattle, we returned to California and continued our hunt virtually. Befor
 
 ## Conclusion
 
-Overall, this experience caused me to reflect on virtual versus physical experiences. As we WFH, we learned that we can work virtually and be just as productive, interacting with people we've never actually met in person. Tech companies are thriving in the pandemic. But can you also make large decisions about moving too? How much can you infer through virtual tools (especially VR) about an area without actually visiting it? What's the difference between visiting a place in person versus exploring it in 360-degree street view using VR? 
+Overall, this experience caused me to reflect on virtual versus physical experiences. As we WFH, we learned that we can work virtually and be just as productive, interacting with people we've never actually met in person. Tech companies are thriving in the pandemic. But can you also make large decisions about moving too? How much can you infer through virtual tools (especially VR) about an area without actually visiting it? What's the difference between visiting a place in person versus exploring it in 360-degree street view using VR?
 
 Looking back, I think virtual exploration got us about halfway there, but it wasn't until we toured the areas that we could make more definitive decisions. I hope that in some future point in time, VR experiences become more dynamic and real-time. Then decision-making will be even better. And at some point, maybe we'll just leave the VR headset on full-time (through implants) because it will be more preferable to the real world.
