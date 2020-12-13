@@ -4,8 +4,9 @@ permalink: /blog/moving-to-seattle-buying-home-virtually/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/moving-strategies
-description: "Many people are moving out of California right now for a variety of reasons. The main reason is that the cost of living is hard to justify during the work-from-home model of the pandemic. Other reasons include the constant fires, leading to poor air quality, the high state income taxes, the long, congested commutes, and more. You can read many articles about an exodus from Silicon Valley. This post isn't about the merits of California but is instead a more personal post about moving to Seattle and how to look for houses virtually. One question I explore is whether you can use virtual tools to adequately assess and buy a house that you've never actually seen."
+rebrandly: https://idbwrtng.com/movingtoseattle
+description: "Many people and companies are moving out of California right now. For example, Elon Musk and Tesla headquarters, Oracle headquarters. The main reason is that the cost of living is hard to justify during the work-from-home model of the pandemic. Other reasons include the constant fires, leading to poor air quality, the high state income taxes, the long, congested commutes, and more. You can read many articles about an exodus from Silicon Valley. This post isn't about the merits of California but is instead a more personal post about moving to Seattle and how to look for houses virtually. One question I explore is whether you can use virtual tools to adequately assess and buy a house that you've never actually seen."
+published: false
 ---
 
 
