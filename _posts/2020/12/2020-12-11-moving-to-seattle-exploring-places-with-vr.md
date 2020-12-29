@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/movingtoseattle
 description: "Many people and companies are moving out of California right now. For example, Tesla, Oracle, HP, Palantir, and others are moving headquarters to other locations (mostly Texas), as are many tech workers. Reasons for the migration include high state income taxes, government regulation, constant fires, and more. Also, the high cost of living is hard to justify during the work-from-home model of the pandemic. You can read many articles about an exodus from Silicon Valley. This post isn't about the merits of California but is instead a more personal post about moving to Seattle and how to look at areas virtually. When you're moving and trying to decide about locations, can you make informed decisions using virtual tools alone? These tools could include mapping tools as well as VR tools that offer immersive street views of the areas. What information can't you gather through virtual explorations of an area?"
 redirect-from:
-- /blog/moving-to-seattle-buying-a-house-virtually
+- /blog/moving-to-seattle-buying-home-virtually/
 ---
 
 ## A little backstory
