@@ -7,6 +7,8 @@ description: "The following article is a sponsored article I wrote on behalf of 
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/xeditorthumbscreen.png
 ---
 
+{{site.data.alerts.note}}For an updated version of this Xeditor review, see [Xeditor](/blog/xeditor-review-2021/).{{site.data.alerts.end}}
+
 ## CMS editors
 
 If you're managing your content in a content management system (CMS), you can often choose the interface you use to edit content. Through the editor interface, you create, update, and manage the topics in your CMS.
