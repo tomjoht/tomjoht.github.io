@@ -1,5 +1,5 @@
 ---
-title: Measuring documentation quality -- a rubric for developer docs"
+title: "Measuring documentation quality -- a rubric for developer docs"
 permalink: /blog/measuring-documentation-quality-rubric-developer-docs/
 categories:
 - writing
