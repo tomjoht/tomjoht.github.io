@@ -1,8 +1,9 @@
 ---
 layout: page
 title: 2019 Site Analytics
-permalink: /analytics/
+permalink: /analytics-draft/
 type: page
+published: false
 ---
 
 If you're thinking of [advertising on idratherbewriting.com](/advertising/), it's important to get a  sense of the traffic and analytics of the audience so that your ad not only has visibility, but visibility with the right audience.
@@ -15,7 +16,7 @@ In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page vie
 
 Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2019 through Dec 31, 2019, according to Google Analytics. The blue line represents 2019, while the brown line represents 2014 for comparison.
 
-<figure><img src="https://idratherbewritingmedia.com/images/google-analytics2020-audience.png"  alt="I'd Rather Be Writing received 1,974,524 page views during 2019. This equates to 5,409 page views a day." /> <figcaption>I'd Rather Be Writing received 1,974,524 page views during 2019, or 5,409 page views a day</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/google-analytics2020-audience.png"  alt="I'd Rather Be Writing received 1,974,524 page views during 2019. This equates to 5,409 page views a day." /> <figcaption>I'd Rather Be Writing received 1,974,524 page views during 2019, or 5,409 page views a day</figcaption></figure>
 
 The above screenshot compares the traffic of the site in 2019 with the traffic 5 years earlier. In 2014, the total page view count for the year was 588,826. The site's traffic has grown by 335% over 5 years.
 
@@ -39,7 +40,7 @@ The following table includes more details from other Google Analytics reports. T
     <tbody>
     <tr>
         <td markdown="span"><b>Page views</b></td>
-        <td markdown="span">1,552,615-->1,974,524</td>
+        <td markdown="span">1,552,615-->1,974,524 --> 1,814,770</td>
     </tr>
     <tr>
         <td markdown="span"><b>Average page views per day</b></td>
@@ -51,15 +52,15 @@ The following table includes more details from other Google Analytics reports. T
     </tr>
     <tr>
         <td markdown="span"><b>Unique page views</b></td>
-        <td markdown="span">1,331,869-->1,704,059</td>
+        <td markdown="span">1,331,869-->1,704,059 --> 1,592,088</td>
     </tr>
     <tr>
         <td markdown="span"><b>Average time on page</b></td>
-        <td markdown="span">2:40-->2:40</td>
+        <td markdown="span">2:40-->2:40 --> 2:43</td>
     </tr>
     <tr>
         <td markdown="span"><b>Users</b></td>
-        <td markdown="span">687,818-->909,236</td>
+        <td markdown="span">687,818-->909,236 --> 916,922</td>
     </tr>
     <tr>
         <td markdown="span"><b>Sessions</b></td>
@@ -71,23 +72,23 @@ The following table includes more details from other Google Analytics reports. T
     </tr>
     <tr>
         <td markdown="span"><b>Average session duration</b></td>
-        <td markdown="span">1:44-->1:41</td>
+        <td markdown="span">1:44 --> 1:41 --> 1.52</td>
     </tr>
     <tr>
         <td markdown="span"><b>Pages per session</b></td>
-        <td markdown="span">1.65-->1.64</td>
+        <td markdown="span">1.65 --> 1.64 --> 1.52</td>
     </tr>
     <tr>
         <td markdown="span"><b>Bounce rate</b></td>
-        <td markdown="span">78%-->78%</td>
+        <td markdown="span">78% --> 78% --> 81%/td>
     </tr>
     <tr>
         <td markdown="span"><b>Organic search traffic (unpaid search traffic)</b></td>
-        <td markdown="span">495,033-->761,144</td>
+        <td markdown="span">495,033 --> 761,144 --> 818,680</td>
     </tr>
     <tr>
         <td markdown="span"><b>Traffic from social</b></td>
-        <td markdown="span">5,596-->6,373</td>
+        <td markdown="span">5,596 --> 6,373 --> 7,813</td>
     </tr>
     <tr>
         <td markdown="span"><b>Social site breakdown</b></td>
@@ -95,32 +96,32 @@ The following table includes more details from other Google Analytics reports. T
     </tr>
     <tr>
         <td markdown="span"><b>Geographical region</b></td>
-        <td markdown="span">US 35%-->32%, India 16% -->17%, UK 5%-->5%</td>
+        <td markdown="span">US 35%-->32%-->29%, India 16% -->17% -->19%, UK 5%-->5%-->5%</td>
     </tr>
     <tr>
         <td markdown="span"><b>Browser</b></td>
-        <td markdown="span">Chrome 73%-->76%, Firefox 9%-->9%</td>
+        <td markdown="span">Chrome 73%-->76%-->78%, Firefox 9%-->9%-->8%</td>
     </tr>
     <tr>
         <td markdown="span"><b>Device category</b></td>
-        <td markdown="span">desktop 86%-->88%, mobile 12%-->11%, tablet 2%-->1%</td>
+        <td markdown="span">desktop 86%-->88%-->88%, mobile 12%-->11%-->12%, tablet 2%-->1%-->1%</td>
     </tr>
     <tr>
-        <td markdown="span"><b>Device type</b></td>
-        <td markdown="span">iPhone 37%-->38%, iPad 7%-->6%, Google Pixel 1%-->1%
+        <td markdown="span"><b>Mobile device type</b></td>
+        <td markdown="span">iPhone 37%-->38%-->37%, iPad 7%-->6%-->3%, Google Pixel 1%-->1%-->1%
         </td>
     </tr>
     <tr>
         <td markdown="span"><b>Operating System</b></td>
-        <td markdown="span">Windows 60% -->59%, Mac 20%-->21%, Android/iOS 13%-->12%</td>
+        <td markdown="span">Windows 60% -->59%-->57%, Mac 20%-->21%-->23%, Android + iOS 13%-->12%-->12%</td>
     </tr>
     <tr>
         <td markdown="span"><b>Age</b></td>
-        <td markdown="span">18-24 (18%-->15%), 25-34 (48%-->52%), 35-44 (23%-->22%), 45-54 (8%-->7%), 55-64 (3%-->2%)</td>
+        <td markdown="span">18-24 (18%-->15%-->22%), 25-34 (48%-->52%-->46%), 35-44 (23%-->22%-->18%), 45-54 (8%-->7%-->8%), 55-64 (3%-->2%-->3.5%)</td>
     </tr>
     <tr>
         <td markdown="span"><b>Gender</b></td>
-        <td markdown="span">male (72%-->73%), female (28%-->27%)</td>
+        <td markdown="span">male (72%-->73%-->75%), female (28%-->27%-->25%)</td>
     </tr>
     </tbody>
 </table>
@@ -131,11 +132,11 @@ All of this information is provided through Google Analytics by default. (I don'
 
 In 2018, 59% of my site traffic came to my API documentation site ([/learnapidoc/](/learnapidoc/). In 2019, that percentage jumped up to 72%
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidoc_traffic3.png" alt="API documentation traffic" /> <figcaption>The traffic to my <a href='/learnapidoc/'>API documentation site</a> accounted for about 72% of the overall site traffic.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidoc_traffic3.png" alt="API documentation traffic" /> <figcaption>The traffic to my <a href='/learnapidoc/'>API documentation site</a> accounted for about 72% of the overall site traffic.</figcaption></figure>
 
 Here's a graph that compares this growth to the previous period:
 
-<figure><img src="https://idratherbewritingmedia.com/images/learnapidocpreviousperiod.png" alt="API documentation traffic in 2019 compared to traffic in 2018" /> <figcaption>API documentation traffic in 2019 compared to traffic in 2018</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/learnapidocpreviousperiod.png" alt="API documentation traffic in 2019 compared to traffic in 2018" /> <figcaption>API documentation traffic in 2019 compared to traffic in 2018</figcaption></figure>
 
 The traffic from the API documentation visitors is outperforming other traffic sources. My most popular page is [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) (8.24% of total traffic), followed by [Parameters](/learnapidoc/docapis_doc_parameters.html) (8.18%),  [OpenAPI tutorial](/learnapidoc/pubapis_openapi_tutorial_overview.html) (2.41%), [Postman](/learnapidoc/docapis_postman.html) (2.27%), and [Access and print JSON](/learnapidoc/docapis_access_json_values.html) (2.05%). The remaining pages are all under 2% of total traffic.
 

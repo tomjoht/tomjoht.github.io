@@ -6,11 +6,10 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/xeditorreview
 description: "Xeditor is an online XML editor for creating and editing of structured content. In 2016, I published a review of Xeditor -- see <a href='https://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/'>Xeditor, a CMS editor for XML content</a>. Now that Xeditor has been new and updated features, it's a good time to revisit this tool with a closer look. In this post, Fabian Gleitsman walks through the new features and advantages of Xeditor."
-author: <a href='#fabian'>Fabian Gleitsman</a>
-bio: false
+published: false
 ---
 
-*Note that this is a sponsored post contributed by Fabian Gleitsman.*
+*Note that this is a sponsored post.*
 
 ## Easy-to-use XML editing
 
@@ -35,8 +34,3 @@ Another major advantage of Xeditor's web-based architecture is the fact that doc
 Overall, Xeditor is an easy-to-use editor that enables everyone in your company to work with structured content &mdash; without any knowledge of the underlying XML. The last year has shown us that we have to rethink the way we work. This web-based editor allows both a professional technical writer and other content creators less familiar with XML author and edit structured content, from anywhere at any time. This makes Xeditor an essential tool for content collaboration.
 
 If you want to find out how [Xeditor](https://www.xpublisher.com/products/xeditor){:rel="nofollow"} can work successfully within your company’s infrastructure you can [request a free demo here](https://www.xpublisher.com/request-demo?product=Xeditor).
-
-
-### About Fabian Gleitsman {#fabian}
-
-*[Fabian Gleitsman](https://www.linkedin.com/in/fabian-gleitsmann/) is head of Marketing at [Xpublisher/Xeditor](https://www.xpublisher.com/){:rel="nofollow"}. He is passionate about helping companies succeed with structured content by making XML authoring more accessible to all types of content creators. He is based in Germany.*
