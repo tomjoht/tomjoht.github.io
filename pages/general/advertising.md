@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Advertising
+title: Advertising (2021)
 permalink: /advertising/
 type: page
+last-modified: 2021-01-18
 ---
 
 I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially concerning <a href='/learnapidoc/'>API documentation</a>. Because of this, I can help increase your product or service's visibility more than any other technical writing site online.
@@ -11,7 +12,7 @@ I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites w
 
 <img style="float:right; padding-left:15px;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/comics/yourcomichere.png" alt="advertising on I'd Rather Be Writing"/>
 
-I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2019, idratherbewriting.com had 1,974,524 page views, or about 5,409 page views a day (225 an hour). More specifically, users created 1,207,264 sessions, with 1.64 pages per session and an average of 1:41 minutes per session.
+I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2020, idratherbewriting.com had 1,814,770 page views, or about 4,971 page views a day (207 page views an hour). More specifically, users created 1,195,729 sessions, with 1.52 pages per session and an average of 1:25 minutes per session.
 
 {{site.data.alerts.note}} For details about how many page views, sessions, and other analytics information, see the <a href="/analytics">2019 site traffic and analytics</a>.{{site.data.alerts.end}}
 
@@ -100,11 +101,13 @@ Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There
 
 ## Newsletter Space {#newsletterspace}
 
-I send out 4 newsletters a month (one per week) to all my email subscribers (5,400 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+I send out about 3 newsletters a month to all my email subscribers (5,600 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
 
 The image format can be any standard image format (JPG, PNG, GIF), but not animated (because the ads appear in email). The cost for advertising in the newsletter space is $1,500 per year. Shorter advertising durations aren't allowed.
+
+For a list of newsletter dates, links, and advertisements shown during 20202, see [2020 newsletters sent (Google Doc)](https://docs.google.com/document/d/1UmgUaDp5Udxfsi8ouji8RtU_ra0tv7KBtpbO5Unxj7w/edit).
 
 ## Inline text blurbs (API doc site only) {#inline_text_blurbs}
 
@@ -114,19 +117,29 @@ Inline text blurbs are short snippets of text, about 1-3 sentences in length (or
 
 The text blurb's text changes randomly with each page refresh. However, the position of the blurb on the page remains in the same (initially random) location.
 
-The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs (from different advertisers) can appear on each page. Cost for inline text blurbs to appear on the API doc site is $3,000 per year.
+The in-text ads are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content pages. A maximum of 3 inline blurbs (from different advertisers) can appear on each page.  Links are `nofollow`. Cost for inline text blurbs to appear on the API doc site is $3,000 per year.
 
 ## Product review posts {#product_review_posts}
 
-I also offer product review posts to help with visibility. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Here are some sample product reviews I wrote previously:
+I also offer product review posts to help with visibility. These posts usually coincide with marketing efforts for product releases and updates. To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share.
 
-* [XML Documentation for Adobe Experience Manager (AEM) — Integrating documentation and marketing content into a seamless whole](https://idratherbewriting.com/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/) (668 page views as of 3-25-19)
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](https://idratherbewriting.com/2017/01/16/madcap-central-review/) (1,968 page views as of 3-10-19)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](https://idratherbewriting.com/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (5,533 page views as of 3-10-19)
-* [Simplified Technical English and HyperSTE](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (4,056 page views as of 3-10-19)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](https://idratherbewriting.com/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (1,164 page views as of 3-10-19)
-* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](https://idratherbewriting.com/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (2,042 page views as of 3-10-19)
-* [Xeditor, a CMS editor for XML content](https://idratherbewriting.com/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/) (1,335 page views as of 3-10-19)
+Each product review post is clearly identified as a sponsored post. I also get your approval before publishing. Links are `nofollow`. Additionally, I only provide product review posts as part of a larger advertising package (e.g., if you buy sidebar ads or horizontal ads, you can also include a product review post).
+
+Here are some sample product reviews I wrote previously:
+
+* [Connecting micro content with search analytics -- notes on the first MadCap Flare and MadCap Central 2020 Release](/blog/connect-micro-content-with-search-analytics/)
+* [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](/learnapidoc/pubapis_redocly.html)
+* [How does Document360 handle challenges with API documentation?](/blog/document-360-review/)
+* [Stoplight — visual modeling tools for creating your OpenAPI spec](/learnapidoc/pubapis_stoplight.html)
+* [Create an OpenAPI specification document using Stoplight Studio's visual editor](/learnapidoc/pubapis_openapis_quickstart_stoplight.html)
+* [SwaggerHub introduction and tutorial](/learnapidoc/pubapis_swaggerhub_smartbear.html)
+* [XML Documentation for Adobe Experience Manager (AEM) — Integrating documentation and marketing content into a seamless whole](/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/) (668 page views as of 3-25-19)
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](/2017/01/16/madcap-central-review/) (1,968 page views as of 3-10-19)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (5,533 page views as of 3-10-19)
+* [Simplified Technical English and HyperSTE](/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (4,056 page views as of 3-10-19)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (1,164 page views as of 3-10-19)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (2,042 page views as of 3-10-19)
+* [Xeditor, a CMS editor for XML content](/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/) (1,335 page views as of 3-10-19)
 
 Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article's relevance.)
 
@@ -146,9 +159,13 @@ Podcasts are 30-minute audio conversations that are recorded and distributed as 
 
 To prepare for podcasts, I send you about 10 questions focused on the product or service that you want highlighted. The podcast length is typically 20-30 minutes and syndicated out on iTunes, Stitcher, and other channels. The cost is $300 per podcast.
 
+Here are sample podcasts:
+* [The story behind Document360 -- podcast with founder Saravana Kumar](/blog/document-360-podcast-saravana-kumar-founder/)
+* [Podcast: How Paligo is filling a niche in the CCMS market for complex documentation, with Anders Svensson](/blog/paligo-filling-a-niche-in-ccms-market-for-complex-docs/)
+
 ## Taking the next step
 
-If you'd like to advertise on my site, [contact me](https://idratherbewriting.com/contact). We'll finalize details about the ad spaces you want, and then I'll send you an invoice via PayPal.
+If you'd like to advertise on my site, [contact me](/contact). We'll finalize details about the ad spaces you want, and then I'll send you an invoice via PayPal.
 
 [google-xeditor]: https://www.google.com/search?hl=en&authuser=0&ei=cmeFXI2fA4jI-gS9po_gDg&q=xeditor&oq=xeditor&gs_l=psy-ab.3..0i71l8.0.0..5981...0.0..0.0.0.......0......gws-wiz.0ZC1TQ7v7GM
 [google-hyperste]: https://www.google.com/search?hl=en&authuser=0&ei=q2eFXLzkE8b6-gSklpyoBA&q=hyperste&oq=hyperste&gs_l=psy-ab.3..0l10.14848.17146..17247...3.0..0.215.1070.7j2j1......0....1..gws-wiz.......0i71j35i39j0i131j0i67j0i10.0_YbJ9BcZYY

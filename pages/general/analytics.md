@@ -1,13 +1,14 @@
 ---
 layout: page
-title: 2020 Site Analytics
+title: Site Analytics (2020-2021)
 permalink: /analytics/
 type: page
+last-modified: 2021-01-18
 ---
 
 If you're thinking of [advertising on idratherbewriting.com](/advertising/), it's important to get a sense of the traffic and analytics of the audience so that your ad not only has visibility, but visibility with the right audience.
 
-In 2020, idratherbewriting.com had 1,974,524 page views, or about 5,409 page views a day (225 page views an hour). More specifically, users created 1,207,264 sessions, with 1.64 pages per session and an average of 1:41 minutes per session.
+In 2020, idratherbewriting.com had 1,814,770 page views, or about 4,971 page views a day (207 page views an hour). More specifically, users created 1,195,729 sessions, with 1.52 pages per session and an average of 1:25 minutes per session.
 
 {{site.data.alerts.note}}For details about advertising spaces available, see <a href="/advertising">Advertising</a>. {{site.data.alerts.end}}
 
@@ -25,11 +26,11 @@ For historical comparison, here's a graph that shows the growth of the site from
 
 Traffic was fairly consistent from 2010 through 2017. In 2017, I added the [API documentation site](/learnapidoc/), which accounted for a lot of growth.
 
-## Analytics breakdown
+## Analytics breakdown {#analytics-breakdown}
 
-The following table includes more details from other Google Analytics reports. To make the data more meaningful, I've provided data from 2018, 2019, and 2020 so you can compare the changes from one year to the next. I also round data to the nearest whole number (e.g., 1.51% is rounded to 2%; 1.49% is rounded to 1%).
+The following table includes more details from other Google Analytics reports. To make the data more meaningful, I've provided data from 2018, 2019, and 2020 to compare the changes from one year to the next. I also round data to the nearest whole number (e.g., 1.51% is rounded to 2%; 1.49% is rounded to 1%).
 
-<table>
+<table style="width: 100%">
 <colgroup>
   <col width="50%" />
   <col width="50%" />
@@ -82,7 +83,7 @@ The following table includes more details from other Google Analytics reports. T
     <td markdown="span">1:44 -> 1:41 -> 1.25</td>
   </tr>
   <tr>
-    <td markdown="span"><b>Pages per session</b></td>
+    <td markdown="span"><b>Page views per session</b></td>
     <td markdown="span">1.65 -> 1.64 -> 1.52</td>
   </tr>
   <tr>
@@ -99,36 +100,36 @@ The following table includes more details from other Google Analytics reports. T
   </tr>
   <tr>
     <td markdown="span"><b>Social site breakdown</b></td>
-    <td markdown="span">Linkedin 49% -> 42% -> 47%<br/> Facebook 20% -> 15% -> 9%<br/>Twitter 17% -> 23% -> 18% </td>
+    <td markdown="span">Linkedin: 49% -> 42% -> 47%<br/> Facebook: 20% -> 15% -> 9%<br/>Twitter: 17% -> 23% -> 18% </td>
   </tr>
   <tr>
     <td markdown="span"><b>Location</b></td>
-    <td markdown="span">US 35% -> 32% -> 29% <br/>India 16% -> 17% -> 19%<br/>UK 5% -> 5% -> 5%</td>
+    <td markdown="span">US: 35% -> 32% -> 29% <br/>India: 16% -> 17% -> 19%<br/>UK: 5% -> 5% -> 5%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Browser</b></td>
-    <td markdown="span">Chrome 73% -> 76% -> 78%<br/> Safari 9% -> 8% -> 8%<br/>Firefox 9% -> 9% -> 8%</td>
+    <td markdown="span">Chrome: 73% -> 76% -> 78%<br/> Safari: 9% -> 8% -> 8%<br/>Firefox: 9% -> 9% -> 8%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Device category</b></td>
-    <td markdown="span">desktop 86% -> 88% -> 88%<br/> mobile 12% -> 11% -> 12%<br/>tablet 2% -> 1% -> 1%</td>
+    <td markdown="span">desktop: 86% -> 88% -> 88%<br/> mobile: 12% -> 11% -> 12%<br/>tablet: 2% -> 1% -> 1%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Mobile device type</b></td>
-    <td markdown="span">iPhone 37% -> 38% -> 37%<br/>iPad 7% -> 6% -> 3%
+    <td markdown="span">iPhone: 37% -> 38% -> 37%<br/>iPad: 7% -> 6% -> 3%
     </td>
   </tr>
   <tr>
     <td markdown="span"><b>Operating System</b></td>
-    <td markdown="span">Windows 60% -> 59% -> 57%<br/>Mac 20% -> 21% -> 23%<br/>Android + iOS 13% -> 12% -> 12%</td>
+    <td markdown="span">Windows: 60% -> 59% -> 57%<br/>Mac: 20% -> 21% -> 23%<br/>Android + iOS: 13% -> 12% -> 12%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Age</b></td>
-    <td markdown="span">18-24 (18% -> 15% -> 22%)<br/>25-34 (48% -> 52% -> 46%)<br/>35-44 (23% -> 22% -> 18%)<br/>45-54 (8% -> 7% -> 8%)<br/>55-64 (3% -> 2% -> 3%)</td>
+    <td markdown="span">18-24: 18% -> 15% -> 22%<br/>25-34: 48% -> 52% -> 46%<br/>35-44: (23% -> 22% -> 18%)<br/>45-54: 8% -> 7% -> 8%<br/>55-64: 3% -> 2% -> 3%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Gender</b></td>
-    <td markdown="span">male (72% -> 73% -> 75%)<br/>female (28% -> 27% -> 25%)</td>
+    <td markdown="span">male: 72% -> 73% -> 75%<br/>female: 28% -> 27% -> 25%</td>
   </tr>
   </tbody>
 </table>
@@ -149,7 +150,7 @@ And then in 2020:
 
 The traffic from the API documentation visitors is outperforming other traffic sources, with 3 out of every 4 visitors going to the API documentation site.
 
-## Top 10 API doc pages
+## Top 10 API doc pages {#top-ten}
 
 The top 10 most popular pages are as follows:
 

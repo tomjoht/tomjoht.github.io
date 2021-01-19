@@ -11,7 +11,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     algolia_html_extractor (2.6.2)
       json (~> 2.0)
-      nokogiri (~> 1.10.4)
+      nokogiri (~> 1.11.0.rc4)
     algoliasearch (1.27.4)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
