@@ -171,6 +171,7 @@ Because of the interest in the API doc site, I have continued to add to it. It i
 
 For more details about analytics, see the following posts. These posts expand on audience interests and demographics.
 
+* 2020 &mdash; [Site analytics for 2020 -- trends, reflections, and thoughts](/blog/site-analytics-reflections/)
 * 2019 &mdash; [Reflections on my 2019 site analytics](/blog/reflections-on-site-analytics-for-2019/)
 * 2018 &mdash; [Site analytics from Jan 1 to Dec 31, 2018 -- are more engineers writing docs now?](/2019/01/14/site-analytics-from-2018-59-percent-traffic-going-to-api-doc-site/)
 * 2017 &mdash; [Unexpected realizations after a comprehensive review of my 2017 site metrics](/2018/01/11/comprehensive-metrics-for-idratherbewriting-in-2017)
