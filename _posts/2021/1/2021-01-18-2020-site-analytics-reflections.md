@@ -1,5 +1,5 @@
 ---
-title: "Site analytics for 2020-2021 -- trends, reflections, and thoughts"
+title: "Site analytics for 2020 -- trends, reflections, and thoughts"
 permalink: /blog/site-analytics-reflections/
 categories:
 - writing
