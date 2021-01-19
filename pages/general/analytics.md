@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Site Analytics (2020-2021)
+title: Site Analytics
 permalink: /analytics/
 type: page
 last-modified: 2021-01-18
@@ -92,7 +92,7 @@ The following table includes more details from other Google Analytics reports. T
   </tr>
   <tr>
     <td markdown="span"><b>Organic search traffic (unpaid search traffic)</b></td>
-    <td markdown="span">495,033 -> 761,144 -> 818,680</td>
+    <td markdown="span">72% -> 85% -> 89%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Traffic from social</b></td>
@@ -112,7 +112,7 @@ The following table includes more details from other Google Analytics reports. T
   </tr>
   <tr>
     <td markdown="span"><b>Device category</b></td>
-    <td markdown="span">desktop: 86% -> 88% -> 88%<br/> mobile: 12% -> 11% -> 12%<br/>tablet: 2% -> 1% -> 1%</td>
+    <td markdown="span">desktop: 86% -> 88% -> 88%<br/> mobile: 12% -> 11% -> 12%<br/>tablet: 1.7% -> 1.1% -> 0.6%</td>
   </tr>
   <tr>
     <td markdown="span"><b>Mobile device type</b></td>
