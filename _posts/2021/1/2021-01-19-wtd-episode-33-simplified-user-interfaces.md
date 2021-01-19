@@ -8,6 +8,8 @@ rebrandly: https://idratherbewriting.site/wtdepisode33pointer
 description: "Write the Docs podcast episode 33 is available. In this podcast, we chat with Anton Bollen from Techsmith about using simplified user interfaces with screenshots. A simplified user interface reduces the unimportant elements so the user's attention focuses only on what matters."
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7l790ziLig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can listen to the podcast here: [WTD Episode 33: Simplified user interfaces, with Anton Bollen](https://podcast.writethedocs.org/2021/01/17/episode-33-simplified-graphics/).
 
 ## Episode description
