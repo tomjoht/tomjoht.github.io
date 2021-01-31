@@ -10,15 +10,13 @@ bitlink: http://bit.ly/firsttwosentencestc
 
 At my work, an info architect in another group has been encouraging me to create overviews when users click the folder title in a sidebar. As an example, with the docs from Digital Ocean, when you click the folder title, you see an overview topic that provides a brief intro to the folder's content along with a list of pages and summaries:
 
-<figure><a target="\_blank" class="noExtIcon" href="https://www.digitalocean.com/docs/networking/dns/"><img class="docimage 6 " src="https://idratherbewriting.com/simplifying-complexity/images/digitaloceansummaries.png" alt="Showing sections at a glance" /></a><figcaption>Showing sections at a glance</figcaption></figure>
+<figure><a target="\_blank" class="noExtIcon" href="https://www.digitalocean.com/docs/networking/dns/"><img class="docimage 6 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/digitaloceansummaries.png" alt="Showing sections at a glance" /></a><figcaption>Showing sections at a glance</figcaption></figure>
 
 It took some time to win me over to this idea, but I finally saw the light. Particularly, when I realized that the overviews should contain brief summaries of each page, and not just a list of the page titles (which is already visible from the sidebar), I agreed that this approach would improve doc usability. As I implemented this in some of my docs, I ended up calling this feature "Pages at a glance."
 
 Here's a quick demo of "Pages at a glance" with Fire TV:
 
-<figure><a target="\_blank" class="noExtIcon" href="https://developer.amazon.com/docs/fire-tv/toc-overview.html"><img class="docimage 7 " src="https://idratherbewriting.com/simplifying-complexity/images/firetvdocssummaries.png" alt="Showing sections at a glance" /></a><figcaption>Showing sections at a glance</figcaption></figure>
-
-You can also see this implemented with [Fire App Builder](https://developer.amazon.com/docs/fire-app-builder/toc-introduction.html).
+<figure><img class="docimage 7 " src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/firetvdocssummaries.png" alt="Showing sections at a glance" /><figcaption>Showing sections at a glance</figcaption></figure>
 
 The idea is that users who see the section title in the sidebar can click the folder title and get a better sense of the folder's contents at a glance. In the section overview, users can view the page title followed by the first two sentences (or 200 characters) of the topic.
 
