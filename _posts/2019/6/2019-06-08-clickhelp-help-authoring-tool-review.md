@@ -18,7 +18,7 @@ Let's first talk about who is using ClickHelp (because you want to be sure the p
 
 ## What's possible with ClickHelp?
 
-ClickHelp offers all the features you'd expect to find in an online help -- robust sidebar navigation with expandable/collapsible folders, comprehensive search, custom branding, and more. To get a sense of what's possible with ClickHelp, check out [ClickHelp's own help](https://clickhelp.com/software-documentation-tool/user-manual/start-step-1-create-project.html){:rel="nofollow"}.
+ClickHelp offers all the features you'd expect to find in an online help -- robust sidebar navigation with expandable/collapsible folders, comprehensive search, custom branding, and more. To get a sense of what's possible with ClickHelp, check out [ClickHelp's own help](https://clickhelp.com/software-documentation-tool/user-manual/start-step-1-create-project.html){: .rel="nofollow"}.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/clickhelp-docs.png" alt="Typical help authoring process" />
 
