@@ -41,11 +41,13 @@ We founded the company in 2009 and introduced our online publishing system Xpubl
 
 <h2> What are some recent enhancements in the latest version? </h2>
 
-The main focus of Xeditor is its intuitive usability and the ease of collaboration among authors. With every version, we strengthen and expand that focus. Last year we optimized the change tracking; the first release in 2021 simplifies the handling even further with tag-view-mode, drag-and-drop, as well as improved table editing. Of course, there are more features yet to come in the next months, which we are very excited about.
+The main focus of Xeditor is its intuitive usability and the ease of collaboration among authors. With every version, we strengthen and expand that focus. Last year we optimized the collaboration; the first release in 2021 simplifies the handling even further with tag-view-mode, drag-and-drop, as well as improved table editing. Of course, there are more features yet to come in the next months, which we are very excited about. Here's a screenshot showing Xeditor:
+
+<a href="https://idbwrtng.com/xeditor" rel="nofollow"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/xeditor_screenshot_2021v4.png" alt="Xeditor, online XML editor" /></a>
 
 <h2> How does Xeditor differ from tools such as OxygenXML and easyDITA? </h2>
 
-From the very beginning, Xeditor was designed to be a web-based XML editor. We have always made users and their XML experience a priority by hiding the complexity behind XML. Creating, editing, and reviewing XML content with Xeditor is easy – whether you're an experienced technical writer or a subject matter expert. Thanks to its online architecture, collaboration between users is intuitive and facilitates the workflow. Another feature that further simplifies the adoption of Xeditor is the fact that it's configurable and also easily integrable into the company's existing IT landscape.
+From the very beginning, Xeditor was designed to be a [web-based XML editor](https://idbwrtng.com/xeditor){:rel="nofollow"}. We have always made users and their XML experience a priority by hiding the complexity behind XML. Creating, editing, and reviewing XML content with Xeditor is easy – whether you're an experienced technical writer or a subject matter expert. Thanks to its online architecture, collaboration between users is intuitive and facilitates the workflow. Another feature that further simplifies the adoption of Xeditor is the fact that it's configurable and also easily integrable into the company's existing IT landscape.
 
 <h2> Where do you install Xeditor? </h2>
 
@@ -53,13 +55,13 @@ Xeditor is integrated into your organization's systems and managed centrally. So
 
 <h2> How does Xeditor help with online collaboration more than other online solutions? </h2>
 
-Xeditor stores all data centrally, so users can access their documents any time and from any location using any modern web browser. It also allows both technical as well as non-technical users to collaborate on the same document. The optimized comment function lets users mark comments as “read”, improving clarity and making it easier to review documents. Our advanced change tracking not only highlights all changes and comments in the text, it also highlights changes in the XML structure for all users. The bottom line: Users can finally stop exchanging documents back and forth via e-mail, making endless version comparisons a thing of the past. And authors can finally concentrate on content rather than logistics. The commenting, change tracking, and overall online functionality is best in class and the feedback from our customers confirms this.
+Xeditor stores all data centrally, so users can access their documents any time and from any location using any modern web browser. It also allows both technical as well as non-technical users to collaborate on the same document. The optimized comment function lets users mark comments as “read”, improving clarity and making it easier to review documents. Our advanced change tracking not only highlights all changes and comments in the text, it also highlights changes in the XML structure for all users. The bottom line: Users can finally stop exchanging documents back and forth via e-mail, making endless version comparisons a thing of the past. And authors can finally concentrate on content rather than logistics. The commenting, collaboration, and overall online functionality is best in class and the feedback from our customers confirms this.  
 
 <h2> Do you see the adoption of XML solutions growing or shrinking in the tech comm tools space? </h2>
 
 We definitely see that structured content authoring is gaining momentum. More and more organizations are migrating their content creation to standards like DITA or JATS. But even beyond that, some organizations that have adopted a structured content workflow in the past but are currently using desktop tools are considering the switch to a modern, web-based XML solution. Here we see a lot of potential for Xeditor.
 
-Some people prefer Markdown because you can edit the content in plain text, without an editor. In contrast, most people working with XML seem to use editors to work with and read the content. Can XML compete against plain text Markdown when it comes to the author experience?
+<h2> Some people prefer Markdown because you can edit the content in plain text, without an editor. In contrast, most people working with XML seem to use editors to work with and read the content. Can XML compete against plain text Markdown when it comes to the author experience? </h2>
 
 The author's experience always depends on the author's aspirations. Markdown is very useful if you want to plainly create and edit content – but it does not allow for real-time validation against a set of rules. An XML editor, on the other hand, does exactly that: It allows for the creation of documents that follow complex structures and rules in order to comply with your organization's standards and to allow for the atomization of the publishing process. Xeditor makes this whole process &mdash; from content creation to reviewing and reuse &mdash; extremely simple. And since everyone from the subject matter expert to an experienced technical author can be involved in the process, in-depth collaboration becomes the norm.
 
