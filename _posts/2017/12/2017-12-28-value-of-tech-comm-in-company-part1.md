@@ -13,8 +13,6 @@ jtype: notes_value_tech_comm
 
 {% include series/seriesTagValueOfTechComm.html %}
 
-{{site.data.alerts.note}}Use the drop-down menu above to navigate to different parts of this essay. {{site.data.alerts.end}}
-
 ## Introduction
 
 When managers want headcount for a job requisition (whether expanding or backfilling), or when senior execs start rebalancing the workforce, the longstanding, sensitive issue of the tech writer's value moves back into the spotlight. Should we open another tech writer position? Should we backfill the position? Why? What measurable value do tech writers and documentation provide to the organization? Should tech writers even be writing, or should they just help project teams write and publish their own content?

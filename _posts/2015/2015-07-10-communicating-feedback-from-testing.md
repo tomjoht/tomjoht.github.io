@@ -3,7 +3,7 @@ title: Communicating feedback from testing documentation
 categories:
 - technical-writing
 tags: [series_testing_documentation]
-series: testing_documentation
+series: Testing your documentation
 jtype: notes_testing_documentation
 keywords: jira, bugs, agile processes, issue tracking, visibility
 description: "After testing your documentation, you should communicate the feedback with your project teams. As much as possible, try to communicate the information through issue tracking systems because this makes the information more permanent, visible, and actionable."

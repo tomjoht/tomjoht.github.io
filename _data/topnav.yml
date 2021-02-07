@@ -10,9 +10,6 @@ topnav:
     - title: API documentation course
       url: /learnapidoc/
 
-    # - title: Simplifying complexity
-    #   url: /simplifying-complexity/
-
     - title: Podcasts
       url: /category-podcasts/
 
@@ -117,9 +114,6 @@ topnav_dropdowns:
 
       - title: Jekyll versus DITA
         url: /2015/03/23/new-series-jekyll-versus-dita/
-
-      - title: My DITA journey
-        url: /2014/04/16/my-dita-journey-begins/
 
       - title: Quick reference guides
         url: /2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/

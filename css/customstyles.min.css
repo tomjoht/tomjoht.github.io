@@ -1682,9 +1682,7 @@ margin: 15px 0px;
 .btn-group.series > ol li.active {
     color: #db6a00;
     font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
+    padding-left: 20px;
     font-size: 18px;
 }
 figcation {
