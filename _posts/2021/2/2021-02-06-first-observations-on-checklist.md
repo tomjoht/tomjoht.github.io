@@ -6,6 +6,7 @@ permalink: /blog/observations-using-checklist/
 keywords: product overviews
 description: "I recently published a comprehensive checklist for evaluating documentation quality. I noted that my perspective is more evolving and experiential, not something tried and true from years of practice. I have a few initial observations since publishing this."
 bitlink:
+published: false
 ---
 
 ## Observation 1: Limit the scope
