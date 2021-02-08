@@ -76,7 +76,7 @@ For billing, I usually send you an invoice through Paypal. Billing is done prior
 
 Sidebar ads (250px x 150px) appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
-Your ad can be any image type (JPG, GIF, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. Slow-looping animated GIFs are allowed, but not Flash. You can switch the ad at any time by sending me a new graphic.
+Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. GIFs or other animations aren't allowed. You can switch the ad at any time by sending me a new graphic.
 
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
