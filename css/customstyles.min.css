@@ -1235,8 +1235,9 @@ ul#mysidebar li.active a {
 }
 
 .singlePostComics img {
-    max-width: 100%;
+    max-width: 728px;
     padding-top: 0px;
+
 }
 
 .bs-callout-comic {
