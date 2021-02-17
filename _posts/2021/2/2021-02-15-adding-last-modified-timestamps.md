@@ -43,7 +43,7 @@ So for my `last-modified` timestamp, I chose `2020-08-04`. Unfortunately, when I
 
 I also added a small GitHub button after the "Last updated" timestamp on pages.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/github_button_last_modified.png" alt="GitHub button" />
+<a href="/learnapidoc/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/github_button_last_modified.png" alt="GitHub button" /></a>
 
 Clicking this button takes you the page in GitHub. Once there, you can click **History** to see the commit history for the page. This way you can more easily see the file's history.
 
