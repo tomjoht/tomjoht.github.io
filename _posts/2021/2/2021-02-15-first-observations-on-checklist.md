@@ -33,19 +33,19 @@ This is probably why so many writers dismiss metrics and user feedback. If users
 
 ## Observation 5: Copying this web page into a Google Doc requires a lot of reformatting
 
-I originally copied the list of criteria into a Google Doc so that I could write my observations for each item, but then I had to do a lot of reformatting. I also realized that tallying up scores was tedious in a Google Doc document. As a result, I created some [two templates for working with metrics](/learnapidoc/docapis_metrics_templates.html). I created a simple HTML doc that can be easily pasted into Google Docs or Microsoft Word where you can add more narrative assessments. I also created a spreadsheet (CSV file) that has scoring logic &mdash; you can import it into Google Docs or Microsoft Excel. The spreadsheet has some formulas under the hood that multiply the score by weight and also calculates the overall score against the total possible score. (Don't get too excited about the formulas &mdash; I'm not a spreadsheet maven, and the logic is really simple. However, these templates are [single-sourced from a YAML file in my Jekyll site](/learnapidoc/docapis_metrics_templates.html#behind-the-scenes).)
+I originally copied the list of criteria into a Google Doc so that I could write my observations for each item, but then I had to do a lot of reformatting. I also realized that tallying up scores was tedious in a Google Doc document. As a result, I created [two templates for working with metrics](/learnapidoc/docapis_metrics_templates.html). I created a simple HTML doc that can be easily pasted into Google Docs or Microsoft Word where you can add more narrative assessments. I also created a spreadsheet (CSV file) that has scoring logic &mdash; you can import it into Google Docs or Microsoft Excel.
+
+The spreadsheet has some formulas under the hood that multiply the score by weight and also calculate the overall score against the total possible score. (Don't get too excited about the formulas &mdash; I'm not a spreadsheet maven, and the logic is really simple. However, these templates are [single-sourced from a YAML file in my Jekyll site](/learnapidoc/docapis_metrics_templates.html#behind-the-scenes). This is the first time I've generated out a spreadsheet from YAML content. It's surprisingly easy to do in Jekyll &mdash; see the [source logic here](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_metrics_first_level_checklist_csv.csv).)
 
 ## Observation 6: Weighting shouldn't be ignored
 
-I originally sidestepped the question of weight in my checklist, but after some feedback from a colleague, I decided to incorporate weighting with the criteria. Weighting can't be ignored. For example, good reference documentation is more critical than consistent naming of doc types. Tutorials and descriptions of key use cases are far more important descriptive subheadings.
-
-But how much weight per criteria, and how do you apply the weight to the score? In my revision, I included weights ranging from 1-3 that get multiplied by the score (0-5). This means for more important criteria in the docs, their score can be 15, while less important criteria can score only 5. If you need to omit one of the criteria because it doesn't apply, put its weight as 0. This will remove it from the overall calculations.
-
-Because weighting is a highly subjective area, in [the spreadsheet templates I created for calculating scores](/learnapidoc/docapis_metrics_templates.html), you can easily adjust the weighting as you see fit and the other calculations will follow.
+I originally sidestepped the question of weighting different criteria in my checklist, but after some feedback from a colleague, I decided to incorporate weighting. Weighting can't be ignored. For example, good reference documentation is more critical than consistent naming of doc types. Tutorials and descriptions of key use cases are far more important descriptive subheadings.
 
 Someone told me that whenever you introduce metrics, the focus shifts to ways to manipulate the metrics. Whenever you apply a score to content, the easiest way to influence the score's number becomes the focus. This is why weighting seems important here &mdash; so that people don't fiddle with descriptive subheadings at the expense of describing key use cases and code samples.
 
-But I still thinks metrics are valuable. Every essay I ever wrote in high school and college needed some kind of score to make sense (*is it an A, B, C?*). If you've ever not received a grade from a teacher, only comments, you can probably relate how difficult it is to understand the feedback within a larger context. *So ... was the essay good?*
+But how much weight per criteria, and how do you apply the weight to the score? In my revision, I included weights ranging from 1-3 that get multiplied by the score (0-5). This means that for more important criteria in the docs, their score can be 15, while less important criteria can score only 5. If you need to omit one of the criteria because it doesn't apply, put its weight as 0 in the spreadsheet. This will remove it from the overall score calculations.
+
+Because weighting is a highly subjective area, in [the spreadsheet templates I created for calculating scores](/learnapidoc/docapis_metrics_templates.html), you can easily adjust the weighting as you see fit and the other calculations will follow.
 
 ## Observation 8: Checklists aren't scannable
 
@@ -55,7 +55,7 @@ Checklists should be more scannable. I added bold summaries for each checklist i
 
 My initial page on measuring impact was about 8,000 words. I'm impressed that so many people actually read it from beginning to end. However, I decided to make the content more readable by breaking it up into multiple pages, especially now that I have two checklists. I moved the content out of the processes section into its own section on [Metrics and measurement](/learnapidoc/docapis_metrics_and_measurement). Now this section is about five pages total.
 
-I plan to expand this section with additional info on metrics that go beyond documentation quality, though I don't have definitive plans for topics. I'm still trying to figure out what actually works when measuring API documentation quality. I'm not there yet. My content in this course is on the practical &mdash; the techniques should actually work in practice, not just be theoretical.
+I plan to expand this section with additional info on metrics that go beyond documentation quality, though I don't have definitive plans for topics. I'm still trying to figure out what actually works when measuring API documentation quality. I'm not there yet. (My content in this course is on the practical &mdash; the techniques should actually work in practice, not just be theoretical.)
 
 However, I have an idea about some other topics. Some people have asked for guidance on analyzing and interpreting web metrics, such as time on page or most popular pages. That will probably be my next focus.
 
