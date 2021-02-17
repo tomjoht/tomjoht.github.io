@@ -3,6 +3,7 @@ title: "Finished up the section on documentation processes (for now)"
 permalink: /blog/documentation-processes-articles-in-api-course/
 categories:
 - api-doc
+- apidoc-site-updates
 keywords: documentation processes API
 date: 2020-11-26 08:00:00.000000000 -08:00
 rebrandly: https://idbwrtng.com/documentation-processes

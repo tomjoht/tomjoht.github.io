@@ -6,6 +6,7 @@ categories:
 - podcasts
 - stitcher
 - technical-writing
+- apidoc-site-updates
 keywords: usability, API, design web
 bitlink: https://idratherbewriting.site/webdesignusabilityal
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/api_design_usability_arnaud.mp3

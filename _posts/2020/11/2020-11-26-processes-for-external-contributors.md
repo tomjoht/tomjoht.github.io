@@ -3,6 +3,7 @@ title: "New API course article: Processes for external contributors"
 permalink: /blog/processes-for-external-contributors/
 categories:
 - technical-writing
+- apidoc-site-updates
 keywords: culture, environment, executive support
 date: 2020-11-26 06:00:00.000000000 -08:00
 rebrandly: https://idbwrtng.com/processes-for-external-contributors

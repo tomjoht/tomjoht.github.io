@@ -3,6 +3,7 @@ title: "Site update: Switched from Disqus to Commento"
 permalink: /blog/switch-from-disqus-to-commento/
 categories:
 - innovation
+- apidoc-site-updates
 keywords:
 rebrandly: https://idratherbewriting.site/disqustocommento
 description: "I recently switched the commenting service on this blog from Disqus to Commento. Commento is a lightweight commenting service that doesn't insert a bunch of scripts with each page load. It also makes it easier to comment."

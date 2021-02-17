@@ -2,6 +2,7 @@
 title: "Upcoming API workshops in Raleigh (April 6) and Denver (May 5)"
 categories:
 - api-doc
+- apidoc-site-updates
 keywords:
 bitlink: http://bit.ly/upcomingapiworkshopstom
 description: "I'm giving a couple of API workshops soon. The first workshop is April 6, 2019, in Raleigh, North Carolina, offered through STC Carolina. The second workshop is in Denver on May 5, as a pre-conference workshop before the STC Summit. "

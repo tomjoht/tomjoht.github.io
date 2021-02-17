@@ -3,6 +3,7 @@ title: "Upcoming API Documentation Workshop in Los Angeles, Calif., on January 2
 permalink: /blog/upcoming-api-documentation-workshop-los-angeles-jan-23/
 categories:
 - api-doc
+- apidoc-site-updates
 keywords:
 bitlink: https://idratherbewriting.site/apidocworkshoplajan23
 description: "I'm giving an <a href='https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089'>API Documentation Workshop</a> in Los Angeles, California, on January 23, 2020. Details are below. You can <a href='https://www.eventbrite.com/e/api-documentation-workshop-los-angeles-jan-23-2020-tickets-84487066089'>register on Eventbrite here</a>."

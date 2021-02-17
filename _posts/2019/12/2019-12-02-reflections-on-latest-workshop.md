@@ -2,6 +2,7 @@
 title: "Reflecting on my latest SF API doc workshop"
 categories:
 - api-doc
+- apidoc-site-updates
 keywords:
 bitlink: https://idratherbewriting.site/reflectionssfworkshop
 description: "Last week I gave another API documentation <a href='https://idratherbewriting.com/blog/upcoming-api-doc-workshop-san-francisco-nov-19/'>workshop in downtown San Francisco</a>. This was the second API doc workshop that I fully organized from start to finish myself, and overall it went pretty well. In this post, I want to reflect on a few of the things I learned."

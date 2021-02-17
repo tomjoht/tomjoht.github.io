@@ -1,0 +1,12 @@
+---
+title: "API doc site updates"
+permalink: /category-apidoc-site-updates/
+categoryName: API doc site updates
+---
+
+<p>The following content is in the <b>{{page.categoryName}}</b> category:
+
+    {% for p in site.categories.apidoc-site-updates %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endfor %}

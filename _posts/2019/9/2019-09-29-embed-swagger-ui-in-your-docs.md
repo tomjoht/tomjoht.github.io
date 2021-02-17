@@ -3,6 +3,7 @@ title: "Expanding embedded Swagger UI instances in your docs"
 permalink: /blog/embed-swagger-ui-in-your-docs/
 categories:
 - api-doc
+- apidoc-site-updates
 keywords: write the docs, podcast, documentation, language, gender
 bitlink: https://idratherbewriting.site/expandswaggerfullscreen
 description: "One challenge with REST API docs, if you're generating out the reference content using Open API, is how to embed Swagger UI in your docs in a seamless way that doesn't look like a website within a website. In this post, I explain how to embed a Navigation toggle to hide your sidebar and give more width to the embedded Swagger UI display."

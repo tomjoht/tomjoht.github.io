@@ -7,6 +7,8 @@ mytags:
   url: /category-academics-and-practitioners/
 - title: API documentation
   url: /category-api-doc/
+- title: API doc site updates
+  url: /category-apidoc-site-updates/
 - title: Beginner tips, career advice
   url: /category-beginners/
 - title: Biking

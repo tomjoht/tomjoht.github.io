@@ -3,6 +3,7 @@ title: "New API course article: Processes for changing internal doc culture"
 permalink: /blog/processes-for-improving-documentation-culture/
 categories:
 - technical-writing
+- apidoc-site-updates
 keywords: external contributors, pull requests
 date: 2020-11-26 07:00:00.000000000 -08:00
 rebrandly: https://idbwrtng.com/processes-for-internal-culture
