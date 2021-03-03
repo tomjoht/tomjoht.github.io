@@ -65,7 +65,7 @@ Some terms that might be unfamiliar to users include the following:
 
 In just two sentences, there are half a dozen specialized terms. Is it any wonder why tech docs can be so dense and inaccessible? How can we simplify the content so that users can understand what we're saying?
 
-{% include course_image.html size="medium" filename="jargon" ext_print="svg" ext_web="svg" alt="Without a mutual understanding of terms, the effectiveness of communication plummets" caption="Without a mutual understanding of terms, the effectiveness of communication plummets" %}
+{% include course_image.html size="medium" filename="jargon-01" ext_print="svg" ext_web="svg" alt="Without a mutual understanding of terms, the effectiveness of communication plummets" caption="Without a mutual understanding of terms, the effectiveness of communication plummets" %}
 
 First, we have to identify terms that might be unfamiliar. A term on its own isn't familiar or unfamiliar &mdash; it can only be familiar/unfamiliar in the context of an audience. So the question is, *for our intended audience*, which terms will be unfamiliar?
 
