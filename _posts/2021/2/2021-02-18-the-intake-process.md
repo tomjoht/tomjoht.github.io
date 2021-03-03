@@ -6,6 +6,7 @@ permalink: /blog/who-can-make-documentation-requests/
 keywords:
 description: "In my API course, I defined intake processes for <a href='https://idratherbewriting.com/learnapidoc/docapis_managing_doc_projects.html'>large documentation projects</a> and <a href='https://idratherbewriting.com/learnapidoc/docapis_managing_small_doc_requests.html'></a>small requests. However, I recently realized a major flaw in the process for small doc requests -- who can make the documentation request. In a nutshell, if you let anyone make doc requests, you can end up saddled with tasks to create documentation for which you lack information. If you instead require product teams to make the requests, you're more likely to get the information you need upfront."
 rebrandly: https://idbwrtng.com/docrequests
+published: false
 ---
 
 ## The scenario
