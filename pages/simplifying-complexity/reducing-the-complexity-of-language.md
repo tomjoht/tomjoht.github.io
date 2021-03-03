@@ -217,7 +217,7 @@ The idea that language shapes thought isn't new. The Sapir-Wharf hypothesis argu
 
 Opponents to Whorfianism admit that language has a *tiny* influence on the shape of our thoughts, but not much. For example, John McWhorter says Whorfianism (aka [linguistic relativism](https://en.wikipedia.org/wiki/Linguistic_relativity)) is mostly hogwash and can lead to dangerous generalizations about cultures. For example, one might conclude that advanced philosophy &mdash; so common among European societies &mdash; is evidence of a superior language and culture (see [No, Your Language Doesn’t Influence How You Experience the World](http://www.slate.com/articles/podcasts/lexicon_valley/2014/07/lexicon_valley_the_language_hoax_by_linguist_john_mcwhorter_takes_on_the.html)).
 
-I'm no expert on Whorfianism, but as far as I know, the topic hasn't been examined with *programming languages** in mind. Could it be that immersion in programming languages impacts that shape of one's thoughts in ways that make programmers less articulate? Is this how tech docs get into such a bad state to begin with?
+I'm no expert on Whorfianism, but as far as I know, the topic hasn't been examined with *programming languages* in mind. Could it be that immersion in programming languages impacts that shape of one's thoughts in ways that make programmers less articulate? Is this how tech docs get into such a bad state to begin with?
 
 Without more evidence and research, it's difficult to draw conclusions. I can only speculate on the reasons why so many engineers dislike writing and tend to be poor at it.
 
