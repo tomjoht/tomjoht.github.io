@@ -5,7 +5,7 @@ categories:
 permalink: /blog/analyze-doc-portals-by-looking-at-user-journeys/
 keywords:
 description: "Podcast 104 - Fixing broken developer portals, in Ellis Pratt's Cherryleaf podcast, is well worth listening to. Ellis explains a strategy of analyzing developer portals by looking at the developer journeys within the portal and identifying gaps or friction points in that journey."
-bitlink:
+rebrandly: https://idbwrtng.com/fixingdocportalsdevjourneys
 ---
 
 You can listen to the Cherryleaf episode here: [Podcast 104: Fixing broken developer portals](https://www.cherryleaf.com/2021/03/podcast-104-fixing-broken-developer-portals/) or through the player embedded below:

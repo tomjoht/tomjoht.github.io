@@ -5,7 +5,7 @@ categories:
 permalink: /blog/life-story-what-shapes-your-lifes-trajectory/
 keywords:
 description: "The paths I took in life depend in part of the family dynamics of my childhood, my interest in writing, and a career in tech. In this post, I try to trace the lines from my childhood to present day to understand what pulled me in the directions I took."
-bitlink:
+rebrandly: https://idbwrtng.com/lifestory
 ---
 
 ## Introduction
@@ -44,7 +44,7 @@ Best of all, the trailer park was adjacent to a large field close to the Skagit 
 
 More than anything about my childhood, I remember the freedom to go where I wanted on my bike, my motorcycle, and on foot. This was a time before social media and the Internet &mdash; you could just roam around places, freely, wherever you wanted to pedal your bike or go. There's an exhilaration as a kid about being free and independent, making your own choices about where you go.
 
-My parents were always amicable after the divorce, so as a child there wasn't a lot of emotional conflict. However, my dad was taciturn not so easy going. He suffered from bouts of anger when he would drop something (cursing a fallen pan, for instance), and often kept his thoughts to himself. He would pick up books at garage sales and read them late into the night. He maintained a lifelong love of literature and the religious aesthetic. He liked to drive his truck on long slow routes to see new areas. He was always kind of a loner and socially awkward.
+My parents were always amicable after the divorce, so as a child there wasn't a lot of emotional conflict. However, my dad was taciturn and not so easy going. He suffered from bouts of anger when he would drop something (cursing a fallen pan, for instance), and often kept his thoughts to himself. He would pick up books at garage sales and read them late into the night. He maintained a lifelong love of literature and the religious aesthetic. He liked to drive his truck on long slow routes to see new areas. He was always kind of a loner and socially awkward.
 
 Living with my dad was all right, but after I graduated from 8th grade, I decided I wanted to go to Tacoma to live with my mom. The prospect of going to a new city, outside of Burlington, excited me &mdash; the adventure of the unknown. And I guess I missed my mother. She was easier to live with, more easy going, supportive, and loving. Since my school was a K-8 school, making this transition after graduation made sense.
 
