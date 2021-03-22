@@ -17,7 +17,7 @@ podcast_length: "21941073"
 
 ## Video
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/bmGu01opVZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/u8I5A6oqSzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Audio
 
