@@ -10,9 +10,9 @@ keywords: flare, micro content, documentation, snippets
 rebrandly: https://idbwrtng.site/microcontentflarekate
 description: "In this videocast, I chat with Kate Schneider about micro content and Flare. Kate shares micro content examples from her current documentation and explains the strategies she considers when creating micro content. She shows specifically how to leverage analytics in determining micro content topics."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/scheider_flare_microcontent2.mp3
-podcast_file_size: "22.6 MB"
-podcast_duration: "31:10"
-podcast_length: "21941073"
+podcast_file_size: "22.4 MB"
+podcast_duration: "31:05"
+podcast_length: "21872021"
 ---
 
 ## Video
