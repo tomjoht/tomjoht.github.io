@@ -41,12 +41,12 @@ layout: null
             {% endfor %}
             <guid isPermaLink="{% if ep.podcast_guid %}false{% else %}true{% endif %}">{{ site.url }}{% if ep.podcast_guid %}/{{ ep.podcast_guid }}{% else %}{{ ep.url }}{% endif %}</guid>
             <description>
-                <![CDATA[{{ ep.description | cdata_escape }}]]>
+                <![CDATA[{{ ep.description | strip_html | truncatewords: 100 | expand_urls: site.url | cdata_escape  }}]]>
             </description>
 
             <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
             <itunes:subtitle>{{ ep.description | strip_html | truncatewords: 30 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
-            <itunes:summary>{{ ep.description | expand_urls: site.url | cdata_escape }}</itunes:summary>
+            <itunes:summary>{{ ep.description | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape  }}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
             <itunes:image href="{{ site.podcast_album_art }}" />
             <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
