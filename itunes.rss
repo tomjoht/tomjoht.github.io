@@ -24,7 +24,7 @@ layout: null
       <itunes:email>tomjoht@gmail.com</itunes:email>
     </itunes:owner>
 
-        {% for ep in site.categories.podcasts limit:50 %}
+        {% for ep in site.categories.podcasts %}
         <item>
             <title><![CDATA[{{ ep.title | cdata_escape }}]]></title>
             <link>{{ site.url }}{{ ep.url }}</link>
