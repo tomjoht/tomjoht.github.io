@@ -1,5 +1,5 @@
 ---
-title: Spec-driven Development with RAML &mdash; presentation by Michael Stowe to STC Silicon Valley chapter
+title: Spec-driven Development with RAML -- presentation by Michael Stowe to STC Silicon Valley chapter
 categories:
 - api-doc
 - podcasts

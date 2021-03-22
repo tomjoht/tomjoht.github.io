@@ -1,5 +1,5 @@
 ---
-title: "WTD Australia event recording &mdash; 'Remote discussion: Techcomm in the times of pandemic'"
+title: "WTD Australia event recording -- 'Remote discussion: Techcomm in the times of pandemic'"
 permalink: /blog/write-the-docs-australia-techcomm-times-of-pandemic/
 categories:
 - academics-and-practitioners

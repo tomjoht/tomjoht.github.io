@@ -1,5 +1,5 @@
 ---
-title: "Podcast: Users as producers of knowledge &mdash; conversation with Nupoor Ranade about how tech writer roles are changing"
+title: "Podcast: Users as producers of knowledge -- conversation with Nupoor Ranade about how tech writer roles are changing"
 permalink: /blog/users-as-producers-of-knowledge-nupoor-ranade/
 categories:
 - academics-and-practitioners
