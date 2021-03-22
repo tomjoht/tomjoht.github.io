@@ -14,8 +14,8 @@ layout: null
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %z" }}</lastBuildDate>
     <itunes:explicit>No</itunes:explicit>
     <itunes:image href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png"/>
-    <itunes:category text="Education">
-        <itunes:category text="How-To" />
+    <itunes:category text="Technology">
+        <itunes:category text="Podcasting" />
     </itunes:category>
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.podcast_description}}</itunes:summary>
@@ -31,8 +31,8 @@ layout: null
             <comments>{{ site.url }}{{ ep.url }}#comments</comments>
             <pubDate>{{ ep.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
             {% for category in ep.categories %}
-            <itunes:category text="Education">
-                <itunes:category text="How-To"/>
+            <itunes:category text="Technology">
+                <itunes:category text="Podcasting"/>
              </itunes:category>
             <category>{{ category | cdata_escape }}</category>
             {% endfor %}
@@ -44,7 +44,7 @@ layout: null
                 <![CDATA[{{ ep.description | strip_html | truncatewords: 100 | expand_urls: site.url | cdata_escape  }}]]>
             </description>
 
-            <enclosure url="{{ ep.podcast_link }}" length="{{ ep.podcast_length }}" type="audio/mpeg" />
+            <enclosure url="{{ ep.podcast_link }}" type="audio/mpeg" />
             <itunes:subtitle>{{ ep.description | strip_html | truncatewords: 30 | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
             <itunes:summary>{{ ep.description | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape  }}</itunes:summary>
             <itunes:author>{{ site.podcast_author }}</itunes:author>
