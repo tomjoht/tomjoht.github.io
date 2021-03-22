@@ -2,7 +2,6 @@
 title: "How to become a 10X technical writer in the workplace"
 categories:
 - podcasts
-- stitcher
 - technical-writing
 - innovation
 - writing

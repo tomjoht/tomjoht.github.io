@@ -3,7 +3,6 @@ title: "Discoveries and realizations while walking down the Docs-as-Code path"
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 description: "This past week I had some good discussions with developers about the right directions in our doc-as-code project at work. I say good discussions, but actually they were challenging. The outcome led me to realize more details about embracing docs as code. The more you treat docs as code, the more you may have to set aside some common tech writer models of handling content and instead embrace the software code workflows entirely. Some of these principles include storing only source code in repositories, building from a build management system, and reducing build pipelines to work with 1 or 2 larger repositories only."
 bitlink: http://bit.ly/docsascodepathrealizations

@@ -3,7 +3,6 @@ title: "The key to writing good documentation: Testing your instructions"
 categories:
 - technical-writing
 - podcasts
-- stitcher
 tags: [series_testing_documentation]
 series: Testing your documentation
 jtype: notes_testing_documentation
@@ -20,9 +19,7 @@ podcast_length: 39876989
 
 {% include series/seriesTagTestingDocs.html %}
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/testing_instructions.mp3" type="audio/mpeg" /></audio></p>
-
-You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/testing_instructions.mp3" alt="Testing instructions">download the MP3 file here</a>.
+{% include audio.html %}
 
 ## Testing overview
 

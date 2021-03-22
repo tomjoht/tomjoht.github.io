@@ -3,7 +3,6 @@ title: "Articulating stories that influence product adoption (new article in Sim
 categories:
 - simplifying-complexity
 - podcasts
-- stitcher
 keywords:  rhetoric, influence, motivation, story, narrative
 description: "I added a new article in my ongoing series about simplifying complexity. The article is called <i>Articulating the invisible stories that influence product adoption or rejection</i> and explores why adoption of our products among users doesn't often live up to our expectations. I argue that we need to articulate the story we're telling about the product as well as the story users tell, and identify whether the two are in alignment. Note that you can both read and listen to this article, since I created an audio recording for it."
 bitlink: http://bit.ly/articulatingstories

@@ -3,7 +3,6 @@ title: "The complexities of translation and the need for dynamic variables in th
 categories:
 - api-doc
 - podcasts
-- stitcher
 - jekyll
 description: "Translation is a complex undertaking that usually requires you to take advantage of dynamic variables and other parameters in your source format in order to generate out different languages. Although most people think of static site generators as containing static content only, it's actually only static output. During the build process, you can take advantage of these more dynamic characteristics to handle rules for outputting to different languages. In this post, I explain some of the details you have to account for (includes, links, images, re-used content, etc.) when managing a translation project using a static site generator such as Jekyll."
 date: 2016-08-15
@@ -19,12 +18,7 @@ podcast_length: 11948010
 bitlink: http://bit.ly/ssgtranslationcomplexities
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ssgtranslationcomplexity.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ssgtranslationcomplexity.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 I mentioned in previous posts that I was tackling translation with static site generators, and that I would circle back around on this topic to provide more detail (see [Will the docs-as-code approach scale?](https://idratherbewriting.com/2016/08/01/responding-to-feedback-on-modern-tech-writing-review/)).
 

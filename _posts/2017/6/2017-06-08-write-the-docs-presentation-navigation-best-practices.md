@@ -2,7 +2,6 @@
 title: "Recording of my WTD Portland 2017 presentation on Building navigation for your doc site -- 5 best practices"
 categories:
 - findability
-- stitcher
 - podcasts
 keywords:
 description: "Here's the recording of the presentation I gave at the Write the Docs 2017 Portland conference. The presentation explores best practices for doc navigation, including principles such as hierarchy, modularity, progressive disclosure, entry point, and wayfinding. The presentation is about 20 minutes long, and you can either watch a video or listen to audio. Other WTD presentation recordings are also available."

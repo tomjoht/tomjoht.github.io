@@ -2,7 +2,6 @@
 title: "Why Programming Sucks and the fallacy of documentation in the context of code chaos"
 categories:
 - podcasts
-- stitcher
 keywords: peter welch, programming, documentation, chaos, order
 description: "Yesterday on Write the Docs, someone shared an article titled Programming Sucks, by Peter Welch. More than just a developer monologue, this article seems to hit on universal truths about programming, so much so that the article has been translated into 10 languages and even has a professionally-read audio version on iTunes (which I bought for $2)."
 bitlink: http://bit.ly/progchaos
@@ -18,13 +17,7 @@ podcast_duration: "7:28"
 podcast_length: 5797577
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/programming-sucks-fallacy.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/programming-sucks-fallacy.mp3" alt="Why Programming Sucks and the fallacy of documentation in the context of code chaos">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
-
+{% include audio.html %}
 
 You can read Peter Welch's essay here: [Programming Sucks](http://www.stilldrinking.org/programming-sucks).
 
@@ -59,5 +52,3 @@ But programming isn't like this clear line of logic -- at least according to Wel
 Is documentation, then, an illusion? A fiction that forces a narrative fallacy onto a programmer's world, not entirely describing the programmer's true task and challenges, and in so doing causing programmers to reject documentation (as well as writing it) in the first place? I think in part, yes.
 
 I'm not suggesting that documentation try to let go of that clear line pointing from A to B, but there might be something to the chaos of code that runs counter to the task-based steps we so carefully like to draw out. Perhaps we should not insist so sharply on the [fictitious?] steps in our documentation? Then again, perhaps this idea of order through documentation is the only thing that keeps programmers from entering total insanity.
-
-

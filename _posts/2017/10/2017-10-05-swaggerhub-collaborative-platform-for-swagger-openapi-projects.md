@@ -4,7 +4,6 @@ categories:
 - api-doc
 - writing
 - podcasts
-- stitcher
 keywords: swaggerhub, swagger, openapi specification, open api
 description: "When documenting REST APIs, the OpenAPI specification (formerly called Swagger) is pretty much the default standard. Yet learning the OpenAPI spec is not a trivial undertaking and requires significant ramp-up. SwaggerHub is a tool can reduce the complexity in creating your OpenAPI spec file because it enables collaboration between both developers and technical writers. This collaboration not only helps compensate for gaps in understanding with the spec, SwaggerHub also offers many other features (such as versioning, content re-use, inline commenting, and more) to make the authoring and publishing experience easier."
 bitlink: http://bit.ly/swaggerhubcollabplatform

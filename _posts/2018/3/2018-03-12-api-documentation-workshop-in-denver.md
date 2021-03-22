@@ -3,7 +3,6 @@ title: "Recording of API documentation workshop in Denver"
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 description: "I recently gave a half-day API workshop in Denver on March 10, 2018. Topics in the workshop included how to document reference API content (endpoints, parameters, requests, etc.), what non-reference topics (for example, status and error codes, rate limiting, getting started, sample apps) are common, how to create an OpenAPI specification document and Swagger UI output, and more. You can view a recording of the workshop, browse the slides, and listen to the audio here. Because of the length, the content is divided into three parts."
 bitlink: http://bit.ly/apiworkshopdenvertomrecording
@@ -63,12 +62,7 @@ The recording of the workshop is divided into three parts. Each of these section
 
 If you're driving across the country and you want to listen to all audio combined into one consolidated file (consisting of parts I, II, and III), you can do so here:
 
-<div class="audioControls">
-<p><audio controls="controls"><source src="{{page.podcast_link}}" type="audio/mpeg" /></audio></p>
-
-<p>As always, you can <a href="{{page.podcast_link}}" alt="{{page.title}}">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
-
+{% include audio.html %}
 
 ## Slides
 

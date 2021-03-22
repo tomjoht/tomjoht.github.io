@@ -5,14 +5,14 @@ keywords: roles, technical writing, tech comm organization, sanborn hodgkins, vm
 description: "Sanborn Hodgkins gave a presentation to the STC Silicon Valley chapter called <i>Shape of a Modern Technical Communication Organization</i> on April 18. In the presentation, she highlights the variety of roles &mdash; editor, videographer, information architect, content strategist, manager, writer, tools developer, and others &mdash; that tech comm organizations need to thrive."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/shapeorgthumb.png
 date: 2016-04-24
-categories: podcasts
+categories:
+- podcasts
 tags:
 - technical writing
 - video
 - documentation
 - management
 - technical communication
-- stitcher
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/sanbornvoiceonly.mp3
 podcast_file_size: 44.2 MB
@@ -26,7 +26,7 @@ Here's a description of the presentation:
 
 > Modern writing organizations need skills very different from basic writing. This session will cover the job roles and skills that your organization might need to adopt best practices. For example: content strategy, analytics, web and app development, taxonomist, linguists, etc, and how can you best incorporate these new skills and roles to partner with your writing team.
 
-For more details, see the [STC Silicon Valley event post](http://www.stc-siliconvalley.org/2016/03/20/shape-of-a-modern-tech-pubs-org/). 
+For more details, see the [STC Silicon Valley event post](http://www.stc-siliconvalley.org/2016/03/20/shape-of-a-modern-tech-pubs-org/).
 
 ## Slides
 
@@ -38,6 +38,4 @@ For more details, see the [STC Silicon Valley event post](http://www.stc-silicon
 
 ## Audio file
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/sanbornvoiceonly.mp3" type="audio/mpeg" /></audio></p>
-
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/sanbornvoiceonly.mp3" alt="Sanborn Hodgkin on the shape of a modern technical communication organization">download the MP3 file here</a>.
+{% include audio.html %}

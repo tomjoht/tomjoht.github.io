@@ -3,7 +3,6 @@ title: "Recording of User-Centered Design Principles for Organizing Documentatio
 categories:
 - findability
 - podcasts
-- stitcher
 keywords:
 date: 2017-02-18
 tags:

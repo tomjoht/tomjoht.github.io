@@ -2,7 +2,6 @@
 title: "Corporate exodus narratives: A close look at the tension between the corporation and academia"
 categories:
 - academics-and-practitioners
-- stitcher
 - podcasts
 keywords: academics, practitioners, corporation, tension, inside look at professors
 bitlink: http://bit.ly/corporateexodusnarratives

@@ -2,7 +2,6 @@
 title: "Recording for Menlo Park API documentation workshop now available -- and some thoughts on using cardioid versus omnidirectional microphones for recording"
 categories:
 - api-doc
-- stitcher
 - podcasts
 keywords:
 description: "The recording for the full-day API workshop that I recently gave in Menlo Park, California, is now available. This recording provides more than 5 hours of instruction about writing API docs -- for free. I also share some thoughts on cardioid versus omnidirectional microphones, and which is better in a workshop setting. The audio narration of this post switches around the microphones so you can hear the difference."

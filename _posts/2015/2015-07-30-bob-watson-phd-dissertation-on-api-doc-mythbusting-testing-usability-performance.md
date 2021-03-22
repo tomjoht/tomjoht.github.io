@@ -3,7 +3,6 @@ title: "Podcast: How do design, length, and relevance affect how people use API 
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords: bob watson, api usability, reference docs, design, performance, relevance, usability, testing, mythbusting
 tags: [series_testing_documentation]
 series: Testing your documentation
@@ -26,9 +25,7 @@ bitlink: http://bit.ly/bobwatsonpodcast
 
 ## Listen to the podcast
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3?https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/bobwatson_apidocs.mp3" type="audio/mpeg" /></audio></p>
-
-You can <a href="https://www.podtrac.com/pts/redirect.mp3?https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/bobwatson_apidocs.mp3" alt="Bob Watson podcast on API docs">download the MP3 file here</a>.
+{% include audio.html %}
 
 ## Summary
 

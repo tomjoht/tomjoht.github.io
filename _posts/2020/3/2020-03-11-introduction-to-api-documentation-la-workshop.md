@@ -9,7 +9,6 @@ rebrandly: https://idratherbewriting.site/introapidoclaworkshop
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords: API documentation, trends, surveys, postman, making requests
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/la_workshop_intro_section.mp3
 podcast_file_size: "69.2 MB"

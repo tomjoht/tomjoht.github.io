@@ -16,7 +16,6 @@ categories:
 - podcasts
 - quick-reference-guides
 - screencasting
-- stitcher
 - user-centered-documentation
 - video
 - visual-communication

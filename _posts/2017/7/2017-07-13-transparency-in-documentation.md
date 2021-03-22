@@ -2,7 +2,6 @@
 title: "Transparency in documentation: dealing with limits about what you can and cannot say"
 categories:
 - technical-writing
-- stitcher
 - podcasts
 keywords:
 description: "Although traditionally as a technical writer you don't run into too many ethical scenarios for docs, sometimes you have situations where your ability to be transparent about a system's limitations gets curtailed by marketing or product management. It can be frustrating to have your documentation filtered like this, but you can take comfort knowing that, given the decentralized nature of information on the web, where any user can post information in forums, blogs, and other sites, the information filtered out of your docs will eventually be published online (it just might not be published by you)."
@@ -16,12 +15,7 @@ podcast_length: 14580735
 bitlink: http://bit.ly/transparencyindocs
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/transparencyindocs.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/transparencyindocs.mp3" alt="The complexities of translation and the need for dynamic systems in the build process">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 ## Sample scenario with documentation and transparency
 

@@ -3,7 +3,6 @@ title: "Podcast: Dealing with Project Overload -- Strategies to Manage Overflowi
 permalink: /blog/dealing-with-project-overload/
 categories:
 - podcasts
-- stitcher
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/dealingwithoverload

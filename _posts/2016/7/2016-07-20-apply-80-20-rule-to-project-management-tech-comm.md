@@ -4,7 +4,6 @@ categories:
 - technical-writing
 - innovation
 - podcasts
-- stitcher
 keywords: Tim Ferriss, project management, productivity, efficiency, 4-hour work week, kanban
 description: "Principles in Tim Ferriss' book The 4-Hour Work Week can be applied to tech comm projects. By focusing on the 20% of tasks that result in 80% of the results, limiting your focus to two mission critical tasks a day, empowering those around you to make decisions, and avoiding distractions from trivial tasks, meetings, and email, you can be much more productive in your work. More than crossing off a list of tasks, this approach will likely make your efforts matter."
 date: 2016-07-20
@@ -21,12 +20,7 @@ podcast_length: 7755917
 bitlink: http://bit.ly/ferrisfourhourtcprojects
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/four-hour-projects.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/four-hour-projects.mp3" alt="Applying 4-hour work week rules to tech comm projects">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 I've written previously about the [inefficiency of context-switching](https://idratherbewriting.com/2016/07/13/context-switching-and-efficiency/) and how Kanban can regulate the flow of tasks.
 

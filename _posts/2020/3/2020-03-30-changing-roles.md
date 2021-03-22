@@ -4,7 +4,6 @@ permalink: /blog/evolving-roles-of-technical-wrters/
 categories:
 - academics-and-practitioners
 - podcasts
-- stitcher
 - api-doc
 - technical-writing
 keywords: academics

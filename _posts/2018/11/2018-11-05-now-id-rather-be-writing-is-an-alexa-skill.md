@@ -3,7 +3,6 @@ title: "I'd Rather Be Writing is now an Alexa Flash Briefing skill"
 categories:
 - technical-writing
 - writing
-- stitcher
 keywords:
 description: "Now you can listen to the latest narrated post on I'd Rather Be Writing as an Alexa Flash Briefing skill. This means you can listen to my audio content through your Echo device."
 bitlink: http://bit.ly/alexaskillidratherbewriting

@@ -3,7 +3,6 @@ title: "How do you communicate user progress in a course without a Learning Mana
 categories:
 - writing
 - podcasts
-- stitcher
 keywords: lms, user progress, learning management system, motivation, goals, course, api documentation
 bitlink: http://bit.ly/communicateprogress
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png

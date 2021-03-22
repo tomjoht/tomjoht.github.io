@@ -4,7 +4,6 @@ permalink: /blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords: API documentation, trends, surveys, postman, making requests
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/devdoctrendswebinar.mp3
 podcast_file_size: "51.4 MB"

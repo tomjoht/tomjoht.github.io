@@ -2,7 +2,6 @@
 title: "Thoughts on Transforming Documentation Processes presentation at WTD: Evaluating the trend to treat documentation as code"
 categories:
 - podcasts
-- stitcher
 keywords: Riona Macnamara, documentation processes, Write the Docs conference, transformation, documentation trends, doc as code, openness, collaboration
 description: "At the last Write the Docs conference, Riona Macnamara, a tech writer working on internal developer documentation at Google, moderated a panel about transforming your documentation process. The panel consisted of four writers from various companies -- Balsamiq, Rackspace, Microsoft, and Twitter. The panelists talked about how they increased collaboration and openness in their company's doc culture by transforming their authoring and publishing processes. Most of these transformations involved adopting a 'docs as code' type approach, which seems to be a growing trend."
 bitlink: http://bit.ly/treatingdocascode
@@ -18,12 +17,7 @@ podcast_duration: "09:56"
 podcast_length: 8053544
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/transforming-doc-processes.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/transforming-doc-processes.mp3" alt="Thoughts on Transforming Documentation Processes presentation at WTD: Evaluating the trend to treat documentation as code">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 You can watch the [Transforming Your Documentation Process](https://www.youtube.com/watch?v=Y2TGwUPb8R4) presentation here:
 
@@ -91,4 +85,3 @@ At the end of the day, though, good documentation -- the kind engineers would fi
 Once published, maintaining docs requires regular updates, constant vigilance, and more. You need to keep aware of forum threads, support cases, newly added tickets, code changes, and more. All of this takes time and perseverance.
 
 Good documenation is not easy to write -- too often we look for a magic bullet with tools to solve our problems. Tools won't solve the problem of poor documentation. At times tools alleviate some of the burdens of the authoring process, but at the end of the day, it's the content you create that determines whether your documentation is helpful or not. Tools do not create content. People do.
-

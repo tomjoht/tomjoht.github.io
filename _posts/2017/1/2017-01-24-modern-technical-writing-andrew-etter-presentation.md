@@ -3,7 +3,6 @@ title: "Recording: Modern Technical Writing, by Andrew Etter (STC Silicon Valley
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 date: 2017-01-24
 tags:

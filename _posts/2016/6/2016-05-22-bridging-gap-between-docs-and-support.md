@@ -10,7 +10,6 @@ tags:
 - technical writing
 - documentation
 - technical communication
-- stitcher
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3
 podcast_file_size: 18.5 MB
@@ -23,8 +22,8 @@ At the May WTD meetup, [Neal Kaplan](https://customersandcontent.com/) gave a pr
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1MtcHfK2M_I" frameborder="0" allowfullscreen></iframe>
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3" type="audio/mpeg" /></audio></p>
+{% include audio.html %}
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3" alt="Neal Kaplan">download the MP3 file here</a> and view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
+You can view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
 
 You can learn more about Neal Kaplan at his blog: [Customers and Content](https://customersandcontent.com/).

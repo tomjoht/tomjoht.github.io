@@ -4,7 +4,6 @@ permalink: /blog/users-as-producers-of-knowledge-nupoor-ranade/
 categories:
 - academics-and-practitioners
 - podcasts
-- stitcher
 - api-doc
 keywords: academics
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/usersasproducers_nupoor_ranade.mp3

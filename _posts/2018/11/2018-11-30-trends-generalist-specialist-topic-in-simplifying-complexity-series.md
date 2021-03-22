@@ -2,7 +2,6 @@
 title: "New post in Simplifying Complexity series -- Principle 11: Be both a generalist and specialist at the same time"
 categories:
 - simplifying-complexity
-- stitcher
 - podcasts
 keywords:
 description: "In my Simplifying Complexity series, I added a new post called, Principle 11: Be both a generalist and specialist at the same time. I also recorded this essay as a narrated podcast."

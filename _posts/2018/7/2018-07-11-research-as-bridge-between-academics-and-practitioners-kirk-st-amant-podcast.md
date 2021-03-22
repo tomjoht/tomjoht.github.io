@@ -3,7 +3,6 @@ title: "The relationship between academics and practitioners -- Podcast with Kir
 categories:
 - academics-and-practitioners
 - podcasts
-- stitcher
 keywords: usability, twilio, user experience
 description: "In this podcast, I chat with Professor <a href='#kirk_st_amant'>Kirk St. Amant</a> about the relationship between practitioners and academics. Kirk recently co-authored an article about research as a unifying focus to bring academics and practitioners together. Using this article as the basis for discussion, we dive into origins of the divide, why both practitioners and academics of the same field need each other, potential solutions, and more."
 bitlink: http://bit.ly/practitioneracademicrelationships

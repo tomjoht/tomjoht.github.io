@@ -2,7 +2,6 @@
 title: "Tech docs and Agile: Alternatives to integrating into engineering Scrums (Part 2)"
 categories:
 - technical-writing
-- stitcher
 - podcasts
 keywords: Agile
 description: "This is part two in a series on Agile and tech docs. In the previous post, I outlined challenges in integrating into engineering Scrum teams. Some alternatives to Scrum include Kanban, Extreme programming, Waterfall, and various productivity methodologies. The most compelling solution, to me, seems to be to form your own documentation-focused Scrum. This allows you to keep with the same project management approach and language in the company, while also allowing you to avoid the pitfalls previously described with integrating into an engineering Scrum. Even so, there's not an extremely compelling reason for docs to adopt Scrum, so its main aid might be to give you a disciplined approach to your doc work."

@@ -4,7 +4,6 @@ permalink: /blog/podcast-colman-playing-product-design-roles-as-a-content-design
 categories:
 - technical-writing
 - podcasts
-- stitcher
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/podcastcolmancontentdesign

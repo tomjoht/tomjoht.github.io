@@ -4,7 +4,6 @@ permalink: "/blog/api-design-usability-arnaud-lauret-podcast/"
 categories:
 - api-doc
 - podcasts
-- stitcher
 - technical-writing
 - apidoc-site-updates
 keywords: usability, API, design web

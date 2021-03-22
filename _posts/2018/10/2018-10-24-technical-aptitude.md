@@ -3,7 +3,6 @@ title: "Preferring technical acuity over specialized knowledge"
 categories:
 - api-doc
 - podcasts
-- stitcher
 - api-doc
 keywords:
 description: "In the debate between being a specialist or generalist, there's also a third option: developing <i>technical acuity</i>. A person with a high degree of technical acuity has the technical mindset needed to understand and solve problems across a variety of technical domains. Given the ever growing number of technologies, developing technical acuity can be more advantageous, especially in technical writing contexts since technical writers work with a lot of different technologies."

@@ -4,7 +4,6 @@ permalink: /blog/micro-content-and-flare-conversation-with-kate-schneider/
 categories:
 - technical-writing
 - podcasts
-- stitcher
 - writing
 keywords: flare, micro content, documentation, snippets
 rebrandly: https://idbwrtng.site/microcontentflarekate

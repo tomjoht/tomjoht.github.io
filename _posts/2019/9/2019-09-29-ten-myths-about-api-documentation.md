@@ -4,7 +4,6 @@ permalink: /blog/ten-myths-about-api-documentation/
 categories:
 - api-doc
 - podcasts
-- stitcher
 - technical-writing
 keywords:
 bitlink: https://idratherbewriting.site/10mythsapidocs

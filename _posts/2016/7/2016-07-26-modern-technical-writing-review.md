@@ -4,7 +4,6 @@ categories:
 - api-doc
 - book-reviews
 - podcasts
-- stitcher
 keywords:
 description: "In Modern Technical Writing: An Introduction to Software Documentation, which is an e-book you can read on your Kindle, Andrew Etter argues for a model of technical writing that involves lightweight markup languages (like AsciiDoc and Markdown), static site generators (such as Sphinx), distributed version control systems (like Git or Bitbucket), constantly iterating/updating doc content on your website based on analytics, and more. Etter's book resonated with me because it articulates so many of the principles I've felt about how documentation should be."
 date: 2016-07-26
@@ -23,12 +22,7 @@ podcast_length: 8362762
 bitlink: http://bit.ly/moderntechnicalwritingetter
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/modern-technical-writing-etter.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/modern-technical-writing-etter.mp3" alt="Review of Modern Technical Writing by Andrew Etter">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 ## Background
 

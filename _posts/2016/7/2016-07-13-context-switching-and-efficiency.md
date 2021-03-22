@@ -2,7 +2,6 @@
 title: "Context switching and efficiency -- Kanban to the rescue?"
 categories:
 - podcasts
-- stitcher
 keywords: kanban, context switching, waste, efficiency, multi-tasking, projects
 description: "In Become More Productive and Motivated, Mattias Sander provides a well-written overview of Lean, which is a strategy for eliminating waste and focusing more on customer value. What interests me most with Sander's discussion about Lean is context-switching and the subsequent strategy of Kanban, which uses cards to regulate flow. While these principles were developed in the context of Japanese car manufacturers (namely Toyota), they apply equally to the technical writer's world."
 bitlink: http://bit.ly/kanbanandefficiency
@@ -18,12 +17,7 @@ podcast_duration: "07:09"
 podcast_length: 5718142
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/kanban-and-context-switching.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/kanban-and-context-switching.mp3" alt="Context switching and efficiency -- Kanban to the rescue?">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 You can read the article by Mattias Sander here: [Become more productive and motivated](http://techwritingengineer.com/keep-it-lean-become-more-productive-and-motivated/
 ). The article originally appeared in the *ISTC Communicator* (Summer 2016).

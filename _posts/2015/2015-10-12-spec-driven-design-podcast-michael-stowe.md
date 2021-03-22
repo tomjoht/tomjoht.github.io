@@ -3,7 +3,6 @@ title: "Podcast: Spec-driven Development of REST APIs, with a focus on RAML -- i
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 description: "Spec-driven development is an approach to developing REST APIs by first describing and prototyping the API through a specification file (such as RAML or Swagger), and then coding the API. The spec not only serves as a contract for the API's development, it can also generate interaction documentation, unit tests, client SDKs, and provide other benefits."
 date: 2015-10-12
@@ -18,10 +17,6 @@ podcast_duration: "45:48"
 podcast_length: 76933334
 bitlink: http://bit.ly/interactiveapidocsmikestowe
 ---
-<style>
-b {font-size:115%;}
-</style>
-{% include notes.html %}
 
 {{note}} If you're in the Bay area, come listen to Michael Stowe speak tonight (Monday, Oct 12) at the STC Silicon Valley chapter in Santa Clara. See the <a href="http://www.stc-siliconvalley.org/2014/10/09/october-12-2015-spec-driven-development-raml-api-documentation/">meeting details here</a>.{{end}}
 
@@ -31,9 +26,7 @@ In this episode, I interview Michael Stowe, author of [Undisturbed REST: The gui
 
 You can listen to the audio here:
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mikestowe.mp3" type="audio/mpeg" /></audio></p>
-
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/mikestowe.mp3" alt="Undisturbed REST: A guide to designing the perfect API, by Mike Stowe">download the MP3 file here</a>.
+{% include audio.html %}
 
 (The audio is a little choppy in the beginning due to some bit rate issues &mdash; sorry about that.)
 

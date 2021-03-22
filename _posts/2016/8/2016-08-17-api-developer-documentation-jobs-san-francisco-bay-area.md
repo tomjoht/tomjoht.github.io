@@ -3,7 +3,6 @@ title: "Presentation recording: Hunting for API developer documentation jobs in 
 categories:
 - api-doc
 - podcasts
-- stitcher
 - jekyll
 description: "Andrew Davis recently gave a presentation on finding developer documentation jobs (mostly for API documentation) in the San Francisco Bay area. The title of the presentation is Hunting for Dev Doc Work around the Bay. You can listen to the presentation recording, check out the slides, or just download the audio."
 date: 2016-08-15
@@ -55,11 +54,9 @@ Here are the slides. The slides have detailed speaker notes, so be sure to check
 
 ## Audio
 
-Just want the audio? Play it here or <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/huntingdevdoc.mp3">download it</a>.
+Just want the audio? Play it here:
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/huntingdevdoc.mp3" type="audio/mpeg" /></audio></p>
-
-{% include random_ad.html %}
+{% include audio.html %}
 
 ## About Andrew Davis
 

@@ -8,7 +8,6 @@ rebrandly: https://idratherbewriting.site/paligoccmspodcast
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords: paligo, ccms, podcast, content re-use, localization, variants, versions
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/paligo_podcast_ccms.mp3
 podcast_file_size: "21 MB"

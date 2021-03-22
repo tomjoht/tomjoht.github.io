@@ -1,29 +1,23 @@
 ---
-title: "Recent Write the Docs presentation recordings"
+title: "Recording of 'Two great teams that work great together: Bridging the gap between documentation and support,' by Neal Kaplan at Write the Docs"
 categories:
 - technical-writing
+- podcasts
 keywords:
-description: "We recently hosted a Write the Docs meetup in Redwood City with a couple of excellent presenters. Recordings of their presentations are below. I also explain a bit about my new lapel mic and recording process."
+description: "We recently hosted a Write the Docs meetup in Redwood City with a couple of excellent presenters. Below is the recording of Neal Kaplan's presentation. I also explain a bit about my new lapel mic and recording process."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/writethedocsthumb.png
+podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3
 ---
 
 At the meetup, first [Neal Kaplan](https://customersandcontent.com/) gave a presentation titled "Two great teams that work great together: Bridging the gap between documentation and support":
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1MtcHfK2M_I" frameborder="0" allowfullscreen></iframe>
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocssupportwtd.mp3" type="audio/mpeg" /></audio></p>
+{% include audio.html %}
 
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/nealdocsupportwtd.mp3" alt="Neal Kaplan">download the MP3 file here</a> and view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
+You can view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
 
-Then [Ruthie Bendor](https://twitter.com/unruthless), a web engineer, gave a presentation titled "Move Fast And ... Document Things? Lessons learned in building documentation culture at a startup":
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/mMr16fzjY7M" frameborder="0" allowfullscreen></iframe>
-
-(The title is a play on Facebook's old slogan, "Move fast and break things.")
-
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" type="audio/mpeg" /></audio></p>
-
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" alt="Ruthie BenDor">download the MP3 file here</a>.
+You can view the other presentation by Ruthie Bendor here: [Recording of 'Move fast and ... document things'](/2016/05/22/move-fast-and-document-things/).
 
 Having multiple presentations in a short amount of time gives the meetup more energy and interest. At least one attendee commented that he liked this format because it encouraged people to get more quickly to the point.
 

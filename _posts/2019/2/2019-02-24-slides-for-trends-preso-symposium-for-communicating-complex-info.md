@@ -2,7 +2,6 @@
 title: "Recording and slides for my trends presentation at the Symposium for Communicating Complex Information (SCCI)"
 categories:
 - technical-writing
-- stitcher
 - podcasts
 - writing
 keywords: tech comm trends, technical writing trends, jobs, technical skills, writing skills

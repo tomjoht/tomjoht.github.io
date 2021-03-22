@@ -7,13 +7,13 @@ keywords: video documentation, video tutorials, screencasts, screen recordings, 
 description: "Alicia Avrach, a content strategist at ThoughtSpot, gave a presentation about video documentation at a recent Write the Docs San Francisco meetup. In this presentation, Alicia covers all the aspects of video production, from scripting to recording, post-processing, publishing, and more."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/videodocthumb.png
 date: 2016-04-24
-categories: podcasts
+categories:
+- podcasts
 tags:
 - technical writing
 - video
 - documentation
 - technical communication
-- stitcher
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewritinglogo.png
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3
 podcast_file_size: 56.5 MB
@@ -24,19 +24,19 @@ bitlink: http://bit.ly/videodocavrachwtd
 
 ## Presentation description
 
-Here's a description of the presentation: 
+Here's a description of the presentation:
 
->Curious about video documentation? 
+>Curious about video documentation?
 >
->What is it really? What are some best practices? 
+>What is it really? What are some best practices?
 >
->We are pleased to have Alicia Avarch, who will discuss video documentation, including: 
+>We are pleased to have Alicia Avarch, who will discuss video documentation, including:
 >
->• What it takes to produce animation, screencam, and talking head videos. 
+>• What it takes to produce animation, screencam, and talking head videos.
 >
->• Building a great user experience when you have both video and text docs. 
+>• Building a great user experience when you have both video and text docs.
 >
->• Bootstrapping video production without a big team or a ton of money. 
+>• Bootstrapping video production without a big team or a ton of money.
 >
 >• Measuring the effectiveness of video.
 
@@ -48,9 +48,7 @@ For more details, see the [Write the Docs meetup announcement](http://www.meetup
 
 ## Audio
 
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3" type="audio/mpeg" /></audio></p>
-
-You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/aliciaavrachaudio.mp3" alt="Alicia Avrach">download the MP3 file here</a>.
+{% include audio.html %}
 
 ## Slides
 

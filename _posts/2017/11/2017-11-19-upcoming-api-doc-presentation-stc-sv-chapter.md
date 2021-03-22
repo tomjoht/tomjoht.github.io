@@ -4,7 +4,6 @@ categories:
 - api-doc
 - writing
 - podcasts
-- stitcher
 keywords:
 description: "I recently gave a presentation titled \"Introduction to API Documentation\" to the STC Silicon Valley chapter in Santa Clara, California. The video recording and audio are available here."
 bitlink: http://bit.ly/upcomingstcsvapidocpreso

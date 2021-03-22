@@ -2,7 +2,6 @@
 title: "When the pain of ignorance exceeds the pain of learning"
 categories:
 - technical-writing
-- stitcher
 - podcasts
 keywords:
 description: "Users turn to documentation when the pain of their ignorance exceeds the pain of learning. Unfortunately, this is the worst state of mind to try to learn anything in. To address this impatient state of mind, we need to write documentation in simpler, easier to digest ways. Task-based documentation gets us part way there. But the varying starting points, unique pathway needs, and messy branching complicate the promised simple linear nature of steps. Overall, we need to increase the simplicity factor in our docs much more than we generally do."

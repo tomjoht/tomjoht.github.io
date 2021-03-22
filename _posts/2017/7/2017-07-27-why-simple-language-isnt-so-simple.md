@@ -3,7 +3,6 @@ title: "Why simple language isn't so simple: the struggle to create plain langua
 categories:
 - api-doc
 - writing
-- stitcher
 - podcasts
 keywords: plain language, simple language, discourse communities
 description: "Although you can adjust your content's style to be simpler and more readable, technical documentation introduces many new terms and concepts for readers to learn. Many readers who don't already understand the discourse community may find this language impenetrable. Glossaries and inline tooltips can potentially help novice users, but there's no easy solution for simplifying your language for both novice and expert users."

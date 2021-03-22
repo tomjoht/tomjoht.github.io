@@ -3,7 +3,6 @@ title: "The Story of Paligo: A new browser-based CCMS with all the features you'
 categories:
 - technical-writing
 - podcasts
-- stitcher
 keywords: paligo, component content management systems, ccms, xml, docbook, help authoring tool, web content management, content management, web CMS for documentation teams
 description: "Up until two years ago, Anders Svensson and his colleagues, based in Sweden, provided DITA and XML consulting. They eventually created their own XML-based component content management system (CCMS) called Paligo, which includes a full set of documentation features to handle single-sourcing, translation, and other documentation needs. Paligo solves the challenges that Svensson's customers had been facing for years with other CCMS systems."
 date: 2016-08-01
@@ -22,12 +21,7 @@ podcast_length: 7312169
 bitlink: http://bit.ly/xmlccmspaligo
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/paligo.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/paligo.mp3" alt="The Story of Paligo">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 ## Beginnings
 

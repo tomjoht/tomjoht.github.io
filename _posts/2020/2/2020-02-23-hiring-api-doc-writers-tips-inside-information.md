@@ -4,7 +4,6 @@ permalink: /blog/podcast-andrew-davis-hiring-api-doc-writers-inside-look-fixing-
 categories:
 - api-doc
 - podcasts
-- stitcher
 - technical-writing
 keywords: hiring, resourcing, sourcing, job posts, resumes, linkedin
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/andrew_podcast_hiring_processes.mp3

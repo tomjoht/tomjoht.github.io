@@ -8,7 +8,6 @@ categories:
 - api-doc
 - jobs
 - podcasts
-- stitcher
 - user-centered-documentation
 - video
 - technical-writing

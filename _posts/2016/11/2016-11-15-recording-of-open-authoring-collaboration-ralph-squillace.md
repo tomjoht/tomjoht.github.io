@@ -3,7 +3,6 @@ title: "Recording of Open Authoring -- Collaboration Across Disciplines presenta
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 date: 2016-11-15
 tags:

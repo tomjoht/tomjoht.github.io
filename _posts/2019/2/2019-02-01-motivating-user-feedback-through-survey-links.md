@@ -3,7 +3,6 @@ title: "How to motivate users to provide feedback: Show that you're listening to
 categories:
 - technical-writing
 - podcasts
-- stitcher
 - user-centered-documentation
 keywords:
 description: "To encourage users to leave more feedback, add a contact email field on your feedback submission form. When you receive feedback, provide a quick response that shows you're listening and taking action on their input."

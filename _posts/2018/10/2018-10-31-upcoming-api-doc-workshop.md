@@ -3,7 +3,6 @@ title: "Upcoming full-day API documentation workshop in Menlo Park"
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 description: "I'm giving a full-day API documentation workshop on Nov 8, 2018, in Menlo Park, California, in coordination with Scott Abel (aka, The Content Wrangler). There are still a few open spots left in the workshop."
 bitlink: http://bit.ly/upcomingapidocmenlopark

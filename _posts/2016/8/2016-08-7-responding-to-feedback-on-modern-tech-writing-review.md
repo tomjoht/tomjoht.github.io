@@ -3,7 +3,6 @@ title: "Will the docs-as-code approach scale? Responding to comments on my Revie
 categories:
 - api-doc
 - podcasts
-- stitcher
 description: "My previous post reviewing Andrew Etter's ebook on Modern Technical Writing got an enormous response. Some readers said the docs-as-code approach works only for small shops and doesn't scale to large projects. They said content re-use and translation also become problematic. However, perhaps the real differentiator shouldn't be product size as much as product category. The docs-as-code approach (which is what I'm calling it) works particularly well for developer documentation, such as API documentation, which usually doesn't contain the same challenges that component content management systems (or CCMSs) were meant to solve."
 date: 2016-08-01
 tags:
@@ -23,12 +22,7 @@ podcast_length: 13544458
 bitlink: http://bit.ly/docsascodeargument
 ---
 
-<div class="audioControls">
-<p><b>Listen to this post:</b></p>
-<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/docsascodeargument.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/docsascodeargument.mp3" alt="Will the docs-as-code approach scale?">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 ## Responses to Review Post were enormous
 

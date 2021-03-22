@@ -3,7 +3,6 @@ title: "Recording of WTD South Bay presentation: Publishing tools for API docume
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 description: "I recently gave a presentation called \"Publishing tools for API documentation\" to the Write the Docs South Bay meetup group on January 18, 2018. You can view a recording of the presentation, browse the slides, and listen to the audio here."
 bitlink: http://bit.ly/recordingwtdsouthbayapipresopubtools

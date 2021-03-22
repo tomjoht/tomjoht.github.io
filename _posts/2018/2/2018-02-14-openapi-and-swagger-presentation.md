@@ -3,7 +3,6 @@ title: "Recording of OpenAPI and Swagger presentation (for STC and WTD San Diego
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords:
 description: "I recently gave a presentation to the STC San Diego chapter and WTD San Diego group called \"Swagger UI and the OpenAPI specification\" (February 13, 2018). You can view a recording of the presentation, browse the slides, and listen to the audio here."
 bitlink: http://bit.ly/recordingopenapiswaggersandiego

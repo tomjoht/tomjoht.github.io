@@ -3,14 +3,12 @@ title: "Principle 7: Reduce the complexity of technical language"
 permalink: /simplifying-complexity/reducing-the-complexity-of-technical-language.html
 jtype: notes_simplifying_complexity
 description: "Highly technical material often becomes incomprehensible due to the unfamiliar terminology that's simply part of the technical domain. Readers who don't already speak the technical language in fluent ways will struggle to make sense of the material. To make these highly technical texts more accessible to users of all levels, you can create glossaries, embed definitions in tooltips, provide links for background knowledge, and more. As you define your terms, it's helpful to read beyond your company's content and check out how the same terms are used in your competitor's documentation and industry articles. As you become more aware of terms and their definitions, you will be more precise and careful with language in your documentation."
+podcast_link: http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/glossaryreading.mp3
+categories:
+- podcasts
 ---
 
-<div class="audioControls">
-<p><b>Listen to this article:</b></p>
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/glossaryreading.mp3" type="audio/mpeg" /></audio></p>
-
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/glossaryreading.mp3" alt="Reducing the complexity of technical language (New article in Simplifying Complexity series)">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
-</div>
+{% include audio.html %}
 
 ## Unfamiliar terms &mdash; one reason for incomprehensibility
 

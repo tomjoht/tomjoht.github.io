@@ -8,7 +8,6 @@ rebrandly: https://idratherbewriting.site/apidocstodevportals
 categories:
 - api-doc
 - podcasts
-- stitcher
 keywords: usability, API, design web
 bitlink: https://idratherbewriting.site/devportalsintro
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/devportalsintro.mp3

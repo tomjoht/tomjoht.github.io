@@ -4,7 +4,6 @@ permalink: /blog/document-360-podcast-saravana-kumar-founder/
 categories:
 - technical-writing
 - podcasts
-- stitcher
 - writing
 keywords:
 rebrandly: https://idbwrtng.site/document360podcast

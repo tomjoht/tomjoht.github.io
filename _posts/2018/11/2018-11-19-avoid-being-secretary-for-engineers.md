@@ -3,7 +3,6 @@ title: "How to avoid being a secretary for engineers"
 categories:
 - technical-writing
 - writing
-- stitcher
 - podcasts
 keywords:
 description: "If we just see our task as documenting solutions that engineers have solved, it removes the creativity and critical thinking dimension from tech comm. The creative dimension in tech comm comes into play as we identify and solve tech comm challenges, such as devising ways to simplify complexity or otherwise improve the user experience."

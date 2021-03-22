@@ -2,7 +2,6 @@
 title: "How can technical writers thrive in agile environments? Event recording and details"
 categories:
 - podcasts
-- stitcher
 - technical-writing
 - beginners
 date: 2016-09-20
@@ -15,7 +14,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting
 podcast_link: https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/agilepanelstc.mp3
 podcast_file_size: 47.7 MB
 podcast_duration: "01:05:35"
-podcast_length: 47713678 
+podcast_length: 47713678
 bitlink: http://bit.ly/agilepanelstc
 description: "Last Monday we had a record turnout at our STC Silicon Valley chapter (with about 40 attendees). The topic was a panel discussion on how to thrive in agile environments as a technical writer. With 5 panelists all from different companies, the perspectives and practices they shared varied a bit, which showed the adaptations different writers and companies have made with agile to make the process work for them. This post contains a full description and recording of the event."
 bitlink: http://bit.ly/agilepanelstc
@@ -32,14 +31,14 @@ bitlink: http://bit.ly/agilepanelstc
 
 ## Agile panel event description
 
-Here's a description of the agile panel event: 
+Here's a description of the agile panel event:
 
 > **How can technical writers can thrive in agile environments?**
 >
 > Most engineers in IT departments follow an agile scrum process: they track issues in sprints, assign and scope story points, meet daily to provide short updates on their work, and release updates every 2-3 weeks.
-> 
+>
 > Technical writers who work with engineers usually find that being productive requires them to become familiar with the engineer’s agile scrum workflow. Whether you want to keep abreast of engineering work, factor in time for doc reviews during the sprint, or have documentation be managed like other IT work, you need to know how to integrate or work with the agile scrum workflow.
-> 
+>
 > In this chapter meeting, we will have a panel discussion about how technical writers can thrive in agile environments. (See the [STC SV event post](http://www.stc-siliconvalley.org/2016/08/22/sep-19-2016-how-can-technical-writers-thrive-in-agile-environments/) for more details.)
 
 {{site.data.alerts.tip}} If you're new to agile and scrum, check out Jeff Sutherland&#8217;s book <a href="https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X" target="_blank">Scrum</a>. {{site.data.alerts.end}}
@@ -58,7 +57,7 @@ The following 5 people were panelists:
 
 [**Gina Blednyh**](https://www.linkedin.com/in/gblednyh) is a Staff Technical Writer at Salesforce. She’s worked in an Agile environment for almost six years. She’s also been a scrum master for both a writing team and an engineering team and is an Agile convert.
 
-I moderated the panel. 
+I moderated the panel.
 
 ## Questions discussed
 

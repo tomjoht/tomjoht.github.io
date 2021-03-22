@@ -2,7 +2,6 @@
 title: "Tech docs and Agile: Problems with integrating tech writers into engineering Scrums (Part 1)"
 categories:
 - technical-writing
-- stitcher
 - podcasts
 keywords:
 description: "Although it seems like documentation should be treated like other features worked on by a Scrum team, frequently it is not. When tech writers try to integrate into engineering Scrum teams, they usually run into a host of challenges. These challenges stem mainly from floating across multiple projects. Often doc tasks aren't assigned points or grouped in with other tasks in a real sprint, nor are tech writers co-located with project teams. This is a two-part post. In this first part, I outline problems for tech writers integrating into Scrum teams. In part 2, I explore solutions."

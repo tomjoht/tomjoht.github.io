@@ -6,7 +6,6 @@ categories:
 - technical-writing
 - podcasts
 - technical-writing
-- stitcher
 keywords:
 rebrandly: https://idratherbewriting.site/wtdaustraliatechcommpandemic
 description: "I recently co-presented in a <a href='https://www.meetup.com/Write-the-Docs-Australia'>WTD Australia event</a> titled <a href='https://www.meetup.com/Write-the-Docs-Australia/events/270641270/'>Techcomm in the times of pandemic</a> on May 28, 2020. The other presenter was professor Kirk St. Amant. A recording is available below."

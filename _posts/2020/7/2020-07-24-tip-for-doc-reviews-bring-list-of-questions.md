@@ -4,7 +4,6 @@ permalink: /blog/tip-for-doc-reviews-bring-list-of-questions/
 categories:
 - technical-writing
 - podcasts
-- stitcher
 - writing
 keywords: doc reviews, engineers
 rebrandly: https://idratherbewriting.site/docreviewsquestions

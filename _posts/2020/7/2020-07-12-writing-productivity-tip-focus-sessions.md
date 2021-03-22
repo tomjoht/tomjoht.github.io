@@ -2,8 +2,6 @@
 title: "Writing productivity tip: Focus sessions"
 permalink: /blog/writing-productivity-through-focus-sessions/
 categories:
-- podcasts
-- stitcher
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/focussessions

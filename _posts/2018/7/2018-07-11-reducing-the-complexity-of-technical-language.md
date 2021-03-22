@@ -3,7 +3,6 @@ title: "Reducing the complexity of technical language (new article in Simplifyin
 categories:
 - simplifying-complexity
 - podcasts
-- stitcher
 keywords:  complexity, language, jargon
 description: "I added a new article in my ongoing series about simplifying complexity. The article is called <i>Reducing the complexity of technical language</i> and explores reasons why the language in technical documentation tends become so full of jargon and other unfamiliar terms, and a few solutions for simplifying the language. I emphasize the need to read the competitor's documentation and other articles in the industry to get a sense of the right terms and contexts that users likely expect. I also decided to read the article for those who prefer podcasts."
 bitlink: http://bit.ly/glossaryreadingpointer
