@@ -1,7 +1,7 @@
 ---
-title: "WTD podcast episode 14: Humanizing your documentation"
+title: "Write the Docs Podcast episode 14: Humanizing your documentation"
 categories:
-- podcasts
+- wtd-podcasts
 - writing
 keywords:
 description: "In the latest episode of the Write the Docs podcast, we chat with Carolyn Stransky, a journalist and JavaScript developer living in Berlin, about ways to humanize documentation. We discuss dilemmas with transparency in docs (the balance between honesty and negativity), ways to avoid gendered language (including whether to correct workplace misuse of \"he\"), strategies for achieving plain language and clarity (such as by reading your content out loud), the term \"user\" and alternatives, how to develop empathy for your audience, why terms like \"simple\" and \"easy\" are problematic (even in Marketing), tools for identifying insensitivity and complexity in docs (Hemingway, Alex), what makes content sound truly human, and more."

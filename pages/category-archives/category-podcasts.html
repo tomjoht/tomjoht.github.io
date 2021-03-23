@@ -22,6 +22,8 @@ categoryName: podcasts
 
 <a target="_blank" href="https://overcast.fm/itunes277365275/id-rather-be-writing"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/overcast-listen.jpg" /></a>
 
+<a target="_blank" href="https://tunein.com/podcasts/Technology-Podcasts/Id-Rather-Be-Writing-p1175738/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tunein-listen2.png"/></a>
+
 
 </div>
 <div class="podcastcol3">
@@ -30,25 +32,36 @@ categoryName: podcasts
 
 <a target="_blank" href="https://idratherbewriting.com/itunes.rss"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/listen-in-rss.svg" /></a>
 
-<a target="_blank" href="https://feeds.acast.com/public/shows/5e6d6311adf575a35115f6c8"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/listen-acast4.png"/></a>
-</div>
+<a target="_blank" href="https://pca.st/qoZt"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pocketcasts_large_dark@2x.png" /></a>
 
-<div class="podcastcol4">
-  <a target="_blank" href="https://pca.st/qoZt"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pocketcasts_large_dark@2x.png" /></a>
-
-<a target="_blank" href="https://tunein.com/podcasts/Technology-Podcasts/Id-Rather-Be-Writing-p1175738/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tunein-listen2.png"/></a>
 
 </div>
+
 </div>
 <div style="clear: both;"></div>
 
-<p>I also regularly participate in the <a href='https://podcast.writethedocs.org/'>Write the Docs Podcast</a> and post summaries of each episode here as well. Note that the <a href='https://idratherbewriting.com/itunes.rss'>I'd Rather Be Writing audio feed</a> won't contain MP3 files from the Write the Docs podcast. You have to <a href='https://podcast.writethedocs.org/how-to-subscribe/'>subscribe to the WTD podcast</a> for the audio feed.</p>
+<p>I also regularly participate in the <a href='https://podcast.writethedocs.org/'>Write the Docs Podcast</a> and post summaries of each episode here as well &mdash; see <a href="/category-wtd-podcasts/">Write the Docs podcasts</a>. Note that the <a href='https://idratherbewriting.com/itunes.rss'>I'd Rather Be Writing audio feed</a> doesn't contain MP3 files from the Write the Docs podcast. You have to <a href='https://podcast.writethedocs.org/how-to-subscribe/'>subscribe to the WTD podcast</a> for the audio feed.</p>
 
-{{site.data.alerts.tip}} See also <a href="/technical-writing-podcasts/">Technical writing podcasts</a> for other podcasts related to technical writing, language, content strategy, and so on.{{site.data.alerts.end}}
+{{site.data.alerts.tip}} See <a href="/technical-writing-podcasts/">Technical writing podcasts</a> for other podcasts related to technical writing, language, content strategy, and so on.{{site.data.alerts.end}}
 
-<h3>Recent podcast episodes</h3>
-
+<h3>Recent idratherbewriting.com podcast episodes</h3>
+<ol reversed="true">
     {% for p in site.categories.podcasts %}
-<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
-</h4>
+
+  <li><h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4></li>
+
 {% endfor %}
+
+</ol>
+
+<h3>Recent Write the Docs Podcast episodes</h3>
+<ol reversed="true">
+    {% for p in site.categories.wtd-podcasts %}
+
+  <li><h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4></li>
+
+{% endfor %}
+
+</ol>

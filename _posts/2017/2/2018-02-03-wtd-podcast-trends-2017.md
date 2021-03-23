@@ -1,13 +1,13 @@
 ---
-title: "Write the Docs Podcast #3 - Trends for 2017"
+title: "Write the Docs Podcast episode 3: Trends for 2017"
 categories:
-- api-doc
+- wtd-podcasts
 keywords:
 date: 2017-02-03
 tags:
 - support
 - docs as code
-- podcast
+- wtd-podcasts
 bitlink: http://bit.ly/wtdpodcastepisode3trends
 description: "In this episode of the Write the Docs podcast, we discuss top technical writing trends for 2017. Chris Ward discusses how more technical writers are interacting with support groups, and even being embedded within support departments. Jared Morgan discusses how docs are being planned for earlier in development cycles, as more product managers are seeing the value of docs. I talk about how more technical writers are treating documentation as code, and the challenges inherent in developer tools and workflows."
 ---

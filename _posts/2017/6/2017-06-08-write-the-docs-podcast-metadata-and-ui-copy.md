@@ -1,8 +1,9 @@
 ---
-title: "Write the Docs Podcast Episode #6: Metadata and UI copy"
+title: "Write the Docs Podcast episode 6: Metadata and UI copy"
 categories:
 - findability
 - technical-writing
+- wtd-podcasts
 keywords: write the docs, metadata, user interface copy
 description: "In episode 6, we explore the role of metadata in documentation and how it can be used to classify topics and assist in the discoverability of information. We’re joined by special guest Eva Jackolis who explains a strategy for metadata used in German mechanical engineering documentation. We also discuss involving tech writers in UX copy and the challenges inherent in influencing UI copy, product naming, and working with UX designers and product teams."
 bitlink: http://bit.ly/wtdpodcast6idbw

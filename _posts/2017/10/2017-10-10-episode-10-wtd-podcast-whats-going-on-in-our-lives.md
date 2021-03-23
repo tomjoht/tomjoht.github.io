@@ -1,8 +1,8 @@
 ---
-title: "WTD Episode 10: What's going on in our lives as documentarians and product owners"
+title: "Write the Docs Podcast episode 10: What's going on in our lives as documentarians and product owners"
 categories:
 - technical-writing
-- podcasts
+- wtd-podcasts
 keywords:
 description: "In this episode of the Write the Docs podcast, we talk about what's going on in our lives as documentarians and product owners. We don't have special guests during this episode. Instead, we discuss challenges we're facing and any interesting aspects of our documentation lives."
 bitlink: http://bit.ly/wtdpodcastepisode10lives

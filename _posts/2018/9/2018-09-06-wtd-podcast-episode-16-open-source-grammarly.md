@@ -1,8 +1,8 @@
 ---
-title: "Write the Docs Podcast Episode 16: An open-source Grammarly for tech docs?"
+title: "Write the Docs Podcast episode 16: An open-source Grammarly for tech docs?"
 categories:
 - beginners
-- podcasts
+- wtd-podcasts
 - writing
 keywords: write the docs, podcast, grammarly, linter, verification, testing tools
 description: "This episode focuses mainly on testing tools. Last month, some rockstar WTD community members spent a few days at the Pronovix offices in Szeged, Hungary, trying to create a series of open-source testing tools. Specifically, they wanted to create a ‘create a container deployable solution that can automatically check docs’. In more blunt terms, a kind of open-source Grammarly, but integrated into deploys and repositories and focused on tech docs."

@@ -1,11 +1,12 @@
 ---
-title: "Write the Docs Podcast Episode 33: Simplified user interfaces, with Anton Bollen"
+title: "Write the Docs Podcast episode 33: Simplified user interfaces, with Anton Bollen"
 permalink: /blog/wtd-episode-33-simplified-user-interfaces/
 categories:
+- wtd-podcasts
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/wtdepisode33pointer
-description: "Write the Docs podcast episode 33 is available. In this podcast, we chat with Anton Bollen from Techsmith about using simplified user interfaces with screenshots. A simplified user interface reduces the unimportant elements so the user's attention focuses only on what matters."
+description: "Write the Docs Podcast episode 33 is available. In this podcast, we chat with Anton Bollen from Techsmith about using simplified user interfaces with screenshots. A simplified user interface reduces the unimportant elements so the user's attention focuses only on what matters."
 ---
 
 ## Video and audio

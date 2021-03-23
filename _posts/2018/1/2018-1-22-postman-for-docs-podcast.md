@@ -1,8 +1,8 @@
 ---
-title: "WTD Episode 13: Postman for API development and docs — Interview with Postman Founder"
+title: "Write the Docs Podcast episode 13: Postman for API development and docs — Interview with Postman Founder"
 categories:
 - api-doc
-- podcasts
+- wtd-podcasts
 keywords: postman, api documentation, postman rest client, run in postman button
 description: "In this episode of the Write the Docs podcast, we chat with Abhinav Asthana (founder and CEO of Postman) to discuss how Postman, a REST client, can be used to create, collaborate, and publish API documentation."
 bitlink: http://bit.ly/postmanapidocpod

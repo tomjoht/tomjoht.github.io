@@ -1,8 +1,8 @@
 ---
-title: "WTD Episode 29: Salary Survey results and WFH tips, with Eric Holscher"
+title: "Write the Docs Podcast episode 29: Salary Survey results and WFH tips, with Eric Holscher"
 permalink: /blog/write-the-docs-podcast-episode29-salary-survey-and-wfh/
 categories:
-- podcasts
+- wtd-podcasts
 keywords:
 rebrandly: https://idratherbewriting.site/wtdpodcastepisode29
 description: "In this episode, we chat with Eric Holscher, co-founder of both Read the Docs and Write the Docs, about the recent <a href='https://www.writethedocs.org/surveys/salary-survey/2019/'>Salary Survey</a> that the WTD group conducted. This survey was launched in Fall 2019, and the results published were recently published. The salary survey covers details such as types of employment, job titles, roles, length of time in role, work location, annual salary, salary breakdowns by state, additional benefits, satisfaction, reasons for dissastisfaction, organization type, respondent demographics, and more. In addition to exploring the survey, we also chat about tips for working from home, especially given that both Eric and Chris have been working remotely for many years."

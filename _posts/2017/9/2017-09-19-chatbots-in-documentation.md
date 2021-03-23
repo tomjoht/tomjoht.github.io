@@ -1,9 +1,9 @@
 ---
-title: "Write the Docs Podcast Episode 9: Chatbots in Documentation"
+title: "Write the Docs Podcast episode 9: Chatbots in Documentation"
 categories:
 - writing
 - innovation
-- podcasts
+- wtd-podcasts
 keywords:
 description: "In this episode of the Write the Docs podcast, we're joined by Ellis Pratt from Cherryleaf to talk about chatbots in documentation. What are chatbots, and how can you incorporate them in your docs to enhance the user experience? Are chatbots the next evolution of wizards? What are some examples of successful chatbots? How does one get started using chatbots in documentation? Are there chatbot services you can leverage inexpensively to try them out? These are some of the questions explored in this podcast."
 bitlink: http://bit.ly/chatbotstwd

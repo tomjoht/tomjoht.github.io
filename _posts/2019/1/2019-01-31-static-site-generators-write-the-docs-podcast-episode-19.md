@@ -1,7 +1,7 @@
 ---
-title: "Write the Docs Podcast Episode 19: Static site generators, with Jessica Parsons"
+title: "Write the Docs Podcast episode 19: Static site generators, with Jessica Parsons"
 categories:
-- podcasts
+- wtd-podcasts
 keywords: static site generators, hugo, netlify, jekyll, sphinx
 description: "Jessica Parsons, a documentation engineer from Netlify, joins us for Episode 19 of the WTD Podcast. Jess recently conducted a Static Site Generator workshop at the Australian Write the Docs conference at Melbourne. In this episode, Jess illuminates the world of static site generators, comparing and contrasting Hugo, Jekyll, Sphinx, Gatsby, and others."
 bitlink: http://bit.ly/wtdpodcast_episode19_pointer

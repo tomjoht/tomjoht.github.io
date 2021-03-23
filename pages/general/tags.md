@@ -29,6 +29,10 @@ mytags:
   url: /category-jekyll/
 - title: Quick reference guides
   url: /category-quick-reference-guides/
+- title: Podcasts
+  url: /category-podcasts
+- title: Podcasting
+  url: /category-podcasting
 - title: Screencasting
   url: /category-screencasting/
 - title: Simplifying Complexity
@@ -47,6 +51,8 @@ mytags:
   url: /category-wikis/
 - title: WordPress
   url: /category-wordpress/
+- title: Write the Docs podcasts
+  url: /category-wtd-podcasts
 - title: Writing
   url: /category-writing/
 ---

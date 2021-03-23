@@ -1,8 +1,8 @@
 ---
-title: "WTD Podcast Episode 31: Site search, with Peter Levan"
+title: "Write the Docs Podcast episode 31: Site search, with Peter Levan"
 permalink: /blog/write-the-docs-podcast-episode-31-site-search-peter-levan/
 categories:
-- podcasts
+- wtd-podcasts
 - findability
 keywords:
 rebrandly: https://idbwrtng.com/wtdepisode31search

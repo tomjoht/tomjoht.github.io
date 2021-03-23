@@ -1,9 +1,9 @@
 ---
-title: "UX writing processes and considerations -- WTD podcast episode 28"
+title: "Write the Docs Podcast episode 28: UX writing processes and considerations"
 permalink: /blog/ux-writing-processes-and-considerations-wtd-podcast-episode-28/
 categories:
 - writing
-- podcasts
+- wtd-podcasts
 keywords:
 rebrandly: https://idratherbewriting.site/uxwriting
 description: "Write the Docs podcast episode 28 is a recording of a Berlin WTD meetup focused on UX writing processes and considerations. The event was live streamed on March 9, 2020 at the Humanitec in Berlin by Chris Ward."

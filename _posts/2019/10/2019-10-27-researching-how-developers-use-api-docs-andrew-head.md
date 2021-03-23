@@ -1,9 +1,9 @@
 ---
-title: "WTD Episode 25: Researching how developers use API docs, with Andrew Head"
+title: "Write the Docs Podcast episode 25: Researching how developers use API docs, with Andrew Head"
 permalink: /blog/wtd-episode-25-researching-how-developers-use-api-docs/
 categories:
 - technical-writing
-- podcasts
+- wtd-podcasts
 - apidoc-site-updates
 keywords: write the docs, podcast, documentation, language, gender
 bitlink: https://idratherbewriting.site/wtdepisode24pointer

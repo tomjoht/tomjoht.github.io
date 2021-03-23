@@ -3,6 +3,7 @@ title: "Write the Docs Podcast Episode 4 -- Continuous Integration and Docs as C
 categories:
 - api-doc
 - technical-writing
+- wtd-podcasts
 keywords: continuous integration, docs as code, ann gentle, github
 description: "Episode 4 of the Write the Docs podcast is now available. In this episode, we talk about continuous integration strategies for docs (for style, screenshots, and REST calls). We also dive into discussions around docs as code, including how to encourage developer collaboration, how to stay informed about code updates that developers make, and more."
 bitlink: http://bit.ly/wtdpod4cianddocascode

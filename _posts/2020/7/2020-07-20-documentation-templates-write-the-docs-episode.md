@@ -1,12 +1,12 @@
 ---
-title: "Write the Docs Episode 30: Documentation templates, with Juan Lara"
+title: "Write the Docs Podcast episode 30: Documentation templates, with Juan Lara"
 permalink: /blog/documentation-templates-write-the-docs-episode/
 categories:
-- podcasts
+- wtd-podcasts
 - writing
 keywords:
 rebrandly: https://idratherbewriting.site/wtdepisode30doctemplates
-description: "In Write the Docs podcast episode 30, Juan Lara from Google joins us for a lively discussion about documentation templates."
+description: "In Write the Docs Podcast episode 30, Juan Lara from Google joins us for a lively discussion about documentation templates."
 ---
 
 Documentation templates refer to established patterns we follow for common documentation types, such as quickstarts, how-to guides, concepts, tutorials, reference, troubleshooting, release notes, FAQs, or other information types that have similar, predictable patterns.
