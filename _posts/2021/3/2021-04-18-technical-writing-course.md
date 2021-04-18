@@ -5,12 +5,12 @@ categories:
 - api-doc
 keywords:
 rebrandly: https://idbwrtng.site/
-description: "Technical writing courses are popular ways for people transitioning into technical writing careers to build their skills, become familiar with the technical writing profession, and ultimately transition into jobs as technical writers. I had a chance to chat with Bobby Kennedy, a professional technical writer based in New York, who recently created a technical writing course called <a href='https://becometechnicalwriter.com/'>Become a Technical Writer</a>."
+description: "Technical writing courses are popular ways for people transitioning into technical writing careers to build their skills, become familiar with the technical writing profession, and ultimately transition into jobs as technical writers. I had a chance to chat with Bobby Kennedy, a professional technical writer based in New York, who recently created a technical writing course called <a href='https://idbwrtng.com/btw'>Become a Technical Writer</a>."
 ---
 
-<figure><a rel="nofollow" href="https://becometechnicalwriter.com/"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
+<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
 
-To learn more about the technical writing course, go directly to [Become a Technical Writer](https://becometechnicalwriter.com/){:rel="nofollow"}.
+To learn more about the technical writing course, go directly to [Become a Technical Writer](https://idbwrtng.com/btw){:rel="nofollow"}.
 
 *Note: This is a sponsored post.*
 
@@ -38,7 +38,7 @@ I believe my main competition comes from Udemy and Coursera. I haven't taken the
 
 Genuine confidence only comes from doing the work that technical writers do.
 
-[Become a Technical Writer](https://becometechnicalwriter.com/){:rel="nofollow"} is focused on exercises (e.g., writing procedures) that build confidence. Then we create three documents, which builds more confidence. And a portfolio to share with the world to present oneself as a technical writing candidate.
+[Become a Technical Writer](https://idbwrtng.com/btw){:rel="nofollow"} is focused on exercises (e.g., writing procedures) that build confidence. Then we create three documents, which builds more confidence. And a portfolio to share with the world to present oneself as a technical writing candidate.
 
 The last two modules (5 & 6) are Marketing and Interviewing. These seem essential to me if you're hoping to help people get hired in a new career. We do practice interviews at the end, which are fun and instructive. How many other courses have practice interviews?
 
@@ -50,7 +50,7 @@ And every Thursday evening we have "Job Search Networking" for all members, fore
 
 The basic course can be finished in 4 weeks (an intermediate course is under development).  
 
-My entire curriculum is available here: [The Course](https://becometechnicalwriter.com/the-course){:rel="nofollow"}.
+My entire curriculum is available here: [The Course](https://idbwrtng.com/btwthe-course){:rel="nofollow"}.
 
 I've just begun monthly enrollment. My classes range in size but have not been larger than 8 members. I want to reach 18 or 20 a class by the end of the year.
 
@@ -108,17 +108,21 @@ It's like reading the news today. Can we rely on one news source? So talk to a l
 
 But be sure and join channels like "learn-tech-writing" or "career-advice." Or you might find yourself in a Python pit!
 
-You can register for the course, Become a Technical Writer, here: [becometechnicalwriter.com](https://becometechnicalwriter.com/){:rel="nofollow"}.
+## Course registration and discount
+
+You can register for the course, Become a Technical Writer, here: [becometechnicalwriter.com](https://idbwrtng.com/btw/){:rel="nofollow"}.
+
+For a $50 discount, use the promo code `Idratherbewriting`.
 
 <h4 id="kennedy">About Bobby Kennedy</h4>
-<a rel="nofollow" href="https://becometechnicalwriter.com/about/"><img style="max-width: 200px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bobby_kennedy.jpeg" alt="Bobby Kennedy" /></a>
+<a rel="nofollow" href="https://becomeatechnicalwriter.com/about/"><img style="max-width: 200px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bobby_kennedy.jpeg" alt="Bobby Kennedy" /></a>
 
 Bobby B. Kennedy earned a B.A. in English from St. Joseph's (Philadelphia). He also served in the US Army's 82nd Airborne Division.  A few years later, he moved to Germany. There he taught himself German and passed the German University system's fluency test.
 
 On returning to the US, he worked as a technical writer for blue-chip clients for over 20 years in the NYC region. He currently works for one of the "big 4" accounting firms as a technical writing manager. He resides in the Hudson Valley north of New York City.
 
-You can learn more about Bobby on the [About page of Become a Technial Writer](https://becometechnicalwriter.com/about/){:rel="nofollow"}.
+You can learn more about Bobby on the [About page of Become a Technial Writer](https://becomeatechnicalwriter.com/about/){:rel="nofollow"}.
 
-<figure><a rel="nofollow" href="https://becometechnicalwriter.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter1.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
+<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter1.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
 
 <div style="clear: both"></div>
