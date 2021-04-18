@@ -1,6 +1,6 @@
 ---
 title: "Technical writing course Q&A -- 'Become a technical writer', with Bobby Kennedy"
-permalink:
+permalink: /blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/
 categories:
 - api-doc
 keywords:
