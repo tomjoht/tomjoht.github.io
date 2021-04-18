@@ -8,7 +8,7 @@ rebrandly: https://idbwrtng.site/
 description: "Technical writing courses are popular ways for people transitioning into technical writing careers to build their skills, become familiar with the technical writing profession, and ultimately transition into jobs as technical writers. I had a chance to chat with Bobby Kennedy, a professional technical writer based in New York, who recently created a technical writing course called <a href='https://becometechnicalwriter.com/'>Become a Technical Writer</a>."
 ---
 
-<figure><a rel="nofollow" href="https://becometechnicalwriter.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
+<figure><a rel="nofollow" href="https://becometechnicalwriter.com/"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
 
 To learn more about the technical writing course, go directly to [Become a Technical Writer](https://becometechnicalwriter.com/){:rel="nofollow"}.
 
