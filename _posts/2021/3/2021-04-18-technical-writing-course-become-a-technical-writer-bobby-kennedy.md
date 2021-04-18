@@ -2,15 +2,15 @@
 title: "Technical writing course Q&A -- 'Become a technical writer', with Bobby Kennedy"
 permalink: /blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/
 categories:
-- api-doc
+- technical-writing
 keywords:
 rebrandly: https://idbwrtng.site/
 description: "Technical writing courses are popular ways for people transitioning into technical writing careers to build their skills, become familiar with the technical writing profession, and ultimately transition into jobs as technical writers. I had a chance to chat with Bobby Kennedy, a professional technical writer based in New York, who recently created a technical writing course called <a href='https://idbwrtng.com/btw'>Become a Technical Writer</a>."
 ---
 
-<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
-
 To learn more about the technical writing course, go directly to [Become a Technical Writer](https://idbwrtng.com/btw){:rel="nofollow"}.
+
+<figure><a rel="nofollow" href="https://idbwrtng.com/btw"><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/becomeatechnicalwriter2.png" alt="Technical writing course: Become a technical writer" /></a><figcaption>Technical writing course: Become a Technical Writer</figcaption></figure>
 
 *Note: This is a sponsored post.*
 
@@ -108,13 +108,13 @@ It's like reading the news today. Can we rely on one news source? So talk to a l
 
 But be sure and join channels like "learn-tech-writing" or "career-advice." Or you might find yourself in a Python pit!
 
-## Course registration and discount
+<h3>Course registration and discount</h3>
 
 You can register for the course, Become a Technical Writer, here: [becometechnicalwriter.com](https://idbwrtng.com/btw/){:rel="nofollow"}.
 
 For a $50 discount, use the promo code `Idratherbewriting`.
 
-<h4 id="kennedy">About Bobby Kennedy</h4>
+<h3>About Bobby Kennedy</h3>
 <a rel="nofollow" href="https://becomeatechnicalwriter.com/about/"><img style="max-width: 200px; float: right; padding-left: 10px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bobby_kennedy.jpeg" alt="Bobby Kennedy" /></a>
 
 Bobby B. Kennedy earned a B.A. in English from St. Joseph's (Philadelphia). He also served in the US Army's 82nd Airborne Division.  A few years later, he moved to Germany. There he taught himself German and passed the German University system's fluency test.
