@@ -7,6 +7,7 @@ categories:
 keywords: skype, zoom
 rebrandly: https://idbwrtng.site/videocastkateschneider
 description: "I'm switching from Skype to Zoom for podcasting tools. Skype seems to be part of another era. The switch to Zoom opens up opportunities for another type of content -- one where participants share their screen more."
+rebrandly: https://idbwrtng.com/skypetozoom
 ---
 
 Although I haven't been publishing that many podcasts for the past couple of years on my site, I used to do a lot more podcasting. (For example, my [podcast archive](/category-podcasts/) has 300+ podcasts.) My recent podcasts have been more with the [Write the Docs podcast](/https://podcast.writethedocs.org/), which seems to have slowed down recently. For podcasting setups, I previously used Skype. But now, after watching this parody of the "Skype CEO," desperately searching for answers about a flailing business during the pandemic, I couldn't bring myself to use Skype anymore for podcasts:

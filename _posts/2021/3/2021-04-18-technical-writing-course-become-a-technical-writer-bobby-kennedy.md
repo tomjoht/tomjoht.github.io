@@ -4,7 +4,7 @@ permalink: /blog/technical-writing-course-become-a-technical-writer-bobby-kenned
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.site/
+rebrandly: https://idbwrtng.com/techwritingcourseqanda
 description: "Technical writing courses are popular ways for people transitioning into technical writing careers to build their skills, become familiar with the technical writing profession, and ultimately transition into jobs as technical writers. I had a chance to chat with Bobby Kennedy, a professional technical writer based in New York, who recently created a technical writing course called <a href='https://idbwrtng.com/btw'>Become a Technical Writer</a>."
 ---
 
