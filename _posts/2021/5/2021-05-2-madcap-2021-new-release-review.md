@@ -4,7 +4,7 @@ permalink: /blog/madcap-import-feature-madcap-flare-release-2021/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.site/
+rebrandly: https://idbwrtng.site/madcapmarkdownimport
 description: "MadCap Flare’s first major new release of 2021 includes, among other new features, the ability to import Markdown files. There are several workflows where this Markdown import could be useful, most notably in scenarios where tech writers support multiple engineering teams that author READMEs and other how-to content in code repos."
 ---
 
@@ -16,7 +16,7 @@ In the MadCap Flare 2021 release, you can now import Markdown files directly int
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flaremkimportproject3.png" alt="Markdown file import feature in Flare 2021" /><figcaption>Markdown file import feature in Flare 2021</figcaption></figure>
 
-Note that the Flare editor doesn’t support native authoring in Markdown directly. Instead, the workflow is one of importing Markdown files (authored elsewhere) into Flare.
+Note that the Flare editor doesn’t support native authoring in Markdown directly. Instead, the workflow is one of importing Markdown files (authored elsewhere) into Flare. The supported Markdown flavor is CommonMark Markdown (which is also the standard embraced by OpenAPI).
 
 The scenario MadCap Software envisions for tech writers importing Markdown is as follows. A tech writer might be working with various engineering teams that prefer to write content in Markdown. The tech writer takes the Markdown files that these engineering teams write and imports the files into Flare, mapping the Markdown elements to CSS styles in Flare, mapping tables to table styles, deciding where to break the Markdown files into multiple topics, and more before publishing. In this case, the technical writer acts more like a content curator and publisher instead of author.
 
