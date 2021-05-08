@@ -4,7 +4,7 @@ permalink: /blog/balancing-action-with-narration-create-content-to-satisfy-oppor
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.site/balancing-action-with-conceptual-undersanding
+rebrandly: https://idbwrtng.com/balancing-action-with-conceptual-undersanding
 description: "This is an abstract for a presentation that I'm thinking about creating. In a nutshell, the presentation focuses on finding the right balance between action-oriented task writing and big picture narrative product overviews &mdash; both of which seem to be opposing but complementary content types in technical communication. I'm floating this presentation draft here to gather feedback and refine the direction a bit more."
 ---
 

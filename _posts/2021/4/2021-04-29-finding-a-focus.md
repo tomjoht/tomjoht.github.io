@@ -4,7 +4,7 @@ permalink: /blog/finding-a-focus/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.site/findingafocus
+rebrandly: https://idbwrtng.com/findingafocus
 description: "I've been trying to think of a good focus for upcoming presentations and my blog lately, but I'm unsure about topics. I've focused on many topics in the past: trends, API documentation, docs-as-code tools, and before this, other areas such as blogging, podcasting, quick reference guides, value arguments, visuals, user-centered docs, and more. Ideally, I'd like to turn over a new leaf with some engaging topic that I've never explored before, but I'm not sure what that would be."
 ---
 

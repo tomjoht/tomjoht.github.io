@@ -4,7 +4,7 @@ permalink: /blog/madcap-import-feature-madcap-flare-release-2021/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.site/madcapmarkdownimport
+rebrandly: https://idbwrtng.com/madcapmarkdownimport
 description: "MadCap Flare’s first major new release of 2021 includes, among other new features, the ability to import Markdown files. There are several workflows where this Markdown import could be useful, most notably in scenarios where tech writers support multiple engineering teams that author READMEs and other how-to content in code repos."
 ---
 
