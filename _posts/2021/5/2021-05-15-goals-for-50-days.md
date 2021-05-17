@@ -34,19 +34,19 @@ I realized a few important things during my exercise goal. First, two hours of e
 
 One option could be to measure calorie burn through fitness trackers (e.g., MapMyRide, Strava, Google Fit, Fitbit). I do use trackers to attempt to track my activity and see calories burned, but these trackers work best with only straightforward walking, jogging, or road cycling. If you're shooting baskets, kicking a soccer ball in a field, or mountain biking in a hilly area, the trackers can be pretty inaccurate. For example, if I choose "Hike" in MapMyRide instead of "Walk," MapMyRide says I burn about 800 calories instead of 300 for the same route.
 
-I'm still trying to figure out the best tracker. Google Fit's estimations for walking and biking activities seem the most realistic, and it even counts my forays into the supermarket as a calorie-burning activity. Additionally, Google Fit also has another interesting metric: "points." You earn points when you move more quickly; the points indicate that the exercise is more heart-healthy. For example:
+I'm still trying to figure out the best tracker. Google Fit's estimations for walking and biking activities seem the most realistic, and it even counts my forays into the supermarket as a calorie-burning activity. Additionally, Google Fit also has another interesting metric: "heart points." You earn heart points when you move more quickly; the points indicate that the exercise is more heart-healthy. For example:
 
 <img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlefitpoints.png" alt="Google Fit points" />
 
-Notice how that last "Afternoon walk" earned only 1 point? That's because it wasn't actually exercise &mdash; it was a stop at Safeway to pick up a few grocery items.
+Notice how that last "Afternoon walk" earned only 1 heart point? That's because it wasn't actually exercise &mdash; it was a stop at Safeway to pick up a few grocery items.
 
 [Google Fit](https://www.google.com/fit/) describes heart points as follows:
 
 > Activities that get your heart pumping harder have tremendous health benefits for your heart and mind. You'll earn one Heart Point for each minute of moderately intense activity like picking up the pace when walking your dog, and double points for more intense activities like running. It takes just 30-minutes of brisk walking five days a week to reach [AHA](https://www.heart.org/en/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults)'s recommended amount of physical activity shown to reduce the risk of heart disease, improve sleep, and increase overall mental wellbeing.
 
-Admittedly, two hours is practically twice what the American Health Association recommends, so keep that in mind.
-
 If using points instead of time, maybe 75 points (rather than 2 hours) seems like a good rule of thumb. That means if I decide to pick up the pace and move more quickly, I can finish my exercise in less than two hours. (In contrast, if the two hours is a static rule, there's not much incentive to do more aggressive physical activity, and slow walks have fewer benefits than brisk walks or other more active movement.)
+
+**Admittedly, two hours is practically twice what the American Health Association recommends, so keep that in mind. This is my own goal, not something scientifically backed, and there's a good chance the extra exercise doesn't add any additional benefits.**
 
 Even though I like the idea of points, Google Fit (which assigns the points) doesn't always capture every activity or capture them reliably. For example, a recent mountain biking ride doesn't seem to have registered at all. Other times, Google Fit asks me if my activity involved riding a bike, as if it's unsure how to interpret the motion.
 
