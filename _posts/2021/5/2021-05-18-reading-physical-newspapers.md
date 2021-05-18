@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/life-experiments
 description: "Lately I've been trying trying something that I call <i>life experiments</i>. These are goals that I adopt for about 50 days and then evaluate their impact on my life. With this experiment, I decided to stop reading the news on my phone and to instead read a physical newspaper delivered to my house each day."
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newspaperthumbphysical.png
 ---
 
 ## The experiment

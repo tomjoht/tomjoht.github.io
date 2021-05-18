@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/life-experiments-two-hrs-exercise
 description: "Lately I've been trying trying something that I call <i>life experiments</i>. These are goals that I adopt for about 50 days and then evaluate their impact on my life. The reason for 50 days is to give the experiment sufficient time to have had an impact. If I keep a experiment for a week or two only, it's hard to see what change it makes. So far, my first life experiment &mdash; exercising two hours a day &mdash; has been been an interesting one."
+image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlefitthumb.png
 ---
 
 ## Experiment: Two hours of exercise a day
