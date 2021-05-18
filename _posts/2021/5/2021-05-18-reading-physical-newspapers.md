@@ -89,7 +89,7 @@ Here are the most popular articles from my tech feeds in Feedly:
 
 Even with curation by the most popular articles, one still has to do a lot of scanning and quick reading to pick out what's truly noteworthy and relevant. Interestingly, the front page tech story on today's New York Times, [To Get in China, Apple Swallowed Hard Bargain](https://www.nytimes.com/2021/05/17/technology/apple-china-censorship-data.html), isn't even in my Feedly list of most popular articles.
 
-I'm still figuring out the best way to surface articles in Feedly, but this effort requires a lot more active input than simply picking up a newspaper from my driveway. The problem is, the more actively I fine-tune the Feedly algorithm to surface relevant news, the more I return to the initial problem of amplifying only the kind of news I want to see.
+I'm still figuring out the best way to surface articles in Feedly, but this effort requires a lot more active input than simply picking up a newspaper from my driveway. The problem is, the more actively I fine-tune the Feedly algorithm to surface relevant news, the more I return to the initial problem of amplifying only the kind of news I supposedly want to see.
 
 ## Other drawbacks to print
 
