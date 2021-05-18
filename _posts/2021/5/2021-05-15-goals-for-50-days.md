@@ -1,5 +1,5 @@
 ---
-title: "Life experiments: Exercising two hours a day"
+title: "Life experiments: What would happen if I exercised 2 hours a day?"
 permalink: /blog/life-experiments-two-hours-of-exercise/
 categories:
 - technical-writing
@@ -16,7 +16,7 @@ Exercise for this experiment usually means *low-impact* walking, biking, kicking
 
 Regardless of the influence on weight loss, I noticed that the increased daily exercise had a positive impact on my well-being. I felt more active, more alive, and more healthy. I noticed that if I didn't get this exercise, my legs started to become restless. For example, at my kid's soccer games, rather than sit down to watch, I preferred to walk around, even if it just meant just pacing back and forth along the sidelines.
 
-My wife enjoys walking, especially hiking, so we've been going out more for these walks, as well as after-dinner walks around the neighborhood. My kids like to go on bike rides or forays to the park as well, which I'm ready to do (especially knowing that it will help get my exercise minutes in).
+My wife enjoys walking, especially hiking, so we've been going out more for these walks, as well as after-dinner walks around the neighborhood. My kids like to go on bike rides or forays to the park as well, which I'm ready to do (especially knowing that it will help get my exercise minutes in). Here's a picture of my wife and me atop Echo Peak, with Mount Ranier in the distance.
 
 It's no secret that exercise has a positive impact on mental health. In [I Exercised Every Day for Two Weeks, and I Totally Underestimated How Happy It Would Make Me](https://www.purewow.com/wellness/exercise-and-mental-health), the author says she exercised daily for two weeks straight and said the effect was "amazing" on her mental and emotional well-being. She writes:
 
@@ -44,7 +44,7 @@ Notice how that last "Afternoon walk" earned only 1 heart point? That's because 
 
 > Activities that get your heart pumping harder have tremendous health benefits for your heart and mind. You'll earn one Heart Point for each minute of moderately intense activity like picking up the pace when walking your dog, and double points for more intense activities like running. It takes just 30-minutes of brisk walking five days a week to reach [AHA](https://www.heart.org/en/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults)'s recommended amount of physical activity shown to reduce the risk of heart disease, improve sleep, and increase overall mental wellbeing.
 
-If using points instead of time, maybe 75 points (rather than 2 hours) seems like a good rule of thumb. That means if I decide to pick up the pace and move more quickly, I can finish my exercise in less than two hours. (In contrast, if the two hours is a static rule, there's not much incentive to do more aggressive physical activity, and slow walks have fewer benefits than brisk walks or other more active movement.)
+If using points instead of time, maybe 75 points (rather than 2 hours) seems like a good rule of thumb. That means if I decide to pick up the pace and move more quickly, I can finish my exercise in less than two hours. (In contrast, if the two hours is a static rule, there's not much incentive to do more aggressive physical activity, and slow walks have fewer benefits than brisk walks or other more active movement.) Also, it seems that studies indicate that brisk walks are a lot more beneficial than slow walks.
 
 **Admittedly, two hours is practically twice what the American Health Association recommends, so keep that in mind. This is my own goal, not something scientifically backed, and there's a good chance the extra exercise doesn't add any additional benefits.**
 
@@ -54,7 +54,7 @@ Other times, the analytics just seem wacky. For example, here's a biking outing 
 
 <img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/duthieride.png" alt="wacky analytics" />
 
-I'm not sure what happened there. .04 miles? .03 mph? For some reason, when Google Fit syncs with other apps like MapMyRide, the metrics often get distorted. The biking wasn't intense. The [Duthie bike park](https://www.evergreenmtb.org/trails/duthie-hill) doesn't offer challenging elevation climbs, just trails that loop and snake around with lots of dirt mounds, bridges, sloped corners, and other bike-parky things. Did I really deserve 82 points?
+I'm not sure what happened there. .04 miles? .03 mph? For some reason, when Google Fit syncs with other apps like MapMyRide, the metrics often get distorted. The biking wasn't intense. The [Duthie bike park](https://www.evergreenmtb.org/trails/duthie-hill) doesn't offer challenging elevation climbs, just trails that loop and snake around with lots of dirt mounds, bridges, sloped corners, and other bike-parky things. Did I really deserve 82 points? However, this instance seems to be an anomoly to the norm.
 
 Here's a Google Fit reading for another ride (within [Spring Lake / Lake Desire](https://kingcounty.gov/services/parks-recreation/parks/parks-and-natural-lands/natural-lands/springlake.aspx)) without the sync with another app:
 
@@ -62,7 +62,19 @@ Here's a Google Fit reading for another ride (within [Spring Lake / Lake Desire]
 
 This is much more expected and reflective of the ride. Overall, I like the idea of points, as it encourages more active exercise. It seems like you get a point for each minute the activity is fast-paced. A one-hour mountain bike ride leaves me feeling more exhausted than a one-hour hike.
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/mountainbikelakedesire.png" alt="mountain biking on Lake Desire" />
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/mountainbikelakedesire.png" alt="mountain biking on Lake Desire" /><figcaption>My mountain bike next to the trails in the Lake Desire / Spring Lake King County park</figcaption></figure>
+
+<figure><img style="max-width: 500px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannontommountranierlakedesire.jpg" alt="Echo Peak, with Mount Ranier in the distance" /><figcaption>My wife, Shannon, and me atop Echo Peak, with Mount Ranier in the distance. This is my wife's absolute favorite hiking trail, and she hikes it almost daily</figcaption></figure>
+
+Let's get back to the trackers and the question of tracking calories versus points. Just for fun, here's a comparison for a 5 mile walk using both Google Fit and Strava:
+
+<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eveningwalkgooglefit.png" alt="Google Fit for five mile walk" />
+
+Now here's Strava's tracking of the same activity:
+
+<img style="border:1px solid #dedede; max-width: 350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eveningwalkstrava.png" alt="Strava for five mile walk" />
+
+In both cases, the distances measured are about the same. So is the pace (not shown in the Strava screenshot). But for some reason, Strava thinks this activity burns twice as many calories as Google Fit. I'm not sure what's going on with Strava here because other fitness calculators align much more with Google Fit's estimation. If calories vary widely, it might make more sense to use another metric like points instead.
 
 ## Other notes
 
