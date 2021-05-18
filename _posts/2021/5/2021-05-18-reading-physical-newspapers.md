@@ -1,12 +1,11 @@
 ---
-title: "Life experiments: Would reading a physical newspaper fix the online click-scrolling habits?"
+title: "Life experiments: Would reading a physical newspaper fix my online click-scrolling habits?"
 permalink: /blog/life-experiments-reading-physical-newspaper/
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/life-experiments
 description: "Lately I've been trying trying something that I call <i>life experiments</i>. These are goals that I adopt for about 50 days and then evaluate their impact on my life. With this experiment, I decided to stop reading the news on my phone and to instead read a physical newspaper delivered to my house each day."
-published: false
 ---
 
 ## The experiment
@@ -62,31 +61,40 @@ Manjoo explains that turning off this incoming stream of half-formed news was "l
 >
 > We have spent much of the past few years discovering that the digitization of news is ruining how we collectively process information. Technology allows us to burrow into echo chambers, exacerbating misinformation and polarization and softening up society for propaganda. With artificial intelligence making audio and video as easy to fake as text, we’re entering a hall-of-mirrors dystopia, what some are calling an “information apocalypse.” And we’re all looking to the government and to Facebook for a fix.
 
-Manjoo's comment here is a stronger indichtment of social media. Does consuming news through social media channels lead to misinformation, polarization, and an information apocalypse? I'm not sure. I was following the Israeli-Palestinian conflict mainly through the print newspaper, as this story was front page news, and I felt like I was getting facts and insights. But the other night I browsed [reddit.com/r/PublicFreakout/](https://www.reddit.com/r/PublicFreakout/) and saw scene after scene of protests against Israeli atrocities. Social media's portrayal of the conflict made it seem like Israelis were committing genocide and war crimes, and countries all across the world were holding massive protests in the streets.
+Manjoo's comment here is a stronger indichtment of social media. Does consuming news through social media channels lead to misinformation, polarization, and an information apocalypse? I'm not sure. I was following the Israeli-Palestinian conflict mainly through the print newspaper, as this story was front page news, and I felt like I was getting facts and insights. But the other night I browsed [reddit.com/r/PublicFreakout](https://www.reddit.com/r/PublicFreakout/) and saw scene after scene of protests against Israeli atrocities. Social media's portrayal of the conflict made it seem like Israelis were committing genocide and war crimes, and countries all across the world were holding massive protests in the streets.
 
 At first, I thought, this confirms the bias of social media! In the New York Times reports, I was left more to form my own opinion of the events. But after discussing this with my wife, she sent me an article about bias in journalism &mdash; [War of words: why journalists need to understand grammar to write accurately about violence](https://theconversation.com/war-of-words-why-journalists-need-to-understand-grammar-to-write-accurately-about-violence-96850). The author explains how passive language can downplay the aggressor's role, particularly in this Israeli-Palestinian conflict. Did Palestineans *die in a conflict*, or were they *killed by Israelis*? The author says:
 
 > The bad news for journalists is there is no neutral mode. If your words sound neutral, it’s likely you’ve simply avoided laying responsibility for the killings, or have imputed responsibility only indirectly.
 
-This made me question the credibility of the New York Times, a [newspaper with Jewish ties](https://www.timesofisrael.com/the-sulzberger-family-a-complicated-jewish-legacy-at-the-new-york-times/), to report objectively on the Israeli-Palestinian conflict. Sure enough, the next morning as I looked at the latest article on this topic, I noticed the subtleties of language.
->
+This made me question the credibility of the New York Times, a [newspaper with Jewish ties](https://www.timesofisrael.com/the-sulzberger-family-a-complicated-jewish-legacy-at-the-new-york-times/), to report objectively on the Israeli-Palestinian conflict. Sure enough, the next morning as I looked at the latest article on this topic, [Mideast violence rages on as Biden Backs a cease-fire](https://static01.nyt.com/images/2021/05/18/nytfrontpage/scan.pdf), I noticed the subtleties of language. Grammatically, it does seem that the articles more explicitly identify Hamas as the actor killing Israelis, but the actor killing Palestinians is obscured. In the highlighted passages below, who killed the Palestinians?
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nytimesbiasreporting.png" alt="Passive language and obscuring the actor" />
 
 Overall, though, I realized that my understanding of the Israeli-Palestinian issue was still extremely superficial. Reading print newspaper didn't make me more informed on the issue; that kind of awareness and erudition about world events isn't going to come from briefly reading a daily print newspaper. It seems one would need to devote a lot more time and study to become informed, which doesn't really fit with my tech career, since I don't have hours to ramp up on worldly issues. Instead, I would prefer more information about tech news.
 
-And this is where print media starts to fail: there doesn't seem to even be a Technology section in the print edition, or at least I can't find it. In the New York Times, tech news is drowned out by political and world events. By getting a print edition of a newspaper focused on politics, world events, arts, and culture, am I squelching the more tech/science news that would be more relevant to my career in tech?
+And this is where print media starts to fail: there doesn't seem to even be a Technology section in the print edition, or at least I can't find it. The Tech articles are instead mixed in with the other sections. And in general, tech news is drowned out by political and world events. By getting a print edition of a newspaper focused on politics, world events, arts, and culture, am I squelching the more techy/sciency news that would be more relevant to my career in tech?
 
-As far as print media for tech, there doesn't seem to be much beyond monthly magazines, namedly *Wired*.
+As far as print media for tech, however, there doesn't seem to be much beyond monthly magazines, namedly *Wired*.
+
+## Other observations about news priority
+
+As I thought more about bias in print media, I started to wonder who curates the articles on the front-page news? Who decides that a world event is more important than another? For example, is the Israeli-Palistinian conflict more newsworthy than China landing on Mars, or Elon scaling back the acceptance of bitcoin payment for Tesla? I decided that I needed to balance out the New York Times with some tech/science news, so I upgraded my Feedly subscription to Feedly Pro and started to curate RSS feeds. There's really no one-stop-source for all tech news because tech has so many different angles and specializations. I might not care about the latest releases in cryptography or smartphone devices, but others might. I have about 100+ tech feeds in Feedly, and I let Feedly tell me which articles are the most popular. This kind of AI algorithm seems to take news in a direction that print media lacks.
+
+With print media, an editorial board decides what goes on the front page. With online media and RSS aggregators, the editorial board is the AI algorithm, and it can surface articles by popularity or by other factors. In fact, Feedly has a feature called Leo that lets me influence what surfaces. Are articles that are more popular more worthy of being front-page news? Not always, but sometimes an interesting article is more relevant than a newsworthy one.
+
+Here are the most popular articles from my tech feeds in Feedly:
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/feedlymostpopulararticles.png" alt="Popular Feedly articles" />
+
+Even with curation by the most popular articles, one still has to do a lot of scanning and quick reading to pick out what's truly noteworthy and relevant. Interestingly, the front page tech story on today's New York Times, [To Get in China, Apple Swallowed Hard Bargain](https://www.nytimes.com/2021/05/17/technology/apple-china-censorship-data.html), isn't even in my Feedly list of most popular articles.
+
+I'm still figuring out the best way to surface articles in Feedly, but this effort requires a lot more active input than simply picking up a newspaper from my driveway. The problem is, the more actively I fine-tune the Feedly algorithm to surface relevant news, the more I return to the initial problem of amplifying only the kind of news I want to see.
 
 ## Other drawbacks to print
 
 There's another drawback to print that I can't quite wrangle. I seem to wake up every day at around 5am, whether due to birds singing, the need to pee, cats jumping around, or from sheer habit. Previously, I would read a few articles on my phone, get bored/tired, and sometimes fall back asleep (or sometimes not). But with my new print newspaper-reading habit, I would get out of bed, get coffee and toast, and start reading the paper. There was no back-to-sleep attempt. Unfortunately, with this ritual of waking at 5am, I frequently crashed at around 2-3pm. So it seems there might actually be a benefit to clicking and scrolling on my phone in bed.
 
-## Other observations about news priority
-
-As I thought more about bias in print media, I started to wonder who curates the articles on the front-page news? Who decides that a world event is more important than another? For example, is the Israeli-Palistinian conflict more newsworthy than China landing on the moon, or Elon scaling back on bitcoin payment for Tesla? I decided that I needed to balance out the New York Times with some tech/science news, so I upgraded my Feedly subscription to Feedly Pro and started to curate RSS feeds. There's really no one-stop-source for all tech news because tech has so many different angles and specializations. I might not care about the latest releases in cryptography or smartphone devices, but others might. I have about 100+ tech feeds in Feedly, and I let Feedly tell me which articles are the most popular. This kind of AI algorithm seems to take news in a direction that print media lacks.
-
-With print media, an editorial board decides what goes on the front page. With online media and RSS aggregators, the editorial board is the AI algorithm, and it can surface articles by popularity or by other factors. In fact, Feedly has a feature called Leo that lets me influence what surfaces. Are articles that are more popular more worthy of being front-page news? I'm not sure.
-
 ## Conclusion
 
-I'm still trying out my print newspaper subscription. As I said earlier, I think 50 days is a good measure for fully experimenting with a goal. Perhaps the true test will be when I stop the subscription. When I no longer have a paper on my driveway to look forward to, will I lall in bed, click-scrolling and dreading getting up? Will I miss the paper reading experience enough to convert the experiment into a regular habit?
+I'm still trying out my print newspaper subscription. As I said earlier, I think 50 days is a good measure for fully experimenting with a goal. Perhaps the true test will be when I stop the subscription. When I no longer have a paper on my driveway to look forward to, will I lie in bed, click-scrolling and dreading getting up? Will I miss the paper reading experience enough to convert the experiment into a regular habit?
