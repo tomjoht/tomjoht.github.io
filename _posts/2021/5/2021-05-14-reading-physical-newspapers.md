@@ -1,5 +1,5 @@
 ---
-title: "Life experiments: Reading a physical newspaper"
+title: "Life experiments: Would reading a physical newspaper fix the online click-scrolling habits?"
 permalink: /blog/life-experiments-reading-physical-newspaper/
 categories:
 - technical-writing
