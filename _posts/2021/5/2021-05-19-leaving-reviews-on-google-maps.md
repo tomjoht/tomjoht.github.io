@@ -6,6 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/leaving-reviews-maps
 description: "A few months ago, I decided to start leaving reviews on Google Maps of nearly every place I visited. The result has made me feel more empowered as a consumer."
+published: false
 ---
 
 The other week I was at Duthie bike park for the first time with a friend who had visited the place more times than he can count. I asked if he'd ever left a review of the place in Google Maps. He paused a minute and said no. Meanwhile, I was thinking about just what I'd say in my review, even as a first-time visitor.
