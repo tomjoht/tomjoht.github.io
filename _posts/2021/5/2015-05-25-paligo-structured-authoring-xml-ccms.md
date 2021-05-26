@@ -34,6 +34,7 @@ samples:
 - title: Paligo slides
   url: https://paligoslides.netlify.app/en/index-en.html#/UUID-ab9b50a0-f495-cbb1-ff97-aaccf99d0a80
   img: paligo_slides.png
+published: false
 ---
 
 *Note: This is a sponsored post.*
