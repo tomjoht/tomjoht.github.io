@@ -1,10 +1,10 @@
 ---
-title: "Life experiments: Will reading a physical newspaper improve the way I consume news?"
+title: "Experiments: Will reading a physical newspaper improve the way I consume news?"
 permalink: /blog/life-experiments-reading-physical-newspaper/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/life-experiments
+rebrandly: https://idbwrtng.com/newspaper-experiments
 description: "Lately I've been trying trying something that I call <i>life experiments</i>. These are goals that I adopt for about 50 days and then evaluate their impact on my life. With this experiment, I decided to stop reading the news on my phone and to instead read a physical newspaper delivered to my house each day."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newspaperthumbphysical.png
 ---

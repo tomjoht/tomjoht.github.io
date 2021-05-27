@@ -1,5 +1,5 @@
 ---
-title: "Life experiments: What would happen if I exercised 2 hours a day?"
+title: "Experiments: What would happen if I exercised 2 hours a day?"
 permalink: /blog/life-experiments-two-hours-of-exercise/
 categories:
 - technical-writing
