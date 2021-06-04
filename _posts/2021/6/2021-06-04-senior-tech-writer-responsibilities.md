@@ -34,7 +34,7 @@ Another task is to organize the work among multiple writers. You might have a nu
 
 Additionally, one task of a senior/lead technical writer is to review the content that others create and submit (not just other writers, but other non-writer contributors as well). A more junior technical writer is often content to remain in their own silo of content, concerned only about their tickets and submissions and focused on their slice of the doc site. The senior/lead writer needs to have the full picture of the content, to understand what's being contributed, whether it aligns with other content on the site, whether it meets expectations of the tickets, whether it hits the quality bar, and more. You can't just silo yourself and be content with components A, B, C but need more familiarity with components A to Z. You have to understand the larger picture.
 
-## 5. Reporting upward
+## 5. Reporting upwards
 
 Another task is to report upwards to senior stakeholders, providing business metrics about the documentation that align with other kinds of business metrics reported by other groups. For example, you might report on goals around ticket deflection, newly published content, usage metrics, and other goals related to user satisfaction around docs. These metrics are some of the most difficult to define and report on, but communicating them upward helps establish the value of the doc team. This value is crucial for resource allocation and visibility within your organization.
 
