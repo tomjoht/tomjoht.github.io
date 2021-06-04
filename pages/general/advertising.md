@@ -3,7 +3,7 @@ layout: page
 title: Advertising (2021)
 permalink: /advertising/
 type: page
-last-modified: 2021-01-18
+last-modified: 2021-06-02
 ---
 
 I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially concerning <a href='/learnapidoc/'>API documentation</a>. Because of this, I can help increase your product or service's visibility more than any other technical writing site online.
@@ -127,19 +127,24 @@ Each product review post is clearly identified as a sponsored post. I also get y
 
 Here are some sample product reviews I wrote previously:
 
+* [Paligo: Structured Authoring and Component Content Management made easy](https://idratherbewriting.com/blog/paligo-structured-authoring-xml-ccms)
+* [An in-depth look at MadCap Flare 2021’s New Markdown Import Feature](https://idratherbewriting.com/blog/madcap-import-feature-madcap-flare-release-2021/)
+* [Technical writing course Q&A -- 'Become a Technical Writer', with Bobby Kennedy](https://idratherbewriting.com/blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/)
+* [Videocast: Micro content and Flare -- Conversation with Kate Schneider](https://idratherbewriting.com/blog/micro-content-and-flare-conversation-with-kate-schneider/)
+* [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](https://idratherbewriting.com/blog/xeditor-question-and-answer/)
 * [Connecting micro content with search analytics -- notes on the first MadCap Flare and MadCap Central 2020 Release](/blog/connect-micro-content-with-search-analytics/)
 * [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](/learnapidoc/pubapis_redocly.html)
 * [How does Document360 handle challenges with API documentation?](/blog/document-360-review/)
 * [Stoplight — visual modeling tools for creating your OpenAPI spec](/learnapidoc/pubapis_stoplight.html)
 * [Create an OpenAPI specification document using Stoplight Studio's visual editor](/learnapidoc/pubapis_openapis_quickstart_stoplight.html)
 * [SwaggerHub introduction and tutorial](/learnapidoc/pubapis_swaggerhub_smartbear.html)
-* [XML Documentation for Adobe Experience Manager (AEM) — Integrating documentation and marketing content into a seamless whole](/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/) (668 page views as of 3-25-19)
-* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](/2017/01/16/madcap-central-review/) (1,968 page views as of 3-10-19)
-* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/) (5,533 page views as of 3-10-19)
-* [Simplified Technical English and HyperSTE](/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) (4,056 page views as of 3-10-19)
-* [Evaluating Adobe FrameMaker's responsive HTML5 output](/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/) (1,164 page views as of 3-10-19)
-* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/) (2,042 page views as of 3-10-19)
-* [Xeditor, a CMS editor for XML content](/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/) (1,335 page views as of 3-10-19)
+* [XML Documentation for Adobe Experience Manager (AEM) — Integrating documentation and marketing content into a seamless whole](/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/)
+* [MadCap Central -- a first look at MadCap’s new cloud-based collaboration and publishing solution](/2017/01/16/madcap-central-review/)
+* [The Story of Paligo: A new browser-based CCMS with all the features you'd ever want](/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/)
+* [Simplified Technical English and HyperSTE](/2017/01/25/hyperste-simplified-technical-english-asd-ste100/)
+* [Evaluating Adobe FrameMaker's responsive HTML5 output](/2017/01/16/adobe-framemaker-html5-mobile-responsive-view/)
+* [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/)
+* [Xeditor, a CMS editor for XML content](/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
 
 Product review posts are typically 800-1,000 words long and ideally focus on features in a new release. (Having something newsworthy to write about helps establish the article's relevance.)
 
@@ -147,7 +152,7 @@ These review posts aren't merely marketing material converted into a blog post. 
 
 If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
 
-Each product review post costs $700 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
+Each product review post costs $800 per post. I always review these posts with you and, when published, I identify them as being sponsored posts. If desired, you can also write the post.
 
 Product review posts have good results with search results. If you search google for [Xeditor][google-xeditor], [HyperSTE][google-hyperste], [Paligo][google-paligo], or [Madcap Central][google-madcap-central], you'll see that my product review posts appear on the first page of search results. This is because my site has a high page rank and influence.
 
