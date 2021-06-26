@@ -1,12 +1,12 @@
 ---
-title: Technical writing podcasts
+title: Other tech comm podcasts
 permalink: /technical-writing-podcasts/
 status: publish
 type: page
 published: true
 ---
 
-Beside [my podcasts](/category-podcasts/), here are some technical writing podcasts focused on language, writing, content strategy, and more:
+Beside [my podcasts](/category-podcasts/) and the [WTD podcasts](/category-wtd-podcasts)], here are some technical writing podcasts focused on language, writing, content strategy, and more:
 
 {% for item in site.data.recommended_podcasts.podcasts %}
 

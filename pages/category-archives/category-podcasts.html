@@ -1,5 +1,5 @@
 ---
-title: "Podcasts"
+title: "I'd Rather Be Writing podcasts"
 permalink: /category-podcasts/
 categoryName: podcasts
 ---
@@ -40,24 +40,13 @@ categoryName: podcasts
 </div>
 <div style="clear: both;"></div>
 
-<p>I also regularly participate in the <a href='https://podcast.writethedocs.org/'>Write the Docs Podcast</a> and post summaries of each episode here as well &mdash; see <a href="/category-wtd-podcasts/">Write the Docs podcasts</a>. Note that the <a href='https://idratherbewriting.com/itunes.rss'>I'd Rather Be Writing audio feed</a> doesn't contain MP3 files from the Write the Docs podcast. You have to <a href='https://podcast.writethedocs.org/how-to-subscribe/'>subscribe to the WTD podcast</a> for the audio feed.</p>
+<p>I also regularly participate in the <a href='https://podcast.writethedocs.org/'>Write the Docs Podcast</a> and post summaries of each episode here as well &mdash; see <a href="/category-wtd-podcasts/">Write the Docs podcasts</a>. 
 
 {{site.data.alerts.tip}} See <a href="/technical-writing-podcasts/">Technical writing podcasts</a> for other podcasts related to technical writing, language, content strategy, and so on.{{site.data.alerts.end}}
 
 <h3>Recent idratherbewriting.com podcast episodes</h3>
 <ol reversed="true">
     {% for p in site.categories.podcasts %}
-
-  <li><h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
-</h4></li>
-
-{% endfor %}
-
-</ol>
-
-<h3>Recent Write the Docs Podcast episodes</h3>
-<ol reversed="true">
-    {% for p in site.categories.wtd-podcasts %}
 
   <li><h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
 </h4></li>

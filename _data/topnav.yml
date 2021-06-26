@@ -10,9 +10,6 @@ topnav:
     - title: API documentation course
       url: /learnapidoc/
 
-    - title: Podcasts
-      url: /category-podcasts/
-
 
 #Topnav dropdowns
 
@@ -30,6 +27,15 @@ topnav_dropdowns:
       url: /contact/
     - title: Site analytics
       url: /analytics/
+
+  - title: Podcasts
+    items:
+    - title: I'd Rather Be Writing podcasts
+      url: /category-podcasts/
+    - title: Write the Docs podcasts
+      url: /category-wtd-podcasts/
+    - title: Other tech comm podcasts
+      url: /technical-writing-podcasts/
 
   - title: Archives
     items:
