@@ -14,7 +14,7 @@ I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites w
 
 I mainly help increase visibility of your product primarily through **ad impressions**. An impression occurs when someone loads a page where your ad is visible. In 2020, idratherbewriting.com had 1,814,770 page views, or about 4,971 page views a day (207 page views an hour). More specifically, users created 1,195,729 sessions, with 1.52 pages per session and an average of 1:25 minutes per session.
 
-{{site.data.alerts.note}} For details about how many page views, sessions, and other analytics information, see the <a href="/analytics">2019 site traffic and analytics</a>.{{site.data.alerts.end}}
+{{site.data.alerts.note}} For details about how many page views, sessions, and other analytics information, see the <a href="/analytics">2020 site traffic and analytics</a>.{{site.data.alerts.end}}
 
 You can advertise your product or service on idratherbewriting.com. Different ad spaces are more visible than others. You can select from several different spaces or services. The availability and cost for each ad space is as follows:
 
