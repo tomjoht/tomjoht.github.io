@@ -5,7 +5,7 @@ categories:
 - technical-writing
 - writing
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/basketballstrategies
 description: "Because it's NBA championship finals time, I thought it might be fun to write a basketball-themed post focusing on basketball strategies that succeeded or failed, and how any of these strategies might apply to technical writing. Beyond the specifics of any particular strategy, the larger application to tech comm is to simply formulate a strategy, to think strategically about how to \"win\" at technical writing. With that, let's jump into five basketball strategies."
 jtype: notes_basketball
 ---
@@ -13,7 +13,7 @@ jtype: notes_basketball
 
 ## 1. The shooting bigs
 
-It used to be that bigs in the NBA (the seven-footers), mostly lived in the paint with short shots and rebounds; then the game evolved and they started shooting from the three-point line, making them much more versatile. Players like Brook Lopez, Kristap Porzingis, Nikola Jokic, and Arvydas Sabonis shoot three-pointers, which runs contrary to the traditional big's role.
+It used to be that bigs in the NBA (the seven-footers), mostly lived in the paint with short shots and rebounds; then the game evolved and they started shooting from the three-point line, making them much more versatile. Players such as Brook Lopez, Kristap Porzingis, Nikola Jokic, and Arvydas Sabonis shoot three-pointers, which runs contrary to the traditional big's role.
 
 Having a shooting big allows you more strategic opportunities on offense because the big can either play inside or outside, and the defender can't float in the paint (protecting the rim from others who drive). Shooting bigs are essential hybrid players, able to play in the paint or beyond the arc. Some bigs have a smooth, natural-looking shot. Others, like Giannis Antetokounmpo, make the crowd cringe when he attempts a three. Here's a short video highlighting this evolution of shooting bigs:
 
@@ -29,6 +29,8 @@ This strategy involves setting a pick for someone to create a mismatch, like hav
 
 **Applicability to tech comm:** Many developer doc projects are the ultimate mismatch, where a tech writer with a humanities background attempts to document something that requires an engineering degree to understand. Although it seems like David going against Goliath would be a losing battle in favor of Goliath, tech writers usually win in the end due to their scrappiness, quick learning ability, and good word-handling skills.
 
+(Granted, some tech writers have engineering degrees, which might create a better matchup. But in that case, the mismatch might be an engineer attempting to excel at writing.)
+
 ## 3. Small ball
 
 Some teams flipped the strategy script by introducing "[small ball](https://en.wikipedia.org/wiki/Small_ball_(basketball))" (namely, the Warriors, Rockets, and others). These teams got rid of the traditional big center and replaced the center role with someone smaller who was quicker, could shoot threes, and also run the floor. This forced the defense to get out of the paint and stick closely to each offensive player. It also meant keeping the defending bigs on the bench because they usually can't defend smaller shooters playing an outside game. With no big defenders floating the paint, it allowed the offense (especially players like Russell Westbrook) more space to drive to the hoop. Here's a video showing this strategy:
@@ -37,7 +39,7 @@ Some teams flipped the strategy script by introducing "[small ball](https://en.w
 
 If the defense doubles up on someone like Harden, he passes the ball to an open shooter to knock down a three. To avoid being outmatched on defense by another big, teams looked for a versatile forward to play the center role (such as Draymond Green, PJ Tucker, or Robert Covington).
 
-**Applicability to tech comm:** Maybe a role you thought was key turns out to be superfluous. Maybe you get rid of our manager or team lead and replace the person with another senior technical writer, and then share the managerial responsibilities across all the senior writers? Or maybe you get rid of your tools guru and outsource that role to a commercial solution? Or maybe get rid of some process or pipeline stage you thought was essential? What central role or process can you do without?
+**Applicability to tech comm:** Maybe a role you thought was key turns out to be superfluous. Maybe you get rid of middle management and replace the role(s) with another senior technical writer, and then share the managerial responsibilities across all the senior writers? Or maybe you get rid of your tools guru and outsource that role to a commercial solution? Or maybe get rid of some process or pipeline stage you thought was essential? What central role or process can you do without?
 
 ## 4. Dribble penetration
 
@@ -47,7 +49,7 @@ The dribble penetration strategy involves a guard penetrating into the paint to 
 
 Chris Paul has this down to a science, creating the offense based on options that result from this pick and roll &mdash; see [Chris Paul's Pick & Roll Game Broken Down to a Science](https://www.youtube.com/watch?v=v_D_2eDsQfk).
 
-**Applicability to tech comm:** You might be the most visible person (having rapport and years-long relationships with those product teams around you), but it doesn't mean you should shoulder all the work. Instead of trying to do everything yourself, look for the open teammate and pass him or her the work. Look for that teammate who's standing in the corner, available, waiting for the opportunity to tackle a new project.
+**Applicability to tech comm:** You might be the most visible person (because of having rapport and years-long relationships with those product teams around you), but it doesn't mean you should shoulder all the work. Instead of trying to do everything yourself, look for the open teammate and pass him or her the work. Look for that teammate who's standing in the corner, available, waiting for the opportunity to tackle a new project.
 
 ## 5. Hero ball
 
