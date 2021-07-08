@@ -63,4 +63,6 @@ Hero ball sometimes wins games, but in the long run, heroes get tired, they get 
 
 ## Conclusion
 
-That's it for this exploration of basketball strategies and tech comm. For more sports-related posts, see the sidebar on the left.
+That's it for this exploration of basketball strategies and tech comm. For more sports-related posts, see the sidebar on the left. By the way, I know it seems corny to take strategies from one domain and transpose them onto another, but this is actually a legit brainstorming technique. See my post [Brainstorming by transposing patterns from one category to another](/2018/10/19/transposing-patterns-from-one-category-to-another/). A workshop leader introduced a brainstorming technique that involved describing experiences in a cafe and then transposing the qualifiers and other descriptive statements from the cafe to our company's products.
+
+Sometimes bringing ideas from outside of your current category helps you see it in a new way. Not everything works, but with this post, the whole "hero ball" strategy made me rethink some of the tendencies toward independent work that I sometimes see.
