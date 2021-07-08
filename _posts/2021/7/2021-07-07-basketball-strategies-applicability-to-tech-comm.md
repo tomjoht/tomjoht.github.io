@@ -1,5 +1,5 @@
 ---
-title: "Five basketball strategies and how they surprisingly apply to tech comm"
+title: "Five basketball strategies and how they might apply to tech comm"
 permalink: /blog/basketball-strategies-applicability-to-tech-comm
 categories:
 - technical-writing
