@@ -13,6 +13,10 @@
     {% assign sidebarTitle = "Biking" %}
     {% assign sidebar = site.data.sidebar_biking.entries %}
 
+    {% elsif page.jtype == "notes_basketball" %}
+    {% assign sidebarTitle = "Basketball" %}
+    {% assign sidebar = site.data.sidebar_basketball.entries %}
+
     {% elsif page.jtype == "notes_voiceover_techniques" %}
     {% assign sidebarTitle = "Voiceover techniques" %}
     {% assign sidebar = site.data.sidebar_voiceover_techniques.entries %}

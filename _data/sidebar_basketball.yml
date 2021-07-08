@@ -1,0 +1,20 @@
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Basketball (sports) and writing
+      items:
+
+        - title: Five basketball strategies and how they surprisingly apply to tech comm
+          url: /basketball-strategies-applicability-to-tech-comm/
+
+        - title: Strategies from pickup basketball -- Why you shouldn't guard the worst player or focus too much on the documentation no one reads
+          url: /2018/04/19/why-watching-nba-can-make-you-a-worse-pickup-ball-player/
+
+        - title: 10 ways technical writing is just like the World Cup
+          url: /2018/06/19/how-tech-writing-is-just-like-the-world-cup/
+
+        - title: My second-chance points strategy with documentation
+          url: /2017/06/25/second-chance-points/
+
+        - title: Following the NBA Can Make You a Better Technical Writer
+          url: /2009/05/26/following-the-nba-can-make-you-a-better-technical-writer/
