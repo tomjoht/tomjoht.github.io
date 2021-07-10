@@ -40,7 +40,7 @@ Here's what I thought worked well:
 * **Focusing on REST APIs instead of tackling all APIs was a good decision**. If you try to include Java and C++ APIs, you end up trying to explain programming in order to cover the different aspects of the API. I think people need more background and preparation before they start to tackle programming APIs. The focus on REST also met most people's needs and interests.
 * **My workshop notes helped allay some of the concerns people had when they ran into snags** or didn't have cURL installed or were lost in some other way. When I showed them the detailed notes they could refer to later (the same links as above), it made people feel more reassured.
 
-{% include random_ad.html %}
+
 
 ## Presentation evaluation
 

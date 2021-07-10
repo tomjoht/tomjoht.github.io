@@ -15,4 +15,4 @@ Here are the pages on testing your documentation:
 * [Test all instructions yourself](https://idratherbewriting.com/learnapidoc/testingdocs_test_your_instructions.html)
 * [Test your assumptions](https://idratherbewriting.com/learnapidoc/testingdocs_testing_assumptions.html)
 
-{% include random_ad.html %}
+

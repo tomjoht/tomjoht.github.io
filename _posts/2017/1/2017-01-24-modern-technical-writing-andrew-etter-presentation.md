@@ -47,7 +47,7 @@ If you just want the audio only, you can listen here:
 <p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ettermodern.mp3" alt="Modern Technical Writing, by Andrew Etter">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
-{% include random_ad.html %}
+
 
 ## Slides
 

@@ -27,6 +27,6 @@ In this course, Peter does actually dive into oAuth authorization, and the techn
 
 Overall, I highly recommend taking Peter's course. The instruction about REST APIs geared towards technical writers is unparalleled. Check it out: [Learn API Technical Writing 2: REST for Writers](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/?couponCode=idrather)
 
-{% include random_ad.html %}
+
 
 For a review of review of Part 1 of Peter's course, see my previous post, [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/).

@@ -64,7 +64,7 @@ The meetup was held at the Google campus in Mountain View. Details are on the [m
 
 This was the first "South Bay" meeting for the [WTD San Francisco group](https://www.meetup.com/Write-the-Docs-SF). South Bay includes pretty much everywhere from Redwood City down to Morgan Hill.
 
-{% include random_ad.html %}
+
 
 ## Other API doc presentations
 

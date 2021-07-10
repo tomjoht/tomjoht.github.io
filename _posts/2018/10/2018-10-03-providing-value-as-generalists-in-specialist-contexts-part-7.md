@@ -38,7 +38,7 @@ Within the topic of information usability, I covered 7 principles:
 
 I list some additional information usability principles on my site, [idratherbewriting.com/simplifying-copmlexity](https://idratherbewriting.com/simplifying-copmlexity), and I'll continue to add to them in the future.
 
-{% include random_ad.html %}
+
 
 I also included a number of surveys throughout this essay to gather your feedback and input about whether you agree/disagree, and to what extent. I highly value the insights from readers and think that the perspectives shared as a whole can often provide guidance in lack of more rigorous studies or data.
 

@@ -9,7 +9,7 @@ description: "You can use Jekyll to populate variables in both your Swagger spec
 
 One of the challenges with Swagger is that the output duplicates a lot of the descriptions that already appear in your main documentation.
 
-{% include random_ad.html %}
+
 
 In your Swagger spec, you list your resources and endpoints, with descriptions, code samples, and other content. Most likely all of this content **already exists in your main documentation**.
 

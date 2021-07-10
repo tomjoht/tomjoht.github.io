@@ -32,7 +32,7 @@ Why the good but challenges and disillusionment stages? I mentioned them in [pre
 
 These are all the qualities you might expect to find in a more robust content management system for documentation, which might cost the same price as your liver or kidney on the black market.
 
-{% include random_ad.html %}
+
 
 ## The argument for using developer tools for technical documentation
 

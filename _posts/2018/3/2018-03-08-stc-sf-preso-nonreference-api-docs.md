@@ -67,4 +67,4 @@ San Francisco, CA 94105
 **Time:** 7-8pm
 
 
-{% include random_ad.html %}
+

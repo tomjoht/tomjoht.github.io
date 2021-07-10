@@ -32,7 +32,7 @@ While reading on my Kindle, I stumbled across a book called [Modern Technical Wr
 
 <figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>
 
-{% include random_ad.html %}
+
 
 Who is [Andrew Etter](https://www.linkedin.com/in/andrew-etter-0a013349)? He provides almost no biographical details about himself in the book, but based on my Linkedin search, he seems to be a lead writer at Palantir, which is a company in the Bay area that I actually toured when I moved out here.
 

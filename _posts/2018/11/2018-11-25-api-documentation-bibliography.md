@@ -20,4 +20,4 @@ If you're looking for some good articles to start, check out these two:
 
 Lately I've been interested to learn more about techniques and strategies for documenting code. It seems like software code is one of the most difficult things to document, and I wanted to see what attention this topic has received in academic studies. More on this topic later...
 
-{% include random_ad.html %}
+

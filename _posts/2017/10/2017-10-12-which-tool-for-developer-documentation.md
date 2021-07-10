@@ -40,4 +40,4 @@ Learning how to document code written in Java, JavaScript, C++, PHP, or some oth
 
 Additionally, unless you're revamping the doc tool set at a company, many times there is already adequate tooling in place. It could be Confluence, Google Docs, or even Microsoft Word. The company is likely hiring you to fill a documentation need, not to implement a new documentation toolset. Therefore your best approach for success in breaking into developer/API documentation is to deepen your technical learning and preparation, and not to get too mired with doc tools.
 
-{% include random_ad.html %}
+

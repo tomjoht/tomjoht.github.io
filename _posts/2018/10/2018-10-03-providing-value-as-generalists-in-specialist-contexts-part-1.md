@@ -45,7 +45,7 @@ In a nutshell, my argument is this:
 
 I’ll dive into each of these points in depth.
 
-{% include random_ad.html %}
+
 
 ## Interactive surveys
 

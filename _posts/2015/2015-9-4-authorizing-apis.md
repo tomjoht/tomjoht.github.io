@@ -13,7 +13,7 @@ For a more up-to-date version of this content, see <a href="https://idratherbewr
 
 Lately I've been busy working on [content for some API documentation workshops](https://idratherbewriting.com/learnapidoc/). One of the topics I wanted to cover in the workshop is how authentication and authorization work with APIs. This is probably one of the more complicated aspects of APIs, so I'd like to get as much feedback as possible about this section.
 
-{% include random_ad.html %}
+
 
 ## Authentication and authorization overview
 

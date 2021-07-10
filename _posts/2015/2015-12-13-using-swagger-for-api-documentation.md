@@ -10,7 +10,7 @@ I'm finishing up the Swagger UI implementation for my REST API docs. I've alread
 
 In this post, I just want to emphasize how cool Swagger is, and why I think every REST API doc set should have one.
 
-{% include random_ad.html %}
+
 
 A few weeks ago I met with one of our field engineers as our product manager provided some training on the new release. Although the meeting lasted only about 30 minutes, one behavior was clear: **the field engineer wanted to try out the requests during the training.**
 

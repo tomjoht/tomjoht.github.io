@@ -32,4 +32,4 @@ description: "I finished up the documentation processes section in my API course
 
 While not comprehensive, these processes elaborate on the original DX content strategy that I originally surfaced. I realize that my perspective on these processes is probably shaped by my current company, experience, tools, product domain, and so on. However, I think these topics cover many aspects common to any documentation group. I'm sure I could add another dozen process topics, as there many facets to managing documentation on a developer portal. This list of 10 articles is a good starting point for thinking about and developing your own documentation processes.
 
-{% include random_ad.html %}
+

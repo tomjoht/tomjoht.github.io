@@ -21,7 +21,7 @@ In moving content into another repo, I also realized something about GitHub. Wit
 
 Having content in separate repos provides a number of advantages. Not only is having the content in its own repo easier to manage, you can also apply unique settings for themes and apply other workflows to the content.
 
-{% include random_ad.html %}
+
 
 In moving the URLs, I used the [Jekyll redirect from](https://github.com/jekyll/jekyll-redirect-from) plugin (which GitHub supports to create 301 redirects). I also used the [URL Mapper function from Disqus](https://help.disqus.com/customer/portal/articles/912757-url-mapper) to move my comment threads to the new URLs (though for some reason the comments on the homepage didn't move yet).
 

@@ -136,4 +136,4 @@ Metropolitan State University of Denver: Room CN113 <br/>
 Denver, CO 80204<br/>
 
 
-{% include random_ad.html %}
+

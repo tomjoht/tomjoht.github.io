@@ -16,6 +16,6 @@ Admittedly, I have the least experience with native library API documentation, s
 
 At my current job, there was a lot of documentation debt when I arrived. My focus on the native library APIs has been mainly on how to deploy, configure, and call the API instead of the class reference documentation. There are a lot of classes in the API used by a small fraction of users who have yet to complain about the existing engineering-written doc, so it's never been a huge priority to dig into.
 
-{% include random_ad.html %}
+
 
 Additionally, the lead engineer is surprisingly articulate and precise with words (despite his grumpy demeanor). Still, this doc is on my to-do list, and someday I'm going to overhaul it all.

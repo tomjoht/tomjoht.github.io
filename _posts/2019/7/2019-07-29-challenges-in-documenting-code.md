@@ -15,5 +15,5 @@ Here's the intro:
 Read more here: [Why documenting code is so difficult](/learnapidoc/docapis_code_difficulty.html).
 
 {% comment %}
-{% include random_ad.html %}
+
  {% endcomment %}

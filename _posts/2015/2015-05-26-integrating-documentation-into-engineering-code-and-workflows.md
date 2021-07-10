@@ -24,7 +24,7 @@ In surveys at Google about the workplace, many employees said the inability to f
 
 Despite Google's excellence in organizing the world's information, organizing it internally proved to be difficult.
 
-{% include random_ad.html %}
+
 
 ## Moving doc into engineering workflows
 

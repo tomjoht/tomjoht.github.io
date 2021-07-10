@@ -72,4 +72,4 @@ Overall, I'm not sure if this survey answered my initial question, which was to 
 
 Another question, unrelated to this survey, is how to more quickly gauge responses from readers. With thousands of people coming to my site each day, I should be able to tap into those readers to quickly gather feedback about different topics. I'm not sure a note at the top of each page asking users to complete a short survey is the best approach. I dislike pop-up dialogs, but they might get more attention. Either way, I'm having a lot of fun with these surveys.
 
-{% include random_ad.html %}
+

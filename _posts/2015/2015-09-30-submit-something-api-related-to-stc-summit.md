@@ -25,7 +25,7 @@ The tracks for [Info Development World](https://www.eiseverywhere.com/ehome/1133
 * Content engineering
 * Content marketing
 
-{% include random_ad.html %}
+
 
 The tracks for [Lavacon](http://lavacon.org/2015/) are as follows:
 

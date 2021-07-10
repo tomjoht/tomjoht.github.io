@@ -30,7 +30,7 @@ Given these constraints, I'm now reverting back to small repos. I'm convinced th
 
 I'm going to break up my doc content into many small repos, dividing them by product as before. To address the duplicate theme file issue, I'm going to convert the theme into a [gem-based theme](https://jekyllrb.com/docs/themes/) and store the content in a [RubyGem](https://rubygems.org/). Writers will install the theme and get the files (as well as theme updates) using [Bundler](http://bundler.io/) with gems. This is an ingenious theming system that Jekyll has developed, and it's finally time I start using it. (I just hope Windows users don't run into Ruby/Bundler installation issues.)
 
-{% include random_ad.html %}
+
 
 With smaller repos, we'll have fewer merge conflicts, faster build times, faster pushes to staging environments, and all-around easier file management. Writers can have more autonomy over their repos. Engineers can also have an easier time making pull requests and managing their content without having to sort through lots of other pages and folders that aren't related to their products.
 

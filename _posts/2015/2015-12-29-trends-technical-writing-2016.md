@@ -12,7 +12,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/ripple
 ## About trends posts
 I have often wondered why posts about "trends" tend to get massive reads. And I think I finally understand why.
 
-{% include random_ad.html %}
+
 
 One reason we read posts about trends is because we want to know whether our skills are evolving to match the changing technology landscape, so that we'll feel comfortable and secure in the future of our jobs.
 

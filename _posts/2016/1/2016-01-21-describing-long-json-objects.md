@@ -11,4 +11,4 @@ I'm now documenting an endpoint in a project at work that includes about 200 lin
 
 I added a section called [Documenting lengthy JSON objects in request bodies](https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html#documenting-lengthy-json-objects-in-request-bodies) in part of my API Documentation course to address the variety of ways people attempt to document long JSON objects. I think most approaches typically fail for this kind of documentation. What do you think is the best approach for documenting long JSON objects?
 
-{% include random_ad.html %}
+

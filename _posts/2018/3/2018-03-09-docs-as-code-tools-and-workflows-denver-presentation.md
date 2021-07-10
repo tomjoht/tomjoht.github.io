@@ -69,4 +69,4 @@ Denver, CO 80204<br/>
 Fri, March 9, 2018<br/>
 6:00 PM – 8:30 PM MST
 
-{% include random_ad.html %}
+

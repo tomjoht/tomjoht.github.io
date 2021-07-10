@@ -58,4 +58,4 @@ If you haven't registered for upcoming Virtual Series events, you can [register 
 
 The virtual series format involves 30-minute presentations (pre-recorded and then played live) on [Crowdcast.io](https://www.crowdcast.io/e/ex4wbvhn) followed by interactive chats on Google Meet. The event lasts two-hours. Recordings will be available the following week.
 
-{% include random_ad.html %}
+

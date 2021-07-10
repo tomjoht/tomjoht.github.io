@@ -32,7 +32,7 @@ There are quite a few different tools, formats, workflows, and approaches for do
 
 My scenario is a lot simpler. For some projects, we send out files to translation agencies. One translation agency requires the content to either be HTML or Microsoft Word, while another translation agency accepts Markdown, HTML, or Word. I'm not sure what the agency does with the files (I assume they convert them to another format to ingest them in their computer-assisted translation systems), but we get the files back in the same format that we sent.
 
-{% include random_ad.html %}
+
 
 Since my content is in kramdown Markdown, translating the Markdown source format would be ideal, but translating HTML isn't a deal-breaker either. However, here I should note that just saying Markdown is the source format hardly scratches the surface. If Markdown is your only source format (and you just have a collection of static files as your source), it would be very  difficult to handle translation. You need a more robust tool to handle dynamic content, which is where a static site generator like Jekyll becomes essential.
 

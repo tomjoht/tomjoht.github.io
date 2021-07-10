@@ -73,7 +73,7 @@ Re the breakout sessions, I enjoyed this part of the conference most and actuall
 
 I have no idea if future API The Docs sessions will follow the same pattern or try out new strategies. I also haven't looked into other virtual conferences to see what might be working in other industries and groups. Many people have different learning preferences, and although I like podcasts and breakout sessions, many other people prefer live webinars where they sit at their computer and view slides. Some like free-form discussion while others flee from them and prefer formal presentations.
 
-{% include random_ad.html %}
+
 
 Regarding platforms, clearly concatenating Slack + GoToMeeting + Google Hangouts + Google Docs is a miscellany of tools, all used for their best features. I wasn't that impressed by GoToMeeting, but Zoom is equally problematic for the security issues. I'm surprised that some of these tools don't offer a more complete conference offering, especially Slack.
 

@@ -12,7 +12,7 @@ keywords:
 
 Rather than present abstract concepts, this course contextualizes REST APIs with a more direct, hands-on approach. You learn about API documentation in the context of using a simple weather API to put a weather forecast on your site.
 
-{% include random_ad.html %}
+
 
 As you use the API, you learn about cURL, JSON, endpoints, parameters, data types, authentication, and other details associated with REST APIs. The point is that, rather than learning about these concepts independent of any context, you learn them by immersing yourself in a semi-real scenario.
 

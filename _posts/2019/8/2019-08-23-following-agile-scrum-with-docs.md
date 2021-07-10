@@ -18,4 +18,4 @@ description: "I added a new article in my API doc course that expands the notion
 
 Read the full article: [Following agile scrum with documentation projects](/learnapidoc/pubapis_agile_scrum_for_docs.html).
 
-{% include random_ad.html %}
+

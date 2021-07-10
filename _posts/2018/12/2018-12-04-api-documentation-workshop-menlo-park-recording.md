@@ -39,4 +39,4 @@ Why provide free recordings for a paid workshop? As I mentioned in an earlier po
 
 I think the way the Write the Docs conference posts video recordings of their events *but continues to sell out each year* reinforces the fact that people will still come to your event/site even if they can consume the content on YouTube for free.
 
-{% include random_ad.html %}
+

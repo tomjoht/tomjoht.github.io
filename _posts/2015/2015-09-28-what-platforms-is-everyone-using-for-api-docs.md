@@ -12,7 +12,7 @@ A reader asks,
 
 If you look in the source code of the site, look for signs of a platform. Sometimes with web CMSs, it's obvious. If you see "wp-content," it's a WordPress site. If you find the word "drupal," it's a Drupal site.
 
-{% include random_ad.html %}
+
 
 If the site loads slowly, it might be dynamically serving content from a database, so it could be another web CMS. 
 

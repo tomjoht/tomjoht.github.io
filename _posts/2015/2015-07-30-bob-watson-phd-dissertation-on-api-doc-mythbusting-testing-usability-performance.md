@@ -43,7 +43,7 @@ He also found that whether reference topics contained relevant information or no
 
 Finally, he found that topic length influenced performance. Shorter topics were quicker to assess, but longer topics increased the user's perception of the topic's credibility and professionalism.
 
-{% include random_ad.html %}
+
 
 ## Goal testing documentation
 

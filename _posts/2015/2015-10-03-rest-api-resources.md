@@ -14,4 +14,4 @@ Here are a few good REST API resources to add to your reading list:
 * [Nordic APIs](http://nordicapis.com/blog/). The Nordic APIs blog (a multi-author site) has some excellent info on a variety of API topics. For example, see this post about the [top specifications for REST API formats](http://nordicapis.com/top-specification-formats-for-rest-apis/).
 * [REST API Notes newsletter](http://tinyletter.com/RESTAPINotes). This newsletter, by Matthew Reinbold, has some great API news and analysis.
 
-{% include random_ad.html %}
+

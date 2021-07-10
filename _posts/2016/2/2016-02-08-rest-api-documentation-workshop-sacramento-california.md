@@ -11,7 +11,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/sacapi
 
 <a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
 
-{% include random_ad.html %}
+
 
 Here is a description of the API workshop I'm giving in Sacramento:
 

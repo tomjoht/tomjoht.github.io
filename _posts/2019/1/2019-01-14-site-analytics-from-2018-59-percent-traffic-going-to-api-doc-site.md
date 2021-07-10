@@ -158,7 +158,7 @@ Here are the top 10 overall pages that received the most traffic last year. (The
 
 Again, these top pages show that most of the traffic is coming through my [API documentation site](/learnapidoc/), with [Swagger UI tutorial](/learnapidoc/pubapis_swagger.html) leading the way.
 
-{% include random_ad.html %}
+
 
 ### Top 10 blog posts in 2018
 

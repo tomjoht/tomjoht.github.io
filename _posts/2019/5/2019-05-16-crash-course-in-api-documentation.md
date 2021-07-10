@@ -27,4 +27,4 @@ I also rendered this video as a standalone audio file in case you prefer it this
 
 {% include audio.html %}
 
-{% include random_ad.html %}
+

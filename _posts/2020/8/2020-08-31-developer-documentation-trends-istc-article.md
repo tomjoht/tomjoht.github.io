@@ -22,4 +22,4 @@ Note that I've given two presentations that discuss the results as well:
 
 A few people have asked whether I'll be doing another survey in the future to see how trends evolve from the ones surveyed here. That might be a good idea. This space changes rather quickly, so perhaps I'll follow up in 2022.
 
-{% include random_ad.html %}
+

@@ -33,7 +33,7 @@ Also, a lot has happened in the past year with Swagger. First, the terms have ev
 
 Additionally, the OpenAPI Initiative released [version 3.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md) of the specification. Version 3.0 is a significant revision from [2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) (but you can convert your existing spec files programmatically through [APIMATIC](https://apimatic.io/)). (I was actually waiting for the release of 3.0 before writing this content, because I knew instructions related to 2.0 would become somewhat obsolete.)
 
-{% include random_ad.html %}
+
 
 I had to go back through the [whole section on REST specifications](https://idratherbewriting.com/learnapidoc/pubapis_rest_specification_formats.html) in my course and update how I referred to the specification versus the tooling. I also reorganized the content, added more detail, and tried to bring everything up to date.
 

@@ -69,4 +69,4 @@ Skipping docs based on the assumption that code is more readable on its own also
 
 The article addresses many of these concerns and presents a complex view about each of these facets &mdash; where to store documentation, when to document, what questions to address, and more. There's not always a clear path to follow (it's messy), and many environmental, product, and audience details must factor into the documentation strategy. Still, this article provides solid research and probes the topic in illuminating ways.
 
-{% include random_ad.html %}
+

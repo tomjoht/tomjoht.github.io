@@ -81,7 +81,7 @@ If docs are at this intersection point within the organization, we should be abl
 
 Imagine a scenario where, even in a large organization, everyone knows who writes the docs, which docs they work on, and how to influence change in docs. When you have good communication with these groups, feedback flows in.
 
-{% include random_ad.html %}
+
 
 Much more could be said about how to gather feedback from users. I wrote about this in more depth in [Reconstruct the absent user](https://idratherbewriting.com/simplifying-complexity/reconstructing-the-absent-user.html).
 

@@ -23,4 +23,4 @@ To make another comparison, at home my family keeps re-adjusting our family chor
 
 When it comes to creating the OpenAPI spec, if you can generate out most of what you need using a visual editor in under an hour, isn't that approach going to succeed over one that requires two weeks of careful study of the code? The latter might be more beneficial in the long run, but we rarely operate in this mode, especially if in the long run we might not even be working on REST APIs.
 
-{% include random_ad.html %}
+

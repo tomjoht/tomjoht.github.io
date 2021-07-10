@@ -127,7 +127,7 @@ Recently in a Write the Docs Slack channel, during a discussion about how to han
 
 Developers probably intend to embrace simple solutions at the start and only turn to more complex or nonstandard workarounds when they encounter a technical impasse. To get around the impasse, they have to invent creative "solutions" to get past the limitations. In some ways, these workarounds are just a necessary reality of coding. Still, without the same design constraints imposed by a UX review, I wonder if the simplicity bar for developer products is set too low.
 
-{% include random_ad.html %}
+
 
 If you work in developer docs, I’m sure you’ve encountered code that developers have created, which you must document, and thought, _who allowed the developer to create this monstrosity_? If UX designers would vet developer products themselves, it might be a different outcome. But without this UX filter, developers seem to have unlimited freedom to create nightmares of non-standard complexity.
 

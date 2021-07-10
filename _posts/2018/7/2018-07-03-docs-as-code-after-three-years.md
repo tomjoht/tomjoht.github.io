@@ -46,7 +46,7 @@ Okay, so not to sound like I'm in a honeymoon phase with a tool, I'll note a few
 
 * **Growing degree of custom scripts**: I'm a bit worried about the growing number of custom scripts and innovations I've made with our Jekyll site. I have about a dozen different includes that do everything from glossary lists and notes/alerts/cautions to images, drop-down selectors, and more. If we have to transition to another tool, we can always just grab the HTML output, since HTML is a standard, but we'd need to figure out how to reproduce the same efficiencies in the source. I'm pretty sure we'll be on Jekyll for quite a while.
 
-{% include random_ad.html %}
+
 
 ## More reading
 

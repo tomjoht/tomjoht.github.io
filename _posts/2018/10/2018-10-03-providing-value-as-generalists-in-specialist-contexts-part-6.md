@@ -48,7 +48,7 @@ But we can apply this idea even further. This four components model (especially 
 
 In all my blog posts, presentations, and other writing projects, I always have one primary structure in mind: story. If you can shape information into a story, you'll never go wrong. For example, recently at work, I was asked to do a competitive analysis of another product. I’d never written a competitive analysis before, and I started by gathering as much information as I could about the competitor’s product. I gathered a ton of information through research, but then I needed to figure out how to organize it.
 
-{% include random_ad.html %}
+
 
 I needed to structure this jumble of information in a way that would make sense to users. This is a task we all face when confronted with large amounts of information that we need to organize and present to users. What principle do we use to group, structure, explain, and otherwise present large bodies of information in ways that makes sense to users?
 

@@ -43,4 +43,4 @@ I don't so much mind the non-standard syntax of Bootstrap (though it is annoying
 
 This is a good reminder to provide some kind of introductory explanation in your API docs about how to read the function syntax. Once you understand the syntax, it unlocks the rest of the reference docs in more accessible ways. I'm guessing that the Bootstrap developers created the reference docs, but teachers created that tutorial. There's a kind of plain language and communication in the tutorial that isn't present in the reference documentation. One is teaching rather than documenting.
 
-{% include random_ad.html %}
+

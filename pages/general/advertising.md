@@ -113,7 +113,7 @@ For a list of newsletter dates, links, and advertisements shown during 20202, se
 
 Inline text blurbs are short snippets of text, about 1-3 sentences in length (or 140 characters), that appear in random positions on every page of my [API documentation site](/learnapidoc/). You can define 10 ad blurbs with the variety of content and links you want. Here's an example:
 
-{% include random_ad.html %}
+
 
 The text blurb's text changes randomly with each page refresh. However, the position of the blurb on the page remains in the same (initially random) location.
 

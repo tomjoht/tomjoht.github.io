@@ -21,7 +21,7 @@ I'm eager to try out this pull request workflow for edits to my help material. D
 
 Finding the actual text in my project to make the edit was tedious. It seems like the pull request method would make things easier, since the person could either make the proposed change directly in a branch, or at least add a comment there.
 
-{% include random_ad.html %}
+
 
 ## Challenges with the pull request method
 I think the pull request method is brilliant, but I do see a few challenges:

@@ -57,4 +57,4 @@ If you have any questions, just reach out to me at <a href="mailto:tomjoht@gmail
 
 (By the way, the above title, description, and link are pulled from EventBrite directly through the [Retrieve an Event](https://www.eventbrite.com/platform/api#/reference/event/retrieve-an-event) endpoint in the EventBrite API. This is something you'll learn to do in the workshop.)
 
-{% include random_ad.html %}
+

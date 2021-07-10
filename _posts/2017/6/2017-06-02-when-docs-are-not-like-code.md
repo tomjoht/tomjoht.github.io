@@ -42,7 +42,7 @@ Engineers like to release updates a lot less frequently than tech writers. For e
 
 In contrast to code, docs should be released much more frequently. If you see a typo, fix it and push out a new version of the documentation. As pull requests come in identifying broken links, or you need to add a little note here and there based on current usage, you should do so freely and regularly &mdash; much more regularly than with code releases.
 
-{% include random_ad.html %}
+
 
 If your doc is trapped in the same repository as the code, you won't be able to push out releases very quickly. Separating docs from code release cycles allows you to be much more agile and iterative with your docs.
 

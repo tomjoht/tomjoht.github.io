@@ -42,4 +42,4 @@ Here's a list of pages in the [Non-reference content](https://idratherbewriting.
 : The glossary defines all the terms that might be unique to your company or API. Glossaries are often overlooked or skipped, but their importance should not be understated, since much of the user’s understanding of API documentation depends on the clarity and alignment of specific terms.
 
 
-{% include random_ad.html %}
+

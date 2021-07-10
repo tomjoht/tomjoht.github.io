@@ -55,7 +55,7 @@ Now click **Model** (the grayed out text) and look at the view.
 
 <a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swaggersubtlemodellink.png" | prepend: site.baseurl }}" alt="Swagger Model" /></a>
 
-{% include random_ad.html %}
+
 
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 

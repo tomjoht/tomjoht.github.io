@@ -50,4 +50,4 @@ Here are some topics from the discussion:
 * Parts of the job that we find the most fulfilling, what we're most passionate about related to the developer experience
 * How to get into technical writing world, ways to improve documentation
 
-{% include random_ad.html %}
+

@@ -30,7 +30,7 @@ The number of comments on my recent post, [Review of Andrew Etter's ebook on Mod
 
 I want to respond generally to at least one trend in the comments -- the idea that the docs-as-code solution won't scale.
 
-{% include random_ad.html %}
+
 
 By the way, it's not as if the techniques Etter describes in *Modern Technical Writing* (or rather the "docs as code" approach) are new. Lots of people (myself included) have been emphasizing static site generators, version control, lightweight markup languages, and other approaches for documentation for a long time.
 

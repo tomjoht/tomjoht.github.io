@@ -49,4 +49,4 @@ EMBED_PARAMS.border = "hidden";
 <div id="div_6879040"></div>
 <script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>
 
-{% include random_ad.html %}
+

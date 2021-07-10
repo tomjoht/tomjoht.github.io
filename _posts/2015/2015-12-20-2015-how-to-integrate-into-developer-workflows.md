@@ -22,7 +22,7 @@ Developers rarely make changes outside of the issues noted in JIRA. If they do, 
 
 Most agile environments have standup meetings each morning where the developers are supposed to say what they worked on the previous day, what they're currently working on, and any impediments. Theoretically, standups can be a place where you get updates about what's going on in a project.
 
-{% include random_ad.html %}
+
 
 Unfortunately, many project teams misunderstand the purpose of standups, and the meetings become lengthy problem-solving/discussion/idea-exchange sessions for developers that drag on 30-40 minutes, wasting the time of technical writers with unnecessary developer detail.
 

@@ -24,7 +24,7 @@ At the first WTD conference, there were an astounding 250 attendees. This surpri
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy to be learning at the <a href="https://twitter.com/hashtag/writethedocs?src=hash">#writethedocs</a> conference at the Crystal Ballroom here in Portland! <a href="https://t.co/a4CdpBh0ka">pic.twitter.com/a4CdpBh0ka</a></p>&mdash; Brandon Rhodes (@brandon_rhodes) <a href="https://twitter.com/brandon_rhodes/status/864184264295718912">May 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-{% include random_ad.html %}
+
 
 ## At the center of WTD
 

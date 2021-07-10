@@ -43,6 +43,6 @@ The iPhone camera is pretty good, especially when you're just creating Youtube v
 
 As for the approach with the white background and on-screen text, I was trying to imitate this [example video](https://www.udemy.com/create-your-first-udemy-course/learn/#/lecture/3111326). The example has a basic white background behind a presenter. Text appears over the background to reinforce what the presenter is explaining. I watched most of this guy's videos and liked his approach, so I wanted to try it myself.
 
-{% include random_ad.html %}
+
 
 Overall, I know I need to get more practiced with my hand gestures, my eye focus points, and other body movements. But what do you think of this first video? Any feedback? How could I make it better?

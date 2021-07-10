@@ -23,4 +23,4 @@ The workshop will follow my [API documentation course](/learnapidoc/) closely. I
 
 If you're interested, be sure to sign up. Let me know if you have any questions.
 
-{% include random_ad.html %}
+

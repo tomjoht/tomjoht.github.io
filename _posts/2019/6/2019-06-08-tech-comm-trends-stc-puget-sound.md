@@ -58,4 +58,4 @@ Venue:<br/>
 <span style="margin-left: 20px">4333 Brooklyn Ave NE <br/></span>
 <span style="margin-left: 20px">Seattle, WA 98195</span>
 
-{% include random_ad.html %}
+

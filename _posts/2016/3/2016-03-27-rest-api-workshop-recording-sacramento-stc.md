@@ -17,7 +17,7 @@ I didn't edit the workshop content much at all. There are some times during the 
 
 I also realized that I have about 9 hours of material that I tried to compress in 3.5 hours, so I ended up skipping around a lot with the slides. You can go through the same material online in my [API doc course](https://idratherbewriting.com/learnapidoc/).
 
-{% include random_ad.html %}
+
 
 ## REST API workshop description
 

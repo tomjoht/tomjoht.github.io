@@ -13,7 +13,7 @@ bitlink: http://bit.ly/wtdpod4cianddocascode
 
 For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast, see the many [many subscription options][2].
 
-{% include random_ad.html %}
+
 
 ### Links mentioned during the podcast
 

@@ -36,7 +36,7 @@ In an insightful post about 2016 trends, Shaun McCance, who runs [Open Help conf
 
 Perhaps most important is the [Write the Docs Slack group](http://slack.writethedocs.org/), which has become the technical writer's watercooler on the Internet, replacing other social media spaces, such as Twitter, for tech writers.
 
-{% include random_ad.html %}
+
 
 ### 5. Security paranoia forces authentication of docs (2016)
 

@@ -71,4 +71,4 @@ This recording covers these two sections in my [API course](/learnapidoc/):
 
 See [Introduction to API documentation - Recording from Los Angeles API documentation workshop](/blog/introduction-to-api-documentation-la-workshop-recording/) for more details.
 
-{% include random_ad.html %}
+

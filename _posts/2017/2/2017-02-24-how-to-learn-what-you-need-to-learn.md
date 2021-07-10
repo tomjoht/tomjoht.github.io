@@ -24,7 +24,7 @@ Now the number of proliferating technologies to learn has reached new levels of 
 
 Aguinaga says today front-end web developers have replaced those libraries with React, JSX, Babel, ES6, Browserify, WebPack, VueJS, RxJS, Grunt, Gulp, Broccoli, SystemJS, Typescript, OCaml, Ramda, Fetch, Request, Bluebird, Axios, Flux, Flummox, Alt, Fluxible, Redux, SystemJS, and dozens more JS frameworks and tools.
 
-{% include random_ad.html %}
+
 
 In the light of proliferating technologies, many of us struggle just to keep our head above water.
 

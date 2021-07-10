@@ -80,7 +80,7 @@ I love this section because it helps reinforce how poor the DITA information mod
 
 Overall, it's great to see the focus of research on API documentation, especially on REST APIs. Although many of the observations seem to echo Carroll's observations decades earlier about active, experimental learning styles, it's good info and we still have a ways to go to design appropriately for this learning style.
 
-{% include random_ad.html %}
+
 
 ## Your reactions and input
 

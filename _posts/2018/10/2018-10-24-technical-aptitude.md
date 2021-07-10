@@ -46,7 +46,7 @@ Preferring technical acuity over specialized knowledge isn't a hard argument to 
 
 Strangely, we don't always accept the same arguments about writing. What if a candidate were to say, "Well, I don't know the details around technical writing, but I've written several *plays.*" Or, "I've never done technical writing before, but I was once the *poet laureate of my town!*" Or in reverse, "I haven't done grant writing before, but I've done plenty of technical writing."
 
-{% include random_ad.html %}
+
 
 If technical acuity would allow for potential competence across technical domains, why shouldn't writing be the same? After all, aren't we addressing a similar rhetorical situation in these other writing domains? Aren't we negotiating our language strategies as we consider audience and purpose? Isn't this "writing acuity"?
 
@@ -54,7 +54,7 @@ We don't care if one is an excellent medical writer, but rather we want to know 
 
 Sure, someone might have good rhythm in their sentences and a solid grasp of grammar, but that's not necessarily writing acuity, in the same sense that understanding graph packages in Java might not constitute technical acuity.
 
-{% include random_ad.html %}
+
 
 ## "Are you technical?"
 

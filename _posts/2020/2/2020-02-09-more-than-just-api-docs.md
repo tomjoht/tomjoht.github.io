@@ -163,7 +163,7 @@ The following topics are roughly grouped into four categories: tools, policies a
 
 *  Researching developer journeys on competitor sites
 
-{% include random_ad.html %}
+
 
 ## Conclusion
 

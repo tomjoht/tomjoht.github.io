@@ -44,7 +44,7 @@ For Moesif, many developers will not need to work with the REST API directly as 
 
 Look at the difference in topics between the [main developer docs](https://www.moesif.com/docs/) and the [API reference](https://www.moesif.com/docs/api). If both the NodeJS and the Express middleware were at the same level, a new developer might be confused about whether to get started with the Express middleware or NodeJS API library.
 
-{% include random_ad.html %}
+
 
 Remember, while you are probably very intimate with your own API and its SDKs, a new developer may not be. Keeping them separate can help reduce confusion.
 

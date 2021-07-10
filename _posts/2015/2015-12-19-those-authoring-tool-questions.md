@@ -17,7 +17,7 @@ I noted that my honeymoon phase with Jekyll had somewhat ended and I'd come to u
 
 That said, I want to keep writing in Markdown and Jekyll, and not be stuck with a tool that limits what I can do with content.
 
-{% include random_ad.html %}
+
 
 Here are my top three pain points with Jekyll right now:
 
