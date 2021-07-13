@@ -12,4 +12,4 @@ Here are the new pages:
 
 * [Balancing product overviews with getting started tutorials](/learnapidoc/docapis_overviews_and_getting_started.html)
 * [Reasons why product overviews are often minimal or nonexistent](/learnapidoc/docapis_reasons_for_anemic_overviews.html)
-* [Reasons why getting started tutorials fail](/learnapidoc/docapis_reasons_for_bad_getting_started_tutorials.html)
+* [Reasons why getting started tutorials fail or don't exist](/learnapidoc/docapis_reasons_for_bad_getting_started_tutorials.html)
