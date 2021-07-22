@@ -1,7 +1,7 @@
 ---
 title: "Results from my Academic/Practitioner Attitudes surveys now available"
 categories:
-- academic-and-practitioners
+- academics-and-practitioners
 keywords:
 description: "The results of my Academic/Practitioner Attitudes surveys are now available. The most interesting response (for the practitioner survey) was regarding the statement that academics understand issues that practitioners face in the workplace. Most (42%) were undecided while 36% disagreed or strongly disagreed. For the academic survey, the most interesting response was regarding the statement that practitioners (rather than other academics) are the primary audience for academic research. About 50% of the academic participants either disagreed or strongly disagreed. Overall, 407 practitioners and 65 academics completed the surveys. The results will fuel phase II of my project, which involves creating academic/practitioner conversation posts."
 bitlink: http://bit.ly/surveyresultsacademicspractitioners
@@ -11,9 +11,9 @@ bitlink: http://bit.ly/surveyresultsacademicspractitioners
 
 Here are the results for both practitioner and academic surveys:
 
-* Practitioner responses: [Infographic report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apsurvey/survey_for_practitioners_to_take_infographic.pdf) \| [Dashboard report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apsurvey/survey_for_practitioners_to_take.html)
+* Practitioner responses: [Infographic report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apsurvey/survey_for_practitioners_to_take_infographic.pdf) \| [Dashboard report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/survey_for_practitioners_to_take.html)
 
-* Academic responses: [Infographic report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apsurvey/survey_for_academics_to_take_infographic.pdf) \| [Dashboard report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apsurvey/survey_for_academics_to_take.html)
+* Academic responses: [Infographic report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/apsurvey/survey_for_academics_to_take_infographic.pdf) \| [Dashboard report](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/survey_for_academics_to_take.html)
 
 QuestionPro (the survey tool I used) provides various ways to present the data. I presented two versions here. I think the Infographic report is a bit more scannable and easy to read, but the Dashboard report provides more details.
 

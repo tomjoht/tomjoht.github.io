@@ -3,7 +3,7 @@ title: Tags
 permalink: /tags/
 layout: page
 mytags:
-- title: Academic Guest Posts
+- title: Academics and practitioners
   url: /category-academics-and-practitioners/
 - title: API documentation
   url: /category-api-doc/

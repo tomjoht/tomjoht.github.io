@@ -9,6 +9,8 @@ bitlink: http://bit.ly/techcommattitudessurvey
 embed_survey: no_way
 ---
 
+**July 17, 2018 update: The surveys are no longer active. See [Results from my Academic/Practitioner Attitudes surveys now available](https://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/)**.
+
 <style>
 button.btn {
   font-family: Arial; Verdana; Tahoma;
