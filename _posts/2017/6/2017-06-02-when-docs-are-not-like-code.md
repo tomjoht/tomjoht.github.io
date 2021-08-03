@@ -62,7 +62,7 @@ When you publish code on a server, that server usually needs to pass a number of
 
 With docs, you're lucky if you get one engineer to read the content (let alone anyone to test it, especially from QA) before it's published. Docs simply aren't in the scope of QA (though they could be). You also don't have automated scripts to run through with your documentation steps. At most you may have an editor to check for style (editors are now an endangered species), a tool like Acrolinx to look for terms (if you work for a large company with deep pockets), and maybe a link checker to look for valid links.
 
-But you don't need a super heavy process process for deploying docs. If you're building your output locally, you just need to transfer HTML files to a web server. You could literally download any FTP client and transfer files this way (if companies would allow it).
+But you don't need a super heavy process for deploying docs. If you're building your output locally, you just need to transfer HTML files to a web server. You could literally download any FTP client and transfer files this way (if companies would allow it).
 
 If you let engineers define your deployment process for docs as code, you might end up with something  heavy, complex, and total overkill (because they're following the same deployment strategies as code) for what is essentially a two-minute file transfer task. In short, if you really treat docs like code, you can end up over-engineering the deployment solution.
 
@@ -86,7 +86,7 @@ If you implement a docs as code approach, you'll probably find yourself knee-dee
 
 At practically company I've ever worked at, the doc team has been responsible for their own tooling and doc platform. If engineering resources are used, they're only briefly borrowed. The tech writers usually bang out the whole doc solution from beginning to end, in between releases where they're expected to produce content, not tooling around the content.
 
-Tech writers are paid to write content. You do the tooling either on your own time or you squeeze it between the demands of content creation. As such, it's a impractical to expect tech writers to follow a robust docs-like-code model, deploying code through various server environments using complex scripts and other engineering-heavy resources.
+Tech writers are paid to write content. You do the tooling either on your own time or you squeeze it between the demands of content creation. As such, it's impractical to expect tech writers to follow a robust docs-like-code model, deploying code through various server environments using complex scripts and other engineering-heavy resources.
 
 Additionally, most companies restrict interactions with servers to engineers or operations teams as well. Tech writers will usually not have access to deploy their own code to a production server without going through the same engineering heavy security and audit checks as programmers.
 
@@ -96,7 +96,7 @@ This is why for years, tech writers have purchased third-party authoring tools a
 
 In conclusion, although I like the docs-as-code idea and enjoy working with some of these approaches, docs aren't entirely like code. Docs differ from code in release frequency, release complexity, review processes, and company support.
 
-You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't over look when working with docs.
+You may have implemented your docs-as-code approach with much more success in some of these areas &mdash; if so, great. Let me know how you worked around the issues I noted. But don't mistake apples for oranges. Documentation isn't programming code. We're writing in conversational sentences, not functions and loops that can be validated and automated. There are significant differences that we shouldn't overlook when working with docs.
 
 Documentation is different from code in ways that deserve not only to be noted, but celebrated. For example, here are a few unique qualities with docs:
 
