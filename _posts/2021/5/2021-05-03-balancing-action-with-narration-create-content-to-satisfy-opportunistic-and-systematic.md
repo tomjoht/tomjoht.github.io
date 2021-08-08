@@ -8,6 +8,8 @@ rebrandly: https://idbwrtng.com/balancing-action-with-conceptual-undersanding
 description: "This is an abstract for a presentation that I'm thinking about creating. In a nutshell, the presentation focuses on finding the right balance between action-oriented task writing and big picture narrative product overviews &mdash; both of which seem to be opposing but complementary content types in technical communication. I'm floating this presentation draft here to gather feedback and refine the direction a bit more."
 ---
 
+**August 7, 2021 update**: For a recording of this presentation, see [Recording of Product overviews vs. getting started tutorials &mdash; striking a balance between read-first and try-first user behaviors](/blog/product-overviews-and-getting-started-tutorials-presentation/).
+
 ## Presentation title + description
 
 **Balancing action with narration: Creating product overviews and getting started tutorials to satisfy both try-first and read-first learning modes**
