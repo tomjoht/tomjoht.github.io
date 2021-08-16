@@ -14,7 +14,7 @@ rebrandly: https://idbwrtng.com/good-decisions-mistakes
 
 - **Using an intake process that required a lot of info upfront information.** Intake processes that put some information pain on the requester in turn make it easier as a tech writer because you have more of the information you need upfront. (See my process for [large intake requests](/learnapidoc/docapis_managing_doc_projects.html) versus [small intake requests](/learnapidoc/docapis_managing_small_doc_requests.html).)
 
-- **Sharing out updates to the wider group.** Broadcasting all the recent doc updates made during the past month or so did an amazing job at increasing the visibility of our team. This had more impact than any doc-related metrics.
+- **Sharing out updates to the wider group.** Broadcasting all the recent doc updates made during the past month or so did an amazing job at increasing the visibility of our team. This had more impact than any doc-related metrics. For more details, see [Status reports -- a tool for visibility and relationship building](/learnapidoc/docapis_status_reports.html).
 
 - **Slack channel groups as a means of communication about docs.** When the company adopted Slack and we started using channels for doc projects, it was a game-changer. Communication was so much easier, as people could easily tag others into the conversation.
 
@@ -30,7 +30,7 @@ rebrandly: https://idbwrtng.com/good-decisions-mistakes
 
 - **Setting a timer for four hours each day to write.** When I started a four-hour timer to make sure I spent a good part of the day actually writing content, my productivity went way up. I wrote about this here: [Writing productivity tip: Focus sessions](/blog/writing-productivity-through-focus-sessions/).
 
-- **Implementing Jekyll in a docs-as-code workflow.** I was fortunate to arrive at a time when we were eager to transition tools, and we implemented Jekyll. I got to work on the theme, the publishing workflows, and other aspects of the docs-as-code solution. This was one of my major highlights, and I realized that I'm pretty good with tools. Looking back, this was a good solution, and it really allowed us to deliver content in more efficient ways.
+- **Implementing Jekyll in a docs-as-code workflow.** I was fortunate to arrive at a time when we were eager to transition tools, and we implemented Jekyll. I got to work on the theme, the publishing workflows, and other aspects of the docs-as-code solution. This was one of my major highlights, and I realized that I'm pretty good with tools. Looking back, this was a good solution, and it really allowed us to deliver content in more efficient ways. For more details, see [Case study: Switching tools to docs-as-code](/learnapidoc/pubapis_switching_to_docs_as_code.html).
 
 ## Minor mistakes
 

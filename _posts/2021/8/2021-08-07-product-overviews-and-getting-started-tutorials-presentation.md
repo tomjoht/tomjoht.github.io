@@ -6,7 +6,7 @@ categories:
 - podcasts
 keywords:
 rebrandly: https://idbwrtng.site/prodoverviewsgetstarted
-description: "I recently gave a <a href='https://www.technical-communication.org/tekom/webinars/upcoming-webinars?tx_zwbisdreiwebinars_webinar%5Baction%5D=detail&tx_zwbisdreiwebinars_webinar%5Bcontroller%5D=Webinar&tx_zwbisdreiwebinars_webinar%5Bwebinar%5D=68&cHash=b1f684b4bedfe40825c942dd02b5fa45'>presentation to tekom Europe</a> about product overviews and getting started tutorials. The recording and slides are below."
+description: "I recently gave a <a href='https://www.technical-communication.org/tekom/webinars/upcoming-webinars?tx_zwbisdreiwebinars_webinar%5Baction%5D=detail&tx_zwbisdreiwebinars_webinar%5Bcontroller%5D=Webinar&tx_zwbisdreiwebinars_webinar%5Bwebinar%5D=68&cHash=b1f684b4bedfe40825c942dd02b5fa45'>webinar to tekom Europe</a> about product overviews and getting started tutorials. The recording and slides are below."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/product_overviews_and_tutorials_preso.mp3
 podcast_file_size: "39.2 MB"
 podcast_duration: "49:06"
@@ -30,11 +30,11 @@ Here's the presentation title and description:
 
 ## Presentation recording
 
-Here's the recording (my screen + voice anyway). If you're a tekom member, you can view the full recording (intro + Q&A) from within tekom's webinar archive.
+Here's the recording (my screen + voice only). If you're a tekom member, you can view the full recording (intro + Q&A) from within tekom's webinar archive.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s8As7vYg8uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can learn more about [tekom Europe here])(https://www.technical-communication.org/).
+You can learn more about [tekom Europe here](https://www.technical-communication.org/).
 
 If you just want the audio, here it is:
 
@@ -42,7 +42,7 @@ If you just want the audio, here it is:
 
 ## Slides
 
-And here are my slides:
+Here are my slides:
 
 <a href="https://idratherbewriting.com/learnapidoc/slides/overviews_and_tutorials.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/prodoverviewsthumb.png" alt="Product overviews vs. getting started tutorials &mdash; striking a balance between read-first and try-first user behaviors" /></a>
 
@@ -56,4 +56,6 @@ I also added several pages to my API course that provides a written version of t
 
 ## Thoughts
 
-Overall, I liked this topic, but I don't see myself giving multiple presentations on it. There's something about presenting about content itself that is not as engaging as meta conversations around content. There's no inherent shape to the material that drives it along as a story unto itself. I still think these two topics can be gamechangers in documentation, but if I'm going to give multiple presentations on the same topic, I think something else might be more interesting. Currently, I'm thinking that maybe documentation metrics/analytics can be more interesting.
+Overall, I liked this topic, but I don't see myself giving multiple presentations on it. There's something about presenting on content itself that is not as engaging as meta conversations around content. There's no inherent shape to the material that drives it along as a story unto itself. I still think these two topics can be game-changers in documentation, but if I'm going to give multiple presentations on the same topic, I think something else might be more interesting. Currently, I'm thinking that maybe documentation metrics/analytics can be more interesting, but I need to ramp up on metrics and analytics more to present on it.
+
+Also, as a disclaimer, it was early in the morning when I gave this presentation, and I wasn't fully awake. With the early hour and the material being new, I wasn't as articulate as usual. At times I thought about rerecording this, but ultimately I decided to post it as is.
