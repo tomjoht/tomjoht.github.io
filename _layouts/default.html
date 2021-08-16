@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 170 }}{% else %}{{page.content | strip | strip_html | truncate: 170}}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
 
     <title>{% if page.jtype == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{page.title}} {% if page.series %}{{ page.series | before: "|" }}{% endif %} | {{ site.name }} {% endif %}</title>
