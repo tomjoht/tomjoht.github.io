@@ -4,7 +4,9 @@ permalink: /category-biking/
 categoryName: biking
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>The biking category lists posts related to my bicycling adventures, such as recommended trails or routes, gear, or other cycling reflections. This category is somewhat tangential to the normal flow of topics on my blog, which focus on technical writing and communication topics.</p>
+
+<p>The following content is in the <b>biking</b> category:
 
     {% for p in site.categories.biking %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
