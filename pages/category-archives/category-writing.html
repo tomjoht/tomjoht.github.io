@@ -4,7 +4,9 @@ permalink: /category-writing/
 categoryName: writing
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Posts in my writing category focus in some way on the practice of writing. This could involve techniques for organizing content, coming up with ideas, how to get into states of flow, or other topics related to writing. The writing category is broader than simply technical writing, which is the more specific focus of this blog.</p>
+
+<p>The following content is in the <b>writing</b> category:
 
     {% for p in site.categories.writing %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
