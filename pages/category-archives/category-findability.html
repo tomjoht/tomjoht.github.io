@@ -4,7 +4,9 @@ permalink: /category-findability/
 categoryName: findability
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+The findability category includes posts that relate to discoverability, search, organization, and other issues related to how to arrange, present, and navigate through content. The goal of findability is to allow users to find the content they're looking for. Strategies for findability might involve chunking up content, arranging content in a progressive information display, or arranging content in a more visible way.</p>
+
+<p>The following content is in the <b>findability</b> category:
 
     {% for p in site.categories.findability %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
