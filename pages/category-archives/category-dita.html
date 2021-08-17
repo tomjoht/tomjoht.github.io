@@ -4,7 +4,9 @@ permalink: /category-dita/
 categoryName: dita
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>DITA stands for Darwin Information Typing Architecture and refers to a specific XML schema or structure for creating content. Think of it as a template for filling out the essential parts of help. I don't currently use DITA, but in the past I compared DITA with Jekyll and other tools, and explored some of the shortcomings of DITA's information architecture.</p>
+
+<p>The following content is in the <b>dita</b> category:
 
     {% for p in site.categories.dita %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
