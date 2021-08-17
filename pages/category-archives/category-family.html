@@ -4,7 +4,9 @@ permalink: /category-family/
 categoryName: family
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>The family category is a personal category that includes non-tech-comm-related posts; instead, I write about family-related topics and events. This category is intended more like a personal journal related to family.</p>
+
+<p>The following content is in the <b>family</b> category:
 
     {% for p in site.categories.family %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
