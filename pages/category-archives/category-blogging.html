@@ -4,7 +4,9 @@ permalink: /category-blogging/
 categoryName: blogging
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>This category explores posts related to blogging, such as writing techniques, SEO considerations, site design, or more. All blogosphere-related content.</p>
+
+<p>The following content is in the <b>blogging</b> category:
 
     {% for p in site.categories.blogging %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>

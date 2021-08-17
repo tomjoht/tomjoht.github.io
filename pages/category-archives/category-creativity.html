@@ -4,7 +4,9 @@ permalink: /category-creativity/
 categoryName: creativity
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Creativity posts explore techniques for coming up with new ideas, inventing new thoughts and techniques, and generally following those activities that are perhaps more right-brained but also could involve heuristics and other content generation approaches.</p>
+
+<p>The following content is in the <b>creativity</b> category:
 
     {% for p in site.categories.creativity %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>

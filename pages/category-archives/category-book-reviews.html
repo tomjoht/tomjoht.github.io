@@ -4,10 +4,11 @@ permalink: /category-book-reviews/
 categoryName: book-reviews
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>This category explores book reviews and other sorts of reviews. Admittedly, there aren't many books that I've reviewed here, but when I do review something, I'll tag it with this.</p>
+
+<p>The following content is in the <b>book-reviews</b> category:
 
     {% for p in site.categories.book-reviews %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
 </h4>
 {% endfor %}
-
