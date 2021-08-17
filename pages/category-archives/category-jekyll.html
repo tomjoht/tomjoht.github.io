@@ -4,7 +4,9 @@ permalink: /category-jekyll/
 categoryName: jekyll
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Posts in the Jekyll category relate in some way to the static site generator jekyllrb.com, which is used to publish websites -- in my case, to build sites for documentation or other content, such as blogs or online courses. Jekyll is one static site generator among many. Others include Hugo, Gatsby, Vue, Docusaurus, and more. They all work more or less the same way: they compile content, convert from Markdown to HTML, stuff the content into templates, and publish it as a website (based on the theme).</p>
+
+<p>The following content is in the <b>jekyll</b> category:
 
     {% for p in site.categories.jekyll %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
