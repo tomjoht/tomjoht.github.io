@@ -4,7 +4,9 @@ permalink: /category-jobs/
 categoryName: jobs
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>The jobs category covers posts related to jobs, employment, finding work, etc., all related to technical writing careers. If you're looking for a job as a technical writer, this category might have some relevant tips and techniques for you.</p>
+
+<p>The following content is in the <b>jobs</b> category:
 
     {% for p in site.categories.jobs %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
