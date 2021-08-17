@@ -4,7 +4,9 @@ permalink: /category-technical-writing/
 categoryName: technical writing
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+Technical writing posts cover general aspects related to the practice of tech comm, and this is my catch-all category for topics that don't fit anywhere else. Technical writing refers to creating instructions for software or hardward products, often in the form of online help, instructional manuals, tutorials, or other guides. Technical writers help clarify complex topics and create step-by-step guides through difficult tasks.</p>
+
+<p>The following content is in the <b>technical writing</b> category:
 
     {% for p in site.categories.technical-writing %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
