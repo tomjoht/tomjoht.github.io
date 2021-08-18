@@ -4,7 +4,8 @@ permalink: /category-video/
 categoryName: video
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Posts in the video category relate to the use of video in instruction, and usually involve some embedded videos or other animated visuals leveraged for purposes of documentation.</p>
+<p>The following content is in the <b>video</b> category:
 
     {% for p in site.categories.video %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
