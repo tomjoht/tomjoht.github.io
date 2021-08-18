@@ -4,7 +4,9 @@ permalink: /category-quick-reference-guides/
 categoryName: quick-reference-guides
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Quick reference guides refer to short, compressed guides that users can refer to instead of the longer manual or help site. The quick reference guide often condenses and distills the most important points, core tasks, and other key information into 1-2 pages. A similar deliverable is a getting started guide, which is oriented to setup and configuration for new users, while the quick reference guide aims to be a regular reference even after the user gets started.</p>
+
+<p>The following content is in the <b>quick-reference-guides</b> category:
 
     {% for p in site.categories.quick-reference-guides %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
