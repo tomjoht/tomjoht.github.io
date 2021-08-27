@@ -4,7 +4,9 @@ permalink: /category-wordpress/
 categoryName: wordpress
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Posts in the WordPress category relate to WordPress design, publishing, maintainance, and more. I used to be really into WordPress until I switched to Jekyll.</p>
+
+<p>The following content is in the <b>wordpress</b> category:
 
     {% for p in site.categories.wordpress %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
