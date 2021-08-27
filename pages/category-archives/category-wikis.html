@@ -4,7 +4,9 @@ permalink: /category-wikis/
 categoryName: wikis
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Posts in the wiki category touch upon wiki-related topics. Wikis were once a dominant way of publishing tech docs that isn't so common anymore.</p>
+
+<p>The following content is in the <b>wikis</b> category:
 
     {% for p in site.categories.wikis %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
