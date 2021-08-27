@@ -4,7 +4,8 @@ permalink: /category-web-design/
 categoryName: web-design
 ---
 
-<p>The following content is in the <b>{{page.categoryName}}</b> category:
+<p>Posts in the web design category touch upon aspects of website creation, styling, theming, publishing, and more. For example, WordPress or Jekyll themes or other code might fall into this category.</p.
+<p>The following content is in the <b>web-design</b> category:
 
     {% for p in site.categories.web-design %}
 <h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
