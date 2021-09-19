@@ -1,5 +1,5 @@
 ---
-title: "The most perfect 20-mile biking loop in Santa Clara"
+title: "The most perfect 17-mile biking loop in Santa Clara"
 permalink: /blog/biking-the-santa-clara-loop/
 categories:
 - biking
@@ -19,9 +19,9 @@ The Santa Clara loop is basically just a combination of the San Tomas trail with
 
 ## Route length
 
-The route is about 20 miles, which is an ideal length for a bike ride. Part of the reason I like this route so much is because of the length (20 miles) and the loop it provides (the loop means you don't have to reverse course to get back to your starting point).
+The route is about 17.5 miles, which is a good length for a bike ride. If you add on some additional mileage to ride from your house to the loop, it can bring that mileage up to 20 or so. Part of the reason I like this route so much is because of the length and the loop it provides (the loop means you don't have to reverse course to get back to your starting point).
 
-I'm not alone in thinking that 20 miles is an ideal length for a ride. Ebin Weiss explains that 20 miles is long enough to be worthwhile but short enough to not consume the rest of your day. It's a manageable length but still long enough to justify the effort to go on the ride. You can also go fast or slow depending on the workout intensity you want. Weiss writes,
+I'm not alone in thinking that about 20 miles is an ideal length for a ride. Ebin Weiss explains that 20 miles is long enough to be worthwhile but short enough to not consume the rest of your day. It's a manageable length but still long enough to justify the effort to go on the ride. You can also go fast or slow depending on the workout intensity you want. Weiss writes,
 
 > More importantly, a 20-mile ride is elastic in that, despite being compact enough to integrate into your 17 waking hours, it gives you plenty to play with in terms of duration and intensity. Approach it in a casual fashion and it’s a leisurely two-hour spin—more than enough to clear your head. Attack it like a lioness tearing apart a zebra, and you can knock it out in a little over an hour, with your legs burning from start to finish. Either way, you can work a 20-mile ride into even the busiest schedule on a regular basis, and you’ll still have plenty of energy left to deal with the rest of your day. Twenty miles is long enough to justify putting on all that Lycra, yet it’s short enough to do in sneakers and jorts. Even if the weather sucks, you can still suck it up for 20 miles. There’s no need to stop during a 20-mile ride, but it’s also perfectly reasonable to sit down for a coffee at the turnaround point. And if you have the time and you’re so inclined, you can configure it into something pretty burly: do it all off-road, or stack it full of climbing, and you’ve got a ride much bigger than the sum of its miles. ([Why 20 Miles Is the Perfect Length for a Bike Ride](https://www.outsideonline.com/2419091/the-perfect-bike-ride-is-20-miles))
 
@@ -29,7 +29,7 @@ I can confirm that he's right. The fastest I've done this route is 1 hour 10 min
 
 ## Starting point
 
-As a loop, you can hook into this path almost anywhere. A most road crossings, there is an opportunity to get onto the path. And 75% of the 20 miles is on a multi-path trail; the other 25% is on a road with a comfortable bike lane. I bike directly from home to hook onto the Benton/San Tomas Expressway intersection, and then I go clockwise around the loop.
+As a loop, you can hook into this path almost anywhere. A most road crossings, there is an opportunity to get onto the path. And 75% of the route is on a multi-path trail; the other 25% is on a road with a comfortable bike lane. I bike directly from home to hook onto the Benton/San Tomas Expressway intersection, and then I go clockwise around the loop.
 
 If you don't live close enough to just hook onto the loop from your house, you could park at the [San Tomas Aquino Trailhead](https://bit.ly/2Vc5c74) at the intersection of Monroe and San Tomas Expressway. There's parking there, and a little park as well. Lots of people park here who are using the trail.
 

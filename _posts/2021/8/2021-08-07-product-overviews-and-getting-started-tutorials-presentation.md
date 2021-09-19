@@ -48,11 +48,12 @@ Here are my slides:
 
 ## Content pages
 
-I also added several pages to my API course that provides a written version of the content:
+I also added two sections to my API course that provides a written version of the content:
 
-* [Introduction to balancing product overviews with getting started tutorials](/learnapidoc/docapis_overviews_and_getting_started.html)
-* [Reasons why product overviews are often minimal or nonexistent](/learnapidoc/docapis_reasons_for_anemic_overviews.html)
-* [Reasons why getting started tutorials fail or don't exist](/learnapidoc/docapis_reasons_for_bad_getting_started_tutorials.html)
+Here are the new sections:
+
+* [Reasons why product overviews are often minimal or nonexistent](/learnapidoc/docapis_doc_overview.html#reasons_for_failure)
+* [Reasons why getting started tutorials fail or don't exist](/learnapidoc/docapis_doc_getting_started_section.html#reasons_for_failure)
 
 ## Thoughts
 
