@@ -69,8 +69,6 @@ Yves Pierrot said:
 
 In other words, the getting started tutorial needs to connect to a larger story that addresses a situational pain point for the user. Without this connection to the story to fill in the why and provide more context, the getting-started tutorial lacks significance.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
-
 Mark Baker, who recently retired from tech comm and turned to writing fiction, said:
 
 > Your title struck me because of how closely it mirrors a similar discussion in the fiction world between action and description. Readers prefer action, we are told, and yet without description, the reader does not know what is at stake in the action. There is something very parallel here. In tech comm, the reader is anxious to take action, yet without conceptual information they don't know what action to take when or why.
@@ -96,8 +94,6 @@ Chuck Martin said:
 > Layering the "whys" into these types of content, however, is critical to imparting conceptual understanding at the point of need. In a task, for example, we can give not only the directive in a step, but, as Frodo said to Sam when he passed on the Red Book of Westmarch at the end of "The Return of the King," there's room for a little bit more. So add a bit more, add a bit of why, enough to add to users' conceptual understanding, but not so much to be overwhelming or to drown out the task at hand. The big bonus here is that many users will get that conceptual understanding without realizing it, and next time they are doing the same or similar things in the product, they will have gained that conceptual understanding and be able to make more decisions confidently without needing to refer to documentation. That is a big win for all involved.
 
 In other words, Chuck is arguing for integrating more of the conceptual "why" content with the reference content. Especially in API docs, you might have an API that can be used in various ways, without a specific 1-2-3 list of steps. That's the essence of API docs &mdash; they're like a cupboard of ingredients you can use in many ways to create different dishes. Why use one API over the other, and in what contexts and scenarios, and what are the advantages of different approaches? This higher-level information helps advanced users make more informed decisions when using the API.
-
-{% include image_ad_right.html %}
 
 ## Summary
 
