@@ -6,7 +6,7 @@ categories:
 - api-docs
 keywords: product overviews, getting started tutorials, webinar
 rebrandly: https://idbwrtng.site/stcwebinaroverviewsandtutorials
-description: "I'm giving a presentation (online webinar) on October 28 about product overviews and getting started tutorials in API docs. This post provides details about the webinar and a link to sign up."
+description: "I'm giving an online webinar, sponsored by the STC Washington, D.C.-Baltimore Chapter, on October 28 about product overviews and getting started tutorials in API docs. This post provides details about the webinar and a link to sign up."
 ---
 
 <a href="https://www.eventbrite.com/e/best-practices-in-api-docs-product-overviews-and-getting-started-tutorials-tickets-179050784717"><img style="max-width: 700px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eventbrite_overviews_and_tutorials.png" alt="Best practices in API docs: Product overviews and getting started tutorials" /></a>
@@ -21,7 +21,7 @@ description: "I'm giving a presentation (online webinar) on October 28 about pro
 
 **Date Oct 28, 2021:** <br/>
 **Time: 8am PDT**<br/>
-**Presenter: Tom Johnson**</br>
+**Presenter: Tom Johnson**<br/>
 **Organizer: STC Washington, D.C.-Baltimore Chapter**<br/>
 **Cost: $0-$15**
 
