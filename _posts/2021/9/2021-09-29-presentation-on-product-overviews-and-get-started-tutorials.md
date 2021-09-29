@@ -19,7 +19,7 @@ description: "I'm giving an online webinar, sponsored by the STC Washington, D.C
 >
 > In this presentation, you’ll learn best practices, pitfalls, and other strategies for these two content types. Templates for each content type will also be provided. Additionally, we’ll look at several examples and assess them based on more formal criteria. 
 
-**Date Oct 28, 2021:** <br/>
+**Date Oct 28, 2021** <br/>
 **Time: 8am PDT**<br/>
 **Presenter: Tom Johnson**<br/>
 **Organizer: STC Washington, D.C.-Baltimore Chapter**<br/>
