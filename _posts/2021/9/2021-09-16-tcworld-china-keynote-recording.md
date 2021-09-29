@@ -6,7 +6,7 @@ categories:
 - podcasts
 keywords:
 rebrandly: https://idbwrtng.site/tcworldchina-keynote
-description: "I recently gave a keynote presentation at tcworld China 2021 on the topic of tech comm and marketing. This is a recording of the presentation, slides, and detailed notes for the presentation."
+description: "I recently gave a keynote presentation at tcworld China 2021 on the topic of tech comm and marketing. This post provides a recording of the presentation, slides, and detailed notes for the presentation."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/tcworldchinakeynote.mp3
 podcast_file_size: "51.4 MB"
 podcast_duration: "01:02:30"
