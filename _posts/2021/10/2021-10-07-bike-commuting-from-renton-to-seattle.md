@@ -54,7 +54,7 @@ To solve the first-mile problem, then, I believe a car of some sort is necessary
 
 ## Solving the last mile problem
 
-Once I get to downtown Seattle (near King Street Station), I have to solve the "last mile" problem. Those 1-2 miles through downtown Seattle to the final destination (usually a company office) can take forever. If I have to walk to yet another bus stop and wait for another connection to take you across town, it could be another 30+ minutes.
+Once I get to downtown Seattle (near King Street Station), I have to solve the "last mile" problem. Those 1-2 miles through downtown Seattle to the final destination (usually a company office) can take forever. If I have to walk to yet another bus stop and wait for another connection to take me across town, it could be another 30+ minutes.
 
 Overall, riding multiple public transportation options to work can make the morning commute from Renton to Seattle around 2 hours, which cuts into the productivity of the day. Who wants to spend 4 hours commuting? This is no doubt why so many people prefer working from home or driving their own cars.
 
@@ -116,6 +116,6 @@ If cities want to solve traffic congestion and encourage more people to take the
 
 While the artist seems to be depicting the disproportionate space cars take up, there's another message here: it's far too comfortable to drive. If we make it a nightmare to drive a car in the city, people will choose other options.
 
-I would also like to see more greenways / closed roads not just in Seattle but elsewhere, specifically in Renton. For example, take just one east/west road from Renton to a Sounder station and close it off to cars, making it available to bikes/pedestrians only. Then in the city, add many more of these Stay Healthy Streets. However, congestion in residential roads isn't as much of a problem, and you need a car in the suburbs anyway, so I imagine this won't happen. (BTW, there's a great subreddit called [/fuckcars](reddit.com/r/fuckcars) that's worth following.)
+I would also like to see more greenways / closed roads not just in Seattle but elsewhere, specifically in Renton. For example, take just one east/west road from Renton to a Sounder station and close it off to cars, making it available to bikes/pedestrians only. Then in the city, add many more of these Stay Healthy Streets. However, congestion in residential roads isn't as much of a problem, and you need a car in the suburbs anyway, so I imagine this won't happen. (BTW, there's a great subreddit called [/fuckcars](https://reddit.com/r/fuckcars) that's worth following.)
 
 That's it for my thoughts on bike commuting from Renton to Seattle. Another challenge related to cycling in Seattle is the rain. I have more thoughts related to riding in the rain, but I'll save that for another post.
