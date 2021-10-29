@@ -1,17 +1,41 @@
 ---
-title: "Upcoming webinar -- 'Best practices in API docs: Product overviews and getting started tutorials'"
+title: "Presentation recording -- 'Best practices in API docs: Product overviews and getting started tutorials'"
 permalink: /blog/presentation-on-product-overviews-and-get-started-tutorials/
 categories:
 - technical-writing
 - api-docs
 keywords: product overviews, getting started tutorials, webinar
 rebrandly: https://idbwrtng.site/stcwebinaroverviewsandtutorials
-description: "I'm giving an online webinar, sponsored by the STC Washington, D.C.-Baltimore Chapter, on October 28 about product overviews and getting started tutorials in API docs. This post provides details about the webinar and a link to sign up."
+description: "I recently gave an online presentation about product overviews and getting started tutorials in API docs, sponsored by the STC Washington, D.C.-Baltimore Chapter. This post provides a recording and other presentation details."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/overviews_and_tutorials_stc_dcba.mp3
+podcast_file_size: "54.3 MB"
+podcast_duration: "01:01:35"
+podcast_length: "53488009"
 ---
 
-<a href="https://www.eventbrite.com/e/best-practices-in-api-docs-product-overviews-and-getting-started-tutorials-tickets-179050784717"><img style="max-width: 700px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/eventbrite_overviews_and_tutorials.png" alt="Best practices in API docs: Product overviews and getting started tutorials" /></a>
+## Video recording
 
-slides: <a href="https://idbwrtng.com/wdcb">https://idbwrtng.com/wdcb</a>
+Here's the video recording:
+
+<iframe width="640" height="385" src="https://www.youtube.com/embed/6Reo17LxaS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Audio
+
+If you want to listen to audio only, here's the file:
+
+{% include audio.html %}
+
+## Slides
+
+Here are my slides:
+
+<a target="_blank" href="https://idratherbewriting.com/learnapidoc/slides/overviews_and_tutorialsv2.html#/"><img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/overviews_and_tutorials_title_slide2.png" alt="Best practices in API docs: Product overviews and getting started tutorials" /></a>
+
+(Note: Use both the right and down arrows to move through the slides.)
+
+## Presentation description
+
+Here's a description of the presentation:
 
 > **Best practices in API docs: Product overviews and getting started tutorials**
 >
@@ -21,12 +45,14 @@ slides: <a href="https://idbwrtng.com/wdcb">https://idbwrtng.com/wdcb</a>
 >
 > In this presentation, you’ll learn best practices, pitfalls, and other strategies for these two content types. Templates for each content type will also be provided. Additionally, we’ll look at several examples and assess them based on more formal criteria.
 
+## Event details
+
 **Date Oct 28, 2021** <br/>
 **Time: 8am PDT**<br/>
 **Presenter: Tom Johnson**<br/>
-**Organizer: STC Washington, D.C.-Baltimore Chapter**<br/>
-**Cost: $0-$15**
+**Organizer: [STC Washington, D.C.-Baltimore Chapter](https://wdcb.stcwdc.org)**<br/>
+**Cost: $0-$15, [Eventbrite](https://www.eventbrite.com/e/best-practices-in-api-docs-product-overviews-and-getting-started-tutorials-tickets-179050784717)**
 
-[Register on Eventbrite here.](https://www.eventbrite.com/e/best-practices-in-api-docs-product-overviews-and-getting-started-tutorials-tickets-179050784717)
+## Related resources
 
-I'll also be recording the presentation and will update this post with the details after the event.
+I gave a [similar presentation a couple of months earlier to tekom Europe](https://idratherbewriting.com/blog/product-overviews-and-getting-started-tutorials-presentation/). In the tekom Europe version, I didn't have any examples and didn't respond to audience chat during the presentation. But otherwise, the content is highly similar.
