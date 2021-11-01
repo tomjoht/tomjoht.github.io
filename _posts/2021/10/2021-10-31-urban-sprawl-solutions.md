@@ -1,5 +1,5 @@
 ---
-title: "Practical solutions to urban sprawl"
+title: "Urban sprawl and car dependence -- some thoughts on solutions"
 permalink: /blog/urban-sprawl-solutions/
 categories:
 - biking
