@@ -3,14 +3,11 @@ title: "The existentialism of technical writing"
 permalink: /blog/the-existentialism-of-technical-writing/
 categories:
 - technical-writing
-keywords: philosophy, existentialism
+keywords: philosophy, existentialism, meaninglessness
 rebrandly: https://idbwrtng.site/techcommexistentialism
 description: "Every now and then I catch myself wondering about the docs I wrote at my old job, looking to see if there has been new content added to the site, any radical redesigns or restructurings, any new doc themes or apparent moves. I’m not sure why I occasionally look, other than mild curiosity, but it’s led me to wonder about my future as well. What seems so important and urgent now is on a countdown timer. No matter what content I’m working on, give it a few years, and this content will probably go the same way, becoming neglected, slowly rotting away and becoming less relevant, less accurate, less needed. Some other writer will inherit the content and wonder about its history or even if it’s needed. The upcoming months will slowly wash the content away, until someone eventually deletes the page."
 published: false
 ---
-
-
-
 
 Our content lives for a minute upon the technology stage, seems so important at the moment it's new. It’s exhilarating to publish new content, to share the link to newly written docs, and everyone is excited. And you move on to the next content task, and more and more, going into work each day for years building up all the content in a doc portal so that it’s complete, harmonious, and interwoven. But then, at some point on your timeline, the chapter at the company ends, and you sail off into some other harbor.
 
