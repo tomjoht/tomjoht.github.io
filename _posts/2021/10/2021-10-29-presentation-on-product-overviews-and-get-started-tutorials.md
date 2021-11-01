@@ -4,6 +4,7 @@ permalink: /blog/presentation-on-product-overviews-and-get-started-tutorials/
 categories:
 - technical-writing
 - api-docs
+- podcasts
 keywords: product overviews, getting started tutorials, webinar
 rebrandly: https://idbwrtng.site/stcwebinaroverviewsandtutorials
 description: "I recently gave an online presentation about product overviews and getting started tutorials in API docs, sponsored by the STC Washington, D.C.-Baltimore Chapter. This post provides a recording of the presentation and related details."
