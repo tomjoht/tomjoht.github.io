@@ -6,7 +6,7 @@ categories:
 - api-docs
 keywords: product overviews, getting started tutorials, webinar
 rebrandly: https://idbwrtng.site/stcwebinaroverviewsandtutorials
-description: "I recently gave an online presentation about product overviews and getting started tutorials in API docs, sponsored by the STC Washington, D.C.-Baltimore Chapter. This post provides a recording and other presentation details."
+description: "I recently gave an online presentation about product overviews and getting started tutorials in API docs, sponsored by the STC Washington, D.C.-Baltimore Chapter. This post provides a recording of the presentation and related details."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/overviews_and_tutorials_stc_dcba.mp3
 podcast_file_size: "54.3 MB"
 podcast_duration: "01:01:35"
@@ -46,6 +46,8 @@ Here's a description of the presentation:
 > In this presentation, you’ll learn best practices, pitfalls, and other strategies for these two content types. Templates for each content type will also be provided. Additionally, we’ll look at several examples and assess them based on more formal criteria.
 
 ## Event details
+
+(Note: The event is over.)
 
 **Date Oct 28, 2021** <br/>
 **Time: 8am PDT**<br/>

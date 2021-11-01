@@ -15,9 +15,9 @@ See [WTD Episode 35: Docs for Developers book, with Jared Bhatti and Zachary Sar
 
 ## Docs for Developers book details
 
-See [https://docsfordevelopers.com/](https://docsfordevelopers.com/) for ways to buy the book. You can order it from Apress, Amazon, Barnes and Noble, and alibris, in both paperback and ebook formats.
+See [https://docsfordevelopers.com](https://docsfordevelopers.com/) for ways to buy the book. You can order it from Apress, Amazon, Barnes and Noble, and alibris, in both paperback and ebook formats.
 
-<figure><a href="https://link.springer.com/book/10.1007/978-1-4842-7217-6"><img src="https:podcast.writethedocs.org/assets/img/episodethumbs/docsfordevelopers.jpeg" /></a><figcaption style="margin-top:10px"><a href="https://docsfordevelopers.com/"><i>Docs for Developers: An Engineer's Field Guide to Technical Writing</i></a>, by co-authors Jared Bhatti, Zachary Sarah Corleissen, Jen Lambourne, David Nunez, and Heidi Waterhouse</figcaption>
+<figure><a href="https://link.springer.com/book/10.1007/978-1-4842-7217-6"><img src="https://podcast.writethedocs.org/assets/img/episodethumbs/docsfordevelopers.jpeg" /></a><figcaption style="margin-top:10px"><a href="https://docsfordevelopers.com/"><i>Docs for Developers: An Engineer's Field Guide to Technical Writing</i></a>, by co-authors Jared Bhatti, Zachary Sarah Corleissen, Jen Lambourne, David Nunez, and Heidi Waterhouse</figcaption>
 </figure>
 
 ## Podcast topics we cover
