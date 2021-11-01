@@ -1,5 +1,5 @@
 ---
-title: "Write the Docs Podcast episode 35: Docs for Developers, with Jared Bhatti and Zachary Sarah Corleissen"
+title: "Write the Docs Podcast Episode 35: Docs for Developers book, with Jared Bhatti and Zachary Sarah Corleissen"
 permalink: /blog/wtd-episode-35-docs-for-developers-book/
 categories:
 - technical-writing
