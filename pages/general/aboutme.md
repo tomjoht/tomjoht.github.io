@@ -9,7 +9,7 @@ type: page
 published: true
 ---
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.jpg" alt=" Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area." width="170" class="alignright" /><figcaption>Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area." width="170" class="alignright" /></figure>
 
 In case you'd like to know a little bit about me, I'm a technical writer currently based in Seattle, working for Google. (Previously, I was at Amazon and a couple of startups in the Bay area.)
 
@@ -33,7 +33,7 @@ Like most technical writers, I stumbled into technical writing after working in 
 
 After a while, I realized I needed more money to support my family, so I turned to technical writing and started working for a financial company, Raymond James. To my surprise, I found that I actually liked technical writing &mdash; a lot more than copywriting. Technical writing combines my love for writing with my fascination for technology.
 
-I worked at Raymond James for a couple of years before heading out west to Utah, where I worked for the government, a non-profit organization in Utah, and then moved to California to work for various startups, including Badgeville, 41st Parameter (Experian), and then later Amazon. After a while, I let California and moved to Washington to work for Google.
+I worked at Raymond James for a couple of years before heading out west to Utah, where I worked for the government, a non-profit organization in Utah, and then moved to California to work for various startups, including Badgeville, 41st Parameter (Experian), and Amazon. After a while, I let California and moved to Washington to work for Google.
 
 _By the way, the views on my blog are my own and do not represent those of my employer._
 
