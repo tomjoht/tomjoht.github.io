@@ -14,7 +14,7 @@ In 2020, idratherbewriting.com had 1,814,770 page views, or about 4,971 page vie
 
 ## Overall page views
 
-Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2019 through Dec 31, 2019, according to Google Analytics. The blue line represents 2019, while the brown line represents 2014 for comparison.
+Here's a breakdown of site traffic analytics on idratherbewriting.com from Jan 1, 2020 through Dec 31, 2020, according to Google Analytics. The blue line represents 2020, while the brown line represents 2014 for comparison.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2020overallanalyticsgraph.png" alt="Site traffic graph" /> <figcaption>I'd Rather Be Writing received 1,814,770 page views during 2020. This equates to nearly 5,000 page views a day.</figcaption></figure>
 
