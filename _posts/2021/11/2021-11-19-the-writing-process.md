@@ -1,5 +1,5 @@
 ---
-title: "'The writing process' -- a new section in my API doc course"
+title: "\"The writing process\"-- a new section in my API doc course"
 permalink: /blog/the-writing-process/
 categories:
 - api-docs
