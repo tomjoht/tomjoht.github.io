@@ -19,9 +19,11 @@ Added to this, I also started having patellofemoral syndrome (misalignment of th
 
 I tried biking more, and thought perhaps I could replace basketball with cycling. But during cycling, the knee pain from the patellofemoral syndrome would kick in after about 5 miles, and so this blocked me more immersion with the bike. Plus, my preference was for basketball more than biking anyway.
 
-Last month I decided to see a physical therapist (PT) again. I explained that I had three recent calf strains in different parts of the calf. After some diagnostics, he said I had some anterior pelvic tilt and rib flare, which led to some incorrect posture. He said I had too much curvature in my lower back and needed to push out my lower back more. He said I was overusing my knees rather than relying more on my glutes for power. He identified some weak muscles in my legs and hips that needed strengthening, and gave me daily exercises to do. He also recommended that I look into zero-drop shoes for basketball.
+Last month I decided to see a physical therapist (PT) again. I explained that I had three recent calf strains in different parts of the calf. After some diagnostics, he said I had some anterior pelvic tilt and rib flare, which led to some incorrect posture. He said I had too much curvature in my lower back and needed to push out my lower back more. He said I was overusing my knees rather than relying more on my glutes for power. He identified some weak muscles in my legs and hips that needed strengthening, and gave me daily exercises to do.
 
-I'd never heard of zero-drop shoes before because I'm not a runner and wasn't familiar with the barefoot running movement. After some initial research, the recommendation for zero-drop shoes set me on course for cult-like education and awakening around a [shoespiracy](https://www.youtube.com/watch?v=x_rDFa6kZfI) like nothing I've ever experienced. Pretty much all I did during Thanksgiving break was read about barefoot shoes.
+<figure><img style="max-width:350px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/exercisesfrompt.jpg" alt="Recommended exercises" /></a><figcaption>Recommended exercises</figcaption></figure>
+
+He also recommended that I look into zero-drop shoes for basketball. I'd never heard of zero-drop shoes before because I'm not a runner and wasn't familiar with the barefoot running movement. After some initial research, the recommendation for zero-drop shoes set me on course for cult-like education and awakening around a [shoespiracy](https://www.youtube.com/watch?v=x_rDFa6kZfI) like nothing I've ever experienced. Pretty much all I did during Thanksgiving break was read about barefoot shoes.
 
 ## Zero-drop shoes
 
