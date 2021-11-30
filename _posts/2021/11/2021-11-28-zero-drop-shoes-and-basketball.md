@@ -108,7 +108,7 @@ Take a look at how wide the toe boxes are in these Xero Prio shoes:
 
 <figure><a href=""><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/wide_toe_box.jpg" alt="Wide toe box" /></a><figcaption>Minimalist barefoot shoes have wide toe boxes</figcaption></figure>
 
-In fact, after wearing the barefoot shoes for a week, when I played basketball in my regular basketball shoes (Lebron 16s), I started getting a blister on my big toe, which isn't a place with previous callouses. It's because my toes started to spread a little, I think.
+In fact, after wearing the barefoot shoes for a week, when I played basketball in my regular basketball shoes (Lebron 16s), I started getting a blister on my big toe, which isn't a place with previous callouses. It's because my toes started to spread a little, I think. (For a before-and-after pic of someone's journey to barefoot shoe adoption, see [Being Me: A Journey to Barefoot](https://anyasreviews.com/being-me-a-journey-to-barefoot/) on Anya's reviews.)
 
 After feeling how comfortable a wide toe box is, it's hard to even think of going back to narrow-toed shoes. I also have a second toe that's longer than my big toe. For years, I'd accepted that this toe will just be jammed in shoes, so much that the toenail is black and has been for years (and I've always been unjustly shamed by the longer second toe as well). But after relaxing in wide toe-box shoes, my long toe doesn't want to go back into shoes with tiny toe boxes. I've had a long talk with the toe, and it's adamant about retaining its freedom.
 
