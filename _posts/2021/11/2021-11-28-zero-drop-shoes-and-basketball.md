@@ -1,5 +1,5 @@
 ---
-title: "Barefoot shoes, basketball, and reasons for recurring calf strains"
+title: "Barefoot shoes, basketball, and how to avoid recurring calf strains"
 permalink: /blog/barefoot-shoes-basketball-fix-for-recurring-calf-strains
 categories:
 - life
