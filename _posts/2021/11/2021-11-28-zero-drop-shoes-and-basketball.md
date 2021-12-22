@@ -4,7 +4,7 @@ permalink: /blog/barefoot-shoes-basketball-fix-for-recurring-calf-strains
 categories:
 - life
 keywords:
-rebrandly: https://idbwrtng.site/zerodropbasketball
+rebrandly: https://idbwrtng.com/zerodropbasketball
 description: "This post is mostly about shoes (and the way the shoe industry has gone awry), but it's not entirely unrelated to technical writing (which is the usual focus of this blog). Technical writing is a sedentary career that involves sitting all day. In this sedentary mode, it's easy to develop bad posture and other physical problems. At any rate, almost all of us have physical ailments of some kind, especially related to our feet, knees, and back. In this post, I argue that shoes with elevated/wedged heels might be partly to blame. Elevated/wedged heel shoes shorten and atrophy our calf muscles and imbalance our posture, leading to back pain, strained calves, and other issues. I share my story of why I got into wearing barefoot shoes and how I've reconciled natural movement with basketball playing."
 ---
 
