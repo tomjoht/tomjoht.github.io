@@ -26,6 +26,8 @@ In addition to the above, you might also enjoy these other tech comm podcasts:
 * [Instrktiv's Insane Instructions Show](https://open.spotify.com/show/0OqluDn7YSjc1cdAULPOB8) (new)
 * [The Manuscript](https://podcasts.apple.com/podcast/the-manuscript/id1501843799) (new)
 * [The Knowledgebase Ninjas](https://document360.io/blog/category/knowledgebase-ninjas/) (new)
+* [Content Components](https://easydita.com/project/content-components-podcast/) (new)
+* [Titans of Tech Comm](https://heretto.com/project/titans-of-tech-comm-podcast/) (new)
 
 I added a list of these podcasts on a new page on my site called [Technical writing podcasts](/technical-writing-podcasts/):
 
