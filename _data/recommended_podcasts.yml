@@ -66,11 +66,6 @@ podcasts:
   url: https://www.contentstrategy.com/podcast
   img: content_strategy.png
 
-# - title: The Weekly Squeak
-#   author: Chris Ward
-#   url: https://chrischinchilla.com/podcasts/
-#   img: weeklysqueak.png
-
 - title: Content Components
   author: Patrick Bosek
   url: https://easydita.com/project/content-components-podcast/
@@ -80,3 +75,8 @@ podcasts:
   author: Zohra Mutabanna
   url: https://www.insidetechcomm.show/
   img: zohra_mutabanna.jpeg
+
+- title: Titans of Tech Comm
+  author: Vivek Nanda
+  url: https://heretto.com/project/titans-of-tech-comm-podcast/
+  img: titansoftechcomm.png
