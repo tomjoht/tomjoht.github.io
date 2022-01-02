@@ -14,55 +14,45 @@ First, unfortunately traffic waned a bit for the last half of the year. I attrib
 
 <figure><img style="border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/analytics2021pageviews.png" alt="Site traffic graph" /> <figcaption>I'd Rather Be Writing received 1,865,635 page views during 2021. This works out to an average of 5,111 page views a day.</figcaption></figure>
 
-Even so, there were more sessions this year than the previous two: 1,207,264 sessions (2019) -> 1,195,729 sessions (2020) -> 1,266,999 sessions (2021).
+Even so, there were more sessions this year than the previous two years: 1,207,264 sessions (2019) -> 1,195,729 sessions (2020) -> 1,266,999 sessions (2021).
 
 ## Traffic sources
 
-Traffic to the API doc site has remained strong, accounting for 76% of traffic on idratherbewriting.com.
+Traffic to the API doc site has remained strong, accounting for 76% of site traffic.
 
-YouTube has become a growing contributor to traffic origination. YouTube's percentage of  traffic from social has grown from 8% (2019) -> 13 % (2020) -> 19% (2021).
+In social, YouTube has become a growing contributor to traffic origination. YouTube's percentage of social traffic has grown from 8% (2019) -> 13 % (2020) -> 19% (2021).
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/youtubereferral_origination.png" alt="YouTube origination" />
 
-The percentage of traffic from all social media sources only accounts for 11,346 sessions from 1,266,999 total sessions (0.9% of overall traffic), so this is just one drop in a bucket.
+However, the percentage of traffic from all social media sources only accounts for 11,346 sessions from 1,266,999 total sessions (less than 1% of overall traffic), so this is just one drop in a bucket.
 
 <img style="max-width:450px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/value_of_social_analytics2021.png" alt="Is traffic from social all that important?" />
 
-Organic search results have always dominated traffic origination, accounting for 90% of overall traffic. Yet social media seems to play into our psychology more prominently, giving us the sense of having content go viral. In reality, my most read page is this page from my API doc course: [Step 3: Parameters (API reference tutorial)](/learnapidoc/docapis_doc_parameters.html).
+Organic search results have always dominated traffic origination, accounting for 90% of overall traffic. Yet social media seems to play into our psychology more prominently, giving us the sense of having content go viral. In reality, my most read page is this page from my API doc course: [Step 3: Parameters (API reference tutorial)](/learnapidoc/docapis_doc_parameters.html). This page did not go viral on Twitter.
 
 Analyzing metrics makes me wonder how worthwhile it is to spend time posting on social media channels. It's probably more strategic to look at content driving organic traffic, investing in SEO.
 
 ## Confusing "Users" versus "New Users" metrics
 
-There's one metric that doesn't make any sense to me: Users versus New Users. Apparently, over the course of an entire year, only 450 users returned. Everyone else was a new user:
+There's one metric that doesn't make much sense to me: Users versus New Users. Apparently, over the course of an entire year, only 450 users returned. Everyone else was a new user:
 
 <img style="max-width: 400px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/users_vs_new_users2021.png" alt="Users versus new users" />
 
-Google's [explanation about how users are counted](https://support.google.com/analytics/answer/2992042?hl=en#zippy=%2Cprevious-calculation-method) doesn't clarify this number much, and this [alternative explanation](https://www.hotjar.com/google-analytics/glossary/users/) is better, but I still can't believe it.
+Unless readers are frequently clearing their cookies, using plugins to prevent any sort of tracking, surfing in incognito mode, reading at midnight (when sessions expire), or constantly switching browsers, I can't understand this metric. Only 450 people made subsequent visits to my site in 2021? If so, Mark Baker's mantra "Every page is page one" might better be rendered as "Every user is a first-time visitor."
 
-Unless readers are frequently clearing their cookies, using plugins to prevent any sort of tracking, surfing in incognito mode, reading at midnight (when sessions expire), or constantly switching browsers, I just can't understand this metric. Only 450 people made subsequent visits to my site in 2021?
-
-If so, Mark Baker's mantra "Every page is page one" might be spun as "Every user is a first-time visitor."
-
-Look at this data and tell me how it makes sense:
+The data is further complicated by introducing "New Visitor" and "Returning Visitor" with conflicting numbers.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/usersgraphs2021confusing2.png" alt="Confusing user data" />
 
-If Users and New Users are about the same, then how can the average Number of Sessions per User be 1.29? Wouldn't those additional .29 sessions be counted as "returning users/visitors"?
+If Users and New Users are about the same, how can the average Number of Sessions per User be 1.29? Wouldn't those additional .29 sessions be counted as "returning users/visitors"? If so, assuming 982,313 total users, that would mean about 285,000 returning users.
 
-According to Google, "A session is a group of user interactions with your website that take place within a given time frame. For example a single session can contain multiple page views" ([How a web session is defined in Universal Analytics](https://support.google.com/analytics/answer/2731565?hl=en#zippy=%2Cin-this-article)).
-
-The session timeout period is 30 minutes of inactivity, passing of midnight, or somehow clearing the tracking cookie. Google then explains this common scenario of a user leaving a tab open and inactive:
-
-> In this scenario, the first session that was opened when Bob arrived on the site ends 30 minutes into his lunch break. When he returns from lunch and continues browsing the website, then Analytics sets a new 30-minute expiry, and a new session begins.
-
-If there are 982,763 users, and they have on average 1.29 sessions, then why wouldn't these users be counted as returning users on their additional .29 sessions? For fun, Google switches terms from "users" to "visitors" with the pie chart graphic and says there are 88% new visitors and 12% returning visitors, even though these numbers clearly contradict the users and new users metrics. At this point, I sort of shrug my shoulders and wonder if pursuing the answer, no doubt convoluted, is worth it.
+At this point, I sort of shrug my shoulders and wonder if pursuing the answer, no doubt convoluted, is worth it. I'm sure the real answer is complex.
 
 ## Times of day and location
 
 Here's another interesting metric about traffic correlated with time of day and traffic by country:
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2021analyticscountries_times2.png" alt="Traffic correlated with time of day and traffic by country" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2021analyticscountries_times3.png" alt="Traffic correlated with time of day and traffic by country" />
 
 Most people tend to read content in the morning, with some reading at night. I'm in the Pacific time zone, so it might make more sense for me to send my newsletter right before bed rather than first thing in the morning.
 
