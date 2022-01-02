@@ -54,11 +54,11 @@ The following table includes more details from other Google Analytics reports. T
   </tr>
   <tr>
     <td markdown="span"><b>Unique page views</b></td>
-    <td markdown="span">1,704,059 -> 1,592,088 -></td>
+    <td markdown="span">1,704,059 -> 1,592,088 -> 1,865,635</td>
   </tr>
   <tr>
     <td markdown="span"><b>Average time on page</b></td>
-    <td markdown="span">2:40 -> 2:43</td>
+    <td markdown="span">2:40 -> 2:43 -> 2:48</td>
   </tr>
   <tr>
     <td markdown="span"><b>Users</b></td>
@@ -66,7 +66,7 @@ The following table includes more details from other Google Analytics reports. T
   </tr>
   <tr>
     <td markdown="span"><b>Sessions</b></td>
-    <td markdown="span">1,207,264 -> 1,195,729 ->1,266,999</td>
+    <td markdown="span">1,207,264 -> 1,195,729 -> 1,266,999</td>
   </tr>
   <tr>
     <td markdown="span"><b>Sessions per user</b></td>

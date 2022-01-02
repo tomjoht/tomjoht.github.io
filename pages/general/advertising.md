@@ -101,7 +101,7 @@ Top banner ads can be JPG, GIF, PNG, or SVG. Animated GIFs aren't allowed. There
 
 ## Newsletter Space {#newsletterspace}
 
-I send out about 3 newsletters a month to all my email subscribers (5,800 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+I send out about 3 newsletters a month to all my email subscribers (6,100 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletterspace.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
 
