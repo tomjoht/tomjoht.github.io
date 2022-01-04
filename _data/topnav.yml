@@ -39,6 +39,8 @@ topnav_dropdowns:
 
   - title: Archives
     items:
+      - title: 2022
+        url: /archives-2022/
       - title: 2021
         url: /archives-2021/
       - title: 2020
