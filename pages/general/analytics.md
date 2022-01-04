@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Site Analytics (2021)
+title: Site analytics (for 2021)
 permalink: /analytics/
 type: page
 last-modified: 2022-01-02
