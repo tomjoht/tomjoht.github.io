@@ -78,7 +78,7 @@ Over the past year, I've certainly ramped up at work. I found my area of focus, 
 
 ## What's next -- rekindling more blogging energy
 
-As I think about what's next, one issue on my mind is to figure out why I've been blogging less than usual. My frequency of posts has gone down this year. Each year, I average about 80 articles a year on my blog. This year, I wrote only 44 blog posts.
+As I think about what's next, one issue on my mind is to figure out why I've been blogging less than usual. My frequency of posts has gone down this year. Each year, I average about 80 articles a year on my blog. This year, I wrote only 47 blog posts.
 
 However, sometimes it's hard to tell because I often sink time into articles on my [API documentation site](/learnapidoc/), which seems to have more value and recognition than content on my blog. I keep expanding my API course with new articles and directions, so much that many sections aren't API-related. For example, [Processes and methodology](/learnapidoc/docapis_managing_doc_processes.html), [Metrics and measurement](/learnapidoc/docapis_metrics_and_measurement.html), and [The writing process](/learnapidoc/writing_process.html) aren't API specific, though some dev docs themes surface. I wanted to put this content there because they're all aspects of being a tech writer no matter the domain, but I realize this dilutes the API focus. It's hard to tell if I'm actually writing less or just writing more on my API doc site than blog.
 
@@ -96,7 +96,7 @@ To expand on that last point, maybe I've given less attention to my blog precise
 
 The fizzle in my blogging productivity might have some other reasons. I think the tech comm blogosphere has also become less active. There aren't as many people reading and commenting on blog posts as in previous years. I haven't measured this decline &mdash; it's just a general sense I've felt. More people have moved into [podcasting](/technical-writing-podcasts/) than blogging. Podcasting actually seems like it hit a resurgence, though I often struggle to be engaged by tech comm podcasts.
 
-Another reason for writing less might be due to my move and transition. For a few months, I prioritized ramping up in my new role over anything extracurricular. There was also a tremendous amount of adjustment to make in moving to Seattle. Then after I ramped up and settled in, I had gotten out of y writing rhythm.
+Another reason for writing less might be due to my move and transition. For a few months, I prioritized ramping up in my new role over anything extracurricular. There was also a tremendous amount of adjustment to make in moving to Seattle. Then after I ramped up and settled in, I think I got out of my writing rhythm.
 
 Some of the fatigue could be attributed to the pandemic. I think many creatives experienced some burnout and dropped their normal productivity. This one is kind of perplexing. I've never felt a lack of topics to write about, and sometimes I go off-topic to pursue what interests me at the moment. I'd rather write about something I'm interested in, even if not tech-comm related, than not write at all. Presumably, all of us had more time as we worked from home. But to deny the creative burnout from the despair and endless isolation from the pandemic would be wrong. Sure, like others, the pandemic has worn on me as well.
 
