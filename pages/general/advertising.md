@@ -60,7 +60,7 @@ You can advertise your product or service on idratherbewriting.com. Different ad
     <tr>
         <td markdown="span">[Product review posts](#product_review_posts)</td>
         <td markdown="span">800-1,000 words</td>
-        <td markdown="span">$700/post</td>
+        <td markdown="span">$800/post</td>
     </tr>
     <tr>
         <td markdown="span">[Podcasts](#podcasts)</td>
