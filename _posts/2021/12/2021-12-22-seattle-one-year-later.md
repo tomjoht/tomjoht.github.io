@@ -38,21 +38,21 @@ Also, I don't know why, but I think I have a "sports brain." Whereas my other fa
 
 ## Commuting
 
-I found the sweet spot for my commute into Seattle by combining a car with a bike and train/monorail. I described this combination in [Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems](/blog/bike-commuting-from-renton-to-seattle/). I was commuting into South Lake Union (SLU), but now that my home office reopened, I'm commuting into Fremont, which is about 2 miles north of the SLU location.
+I found the sweet spot for my commute into Seattle by combining a car with a bike and light rail. I described this combination in [Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems](/blog/bike-commuting-from-renton-to-seattle/). I was commuting into South Lake Union (SLU), but now that my home office reopened, I'm commuting into Fremont, which is about 2 miles north of the SLU location.
 
 Since my Fremont office location opened, my commute looks like this:
 
 * **Car.** Drive my car to the Tukwila Link Light Rail station and park it there all day. (20-min drive)
-* **Monorail.** Take the Link Light Rail to the University of Washington (UW) station (if playing ball, stop at the SoDo station). (30-min ride)
+* **Light rail.** Take the Link Light Rail to the University of Washington (UW) station (if playing ball, stop at the SoDo station). (30-min ride)
 * **Bike.** Bike from the UW station along the Burke-Gilman trail 3.5 miles to the Google Fremont campus. (20-min bike ride)
 
-The Link Light Rail has some advantages over the Sounder train. With the Light Rail, schedules run every 8 minutes, all day long. There are more stops and stations. And it's still just as dependable as the train, since the monorail isn't subject to traffic congestion. The 30-minute ride is actually just enough to get immersed in a task of some kind. The monorail cars are still fairly empty, so it's not hard to get a seat. Thirty minutes goes by quickly on a computer, and I'm not as tired from driving. (Driving during rush hour requires a lot of mental energy.)
+The Link Light Rail has some advantages over the Sounder train. With the Light Rail, schedules run every 8 minutes, all day long. There are more stops and stations. And it's still just as dependable as the train, since the light rail isn't subject to traffic congestion. The 30-minute ride is actually just enough to get immersed in a task of some kind. The light rail cars are still fairly empty, so it's not hard to get a seat. Thirty minutes goes by quickly on a computer, and I'm not as tired from driving. (Driving during rush hour requires a lot of mental energy.)
 
 The bike segment is entirely along a multi-path trail (the Burke Gilman) that follows a large waterway, where boats, kayaks, and others travel. It's very picturesque. Here's the view coming home in the evening at dusk.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/seattle-fremont-trail.png" alt="Burke Gilman trail at dusk in Fremont, Seattle" /><figcaption>Burke Gilman trail at dusk in Fremont, Seattle</figcaption></figure>
 
-The commute still takes about 1 hr and 10 minutes, though, which is not an insignificant amount of time. That's 2 hrs and 20 minutes of my day sitting in a car/monorail/bike. I find that doing this every weekday is a bit much, so usually 3-4 days a week is enough.
+The commute still takes about 1 hr and 10 minutes, though, which is not an insignificant amount of time. That's 2 hrs and 20 minutes of my day sitting in a car/light-rail/bike. I find that doing this every weekday is a bit much, so usually 3-4 days a week is enough.
 
 With Omicron ramping up, I have to wonder if the return to work will be delayed again and whether offices will close and we'll have to return to working fully remote. If so, I'll need to figure out a plan for that because, like I said, I dislike working from home. I'm not sure why, and now that the world is back in the uncertainty stage, I might need to crack the psychology of WFH.
 
