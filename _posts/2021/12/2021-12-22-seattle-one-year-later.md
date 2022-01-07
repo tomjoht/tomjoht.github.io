@@ -4,7 +4,7 @@ permalink: /blog/seattle-one-year-later
 categories:
 - writing
 keywords:
-rebrandly: https://idbwrtng.com/seattleoneyearlater
+rebrandly: https://idbwrtng.com/oneyearlater
 description: "A few people have asked me how I like Seattle and how things are going after the move. Given that it's been a year since we moved to Seattle, I thought this would be a good topic to write about. Overall, the move was a good decision, and we've all adjusted well. As I head into the next year, one thing that concerns me is that I've been writing less, so in 2022 I plan to rekindle that energy."
 ---
 

@@ -4,7 +4,7 @@ permalink: /blog/megacomm-presentation-increase-awareness-of-tech-comm
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/seattleoneyearlater
+rebrandly: https://idbwrtng.com/visandinfluencepreso
 description: "I'm giving a presentation called <i>How to increase awareness of tech comm inside corporate walls</i> in February 2022 at the <a href='https://megacomm.org'>Megacomm conference</a>, which is a conference for tech comm professionals in Israel. (This year's conference will be a hybrid of online and in-person events.) A description of my presentation is below."
 ---
 
