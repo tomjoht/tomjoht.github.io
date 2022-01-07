@@ -30,7 +30,7 @@ However, the percentage of traffic from all social media sources only accounts f
 
 Organic search results have always dominated traffic origination, accounting for 90% of overall traffic. Yet social media seems to play into our psychology more prominently, giving us the sense of having content go viral. In reality, my most read page is this page from my API doc course: [Step 3: Parameters (API reference tutorial)](/learnapidoc/docapis_doc_parameters.html). This page did not go viral on Twitter.
 
-Analyzing metrics makes me wonder how worthwhile it is to spend time posting on social media channels. It's probably more strategic to look at content driving organic traffic, investing in SEO.
+Analyzing metrics makes me wonder how worthwhile it is to spend time posting on social media channels. It's probably more strategic to look at content driving organic traffic, then investing in SEO.
 
 ## Confusing "Users" versus "New Users" metrics
 
@@ -56,7 +56,7 @@ Here's another interesting metric about traffic correlated with time of day and 
 
 Most people tend to read content in the morning, with some reading at night. I'm in the Pacific time zone, so it might make more sense for me to send my newsletter right before bed rather than first thing in the morning.
 
-Also, India! Wow, I nearly have as many readers from India as from the United States. What a growing juggernaut of a tech country. Perhaps I should get a better understanding of the tech comm scene in India.
+Also, India! Wow, I nearly have as many readers from India as from the United States. What a growing juggernaut of a tech country. Perhaps I should get a better understanding of the tech comm scene in India. I did once present a [keynote in Bangalore](/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/) as part of tcworld 2015, and I really enjoyed the experience. (I posted my [thoughts here](/2015/03/22/some-thoughts-on-attending-tcworld-india-2015/) after the conference -- one interesting aspect was the young demographics.)
 
 Finally (and this is outside of Google Analytics), in July 2020 I added a [Buy me a coffee](https://www.buymeacoffee.com/learnapidoc) button on my site. From July 2020 through Dec 31, 2021, there were 139 supporters who donated a collective total of $1,920:
 

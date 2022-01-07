@@ -38,21 +38,21 @@ Also, I don't know why, but I think I have a "sports brain." Whereas my other fa
 
 ## Commuting
 
-I found the sweet spot for my commute into Seattle by combining a car with a bike and train/monorail. I described this combination in [Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems](/blog/bike-commuting-from-renton-to-seattle/). I was commuting into South Lake Union (SLU), but now that my home office reopened, I'm commuting into Fremont, which is about 2 miles north of the SLU location.
+I found the sweet spot for my commute into Seattle by combining a car with a bike and light rail. I described this combination in [Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems](/blog/bike-commuting-from-renton-to-seattle/). I was commuting into South Lake Union (SLU), but now that my home office reopened, I'm commuting into Fremont, which is about 2 miles north of the SLU location.
 
 Since my Fremont office location opened, my commute looks like this:
 
 * **Car.** Drive my car to the Tukwila Link Light Rail station and park it there all day. (20-min drive)
-* **Monorail.** Take the Link Light Rail to the University of Washington (UW) station (if playing ball, stop at the SoDo station). (30-min ride)
+* **Light rail.** Take the Link Light Rail to the University of Washington (UW) station (if playing ball, stop at the SoDo station). (30-min ride)
 * **Bike.** Bike from the UW station along the Burke-Gilman trail 3.5 miles to the Google Fremont campus. (20-min bike ride)
 
-The Link Light Rail has some advantages over the Sounder train. With the Light Rail, schedules run every 8 minutes, all day long. There are more stops and stations. And it's still just as dependable as the train, since the monorail isn't subject to traffic congestion. The 30-minute ride is actually just enough to get immersed in a task of some kind. The monorail cars are still fairly empty, so it's not hard to get a seat. Thirty minutes goes by quickly on a computer, and I'm not as tired from driving. (Driving during rush hour requires a lot of mental energy.)
+The Link Light Rail has some advantages over the Sounder train. With the Light Rail, schedules run every 8 minutes, all day long. There are more stops and stations. And it's still just as dependable as the train, since the light rail isn't subject to traffic congestion. The 30-minute ride is actually just enough to get immersed in a task of some kind. The light rail cars are still fairly empty, so it's not hard to get a seat. Thirty minutes goes by quickly on a computer, and I'm not as tired from driving. (Driving during rush hour requires a lot of mental energy.)
 
 The bike segment is entirely along a multi-path trail (the Burke Gilman) that follows a large waterway, where boats, kayaks, and others travel. It's very picturesque. Here's the view coming home in the evening at dusk.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/seattle-fremont-trail.png" alt="Burke Gilman trail at dusk in Fremont, Seattle" /><figcaption>Burke Gilman trail at dusk in Fremont, Seattle</figcaption></figure>
 
-The commute still takes about 1 hr and 10 minutes, though, which is not an insignificant amount of time. That's 2 hrs and 20 minutes of my day sitting in a car/monorail/bike. I find that doing this every weekday is a bit much, so usually 3-4 days a week is enough.
+The commute still takes about 1 hr and 10 minutes, though, which is not an insignificant amount of time. That's 2 hrs and 20 minutes of my day sitting in a car/light-rail/bike. I find that doing this every weekday is a bit much, so usually 3-4 days a week is enough.
 
 With Omicron ramping up, I have to wonder if the return to work will be delayed again and whether offices will close and we'll have to return to working fully remote. If so, I'll need to figure out a plan for that because, like I said, I dislike working from home. I'm not sure why, and now that the world is back in the uncertainty stage, I might need to crack the psychology of WFH.
 
@@ -78,7 +78,7 @@ Over the past year, I've certainly ramped up at work. I found my area of focus, 
 
 ## What's next -- rekindling more blogging energy
 
-As I think about what's next, one issue on my mind is to figure out why I've been blogging less than usual. My frequency of posts has gone down this year. Each year, I average about 80 articles a year on my blog. This year, I wrote only 44 blog posts.
+As I think about what's next, one issue on my mind is to figure out why I've been blogging less than usual. My frequency of posts has gone down this year. Each year, I average about 80 articles a year on my blog. This year, I wrote only 47 blog posts.
 
 However, sometimes it's hard to tell because I often sink time into articles on my [API documentation site](/learnapidoc/), which seems to have more value and recognition than content on my blog. I keep expanding my API course with new articles and directions, so much that many sections aren't API-related. For example, [Processes and methodology](/learnapidoc/docapis_managing_doc_processes.html), [Metrics and measurement](/learnapidoc/docapis_metrics_and_measurement.html), and [The writing process](/learnapidoc/writing_process.html) aren't API specific, though some dev docs themes surface. I wanted to put this content there because they're all aspects of being a tech writer no matter the domain, but I realize this dilutes the API focus. It's hard to tell if I'm actually writing less or just writing more on my API doc site than blog.
 
@@ -96,7 +96,7 @@ To expand on that last point, maybe I've given less attention to my blog precise
 
 The fizzle in my blogging productivity might have some other reasons. I think the tech comm blogosphere has also become less active. There aren't as many people reading and commenting on blog posts as in previous years. I haven't measured this decline &mdash; it's just a general sense I've felt. More people have moved into [podcasting](/technical-writing-podcasts/) than blogging. Podcasting actually seems like it hit a resurgence, though I often struggle to be engaged by tech comm podcasts.
 
-Another reason for writing less might be due to my move and transition. For a few months, I prioritized ramping up in my new role over anything extracurricular. There was also a tremendous amount of adjustment to make in moving to Seattle. Then after I ramped up and settled in, I had gotten out of y writing rhythm.
+Another reason for writing less might be due to my move and transition. For a few months, I prioritized ramping up in my new role over anything extracurricular. There was also a tremendous amount of adjustment to make in moving to Seattle. Then after I ramped up and settled in, I think I got out of my writing rhythm.
 
 Some of the fatigue could be attributed to the pandemic. I think many creatives experienced some burnout and dropped their normal productivity. This one is kind of perplexing. I've never felt a lack of topics to write about, and sometimes I go off-topic to pursue what interests me at the moment. I'd rather write about something I'm interested in, even if not tech-comm related, than not write at all. Presumably, all of us had more time as we worked from home. But to deny the creative burnout from the despair and endless isolation from the pandemic would be wrong. Sure, like others, the pandemic has worn on me as well.
 
