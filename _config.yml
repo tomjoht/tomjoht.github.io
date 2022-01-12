@@ -80,14 +80,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "restapicourse"
-    values:
-      layout: "page_restapicourse"
-      comments: true
-      search: true
-  -
-    scope:
-      path: ""
       type: "podcasts"
     values:
       layout: "itunes"
