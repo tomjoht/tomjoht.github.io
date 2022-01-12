@@ -10,10 +10,9 @@ Beside [my podcasts](/category-podcasts/) and the [WTD podcasts](/category-wtd-p
 
 {% for item in site.data.recommended_podcasts.podcasts %}
 
-<a href="{{item.url}}"><img class="recommendedPodcasts" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/{{item.img}}" alt="{{item.title}}"/></a>
+<a href="{{item.url}}"><img alt="{{item.title}}" class="recommendedPodcasts" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/{{item.img}}" alt="{{item.title}}"/></a>
 
 {% endfor %}
-
 
 <div style="clear: both;"></div>
 
