@@ -117,6 +117,10 @@
     {% assign sidebarTitle = "Pandemic-related posts" %}
     {% assign sidebar = site.data.sidebar_pandemic.entries %}
 
+    {% elsif page.jtype == "workplace_influence" %}
+    {% assign sidebarTitle = "A hypothesis about influence on the web and the workplace" %}
+    {% assign sidebar = site.data.sidebar_workplace_influence.entries %}
+
     {% endif %}
 
     <h3>{{sidebarTitle}}</h3>
