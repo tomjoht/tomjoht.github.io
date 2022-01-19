@@ -16,7 +16,7 @@ date: 2022-01-17 02:00:000000000 -07:00
 
 Note: This post continues the series "A hypothesis about influence on the web and the workplace." See the previous post before continuing here.
 
-Before diving into what might work in the workplace, let's look at a few aspects related to content production on the web.
+Before diving into what might work in the workplace, let's look at a few aspects related to content production on the web. Although these techniques all seem basic, when I later turn my attention to the workplace, you'll see that almost none of them are followed.
 
 ## Building an audience
 
@@ -52,9 +52,9 @@ It can be annoying to be bombarded with prompts to subscribe to a newsletter. On
 
 When I look at my [site's analytics](//blog/2021-site-analytics-reflections), it appears that nearly everyone is practically a first-time visitor. Additionally, when I share links to new posts on social media, I typically get about 25 clicks from sharing the links on Twitter and Linkedin. But when I send out a newsletter to 6,000+ technical writers with the links, I see 10x the number of clicks. By tracking links, I've quickly realized that newsletters are, in fact, a powerful way to reach an audience and bring them back to you site.
 
-### Analyze your analytics
+### Look at your analytics
 
-The final basic tip for influence is to pay attention to analytics. When you send out links to new content, include link trackers. I use Rebrandly, but you could use many other services (for example, Bitly) that will give you feedback about who is clicking the links to the content. It's easy to see what topics are interesting to people based on these clicks.
+The final tip for influence is to look at your analytics. When you send out links to new content, include link trackers. I use Rebrandly, but you could use many other services (for example, Bitly) that will give you feedback about who is clicking the links to the content. It's easy to see what topics are interesting to people based on these clicks.
 
 Additionally, your site should have analytics tracking, such as Google Analytics, to give you more details about popular pages on your site, incoming landing pages, demographics, and more. Analytics gives you unspoken feedback about your content. You can see how popular content is by merely looking at how many people clicked a link or visited a page. Without that feedback, you're often writing in the dark. The feedback doesn't mean you should pursue topics that are more popular, because sometimes you achieve high hits from random topics (like this [grasshopper post](/2007/07/31/grasshoppers-that-look-like-aliens/), which at one time was my most popular post, but I certainly wasn't going to write more about grasshoppers).
 
