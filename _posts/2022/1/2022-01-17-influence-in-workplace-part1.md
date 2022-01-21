@@ -1,5 +1,5 @@
 ---
-title: "Part 1: Introduction to web influencers"
+title: "Part 1: Introduction to influence on the web"
 permalink: /web-and-workplace-influence/part1-introduction-to-influencers.html
 categories:
 - technical-writing

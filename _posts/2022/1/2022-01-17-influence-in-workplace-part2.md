@@ -52,7 +52,7 @@ It can be annoying to be bombarded with prompts to subscribe to a newsletter. On
 
 When I look at my [site's analytics](//blog/2021-site-analytics-reflections), it appears that nearly everyone is practically a first-time visitor. Additionally, when I share links to new posts on social media, I typically get about 25 clicks from sharing the links on Twitter and Linkedin. But when I send out a newsletter to 6,000+ technical writers with the links, I see 10x the number of clicks. By tracking links, I've quickly realized that newsletters are, in fact, a powerful way to reach an audience and bring them back to you site.
 
-### Look at your analytics
+### Track your analytics
 
 The final tip for influence is to look at your analytics. When you send out links to new content, include link trackers. I use Rebrandly, but you could use many other services (for example, Bitly) that will give you feedback about who is clicking the links to the content. It's easy to see what topics are interesting to people based on these clicks.
 

@@ -117,3 +117,5 @@ Adam, Ben. [I took a job at Amazon, only to leave after 10 months](https://benad
 Reina, Christopher S., et al. "Quitting the boss? The role of manager influence tactics and employee emotional engagement in voluntary turnover." Journal of leadership & organizational studies 25.1 (2018): 5-18.
 
 Ki, Chung‐Wha ‘Chloe, and Youn‐Kyung Kim. "The mechanism by which social media influencers persuade consumers: The role of consumers’ desire to mimic." Psychology & Marketing 36.10 (2019): 905-922
+
+Cole, Myra LaVenue. An analysis of the corporate newsletter as a form of internal and external communication. Diss. New York University, 1993.
