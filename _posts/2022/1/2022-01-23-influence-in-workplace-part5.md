@@ -4,17 +4,19 @@ permalink: /web-and-workplace-influence/part5-finding-a-focus.html
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/2021analytics
-description: ""
-published: false
-weight: 4
+rebrandly: https://idbwrtng.com/workplaceinfluence5
+description: "In the previous post, I debated about what type of content engages an audience, and what type of content engages the writer. I concluded that the thinking/writing process is probably more valuable than the subject, but also that the subject should be something you're drawn to because you'll be most productive being in that space. In this section, I'll get a little more down-to-earth about my audience and focus."
+weight: 5
 tags: workplace_influence
-series: "A hypothesis about influence on the web and the workplace:"
-jtype: notes_layoff_reflections
-date: 2022-01-17 03:00:000000000 -07:00
+series: "A hypothesis about influence on the web and the workplace"
+jtype: notes_workplace_influence
+date: 2022-01-23 03:00:000000000 -07:00
+published: false
 ---
 
-In the previous post, I debated about what type of content engages an audience, and what type of content engages the writer. I concluded that the thinking/writing process is probably more valuable than the subject, but also that the subject should be something you're drawn to because you'll be most productive being in that space. In this section, I'll get a little more down-to-earth about my audience and focus.
+{{site.data.alerts.note}}This post continues the series "A hypothesis about influence on the web and the workplace." See the lists of posts in the sidebar for more context. {{site.data.alerts.end}}
+
+
 
 ### Audience and focus
 
@@ -107,15 +109,3 @@ emerging tech as a common uniter?
 what if you were to send a weekly update. not meeting notes, but a weekly update the summarizes the biggest issues of the week? might be more efficient.
 
 ## Works cited
-
-McQuarrie, Edward F., Jessica Miller, and Barbara J. Phillips. "The megaphone effect: Taste and audience in fashion blogging." Journal of Consumer Research 40.1 (2013): 136-158.
-
-Tran, S.K. Google: a reflection of culture, leader, and management. Int J Corporate Soc Responsibility 2, 10 (2017). https://doi.org/10.1186/s40991-017-0021-0
-
-Adam, Ben. [I took a job at Amazon, only to leave after 10 months](https://benadam.me/thoughts/my-experience-at-amazon/). https://benadam.me/. Dec 3, 2021
-
-Reina, Christopher S., et al. "Quitting the boss? The role of manager influence tactics and employee emotional engagement in voluntary turnover." Journal of leadership & organizational studies 25.1 (2018): 5-18.
-
-Ki, Chung‐Wha ‘Chloe, and Youn‐Kyung Kim. "The mechanism by which social media influencers persuade consumers: The role of consumers’ desire to mimic." Psychology & Marketing 36.10 (2019): 905-922
-
-Cole, Myra LaVenue. An analysis of the corporate newsletter as a form of internal and external communication. Diss. New York University, 1993.

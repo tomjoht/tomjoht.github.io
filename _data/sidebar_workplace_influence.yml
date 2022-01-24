@@ -2,11 +2,21 @@ entries:
 - title: Sidebar
   subcategories:
 
-    - title: Pandemic-related posts
+    - title: A hypothesis about influence on the web and the workplace
       items:
-        - title: ""
-          url: /blog//
-        - title: ""
-          url: /blog//
-        - title: ""
-          url: /blog//
+        - title: "Part 1: Introduction to influence on the web"
+          url: /web-and-workplace-influence/part1-introduction-to-influencers.html
+
+        - title: "Part 2... (coming soon)"
+        - title: "Part 3... (coming soon)"
+        - title: "Part 4... (coming soon)"
+        - title: "Part 5... (coming soon)"
+
+        # - title: "Part 2: Initial attempts and failures with workplace content"
+        #   url: /web-and-workplace-influence/part2-failure-with-initial-attempts.html
+        # - title: "Part 3: Five basics for building a successful website"
+        #   url: /web-and-workplace-influence/part3-tools-of-web-influence.html
+        # - title: "Part 4: Creating engaging content"
+        #   url: /web-and-workplace-influence/part4-creating-engaging-content.html
+        # - title: "Part 5: Finding a focus"
+        #   url: /web-and-workplace-influence/part5-finding-a-focus.html

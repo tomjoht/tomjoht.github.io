@@ -806,6 +806,10 @@ h2 code {
     text-decoration: underline
 }
 
+.alert {
+  margin-top: 20px;
+}
+
 body {
     font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;

@@ -1,22 +1,22 @@
 ---
-title: "Part 4: Creating engaging content, and personal engagement"
+title: "Part 4: Creating engaging content"
 permalink: /web-and-workplace-influence/part4-creating-engaging-content.html
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/2021analytics
-description: ""
-published: false
-weight: 3
+rebrandly: https://idbwrtng.com/workplaceinfluence4
+description: "In the previous post, I explained some web fundamentals, such as having a website, learning SEO, capturing subscribers to your newsletter, and so on. However, given that documentation reports and meeting notes failed to engage my readers, I wondered about the key ingredient to influence: engaging content. What types of content will readers find engaging? This turns out to be a complex question."
+weight: 4
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
-jtype: notes_layoff_reflections
-date: 2022-01-17 03:00:000000000 -07:00
+jtype: notes_workplace_influence
+date: 2022-01-23 03:00:000000000 -07:00
+published: false
 ---
 
-## Create engaging content
+{{site.data.alerts.note}}This post continues the series "A hypothesis about influence on the web and the workplace." See the lists of posts in the sidebar for more context. {{site.data.alerts.end}}
 
-In the previous post, I explained how documentation reports and meeting notes failed to engage any readers. So let's talk about the key ingredient to influence: engaging content. What types of content will readers find engaging? This turns out to be a complex question.
+## Create engaging content
 
 The time-worn wisdom for content creation on the web is to create content you find engaging and let that audience who is also engaged by the same content naturally find you. Charles Lawrence pointed this principle out [on a recent Linkedin thread](https://www.linkedin.com/feed/update/urn:li:activity:6884191526428250114?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6884191526428250114%2C6884200424472109056%29) from a post I shared. Charles says,
 
@@ -98,3 +98,13 @@ In thinking about subjects to write about, one final factor might decide the top
 ## Conclusion
 
 Finding the right focus might be a balance of all of the above. Like the advice everyone gives about careers: Find something that interests you but which can also pay the bills. The same might be said for content focus -- find something that interests you but which also has enough dividends for the effort to be worth it.
+
+## References
+
+Adam, Ben. [I took a job at Amazon, only to leave after 10 months](https://benadam.me/thoughts/my-experience-at-amazon/). https://benadam.me/. Dec 3, 2021
+
+Cole, Myra LaVenue. An analysis of the corporate newsletter as a form of internal and external communication. Diss. New York University, 1993.
+
+Reina, Christopher S., et al. "Quitting the boss? The role of manager influence tactics and employee emotional engagement in voluntary turnover." Journal of leadership & organizational studies 25.1 (2018): 5-18.
+
+Tran, S.K. Google: a reflection of culture, leader, and management. Int J Corporate Soc Responsibility 2, 10 (2017). https://doi.org/10.1186/s40991-017-0021-0
