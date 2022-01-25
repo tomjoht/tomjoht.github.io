@@ -29,7 +29,7 @@ I sent monthly doc reports diligently for about six months, and meeting notes af
 * New articles published in the developer portal
 * Metrics and analysis about page and site traffic
 * Notes about writing efforts and experiments
-* Documentation needs and requests from partner groups
+* Documentation needs and requests from partner-facing groups
 
 Meeting notes contained summaries of the issues discussed, intended for someone who might not be familiar with the topics or discussion.
 
@@ -49,9 +49,9 @@ I also started to rethink the readership of my [documentation reports](/learnapi
 
 While thinking about whether doc reports and meeting notes were having any engagement, someone pointed out the shortcomings of email as a communication channel within companies. Many people's inboxes were just streams of unread emails from the dozens of lists or groups they followed.
 
-For example, one time an engineer shared his screen during a meeting, and for a brief few seconds his email appeared on screen -- it was nothing but endless unread email. Many people seem to use Chat exclusively for times they want a response. This engineer in particular preferred to communicate over chat and the issue tracking system.
+For example, one time an engineer shared his screen during a meeting, and for a brief few seconds his email appeared on screen -- it was nothing but endlessly unread email. Many people seem to use chat tools exclusively for times they want a response. This engineer in particular preferred to communicate over chat tools and our issue tracking system.
 
-Email tends to get overused in corporations as a means of communicating everything. In my personal email, I get about 20 messages a day. In my work email, I get at least 200 messages a day, if not more. I subscribe to a lot of different groups, most of which are filtered into various folders automatically and skip my inbox. But even my inbox is a firehose of incoming information. If I see an email in the evening, chances are I can't find it in the morning. If an email arrives in the morning, I probably can't locate it in the afternoon. It's really that bad, and I don't even receive the amount of email that others do. To stay in the loop, we over-subscribe to email channels and end up being flooded with information.
+Email tends to get overused in corporations as a means of communicating everything. In my personal email, I get about 20 messages a day. In my work email, I get at least 200 messages a day, if not more. I subscribe to a lot of different groups, most of which are filtered into various folders automatically and skip my inbox. But even my inbox is a firehose of incoming information. If I see an email in the evening, chances are I'll have trouble finding it in the morning. If an email arrives in the morning, I probably struggle to locate it in the afternoon. It's really that bad, and I don't even receive the amount of email that others do. To stay in the loop, we over-subscribe to email channels and end up being flooded with messages.
 
 ## What happened to everything I'd learned on the web?
 
