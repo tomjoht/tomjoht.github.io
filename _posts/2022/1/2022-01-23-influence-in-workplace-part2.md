@@ -4,7 +4,7 @@ permalink: /web-and-workplace-influence/part2-failure-with-initial-attempts.html
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/workplaceinfluence3
+rebrandly: https://idbwrtng.com/workplaceinfluence2
 description: "In my <a href='/web-and-workplace-influence/part1-introduction-to-influencers.html'>previous post</a>, I explained that anyone can create content and broadcast it on the web, gathering up an audience and building a reputation of expertise. I wondered if these techniques could be implemented in the workplace. In my initial attempt to create content in the workplace, I focused on two efforts: (1) creating documentation reports and (2) sharing meeting notes. The efforts sort of failed because I neglected some web fundamentals."
 weight: 2
 tags: workplace_influence
