@@ -76,7 +76,7 @@ In addition to creating engaging, story-driven content, influencers must have re
 
 With the proliferation of smartphones, people are reading and consuming content more than ever. The next time you're waiting somewhere (on a train, in a line, at a cafe), lift your head up to see what everyone else is doing while waiting -- chances are, they're staring at their phones, consuming content. Influencers have to produce content in a continual way to keep the audience's attention. Capturing the audience's attention becomes more difficult as content sources expand online.
 
-## Enjoyment of the content creation activity itself
+## Enjoyment of the content creation activity itself {#enjoyment}
 
 Because of the need to constantly create content, often with little tangible reward, influencers must be driven by more than calculated motives for influence. What drives someone to write a new blog post, week after week, year after year, without experiencing creative burnout? To be sustainable in the long run, influencers must find enjoyment in the content creation activity itself, without any external rewards.
 

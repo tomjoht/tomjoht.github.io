@@ -57,3 +57,7 @@ You also can't search for the newsletter content on corporate search engines. If
 Despite the shortcomings of the newsletter format, I think it's important to leverage standard formats that are recognized as valid sources of information sharing in companies. Blogs aren't common within companies, but newsletters are. Is there really a difference? I'd argue that a good newsletter, one that communicates substantial information in candid ways, could move beyond the corporate limitations of email inbox delivery and intransigence and be hosted on an internal site, highly similar to a blog.
 
 The problem with the word "blog" is that many people interpret blogs as casual diaries about the mundane aspects of lives no one cares about. In reality, the web is full of all kinds of sites, from the mundane self-focused blogs like I described to websites that seem more like online magazines or information centers than anything else.
+
+## References
+
+Cole, Myra LaVenue. [An analysis of the corporate newsletter as a form of internal and external communication.](https://www.proquest.com/openview/4afa9fd89bdf17a3298db2eccbb38526/1?pq-origsite=gscholar&cbl=18750&diss=y) Diss. New York University, 1993.
