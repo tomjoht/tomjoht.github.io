@@ -10,7 +10,7 @@ weight: 2
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
 jtype: notes_workplace_influence
-date: 2022-01-23 02:00:000000000 -07:00
+date: 2022-01-24 02:00:000000000 -07:00
 ---
 
 {{site.data.alerts.note}}This post continues the series "A hypothesis about influence on the web and the workplace." See the lists of posts in the sidebar for more context. {{site.data.alerts.end}}
