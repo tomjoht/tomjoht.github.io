@@ -78,6 +78,9 @@ topnav_dropdowns:
 
   - title: Series
     items:
+      - title: A hypothesis about influence on the web and the workplace
+        url: /web-and-workplace-influence/part1-introduction-to-influencers.html
+        
       - title: Reflecting seven years later about why we were laid off
         url: /blog/reflecting-seven-years-later-about-layoff-intro/
 
