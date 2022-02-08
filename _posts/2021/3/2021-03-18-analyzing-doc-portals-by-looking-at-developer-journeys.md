@@ -28,7 +28,7 @@ Ellis says that when [Bob Watson](https://docsbydesign.com/) and [Emmelyn Wang](
 >
 > So you go down through the journey at each point identifying any issues with navigation, accessibility, comprehension.
 
-I like this approach. It's given me food for thought given my previous articles on [Measuring progress against documentation quality goals](/learnapidoc/docapis_measuring_impact.html). My approach to measuring documentation quality was to analyze an API doc portal against quality measures that include findability, accuracy, relevance, clarity, completeness, and readability (see [First-level checklist for API documentation](/learnapidoc/docapis_metrics_first_level_checklist.html)).
+I like this approach. It's given me food for thought given my previous articles on [Measuring progress against documentation quality goals](/learnapidoc/docapis_measuring_impact.html). My approach to measuring documentation quality was to analyze an API doc portal against quality measures that include findability, accuracy, relevance, clarity, completeness, and readability (see [Quality checklist for API documentation](/learnapidoc/docapis_quality_checklist.html).
 
 However, I think that another approach, perhaps a better one, might be to analyze documentation quality against the developer journey, as Ellis and others explain. This developer-journey approach would require you to first define that developer journey, though. And understanding that journey might not be straightforward &mdash; there might be many different developer journeys once developers get past the initial steps of signing up and authorizing an API call.
 

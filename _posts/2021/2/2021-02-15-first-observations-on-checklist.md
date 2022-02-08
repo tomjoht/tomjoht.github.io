@@ -11,9 +11,11 @@ rebrandly: https://idbwrtng.com/checklistobservations
 
 ## Observation 1: Two levels for checklists
 
-Many characteristics for docs can only be assessed when you're much more familiar with the docs. For example, you can't know if the steps are accurate unless you go through the steps. You can't know if the docs are consistent unless you've read all the documentation. You can't know if the code works unless you can run it in a test environment. It might take more than a year working with the docs to be able to make these kinds of assessments. In fact, you can't even tell if screenshots or other visuals are accurate without more familiarity. Because of this, I separated the checklist into a [first-level checklist](/learnapidoc/docapis_metrics_first_level_checklist) and a [second-level checklist](/learnapidoc/docapis_metrics_second_level_checklist).
+Many characteristics for docs can only be assessed when you're much more familiar with the docs. For example, you can't know if the steps are accurate unless you go through the steps. You can't know if the docs are consistent unless you've read all the documentation. You can't know if the code works unless you can run it in a test environment. It might take more than a year working with the docs to be able to make these kinds of assessments. In fact, you can't even tell if screenshots or other visuals are accurate without more familiarity. Because of this, I separated the checklist into a first-level checklist and a second-level checklist.
 
 The first-level checklist identifies criteria that you can evaluate without much familiarity with the content. For example, you can see if there's a getting started tutorial, a product overview, code samples, etc. Then later, in the second-level checklist, you can assess whether the instructions are consistent from topic to topic, whether the code in the tutorials matches any sample apps available, whether the terms listed in the glossary match usage in the docs, and so on.
+
+**Feb 8, 2022 update:** I consolidated the checklists into a [single checklist](/learnapidoc/docapis_quality_checklist.html). See [Updated Metrics and Measurement section in API course to remove quantification](/blog/updated-api-measurement-section) for details.
 
 ## Observation 2: Limit the scope
 
@@ -23,7 +25,7 @@ Another realization: Developer portals are collaborative spaces where a lot of d
 
 Although one of my motivations was to create metrics around quality, as I did an initial assessment of the docs I'm working on, I found that the checklist does a wonderful job in opening up a critical view and analysis of the documentation. It opens up a more critical perspective that lets you slice up different dimensions and aspects of the docs. Regardless of whether the scoring and quantitative metrics goes anywhere, the set of characteristics provides an incisive way to investigate doc quality.
 
-If you're looking to audit a site and get a sense of what should be improved, try going through the [checklist of questions](/learnapidoc/docapis_metrics_first_level_checklist.html). You'll have a lot to think about this way, and it provides a more structured approach than random observations.
+If you're looking to audit a site and get a sense of what should be improved, try going through the [checklist of questions](/learnapidoc/docapis_quality_checklist.html). You'll have a lot to think about this way, and it provides a more structured approach than random observations.
 
 ## Observation 4: Quality varies from topic to topic
 
@@ -33,9 +35,11 @@ This is probably why so many writers dismiss metrics and user feedback. If users
 
 ## Observation 5: Copying this web page into a Google Doc requires a lot of reformatting
 
-I originally copied the list of criteria into a Google Doc so that I could write my observations for each item, but then I had to do a lot of reformatting. I also realized that tallying up scores was tedious in a Google Doc document. As a result, I created [two templates for working with metrics](/learnapidoc/docapis_metrics_templates.html). I created a simple HTML doc that can be easily pasted into Google Docs or Microsoft Word where you can add more narrative assessments. I also created a spreadsheet (CSV file) that has scoring logic &mdash; you can import it into Google Docs or Microsoft Excel.
+I originally copied the list of criteria into a Google Doc so that I could write my observations for each item, but then I had to do a lot of reformatting. I also realized that tallying up scores was tedious in a Google Doc document. As a result, I created two templates for working with metrics](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_metrics_templates.md). I created a simple HTML doc that can be easily pasted into Google Docs or Microsoft Word where you can add more narrative assessments. I also created a spreadsheet (CSV file) that has scoring logic &mdash; you can import it into Google Docs or Microsoft Excel.
 
-The spreadsheet has some formulas under the hood that multiply the score by weight and also calculate the overall score against the total possible score. (Don't get too excited about the formulas &mdash; I'm not a spreadsheet maven, and the logic is really simple. However, these templates are [single-sourced from a YAML file in my Jekyll site](/learnapidoc/docapis_metrics_templates.html#behind-the-scenes). This is the first time I've generated out a spreadsheet from YAML content. It's surprisingly easy to do in Jekyll &mdash; see the [source logic here](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_metrics_first_level_checklist_csv.csv).)
+The spreadsheet has some formulas under the hood that multiply the score by weight and also calculate the overall score against the total possible score. (Don't get too excited about the formulas &mdash; I'm not a spreadsheet maven, and the logic is really simple. However, these templates are [single-sourced from a YAML file in my Jekyll site](https://github.com/tomjoht/learnapidoc/blob/main/_docs/metrics_and_measurement/docapis_metrics_templates.md). This is the first time I've generated out a spreadsheet from YAML content. It's surprisingly easy to do in Jekyll.
+
+**Feb 8, 2022 update:** I retired this approach to metrics because it didn't work well. See [Updated Metrics and Measurement section in API course to remove quantification](/blog/updated-api-measurement-section) for details.
 
 ## Observation 6: Weighting shouldn't be ignored
 

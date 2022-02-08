@@ -1,5 +1,5 @@
 ---
-title: "Results of the survey about fizzled trends"
+title: "Results of the survey about fizzled trends: Every trend is still with us"
 permalink: /blog/results-of-fizzled-trends-survey
 categories:
 - technical-writing
@@ -35,6 +35,8 @@ Now, to the conclusion. Everything that was ever a trend is still a common pract
 But tech comm has long struggled with plurality. This is one reason why the [STC Summit](https://summit.stc.org/) is such a challenging conference. There are as many different tracks as there are emphases in the field: usability, information architecture, content strategy, management, API documentation, academic fields, corporate communication, rhetoric, medical/science writing, tooling, hardware documentation, community building, knowledge management, and more. This is one reason why the [WTD conferences](https://www.writethedocs.org/conf/index.html) focus more on software documentation.
 
 Given that the tech comm field casts such a wide umbrella, it's no wonder that all of these trends would still find a home and place by different groups in different domains. But it is perplexing to think that trends don't come and go; they stick around gum on the sidewalk. You never really get rid of it. It just blends in to the cement.
+
+One reassuring aspect of this conclusion is that you most likely won't be left behind in the trends game. Maybe you're not working in docs-as-code and building your output on the fly from the command line. Maybe you're still working in Microsoft Word. You know what? So are lots of other people!
 
 ## Where this leaves me
 
