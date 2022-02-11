@@ -3,9 +3,14 @@ title: "Megacomm recording: How to increase awareness of tech comm inside corpor
 permalink: /blog/megacomm-presentation-increase-awareness-of-tech-comm
 categories:
 - technical-writing
+- podcasts
 keywords:
 rebrandly: https://idbwrtng.com/visandinfluencepreso
 description: "I recently gave a presentation called <i>How to increase awareness of tech comm inside corporate walls</i> at the <a href='https://megacomm.org'>Megacomm conference</a>, which is a conference for tech comm professionals in Israel. The recording, slides, and description of my presentation is available below."
+podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/megacomm_preso2022.mp3
+podcast_file_size: 41.4 MB
+podcast_duration: "52:55"
+podcast_length: 41440077
 ---
 
 ## Presentation description
@@ -20,6 +25,12 @@ description: "I recently gave a presentation called <i>How to increase awareness
 ## Video recording
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/1ljut_dRPdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Audio only
+
+If you just want the audio, here it is:
+
+{% include audio.html %}
 
 ## Slides
 
