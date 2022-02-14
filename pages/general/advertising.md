@@ -127,13 +127,14 @@ Each product review post is clearly identified as a sponsored post. I also get y
 
 Here are some sample product reviews I wrote previously:
 
-* [Using Oxygen XML with docs-as-code workflows](https://idratherbewriting.com/learnapidoc/pubapis_oxygenxml.html)
-* [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](https://idratherbewriting.com/learnapidoc/pubapis_openapis_quickstart_stoplight.html)
-* [Paligo: Structured Authoring and Component Content Management made easy](https://idratherbewriting.com/blog/paligo-structured-authoring-xml-ccms)
-* [An in-depth look at MadCap Flare 2021’s New Markdown Import Feature](https://idratherbewriting.com/blog/madcap-import-feature-madcap-flare-release-2021/)
-* [Technical writing course Q&A -- 'Become a Technical Writer', with Bobby Kennedy](https://idratherbewriting.com/blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/)
-* [Videocast: Micro content and Flare -- Conversation with Kate Schneider](https://idratherbewriting.com/blog/micro-content-and-flare-conversation-with-kate-schneider/)
-* [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](https://idratherbewriting.com/blog/xeditor-question-and-answer/)
+* [Archbee product review -- first look at a new online platform for writing and managing documentation](/blog/archbee-product-review.html)
+* [Using Oxygen XML with docs-as-code workflows](/learnapidoc/pubapis_oxygenxml.html)
+* [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](/learnapidoc/pubapis_openapis_quickstart_stoplight.html)
+* [Paligo: Structured Authoring and Component Content Management made easy](/blog/paligo-structured-authoring-xml-ccms)
+* [An in-depth look at MadCap Flare 2021’s New Markdown Import Feature](/blog/madcap-import-feature-madcap-flare-release-2021/)
+* [Technical writing course Q&A -- 'Become a Technical Writer', with Bobby Kennedy](/blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/)
+* [Videocast: Micro content and Flare -- Conversation with Kate Schneider](/blog/micro-content-and-flare-conversation-with-kate-schneider/)
+* [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](/blog/xeditor-question-and-answer/)
 * [Connecting micro content with search analytics -- notes on the first MadCap Flare and MadCap Central 2020 Release](/blog/connect-micro-content-with-search-analytics/)
 * [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](/learnapidoc/pubapis_redocly.html)
 * [How does Document360 handle challenges with API documentation?](/blog/document-360-review/)
