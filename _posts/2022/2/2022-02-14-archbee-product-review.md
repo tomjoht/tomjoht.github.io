@@ -4,7 +4,7 @@ permalink: /blog/archbee-product-review.html
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/archbeeproductreview
 description: "<a href='http://archbee.io/' rel='nofollow'>Arcbhee.io</a> is a new online documentation platform with a lightweight, fast editor that makes it easy to write and manage documentation, knowledge bases, or other company information. Archbee has some unique features that make it worth exploring &mdash; especially if you create web API or GraphQL documentation. Their editor is one that you can easily fall in love with and is the centerpiece of the product. The whole authoring platform feels extremely responsive, modern, and web-friendly. If you're shopping around for documentation tools, I definitely recommend checking out Archbee."
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Part 6: The newsletter as the social content of corporations"
-permalink: /web-and-workplace-influence/part4-newsletter-content-medium.html
+permalink: /web-and-workplace-influence/part6-newsletter-content-medium.html
 categories:
 - technical-writing
 keywords:
@@ -10,6 +10,8 @@ weight: 6
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
 jtype: notes_workplace_influence
+redirect_from:
+- https://idratherbewriting.com/web-and-workplace-influence/part4-newsletter-content-medium.html
 ---
 
 {{site.data.alerts.note}}This post continues the series "A hypothesis about influence on the web and the workplace." See the lists of posts in the sidebar for more context. {{site.data.alerts.end}}
