@@ -12,7 +12,7 @@ description: "Last week I <a href='https://idratherbewriting.com/blog/trends-tha
 
 Here's the [dashboard of results](https://www.questionpro.com/t/7BnU7DZq7kM) from 263 respondents:
 
-<a href="https://www.questionpro.com/t/7BnU7DZq7kM"><img style="max-width:900px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/fizzledtrendsresults.png" alt="Results of survey about fizzled trends" /></a>
+<a href="https://www.questionpro.com/t/7BnU7DZq7kM"><img style="max-width:800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/fizzledtrendsresults.png" alt="Results of survey about fizzled trends" /></a>
 
 Try to think of something that is no longer a tech comm trend, and people will be like, "I still do that!" "I still use that!" For example, in a WTD Slack thread, I said surely no one is still creating CHM files. And of course someone immediately replied that just that morning, a client had asked for a CHM file.
 
