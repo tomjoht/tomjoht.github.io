@@ -6,7 +6,7 @@ categories:
 - podcasts
 keywords:
 rebrandly: https://idbwrtng.com/visandinfluencepreso
-description: "I recently gave a presentation called <i>How to increase awareness of tech comm inside corporate walls</i> at the <a href='https://megacomm.org'>MEGAComm conference</a>, which is a conference for tech comm professionals in Israel. The recording, slides, and description of my presentation is available below."
+description: "I recently gave a presentation called <i>How to increase awareness of tech comm inside corporate walls</i> at the <a href='https://megacomm.org'>MEGAComm 2022 conference</a>, which is a conference for tech comm professionals in Israel. The recording, slides, and description of my presentation are available below."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/megacomm_preso2022.mp3
 podcast_file_size: 41.4 MB
 podcast_duration: "52:55"
