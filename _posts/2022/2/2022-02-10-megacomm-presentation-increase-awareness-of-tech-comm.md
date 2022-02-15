@@ -1,12 +1,12 @@
 ---
-title: "Megacomm recording: How to increase awareness of tech comm inside corporate walls"
+title: "MEGAComm recording: How to increase awareness of tech comm inside corporate walls"
 permalink: /blog/megacomm-presentation-increase-awareness-of-tech-comm
 categories:
 - technical-writing
 - podcasts
 keywords:
 rebrandly: https://idbwrtng.com/visandinfluencepreso
-description: "I recently gave a presentation called <i>How to increase awareness of tech comm inside corporate walls</i> at the <a href='https://megacomm.org'>Megacomm conference</a>, which is a conference for tech comm professionals in Israel. The recording, slides, and description of my presentation is available below."
+description: "I recently gave a presentation called <i>How to increase awareness of tech comm inside corporate walls</i> at the <a href='https://megacomm.org'>MEGAComm conference</a>, which is a conference for tech comm professionals in Israel. The recording, slides, and description of my presentation is available below."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/megacomm_preso2022.mp3
 podcast_file_size: 41.4 MB
 podcast_duration: "52:55"
@@ -40,6 +40,6 @@ If you just want the audio, here it is:
 
 For a series of posts on this topic, see [A hypothesis about influence on the web and the workplace](https://idratherbewriting.com/web-and-workplace-influence/part1-introduction-to-influencers.html).
 
-## Learn more about Megacomm
+## Learn more about MEGAComm
 
-To learn more about Megacomm, see [Megacomm.org](https://megacomm.org/).
+To learn more about MEGAComm, see [Megacomm.org](https://megacomm.org/).
