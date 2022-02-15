@@ -13,7 +13,7 @@ jtype: notes_workplace_influence
 date: 2022-01-23 01:00:000000000 -07:00
 ---
 
-{{site.data.alerts.note}}This post is the first in a multi-part series titled "A hypothesis about influence on the web and the workplace." I'll be publishing a new post in this series each day for the entire week. {{site.data.alerts.end}}
+{{site.data.alerts.note}}This post is the first in a multi-part series titled "A hypothesis about influence on the web and the workplace." I'll be publishing a new post in this series regularly until I reach about a dozen posts or so. To see a video presentation of the topic, see <a href='/blog/megacomm-presentation-increase-awareness-of-tech-comm'>MEGAComm recording: How to increase awareness of tech comm inside corporate walls</a>. {{site.data.alerts.end}}
 
 ## Introduction
 
