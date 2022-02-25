@@ -7,7 +7,6 @@ keywords:
 rebrandly: https://idbwrtng.com/trendsquickreferenceguides
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
-published: false
 ---
 
 ## Quick reference guides
