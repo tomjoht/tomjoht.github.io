@@ -7,7 +7,6 @@ keywords:
 rebrandly: https://idbwrtng.com/trendsscreencasting
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
-published: false
 ---
 
 ## What is screencasting?
@@ -20,7 +19,7 @@ Screencasts rose in popularity as YouTube came of age and people started promoti
 
 ## Why I abandoned screencasting
 
-As I moved into developer documentation, screencasts became less popular and relevant. At the first company where I started writing developer docs, I also did a series of code-tutorial videos. The product managers were ecstatic to have some code-based videos in their help library, but almost no users watched them or seemed to want them (according to the analytics). With developer docs, having [code samples](/2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/) was more helpful than videos. Code just doesn’t work great in screencasts. Screencasts work best with visually rich software interfaces, where it helps to see different elements on a screen.
+As I moved into developer documentation, screencasts became less popular and relevant. At the first company where I started writing developer docs, I also did a series of code-tutorial videos. The product managers were ecstatic to have some code tutorial videos in their help library, but almost no users watched them or seemed to want them (according to the analytics). With developer docs, having [code samples](/2014/05/30/creating-code-samples-webinar-recording-slides-and-audio/) was more helpful than videos. Code just doesn’t work great in screencasts. Screencasts work best with visually rich software interfaces, where it helps to see different elements on a screen.
 
 Further, many developers said they loathed videos because the medium didn’t allow them to easily scan and locate content. For them, it was an experience of having to patiently wait for a video to proceed while the developer waited/hoped/wondered if the narrator would get to a relevant detail that would address their specific question or concern.
 
