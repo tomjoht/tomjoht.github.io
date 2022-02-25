@@ -8,8 +8,8 @@ keywords:
 rebrandly: https://idbwrtng.com/resultsoffizzledsurvey
 description: "Last week I <a href='https://idratherbewriting.com/blog/trends-that-faded-survey'>posted a short survey</a> trying to identify trends that faded or fizzled. 263 people took the survey. As I was creating the survey, I thought there would be some clear trends that failed. To my surprise, I learned that anything that once surfaced as a documentation trend is still \"hanging in there\" as a common practice in the field. About the only thing you can say is that tech comm has become more fragmented, plural, diverse, and multifaceted than ever. There are superseded technologies, but apparently no non-trends."
 weight: 3
-# series: "Trends to follow or forget"
-# jtype: notes_fizzled_trends
+series: "Trends to follow or forget"
+jtype: notes_fizzled_trends
 ---
 
 ## Dashboard of results
