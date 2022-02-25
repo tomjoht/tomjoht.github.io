@@ -538,7 +538,7 @@ ul#mysidebar li.active a:hover {
 .search-hit-content {
     flex: auto;
     font-size: 70%;
-    line-height: 28px
+    line-height: 34px
 }
 
 .search-hit-content .ais-Highlight {
@@ -811,8 +811,7 @@ h2 code {
 }
 
 body {
-    font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 25px;
     color: #444;
 }
@@ -823,7 +822,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat, "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
     line-height: 1.25em
 }
@@ -872,7 +870,7 @@ p {
 }
 
 p {
-    line-height: 26px;
+    line-height: 34px;
 }
 
 .col-md-9 {
@@ -913,7 +911,6 @@ div.topComic img {
 .navbar-inverse {
     background-color: #f0f0f0;
     border-color: #dedede;
-    font-family: Merriweather, Helvetica
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -1032,7 +1029,6 @@ div.docSample {
 
 .dsq-widget-user,
 .recentComments .dsq-widget-comment {
-    font-family: Merriweather, Helvetica, sans-serif;
     display: block;
     font-size: 14px;
     text-decoration: none;
@@ -1042,13 +1038,11 @@ div.docSample {
 #dsq-combo-tab-people,
 #dsq-combo-tab-popular,
 .recentComments #dsq-combo-tab-recent {
-    font-family: Merriweather, Helvetica, sans-serif;
     font-size: 14px
 }
 
 .recentComments .dsq-clearfix a {
     text-decoration: none;
-    font-family: Merriweather, Helvetica, sans-serif;
     font-size: 14px
 }
 
@@ -1091,7 +1085,7 @@ div.docSample table tr {
 .col-md-9 ul li {
     margin-bottom: 20px;
     margin-top: 20px;
-    line-height: 28px
+    line-height: 34px
 }
 
 .col-md-9 .seriesContext ol li {
@@ -1143,7 +1137,7 @@ pre {
 .info,
 .note {
     margin: 15px 0;
-    line-height: 28px
+    line-height: 34px
 }
 
 span.ph.uicontrol {

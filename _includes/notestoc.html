@@ -121,6 +121,10 @@
     {% assign sidebarTitle = "A hypothesis about influence on the web and the workplace" %}
     {% assign sidebar = site.data.sidebar_workplace_influence.entries %}
 
+    {% elsif page.jtype == "notes_fizzled_trends" %}
+    {% assign sidebarTitle = "Trends to follow or forget" %}
+    {% assign sidebar = site.data.sidebar_fizzled_trends.entries %}
+
     {% endif %}
 
     <h3>{{sidebarTitle}}</h3>

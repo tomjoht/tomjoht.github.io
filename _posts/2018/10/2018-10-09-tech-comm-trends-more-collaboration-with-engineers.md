@@ -4,6 +4,7 @@ categories:
 - api-doc
 - simplifying-complexity
 - writing
+- academics-and-practitioners
 keywords:
 description: "Trends in technical communication can be hard to decipher, even when looking at data. But one underlying trend is that technology seems to be getting more specialized and complex. This trend toward specialization is driving up the value of technical knowledge, making it more prized than writing skills. To handle the complexity, technical writers must play increasingly collaborative roles with engineers to create documentation."
 bitlink: http://bit.ly/trendscollabwithengineers
@@ -106,7 +107,7 @@ In other words, he says the jobs haven’t disappeared, but the _roles, requirem
 
 Of the 65 respondents, about 53% of readers agree and 39% strongly agree with this statement (for a total of 92% agreement). But beyond the general role, requirements, and skills, exactly *what* is evolving in tech comm? Are we changing in positive ways to align with tomorrow's needs? More importantly, what kind of data supports this assertion about the evolution of the profession? We need to get much more specific here if our analysis of trends will be useful.
 
-## Looking at job advertisements to extrapolate the evolution of tech comm
+## Looking at job advertisements to extrapolate the evolution of tech comm {#jobads}
 
 To get a better picture of the role, requirements, and skills in demand, let's turn to some research based on an analysis of job advertisements. In "The Evolution of Technical Communication: An Analysis of Industry Job Postings" (Nov 2015 *Technical Communication Journal*), Eva Brumberger and Claire Lauer make an astute observation about determining trends. They say that by looking for patterns in job advertisements, you can see what employers are looking for and hence learn what skills and needs are trending in the industry. They write:
 
