@@ -23,7 +23,7 @@ As a new tech writer, I joined a company that used a HAT (RoboHelp) as its stand
 
 ## Why I abandoned HATs
 
-The context in which I was writing documentation changed. I started working in an organization that had a strong community effort, with lots of volunteers eager to help out by writing content. Literally, I was working for the IT department of the Mormon Church, and we had [hundreds of people eager to serve](2011/11/06/managing-60-volunteer-writers/) in whatever capacity they could. And guess what? Everyone can sort of write, right? :) Writing was seen as a near universal skill (in contrast to programming) where we could leverage volunteers' contributions on projects.
+The context in which I was writing documentation changed. I started working in an organization that had a strong community effort, with lots of volunteers eager to help out by writing content. Literally, I was working for the IT department of the Mormon Church, and we had [hundreds of people eager to serve](/2011/11/06/managing-60-volunteer-writers/) in whatever capacity they could. And guess what? Everyone can sort of write, right? :) Writing was seen as a near universal skill (in contrast to programming) where we could leverage volunteers' contributions on projects.
 
 To leverage these contributions, I needed a platform that would allow this wider community to create and share content in a scalable, free way. In short, I needed a [wiki](/trends/trends-to-follow-or-forget-wikis.html).
 
