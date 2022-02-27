@@ -246,7 +246,8 @@ div#toc ul {
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: gray
+    color: gray;
+    margin-top: 25px;
 }
 
 div#toc ul li ul {

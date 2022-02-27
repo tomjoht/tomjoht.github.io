@@ -6,7 +6,7 @@ categories:
 - innovation
 keywords:
 rebrandly: https://idbwrtng.com/resultsoffizzledsurvey
-description: "Last week I <a href='https://idratherbewriting.com/blog/trends-that-faded-survey'>posted a short survey</a> trying to identify trends that faded or fizzled. 263 people took the survey. As I was creating the survey, I thought there would be some clear trends that failed. To my surprise, I learned that anything that once surfaced as a documentation trend is still \"hanging in there\" as a common practice in the field. About the only thing you can say is that tech comm has become more fragmented, plural, diverse, and multifaceted than ever. There are superseded technologies, but apparently no non-trends."
+description: "Recently I <a href='https://idratherbewriting.com/blog/trends-that-faded-survey'>posted a short survey</a> trying to identify trends that faded or fizzled. About 300 people took the survey. As I was creating the survey, I thought there would be some clear trends that failed. To my surprise, I learned that anything that once surfaced as a documentation trend is still \"hanging in there\" as a common practice in the field. About the only thing you can say is that tech comm has become more fragmented, plural, diverse, and multifaceted than ever. There are superseded technologies, but apparently no non-trends."
 weight: 3
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
@@ -46,13 +46,13 @@ One reassuring aspect of this conclusion is that you most likely won't be left b
 
 Where does this leave me in terms of my presentation? Like I said, I initially wanted to gather some info about trends that fizzled, so that instead of looking at the current and future trends, I could look back in time and learn from trends that failed. Since no trends failed, the only pivot I could make is to analyze my own path through various trends. Rather than making an industry-wide statement about this or that trend fizzling and why, I can describe only my own reasons for following and then abandoning a trend.
 
-As I looked back through my blog (which started in 2006), I can trace my path through a number of trends. Some trends I embraced and continued, while others I abandoned. Here's a list of the personal trends I can draw a path through:
+As I looked back through my blog (which started in 2006), I can trace my path through a number of trends. Some trends I embraced and continued, while others I abandoned. Here's a list of the personal trends I can draw a path through (and which I'll explore in this series):
 
-1.  HATs and single-sourcing
-2.  Wikis and crowdsourcing
-3.  Faceted filtering
-4.  Screencasting
-5.  Quick reference guides
+1.  [HATs and single-sourcing](/trends/trends-to-follow-or-forget-hats.html)
+2.  [Wikis and crowdsourcing](/trends/trends-to-follow-or-forget-wikis.html)
+3.  [Faceted filtering](/trends/trends-to-follow-or-forget-faceted-filtering.html)
+4.  [Screencasting](/trends/trends-to-follow-or-forget-screencasting.html)
+5.  [Quick reference guides](/trends/trends-to-follow-or-forget-quick-reference-guides.html)
 6.  WordPress
 7.  DITA
 8.  Content strategy
@@ -68,10 +68,10 @@ I'm still refining this list, but I realized that I've been a constant experimen
 
 ## Upcoming presentation
 
-My new presentation description (still subject to change, planned for [STC India 2022](https://stc-india.org/conferences/2022/tom-johnson-keynote/)) is as follows:
+My new presentation description, planned for [STC India 2022](https://stc-india.org/conferences/2022/tom-johnson-keynote/), is as follows:
 
 > **Trends to follow or forget**
 >
 > When we focus on trends, we often look at the present and how current trends might affect our tech comm work. But we can also look in the opposite direction: at trends that faded or fizzled, and ask why. Looking at trends that faded, especially the reasons why, might help us better evaluate current trends. In this presentation, I’ll look at a number of tech comm trends that I’ve either followed or abandoned over the years, and why they failed for me. Sometimes the trends were superseded by better technologies, but other times they fizzled due to other reasons. Note that my tour through these trends focuses on personal reasons for following or forgetting trends rather than making objective assertions about mass-scale adoption or rejection across the industry.
 
-Stay tuned for additional posts that go into more details about each of the trends I listed.
+Follow the posts in this series (see the sidebar) to explore each of these trends in more depth.

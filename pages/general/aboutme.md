@@ -63,13 +63,9 @@ I like to keep an open mind and try new techniques and processes. Sometimes I c
 
 ## Why do you write so much?
 
-One of the most frequent questions people ask me is why I write so much, or how I find the time to write so much.
+One of the most frequent questions people ask me is why I write so much, or how I find the time to write so much. For answers to why I write, see this related post: [Why I'm So Visible](/2010/12/22/why-im-so-visible/).
 
-For answers to why I write, see this related post: [Why I'm So Visible](https://idratherbewriting.com/2010/12/22/why-im-so-visible/).
-
-As for the time, we all make time for our hobbies, right? Even writing 30 minutes every couple of days will lead to a couple of posts a week.
-
-My favorite quote about writing is by Erasmus, a 16th century Dutch renaissance humanist. He said:
+As for the time, we all make time for our hobbies, right? Even writing 30 minutes every couple of days will lead to a couple of posts a week. My favorite quote about writing is by Erasmus, a 16th century Dutch renaissance humanist. He said:
 
 > The desire to write grows with writing.
 
