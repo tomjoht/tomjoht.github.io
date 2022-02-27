@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.4.4)
+    activesupport (6.0.4.6)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -32,7 +32,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faraday (1.9.3)
+    faraday (1.10.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -245,15 +245,13 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.7.1)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.13.1)
-      mini_portile2 (~> 2.7.0)
+    nokogiri (1.13.3-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -298,7 +296,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-20
 
 DEPENDENCIES
   github-pages
@@ -309,4 +307,4 @@ DEPENDENCIES
   jekyll-seo-tag
 
 BUNDLED WITH
-   2.1.4
+   2.3.8

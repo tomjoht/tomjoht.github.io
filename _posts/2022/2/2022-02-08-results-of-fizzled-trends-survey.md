@@ -53,7 +53,7 @@ As I looked back through my blog (which started in 2006), I can trace my path th
 3.  [Faceted filtering](/trends/trends-to-follow-or-forget-faceted-filtering.html)
 4.  [Screencasting](/trends/trends-to-follow-or-forget-screencasting.html)
 5.  [Quick reference guides](/trends/trends-to-follow-or-forget-quick-reference-guides.html)
-6.  WordPress
+6.  [WordPress and web CMSs](/trends/trends-to-follow-or-forget-wordpress.html)
 7.  DITA
 8.  Content strategy
 9.  Agile and Scrum

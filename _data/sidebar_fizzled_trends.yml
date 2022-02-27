@@ -19,7 +19,8 @@ entries:
           url: /trends/trends-to-follow-or-forget-screencasting.html
         - title: Quick reference guides
           url: /trends/trends-to-follow-or-forget-quick-reference-guides.html
-        - title: WordPress (coming soon...)
+        - title: WordPress and web CMSs
+          url: /trends/trends-to-follow-or-forget-wordpress.html
 
         - title: DITA (coming soon...)
 
@@ -38,5 +39,3 @@ entries:
         - title: API documentation (coming soon...)
 
         - title: Remote work (coming soon...)
-
-
