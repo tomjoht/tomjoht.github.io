@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/trendsscreencasting
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
+description: "This post is part of a series on trends that explores trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on screencasting."
 ---
 
 ## What is screencasting?
@@ -25,8 +26,8 @@ Further, many developers said they loathed videos because the medium didn’t al
 
 ## Current status of screencasting
 
-Screencasts are still popular, especially for non-writers providing tips and tutorials on YouTube. Video has gained a lot of popularity for tutorial sites like Linkedin Learning (formerly Lynda.com), Safari Books, and other sites that teach users from the ground up. However, video-based documentation didn’t replace text-based documentation. Video continues to be time-consuming to create and inflexible to update over time. [Agile development](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) makes video content go out of date rather quickly. 
+Screencasts are still popular, especially for non-writers providing tips and tutorials on YouTube. Video has gained a lot of popularity for tutorial sites like Linkedin Learning (formerly Lynda.com), Safari Books, and other sites that teach users from the ground up. However, video-based documentation didn’t replace text-based documentation. Video continues to be time-consuming to create and inflexible to update over time. [Agile development](/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) makes video content go out of date rather quickly.
 
-Tech writers tend to be understaffed already, and the effort required to create screencasts often doesn’t match their time availability or interest. Corporations expect professional-grade results (rather than the many amateurish but still helpful videos on YouTube) yet many companies don’t want to invest the time or resources (such as providing a dedicated recording studio on site, or adding additional writers to allow for video-based deliverables). Additionally, many tech writers are more keen to write copy instead of engage in multimedia anyway. 
+Tech writers tend to be understaffed already, and the effort required to create screencasts often doesn’t match their time availability or interest. Corporations expect professional-grade results (rather than the many amateurish but still helpful videos on YouTube) yet many companies don’t want to invest the time or resources (such as providing a dedicated recording studio on site, or adding additional writers to allow for video-based deliverables). Additionally, many tech writers are more keen to write copy instead of engage in multimedia anyway.
 
-Finally, for documentation that is highly technical, screencasts tend to fail. Screencasts work better for simpler content that can be explained in plain language. At some point with technical content, it no longer becomes possible to communicate it in a conversational, natural way. 
+Finally, for documentation that is highly technical, screencasts tend to fail. Screencasts work better for simpler content that can be explained in plain language. At some point with technical content, it no longer becomes possible to communicate it in a conversational, natural way.

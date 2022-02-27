@@ -8,6 +8,7 @@ keywords: faceted filtering
 rebrandly: https://idbwrtng.com/trendsfacetedfiltering
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
+description: "This post is part of a series on trends that explores trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on faceted filtering."
 ---
 
 ## What is faceted filtering?
@@ -20,7 +21,7 @@ I wanted to implement the same faceted filtering paradigm with docs, allowing us
 
 At the time, I was trying to [unlock the key to findability](/2010/05/17/new-series-organizing-content-organizing-content-1/), and I was drawn in by the [faceted filtering patterns](/2010/05/17/25-facets-for-navigation-organizing-content-5/) on sites [like Amazon](/2010/05/20/faceted-classification-faceted-search-organizing-content-6/) and [elsewhere](/2013/05/29/can-help-content-have-recognizable-facets/). The web was still maturing, and the search patterns on these sites provided a clearly superior experience.
 
-Further, the [semantic web](/2010/06/10/the-semantic-web-and-content-findability-interview-with-patrick-warrant-organizing-content-14/) was much discussed and hyped at this time. The semantic web promised to enrich content with semantics (especially through [microformats](/2007/03/11/microformats-and-the-semantic-web/)) in ways that would improve discoverability. XML was the driving technology behind the semantic web. Faceted filters would simply leverage the semantic-laden attributes to make it easier to find what you were looking for. 
+Further, the [semantic web](/2010/06/10/the-semantic-web-and-content-findability-interview-with-patrick-warrant-organizing-content-14/) was much discussed and hyped at this time. The semantic web promised to enrich content with semantics (especially through [microformats](/2007/03/11/microformats-and-the-semantic-web/)) in ways that would improve discoverability. XML was the driving technology behind the semantic web. Faceted filters would simply leverage the semantic-laden attributes to make it easier to find what you were looking for.
 
 As a culminating presentation on my exploration into faceted filtering, I delivered a 2013 WritersUA Europe keynote titled [Making Content More Findable When Users Browse and Search](/2013/06/24/recording-of-making-content-more-findable-when-users-browse-and-search-ua-europe-presentation/).
 

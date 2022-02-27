@@ -7,6 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/trendswikis
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
+description: "This post is part of a series on trends that explores trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on wikis and crowdsourcing."
 ---
 
 ## What are wikis and crowdsourcing?
