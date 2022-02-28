@@ -139,7 +139,9 @@ The following are some screenshots of Paligo that give you a better sense of the
 **Workflow for documents**
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/Workflow5.png" | prepend: site.baseurl }}"/>
 
+## Additional reading
 
+See also [Paligo: Structured Authoring and Component Content Management made easy](/blog/paligo-structured-authoring-xml-ccms).
 
 
 [1]: http://www.techwr-l.com/archives/1607/techwhirl-1607-00100.html#.V52LFNArLwc

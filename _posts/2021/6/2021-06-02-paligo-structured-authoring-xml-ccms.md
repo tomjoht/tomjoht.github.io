@@ -129,3 +129,7 @@ Rather than spending weeks or months figuring these tasks out, solutions like Pa
 ## Getting started
 
 As a cloud-based solution, [Paligo](https://hubs.li/H0PqJ8P0){:rel="nofollow"} is easy to experiment with. You can sign up for a live demo and then have a free trial to test it out yourself. Pricing details are [here](https://hubs.li/H0PqJgX0){:rel="nofollow"}. If you have questions about Paligo, feel free to leave them in the comments below.
+
+## Additional reading
+
+See also [The Story of Paligo: A new browser-based CCMS with all the features you’d ever want](/2016/08/01/paligo-the-story-xml-ccms-in-the-cloud/).
