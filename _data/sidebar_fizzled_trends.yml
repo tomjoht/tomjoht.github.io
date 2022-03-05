@@ -21,9 +21,9 @@ entries:
           url: /trends/trends-to-follow-or-forget-quick-reference-guides.html
         - title: WordPress and web CMSs
           url: /trends/trends-to-follow-or-forget-wordpress.html
-
-        - title: DITA (coming soon...)
-
+        - title: DITA
+          url: /trends/trends-to-follow-or-forget-dita.html
+          
         - title: Content strategy (coming soon...)
 
         - title: Agile and Scrum (coming soon...)
