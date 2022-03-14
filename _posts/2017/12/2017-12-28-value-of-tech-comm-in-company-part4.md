@@ -101,7 +101,7 @@ More interactions with these groups also lead to higher perceptions of your valu
 
 ## The value of information flow
 
-Some business analysts argue that information flow is a key to successful companies. Imagine a company where each group is siloed from the others, not communicating or sharing or interacting. In such a company, the consequences of these siloes might include redundant services, duplicate efforts, decisions made from missing data, etc. &mdash; the lack of information can undermine the company's strategic objectives.
+Some business analysts argue that information flow is a key to successful companies. Imagine a company where each group is siloed from the others, not communicating or sharing or interacting. In such a company, the consequences of these silos might include redundant services, duplicate efforts, decisions made from missing data, etc. &mdash; the lack of information can undermine the company's strategic objectives.
 
 For example, many analysts blame 9/11 on shortcomings in the information flow within intelligence agencies. Each group's inability to share information within the large organization led to blindness in recognizing warning signs that were occurring. In *Knowledge Management in Theory and Practice*, the authors explain:
 

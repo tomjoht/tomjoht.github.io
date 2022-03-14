@@ -150,7 +150,7 @@ Here's a brief excerpt from the post:
 
 * The basic idea of enterprise content strategy is that you have a single source of content that groups across the enterprise can leverage. Pros of using this content across the enterprise include consistency of message, reduced inefficiency in content development, coordination across groups, and more.
 
-* The opposite of an enterprise content strategy is siloes &mdash; every group makes their own version of more or less the same content. Cons of siloes are inconsistent content, redundant efforts, confusing messaging to users, etc.
+* The opposite of an enterprise content strategy is silos &mdash; every group makes their own version of more or less the same content. Cons of siloes are inconsistent content, redundant efforts, confusing messaging to users, etc.
 
 ### Same content in different output formats
 
