@@ -12,7 +12,7 @@ description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.htm
 
 ## What is Scrum?
 
-Scrum is a project methodology for agile. In general, agile embraces shorter iterations of development (e.g., two weeks) and continuous integration for releases. Scrum was developed by Jeff Sutherland and J.J. Sutherland, described in their book [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.audible.com/pd/Scrum-Audiobook/B00NJ3WS9G) (which I reviewed [here](/2015/10/27/fix-errors-fast-scrum-agile/)). The basic principle of Scrum is to regularly demo what you've created to stakeholders to make sure you're on track with what they both want and need. The regular demo allows you to course correct early on rather than plodding ahead in isolation from the customer for two years, only to find, after the big product reveal at the end, that you built the wrong product.
+Scrum is a project methodology for agile. In general, agile embraces shorter iterations of development and continuous integration for releases. Scrum was developed by Jeff Sutherland and J.J. Sutherland, described in their book [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.audible.com/pd/Scrum-Audiobook/B00NJ3WS9G) (which I reviewed [here](/2015/10/27/fix-errors-fast-scrum-agile/)). The basic principle of Scrum is to regularly demo what you've created to stakeholders to make sure you're on track with what they both want and need. The regular demo allows you to course correct early on rather than plodding ahead in isolation from the customer for two years, only to find, after the big product reveal at the end, that you built the wrong features and experience.
 
 Scrum has specific practices such as these:
 
