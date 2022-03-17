@@ -52,7 +52,7 @@ Those are some challenges in integrating with engineering Scrum teams. But what 
 
 * The basic Scrum framework is just common sense anyway. Break large projects down into smaller tasks, prioritize those tasks in regular iterations, and report on your progress each month. This isn't rocket science. It's just how you tackle projects. Maybe I've internalized the workflow so that it seems like common sense, but it just does. Who doesn't have a prioritized to-do list that they tackle, with some general timelines for the tasks? A lot of the hallmarks of scrum (the daily standups, for example, or the retrospectives) are baked into general ways of working. In the mornings, I think about what I'm going to do that day. After I finish something, I reflect on how it went.
 
-Even so, I still recommend a Scrum-based approach for managing docs. See my [Managing large documentation projects](learnapidoc/docapis_managing_doc_projects.html) and [Managing small documentation requests](learnapidoc/docapis_managing_small_doc_requests.html) in my API course. Many of the principles are the same. For the software demos, I recommend [sending documentation reports to stakeholders](learnapidoc/docapis_status_reports.html).
+Even so, I still recommend a Scrum-based approach for managing docs. See my [Managing large documentation projects](learnapidoc/docapis_managing_doc_projects.html) and [Managing small documentation requests](learnapidoc/docapis_managing_small_doc_requests.html) in my API course. Many of the principles are the same. For the software demos, I recommend [sending documentation reports to stakeholders](/learnapidoc/docapis_status_reports.html).
 
 ## Current status
 
