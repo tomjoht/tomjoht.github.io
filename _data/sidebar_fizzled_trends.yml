@@ -31,11 +31,10 @@ entries:
           url: /trends/trends-to-follow-or-forget-techcomm-and-marcom.html
         - title: Every page is page one
           url: /trends/trends-to-follow-or-forget-every-page-is-page-one.html
-
+        - title: API documentation
+          url: /trends/trends-to-follow-or-forget-api-documentation.html
         - title: GitHub and open-source (coming soon...)
 
         - title: Docs as code (coming soon...)
-
-        - title: API documentation (coming soon...)
 
         - title: Remote work (coming soon...)
