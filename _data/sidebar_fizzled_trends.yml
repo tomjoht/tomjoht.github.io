@@ -33,7 +33,8 @@ entries:
           url: /trends/trends-to-follow-or-forget-every-page-is-page-one.html
         - title: API documentation
           url: /trends/trends-to-follow-or-forget-api-documentation.html
-        - title: GitHub and open-source (coming soon...)
+        - title: GitHub and open-source
+          url: /trends/trends-to-follow-or-forget-git-and-github.html
 
         - title: Docs as code (coming soon...)
 

@@ -1,5 +1,5 @@
 ---
-title: "Tech comm and marcom (Trends to follow or forget)"
+title: "Marcom and tech comm (Trends to follow or forget)"
 permalink: /trends/trends-to-follow-or-forget-techcomm-and-marcom.html
 categories:
 - technical-writing

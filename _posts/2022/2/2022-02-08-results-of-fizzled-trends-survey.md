@@ -54,14 +54,14 @@ As I looked back through my blog (which started in 2006), I can trace my path th
 4.  [Screencasting](/trends/trends-to-follow-or-forget-screencasting.html)
 5.  [Quick reference guides](/trends/trends-to-follow-or-forget-quick-reference-guides.html)
 6.  [WordPress and web CMSs](/trends/trends-to-follow-or-forget-wordpress.html)
-7.  DITA
-8.  Content strategy
-9.  Agile and Scrum
-10. Marcom and techcomm
-11. Every page is page one
-12. GitHub and open-source
-13. Docs as code
-14. API documentation
+7.  [DITA](/trends/trends-to-follow-or-forget-dita.html)
+8.  [Content strategy](/trends/trends-to-follow-or-forget-content-strategy.html)
+9.  [Scrum](/trends/trends-to-follow-or-forget-scrum.html)
+10. [Marcom and techcomm](/trends/trends-to-follow-or-forget-techcomm-and-marcom.html)
+11. [Every page is page one](/trends/trends-to-follow-or-forget-every-page-is-page-one.html)
+12. [API documentation](/trends/trends-to-follow-or-forget-api-documentation.html)
+13. [Git and GitHub](/trends/trends-to-follow-or-forget-git-and-github.html)
+14. Docs as code
 15. Remote work
 
 I'm still refining this list, but I realized that I've been a constant experimenter throughout my career. In some ways, I am a microcosm of tech comm trends.
