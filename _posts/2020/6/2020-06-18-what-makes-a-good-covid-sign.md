@@ -56,6 +56,8 @@ I was excited to see park officials re-install basketball rims at the park, but 
 
 This leads to another point. It's one thing to put up a sign that clearly states an expected behavior but much more effective to change the environment in a way that enforces the behavior. When the park removed the basketball rims, it was effective in deterring play, but also effective in sending many ballers into states of depression.
 
+{% include ads.html %}
+
 With the previous sign that said "Keep mooving!", without the black cloth covering the fences, people would have inevitably stopped and congregated to look at the sheep, goats, cows, etc.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/farmwallscovid.jpg" alt="Walls preventing visibility" />

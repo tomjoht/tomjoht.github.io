@@ -21,6 +21,8 @@ For more information, see the following:
 * [Carolyn's Lightning talk in Berlin](https://www.youtube.com/watch?v=jY2xglypPkQ)
 * [Slide deck on Humanizing documentation](https://speakerdeck.com/carolstran/humanizing-your-documentation-full-talk)
 
+{% include ads.html %}
+
 For some I'd Rather Be Writing posts related to these topics, see:
 
 * [Transparency in documentation: dealing with limits about what you can and cannot say](https://idratherbewriting.com/2017/07/13/transparency-in-documentation/)

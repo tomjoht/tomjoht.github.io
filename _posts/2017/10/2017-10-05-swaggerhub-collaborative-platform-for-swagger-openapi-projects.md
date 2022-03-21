@@ -26,6 +26,8 @@ I've written in the past about how [Swagger-related posts are the most visited p
 
 {{site.data.alerts.note}}SwaggerHub is one of the sponsors of my site.{{site.data.alerts.end}}
 
+{% include ads.html %}
+
 ## Why OpenAPI is so popular
 
 What accounts for OpenAPI's popularity and wide acceptance? I think the OpenAPI spec continues to be popular because it **provides a standard** in an area of technology that is a wild west of differing options, approaches, and terminology. Many technical writers who want to learn more about API documentation are overwhelmed by the breadth and diversity in this space.

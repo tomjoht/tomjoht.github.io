@@ -31,6 +31,8 @@ I use a macOS app called [Focus - Time Management](https://apps.apple.com/us/app
 
 <a href="https://apps.apple.com/us/app/focus-time-management/id777233759?mt=12"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/focussessions_app_screenshot.png" alt="Focus Timer" /></a>
 
+{% include ads.html %}
+
 ## What counts as writing
 
 I consider *writing* to include any activity geared towards finishing a writing task. This could involve tasks such as reading design documents, interfacing with engineers, experimenting with a sample app, or even going through an e-learning course to learn more about some essential aspect related to the feature you're documenting. As long as these supporting activities are necessary for you to complete a particular writing task, they should be considered part of the writing process. (Otherwise, writing is basically typing.)

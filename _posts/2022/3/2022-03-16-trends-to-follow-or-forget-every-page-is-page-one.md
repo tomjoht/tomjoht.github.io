@@ -33,6 +33,8 @@ For more information, see the following:
 
 I came of age as a tech writer during the rise of the Internet. I didn’t really grow up with FrameMaker. As a blogger, web-based reading paradigms were important to me. I felt like a child of the web, fascinated by web dynamics and how they might change reading behaviors, cultures, and organization patterns. Hashtags and dynamic filters presented new modes of discovery, more ways to organize, find, and learn. I wanted to embrace this new web landscape and world. It seemed obvious that help documentation would be part of this web landscape, and as such we would need to optimize our documentation for web-based reading behaviors and patterns.
 
+{% include ads.html %}
+
 During this time, many people were also transitioning their print manuals, often written in FrameMaker, to the web. They transitioned the content often by bursting it into discrete topics at specific breakpoints, such as H2 levels. Many web pages were short compared to lengthy chapters in print. But as a result, the web output from these converted manuals consisted of little fragments of information that you’d [need to piece together](/2011/04/27/topic-chunking-and-the-broken-clock/) by tracing your way through a sidebar table of contents. But that wasn’t how people read on the web, so this approach usually failed for users.
 
 To embrace "every page is page one" style, I started to make my topics longer and more like standalone articles. I included sections at the top titled "Prerequisites" or "Background Knowledge," making clear what context was assumed and how to get it. I linked abundantly, knowing that readers were more likely to click inline links rather than sidebar topics.

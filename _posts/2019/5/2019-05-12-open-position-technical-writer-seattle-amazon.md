@@ -47,3 +47,5 @@ Here's a description of the [technical writer position](https://www.amazon.jobs/
 </div>
 
 Read more [here](https://www.amazon.jobs/en/jobs/854945/technical-writer). If interested, [send me an email](/contact/) with your resume + writing samples + a few paragraphs describing your interest. You can also apply to this position directly.
+
+{% include ads.html %}

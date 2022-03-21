@@ -27,6 +27,8 @@ Stoplight's visual modeling tools eliminate the need to be familiar with the for
 
 <figure><a class="noExtIcon" href="https://next.stoplight.io/"><img class="docimage large border" src="https://idratherbewriting.com/learnapidoc/images/stoplightappinterface.png" alt="Stoplight app interface" /></a><figcaption>Stoplight provides visual modeling tools to describe your API. The screenshot above shows the UI for documenting parameters. Stoplight's UI produces a valid OpenAPI specification document, which is then used to drive other API services and activities on their site.</figcaption></figure>
 
+{% include ads.html %}
+
 As part of the visual modeling tools, Stoplight's interface for describing JSON schemas (used in request bodies or responses) is especially welcome. Details about how to document JSON schemas aren't fully documented in the OpenAPI spec, so they can be particularly challenging.  What's especially neat is that you can simply paste in a chunk of JSON and Stoplight will automatically describe it in the right syntax for you. You do this using the **Generate from JSON** button, as I've demonstrated in this short video:
 
 <figure><iframe width="640" height="360" src="https://www.youtube.com/embed/0IOWY0Hj3Xc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><figcaption>Describing the JSON format in the responses can be especially tricky. Stoplight's visual modeling tools are especially helpful here, since they allow you to automatically create the correct JSON schema definition from a block of JSON that you paste in.</figcaption></figure>

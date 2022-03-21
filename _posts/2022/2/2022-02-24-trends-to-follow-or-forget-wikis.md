@@ -28,6 +28,8 @@ For those volunteers who did contribute content, their contributions were often 
 
 In the end, I expended a lot of effort trying to wrangle and manage volunteers, without much output or productivity. One day I measured up the time I spent managing and coordinating the volunteers versus the output and how long it would take me to produce the same content, and I decided the crowdsourcing model didn’t really work, so there was little point in continuing to use a wiki.
 
+{% include ads.html %}
+
 ## Current status of wikis and crowdsourcing
 
 Wikis are still going strong in internal contexts, such as for corporate platforms. [Confluence](https://www.atlassian.com/software/confluence/premium) is a common internal infrastructure for many companies. It does seem that within the enterprise, you need a scalable, simple solution that allows everyone to create and publish content. But as far as a doc platform for external docs, as well as crowdsourcing models, I don’t see too many examples outside of Confluence. Splunk's [Ponydocs](https://docs.splunk.com/Documentation/Ponydocs/1.0/Content/WhatisPonydocs) is probably the strongest current example of MediaWiki-based external documentation.

@@ -43,6 +43,8 @@ Similarly, with software, although the code may seem clear to the programmer who
 
 What struck me more than anything in this presentation is the developer's tone and attitude toward writing documentation -- to developers, writing docs sucks. Developers hate doing it. They would like to get out of writing documentation at all costs. It is the most mundane, tedious activity they can imagine.
 
+{% include ads.html %}
+
 This got me thinking about how I interact with developers. Sometimes when I ask a developer question after question about how something works, I feel like I'm "bothering" the developer. I try not to ask too many questions for fear that I'm somehow overstepping my welcome. Last Friday I was instant messaging an engineer for about a half hour with a variety of questions.
 
 But then -- during my IMs -- I thought about how much programmers hate writing documentation, and I realized that actually I was doing this programmer a favor. He and others had coded all kinds of functionality that was either not documented or poorly documented on the wiki. I kept learning about newly added features and wondered whether they were described or explained on the wiki (they weren't) or even had tickets in the issue tracking system (some didn't).

@@ -56,6 +56,8 @@ Here are some of the questions we discuss during the podcast:
 * Do practitioners serve on the advisory board of academic journals to provide input on which topics are accepted?
 * Who are academics writing for?
 
+{% include ads.html %}
+
 ## About Kirk St. Amant {#kirk_st_amant}
 
 Kirk St. Amant is a Professor and the Eunice C. Williamson Endowed Chair in Technical Communication at Louisiana Tech University (USA). He is also an Adjunct Professor of International Health and Medical Communication with the University of Limerick (Ireland). His main research interests are international communication and information design for global audiences with a particular focus on the globalization of online education and health and medical communication for international audiences.

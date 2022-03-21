@@ -3,7 +3,7 @@ title: "A hypothesis on how to exert more influence and visibility inside the co
 permalink: /blog/influence-visibility-inside-corporation/
 categories:
 - writing
-keywords: 
+keywords:
 bitlink: https://rebrand.ly/hypothesisoncorpinfluence
 description: "Can the same principles for visibility and influence online lead to visibility and influence inside corporate walls?"
 ---
@@ -19,6 +19,8 @@ However, there's one key difference &mdash; at least with my content &mdash; bet
 Writing about documentation-related topics won't influence business leaders much, since their interests focus on other matters with other priorities. But there is one common topic that overlaps across discipline lines, whether your focus is documentation or product revenues or other matters: **the customer experience**.
 
 No matter what your department, almost everyone seems to have a mutual interest in understanding the customer experience. One way or another, the customer experience drives many business decisions, and as such, writing about topics related to the customer experience, even if it's through the lens of documentation, might be sufficient enough to strike a cord of relevance? At least that's my hope.
+
+{% include ads.html %}
 
 For example, each of the following customer-experience topics would resonate with both documentation groups and business groups:
 

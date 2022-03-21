@@ -28,6 +28,8 @@ Although I'd like to ignore the financial costs of such an event in its evaluati
 
 Even public colleges in California cost about as much as a Model 3 Tesla each year. Basically, college costs 3x the amount it was when most of us went to college. (For a good read on this and how it affects families and society, see [How Paying for College Is Changing Middle-Class Life](https://www.nytimes.com/2019/08/30/opinion/sunday/college-tuition.html).) My wife is also in a masters program. Based on the need to pay tuition, I felt like I need a more marketable side-gig to really make it in the Bay area (even with a good company salary).
 
+{% include ads.html %}
+
 In deciding to teach the workshop, I also had to reduce my commitments elsewhere. I received an invitation to teach an API doc course at a UC extension school, which would basically run 2 months, require about 5 hours a week, and net $2,500. That kind of endeavor sounds enriching and worthwhile, for sure. But those activities would drain all the free time I have and would make organizing an event like a full-day workshop more challenging.
 
 To find attendees able to pay several hundred dollars for a full-day workshop, I've found that you have to attract currently employed technical writers who work for companies willing to invest in the continuing education of their employees. At most companies I've worked at, providing educational opportunities for employees to further their skills and knowledge is fairly common. But this also means that the workshop must take place on company time, such as a day during the week. You can't really hold a workshop on a weekend and attract the same audience, as this digs into the employees' personal time.

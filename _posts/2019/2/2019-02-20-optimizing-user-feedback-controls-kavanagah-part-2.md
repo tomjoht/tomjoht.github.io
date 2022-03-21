@@ -42,6 +42,8 @@ _Figure 2 - Use of colour and alignment in a feedback feature_
 
 The **Feedback Location** records the location of the feedback feature on a typical topic screen in each of the sample texts.
 
+{% include ads.html %}
+
 ### 4.2. Content Categories of Analysis
 
 The **Initial Question** captures the initial prompt to users to provide feedback.

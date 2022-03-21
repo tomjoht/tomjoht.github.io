@@ -31,6 +31,8 @@ what are potential cons of stepping into something that isn't a biz priority?
 how do you act like a prod owner?
 - you own the product from end to end.
 
+{% include ads.html %}
+
 can you be both a prod owner and an indiv contrib?
 - yes, but tis kind of hard. but yeah, you are more like a content strat
 

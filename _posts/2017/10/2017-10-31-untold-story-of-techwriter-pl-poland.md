@@ -20,6 +20,8 @@ When Darek Drezno, a Polish software tester, manager and lecturer, came up with 
 
 Back then, technical authoring was still a relatively new profession in this part of Europe, clad in mystery, saved for the chosen few and sounding vague to mere mortals. Of course, people had been doing this work long before, but many of them wouldn't even think of themselves as technical writers. They didn't have the feeling of identity, individuality and professional pride they have today, when technical writing hits the mainstream of Poland's IT market.
 
+{% include ads.html %}
+
 ## Why write in Polish?
 
 [Techwriter.pl](http://techwriter.pl/) is not the first technical writing portal in this part of Europe, with at least one predecessor to it: the TCPIP portal (which was around for about 2 years). But it seems to be the first tech comm portal of this longevity that tackles the subject matter in a local language &mdash; Polish. Why is that?

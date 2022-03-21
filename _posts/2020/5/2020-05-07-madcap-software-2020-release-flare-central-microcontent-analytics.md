@@ -42,6 +42,8 @@ If you view the entire [Conditions](https://help.madcapsoftware.com/flare2020/Co
 
 MadCap introduced micro content authoring in the Flare 2019 release, making it easy to create phrases that could be paired to micro content responses that appear as featured search results. Responses to these phrases can be authored directly in the Micro Content Editor, or they can be leveraged from existing topics or snippets for use as a micro content search result. However, with the 2020 release, the Micro Content Editor has been enhanced to allow authors to work with micro content conditions, to enhance single-sourcing even more. You just take your help topic and apply micro content condition tags to determine what surfaces in micro content to allow you to repurpose your source material even more.
 
+{% include ads.html %}
+
 For example, suppose you have a topic called "How to Watch Star Wars." First, you would define a tag such as "TopicOnly":
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/starwarstopiconly.png" alt="Micro content conditions in MadCap Flare 2020" />

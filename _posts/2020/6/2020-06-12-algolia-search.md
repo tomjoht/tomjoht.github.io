@@ -72,6 +72,8 @@ If I look at the actual visitors on my site for the same 30 days by looking at G
 
 159k page views doesn't explain the 36k empty searches from Algolia, so I have no idea what's going on.
 
+{% include ads.html %}
+
 ## The actual searches people are making on my blog
 
 Let's dive deeper and analyze the actual [non-empty] searches people are making on my blog. Here are the queries:

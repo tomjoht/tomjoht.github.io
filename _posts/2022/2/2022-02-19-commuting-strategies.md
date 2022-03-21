@@ -24,6 +24,8 @@ They also did a short interview with me where they asked some questions about wh
 
 I commute from Renton (Southeast Seattle) to Fremont (a district in North Seattle). The distance is about 25 miles. The film crew was actually shocked that I commuted from this far out, but I argue that even if I lived in Seattle, going several miles across town would take me at least a half hour in traffic, if not more.
 
+{% include ads.html %}
+
 Also, the reality is that if you have a family and want to buy a house, you'll probably be looking at suburban bedroom communities (like Renton). And with many companies embracing hybrid work schedules post-pandemic, commuting several times a week, even if farther out, isn't a dealbreaker.
 
 A consequence of living in the suburbs, though, is that you [become more car-dependent](/blog/urban-sprawl-solutions/). Suburbs aren't designed with urban mobility in mind. Sure, there are some bus routes, but you really can't get around in suburbs without a car like you could if you lived downtown in an urban center. With a car-dependent mentality, it's easy to think that you need a car to go everywhere, even to get to work, but that's not the best approach.

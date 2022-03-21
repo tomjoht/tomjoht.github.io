@@ -14,3 +14,5 @@ Host Chris Ward and our podcast guest Anett Pozsar from Szeged (pron. Seg-jed) H
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B0ZdoAW2aY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 You can view the original post here: [WTD Episode 16: An open-source Grammarly for tech docs?](http://podcast.writethedocs.org/2018/09/05/linters-templates-starting-out/)
+
+{% include ads.html %}

@@ -43,7 +43,8 @@ If you just want the audio, here it is:
 
 {% include audio.html %}
 
-
 ## About Alisa Bonsignore
 
 <p><img style="float: left; max-width: 150px; padding-right: 10px;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/alisa-bonsignore.jpg" | prepend: site.baseurl }}" alt="Alisa Bonsignore" />Based in the Bay Area, Alisa Bonsigno respends her days clarifying complex ideas, translating technical and clinical information into understandable language tailored to the needs of healthcare, network security and healthcare IT clients around the globe. She uses humor and real-world scenarios to form the basis for her talks about professional development. Alisa has been elected to serve as Director of STC (2016-2018), and is past Chair of the Education Advisory Panel for STC. You can learn more about Alisa at <a href="http://clarifyingcomplexideas.com">clarifyingcomplexideas.com</a>.</p>
+
+{% include ads.html %}

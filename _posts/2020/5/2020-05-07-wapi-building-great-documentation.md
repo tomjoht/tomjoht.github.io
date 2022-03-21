@@ -29,6 +29,8 @@ You can either listen on <a href='https://wapi.fm/'>WAPI FM</a> or on other sour
 * [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-great-documentation/id1509305056?i=1000473679847)
 * [Listen on Spotify](https://open.spotify.com/episode/1GPjU3xcZBUbmJPas8b3B5)
 
+{% include ads.html %}
+
 ## Discussion topics
 
 Here are some topics from the discussion:
@@ -49,5 +51,3 @@ Here are some topics from the discussion:
 * Scaling up demands for live training with hands-on, self-directed approaches
 * Parts of the job that we find the most fulfilling, what we're most passionate about related to the developer experience
 * How to get into technical writing world, ways to improve documentation
-
-

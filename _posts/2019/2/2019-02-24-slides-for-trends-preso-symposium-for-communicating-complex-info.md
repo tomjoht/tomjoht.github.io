@@ -43,6 +43,8 @@ Together, this data presents an alarming trend where tech writers are becoming d
 
 What happens when tech writers must suddenly start supporting twice the number of engineers or more? First, I think tech writers will play more project management roles, orchestrating publishing workflows for other authors, including engineers. Engineers who contribute to docs are also much more likely to use docs-as-code tooling and workflows, which is a direction that my [Engineers writing docs survey](https://www.questionpro.com/t/PE5tIZduq7) survey seems to confirm so far.
 
+{% include ads.html %}
+
 The other consequence of supporting more engineers is that it dilutes the tech writer's ability to immerse deeply on a project. If you were supporting 3 engineering teams last year, and this year you're supporting 4, and next year you support 5, you don't have the same bandwidth to fully immerse in the project's technology, team, tools, and other information needs. You end up being even more of an outsider and novice to the technology, which cripples your ability to create more in-depth, comprehensive content.
 
 To counteract this trend toward the dilution of tech knowledge, I think tech writers need to more purposefully study and dive into tech learning, even at the expense of some writing productivity. In almost all tech writer job requirements, the demand for strong technical knowledge continues to be a key requirement &mdash; one that over overshadows one's writing ability.

@@ -34,6 +34,8 @@ But I also tried using Scrum to manage documentation as well. Scrum isn't limite
 
 Just as people are often into productivity approaches (e.g., Getting Things Done, the 4-hour work week, Steven Covey, and so on), I was into Scrum for much the same reasons. Additionally, Scrum seemed like a perfect fit for a project methodology because the better I understood it, the better I could work with engineering teams who were also using it.
 
+{% include ads.html %}
+
 ## Why didn't I abandon Scrum?
 
 I didn't abandon Scrum, but I watered it down a bit and became much less stringent about applying its mechanics. First of all, not all engineering teams I worked with used Scrum. Some use modified forms of it, or Kanban, or other approaches entirely. If the engineering teams you support aren't using Scrum, then chances are you won't use it to manage documentation either.

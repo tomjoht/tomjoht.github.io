@@ -41,6 +41,8 @@ will recognizing my weaknesses help me improve them?
 
 perhaps others can point out ways for me to overcome my weaknesses?
 
+{% include ads.html %}
+
 maybe my weaknesses are not what i think?
 
 sometimes it's very difficult to see and analyze yourself. i am extremely biased in my view. like fighting a war while you're in it, you're stuck looking at the trees and can't see the forest.

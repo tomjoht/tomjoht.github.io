@@ -66,6 +66,8 @@ I would say study IT or Humanities (if it's rigorous) as an undergrad.
 
 If you have some skills already and are looking to transition, then my course. One of my members offered a testimonial stating that it was "a million times better than Coursera."
 
+{% include ads.html %}
+
 <h4>In creating my API documentation course, what I found most challenging was to create concrete, hands-on activities that engaged people taking the course. What kinds of activities do you provide in the course? Do you ever provide custom feedback or one-on-one interactions with people taking the ecourse?</h4>
 
 Yes, hands-on activities are essential. We do exercises. We have a module on Procedures (subtitle: The Soul of Technical Writing) and we build documents and a portfolio.

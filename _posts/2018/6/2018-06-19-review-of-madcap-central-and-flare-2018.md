@@ -45,6 +45,8 @@ Depending where you work, getting a SME to review content can be a technical wri
 
 I like to include the product manager, a QA engineer, and a technical support engineer in the review. In fact, the more people who review the content, the better! This makes a review workflow potentially more complex as not everyone will have the same work style. And usually reviewers do not have access to or have the skills to use a particular reviewing tool.
 
+{% include ads.html %}
+
 Reviewing is a necessary task, but it can be time-consuming for the writer, especially when reviewers disagree on the content. Providing a single review source in which subject matter experts can concurrently edit, review and see each other’s comments is a huge help. And when the tool is easy to use and does not require a client to be downloaded, you are on to a winner.
 
 MadCap Software has launched a new cloud-based, streamlined, contribution and review workflow for MadCap Central. Subject matter experts do not need to have a MadCap Flare license, but your organization must have a MadCap Central license with users invited to Central as either Authors or Subject Matter Experts. Central gives you the ability to make this distinction when inviting users to your Central license.

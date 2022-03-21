@@ -40,6 +40,8 @@ Scott's survey does actually include some API-related information. He found that
 
 These responses about APIs are more relevant to my tech comm world, but they don't go far enough into dev docs for my interests. As with Saul's census, Scott's survey hardly mentions docs-as-code tools or workflows. In both surveys, communities like [Write the Docs](https://writethedocs.org/) aren't mentioned, and other more developer-oriented topics are left out, such as how writers integrate with engineering scrum teams, whether writers auto-generate the OpenAPI spec or manually create it, whether docs reviews are conducted like code reviews, and so on.
 
+{% include ads.html %}
+
 Granted, just because *I'm* interested in these more developer-documentation-related topics doesn't mean general tech comm surveys need to cover it. I just feel that some of the more interesting trends, especially related to the space I'm in, were overlooked. There are actually some fascinating trends taking place that I feel should have been noted.
 
 What perplexed me most was to see Adobe FrameMaker and Microsoft Word used so prominently. Scott writes,

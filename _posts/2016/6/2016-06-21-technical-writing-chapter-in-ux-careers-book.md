@@ -36,6 +36,8 @@ In any company that employs engineers, you will probably also find technical wri
 
 Regardless of the context, the end result is usually the same: Through the documentation you create, users learn to use applications or products efficiently to accomplish real-world tasks.
 
+{% include ads.html %}
+
 ## What does a technical writer do?
 
 ### Create documentation

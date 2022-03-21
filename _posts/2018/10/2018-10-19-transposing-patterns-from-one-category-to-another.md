@@ -25,6 +25,8 @@ Next, we chose the most interesting "How might we ..." question and worked out a
 
 Now that we had our idea worked out, it was time to pitch it. Carla recommended using the familiar story of the coffee shop as a bridge to our pitch. She said that while people want evidence and data, it's better to start with a story first, as it helps fire dopamine in the brain before first, and then lead into the evidence (which triggers cortisol).
 
+{% include ads.html %}
+
 Our pitch was basically this:
 
 > I had some experiences in a coffee shop last week that gave me an interesting perspective related to our objective to get 100% responses on technical reviews. When I went into the coffee shop, I was a bit confused about where to stand, by the noise and variety of coffee to select from. It seems like there are 17 different flavors of coffee! And the sizes have unfamiliar names too (Venti, Grande, etc.). Overall, it was a bit chaotic. It would help if there were more guidance in the process of simply buying coffee &mdash; clearer lines, maybe some coffee specials and recommendations (and possibly fewer choices), and an easier way to see cup sizes and names.

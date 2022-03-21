@@ -18,3 +18,5 @@ For more information about Write the Docs Australia, see the following:
 * [WTD Australia meetup group](https://www.meetup.com/Write-the-Docs-Australia/)
 
 You can also see the [original post on the WTD podcast site](https://podcast.writethedocs.org/2018/11/25/episode-18-wtd-australia-recap/).
+
+{% include ads.html %}

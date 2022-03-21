@@ -17,3 +17,5 @@ Here's the intro:
 > Although a seemingly simple page, the product overview can overlap into marketing domains, create redundancies with README’s, and pose challenges in connecting with a more diverse audience (both engineers and bizdev people) than the rest of your technical docs. Overall, the product overview is an area where documentation and marketing intersect in interesting ways.
 
 Read more: [API product overviews](/learnapidoc/docapis_doc_overview.html).
+
+{% include ads.html %}

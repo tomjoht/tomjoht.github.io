@@ -22,6 +22,8 @@ This project consumed me with frustration that turned into mild depression. I fe
 
 This breakthrough led to other breakthroughs, and I could observe the logs for each interaction, and little by little I unraveled the secret behind the product. I could finally see how it ticked, and how all the pieces (figuratively pinned on a mental wall by an insane detective) started to fit together and make sense.
 
+{% include ads.html %}
+
 I still have a lot of work to do, but I feel like I understand the product's secret, and I can now make progress in the writing.
 
 Not all projects are monsters to battle, for sure. Some projects are just annoying and tedious. But more often than not, complex technical writing projects are monsters we battle. We might have to learn some technical language or framework to make progress, meet with engineers, re-listen to recordings of meetings, sift through QA test scripts, logs, and other sessions before things start to make sense. But at some point the product seems to unlock, and we understand key concepts, and this empowers our ability to write.

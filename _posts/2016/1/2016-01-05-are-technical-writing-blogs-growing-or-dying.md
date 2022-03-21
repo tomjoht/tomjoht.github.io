@@ -9,7 +9,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/google
 ---
 
 ## "Blogging is dead"!!???
-Every so often someone either proclaims that [blogging is dead](https://www.google.de/search?q=Blogging+is+dead&trackid=sp-006) or asserts that blogging is alive and well. Recently someone noted that the 2015 vs. 2014 statistics comparison graph in my [2015 top posts analysis](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/) post looked interesting, so I decided to explore this comparison a little more to try to assess whether blogging (particularly my technical writing blog) was growing or dying. 
+Every so often someone either proclaims that [blogging is dead](https://www.google.de/search?q=Blogging+is+dead&trackid=sp-006) or asserts that blogging is alive and well. Recently someone noted that the 2015 vs. 2014 statistics comparison graph in my [2015 top posts analysis](https://idratherbewriting.com/2016/01/01/analyzing-top-posts-trends-on-idratherbewriting-blog/) post looked interesting, so I decided to explore this comparison a little more to try to assess whether blogging (particularly my technical writing blog) was growing or dying.
 
 ## Google trends
 First, take a look at this Google Trends graph looking at blogging and technical writing.
@@ -18,11 +18,13 @@ First, take a look at this Google Trends graph looking at blogging and technical
 
 Looking at these trends, you might assume that a blog &mdash; particularly a blog on technical writing &mdash; is sliding into oblivion. Is it? Let's look back at site stats for the past 7 years to see if we can note any trends in traffic.
 
-Pay particular attention to the *sessions* statistic. According to Google Analytics, 
+Pay particular attention to the *sessions* statistic. According to Google Analytics,
 
 >A session is a group of interactions that take place on your website within a given time frame. For example a single session can contain multiple screen or page views, events, social interactions, and ecommerce transactions. (See [How a session is defined in Analytics](https://support.google.com/analytics/answer/2731565?hl=en).)
 
 A single session is basically a visit &mdash; it can consist of multiple pageviews.
+
+{% include ads.html %}
 
 In each of the following graphs, I compare the sessions during 2015 to a different year. Following the graphs is my explanation and analysis.
 
@@ -76,9 +78,3 @@ Older posts are downgraded in Google's page ranking algorithm. "Recency" is one 
 This makes blogging a business of continual writing. Michael Arrington of TechCrunch.com once compared blogging to reaching down and grabbing a handful of sand. The sand slowly slips through your fingers. You have to reach down and grab another handful of sand, and another, and another. In the metaphor, your visitor's sessions are the sand; your reaching and scooping &mdash; those are the new posts you have to write.
 
 Is blogging dying or growing? I'm not sure. My blog's number of sessions has slightly declined, but there are also more sites and content online for people to consume. The amount of content online each year grows by millions if not billions (or trillions) of pages, so the capacity to capture someone's attention is diluted by the increased amount of online media available.
-
-
-
-
-
-

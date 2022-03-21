@@ -35,3 +35,5 @@ Here are some questions covered during the episode:
 * Is there a place for exploratory writing in the workplace?
 * How do you write for users with different levels of expertise?
 * What trends are developer docs moving towards?
+
+{% include ads.html %}

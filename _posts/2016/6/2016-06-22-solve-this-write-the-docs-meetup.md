@@ -18,4 +18,6 @@ I'm really curious to see how this theme turns out. About a decade ago, I organi
 
 Overall, we're trying to steer WTD meetups toward more creative, interactive formats. In the back of my mind, I have an idea that meetups should be like clubs, where friends with similar interests get together to hang out, talk with each other, and share ideas, frustrations, and advice, and more with a loose format and semi-open agenda.
 
+{% include ads.html %}
+
 Somehow over the years, the technical writing meetings (from STC to other organizations) evolved into presentations. While a presentation on a timely subject by an expert can be engaging, I think the presentation format is overdone. One of the reasons why people like the open-discussion format of the TC Camp unconference so much is precisely because it rejects the presentation format in favor of a more interactive, user-to-user discussion approach.

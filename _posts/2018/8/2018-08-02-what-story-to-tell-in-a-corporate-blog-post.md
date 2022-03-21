@@ -20,6 +20,8 @@ I started to realize just how tricky corporate blogging is when it comes to stor
 
 Given these constraints, what story could I tell? The very definition of story involves addressing some friction or challenge. And by definition, a friction is ... negative, right? I mean, I don't have too many "positive frictions" in my life. A friction is something that gives you resistance against what you're trying to achieve.
 
+{% include ads.html %}
+
 I was about to give up and leave marketing to the marketers when it dawned on me what the right story is for a corporate technology blog: *how to overcome technical challenges &mdash; the same how-to territory as docs.* Tech how-to is the safe space for corporate blogs.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/safespace-01.svg"/>

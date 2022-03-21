@@ -27,6 +27,8 @@ It's hard to find authors who write like that. When I was in college, I read a l
 
 The books that appealed to me in college don't appeal to me today. I'm now a working professional and family provider, and I'm more cautious about the demands on my time. I have little patience for topics that don't seem relevant. It could take hours or weeks to sit down and read a book from cover to cover. I assess the ROI of any endeavor. Will it give me new awareness or skills, or at least satiate a deep curiosity about something? If not, I might not have the time.
 
+{% include ads.html %}
+
 Now more than the author's style, I choose books by relevant topics. As a technical writer, tech-comm-related books are relevant, but they're typically either beginner or reference. Both put me to sleep. Philosophy appeals to me, but the higher-level, abstract questions they ask (what exists? how can we know it? is there free will?) don't always resonate with me.
 
 At the end of the day, the topic probably doesn't matter much. All topics, if examined deeply enough, reach down into the same roots. It's the analytical mind that's interesting, regardless of the content.

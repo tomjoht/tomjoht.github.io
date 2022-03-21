@@ -10,3 +10,5 @@ description: "As soon as new docs are published, docs begin a trajectory of deca
 ---
 
 Read the article here: [Processes for maintaining existing documentation](/learnapidoc/docapis_doc_maintenance_processes.html).
+
+{% include ads.html %}

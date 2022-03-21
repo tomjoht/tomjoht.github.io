@@ -29,6 +29,8 @@ Here are some of the topics we chat about in the podcast:
 * Document360's search (powered by Algolia) coupled with a sidebar filter that lets users narrow by keyword
 * What's on the future roadmap to come
 
+{% include ads.html %}
+
 ## Resources
 
 Document360 also has a podcast called [Knowledgebase Ninjas](https://document360.io/podcast/), where they regularly interview documentation and KB experts about best practices.

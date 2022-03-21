@@ -18,6 +18,8 @@ I had heard of Season of the Docs before the Summit, but I didn't realize that <
 
 Getting experience as a new tech writer can be difficult, and despite the many projects on GitHub, finding a good documentation project can be difficult (not to mention the challenge of integrating into the team). Season of the Docs looks like a first-of-its-kind program to bring volunteer tech writers and organizations together. The program even provides a small stipend to each group.
 
+{% include ads.html %}
+
 Here's a brief excerpt from the Season of Docs homepage:
 
 <div style="background-color: #f8f8f8; border: 1px solid #dedede; padding: 15px; margin: 15px 0px;">

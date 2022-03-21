@@ -57,6 +57,8 @@ Which brings me back to my dilemma about being a generalist or specialist. In or
 
 And why are technical writers unqualified? It depends on the level of complexity you're documenting, for sure. But for deeply complicated coding tasks in the developer domain (those topics intended for senior-level engineers), the generalist technical writer's background will come up short. This is why I decided that if I want to both survive and thrive in developer doc environments, I needed to step up my technical game by purposefully and deeply increasing my technical aptitude. Hence the regiment of tech pomodoros each morning.
 
+{% include ads.html %}
+
 The problem and angst, though, is realizing that the sort of technical knowledge I need isn't the kind of knowledge that excites me. I don't find vocational knowledge nearly as exciting as critical inquiry. I'm much more interested in *why* questions than *how* or *what* questions. Yet the tech learning focuses almost exclusively on *how* or *what* knowledge &mdash; how to build things, from an engineering point of view, what a particular technology does, how you interact with it, etc. If restricted to *how* or *what* questions, technical writing is more of a sub-discipline under engineering than a focus in the humanities discipline of rhetoric.
 
 ## States of mind

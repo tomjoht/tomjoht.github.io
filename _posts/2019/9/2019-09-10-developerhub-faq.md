@@ -32,6 +32,8 @@ I've been developing products, APIs, and SDKs for 7 years, and every time I get 
 
 The problem is, creating developer portals is very hard. It's a complete product and companies have to assign a big team of product managers, developers, designers, DevOps, etc., to get that developer portal up and ready. Writers have to learn new skills or burden the developers with requests to copy Google Docs into the documentation code.
 
+{% include ads.html %}
+
 Going through this journey, I realized how out-dated most technical writing software is. It's shocking to see how developer tools are so convenient and powerful, but still, tech writing software is many years behind.
 
 It was clear to me then that the problem does not exist only for developer portals. It's all over the documentation world. So we set out to build the top-notch experience for writers and readers of product and API documentation.

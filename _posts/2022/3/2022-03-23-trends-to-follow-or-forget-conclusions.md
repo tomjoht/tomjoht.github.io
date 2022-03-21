@@ -12,3 +12,5 @@ published: false
 ---
 
 one practice might make sense for certain contexts but not others. for example, in some cases wikis make sense, but not in others. docs-as-code might make sense in some contexts but not others. therefore, whether a trend continues or fizzles depends on the context for the writing scenario.
+
+{% include ads.html %}

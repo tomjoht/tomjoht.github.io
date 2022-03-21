@@ -36,3 +36,5 @@ Larry described the topics we chat about as follows:
 > * how refreshing and fun it is for him to reflect on his professional work and to blog about it
 
 You can listen to Content Strategy Insights on [Elles Media](https://ellessmedia.com/csi/tom-johnson/) or through iTunes, Google Podcasts, Stitcher, Tunein, etc. Larry also has an extensive number of podcasts you can listen to. For example, also check out [Larry's podcast with Scott Abel](https://ellessmedia.com/csi/scott-abel/) in September.
+
+{% include ads.html %}

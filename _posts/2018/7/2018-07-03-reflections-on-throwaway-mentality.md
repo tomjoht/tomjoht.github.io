@@ -29,6 +29,8 @@ In my 15 years of working in the corporate world, I've learned that every job ha
 
 What if, instead of living with broken processes, or waiting to just get into a new team or new tool or project, we were to meticulously identify every process we felt was broken and then set about trying to fix them in a systematic way?
 
+{% include ads.html %}
+
 Some processes are easier to fix than others, for sure. For example, figuring out how to increase awareness of your team's services in a large company is easier than figuring out how to get senior leaders to champion docs and increase headcount across tech writing groups. But even if the task seems to be insurmountable, we should still seek ways to fix it.
 
 ## Systematically fixing everything that's broken

@@ -42,6 +42,8 @@ Please don't be offended if the questions don't align with your level of experti
 
 If any question seems misleading, irrelevant, or wrong, please let me know by [reaching out to me](https://idratherbewriting.com/contact).
 
+{% include ads.html %}
+
 ## Technical Writing Tests
 
 Here are the four tests:

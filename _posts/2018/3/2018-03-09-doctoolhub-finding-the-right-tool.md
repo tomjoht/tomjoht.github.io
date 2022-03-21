@@ -21,6 +21,8 @@ As many of you are aware, finding suitable technical documentation tools can be 
 
 Other issues abound but I think the point is well understood. On which sources can we rely when researching a new tool to use?
 
+{% include ads.html %}
+
 ## My research process
 
 Remembering my days as a lone technical writer, one ever-present theme was the lack of fellow writers with whom to discuss documentation tools and practices. When a new project started, oftentimes I could rely on prior experiences with tools. If I was lucky, I could recommend or use those tools again. If I had to learn how to deal with new outputs, I spent a lot of time researching tools in Google or asking around in forums.

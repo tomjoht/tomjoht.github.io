@@ -27,6 +27,8 @@ What's interesting is that, even despite the seeming job mecca for tech writers 
 
 <a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/losingcitiesfortechwriters.png"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/losingcitiesfortechwriters.png"/></a>
 
+{% include ads.html %}
+
 This means jobs are even more present in these areas. In contrast, here are some up-and-coming tech cities that are growing their tech writer populations:
 
 <a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/fastestgrowingcities.png"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/fastestgrowingcities.png" /></a>

@@ -25,6 +25,8 @@ The drone protection is implemented quickly. The autonomous drones connect with 
 
 But like a spider who is tapped in front and retreats directly into a cup waiting behind it, the mesh of drones, sensors, and IoT devices play right into the plans of the enemies. Hackers turn the mesh of devices into a botnet that creates distributed denial of service (DDoS) attacks on larger systems. First, the drone protection program is brought down through the DDoS, but then the hackers soon penetrate other air traffic as well. Air travel comes to a halt, disrupting business and market stability.
 
+{% include ads.html %}
+
 With many government servers down due to DDoS attacks, tech teams scramble to restore stability and go back online, but other countries use it as an opportunity to step up their attacks. Cyber warfare escalates. Foreign hackers try to destabilize as many systems as they can &mdash; nuclear facilities, hydro-electric dams, communication systems, the Treasury, and more. It's not an overnight takeover. There are wins and losses and both sides, like a traditional battle. One side wins one resource only to lose another.
 
 In the midst of the cyber assault, massive roid-raged hurricanes, double or triple the size of anything seen before, decimate the east coast. Endless fires ravage the west coast. The government is slow to send relief to devastated areas, and soon the reason surfaces &mdash; corruption has spread within, and resources and funding have been depleted.

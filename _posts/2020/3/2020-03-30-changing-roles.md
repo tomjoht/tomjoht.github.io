@@ -43,6 +43,8 @@ After a while, I met (virtually through many Chime chats) the technical writer t
 
 Here's another example. This isn't from my own work but rather from a recent conversation I had with someone about a company in my area. I noted that I had read some bad reviews from disgruntled technical writers on Glassdoor about this company, and my friend explained that this company has an insanely complex toolchain. Their toolchain builds out DITA from Ant scripts, he said. It mixes in some output from Java and C++ reference outputs. It also pulls in some Madcap Flare. Their toolchain compiles all of this into a professional-looking output with a federated search. He said if some part of this build pipeline breaks, it is extremely difficult to diagnose and fix.
 
+{% include ads.html %}
+
 For example, one time he was contracted to troubleshoot an issue in the pipeline, and it took him several weeks to even identify the problem. He said that writers at this company are mostly editors and publishers because the content is extremely technical and tedious, as it is intended for highly specialized engineers in a particular industry. The writers on Glassdoor said they mainly support engineers in the editing and publishing process. They don't write content.
 
 Enough about the publishing role. What about for simple publishing scenarios, Ellis asks? What about people who have simple, intuitive web-based apps? How are the roles changing there? What if there is no complexity in the publishing? Are technical writers still needed when only basic content generation is involved?

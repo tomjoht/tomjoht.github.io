@@ -20,6 +20,8 @@ However, this giant repo also proved to be problematic. For starters, build time
 
 Additionally, there were more git complexities with lots of people working in the same repo. Before you commit to the master branch, you have to be sure to pull any updates others have made to the master. Additionally, if you change commonly used files, such as \_config.yml, get ready for merge conflicts. When you have a lot of people pushing and pulling commits, creating and removing branches, and so on, you're more apt to bump into each other.
 
+{% include ads.html %}
+
 I don't know if git repos have a size limit, but the invisible .git folder also kept getting larger and larger. The size of that .git folder with all its snapshots and change histories can become quite massive (more than 1GB even), even if all your content is just text files and images.
 
 Another issue with large repos is pushing the output to a staging environment. If you have a giant repo that builds hundreds of files, when you want to review those files, you have to push the entire output to a server (unless you're pushing to S3 using the s3_website plugin). Even if you can make this push from the command line, transferring an output that's 150-200 MB in size gets to be slow. If you find yourself VPNing from a slow network (like at the airport), transferring any more than 20MB can take a half hour.

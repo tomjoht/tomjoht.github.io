@@ -30,6 +30,8 @@ Side note: In case you haven't noticed, I've been reluctant to write much about 
 
 That said, one typo within a beautiful piece of writing will distract readers. A teacher once told me that having a typo in your sentences is like showing up to a party wearing a tuxedo and not realizing your fly is down. As professional writers, we should at least deliver grammatically correct, typo-free content. Never mind if it's accurate or well-written. Just please let there *not be any typos.*
 
+{% include ads.html %}
+
 Grammarly not only checks for typos but also checks for style as well, which includes areas such as clarity, variety, concision, confidence, and so on. As style checkers go, it's probably one of the best available. Although I feel pretty confident in my grammar knowledge, Grammarly helped me identify some consistent style issues in my writing, such as starting sentences with "This ..." and over-using the words "simply" and "actually."
 
 <a href="https://app.grammarly.com/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/grammarlyscreenshot.png" alt="Grammarly"/></a>

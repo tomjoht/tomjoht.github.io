@@ -28,6 +28,8 @@ Here's another slice of analytics focusing more on audience:
 
 {{site.data.alerts.note}}A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a <i>unique visit</i> to the site. If the same visitor views 10 pages, it only counts as a single session. Users viewed an average of 1.65 page views per session.{{site.data.alerts.end}}
 
+{% include ads.html %}
+
 I'd Rather Be Writing received significantly more traffic in 2018 (nearly double the page views) than the previous year. The blue line represents 2018, while the brown line represents 2017.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googleanalytics-2017-2018-comparison.png" alt="Traffic comparison by year" /> <figcaption>Traffic comparison by year. The increased traffic from the API documentation site probably accounts for the massive growth.</figcaption></figure>

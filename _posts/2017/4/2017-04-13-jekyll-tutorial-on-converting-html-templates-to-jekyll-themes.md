@@ -18,4 +18,6 @@ You can view the tutorial here: [Convert an HTML site to Jekyll](http://jekyllrb
 
 This tutorial benefitted from edits from other Jekyll editors. You can view the history in this [pull request](https://github.com/jekyll/jekyll/pull/5881) and [this one](https://github.com/jekyll/jekyll/pull/6006).
 
+{% include ads.html %}
+
 I created this tutorial after converting the [WTD podcast site](http://podcast.writethedocs.org/) into a theme that matches the [rest of the WTD site](http://www.writethedocs.org/).

@@ -32,6 +32,8 @@ rebrandly: https://idbwrtng.com/good-decisions-mistakes
 
 - **Implementing Jekyll in a docs-as-code workflow.** I was fortunate to arrive at a time when we were eager to transition tools, and we implemented Jekyll. I got to work on the theme, the publishing workflows, and other aspects of the docs-as-code solution. This was one of my major highlights, and I realized that I'm pretty good with tools. Looking back, this was a good solution, and it really allowed us to deliver content in more efficient ways. For more details, see [Case study: Switching tools to docs-as-code](/learnapidoc/pubapis_switching_to_docs_as_code.html).
 
+{% include ads.html %}
+
 ## Minor mistakes
 
 - **Getting loaned out to another group while still reporting in the same group**. This was the dumbest mistake I ever made. If you're in one group but get loaned out to another group, you basically end up creating docs for both groups. Instead of getting loaned out, you might as well transition teams in a more formal way because it makes no sense to do work for a group you don't report into, even if your headcount gets re-allocated to that group.

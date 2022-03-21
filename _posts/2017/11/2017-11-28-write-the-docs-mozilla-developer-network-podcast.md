@@ -26,6 +26,8 @@ For more detail, see [Mozilla brings Microsoft, Google, the W3C, Samsung togethe
 
 > In this year alone, 8,021 users made 76,203 edits, greatly increasing the scope and quality of the content. Cross-browser documentation contributions include input from writers at Google and Microsoft; Microsoft writers have made more than 5,000 edits so far in 2017.
 
+{% include ads.html %}
+
 ## Additional links
 
 * [Mozilla Developer Network Web Docs project](https://developer.mozilla.org/en-US/).

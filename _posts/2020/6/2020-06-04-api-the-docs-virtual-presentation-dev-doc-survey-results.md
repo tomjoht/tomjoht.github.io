@@ -52,10 +52,10 @@ If you only want the slides, they're here:
 
 <a href="../learnapidoc/slides/devdoctrends_results.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/devdoctrendssurveyresultstitle.png" alt="Developer Documentation Survey Results" style="max-width:500px; border: 1px solid #444"  /></a>
 
+{% include ads.html %}
+
 ## Registering for more API the Docs events
 
 If you haven't registered for upcoming Virtual Series events, you can [register on Eventbrite](https://www.eventbrite.com/e/api-the-docs-virtual-series-tickets-100381696356?utm_medium=referral&utm_source=eventpage). You can also become an [API the Docs supporter here](https://ti.to/pronovix/api-the-docs-virtual-series).
 
 The virtual series format involves 30-minute presentations (pre-recorded and then played live) on [Crowdcast.io](https://www.crowdcast.io/e/ex4wbvhn) followed by interactive chats on Google Meet. The event lasts two-hours. Recordings will be available the following week.
-
-

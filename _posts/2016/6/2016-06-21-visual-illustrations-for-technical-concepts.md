@@ -13,6 +13,8 @@ For example, check out the [Setter Method](https://google-developers.appspot.com
 
 <figure><a href="https://developers.google.com/android/for-all/vocab-words/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gettersettermethods.png" | prepend: site.baseurl }}"/></a><figcaption>Visual communication in developer doc</figcaption></figure>
 
+{% include ads.html %}
+
 This visual is actual a looping gif animation that provides an interesting, unique way of explaining getter and setter methods.
 
 I'm blown away by the quality of these visuals. Someone with serious talent created a useful glossary like none I've ever seen. A lot of the vocabulary terms are also supplemented with code samples as well.

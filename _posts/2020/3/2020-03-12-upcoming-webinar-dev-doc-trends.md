@@ -33,6 +33,8 @@ Just want to listen to the audio? You can do so here:
 
 * [Trends in developer documentation 2020 - Dashboard](https://www.questionpro.com/t/PGhS9ZgCFE)
 
+{% include ads.html %}
+
 ## Webinar Description
 
 Here's a description of the [webinar](https://www.eventbrite.com/e/trends-in-developer-documentation-a-report-and-analysis-of-tools-workflows-and-challenges-for-tech-tickets-88992728647):

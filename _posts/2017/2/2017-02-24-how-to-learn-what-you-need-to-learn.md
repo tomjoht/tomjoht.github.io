@@ -20,6 +20,8 @@ Some years ago, I had an informal chat with other tech writers on my blog about 
 
 That chat took place a decade ago, in 2007. Looking back, those seemed like the early days of the Internet, when all you needed to know was HTML, a little CSS, and a couple of help authoring tools to get by.
 
+{% include ads.html %}
+
 Now the number of proliferating technologies to learn has reached new levels of madness. For example, in ["How it feels to learn JavaScript in 2016"][1], Jose Aguinaga explains how jQuery, Bootstrap, and Bower are now passé.
 
 Aguinaga says today front-end web developers have replaced those libraries with React, JSX, Babel, ES6, Browserify, WebPack, VueJS, RxJS, Grunt, Gulp, Broccoli, SystemJS, Typescript, OCaml, Ramda, Fetch, Request, Bluebird, Axios, Flux, Flummox, Alt, Fluxible, Redux, SystemJS, and dozens more JS frameworks and tools.

@@ -19,6 +19,8 @@ Then I remembered some well-documented principles and observations which I could
 
 Reading a word activates its semantic category and makes you better at integrating any exemplar for this category. Reading "nightingale," for instance, will likely make you better at recognizing and interpreting knowledge about birds in the later parts of the text. In turn, reading about a category makes you better at detecting and integrating exemplars from this category. Semantic relations makes you process texts faster and improves understanding.
 
+{% include ads.html %}
+
 We could infer from this that non-consistent terminology in our documentation (when several words are pointing to the same thing) is supposed to activate the same semantic categories, so based on priming alone inconsistency should not impair understanding of texts dramatically -- unless some of the terms that are used have several separate meanings, spanning different categories.
 
 ## Research on polysemy

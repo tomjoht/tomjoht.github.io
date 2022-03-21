@@ -22,6 +22,8 @@ When I returned to Project A, I realized that I'd lost all my context. I had to 
 
 If I have one pet peeve when it comes to documentation, it's the frequent context switching that's required of technical writers. I know this happens to *everyone*, and I'm almost foolish to even complain. Juggling multiple projects with competing deadlines is par for the course for any technical writer, in any company. I know, I know. But multi-tasking documentation projects isn't such an efficient approach, in my opinion. Personally, I like to focus on one project and see it through to the end before committing my energy towards another.
 
+{% include ads.html %}
+
 Think of efficiency like a train. When a train gets up speed toward one direction, if you suddenly radio into the train engineer and tell him or her to change direction, it takes a lot of time for the train to slow down, change course, and build up to a new speed in the new direction. Imagine doing this direction switching multiple times in an afternoon &mdash; the train won't get anywhere.
 
 How do you multi-task (more specifically, switch contexts) among projects without losing efficiency? That's the question. Because you'll never be left alone in your cube to work on one project until you finish it. You'll always be bombarded with other projects that take you in a lot of different directions.

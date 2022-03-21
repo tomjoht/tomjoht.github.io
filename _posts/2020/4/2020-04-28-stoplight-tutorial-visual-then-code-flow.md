@@ -19,8 +19,8 @@ I think this new approach (visual first, then code) makes more sense for several
 
 My guess is that in several years, using a visual editor will be the norm anyway. Sure, some systems (like Linux) that let you operate entirely from the command line appeal to some people, but the visual manipulation of objects (e.g., Windows interfaces) turns out to be much more user-friendly and easy, and the easy model tends to win out.
 
+{% include ads.html %}
+
 To make another comparison, at home my family keeps re-adjusting our family chore chart, and during the last go-around, I asked my 15-year-old which approach she would prefer. Her immediate response: "Whatever requires less work." This is pretty much how most of us operate. Users will do whatever requires less work, if that means poking around in the UI to figure it out instead of reading the longwinded user guide, or copying and pasting a code sample from Stack Overflow to see if it works, and then if it doesn't, copying and pasting some other sample until it does, or cloning a sample app and just customizing it a bit for our needs, and so on.
 
 When it comes to creating the OpenAPI spec, if you can generate out most of what you need using a visual editor in under an hour, isn't that approach going to succeed over one that requires two weeks of careful study of the code? The latter might be more beneficial in the long run, but we rarely operate in this mode, especially if in the long run we might not even be working on REST APIs.
-
-

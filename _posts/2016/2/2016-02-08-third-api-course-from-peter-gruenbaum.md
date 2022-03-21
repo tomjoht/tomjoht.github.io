@@ -9,7 +9,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/peteru
 
 [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/) recently published a third course on writing API documentation on Udemy. I reviewed the other two courses in previous posts [here](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/) and [here](https://idratherbewriting.com/2015/07/24/udemy-course-on-api-technical-writing-part-two/). Peter's third course is called [The Art of API Documentation](https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather).
 
-
+{% include ads.html %}
 
 <a href="https://www.udemy.com/the-art-of-api-documentation/?couponCode=idrather"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/peter-api-3rd.png" | prepend: site.baseurl }}" alt="The Art of API Documentation" /></a>
 

@@ -36,6 +36,8 @@ The *main developer docs* doesn't discuss the REST API at all, nor does it discu
 
 Many times, the API reference uses a different design or layout (such as 3-column vs 2-column) compared to the rest of the documentation. The main developer docs then focus on getting started guides and how to use or integrate each product feature.
 
+{% include ads.html %}
+
 Companies that follow this approach may be very API-focused or developer focused, yet already have higher-level integrations. As such, working with the API directly is not be needed. Such companies include [Stripe](https://stripe.com/docs) and also us at Moesif. Stripe, for example, has their Stripe.js and Android/iOS SDKs front and center compared to their REST API.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/moesif-image01.png" style="border: 1px solid #dedede; max-width: 600px;" />

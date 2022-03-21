@@ -18,3 +18,5 @@ For more information about Mark Baker and his new book, see the following:
 * [Mark Baker's blog](https://everypageispageone.com/)
 * [*Every Page Is Page One*](https://www.amazon.com/Every-Page-One-Topic-Based-Communication/dp/1937434281)
 * [*Structured Writing: Rhetoric and Process*](https://www.amazon.com/Structured-Writing-Rhetoric-Mark-Baker/dp/1937434567)
+
+{% include ads.html %}

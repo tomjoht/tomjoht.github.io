@@ -21,6 +21,8 @@ Numerous podcasts emerged, namely [Cherryleaf](https://cherryleaf.podbean.com/),
 
 The divide between tech comm academics and practitioners continued to grow and become a serious issue &mdash; almost the entire issues of *[Technical Communication](https://www.stc.org/techcomm/)* ([volume 63.4 / Nov 2016](https://www.stc.org/techcomm/archives/2016/?wpdmdl=6286&ind=MJ2lhuFEc-Ypwh3v361edvT5vSnSPPcZEY9WBCfJptKWzyotxxg3L_QGxg5ng6Ip)) and *[Intercom](https://www.stc.org/intercom/)* ([volume 63 Issue 10 / Nov/Dec 2017](https://www.stc.org/intercom/download/2017/?wpdmdl=18568&ind=tHGThISllQ5DZxsYDxzyJwiTB10vhwg0-zqOOJHGXV9e3oojay385fPS2YdVt6jG)) have been dedicated to this academic-practitioner rift and potential solutions.
 
+{% include ads.html %}
+
 Agile continues to be a challenge for tech writers, as this [agile podcast](https://idratherbewriting.com/2017/08/04/part1_when-agile-doesnt-work-technical-writers/) received the most listens of any of my 2017 podcasts. And there's a continued trend toward cross-functional, interdisciplinary roles that tech writers can play as [content influencers and strategists](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part5), which an idea I'll expand on later in this essay.
 
 ## Technical Writing Trends for 2018

@@ -24,6 +24,8 @@ My conversation with Carl brought up a constant battle that we face in the workp
 
 When I transitioned from my previous job to my new job, I made a post of [regrets and resolutions][1]. One of my regrets was "focusing too much on tools and not enough on content development." I vowed to "minimize the time spent on tool development and spend more time with content development from the start."
 
+{% include ads.html %}
+
 (The problem is that I'm often attracted to opportunities that involve major tool and process overhauls.) I'm still a  believer in the docs-as-code movement and use Jekyll for docs. But I am becoming increasingly tool agnostic and open-minded about different approaches.
 
 What matters is content, not so much the tool. If there's a way to reduce your time spent tinkering with tools and allow you to deep dive into content, I'm all for that approach.

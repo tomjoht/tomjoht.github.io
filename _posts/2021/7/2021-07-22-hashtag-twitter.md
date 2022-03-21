@@ -44,6 +44,8 @@ No single authoring tool dominates discussions:
 
 > Based on the variety of tools mentioned in the tweets, there does not appear to be an “industry standard” authoring tool. For instance, Adobe TC Suite, ArborText, Sphinx, IXIASOFT, and Oasis all loaded significantly on a variety of themes. What is foundational across the tools, however, are the technologies they are built upon, including XML and DITA. That is, programs might consider a course teaching these foundational technologies and exploring how knowledge of the technology impacts the successful use of a variety of tools. Furthermore, as students learn foundational technologies, they must then also learn about foundational concepts of topic-based authoring, single sourcing, and content reuse.
 
+{% include ads.html %}
+
 ## My thoughts and analysis
 
 I have a few random thoughts, in no particular order:

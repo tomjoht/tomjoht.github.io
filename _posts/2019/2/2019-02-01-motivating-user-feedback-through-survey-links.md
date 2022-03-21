@@ -60,6 +60,8 @@ I only made these updates a couple of weeks ago, but so far these tweaks are wor
 
 For users who receive a quick reply to their feedback, especially including any actions taken about missing information, this experience increases their confidence in using the feedback form in the future. But what about first-timers? How do you design your form in a way that builds trust from the start?
 
+{% include ads.html %}
+
 Should I add promises such as "Receive feedback from a real person within 24 hours." Or "Your feedback is actively monitored and responded to within one business day"? I'm not sure I want to commit to that, but it's surely a best practice to respond quickly. (I'm realizing more and more that people appreciate quick responses to email, even if the responses are shorter.)
 
 Making quick, meaningful responses also raises questions about bandwidth and focus. Suppose a user asks for more information about a product. It might take a week or more to get the information. It might require me to stop making progress on my current project and instead set out fixing already published docs. To what extent should I allow myself to be derailed from my current focus to pursue random directions that incoming feedback takes me? These are details I still need to work out.

@@ -19,6 +19,8 @@ But in contrast to my previous process maps, in this case the process is much lo
 
 First of all, there isn't a directional arrow leading me through the content. I may not want to see Ancient Americas exhibit. Maybe I just want to see the Contemporary Art. When there isn't a set path through the content, workflow arrows don't make sense.
 
+{% include ads.html %}
+
 This map is the equivalent of a table of contents in a help file -- it tells me what's contained in each section, but not the order in which I should proceed through the sections.
 
 What if the museum could issue several workflow maps based on different user goals? For example, suppose I want to browse ancient and contemporary *American* art? The curator could draw appropriate workflow arrows through exhibits containing these items. Or suppose I want to compare ancient and modern sculpture art? Or maybe I am only interested in abstract, boundary-pushing art?

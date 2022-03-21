@@ -62,6 +62,8 @@ Just want the audio? Play it here:
 
 <img style="float:left; margin-right:10px;" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/andrewdavisthumb.png" | prepend: site.baseurl}}" alt="Andrew Davis" />Andrew Davis has recruited technical content developers in the SF Bay Area since 1995. He is a former software industry Technical Writer and has a reputation for both understanding and championing the role of content development.
 
+{% include ads.html %}
+
 Andrew enjoys helping those who communicate complex information get ahead by recognizing and refining their value to technology companies. He's candid and connected and, just as importantly, he likes to help tech industry workers achieve their goals and achieve independence from intermediaries.
 
 Andrew ran Synergistech Communications during the Internet Gold Rush years and has recently returned to solo recruiting mode, incorporating his business as Tech Comm Talent. He remains focused on recruiting great technical content development talent for discerning local technology companies. Join him <a href="http://www.linkedin.com/in/synergistech">on Linkedin</a> and go to [Synergistech](http://www.synergistech.com/) to learn more.

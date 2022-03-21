@@ -31,6 +31,8 @@ http://contentmarketinginstitute.com/what-is-intelligent-content/
 
 the basic idea: how did the transformation happen?
 
+{% include ads.html %}
+
 first attendance of intelligent content. intel content is synonym for dita.
 evolution of structured content
 contentful

@@ -32,6 +32,8 @@ Also, some of the options might have been problematic. In one instance, I listed
 
 At any rate, like I said, the survey didn't force everyone to rate each trend. I always include either a N/A or unsure option in surveys.
 
+{% include ads.html %}
+
 ## A plurality of trends?
 
 Now, to the conclusion. Everything that was ever a trend is still a common practice. That means we're growing ever more plural, fragmented, diverse, variegated, multifaceted, etc., than ever in the field. There aren't any standard tools anymore, and there are many different approaches to documentation. This might make it harder for teachers to prepare students for the job market, and frustrate questions from students about what tools to learn.

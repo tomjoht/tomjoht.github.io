@@ -22,5 +22,7 @@ Links mentioned during the podcast:
 * [Chris Ward's book on Responsive Web Design](https://www.sitepoint.com/premium/books/responsive2/)
 * [Write the Docs app on Fire TV](https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1493618613&sr=1-1&keywords=write+the+docs)
 
+{% include ads.html %}
+
 [1]: http://podcast.writethedocs.org/2017/04/30/episode-5-where-do-we-belong/
 [2]: http://podcast.writethedocs.org/how-to-subscribe/

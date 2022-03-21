@@ -38,6 +38,8 @@ I'm guessing that my existing news-reading habits are mostly the norm these days
 
 * I dislike the news alerts delivered to my inbox in various "breaking news" streams throughout the day. I feel like this creates a state of continuous partial attention, where I'll check my email during a moment of boredom for a hit of news. This takes me out of my normal task flow and keeps me continuously informed about what's going on. When news breaks, reporting is often incremental, as more details pile in. This creates more of a sense of entertainment in the news-development process itself. As a result, I'm less likely to be immersed and present in whatever activity or task I'm involved in.
 
+{% include ads.html %}
+
 ## Initial impressions one week into the experiment
 
 In my first week of consuming print newspaper, I've noticed that it's much easier to get out of bed. Whereas previously, reading articles on my phone would lull me into remaining in bed for 30-45 minutes after waking up, I now perk up (unfortunately at 5 am) and am out of bed within a 5 minutes or less. My entry into the world is heightened by the idea of getting the newspaper from the driveway and seeing what's in the news.

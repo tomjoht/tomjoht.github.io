@@ -9,3 +9,5 @@ description: "I added an article called 'Developer experience (DevX) usability' 
 ---
 
 You can read the article here: [Developer experience (DevX) usability](/learnapidoc/devx-usability-examples.html).
+
+{% include ads.html %}

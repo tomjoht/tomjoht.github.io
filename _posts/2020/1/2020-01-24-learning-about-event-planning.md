@@ -18,6 +18,8 @@ With my API doc workshops, I have a specific focus &mdash; tech writers working 
 
 Besides the narrower audience focus, another element in event planning is picking the right location. I sort of made a mistake in picking LA as a location. I thought LA had more of a tech focus, but it doesn't. Irvine does. I should have held the workshop in Irvine (45 minutes away), but for whatever reason, I ended up steering it more towards LAX. I can't even remember why except to accommodate those flying in since LAX is a major hub. Apparently, some years ago during a tech comm crash, many tech companies in LA moved elsewhere. It's crazy that a one-hour flight (distance from SF to LA) can make so much difference with demographics, but it does.
 
+{% include ads.html %}
+
 On the plus side, some of the LA participants have deep experience in the tech comm industry and are really interesting people to talk to. And we had 15 people, which some feel is the perfect size for a workshop like this.
 
 Overall, when deciding on locations, you might hear from people in an area who express interest in the topic, which might lead you to think there is wider interest in the area as well. But is there? It's difficult to gauge interest in an area in a more data-driven way.

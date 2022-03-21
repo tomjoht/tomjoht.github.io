@@ -35,6 +35,8 @@ I can feel that I'm getting older. Here are a few experiences lately that make m
 
 For starters, I've recently suffered a few physical injuries from basketball that have caused me to wonder whether perhaps it's time to either hang up my shoes or change my style of play. Recurring calf strains, a herniated disc, piriformis, capsulitis, impinged shoulder nerves &mdash; it can leave one feeling decrepit.
 
+{% include ads.html %}
+
 A few days ago we recorded [episode 20](https://podcast.writethedocs.org/2019/03/02/episode-20-standards-for-docs-and-working-with-marketing/) of the Write the Docs podcast. I couldn't help but think our guest co-host looked right out of high school. I kept thinking, is he particularly young, or am I just getting older?
 
 After my recent trip to the [Symposium for Communicating Complex Information conference](https://idratherbewriting.com/2019/02/24/slides-for-trends-preso-symposium-for-communicating-complex-info/), while sitting at the airport en route back home, I was casually chatting with a conference attendee who asked if my profile picture on Linkedin was taken long ago &mdash; because I seemed to appear much younger in the picture. The picture was taken just 3 years ago.

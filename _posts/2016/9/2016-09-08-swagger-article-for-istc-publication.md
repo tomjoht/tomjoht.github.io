@@ -11,6 +11,6 @@ If you're an ISTC member, then you already get the [ISTC Communicator](http://ww
 
 If you're not an ISTC member, you can read my article here: [Implementing Swagger (OpenAPI specification) with your REST API documentation](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stc_communicator_swagger.pdf) (PDF). I originally published this content on my [API doc course](/learnapidoc/), but the course content has since evolved and now the original article in that context is no longer there. See [OpenAPI spec and generated reference docs](/learnapidoc/restapispecifications.html) for the latest approach.
 
-
+{% include ads.html %}
 
 A lot of people ask about Swagger, and although I've written about Swagger previously, this is my clearest and most thorough article on the topic to date.

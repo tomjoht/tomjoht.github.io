@@ -12,3 +12,5 @@ description: "In this episode, Chris and Jared are joined by the Write the Docs 
 You can watch the episode on the [Write the Docs Podcast site](https://podcast.writethedocs.org/2019/09/22/episode-24-swapnil-and-wtd-australia/).
 
 <i>I was out of town during this recording, but it was still a good show. :) </i>
+
+{% include ads.html %}

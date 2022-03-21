@@ -18,6 +18,8 @@ To understand content strategy, you have to grasp the difference between strateg
 
 To use an analogy, the content strategist is like a general deciding where to position troops in a battle, what fighting techniques to use, the weaponry and soldiers, etc. The general isn't the one going into battle, usually. Instead, the general sits high on a hill, assessing the work and thinking strategically about how to win. The general moves chess pieces on a war board in a tent. The tactician, on the other hand, is the soldier following orders. The tactician is the one wielding the weapons, getting his or her boots dirty in the trenches in hand-to-hand combat.
 
+{% include ads.html %}
+
 For a better introduction to content strategy, see Kristina Halverson's classic book, [Content Strategy for the Web](https://www.amazon.com/Content-Strategy-Web-Kristina-Halvorson/dp/0321808304/ref=asc_df_0321808304/). Or see [The Language of Content Strategy](https://www.thriftbooks.com/w/the-language-of-content-strategy_scott-abel_rahel-anne-bailie/13611936/item/30107645/) by Scott Abel and Rahel Bailie.
 
 For some less formal background, see my post [How to tell if you're a content strategist](/2016/10/26/how-to-tell-if-youre-a-content-strategist/). Or [Strategy Versus Tactics and the Ongoing Debate about Roles](/2010/10/26/strategy-versus-tactics-and-the-ongoing-debate-about-roles/).

@@ -54,7 +54,7 @@ Markel (2012), for instance, outlines tasks such as audience profiling and user 
 
 While writings and research on pre-deployment usability can inform the design of a feedback feature in an online help system &mdash; by applying the usability heuristic of recognition to a feedback option, for example &mdash; they do not examine the value of post-deployment user feedback, and how it is employed to improve the usability of online help. Aided by technological developments, a growing number of online help systems solicit feedback from users.
 
-
+{% include ads.html %}
 
 ### 2.2. Technological Advances and Online Help
 

@@ -19,4 +19,6 @@ Here's a summary:
 
 > Highly technical material often becomes incomprehensible due to the unfamiliar terminology that's simply part of the technical domain. Readers who don't already speak the technical language in fluent ways will struggle to make sense of the material. To make these highly technical texts more accessible to users of all levels, you can create glossaries, embed definitions in tooltips, provide links for background knowledge, and more. As you define your terms, it's helpful to read beyond your company's content and check out how the same terms are used in your competitor's documentation and industry articles. As you become more aware of terms and their definitions, you will be more precise and careful with language in your documentation.
 
-Continue reading: [Reducing the complexity of technical language](https://idratherbewriting.com/simplifying-complexity/reducing-the-complexity-of-technical-language.html)
+Continue reading: [Reducing the complexity of technical language](/simplifying-complexity/reducing-the-complexity-of-technical-language.html)
+
+{% include ads.html %}

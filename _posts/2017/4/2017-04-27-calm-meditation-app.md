@@ -13,8 +13,6 @@ You can view my Calm Meditation app in the Amazon Appstore [here](https://www.am
 
 <a href="https://www.amazon.com/Id-Rather-Be-Writing-Meditations/dp/B071DRTYG2/ref=sr_1_1"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/calm-meditation-app.png"></a>
 
-
-
 On your Fire TV, search for "Calm Meditation." (The app doesn't work on Kindle tablets.)
 
 My primary role at Amazon involves creating documentation for third-party developers creating Fire TV apps. Previously, I wrote about how I created an [Android app from the Write the Docs podcasts](https://idratherbewriting.com/2017/04/09/write-the-docs-app-on-fire-tv/). HTML5 web apps differ from Android apps in that they use web technologies (HTML5, JS, CSS) instead of Java and Android APIs. I didn't want to have two different apps with the same content, so I set about to capturing some generic video content last weekend to build the web app.
@@ -22,6 +20,8 @@ My primary role at Amazon involves creating documentation for third-party develo
 With my 6-year-old riding beside me on her bike, we ventured down the [San Tomas Aquinas trail](http://www.rhorii.com/STACT/SanTomasTrl.html) with an iPhone and tripod in hand, periodically capturing 2-minute still scenes from the trail and accompanying canal. I then uploaded the videos to YouTube and chose some Ambient background music. I also grabbed some interesting Buddha quotes to use in the descriptions.
 
 The result? Some quasi-meditational videos that look decent enough to be a real app. My kids love it (anything that appears on the TV screen gets their attention). My six-year-old said we should call it "The Calm App." When you're stressed out, you go and watch a few videos while focusing on some slowly moving element (e.g, blades of grass, ripples in water, passing cars) to focus your attention on nothingness. It kind of works. I'm not into meditation myself, as I don't have the patience for it (sadly), nor yoga. But I had a lot of fun creating this app!
+
+{% include ads.html %}
 
 I also created a companion site that contains the videos: [idratherbewriting.com/calm-meditation](https://idratherbewriting.com/calm-meditation/). I created the site to generate an [MRSS feed](https://idratherbewriting.com/calm-meditation/feed.xml), which is one way to configure the media in the app framework. The web site uses the generic Jekyll theme (Minima) and is [hosted on GitHub](https://github.com/tomjoht/calm-meditation). (If you need an MRSS template, check out the [feed.xml file](https://github.com/tomjoht/calm-meditation/blob/master/feed.xml) in the source. Jekyll is awesome for creating feeds like this.)
 

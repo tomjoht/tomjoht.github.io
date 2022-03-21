@@ -24,6 +24,8 @@ Removing the other engineers actually frees up the 10X engineer to work more pro
 
 Clive Thompson, the co-host for this episode and author of [Coders: The Making of a New Tribe and the Remaking of the World](https://www.amazon.com/gp/product/B07DBRNN1Z/), says, "... there's a type of magic that those highly productive people can do when everyone else just gets out of the way, and they can build that crystal palace in their mind."
 
+{% include ads.html %}
+
 ## Parallels to 10X writing
 
 Although the hosts don't mention parallels to writing, the same myth is common with writers. For example, consider the story about how Jack Kerouac wrote *On the Road* (one of my favorite novels):

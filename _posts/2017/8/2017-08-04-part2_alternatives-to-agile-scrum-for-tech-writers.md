@@ -89,6 +89,8 @@ Mark examines ways to eliminate the frequency of errors in tech docs. Sure, revi
 
 Mark says, "Don’t just try to fit into development’s Agile process. Create your own lean content development process" ([Don’t Lean on Development’s Agile Process](http://everypageispageone.com/2013/11/25/dont-lean-on-developments-agile-process/)). He warns that Agile Scrum integrations often lead tech writers to create product-centered documentation rather than user-centered documentation (I touched on this point in my previous post).
 
+{% include ads.html %}
+
 Lean's philosophy of reducing waste and increasing value in docs should be strategies for any tech writer. The question is what methodology (Scrum, Kanban, Kaizen, Waterfall, Tim Feiress' approach) one should use to implement Lean and Agile principles. I'll probably circle back to Lean in another post.
 
 ## Doc teams with their own Scrum

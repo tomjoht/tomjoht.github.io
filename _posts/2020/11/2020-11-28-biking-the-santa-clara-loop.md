@@ -33,6 +33,8 @@ As a loop, you can hook into this path almost anywhere. A most road crossings, t
 
 If you don't live close enough to just hook onto the loop from your house, you could park at the [San Tomas Aquino Trailhead](https://bit.ly/2Vc5c74) at the intersection of Monroe and San Tomas Expressway. There's parking there, and a little park as well. Lots of people park here who are using the trail.
 
+{% include ads.html %}
+
 ## The route
 
 When you reach the top of [San Tomas Aquino Creek trail](https://www.santaclaraca.gov/Home/Components/ServiceDirectory/ServiceDirectory/1277/2654), rather than turning west towards [Baylands park](https://sunnyvale.ca.gov/community/parks/baylands.htm), go east and jog up toward Alviso and then hook onto the [Guadalupe River Trail](https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2985/2058). (BTW, to add on an extra mile, take a detail into [Alviso Bay](/2019/03/17/biking-alviso/) and look across the water. It's an interesting, kind of mildly awesome view of the quiet Bay + salt flats and a post-industrial cannery city.)

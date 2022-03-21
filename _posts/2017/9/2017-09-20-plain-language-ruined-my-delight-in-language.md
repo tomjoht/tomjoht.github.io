@@ -141,6 +141,8 @@ For the literary essayist or novelist, language is a tool for expression. The mo
 
 I'm 42 years old, and I don't think I've ever used the word "erstwhile" in either speech or writing, let alone "erstwhile acolyte." Why would someone decide to suddenly use this phrase instead of something simpler?
 
+{% include ads.html %}
+
 The [Simplified Technical English (STE) dictionary](https://idratherbewriting.com/2017/01/25/hyperste-simplified-technical-english-asd-ste100/) limits the number of words you can use to around 900. Any word that has multiple meanings is usually restricted, or if used, can only be used in its most conventional way. Would literature be better off following the guidelines of Simplified Technical English? Is it time to move "erstwhile" to the growing list of extinct words?
 
 No, of course we can't force literature to follow simplified English without gutting the English language. Eliminating huge chunks of the language, however complex or arcane or hard-to-understand, would be a mistake. Although STE has a place in technical documentation, which is already overflowing with its own impenetrable jargon, applying the same plain language principles to other genres would be the equivalent of removing all non-rainbow colors from a box of crayons. (No teal, no periwinkle, no burnt sienna. Just blue, green, yellow, etc.). What a boring world that would be.

@@ -23,4 +23,4 @@ I thought I'd follow up this topic with a fun multi-question poll. There are 5 q
 
 <script language="JavaScript" src="https://www.questionpro.com/a/TakePoll?pollID=6258475"></script><noscript><a href="http://www.questionpro.com" title="online survey">Online Survey</a></noscript>
 
-
+{% include ads.html %}

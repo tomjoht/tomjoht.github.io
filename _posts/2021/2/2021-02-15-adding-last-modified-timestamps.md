@@ -39,6 +39,8 @@ You can see different commit histories by selecting a different timestamp at the
 
 So for my `last-modified` timestamp, I chose `2020-08-04`. Unfortunately, when I update the page again, I'll need to manually remember to update this date. But at least now I have a baseline of real last modified dates.
 
+{% include ads.html %}
+
 ## GitHub button to see file in GitHub
 
 I also added a small GitHub button after the "Last updated" timestamp on pages.

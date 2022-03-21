@@ -38,6 +38,8 @@ Attendees will learn:
 
 The webinar was sponsored by Zoomin software and hosted through BrightTalk with Scott Abel.
 
+{% include ads.html %}
+
 ## Preliminary thoughts
 
 This should be a good webinar, especially with Paul Gustafson and Megan Gilhooly &mdash; both of whom are extremely knowledgeable people. Exactly what are we talking about in this webinar? It's a title that could be interpreted in different ways. Growing your content faster than your team speaks the way tech writers are supporting more and more content across the enterprise, with fewer resources to engage deeply with the different teams producing the content. You might need to develop a center of excellence site to establish best practices and standards that others follow.

@@ -41,6 +41,8 @@ If the defense doubles up on someone like Harden, he passes the ball to an open 
 
 **Applicability to tech comm:** Maybe a role you thought was key turns out to be superfluous. Maybe you get rid of middle management and replace the role(s) with another senior technical writer, and then share the managerial responsibilities across all the senior writers? Or maybe you get rid of your tools guru and outsource that role to a commercial solution? Or maybe get rid of some process or pipeline stage you thought was essential? What central role or process can you do without?
 
+{% include ads.html %}
+
 ## 4. Dribble penetration
 
 The dribble penetration strategy involves a guard penetrating into the paint to collapse the defenders on him, at which point he passes to an open shooter. There's a gravity that happens around the ball &mdash; a gravity that pulls in other defenders, especially as you get closer to the hoop. Trae Young constantly does this by getting into the paint and then, when others come to help on defense, he lobs it to Capela for the dunk. Here are highlights from Luca Doncic playing for his Olympic team (Slovenia). Watch how Luca drives a bit, draws defenders on him, and then passes to the open teammate to shoot.

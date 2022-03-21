@@ -10,3 +10,5 @@ description: "Conducting a successful documentation review is challenging, espec
 ---
 
 You can read the article here: [Processes for reviewing documentation](/learnapidoc/docapis_review_processes.html).
+
+{% include ads.html %}

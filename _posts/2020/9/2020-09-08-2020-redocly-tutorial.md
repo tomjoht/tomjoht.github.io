@@ -10,3 +10,5 @@ description: "I added a lengthy tutorial in the API doc course for using Redocly
 ---
 
 You can view the tutorial here: [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](/learnapidoc/pubapis_redocly.html).
+
+{% include ads.html %}

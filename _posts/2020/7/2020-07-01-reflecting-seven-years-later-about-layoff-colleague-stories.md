@@ -78,6 +78,8 @@ Colleague 2 stayed on for a year as an IP manager but then later transitioned to
 
 At the time, I remember seeing Colleague 2’s Linkedin profile change to “Engagement Manager” and I wondered why he’d taken this turn in his career. I wondered if he would go in another direction like Colleague 1, but Colleague 2 eventually did return to the discipline of tech comm. He said, “I thought about letting it lead my career into a more technical consulting role for the product we worked with, but an opportunity to jump back into tech comm came available, and I jumped.”
 
+{% include ads.html %}
+
 Because Colleague 2 remained in place at ICS in an IP manager role (but not doing technical writing) while the rest of us were let go, he had more insight than others. Like the rest of us, though, he wasn’t sure and could only hear gossip and gather impressions about the reasoning and calculations behind the layoff. Colleague 2 explained,
 
 > As for what went on behind the scenes when determining how to get rid of the tech comm team, I heard some scuttlebutt. However, it was basically gossip, so I can’t validate its veracity. I had a clear impression that the solutions manager needed to trim X number of people from his team. He had actual deliverables he needed to produce. Our team worked on a consultancy basis and didn’t affect in a direct way the work he needed done. So if you have to get rid of X people, and you’ve got some that aren’t directly producing the work you need done, they are the obvious first choices. So it wasn’t so much a conscious decision to rid the organization of tech comm, it was a decision to protect the people who were getting the work done that he was committed to.

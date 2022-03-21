@@ -10,3 +10,5 @@ description: "I added an article about content strategy for the developer experi
 ---
 
 (Note that I had an earlier blog post titled [From API docs to developer portals](/blog/from-api-docs-to-developer-portals/). I mostly expanded on the role description, refined the points mentioned there, and incorporated them into the course.)
+
+{% include ads.html %}

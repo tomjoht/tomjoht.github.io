@@ -27,3 +27,5 @@ For more on this topic, see these two resources:
 
 * [Cherryleaf Podcast 86: Covid-19 The future for organisations and for technical communication, by Ellis Pratt](https://www.cherryleaf.com/2020/04/podcast-86-covid-19-the-future-for-organisations-and-for-technical-communication/)
 * [Communicating About COVID-19, by Kirk St. Amant](https://communicating-about-covid19.weebly.com/)
+
+{% include ads.html %}

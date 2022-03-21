@@ -22,6 +22,8 @@ This research combines efforts among academic researchers, engineers, usability 
 
 Basically, in C++, the header files (`.h`) contain the classes and the main documentation. The implementation files (`.cc`) instantiate and implement the classes from the header. Implementation files have comments peppered in with the code, whereas header files have more formal documentation that follows specific annotation conventions.
 
+{% include ads.html %}
+
 The researchers used tracking tools to identify when developers would switch from one file to another, and they also interviewed the developers as a follow-up. Google has about a billion lines of code stored in a central code repository that can be used across the company, so thousands of developers might find and discover code to use in their projects. The team that uses an API might not know the team that developed the API, and vice versa. The researchers gathered information from more than 600 participants in their study.
 
 ## Where developers look for documentation about code
@@ -68,5 +70,3 @@ Overall, this research has many insights and conclusions. Probably the main take
 Skipping docs based on the assumption that code is more readable on its own also assumes that you can trust the judgment of the engineers who designed and created the code. In my experience, the development team almost always overestimates the level of intuitiveness of the code they wrote and assumes more capability in their audience than the audience actually has. How many times have you heard engineers say, "Users will understand this &mdash; and if they don't, they *shouldn't* be using the API." Are the risks of omitting docs greater than the risk of including them?
 
 The article addresses many of these concerns and presents a complex view about each of these facets &mdash; where to store documentation, when to document, what questions to address, and more. There's not always a clear path to follow (it's messy), and many environmental, product, and audience details must factor into the documentation strategy. Still, this article provides solid research and probes the topic in illuminating ways.
-
-

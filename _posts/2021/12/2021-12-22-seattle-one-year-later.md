@@ -30,6 +30,8 @@ During the pandemic, a lot of us found out if we liked working from home or the 
 
 When some of the Google workplace buildings first re-opened, I started going in 3-4 days a week, each time reserving a desk that was randomly assigned (different floors and areas each day, surrounded by different people each time). After a few months of "hot desk booking" in South Lake Union (SLU), my home office in Fremont finally opened, so I now have a dedicated desk co-located with the group I'm working with. (Google's Return to Office was mid-January, though any hard-date for return was recently blurred.)
 
+{% include ads.html %}
+
 ## Playing basketball
 
 I'm sorry that I subject my readers to so much basketball talk, so I'll be brief. I went through a spate of calf injuries a while ago, but I hope I have finally turned the corner on those injuries, as I described in [Barefoot shoes, basketball, and how to avoid recurring calf strains](/blog/barefoot-shoes-basketball-fix-for-recurring-calf-strains). I've been playing 3-4 times a week through the [Puget Sound Basketball Leagues](https://pugetsoundbasketball.com/hod-game-calendar/) (PSBL) group, which is the best structure for pickup basketball in Seattle. The PSBL model avoids the uncertainty of whether there will be enough people for a game, what the teams will be, when people will show up, how to get in the next game, and more.

@@ -45,3 +45,5 @@ Here's a description of the presentation from the [Southern Ontario STC](https:/
 > Although developers and web engineers love Jekyll, there are significant challenges to overcome when adopting Jekyll for any robust tech comm publishing scenario. Some of these challenges include conditional filtering, single sourcing, PDF output, a robust TOC, search, context-sensitive help, collaboration, SME review, and more.
 >
 > In this presentation, Tom Johnson will share his adventures in using Jekyll and how he dealt with each of these challenges.
+
+{% include ads.html %}

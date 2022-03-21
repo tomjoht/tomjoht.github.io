@@ -32,6 +32,8 @@ During the day, other tasks kept getting added to my plate, so I noted them by w
 
 I didn't act on each of these incoming tasks but rather noted them only and later, at the end of the day, entered them in an issue tracking system to tackle later. By doing this, I was attempting to regulate the flow of tasks.
 
+{% include ads.html %}
+
 However, as you can see, at this rate I'm only getting more and more buried in work. Limiting the flow of tasks may help me avoid burnout, but it's clearly not cutting through the pile of to-do items here. I'm only getting more and more behind.
 
 That's why I started reading Tim Ferriss' *[The 4-Hour Work Week](http://fourhourworkweek.com/)*. What stood out most to me in Ferriss' ideas is to apply the 80-20 rule, or [Pareto's Law](https://en.wikipedia.org/wiki/Pareto_principle), to all aspects of my life. Ferriss says:

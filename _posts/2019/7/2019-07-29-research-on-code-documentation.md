@@ -19,6 +19,4 @@ Here's a summary of the content:
 
 Read more here: [Research on documenting code](/learnapidoc/docapiscode_research_on_documenting_code.html).
 
-{% comment %}
-
- {% endcomment %}
+{% include ads.html %}

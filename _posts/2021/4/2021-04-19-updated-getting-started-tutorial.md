@@ -9,3 +9,5 @@ description: "I updated the Getting Started tutorial section in my API course. I
 ---
 
 You can view the tutorial here: [API getting started](/learnapidoc/docapis_doc_getting_started_section.html).
+
+{% include ads.html %}

@@ -9,8 +9,6 @@ description: ""
 published: false
 ---
 
-
-
 ## Presentation description
 
 **How Trends in API Documentation Differ from other Tech Comm Trends: Results from a comprehensive survey**
@@ -23,3 +21,5 @@ photo: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.
 *About Tom Johnson*
 
 Tom Johnson is a senior technical writer for Amazon in Sunnyvale, California. He is best known for his blog https://idratherbewriting.com, which has one of the largest followings in the tech comm community. Tom has also created an extensive online API documentation course (https://idratherbewriting.com/learnapidoc) that has helped hundreds of technical writers transition into API documentation.
+
+{% include ads.html %}

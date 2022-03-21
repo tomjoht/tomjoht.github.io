@@ -39,6 +39,8 @@ First is the fact that, as the readers's experience shows, technical writers typ
 
 To be clear, that third bullet point is _not_ to say that technical writing isn't important or that technical writers aren't a part of integral business functions within organizations. Clearly, we _are_. In order to understand the needs of users of a certain software manual, for example, the person writing that manual will need to talk to the developers to understand how the application works. They'll need to talk to sales and technical support people to learn more about the people using the product, and if possible, they should interview some end-users of the product to gain a better understanding of what  those users need. Clearly, all of these are important business functions.
 
+{% include ads.html %}
+
 At the same time, though, we don't always know what people generally think technical writing is. Sure, people may know that a technical writer writes something "technical" (that much might be apparent), but do they know _why_ technical writing is important? Do they know the consequences of not having dedicated writers on staff? Have they taken a technical or professional writing course in the past, or have they worked with a technical writer at any point in their career? These are the kinds of questions that can't always be answered by intuition; sometimes we have to dig deeper.
 
 This is where research comes in.

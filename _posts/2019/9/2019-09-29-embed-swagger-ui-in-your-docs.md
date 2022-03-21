@@ -21,6 +21,8 @@ One way to make this site-in-a-site effect less clunky is to add the ability to 
 
 This little JavaScript trick will collapse your sidebar, giving your embedded Swagger display full width (which is usually needed for readability).
 
+{% include ads.html %}
+
 To include a Nav toggle, first make sure you're including [Font Awesome](https://fontawesome.com/) and [jQuery](https://jquery.com/) in your site. Then add the Nav icon with this class at the top of your page:
 
 ```html

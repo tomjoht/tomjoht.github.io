@@ -93,6 +93,8 @@ Next, I create a separate page for each device. So I do actually have about 10 p
 
 When the `firetv_specs_table.html` include is called, the `device` and `device_friendly_name` parameters get populated. In this case, `ftvcube` is used in a way that retrieves the right info from the YAML file. It will be inserted into `{% raw %}{{site.data.firetv-specs.media_specifications.video.h264[device]}}{% endraw %}` so that it's populated like this: `{% raw %}{{site.data.firetv-specs.media_specifications.video.h264.ftvcube}}{% endraw %}`. The variable assignment (`{% raw %}{% assign device = {{include.device}} %}{% endraw %}`) and brackets are needed because we're inserting this into formatting that already has double curly braces.
 
+{% include ads.html %}
+
 For the other variable, `device_friendly_name`, this gets inserted into `{% raw %}<caption>{{include.device_friendly_name}}</caption>{% endraw %}`. Since this variable isn't already inside curly braces, no brackets are needed.
 
 (Note: I'm sorry for the poor explanation here, but more proper explanations about how Jekyll works would require me to back up several revolutions and create a much longer post.)

@@ -9,3 +9,5 @@ description: "I updated the Introduction to API documentation topic in my API do
 ---
 
 You can read the updated topic here: [Introduction to REST API documentation](https://idratherbewriting.com/learnapidoc/docapis_intro_to_rest_api_doc.html).
+
+{% include ads.html %}

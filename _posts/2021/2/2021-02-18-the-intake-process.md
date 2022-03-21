@@ -6,7 +6,6 @@ permalink: /blog/who-can-make-documentation-requests/
 keywords:
 description: "In my API course, I defined intake processes for <a href='https://idratherbewriting.com/learnapidoc/docapis_managing_doc_projects.html'>large documentation projects</a> and <a href='https://idratherbewriting.com/learnapidoc/docapis_managing_small_doc_requests.html'></a>small requests. However, I recently realized a major flaw in the process for small doc requests -- who can make the documentation request. In a nutshell, if you let anyone make doc requests, you can end up saddled with tasks to create documentation for which you lack information. If you instead require product teams to make the requests, you're more likely to get the information you need upfront."
 rebrandly: https://idbwrtng.com/docrequests
-published: false
 ---
 
 ## The scenario
@@ -23,6 +22,8 @@ In contrast, if you ask DevRel teams to make requests for documentation through 
 This week was particularly frustrating for me because I wasn't following this workflow. I was working through partner-facing groups but unable to get much traction on a requested ticket. Everywhere I turned, I seemed to run into a deadend. Then I observed how another team bent over backwards delivering information for a partner-facing request, and it dawned on my what my error was. I shouldn't have allowed the DevRel group to file the ticket themselves, but rather should have instructed them to pressure the product team who owns the feature to file the doc request.
 
 Based on this experience, I added a section in my API course title [Requests should come through product teams](/learnapidoc/docapis_managing_small_doc_requests.html#requester).
+
+{% include ads.html %}
 
 ## Larger lesson
 

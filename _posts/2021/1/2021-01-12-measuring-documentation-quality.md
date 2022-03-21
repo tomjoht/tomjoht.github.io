@@ -18,3 +18,5 @@ Here's the intro:
 > Despite the importance of metrics about documentation quality, they are an elusive, holy-grail type task that almost no one in the industry has nailed down. How do you know if your docs are any good? Few can answer this question in any objective way. In this section, I'll provide a strategy for making metrics more approachable by scoring docs against a rubric of best practices.
 
 Read more here: [Measuring progress against documentation quality goals -- a practical checklist to evaluate documentation](/learnapidoc/docapis_measuring_impact.html).
+
+{% include ads.html %}

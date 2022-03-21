@@ -126,6 +126,8 @@ You can also track feedback about [article performance](https://docs.document360
 
 Documentation is an iterative process, and you need this kind of feedback to make incremental improvements with each cycle.
 
+{% include ads.html %}
+
 ## 5. On-page navigation {#navigation}
 
 Another common trend in API docs is to have a long page of reference material with on-page navigation controls that let you jump down the page. In the CTO docs, the [CLI Commands](https://cto.ai/docs/en/cli-commands) topic has a good example of this scenario. The page lists about 30 different CLI commands. The right-side on-page TOC lets you jump down to the desired topic.

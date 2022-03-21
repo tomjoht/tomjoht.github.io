@@ -16,6 +16,8 @@ Working from the office (downtown Seattle in South Lake Union), I found it much 
 
 I did feel guilty "abandoning" my family during the day. My wife felt like she was doing double duty with me being gone, so I started only going into work half days. But for the half day when I was working from home, my kids didn't miss me much or even notice I'd been gone. I noticed their absence more than they noticed mine.
 
+{% include ads.html %}
+
 Overall, I did find that I could focus better while at work. Some time ago, I described my technique of [focus sessions](/blog/writing-productivity-through-focus-sessions/). At work, it was noticeably easier to get through my goal of four writing focus sessions a day. Workplaces are optimized for productivity, with everything from optimal temperature to ergonomic desks, lighting, snacks, and other amenities.
 
 However, even when I'm at my peak productivity at work, I need breaks every now and then. Without colleagues to chat with, places to explore, or other means of distraction, the long workday gets a bit tiring. There just isn't much to do when I want a break. I found myself wandering around the office supply area, alone, munching on a bag of chips, occasionally looking out the window at the traffic below.

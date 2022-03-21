@@ -60,6 +60,8 @@ The results:
 
 Suspicions confirmed! I did a lot more work on my API doc site in 2019, probably because I was giving regular workshops and had to make sure the content was up to date. Full-day workshops were certainly a forcing function to keep the site more up to date.
 
+{% include ads.html %}
+
 ## API doc site influence on metrics
 
 In 2019, traffic to my [API doc site](/learnapidoc/) accounted for 72% of my overall site traffic. In 2020, this number climbed to 75%. I'm glad to see that the API doc traffic wasn't a temporary anomaly.

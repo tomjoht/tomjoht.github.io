@@ -15,4 +15,6 @@ The micro-macro principle is as follows:
 
 You can get to this section by clicking the [Complexity](https://idratherbewriting.com/simplifying-complexity) button on my main navigation bar.
 
-For the earlier post on deepening value by focusing on complexity, see [Part VI: Deepening documentation's value by simplifying complexity](https://idratherbewriting.com/2017/12/28/value-of-tech-comm-in-company-part6/).
+For the earlier post on deepening value by focusing on complexity, see [Part VI: Deepening documentation's value by simplifying complexity](/2017/12/28/value-of-tech-comm-in-company-part6/).
+
+{% include ads.html %}

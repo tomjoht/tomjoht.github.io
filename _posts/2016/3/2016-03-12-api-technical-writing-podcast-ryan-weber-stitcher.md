@@ -14,6 +14,8 @@ You can listen to the API technical writing podcast [here](http://www.stitcher.c
 
 Currently, Ryan has about 25 podcasts on the site and has been recording regularly since September 2014. The topics vary widely, and each episode holds true to the podcast's title ("10 minute tech comm").
 
+{% include ads.html %}
+
 You can learn about Ryan and the podcast here:
 
 * [Ryan Weber](http://www.uah.edu/ahs/departments/english/faculty-staff/ryan-weber)

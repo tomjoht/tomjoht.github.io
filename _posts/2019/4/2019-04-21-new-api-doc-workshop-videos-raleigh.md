@@ -22,8 +22,6 @@ For convenience, I also embedded the YouTube videos below.
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/L4YFlSB8STI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
 ## Video 3
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/8vkt3hftD1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,4 +36,4 @@ For convenience, I also embedded the YouTube videos below.
 
 For audio files only, see the <a href='/learnapidoc/docapis_course_videos.html'>Video recordings of API doc workshops</a> page in the API course site. Also, note that I moved previous recordings of API doc workshops (in [Denver](/learnapidoc/denver_workshop_recording.html) and in [Menlo Park](/learnapidoc/menlo_park_workshop_recording.html)) into the Resources section.
 
-
+{% include ads.html %}

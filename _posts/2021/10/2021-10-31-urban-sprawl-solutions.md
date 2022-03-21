@@ -35,6 +35,8 @@ Less expensive housing in downtown areas usually involves undesirable living con
 
 In contrast, housing options in the suburbs include two or three times as much space, much newer homes, yards, ample parking, and more greenery &mdash; in addition to costing much less. You can achieve the American dream with a house of your own, white picket fence, dog running in the grassy backyard, etc. The only tradeoff: you must drive a car everywhere. That's the price you pay &mdash; being chained to your car. Urban sprawl dictates a car-only infrastructure. For most people, the car-dependent lifestyle is a price they're willing to pay, especially with the trends toward working from home.
 
+{% include ads.html %}
+
 ## Solution #1: Switch from gas to EV cars in the suburbs
 
 I support city designs and plans that encourage walkability without urban sprawl, and there are some good examples across the world. For example, [downtown Brooklyn recently went car-free](https://www.timeout.com/newyork/news/downtown-brooklyn-is-going-car-free-102821). For newer construction and future city development, that's the way to go. But I'm skeptical that we can escape the urban sprawl infrastructure that we've built up nearly everywhere. Is anyone going to raze our suburbs into the ground and replace them with multi-unit dwellings connected to walkable transit hubs &mdash; probably not within any time frame that would avoid the “point-of-no-return” environmental disasters timelines that we frequently hear about due to the overuse of fossil fuels.

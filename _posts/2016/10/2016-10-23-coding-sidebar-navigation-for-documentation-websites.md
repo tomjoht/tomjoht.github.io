@@ -2,26 +2,28 @@
 title: "Coding the sidebar navigation element for documentation websites"
 categories:
 - jekyll
-keywords: 
+keywords:
 description: "Sidebar navigation is one of the more complex components of a documentation site, and it is critical for helping users understand and find documentation. I hacked together a sidebar menu for a doc site that's hosted on a somewhat inflexible platform, using Jekyll to generate the sidebar. Important features of a documentation sidebar include multiple levels of depth, expand/collapse options, accordion effects, fixed navigation, dynamic menu highlighting, and more."
 bitlink: http://bit.ly/docsidebarcode
 ---
 
-I mentioned in a previous post about [tools](https://idratherbewriting.com/2016/10/17/my-gravity-towards-tools/) that I was swimming in Jekyll code for the past few days. I finally finished the sidebar menu I was working on. If you look at this [documentation page](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv), there's now a three-level expandable/collapsible menu on the right. 
+I mentioned in a previous post about [tools](https://idratherbewriting.com/2016/10/17/my-gravity-towards-tools/) that I was swimming in Jekyll code for the past few days. I finally finished the sidebar menu I was working on. If you look at this [documentation page](https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv), there's now a three-level expandable/collapsible menu on the right.
 
 <a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv"><img style="max-width: 500px" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllsidebarmenu.png" | prepend: site.baseurl }}" alt="My Jekyll sidebar menu" /></a>
 
-Let me tell you a little about that sidebar ... 
+Let me tell you a little about that sidebar ...
 
-First, the default platform is a third-party web-based CMS (called Hippo, which almost no one has ever heard of or used, but it's based on Java). Theoretically, we could have modified the Hippo theme to integrate a more granular sidebar into its main navigation, and if so, we surely would have added it [on the left](https://www.cherryleaf.com/blog/2016/09/have-amazon-dropbox-microsoft-and-google-got-their-information-design-wrong/). However, for a variety of reasons, mainly because Hippo is most likely an interim solution that we'll replace, and because the platform's code largely remains a black box, I decided just to hack in the sidebar I needed for now. 
+First, the default platform is a third-party web-based CMS (called Hippo, which almost no one has ever heard of or used, but it's based on Java). Theoretically, we could have modified the Hippo theme to integrate a more granular sidebar into its main navigation, and if so, we surely would have added it [on the left](https://www.cherryleaf.com/blog/2016/09/have-amazon-dropbox-microsoft-and-google-got-their-information-design-wrong/). However, for a variety of reasons, mainly because Hippo is most likely an interim solution that we'll replace, and because the platform's code largely remains a black box, I decided just to hack in the sidebar I needed for now.
 
-This sidebar is generated through Liquid and Jekyll. A YAML file in a Jekyll project stores the data, and the theme iterates through the YAML data and pushes the data items into HTML formatting. 
+This sidebar is generated through Liquid and Jekyll. A YAML file in a Jekyll project stores the data, and the theme iterates through the YAML data and pushes the data items into HTML formatting.
 
 The expand/collapse and accordion features are provided through an open source jQuery component called [Navgoco](https://github.com/tefra/navgoco). The accordion feature of the sidebar keeps the list of items manageable. Without the accordion effect, you can expand the folders and get buried in the options very quickly.
 
 The icons are rendered through [Font Awesome](http://fontawesome.io/icons/), which is a cloud-based vector font library. Because they're vectors, you can adjust the size of the icons through CSS and they remain crisp.
 
-The sidebar is rendered from my Jekyll project into its own HTML file and then included on the page through a jQuery script called [inc](http://johannburkard.de/blog/programming/javascript/inc-a-super-tiny-client-side-include-javascript-jquery-plugin.html). (Most Jekyll projects would push a copy of the sidebar into each page, but I deviated from that model here because I'm pushing the output onto another platform.) 
+The sidebar is rendered from my Jekyll project into its own HTML file and then included on the page through a jQuery script called [inc](http://johannburkard.de/blog/programming/javascript/inc-a-super-tiny-client-side-include-javascript-jquery-plugin.html). (Most Jekyll projects would push a copy of the sidebar into each page, but I deviated from that model here because I'm pushing the output onto another platform.)
+
+{% include ads.html %}
 
 Some other scripts, adapted from some tutorials from [CSS Tricks](https://css-tricks.com), handle the menu highlighting. When the page URL matches the URL in one of the list items, an `open` class gets added to the sidebar list item. Another jQuery script gets any items with an `open` class and also adds an `open` class to the item's parents. The navgoco sidebar then expands sections with the `open` class.
 
@@ -35,9 +37,9 @@ For now, the sidebar is what it is. In the future, I plan to incorporate some of
 
 To take a step back a bit, what started me down this path to improve the documentation sidebar was a fork someone made of my documentation theme that was used as a basis for the [Loopback.io documentation site](http://loopback.io/doc/). Check out Loopback.io. It's really an impressive doc site, entirely coded with Jekyll.
 
-Without a doubt, Loopback.io doc site contains a lot of content. It's the kind of documentation that, if printed, would probably fill 500+ pages. Additionally, the site accommodates translations for about 5 different languages (or plans to). 
+Without a doubt, Loopback.io doc site contains a lot of content. It's the kind of documentation that, if printed, would probably fill 500+ pages. Additionally, the site accommodates translations for about 5 different languages (or plans to).
 
-The Loopback UX person who improved the code in the sidebar is a total genius with Liquid. The sidebar code provides a more concise design with expandable/collapsible sections, and the site's display seems to handle as many levels as you can feed it. 
+The Loopback UX person who improved the code in the sidebar is a total genius with Liquid. The sidebar code provides a more concise design with expandable/collapsible sections, and the site's display seems to handle as many levels as you can feed it.
 
 The designer used parameters with includes, and then iterated through the parameters passed to the include. This isn't even documented coherently in the Jekyll documentation, but this person seems to be a pro at Liquid. (You can read an explanation about how to partly do this in Sverrir Sigmundarson's post, [Passing post variables to includes in Jekyll](https://blog.sverrirs.com/2016/10/jekyll-passing-post-variables-to-includes.html).)
 
@@ -63,11 +65,3 @@ There are solutions to both of these challenges, but again, they complicate the 
 For the theme updates, the [gem-based themes](https://www.chrisanthropic.com/blog/2016/creating-gem-based-themes-for-jekyll/) address this challenge, but it assumes your theme is on [Rubygems](https://rubygems.org/), which is problematic if your theme is not open-source (such as a corporate theme). You can create your own Rubygems-like server, but it would take a while and require quite a bit of know-how.
 
 Overall, when you look at a documentation site, take a look at the sidebar. It's usually a complex undertaking.
-
-
-
-
-
-
-
-

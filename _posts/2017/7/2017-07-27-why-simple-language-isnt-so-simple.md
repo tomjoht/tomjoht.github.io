@@ -62,6 +62,8 @@ Crouch says this paragraph scored an OK with a Grade 11 score in the Hemingway a
 
 (I suspect the writer deliberately added some complexity to his language to have an example of content that scored poorly. His overall grade level in the article is actually an 8 and scores "Good.")
 
+{% include ads.html %}
+
 The shorter sentences near the end of the paragraph balance out the more difficult sentences at the beginning. If the writer wanted to simplify his writing further, he could recast the paragraph as follows:
 
 > This week, in The Times, Charles McGrath wrote about a new digitized collection of ephemera from Ernest Hemingway. This Hemingway collection was from his Cuban estate, Finca Vigía. The collection confirms that the terse writer was, as McGrath says, “a hoarder.”  Hemingway kept his house in Cuba twenty-plus years. During that time, he amassed ticket stubs, telegrams, Christmas cards, and diary entries. Amid the collection, McGrath identifies two notes that Hemingway had written to himself, in pencil. One reads: “You can phrase things clearer and better.” And the other: “You can remove words which are unnecessary and tighten up your prose.”

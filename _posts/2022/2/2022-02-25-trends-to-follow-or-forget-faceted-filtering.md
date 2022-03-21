@@ -31,6 +31,8 @@ Providing a [custom set of filters for navigation](/2010/05/21/implementing-face
 
 Additionally, although you can create different ways to sort and present topics, when a user goes to a page, there can be only one sidebar shown on the left. So if you have a list of the most popular topics, topics related to a specific locale, and topics related to a particular feature, when viewing that topic as a single page, the sidebar wouldn’t list these other organization schemes. Each page can only have a single, static sidebar. The organization of topics in that sidebar should generally match the organization of topics presented elsewhere on the site.
 
+{% include ads.html %}
+
 ## Current status of faceted filtering
 
 Some more robust documentation tools, such as [Fluid Topics](https://www.fluidtopics.com/), allow users to sort content using faceted filters, but only using the conditional profiling filters provided through DITA. Most tech comm tools never really delivered on this faceted filtering pattern. Faceted filters are still frequently used with merchandise sites, but you don’t see too many examples with documentation sites that go beyond the basic filters (such as version, language, or platform).

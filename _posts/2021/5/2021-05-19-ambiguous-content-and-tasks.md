@@ -24,4 +24,6 @@ Ambiguous content has one or more of the following characteristics:
 
 Ambiguous content usually checks off several of these boxes. If the content checks three or more, it can be really difficult to complete. If you look at tickets in your backlog, look to see if some of the stalled tickets (which no one ever seems to get to) involve ambiguous content.
 
+{% include ads.html %}
+
 Once you've identified ambiguous content, consider assigning these doc tickets to more senior writers. For example, if your team consists of junior technical writers, technical writers, and senior technical writers, consider using this identification of ambiguous content as you divide up tasks. Give the junior technical writers tasks that are more straightforward, with clear owners and information resources, as well as timelines and deliverable expectations.

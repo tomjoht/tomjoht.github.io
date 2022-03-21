@@ -23,7 +23,7 @@ categories:
 - wikis
 - wordpress
 - writing
-keywords: 
+keywords:
 description: ""
 thumb:
 published: false
@@ -32,6 +32,8 @@ published: false
 carving out time to think
 
 https://www.linkedin.com/pulse/why-you-should-have-least-1-hour-thinking-time-every-von-der-heydt?trk=mp-reader-card&trk=hp-feed-article-title-share
+
+{% include ads.html %}
 
 obama reading
 

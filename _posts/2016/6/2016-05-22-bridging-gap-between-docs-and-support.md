@@ -27,3 +27,5 @@ At the May WTD meetup, [Neal Kaplan](https://customersandcontent.com/) gave a pr
 You can view the [slides here](https://drive.google.com/file/d/0B3xsLrG4uDaJTEluZndtYk5PRU0/view?ts=573df386).
 
 You can learn more about Neal Kaplan at his blog: [Customers and Content](https://customersandcontent.com/).
+
+{% include ads.html %}

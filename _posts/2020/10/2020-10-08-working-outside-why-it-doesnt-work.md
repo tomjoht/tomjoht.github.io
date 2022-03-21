@@ -11,8 +11,6 @@ jtype: notes_pandemic
 
 Before my planned work-from-the-park day, I knew connectivity would be an issue, so I mapped out some [relevant Xfinity wifi hotspots near parks](https://www.google.com/maps/d/u/0/edit?mid=1ND1nCRD7pOpwYBHbADlNShqRJpHSOJ0u&ll=37.35132322392484%2C-121.92461189887695&z=11) ahead of time that might also have benches and power outlets.
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ND1nCRD7pOpwYBHbADlNShqRJpHSOJ0u" width="640" height="480"></iframe>
-
 With a folding lawn chair strapped to my back (with backpack straps) and a long extension cord under a cargo net on my bike rack, I biked out about 5 miles out to the Alviso Education Center, which has nice cement picnic tables, shade, and hotspots nearby.
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/alvisoextensioncord.jpg" alt="Trying to work at a park - Alviso Education Center" />
@@ -32,6 +30,8 @@ Sitting back in my lawn chair, I toiled away at some small work tasks (fixing do
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/parktreesoffice.png" alt="Switching between shade and sun" />
 
 Although the weather was near-perfect (70'ish in northern California), after a while my eyes started to hurt from being in the sun. I put on sunglasses, but I still struggled to see my computer screen well (I even have a glare protector on the screen). I shifted from picnic tables to lawn chair a few times for variety and comfort. I packed some meager snacks (dried bananas, seaweed crackers, and an almond butter bar) that I nibbled on, and was surprisingly not starving for most of the day. I found it hard to work on a single small 13" laptop screen. I'm used to my 34" wide-screen Dell monitor with the 13" screen as a second monitor, dragging windows around.
+
+{% include ads.html %}
 
 Soon some amateur musicians arrived at the park, carried out some drum equipment, and started playing steel drums. At first, I thought it was cool &mdash; like being at a free outdoor concert. But they weren't that good, and then the constant banging started to become grating. I tried drowning them out with a headset and music for the next hour, but steel drums are hard to block out. They continued for more than two hours.
 

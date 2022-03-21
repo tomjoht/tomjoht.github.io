@@ -18,6 +18,8 @@ I remember reading Kuhn's book eons ago and liking it, though I couldn't remembe
 
 She says that companies with a lot of risk (e.g., NASA or pharmaceutical industries) are much more risk-averse than companies with little risk (e.g., gaming companies) for failure. Patrick finds this idea to be "profound." And it makes sense &mdash; if you have a lot to lose, you'll probably be hesitant to make changes. Whereas if you have nothing to lose, you'll much more embracing of risk.
 
+{% include ads.html %}
+
 [Part 3](https://heretto.com/project/content-components-podcast/?wchannelid=kahto6p5y5&wmediaid) explores whether the cliche "No one reads the docs" is still true today. Patrick says that it's no longer common to hear this phrase, as people are starting to recognize that documentation is a differentiator within the product space. Companies who try to do away with docs end up regretting it and doubling back with more doc resources.
 
 One reason I liked these episodes is because there was finally some disagreement on these podcasts. Don't get me wrong &mdash; I appreciate [Content Components](https://heretto.com/project/content-components-podcast) and Scriptorium's [The Content Strategy Experts](https://www.scriptorium.com/category/podcast/) podcasts. They're full of good information. But they often aren't engaging listens because they lack a sense of debate. They agree too much with each other. For once, especially in Part 1 of the History of Content, we saw two tech comm powerplayers spar off on each other! It was exhilerating.

@@ -17,6 +17,8 @@ I remember back in March when I first received the WFH order. I remember clearin
 
 To answer this question, I'll explore it from several angles.
 
+{% include ads.html %}
+
 ## Purchase of electronics and tech equipment/services
 
 The first question is whether it makes economic sense for companies to encourage work from home scenarios. The last six months have proven that tech companies can thrive in a WFH environment. The tech industry itself blossoms in this arrangement. First off, people in general purchase a lot more electronics (computers, web cams, routers, etc.) to set up functional offices and schools from home. The working environment becomes one in which your computer is a terminal to the world. Most everyone in the family now has his or her own computer and other equipment. Not all sales of tech are up due to home office equipment purchases, though, so this is likely a small segment that benefits companies like Best Buy.

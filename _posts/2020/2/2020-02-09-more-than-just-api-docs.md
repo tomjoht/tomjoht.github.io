@@ -27,6 +27,8 @@ The transition from API documentation to developer portals mirrors the same tran
 
 Regardless of parallels, in many circles related to API docs, I keep seeing an emphasis on "developer portals." Sometimes anything that isn't strictly "API reference documentation" is considered part of the developer portal, such as a Getting Started tutorial, how you authorize your calls, your publishing platform, your contributor workflows with Git, etc. In many ways, a developer portal is similar to a documentation portal, but the developer portal has some unique traits and considerations given the developer audience.
 
+{% include ads.html %}
+
 In this post, I'll outline a few details of what's involved in running and managing a developer portal that goes beyond mere content development. There are many topics to cover, but I'll limit the focus here to brief bullet points. I do elaborate a little more in the podcast, but not much.
 
 ## Developer portal topics

@@ -29,3 +29,5 @@ bitlink: http://bit.ly/
 ---
 
 the writing differs in tech comm b/c it's designed for people to do something with it. the act of writing is active in the literal sense.
+
+{% include ads.html %}

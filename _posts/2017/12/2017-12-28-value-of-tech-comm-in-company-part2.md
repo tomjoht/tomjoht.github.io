@@ -56,6 +56,8 @@ communicators are involved early than when they are not
 
 And so on. (The lists are much longer in the article &mdash; I excerpted a selection only.)
 
+{% include ads.html %}
+
 Watson notes that tech writers have been unable to successfully follow through with these measurements, and so the issue of proving value wasn't merely closed with this twenty-year-old article. Why is measurement so problematic? Watson says that one problem is that we aren't starting with a dire situation where tech docs don't exist. Instead, we're already in a pretty good spot. He visually depicts this as follows:
 
 <a href="http://docsbydesign.com/2017/08/06/measuring-the-value-of-technical-writing"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ROI_web_bob_watson.png" style="max-width: 400px;"/></a>

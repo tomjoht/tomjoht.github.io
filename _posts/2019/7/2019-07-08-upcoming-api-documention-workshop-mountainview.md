@@ -56,10 +56,10 @@ Here's a description of the [API documentation workshop](https://www.eventbrite.
 
 <div style="margin-top:10px;" id="eventLink"></div>
 
+{% include ads.html %}
+
 ## Questions
 
 If you have any questions, just reach out to me at <a href="mailto:tomjoht@gmail.com">tomjoht@gmail.com</a>.
 
 (By the way, the above title, description, and link are pulled from EventBrite directly through the [Retrieve an Event](https://www.eventbrite.com/platform/api#/reference/event/retrieve-an-event) endpoint in the EventBrite API. This is something you'll learn to do in the workshop.)
-
-

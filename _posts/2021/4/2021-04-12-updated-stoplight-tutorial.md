@@ -14,3 +14,5 @@ You can view the tutorial here: [Getting started tutorial: Using Stoplight Studi
 In making these updates, I'm really impressed by how far the Stoplight Studio editor has come. A long time ago, I chose this editor as the visual approach to working with the OpenAPI spec. Previously, every time I'd tried to get people working directly in the OpenAPI specification code (with no visual editor), the tricky syntax and fussy YAML rules always tripped people up. Also, I don't work enough with REST APIs to have all of the OpenAPI properties memorized, so using a visual editor is a great way to focus on the content instead of the syntax.
 
 *Note that Stoplight is one of the sponsor of my site.*
+
+{% include ads.html %}

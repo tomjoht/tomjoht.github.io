@@ -30,3 +30,5 @@ Take the survey that corresponds to your role. (If you perform both roles, you c
 <a href="https://www.questionpro.com/t/AOaGwZcWKC" target="\_blank"><button type="button" class="btn btn-warning">Survey for academics to take</button></a> <br/>*Take this survey if you're an academic &mdash; e.g, employed by a college to do research or teach TC courses*.
 
 Thanks for participating in the survey! I'll be discussing some challenges related to academics and practitioners in an upcoming podcast, so stay tuned.
+
+{% include ads.html %}

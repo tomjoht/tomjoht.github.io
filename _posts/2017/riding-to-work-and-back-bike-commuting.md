@@ -27,3 +27,6 @@ description: ""
 thumb:
 published: false
 ---
+
+
+{% include ads.html %}

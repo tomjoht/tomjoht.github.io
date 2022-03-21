@@ -95,6 +95,8 @@ In sum, the average reader is a 30-year-old female living in New York using Chro
 {{site.data.alerts.tip}}
 If you would like to advertise your product or service on my site, see my <a href="https://idratherbewriting.com/advertising">Advertising</a> page. You'll get more visibility for your product on my site than almost any other in the tech comm space.{{site.data.alerts.end}}
 
+{% include ads.html %}
+
 ## Comparison of metrics to 2016
 
 How did the metrics compare to the previous year? They're up a bit:

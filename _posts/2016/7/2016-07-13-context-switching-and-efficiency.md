@@ -44,6 +44,8 @@ You allow only a limited number of items (for example, 3) in your "Doing" catego
 
 > The more we have [in our Doing category], the slower we produce because of the task switching. We can use the Kanban method to reduce our work in progress, and to help us keep track of what we need to produce.
 
+{% include ads.html %}
+
 I'm constantly bombarded with emails, instant messages, social media notifications, and meetings, not to mention having multiple projects I'm working on, so it's hard to not get swept into the inefficiency of multi-tasking.
 
 Sander's article resonates with a post I read by Joel Spolsky &mdash; [Human Task Switches Considered Harmful](http://www.joelonsoftware.com/articles/fog0000000022.html). Spolsky talks about the inefficiency that occurs specifically when programmers have to switch tasks:

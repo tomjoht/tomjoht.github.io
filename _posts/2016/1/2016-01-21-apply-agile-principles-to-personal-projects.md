@@ -2,17 +2,19 @@
 title: How to apply agile processes to manage your life's projects
 categories:
 - technical-writing
-keywords: 
+keywords:
 description: "The same scrum approaches used to manage software development projects can also be used to manage projects in your own personal life. If you follow the core scrum principles, you might actually be able to get \"twice as much done in half the time,\" as Jeff Sutherland, co-founder of agile, promises."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/agileprinciplesthumb.png
 ---
 
-## The challenge of keeping up 
-At the upcoming [TC Camp](http://www.tccamp.org/), during a brief 5-minute feud activity, Marta Rauch and I are going to provide our perspectives on the following question: 
+## The challenge of keeping up
+At the upcoming [TC Camp](http://www.tccamp.org/), during a brief 5-minute feud activity, Marta Rauch and I are going to provide our perspectives on the following question:
 
->How can I keep up with all the tools, technologies, info and other stuff to stay marketable? What happened to the good old days when all you needed to know was FrameMaker? 
+>How can I keep up with all the tools, technologies, info and other stuff to stay marketable? What happened to the good old days when all you needed to know was FrameMaker?
 
 Admittedly, I can't help but feel caught in the same technological rat race, barely keeping my head above water. I do have some strategies that work somewhat for me, but there is a guy who I think does have genuine insight. His approach is one we're all familiar with and use daily in our jobs as technical writers in IT environments. Yes, I'm talking about agile and the scrum principles put forward by its co-founder, Jeff Sutherland.
+
+{% include ads.html %}
 
 In Jeff Sutherland's book [Scrum: The Art of Doing Twice the Work in Half the Time](http://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X), Sutherland explains that scrum processes (a type of agile development) aren't just intended for the software industry:
 
@@ -80,7 +82,7 @@ Sprints are usually two-week cycles where you work on items from your backlog. Y
 
 Pick your most valuable items from your backlog and move them into your current sprint. For my current sprint, I might start with "Reading *Head First Java* by Kathy Sierra" and "Generating a sample Javadoc."
 
-At first, you won't know how many items you can complete in a sprint. As I mentioned earlier, each item has a set number of story points, which allows you to quantify the work. 
+At first, you won't know how many items you can complete in a sprint. As I mentioned earlier, each item has a set number of story points, which allows you to quantify the work.
 
 After a few sprints, look at the number of points you're completing each sprint. This is your "velocity." When you know your velocity, you can project how long it will take you to complete the project.
 
@@ -92,19 +94,19 @@ Standup meetings provide short huddles with your team where you report your stat
 * What are you going to do today?
 * Is anything getting in your way?
 
-Each morning you can briefly look at the items in your sprint and single out what you plan to work on for the day. I like to put several post-it notes at the bottom of my computer monitor that refer to the items I'm working on. 
+Each morning you can briefly look at the items in your sprint and single out what you plan to work on for the day. I like to put several post-it notes at the bottom of my computer monitor that refer to the items I'm working on.
 
 Obviously, if you're the only team member you won't have a daily huddle with others, but you can still hold a standup with yourself.
 
 ## 7. Complete the sprint's tasks
 
-During the two-week sprint, try to complete all the tasks you've set out to do. You shouldn't alter your course during the sprint &mdash; you work on what you planned to accomplish. 
+During the two-week sprint, try to complete all the tasks you've set out to do. You shouldn't alter your course during the sprint &mdash; you work on what you planned to accomplish.
 
 Exactly how should you tackle each sprint item? Well, that's kind of up to you. The key is to complete it. By the end of the sprint, you should have a functional output that you can demo.
 
 ## 8. Demo what you've completed at the end of the sprint
 
-At the end of each sprint, project teams should demo what they've accomplished. The demo should show a fully functional product. Sutherland says that demos are "the most powerful part of Scrum." By "driving toward a demonstrable product on a frequent basis," you show that you're achieving real value and moving towards your goal (p. 16). 
+At the end of each sprint, project teams should demo what they've accomplished. The demo should show a fully functional product. Sutherland says that demos are "the most powerful part of Scrum." By "driving toward a demonstrable product on a frequent basis," you show that you're achieving real value and moving towards your goal (p. 16).
 
 How would this sprint demo apply if you're learning Java? Here's one approach. As you're learning, take notes. Draft your notes into organized, information-rich nuggets that you can read through to review the material. For example, I put some of my notes here:
 
@@ -112,7 +114,7 @@ How would this sprint demo apply if you're learning Java? Here's one approach. A
 * [DITA notes](https://idratherbewriting.com/ditaqrg/)
 * [Java notes](https://idratherbewriting.com/java-introduction/)
 
-By making notes, I'm trying to avoid living the story of Sisyphus, where I continually roll the same boulder up a hill, only to have it roll back again. I'm soaking in a lot of new information &mdash; through my notes, hopefully I can shorten any re-learning efforts as time passes and my memory fades. 
+By making notes, I'm trying to avoid living the story of Sisyphus, where I continually roll the same boulder up a hill, only to have it roll back again. I'm soaking in a lot of new information &mdash; through my notes, hopefully I can shorten any re-learning efforts as time passes and my memory fades.
 
 By publishing my set of notes at the end of the sprint, I also demonstrate my knowledge to others.
 
@@ -129,7 +131,7 @@ Sutherland explains that checking for regular feedback is a key principle of scr
 
 With our sample project &mdash; learning Java &mdash; you are your own audience, so you just need to evaluate whether your effort is helping you develop Java expertise. Are you going in the right direction? Maybe the book you're reading is too advanced. Maybe you need to switch to video tutorials instead. Maybe you need to do more hands-on coding. Take time to give yourself some feedback about the direction of your project. Make corrections to better align with this feedback.
 
-If you're working on a small Java project, show it to a Java developer to get some feedback. Ask him or her to let you know if you're doing things right. 
+If you're working on a small Java project, show it to a Java developer to get some feedback. Ask him or her to let you know if you're doing things right.
 
 You could also share your notes with others to get their feedback. Maybe you're misunderstanding some key points. Feedback can help align you in positive ways.
 

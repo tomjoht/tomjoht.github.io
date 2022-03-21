@@ -13,8 +13,6 @@ bitlink: http://bit.ly/wtdpod4cianddocascode
 
 For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast, see the many [many subscription options][2].
 
-
-
 ### Links mentioned during the podcast
 
 * [Improve Documentation by Automating Spelling and Grammar Checks](https://blog.codeship.com/improve-documentation-by-automating-spelling-and-grammar-checks/)
@@ -26,7 +24,7 @@ For more details, see the [post on WTD Podcast][1]. To subscribe to the podcast,
 * [Docs like Code book site](http://docslikecode.com/book/)
 * [Remodeling Documentation](Remodeling documentation)
 
-{{site.data.alerts.ad}}Modern companies go online with their documentation and user manuals. To start your own documentation site today, just use <a rel="nofollow" href="https://clickhelp.com/" rel="nofollow" >ClickHelp</a> &mdash; sign up and start writing in minutes using this <a rel="nofollow" href="https://clickhelp.co/online-documentation-tool/">hosted technical writing tool</a>.{{site.data.alerts.end}}
+{% include ads.html %}
 
 [1]: http://podcast.writethedocs.org/2017/03/05/episode-4-continuous-integration-and-docs-like-code/
 [2]: http://podcast.writethedocs.org/how-to-subscribe/

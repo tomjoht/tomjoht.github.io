@@ -48,6 +48,8 @@ If Users and New Users are about the same, how can the average Number of Session
 
 At this point, I sort of shrug my shoulders and wonder if pursuing the answer, no doubt convoluted, is worth it. I'm sure the real answer is complex.
 
+{% include ads.html %}
+
 ## Times of day and location
 
 Here's another interesting metric about traffic correlated with time of day and traffic by country:

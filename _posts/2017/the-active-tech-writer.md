@@ -9,6 +9,8 @@ I'm fond of a more active tech writer. Rather than passively being assigned task
 
 The tech writer I imagine is the one Larry Kunz writes about in his [A Visit from St. Techwriter](https://larrykunz.wordpress.com/2016/12/19/a-visit-from-st-techwriter/). It's the guy who comes in at the last hour, arriving in a Lamborghini, to save a team of developers from a poor software execution. He cranks out "User guide. Help pages. API docs." to salvage the product from all its glitches and foibles.
 
+{% include ads.html %}
+
 The tech writer is a strategist when it comes to product and doc needs. The writer scours incoming support tickets, forum posts, threads on Stack Overflow, and gets a pulse on the voice of the user. The writer looks across company products and drinks deep in company knowledge to bring in big-picture information about other corporate projects and efforts with overlapping goals or functionality. The writer assesses weak points in the product and suggests improvements, suggests ways to fix functionality and interfaces instead of merely applying documentation bandaids.
 
 Edwin Dawson explains that they keep pace with agile through meticulous online tracking:

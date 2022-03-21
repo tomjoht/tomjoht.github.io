@@ -21,6 +21,8 @@ I'm not quite sure when, but for at least the past year I've grown tired of the 
 
 I'm not sure if Google sets the half-life of a blog post at two weeks or something, but it doesn't take long for the post's fire to smolder out and become gray ashes. Blogs are ultimately like news. Perhaps blogs should really be like little notes on larger projects you're tackling, not the projects themselves.
 
+{% include ads.html %}
+
 I do think blogging can be a tremendous tool for incrementally building out longer content, and that's how I've tried to redirect my energy. Blogging allows me to publish larger works of content step by step. No one can write a book in an evening, but you can certainly crank out a blog post in an evening. Multiply that same evening effort over a year, and all that blog content could be orchestrated and consolidated out into a book, assuming you've been writing in a consistent theme. At least that's the idea and my vision for my blogging effort in the long term.
 
 But these last few weeks, where I've been heads-down focused on finalizing my API doc content, I've realized something. Although I certainly see the value in editing, if I spend all my time editing and revising, I lose interest in writing. My favorite part of writing is creating new content. I like filling a blank page. It's as if I have an unlimited supply of creative energy inside me, waiting to find its way into newly crafted posts and essays. If you've been following my blog for the past decade, you've no doubt seen this energy come out in post after post.

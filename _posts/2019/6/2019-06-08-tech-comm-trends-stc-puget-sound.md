@@ -44,6 +44,7 @@ description: "I recently gave a presentation on technical communication trends t
 > - Creating documentation is becoming more of a collaborative effort with engineers due to the increasing level of complexity and specialization in the technology landscape.
 > - Documentation processes are moving towards docs-as-code tools in part because engineers are more involved in the authoring processes, and they prefer to use tools they’re familiar with.
 
+{% include ads.html %}
 
 ## Venue
 
@@ -57,5 +58,3 @@ Venue:<br/>
 <span style="margin-left: 20px">University of Washington – The Tower<br/></span>
 <span style="margin-left: 20px">4333 Brooklyn Ave NE <br/></span>
 <span style="margin-left: 20px">Seattle, WA 98195</span>
-
-

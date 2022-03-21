@@ -171,6 +171,8 @@ Also note that this doc plan is more geared towards working in a large company w
 
 Overall, this project plan works fairly well. There's a lot of info here that people need to make explicit. When we estimate the doc work for a project, it's impossible to estimate the scope without this information. And without scope, we end up being pulled into projects that are more massive than they initially appear.
 
+{% include ads.html %}
+
 One thing I can't quite figure out is the "Doc Deliverables Needed" section. People check all the formats by default (PDF, screencasts, sample apps, etc.) because presumably it's all "free." We don't have a good mechanism to instill "buyers" of the docs with a sense of cost. I can't just put "*These item cost extra here*" next to all of the deliverables beyond web pages. I'm curious whether you have strategies for this.
 
 Overall, any feedback on my doc plan here? I didn't want to make it more comprehensive because then project managers won't have the bandwidth to complete it. But any less complete and it's not as useful to our team.

@@ -87,6 +87,8 @@ In addition to being partially allocated, as a tech writer, you'll find that 90%
 
 But for the most part, the signal-to-noise ratio is extremely low. The noise is higher for you than for anyone else, and you have three times this noise level because of your project load. Attending all of these meetings can feel like a time drain with a lot of noise. This setup goes against Scrum best practices from the start.
 
+{% include ads.html %}
+
 ## No co-location means you miss out on undocumented details
 
 Another issue is that tech writers aren't usually co-located with the other team members. By virtue of floating across multiple teams, it doesn't make sense to embed yourself permanently in any one area. As such, the writers usually sit by themselves in some other area of the organization.

@@ -20,6 +20,8 @@ This workflow fits our authoring needs quite well because we're in a large engin
 
 Because we are only a small handful of authors responsible for hundreds of pages of documentation across a wide swath of deeply technical topics, we know we need to rely on engineering contributions and involvement to be successful. Therefore we selected our tooling to fit our needs and environment.
 
+{% include ads.html %}
+
 We're also not generating a full website with Jekyll, but are instead inserting the generated HTML into a larger website (with a robust header, footer, search index, and localization logic). (You can [browse our documentation here](https://developer.amazon.com/documentation).)
 
 If you want to pursue the docs-as-code route, you could use a number of tools besides Jekyll. Sphinx, Hugo, Middleman, Slate, and Mkdocs are just a few [static site generator options](https://www.staticgen.com/).
@@ -39,5 +41,3 @@ However, to break into developer documentation (which is what I presume is your 
 Learning how to document code written in Java, JavaScript, C++, PHP, or some other language or platform (iOS, Android), can be more difficult and require more preparation than learning a doc tool. Companies will typically look primarily at your technical background, and then secondarily at any doc tools you're familiar with.
 
 Additionally, unless you're revamping the doc tool set at a company, many times there is already adequate tooling in place. It could be Confluence, Google Docs, or even Microsoft Word. The company is likely hiring you to fill a documentation need, not to implement a new documentation toolset. Therefore your best approach for success in breaking into developer/API documentation is to deepen your technical learning and preparation, and not to get too mired with doc tools.
-
-

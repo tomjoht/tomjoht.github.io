@@ -43,6 +43,8 @@ Once I landed my first job at a high tech company, I realized that's where I wan
 
 At my previous employer before Atlassian, I acted mostly as the company's Atlassian tools administrator rather than their Tech Writer. As such, I ended up throwing a Hail Mary and applying for a job with this company I admired, but on the other side of the world. It took me months to even get the courage to apply for the job with Atlassian, but they responded overwhelmingly positively. Not long after an offer I couldn't refuse, my five-person family and I were off to Australia to work for Atlassian. I'd never been there, and never even really considered it as a tourist destination if I'm honest. But a progressive country in a beachy city that's safe and clean seemed easy to get behind, and our family was ready for an adventure. That was 2015, and I've got to admit that it was not easy. It was certainly fun, but moving to Australia and away from our large support group of family and friends made us feel (or maybe just me?) isolated, and homesick.
 
+{% include ads.html %}
+
 In 2017 I changed teams, from Bitbucket Server to Bitbucket Cloud, and locations. Atlassian moved my family and I to the Bay Area after 2.9 years living abroad in Sydney.
 
 To be clear, I went from living on government assistance to renting in the most expensive real estate markets in the world in a short amount of time, and much of the increases in my salary get swallowed up by the high cost of living or traveling to see family.

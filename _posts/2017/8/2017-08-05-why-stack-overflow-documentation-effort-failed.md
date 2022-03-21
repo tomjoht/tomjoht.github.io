@@ -40,6 +40,8 @@ Now, to make sense of the failure for technical writers. Was Stack Overflow's Do
 
 * **Existing doc model is okay**. The examples-before-explanations model won't cause us to re-architect all of our documentation. If this model had won out (and persuaded users to go to Stack Overflow instead of the original sources), it might have caused tech writers to rethink and reapproach all of our existing documentation. Since this didn't happen, perhaps it's okay to lead with an explanation before an example.
 
+{% include ads.html %}
+
 ## Bad outcomes from the failure
 
 * **Missed out on Wikipedia for tech docs.** If the model had worked, Documentation could have turned out to be an incredible resource for the Internet, on par with Wikipedia but with tech docs. This could have been the first fully functional crowdsourcing model for documentation. Given how influential Wikipedia has been at distributing and disseminating information, we could really use a similar model with documentation, which has traditionally been seen as "terrible" and a "waste of time" by many users.

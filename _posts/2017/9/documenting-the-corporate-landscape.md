@@ -50,6 +50,8 @@ how can you actually tackle this?
 can you draw your solar system around the product? where is your planet? what does that solar system look like?
 - yes, this is what you need to do. what are all the teams? there may be other teams that aren't relevant to you, too. you might just omit these groups. but how can you really tell?
 
+{% include ads.html %}
+
 did scrum fail for you?
 - yes, because i don't have a team. this approach falls apart when you don't have a team or anything. when you can't push back on deadlines or needs.
 

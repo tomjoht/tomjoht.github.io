@@ -55,6 +55,8 @@ The following 5 people were panelists:
 
 [**Jane Wilson**](https://www.linkedin.com/in/jane-wilson-594a621) leads the technical writing team for GE Digital’s Applications Engineering group. GE Digital develops in an Agile environment, and, as the team has grown, she has developed processes for fitting writers and the writing process into Agile methodologies. Along the way, she became a certified scrum master. Jane belongs to the East Bay and Atlanta chapters, and she currently serves on the STC Board as Treasurer.
 
+{% include ads.html %}
+
 [**Gina Blednyh**](https://www.linkedin.com/in/gblednyh) is a Staff Technical Writer at Salesforce. She’s worked in an Agile environment for almost six years. She’s also been a scrum master for both a writing team and an engineering team and is an Agile convert.
 
 I moderated the panel.

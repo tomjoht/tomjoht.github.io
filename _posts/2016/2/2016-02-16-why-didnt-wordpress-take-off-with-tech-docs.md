@@ -2,13 +2,13 @@
 title: Why didn't WordPress take off with tech docs?
 categories:
 - wordpress
-keywords: 
+keywords:
 description: "Despite the dominance of WordPress as a web publishing platform, which is used for nearly 75 million websites today, WordPress has rarely been used by technical writers as a platform for publishing technical documentation. Some of the reasons WordPress is avoided is due to its heavy LAMP stack architecture,  lack of component content re-use, and inability to publish multiple outputs such as PDF."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/14wpstatsthumb.png
 ---
 
 ## The popularity of WordPress
-Despite the popularity of WordPress as detailed in [14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage), this web CMS still hasn't emerged as a competing help authoring tool in the tech comm industry. 
+Despite the popularity of WordPress as detailed in [14 Surprising Statistics About WordPress Usage](https://managewp.com/14-surprising-statistics-about-wordpress-usage), this web CMS still hasn't emerged as a competing help authoring tool in the tech comm industry.
 
 <a href="https://managewp.com/14-surprising-statistics-about-wordpress-usage"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/14wpstats.png" | prepend: site.baseurl }}" alt="Surprising statistics about WordPress" /></a>
 
@@ -31,6 +31,8 @@ Here are some of the staggering statistics about WordPress usage mentioned in th
 > * Akismet Is the Most Popular Plugin
 
 With a portfolio of stats like that, you'd think that WordPress would be a common CMS used in tech comm departments as well. But as far as I can tell, WordPress is rarely used by technical writers. Why?
+
+{% include ads.html %}
 
 ## Challenges in using WordPress for tech docs
 

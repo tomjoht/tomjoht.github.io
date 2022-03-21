@@ -39,6 +39,8 @@ ALL of these advantages involve automation of brain-numbing tasks. This automati
 
 This automation is straightforward with a CCMS but impossible to manage without one. By keeping your DITA files locally stored and outside a CCMS, you rob yourself of all that DITA has to offer.
 
+{% include ads.html %}
+
 ## Why DITA?
 
 _Because DITA content is powerful and endures._

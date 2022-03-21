@@ -11,3 +11,5 @@ description: "I added a new article to my API documentation course on processes 
 ---
 
 Read more: [Processes for external contributors](/learnapidoc/docapis_processes_for_external_contributors.html).
+
+{% include ads.html %}

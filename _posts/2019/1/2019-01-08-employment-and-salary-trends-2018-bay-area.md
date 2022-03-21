@@ -29,6 +29,8 @@ Before jumping into technical writer info, the report provides some context with
 
 *   Turnover rates for 2017 were 3.6% and are expected to be similar in 2018. Turnover rates increase as "competition for talent increases" and as compensation levels rise.
 
+{% include ads.html %}
+
 ### Trends related to technical writing jobs
 
 Now let's get into some data more specific to technical writing jobs:

@@ -35,6 +35,8 @@ We got together to bounce around ideas and sent in a proposal, which was accepte
 
 It turns out that "expertise" in a field like technical communication is problematic for a lot of the reasons we explore in our article, whether because folks outside of tech comm don't really understand the field or because we ourselves sometimes struggle to assert expertise in a clear way. It's a topic I've since taken up more as an instructor since this article was published.   
 
+{% include ads.html %}
+
 ### In this article, you decided to take a unique approach by focusing in on one student's experience. Was that a risky approach in an academic context where critics might say that Megan is an outlier, or someone who doesn't represent the general experience? Even with the follow-up survey, were there enough participants? I'm surprised to see Kimball's article dissecting the responses of just 6 participants.
 
 **Jenn**: When we proposed the article, we proposed it as a practitioner profile, so we were thinking more in terms of a case that might surface interesting questions. We never saw Megan's case as something that would be a generalizable experience, though much of what she (and the survey respondents) point out might ring true for many professionals. Essentially, it was an opportunity to dig into one person's experiences to get at broader questions in the field.

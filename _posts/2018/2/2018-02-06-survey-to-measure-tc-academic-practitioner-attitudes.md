@@ -26,4 +26,6 @@ To gather the baseline, I need your response to one of two surveys. Each survey 
 
 These surveys contain open-ended questions designed to capture, in an unbiased way, the thoughts and attitudes that TC practitioners and academics have towards each other as members of the same field.
 
+{% include ads.html %}
+
 You can answer as many questions as you like. Your answers are anonymous. Trends in responses will be collected for a follow-up survey that will be administered in a more quantitative way.

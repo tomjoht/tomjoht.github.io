@@ -43,6 +43,8 @@ Not everyone disliked the questions. These are only the comments where people ex
 
 I wanted to make a few general comments as a follow up. First, these tests were an experiment, not something that is used at Amazon for hiring. I am trying to explore better ways of filtering candidates beyond the writing exercises and portfolio submissions already in place. The goal was to have a quick filter between a stack of an initial stack of resumes and the subsequent writing exercises, phone screens, on-sites, and other evaluations.
 
+{% include ads.html %}
+
 I initially made these test questions open-ended, but to reduce the time required to analyze responses, I converted them into multiple choice, which is actually quite challenging. Creating multiple plausible but false options by definition creates controversy because the plausible (but "wrong") answers have to be close enough to the right answer to be tempting to select. Their plausibility might be justified in some cases, and it angers people if they fail the question that might be right in some scenarios/style guides/companies. On the flip side, if you make all the questions obvious and straightforward, it isn't much of a test.
 
 I think many more people would welcome open-ended questions, in part because it doesn't suggest that there is a right or wrong answer. That mode of thought aligns better with the humanities discipline, and I would gladly accept and endorse any well-reasoned argument even if I disagreed with it. In fact, I love exploring [contrarian points of view](/2010/10/29/being-contrarian/).

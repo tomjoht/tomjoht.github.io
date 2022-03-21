@@ -30,6 +30,8 @@ As a rough guideline, a bachelor's degree prepares you to practice in a field, a
 
 Technical writers are uniquely poised in organizations to facilitate organizational change. They have access to information, they know how to analyze target audiences, and they design communication tools that encourage specific actions from those audiences. If technical writers can better understand how to identify organizational problems, analyze opportunities, and deploy solutions, they can become leaders of change in their organizations.
 
+{% include ads.html %}
+
 I can give you a few examples. When we work on advanced technical communication skills, we incorporate change management. We ask our students to identify opportunities for process change in their organizations, do a feasibility analysis of solutions, and propose a feasible solution(s). Many of our alums have reported significant changes that benefit their organizations at a process management level.
 
 One of our alums, who works for a medical company, updated the communication process between levels of the organization, pitched it to management, and earned a new management position to implement the changes.

@@ -49,6 +49,8 @@ The main focus of Xeditor is its intuitive usability and the ease of collaborati
 
 From the very beginning, Xeditor was designed to be a [web-based XML editor](https://idbwrtng.com/xeditor){:rel="nofollow"}. We have always made users and their XML experience a priority by hiding the complexity behind XML. Creating, editing, and reviewing XML content with Xeditor is easy – whether you're an experienced technical writer or a subject matter expert. Thanks to its online architecture, collaboration between users is intuitive and facilitates the workflow. Another feature that further simplifies the adoption of Xeditor is the fact that it's configurable and also easily integrable into the company's existing IT landscape.
 
+{% include ads.html %}
+
 <h2> Where do you install Xeditor? </h2>
 
 Xeditor is integrated into your organization's systems and managed centrally. Some customers prefer to do the integration themselves, while others ask us to do it. For the integration, no local installation on your author's devices is required. Currently, we're also working on a managed solution to make things even easier for our customers and enable more organizations to benefit from structured content.

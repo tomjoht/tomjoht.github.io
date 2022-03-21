@@ -32,3 +32,5 @@ Here are a few questions we cover during the podcast:
 * How can you make your feedback surveys specific to the data so that you get better responses?
 
 For more information about Bob Watson, see his site, [Docs by Design](http://docsbydesign.com/).
+
+{% include ads.html %}

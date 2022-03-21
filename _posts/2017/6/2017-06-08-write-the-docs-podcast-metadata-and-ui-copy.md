@@ -18,3 +18,5 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/evapod
 * [Why Your Design Team Should Hire A Writer](https://medium.com/dropbox-design/why-your-design-team-should-hire-a-writer-24d55f1e2d4a)
 
 For more details, see the [post on the WTD podcast site](http://bit.ly/wtdpodcast6).
+
+{% include ads.html %}

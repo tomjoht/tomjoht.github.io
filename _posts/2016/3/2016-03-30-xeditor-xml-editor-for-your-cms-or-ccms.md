@@ -15,6 +15,8 @@ If you're managing your content in a content management system (CMS), you can of
 
 Since CMSs (or CCMSs, component content management systems) are costly and extensive to implement, usually a large number of authors and contributors interact with the CMS. You want as much of your content in the CMS as possible so you can leverage the content for re-use, translation, versioning, workflows, and other benefits.
 
+{% include ads.html %}
+
 However, here's the problem. Almost all CMSs require the content to be structured in XML, usually in DITA or a custom XML schema. But writing XML in a text editor limits the number of authors who can easily get going with the CMS. If everyone is just coding the tags by hand, you limit your authors to either the tech elite or to hardy technical writers who have become inured to the tags after years of use.
 
 ## Xeditor overview

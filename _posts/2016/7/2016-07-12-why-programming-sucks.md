@@ -29,6 +29,8 @@ More than anything, Welch's tone is playful and full of images, turns of phrases
 
 If you followed my previous blog post, [Thoughts on "Documentation Avoidance for Programmers"](https://idratherbewriting.com/2016/07/09/programmer-explains-how-to-get-out-of-writing-documentation/), this article makes a nice juxtaposition. Why is programming such a hellscape to navigate? Well it doesn't take a genius to put two and two together: When no one documents anything, you end up with a lot of code that no one understands, and hell's bells start ringing.
 
+{% include ads.html %}
+
 Welch explains that despite one's expertise, no programmer fully understands how even his or her own computer works, and only has a modicum of expertise around a small fraction of the technology he or she needs to know:
 
 >You are an expert in all these technologies, and that's a good thing, because that expertise let you spend only six hours figuring out what went wrong, as opposed to losing your job. You now have one extra little fact to tuck away in the millions of little facts you have to memorize because so many of the programs you depend on are written by dicks and idiots.

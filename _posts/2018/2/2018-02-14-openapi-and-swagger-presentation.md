@@ -52,4 +52,4 @@ You can read the details in either the STC or WTD event pages:
 
 The event was held February 13, 2018.
 
-
+{% include ads.html %}

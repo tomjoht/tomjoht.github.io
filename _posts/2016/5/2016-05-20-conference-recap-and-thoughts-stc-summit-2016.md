@@ -10,9 +10,9 @@ description: "I attended the 2016 STC Summit in Anaheim, California this year. T
 
 Overall, I think the [Summit](http://summit.stc.org/) was a good conference (as usual) -- it was well-organized and executed, with top speakers and a wide variety of topics. I believe attendance was up this year, with around 600 attendees. The expo hall was full of vendors, including a virtual reality vendor with goggles that let you view an Ohio State University football game and campus tour.
 
-The Anaheim location, however, was somewhat disappointing (but good to choose California). The Marriott provided a high quality conference venue, but Anaheim itself lacks appeal unless you plan to visit Disneyland (which I didn't). Having lived in Florida, I've had my fill of theme parks. If you're going to hold a conference in California, why not choose San Francisco for the location, or San Jose? Anyway... most people don't venture far outside the hotel anyway. The Summit provided regular snacks, which were pretty good, particularly the taquitos and pineapple empanadas. 
+The Anaheim location, however, was somewhat disappointing (but good to choose California). The Marriott provided a high quality conference venue, but Anaheim itself lacks appeal unless you plan to visit Disneyland (which I didn't). Having lived in Florida, I've had my fill of theme parks. If you're going to hold a conference in California, why not choose San Francisco for the location, or San Jose? Anyway... most people don't venture far outside the hotel anyway. The Summit provided regular snacks, which were pretty good, particularly the taquitos and pineapple empanadas.
 
-
+{% include ads.html %}
 
 This year I participated on the proposal review committee (for one track), which was interesting. There were quite a few high quality proposals, and selecting the best often came down to preferences for topic relevance (at least for me). We submitted our votes, but someone higher up made the ultimate decisions. There were quite a few proposals that I thought we'd rejected but which apparently were accepted after all, so that was nice.
 

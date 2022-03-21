@@ -35,6 +35,8 @@ Meeting notes contained summaries of the issues discussed, intended for someone 
 
 At first, I thought these communications were working well. However, because I was just sending this content over email, it was hard to track opens and reads. Occasionally, someone would reply "Thanks Tom" or "Great report" or similar.  I made sure the distribution included both meeting participants and other non-participants whom I deemed relevant to the issues discussed, with the intent of keeping others informed about doc efforts and status.
 
+{% include ads.html %}
+
 ## Low engagement
 
 I had high hopes for engagement from [sharing meeting notes](/learnapidoc/docapis_meeting_notes.html) since I'd spent time adding many more details and context to make them understandable to those outside the meeting. I felt that meetings focused on issues, which might make for more interesting writeups. However, I didn't see much evidence of engagement. Eventually, someone also told me my meeting notes might not be getting the readership I wanted.

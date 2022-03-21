@@ -16,6 +16,7 @@ Of course I can't go into too many details here, and I want to acknowledge that 
 <object type="image/svg+xml" data="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/retrospective.svg" | prepend: site.baseurl}}">Your browser does not support SVG</object><figcaption>The purpose of this retrospective is to look back at previous experiences in order to move forward more productively in the future.</figcaption></figure>
 </div>
 
+{% include ads.html %}
 
 ## Things I wasn't so pleased with
 
@@ -62,5 +63,3 @@ Based on my retrospective of these past experiences, here are a few general prin
 * Dive deep into content, not doc tools.
 * Get metrics on doc usage to inform decisions.
 * Keep doc nimble and continuously deployable.
-
-

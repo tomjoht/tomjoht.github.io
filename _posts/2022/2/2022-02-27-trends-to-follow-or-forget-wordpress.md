@@ -22,6 +22,8 @@ My efforts at managing the STC Suncoast site soon [spawned my own blog](/2006/06
 
 I loved how WordPress made it easy for people without deep technical skills to create and manage websites. The web leveled the playing field, allowing anyone to write and publish content. But tools like WordPress made it technically possible for people to actually manage content online in a way that looked professional, with the functionality they needed through an extensive library of plugins.
 
+{% include ads.html %}
+
 For years, I longed to merge the toolset used in my day job as a technical writer  (at the time, [HATs](/trends/trends-to-follow-or-forget-hats.html)) with my post-work hobby as a blogger (using WordPress). However, while WordPress worked great for publishing web content, its PHP code made it a difficult sell for enterprises, which typically forbid PHP due to security vulnerabilities. In fact, troubleshooting hacked WordPress sites was a common task in my freelance consulting.
 
 Besides PHP, WordPress also required other infrastructure that was hard to set up without more engineering support, such as a MySQL database. Many web hosts (like Bluehost) provided this infrastructure in a way that was already configured and optimized for WordPress, so you didn't have to worry about things like whether you had Apache web server or other components in the LAMP stack correctly configured.

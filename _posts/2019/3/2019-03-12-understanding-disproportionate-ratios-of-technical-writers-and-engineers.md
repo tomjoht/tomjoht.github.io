@@ -64,7 +64,7 @@ Software developers
 
 Between 2010 to 2016, software developer jobs grew 37.5%, whereas technical writer jobs grew by 6%. 76% of technical writers agree that the number of engineers they support seems to be growing.
 
-[insert image of survey]
+{% include ads.html %}
 
 In response, some of the conference participants said the low growth rate for technical writers might be explained by these factors:
 

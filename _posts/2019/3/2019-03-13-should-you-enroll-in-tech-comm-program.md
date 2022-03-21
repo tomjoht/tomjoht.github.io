@@ -34,6 +34,8 @@ In short, discussions about tech comm programs are lively as ever. But the quest
 
 Before I get into my insights on this topic, keep in mind a few things. First, I've never attended a tech comm program nor taught in one. I'm also in the San Francisco Bay area, in the field of software documentation. Also, I haven't worked with many people who have tech comm degrees. People frequently tell me I'm in a bubble, so maybe my recommendations only apply within my bubble. Take my thoughts with a grain of salt, recognizing that I'm an outsider looking in, and am often proved wrong. Yada yada yada.
 
+{% include ads.html %}
+
 Also, my advice here applies *only if you're looking to eventually get a corporate/professional job working as a technical writer of some kind*. If you don't have professional ambitions for the corporate world (for example, maybe you want to teach rhetoric at a university), then you can probably skip this post. (Actually, if you have academic ambitions to study rhetoric for its own sake, you're probably not even reading my blog.)
 
 Okay, with those disclaimers out of the way, my advice for those contemplating tech comm programs is to be aware of two main risks with tech comm programs:

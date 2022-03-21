@@ -41,13 +41,15 @@ kramdown:
   syntax_highlighter: rouge
 ```
 
-Make sure you specify the Github Flavored Markdown parser by adding `input: GFM`. Otherwise backticks won't be processed. 
+Make sure you specify the Github Flavored Markdown parser by adding `input: GFM`. Otherwise backticks won't be processed.
+
+{% include ads.html %}
 
 ## Follow Kramdown's indentation syntax for code blocks within lists
 
 {{site.data.alerts.warning}}There's one more change you need to make. This change is not called out in the Github announcement, and its absence has caused a lot of confusion and reports of bugs, so I wanted to call out this needed update. {{site.data.alerts.end}}
 
-With Github-flavored Markdown, when you insert a code block within a list, you can indent the code block **4** spaces. 
+With Github-flavored Markdown, when you insert a code block within a list, you can indent the code block **4** spaces.
 
 But with Kramdown, you must line up the indent of the code block with the first non-space character after the list item marker (e.g., `1.`). Usually this will mean indenting the code block **3 spaces** instead of 4.
 
@@ -56,7 +58,7 @@ Thomas Leitner, the developer leading Kramdown, [explains it as follows](https:/
 > The gist is that the indentation for the list contents is determined by the column number of the first non-space character after the list item marker.
 >
 > Examples (edit: I replaced the leading spaces with underscores so it looks correct):
-> 
+>
 > `*_some text` -> 2 spaces indentation
 >
 > `*___some text` -> 4 spaces indentation
@@ -66,7 +68,7 @@ Thomas Leitner, the developer leading Kramdown, [explains it as follows](https:/
 If you have 4 spaces instead of 3, Kramdown will set off the code with `code` tags instead of `pre` tags. This will make a huge difference, since `code` tags render inline whereas `pre` renders as a div block.
 
 ## A Kramdown/Rouge test
- 
-As a test, I published a [sample Jekyll site here built by Github Pages](https://idratherbewriting.com/kramdowntest/jekyll/update/2016/02/05/welcome-to-jekyll.html) that contains the Kramdown/Rouge configuration. The page has code blocks both inside and outside of list items. 
+
+As a test, I published a [sample Jekyll site here built by Github Pages](https://idratherbewriting.com/kramdowntest/jekyll/update/2016/02/05/welcome-to-jekyll.html) that contains the Kramdown/Rouge configuration. The page has code blocks both inside and outside of list items.
 
 The repo is here -- [kramdowntest](https://github.com/tomjoht/kramdowntest) -- if you want to clone it and play around with it.

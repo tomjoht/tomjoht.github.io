@@ -21,6 +21,8 @@ The solution to this would have been fairly simple. Instead of holding a large g
 
 I'm still processing the outcome of the format. I had high hopes to implement all kinds of interactive, non-presentation formats at both the WTD and STC meetings, but now I'm rethinking this approach. Whenever you have big groups, the dynamics will likely play out the same. Quiet people remain quiet, while open/vocal people speak up and continue speaking up. When no one says anything, the same people share again and again, and pretty soon everyone gets tired of hearing them.
 
+{% include ads.html %}
+
 Why does this even matter to me? Long ago, when I was in college, I was a member of something called "Wick's End." It was a small group of English majors who met weekly to share poetry or short stories. We either shared something interesting we read or something we wrote ourselves. This group was modeled after the secret meetings in the famous movie *Dead Poet's Society*. (I was young and idealistic and apparently had time for these kinds of things back then.) The idea was to have a meeting kind of like this cave scene here:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/28VgqS7Vk2I" frameborder="0" allowfullscreen></iframe>

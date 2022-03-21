@@ -15,4 +15,6 @@ About six years ago, when I switched from WordPress to Jekyll as the platform fo
 
 I have noticed that more people are commenting now. I think Disqus required too many logins and had too many false positives filtered out.
 
+{% include ads.html %}
+
 One other feature I'm considering deep-sixing is the Facebook share button on my site (which loads its own scripts). Facebook has fallen into disrepute in the tech community, and I don't actively use Facebook nor see many conversations there. At the same time, Facebook still does have some traffic and popularity.

@@ -51,6 +51,8 @@ Here are a few screenshots from the Circle app:
 <div style="clear: both"></div>
 I won't give a detailed tutorial here, but basically every device that connects to your network can be identified (and renamed so you can recognize it), and then added to a profile. In the profile, you can set time restrictions (for specific sites like YouTube or Tumblr), filters (kid, teen, adult), bedtime time limits, and more.
 
+{% include ads.html %}
+
 You can see a history of that profile, including the number of minutes they spent online, the sites they visited, the sites that were filtered, and so on.
 
 This app is simple and easy to figure out. The only tough part is identifying all your devices and naming them. You can see the list of devices in the app, but your device's original name is often something like dp10004mxy, and you have to try to guess what's what.

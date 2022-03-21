@@ -16,7 +16,7 @@ This Thursday I'll be giving an STC webinar titled [Best Practices for Documenti
 
 I know I've been focusing a lot on API documentation lately on my site, and it seems I've given dozens of different API doc presentations over the past couple of years. In this presentation, I'm going to try to distill the essence of my [API documentation course](https://idratherbewriting.com/learnapidoc/) in about 45 minutes. I might try to record a practice run of the webinar as well.
 
-
+{% include ads.html %}
 
 On the same topic of API documentation, if you're in the San Francisco Bay area, this Thursday the Write the Docs group is also holding a [meetup on API documentation](http://www.meetup.com/Write-the-Docs/events/228074123/) in Redwood City. Andrew Fuchs from Google will be presenting.
 

@@ -28,6 +28,8 @@ Here's a rough depiction of the strategy:
 
 This strategy tends to fail only when the other team doesn't have a weak player, or when the other team has good outside shooters. But remember, this is pickup ball. Usually, at least one person on the other team is notably weak. This weak player is a major advantage to exploit, and you can do so by simply not guarding (or only loosely guarding) that player.
 
+{% include ads.html %}
+
 Now, note that I didn't say that the person playing rover, who is double-teaming the others on drives and posts, just sits back and lazily stands in the key like a statue. No, this player has to be hyper-aware, following the ball and deciding when to help out and when to hang back. This player must still keep the person he or she guards somewhat in the back of mind, ready to move at least a bit if the player is actually passed the ball, but the rover's real focus is on the other four offensive players. In short, this paint-roving player must be active and aggressive and alert, quickly darting into the right spot to counter any offensive penetration.
 
 For the most part, you don't see this strategy implemented in the NBA because, as I said, NBA players are all lethal scorers and you can't just leave them alone to double-team another player. However, if you watch the NBA, pay attention to Draymond Green, last year's Defensive Player of the Year. Green is one of the best players to watch to see someone help out in a rover-like way on defense. When someone drives, Green slides over to help out, creating a double-team. Sure, lots of players help out a little like this, but Green helps out in an aggressive, pro-active way, fully anticipating a drive or post move and then suffocating the play.

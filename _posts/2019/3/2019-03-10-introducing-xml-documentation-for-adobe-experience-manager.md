@@ -23,6 +23,8 @@ Their presentation was so thought-provoking, I ended up [writing a post](https:/
 
 More recently, at [Adobe DITA World 2018](https://2018-adobe-dita-world.meetus.adobeevents.com/register/), Laralyn and Bernadette Javier presented their story about moving to XML Documentation for AEM. You can view their recording on the [Day 1 recordings](https://2018-adobe-dita-world.meetus.adobeevents.com/register/#_atcs-dita-world-day-1). Their presentation is titled "Moving to DITA without Losing Your Soul: The Palo Alto Networks success story" and lasts an hour. (The reference to not "losing your soul" refers to keeping the larger stories coherent in their docs even when chunking the content up in the DITA information model.)
 
+{% include ads.html %}
+
 In their [Adobe DITA World 2018](https://2018-adobe-dita-world.meetus.adobeevents.com/register/) presentation, they explain that Palo Alto Networks was taking on enterprise customers fast, and these customers demanded enterprise-level docs. Their marketing group was already implementing AEM, and their doc group had an opportunity to implement documentation in the same system through the XML Documentation for AEM. Laralyn explains:
 
 > Our marketing was also in startup mode, looking for a CMS on which to build our new corporate website. Because of this, the decision to purchase the Adobe Experience Manager was a company-wide solution to host both our corporate website and our documentation portal. ... Marketing would own the look and feel and branding, which we would inherit, but we would be responsible for developing our own documentation solution.

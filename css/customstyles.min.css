@@ -884,6 +884,7 @@ p {
 .col-md-3 {
     background-color: #f0f0f0;
     border-radius: 5px;
+    padding-bottom: 30px;
 }
 
 h3.notesTitle,

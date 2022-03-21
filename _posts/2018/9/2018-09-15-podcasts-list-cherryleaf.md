@@ -13,6 +13,8 @@ I'd like to note a few details about podcasts that I think are worth mentioning.
 
 Why go to all the trouble to create a podcast? One reason is that podcasts have more power to connect with the listening audience than many other mediums. When someone listens to a podcast, it's like allowing someone to whisper into your ear for a half hour or more. The person's personality, enthusiasm, and other characteristics come through with voice in unmistakable ways.
 
+{% include ads.html %}
+
 One problem with podcasts is that because listeners aren't usually sitting at their computers, providing feedback is more difficult. I'd like to get some general feedback about podcasts, so I created a short survey to gather some feedback about your podcast listening habits and preferences. *You view the real-time, ongoing responses to the survey [here](https://www.questionpro.com/t/PEOsYZcwS7)*.
 
 <script>

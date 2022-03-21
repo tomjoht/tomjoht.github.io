@@ -86,6 +86,8 @@ The slides are all stored on GitHub:
 * [openapi-and-swagger](https://github.com/tomjoht/intro-to-api-documentation)
 * [nonref-content-api-docs](https://github.com/tomjoht/intro-to-api-documentation)
 
+{% include ads.html %}
+
 ## Event description
 
 The workshop covered many of the topics from my [API doc course](https://idratherbewriting.com/learnapidoc/). Here's the workshop description.
@@ -134,6 +136,3 @@ Sat, March 10, 2018<br/>
 Metropolitan State University of Denver: Room CN113 <br/>
 1198 11th Street<br/>
 Denver, CO 80204<br/>
-
-
-

@@ -45,6 +45,8 @@ Tech writers, too, must exert incredible patience and persist against failure an
 
 In the U.S., most sports attention gets devoted to (American) football, basketball, and baseball. For some reason, soccer isn't as popular in the U.S. Yet when World Cup comes around, suddenly lots of U.S. sports fans are suddenly watching *and enjoying* soccer (like me). The World Cup was streaming during lunch at my work yesterday and for several hours at a summer bash. Even something that many consider boring can suddenly flip over to being interesting.
 
+{% include ads.html %}
+
 And so is the story with tech comm. A boring career? By most perspectives, tech writer is drudgery to be avoided at all costs. It is the Plan Z option for humanities majors, the option to follow only if all else fails. And yet, when people start working as tech writers, they're often surprised at just how interesting the career turns out to be.
 
 ## 6. Your country/corporate culture determines the degree of support.

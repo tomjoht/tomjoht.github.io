@@ -20,3 +20,5 @@ Here are links to a few resources mentioned:
 * [Squiz](https://www.squiz.net/)
 * [Antora](https://antora.org/)
 * [Squiz documentation](https://matrix.squiz.net/manuals)
+
+{% include ads.html %}

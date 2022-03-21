@@ -58,6 +58,8 @@ The phenomenon of the web is that someone can build his or her expertise by mere
 
 Those who possess the tools for creating content (for example, writers who can generate interesting content) can shape identities and perceptions on the web more than non-content creators. If you have creative juices to continually publish insightful content online (which many writers do), you can exert a lot of influence and visibility.
 
+{% include ads.html %}
+
 ## Content generation versus influence
 
 There are some nuances to sort out with the simple formula I described, such as why some content creators are more influential than others. I imagine that a blog about cabs all the time could get pretty boring if it consists only of random cab pics. Not everyone who churns out content amasses an audience. The content has to be interesting, engaging, and worth reading.

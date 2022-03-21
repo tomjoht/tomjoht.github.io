@@ -38,6 +38,8 @@ You can view the rendered template here: [https://idratherbewriting.com/newslett
 
 My layout `none` is a layout that has no formatting. The newsletter template code loops through the last 6 posts on the site and pushes in the title, summary, and bitlink.
 
+{% include ads.html %}
+
 After the site builds, I go to the page, view the source, and copy this HTML into a new campaign in Tinyletter (pasting into the source) and send it out to my readers.
 
 I've noticed that pushing links out on Twitter gets about 10 clicks per post, and Linkedin gets about 10 clicks as well. But when I send out the email newsletter, I get about 100 clicks. (These are all rough estimates.)

@@ -18,6 +18,8 @@ Topics discussed in the podcast:
 
 * Tom is excited about the docs-as-code milestone reached at his work, where his team can now build and deploy Jekyll directly from the server through commits to an internal git repo. This publishing efficiency allowed their team to get rid of an old, archaic CMS publishing process that was slowing writers down.
 
+{% include ads.html %}
+
 You can view more podcasts at [podcast.writethedocs.org](http://podcast.writethedocs.org/). You can [subscribe to the podcast](http://podcast.writethedocs.org/how-to-subscribe/) using a variety of methods.
 
 **Links mentioned during the podcast:**

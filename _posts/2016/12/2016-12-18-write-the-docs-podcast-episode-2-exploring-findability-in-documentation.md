@@ -19,6 +19,8 @@ I have a lot of thoughts about findability in documentation. I once wrote a [len
 
 In the beginning of this podcast episode, we talk a lot about search tools. Search is an increasingly difficult component if you're working with a static site generator like [Jekyll](http://jekyllrb.com) for your authoring tool. [Static site generators](http://www.staticgen.com/) typically don't include search features, so you have to figure out the approach you want to take.
 
+{% include ads.html %}
+
 You can integrate third-party search such as with [Swiftype](https://swiftype.com/) or [Algolia](https://www.algolia.com/), if you're okay with hosting an index of your content on a third-party server and paying approximately $300/month.
 
 While I'd love to use one of these services, it's difficult to get security approval, budgetary go-ahead, executive buy-in, and other corporate processes aligned to make this happen. I think doc teams are accustomed to having their help authoring tool provide the search out of the box.

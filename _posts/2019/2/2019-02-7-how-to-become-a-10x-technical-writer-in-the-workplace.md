@@ -46,6 +46,8 @@ I remember one meeting I had with a PM at a gamification startup company. The PM
 
 Ideally, I'd like to get more expert at pulling information out of engineers' heads similar to how storyteller podcasters (e.g., Ira Glass with *This American Life*) can pull information out of interviewees in a story format. Theoretically, all the needed technical knowledge is inside the engineer's head, but it often comes out in random structures and tangents. I want to learn to shape and control that information so that essentially I can just clean up my recorded notes and turn them into documentation (it's a dream, I know).
 
+{% include ads.html %}
+
 Granted, these storyteller podcasters shape and edit and likely rearrange the clips of their interviews for hours to construct the story flow. But they have a clear shape in mind, and it seems like they naturally evoke the needed details to paint the story arc. Doc interviews could work the same way if I could focus on the shape of documentation ahead of time (asking what goals users have, the prerequisites to the task, asking for a demo, evaluating the result, probing what could go wrong, etc.)
 
 ## Tip #2: Respond quickly to emails and messages

@@ -18,6 +18,6 @@ description: "I've started adding responses to API doc questions to a FAQ page i
 
 You can read my responses in the [Tools FAQ](/learnapidoc/docapis_faq_tools.html).
 
+{% include ads.html %}
+
 By the way, I'm never quite sure what to call FAQ pages. They tend to be a catch-all for every question not answered elsewhere, not necessarily *frequently* asked questions. Some people [despise FAQs](https://idratherbewriting.com/2017/06/23/why-tech-writers-hate-faqs/), while others like them. However, I do think they are useful pages to hang a lot of questions not covered elsewhere.
-
-

@@ -24,6 +24,8 @@ bitlink: http://bit.ly/movefastandocthings
 
 <p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" type="audio/mpeg" /></audio></p>
 
+{% include ads.html %}
+
 You can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/ruthiemovefastanddocwtd.mp3" alt="Ruthie BenDor">download the MP3 file here</a>.
 
 You can follow Ruthie on Twitter here: [Ruthie Bendor](https://twitter.com/unruthless).

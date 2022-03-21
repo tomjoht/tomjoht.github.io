@@ -49,7 +49,7 @@ I dive pretty deep into each of these principles in my series on Simplifying Com
 
 I’ll provide some of the highlights here in a quick way, and you can see if any of the topics interest you to learn more. (In some ways, blog posts and presentations are meant to be like variety appetizers that you sample. You’re not meant to eat the whole meal but to figure out if something appeals to you.)
 
-
+{% include ads.html %}
 
 ## Principle 1: Let users switch between macro and micro views
 

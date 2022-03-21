@@ -28,6 +28,8 @@ If I don't specialize my knowledge in the product's tech, how should I focus my 
 * I can organize authoring workflows with git and repos to allow engineers to write and collaborate, submit pull requests, and push out new content somewhat autonomously. Orchestrating this distributed git workflow for doc can help us scale our efforts across the company.
 * I can analyze the information architecture of the doc site, how various products are organized, how users navigate to them, and provide the right tags and facets to increase findability across the documentation.
 
+{% include ads.html %}
+
 I *can* do all of the above, but often I don't simply because I'm focused on creating yet another new documentation article or topic by somewhat replicating the engineer's technical knowledge (a portion of it anyway). Writing is hard work, and I can easily spend the full day just creating one new doc article.
 
 Rather than burying my head in the technical details of Android APIs and how to build streaming media apps, I might instead spend more time becoming an expert in areas such as the following:

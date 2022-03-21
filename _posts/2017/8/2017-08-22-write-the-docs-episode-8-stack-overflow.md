@@ -19,3 +19,5 @@ You can see the original post here: [WTD Episode 8: Stack Overflow's Documentati
 * [Free software is suffering because coders don’t know how to write documentation](https://thenextweb.com/dd/2017/06/02/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation/#.tnw_xijs56yV)
 * [Open Source Survey](http://opensourcesurvey.org/2017/)
 * [Why do people answer questions on Stack Overflow?](https://jericson.github.io/2016/07/13/QA_economics.html)
+
+{% include ads.html %}

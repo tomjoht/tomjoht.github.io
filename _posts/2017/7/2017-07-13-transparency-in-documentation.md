@@ -59,6 +59,8 @@ The core product was protein pills. Based on all the research I read online, it 
 
 Despite the fact that I never used the company's products myself, I wrote with great enthusiasm and energy. (The company was either too cheap to give me free samples, or they feared that if I tried the products and found they did nothing, I'd lose motivation to write rock-star sizzling copy that resulted in sales ... or so I thought).
 
+{% include ads.html %}
+
 But I didn't care about the ethics behind writing marketing copy for products I wouldn't buy myself. I would have been just as happy to spend my time writing copy for premium slug salt or re-usable pop cans or designer koozies &mdash; this didn't bother me one bit.
 
 As a budding marketing copywriter, I  didn't care because *I was writing*! I had left teaching behind me (sorry students, I never liked grading your essays). I was a full-fledged *writer* now and I was cracking away at articles that others were reading.

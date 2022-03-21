@@ -29,6 +29,7 @@ As you build out the navigation for your doc site, follow these 5 design princip
 
 *   **Wayfinding**. Provide navigational signposts — such as breadcrumbs and workflow maps — to help orient users as to where they are in a larger system.
 
+{% include ads.html %}
 
 <hr/>
 

@@ -34,6 +34,8 @@ Links:
 
 <hr/>
 
+{% include ads.html %}
+
 ## Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists {#trends}
 
 Date: Monday, May 6, 2019<br/>

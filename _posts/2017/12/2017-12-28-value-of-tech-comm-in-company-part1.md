@@ -23,6 +23,8 @@ Almost no topic has been discussed more frequently in tech comm (since the begin
 
 Regardless of whether I add original insights, I hope to make sense of the value debate for myself, for my own role and company dynamics. Conclusions about value inform the tech writing model within a company; they inform my daily activities and focus, how I prioritize and orchestrate my work, how I interact with other groups, how I see my own contributions, and more.
 
+{% include ads.html %}
+
 In this essay, I'll explore these questions:
 
 * What is the value tech writers provide to a company?

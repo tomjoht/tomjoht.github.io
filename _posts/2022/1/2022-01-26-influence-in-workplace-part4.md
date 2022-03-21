@@ -35,6 +35,8 @@ If these patterns are true on the web, would these patterns likewise be true in 
 
 There's a real risk that any efforts to influence or interact with a certain group of people &mdash; by writing about topics you think they'll find relevant &mdash; might backfire. You might discover that these topics don't interest them, don't interest you, and ultimately aren't worth spending time writing about. If you're working all day in documentation, the topics you naturally write about will be documentation-related, right? And if this group of people at work aren't interested in documentation, are you doomed to having only .01% of people at work read the content? Is that .01% worth it? I'm not sure.
 
+{% include ads.html %}
+
 ## Workplace culture and natural interests
 
 There's real merit in focusing on what engages you. In "Google: a reflection of culture, leader, and management," S.K. Tran explains that high-performing companies like Google and Zappos place a high value on culture at work as the key to employee productivity and success. Tran writes:

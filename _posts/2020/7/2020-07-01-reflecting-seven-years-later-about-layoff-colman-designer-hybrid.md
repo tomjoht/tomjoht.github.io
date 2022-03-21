@@ -37,6 +37,8 @@ As a result, content designers worked with more focus and at a more specialized 
 
 Jonathon says this pivot also brought more focus to the role. The growth path for content designers has traditionally been to grow in scope, working across more and more teams. That wasn’t so fulfilling. The downstream benefit of this new hybrid role (content/product designer) is that because of their expertise, they became a leader in the product space and have more of a focused growth path. They can work across a single product life cycle in a deep way.
 
+{% include ads.html %}
+
 ## Deep versus brief immersion with projects
 
 I find this pivot fascinating and it seems to confirm my previous experiences. In a post I wrote in 2020 titled [Writing User-Centered Documentation, or, My Best Days as a Technical Writer](/2012/06/21/writing-user-centered-documentation-or-my-best-days-as-a-technical-writer/), I argued that deep immersion on a product and team, especially with users, resulted in a much more fulfilling experience as a technical writer.

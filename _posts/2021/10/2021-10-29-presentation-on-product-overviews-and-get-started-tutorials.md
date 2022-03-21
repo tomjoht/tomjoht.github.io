@@ -56,6 +56,8 @@ Here's a description of the presentation:
 **Organizer: [STC Washington, D.C.-Baltimore Chapter](https://wdcb.stcwdc.org)**<br/>
 **Cost: $0-$15, [Eventbrite](https://www.eventbrite.com/e/best-practices-in-api-docs-product-overviews-and-getting-started-tutorials-tickets-179050784717)**
 
+{% include ads.html %}
+
 ## Related resources
 
 I gave a [similar presentation a couple of months earlier to tekom Europe](https://idratherbewriting.com/blog/product-overviews-and-getting-started-tutorials-presentation/). In the tekom Europe version, I didn't have any examples and didn't respond to audience chat during the presentation. But otherwise, the content is highly similar.

@@ -20,6 +20,7 @@ You can view the [Postman podcast details](http://podcast.writethedocs.org/2018/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WN4HWuj1Gws" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+{% include ads.html %}
 
 For more information, see the following:
 

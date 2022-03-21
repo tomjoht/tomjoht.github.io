@@ -18,6 +18,8 @@ I often pause one project one week to focus on one with higher priority, and the
 
 Since that single-project focus is rarely possible (count yourself lucky if it is), there's another alternative for productivity: extending out the timelines. Extending out timelines for work in a long-term way rather than short-term requires us to think in unfamiliar ways. The inability to think long-term is why so many of us rarely see harm in eating poorly or continuing in some other bad habit &mdash; the effects aren't seen for so many months/years into the future, it's hard to connect them to the immediate present.
 
+{% include ads.html %}
+
 But long-term thinking and strategy is a valid way to tackle the multiple project problem. In my project strategy plan, I have a diagram like this:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/goals_arrows_method.svg" alt="Long-term projects" />

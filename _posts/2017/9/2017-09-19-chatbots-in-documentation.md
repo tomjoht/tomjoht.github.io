@@ -13,7 +13,6 @@ bitlink: http://bit.ly/chatbotstwd
 
 Subscribe to the podcast at [http://podcast.writethedocs.org/](http://podcast.writethedocs.org/).
 
-
 **Links mentioned during the podcast:**
 
 * [Chatbots Magazine](https://chatbotsmagazine.com/)
@@ -23,3 +22,5 @@ Subscribe to the podcast at [http://podcast.writethedocs.org/](http://podcast.wr
 * [SAP Chatbot – Talk to SAP Applications with Google Home/Facebook Messenger/Skype](https://blogs.sap.com/2017/04/10/sap-tm-chatbot-talk-to-sap-tm-application-with-google-home/)
 * [Ambient Findability](http://shop.oreilly.com/product/9780596007652.do)
 * [Cherryleaf](https://www.cherryleaf.com/)
+
+{% include ads.html %}

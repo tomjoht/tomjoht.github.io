@@ -14,8 +14,6 @@ Here are a couple of screenshots from Google Analytics:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trends2017.png"/><figcaption>The blue line is 2016, the brown is 2015. Page views were 778k for the year, up 24% from 626k the previous year. That's an average of 2k+ page views each day.</figcaption></figure>
 
-
-
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sessions2017.png"/><figcaption>Sessions were up 31% for the year, to 497k from 377k the previous year. A session is a single visitor's time on the site, not counting the number of pages the user visits.</figcaption></figure>
 
 ## Top pages
@@ -43,6 +41,8 @@ Some of the top pages can be explained away as flukes. I doubt people are search
 Posts about technical writing careers and certificate programs are perennial favorites. A lot of users (hello English majors!) are looking for tech writing information online and searching for career advice.
 
 The JavaScript article is one of those weird instances where a single post shoots to the top based on unpredictable factors (the melting ice caps?).
+
+{% include ads.html %}
 
 But the BIG NEWS is that the top 3 posts are all related to Swagger. In fact, that [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is driving a steady stream of visitors to my site. That article brought 104,000 page views in 2016, which is more views than my homepage (the "/") gets.
 

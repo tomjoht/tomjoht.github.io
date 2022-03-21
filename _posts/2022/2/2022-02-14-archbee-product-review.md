@@ -63,6 +63,8 @@ In fact, you can't even toggle into a code view to see the code. Archbee does le
 
 In contrast, the Archbee editor lets you immerse yourself entirely in the content, without thinking much about formatting or how it will look. The UI is 100% intuitive and nearly everyone in a company would be able to start creating content without any special training or orientation.
 
+{% include ads.html %}
+
 ## Ease of writing allows more to participate {#ease-of-writing-allows-more-to-participate}
 
 The easier it is to write, the more diverse roles will participate in content development and publishing. This is why Archbee would also work well as an internal wiki, knowledgebase, or other enterprise-wide tool. There are a [number of integrations](archbee.io/integrations){:rel="nofollow"} that make it even more suited for internal docs, such as the Jira integration, Trello integration, and Slack integration.

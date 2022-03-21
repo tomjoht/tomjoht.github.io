@@ -42,6 +42,8 @@ By providing documentation, you're enabling poor design. Get rid of documentatio
 
 No, we can't get rid of documentation. What holds true for some easy, intuitive products can't be applied to the vast array of complex products in the technology landscape. No matter how intuitive a design product teams aspire to achieve, there are complexities that cannot be eliminated. A world without docs might be a designer's utopian dream world but it doesn't hold true to reality. Just as we can't discard support, field engineering, and training &mdash; all unnecessary groups in a perfectly intuitive product &mdash; we also can't discard documentation. For many developer-centered products (such as APIs), which don't have a user interface or tangible product, documentation in some ways *is* the product interface.
 
+{% include ads.html %}
+
 The assumption that docs might not be valuable is one that I'll return to later in [part VI](/2017/12/28/value-of-tech-comm-in-company-part6), but for now, let's move on.
 
 ## The relationship between usage and value {#relationship_usage_value}

@@ -21,6 +21,8 @@ This essay started out as one post and expanded into seven because I kept search
 
 Writing this essay helped me evaluate an idea I was struggling against. The idea was this: Technical writers should act as mere facilitators of the writing and publishing process, providing the tools for others in the organization to write and publish technical content. They might review the content to ensure it meets basic standards, but the burden of content development lies with each project team, not the technical writers.
 
+{% include ads.html %}
+
 Such an idea severely shortchanges the knowledge value that technical writers can and should play. It perpetuates a secretarial status to technical writers and will lead to a devaluation of our role, not to mention a lowering of the knowledge assets of the company. Writing this essay helped me value the important knowledge contributions that technical writers make and see my effort in the proper light.
 
 ## Action items and takeaways

@@ -25,6 +25,8 @@ It's no secret that exercise has a positive impact on mental health. In [I Exerc
 
 The author references studies showing that regular exercise stimulates the production of seratonin, which helps regulate mood, sleep, social behavior, and other key aspects in your body. The author notes that most people stay motivated with their goals when they experience tangible results, and regular exercise certainly delivers on that, as you can clearly notice the difference it makes in your life.
 
+{% include ads.html %}
+
 In [A Writer's Reflections on Turning 80](https://www.nytimes.com/2021/05/17/well/family/jane-brody-birthday.html), Jane Brody says that getting regular exercise seems to increase importance after 50. For the first 50 years of your life, your body can rebound no matter what you do to it, but after that point, it's up to you. She writes:
 
 > Assuming you don’t smoke, which was my husband’s undoing, Nature will usually take pretty good care of you for about half a century. Thereafter, it’s up to you.

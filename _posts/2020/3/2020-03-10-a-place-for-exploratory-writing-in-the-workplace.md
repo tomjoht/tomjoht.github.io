@@ -16,6 +16,8 @@ What excites me about exploratory writing is that you don't always know the dire
 
 Exploratory writing prompts reflection, and noodling on ideas, and researching what others have said and written on the matter. The spark of discovery is what energizes me about life &mdash; to use the tool of writing as a way to think and come to realizations and epiphanies that wouldn't have likely been possible other than by writing about them. Isn't that a wonder? It's one reason I majored in English in college, earned an MFA in creative writing, and have continued this blog for the past 14 years. It's not just that I like to write. I like to explore and discover new ideas through writing.
 
+{% include ads.html %}
+
 Coming back to the question about exploratory writing in the workplace, I have the privilege of working in a unique corporate context where writing plays a central role in meeting dynamics and decisions. At Amazon, if you want to put forward a new idea to get adoption, you start by writing a six-page document that dives into the depths of the idea with data and other research. As the meeting starts, you distribute the document and then everyone reads it for the next 20 minutes or so, depending on how long the document is. As the discussion begins, people proceed through the written content with questions and comments.
 
 Bezos is famous for implementing this approach in meetings, as it reduces the chances that an idea gets adopted out of sheer charisma from a presenter's pitch of an idea. It instead forces you to think deeply about a topic and make a case for it.

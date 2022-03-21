@@ -10,3 +10,5 @@ description: "At some point after receiving a new documentation project, the fir
 ---
 
 Read the full article here: [Documentation kickoff meeting and product demo](/learnapidoc/docapis_kickoff_meeting_agenda.html).
+
+{% include ads.html %}

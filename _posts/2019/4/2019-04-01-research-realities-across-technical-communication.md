@@ -25,6 +25,8 @@ While such differences can be complex, they generally involve five (5) areas tha
 
 Individuals in industry often focus on finding answers to specific questions (e.g., what's the best program to use for X) or addressing specific situations (e.g., identifying the cause of a usability issue with an interface). Academics tend to focus on answering broader questions (e.g., how do humans communicate in relation to X) or more theoretical foci (e.g. how can theory X help us better understand user expectations of interface design). Each perspective is of value to the other. Differences in scope, however, can lead to ideas that academic research cannot be applied to industry contexts or that industry research is too focused or restricted in nature.
 
+{% include ads.html %}
+
 ### Factor 2 - Scale: How many individuals should one study when researching something? {#scale}
 
 A range of things from production timelines to development cycles can affect how many individuals technical communicators in industry can study, survey, or interview when doing research. Such pragmatic factors limit the scale of the research done and the applicability of related findings (e.g., four out of five subjects indicated they could use the interface to do X, so the design seems to work in terms of X).

@@ -34,6 +34,8 @@ I created an example of how to build this workflow map [here](https://idratherbe
 
 This example users [modals from Bootstrap](http://getbootstrap.com/javascript/#modals) to pop up information boxes that contain the various topic groupings. You could design each box more attractively, even adding background images into each one and such. But this simple implementation shows the general idea.
 
+{% include ads.html %}
+
 Here's a JS Fiddle for this code:
 
 <script async src="http://jsfiddle.net/tomjoht/nuvcqbu5/embed/"></script>

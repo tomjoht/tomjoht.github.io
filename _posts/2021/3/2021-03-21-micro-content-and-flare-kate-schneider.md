@@ -40,6 +40,8 @@ Here's an example:
 
 <figure><a href="http://securewatchdocs.maxar.com/en-us/Resources/Masterpages/SearchResults.htm?q=multispectral"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/multispectralexample.png" alt="Example of a snippet for the term multispectral" /></a><figcaption>Example of a snippet for the term "multispectral"</figcaption></figure>
 
+{% include ads.html %}
+
 ## Podcast topics
 
 Here are a few topics we cover in the podcast:

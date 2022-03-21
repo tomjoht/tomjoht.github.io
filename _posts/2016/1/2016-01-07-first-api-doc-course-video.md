@@ -31,6 +31,7 @@ However, since I'm a one-man show in creating this recording, I had to ask my wi
 In post-production, I also added a "colorize" feature in Camtasia Studio, setting the color to white at 30%.
 
 ## iPhone versus Canon Vixia
+
 I initially bought a Canon Vixia HF600 camcorder to do the recording, but I found that the video quality on the iPhone 5 is about the same or better (at least in my recording scenario) than the Canon Vixia.
 
 Also, the external microphone port on the Canon Vixia allows only microphones that have their own power supply. I didn't want to buy the recommended WM-V1 wireless microphone ($200) when I already had a decent phantom-powered lapel microphone.
@@ -43,6 +44,6 @@ The iPhone camera is pretty good, especially when you're just creating Youtube v
 
 As for the approach with the white background and on-screen text, I was trying to imitate this [example video](https://www.udemy.com/create-your-first-udemy-course/learn/#/lecture/3111326). The example has a basic white background behind a presenter. Text appears over the background to reinforce what the presenter is explaining. I watched most of this guy's videos and liked his approach, so I wanted to try it myself.
 
-
+{% include ads.html %}
 
 Overall, I know I need to get more practiced with my hand gestures, my eye focus points, and other body movements. But what do you think of this first video? Any feedback? How could I make it better?

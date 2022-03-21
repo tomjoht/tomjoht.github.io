@@ -58,6 +58,8 @@ codename:
 
 Theoretically, every device should have values for these same fields. However, this is easier said than done. Some devices (like Fire TV Cube) introduce new features that older devices lack. Other devices also add to the video and audio codecs (like adding Dolby Vision or Dolby Atmos) that previous specs lack. To define a schema that can stand the test of time for all devices both in the past and future is challenging. And each time a new device comes out that introduces a new property, it raises the question of whether to update the specs for the previous devices.
 
+{% include ads.html %}
+
 I store information about all the specs in one YAML file. To navigate within the YAML file, I can collapse all fields using **Shift + Option + Cmd + [** or expand them with **Shift + Option + Cmd +]**. This shortcut key makes it super easy to locate the right info. I actually like working in YAML, sometimes more than Markdown. This is because I know that I can render the information in any way I choose.
 
 ## Reusing information in YAML

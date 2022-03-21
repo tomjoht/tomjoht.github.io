@@ -18,4 +18,6 @@ To get a sense of the workshop, see my [API documentation course](https://idrath
 
 I've actually been working on some of my material to include more activities. Also, the content is constantly evolving, and I'm using feedback from each workshop to try to make improvements.
 
+{% include ads.html %}
+
 By the way, if you're in the Bay area, also check out the [TC Camp](https://www.tccamp.org) event held on April 26, 2019. TC Camp will also have an [API training](https://www.tccamp.org/2019/03/api-workshop-tccamp-2019/) prior to the unconference, though it's taught by someone else. The popularity of these workshops speaks to their relevance and importance in career development.

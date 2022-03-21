@@ -28,6 +28,8 @@ Selling developers on any other syntax (even rST, with all the semantic benefits
 
 Github has continued to become the go-to platform for open source development projects. Teams are not only managing code on Github, but documentation as well. It makes sense to use the same platform for managing documentation as you do code, treating code and doc with similar workflows. (See Adam Wood's recent post, [Docs as code](http://hackwrite.com/posts/docs-as-code/), for more details.)
 
+{% include ads.html %}
+
 In an insightful post about 2016 trends, Shaun McCance, who runs [Open Help conferences](http://openhelp.cc/), outlines the [top 5 trends in open source documentation](https://opensource.com/article/16/12/yearbook-5-trends-open-source-documentation). He names Git, lightweight languages, static site generators, continuous integration, and hosted documentation services as trends. Github encompasses all of these features in one platform and workflow.
 
 ### 4. Write the Docs meetup groups proliferate over STC (2016)

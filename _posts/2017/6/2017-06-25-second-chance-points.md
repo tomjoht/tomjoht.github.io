@@ -23,6 +23,8 @@ In technical writing, how do you increase your second and third-chance points? V
 
 My favorite possessions in basketball games are when my team misses the shot 5 or more times, but we keep getting the rebound and making another shot attempt. Eventually the shot goes in. (This also demoralizes the other team, and they start backbiting with their teammates about not boxing out.)
 
+{% include ads.html %}
+
 Each time we do a doc review with someone, even if the person isn't a real user but is a team member or other employee, the feedback we get can make our docs stronger and stronger. Eventually we get to the point that on that fourth or fifth iteration, our documentation is right on target &mdash; a swoosh. The more we do reviews and incorporate feedback across each topic in our documentation, the more points we figuratively accrue to the extent that our doc succeeds with users.
 
 Here's a graphic that shows my point:

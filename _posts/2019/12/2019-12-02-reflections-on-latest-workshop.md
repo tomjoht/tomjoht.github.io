@@ -20,6 +20,8 @@ Many people who attend these workshops either work several blocks away from the 
 
 The main feedback I received from the previous Mountain View workshop was around the activities &mdash; I didn't give attendees enough time to complete them. (If you think creating API activities is easy, check out this post from API Handyman: [Lessons learned while demoing API to non-developers](https://apihandyman.io/lessons-learned-while-demoing-api-to-non-developers/) &mdash; it made me feel much better about the technical issues I've encountered with even the simplest of activities.) This time around, I isolated the more difficult activities and made them optional. This would allow more advanced attendees to have something to do while not making the other attendees feel like they were leaving some activities incomplete. This time, no one really complained about the activities, so I think this new approach fixed the issue.
 
+{% include ads.html %}
+
 However, the overall workshop score was about the same. I've been giving this same workshop survey each time, and here's how the ratings compare:
 
 * In the San Francisco workshop, 39% said the workshop was excellent, 56% said it was good, and about 5% rated it as average. See [San Francisco survey results](https://www.questionpro.com/t/PGc5PZfuH0).

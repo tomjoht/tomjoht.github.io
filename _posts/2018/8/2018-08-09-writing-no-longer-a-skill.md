@@ -30,6 +30,8 @@ How do you interpret this disparity? It seems pretty clear that one type of cont
 
 Further, I'm guessing that most of the traffic to that API doc site involves *developers* looking for tips on how to document their API, not technical writers. This is because the traffic is outpacing the regular traffic on my blog.
 
+{% include ads.html %}
+
 Also, I get regular requests to teach workshops and even classes on API documentation, but almost nothing on simplifying complexity (though granted, I haven't marketed it or even finished that site). But if I were to try to package up the content I have so far about simplifying complexity, I'm not sure how I would market it. Workshops seem geared towards teaching specific *skills* that can be packaged and sold. Is simplifying complexity a skill that fits into that category? Workshops tend to focus on more concrete tasks, whereas the topics in simplifying complexity align more with critical thinking and higher-level analysis.
 
 To give you an idea of the skills focus in workshops, here are some titles from workshops at the recent STC Summit, Lavacon, and other conferences:

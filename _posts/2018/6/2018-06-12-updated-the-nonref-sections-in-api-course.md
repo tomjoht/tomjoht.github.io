@@ -29,6 +29,8 @@ Here's a list of pages in the [Non-reference content](https://idratherbewriting.
 [Code samples and tutorials](https://idratherbewriting.com/learnapidoc/docapis_codesamples_bestpractices.html)
 : Developer documentation tends to include a lot of code samples. You might not include these more detailed code samples with the endpoints you document, but as you create tasks and more sophisticated workflows about how to use the API to accomplish a variety of goals, you’ll end up leveraging different endpoints and showing how to address different scenarios.
 
+{% include ads.html %}
+
 [SDKs and sample apps](https://idratherbewriting.com/learnapidoc/docapis_sdks_and_sample_apps.html)
 : SDKs (software development kits) and sample apps are similar to code samples but are much more extensive and usually involve a whole collection of files that work together as a package or app. The SDK might include libraries that you download and incorporate into your application, and can include tools, sample apps, and other code. Sample apps are self-contained applications that implement the API for a specific scenario. Sample apps demonstrate an implementation from beginning to end (usually including initialization, configuration, requests, etc.).
 
@@ -40,6 +42,3 @@ Here's a list of pages in the [Non-reference content](https://idratherbewriting.
 
 [Glossary](https://idratherbewriting.com/learnapidoc/docapis_glossary_section.html)
 : The glossary defines all the terms that might be unique to your company or API. Glossaries are often overlooked or skipped, but their importance should not be understated, since much of the user’s understanding of API documentation depends on the clarity and alignment of specific terms.
-
-
-

@@ -24,6 +24,8 @@ Tech writers and users sometimes have different operating systems. What works on
 
 Technical writers usually document the latest version of the software, and when they publish, they're done (at least for a while). They don't always get to stick around to update the published documentation through the life of the product.
 
+{% include ads.html %}
+
 However, products don't reach end of life on their first release but rather continue to be updated incrementally, especially if the software developers follow agile methods. Unless tech writers are constantly following each update and updating all the docs to match, doc eventually drifts apart with each new version and eventually becomes less and less accurate.
 
 The documentation that was written for version 1.0 gets slightly out of date when 1.1 is released, and more out of date as the versions increment. Additionally, users may not be using the latest version of the product.

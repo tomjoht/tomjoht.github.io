@@ -38,6 +38,8 @@ Additionally, when you have lots of writers creating and merging branches in the
 
 Small repos avoid pretty much all of these issues. The small repo model is largely the model you would follow when using a tool such as Flare, for example. Each doc set is its own independent project.
 
+{% include ads.html %}
+
 However, small repos have an equally challenging set of issues. The problem with small repos is ensuring a consistency of theme files across all the repos. Suppose you have 20 separate repos for each of your product docs. How do you make sure each individual project can get the same theme files?
 
 I tried three separate approaches to distribute theme files:

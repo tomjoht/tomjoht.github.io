@@ -14,3 +14,5 @@ Here's a brief summary of the article:
 > Writing good documentation requires you to reconstruct the absent user through a number of techniques &mdash; web analytics, embedded surveys, milestone completions, support tickets, satisfaction surveys, and more. It is an iterative process where layers of information get added little by little to form an image of the user, like a 3D printer slowly building a face. By acquiring and analyzing this user knowledge, you can start to create documentation that meets user's needs. This user knowledge, though mostly qualitative, provides the best measure for documentation.
 
 Read more here: [Reconstructing the absent user -- the essential requirement for writing good documentation](http://bit.ly/reconstructabsentuser).
+
+{% include ads.html %}

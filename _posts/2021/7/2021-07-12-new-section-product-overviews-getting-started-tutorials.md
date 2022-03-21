@@ -13,3 +13,5 @@ Here are the new sections:
 
 * [Reasons why product overviews are often minimal or nonexistent](/learnapidoc/docapis_doc_overview.html#reasons_for_failure)
 * [Reasons why getting started tutorials fail or don't exist](/learnapidoc/docapis_doc_getting_started_section.html#reasons_for_failure)
+
+{% include ads.html %}

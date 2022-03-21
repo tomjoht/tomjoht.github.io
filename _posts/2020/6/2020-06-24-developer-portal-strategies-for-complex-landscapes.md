@@ -40,6 +40,8 @@ Here are a few questions I asked Kristof during the podcast:
 
 Many of these talking points are based off a presentation Kristof recently gave titled [The Role of Developer Portals in Digital Transformation](https://www.youtube.com/watch?v=zj0fuFC5FYw) at the API the Docs Virtual series in April 2020.
 
+{% include ads.html %}
+
 ## Resources
 
 Here are some other resources mentioned during the podcast:

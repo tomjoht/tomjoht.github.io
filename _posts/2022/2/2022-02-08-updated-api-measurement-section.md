@@ -20,6 +20,8 @@ Also, I originally had a first-level checklist and a second-level checklist. The
 
 Finally, I created a [lightweight checklist](/learnapidoc/docapis_quality_checklist.html#short_version) that selects only two criteria from each category. I tried to select what I felt would be the most important criteria, but really it came down to a purely arbitrary decision on my part.
 
+{% include ads.html %}
+
 ## Best outcome of the quality checklists
 
 I made these updates after a recent podcast where we discussed the checklists. The podcast isn't yet published, but stay tuned for more on the topic of API documentation quality checklists. I've found that the best outcome of the checklists is my "Observation 3" that I published in [10 observations after using my API documentation checklist in a real scenario](/blog/observations-using-checklist/), about a year ago:

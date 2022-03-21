@@ -33,6 +33,8 @@ Here are the myths I address in the podcast.
 
 In the podcast, I mentioned this NY Times article: [In the Salary Race, Engineers Sprint but English Majors Endure](https://www.nytimes.com/2019/09/20/business/liberal-arts-stem-salaries.html).
 
+{% include ads.html %}
+
 ## Your Feedback
 
 Here's a short survey to see if you think these myths are generally true or false. (It would be best if you listened to the podcast first.) You can view the [ongoing results here](https://www.questionpro.com/t/PGVTlZfSsJ).
@@ -48,5 +50,3 @@ EMBED_PARAMS.border = "hidden";
 </script>
 <div id="div_6879040"></div>
 <script src="//www.questionpro.com/javascript/embedsurvey.js?version=1"></script>
-
-

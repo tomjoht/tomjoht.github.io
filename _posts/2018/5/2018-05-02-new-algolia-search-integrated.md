@@ -22,6 +22,8 @@ The main problem with custom search engine is that searches on Google lead users
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/googlesearchsimilar.png"/><figcaption>After you click this result and return to the search results page, Google shows you similar queries, but those similar queries aren't restricted to the site-specific domain you initially entered.</figcaption></figure>
 
+{% include ads.html %}
+
 ## Pros and cons of Algolia
 
 Now let's look at <a href='https://www.algolia.com/'>Algolia</a>.

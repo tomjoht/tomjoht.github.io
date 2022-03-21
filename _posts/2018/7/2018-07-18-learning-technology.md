@@ -40,6 +40,8 @@ Of course, this brings up the eternal debate of our role as academics around tec
 
 Teaching technological adaptability bridges the gap between the academic and the vocational. It takes technology from being a hard skill to a soft skill; it takes technological ability from being a rigid structure that is easily outdated to an intangible skill that can be maintained for an entire career. We teach soft skills every day: writing and communication skills, collaboration, interviewing skills, critical thinking, and more. The soft skill of technological adaptability is an appropriate skill to add to the list. It requires a different way of thinking about technology skills overall.
 
+{% include ads.html %}
+
 ## The Elephant in the Room
 
 I noted earlier the reasons I was told we don’t teach technology. These reasons are valid, but they are not the only nor the most significant reasons. Other reasons include:

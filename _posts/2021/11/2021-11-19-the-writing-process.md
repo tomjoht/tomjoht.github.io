@@ -23,6 +23,8 @@ Last month I also had a major writing project at work that had me immersed in th
 
 Overall, these six pages total about 15,000 words, so it's not an insignificant amount of content. But if you're an experienced tech writer, you'll likely find most of my advice familiar. Even so, the advice is probably a good reminder about best practices.
 
+{% include ads.html %}
+
 Although it's easy to get sucked into docs-as-code tools and workflows, API specification formats and renderers, and other tech details, I think the writing process &mdash; [planning](/learnapidoc/docapis_planning.html), [information gathering](/learnapidoc/docapis_information_gathering.html), [writing](/learnapidoc/docapis_writing.html), [reviewing](/learnapidoc/docapis_reviewing.html), and [publishing](/learnapidoc/docapis_publishing.html) &mdash; forms the core of what we do. As such, I wanted to be sure to include a section on this in my API course.
 
 You can start reading here: [Overview of the writing process](/learnapidoc/docapis_writing_process_overview.html).

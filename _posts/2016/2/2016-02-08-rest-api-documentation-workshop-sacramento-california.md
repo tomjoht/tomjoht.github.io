@@ -11,8 +11,6 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/sacapi
 
 <a href="http://www.stcsacramento.org/calendar.html"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsacramentoworkshop.png" | prepend: site.baseurl }}" alt="REST API documentation workshop in Sacramento" /></a>
 
-
-
 Here is a description of the API workshop I'm giving in Sacramento:
 
 > <h3>Workshop on Documenting REST APIs</h3>
@@ -58,6 +56,8 @@ This course will mostly provide an introduction to these concepts. There are man
 >In addition to covering technical strategies for documenting REST APIs, we'll also talk generally about the job market for developer documentation, the skills in demand, and challenges in working in developer environments.
 
 You can find more information on the [STC Sacramento site here](http://www.stcsacramento.org/calendar.html).
+
+{% include ads.html %}
 
 Note that I'm also giving a [similar API documentation workshop](http://sched.co/5o4O) at the STC Summit in Anaheim, California in May (though the cost is 10 times as much).
 

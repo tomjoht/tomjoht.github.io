@@ -29,6 +29,8 @@ Last January, when I poured through my 2015 metrics, I noticed a slight downward
 
 The downward trend was slight and not easy to analyze. Was I not posting as much as the previous year? Were readers getting tired of "blogs"? Was there simply more content to read online on other sites? Who knew. Someone even suggested that my focus on API documentation was turning off readers. Actually, my [Swagger Tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html) is my top most viewed page on my site, with 40,700 page views!
 
+{% include ads.html %}
+
 Maybe Google was aware of this trend on a larger scale and implemented an update to help users find content-rich sites? At any rate, what a pleasant surprise to see the rise in traffic.
 
 Additionally, I have also noticed a steady increase in newsletter subscribers. There are now 3,120 people subscribed to my newsletter. When I send it out, there are about 650 unique opens and more than 500 clicks. Compared to the clicks from social media, email continues to dwarf all other publicity channels -- except perhaps the long tail hits from continued search traffic.

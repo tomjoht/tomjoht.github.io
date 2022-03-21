@@ -9,6 +9,7 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/comple
 ---
 
 ## What are the bleeding-edge tools?
+
 In a recent discussion on the [Techw-l listserv](http://www.techwr-l.com/archives/), an academic was looking to find advice about the "bleeding-edge" trends in help authoring tools. Academics want to prepare students to succeed in the job market once they graduate, and since academics usually aren't focused on tools, this person was looking for guidance.
 
 One of the commenters on the thread made a particularly astute observation about bleeding-edge tools. [Robert Lauriston noted](http://www.techwr-l.com/archives/1601/techwhirl-1601-00009.html#.VpFLgpMrIyk):
@@ -20,6 +21,8 @@ Some bleeding-edge tools are certainly available. As you probably know, lately I
 ## The problem with bleeding-edge tools
 
 The problem with adopting bleeding-edge tools is that documentation requirements get so complex, you either have to abandon the simple bleeding-edge tool (which produces the modern web output), or you have to jerry-rig the tool with such complex workflows and coding that the simple tool becomes a [Rube Goldberg machine](https://www.google.de/search?q=Rube+Goldberg+machine&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq_uTth6HKAhWJ0iYKHQLnCNEQ_AUIBygB&biw=1247&bih=643).
+
+{% include ads.html %}
 
 For example, here are a few features (based on requirements) that I added to my Jekyll project that have made this once simple tool really complex:
 

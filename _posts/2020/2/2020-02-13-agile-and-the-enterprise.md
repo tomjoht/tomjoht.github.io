@@ -19,7 +19,6 @@ For example, companies might spin off a group of 20 people in various roles &mda
 
 Agile engineering teams sensing extensive documentation needs tend to hire a dedicated technical writer specific to their team. These writers often arrive with only marginal obligations to adhere to wider enterprise concerns. If the writer has to plug into the same toolchain, taxonomy, style guide, re-usable content source, approval process, and publishing workflows as the enterprise, then you’ve slowed down the tech doc process and are at odds with the nimble and quick pace of agile development.
 
-
 ## Enterprise content strategy
 
 In contrast to the independent, autonomous efforts of agile teams, enterprise content strategy has much broader, more encompassing goals. An enterprise content strategist might ask how the documentation produced by a single team fits in within the larger enterprise context. This strategist would consider all the content touchpoints customers have across the enterprise through their product journey, from pre-sales touchpoints with marketing to touchpoints with solutions engineers, business development, post-sales touchpoints with tech docs, support, troubleshooting, and more. What is the customer experience from end to end? And how do you ensure consistency of terminology, style, and message across all of these enterprise lines?
@@ -27,6 +26,8 @@ In contrast to the independent, autonomous efforts of agile teams, enterprise co
 Search is where enterprise content intersects – where customers see all content mixed together, often juxtaposed in often jarring ways. Enterprise content strategy by definition forces you to cross department and team boundaries to coordinate on a higher level. For example, enterprise content strategy might strive for a unified taxonomy for all enterprise content so that it can feed into a larger faceted search or content management system, where assets are described, shared, tracked, and re-used. Faceted search simply doesn’t work if all teams aren’t on board with the same terminology.
 
 Is agile at odds with enterprise content strategy? And if so, are the benefits of enterprise content strategy strong enough to overpower the driving forces of agile? If the natural direction for tech writer dynamics in companies is small agile teams rather than coordinated cross-department collaborations and structures, is enterprise content strategy an uphill battle that’s simply running counter to trends in software development? Should we resist the move to unify content across the enterprise and instead be satisfied with the current product we’re documenting, without squaring and aligning it within the larger content landscape outside of our agile team’s concerns? These are tough questions.
+
+{% include ads.html %}
 
 ## The case for and against independent documentation
 

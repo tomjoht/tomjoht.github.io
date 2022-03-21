@@ -16,6 +16,8 @@ For background on the story, listen to this New York Times *Daily* podcast, [Two
 
 First, I want to say that I'm glad people's lives don't depend on the documentation I write. I can only imagine how much anguish this team must feel around these disasters. Also, documentation for airlines is a highly regulated industry that I know little about. These flight manuals can be hundreds of pages long (here's [an example of a flight manual](http://www.ameacademy.com/pdf/boeing/Boeing-777-FCOM.pdf)) and require approval from many writers, engineers, pilots, administrators, analysts, and FAA regulators before release.
 
+{% include ads.html %}
+
 Despite my lack of knowledge in this area, when I read about these reports, the following takeaway questions come to mind. They are applicable to pretty much every documentation project.
 
 * How does this product differ from other products?

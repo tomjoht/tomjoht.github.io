@@ -36,6 +36,8 @@ If you just want the audio, here it is:
 
 <a href="https://idratherbewriting.com/learnapidoc/slides/workplace_influence.html#/"><img style="max-size:400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/slidethumbworkplaceinfluence.png"></a>
 
+{% include ads.html %}
+
 ## Post series
 
 For a series of posts on this topic, see [A hypothesis about influence on the web and the workplace](https://idratherbewriting.com/web-and-workplace-influence/part1-introduction-to-influencers.html).

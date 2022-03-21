@@ -35,6 +35,8 @@ You can browse the results here:
 
 <a href="https://www.questionpro.com/t/PGzGMZhSHg"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pandemicsurveyimpact.jpg"/></a>
 
+{% include ads.html %}
+
 ## Freeform comments
 
 Survey respondents added freeform comments at the end of the survey in response to the question, "Would you like to share any comments, feedback, or insight about this topic?" You can read the full list in the [survey results](https://www.questionpro.com/t/PGzGMZhSHg). I selected about 15 comments that I thought were particularly insightful:

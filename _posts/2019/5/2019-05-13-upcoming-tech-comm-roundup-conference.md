@@ -28,3 +28,5 @@ I asked Scott to tell me a little bit about the conference. Here's the high-leve
 <p><a rel="nofollow" href="https://technicaldocumentationroundup.com/">Buy one ticket today</a> and we’ll give you a second ticket at no extra charge for a co-worker. <a rel="nofollow" href="https://technicaldocumentationroundup.com/">Grab your tickets today!</a></p>
 
 </div>
+
+{% include ads.html %}

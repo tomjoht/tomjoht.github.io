@@ -25,7 +25,7 @@ Doc tools and authoring/publishing processes are an area where tech writers can 
 
 When I first started working in my group at work, one of my tasks involved transitioning our authoring and publishing process from an outdated web CMS into a docs-as-code solution (using Jekyll) that would build from the command line. To create the Jekyll theme, I used Bootstrap to create the layout and styling of the docs. I also created a number includes (or reusable templates) to facilitate alerts, images, glossary tooltips, and more. I collaborated with other teams to create an end-to-end publishing solution that allowed our tech doc solution to scale. In fact, several other teams use our solution, and authors are able to just plug in and start writing docs without building their own solutions from scratch. For more, see [Case study: Switching tools to docs-as-code](https://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html).
 
-
+{% include ads.html %}
 
 Whatever your publishing solution, you can pretty much bet that the engineers in your group will have little input or understanding (and even less desire) to handle the publishing aspects of documentation. And yet, no one wants docs to look unprofessional. No one wants to deliver a Word file or PDF to customers.
 

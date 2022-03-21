@@ -13,6 +13,8 @@ I'm giving a free webinar on January on BrightTALK on trends and the dilemma bet
 
 <a href="https://www.brighttalk.com/webcast/9273/343232"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/brighttalkwebinar.png" /></a>
 
+{% include ads.html %}
+
 Here's a summary:
 
 > **Tech Comm Trends: Providing Value as a Generalist in a Sea of Specialists**

@@ -12,6 +12,8 @@ description: "In episode 21, Becky Todd from Atlassian joins us to talk about ca
 
 You can view the original post here: [WTD Episode 21: On career growth, leadership, and mentoring in Tech Writing](https://podcast.writethedocs.org/2019/03/31/episode-21-career-growth-leadership-mentoring-technical-writing/).
 
+{% include ads.html %}
+
 Here are links to a few resources mentioned:
 
 * [Season of Docs](https://developers.google.com/season-of-docs/): "Let's bring open source and technical writer communities together, to the benefit of both. Together we raise awareness of open source, of docs, and of technical writing."

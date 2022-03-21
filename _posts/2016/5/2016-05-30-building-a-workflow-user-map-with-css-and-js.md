@@ -28,6 +28,8 @@ The underlying code is all HTML, JS, and CSS. The idea is that you create the ma
 
 However, when I showed this to my wife, she said she didn't like having to scroll. She wanted to see the whole map at once. I agree that having to scroll is less than ideal. 99% of the time, horizontal scrolling is a fail with user design.
 
+{% include ads.html %}
+
 So I made another version without scrolling, which you can see here: [Sample 1](https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/). Click through each of the pages in the workflow to see this in action.
 
 <figure><a href="https://idratherbewriting.com/documentation-theme-jekyll/p2_sample1/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/usermapdemo.png" | prepend: site.baseurl }}"/></a><figcaption>The usermap HTML code is the same. Each page just highlights a different box using JavaScript.</figcaption></figure>

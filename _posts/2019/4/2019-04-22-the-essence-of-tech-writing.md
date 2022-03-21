@@ -21,6 +21,8 @@ Again, it's a lot easier to say this than do it. Many times, to test a product y
 
 With API documentation, often times to test docs, you ensure that a JSON message is sent, based on the request parameters. The API I'm currently documenting isn't so straightforward, because the request is actually triggered by users who say Alexa commands. The commands get parsed by Alexa in the cloud, which interprets the request (with natural language processing) and generates a JSON message (called a "directive") to a Lambda function on AWS (serverless computing). The Lambda function then has to take some action based on the JSON, and then communicate the message to the app.
 
+{% include ads.html %}
+
 Where do you draw the line as far as testing? Is it enough to ensure that the JSON is received as documented, or do you keep going, building up the app that will act on the JSON in some expected way, such as playing requested media?
 
 ## Five stages of review

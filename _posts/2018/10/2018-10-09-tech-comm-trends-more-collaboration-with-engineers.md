@@ -95,6 +95,8 @@ This last point &mdash; "especially for applicants with technical skills" &mdash
 
 What does Pratt make of Grey's blog post? In the podcast, Pratt looks generally at job trends and decides that no, technical writing jobs haven’t gone away. Pratt's company, Cherryleaf, is primarily a recruiting agency for technical writers, so the mere fact that he's still in business suggests that companies are still seeking technical writers.
 
+{% include ads.html %}
+
 But Pratt does make another point. He says:
 
 > Is this true? Has the tech writing job disappeared since 2015? Clearly not, because there are still … [many] technical writers and authors. But I think there is a truth in saying that the role of the technical author is changing, and the requirements and the skills that they need are changing as well. And it may be that the job title changes and the way in which the role is perceived.  

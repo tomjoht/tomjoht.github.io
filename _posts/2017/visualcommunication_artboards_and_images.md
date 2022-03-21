@@ -9,11 +9,11 @@ published: false
 
 In a [previous article](https://idratherbewriting.com/2016/05/10/visualcommunication_sharp_clear_screenshots/), I talked about where to take screen captures &mdash; from regular screens, or from Retina screens. In this article, I'll talk more about where to *save and work with* the screen captures.
 
-If you're just taking a screen capture, circling something, and saving the image, it doesn't much matter where you save it. Chances are, if you need to update the screen capture later, it will be easy to re-take it. 
+If you're just taking a screen capture, circling something, and saving the image, it doesn't much matter where you save it. Chances are, if you need to update the screen capture later, it will be easy to re-take it.
 
 However, if you have callouts that point to different elements of the screen capture, you might be making more regular updates. The screen capture with callouts might look something like this:
 
---> image 
+--> image
 
 (I'll admit outright that callouts with text pose problems with translation, but so do the screen captures in general. This is a topic I'll return to later. For now, assume that you have one English-speaking audience only.)
 
@@ -21,13 +21,15 @@ When you have these kinds of screen shot diagrams, it's helpful to keep the imag
 
 You can also use Photoshop or Illustrator and keep the screen diagrams on artboards. Since my preferred graphics tool for doing any kind of diagramming, callouts, or other illustrations is Illustrator, I'll dive into how this works in Illustrator in more detail.
 
-Illustrator is a vector graphics program, so it's not designed to handle raster media like screenshots. However, your callouts for the raster media can be vectors, so it's not as if you're working purely with raster media. 
+Illustrator is a vector graphics program, so it's not designed to handle raster media like screenshots. However, your callouts for the raster media can be vectors, so it's not as if you're working purely with raster media.
 
 (By the way, if you're unfamiliar with raster versus vector, here's the difference. Raster images are pixel-based images that display at a fixed size. Vectors aren't based on pixels but rather mathematical algorithms, so they scale crisply at any size. Vectors fill the size of their container.)
 
 ## My process for diagramming screenshots in Illustrator
 
-I first take a screenshot on my Mac's Retina screen using Snagit, and then save the image. Then I place the image into Illustrator on an artboard. The artboard represents the size of the image that will be exported from Illustrator. 
+I first take a screenshot on my Mac's Retina screen using Snagit, and then save the image. Then I place the image into Illustrator on an artboard. The artboard represents the size of the image that will be exported from Illustrator.
+
+{% include ads.html %}
 
 I typically make my artobards about 700px, so most screenshots need to fit into this space and also allow for callouts. If I take all screen captures at 800px x 500px and then scale them down in Illustrator, this tends to work out well. The key is to be consistent so the scaling all looks similar. If you scale some images down from 1100px, and others you don't scale at all, your images look like a mixed bag. You also want the widths to be relatively the same.
 
@@ -40,4 +42,3 @@ If I need to make a global change, such as changing the font or callout color, I
 I don't want to dive into callouts in this article, because I know this brings up questions about translation and usability. I'm simply exploring the use of artboards to manage image media for technical projects.
 
 Also note that Illustrator doesn't give you any real edge with artboards beyond Photoshop. I'm still exporting the artboards as PNG files, which would be the same with Photoshop. However, if you're also mixing in conceptual illustrations or working with other vectors, it's nice to consolidate your image tools to using the same tool. This way the callouts in your screen shot diagrams can have the same font, size, and style as any callouts in concept diagrams that are purely vector based.
-

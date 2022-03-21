@@ -29,6 +29,8 @@ You can view the sample [Swagger UI](https://github.com/swagger-api/swagger-ui) 
 
 Previously, I had some tutorials on Swagger, but none that dived into the nuts and bolts of creating a specification document.
 
+{% include ads.html %}
+
 Also, a lot has happened in the past year with Swagger. First, the terms have evolved. "Swagger" now refers to API *tooling*. "OpenAPI" refers to the *specification*. The development of the OpenAPI spec is led by the [OpenAPI Initiative](https://www.openapis.org/), not Smartbear.
 
 Additionally, the OpenAPI Initiative released [version 3.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md) of the specification. Version 3.0 is a significant revision from [2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) (but you can convert your existing spec files programmatically through [APIMATIC](https://apimatic.io/)). (I was actually waiting for the release of 3.0 before writing this content, because I knew instructions related to 2.0 would become somewhat obsolete.)

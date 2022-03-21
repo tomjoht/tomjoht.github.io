@@ -26,4 +26,4 @@ My preconference workshop is on API documentation. See the [Preconference Worksh
 
 You can learn more about the STC Summit here: [https://summit.stc.org/](https://summit.stc.org).
 
-
+{% include ads.html %}

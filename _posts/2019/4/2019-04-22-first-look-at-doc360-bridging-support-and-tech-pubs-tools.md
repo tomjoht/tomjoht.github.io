@@ -32,6 +32,8 @@ In Document360, you author content in Markdown. Document360 provides a split-pan
 
 Document360 also includes some built-in snippets for notes, warnings, or other common formatting. For more, see <a href="https://docs.document360.io/docs/markdown-guide">Markdown Guide</a>.
 
+{% include ads.html %}
+
 ### Multiple documentation websites
 
 You can create multiple documentation websites for all the products you document. For example, in the following screenshot, all of the tiles represent documentation for different products. This is useful for multi-product companies where content writers need to switch between different knowledge bases.

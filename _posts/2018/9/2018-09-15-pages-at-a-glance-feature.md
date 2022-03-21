@@ -66,6 +66,8 @@ You call the include like this:
 {% raw %}{% include pages_list.html folder="fire-app-builder-get-set-up" %}{% endraw %}
 ```
 
+{% include ads.html %}
+
 The advantage of using the `where_exp` is that you can constrain a data set before looping through it, which makes the loop more efficient.
 
 Some authors objected to adding `weight` on all these pages, so I also provided another technique where `description` properties are added to the sidebar data file (where the hierarchy of the pages is already established). However, this approach requires you to store the `description` separate from the page's content, which might be less intuitive.

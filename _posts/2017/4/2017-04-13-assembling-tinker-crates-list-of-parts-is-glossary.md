@@ -26,6 +26,8 @@ This Tinker Crate project was beyond my 6-year-old's ability to follow the instr
 
 You probably assembled something this past weekend as well (from some store). My 16-year-old daughter also spent the afternoon assembling a new desk from IKEA in her bedroom &mdash; a task I was more than happy to leave entirely up to her to complete, from start to end.
 
+{% include ads.html %}
+
 ## Where I got stuck
 
 While I was assembling the infinity mirror, I got stuck on a certain step. (Don't we all get stuck on *some step* or another in following instructions?) The instructions said to put the small silver circles onto the little circular adhesives. The only thing is, what "small silver circles"? How small is small? The size of a dime? The size of a silver dollar? I wasn't sure. I seemed to have multiple sizes of silver cardboard circles.

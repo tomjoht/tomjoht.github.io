@@ -26,6 +26,8 @@ GraphQL was released to the public in 2015 as an open-source project by Facebook
 
 Note: The Open API specification is also [hosted by the Linux Foundation](https://www.openapis.org/about).
 
+{% include ads.html %}
+
 ## Growth
 
 GraphQL has a growing user-base, and it powers "hundreds of billions of API calls a day." It is used by organizations as prominent as The New York Times, PayPal, Walmart, Pinterest, and Airbnb.
@@ -177,6 +179,3 @@ Want to share your own perspective on GraphQL documentation? Please do tell in t
 <hr/>
 
 Casey Armstrong is a recent graduate from the Masters and Technical Professional Writing program at Portland State University. You can follow Casey Armstrong's blog on Medium at [https://medium.com/@CrowdsourcingKC](https://medium.com/@CrowdsourcingKC).
-
-
-

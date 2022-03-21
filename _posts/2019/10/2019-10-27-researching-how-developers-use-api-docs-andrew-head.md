@@ -14,6 +14,8 @@ description: "In episode 25, we talk with Andrew Head, Ph.D. Candidate in Comput
 
 You can watch the episode on the [Write the Docs Podcast site](https://podcast.writethedocs.org/2019/10/20/episode-25-how-devs-use-api-documentation-andrew-head/).
 
+{% include ads.html %}
+
 ## Links
 
 * [When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects](https://andrewhead.info/assets/pdf/when-not-to-comment.pdf)

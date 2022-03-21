@@ -23,6 +23,8 @@ The diversity of roles in this audience makes a huge difference. As a tech write
 
 Take away that common ground, and you have to substitute in another way to bring people together. What brings all of these diverse people together? Most likely, they're all working on the same product, focused within the same business domain.
 
+{% include ads.html %}
+
 But even though these diverse roles share a common product domain, their interests in that product will differ. A senior executive will have different interests than a quality engineer. A product manager will have different interests than an instructional designer, and so on. I guarantee you one thing: few will have much interest in documentation itself. The nitty-gritty details of documentation, such as how content is organized, styled, authored, published, etc., are going to be somewhat unimportant to these teams, in the same way that the database schema or code structure might not interest technical writers.
 
 This makes it more challenging to connect with this diverse group. What content do you focus on? If you don't write meta content about the details of documentation, what then do you write about? A few ideas come to mind:

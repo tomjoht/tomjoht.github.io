@@ -31,6 +31,8 @@ that’s a natural source to find technical communicators. But not all technical
 
 In other words, though comprehensive, the census doesn't probe the audience that tech writers are creating content for, and the census also slants heavily towards the STC population. The STC helped promote participation in the survey, and 591 of the respondents were STC members. The STC versus WTD populations are somewhat distinct, and it's hard to know how many respondents are creating developer docs.
 
+{% include ads.html %}
+
 ## Scott Abel's Industry Benchmarking Survey
 
 Scott Abel's *Technical Communication Industry Benchmarking Survey*  gathers information about tools, trends, technologies, and other details from hundreds of veteran technical communicators. Scott writes,
@@ -61,7 +63,7 @@ You can [take my developer documentation survey here](https://www.questionpro.co
 
 You can see [ongoing results here](https://www.questionpro.com/t/PGhS9ZgCFE).
 
-## Post-survey analysis 
+## Post-survey analysis
 
 For more details, see the following:
 

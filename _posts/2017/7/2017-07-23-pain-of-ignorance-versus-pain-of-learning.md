@@ -44,6 +44,8 @@ We've all been there. You click fruitlessly for the needed information, dragging
 
 In this state of frustration and shaken mental agitation, you're at the cliff of insanity's edge and ready to hurl your mouse at your computer screen. It's about this time that, realizing that the pain of ignorance is more than you can bear, you turn to the dreaded documentation.
 
+{% include ads.html %}
+
 The problem is that this is the *least likely state to learn anything.* As a result, the help docs usually fail you. They suck &mdash; but not so much because they're uninformative or poorly written, but because in the user's frazzled state of mind, they're impenetrable.
 
 ## The best mindset for learning

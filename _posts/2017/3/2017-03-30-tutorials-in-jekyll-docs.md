@@ -21,6 +21,8 @@ Why did we create a "tutorials" section instead of just adding the information t
 
 In the docs, you learn the basics about how to work with Jekyll. But when you need more extensive information that addresses a range of scenarios, or when you need end-to-end type information, or just need tips on how to handle this or that situation, that's where tutorials come into play.
 
+{% include ads.html %}
+
 With this approach (splitting docs from tutorials), we maintain the simplicity of the docs while also adding more advanced information deeper in the site. I was initially a bit uneasy about this division of information in the documentation, but now I like it. The tutorials section is admittedly harder to find, but this lower visibility makes it more comfortable for people to contribute.
 
 In my own docs at work, I usually don't separate documentation from tutorials. And now that I think about it, I haven't written any tutorials for a while. But tutorials are helpful to users because they typically take users through full scenarios rather than just focusing on a single, isolated task.

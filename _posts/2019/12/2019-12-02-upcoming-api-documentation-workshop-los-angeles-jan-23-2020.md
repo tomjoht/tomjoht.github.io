@@ -58,6 +58,8 @@ If you have any questions, just reach out to me at <a href="mailto:tomjoht@gmail
 
 (By the way, the above title, description, and link are pulled from EventBrite directly through the [Retrieve an Event](https://www.eventbrite.com/platform/api#/reference/event/retrieve-an-event) endpoint in the EventBrite API. This is something you'll learn to do in the workshop.)
 
+{% include ads.html %}
+
 ## Video recording
 
 I recorded the first part of the workshop and have made it available below.
@@ -70,5 +72,3 @@ This recording covers these two sections in my [API course](/learnapidoc/):
 * [Using an API like a developer](/learnapidoc/likeadeveloper.html)
 
 See [Introduction to API documentation - Recording from Los Angeles API documentation workshop](/blog/introduction-to-api-documentation-la-workshop-recording/) for more details.
-
-

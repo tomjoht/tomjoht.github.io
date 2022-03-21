@@ -27,6 +27,8 @@ Where the doc starts to really go downhill is the jump from the hello world tuto
 
 My daughter pretty much skipped this documentation and instead figured out her Bootstrap tasks by looking at the sample programs. (By the way, one of the demo programs, "[Ninja Cat](https://www.wescheme.org/run?publicId=sggzRzgU5T)," doesn't share its source code. Of course, it's the program that has the functionality she needs.)
 
+{% include ads.html %}
+
 In general, reference documentation can be difficult to read without some primer that explains how to read the reference syntax. Reference docs often have a special syntax (showing the function's signature or format), but unless you're familiar with how to read it, that signature can look confusing.
 
 Now let's look at another Bootstrap doc site: [An Hour of Code with Bootstrap](https://www.bootstrapworld.org/materials/spring2020/courses/hour-of-code/en-us/). This is a much better approach for the audience (middle school students).
@@ -42,5 +44,3 @@ We now see that `(star 50 "solid" "blue")` follows a "contract" of `star : Numbe
 I don't so much mind the non-standard syntax of Bootstrap (though it is annoying that they can't just follow an existing standard). And I applaud the fact that WeScheme puts students working directly in the code rather than connecting blocks with block programming. But without the right tutorials that will explain how to read the reference documentation, students are going to be frustrated click the Documentation link so prominently displayed in the WeScheme Editor. They will probably conclude that programming is hard/confusing and not for them.
 
 This is a good reminder to provide some kind of introductory explanation in your API docs about how to read the function syntax. Once you understand the syntax, it unlocks the rest of the reference docs in more accessible ways. I'm guessing that the Bootstrap developers created the reference docs, but teachers created that tutorial. There's a kind of plain language and communication in the tutorial that isn't present in the reference documentation. One is teaching rather than documenting.
-
-

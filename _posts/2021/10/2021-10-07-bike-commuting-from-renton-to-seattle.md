@@ -33,6 +33,8 @@ Experienced cyclists will recommend that you "take the road" in these situations
 
 Although there's no direct east/west route in Renton that provides a safe bike route, what about taking a bus from the nearest bus stop to a transit hub, and then taking another bus from the transit hub to the Sounder or even directly downtown? In short, what about taking two buses to get where I want to be?
 
+{% include ads.html %}
+
 The bus lines in the King County Metro are quite impressive. Take a look at this [system map](https://kingcounty.gov/depts/transportation/metro/schedules-maps/maps/system.aspx) with its dizzying sprawl of bus lines and vehicle options.
 
 <figure>

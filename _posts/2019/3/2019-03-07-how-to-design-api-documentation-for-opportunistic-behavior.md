@@ -38,6 +38,8 @@ In contrast, the systematic developers approached tasks like this:
 
 When I'm writing docs and structuring my help system, I admit that I often have the more systematic developer in mind &mdash; the one that will read the material from start to end, the one who begins at step one, reads conceptual introductions, and then proceeds to the code examples and such. But it seems like that learning preference doesn't describe a huge percentage of learners. It's probably better to design for the opportunistic behavior, since this behavior pattern tends to go against our natural inclinations for linear and top-down information design. The linear/systematic behavior might be more accommodated by default, but the non-linear/opportunistic behavior tends to be more neglected.
 
+{% include ads.html %}
+
 How do you design for opportunistic behavior? If you recognize that users learn this way, you'll put more emphasis in code comments and code samples, more emphasis on error messages and troubleshooting, more emphasis on interactive experiences (such as Swagger UI) so developers can try out requests, more emphasis on clear navigation and search to facilitate the user jumping around for specific information.
 
 The authors call out some of these design patterns in their recommendations. The second half of the article provides recommendations such as:

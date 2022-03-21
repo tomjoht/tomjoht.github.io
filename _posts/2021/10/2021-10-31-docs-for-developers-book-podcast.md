@@ -48,3 +48,5 @@ Here are the bios of Jared and Zach, excerpted directly from the *Docs for Devel
 > Zach (he/him, they/them) began this book as the Lead Technical Writer for teh Linux Foundation and ended it as Stripe's first Staff Technical Writer. Zach served as co-chair for Kubernetes documentation from 2017 until 2021, and has worked on developer docs previously at GitHub, Rackspace, and several startups. They enjoy speaking at converences and love to mentor writers and speakers of all abilities and backgrounds.
 
 You can find them both on the [Write the Docs Slack channel](https://www.writethedocs.org/slack/) (search for [@jaredb](https://writethedocs.slack.com/team/jaredb) and [@zcorleissen](https://writethedocs.slack.com/team/zcorleissen)) if you want to ask them questions.
+
+{% include ads.html %}

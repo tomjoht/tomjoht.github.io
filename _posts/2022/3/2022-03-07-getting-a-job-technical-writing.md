@@ -22,4 +22,6 @@ And another article on how to get experience:
 
 It seems that this focus (at least for now) for his [blog](https://aaronkredshaw.com/blog/) is to provide advice on how to [get a job in technical writing](https://aaronkredshaw.com/2022/01/01/what-kind-of-technical-writing-job-should-i-get-into/). This is great because these kinds of questions are among the most commonly asked in many tech writing forums (such as the [/r/technicalwriting](https://www.reddit.com/r/technicalwriting/) subreddit, or on some channels on [Write the Docs Slack](https://www.writethedocs.org/slack/)). I now have some good resources to point writers to.
 
+{% include ads.html %}
+
 I'll add that Aaron himself has a great online presence with [his website](https://aaronkredshaw.com/). I remember interviewing Aaron, checking out his site, and immediately being impressed. He also presented himself well during interviews. I can see now that he put a lot of time and thought into preparing for those interviews.

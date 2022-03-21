@@ -20,4 +20,6 @@ So for the last podcast I recorded, [Videocast: Micro content and Flare -- Conve
 
 This got me thinking &mdash; what if I were to start doing videocasts where the guests would share something from their screens? One reason I've never done this is because I assumed most people listen to podcasts while exercising, commuting, or otherwise working and hence can't look at a screen. But in previous surveys I've done, most people actually listen to podcasts right from their computer. (I'm not sure if this is still the case.)
 
+{% include ads.html %}
+
 If I start using Zoom for podcasts, I could follow a theme where guests share something from their screen. This would make the podcast much more practical, like an actual tip or technique. It could be the start of a new approach that breathes more life into my podcasting efforts. I might experiment with this approach more in coming weeks.

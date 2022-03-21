@@ -43,6 +43,8 @@ Here are some topics we chat about:
 * Expanding the role of content designers to include product-design roles, and what exactly that includes
 * Career trajectories and growth patterns, not only for content designers but also technical writers
 
+{% include ads.html %}
+
 ## Resources
 
 * [Jonathon Colman](https://noti.st/jcolman)

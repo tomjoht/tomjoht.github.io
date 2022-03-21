@@ -41,6 +41,8 @@ Most agreed with Mark, but some disagreed. As an example of a dissenting perspec
 
 If you read my blog last year, you know that I've also deliberated between the choice of being a specialist or generalist a number of times, such as in this post: [Principle 11: Be both a generalist and specialist at the same time](/simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html). The specialist has deep but narrow product knowledge, while the generalist is more of a language/tools expert with more shallow product knowledge. It’s never clear which role is more valuable. It’s also unclear as to whether companies might be deciding about keeping their generalists or specialists during layoff times. Is Mark right? What data supports this?
 
+{% include ads.html %}
+
 ## Real data about a layoff's reasons
 
 In thinking about layoffs and the reasons why, I realized that discussions about why people are laid off are mostly speculative. We don't often have the data or explicit reasons about why layoffs occur. Yet being laid off is emotionally scarring. Being laid off can traumatize you for the rest of your career with different anxieties and concerns that propel you in a variety of directions as a result.

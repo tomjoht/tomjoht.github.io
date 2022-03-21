@@ -44,6 +44,8 @@ Here's the presentation description:
 
 Note that this presentation is geared towards beginners, not advanced gurus who have worked on API doc projects for a number of years.
 
+{% include ads.html %}
+
 Also, I don't cover any new material that isn't already in my [API documentation course](https://idratherbewriting.com/learnapidoc/). Specifically, I briefly cover these first 3 sections from my API doc course:
 
 * [Introduction to REST APIs](https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html)
@@ -53,7 +55,3 @@ Also, I don't cover any new material that isn't already in my [API documentation
 To learn more about the Silicon Valley chapter of the STC, see [http://www.stc-siliconvalley.org](http://www.stc-siliconvalley.org).
 
 <a href="http://www.stc-siliconvalley.org/2017/11/06/november-20-2017-introduction-to-api-documentation/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stcsvscreenshot22.png"/></a>
-
-
-
-

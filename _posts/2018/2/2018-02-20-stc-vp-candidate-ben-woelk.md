@@ -27,6 +27,8 @@ All professional organizations have seen an erosion of membership. (Sladek, _The
 
 What I get out of STC has changed as my career has matured. Initially, I learned a lot about the various facets of technical communication and how to do things. More recently, it's the ability to mentor and build leaders in STC and to help practitioners make the connections they need to grow in the field. I've also built deep friendships with people I've met through STC. In the future, I hope to help transform STC and equip our members for rapidly-changing careers in a global workplace.
 
+{% include ads.html %}
+
 ## How would you compare the STC with other organizations (whether formal or informal)? How is STC different?
 
 To keep this relatively brief, I'm going to limit my discussion to a few organizations that are TC-related.

@@ -34,6 +34,8 @@ The final week before the release, everyone and their cousin is checking out the
 - Can I save my gizmo theme and overwrite the default?
 - How can I download my gimzo's code? What metrics define a successful gizmo?
 
+{% include ads.html %}
+
 Based on these incoming questions and feedback, the team starts adding more questions to the FAQ. There are now about 35 questions in the FAQ and they cover everything from important to trivial concerns.
 
 What started out as a quick guide for questions that users might frequently ask has evolved into a laundry list of random details about the app. There's no real order or progression to the questions. Apparently creating documentation is simply an act of listing question after question on the page, each with quick answers.

@@ -47,6 +47,8 @@ I'm fascinated by the references here, and I need to do more reading. Why did yo
 
 **LM:** Can we take one step back before I answer this question? It's an important step to understand something not only about this article, but the purpose of academic research. I was surprised that you chose this article because in some ways it's totally an academic argument. It was made for other faculty and administrators in technical and professional communication programs housed in English departments, but more so, it was made specifically for our colleagues in our department. Another audience would be folks in other English departments. This is an important point about why we connected Burke in that paragraph. It was a move to pick a theorist that may be known outside of writing and rhetoric that would lend credibility to our argument and therefore the field.
 
+{% include ads.html %}
+
 This was written at a time that we had just managed (after previous failures before I was hired) to create an undergraduate track in professional writing. This article was a move to continue to show our value but also to demonstrate that we understood the politics and dynamics of a departments with multiple parts that don't always see things the same way. I didn't agree with parts of it when we wrote it, and this was the most contentious thing I ever collaborated on. It's not that Mary Beth and Kathy and I didn't get along. We did, but we see the role of technical and professional writing differently.
 
 But even though I didn't totally agree with the use of Burke, it made sense to ensure that we were grounding our arguments within the literature of the field. And many in technical and professional communication use rhetoric as one of its grounding theories.

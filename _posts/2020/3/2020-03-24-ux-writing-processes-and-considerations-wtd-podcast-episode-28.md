@@ -30,6 +30,8 @@ Here are some photos from the event:
 
 Listening to this episode made me think more about UX writing, which is an area I haven't focused on but which has intrigued me. In my regular focus on API docs, I often don't give enough credit to the many other writing roles we play. Most technical writers create a lot of different kinds of content. Even if your main deliverable involves API docs, chances are you're also contributing to UI copy in interfaces, writing reports, drafting blog posts, creating video scripts, writing KB articles, and more. Our role isn't so specialized that teams can afford to have a dedicated API doc writer, a dedicated UX writer, a dedicated copywriter, a dedicated support KB writer, and so on. This is especially true in startups.
 
+{% include ads.html %}
+
 As such, it's important to understand good principles for UX writing. These two presentations share a lot of insight. For example, Natasha explains how she mines language about her product by researching discussions on Twitter, Stack Overflow, and other sites. She tries to identify the right language her customers are using so that the UX copy can speak in terms they understand and relate to. She also creates empathy maps that look at the customer's journey and many content touchpoints. She talks about ways to liven up 404 error pages, how to figure out your brand's language, strategies for measuring readability (especially the user's ability to understand quickly while scanning), and more.
 
 Here are some books she recommends:

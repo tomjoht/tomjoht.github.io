@@ -63,6 +63,8 @@ But now Department X starts doing some research. Although your tech writing team
 
 I'd love to find examples of tech comm groups that actually started charging for docs to see if my thought experiment is correct. But my point is this: It's not enough to just provide documentation. Tech writers must provide additional value to the organization. Where might this additional value come from? One benefit might be to foster **information flow** within the organization.
 
+{% include ads.html %}
+
 ## The value of information flow
 
 What do I mean by information flow? Consider the graphic I previously used to show the many groups that use documentation. Now let's pivot the graphic to show how information might flow through these same groups:

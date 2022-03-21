@@ -26,7 +26,7 @@ my proposals failed
 - html outputs
 - no, 2 repos. one per team. one big system.
 
-
+{% include ads.html %}
 
 - my question: which model is more common, small or large? what
 - source code in source repo

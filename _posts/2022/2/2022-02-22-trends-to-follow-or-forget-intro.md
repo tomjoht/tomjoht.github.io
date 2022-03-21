@@ -19,6 +19,8 @@ Regardless of the validity of those survey results, I decided to pivot my approa
 
 I could balance out my views with more research, such as [scouring keywords in job postings over time](/2018/10/09/tech-comm-trends-more-collaboration-with-engineers#jobads), or reading through the entire corpus of tech comm journals and magazines for each instance of "trends," but even that approach would be flawed. Instead, I want to paint broad strokes at a higher-level view, focusing on my own reasons for embracing or rejecting trends in my career.
 
+{% include ads.html %}
+
 For each trend in this series, I'll explain several points:
 
 * What was the trend?

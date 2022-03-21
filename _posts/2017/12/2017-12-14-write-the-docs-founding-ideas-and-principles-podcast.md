@@ -22,6 +22,8 @@ Here are some of the questions discussed during the podcast:
 * In what ways is WTD experimenting with new ideas and approaches?
 * What trends do you see for WTD and the industry in the future?
 
+{% include ads.html %}
+
 For more information, see the following:
 
 * [Write the Docs](http://www.writethedocs.org/).

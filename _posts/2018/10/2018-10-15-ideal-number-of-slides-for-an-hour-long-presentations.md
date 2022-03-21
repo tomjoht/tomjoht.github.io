@@ -39,6 +39,8 @@ Well, maybe. But I've given about 90 presentations, and it never seems to work o
 
 Another Kawasaki principle is to limit the font to no less than 30 points. This is also key. When I see slides with extensive bulleted lists, I cringe. While these bulleted lists might prompt the presenter with details to say, what ends up happening is the presenter more or less reads the slides and presents the presentation rather than telling a story.
 
+{% include ads.html %}
+
 Whenever you present a slide with text, the first thing the audience does is tune you out and start reading the text. As an audience member, it's impossible not to &mdash; the screen is huge and directly in front of you.
 
 If you reveal the bulleted list point by point, it has the same effect as flashing multiple, separate slides on the screen: It locks the presenter into a fixed order that potentially interrupts the natural flow of the story.

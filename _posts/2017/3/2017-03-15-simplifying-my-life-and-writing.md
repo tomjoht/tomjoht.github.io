@@ -38,6 +38,8 @@ I play basketball several times a week because it's another activity I enjoy. Bu
 
 You may see me focus less on tools in upcoming posts. I love Jekyll, but at my work I've realized that our best web publishing strategy is simply to deliver plain HTML to the web publishing team and let them run with it. They'll stuff it into templates and move it through publishing pipeline. I want to focus on content, not tools.
 
+{% include ads.html %}
+
 Same goes with support. While I could respond to forum threads, Stack Overflow questions, and other channels, I want to let support interface with these groups.
 
 If I wanted to go extreme, I'm sure I could find more ways to simplify. But these baby steps have already made me feel more free.

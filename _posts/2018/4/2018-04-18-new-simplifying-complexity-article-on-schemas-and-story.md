@@ -14,3 +14,5 @@ Here's a brief description:
 > One approach for fitting information into the user's mental schemas is to look at genre conventions and user expectations, and then follow these same conventions and expectations in the new information. However, this approach does little to exceed expectations in a genre of dissatisfied and frustrated users. A better approach is to fit information into a larger user journey that looks from beginning to end across topics, rather than focusing on one specific topic. This larger, more encompassing journey contains more of a story arc that resonates on a universal level with users.
 
 You can read the article here: [Reducing complexity by shaping information into familiar schemas, especially story](http://bit.ly/shapinginfoschemas).
+
+{% include ads.html %}

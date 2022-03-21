@@ -33,6 +33,8 @@ This task first requires you to identify which projects are strategic. You might
 
 After identifying the strategic projects where you plan to devote your main authoring time, find ways to be proactive on a deeper level. Avoid being the reactive writer who only waits for requests to be filed. Consume the product information like a hungry researcher, and as you ramp up your expertise, let yourself naturally speak out to product weak points, roadmap strategies, and higher-level product strategies. Don’t be an invisible fly on the wall, nor tie your hands around a writing pencil only. Allow for the blurring of roles the deeper you engage, and recognize that more thorough knowledge will pay dividends on the writing front  as well. It’s much easier to write when you already have the needed knowledge.
 
+{% include ads.html %}
+
 ### 3. Cultivate internal awareness and C-level sponsors
 
 Share your work with others in your organization so they not only know what you do, but also so they know who you are. Send out regular email blasts to internal stakeholders that list out the documentation updates. Not only the updates, but elaborate every now and then on feedback from users, trending metrics, and other insights and discussion. Sending these emails over a prolonged period of time can gradually influence others in your organization to be documentation sponsors.

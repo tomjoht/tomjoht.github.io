@@ -13,6 +13,8 @@ For years I have played basketball as my primary form of exercise, but as I'm ge
 
 This morning I rode out to [Alviso County Park](https://www.google.com/maps/place/Alviso,+San+Jose,+CA/@37.4408875,-122.0204995,13z/data=!3m1!4b1!4m5!3m4!1s0x808fc8142f8c97e9:0x76e4ea58bc25c854!8m2!3d37.4261669!4d-121.9761384). This is an interesting park. Apparently, Alviso was a popular shipping port for the Bay area decades ago, but two events caused the area to decline: railways replaced shipping ports as a primary distribution path, and the capital moved from San Jose to Sacramento.
 
+{% include ads.html %}
+
 As a result, Alviso feels a bit like an abandoned town, with breathtaking views of a shallow, quiet bay but with housing that looks semi-abandoned. Here's an old cannery building or something with a mural that still looks cool even though it's faded:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/family/alviso_cannery.jpg" alt="Alviso building" />

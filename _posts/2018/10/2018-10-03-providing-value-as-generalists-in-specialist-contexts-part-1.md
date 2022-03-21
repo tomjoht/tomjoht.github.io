@@ -32,6 +32,8 @@ As a blogger who carefully looks at metrics (whether it's clicks on newsletter a
 
 Exactly why the topic of trends is so popular, and whether bloggers have any special insight about trends, is not something I’ll go into. But I will tackle the subject of trends in a more head-on way in this essay.
 
+{% include ads.html %}
+
 What trends will I be covering? Chatbots, augmented reality, or maybe even the singularity? No. I’m focusing on trends toward specialization and complexity and how they affect tech comm professionals, who tend to be generalists. The tensions between specialists and generalists seems to articulate a key reason why tech comm professionals often feel undervalued.
 
 ## Argument overview

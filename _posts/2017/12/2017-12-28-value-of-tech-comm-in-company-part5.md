@@ -62,6 +62,8 @@ Remember our [earlier graphic](/2017/12/28/value-of-tech-comm-in-company-part3#r
 
 If you want to improve the customer experience, work through documentation.
 
+{% include ads.html %}
+
 It's not as if playing a customer experience role is at odds with a documentation role. Most likely, the more effort we expend toward improving the customer experience, the better the documentation becomes. Just as I argued with information flow, when we interact in these other spaces, the more aware we become of the needs of these groups, and we adjust our content to meet their needs. This, in turn, makes the documentation more valuable to these groups, and they begin to use it more because it directly meets their needs. The interactions feed on each other.
 
 Interacting in these other spaces is ultimately an extension of user advocacy; it helps us understand our users and their needs more completely. Another MindTouch writer, Lily M., explains:

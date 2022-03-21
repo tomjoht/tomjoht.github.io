@@ -24,3 +24,5 @@ To watch my interview with Bobby, see the video below. Note that I recorded this
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tAqP-8M-ROI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Note that this is a sponsored podcast.
+
+{% include ads.html %}

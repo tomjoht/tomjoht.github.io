@@ -39,6 +39,8 @@ If you'd like to be interviewed for Nupoor's research, reach out to Nupoor at ns
 * How long have you been working with projects that use participation from users? Do you think it has changed your role as a business and/or professional communicator? If so, how?
 * How do you manage collaborative projects? (Methodology – agile/kanban/scrum/scaled agile/waterfall)
 
+{% include ads.html %}
+
 ## Resources mentioned during the podcast and other resources
 
 * [Nupoor on Twitter](https://twitter.com/nupoorwriting)

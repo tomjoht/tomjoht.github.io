@@ -23,6 +23,8 @@ As the trend toward more specialized knowledge increases, we risk creating silos
 
 On Github, a common model for soliciting contributions from others is to add an "Edit in Github" button on the page. This button takes the user to the source in Github that needs to be updated. While I think this simplicity is worthwhile, it also doesn't acknowledge the more challenging task of updating the documentation as a whole instead of  updating just one page. Documentation isn't an island &mdash; it's all interconnected.
 
+{% include ads.html %}
+
 Fortunately, with the "Edit in Github" button, you're not limited to just editing a single page. Clicking the Edit in Github button prompts you to fork the repo and create a new branch (called "patch-1" by default). After making this fork, you can then clone your repo locally (specifically cloning the patch-1 branch), make additional edits on multiple pages against that patch-1 branch, and then submit all the edits in your branch as a pull request.
 
 (For an introduction to the Git pull request workflow, see this presentation by Rhonda Glennon: [Github for Documentation](https://www.youtube.com/watch?v=812E14gFgb4&t=2803s).)

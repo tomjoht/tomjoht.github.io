@@ -14,6 +14,8 @@ I use a [Zoom H4n Pro Handy Recorder](https://www.amazon.com/Zoom-H4N-Digital-Mu
 
 I capture the audio at 44.1/16 frequency since this is the same frequency that Camtasia captures at &mdash; this an important point that will become apparent after 30-60 minutes of recording. (If your video capture records at a different rate from the audio capture rate, even if slight, after an hour of recording, the two will be 1-2 seconds out of sync.) The Zoom microphone level is about 65. Ideally, as you monitor the sound, you want the recording level to be between -24 and -12, as this provides the best signal, and I achieve this range when I set the recording level at 65 with this mic. If you max it out at 100, a burst of sound could distort the audio and make leveling problematic in post-production.
 
+{% include ads.html %}
+
 Bulky as the Zoom recorder is, I put it in my back pocket (and tighten my belt a bit). Previously, I created a custom holder for this from a belt clip, but I've found that simply sticking it in my pocket also works. The XLR mic adds to the bulk, but that's okay. I admit that men's clothes tend to have larger pockets, which accommodates gadgets like this.
 
 Initially, the audio recording is entirely separate from the video. This is an important point. I think many professional recording setups follow similar approaches.

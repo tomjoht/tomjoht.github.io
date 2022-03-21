@@ -31,6 +31,8 @@ You perform all source control tasks, like push and pull, from Flare. Depending 
 
 Currently, you can't perform source control tasks directly from the MadCap Central portal. We'd certainly welcome such a possibility in upcoming versions.
 
+{% include ads.html %}
+
 ## Admin features
 
 Admin features are simple and intuitive. You can quickly add new users, create teams, assign them to projects and manage their permissions. The possibility to bulk add users using a CSV file will come in handy when setting up MadCap Central for the first time.

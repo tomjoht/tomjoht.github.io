@@ -21,6 +21,8 @@ One of the most pressing issues facing technical communicators today is one that
 
 STC is an expensive umbrella organization competing with less expensive, specialist organizations that are powered by social media. STC needs to evaluate its mission in the new field and adjust its model and value propositions. Related to this issue, STC has grown detached from university programs, from global colleagues, and from some of its own subfields. We must reestablish these connections to thrive. In [my STC blog post](https://www.stc.org/notebook/meet-candidates-pam-estes-brewer-stc-vice-president/) and in an upcoming article for the Twin Cities chapter, I have outlined concrete ideas for improving these connections that include re-establishing grants to support practitioner/educator research projects and establishing sibling relationships between STC chapters in the U.S. and communities abroad.
 
+{% include ads.html %}
+
 ## What do you personally get out of your membership in the STC?
 
 Let me name my top three!

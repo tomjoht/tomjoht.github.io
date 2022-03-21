@@ -35,6 +35,7 @@ Technical writers spend most of their day with their hands on a keyboard. Being 
 
 <div style="clear: both;"></div>
 
+{% include ads.html %}
 
 ## 2. Lumos Smart Bike Helmet Wireless Turn Signal Handlebar Remote Built-in Motion Sensor {#helmet}
 

@@ -42,6 +42,8 @@ Here are some of the API design/usability topics we chat about in the podcast:
 
 {{site.data.alerts.tip}}If you'd like to explore these ideas in more depth, consider getting a copy of <a href='https://www.manning.com/books/the-design-of-web-apis'><i>The Design of Web APIs</i></a>. I've read the book and found it relevant and helpful to the work of technical documentation.{{site.data.alerts.end}}
 
+{% include ads.html %}
+
 ## Resources
 
 * [*The Design of Web APIs*](https://www.manning.com/books/the-design-of-web-apis) (book)

@@ -33,6 +33,8 @@ The problem, they explain, is that the very people who can fix this content are 
 
 In other words, simply identifying the gaps in the documentation can provide a huge value for the engineering team. There are potentially hundreds of pages of documentation. How do you know where the problems are, where users are getting stuck, where steps are missing or inaccurate? In short, how do you identify the problems in the content based on the user experience?
 
+{% include ads.html %}
+
 The developer authors aren’t going to routinely review the content in meticulous ways. They are mostly blind to any questions or shortcomings users might experience. If tech writers can identify these gaps in the user's experience of the content (even if they can’t write the content to address the issues themselves), this mere identification can provide tremendous value to engineering teams.
 
 ## Doc feedback buttons

@@ -14,3 +14,5 @@ description: "In episode 27 of the Write the Docs podcast, we're joined by Cynth
 You can view the episode on the [Write the Docs Podcast site here](https://podcast.writethedocs.org/2020/02/20/episode-27-starting-doc-dept-from-scratch) or watch the video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lEd-aDW4aAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% include ads.html %}

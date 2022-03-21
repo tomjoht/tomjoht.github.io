@@ -40,3 +40,5 @@ If you just want the audio, here it is:
 Here are the slides:
 
 <a href="https://idratherbewriting.com/files/design-principles-for-organizing-docs/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ucdthumbstctwin.png" style="border: 1px solid gray" /></a>
+
+{% include ads.html %}

@@ -21,6 +21,8 @@ The first-level checklist identifies criteria that you can evaluate without much
 
 Another realization: Developer portals are collaborative spaces where a lot of different writers interact, and you might own only a small piece of the portal. For example, there might be docs for 20 different products, with many different contributing teams. You might own docs for 2-3 products only. The user journey, however, might span the entire portal. Despite this, it's too daunting to focus on the entire portal in an initial assessment. It's more realistic to focus on the scope you own (for example, a couple of tabs). Some discussion of the larger context is unavoidable, but I recommend limiting the initial scope to something more practical and within your stewardship.
 
+{% include ads.html %}
+
 ## Observation 3: The checklist does a wonderful job at opening up a critical look at API docs
 
 Although one of my motivations was to create metrics around quality, as I did an initial assessment of the docs I'm working on, I found that the checklist does a wonderful job in opening up a critical view and analysis of the documentation. It opens up a more critical perspective that lets you slice up different dimensions and aspects of the docs. Regardless of whether the scoring and quantitative metrics goes anywhere, the set of characteristics provides an incisive way to investigate doc quality.

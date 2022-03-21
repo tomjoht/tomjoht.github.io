@@ -22,5 +22,6 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/wtdpaw
 * [Automatic Documentation Generation via Source Code Summarization of Method Context](https://www3.nd.edu/~cmc/papers/mcburney_icpc_2014.pdf)
 * [soap! -- Poland tech writing conference](http://soapconf.com/)
 
-
 For more details, see the [post on the WTD podcast site](http://podcast.writethedocs.org/2017/07/03/episode-7-machine-automation-and-poland/).
+
+{% include ads.html %}

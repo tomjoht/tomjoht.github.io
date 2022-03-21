@@ -41,6 +41,8 @@ I'm not sure I would be entirely satisfied being a content curator instead of an
 
 While the documentation tasks keep building, I'm also trying to build up my technical knowledge of Android and the products I write about. There's a lot to building streaming media apps -- it isn't something one learns in a few weeks. What's more, the developer audience is at such a higher technical level than I'm at, my documentation has to hit on the questions and gaps of knowledge *they* will run into, not just me. I just finished editing a document about 4K Ultra HD media that has so many details about refresh rates, color formats, codecs, and other specifications that I wonder if I'll ever get to the point where I can consume this information as easy as reading a morning newspaper.
 
+{% include ads.html %}
+
 I try to get into work a bit early to push through some tech tutorials in the morning and at lunch, but taking time out of my mounting doc tasks to step through a tutorial is always a trade-off. Am I sharpening my ax, which will make it easier to chop down the tree? Or am I learning about something so disconnected to what I'm documenting that by the time the material becomes relevant, I will have already have forgotten it?
 
 That's the crux of ramping up on developer technologies -- unless you're immersed fully in the domain for an extended period of time, the info doesn't entirely stick, and it slowly fades. Then months later you have a documentation task that requires the knowledge, but by then it's only a dim memory.

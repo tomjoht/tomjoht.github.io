@@ -2,7 +2,7 @@
 title: "How to tell if you're a content strategist"
 categories:
 - technical-writing
-keywords: 
+keywords:
 description: "Recently MindTouch published a list of the top 25 Content Strategist Influencers. In contrast to previous top influencer lists, this year's list shifts from the term 'tech comm influencer' to 'content strategist influencer'. They also broadened their measures for determining influence, including less online presence and more offline influence, such as conference presentations. I just barely made the list this year. It got me thinking about whether I am in fact a content strategist or a technical writer."
 bitlink: http://bit.ly/ruacontentstrategist
 ---
@@ -15,19 +15,21 @@ At first I was happy to simply make the list. But then I got to thinking ... wil
 
 When the term "content strategy" first emerged about 5 years ago, I resisted the term because I felt that as a technical writer, I already *did* strategic thinking in my role as a technical writer. With the introduction of the term "content strategist," suddenly a "technical writer" was reduced to something more base and tactical, like a monkey pounding on a keyboard. A technical writer would perhaps create a help topic, but a content strategist would shape the company's brand and orchestrate a consistent experience across all customer touchpoints.
 
-Overnight, some tech comm consultants latched onto the term "content strategist" and rebranded themselves. I was still content to be called a "technical writer," because most of the jobs used the term "technical writer," and because almost no one's title was "content strategist" anyway. 
+Overnight, some tech comm consultants latched onto the term "content strategist" and rebranded themselves. I was still content to be called a "technical writer," because most of the jobs used the term "technical writer," and because almost no one's title was "content strategist" anyway.
 
 It's been interesting to see how content strategy has played out in the past few years. For the most part, if you search for [content strategist jobs on Indeed.com](http://www.indeed.com/jobs?q=content+strategist&l=), you'll find that content strategists fit more commonly in Marketing and UX writer groups.
 
 For example, here's what [this content strategist](http://www.indeed.com/viewjob?jk=7b8e0d239f19dfa2&q=content+strategist&tk=1avupij4qbs96avm&from=web) will do:
 
-> As a Content Strategist, you’ll be the first person to help shape and define the Robinhood voice. Working directly with our CEO and C-level executives, you’ll craft brand messages across existing and future platforms (from iOS and Android to Web), overhaul our existing brand voice across our social media and customer support channels, and develop content strategy as we move into new international markets. 
+> As a Content Strategist, you’ll be the first person to help shape and define the Robinhood voice. Working directly with our CEO and C-level executives, you’ll craft brand messages across existing and future platforms (from iOS and Android to Web), overhaul our existing brand voice across our social media and customer support channels, and develop content strategy as we move into new international markets.
 
 And here's [this content strategist's role](https://www.joblinkapply.com/Joblink/4798/Job/Index/238415?IsFrame=False):
 
 > The Senior Content Strategist is tasked with taking a more direct hand in the guidance and daily operation of the Inbound Marketing team. This role is expected to maintain a strong knowledge of SEO best practices, content marketing techniques and high-level strategy as directed by their manager. The Senior Content Strategist is an experienced operator in digital marketing trends and is capable of assisting their less senior colleagues through training, work review and project oversight while maintaining their own clients and workflow.
 
-I'm told that at Facebook, "content strategists" always focus on in-app content, such as form labels and help text, while "technical writers" focus on developer-facing documentation. 
+I'm told that at Facebook, "content strategists" always focus on in-app content, such as form labels and help text, while "technical writers" focus on developer-facing documentation.
+
+{% include ads.html %}
 
 I doubt the originators of content strategy appreciate the cheapening of the term. They clearly intend for the strategic thinking principles that underlie content strategy to permeate across disciplines into something larger. For example, see Kristina Halverson's presentation [Content Strategy for Everything](http://www.slideshare.net/khalvorson/content-strategy-for-everything).
 
@@ -37,7 +39,7 @@ It almost seems as if there's a "content strategy in Marketing," and a "content 
 
 Instead of steering my career in the direction of content strategy, I decided to become an "API technical writer," focusing on developer documentation. I respect those who do content strategy in tech comm, for sure, and I wish I had time to do more of it. I simply like the API doc space more.
 
-So making the "content strategist influencers" list from MindTouch has given me pause to reconsider whether I'm truly a content strategist. Ultimately, it's not so difficult to discern whether I am (or whether you are, etc.) someone who thinks strategically about content. The basic question to ask is how much "strategy" you incorporate into your work. When are you being tactical, and when are you being strategic? 
+So making the "content strategist influencers" list from MindTouch has given me pause to reconsider whether I'm truly a content strategist. Ultimately, it's not so difficult to discern whether I am (or whether you are, etc.) someone who thinks strategically about content. The basic question to ask is how much "strategy" you incorporate into your work. When are you being tactical, and when are you being strategic?
 
 Here are a few examples comparing the two activities:
 
@@ -85,7 +87,3 @@ It's not rocket science to classify activities as being more strategic or more t
 I could definitely do more strategic thinking than I currently do. It's easy to get caught up in documentation task after documentation task. (I probably do most of my strategic thinking on this blog, actually.) Unfortunately, sitting down to do strategic analysis and planning requires bandwidth. But in the end, it should make our work more effective.
 
 Overall, strategy without tactics, and tactics without strategy, are both hollow endeavors. Incorporating both modes into my weekly work as a technical writer is something I can certainly improve on. For that encouragement, I welcome MindTouch's term "content strategist influencer." Careerwise, though, I prefer to think of myself as an API technical writer ... who thinks strategically.
-
-
-
-

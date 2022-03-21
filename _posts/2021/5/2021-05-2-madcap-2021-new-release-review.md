@@ -33,6 +33,8 @@ With tables, you can choose to map them to special table stylesheets in Flare. W
 
 When you create the import, Flare creates an import file that remembers and stores all of your settings. In short, the import isn’t just a Markdown-to-HTML conversion. It’s much more robust and specialized to your project’s styles and settings.
 
+{% include ads.html %}
+
 The Markdown import options also include a box called “Auto-reimport before generate output”:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flaremarkdownimportreimport.png" alt="Option to auto-reimport before building the output" /><figcaption>Option to auto-reimport before building the output</figcaption></figure>

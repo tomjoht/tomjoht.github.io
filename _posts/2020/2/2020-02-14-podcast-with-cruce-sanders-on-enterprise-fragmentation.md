@@ -15,6 +15,8 @@ You can listen to the podcast on [A] here:
 
 The basic question of the post/podcast is how to balance small, independent agile teams with enterprise-wide content strategies. Agile software development seems to favor independent, autonomous teams. In contrast, enterprise content strategy looks to harmonize content across multiple teams and boundaries. In a current software development model where agile dominates as the norm, how do you reconcile larger needs for enterprise content strategy? You can read the article here: <a href='https://idratherbewriting.com/blog/agile-teams-and-enterprise-content-strategy/'>Autonomous Agile Teams and Enterprise Content Strategy: An Impossible Combination?</a>
 
+{% include ads.html %}
+
 We also talk about a host of other issues. You can read a full transcript of the podcast in the [episode details](https://simplea.com/Treasury/Podcasts/Technical-Content-Sets-in-a-Broader-Ecosystem). Here are some questions/topics covered:
 
 * How to achieve an integrated customer experience with so many different, autonomous systems each with their own formats, systems, groups, tools, etc.

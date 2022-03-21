@@ -41,6 +41,8 @@ I'm not exactly sure how to interpret this result. It seems like many of the sur
 
 Overall, it's troubling that so many practitioners are undecided. It would be better if they either agreed or disagreed &mdash; at least then practitioners would be making a more informed decision. But today we have entire communities of practice sprouting up (e.g., Write the Docs) that have very little knowledge of (or exposure to) any of the research produced by TC academics.
 
+{% include ads.html %}
+
 For those who did take a position (other than undecided), the fact that 36% either disagree or strongly disagree should send a wake-up call to the academic community that something is wrong.
 
 Now let's flip to the other side and look at the results from the academic survey. What stands out most to me is the response to this statement:

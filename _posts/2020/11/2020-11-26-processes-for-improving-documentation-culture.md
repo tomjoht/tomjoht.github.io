@@ -11,3 +11,5 @@ description: "I added a new article in my API documentation course about process
 ---
 
 Read more: [Processes for changing internal doc culture](/learnapidoc/docapis_changing_internal_doc_culture.html).
+
+{% include ads.html %}

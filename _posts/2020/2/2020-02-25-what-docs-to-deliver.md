@@ -26,6 +26,8 @@ This suite of docs represents the diversity of content that constitutes what you
 
 This deliverable speaks to the flexibility of API docs and what sets them apart from traditional end-user documentation. With more traditional docs accompanying user interfaces, there's typically a defined workflow for how to achieve a goal. *You go to a certain tab, click a button here, define some options there, and click Finish to create your widget.* But APIs are much more flexible and might be used in many different ways.
 
+{% include ads.html %}
+
 In fact, Kristof van Tomme, co-founder of Pronovix Developer Portals, argues that an API should be flexible enough that developers might *surprise you* in the way they use it. Kristof writes,
 
 > Ideally APIs are constrained in such a way that they don’t allow you to fail, like REST APIs: you can give the parameters but you cannot dictate everything and you do not have to define everything. But they are open enough to allow for surprising applications. An API that doesn't surprise you, and if people do not create surprising things with it, then you probably created an application rather than an API. API consumers should be able to influence API design and capabilities, but not dictate them. This is an exciting but hard exercise. ([Developer portals & digital transformation: APIs in the complex adaptive enterprise](https://pronovix.com/blog/devportals-digital-transformation))
@@ -47,5 +49,3 @@ You might ask how "recipes" differ from "tasks." Don't tasks also provide "step-
 And so on. An API might have different implementations and considerations for different platforms and technologies. A recipe book can explain how to use the API in a diversity of scenarios.
 
 Overall, Paul's list prompts some reflection about how API docs differ from traditional docs. With API docs, the uses are more open, flexible, and variant. As such, the docs you deliver for the API might reflect a broader set of deliverables.
-
-

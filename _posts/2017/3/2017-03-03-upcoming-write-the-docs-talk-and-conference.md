@@ -40,6 +40,8 @@ I submitted a talk about doc navigation and it was accepted. Here's the abstract
 </ol>
 </blockquote>
 
+{% include ads.html %}
+
 I know my presentation topic isn't particularly clever or insightful, but there are large discussions within the tech comm community about the value of doc sidebars and inline links. Whether 20 min. will allow me to dig in deep enough or not, I'm not sure. At any rate, doc navigation (which informs findability and the user experience) surely makes up a huge part of the task of documentation.
 
 [1]: http://www.writethedocs.org/conf/na/2017/

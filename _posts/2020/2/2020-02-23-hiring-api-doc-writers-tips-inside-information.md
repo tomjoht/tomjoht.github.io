@@ -44,6 +44,8 @@ Are they surprised their Goldilocks, committee-generated job ads aren't resultin
 
 If they were serious about filling these posts, and finding people who both can and want to do the work, they'd engage with those who have done it but prefer, say, to work on contract or remotely. In most cases companies won't even try. Call me cynical, but this suggests to me that management isn't serious about hiring and, frankly, that the posted positions aren't actually funded but are more of a resume-harvesting maneuver. If I'm right, the only thing that will motivate management to get serious is when their existing resources start pushing back or, worse, defecting.
 
+{% include ads.html %}
+
 When I recruit for a company that seeks unrealistic combinations of skills and experience, I ask 1) have you ever met someone like that? and 2) do you have any idea what such a person would cost? Invariably the answer to both questions is "no".
 
 I inform them that their particular purple squirrel probably does exist somewhere but costs a lot more than they can afford. We then start prioritizing. How important, really, is it that the person work onsite? Or have experience with the company's unique toolchain? Or work as a salaried employee? Or manage others? Essentially I'm asking: do they want the work done, or do they want to boast about the caliber of talent to which they can dictate terms? Most hiring managers laugh nervously and then get pragmatic. A day later, the company is looking at a couple resumes of very qualified people who long ago took down their LinkedIn profiles and now only work through word-of-mouth referrals from trusted associates.

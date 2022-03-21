@@ -45,6 +45,8 @@ We celebrate writers and presenters (like Bill Nye or Neil deGrasse Tyson or Isa
 
 As a profession, I think we underestimate the degree of difficulty required for simplification. In most cases, technical writers don't possess the skill to simplify complexity in an impressive way. Adding subheadings and numbered steps helps make complex information easier to consume, for sure, but simplifying complexity gets more challenging as the subjects become more complex.
 
+{% include ads.html %}
+
 To provide the most value, technical writers shouldn't merely gravitate towards documenting the obvious or easy features in a system. Instead, we should focus on the areas that are the most complicated for the users. That's where we should live, swimming in that deep, turbulent ocean water where users are drowning.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/intersecting_groups_complexity.svg"/><figcaption>The technical writer simplifies complexity in a way that connects with users and makes sense to them.</figcaption></figure>

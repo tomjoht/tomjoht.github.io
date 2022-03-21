@@ -44,3 +44,5 @@ We talked about two main topics, primarily. First, the [results of the pandemic 
 Second, we discussed the pandemic from the health tech comm perspective, specifically looking at information in some essays Kirk has written on this topic:  
 * [Communicating about Covid-19](https://communicating-about-covid19.weebly.com/)
 * [Prepositions for Planning Post-COVID-19 Processes](https://communicating-about-covid19.weebly.com/prepositions-for-planning-post-covid-19.html)
+
+{% include ads.html %}

@@ -44,6 +44,8 @@ Some topics covered during the podcast include the following:
 * [What's New in Paligo](https://paligo.net/docs/en/what-s-new-in-paligo-.html)
 * [Content Reuse](https://paligo.net/docs/en/content-reuse.html)
 
+{% include ads.html %}
+
 ## Related posts from the Paligo blog
 
 * [The 5 Principles of Single-Sourcing](https://paligo.net/blog/single-sourcing/the-5-principles-of-single-sourcing/)

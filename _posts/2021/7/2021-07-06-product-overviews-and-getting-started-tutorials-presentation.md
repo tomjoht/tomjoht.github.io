@@ -25,6 +25,8 @@ How do you balance this tension between action (with task-based docs) and narrat
 
 In general, best practices for documentation would mean accounting for both mindsets and orientations. For the reading-to-do mindset, you provide a getting started tutorial that gets the reader going in an immediate, hands-on way with the product. For the reading-to-understand mindset, you provide a product overview that tells the story of your product, answering high-level questions about the product, including the problem it solves, who the product is for, listing sample use cases, presenting architectural diagrams, development timelines, known limitations, and more. Together, the product overview and getting started tutorial can empower users with confidence and enthusiasm to dive into other areas of your docs.
 
+{% include ads.html %}
+
 ## Others' experiences
 
 I'm not alone in my thoughts about the importance of product overviews and getting started tutorials. In a recent blog post, [Balancing action with narration: Creating product overviews and getting started tutorials to satisfy both try-first and read-first learning modes](/blog/balancing-action-with-narration-create-content-to-satisfy-opportunistic-and-systematic/#commento), I floated an idea about presenting on these topics, sharing a similar overview I described as above, and asked my readers to agree or disagree with this statement: "Product overviews and getting started tutorials are essential but often neglected topics in documentation." Here are the results:

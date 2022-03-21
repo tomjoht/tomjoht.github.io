@@ -13,4 +13,4 @@ To read the three topics in "Getting a Job in API documentation," see the follow
 * [How much code do you need to know?](/learnapidoc/jobapis_learning_code.html) - An exploration between whether it's better to hire a programmer who learned writing or a writer who learned programming.
 * [Locations for API doc writer jobs](/learnapidoc/jobapis_location.html) - An attempt to determine where most of the API technical writing jobs are located, and whether it's a good idea to move to California.
 
-
+{% include ads.html %}

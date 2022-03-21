@@ -16,6 +16,8 @@ In this episode, we chat about the [API documentation checklist](/learnapidoc/do
 
 By the way, you can see some jury commentary about what makes for winning developer portals [in a Pronovix video interview here](https://pronovix.com/blog/what-goes-award-winning-developer-portal-2021). (My comments appear about 24 minutes into this video.)
 
+{% include ads.html %}
+
 We also chat about other topics in this Let's Talk Docs podcast, such as writing philosophies, community engagement, and [life stories](/blog/life-story-what-shapes-your-lifes-trajectory/), but the focus on measuring API documentation quality probably has the most emphasis.
 
 The Let's Talk Docs podcast (which is associated under the larger [Sustain podcast](https://podcast.sustainoss.org/)) has several other episodes available as well:

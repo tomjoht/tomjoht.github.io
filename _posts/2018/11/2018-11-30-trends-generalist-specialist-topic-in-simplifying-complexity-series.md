@@ -29,6 +29,8 @@ Note that this content has undergone multiple iterations:
 
 In this third version, I expanded the research in places, provided better organization in my analysis, and tried to integrate some more personal stories in places. I also narrated it as a podcast. Overall, this still remains a challenging topic, and the length of the article probably shows.
 
+{% include ads.html %}
+
 Also, if you're viewing the essay on my [Simplifying Complexity site](/simplifying-complexity/), you'll notice that I increased the font a bit. I don't know if my eyesight is getting worse or what, but while reading it I kept squinting and decided to simply make the text more readable.
 
 I feel like I've let this essay occupy quite a bit of attention on my blog lately. With each iteration, I've gathered feedback from you through surveys and used the information to write the next version. I don't always push content through multiple revisions like this. Many blog posts are one-and-done efforts. But this particular topic has been the focus of multiple presentations this year, so it receives continual attention and improvements.

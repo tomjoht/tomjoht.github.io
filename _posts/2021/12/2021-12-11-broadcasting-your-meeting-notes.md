@@ -10,3 +10,5 @@ description: "A few months ago I added a topic to my API doc course called <a hr
 ---
 
 (Admittedly, this topic isn't specific to API docs. However, I have an entire section on [processes and methodology](/learnapidoc/docapis_managing_doc_processes.html) in the course, and I think this topic fiets nicely into that section.)
+
+{% include ads.html %}

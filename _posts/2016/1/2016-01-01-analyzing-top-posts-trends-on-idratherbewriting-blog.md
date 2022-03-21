@@ -28,7 +28,7 @@ Based on Google Analytics, these 10 posts written in 2015 received the most traf
 8. [Swagger tutorial for REST API documentation](https://idratherbewriting.com/2015/09/14/swagger-tutorial/)
 9. [Static site generators start to replace web publishing platforms like WordPress](https://idratherbewriting.com/2015/02/27/static-site-generators-start-to-displace-online-cmss/)
 10. [API technical writing course on Udemy from Peter Gruenbaum, and some thoughts on documenting JSON](https://idratherbewriting.com/2015/05/22/api-technical-writing-course-on-udemy/)
- 
+
 ## Top 10 posts of all time
 
 These 10 posts received the most traffic overall, regardless of the publication date. All of these posts have publication dates prior to 2014.
@@ -43,6 +43,8 @@ These 10 posts received the most traffic overall, regardless of the publication 
 8. [Avoiding plosives and breathing noises (Voiceover)](https://idratherbewriting.com/2010/03/10/4-avoiding-plosives-and-breathing-noises-developing-a-personal-voice-in-audio/)
 9. [Are Certificate Programs Helpful for Transitioning into Technical Writing? [Collaborative Post]](https://idratherbewriting.com/2011/01/06/certificate-programs-helpful-when-transitioning-into-technical-writing-collaborative-post/)
 10. [Sample Expand and Collapse Code with Twisting Buttons](https://idratherbewriting.com/2013/03/31/sample-expand-and-collapse-code-with-twisting-buttons/)
+
+{% include ads.html %}
 
 ## Top 5 podcasts published during 2015
 
@@ -69,7 +71,7 @@ The stats are not too different from last year. This chart compares 2015 with 20
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/twblogs2014.png" | prepend: site.baseurl }}" alt="2015 vs 2014 Google Analytics Comparison" />
 
-The number of sessions are relatively the same, but the pageviews, pages per session, and average session duration increased in noticeable ways. 
+The number of sessions are relatively the same, but the pageviews, pages per session, and average session duration increased in noticeable ways.
 
 ## Other stats
 
@@ -78,12 +80,12 @@ Google Analytics has a host of analytical data about my visitors. Here's a smatt
 * 45% of users are from the US, 11% from India
 * 53% are using Chrome, 12% using IE
 * 62% use Windows, 16% use Mac
-* 8% are iOS, 7% are Android 
+* 8% are iOS, 7% are Android
 * Based on Google's "interests" category, 7% are technophiles, 5% are TV lovers, 4% are new junkies and avid readers, 5% are interested in employment, 3% are interested in software
 * 75% are new visitors, 25% are returning visitors
 * 82% of visitors are desktop, 14% mobile, 4% tablet
 
-Here's the statistic that always blows my mind: 
+Here's the statistic that always blows my mind:
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/organicsearch2015.png" | prepend: site.baseurl }}" alt="Traffic" />
 
@@ -104,7 +106,7 @@ From Google Webmaster Tools, here are some common search terms:
 * swagger api tutorial
 * javascript event listener
 * quick reference guide template
-* jekyll documentation theme 
+* jekyll documentation theme
 * technical writing certification
 * quick reference guide
 * technical writing certificate
@@ -135,16 +137,16 @@ I honestly don't know how to interpret this statistic. [Pingdom Tools](http://to
 
 I was particularly curious about the statistics this year because I switched from WordPress to Jekyll. I'm glad that my site stats didn't drop due to the new platform. I hoped Jekyll's quick loading time would result in more sessions and page views, and those stats did improve a bit.
 
-I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images. 
+I still need to do some other cleanup from the migration to Jekyll, by the way. I spent a long time fixing some formatting this year. For example, I spent days just removing WordPress's custom `[caption]` tags on images.
 
 This made me think twice about ever including non-standard HTML in posts. Some formatting tasks still remain. For example, when I was on WordPress, I used the auto-embed function for Youtube URLs. I need to go through all my posts and add the full embed code for those Youtube URLs.
 
 ## Confronting reality
-Whenever I look at my stats, I always want to deny the most staggering, mind-blowing facts. But here's the truth. 75% of my visitors are new and coming from Google. Social media accounts for only a small percentage of my traffic. Based on this, I should be writing for search engines and targeting keywords in my blog posts. The time of day and length of my posts doesn't much matter. What matters is how my site surfaces and appears in Google's search engine. 
+Whenever I look at my stats, I always want to deny the most staggering, mind-blowing facts. But here's the truth. 75% of my visitors are new and coming from Google. Social media accounts for only a small percentage of my traffic. Based on this, I should be writing for search engines and targeting keywords in my blog posts. The time of day and length of my posts doesn't much matter. What matters is how my site surfaces and appears in Google's search engine.
 
-A lot of my visitors are new to technical writing. They're searching for information on technical writing certification programs, jobs, salaries, skills, and other details associated with technical writing careers. In other words, most of my traffic is from newbies trying to learn about technical writing. Is that what I should focus on? 
+A lot of my visitors are new to technical writing. They're searching for information on technical writing certification programs, jobs, salaries, skills, and other details associated with technical writing careers. In other words, most of my traffic is from newbies trying to learn about technical writing. Is that what I should focus on?
 
-Last year there was also a lot of traffic with my [API documentation writing course](https://idratherbewriting.com/learnapidoc/) and [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe. 
+Last year there was also a lot of traffic with my [API documentation writing course](https://idratherbewriting.com/learnapidoc/) and [Swagger tutorial](https://idratherbewriting.com/learnapidoc/pubapis_swagger.html). But by and large the main audience for my blog is the unsubscribed user who lands on the site, glances at a page, and then bounces off. I am doing a poor job at converting those users into regular email subscribers. Of the 1,030 average sessions per day, it seems like only about 5 actually subscribe.
 
 The regular users who comment on my blog don't represent the overwhelming traffic from organic search. It's easy to overlook that and just think of my regular commenters as my readers. But those who comment are in the minority by far. The bulk of my visitors are like the dark matter of the Internet &mdash; present and undeniable but ethereal and unknown. Who the heck are all the users from the other sessions? How can I convert them into regular subscribers?
 
@@ -164,21 +166,21 @@ If I wanted to increase the readership of my blog, here's what I should do:
 
 This year I'm thinking of adding a new course on my site called "Getting started with technical writing" or something, and then covering a host of newbie topics. I'm not sure if a focus on the basics will motivate me to write, though. I tend to write about topics and ideas that I'm thinking about or experiencing, and I'm not sure if I can write passionately about technical writing certificates, technical writing tips, technical writer salaries, technical writer resumes, and technical writing books. But I just might give it a try.
 
-The downside of focusing on these mainstream, general topics is that it will dilute my sense of expertise or brand. This past year I wrote a lot about [API documentation](https://idratherbewriting.com/category-api-doc/). These posts helped present me as an expert in API documentation. 
+The downside of focusing on these mainstream, general topics is that it will dilute my sense of expertise or brand. This past year I wrote a lot about [API documentation](https://idratherbewriting.com/category-api-doc/). These posts helped present me as an expert in API documentation.
 
 The secret trick to online branding is that simply writing extensively and thoughtfully about any topic will brand you as an expert about that topic. Robert Scoble recommends that you blog only about what you want to be known for, or the direction you hope to go. For example, if you want to drive cabs, let cabs be the dominant focus on your blog:
 
 > If you want to drive a cab, you better go out and take pictures of cabs. Think about cabs. Put suggestions for cabbies up. Interview cabbies. You better have a blog that is nothing but cabs. Cabs. Cabs. Cabs all the time. (See [If you are laid off, here's how to socially network](http://scobleizer.com/if-you-are-laid-off-heres-how-to-socially-network/))
 
-I both have a passion for API documentation and want to brand myself as an API documentation expert, so I blog a lot about API documentation. After some months, I was asked to teach numerous workshops on API documentation. 
+I both have a passion for API documentation and want to brand myself as an API documentation expert, so I blog a lot about API documentation. After some months, I was asked to teach numerous workshops on API documentation.
 
-However, most of my blog traffic, the 75% of my sessions, are more focused around newbie technical writing topics. New or transitioning technical writers usually aren't looking for information on API documentation. Even most of my existing subscribers probably aren't that interested in API documentation. Writing so extensively about API documentation alienates me from mainstream readership, but it also helps brand me as an API documentation expert. 
+However, most of my blog traffic, the 75% of my sessions, are more focused around newbie technical writing topics. New or transitioning technical writers usually aren't looking for information on API documentation. Even most of my existing subscribers probably aren't that interested in API documentation. Writing so extensively about API documentation alienates me from mainstream readership, but it also helps brand me as an API documentation expert.
 
-As I said before, if you want to brand yourself as an expert in a topic, you have to write a lot about that topic. But sometimes that expert-branding focus won't lead to the most readership. As a result, you have to consider what goals are more important for you &mdash; expert branding, or readership? Do I want to be known as an "API documentation expert," or do I want to triple my readership? 
+As I said before, if you want to brand yourself as an expert in a topic, you have to write a lot about that topic. But sometimes that expert-branding focus won't lead to the most readership. As a result, you have to consider what goals are more important for you &mdash; expert branding, or readership? Do I want to be known as an "API documentation expert," or do I want to triple my readership?
 
-More readers means more potential advertising revenue, but a stronger brand focus means potentially better job offers, more consulting, and more opportunities related to that brand expertise. 
+More readers means more potential advertising revenue, but a stronger brand focus means potentially better job offers, more consulting, and more opportunities related to that brand expertise.
 
-Maybe as a compromise I could alternate between the two topics? 
+Maybe as a compromise I could alternate between the two topics?
 
 Most likely I'll continue the same path as before, emphasizing brand and API documentation specialization. But occasionally I'll thrown in some general information for new and transitioning technical writers.
 
@@ -187,10 +189,3 @@ Most likely I'll continue the same path as before, emphasizing brand and API doc
 Another strategy I have is to convert one of my series (such as the one on [getting a job in technical writing](https://idratherbewriting.com/2009/09/22/how-to-get-a-job-in-technical-writing-a-7-step-guide-for-students/)) into a free downloadable "ebook" as an incentive for people to subscribe. I think this will help convert visitors into subscribers.
 
 Finally, I need to stop focusing so much on social media promotion and think more strategically about keywords on Google (regardless of my blog's focus). Links on social media channels evaporate within a day of posting, but URLs indexed by Google are more permanent and visible.
-
-
-
-
-
-
-

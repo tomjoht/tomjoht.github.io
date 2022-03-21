@@ -59,6 +59,8 @@ Plus or minus a few thousand jobs, there are about 50,000 technical writing jobs
 
 So tech writer jobs haven’t simply disappeared because of the emergence of what is sometimes called the "[Golden Age of UX design](https://uxplanet.org/the-golden-age-of-ux-is-over-ac318099c5b9)." But while tech comm jobs haven’t diminished, they have likely shifted more from the *end-user* domain to the *developer* domain.
 
+{% include ads.html %}
+
 ## UIs getting simpler, behind-the-scenes code getting more complex
 
 While user interfaces are often getting simpler, the code behind them is getting more complex. The classic example of this shift towards simple frontends and complex backends is Google’s homepage. On the surface, it looks pretty simple. But go to View > Source and copy the code on that page, and then paste it into Microsoft Word. It’s _73_ pages long!

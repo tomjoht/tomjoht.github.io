@@ -37,6 +37,8 @@ Also, on my [Podcasts page](/category-podcasts/), I added some more subscribe bu
 
 <a href="/category-podcasts/"><img style="max-width=400px; border: 1px solid #dedede" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/podcasts-subscription-options.png"/></a>
 
+{% include ads.html %}
+
 Overall, podcasting will continue to grow in popularity for a number of reasons:
 
 * It's easier to record and share in-depth content in a podcast. Writing out the same material in a blog post tends to be more time consuming.

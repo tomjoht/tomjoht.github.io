@@ -56,6 +56,8 @@ Here's what it looks like from the outside:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/airconditioneroutsideview.jpg" alt="Outside view of air conditioner" />
 
+{% include ads.html %}
+
 ## Fresh air
 
 After installing the air conditioner and sealing off the window, the air became stuffy in my office. I needed some fresh air. California has more cool days than hot, and on these cool days I like to have fresh air and feel the breeze come in. I didn't want to sacrifice fresh air on a permanent basis. So I repositioned my AC unit installation and made it so that I could slide my window back out a bit. This gave me about half a foot of air and sunlight coming through, which was perfect. To plug the gap, I found a plastic under-wedge door that fits in just perfectly. I also positioned a small fan near this window outlet to pull more air in when I want it.

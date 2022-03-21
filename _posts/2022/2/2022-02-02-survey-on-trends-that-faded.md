@@ -15,3 +15,5 @@ jtype: notes_fizzled_trends
 You can view the <a href='https://www.questionpro.com/t/7BnU7DZq7kM'>survey results dashboard here</a>. For my analysis of the results, see [Results of the survey about fizzled trends: Every trend is still with us](/blog/results-of-fizzled-trends-survey).
 
 I left this survey in this series because it provides context and rationale for the direction I took. Rather than making assertions about trends across the industry, in this series I look at trends that I embraced or rejected within my own career.
+
+{% include ads.html %}

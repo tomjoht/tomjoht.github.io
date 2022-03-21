@@ -17,6 +17,7 @@ To learn more TC Camp, see the previous interview I did with Liz Fraley: [Why is
 
 Before the unconference, several morning workshops are held (for minimal fees). Additionally, the day before the conference, on January 20, [Peter Gruenbaum](https://www.udemy.com/user/petergruenbaum/), president of SDK Bridge and author of four online courses on writing API documentation on Udemy, each of which I have reviewed on this site ([1][1], [2][2], [3][3], [4][4]), will be giving a full-day [API workshop](http://www.tccamp.org/2016/12/api-workshop-tc-camp-west-2017/). This workshop is a great opportunity to learn API documentation from a guru in the field.
 
+{% include ads.html %}
 
 [4]: https://idratherbewriting.com/2016/11/13/review-of-coding-for-writers-peter-gruenbaum-udacity/
 

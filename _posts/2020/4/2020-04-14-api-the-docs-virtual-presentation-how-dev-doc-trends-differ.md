@@ -23,6 +23,8 @@ API The Docs was originally scheduled to be held the Friday before the [WTD Port
 
 The first API The Docs Virtual event was held on April 8, 2020, and included two speakers (Leah Tucker and Kristof Van Tomme) who gave presentations followed by Q&A for 2 hours. Then the sessions transitioned to breakout rooms for more free-form discussion on various topics.
 
+{% include ads.html %}
+
 Upcoming API The Docs sessions are scheduled for the following dates:
 
 * April 22 (Mike Jang and Jenny Wanger)

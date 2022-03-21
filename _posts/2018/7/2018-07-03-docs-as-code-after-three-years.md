@@ -36,6 +36,8 @@ Why do I like docs-as-code tools and workflows so much? Why is docs-as-code work
 
 * **Simplified publishing workflow**: Not having to manually publish docs is probably the best aspect of docs-as-code. With just a few git commands, I can deploy updates across hundreds of files. More than anything, the continuous delivery workflow has simplified my life. Having been in previous tool situations that made publishing docs a hell, the continuous delivery method is all the more sweet.
 
+{% include ads.html %}
+
 ## The negatives
 
 Okay, so not to sound like I'm in a honeymoon phase with a tool, I'll note a few negatives with docs-as-code:

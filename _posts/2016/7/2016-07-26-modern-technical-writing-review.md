@@ -28,6 +28,8 @@ bitlink: http://bit.ly/moderntechnicalwritingetter
 
 Recently to try to get better sleep, I switched from reading my iPhone at night to a Kindle E-reader. It turns out I really like reading from the Kindle E-reader, so much that I actually bought two of them (the Paperwhite and the Voyager). Reading from the Kindle feels more offline, so I can get immersed more fully in the content, rather than flipping back and forth between email, Reddit, Twitter, or other sites.
 
+{% include ads.html %}
+
 While reading on my Kindle, I stumbled across a book called [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), by Andrew Etter, published in 2016. It's is actually a short book (10,000 words), and you can read it about a half hour.
 
 <figure style="float: right; padding: 10px;"><a href="https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS"><img  src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/modern-technical-writing-by-andrew-etter.png" | prepend: site.baseurl }}" alt="Modern Technical Writing, by Andrew Etter" /></a><figcaption>Modern Technical Writing, by Andrew Etter</figcaption></figure>

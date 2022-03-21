@@ -26,6 +26,8 @@ In contrast, a more junior level tech writer is merely assigned or handed projec
 
 Another responsibility is to define strategies for the work. People might not know what work should be done. They might come to you for insight about what's wrong with the current docs, or what directions should be taken with the site. Upper management will no doubt ask you to define some documentation goals/objectives for the year, and you'll need to think strategically about what is ultimately deficient in the current solution, why, and how to fix it. If a higher-level manager does indicate a need, such as increasing user satisfaction, making the docs scale, deflecting support costs, or expanding the audience, you'll work out for yourself how you would go about that.
 
+{% include ads.html %}
+
 ## 3. Organizing work among multiple writers
 
 Another task is to organize the work among multiple writers. You might have a number of other writers you're working with. How do you organize the work so that the different writers have a logical, coherent set of tasks? Usually, you group tickets into different products or components, and then the different writers take on all tickets related to that product or component. This specialization works well if there's a good balance among tickets but can be tricky when some products/components have lots of tickets, others few.

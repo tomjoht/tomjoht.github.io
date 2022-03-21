@@ -39,6 +39,7 @@ Here's a list of some of the topics discussed:
 * Why people don't always value writing, and how tech writers are embracing different specializations as a result
 * Strategies to reduce complexity by separating tool knowledge from content knowledge
 
+{% include ads.html %}
 
 Here are links to some of the articles we discussed:
 

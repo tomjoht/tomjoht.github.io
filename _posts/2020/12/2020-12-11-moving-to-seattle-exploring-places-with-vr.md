@@ -34,6 +34,8 @@ Browsing Zillow is fun, but it's hard to evaluate a house without knowing how cl
 
 Commute lines include the Link Light Rail and Sounder, for the most part. (Bus routes are everywhere but too complicated to add.) I also added in bike trails (which I pulled from maps like [Trailfinder](https://gismaps.kingcounty.gov/TrailFinder/)). The soccer clubs are all the "premier" clubs as listed on [Washington Youth Soccer](https://washingtonyouthsoccer.org/find-a-club/#) in the Seattle area.
 
+{% include ads.html %}
+
 Adding single data points on a map is easy, but adding school boundaries is much more difficult. Schools don't often have a boundary file (in KML file format) that you can download and import into your own map. Zillow gets its school boundary data from Pitney Bowes, which isn't a free site. Although it's tough to get these school boundaries, the information is crucial when you have several children.
 
 To add the school boundaries to my custom map, I took a screenshot from the district boundaries identified by Zillow, then superimposed the image onto the same area in Google Earth Pro, traced the area with the polygon tool in its own layer, and then saved it as a KML file. I then imported this KML file onto a layer on my custom map. At first this method seemed cumbersome, but I soon became good at it.

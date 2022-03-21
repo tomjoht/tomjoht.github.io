@@ -46,6 +46,8 @@ Here are my slides:
 
 <a href="https://idratherbewriting.com/learnapidoc/slides/overviews_and_tutorials.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/prodoverviewsthumb.png" alt="Product overviews vs. getting started tutorials &mdash; striking a balance between read-first and try-first user behaviors" /></a>
 
+{% include ads.html %}
+
 ## Content pages
 
 I also added two sections to my API course that provides a written version of the content:

@@ -60,6 +60,8 @@ EMBED_PARAMS.border = "hidden";
 
 You can <a target="\_blank" href="https://www.questionpro.com/t/PESbCZc1tY">see the responses (so far) here</a>.
 
+{% include ads.html %}
+
 ## References
 
 Albers, Michael. ["Complex Problem Solving and Content Analysis."](https://www.amazon.com/Content-Complexity-information-Technical-Communication/dp/0805841415) *Content and Complexity: information Design in Technical Communication*. Edited by Albers, Michael and Mazur, Beth. Routledge. 2008.

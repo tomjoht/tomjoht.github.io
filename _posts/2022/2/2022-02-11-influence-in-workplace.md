@@ -28,6 +28,8 @@ Cole's analysis is actually a 200-page master's thesis on newsletters, which she
 
 An external newsletter's purpose is usually to raise awareness and interest in the company's products and services. Cole says "a newsletter is effective if it can attract the reader's eye towards certain advertised products or services." The newsletter often "wins clients because the newsletters portrays its company as a leader in the field with a good reputation." Even though the focus is on building relationships with customers, any org that sends out a newsletter might have similar goals of increasing the appeal of the org's products and services.
 
+{% include ads.html %}
+
 The approach in external newsletters isn't entirely marketing collateral, though. Long before "content marketing strategies" became popular, companies that sent out newsletters realized that they needed to provide valuable content to customers, not just marketing collateral. Cole writes:
 
 > A frequent, cynical response when someone receives an external newsletter in the mail is most likely, "Oh, they're just trying to sell me something." Knowing the consumer's aversion to the "hard sell," most external newsletter editors hire design agencies which disguise the marketing content with pictures, distracting designs and "objective" writing. Their desire is to draw in the skimmer, invite him to read on. The key to pulling the skimmer into reading the copy is in convincing him that the content of the newsletter is full of information that is relevant and helpful to him. Anne Murphy advises this in the Inc. article "The Best Newsletters in America": "To get read, a newsletter must add value by informing the reader. . . The moral: Let the sales literature tout the products" (72).

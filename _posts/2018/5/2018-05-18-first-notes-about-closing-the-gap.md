@@ -22,6 +22,8 @@ Thus, even though the first human genome was [sequenced in 2003](https://en.wiki
 
 Fast forward a few years, and now you see companies like 23andMe engaged in another effort -- to collect enough human genomes in order to identify correlations between variants and outcomes. 99.5% of human DNA is the same -- just 0.5% varies from one person to the next. Identifying these variants and how those variants correlate with different diseases or traits constitutes much of the work 23andMe. The purpose of the $200 fee for their test isn't to provide a service -- it's to collect your DNA into their ongoing big data project.
 
+{% include ads.html %}
+
 What does this all have to do with documentation? As technical writers, we're not mapping the
 human genome, but we are doing something similar: we're mapping the end-user. You can think of it almost like a genetic engineer looking at DNA strands under a powerful microscope. We're figuratively doing the same -- trying to understand how the user's brain chemistry and wiring work. What does the user need to know, want to know, not know? What actions or behaviors and thoughts drive the user's behavior? Who *is* the user, and what information do they need?
 

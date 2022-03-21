@@ -22,6 +22,8 @@ Micro content is being integrated into other devices too. In the Internet of Thi
 
 In fact, although the exact definition of micro content varies (some people use it to refer to short-form content as well, like tweets or sidebar text ads), Mike Hamilton defines micro content by saying that it is content that fits into the context of a "micro moment." For example, if you want to quickly know the weather to decide whether to put on a jacket, you grab your phone and open the weather app. The info that appears to you provides a short answer to your question. For more on micro contents and micro moments, listen to this excellent podcast episode from Cherryleaf: [56. Microcontent in Flare - conversation with Mike Hamilton](https://cherryleaf.podbean.com/e/56-microcontent-in-flare-conversation-with-mike-hamilton/).
 
+{% include ads.html %}
+
 ## Micro content in search results pages
 
 Another common instance of micro content is the search results page. If you search google for [how do i tie a tie](https://www.google.com/search?q=how+do+i+tie+a+tie&oq=how+do+i+tie+a+tie&aqs=chrome..69i57j0l5.766j0j4&sourceid=chrome&ie=UTF-8), you don't have to click through links on the search results page to view the content. Instead, Google's algorithm identifies the answer from the search results and excerpts that answer as micro content directly in the search result:

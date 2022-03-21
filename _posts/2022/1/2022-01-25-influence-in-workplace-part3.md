@@ -39,6 +39,8 @@ In general, use the social forums that are appropriate for the type of content y
 
 Even so, many tech writers prefer to stay in the shadows, to not share out what they've written or updated, to remain quiet. They often list the updates on a release notes page, but internally, not many people read release notes. In my experience, not many people are even aware of where tech writers publish documentation to external partners. If tech writers are introverts, the idea of sharing links to docs and posting other updates often fills writers with dread.
 
+{% include ads.html %}
+
 ### Principle 3: Infuse content with SEO
 
 SEO also plays another role, often underplayed, in helping the audience find your content. Ninety percent of the traffic on my site comes from organic SEO (meaning, not ads) from Google. To infuse your content with the right keywords, you need to understand the basics of SEO, which is sometimes treated as a dark-arts practice but is likely the most powerful way to attract people to your site.

@@ -22,9 +22,11 @@ Now, what do you think I'm going to do? I'm going to continue to write more abou
 
 As a result of writing and speaking more about trends, I will become more associated with trends. In fact, this is not a new revelation. I've known trends to be a hot issue in the past as well, so I tailored my site's tagline to say "technical writing *trends* and innovations." I'll continue to write and present more about trends, because it drives traffic, and the more I generate content about it, the more people will seek me about for information about trends. The more people will consider me to be an "expert" about trends. People will start to look to me as an industry thought leader when they think about trends. In reality, I have no special insight about trends.
 
+{% include ads.html %}
+
 What you blog about shapes perceptions about your expertise. The more you write about X, the more expertise you're perceived to have about it. In a way, sure, it's true. You can't write a book-load of content about a topic without doing research and having some interesting, helpful ideas about the topic. What I find interesting is the two-way dynamic here.
 
-Bloggers write about what the audience is interested in. As a result, bloggers develop expertise in the audience's interests. 
+Bloggers write about what the audience is interested in. As a result, bloggers develop expertise in the audience's interests.
 
 
  in people's heads that you're an expert about that topic, and the more expertise you're perceived to have in an area, the more expertise you actually start to develop. The two behaviors feed off of each other. You could probably make a goldmine of a career by specializing in trends, if that is even possible. Can you imagine devoting an entire blog/book/career out of predicting the future?

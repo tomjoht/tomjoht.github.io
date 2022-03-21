@@ -27,3 +27,5 @@ Links for more information:
 Note that unfortunately I was out of town for this episode, but after listening to it, I think it's one of the best we've had. It's especially interesting to compare the docs-as-code tool discussions with this [Tools Selection Podcast](https://www.scriptorium.com/2019/01/tools-selection-podcast/) from Scriptorium. Both podcasts are excellent, but their contrast illuminates how divergent the tooling for documentation has become in the industry.
 
 {{site.data.alerts.tip}} Did you know that you can watch the Write the Docs podcast on your Fire TV? Check it out in the <a href="https://www.amazon.com/Id-Rather-Be-Writing-Podcast/dp/B06Y23TNC4/ref=sr_1_1">Amazon Appstore here</a>.{{site.data.alerts.end}}
+
+{% include ads.html %}

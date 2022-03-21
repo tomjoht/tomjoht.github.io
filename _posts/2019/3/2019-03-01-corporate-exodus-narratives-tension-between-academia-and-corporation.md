@@ -32,6 +32,8 @@ Overall, I found a greater understanding of academics that I hadn't grasped prev
 
 Most striking is that most academics I spoke with started out working in the corporate space, but they had a negative experience that prompted them to reroute their career toward academia. One academic said he used to get regular migraines (caused by stress) while working at a company &mdash; migraines so frequent and unexplainable that he sought medical advice. When he switched into academia, these migraines just seemed to vanish. I think his story is symbolic of the common emotional healing that seems to occur when others make the transition into academia.
 
+{% include ads.html %}
+
 Another told me about how he found the corporate environment too cut-throat, and when I pressed him for details, he explained that his job function was to replace a support group through a knowledge base, and that he was the key instrument in the corporation's downsizing initiatives. He described how he facilitated local workers sharing desks with their overseas replacements; the local team trained the replacement team for a full week. The many employees let go even included his high school friend.
 
 Another explained that while working in his company, every time he suggested that they do user analysis or investigation about their products or docs, the company resisted and dismissed the idea, explaining that they didn't want to find out that they were wrong; they didn't want to learn that users might not want the product they were designing. This baffled him. He couldn't understand why the company wouldn't want to learn this information. It turned him off to the corporate world.

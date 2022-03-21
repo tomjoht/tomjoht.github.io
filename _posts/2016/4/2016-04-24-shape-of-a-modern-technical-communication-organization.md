@@ -39,3 +39,5 @@ For more details, see the [STC Silicon Valley event post](http://www.stc-silicon
 ## Audio file
 
 {% include audio.html %}
+
+{% include ads.html %}

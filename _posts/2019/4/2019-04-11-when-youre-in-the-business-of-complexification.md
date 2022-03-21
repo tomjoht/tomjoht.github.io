@@ -18,6 +18,8 @@ It's an interesting idea. As technical writers, we often stake our value in simp
 
 That may be true (the tax code is complex on its own, independent of TurboTax), but I can't help but feel that there's a category of businesses that thrive on complexification. The more complex the tax code, the more appealing TurboTax becomes. If taxes were simplified, there would be little incentive to buy TurboTax.
 
+{% include ads.html %}
+
 The IRS thrives on complexification as well. The more complex your taxes, the more they stand to benefit from you not doing your taxes properly. The more confusing they can make it to get your refund, the more money they can keep. Here's a simple example. Suppose you're a 17-year-old kid who just earned a few thousand dollars from a summer of lifeguarding (as was the case with my oldest daughter). You're not sure if you need to pay taxes, so you look up the instructions for 1040 to see the minimum filing requirements:
 
 <caption><a href="https://www.irs.gov/pub/irs-pdf/i1040gi.pdf"> <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/irsfilingrequirements.png" alt="Minimum filing requirements" /></a><figcaption>Minimum tax filing requirements. This chart shows that as long as you make under $12k, you don't need to file.</figcaption></caption>

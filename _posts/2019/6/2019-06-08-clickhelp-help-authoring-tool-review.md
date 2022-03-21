@@ -32,6 +32,8 @@ ClickHelp offers single sourcing and content re-use on par with what technical w
 
 You can re-use content as small as single sentences or topics many paragraphs long. ClickHelp also supports variables, which you can configure either on a project or global level. For more information, see [Single Sourcing Techniques](https://clickhelp.com/software-documentation-tool/user-manual/single-sourcing-techniques.html){:rel="nofollow"} and [Content Snippets](https://clickhelp.com/software-documentation-tool/user-manual/content-snippets.html){:rel="nofollow"}.
 
+{% include ads.html %}
+
 ## Importing or Exporting Content
 
 With ClickHelp, you can both import and export content in a variety of formats. For example, you can import content into ClickHelp from a Microsoft Word document, HTML, or from CHM. When you import content, you can choose how the topics are broken up based on the heading levels.

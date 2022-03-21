@@ -49,6 +49,8 @@ Mapping out the organization’s strategic goals with your own seems straightfor
 
 Maybe it’s not possible to say no, but you could play more of an editor/publisher role with non-strategic projects rather than an author role. And for the strategic projects, you could play more dedicated author roles with content development.
 
+{% include ads.html %}
+
 At ICS, I don’t remember ever being exposed to an annual business plan. The whole revenue model was problematic because it was a church organization and all tools were basically free to members, so clearly different dynamics were at play. But later companies I’ve been in have shared their strategic plans. These documents are highly confidential (especially when they are transparent with financials and expected revenue from different business lines) as well as extremely dense. You might only have 30 minutes to read through the document before you have to return it to the leader (out of confidentiality reasons). During these meetings, you see a whirlwind of projects and numbers, and it’s just as interesting to see what’s mentioned as what's *not* mentioned.
 
 At a recent meeting where we reviewed a document like this, I remember looking for a project that I thought was key and not finding much about it. I raised my hand and asked whether Project Z was no longer a strategic priority. The leader backpedaled a bit and mentioned something about Project Z being in show-me mode, but he actually didn’t know for sure. Also, one division’s strategic priorities often look different from another’s. At any rate, I did sort of put Project Z on the backburner after that meeting.

@@ -24,6 +24,8 @@ In a nutshell, Reddit is anonymous, and the demographic tends to consist of youn
 
 The dichotomy between online spaces is interesting &mdash; would you rather create a throwaway account to post some sensitive/taboo topic, such as questions about your salary, manager or company, or feelings of frustration and overwhelm? The anonymity is what often gives rise to more authentic exchanges, though in some spaces online, anonymity can lead to irresponsible posting. Posts remain on Reddit forever.
 
+{% include ads.html %}
+
 In contrast, WTD Slack gives you more conversational fluidity with back-and-forth exchanges common with instant messaging applications. Participants can get more clarity and background around your questions, and you can have more detailed exchanges that build on each other. However, the conversations get removed every 30 days (due to the account type for WTD), so the archive isn't permanent. In many ways, the ephemeral nature of these conversations helps people feel more open to engage and share, knowing that their words (though not anonymous) won't be forever etched online forever.
 
 ## Topics covered in the podcast

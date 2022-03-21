@@ -51,6 +51,8 @@ We all usually agree that including visuals is a great idea. The problem is that
 <figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/visualcommunication/lightningtalk_artist.png" | prepend: site.baseurl }}"/><figcaption>
     Creating graphics is hard. They don't look professional. </figcaption></figure>
 
+{% include ads.html %}
+
 The thought of producing graphics that look like kindergarten art horrifies us, so we often don't even try. We explain away the lack of graphics with common rationalizations:
 
 * I don't have enough time

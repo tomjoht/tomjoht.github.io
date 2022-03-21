@@ -18,6 +18,8 @@ This reminds me of a discussion I had with our localization team the other week.
 
 From this experience and others, I'm guessing there's a general principle at work here: *most people underestimate the work involved in roles they do not understand.* If you're going into a company that doesn't understand the technical writer role, expect that those managing you will underestimate the level of effort required to produce the results they want.
 
+{% include ads.html %}
+
 However, this is not to say that you should avoid these positions. You might have a lot of fun being king of the castle. You can make all the decisions about your tools, style guide, review process, and other workflows. In fact, I'm one of two technical writers in my current group. We write tech docs for the Amazon Appstore and its many products, service, and APIs that developers use to build and submit apps. I often feel like our team should be at least double if not triple the size. (We are, in fact, [hiring](https://idratherbewriting.com/blog/technical-writer-position-amazon-appstore-seattle-may-2019/), though.)
 
 Overall, how do you persuade others, especially business managers with other specializations, that more technical writers are needed to achieve the kind of quality we expect and need? If I knew the answer to this question, I would have a much larger team. In fact, my posts about becoming a [10X tech writer](https://idratherbewriting.com/2019/02/07/how-to-become-a-10x-technical-writer-in-the-workplace/) and my explorations about productivity are related to this. So you're basically asking the wrong person, but you're also asking the right person because I'm equally interested in the question.

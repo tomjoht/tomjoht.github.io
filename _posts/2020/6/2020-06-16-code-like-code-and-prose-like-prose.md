@@ -32,6 +32,8 @@ This dilemma about whether to treat docs like code or prose like prose was espec
 
 I wondered if this trend was misguided. Should I stop trying to force prose into a workflow that isn't the best fit for what it is? I let this conundrum settle into my mind for a few weeks.
 
+{% include ads.html %}
+
 ## Code reviews exclude non-engineers
 
 A few weeks later, I had another experience that prompted to push back on the idea of treating docs like code. A software development manager at my work recently asked me to start pushing doc changes into code reviews, or CRs. Software developers use code review tools (like Review Board) when reviewing code with other developers. The code review contains a "file diff" snapshot that shows exactly what has changed in the commit, highlighting the differences line by line in red (for what's removed) and green (for what's added).

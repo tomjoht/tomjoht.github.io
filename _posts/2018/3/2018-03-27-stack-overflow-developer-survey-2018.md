@@ -37,6 +37,8 @@ If you recall from a [previous post on value](https://idratherbewriting.com/2017
 
 > Overall, according to the interview data, TPC [Technical and Professional Communication] is misconceived as cosmetic, secretarial, unarticulated across disciplines, unnecessary, invisible, and unquantifiable, which means such workers often feel expendable.
 
+{% include ads.html %}
+
 I can't help but wonder if the devaluation of technical writing roles in the workplace has some connection with the homogeneous male engineering culture. In [Why Can’t Silicon Valley Solve Its Diversity Problem?](https://www.newyorker.com/business/currency/why-cant-silicon-valley-solve-its-diversity-problem) Anna Wiener writes,
 
 > The tech industry is metrics-obsessed, always optimizing, and eager to find technical fixes for inefficiencies. But the conversation about diversity in tech is also a conversation about social change&mdash;about economic inequality, access to education, and the latent racism and sexism of an industry that prides itself on building the future. It’s about the social insularity of Silicon Valley, and the insistence on clustering along a forty-mile strip of land, despite the ballooning international reach of technology products.

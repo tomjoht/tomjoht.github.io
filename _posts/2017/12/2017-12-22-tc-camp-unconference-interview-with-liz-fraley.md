@@ -36,6 +36,8 @@ I'd been growing disappointed in the conference circuit for techcomm. Many confe
 
 A year or so earlier, I started attending both the [STC Summit](http://summit.stc.org/) again and discovered [LavaCon](http://lavacon.org/). Both are great events, but neither had exactly what I was looking for.
 
+{% include ads.html %}
+
 LavaCon is great because it changes dramatically from year to year, both the audience and the program. The Summit has grown up too and has started incorporating a greater depth of sessions. But both conferences operate at opposite ends of the scale. On the whole, LavaCon is at the high business level and the Summit is at the individual, professional level.
 
 And I'm a bit of an odd duck, I suppose. I touch a lot of different levels, a lot of different skill sets, a lot of different groups and individuals in what I do. I needed somewhere that fostered wider collaboration and allowed for possibilities and creativity.

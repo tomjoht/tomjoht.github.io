@@ -37,6 +37,8 @@ If you want to listen to audio only, here's the file:
 
 {% include audio.html %}
 
+{% include ads.html %}
+
 ## Slides
 
 Here are my slides:

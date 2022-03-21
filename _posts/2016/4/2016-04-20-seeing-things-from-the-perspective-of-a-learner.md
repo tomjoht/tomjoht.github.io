@@ -12,7 +12,7 @@ Although I've been writing tech docs for more than a decade, and have been const
 
 First, you don't often have the advantage of *not* knowing a product. (Yes, ignorance is sometimes advantageous.) The balance between knowing and not knowing is the tension that undergirds the whole profession of technical writing.
 
-I was reading through some documentation for a particular product today, and the documentation was over my head. High-level architecture, file setup, and other decisions the author was writing about were beyond my immediate concerns. I simply wanted to know where to start. How to I begin building this Android app? I wanted the writer to lead me down a 1-2-3 type approach. 
+I was reading through some documentation for a particular product today, and the documentation was over my head. High-level architecture, file setup, and other decisions the author was writing about were beyond my immediate concerns. I simply wanted to know where to start. How to I begin building this Android app? I wanted the writer to lead me down a 1-2-3 type approach.
 
 And most importantly, I wanted the 1-2-3 steps to work for me, on my Mac, with my version of Android Studio and Gradle, and all of those other dependencies that have to be aligned just right to allow the harmony of the spheres.
 
@@ -21,6 +21,8 @@ And most importantly, I wanted the 1-2-3 steps to work for me, on my Mac, with m
 I've always thought that I can't start writing documentation for a product until I have a decent understanding of it. I often just take random notes here and there and don't actually start writing anything formally until I've successfully completed various tasks and have a decent grasp of how the system works.
 
 But I had a thought today. *What if this is the wrong approach?* What if this approach leads to the same kind of blah documentation I was reading earlier &mdash; the kind that speaks at such a high level, paints details that go over my head, and doesn't lead me easily through a process? What if the approach that leads to poor documentation starts from a point of view of knowing &mdash; in particular, knowing too much.
+
+{% include ads.html %}
 
 As a technical writer, I'm writing for the perspective of someone who does *not* know. As a result, maybe I should start writing down all the questions I have **now**. Sure, I wouldn't have many answers, but in this state of *not knowing*, I could capture all of the questions that other beginning users might also have.
 
@@ -32,7 +34,7 @@ Overall, this is where I think good documentation gets written:
 
 ## We all start at different levels
 
-I know this approach commits the common fallacy of assuming the writer is the user. I know that if I were an Android developer, my questions would be quite different. But being a non-developer, surely I'm the lowest-common-denominator in terms of skill and knowledge. 
+I know this approach commits the common fallacy of assuming the writer is the user. I know that if I were an Android developer, my questions would be quite different. But being a non-developer, surely I'm the lowest-common-denominator in terms of skill and knowledge.
 
 This approach might dumb down the content too much, but then again, I've rarely heard users complain that instructions are too easy. Users can easily skip past parts they already know. And in some ways, realizing that you already know things makes you feel kind of smart. In short, it might not be bad to assume the user is as ignorant as me.
 

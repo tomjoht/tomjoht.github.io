@@ -42,6 +42,8 @@ In other words, the web was founded on free software and open source, but advert
 
 While web enthusiasts have traditionally celebrated decentralization, the recent political scene has caused many to question the value of decentralization. Given that external entities (e.g., Russia) can destabilize our sense of real news by injecting fake, polarizing news stories circulated through social media channels (e.g., Facebook), many have called out the downsides of a decentralized web. In a centralized web, presumably these fake stories would be filtered out by judicious editors.
 
+{% include ads.html %}
+
 So given this context, I can only wonder whether there are downsides *with my blog* appearing in this list of professional development resources. Maybe the editors of TC peer-reviewed journals look at my site and shake their heads, thinking *there goes that crazy blogger again, cranking out more new posts that have people spinning around like wild chickens.*
 
 While I would never intentionally post fake news on my blog, there are some undeniable characteristics inherent in blogging that are questionable. For starters, you have to crank out *a lot of content* on a regular basis. For example, see this post from a professional blogger explaining [how she makes a living blogging](https://www.makealivingwriting.com/how-i-make-5k-blogging/). She writes 58 posts per month for various sites in order to earn $5,100/month. That is about 2 posts per day. This rapid production of content feeds the social media machine, creating little "bursts of attention" that entice readers to visit a site. Each page visit contributes to eyeballs on advertising media, which generates revenue for web businesses.

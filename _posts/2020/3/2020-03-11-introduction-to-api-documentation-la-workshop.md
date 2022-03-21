@@ -31,3 +31,5 @@ This recording covers these two sections in my [API course](/learnapidoc/):
 If you just want the audio to listen during your commute or other activities, here it is.
 
 {% include audio.html %}
+
+{% include ads.html %}

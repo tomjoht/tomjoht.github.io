@@ -49,6 +49,8 @@ orange:
 
 The fields you list depend on what you're describing, obviously. You need to look at your data and figure out what columns you need, and then basically create a property for each column following YAML syntax. I just needed field name, description, required, data type, and values properties.
 
+{% include ads.html %}
+
 ## Step 2: Create your table template
 
 Now create the template for displaying your content. I'm using a table here, and the HTML looks like this:

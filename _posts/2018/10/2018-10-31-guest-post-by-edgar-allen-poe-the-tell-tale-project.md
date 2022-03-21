@@ -39,6 +39,8 @@ The first and second instance of this mid-project alteration may have been coinc
 
 Even two thirds of the way through the project, the same screen had undergone slight changes in button names, drop-down menu lists. Where a hyphen was previously present, it was now absent. A title case capitalization had been altered to a sentence case. A comma omitted in a series before the last item was now inserted.
 
+{% include ads.html %}
+
 Was I going mad? Was the style changing? There were no textual guides for the project. They would have come from me, but I had not dictated any restriction. I began to look at the programmer responsible for this part of Moby Dick. Was he playing games with me? Could he be doing it on purpose?
 
 I'd never had formal discourse with the programmer before, though I'd seen him many times walking the hallways, entering the kitchen, washing his hands in the lavatory. He was a silent one and kept to himself.

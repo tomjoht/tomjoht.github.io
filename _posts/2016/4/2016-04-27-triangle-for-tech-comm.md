@@ -26,6 +26,8 @@ Here's a little more detail about each type of knowledge:
 
 I know that just writing docs, you pick up this knowledge. But you can also purposely turn up the dial by putting in "extra" time in all three of these areas.
 
+{% include ads.html %}
+
 Additionally, these three areas of knowledge feed off each other. If you want to ramp up on technical knowledge (say, by learning Android), there is simply too much to cover by just reading how-to books on Android. You may spend weeks learning about features that no user cares about, and which are irrelevant to your product. By understanding user questions and issues, you can more accurately focus your deep dives into technical and product knowledge, and vice versa.
 
 Ideally, I'd like to test out my hypothesis about the importance of this knowledge by dialing up my expertise in these three areas over the long term.

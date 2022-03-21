@@ -22,6 +22,8 @@ How do you balance this tension between action (with task-based docs) and narrat
 
 In general, best practices for documentation would mean accounting for both mindsets and orientations. For the *reading-to-do* mindset, you provide a [getting started tutorial](/learnapidoc/docapis_doc_getting_started_section.html) that gets the reader going in an immediate, hands-on way with the product. For the *reading-to-understand* mindset, you provide a [product overview](/learnapidoc/docapis_doc_overview.html) that answers high-level questions about the product, including the problem it solves, who the product is for, sample use cases, architectural diagrams, development timelines, known limitations, and more.
 
+{% include ads.html %}
+
 In this presentation, I'll provide best practices for writing both getting started tutorials and product overviews, with good and bad examples of each.
 
 Additionally, I'll explore ways that these two topic types can complement each other. Getting started tutorials can sprinkle in high-level concepts, finding teaching moments to illustrate concepts or features mentioned in product overviews. Similarly, product overviews can point to the getting started tutorial for more concrete information about the abstract concepts. The two topic types can be interwoven in ways that reinforce each learning type.

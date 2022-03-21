@@ -44,6 +44,8 @@ MadCap Central also provides source control for your Flare projects. Through sou
 
 The source control used by MadCap Central is a simplified form of Git that reduces the complexity of full Git and tailors the options to technical writers.
 
+{% include ads.html %}
+
 If there are conflicts between writers who commit the conflicting changes to MadCap Central, a conflict management dialog box opens up and allows you to select the changes you want. MadCap refers to this model (using MadCap Central's source control) as "single bound."
 
 If you're using another source control system outside of MadCap Central, you can designate your project as "dual bound." With dual bound projects, it's assumed that you've already done any conflict resolution on commits. When you commit a dual bound project, the last commit wins (rather than presenting conflict resolution dialogs).

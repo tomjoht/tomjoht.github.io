@@ -19,3 +19,5 @@ Here's the audio:
 {% include audio.html %}
 
 You can view the other WTD recording of Neal Kaplan here: [Recording of 'Two great teams that work great together: Bridging the gap between documentation and support'](/2016/05/22/neal-kaplan-work-together/).
+
+{% include ads.html %}

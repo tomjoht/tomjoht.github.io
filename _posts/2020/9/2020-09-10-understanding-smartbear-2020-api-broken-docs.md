@@ -72,6 +72,8 @@ Regardless of the lack of clarity about examples, the previous screenshot is gol
 
 Amen to that! Yes, when you start thinking about all the topics and components required for good documentation &mdash; not only examples (sample apps?), but documentation about error messages, getting started guides, tutorials, changelogs, glossaries, and on and on &mdash; the scope and effort required to produce "very good" docs feels daunting.
 
+{% include ads.html %}
+
 ## What's broken
 
 While the report does an excellent job of highlighting the importance of docs, the report also suggests that documentation has many challenges and opportunities. To recap some of these findings that underscore the need for improvement:

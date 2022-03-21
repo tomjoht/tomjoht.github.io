@@ -24,6 +24,8 @@ description: "Many tech writers are familiar with using AsciiDoc for documentati
 - Whether video or books sell better and why, and for which types of content
 - Whether MOBI or EPUB format is more popular and why
 
+{% include ads.html %}
+
 ## Resources
 
 - [AsciiDoc](https://asciidoc.org/)

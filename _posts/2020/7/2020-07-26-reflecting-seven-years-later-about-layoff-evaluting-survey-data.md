@@ -143,6 +143,8 @@ In the following sections, I'll highlight the survey responses and provide some 
 
 </div>
 
+{% include ads.html %}
+
 ## Favorite quotes
 
 Here are some of my favorite quotes from the respondents:

@@ -53,3 +53,5 @@ For more details, see the [Write the Docs meetup announcement](http://www.meetup
 ## Slides
 
 You can view the [slides here on Google Slides](http://bit.ly/videodocaliciaslides).
+
+{% include ads.html %}

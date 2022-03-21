@@ -18,3 +18,5 @@ See these links for more information:
 * [Combatting the "Make-It-Pretty" Philosophy](https://idratherbewriting.com/2018/07/18/stereotypes-about-tech-writers-in-workplace/), by Emily January Petersen
 
 * [Results from Academic/Practitioner Attitudes surveys now available](https://idratherbewriting.com/2018/07/17/interpreting-results-of-academic-practitioner-survey/), by Tom Johnson
+
+{% include ads.html %}

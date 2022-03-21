@@ -28,6 +28,8 @@ One detail family members will be keen to know is whether any accounts have sign
 
 However, he did have a health savings account with several thousand dollars that he wasn't aware of. My children will be saddened to know that I don't have a secret offshore fund in the Cayman Islands that I failed to mention, but I imagine they'll look anyway. One of the details to unravel will be how to dispense funds from 401k accounts and other retirement savings.
 
+{% include ads.html %}
+
 ## Access to benefits
 
 Another consideration is access to benefits. Depending on how you die, your life insurance policies might pay out in different ways. How would your surviving family members even know how to access your life insurance policies, and what money might be coming their way?

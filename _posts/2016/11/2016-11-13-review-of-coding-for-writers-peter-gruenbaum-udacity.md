@@ -22,7 +22,7 @@ That unique angle of combining "how to code" with "how to document code" makes t
 
 What kind of code does the course focus on? Mostly JavaScript, some Java, and general principles of programming. You can find dozens of courses on JavaScript, Java, and other programming languages already -- but almost no course that covers how to document programming.
 
-
+{% include ads.html %}
 
 Peter also covers quite a bit of ground in this course. He starts out with the basics and makes his way to more advanced concepts. Don't let the first couple of exercises, which are extremely simple, fool you. It gets more complex as the course progresses.
 

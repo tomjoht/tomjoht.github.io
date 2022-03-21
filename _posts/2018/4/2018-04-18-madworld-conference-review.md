@@ -23,6 +23,8 @@ This had happened hundreds of times. Ow. Not only did we have severe quality and
 
 As a result of our content duplication problems, we had settled on the DITA architecture as our solution of choice, and were _just_ about to sign on the dotted line to purchase a fancy CCMS (component content management system) and pay big bucks for a developer to write scripts and transforms so we could begin converting our content to DITA components and publish them as documents. But we were shaking in our boots at the prospect of all that work and all that expense.
 
+{% include ads.html %}
+
 That spring I attended two conferences, a week apart. I attended a DITA conference in Chicago and the MadWorld conference in San Diego. Truthfully, I felt a little bad about using company funds to go to MadWorld when we had decided on DITA.
 
 But MadWorld changed everything. I spent quite a bit of time talking to people who understood the capabilities of both DITA and MadCap Flare. I also hung out in the Hospitality Lounge, where attendees can get one-on-one technical support from staff members, chatting with the MadCap propeller heads.

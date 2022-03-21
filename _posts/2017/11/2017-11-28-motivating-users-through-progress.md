@@ -29,6 +29,8 @@ Users aren't consulting my API documentation material as a just-in-time learning
 
 In short, I now suddenly find myself in an eLearning situation. I'm developing a "course" when course development isn't usually in my target sights. I'm a technical writer. I produce information, not long-form learning experiences. How do I pull users from start to finish through a whole course and help them achieve their larger career objective? How can I inspire and motivate my users to consume and complete long-form material?
 
+{% include ads.html %}
+
 In [The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work](https://www.amazon.com/Progress-Principle-Ignite-Engagement-Creativity/dp/1491514353), researchers Teresa Amabile and Steven Kramer argue that the greatest motivation comes from feeling a sense of progress. They explain:
 
 > Real progress triggers positive emotions like satisfaction, gladness, even joy. It leads to a sense of accomplishment and self-worth as well as positive views of the work and, sometimes, the organization. Such thoughts and perceptions (along with those positive emotions) feed the motivation, the deep engagement, that is crucial for ongoing blockbuster performance.

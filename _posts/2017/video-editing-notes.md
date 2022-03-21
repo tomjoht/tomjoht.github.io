@@ -49,6 +49,8 @@ output format: mp4
 
 you can't edit past events on meetup.com or associate the video there in any way b/c the product designers are fascists.
 
+{% include ads.html %}
+
 canon vixia sucks at focusing on 4 different people
 canon vixia splits out files at 4 gb length
 there was a 60p setting that was prob. unnecessary

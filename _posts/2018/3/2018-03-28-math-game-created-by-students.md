@@ -25,4 +25,6 @@ Creating a sophisticated application involves much more than dragging and droppi
 
 My daughter and her friend created this entire project from start to finish. A couple of brief times, I helped her overcome a simple glitch. But her code eventually became quite complex, and her function names were more fun and creative than descriptive, making the code nearly impossible to anyone except the creators. This project engrossed her like no other, and she stayed up many nights fixing and adding to the code. (I think she may have a knack for coding.)
 
+{% include ads.html %}
+
 The Codesters platform is ingenious in that it allows learners to start easy with block coding but then switch into raw code to do more advanced logic (such as the if-else logic that lets users input incorrect answers about 7 times before moving on). The site also offers excellent tutorials. Best of all, you can immediately see if your code works by clicking a play button and seeing the result. The ability to change the input and immediately see the result has a huge impact on learning complex subjects.

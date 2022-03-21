@@ -60,6 +60,8 @@ Since its launch in 2014, Paligo has been steadily growing and has just released
 
 Paligo primarily attracts documentation teams who want to take the next step beyond help authoring tools (HATs) toward a content management system. The most common customers are those using Flare, Robohelp, Author-it, or DITA and need something more robust to handle their content. These customers usually have heavy single-sourcing requirements for their content, often including translation as well.
 
+{% include ads.html %}
+
 While these customers want a CCMS, they either don't have budget and resources to implement high-end CCMS platforms like IXIASOFT, Trisoft, or others (which can cost $100-200k per year), or they want to avoid the threshold and complexity of an installed system. But they still want a fully featured system to handle every documentation need.
 
 On a platform and price comparison, Paligo's most comparable competitor would probably be easyDITA, which is a cloud-based CCMS that has also been growing. Both systems are XML-based, with easyDITA being based on DITA and Paligo on Docbook. But the products differ in other ways as well. easyDITA follows more closely the DITA content model and the DITA Open Toolkit, whereas in Paligo the DocBook content model only provides the document structure, and the features are developed around it in the database programming paradigm.

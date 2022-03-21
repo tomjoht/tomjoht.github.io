@@ -50,3 +50,5 @@ are we more interested in the critical thinking mindset than with the subject it
 - can language be used as a tool for thinking? this is kind of what separates out good bloggers from bad ones.
 - language lets us extend out thoughts, hold more ideas out. they quickly vanish if you can't write them down. also lets you see what you're thinking, so not only do you remember them, you can also think more thoroughly?
 - yes, but dont write about writing. that is boring, esp. if you are expounding on a theory. instead, show us evidence. what is something banal about tech writing?
+
+{% include ads.html %}

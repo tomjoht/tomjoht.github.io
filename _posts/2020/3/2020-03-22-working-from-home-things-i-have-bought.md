@@ -51,6 +51,8 @@ First, let me note that I don't regularly work from home, so I'm not a pro here 
 
 <hr style="clear:both"/>
 
+{% include ads.html %}
+
 <div class="juxtaposeImage"><p><a href="https://www.amazon.com/gp/product/B00SAYCVTQ/"><img class="thumbnailreview" src="http://s3.us-west-1.wasabisys.com/idbwmedia.com/images/amazon_headphones.png" alt="headphones"/></a><a href="https://www.amazon.com/gp/product/B00SAYCVTQ/">Headphones</a>. I love these headphones. They cancel out quite a bit of noise and are comfortable to wear. The mic is removable, but I often just switch the headphones around so the mic is on back when I'm not in meetings. Otherwise, the extended mic cuts into my peripheral vision. I can't emphasize enough how important it is to block out noise when you're working from home with 5 other people in a small house. I highly recommend these headphones. No BlueTooth, so you still have a cord. The USB is detachable so you can use either the mic jack or USB.</p>
 
 <hr style="clear:both"/>

@@ -20,6 +20,8 @@ Addressing doc maintenance strategies, [The Good Docs Project](https://thegooddo
 
 However, when we rely on human judgement and memory to make all the necessary updates when the code changes, we often make errors. Compounding the difficulty, technical writers often work across a large number of products in the company, making it hard to remember the whole landscape of docs and code. They sometimes work with dozens of engineering teams, unaware of what commits and other changes these engineering teams are making.
 
+{% include ads.html %}
+
 Additionally, as Daniel Khaneman points out in _Thinking Fast and Slow_, the human mind and memory are susceptible to cognitive biases, making it difficult to consider and remember all the places that need to be updated in docs. A technical writer might think only to update content that he or she worked on, rather than legacy docs written by someone else (who since transitioned elsewhere), but which are also affected by the codebase changes.
 
 To sum up, except for reference documentation, we often rely on weak, error-prone tools and processes for keeping documentation up-to-date. We need a better, more automated way to know when code changes and exactly which docs might need to be updated as a result.

@@ -65,6 +65,8 @@ In addition to a Sass meter, there are other rhetorical modes you can select. On
 
 Based on physiological research in how a cat's purring can actually calm a rising heart rate, this mode lasts approximately 5 minutes and is followed by a mindfulness meditation (entirely auditory) that includes sounds of waves in the ocean and distant seagulls. This mode gives users a chance to re-center.
 
+{% include ads.html %}
+
 ## Coding required to create voice-interactive manuals
 
 Creating a voice-interactive manual requires a bit of coding on the technical writer's part, but not too much. Every paragraph of content has a specific ID that is inserted into paragraphs in the manual. For this ID, the tech writer inserts the additional information available. A configuration file ties together natural human language with the page numbers, steps, and ID tags.

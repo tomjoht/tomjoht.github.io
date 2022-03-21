@@ -44,6 +44,8 @@ If you want to configure your own Flash Briefing skill, it's pretty easy. The do
 
 The Flash Briefing reads your latest feed. If you have audio enclosures in the feed, you can select an audio feed type so that Alexa will read the enclosure.
 
+{% include ads.html %}
+
 In case you're using Jekyll and are interested in how I created my skill's feed, here's the code:
 
 ```

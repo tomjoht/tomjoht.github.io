@@ -43,6 +43,8 @@ There's a great Jekyll screencast on includes at [Jekyll Tips](http://jekyll.tip
 
 I use includes to create templates for [alerts][3], [callouts][4], and [images][5] in my Jekyll Documentation theme.
 
+{% include ads.html %}
+
 Essentially you can create sophisticated HTML formatting, and only require the user to pass certain parameters in an include using the basic include code.
 
 ## Parameters in Frontmatter

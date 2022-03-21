@@ -39,6 +39,8 @@ However, usually after writing docs, we have specific areas that we're unsure ab
 
 People love seeing questions in a list like this. It focuses the meeting, gives more structure, and provides reviewers with a starting point for their comments.
 
+{% include ads.html %}
+
 ## Videocast
 
 I recorded a short videocast explaining this tip:

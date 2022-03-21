@@ -24,6 +24,8 @@ Although we'll be the core co-hosts, we're also planning to rotate in other WTD 
 
 The podcast is a group effort, with everyone pitching in, from the recording to the post-editing to the website and more.
 
+{% include ads.html %}
+
 ## Building the podcast site
 
 I helped build the site, so I want to mention a few details here. To build the site, we started with this [Soundcast HTML theme](http://preview.themeforest.net/item/soundcast-podcast-responsive-theme/full_screen_preview/15691831?_ga=1.186618985.1798318015.1478823039). I then converted it to Jekyll. The conversion to Jekyll is surprisingly simple. At some point I want to write a more detailed guide on how to convert a site to Jekyll, but basically converting an HTML site to Jekyll involves the following:

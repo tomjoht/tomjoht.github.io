@@ -35,6 +35,8 @@ Of course, daily standups and other meetings can provide a source of information
 
 I find that when I regularly browse these information sources looking for relevant updates, I can better stay ahead of releases and anticipate changes. I also find it somewhat relaxing and fun to browse these sources. It's not mentally taxing to glance through commit logs or JIRA updates, for example.
 
+{% include ads.html %}
+
 When I do identify some important information, I'll often reach out to the person on Chime or email to get more information or to put myself on their radar.
 
 Again, information sleuthing probably shouldn't be required in a "doc-first" type of company. But despite an engineering team's best intentions, they are often focused on code and deployment more than docs. Docs slip past their attention. But there is almost always an online footprint into changes that engineers are making, and if you follow it you can stay ahead of the game.

@@ -13,4 +13,4 @@ Here are the slides:
 
 You can find more detail in my [API doc course](https://idratherbewriting.com/learnapidoc/). (These slides are slightly updated from some of the topics in my course, but generally the slide number in the heading title corresponds with the course number.)
 
-
+{% include ads.html %}

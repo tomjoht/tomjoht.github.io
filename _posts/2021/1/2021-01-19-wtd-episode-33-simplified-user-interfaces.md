@@ -43,6 +43,7 @@ For more details, see [Snagit Tutorial: How to Simplify Your Screenshots](https:
 
 If you want to join a Slack group focused on this topic, see [Simplified Graphics Slack group at simplifiedgraphics.slack.com](https://join.slack.com/t/simplifiedgraphics/shared_invite/zt-854cf16o-WAze1qv~6fjZwTyvnlXFOA). This group is open to anyone who is interested in this discussing this topic, or who wants to share examples or who is looking for inspiration:  (Link expires on February 18th 2021. Contact a.bollen@techsith.com afterwards for an invite.)
 
+{% include ads.html %}
 
 ## Resources
 

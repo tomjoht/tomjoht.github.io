@@ -10,7 +10,7 @@ bitlink: http://bit.ly/toolsof70tcpros
 
 ## Background
 
-Ferry Vermeulen [from INSTRKTIV](http://instrktiv.com/en/) asked more than 70 technical writing professionals (from conferences such as  Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom, and Information Energy) the following question:
+Ferry Vermeulen [from INSTRKTIV](http://instrktiv.com/en/) asked more than 70 technical writing professionals (from conferences such as Lavacon, MadWorld, COMtecnica, ETC, tekom Berlin, Nordic TechKom, and Information Energy) the following question:
 
 >If you could use just three technical writing tools in your company, which ones should you use (in the technical writing tools definition, standards and other helpful attributes are included)? (See [Technical Writing Tools: The Ultimate Expert Choice](http://instrktiv.com/en/technical-writing-tools).)
 
@@ -39,6 +39,8 @@ Stefan Dierßen listed [Phonegap](http://phonegap.com/), a tool to build mobile 
 Andrew Lawless listed [Termweb](http://www.interverbumtech.com/), a terminology management solution.
 
 Magda Caloian listed "Writing on Post-Its" as well as "Books (exactly, real books)." (I'm wondering which books. Are we talking fiction, style guides, or industry books such as those reviewed in the TC Journal?)
+
+{% include ads.html %}
 
 Marc Achtelig listed [Freemind](http://freemind.sourceforge.net/wiki/index.php/Main_Page), a mind-mapping tool.
 

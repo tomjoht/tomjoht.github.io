@@ -17,8 +17,6 @@ I write a lot -- both at work at and on this blog. Mostly, I rely on my own judg
 
 But I would absolutely welcome more tools to aid in identifying problem areas. Not only would the tools help me spot the errors quickly and efficiently, tools could reduce the cognitive load that comes with writing and editing all day.
 
-
-
 When I'm immersed in writing and editing for hours on end, at some point, I become blind to my own errors. My brain skims over words and sentences it has seen dozens of times. The more I try to refine content, the blinder I become to it.
 
 ## Origin of Simplified Technical English
@@ -30,6 +28,8 @@ Simplified Technical English (STE) consists of a dictionary of allowed words and
 ## Industry expansion toward an official standard
 
 Although the original focus was on maintenance documentation for the aerospace industry, Simplified Technical English has since expanded to other technical industries. Now the aerospace language comprises only about 3% of the STE dictionary.
+
+{% include ads.html %}
 
 The AeroSpace and Defence Industries Association of Europe (ASD) eventually made Simplified Technical English a specification (called [ASD-STE100](http://www.asd-ste100.org/request.html)) that many companies have to follow as part of regulatory standards.
 

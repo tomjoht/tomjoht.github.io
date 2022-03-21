@@ -29,6 +29,8 @@ Our next event is called [Solve This!](http://www.meetup.com/Write-the-Docs-SF/e
 
 We're leaning away from lecture-based formats and trying to do more creative, interactive meetups. I help with event planning, and I'd like to adopt a model more like a club, with people who meet to interact and share (more than listen to presenters). However, we probably won't get away from the presenter model entirely &mdash; the dual presenters and lightning talk events worked well and will likely be a format we repeat in the future.
 
+{% include ads.html %}
+
 Having said that, tomorrow I'm presenting on Jekyll at the [STC-Silicon Valley chapter](http://www.stc-siliconvalley.org/2016/05/02/may-23-2016-writing-tech-docs-like-a-hacker-with-jekyll/). I'm giving the same presentation I gave [at the STC Summit](https://idratherbewriting.com/2016/05/17/slides-for-writing-tech-docs-like-hacker-with-jekyll/).
 
 Speaking of Jekyll, if you're looking to learn more about it, Mike Neumegen has recorded more than 20 excellent [Jekyll casts](http://jekyll.tips/).

@@ -52,3 +52,5 @@ You can view the slides here:
 ## About Matt Ness
 
 Matt Ness is a technical writer with over twenty years of experience at places like PeopleSoft, Oracle, and Intuit. He's currently a writer for Splunk, a leader in the machine data analytics sector.
+
+{% include ads.html %}

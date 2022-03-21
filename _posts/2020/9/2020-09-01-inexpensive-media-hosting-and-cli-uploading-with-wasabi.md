@@ -34,6 +34,8 @@ In other words, it's easy to get files in, but costly to get files out (e.g., lo
 
 Interestingly enough, Wasabi uses the AWS CLI tools, so you use the same AWS CLI parameters to upload media to Wasabi as with S3. Also, Wasabi seems to be highly similar to the S3 bucket model with AWS, except that you also have an "[immutability](https://wasabi.com/blog/data-immutability-done-right/)" option, which means you can make it so that you can't accidentally delete all your files in a bucket.
 
+{% include ads.html %}
+
 At first, I didn't activate immutability, and then like an idiot I was browsing my uploaded files via the Wasabi GUI and I accidentally deleted all my files. (I thought I was selecting all files on one page of results, but it turns out the All check box selected all files on *all pages* of results.) Anyway, as I had only recently downloaded my files from AWS S3, I had a handy backup. After another solid night of uploading 30 GB files (btw, uploading via the command line is much faster than uploading via other methods, especially compared with the GUI), all files were back online. I then set my folders to immutable, which means if I want to overwrite a file, I can't. I just upload the same file with a different name.
 
 Now to the big question. Is Wasabi cheaper? Maybe. My initial bills were certainly 80% cheaper:

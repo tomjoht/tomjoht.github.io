@@ -32,6 +32,8 @@ Overall, although I often think the most efficient way to review content would b
 
 Beyond carving out meeting time to allow for the reading of documentation, there are a couple of other key considerations for doc reviews. Companies tend to have toolsets that they use for collaboration and review of content. At one company I worked at, everyone was on G Suite, so they used Google Docs to review everything. It worked out extremely well. At Amazon, different groups use different tools, but in my group, [Quip](https://quip.com/) tends to predominate. Quip is basically Salesforce's version of Google Docs. I get much better reviews if I put content on Quip than on, say, Workdocs or distributed as a PDF or a Word doc. But getting the docs into Quip means I have to copy the web output (from our Jekyll site) and paste it into Quip. Then I have to fix the tables and paragraph spacing in places.
 
+{% include ads.html %}
+
 Finally, there's one other technique that tends to work well with documentation reviews: reviewers love to be asked questions. I'll often create a Quip doc that simply lists all my questions for the reviewers. Or I'll highlight parts of the documentation in Quip that I have specific questions about (this works better because it provides the context). People tend to enjoy being asked a specific question rather than just reviewing content generally. I'm not sure why, but it focuses the discussion and presents a clear issue to which they can respond. I like questions too, I guess. If you've ever been on a podcast in which the interviewer asks you a bunch of questions, it's kind of fun.
 
 In summary, when you think about the best way to review your documentation with engineers and other stakeholders, consider these points:

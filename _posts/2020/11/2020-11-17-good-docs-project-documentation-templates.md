@@ -73,6 +73,8 @@ We know the documentation scope expands when we look at the diversified arenas a
 
 We started by creating a suite of templates so that cross-domain open source projects can improve their documentation and increase contributions to their projects. But is it so easy to customize a template?
 
+{% include ads.html %}
+
 ## Who does this cater to?
 
 Our concern with the creation of basic templates was to entice everyone to use them. Our target audience for Good Docs templates are:

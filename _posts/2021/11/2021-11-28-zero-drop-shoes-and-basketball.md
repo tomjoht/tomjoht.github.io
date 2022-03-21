@@ -33,6 +33,8 @@ Let's dive into the shoe topic in depth. A good deal of your posture issues can 
 
 These shoes belong to a category of barefoot/minimalist shoes (see [more shoe options here](https://obsessedwithbarefootshoes.com/all-the-barefoot-shoe-reviews/)). Not only are barefoot/minimalist shoes zero-drop, they also have wide toe boxes, which gives your toes room to spread. And they also have a minimal sole, allowing your foot to feel the ground. Zero-drop shoes are closely associated with the barefoot running movement, which use minimalist shoes to simulate running barefoot. Barefoot shoes still involves wearing shoes, but while walking around in them, it feels close to being barefoot.
 
+{% include ads.html %}
+
 Wearing these shoes for just two weeks has led me to several realizations:
 
 * [Realization 1: Elevated-heel shoes probably messed up my posture](#posture)
