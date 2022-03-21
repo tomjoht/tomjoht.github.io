@@ -67,6 +67,8 @@ In fact, a lot of times you can confront an engineer and tell him or her that so
 
 When things don't work, you can identify and log bugs. This is helpful to the team overall and increases your own credibility with the engineers. It's also immensely fun to log a bug against an engineer's code, because it shows that you've discovered flaws and errors in the system.
 
+{% include ads.html %}
+
 Other times the bugs are within your own documentation. For example, I had one of my parameters wrong. Instead of `verboseMode`, the parameter was simply `verbose`. This is one of those details you don't discover unless you test something, find it doesn't work, and then set about figuring out what's wrong.
 
 ### Wrestling with assumptions

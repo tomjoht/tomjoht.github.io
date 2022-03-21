@@ -17,6 +17,8 @@ However, I'm starting to think that my approach with documentation has been too 
 
 But maybe this approach is wrong. If you insert documentation into a similar workflow as engineering code, you would submit the documentation to QA in time for review. This means you would need to finish the documentation usually two weeks before the release cycle.
 
+{% include ads.html %}
+
 This can be difficult since it's hard to write documentation when code is still developing. A lot of times features aren't yet fixed, so it's hard to create documentation for them. Still, the sacrifices necessary to insert code into QA's review process might be worthwhile, since the benefits would outweigh the added pressure to finish the doc early.
 
 ## QA review of documentation

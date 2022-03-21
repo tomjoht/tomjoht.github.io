@@ -17,3 +17,5 @@ The four panelists from left to right are Kayce Basque, Daria Hutchinson, Elisa 
 If you just want to listen to the audio only, you can <a href="https://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/wtdstartuppanel.mp3" alt="Creating documentation for startups: Panel discussion">download the MP3 file</a> or listen here:
 
 {% include audio.html %}
+
+{% include ads.html %}

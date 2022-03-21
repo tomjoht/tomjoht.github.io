@@ -62,6 +62,7 @@ root ditamap (includes maprefs to each sub-ditamap)
 {% endhighlight %}
 <p>The paths in DITA matter, so you can't just start moving files around without breaking references in ditamaps. Of course some DITA setups are database rather than file-driven, so this point doesn't apply to those DITA workflows. Additionally, a DITA CMS can probably update all references to a topic you move. But I'm working with DITA in its most basic form: as a system of files.</p>
 <p>Why did I choose to organize the files and folders this way? I think managing all content in one large map is too onerous – hence the submaps. The snippets and keyrefs are common files, so they are referenced by all ditamaps.</p>
+{% include ads.html %}
 <p>Additionally, if each folder's content is surfaced through a ditamap, I can simply work with content at the folder level, referencing maps instead of individual topics (unless I need more granular detail).</p>
 <h2 id="topicset-container-topics">topicset (container topics)</h2>
 <p>When you assemble the topics in ditamaps, sometimes you may want to group several topics together to form one coherent unit. The word “topic” in DITA doesn't distinguish between container topics and building-block topics. However, there is an element called a <code>topicset</code>. The <code>topicset</code> can contain several topics and also take an ID, which lets you re-use the topic as one topicset.</p>

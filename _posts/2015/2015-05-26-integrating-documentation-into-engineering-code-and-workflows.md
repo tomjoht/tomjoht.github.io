@@ -8,6 +8,7 @@ description: "If you want to encourage engineers to write documentation, integra
 ---
 
 ## Write the Docs video
+
 If you work with developer documentation, definitely check out Riona Macnamara's Write the Docs 2015 presentation: [Documentation, Disrupted: How two technical writers changed Google engineering culture](https://www.youtube.com/watch?v=EnB8GtPuauw).
 
 {% unless site.target == "pdf" %}
@@ -24,7 +25,7 @@ In surveys at Google about the workplace, many employees said the inability to f
 
 Despite Google's excellence in organizing the world's information, organizing it internally proved to be difficult.
 
-
+{% include ads.html %}
 
 ## Moving doc into engineering workflows
 

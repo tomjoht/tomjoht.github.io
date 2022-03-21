@@ -6,7 +6,7 @@ keywords:
 description: "If you want to influence developers to make changes to code (such as with UI text), it's 24 times easier for developers to make the changes if you tell them the same day they code the feature than if you wait a few weeks later. This means technical writers should keep pace with the features coded during each sprint."
 ---
 
-<a href=""><img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scrum.png" | prepend: site.baseurl }}" alt="Scrum, by Jeff Sutherland" /></a>
+<img class="alignright" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/scrum.png" | prepend: site.baseurl }}" alt="Scrum, by Jeff Sutherland" />
 [Scrum: The Art of Doing Twice the Work in Half the Time](http://www.audible.com/pd/Business/Scrum-Audiobook/B00NJ3WS9G/ref=a_search_c4_1_1_srTtl?qid=1445953702&sr=1-1) is one of the best books I've listened to in a long time. Although I've worked in agile environments for the last decade, I don't think I fully understood the way agile is supposed to work until listening to this book.
 
 This book should be standard reading material for any technical writer, because it will orient you about how to operate successfully in an agile environment (which is a framework that almost all software development shops follow now).
@@ -26,6 +26,8 @@ Just to pick out one nugget of wisdom from the book, Sutherland notes that one w
 > The human mind has limits. We can only remember so many things; we can really only concentrate on one thing at a time. This tendency — for the process of fixing things to get harder as more time elapses — represents a similar limitation. When you're working on a project, there's a whole mind space that you create around it. You know all the different reasons why something is being done. You're holding a pretty complicated construct in your head. Re-creating that construct a week later is hard. You have to remember all the factors that you were considering when you made that choice. You have to re-create the thought process that led you to that decision. You have to become your past self again, put yourself back inside a mind that no longer exists. Doing that takes time. A long time. Twenty-four times as long as it would take if you had fixed the problem when you first discovered it. &mdash; Sutherland, Jeff; Sutherland, JJ (2014-09-30). *Scrum: The Art of Doing Twice the Work in Half the Time* (p. 100). The Crown Publishing Group. Kindle Edition.
 
 What are the implications of this for technical writers? If you're a technical writer on an agile team, it makes more sense to finish documentation in the rhythm of each sprint because when you find problems &mdash; with button names, error messages, endpoint terms, parameter casing, workflows, etc. &mdash; you can let developers know during the same day (or at least during the same sprint), and it will be *24 times easier to fix* than if you were to log a bug about the issue weeks later.
+
+{% include ads.html %}
 
 If you wait until after the sprint finishes to begin documenting the features, sure it's easier because the features are already finished and most likely functional, but developers have moved on. That poor text they threw into the UI or error message is now solidifying like hardening concrete. Developers are now grappling with other problems.
 

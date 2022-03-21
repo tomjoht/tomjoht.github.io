@@ -16,6 +16,8 @@ After moving my blog to Jekyll and hosting on Github, here are the average respo
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/githubpingdom.png" | prepend: site.baseurl }}" alt="Jekyll on Github" />
 
-I could integrate MaxCDN with Jekyll, but I'm not sure if there would be much benefit, since MaxCDN just creates static files cached in different regions of the world to speed download time. Jekyll already creates static files, and I guess I'm not that convinced that download times vary so much in different parts of the world. 
+I could integrate MaxCDN with Jekyll, but I'm not sure if there would be much benefit, since MaxCDN just creates static files cached in different regions of the world to speed download time. Jekyll already creates static files, and I guess I'm not that convinced that download times vary so much in different parts of the world.
+
+{% include ads.html %}
 
 Overall, the performance is faster and there are rarely outages.

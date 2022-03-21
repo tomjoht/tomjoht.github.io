@@ -3,7 +3,7 @@ title: "Guest Post: Could Software Perform Technical Writing? by Robert Desprez"
 categories:
 - technical-writing
 - writing
-keywords: software automation, careers, AI, robots replacing humans, technical writers outdated 
+keywords: software automation, careers, AI, robots replacing humans, technical writers outdated
 description: "In this guest post, Robert Desprez looks at the possibility that advanced technology may replace the need for technical writers. Desprez explores a recent book by Martin Ford (<i>Rise of the Robots</i>) on the subject. "
 ---
 
@@ -21,6 +21,8 @@ Now there's another threat on the horizon. In the book titled <em><a href="http:
 </ul>
 
 Although Ford doesn't specifically mention technical writers, he does provide examples of how technology already exists that is supplanting journalists. Narrative Science's technology is used by media outlets, including <em>Forbes</em>, to produce automated articles, including those in sports, business, and politics. Narrative Science's software reportedly generates a new story <em>every 30 seconds</em>. Other media outlets may also be using the software but may be reluctant to admit it, given that it could be killing jobs in an industry already ravaged by the disruptive effects of technology.
+
+{% include ads.html %}
 
 More concerning for technical writers, <a href="https://www.narrativescience.com/" target="_blank">Narrative Science</a> isn't limiting itself to journalism. The company's technology can also produce reports for both internal and external audiences across different industries. The software can collect data from sources including databases, financial and sales reporting systems, web sites, and social media. It then analyzes the data to understand the most important content and then writes a document. Outside of the media, the company's clients include MasterCard, Deloitte, and In-Q-Tel, an arm of the Central Intelligence Agency.
 

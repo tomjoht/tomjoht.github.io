@@ -9,7 +9,7 @@ tags:
 status: publish
 
 published: true
-series: "Author in DITA, publish in WordPress" 
+series: "Author in DITA, publish in WordPress"
 jtype: notes_author_dita_pub_wordpress
 weight: 1.2
 ---
@@ -33,6 +33,7 @@ weight: 1.2
 <p>Another major challenge in using tech comm for help content is in making updates. Suppose you publish your help to WordPress and then make some major updates to your DITA source, removing some files, splitting other files into two files, and more. What happens to the legacy files on WordPress when you publish the update?</p>
 <p>Currently, the legacy files remain and you have to manually remove them. A more sophisticated import tool might compare the existing pages on the WordPress site against the table of contents of the import. For those pages on the WordPress site that aren't listed in the table of contents, the import process could ask whether you want to delete them. </p>
 <p>But since you might have other pages on your WordPress site that live separately from your help material (e.g., a contact form or legal notice), you might need to resort to custom post types to keep the page types separated. If you're using a WordPress site, it's highly likely that other SMEs are contributing content such as knowledge base articles, white papers, and other resources. Creating an import tool that relies on custom post types creates more complexity, because now you'll need to code your theme to support the custom post types. (You might simply use pages for the help content, and custom post types for everything else.) </p>
+{% include ads.html %}
 <p>Another approach would be to bulk delete all the existing pages each time you publish (cleaning the output target, essentially). But this means you'll lose all of your existing comments and history with each page. Losing the history is acceptable, since you probably have your files under source control anyway, but you probably don't want to lose the comments on your pages.</p>
 <p>One strategy might be to use a commenting system that is decoupled from the page itself. I'm not sure if those tools exist, but at this point, if you're not going to use WordPress' built-in commenting system, why use WordPress at all?</p>
 <p>You will find that WordPress is not designed to receive content that is authored from an outside source and continually imported in. Going against a product's basic design rarely works.</p>

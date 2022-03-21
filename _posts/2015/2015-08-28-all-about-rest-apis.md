@@ -13,8 +13,6 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/restap
 
 In general, a web service is a web-based application that provides information in a format consumable by other computers. Web services include various types of APIs (Application Programming Interfaces), including both REST and SOAP APIs. Web services are basically request and response interactions between clients and servers (one computer makes the request, and the API provides the response).
 
-
-
 All APIs that use HTTP protocol as the transport format for requests and responses can be classified as web services.
 
 With web services, the client making the request and the API server providing the response can use any programming language or platform &mdash; it doesn't matter because the message request and response are made through a common HTTP web protocol. This is part of the beauty of web services: they are platform agnostic and therefore interoperable across different languages and platforms.
@@ -29,6 +27,8 @@ SOAP is a standardized protocol that requires XML as the message format for requ
 The WSDL file defines the allowed elements and attributes in the message exchanges. The WSDL file is machine readable and used by the servers interacting with each other to facilitate the communication.
 
 SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST Challenges](http://www.soapui.org/testing-dojo/world-of-api-testing/soap-vs--rest-challenges.html).
+
+{% include ads.html %}
 
 ### Problems with SOAP and XML
 The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where file size and bandwidth are critical. The verbose message format slows processing times, which makes SOAP interactions more slow.

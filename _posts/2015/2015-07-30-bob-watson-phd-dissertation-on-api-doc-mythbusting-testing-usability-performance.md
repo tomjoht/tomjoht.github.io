@@ -37,7 +37,9 @@ He soon found that many other factors besides documentation contribute to produc
 * How does the relevance of the content on API reference documentation affect the user experience?
 * How does the length of the content on API reference documentation pages affect the user experience?
 
-He found that his changes to the topics' visual design didn't affect performance — whether your API documentation has lots of design elements or not didn't affect how quickly people found the information to achieve a goal. A strong visual design did, however, affect people's perception of the documentation's credibility and professionalism.
+{% include ads.html %}
+
+He found that his changes to the topics' visual design didn't affect performance &mdash; whether your API documentation has lots of design elements or not didn't affect how quickly people found the information to achieve a goal. A strong visual design did, however, affect people's perception of the documentation's credibility and professionalism.
 
 He also found that whether reference topics contained relevant information or not, people spent the same amount of time evaluating the topic for relevance (about 44 seconds).
 

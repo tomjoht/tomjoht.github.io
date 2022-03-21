@@ -16,17 +16,18 @@ div pre {
 background-color: #fdfdfd;
 }
 </style>
-This is another post in my series on [testing documentation](https://idratherbewriting.com/2015/07/07/testing-your-instructions/). 
+This is another post in my series on [testing documentation](https://idratherbewriting.com/2015/07/07/testing-your-instructions/).
 
-## What I mean by testing 
+## What I mean by testing
 First, I want to add a quick clarifying note about terms. By "testing" docs, I'm not referring to the same rigor or perspective that QA teams apply to code. QA teams look at more than whether the product meets basic expectations. QA teams try to break the code by scaling the load, or they set up automated tests that run through hundreds of scenarios in scripts, or they test the code on dozens of different simulated devices.
 
 The testing I'm talking about is more like a simple user test, a test that approximates how the actual users might use the product. In these simple tests, you set up a small scenario to test something out in a practical situation.
 
-## Sample test case 
+## Sample test case
+
 An example might help clarify things. A typical documentation task might look like this:
 
-<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd">
 <h4>Generating a Widget</h4>
 
 <ol>
@@ -42,7 +43,7 @@ An example might help clarify things. A typical documentation task might look li
 </div>
 In contrast, a typical test case might look like this:
 
-<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd">
 
 <h4>Generating a 300x200px ABC Widget</h4>
 
@@ -63,6 +64,8 @@ In contrast, a typical test case might look like this:
 
 What's the difference? The test case uses actual values in a more realistic scenario to produce a specific and measurable end. The test case might also incorporate specific business logic that is usually left out of the generic task in the documentation.
 
+{% include ads.html %}
+
 ## Tutorials help users learn to use the product
 
 There's a funny picture going around Twitter:
@@ -79,11 +82,11 @@ Documentation often breaks up all tasks into separate topics (an effect of topic
 In short, test-based tutorials tell the user what values and options to select each step of the way, whereas doc tasks usually omit this level of detail. These omitted details can be useful to new users who are less familiar with the product.
 
 ## Tutorials are especially useful for API documentation
-With API documentation, most of documentation consists of reference topics that list the endpoints, parameters, and other details associated with the API in a general way. You don't have the same number of tasks that GUI documentation has. As a result, it's less clear how people are supposed to actually use the API. 
+With API documentation, most of documentation consists of reference topics that list the endpoints, parameters, and other details associated with the API in a general way. You don't have the same number of tasks that GUI documentation has. As a result, it's less clear how people are supposed to actually use the API.
 
 Here's an example. A typical reference topic in API doc might look like this:
 
-<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd">
 <h4>ACME Endpoint: acmegluetrap</h4>
 
 <p>Description: Catches roadrunners with a sticky glue. </p>
@@ -98,7 +101,7 @@ Here's an example. A typical reference topic in API doc might look like this:
 
 In contrast, with a tutorial, you might write it like this:
 
-<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd"> 
+<div style="background-color: #f6f6f6; padding: 20px; border: 1px solid #dddddd">
 <h4>Catch a roadrunner with glue</h4>
 
 <p>In this tutorial, you will use the <code>acmegluetrap</code> endpoint to catch a roadrunner with a sticky glue. </p>
@@ -113,7 +116,7 @@ In contrast, with a tutorial, you might write it like this:
  </li>
  </ol>
 <p>Power is how powerful the glue should be. Duration defines the length of time the glue remains sticky. And amount refers to how much glue you're using. All values are integers.</p>
- 
+
 <p>The endpoint looks like this:</p>
 
 {% highlight bash %}
@@ -146,11 +149,6 @@ The task-based topics that you usually find in GUI documentation are often missi
 
 Maybe for advanced users, sure. But beginning users can benefit from seeing the larger picture. It might be helpful to provide a series of tutorials that walk through different use cases or business solutions. (Similar to Getting Started type tutorials, but getting started with different use cases and scenarios.)
 
-If you're already testing the docs with certain values, it wouldn't be hard to publish those test cases in the documentation as a kind of tutorial that helps users through actual steps and tasks with the product. They won't be staring at a list of endpoints with no real idea of how to use them in actual business scenarios. 
+If you're already testing the docs with certain values, it wouldn't be hard to publish those test cases in the documentation as a kind of tutorial that helps users through actual steps and tasks with the product. They won't be staring at a list of endpoints with no real idea of how to use them in actual business scenarios.
 
 However you decide to include them, I definitely think that tutorial topics build from test cases have a valid place in documentation.
-
-
-
-
-

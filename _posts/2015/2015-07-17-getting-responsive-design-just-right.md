@@ -7,7 +7,8 @@ description: "Not having a mobile friendly display for your site not only strain
 ---
 
 ## Mobile friendly displays now a requirement, not an extra
-It used to be that having a responsive display for your mobile site was a nice-to-have feature. However, now Google will actually penalize you in the search results if your site isn't mobile friendly. According to TNW News, 
+
+It used to be that having a responsive display for your mobile site was a nice-to-have feature. However, now Google will actually penalize you in the search results if your site isn't mobile friendly. According to TNW News,
 
 >This is one of the biggest changes to the Google algorithm in years, so it's one to take seriously. From yesterday, a site's “mobile friendliness” will now play a key role in the way it is ranked, and sites that are not mobile optimised will appear lower down on Google's search pages.
 >
@@ -32,13 +33,15 @@ This code means that the maximum width of any image should be 100% of the contai
 
 ## Challenges with responsive display and ads
 
-Although I have a Bootstrap-based theme, which is designed with specific mobile breakpoints and responsive display, I had some challenges with the ads. 
+Although I have a Bootstrap-based theme, which is designed with specific mobile breakpoints and responsive display, I had some challenges with the ads.
 
-As you can see on my site, I put ads into my top banner area and sidebar. What happens when the screen real estate shrinks from desktop to mobile? Try it -- shrink your browser size to an iphone. You'll see that the same ad space changes. 
+As you can see on my site, I put ads into my top banner area and sidebar. What happens when the screen real estate shrinks from desktop to mobile? Try it -- shrink your browser size to an iphone. You'll see that the same ad space changes.
+
+{% include ads.html %}
 
 If you shrink your browser, when the viewport size gets to 980px, the top banner ad "moves" to the Latest Posts section. Additionally, the sidebar content "moves" below the posts.
 
-I say "moves" because the element doesn't actually move &mdash; one element gets hidden and another element is suddenly shown. Here's how I did that. For the top banner, I have the ad inserted in two places in my theme. In the desktop view, the top space has an ID tag called `topComic`. When the viewport is more than 980px, it is set to display normally. When the viewport is under 980px, it's set to display `none`. 
+I say "moves" because the element doesn't actually move &mdash; one element gets hidden and another element is suddenly shown. Here's how I did that. For the top banner, I have the ad inserted in two places in my theme. In the desktop view, the top space has an ID tag called `topComic`. When the viewport is more than 980px, it is set to display normally. When the viewport is under 980px, it's set to display `none`.
 
 There's another instance of the ad (`topBannerImageHomepage`) that has the reverse display settings. When the viewport is more than 980px, it's set to `display:none`. But when the viewport is less than 980px, it displays `block`. The same technique is used with the sidebar. Here's the code:
 
@@ -76,18 +79,14 @@ You can see there are some challenges with that top banner. At the desktop displ
 
 ## Challenges to ad spots with responsive design
 
-Typically when sites sell ad spaces to advertisers, they promise certain sizes and spaces. For example, with [blogads.com](http://blogads.com), which is an ad network that publishes ads across a variety of sites in its network, the application process requires you to indicate what ad slots you're selling on your site. 
+Typically when sites sell ad spaces to advertisers, they promise certain sizes and spaces. For example, with [blogads.com](http://blogads.com), which is an ad network that publishes ads across a variety of sites in its network, the application process requires you to indicate what ad slots you're selling on your site.
 
 <figure><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/blogads.png" | prepend: site.baseurl }}" alt="Fixed spaces for blog ads" /><figcaption>You can see spaces to advertises here. Publishers promise certain ad spaces to publishers, who design creative media to fill the designated slots.</figcaption></figure>
 
-But how do these same spaces change when your site shifts into mobile view? No mobile view has this kind of real estate. 
+But how do these same spaces change when your site shifts into mobile view? No mobile view has this kind of real estate.
 
 Given that mobile interactions are growing (for example, about 18% of my site's traffic comes from mobile and tablet devices), figuring out ad spaces can be more challenging. Ad creatives need to be somewhat responsive as well.
 
 I've been reading [HTML5 Advertising](http://www.amazon.com/HTML5-Advertising-Experts-Voice-Development/dp/1430246022) for some tips on handling this issue, but I'm not very far into the book. Basically, I think the solution is to let advertisers know that the ad has different display properties and positions for different devices.
 
 Certainly the mobile space presents a lot of new challenges to sort out.
-
-
-
-

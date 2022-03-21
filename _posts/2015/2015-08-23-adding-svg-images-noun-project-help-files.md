@@ -6,7 +6,9 @@ categories:
 description: "This past week I was creating some diagrams for a project, and I feel like I've settled into a good workflow for creating high quality diagrams. Here's my process: Create the file in Illustrator, store numerous diagrams on artboards in the same file, save as SVG with outlines, and embed like an image but specifying the max-width."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/vectordiagrams.png
 ---
+
 {% include notes.html %}
+
 ## Create the file in Adobe Illustrator
 
 Adobe Illustrator is my preferred tool for creating diagrams, conceptual workflows, or any other graphic that's not a screenshot. This is because Illustrator creates vector graphics, whereas other applications (e.g., Snagit, Photoshop) create raster graphics.
@@ -22,6 +24,8 @@ And this is a raster graphic (PNG):
 <img  class="shrink" src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/samplerasterdiagram.png" | prepend: site.baseurl }}" alt="Sample raster graphic" />
 
 They look almost identical, really. But the vector graphic is slightly sharper.
+
+{% include ads.html %}
 
 For fun, try shrinking the browser size to a mobile device width. You'll see the images get smaller (not just cut off).
 

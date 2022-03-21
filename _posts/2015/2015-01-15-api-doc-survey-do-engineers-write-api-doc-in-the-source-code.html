@@ -4,7 +4,7 @@ title: 'API doc survey: Do engineers write API doc in the source code?'
 date: 2015-01-15 07:08:51.000000000 -08:00
 categories:
 - api-doc
-series: "API documentation survey" 
+series: "API documentation survey"
 jtype: notes_apidoc_survey_2014
 tags:
 - series_api_doc_survey
@@ -33,6 +33,7 @@ weight: 2.0
 <blockquote><p>No. Some have draft material in Confluences, Apiary, or ReadTheDocs, but that's inconsistent and unpredictable.</p></blockquote>
 <p>I was trying to find out how common it is for developers to write the initial API documentation in the source code. My experience aligns with the comments here. For the Java, C++, and .NET APIs, developers draft the reference doc, but it is incomplete, vague, or otherwise incomplete in places. The tech writer's main task is the non-reference documentation. However, this is not the case for REST APIs, since we aren't using any automated doc solutions for REST. But even with REST APIs, developers draft information about the endpoints and parameters in Confluence.</p>
 <p>Compare responses to this question with another survey question: Do you write API documentation by looking at the source code? With the latter question, 60% of people said that they do write API doc by looking at the source (or at least they sometimes consult the source). Here 36% said that developers write the initial API doc, and 31% said engineers <em>sometimes</em> write the initial doc in the source. So the responses somewhat align. Overall, the API reference documentation is mostly written as a joint effort between both engineers and technical writers.</p>
+{% include ads.html %}
 <h2>Thoughts</h2>
 <p>It is fairly common for engineers to note somewhere, whether in source-code comments or other places, details about the endpoints, parameters, and other information about the API they're building. However, an engineer's attempt at documentation is usually poor for the following reasons:</p>
 <ul>

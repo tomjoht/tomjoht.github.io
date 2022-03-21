@@ -10,6 +10,6 @@ Following on the [Swagger tutorial](https://idratherbewriting.com/2015/09/14/swa
 
 This is part of my larger API doc course, so in this tutorial I'm taking a simple Weather API from Mashape and putting the API's endpoints, parameters, and sample responses into the RAML spec. Then I publish that API into several different RAML outputs using API Console, Mulesoft's Anypoint Platform, and RAML2HTML.
 
-
+{% include ads.html %}
 
 In comparing RAML with Swagger, I think both are strong specifications for APIs. They're definitely the top two. I like RAML's tooling and design philosophy a lot, but Swagger probably has a more robust community. Both have a lot of momentum going on.

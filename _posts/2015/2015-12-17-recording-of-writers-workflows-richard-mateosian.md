@@ -27,7 +27,7 @@ Here's the recording of Richard Mateosian's presentation to the STC-Silicon Vall
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NKWEn2JTDyQ" frameborder="0" allowfullscreen></iframe>
 
-
+{% include ads.html %}
 
 If you just want the audio, you can listen here or <a href="http://www.stc-siliconvalley.org/wp-content/recordings/richardmateosian.mp3">download it</a>.
 

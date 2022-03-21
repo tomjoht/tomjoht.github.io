@@ -18,6 +18,8 @@ At the start of a sprint (usually a two-week period of work), the project manage
 
 You should look through the items in the current sprint to see which are doc-related. Then follow up with the developers assigned to each item to get the details.
 
+{% include ads.html %}
+
 Developers rarely make changes outside of the issues noted in JIRA. If they do, call them out on this. If developers are making silent changes that aren't noted somewhere in JIRA, let the project manager know and remind developers not to do this.
 
 Most agile environments have standup meetings each morning where the developers are supposed to say what they worked on the previous day, what they're currently working on, and any impediments. Theoretically, standups can be a place where you get updates about what's going on in a project.

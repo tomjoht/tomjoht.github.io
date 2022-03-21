@@ -49,6 +49,9 @@ weight: 1.1
 <p>Why were subheadings restricted? I think subheading elements were restricted because of DITA's emphasis on extensibility. <em>Theoretically</em>, your information is a bunch of chunks that you can mix and match in any order and arrangement you want.</p>
 <p>If you insert a <code>section</code> element, DITA can render it as an <code>h2</code> or <code>h3</code> dynamically based on its placement in the DITA map's TOC hierarchy. It can only render it on the fly as <code>h2</code> or <code>h3</code> if it is a generic <code>section.</code></p>
 <p>This dynamic heading level rendering is one feature that you can't do in Markdown/HTML when you start using <code>h2</code> or <code>h3</code> tags. In Jekyll, if you create a chunk that has an <code>h2</code> heading, when you include it on a page (using <code>includes</code>), it will always have an <code>h2</code> heading.</p>
+
+{% include ads.html %}
+
 <h2>JavaScript</h2>
 <p>Let's talk about JavaScript (and jQuery) for a moment. Although DITA HTML or webhelp outputs usually use JavaScript, you can't put JavaScript tags directly on a DITA topic. You can only add JavaScript references in your online help plugin's <code>head</code> tags or other help framework files. This means the same script will be available for <em>every</em> page in your output.</p>
 <p>This approach leads to slow-loading of web pages. For example, with my previous DITA projects, OxygenXML's webhelp output took a <a href="http://www.oxygenxml.com/forum/topic11143.html">few seconds for each page to load</a>, whereas Jekyll's static site pages usually load in under a second.</p>

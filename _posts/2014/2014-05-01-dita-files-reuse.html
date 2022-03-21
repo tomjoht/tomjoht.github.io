@@ -69,6 +69,7 @@ wheels.html<br />
 <p>Now this poses a problem, because while entering in a couple hundred redirects (one per page) isn't prohibitively tedious, entering 1,000 with all these path variations is crazy.</p>
 <h2 id="the-one-folder-solution">The one folder solution</h2>
 <p>The easy solution to maintaining a consistent path to each of the files is to put all the DITA files in the same folder. Yes, put all 1,000 or more of the DITA files into one folder.</p>
+{% include ads.html %}
 <p>Note: If you have more than 1,000 files in your project, you're probably in another league altogether and have a robust CMS where you're publishing your content.</p>
 <p>I initially conceived of folders as a way to organize the many DITA files. Remember that the DITA authoring model breaks up tasks from concepts, limits the number of <code>steps</code> elements per file, and more. This means your source files end up fragmented into a lot of little pieces. You piece it all together through maps. In putting all of these files into the same folder, it would be nuts to keep track of them all.</p>
 <p>I decided to replace the folders with file tagging as a means of implementing <em>virtual folders</em>. On a Mac, OS X Mavericks allows you to robustly tag all your files, so you can basically use the same tags as your folder structure to get the benefits of a folder while also getting the paths to be the same to all content. Here's a sample of what I'm talking about:</p>

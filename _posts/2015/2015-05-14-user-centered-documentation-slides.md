@@ -22,11 +22,13 @@ weight: 1.3
 Here is an outline of my notes to accompany these slides. I plan on polishing up these notes at some point, but for now I just want to publish them here so that I don't lose them.
 
 ## Introduction
+
 * I work at Experian in San Jose
 * Most people know me through my blog
 * How I came up with this topic
 
 ### Observations in a usability lab
+
 * Had opportunity to work with usability group
 * Piggybacked on usability studies they did
 * One of most amazing, eye-opening experiences
@@ -34,6 +36,7 @@ Here is an outline of my notes to accompany these slides. I plan on polishing up
 * Other observations outside of usability lab too — watching users in training & other contexts
 
 ### Contrasting focuses
+
 * User-centered design is common approach for UX. You emphasize and foreground the user in the design of your product.
 * User-centered doc similar. But not designing a product from scratch.
 * You’re describing how to use a product that has already been designed. You can’t change the tasks or workflow to fit a user’s particular environment. That work was hopefully already done when the product was designed.
@@ -41,7 +44,10 @@ Here is an outline of my notes to accompany these slides. I plan on polishing up
 * User-centered doc is an approach where you consider the writer at the center of all your design decisions.
 * Really this focus is just good writing practice, since a good writer should be acutely aware of the audience he or she is writing for (though perhaps more so when trying to persuade the audience).
 
+{% include ads.html %}
+
 ### 10 patterns of user behavior
+
 * You could put your help through usability lab testing, and you’d probably be much better off this way.
 * But who has the time or luxury to really do this consistently? Plus, there are some core, known behaviors in the way users interact with help content.
 * If you’re aware of these behaviors, a user-centered documentation approach will optimize your content for these behaviors.

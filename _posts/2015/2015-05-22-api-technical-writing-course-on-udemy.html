@@ -63,6 +63,7 @@ description: "Peter Gruenbaum's API technical writing course on Udemy is an exce
 <p><a href="https://stripe.com/docs/api#charge_object"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stripe-550x373.png" alt="stripe" width="550" height="373" class="alignnone size-medium wp-image-22745" /></a></p>
 <p>The idea is that you can see both the description and a sample response at the same time, and just scroll down.</p>
 <p>However, the description doesn't always line up with the sample response. (In some places, child attributes are collapsed to save space.) I'm not sure why some items (such as <code>livemode</code>) aren't documented.</p>
+{% include ads.html %}
 <h2>The no-need-for-descriptions approach</h2>
 <p>Some sites, like Twitter's API docs, don't seem to describe the items in the JSON response at all. Looking at this <a href="https://dev.twitter.com/rest/reference/post/statuses/retweet/%3Aid">long response for the post status/retweet endpoint</a> in Twitter's API docs, there isn't even an attempt to describe what all the items mean. Maybe they figure most of the items in the response are self-evident?</p>
 <p>Theoretically, each item in the JSON response should be a clearly chosen word that represents what it means in an obvious way. The problem is that lengthy responses increase response times. To reduce the size and increase the speed of the response, developers often resort to shorter terms, sometimes using abbreviations. The shorter the term, the more it needs accompanying documentation.</p>

@@ -25,6 +25,6 @@ For my presentation on Jekyll, here's the presentation title and description:
 
 >In this presentation, I'll share my adventures in using Jekyll and how I dealt with each of these challenges.
 
-
+{% include ads.html %}
 
 The [2016 STC Summit](http://summit.stc.org/) will be held in Anaheim, California on May 15-18.

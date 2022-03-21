@@ -40,6 +40,8 @@ There were some things that were driving her crazy in the field, one of them inv
 
 It's extremely hard. The paywall is an enormous barrier. But this is simply how publishing is done in higher education. It really falls on the academic to try to get the research out there in another way.
 
+{% include ads.html %}
+
 However, publishing outside of academic journals doesn't have any rewards for the academic, except for falling into a general service category. As a result, academics just don't have the time, energy, or money to rework and publish the content in other formats.
 
 *Do journals retain publishing rights over the articles academics write?*

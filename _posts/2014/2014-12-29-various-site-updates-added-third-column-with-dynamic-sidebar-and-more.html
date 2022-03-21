@@ -88,8 +88,8 @@ I'll explain a bit more of this code later, but it's not really my intent to pro
 <p>By the way, I could have put all of this code into PHP Code widgets, but I feel like code in widgets is less stable. If you make an update and realize it breaks the code, you can't easily undo the update like you can with a text file in an offline editor. Additionally, I might forget what a particular widget is for, drag it out of the active widgets column, and then it will be gone. Not so with hard-coded logic in a theme file.</p>
 <p>Re the styling, I used <a href="http://zeaks.org/2012/twenty-twelve-theme-three-column-layout">this tutorial for adding the third column to my TwentyTwelve WordPress theme</a>. I varied from the tutorial a bit, but it got me 80% of the way there. I wasn't sure why the tutorial wanted me to add code to my functions file. I'm happy to hack the twentytwelve theme's original code instead of making a child theme, because I've already modified so much of the theme that I can't imagine applying a theme update from the original theme designer regularly without breaking something.</p>
 <h2>Disappearing menu when you add categories to pages</h2>
+{% include ads.html %}
 <p>With my DITA QRG pages, I needed a simple way to identify the pages in order to run the conditional logic, so I used categories. Here's the logic excerpted from the previous full code sidebar page:</p>
-
 {% highlight php %}
 <?php<br />
 wp_reset_query();</p>

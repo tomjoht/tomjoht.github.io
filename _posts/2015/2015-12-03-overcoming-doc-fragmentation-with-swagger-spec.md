@@ -9,8 +9,6 @@ description: "You can use Jekyll to populate variables in both your Swagger spec
 
 One of the challenges with Swagger is that the output duplicates a lot of the descriptions that already appear in your main documentation.
 
-
-
 In your Swagger spec, you list your resources and endpoints, with descriptions, code samples, and other content. Most likely all of this content **already exists in your main documentation**.
 
 As a result, you may end up either copying and pasting the same descriptions from your main doc into your Swagger spec file. Or you end up trying to generate Markdown from the Swagger spec that you can then paste in your documentation. Either way, it seems like you end up copying and pasting from one output to another.
@@ -22,6 +20,8 @@ In Jekyll, create a YAML file (e.g., acme.yml) in the \_data folder. Add key-val
 ```
 description: "This is a description of my API..."
 ```
+
+{% include ads.html %}
 
 Put your Swagger spec file inside your Jekyll project. Reference the description stored in the data file:
 

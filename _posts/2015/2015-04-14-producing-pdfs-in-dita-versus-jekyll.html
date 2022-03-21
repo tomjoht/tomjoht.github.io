@@ -27,6 +27,9 @@ weight: 1.6
 <p>There's a strong argument for using CSS to style your PDFs: you can single source your styles.</p>
 <p>If you're able to use the same stylesheet for both your website and your PDF, then you save yourself a lot of time, and your content is more consistent stylistically. (For all the enthusiasm that DITA proponents put forward with single sourcing, you never quite hear whether the styles used for both print and web outputs are single sourced.)</p>
 <p>I have a post where I will reveal all the technical details of how to generate good-looking PDFs from Jekyll soon, but for now I will just mention the basic process.</p>
+
+{% include ads.html %}
+
 <h2>Process for getting PDFs out of a Jekyll site</h2>
 <p>Here's the basic process for getting PDFs out of a Jekyll site.</p>
 <p>First, you define a print layout for your web content. In the print layout, you strip away the sidebar, header, and any kind of other matter that you do not want included in the output. You could also hide these elements through a print stylesheet, but it's easier just to create a new layout and remove the elements from the layout altogether.</p>

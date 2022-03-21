@@ -12,8 +12,6 @@ image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/ripple
 ## About trends posts
 I have often wondered why posts about "trends" tend to get massive reads. And I think I finally understand why.
 
-
-
 One reason we read posts about trends is because we want to know whether our skills are evolving to match the changing technology landscape, so that we'll feel comfortable and secure in the future of our jobs.
 
 If we find that technology is changing more rapidly than we can process, we might need to reorient our skillset, adjust our job functions or focuses, or alter our career direction to better align with the demands of the market.
@@ -53,6 +51,8 @@ Gartner reports a similar trend. In their 2016 tech trends, they list the "devic
 > While devices are increasingly connected to back-end systems through various networks, they have often operated in isolation from one another. As the device mesh evolves, we expect connection models to expand and greater cooperative interaction between devices to emerge. ([Gartner Identifies the Top 10 Strategic Technology Trends for 2016](http://www.gartner.com/newsroom/id/3143521))
 
 The device mesh means a large number of objects are connected to each other, so that it's one interconnected techscape of devices, all interacting with your own device as you navigate past them.
+
+{% include ads.html %}
 
 The device mesh interacts through a set of "endpoints" that allow the different systems to access applications and information.
 

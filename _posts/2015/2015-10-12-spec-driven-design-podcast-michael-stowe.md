@@ -30,7 +30,7 @@ You can listen to the audio here:
 
 (The audio is a little choppy in the beginning due to some bit rate issues &mdash; sorry about that.)
 
-
+{% include ads.html %}
 
 ## Topics covered in the podcast
 

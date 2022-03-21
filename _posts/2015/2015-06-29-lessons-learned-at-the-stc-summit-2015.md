@@ -34,6 +34,8 @@ Overall, I think the workshop went well, but I do have some thoughts on improvin
 
 Also, wifi was problematic, as it usually is. People could connect to wifi but not go online. We had to have a hotel wifi tech come down and sort things out.
 
+{% include ads.html %}
+
 Here's what I thought worked well:
 
 * **The workshop had a good thematic arc**. I started out by explaining how to use a REST API as a developer. Then participants went through the actions of documenting a new endpoint on the same REST API. Then we explored different ways to publish the REST API.

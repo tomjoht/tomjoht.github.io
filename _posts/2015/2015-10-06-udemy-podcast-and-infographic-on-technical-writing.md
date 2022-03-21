@@ -41,6 +41,8 @@ The infographic lists all the topics covered in the podcast, but here's a list o
 * How can you evaluate the salary offer for a technical writing position?
 * What's the single most important factor in writing good documentation?
 
+{% include ads.html %}
+
 One purpose of the podcast/infographic is to help promote the technical writing courses available on Udemy, which you can see by browsing the link above. Currently there's a course available from Ugur Akinci (I haven't yet taken it &mdash; I believe it's geared more towards beginners). Larry Kunz [reviewed it recently here](https://larrykunz.wordpress.com/2015/07/28/review-learn-technical-writing-online-course-from-udemy/).
 
 At any rate, the podcast/infographic and course on the same page are related only by subject. Of course the idea is that the podcast and infographic will drive traffic to the course. But the course will also drive traffic to the podcast/infographic, as well as my blog, so this works out quite well.

@@ -1,20 +1,21 @@
 ---
-title: Three questions people ask me each week 
+title: Three questions people ask me each week
 categories:
 - beginners
 - creativity
-keywords: 
+keywords:
 description: "About once a week I get the following three questions. It would be nice to see some more variety. "
 ---
 
 ## Question 1
+
 The first question goes something like this:
 
 > <p>Hi Tom, I found your blog and really like the content. I'm currently a ________ with a degree in _______. I've been working for the past few years doing ________. However, I really dislike my job. I realized that it involves _______ and _________ all day long.</p>
-> 
+>
 > <p>I'm thinking of transitioning into a technical writing career. I like to write, and I scored high grades in all my writing classes. Can you give me any advice? How can I get a job in technical writing? Is there a particular city where there are lots of technical writing jobs? Thanks so much.</p>
 
-I think a lot of people start thinking about technical writing careers when several things happen: 
+I think a lot of people start thinking about technical writing careers when several things happen:
 
 * They realize their career in chemistry is boring as watching golf.
 * The career in astrophysics involves insanely difficult math.
@@ -22,7 +23,7 @@ I think a lot of people start thinking about technical writing careers when seve
 
 I never quite know what to say to people who ask this question. I usually say, yeah, tech writing is a great career. If you like to write and solve problems, you'll be a good fit. Just create a compelling portfolio of writing samples and move to a tech hub. Blah blah blah.
 
-But I can't predict the future or really know if tech writing is a suitable career for them. To change things up, I might start sending people who ask this question to Keith Hood's guest post, [The Raw, Unvarnished Truth About Technical Writing](https://idratherbewriting.com/2008/11/04/guest-post-the-dark-side-of-technical-writing/) or to Neil Kaplan's [The Death of Technical Writing, Part 1](http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/). 
+But I can't predict the future or really know if tech writing is a suitable career for them. To change things up, I might start sending people who ask this question to Keith Hood's guest post, [The Raw, Unvarnished Truth About Technical Writing](https://idratherbewriting.com/2008/11/04/guest-post-the-dark-side-of-technical-writing/) or to Neil Kaplan's [The Death of Technical Writing, Part 1](http://customersandcontent.com/2014/05/03/the-death-of-technical-writing-part-1/).
 
 I will beg and plead with them not to become trapped in a meaningless and demoralizing career in technical writing like me. Stay away, take another path. This road be a hot dry desert of nothingness. Then I'll say, *Just kidding! Tech writing is a lot of fun. I just say this for job security reasons.*
 
@@ -30,8 +31,8 @@ I will beg and plead with them not to become trapped in a meaningless and demora
 
 The second most common question I receive is this one:
 
-> Hi Tom. I have this assignment where I'm supposed to contact a professional technical writer and ask them some questions. So since I googled technical writer and your name came up, I'm going to ask you to spend about 30 minutes replying to me with answers to some questions I thought up in about two seconds. 
-> 
+> Hi Tom. I have this assignment where I'm supposed to contact a professional technical writer and ask them some questions. So since I googled technical writer and your name came up, I'm going to ask you to spend about 30 minutes replying to me with answers to some questions I thought up in about two seconds.
+>
 > <p>Here are the questions:</p>
 > <ul><li>What is a typical day like as a technical writer?</li>
 > <li>What background and skills do you need?</li>
@@ -42,7 +43,9 @@ The second most common question I receive is this one:
 
 About five years ago, I used to actually respond to these questions (see the [Beginners category](https://idratherbewriting.com/category-beginners/)). Then I started pushing them out to my colleagues and invited them to respond. A lot of times my colleagues wrote really detailed responses, writing more than 1,5000 to 3,000 words sometimes.
 
-Then I stopped responding and just recommended to students that they post a tweet to #techcomm with their questions, or join the techwhir-l listserv and ask someone there. 
+Then I stopped responding and just recommended to students that they post a tweet to #techcomm with their questions, or join the techwhir-l listserv and ask someone there.
+
+{% include ads.html %}
 
 I would like to take a moment to let all academic professors of tech comm know how much I hate getting these assignment emails. At some point, I'll probably point students to boilerplate questions and responses that they can simply copy and paste without contacting me in the first place.
 
@@ -66,21 +69,21 @@ The third question is the most annoying of them all. I usually only hear this qu
 
 This question is one that I think should be enshrined as a writer's "conundrum." How is it that someone who works as a professional writer finds time to write creatively? That's the nice way of putting it. But the conundrum is why this is even a question in the first place.
 
-Perhaps the question is really a masked euphemism. The real question is probably this one: 
+Perhaps the question is really a masked euphemism. The real question is probably this one:
 
 > I don't know why you waste so much time blogging. Seems like you might have something better to do with your life. Damn that's a lot of time. Seems like I'm seeing 2, maybe 3 posts a week from you. It's like, here we go again. Someone is bored.
 
-At least that question I could understand. It kind of makes sense, and I've asked it myself a few times. 
+At least that question I could understand. It kind of makes sense, and I've asked it myself a few times.
 
-But let's return to the first, more positive version. Why would a writer want to write? Hmmm. Great question. It's like if someone worked in a fishing store, and you discovered that the person also liked to fish in their spare time. That would blow my mind. 
+But let's return to the first, more positive version. Why would a writer want to write? Hmmm. Great question. It's like if someone worked in a fishing store, and you discovered that the person also liked to fish in their spare time. That would blow my mind.
 
 If you know my background, you know I majored in English and earned an MFA in nonfiction creative writing. I wanted to be a writer, more or less. I think many tech writers share similar Humanities backgrounds.
 
-Well, I'm going to share the dirty little secret. Your brain has various modes. At work, when you're documenting something complicated, you're in exposition mode. In this mode, writing is painstaking and slow. You have to eek out every sentence after making various tests, trying different inputs, asking questions to engineers, reading complicated specs, and so on. 
+Well, I'm going to share the dirty little secret. Your brain has various modes. At work, when you're documenting something complicated, you're in exposition mode. In this mode, writing is painstaking and slow. You have to eek out every sentence after making various tests, trying different inputs, asking questions to engineers, reading complicated specs, and so on.
 
 But blogging runs on the creative side of your brain. I'm having fun writing this post. It's a chance to unwind and process my thoughts, write about my experiences, and even play a bit.  
 
-It's kind of like switching between running and biking. You use different muscles. You couldn't run all day, nor could you bike all day. But switching periodically between the two works great because you use different muscles. 
+It's kind of like switching between running and biking. You use different muscles. You couldn't run all day, nor could you bike all day. But switching periodically between the two works great because you use different muscles.
 
 Well, even if that's not a strong argument, you're a writer, for goodness sake. You enjoy writing or you would have never gotten into tech comm. Don't you have a creative outlet for your writing muse? Or has your muse left the building long ago?
 

@@ -24,6 +24,8 @@ The Writers output is a slightly scaled back version of the same content (elimin
 
 <img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jekyllthemewriters.png" | prepend: site.baseurl }}" alt="Documentation theme screenshot" style="border: 1px solid gray;" />
 
+{% include ads.html %}
+
 The [Getting started page](https://idratherbewriting.com/documentation-theme-jekyll/doc_getting_started.html) in the theme explains how to build the two outputs.
 
 ## Prominent theme features

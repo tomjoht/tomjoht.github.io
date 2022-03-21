@@ -28,6 +28,8 @@ If you have multiple outputs produced from the same Github repository, it will b
 
 Two of the three products I write documentation for have an admin interface (in addition to the API). This interface is where field engineers configure services, and eventually where customers can go to also configure settings. My plan is to deliver the help through these admin interfaces and leverage the same authentication from the admin UI logins.
 
+{% include ads.html %}
+
 I'll push the content into an Amazon Web Services S3 bucket and then have engineers pull it from S3 into an EC2 instance (where the admin interface sits) and apply the same authentication controls on the docs as they do on the admin interface. This process is still under development, though.
 
 Note that publishing content is practically a separate challenge from delivering content. A lot of tech comm conversations focus on publishing content but not much on delivering content. I wish I had a better handle on how to deliver authenticated content on the web without resorting to expensive services to manage the authentication, but that's kind of a skillset that is another area of expertise ("Identity Access Management").

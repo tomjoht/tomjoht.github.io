@@ -12,9 +12,9 @@ Earlier this week I asked for your [feedback about a possible REST API workshop]
 
 <a href="https://www.surveymonkey.com/results/SM-NLCQLJCY/"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/restapiresponsessurvey.png" | prepend: site.baseurl }}" alt="Responses to survey about possible REST API workshop" /></a>
 
+{% include ads.html %}
 
-
-In summary, it seems that there is a substantial interest in a REST API workshop (particularly on a Saturday morning or weeknight), but since most people aren't located near Mountain View, California, more people are interested in online options than in-person workshops. 
+In summary, it seems that there is a substantial interest in a REST API workshop (particularly on a Saturday morning or weeknight), but since most people aren't located near Mountain View, California, more people are interested in online options than in-person workshops.
 
 Additionally, although most people are interested in REST APIs, people are also interested in learning about other APIs as well.
 

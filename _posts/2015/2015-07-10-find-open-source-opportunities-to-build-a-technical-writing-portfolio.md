@@ -18,4 +18,6 @@ Visit <a href="http://www.linksv.com">linksv.com</a> for a list of startups in t
 
 I personally haven't tried this approach because I'm well-past this point in my career, but many people contact me looking for open source projects to join, so I'm offering this tip with startups.
 
+{% include ads.html %}
+
 Startup companies are the norm in the Silicon Valley area. If you get a chance to work for a startup, I highly recommend it. It can be more of a roller-coaster ride (as opposed to working in a large, already established company), but you'll have more creative autonomy with the documentation and more challenges to learn new technologies.

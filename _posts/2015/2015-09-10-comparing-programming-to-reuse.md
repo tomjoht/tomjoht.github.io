@@ -13,9 +13,9 @@ Mark Lewis, author of [DITA Metrics 101](http://www.rockley.com/DITAMetrics101/A
 
 It's an interesting presentation to listen to. The basic idea is that when programmers create classes, they include attributes and methods for each class. "Objects" are derived from the classes (kind of like how all the different breeds of dogs are all derived from the general species of "dog"). Each object uses the attributes and methods from the class. While each object shares common characteristics with the class, the specific values for the attributes and methods in each object are often unique.
 
+{% include ads.html %}
 
-
-Being familiar with both Java and DITA, I can see the parallels that Mark is talking about. Mark himself is a former software programmer, so these concepts align with his programming background quite nicely. 
+Being familiar with both Java and DITA, I can see the parallels that Mark is talking about. Mark himself is a former software programmer, so these concepts align with his programming background quite nicely.
 
 I make use of these concepts regularly in my help projects. I have a topic that has certain variables. When I generate different outputs (like generating objects from a class), a configuration file defines different values for each of the outputs. These values get inserted into the variables in each of the topics, making the topics unique for the output. It's content re-use 101, but it's fundamental to single sourcing methodology.
 

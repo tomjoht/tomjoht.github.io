@@ -6,7 +6,6 @@ categories:
 - dita
 tags: []
 status: publish
-
 published: true
 ---
 <p>One of the little tricks I&#8217;ve implemented with OxygenXML is dynamic content filtering. Our product supports four different programming languages &#8211; Java, PHP, C++, and .NET. Rather than producing 4 separate outputs, I produce just one output and provide a content selector option in the header. </p>
@@ -21,6 +20,7 @@ published: true
 <p>Also, I couldn&#8217;t figure out how to get the menu selector to appear only for specific pages. It only appears globally. One problem is that the selector code resides in a header file, with code that is only valid in the XHTML header file format, not in regular DITA topics. (I tried inserting the content post-build through jQuery&#8217;s <code>append</code> method, but for whatever reason, it didn&#8217;t work.) </p>
 <h2 id="otherwaystogoaboutdynamicfiltering">Other ways to go about dynamic filtering</h2>
 <p>There are probably better ways to go about dynamic content filtering. With a database model for help, the option a user selects could determine how content is queried in real-time from a database. In that model, content wouldn&#8217;t just be hidden &#8211; it would not be in the source code at all. (But if you go that route, you have a database to deal with.)</p>
+{% include ads.html %}
 <p>You could also use jQuery tabs to provide a similar experience as dynamic content filtering. Check out this <a href="https://pages.github.com/">Github pages tutorial</a>. Select an option under &#8220;What git client are you using?&#8221; You&#8217;ll see the subsequent steps change.</p>
 <p>From what I can see in the source code, the author is simply using jQuery tabs. Choosing a tab determines what is shown below. It&#8217;s probably a more standard way to approach this problem, and I&#8217;ll try to go this way in the future.</p>
 <h2 id="advantagesofdynamiccontentfiltering">Advantages of dynamic content filtering</h2>

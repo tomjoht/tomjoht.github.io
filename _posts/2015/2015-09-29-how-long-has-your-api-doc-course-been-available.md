@@ -12,9 +12,9 @@ A reader notes:
 
 I've been working on this material for the past several months. It's gone through several iterations. From presentations and short workshops on API documentation over the past year, the material has evolved and grown, and I'm trying to add more detail and polish to the content in order to convert it into an online learning course. Exactly how I'll deliver that course, I'm not sure.
 
+{% include ads.html %}
 
-
-I've been playing around with several delivery models. One that I like is to keep the text free but charge for videos related to the content. This would allow the content to surface in search results but also adds another layer with revenue potential if people prefer more instruction. (I actually saw this model mostly recently on [Learn Code the Hard Way](http://cli.learncodethehardway.org/) &mdash; the text if free, but videos and other add-ons cost money.) 
+I've been playing around with several delivery models. One that I like is to keep the text free but charge for videos related to the content. This would allow the content to surface in search results but also adds another layer with revenue potential if people prefer more instruction. (I actually saw this model mostly recently on [Learn Code the Hard Way](http://cli.learncodethehardway.org/) &mdash; the text if free, but videos and other add-ons cost money.)
 
 I think it makes sense to provide content this way. I'm hesitant to pay money for a Udemy course unless I see the value of the content. It's hard to get a realistic preview of online content through those channels. However, once I'm persuaded that the content is of high value, I'm more than willing to pay for enhanced content on the same topics.
 

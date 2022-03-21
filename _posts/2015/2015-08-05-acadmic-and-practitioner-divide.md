@@ -3,7 +3,7 @@ title: Why is there a divide between academics and practitioners in tech comm?
 categories:
 - technical-writing
 - academics-and-practitioners
-keywords: 
+keywords:
 description: "Although the work of practitioners and academics should inform each other in mutually beneficial ways, these groups tend to be somewhat isolated and separate. Some reasons for the divide include lack of focus on tools, paywalls set up with publications, and the topics in journal articles."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/university.png
 ---
@@ -30,6 +30,8 @@ Why is there such a divide between academics and practitioners?
 ## The question of tools separates the groups
 
 First, the question of tools divides them. Academic rarely talk about tools (or even DITA, for that matter). Academics instead like to explore more conceptual, abstract, or method-based topics. Academics know that tools come and go like the changing tide. What's popular today will not be popular tomorrow, so any treatment of tools tends to be so ephemeral that it rarely catches the academic's attention.
+
+{% include ads.html %}
 
 Journal articles focus on theory, research, practice, etc., not tool tips or the best component content management systems. To thrive in their careers, academics must orient their research on topics that journals will publish.
 

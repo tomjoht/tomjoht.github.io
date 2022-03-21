@@ -2,7 +2,7 @@
 title: Survey analyzing skill requirements in job postings
 categories:
 - technical-writing
-keywords: 
+keywords:
 description: "A grad student in tech comm needs your response to a short survey that examines responses to skill requirements in job postings. You can post your responses in comments."
 ---
 
@@ -10,7 +10,9 @@ A couple of weeks ago, in a [podcast with Lisa Meloncon](https://idratherbewriti
 
 Rebecca Pope is a graduate student at the University of North Texas in Technical Communication. She needs to interview technical editors and writers for a research project in her Digital Literacies course, where she is  analyzing responses to skill requirements in job postings. The interview is 7 questions and takes about 5 minutes to answer.
 
-Here are the questions: 
+{% include ads.html %}
+
+Here are the questions:
 
 1. What is your current job title?
 2. What are your most used tools? (Ex: Office, Adobe, etc.)

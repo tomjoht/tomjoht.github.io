@@ -21,7 +21,7 @@ I recently received the following question:
 
 <p>Of late I feel I'm doing monotonous work and that I'm not learning anything new. Also my salary isn't good enough for a person with 5 years experience. In an expensive city like New York, my salary is just enough to get by (thankfully my husband is a Java developer and gets good salary). </p>
 
-
+{% include ads.html %}
 
 <p>I'm stuck in this low-paying job and I don't know how I can improve my career path. In my current job I get to use Microsoft Sharepoint, through which I've learned HTML/CSS, Javascript up to beginner level, but this is just out of interest and I know that's not going to help me as a technical writer. I feel that career prospects for a technical writer isn't great since user interfaces are becoming more and more intuitive, what do you say?</p>
 

@@ -18,10 +18,10 @@ Sure, here is my typical day:
 * Attend Tech Docs standup, Project 1 standup, and Project 2 standup (standups are supposed to be short, but they often last 30 minutes as people get to sharing info about various issues).
 * Update docs with info about the new features for upcoming releases. As much as possible, I prefer to stay immersed in same project. There are lots of details to keep straight in help docs. Context-switching between projects on a daily basis is unproductive, in my opinion. But you have to do it.
 * Coordinate with team members about our authoring and publishing process. One team member says the TOC is not changing with the build commands. I start to troubleshoot but then he figures it out anyway.
-* While working on a project, I see a jekyll-metadata file in my root directory, which creates a merge conflict with the content I just pulled. What's this new metadata file? I turn to google, and then see that it's part of the latest release. I add the file to an ignore list in Mercurial. 
+* While working on a project, I see a jekyll-metadata file in my root directory, which creates a merge conflict with the content I just pulled. What's this new metadata file? I turn to google, and then see that it's part of the latest release. I add the file to an ignore list in Mercurial.
 * I eat lunch with former colleague; we talk about content reuse strategies and projects and life. He tells me stories about a year of extremes. He has had unbelievable success as a Flare consultant.
 * After lunch, I test out the latest code from dev to see if it actually works. While testing things out, I talk to QA people about Tomcat servers and when or if they need to be restarted with our deployment process.
-* In testing out payload contents, I discover our internal testing tool is broken, but there's no note or warning. A developer explains a cumbersome workaround. 
+* In testing out payload contents, I discover our internal testing tool is broken, but there's no note or warning. A developer explains a cumbersome workaround.
 * I realize that one of our reference implementations is not going to meet the needs of the audience. I start a discussion that leads to an email thread with the product manager, customer experience manager, and other stakeholders. It remains unresolved, so I can't finish this part of the doc.
 * I decide to simplify the doc for one of my projects. I have too many variables going on and it's just getting confusing. I have conditionalized and single sourced this content too much, and now it's practically uneditable.
 * Little by little I realize that the developers have coded some stuff that I hadn't identified in the upcoming release. I look in JIRA to see if the changes were noted or mandated somewhere, or if the developers just made them autonomously and silently. I assume the latter. Those darn developers...
@@ -29,9 +29,11 @@ Sure, here is my typical day:
 * I ride home and help with dinner (mostly standing in the kitchen and trying to help but not really). I tell the kids to do their homework.
 * Sitting on my butt all day makes me eager for exercise. Later in the evening I ride to a nearby gym and play basketball with a group of friends. On the ride there and back I listen to the *American Assassin* by Vince Flynn. In the book, a banker decides to open a safe containing passwords to Swiss bank accounts containing terrorist funds rather than have Mitch Rapp (unofficial CIA assassin) pluck his dog's eyes out with a knife. My lackluster day job requires this kind of vicarious adrenaline!
 
+{% include ads.html %}
+
 ### Do you primarily work alone, or is collaboration a big part of your job?
 
-I work alone in an open office surrounded by people (kind of like a loner in a sea of people). I'm the only tech writer on site (for a group of 30 IT people), but there are two other tech writers in Arizona, and we're hiring some more technical writers in the UK. 
+I work alone in an open office surrounded by people (kind of like a loner in a sea of people). I'm the only tech writer on site (for a group of 30 IT people), but there are two other tech writers in Arizona, and we're hiring some more technical writers in the UK.
 
 We meet and interact regularly through IM, Go to Meeting, Confluence, JIRA, and email. The virtual team actually works out quite well.
 
@@ -53,16 +55,14 @@ Maybe success is empowering your users to be "awesome" through the instructional
 
 Another definition of success would be to increase adoption of your software product tenfold by enabling users to quickly learn it and move up to the power-user level. As your product becomes wildly successful, your company gets major venture capital funding, goes public, offers you a serious cut of the shares, and you cash out in 10 years and are able to make a down payment on a 1 bedroom home in East Palo Alto or Gilroy. (*Inside joke for those living in the Bay area ...*)
 
-### I read on your website that you were an English major. Is there anything that you learned from a liberal arts- based curriculum that connected with your career goals as a technical writer? 
+### I read on your website that you were an English major. Is there anything that you learned from a liberal arts- based curriculum that connected with your career goals as a technical writer?
 
 I'm not sure. I majored in English and got a masters in Creative Nonfiction Writing. At some point I learned to be technical. I think I learned to be technical through my side work as a WordPress consultant building websites.
 
-I do love to write and always have, even in high school (I kept a regular journal since 9th grade). I guess my college experience taught me to love to write, and taught me how to write (academic essays, thoughtful/analytic pieces, reports, etc). 
+I do love to write and always have, even in high school (I kept a regular journal since 9th grade). I guess my college experience taught me to love to write, and taught me how to write (academic essays, thoughtful/analytic pieces, reports, etc).
 
 But my experience working as a technical writer taught me to shape that writing into more instructional material (with subheadings, lists, screenshots, visual media, etc.)
 
-That said, what you learn in any field could probably translate into some helpful skill as a technical writer. 
- 
+That said, what you learn in any field could probably translate into some helpful skill as a technical writer.
+
 Some parting thoughts. As you move forward in your technical writing career, keep these nuggets of wisdom in mind: Learn continuously, test everything, be skeptical of anything anyone tells you, triple check your instructions, don't take anything too seriously, blog regularly about your experiences or thoughts, sell your car and ride a bike everywhere, listen attentively to people, and try not to stay up too late at night.
-
-

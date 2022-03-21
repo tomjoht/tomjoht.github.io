@@ -55,8 +55,6 @@ Now click **Model** (the grayed out text) and look at the view.
 
 <a href="http://petstore.swagger.io/#!/pet/addPet"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/swaggersubtlemodellink.png" | prepend: site.baseurl }}" alt="Swagger Model" /></a>
 
-
-
 This view describes the various parts of the request, noting the data types and any descriptions in your Swagger spec. Here's the Model:
 
 ```json
@@ -87,6 +85,8 @@ In this view, when there's a nested object, like `category`, it has a reference 
 **Update: The new version of the Swagger UI displays the model as expandable/collapsible sections, which fixes the usability issues described here.**
 
 Presumably the Model format appears like this because there's not enough room to visually depict nested objects in one inch of space. But it could potentially mislead users into thinking that you have multiple objects listed one after another instead of nested inside each other.
+
+{% include ads.html %}
 
 Even so, it's interesting to see the contrast between the Model and Model Schema views. This is something I originally overlooked when browsing the Petstore example. The grayed-out Model link is pretty subtle in the UI display. Ultimately I'm not sure how useful the Model view is beyond providing a place to describe the objects and properties.
 
