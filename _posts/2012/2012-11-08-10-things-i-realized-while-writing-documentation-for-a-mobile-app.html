@@ -38,13 +38,13 @@ published: true
 <p>I wanted my screenshots to look well when viewed on both tablet and mobile devices. Initially I set a max-width = 100% property in my stylesheet for devices smaller than 400px in width. This looked pretty good on the smartphone, because the viewing frame is so small. Having these screenshots expand to 100% of their frame worked out well (especially for iOS devices with high retina displays).</p>
 <p>Not so for the tablet, which has more viewing space. For the tablet view, I didn't want the images to be any wider than 400px. Here comes responsive styling (or CSS media queries) to the rescue. I added the following media queries to my stylesheet:</p>
 <blockquote>
-<pre>@media (max-width: 480px)  { 
+<pre>@media (max-width: 480px)  {
 img {
     max-width:100%;
     }
 }
 
-@media (min-width: 481px)  { 
+@media (min-width: 481px)  {
 img {
     max-width:300px;
     }</pre>
@@ -76,6 +76,7 @@ img {
 <p>I could also set up a little camera and, with good lighting, take a video of my hand interacting with the device. But editing this seems like a pain (because I'd need to use HD video editing software rather than an application such as Camtasia), and I'm not a hand model. I don't have studio lighting either.</p>
 <h2>9. There's a lot to say about a little app.</h2>
 <p>I think many mobile teams think their apps are so intuitive, no instructions are needed. Yet in documenting this one app, I'm finding that there's a ton of information that most people don't know, or at least which I didn't know. People will be surprised to see a 45 page guide for a mobile app, but there's really that much instruction.</p>
+{% include ads.html %}
 <p>While users can hack and stumble their way through the app, they probably only use a small fraction of the features — the features they are comfortable with and understand.</p>
 <p>Why might there be 45 pages of instruction? Because mobile and desktop applications now integrate. This integration creates some complexity with the interactions. For example, this mobile app I documented integrates with an online application but not 100%. Some of the terminology is different, and the sync between the two isn't always automatic.</p>
 <p>The app becomes a lot more complex when you consider the companion web sites or tools that complement the app. Do you document the mobile app alone, and the desktop app alone? No, that doesn't make sense if users are constantly switching between the two. I wanted to address both applications where relevant to user tasks.</p>

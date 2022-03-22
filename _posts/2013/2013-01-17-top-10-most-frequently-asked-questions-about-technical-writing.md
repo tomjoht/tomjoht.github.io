@@ -11,7 +11,6 @@ tags:
 - tips
 - tools
 status: publish
-
 published: true
 ---
 
@@ -37,6 +36,8 @@ In general, learn these four types of tools:
 *   Page layout tool (InDesign, Word, Framemaker)
 
 {{site.data.alerts.tip}}When learning how to create screencasts and other videos, see my [five-step process for creating video tutorials](https://idratherbewriting.com/2012/09/27/how-to-create-video-tutorials-a-five-step-process/)." {{site.data.alerts.end}}
+
+{% include ads.html %}
 
 Even if you don't know the exact tool the job requires, your proficiency with some of the above tools will give you credibility that you can learn the company's specific toolset.
 
