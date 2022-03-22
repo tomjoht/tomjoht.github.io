@@ -35,6 +35,9 @@ You can browse the results here:
 
 <a href="https://www.questionpro.com/t/PGzGMZhSHg"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/pandemicsurveyimpact.jpg"/></a>
 
+Note: For another tech comm survey about the pandemic, see [Technical Documentation
+Industry Survey Report 2021: Coronavirus edition](https://www.precisioncontent.com/wp-content/uploads/2021-Technical-Documentation-Industry-Survey-Summary-Report-%E2%80%94-Corona-Virus-Edition-%E2%80%94-The-Content-Wrangler.pdf) from the Content Wrangler.
+
 {% include ads.html %}
 
 ## Freeform comments

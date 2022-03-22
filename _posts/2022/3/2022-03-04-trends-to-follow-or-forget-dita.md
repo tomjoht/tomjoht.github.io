@@ -53,6 +53,6 @@ If docs are meant to be a selling point for your product, you'll likely want to 
 
 DITA is still popular among large tech companies, in part because nearly all the CCMS systems require structured content. And if you don't have a CCMS to manage your thousands of pages of content, what system do you have to manage it? Git? A custom-built solution? A thousand separate repositories on GitHub? Docs-as-code might work for smaller shops, but when you have thousands of pages of content, when you require PDF and translation workflows, and when you want to impose standard structures for the content across hundreds of contributing writers, there aren't many alternatives outside of XML. And if you must embrace XML, DITA is the most popular schema for it.
 
-(Even without the CCMS route, you can still manage DITA content in a Git repository because the files are plain text files. Some authoring groups actually do this, but it isn't the most common approach.)
+(Even without the CCMS route, you can still manage DITA content in a Git repository because the files are plain text files. Some authoring groups actually do this, but it isn't the most common approach. For more on this approach, see [DITA as code - a modern approach to the classic standard](https://techwriterkoduje.pl/dita-as-code) from Tech Writer koduje.)
 
 Overall, given the difficulty of migrating to DITA, I suspect that migrating away from DITA might also be time consuming. As such, DITA is likely to remain the status quo for those who have already adopted it.
