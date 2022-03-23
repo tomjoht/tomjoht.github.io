@@ -27,6 +27,8 @@ I asked my Twitter and blog friends to respond with their recommendations. Here 
 
 [The Insider’s Guide to Technical Writing](https://www.amazon.com/Insiders-Guide-Technical-Writing/dp/1937434036/ref=sr_1_4?s=books&ie=UTF8&qid=1518581019&sr=1-4&keywords=Krista+van+laan), Krista Van Laan- This is a great resources for aspiring and established technical writers. Van Laan covers everything from the different types of tech writers to the pros and cons of a technical communication career. [Nathaniel Wilson]
 
+{% include ads.html %}
+
 [Technical Writing Management: A Practical Guide](https://www.amazon.com/Technical-Writing-Management-Practical-Guide/dp/1456534181/ref=sr_1_3?s=books&ie=UTF8&qid=1518581084&sr=1-3&keywords=Steven+Schwarzman), Steven A. Schwarzman-This book will help veteran technical writers the most. It covers how to interview, hire and manage technical writers, as well how to have a successful freelance career and run a technical writing agency. [Nathaniel Wilson]
 
 [Technical Writing](Technical Writing, by T.A. Rickard), by T.A. Rickard, is a seminal work. You can find it in many academic libraries. You'll be amazed by how the emphasis on fundamental writing skills hasn't changed. \[Mike Frasciello\]

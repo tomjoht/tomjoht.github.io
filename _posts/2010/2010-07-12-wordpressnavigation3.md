@@ -27,6 +27,8 @@ add\_action( 'init', 'register\_my\_menu' ); function register\_my\_menu() { reg
 
 If you have two navigation menus, copy the second registration code snippet.
 
+{% include ads.html %}
+
 Registration code snippet 2:
 
 ```php

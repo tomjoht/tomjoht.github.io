@@ -23,6 +23,7 @@ tags:
 <p>After most users download a product, usually the only printed material they want is a short <em>Getting Started </em>guide. It gets them going with the product. As they start using the product and have questions, they search an online help site for answers.</p>
 <p>Your online site is where the majority of your documentation should be available. Because of this, you need to understand how to author and design in a web environment.</p>
 <p>Many help authoring tools allow you to get by with only a minimal understanding of web concepts. Others require extensive knowledge of CSS to style even the help's printed output. Whatever your situation, you should be familiar with basic web design concepts because your documentation will most likely be on the web.</p>
+{% include ads.html %}
 <p>In trying to distill the basics of web managing and publishing, I've come up with 10 basic concepts that every technical writer should know when working with the web.</p>
 <h3>Understand Basic HTML Markup</h3>
 <p>Understand how to type basic HTML markup, such as a heading, list, image, or link. You type an unordered list like this:</p>
@@ -38,7 +39,7 @@ tags:
 {% endhighlight %}
 <p>An image that links to something is just an image wrapped inside of a hyperlink.</p>
 {% highlight html %}
-<a href="http://someurl.com"> 
+<a href="http://someurl.com">
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/someimage.png" alt="my image name" />
 </a>
 {% endhighlight %}
@@ -48,9 +49,9 @@ tags:
 <p>CSS stands for cascading style sheets and is the language used to style almost everything on the web. You need to know CSS to design or modify a website, including changing the font or altering the headings or line height or layout widths. Almost nothing is coded in tables anymore (if it is, it's usually bad practice). Instead, CSS controls everything.</p>
 <p>Most websites reference an external stylesheet where all the styles are defined. This page, for example, puts h1 tags around the post title. These h1 tags are defined in the stylesheet as follows:</p>
 {% highlight css %}
-.entry h1 { 
-                border-bottom:1px solid #e6e6e6; 
-                margin-bottom:20px; 
+.entry h1 {
+                border-bottom:1px solid #e6e6e6;
+                margin-bottom:20px;
                 padding-bottom: 20px;
           }
 {% endhighlight %}
@@ -66,7 +67,7 @@ tags:
 <p>You can create a new style with just a few keystrokes. For example, add the following to your stylesheet:</p>
 {% highlight css %}
 .mynewstyle {
-                   font-size:30px; 
+                   font-size:30px;
                    margin-bottom:40px;
             }</pre>
 <p>Now on your web page, just add a div tag with that class before the text, like this:</p>
