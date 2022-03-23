@@ -34,7 +34,7 @@ You can select from several different spaces or services below. The availability
     <tbody>
     <tr>
         <td markdown="span">[Inline ad](#inlineads)</td>
-        <td markdown="span">250 x 150px</td>
+        <td markdown="span">Inline graphic and article link</td>
         <td markdown="span">$1,500/year</td>
     </tr>
     <tr>
@@ -44,18 +44,28 @@ You can select from several different spaces or services below. The availability
     </tr>
     <tr>
         <td markdown="span">[Inline text snippets](#inline_text_snippets)</td>
-        <td markdown="span">1-2 sentences</td>
-        <td markdown="span">$3,000/year</td>
+        <td markdown="span">2-4 sentences</td>
+        <td markdown="span">$2,500/year</td>
     </tr>
+    <tr>
+    <td markdown="span">[Newsletter graphic or paragraph text](#newsletter)</td>
+    <td markdown="span">400 x 60px / if text, one paragraph</td>
+    <td markdown="span">$1,200/year</td>
+</tr>
         <tr>
         <td markdown="span">[Podcast ads](#podcast_ads)</td>
         <td markdown="span">2 minute audio commercial</td>
         <td markdown="span">$100 per podcast ad</td>
     </tr>
-        <tr>
-        <td markdown="span">[Newsletter graphic or text](#newsletterfooter)</td>
-        <td markdown="span">400 x 60px / if text, one paragraph</td>
-        <td markdown="span">$1,200/year</td>
+    <tr>
+    <td markdown="span">[Sidebar ads](#sidebar_ads)</td>
+    <td markdown="span">Sidebar graphic and article link</td>
+    <td markdown="span">$1000/year</td>
+</tr>
+    <tr>
+    <td markdown="span">[Footer banner](#footer_banner)</td>
+    <td markdown="span">728x90 px banner at bottom of post</td>
+    <td markdown="span">$1,500/year</td>
     </tr>
     <tr>
         <td markdown="span">[Top Banner](#topbanners)</td>
@@ -139,15 +149,7 @@ The text snippets give you more flexibility to get your messaging across. You're
 
 The text snippets are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content heavy pages. A maximum of 4 inline snippets (from different advertisers) can appear on each page. Links are `nofollow`. The cost for inline text snippets to appear on the API doc site is $3,000 per year.
 
-## Podcast ads {#podcast_ads}
-
-Podcasts are two-minute audio commercials that appear within podcasts that I record. The podcast ad appears within the first 15 minutes of the podcast in a random location. For the ad, you can either send me a prerecorded audio commercial, or you can send me some copy that you want me to read. The copy must be readable within a two-minute timeframe.
-
-You can see all podcasts on my site on the [Podcasts](/category-podcasts/) page. I have recorded more than 200 podcasts and have a reputation in the industry for this medium.
-
-The cost is $100 per podcast ad, and you can buy blocks of them. For example, if you want to have 6 podcast ads, the cost would be $600.
-
-## Newsletter graphic or text {#newsletter}
+## Newsletter graphic or paragraph text {#newsletter}
 
 I send out about 3 newsletters a month to all my email subscribers (6,000 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 300 clicks, and the advertising graphic receives approximately 60 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
@@ -156,6 +158,33 @@ I send out about 3 newsletters a month to all my email subscribers (6,000 + read
 The image format can be any standard image format (usually JPG or PNG), but not animated. The cost for advertising in the newsletter space is $1,200 per year.
 
 Instead of a graphic, you can also replace this with a text snippet to promote a product or service. For example, you might have a release or other announcement that you want to make clear. In this case, the text would be several sentence in length and point to a URL.
+
+## Footer banners {#footerbanners}
+
+The footer banner (728 x 90px) appears below each post, right above the comments, in the single post view. This space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
+
+Horizontal Inline ads can be JPG, PNG, GIF, or SVG. Unlike other spaces, here animated GIF is allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There is no limit to the number of horizontal inline post ads that can appear below the post. The cost for inline horizontal ads is $1,500 per year.
+
+## Podcast ads {#podcast_ads}
+
+Podcasts are two-minute audio commercials that appear within podcasts that I record. The podcast ad appears within the first 15 minutes of the podcast in a random location. For the ad, you can either send me a prerecorded audio commercial, or you can send me some copy that you want me to read. The copy must be readable within a two-minute timeframe.
+
+You can see all podcasts on my site on the [Podcasts](/category-podcasts/) page. I have recorded more than 200 podcasts and have a reputation in the industry for this medium.
+
+The cost is $100 per podcast ad, and you can buy blocks of them. For example, if you want to have 6 podcast ads, the cost would be $600.
+
+## Sidebar ads {#sidebarad}
+
+Sidebar ads include a 250px x 150px graphic with an article link below the graphic. They appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+
+Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. GIFs or other animations aren't allowed. You can switch the ad at any time by sending me a new graphic. Typically, the article link below the ad points to a product review post or other enticing article.
+
+<figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+
+The cost for sidebar ads is $1,000 per year. For 6 months only, the cost is $600.
 
 ## Top Banners {#topbanners}
 
