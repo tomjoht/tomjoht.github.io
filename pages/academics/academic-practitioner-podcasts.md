@@ -21,6 +21,8 @@ I'm launching a series of podcasts focused on academic/practitioner conversation
 
 The podcasts will be listed in my [regular podcast feed](/category-podcasts/), but they'll also appear here.
 
+{% include ads.html %}
+
 **Latest podcasts**:
 
 {% for item in page.podcasts %}

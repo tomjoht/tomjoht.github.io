@@ -19,6 +19,8 @@ Both of these results pose serious consequences &mdash; the main consequence bei
 
 I believe we can break down the content barriers between practitioners and academics, and in so doing, help the two groups start to operate in the same sphere. If practitioners could be exposed to more research from academics, would this change practitioner attitudes towards academics? Would it deepen their appreciation or would it heighten their disdain for the research academics do? On the flip side, would this increased interaction with practitioners help academics understand their practitioner perspective and workplace issues more? Would it sharpen their awareness of real issues, of topics that are relevant and actually in demand in the workplace?
 
+{% include ads.html %}
+
 To lessen the divide, I'll be publishing "conversations" with academics focused on their research, usually as expressed in a recently published journal article. The format of the conversations follows a dialectical exchange, a back-and-forth approach (or thesis and antithesis moving towards synthesis) interview. More than any other format, this dialectical format can help bring perspectives closer together.
 
 Also note that my research project isn't to simply discover information but rather to create social change. It is writing meant to change attitudes, to shape directions and long-held positions. Ideally, the social outcomes of these conversations might include more partnerships between academics and practitioners, more cross-sharing of ideas and information, and ultimately more relevance toward each other's concerns.

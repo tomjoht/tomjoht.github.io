@@ -20,6 +20,8 @@ If you've grown tired of the academic discourse that you've been writing in, the
 
 The process for submitting the guest post is simple: write your guest post in Google docs and share it with me (tomjoht@gmail.com). Google Docs makes it easy to convert it to Markdown.
 
+{% include ads.html %}
+
 Here's an example guest post from Emily January Peterson on [stereotypes](/2018/07/18/stereotypes-about-tech-writers-in-workplace/), and another guest post by Melonie McMichael on [technological adaptability](https://idratherbewriting.com/2018/07/18/learning-technology/).
 
 ## Podcasts {#podcasts}

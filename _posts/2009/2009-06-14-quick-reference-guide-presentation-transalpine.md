@@ -19,5 +19,5 @@ weight: 1.7
 {% include series/seriesTagQuickReferenceGuides.html %}
 
 You can download my slides for the [quick reference guide presentation that I gave at the Transalpine conference in Vienna here](https://s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/quick_reference_guides_vienna.zip).
-
+{% include ads.html %}
 {% include series/seriesTagQuickReferenceGuides_next.html %}

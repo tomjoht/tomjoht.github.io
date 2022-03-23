@@ -17,6 +17,7 @@ compress long content in a more user friendly way."
 <p>For a demo of the effect, see the webhelp output of the DITA QRG.</p>
 {{note}}The method described here permanently alters your webhelp output from Oxygen. If you don't want top alter the output, make a copy of the files that you're altering first.{{end}}
 </p></div>
+{% include ads.html %}
 <ol class="ol steps">
 <li class="li step stepexpand"><span class="ph cmd">Download the minified script from the <a class="xref external" href="http://sylvain-hamel.github.io/simple-expand/" target="_blank">jQuery Simple Expand plugin site</a> and copy it to your
      clipboard.</span></li>
@@ -47,7 +48,7 @@ $('.expander').simpleexpand();
     background-position: left center;
     background-repeat: no-repeat;
     background-image: url(../img/collapsed.gif);
-}    
+}
    {% endhighlight %}
 <p>Any element with the class <code>content</code> will be hidden. When the script is run, the <code>content</code> class will be removed and one of the other classes will be added.</p>
 <p>In my demo, I added some more classes to style how the expand and collapse sections appear. If you want to style your output like the demo, use these styles instead of the previous:</p>
@@ -73,7 +74,7 @@ $('.expander').simpleexpand();
     padding: 9px 5px 8px 25px;
     width: 100%;
     font-weight:bold;
-    
+
 }
 
 .expander.collapsed{
@@ -162,4 +163,3 @@ $('.expander').simpleexpand();
 </p></div>
 </li>
 </ol></div>
-

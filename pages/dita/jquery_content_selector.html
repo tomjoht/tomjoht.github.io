@@ -17,6 +17,7 @@ snippets for a particular programming language."
         content selector to your output so that users can select the type of content they want to
         see. </p>
 {{tip}} For a demo, see <a class="xref external" href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/files/oxygendemos/contentselector/" target="_blank">the content selector demo page</a>.{{end}}
+{% include ads.html %}
 <p>This content selector is a style switcher developed by hibbard.eu explained here: <a class="xref external" href="http://hibbard.eu/using-cookies-with-jquery-to-make-a-simple-style-switcher/" target="_blank">Using cookies with jQuery to make a simple style switcher</a>. Although there are a variety of jQuery style switchers available, I like this one because it implements the jQuery cookie to remember the user's selection from page to page. This is critical for the content selector to work site-wide. (Without the cookie, the user would need to re-select an option with each new page.</p>
 </p></div>
 <p class="li stepsection">To implement the content selector:</p>
@@ -34,17 +35,17 @@ snippets for a particular programming language."
     $(<span class="hl-string" style="color:#2a00ff">"#bck_toc"</span>, parent.document).removeClass();
     $(<span class="hl-string" style="color:#2a00ff">"#bck_toc"</span>, parent.document).addClass($.cookie(<span class="hl-string" style="color:#2a00ff">'body_colour'</span>));
 }
-    
+
     removeAddBodyClass();
-    
+
     $(<span class="hl-string" style="color:#2a00ff">"#selector"</span>).change(function(){
     $.cookie(<span class="hl-string" style="color:#2a00ff">'body_colour'</span>, $(<span class="hl-string" style="color:#2a00ff">"#selector"</span>).val());
     removeAddBodyClass();
     });
-    
+
     $(<span class="hl-string" style="color:#2a00ff">"#selector > option"</span>).each(function() {
     if($(this).val() == $.cookie(<span class="hl-string" style="color:#2a00ff">'body_colour'</span>)){
-    $(this).attr(<span class="hl-string" style="color:#2a00ff">"selected"</span>,<span class="hl-string" style="color:#2a00ff">"selected"</span>); 
+    $(this).attr(<span class="hl-string" style="color:#2a00ff">"selected"</span>,<span class="hl-string" style="color:#2a00ff">"selected"</span>);
     }
     });
     {% endhighlight %}
@@ -150,11 +151,11 @@ body.php .ph[data-platform*=php] {
 #bck_toc.php li.java, body.php [data-platform*=java] {
     display: none;
 }
-    
-    
+
+
     #progSelector {
     margin-left:<span class="hl-number">600</span>px;
-    
+
     }
     {% endhighlight %}
 <p>You will need to adjust this code depending on the classes you're adding. For example, if you don't want your four selections to be java, php, dotnet, and cpp, swap in the classes you intend to use. Also, if you're not using platform but rather product or audience, make that switch as well.</p>
@@ -191,4 +192,3 @@ body.php .ph[data-platform*=php] {
 {{note}} Note that in order to see the content selector work, you must upload the content to a web server. On a Mac, because there's a built-in web server, you can go to <span class="ph filepath">Library > Webserver > Documents</span>. If you put your webhelp in this folder, in a browser you can go to <code>localhost/<folder name></code> to view the content.{{end}}
 </p></div>
 </p></div>
-

@@ -73,6 +73,8 @@ After joining the group and confirming your email, here's how you work with the 
 * You can subscribe to the group's [RSS feed](https://groups.io/g/tc-academic-practitioner-bridge/rss).
 * To unsubscribe from the group, send an email to[ tc-academic-practitioner-bridge+unsubscribe@groups.io](tc-academic-practitioner-bridge+unsubscribe@groups.io).
 
+{% include ads.html %}
+
 ## What information will appear in the email group?
 
 In this email group, I hope to help bridge this gap in the following way:

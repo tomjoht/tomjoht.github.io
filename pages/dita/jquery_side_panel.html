@@ -153,6 +153,7 @@ pre{
 </ol></div>
 </div>
 <div class="topic task nested1" id="allow_id">
+{% include ads.html %}
 <h2 class="title topictitle2">Allow IDs to pass through</h2>
 <div class="body taskbody">
 <div class="section context">By default, attributes you add to content, such as <code>id="sidepanel_1"</code> won't
@@ -221,7 +222,7 @@ $(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_1'</span>).sidr
     name:<span class="hl-string" style="color:#2a00ff">'fullcode__demo_sidepanel_1'</span>,
     side:<span class="hl-string" style="color:#2a00ff">'left'</span>
     });
-    
+
 $(<span class="hl-string" style="color:#2a00ff">'.demo_sidepanel_2'</span>).sidr( {
     name:<span class="hl-string" style="color:#2a00ff">'fullcode__demo_sidepanel_2'</span>,
     side:<span class="hl-string" style="color:#2a00ff">'left'</span>
@@ -302,9 +303,9 @@ event.preventDefault();
      this is some code
      this is some code
      this is some code
-     
+
      // this is a comment with a brief explanation. <xref href="javascript();" scope="external" format="html" outputclass="demo_sidepanel_1"> &#187; more</xref>
-     
+
      this is some code
      this is some code
      this is some code
@@ -349,7 +350,7 @@ event.preventDefault();
       <p>Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. </p>
       <p>Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.</p>
       <xref href="javascript();" scope="external" format="html" outputclass="closeMe" id="close_demo_sidepanel_1">Close</xref>
-      
+
      </section>                        {% endhighlight %}
 <p>Here we add an ID attribute to the <code>section</code> element. Note
                   that the menu name in the jQuery scripts is
@@ -395,7 +396,7 @@ event.preventDefault();
    <p>Aenean turpis augue, elementum sit amet ultricies ullamcorper, placerat a lorem. Nullam vitae laoreet ipsum, a elementum ipsum. Cras venenatis felis blandit euismod euismod. Morbi venenatis lacus eu tellus molestie, in pulvinar quam porttitor. </p>
    <p>Aenean congue euismod orci, quis laoreet est hendrerit ac. Fusce gravida ligula et orci ornare, id semper ante pellentesque. Pellentesque suscipit sapien libero, quis consequat orci dapibus a. Mauris et dui ut lacus volutpat mollis consequat ut orci. Donec accumsan metus dolor, a sodales felis sagittis eget. Integer facilisis enim non fermentum bibendum.</p>
    <xref href="javascript();" scope="external" format="html" outputclass="closeMe close_demo_sidepanel_2">Close</xref>
-   
+
   </section>
                     {% endhighlight %}
 <p>Let's say the topic ID of this page is <code>trans123</code>.</p>

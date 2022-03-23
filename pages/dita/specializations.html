@@ -30,6 +30,7 @@ need it."
 <p>Concepts are topic types for any information that doesn't involve task lists or reference
       information. Ideally you use <code>concept</code> elements to explain concepts, ideas,
       overviews, workflows, and the like.</p>
+      {% include ads.html %}
 <p>The basic structure of a concept topic looks like this:</p>
 <div class="p">
 {% highlight xml %}- title
@@ -52,7 +53,7 @@ There are lots of strategies to consider when trying to maintain a clean home.</
   <p>The organizing principle of a clean home is to establish a place for everything.
 Without a place, you cannot establish order in your house.</p>
   </section>
-  
+
   <section><title>Everything in its place</title>
   <p>You must also define a strategy for putting everything its proper place.</p>
   </section>
@@ -96,48 +97,48 @@ Without a place, you cannot establish order in your house.</p>
 <div class="p">Here's a full working example of a
           task:
 {% highlight xml %}<task id="task_123">
-    
+
     <title>How to wash dishes</title>
-    
+
     <shortdesc>Washing dishes helps keep your kitchen clean and orderly.</shortdesc>
-    
+
     <prereq>Before doing the dishes, you will need soap and gloves.</prereq>
-    
+
     <taskbody>
-        
+
         <context>
             <p>Washing dishes properly reduces bacteria and frees up the dishware available for you for eating. If you approach dish washing in a logical, efficient manner, the task can be enjoyable and fun. </p>
         </context>
-   
+
         <steps>
             <step>
                 <cmd>Put on headphones with appropriate entertainment options.</cmd>
                 <info>Some people find that doing dishes in silence is therapeutic, but most do not. Adding an entertainment option can make dishes significantly more of an escape.</info>
             </step>
-            
+
             <step>
                 <cmd>Fill the sink with warm water.</cmd>
             </step>
-            
+
             <step>
                 <cmd>Get the scrubby warm and soapy.</cmd>
                 <info>
                     <note type="note">Make sure you don't use an abrasive scrubby for delicate glassware.</note>
                 </info>
             </step>
-            
+
             <step>
                 <cmd>Put on rubber gloves.</cmd>
                 <stepxmp>
                     For example, you might use yellow Latex gloves.
                 </stepxmp>
             </step>
-            
+
             <step>
                 <cmd>Scrub clean the dishes in soapy water.</cmd>
                 <stepresult>The dishes will be clean but soapy.</stepresult>
             </step>
-            
+
             <step>
                 <cmd>Rinse the dishes by doing one of the following:</cmd>
                 <choices>
@@ -145,18 +146,18 @@ Without a place, you cannot establish order in your house.</p>
                     <choice>Dunk them in a separate division of the sink that contains clean water.</choice>
                 </choices>
             </step>
-            
+
             <step importance="optional">
                 <cmd>Dry the dishes with a rag.</cmd>
             </step>
-            
+
             <step>
                 <cmd>Put away the dishes in the appropriate cupboards.</cmd>
                 <info>
                     <image href="cupboards.png" placement="break"/>
                 </info>
             </step>
-            
+
             <step>
                 <cmd>Stake similar dishes inside each other for maximum space efficiency.</cmd>
                 <substeps>
@@ -171,15 +172,15 @@ Without a place, you cannot establish order in your house.</p>
                     </substep>
                 </substeps>
             </step>
-            
+
         </steps>
-        
+
         <result>Congratulations, you've totally finishes doing the dishes. Now make sure that your spouse knows how hard you've worked.</result>
-        
+
         <postreq>Now you're ready to wash the counters and mop the floors.</postreq>
-        
+
     </taskbody>
-    
+
 </task>{% endhighlight %}
 </div>
 <p>As you're working in Oxygen, if you're in the Text view, type < and wait for the prompt to
@@ -260,7 +261,7 @@ Without a place, you cannot establish order in your house.</p>
           reference.
 {% highlight xml %}<map>
  <title>Glossary</title>
- 
+
  <glossref href="ot.dita" keys="opentoolkit" />
  <glossref href="ide.dita" keys="ide"/>
 
