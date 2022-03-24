@@ -39,6 +39,8 @@ These are notes for using Mercurial. (They really don't belong in the Java QRG s
 | `subl file.txt` | opens a file in sublime so you can edit it. |
 | `outgoing` | shows ally he outgoing changes |
 
+{% include ads.html %}
+
 ## Basic flow in pushing content
 
 1.  Make changes, and then go `hg commit -m "commit message"`

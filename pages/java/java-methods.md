@@ -58,7 +58,7 @@ public class App {
 
 }
 ```
-
+{% include ads.html %}
 
 ## Return types
 

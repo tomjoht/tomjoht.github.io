@@ -208,3 +208,5 @@ table>thead>tr>th {
   text-align: left;
 }
 </style>
+
+{% include ads.html %}

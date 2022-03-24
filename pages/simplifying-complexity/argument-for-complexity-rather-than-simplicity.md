@@ -48,6 +48,8 @@ Here are a few quotes from writers that give more context to the argument for co
 > “Abandon the urge to simplify everything, to look for formulas and easy answers, and to begin to think multidimensionally, to glory in the mystery and paradoxes of life, not to be dismayed by the multitude of causes and consequences that are inherent in each experience -- to appreciate the fact that life is complex.”  
 > ― M. Scott Peck
 
+{% include ads.html %}
+
 Rather than champion simplicity, these writers celebrate complexity in all its wonderful detail.
 
 [![Photo from Flickr](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/complexitystructure-600x450.jpg)](http://www.flickr.com/photos/22767170@N00/384027019/in/photolist-zWeRv-AxoB3-B8CG7-C2E28-CepFh-CLmZb-DATqX-Gg1NE-JDUoL-Q2tMz-2aS3wu-2XqUp4-39Km28-3hHsqK-3xuHb4-3xzmUC-3RQvha-487ANq-4cRsbD-4pC77a-4pGbqy-4pGbZL-4pGcBm-4xZ33U-4DuAtb-4DQR8k-4DVJCv-4NfcJn-4PkvwK-4PmFVm-4VtznM-4ZgUyX-4Zm8eq-54PwoF-5nMHtT-5nMJoD-5nMKiF-5o9boA-5pxSWf-5uQceU-5wgHFs-5B2Ahh-5BJNpf-5H4zWk-61LAwZ-63MDee-64VJxT-65112o-6511td-6512b5-6gA9BQ)

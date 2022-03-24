@@ -21,6 +21,8 @@ The task of simplifying complexity is even more difficult in the landscape of de
 
 My hope is that by understanding the right techniques and approaches, we can do our jobs better. We can provide more value in our roles. As we simplify complexity in deep ways, we can move beyond merely being perceived as editors, writers, or publishers. We become knowledge creators and usability experts in information spaces.
 
+{% include ads.html %}
+
 ## My approach
 
 I will approach this topic similar to my [API documentation site](https://idratherbewriting.com/learnapidoc/). That is, I'll add to it continually over a period of months and years, constantly refining it and developing the content based on continued feedback, thoughts, research, and experiments.

@@ -32,4 +32,4 @@ By no means have I abandoned every trend in this list. And my summaries of the "
 
 I know this can be an explosive topic, as some people might get the impression that arguing that the trends that I've abandoned are outdated, but that's not the case. One embraces or adopt various trends and technologies for different reasons, use cases, and publishing needs at the time. What makes sense in one context (company, audience, and domain) might not make sense in another.
 
-Right now, I only have writeups for about half of the trends, with placeholders for more to come. My [keynote presentation](https://stc-india.org/conferences/2022/tom-johnson-keynote/) is on March 26, so expect this series to wrap up around that time.
+My [keynote presentation](https://stc-india.org/conferences/2022/tom-johnson-keynote/) is on March 26, so expect this series to wrap up around that time.

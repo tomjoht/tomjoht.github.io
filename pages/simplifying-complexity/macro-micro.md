@@ -35,6 +35,8 @@ But this level of granularity wasn't needed here. My daughter was able to succes
 
 If the procedure weren't broken down into these individual steps, she might not have been as successful. Steps are an ingenious way to take something complicated and make it simpler and more practical. The same process scales to nearly anything.
 
+{% include ads.html %}
+
 For example, when you want to drive to a distant and unfamiliar location, you usually route the instructions on your phone using a mapping app. The app breaks down the route into individual steps that you follow. The whole process of going from one side of San Francisco to the other is too complicated to take in at once, but when you tackle the process in individual steps, you can make it through. This is why approaching technical information as task-based steps is the core strategy in technical writing. Almost every technical writer knows this technique. You identify the tasks, and then you list out approach to the tasks as individual steps.
 
 ## From steps to groups of tasks

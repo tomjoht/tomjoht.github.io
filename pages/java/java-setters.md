@@ -8,7 +8,7 @@ categories:
 jtype: notes_java
 ---
 
-## Quick Summary 
+## Quick Summary
 
 * setters refers to a technique for encapsulating a value so that users don't set invalid data types or other incorrect data as a field value.
 
@@ -42,6 +42,8 @@ return time;
 }
 
 }
+
+{% include ads.html %}
 
 and to set and retrieve them as follows:
 

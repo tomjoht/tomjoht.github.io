@@ -22,6 +22,8 @@ In "Dynamic Usability: Designing Usefulness into Systems for Complex Tasks" (ano
 
 The manager might run various reports, weigh different factors against each other, analyze trends and other conditions against the company's budget constraints, and perform other hard-to-describe tasks to arrive at a conclusion. Each analytical activity can change the path the user takes. There's a constant feedback loop with each input that affects the user's next steps through a system &mdash; hence, no linear map is available for this journey.
 
+{% include ads.html %}
+
 In these systems, presenting the user with a linear map that consists of specific tasks won't help much. Albers suggests that for these scenarios, the topics in the information system need to dynamically adhere together around the user's specific and constantly changing context. By decoupling the information into separate, semantically identified pieces, Albers says these pieces can be dynamically assembled to address the context the user needs at a particular moment in his or her journey.
 
 Again, this context and the user's information needs constantly change as the user makes his or her way through the system (with feedback loops and inputs changing the path, or other chosen variables influencing the results). In this complex system where the context constantly changes, what information model can support the user? Presumably, only an information model that can adapt and change in similar ways to meet the evolving user context.

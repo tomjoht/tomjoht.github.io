@@ -32,3 +32,4 @@ Here's what these four access modifiers mean:
 ## Don't concern yourself with private methods
 
 Usually an API has a bunch of private methods. When you generate the API docs, the private methods aren't included in the generated doc because the user can't do anything with them. It's a best practice for programmers to keep the instance variables within a class private. What programmers do is use getter and setter methods for users to access these variables.
+{% include ads.html %}

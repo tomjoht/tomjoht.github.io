@@ -52,6 +52,8 @@ public abstract void makeNoise();
 
 source: [Q&A What is an abstract class?](http://www.javacoffeebreak.com/faq/faq0084.html)
 
+{% include ads.html %}
+
 Now if another class wants to use this class, it has to extend it:
 
 ```java

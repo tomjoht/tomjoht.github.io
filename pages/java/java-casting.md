@@ -50,6 +50,8 @@ myDouble = myLong;
 System.out.println(myDouble);
 ```
 
+{% include ads.html %}
+
 But now you have the problem that you're using more memory than needed to accommodate the myDouble. It only needs to hold a long value. So you cast it like this:
 
 ```

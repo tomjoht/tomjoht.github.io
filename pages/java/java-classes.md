@@ -66,6 +66,8 @@ public class App {
 }
 ```
 
+{% include ads.html %}
+
 Here's another example. In this case, everything is in one class file called Song.java. The `main` method can appear inside of a class, which is perhaps easier to follow for these short examples.
 
 `Song.java`:

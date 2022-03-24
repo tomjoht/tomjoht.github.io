@@ -52,6 +52,8 @@ System.out.println("This won't run due to the error, because it wasn't enclosed 
 }
 ```
 
+{% include ads.html %}
+
 But if you surround the code with a try-catch block, then the error will be handled through the catch block, and the code will keep running after that block. In other words, Java tries to run the code in the `try` statement. If an error occurs, Java goes to the `catch` block and runs that.
 
 ```java

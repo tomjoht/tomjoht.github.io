@@ -28,6 +28,8 @@ With documentation, the tech writer's first task is usually to translate descrip
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/actionableinformation.png"/><figcaption>Hughes argues that technical writers don't just fix grammar and format information; they actually create new knowledge assets that become the lifeblood of the company's success. Many times, the knowledge assets reduce information bloat from engineers. (See "Moving from Information Transfer to Knowledge Creation" in *Technical Communication*, 2002)</figcaption></figure>
 
+{% include ads.html %}
+
 When some engineers write, they have a tendency to over-explain the details of how something works rather than providing the minimal amount of information the user needs to accomplish their task. For example, an engineer might explain the intricacies of architecture and design even though the user just wants to know which button to press. Reducing the information that falls outside of the user's task needs is usually the first step a tech writer takes to simplify content.
 
 Reducing information bloat is actually a byproduct of minimalism, a concept put forward introduced by John Carroll. Carroll's emphasis on action-oriented instructions usually results in a reduction of secondary, non-task-based content in docs. Hence, the docs end up being briefer due to the task-based focus. In a recent *Intercom* interview, Carroll explains:

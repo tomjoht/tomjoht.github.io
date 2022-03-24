@@ -23,6 +23,8 @@ Interfaces:
 
 Eclipse example: Interfaces
 
+{% include ads.html %}
+
 ## Detailed description
 
 An interface is a class that has methods with no bodies. It is intended to be implemented by another class that will insert their own values for the methods. It's a way of formalizing a class that will have a lot of subclasses, when you want all the subclasses to standardize on common strings and methods.

@@ -38,3 +38,5 @@ It's almost like a class. An enum isn't just another type of variable for your c
 >  public static final int WEST = 3;
 
 -- Java 7 for absolute beginners
+
+{% include ads.html %}

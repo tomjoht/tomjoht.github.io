@@ -44,6 +44,8 @@ System.out.println("Robot " + id + "is thinking.");
 }
 ```
 
+{% include ads.html %}
+
 Although you could access the inner class in your App through dot notation (such as Robot.Brain), you usually to package things up in a method in the public class. That's why the method `start` calls `brain.think`. That method can instantiate the inner class and calls its methods. The surrounding class then makes this inner class accessible by packaging it up into its own method: `start`.
 
 ## Accessing inner classes from the outside

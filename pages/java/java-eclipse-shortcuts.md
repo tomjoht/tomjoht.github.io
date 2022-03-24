@@ -20,3 +20,5 @@ There are several shortcuts with Eclipse that are indispensable.
 | right-click > surround with > try-catch block | adds try-catch block around content you highlight. |
 | type an object with a dot after it | Eclipse shows you all the methods available for that object. |
 | Command + Shift + o | Adds the necessary packages to support the classes your'e using. |
+
+{% include ads.html %}

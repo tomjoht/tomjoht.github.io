@@ -15,6 +15,7 @@ jtype: notes_javascript
 <h2>Two Components of an AJAX Call</h2>
 <p>Although making AJAX calls is more of an advanced technique in JavaScript, the following notes show the basic pattern so you can better recognize when AJAX is present.</p>
 <p>AJAX uses a new object to make the calls: <code>XMLHttpRequest</code>. However, unlike other functions, AJAX splits the call and response into two separate steps. This division of steps with the call and response allows for the asynchronous element of AJAX.</p>
+{% include ads.html %}
 <h2>The XMLHttpRequest Object</h2>
 <p>The first step is to create a new <code>XMLHttpRequest</code> object. Because of some cross-browser incompatibility in calling the <code>XMLHttpRequest</code> object, you have to create a conditional statement to account for Internet Explorer. With this conditional statement in mind, you create the new object as follows:</p>
 <p>{% highlight javascript %}var sampleRequest;

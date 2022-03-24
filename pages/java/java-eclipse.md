@@ -14,6 +14,8 @@ There are various flavors of Eclipse. You can implement different perspectives t
 
 For a great tutorial on Eclipse, see [Vogella's Eclipse IDE Tutorial](http://www.vogella.com/tutorials/Eclipse/article.html).
 
+{% include ads.html %}
+
 ## Eclipse workspaces
 
 A workspace in Eclipse is where Eclipse stores all your files, including settings and other resources.

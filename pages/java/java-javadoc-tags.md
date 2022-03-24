@@ -11,7 +11,7 @@ jtype: notes_java
 The following are the most common tags used in Javadoc. Each tag has a word that follows it. For example, `@param latitude` means the parameter is "latitude".
 
 
-| Javadoc tag | Description | 
+| Javadoc tag | Description |
 |-------|----------|
 | @author  | A person who made significant contribution to the code. Applied only at the class, package, or overview level. Not included in Javadoc output. It's not recommended to include this tag since authorship changes often. |
 | @param | A parameter that the method or constructor accepts. Write the description like this: @param count Sets the number of widgets you want included.  |
@@ -22,6 +22,8 @@ The following are the most common tags used in Javadoc. Each tag has a word that
 | @since 2.0 | The version since the feature was added. |
 | @throws | The kind of exception the method throws. Note that your code must indicate an exception thrown in order for this tag to validate. Otherwise Javadoc will produce an error. @exception is an alternative tag. |
 | @Override  | performs a check to see if the method is an override. used with interfaces and abstract classes.  |
+
+{% include ads.html %}
 
 ## Comments versus Javadoc tags
 

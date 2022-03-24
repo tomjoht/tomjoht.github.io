@@ -31,6 +31,8 @@ Advantage is that they can appear anywhere, span multiple lines, etc.
 >  Please don't do that. It's legal, but it's poor coding practice, because it makes the code harder to read.
 >  -- Java 7 for Absolute Beginners
 
+{% include ads.html %}
+
 Note that Javadoc comments are similar to block comments but with an extra asterisk at the beginning:
 
 > /**

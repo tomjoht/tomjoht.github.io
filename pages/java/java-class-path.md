@@ -13,4 +13,6 @@ _Class path_ refers to a parameter that lets the Java Virtual Machine (compiler)
 
 By default, the compiler looks in the current directory for the class files. If you're compiling from the command line using Javac (instead of compiling from Eclipse, which uses its own compiler instead of the JDK), you may need to specify the class path if the source files aren't in the current directory.
 
+{% include ads.html %}
+
 For more details, see [Setting the classpath](http://docs.oracle.com/javase/7/docs/technotes/tools/solaris/classpath.html).

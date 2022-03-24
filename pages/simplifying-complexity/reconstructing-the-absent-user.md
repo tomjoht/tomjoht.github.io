@@ -106,6 +106,8 @@ When I look at documentation metrics gathered through analytics, here's what I l
 
 In looking at metrics, it's tempting to dismiss them for their lack of insight, or to look toward collecting even more information, something along the lines of big data. Could we find more answers if we had gigabytes of user data rolling in?
 
+{% include ads.html %}
+
 Several years ago, there was a lot of buzz about big data and the insights it would bring. With the ability to capture so much information, the unexpected correlations and predictions were highly anticipated. If you can capture information from every page event (every click, every scroll, every eye movement, every parameter from the user's browser, every action at every decision point, and more), and then number crunch this data to look for meaningful correlations, we might "be able to predict huge areas of the future with far greater accuracy than ever before in human history, including events long thought to be beyond the realm of human inference" (["Nine large problems with big data"](http://www.afr.com/technology/nine-large-problems-with-big-data-20140410-jya9k)).
 
 But big data doesn't seem to have delivered on its promises, and the term appears less these days. Why? Michael Salvo and Adam Strantz explain that "Big Data remains specialized, obfuscated, and elite. There is not yet a clear way forward. There is lots of potential evident in technology and analytic methods, but no clear, direct benefit for end-users" (["Wayfinding Big Data in Technical Communication"](https://www.stc.org/intercom/2015/04/wayfinding-big-data-in-technical-communication/)).

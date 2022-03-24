@@ -36,6 +36,8 @@ this.functionKeys = functionKeys;
 }
 ```
 
+{% include ads.html %}
+
 This allows you to easily change the String functionKeys as you need it. You've encapsulated it from users changing it, screwing it up, etc.
 
 Now the user can set the value of `functionKeys` through the setter method, and then get that value. Here's an example:

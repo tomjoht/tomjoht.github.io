@@ -9,3 +9,5 @@ jtype: notes_java
 ---
 
 This section contains my notes on Java. I put the notes here mainly to provide quick access for me to review and update my knowledge about various Java topics.
+
+{% include ads.html %}

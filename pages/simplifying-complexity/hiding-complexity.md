@@ -31,6 +31,8 @@ Hiding complexity is one way to simplify the information experience for users. A
 
 When Tate designs a UI, he considers the 80/20 rule, where 80% of people use just 20% of the features. He makes the 20% of features occupy prime real estate while either removing or hiding the other less-used features.
 
+{% include ads.html %}
+
 ## Sample JS techniques for hiding information
 
 We can use a number techniques to hide complex information. Here are a variety of techniques along with examples:

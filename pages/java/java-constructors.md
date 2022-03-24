@@ -36,6 +36,8 @@ Constructors have the following characteristics:
 * It's a best practice to include a constructor with each class.
 * When there are multiple constructors for the same class (they will aloo have the same name), the arguments specified for each constructor become the distinguishing point. The constructor that is used is the one whose parameters match the incoming arguments.
 
+{% include ads.html %}
+
 ## Sample constructor
 
 Here's how you create a constructor:

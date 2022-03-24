@@ -43,6 +43,8 @@ I earned my undergraduate in English at Brigham Young University in Utah. After 
 
 My degree in literary nonfiction carries over to the writing style on this blog. At times, I try to infuse my posts with story and literary devices, weaving narrative with exploration of a topic. My favorite genre is the personal essay. Some of my good posts, I like to think, are like mini-personal essays.
 
+{% include ads.html %}
+
 ## Do You Have a Personal Life?
 
 Yes, I'm married and have four children.

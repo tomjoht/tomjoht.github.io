@@ -4,3 +4,4 @@
 * What story is your user following in their mind?
 * How do the two stories overlap? What common ground can you use in the user's story to make your product more relevant?
 * Are you developing features in your product that align with the user's story?
+{% include ads.html %}

@@ -46,3 +46,5 @@ Note that your computer needs to be able to connect to a wifi network.
 <h2>Duration</h2>
 
 The workshop lasts 3 hours.
+
+{% include ads.html %}

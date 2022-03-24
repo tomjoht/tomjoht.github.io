@@ -29,6 +29,8 @@ do {
 while(condition);
 ```
 
+{% include ads.html %}
+
 **for Loop**
 
 ```java

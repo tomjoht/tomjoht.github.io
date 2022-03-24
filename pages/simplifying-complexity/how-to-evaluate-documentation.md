@@ -19,3 +19,5 @@ At the end of each section, I include a list of questions, relevant to that prin
 {% include_relative articulate-invisible-stories-that-influence-action-questions.md %}
 {% include_relative iterative-development-of-content-questions.md %}
 {% include_relative hiding-complexity-questions.md %}
+
+{% include ads.html %}

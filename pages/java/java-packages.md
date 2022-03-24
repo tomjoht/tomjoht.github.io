@@ -36,6 +36,8 @@ In the class with your main method, if you want to use a class that's not in the
 import warehouse.Facility;
 ```
 
+{% include ads.html %}
+
 Here I'm importing the Facility class from the warehouse package.
 To use any class from a package, use this syntax:
 

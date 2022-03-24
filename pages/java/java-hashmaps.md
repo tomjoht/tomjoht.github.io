@@ -37,6 +37,8 @@ e.g.,
 map.put(5, "five")
 ```
 
+{% include ads.html %}
+
 Here's how you get a specific value from the map:
 
 ```java

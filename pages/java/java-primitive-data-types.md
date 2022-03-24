@@ -32,4 +32,6 @@ See more detail from Oracle about [Primitive Data Types here](https://docs.oracl
 > Primitive means that no class exists to define a variable of that type.
 >  -- Java 7 for Absolute Beginners
 
+{% include ads.html %}
+
 If you need decimals, you must use double or float. There's also a type called `BigDecimal` (which is similar to `BigInteger`), which can hold any number. But it takes up more memory. With floats, you put an `f` at the end of the value. Otherwise it gets cast as a `double`.

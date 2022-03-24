@@ -18,6 +18,8 @@ The servlet has a URL that corresponds to it.
 
 You normally don't write HTML to the servlet. You put your HTML into a java servlet page (jsp).
 
+{% include ads.html %}
+
 You put your web content inside the Web Content directory.
 
 The JSP page is actually compiled into a servlet before the server runs it.

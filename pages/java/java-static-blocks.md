@@ -32,3 +32,5 @@ jtype: notes_java
 >
 > }
 >  -- Java 7 for Absolute Beginners
+
+{% include ads.html %}

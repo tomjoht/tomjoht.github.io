@@ -19,4 +19,6 @@ To make your programming simpler and easier (and not drive other programmers cra
 
 ([Java 7 for Absolute Beginners](https://www.safaribooksonline.com/library/view/java-7-for/9781430236863/Chapter02.html#ch2): chapter 2)
 
+{% include ads.html %}
+
 This means that the width of your code blocks should support 80 characters. I believe this is about 600px, but I'm not sure.

@@ -22,6 +22,8 @@ Eclipse example: loops. Also see the while_loop example.
 >
 > From Java 7 for Absolute Beginners
 
+{% include ads.html %}
+
 By label, break would be like this:
 
 king:

@@ -15,3 +15,5 @@ jtype: notes_java
 > A: When an object receives a request, the object can either handle the request itself or pass the request on to a second object to do the work. If the object decides to pass the request on, you say that the object has forwarded responsibility for handling the request to the second object.
 
 From [Javaworld](http://www.javaworld.com/article/2077357/learn-java/delegates.html)
+
+{% include ads.html %}

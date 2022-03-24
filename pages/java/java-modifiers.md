@@ -27,6 +27,8 @@ See also topic Abstract methods.
 
 See also Access modifiers.
 
+{% include ads.html %}
+
 ## Static
 
 If your method is static, it cannot use instance variables that aren't also static. Static stuff must all be static. Otherwise, you introduce change where it's marked as non-changing.

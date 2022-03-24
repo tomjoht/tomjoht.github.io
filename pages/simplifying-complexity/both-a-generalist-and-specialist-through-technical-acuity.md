@@ -24,6 +24,8 @@ As a blogger, I'm conscious of my web analytics (whether metrics from clicks on 
 
 Exactly why the topic of trends is so popular, and whether bloggers have any special insight about trends, remains a bit of mystery to me. I've never considered myself an expert on trends, though after I posted my [2018 trends](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/), I literally had three separate groups invite me to speak on the topic. I've noticed that in general, people frequently associate bloggers with the topic of trends, as if trends were intertwined with the blogging brand.
 
+{% include ads.html %}
+
 I've never really dug into trends with any depth because they seem so speculative and elusive. But for once, if only to satisfy this appetite that people seem to have for bloggers to write about trends, I'd like to dig into the topic of trends with some in-depth research, analysis, and hard thinking. So sit back, hold onto your hat, and get ready for a ride deep into trends territory.
 
 ## Why trends intrigue us

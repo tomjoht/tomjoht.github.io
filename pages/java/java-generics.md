@@ -14,3 +14,5 @@ A generic is a "parameterized" class that can work with more than one type of ob
 Most commonly, you use the ArrayList class in its generic form.
 
 Eclipse example: generics
+
+{% include ads.html %}

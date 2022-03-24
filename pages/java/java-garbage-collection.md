@@ -16,3 +16,5 @@ jtype: notes_java
 >  ...
 >  If an object no longer has references held on it by other objects, that object gets garbage collected. In other words, once an object no longer has any other objects using it, that object is ready to be removed from memory. Yet another way to say this is that the object is now unreachable, meaning that no other bit of code can reach that object.
 >  Java 7 for Absolute Beginners
+
+{% include ads.html %}

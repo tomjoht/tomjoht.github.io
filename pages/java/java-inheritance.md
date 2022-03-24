@@ -50,6 +50,8 @@ public class Car extends Machine {
 }
 ```
 
+{% include ads.html %}
+
 Now `Car` inherits all of `Machine`'s properties, including its methods. You can then use this in your main method:
 
 ```java

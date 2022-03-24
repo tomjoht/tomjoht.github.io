@@ -22,6 +22,8 @@ Industrial strength installations use Apache that redirects to Tomcat to redirec
 
 There's a version of Tomcat installed with Eclipse that will create conflicts. Change some of the ports for the Tomcat installation that exists outside of your version of Eclipse.
 
+{% include ads.html %}
+
 ## Configuring Tomcat within Eclipse
 
 Click **Workbench**, then click **Add New Server**. Browse to your Tomcat installation directory.

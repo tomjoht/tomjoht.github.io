@@ -130,6 +130,8 @@ The following table includes more details from other Google Analytics reports. T
 
 All of this information is provided through Google Analytics by default. (I don't have any special scripts or other tracking cookies other than what Google adds through Google Analytics. Also note that I'm not sure how Google tracks age and gender. Google also tracks hobby categories, though I haven't shown it here.)
 
+{% include ads.html %}
+
 ## API doc traffic percentage
 
 In 2018, 59% of my site traffic came to my API documentation site ([/learnapidoc/](/learnapidoc/)). In 2019, that percentage jumped up to 72%. In 2020, this percentage climbed to 75%. And in 2021, 76%. Here's a graph showing the traffic trends to all `/learnapidoc` pages from 2017 to 2021.

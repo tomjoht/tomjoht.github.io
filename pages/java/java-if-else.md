@@ -27,3 +27,5 @@ return NORTH;
 }
 }
 ```
+
+{% include ads.html %}

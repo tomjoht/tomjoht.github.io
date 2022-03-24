@@ -20,3 +20,5 @@ Eclipse example: subclasses
 > Another kind of polymorphism (called overloading) is having the same behavior mean something different depending on the object passed to the behavior (or method). For example, our Cat object might have two methods called chase, and an instance of Cat would exhibit different behavior for the chase(Tail) method and the chase(Mouse) method. That is, we have methods of the same name, but they have different signatures (one takes a Tail object as its argument and one takes a Mouse object). That's a classic example of method overloading.
 >
 > Java 7 for Absolute Beginners
+
+{% include ads.html %}

@@ -18,6 +18,8 @@ I decided that each product needed a sidebar that would show the general pages i
 
 There wasn't room on the left, since the general category sidebar occupied that space. So I added it on the right.
 
+{% include ads.html %}
+
 ### Design principle: Hierarchy
 
 One of principles of design in [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079) is hierarchy.

@@ -30,6 +30,8 @@ To simplify the language, you can't just omit the necessary terminology for the 
 
 One commonsense approach for teaching users how to speak this language involves defining unfamiliar words for the user. You can define unfamiliar words in at least three ways: (1) include a glossary, (2) include inline tooltips with definitions, and (3) include "Background Knowledge" sections to help new users ramp up on the knowledge domain.
 
+{% include ads.html %}
+
 Since technical writers tend to be language connoisseurs, priding themselves on the ability to squeeze clarity out of engineering babble, focusing on language as a means of helping users understand content constitutes a major advantage tech writers can leverage to simplify complexity.
 
 ## Previous writing about glossaries

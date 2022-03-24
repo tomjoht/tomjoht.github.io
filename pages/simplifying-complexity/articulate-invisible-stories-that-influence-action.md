@@ -26,6 +26,8 @@ He then draws upon Janice Lauer and Janet Atwill's explanation of *telos* (or en
 >
 > Thus, products of human making are essentially inert until they are placed into use...
 
+{% include ads.html %}
+
 Johnson also draws upon John Wild, interpreting Aristotle, to explain that a concern for the end purpose of craft is what separates the artist from the technician:
 
 > A man may know all the rules of a certain art, but if he does not know when and where to apply them, the 'effects' will be of no real use. He will then be a technician rather than a true artist, for he knows only the conditions of the art, not the art itself. The specific end of the art is its work, and this is always something good or useful for some end.

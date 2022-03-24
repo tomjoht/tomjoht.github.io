@@ -38,6 +38,8 @@ To provide documentation for a complex product, one strategy is to have the spec
 
 However, here's where this model breaks down. If each expert team contributes their knowledge in a siloed, independent way, how do they know if their contributions overlap, contradict, or harmonize with the contributions that the other experts make?
 
+{% include ads.html %}
+
 This is the problem with any kind of multi-authored documentation effort &mdash; contributing experts have tunnel vision in the system. They often look (in a myopic way) at their own piece of the information landscape, because that's the area they understand in depth. When the engineer contributes a specialized article, does he or she read the other information on the developer portal to understand if the content he or she is contributing harmonizes with other information on the site? Does the contributor even read the information on the site in any depth? Suppose the site has thousands of pages of documentation. How does the contributor even know what other pages are relevant, and whether the information he or she is contributing contradicts, harmonizes, or integrates well with the other information?
 
 <figure><img class="medium" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/simplifying-complexity/distillation_and_integration_integration.svg"/><figcaption>Integrating a small unit of information into a larger body of information requires you to be familiar with the larger information landscape and what else has been written on a topic.</figcaption></figure>

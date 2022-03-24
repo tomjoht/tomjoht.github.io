@@ -18,6 +18,8 @@ If you're sharing Java files, you need Eclipse and the JDK as well as Git. If yo
 * **Eclipse**. [Download and install Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/) from the Eclipse downloads page.
 * **Java Development Kit (JDK)**. Open a command prompt and type `java -version` to see if you have Java installed already. If not, [download and install the JDK](http://www.java.com/en/download/manual.jsp) appropriate for your operating system.
 
+{% include ads.html %}
+
 ## Upload the Java projects to Github
 
 **Note:** Only the person sharing the Java files needs to create the Github repository. Everyone else will clone and pull from this repo.

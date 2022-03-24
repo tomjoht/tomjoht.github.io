@@ -11,3 +11,4 @@ jtype: notes_java
 > A stub means that we created the structure but have left at least some of the details for another time or for someone else to do.
 >
 > Java 7 for Absolute Beginners
+{% include ads.html %}

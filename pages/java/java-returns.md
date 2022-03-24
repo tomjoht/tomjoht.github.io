@@ -18,6 +18,8 @@ jtype: notes_java
 
 It's important to know what a method returns, because this is a common theme in Java documentation. If a method returns a value, then you can call that method and set it equal to a variable. This has to be one of the key things that you investigate when you look at methods: what does it return. This return logic is pretty central to Java syntax.
 
+{% include ads.html %}
+
 Here's an example:
 
 ```java

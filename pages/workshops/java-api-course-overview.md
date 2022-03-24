@@ -38,7 +38,7 @@ Java APIs are similar to C++ and C# APIs, but the syntax and tools differ somewh
 
 For example, you will learn how to use Doxygen instead of Javadoc to generate API documentation. You will also see the difference in the doc block syntax and some terminology, but other differences will not be explored.
 
-
+{% include ads.html %}
 
 <h2>Required software</h2>
 

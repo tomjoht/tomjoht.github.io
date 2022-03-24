@@ -24,6 +24,8 @@ Example:
 int newVariable = 10;
 ```
 
+{% include ads.html %}
+
 If you're declaring a primitive, the data type is spelled in all lower-case: int, double, float, boolean, char.
 
 If you're creating an complex object, the data type is uppercase.

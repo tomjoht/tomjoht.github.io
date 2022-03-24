@@ -37,7 +37,7 @@ public SortedMap<K,V> tailMap(K fromKey);
 public SortedMap<K,V> subMap(K fromKey, K toKey);
 }
 ```
-
+{% include ads.html %}
 There are 4 constructors:
 
 The TreeMap class has four constructors which work in the obvious way. The first one creates an empty TreeMap. The second constructor creates an empty TreeMap that will use the Comparator passed as an argument. The third creates a TreeMap out of the elements in the given Map. The fourth constructor creates a TreeMap out of the elements in the given SortedMap. (Just Java 2)

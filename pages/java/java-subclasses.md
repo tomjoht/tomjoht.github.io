@@ -32,4 +32,6 @@ Now Apple can use all of Fruit's members (fields and methods). However, unlike i
 >
 > > -- Java 7 for Absolute Beginners
 
+{% include ads.html %}
+
 Java can only inherit from one parent class. You cannot have multiple parents. However, you can have a class extend multiple interfaces.

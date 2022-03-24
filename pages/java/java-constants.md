@@ -8,7 +8,6 @@ categories:
 jtype: notes_java
 ---
 
-
 Constants are fields that hold values that do not change. It's a custom to format constants in full caps. When you have a modifier of "final", it's a constant.
 
 Here's a sample constant:
@@ -19,3 +18,5 @@ Here's a sample constant:
 >
 >
 > -- Java 7 for Absolute Beginners
+
+{% include ads.html %}
