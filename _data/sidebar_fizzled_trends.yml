@@ -35,8 +35,11 @@ entries:
           url: /trends/trends-to-follow-or-forget-api-documentation.html
         - title: GitHub and open-source
           url: /trends/trends-to-follow-or-forget-git-and-github.html
-
-        - title: Docs as code (coming soon...)
-
+        - title: Docs as code
+          url: /trends/trends-to-follow-or-forget-docs-as-code.html
         - title: Remote work
           url: /trends/trends-to-follow-or-forget-remote-work.html
+        - title: What conclusions can we draw about trends?
+          url: /trends/trends-to-follow-or-forget-conclusions.html
+        - title: Presentation slides
+          url: /learnapidoc/slides/fizzled_trends.html
