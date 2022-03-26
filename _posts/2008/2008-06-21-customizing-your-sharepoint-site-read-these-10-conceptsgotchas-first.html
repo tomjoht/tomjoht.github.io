@@ -39,6 +39,7 @@ published: true
 <h3>3. Like the Borg, all content pages render through Default.master or another master file.</h3>
 <p>SharePoint's files are all incestuously interconnected. If you've seen the Borg, from an episode of Star Trek, it works the same way. The Borg is a collection of individual people that are all controlled through a central person. In SharePoint, that central person is the master file. If you're using your default theme, it's the Default.master file. If you've selected Blueband, then Blueband.master is your master file.</p>
 <p>When you create a page (by going to Site Actions &gt; Create a Page), you're not creating a page that exists independent of the master. The content page renders through the master, or uses the master to render.</p>
+{% include ads.html %}
 <p>You access the master by going to _catalogs &gt; Masterpage &gt; Blueband.master in SharePoint Designer (at the site collection level). The master has numerous content placeholders, which you see when you open the master in SharePoint Designer. These content placeholders also exist on the content pages that render through the master.</p>
 <p><a href="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/2008/06/5.png"><img class="alignnone size-full wp-image-1588" title="Content placeholders" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/5x1.png" alt="" width="500" height="212" /></a></p>
 <p>If you delete a content placeholder on the master, it breaks all the pages that use the master to render. So be sure you leave content placeholders alone.</p>

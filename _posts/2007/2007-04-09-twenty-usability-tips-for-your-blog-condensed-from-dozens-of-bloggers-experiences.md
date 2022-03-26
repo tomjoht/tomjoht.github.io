@@ -10,7 +10,7 @@ status: publish
 
 published: true
 description: I've been doing research on what distinguishes good blogs from poor ones, especially by reading "lessons learned" posts by bloggers. I've come up with 20 principles I think are worthwhile. Let me know which ones you agree or disagree with.
-redirect_from: 
+redirect_from:
   - /2007/04/09/twenty-usability-tips-for-your-blog-%E2%80%94-condensed-from-dozens-of-bloggers-experiences/
 ---
 
@@ -43,6 +43,8 @@ Include an about page to let people know more about you. Are you a technical wri
 In this culture of scanning and clicking, long blocks of text aren't read. Break up your text with visuals—graphs, charts, photos, blockquotes, and videos. Annotate the images to reinforce your meaning. [Creating Passionate Users](http://headrush.typepad.com/) always reinforces its message with visuals. If you get photos from other blogs or from Flickr, include a link back to the source. Most popular blogs are visually rich.
 
 [![Present Ideas Visually](/images/presentideasvisually2.png)](http://headrush.typepad.com/creating_passionate_users/2007/03/the_best_user_t.html "Present Ideas Visually -- Creating Passionate Users")
+
+{% include ads.html %}
 
 ## 6. Keep posts short and to the point
 

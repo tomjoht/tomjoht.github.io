@@ -25,6 +25,7 @@ published: true
 <p>This will put the page title and URL in the subject of the e-mail. However, I had some problems with character limits, so here's an alternative script that puts the URL in the body of the message.</p>
 <blockquote><p>document.write("&lt;a href="mailto:joe@support.com?subject=Application%20Name%20("+document.title+")%20%20File:%20"+location.href+""&gt;Send Feedback&lt;/a&gt;");</p></blockquote>
 <p>The link will now appear in every one of your topics that uses the template.</p>
+{% include ads.html %}
 <p>If you aren't using the Insert &gt; HTML &gt; Advanced &gt; Scripts method to insert the code, then you need to include script tags around the statement.</p>
 <blockquote><p>&lt;script type="text/javascript"&gt;document.write("&lt;a href="mailto:joe@support.com?subject=Sample%20Application%20("+document.title+")&amp;body="+location.href+"%0A%0A"+""&gt;Send Feedback&lt;/a&gt;");&lt;/script&gt;</p>
 <p>&lt;script type="text/javascript"&gt; document.write("&lt;a href="mailto:joe@support.com?subject=Sample Application |  " + document.title + " | " +  location.href + ""&gt; Send Feedback&lt;/a&gt;") ;&lt;/script&gt;<br />
