@@ -21,6 +21,8 @@ Ji looked in amazement at the request, and then paced around. He wore the key ar
 
 “I want to understand our past,” Harr said, “so I can better understand my future. You have cast me out of the clan, and I am now wander alone in the wilderness. Is it such an odd idea that I would look for the lost people to connect to, who are really my people?”
 
+{% include ads.html %}
+
 Ji stroked his beard as he looked deeply into Harr’s face. He neared Ji, looking directly into his eyes, searching for signs of deceit. Then he paced slowly back and forth with his walking stick. He looked in the distant sky, thinking, always holding the walking stick in hand. He could see no stratagem that Harr might be concealing. If he gave Harr the map, the worst they could do is wander off into the remote wilderness and be lost. They would take the map with them, but he could make a copy first, perhaps. The map was surprisingly simple, and practically useless anyway. Maybe this would be a way to get rid of this menace anyway. And if they did have the record book, it would be well worth the effort to secure it again. Without it, their hunting efforts had been noticeably less efficient. The clan had been digging into their reserves for the past week. Ji wasn’t sure how long it would last before they had to resort to other measures, perhaps developing a new strategy.
 
 “Well,” Ji said. “Let’s see the record book and consider the trade, then.”

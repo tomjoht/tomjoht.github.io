@@ -33,6 +33,8 @@ When Samantha tapped the back of Grandpa’s shoulder, Grandpa’s whole body jo
 
 This story caught Grandpa’s interest, and he looked intently at Sam while she relayed it. The element about the stars seemed to mesmerize him, and although Samantha was embellishing the astronomy angle, she was playing up the only angle that would catch Grandpa’s attention and help save Harr. Since Grandpa wasn’t a biologist, or an ethnographer, but rather primary interest was astronomy, the physics of space and time, she knew his curiosity would trump any other agenda.
 
+{% include ads.html %}
+
 “Yes, I see. Tell me more,” Grandpa said.
 
 Samantha fumbled around, thinking of some other element, when Harr stepped forward.

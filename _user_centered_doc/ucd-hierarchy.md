@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > A hierarchical outline of the content (with parent and child items organized in trees) helps users both understand and visualize complex information. Hierarchies that are too complex, or which hide parent-child displays, fail to communicate. Find a balance that allows users to take in the hierarchy at a glance in a meaningful way.
 
+{% include ads.html %}
+
 {% comment %}
 ## Hierarchy provides meaning
 

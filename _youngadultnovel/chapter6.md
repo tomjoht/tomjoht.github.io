@@ -31,6 +31,8 @@ Though the intent of her mother was to shock her into becoming  serious about he
 
 She began packing at once, and within an hour she already had her bags ready to go. She didn’t have much, but she was sure to pack her songbooks. She hid them inside folded pants in case her mother checked her bags. She opened her bedroom door and set her bag by the front door. Her mother was doing the dishes when Samantha said, “I’m ready.”
 
+{% include ads.html %}
+
 Surprised, her mother turned and looked at Samantha for a few seconds. She had a dish and rag in hand, since she was doing the dishes. She expected Samantha to put up a fuss, to pout and fight her about it. Her mother dried her hands. “Huh,” she said. She considered that perhaps it was a good move, a worthwhile change for her. The change was already transforming her, perhaps.
 
 They had a last supper together. Her mother prepared Samantha’s favorite food –  mash potatoes and macaroni and cheese. They ate alone at the table, hardly saying anything. Her mother felt a wave of sadness come over her, and regret. Her only daughter was leaving. What hurt worse is that she seemed to want to leave. Samantha was unaffected, silent. Her mother wished she hadn’t suggested the move, because now she would be alone, and it would be quiet. But it was all the best, and she was prepared to make that sacrifice for her daughter.

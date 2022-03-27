@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Focus the users' attention on what matters by reducing extraneous information. Eliminate content that is merely "noise" as opposed to meaningful information.
 
+{% include ads.html %}
+
 {% comment %}
 ## Minimalism shortens exposition, focuses on tasks
 

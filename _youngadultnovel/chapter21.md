@@ -63,6 +63,8 @@ The others agreed and began setting up tents.
 
 After the tents were set up and they ate dinner, Samantha zipped herself up in her sleeping bag and tried to go to sleep. She wished she had never come on this excursion. She pulled the bag entirely up over her head and sunk deep into its warm cocoon. What was she missing? Was she crazy, hearing all of this music in her head? Maybe it was just a bunch of noise, nothing special or revelatory. Tomorrow she would confess to the group that she didn’t know where to go. She would explain that she couldn’t find the people. She would consent to any kind of fabrications Ji might want to make about finding abandoned relics of the group, suggesting that they perished. She tossed and turned in her bag, angry at herself. She thought she was more than this. She knew she had more ability than this. Instead she had looked like a fool, traipsing all over the woods like a lost fairy.
 
+{% include ads.html %}
+
 At about 2 am, she couldn’t sleep, so she unzipped the tent and slumbered over to the glowing embers of the evening fire. A thick log still burned with a glowing red base. She sat on a rock next to the fire, looking at the embers. She decided to take the two maps out of her backpack. She looked at the good map for a while, imagining the forest song play in her head a while. She hummed it a bit, softly so as not to wake the others up. She looked up at the night sky, the twinkling dots in the sky. Unlike the night before, the stars didn’t appear unusual. But so far removed from the city, they still filled the sky.
 
 After humming the tune for a while, it took on a life of its own, and then she could just sit back and listen to the music rather than consciously imagining it. The song had begun to cycle through its rhythm and melody all by itself.
@@ -83,4 +85,3 @@ She carefully zipped up her bag, which was propped up by the door of the tent. S
 
 
 <a href="{{ "/youngadultnovel_chapter22" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
-

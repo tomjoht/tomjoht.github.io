@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Users feeling stress go through an emotional state where they first freeze, then potentially flee, or fight, and finally forfeit. Write documentation with the assumption that users will read it in a state of freeze/flight. This means readers will scan, jump around, and read quickly.
 
+{% include ads.html %}
+
 {% comment %}
 
 <figure><iframe width="853" height="480" src="https://www.youtube.com/embed/kiW0vvnbI1k" frameborder="0" allowfullscreen></iframe><figcaption>How does this user consume help content?</figcaption></figure>
@@ -47,4 +49,3 @@ jtype: notes_user_centered_doc_principles
 * See also: Ockham's Razor
 
 {% endcomment %}
-

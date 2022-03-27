@@ -10,6 +10,8 @@ jtype: notes_user_centered_doc_principles
 
 > Users will learn a system better if they have to do more thinking, analysis, and other deep processing activities related to the system. Consider including activities that have users think and analyze actions in scenarios or other activities, rather than just following step-by-step instructions.
 
+{% include ads.html %}
+
 {% comment %}
 ## Provide hello-world tutorials
 

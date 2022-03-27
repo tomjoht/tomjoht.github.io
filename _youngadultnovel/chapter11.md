@@ -19,6 +19,8 @@ On his body, he wore a plain brown tunic, which extended nearly to his knees and
 
 “Oh,” Harr said.
 
+{% include ads.html %}
+
 Samantha and Harr walked on through the forest, without a plan, talking with each as they walked.
 
 “Are there many more like you in the woods?” Samantha asked.

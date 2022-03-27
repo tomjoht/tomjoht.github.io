@@ -13,6 +13,8 @@ The false bottom of the box contained a leather-bound book with pages, stitched 
 
 Before she could examine the book more carefully, in the distance Samantha heard someone calling her name. Sam, Samantha! It was the search party. She could hear the whistles and the dogs barking. Samantha tucked the leather book inside her shirt, closed the wooden box, repositioned it under the bed, and got back up on her feet. She left the cabin and hobbled toward the search party. Although her ankle was swollen, it didn’t hurt so much now, but she played up a small limp in case others wondered why she hadn’t tried to walk out.
 
+{% include ads.html %}
+
 The voices were coming from the same direction where Harr had been crouching in the bushes. When she got to the spot, she paused. The brush was settled in this space, and the dirt on the ground was stirred up. Then she saw something on the ground. She reached down and picked up a long stick with a pointed end. The pointed end had been carved into a spear, and the smoothness of the branch’s handle seemed clear indication this was a weapon.
 
 Samantha! The voices were farther off in the distance than she thought, moving away from her. They might even pass her by. Samantha dropped the spear and shouted, Here! Over here! Hey! At first the search party didn’t hear, so Samantha shouted louder and jogged toward them. Samantha put more and more weight on her twisted ankle. The search party’s sounds grew louder and louder, and soon the men recognized her in the distance. They rushed to meet her and the search was over.

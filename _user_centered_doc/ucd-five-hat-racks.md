@@ -18,6 +18,8 @@ jtype: notes_user_centered_doc_principles
 </ul>
 <p>Generally, group documentation topics by likeness more than location (except with context-sensitive help).</p></blockquote>
 
+{% include ads.html %}
+
 {% comment %}
 
 ## Five Hat Racks Example

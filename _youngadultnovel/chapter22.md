@@ -35,6 +35,8 @@ Samantha sat curiously on the ground and opened her bag while she thought. She h
 
 She pondered the musical notes, the way they rose and dipped. It was impossible to see where the notes began and ended. It was one continuous line of music. She got up and touched one of the notes. It had been etched in stone with some kind of chisel. She ran her fingers across the musical etchings. Then she returned to the circle and sat down again.
 
+{% include ads.html %}
+
 Samantha reflected on the days events. She had abandoned the group, and it seemed right to leave them. They were probably just waking up, wondering where she was. Grandpa would be worried. He might suspect Ji had even done something to her in the night, perhaps carried her away. Harr might be tracking her right then, the whole crew in fact. She hadn’t bothered to hide her trail, and with a forest floor of dirt, soft dirt in places, it would be easy to find her path and follow her. If she was going to do something, she should do it soon, before the others arrived.
 
 Samantha closed her eyes and tried to envision the lost people. What could they have done in 300 years? Where could they be?

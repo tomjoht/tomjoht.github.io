@@ -36,3 +36,5 @@ Here are the principles covered in the course.
 * Immersion
 * Consistency
 * Forgiveness
+
+{% include ads.html %}

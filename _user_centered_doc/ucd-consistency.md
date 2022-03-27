@@ -10,6 +10,8 @@ jtype: notes_user_centered_doc_principles
 
 > Follow the same patterns (navigation, naming, locations, look and feel) from one instance of your tech docs to another. Additionally, maintain consistency with industry-wide help standards and approaches.
 
+{% include ads.html %}
+
 {% comment %}
 ## Same experience across doc sets
 

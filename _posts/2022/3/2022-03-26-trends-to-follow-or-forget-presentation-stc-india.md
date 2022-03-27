@@ -1,5 +1,5 @@
 ---
-title: "Trends to follow or forget presentation to STC India"
+title: "Keynote presentation to STC India 2022 (Trends to follow or forget)"
 permalink: /trends/trends-to-follow-or-forget-presentation-stc-india.html
 categories:
 - technical-writing
@@ -21,7 +21,7 @@ podcast_length: 45459515
 
 ## Presentation description
 
-I gave this presentation at the [23rd STC India Annual Conference](https://stc-india.org/conferences/2022/), whose theme this year was "Evolve," on March 26, 2022. You can [view my presentation here](https://stc-india.org/conferences/2022/tom-johnson-keynote/) on the STC site. Here's my presentation's description:
+I recently gave a keynote presentation at the [23rd STC India Annual Conference](https://stc-india.org/conferences/2022/), whose theme this year was "Evolve." You can [view my presentation here](https://stc-india.org/conferences/2022/tom-johnson-keynote/) on the STC site (given March 26, 2022). Here's the presentation's description:
 
 > **Trends to follow or forget**
 >

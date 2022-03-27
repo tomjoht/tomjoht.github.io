@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Break up content into independent topics that can be viewed, understood, and updated independent of the whole. A topic or chunk should not be so interconnected with the whole that it cannot stand on its own.
 
+{% include ads.html %}
+
 {% comment %}
 ## Users read non-sequentially
 
@@ -60,13 +62,13 @@ jtype: notes_user_centered_doc_principles
 * Users arrive at any point -- usually from search
 * How functional is doc in this paradigm?
 * How do you write help for this?
- 
+
 ## Create self-contained topics
 
 <a href="https://codex.wordpress.org/Installing_WordPress"><img class="shortened" src="/user_centered_doc/media/rasters/wordpress.png"/></a>
 
 * WordPress installation page really long
-* Encyclopedic wikis lend themselves to EPPO style 
+* Encyclopedic wikis lend themselves to EPPO style
 * Topics more thorough, standalone
 
 

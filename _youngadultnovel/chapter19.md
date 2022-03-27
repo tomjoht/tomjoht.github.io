@@ -47,6 +47,8 @@ Samantha carefully looked into Ji’s face, trying to determine whether he was t
 
 “So you see,” Ji said. “Even if we walk around aimlessly for two weeks and return to camp empty handed, I still win. My people will assume the dissenters met their death long ago. My people will be more loyal to the clan than ever before.”
 
+{% include ads.html %}
+
 This was getting complicated, Samantha thought to herself. If she didn’t find the people, Ji could tell stories to his people about how this group perished in the wilderness. He might even say they had run across some old camps or other relics of the lost people, purposely mistaking any old wilderness structures as remnants of the people. He could embellish it all he wanted, and what could she do? This is why he was so willing to follow her aimlessly as she traipsed up and down forest trails.
 
 But what would happen if they found the banished people? What then? Would Ji slaughter them? Would they even let themselves be found? Surely they would consider his approach in camp with hostility. Finding the lost people in a well-off state would be unacceptable to Ji. Samantha wasn’t sure what she would do if that happened.

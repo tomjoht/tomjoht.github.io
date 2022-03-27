@@ -53,6 +53,8 @@ Harr looked at Samantha with soft eyes, as if looking for understanding.
 
 Just then Ji appeared back at the trail. “Do you have the navigation sorted out yet?” Ji said. Harr looked up, and Ji could see distrust in his eyes. Harr looked at Ji suspiciously.
 
+{% include ads.html %}
+
 Harr and Samantha got up and followed Ji and the others. They didn’t say anything to Ji for a while, and Samantha started to think Ji might know they were onto his plans, so she made up some smalltalk.
 
 “We were trying to figure out the shortest path out of the Wabash,” Samantha said. “We considered the traditional paths but thought it might be better to take a few shortcuts.”
@@ -100,5 +102,3 @@ She walked on the dark, trying to interpret the music she was hearing. Behind th
 Although Samantha concentrated more on the sounds, the music soon faded and everything was silent again. She stood still in the darkness for a minute, keeping her eyes closed. Now that the music was quiet, she opened her eyes and turned to go back towards the tent. As she turned and started to go, she  jumped back, startled. There was a figure about ten yards behind her — a dark, towering, skinny figure, Ji.
 
 <a href="{{ "/youngadultnovel_chapter19" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
-
-

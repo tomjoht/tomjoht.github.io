@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Sentences should be simple, clear, and easy-to-understand, especially as the concepts get more complex. In fact, the more complex the material, the simpler the sentences need to be.
 
+{% include ads.html %}
+
 {% comment %}
 ## Unreadable content &mdash; no list formatting
 

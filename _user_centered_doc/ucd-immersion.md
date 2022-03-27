@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Users desire to be immersed in the application or system they're using. They don't want to leave that system to consult a separate, external system for help. As much as possible, bring help into the application to prolong the user's immersion in the application context.
 
+{% include ads.html %}
+
 {% comment %}
 ## Users don't want to use help
 
@@ -28,7 +30,7 @@ jtype: notes_user_centered_doc_principles
 <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_help_api.html"><img src="/user_centered_doc/media/rasters/tooltipdemo.png"/></a>
 
 * Simple popovers or tooltips work well
-* Provide UX designers with JSON file to act as content API 
+* Provide UX designers with JSON file to act as content API
 * This is easiest way to do in-app help
 
 ## Fitt's Law
@@ -45,7 +47,7 @@ jtype: notes_user_centered_doc_principles
 
 * Look at all the text
 * UX doesn't want to overload b/c text only helpful the first time
-* Tech writers should play larger role in UI than they usually do 
+* Tech writers should play larger role in UI than they usually do
 
 ## This is the same UI without text
 
@@ -67,4 +69,3 @@ jtype: notes_user_centered_doc_principles
 * See also: Fitt's Law
 
 {% endcomment %}
-

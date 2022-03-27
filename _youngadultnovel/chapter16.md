@@ -23,6 +23,8 @@ They were gone for some time retrieving the surprise. Harr sat dejected on the s
 
 Harr looked over at Samantha. “It is true,” Harr said. “About 300 years ago, a large group of my ancestors disappeared. They were the most intelligent of all the groups. They were neither observers, record keepers, interpreters, or hunters. Back then we didn’t have that division among the people.”
 
+{% include ads.html %}
+
 “What, then? What did they do?” Samantha asked.
 
 “The details aren’t that clear,” Harr explained. “Mostly we interpret from their archives how they lived. It seems some were scientists, others were artists, others musicians, others philosophers. It’s hard to tell because they didn’t draw sharp distinctions between these groups. An artist was a philosopher as well as a scientist. They saw unity across the disciplines, so that they weren’t separate but rather one continuous whole.”

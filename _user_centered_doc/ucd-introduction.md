@@ -32,6 +32,8 @@ I gained some [good insights from these usability sessions](https://idratherbewr
 
 However, these insights were drawn from a small number subjects. It could take years of observation to arrive at a core set of design principles that would be thoroughly tested across many different documentation scenarios and demographics.
 
+{% include ads.html %}
+
 Rather than try to reinvent the wheel by launching thousands of usability studies focused on documentation, I decided instead to piggyback on known design principles. There are already an abundance of known, researched, universal principles of design that have been validated time and again. We can simply apply these general principles to documentation scenarios.
 
 ## Universal Principles of Design

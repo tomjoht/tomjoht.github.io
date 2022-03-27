@@ -13,6 +13,8 @@ jtype: notes_user_centered_doc_principles
 
 See [Applying Progressive Information Disclosure to Online Help Navigation](https://idratherbewriting.com/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) for more details.
 
+{% include ads.html %}
+
 {% comment %}
 ## Strip tease your information
 

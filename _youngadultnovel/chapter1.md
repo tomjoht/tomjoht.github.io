@@ -15,6 +15,8 @@ Her mother and brothers were so far back, she couldn’t hear them, not even whe
 
 She began walking again, and started humming a tune. She liked to keep her eyes closed while she walked, so she could feel the surroundings. When you close your eyes, your hearing sharpens. Your body magnifies the active senses. She couldn’t keep her eyes closed too long without tripping on rocks or tree roots, so she squinted, and listened. She hummed what she imagined could be the song of the earth, the ground awakening. Her hum was a slow soft hum that increased more and more as the dust awoke. In her mind she imagined a soft, slow swirling cloud of dust rising from the ground — the earth awakening. What sounds would this awakening make?
 
+{% include ads.html %}
+
 Squinting as she did, she rarely looked at the trail. She focused more on the song in her head, seeing the notes slowly dance about, and without knowing it, in a small, almost unnoticeable decision, she soon veered down a small deer trail, a side path. She took it as the main trail. She didn’t even realize the path had forked, or that she’d taken a wrong trail. It’s often the case that trails branch out, and it’s easy for someone to take a wrong turn.
 
 Samantha moved forward with the same confidence, matching her pace with the awakening earth, stepping over fallen logs, moving quickly under canopies of green trees and underbrush on each side of her. Her voice had changed from a low hum to a fast-pitched tune, as she imagined the earth coming more and more alive.
@@ -71,5 +73,3 @@ At least out here, alone, she could sing as much as she wanted. The cabin’s wa
 Samantha knew she wasn’t normal, if there was such a thing. She felt she was special in some way, like she had a purpose. Only she didn’t know it. Her life was important, but for what end? How would she bring about the events that must surely come? Music was her future, somehow, but it was always discouraged, and so remained in the background, something she could do in her time alone. In her personal prayers at night, Samantha would feel the words, Sing, Samantha, Sing. But when she did, if her mother was around, her mother would say Quiet, Samantha. Focus.
 
 <a href="{{ "/youngadultnovel_chapter2" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a><li>
-
-

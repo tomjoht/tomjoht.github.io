@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Pictures combined with text provide users with better comprehension and recall. Especially as users quickly scan a page, pictures help users understand the material better. Pictures should be simple, concrete, and reinforce a clear message.
 
+{% include ads.html %}
+
 {% comment %}
 ## Engineers love the whiteboard
 
@@ -30,7 +32,7 @@ jtype: notes_user_centered_doc_principles
 <a href=""><img src="/user_centered_doc/media/rasters/howbrainswork.png" style="width: 63%;"/></a><figcaption><small>Ruth Clark and Chopeta Lyons, <a href="http://www.amazon.com/Graphics-Learning-Guidelines-Designing-Evaluating/dp/0470547448"><i>Graphics for Learning</i></a></small></figcaption>
 </figure>
 
-* Visuals manage cognitive load 
+* Visuals manage cognitive load
 * Working memory can only hold so much
 * Dual encoding (adding audio) boosts learning
 

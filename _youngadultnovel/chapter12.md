@@ -53,6 +53,8 @@ I guess the right song came on the radio — I can’t remember what it was, but
 
 I got a good enough look at them, at their posture and movement, that I started drawing them in my notebook. I estimated their heights and weights, and the furtive jungle crawl they adopted as they moved through the grass..
 
+{% include ads.html %}
+
 I figured if I could draw them out again, towards an unknowing trap, I could catch one. The trap would need to be a false floor on the ground. Immediately after the false floor falls through, I’d need a net or some other cover to enclose them in there. I drew several sketches of the trap in my notebook, and had some other calculations estimating their times and trajectories in the forest.
 
 “I wondered if they guided themselves via star orbits, so I made notes about that too. It seemed that, in fact, their appearance did coincide with the size of the crescent of the moon, but it may just be that a waxing moon gives off more light to see them.

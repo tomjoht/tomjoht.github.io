@@ -11,6 +11,8 @@ jtype: notes_user_centered_doc_principles
 
 > Taking risks, experimenting, and exploring systems on their own helps users learn. When users make errors during these activities, help guide them back on the right path.
 
+{% include ads.html %}
+
 {% comment %}
 ## Sample help in console with Jekyll includes
 

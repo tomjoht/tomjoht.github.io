@@ -11,6 +11,8 @@ When he approached the edge of the meetingplace, he decided to peer from behind 
 
 He could see the girl tied up with rope around a tree. Near her, Ji and the interpreters carefully studied a book. The book! They must have found it. The girl must have had it, and they retrieved it. Harr felt a sigh of relief. But why was she still tied up? What more did they want? Did she know too much? Were they punishing her?
 
+{% include ads.html %}
+
 The interpreters argued over something, and one of them picked up a rock in anger and threw it. Without knowing, he threw it in Harr’s direction and almost hit him. Another interpreter grabbed the book and started making a case for some thing in front of the others. What had she done to the book? Did she scribble in it? Did she alter it? Did she rip out the pages and replace them with something else?
 
 One of the interpreters, who had been studying the book for a while, stomped over to the girl and demanded to know something. Harr couldn’t make out what they were saying. When she didn’t answer, he grabbed her hair and yanked it back. Another who had been examining the book came over and demanded something of the girl as well. When she didn’t answer, he slapped her across the face.

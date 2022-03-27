@@ -17,6 +17,8 @@ jtype: notes_user_centered_doc_principles
 > * 70% + contrast
 > * Leading 1-4 pts more than font size
 
+{% include ads.html %}
+
 {% comment %}
 ## Legibility example from Apple
 

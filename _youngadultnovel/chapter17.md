@@ -48,6 +48,8 @@ Ji did seem sincere in saying this. But Samantha felt there was more than he was
 
 Samantha felt a pang of terror. Nearly an hour ago, Ji was plotting their deaths with the snake of truth. Now he wanted to join forces on a quest to find the lost people? Could he be trusted? Did they really have a choice? He could be a powerful asset in their journey, and he knew more than anyone else about the records and the legends of the ancestors. They couldn’t exactly turn him down.
 
+{% include ads.html %}
+
 Seeing the parallels with the music, Samantha knew her destiny lay somewhere in that string of notes. She was being chosen or singled out for something — just what she didn’t know.
 
 “Very well,” said Samantha. “You can accompany us, but let’s be clear on one thing: on this journey, you are no longer the leader. I am. You listen to me. You share all knowledge with me. You don’t hold back anything, no tricks. Got that?”
@@ -119,4 +121,3 @@ Then the voices slowly started again.
 “Of course not,” Ji said. And then he laughed. The others laughed too, and it sounded like a grand old time they were having.
 
 <a href="{{ "/youngadultnovel_chapter18" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
-

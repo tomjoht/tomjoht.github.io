@@ -19,6 +19,8 @@ Samantha knew how to calculate the area of a rectangle or square. But the forest
 
 While Samantha worked on the problem, Grandpa stole onto the deck and looked at the forest through his large telescope. Samantha thought most people used telescopes at night to examine the stars, but Grandpa used it to peer into the depths of the forest. As he looked and turned the focusing ring to adjust the view, he often pulled away and would jot a few notes down in a notebook. Sometimes he would laugh as he wrote the notes, and then return his gaze to the telescope, change the angle a bit, zoom in, and then chuckle a bit. “Perfect,” he said, and then made a few more notes.
 
+{% include ads.html %}
+
 Samantha wished she could read inside Grandpa’s notebook, but he was too secretive about his research to let others know what he was up to. Whenever Samantha would ask him, he would say, “All in due time, Sam. Be patient, and observant for now.”
 
 Samantha decided to divide up the forest into a series of squares, rectangles, and triangles. She knew the formulas for calculating the area for these shapes, and she began making her own notes, jotting down dimensions. As she made notes of the dimensions, the forest song began to rise gradually in her mind, growing louder and louder the more dimensions she wrote down. The music pulsated with almost a controlling rhythm, mixing her emotions inside her, almost making her dizzy.

@@ -11,12 +11,12 @@ jtype: notes_user_centered_doc_principles
 
 > The larger, more complex the system, the greater the strain on the user. The greater the strain, the lower the user's success. In many cases, documentation that is too massive deflates the user from even trying at all. Provide getting started tutorials and quick reference guides to reduce the performance load and encourage first steps in a system.
 
-
+{% include ads.html %}
 {% comment %}
 ## Users resist long documentation
 
 <a href="https://idratherbewriting.com//images/qrgpowerpoint.pdf"><img src="/user_centered_doc/media/rasters/minson.png"/></a>
- 
+
  ## When it becomes worth it
 
 > "An information retrieval system will tend not to be used whenever it is more painful and troublesome for a customer to have information than for him not to have it." <br /><a href="https://en.wikipedia.org/wiki/Mooers%27_law">Mooer's Law</a>
@@ -27,7 +27,7 @@ Instead of eliminating potentially useful info, provide quick reference guides t
 
 ## What are quick reference guides
 
-* Differs from getting started, but both are welcome 
+* Differs from getting started, but both are welcome
 * Main tasks described in compressed, poetry-like form
 * Like cliff notes or cheat sheet
 * Shows shape of help content

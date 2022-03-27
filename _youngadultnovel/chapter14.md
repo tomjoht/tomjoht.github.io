@@ -21,6 +21,8 @@ Harr looked at Grandpa. Samantha looked at Harr. Was he actually serious, Samant
 
 Harr said, “No, your plan is good but too dangerous. There are too many risks that could go wrong. You can’t predict that you’ll have anything to splash on Ji, and even if you bring some putrid chemical to throw, how can you be sure the other clan members won’t strip you of it and anything else as they carry you into camp?”
 
+{% include ads.html %}
+
 Grandpa changed his plan a bit and said he would go in there with his shotgun, firing rounds toward in a lot of different directions and making demands until one of them caved. He could even take one of the clan members prisoner, darn it. Grandpa was moving full-throttle with this idea and spitting a bit in his enthusiasm when Samantha spoke up and said, “Grandpa, no. You can’t do that. They would snatch you up in one of their snares and probably leave you tied up in the forest indefinitely. I’ll go in and reason with Ji. I’ll explain our quest and let him know that we want to reunite him with his ancestors. I’ll play up the angle that we’re connecting him with his lost forefathers.”
 
 Grandpa thought that her plan was even more lunatic than his. “I can’t let you do that, Sam. Not after what happened last time. I’m responsible for your safety you know.”
@@ -60,4 +62,3 @@ As Harr and Samantha reached the camp, they noted various observers making a com
 Harr raised one of his hands and said, “I have the record keeper’s book.” Ji lowered his hands and then motioned for Harr to come forward.
 
 <a href="{{ "/youngadultnovel_chapter15" | prepend: site.baseurl }}"><button type="button" class="btn btn-warning">Next</button></a>
-

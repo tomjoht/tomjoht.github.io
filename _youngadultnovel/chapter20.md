@@ -37,6 +37,8 @@ Samantha stood in the night, silent, trying to absorb the last of the moment.
 
 “When I got my first telescope, you couldn’t take it out of my hands. I was out here every night, trying to see some new star,” Grandpa said.
 
+{% include ads.html %}
+
 By the time he finished lacing his boots and stood beside Samantha, all the magic of the night had gone. The music had entirely disappeared, and it was perfectly quiet again. In the quiet of the night, the stillness, she could feel a heavy vapor in the air. She could feel it settling in the grass as a night dew.
 
 “What drew me to astronomy,” Grandpa explained, “was the principle of light. You see all these stars. All we’re really seeing is patterns of light that existed millions of years ago. It’s like we’re looking out into the past, seeing the light from objects that escaped millions of years ago from these distant stars. Their distance is so great that, even traveling at the speed of light, it takes  millions of years for the light to reach us.”
