@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Advertising
-permalink: /advertising/
+permalink: /advertising_old/
 type: page
 last-modified: 2022-03-20
+published: false
 ---
 
 I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially concerning [API documentation](/learnapidoc/). Because of this, I can help increase your product or service's visibility more than any other technical writing site online.
@@ -123,21 +124,6 @@ Here are some sample product reviews I wrote previously:
 * [Adobe FrameMaker 2017 -- time, tools, and the tech writer’s focus on content](/2017/03/06/adobe-framemaker-2017-doc-time-and-tools/)
 * [Xeditor, a CMS editor for XML content](/2016/03/30/xeditor-xml-editor-for-your-cms-or-ccms/)
 
-<p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Link with href
-  </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </div>
-</div>
-
-
 Product review posts can focus on features in a new release. (Having something newsworthy to write about helps establish the article's relevance.) But you don't have to focus on news. You can also tell your product's story, zero in on a key use case, or cover other information. These review posts aren't merely marketing material converted into a blog post. I try to put a personal spin on posts to connect with my audience.
 
 If possible, I'll download and explore your product before writing about it. But I don't have unlimited time to ramp up to an expert level on your product. I try to draw upon my industry insight and perspective to make insightful points. You'll also probably supply me with the information and messages you want to communicate.
@@ -173,6 +159,41 @@ I send out about 3 newsletters a month to all my email subscribers (6,000 + read
 The image format can be any standard image format (usually JPG or PNG), but not animated. The cost for advertising in the newsletter space is $1,200 per year.
 
 Instead of a graphic, you can also replace this with a text snippet to promote a product or service. For example, you might have a release or other announcement that you want to make clear. In this case, the text would be several sentence in length and point to a URL.
+
+## Footer banners {#footerbanners}
+
+The footer banner (728 x 90px) appears below each post, right above the comments, in the single post view. This space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post.
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
+
+Horizontal Inline ads can be JPG, PNG, GIF, or SVG. Unlike other spaces, here animated GIF is allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There is no limit to the number of horizontal inline post ads that can appear below the post. The cost for inline horizontal ads is $1,500 per year.
+
+## Podcast ads {#podcast_ads}
+
+Podcasts are two-minute audio commercials that appear within podcasts that I record. The podcast ad appears within the first 15 minutes of the podcast in a random location. For the ad, you can either send me a prerecorded audio commercial, or you can send me some copy that you want me to read. The copy must be readable within a two-minute timeframe.
+
+You can see all podcasts on my site on the [Podcasts](/category-podcasts/) page. I have recorded more than 200 podcasts and have a reputation in the industry for this medium.
+
+The cost is $100 per podcast ad, and you can buy blocks of them. For example, if you want to have 6 podcast ads, the cost would be $600.
+
+## Sidebar ads {#sidebarad}
+
+Sidebar ads include a 250px x 150px graphic with an article link below the graphic. They appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+
+Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. GIFs or other animations aren't allowed. You can switch the ad at any time by sending me a new graphic. Typically, the article link below the ad points to a product review post or other enticing article.
+
+<figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/ads_sidebar.png" alt="sidebar ads" max-width="340"/><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+
+The cost for sidebar ads is $1,000 per year. For 6 months only, the cost is $600.
+
+## Top Banners {#topbanners}
+
+The top banner (400 x 60px) refers to the top section of the site, in the upper-right corner. The top banner ad appears in one of the most visually dominant places on the site.
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/top_banner-600x292.png" alt="Top Banner Ad Space" max-width="600" /> <figcaption>The Top Banner ad space, which appears at the top of the site, catches the eye of most readers.</figcaption></figure>
+
+Top banner ads can be JPG, PNG, or SVG. (Animated GIFs aren't allowed.) There is only one ad in the top banner ad space per advertiser, but it can rotate depending on the number of ads you want to put in this space. For example, if you have three top banner ads, the ads can rotate in this space with each page refresh. The cost for top banner ad space is $3,000 per year. Only one advertiser can rent this space because it's the main billboard for my site.
 
 ## Taking the next step
 
