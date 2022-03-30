@@ -38,3 +38,5 @@ I recently gave a keynote presentation at the [23rd STC India Annual Conference]
 If you just want the audio, here it is.
 
 {% include audio.html %}
+
+{% include ads.html %}

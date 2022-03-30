@@ -22,6 +22,8 @@ In contrast, engineers who work closely with their engineering peers as they bui
 
 Then again, to excel in the tech writer role, you don't work in isolation. You meet regularly with different people and teams, more so than engineers who might be shoulder-to-shoulder with the same small group. A large documentation project might require tech writers to meet with product managers, engineers, quality assurance teams, marketing groups, support teams, business stakeholders, and more. Meeting with this variety of people, even if only briefly and somewhat sporadically, might touch that same social core &mdash; assuming all the meetings at work aren't just video conferences.
 
+{% include ads.html %}
+
 Post-pandemic, with more options to work remotely, will more tech writers embrace the full WFH option (if available to them)? It's unclear. The allure of remote working might include better housing and location options, more flexible schedules, and other incentives. Tech writers could find ways to compensate for the social isolation by becoming more involved in communities online, such as through Write the Docs Slack or local meetups. They could get more involved in the city groups around them (e.g., sports leagues, book clubs, hiking groups, etc.) to fulfill the social element. Ultimately, as the Metaverse rolls out, they might find social connections in more interesting digital spaces. With this social element fulfilled, the idea of commuting into work might seem like an antiquated model, almost like imagining a time before the internet.
 
 It might be another couple of years before we see how the remote work trend plays out. But if it does, tech writers are in a good position to excel in this remote model.

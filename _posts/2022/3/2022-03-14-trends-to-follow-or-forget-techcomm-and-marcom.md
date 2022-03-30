@@ -36,6 +36,8 @@ Additionally, some marketing collateral, such as [this ebook about publishing on
 
 At one point, the marketing team even adopted [Adobe Experience Manager](https://business.adobe.com/cy_en/products/experience-manager/adobe-experience-manager.html) (an expensive CMS), which has an [XML documentation component](/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/) that I described in a sponsored post. I thought this CMS would allow us to re-use documentation in marketing assets, but apparently you could only embed docs in certain regions in templates, not freely mix docs with marketing content. At any rate, we didn't want to migrate all content to XML and manage it in that system anyway, so the team never invested in the actual XML documentation component required for this collaboration.
 
+{% include ads.html %}
+
 Sadly, even in a scenario where tech docs and marketing were on the same team, we struggled to blend tech comm and marcom in harmonious ways. One reason for our lack of success was simply bandwidth. As tech writers, we always had our hands full with documentation needs, and had little time to collaborate on marketing assets. Marketers and tech writers still mostly operated in separate silos.
 
 ## Current status
