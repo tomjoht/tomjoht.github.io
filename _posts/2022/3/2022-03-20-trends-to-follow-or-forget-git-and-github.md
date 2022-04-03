@@ -25,7 +25,7 @@ Additionally, when your content is on GitHub, contributors can create pull reque
 For more information on Git and GitHub, see my post [The genius of Github and how it can transform tech comm](/2015/02/18/the-genius-of-github/). See also this Cherryleaf podcast: [GitHub for Technical Writing](https://cherryleaf.podbean.com/e/122-github-for-technical-writing/). And see these topics from my API course:
 
 * [Version control systems (e.g., Git)](/learnapidoc/pubapis_version_control.html)
-* [Manage content in a GitHub wik](/learnapidoc/pubapis_github_wikis.html)i
+* [Manage content in a GitHub wiki](/learnapidoc/pubapis_github_wikis.html)
 * [Pull request workflows through GitHub](/learnapidoc/pubapis_github_pull_requests.html)
 
 ## Why I adopted GitHub

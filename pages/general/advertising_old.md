@@ -66,7 +66,7 @@ You can select from several different spaces or services below. The availability
     <tr>
     <td markdown="span">[Footer banner](#footer_banner)</td>
     <td markdown="span">728x90 px banner at bottom of post</td>
-    <td markdown="span">$1,500/year</td>
+    <td markdown="span">$2,000/year</td>
     </tr>
     <tr>
         <td markdown="span">[Top Banner](#topbanners)</td>

@@ -59,6 +59,11 @@ You can select from several different spaces or services below. The availability
     <td markdown="span">400 x 60px or 1 paragraph</td>
     <td markdown="span">$1,200/year</td>
 </tr>
+<tr>
+<td markdown="span">[Footer banner](#footer_banner)</td>
+<td markdown="span">728x90 px banner at bottom of post</td>
+<td markdown="span">$1,500/year</td>
+</tr>
     </tbody>
 </table>
 
@@ -173,6 +178,16 @@ Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must 
 The sidebar ads appear after any sidebar navigation links. For example, for the [API doc course](/learnapidoc/), the sidebar ads appear after the page navigation in the left. On the blog, if there's a series, such as this [series on trends](/trends/trends-to-follow-or-forget-intro.html), the sidebar ads appear below the page navigation.
 
 The cost for sidebar ads is $800 per year.
+
+## Footer banner {#footer_banner}
+
+The Footer Banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display grahpics.
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
+
+Footers banners can be JPG, PNG, or SVG. Animated GIF is not allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There's a limit of 4 horizontal inline post ads that can appear below the post.
+
+The cost for a footer banner is $1,500 per year.
 
 ## Taking the next step
 

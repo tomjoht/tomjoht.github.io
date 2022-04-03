@@ -23,7 +23,7 @@ Another gap with specialists involves understanding users &mdash; their experien
 
 Some academic research indicates that identifying gaps and errors in docs can be one of the main contributions generalists can make. In an article titled [How API Documentation Fails](https://ieeexplore.ieee.org/document/7140676/) (published in [*IEEE Software*](https://ieeexplore.ieee.org)), authors Martin Robillard and Gias Uddin surveyed developers to find out why API docs failed for users. They found that most of the shortcomings were related to content, such as information that is incomplete, inaccurate, missing, ambiguous, fragmented content, etc. They summarized their findings in this chart:
 
-<a href="https://ieeexplore.ieee.org/document/7140676/"><img src="https://idratherbewriting.com/learnapidoc/images/whyapidocsfail.png" alt="Reasons why docs fail for developers"/></a>
+<a href="https://ieeexplore.ieee.org/document/7140676/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/whyapidocsfail.png" alt="Reasons why docs fail for developers"/></a>
 
 The problem, they explain, is that the very people who can fix this content are usually fully engaged in development work. Robillard and Uddin write:
 

@@ -25,7 +25,7 @@ I, too, started playing around with Stoplight. I was curious to see whether the 
 
 Stoplight's visual modeling tools eliminate the need to be familiar with the format of the specification. You don't have to know the data type for each property, whether the property needs to be indented or defined directly and so forth. That level of complexity has been abstracted away in a GUI for designing your API.
 
-<figure><a class="noExtIcon" href="https://next.stoplight.io/"><img class="docimage large border" src="https://idratherbewriting.com/learnapidoc/images/stoplightappinterface.png" alt="Stoplight app interface" /></a><figcaption>Stoplight provides visual modeling tools to describe your API. The screenshot above shows the UI for documenting parameters. Stoplight's UI produces a valid OpenAPI specification document, which is then used to drive other API services and activities on their site.</figcaption></figure>
+<figure><a class="noExtIcon" href="https://next.stoplight.io/"><img class="docimage large border" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/stoplightappinterface.png" alt="Stoplight app interface" /></a><figcaption>Stoplight provides visual modeling tools to describe your API. The screenshot above shows the UI for documenting parameters. Stoplight's UI produces a valid OpenAPI specification document, which is then used to drive other API services and activities on their site.</figcaption></figure>
 
 {% include ads.html %}
 
@@ -80,7 +80,7 @@ In this design-first model, technical writers can also insert themselves early i
 
 In addition to putting the OpenAPI specification at the center of the API lifecycle process, Stoplight has some other features of particular interest to technical writers. Stoplight offers a hosted docs solution, where you can integrate your non-reference content (the tutorials, guides, and other how-to's) together with the reference API docs. Here's an example hosted doc site on Stoplight for a product called [Shopgate](https://developer.shopgate.com/docs/).
 
-<figure><a href="https://developer.shopgate.com/docs/"><img alt="Shopgate docs" src="https://idratherbewriting.com/learnapidoc/images/shopgate.png" class="noExtIcon" /></a><figcaption>You can integrate your reference and non-reference documentation in Stoplight's hosted doc solution. Integrating these two content types has been a longtime challenge for tech writers in the API doc space.</figcaption></figure>
+<figure><a href="https://developer.shopgate.com/docs/"><img alt="Shopgate docs" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shopgate.png" class="noExtIcon" /></a><figcaption>You can integrate your reference and non-reference documentation in Stoplight's hosted doc solution. Integrating these two content types has been a longtime challenge for tech writers in the API doc space.</figcaption></figure>
 
 Stoplight also allows you to create variables to use in *both* your specification and your how-to docs. Stoplight plans to take re-use one step further by allowing re-use of your [spec's component definitions](https://idratherbewriting.com/learnapidoc/pubapis_openapi_step5_components_object.html) in your [non-reference documentation](docnonref.html) as well. (But this feature is still forthcoming.)
 

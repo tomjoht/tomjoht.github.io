@@ -22,7 +22,7 @@ redirect_from:
 
 You can view my slides here:
 
-<a class="noCrossRef" href="https://idratherbewriting.com/docs-as-code-tools-and-workflows"><img src="https://idratherbewriting.com/learnapidoc/images/docsascodepresotitle.png"/></a>
+<a class="noCrossRef" href="https://idratherbewriting.com/docs-as-code-tools-and-workflows"><img style="max-width: 450px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docsascodepresotitle.png"/></a>
 
 ## Audio
 
