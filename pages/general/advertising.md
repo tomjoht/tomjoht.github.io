@@ -37,7 +37,7 @@ You can select from several different spaces or services below. The availability
     <tr>
         <td markdown="span">[Inline ad](#inlineads)</td>
         <td markdown="span">Inline graphic and article link</td>
-        <td markdown="span">$2,000/year</td>
+        <td markdown="span">$1,800/year</td>
     </tr>
     <tr>
     <td markdown="span">[Sidebar ad](#sidebar_ads)</td>
@@ -52,7 +52,7 @@ You can select from several different spaces or services below. The availability
     <tr>
         <td markdown="span">[Inline text snippets](#inline_text_snippets)</td>
         <td markdown="span">2-4 sentences</td>
-        <td markdown="span">$2,500/year</td>
+        <td markdown="span">$2,000/year</td>
     </tr>
     <tr>
     <td markdown="span">[Newsletter](#newsletter)</td>
@@ -83,7 +83,7 @@ The ads are prefaced with a subheading that says "Sponsored ads" and the ad link
 
 The graphics are accompanied by a post that invites users to click the link. The post title should be both relevant and enticing for a tech comm audience. To track links, I shorten any URLs you provide to me with Rebrandly. This allows me to track link clicks as well.
 
-The cost for an inline ad is $2,000 per year.
+The cost for an inline ad is $1,800 per year.
 
 ## Product review posts {#product_review_posts}
 
@@ -154,7 +154,7 @@ The text snippets give you more flexibility to get your messaging across. You're
 
 The text snippets are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content heavy pages. A maximum of 3 inline snippets (from different advertisers) can appear on each page. Links are `rel=nofollow`.
 
-The cost for inline text snippets to appear on the API doc site is $2,500 per year.
+The cost for inline text snippets to appear on the API doc site is $2,000 per year.
 
 ## Newsletter {#newsletter}
 
