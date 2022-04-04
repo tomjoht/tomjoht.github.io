@@ -69,7 +69,7 @@ You can select from several different spaces or services below. The availability
 
 For billing, I usually send you an invoice through PayPal (unless you prefer another method, such as a wire transfer or check). Even if you use another payment method, I use PayPal to keep track of invoices. Billing is done prior to any advertising efforts.
 
-## Inline ads {#inlineads}
+### Inline ads {#inlineads}
 
 Inline ads include one graphic (250px x 150px) and a link to an article. The inline ad appears directly inline in the post &mdash; sometimes a third of the way down, half way down, or at the bottom of the post (the position is somewhat random). Here's an example:
 
@@ -85,7 +85,7 @@ The graphics are accompanied by a post that invites users to click the link. The
 
 The cost for an inline ad is $1,800 per year.
 
-## Product review posts {#product_review_posts}
+### Product review posts {#product_review_posts}
 
 Product review posts are 800-1,000 word posts dedicated to highlighting and describing your product or service. These posts usually coincide with marketing efforts for product releases and updates.
 
@@ -140,7 +140,7 @@ If desired, I can also infuse the posts with SEO techniques when I write them. H
 
 The cost for a product review is $1,00 per post.
 
-## Inline text snippets {#inline_text_snippets}
+### Inline text snippets {#inline_text_snippets}
 
 Inline text snippets are short snippets of text, about 2-4 sentences in length, that appear in random positions on every page of my [API documentation course](/learnapidoc/) only. The API doc course is every page with the `idratherbewriting.com/learnapidoc`, which is only about 100+ pages, but these pages account for about 75% of all traffic.
 
@@ -156,7 +156,7 @@ The text snippets are denoted with a Bootstrap alert-type formatting, with text 
 
 The cost for inline text snippets to appear on the API doc site is $2,000 per year.
 
-## Newsletter {#newsletter}
+### Newsletter {#newsletter}
 
 I send out about 3 newsletters a month to all my email subscribers (6,300 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 250 clicks, and the advertising graphic usually receives approximately 30 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
@@ -166,7 +166,7 @@ The image format can be any standard image format (usually JPG or PNG), but not 
 
 The cost for advertising in the newsletter space is $1,200 per year.
 
-## Sidebar ads {#sidebarad}
+### Sidebar ads {#sidebarad}
 
 Sidebar ads include a 250px x 150px graphic with an article link below the graphic. They appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
 
@@ -179,7 +179,7 @@ The sidebar ads appear after any sidebar navigation links. For example, for the 
 
 The cost for sidebar ads is $800 per year.
 
-## Footer banner {#footer_banner}
+### Footer banner {#footer_banner}
 
 The Footer Banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display grahpics.
 

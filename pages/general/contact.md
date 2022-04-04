@@ -49,3 +49,5 @@ Here's the form to contact me:
 })(document, 'script');</script>
 
 </div>
+
+Content from the form gets sent to my email. If you'd rather email me directly, you can also do that by sending a message to tomjoht@gmail.com. Give me a few days to get back to you. If you don't hear back after a week, reach out to me again.
