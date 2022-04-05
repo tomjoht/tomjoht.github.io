@@ -49,7 +49,11 @@ Unlike the many tool fads, "every page is page one" was an approach to writing. 
 
 Developers don't mind long pages, and it also helps with writing. Writers are less prone to have redundancies and conflicts in their writing because the page they're editing contains more complete information. In contrast, if the information is fragmented across many different pages, it's easier to miss all the places that need to be updated.
 
-I also link abundantly, much more than some of my colleagues. I feel like the sidebar hierarchy and presentation of topics is overrated. Although readers might want to have a sidebar TOC to glance at (for psychological reassurance, perhaps, or to get a sense of the whole), they rarely click through the links there. Readers are much more inclined to click links inline.
+I also link abundantly, much more than some of my colleagues. I feel like the sidebar hierarchy and presentation of topics is overrated. Although readers might want to have a sidebar TOC to glance at (for psychological reassurance, perhaps, or to get a sense of the whole), they rarely click through the links there. Readers are much more inclined to click links inline. This is something Bob Watson recently noted in his post [Documentation research requires more curiosity than money](https://docsbydesign.com/2022/04/03/documentation-research-requires-more-curiosity-than-money/). Observing a user navigate the help docs, Bob writes:
+
+> After about 10 minutes into the session, I noticed that he never clicked on the ToC. Instead, he used search and embedded links to navigate through the topics. I asked him to tell me about the ToC and if it was useful. His response surprised me. He told me that he used the ToC as a reference to help him understand the relationship between the topics, but never really used it to navigate.
+
+In other words, the table of contents (ToC) conveys some semantic information about topic relationships but isn't where users click to navigate to those topics. It's a semantic map, not a navigation map.
 
 Additionally, I'm persuaded that even self-links pointing to the same site help with SEO. Just look at how Wikipedia articles, which contain an abundance of self-links to other site pages, usually rank near the top of search results pages.
 
