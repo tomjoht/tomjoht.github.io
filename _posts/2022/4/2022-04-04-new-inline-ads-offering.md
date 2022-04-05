@@ -1,5 +1,5 @@
 ---
-title: "Inline ads now available on my site"
+title: "Inline ads -- updated advertising offerings"
 permalink: /blog/inline-ads-space.html
 categories:
 - technical-writing
