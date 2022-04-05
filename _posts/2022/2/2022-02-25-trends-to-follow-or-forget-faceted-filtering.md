@@ -40,3 +40,9 @@ Some more robust documentation tools, such as [Fluid Topics](https://www.fluidto
 Although DITA XML allows for filters in the outputs, the more common DITA tooling pattern is to generate separate outputs based on [profile conditions](/conditional_profiling/), not provide toggles to filter content within the same output. Providing the filters within the same output is a much more advanced, complex undertaking. On the other hand, providing separate outputs for each type of user is traditionally a print paradigm.
 
 Finally, another reason faceted filtering never took off is because [XML and the web drifted farther apart](/2015/02/13/xml-and-the-web-drifting-farther-apart/). The core technologies of the web are HTML, CSS, and JavaScript, and unfortunately these formats didn't support the semantic attributes of XML.
+
+## Takeaway
+
+{: .tip}
+
+Faceted filtering works best when your product has a clear set of facets/attributes that users can identify to narrow the information. Finding tool support to implement faceted filtering is challenging.
