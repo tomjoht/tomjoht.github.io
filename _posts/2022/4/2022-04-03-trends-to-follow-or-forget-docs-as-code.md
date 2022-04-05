@@ -83,3 +83,8 @@ There's another point worth mentioning for why *Docs as Code* has remained stron
 So even if you've accrued a lot of experience using a particular static site generator and Git workflow for authoring/publishing, if you go to a new company, you might still have to re-learn the approach. Even so, once you convert to this model, it feels odd to even think of working any other way. I couldn't imagine going back to a specific tool with a visual interface, or to a database-based CMS. I've pretty happy with the *Docs as Code* approach. Rarely do I encounter obstacles that I can't overcome. And the minimalist approach with tools also fits a more minimal approach to the web that I think we'll be seeing more of.
 
 The one weakness of *Docs as Code* is the inability to purchase a larger system for managing all the files, similar to a CCMS. That larger system is basically Git and version control, but sometimes it would be nice to have a better way to manage metadata for files, to see where content is re-used, and more. Typically, companies build their own systems for these needs.
+
+## Takeaway
+
+{: .tip}
+The same tools, processes, and workflows used to write code can also be used to write documentation.

@@ -45,3 +45,9 @@ Sadly, even in a scenario where tech docs and marketing were on the same team, w
 The prevailing strategies with marketing are to nurture customer relationships through content marketing, not to just push sales literature to customers. The most effective strategies for this will involve reusing documentation in marketing assets, not in having tech writers start creating marketing materials.
 
 In some ways, I miscalculated the way tech comm could interact with marketing. Perhaps it's not a matter of using tech comm *in* marcomm materials, but rather using tech comm *as* marketing materials. Do companies really need ebooks, white papers, and blog posts? Or do they just need to make their documentation visible and online? It's probably less of the former and more of the latter.
+
+## Takeaway
+
+{: .tip}
+
+Marcom depends on tech comm for relevant content, but re-using documentation content within marketing materials (instead of just linking to the docs) doesn't work well due to differences between marcom and tech comm related to mindset, tools, styles, openness and transparency, and content lifecycles. 

@@ -14,11 +14,11 @@ description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.htm
 
 "Every page is page one" is a philosophy of writing that embraces web-centric behaviors and paradigms for reading. Mark Baker made this mantra popular through his book [*Every Page Is Page One*](http://xmlpress.net/publications/eppo/) (published in 2013) and his accompanying blog by the same name, [everypageispageone.com](https://everypageispageone.com).
 
-Inspired by observations and writing from people like [David Weinberger](https://www.amazon.com/Too-Big-Know-Rethinking-Everywhere/dp/0465021425), Baker noted that people bounce around non-linearly from site to site, and even nonlinearly within the same site, reading single articles in isolation rather than following a linear order defined by a table of contents (TOC). Reading behaviors that involve closely following a TOC are behaviors that align with book reading and print media. On the web, the person’s first page is usually their last page as well.
+Inspired by observations and writing from people like [David Weinberger](https://www.amazon.com/Too-Big-Know-Rethinking-Everywhere/dp/0465021425), Baker noted that people bounce around non-linearly from site to site, and even nonlinearly within the same site, reading single articles in isolation rather than following a linear order defined by a table of contents (TOC). Reading behaviors that involve closely following a TOC are behaviors that align with book reading and print media. On the web, the person's first page is usually their last page as well.
 
-Bounce rate [analytics](/analytics/#analytics-breakdown) confirm these behaviors. A typical website often has a bounce rate of 80% or more, meaning the user lands on a page and bounces away without reading any more pages on the site. Even for those who read multiple pages on the same site, the pages might be surfaced through site search or inline links. The reader usually isn’t carefully following the order prescribed by the TOC.
+Bounce rate [analytics](/analytics/#analytics-breakdown) confirm these behaviors. A typical website often has a bounce rate of 80% or more, meaning the user lands on a page and bounces away without reading any more pages on the site. Even for those who read multiple pages on the same site, the pages might be surfaced through site search or inline links. The reader usually isn't carefully following the order prescribed by the TOC.
 
-What encourages these high-bounce-rate behaviors? Information online is both abundant and seemingly endless, and no effort is required to get more of it except a mouse click. In contrast, in the print-only world, you had to travel to a library, walk through the stacks, seek out dewey decimal numbers, etc, in short, expend a lot of energy to get a book. Consequently, readers were more careful to read through the book, since they couldn’t just read a single page and toss the book aside for 150 other books next to them.
+What encourages these high-bounce-rate behaviors? Information online is both abundant and seemingly endless, and no effort is required to get more of it except a mouse click. In contrast, in the print-only world, you had to travel to a library, walk through the stacks, seek out dewey decimal numbers, etc, in short, expend a lot of energy to get a book. Consequently, readers were more careful to read through the book, since they couldn't just read a single page and toss the book aside for 150 other books next to them.
 
 Every page is page one ("EPPO") promoted a philosophy of writing that would better accommodate these reading behaviors on the web. To follow "every page is page one" principles, your content should be more complete in itself (a standalone article instead of a partial topic). You shouldn't assume the reader absorbed information from previous pages but  instead include more context up front. You should link abundantly to other content. Wikipedia articles provide some of the best examples of "every page is page one" style.
 
@@ -31,11 +31,11 @@ For more information, see the following:
 
 ## Why I adopted "Every Page Is Page One"?
 
-I came of age as a tech writer during the rise of the Internet. I didn’t really grow up with FrameMaker. As a blogger, web-based reading paradigms were important to me. I felt like a child of the web, fascinated by web dynamics and how they might change reading behaviors, cultures, and organization patterns. Hashtags and dynamic filters presented new modes of discovery, more ways to organize, find, and learn. I wanted to embrace this new web landscape and world. It seemed obvious that help documentation would be part of this web landscape, and as such we would need to optimize our documentation for web-based reading behaviors and patterns.
+I came of age as a tech writer during the rise of the Internet. I didn't really grow up with FrameMaker. As a blogger, web-based reading paradigms were important to me. I felt like a child of the web, fascinated by web dynamics and how they might change reading behaviors, cultures, and organization patterns. Hashtags and dynamic filters presented new modes of discovery, more ways to organize, find, and learn. I wanted to embrace this new web landscape and world. It seemed obvious that help documentation would be part of this web landscape, and as such we would need to optimize our documentation for web-based reading behaviors and patterns.
 
 {% include ads.html %}
 
-During this time, many people were also transitioning their print manuals, often written in FrameMaker, to the web. They transitioned the content often by bursting it into discrete topics at specific breakpoints, such as H2 levels. Many web pages were short compared to lengthy chapters in print. But as a result, the web output from these converted manuals consisted of little fragments of information that you’d [need to piece together](/2011/04/27/topic-chunking-and-the-broken-clock/) by tracing your way through a sidebar table of contents. But that wasn’t how people read on the web, so this approach usually failed for users.
+During this time, many people were also transitioning their print manuals, often written in FrameMaker, to the web. They transitioned the content often by bursting it into discrete topics at specific breakpoints, such as H2 levels. Many web pages were short compared to lengthy chapters in print. But as a result, the web output from these converted manuals consisted of little fragments of information that you'd [need to piece together](/2011/04/27/topic-chunking-and-the-broken-clock/) by tracing your way through a sidebar table of contents. But that wasn't how people read on the web, so this approach usually failed for users.
 
 To embrace "every page is page one" style, I started to make my topics longer and more like standalone articles. I included sections at the top titled "Prerequisites" or "Background Knowledge," making clear what context was assumed and how to get it. I linked abundantly, knowing that readers were more likely to click inline links rather than sidebar topics.
 
@@ -45,14 +45,19 @@ Baker was also a tremendous blogger. His posts were incredibly popular, and he a
 
 ## Why didn't I abandon Every Page Is Page One?
 
-Unlike the many tool fads, "every page is page one" was an approach to writing. I didn’t abandon this approach, but I think many of the EPPO practices became more second nature just as the web became second nature. It’s much more common to have lengthy articles in docs, especially if you don't [DITA](/trends/trends-to-follow-or-forget-dita.html) as the information model.
+Unlike the many tool fads, "every page is page one" was an approach to writing. I didn't abandon this approach, but I think many of the EPPO practices became more second nature just as the web became second nature. It's much more common to have lengthy articles in docs, especially if you don't [DITA](/trends/trends-to-follow-or-forget-dita.html) as the information model.
 
-Developers don’t mind long pages, and it also helps with writing. Writers are less prone to have redundancies and conflicts in their writing because the page they’re editing contains more complete information. In contrast, if the information is fragmented across many different pages, it’s easier to miss all the places that need to be updated.
+Developers don't mind long pages, and it also helps with writing. Writers are less prone to have redundancies and conflicts in their writing because the page they're editing contains more complete information. In contrast, if the information is fragmented across many different pages, it's easier to miss all the places that need to be updated.
 
-I also link abundantly, much more than some of my colleagues. I feel like the sidebar hierarchy and presentation of topics is overrated. Although readers might want to have a sidebar TOC to glance at (for pyschological reassurance, perhaps, or to get a sense of the whole), they rarely click through the links there. Readers are much more inclined to click links inline.
+I also link abundantly, much more than some of my colleagues. I feel like the sidebar hierarchy and presentation of topics is overrated. Although readers might want to have a sidebar TOC to glance at (for psychological reassurance, perhaps, or to get a sense of the whole), they rarely click through the links there. Readers are much more inclined to click links inline.
 
-Additionally, I’m persuaded that even self-links pointing to the same site help with SEO. Just look at how Wikipedia articles, which contain an abundance of self-links to other site pages, usually rank near the top of search results pages.
+Additionally, I'm persuaded that even self-links pointing to the same site help with SEO. Just look at how Wikipedia articles, which contain an abundance of self-links to other site pages, usually rank near the top of search results pages.
 
 ## Current status
 
 The mantra "every page is page one" usually resonates with people without argument, though I imagine people might interpret it differently. As the web becomes the norm for information consumption and delivery, and print paradigms fade further into the distance, calling out this mantra as a core principle for writing will fade in importance. Eventually, web patterns will be so common that _not_ following them will be the anomaly.
+
+## Takeaway
+
+{: .tip}
+Tendencies toward more standalone, modular articles provide an easier user experience than trying to stitch together context and coherence through a sidebar table of contents.

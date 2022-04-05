@@ -34,7 +34,7 @@ When content strategy first appeared as a buzzword in tech comm, a lot of people
 
 But even individual contributors still functioning as tech writers wanted to call attention to the strategic elements of their role, so many adopted the title to help raise awareness of this function. Personally, I felt like I was about 70% tech writer, 30% content strategist.
 
-In 2012, I attended one of the first content strategy conferences: Confab (and [wrote about it here](/2012/05/19/confab-2012-thoughts-and-reactions/)). After interacting with attendees the first day, it suddenly dawned on me that I was at a marketing conference, and that the "content" most people were talking about wasn't so much documentation but rather all the potential content customers interact with (pre-sales, post-sales, mid-sales &mdash; not just documentation). But despite the broad umbrella of content, of the 650 attendees at that first conference, the majority were in marketing.
+In 2012, I attended one of the first content strategy conferences: Confab (and [wrote about it here](/2012/05/19/confab-2012-thoughts-and-reactions/)). After interacting with attendees the first day, it suddenly dawned on me that I was at a *marketing* conference, and that the "content" most people were talking about wasn't so much documentation but rather all the potential content customers interact with (pre-sales, post-sales, mid-sales &mdash; not just documentation). But despite the broad umbrella of content, of the 650 attendees at that first conference, the majority were in marketing.
 
 Around this time, marketing practices themselves were evolving more towards [content marketing](/2016/01/04/content-marketing-to-the-rescue-for-thought-leadership/) &mdash; the idea that you develop and build relationships with customers by sharing helpful content with them, not by pitching more sales literature. Content was at the center of relationship building, and if content was so important, then you better have a strategy for how you create, publish, distribute, maintain, and retire that content. You need to go far beyond merely coming up with an editorial calendar for content or a style guide. Considerations of tone, messaging, branding, journey maps, key touchpoints, and more need to inform all efforts at content creation.
 
@@ -71,3 +71,8 @@ There are many tech writers who are doing content strategy (to some degree) as p
 Regarding the brilliance of the term "content strategy," unfortunately the discipline suffered a semantic takeover by SEO firms looking for "content strategists" to churn out keyword-laden lightweight articles. Today, content strategy is often a dressed-up title to glorify an uglier role of content SEO farm writer. Or a content strategist is merely someone who creates social media content, or marketing articles. If you search job boards for positions in content strategy, you have to pick through the results to identify actual content strategy from these low-end content production roles.
 
 Content strategy has many different facets to explore. For more, see Scott Abel's [series of books ](https://xmlpress.net/publications/) that he has edited and published on XML Press.
+
+## Takeaway
+
+{: .tip}
+Don't neglect the strategic aspects of technical communication work, and if the bulk of your job involves strategy more than writing, then consider yourself a content strategist.

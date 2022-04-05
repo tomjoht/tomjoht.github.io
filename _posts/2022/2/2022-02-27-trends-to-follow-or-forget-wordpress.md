@@ -67,3 +67,8 @@ WordPress still continues strong for the variety of websites that make up the we
 As soon as you have to produce PDFs, send docs out for translation, provide multiple versions, re-use content, implement variables, control access to some content, make content available offline, etc., using these web CMS platforms becomes strenuous. Additionally, companies usually restrict the technologies that these systems require (e.g., PHP). As a result, WordPress never seemed to take off as a common documentation platform, despite powering so many sites on the web.
 
 The failure of WordPress to excel as a tech comm tool reinforced the fact that technical writers face unique requirements for content authoring and publishing. This puts them at a disadvantage because they can't easily piggyback on mainstream content publishing tools but instead must rely on more of a niche category of specialized tools from a subset of vendors.
+
+## Takeaway
+
+{: .tip}
+Even the most popular web platforms of the internet might never find relevance within the enterprise nor be the tool of choice for documentation scenarios (for which they weren't designed).

@@ -56,3 +56,8 @@ DITA is still popular among large tech companies, in part because nearly all the
 (Even without the CCMS route, you can still manage DITA content in a Git repository because the files are plain text files. Some authoring groups actually do this, but it isn't the most common approach. For more on this approach, see [DITA as code - a modern approach to the classic standard](https://techwriterkoduje.pl/dita-as-code) from Tech Writer koduje.)
 
 Overall, given the difficulty of migrating to DITA, I suspect that migrating away from DITA might also be time consuming. As such, DITA is likely to remain the status quo for those who have already adopted it.
+
+## Takeaway
+
+{: .tip}
+Inflexible information models will frustrate writers who want more control about how they organize and present information, prompting them to look for other approaches even if this means sacrificing larger content management systems and consistency.
