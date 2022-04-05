@@ -1,5 +1,57 @@
 <!-- sidebar_comics.html -->
 
+<style>
+  .inpostComics img {
+    max-width: 250px;
+  }
+
+  .inpostComics {
+      padding: 25px;
+      margin-bottom: 10px;
+      border-radius: 7px;
+      max-width: 900px;
+  }
+
+  .inpostComics .comicLink a {
+    font-size: 14px;
+    font-family: Arial;
+  }
+  .textLink {
+    font-size: 13px;
+    font-family: arial;
+    margin-bottom: 18px;
+}
+  .comicLink {
+    max-width: 260px;
+  }
+
+  .inpostComics .comicLink {
+      margin-bottom: 20px;
+  }
+  /* this part adds an icon after external links, using FontAwesome */
+
+.inpostComics a[href^="http://"]:after,
+.inpostComics a[href^="https://"]:after,
+.sidebarComics a[href^="http://"]:after,
+.sidebarComics a[href^="https://"]:after
+ {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
+
+.inpostComics a[href].noCrossRef::after,
+.sidebarComics a[href].noCrossRef::after
+ {
+    content: ""!important;
+    padding-left: 0;
+}
+</style>
+
 <div class="sidebarComics">
   <h3>Sponsored content</h3>
     <script>
