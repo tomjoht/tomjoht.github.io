@@ -42,7 +42,7 @@ You can select from several different spaces or services below. The availability
     <tr>
     <td markdown="span">[Sidebar ad](#sidebar_ads)</td>
     <td markdown="span">Sidebar graphic and article link</td>
-    <td markdown="span">$800/year</td>
+    <td markdown="span">$1,000/year</td>
 </tr>
     <tr>
         <td markdown="span">[Product review](#product_review_posts)</td>
@@ -177,7 +177,7 @@ Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must 
 
 The sidebar ads appear after any sidebar navigation links. For example, for the [API doc course](/learnapidoc/), the sidebar ads appear after the page navigation in the left. On the blog, if there's a series, such as this [series on trends](/trends/trends-to-follow-or-forget-intro.html), the sidebar ads appear below the page navigation.
 
-The cost for sidebar ads is $800 per year.
+The cost for sidebar ads is $1,000 per year.
 
 ### Footer banner {#footer_banner}
 
