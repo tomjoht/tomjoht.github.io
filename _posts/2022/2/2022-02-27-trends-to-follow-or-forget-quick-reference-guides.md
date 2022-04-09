@@ -29,3 +29,8 @@ Quick reference guides were always considered icing on the cake &mdash; not part
 ## Current status
 
 Nearly every gadget I buy seems to come with a quick start guide, or some shorter 2-3 page setup guide rather than a long reference manual. Providing this shorter guide seems to be a common standard for many products. Within developer docs, the getting started tutorial is common, and it's rarely something intended to be printed. Making information fit a print-based format often didn't work well because most tech writers phased out of desktop publishing tools (e.g., InDesign), and wanted to put the content within the same web output as their other docs. When you put the quick reference guide online, it's easy to simply link out to topics for more detail rather than trying to condense and summarize the information into a 1-2 page guide.
+
+## Takeaway
+
+{: .tip}
+Quick reference guides help satisfy readers who resist longer documentation but still need help to get started. However, in developer documentation, getting started tutorials are more common and work better when integrated with the rest of the documentation; getting started tutorials also don't have constraints about page space or layout.

@@ -37,3 +37,8 @@ Wikis are still going strong in internal contexts, such as for corporate platfor
 Even when wikis are used for external docs, the docs don’t usually give outsiders the ability to edit the content. To allow for "crowdsourcing," making the docs available on GitHub and allowing people to [submit pull requests](/learnapidoc/pubapis_github_pull_requests.html) is now more common. Even so, the [GitHub model of pull requests never worked for me either](/2017/03/08/crowdsourcing-docs-with-github-docs-as-code-tools-same-as-wikis/), but I'll get to that later.
 
 In hindsight, the failure of crowdsourcing actually ensured the survival of the technical writer's role. Even within the most celebrated success stories with wikis (Wikipedia), the actual number of active contributors and editors is a tiny fraction of user base.
+
+## Takeaway
+
+{: .tip}
+Wikis are most useful for internal docs in contexts where employees feel that writing documentation is part of their responsibility and job function. When docs aren't their job, employees tend not to contribute in substantial ways, and volunteer contributors lack access to the resources and information needed to write docs.

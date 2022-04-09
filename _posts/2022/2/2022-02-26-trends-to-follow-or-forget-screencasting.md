@@ -33,3 +33,8 @@ Screencasts are still popular, especially for non-writers providing tips and tut
 Tech writers tend to be understaffed already, and the effort required to create screencasts often doesn’t match their time availability or interest. Corporations expect professional-grade results (rather than the many amateurish but still helpful videos on YouTube) yet many companies don’t want to invest the time or resources (such as providing a dedicated recording studio on site, or adding additional writers to allow for video-based deliverables). Additionally, many tech writers are more keen to write copy instead of engage in multimedia anyway.
 
 Finally, for documentation that is highly technical, screencasts tend to fail. Screencasts work better for simpler content that can be explained in plain language. At some point with technical content, it no longer becomes possible to communicate it in a conversational, natural way.
+
+## Takeaway
+
+{: .tip}
+Screencasting works best for applications with a visual interface, and even then, the how-to scenarios need to be somewhat simple. Screencasting doesn't work well for code tutorials since code is non-linear and is better understood by looking at code samples, which don't work well in video.
