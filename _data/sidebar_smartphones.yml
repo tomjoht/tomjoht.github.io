@@ -1,0 +1,11 @@
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Journey away from smartphones
+      items:
+        - title: "My awakening moment about how smartphones fragment our attention span"
+          url: /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+
+        - title: "My initial rules and reasons for intentional smart phone use"
+          url: /blog/my-international-rules-for-smartphone-use/

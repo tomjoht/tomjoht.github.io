@@ -125,6 +125,10 @@
     {% assign sidebarTitle = "Trends to follow or forget" %}
     {% assign sidebar = site.data.sidebar_fizzled_trends.entries %}
 
+    {% elsif page.jtype == "notes_smartphones" %}
+    {% assign sidebarTitle = "Smartphones" %}
+    {% assign sidebar = site.data.sidebar_smartphones.entries %}
+
     {% endif %}
 
     <h3>{{sidebarTitle}}</h3>
