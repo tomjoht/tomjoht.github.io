@@ -65,7 +65,7 @@ Reasons why:
 * News exploits your negativity bias to get your viewing time. As such, news focuses on all the bad things happening in the world. This sustained focus on the negative sometimes it saddens you, riles you up, makes you upset, angry, anxious, frustrated, etc. News also gives you a sense of learned helplessness.
 * News doesn't provide in-depth understanding of issues. If you want to be educated on an issue, read long-form in-depth articles from better sources.
 * News exploits your novelty bias, causing you to seek out what's new.
-* News isn't that relevant to your life. What's going on elsewhere doesn't tend to impact you.
+* News usually isn't that relevant to your life. What's going on elsewhere doesn't tend to impact you, so you don't need to spend a lot of time learning about the details.
 * Listening to the news creates more cognitive demand to process, assess, file, etc, each incoming piece of information, which wears on your mental energy.
 * You can get fully caught up on what's happening in the world by spending 5-10 minutes a week on news. If you want to get more news, get a print subscription to the Economist or Atlantic Monthly (or check them out from the library).
 
@@ -104,10 +104,9 @@ Reasons why:
 * Carry a small point-and-shoot camera with you in your bag. This will help you be more intentional about actually taking pictures, rather than doing it on a whim.
 * In some ways, packaging cameras with smartphones is another mechanism that encourages social media use. The smartphone's camera gives you another tool for generating and posting content.
 
-## Keep your smartphone for specialized apps but make it an ipod
+## Use a tablet or smartphone only for specialized apps when there's no alternative
 
-* Specialized apps (e.g., parking, audiobooks, banking, etc.) require you to use an iOS or Android app. There are legitimate times where it's actually impossible not to use the app. In these cases, it's okay to use your phone. As long as you've removed its cellular connectivity (converted it from iphone to ipod), it won't be buzzing with notifications and other incoming media and information. Don't throw your smartphone away, just convert into a dumb iPod-type device.
-* It's a lot more efficient to listen to Audible and Blinkist from a smartphone, so continue to do that. There seems to be no easy alternative in these situations. These audio-book apps aren't pulling you in, wrecking your focus, and reducing your humanity. They're pretty convenient. This is a scenario where it doesn't make sense to condemn all aspects of smartphones just because you object to their attention-hijacking components.
+* Specialized apps (e.g., parking, banking, etc.) require you to use an iOS or Android app. There are legitimate times where it's actually impossible not to use the app. In these cases, it's okay to use a de-connected tablet or smartphone. As long as you've removed its cellular connectivity (converted it from the equivalent of an iPhone to iPod), it won't be buzzing with notifications and other incoming media and information. Don't throw your smartphone away, just convert into a dumb iPod-type device.
 
 ## What I hope to get out of this
 
@@ -119,5 +118,6 @@ What do I hope to achieve by removing smartphones?
 * Get into periods of flow and become more productive at work
 * Have more peace of mind
 * Have more realizations from reflection
+* Be more present with other people
 
 If you have any thoughts on any of these rules, let me know. I'll add more posts here to provide updates on this experiment and share how it's going.
