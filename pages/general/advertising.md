@@ -35,17 +35,17 @@ You can select from several different spaces or services below. The availability
     </thead>
     <tbody>
     <tr>
-        <td markdown="span">[Inline ad](#inlineads)</td>
+        <td markdown="span">[Inline ads](#inlineads)</td>
         <td markdown="span">Inline graphic and article link</td>
         <td markdown="span">$1,800/year</td>
     </tr>
     <tr>
-    <td markdown="span">[Sidebar ad](#sidebar_ads)</td>
+    <td markdown="span">[Sidebar ads](#sidebar_ads)</td>
     <td markdown="span">Sidebar graphic and article link</td>
     <td markdown="span">$1,000/year</td>
 </tr>
     <tr>
-        <td markdown="span">[Product review](#product_review_posts)</td>
+        <td markdown="span">[Product reviews](#product_review_posts)</td>
         <td markdown="span">800-1,000 words</td>
         <td markdown="span">$1,000/post</td>
     </tr>
@@ -55,12 +55,12 @@ You can select from several different spaces or services below. The availability
         <td markdown="span">$2,000/year</td>
     </tr>
     <tr>
-    <td markdown="span">[Newsletter](#newsletter)</td>
+    <td markdown="span">[Newsletter banners](#newsletter)</td>
     <td markdown="span">400 x 60px or 1 paragraph</td>
     <td markdown="span">$1,200/year</td>
 </tr>
 <tr>
-<td markdown="span">[Footer banner](#footer_banner)</td>
+<td markdown="span">[Footer banners](#footer_banner)</td>
 <td markdown="span">728x90 px banner at bottom of post</td>
 <td markdown="span">$1,500/year</td>
 </tr>
