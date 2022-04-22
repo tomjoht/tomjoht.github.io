@@ -121,3 +121,5 @@ What do I hope to achieve by removing smartphones?
 * Be more present with other people
 
 If you have any thoughts on any of these rules, let me know. I'll add more posts here to provide updates on this experiment and share how it's going.
+
+Continue on to the next post in this series: [First experiences in moving away from smartphones](blog/first-experiences-moving-away-from-smartphones/).
