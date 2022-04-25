@@ -34,6 +34,8 @@ Reasons why:
 * We receive a tremendous amount of information each day by being plugged into news social/sports feeds and constantly assessing, sorting, and filing incoming information, so as to prepare for the next incoming piece of information. As a result, our long-term concentration on any single item gets discarded in favor of this short-term sorting activity, which we've taught our brain to do.
 * In hijacking our attention, smartphones detract from our ability to be in the present. They pull us out of awareness, focus, and interaction with our current environment and those around us. This detachment while in the presence of other humans (our family, friends, colleagues) diminishes us as people. It weakens our ability to listen, respond, communicate, and share with others. This detachment moves us toward more social isolation, moving us away from human interaction and more towards screen interaction (even if with another person). This dehumanization leaves us feeling empty and lonely; it undercuts our social connections.
 
+{% include ads.html %}
+
 ## Carry the phone in a bag, and don't sleep with it on your nightstand
 
 Reasons why:

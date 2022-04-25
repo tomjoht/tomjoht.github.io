@@ -48,6 +48,8 @@ After _Stolen Focus_ (thank goodness I made it through!), I decided to read othe
 
 One of Newport's key strategies is a thirty day period of declutter, in which you detach from all but absolutely critical apps. Newport says, "The declutter acts as a jarring reset: you come into the process a frazzled maximalist and leave an intentional minimalist"
 
+{% include ads.html %}
+
 By "intentional," Newport refers to a more guided use of technology that supports your own values and goals. This is the basic philosophy of "Digital Minimalism":
 
 > A philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.

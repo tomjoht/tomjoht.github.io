@@ -1,0 +1,18 @@
+entries:
+- title: Sidebar
+  subcategories:
+
+    - title: Mobility-related posts
+      items:
+
+        - title: "Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems"
+          url: /blog/bike-commuting-from-renton-to-seattle/
+
+        - title: "Urban sprawl and car dependence -- some thoughts on solutions"
+          url: /blog/urban-sprawl-solutions/
+
+        - title: "My multimodal commuting strategies"
+          url: /blog/multimodal-commuting-strategies.html
+
+        - title: "Review of Peter Norton's Autonorama: The Illusion of High-Tech Driving"
+          url: /blog/review-of-peter-norton-autonorama-illusory-promise-of-high-tech-driving/

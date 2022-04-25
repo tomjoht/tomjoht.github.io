@@ -41,6 +41,8 @@ Interestingly, the Kyocera DuraXV Extreme's home screen UI has a top bar (with s
 
 You might be asking, what's the point of installing apps on a flip phone? I thought the whole point was to get away from apps. Yes, and I'm pretty sure I could find versions of social media apps to install if desired. But even though you can install apps, the screen is about 2 inches high by 1.25 inches wide, so any app you install is incredibly tedious to use. But some apps are just essential (e.g., Audible for me), and for those essential app needs, I seem to be able to get away with sideloading.
 
+{% include ads.html %}
+
 ## Single-function devices
 
 The Kyocera has both a camera and alarm clock, but as per my [smartphone rules use](/blog/my-international-rules-for-smartphone-use/), I didn't want my phone on my nightstand acting as an alarm clock. The Kyocera's camera is okay, but if I'm capturing photos for the future, I'd prefer something higher quality. So I also ordered some single-function devices.
