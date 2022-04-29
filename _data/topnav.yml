@@ -78,9 +78,19 @@ topnav_dropdowns:
 
   - title: Series
     items:
+
+      - title: Trends to follow or forget
+        url: /trends/trends-to-follow-or-forget-intro.html
+
+      - title: Journey away from smartphones
+        url: /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+
       - title: A hypothesis about influence on the web and the workplace
         url: /web-and-workplace-influence/part1-introduction-to-influencers.html
-        
+
+      - title: Mobility
+        url: /blog/bike-commuting-from-renton-to-seattle/
+
       - title: Reflecting seven years later about why we were laid off
         url: /blog/reflecting-seven-years-later-about-layoff-intro/
 
