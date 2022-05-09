@@ -55,6 +55,8 @@ The other day at work, there was a micro-mobility fair of sorts, with all the mi
 
 At any rate, I got the waivers completed and rode around on the bikes and scooters. They make it easy to get around, for sure. If you want an electric-powered motion device (such as to replace your car for inner-city travel without sweating), they're great. But I realized that I really like my 5-mile bike ride in the mornings and afternoons, the way it gets my heart beating and my blood pumping. It's like a natural caffeine, waking me up and making me feel alive. For someone substituting the ebike/scooter for a car, great. But I already sit on my butt all day long; do I really need to sit without exercise while commuting? No, I decided, I did not.
 
+<img style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/micromobilityscene.jpg" alt="Micromobility options" />
+
 I still don't understand why all micro-mobility options are app-based and electric-powered. The Wheels option (like a scooter with a seat) literally feels like an electric-assisted shopping cart that you see in grocery stores for people unable to walk.
 
 I asked if finding each bike/scooter and unlocking it inevitably required a smartphone app. One guy explained that I could actually unlock a Lime bike through texts; it would involve going into a 7-11 to use a kiosk of some kind. Then I thought, how will I know where the bikes are, and where the 7-11s are, without a location-based app or a lot of pre-planning? At the very least, Lime seems to be more considerate of basic phone users.
@@ -140,7 +142,7 @@ Reading these comments is sad. They reinforce my sense that I'm not alone in my 
 
 Maybe it's just social media that poisoned technology (a sentence that seems ironic coming from a blog), though my sense is that it's more than that. It's likely the deluge of never-ending information that comes to you through using the device. Not just feeds and posts (from Linkedin, Twitter, Facebook, Instagram, etc.), but news, texts, emails, and other notifications that make the device constantly buzz and signal you with more incoming information to process, pulling you away from life and into a digital realm.
 
-Are we trapped in a world of smartphones and apps, where not having one becomes impossible to live without? Will there be a massive backlash against smartphones? Am I part of the beginning of the anti-smartphone movement?
+Are we trapped in a world of smartphones and apps, in which not having one becomes impossible to function in society? Will there be a massive backlash against smartphones? Am I part of the beginning of the anti-smartphone movement?
 
 The sad thing is that kids growing up today don't know how life was different before smartphones. I was born in 1975 and grew up in the 80s and 90s. Those really were great times to be a kid. I loved playing baseball outdoors at the park, riding my bike and motorcycle everywhere, playing catch with my dad, and so on. All my great memories seem to take place outdoors. Today, kids interact through texts, Discord, Instagram, etc. Will they even realize how much richer and full life can be offline and outside? They might just assume that this is how life is.
 
