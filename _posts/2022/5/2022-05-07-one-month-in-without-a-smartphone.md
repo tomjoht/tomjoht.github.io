@@ -124,16 +124,16 @@ But it seems like the technology that I'm reacting against today is the always o
 The video is great but doesn't make strong enough recommendations toward the end, opting instead for balance. If you watch the video, be sure to read through some of the [comments on the video](https://www.youtube.com/watch?v=yJ9oEi3Yyg0&ab_channel=CommonKnowledge) too. Here are a few comments I liked:
 
 > I remember the world before social media. It was so much better than it is now!!
-
+<div style="height: 10px"></div>
 > Man, I feel sorry for kids being raised on social media. Being in middle school, high school, and always comparing yourself to other people was tough back then. Today, there's no escape from it because of social media. It's constant.
 > And god, the freedom of being able to go to a show and not feel compelled to film it. Of not worrying about missed calls, texts, of just being able to disconnect. Those days are gone forever
-
+<div style="height: 10px"></div>
 > It all changed around 2008. All in all I really prefer the 90s and the early 00s. But I doubt society will be able to go back to that incredible mindset we had! Internet was great too.
-
+<div style="height: 10px"></div>
 > I'm so thankful my entire childhood was without computers, Internet etc.. we had our friends and lots of outdoor activities.. exploring the world around us made me ready for adulthood.
-
+<div style="height: 10px"></div>
 > I got my first smartphone when I was in 6th grade and it all went downhill from there ever since. People of all ages today seem to become more and more dependent on the internet and social media that it's actually crazy...I think things really started to change around 2008 when social media started to take a huge rise.
-
+<div style="height: 10px"></div>
 > Yeah I don't find life to be that interesting as a whole in this social media digital age. It's like everything caters towards technology and social media wayyy too much! It takes away from so many aspects of a persons life like their communication skills, their attention span, and most importantly their time.
 
 Reading these comments is sad. They reinforce my sense that I'm not alone in my experience of smartphones and social media. I haven't quite pinpointed exactly what it is about smartphones, and at what point technology started to degrade my quality of life instead of improve it, but there's definitely some time period, maybe 2008 as one commenter says.
