@@ -67,6 +67,8 @@ With less email arriving in my inbox, I'm much less distracted and have less inc
 
 When I wake up in the morning, my first instinct isn't usually to check my email. Instead, I mostly pick up the book I was reading the night before. By helping make email more of a disappointment (e.g., spam to delete, more privacy change notifications to confirm, etc.) I hope to have reduced the whole cycle of variable rewards that powers the drive to constantly check email.
 
+{% include ads.html %}
+
 ## Music on CDs
 
 On my way home, driving from the train station to my house, I noticed, for the first time in years, a CD slot above my car radio.
