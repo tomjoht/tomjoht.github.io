@@ -1506,9 +1506,20 @@ span.linkedInWidget {
     nav.navbar.navbar-inverse,
     .singlePostComics,
     .socialArea,
-    .form-group.irbw {
+    .form-group.irbw,
+    .inpostComics,
+    #toc,
+    .socialArea,
+    .coffeeButton,
+    .newsletterSubscribeHeading,
+    #myBio,
+    #commentoSection,
+    #pageCategories
+     {
         display: none;
     }
+
+    blockquote { margin: 10px; border: 1px solid gray; background-color: #dedede}
 }
 
 ul.dropdown-menu li a {
