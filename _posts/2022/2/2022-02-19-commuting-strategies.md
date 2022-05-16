@@ -20,6 +20,10 @@ They will compress the 6.5 hours of filming into a 2-3 minute segment combined w
 
 They also did a short interview with me where they asked some questions about why I commuted the way I did, the multimodal strategies I've adopted, and so on. In preparation for this interview, I put together some notes and thoughts, which I want to share below.
 
+*May 15, 2022 update*: My Commute Seattle spotlight video was released. Here it is:
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/FxMU3pP1bLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Why adopt a multimodal route for commuting?
 
 I commute from Renton (Southeast Seattle) to Fremont (a district in North Seattle). The distance is about 25 miles. The film crew was actually shocked that I commuted from this far out, but I argue that even if I lived in Seattle, going several miles across town would take me at least a half hour in traffic, if not more.
