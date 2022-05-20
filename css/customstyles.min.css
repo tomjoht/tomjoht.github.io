@@ -247,7 +247,7 @@ div#toc ul {
     border-radius: 5px;
     max-width: 300px;
     color: gray;
-    margin-top: 25px;
+  /*  margin-top: 25px; */
 }
 
 div#toc ul li ul {
@@ -699,6 +699,8 @@ a[data-toggle] {
     border-left: 2px solid #dedede;
     margin: 20px 0
     line-height: 34px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .summary::before {

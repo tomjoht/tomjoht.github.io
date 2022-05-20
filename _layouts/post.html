@@ -19,10 +19,10 @@ comments: true
 <i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} &#8226; <a href="{{ post.url }}#commento"></a></i><br/>
   {% endunless %}
 {% if page.categories %}
-<div id="pageCategories">
+<span id="pageCategories">
  categories: {% for cat in page.categories %}
 <a href="{{ "/category-" | prepend: site.baseurl | append: cat }}">{{cat}}</a>{% unless forloop.last %} &bull; {% endunless%}
-</div>
+</span>
 {% endfor %}
 {% endif %}
 
