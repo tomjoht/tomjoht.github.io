@@ -4,7 +4,7 @@ permalink: /blog/one-month-in-without-a-smartphone/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/suddenlyclassicalmusic
+rebrandly: https://idbwrtng.com/onemonthin
 description: "It's been about a month since I moved away from smartphones. In this entry, I explain the distaste I've developed for screens, my rediscovery of photography, and more."
 series: "Journey away from smartphones"
 jtype: notes_smartphones
