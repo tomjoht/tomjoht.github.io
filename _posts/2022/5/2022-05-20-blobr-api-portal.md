@@ -13,3 +13,5 @@ published: false
 To read the article, see [Blobr: An API portal that arranges your API's use cases as individual products](/learnapidoc/pubapis_blobr.html). You can also learn more about Blobr here: [Blobr](https://www.blobr.io/){: rel="nofollow"}.
 
 *Note: Blobr is one of the sponsors of my site.*
+
+{% include ads.html %}
