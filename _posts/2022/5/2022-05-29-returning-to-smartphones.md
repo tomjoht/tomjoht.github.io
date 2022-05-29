@@ -1,5 +1,5 @@
 ---
-title: "Six weeks in &mdash; returning to smartphone (but not as before)"
+title: "Six weeks in -- returning to smartphone (but not as before)"
 permalink: /blog/returning-to-smartphones/
 categories:
 - technical-writing
