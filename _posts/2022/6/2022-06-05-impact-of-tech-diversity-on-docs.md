@@ -1,10 +1,10 @@
 ---
-title: "The impact of diversity/pluralism/fragmentation on documentation -- epiphanies on a trip to IKEA (Trends to follow or forget)"
+title: "The impact of technical diversity on documentation -- epiphanies on a trip to IKEA (Trends to follow or forget)"
 permalink: /trends/impact-of-technical-diversity-on-docs.html
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/trendsdocs-as-code
+rebrandly: https://idbwrtng.com/trendsdiversity-impact-on-docs
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on the <i>impact of diversity/pluralism/fragmentation on documentation</i>."
@@ -14,7 +14,7 @@ description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.htm
 
 In the [previous post](/trends/embracing-diversity-pluralism-fragmentation.html), I argued that technical diversity is one of the trajectories of technology, but I didn't delve into the specific impact on documentation. That's what I'll tackle in this post.
 
-(By the way, a note about the term "diversity." To disambiguate this term from the more common connotation of racial and cultural diversity, I've been using "diversity/pluralism/fragmentation" to better represent Kevin Kelly's usage of the term in *What Technology Wants*.)
+(By the way, a note about the term "diversity." To disambiguate this term from the more common connotation of racial and cultural diversity, I've been using either "technical diversity" or "diversity/pluralism/fragmentation" to better represent Kevin Kelly's usage of the term in *What Technology Wants*.)
 
 What's the impact of diversity/pluralism/fragmentation on documentation? When you have a large developer portal with content contributed by many different siloed and niche engineering teams, here's what happens: *the developer portal loses the big picture.* This is because each niche team sees and understands only their sliver of the solution.
 
