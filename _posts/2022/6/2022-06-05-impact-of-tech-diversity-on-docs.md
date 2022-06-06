@@ -89,6 +89,8 @@ The problem with this approach is that it might come across as irrelevant for an
 
 In the same way, if you go into IKEA and you want to buy some cubby bins, the store's layout and showroom-driven workflow make this task too arduous to be practical. After spending two hours in IKEA wandering among the showrooms, we finally picked out a dresser and retrieved it via aisle and part number in the towering warehouse section of the store, and we were in the checkout line when we realized we had forgotten to get some extra cubby bins for another family member. But the thought of retracing our steps in the store, backtracking against the natural store's flow (seemingly one way), was too much to bear, and our energy had been exhausted. We left without the cubby bins.
 
+{% include ads.html %}
+
 In much the same way, there's a sense of dread at having to watch a 20-minute tutorial on how to draw a cat just to get to the 30 seconds of relevant information about how to draw the white reflection in the pupils.
 
 In the [Narrative Workflow Topics](2013/09/12/narrative-workflow-topics-helping-users-connect-the-dots-among-topics/) post, I took the approach of narrating a short story that described the users tasks in sequence, and then linked each of the tasks to the supporting documentation. It was my attempt to balance modularity with more of an end-to-end picture. Granted, each of these links probably distracted users and ruined any sense of reading flow.
