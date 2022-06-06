@@ -32,7 +32,7 @@ When technical writers understand the big picture, they can shape the informatio
 
 ## Learning from IKEA's showrooms
 
-As evidence for how compelling the big picture can be, you need only walk through IKEA, the Swedish furniture store. What makes IKEA so unique? It's not the wordless instruction manuals (which are a wonder by themselves), or the store uses untranslated Swedish product names for everything (e.g., "Hemnes" for TV stand, "Khallax" for bookshelf), or the fact that prices are cheap because you have to assemble everything yourself (for hours on end). What's truly magical about IKEA is the furnished showrooms that demonstrate the full context of products.
+As evidence for how compelling the big picture can be, you need only walk through IKEA, the Swedish furniture store. What makes IKEA so unique? It's not the wordless instruction manuals (which are a wonder by themselves), or how the store uses untranslated Swedish product names for everything (e.g., "Hemnes" for TV stand, "Khallax" for bookshelf), or the fact that prices are cheap because you have to assemble everything yourself (for hours on end with basic tools). What's truly magical about IKEA is the furnished showrooms that demonstrate the full context of products.
 
 Yesterday my daughter asked me to take her to IKEA to get a new dresser that would fit into her closet, and we spent the first hour at IKEA marveling through all of these furnished showrooms.
 
