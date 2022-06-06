@@ -1,5 +1,5 @@
 ---
-title: "Diversity/pluralism/fragmentation in tech comm (Trends to follow or forget)"
+title: "Technical diversity/pluralism/fragmentation in tech comm (Trends to follow or forget)"
 permalink: /trends/embracing-diversity-pluralism-fragmentation.html
 categories:
 - technical-writing
@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/trendstechnical-diversity
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
-description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on <i>diversity/pluralism/fragmentation</i>."
+description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post focuses on <i>technical diversity/pluralism/fragmentation</i>."
 ---
 
 ## Identifying the larger trend
