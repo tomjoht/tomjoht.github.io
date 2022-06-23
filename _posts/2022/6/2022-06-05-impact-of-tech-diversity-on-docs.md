@@ -103,7 +103,7 @@ Is there a space for big picture information that doesn't involve the more techn
 
 ## Tracing paths through a developer portal
 
-One role might align more with big picture, systems thinking is a solutions engineering writer. Developer groups often realize that their API houses a large collection of independently documented APIs, products, and services. These APIs are intended to act as a unified and complete ecosystem for end-to-end needs, but there's no clear path through all of their products, since the contributing teams are more or less siloed.
+Developer groups often realize that their API houses a large collection of independently documented APIs, products, and services. These APIs are intended to act as a unified and complete ecosystem for end-to-end needs, but there's no clear path through all of their products, since the contributing teams are more or less siloed.
 
 In fact, when I was exploring different teams at Google, one of the roles was for a writer to trace solution paths through the many services in Google Cloud. It was a daunting task that would require me not only to be familiar with a wide number of technologies (both programming languages and cloud infrastructure technologies) but also be familiar with the products and how they all interacted together into harmonious solutions. Who possessed such knowledge in an organization? Although appealing, it didn't seem like a great fit for someone just joining an organization. I didn't want to bite off more than I could chew.
 
