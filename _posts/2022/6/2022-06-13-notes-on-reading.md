@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/notes-on-reading
 series: "Journey away from smartphones"
 jtype: notes_smartphones
-description: "The single greatest outcome from my <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention/'>basic phone experiment</a> has been to rekindle interest and enjoyment in reading books. Long-form reading is an activity that I'd sort of forgotten, and even though I've reverted to my smartphone, the experiment has taught me to learn reading again. In picking up reading books again, I realized that I have many questions about reading, actually. This post is a random list of questions, observations, and other reading-related topics about reading books. I'm sure there's no single way to read, and one strategy might fit another person and scenario more than others."
+description: "The single greatest outcome from my <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention/'>basic phone experiment</a> has been to rekindle interest and enjoyment in reading books. Long-form reading is an activity that I'd sort of forgotten, and even though I've reverted to my smartphone, the experiment has taught me to love reading again. In picking up reading books again, I realized that I have many questions about reading, actually. This post is a random list of questions, observations, and other reading-related topics about reading books. I'm sure there's no single way to read, and one strategy might fit another person and scenario more than others."
 ---
 
 ## Queueing up books?
