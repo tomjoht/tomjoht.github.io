@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/trends-systems-thinking
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
-description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. In this post, I explore why focusing on the big picture fits into the domain of <i>systems thinking</i>. I also make a case for developer portals as a candidate for study that follows a systems thinking approach."
+description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. In this post, I explore why focusing on the big picture fits into the domain of <i>systems thinking</i>. I also make a case for developer portals as a candidate for study that aligns with a systems thinking approach."
 ---
 
 ## Recap of the argument context
