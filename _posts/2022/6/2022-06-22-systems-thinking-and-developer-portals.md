@@ -50,6 +50,8 @@ Within QA, *regression testing* attempts to test previous code against  new code
 
 How many engineering teams have read widely across the information ecosystem they're publishing to? Are they doing the equivalent of releasing an invasive species into an environment? Most of the time, specialized teams understand their narrow world only. To accrue depth, they sacrifice breadth. (Just as system thinkers sacrifice depth to accrue breadth.)
 
+{% include ads.html %}
+
 ## What wicked problems are there with developer portals?
 
 I mentioned that systems thinking often wrestles with wicked problems (meaning, complex problems with many interacting parts). Are wicked problems within the scope of tech comm? At some point in developer journeys, some hard-to-answer problems crop up. Partners get stuck and fail to make progress in implementations. Customer satisfaction scores drag below 20%. Partnerships expire and fail to renew. Efficiency slows as team onboarding seems to take months. Products undergo endless churn and fail to release. A sense of brand becomes fuzzy and hard to identify. Participants in documentation sync meetings slowly evaporate. Turnover rates among employees exceed norms. With each problem, there's no clear answer as to why.
