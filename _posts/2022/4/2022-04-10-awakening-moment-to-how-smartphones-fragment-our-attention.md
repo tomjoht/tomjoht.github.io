@@ -32,7 +32,7 @@ Could I reclaim that aspect of myself, back when I could be immersed in an autho
 
 ## Awareness about how I'd changed
 
-The more I read _Stolen Focus_, the more aware I became about how I'd changed. I realized that I was looking at my phone during every spare moment of the day. When I pulled up at a stoplight waiting for the light to change, I would instinctively reached for my phone (mounted on my dash) to check my email (personal + work), check ESPN, look up something on Amazon, etc. While pumping gas in the car, I'd whip out my phone while waiting. Stuck in line somewhere? Time for my phone. Waiting in an elevator? The phone. Riding the train? The phone. Going to the bathroom? Make sure to bring the phone! Eating breakfast? The phone. Any spare or idle moment? The phone.
+The more I read _Stolen Focus_, the more aware I became about how I'd changed. I realized that I was looking at my phone during every spare moment of the day. When I pulled up at a stoplight waiting for the light to change, I would instinctively reach for my phone (mounted on my dash) to check my email (personal + work), check ESPN, look up something on Amazon, etc. While pumping gas in the car, I'd whip out my phone while waiting. Stuck in line somewhere? Time for my phone. Waiting in an elevator? The phone. Riding the train? The phone. Going to the bathroom? Make sure to bring the phone! Eating breakfast? The phone. Any spare or idle moment? The phone.
 
 I didn't have any unique apps &mdash; some news apps, email, feeds, podcasts, music, messages, and more.
 
