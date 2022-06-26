@@ -164,6 +164,8 @@ I'm still in the awakening phase, but I'm excited about the initial results. Hon
 
 Continue on to my next post in this series: [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/).
 
+6/25/2022 note: My post was discussed on [Hackernews](https://news.ycombinator.com/item?id=31874846). See the conversation thread there for lively comments.
+
 ## References
 
 Dobelli, Rolf. _[Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life](https://www.amazon.com/Stop-Reading-News-Manifesto-Happier/dp/1529342724/)_. Hachette UK, 2020.
