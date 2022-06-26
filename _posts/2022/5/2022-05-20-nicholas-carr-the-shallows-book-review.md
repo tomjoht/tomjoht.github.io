@@ -204,3 +204,5 @@ The conflicted feelings about technology and its impact on life have fueled many
 ## References
 
 Note that page number references in this post refer to Carr's [first edition book](https://www.thriftbooks.com/w/the-shallows-what-the-internet-is-doing-to-our-brains_nicholas-carr/252607/item/7645815/#edition=6088375&idiq=4007395), published in 2010, not to the [reprint published in 2020](https://www.amazon.com/gp/product/B07WX1DFZW). Unfortunately, I only realized there was a reprint with a new afterword *after* finishing the first edition.
+
+Continue on with the next post in this series, [Six weeks in -- returning to smartphone (but not as before)](/blog/returning-to-smartphones/).

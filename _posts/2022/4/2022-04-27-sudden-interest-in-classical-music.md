@@ -107,3 +107,5 @@ If I find an interesting article, I save it to My Pocket. Then I print it out an
 ## Conclusion
 
 Overall, life is better without a smartphone. How much better? So far, quite a bit. Granted, in abandoning the smartphone, I feel like I've rejected part of my tech membership, somehow. But one day I think more people will suddenly realize that smartphones haven't improved our quality of life. They have only reduced our quality of life, despite all the apps we thought were indispensable. Those apps really aren't. What is indispensable is life and the moments we lose out on.
+
+Continue on to the next post in this series, [One month in without a smartphone -- growing doubts about the value of technology in general](/blog/one-month-in-without-a-smartphone/).
