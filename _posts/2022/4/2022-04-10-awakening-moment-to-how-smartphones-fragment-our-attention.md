@@ -130,7 +130,7 @@ I took out my credit cards and driver's license from my phone's built-in case so
 
 Within the next few days of simplifying my phone, I started to feel more peace of mind. I realized that, among all the baby steps I'd taken, turning off the notifications (hitting that "Do Not Disturb" button) and keeping my phone in my bag were the biggest game changers. Being notified throughout the day of every little incoming tidbit of news, email, chat, or other information was exhausting.
 
-I realized that, even without notifications, simply reaching for my phone, opening it, and receiving some incoming information (news, social feeds, email, alerts, etc) had been presenting me with information that I needed to process. Most of the time, the information was trivial, but doing this all day long, at every spare moment, builds up the level of cognitive demand and forces more processing bandwidth. For example, reading through work email in the evening, even if I didn't respond, would often require some mental energy and processing power. Multiply those moments of information processing throughout the day, and it's no wonder smartphones overwhelm us with information. We become the "frazzled maximalist," as Newport says, with uninterrupted time shattered "into shards too small to support the presence necessary for an intentional life."
+I realized that, even without notifications, simply reaching for my phone, opening it, and receiving some incoming information (news, social feeds, email, alerts, etc) had been presenting me with information that I needed to process. Most of the time, the information was trivial, but doing this all day long, at every spare moment, builds up the level of cognitive demand and expends more processing bandwidth. For example, reading through work email in the evening, even if I didn't respond, would often require some mental energy and processing power. Multiply those moments of information processing throughout the day, and it's no wonder smartphones overwhelm us with information. We become the "frazzled maximalist," as Newport says, with uninterrupted time shattered "into shards too small to support the presence necessary for an intentional life."
 
 By shutting off notifications and feeds, I found that I had more mental energy in the evenings. Instead of feeling exhausted at 8 or 9pm, I had more gas in the tank now, it seemed. And whereas previously I'd wake up sometimes at 4am for seemingly no reason at all, now I started sleeping more through the night. (I've never suffered from anxiety, but perhaps this firehose of incoming information, especially the news, might have been smoldering on the backburner of my mind.) Most interestingly, I seemed to simply have more time &mdash; time to read.
 
@@ -148,7 +148,7 @@ Even just looking at your phone apparently distracts you. In [Having Your Smartp
 
 In other words, even if resolve to leave your smartphone in your pocket and *not check it*, the willpower needed to resist the urge to check your phone also begins to drain you. And if you've left notifications on, the pull to respond to the notification buzz (and see what the incoming message is) is nearly impossible.
 
-At the very least, by putting your phone into "Do not disturb" mode and leaving it in your bag (out of sight), you greater increase your chances of being able to focus.
+At the very least, by putting your phone into "Do not disturb" mode and leaving it in your bag (out of sight), you greatly increase your chances of being able to focus.
 
 ## Conclusion
 
@@ -158,13 +158,13 @@ Some other challenges I'm still figuring out, like how to navigate a city withou
 
 I'm also now navigating other challenges, like how to deal with the cognitive dissonance of working for big tech. I like the idea, argued by Hari, Williams, and Newport, that we need to be aware of technology's designs and ensure that tech is working _for_ us rather than _against_ us. Surely, I don't want to throw the baby out with the bathwater when it comes to technical innovations.
 
-And given that I read four books in the span of about two weeks, I believe there's hope for me. Perhaps the attention fragmentation issue isn't a one-way road we've traveled down, unable to turn around.
+And given that I read or listened to four books in the span of about two weeks, I believe there's hope for me. Perhaps the attention fragmentation issue isn't a one-way road we've traveled down, unable to turn around.
 
 I'm still in the awakening phase, but I'm excited about the initial results. Honestly, I'm most excited by the possibility of reclaiming _myself_. As Newport and others have said, it's not about sacrificing your smartphone, as if you're giving up some big element in your life. It's about what you're getting. I'm starting to see glimpses of my old self return. I'm starting to think at stoplights again! In the elevator, I'm not reaching for something to distract me. I am beginning to recapture my focus and self, and it's invigorating.
 
 Continue on to my next post in this series: [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/).
 
-6/25/2022 note: My post was discussed on [Hackernews](https://news.ycombinator.com/item?id=31874846). See the conversation thread there for lively comments.
+**6/25/2022 note:** This post was discussed on [Hackernews](https://news.ycombinator.com/item?id=31874846). See the conversation thread there for lively comments.
 
 ## References
 
