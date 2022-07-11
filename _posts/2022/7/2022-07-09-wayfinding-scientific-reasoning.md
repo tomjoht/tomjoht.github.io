@@ -8,7 +8,6 @@ rebrandly: https://idbwrtng.com/
 series: "Journey away from smartphones"
 jtype: notes_smartphones
 description: "The origins of scientific thinking probably developed with the first animal trackers, not just the Greeks. As we wayfind, we piece together inferences by reading the signs in the environment around us."
-published: false
 ---
 
 *If this is the first post you landed on, see this wayfinding intro for more context: [Wayfinding &mdash; finding my way without GPS](/blog/wayfinding-intro/).*
@@ -23,11 +22,11 @@ Louis Liebenberg, Harvard professor of evolutionary biology, says "[trackers] ha
 
 Tracking requires a great number of logical inferences and deductions. This thinking eventually led to similar analytical thought processes like Sherlock Holmes, Freud, and others, O'Connor explains (101). "Our existence depends on thousands of instances of inference and deduction that allow us to draw conclusions about other people and things, what has happened and what will happen," O'Connor says (103). The hunter constructs a "narrative sequence" based on the perceived signs to indicate what happened in a place and where an animal ventured to (102). These narrative sequences gave way to story and storytelling, which some academics believe is the center piece of human intelligence (122-23).
 
-Apparently, this same reasoning process also gave way to *autonoetic* thought processes, in which humans are able to see themselves from an outside perspective. The "autonoetic consciousness" is "the capacity to be aware of one's own existence as an entity in time" (105). If you can conceive of an animal's purpose for having been in a place and where it traveled to, you can apply the same thought processes to yourself, observing your own self as if an outside observer, analyzing and perceiving yourself and your actions as if from another person's perspective.
+Apparently, this same reasoning process also led to *autonoetic* thought processes, in which humans are able to see themselves from an outside perspective. The "autonoetic consciousness" is "the capacity to be aware of one's own existence as an entity in time" (105). If you can conceive of an animal's purpose for having been in a place and where it traveled to, you can apply the same thought processes to yourself, observing your own self as if an outside observer, analyzing and perceiving yourself and your actions as if from another person's perspective.
 
-As you can guess, these reasoning processes don't light up in the brain when people blindly follow turn-by-turn directions in a GPS-based app. If you're not making decisions, you're not getting any of the benefits of wayfinding. In fact, most of my wayfinding doesn't involve anything approaching the kind of observations and deductions required to track animals. In my wayfinding, I study a map beforehand, identify what appears to be a good route, commit it more or less to memory (maybe with some notes on paper, or by printing it out), and then navigate there. I'm making a minimal number of decisions about the route &mdash; optimizing for ease, efficiency, and sometimes scenery. 
+As you can guess, these reasoning processes aren't active when people blindly follow turn-by-turn directions in a GPS-based app. If you're not making decisions, you're not getting any of the benefits of wayfinding. In fact, most of my wayfinding doesn't involve anything approaching the kind of observations and deductions required to track animals. In my wayfinding, I study a map beforehand, identify what appears to be a good route, commit it more or less to memory (maybe with some notes on paper, or by printing it out), and then navigate there. I'm making a minimal number of decisions about the route &mdash; optimizing for ease, efficiency, and sometimes scenery. 
 
-But the type of reasoning involved in animal tracking is much more Sherlock Holmesian. While I was reading this section in O'Connor's book, one of my daughters lost her iPhone. Other family members looked all day for it without success. Filled with confidence, I thought I could track down the phone's whereabouts. Like an early hunter thinking through the details, I narrowed down the last time she had the phone, events that day and since, potential places it could and could not be, a radius from the last know location before the battery died, common places where my daughter interacted in house, and more. I thought I could think through the problem, or potentially eliminate all other possibilities until arriving at the location the phone must be (just as Holmes would say, "When you have eliminated all which is impossible, then whatever remains, however improbable, must be the truth"). Alas, despite my initial confidence, I did not locate the iPhone. It is still lost. 
+But the type of reasoning involved in animal tracking is much more Sherlock Holmesian. While I was reading this section in O'Connor's book, one of my daughters lost her iPhone. Other family members looked all day for it without success. Filled with confidence, I thought I could track down the phone's whereabouts. Like an early hunter thinking through the details, I narrowed down the last time she had the phone, events that day and since, potential places it could and could not be, a radius from the last know location before the battery died, common places where my daughter interacted in house, and more. I thought I could think through the problem, or potentially eliminate all other possibilities until arriving at the location the phone must be. Alas, despite my initial confidence, I did not locate the iPhone. It is still lost. 
 
 However, the experience made me more aware of this scientific reasoning and how it connects with wayfinding. I think similar modes of scientific thinking could be observed in non-wayfinding scenarios. For example, a programmer who tracks down the source of a tech bug employs similar logical skills. To troubleshoot, the programmer might isolate different elements to test, or might strip down a piece of code to its simplest form and them build it back up piece by piece, analyzing the effects of each addition until it breaks. The programmer might search error messages, log files, recreate the issue and observe different analytics (memory usage, performance waterfalls, etc.) all trying to track down the whereabouts of the faulty code. The troubleshooter might identify all the components in a system and draw arrows in how they interrelate, and do other tests to suss out the issue. 
 
@@ -35,7 +34,7 @@ Anytime you're problem solving, you're paying close attention to detail and maki
 
 I've spent days looking at maps, then exploring areas in experiential ways, taking note of the widths of bike paths, the inclines or declines, traffic congestion, stop-and-go momentum with lights, and more. Then I take this feedback and adjust my routes and plans. Does this attempt to find optimal bike routes qualify as wayfinding? Does it involve enough decision-making, experimentation, imagination, logical inferences from signs, feedback loops, and other judgements to cause my hippocampus and prefrontal cortex to come alive? 
 
-(By the way, I finally found a commute that seemed to work for me, allowing me to get from home to work (door to door) in 70 minutes by combining car + train + bike, traveling an impressive distance (Renton to Fremont) in a predictable time even with traffic congestion. I wrote about my strategy in [My multimodal commuting strategy](/blog/multimodal-commuting-strategies.html) and later volunteered for a [commuter spotlight](https://www.youtube.com/watch?v=FxMU3pP1bLE&ab_channel=CommuteSeattle).)
+(By the way, I wrote about my commuting strategy here: [My multimodal commuting strategy](/blog/multimodal-commuting-strategies.html) and later volunteered for a [commuter spotlight](https://www.youtube.com/watch?v=FxMU3pP1bLE&ab_channel=CommuteSeattle).)
 
 ## Keeping the wayfinding mindset fresh
 
@@ -63,17 +62,15 @@ By trying a new route, we were forced into a state of more acute awareness of th
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_7.jpg" alt="Henry's Ridge" />
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_8.jpg" alt="Henry's Ridge" />
-
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_9.jpg" alt="Henry's Ridge" />
-
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_10.jpg" alt="Henry's Ridge" />
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_8.jpg" alt="Henry's Ridge" />
 
 Her awareness and sense of detail were heightened &mdash; precisely because we'd taken an unfamiliar route in a new location. This is my entire point here. When you try new routes and places, your hippocampus wakes up, your spatial senses kick into gear, and your alertness and awareness to everything around you spikes.
 
 ## Correlating the map with the world
 
-In fact, a few times we could no longer correlate our location on the map. Comparing a map's drawings with what you see in real life is always a mismatch, which is the whole difficulty of wayfinding. The mismatch reinforces the fact that maps are a metaphor to the environment, optimizing for some detail that the map maker wanted to emphasize. By definition, maps must be a rudimentary subset of what you actually see in the environment. This mismatch between the map (what you see on paper) and the world (what you see looking around you) is what forces our brain to make associations, interpretive leaps, to infer conclusions from small details. You interpret a 2D line on paper to represent the trail ahead (or does that line refer to something else?). 
+In fact, a few times we could no longer correlate our location on the map. Comparing a map's drawings with what you see in real life is always a mismatch, which is the whole difficulty of wayfinding. The mismatch reinforces the fact that maps are a metaphor to the environment, optimizing for some detail that the map maker wanted to emphasize. By definition, maps must be a rudimentary subset of what you actually see in the environment. This mismatch between the map (what you see on paper) and the world (what you see looking around you) is what forces our brain to make associations, interpretive leaps, to infer conclusions from small details. You interpret a 2D line on paper to represent the trail ahead (or does that line refer to something else?). Compare the pictures above the the representation below:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_map.jpg" alt="Henry's Ridge Map" />
 
@@ -81,7 +78,7 @@ The mismatch forces you into spatial reasoning modes to make some correlation be
 
 Following a trail map is similar to following product instructions to put together some physical product, such as a dresser or, in our latest purchase, a composter. One locates the instructions, looks at the pictures, and then tries to map the how-to guide's images to the physical pieces, screws, and other unfamiliar gizmos in the box. Then step by step, you correlate the assembly actions with the various pieces strewn all over the floor until you build the object. 
 
-[image of composter instructions]
+<a href="https://secure.img1-ag.wfcdn.com/dm/document/1885d4b5-ee5c-441a-97ff-81dc969b1de7/assembly%20instructions"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/composterinstructions.jpg" alt="Composter instructions" /></a>
 
 In other words, instructions (especially highly visual ones) are a map that the user must try to follow. It involves a high degree of spatial reasoning, comparing, matching, intuiting, and more. Pieces might look highly similar except for the presence or absence of a single screw hole. Assembling things isn't something anyone can do without practice. My youngest daughter (11 years old) is a skilled artisan with cardboard, but she flounders when assembling anything from IKEA. 
 
@@ -89,7 +86,7 @@ My wife, on the other hand, scored high on the ASVAB test (the military even tri
 
 ## Getting lost
 
-There's also an argument for ditching the map entirely and just going with the flow. In Mary Oliver's essay "Upstream," she remembers a time during her youth when others thought her lost, but she was really just following a river far upstream, entranced by the beauty of the natural world so much that she ceased to take note of her camp location or the standard trails and other boundaries. Remembering this time, she writes, poetically:
+There's also an argument for ditching the map entirely and just going with the flow. In Mary Oliver's essay "Upstream," Oliver remembers a time during her youth when others thought her lost, but she was really just following a river far upstream, entranced by the beauty of the natural world so much that she ceased to take note of her camp location or the standard trails and other boundaries. Remembering this time, she writes, poetically:
 
 > Sometimes the desire to be lost again, as long ago, comes over me like a vapor. With growth into adulthood, responsibilities claimed me, so many heavy coats. I didn’t choose them, I don’t fault them, but it took time to reject them. Now in the spring I kneel, I put my face into the packets of violets, the dampness, the freshness, the sense of ever-ness. .... May I stay forever in the stream." (7)
 
@@ -99,13 +96,13 @@ Oliver's celebration of being lost is quite a different type of lost than Bill K
 
 > "My wife, Shelley, at home with a screaming baby, had already called twice. 'Where are you?' In frustration, I pounded my fist against my car's dashboard, yelling at nobody but myself, while driving five miles in the wrong direction down Route 2, looking for the next roundabout. Or maybe it was 3A? From 2000 to 2003, I lived in Boston &mdash; and I was frequently turned around. The city was merciless to a transplanted Texan: It was like a foreign language. The locals seemed to take pride in the missing signage, serpentine streets, and roundabouts. You needed to solve a math equation to navigate some intersections." (xi)
 
-The juxtaposition of these differing mindsets about getting lost comical. In *Wayfinding*, O'Connor talks with a landscape historian named John Stilgoe who says that becoming lost is a rare treat, as it allows the mind to wander. Stilgoe says that "busy, rushed Americans ... no longer take the time to explore and discover their surroundings and have lost their capacity to even see them directly" (290). O'Connor explains, 
+In *Wayfinding*, O'Connor talks with a landscape historian named John Stilgoe who says that becoming lost is a rare treat, as it allows the mind to wander. Stilgoe says that "busy, rushed Americans ... no longer take the time to explore and discover their surroundings and have lost their capacity to even see them directly" (290). O'Connor explains, 
 
 > To him, getting lost is an opportunity for discovery, one that demands that all the senses come alive, and creates a maximum alertness in which observation and possibility are heightened (290). 
 > 
 When you're in an unfamiliar surrounding, not sure of which way to go, it changes your sense of perception. Everything looks new. 
 
-For example, the other week I went for a walk outside my house and ran across a small path through a wooded area that I'd never seen before. I took it and soon emerged onto another street that I'd never walked down before. As I walked down the new street, I noticed the houses were much older than the more recent subdivision buildouts. My eyes were tracing the lines of each house I passed. I felt like I'd gone back in time to the 1980s in maybe another town or something.The street continued on much longer than I anticipated, and I started to question which direction I thought I was heading. 
+For example, the other week I went for a walk outside my house and ran across a small path through a wooded area that I'd never seen before. I took it and soon emerged onto another street that was entirely new to me. As I walked down the new street, I noticed the houses were much older than the more recent subdivision buildouts. My eyes were tracing the lines of each house I passed. I felt like I'd gone back in time to the 1980s in maybe another town or something. The street continued on much longer than I anticipated, and I started to question which direction I thought I was heading. 
 
 "If I'm lost and I don't have anyone to ask, I love that feeling," Joe Stilgo says. O'Connor notes that Stilgo distinguishes "between being desperately lost in dangerous circumstances and getting lost in a generally unknown place. In the latter case, to go off track is really about challenging the borders of one's familiarity, pressing beyond the known spaces of our understanding and experiences and into the new" (291-292).
 
