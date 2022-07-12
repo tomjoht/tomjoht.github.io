@@ -4,7 +4,7 @@ permalink: /blog/wayfinding-intro/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/wayfinding-intro
 series: "Journey away from smartphones"
 jtype: notes_smartphones
 description: "This post continues an ongoing series about a journey away from smartphones. In this post and the next several posts, I explore a topic of wayfinding. This topic surfaced as I tried driving without using a digital map on my smartphone."

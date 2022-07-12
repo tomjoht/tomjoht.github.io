@@ -4,7 +4,7 @@ permalink: /blog/wayfinding-be-present-and-attentive/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/
+rebrandly: https://idbwrtng.com/wayfinding-attentiveness
 series: "Journey away from smartphones"
 jtype: notes_smartphones
 description: "Wayfinding starts with being attentive and present with the world around you. However, our suburban <i>geography-of-nowhere</i>-type cementscapes remove a lot of incentive for attentiveness."
