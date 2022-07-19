@@ -76,6 +76,8 @@ Paying close attention to the land requires some affinity for the place you're i
 
 O'Connor uses the term *topophilia* to describe this "the sense of attachment and love for place" (296). If you establish a connection to the land, you'll be more likely to carefully observe its details. "If you're paying attention and listen, often there is a whole other story, telling us where we are," explained one of the Oceania people, talking about sailing (245). You can't see that hidden story unless you slow down and absorb the details of an area.
 
+{% include ads.html %}
+
 O'Connor says that to develop topophilia, we have to accumulate treasure maps of memories: "Across cultures, navigation is influenced by particular environmental conditions &mdash; snow, sand, water, wind &mdash; and topographies &mdash; mountain, valley, river, ocean, and desert," O'Connor says. "But in all of them, it is also a means by which individuals develop a sense of attachment and feeling for places. Navigating becomes a way of knowing, familiarity, and fondness. It is how you can fall in love with a mountain or a forest. Wayfinding is how we accumulate treasure maps of exquisite memories" (297). 
 
 Not just maps, but *treasure maps*. To develop an affinity for a place, you have to learn its history and stories &mdash; its treasures. In the United States, we move from place to place every five to seven years, whether for job opportunities or other circumstances (or just boredom). As such, it's hard to know an area beyond a superficial level. With such transience, how do we move from superficial maps to treasure maps? 
