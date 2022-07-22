@@ -4,7 +4,7 @@ permalink: /blog/wayfinding-scientific-reasoning/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/wayfinding-reasonining
+rebrandly: https://idbwrtng.com/wayfinding-reasoning
 series: "Journey away from smartphones"
 jtype: notes_smartphones
 description: "The origins of scientific thinking probably developed with the first animal trackers, not just the Greeks. As we wayfind, we piece together inferences by reading the signs in the environment around us."
