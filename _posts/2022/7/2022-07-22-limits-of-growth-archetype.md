@@ -61,6 +61,8 @@ When I could no longer find distraction and entertainment through my smartphone,
 
 Senge says that you have to identify the underlying cause and find leverage against that cause. What is the underlying cause that is prompting me toward modes of distraction? The smartphone was never the problem. The smartphone was an enabling mechanism I used as a tool for distraction. The smartphone provided an opportunity to shift out of whatever focus I should have been pursuing to do something else instead. Had the smartphone not been available, I would have merely selected another tool.
 
+{% include ads.html %}
+
 Senge says to deal with growth stagnation, you don't double down on the initial formula that brought you success. For example, in my case, I wouldn't get rid of my smartphone again. Instead, Senge says you have to identify the limiting factor (the balancing force that emerged) and deal with the deeper cause. Senge explains, 
 
 > But there is another way to deal with limits to growth situations. *In each of them, leverage lies in the balancing loop--not the reinforcing loop. To change the behavior of the system, you must identify and change the limiting factor.*  This may require actions you may not yet have considered, choices you never noticed, or difficult changes in rewards and norms. (100)
