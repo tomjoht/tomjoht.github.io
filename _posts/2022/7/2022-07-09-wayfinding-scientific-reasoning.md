@@ -84,6 +84,8 @@ In other words, instructions (especially highly visual ones) are a map that the 
 
 My wife, on the other hand, scored high on the ASVAB test (the military even tried to recruit her because of her score), and seems to have a knack for interpreting instructions to assemble products. When I assist, I often just want to be the grunt who does what she says (e.g., insert this screw here, bolt this there) because I know that being the interpreter requires much more reasoning, spatial interpretation and identification, etc. It often makes my brain hurt. I supply the muscle, she supplies the brains.
 
+{% include ads.html %}
+
 ## Getting lost
 
 There's also an argument for ditching the map entirely and just going with the flow. In Mary Oliver's essay "Upstream," Oliver remembers a time during her youth when others thought her lost, but she was really just following a river far upstream, entranced by the beauty of the natural world so much that she ceased to take note of her camp location or the standard trails and other boundaries. Remembering this time, she writes, poetically:

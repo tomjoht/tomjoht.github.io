@@ -74,6 +74,8 @@ Touching upon autonomous cars, O'Connor says,
 
 In other words, the more we rely on autonomous cars, the more we rely on algorithms to define our paths and routes, reducing our own choices. Untethering from GPS, then, is an assertion of individual will, to choose the routes you want to take rather than routes prescribed by some other entity. Making that decision of self-will helps stimulate thinking, creativity, and action.
 
+{% include ads.html %}
+
 ## Self-will against the machine
 
 I don't mean to take this too far, but perhaps in a larger philosophical sense, turning off GPS is a resistance against the modern state's design towards making us the "Last Man," as Nietzsche called it. The Last Man, the opposite of the Übermensch (Superman), is one who has become content with meaninglessness, mediocrity, and one who chooses the comfort and security of the social contract (what the state provides in return for your abdication of freedom). The Last Man numbs his emptiness with commercial purchases to pacify and try to satisfy a deeper discontent. 
