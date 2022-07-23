@@ -76,7 +76,7 @@ In other words, the more we rely on autonomous cars, the more we rely on algorit
 
 {% include ads.html %}
 
-## Self-will against the machine
+## Self-will against the machine {#self-will}
 
 I don't mean to take this too far, but perhaps in a larger philosophical sense, turning off GPS is a resistance against the modern state's design towards making us the "Last Man," as Nietzsche called it. The Last Man, the opposite of the Übermensch (Superman), is one who has become content with meaninglessness, mediocrity, and one who chooses the comfort and security of the social contract (what the state provides in return for your abdication of freedom). The Last Man numbs his emptiness with commercial purchases to pacify and try to satisfy a deeper discontent. 
 
