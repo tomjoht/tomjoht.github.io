@@ -81,6 +81,6 @@ I've got a bit of distance to cover to get here, so sit down, buckle up, and let
 
 ## References
 
-Kilday, Bill. Never lost again: The Google mapping revolution that sparked new industries and augmented our reality. HarperCollins, 2018.
+Kilday, Bill. *Never lost again: The Google mapping revolution that sparked new industries and augmented our reality.* HarperCollins, 2018.
 
-O'Connor, M. R. Wayfinding: The science and mystery of how humans navigate the world. St. Martin's Press, 2019.
+O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.

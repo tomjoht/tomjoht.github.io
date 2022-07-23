@@ -150,8 +150,8 @@ Besides wayfinding, though, there's something else that's valuable: the mindset 
 
 ## References
 
-Kunstler, James Howard. Geography of nowhere: The rise and declineof america's man-made landscape. Simon and Schuster, 1994.
+Kunstler, James Howard. *Geography of Nowhere: The rise and decline of America's man-made landscape.* Simon and Schuster, 1994.
 
-O'Connor, M. R. Wayfinding: The science and mystery of how humans navigate the world. St. Martin's Press, 2019.
+O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
 
-Speck, Jeff. Walkable city: How downtown can save America, one step at a time. macmillan, 2013.
+Speck, Jeff. *Walkable city: How downtown can save America, one step at a time*. Macmillan, 2013.

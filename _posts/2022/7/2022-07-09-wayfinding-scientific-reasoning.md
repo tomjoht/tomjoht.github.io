@@ -114,8 +114,8 @@ I'm sure that if Kilday were to suddenly become intrigued by Boston's serpentine
 
 ## References
 
-Kilday, Bill. Never lost again: The Google mapping revolution that sparked new industries and augmented our reality. HarperCollins, 2018.
+Kilday, Bill. *Never lost again: The Google mapping revolution that sparked new industries and augmented our reality.* HarperCollins, 2018.
 
-O'Connor, M. R. Wayfinding: The science and mystery of how humans navigate the world. St. Martin's Press, 2019.
+O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
 
-Oliver, Mary. Upstream: selected essays. Penguin, 2019.
+Oliver, Mary. *Upstream: selected essays.* Penguin, 2019.

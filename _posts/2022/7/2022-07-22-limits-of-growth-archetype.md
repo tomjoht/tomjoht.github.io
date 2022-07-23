@@ -165,6 +165,4 @@ Senge, Peter M. *[The Fifth Discipline: The art and practice of the learning org
 Sharif, Marissa A., Cassie Mogilner, and Hal E. Hershfield. ["Having too little or too much time is linked to lower subjective well-being."](https://www.apa.org/pubs/journals/releases/psp-pspp0000391.pdf) *Journal of Personality and Social Psychology* (2021).
 
 
-
-
 [1]: https://www.linkedin.com/feed/update/urn:li:activity:6923138595931267072?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6923138595931267072%2C6932355732738637824%29

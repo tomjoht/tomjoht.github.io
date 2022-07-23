@@ -100,10 +100,10 @@ As my daughter and I returned to the light rail station in Tukwila, we needed a 
 
 ## References
 
-Crawford, Matthew B. Why We Drive: Toward a Philosophy of the Open Road. HarperCollins, 2020.
+Crawford, Matthew B. *Why We Drive: Toward a Philosophy of the Open Road.* HarperCollins, 2020.
 
 Doyle, Bob. "[Fight Club & Nietzsche: Overcoming Emasculation][1]." Youtube. Sep 26, 2020.
 
-O'Connor, M. R. Wayfinding: The science and mystery of how humans navigate the world. St. Martin's Press, 2019.
+O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
 
 [1]: https://www.youtube.com/watch?v=NpxHFNvlUmU&t=389s&ab_channel=Bob
