@@ -179,7 +179,7 @@ Meet Jayden! Jayden has one year of experience. He recently graduated from colle
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jayden.png" alt="" /><figcaption></figcaption></figure>
 
-Jayden mostly waits for tickets to be assigned to him. If no one assigns him tickets, he doesn't seek out the work. As a junior writer, he mostly operates in listen mode. He has good writing skills, but he needs most of the information collected for him. He has a hard time reaching out to different stakeholders to set up meetings and pull information out of engineer's heads. Jayden has a good personality and people enjoy chatting with him, but he requires a lot of management to be productive.
+Jayden mostly waits for tickets to be assigned to him. If no one assigns him tickets, he doesn't seek out the work. As a junior writer, he mostly operates in listen-only mode. He has good writing skills, but he needs most of the information collected for him. He has a hard time reaching out to different stakeholders to set up meetings and pull information out of engineer's heads. Jayden has a fun personality and people enjoy chatting with him, but he requires a lot of management to be productive. Jayden is still operating in novice mode. 
 
 ## Five ways to level up past novice mode
 
@@ -195,38 +195,71 @@ To level up past novice mode, I recommend five strategies:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_proactive.png" alt="" /><figcaption></figcaption></figure>
 
-The first strategy is adopt a sense of proactiveness about the work. The shift from reactive to proactive constitutes the core principle of leadership. 
+The first strategy is adopt a sense of proactiveness about the work. The shift from reactive to proactive constitutes the core principle of leadership. How do you figure out what doc work needs to be done, without someone telling you? I recommend setting up biweekly meetings with two groups: product teams that you support, and partner engineering groups (devrel groups) that interact with partners. (The name of this partner engineering group varies by company &dash; just find whoever interacts with your users, and meet with this group regularly.) These two groups will help identify the work for you. 
 
-How do you figure out what doc work needs to be done, without someone telling you? I recommend setting up biweekly meetings with two groups: product teams that you support, and partner engineering groups (devrel groups) that interact with partners. (The name of this group varies by company &dash; just find whoever interacts with your users, and meet with them regularly.) These two groups will help identify the work for you. 
+When working with product groups, ask for their roadmaps, as this will give you a clear idea about what's coming (rather than being informed at the last minute). With partner engineering groups, look at the incoming tickets to help identify trends and start conversations about the work that needs to be done. 
 
-When working with these product groups, ask for their roadmaps, as this will give you a clear idea about what's coming (rather than being informed at the last minute). With partner engineering groups, look at the incoming tickets to help identify trends and start conversations about the work that needs to be done. 
+When you set up a rhythm like this, meeting regularly with these two groups, you'll have a clear sense of the needed documentation work and won't need to rely on others to define what needs to be done.
 
 ### Turn off phone/chat notifications
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_distractions.png" alt="" /><figcaption></figcaption></figure>
 
-Younger generations are more plugged into social media than older ones, undoubtedly. With that sense of connection comes a risk of attention fragmentation and constant distraction. My entire [series on smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into modes that allow for sustained focus. Without sustained focus, you'll be unlikely to make much progress against projects.
+Younger generations are more plugged into social media. But with that sense of connection comes a risk of attention fragmentation and constant distraction. My entire [series on smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into deep focus modes that allow for sustained productivity. Without sustained focus, you'll be unlikely to make much progress against projects. It's easy to be constantly interacting in chat, email, social media, and other channels all day, feeling busy, but not making actual progress in projects.
 
-Here are a few tips. Put your phone on Do Not Disturb (except for family), and try to carry it in your bag more than your pocket. Remove work email from your phone (but not your work calendar). Turn off Slack notifications and other notifications that will pull you out of the moment. Consider using the Pomodoro technique to set 90 minute sessions of focused work. Experiment with ways to focus that will make you productive. The people around you don't need immediate responses.
+Here are a few tips. Put your phone on Do Not Disturb (except for family notifications), and try to carry the phone in your bag more than your pocket. Remove work email from your phone (but not your work calendar). Turn off Slack notifications and email/chat notifications that will pull you out of the moment. Consider using the Pomodoro technique to set 90 minute sessions of focused work. In general, experiment with ways to focus that will make you productive. The people around you don't need immediate responses, trust me. You're a technical writer, not an emergency room doctor.
 
 ### Give reviewers time to read the doc in review meetings
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_doc_reviews.png" alt="" /><figcaption></figcaption></figure>
 
-You'll need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation you're writing to bring it up to production quality. When you schedule time with reviewers, shorten the content for review to about 6 pages and allow the reviewer to read it at the start of the meeting, taking the first 20 minutes or so to read the material. 
+You'll need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation you're writing to bring it up to production quality. When you schedule time with reviewers, shorten the content for review to about 6 pages and allow the reviewer to read it at the start of the meeting, taking the first 20 minutes or so to read the material if desired. 
 
-Most of the time, reviewers prefer to comment as they read. I tell them to vocalize their feedback as I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon. See [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details. It works and ensures that people will actually review the content, allow you to achieve deadlines and other release timelines for your content.
+Most of the time, reviewers will prefer to comment as they read. I tell them to vocalize their feedback as I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon &mdash; see [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details. This approach works and ensures that people will actually review the content, allowing you to achieve deadlines and other release timelines for your content.
 
-This approach might seem awkward or odd at first, and it can feel like you're babysitting someone through tasks that they can clearly do on their own. But in my experience, few people read docs outside of review meetings. If they do, their reading is usually cursory. If you have multiple reviewers in the same meeting, it's almost guaranteed that some will have read the material outside the meeting but others won't have read anything. Then you have to either wait for those who haven't read it to read it, frustrating those who have. Or you have to skip the unprepared reviewers from reading and giving feedback. In short, it's just much easier to give everyone time to read the material during the review meeting.
+This approach might seem awkward or odd at first, and it can feel like you're babysitting someone through tasks that they can do on their own. But in my experience, few people read docs outside of review meetings. If they do, their reading is usually cursory. If you have multiple reviewers in the same meeting, it's almost guaranteed that some will have read the material outside the meeting while others won't have read anything. Then you have to either wait for those who haven't read the doc to read it, frustrating those who have. Or you'll have to skip the unprepared reviewers from reading and giving feedback. In short, it's just much easier to give everyone time to read the material during the review meeting.
 
 ### Find interest through specialization
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_specialization.png" alt="" /><figcaption></figcaption></figure>
 
+As you gain more experience, you'll inevitably gravitate toward some kind of specialization within the tech comm field. This specialization helps you sustain interest in the career long term. Some example areas of specialization include the following:
+
+* API documentation
+* Developer portals
+* Developer UX
+* Style guides
+* Tools
+* Usability
+* eLearning
+* Management
+* Intelligent Content
+* Consulting
+* Content management systems
+* xPA collaboration
+* Video production
+* Graphic design
+
+Beyond rejuvenating your career with added interest, specialization also makes you more marketable. By itself, writing is often [seen as a commodity](/2018/08/09/writing-no-longer-a-skill/). Career experts like Jack Molisani recommend [hybridizing your job title](/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) (for example, a tech writer / usability expert, a tech writers / content management expert) to be much more attractive to employers. 
+
+But besides the career benefits of specialization, it just makes the job much more interesting. About 10 years ago, I found that I actually liked working with API documentation and developer portals. I discovered that the realm of developer docs (where APIs and dev portals abound) was a rich, unexplored landscape that led me to develop an entire course on the topic: [API documentation](/learnapidoc/).
+
 ### Use writing to influence stakeholders
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_influence.png" alt="" /><figcaption></figcaption></figure>
 
+My final tip is to use writing (your superpower) to influence stakeholders. We often don't recognize how influential writing can be, but if I've learned anything from blogging, it's that the formula for influence is rather simple: write and share, repeatedly. I've always been amazed by how visible I've become in tech comm circles. People across the globe seem to know me. How can you reproduce the same visibility techniques inside a corporation to achieve a similar effect? This is the focus in my series [Part 1: Introduction to influence on the web](/web-and-workplace-influence/part1-introduction-to-influencers.html). While I'm still figuring out the right strategies, try these simple tips:
+
+* Type of notes of meetings and distribute them to wider channels
+* Send out newsletters detailing the documentation work going on
+* Start a book club and share details about domain-focused, relevant books
+
+When you crank out content regularly, your name will become more well-known. When people think of docs, they'll think of you. That association can make you a more powerful presence in the organization. 
+
 ## Conclusion
+
+I realize that, in this post, I've focused on stereotypes about ages that might be off-putting. The first half &mdash; how to avoid becoming Jerry &mdash; is written primarily for myself, as this has been a growing fear of mine for some time. My whole point is that we can avoid becoming either Jerry or Jayden. I want to be the sixty-year-old technical writer that all young engineers specifically request for their projects. I'm convinced that when people get to know you, when they sense your intense curiosity, passion to experiment and try new things, when they see how you question even your own long-held assumptions, the wrinkles on your skin won't matter. 
+
+In the same way, if you're just starting out and barely know how to find the supply room at work, if you know how to execute on projects, make progress toward large documentation projects, get information from engineers, and define the doc work through key meetings with stakeholders, people will look past your age and inexperience. You'll be seen as a vital member of the team and a project leader.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_end_journey.png" alt="" /><figcaption></figcaption></figure>
