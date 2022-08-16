@@ -15,19 +15,19 @@ If you're just starting your career as a tech writer, this post is for you. You 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_intro_journey.png" alt="" /><figcaption></figcaption></figure>
 
-As you begin, consider this question. You've just been assigned a new project, and you have to pick another tech writer to work on it with you. You have two choices:
+To kick off the topic of this post, consider this question. You've just been assigned a new project, and you have to pick another tech writer to work on it with you. You have two choices:
 
-> Would you rather work with someone with 25 years of experience, or someone with 1 year of experience? Does it matter? Why or why not?
+> Would you rather work with someone with 25 years of experience, or someone with 2 years of experience? Does it matter? Why or why not?
 
-At these two extremes of the work experience spectrum, there are some common profiles you're no doubt familiar with. For the worker with 25 years of experience, he or she might be too set in their ways, unable to change, wed to specific tools, and often cynical and negative to the leadership around them.
+At these two extremes of the work experience spectrum, there are some common profiles/generalizations you're no doubt familiar with. For the worker with 25 years of experience, he or she might be too set in their ways, resistant to change, wed to specific tools, and often cynical and negative to the leadership around them.
 
-Opposite to this person is one with just a couple of years of experience. This person might be mostly reactive, waiting for someone to assign him tickets, to indicate the contact points, to spell out doc needs, and other details for the work. 
+Opposite to this person is one with just a couple of years of experience. This person might be mostly reactive, waiting for someone to assign him tickets, indicate the contact points, spell out doc needs, and other details for the work. This person might require a lot of handholding and management.
 
-Of course, these profiles are extremes. I'm exaggerating the the behaviors a bit to make a point about patterns to avoid. To make this discussion more engaging, I've given these two profiles names: Jerry (left) and Jayden (right).
+Of course, these profiles are extremes. And I'm exaggerating the the behaviors to make a point about patterns to avoid. If either generalization seems offensive, note that my larger goal is to explain how to avoid these extremes. Many people avoid them by implementing the advice I'll give in this post. 
+
+To make this discussion more engaging, I've given these two profiles names: Jerry (left) and Jayden (right).
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry_jayden_small.png" alt="" /><figcaption></figcaption></figure>
-
-I'll focus my thoughts around how to avoid becoming Jerry and Jayden.
 
 ## Avoid becoming Jerry
 
@@ -35,46 +35,46 @@ Meet Jerry. He has 25 years of experience and has worked at a variety of big com
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry.png" alt="" /><figcaption></figcaption></figure>
 
-At this point in his career, Jerry has become overwhelmingly negative. What happened during during Jerry's 25 years to make him bitter? Fictitious deadlines (for which he busted his butt getting docs ready), inexplicable layoffs (some which he escaped, but not all), failed projects from poorly researched user needs (but which required enormous documentation work), CEOs oblivious to engineering best practices (and who never champion docs), and more. 
+At this point in his career, Jerry has become overwhelmingly negative. What happened during during Jerry's 25 years to make him bitter? Fictitious deadlines (for which he busted his butt getting docs ready), inexplicable layoffs (some which he escaped, but not all), failed projects from poorly researched user needs (which required enormous documentation work only to be cancelled at the last minute), CEOs oblivious to engineering best practices (and who never champion docs but rather bounce the tech comm team from org to org), and more. 
 
-In Jerry's view, his manager and other senior leaders are incompetent. Product teams frequently loop him in at the last minute, providing little respect for the work he does. They assume he's a tech newbie, even though he has extensive code experience. Jerry hasn't devoted time to learning anything new in his field for years because everything he reads online seems so superficial. Worst of all, he has constant backaches from sitting all day. No matter the situation, even if you start out bearing good news, Jerry manages to turn it into a negative.
+In Jerry's view, his manager and other senior leaders are incompetent. Product teams frequently loop him in at the last minute, providing little respect for the work he does. They assume he's a tech newbie, even though he has extensive code experience. Jerry hasn't devoted time to learning anything new in tech comm for years because everything he reads online seems so superficial. Worst of all, he has constant backaches from sitting all day. No matter the conversational scenario, even if you start out bearing good news, Jerry manages to turn it into a negative.
 
 ## When years of experience is detrimental
 
-I start off by describing Jerry to make a point: years of experience isn't always an asset. Many times younger employees are much more desirable. 
+I start off by describing Jerry to make a point: years of experience isn't always an asset. Many times younger employees are much more desirable, not just because of presumed technical familiarity but due to other characteristics. 
 
 <figure style="float:right; margin-left: 10px"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_the_fifth_discipline.png" alt="" /><figcaption></figcaption></figure>
 
-In *The Fifth Discipline: The Art & Practice of The Learning Organization*, Peter Senge talks with other managers at a business conference and describes what young leaders possess: 
+In *The Fifth Discipline: The Art & Practice of The Learning Organization*, Peter Senge (talking with other managers at a business conference) describes what young leaders possess: 
 
 > ...many of the more experienced managers at the conference began to see how their past knowledge and accomplishments could actually be an impediment in learning change.... By contrast, the young leaders were able to remain open, and, through their genuine inquiry, often enabled shared understanding and commitment in ways that strong advocacy can impede.... The young people work at remaining unattached to their views. (p. 371)
 
-Young leaders are open to change, they're unattached to their views, they have genuine inquiry, and they often share commitment with others. By contrast, leaders with many years of experience might be more closed off to change (maybe they've seen it before). Their previous experiences might have persuaded them about certain views (not this again), and they might have little interest in deviating from what they found to work in previous roles and situations (what's the point of doing it differently when this way works?). 
+Young leaders are open to change, are unattached to their views, have genuine inquiry, and often share commitment with others. By contrast, leaders with many years of experience might be more closed off to change (*I've seen this before and it never works*). Their previous experiences might have persuaded them about certain views (*"not this again ..."*), and they might have little interest in deviating from what they found to work in previous roles (*what's the point of doing it this way? I already know what works*). 
 
-As you progress through your career, how will you avoid the same trajectory as Jerry? It's easy when you're just starting out and haven't had to deal with all the nonsense that Jerry has been dealing with for years. The trick is to retain some of the youthful attributes even as life wears on you for the next twenty years.
+As you progress through your career, how will you avoid the same trajectory as Jerry? It's easy when you're just starting out and haven't had to deal with all the nonsense that Jerry has been dealing with for years. The trick throughout your career is not to retain your desirable characteristics when you're young. Like good looks, they'll fade. The trick is to retain your youthful attributes throughout your career, despite everything that's going to happen.
 
-Many tech workers have anxiety about getting older. In San Francisco, there's even a camp people can attend to deal with becoming "old." In [New Luxury Retreat Caters to Elderly Workers in Tech (Ages 30 and Up)](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html), the author explains:
+## Confronting anxiety about getting older 
+
+Many tech workers have anxiety about getting older, and for good reason. In San Francisco, there's even a camp people can attend to deal with becoming "old." In [New Luxury Retreat Caters to Elderly Workers in Tech (Ages 30 and Up)](https://www.nytimes.com/2019/03/04/technology/modern-elder-resort-silicon-valley-ageism.html), the author explains:
 
 > In and around San Francisco, the conventional wisdom is that tech jobs require a limber, associative mind and an appetite for risk &mdash; both of which lessen with age.... Their anxieties are well founded. In Silicon Valley, the hiring rate seems to slow for workers once they hit 34 .... 
 > 
 > The social narrative is basically, midlife is a crisis and after a crisis you have decrepitude,” Mr. Conley said. “But you actually are much happier in your 60s and 70s, so why aren’t we preparing for that?” 
 
-I wrote about this fear in a post here: [Confronting the fear of growing older when you're surrounded by young programmers](/2019/03/07/confronting-fears-of-aging-in-technology-environments/). Youth have the advantage of naturally possessing a more limber mind, making new connections, and having an appetite for risk, to take the big swing.
+I wrote about this fear in a post here: [Confronting the fear of growing older when you're surrounded by young programmers](/2019/03/07/confronting-fears-of-aging-in-technology-environments/). Youth have the advantage of naturally possessing a more limber mind, making new connections, and having an appetite for risk.
 
-In my post, I conducted a survey asking whether others felt any anxiety about increasing in years, and what they're doing to stay young. 73% agree or strongly agree with the this statement: 
-
-> I sometimes fear what will happen as I get older in the technology field.
+In my post, I conducted a survey asking whether others felt any anxiety about increasing in years, and what they're doing to stay young. 73% agree or strongly agree with the statement: "I sometimes fear what will happen as I get older in the technology field."
 
 When asked what people do to stay young, the top results (from 140 respondents) were as follows: 
 
-1. Experimenting with new ideas or techniques (109)
-2. Changing my perspective to see things differently (93)
-3. Constantly reading (92)
-4. Questioning what I think I already know (84)
+1. Experiment with new ideas or techniques (109)
+2. Change my perspective to see things differently (93)
+3. Constantly read (92)
+4. Question what I think I already know (84)
 
 <figure><a href="https://www.questionpro.com/t/PFd5IZd2F8"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_howtostayyoungsurvey.png" alt="" /></a><figcaption></figcaption></figure>
 
-(You can see the [full survey results here](https://www.questionpro.com/t/PFd5IZd2F8).)
+This was just an informal, fun survey to get a general pulse on the topic. You can see the [full survey results here](https://www.questionpro.com/t/PFd5IZd2F8).
 
 ## Five ways to stay young (even as life wears on you)
 
