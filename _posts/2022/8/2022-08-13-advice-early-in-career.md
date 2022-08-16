@@ -88,21 +88,21 @@ Based on the trends in the survey and my own experiences, I recommend these five
 
 ### 1. Read
 
-Reading introduces you to new information, which helps you continue learning. Continuing to learn helps you keep an open mind and stay receptive to new information that might contradict existing information you have. 
+Reading introduces you to new information, which helps you continue learning. Continuing to learn helps you keep an open mind and stay receptive to new information that might contradict or supplement existing information you have. 
 
-In reading, focus on high-value content, such as books, journal articles, or in-depth articles. Scrolling Twitter and other social media feeds involves reading but the information is often low-value.
+In reading, focus on high-value content, such as books, journal articles, or in-depth content. Scrolling Twitter and other social media feeds involves reading but the information is often low-value. Print content out, and annotate as you read.
 
-Without any incoming information through reading, we will continue operating on our existing knowledge and experiences. We'll be more likely to remain fixed and repeat our same strategies again and again. 
+Without any incoming information through reading, we continue operating on our existing knowledge and experiences. As such, we'll be more likely to remain fixed and repeat our same approach again and again. 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_read.png" alt="" /><figcaption></figcaption></figure>
 
 ### 2. Experiment
 
-Experimenting with new techniques, tactics, tools, and processes can be a way to expose you to new information as well. The experiments might change previous assumptions or lead you to new epiphanies or other insights. 
+Experimenting with new techniques, tactics, tools, and processes can be a way to expose you to new ideas as well. The experiments might change previous assumptions or lead you to new epiphanies or other insights. 
 
 When I did my [smartphone experiment](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) and gave up my smartphone for a time, it led to many new ideas and feelings. Another experiment, [moving from WordPress to Jekyll](/2015/05/29/moved-my-blog-from-wordpress-to-jekyll/), and then [adopting docs-as-code tools for documentation](/2018/07/03/docs-as-code-after-three-years/), likewise led to many new realizations and ideas. 
 
-In this post, I'm experimenting with a new tool for creating images: [Midjourney](https://midjourney.com). Using AI led me to question some techno-skeptic trends that I'd recently been following, and I started to believe that maybe anything is possible with tech. Perhaps I just wasn't patient enough.
+In this post, I'm experimenting with a new tool for creating images: [Midjourney](https://midjourney.com). Using this art AI tool led me to question some techno-skeptic ideas that I'd recently been following, and I started to believe that maybe anything is possible with tech (even autonomous driving). Perhaps I just wasn't patient enough.
 
 Experimentation should naturally follow from reading. If you're learning new ideas from the books you're reading, try them out. 
 
@@ -112,15 +112,15 @@ Experimentation should naturally follow from reading. If you're learning new ide
 
 Asking questions is also key to retaining a young, open mindset. When you ask a question, you move in the direction of the unknown to the known, and it can sometimes be exciting to uncover new ways of looking at the world. 
 
-When we start asking questions, we often come to realize how little we know. The most mundane, taken-for-granted topic can turn upside down with the right question. What we frequently forget is how little we know. It's only when we start asking questions that we recognize our lack of knowledge. The most basic, almost fact-like idea can seem perplexing with the right question.
-
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_ask_questions.png" alt="" /><figcaption></figcaption></figure>
-
-In asking questions, be sure to turn the questions onto yourself as well, questioning your own assumptions and beliefs. Asking questions helps you retain your curiosity and inquisitive mind. It helps you avoid defensiveness and myopia.
+When we start asking questions, we often come to realize how little we know. The most mundane, taken-for-granted topic can turn upside down with the right question. What we frequently forget is how little knowledge we actually possess. It's only when we start asking questions that we recognize our lack of knowledge. The most basic, almost fact-like idea can seem perplexing with the right question (like when a child regularly stumps you with a "why" question).
 
 Asking questions about whether there are "non-trends," or trends that have fizzled, led me to an entire series of posts called [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html). 
 
-Questions also help you build personal skills. Have you ever talked to someone who never asks you questions of any kind? These one-sided "conversations" are my least favorite.
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_ask_questions.png" alt="" /><figcaption></figcaption></figure>
+
+In asking questions, be sure to turn the questions onto yourself as well, interrogating your own assumptions and beliefs. Turning questions onto your own point of view can help you avoid defensiveness and myopia.
+
+Questions also help you build personal skills. Have you ever talked to someone who never asks you questions of any kind during the course of a conversation? These one-sided "conversations" are my least favorite.
 
 For more posts on asking questions, see these two:
 
@@ -129,17 +129,17 @@ For more posts on asking questions, see these two:
 
 ### 4. See mental models
 
-Mental models are the stories people tell themselves to make sense of the world. Peter Senge says mental models constitute one of the four disciplines in a learning organization:
+Mental models are the stories people tell themselves to make sense of the world. Peter Senge says mental models constitute one of the four disciplines in a learning organization. He defines mental models as follows:
 
 > Two people with different mental models can observe the same event and describe it differently, because they’ve looked at different details and made different interpretations.” (164)
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_mental_models.png" alt="" /><figcaption></figcaption></figure>
 
-I had a recent family experience that reinforced the importance of mental models. One of my daughters had been complaining about another girl at school who was rallying others against her. One time a friend, this girl had since turned into a major friction point. To my surprise, the girl's mother reached out to us one day to complain that our daughter and others were more or less bullying this girl. *What?* I wanted to say it was the opposite.
+I had a recent family experience that reinforced the importance of mental models. One of my daughters had been complaining about another girl at school who was turning others against her. Though she was once a friend, this girl had since turned into an enemy. To my surprise, the girl's mother reached out to us one day to complain that our daughter and others were bullying her girl. *What?* I wanted to say it was the opposite.
 
-But my wife asked to see the Discord threads that were at the heart of the friction between the two. As she looked through the exchanges, there was some evidence that my daughter had acted in appropriately. Looking at the data started to change our views. It also helped my daughter see her actions from another perspective as well. 
+But my wife asked to see the Discord threads that were at the heart of the friction between the two. As my wife looked through the exchanges, there was some evidence that my daughter had acted in appropriately. Looking at the data started to change our views. It also helped my daughter see her actions from another perspective as well, making her open to the idea that she had acted inappropriately as well. She could see how the other girl felt that she was being bullied a bit.
 
-This is the beauty of thinking about mental models: it frees you from the idea that events have only one interpretation. We tell ourselves stories that make sense of the events and experiences of our lives.
+This is the beauty of thinking about mental models: it frees you from the idea that events have only one interpretation. When you can see multiple interpretations for the same data, it helps you keep a more open mind about the interpretations. 
 
 To get a better sense of mental models, Senge recommends these strategies:
 
