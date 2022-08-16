@@ -1,11 +1,11 @@
 ---
-title: "My advice if you're just starting out your technical writing career"
+title: "If you're just starting out your technical writing career, here's my advice"
 permalink: /blog/career-advice-just-starting-out.html
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/career-advice-new
-description: "I recently spoke to some technical writing interns at my work on the topic of career advice. The topic was this. What advice would you give to those just starting out their technical writing career? Imagine turning back the clock 20 years. What advice would be most helpful? This post expands on some of these ideas. It also gave me an opportunity to play around with Midjourney, an art AI tool that automatically creates images based on text prompts. Unlike my other posts, this post is mostly visual, as it was intended more as a slide deck than a blog post."
+description: "I recently spoke to some technical writing interns at my work on the topic of career advice. The topic was this. What advice would you give to those just starting out their technical writing career? Imagine turning back the clock 20 years. What advice would be most helpful? This post expands on some of these ideas. It also gave me an opportunity to play around with Midjourney, an art AI tool that automatically creates images based on text prompts. (For fun, I included the text prompts as captions.) Unlike my other posts, this post is more visual, as it was intended more as a slide deck than a blog post."
 published: false
 ---
 
@@ -13,7 +13,7 @@ published: false
 
 If you're just starting your career as a tech writer, this post is for you. You could be a student just graduating college, or someone who is transitioning from another career. There are many options and challenges at this point in your career.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_intro_journey.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_intro_journey.png" alt="man in suit walking on twisting winding road side of road with vista in background mountains sunset perspective long walking realistic" /><figcaption>man in suit walking on twisting winding road side of road with vista in background mountains sunset perspective long walking realistic</figcaption></figure>
 
 To kick off the topic of this post, consider this question. You've just been assigned a new project, and you have to pick another tech writer to work on it with you. You have two choices:
 
@@ -27,13 +27,13 @@ Of course, these profiles are extremes. And I'm exaggerating the the behaviors t
 
 To make this discussion more engaging, I've given these two profiles names: Jerry (left) and Jayden (right).
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry_jayden_small.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry_jayden_small.png" alt="character profiles" /><figcaption></figcaption></figure>
 
 ## Avoid becoming Jerry
 
 Meet Jerry. He has 25 years of experience and has worked at a variety of big companies. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jerry.png" alt="cynical jaded sarcastic negative grumpy office worker realistic martin shoeller cold" /><figcaption>cynical jaded sarcastic negative grumpy office worker realistic martin shoeller cold</figcaption></figure>
 
 At this point in his career, Jerry has become overwhelmingly negative. What happened during during Jerry's 25 years to make him bitter? Fictitious deadlines (for which he busted his butt getting docs ready), inexplicable layoffs (some which he escaped, but not all), failed projects from poorly researched user needs (which required enormous documentation work only to be cancelled at the last minute), CEOs oblivious to engineering best practices (and who never champion docs but rather bounce the tech comm team from org to org), and more. 
 
@@ -43,7 +43,7 @@ In Jerry's view, his manager and other senior leaders are incompetent. Product t
 
 I start off by describing Jerry to make a point: years of experience isn't always an asset. Many times younger employees are much more desirable, not just because of presumed technical familiarity but due to other characteristics. 
 
-<figure style="float:right; margin-left: 10px"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_the_fifth_discipline.png" alt="" /><figcaption></figcaption></figure>
+<figure style="float:right; margin-left: 10px; max-width: 150px"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_the_fifth_discipline.png" alt="The Fifth Discipline by Peter Senge" /><figcaption></figcaption></figure>
 
 In *The Fifth Discipline: The Art & Practice of The Learning Organization*, Peter Senge (talking with other managers at a business conference) describes what young leaders possess: 
 
@@ -94,7 +94,7 @@ In reading, focus on high-value content, such as books, journal articles, or in-
 
 Without any incoming information through reading, we continue operating on our existing knowledge and experiences. As such, we'll be more likely to remain fixed and repeat our same approach again and again. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_read.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_read.png" alt="old person learning student studying in great library cathedral ceiling" /><figcaption>old person learning student studying in great library cathedral ceiling</figcaption></figure>
 
 ### 2. Experiment
 
@@ -106,7 +106,7 @@ In this post, I'm experimenting with a new tool for creating images: [Midjourney
 
 Experimentation should naturally follow from reading. If you're learning new ideas from the books you're reading, try them out. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_experiment.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_experiment.png" alt="old man conducting experiments in lab with bunson burner and beaker and flame in lab room smoke" /><figcaption>old man conducting experiments in lab with bunson burner and beaker and flame in lab room smoke</figcaption></figure>
 
 ### 3. Ask questions
 
@@ -116,7 +116,7 @@ When we start asking questions, we often come to realize how little we know. The
 
 Asking questions about whether there are "non-trends," or trends that have fizzled, led me to an entire series of posts called [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html). 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_ask_questions.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_ask_questions.png" alt="old woman sitting on bench with legs crossed and hand in air asking question talking with others in meditative pose city scape in background realistic" /><figcaption>old woman sitting on bench with legs crossed and and hand in air asking question talking with others in meditative pose city scape in background realistic</figcaption></figure>
 
 In asking questions, be sure to turn the questions onto yourself as well, interrogating your own assumptions and beliefs. Turning questions onto your own point of view can help you avoid defensiveness and myopia.
 
@@ -133,7 +133,7 @@ Mental models are the stories people tell themselves to make sense of the world.
 
 > Two people with different mental models can observe the same event and describe it differently, because they’ve looked at different details and made different interpretations.” (164)
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_mental_models.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_mental_models.png" alt="man seeing the world from behind the head of another man to behold same view and perspective" /><figcaption>man seeing the world from behind the head of another man to behold same view and perspective</figcaption></figure>
 
 I had a recent family experience that reinforced the importance of mental models. One of my daughters had been complaining about another girl at school who was turning others against her. Though she was once a friend, this girl had since turned into an enemy. To my surprise, the girl's mother reached out to us one day to complain that our daughter and others were bullying her girl. *What?* I wanted to say it was the opposite.
 
@@ -155,7 +155,7 @@ The final recommendation is perhaps the hardest: take risks. I'm a cautious pers
 
 Even though it was uncomfortable, I decided to take a big leap in not only [switching to a new company](/blog/job-transition-from-amazon-to-google/) (Google), but also [relocating to a new state](/blog/seattle-one-year-later) (from California to Washington). We even [bought a house we'd never actually seen](/blog/moving-to-seattle-exploring-places-with-vr) in person! It all worked out, fortunately.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_take_risks.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_take_risks.png" alt="old woman wearing cardigan jumping off cliff mountains in distances dark below" /><figcaption>old woman wearing cardigan jumping off cliff mountains in distances dark below</figcaption></figure>
 
 Why does taking risks keep us young? Think of the analogy to company innovation. Clay Christiansen talks about why big companies, seemingly thriving and dominant for a time, can suddenly be overtaken by a much smaller company. The reason? The large, established company invests in sustaining innovations (small improvements to their existing technology), while the smaller company operates in stealth mode and takes a swing at disruptive innovations. Eventually, the disruptive innovations hit a maturity point that they put the larger company out of business. I wrote a whole series of posts about this here: [Sustaining and disruptive innovations](/2015/02/10/sustaining-and-disruptive-innovations/).
 
@@ -177,7 +177,7 @@ Before finishing this section, I want to conclude with one of my favorite quotes
 
 Meet Jayden! Jayden has one year of experience. He recently graduated from college and even had an internship. He's new, so he's still learning a lot. But in his current state, he needs a lot of handholding. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jayden.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_jayden.png" alt="intern young person clueless dumb passive terry richardson real warm natural light office computer doesn't know what to do" /><figcaption>intern young person clueless dumb passive terry richardson real warm natural light office computer doesn't know what to do</figcaption></figure>
 
 Jayden mostly waits for tickets to be assigned to him. If no one assigns him tickets, he doesn't seek out the work. As a junior writer, he mostly operates in listen-only mode. He has good writing skills, but he needs most of the information collected for him. He has a hard time reaching out to different stakeholders to set up meetings and pull information out of engineer's heads. Jayden has a fun personality and people enjoy chatting with him, but he requires a lot of management to be productive. Jayden is still operating in novice mode. 
 
@@ -185,45 +185,57 @@ Jayden mostly waits for tickets to be assigned to him. If no one assigns him tic
 
 To level up past novice mode, I recommend five strategies:
 
-1. Learn to figure out what work needs to be done
-2. Turn off phone/chat notifications
-3. Give reviewers time to read the doc in review meetings
-4. Find interest through specialization
+1. Be proactive rather than reactive
+2. Develop the mental skills to focus 
+3. Stop expecting reviewers to read docs
+4. Specialize your skillset
 5. Use writing to influence stakeholders
 
-### Learn to figure out what work needs to be done
+### 1. Be proactive rather than reactive
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_proactive.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_proactive.png" alt="woman running with laptop in a busy hallway realistic office" /><figcaption>woman running with laptop in a busy hallway realistic office</figcaption></figure>
 
-The first strategy is adopt a sense of proactiveness about the work. The shift from reactive to proactive constitutes the core principle of leadership. How do you figure out what doc work needs to be done, without someone telling you? I recommend setting up biweekly meetings with two groups: product teams that you support, and partner engineering groups (devrel groups) that interact with partners. (The name of this partner engineering group varies by company &dash; just find whoever interacts with your users, and meet with this group regularly.) These two groups will help identify the work for you. 
+The first strategy is to shift from being reactive to proactive. This shift, I'm convinced, is the core principle of leadership. 
 
-When working with product groups, ask for their roadmaps, as this will give you a clear idea about what's coming (rather than being informed at the last minute). With partner engineering groups, look at the incoming tickets to help identify trends and start conversations about the work that needs to be done. 
+As a concrete example, think about your doc tasks. How you figure out what doc work needs to be done, without your manager telling you? I recommend setting up biweekly meetings with two groups: each product team that you support, and the partner engineering (devrel) group that interacts with partners. (The name of this "partner engineering" group varies by company &dash; just find whoever interacts with your users, and meet with this group.) These two groups will help identify the doc work for you. 
 
-When you set up a rhythm like this, meeting regularly with these two groups, you'll have a clear sense of the needed documentation work and won't need to rely on others to define what needs to be done.
+When working with product groups, ask for their roadmaps, as this will give you a clear idea about what's on the horizon (rather than being informed at the last minute). With partner engineering groups, look at the incoming tickets to help identify trends and start conversations about the work that needs to be done. These two information sources can help define the agendas for these meetings.
 
-### Turn off phone/chat notifications
+When you set up a biweekly rhythm like this, meeting regularly with these two groups, you'll have a clear sense of the needed documentation work and won't need to rely on others, especially your manager, to define what needs to be done.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_distractions.png" alt="" /><figcaption></figcaption></figure>
+Proactivity extends beyond just discovering the doc work, of course. When you take action without being asked or assigned the task, you're leveling up past novice mode.
 
-Younger generations are more plugged into social media. But with that sense of connection comes a risk of attention fragmentation and constant distraction. My entire [series on smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into deep focus modes that allow for sustained productivity. Without sustained focus, you'll be unlikely to make much progress against projects. It's easy to be constantly interacting in chat, email, social media, and other channels all day, feeling busy, but not making actual progress in projects.
+### 2. Develop the mental skills to focus 
 
-Here are a few tips. Put your phone on Do Not Disturb (except for family notifications), and try to carry the phone in your bag more than your pocket. Remove work email from your phone (but not your work calendar). Turn off Slack notifications and email/chat notifications that will pull you out of the moment. Consider using the Pomodoro technique to set 90 minute sessions of focused work. In general, experiment with ways to focus that will make you productive. The people around you don't need immediate responses, trust me. You're a technical writer, not an emergency room doctor.
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_distractions.png" alt="person distracted by social media and smartphones office realistic buzz notification sounds" /><figcaption>person distracted by social media and smartphones office realistic buzz notification sounds</figcaption></figure>
 
-### Give reviewers time to read the doc in review meetings
+Social media, from Slack to Twitter, Reddit, Youtube, and more, makes us feel connected and in step with the latest information and trends. But with that sense of connection comes a risk of attention fragmentation and constant distraction. My entire [series on smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/) dives into this topic in extensive ways. If you can't mute the distractions around you, you'll struggle to enter into deep focus modes that allow for sustained productivity. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_doc_reviews.png" alt="" /><figcaption></figcaption></figure>
+Without sustained focus, you'll be unlikely to make much progress against projects. You might find that you're constantly interacting in chat, email, social media, and other channels all day, feeling busy, but not making much progress in projects.
 
-You'll need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation you're writing to bring it up to production quality. When you schedule time with reviewers, shorten the content for review to about 6 pages and allow the reviewer to read it at the start of the meeting, taking the first 20 minutes or so to read the material if desired. 
+Here are a few tips to develop focus. Put your phone on Do Not Disturb (except for family notifications), and try to carry the phone in your bag more than your pocket. Remove work email from your phone (but not your work calendar). Turn off instant Slack notifications and email/chat notifications that will pull you out of the moment. Consider using the Pomodoro technique to set 20 minute sessions of focused work. 
 
-Most of the time, reviewers will prefer to comment as they read. I tell them to vocalize their feedback as I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon &mdash; see [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details. This approach works and ensures that people will actually review the content, allowing you to achieve deadlines and other release timelines for your content.
+In general, experiment with ways to focus that will make you productive. The people around you don't need immediate responses, trust me. You're a technical writer, not an emergency room doctor. Read Cal Newport's *Deep Work* for more concrete and powerful strategies for focus. 
 
-This approach might seem awkward or odd at first, and it can feel like you're babysitting someone through tasks that they can do on their own. But in my experience, few people read docs outside of review meetings. If they do, their reading is usually cursory. If you have multiple reviewers in the same meeting, it's almost guaranteed that some will have read the material outside the meeting while others won't have read anything. Then you have to either wait for those who haven't read the doc to read it, frustrating those who have. Or you'll have to skip the unprepared reviewers from reading and giving feedback. In short, it's just much easier to give everyone time to read the material during the review meeting.
+### 3. Stop expecting reviewers to read docs
 
-### Find interest through specialization
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_doc_reviews.png" alt="meetings time review clock two people reviewing documents office documents casual real" /><figcaption>meetings time review clock two people reviewing documents office documents casual real</figcaption></figure>
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_specialization.png" alt="" /><figcaption></figcaption></figure>
+As a beginning writer, I thought I could send an email to a relevant stakeholder group asking them to review a doc, and they would review it on their own time. I was surprised when no one responded. It took years before I abandoned this method.
 
-As you gain more experience, you'll inevitably gravitate toward some kind of specialization within the tech comm field. This specialization helps you sustain interest in the career long term. Some example areas of specialization include the following:
+You'll need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation you're writing to bring it up to production quality. Rather than ping people to review content asynchronously like I initially did, bake in time for people to read the document during the review meetings. 
+
+Seriously, when you begin the review meeting, give people the option to silently read the document for the first 20 minutes. Most of the time, reviewers will prefer to comment as they read. If so, I tell reviewers to vocalize their feedback as I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon &mdash; see [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details. 
+
+Based on years of tested experience, this approach actually works. It ensures that people actually review your content, allowing you to meet deadlines and other release timelines for your content.
+
+This approach might seem awkward or odd at first, and it can feel like you're babysitting someone through tasks they can do on their own. But in my experience, few people read docs outside of review meetings. If they do, their reading is usually cursory. If you have multiple reviewers in the same meeting, it's almost guaranteed that some will have read the material outside the meeting while others won't have read anything. Then you have to either wait for those who haven't read the doc to read it, frustrating those who have. Or you'll have to skip the unprepared reviewers from reading and giving feedback. In short, it's just much easier to give everyone time to read the material during the review meeting.
+
+### 4. Specialize your skillset
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_specialization.png" alt="doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic" /><figcaption>doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic</figcaption></figure>
+
+As you gain more experience, you'll inevitably gravitate toward some kind of specialization within the tech comm field. This specialization helps you sustain interest in the career long term, and it brands your professional expertise in more compelling ways. Some example areas of specialization include the following:
 
 * API documentation
 * Developer portals
@@ -238,17 +250,19 @@ As you gain more experience, you'll inevitably gravitate toward some kind of spe
 * Content management systems
 * xPA collaboration
 * Video production
-* Graphic design
+* Graphic design and illustration
 
-Beyond rejuvenating your career with added interest, specialization also makes you more marketable. By itself, writing is often [seen as a commodity](/2018/08/09/writing-no-longer-a-skill/). Career experts like Jack Molisani recommend [hybridizing your job title](/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) (for example, a tech writer / usability expert, a tech writers / content management expert) to be much more attractive to employers. 
+Beyond rejuvenating your career with added interest, specialization also makes you more marketable. By itself, writing is often [seen as a commodity](/2018/08/09/writing-no-longer-a-skill/). Career experts like Jack Molisani, who runs Lavacon and a tech comm staffing agency, recommend [your job title a hybrid](/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) (for example, a tech writer / usability expert, a tech writer / content management expert) to be much more attractive to employers. 
 
 But besides the career benefits of specialization, it just makes the job much more interesting. About 10 years ago, I found that I actually liked working with API documentation and developer portals. I discovered that the realm of developer docs (where APIs and dev portals abound) was a rich, unexplored landscape that led me to develop an entire course on the topic: [API documentation](/learnapidoc/).
 
-### Use writing to influence stakeholders
+### 5. Use writing to influence stakeholders
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_influence.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_influence.png" alt="words in middle of pond with ripples surrounding it concentric circles expanding outward to people looking at side of pond realistic" /><figcaption>words in middle of pond with ripples surrounding it concentric circles expanding outward to people looking at side of pond realistic</figcaption></figure>
 
-My final tip is to use writing (your superpower) to influence stakeholders. We often don't recognize how influential writing can be, but if I've learned anything from blogging, it's that the formula for influence is rather simple: write and share, repeatedly. I've always been amazed by how visible I've become in tech comm circles. People across the globe seem to know me. How can you reproduce the same visibility techniques inside a corporation to achieve a similar effect? This is the focus in my series [Part 1: Introduction to influence on the web](/web-and-workplace-influence/part1-introduction-to-influencers.html). While I'm still figuring out the right strategies, try these simple tips:
+My final tip is to use writing (your superpower) to influence stakeholders. We often don't recognize how influential writing can be, but if I've learned anything from blogging, it's that the formula for influence is rather simple: write and share, repeatedly. 
+
+I've always been amazed by how visible I've become in tech comm circles. People across the globe seem to know me. How can you reproduce the same visibility techniques inside a corporation to achieve a similar effect? This is the focus in my series [A hypothesis about influence on the web and the workplace](/web-and-workplace-influence/part1-introduction-to-influencers.html). To use writing in a way that influences stakeholders, try these three tips:
 
 * Type of notes of meetings and distribute them to wider channels
 * Send out newsletters detailing the documentation work going on
@@ -258,8 +272,12 @@ When you crank out content regularly, your name will become more well-known. Whe
 
 ## Conclusion
 
-I realize that, in this post, I've focused on stereotypes about ages that might be off-putting. The first half &mdash; how to avoid becoming Jerry &mdash; is written primarily for myself, as this has been a growing fear of mine for some time. My whole point is that we can avoid becoming either Jerry or Jayden. I want to be the sixty-year-old technical writer that all young engineers specifically request for their projects. I'm convinced that when people get to know you, when they sense your intense curiosity, passion to experiment and try new things, when they see how you question even your own long-held assumptions, the wrinkles on your skin won't matter. 
+I realize that I initially focused on stereotypes about years of experience that might be off-putting. The first half &mdash; how to avoid becoming Jerry &mdash; is written primarily for myself, as this has been a growing fear of mine for some time. My whole point is that we can avoid becoming either Jerry or Jayden. I want to be the sixty-year-old technical writer that all young engineers specifically request for their projects. I'm convinced that, no matter your age, when people get to know you, when they sense your intense curiosity, passion to experiment and try new things, when they see how you question even your own long-held assumptions and can shift to other viewpoints, the wrinkles on your skin won't matter. 
 
-In the same way, if you're just starting out and barely know how to find the supply room at work, if you know how to execute on projects, make progress toward large documentation projects, get information from engineers, and define the doc work through key meetings with stakeholders, people will look past your age and inexperience. You'll be seen as a vital member of the team and a project leader.
+In the same way, if you're just starting out and barely know how to find the supply room at work, but you know how to discover the work that needs to be done, how to make progress toward large documentation projects (through sustained focus), how to get information from engineers, and how to define the doc work through key meetings with stakeholders, people will look past your age and inexperience. You'll be seen as a vital member of the team and a project leader.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_end_journey.png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_end_journey.png" alt="man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic" /><figcaption>man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic</figcaption></figure>
+
+<small class="markdown">
+(BTW, although I initially generated these images for an internal slide deck, I never actually used them due to a [clause in Midjourney's license](https://midjourney.gitbook.io/docs/billing#corporate-membership-usd600-year-offers) that restricts corporate usage. Alas, they found life in this blog post instead.)
+</small>
