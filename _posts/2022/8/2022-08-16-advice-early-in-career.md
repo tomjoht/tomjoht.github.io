@@ -180,6 +180,8 @@ Meet Jayden! Jayden has two years of experience. He recently graduated from coll
 
 Jayden mostly waits for tickets to be assigned to him. If no one assigns him tickets, he doesn't seek out the work. As a junior writer, he mostly operates in listen-only mode. He has good writing skills, but he needs most of the information collected for him. He has a hard time reaching out to different stakeholders to set up meetings and pull information from engineers' heads. Jayden has a fun personality and people enjoy chatting with him, but he requires a lot of management to be productive. Jayden is still operating in novice mode. 
 
+{% include ads.html %}
+
 ## Five ways to level up past novice mode
 
 To level up past novice mode, I recommend five strategies:

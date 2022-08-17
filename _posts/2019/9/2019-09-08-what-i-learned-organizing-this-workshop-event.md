@@ -56,7 +56,7 @@ I have also realized that blogging/writing about API documentation makes me a na
 
 One detail that is quite difficult for me is figuring out hands-on activities for the workshop. It's one thing to write posts and articles addressing various API documentation topics (and I love the reflective mindset), but it's another to structure that learning into some kind of engaging, hands-on activity during a full-day course. What activities do you do, especially for abstract concepts?
 
-For some aspects of API documentation, there are clear sorts of activities &mdashp; making a call in Postman or curl, or rendering a Swagger UI display from an OpenAPI specification file. Exposure to these tools is what makes the API documentation course come to life, and when attendees learn how to use a new tool for some documentation end, light bulbs go on.
+For some aspects of API documentation, there are clear sorts of activities &mdash; making a call in Postman or curl, or rendering a Swagger UI display from an OpenAPI specification file. Exposure to these tools is what makes the API documentation course come to life, and when attendees learn how to use a new tool for some documentation end, light bulbs go on.
 
 But much of the work of documentation involves working with abstract, conceptual topics, and it's hard to make hands-on activities for these topics. For example, take this new section I added on [documenting code](/learnapidoc/docapis_code_strategies.html). How exactly do you move from the conceptual into a hands-on activity (that can be accomplished in 10 minutes) with documenting code?
 
