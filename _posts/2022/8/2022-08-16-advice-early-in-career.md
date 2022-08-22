@@ -20,7 +20,7 @@ To kick off this topic, let's start with a question. You've just been assigned a
 
 At these two extremes of the work experience spectrum, there are some common generalizations you're no doubt familiar with. For workers with 25 years of experience, they might be too set in their ways, resistant to change, wed to specific tools, and often cynical and negative to the leadership around them.
 
-Opposite to these workers are those with just a couple of years of experience. These workers might be mostly reactive, waiting for someone to assign them tickets, indicate the contact points, spell out doc needs, and other details for the work. This person might require a lot of handholding and management.
+Opposite to these workers are those with just a couple of years of experience. These workers might be mostly reactive, waiting for someone to assign them tickets, indicate the contact points, spell out doc needs, and define other details for the work. This person might require a lot of handholding and management.
 
 Of course, these profiles are extremes. And I'm exaggerating the behaviors to make a point about what characteristics to avoid. If either generalization seems offensive, note that my larger goal is to explain how to avoid these extremes. Many people avoid them by implementing the principles I'll talk about in this post. 
 
@@ -50,7 +50,7 @@ In [*The Fifth Discipline: The Art & Practice of The Learning Organization*](htt
 
 Young leaders are often open to change, are unattached to their views, have genuine inquiry, and share a commitment with others. By contrast, leaders with many years of experience might be more closed off to change (*I've seen this before and it never works*). Their previous experiences might have persuaded them about certain views (*not this again ...*), and they might have little interest in deviating from what they found to work in previous roles (*what's the point of doing it this way? I already know what works*). 
 
-As you progress through your career, how will you avoid the same trajectory as Jerry? It's easy to retain the attributes Senge describes when you're just starting out and haven't had to deal with all the nonsense that Jerry has been dealing with for years. The trick is to retain your youthful attributes despite everything that's going to happen.
+As you progress through your career, how will you avoid the same trajectory as Jerry? It's easy to retain the attributes Senge describes when you're just starting out and haven't had to deal with all the nonsense that Jerry has been dealing with for years. The trick is to retain your youthful attributes despite everything that's going to happen during your career.
 
 ## Confronting anxiety about getting older 
 
@@ -60,9 +60,9 @@ Many tech workers have anxiety about getting older, and for good reason. In San 
 > 
 > The social narrative is basically, midlife is a crisis and after a crisis you have decrepitude,” Mr. Conley said. “But you actually are much happier in your 60s and 70s, so why aren’t we preparing for that?” 
 
-Youth have the advantage of naturally possessing a more limber mind, making new connections, and having an appetite for risk, according to the article. I wrote about the fear of aging in a post titled [Confronting the fear of growing older when you're surrounded by young programmers](/2019/03/07/confronting-fears-of-aging-in-technology-environments/). 
+Youth have the advantage of naturally possessing a more limber mind, making new connections, and taking risks, according to the article. I wrote about the fear of aging in a post titled [Confronting the fear of growing older when you're surrounded by young programmers](/2019/03/07/confronting-fears-of-aging-in-technology-environments/). 
 
-In my post, I conducted a survey asking whether others felt any anxiety about increasing in years, and what they're doing to stay young. 73% agreed or strongly agreed with this statement: "I sometimes fear what will happen as I get older in the technology field."
+In my post, I conducted a survey asking whether others felt any anxiety about increasing in years, and what they're doing to stay young. 73% agreed or strongly agreed with the following statement: "*I sometimes fear what will happen as I get older in the technology field*."
 
 When asked what people do to stay young, the top results (from 140 respondents) were as follows: 
 
@@ -77,7 +77,7 @@ This was just an informal, fun survey to get a general pulse on the topic. (You 
 
 ## Five ways to stay young (even as life wears on you)
 
-Based on the trends in the survey and my own experiences, I recommend these five ways to stay young: 
+Based on the trends in the survey and my own experiences, I recommend these five ways to stay young (and avoid becoming Jerry): 
 
 1. Read
 2. Experiment
@@ -91,7 +91,7 @@ I'll expand on each of these principles in the sections that follow.
 
 Reading introduces you to new information, which helps you continue learning. Continuing to learn helps you keep an open mind and stay receptive to new information that might contradict or supplement existing information you have. 
 
-In reading, focus on high-value content, such as books, journal articles, or other in-depth content. Scrolling Twitter and other social media feeds involves reading, but the information is often low-value. Consider printing content out, and annotate with a pen as you read.
+In reading, focus on high-value content, such as books, journal articles, or other in-depth content. Scrolling Twitter and other social media feeds involves reading, but the information is often low-value. Consider printing content out and annotating it with a pen as you read.
 
 Without any incoming information through reading, we continue operating on our existing knowledge and experiences. As such, we'll be more likely to remain fixed and repeat our same approach again and again. 
 
@@ -138,7 +138,7 @@ Mental models are the stories people tell themselves to make sense of the world.
 
 I had a recent family experience that reinforced the importance of mental models. One of my daughters had been complaining about another girl at school who was turning others against her. Though she was once a friend, this girl had since become more of an enemy. To my surprise, the girl's mother reached out to us one day to complain that our daughter and others were bullying her daughter. *What?* I wanted to say it was the opposite.
 
-But my wife asked to see the Discord threads that were at the heart of the friction between the two. As my wife looked through the exchanges, there was some evidence that my daughter had acted inappropriately. Looking at the data started to change our views. It also helped my daughter see her actions from another perspective as well, making her open to the idea that she had acted inappropriately as well. She could see how the other girl felt that she was sort of being bullied. (I didn't totally agree, but I could understand that the story might not be so straightforward as I previously thought.)
+But my wife asked to see the Discord threads that were at the heart of the friction between the two. As my wife looked through the exchanges, there was some evidence that my daughter had acted inappropriately. Looking at the data started to change our views. It also helped my daughter see her actions from another perspective as well, making her open to the idea that she had acted inappropriately too. She could see how the other girl felt that she was sort of being bullied. (I didn't totally agree, but I could understand that the story might not be so straightforward as I previously thought.)
 
 This is the beauty of thinking about mental models: it frees you from the idea that events have only one interpretation. When you can see multiple interpretations for the same data, it helps you keep a more open mind about the interpretations. 
 
@@ -148,7 +148,7 @@ To get a better sense of mental models, Senge recommends these strategies:
 > 
 > Actively inquire into others’ views that differ from your own  (i.e., ‘What are your views?’ ‘How did you arrive at your view?’ ‘Are you taking into account data that are different from what I have considered?’ (p. 186)
 
-In other words, look at the data that gives rise to the stories you tell yourself, and then ask if there's another way to interpret the data. By seeking out different ways to interpret data, it helps you keep an open mind and stay unattached to your views.
+In other words, look at the data that gives rise to the stories you tell yourself, and then ask if there's another way to interpret the data. By seeking out different ways to interpret data, it helps you keep an open mind and stay unattached to your views. (If there was ever a golden principle that helps relationships stay healthy, it's this principle about mental models.)
 
 ### 5. Take risks
 
@@ -158,17 +158,15 @@ Even though it was uncomfortable, I decided to take a big leap by not only [swit
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_take_risks.png" alt="old woman wearing cardigan jumping off cliff mountains in distances dark below" /><figcaption>old woman wearing cardigan jumping off cliff mountains in distances dark below</figcaption></figure>
 
-Why does taking risks keep us young? Think of the analogy to company innovation. Clay Christiansen talks about why big companies, seemingly thriving and dominant for a time, can suddenly be overtaken by a much smaller company. The reason? The large, established company invests in sustaining innovations (small improvements to their existing technology), while the smaller company operates in stealth mode and takes a swing at disruptive innovations. Eventually, the disruptive innovations hit a maturity point and put the larger company out of business (think about Netflix and Blockbuster). I wrote a series of posts about this here: [Sustaining and disruptive innovations](/2015/02/10/sustaining-and-disruptive-innovations/).
+Why does taking risks keep us young? Think of the analogy to company innovation. Clay Christiansen talks about why big companies, thriving and dominant for a time, can suddenly be overtaken by a much smaller company. The reason? The large, established company invests in sustaining innovations (small improvements to their existing technology), while the smaller company operates in stealth mode and takes a swing at disruptive innovations. Eventually, the disruptive innovations hit a maturity point and put the larger company out of business (think about Netflix and Blockbuster). I wrote a series of posts about this here: [Sustaining and disruptive innovations](/2015/02/10/sustaining-and-disruptive-innovations/).
 
-Our careers operate the same way. It's easier to make small improvements, but sometimes the disruptive innovations in our lives can yield large improvements. For example, my [API doc course](/learnapidoc/) was a tremendous success from many points of view (workshops, advertising, feedback from others). But at the start of this year, as I [reflected on the previous year](/blog/seattle-one-year-later#whats-next--rekindling-more-blogging-energy), I realized I wanted to double down on some writing projects and techniques that I've been thinking about for years. I want to write essays following a common theme, and connect those essays together into published books. The time required to do this, however, would mean less time devoted to my API doc site maintaining and improving the content there. I decided to take the risk of devoting 2022 to seeing these projects through. I have three series I'm working on: 
+Our careers operate in the same way. It's easier to make small improvements, but sometimes the disruptive innovations in our lives can yield large improvements. For example, my [API doc course](/learnapidoc/) was a tremendous success from many points of view (workshops, advertising, feedback from others). But at the start of this year, as I [reflected on the previous year](/blog/seattle-one-year-later#whats-next--rekindling-more-blogging-energy), I realized I wanted to double down on some writing projects and techniques that I've been thinking about for years. I want to write essays following a common theme, and connect those essays together into published books. The time required to do this, however, would mean less time devoted to my API doc site maintaining and improving the content there. I decided to take the risk of devoting 2022 to seeing these projects through. I have three series I'm working on: 
 
 * [Trends to follow or forget](/trends/trends-to-follow-or-forget-intro.html)
 * [Journey away from smartphones](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)
 * [A hypothesis about influence on the web and the workplace](/web-and-workplace-influence/part1-introduction-to-influencers.html)
 
-It's now August and I'm hoping to bring at least one of the series to completion by the year's end. I'll dig back into my API course a bit later in the year.
-
-<hr/>
+It's now August and I'm hoping to bring at least one of the series to completion by the year's end. I'll dig back into my API course a bit later in the year, probably.
 
 Before finishing this section, I want to conclude with one of my favorite quotes. Picasso said, "It takes a long time to become young." The ability to read constantly, experiment regularly, ask questions, and take risks involves lifelong attributes to develop and cultivate. 
 
@@ -184,7 +182,7 @@ Jayden mostly waits for tickets to be assigned to him. If no one assigns him tic
 
 ## Five ways to level up past novice mode
 
-To level up past novice mode, I recommend five strategies:
+To level up past novice mode (and avoid becoming Jayden), I recommend five strategies:
 
 1. Be proactive rather than reactive
 2. Develop the mental skills to focus 
@@ -222,23 +220,23 @@ In general, experiment with ways to focus that will make you productive. The peo
 
 ### 3. Stop expecting reviewers to read docs on their own
 
-As a beginning writer, I thought I could send an email to a relevant stakeholder group asking them to review a doc, and they would review it on their own time. I was surprised when no one responded. It took years before I abandoned this method.
+As a beginning writer, I thought I could send an email to a relevant stakeholder group asking them to review a doc, and they would review it on their own time. I was surprised when no one responded. It took years before I fully abandoned this method.
 
-We all need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation we're writing to bring it up to production quality. Rather than ping people to review content asynchronously like I initially did, bake in time for people to read the document during the review meetings. 
+We all need input from reviewers (engineers, product managers, partner engineers, and other stakeholders) on the documentation we're writing to bring it up to production quality. Rather than ping people to review content asynchronously like I initially did, bake in time for people to read the document *during the review meetings.*
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_doc_reviews.png" alt="meetings time review clock two people reviewing documents office documents casual real" /><figcaption>meetings time review clock two people reviewing documents office documents casual real</figcaption></figure>
 
-Seriously, when you begin the review meeting, give people the option to silently read the document for the first 20 minutes. Most of the time, reviewers will prefer to comment as they read. If so, I tell reviewers to vocalize their feedback while I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon &mdash; see [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details. 
+Seriously, when you begin the review meeting, give people the option to silently read the document for the first 20 minutes. Most of the time, reviewers will prefer to comment as they read. If so, I tell reviewers to vocalize their feedback while I take notes. This allows them to make much faster progress through the document. This review technique is one I learned while at Amazon (see [Matching documentation review practices to company culture](/blog/matching-doc-review-practices-to-company-culture/) for more details). 
 
-Based on years of tested experience, I've found that this approach actually works. It ensures that people review your content, allowing you to meet deadlines and other release timelines for your content.
+Based on years of tested experience, I've found that this approach works. It ensures that people review your content, allowing you to meet deadlines and other release timelines for your content.
 
-This approach might seem awkward or odd at first, and it can feel like you're babysitting someone through tasks they can do on their own. But in my experience, few people read docs outside of review meetings. If they do, their reading is usually cursory. If you have multiple reviewers in the same meeting, it's almost guaranteed that some will have read the material outside the meeting while others won't have read anything. Then you have to either wait for those who haven't read the doc to read it, frustrating those who have. Or you'll have to skip the unprepared reviewers from reading and giving feedback. In short, it's just much easier to give everyone time to read the material during the review meeting.
+This approach might seem awkward or odd at first, and it can feel like you're babysitting someone through tasks they can do on their own. But in my experience, few people read docs outside of review meetings. If they do, their reading is usually cursory. If you have multiple reviewers in the same meeting, it's guaranteed that some will have read the material outside the meeting while others won't have. Then you have to either wait for those who haven't read the doc to read it, frustrating those who have. Or you'll have to skip the unprepared reviewers from reading and giving feedback. In short, it's just much easier to give everyone time to read the material during the review meeting.
 
-This technique might seem pretty specific, but it connects with a larger principle of documentation quality and excellence. Too often, earlier in my career I would try to write everything myself, independently through playing with the application and learning through trial and error. As I got older, I realized that good writing gathers input and feedback from a large collection of people.
+This technique might seem pretty specific, but it connects with a larger principle of documentation quality and excellence. Too often, earlier in my career I would try to write everything myself, independently, by playing with the application, looking at the code, and learning through trial and error. As I got older, I realized that good writing gathers input and feedback from a large collection of people.
 
 ### 4. Specialize your skillset
 
-As you gain more experience, you'll inevitably gravitate toward some kind of specialization within the tech comm field. This specialization helps you sustain interest in the career long term, and it brands your professional expertise in more compelling ways. 
+As you gain more experience, you'll inevitably gravitate toward some kind of specialization within the tech comm field. This specialization helps you sustain interest in the career long term, and it brands your professional expertise. 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_specialization.png" alt="doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic" /><figcaption>doctor looking at results clipboard chart to interpret results while other smaller doctors look toward him and learn in exam room realistic</figcaption></figure>
 
@@ -261,7 +259,7 @@ Some example areas of specialization include the following:
 
 Beyond rejuvenating your career with added interest, specialization also makes you more marketable. By itself, writing is often [seen as a commodity](/2018/08/09/writing-no-longer-a-skill/). Career experts like Jack Molisani, who runs Lavacon and a tech comm staffing agency, recommend [making your job title a hybrid](/2007/05/19/stc-conference-jack-molisani-on-trends-in-technical-communication/) (for example, a tech writer / usability expert, a tech writer / content management expert) to be much more attractive to employers. 
 
-But besides the career benefits of specialization, it just makes the job much more interesting. About 10 years ago, I found that I actually liked working with API documentation and developer portals. I discovered that the realm of developer docs (where APIs and dev portals abound) was a rich, unexplored landscape that led me to develop an entire course on the topic: [API documentation](/learnapidoc/).
+But besides the career benefits of specialization, it just makes the tech comm career more engaging. About 10 years ago, I found that I actually liked working with API documentation and developer portals. I discovered that the realm of developer docs (where APIs and dev portals abound) was a rich, unexplored landscape that led me to develop an entire course on the topic: [API documentation](/learnapidoc/). This focus rejuvenated my career.
 
 ### 5. Use writing to influence stakeholders
 
@@ -279,14 +277,10 @@ When you share content regularly, your name will become more well-known. When pe
 
 ## Conclusion
 
-I realize that I initially focused on generalizations about years of experience that are behavior extremes. Truth be told, the first half &mdash; how to avoid becoming Jerry &mdash; is written primarily for myself, as this has been a growing fear of mine for some time. My whole point is that we can avoid becoming either Jerry or Jayden. I want to be the sixty-year-old technical writer that all young engineers specifically request for their projects. I'm convinced that, no matter your age, when people get to know you, when they sense your curiosity, passion to experiment and try new things, when they see how you question even your own long-held assumptions and can shift to other points of view, the wrinkles on your skin won't matter. 
+I realize that I initially focused on generalizations about years of experience that are behavior extremes. Truth be told, the first half &mdash; how to avoid becoming Jerry &mdash; is written primarily for me, as this has been a growing fear of mine for some time. My whole point is that we can avoid becoming either Jerry or Jayden. I want to be the 60-year-old technical writer that all young engineers specifically request for their projects. I'm convinced that, no matter your age, when people get to know you, when they sense your curiosity, passion to experiment and try new things, when they see how you question even your own long-held assumptions and can shift to other points of view, the wrinkles on your skin won't matter. 
 
-In the same way, if you're just starting out and barely know how to find the supply room at work, but you know how to discover the work that needs to be done, how to make progress toward large documentation projects (through sustained focus), how to get information from engineers, and how to define the doc work through key meetings with stakeholders, people will look past your age and inexperience. You'll be seen as a vital member of the team and a project leader.
+In the same way, if you're just starting out and barely know how to find the supply room at work, but you know how to discover the work that needs to be done, how to define the doc work (through biweekly meetings with stakeholders), how to make progress toward large documentation projects (through sustained focus), and how to get information from engineers (through effective doc reviews), people will look past your age and inexperience. You'll be seen as a vital member of the team and a project leader.
 
 In conclusion, age is neither an asset nor a liability. What matters are the characteristics and behaviors you embrace. Keep these principles in mind whether you're just starting out or whether you're on the last leg of your career journey. 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/advice_end_journey.png" alt="man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic" /><figcaption>man walking winding paths trails criss crossing and meandering mountains in distance with sunset realistic</figcaption></figure>
-
-<small class="markdown">
-(By the way, although I initially generated these images for an internal slide deck, I never actually used them due to a [clause in Midjourney's license](https://midjourney.gitbook.io/docs/billing#corporate-membership-usd600-year-offers) that restricts corporate usage. Alas, they found life in this blog post instead.)
-</small>
