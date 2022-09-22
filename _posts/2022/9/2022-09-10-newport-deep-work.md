@@ -177,3 +177,7 @@ If people skip the required information fields, assign the bug back to them befo
 ## Conclusion
 
 Overall, I highly recommend Cal Newport's *Deep Work*. Newport says that in a world that is becoming increasingly consumed with shallow work (from social media to email and other shallow tasks), those who can focus on deep work possess a highly valuable skill. The larger hypothesis of his book is that "The ability to perform deep work is becoming increasingly *rare* at exactly the same time it is becoming increasingly *valuable* in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive" (14). Most of us will agree that devoting several sessions of deep focus (whether 90 minutes or some other time period) will lead to significant gains in productivity. The challenge is in finding the right tactics and techniques to make those focus sessions a reality.
+
+## References
+
+Newport, Cal. *Deep work: Rules for focused success in a distracted world.* Hachette UK, 2016.
