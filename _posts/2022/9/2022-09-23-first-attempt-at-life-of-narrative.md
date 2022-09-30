@@ -1,5 +1,5 @@
 ---
-title: "Attempting to write a Life of a [something] narrative" (Trends to follow or forget)"
+title: "Attempting to write a Life of a [something] narrative (Trends to follow or forget)"
 permalink: /trends/2022-09-22-writing-a-life-of-a-something-narrative.html
 categories:
 - technical-writing
@@ -120,5 +120,5 @@ Writing this document, I also thought a lot about the audience. Who will actuall
 
 ## Next steps
 
-Like I said earlier, I haven't yet published the doc, so it's too early to see the feedback. Review comments are still trickling in, and we have to figure out how to publish a long doc in a such a way that people will still read it. One of our plans is to test the waters with a small group of readers and survey them afterwards. If things go well, we might write a lot more of these "Life of a [something]" narratives. Making the case for the document's value, as with other types of documentation, is yet another challenge to figure out. But one thing is for sure: I liked this genre of writing, and I might be good at it.
+Like I said earlier, I haven't yet published the doc, so it's too early to see the feedback. Review comments are still trickling in, and we have to figure out how to publish a long doc in a such a way that people will still read it. One of our plans is to test the waters with a small group of readers and survey them afterwards. If things go well, we might write a lot more of these "Life of a [something]" narratives. Making the case for the document's value, as with other types of documentation, is yet another challenge to figure out. But one thing is for sure: I like this genre of writing, and I might be good at it.
 
