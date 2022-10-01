@@ -82,7 +82,7 @@ The C4 model authors explain:
 
 As an analogy, consider your perspective of a city from multiple levels: from the sky, from buildings, from the sidewalk, and from the ground. Allow the user to drill into the level they're interested in.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/perspectivesfromhightolowimage.jpg" alt="Perspectives from high to low" /><figcaption>Perspectives from multiple levels -- this is the C4 approach. Start at high levels of abstraction and allow users to zoom in for progressively more detail.</figcaption></figure>
+<figure><img style="max-width: 800px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/perspectivesfromhightolowimage.jpg" alt="Perspectives from high to low" /><figcaption>Perspectives from multiple levels -- this is the C4 approach. Start at high levels of abstraction and allow users to zoom in for progressively more detail.</figcaption></figure>
 
 Describing a software system "from different levels of abstraction" seems like a good approach. However, I didn't have the time or bandwidth to present the detail at more zoomed-in levels. Instead, I implemented two easy techniques. First, I created a tl;dr summary at the top that summarized the whole workflow into two paragraphs. This brief summary lets readers quickly know what they're getting into (even if the summary mostly just lists the services). 
 
