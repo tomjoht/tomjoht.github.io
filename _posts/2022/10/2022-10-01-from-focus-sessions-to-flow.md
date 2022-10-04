@@ -1,6 +1,6 @@
 ---
 title: "How to move from focus sessions to flow sessions"
-permalink: /blog/from-focus-sessions-to-flow.html
+permalink: /blog/from-focus-sessions-to-flow/
 categories:
 - technical-writing
 keywords:
@@ -9,7 +9,7 @@ series: "Journey away from smartphones"
 jtype: notes_smartphones
 description: "In this post, I describe my experience in trying to complete several ninety-minute focus sessions a day. While they allowed me to make a lot of progress, they reduced some of the fun from writing. This post is part of my ongoing series <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention/'>Journey away from smartphones</a>."
 redirect_from:
-- /blog/from-focus-sessions-to-flow/index.html
+- /blog/from-focus-sessions-to-flow.html
 ---
 
 ## Recap of the Eudaimonia machine 
