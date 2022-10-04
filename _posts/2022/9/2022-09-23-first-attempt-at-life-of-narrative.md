@@ -1,6 +1,6 @@
 ---
 title: "Attempting to write a Life of a [something] narrative (Trends to follow or forget)"
-permalink: /trends/2022-09-22-writing-a-life-of-a-something-narrative.html
+permalink: /trends/writing-a-life-of-a-something-narrative.html
 categories:
 - technical-writing
 keywords:
@@ -8,6 +8,13 @@ rebrandly: https://idbwrtng.com/trends-writinglifeofasomething
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
 description: "In this post, I describe an attempt at horizontal writing and what I learned from it. I was surprised to be struck with a kind of reverent awe for the complexity that this horizontal view revealed."
+redirect_from:
+- /2022/09/30/2022-09-23-first-attempt-at-life-of-narrative/
+- /2022/09/29/2022-09-23-first-attempt-at-life-of-narrative/
+- /2022/09/26/2022-09-23-first-attempt-at-life-of-narrative/
+- /2022/09/24/2022-09-23-first-attempt-at-life-of-narrative/
+- /2022/09/23/2022-09-23-first-attempt-at-life-of-narrative/
+- /trends/2022-09-22-writing-a-life-of-a-something-narrative.html
 ---
 
 # First attempt at horizontal writing
