@@ -114,8 +114,8 @@ In the next post, I'll dive more into Csikszentmihalyi's ideas about how to ente
 
 Bodnar, Matt. [Mihaly Csikszentmihalyi &mdash; The Greatest Unanswered Question in Psychology Today](https://www.successpodcast.com/show-notes/2019/11/6/mihaly-csikszentmihalyi-the-greatest-unanswered-question-in-psychology-today)). *The Science of Success podcast*. Nov 7, 2019
 
-Csikszentmihalyi, Mihaly, and Mihaly Csikzentmihaly. *[Flow: The Psychology of Optimal Experience](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
+Csikszentmihalyi, Mihaly. *[Flow: The Psychology of Optimal Experience](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
 
-Pizarro, David and Tamler Sommers. ["Episode 239: Lose Yourself"](https://www.verybadwizards.com/239). *Very Bad Wizards.* June 21, 2022.
+Pizarro, David and Tamler Sommers. ["Episode 239: Lose Yourself."](https://www.verybadwizards.com/239) *Very Bad Wizards.* June 21, 2022.
 
-Steimer, Sarah. ["Scholar inspired leaders, colleagues and students in his exploration of optimal and positive experiences"](https://news.uchicago.edu/story/mihaly-csikszentmihalyi-pioneering-psychologist-and-father-flow-1934-2021). *UChicago News*. Oct 28, 2021.
+Steimer, Sarah. ["Scholar inspired leaders, colleagues and students in his exploration of optimal and positive experiences."](https://news.uchicago.edu/story/mihaly-csikszentmihalyi-pioneering-psychologist-and-father-flow-1934-2021) *UChicago News*. Oct 28, 2021.
