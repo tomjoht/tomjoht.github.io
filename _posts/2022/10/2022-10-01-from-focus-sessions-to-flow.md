@@ -74,6 +74,8 @@ Csikszentmihalyi says our normal mental state is one of disorder and random/scat
 
 I can relate to this. When I try to fall asleep at night, my mind naturally wanders and gravitates toward things I'm worried about or preoccupied with. Upcoming presentations, college applications for my kids, family health issues, a new bike trail to explore, etc. It doesn't take much to get my mind stirring around different topics. Consequently, at night I usually either listen to a podcast to give my mind some focus until I fall asleep, or watch TV until I get so tired that I fall asleep right after turning it off. Focusing on any specific topic for an extended period of time usually tires me out, whereas the pattern of going down rabbit hole after rabbit hole in the mind seems easier (and keeps me awake), but it isn't pleasing.
 
+{% include ads.html %}
+
 I've noticed the same mental chaos starts brewing in the morning, as I'm arising my sleep. By the time I wake up, I can tell that my brain has been bouncing around different themes in active ways, thinking below my consciousness. It's not as if my mind is somehow turned off at night. It's a chaotic world in there sometimes. So yes, from my own experience, psychic entropy seems to describe the natural state of the mind.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/psychic_entropy_c.jpg" alt="Psychic entropy" /><figcaption>Psychic entropy refers to a state of mental disorder and chaos. Csikszentmihalyi says our natural mental state is one of entropy rather than order and focus. When left to its own, our mind chases rabbit hole after rabbit hole, often gravitating toward the negative.</figcaption></figure>
