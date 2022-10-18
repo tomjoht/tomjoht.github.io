@@ -48,3 +48,6 @@ entries:
 
         - title: "How to move from focus sessions to flow sessions"
           url: /blog/from-focus-sessions-to-flow/
+
+        - title: "Applying Csikszentmihalyi's psychology of Flow while writing technical documentation"
+          url: /blog/csikszentmihalyi-dynamics-of-flow/
