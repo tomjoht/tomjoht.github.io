@@ -1,5 +1,5 @@
 ---
-title: "Quick reference guides (Trends to follow or forget)"
+title: "Quick reference guides"
 permalink: /trends/trends-to-follow-or-forget-quick-reference-guides.html
 categories:
 - technical-writing

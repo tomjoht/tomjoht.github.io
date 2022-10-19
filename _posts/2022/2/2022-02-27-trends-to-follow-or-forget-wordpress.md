@@ -1,5 +1,5 @@
 ---
-title: "WordPress and web CMSs (Trends to follow or forget)"
+title: "WordPress and web CMSs"
 permalink: /trends/trends-to-follow-or-forget-wordpress.html
 categories:
 - technical-writing

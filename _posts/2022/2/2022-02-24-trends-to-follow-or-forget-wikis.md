@@ -1,5 +1,5 @@
 ---
-title: "Wikis and crowdsourcing (Trends to follow or forget)"
+title: "Wikis and crowdsourcing"
 permalink: /trends/trends-to-follow-or-forget-wikis.html
 categories:
 - technical-writing

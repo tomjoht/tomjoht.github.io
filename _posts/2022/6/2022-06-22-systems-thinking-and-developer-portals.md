@@ -1,5 +1,5 @@
 ---
-title: "Systems thinking and developer portals (Trends to follow or forget)"
+title: "Systems thinking and developer portals"
 permalink: /trends/systems-thinking-and-developer-portals.html
 categories:
 - technical-writing
@@ -12,7 +12,7 @@ description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.htm
 
 ## Recap of the argument context
 
-Let me briefly recap where I left off in this series. In the previous topic ([The impact of technical diversity on documentation &mdash; epiphanies on a trip to IKEA](/trends/impact-of-technical-diversity-on-docs.html)), I summarized Kevin Kelly's argument (in _What Technology Wants_) about the trajectory of growing technical diversity fueled by technology. With each year, the number of products and services available for us continues to grow, proliferate, and multiply, such that we swim/drown in a sea of choices and options.
+Let me briefly recap where I left off in this series. In a previous topic ([Technical diversity/pluralism/fragmentation in tech comm](/trends/embracing-diversity-pluralism-fragmentation.html)), I summarized Kevin Kelly's argument (in _What Technology Wants_) about the trajectory of growing technical diversity fueled by technology. With each year, the number of products and services available for us continues to grow, proliferate, and multiply, such that we swim/drown in a sea of choices and options.
 
 With diversity exploding in so many directions, one has to choose which areas to specialize in. With the rare exception of full-stack developers and multitalented polymaths, to succeed in any career, one has to specialize (to some extent). So one outcome of the growing technical diversity is also a growing need to specialize. Specialization drives people into increasingly niche roles of study and expertise. You don't just have an artisan making shoes; you have thousands of different specialists building tools that handle different aspects of the factory-driven shoemaking process, from the origination of materials to the boxing and delivery to stores, such that hundreds of individuals play a highly focused part in a larger process, often without a clear idea of what they're even making (and perhaps without anyone physically touching the actual shoes).
 

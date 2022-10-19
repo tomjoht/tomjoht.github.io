@@ -1,5 +1,5 @@
 ---
-title: "Screencasting (Trends to follow or forget)"
+title: "Screencasting"
 permalink: /trends/trends-to-follow-or-forget-screencasting.html
 categories:
 - technical-writing

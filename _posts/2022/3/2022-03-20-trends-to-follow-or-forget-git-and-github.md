@@ -1,5 +1,5 @@
 ---
-title: "Git and GitHub (Trends to follow or forget)"
+title: "Git and GitHub"
 permalink: /trends/trends-to-follow-or-forget-git-and-github.html
 categories:
 - technical-writing

@@ -1,5 +1,5 @@
 ---
-title: "Keynote presentation to STC India 2022 (Trends to follow or forget)"
+title: "Keynote presentation to STC India 2022"
 permalink: /trends/trends-to-follow-or-forget-presentation-stc-india.html
 categories:
 - technical-writing

@@ -1,5 +1,5 @@
 ---
-title: "DITA (Trends to follow or forget)"
+title: "DITA"
 permalink: /trends/trends-to-follow-or-forget-dita.html
 categories:
 - technical-writing

@@ -1,5 +1,5 @@
 ---
-title: "Faceted filtering (Trends to follow or forget)"
+title: "Faceted filtering"
 permalink: /trends/trends-to-follow-or-forget-faceted-filtering.html
 categories:
 - technical-writing

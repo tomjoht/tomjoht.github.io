@@ -1,5 +1,5 @@
 ---
-title: "Scrum (Trends to follow or forget)"
+title: "Scrum"
 permalink: /trends/trends-to-follow-or-forget-scrum.html
 categories:
 - technical-writing

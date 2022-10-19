@@ -1,5 +1,5 @@
 ---
-title: "Remote work (Trends to follow or forget)"
+title: "Remote work"
 permalink: /trends/trends-to-follow-or-forget-remote-work.html
 categories:
 - technical-writing

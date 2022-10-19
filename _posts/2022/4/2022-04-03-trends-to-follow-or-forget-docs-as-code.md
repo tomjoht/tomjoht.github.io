@@ -1,5 +1,5 @@
 ---
-title: "Docs as Code (Trends to follow or forget)"
+title: "Docs as Code"
 permalink: /trends/trends-to-follow-or-forget-docs-as-code.html
 categories:
 - technical-writing

@@ -1,5 +1,5 @@
 ---
-title: "Attempting to write a Life of a [something] narrative (Trends to follow or forget)"
+title: "Attempting to write a Life of a [something] narrative"
 permalink: /trends/writing-a-life-of-a-something-narrative.html
 categories:
 - technical-writing

@@ -1,5 +1,5 @@
 ---
-title: "Systems thinking: Limits to Growth, Complex Cause and Effect, and Shifting the Burden (Trends to follow or forget)"
+title: "Systems thinking: Limits to Growth, Complex Cause and Effect, and Shifting the Burden"
 permalink: /trends/systems-thinking-fifth-discipline.html
 categories:
 - technical-writing

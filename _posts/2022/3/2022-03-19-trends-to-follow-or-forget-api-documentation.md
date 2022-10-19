@@ -1,5 +1,5 @@
 ---
-title: "API documentation (Trends to follow or forget)"
+title: "API documentation"
 permalink: /trends/trends-to-follow-or-forget-api-documentation.html
 categories:
 - technical-writing

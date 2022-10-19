@@ -1,5 +1,5 @@
 ---
-title: "Technical diversity/pluralism/fragmentation in tech comm (Trends to follow or forget)"
+title: "Technical diversity/pluralism/fragmentation in tech comm"
 permalink: /trends/embracing-diversity-pluralism-fragmentation.html
 categories:
 - technical-writing

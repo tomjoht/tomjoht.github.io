@@ -1,5 +1,5 @@
 ---
-title: "Every page is page one (Trends to follow or forget)"
+title: "Every page is page one"
 permalink: /trends/trends-to-follow-or-forget-every-page-is-page-one.html
 categories:
 - technical-writing

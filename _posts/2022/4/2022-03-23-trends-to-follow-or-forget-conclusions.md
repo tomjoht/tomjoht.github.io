@@ -1,5 +1,5 @@
 ---
-title: "What conclusions can we draw about trends? (Trends to follow or forget)"
+title: "What conclusions can we draw about trends?"
 permalink: /trends/trends-to-follow-or-forget-conclusions.html
 categories:
 - technical-writing

@@ -1,5 +1,5 @@
 ---
-title: "Help authoring tools (HATs) and single-sourcing (Trends to follow or forget)"
+title: "Help authoring tools (HATs) and single-sourcing"
 permalink: /trends/trends-to-follow-or-forget-hats.html
 categories:
 - technical-writing

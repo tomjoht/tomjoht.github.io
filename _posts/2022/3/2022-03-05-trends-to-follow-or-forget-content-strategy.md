@@ -1,5 +1,5 @@
 ---
-title: "Content strategy (Trends to follow or forget)"
+title: "Content strategy"
 permalink: /trends/trends-to-follow-or-forget-content-strategy.html
 categories:
 - technical-writing
