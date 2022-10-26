@@ -7,26 +7,26 @@ keywords:
 rebrandly: https://idbwrtng.com/changconsc
 series: "Journey away from smartphones"
 jtype: notes_smartphones
-description: "This post continues my series about how to regain long-form concentration. Although Csikszentmihalyi says the brain's natural state, when left alone without any focused attention, is one of entropy and chaos (more commonly referred to as <i>monkey mind</i>), I'm not sure I agree. In this post, I ask how and why consciousness becomes disordered (why we have monkey mind) in the first place, and how we might change that state. In my experience, infinite-scrolling the web and filling my mind with compressed, high-intensity randomness creates different brain patterns than reading a book. Note: Admittedly, in this post, I go off the deep end a bit. (This post won't appeal to everyone.)"
+description: "This post continues my series about how to regain long-form concentration. Although Csikszentmihalyi says the brain's natural state, when left alone without any focused attention, is one of entropy and chaos (more commonly referred to as <i>monkey mind</i>), I'm not sure I agree. In this post, I ask how and why consciousness becomes disordered (why we have monkey mind) in the first place, and how we might change that state. In my experience, infinite-scrolling the web and filling my mind with compressed, high-intensity randomness creates different brain patterns than reading a book. Note: Admittedly, in this post, I go off the deep end a bit."
 ---
 
 ## Context and background for this topic
 
-In my last post, [Applying Csikszentmihalyi's psychology of flow to the writing of technical documentation](/blog/csikszentmihalyi-dynamics-of-flow/), I explained that Csikszentmihalyi says our normal psychological state is one of constant entropy (disordered, unstructured thought). Most people call this "monkey mind," a term coined by Buddha to refer to the way a monkey swings from branch to branch (similar to our mind jumping from thought to thought). 
+In my last post, [Applying Csikszentmihalyi's psychology of flow to the writing of technical documentation](/blog/csikszentmihalyi-dynamics-of-flow/), I explained that Csikszentmihalyi says our normal psychological state is one of constant entropy (disordered, unstructured thought). Most people call this "monkey mind," a term coined by Buddha to refer to the way a monkey swings from branch to branch &mdash; similar to our mind jumping from thought to thought. 
 
 The whole point of getting into flow, according to Csikszentmihalyi, a happiness researcher, is to counter that entropy with a more "ordered consciousness." Csikszentmihalyi says, 
 
 > The optimal state of inner experience is one in which there is *order in consciousness*. This happens when psychic energy &mdash; or attention &mdash; is invested in realistic goals, and when skills match the opportunities for action. (6)
 
-What's the opposite of psychic entropy / monkey mind? It's ordered consciousness. (Csikszentmihalyi doesn't use the term monkey mind here, but it seems so clearer than psychic entropy.) 
+Ordered consciousness is the opposite of psychic entropy / monkey mind. (Csikszentmihalyi doesn't use the term "monkey mind," but it seems so clearer than "psychic entropy," so I refer to them synonymously.) 
 
-I've covered a lot of straightforward ideas in this series, but they've all sort of led up to this larger question of achieving an order in consciousness. So bear with me as I wrestle with this more abstract topic.
+I've covered a lot of straightforward ground in this series, but they've all sort of led up to this larger question of achieving order in consciousness (avoiding a state of distraction). So bear with me as I wrestle with this more abstract topic.
 
 ## Why accept monkey mind as a natural state?
 
 Although I like the idea of getting into a flow state, Csikszentmihalyi's assumption about psychic entropy (monkey mind) being our natural mental state seems like a pessimistic view of human consciousness, in my opinion. I'm not sure I agree with Csikszentmihalyi, as that view reduces the value of our most celebrated quality. Why is humanity's natural state a monkey mind? 
 
-In *Flow*, Csikszentmihalyi does address this question in a short section called "Recovering Harmony" (p.227). Anticipating this objection, he phrases it as follows: "Aren't people born at peace with themselves &mdash; isn't human nature naturally ordered?" This is also my objection. Why shouldn't my natural mental state be naturally ordered? If it's disordered, how did we get that way?
+Csikszentmihalyi does address this question in a short section called "Recovering Harmony" (p.227). Anticipating this objection, he phrases it as follows: "Aren't people born at peace with themselves &mdash; isn't human nature naturally ordered?" This is also my objection. Why shouldn't my natural mental state be naturally ordered? If it's disordered, how did we get that way?
 
 If we can't have ordered consciousness *outside of flow*, if we only experience flow during optimal times, what does this imply about the rest of our time?
 
@@ -146,7 +146,7 @@ The moment I started introspecting while eating a sandwich with my silent childh
 
 As humans, we usually celebrate our rational faculties. I love to trace and explore ideas in my head. In *Nichomachean Ethics*, Aristotle says the contemplative life leads to the most pleasure:
 
-> And that happiness consists in contemplation may be accepted as agreeing both with the results already reached and with the truth. For contemplation is at once the highest form of activity（since the intellect is the highest thing in us, and the objects with which the intellect deals are the highest things that can be known), and also it is the most continuous, for we can reflect more continuously than we can carry on any form of action.
+> And that happiness consists in contemplation may be accepted as agreeing both with the results already reached and with the truth. For contemplation is at once the highest form of activity, since the intellect is the highest thing in us, and the objects with which the intellect deals are the highest things that can be known; and also it is the most continuous, for we can reflect more continuously than we can carry on any other form of action. 
 
 Our conscious intelligence is the highest form of human nature, so maximizing our highest nature leads to the highest form of living. In fact, Csikszentmihalyi even says philosophy can lead to a form of flow:
 
@@ -208,7 +208,7 @@ These experiences led me toward certain hypotheses. Maybe what leads to [TikTok 
 
 As more evidence to how reading might influence ordered thought, consider the many studies about meditation's benefits on the mind. If meditation can influence a different state of mind (a different order of consciousness), then why not reading? Alice Walker writes:
 
-> One of the most interesting studies in the last few years, carried out at Yale University, found that mindfulness meditation decreases activity in the default mode network (DMN), the brain network responsible for mind-wandering and self-referential thoughts &mdash; a.k.a., "monkey mind." The DMN is "on" or active when we’re not thinking about anything in particular, when our minds are just wandering from thought to thought. Since mind-wandering is typically associated with being less happy, ruminating, and worrying about the past and future, it’s the goal for many people to dial it down. Several studies have shown that meditation, through its quieting effect on the DMN, appears to do just this. And even when the mind does start to wander, because of the new connections that form, meditators are better at snapping back out of it. [7 Ways Meditation Can Actually Change The Brain](https://www.forbes.com/sites/alicegwalton/2015/02/09/7-ways-meditation-can-actually-change-the-brain/), Forbes)
+> One of the most interesting studies in the last few years, carried out at Yale University, found that mindfulness meditation decreases activity in the default mode network (DMN), the brain network responsible for mind-wandering and self-referential thoughts &mdash; a.k.a., "monkey mind." The DMN is "on" or active when we’re not thinking about anything in particular, when our minds are just wandering from thought to thought. Since mind-wandering is typically associated with being less happy, ruminating, and worrying about the past and future, it’s the goal for many people to dial it down. Several studies have shown that meditation, through its quieting effect on the DMN, appears to do just this. And even when the mind does start to wander, because of the new connections that form, meditators are better at snapping back out of it. [7 Ways Meditation Can Actually Change The Brain](https://www.forbes.com/sites/alicegwalton/2015/02/09/7-ways-meditation-can-actually-change-the-brain/))
 
 With meditation, the goal is usually to reduce your mind of conscious thought. I'm not an active meditater, but a few years ago I did go through a phase using the *Calm* app to meditate every morning on my way to work for about six months. Each meditation usually follows the same pattern: focus on your breath, in and out. Think of nothing else but your patterns of breathing. Then notice every little sensation in your physical body (this takes your mind away from that DMN mode). 
 
@@ -218,7 +218,7 @@ If meditation can re-order our consciousness, why not reading? Reading is highly
 
 One researcher explains that the story structure of books can instill a more sequential order in our minds:
 
-> Story structure encourages our brains to think in sequence, expanding our attention spans: Stories have a beginning, middle, and end, and that's a good thing for your brain. With this structure, our brains are encouraged to think in sequence, linking cause and effect. The more you read, the more your brain is able to adapt to this line of thinking. Neuroscientists encourage parents to take this knowledge and use it for children, reading to kids as much as possible. In doing so, you'll be instilling story structure in young minds while the brain has more plasticity, and the capacity to expand their attention span. ([Your Brain on Books: 10 Things That Happen to Our Minds When We Read](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/), *Open Educational Database*)
+> Story structure encourages our brains to think in sequence, expanding our attention spans: Stories have a beginning, middle, and end, and that's a good thing for your brain. With this structure, our brains are encouraged to think in sequence, linking cause and effect. The more you read, the more your brain is able to adapt to this line of thinking. Neuroscientists encourage parents to take this knowledge and use it for children, reading to kids as much as possible. In doing so, you'll be instilling story structure in young minds while the brain has more plasticity, and the capacity to expand their attention span. ([Your Brain on Books: 10 Things That Happen to Our Minds When We Read](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/))
 
 The sequential pattern pushes back monkey mind.
 
@@ -245,3 +245,19 @@ This post has been long and full of abstract ideas. I've tried to bring my own e
 > To write down one's insights expecting that someday they will be read with awe by posterity would be in most cases an act of hubris, that "overweening presumption" that has caused so much mischief in human affairs. But if one records ideas in response to an inner challenge to express clearly the major questions by which one feels confronted, and tries to sketch out answers that will help make sense of one's experiences, then the amateur philosopher will have learned to derive enjoyment from one of the most difficult and rewarding tasks of life. (139)
 
 I'm recording ideas here in response to an inner challenge, wrestling with the major questions I feel confronted by, sketching out answers that correspond to my lived experiences. I don't profess expertise from rigorous academic study or inquiry. But I can't help but feel that somewhere in this post, I've hit upon an idea or two that might be true.
+
+## References
+
+Aristotle, *The Nicomachean Ethics.* Trans. Harris Rackham. United Kingdom, W. Heinemann, 1926.
+
+Burnham, Bo. "[Welcome to the Internet](https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham)" Movie: *Inside*. Released 2021.
+
+Csikszentmihalyi, Mihaly. *[Flow: The Psychology of Optimal Experience.](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
+
+Jaynes, Julian. *[The Origin of Consciousness in the Breakdown of the Bicameral Mind.](https://www.amazon.com/Origin-Consciousness-Breakdown-Bicameral-Mind/dp/0618057072/ref=asc_df_0618057072/)* Houghton Mifflin Harcourt, 1990.
+
+Kelly, Kevin. *[What Technology Wants](https://www.amazon.com/What-Technology-Wants-Kevin-Kelly/dp/B08XGSTNNB).* Penguin, 2011.
+
+Walton, Alice. [7 Ways Meditation Can Actually Change The Brain](https://www.forbes.com/sites/alicegwalton/2015/02/09/7-ways-meditation-can-actually-change-the-brain/). *Forbes*. Feb 9, 2015.
+
+"Your Brain on Books: 10 Things That Happen to Our Minds When We Read."" *Open Education Database*. Retrieved Oct 23, 2022.
