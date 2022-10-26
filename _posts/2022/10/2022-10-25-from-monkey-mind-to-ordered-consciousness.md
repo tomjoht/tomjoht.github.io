@@ -1,5 +1,5 @@
 ---
-title: "From monkey mind to calm, ordered consciousness: Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
+title: "From monkey mind to calm, ordered consciousness? Wrestling with Csikszentmihalyi's assumptions about psychic entropy"
 permalink: /blog/from-monkey-mind-to-calm-consciousness
 categories:
 - technical-writing
@@ -106,7 +106,7 @@ By taking us from the familiar to the unfamiliar, metaphoric language expands ou
 
 Jaynes' asks the consciousness question somewhat timidly (in parentheses) because he knows it's a stretch. It's through language and metaphor that we perceive new circumstances, and awareness of these new circumstances inches us toward more consciousness. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/language-and-consciousness.jpg" alt="Moving toward conscious thought" /><figcaption>Metaphoric language helped us consider unfamiliar circumstances and ideas, prompting more advanced thought and ultimately consciousness.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/metaphor-consciousness.jpg" alt="Moving toward conscious thought" /><figcaption>Metaphoric language helped us consider unfamiliar circumstances and ideas, prompting more advanced thought and ultimately consciousness. Metaphors take us from the familiar into the unfamiliar.</figcaption></figure>
 
 Jaynes also says the symbols in language allow us to assemble and manipulate advanced ideas:
 
