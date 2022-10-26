@@ -260,4 +260,4 @@ Kelly, Kevin. *[What Technology Wants](https://www.amazon.com/What-Technology-Wa
 
 Walton, Alice. [7 Ways Meditation Can Actually Change The Brain](https://www.forbes.com/sites/alicegwalton/2015/02/09/7-ways-meditation-can-actually-change-the-brain/). *Forbes*. Feb 9, 2015.
 
-"Your Brain on Books: 10 Things That Happen to Our Minds When We Read."" *Open Education Database*. Retrieved Oct 23, 2022.
+"[Your Brain on Books: 10 Things That Happen to Our Minds When We Read.](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/)" *Open Education Database*. Retrieved Oct 23, 2022.
