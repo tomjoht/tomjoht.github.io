@@ -208,7 +208,13 @@ This past month, I've started to notice an interesting phenomenon. When I try to
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reading-and-brain-thought-pattern-alignment.jpg" alt="Reading reduces entropy" /><figcaption>Reading seems to induce harmonic patterns in my brain waves, or something. To experiment, read a book for an hour and note your mental state. Then watch TikTok, Shorts, or Reels for an hour and compare.</figcaption></figure>
 
-On days in which I haven't read a book but instead have been immersed online (ESPN, New York Times, Gmail, Feedly, etc.), my brain has a much different pattern. Instead of linear, focused thought, my mind skips around more. I get monkey mind, jumping from one topic to another. If I'm trying to fall asleep, my racing thoughts will keep me up unless I put an audio book in my ear to focus my attention until I fall asleep.
+One researcher explains that the story structure of books can instill a more sequential order in our brains:
+
+> Story structure encourages our brains to think in sequence, expanding our attention spans: Stories have a beginning, middle, and end, and that's a good thing for your brain. With this structure, our brains are encouraged to think in sequence, linking cause and effect. The more you read, the more your brain is able to adapt to this line of thinking. ([Your Brain on Books: 10 Things That Happen to Our Minds When We Read](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/))
+
+In other words, your brain gets accustomed to thinking in story structures and imprints that same structure in the brain. This helps internalize sequential and causal thinking patterns.
+
+On days in which I haven't read a book but instead have been immersed online, my brain has a much different pattern. Instead of linear, focused thought, my mind skips around more. I get monkey mind, jumping from one topic to another. If I'm trying to fall asleep, my racing thoughts will keep me up unless I put an audio book in my ear to focus my attention until I fall asleep.
 
 I might not have noticed this contrast in mental states were it not for this [whole smartphone experiment](/blog/first-experiences-moving-away-from-smartphones/) (noted earlier). These past two months, I've been more relaxed in my rules about technology use. Earlier on in my experience, however, I [adopted strict rules](/blog/my-international-rules-for-smartphone-use/) about when I would use a phone, and so on. My journey away from smartphones led me to [read a lot more](/blog/one-month-in-without-a-smartphone/#books-printing-things-out). When I [returned to my smartphone](/blog/returning-to-smartphones/) (because my family wanted to text me), I relapsed in other ways too, checking sports and news more often. Then my work provided me with a phone, which came equipped with work email and calendar. I started checking work email more often, in addition to checking my own email almost obsessively. I started reading Feedly (an RSS aggregator) more often. 
 
@@ -245,7 +251,5 @@ Firth, Joseph, et al. [The "online brain": how the Internet may be changing our 
 Jaynes, Julian. *[The Origin of Consciousness in the Breakdown of the Bicameral Mind.](https://www.amazon.com/Origin-Consciousness-Breakdown-Bicameral-Mind/dp/0618057072/ref=asc_df_0618057072/)* Houghton Mifflin Harcourt, 1990.
 
 Kelly, Kevin. *[What Technology Wants](https://www.amazon.com/What-Technology-Wants-Kevin-Kelly/dp/B08XGSTNNB).* Penguin, 2011.
-
-Walton, Alice. [7 Ways Meditation Can Actually Change The Brain](https://www.forbes.com/sites/alicegwalton/2015/02/09/7-ways-meditation-can-actually-change-the-brain/). *Forbes*. Feb 9, 2015.
 
 "[Your Brain on Books: 10 Things That Happen to Our Minds When We Read.](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/)" *Open Education Database*. Retrieved Oct 23, 2022.
