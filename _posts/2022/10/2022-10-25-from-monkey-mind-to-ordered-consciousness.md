@@ -32,11 +32,11 @@ If we can't have ordered consciousness *outside of flow*, and we only experience
 
 ## Csikszentmihalyi on pre-conscious states
 
-Csikszentmihalyi says flows basically helps us return to a pre-conscious state, almost like that of an animal. Csikszentmihalyi says:
+Csikszentmihalyi says flow basically helps us return to a pre-conscious state, almost like that of an animal. Csikszentmihalyi says:
 
 > The original condition of human beings, prior to the development of self-reflective consciousness, must have been a state of inner peace disturbed only now and again by tides of hunger, sexuality, pain, and danger. ... If we were to interpret the lives of animals with a human eye, we would conclude that they are in flow... (227)
 
-Look over at your cat or dog, and quietly observe their state. Presumably, the animal enjoys a peace free from the psychic burdens of self-reflective consciousness. I have a young cat that likes to paw at random objects on the floor as if they were mice. In many ways, the cat gets into a state of flow doing this. 
+Look over at your cat or dog, and quietly observe their state. Presumably, the animal enjoys peace free from the psychic burdens of self-reflective consciousness. I have a young cat that likes to paw at random objects on the floor as if they were mice. In many ways, the cat gets into a state of flow doing this. 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/cat-at-play-kitchen.jpg" alt="Animals in state of flow" /><figcaption>A cat that directs its attention playfully on an object could be said to be in a state of flow.</figcaption></figure>
 
@@ -44,7 +44,7 @@ But alas, we humans have the burden of a conscious mind, which leads to psychic 
 
 > The forms of psychic entropy that currently cause us so much anguish &mdash; unfulfilled wants, dashed expectations, loneliness, frustration, anxiety, guilt &mdash; are all likely to have been recent invaders of the mind. They are by-products of the tremendous increase in complexity of the cerebral cortex and of the symbolic enrichment to culture. They are the dark side of the emergence of consciousness.” (227).
 
-Animals don't experience "unfulfilled ambition" or overwhelm from "pressing responsibilities." They don't "weigh possibilities unavailable" or "imagine pleasant alternatives." They aren't "disturbed by fears of failure" (228). These characteristics represent the "dark side of consciousness," which came about due to the "tremendous increase in complexity" of our brains and from advanced culture.
+Animals don't experience "unfulfilled ambition" or get overwhelmed from "pressing responsibilities." They don't "weigh possibilities unavailable" or "imagine pleasant alternatives." They aren't "disturbed by fears of failure" (228). These characteristics represent the "dark side of consciousness," which came about due to the "tremendous increase in complexity" of our brains and from an advanced culture.
 
 If the point of flow is to order our consciousness, shouldn't we ask, how does our consciousness get unordered in the first place? Can't we just undo the disordering factor instead of always trying to get into states of flow?
 
@@ -54,7 +54,7 @@ So let's dive more into the topic of consciousness, why it came about, and why i
 
 ## How humans developed consciousness 
 
-Csikszentmihalyi doesn't spend much time on how consciousness formed (at least not in *Flow*), and his writing about consciousness is more speculative than evidence-based (due to the nature of the topic), but he does briefly touch on it. He says consciousness likely formed due to the following:
+Csikszentmihalyi doesn't spend much time on how consciousness is formed (at least not in *Flow*), and his writing about consciousness is more speculative than evidence-based (due to the nature of the topic), but he does briefly touch on it. He says consciousness likely formed due to the following:
 
 * the "biological evolution of the central nervous system"
 * "the development of culture &mdash; of languages, belief systems, technologies"  
@@ -70,7 +70,7 @@ The overarching theme here is that as civilization grows complex and multifacete
 
 > The more complex any system, the more room it leaves open for alternatives, and the more things can go wrong with it. This is certainly applicable to the evolution of the mind: as it has increased its power to handle information, the potential for inner conflict has increased as well. (228)
 
-Csikszentmihalyi doesn't seem too concerned at how humans arrived at consciousness (or an advanced state of mind), only that they do experience consciousness, and the mental state of consciousness is one that drifts toward entropy. Granted, how humans became conscious is one of the big mysteries (and even defining the term usually takes psychologists several chapters), so his lack of a more concrete answer is understandable. However, before dismissing the possibility of a better answer, let's explore one more theory for how consciousness formed.
+Csikszentmihalyi doesn't seem too concerned with how humans arrived at consciousness (or an advanced state of mind), only that they do experience consciousness, and the mental state of consciousness is one that drifts toward entropy. Granted, how humans became conscious is one of the big mysteries (and even defining the term usually takes psychologists several chapters), so his lack of a more concrete answer is understandable. However, before dismissing the possibility of a better answer, let's explore one more theory for how consciousness formed.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/emergence-of-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>When you're confronted with contradiction or an alternate point of view that contrasts with your own, it might set off a state of reflection that leads to greater consciousness.</figcaption></figure>
 
@@ -130,7 +130,7 @@ The widespread appearance of this E.M. Forster quotation reinforces its truth. T
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/think-see-what-say-cons.jpg" alt="How can I know what I think until I see what I say?" /><figcaption>Externalizing our ideas helps us see them from another perspective. This alternate perspective (outside ourselves) can help expand our awareness.</figcaption></figure>
 
-Regardless of how language works, there's no greater tool for thinking than writing. Not only can you see your thoughts in concrete form, you can refine the logic of your arguments, trace out more complex trajectories of ideas, build up elaborate narratives, and more. This post is a perfect example. I am writing about a slippery topic and some of the ideas in my mind are fuzzy. I'm using this post to clarify what I think about consciousness and entropy. I've edited, re-arranged, refined, and clarified my language in hopes of moving toward more an idea. Writing is helping me think.
+Regardless of how language works, there's no greater tool for thinking than writing. Not only can you see your thoughts in concrete form but you can also refine the logic of your arguments, trace out more complex trajectories of ideas, build up elaborate narratives, and more. This post is a perfect example. I am writing about a slippery topic and some of the ideas in my mind are fuzzy. I'm using this post to clarify what I think about consciousness and entropy. I've edited, re-arranged, refined, and clarified my language in hopes of moving toward a more focused argument. Writing is helping me think.
 
 ## The first time I became aware of consciousness
 
@@ -138,7 +138,7 @@ Language leads to thought, but it seems like thought alone isn't enough to trigg
 
 Amazingly, I remember the specific moment when I first became aware of my thinking mind, or when I recognized my consciousness. When I was about 5 years old, I had a friend who didn't talk much. One day I was having lunch at his house. His mother made us a sandwich and chips, and we sat at his kitchen table, mostly eating in silence. While we ate in silence, I started to realize that I could think silently in my mind. I could think whatever I wanted, and no one else could know what I was thinking. Did others have this capability as well? Looking at my friend quietly eating his sandwich, I wondered, was he thinking things in his mind too? Or was his mind blank, without any thoughts other than taking another bite of his sandwich? 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sitting-at-table-first-consciousness.jpg" alt="First inklings of the awareness of thought" /><figcaption>Was my ability to think whatever I wanted in my mind my unique, or did everyone possess it? The juxtaposition of a person in a seemingly opposite state prompted reflection, then awareness.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sitting-at-table-first-consciousness.jpg" alt="First inklings of the awareness of thought" /><figcaption>Was my ability to think whatever I wanted in my mind a unique capability, or did everyone possess it? The juxtaposition of a person in a seemingly opposite state prompted reflection, then awareness.</figcaption></figure>
 
 In this case, my consciousness was prompted through juxtaposition with another human who acted differently from me. The difference prompted questions in my mind. My experience reinforces Csikszentmihalyi's argument that when we "... see the world different from one another, [recognizing that] [t]here is no one right way to behave, and each role requires different skills," it moves us toward consciousness.
 
@@ -146,7 +146,7 @@ I asked my wife if she could remember her first awareness of consciousness. She 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannon-castles-in-her-mind.jpg" alt="You own the castles of your mind. " /><figcaption>When my wife rejected what her church leaders taught, she reveled in the private castle of her mind. She realized it was a space no one else could enter, and she was free to believe whatever she wanted in there.</figcaption></figure>
 
-The moment I started introspecting while eating a sandwich with my silent childhood friend, or when my wife realized she could think her own thoughts about polygamy &mdash; were these the starting points for a mental state increasingly filled with, as Csikszentmihalyi says, "unfulfilled wants, dashed expectations, loneliness, frustration, anxiety, guilt" (230)? In other words, how do we move from bright side of consciousness to the dark side of consciousness?
+The moment I started introspecting while eating a sandwich with my silent childhood friend, or when my wife realized she could think her own thoughts about polygamy &mdash; were these the starting points for a mental state increasingly filled with, as Csikszentmihalyi says, "unfulfilled wants, dashed expectations, loneliness, frustration, anxiety, guilt" (230)? In other words, how do we move from the bright side of consciousness to the dark side of consciousness?
 
 ## Paradoxes of consciousness
 
@@ -158,7 +158,7 @@ Our conscious intelligence is the highest form of human nature, so maximizing ou
 
 > ... playing with ideas is extremely exhilarating. Not only philosophy but the emergence of new scientific ideas is fueled by the enjoyment one obtains from creating a new way to describe reality. The tools that make the flow of thought possible are common property, and consist of the knowledge recorded in books available in schools and libraries. A person who becomes familiar with the conventions of poetry, or the rules of calculus, can subsequently grow independent of external stimulation. She can generate ordered trains of thought regardless of what is happening in external reality. When a person has learned a symbolic system well enough to use it, she has established a portable, self-contained world within the mind (127)
 
-In other words, the seemingly absent-minded philosopher who is really lost in deep thought, running ideas through logical syllogisms to dissect them to their core and then reassemble them back into a whole, enters a flow state, despite the heightened consciousness. It seems a bit paradoxical, though perhaps there are different types of consciousness, and I haven't been precise in my definitions.
+In other words, the seemingly absent-minded philosopher who is really lost in deep thought, running ideas through logical syllogisms to dissect them to their core and then re-assemble them back into a whole, enters a flow state, despite the heightened consciousness. It seems a bit paradoxical, though perhaps there are different types of consciousness, and I haven't been precise in my definitions.
 
 The entropic mindset Csikszentmihalyi warns against isn't the philosopher focusing on arguments about abstract ideas, but rather the idle person whose mind isn't focused on anything at all (monkey mind, not curious mind). It's "when we are left alone, with no demands on attention, the basic disorder of the mind reveals itself. With nothing to do, it begins to follow random patterns." (119). 
 
@@ -226,9 +226,9 @@ The effects aren't always night and day like this, but it's noticeable. These ex
 
 ## Two notes -- lack of expertise, neurodivergence
 
-I'd like to make a couple of notes. First, I've wandered way outside my area of expertise in this longwinded post. As I said at the start, I go off the deep end here. I'm a technical writer, not a psychology researcher. I only veered into this territory out of a desire to reclaim my long-form concentration, especially the ability to read books again, despite a decade of smartphone use that seemed to have pushed me in the other direction. 
+I'd like to make a couple of notes. First, I've wandered way outside my area of expertise in this long-winded post. As I said at the start, I go off the deep end here. I'm a technical writer, not a psychology researcher. I only veered into this territory out of a desire to reclaim my long-form concentration, especially the ability to read books again, despite a decade of smartphone use that seemed to have pushed me in the other direction. 
 
-Secondly, I want to acknowledge that neurodivergent thinkers might not benefit from this post or even this series. I have three family members with ADHD, and I actually spent two afternoons writing this post with some of them trying to do homework at the table. I watched as their amplified attention pulled them into different streams and topics. It's also difficult to sequence tasks out into more linear, long-term periods of focus. It's not merely a matter of retraining the brain to counter the inattention learned from social apps; it's much different. So if you're neurodivergent, the experiences I described in this post might not actually apply. 
+Secondly, I want to acknowledge that neurodivergent thinkers might not benefit from this post or even this series. I have three family members with ADHD, and I actually spent two afternoons writing this post with some of them trying to do homework at the table. I watched as their amplified attention pulled them into different streams and topics. It's also difficult to sequence tasks into more linear, long-term periods of focus. It's not merely a matter of retraining the brain to counter the inattention learned from social apps; it's much different. So if you're neurodivergent, the experiences I described in this post might not actually apply. 
 
 ## Conclusion 
 
@@ -252,4 +252,4 @@ Jaynes, Julian. *[The Origin of Consciousness in the Breakdown of the Bicameral 
 
 Kelly, Kevin. *[What Technology Wants](https://www.amazon.com/What-Technology-Wants-Kevin-Kelly/dp/B08XGSTNNB).* Penguin, 2011.
 
-"[Your Brain on Books: 10 Things That Happen to Our Minds When We Read.](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/)" *Open Education Database*. Retrieved Oct 23, 2022.
+["Your Brain on Books: 10 Things That Happen to Our Minds When We Read."](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/)" *Open Education Database*. Retrieved Oct 23, 2022.
