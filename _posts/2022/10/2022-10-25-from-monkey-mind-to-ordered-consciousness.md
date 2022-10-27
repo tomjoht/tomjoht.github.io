@@ -218,36 +218,6 @@ But when I closed my eyes and tried to go to sleep, thoughts raced in my head. M
 
 The effects aren't always night and day like this, but it's noticeable. These experiences led me toward the ideas I'm promoting here. Maybe what leads to [TikTok brain](https://www.thetealmango.com/technology/what-is-tiktok-brain/), as it's called, where our mental circuits become short-wired and our consciousness drifts toward the anxiety-prone dark side of consciousness, is both the content on the internet as well as the form of the internet itself. Running through post after post of different topics might teach the brain a certain unordered, chaotic pattern that it then imitates. Contrast this with the more linear, focused pattern of reading from a book, which seems to bring order to my consciousness.
 
-## Several ways a small behavior changes how we think
-
-As more evidence to how reading might influence ordered thought, consider the many studies about meditation's benefits on the mind. If meditation can influence a different state of mind (a different order of consciousness), then why not reading? Alice Walker writes:
-
-> One of the most interesting studies in the last few years, carried out at Yale University, found that mindfulness meditation decreases activity in the default mode network (DMN), the brain network responsible for mind-wandering and self-referential thoughts &mdash; a.k.a., "monkey mind." The DMN is "on" or active when we’re not thinking about anything in particular, when our minds are just wandering from thought to thought. Since mind-wandering is typically associated with being less happy, ruminating, and worrying about the past and future, it’s the goal for many people to dial it down. Several studies have shown that meditation, through its quieting effect on the DMN, appears to do just this. And even when the mind does start to wander, because of the new connections that form, meditators are better at snapping back out of it. [7 Ways Meditation Can Actually Change The Brain](https://www.forbes.com/sites/alicegwalton/2015/02/09/7-ways-meditation-can-actually-change-the-brain/))
-
-With meditation, the goal is usually to reduce your mind of conscious thought. I don't actively practice meditation, but a few years ago I did go through a phase using the *Calm* app to briefly meditate every morning (10 minutes) on my way to work for about six months. Each meditation usually follows the same pattern: focus on your breath, in and out. Think of nothing else but your patterns of breathing. Then notice every little sensation in your physical body (this takes your mind away from that DMN mode). 
-
-Meditation like this each morning made me calmer, more at peace mentally, and less prone to anger or stress. I didn't feel the psychic entropy/chaos that Csikszentmihalyi writes about. But after a couple of hours behind a computer, my normal state returned. Eventually, I abandoned meditating because the effects didn't last long enough to make the 10 minutes worthwhile. 
-
-But if meditation can re-order our consciousness, why not reading? Reading is highly similar in that you focus your mind on a single narrative (like following a breath). Line upon line / breath after breath. 
-
-One researcher explains that the story structure of books can instill a more sequential order in our brains:
-
-> Story structure encourages our brains to think in sequence, expanding our attention spans: Stories have a beginning, middle, and end, and that's a good thing for your brain. With this structure, our brains are encouraged to think in sequence, linking cause and effect. The more you read, the more your brain is able to adapt to this line of thinking. Neuroscientists encourage parents to take this knowledge and use it for children, reading to kids as much as possible. In doing so, you'll be instilling story structure in young minds while the brain has more plasticity, and the capacity to expand their attention span. ([Your Brain on Books: 10 Things That Happen to Our Minds When We Read](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/))
-
-In my experience, the sequential pattern quiets monkey mind a bit (but doesn't extinguish it).
-
-## Changing thought patterns
-
-Overall, it's plausible that our activities can have an impact on how we think. Here are some direct experiences I've had where the activity changed the thought patterns in my brain:
-
-* If you post regularly on Twitter, soon you start thinking in tweets.
-* If you write down your dreams, you remember them more often.
-* If you try to solve a hard problem and then take a break for a day, often the answer materializes in your mind at random times.
-  
-My point is that you can set in motion different patterns in your brain, and those patterns will continue operating on an unconscious level even after you stop the activity. Many experiments on priming also confirm similar unconscious automaticity. Would it be so controversial to believe that engaging in random infinite-scrolling on the web, accruing hours and hours of daily internet screen time with compressed randomness, might continue on in the unconscious mind? 
-
-And in contrast, the opposite pattern (reading, meditating) might have equal benefits in ordering the mind? This morning I started off reading nearly 50 pages in a book about the history of the Detroit auto industry, reading both at home and in a cafe. When I returned home to work on this post, I found my attention continued for 2+ hours straight, typing out this post. In fact, I don't know how long I sat there writing it, as I no longer focused on time. But I cranked out at about 3,000 words, with newfound patience and focus that surprised me. Could it be that prolonged reading (from a sequential book) infused a certain order within my consciousness that protected me from internal distraction?
-
 ## Two notes -- lack of expertise, neurodivergence
 
 I'd like to make a couple of notes. First, I've wandered way outside my area of expertise in this longwinded post. As I said at the start, I go off the deep end here. I'm a technical writer, not a psychology researcher. I only veered into this territory out of a desire to reclaim my long-form concentration, especially the ability to read books again, despite a decade of smartphone use that seemed to have pushed me in the other direction. 
