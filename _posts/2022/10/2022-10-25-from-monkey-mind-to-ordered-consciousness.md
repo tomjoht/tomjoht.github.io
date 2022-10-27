@@ -190,9 +190,11 @@ Kelly's depiction of his internet experience is one of "beauty" for technology. 
 
 In other words, the pattern on the internet moves from topic to topic by often thin association. 
 
-Putting aside the content, the mere pattern of web-surfacing behavior is one that might trigger similar web surfing of the mind. On the internet, one gets pulled across 100 different sites without fully understanding exactly how. A 2014 study found that when people use laptops, "switches occurred as frequently as every 19 seconds, with 75% of all on-screen content being viewed for less than one minute" ("[The 'online brain': how the Internet may be changing our cognition](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20617)," 6). Throw in smartphone behavior on top of this, with its attention-fragmenting notifications, and you get a "multi-faceted stream of incoming information encouraging us to engage in attentional-switching and 'multi-tasking", rather than sustained focus" (18) for most of the day.
+## Internalizing a 19-second pattern
 
-If we constantly switch online throughout the day (every 19 seconds), then is it surprising that our brain might switch topics every 19 seconds as well? Monkey see, monkey do?
+Putting aside the content, the mere pattern of web-surfacing behavior is one that might trigger similar web surfing of the mind. On the internet, one gets pulled across 100 different sites without fully understanding exactly how. A 2014 study found that when people use laptops, "switches occurred as frequently as every 19 seconds, with 75% of all on-screen content being viewed for less than one minute" ([The "online brain": how the Internet may be changing our cognition](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20617), 6). Throw in smartphone behavior on top of this, with its attention-fragmenting notifications, and you get a "multi-faceted stream of incoming information encouraging us to engage in attentional-switching and 'multi-tasking", rather than sustained focus" (18) for most of the day.
+
+If we constantly switch online throughout the day (every 19 seconds), is it surprising that our brain might switch topics every 19 seconds as well? Monkey see, monkey do?
 
 Bo Burnham's [Welcome to the Internet](https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham) does a perfect job at portraying the frenetic content mishmash of the internet. It starts slow but then pulls you more deeply into its web.
 
@@ -222,7 +224,7 @@ At night I would bring up Youtube.com for entertainment (because it wasn't Reddi
 
 But when I closed my eyes and tried to go to sleep, thoughts raced in my head. My mind jumped and flittered about from topic to topic. The only way to sleep was to stay up (watching more videos or movies) until I was so tired that exhaustion itself put me out.
 
-The effects aren't always night and day like this, but it's noticeable. These experiences led me toward the ideas I'm promoting here. Maybe what leads to [TikTok brain](https://www.thetealmango.com/technology/what-is-tiktok-brain/), as it's called, where our mental circuits become short-wired and our consciousness drifts toward the anxiety-prone dark side of consciousness, is both the content on the internet as well as the form of the internet itself. Running through post after post of different topics might teach the brain a certain unordered, chaotic pattern that it then imitates. Contrast this with the more linear, focused pattern of reading from a book, which seems to bring order to my consciousness.
+The effects aren't always night and day like this, but it's noticeable. These experiences led me toward the ideas I'm promoting here. Maybe what leads to [TikTok brain](https://www.thetealmango.com/technology/what-is-tiktok-brain/), as it's called, where our mental circuits become short-wired and our consciousness drifts toward the anxiety-prone dark side of consciousness, is both the content on the internet as well as the form of the internet itself. Running through post after post of different topics might teach the brain a certain unordered, chaotic pattern that it then imitates. Contrast this with the more linear, focused pattern of reading from a book.
 
 ## Two notes -- lack of expertise, neurodivergence
 
