@@ -166,7 +166,11 @@ The philosopher's deep introspection and rigorous examination of ideas, which on
 
 ## When consciousness trends toward the dark side
 
-I'm going to throw out an idea about why we trend toward the dark side. The same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into more intense monkey mind. What technology has the capacity to expose the human mind to a firehose of complexity and chaos? The internet, of course.
+Here's an idea about why we trend toward the dark side. The same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into more intense monkey mind. 
+
+Thena gain, who really knows.
+
+Obviously monkey mind has been around for a long time, but I can't help but wonder if some technologies have the potential to exacerbate it. Specifically, the internet has the capacity to expose the human mind to a firehose of complexity and chaos. What is the relationship between surfing the internet, specifically doom-scrolling to boredom browsing, and monkey mind?
 
 In *What Technology Wants*, Kevin Kelly describes his love for the internet in what is perhaps the most eloquent[ly disturbing] passage I've read. He marvels at how the internet compresses randomness into one continuous experience of chaos and beauty:
 
@@ -188,13 +192,13 @@ Kelly's depiction of his internet experience is one of "beauty" for technology. 
 
 > The brain, confronted with a glowing screen and the ability to hypertext its way from one interruption to another across the universe of knowledge from what its buddy in Australia thinks of rutabagas, to the spelling of rutabagas to the history of rutabagas to dishes that can be prepared from rutabagas leaves the brain sliding from one fact of surface interest to another fact even less useful, until it occurs to the brain to pursue the prompt on the pop-up menu and check the weather and get off of this slide onto the weather channel where a five minute video on playful seals on San Francisco Bay can be watched for free which does remind the brain that it could slide over to Facebook and find out if anyone “liked” the picture of the family cat posted an hour ago. And many do. Twenty-three “likes,” praise the Lord. ("[Why there are so few worth talking to](https://www.amazon.com/gp/customer-reviews/R1QXXAAK1TJVB5/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=0393357821)" by John W. Cowan)
 
-In other words, the pattern on the internet moves from topic to topic by often thin association. 
+In other words, the pattern on the internet moves from topic to topic by often thin association, fragmenting any kind of linear, sequential thought into a a kind of endlessly random teleportation into different worlds every minute. 
 
 ## Internalizing a 19-second pattern
 
-Putting aside the content, the mere pattern of web-surfacing behavior is one that might trigger similar web surfing of the mind. On the internet, one gets pulled across 100 different sites without fully understanding exactly how. A 2014 study found that when people use laptops, "switches occurred as frequently as every 19 seconds, with 75% of all on-screen content being viewed for less than one minute" ([The "online brain": how the Internet may be changing our cognition](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20617), 6). Throw in smartphone behavior on top of this, with its attention-fragmenting notifications, and you get a "multi-faceted stream of incoming information encouraging us to engage in attentional-switching and 'multi-tasking", rather than sustained focus" (18) for most of the day.
+Putting aside the content, the mere pattern of web-surfacing behavior is one that might trigger similar web surfing of the mind. On the internet, one gets pulled across 100 different sites without fully understanding exactly how. A 2014 study found that when people use laptops, "switches occurred as frequently as every 19 seconds, with 75% of all on-screen content being viewed for less than one minute" ([The "online brain": how the Internet may be changing our cognition](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20617), 6). Throw in smartphone behavior on top of this, with its attention-fragmenting notifications, and you get a "multi-faceted stream of incoming information encouraging us to engage in attentional-switching and 'multi-tasking', rather than sustained focus" (18) for most of the day.
 
-If we constantly switch online throughout the day (every 19 seconds), is it surprising that our brain might switch topics every 19 seconds as well? Monkey see, monkey do?
+If we constantly switch online throughout the day (every 19 seconds), is it surprising that our brain might switch topics every 19 seconds as well? 
 
 Bo Burnham's [Welcome to the Internet](https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham) does a perfect job at portraying the frenetic content mishmash of the internet. It starts slow but then pulls you more deeply into its web.
 
