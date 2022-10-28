@@ -18,7 +18,7 @@ The whole point of getting into flow, according to Csikszentmihalyi, a happiness
 
 > The optimal state of inner experience is one in which there is *order in consciousness*. This happens when psychic energy &mdash; or attention &mdash; is invested in realistic goals, and when skills match the opportunities for action. (6)
 
-Ordered consciousness is the opposite of psychic entropy / monkey mind. (Csikszentmihalyi doesn't use the term "monkey mind," but it seems so clearer than "psychic entropy," so I refer to them synonymously.) 
+Ordered consciousness is the opposite of psychic entropy / monkey mind. (Csikszentmihalyi doesn't use the term "monkey mind," but it seems so much clearer than "psychic entropy," so I refer to them synonymously.) 
 
 I've covered a lot of straightforward ground in this series, but they've all sort of led up to this larger question of achieving order in consciousness (avoiding a state of distraction). So bear with me as I wrestle with this more abstract topic.
 
@@ -66,13 +66,11 @@ Csikszentmihalyi doesn't spend much time on how consciousness is formed (at leas
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/future-civilization-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>The complexity of civilization, especially as it juxtaposes contradiction, differing points of view, and different roles and ways of being could have spurred consciousness to develop.</figcaption></figure>
 
-The overarching theme here is that as civilization grows complex and multifaceted, particularly in ways that prompt reflection, such as by being confronted with contradictory or opposing views or lifestyles, consciousness increases. These more complex scenarios prompt advanced thought. Csikszentmihalyi says,
-
-> The more complex any system, the more room it leaves open for alternatives, and the more things can go wrong with it. This is certainly applicable to the evolution of the mind: as it has increased its power to handle information, the potential for inner conflict has increased as well. (228)
-
-Csikszentmihalyi doesn't seem too concerned with how humans arrived at consciousness (or an advanced state of mind), only that they do experience consciousness, and the mental state of consciousness is one that drifts toward entropy. Granted, how humans became conscious is one of the big mysteries (and even defining the term usually takes psychologists several chapters), so his lack of a more concrete answer is understandable. However, before dismissing the possibility of a better answer, let's explore one more theory for how consciousness formed.
+The overarching theme here is that as civilization grows complex and multifaceted, particularly in ways that prompt reflection, such as by being confronted with contradictory or opposing views or lifestyles, consciousness increases. These more complex scenarios prompt advanced thought. 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/emergence-of-consciousness.jpg" alt="Complexity moves us toward greater consciousness" /><figcaption>When you're confronted with contradiction or an alternate point of view that contrasts with your own, it might set off a state of reflection that leads to greater consciousness.</figcaption></figure>
+
+Overall, Csikszentmihalyi doesn't seem too concerned with how humans arrived at consciousness (or an advanced state of mind), only that they do experience consciousness, and the mental state of consciousness is one that drifts toward entropy. Granted, how humans became conscious is one of the big mysteries (and even defining the term usually takes psychologists several chapters), so his lack of a more concrete answer is understandable. However, before dismissing the possibility of a better answer, let's explore one more theory for how consciousness formed.
 
 ## Origins of consciousness &mdash; the bicameral mind hypothesis
 
@@ -84,17 +82,17 @@ Jaynes says that the frequent gods and muses directing events in ancient texts w
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/angel-wispering-in-ear-bicameral-mind.jpg" alt="" /><figcaption>Subjective introspection seems absent in ancient texts. Why? Jaynes says people basically weren't fully conscious. They interpreted the voice in their heads as the voices of gods and muses. In reality, the voice in their heads was their right brain projecting an auditory hallucination to the left brain.</figcaption></figure>
 
-As written language evolved, specifically metaphoric language, the bicameral mind started to break down. Those auditory hallucinations, which previously originated from the "gods," started to be perceived as emerging from the same human mind. People gradually started becoming more conscious, more introspective, pondering and ruminating in their minds. They interacted with the voice in their heads as their own voice, not as that of an external god or muse. 
+As written language evolved, specifically metaphoric language, the bicameral mind started to break down. Those auditory hallucinations, which previously originated from the "gods," started to be perceived as emerging from the same human mind. People gradually started becoming more conscious, more introspective, pondering and ruminating in their minds. They interacted with the voice in their heads as their own voice.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bicameral-angel-no-more.jpg" alt="No more gods whispering into the ear" /><figcaption>The auditory voice of the "gods" was really the conscious mind projecting these thoughts all along. As people evolved and the bicameral mind disappeared, the auditory hallucinations from their right brains ceased. Without the gods directing their actions, many people felt abandoned. They were confused why the gods no longer spoke to them.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bicameral-angel-no-more.jpg" alt="No more gods whispering into the ear" /><figcaption>The auditory voice of the "gods" was really the conscious mind projecting these thoughts all along. As people evolved and the bicameral mind disappeared, the auditory hallucinations from their right brains ceased. Without the gods directing their actions, many people felt abandoned.</figcaption></figure>
 
-Jaynes' controversial bicameral mind hypothesis remains one of the most fascinating theories about the evolution of consciousness. It caused critics to reconsider their interpretations of the frequent appearances of gods and muses in texts like the *Iliad.* Many started to think that perhaps the gods weren't literary devices or cultural tropes but rather literal beliefs about what was happening. Jaynes surveys the literature of ancient texts to make his argument.
+Jaynes' controversial bicameral mind hypothesis remains one of the most fascinating theories about the evolution of consciousness. It caused critics to reconsider their interpretations of the frequent appearances of gods and muses in texts like the *Iliad.* Many started to think that perhaps the gods weren't literary devices or cultural tropes but rather literal beliefs about what was happening. 
 
-**Tip:** To learn more details about the bicameral mind hypothesis, check out [Bicameralism, Part 1: The Voice of God](https://podcasts.apple.com/in/podcast/bicameralism-part-1-the-voice-of-god/id350359306?i=1000392736090) and [Part 2](https://podcasts.apple.com/us/podcast/from-the-vault-bicameralism-part-2/id350359306?i=1000434833877) from the *Stuff to Blow Your Mind* podcast. Or read Jaynes' [original book](https://www.amazon.com/Origin-Consciousness-Breakdown-Bicameral-Mind/dp/0618057072/ref=asc_df_0618057072/).
+**Tip:** To learn more details about Jaynes' hypothesis, see [Bicameralism, Part 1: The Voice of God](https://podcasts.apple.com/in/podcast/bicameralism-part-1-the-voice-of-god/id350359306?i=1000392736090) and [Part 2](https://podcasts.apple.com/us/podcast/from-the-vault-bicameralism-part-2/id350359306?i=1000434833877) from the *Stuff to Blow Your Mind* podcast. Or read Jaynes' [original book](https://www.amazon.com/Origin-Consciousness-Breakdown-Bicameral-Mind/dp/0618057072/ref=asc_df_0618057072/).
 
 ## Metaphoric language and consciousness
 
-Despite the intrigue of Jaynes' bicameral mind hypothesis, there isn't compelling evidence for it, so it remains a hypothesis (science focuses on what's disprovable). But even putting aside his larger theory, there are aspects to Jaynes' ideas that are interesting, such as the idea that language's use of metaphor gives rise to conscious thought.
+Despite the intrigue of Jaynes' bicameral mind hypothesis, there isn't compelling evidence for it, so it remains a hypothesis. But even putting aside his larger theory, there are aspects to Jaynes' ideas that are interesting, such as the idea that language's use of metaphor gives rise to conscious thought.
 
 Jaynes dissects metaphors into *metaphiers* (the familiar object) and *metaphrands* (the unfamiliar), arguing that the "most fascinating property of language is its capacity to make metaphors." He defines metaphor in the common way: "the use of a term for one thing to describe another because of some kind of similarity between them or between their relations to other things" (48). But even phrases not typically flagged as metaphors are in fact metaphors. For example, if you say, "a recession is coming," it assumes that the recession is an object, that it has a means of movement (legs?) and that it is heading in your direction (*Watch out, the recession is coming to get you!*). 
 
@@ -142,7 +140,7 @@ Amazingly, I remember the specific moment when I first became aware of my thinki
 
 In this case, my consciousness was prompted through juxtaposition with another human who acted differently from me. The difference prompted questions in my mind. My experience reinforces Csikszentmihalyi's argument that when we "... see the world different from one another, [recognizing that] [t]here is no one right way to behave, and each role requires different skills," it moves us toward consciousness.
 
-I asked my wife if she could remember her first awareness of consciousness. She says when she was a young girl growing up in the Mormon church, someone explained to her the doctrine of polygamy, and she felt repulsed by it. She reacted so strongly that she decided that internally, in her mind, she could believe whatever she wanted and wouldn't have to follow or agree with polygamy. She realized her mind was a private sphere that was hers alone. No one else could enter the castle of her mind. It was her house, her space, and she could believe whatever she wanted. The outside world had no ability to enter. It was the first time she became aware of her private sphere of thought.
+I asked my wife if she could remember her first awareness of consciousness. She says when she was a young girl growing up in the Mormon church, someone explained to her the doctrine of polygamy, and she felt repulsed by it. She reacted so strongly that she decided that internally, in her mind, she could believe whatever she wanted and wouldn't have to follow or agree with polygamy. She realized her mind was a private sphere that was hers alone. No one else could enter the castle of her mind. It was her house, her space, and she could believe whatever she wanted. It was the first time she became aware of her private sphere of thought.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shannon-castles-in-her-mind.jpg" alt="You own the castles of your mind. " /><figcaption>When my wife rejected what her church leaders taught, she reveled in the private castle of her mind. She realized it was a space no one else could enter, and she was free to believe whatever she wanted in there.</figcaption></figure>
 
@@ -150,11 +148,9 @@ The moment I started introspecting while eating a sandwich with my silent childh
 
 ## Paradoxes of consciousness
 
-As humans, we usually celebrate our rational faculties. I love to trace and explore ideas in my head. In *Nichomachean Ethics*, Aristotle says the contemplative life leads to the most pleasure:
+As humans, we usually celebrate our rational faculties. I love to trace and explore ideas in my head. In *Nichomachean Ethics*, Aristotle says the contemplative life leads to the most pleasure: "For contemplation is at once the highest form of activity, since the intellect is the highest thing in us ...." Our conscious intelligence is the highest form of human nature, so maximizing our highest nature leads to the highest form of living. 
 
-> And that happiness consists in contemplation may be accepted as agreeing both with the results already reached and with the truth. For contemplation is at once the highest form of activity, since the intellect is the highest thing in us, and the objects with which the intellect deals are the highest things that can be known; and also it is the most continuous, for we can reflect more continuously than we can carry on any other form of action. 
-
-Our conscious intelligence is the highest form of human nature, so maximizing our highest nature leads to the highest form of living. In fact, Csikszentmihalyi even says philosophy can lead to a form of flow:
+In fact, Csikszentmihalyi even says philosophy can lead to a form of flow:
 
 > ... playing with ideas is extremely exhilarating. Not only philosophy but the emergence of new scientific ideas is fueled by the enjoyment one obtains from creating a new way to describe reality. The tools that make the flow of thought possible are common property, and consist of the knowledge recorded in books available in schools and libraries. A person who becomes familiar with the conventions of poetry, or the rules of calculus, can subsequently grow independent of external stimulation. She can generate ordered trains of thought regardless of what is happening in external reality. When a person has learned a symbolic system well enough to use it, she has established a portable, self-contained world within the mind (127)
 
@@ -162,15 +158,13 @@ In other words, the seemingly absent-minded philosopher who is really lost in de
 
 The entropic mindset Csikszentmihalyi warns against isn't the philosopher focusing on arguments about abstract ideas, but rather the idle person whose mind isn't focused on anything at all (monkey mind, not curious mind). It's "when we are left alone, with no demands on attention, the basic disorder of the mind reveals itself. With nothing to do, it begins to follow random patterns." (119). 
 
-The philosopher's deep introspection and rigorous examination of ideas, which one might consider the pinnacle of conscious thought, isn't the same dark consciousness that Csikszentmihalyi says is entropic and unordered. Philosophers get fully immersed and direct their focus on specific subjects, arguments, and other matters of logic and evidence. They immerse so deeply they become absent-minded, staring off into space in catatonic states. Think of this state as the bright side of consciousness, the one that fills you with understanding of the world and human behavior. How then do we go astray with this penetrating consciousness and descend into darkness? Is it merely by not having something to focus on? As if by taking your foot off the accelerator in a car, the engine just starts falling apart.
+The philosopher's deep introspection and rigorous examination of ideas, which one might consider the pinnacle of conscious thought, isn't the same dark consciousness that Csikszentmihalyi says is entropic and unordered. Philosophers get fully immersed and direct their focus on specific subjects, arguments, and other matters of logic and evidence. They immerse so deeply they become absent-minded, staring off into space in catatonic states. Think of this state as the bright side of consciousness, the one that fills you with understanding of the world and human behavior. How then do we go astray with this consciousness and descend into darkness? Is it merely by not having something to focus on? As if by taking your foot off the accelerator in a car, the engine just starts falling apart.
 
 ## When consciousness trends toward the dark side
 
-Here's an idea about why we trend toward the dark side. The same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into more intense monkey mind. 
+Here's one idea about why we might trend toward the dark side, especially in contemporary times. Maybe the same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into more intense monkey mind. 
 
-Thena gain, who really knows.
-
-Obviously monkey mind has been around for a long time, but I can't help but wonder if some technologies have the potential to exacerbate it. Specifically, the internet has the capacity to expose the human mind to a firehose of complexity and chaos. What is the relationship between surfing the internet, specifically doom-scrolling to boredom browsing, and monkey mind?
+Obviously, monkey mind has been around for a long time, but I can't help but wonder if some technologies have the potential to exacerbate it. Specifically, the internet has the capacity to expose the human mind to a firehose of complexity and chaos. What is the relationship between surfing the internet, specifically doom-scrolling to boredom browsing, and monkey mind?
 
 In *What Technology Wants*, Kevin Kelly describes his love for the internet in what is perhaps the most eloquent[ly disturbing] passage I've read. He marvels at how the internet compresses randomness into one continuous experience of chaos and beauty:
 
@@ -180,39 +174,37 @@ In *What Technology Wants*, Kevin Kelly describes his love for the internet in w
 
 Since the publication of *What Technology Wants* (2010), more insights about the harmful effects of the internet's content algorithms have emerged. Algorithms optimize for what gets clicked the most &mdash; usually thought-provoking or sensational content. Thus, the firehose of the internet isn't just randomness, but extreme chaos and complexity that challenges your ideas (by presenting alternative perspectives). The firehose of content shocks you into new levels of awareness, often forcing you to make sense of opposing lifestyles and viewpoints. It's content that, as Csikszentmihalyi would say, prompts you to "see the world different from one another. There is no one right way to behave, and each role requires different skills."
 
-On the internet, you see "specialized roles that often require conflicting thoughts and actions from the same person." You realize that we "see the world different from one another," that there is "no one right way to behave," that there are "increasingly contradictory goals" and "incompatible opportunities for action." In short, the internet offers you a "cacophony of disparate values, beliefs, choices, and behaviors" -- streamed right into your brain for many hours a day.
+On the internet, you see "specialized roles that often require conflicting thoughts and actions from the same person." You realize that we "see the world different from one another," that there is "no one right way to behave," that there are "increasingly contradictory goals" and "incompatible opportunities for action." In short, the internet offers you a "cacophony of disparate values, beliefs, choices, and behaviors" &mdash; streamed right into your brain for many hours a day.
 
 Does the internet become a catalyst for pushing us from the bright side of conscious thought to the dark side? These same forces that brought us into consciousness begin to turn the dial too high?
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/randomness-of-internet-good-pov.jpg" alt="The internet is the ultimate mishmash of randomness into the same experience." /><figcaption>The internet brings everything together into one experience. It presents the mind with far more chaos and complexity than anything before it.</figcaption></figure>
 
-Whereas 50 years ago, the urban city or college campus might have been the space to juxtapose contradictions and different perspectives, now it's the internet. But the internet takes this juxtaposition to new levels of intensity. On the internet, you move from scene to scene as different as night and day, moving across cultural and geographic boundaries without even noticing, being exposed to ideas of every kind, often contradictory, challenging, or upsetting. Maybe this cacophony pushes our conscious brain a bit into overdrive, such that our mental patterns trend toward entropy rather than order. We get too much awareness, too many associations, too many connections.
+On the internet, you move from scene to scene as different as night and day, moving across cultural and geographic boundaries without even noticing, being exposed to ideas of every kind, often contradictory, challenging, or upsetting. Maybe this cacophony pushes our conscious brain a bit into overdrive, such that our mental patterns trend toward entropy rather than order. We get too much awareness, too many associations, too many connections.
 
 Kelly's depiction of his internet experience is one of "beauty" for technology. He enjoys the way so many diverse experiences are juxtaposed into one. But others don't see it that way. Here is one Amazon reviewer's description of the internet, riffing off a theme in Nicholas Carr's *The Shallows*: 
 
 > The brain, confronted with a glowing screen and the ability to hypertext its way from one interruption to another across the universe of knowledge from what its buddy in Australia thinks of rutabagas, to the spelling of rutabagas to the history of rutabagas to dishes that can be prepared from rutabagas leaves the brain sliding from one fact of surface interest to another fact even less useful, until it occurs to the brain to pursue the prompt on the pop-up menu and check the weather and get off of this slide onto the weather channel where a five minute video on playful seals on San Francisco Bay can be watched for free which does remind the brain that it could slide over to Facebook and find out if anyone “liked” the picture of the family cat posted an hour ago. And many do. Twenty-three “likes,” praise the Lord. ("[Why there are so few worth talking to](https://www.amazon.com/gp/customer-reviews/R1QXXAAK1TJVB5/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=0393357821)" by John W. Cowan)
 
-In other words, the pattern on the internet moves from topic to topic by often thin association, fragmenting any kind of linear, sequential thought into a a kind of endlessly random teleportation into different worlds every minute. 
+In other words, the pattern on the internet promotes unstructured thought. You move from topic to topic by seemingly tenuous association, such that after 30 minutes of browsing, it would be impossible to trace back the logic. This pattern fragments any linear, sequential thought into an endlessly random teleportation into different worlds every minute. 
 
-## Internalizing a 19-second pattern
-
-Putting aside the content, the mere pattern of web-surfacing behavior is one that might trigger similar web surfing of the mind. On the internet, one gets pulled across 100 different sites without fully understanding exactly how. A 2014 study found that when people use laptops, "switches occurred as frequently as every 19 seconds, with 75% of all on-screen content being viewed for less than one minute" ([The "online brain": how the Internet may be changing our cognition](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20617), 6). Throw in smartphone behavior on top of this, with its attention-fragmenting notifications, and you get a "multi-faceted stream of incoming information encouraging us to engage in attentional-switching and 'multi-tasking', rather than sustained focus" (18) for most of the day.
-
-If we constantly switch online throughout the day (every 19 seconds), is it surprising that our brain might switch topics every 19 seconds as well? 
-
-Bo Burnham's [Welcome to the Internet](https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham) does a perfect job at portraying the frenetic content mishmash of the internet. It starts slow but then pulls you more deeply into its web.
+Bo Burnham's [Welcome to the Internet](https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham) does a perfect job at portraying the frenetic content mishmash of the internet.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k1BneeJTDcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Perhaps the more we immerse ourselves in web-surfing patterns, the more our consciousness moves toward monkey mind / entropy. Our brains are neuroplastic and adaptable. If language can alter consciousness, why not other forces as well? 
+## Internalizing a 19-second pattern
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/random-internet-patterns-hell.jpg" alt="Randomness becomes mental chaos we desire to escape from" /><figcaption>The chaos and complexity of the internet might start out as novel, but before long it induces a frenetic mental state of anxiety and maybe hyper-awareness that intensifies monkey mind.</figcaption></figure>
+Putting aside the internet's cacophonous content, the mere pattern of web-surfing behavior is one that might trigger similar web surfing of the mind. On the internet, one gets pulled across 100 different sites without fully understanding exactly how. A 2014 study found that when people use laptops, "switches occurred as frequently as every 19 seconds, with 75% of all on-screen content being viewed for less than one minute" ([The "online brain": how the Internet may be changing our cognition](https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20617), 6). Throw in smartphone behavior on top of this, with its attention-fragmenting notifications, and you get continuous context-switching for most of the day.
+
+If we constantly switch online throughout the day (every 19 seconds), is it surprising that our brain might switch topics every 19 seconds as well? If we teach our brain a pattern, it can learn to follow it.
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/random-internet-patterns-hell.jpg" alt="Randomness becomes mental chaos we desire to escape from" /><figcaption>The constant context-switching behavior of the internet might cause us to internalize the same context-switching in our mind, moving from topic to topic by tenuous association rather than directed thought.</figcaption></figure>
 
 ## What I've been noticing
 
-This past month, I've started to notice an interesting phenomenon. When I try to sleep at night, if I've read a book that day (say, 50 pages of something), my mind seems to follow a more linear, sequential pattern, similar to the calm order in which my eyes move left to right across a page, following a larger narrative or argument that an author is making. The act of reading imbues my mind with more order even in a natural state, when I'm "left alone, with no demands on attention."
+This past month, I've started to notice an interesting phenomenon. When I try to sleep at night, if I've read a book that day (say, 50 pages of something), my mind seems to follow a more linear, sequential pattern, similar to the calm order in which my eyes move left to right across a page, following a larger narrative or argument that an author is making. The act of reading imbues my mind with more order even in a natural, unfocused.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reading-and-brain-thought-pattern-alignment.jpg" alt="Reading reduces entropy" /><figcaption>Reading seems to induce harmonic patterns in my brain waves, or something. To experiment, read a book for an hour and note your mental state. Then watch TikTok, Shorts, or Reels for an hour and compare.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reading-and-brain-thought-pattern-alignment.jpg" alt="Reading reduces entropy" /><figcaption>Reading seems to induce harmonic patterns in my brain waves, or something. To experiment, read a book for an hour and note your mental state. Then watch TikTok and compare.</figcaption></figure>
 
 One researcher explains that the story structure of books can instill a more sequential order in our brains:
 
@@ -228,7 +220,7 @@ At night I would bring up Youtube.com for entertainment (because it wasn't Reddi
 
 But when I closed my eyes and tried to go to sleep, thoughts raced in my head. My mind jumped and flittered about from topic to topic. The only way to sleep was to stay up (watching more videos or movies) until I was so tired that exhaustion itself put me out.
 
-The effects aren't always night and day like this, but it's noticeable. These experiences led me toward the ideas I'm promoting here. Maybe what leads to [TikTok brain](https://www.thetealmango.com/technology/what-is-tiktok-brain/), as it's called, where our mental circuits become short-wired and our consciousness drifts toward the anxiety-prone dark side of consciousness, is both the content on the internet as well as the form of the internet itself. Running through post after post of different topics might teach the brain a certain unordered, chaotic pattern that it then imitates. Contrast this with the more linear, focused pattern of reading from a book.
+The effects aren't always night and day like this, but it's noticeable. These experiences led me toward the ideas I'm promoting here. 
 
 ## Two notes -- lack of expertise, neurodivergence
 
@@ -236,19 +228,8 @@ I'd like to make a couple of notes. First, I've wandered way outside my area of 
 
 Secondly, I want to acknowledge that neurodivergent thinkers might not benefit from this post or even this series. I have three family members with ADHD, and I actually spent two afternoons writing this post with some of them trying to do homework at the table. I watched as their amplified attention pulled them into different streams and topics. It's also difficult to sequence tasks into more linear, long-term periods of focus. It's not merely a matter of retraining the brain to counter the inattention learned from social apps; it's much different. So if you're neurodivergent, the experiences I described in this post might not actually apply. 
 
-## Conclusion 
-
-This post has been long and full of abstract ideas. I've tried to bring my own experiences to the table here, as I'm writing to make sense of my own life and habits. The juxtaposition of personal experience with the realm of ideas has always been what excites me about non-fiction. I'd like to conclude with a quotation from Csikszentmihalyi:
-
-> To write down one's insights expecting that someday they will be read with awe by posterity would be in most cases an act of hubris, that "overweening presumption" that has caused so much mischief in human affairs. But if one records ideas in response to an inner challenge to express clearly the major questions by which one feels confronted, and tries to sketch out answers that will help make sense of one's experiences, then the amateur philosopher will have learned to derive enjoyment from one of the most difficult and rewarding tasks of life. (139)
-
-I'm recording ideas here in response to an inner challenge, wrestling with the major questions I feel confronted by, sketching out answers that correspond to my lived experiences. I don't profess expertise from rigorous academic study or inquiry. But I can't help but feel that somewhere in this post, I've hit upon an idea or two that might be useful.
 
 ## References
-
-Aristotle, *The Nicomachean Ethics.* Trans. Harris Rackham. United Kingdom, W. Heinemann, 1926.
-
-Burnham, Bo. "[Welcome to the Internet](https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham)" Movie: *Inside*. Released 2021.
 
 Csikszentmihalyi, Mihaly. *[Flow: The Psychology of Optimal Experience.](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
 
