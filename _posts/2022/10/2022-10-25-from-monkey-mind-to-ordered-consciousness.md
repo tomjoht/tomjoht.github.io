@@ -164,7 +164,7 @@ The philosopher's deep introspection and rigorous examination of ideas, which on
 
 Here's one idea about why we might trend toward the dark side, especially in contemporary times. Maybe the same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into more intense monkey mind. 
 
-Obviously, monkey mind has been around for a long time, but I can't help but wonder if some technologies have the potential to exacerbate it. Specifically, the internet has the capacity to expose the human mind to a firehose of complexity and chaos. What is the relationship between surfing the internet, specifically doom-scrolling to boredom browsing, and monkey mind?
+Obviously, monkey mind has been around for a long time, but I can't help but wonder if some technologies have the potential to exacerbate it. Specifically, the internet has the capacity to expose the human mind to a firehose of complexity and chaos. What is the relationship between surfing the internet, specifically doom-scrolling and boredom browsing, and monkey mind?
 
 In *What Technology Wants*, Kevin Kelly describes his love for the internet in what is perhaps the most eloquent[ly disturbing] passage I've read. He marvels at how the internet compresses randomness into one continuous experience of chaos and beauty:
 
@@ -230,6 +230,8 @@ Secondly, I want to acknowledge that neurodivergent thinkers might not benefit f
 
 
 ## References
+
+Aristotle, **The Nicomachean Ethics**. Trans. Harris Rackham. United Kingdom, W. Heinemann, 1926.
 
 Csikszentmihalyi, Mihaly. *[Flow: The Psychology of Optimal Experience.](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
 
