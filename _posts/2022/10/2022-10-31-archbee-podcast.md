@@ -29,7 +29,7 @@ You can explore Archbee with a trial version. Check it out at [Archbee.com](http
 
 ## The beginnings of Archbee
 
-With the [launch of Archbee 3.0](https://www.producthunt.com/products/archbee#archbee-3-0), found Dragos Bulugean tells the story of the beginnings of Archbee:
+With the [launch of Archbee 3.0](https://www.producthunt.com/products/archbee#archbee-3-0), founder Dragos Bulugean tells the story of the beginnings of Archbee:
 
 > * Archbee v0: 2018, stuck in a hotel room in Frankfurt... it was raining and I decided to code a software diagramming tool for architects. Scrapped the product after a few months of getting no traction.
 > 
@@ -39,7 +39,7 @@ With the [launch of Archbee 3.0](https://www.producthunt.com/products/archbee#ar
 > 
 > Talking to customers, we realized there are still no great tools for building public product & developer docs for folks who don't want the DIY approach. Basically, no way of onboarding and activating your tech audiences without spending a ton of energy on docs tech.
 
-For more, see the [Product Hunt page](https://www.producthunt.com/products/archbee).
+For more, see the [Archbee's most notable features over the past 12 months](https://www.archbee.com/blog/archbee-feature-roundup).
 
 {% include ads.html %}
 
