@@ -1,5 +1,5 @@
 ---
-title: "Podcast about Archbee -- a new documentation tool with a world-class editor, API publishing capability, content re-use, and more"
+title: "Podcast about Archbee -- a new documentation tool with a block-based editor, API publishing capability, content re-use, and more"
 permalink: /blog/archbee-podcast-oct-2022/
 categories:
 - technical-writing
@@ -10,7 +10,7 @@ podcast_file_size: 22.5 MB
 podcast_duration: "29:09"
 podcast_length: 21903818
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/archbee_podcast_2022.mp3
-description: "<a href='https://www.archbee.com/'>Archbee</a> is a relatively new documentation tool that offers a world-class editor, API publishing capability, content re-use, and more. The initial version of Archbee was released in early 2019. Since then, the product has been steadily ramping up in features and growing its customer base. In this podcast, I chat with Claudiu Dascalescu about Archbee, the features driving its adoption, their target audience, and more."
+description: "<a href='https://www.archbee.com/'>Archbee</a> is a relatively new documentation tool that offers a block-based editor, API publishing capability, content re-use, and more. The initial version of Archbee was released in early 2019. Since then, the product has been steadily ramping up in features and growing its customer base. In this podcast, I chat with Claudiu Dascalescu about Archbee, the features driving its adoption, their target audience, and more."
 ---
 
 _Note that this is a sponsored podcast._
