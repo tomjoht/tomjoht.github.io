@@ -37,13 +37,8 @@ You can select from several different spaces or services below. The availability
     <tr>
         <td markdown="span">[Inline ads](#inlineads)</td>
         <td markdown="span">Inline graphic and article link</td>
-        <td markdown="span">$1,800/year</td>
+        <td markdown="span">$900/year</td>
     </tr>
-    <tr>
-    <td markdown="span">[Sidebar ads](#sidebar_ads)</td>
-    <td markdown="span">Sidebar graphic and article link</td>
-    <td markdown="span">$1,000/year</td>
-</tr>
     <tr>
         <td markdown="span">[Product reviews](#product_review_posts)</td>
         <td markdown="span">800-1,000 words</td>
@@ -52,17 +47,17 @@ You can select from several different spaces or services below. The availability
     <tr>
         <td markdown="span">[Inline text snippets](#inline_text_snippets)</td>
         <td markdown="span">2-4 sentences</td>
-        <td markdown="span">$2,000/year</td>
+        <td markdown="span">$1200/year</td>
     </tr>
     <tr>
     <td markdown="span">[Newsletter banners](#newsletter)</td>
     <td markdown="span">400 x 60px or 1 paragraph</td>
-    <td markdown="span">$1,200/year</td>
+    <td markdown="span">$900/year</td>
 </tr>
 <tr>
 <td markdown="span">[Footer banners](#footer_banner)</td>
 <td markdown="span">728x90 px banner at bottom of post</td>
-<td markdown="span">$1,500/year</td>
+<td markdown="span">$1,200/year</td>
 </tr>
     </tbody>
 </table>
@@ -83,7 +78,7 @@ The ads are prefaced with a subheading that says "Sponsored ads" and the ad link
 
 The graphics are accompanied by a post that invites users to click the link. The post title should be both relevant and enticing for a tech comm audience. To track links, I shorten any URLs you provide to me with Rebrandly. This allows me to track link clicks as well.
 
-The cost for an inline ad is $1,800 per year.
+The cost for an inline ad is $900 per year.
 
 ### Product review posts {#product_review_posts}
 
@@ -138,7 +133,7 @@ Product review posts have good results with search results. If you search google
 
 If desired, I can also infuse the posts with SEO techniques when I write them. However, note that per Google's [Link Schemes policy](https://support.google.com/webmasters/answer/66356?hl=en), I'm required to add `rel=nofollow` to any links that appear to company and product sites when I'm being paid to write the post. This attribute reduces the Pagerank that flows from my site through the link, but it also avoids potential penalties or other spam-point assignments in the search algorithm.
 
-The cost for a product review is $1,00 per post.
+The cost for a product review is $1,000 per post.
 
 ### Inline text snippets {#inline_text_snippets}
 
@@ -154,7 +149,7 @@ The text snippets give you more flexibility to get your messaging across. You're
 
 The text snippets are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content heavy pages. A maximum of 3 inline snippets (from different advertisers) can appear on each page. Links are `rel=nofollow`.
 
-The cost for inline text snippets to appear on the API doc site is $2,000 per year.
+The cost for inline text snippets to appear on the API doc site is $1,200 per year.
 
 ### Newsletter {#newsletter}
 
@@ -164,30 +159,17 @@ I send out about 3 newsletters a month to all my email subscribers (6,300 + read
 
 The image format can be any standard image format (usually JPG or PNG), but not animated. Instead of a graphic, you can also replace this with a text snippet to promote a product or service. For example, you might have a release or other announcement that you want to make clear. In this case, the text would be several sentence in length and point to a URL.
 
-The cost for advertising in the newsletter space is $1,200 per year.
-
-### Sidebar ads {#sidebarad}
-
-Sidebar ads include a 250px x 150px graphic with an article link below the graphic. They appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
-
-Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. GIFs or other animations aren't allowed. You can switch the ad at any time by sending me a new graphic. As with other ads, the ad links have `ref="nofollow"`.
-
-<figure>
-<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
-
-The sidebar ads appear after any sidebar navigation links. For example, for the [API doc course](/learnapidoc/), the sidebar ads appear after the page navigation in the left. On the blog, if there's a series, such as this [series on trends](/trends/trends-to-follow-or-forget-intro.html), the sidebar ads appear below the page navigation.
-
-The cost for sidebar ads is $1,000 per year.
+The cost for advertising in the newsletter space is $900 per year.
 
 ### Footer banner {#footer_banner}
 
-The Footer Banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display grahpics.
+The Footer Banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
 
 Footers banners can be JPG, PNG, or SVG. Animated GIF is not allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There's a limit of 4 horizontal inline post ads that can appear below the post.
 
-The cost for a footer banner is $1,500 per year.
+The cost for a footer banner is $1,200 per year.
 
 ## Taking the next step
 
