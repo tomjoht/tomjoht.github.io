@@ -153,7 +153,11 @@ The cost for inline text snippets to appear on the API doc site is $1,200 per ye
 
 ### Newsletter {#newsletter}
 
-I send out about 3 newsletters a month to all my email subscribers (6,300 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter). Each blog post in the newsletter typically gets around 250 clicks, and the advertising graphic usually receives approximately 30 clicks or more. The size of the newsletter graphic is 600 x 70px graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+I send out regular newsletters (approximately twice a month) to all my email subscribers (6,500 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter), with the ad appearing at the bottom. Each blog post in the newsletter typically gets around 250 clicks, and the advertising graphic usually receives approximately 30 clicks or more. 
+
+Your graphic can appear here once per month. If multiple advertisers promote in this space, the graphics will rotate between advertisers (for example, one week, advertiser A, the following week, advertiser B). I count the number of instances that your ad appears in newsletters sent. For one year, your ad can appear a maximum of 12 times.
+
+The size of the newsletter graphic is 540px (wide) x 65px (high) graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletteradexample2.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
 

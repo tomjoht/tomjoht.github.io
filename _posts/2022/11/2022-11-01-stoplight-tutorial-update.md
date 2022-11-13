@@ -9,3 +9,5 @@ description: "One of the most popular tutorials in my API doc course is this <a 
 ---
 
 By the way, this Stoplight tutorial is one of the most popular pages in my API doc course. Since I wrote it in January 2020, it's had about 30,000 views. Check the tutorial out here: <a href='/learnapidoc/pubapis_openapis_quickstart_stoplight.html'>Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document</a>
+
+{% include ads.html %}
