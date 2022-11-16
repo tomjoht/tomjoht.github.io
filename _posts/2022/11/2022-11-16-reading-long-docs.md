@@ -49,8 +49,9 @@ What’s the exchange for reading _high-level overview content_? The writer offe
 
 Watching my youngest daughter struggle to finish her homework, I became more and more interested in understanding ADHD. She struggles to retain focus on the homework assignments, and her racecar attention pulls her brain in so many different directions at once. The other week she sent me a video she sent me showing how her focus gets pulled away. In the video, she’s working on a small homework assignment, and it looks as though she’s working, but she’s really jumping from Spotify to snacks to who knows what. It takes her 30 minutes to finish something that should take 5 minutes. 
 
+<!-->
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/notdoinghomework2.png" alt="Not doing homework" />
-
+-->
 This has made me worried as a parent. The homework is simple now, but as it gets harder and harder, what then? Many of the traits of ADHD manifest as the context changes; specifically, as the classes and homework intensify, the traits become more apparent.
 
 I started listening to podcast after podcast on ADHD, reading articles and books about the topic (for example, _What your ADHD child wishes you knew_ and _ADHD 2.0)_, listening to talks and presentations (quite a few on TEDx, actually), and more. Learning about ADHD brought so much clarity to my relationship with my wife for the past 20 years. Such as why she was always multitasking, or asking me to do 5 things at once, or why I struggled to connect the dots between conversation topics, or why she could get angry so quickly, or on the flip side, why she had so much passion and charisma, or why I loved her quick outspoken attitude, and so on. 
