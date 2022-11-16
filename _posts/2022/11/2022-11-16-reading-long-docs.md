@@ -49,7 +49,7 @@ What’s the exchange for reading _high-level overview content_? The writer offe
 
 Watching my youngest daughter struggle to finish her homework, I became more and more interested in understanding ADHD. She struggles to retain focus on the homework assignments, and her racecar attention pulls her brain in so many different directions at once. The other week she sent me a video she sent me showing how her focus gets pulled away. In the video, she’s working on a small homework assignment, and it looks as though she’s working, but she’s really jumping from Spotify to snacks to who knows what. It takes her 30 minutes to finish something that should take 5 minutes. 
 
-<!-->
+<!--
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/notdoinghomework2.png" alt="Not doing homework" />
 -->
 This has made me worried as a parent. The homework is simple now, but as it gets harder and harder, what then? Many of the traits of ADHD manifest as the context changes; specifically, as the classes and homework intensify, the traits become more apparent.
@@ -76,13 +76,13 @@ So what is a tech writer to do? Here are a few options that I’ve brainstormed:
 
 Regarding this last approach, here’s an example used in my daughter’s science class to teach kids about rock cycles. This is from the [Rock Gizmo on Clever](https://gz.explorelearning.com/index.cfm?method=cResource.dspDetail&ResourceID=436):
 
-<a href="https://gz.explorelearning.com/index.cfm?method=cResource.dspDetail&ResourceID=436"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/rockgizmoscreenshot.png" alt="Rock Gizmo" />/a>
+<a href="https://gz.explorelearning.com/index.cfm?method=cResource.dspDetail&ResourceID=436"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/rockgizmoscreenshot.png" alt="Rock Gizmo" /></a>
 
 You click around to reveal different bits of information. Well, the graphic isn’t as interactive as I would have liked &mdash; only the buttons in the right sidebar are clickable. But imagine if each aspect of the graphic were fully clickable, and when clicked, information appeared on the right of the graphic or the graphic itself would change. That might allow for user-driven, non-linear learning paths through content. Designing this might be more work initially, especially if you didn’t have this model in mind from the start. But it might also be more in tune with the type of content one would read.
 
 I can only see this working for some infrequent scenarios. A rock cycle or other workflow might be perfect. And as far as tools for this, I don’t know. 
 
-Even with all this interactivity, I watched as my daughter used this diagram to find answers to her homework questions. The interactivity of the buttons didn’t draw her in. Instead, she just clicked around (between playing with the cat, changing music on Spotify, and eating snacks) until she located the answers to her questions. Sometimes she seemed to click randomly. A button on a site compels one to click it, in an automated way.
+Even with all this interactivity, I watched as my daughter used this diagram to find answers to her homework questions. The interactivity of the buttons didn’t draw her in. Instead, she just clicked around (between playing with the cat, changing music on Spotify, and eating snacks) until she located the answers to her questions. Sometimes she seemed to click randomly. A button on a site compels one to click it almost in an automated way.
 
 Of all the techniques, the writer in me leans toward story as the best mechanism. I’ve always loved story &mdash; it’s why I majored in English as an undergraduate. 
 
