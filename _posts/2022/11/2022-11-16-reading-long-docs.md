@@ -22,6 +22,8 @@ Around this same time, I finished a long narrative describing the workflow of di
 
 Meanwhile, I had another “long distance” document in progress (describing another workflow as well as other big picture ideas). It was sort of stuck in limbo, waiting for reviewers to _get to it_. I started to experience a reality check about document length. Did it matter how compelling the content was? Unless people absolutely had to read technical documentation, they didn’t seem to naturally pick it up. No one has free time on their hands and thinks, _What shall I read this morning?_ Like a treatise on the tax code, we don’t pick it up out of curiosity. Only a small handful of curious financial accountants might.
 
+{% include ads.html %}
+
 The paradox is that everyone usually gives effusive support for the big picture overview. They see the value of content that connects the dots across services and products. They emphasize and reinforce how much we need this content. _Finally! Thank you for doing this!!_ They underscore the need for this high-level information with exclamation marks. But after you write it …. crickets. 
 
 In a nutshell, here’s the problem:
