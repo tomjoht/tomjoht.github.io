@@ -4,7 +4,7 @@ permalink: /trends/macbeth-and-musk-and-the-high-level-overview.html
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/three-examples-of-overview
+rebrandly: https://idbwrtng.com/macbeth-and-musk
 series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
 description: "In my previous post, <a href='/trends/reading-long-documents.html'>Pulling readers through long documents</a>, I explained that almost no one will read long documents, in my experience. It seems only task-based information demands enough payoff to make reading worth it to users. In this post, I'll explore a couple of examples where high-level information is essential and used, but in another light. The two examples are Macbeth and Elon Musk."
@@ -36,7 +36,7 @@ After this video, we watched [5 longer explanatory videos from Psycho English Te
 
 We followed this with similar videos from the same for Act 2, 3, 4, and 5. This took 45 minutes in all, but both my daughter and I watched with full attention. All the pieces of *Macbeth* were assembling in place, and by the end of the videos, my daughter felt a thousand percent more confident about the assignment. Psycho English Teacher has a knack for stripping down complex texts and plots into easy-to-understand language and actions. (She would have made an excellent technical writer.)
 
-After this night, I never saw my daughter stressed out over the *Macbeth* assignment. They eventually made her way into the primary text, pulled out various quotations, and completed most of the reading log. Sadly, I don't think they ended up reading the entire text, but enough to complete the assignment and get a perfect score (50/50 while the class average was 31/50). When they did read the primary text, they had enough grounding from the high-level YouTube overviews that they could make sense of the text, in spite of the Shakespearean language.
+After this night, I never saw my daughter stressed out over the *Macbeth* assignment. They eventually made their way into the primary text, pulled out various quotations, and completed most of the reading log. Sadly, I don't think they ended up reading the entire text, but enough to complete the assignment and get a perfect score (50/50 while the class average was 31/50). When they did read the primary text, they had enough grounding from the high-level YouTube overviews that they could make sense of the text, in spite of the Shakespearean language.
 
 This experience confirmed the importance of the high-level overview, but it also illuminated exactly when this overview is needed: in times of complexity and length. In this case, the high-level overview provided a *shortcut for the reader*. Instead of having to slog through 200 pages of Shakespearean English and confusing plot lines, the high-level overview distilled the essential information in consumable, more efficient ways. 
 
