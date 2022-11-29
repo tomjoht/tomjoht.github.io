@@ -12,9 +12,9 @@ description: "In my previous post, <a href='/trends/reading-long-documents.html'
 
 ## Macbeth {#macbeth}
 
-Last month my daughter Callie, a senior in high school, came home stressed out about an enormous reading assignment for *Macbeth*. The reading assignment included dozens of questions about the author, context, plot, key quotations, interpretation, and more. Yet as Callie tried to read *Macbeth*, the text seemed incomprehensible.
+Last month my second-oldest child Callie, a senior in high school, came home stressed out about an enormous reading assignment for *Macbeth*. The reading assignment included dozens of questions about the author, context, plot, key quotations, interpretation, and more. Yet as Callie tried to read *Macbeth*, the text seemed incomprehensible.
 
-I remember reading *Macbeth* in high school and memorizing the "double, double toil and trouble" passage, but I couldn't recall the plot at all. And as I looked at the *Macbeth* text my daughter had, with its many footnotes and explanations inserted on each page, I could see that reading it from start to finish, as one would normally approach a novel, wouldn't work well. If you have to read a footnote for practically every line in the text, how can you ever make much progress?
+I remember reading *Macbeth* in high school and memorizing the "double, double toil and trouble" passage, but I couldn't recall the plot at all. And as I looked at the *Macbeth* text that Callie had, with its many footnotes and explanations inserted on each page, I could see that reading it from start to finish, as one would normally approach a novel, wouldn't work well. If you have to read a footnote for practically every line in the text, how can you ever make much progress?
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/student-reading-macbeth.jpg" alt="Reading Macbeth" /><figcaption>The Shakespeare text appears on the right, while explanatory notes appear on the left. Practically every line in the text has a corresponding note that explains some language or aspect of the text the student is reading. This granularity makes it extremely tedious to identify larger themes, characters, and story lines.</figcaption></figure>
 
@@ -24,19 +24,19 @@ Here's a close-up pic in case you want to try reading a page:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/macbeth-close-up-pic.jpg" alt="Macbeth close-up" /><figcaption>Look at the footnote lines on the left to see which primary text lines have explanatory notes. For example, for line 34, you'll see that "Norweyan lord" means the "King of Norway." Shakespearean English isn't too different from reading computer code. There are lots of places where jargon or unfamiliar code concepts requires some explanation.</figcaption></figure>
 
-As we discussed *Cliff's Notes* (apparently Callie hadn't heard of this resource before), my wife had a better idea: YouTube. My wife searched YouTube for "macbeth" and in no time we were all watching [Macbeth in 7 minutes](https://youtu.be/4GSCWDa1qcE):
+As we discussed *Cliff's Notes* (apparently not that commonly known among high school students), my wife had a better idea: YouTube. My wife searched YouTube for "macbeth" and in no time we were all watching [Macbeth in 7 minutes](https://youtu.be/4GSCWDa1qcE):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4GSCWDa1qcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I could see light bulbs going on in my daughter's head and the stress melting away. The 7-minute overview gave us a sense of the main characters, general plot, and major themes in a matter of minutes.
+During the video, I could see light bulbs going on and the stress melting away. The 7-minute overview gave us a sense of the main characters, general plot, and major themes in a matter of minutes.
 
 After this video, we watched [5 longer explanatory videos from Psycho English Teacher on Macbeth](https://www.youtube.com/watch?v=YGemg1hd9sM). Here's her summary of Act 1:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YGemg1hd9sM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We followed this with similar videos from the same for Act 2, 3, 4, and 5. This took 45 minutes in all, but both my daughter and I watched with full attention. All the pieces of *Macbeth* were assembling in place, and by the end of the videos, my daughter felt a thousand percent more confident about the assignment. Psycho English Teacher has a knack for stripping down complex texts and plots into easy-to-understand language and actions. (She would have made an excellent technical writer.)
+We followed this with similar videos from the same for Act 2, 3, 4, and 5. This took 45 minutes in all, but we both watched with full attention. All the pieces of *Macbeth* were assembling in place, and by the end of the videos, Callie felt a thousand percent more confident about the assignment. Psycho English Teacher has a knack for stripping down complex texts and plots into easy-to-understand language and actions. (She would have made an excellent technical writer.)
 
-After this night, I never saw my daughter stressed out over the *Macbeth* assignment. Callie eventually read much of the primary text, pulled out various quotations, and completed the bulk of the reading log. Sadly, I don't think Callie ended up reading the entire text, but enough to complete the assignment and get a perfect score (50/50 while the class average was 31/50). When Callie did read the primary text, the foundational grounding from the high-level YouTube overviews made the text much more accessible, in spite of the Shakespearean language.
+After this night, I never saw any catastrophizing stress over the *Macbeth* assignment. Callie eventually read much of the primary text, pulled out various quotations, and completed the bulk of the reading log. Sadly, I don't think Callie ended up reading the entire text, but enough to complete the assignment and get a perfect score (50/50 while the class average was 31/50). When Callie did read the primary text, the foundational grounding from the high-level YouTube overviews made the text much more accessible, in spite of the Shakespearean language.
 
 This experience confirmed the importance of the high-level overview, but it also illuminated exactly when this overview is needed: in times of complexity and length. In this case, the high-level overview provided a *shortcut for the reader*. Instead of having to slog through 200 pages of Shakespearean English and confusing plot lines, the high-level overview distilled the essential information in consumable, more efficient ways. 
 
