@@ -40,6 +40,11 @@ You can select from several different spaces or services below. The availability
         <td markdown="span">$900/year</td>
     </tr>
     <tr>
+        <td markdown="span">[Sidebar ads](#sidebarads)</td>
+        <td markdown="span">Inline graphic and article link</td>
+        <td markdown="span">$800/year</td>
+    </tr>
+    <tr>
         <td markdown="span">[Product reviews](#product_review_posts)</td>
         <td markdown="span">800-1,000 words</td>
         <td markdown="span">$1,000/post</td>
@@ -79,6 +84,17 @@ The ads are prefaced with a subheading that says "Sponsored ads" and the ad link
 The graphics are accompanied by a post that invites users to click the link. The post title should be both relevant and enticing for a tech comm audience. To track links, I shorten any URLs you provide to me with Rebrandly. This allows me to track link clicks as well.
 
 The cost for an inline ad is $900 per year.
+
+### Sidebar ads {#sidebarads}
+
+Sidebar ads include a 250px x 150px graphic with an article link below the graphic. They appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+
+Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. GIFs or other animations aren't allowed. You can switch the ad at any time by sending me a new graphic. As with other ads, the ad links have `ref="nofollow"`.
+<figure>
+<img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+The sidebar ads appear after any sidebar navigation links. For example, for the [API doc course](/learnapidoc/), the sidebar ads appear after the page navigation in the left. On the blog, if there's a series, such as this [series on trends](/trends/trends-to-follow-or-forget-intro.html), the sidebar ads appear below the page navigation.
+
+The cost for sidebar ads is $800 per year.
 
 ### Product review posts {#product_review_posts}
 
