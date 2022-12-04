@@ -141,10 +141,10 @@ In upcoming posts, I want to explore the DMN and TPN modes of the brain more to 
 
 ## References
 
-Dobelli, Rolf. Stop reading the news: A manifesto for a happier, calmer and wiser life. Hachette UK, 2020.
+Dobelli, Rolf. [*Stop reading the news: A manifesto for a happier, calmer and wiser life.*](https://www.amazon.com/Stop-Reading-News-information-overload/dp/1529342686) Hachette UK, 2020.
 
-Hallowell, Edward M., and John J. Ratey. ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction--from Childhood through Adulthood. Ballantine Books, 2022.
+Hallowell, Edward M., and John J. Ratey. [*ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction--from Childhood through Adulthood.*](https://www.amazon.com/ADHD-2-0-Essential-Strategies-Distraction/dp/0399178740) Ballantine Books, 2022.
 
-MTA Cooperative Group. "A 14-month randomized clinical trial of treatment strategies for attention-deficit/hyperactivity disorder." *Archives of General Psychiatry* 56.12 (1999): 1073-1086.
+MTA Cooperative Group. ["A 14-month randomized clinical trial of treatment strategies for attention-deficit/hyperactivity disorder."](https://pubmed.ncbi.nlm.nih.gov/10591283/) *Archives of General Psychiatry* 56.12 (1999): 1073-1086.
 
-Torres-Acosta, Noel, et al. "Cardiovascular effects of ADHD therapies: JACC review topic of the week." *Journal of the American College of Cardiology* 76.7 (2020): 858-866.
+Torres-Acosta, Noel, et al. ["Cardiovascular effects of ADHD therapies: JACC review topic of the week."](https://pubmed.ncbi.nlm.nih.gov/32792083/) *Journal of the American College of Cardiology* 76.7 (2020): 858-866.
