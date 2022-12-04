@@ -1,5 +1,5 @@
 ---
-title: "Understanding the brain's DMN and TPN modes unlocks understanding of focus and attention"
+title: "Focus and attention in the context of the brain's DMN and TPN modes"
 permalink: /blog/dmn-and-tpn-brain/
 categories:
 - technical-writing
