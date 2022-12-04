@@ -95,6 +95,7 @@ The online experience is a constant barrage of information coming at me, and may
 
 Hallowell and Ratey explain, "Modern life compels these changes by forcing our brains to process exponentially more data points than ever before in human history" (14). But how does this compute? Am I consuming more information by browsing online than I consume when reading a book? What is it about the Internet's information delivery that wreaks so much havoc on our brains? Nonlinearity? Disjointedness? Fragmentation? Chaos? In my post [From monkey mind to calm, ordered consciousness](/blog/from-monkey-mind-to-calm-consciousness), I described the possible effects from immersion in the chaos and fragmentation of the Internet, but who can abandon such a resource, or modern conveniences? Critics are quick to point the blame on social media, while Hallowell and Ratey group all of this under the larger umbrella of "modern life." One can quit social media but ... modern life? Not so much.
 
+
 ## Coming back to TPN
 
 So can this modern condition be fixed? For those with VAST, can we return our brains to a pre-VAST state? For those with ADHD, what hacks can be employed to switch from the DMN into the TPN, and to fix the "glitchy switch"?
@@ -112,6 +113,8 @@ What else helps strengthen our TPN? Interestingly, the authors say that strength
 While reading this section on balance, my mind raced to Amazon to buy some balance products. I almost bought a balance board but then thought better and got two skateboards instead &mdash; one for me and one for my daughter. I figured skateboarding would be more interesting and would teach balance in a more fun way. Well, the weather has been rainy (and now snowy) in Washington, but in our initial foray on the skateboards, we went down a small hill and my daughter crashed pretty hard. She hasn't taken the skateboard out since then. 
 
 Even with this setback, I'm determined to incorporate the skateboard (a longboard) into a leg of my commute, so we'll see if that works. Then when I figure out how to stop, we can have another go at skateboarding together. (I have a parallel agenda of fixing my atrophied right calf through skateboarding as well, but that's another story.)
+
+{% include ads.html %}
 
 ## Exercise 
 
