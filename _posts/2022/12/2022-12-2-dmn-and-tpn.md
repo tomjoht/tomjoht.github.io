@@ -1,5 +1,5 @@
 ---
-title: "What scientists learn about attention and focus when using fMRI scans of the brain: DMN and TPN modes"
+title: "What the Default Mode Network (DMN) and Task Positive Network (TPN) modes of the brain teach us about focus"
 permalink: /blog/dmn-and-tpn-brain/
 categories:
 - technical-writing
