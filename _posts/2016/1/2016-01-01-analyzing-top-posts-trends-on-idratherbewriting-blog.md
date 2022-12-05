@@ -97,7 +97,7 @@ In other words, here's how people arrive at my blog:
 * Social media: 12, 218 (12%)
 * Other: 5,00 (1%)
 
-Of the 71% search traffic, 67% of visitors comes from Google. Only 6% of traffic comes from Tinyletter (my newsletter service), 10% from Twitter, 7% from Disqus.
+Of the 71% search traffic, 67% of visitors comes from Google. Only 6% of traffic comes from my newsletter, 10% from Twitter, 7% from Disqus.
 
 From Google Webmaster Tools, here are some common search terms:
 
