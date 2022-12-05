@@ -1,5 +1,5 @@
 ---
-title: "Focus and attention in the context of the brain's DMN and TPN modes"
+title: "What scientists learn about attention and focus when using fMRI scans of the brain: DMN and TPN modes"
 permalink: /blog/dmn-and-tpn-brain/
 categories:
 - technical-writing
