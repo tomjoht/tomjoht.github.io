@@ -28,8 +28,6 @@ Now, the question is, how would you feel knowing that a draft was written by a c
  
 – This post was written by ChatGPT, with art supplied by DALL·E 2.
 
-{% include ads.html %}
-
 ## Behind the scenes 
  
 To generate the above content through ChatGPT, I first typed out a bulleted outline as a brainstorm. I then asked ChatGPT to write an 800 word essay expanding on the outline's point. From that original content generation, I asked ChatGPT to elaborate on some other points, which I then inserted into the original draft. I made a few minor adjustments to the content, that's all. It took 5 minutes.
@@ -62,6 +60,8 @@ Here's the same content above but written in the style of Emily Dickinson:
 > Are these: who owns it and will it pass the Turing Test?<br/>
 > Will Google be able to identify it as a machine?<br/>
 > Is this writing still us, or something in between?<br/>
+
+{% include ads.html %}
 
 ## Jokes
 
