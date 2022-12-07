@@ -28,6 +28,8 @@ Now, the question is, how would you feel knowing that a draft was written by a c
  
 – This post was written by ChatGPT, with art supplied by DALL·E 2.
 
+{% include ads.html %}
+
 ## Behind the scenes 
  
 To generate the above content through ChatGPT, I first typed out a bulleted outline as a brainstorm. I then asked ChatGPT to write an 800 word essay expanding on the outline's point. From that original content generation, I asked ChatGPT to elaborate on some other points, which I then inserted into the original draft. I made a few minor adjustments to the content, that's all. It took 5 minutes.
@@ -103,13 +105,18 @@ What are my first thoughts on ChatGPT?
 * I'm might use this tool to create high-level summaries.
 * Will my brain atrophy if this tool just does all the heavy lifting now? No more ability to distill content on my own? 
 * Most of the content ChatGPT produces is *blah*, so we probably shouldn't be too worried about it. The Internet will basically become an echo chamber.
+* ChatGPT's best feature is probably writing short summaries of longer content. This could be especially useful when integrating research.
 
 Or if you would prefer the above in more formal sentences, ChatGPT can help.
 
 *Write out the following bullet points in more formal sentences, after the style of faulkner.*
 
-> My first thought was one of shock, that writers would soon be extinct. My second realization was that programmers would also be extinct, for ChatGPT had the capability to not just write, but to debug code as well. This left me wondering what I would do with my time while the robots took over the work that had once been ours. I then began to ponder if readers would feel cheated to discover the pieces they had been reading were composed by a bot. I further speculated that the internet would be saturated with AI-generated content, which, though able to achieve its desired purpose of garnering attention, could prove to be our downfall. In the face of this potential future, I found myself keen to employ any writing tools that could give me an edge, such as Grammarly, which I had used to identify typos and awkward sentences. I considered that ChatGPT could also be useful for such fixes, if nothing else. I thought I might use it to create high-level summaries, but questioned if my own brain would atrophy if I no longer had the need to distill content on my own. Ultimately, I concluded that, as most of the content ChatGPT produces is rather mundane, I should not worry too much.
->
+> My first thought upon hearing of ChatGPT was one of trepidation, as I wondered if it would spell the extinction of the writer and the programmer. This was swiftly followed by the realization that I would then have to find other ways to spend my time, and the worry that readers might feel cheated if they discovered they had been reading a bot. 
+> 
+> I then considered the possibility that the Internet would soon be saturated with AI-generated content, and that this could be used to garner attention, to the detriment of us all. Having considered this, I was keen to use all the writing tools that were available to help me, and I wondered if ChatGPT could be used for similar fixes, or even to create high-level summaries. 
+> 
+> I then pondered whether my own cognitive abilities might atrophy if I were to rely on this tool for all my heavy lifting, and determined that this was unlikely given that the content produced by ChatGPT is generally of a lesser quality. Finally, I considered the potential benefit of using ChatGPT to write short summaries of longer content, which could be especially useful when integrating research.
+
 ## Identifying cliches
 
 I wanted to see how ChatGPT would write an admissions essay. 
