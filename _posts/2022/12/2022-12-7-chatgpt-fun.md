@@ -30,7 +30,7 @@ Now, the question is, how would you feel knowing that a draft was written by a c
 
 ## Behind the scenes 
  
-To generate the above content through ChatGPT, I first typed out a bulleted outline as a brainstorm. I then asked ChatGPT to write an 800 word essay expanding on the outline's point. From that original content generation, I asked ChatGPT to elaborate on some other points, which I then inserted into the original draft. I made a few minor adjustments to the content, that's all. It took 5 minutes.
+To generate the above content through ChatGPT, I first typed out a bulleted outline as a brainstorm. I then asked ChatGPT to write an 800 word essay expanding on the outline's points. From that original content generation, I asked ChatGPT to elaborate on some other ideas, which I then inserted into the original draft. I made a few minor adjustments to the content, that's all. It took 5 minutes.
 
 ## Same content but in the style of Emily Dickinson
 
