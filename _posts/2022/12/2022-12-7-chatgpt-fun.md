@@ -102,7 +102,7 @@ What are my first thoughts on ChatGPT?
 * Then, will readers feel cheated if they were to learn they were reading a bot? (You're not reading a bot now, but it's hard to tell, right?)
 * Will the internet become saturated with AI-generated content? This content can surely achieve its usual purpose: to garner attention. If so, we're screwed.
 * Then, I'm keen to use all writing tools that can help. I sometimes use Grammarly to try to identify typos and awkward sentences. At the very least, ChatGPT could help with similar fixes.
-* I'm might use this tool to create high-level summaries.
+* I might use this tool to create high-level summaries.
 * Will my brain atrophy if this tool just does all the heavy lifting now? No more ability to distill content on my own? 
 * Most of the content ChatGPT produces is *blah*, so we probably shouldn't be too worried about it. The Internet will basically become an echo chamber.
 * ChatGPT's best feature is probably writing short summaries of longer content. This could be especially useful when integrating research.
