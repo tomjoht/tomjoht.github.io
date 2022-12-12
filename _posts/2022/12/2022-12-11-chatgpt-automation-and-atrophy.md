@@ -1,0 +1,157 @@
+---
+title: "Thoughts on ChatGPT while reading Crawford's <i>Why We Drive:</i> whatever skill we outsource, atrophies"
+permalink: /blog/chatgpt-automation-and-atrophy/
+categories:
+- technical-writing
+keywords:
+rebrandly: https://idbwrtng.com/automationandatrophy
+description: "Whatever skill you outsource, atrophies. When we outsource tasks to machines to perform, our abilities to perform the task become weaker. From driving to writing, automation threatens to reduce yet another element of the human experience. In this post, I'll use Matthew Crawford's <i>Why We Drive</i> as a lens through which to interpret ChatGPT."
+published: false
+---
+
+In [_Why We Drive: Toward a Philosophy of the Open Road_](https://www.amazon.com/Why-We-Drive-Toward-Philosophy/dp/0062741969), published in 2020, Matthew Crawford blends philosophy and personal experience in compelling ways to explore what happens when we outsource our agency to machines, choosing automation instead of individual action. Cars are becoming increasingly more computerized, with more driver assistance features (from lane centering to adaptive cruise control, self-parking, ABS, autopilot, and more). Crawford believes that automation removes many of the human elements from driving, converting the experience once perceived as the epitome of freedom and mobility to one in which our decisions and actions take a backseat to the will of the machine. We have replaced real experiences with manufactured experiences, Crawford says, cocooning people from the satisfaction of pushing back against the world with some form of mastery.
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/driving-car-hand-steering-wheel.jpg" alt="" />
+
+Crawford wrote _Why We Drive_ as autonomous vehicle development plans and hype were going strong; many thought we would soon transition to driverless cars, or that driverless Uber fleets would be in full production. Crawford's _Why We Drive_ book is a rebuttal to this trend, pushing back against automation that replaces human decision-making, acting, and thinking. Crawford explains: 
+
+> What, then, is so special about driving? That is the animating question of this book. In trying to answer it, I will be attempting something like "philosophical anthropology." For driving is a rich and varied practice. As with any such practice, a full consideration of it can focus light of a particular hue on what it means to be human. It can also shed light on the challenge of _remaining_ human against technologies that tend to enervate, and claim cultural authority in doing so. (7)
+
+In other words, Crawford selects driving because it's an example where automation reduces the human experience of the activity. Other activities might have likewise served the point, but driving in particular expresses a special freedom and autonomy that we have celebrated. When you've felt the exhilaration of control over your mobility, of having the ability to go wherever you want, as fast as you want, when you want, listening to what you want &mdash; it's exhilarating. 
+
+When automobiles were first introduced, they unlocked mobility for rural-based families, such as farmers, to come into the city and travel outside their communities. Crawford says this sense of freedom creates much of the joy of driving:
+
+> Life often feels overspecified, fully modeled and determined, but the road has a dicey quality to it. We usually have a destination in mind, but when we get behind the wheel we expose ourselves to unexpected hazards, as well as unlooked-for moments of discovery. On a road trip, you encounter landscapes and human types beyond the ken of your usual routines, and there is something rejuvenating about this. It reminds you that there are possibilities you hadn't reckoned with, lives you could have lived–or might yet." (8)
+
+Driving offers a sense of spontaneity and freedom not available in other activities. To travel unfamiliar roads without a clear destination other than to explore and discover new areas, or to follow a curiosity and drive to a new place &mdash; this autonomy offers a sense of randomness and play that delights us. 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/dalle-driving-palisade-car.jpg" alt="" />
+
+We drive to express our freedom, and this freedom makes up a core aspect of our human identity. Crawford says, "...our mobility as self-directed, embodied beings is fundamental to our nature as it has evolved over millions of years, and to the distinctly human experience of identity" (14). From nomads to other community groups that moved from place to place, we hold personal mobility high up in our list of human behaviors.
+
+Automated driving removes many of these elements. How do you go to a random place in an autonomous vehicle (AV) that doesn't have a steering wheel? You don't. Cars become entirely utilitarian machines in which you input a destination and get taken there. 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/inside-view-driverless-car-no-steering-wheel.jpg" alt="" />
+
+Crawford says the marketing pitches for AVs usually depict the passengers, freed from the monotony of driving, instead catching up on poetry and interacting with other family members. This free time will instead likely be occupied by checking email, completing Wordles, and playing Candy Crush, all while you're exposed to more advertising. Instead of pondering T.S. Eliot's "The Love Song of Alfred Prufrock," the AV rider "will spend these minutes irritably sifting through offers of various products and services tailored to his creative lifestyle and to his intended destination, conveyed through the same table interface, each of which must be declined before the car will proceed on the route he had in mind initially" (39-40).
+
+{% include ads.html %}
+
+Crawford distrusts the motivation behind automation, seeing it as a demand engineering project of big tech, intended to carve out yet another space to insert itself into our lives. Crawford embraces Shoshana Zuboff's [_Surveillance Capitalism_](https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697) and raises many points worthy of expansion in another post. But this veers away from my original intent here, which is to explore the effect of automation.
+
+Crawford celebrates driving as an activity that requires thought, skill, and mastery:
+
+> The pleasure of driving is the pleasure of doing something; of being actively and skillfully engaged with a reality that pushes back against us. Only then do we feel the progress of our own mastery. In skilled activities, we sometimes recover the joy of childhood play, that period in life when we were discovering new powers in our own bodies. (115)
+
+In other words, we thrive in this interaction in the automobile, manipulating wheels, levers, and other functions against a sea of other cars, roads, and navigation. The challenge invigorates us. With automation, however, that experience gets cheapened. We get cocooned from reality, packaged and transported like a commoditized good.
+
+## What we outsource, atrophies
+
+What stands out to me most in Crawford's book is this: as we automate an action by offloading it to an external machine, our ability to perform that action atrophies. This has become increasingly acute with the release of generative AI models that can create graphics and written content. I'll get to that in a minute. First, let me explain more about the atrophying of our skills. Crawford says, 
+
+> The technocrats and optimizers seek to make everything idiot-proof, and pursue this by treating us like idiots. It is a presumption that tends to be self-fulfilling; we really do feel ourselves becoming dumber. Against such a backdrop, to drive is to exercise one's skill at being free, and I suspect that is why we love to drive" (31).
+
+For example, GPS navigation removes a cognitive task from driving, snuffing out any wayfinding skills as drivers mindlessly follow the blue line on their screen. In this mode, we become automated by the automaton. Crawford says:
+
+> ...with GPS navigation, are you much required to notice your surroundings, and to actively convert what you see into an evolving mental picture of your route? Between the quiet smoothness, the passivity, and the sense of being cared for by some surrounding entity you can't quite identify, driving a modern car is a bit like returning to the womb. (5)
+
+Have you noticed that the more you use GPS, the more you actually need GPS? I wrote a [few posts on wayfinding](/blog/wayfinding-intro/) a while back. I spent more than a year routing to a Safeway with Google Maps that was merely 1.5 miles from my home because the confusing turns never stuck in my memory. It wasn't until I actively abandoned my mapping applications that I learned the logic of streets in my city. Wayfinding is a skill you lose as you outsource it to computers.
+
+Wayfinding is just one skill among many lost as driving becomes more automated. Crawford relates an [experiment with kittens](https://www.simplypsychology.org/held-and-hein-1963.html) that determined their motor development. In one scientific experiment (Held and Hein, 1963), researchers made one group of kittens active controllers of a roundabout carousel car, while making the other kittens passive and unable to control it. "The active kittens developed normally; the passive kittens failed to develop visually guided paw placement, avoidance of a visual cliff, a blink response to quickly approaching objects, or visual pursuit of a moving object ..." (61). In other words, the physical act of manipulating the carousel, controlling their mobility, led to key motor development that didn't happen in the passive kittens.
+
+<a href="https://twitter.com/pcastr/status/1453694922373087232"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/kitten-carousel-image-science.jpg" alt="" /></a>
+
+Continuing in this direction of automation, with driving, the more we abdicate our skills, we'll continue to atrophy until we'll lose the capacity to perform, to drive, and then the messaging about human drivers being poor drivers and needing machines to do the driving will actually be the case. Crawford says, "What is at stake is not simply a legal right, but a _disposition_ to find one's way through the world by the exercise of one's own powers" (10-11). With fewer skills and capability to drive, we lose interest in it.
+
+On a more biological/physical level, our ability to navigate our environment affects how our brain and memory structures grow. Crawford explains:
+
+> Navigating space and exploring our environment influence how the hippocampus develops, and this structure at the center of the brain is where we develop our cognitive maps of the world….Time and space are connected in experience, and therefore also in memory. And it is only after the brain becomes capable of place learning, through the slow development of the hippocampus (via roaming self-locomotion), that we begin to retain episodic memories" (12-13) 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/developing-brain-atrophy-portion.jpg" alt="" />
+
+In other words, our sense of space and environment provides a foundation for memories to form and have context in the brain. As automation handles more and more tasks, our skills atrophy or never develop &mdash; not just on a behavioral level but a physical one as well.
+
+## Let's switch from driving to writing
+
+With this perspective (what you outsource, atrophies), let us now shift to the automation trend of the day: language-generative AI with [ChatGPT](https://openai.com/blog/chatgpt/). (GPT stands for generative pretrained transformer.) Exploring the [OpenAI Playground](https://beta.openai.com/playground), I was dumbstruck by how GPT-3 could perform writing tasks in advanced ways. We've been using simple grammar and style checkers for years, identifying misspellings or confusing syntax, but suddenly GPT-3 seems light years ahead of these tools. GPT-3 allows you to write an entire essay (sounding intelligent and articulate) from a rough list of bullet points. You can paste in large chunks of text and have GPT-3 instantly convert the content into graceful language. Or you can have it alter the tone of your writing, injecting excitement or other emotional elements. You can make your essay sound like Hemingway, or like an obscure scholar.
+
+I'm usually in favor of adopting tools that will help with writing. Who wants to read and reread the same content over and over looking for typos or making a thousand micro-adjustments to smooth out the language and make the ideas flow? It can be tedious and mind-numbing. So as I started writing this post, I actually tried to use ChatGPT to do it all for me. I started writing some rough sentences, making no effort to really articulate the ideas in any fluid way but just getting the ideas out and having ChatGPT fix and smooth everything. 
+
+It seemed to be working all right, but things quickly veered off track. ChatGPT's wording was too bland, so I made it more punchy. But then it doesn't feel like mine. They weren't my words anymore. And with the AI doing the writing, the post didn't stick in my mind. It didn't compel me. It wasn't something I thought about and felt motivated to write and finish. 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/man-looking-at-screen-no-writing.jpg" alt="" />
+
+Part of the writing process is sorting out an idea for yourself, helping you think. If we outsource that thinking process, it atrophies in us. It's the equivalent of plagiarizing an essay in a college class &mdash; in bypassing the task of writing, you skip out on all the critical thinking skills you're supposed to develop. 
+
+The larger point is this: the finished post isn't the purpose of writing. The writing _process_ is the purpose. The _journey_, not the destination. By skipping the journey, skipping the writing, the whole act of writing loses value and becomes uninteresting.
+
+Using GPT, my muse speaks less. I don't have thoughts on the backburner continuing to process and sort out in my unconscious mind. I don't find myself suddenly experiencing a moment of epiphany (while doing some other task) and suddenly stopping on the sidewalk to record the epiphany in my audio notes app.
+
+Another element missing from writing with GPT: the spark of discovery that you often experience mid-way through a post, stumbling onto some idea you hadn't planned, doesn't happen. This spark of discovery is what usually makes writing "hot," or what makes it compelling to read. This discovery is often the realization element that creates the arc of a story as well. ChatGPT isn't good at injecting a spark of discovery; at most, it incorporates a bizarre fictional element if you specifically request it, but GPT-3 isn't good at coming up with new ideas.
+
+The written output with GPT-3 didn't feel like the product of my labor. Further, I had to constantly read and reread sentences to make sure that GPT-3 didn't distort anything. 
+
+One interesting aspect of generative language tools is their ability to make detail up. If you ask GPT-3 for quotes from a book, it will literally invent quotes that sound like they might come from a book but don't. 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/chatgpt-invented-quotes.png" alt="" />
+
+Why does GPT-3 just make up quotations that don't exist, without letting on that they're not real? I'm not sure, but realizing this was game-changing in my usage of GPT.
+
+As I attempted to write this post with GPT, I asked GPT-3 to list some other books related to this topic. It suggested Kevin Kelly's [_The Inevitable_](https://www.amazon.com/Inevitable-Understanding-Technological-Forces-Future/dp/0143110373) as another book covering similar themes. I asked it to summarize key points from Kelly's book about the effect of AI tools on writing, but it wasn't clear whether ChatGPT was accurately delivering me this info or making it up. I couldn't just summarize other texts that I haven't read like this, trusting in generative AI's accuracy. 
+
+When you start asking GPT-3 more specific questions, like what's the point of the demolition derby story in Crawford's book, or what's the point of such and such chapter, the AI does an impressive bullshit job of making up something that sounds plausible while not letting on that it's entirely guessing at the meaning and doesn't actually know anything. (See this other post noting [how ChatGPT just makes stuff up](https://news.ycombinator.com/item?id=33841672)p.) Many times the info is legit, but how do you know? Don't get me wrong &mdash; it's still impressive (it's trained to seem believable), but it's unreliable. 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/gpt3-conversational-bot-language.jpg" alt="" />
+
+## Luddite?
+
+I don't want to come across as a Luddite here. I'm all for using tools to assist the writing process, especially in identifying spelling and grammar errors. I do like how GPT-3 can smooth out language and make things more readable. Its ability to distill long passages into short summaries is also useful. But if we start using ChatGPT more extensively in generating the raw content itself, we can expect the same results as any other automation: the more we automate, the more we lose the ability to perform the skill ourselves. And that future, where writing becomes a skill as rare as the ability to wayfind without an app, suggests unsettling consequences. 
+
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/luddite-eschewing-computers.jpg" alt="" />
+
+Such generative AI writing will surely involve an echo chamber where new writing is merely an imitation of everything online. And then, as the Internet gets populated by generative AI, ChatGPT's output becomes a looping imitation of itself. 
+
+But that's not what's unsettling to me. What's unsettling is that writing itself becomes uninteresting. The act of writing &mdash; feeding bullet points into a machine to organize and synthesize and articulate the ideas &mdash; reduces the act of writing to something far less engaging. Writing becomes a bore, an activity we abandon. 
+
+As we abandon writing, that clever ability of our brain to make connections, express itself in language, and dwell on a thought until we see it through to some written expression becomes a lost capability. This is the paradox of generative AI: the more it helps you write, the harder it becomes to write (without it). Eventually, some part of the brain once actively involved in writing shudders its doors and puts up a _Closed for Business_ sign.
+
+## Conclusion 
+
+I'm not sure if ChatGPT will be a passing novelty or an invaluable writing tool. In another book I'm reading, _[May I Ask a Technical Question](https://www.amazon.com/May-ask-Technical-Question-Reliability/dp/0998331309)_, authors Jeff Krinnock and Matt Hoff encourage us to examine the effects of the technology we incorporate. They say "we need to measure the digital wonders showing up continually in our lives not simply by their abilities and the tasks they perform for us, but also … we need to measure and consider what human and social tasks, abilities, traditions, skillset, and opportunities they displace" (39). Their book fits into the growing genre of cyber skepticism. What human skillsets and abilities will generative AI models displace by writing for us? 
+
+Evaluating whether to incorporate a new technology into our lives is also a theme Kevin Kelly explores in _[What Technology Wants](https://www.amazon.com/What-Technology-Wants-Kevin-Kelly/dp/0143120174)_. Kelly explains that growing up in the 50s and 60s, he observed as television became a trending technology used by his friends:
+
+> The technology of TV had a remarkable ability to beckon people at specific times and then hold them enthralled for hours. .. They obeyed. I noticed that other bossy technologies, such as the car, also seemed to be able to get people to serve them, and to prod them to acquire and use still more technologies…I decided to keep technology to a minimum in my own life. As a teenager, I was having trouble hearing my own voice, and it seemed to me my friends' true voices were being drowned out by the loud conversations technology was having with itself. The less I participated in the circular logic of technology, the straighter my own trajectory could become. (2)
+
+In other words, some technologies have the potential to mute our own voice. Much of Kelly's book is a deliberation about what technology we should adopt into our lives, whether it's inevitable to adopt it and what changes will result. But for the most part, his position is that technology is inevitable.
+
+Few technologies have challenged writers more than with the emergence of generative AI tools for writing. The reactions have been so extreme, some are wondering whether GPT-3 can replace their technical writers altogether. My hunch is that many people will start using GPT-3 in the same way I use generative AI to generate decorative images for this post: as a way to offload a task I don't want to perform myself. 
+
+I'm not seeking to become an artist or illustrator but I know that people dislike long walls of text. I generate the images to create more of a balance of visuals and text. But make no mistake: my own illustrative skills (however dismal) have probably weakened since doing this. In no way does generating images through AI tools further my career as a graphic designer. 
+
+The generated images don't need to be exact, just somewhere close to echoing similar themes I'm writing about. In contrast, language must be much more precise. It's not good enough to generate kind of similar thoughts.
+
+The same fate of generative AI images and graphic designers will likely happen with ChatGPT and writers. For those who dislike writing and just want a tool to perform the task they don't want to do, it will work fine. Need a quick way to summarize the latest research on a topic? GPT-3 will do. 
+
+But if you want to further your own writing skills and talents, the quickest way to kill that ability is to use another tool to do it for you. This decision isn't merely the equivalent of using a calculator to avoid doing long division, freeing you up for more complex tasks. With writing, the act of writing includes thinking, synthesizing, problem-solving, and more. When we skip all that, creating the end output with the push of a button, we put those same thinking functions within ourselves to sleep.
+
+The challenge in the coming year will be to figure out how to leverage GPT-3 as a writing assistant without letting it smother our writing abilities. For example, a writing assistant might excel at the following:
+
+* Reviewing what you've written and identifying patterns of error, weaknesses, poorly supported arguments, and more.
+* Crystalizing the logic if your essay to help you tight up your reasoning.
+* Auto-generating a Works Cited section based on in-text citation.
+* Removing passive voice, awkward constructions, grammar errors, and spelling mistakes.
+* Generating lists of related reading on authors who have written about similar topics.
+* Functioning as a springboard for back-and-forth brainstorming and topic questions, helping you build ideas.
+
+Who knows, maybe GPT-3 will force writers to move to another level higher than GPT-3. No more cliche observations. If GPT-3 can guess the list of points you're making about a topic, then you probably don't need bother writing it. Instead, this might force writers to make unlikely observations, to unearth a deeper-level of thought beyond the capacity of GPT-3. Just like competing companies for an evolving product, so too will generative AI force writers to level up and beat out the competition with new products.
+
+
+## References
+
+Crawford, Matthew B. *Why We Drive: Toward a Philosophy of the Open Road.* HarperCollins, 2020.
+
+Kelly, Kevin. *What Technology Wants.* Penguin, 2011.
+
+Krinnock, Jeff, and Matt Hoff. _May I Ask a Technical Question?_. 2016.
+
