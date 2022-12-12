@@ -1,18 +1,18 @@
 ---
-title: "Thoughts on ChatGPT while reading Crawford's <i>Why We Drive:</i> whatever skill you outsource, atrophies"
+title: "Thoughts on ChatGPT after reading Crawford's <i>Why We Drive:</i> whatever skill you outsource, atrophies"
 permalink: /blog/chatgpt-automation-and-atrophy/
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/automationandatrophy
-description: "Whatever skill you outsource, atrophies. When we outsource tasks to machines to perform, our abilities to perform the task ourselves weakens. From driving to writing, automation threatens to reduce yet another element of the human experience. In this post, I'll use Matthew Crawford's <i>Why We Drive</i> as a lens through which to interpret ChatGPT."
+description: "Whatever skill you outsource, it atrophies. When we outsource tasks to machines to perform, our ability to perform the task ourselves weakens. From driving to writing, automation threatens to reduce key elements of the human experience. In this post, I'll use Matthew Crawford's <i>Why We Drive</i> as a lens through which to interpret ChatGPT."
 ---
 
 ## Crawford's *Why We Drive* and automation
 
 In [_Why We Drive: Toward a Philosophy of the Open Road_](https://www.amazon.com/Why-We-Drive-Toward-Philosophy/dp/0062741969), published in 2020, Matthew Crawford blends philosophy and personal experience in compelling ways to explore what happens when we outsource our agency to machines, choosing automation instead of individual action. Cars are becoming increasingly more computerized, with more driver assistance features (from lane centering to adaptive cruise control, self-parking, ABS, autopilot, and more). Crawford believes that automation removes many of the human elements from driving, converting the experience once perceived as the epitome of freedom and mobility to one in which our decisions and actions take a backseat to the will of the machine. We have replaced real experiences with manufactured experiences, Crawford says, cocooning people from the satisfaction of pushing back against the world with some form of mastery.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/driving-car-hand-steering-wheel.jpg" alt="Driving is an opportunity to express our freedom" /><figcaption>Driving is one activity where human freedom, mobility, and autonomy can come together in powerful ways. As cars automate the driving for humans, the driving experience gets diminished.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/driving-car-hand-steering-wheel.jpg" alt="Driving is an opportunity to express our freedom" /><figcaption>Driving is one activity where human freedom, mobility, and autonomy can come together in powerful ways. As cars automate the driving for humans, the human experience gets diminished.</figcaption></figure>
 
 Crawford wrote _Why We Drive_ as autonomous vehicle development plans and hype were going strong; many thought we would soon transition to driverless cars, or that driverless Uber fleets would be in full production. Crawford's _Why We Drive_ is a rebuttal to this trend, pushing back against automation that replaces human decision-making, acting, and thinking. Crawford explains: 
 
@@ -32,23 +32,23 @@ We drive to express our freedom, and this freedom makes up a core aspect of our 
 
 Automated driving removes many of these elements. How do you go to a random place in an autonomous vehicle (AV) that doesn't have a steering wheel? You don't. Cars become entirely utilitarian machines in which you input a destination for a specific transportation end. 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/inside-view-driverless-car-no-steering-wheel.jpg" alt="car without a steering wheel" /><figcaption>When you take away the steering wheel from a car, it no longer provides humans with the freedom and autonomy over their mobility as it once did; the car becomes only a means to go from point A to point B, not a means of spontaneously exploring unknown areas.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/inside-view-driverless-car-no-steering-wheel.jpg" alt="car without a steering wheel" /><figcaption>When you take away the steering wheel from a car, it no longer provides humans with the freedom and autonomy over their mobility as it once did; the car becomes only a means to go from point A to point B. There's very little human decision-making or input.</figcaption></figure>
 
-Crawford says the marketing pitches for AVs usually depict the passengers, freed from the monotony of driving, instead catching up on poetry and interacting with other family members. This free time, however, will more likely be occupied by checking email, completing Wordles, and playing Candy Crush, all while you're exposed to more advertising. Instead of pondering T.S. Eliot's "The Love Song of Alfred Prufrock," the AV rider "will spend these minutes irritably sifting through offers of various products and services tailored to his creative lifestyle and to his intended destination, conveyed through the same table interface, each of which must be declined before the car will proceed on the route he had in mind initially" (39-40).
+Crawford says the marketing pitches for AVs usually depict the passengers, freed from the monotony of driving, catching up on poetry and interacting with other family members instead. This free time, however, will more likely be occupied by checking email, completing Wordles, and playing Candy Crush, all while you're exposed to more advertising. Instead of pondering T.S. Eliot's "The Love Song of Alfred Prufrock," the AV rider "will spend these minutes irritably sifting through offers of various products and services tailored to his creative lifestyle and to his intended destination, conveyed through the same table interface, each of which must be declined before the car will proceed on the route he had in mind initially" (39-40).
 
-{% include ads.html %}
+Crawford distrusts the motivation behind automation, seeing it as a demand-engineering project of big tech, intended to carve out yet another space to insert itself into our lives. Crawford embraces Shoshana Zuboff's [_Surveillance Capitalism_](https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697) and raises many points about how big tech nudges and herds us in their directions.
 
-Crawford distrusts the motivation behind automation, seeing it as a demand-engineering project of big tech, intended to carve out yet another space to insert itself into our lives. Crawford embraces Shoshana Zuboff's [_Surveillance Capitalism_](https://www.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1610395697) and raises many points worthy of expansion in another post. 
-
-Crawford celebrates driving as an activity that requires thought, skill, and mastery:
+Overall, Crawford celebrates driving as an activity that requires thought, skill, and mastery:
 
 > The pleasure of driving is the pleasure of doing something; of being actively and skillfully engaged with a reality that pushes back against us. Only then do we feel the progress of our own mastery. In skilled activities, we sometimes recover the joy of childhood play, that period in life when we were discovering new powers in our own bodies. (115)
 
 In other words, we thrive in this interaction in the automobile &mdash; manipulating wheels, levers, and other functions against a sea of other cars, roads, and navigation. The challenge invigorates us. With automation, however, that experience gets reduced. We become cocooned from reality, packaged and transported like a commoditized good. 
 
+{% include ads.html %}
+
 ## What we outsource, atrophies
 
-What stands out to me most in Crawford's book is this: as we automate an action by offloading it to an external machine, our ability to perform that action atrophies. This has become increasingly acute with the release of generative AI models that can create graphics and written content. I'll get to that in a minute. First, let me explain more about the atrophying of our skills. Crawford says, 
+What stands out to me most in Crawford's book is this: as we automate an action by offloading it to an external machine, our ability to perform that action atrophies. This has become increasingly acute with the release of generative AI models that can create graphics and written content. I'll get to that in a minute. First, let me explain more about the atrophying of our skills. Crawford says:
 
 > The technocrats and optimizers seek to make everything idiot-proof, and pursue this by treating us like idiots. It is a presumption that tends to be self-fulfilling; we really do feel ourselves becoming dumber. Against such a backdrop, to drive is to exercise one's skill at being free, and I suspect that is why we love to drive" (31).
 
@@ -60,7 +60,7 @@ Have you noticed that the more you use GPS, the more you actually need GPS? I wr
 
 Wayfinding is just one skill among many lost in automation. Crawford relates a [carousel experiment with kittens](https://www.simplypsychology.org/held-and-hein-1963.html) that determined their motor development. In one scientific experiment, researchers (Held and Hein, 1963) made one group of kittens active controllers of a roundabout carousel car, while making the other group of kittens passive and unable to control it. "The active kittens developed normally; the passive kittens failed to develop visually guided paw placement, avoidance of a visual cliff, a blink response to quickly approaching objects, or visual pursuit of a moving object ..." (61). In other words, the physical act of manipulating the carousel, controlling their mobility, led to key motor development that didn't happen in the passive kittens.
 
-<figure><a href="https://twitter.com/pcastr/status/1453694922373087232"><figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/kitten-carousel-image-science.jpg" alt="Kitten carousel experiment" /><figcaption>Kittens that didn't actively control their carousel didn't end up developing their motor and spatial skills.</figcaption></figure></a>
+<figure><a href="https://twitter.com/pcastr/status/1453694922373087232"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/kitten-carousel-image-science.jpg" alt="Kitten carousel experiment" /><figcaption>Kittens that didn't actively control their carousel didn't end up developing their motor and spatial skills.</figcaption></figure></a>
 
 Continuing in this direction of automation, with driving, the more we abdicate our skills, the more those skills atrophy until we lose the capacity to drive at all. At that point, all the safetyist messaging about human drivers being poor drivers and needing machines to do the driving (to reduce crashes) will actually be the case. It's self-fulfilling, Crawford says. "What is at stake is not simply a legal right, but a _disposition_ to find one's way through the world by the exercise of one's own powers" (10-11). With fewer skills and capability to drive, we lose interest in it.
 
