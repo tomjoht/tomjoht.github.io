@@ -19,7 +19,7 @@ redirect_from:
 
 # First attempt at horizontal writing
 
-These past two weeks, I've been writing a type of documentation I've never written before: a systems view of a product, describing the path that information follows through many services and systems. The documentation follows the "Life of a [something]" narratives that show the whole life cycle information flow. (I wrote about this type of content in my previous post, ['Putting together things': Articulating a thesis about the effects of hyper-specialization on documentation](/trends/2022-09-18-exploiting-the-systems-view-tech-writers.html).) 
+These past two weeks, I've been writing a type of documentation I've never written before: a systems view of a product, describing the path that information follows through many services and systems. The documentation follows the "Life of a [something]" narratives that show the whole life cycle information flow. (I wrote about this type of content in my previous post, ['Putting together things': Articulating a thesis about the effects of hyper-specialization on documentation](/trends/exploiting-the-systems-view-tech-writers.html).) 
 
 My draft (an internal-only doc) is currently about 7,000 words and traces the path that information takes when people make a directions request with Google Maps &mdash; all the backend systems and processes that the request travels through before that magical route appears on your phone. 
 
@@ -99,7 +99,7 @@ Second, at the bottom of each section, I included several links for more info (i
 
 The C4 model also prompts another question: Is horizontal writing a genre of software architecture writing? Was I doing software architecture writing with this "Life of a [something]" narrative? This is what one commenter suggested on my previous post. Rafał Dylewski said,
 
-> Capturing and managing the big picture usually belongs to solution architects, heads of development, solution designers, system architects, or enterprise architects. That would mean that technical writers will become more relevant to these audiences instead specialized developers. On the other hand, these architects and designers usually are capable of managing their architectural docs well, modeling systems in advanced tools, such as Enterprise Architect, Visual Paradigm, etc. So the question is: do they need help? ([link](https://idratherbewriting.com/trends/2022-09-18-exploiting-the-systems-view-tech-writers.html#commento))
+> Capturing and managing the big picture usually belongs to solution architects, heads of development, solution designers, system architects, or enterprise architects. That would mean that technical writers will become more relevant to these audiences instead specialized developers. On the other hand, these architects and designers usually are capable of managing their architectural docs well, modeling systems in advanced tools, such as Enterprise Architect, Visual Paradigm, etc. So the question is: do they need help? ([link](https://idratherbewriting.com/trends/exploiting-the-systems-view-tech-writers.html#commento))
 
 To this question, I'd say sure, to some extent a "Life of a [something]" narrative fits into the architecture genre. But software architects seem to have other concerns in mind, such as latency, server management, security, and more. Architects also have their own modeling language (UML) for describing systems. Even so, there's a whole genre of systems thinking writing, unrelated to UML, that leverages other vocabulary to describe systems. Terms like inflow, outflow, stock, limiting factors, balancing loops, buffers, reinforcing feedback, shifting dominance, oscillations, length of delay, limits to growth, flow-limited, stock-limited, and more (terms from Donella Meadows' [*Thinking in Systems*](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557)) describe systems in a way that's much different from a typical software architectural diagram.
 
@@ -129,3 +129,6 @@ Writing this document, I also thought a lot about the audience. Who will actuall
 
 Like I said earlier, I haven't yet published the doc, so it's too early to see the feedback. Review comments are still trickling in, and we have to figure out how to publish a long doc in a such a way that people will still read it. One of our plans is to test the waters with a small group of readers and survey them afterwards. If things go well, we might write a lot more of these "Life of a [something]" narratives. Making the case for the document's value, as with other types of documentation, is yet another challenge to figure out. But one thing is for sure: I like this genre of writing, and I might be good at it.
 
+## Next post
+
+Continue to the next post in this series: [Pulling readers through long documents](/trends/reading-long-documents.html).

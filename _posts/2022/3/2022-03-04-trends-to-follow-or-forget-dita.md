@@ -61,3 +61,7 @@ Overall, given the difficulty of migrating to DITA, I suspect that migrating awa
 
 {: .tip}
 Inflexible information models will frustrate writers who want more control about how they organize and present information, prompting them to look for other approaches even if this means sacrificing larger content management systems and consistency.
+
+## Next post
+
+Continue to the next post in this series: [Content strategy](/trends/trends-to-follow-or-forget-content-strategy.html).

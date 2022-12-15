@@ -76,3 +76,7 @@ Content strategy has many different facets to explore. For more, see Scott Abel'
 
 {: .tip}
 Don't neglect the strategic aspects of technical communication work, and if the bulk of your job involves strategy more than writing, then consider yourself a content strategist.
+
+## Next post
+
+Continue to the next post in this series: [Scrum](/trends/trends-to-follow-or-forget-scrum.html).

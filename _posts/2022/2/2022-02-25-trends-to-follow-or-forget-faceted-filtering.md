@@ -46,3 +46,7 @@ Finally, another reason faceted filtering never took off is because [XML and the
 {: .tip}
 
 Faceted filtering works best when your product has a clear set of facets/attributes that users can identify to narrow the information. Finding tool support to implement faceted filtering is challenging.
+
+## Next post
+
+Continue to the next post in this series: [Screencasting](/trends/trends-to-follow-or-forget-screencasting.html).

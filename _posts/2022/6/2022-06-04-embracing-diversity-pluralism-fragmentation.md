@@ -166,3 +166,7 @@ In the next post, I'll examine ways that this diversity/pluralism/fragmentation 
 Davis, John B. "[Specialization, fragmentation, and pluralism in economics.](https://www.tandfonline.com/doi/abs/10.1080/09672567.2018.1555604)" *The European Journal of the History of Economic Thought* 26.2 (2019): 271-293.
 
 Kelly, Kevin. [*What Technology Wants*](https://www.amazon.com/What-Technology-Wants-text-Kelly/dp/B004MR2HQ2/). Viking: New York, 2010.
+
+## Next post
+
+Continue to the next post in this series: [The impact of technical diversity on documentation -- epiphanies on a trip to IKEA](/trends/impact-of-technical-diversity-on-docs.html).

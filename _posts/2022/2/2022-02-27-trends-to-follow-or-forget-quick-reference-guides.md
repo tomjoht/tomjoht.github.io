@@ -34,3 +34,9 @@ Nearly every gadget I buy seems to come with a quick start guide, or some shorte
 
 {: .tip}
 Quick reference guides help satisfy readers who resist longer documentation but still need help to get started. However, in developer documentation, getting started tutorials are more common and work better when integrated with the rest of the documentation; getting started tutorials also don't have constraints about page space or layout.
+
+## Next post
+
+Continue to the next post in this series: [WordPress and web CMSs](/trends/trends-to-follow-or-forget-wordpress.html).
+
+

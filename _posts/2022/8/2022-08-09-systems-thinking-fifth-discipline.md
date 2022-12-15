@@ -159,3 +159,7 @@ Johnson, Tom. [Reciprocal knowledge networks and the iFixit Technical Writing Pr
 Senge, Peter M. *The Fifth Discipline: The art and practice of the learning organization*. Broadway Business, 2006.
 
 Image credit: Images were generated through [Midjourney](https://midjourney.com), an art AI tool.
+
+## Next post
+
+Continue to the next post in this series: ['Putting together things': Articulating a thesis about the effects of hyper-specialization on documentation](/trends/exploiting-the-systems-view-tech-writers.html).

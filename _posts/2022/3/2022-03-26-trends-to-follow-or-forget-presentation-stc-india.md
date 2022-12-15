@@ -40,3 +40,8 @@ If you just want the audio, here it is.
 {% include audio.html %}
 
 {% include ads.html %}
+
+
+## Next post
+
+Continue to the next post in this series: [Technical diversity/pluralism/fragmentation in tech comm](/trends/embracing-diversity-pluralism-fragmentation.html).
