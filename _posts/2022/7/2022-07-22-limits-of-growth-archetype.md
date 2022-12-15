@@ -168,3 +168,7 @@ Sharif, Marissa A., Cassie Mogilner, and Hal E. Hershfield. ["Having too little 
 
 
 [1]: https://www.linkedin.com/feed/update/urn:li:activity:6923138595931267072?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6923138595931267072%2C6932355732738637824%29
+
+## Next post
+
+Continue to the next post in this series: [Techniques for deep work from Cal Newport](/blog/newport-deep-work/).

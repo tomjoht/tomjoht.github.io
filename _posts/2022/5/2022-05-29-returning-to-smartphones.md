@@ -159,4 +159,9 @@ And he later says, "The greater the promise of a new technology, the greater its
 
 This reassures me that my smartphone concerns and experiment has not been a fool's errand. There are serious consequences for the reading behavior that smartphones seem to encourage. I'm noticing it more and more. On my bike ride home (through the heart of downtown Seattle), I watched as the cyclist in front of me checked her phone at two stoplights. On the train, someone came up to me and asked if he could plug his smartphone into my computer because it was dead. I politely said no, since it was a work computer. And also, I didn't mention it, but c'mon, *really*? Did he need to play Candy Crush on his ride home? He seemed flummoxed, as if I were denying him first aid. But as I disembarked, I noticed he was engaged in a lively conversation with another passenger sitting across from him. All is not lost.
 
-Continue on with the next post in this series, [Random notes on recovering the lost art of reading](/blog/notes-on-recovering-the-lost-art-of-reading/).
+## Next post
+
+Continue on with the next post in this series: [Random notes on recovering the lost art of reading](/blog/notes-on-recovering-the-lost-art-of-reading/). 
+
+{: .note}
+Note that you might be wondering how wayfinding ties in with this series. The Journey away from smartphones series involved an experiment of giving up my smartphone. One of those essential smartphone apps is Google Maps (or Apple Maps). So to live without the smartphone, I had to relearn wayfinding outside of micro-directions from a GPS app.

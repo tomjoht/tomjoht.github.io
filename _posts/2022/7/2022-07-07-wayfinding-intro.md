@@ -77,10 +77,12 @@ I'll interweave these ideas with my own experiences to try to make sense of wayf
 
 I've got a bit of distance to cover to get here, so sit down, buckle up, and let's go for a ride.
 
-*Continue on to the next post: [Wayfinding requires you to be present in the world](/blog/wayfinding-be-present-and-attentive/).*
-
 ## References
 
 Kilday, Bill. *Never lost again: The Google mapping revolution that sparked new industries and augmented our reality.* HarperCollins, 2018.
 
 O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
+
+## Next post
+
+Continue on to the next post: [Wayfinding requires you to be present in the world](/blog/wayfinding-be-present-and-attentive/).

@@ -146,8 +146,6 @@ Did this more scenic route and heightened attentiveness unlock wayfinding in a w
 
 Besides wayfinding, though, there's something else that's valuable: the mindset that comes from being in control of where you're going. That's what I'll talk about next.
 
-*Continue on to the next post: [Spatial and scientific reasoning from wayfinding](/blog/wayfinding-scientific-reasoning/).*
-
 ## References
 
 Kunstler, James Howard. *Geography of Nowhere: The rise and decline of America's man-made landscape.* Simon and Schuster, 1994.
@@ -155,3 +153,7 @@ Kunstler, James Howard. *Geography of Nowhere: The rise and decline of America's
 O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
 
 Speck, Jeff. *Walkable city: How downtown can save America, one step at a time*. Macmillan, 2013.
+
+## Next post
+
+Continue on to the next post: [Spatial and scientific reasoning from wayfinding](/blog/wayfinding-scientific-reasoning/).

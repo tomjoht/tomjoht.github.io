@@ -110,8 +110,6 @@ For example, the other week I went for a walk outside my house and ran across a 
 
 I'm sure that if Kilday were to suddenly become intrigued by Boston's serpentine streets and became engrossed/lost in thought as he explored the area with novelty and wonder, he would have found his clothes and belongings on the porch when he finally arrived home. Even so, whether you're intentionally lost or accidentally lost, your perception determines the value of the experience.
 
-*Continue on to the next post: [Driving without GPS — the desire to be free and in control](/blog/wayfinding-driving-without-gps-freedom-and-control/).*
-
 ## References
 
 Kilday, Bill. *Never lost again: The Google mapping revolution that sparked new industries and augmented our reality.* HarperCollins, 2018.
@@ -119,3 +117,7 @@ Kilday, Bill. *Never lost again: The Google mapping revolution that sparked new 
 O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
 
 Oliver, Mary. *Upstream: selected essays.* Penguin, 2019.
+
+## Next post
+
+Continue on to the next post: [Driving without GPS — the desire to be free and in control](/blog/wayfinding-driving-without-gps-freedom-and-control/).

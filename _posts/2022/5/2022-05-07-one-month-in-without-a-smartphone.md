@@ -154,4 +154,6 @@ I've started to wonder about my career as a technical writer, about my time blog
 
 But it does seem like tech has sort of caught up and surfaced its true face. It has made us more disengaged with those around us, diminished us as people, made us less present, more overwhelmed with too much irrelevant information, exploited our psychological vulnerabilities, and more. I just want to turn back that dial to 2000 and go back to that time. Is it even possible? This series all about finding answers to that question.
 
-Continue on to the next post in this series, [Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr](/blog/nicholas-carr-the-shallows-book-review/).
+## Next post
+
+Continue on to the next post in this series: [Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr](/blog/nicholas-carr-the-shallows-book-review/).

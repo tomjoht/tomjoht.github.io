@@ -101,4 +101,6 @@ I'm sure that if you read feeds all day, constantly scanning and skimming, you t
 
 What I want to achieve long-term, however, is *optimal Tom*. I'm convinced that I think and work better without my smartphone. I'd like to take this to the next level, getting into more states of productive focus and flow. I still find myself, even without any external interrupter, looking for a distraction. For example, as I was working on some documentation today, I decided to stop because it was mentally taxing. I responded to about half a dozen blog comments, then returned 20 minutes later to the documentation task. Eventually, I want to get to a state where I don't have any internal compulsion for distraction.
 
-Continue on to the next post in this series, [More developments on my journey away from smartphones — a sudden interest in classical music?](/blog/sudden-interest-in-classical-music/)
+## Next post
+
+Continue on to the next post in this series: [More developments on my journey away from smartphones — a sudden interest in classical music?](/blog/sudden-interest-in-classical-music/)

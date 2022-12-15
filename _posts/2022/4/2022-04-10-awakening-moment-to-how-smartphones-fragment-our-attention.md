@@ -179,3 +179,7 @@ Levitin, Daniel J. [Why the modern world is bad for your brain](https://www.theg
 Newport, Cal. _[Digital Minimalism: Choosing a focused life in a noisy world](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy-ebook/dp/B07DBRBP7G)_. Penguin, 2019.
 
 Williams, James. _[Stand out of our light: freedom and resistance in the attention economy](https://www.thriftbooks.com/w/stand-out-of-our-light-freedom-and-resistance-in-the-attention-economy_james-williams/18875622/item/27889397/#edition=20112725&idiq=37581486)_. Cambridge University Press, 2018.
+
+## Next post
+
+Continue to the next post in this series: [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/).

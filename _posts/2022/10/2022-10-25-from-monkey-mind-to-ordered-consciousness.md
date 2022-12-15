@@ -242,3 +242,7 @@ Jaynes, Julian. *[The Origin of Consciousness in the Breakdown of the Bicameral 
 Kelly, Kevin. *[What Technology Wants](https://www.amazon.com/What-Technology-Wants-Kevin-Kelly/dp/B08XGSTNNB).* Penguin, 2011.
 
 ["Your Brain on Books: 10 Things That Happen to Our Minds When We Read."](https://oedb.org/ilibrarian/your-brain-on-books-10-things-that-happen-to-our-minds-when-we-read/)" *Open Education Database*. Retrieved Oct 23, 2022.
+
+## Next post
+
+Continue to the next post in this series: [What the DMN and TPN modes of the brain teach us about focus](/blog/dmn-and-tpn-brain/).

@@ -215,3 +215,7 @@ As you embrace each of these conditions and traits, you'll be on your way to exp
 Csikszentmihalyi, Mihaly. *[Flow: The Psychology of Optimal Experience](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
 
 Newport, Cal. [*Deep work: Rules for focused success in a distracted world*](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692). Hachette UK, 2016.
+
+## Next post
+
+Continue to the next post in this series: [From monkey mind to calm, ordered consciousness?](/blog/from-monkey-mind-to-calm-consciousness/).

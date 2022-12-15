@@ -107,3 +107,7 @@ Doyle, Bob. "[Fight Club & Nietzsche: Overcoming Emasculation][1]." Youtube. Sep
 O'Connor, M. R. *Wayfinding: The science and mystery of how humans navigate the world.* St. Martin's Press, 2019.
 
 [1]: https://www.youtube.com/watch?v=NpxHFNvlUmU&t=389s&ab_channel=Bob
+
+## Next post
+
+Continue to the next post in this series: [From smartphones to Netflix: moving past plateaus in growth](/blog/limits-of-growth-shifting-burdens/).

@@ -161,3 +161,7 @@ Recognizing that long-form reading has become a rarity in the workplace inspires
 ## Conclusion
 
 Sorry if you felt subjected to a random compilation of figurative post-it notes in this post. I tried to warn you in the introduction. These are just the observations I've had around reading these past few weeks. If you have any thoughts to share that might shape and guide my efforts, please feel free to reach out or add a comment below. And if you have a good book to recommend, please share the title.
+
+## Next post
+
+Continue to the next post in this series: [Wayfinding -- finding my way without GPS](/blog/wayfinding-intro/).

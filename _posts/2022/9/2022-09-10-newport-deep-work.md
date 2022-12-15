@@ -180,3 +180,7 @@ Overall, I highly recommend Cal Newport's *Deep Work*. Newport says that in a wo
 ## References
 
 Newport, Cal. *Deep work: Rules for focused success in a distracted world.* Hachette UK, 2016.
+
+## Next post
+
+Continue to the next post in this series: [How to move from focus sessions to flow sessions](/blog/from-focus-sessions-to-flow/).
