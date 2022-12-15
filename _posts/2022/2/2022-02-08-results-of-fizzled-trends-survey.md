@@ -63,8 +63,8 @@ As I looked back through my blog (which started in 2006), I can trace my path th
 11. [Every page is page one](/trends/trends-to-follow-or-forget-every-page-is-page-one.html)
 12. [API documentation](/trends/trends-to-follow-or-forget-api-documentation.html)
 13. [Git and GitHub](/trends/trends-to-follow-or-forget-git-and-github.html)
-14. Docs as code
-15. Remote work
+14. [Docs as code](/trends/trends-to-follow-or-forget-docs-as-code.html)
+15. [Remote work](/trends/trends-to-follow-or-forget-remote-work.html)
 
 I'm still refining this list, but I realized that I've been a constant experimenter throughout my career. In some ways, I am a microcosm of tech comm trends.
 
@@ -77,3 +77,7 @@ My new presentation description, planned for [STC India 2022](https://stc-india.
 > When we focus on trends, we often look at the present and how current trends might affect our tech comm work. But we can also look in the opposite direction: at trends that faded or fizzled, and ask why. Looking at trends that faded, especially the reasons why, might help us better evaluate current trends. In this presentation, I’ll look at a number of tech comm trends that I’ve either followed or abandoned over the years, and why they failed for me. Sometimes the trends were superseded by better technologies, but other times they fizzled due to other reasons. Note that my tour through these trends focuses on personal reasons for following or forgetting trends rather than making objective assertions about mass-scale adoption or rejection across the industry.
 
 Follow the posts in this series (see the sidebar) to explore each of these trends in more depth.
+
+## Next post
+
+Continue to the next post in this series: [HATs and single-sourcing](/trends/trends-to-follow-or-forget-hats.html).

@@ -42,3 +42,7 @@ In hindsight, the failure of crowdsourcing actually ensured the survival of the 
 
 {: .tip}
 Wikis are most useful for internal docs in contexts where employees feel that writing documentation is part of their responsibility and job function. When docs aren't their job, employees tend not to contribute in substantial ways, and volunteer contributors lack access to the resources and information needed to write docs.
+
+## Next post
+
+Continue to the next post in this series: [Faceted filtering](/trends/trends-to-follow-or-forget-faceted-filtering.html).

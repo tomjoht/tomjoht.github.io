@@ -38,3 +38,7 @@ Finally, for documentation that is highly technical, screencasts tend to fail. S
 
 {: .tip}
 Screencasting works best for applications with a visual interface, and even then, the how-to scenarios need to be somewhat simple. Screencasting doesn't work well for code tutorials since code is non-linear and is better understood by looking at code samples, which don't work well in video.
+
+## Next post
+
+Continue to the next post in this series: [Quick reference guides](/trends/trends-to-follow-or-forget-quick-reference-guides.html).

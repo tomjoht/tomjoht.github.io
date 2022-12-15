@@ -44,3 +44,7 @@ The debate about single-sourcing continues today. In Heretto's [Content Componen
 
 {: .tip}
 HATs are relevant insofar as writers need to generate both web and PDF output from the same source. They also reduce the complexity of web publishing, but the closed source restricts their flexibility, and the licensing requirements limits their scalability in terms of authors.
+
+## Next post
+
+Continue to the next post in this series: [Wikis and crowdsourcing](/trends/trends-to-follow-or-forget-wikis.html).

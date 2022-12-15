@@ -68,3 +68,7 @@ Without any compelling methodology to replace Scrum, it seems that some form of 
 
 {: .tip}
 Partially allocated resources like tech writers should understand the mechanics of scrum to better plug in with engineering teams, but they shouldn't expect to participate as full-fledged members of these same engineering scrum teams.
+
+## Next post
+
+Continue to the next post in this series: [Marcom and techcomm](/trends/trends-to-follow-or-forget-techcomm-and-marcom.html).

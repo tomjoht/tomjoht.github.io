@@ -71,3 +71,7 @@ Implementing safeguards and other mechanisms to control risk will likely mean re
 {: .tip}
 
 Git can replace the need for a CMS or CCMS to manage and collaborate on content, provided that the Git workflows don't exclude those you're trying to collaborate with.
+
+## Next post
+
+Continue to the next post in this series: [Docs as code](/trends/trends-to-follow-or-forget-docs-as-code.html).

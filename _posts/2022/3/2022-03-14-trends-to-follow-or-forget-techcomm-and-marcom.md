@@ -51,3 +51,7 @@ In some ways, I miscalculated the way tech comm could interact with marketing. P
 {: .tip}
 
 Marcom depends on tech comm for relevant content, but re-using documentation content within marketing materials (instead of just linking to the docs) doesn't work well due to differences between marcom and tech comm related to mindset, tools, styles, openness and transparency, and content lifecycles. 
+
+## Next post
+
+Continue to the next post in this series: [Every page is page one](/trends/trends-to-follow-or-forget-every-page-is-page-one.html).

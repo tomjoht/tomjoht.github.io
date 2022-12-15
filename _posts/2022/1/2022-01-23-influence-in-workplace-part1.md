@@ -109,3 +109,7 @@ Ki, Chung‐Wha ‘Chloe, and Youn‐Kyung Kim. ["The mechanism by which social 
 McQuarrie, Edward F., Jessica Miller, and Barbara J. Phillips. ["The megaphone effect: Taste and audience in fashion blogging."](https://academic.oup.com/jcr/article-abstract/40/1/136/1792230) Journal of Consumer Research 40.1 (2013): 136-158.
 
 Scoble, Robert. ["If you are laid off, here’s how to socially network."](https://scobleizer.blog/2009/01/12/if-you-are-laid-off-heres-how-to-socially-network/) 12 Jan 2009. scobleizer.blog
+
+## Next post
+
+Continue to the next post in this series: [Initial attempts and failures with workplace content](/web-and-workplace-influence/part2-failure-with-initial-attempts.html).

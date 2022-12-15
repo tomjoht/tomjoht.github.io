@@ -66,3 +66,7 @@ Despite all the uncertainty, one thing is for sure: tech work is a good career b
 
 {: .tip}
 For many tech writers, the frustrating social effects of working at home don't outweigh the negatives of commuting into an office and working on site.
+
+## Next post
+
+Continue to the next post in this series: ["Trends to follow or forget" presentation to STC India](/trends/trends-to-follow-or-forget-presentation-stc-india.html).

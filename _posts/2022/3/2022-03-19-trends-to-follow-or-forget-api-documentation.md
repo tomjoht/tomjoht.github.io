@@ -77,3 +77,7 @@ Still, it's challenging to find tech writers who are both experts in documentati
 
 {: .tip}
 The growth of web APIs led to a surge of opportunities for technical writers to work in developer documentation.
+
+## Next post
+
+Continue to the next post in this series: [GitHub and open-source](/trends/trends-to-follow-or-forget-git-and-github.html).

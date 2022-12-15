@@ -118,3 +118,7 @@ When you're focused on the micro-level and concerned about whether parameters ha
 Additionally, there's no organizational push in this direction. What themes do you observe among support tickets? Doc-related tickets usually involve questions about smaller technical details. Rarely does someone file a bug saying that a product's purpose or description is unclear. Have you ever read some documentation in your company, felt confused about what the product does, and filed a bug to say you don't understand what the product is for? No, because no one wants to look dumb.
 
 Product teams, too, often don't ask tech writers to write extensive product overviews. They're usually too blind to this information need, since they've been immersed in the product for many months. And if they're working with users to develop the solution, those users are kind of like co-developers in the product's features and requirements, and so these users also don't need extensive overviews. It seems the only one who needs the overview and larger connecting picture is the tech writer. But tech writers often second-guess this need due to their unfamiliarity with the business and technical domains.
+
+## Next post
+
+Continue to the next post in this series: [Systems thinking and developer portals](/trends/systems-thinking-and-developer-portals.html).

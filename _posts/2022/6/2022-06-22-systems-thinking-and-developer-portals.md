@@ -71,3 +71,7 @@ But neglecting this systems thinking domain, under the assumption that the new c
 The tech writer must find balance in systems thinking, careful not to cast too wide of a net such that his or her own productivity plummets. Most tech writers are still expected to create content (or edit and publish content, or produce some artifact, if only mission statements and strategy documents). Finding the right balance between systems thinking and individual contributor productivity is surely a judgment call.
 
 But if the systems theory really applies, if the developer portal really is a system rather than a collection of independent, standalone documents, then by immersing yourself in this larger landscape, you will begin to see how the other documents influence the content you are producing, and in turn how your content influences the content others are producing. Consequently, you will feel some value in the broader information intake and analysis, and it won't be an extracurricular activity but rather an essential part of the information development process.
+
+## Next post
+
+Continue to the next post in this series: [Systems thinking: Limits to Growth, Complex Cause and Effect, and Shifting the Burden](/trends/systems-thinking-fifth-discipline.html).

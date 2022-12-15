@@ -60,3 +60,7 @@ Email tends to get overused in corporations as a means of communicating everythi
 In distributing content in the workplace, I realized that I'd forgotten all the techniques that I'd learned on the web with my blog. Stuffing all content into a long read, sending only an email rather than leading people back to a website, not actively tracking clicks, not analyzing web page analytics, not organizing the content on any navigable site for later readers -- it's no wonder my approach didn't have much success.
 
 I knew that I'd failed with my doc reports and meeting notes. I decided to re-evaluate my approach by refocusing on web fundamentals.
+
+## Next post
+
+Continue to the next post in this series: [Five basics for building an audience on the web](/web-and-workplace-influence/part3-tools-of-web-influence.html).

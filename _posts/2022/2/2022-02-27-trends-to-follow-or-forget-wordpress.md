@@ -72,3 +72,7 @@ The failure of WordPress to excel as a tech comm tool reinforced the fact that t
 
 {: .tip}
 Even the most popular web platforms of the internet might never find relevance within the enterprise nor be the tool of choice for documentation scenarios (for which they weren't designed).
+
+## Next post
+
+Continue to the next post in this series: [DITA](/trends/trends-to-follow-or-forget-dita.html).

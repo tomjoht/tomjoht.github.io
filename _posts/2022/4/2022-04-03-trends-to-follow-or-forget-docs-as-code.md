@@ -88,3 +88,7 @@ The one weakness of *Docs as Code* is the inability to purchase a larger system 
 
 {: .tip}
 The same tools, processes, and workflows used to write code can also be used to write documentation.
+
+## Next post
+
+Continue to the next post in this series: [Remote work](/trends/trends-to-follow-or-forget-remote-work.html).

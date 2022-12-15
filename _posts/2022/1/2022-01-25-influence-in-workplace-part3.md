@@ -82,3 +82,7 @@ Even by following these basic best practices, many posts, videos, or podcasts pr
 ## My next steps
 
 After revisiting these web fundamentals, I resolved to pivot my approach, to rearchitect the information from my email-only newsletter to an internal site that incorporates all the web techniques I described above. There was just one thing I couldn't quite figure out: the content. If people fundamentally weren't interested in documentation topics, much less meta documentation discussions, and this was my only knowledge and experience, how could I ever create content that would have any reach, even in the right format?
+
+## Next post
+
+Continue to the next post in this series: [Creating engaging content: A balance of interests](/web-and-workplace-influence/part4-creating-engaging-content.html).

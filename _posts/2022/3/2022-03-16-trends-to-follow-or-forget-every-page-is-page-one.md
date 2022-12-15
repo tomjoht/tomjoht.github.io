@@ -65,3 +65,7 @@ The mantra "every page is page one" usually resonates with people without argume
 
 {: .tip}
 Tendencies toward more standalone, modular articles provide an easier user experience than trying to stitch together context and coherence through a sidebar table of contents.
+
+## Next post
+
+Continue to the next post in this series: [API documentation](/trends/trends-to-follow-or-forget-api-documentation.html).

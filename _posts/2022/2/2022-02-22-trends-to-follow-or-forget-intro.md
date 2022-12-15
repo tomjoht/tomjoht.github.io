@@ -36,3 +36,7 @@ I know this can be an explosive topic, as some people might get the impression t
 My [keynote presentation](https://stc-india.org/conferences/2022/tom-johnson-keynote/) was on March 26, 2022, and I've included the recording in this series, but note that the keynote didn't conclude my thoughts on the topic. Instead, it was another stop along the way. 
 
 In fact, the conference organizer wanted me to touch on how my learning from past trends shapes how I assess current and future trends. To this end, I've included takeaways from each trend that serve as a body of principles (gathered inductively) against which current and future trends might be assessed. After I analyze my participation in these 15 trends, I look at whether the principles I've learned could be used to better assess current trends. 
+
+## Next post
+
+Continue to the next post in this series: [Survey about documentation trends that fizzled](/blog/trends-that-faded-survey).
