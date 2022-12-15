@@ -107,3 +107,7 @@ Adam, Ben. [I took a job at Amazon, only to leave after 10 months](https://benad
 Reina, Christopher S., et al. ["Quitting the boss? The role of manager influence tactics and employee emotional engagement in voluntary turnover."](https://journals.sagepub.com/doi/abs/10.1177/1548051817709007) Journal of leadership & organizational studies 25.1 (2018): 5-18.
 
 Tran, S.K. [Google: a reflection of culture, leader, and management.](https://doi.org/10.1186/s40991-017-0021-0) Int J Corporate Soc Responsibility 2, 10 (2017).
+
+## Next post
+
+Continue to the next post in this series: [More specifics about finding a focus](/web-and-workplace-influence/part5-finding-a-focus.html).

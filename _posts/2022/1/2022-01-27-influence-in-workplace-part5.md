@@ -72,3 +72,7 @@ My recommendation is to heed these ideas when they surface and note them somewhe
 With all of these topics, doc topics will naturally surface along a variety of themes and perspectives. For example, in analyzing a competitor's offering, you might highlight the related documentation, or address your company's own documentation. The same goes with user pain points. Trends might relate to upcoming features on your roadmap. This tie-in with documentation will help reinforce some of the reasons for the site itself.
 
 In the next section, I'll look more closely at the newsletter format as the predominant medium in the corporation for this type of content.
+
+## Next post
+
+Continue to the next post in this series: [The newsletter as the social content of corporations](/web-and-workplace-influence/part6-newsletter-content-medium.html).
