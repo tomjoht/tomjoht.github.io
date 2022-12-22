@@ -76,7 +76,7 @@ I can relate to this. When I try to fall asleep at night, my mind naturally wand
 
 {% include ads.html %}
 
-I've noticed the same mental chaos starts brewing in the morning, as I'm arising my sleep. By the time I wake up, I can tell that my brain has been bouncing around different themes in active ways, thinking below my consciousness. It's not as if my mind is somehow turned off at night. It's a chaotic world in there sometimes. So yes, from my own experience, psychic entropy seems to describe the natural state of the mind.
+I've noticed the same mental chaos starts brewing in the morning, as I'm arising from sleep. By the time I wake up, I can tell that my brain has been bouncing around different themes in active ways, thinking below my consciousness. It's not as if my mind is somehow turned off at night. It's a chaotic world there sometimes. So yes, from my own experience, psychic entropy seems to describe the natural state of the mind.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/psychic_entropy_c.jpg" alt="Psychic entropy" /><figcaption>Psychic entropy refers to a state of mental disorder and chaos. Csikszentmihalyi says our natural mental state is one of entropy rather than order and focus. When left to its own, our mind chases rabbit hole after rabbit hole, often gravitating toward the negative.</figcaption></figure>
 
@@ -106,7 +106,7 @@ Knowing that this state of flow isn't a simple technique but rather one that req
 
 In fact, Csikszentmihalyi says that if you develop a capacity to direct your own conscious thought in a focused way, you can more easily pull away from the need for external stimuli, such as from television, to do that focusing for you. When you can define your own thought trajectories, you can find that same pleasure in the directed thoughts that would otherwise come from external stimuli:
 
-> When a person has learned a symbolic system well enough to use it, she has established a portable, self-contained world within the mind.... Without the the capacity to provide its own information, the mind drifts into randomness. It is within each person's power to decide whether it's order will be restored from the outside, in ways over which we have no control, or whether the order will be the result of an internal pattern that grows organically from our skills and knowledge. (127-28)
+> When a person has learned a symbolic system well enough to use it, she has established a portable, self-contained world within the mind.... Without the capacity to provide its own information, the mind drifts into randomness. It is within each person's power to decide whether its order will be restored from the outside, in ways over which we have no control, or whether the order will be the result of an internal pattern that grows organically from our skills and knowledge. (127-28)
 
 In a previous post in this series, [From smartphones to Netflix: moving past plateaus in growth](/blog/limits-of-growth-shifting-burdens/), I observed that after abandoning my smartphone, it didn't take long before I simply moved on to Netflix instead. And I searched to uncover the underlying cause about why I needed distraction in the first place. Csikszentmihalyi's psychology of flow offers a potential reason: my mind sought for "consciousness ordered" (127).
 

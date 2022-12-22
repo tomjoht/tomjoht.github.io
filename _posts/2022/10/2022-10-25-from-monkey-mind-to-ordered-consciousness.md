@@ -28,7 +28,7 @@ I've covered a lot of straightforward ground in this series, but they've all sor
 
 Although I like the idea of getting into a flow state, Csikszentmihalyi's assumption about psychic entropy (monkey mind) being our natural mental state seems like a pessimistic view of human consciousness, in my opinion. I'm not sure I agree with Csikszentmihalyi because that view reduces the value of our most celebrated quality. Why is humanity's natural state a monkey mind? 
 
-Csikszentmihalyi does address this question in a short section called "Recovering Harmony" (p.227). Anticipating this objection, he phrases it as follows: "Aren't people born at peace with themselves &mdash; isn't human nature naturally ordered?" This is also my objection. Why shouldn't my natural mental state be naturally ordered? If it's disordered, how did it get that way? Was I born disordered?
+Csikszentmihalyi addresses this question in a short section called "Recovering Harmony" (p.227). Anticipating this objection, he phrases it as follows: "Aren't people born at peace with themselves &mdash; isn't human nature naturally ordered?" This is also my objection. Why shouldn't my natural mental state be naturally ordered? If it's disordered, how did it get that way? Was I born disordered?
 
 If we can't have ordered consciousness *outside of flow*, and we only experience flow during optimal times, what does this imply about the rest of our time? the bulk of our lives?
 
@@ -150,7 +150,7 @@ The moment I started introspecting while eating a sandwich with my silent childh
 
 ## Paradoxes of consciousness
 
-As humans, we usually celebrate our rational faculties. I love to trace and explore ideas in my head. In *Nichomachean Ethics*, Aristotle says the contemplative life leads to the most pleasure: "For contemplation is at once the highest form of activity, since the intellect is the highest thing in us ...." Our conscious intelligence is the highest form of human nature, so maximizing our highest nature leads to the highest form of living. 
+As humans, we usually celebrate our rational faculties. I love to trace and explore ideas in my head. In *Nicomachean Ethics*, Aristotle says the contemplative life leads to the most pleasure: "For contemplation is at once the highest form of activity, since the intellect is the highest thing in us ...." Our conscious intelligence is the highest form of human nature, so maximizing our highest nature leads to the highest form of living. 
 
 In fact, Csikszentmihalyi even says philosophy can lead to a form of flow:
 

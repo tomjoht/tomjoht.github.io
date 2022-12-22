@@ -17,7 +17,7 @@ Did the creator of TFM feel enough love for the product, and for the users of th
 
 When the answer is yes, R'ing TFM can be a satisfying, worthwhile experience. Too often, unfortunately, the answer is no, in which case, even the most eager and forgiving of readers will find R'ing TFM, at best, a time-wasting disappointment.
 
-As an example of the latter type of experience, my husband and I recently bought a vacuum cleaner. For the the first time in my life, I own a vacuum that does more than spit dirt back out. (Really. In case you haven't seen it for yourself, I can attest that some vacuums do that.) Our new vacuum is an engineering marvel. It's a thing of beauty. You could frame it in a giant shadowbox and hang it on a wall with pride &mdash; if it weren't so useful as a tool.
+As an example of the latter type of experience, my husband and I recently bought a vacuum cleaner. For the first time in my life, I own a vacuum that does more than spit dirt back out. (Really. In case you haven't seen it for yourself, I can attest that some vacuums do that.) Our new vacuum is an engineering marvel. It's a thing of beauty. You could frame it in a giant shadowbox and hang it on a wall with pride &mdash; if it weren't so useful as a tool.
 
 {% include ads.html %}
 

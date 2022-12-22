@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/dmntpn
 series: "Journey away from smartphones"
 jtype: notes_smartphones
-description: "A <i>New York Times</i> article about Luddite teens who rejected their smartphones made me reflect on my own journey away from smartphones and the complexities of discerning how to adopt transformative technology in our lives. In this conclusion to the series, I highlight key learnings and realizations throughout the the year, including how the project changed my life for the better."
+description: "A <i>New York Times</i> article about Luddite teens who rejected their smartphones made me reflect on my own journey away from smartphones and the complexities of discerning how to adopt transformative technology in our lives. In this conclusion to the series, I highlight key learnings and realizations throughout the year, including how the project changed my life for the better."
 ---
 
 ## Luddite teens
@@ -134,7 +134,7 @@ During this series, I realized that streaming media (Hulu, Netflix, etc.) can ta
 
 Watching TV in the family room (rather than on a personal laptop in bed) also promotes TV as a social experience with family members. The TV brings us together on the couch as we comment and interact about the show. Even a bad TV show can be fun to watch with the right people. I'm currently watching "Business Proposal," a Korean drama, with one of my daughters who wants to be an exchange student in Japan, and it's fun to see her excitement and point of view about the content.
 
-I also replaced the the phone-as-alarm-clock model in my bedroom. I love the old-school 1980s GE alarm clock I purchased (which you can only buy on eBay now). The idea of putting a screen-based digital assistant (Alexa Show or similar) on my nightstand seems counter-intuitive to a device-free bedroom. I also like looking at the red numbers on my old-school alarm clock, its only real function is to make an alarm sound (or play bad FM radio). The old-school alarm clock is a constant reminder of my childhood and the days before the Internet.
+I also replaced the phone-as-alarm-clock model in my bedroom. I love the old-school 1980s GE alarm clock I purchased (which you can only buy on eBay now). The idea of putting a screen-based digital assistant (Alexa Show or similar) on my nightstand seems counter-intuitive to a device-free bedroom. I also like looking at the red numbers on my old-school alarm clock, its only real function is to make an alarm sound (or play bad FM radio). The old-school alarm clock is a constant reminder of my childhood and the days before the Internet.
 
 ## Wayfinding
 

@@ -125,7 +125,7 @@ Fitting in periods of sustained focus can be especially difficult in corporate c
 
 Figuring out the *tactics* of deep work can be more challenging than the strategy itself. For me, when I have several thirty-minute meetings that punctuate the day, it can be difficult to focus deeply. First, I usually have to prepare for the meetings, which means coming up with agenda topics. After the meeting, I'm somewhat emotionally depleted, so I need some recovery time. I also want to type up the notes and send them out, then create tickets for any action items. A thirty-minute meeting, therefore, takes at least an hour. Add lunch on top of three meetings, and my actual time is much less. If I look at the clock and see that my next meeting is in 20 minutes, it demotivates me from jumping into a 90-minute focus session.
 
-Therefore, to get several 90-minute focus sessions in during a workday, I might need to adjust my schedule a bit. For example, I could try to adjust my meetings so that they're all back to back, which would allow for more sustained focus periods. Or I could shorten the focus sessions.
+Therefore, to get in several 90-minute focus sessions in during workday, I might need to adjust my schedule a bit. For example, I could try to adjust my meetings so that they're all back to back, which would allow for more sustained focus periods. Or I could shorten the focus sessions.
 
 In short, carving out several 90-minute sessions a day isn't easy. It might involve ignoring colleagues and product teams for chunks of time, which could seem off-putting in a "ubiquitous *culture of connectivity*, where one is expected to read and respond to e-mails (and related communication) quickly" (56).
 
@@ -145,7 +145,7 @@ Here's the secret: If you can complete three of these 90-minute sessions a day, 
 
 ## Limits to focused work
 
-After I cranked out the description of those complex attributes, my brain actually hurt. I could feel my mental wheels were taxed. That's a good sign that I was actually engaged in deep work: I could feel the muscles in my brain were worked over, like I'd just gone to the gym.
+After I cranked out the description of those complex attributes, my brain actually hurt. I could feel my mental wheels were taxed. That's a good sign that I was actually engaged in deep work: I could feel the muscles in my brain being worked over, like I'd just gone to the gym.
 
 Newport says most people can't sustain states of focused concentration for more than 1-2 hours a day. Even the most experienced professionals tap out at 4 hours. Newport writes, "The most adept deep thinker cannot spend more than four of these hours in a state of true depth" (220). 
 
@@ -163,7 +163,7 @@ Newport devotes a good chunk of the book to enemies of distraction. Chief among 
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/social-media-destroying-focus.jpg" alt="Social media can destroy your focus" /><figcaption>Social media can disrupt your focus, training your brain to naturally drift toward shallow, fragmented thinking. Staying in this mode too long can make it difficult to sustain your focus when you actually want to get lost in deep work.</figcaption></figure>
 
-But really, I think the key to productivity is to devote 90-minute distraction-free sessions during your day. If you can accomplish these focus sessions, what you do outside of those focus blocks, such as interact with social media, doesn't seem too harmful to me. Newport does caution: "Spend enough time in a state of frenetic shallowness and you *permanently* reduce your capacity to perform deep work" (7). Again, I don't think social media *permanently* rewires our brains. But it might take some re-training to break free of the constant scrolling and skimming habits.
+But really, I think the key to productivity is to devote 90-minute distraction-free sessions during your day. If you can accomplish these focus sessions, what you do outside of those focus blocks, such as interacting with social media, doesn't seem too harmful to me. Newport does caution: "Spend enough time in a state of frenetic shallowness and you *permanently* reduce your capacity to perform deep work" (7). Again, I don't think social media *permanently* rewires our brains. But it might take some re-training to break free of the constant scrolling and skimming habits.
 
 ## Dealing with email
 

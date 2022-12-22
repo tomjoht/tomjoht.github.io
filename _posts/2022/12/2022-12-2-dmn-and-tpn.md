@@ -36,7 +36,7 @@ But as soon as you lose momentum on that task are your mind starts to wander, ba
 > 
 > The DMN and TPN are the yin and yang of your brain. Both help us and hold us back in certain ways. One isn't better than the other. But as helpful as the DMN can be (angelic in its own right), it is also a Demon (as its initialism suggests!) for the ADHD or VAST brain because of our capacity for intractable rumination while captive in it. (24-25)
 
-Hallowell and Ratey say to think of the DMN as an angel and demon. Angel for the imaginative, creative muse that can give rise to insights, epiphanies, and other realizations. And a demon for it's ability to amplify negative thoughts, construct dark imagination and anxiety, to multiply regret and worry.
+Hallowell and Ratey say to think of the DMN as an angel and demon. Angel for the imaginative, creative muse that can give rise to insights, epiphanies, and other realizations. And a demon for its ability to amplify negative thoughts, construct dark imagination and anxiety, to multiply regret and worry.
 
 For a good podcast explaining DMN and TPN networks, see the [Angels and Demons (The TPN and DMN Networks)](https://www.buzzsprout.com/1990340/10633118) episode from *The Attention Seeking Podcast.*
 
@@ -53,7 +53,7 @@ With both modes co-active, however, as soon as someone with ADHD starts a task, 
 > To paraphrase Gabrieli, the problem when ADHD enters in is twofold. The first is what’s called the anticorrelation property of the two networks. Imagine a seesaw. In a neurotypical brain, when the TPN is turned on and you’re on task, the DMN is turned off. But in the ADHD brain, the fMRI shows that when the TPN is turned on, the DMN is turned on as well, trying to muscle its way in and pull you into its grasp, thereby distracting you. In ADHD, therefore, the DMN competes with the TPN, which in most people it does not do.
 > The blessing and the curse vie for top billing, for attention. When the DMN brings lovely images, it is our golden tool. But when it jumps track into the TPN and hijacks consciousness, then the DMN becomes the Demon, the seat of misery, the disease of the imagination. Trapped in the past or future in the DMN, you’re likely to abandon projects you once started with enthusiasm, make careless mistakes, or, worse, fall into a state of misery and despair, for no good reason whatsoever. (25)
 
-Just being aware of these two networks seems useful. If you can recognize when your DMN is taking over, you can then distract it and try to reactive your TPN. It's also helpful to recognize that the DMN gravitates toward *negative* thoughts. If the DMN were to gravitate toward positive thinking, it would be a much more welcome state. I wrote earlier about our negativity bias in [reading the news](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/#stop-reading-the-news); this negativity bias is the intrigue humans seem to have for the negative over the positive (we slow down to see wrecks alongside the the road, but not wildflowers). The DMN also has has its own built-in negativity bias, it seems.
+Just being aware of these two networks seems useful. If you can recognize when your DMN is taking over, you can then distract it and try to reactive your TPN. It's also helpful to recognize that the DMN gravitates toward *negative* thoughts. If the DMN were to gravitate toward positive thinking, it would be a much more welcome state. I wrote earlier about our negativity bias in [reading the news](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/#stop-reading-the-news); this negativity bias is the intrigue humans seem to have for the negative over the positive (we slow down to see wrecks alongside the road, but not wildflowers). The DMN also has has its own built-in negativity bias, it seems.
 
 ## Hacks for getting going in the morning
 
@@ -150,3 +150,7 @@ Hallowell, Edward M., and John J. Ratey. [*ADHD 2.0: New Science and Essential S
 MTA Cooperative Group. ["A 14-month randomized clinical trial of treatment strategies for attention-deficit/hyperactivity disorder."](https://pubmed.ncbi.nlm.nih.gov/10591283/) *Archives of General Psychiatry* 56.12 (1999): 1073-1086.
 
 Torres-Acosta, Noel, et al. ["Cardiovascular effects of ADHD therapies: JACC review topic of the week."](https://pubmed.ncbi.nlm.nih.gov/32792083/) *Journal of the American College of Cardiology* 76.7 (2020): 858-866.
+
+## Next post
+
+Continue to the last post in this series: [Conclusion and takeaways from my Journey Away from Smartphones series](/blog/conclusion-and-learnings-smartphone-series/).

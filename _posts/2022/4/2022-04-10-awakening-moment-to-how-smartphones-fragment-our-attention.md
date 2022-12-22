@@ -42,7 +42,7 @@ Hari's book opened my eyes to the way smartphones are wrecking our ability to fo
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/distractionvsclarity6.svg" alt="Distraction versus clarity -- the effect of smartphones on information overload and attention fragmentation" /><figcaption>Distraction versus clarity -- the effect of smartphones on information overload and attention fragmentation</figcaption></figure>
 
-Perhaps most frightenly, if I left my phone somewhere, it would be uncomfortable to be alone with my own thoughts. It was hard to have *nothing* to look at, to be _left alone in my head_. What would I think about?
+Perhaps most frighteningly, if I left my phone somewhere, it would be uncomfortable to be alone with my own thoughts. It was hard to have *nothing* to look at, to be _left alone in my head_. What would I think about?
 
 After _Stolen Focus_ (thank goodness I made it through!), I decided to read other books on similar themes. I picked up Cal Newport's _[Digital Minimalism](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy-ebook/dp/B07DBRBP7G)_, which takes a similar focus as Hari's book but with a different approach. Whereas Hari approaches the distraction issue within the context of personal struggle, Newport (a computer scientist academic) explains that he's never used Facebook (nor been sucked into other social media), so his approach is that of an outside expert looking in. He grew interested in the topic of distraction after writing his book _Deep Work_. Apparently, many readers said that social media was making it difficult for them to achieve deep focus. Newport explains, "The urge to check Twitter or refresh Reddit becomes a nervous twitch that shatters uninterrupted time into shards too small to support the presence necessary for an intentional life."
 
@@ -78,7 +78,7 @@ Dobelli explains that his constant reading of news feeds, headlines, and other s
 
 > Yet I still felt inexorably drawn to the overwhelming, garish parade of news, even though it was clearly making me anxious. Fragments of news reports were constantly intruding into my reality, and I was suddenly finding it difficult to read longer texts in one go. It was as though somebody had carved up my attention into tiny pieces. I started to panic that I'd never be able to recover my attention span, that I'd never again be able to assemble these fragments into a whole. (p 10)
 
-It's not just that news feeds are full of short content, training us to skim quickly through it. The problem is that news itself focuses on content that taps into our *negativity bias*. The news' focus exploits our psychological vulnerability to pay extra attention to bad things happening around us. (News is actually a double whammy that combines our negativity bias, a preference for the negative, with our *novelty bias*, an inclination to see seek out what's new.)
+It's not just that news feeds are full of short content, training us to skim quickly through it. The problem is that news itself focuses on content that taps into our *negativity bias*. The news' focus exploits our psychological vulnerability to pay extra attention to bad things happening around us. (News is actually a double whammy that combines our negativity bias, a preference for the negative, with our *novelty bias*, an inclination to seek out what's new.)
 
 Presenting us with negativity achieves what news organizations so desperately need to stay afloat: our attention. Just as we slow down to see a car crash on the freeway, our built-in _negativity bias_ makes us focus much more on alarming events. Feed algorithms optimize around the most read content, so if we're drawn to the negative, it's a downward spiral. The negativity bias is a topic Hari also touches on in his book, explaining:
 
@@ -146,7 +146,7 @@ Even just looking at your phone apparently distracts you. In [Having Your Smartp
 
 > Our research suggests that, in a way, the mere presence of our smartphones is like the sound of our names &mdash; they are constantly calling to us, exerting a gravitational pull on our attention. If you have ever felt a "phantom buzz" you inherently know this. Attempts to block or resist this pull takes a toll by impairing our cognitive abilities. In a poignant twist, then, this means that when we are successful at resisting the urge to attend to our smartphones, we may actually be undermining our own cognitive performance.
 
-In other words, even if resolve to leave your smartphone in your pocket and *not check it*, the willpower needed to resist the urge to check your phone also begins to drain you. And if you've left notifications on, the pull to respond to the notification buzz (and see what the incoming message is) is nearly impossible.
+In other words, even if you resolve to leave your smartphone in your pocket and *not check it*, the willpower needed to resist the urge to check your phone also begins to drain you. And if you've left notifications on, the pull to respond to the notification buzz (and see what the incoming message is) is nearly impossible.
 
 At the very least, by putting your phone into "Do not disturb" mode and leaving it in your bag (out of sight), you greatly increase your chances of being able to focus.
 

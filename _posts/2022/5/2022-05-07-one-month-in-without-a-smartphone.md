@@ -79,7 +79,7 @@ On my way home, driving from the train station to my house, I noticed, for the f
 
 Wouldn't it be nice, I thought, to have my own classical CDs where I could choose the type of music, and where I wouldn't have to listen to membership campaign drives? So I ordered a handful of classical CDs. (I did not anticipate ordering CDs in 2022.)
 
-At a thrift shop, I also found a whole shelf of CDs and picked up a a handful for a dollar each (one included Gershwin's Rhapsody in Blue, which brought memories of watching Fantasia back to my kids). I realize that I could get classical music from a radio, from Spotify, or elsewhere, but I like being offline. I like having more control and awareness of what I'm listening to. I like being unplugged. There's something deeply calming about it, not to be interrupted by someone speaking between each track.
+At a thrift shop, I also found a whole shelf of CDs and picked up a handful for a dollar each (one included Gershwin's Rhapsody in Blue, which brought memories of watching Fantasia back to my kids). I realize that I could get classical music from a radio, from Spotify, or elsewhere, but I like being offline. I like having more control and awareness of what I'm listening to. I like being unplugged. There's something deeply calming about it, not to be interrupted by someone speaking between each track.
 
 ## Cameras
 
@@ -107,7 +107,7 @@ I remember taking photography in high school and loving it (especially developin
 
 Speaking of my flip phone, I did install the Voxer app on it. (Voxer is an app that allows you to leave recorded messages to other people.) Why did I install this? My wife started sending me long voice-transcribed texts that were cumbersome to read over text. We do communicate well with Voxer, as it allows us to leave asynchronous voice messages to each other during the day. So basically, Voxer and Audible are the only APKs I've sideloaded onto my flip phone.
 
-I am still glad that I got a phone with an Android operating system (Android 9) so that I can sideload APKs onto it. As I said previously, the screen is so small and the interaction so tedious that even if you were to sideload a social media app onto it, the app would be too cumbersome to use. To use Voxer, I have to triple-click my asterisk key to switch my cursor into mouse mode, slowly move the mouse over the the buttons I want to use, etc. When finished, I triple-click twice to switch back to D-pad mode.
+I am still glad that I got a phone with an Android operating system (Android 9) so that I can sideload APKs onto it. As I said previously, the screen is so small and the interaction so tedious that even if you were to sideload a social media app onto it, the app would be too cumbersome to use. To use Voxer, I have to triple-click my asterisk key to switch my cursor into mouse mode, slowly move the mouse over the buttons I want to use, etc. When finished, I triple-click twice to switch back to D-pad mode.
 
 I admit, though, that after having more real time conversations with my wife over the phone, I prefer those real-time conversations to Voxer. But real-time conversations aren't always convenient, for example, if I'm focused on some task or a meeting and my wife wants to chat, or when I want to chat but she has a meeting right then. In those situations, Voxer works better. This is a scenario that I'm sort of mixed about. Presumably, having a basic phone helps reduce disruptions. However, if I always take calls in real-time, I open myself to more disruptions. But disruptions from my family are usually good ones that I welcome. And ultimately, I'd like to talk on the phone more with my family. So I'm not really looking to find a better way to text because, as Jonathan Foer writes, texting diminishes us. Foer explains:
 
@@ -117,7 +117,7 @@ I admit, though, that after having more real time conversations with my wife ove
 
 In other words, technologies like texting and email start off as substitutes for challenging scenarios (like the one I described). But then these technologies become the default rather than more in-person, real-time interactions because the substitutes take less emotional energy and effort. But they are diminished forms of communication.
 
-Perhaps I need to stop looking for ways to text from a flip phone and instead actually use the phone more. In short, to use my phone *as a phone*. (Seeing that last line as a revelation is astonishing.) I'm not great at phone conversations, I admit, but I shouldn't be looking for ways to texts instead of use the phone. I imagine that, like all the other activities I've learned to enjoy (driving within an app, taking pictures with a real camera, etc.), speaking with other humans on the phone is something that will enrich my life more, if I but take the effort to do it.
+Perhaps I need to stop looking for ways to text from a flip phone and instead actually use the phone more. In short, to use my phone *as a phone*. (Seeing that last line as a revelation is astonishing.) I'm not great at phone conversations, I admit, but I shouldn't be looking for ways to text instead of use the phone. I imagine that, like all the other activities I've learned to enjoy (driving within an app, taking pictures with a real camera, etc.), speaking with other humans on the phone is something that will enrich my life more, if I but take the effort to do it.
 
 ## Deeper doubts about technology
 
@@ -152,7 +152,7 @@ The sad thing is that kids growing up today don't know how life was different be
 
 I've started to wonder about my career as a technical writer, about my time blogging (which I've been doing since 2006). As I said, tech wasn't always this way. In the 90s when everyone was first going online, and that first decade in 2000, tech was growing/evolving/expanding in fun, interesting ways. It was exciting. That's when I became a technical writer. It was engaging to be working in the digital frontier, as it seemed like so much potential was ahead. And blogging, too, was such a compelling, interactive hobby.
 
-But it does seem like tech has sort of caught up and surfaced its true face. It has made us more disengaged with those around us, diminished us as people, made us less present, more overwhelmed with too much irrelevant information, exploited our psychological vulnerabilities, and more. I just want to turn back that dial to 2000 and go back to that time. Is it even possible? This series all about finding answers to that question.
+But it does seem like tech has sort of caught up and surfaced its true face. It has made us more disengaged with those around us, diminished us as people, made us less present, more overwhelmed with too much irrelevant information, exploited our psychological vulnerabilities, and more. I just want to turn back that dial to 2000 and go back to that time. Is it even possible? This series is all about finding answers to that question.
 
 ## Next post
 

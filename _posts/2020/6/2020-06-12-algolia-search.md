@@ -663,7 +663,7 @@ I have to wonder if half of these are bots, especially the search for ♣♣. At
 
 One trend seems clear: Search analytics are even less helpful than general web analytics. That's kind of sad, because often when we think of search analytics, we imagine getting hold of detailed information that describes exactly what users are looking for, their terms and phrases, and more. But the reality is not that at all.
 
-With 715 searches conducted over the the past 30 days based on 86k users, that means about 0.8% of visitors (on my site) use site search. Granted, people might search documentation more than a blog, but I doubt that percentage climbs up too much.
+With 715 searches conducted over the past 30 days based on 86k users, that means about 0.8% of visitors (on my site) use site search. Granted, people might search documentation more than a blog, but I doubt that percentage climbs up too much.
 
 ## Conclusion
 
