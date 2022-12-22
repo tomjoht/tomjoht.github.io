@@ -46,7 +46,7 @@ Perhaps most frighteningly, if I left my phone somewhere, it would be uncomforta
 
 After _Stolen Focus_ (thank goodness I made it through!), I decided to read other books on similar themes. I picked up Cal Newport's _[Digital Minimalism](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy-ebook/dp/B07DBRBP7G)_, which takes a similar focus as Hari's book but with a different approach. Whereas Hari approaches the distraction issue within the context of personal struggle, Newport (a computer scientist academic) explains that he's never used Facebook (nor been sucked into other social media), so his approach is that of an outside expert looking in. He grew interested in the topic of distraction after writing his book _Deep Work_. Apparently, many readers said that social media was making it difficult for them to achieve deep focus. Newport explains, "The urge to check Twitter or refresh Reddit becomes a nervous twitch that shatters uninterrupted time into shards too small to support the presence necessary for an intentional life."
 
-One of Newport's key strategies is a thirty day period of declutter, in which you detach from all but absolutely critical apps. Newport says, "The declutter acts as a jarring reset: you come into the process a frazzled maximalist and leave an intentional minimalist"
+One of Newport's key strategies is a thirty day period of declutter, in which you detach from all but absolutely critical apps. Newport says, "The declutter acts as a jarring reset: you come into the process a frazzled maximalist and leave an intentional minimalist."
 
 {% include ads.html %}
 
@@ -98,7 +98,7 @@ As we're confronted with impossible-to-solve problems, Dobelli says we come to a
 
 I wasn't sure if I'd adopted an attitude of learned helplessness, but consuming news all day was not uplifting. When I looked at sites like ESPN, which I thought were mostly keeping me up to date with sports, I saw that the focus frequently highlighted the negative. The Ben Simmons saga. Lebron's decline and disappointments about the Lakers playoff hopes. The struggling Brooklyn Nets and Kyrie's stubbornness about not getting vaxed. The inanity of Covid policies and who can play. Donciv's 16+ tech fouls. Ejections and fouls &mdash; did this foul merit a level 2 flagrant assessment? *Watch here*.
 
-ESPN's most popular analyst is Steven A. Smith. Smith's entire TV persona is all about getting riled up because that gets the audience riled up. And what gets the audienced riled up gets views, and those views not only drive more returns to ESPN but also pull people into watching the games as well. (For a funny video parodying how worked up Steven A. Smith and other commentators get, making even the trivial into high-stakes arguments, see this SNL skit, [ESPN's First Take](https://www.youtube.com/watch?v=6RMF-TQyKtU), where the news host tells Steven A. that despite the early morning, "you already sound like you've been hit by a bulldozer of cocaine." )
+ESPN's most popular analyst is Steven A. Smith. Smith's entire TV persona is all about getting riled up because that gets the audience riled up. And what gets the audienced riled up gets views, and those views not only drive more returns to ESPN but also pull people into watching the games as well. (For a funny video parodying how worked up Steven A. Smith and other commentators get, making even the trivial into high-stakes arguments, see the SNL skit [ESPN's First Take](https://www.youtube.com/watch?v=6RMF-TQyKtU), in which the news host tells Steven A. that despite the early morning, "you already sound like you've been hit by a bulldozer of cocaine." )
 
 Unsurprisingly, when I stopped checking ESPN, I also stopped watching a lot of NBA games.
 
@@ -130,7 +130,7 @@ I took out my credit cards and driver's license from my phone's built-in case so
 
 Within the next few days of simplifying my phone, I started to feel more peace of mind. I realized that, among all the baby steps I'd taken, turning off the notifications (hitting that "Do Not Disturb" button) and keeping my phone in my bag were the biggest game changers. Being notified throughout the day of every little incoming tidbit of news, email, chat, or other information was exhausting.
 
-I realized that, even without notifications, simply reaching for my phone, opening it, and receiving some incoming information (news, social feeds, email, alerts, etc) had been presenting me with information that I needed to process. Most of the time, the information was trivial, but doing this all day long, at every spare moment, builds up the level of cognitive demand and expends more processing bandwidth. For example, reading through work email in the evening, even if I didn't respond, would often require some mental energy and processing power. Multiply those moments of information processing throughout the day, and it's no wonder smartphones overwhelm us with information. We become the "frazzled maximalist," as Newport says, with uninterrupted time shattered "into shards too small to support the presence necessary for an intentional life."
+I realized that, even without notifications, simply reaching for my phone, opening it, and receiving some incoming information (news, social feeds, email, alerts, etc) had been presenting me with information that I needed to process. Most of the time, the information was trivial, but doing this all day long, at every spare moment, builds up the level of cognitive demand and expends more processing bandwidth. For example, reading through work emails in the evening, even if I didn't respond, would often require some mental energy and processing power. Multiply those moments of information processing throughout the day, and it's no wonder smartphones overwhelm us with information. We become the "frazzled maximalist," as Newport says, with uninterrupted time shattered "into shards too small to support the presence necessary for an intentional life."
 
 By shutting off notifications and feeds, I found that I had more mental energy in the evenings. Instead of feeling exhausted at 8 or 9pm, I had more gas in the tank now, it seemed. And whereas previously I'd wake up sometimes at 4am for seemingly no reason at all, now I started sleeping more through the night. (I've never suffered from anxiety, but perhaps this firehose of incoming information, especially the news, might have been smoldering on the backburner of my mind.) Most interestingly, I seemed to simply have more time &mdash; time to read.
 
@@ -170,7 +170,7 @@ Continue on to my next post in this series: [My initial rules and reasons for in
 
 Dobelli, Rolf. _[Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life](https://www.amazon.com/Stop-Reading-News-Manifesto-Happier/dp/1529342724/)_. Hachette UK, 2020.
 
-Duke, Kristen, et al. "[Having your smartphone nearby takes a toll on your thinking](https://hbr.org/2018/03/having-your-smartphone-nearby-takes-a-toll-on-your-thinking)." Harvard Business Review (2018).
+Duke, Kristen, et al. "[Having Your Smartphone Nearby Takes a Toll on Your Thinking](https://hbr.org/2018/03/having-your-smartphone-nearby-takes-a-toll-on-your-thinking)." *Harvard Business Review* (2018).
 
 Hari, Johann. _[Stolen Focus: Why You Can't Pay Attention--and How to Think Deeply Again](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511)_. Crown, 2022.
 
@@ -178,7 +178,7 @@ Levitin, Daniel J. [Why the modern world is bad for your brain](https://www.theg
 
 Newport, Cal. _[Digital Minimalism: Choosing a focused life in a noisy world](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy-ebook/dp/B07DBRBP7G)_. Penguin, 2019.
 
-Williams, James. _[Stand out of our light: freedom and resistance in the attention economy](https://www.thriftbooks.com/w/stand-out-of-our-light-freedom-and-resistance-in-the-attention-economy_james-williams/18875622/item/27889397/#edition=20112725&idiq=37581486)_. Cambridge University Press, 2018.
+Williams, James. _[Stand Out of Our Light: Freedom and Resistance in the Attention Economy](https://www.thriftbooks.com/w/stand-out-of-our-light-freedom-and-resistance-in-the-attention-economy_james-williams/18875622/item/27889397/#edition=20112725&idiq=37581486)_. Cambridge University Press, 2018.
 
 ## Next post
 

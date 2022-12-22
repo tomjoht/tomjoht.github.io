@@ -29,7 +29,7 @@ In reading more, I initially thought Kindle would be the way to go, but early on
 
 When did we all start reading exclusively on screens in the first place? Screens are too distracting. Not only are there dozens of links to click on each page, there's no investment to stay on the screen for any prolonged period of time. As a result, it's too easy to jump from page to page, task to task, until I'm scatterbrained and unfocused. When I print something out, I can take my focus off the screen and read more linearly in a prolonged way. It's a much more enjoyable experience to read offline.
 
-While initially I developed a distaste for smartphone screens (due their attention-wrecking influence), I've become more distrustful of screens in general, including computer screens. When I look around me, it seems that everyone is focused on screens of some sort almost all day long. In the morning, we eat breakfast looking at our smartphones, then we sit at our desks and stare at the computer screens all day at work, then in the evenings we look at TV screens for entertainment. Those driving new cars often have huge multi-color infotainment screens as well (e.g. look at any Tesla). Is this what life has come to &mdash; to always be looking at screens?
+While initially I developed a distaste for smartphone screens (due their attention-wrecking influence), I've become more distrustful of screens in general, including computer screens. When I look around me, it seems that everyone is focused on screens of some sort almost all day long. In the morning, we eat breakfast looking at our smartphones, then we sit at our desks and stare at the computer screens all day at work, then in the evenings we look at TV screens for entertainment. Those driving new cars often have huge multi-color infotainment screens as well (e.g., look at any Tesla). Is this what life has come to &mdash; to always be looking at screens?
 
 I do feel a growing cognitive dissonance about technology in general. Since moving away from smartphones was so pleasing, I keep wondering, what else can I abandon? How else can I move back into the 90s or early 2000s with tech? Do I start composing blog posts longhand? Do I explore vinyl records?
 
@@ -153,6 +153,17 @@ The sad thing is that kids growing up today don't know how life was different be
 I've started to wonder about my career as a technical writer, about my time blogging (which I've been doing since 2006). As I said, tech wasn't always this way. In the 90s when everyone was first going online, and that first decade in 2000, tech was growing/evolving/expanding in fun, interesting ways. It was exciting. That's when I became a technical writer. It was engaging to be working in the digital frontier, as it seemed like so much potential was ahead. And blogging, too, was such a compelling, interactive hobby.
 
 But it does seem like tech has sort of caught up and surfaced its true face. It has made us more disengaged with those around us, diminished us as people, made us less present, more overwhelmed with too much irrelevant information, exploited our psychological vulnerabilities, and more. I just want to turn back that dial to 2000 and go back to that time. Is it even possible? This series is all about finding answers to that question.
+
+## References
+
+References
+Foer, Jonathan Safran. "[Technology is diminishing us](https://www.theguardian.com/books/2016/dec/03/jonathan-safran-foer-technology-diminishing-us)." *The Guardian.* 3 Dec 2016. . 
+
+"[How Social Media is Destroying Society](https://www.youtube.com/watch?v=yJ9oEi3Yyg0)." *Common Knowledge*. YouTube. 3 Nov 2020.
+
+Johnson, Tom. "[Review of Peter Norton's *Autonorama: The Illusory Promise of High-Tech Driving*](/blog/review-of-peter-norton-autonorama-illusory-promise-of-high-tech-driving/)." *I’d Rather Be Writing*. Apr 25, 2022. 
+
+Wilmer, Henry H., Lauren E. Sherman, and Jason M. Chein. "[Smartphones and cognition: A review of research exploring the links between mobile technology habits and cognitive functioning](https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00605/full)." *Frontiers in Psychology* 8 (2017): 605. 
 
 ## Next post
 

@@ -164,7 +164,7 @@ The philosopher's deep introspection and rigorous examination of ideas, which on
 
 ## When consciousness trends toward the dark side
 
-Here's one idea about why we might trend toward the dark side, especially in contemporary times. Maybe the same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into more intense monkey mind. 
+Here's one idea about why we might trend toward the dark side, especially in contemporary times. Maybe the same dynamics that pushed us into the bright side of consciousness can also, if taken to the extreme, push us into the dark side of consciousness. More specifically, increasing the amount of complexity and chaos might propel us into a more intense monkey mind. 
 
 Obviously, monkey mind has been around for a long time, but I can't help but wonder if some technologies have the potential to exacerbate it. Specifically, the internet has the capacity to expose the human mind to a firehose of complexity and chaos. What is the relationship between surfing the internet, specifically doom-scrolling and boredom browsing, and monkey mind?
 

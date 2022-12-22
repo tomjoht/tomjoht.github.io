@@ -22,7 +22,7 @@ If you're new to this series, see these previous posts:
 
 Perhaps the most interesting observation about living without a smartphone is that I've developed an interest in classical music. I've never been into classical music before, but now this music seems so much more soothing and satisfying than other music types. What can cause a sudden interest in classical music? I found this Quora article:
 
-> It's probably that with age you have developed the patience needed to appreciate the classical works. Typical "pop" tunes only last around three minutes, and listeners become accustomed to that pace, so when they're faced with classical works that may take far longer than that just to get through the introduction, they just don't have the attention span to appreciate the more expansive themes. ([Why am I suddenly listening to classical music more often?](https://www.quora.com/Why-am-I-suddenly-listening-to-classical-music-more-often))
+> It's probably that with age you have developed the patience needed to appreciate the classical works. Typical "pop" tunes only last around three minutes, and listeners become accustomed to that pace, so when they're faced with classical works that may take far longer than that just to get through the introduction, they just don't have the attention span to appreciate the more expansive themes. ([Why am I suddenly listening to classical music more often?](https://qr.ae/prGmZc))
 
 Could there be a link between the attention span and a preference for classical music? This gives me hope that perhaps I'm recapturing my long-form attention again. I think it's really happening.
 
@@ -107,6 +107,10 @@ If I find an interesting article, I save it to My Pocket. Then I print it out an
 ## Conclusion
 
 Overall, life is better without a smartphone. How much better? So far, quite a bit. Granted, in abandoning the smartphone, I feel like I've rejected part of my tech membership, somehow. But one day I think more people will suddenly realize that smartphones haven't improved our quality of life. They have only reduced our quality of life, despite all the apps we thought were indispensable. Those apps really aren't. What is indispensable is life and the moments we lose out on.
+
+## References
+
+["Why am I suddenly listening to classical music more often?"](https://qr.ae/prGmZc) *Quora.* Answer from Brian Whitehead. 11 Dec 2016.
 
 ## Next post 
 

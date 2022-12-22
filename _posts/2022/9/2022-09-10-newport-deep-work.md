@@ -99,7 +99,7 @@ I'm also trying to train my brain's muscles for more extended periods of concent
 
 So I recognize that my general inclination is to break up this 90-minute focus session and do something easier, such as glance at the news and my email. By resisting, I'm building up my ability to focus in a more sustained way. "The ability to concentrate intensely is a skill that must be trained," Newport says (157). The brain is a muscle, and the more I can resist distraction, the stronger my long-form concentration power becomes.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trainmybrainmuscles.jpg" alt="Train your brain's muscles" /><figcaption>Think of concentration as a brain muscle. You have to strengthen your concentration ability to get better it. Our natural tendency is to stray off task and occupy our attention with easy things. Resist this tendency, and you'll get better at immersion in deep work.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/trainmybrainmuscles.jpg" alt="Train your brain's muscles" /><figcaption>Think of concentration as a brain muscle. You have to strengthen your concentration ability to get better at it. Our natural tendency is to stray off task and occupy our attention with easy things. Resist this tendency, and you'll get better at immersion in deep work.</figcaption></figure>
 
 ## Routines
 
@@ -125,7 +125,7 @@ Fitting in periods of sustained focus can be especially difficult in corporate c
 
 Figuring out the *tactics* of deep work can be more challenging than the strategy itself. For me, when I have several thirty-minute meetings that punctuate the day, it can be difficult to focus deeply. First, I usually have to prepare for the meetings, which means coming up with agenda topics. After the meeting, I'm somewhat emotionally depleted, so I need some recovery time. I also want to type up the notes and send them out, then create tickets for any action items. A thirty-minute meeting, therefore, takes at least an hour. Add lunch on top of three meetings, and my actual time is much less. If I look at the clock and see that my next meeting is in 20 minutes, it demotivates me from jumping into a 90-minute focus session.
 
-Therefore, to get in several 90-minute focus sessions in during workday, I might need to adjust my schedule a bit. For example, I could try to adjust my meetings so that they're all back to back, which would allow for more sustained focus periods. Or I could shorten the focus sessions.
+Therefore, to get in several 90-minute focus sessions during workday, I might need to adjust my schedule a bit. For example, I could try to adjust my meetings so that they're all back to back, which would allow for more sustained focus periods. Or I could shorten the focus sessions.
 
 In short, carving out several 90-minute sessions a day isn't easy. It might involve ignoring colleagues and product teams for chunks of time, which could seem off-putting in a "ubiquitous *culture of connectivity*, where one is expected to read and respond to e-mails (and related communication) quickly" (56).
 

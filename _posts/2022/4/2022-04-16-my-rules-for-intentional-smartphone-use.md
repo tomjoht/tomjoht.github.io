@@ -29,7 +29,7 @@ Here are my initial rules/philosophies and the underlying reasons.
 Reasons why:
 
 * Smartphones, especially carried in your pocket, encourage constant checking of feeds/news throughout the day, at every moment of idle time. This constant viewing time on the smartphone reduces your attention span and ability to focus.
-* Giving every spare moment of attention to your phone also detracts from your ability to reflect with your own thoughts. You end up with "solitude deprivation," as [Adam Altman writes](https://www.theguardian.com/books/2016/dec/03/jonathan-safran-foer-technology-diminishing-us). There's psychological merit in allowing your mind to wander, to sort out thoughts in your head, gradually making connections and realizations. This solitude isn't wasted time but is necessary for your brain to make sense of the world. When you deprive yourself of this solitude (by using every spare moment of attention on your phone), you lose out on an essential brain activity (it's like a defrag process on a computer).
+* Giving every spare moment of attention to your phone also detracts from your ability to reflect with your own thoughts. You end up with "solitude deprivation," as [Jonathan Safran Foer writes](https://www.theguardian.com/books/2016/dec/03/jonathan-safran-foer-technology-diminishing-us). There's psychological merit in allowing your mind to wander, to sort out thoughts in your head, gradually making connections and realizations. This solitude isn't wasted time but is necessary for your brain to make sense of the world. When you deprive yourself of this solitude (by using every spare moment of attention on your phone), you lose out on an essential brain activity (it's like a defrag process on a computer).
 * Every incoming piece of information requires processing power that wears away at your day's energy level and mental bandwidth. Every piece of incoming information requires you to decide its priority, relevance, importance, needed input, required actions, etc. This constant information processing often leaves us frazzled and exhausted by evening, since we spend our energy dealing with a deluge of this incoming information rather than focusing on a more singular task. Our brains weren't built to take in this much information on a daily basis and process it throughout the day (constantly context-switching from our current task to sort an incoming item of information).
 * We receive a tremendous amount of information each day by being plugged into news social/sports feeds and constantly assessing, sorting, and filing incoming information, so as to prepare for the next incoming piece of information. As a result, our long-term concentration on any single item gets discarded in favor of this short-term sorting activity, which we've taught our brain to do.
 * In hijacking our attention, smartphones detract from our ability to be in the present. They pull us out of awareness, focus, and interaction with our current environment and those around us. This detachment while in the presence of other humans (our family, friends, colleagues) diminishes us as people. It weakens our ability to listen, respond, communicate, and share with others. This detachment moves us toward more social isolation, moving us away from human interaction and more towards screen interaction (even if with another person). This dehumanization leaves us feeling empty and lonely; it undercuts our social connections.
@@ -64,12 +64,12 @@ Reasons why:
 
 Reasons why:
 
-* News exploits your negativity bias to get your viewing time. As such, news focuses on all the bad things happening in the world. This sustained focus on the negative sometimes it saddens you, riles you up, makes you upset, angry, anxious, frustrated, etc. News also gives you a sense of learned helplessness.
+* News exploits your negativity bias to get your viewing time. As such, news focuses on all the bad things happening in the world. This sustained focus on the negative sometimes saddens you, riles you up, makes you upset, angry, anxious, frustrated, etc. News also gives you a sense of learned helplessness.
 * News doesn't provide in-depth understanding of issues. If you want to be educated on an issue, read long-form in-depth articles from better sources.
 * News exploits your novelty bias, causing you to seek out what's new.
 * News usually isn't that relevant to your life. What's going on elsewhere doesn't tend to impact you, so you don't need to spend a lot of time learning about the details.
 * Listening to the news creates more cognitive demand to process, assess, file, etc, each incoming piece of information, which wears on your mental energy.
-* You can get fully caught up on what's happening in the world by spending 5-10 minutes a week on news. If you want to get more news, get a print subscription to the Economist or Atlantic Monthly (or check them out from the library).
+* You can get fully caught up on what's happening in the world by spending 5-10 minutes a week on news. If you want to get more news, get a print subscription to *The Economist* or *The Atlantic* (or check them out from the library).
 
 ## Unsubscribe from newsletters that don't have high value to you
 
@@ -123,6 +123,15 @@ What do I hope to achieve by removing smartphones?
 * Be more present with other people
 
 If you have any thoughts on any of these rules, let me know. I'll add more posts here to provide updates on this experiment and share how it's going.
+
+## References
+
+Dobelli, Rolf. _[Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life](https://www.amazon.com/Stop-Reading-News-Manifesto-Happier/dp/1529342724/)_. Hachette UK, 2020.
+
+Foer, Jonathan Safran. "[Technology is diminishing us.](https://www.theguardian.com/books/2016/dec/03/jonathan-safran-foer-technology-diminishing-us.)" *The Guardian." 3 Dec 2016. https://www.theguardian.com/books/2016/dec/03/jonathan-safran-foer-technology-diminishing-us. 
+
+Newport, Cal. _[Digital Minimalism: Choosing a focused life in a noisy world](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy-ebook/dp/B07DBRBP7G)_. Penguin, 2019.
+
 
 ## Next post
 

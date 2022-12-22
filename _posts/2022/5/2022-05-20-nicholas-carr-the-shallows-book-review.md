@@ -143,7 +143,7 @@ Unfortunately, Carr doesn't come to any definitive conclusion about the right ac
 
 Carr covers the smartphone trends well, though Hari's *Stolen Focus* covers the smartphone angle in depth too. In both treatments, smartphones are basically distraction devices, but much more addictive than any previous device.
 
-### A balancing act?
+## A balancing act?
 
 I've been trying to wrangle how to make sense of Carr's book for my own life. Peter Norvid, a researcher at Google, recommends striking a balance between skimming on the Net and concentrating on long-form reading. Norvid says:
 
@@ -153,13 +153,13 @@ If this balance between cursory and deep reading is possible, I'm all for it. Wi
 
 Also problematic is that most authors break long articles up across many different pages and sections (think about the last mandatory elearning course you took at work, which no doubt required you to click through snippet after snippet through 60 minutes of annoyance). Authors try to keep you awake by making you progress from short page to short page, and then toggling show/hide functions for content within the same page. In sum, people who optimize content for the web often don't make that content easily printable, so you can't always just take longer content offline.
 
-### Leaving time for offline reading?
+## Leaving time for offline reading?
 
 I'm also divided about another point. Carr says that all the reading online reduces the time we spend reading offline: "...the time we spend hopping across links cross out the time we devote to quiet reflection and contemplation..." (120). In other words, we have a limited amount of time and bandwidth for reading. If we spend all day reading online (a different kind of reading), we no longer have the bandwidth for that book. By the time I've put in a day's work, I'm ready to unplug, to sit in front of a TV or decompress in other ways. That time for reading? It's very thin.
 
 Unless I carve out some time during the workday to read, I don't make as much progress as I want. But offline reading during the workday &mdash; even reading printed-out work email, work website content, and other content specific to tasks I'm doing at work &mdash; tends to feel like I'm not making progress on my bugs and other tickets. Like I'm not working.
 
-### Web as a distraction machine
+## Web as a distraction machine
 
 Here's another problem with the balancing act. I might think that I'm only using the Net to find and survey information, but it's so easy to get sidetracked on the Net, to lose myself in feeds, headlines, and endless shallow curiosities. Pretty soon all my free time for deep reading disappears. One of the reviewers on Carr's Shallows book page on Amazon expresses this effect in a comical way:
 
@@ -169,7 +169,7 @@ In other words, sure, if we used the Internet strictly for finding relevant info
 
 The Net experience starts hijacking your attention from the very start of the day: when you check your email. Newsletters vie for your attention as well as countless other messages. You might start off with good intentions (e.g., to do research for a project) only to find that intention quickly derailed, and before you know it, two hours have gone by and you've gotten no further in the project and now it's time for lunch.
 
-### Reading as a superpower?
+## Reading as a superpower?
 
 I have an idea that's been percolating in the back of my mind since starting my smartphone awakening series and reading more. What if reading could be my *superpower*? In a world where people simply do not read long content anymore, what if I could be that technology worker who can actually read, who can get through enormous amounts of content and be hyper-educated, knowledgeable, and empowered through this information &mdash; the same information that seems to remain dormant/locked for so many others? It sounds ridiculous, but honestly, as far as I can tell, people do not read more than two paragraphs from any web page or email anymore. As such, how can they avoid sliding toward a trajectory of superficial knowledge, endless distraction, and fragmented thinking?
 
@@ -179,7 +179,7 @@ How can I make reading my superpower? Can I do this dance of still using the Net
 
 Perhaps by displacing the screen as the focal point to work, I could maintain more of a balance between the online and offline modes. A simple swivel arm could accommodate displaying the screen more easily.
 
-### My experiment
+## My experiment
 
 To attempt a balance between online and offline modes, I'm experimenting with this approach. My computer monitor is on an arm swing. I moved this arm swing mount to the far end of my desk. When I'm working at my computer doing writing, finding, or other interactive tasks, the monitor is front and center, like this.
 
@@ -203,7 +203,17 @@ The conflicted feelings about technology and its impact on life have fueled many
 
 ## References
 
-Note that page number references in this post refer to Carr's [first edition book](https://www.thriftbooks.com/w/the-shallows-what-the-internet-is-doing-to-our-brains_nicholas-carr/252607/item/7645815/#edition=6088375&idiq=4007395), published in 2010, not to the [reprint published in 2020](https://www.amazon.com/gp/product/B07WX1DFZW). Unfortunately, I only realized there was a reprint with a new afterword *after* finishing the first edition.
+Carr, Nicholas. *The Shallows: What the Internet Is Doing to Our Brains.* WW Norton & Company, 2010.
+
+Carr, Nicholas. "Is Google Making Us Stupid?" *The Atlantic*. July 2008. https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/
+
+Carr, Nicholas. "The Shallows: tenth anniversary edition." roughtype.com. 28 Jan 2020. https://www.roughtype.com/?p=8755 
+
+Cowan, John W. "Why there are so few worth talking to." Amazon review. 3 Jan 2017. https://tinyurl.com/yc5d97cn
+
+Norvid, Peter. "If you're stupid, it's not Google's fault." Reuters.com. https://tinyurl.com/4eysw8dk
+
+(Note that page number references in this post refer to Carr's [first edition book](https://www.thriftbooks.com/w/the-shallows-what-the-internet-is-doing-to-our-brains_nicholas-carr/252607/item/7645815/#edition=6088375&idiq=4007395), published in 2010, not to the [reprint published in 2020](https://www.amazon.com/gp/product/B07WX1DFZW). Unfortunately, I only realized there was a reprint with a new afterword *after* finishing the first edition.)
 
 ## Next post 
 

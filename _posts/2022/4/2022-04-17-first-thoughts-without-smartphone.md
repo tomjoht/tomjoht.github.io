@@ -15,7 +15,7 @@ If you're just coming into this series, see these two posts first:
 * [My awakening moment about how smartphones fragment our attention span](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)
 * [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/)
 
-# Getting a basic phone
+## Getting a basic phone
 
 I debated just leaving my smartphone on Do Not Disturb permanently and keeping it in my bag, but my daughter, who's into vintage and the 80s, was begging me for a flip phone, and I kept wondering what life might actually be like with a flip phone. I deliberated back and forth for about a week. Eventually, I figured the only way would be to experiment, so why not. And if I could get my daughter off of smartphones in the process, all the better.
 
@@ -53,7 +53,7 @@ I'm still waiting for my point-and-shoot camera to arrive. For the alarm clock, 
 
 I love rotating the dial to change the FM radio station. It's so old that if I unplug it, there's not even a backup battery to prevent me from losing my settings.
 
-(okay, full confession. I'm not sure what's happening to me, but I currently want to turn back time and live in the 80s again, or the earliest days of the internet (90s), when everything was just coming online. I'm undergoing a serious anti-tech phase.)
+(Okay, full confession. I'm not sure what's happening to me, but I currently want to turn back time and live in the 80s again, or the earliest days of the internet (90s), when everything was just coming online. I'm undergoing a serious anti-tech phase.)
 
 I also returned to carrying around a separate wallet (rather than using a smartphone case that includes a wallet case built-in). With the return to more single-function devices (phone + wallet + camera + keys), I decided I needed a <s>purse</s> [casual crossbody leather sling bag](https://www.amazon.com/BULLCAPTAIN-Crossbody-Backpack-Charging-Genuine/dp/B07RRTDXRM/).
 
@@ -75,7 +75,7 @@ I tried Google Voice, which theoretically would have allowed me to use a VOIP nu
 
 Fortunately, the silver lining here is that I've found myself calling more. Instead of interacting with texts, I'll actually call a family member. We end up talking a bit more than a specific text might have been about. And the voice quality on this phone is outstanding. Verizon has some kind of [HD voice quality feature](https://www.pcmag.com/reviews/kyocera-duraxv-extreme) with this phone's snapdragon chipset, and voices sound rich, full, and detailed. Unfortunately, the listener doesn't hear the same HD voice quality on their end.
 
-I haven't found a slam-dunk solution for texting yet, and I'm kind of okay using scrcpy because it does seem to prompt me to make calls more. I'm confident that sooner or later, I'll stumble across a better solution.
+I haven't found a slam-dunk solution for texting yet, and I'm kind of okay using scrcpy because it does seem to prompt me to make more calls. I'm confident that sooner or later, I'll stumble across a better solution.
 
 By the way, I recorded a short video showing some of these features on the Kyocera. This isn't an impressive video, and it was somewhat late and I was tired when recording it:
 
@@ -89,9 +89,9 @@ I do think that hitting Do Not Disturb on a smartphone and leaving it in a bag a
 
 In my [smartphone rules use](/blog/my-international-rules-for-smartphone-use/), I also mentioned that I've mostly stopped reading the news. This has been a game changer as well. I *think* the Ukraine war is still going on, since gas prices haven't changed much. :) Seriously, my hypothesis about finding more mental/physical energy in the evenings by reducing the amount of incoming information the brain has to sort/file/manage throughout the day seems to be working. And I am sleeping better. But there could be a number of causes at work, and it's too early to tell.
 
-The larger question will be whether all the inconvenience of moving away from smartphones outweighs the benefits. So far, the answer seems to be yes. But just like credit cards have now becoming table stakes for living in modern society, smartphones are too. I went to an Ol Reign soccer game last week with my kids, and found that the tickets were "mobile only" tickets that I had to add to my iOS or Android wallet. Literally, it wasn't not possible to print the ticket out. But beyond a few random scenarios (banking apps, circle app), which can easily be remedied through an old tablet or ipod-like device, I'm able to get along just fine. I do feel more present and capable of listening.
+The larger question will be whether all the inconvenience of moving away from smartphones outweighs the benefits. So far, the answer seems to be yes. But just like credit cards have now become table stakes for living in modern society, smartphones are too. I went to an Ol Reign soccer game last week with my kids, and found that the tickets were "mobile only" tickets that I had to add to my iOS or Android wallet. Literally, it wasn't not possible to print the ticket out. But beyond a few random scenarios (banking apps, Circle app), which can easily be remedied through an old tablet or iPod-like device, I'm able to get along just fine. I do feel more present and capable of listening.
 
-One other realization. I think Johann Hari's alarmist writing about our fragmented attention span in [Stolen Focus](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511) may have been over-inflated. I seem to be mostly back to my old self (the college self I reminisced about in [my awakening post](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)) after a month. The Internet didn't permanently rewire my brain. I think we can easily teach our brain habits and patterns within a short period of time.
+One other realization. I think Johann Hari's alarmist writing about our fragmented attention span in [*Stolen Focus*](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511) may have been over-inflated. I seem to be mostly back to my old self (the college self I reminisced about in [my awakening post](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/)) after a month. The Internet didn't permanently rewire my brain. I think we can easily teach our brain habits and patterns within a short period of time.
 
 For example, if you start posting on Twitter, within a few days, your brain starts coming up with quippy little nuggets to post. A 160-character thought will naturally form in the back of your mind, and you'll be like, what a clever thing I can post on Twitter!  
 
