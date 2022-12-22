@@ -34,7 +34,7 @@ First, let's start with some basic definitions. Newport defines deep work as fol
 
 Notice that deep work pushes your cognitive capabilities, meaning it requires focus and concentration. It's usually not something you can do while watching Netflix out of the corner of your screen.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/deep-thinking-focus-wall.jpg" alt="Deep work requires concentration and focus" /><figcaption>Deep work is something that usually requires your full concentration and focus. You can't just multi-task and watch Netflix out of the corner of your screen while doing deep work, for example.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/deep-thinking-focus-wall.jpg" alt="Deep work requires concentration and focus" /><figcaption>Deep work is something that usually requires your full concentration and focus. You can't just multitask and watch Netflix out of the corner of your screen while doing deep work, for example.</figcaption></figure>
 
 In contrast, shallow work is as follows: 
 

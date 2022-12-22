@@ -30,7 +30,7 @@ He explains the main reasons for waste. One of these reasons is "Motion":
 
 > Motion is the waste of movement around a product or work-item, for example, reaching too far to grab a tool.
 
-These abstract principles about Lean eventually get more specific, focusing on the familiar problem of multi-tasking and context-switching, which turn out to be a sizable drain on efficiency:
+These abstract principles about Lean eventually get more specific, focusing on the familiar problem of multitasking and context-switching, which turn out to be a sizable drain on efficiency:
 
 >Task switching could be considered to be Motion. Some estimates say that you lose 40% of your time because of task switching.
 

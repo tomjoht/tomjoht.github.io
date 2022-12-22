@@ -117,7 +117,7 @@ I admit, though, that after having more real time conversations with my wife ove
 
 In other words, technologies like texting and email start off as substitutes for challenging scenarios (like the one I described). But then these technologies become the default rather than more in-person, real-time interactions because the substitutes take less emotional energy and effort. But they are diminished forms of communication.
 
-Perhaps I need to stop looking for ways to text from a flip phone and instead actually use the phone more. In short, to use my phone *as a phone*. (Seeing that last line as a revelation is astonishing.) I'm not great at phone conversations, I admit, but I shouldn't be looking for ways to text instead of use the phone. I imagine that, like all the other activities I've learned to enjoy (driving within an app, taking pictures with a real camera, etc.), speaking with other humans on the phone is something that will enrich my life more, if I but take the effort to do it.
+Perhaps I need to stop looking for ways to text from a flip phone and instead actually use the phone more. In short, to use my phone *as a phone*. (Seeing that last line as a revelation is astonishing.) I'm not great at phone conversations, I admit, but I shouldn't be looking for ways to text instead of using the phone. I imagine that, like all the other activities I've learned to enjoy (driving within an app, taking pictures with a real camera, etc.), speaking with other humans on the phone is something that will enrich my life more, if I put in the effort to do it.
 
 ## Deeper doubts about technology
 

@@ -106,7 +106,7 @@ Reading! If there's one major reward for neutralizing my smartphone, it's the re
 
 In returning to books, I realized that I love reading. A good book can change your perspective in transformational ways. Reading feels enriching, soothes my brain waves, helps me understand topics at deeper levels, and makes me more informed, especially when I write.
 
-I've learned that for me, print books are superior to anything on a screen. This might be due partly to my declining eyesight. (I now carry two sets of glasses &mdash; one for driving, one for computer.) But I also like annotating books with a pen as I read. It makes me feel like an active reader. I've grown accustomed to reading each morning while sipping a caramel latte (my espresso favorite). 
+I've learned that for me, print books are superior to anything on a screen. This might be due partly to my declining eyesight. (I now carry two sets of glasses &mdash; one for driving, one for computers.) But I also like annotating books with a pen as I read. It makes me feel like an active reader. I've grown accustomed to reading each morning while sipping a caramel latte (my espresso favorite). 
 
 At work, I've been running a book club focused on the automotive and transportation industry. I'm also reading long documents at my work (whether product requirements, engineering designs, or other documents that others usually just glance at). Yes, I print them out and have a stapler at my desk. The other day, a neighboring engineer heard the sound of a stapler and perked up, noting that he hasn't heard the sound of a stapler for years.
 
@@ -191,7 +191,7 @@ In this series, I listed various technology rules that I would follow, which is 
 Remember that what might work for one person might not make sense for another. My rules fit me, based on those apps that are _my_ kryptonite, based on my social needs with my family, and my work. Here are my latest rules:
 
 1. Using a smartphone (instead of a basic phone) is all right as long as the distracting elements are neutralized (for example, remove Chrome, Gmail, News apps, etc.).
-2. Don't take smartphones or laptops into bed. Take a book instead.
+2. Don't take smartphones or laptops into bed (to view streaming media). Take a book instead.
 3. Try to keep the phone in Do Not Disturb mode &mdash; disable app notifications and phone calls except for family and calendar apps.
 4. Get your primary news offline rather than online.
 5. Keep your email inbox light by unsubscribing to almost everything.
