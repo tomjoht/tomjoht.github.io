@@ -17,7 +17,7 @@ In July 2018, I [published a survey](https://idratherbewriting.com/2018/07/02/su
 
 Both of these results pose serious consequences &mdash; the main consequence being that each group becomes irrelevant to the other. This mutual irrelevance can cripple each group's progress in the field, since both academics and practitioners need each other to move forward.
 
-I believe we can break down the content barriers between practitioners and academics, and in so doing, help the two groups start to operate in the same sphere. If practitioners could be exposed to more research from academics, would this change practitioner attitudes towards academics? Would it deepen their appreciation or would it heighten their disdain for the research academics do? On the flip side, would this increased interaction with practitioners help academics understand their practitioner perspective and workplace issues more? Would it sharpen their awareness of real issues, of topics that are relevant and actually in demand in the workplace?
+I believe we can break down the content barriers between practitioners and academics, and in doing so, help the two groups start to operate in the same sphere. If practitioners could be exposed to more research from academics, would this change practitioner attitudes towards academics? Would it deepen their appreciation or would it heighten their disdain for the research academics do? On the flip side, would this increased interaction with practitioners help academics understand their practitioner perspective and workplace issues more? Would it sharpen their awareness of real issues, of topics that are relevant and actually in demand in the workplace?
 
 {% include ads.html %}
 

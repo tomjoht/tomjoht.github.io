@@ -84,7 +84,7 @@ Csikszentmihalyi continues:
 
 > To avoid this condition, people are naturally eager to fill their minds with whatever information is readily available, as long as it distracts attention from turning inward and dwelling on negative feelings. This explains why such a huge proportion of time is invested in watching television, despite the fact that it is very rarely enjoyed. Compared to other sources of stimulation &mdash; like reading, talking to other people, or working on a hobby &mdash; TV can provide continuous and easily accessible information that will structure the viewer's attention, at a very low cost in terms of the psychic energy that needs to be invested. While people watch television, they need not fear that their drifting minds will force them to face disturbing personal problems. It is understandable that, once one develops this strategy for overcoming psychic entropy, to give up the habit becomes almost impossible. (119-20)
 
-In other words, the allure of television stems from our desire for mental focus and order &mdash; it aligns our psychic energy along a single trajectory (the show's story) and removes our rabbit-hole thinking. The more a show pulls you in, the better. I can also see truth to this observation. Have you ever been watching TV for an extended time, and you know you should turn it off, but you resist doing so because as soon as you turn the TV off, you know you'll have to start thinking for yourself? You'll have to come up with your own thoughts and decisions.
+In other words, the allure of television stems from our desire for mental focus and order &mdash; it aligns our psychic energy along a single trajectory (the show's story) and removes our rabbit-hole thinking. The more a show pulls you in, the better. I can also see the truth to this observation. Have you ever been watching TV for an extended time, and you know you should turn it off, but you resist doing so because as soon as you turn the TV off, you know you'll have to start thinking for yourself? You'll have to come up with your own thoughts and decisions.
 
 And if we haven't trained our minds to retain focus, as soon as the TV goes off, our psychic entropy starts expanding in different directions as we shift from topic to topic in fickle, random ways.
 
@@ -114,7 +114,7 @@ In the next post, I'll dive more into Csikszentmihalyi's ideas about how to ente
 
 ## References
 
-Bodnar, Matt. [Mihaly Csikszentmihalyi &mdash; The Greatest Unanswered Question in Psychology Today](https://www.successpodcast.com/show-notes/2019/11/6/mihaly-csikszentmihalyi-the-greatest-unanswered-question-in-psychology-today)). *The Science of Success podcast*. Nov 7, 2019
+Bodnar, Matt. [Mihaly Csikszentmihalyi &mdash; The Greatest Unanswered Question in Psychology Today](https://www.successpodcast.com/show-notes/2019/11/6/mihaly-csikszentmihalyi-the-greatest-unanswered-question-in-psychology-today). *The Science of Success podcast*. Nov 7, 2019.
 
 Csikszentmihalyi, Mihaly. *[Flow: The Psychology of Optimal Experience](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)* New York: Harper & Row, 1990.
 

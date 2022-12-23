@@ -48,7 +48,7 @@ I sometimes accompany my wife on these hikes. On the most recent outing, I asked
 
 We walked first along Stingr trail and then on Beaver Trax, over to Ravensdale Lake, then up Snake trail and across Bail trail and then following some wider general access paths and who knows what &mdash; eventually, we just started walking in the general direction toward our car along whatever trail seemed headed in that direction. A couple of times my wife checked her GPS to ensure we were heading in the right direction.
 
-By trying a new route, we were forced into a state of more acute awareness of the environment, especially when we weren't sure which way to go. This hyper awareness prompted me wife to take more stock of the many types of trees, plants, and other vegetation. At least a half dozen times she stopped to use her naturalist app to identify the type of tree/plant/shrub we were passing. 
+By trying a new route, we were forced into a state of more acute awareness of the environment, especially when we weren't sure which way to go. This hyper awareness prompted my wife to take more stock of the many types of trees, plants, and other vegetation. At least a half dozen times she stopped to use her naturalist app to identify the type of tree/plant/shrub we were passing. 
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/henrys_ridge_landscape_1.jpg" alt="Henry's Ridge" />
 
@@ -88,7 +88,7 @@ My wife, on the other hand, scored high on the ASVAB test (the military even tri
 
 ## Getting lost
 
-There's also an argument for ditching the map entirely and just going with the flow. In Mary Oliver's essay "Upstream," Oliver remembers a time during her youth when others thought her lost, but she was really just following a river far upstream, entranced by the beauty of the natural world so much that she ceased to take note of her camp location or the standard trails and other boundaries. Remembering this time, she writes, poetically:
+There's also an argument for ditching the map entirely and just going with the flow. In Mary Oliver's essay "Upstream," Oliver remembers a time during her youth when others thought she was lost, but she was really just following a river far upstream, entranced by the beauty of the natural world so much that she ceased to take note of her camp location or the standard trails and other boundaries. Remembering this time, she writes, poetically:
 
 > Sometimes the desire to be lost again, as long ago, comes over me like a vapor. With growth into adulthood, responsibilities claimed me, so many heavy coats. I didn’t choose them, I don’t fault them, but it took time to reject them. Now in the spring I kneel, I put my face into the packets of violets, the dampness, the freshness, the sense of ever-ness. .... May I stay forever in the stream." (7)
 

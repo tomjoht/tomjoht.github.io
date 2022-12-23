@@ -100,11 +100,11 @@ Years of being a technical writer taught me to prefer simple, easily understood 
 
 Then eventually, as I grow tired of reading, I'll take an hour or so to look them up. Lately, I've decided that if I can pair the definition with a picture I find on the internet (from image search), the chances of the word sticking in my mind increases tenfold. Looking for supporting images is fun, and I do think this picture-definition technique might be much more effective than pictureless definitions.
 
-If language provides the tools for expression, then increasing the number of tools at my disposal might help me be more articulate (as long as my writing doesn't end up sounding like pretentious).
+If language provides the tools for expression, then increasing the number of tools at my disposal might help me be more articulate (as long as my writing doesn't end up sounding pretentious).
 
 ## Real purpose of reading to spur intellectual engines?
 
-Even if I don't engage with a book by writing about it or discussing it in a book club, does reading along spur more "intellectual vibrations," as Nicholas Carr described the act? Perhaps reading helps prime and tune my intellectual engine, which then makes me more capable in performing other tasks (even in writing documentation). If this is the case, then reading alone might be a good way to start the day, like a warm-up before practice or a game.
+Even if I don't engage with a book by writing about it or discussing it in a book club, does reading alone spur more "intellectual vibrations," as Nicholas Carr described the act? Perhaps reading helps prime and tune my intellectual engine, which then makes me more capable in performing other tasks (even in writing documentation). If this is the case, then reading alone might be a good way to start the day, like a warm-up before practice or a game.
 
 ## Modular reading versus single-book reading?
 

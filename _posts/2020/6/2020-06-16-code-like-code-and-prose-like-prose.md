@@ -60,7 +60,7 @@ Just like in the creative writing workshop, you don't write prose and have one p
 
 The echoes of Andrew's phrase, "treat code like code and prose like prose" resounded in my head. I started to question whether prose, or rather, documentation, should actually be treated like code. If you've ever tried to read changes in a file diff display, it's not easy. The file diff usually shows you a side-by-side comparison of what's changed in a before and after way. If it's a small change, it's easy to identify a line or paragraph that is new, but in more substantive changes, the changes might span multiple files and include a confusing display of red and green highlighted lines from different parts of the file. Sometimes Git will highlight a changed line when all you did was move it down or change some formatting.
 
-Additionally, the file diff highlights only what has changed. Sometimes when you add a new paragraph or make other edits, you want to read them in context of the whole, not just in isolation. Imagine a workshop where writers present their revisions in file diffs, where other workshop participants just read what has changed, not the new version in its entirety. There would be no real way to judge whether the revision fixed the problems with the initial version.
+Additionally, the file diff highlights only what has changed. Sometimes when you add a new paragraph or make other edits, you want to read them in the context of the whole, not just in isolation. Imagine a workshop where writers present their revisions in file diffs, where other workshop participants just read what has changed, not the new version in its entirety. There would be no real way to judge whether the revision fixed the problems with the initial version.
 
 ## The final blow
 

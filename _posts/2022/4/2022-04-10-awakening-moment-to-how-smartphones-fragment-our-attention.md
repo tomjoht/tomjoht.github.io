@@ -160,7 +160,7 @@ I'm also now navigating other challenges, like how to deal with the cognitive di
 
 And given that I read or listened to four books in the span of about two weeks, I believe there's hope for me. Perhaps the attention fragmentation issue isn't a one-way road we've traveled down, unable to turn around.
 
-I'm still in the awakening phase, but I'm excited about the initial results. Honestly, I'm most excited by the possibility of reclaiming _myself_. As Newport and others have said, it's not about sacrificing your smartphone, as if you're giving up some big element in your life. It's about what you're getting. I'm starting to see glimpses of my old self return. I'm starting to think at stoplights again! In the elevator, I'm not reaching for something to distract me. I am beginning to recapture my focus and self, and it's invigorating.
+I'm still in the awakening phase, but I'm excited about the initial results. Honestly, I'm most excited by the possibility of reclaiming _myself_. As Newport and others have said, it's not about sacrificing your smartphone, as if you're giving up some big element in your life. It's about what you're getting. I'm starting to see glimpses of my old self return. I'm starting to think at stop lights again! In the elevator, I'm not reaching for something to distract me. I am beginning to recapture my focus and self, and it's invigorating.
 
 Continue on to my next post in this series: [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/).
 

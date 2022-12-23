@@ -36,7 +36,7 @@ As you sustain focus on a complex activity that consumes your full attention and
 
 Although other authors like Cal Newport praised moments of mental wandering (disconnected from social media), and even argued that this freeform thinking leads people to make unexpected connections or realizations, it is hard to sustain freeform thinking in productive ways. 
 
-Csikszentmihalyi is so so enamored with the idea of flow that he explored its application in seemingly every aspect of life, from hobbies to career to family and more. But my interests here will focus specifically on writing technical documentation and flow. 
+Csikszentmihalyi is  enamored with the idea of flow that he explored its application in seemingly every aspect of life, from hobbies to career to family and more. But my interests here will focus specifically on writing technical documentation and flow. 
 
 This is an odd combination because usually one associates flow with fiction writing, not writing technical documentation. Hence, I have my work cut out for me to make flow fit, but I'm confident that it does. Csikszentmihalyi demonstrates time and again that the activity itself is irrelevant; from factory workers to mountain climbers, people can find flow in whatever they're doing. (Csikszentmihalyi specifically addresses the challenge of a worker performing a boring job in the chapter "Work as Flow," p. 144).
 
@@ -72,7 +72,7 @@ At the same time, the focus on the high-level means you won't be getting into th
 
 Another trait of flow that Csikszentmihalyi talks about is effortlessness. When you're in a state of writing flow, your mind seems to pour words onto the page in effortless ways, as if a muse is speaking to you. Compare the experience to an ice skater who flows about effortlessly along the ice, almost like the wind moving across the landscape.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_effortlessness_ice_skater.jpg" alt="Effortlessness, a figure skater" /><figcaption>In states of flow, people appear to have effortless with the activity, though in reality the activity is fully consuming of the person's intellect and abilities.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/flow_effortlessness_ice_skater.jpg" alt="Effortlessness, a figure skater" /><figcaption>In states of flow, people appear to do the activity effortlessly, though in reality the activity is fully consuming of the person's intellect and abilities.</figcaption></figure>
 
 The effortless and apparent ease may actually be a mirage. Csikszentmihalyi says:
 

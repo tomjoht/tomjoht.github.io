@@ -28,9 +28,9 @@ I, too, fantasized about throwing my smartphone into a canal. And I did give my 
 
 I have already recounted the story of returning to my smartphone in [Six weeks in &mdash; returning to smartphone (but not as before)](/blog/returning-to-smartphones/). The killer app of smartphones is not an app at all &mdash; it's the full-screen keyboard, which allows you to text. Without the ability to text, I couldn't communicate much with my wife and other family members. Email is pre-Jurassic, and frequently ignored. Without text, you can still talk on the phone, but phone conversations and voicemail are much less convenient, especially for quick notes to family members.
 
-Texting can be a double-edged sword, though. On the one hand, it allows us to communicate quickly and easily through a screen-based keyboard. On the other, the same screen that enables this easy communication also gives us access to app interfaces and the vast amount of information on the Internet, all in the palm of our hand.
+Texting can be a double-edged sword, though. On the one hand, it allows us to communicate quickly and easily through a screen-based keyboard. On the other hand, the same screen that enables this easy communication also gives us access to app interfaces and the vast amount of information on the Internet, all in the palm of our hand.
 
-Another factor besides texting contributed to my decision to return to using a smartphone. Reading Kevin Kelly's _What Technology Wants_ convinced me that the constant introduction of new technologies is inevitable and that actively rejecting them is be akin to adopting the mindset described in Ted Kaczynski's manifesto. 
+Another factor besides texting contributed to my decision to return to using a smartphone. Reading Kevin Kelly's _What Technology Wants_ convinced me that the constant introduction of new technologies is inevitable and that actively rejecting them is akin to adopting the mindset described in Ted Kaczynski's manifesto. 
 
 I realized that I needed to find ways to make peace with technology and use it in a way that worked in my favor. So I switched the SIM card from my Kyocera basic phone back to my Pixel smartphone, and then modified my initial list of rules for personal technology use. 
 
@@ -78,7 +78,7 @@ For me, this meant disabling email and news mechanisms. (Almost no one is addict
 
 Despite the ups and downs of my experiment in moving away from smartphones, I have achieved and learned so much through this series. In this final post, I hope to wrap up and form a conclusion about it all.
 
-In my second post, [My initial rules and reasons for intentional smart phone use](/blog/my-international-rules-for-smartphone-use/), I listed the these goals for my experiment: 
+In my second post, [My initial rules and reasons for intentional smartphone use](/blog/my-international-rules-for-smartphone-use/), I listed these goals for my experiment: 
 
 > What do I hope to achieve by removing smartphones?
 > 
@@ -178,7 +178,7 @@ In doing sports photography, which almost invariably requires a  zoom lens, I ha
 
 ## News
 
-I still struggle with the news. Ever since reading Rolf Dobelli's _Stop Reading the News_, I'm much more aware of the negativity bias of news. Another problem is that reading the news pulls me online, and once online, invites me to click elsewhere, making news more of a "gateway drug." But when I stopped reading the news, I felt disconnected from global events. I was curious to know what was going on. So I started glancing through the *New York Times* summaries.
+I still struggle with the news. Ever since reading Rolf Dobelli's _Stop Reading the News_, I've been much more aware of the negativity bias of news. Another problem is that reading the news pulls me online, and once online, invites me to click elsewhere, making news more of a "gateway drug." But when I stopped reading the news, I felt disconnected from global events. I was curious to know what was going on. So I started glancing through the *New York Times* summaries.
 
 The problem with this approach (occasionally glancing through daily news summaries) is that I don't want play-by-play summaries of breaking news but rather more general summaries of what's going on at a higher level, which I can consume at a less regular cadence. I also want to read it offline. I once experimented with a print subscription to the *New York Times* but then realized that I don't want to feel compelled to read the massive paper every day. Each newspaper has nearly a book's worth of information.
 

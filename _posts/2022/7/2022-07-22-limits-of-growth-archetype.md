@@ -34,7 +34,7 @@ I said this past month I've been reading less, probably about half as much as my
 
 * *The Geography of Nowhere: The Rise and Decline of America's Man-Made Landscape*, by James Kunstler (audiobook)
 
-* *Mobility 2040: Exploring the Emerging Trends Radically Transforming Transporation Systems in the U.S.*, by Galo Bown
+* *Mobility 2040: Exploring the Emerging Trends Radically Transforming Transportation Systems in the U.S.*, by Galo Bown
 
 * *Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential*, by Tiago Forte (audio book, 1/3 finished, paused)
 
@@ -150,7 +150,7 @@ It could simply be that, as Nicholas Carr says, we are biologically wired for di
 >
 > .... Our fast-paced, reflexive shifts in focus were once crucial to our survival. They reduced the odds that a predator would take us by surprise or that we'd overlook a nearby source of food. For most of history, the normal path of human thought was anything but linear. To read a book was to practice an unnatural process of thought, one that demanded sustained, unbroken attention to a single, static object. It required readers to place themselves at what T.S. Eliot, in *Four Quartets*, would call "the still point of the turning world." They had to train their brains to ignore everything else going on around them, to resist the urge to let their focus skip from one sensory cue to another. (64-65)
 
-Perhaps, then, there is no underlying cause that drives us to distraction other than the hard-wiring of our brains. To develop singular and sustained focus of reading a long book requires us to undo a constantly shifting attention learned over millions of years of human evolution, to undo a basic survival technique for alertness that allowed us to avert being taken by surprise. In this sense, I don't need to look for some underlying cause that I'm avoiding but rather focus on training myself to evolve my way of thinking. This might suggest that productivity techniques and other self-help type approaches to increased focus might be more effective than looking for a technology to blame.
+Perhaps, then, there is no underlying cause that drives us to distraction other than the hard-wiring of our brains. Developing singular and sustained focus for reading a long book requires us to undo a constantly shifting attention that we have learned over millions of years of human evolution. This is a basic survival technique for alertness that allowed us to avert being taken by surprise. In this sense, I don't need to look for some underlying cause that I'm avoiding but rather focus on training myself to evolve my way of thinking. This might suggest that productivity techniques and other self-help type approaches to increased focus might be more effective than looking for a technology to blame.
 
 ## References
 

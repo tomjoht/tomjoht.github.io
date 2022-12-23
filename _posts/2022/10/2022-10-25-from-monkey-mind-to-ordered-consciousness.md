@@ -126,7 +126,7 @@ I'm not sure if Jaynes' is right about metaphoric language and consciousness (ca
 
 When you write something, you're literally making your internal thoughts external. This externalization allows you to see your thoughts more concretely, almost from another point of view. As E.M. Forster once said, "How do I know what I think until I see what I say?" Let more time pass (years, even) to the point that you forget that you're the author of the written text, and the words become even more external and foreign.
 
-The widespread appearance of this E.M. Forster quotation reinforces its truth. The more you write, the more likely you are to know what you think. Knowledge of what you think creates self-awareness, and it leads you to deliberate about whether you agree with what you're reading or not. All of this complexity likely leads toward greater consciousness.
+The widespread appearance of E.M. Forster's quotation reinforces its truth. The more you write, the more likely you are to know what you think. Knowledge of what you think creates self-awareness, and it leads you to deliberate about whether you agree with what you're reading or not. All of this complexity likely leads toward greater consciousness.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/think-see-what-say-cons.jpg" alt="How can I know what I think until I see what I say?" /><figcaption>Externalizing our ideas helps us see them from another perspective. This alternate perspective (outside ourselves) can help expand our awareness.</figcaption></figure>
 
@@ -156,7 +156,7 @@ In fact, Csikszentmihalyi even says philosophy can lead to a form of flow:
 
 > ... playing with ideas is extremely exhilarating. Not only philosophy but the emergence of new scientific ideas is fueled by the enjoyment one obtains from creating a new way to describe reality. The tools that make the flow of thought possible are common property, and consist of the knowledge recorded in books available in schools and libraries. A person who becomes familiar with the conventions of poetry, or the rules of calculus, can subsequently grow independent of external stimulation. She can generate ordered trains of thought regardless of what is happening in external reality. When a person has learned a symbolic system well enough to use it, she has established a portable, self-contained world within the mind (127)
 
-In other words, the seemingly absent-minded philosopher who is really lost in deep thought, running ideas through logical syllogisms to dissect them to their core and then re-assemble them back into a whole, enters a flow state, despite the heightened consciousness. It seems a bit paradoxical, though perhaps there are different types of consciousness, and I haven't been precise in my definitions.
+In other words, the seemingly absent-minded philosopher who is really lost in deep thought, running ideas through logical syllogisms to dissect them to their core and then reassemble them back into a whole, enters a flow state, despite the heightened consciousness. It seems a bit paradoxical, though perhaps there are different types of consciousness, and I haven't been precise in my definitions.
 
 The entropic mindset Csikszentmihalyi warns against isn't the philosopher focusing on arguments about abstract ideas, but rather the idle person whose mind isn't focused on anything at all (monkey mind, not curious mind). It's "when we are left alone, with no demands on attention, the basic disorder of the mind reveals itself. With nothing to do, it begins to follow random patterns." (119). 
 
@@ -204,7 +204,7 @@ If we constantly switch online throughout the day (every 19 seconds), is it surp
 
 ## What I've been noticing
 
-This past month, I've started to notice an interesting phenomenon. When I try to sleep at night, if I've read a book that day (say, 50 pages of something), my mind seems to follow a more linear, sequential pattern, similar to the calm order in which my eyes move left to right across a page, following a larger narrative or argument that an author is making. The act of reading imbues my mind with more order even in a natural, unfocused.
+This past month, I've started to notice an interesting phenomenon. When I try to sleep at night, if I've read a book that day (say, 50 pages of something), my mind seems to follow a more linear, sequential pattern, similar to the calm order in which my eyes move left to right across a page, following a larger narrative or argument that an author is making. The act of reading imbues my mind with more order even in a natural, unfocused state.
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/reading-and-brain-thought-pattern-alignment.jpg" alt="Reading reduces entropy" /><figcaption>Reading seems to induce harmonic patterns in my brain waves, or something. To experiment, read a book for an hour and note your mental state. Then watch TikTok and compare.</figcaption></figure>
 
@@ -214,7 +214,7 @@ One researcher explains that the story structure of books can instill a more seq
 
 In other words, your brain gets accustomed to thinking in story structures and imprints that same structure in the brain. This helps internalize sequential and causal thinking patterns.
 
-On days in which I haven't read a book but instead have been immersed online, my brain has a much different pattern. Instead of linear, focused thought, my mind skips around more. I get monkey mind, jumping from one topic to another. If I'm trying to fall asleep, my racing thoughts will keep me up unless I put an audio book in my ear to focus my attention until I fall asleep.
+On days in which I haven't read a book but instead have been immersed online, my brain has a much different pattern. Instead of linear, focused thought, my mind skips around more. I get monkey mind, jumping from one topic to another. If I'm trying to fall asleep, my racing thoughts will keep me up unless I put an audiobook in my ear to focus my attention until I fall asleep.
 
 I might not have noticed this contrast in mental states were it not for this [whole smartphone experiment](/blog/first-experiences-moving-away-from-smartphones/) (noted earlier). These past two months, I've been more relaxed in my rules about technology use. Earlier on in my experience, however, I [adopted strict rules](/blog/my-international-rules-for-smartphone-use/) about when I would use a phone, and so on. My journey away from smartphones led me to [read a lot more](/blog/one-month-in-without-a-smartphone/#books-printing-things-out). When I [returned to my smartphone](/blog/returning-to-smartphones/) (because my family wanted to text me), I relapsed in other ways too, checking sports and news more often. Then my work provided me with a phone, which came equipped with work email and calendar. I started checking work email more often, in addition to checking my own email almost obsessively. I started reading Feedly (an RSS aggregator) more often. 
 
