@@ -592,7 +592,8 @@ dt {
 dl dd {
     margin-top: 12px;
     margin-bottom: 12px;
-    margin-left: 35px
+    margin-left: 35px;
+    line-height: 2;
 }
 
 figcaption {
