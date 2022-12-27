@@ -36,6 +36,8 @@ Admittedly, while reading the book, I found myself wondering about the line betw
 
 I do think the authors could provide a more balanced discussion in places. But I get that as cyber-skeptic literature, the authors’ goal is to raise awareness and “jolt those of us who work in science, technology, or engineering to see a bigger picture regarding potential consequences of failed or misused technology” (111).
 
+{% include ads.html %}
+
 The appendix at the end of the book is especially useful for introducing readers to the terminology of the cyber-skeptic genre. It defines and discusses nearly 40 key terms in the context of larger technological issues. This section is invaluable for empowering readers to investigate the potential drawbacks of digital technology with more precision. The following are terms that stood out most to me; I’ve included brief summaries (my own) of each.
 
 **Control centrism:** 
