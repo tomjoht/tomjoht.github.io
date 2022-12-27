@@ -18,7 +18,7 @@ In the book, Krinock and Hoff say they
 
 In other words, they want to encourage a more careful, thoughtful evaluation of the technology we incorporate into our lives.
 
-Krinock draws upon his former experience as an airline pilot to illustrate some of the potential drawbacks of technology. As pilots rely increasingly on “digital nannies” to monitor and detect issues during flight, and even switch on auto-pilot entirely, they lose their situational awareness and ability to act skillfully when things go wrong. Krinock writes:
+Krinock draws upon his former experience as a pilot to illustrate some of the potential drawbacks of technology. As pilots rely increasingly on “digital nannies” to monitor and detect issues during flight, and even switch on auto-pilot entirely, they lose their situational awareness and ability to act skillfully when things go wrong. Krinock writes:
 
 > Digital technology _gave me “eyes” in_ the night that no human eyes could match and _took away _elements of my inherent **situational awareness**&mdash;a type of awareness that needs regular care and feeding (through constant practice) in order to be effective at times of emergencies” (37).
 
