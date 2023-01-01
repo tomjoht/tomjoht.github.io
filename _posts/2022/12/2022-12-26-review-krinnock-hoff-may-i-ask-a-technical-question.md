@@ -20,7 +20,7 @@ In other words, they want to encourage a more careful, thoughtful evaluation of 
 
 Krinock draws upon his former experience as a pilot to illustrate some of the potential drawbacks of technology. As pilots rely increasingly on “digital nannies” to monitor and detect issues during flight, and even switch on auto-pilot entirely, they lose their situational awareness and ability to act skillfully when things go wrong. Krinock writes:
 
-> Digital technology _gave me “eyes” in_ the night that no human eyes could match and _took away _elements of my inherent **situational awareness**&mdash;a type of awareness that needs regular care and feeding (through constant practice) in order to be effective at times of emergencies” (37).
+> Digital technology _gave me “eyes” in_ the night that no human eyes could match and _took away_ elements of my inherent **situational awareness**&mdash;a type of awareness that needs regular care and feeding (through constant practice) in order to be effective at times of emergencies” (37).
 
 Krinock and Hoff use the term _digital reliability_ as “a new definition that goes beyond statistical analysis of computer task failures and includes an analysis of how, where, and when digital technology causes human pain or displacement” (42). In other words, digital reliability asks you to assess how reliable a new digital technology is in fulfilling its intended purpose. Are there any unintended consequences that might detract rather than enhance our humanity, freedom, or self? 
 
