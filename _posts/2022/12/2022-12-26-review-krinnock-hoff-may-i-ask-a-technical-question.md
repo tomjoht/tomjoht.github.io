@@ -1,28 +1,30 @@
 ---
-title: "Book review: May I Ask a Technical Question, by Jeff Krinnock and Matt Hoff"
-permalink: /blog/review-krinnock-hoff-may-i-ask-a-technical-question/
+title: "Book review: May I Ask a Technical Question, by Jeff Krinock and Matt Hoff"
+permalink: /blog/review-krinock-hoff-may-i-ask-a-technical-question/
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/miaatq
-description: "Jeff Krinnock and Matt Hoff's 2016 book, <i>May I Ask a Technical Question? Questions about digital reliability each of us should ask</i>, provides an essential addition to the growing cyber-skeptic genre. The authors don't aim to vilify digital technology, but rather to encourage readers to thoughtfully consider the costs and benefits of each innovation. "
+description: "Jeff Krinock and Matt Hoff's 2016 book, <i>May I Ask a Technical Question? Questions about digital reliability each of us should ask</i>, provides an essential addition to the growing cyber-skeptic genre. The authors don't aim to vilify digital technology, but rather to encourage readers to thoughtfully consider the costs and benefits of each innovation."
+redirect_from:
+- /blog/review-krinnock-hoff-may-i-ask-a-technical-question/
 ---
 
 The authors ground their discussion in research and terminology, and offer a useful appendix with nearly 40 key terms in the context of larger technological issues. While the book is self-published and seemingly unreviewed elsewhere, it is worth reading, as it encourages a more mindful, cautious approach when it comes to embracing new digital technologies.
 
-In the book, Krinnock and Hoff say they 
+In the book, Krinock and Hoff say they 
 
 > are not trying to paint digital technology as being in and of itself a ‘bad’ thing; [they]’re focused on encouraging people to consider where, when, how and why we embrace all things digital, and [they]’re especially concerned about the countless situations in which we’re not even given a chance to weigh for ourselves the merits versus the costs of moving human tasks into the digital realm (83). 
 
 In other words, they want to encourage a more careful, thoughtful evaluation of the technology we incorporate into our lives.
 
-Krinnock draws upon his former experience as an airline pilot to illustrate some of the potential drawbacks of technology. As pilots rely increasingly on “digital nannies” to monitor and detect issues during flight, and even switch on auto-pilot entirely, they lose their situational awareness and ability to act skillfully when things go wrong. Krinnock writes:
+Krinock draws upon his former experience as a pilot to illustrate some of the potential drawbacks of technology. As pilots rely increasingly on “digital nannies” to monitor and detect issues during flight, and even switch on auto-pilot entirely, they lose their situational awareness and ability to act skillfully when things go wrong. Krinock writes:
 
 > Digital technology _gave me “eyes” in_ the night that no human eyes could match and _took away _elements of my inherent **situational awareness**&mdash;a type of awareness that needs regular care and feeding (through constant practice) in order to be effective at times of emergencies” (37).
 
-Krinnock and Hoff use the term _digital reliability_ as “a new definition that goes beyond statistical analysis of computer task failures and includes an analysis of how, where, and when digital technology causes human pain or displacement” (42). In other words, digital reliability asks you to assess how reliable a new digital technology is in fulfilling its intended purpose. Are there any unintended consequences that might detract rather than enhance our humanity, freedom, or self? 
+Krinock and Hoff use the term _digital reliability_ as “a new definition that goes beyond statistical analysis of computer task failures and includes an analysis of how, where, and when digital technology causes human pain or displacement” (42). In other words, digital reliability asks you to assess how reliable a new digital technology is in fulfilling its intended purpose. Are there any unintended consequences that might detract rather than enhance our humanity, freedom, or self? 
 
-Instead of assuming the new technologies always take us one step forward with human progress, Krinnock and Hoff say “we need to measure the digital wonders showing up continually in our lives not simply by their abilities and the tasks they perform for us, but also ... measure and consider what human and social tasks, abilities, traditions, skillsets, and opportunities they displace” (39).
+Instead of assuming the new technologies always take us one step forward with human progress, Krinock and Hoff say “we need to measure the digital wonders showing up continually in our lives not simply by their abilities and the tasks they perform for us, but also ... measure and consider what human and social tasks, abilities, traditions, skillsets, and opportunities they displace” (39).
 
 As a relatively short essay (112 pages, followed by a 40 page terminology appendix), the authors don’t delve into too many concrete examples. More examples would have brought the text more to life, but the authors do ground the discussion in some valuable classics, such as Mary Shelley’s _Frankenstein_ and other authors, including Neil Postman, Langdon Winner, Jean-Pierre Dupuy, Joseph Weizenbaum, and more. Much of the emphasis focuses on the dangers of surveillance—including “sousveillance,” which is a lateral, peer-based surveillance rather than top-down monitoring.
 
@@ -33,6 +35,8 @@ In such an awakening about the double-edge influence of tech, _May I Ask a Techn
 Admittedly, while reading the book, I found myself wondering about the line between tech paranoia and cyber-skepticism. The former entails assuming negative intentions from companies, while the latter involves being inquisitive and considering the repercussions of their actions. Being in the tech industry, it's difficult for me to assess my role in it all.
 
 I do think the authors could provide a more balanced discussion in places. But I get that as cyber-skeptic literature, the authors’ goal is to raise awareness and “jolt those of us who work in science, technology, or engineering to see a bigger picture regarding potential consequences of failed or misused technology” (111).
+
+{% include ads.html %}
 
 The appendix at the end of the book is especially useful for introducing readers to the terminology of the cyber-skeptic genre. It defines and discusses nearly 40 key terms in the context of larger technological issues. This section is invaluable for empowering readers to investigate the potential drawbacks of digital technology with more precision. The following are terms that stood out most to me; I’ve included brief summaries (my own) of each.
 
@@ -95,4 +99,4 @@ The appendix at the end of the book is especially useful for introducing readers
 
 You can get a copy of _My I Ask a Technical Question?_ [on Amazon](https://www.amazon.com/May-ask-Technical-Question-Reliability/dp/0998331309) and elsewhere.
 
-Note: Jeff Krinnock sent me a copy of his book to review.
+Note: Jeff Krinock sent me a copy of his book to review.
