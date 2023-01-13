@@ -97,6 +97,8 @@ The appendix at the end of the book is especially useful for introducing readers
 **Whig Theory of History:** 
 : The belief that history is an inevitable march upward into the light and that progress is inevitable. 
 
+(Note: These summaries were largely assisted by Open AI's Playground.)
+
 You can get a copy of _My I Ask a Technical Question?_ [on Amazon](https://www.amazon.com/May-ask-Technical-Question-Reliability/dp/0998331309) and elsewhere.
 
 Note: Jeff Krinock sent me a copy of his book to review.
