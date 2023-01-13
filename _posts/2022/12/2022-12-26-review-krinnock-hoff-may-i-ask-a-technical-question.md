@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/miaatq
-description: "Jeff Krinock and Matt Hoff's 2016 book, <i>May I Ask a Technical Question? Questions about digital reliability each of us should ask</i>, provides an essential addition to the growing cyber-skeptic genre. The authors don't aim to vilify digital technology, but rather to encourage readers to thoughtfully consider the costs and benefits of each innovation."
+description: "Jeff Krinock and Matt Hoff's 2016 book, <a href='https://www.amazon.com/May-ask-Technical-Question-Reliability/dp/0998331309'><i>May I Ask a Technical Question? Questions about digital reliability each of us should ask</i></a>, provides an essential addition to the growing cyber-skeptic genre. The authors don't aim to vilify digital technology, but rather to encourage readers to thoughtfully consider the costs and benefits of each innovation."
 redirect_from:
 - /blog/review-krinnock-hoff-may-i-ask-a-technical-question/
 ---
