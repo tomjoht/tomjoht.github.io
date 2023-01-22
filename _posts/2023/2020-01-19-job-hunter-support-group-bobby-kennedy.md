@@ -1,16 +1,15 @@
 ---
-title: "New Job-Hunter Support Group course offered by Bobby Kennedy -- Q&A with Bobby"
+title: "New Job-Hunter Support Group course offered by Bobby Kennedy"
 permalink: /blog/job-hunters-networking-group-bobby-kennedy/
 categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/jobhuntersupport
-toc: false
-description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses-2/'>becometechnicalwriters.com</a> to help people transition into technical writing. Starting this February, he's offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses-2/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
+description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses-2/'>becometechnicalwriters.com</a> to help people transition into technical writing. Previously, he mostly offered eight-week Jump School courses. Starting this February, he's also offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses-2/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
 ---
 
 {: .note}
-If you sign up for [Job-Hunter Support Group](https://becometechnicalwriter.com/courses-2/), use the code `tom-johnson` to get a discount. Also, when you use this code, I'll receive a commission as an affiliate.
+If you sign up for [Job-Hunter Support Group](https://becometechnicalwriter.com/courses-2/), which starts Feb 6, 2023, use the code `tom-johnson` to get a $50 discount. (Note: When you use this code, I'll receive a commission as an affiliate.)
 
 <h4> Q: What prompted you to add this new course about job searching and coaching? </h4>
 
@@ -78,5 +77,14 @@ If you don't have to worry about money or long-term stability in a job, and you 
 
 Accountability is a huge part of this new job hunter's networking group. We have a checklist, which is a great organizational tool. It helps maintain objectivity and fend off overly negative perceptions.
 
+<h3>Upcoming courses</h3>
+
+Here are the Bobby's upcoming course offerings:
+
+* 8-week Jump School starting February 6, 2023. 
+* Job-Hunter Support group starting April 3, 2023.
+
+See the [Courses](https://becometechnicalwriter.com/courses-2/) page for details.
+
 {: .note}
-If you sign up for [Job-Hunter Support Group](https://becometechnicalwriter.com/courses-2/), use the code `tom-johnson` to get a discount.
+If you sign up for any course, use the code `tom-johnson` to get a $50 discount.
