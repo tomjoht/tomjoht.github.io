@@ -8,8 +8,11 @@ rebrandly: https://idbwrtng.com/jobhuntersupport
 description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses-2/'>becometechnicalwriters.com</a> to help people transition into technical writing. Previously, he mostly offered eight-week Jump School courses. Starting this February, he's also offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses-2/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
 ---
 
-{: .note}
+## Discount codes
+
 If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3,   use the code `tom-johnson` to get a $50 discount. See [courses](https://becometechnicalwriter.com/courses-2/) for details. Note: When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tom-johnson` is a way to support me as well.
+
+## Q&A with Bobby 
 
 Here's the Q&A with Bobby about the new Job-Hunter Support Group course.
 
@@ -86,7 +89,7 @@ Here are the Bobby's upcoming course offerings:
 * 8-week Jump School starting February 6, 2023. 
 * Job-Hunter Support group starting April 3, 2023.
 
-See the [Courses](https://becometechnicalwriter.com/courses-2/) page for details.
-
 {: .note}
-Remember, if you sign up for any course, use the code `tom-johnson` to get a $50 discount.
+If you sign up for any of Bobby's [courses](https://becometechnicalwriter.com/courses-2/), use the code `tom-johnson` to get a $50 discount.
+
+{% include ads.html %}
