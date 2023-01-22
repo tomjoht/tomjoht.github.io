@@ -9,9 +9,11 @@ description: "Bobby Kennedy provides various courses on <a href='https://becomet
 ---
 
 {: .note}
-If you sign up for [Job-Hunter Support Group](https://becometechnicalwriter.com/courses-2/), which starts Feb 6, 2023, use the code `tom-johnson` to get a $50 discount. (Note: When you use this code, I'll receive a commission as an affiliate.)
+If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3,   use the code `tom-johnson` to get a $50 discount. See [courses](https://becometechnicalwriter.com/courses-2/) for details. Note: When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tom-johnson` is a way to support me as well.
 
-<h4> Q: What prompted you to add this new course about job searching and coaching? </h4>
+Here's the Q&A with Bobby about the new Job-Hunter Support Group course.
+
+<h4> Q: Bobby, what prompted you to add this new course about job searching and coaching? </h4>
 
 **A:** Learning technical writing is not easy. But after you've learned, you can face an Everest climb: finding your first gig, whether freelance, contract, or full time.
 
@@ -47,7 +49,7 @@ Regular, straightforward encouragement can be a game changer. It can be the diff
 
 **A:** I want people to focus on getting interviews. If you land appropriate interviews, the work will follow. And interviews might be for freelancing work or contracting. The interviewing process is faster and simpler. And sometimes it's more realistic to seek freelancing or contracting as a new technical writer.
 
-Few employers hire new technical writers without experience. Yet a perception remains that that's the "safe choice” to pursue. It's not true. That's where freelancing and contracting come in. To build our skills. So someday we can win that plum full-time position.
+Few employers hire new technical writers without experience. Yet a perception remains that that's the "safe choice" to pursue. It's not true. That's where freelancing and contracting come in. To build our skills. So someday we can win that plum full-time position.
 
 Regarding the networking group: If you spend a month without getting a single interview, you get a second month free.
 
@@ -87,4 +89,4 @@ Here are the Bobby's upcoming course offerings:
 See the [Courses](https://becometechnicalwriter.com/courses-2/) page for details.
 
 {: .note}
-If you sign up for any course, use the code `tom-johnson` to get a $50 discount.
+Remember, if you sign up for any course, use the code `tom-johnson` to get a $50 discount.
