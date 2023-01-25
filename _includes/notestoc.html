@@ -133,6 +133,10 @@
     {% assign sidebarTitle = "Mobility" %}
     {% assign sidebar = site.data.sidebar_mobility.entries %}
 
+    {% elsif page.jtype == "notes_sitting" %}
+    {% assign sidebarTitle = "Sitting, standing, and walking" %}
+    {% assign sidebar = site.data.sidebar_sitting.entries %}
+
     {% endif %}
 
     <h3>{{sidebarTitle}}</h3>

@@ -5,12 +5,12 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/jobhuntersupport
-description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses-2/'>becometechnicalwriters.com</a> to help people transition into technical writing. Previously, he mostly offered eight-week Jump School courses. Starting this February, he's also offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses-2/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
+description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses/'>becometechnicalwriters.com</a> to help people transition into technical writing. Previously, he mostly offered eight-week Jump School courses. Starting this spring, he's also offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
 ---
 
 ## Discount codes
 
-If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3,   use the code `tom-johnson` to get a $50 discount. See [courses](https://becometechnicalwriter.com/courses-2/) for details. Note: When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tom-johnson` is a way to support me as well.
+If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3, use the code `tomjohson` to get a $50 discount. You must use the code before February 6. See [courses](https://becometechnicalwriter.com/courses/) for details. Note: When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tomjohson` is a way to support me as well.
 
 ## Q&A with Bobby 
 
@@ -60,13 +60,13 @@ Regarding the networking group: If you spend a month without getting a single in
 
 **A:** Yes. Interviewing skills! There seems to be a complete lack of perspective on how we present ourselves. We're communicators, so as candidates we've got to be articulate and establish a rapport with the interviewers. It's the last part of our course, but certainly not the least important.
 
-Last year, before I retired as a technical writing manager at PwC, I interviewed _senior-level _candidates_. And I was surprised by the lack of self-awareness on camera. We've got to be clearly visible and centered in the video. And not say inappropriate things.
+Last year, before I retired as a technical writing manager at PwC, I interviewed _senior-level candidates_. And I was surprised by the lack of self-awareness on camera. We've got to be clearly visible and centered in the video. And not say inappropriate things.
 
 We live in a zoom world now and we need to come to grips with it to succeed. But I tell members that interviewers can be nervous, too, because the price of hiring a bad candidate can be steep.
 
 Of course, portfolios must be polished. In our main course, we iterate on three documents until they're highly polished.
 
-How is looking for a job in tech comm unique from other roles? Is the methodology the same for many other roles in tech, or are there unique aspects to the tech comm profession that merit a unique approach?
+<h4> Q: How is looking for a job in tech comm unique from other roles? Is the methodology the same for many other roles in tech, or are there unique aspects to the tech comm profession that merit a unique approach?</h4>
 
 I see an increasing emphasis on soft skills for technical writers. You can be a highly knowledgeable, brilliant writer, but if you don't mix well with different teams, you might not get that raise. This is especially true in global corporations. 
 
@@ -84,12 +84,12 @@ Accountability is a huge part of this new job hunter's networking group. We have
 
 <h3>Upcoming courses</h3>
 
-Here are the Bobby's upcoming course offerings:
+Here are Bobby's upcoming course offerings:
 
 * 8-week Jump School starting February 6, 2023. 
-* Job-Hunter Support group starting April 3, 2023.
+* Job-Hunter Support Group starting April 3, 2023.
 
 {: .note}
-If you sign up for any of Bobby's [courses](https://becometechnicalwriter.com/courses-2/), use the code `tom-johnson` to get a $50 discount.
+If you sign up for any of Bobby's [courses](https://becometechnicalwriter.com/courses/), use the code `tomjohson` to get a $50 discount.
 
 {% include ads.html %}
