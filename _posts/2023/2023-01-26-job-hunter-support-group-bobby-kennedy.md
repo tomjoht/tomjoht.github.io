@@ -44,6 +44,8 @@ Regular, straightforward encouragement can be a game changer. It can be the diff
 
 **A:** All the more reason to offer support and encouragement! I worked as a contractor for 18 of my 22 years and interviewed a lot. I know something about grinding this effort out.
 
+{% include ads.html %}
+
 <h4> Q: What happens if you can't help people land a role at a company? How long might this whole process take? </h4>
 
 **A:** I want people to focus on getting interviews. If you land appropriate interviews, the work will follow. And interviews might be for freelancing work or contracting. The interviewing process is faster and simpler. And sometimes it's more realistic to seek freelancing or contracting as a new technical writer.
@@ -90,5 +92,3 @@ Here are Bobby's upcoming course offerings:
 <figure style="margin-left: 15px; float: right"><a href="https://becometechnicalwriter.com/courses/"><img style="max-width: 175px" src="https://cfb.rabbitloader.xyz/axrhlqj7/rls.t-nw-a28/wp-content/uploads/2023/01/8-Week-Jump-School-Image.png"></a></figure> 
 
 If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3, use the code `tomjohson` to get a $50 discount. You must use the code before February 6. When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tomjohson` is a way to support me as well.
-
-{% include ads.html %}

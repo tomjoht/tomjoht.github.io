@@ -48,6 +48,8 @@ Vernikos says some of the astronauts have gone jogging a couple of days after th
 
 Both Vernikos and Levine don't recommend going to the gym more to counteract the effects of sitting. They say that if you go to the gym for 30 minutes a day, it's not enough to counter the other 23.5 hours spent sitting or lying down. Instead, they recommend frequent, small movements in a continuous way, like walking on a treadmill at 1 mph while working, or frequently changing posture. The answer isn't standing all day, they say, but changing positions for much of the day in ways that activate your stabilizer muscles.
 
+{% include ads.html %}
+
 ## Treadmill desks
 
 In my initial efforts to get up from my chair more, I experimented with working from a treadmill desk. Levine describes how he pioneered one of the first treadmill desks, along with wearables to measure movement. Treadmill desks are the solution Levine envisions to solve the problems of sitting. I'd always hated just standing at my desk. I wondered, could a treadmill be more tolerable than a basic standing position? I decided to experiment.
