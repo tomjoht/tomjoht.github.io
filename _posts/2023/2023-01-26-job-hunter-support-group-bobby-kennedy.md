@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/jobhuntersupport
-description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses/'>becometechnicalwriters.com</a> to help people transition into technical writing. Previously, he mostly offered eight-week Jump School courses. Starting this spring, he's also offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
+description: "Bobby Kennedy provides various courses on <a href='https://becometechnicalwriter.com/courses/'>becometechnicalwriter.com</a> to help people transition into technical writing. Previously, he mostly offered eight-week Jump School courses. Starting this spring, he's also offering a new, one-of-a-kind course called the <a href='https://becometechnicalwriter.com/courses/'>Job-Hunter Support Group</a>, which focuses on helping people find job openings for technical writers, prepare a resume and portfolio, and interview convincingly for the positions. The following is a Q&A with Bobby about the new course. (Note: This is a sponsored post.)"
 ---
 
 ## Q&A with Bobby 
