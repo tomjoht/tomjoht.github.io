@@ -16,6 +16,8 @@ In _Get Up! Why your chair is killing you and what you can do about it_, James L
 
 Beyond the dislike of sitting, why this topic? I like focusing on projects that involve a specific action of some kind. In my [Journey away from smartphones series](/blog/awakening-moment-to-how-smartphones-fragment-our-attention/), that action involved first abandoning my smartphone and later, after reintroducing it, paring back its apps and functionality until it was no longer addictive. In this series, I plan to minimize my office chair and spend an equal amount of time standing as much as sitting. I'm aware of the challenges of giving up so much chair time, but my hope is that the changes will be worth it.
 
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/office-worker-standing-balance.jpg" alt="standing on some sort of balance board" />
+
 ## Physical deterioration
 
 Although sitting isn't unique to tech careers, sitting tends to go hand-in-hand with working on computers. As computers become more pervasive across all jobs, more of us are sitting the majority of the time. Productivity itself seems to involve sitting for long periods of still focus in front of the screen. Long-term sitting is not without effects on our bodies. Levine says:
@@ -108,7 +110,7 @@ The treadmill desk was cool, but not as fun, I learned, as standing on a balance
 
 Interestingly enough, Levine doesn't mention balance boards in his book. He focuses mostly on treadmills. But I found that I love rocking back and forth on a balance board. With my hands resting on the desk or keyboard, it provides much of the needed stability so that I'm not exerting all my attention and effort to balance. I find it really soothing to gently roll back and forth. Occasionally, I'll remove my hands from the keyboard, such as when I'm watching a video or reading a book, and balance without stabilizing with my hand, but mostly I don't. 
 
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/office-worker-standing-balance.jpg" alt="standing on some sort of balance board" />
+<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tom-standing-on-balance-board.jpg" alt="me standing on roller board at desk at home" />
 
 The roller behaves differently depending on the floor surface. If you're on a plastic office mat, it rolls back and forth smoothly. I have already cracked my plastic mat in multiple places, though. There's also the occasional squeakiness of plastic on plastic. If you place a piece of smooth wood on the floor, the roller moves more smoothly and quickly, making balance more difficult. But the smooth wood surface is also quieter and more pleasing to rock back and forth.
 
