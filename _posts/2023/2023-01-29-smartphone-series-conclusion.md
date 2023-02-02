@@ -40,6 +40,8 @@ I also started backsliding against my 90-minute pomodoros, which had been the ke
 
 All the while, I started reading less and feeling more superficial, getting less done. My productivity plummeted. What happened? I let the smartphone control my life again.
 
+{% include ads.html %}
+
 I avoided bringing my phone into my bedroom at night, but I would just bring my laptop instead and get hooked on some mindless TV show. Or I'd wake up early, such as 4:30 am, and reach for my laptop (conveniently located under the bed) to continue the show. After all, what else can you do at 4:30 am when you can't sleep?
 
 I felt like a former alcoholic who had fallen off the wagon. I underestimated the insidiousness of the smartphone and Internet. I tried to remove both Chrome and Gmail but found that I couldn't remove these apps on Android, only disable them, so I did. I assumed that re-enabling them wouldn't be that hard, but I did manage to resist doing so. 
