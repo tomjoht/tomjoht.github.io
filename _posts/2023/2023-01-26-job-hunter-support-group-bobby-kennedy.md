@@ -91,4 +91,4 @@ Here are Bobby's upcoming course offerings:
 
 <figure style="margin-left: 15px; float: right"><a href="https://becometechnicalwriter.com/courses/"><img style="max-width: 175px" src="https://cfb.rabbitloader.xyz/axrhlqj7/rls.t-nw-a28/wp-content/uploads/2023/01/8-Week-Jump-School-Image.png"></a></figure> 
 
-If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3, use the code `tomjohson` to get a $50 discount. You must use the code before February 6. When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tomjohson` is a way to support me as well.
+If you sign up for either the 8-week Jump School, which starts February 6, or the Job-Hunter Support Group, which starts April 3, use the code `tomjohnson` to get a $50 discount. You must use the code before February 6. When you use this code, I'll receive a commission as an affiliate, so mentioning the code `tomjohnson` is a way to support me as well.
