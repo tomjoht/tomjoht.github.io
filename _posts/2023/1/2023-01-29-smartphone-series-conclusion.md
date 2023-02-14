@@ -178,7 +178,7 @@ The problem with glancing through daily news summaries is that I don't want play
 
 Recently I decided to get a print subscription to _The Week_, hoping it would be a way of batching my news reading to a lazy weekend hour offline. I wasn't looking for in-depth reporting to explore all sides of an issue; I mostly wanted the gist of what's going on, consolidated into a weekly publication and easily digestible offline format. And I hoped that reading offline would make me less prone to wandering online. 
 
-However, I found _The Week_ to be too tabloid-like. The high-level news summaries lacked insight and reading appeal. Perhaps this is ultimately beneficial to me, as I don't want to be pulled into the news anyway.
+_The Week_ isn't bad. It took me a few issues to get used to its style. Not all the news it includes is noteworthy; much of it feels trivial and tabloid-like. But I like consuming news this way&mdash;offline, in print. Reading news online presents too much temptation to click down rabbit holes.
 
 ## Revisiting my rules {#revisiting-my-rules}
 
