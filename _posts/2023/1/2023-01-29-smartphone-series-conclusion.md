@@ -14,7 +14,7 @@ description: "A <i>New York Times</i> article about Luddite teens who rejected t
 
 The _New York Times_ recently published an article titled [Luddite Teens Don't Want Your Likes](https://www.nytimes.com/2022/12/15/style/teens-social-media.html) (Vadukul), which brought back nostalgic memories for me of the six weeks I spent without a smartphone. 
 
-<figure><a href="https://www.nytimes.com/2022/12/15/style/teens-social-media.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nytimesarticleludditeteens.jpg" alt="Luddite Teens Don't Want Your Likes" /></a><figcaption>Luddites don't want your likes article</figcaption></figure>
+<figure><a href="https://www.nytimes.com/2022/12/15/style/teens-social-media.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nytimesarticleludditeteens.jpg" alt="Luddite Teens Don't Want Your Likes" /></a><figcaption>"‘Luddite’ Teens Don’t Want Your Likes" article in the <i>New York Times</i>. This group of teens rejects smartphones.</figcaption></figure>
 
 The article begins:
 
