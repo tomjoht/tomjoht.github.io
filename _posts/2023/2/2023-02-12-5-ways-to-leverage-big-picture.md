@@ -1,5 +1,5 @@
 ---
-title: "Five ways to leverage big picture thinking as a technical writer"
+title: "Five ways to leverage big-picture thinking as a technical writer"
 permalink: /trends/five-approaches-to-big-picture-thinking-tech-comm.html
 categories:
 - technical-writing
