@@ -4,7 +4,7 @@ permalink: /blog/conclusion-and-learnings-smartphone-series/
 categories:
 - technical-writing
 keywords:
-rebrandly: https://idbwrtng.com/dmntpn
+rebrandly: https://idbwrtng.com/conclusionsmartphoneseries
 series: "Journey away from smartphones"
 jtype: notes_smartphones
 description: "A <i>New York Times</i> article about Luddite teens who rejected their smartphones made me reflect on my own journey away from smartphones and the complexities of discerning how to adopt transformative technology in my life. In this conclusion to the series, I highlight key learnings and realizations throughout the year, including how the project changed me for the better."
@@ -12,10 +12,14 @@ description: "A <i>New York Times</i> article about Luddite teens who rejected t
 
 ## Luddite teens {#luddite-teens}
 
-The _New York Times_ recently published an article titled "Luddite Teens Don't Want Your Likes" (Vadukul), which brought back nostalgic memories for me of the six weeks I spent without a smartphone. The article begins:
+The _New York Times_ recently published an article titled [Luddite Teens Don't Want Your Likes](https://www.nytimes.com/2022/12/15/style/teens-social-media.html) (Vadukul), which brought back nostalgic memories for me of the six weeks I spent without a smartphone. 
+
+<figure><a href="https://www.nytimes.com/2022/12/15/style/teens-social-media.html"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/nytimesarticleludditeteens.jpg" alt="Luddite Teens Don't Want Your Likes" /></a><figcaption>Luddites don't want your likes article</figcaption></figure>
+
+The article begins:
 
 > On a brisk recent Sunday, a band of teenagers met on the steps of Central Library on Grand Army Plaza in Brooklyn to start the weekly meeting of the Luddite Club, a high school group that promotes a lifestyle of self-liberation from social media and technology. As the dozen teens headed into Prospect Park, they hid away their iPhones—or, in the case of the most devout members, their flip phones, which some had decorated with stickers and nail polish.
-
+> 
 > ... [One club member comments:] When I got my flip phone, things instantly changed .... I started using my brain. It made me observe myself as a person. I've been trying to write a book, too. It's like 12 pages now.
 
 As I read the article, I began to trace back in my mind why I returned to using my smartphone and if I should go back to living without it. The club founder, Logan Lane, explains how Instagram made her feel bad about herself, so she first deleted the app, then put her phone in a box. With her phone locked away, life opened up all around her:
