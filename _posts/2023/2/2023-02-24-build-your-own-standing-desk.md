@@ -99,7 +99,9 @@ At my Home Depot, the PVC pipe aisle offers pre-cut 2-foot pieces for sale. But 
 
 ## Step 2: Cut out the balance board
 
-Using a pencil, trace the shape of the balance board you plan to cut out. As for the shape, you can find some templates [here](https://www.instructables.com/Rail-to-Rail-Balance-Board/). (I'd recommend a shape similar to the Velo one on that site.)I patterned mine after the [Revbalance Swell board](https://revbalance.com/balance-boards/swell/). This is approximately 15 inches wide (at the center) and 35 inches long. Round the corners as desired.
+Using a pencil, trace the shape of the balance board you plan to cut out. Then use your jigsaw to cut it. 
+
+As for the shape, you can find some templates [here](https://www.instructables.com/Rail-to-Rail-Balance-Board/). (I'd recommend a shape similar to the Velo one on that site.) I patterned mine after the [Revbalance Swell board](https://revbalance.com/balance-boards/swell/). This is approximately 15 inches wide (at the center) and 35 inches long. Round the corners as desired.
 
 Here's the top of my balance board:
 
@@ -120,7 +122,7 @@ In general, if your purpose is similar to mine (for standing desks), don't worry
 After you cut out the balance board, use a sander to sand the edges.
 
 {: .note}
-When you're using a jigsaw, make sure you use protective gear including safety goggles, ear plugs, and leather gloves. Put the board on a workbench or stabilized between two chairs. 
+When you're using a jigsaw, make sure you use protective gear including safety goggles, ear plugs, and leather gloves. Put the board on a workbench or stabilize it between two chairs. 
 
 ## Step 3: Add the stopper blocks
 
@@ -135,17 +137,17 @@ As for where the position the stopper blocks, I positioned mine as close to the 
 Coat the wood with polyurethane. The polyurethane step will involve putting on multiple light coats every couple of hours. Light coats ensure that the polyurethane doesn't pool up or drop in places. 
 
 {: .tip}
-Don't try to put on a super thick coat to reduce the number of coats needed, as you'll regret it when you see all the drips and liquid pooling.)
+Don't try to put on a super thick coat to reduce the number of coats needed, as you'll regret it when you see all the drips and liquid pooling.
 
 I put a light coat on one side of the board, waited an hour, then flipped it over and put a coat on the other side. Waited an hour, then flipped and bushed another coat. And so on about 3 times on each side.
 
-If you're artistic (or have some design in mind), consider creating a design on the board prior to coating it with polyurethane. You can also use patterned grip tape later, if you want. However, I covered the top of my board with a thin rubber mat, so such a design would only make sense on the bottom.
+If you're artistic (or have a pre-fab vinyl design), add the design to your board prior to coating it with polyurethane. You can also use patterned grip tape later, if you want. However, I covered the top of my board with a thin rubber mat, so such a design would only make sense on the bottom.
 
 ## Step 5. Cut the PVC pipe
 
-Using a regular saw, cut the PVC pipe into 2-foot lengths. (You don't need to cut more than a couple of two-foot pieces.) You might have a vice to hold the pipe in place or some other setup&mdash;if so, great. I simply laid the pipe between two chairs and asked my kid to sit on the pipe on one side while I sawed it. 
+Using a regular saw, cut the PVC pipe into 2-foot lengths. (You don't need to cut more than a couple of two-foot pieces.) You might have a vice to hold the pipe in place or some other setup&mdash;if so, great. I simply laid the pipe between two chairs and asked my kid to sit on the pipe on one side while I sawed it. (Without some way to hold down the pipe, it will move all over the place.)
 
-Getting a clean cut on PVC is a bit tricky. Don't use a hacksaw, as the blade will angle all over the place (as I learned on my first attempt). Try to cut evenly straight down, without angling. If the cut isn't more or less straight, it will be hard to store the balance board vertically. 
+Getting a clean cut on PVC is a bit tricky. Don't use a hacksaw, as the blade will angle all over the place (as I learned on my first attempt). Try to cut evenly straight down with a saw, without angling. If the cut isn't more or less straight, it will be hard to rest the balance board on its end.
 
 After cutting the pipe, use a file to smooth the edges a bit.
 
@@ -157,7 +159,7 @@ I usually wear [Oofos sandals](https://www.oofos.com/products/mens-sandal-ooahh-
 
 It can be challenging to apply the rubber mat evenly on the board.  I recommend that you use an Exacto knife (or utility blade) to even things out after putting it onto the board. Aesthetically, the shape of my rubber mat doesn't match the shape of my board, which makes it less visually pleasing to look at. There's plenty of room for improvement here. 
 
-One final note. If you find that the plastic PVC is too slippery on the board, you can wrap the PVC pipe with duct tape. This will create more friction with the board, which might be desirable. I tried this for a while but then removed the tape, as it allows for smoother rolling.
+One final note. If you find that the plastic PVC is too slippery on the board, you can wrap the PVC pipe with duct tape. This will create more friction with the board, which might be desirable. I tried this for a while but then removed the tape because the rollers were smoother without the tape, and I like the ability to jump-slide the board around a little.
 
 You're done. Enjoy your balance board.
 
@@ -168,6 +170,6 @@ Here are some other random notes about making balance boards:
 * **Perfect roundness with the PVC pipe.** As you roll back and forth, you might notice that your pipe isn't perfectly round. I'm not sure how to fix this issue. It seems that not all PVC pipes are the same; some are a little distorted. I've ordered a couple of a pre-made balance boards that have the same issue.
 * **Plastic caps for the PVC pipe.** You can get plastic caps for the ends of the PVC pipe, but this will make the pipe heavier. With caps, you could fill the PVC pipe with something (e.g., sand?), but I'm not sure what this would add to the experience. It would make the PVC heavier, thus harder to move around and perhaps more stable.
 * **PVC pipe diameter.** Why 4" PVC pipe? You could also use 3", but the board will more easily hit the ground as you balance. You could use 5” or 6", but this would make the balance board more difficult to stand on. 4" does seem to be the sweet spot for size.
-* **Rubber couplings**. What about putting rubber couplings around the PVC pipe? You could buy 6 rubber couplings and put them around the PVC pipe. I saw this recommendation on a video. However, when I did this, the rubber made strong squeaky noises and slowed down the rocking motion too much. Additionally, the six couplings cost $60, so this added to the expense considerably.
-* **Standing desk compatibility.** Presumably, you already have a standing desk if you're building this board for a standing office. When you stand on a balance board, you'll need to raise the desk pretty high because you'll be a good 5 inches taller and standing. If you buy a [Jarvis desk](https://www.fully.com/standing-desks/jarvis/jarvis-adjustable-height-desk-bamboo.html) (which I highly recommend), be sure to get the “three-stage frame” (an optional upgrade) that extends the full 51" in height. I'm 6'2” and needed to extend it to nearly its full height. I also have my monitor on a swing arm, which allows me to move the monitor and my line-of-sight up higher.
+* **Rubber couplings**. What about putting rubber couplings around the PVC pipe? You could buy 6 rubber couplings and put them around the PVC pipe. I saw this recommendation on a video. However, when I did this, the rubber made strong squeaky noises and slowed down the rocking motion too much. Additionally, the six couplings cost $60, so this added to the expense considerably. (I ended up returning my rubber couplings.)
+* **Standing desk compatibility.** Presumably, you already have a standing desk if you're building this board for a standing office. When you stand on a balance board, you'll need to raise the desk pretty high because you'll be a good 5 inches taller and standing. If you buy a [Jarvis desk](https://www.fully.com/standing-desks/jarvis/jarvis-adjustable-height-desk-bamboo.html) (which I recommend), be sure to get the "three-stage frame" (an optional upgrade) that extends the full 51" in height. I'm 6'2” and needed to extend it to nearly its full height. I also have my monitor on a swing arm, which allows me to move the monitor and my line-of-sight up higher.
 * **Squeaky noises.** If you find the balance board squeaks on the roller, you can try rubbing the roller with dryer sheets. This is how you get the squeak out of your orthotic inserts in shoes. I assume that spray-on dryer sheet liquid (which I haven't tried) would be better. The dryer sheet method doesn't fix the problem for more than an hour or two. My homemade balance board so far hasn't started squeaking (but the Revbalance 101 board I initially bought squeaks).
