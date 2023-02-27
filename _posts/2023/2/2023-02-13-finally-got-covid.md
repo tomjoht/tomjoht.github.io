@@ -50,4 +50,10 @@ Day 14, still testing positive. Still coughing. A bit of a sore throat.
 
 Day 15, woke up coughing. But finally tested negative! 
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/testingnegativetom.jpg" alt="Finally testing negative" /><figcaption>I'm so happy to return to normal.</figcaption></figure>
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/testingnegativetom.jpg" alt="Finally testing negative" /><figcaption>I was so happy to return to normal.</figcaption></figure>
+
+I thought that as soon as I tested negative, I'd be all better. But the sore throat stuck with me for another two weeks, sadly. I even went to a waterfall one day to see if the negative ions would boost my immune system and heal me.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UGWZkx1fc-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+I spent about a half hour watching the waterfall. Did it help? Not really. Oh well, it was still a beautiful place to visit.
