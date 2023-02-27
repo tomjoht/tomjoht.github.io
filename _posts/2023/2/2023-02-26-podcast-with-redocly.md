@@ -49,3 +49,5 @@ _Note that this is a sponsored podcast._
 * [Redocly CLI](https://redocly.com/redocly-cli/)
 * [API Wisdom newsletter](https://www.apiwisdom.com)
 * [Australia Post Office API site](https://developers.auspost.com.au/apis)
+
+{% include ads.html %}

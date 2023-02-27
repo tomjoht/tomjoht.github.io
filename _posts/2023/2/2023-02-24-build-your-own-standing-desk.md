@@ -95,6 +95,8 @@ You could also use a 3-inch PVC pipe, which will definitely have less rocking mo
 
 At my Home Depot, the PVC pipe aisle offers pre-cut 2-foot pieces for sale. But they are quite expensive compared to the 10-foot piece. I initially bought the 2-foot pieces, thinking a 10-foot PVC pipe would be too hard to transport and cut, but later I changed my mind, returned the two-foot pieces, and got the 10-foot piece. The 10-foot piece is definitely the way to go, as it costs half as much (for the length you're getting), is light to carry, and not hard to cut.
 
+{% include ads.html %}
+
 ## Step 2: Cut out the balance board
 
 Using a pencil, trace the shape of the balance board you plan to cut out. As for the shape, you can find some templates [here](https://www.instructables.com/Rail-to-Rail-Balance-Board/). (I'd recommend a shape similar to the Velo one on that site.)I patterned mine after the [Revbalance Swell board](https://revbalance.com/balance-boards/swell/). This is approximately 15 inches wide (at the center) and 35 inches long. Round the corners as desired.
