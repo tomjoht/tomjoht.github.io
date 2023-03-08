@@ -38,7 +38,7 @@ I thought more about the pandemic. A few details resolved into focus. At the sta
 
 Nine days into Omicron and still feeling intermittent nausea and weakness. I went to CVS (wearing a K95 mask) to look for more over-the-counter medication and saw the sore throat medication was mostly gone. It seemed clear that lots of people were experiencing Omicron, as a sore throat is a primary symptom. I'd already gone through an entire box of Cepacol (a throat-numbing medicine) and was buying more.
 
-Day 10 and I started finally feeling better. I spent the day building a balance board in my garage, cutting the shape out of birchwood with a jigsaw, then sanding it, and coating it with polyurethane. 
+Day 10 and I started finally feeling better. I spent the day [building a balance board](/blog/build-your-own-standing-desk-standing-office/) in my garage, cutting the shape out of birchwood with a jigsaw, then sanding it, and coating it with polyurethane. 
 
 My wife started tested negative. She'd been officially sick only 3 days, and once she tested negative, she was back to her normal self and energy. I was still testing positive. Day 12 and still testing positive! I started to wonder if maybe Omicron had evolved or combined with something else.
 
@@ -52,8 +52,12 @@ Day 15, woke up coughing. But finally tested negative!
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/testingnegativetom.jpg" alt="Finally testing negative" /><figcaption>I was so happy to return to normal.</figcaption></figure>
 
-I thought that as soon as I tested negative, I'd be all better. But the sore throat stuck with me for another two weeks, sadly. I even went to a waterfall one day to see if the negative ions would boost my immune system and heal me.
+I thought that as soon as I tested negative, I'd be all better. But the sore throat stuck with me for another two weeks, sadly. I even went to a waterfall one day to see if the negative ions would boost my immune system and heal me (as I read about in "Walk with Ions" in [*52 Ways to Walk*](https://www.amazon.com/52-Ways-Walk-Surprising-Wellness/dp/0593419952))
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UGWZkx1fc-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I spent about a half hour watching the waterfall. Did it help? Not really. Oh well, it was still a beautiful place to visit.
+
+Days 16-27: Unexplainable persistent sore throat. Some days it felt like swallowing knives. I wasn't sure if it was post-Covid or if I caught something else right after Covid. Took a strep and mono tests but they came back negative. I went through about 5 bags of lozenges, a whole pack of Sudafed, Mucinex, and used a neti pot a lot.
+
+Day 28: Sore throat finally subsided, mostly. 
