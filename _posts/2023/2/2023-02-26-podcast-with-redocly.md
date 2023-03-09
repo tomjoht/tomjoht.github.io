@@ -4,8 +4,6 @@ permalink: /blog/redocly-podcast/
 categories:
 - technical-writing
 - podcasts
-keywords: archbee, documentation tools
-rebrandly: https://idbwrtng.com/archbee-podcast-oct22
 podcast_file_size: 28.5 MB
 podcast_duration: "36:16"
 podcast_length: 28471394

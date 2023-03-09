@@ -143,7 +143,7 @@ I put a light coat on one side of the board, waited an hour, then flipped it ove
 
 If you're artistic (or have a pre-fab vinyl design), add the design to your board prior to coating it with polyurethane. You can also use patterned grip tape later, if you want. However, I covered the top of my board with a thin rubber mat, so such a design would only make sense on the bottom.
 
-## Step 5. Cut the PVC pipe
+## Step 5: Cut the PVC pipe
 
 Using a regular saw, cut the PVC pipe into 2-foot lengths. (You don't need to cut more than a couple of two-foot pieces.) You might have a vice to hold the pipe in place or some other setup&mdash;if so, great. I simply laid the pipe between two chairs and asked my kid to sit on the pipe on one side while I sawed it. (Without some way to hold down the pipe, it will move all over the place.)
 
