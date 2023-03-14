@@ -27,6 +27,8 @@ Additionally, when I added music, I found myself naturally moving a bit to the m
 
 The double-roller balance board with music has become my favorite standing setup, so much so that I've minimized the treadmill (sadly). As a result, my study now has the cliché of an unused treadmill gathering dust in the middle of it. I plan to reincorporate the treadmill soon, though.
 
+{% include ads.html %}
+
 ## Challenges
 
 My standing experiment is not without challenges. First, as I wrote about in [my covid experience](/blog/omicron-symptoms-experience/), when I got sick, I didn't do any standing. But I also noticed another problem: ankle stress. Playing basketball, I've twisted my right ankle more times than I can count. Too much standing on balance boards (especially the single roller boards) puts a lot of stress on that ankle. I now feel my nerves sort of strained if I rotate my right ankle inward at a sharp angle. It's weird, but I think it's some kind of Tarpal Tunnel syndrome thing where maybe ankle swelling is impacting a nerve. This only happens in my right ankle, and is probably a problem someone with an injured ankle might experience. Currently, I am wearing an ankle brace to address the problem.
