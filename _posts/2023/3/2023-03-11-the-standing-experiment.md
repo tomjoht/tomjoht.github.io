@@ -1,5 +1,5 @@
 ---
-title: "Updates on my standing experiment"
+title: "Updates on my standing experiment: surprisingly good for the lower back"
 permalink: /blog/the-standing-experiment/
 categories:
 - technical-writing
