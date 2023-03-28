@@ -51,7 +51,7 @@ While talking with one technical program manager, I asked how a specific API the
 
 Rather than clarification, he admitted he was less familiar with the gizmo in the other workstream. Admittedly, engineers are faced with an enormous complexity of services, languages, and code frameworks. To expect an engineer to both understand the larger picture of how all the pieces fit and flow together, and then to articulate them in ways tech writers can understand, might be a bit much. But this is exactly the type of knowledge I sought.
 
-I asked whether the API had any dependencies on other APIs, and the team noted some challenges in calling the same information from two different APIs. If each partner used each API in isolation, they wouldn’t run into any problems. But because different APIs surfaced similar data, this now presented some challenges that had to be sorted out. This was exactly the type of systems view information I was looking for. I felt like I was finally getting somewhere, moving beyond an abstract idea of systems thinking toward tangible information.
+I asked whether the API had any dependencies on other APIs, and the team noted some challenges in calling the same information from two different APIs. If each partner used each API in isolation, they wouldn’t run into any problems. But because different APIs surfaced similar data, this now presented some challenges that might need sorting out. This was exactly the type of systems view information I was looking for. I felt like I was finally getting somewhere, moving beyond an abstract idea of systems thinking toward tangible information.
 
 {% include ads.html %}
 
