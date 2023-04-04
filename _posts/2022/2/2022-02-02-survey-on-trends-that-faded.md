@@ -18,6 +18,6 @@ I left this survey in this series because it provides context and rationale for 
 
 {% include ads.html %}
 
-## Next post
+<h2>Next post</h2>
 
 Continue to the next post in this series: [Results of the survey about fizzled trends: Every trend is still with us](/blog/results-of-fizzled-trends-survey).
