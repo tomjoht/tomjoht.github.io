@@ -11,7 +11,7 @@ series: "Trends to follow or forget"
 jtype: notes_fizzled_trends
 ---
 
-About a month ago, an organizer for the [STC India 2022 conference](https://stc-india.org/conferences/2022/) reached out to see if I would present about trends at their upcoming conference. I wasn't so eager to present on trends given that I'd already focused on this topic so much. For example, I presented on trends and innovation in my [2015 tcworld India keynote](https://idratherbewriting.com/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/). And in late 2020 I published a [comprehensive trends analysis within developer documentation](https://idratherbewriting.com/learnapidoc/docapis_trends.html). Additionally, other than the trend of WFH and remote work, I wasn't aware of any major trends brewing on the horizon (maybe the metaverse, or permanent WFH?). So I instead decided to pitch the idea of a presentation on *trends that failed*.
+About a month ago, an organizer for the [STC India 2022 conference](https://stc-india.org/conferences/2022/) reached out to see if I would present about trends at their upcoming conference. I wasn't so eager to present on trends given that I'd already focused on this topic so much. For example, I presented on trends and innovation in my [2015 tcworld India keynote](/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/). And in late 2020 I published a [comprehensive trends analysis within developer documentation](/learnapidoc/docapis_trends.html). Additionally, other than the trend of WFH and remote work, I wasn't aware of any major trends brewing on the horizon (maybe the metaverse, or permanent WFH?). So I instead decided to pitch the idea of a presentation on *trends that failed*.
 
 Surely there must be failed trends, right? I made a list of about 20 trends I could think of, sent out a [really short survey](/blog/trends-that-faded-survey) to get some feedback, and was stunned to find that, according to nearly 300 respondents, most trends are still hanging around in some form or another. It's hard to pinpoint a trend and say, *See that? It was hyped up a lot in its day, then it totally failed.* In my [survey results](/blog/results-of-fizzled-trends-survey), I concluded that nearly every tech comm trend that was ever a trend is still in practice today. There are no failed or fizzled trends. Some technologies supersede other technologies, but there aren't really fizzled trends. I still find that hard to believe, but I didn't want to do another survey.
 
@@ -37,6 +37,6 @@ My [keynote presentation](https://stc-india.org/conferences/2022/tom-johnson-key
 
 In fact, the conference organizer wanted me to touch on how my learning from past trends shapes how I assess current and future trends. To this end, I've included takeaways from each trend that serve as a body of principles (gathered inductively) against which current and future trends might be assessed. After I analyze my participation in these 15 trends, I look at whether the principles I've learned could be used to better assess current trends. 
 
-## Next post
+<h2>Next post</h2>
 
 Continue to the next post in this series: [Survey about documentation trends that fizzled](/blog/trends-that-faded-survey).
