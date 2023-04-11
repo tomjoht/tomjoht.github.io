@@ -1,5 +1,5 @@
 ---
-title: "Survey analysis: Technical writers on AI"
+title: "Survey results and analysis: Technical writers on AI"
 permalink: /blog/survey-analysis-tech-writers-on-ai/
 categories:
 - ai-and-techcomm
