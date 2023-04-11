@@ -1,0 +1,16 @@
+---
+title: "AI and tech comm"
+permalink: /category-ai/
+categoryName: ai
+---
+
+<p>The api-doc category includes content related in some way to API documentation. Many times, this category includes mentions or references to new articles on my API documentation site.</p>
+
+<p>The following content is in the <b>ai</b> category:
+
+    {% for p in site.categories.ai %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endfor %}
+
+{% include ads.html %}

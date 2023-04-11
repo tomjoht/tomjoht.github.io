@@ -1,7 +1,8 @@
 ---
 title: "Survey analysis: Technical writers on AI"
+permalink: /blog/survey-analysis-tech-writers-on-ai/
 categories:
-- technical-writing
+- ai-and-techcomm
 keywords:
 rebrandly: https://idbwrtng.com/
 description: "I recently conducted an informal survey to find out the thoughts and concerns of technical writers about AI's impact on techcomm. 291 people responded to the survey. This post is a brief analysis of the findings. (The tldr here is this: change is coming quickly to the profession.)"
@@ -19,12 +20,11 @@ description: "I recently conducted an informal survey to find out the thoughts a
 
 The survey questions and responses in raw form are [here on QuestionPro](https://idbwrtng.com/ai-survey-tech-comm-results).
 
-
 <h2>1. Given AI tools' ability to simplify complex content, how worried are you about the future of your job as a technical writer?</h2>
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey1.png" alt="Question 1" />
 
-With *45% mildly concerned, 22% concerned, and 9% very concerned,* it’s safe to say this is a huge issue in the industry. Not sure if there’s ever been another technology that has made nearly half the industry mildly concerned, a quarter concerned.
+With *45% mildly concerned, 22% concerned, and 9% very concerned,* it’s safe to say this is a huge issue in the industry. Not sure if there’s ever been another technology that has made so many in the tech comm industry so concerned. This widespread concern justifies the continued focus on this topic.
 
 <h2>2. If the technical writer role vanishes in a few years, which profession would you most likely transition to (assuming you're a tech writer now)? </h2>
 
@@ -39,27 +39,29 @@ With *45% mildly concerned, 22% concerned, and 9% very concerned,* it’s safe t
 * *Business analyst: 7%*
 * *AI-generated content ghostwriter: 7%*
 
-A hat tip to the scenario’s existential absurdity, some respondents indicated their next profession might be cat sitter, farmer, and homesteader (options that could be combined into one role, actually).
+As a hat tip to the scenario’s existential absurdity, some respondents indicated their next profession might be cat sitter, farmer, and homesteader (options that could be combined into one role, actually).
 
-More seriously, the alternative career options as a content strategist and information architect look interesting to me. Many technical writers do some degree of content strategy and IA already. Anytime you plan content for a large project and strive to match marcom content, for example, you’re doing content strategy. When you plan the information flow in your developer portal, adding metadata to topics to surface topics in search, you’re doing IA.
+More seriously, though, the alternative career options as a content strategist and information architect look interesting to me. Many technical writers do some degree of content strategy and IA already. Anytime you plan content for a large project and strive to match marcom content, for example, you’re doing content strategy. When you plan the information flow in your developer portal, adding metadata to topics to surface topics in search, you’re doing IA.
 
 Personally, I find both content strategy and information architecture compelling. These focuses seem to align with my more recent interest in systems thinking.
 
-One question is whether these other disciplines are equally at risk. Given that writing isn’t the primary artifact of these disciplines, perhaps not. But certainly findability is changing from a search-dominant perspective to a conversational one, resetting the expectations and learnings of IA disciplines. And content strategy is also morphing, as [Zoomin notes](https://storage.pardot.com/1018802/1680517858gTb683bk/Zoomin_GPT_Key_Predictions_White_paper__1_.pdf), to more of a dynamically assembled content mashup of all existing sources into a coherent front.
+One question is whether these other disciplines are equally at risk. Given that writing isn’t the primary artifact of these disciplines, perhaps not. But certainly findability is changing from a search-dominant perspective to an AI-based conversational one, resetting the expectations and learnings of IA disciplines. And content strategy is also morphing, as [Zoomin notes](https://storage.pardot.com/1018802/1680517858gTb683bk/Zoomin_GPT_Key_Predictions_White_paper__1_.pdf), to more of a dynamically assembled AI content mashup of all existing sources into a coherent article. It would be interesting to probe just how much AI might also transform these alternative disciplines tech writers are considering.
 
 <h2>3. Given that writing makes up only a fraction of a technical writer's tasks, how likely is it that AI tools will have a transformative impact on tech comm?</h2>
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey3.png" alt="Question 3" />
 
-With *42% likely and 23% very likely,* then yes most people feel AI will be transformative. This is an interesting perspective because it suggests the greatest transformation won’t just be in AI’s ability to write docs. AI has the potential to influence how technical writers go about the non-writing aspects of their role.
+With *42% likely and 23% very likely,* yes most people feel AI will be transformative. These responses are an interesting perspective because they suggest the greatest transformation won’t just be in AI’s ability to write docs. AI has the potential to influence how technical writers go about the non-writing aspects of their role.
 
 <h2>4. Because AI can read, explain, and generate code pretty well, will developer doc jobs be more impacted than more creative-oriented writing jobs?</h2>
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey4.png" alt="Question 4" />
 
-With *44% likely and 22% very likely,* it’s clear most respondents feel that the most significant techcomm transformations will occur in API docs. Will we see a shift in writers focusing on more human-written, conceptual documentation? What about all those technical skillsets people have spent so long acquiring? Will that technical depth no longer giving you a leg up on other tech writer candidates? What will set one candidate apart from another? Even more difficult, how will interviewers be able to discern the skills of one writer over another, as Fabrizio Ferri Beneditti notes in [Hiring technical writers in a ChatGPT world](https://passo.uno/hiring-tech-writers-chatgpt/). 
+With *44% likely and 22% very likely,* it’s clear most respondents feel that the most significant techcomm transformations will occur in API docs. As a result, will we see a shift in writers focusing on more human-written, conceptual documentation? What about all those technical skillsets people have spent so long acquiring? Will that technical depth no longer give you a leg up on other tech writer candidates? What will set one candidate apart from another? 
 
-On the other hand, articles like Kayce Basques’s post on the [role of plugins with ChatGTP](https://technicalwriting.tools/posts/chatgpt-plugins/) suggest that accurate, clear, and comprehensive documentation that aligns with user keywords and terms will be important for companies that want to surface their content in AI responses. Someone will need to make sure documentation rises to this bar, so maybe the importance of good docs will elevate the tech writer’s role.
+Even more difficult, how will interviewers be able to discern the skills of one writer over another, as Fabrizio Ferri Beneditti notes in [Hiring technical writers in a ChatGPT world](https://passo.uno/hiring-tech-writers-chatgpt/)?
+
+On the other hand, articles like Kayce Basques’s post on the [role of plugins with ChatGTP](https://technicalwriting.tools/posts/chatgpt-plugins/) suggest that accurate, clear, and comprehensive documentation that aligns with user keywords and terms will be important for companies that want to surface their content in AI engines. Someone will need to make sure documentation rises to this bar, so maybe the importance of good docs will elevate the tech writer’s role after all.
 
 <h2>5. In an AI-driven future, will creating semantic, structured content be needed to optimize large language models' performance with company content?</h2>
 
@@ -67,39 +69,43 @@ On the other hand, articles like Kayce Basques’s post on the [role of plugins 
 
 With *41% likely 41%, 29% very likely*, this seems to be a nod to the DITA CCMS crowd, but some respondents might not have understood what “structured authoring” meant in the question. In the freeform comments, some said “I can’t quite parse this question.” “Question is unclear…” “Not certain if I understood the question…”
 
-[Zoomin](https://storage.pardot.com/1018802/1680517858gTb683bk/Zoomin_GPT_Key_Predictions_White_paper__1_.pdf) that “…structured content … can dramatically help with the definition of content semantics to make the content highly optimized for programmatic consumption via search, filtering and personalization.” And [Basques' post](https://technicalwriting.tools/posts/chatgpt-plugins/) emphasizes the need for developer docs to follow the OpenAPI spec, which is the most common structure in dev docs.
+[Zoomin](https://storage.pardot.com/1018802/1680517858gTb683bk/Zoomin_GPT_Key_Predictions_White_paper__1_.pdf) says that “…structured content ... can dramatically help with the definition of content semantics to make the content highly optimized for programmatic consumption via search, filtering and personalization.” And [Basques' post](https://technicalwriting.tools/posts/chatgpt-plugins/) emphasizes the need for developer docs to follow the [OpenAPI spec](/learnapidoc/pubapis_openapi_intro.html), which is the most common structure in dev docs.
 
-However, by structured authoring, did the audience interpret that content would need to be categorized into task, concept, reference, troubleshooting, and glossary content types? In addition, it would need to include other metadata indicating the version, language, operating system, and geographical regions, in order for AI to better parse and surface it?
+However, by structured authoring, did the audience mean to advocate that content would need to be categorized into task, concept, reference, troubleshooting, and glossary content types? In addition, it would need to include other metadata indicating the version, language, operating system, and geographical regions, in order for AI to better parse and surface it?
 
-Given how language models work (by prediction), certainly metadata could be helpful, but I'm skeptical of this recommendation based on potential bias. Metadata, for sure, but unless I can better understand how structure helps train LLMs, I’m hesitant to embrace the correlation there.
+Given how language models work (by prediction), certainly metadata could be helpful, but I don't understand how structure would help train large language models (LLMs).
 
 <h2>6. Do you think we'll soon transition from our AI hype cycle to an AI winter?</h2>
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey6.png" alt="Question 6" />
 
-It seems the audience is split on this one. A colleague asked me the other day, during lunch, if I’d ever seen anything similar to the AI explosion with another technology. I have been in the tech writing business for 18 years. I remember a heyday about crowdsourcing and wikis, and there was a fear that tech writer jobs would become obsolete through crowdsourcing. That never happened because it turns out people dislike writing docs, especially for businesses and corporations. Globalization provided another fear about outsourcing, but that also didn’t happen. UX design provided yet another period where people thought docs were dead, that users would get everything from the UI (hence the birth of UI writing). Is AI just another ungrounded, temporary fear that tech writers will be extinct?
+It seems the audience is split on this one. A colleague asked me the other day, during lunch, if I’d ever seen anything similar to the AI explosion with another technology. I have been in the tech writing business for 18 years. I remember a surge with wikis, and there was a fear that tech writer jobs would become obsolete through crowdsourcing. That never happened because it turns out people dislike writing docs, especially contributing those docs to capitalist corporations. 
 
-Despite previous events, the Cambrian era of AI seems huge. I gauge my thoughts of the future based on my own experiences. In many ways, I feel the same sense of giddiness and wonder that I did when I first discovered the internet back in 1994, like, I couldn’t believe it and was pulled in by day after day. Sometimes I'm having similar experiences with AI. Because of this, I think AI’s here to stay and will be similarly disruptive as the internet.
+Globalization and outsourcing introduced another fear, suggesting tech writing might be outsourced, but that also didn’t happen.
+
+UX design provided yet another period where [people thought docs were dead](/2018/08/09/writing-no-longer-a-skill/), that users would get everything from the UI (hence the birth of UX writing). That also didn't vanquish the tech comm professional. Is AI just another ungrounded, temporary fear about how tech writers will be extinct?
+
+Despite previous events, the [Cambrian era of AI](/2023/04/04/tech-comm-links/) seems huge. I often gauge my thoughts of the future based on my own experiences. In many ways, I feel the same sense of giddiness and wonder with AI that I did when I first discovered the internet back in 1994. At the time, I couldn’t believe it and was pulled in by it day after day. I'm having similar experiences with AI. Because of this, I think AI’s here to stay and will be similarly disruptive as the internet. AI becomes relevant specifically when I am working (writing, researching, trying to discover information or connections or resources).
 
 <h2>7. Given AI's rapid advancements, even if it's not possible today, do you think AI might be capable of writing the bulk of your documentation 12 months from now?</h2>
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey7.png" alt="Question 7" />
 
-This response is interesting because if AI tools still can’t write documentation a year from now, how will they be the disruptive, transformative engines that tech writers fear? One person said:
+This response is interesting because if AI tools still can’t write documentation a year from now, how will they be the disruptive and transformative engines that tech writers fear? One person said:
 
 > AI won't fix all of the broken processes that need a human to untangle. It also assumes the content available to train the AI will always be of high quality which is laughable. AI doesn't know what is shipping or what changed and the bullet points handed over by PMs won't be enough.
 
-I agree with this comment. If AI doesn’t have the not-yet-written docs, how exactly will it write the documentation? On a recent project, I pointed an AI tool at a proto file and asked it to generate docs. Then I proceeded to write docs for the project along with other team members. The output looked quite different because there was a lot of external context not present in the proto’s comments, details that the AI tool couldn’t know. Plus, an engineer wrote the comments in the first place, which the AI used for information.
+I agree with this comment. If AI doesn’t have the not-yet-written docs, how exactly will it figure out the documentation? On a recent project, I pointed an AI tool at a proto file and asked it to generate docs. Then I proceeded to write docs for the project along with other team members. The output looked quite different because there was a lot of external context not present in the proto’s comments, details that the AI tool couldn’t know. (Plus, an engineer wrote the comments in the first place, which the AI used for information.)
 
-Perhaps if one could compile a large doc of all sources, including product design docs, engineering design docs, bug tickets, proto files, meeting transcriptions, email threads, slide decks, etc., and take all of this information and use it to synthesize the docs, perhaps it could work. But so far, these models don’t easily allow this kind of input unless you manually copy/paste it all into one doc across multiple threads. Even then, many have character limits and conversation thread thresholds that constrain this kind of extended information feeding.
+Perhaps if one could compile a large doc of all input sources, including product design docs, engineering design docs, bug tickets, proto files, meeting transcriptions, email threads, slide decks, etc., and take all of this information and use it to synthesize the docs, perhaps AI could make a go of writing docs. But so far, these models don’t easily allow this kind of input unless you manually copy/paste it all into one doc across multiple threads. Even then, many have character limits and conversation thread thresholds that constrain this kind of extended information feeding.
 
-<h2>Do you think existing documentation tools will evolve to include more AI-driven features?</h2>
+<h2>8. Do you think existing documentation tools will evolve to include more AI-driven features?</h2>
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey8.png" alt="Question 8" />
 
 Although respondents answered *61% very likely 61% and 32% likely,* I’m less optimistic about this transformation. Tech comm tool vendors have limited resources and are usually slow to evolve and keep pace with more popular web-based authoring tools. I fear that by the time they evolve, people will have migrated to more modern tools for most authoring.
 
-For example, once Bard is integrated into Google Docs or ChatGPT into MS Word and provide superior language generation and styling, my guess is that most people will author content in these tools and paste it into tech comm tools for the metadata and other publishing engine aspects.
+For example, once Bard in Google Docs and ChatGPT in Microsoft Word and provide superior language generation and styling, my guess is that most people will author content in these tools and paste it into tech comm tools for the metadata and other publishing engine aspects.
 
 <h2>8. In the future, will writing become a less valuable skill due to AI's ability to write?</h2>
 
@@ -111,11 +117,13 @@ One commenter notes:
 
 > Depends on the industry: real human writing could emerge the rare, more desirable commodity or only dominate expressly creative writing fields, such as poetry, fiction, playwriting, comparative lit, etc.
 
-I do agree that creative writing will weather the AI storm better than documentation. ChatGPT continues to tell me it doesn’t have “personal opinions or emotions.” For example, when you encounter an article that intrigues you, aren’t you interested in opinions about the content’s worth and the author’s credibility?
+I do agree that creative writing will weather the AI storm better than documentation. ChatGPT continues to tell me it doesn’t have “personal opinions or emotions.” AI rarely expresses an opinion about the value of the content or credibility of the content. For example, ChatGPT doesn't respond well to blatant questions of content worth:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/chatgptfosresponse.png" alt="AI refuses to provide opinions" />
 
-What sort of readers want content devoid of opinion or emotion? The only content left is explanatory/expository content—what you search for to find answers to questions. It’s not the content you read when you want to pick up *The New Yorker* or someone’s blog. In writing this post, I see that I’ve let my hair down more and have become more prone to opinions and a less generic style, perhaps because I don’t want to imitate the expository nature of AI-written content.
+What sort of readers want content devoid of opinion or emotion? The only content left is explanatory/expository content&mdash;the kind you find when you search for to find answers to questions. It’s not the content you read when you want to pick up *The New Yorker* or someone’s blog. 
+
+In writing this post, I see that I’ve let my hair down more and have become more prone to opinions and a bombastic style, perhaps because I don’t want to imitate the expository nature of AI-written content.
 
 <h2>10. How do you think AI tools will write documentation for you?</h2>
 
@@ -137,9 +145,7 @@ I foresee all of these applications as imminently feasible.
 
 <h2>Insightful comments</h2>
 
-The final survey question allowed freeform comments. The following are comments I liked from both this question and others.
-
-Overall, survey responses indicate mixed opinions. Some are skeptical about AI’s ability to create high-quality content, especially in fields like hardware, medical, and legal. Others think AI will improve research efficiency, content aggregation, and first-draft creation but still require human expertise for accuracy and context. Others noted concerns about disinformation, bias, and legal landmines.
+The final survey question allowed freeform comments. The following are comments I particularly enjoyed. Overall, the survey responses indicated mixed opinions. Some were skeptical about AI’s ability to create high-quality content, especially in fields like hardware, medical, and legal. Others felt AI will improve research efficiency, content aggregation, and first-draft creation but still require human expertise for accuracy and context. Others noted concerns about disinformation, bias, and legal landmines.
 
 > Unless Oxygen, Adobe, or Help+Manual create Ai interfaces inside their software to generate content, a lot of the tech comm will be stuck in a 1990s desktop publishing mindset for a long time. I'm skeptical these companies will develop tools to allow such functionality or facilitate ways of migrating from those tools to ones which more easily allow Ai to handle the grunt work of typesetting and layout. For API documentation, it's another story.
 <p></p>
@@ -189,4 +195,6 @@ Overall, survey responses indicate mixed opinions. Some are skeptical about AI�
 
 <h2>Conclusion and takeaways</h2>
 
-Based on the survey responses, I feel inclined to take the impending AI disruption seriously. It seems poised to bring about the transformative changes that many people anticipate and fear. I'm inclined to explore content strategy and information architecture as potential areas of specialization while also learning more about training large language models (LLMs) for documentation purposes, including prompt engineering. However, as one respondent noted, if companies become convinced they can replace technical writers with subject matter experts (SMEs) using AI to generate documentation—regardless of the mediocre output—there might be little we can do. I can only hope that new professions will emerge from the AI transformation, offering fresh opportunities for growth and adaptation.
+Based on the survey responses, I feel inclined to take the impending AI disruption seriously. It seems poised to bring about the transformative changes that many people anticipate and fear. I want to explore content strategy and information architecture as potential areas of specialization while also learning more about training large language models (LLMs) for documentation purposes, including prompt engineering. 
+
+However, as one respondent noted, if companies become convinced they can replace technical writers with subject matter experts (SMEs) using AI to generate documentation&mdash;then regardless of the mediocre output from such methods&mdash;there might be little we can do to overturn that perception. I can only hope that new professions will emerge from the AI rubble, offering fresh opportunities for growth and adaptation. Alternatively, I hear there's a great gig for a cat-sitter/farmer/homesteader.
