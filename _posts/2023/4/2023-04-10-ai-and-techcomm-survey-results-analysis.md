@@ -10,7 +10,7 @@ description: "I recently conducted an informal survey to find out the thoughts a
 
 <h2>General survey of information</h2>
 
-* **Survey date:** April 3 to April 19 (one week)
+* **Survey date:** April 3 to April 9
 * **Number of participants:** 291
 * **Means of promotion:** my blog, newsletter, Linkedin, and Twitter
 * **Survey participant locations:** US: 42%, India: 12%, Canada: 6%, Germany: 4%, Great Britain: 4%
