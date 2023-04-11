@@ -2,7 +2,7 @@
 title: "Having fun with ChatGPT"
 permalink: /blog/chatgpt-fun/
 categories:
-- ai
+- AI
 keywords:
 rebrandly: https://idbwrtng.com/chatgptfun
 description: "If you haven't already heard about and experimented with ChatGPT, you need to. This generative AI writing tool has the potential to do for writing what art AI tools have already done for graphic content. ChatGPT is pretty mind-blowing. I didn't realize AI writing tools were so advanced."

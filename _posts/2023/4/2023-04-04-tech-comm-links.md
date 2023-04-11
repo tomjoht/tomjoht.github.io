@@ -2,7 +2,7 @@
 title: "Tech comm news and links (April 4, 2023)"
 categories:
 - technical-writing
-- ai
+- AI
 keywords:
 rebrandly: https://idbwrtng.com/tclinksapril4
 description: "The following are a few interesting links related to tech comm I've been reading this week."
