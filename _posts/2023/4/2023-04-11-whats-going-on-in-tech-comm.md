@@ -50,9 +50,9 @@ So, too many stuck to a job they disliked, stagnating in careers with no hope of
 
 If you’re a career changer and considering technical writing, [Jump School](https://idbwrtng.com/becometechnicalwriter2) is the only course you need to start as a technical writer.
 
-## [The big role of web service API reference documentation in ChatGPT Plugins, by Kayce Basque](https://idbwrtng.com/kayce-basque-chatgpt-plugins)
+## [The big role of web service API reference documentation in ChatGPT Plugins, by Kayce Basques](https://idbwrtng.com/kayce-basque-chatgpt-plugins)
 
-Kayce Basque explains how plugins for ChatGPT will elevate the importance of good API documentation:
+Kayce Basques explains how plugins for ChatGPT will elevate the importance of good API documentation:
 
 * ChatGPT plugins enable ChatGPT to retrieve real-time info (post-2021, which is the time period when the model was trained).
 * Plugins are web service APIs that call an API to retrieve this real-time data.
