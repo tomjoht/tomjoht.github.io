@@ -1,5 +1,5 @@
 ---
-title: "Tech comm news and links (April 4, 2023)"
+title: "Why engineers need to write, tech writers in pop culture, 101 subreddit, Cambrian period of AI (April 4, 2023)"
 categories:
 - technical-writing
 - AI
@@ -7,6 +7,10 @@ keywords:
 rebrandly: https://idbwrtng.com/tclinksapril4
 description: "The following are a few interesting links related to tech comm I've been reading this week."
 ---
+
+<style>
+div#toc {display:none}
+</style>
 
 ## [Why Engineers Need To Write, by Ryan Peterman](https://idbwrtng.com/why-engineers-need-to-write)
 

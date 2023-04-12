@@ -1,11 +1,11 @@
 ---
-title: "Survey results and analysis: Technical writers on AI"
+title: "Survey results: Technical writers on AI"
 permalink: /blog/survey-analysis-tech-writers-on-ai/
 categories:
 - AI
 keywords:
 rebrandly: https://idbwrtng.com/aisurveyresults
-description: "I recently conducted an informal survey to find out the thoughts and concerns of technical writers about AI's impact on techcomm. 291 people responded to the survey. This post is a brief analysis of the findings. (The tldr here is this: change is coming quickly to the profession.)"
+description: "I recently conducted an informal survey to find out the thoughts and concerns of technical writers about AI's impact on tech comm. 291 people responded to the survey. This post is a brief analysis of the findings. (The tldr here is this: change is coming quickly to the profession.)"
 ---
 
 <h2>General survey of information</h2>
@@ -52,6 +52,8 @@ One question is whether these other disciplines are equally at risk. Given that 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/aitechcommsurvey3.png" alt="Question 3" />
 
 With *42% likely and 23% very likely,* yes most people feel AI will be transformative. These responses are an interesting perspective because they suggest the greatest transformation won’t just be in AI’s ability to write docs. AI has the potential to influence how technical writers go about the non-writing aspects of their role.
+
+{% include ads.html %}
 
 <h2>4. Because AI can read, explain, and generate code pretty well, will developer doc jobs be more impacted than more creative-oriented writing jobs?</h2>
 
