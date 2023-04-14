@@ -52,9 +52,9 @@ If you’re a career changer and considering technical writing, [Jump School](ht
 
 <a href="https://idbwrtng.com/becometechnicalwriter2"><button type="button" class="btn btn-info">Read more &raquo;</button></a>
 
-## The big role of web service API reference documentation in ChatGPT Plugins, by Kayce Basque
+## The big role of web service API reference documentation in ChatGPT Plugins, by Kayce Basques
 
-Kayce Basque explains how plugins for ChatGPT will elevate the importance of good API documentation:
+Kayce Basques explains how plugins for ChatGPT will elevate the importance of good API documentation:
 
 * ChatGPT plugins enable ChatGPT to retrieve real-time info (post-2021, which is the time period when the model was trained).
 * Plugins are web service APIs that call an API to retrieve this real-time data.
