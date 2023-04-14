@@ -7,7 +7,7 @@ rebrandly: https://idbwrtng.com/tclinksapril14
 description: "The following are a few interesting links related to tech comm I've been reading this week."
 ---
 
-## New book: Docs-as-ecosystem: The community approach to engineering documentation, by Alejandra Quetzalli
+## *Docs-as-ecosystem: The community approach to engineering documentation,* by Alejandra Quetzalli
 
 Alejandra Quetzalli, who works in open source software and API tooling development, has a forthcoming book from Apress called _Docs-as-ecosystem: The community approach to engineering documentation_. In the book, Quetzalli (https://www.linkedin.com/in/alejandra-quetzalli/) introduces a new metaphor to guide documentation’s development: "the ecosystem." The ecosystem refers to the diverse, multi-person environment needed for feedback and input to shape and grow documentation. 
 
