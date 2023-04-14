@@ -23,7 +23,7 @@ I haven't read the book yet (it’s available for pre-order only now), but it's 
 
 *Communication Design Quarterly, Issue 11, vol 1, March 2023*
 
-Daniel Carter, a professor at Texas State University, examines how attempts at structure in WordPress, a web-based content management system (WCMS) provides a bridge to other structured authoring learning and strategies. The WordPress editor has evolved from a single WYSIWYG blob to a more section-based page builder (the Gutenberg editor) that involves dragging in blocks for different content types (quotes, images, headings, paragraphs, etc.). Additionally, third-party plugins (such as Advanced Custom Fields) allow authors to create custom metadata fields and reusable content blocks for additional structure. 
+Daniel Carter, a professor at Texas State University, examines how attempts at structure in WordPress, a web-based content management system (WCMS), provide a bridge to other structured authoring learning and strategies. The WordPress editor has evolved from a single WYSIWYG blob to a more section-based page builder (the Gutenberg editor) that involves dragging in blocks for different content types (quotes, images, headings, paragraphs, etc.). Additionally, third-party plugins (such as Advanced Custom Fields) allow authors to create custom metadata fields and reusable content blocks for additional structure. 
 
 Carter says these structures are mostly single-page structures that contrast with the content chunks in component content management systems (CCMSs) that are intended for re-use across multiple pages or outputs. Overall, WordPress provides an avenue for thinking about how to apply structured authoring concepts to content within a popular, real-world authoring tool.
 
@@ -33,7 +33,7 @@ Carter says these structures are mostly single-page structures that contrast wit
 
 In this podcast, professors Carlos Evia and Rebekka Andersen explain why the next generation of content professionals is undergoing an identity crisis. Tech comm program names are inconsistent (for example, Professional Writing, Technical Communication, Writing and Rhetoric, etc.). The organizational groupings are also varied (some programs are in the English department, others in Engineering, others in Communication, etc.). 
 
-Most importantly, though, there’s no longer a coherent focus that ties the discipline together. It used to be that most everyone in tech comm focused primarily on producing user manuals. With the user manual paradigm gone, the discipline fragmented into many different areas of focus, from UX writing to API docs to content strategy and more. As a result, the tech writers coming of age today lack a common identity. The term “tech comm” no longer encompasses what they do. This identity crisis makes it difficult for academics to prepare students for their many post-college paths. “Content professional” might be a term that better suits the diversity of the role, they say.
+Most importantly, though, there’s no longer a coherent focus that ties the discipline together. It used to be that most everyone in tech comm focused primarily on producing user manuals. With the user manual paradigm gone, the discipline fragmented into many different areas of focus, from UX writing to API docs to content strategy and more. As a result, the tech writers coming of age today lack a common identity. The term “tech comm” no longer encompasses what they do. This identity crisis makes it difficult for academics to prepare students for their many post-college paths. These professors feel “Content Professional” might be a better term that suits the diversity of the role.
 
 <a href="https://podcasts.apple.com/us/podcast/57-the-new-generation-of-tech-writers-with/id1549022357?i=1000605183885"><button type="button" class="btn btn-info">Read more &raquo;</button></a>
 
@@ -46,7 +46,7 @@ Universities and other institutions teach by copying available material in exist
 These courses are “lean” and not full of theoretical or abstract knowledge so most members who earn a certificate are actively working in the industry within a few months.
 
 {: .tip}
-Use code **April100** when [signing up for the Jump School](https://idbwrtng.com/becometechnicalwriter3) and save $100 off the course price.
+Use code **April100** when [signing up for the Jump School](https://idbwrtng.com/becometechnicalwriter3) and save $100 off the course price. (Offer good only for April.)
 
 <a href="https://idbwrtng.com/becometechnicalwriter3"><button type="button" class="btn btn-info">Read more &raquo;</button></a>
 
