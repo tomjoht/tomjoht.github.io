@@ -9,7 +9,7 @@ description: "The following are a few interesting links related to tech comm I'v
 
 ## *Docs-as-ecosystem: The community approach to engineering documentation,* by Alejandra Quetzalli
 
-Alejandra Quetzalli, who works in open source software and API tooling development, has a forthcoming book from Apress called _Docs-as-ecosystem: The community approach to engineering documentation_. In the book, Quetzalli (https://www.linkedin.com/in/alejandra-quetzalli/) introduces a new metaphor to guide documentation’s development: "the ecosystem." The ecosystem refers to the diverse, multi-person environment needed for feedback and input to shape and grow documentation. 
+Alejandra Quetzalli, who works in open source software and API tooling development, has a forthcoming book from Apress called _Docs-as-ecosystem: The community approach to engineering documentation_. In the book, [Quetzalli](https://www.linkedin.com/in/alejandra-quetzalli/) introduces a new metaphor to guide documentation’s development: "the ecosystem." The ecosystem refers to the diverse, multi-person environment needed for feedback and input to shape and grow documentation. 
 
 Quetzalli says the docs-as-code metaphor focuses too much on tooling and engineering workflows without acknowledging the larger ecosystem of user input and interactive processes needed for documentation to thrive: "The docs-as-ecosystem model proposes a different way of thinking about technical documentation; it recognizes technical documentation is not just a product but an ongoing conversation between diverse documentation creators (contributors) and the community."
 
