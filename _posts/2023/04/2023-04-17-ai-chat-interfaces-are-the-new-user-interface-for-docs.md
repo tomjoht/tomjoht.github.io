@@ -8,7 +8,7 @@ categories:
 - AI
 keywords: 
 rebrandly: https://idbwrtng.com/ai-chat-interfaces-are-the-new-user-interface-for-docs
-description: "I know AI topics have saturated online posts _ad_ _nauseam_, and I wouldn’t add yet another post to the endless glut of speculative theorizing unless I truly believed I had a genuine light bulb moment. Rather than belabor the point, I’ll come right out and provide my main points here. Then I’ll unwrap the details. "
+description: "I know AI topics have saturated online posts <i>ad nauseam</i>, and I wouldn’t add yet another post to the endless glut of speculative theorizing unless I truly believed I had a genuine light bulb moment. Rather than belabor the point, I’ll come right out and provide my main points here. Then I’ll unwrap the details. "
 ---
 
 ## Main points
@@ -19,6 +19,8 @@ Here’s my argument:
 * ​​AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.
 * Documentation will provide the information source that AI chat engines need to respond to queries.
 * Both tech writers and machines will write the information source.
+
+In visual form, the argument looks like this: 
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docwebsitetochatinterface.png" alt="AI chat becomes the new interface for reading docs" />
 
@@ -34,7 +36,7 @@ And more questions:
 
 Instead of looking for an answer on Stack Overflow, I asked ChatGPT, and it provided a decent answer. When the code didn’t work or I needed some adjustment, I told the chat. Each time it responded just like I had a real, live developer friend on a message chat, ready to answer my questions.
 
-What’s cool is that ChatGPT maintained the conversation thread, so it remembered my previous questions and could build on responses. For example, if something didn’t work, I told it and the AI explained why my approach might not work, either providing an alternative or listing steps to troubleshoot. Sometimes I needed to adjust the code it gave me (like a regex pattern) and I told it I needed the code modified, and it did it. In sum, you aren’t just limited to a single response with AI chat but can talk to it continuously, as with a human. It was a conversation, not a single response.
+What’s cool is that ChatGPT maintained the conversation thread, so it remembered my previous questions and could build on responses. For example, if something didn’t work, I told it and the AI explained why my approach might not work, either providing an alternative or listing steps to troubleshoot. Sometimes I needed to adjust the code it gave me (like a regex pattern or some syntax fix for variable substitution) and it did. In sum, you aren’t just limited to a single response with AI chat but can talk to it continuously, as with a human. It was a conversation thread, not a single response.
 
 It took me an afternoon, and another day, but I finished the shell script (it’s about 75 lines long). I learned exactly the principles and syntax I needed to complete the task. Before I started writing this shell script, I tried reading a general user guide on shell scripting. However, even after 20 pages of reading, I learned nothing about how to code the scenarios I needed.
 
