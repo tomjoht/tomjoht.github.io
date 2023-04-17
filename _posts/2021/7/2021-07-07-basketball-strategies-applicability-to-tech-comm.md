@@ -45,9 +45,7 @@ If the defense doubles up on someone like Harden, he passes the ball to an open 
 
 ## 4. Dribble penetration
 
-The dribble penetration strategy involves a guard penetrating into the paint to collapse the defenders on him, at which point he passes to an open shooter. There's a gravity that happens around the ball &mdash; a gravity that pulls in other defenders, especially as you get closer to the hoop. Trae Young constantly does this by getting into the paint and then, when others come to help on defense, he lobs it to Capela for the dunk. Here are highlights from Luca Doncic playing for his Olympic team (Slovenia). Watch how Luca drives a bit, draws defenders on him, and then passes to the open teammate to shoot.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PFfY_s6IX2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The dribble penetration strategy involves a guard penetrating into the paint to collapse the defenders on him, at which point he passes to an open shooter. There's a gravity that happens around the ball &mdash; a gravity that pulls in other defenders, especially as you get closer to the hoop. Trae Young constantly does this by getting into the paint and then, when others come to help on defense, he lobs it to Capela for the dunk. Luca drives a bit, draws defenders on him, and then passes to the open teammate to shoot.
 
 Chris Paul has this down to a science, creating the offense based on options that result from this pick and roll &mdash; see [Chris Paul's Pick & Roll Game Broken Down to a Science](https://www.youtube.com/watch?v=v_D_2eDsQfk).
 
@@ -55,11 +53,9 @@ Chris Paul has this down to a science, creating the offense based on options tha
 
 ## 5. Hero ball
 
-Hero ball consists of giving the ball primarily to your best player and letting him or her take the shot &mdash; over and over. "Hero ball" was originally called [the archangel offense](https://www.theringer.com/nba/2020/3/11/21174817/michael-jordan-triple-doubles-1989-chicago-bulls) during the Michael Jordan days, where teammates would repeatedly give the ball to Michael to score, looking to him as a kind of game savior. Most recently we saw a lot of hero ball with the Nets, who put the ball into Kevin Durant's hands time and again to score. When Durant scored 49 points in game 5 against the Bucks, Durant was hailed as a basketball god and people started calling him the best basketball player ever. Here are highlights from this game:
+Hero ball consists of giving the ball primarily to your best player and letting him or her take the shot &mdash; over and over. "Hero ball" was originally called [the archangel offense](https://www.theringer.com/nba/2020/3/11/21174817/michael-jordan-triple-doubles-1989-chicago-bulls) during the Michael Jordan days, where teammates would repeatedly give the ball to Michael to score, looking to him as a kind of game savior. Most recently we saw a lot of hero ball with the Nets, who put the ball into Kevin Durant's hands time and again to score. When Durant scored 49 points in game 5 against the Bucks, Durant was hailed as a basketball god and people started calling him the best basketball player ever.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XOh1-jxq7Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The Nets team themselves positioned themselves for success by consolidating the big three (Kevin Durant, Kyrie Irving, and James Harden) on the same team, and probably would have won if not for injuries decimating the latter two.
+The Nets team positioned themselves for success by consolidating the big three (Kevin Durant, Kyrie Irving, and James Harden) on the same team, and probably would have won if not for injuries decimating the latter two.
 
 Hero ball sometimes wins games, but in the long run, heroes get tired, they get double-teamed, and the other teammates languish in the shadows, playing much less aggressively and less confidently. This is why most other NBA stars [don't want to play with Lebron](https://bleacherreport.com/articles/2808589-why-doesnt-anyone-want-to-play-with-lebron-anymore) &mdash; because they don't play *with* Lebron as much as *for* Lebron. Instead of hero ball, a more well-balanced team of many involved players and a deep bench (like the Suns) tend to hold up better in the long term.
 

@@ -4,7 +4,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/aivocablookup
-description: "I've been using AI to define vocabulary terms. Not just to provide definitions, but to provide sample sentences, etymology, and a poem to help remember the meaning. It's fun and a lot faster than looking up words one by one. The most fun part is the poem, which is often delightful."
+description: "I've been using AI to look up vocabulary terms. Not just to provide definitions, but to provide sample sentences, etymology, and a mini poem to help remember the meaning. It's fun and a lot faster than looking up words one by one. The most fun part is the poem, which is often delightful."
 ---
 
 ## Tip for constructing the prompt 
@@ -14,7 +14,7 @@ When you construct the prompt, consider formatting the request like a function. 
 ```
 For each of the following vocabulary terms, provide the definition, sample sentence, etymology, and a short multi-line rhyming poem. This will help me learn the term's definition. Here are the words: [word 1, word 2, word 3, etc.]. 
 
-Here's the pattern:
+Here's the pattern to populate:
 
 --------------
 [Word]:
@@ -25,11 +25,11 @@ Here's the pattern:
 -------------
 ```
 
-This is basically a for-loop type command pattern. (I'm not saying to write the query as an actual for loop, only that this sort of thinking&mdash;fill in a pattern&mdash;works really well.)
+This is basically a for-loop type command pattern. (I'm not saying to write the query as an actual for loop, only that this sort of thinking, of defining a pattern and asking it to complete the pattern with a list of items, works really well.)
 
-It might take a bit of adjustment to get it right. I was using Bard for this. I initially asked Bard to make mnemonics for the words, but it wasn't good at mnemonics. It was pretty good at the cheesy poems, most of which sadly don't rhyme but still clarify the term pretty well. ChatGPT was better at mnemonics but the poems were too high-brow. If I could better describe the poetry pattern I wanted, it would have helped.
+It might take a bit of adjustment to get it right. I was using Bard for this. I initially asked Bard to make mnemonics for the words, but it wasn't good at mnemonics. Bar was, however, pretty good at writing cheesy poems, most of which sadly don't rhyme but still clarify the term well. ChatGPT was better at mnemonics but its poems were too high-brow. If I could have better described the poetry pattern I wanted, it would have helped.
 
-Also, I had to limit the terms to about 10 at a time. Then after each run, I pasted in new terms and sadi "Do the same with these terms." AI remembered the previous instruction.
+Also, I had to limit the terms to about 10 at a time, due to length constraints. Then after each run, I pasted in new terms and said "Do the same with these terms." AI remembered the previous instruction.
 
 ## My list of terms 
 

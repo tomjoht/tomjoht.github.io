@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Get API key
-source .env
+# Make sure API key loads from .zshrc file
+source ~/.zshrc
 
 
 # Get current date, year, and month
@@ -18,8 +18,6 @@ SLUG=$(echo "$TITLE" | tr "[:upper:]" "[:lower:]" | sed "s/ /-/g")
 
 # Create year and month directories if they don't exist
 mkdir -p _posts/$YEAR/$MONTH
-
-# make API call to Rebrandly to create shortlink
 
 # Create the file with YAML frontmatter
 cat > _posts/$YEAR/$MONTH/$DATE-$SLUG.md <<EOL
@@ -38,8 +36,10 @@ description: ""
 
 EOL
 
+# get API key from .zshrc file
+REBRANDLY_KEY="${REBRANDLY_API_KEY}"
 
-
+# make API call to Rebrandly to create shortlink
 data=$(printf '
 {
   "domain": {
@@ -53,7 +53,7 @@ data=$(printf '
 response=$(curl --request POST \
      --url https://api.rebrandly.com/v1/links \
      --header 'accept: application/json' \
-     --header "apikey: $REBRANDLY_API_KEY" \
+     --header "apikey: $REBRANDLY_KEY" \
      --header 'content-type: application/json' \
      --data "$data"
 )
