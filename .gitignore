@@ -44,3 +44,4 @@ _site/
 .DS_Store
 reindex.sh
 images
+post.sh
