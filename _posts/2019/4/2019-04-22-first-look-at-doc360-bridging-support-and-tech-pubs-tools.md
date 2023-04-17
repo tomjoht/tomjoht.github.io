@@ -4,8 +4,8 @@ permalink: /blog/document360-hybrid-between-tech-docs-and-support-tools/
 categories:
 - writing
 keywords: Document360, knowledge base authoring tool, hybrid solution
-bitlink: https://rebrand.ly/doc360prodreviewirbw
-description: "<a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> is a new authoring and publishing tool that spans the needs of both support teams creating KB content and technical writers creating documentation. Document360 provides a good balance of features that will satisfy both audiences. Launched in July 2017, Document360 is already growing rapidly with a robust customer base. In this post, I'll show screenshots related to many of these features and talk about the need to bridge the gap between KB and tech doc content."
+bitlink: https://document360.com/?ref=idratherbewritingprodreviewirbw
+description: "<a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> is a new authoring and publishing tool that spans the needs of both support teams creating KB content and technical writers creating documentation. Document360 provides a good balance of features that will satisfy both audiences. Launched in July 2017, Document360 is already growing rapidly with a robust customer base. In this post, I'll show screenshots related to many of these features and talk about the need to bridge the gap between KB and tech doc content."
 ---
 
 *Note: Document360 is one of my site sponsors.*
@@ -16,9 +16,9 @@ Typically, support engineers who create knowledge base (KB) content use tools su
 
 Technical writers creating documentation have more robust publishing needs that require content re-use, versioning, multiple output formats, navigation menus, taxonomies, and more. Typical tech tools for technical writers include MadCap Flare, Paligo, static site generators, or others.
 
-<a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> aims to bridge the gap between these two worlds with a cloud-hosted, robust tool that is convenient enough for support engineers writing KB content but also robust enough  for technical writers with advanced publishing needs.
+<a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> aims to bridge the gap between these two worlds with a cloud-hosted, robust tool that is convenient enough for support engineers writing KB content but also robust enough  for technical writers with advanced publishing needs.
 
-<figure><a href='https://rebrand.ly/doc360' rel='nofollow'><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360homepage.png" alt="Document360 aims to bridge the gap between support and tech docs" /></a><figcaption><a href='https://rebrand.ly/doc360' rel='nofollow'>Document360</a> aims to bridge the gap between support and tech docs</figcaption></figure>
+<figure><a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/doc360homepage.png" alt="Document360 aims to bridge the gap between support and tech docs" /></a><figcaption><a href='https://document360.com/?ref=idratherbewriting' rel='nofollow'>Document360</a> aims to bridge the gap between support and tech docs</figcaption></figure>
 
 ## Highlighted features
 
@@ -118,7 +118,7 @@ For more, see <a href='https://docs.document360.io/docs/how-document360-is-diffe
 
 ## The larger product story
 
-Overall, <a href='https://rebrand.ly/doc360'>Document360</a> looks like a solid new tool for creating help content. As a cloud-based solution, the platform is continually evolving with additional features. For a tool that is less than a year old, Document360 already has many features that make it extremely competitive in the market.
+Overall, <a href='https://document360.com/?ref=idratherbewriting'>Document360</a> looks like a solid new tool for creating help content. As a cloud-based solution, the platform is continually evolving with additional features. For a tool that is less than a year old, Document360 already has many features that make it extremely competitive in the market.
 
 Despite my focus on the feature set in this post, the larger story around Document 360 is how it merges the gap between support and tech docs. In a [previous post](https://idratherbewriting.com/2019/03/10/introducing-xml-documentation-for-adobe-experience-manager/), I looked at how AEM tries to merge the gap between documentation and marketing. Document360's focus is on merging a different gap (between support and tech docs), and arguably one that is a lot more relevant and practical. Both support and tech docs have largely the same purpose (helping customers be successful), and their information source should empower both groups to achieve that same end.
 
@@ -126,7 +126,7 @@ Why are these groups, which have such similar goals, so often using tools that d
 
 When these groups operate with separate knowledge sources, the information gaps between the two grow wider and users suffer. Document360 give us a new solution to the docs/support problem with an impressive platform that might just be the right way to bring these two groups together.
 
-To learn more, see <a href='https://rebrand.ly/doc360'>Document360</a>. You can get a good sense of Document360 by <a href="https://docs.document360.io/docs">exploring its own documentation</a> (which of courses uses Document360).
+To learn more, see <a href='https://document360.com/?ref=idratherbewriting'>Document360</a>. You can get a good sense of Document360 by <a href="https://docs.document360.io/docs">exploring its own documentation</a> (which of courses uses Document360).
 
 For more comments and discussion on this post, see the [related Linkedin thread](https://www.linkedin.com/feed/update/urn:li:activity:6526458595519926272).
 

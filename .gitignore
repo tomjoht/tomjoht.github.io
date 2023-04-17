@@ -42,6 +42,5 @@ _site/
 **/.DS_Store
 **/*.idea
 .DS_Store
-reindex.sh
 images
-post.sh
+.env
