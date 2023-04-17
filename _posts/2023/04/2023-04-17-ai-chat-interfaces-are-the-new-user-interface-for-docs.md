@@ -26,11 +26,11 @@ In visual form, the argument looks like this:
 
 ## My moment of epiphany
 
-Last week I tried to write a shell script to handle a documentation generation and publishing workflow for some API reference docs. I have a limited understanding of shell scripts and so relied on AI chat to help me. My chat proceeded like this:
+Last week I tried to write a shell script to handle a documentation generation and publishing workflow for some API reference docs. I have a limited understanding of shell scripts and so relied on AI chat to help me with some basic concepts. My chat proceeded like this:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shellscriptchat1.png" alt="Asking AI questions about shell scripts" />
 
-And more questions: 
+And more basic questions: 
 
 <a href="https://phind.com"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shellscriptchat2.png" alt="Asking AI questions about shell scripts" />
 
@@ -38,7 +38,7 @@ Instead of looking for an answer on Stack Overflow, I asked ChatGPT, and it prov
 
 What’s cool is that ChatGPT maintained the conversation thread, so it remembered my previous questions and could build on responses. For example, if something didn’t work, I told it and the AI explained why my approach might not work, either providing an alternative or listing steps to troubleshoot. Sometimes I needed to adjust the code it gave me (like a regex pattern or some syntax fix for variable substitution) and it did. In sum, you aren’t just limited to a single response with AI chat but can talk to it continuously, as with a human. It was a conversation thread, not a single response.
 
-It took me an afternoon, and another day, but I finished the shell script (it’s about 75 lines long). I learned exactly the principles and syntax I needed to complete the task. Before I started writing this shell script, I tried reading a general user guide on shell scripting. However, even after 20 pages of reading, I learned nothing about how to code the scenarios I needed.
+Through chat, I learned exactly the principles and syntax I needed to complete the task. Before I started writing the shell script, I tried reading a general user guide on shell scripting. However, even after 20 pages of reading, I learned nothing about how to code the scenarios I needed.
 
 My experience writing this shell script led me to consider two ideas:
 
