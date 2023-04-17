@@ -43,3 +43,7 @@ _site/
 **/*.idea
 .DS_Store
 images
+.bundle
+.bundle/*
+vendor
+vendor/*

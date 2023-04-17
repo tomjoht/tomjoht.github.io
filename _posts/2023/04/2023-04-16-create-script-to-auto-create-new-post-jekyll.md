@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create a script that creates a new Jekyll post and populates it with YAML frontmatter, and also adds a Rebrandly shortlink"
+title: "A script that creates a new Jekyll post and populates it with YAML frontmatter, and also makes a curl call to add a Rebrandly shortlink"
 permalink: /blog/create-script-to-auto-create-new-post-jekyll
 date: 2023-04-16
 categories:
