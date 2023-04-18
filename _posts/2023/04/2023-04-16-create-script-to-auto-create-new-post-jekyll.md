@@ -96,7 +96,9 @@ Customize the script as needed. For example, customize the categories and permal
 
 Notice how the API key is passed in from the `.zshrc` or `.bashrc` file rather than being embedded directly in the script. This ensures that your API key won't be included when you commit this script into a public repo.
 
-Also notice that the `data` is passed in a bit differently from the basic curl call shown in the Rebrandly docs. This is because I had some trouble with variable substitution and so reverted to this approach to make sure the values are passed into the variables properly.
+Also notice that the `data` is passed in a bit differently from the basic curl call shown in the Rebrandly docs. This is because I had some trouble with variable substitution and so settled on this approach to make sure the values are passed into the variables properly.
+
+After you create the `post.sh` file, run `chmod +x post.sh` on it to make it executable.
 
 {% include ads.html %}
 
@@ -113,7 +115,7 @@ Reload your terminal session or run `source ~/.zshrc` or `source ~/.bashrc`.
 ## Step 3: Create the task in the VS Code Studio Command Palette (optional)
 
 {: .note}
-This step is optional. If you want to run the command by typing `./post.sh` in your terminal, skip this. If you want to access the command from the Command Palette, complete the steps in this section.
+This step is optional. If you want to run the command by typing `./post.sh` in your terminal, you don't need to complete this section. If you want to access the command from the Command Palette, however, complete the following steps.
 
 In this step, you'll create a new option in VS Code studio Command Palette that has the Create Jekyll Post option. 
 
