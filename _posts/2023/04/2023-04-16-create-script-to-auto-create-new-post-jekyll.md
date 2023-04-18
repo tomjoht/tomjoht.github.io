@@ -110,7 +110,10 @@ export REBRANDLY_API_KEY="123456789"
 
 Reload your terminal session or run `source ~/.zshrc` or `source ~/.bashrc`.
 
-## Step 3: Create the task in the VS Code Studio Command Palette
+## Step 3: Create the task in the VS Code Studio Command Palette (optional)
+
+{: .note}
+This step is optional. If you want to run the command by typing `./post.sh` in your terminal, skip this. If you want to access the command from the Command Palette, complete the steps in this section.
 
 In this step, you'll create a new option in VS Code studio Command Palette that has the Create Jekyll Post option. 
 
@@ -172,6 +175,6 @@ If the `.vscode > tasks.json` directory and file don't exist, create them and in
 
 ## Test it out
 
-In VS Code, go to **View > Command Palette > Tasks > Run Task**. Click **Create Jekyll Post**. The terminal asks you for the post name input. Then if successful, it creates the new post and the Rebrandly short url. Check Rebrandly to see if the shortlink was created.
+In VS Code, go to **View > Command Palette > Tasks > Run Task**. Click **Create Jekyll Post**. Alternatively, just run `./post.sh` in your terminal (easier). The terminal asks you for the post name input. Then if successful, it creates the new post and the Rebrandly short url. Check Rebrandly to see if the shortlink was created.
 
 (BTW, I used Phind.com and ChatGPT for help with this code.)
