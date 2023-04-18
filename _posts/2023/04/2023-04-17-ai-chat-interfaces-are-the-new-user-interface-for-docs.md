@@ -4,21 +4,16 @@ title: "AI chat interfaces could become the primary user interface to read docum
 date: 2023-04-17
 permalink: /blog/ai-chat-interfaces-are-the-new-user-interface-for-docs
 categories:
-- technical-writing
 - AI
 keywords: 
 rebrandly: https://idbwrtng.com/ai-chat-interfaces-are-the-new-user-interface-for-docs
-description: "I know AI topics have saturated online posts <i>ad nauseam</i>, and I wouldn’t add yet another post to the endless glut of speculative theorizing unless I truly believed I had a genuine light bulb moment. Rather than belabor the point, I’ll come right out and provide my main points here. Then I’ll unwrap the details. "
+description: "AI topics have saturated online posts <i>ad nauseam</i>, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I believed I had a genuine light bulb moment. Here's my argument: <ul>
+<li>AI chat interfaces could become the primary user interface that people use to read documentation, not documentation websites themselves.</li>
+​​<li>AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.</li>
+<li>Documentation will provide the information source that AI chat engines need to respond to queries.</li>
+<li>Both tech writers and machines will write the information source.</li>
+</ul>"
 ---
-
-## Main points
-
-Here’s my argument:
-
-* AI chat interfaces could become the primary user interface that people use to read documentation, not documentation websites themselves.
-* ​​AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.
-* Documentation will provide the information source that AI chat engines need to respond to queries.
-* Both tech writers and machines will write the information source.
 
 In visual form, the argument looks like this: 
 
