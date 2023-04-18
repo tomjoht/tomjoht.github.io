@@ -174,5 +174,5 @@ I concluded that tech writers will need to write for AI consumption more than di
 
 10. Glossaries
 
-As I noted, I want to better understand how AIs consume content. This would help define how we approach writing documentation for a better AI chat outcome. Overall, the shift in writing for AI instead of humans signals a turning point in the history of technical writing and documentation. Instead of _user-centered_ content, perhaps a _AI-centered_ content paradigm is now appropriate?
+As I noted, I want to better understand how AIs consume content. This would help define how we approach writing documentation for a better AI chat outcome. Overall, the shift in writing for AI instead of humans signals a turning point in the history of technical writing and documentation. Instead of _user-centered_ content, perhaps a _machine-centered_ content paradigm is now appropriate?
 
