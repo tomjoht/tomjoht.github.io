@@ -1,27 +1,21 @@
 ---
 layout: post
-title: "AI chat interfaces could become the primary user interface to read documentation"
+title: "Could AI chat interfaces become the primary user interface to read documentation?"
 date: 2023-04-17
 permalink: /blog/ai-chat-interfaces-are-the-new-user-interface-for-docs
 categories:
 - AI
 keywords: 
 rebrandly: https://idbwrtng.com/ai-chat-interfaces-are-the-new-user-interface-for-docs
-description: "AI topics have saturated online posts <i>ad nauseam</i>, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I believed I had a genuine light bulb moment. Here's my argument: <ul>
-<li>AI chat interfaces could become the primary user interface that people use to read documentation, not documentation websites themselves.</li>
-​​<li>AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.</li>
-<li>Documentation will provide the information source that AI chat engines need to respond to queries.</li>
-<li>Both tech writers and machines will write the information source.</li>
-</ul>"
+description: "AI topics have saturated online posts <i>ad nauseam</i>, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I believed I had a genuine light bulb moment. Here's my argument: <ul><li>AI chat interfaces could become the primary user interface that people use to read documentation, not documentation websites themselves.</li>​​<li>AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.</li>
+<li>Documentation will provide the information source that AI chat engines need to respond to queries.</li><li>Both tech writers and machines will write the information source.</li></ul>"
 ---
-
-In visual form, the argument looks like this: 
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/docwebsitetochatinterface.png" alt="AI chat becomes the new interface for reading docs" />
 
 ## My moment of epiphany
 
-Last week I tried to write a shell script to handle a documentation generation and publishing workflow for some API reference docs. I have a limited understanding of shell scripts and so relied on AI chat to help me with some basic concepts. My chat proceeded like this:
+Last week I tried to write a shell script to handle a documentation generation and publishing workflow. I have a limited understanding of shell scripts and so relied on AI chat to help me with some basic concepts. My chat proceeded like this:
 
 <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/shellscriptchat1.png" alt="Asking AI questions about shell scripts" />
 
@@ -85,6 +79,8 @@ Well, except for rare anomalies, wikis and crowdsourcing didn’t work. Mainly, 
 Plus, very few outside contributors wanted to write documents to benefit for-profit companies, giving them free labor and effort. (In the same way, you don’t see non-employees weeding corporate flower beds and picking up trash on corporate lawns.) The most common feedback on wikis was to correct broken links or typos.
 
 AI has similar trends. At first, company execs might think _OMG I’ll just have ChatGPT write my docs!_ Then they realize that someone needs to actually write documentation that can be fed to AI models to train them. Who will write those docs? The crowd? Well, if the crowd isn't currently writing your docs, the crowd won't suddenly start writing your docs to train the AIs. So we’re back to using tech writers (or someone similar) to create docs.
+
+{% include ads.html %}
 
 ## Technical writers will write primarily for machines
 

@@ -105,6 +105,9 @@ For cooking food over an open fire,
 Like steak, chicken, or even a tire.
 ```
 
+{% include ads.html %}
+
+
 <h3>congeres</h3>
 
 * **Definition:** (n.) A collection or mass of things that are gathered or piled together.

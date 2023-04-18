@@ -13,8 +13,12 @@ MONTH=$(date +"%m")
 echo "Enter the post title:"
 read TITLE
 
+echo "Enter the post slug:"
+read SLUG
+
 # Replace spaces with hyphens and convert to lowercase
-SLUG=$(echo "$TITLE" | tr "[:upper:]" "[:lower:]" | sed "s/ /-/g")
+
+# SLUG=$(echo "$TITLE" | tr "[:upper:]" "[:lower:]" | sed "s/ /-/g")
 
 # Create year and month directories if they don't exist
 mkdir -p _posts/$YEAR/$MONTH

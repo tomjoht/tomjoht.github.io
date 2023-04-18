@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A script that creates a new Jekyll post and populates it with YAML frontmatter, and also makes a curl call to add a Rebrandly shortlink"
-permalink: /blog/./
+permalink: /blog/create-script-to-auto-create-new-post-jekyll
 date: 2023-04-16
 categories:
 - technical-writing
@@ -17,7 +17,8 @@ The script, run in Visual Studio Code, does the following:
 
 - Creates a new file and categorizes it in the directory yyyy/mm
 - Populates the file with custom YAML frontmatter
-- Makes a curl call to a URL shortener called [Rebrandly](https://rebrandly.com) to get a shortlink for the post. 
+- Prompts you for the title and slug (URL)
+- Makes a curl call to a URL shortener called [Rebrandly](https://rebrandly.com) to get a shortlink for the post based on the slug 
 
 The Rebrandly step allows me to easily track clicks on the post when I include the link in a newsletter or when I share it on social media. Rebrandly is a URL shortener that works quite well and is free for up to 5,000 links.
 
@@ -33,6 +34,7 @@ Create a shell script file called `post.sh` in the root directory of your Jekyll
 # Make sure API key loads from .zshrc file
 source ~/.zshrc
 
+
 # Get current date, year, and month
 DATE=$(date +"%Y-%m-%d")
 YEAR=$(date +"%Y")
@@ -42,8 +44,8 @@ MONTH=$(date +"%m")
 echo "Enter the post title:"
 read TITLE
 
-# Replace spaces with hyphens and convert to lowercase
-SLUG=$(echo "$TITLE" | tr "[:upper:]" "[:lower:]" | sed "s/ /-/g")
+echo "Enter the post slug:"
+read SLUG
 
 # Create year and month directories if they don't exist
 mkdir -p _posts/$YEAR/$MONTH
@@ -56,25 +58,25 @@ title: "$TITLE"
 permalink: /blog/$SLUG
 date: $DATE
 categories:
-- some-category
-- another-category
+- technical-writing
+- AI
 keywords: 
-rebrandly: https://yourdomainhere.com/$SLUG
+rebrandly: https://idbwrtng.com/$SLUG
 description: ""
 ---
 
 EOL
 
-# Get API key from .zshrc file
+# get API key from .zshrc file
 REBRANDLY_KEY="${REBRANDLY_API_KEY}"
 
-# Make API call to Rebrandly to create shortlink
+# make API call to Rebrandly to create shortlink
 data=$(printf '
 {
   "domain": {
-    "fullName": "yourdomainhere.com"
+    "fullName": "idbwrtng.com"
   },
-  "destination": "https://yourdomainhere.com/%s",
+  "destination": "https://idratherbewriting.com/%s",
   "slashtag": "%s",
   "title": "%s"
 }' "$SLUG" "$SLUG" "$TITLE")
