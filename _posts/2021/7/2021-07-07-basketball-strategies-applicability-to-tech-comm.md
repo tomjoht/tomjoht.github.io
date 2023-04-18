@@ -13,7 +13,7 @@ jtype: notes_basketball
 
 ## 1. The shooting bigs
 
-It used to be that bigs in the NBA (the seven-footers), mostly lived in the paint with short shots and rebounds; then the game evolved and they started shooting from the three-point line, making them much more versatile. Players such as Brook Lopez, Kristap Porzingis, Nikola Jokic, and Arvydas Sabonis shoot three-pointers, which runs contrary to the traditional big's role.
+It used to be that bigs in the NBA (the seven-footers), mostly lived in the paint with short shots and rebounds; then the game evolved and they started shooting from the three-point line, making them much more versatile. Players such as Brook Lopez, Joel Embiid, and Nikola Jokic shoot three-pointers, which runs contrary to the traditional big's role.
 
 Having a shooting big allows you more strategic opportunities on offense because the big can either play inside or outside, and the defender can't float in the paint (protecting the rim from others who drive). Shooting bigs are essential hybrid players, able to play in the paint or beyond the arc. Some bigs have a smooth, natural-looking shot. Others, like Giannis Antetokounmpo, make the crowd cringe when he attempts a three. Here's a short video highlighting this evolution of shooting bigs:
 
@@ -33,7 +33,7 @@ This strategy involves setting a pick for someone to create a mismatch, like hav
 
 ## 3. Small ball
 
-Some teams flipped the strategy script by introducing "[small ball](https://en.wikipedia.org/wiki/Small_ball_(basketball))" (namely, the Warriors, Rockets, and others). These teams got rid of the traditional big center and replaced the center role with someone smaller who was quicker, could shoot threes, and also run the floor. This forced the defense to get out of the paint and stick closely to each offensive player. It also meant keeping the defending bigs on the bench because they usually can't defend smaller shooters playing an outside game. With no big defenders floating the paint, it allowed the offense (especially players like Russell Westbrook) more space to drive to the hoop. Here's a video showing this strategy:
+Some teams flipped the strategy script by introducing "[small ball](https://en.wikipedia.org/wiki/Small_ball_(basketball))" (namely, the Warriors, Rockets, and others). These teams got rid of the traditional big center and replaced the center role with someone smaller who was quicker, could shoot threes, and also run the floor. This forced the defense to get out of the paint and stick closely to each offensive player. It also meant keeping the defending bigs on the bench because they usually can't defend smaller shooters playing an outside game. With no big defenders floating the paint, it allowed the offense more space to drive to the hoop. Here's a video showing this strategy:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bphzuVQbntY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -54,8 +54,6 @@ Chris Paul has this down to a science, creating the offense based on options tha
 ## 5. Hero ball
 
 Hero ball consists of giving the ball primarily to your best player and letting him or her take the shot &mdash; over and over. "Hero ball" was originally called [the archangel offense](https://www.theringer.com/nba/2020/3/11/21174817/michael-jordan-triple-doubles-1989-chicago-bulls) during the Michael Jordan days, where teammates would repeatedly give the ball to Michael to score, looking to him as a kind of game savior. Most recently we saw a lot of hero ball with the Nets, who put the ball into Kevin Durant's hands time and again to score. When Durant scored 49 points in game 5 against the Bucks, Durant was hailed as a basketball god and people started calling him the best basketball player ever.
-
-The Nets team positioned themselves for success by consolidating the big three (Kevin Durant, Kyrie Irving, and James Harden) on the same team, and probably would have won if not for injuries decimating the latter two.
 
 Hero ball sometimes wins games, but in the long run, heroes get tired, they get double-teamed, and the other teammates languish in the shadows, playing much less aggressively and less confidently. This is why most other NBA stars [don't want to play with Lebron](https://bleacherreport.com/articles/2808589-why-doesnt-anyone-want-to-play-with-lebron-anymore) &mdash; because they don't play *with* Lebron as much as *for* Lebron. Instead of hero ball, a more well-balanced team of many involved players and a deep bench (like the Suns) tend to hold up better in the long term.
 

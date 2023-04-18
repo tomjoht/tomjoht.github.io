@@ -32,9 +32,9 @@ _Apex Magazine_ has a call for submissions for “dark user manuals.” The desc
 
 I’ve never thought of user manuals in this light, but the genre looks fun. This effort truly combines creative writing with technical writing. The word count is a mere 250 words, so just enough to provide a taste of the manual. If you’re looking to have fun during a coffee break, consider writing a dark user manual. We’ve probably all got a dark user manual inside of us. [**Learn more >**](https://apex-magazine.com/blog/strange-machines-an-anthology-of-dark-user-manualsstrange-machines/) 
 
-## Could AI chat interfaces become the primary user interface to read documentation? 
+## AI chat interfaces could become the primary user interface to read documentation
 
-AI topics have saturated online posts _ad nauseam_, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I truly believed I had a genuine light bulb moment. Here’s my argument:
+AI topics have saturated online posts _ad nauseam_, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I truly believed I had a genuine light bulb moment. In this post, here's what I argue:
 
 * AI chat interfaces could become the primary user interface that people use to read documentation, not documentation websites themselves.
 * ​​AI chats will enable novices to tackle more advanced tasks, leading to an explosion of technical innovation.
