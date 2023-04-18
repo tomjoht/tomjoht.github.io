@@ -1,0 +1,16 @@
+---
+title: "newsletter"
+permalink: /category-newsletter/
+categoryName: newsletter
+---
+
+<p>The newsletter category aggregates all instances of my newsletter since I started compiling a list of links.</p>
+
+<p>The following content is in the <b>newsletter</b> category:
+
+    {% for p in site.categories.newsletter %}
+<h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span>
+</h4>
+{% endfor %}
+
+{% include ads.html %}
