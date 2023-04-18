@@ -77,7 +77,9 @@
       <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
       {% include search_results.html %}
       <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
-      <div id="content">{{content}}</div>
+      <div id="content">{{content}}
+{% include mailjet_embedded.html %}
+</div>
 
     <div id="sidebarAreaHomePage">
             <!-- appears for mobile view only-->
