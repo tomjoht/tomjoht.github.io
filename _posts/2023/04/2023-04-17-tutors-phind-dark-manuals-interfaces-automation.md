@@ -32,7 +32,7 @@ _Apex Magazine_ has a call for submissions for “dark user manuals.” The desc
 
 I’ve never thought of user manuals in this light, but the genre looks fun. This effort truly combines creative writing with technical writing. The word count is a mere 250 words, so just enough to provide a taste of the manual. If you’re looking to have fun during a coffee break, consider writing a dark user manual. We’ve probably all got a dark user manual inside of us. [**Learn more >**](https://apex-magazine.com/blog/strange-machines-an-anthology-of-dark-user-manualsstrange-machines/) 
 
-## Could AI chat interfaces become the primary user interface to read documentation? by Tom Johnson
+## Could AI chat interfaces become the primary user interface to read documentation? 
 
 AI topics have saturated online posts _ad nauseam_, and I wouldn’t add yet another post to the endless list of speculative theorizing unless I truly believed I had a genuine light bulb moment. Here’s my argument:
 
@@ -53,7 +53,7 @@ Whether you need assistance with API documentation, SDKs, content writing, or an
 
 I wanted to make it easier to create new blog post files in Jekyll, so I made a script that automates some of this functionality. (This is also an example of how AI tools can help you write code.) [**Read more >**](/blog/create-script-to-auto-create-new-post-jekyll)
 
-## From the archives: Five basketball strategies and how they might apply to tech comm, by Tom Johnson
+## From the archives: Five basketball strategies and how they might apply to tech comm
 
 This post, which I wrote in 2021 during the NBA playoffs, explains how various basketball strategies might apply to tech comm. The 5 strategies include (1) The shooting bigs, (2) The mismatch, (3) Small ball, (4) Dribble penetration, and (5). Hero ball. The post is a little dated, but if you’re a basketball fan, you might get a kick out of it. [**Read more >**](/blog/basketball-strategies-applicability-to-tech-comm)
 
