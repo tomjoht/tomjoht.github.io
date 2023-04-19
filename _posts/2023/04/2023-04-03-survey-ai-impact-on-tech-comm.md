@@ -11,6 +11,7 @@ description: "The following is a short survey on the impact of AI on tech comm, 
 **April 10 note**: The survey is now closed. Thanks for participating. See [Survey results and analysis: Technical writers on AI](/blog/survey-analysis-tech-writers-on-ai/).
 
 <hr/>
+{% comment %}testing this {% endcomment %}
 
 <button type="button" class="btn btn-default">Take the survey</button>
 
