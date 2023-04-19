@@ -1,9 +1,0 @@
-<p>
-{% assign pages = site.restapicourse | sort:"weight"  %}
-{% for pg in pages %}
-{% if pg.weight > page.weight %}
-<a href="{{pg.url}}"><button type="button" class="btn btn-primary">Next: {{pg.weight}} {{pg.title}}</button></a>
-{% break %}
-{% endif %}
-{% endfor %}
-</p>
