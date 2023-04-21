@@ -1,0 +1,48 @@
+<div class="recent-posts">
+  <h3>Recent posts</h3>
+  <ul>
+    {% for post in site.posts limit:10 %}
+      <li>
+        
+        <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;{{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b %-d, %Y" }})</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<style>
+.recent-posts {
+  margin-bottom: 1rem;
+}
+
+.recent-posts h3 {
+  margin-bottom: 0.5rem;
+margin-top: 60px;
+}
+
+.recent-posts ul {
+  list-style-type: none;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.recent-posts li {
+  margin-bottom: 0.5rem;
+    font-size: 9.5pt;
+padding-bottom: 10px
+}
+
+.recent-posts .post-date {
+  color: #777;
+  margin-bottom: 0.2rem;
+}
+
+.recent-posts .post-title {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.recent-posts .post-title:hover {
+  text-decoration: underline;
+}
+
+</style>

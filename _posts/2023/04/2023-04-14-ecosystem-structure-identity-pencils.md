@@ -1,5 +1,5 @@
 ---
-title: "Docs-as-ecosystem, structure in WordPress, identity crisis, and pencils (April 14, 2023)"
+title: "Docs-as-ecosystem, structure in WordPress, identity crisis, and pencils"
 categories:
 - technical-writing
 keywords:

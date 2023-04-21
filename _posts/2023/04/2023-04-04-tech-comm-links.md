@@ -3,7 +3,7 @@ title: "Newsletter: Why engineers need to write, tech writers in pop culture, 10
 categories:
 - technical-writing
 - AI
-- - newsletter
+- newsletter
 keywords:
 rebrandly: https://idbwrtng.com/tclinksapril4
 description: "The following are a few interesting links related to tech comm I've been reading this week."

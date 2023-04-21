@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Newsletter: GPT-4 tutors, Phind.com, Dark user manuals, interfaces for reading docs, automation scripts, and bball (April 18, 2023)"
+title: "Newsletter: GPT-4 tutors, Phind.com, Dark user manuals, interfaces for reading docs, automation scripts, and bball"
 permalink: /blog/tutors-phind-dark-manuals-interfaces-automation
 date: 2023-04-17
 categories:
@@ -9,7 +9,7 @@ categories:
 - newsletter
 keywords: 
 rebrandly: https://idbwrtng.com/tutors-phind-dark-manuals-interfaces-automation
-description: "Here are links for my April 18, 2023 newsletter."
+description: "Here are links for my April 17, 2023 newsletter."
 ---
 
 ## Sal Khan explains why GPT-4 is ready to be a tutor

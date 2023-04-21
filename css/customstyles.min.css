@@ -974,6 +974,7 @@ button.navbar-toggle {
 
 .srssfeed {
     background-position: 0 0;
+    margin-left: -2px;
 }
 
 .stwitter {
@@ -1120,6 +1121,10 @@ img.right {
 #sidebarAreaHomePage,
 #topBannerImageHomepage {
     display: none
+}
+#sidebarArea h3 {
+margin-top:20px;
+margin-bottom: 20px;
 }
 
 p.dsq-widget-meta a {

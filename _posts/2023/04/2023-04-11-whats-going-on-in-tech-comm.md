@@ -1,5 +1,5 @@
 ---
-title: "Newsletter: AI and tech comm survey results, Zoomin's predictions, Beating an ATS, ChatGPT plugin docs (April 12, 2023)"
+title: "Newsletter: AI and tech comm survey results, Zoomin's predictions, Beating an ATS, ChatGPT plugin docs"
 categories:
 - technical-writing
 - AI
