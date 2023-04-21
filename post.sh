@@ -49,7 +49,7 @@ data=$(printf '
   "domain": {
     "fullName": "idbwrtng.com"
   },
-  "destination": "https://idratherbewriting.com/%s",
+  "destination": "https://idratherbewriting.com/blog/%s",
   "slashtag": "%s",
   "title": "%s"
 }' "$SLUG" "$SLUG" "$TITLE")
