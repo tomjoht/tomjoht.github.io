@@ -36,6 +36,7 @@ categories:
 keywords: 
 rebrandly: https://idbwrtng.com/$SLUG
 description: ""
+published: false
 ---
 
 EOL
