@@ -1,5 +1,4 @@
 <h3>Email Newsletter</h3>
-
 <!-- Button trigger modal -->
 <!-- Include custom CSS to remove padding, header/footer, and border -->
 <style>
@@ -21,12 +20,22 @@
     z-index: 1;
   }
 
+.btn-primary {
+    color: #fff;
+    background-color: orange;
+    border-color: #dedede
+}
+
   .btn-primary.mynewsletter:hover,
   .btn-primary.mynewsletter:focus,
   .btn-primary.mynewsletter:active {
-    background-color: #eb9f1b;
+    background-color: #f8b12e;
     border-color: #c79310;
+  outline: none; /* Remove the default blue outline */
+  box-shadow: none; /* Remove the default shadow */
   }
+
+
 
  .btn-primary.mynewsletter {
     animation: moveButton 1s;
