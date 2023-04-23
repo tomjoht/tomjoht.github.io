@@ -139,6 +139,8 @@ In terms of unfolding workflows, it's all very new and we learn every day. One i
 
 [Michael] Yes, the frontmatter is parsed and stored in the file's metadata, separately from the main content (not HTML meta tags yet). And yes, this will enable the chat to provide an answer that incorporates the metadata information.
 
+{% include ads.html %}
+
 <hr/>
 
 **[Tom] In the chat’s response, it uses markdown formatting as it types and users can see the formatting get applied in real time. Just curious, what is the point of showing the formatting render in real time? Why would a user want to see **Some text … then when finished see Some text?**
