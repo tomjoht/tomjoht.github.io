@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on ChatGPT after reading Crawford's <i>Why We Drive:</i> whatever skill you outsource, atrophies"
+title: "Thoughts on ChatGPT after reading Crawford's Why We Drive: whatever skill you outsource, atrophies"
 permalink: /blog/chatgpt-automation-and-atrophy/
 categories:
 - AI
