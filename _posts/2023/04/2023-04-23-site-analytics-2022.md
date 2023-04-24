@@ -58,3 +58,4 @@ BTW, I'm actually not sure on the actual clicks. Rebrandly's click numbers are m
 
 Much of the engagement depends on the blurb. A marketing-heavy blurb doesn't perform nearly as well as other advertising. This is why, I think, Leo Laporte must read his own ad copy in This Week in Tech. I'm guessing that engagement is much higher, and he knows how to speak to his audience. I should consider maybe writing blurbs for companies in my newsletter.
 
+Of course, this blog isn't about making money. In fact, it's probably a poor financial venture entirely, and in writing this I've wondered, is it worth it? But I do get a lot of value from writing, so I need to always keep this in mind: where's my value in this effort? What am I getting out of it? Do more of that. I  tried to emphasize that last year by writing my two series posts. (I'm still working on editing those into books, by the way. It just turned out to be more time-consuming than I realized.)
