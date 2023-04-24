@@ -27,7 +27,9 @@ topnav_dropdowns:
       url: /contact/
     - title: Site analytics
       url: /analytics/
-
+    - title: Advertising info
+      url: /advertising/
+      
   - title: Podcasts
     items:
     - title: I'd Rather Be Writing podcasts
@@ -183,12 +185,8 @@ topnav_dropdowns:
         url: /category-beginners/
       - title: Technical writing podcasts
         url: /technical-writing-podcasts/
-      - title: Advertising info
-        url: /advertising/
       - title: Academic/Practitioner Conversations Project
         url: /academic-practitioner-project/
-      - title: Donations
-        url: /donate/
 
 
 
