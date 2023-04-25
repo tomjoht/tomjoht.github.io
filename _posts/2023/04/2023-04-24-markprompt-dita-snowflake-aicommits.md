@@ -54,6 +54,8 @@ The team chose Next.js+React over Go+React because it provided server-side rende
 
 {% include newsletterlink3.html %}
 
+{% include ads.html %}
+
 ## AI Commits
 
 AI Commits, an open-source Github project, uses the OpenAI API to figure out what to write for your commit message. The project’s tagline reads: “A CLI that writes your git commit messages for you with AI. Never write a commit message again.” 
