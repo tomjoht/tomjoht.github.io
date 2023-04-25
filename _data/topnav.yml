@@ -25,6 +25,8 @@ topnav_dropdowns:
       url: /presentations/
     - title: Contact
       url: /contact/
+    - title: Newsletter
+      url: /newsletter/
     - title: Site analytics
       url: /analytics/
     - title: Advertising info

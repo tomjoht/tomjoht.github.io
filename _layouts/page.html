@@ -14,9 +14,9 @@ layout: default
         {{content}}
 
 
-
+{% unless page.show_newsletter == "nope" %}
 {% include mailjet_embedded.html %}
-
+{% endunless %}
 
         <hr/>
 

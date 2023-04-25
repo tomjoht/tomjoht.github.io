@@ -57,12 +57,7 @@
             <div id="sidebarArea">
 
               <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
-
-
 {% include mailjet_modal.html %}
-
               {% include sidebar.html %}
               {% include social_media_icons.html %}
             {% include recent_posts.html %}
@@ -80,6 +75,7 @@
 
     <div class="col-md-9">
       <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+
       {% include search_results.html %}
       <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
       <div id="content">{{content}}
@@ -134,5 +130,7 @@
         });
     });
     </script>
+<script type="text/javascript" src="/js/pas-nc-embedded-v1.js"></script>
+
 
     </html>

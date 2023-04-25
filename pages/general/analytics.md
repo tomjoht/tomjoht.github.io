@@ -19,7 +19,7 @@ last-modified: 2023-04-23
    <figcaption>I'd Rather Be Writing received 1,535,622 page views during 2022. This works out to an average of 4,207 page views a day.</figcaption>
 </figure>
 
-<h2>Overall page traffic</h2>
+<h2 id="page_traffic">Overall page traffic</h2>
 <p>
    In 2021, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. More details are in the following table:
 </p>
@@ -69,14 +69,14 @@ last-modified: 2023-04-23
 
 <p>A "page view" is when the page loads, regardless of whether it's the same visitor or a different visitor. A "session" refers to a unique visit to the site. If the same visitor views 10 pages, it only counts as a single session.</p>
 
-<h2>Traffic growth since the beginning</h2>
+<h2 id="traffic_growth">Traffic growth since the beginning</h2>
 
 <figure>
    <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sitehistoricaltrends2022.png" alt="Traffic growth from 2006 through 2022" />
    <figcaption>Traffic growth from 2006 through 2022</figcaption>
 </figure>
 
-<h2>Blog vs. API doc site traffic</h2>
+<h2 id="blog_vs_api_traffic">Blog vs. API doc site traffic</h2>
 <p>
    About two-thirds of the user traffic goes to the <a href="/learnapidoc">API doc course</a> rather than the blog.
 </p>
@@ -86,7 +86,7 @@ last-modified: 2023-04-23
    <figcaption>68% of the traffic to my site goes to the API doc course</figcaption>
 </figure>
 
-<h2>Top 10 pages</h2>
+<h2 id="top_10_pages">Top 10 pages</h2>
 
 <table>
   <col width="60%">
@@ -144,7 +144,7 @@ last-modified: 2023-04-23
 </table>
 
 
-<h2>Trends over time (2019 through 2022)</h2>
+<h2 id="trends_over_time">Trends over time (2019 through 2022)</h2>
 
 <p>This section compares the same values for the past four years, providing a sense of trends over time. The percentage change from the previous year is listed in parentheses after the value.
 
@@ -239,7 +239,7 @@ last-modified: 2023-04-23
   </tr>
 </table>
 
-<h2>Locations</h2>
+<h2 id="locations">Locations</h2>
 
 <table>
   <col width="60%">
@@ -280,7 +280,7 @@ last-modified: 2023-04-23
 
 
 
-<h2>Browsers</h2>
+<h2 id="browsers">Browsers</h2>
 
 <table>
   <col width="60%">
@@ -319,7 +319,7 @@ last-modified: 2023-04-23
   </tbody>
 </table>
 
-<h2>Device types</h2>
+<h2 id="device_types">Device types</h2>
 <table>
   <col width="60%">
   <col width="40%">
@@ -350,7 +350,7 @@ last-modified: 2023-04-23
   </tbody>
 </table>
 
-<h2>Mobile device type</h2>
+<h2 id="mobile_device_type">Mobile device type</h2>
 <table>
   <col width="60%">
   <col width="40%">
@@ -381,7 +381,7 @@ last-modified: 2023-04-23
   </tbody>
 </table>
 
-<h2>Traffic origins — organic and social referrals</h2>
+<h2 id="traffic_origins">Traffic origins — organic and social referrals</h2>
 <table>
   <col width="60%">
   <col width="40%">
@@ -440,7 +440,7 @@ last-modified: 2023-04-23
   </tbody>
 </table>
 
-<h2>Posts analyzing site analytics</h2>
+<h2 id="analytical_posts">Posts analyzing site analytics</h2>
 <p>For more details about analytics, see the following posts. These posts expand on audience interests and demographics.</p>
 <ul>
    <li>2021 — <a href="/blog/2021-site-analytics-reflections">Site analytics for 2021</a></li>
