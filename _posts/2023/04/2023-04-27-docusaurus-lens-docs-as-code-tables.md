@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: newsletter
 title: "Newsletter: Docusaurus, Lens, Docs-as-Code, 2022 site analytics, and HTML Table formatting"
 permalink: /blog/docusaurus-lens-docs-as-code-tables
 date: 2023-04-27
@@ -13,9 +13,9 @@ description: "Here are tech comm news and links for April 28, 2023."
 
 ## Docusaurus
 
-Someone wrote to me last week to say that, after an extensive search for doc platforms, they settled on Docusaurus and are very pleased with it. I frequently hear similar feedback about this platform, yet not many people know about Docusaurus, so I thought I’d feature it here.
+Someone wrote to me last week to say that, after an extensive search for doc platforms, they settled on Docusaurus and were very pleased with it. I frequently hear similar feedback about this platform, yet not many people know about Docusaurus, so I thought I’d feature it here.
 
-Docusaurus, developed by Meta's Open Source Community, is a static-site generator powered by React. It helps you create interactive, single-page-like applications with fast client-side navigation. Docusaurus has more than 44k stars and hundreds of contributors on GitHub, and is used for documentation, wikis, blogs, and custom pages. If you want to use the React framework and are building a documentation site, Docusaurus is worth considering. For an intro to Docusaurus, see the [Introduction](https://docusaurus.io/docs) in their docs.
+Docusaurus, developed by Meta's Open Source Community, is a static-site generator powered by React. It helps you create interactive, single-page-like applications with fast client-side navigation. Docusaurus has more than 44k stars and hundreds of contributors on GitHub, and is used primarily for documentation sites. If you want to use the React framework and are building a documentation site, Docusaurus is worth considering. For an intro to Docusaurus, see the [Introduction](https://docusaurus.io/docs) in their docs.
 
 For an excellent post comparing Docusaurus with Gatsby and Hugo, see [Docusaurus vs Gatsby vs Hugo](https://wtjungle.com/blog/docusaurus-gatsby-hugo/) by David Simão. For a counterargument against Docusaurus in favor of Hugo, see [Moving from Docusaurus to Hugo](https://ricard.dev/moving-from-docusaurus-to-hugo/) by Richard Torres.
 
@@ -68,10 +68,10 @@ Gentle’s first book was on wikis. Five years after that publication, wikis mos
 
 ## Meandering thoughts on my 2022 site analytics
 
-I updated my site analytics page for 2022. I usually do this at the turn of the year, particularly when renewing ads on the site, but this year I postponed it until last weekend. In this meandering post, I talk transparently about a variety of site-related challenges and issues, from content focus to newsletter subscribers, monetization, and more. [Read more >](https://idrbwrtng.com/site-analytics-2022)
+I updated my site analytics page for 2022. I usually do this at the turn of the year, particularly when renewing ads on the site, but this year I postponed it until last weekend. In this meandering post, I talk transparently about a variety of site-related challenges and issues, from content focus to newsletter subscribers, monetization, and more. [Read more >](https://idbwrtng.com/site-analytics-2022)
 
 {% include ads.html %}
 
 ## HTML table formatting with ChatGPT and Bard
 
-Did you know that AI tools like ChatGPT and Bard are wizards at table formatting? Throw any natural language instruction at them about tables, and they can transform the data quickly and efficiently into well-constructed HTML tables, either as raw code or as a rendered table. For the latter, just copy/paste the rendered table into Google Docs and use the [Docs to Markdown extension](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607) to export the code as HTML. After doing this, you’ll probably never code an HTML table by hand again. [Tables in ChatGPT and what you can do with them](https://chatgpt-guide.se/tables-in-chatgpt-and-what-you-can-do-with-them) article provides some more basics about prompts, but honestly you don’t need detailed instructions to be successful.
+Did you know that AI tools like ChatGPT and Bard are wizards at table formatting? Throw any natural language instruction at them about tables, and they can transform the data quickly and efficiently into well-constructed HTML tables, either as raw code or as a rendered table. For the latter, just copy/paste the rendered table into Google Docs and use the [Docs to Markdown extension](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607) to export the code as HTML. After doing this, you’ll probably never code an HTML table by hand again. [Tables in ChatGPT and what you can do with them](https://chatgpt-guide.se/tables-in-chatgpt-and-what-you-can-do-with-them)  provides some more basics about prompts, but honestly you don’t need detailed instructions to be successful.
