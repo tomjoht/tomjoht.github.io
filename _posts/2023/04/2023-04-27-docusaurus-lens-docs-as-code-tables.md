@@ -1,5 +1,5 @@
 ---
-layout: newsletter
+layout: post
 title: "Newsletter: Docusaurus, Lens, Docs-as-Code, 2022 site analytics, and HTML Table formatting"
 permalink: /blog/docusaurus-lens-docs-as-code-tables
 date: 2023-04-27
