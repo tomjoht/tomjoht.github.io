@@ -29,7 +29,7 @@ topnav_dropdowns:
       url: /newsletter/
     - title: Site analytics
       url: /analytics/
-    - title: Advertising info
+    - title: Advertising
       url: /advertising/
       
   - title: Podcasts

@@ -8,9 +8,9 @@ last-modified: 2022-03-20
 
 <img style="float:right; padding-left:15px; max-width: 300px;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/youradhere.svg" alt="advertising on I'd Rather Be Writing"/>
 
-I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially concerning [API documentation](/learnapidoc/). I can help increase your product or service's visibility more than any other technical writing site online.
+I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially [API documentation](/learnapidoc/). I can help increase your product or service's visibility more than any other technical writing site online.
 
-In 2022, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. For details about how many page views, sessions, and other analytics information, see the <a href="/analytics">Site analytics</a>.
+In 2022, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. For details about site metrics, audience, and popular content, see <a href="/analytics">Site analytics</a>.
 
 The following sections describe the advertising spaces and options.
 
@@ -18,80 +18,83 @@ The following sections describe the advertising spaces and options.
 
 <table>
 <colgroup>
-   <col width="30%" />
-   <col width="20%" />
-   <col width="40%" />
+   <col width="50%" />
+   <col width="50%" />
 </colgroup>
     <thead>
     <tr>
         <th>Ad space</th>
-        <th>Size</th>
-        <th>Cost per year</th>
+        <th>Cost</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <td markdown="span">[Inline ads](#inlineads)</td>
-        <td markdown="span">Inline graphic and article link</td>
         <td markdown="span">$900/year</td>
     </tr>
     <tr>
         <td markdown="span">[Sidebar ads](#sidebarads)</td>
-        <td markdown="span">Inline graphic and article link</td>
         <td markdown="span">$800/year</td>
     </tr>
     <tr>
-        <td markdown="span">[Getting started tutorial](#getting_started_tutorial)</td>
-        <td markdown="span">2,000 words</td>
+        <td markdown="span">[Getting started tutorials](#getting_started_tutorials)</td>
         <td markdown="span">$3,000/post</td>
     </tr>
     <tr>
-        <td markdown="span">[Inline text snippets](#inline_text_snippets)</td>
-        <td markdown="span">2-4 sentences</td>
-        <td markdown="span">$1200/year</td>
+        <td markdown="span">[Product Q&A post](#product_qa)</td>
+        <td markdown="span">$600/post</td>
     </tr>
     <tr>
-    <td markdown="span">[Newsletter banners](#newsletter)</td>
-    <td markdown="span">400 x 60px or 1 paragraph</td>
-    <td markdown="span">$900/year</td>
+        <td markdown="span">[Inline text snippets](#inline_text_snippets)</td>
+        <td markdown="span">$1,200/year</td>
+    </tr>
+    <tr>
+    <td markdown="span">[Newsletter summaries](#newsletter_summaries)</td>
+    <td markdown="span">$75/newsletter</td>
+</tr>
+    <tr>
+    <td markdown="span">[Newsletter banners](#newsletter_banners)</td>
+    <td markdown="span">$25/newsletter or $2000/year</td>
 </tr>
 <tr>
-<td markdown="span">[Footer banners](#footer_banner)</td>
-<td markdown="span">728x90 px banner at bottom of post</td>
+<td markdown="span">[Footer banners](#footer_banner_ads)</td>
 <td markdown="span">$1,200/year</td>
 </tr>
     </tbody>
 </table>
 
-For billing, I usually send you an invoice through PayPal (unless you prefer another method, such as a wire transfer or check). Even if you use another payment method, I use PayPal to keep track of invoices. Billing is done prior to any advertising efforts.
+Billing is done through Paypal; it can also be handled through wire transfer or even check. (Even if you use another payment method, I use PayPal to keep track of invoices.) Billing is done prior to any advertising efforts.
 
 ### Inline ads {#inlineads}
 
-Inline ads include one graphic (250px x 150px) and a link to an article. The inline ad appears directly inline in the post &mdash; sometimes a third of the way down, half way down, or at the bottom of the post (the position is somewhat random). Here's an example:
+Inline ads include one 250px x 150px graphic and a link to an article. The inline ad appears directly inline in the post &mdash; sometimes a third of the way down, half way down, or at the bottom of the post (the position is somewhat random). Here's an example:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/inlineadexample.png" alt="Inline ads" /><figcaption>Inline ads example. These ads blend in with the same style and branding as the content. They appear on nearly every page on my site, directly within the reader's view.</figcaption></figure>
 
-These ads receive approximately 430 clicks per year.
+Here are more details about inline ads:
 
-Each ad block can contain a maximum of six ads. Within the ad block, the ads randomly rotate positions each time the page refreshes. There is no specific hierarchy to ads in the inline ads.
-
-Your graphic format can be PNG, JPG, or SVG, but not an animated GIF. The graphic dimensions must be 250 x 150px pixels in size. You can switch the ad at any time by sending me a new graphic.
-
-The ads are prefaced with a subheading that says "Sponsored ads" and the ad links have `ref="nofollow"`. The ads appear on every page of my site &mdash; both the blog and [API course](/learnapidoc/).
-
-The graphics are accompanied by a post that invites users to click the link. The post title should be both relevant and enticing for a tech comm audience. To track links, I shorten any URLs you provide to me with Rebrandly. This allows me to track link clicks as well.
+* Inline ads receive approximately 430 clicks per year. 
+* Each ad block can contain a maximum of six ads. Within the ad block, the ads randomly rotate positions each time the page refreshes. There is no specific hierarchy to ads in the inline ads.
+* Your graphic format can be PNG, JPG, or SVG, but not an animated GIF. 
+* The graphic dimensions must be exactly 250 x 150px pixels in size. (As a tip, keep text readable at a glance, especially this size.) 
+* You can switch the ad at any time by sending me a new graphic.
+* The ads are prefaced with a subheading that says "Sponsored ads" and the ad links have `ref="nofollow"`. The ads appear on every page of my site &mdash; both the blog and [API course](/learnapidoc/).
+* The graphics are accompanied by a post that invites users to click the link. The post title should be both relevant and enticing for a tech comm audience. 
+* To track links, I shorten any URLs you provide to me with Rebrandly. This allows me to track link clicks as well.
 
 The cost for an inline ad is $900 per year.
 
 ### Sidebar ads {#sidebarads}
 
-Sidebar ads include a 250px x 150px graphic with an article link below the graphic. They appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. There is no specific hierarchy to ads in the sidebar.
+Sidebar ads include a 250px x 150px graphic with an article link below the graphic. Sidebar ads appear in the left sidebar and randomly rotate positions each time the page refreshes &mdash; this helps refocus the reader's attention on the ads. As with inline ads, there isn't a specific hierarchy to ads in the sidebar.
 
-Sidebar ads receive approximately 415 clicks per year. 
-
-Your ad can be any image type (JPG, PNG, or SVG) and color; the dimensions must be 250 x 150px pixels in size. GIFs or other animations aren't allowed. You can switch the ad at any time by sending me a new graphic. As with other ads, the ad links have `ref="nofollow"`.
 <figure>
 <img style="border:1px solid #dedede;" title="Sidebar ads" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sidebaradsexample5.png" alt="sidebar ads" /><figcaption>Sidebar ads appear in the sidebar in a dual column. They rotate randomly with each page refresh.</figcaption></figure>
+
+Sidebar ads have all of the same details as inline ads except they appear in the sidebar rather than inline in the post or page. 
+
+Sidebar ads receive approximately 400 clicks per year. 
+
 The sidebar ads appear after any sidebar navigation links. For example, for the [API doc course](/learnapidoc/), the sidebar ads appear after the page navigation in the left. On the blog, if there's a series, such as this [series on trends](/trends/trends-to-follow-or-forget-intro.html), the sidebar ads appear below the page navigation.
 
 The cost for sidebar ads is $800 per year.
@@ -100,9 +103,7 @@ The cost for sidebar ads is $800 per year.
 
 Getting started tutorials are approximately 2,000 word posts that provide a brief overview of your product and then explain how to get started with it. 
 
-These posts can provide more visibility than other forms of advertising. It depends on the product/service, but a popular getting-started tutorial can receive much more visibility and have more impact than a banner ad.
-
-To write this post, I usually have a 20-30 minute phone call with you to find out what message you want to share. Before publishing the post, I send it to you for review to make sure it fits your messaging. Each product review post is clearly identified as a sponsored post. Links have `ref="nofollow"`.
+These posts can provide more visibility than other forms of advertising. A popular getting-started tutorial can receive much more visibility and have more impact than a banner ad.
 
 Here are a few examples:
 
@@ -110,60 +111,83 @@ Here are a few examples:
 * [Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools](https://idratherbewriting.com/learnapidoc/pubapis_redocly.html). This post received 3,566 page views in 2022.
 * [Using Oxygen XML with docs-as-code workflows](/learnapidoc/pubapis_oxygenxml.html). This post received 9,326 page views in 2022.
 
-The number of page views depends on the popularity of the product. On the low end, you can expect about 1,000 page views. On the high-end, you can expand around 10,000 page views.
+The number of page views depends on the popularity of the product. On the low end, you can expect about 1,500 page views. On the high-end, you can expand around 10,000 page views.
 
-To write this getting started tutorial, I'll need to learn a bit about your product and play around with it. You will also need to provide a 1 hour demo showing how to get started with your product.
+To write this getting started tutorial, I'll need to learn a bit about your product and play around with it. You will also need to provide a one-hour demo showing how to get started with your product.
 
 The cost for a getting started tutorial is $3,000. If the material is appropriate to be placed in my [API doc course](/learnapidoc), I may choose to add it there. 
 
+### Product Q&A posts {#product_qa}
+
+Product Q&A posts are posts where I ask you about 10 questions or so and you answer them. These Q&A posts are an easy way for you to tell your story, without requiring you to structure and organize content into a coherent article. Here are two examples of Q&A posts:
+
+* [Technical writing course Q&A -- 'Become a Technical Writer', with Bobby Kennedy](/blog/technical-writing-course-become-a-technical-writer-bobby-kennedy/). This post received 2,127 page views from the time it was published in 2016 until April 2023.
+* [Q&A about Xeditor -- online XML editor -- with founder Matthias Kraus](/blog/xeditor-question-and-answer/). This post received 688 page views from the time it was published in 2021 until April 2023.
+
+You can expect a Q&A post to receive anywhere from 1,500 to 3,000 page views on average over the life of the post. As people search for keywords related to your product, these posts can provide valuable, decision-making content.
+
+The cost for a Q&A post is $600. I also include the Q&A post in my newsletter, which I share on Linkedin and Twitter.
+
 ### Inline text snippets {#inline_text_snippets}
 
-Inline text snippets are short snippets of text, about 2-4 sentences in length, that appear in random positions on every page of my [API documentation course](/learnapidoc/) only. The API doc course is every page with the `idratherbewriting.com/learnapidoc`, which is only about 100+ pages, but these pages account for about 75% of all traffic.
+Inline text snippets are short snippets of text, about 2-4 sentences in length, that appear in random positions on every page of my [API documentation course](/learnapidoc/) only. The API doc course is every page with the `idratherbewriting.com/learnapidoc`, which is only about 100+ pages, but these pages account for about 75% of all traffic (see my [site analytics](/analytics/)).
 
-You can define up to 10 text snippets with the variety of content and links you want. Here's an example:
+You can define up to 5 text snippets with the variety of content and links you want. Here's an example:
 
 <figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/textsnippetexample.png" alt="Text snippet" /><figcaption>Inline text snippet example. These paragraphs can articulate a more detailed message that you want readers to understand. Because they don't have graphics, they aren't subject to the same banner blindness that users can sometimes develop towards ads.</figcaption></figure>
 
-The text snippet's text changes randomly with each page refresh. Additionally, the location of the snippet is random from page to page. (But the position on the page doesn't change randomly, as this could interfere with the page layout.)
+The text snippet's text changes randomly with each page refresh. Additionally, the location of the snippet is random from page to page. 
+
+Text snippets get about 15-25 clicks per month.
 
 The text snippets give you more flexibility to get your messaging across. You're not limited to a graphic or article title but can expand with more detail, and cycle in multiple messages to try to communicate your product. Text snippets don't fall into the trap of banner blindness and fit right in line with the reader's eye.
 
-The text snippets are denoted with a Bootstrap alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content heavy pages. A maximum of 3 inline snippets (from different advertisers) can appear on each page. Links are `rel=nofollow`.
+The text snippets are denoted with alert-type formatting, with text that says “Sponsored message” prefacing the ad. Pages not included are contact, search, error, or other non-content heavy pages. A maximum of 3 inline snippets (from different advertisers) can appear on each page. Links are `rel=nofollow`.
 
 The cost for inline text snippets to appear on the API doc site is $1,200 per year.
 
-### Newsletter {#newsletter}
+### Newsletter summaries {#newsletter_summaries}
 
-I send out regular newsletters (approximately twice a month) to all my email subscribers (6,500 + readers). These newsletters contain links and excerpts to the latest posts (usually two articles per newsletter), with the ad appearing at the bottom. Each blog post in the newsletter typically gets around 250 clicks, and the advertising graphic usually receives approximately 30 clicks or more. 
+I sent out two newsletters per week (usually on Tuesdays and Thursdays) to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 actually open the email. Here's an example of a newsletter summary:
 
-Your graphic can appear here once per month. If multiple advertisers promote in this space, the graphics will rotate between advertisers (for example, one week, advertiser A, the following week, advertiser B). I count the number of instances that your ad appears in newsletters sent. For one year, your ad can appear a maximum of 12 times.
+<figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
 
-The size of the newsletter graphic is 540px (wide) x 65px (high) graphic. Here's an [example](https://tinyletter.com/tomjoht/letters/new-posts-on-i-d-rather-be-writing-59):
+These newsletters contain summaries of the latest happenings in tech comm, such as articles, tools, issues, or other matters. I also include links to my latest posts as well. You can see a list of previous newsletters on my [newsletter category](/category-newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletteradexample2.png" alt="Newsletter space ad" style="max-width: 600px"><figcaption>The newsletter ad space has some of the most visibility and reach, especially for regular readers. You can see the <a href='https://tinyletter.com/tomjoht/archive'>newsletter archive here</a>.</figcaption></figure>
+Each newsletter typically has 4 article summaries + 1 sponsor summary. The sponsor summary is a 2 paragraph chunk of text that you provide, describing your product, service, event, etc. Whatever you want the tech writer world to know about, you can share it in this summary. I might lightly edit the summary for style to fit the newsletter.
 
-The image format can be any standard image format (usually JPG or PNG), but not animated. Instead of a graphic, you can also replace this with a text snippet to promote a product or service. For example, you might have a release or other announcement that you want to make clear. In this case, the text would be several sentence in length and point to a URL.
+Each newsletter summary gets an average of 75 clicks. The cost for a newsletter summary is $75 per newsletter.
 
-The cost for advertising in the newsletter space is $900 per year.
+I can also write the newsletter summaries for you. This might be preferable if you're looking for an industry maven to identify aspects that would catch the reader's attention. If you want me to write the newsletter summaries, the cost is $150 per newsletter.
 
-### Footer banner {#footer_banner}
+## Newsletter banners {#newsletter_banners}
 
-The Footer Banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This highly visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
+The newsletters also feature banner ads. These are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="horizontal_inline_ad" max-width="550" /> <figcaption>Horizontal Inline ads appear at the bottom of each post</figcaption></figure>
+<figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletterbanneradsexample.png" alt="Newsletter banner ads" /><figcaption>Newsletter banner ads -- the image receives a visual focus because the newsletter summaries are all text</figcaption></figure>
 
-Footers banners can be JPG, PNG, or SVG. Animated GIF is not allowed. Like the sidebar, the position of the horizontal inline ads rotate randomly with each page refresh. There's a limit of 4 horizontal inline post ads that can appear below the post.
+Newsletter banner ads typically receive about 10 clicks per newsletter. As part of the newsletter, they also receive about 2,200 page views per newsletter.
 
-The cost for a footer banner is $1,200 per year.
+I usually include about 4 banner ads per newsletter, with each banner ad separating the text summary.
+
+The cost for advertising in the newsletter space is $25 per newsletter. You tell me how many times you want your banner ad to appear in a newsletter and multiple that by 25. For example, if you want it to appear for 50 newsletters, you would multiple 50 x 25, which would be $1,250.
+
+### Footer banner ads {#footer_banner_ads}
+
+The footer banner ad space (728 x 90px) appears below each post, right above the comments, in the single post view. This  visible space is inline with the reader's eye and provides a natural click-point after a reader finishes reading a post. The expanded size gives you more room to communicate a message and use other display graphics.
+
+<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/horizontal_inline_ad-550x331.png" alt="Footer banner ad" max-width="550" /> <figcaption>Footer banner ads appear at the bottom of each post</figcaption></figure>
+
+Footer banner ads can be JPG, PNG, or SVG. Animated GIF is not allowed. Like the sidebar, the position of the horizontal banner ads rotate randomly with each page refresh. There's a limit of 4 horizontal banner post ads that can appear below the post.
+
+Footer banner ads typically receive 50 clicks per month.
+
+The cost for a Horizontal banner ad is $1,200 per year.
 
 ## Taking the next step
 
 If you'd like to advertise on my site, [contact me](/contact). We'll finalize details about the ad spaces you want, and then I'll send you an invoice via PayPal.
 
-[google-xeditor]: https://www.google.com/search?hl=en&authuser=0&ei=cmeFXI2fA4jI-gS9po_gDg&q=xeditor&oq=xeditor&gs_l=psy-ab.3..0i71l8.0.0..5981...0.0..0.0.0.......0......gws-wiz.0ZC1TQ7v7GM
-[google-hyperste]: https://www.google.com/search?hl=en&authuser=0&ei=q2eFXLzkE8b6-gSklpyoBA&q=hyperste&oq=hyperste&gs_l=psy-ab.3..0l10.14848.17146..17247...3.0..0.215.1070.7j2j1......0....1..gws-wiz.......0i71j35i39j0i131j0i67j0i10.0_YbJ9BcZYY
-[google-paligo]: https://www.google.com/search?hl=en&authuser=0&ei=wWeFXMu3Gc2e-gSexYfgCA&q=paligo&oq=paligo&gs_l=psy-ab.3..0j0i10j0j0i10l2j0j0i10j0l3.14126.14767..14971...0.0..0.73.413.6......0....1..gws-wiz.......0i71j35i39j0i131.gWE2RY3YbvY
-[google-madcap-central]: https://www.google.com/search?q=madcap+central&oq=madcap+central&aqs=chrome..69i57j69i60j0l4.1740j0j9&sourceid=chrome&ie=UTF-8
 
 <style>
 table>thead>tr>th {
@@ -171,4 +195,3 @@ table>thead>tr>th {
 }
 </style>
 
-{% include ads.html %}
