@@ -1,4 +1,5 @@
 ---
+#layout: newsletter
 layout: post
 title: "Newsletter: Docusaurus, Lens, Docs-as-Code, 2022 site analytics, and HTML Table formatting"
 permalink: /blog/docusaurus-lens-docs-as-code-tables
@@ -62,7 +63,7 @@ The mention of scale is worth commenting on. When docs-as-code approaches first 
 
 Gentle also makes updates about freely available style guides: “There are even open-source rulesets for the Microsoft or Google Style Guides available for free, which you can enable as tests in a CICD pipeline.” 
 
-Gentle’s first book was on wikis. Five years after that publication, wikis mostly fizzled. The same isn’t true for docs-as-code sites. Five years after this publication, docs-as-code sites became the default for API documentation sites. [Read more >](https://justwriteclick.com/2022/12/07/discover-the-new-edition-of-docs-like-code-available-now/). 
+Gentle’s first book was on wikis. Five years after that publication, wikis mostly fizzled. The same isn’t true for docs-as-code sites. Five years after this publication, docs-as-code sites became the default for API documentation sites. [Read more >](https://justwriteclick.com/2022/12/07/discover-the-new-edition-of-docs-like-code-available-now/) 
 
 {% include newsletterlink1.html %}
 
