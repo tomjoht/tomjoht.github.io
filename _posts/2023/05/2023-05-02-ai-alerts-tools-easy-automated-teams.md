@@ -41,9 +41,10 @@ The 5 specialized roles for the tasks include the following:
 
 He calls this whole solution WritingGPT. Smith says, 
 
-> “By using the output of one AI system as the input for another, a developer can chain together multiple AIs, enhancing their collective capabilities.” The API cost for a 1,000-word article is about $1 to produce the output.
+> “By using the output of one AI system as the input for another, a developer can chain together multiple AIs, enhancing their collective capabilities.” 
 
-By decomposing AI bots into specialized assembly workers each focusing on a specific task, the process more closely mirrors the human writing process. [Read more >](https://medium.com/the-generator/how-i-built-writinggpt-a-fully-automated-ai-writing-team-a8fdf0255586)
+
+The API cost for a 1,000-word article is about $1 to produce the output. By decomposing AI bots into specialized assembly workers each focusing on a specific task, the process more closely mirrors the human writing process. [Read more >](https://medium.com/the-generator/how-i-built-writinggpt-a-fully-automated-ai-writing-team-a8fdf0255586)
 
 {% include newsletterlink1.html %}
 
