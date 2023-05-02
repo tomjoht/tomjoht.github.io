@@ -1651,6 +1651,10 @@ text-decoration: none !important;
 color: #444;
 }
 
+div.col-md-3.navToggle {
+display:none;
+}
+
 .fa-toggle-on {
   color: gray;
 }

@@ -50,11 +50,11 @@ The following sections describe the advertising spaces and options.
     </tr>
     <tr>
     <td markdown="span">[Newsletter summaries](#newsletter_summaries)</td>
-    <td markdown="span">$75/newsletter</td>
+    <td markdown="span">$100/newsletter or $900 for 10 instances</td>
 </tr>
     <tr>
     <td markdown="span">[Newsletter banners](#newsletter_banners)</td>
-    <td markdown="span">$25/newsletter or $2000/year</td>
+    <td markdown="span">$30/newsletter or $250 for 10 instances</td>
 </tr>
 <tr>
 <td markdown="span">[Footer banners](#footer_banner_ads)</td>
@@ -156,9 +156,9 @@ These newsletters contain summaries of the latest happenings in tech comm, such 
 
 Each newsletter typically has 4 article summaries + 1 sponsor summary. The sponsor summary is a 2 paragraph chunk of text that you provide, describing your product, service, event, etc. Whatever you want the tech writer world to know about, you can share it in this summary. I might lightly edit the summary for style to fit the newsletter.
 
-Each newsletter summary gets an average of 75 clicks. The cost for a newsletter summary is $75 per newsletter.
+Each newsletter summary gets an average of 75 clicks. The cost for a newsletter summary is $100 per newsletter, or 10 newsletter summaries for $900.
 
-I can also write the newsletter summaries for you. This might be preferable if you're looking for an industry maven to identify aspects that would catch the reader's attention. If you want me to write the newsletter summaries, the cost is $150 per newsletter.
+I can also write the newsletter summaries for you. This might be preferable if you're looking for an industry maven to identify aspects that would catch the reader's attention. If you want me to write the newsletter summaries, the cost is $150 per newsletter, or 10 newsletter summaries for $1,400.
 
 ## Newsletter banners {#newsletter_banners}
 
@@ -170,7 +170,7 @@ Newsletter banner ads typically receive about 10 clicks per newsletter. As part 
 
 I usually include about 4 banner ads per newsletter, with each banner ad separating the text summary.
 
-The cost for advertising in the newsletter space is $25 per newsletter. You tell me how many times you want your banner ad to appear in a newsletter and multiple that by 25. For example, if you want it to appear for 50 newsletters, you would multiple 50 x 25, which would be $1,250.
+The cost for advertising in the newsletter space is $30 per newsletter, or 10 instances for $250. 
 
 ### Footer banner ads {#footer_banner_ads}
 
