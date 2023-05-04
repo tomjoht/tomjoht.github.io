@@ -1,5 +1,6 @@
 ---
 layout: post
+# layout: newsletter
 title: "Newsletter: Content creator ROI, Netlify, Madbot, and Hollywood"
 permalink: /blog/content-creator-roi-madbot-netlify-hollywood
 date: 2023-05-04
@@ -9,7 +10,7 @@ categories:
 - newsletter
 keywords: 
 rebrandly: https://idbwrtng.com/content-creator-roi-madbot-netlify-hollywood
-description: ""
+description: "Here are the latest tech comm articles and links for May 4, 2023."
 ---
 
 ## What’s missing from the AI workflow: incentives for content creators to provide training data
@@ -41,7 +42,13 @@ Universities and other institutions teach by copying available material in exist
 
 [Jump School](https://idbwrtng.com/becometechnicalwriter2) focuses on exercising knowledge – doing exercises, creating documents, and building a portfolio. 
 
-These courses are “lean” and not full of theoretical or abstract knowledge so most members who earn a certificate are actively working in the industry within a few months. [Learn more >](https://idbwrtng.com/becometechnicalwriter2)
+These courses are “lean” and not full of theoretical or abstract knowledge so most members who earn a certificate are actively working in the industry within a few months. 
+
+Note that the next 8-week Jump School seminar starts May 8, 2023. There's also an open enrollment flex option.
+
+<a href="https://idbwrtng.com/becometechnicalwriter2"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/jumpschooloptionsmay8.png" alt="Jump School courses" /></a>
+
+[Learn more >](https://idbwrtng.com/becometechnicalwriter2)
 
 ## Will a Chatbot Write the Next ‘Succession’? by Noam Scheiber and John Koblin
 
