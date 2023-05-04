@@ -32,6 +32,8 @@ Netlify implemented a chatbot assistant in their [docs](https://docs.netlify.com
 
 These chat implementations point to a growing trend of micro-chats based on a constrained set of content. Will micro-chats with highly constrained and vetted information sources beat out the general chats that seem to integrate and synthesize the entire web?
 
+{% include ads.html %}
+
 ## MadBot Plugin, by Improvementsoft
 
 Improvementsoft released a plugin for Flare called MadBot that uses the GPT APIs to help improve your language. “By using state-of-the-art natural language processing to analyze your content and suggest improvements, MadBot can help you create higher-quality documentation in less time…” A [whitepaper](https://docs.improvementsoft.com/Content/Documentation/MadBot%20Plugin/3%20Whitepaper.htm?tocpath=MadBot%20Plugin%7C_____4) explains more details about the plugin, including the intended use cases — the plugin will “convert meeting notes into usable content” and “improve existing writing” and lead to “increased efficiency”. A license for the plugin costs $129/month. A  license for Flare itself is $182/month, so this means the plugin costs 70% the cost of the tool itself. [Read more >](https://www.improvementsoft.com/Content/Plugins/plugins-madbot.htm)

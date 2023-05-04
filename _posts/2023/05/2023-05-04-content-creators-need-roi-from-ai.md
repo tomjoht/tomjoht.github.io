@@ -49,6 +49,8 @@ He says there's a lot of substantial information on the web, but it's trapped un
 
 GPT-4 removes all the cruft and delivers the raw information that was sitting there underneath all along. By allowing users to connect with this source, exactly adapted to their interests, it “makes learning fun again.”
 
+{% include ads.html %}
+
 ## Problems with this model
 
 The learning model Shekhawat presents is appealing, but there is a challenge to consider. It is important to understand how the vast amount of learning content on the internet came to be. Content creators did not simply decide to create and freely distribute content without any consideration for their own benefit.
