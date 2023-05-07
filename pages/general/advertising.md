@@ -3,14 +3,14 @@ layout: page
 title: Advertising
 permalink: /advertising/
 type: page
-last-modified: 2022-03-20
+last-modified: 2022-05-07
 ---
 
 <img style="float:right; padding-left:15px; max-width: 300px;" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/youradhere.svg" alt="advertising on I'd Rather Be Writing"/>
 
 I'd Rather Be Writing (idratherbewriting.com) is one of the most popular sites where technical writers and engineers go to stay updated with the latest technical writing news, trends, and information in the industry, especially [API documentation](/learnapidoc/). I can help increase your product or service's visibility more than any other technical writing site online.
 
-In 2022, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. For details about site metrics, audience, and popular content, see <a href="/analytics">Site analytics</a>.
+During the calendar year of 2022, idratherbewriting.com had 1,535,622 page views, or about 4,207 page views a day. For details about site metrics, audience, and popular content, see <a href="/analytics">Site analytics</a>.
 
 The following sections describe the advertising spaces and options.
 
@@ -148,19 +148,19 @@ The cost for inline text snippets to appear on the API doc site is $1,200 per ye
 
 ### Newsletter summaries {#newsletter_summaries}
 
-I sent out two newsletters per week (usually on Tuesdays and Thursdays) to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 actually open the email. Here's an example of a newsletter summary:
+I sent out two newsletters per week (usually on Tuesdays and Thursdays) to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 open the email. Here's an example of a newsletter summary:
 
 <figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
 
 These newsletters contain summaries of the latest happenings in tech comm, such as articles, tools, issues, or other matters. I also include links to my latest posts as well. You can see a list of previous newsletters on my [newsletter category](/category-newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
 
-Each newsletter typically has 4 article summaries + 1 sponsor summary. The sponsor summary is a 2 paragraph chunk of text that you provide, describing your product, service, event, etc. Whatever you want the tech writer world to know about, you can share it in this summary. I might lightly edit the summary for style to fit the newsletter.
+Each newsletter typically has 4 article summaries + 1 sponsor summary. The sponsor summary is a two-paragraph chunk of text that you provide, describing your product, service, event, etc. Whatever you want the tech writer world to know about, you can share it in this summary. I might lightly edit the summary for style to fit the newsletter.
 
 Each newsletter summary gets an average of 75 clicks. The cost for a newsletter summary is $100 per newsletter, or 10 newsletter summaries for $900.
 
-## Newsletter banners {#newsletter_banners}
+### Newsletter banners {#newsletter_banners}
 
-The newsletters also feature banner ads. These are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
+The newsletters also feature banner ads that are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
 
 <figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/newsletterbanneradsexample.png" alt="Newsletter banner ads" /><figcaption>Newsletter banner ads -- the image receives a visual focus because the newsletter summaries are all text</figcaption></figure>
 
