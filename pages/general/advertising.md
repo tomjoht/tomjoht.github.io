@@ -158,8 +158,6 @@ Each newsletter typically has 4 article summaries + 1 sponsor summary. The spons
 
 Each newsletter summary gets an average of 75 clicks. The cost for a newsletter summary is $100 per newsletter, or 10 newsletter summaries for $900.
 
-I can also write the newsletter summaries for you. This might be preferable if you're looking for an industry maven to identify aspects that would catch the reader's attention. If you want me to write the newsletter summaries, the cost is $150 per newsletter, or 10 newsletter summaries for $1,400.
-
 ## Newsletter banners {#newsletter_banners}
 
 The newsletters also feature banner ads. These are 540px wide by 70px tall in size. The banner ads intersperse the newsletter summaries as shown in the following image:
