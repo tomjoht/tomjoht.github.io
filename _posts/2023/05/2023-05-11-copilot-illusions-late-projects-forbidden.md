@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Newsletter: GitHub Copilot, Wappalyzer, Illusions, Late projects, Forbidden Fruit"
+title: "Newsletter: Copilot for Docs, Wappalyzer, Illusions, Late projects, Forbidden Fruit"
 permalink: /blog/copilot-illusions-late-projects-forbidden
 date: 2023-05-11
 categories:
@@ -60,8 +60,6 @@ This newsletter has 6,200 subscribers, mostly people in tech comm + engineering.
 
 If you do want to advertise in this newsletter, you’ll need to write your newsletter summary. In your summary, try to be informative and interesting. Avoid marketing language or overt sales techniques. Most people respond best to plain explanations of products. Their eyes might glaze over banner ads, as experience has taught them to consider ads to be irrelevant, but if you share information in an authentic, transparent way, they may choose to learn more. People dislike sales but love information.
 
-{% include newsletterlink4.html %}
-
 ## “Warning: Don’t click this button” — the rhetoric of deterrence and the forbidden fruit
 
 We frequently read AI experts [warning society about the potential harms of AI technologies](https://www.bbc.com/news/world-us-canada-65452940). When I read these warnings, I often think hey, aren’t you inadvertently increasing the appeal of those technologies? Apparently, the doom-and-gloom warning rhetoric can actually trigger “psychological reactance,” a motivational state that occurs when people feel their freedom is threatened. 
@@ -73,5 +71,3 @@ A subcategory of psychological reactance is the “Forbidden Fruit Effect.” Th
 Are AI experts who try to deter AI development making it a forbidden fruit? How can we avoid the unintended consequences when we want to forbid certain technologies? One way is to provide more balanced information, sharing both the benefits and risks of these technologies in plain ways and allowing the audience to decide. By providing balanced information, we reduce the feeling that people are being told what to do and allow them to make more informed choices on their own. In presenting the two sides, be careful to avoid alarmist, sensational language that exposes your bias.
 
 Tech writers might be well suited to a rhetoric of deterrence because of our alignment with factual, objective information. We stick to the facts and tell readers the consequences of actions in simple language. If you want to stop the development of AI technologies because you fear computers will develop their own sentient intelligence and destroy humans, how would you go about it? For academics in the field of “rhetoric,” this scenario might be a perfect dilemma to explore.
-
-{% include newsletterlink1.html %}
