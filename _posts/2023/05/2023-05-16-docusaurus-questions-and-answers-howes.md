@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From DITA to docs-as-code with Docusaurus: Q&A with Mike Howes"
+title: "From DITA to docs-as-code and Docusaurus: Q&A with Mike Howes"
 permalink: /blog/docusaurus-questions-and-answers-howes
 date: 2023-05-16
 categories:
