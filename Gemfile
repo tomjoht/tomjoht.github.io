@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'webrick'
 
 group :jekyll_plugins do
   gem 'github-pages'
@@ -8,4 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
   gem 'jekyll-seo'
+  gem 'jekyll-sitemap'
 end
