@@ -3,7 +3,6 @@
 # Make sure API key loads from .zshrc file
 source ~/.zshrc
 
-
 # Get current date, year, and month
 DATE=$(date +"%Y-%m-%d")
 YEAR=$(date +"%Y")
@@ -17,14 +16,15 @@ echo "Enter the post slug:"
 read SLUG
 
 # Replace spaces with hyphens and convert to lowercase
-
 # SLUG=$(echo "$TITLE" | tr "[:upper:]" "[:lower:]" | sed "s/ /-/g")
 
 # Create year and month directories if they don't exist
 mkdir -p _posts/$YEAR/$MONTH
 
 # Create the file with YAML frontmatter
-cat > _posts/$YEAR/$MONTH/$DATE-$SLUG.md <<EOL
+FILENAME=_posts/$YEAR/$MONTH/$DATE-$SLUG.md
+
+cat > $FILENAME <<EOL
 ---
 layout: post
 title: "$TITLE"
@@ -39,28 +39,40 @@ description: ""
 published: false
 ---
 
+{% include ads.html %}
+
 EOL
 
-# get API key from .zshrc file
-REBRANDLY_KEY="${REBRANDLY_API_KEY}"
 
-# make API call to Rebrandly to create shortlink
-data=$(printf '
-{
-  "domain": {
-    "fullName": "idbwrtng.com"
-  },
-  "destination": "https://idratherbewriting.com/blog/%s",
-  "slashtag": "%s",
-  "title": "%s"
-}' "$SLUG" "$SLUG" "$TITLE")
+# Ask user if they want to create a rebrandly shortlink
+echo "Would you like to create a rebrandly shortlink? (y/n)"
+read answer
 
-response=$(curl --request POST \
-     --url https://api.rebrandly.com/v1/links \
-     --header 'accept: application/json' \
-     --header "apikey: $REBRANDLY_KEY" \
-     --header 'content-type: application/json' \
-     --data "$data"
-)
+if [ "$answer" = "y" ]; then
+    # get API key from .zshrc file
+    REBRANDLY_KEY="${REBRANDLY_API_KEY}"
 
-echo "Response:" $response
+    # make API call to Rebrandly to create shortlink
+    data=$(printf '
+    {
+    "domain": {
+        "fullName": "idbwrtng.com"
+    },
+    "destination": "https://idratherbewriting.com/blog/%s",
+    "slashtag": "%s",
+    "title": "%s"
+    }' "$SLUG" "$SLUG" "$TITLE")
+
+    response=$(curl --request POST \
+        --url https://api.rebrandly.com/v1/links \
+        --header 'accept: application/json' \
+        --header "apikey: $REBRANDLY_KEY" \
+        --header 'content-type: application/json' \
+        --data "$data"
+    )
+
+    echo "Response:" $response
+fi
+
+# Open the file in Visual Studio Code
+code $FILENAME
