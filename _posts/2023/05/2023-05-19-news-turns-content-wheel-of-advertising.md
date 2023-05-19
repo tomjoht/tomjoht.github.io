@@ -2,7 +2,7 @@
 layout: post
 title: "News turns the content wheel of advertising"
 permalink: /blog/news-turns-content-wheel-of-advertising
-date: 2023-05-19 18:50:00 +0000
+date: 2023-05-19
 categories:
 - technical-writing
 - AI

@@ -367,7 +367,7 @@
 
 {% for post in site.posts limit:5 %}
     <h2>{{ post.title }}</h2>
-    <p>{{ post.content | truncatewords: 75, " ..." }} <a href="{{ post.url }}">Read more &raquo;</a></p>
+    <p>{{ post.content | strip_html | truncatewords: 75, " ..." }} <a href="{{ "https://idratherbewriting.com" | append: post.url }}">Read more &raquo;</a></p>
     
     {% if forloop.index < forloop.length %}
         {% include newsletterlink{{link_counter}}.html %}
