@@ -2,7 +2,7 @@
 layout: post
 title: "News turns the content wheel of advertising"
 permalink: /blog/news-turns-content-wheel-of-advertising
-date: 2023-05-16
+date: 2023-05-19 18:50:00 +0000
 categories:
 - technical-writing
 - AI
@@ -10,8 +10,6 @@ keywords:
 rebrandly: https://idbwrtng.com/news-turns-content-wheel-of-advertising
 description: "I recently tried a new approach to my newsletter: summarizing news articles. The new approach resulted in good engagement but left me feeling empty. News exploits our psychological vulnerabilities, including our novelty bias, negativity bias, and fear of missing out. We should be mindful of our news consumption and balance it with other more self-directed activities."
 ---
-
-## The newsletter
 
 For most of my blog’s history, my newsletter has contained links to my own blog’s articles. With this approach, I could only send out about one newsletter every two weeks, depending on how prolific I was on my blog. I usually included one substantial article per newsletter.
 
