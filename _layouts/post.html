@@ -44,8 +44,9 @@ comments: true
 
 {% endif %}
 
+{% if page.show_newsletter != "never" %}
 {% include mailjet_embedded.html %}
-
+{% endif %}
 
 {% include coffee_button.html %}
 

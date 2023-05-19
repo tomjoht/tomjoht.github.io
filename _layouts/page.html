@@ -13,10 +13,9 @@ layout: default
 
         {{content}}
 
-
-{% unless page.show_newsletter_signup == "nope" %}
+{% if page.show_newsletter != "never" %}
 {% include mailjet_embedded.html %}
-{% endunless %}
+{% endif %}
 
         <hr/>
 

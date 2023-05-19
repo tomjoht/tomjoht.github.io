@@ -3,6 +3,26 @@ layout: page
 title: I'd Rather Be Writing Newsletter
 permalink: /newsletter/
 type: page
-show_newsletter: nope
+show_newsletter: never
 ---
 
+{% include mailjet_embedded.html %}
+
+<h3>Newsletter archives</h3>
+
+{% for p in site.categories.newsletter %}
+<ul>
+<li><h4 class="categoryArchive"><a href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="postDate"> | {{ p.date | date: "%b %-d, %Y" }}</span></h4></li>
+</ul>
+{% endfor %}
+
+<style>
+body.pas-body {
+    display: none !important;
+}
+</style>
+<script>
+  $(document).ready(function() {
+    $('#iFrameResizer1').css('display', 'none');
+  });
+</script>
