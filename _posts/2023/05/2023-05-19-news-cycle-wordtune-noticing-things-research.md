@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Newsletter: Endless news cycle, noticing things"
+title: "Newsletter: Endless news cycles, style checkers, finding research, noticing things around you"
 permalink: /blog/news-cycle-wordtune-noticing-things-research
 date: 2023-05-19
 categories:
