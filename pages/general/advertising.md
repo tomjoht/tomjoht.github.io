@@ -148,11 +148,11 @@ The cost for inline text snippets to appear on the API doc site is $1,200 per ye
 
 ### Newsletter summaries {#newsletter_summaries}
 
-I sent out two newsletters per week (usually on Tuesdays and Thursdays) to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 open the email. Here's an example of a newsletter summary:
+I sent out two newsletters per month to 6,200+ email subscribers. I also post the newsletter content on my blog and share the link on Linkedin and Twitter. The newsletter has an average open rate of about 35%, meaning of the 6,200 people who receive the newsletter, about 2,200 open the email. Here's an example of a newsletter summary:
 
 <figure><img style="max-width: 600px" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/sponsorsummarynewsletter.png" alt="Newsletter summary" /><figcaption>Newsletter summary -- a good summary has a call to action at the end</figcaption></figure>
 
-These newsletters contain summaries of the latest happenings in tech comm, such as articles, tools, issues, or other matters. I also include links to my latest posts as well. You can see a list of previous newsletters on my [newsletter category](/category-newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
+These newsletters contain summaries of my latest posts, plus the latest happenings in tech comm, such as articles, tools, issues, or other matters.  You can see a list of recent newsletters on my [newsletter category](/category-newsletter/). Sponsored summaries have the word "(Sponsor)" in parentheses in the title.
 
 Each newsletter typically has 4 article summaries + 1 sponsor summary. The sponsor summary is a two-paragraph chunk of text that you provide, describing your product, service, event, etc. Whatever you want the tech writer world to know about, you can share it in this summary. I might lightly edit the summary for style to fit the newsletter.
 
