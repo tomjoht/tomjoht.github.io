@@ -18,7 +18,7 @@ For most of my blog’s history, my newsletter has contained links to my own blo
 
 ## Review of WordTune: Granular style checkers still beat Bard and ChatGPT
 
-Despite all the focus on AI tools automatically writing content for you, their outputs seem relevant only in low-level, easy writing scenarios. Try writing an intelligent, original essay on a topic and you’ll find AI tools much less irrelevant. I do, however, occasionally paste problematic sentences into ChatGPT or Bard and ask them to make the language more grammatical and readable. Sometimes they do an amazing job, but only when I’ve scoped the language problem ... [Read more »](/blog/wordtune-granular-style-checker-vs-llm-rewrites-chatgpt)
+Despite all the focus on AI tools automatically writing content for you, their outputs seem relevant only in low-level, easy writing scenarios. Try writing an intelligent, original essay on a topic and you’ll find AI tools much less relevant. I do, however, occasionally paste problematic sentences into ChatGPT or Bard and ask them to make the language more grammatical and readable. Sometimes they do an amazing job, but only when I’ve scoped the language problem ... [Read more »](/blog/wordtune-granular-style-checker-vs-llm-rewrites-chatgpt)
 
 {% include ads.html %}
 
