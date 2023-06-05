@@ -33,7 +33,7 @@ exclude:
 format: web
 
 plugins:
- - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-paginate
