@@ -195,10 +195,10 @@
 {% endif %}
                 <h1>{{page.title}}</h1>
 {% if page.collection == "posts" %}
-{% if page.series %}<div class="subheading">{{page.series}}</div>{% endif %}
+{% if page.series %}<div class="subheading">Series: {{page.series}}</div>{% endif %}
 <p class="page-meta">
   {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} &#8226; <a href="{{ post.url }}#commento"></a></i><br/>
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a href="{{ post.url }}#commento"></a></i><br/>
   {% endunless %}
 {% if page.categories %}
 <span id="pageCategories">

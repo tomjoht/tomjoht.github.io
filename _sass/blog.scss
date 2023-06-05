@@ -6,11 +6,14 @@
     color: #b8860b;
     border-left: 2px solid #dedede;
     margin: 20px 0;
-    line-height: 34px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
+.summary::before {
+    content: "Summary: ";
+    font-weight: 700;
+}
 
 
 .home-post-meta {
