@@ -100,5 +100,3 @@ If you go with an open-source solution, your company, like mine, might already h
 In our research, two disadvantages with a paid solution, besides the cost, was performance, which we found to be spotty when using their demos/trials, and the features/customization can be rather limited. A paid solution is supported by a business and they need to weigh which features to invest in based on customer demand. This, of course, takes time and when they do get around to adding a specific feature it might be very basic in its implementation. 
 
 For example, a simple feature like dark mode has been around for many years and it was high on our feature list, but many of the paid solutions we researched either had no plans to support it or were still working on adding support. Docusaurus, on the other hand, has a dark/light mode toggle out-of-the-box. I highly recommend trying out Docusaurus to see just how easy it is to launch a doc site and, gradually, customize it to meet the needs of your users and your organization. Best of luck!
-
-(small edit to regenerate docs)
