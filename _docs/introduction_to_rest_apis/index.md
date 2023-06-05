@@ -211,3 +211,5 @@ For even more books, see [Relevant Books](https://www.writethedocs.org/books/) f
 images outside of the _docs directory. keep this reference so the image isn't deleted by the image_purge_output.sh script, which looks for image file references in the _docs and slides directories.
 restapi_kindletitle.png
 {% endcomment %}
+
+small edit to trigger rebuild
