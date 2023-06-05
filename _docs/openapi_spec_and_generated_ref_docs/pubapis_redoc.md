@@ -49,7 +49,7 @@ In this activity, you'll render your OpenAPI spec with [Redoc](https://github.co
         </style>
       </head>
       <body>
-        <redoc spec-url='https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml'></redoc>
+        <redoc spec-url='https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml'></redoc>
         <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
       </body>
     </html>
