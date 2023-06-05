@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://www.eventbriteapi.com/v3/events/49216045517/",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer IO6EB7MM6TSCIL2TIOHC",
+      "Content-Type": "application/json"
+    }
+  }
+
+  $.ajax(settings).done(function (data) {
+    console.log(data);
+    var content = "<h2>" + data.name.text + "</h2>" + data.description.html;
+    $("#eventbrite").append(content);
+  });
+</script>
+
+<div id="eventbrite"></div>
+
+</body>
+</html>

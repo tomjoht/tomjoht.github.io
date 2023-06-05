@@ -29,11 +29,12 @@
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#search-searchbar',
-        placeholder: 'Search all content'
+        placeholder: 'Search all content',
+        autofocus: false
       })
     );
 
-    // Helper function to quickly find the highlighed version of a key
+    // Helper function to quickly find tge highlighed version of a key
     function highlight(hit, key) {
       if (hit._highlightResult[key]) {
         return hit._highlightResult[key].value;
@@ -53,47 +54,21 @@
             var highlightedTitle = highlight(hit, 'title');
             var highlightedContent = highlight(hit, 'content');
 
-            // Human-readable date
-            var readableDate = null;
-            if (hit.date) {
-              var date = new Date(hit.date * 1000);
-              var readableDate = date.toLocaleString("en-us", { month: "short" }) + " " + date.getDate() + ", " + date.getFullYear();
-            }
-
-            // Categories
-            var categories = null;
-            if (hit.categories) {
-              categories = hit.categories.map(function(category) {
-                return `<a href="{{ site.baseurl }}/category-${category}">${category}</a>`
-              }).join(', ')
-            }
-
-            var meta = [readableDate, categories].filter(Boolean).join(' • ');
-
-            // Thumbnail
-            var thumb = "";
-            if (hit.thumb) {
-              var thumb = `<div class="search-hit-thumb"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/${hit.thumb}" /></div>`
-            }
-
-            // Headings
-            var headings = hit.headings.join(' > ');
+            var headings = [];
             if (hit._highlightResult.headings) {
               headings = hit._highlightResult.headings
                 .map(heading => heading.value)
-                .join(' > ');
+            } else {
+              headings = hit.headings || []
             }
+            headings = headings.join(' > ');
 
             return `
                 <div class="search-hit">
                   <a class="search-hit-title" href="${url}">${highlightedTitle}</a>
-                  <div class="search-hit-meta">${meta}</div>
-                  <div class="search-hit-content-wrapper">
-                    ${thumb}
-                    <div class="search-hit-content">
-                      <div class="search-hit-headings">${headings}</div>
-                      ${highlightedContent}
-                    </div>
+                  <div class="search-hit-content">
+                    <div class="search-hit-headings">${headings}</div>
+                    ${highlightedContent}
                   </div>
                 </div>
                 `;
@@ -108,8 +83,8 @@
   <div class="search-header">
     <h2 class="search-header-title post-title-main">Search results</h2>
     <div class="search-header-logo">
-      <a href="https://www.algolia.com/?utm_source=jekyll-algolia&utm_medium=website&utm_content=idratherbewriting&utm_campaign=poweredby" target="_blank">
-        <img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/search-by-algolia.svg" alt="Search powered by Algolia" />
+      <a href="https://www.algolia.com/?utm_source=jekyll-algolia&utm_medium=website&utm_content=learnapidoc&utm_campaign=poweredby" target="_blank">
+        <img src="{{site.api_media}}/search-by-algolia.svg" alt="Search powered by Algolia" />
       </a>
     </div>
   </div>

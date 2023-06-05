@@ -1,65 +1,66 @@
-# Sidebar
-entries:
-- title: Sidebar
-  subcategories:
-    - title: Journey away from smartphones
-      items:
-        - title: "My awakening moment about how smartphones fragment our attention span"
-          url: /blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+sidebartitle: Journey away from smartphones
+folders:
+- title: "Pages in this series"
+  jurl: blog/awakening-moment-to-how-smartphones-fragment-our-attention/
+  section: one
+  class: first
+  folderitems:
+  - title: "My awakening moment about how smartphones fragment our attention span"
+    jurl: blog/awakening-moment-to-how-smartphones-fragment-our-attention/
 
-        - title: "My initial rules and reasons for intentional smart phone use"
-          url: /blog/my-international-rules-for-smartphone-use/
+  - title: "My initial rules and reasons for intentional smart phone use"
+    jurl: blog/my-international-rules-for-smartphone-use/
 
-        - title: "First experiences in moving away from smartphones"
-          url: /blog/first-experiences-moving-away-from-smartphones/
+  - title: "First experiences in moving away from smartphones"
+    jurl: blog/first-experiences-moving-away-from-smartphones/
 
-        - title: "More developments on my journey away from smartphones – a sudden interest in classical music?"
-          url: /blog/sudden-interest-in-classical-music/
+  - title: "More developments on my journey away from smartphones – a sudden interest in classical music?"
+    jurl: blog/sudden-interest-in-classical-music/
 
-        - title: "One month in without a smartphone &mdash; growing doubts about the value of technology in general"
-          url: /blog/one-month-in-without-a-smartphone/
+  - title: "One month in without a smartphone &mdash; growing doubts about the value of technology in general"
+    jurl: blog/one-month-in-without-a-smartphone/
 
-        - title: "Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
-          url: /blog/nicholas-carr-the-shallows-book-review/
+  - title: "Review of What the Internet Is Doing to Our Brains: The Shallows, by Nicholas Carr"
+    jurl: blog/nicholas-carr-the-shallows-book-review/
 
-        - title: "Six weeks in -- returning to smartphone (but not as before)"
-          url: /blog/returning-to-smartphones/
+  - title: "Six weeks in -- returning to smartphone (but not as before)"
+    jurl: blog/returning-to-smartphones/
 
-        - title: "Random notes on recovering the lost art of reading"
-          url: /blog/notes-on-recovering-the-lost-art-of-reading/
+  - title: "Random notes on recovering the lost art of reading"
+    jurl: blog/notes-on-recovering-the-lost-art-of-reading/
 
-        - title: "Wayfinding -- finding my way without GPS"
-          url: /blog/wayfinding-intro/
+  - title: "Wayfinding -- finding my way without GPS"
+    jurl: blog/wayfinding-intro/
 
-        - title: "Wayfinding requires you to be present in the world"
-          url: /blog/wayfinding-be-present-and-attentive/
+  - title: "Wayfinding requires you to be present in the world"
+    jurl: blog/wayfinding-be-present-and-attentive/
 
-        - title: "Spatial and scientific reasoning from wayfinding"
-          url: /blog/wayfinding-scientific-reasoning/
+  - title: "Spatial and scientific reasoning from wayfinding"
+    jurl: blog/wayfinding-scientific-reasoning/
 
-        - title: "Driving without GPS -- the desire to be free and in control"
-          url: /blog/wayfinding-driving-without-gps-freedom-and-control/
+  - title: "Driving without GPS -- the desire to be free and in control"
+    jurl: blog/wayfinding-driving-without-gps-freedom-and-control/
 
-        - title: "From smartphones to Netflix: moving past plateaus in growth"
-          url: /blog/limits-of-growth-shifting-burdens/
+  - title: "From smartphones to Netflix: moving past plateaus in growth"
+    jurl: blog/limits-of-growth-shifting-burdens/
 
-        - title: "Techniques for deep work from Cal Newport"
-          url: /blog/newport-deep-work/
+  - title: "Techniques for deep work from Cal Newport"
+    jurl: blog/newport-deep-work/
 
-        - title: "How to move from focus sessions to flow sessions"
-          url: /blog/from-focus-sessions-to-flow/
+  - title: "How to move from focus sessions to flow sessions"
+    jurl: blog/from-focus-sessions-to-flow/
 
-        - title: "Applying Csikszentmihalyi's psychology of Flow while writing technical documentation"
-          url: /blog/csikszentmihalyi-dynamics-of-flow/
+  - title: "Applying Csikszentmihalyi's psychology of Flow while writing technical documentation"
+    jurl: blog/csikszentmihalyi-dynamics-of-flow/
 
-        - title: "From monkey mind to calm, ordered consciousness?"
-          url: /blog/from-monkey-mind-to-calm-consciousness/
+  - title: "From monkey mind to calm, ordered consciousness?"
+    jurl: blog/from-monkey-mind-to-calm-consciousness/
 
-        - title: "What the DMN and TPN modes of the brain teach us about focus"
-          url: /blog/dmn-and-tpn-brain/
+  - title: "What the DMN and TPN modes of the brain teach us about focus"
+    jurl: blog/dmn-and-tpn-brain/
 
-        - title: "The diametric pull towards tech and wildness"
-          url: /blog/diametric-pull-towards-tech-and-wildness
+  - title: "The diametric pull towards tech and wildness"
+    jurl: blog/diametric-pull-towards-tech-and-wildness
 
-        - title: "Conclusion and takeaways"
-          url: /blog/conclusion-and-learnings-smartphone-series/
+  - title: "Conclusion and takeaways"
+    jurl: blog/conclusion-and-learnings-smartphone-series/

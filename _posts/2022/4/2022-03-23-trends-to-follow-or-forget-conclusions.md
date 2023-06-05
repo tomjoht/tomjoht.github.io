@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/trendsconclusions
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This is the final post in the series and tries to draw some conclusions about the observations of the previous 15 trends explored."
 published: false
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Newsletter: Copilot for Docs, Wappalyzer, Illusions, Late projects, Forbidden Fruit"
 permalink: /blog/copilot-illusions-late-projects-forbidden
 date: 2023-05-11

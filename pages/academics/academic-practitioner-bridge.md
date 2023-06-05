@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Academic/practitioner bridge email group
 permalink: /academic-practitioner-bridge/
 status: publish

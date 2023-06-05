@@ -1,6 +1,6 @@
 ---
 #layout: newsletter
-layout: post
+
 title: "Newsletter: Markprompt Q&A, LearningDITA, Snowflake docs, AI Commits"
 permalink: /blog/markprompt-dita-snowflake-aicommits
 date: 2023-04-24

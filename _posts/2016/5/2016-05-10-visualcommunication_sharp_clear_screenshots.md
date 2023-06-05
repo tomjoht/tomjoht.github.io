@@ -1,7 +1,7 @@
 ---
 title: 'Getting sharp, clear text in screen captures &mdash; and making sense of Retina displays'
 keywords:
-jtype: notes_visualcommunication
+sidebar: sidebar_visualcommunication
 category: visual-communication
 ---
 

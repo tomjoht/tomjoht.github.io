@@ -1,3 +1,1 @@
-# Blog files for I'd Rather Be Writing 
-
-This is the Jekyll site for idratherbewriting.com.
+This is the code repository for https://idratherbewriting.com/. This site contains both my blog on technical writing and a course on API documentation. The API documentation course contains many tutorials, best practices, and other how-tos for writing API documentation.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Markprompt Q&A with Michael Fester"
 permalink: /blog/markprompt-questions-and-answers
 date: 2023-04-23

@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Casting'
 permalink: /java-casting/
 date: 2015-01-01 19:33:32.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

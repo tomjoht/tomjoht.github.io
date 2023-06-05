@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/fiveapproachesbigpicture
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "In a technology world growing increasingly specialized, technical writers can stay relevant by leveraging their most salient skill: the ability to see the big picture, to look across systems or individual APIs and see the shape of the whole. Technical writers can employ big-picture thinking with docs by emphasizing the following content types: (1) Detailed product overviews, (2) developer journeys, (3) cross-system workflows, (4) integrated API data, (5) and external domain knowledge."
 ---
 

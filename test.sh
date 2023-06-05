@@ -1,1 +1,1 @@
-bundle exec jekyll serve --limit_posts 50 --future
+bundle exec jekyll serve --limit_posts 20 --future

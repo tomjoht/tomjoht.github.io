@@ -9,7 +9,7 @@ description: "In the <a href='https://idratherbewriting.com/web-and-workplace-in
 weight: 4
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
-jtype: notes_workplace_influence
+sidebar: sidebar_workplace_influence
 date: 2022-01-26 03:00:000000000 -07:00
 ---
 

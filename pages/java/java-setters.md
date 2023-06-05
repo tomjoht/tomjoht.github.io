@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Setters'
 permalink: /java-setters/
 date: 2015-01-01 20:23:29.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick Summary

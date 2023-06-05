@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Book review of the Art of Noticing, by Rob Walker"
 permalink: /blog/art-of-noticing-rob-walker-book-review
 date: 2023-05-19

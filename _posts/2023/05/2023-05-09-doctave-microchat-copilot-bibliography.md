@@ -1,6 +1,4 @@
 ---
-#layout: post
-layout: newsletter
 title: "Newsletter: Doctave, Chatbase, SiteGPT, small CLs, TC bibliography"
 permalink: /blog/doctave-microchat-small-cls-bibliography
 date: 2023-05-09

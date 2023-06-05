@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Advertising
 permalink: /advertising/
 type: page

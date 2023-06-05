@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "News turns the content wheel of advertising"
 permalink: /blog/news-turns-content-wheel-of-advertising
 date: 2023-05-19

@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Inheritance'
 permalink: /java-inheritance/
 date: 2015-01-01 19:59:08.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

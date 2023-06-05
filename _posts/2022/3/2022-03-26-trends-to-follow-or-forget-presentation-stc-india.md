@@ -7,7 +7,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/trendsstcindiapres
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. The overall goal is to better understand the reasons that drive trend adoption or abandonment in my personal career. This post contains a keynote presentation I gave to STC India on March 26, 2022."
 podcast_link: https://dts.podtrac.com/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/stcindiatrendstofollow2022.mp3
 podcast_file_size: 45.5 MB

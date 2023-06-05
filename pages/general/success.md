@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Subscription Success!
 permalink: /success/
 show_newsletter_signup: nope

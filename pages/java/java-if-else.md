@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: If else'
 permalink: /java-if-else/
 date: 2015-01-01 19:58:05.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 Eclipse example: if_statement

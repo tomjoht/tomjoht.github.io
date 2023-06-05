@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Tomcat'
 permalink: /java-tomcat/
 date: 2015-01-01 20:27:26.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 Tomcat is a web server that allows you to run Java in JSP pages.

@@ -1,6 +1,5 @@
 podcasts:
 
-
 - title: 10 Minute Tech Comm podcast
   author: Ryan Weber
   url: https://www.stitcher.com/podcast/uah-technical-writing/10minute-tech-comm
@@ -23,7 +22,7 @@ podcasts:
 
 - title: I'd Rather Be Writing podcasts
   author: Tom Johnson
-  url: http://idratherbewriting.com/category-podcasts/
+  url: https://idratherbewriting.com/category-podcasts/
   img: tomjohnsonpodcast.jpg
 
 - title: Grammar Girl podcast
@@ -33,7 +32,7 @@ podcasts:
 
 - title: Write the Docs podcast
   author: Chris Ward, Tom Johnson, and other WTD community
-  url: http://podcast.writethedocs.org/
+  url: https://podcast.writethedocs.org/
   img: wtdpodcast.png
 
 - title: The Not Boring Tech Writer
@@ -52,9 +51,9 @@ podcasts:
   img: the_manuscript.png
 
 - title: Knowledgebase Ninjas
-  author: Gowri Ramkumar
+  author: Gowri Ramkumar (Document 360)
   url: https://document360.io/blog/category/knowledgebase-ninjas/
-  img: knowledgebase_ninjas.png
+  img: kbninjas.png
 
 - title: Instrktiv's Insane Instructions Show
   author: Ferry Vermeulen
@@ -78,7 +77,7 @@ podcasts:
 
 - title: Titans of Tech Comm
   author: Vivek Nanda
-  url: https://heretto.com/project/titans-of-tech-comm-podcast/
+  url: https://heretto.com/video/titans-of-tech-comm/
   img: titansoftechcomm.png
 
 - title: Let's Talk Docs

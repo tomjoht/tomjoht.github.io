@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Share files with others using Git and Github'
 permalink: /java-share-files/
 date: 2015-01-03 22:03:12.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 What's the best way to share Java files with others, especially in a tutorial scenario? Here's one way to share files using Github and Eclipse.

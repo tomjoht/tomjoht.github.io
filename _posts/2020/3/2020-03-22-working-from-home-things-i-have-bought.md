@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idratherbewriting.site/wfhpurchases
 description: "Now that most of us are working from home, I thought I might write a post about things I've bought in an effort to be more comfortable and productive in wfh mode."
-jtype: notes_pandemic
+sidebar: sidebar_pandemic
 ---
 
 <style>

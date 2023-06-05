@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/build-balance-board
 series: "Sitting, standing, and walking"
-jtype: notes_sitting
+sidebar: sidebar_sitting
 description: "This tutorial shows you how to build your own balance board with both single and double rollers, intended for standing intermittently at a standing desk. If you browse balance boards online, you'll find they're expensive for how simple they are: a piece of wood on a roller. Buying all the materials yourself will likely equal the cost of pre-built board, but your custom board will probably be better and you can make multiple balance boards (one for work, one for home). Plus, you can create a balance board with a double roller, or innovate in other ways."
 ---
  

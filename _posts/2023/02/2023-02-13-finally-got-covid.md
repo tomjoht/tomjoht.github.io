@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/omicron
 description: "After 2.5 years of avoiding it, I finally got Covid, probably Omicron based on the symptoms. I usually don't write about personal illness, but I also figure that my blog would have a void if I never wrote about Covid during the entire pandemic."
 series: "Pandemic-related posts"
-jtype: notes_pandemic
+sidebar: sidebar_pandemic
 ---
 
 I'm quadruple-vaxed, including the most recent bivalent vaccine. The Christmas before last (2021), our entire family (5+ people) had Covid, but I never got it then. I thought I was maybe immune to Covid, but in retrospect, I just benefitted from the protection of the vaccine. Omicron is more contagious, however, and vaccines don't work as well against it. This time, three out of five family members got Omicron. My second-oldest daughter, Callie, first got sick. Callie (they/them) quarantined in their room for several days. But eventually, I too started feeling sick too. Then I tested positive. Later my wife tested positive. Two of my other kids never got it. (All of us have been similarly bivalent-vaxed.)

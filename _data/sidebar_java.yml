@@ -1,151 +1,153 @@
-entries:
-- title: Sidebar
-  subcategories:
-    - title: Core concepts
-      items:
-        - title: Introduction
-          url: /java-introduction/
+sidebartitle: Java notes
+folders:
+- title: "Pages in this series"
+  jurl: java-introduction
+  section: one
+  class: first
+  folderitems:
+  - title: Introduction
+    jurl: java-introduction/
 
-        - title: Classes
-          url: /java-classes/
+  - title: Classes
+    jurl: java-classes/
 
-        - title: Methods
-          url: /java-methods/
+  - title: Methods
+    jurl: java-methods/
 
-        - title: Objects
-          url: /java-objects/
+  - title: Objects
+    jurl: java-objects/
 
-        - title: Constructors
-          url: /java-constructors/
+  - title: Constructors
+    jurl: java-constructors/
 
-        - title: Interfaces
-          url: /java-interfaces/
+  - title: Interfaces
+    jurl: java-interfaces/
 
-        - title: Subclasses
-          url: /java-subclasses/
+  - title: Subclasses
+    jurl: java-subclasses/
 
-        - title: Inheritance
-          url: /java-inheritance/
+  - title: Inheritance
+    jurl: java-inheritance/
 
-        - title: Packages
-          url: /java-packages/
+  - title: Packages
+    jurl: java-packages/
 
-        - title: Getters and setters
-          url: /java-getters-and-setters/
+  - title: Getters and setters
+    jurl: java-getters-and-setters/
 
-        - title: Modifiers
-          url: /java-modifiers/
+  - title: Modifiers
+    jurl: java-modifiers/
 
-        - title: Access modifiers
-          url: /java-access-modifiers/
+  - title: Access modifiers
+    jurl: java-access-modifiers/
 
-        - title: Abstract methods
-          url: /java-abstract-methods/
+  - title: Abstract methods
+    jurl: java-abstract-methods/
 
-        - title: Variables
-          url: /java-variables/
+  - title: Variables
+    jurl: java-variables/
 
-        - title: Constants
-          url: /java-constants/
+  - title: Constants
+    jurl: java-constants/
 
-        - title: Primitive data types
-          url: /java-primitive-data-types/
+  - title: Primitive data types
+    jurl: java-primitive-data-types/
 
-        - title: Setters
-          url: /java-setters/
+  - title: Setters
+    jurl: java-setters/
 
-        - title: Handling exceptions
-          url: /java-handling-exceptions/
+  - title: Handling exceptions
+    jurl: java-handling-exceptions/
 
-        - title: Loops
-          url: /java-loops/
+  - title: Loops
+    jurl: java-loops/
 
-        - title: Continue
-          url: /java-continue/
+  - title: Continue
+    jurl: java-continue/
 
-        - title: If else
-          url: /java-if-else/
+  - title: If else
+    jurl: java-if-else/
 
-        - title: Break
-          url: /java-break/
+  - title: Break
+    jurl: java-break/
 
-        - title: Hashmaps
-          url: /java-hashmaps/
+  - title: Hashmaps
+    jurl: java-hashmaps/
 
-        - title: Treemaps
-          url: /java-treemaps/
+  - title: Treemaps
+    jurl: java-treemaps/
 
-        - title: Collections Framework
-          url: /java-collections-framework/
+  - title: Collections Framework
+    jurl: java-collections-framework/
 
-        - title: Javadoc tags
-          url: /java-javadoc-tags/
+  - title: Javadoc tags
+    jurl: java-javadoc-tags/
 
-        - title: Code formatting
-          url: /java-code-formatting/
+  - title: Code formatting
+    jurl: java-code-formatting/
 
-        - title: Comments
-          url: /java-comments/
+  - title: Comments
+    jurl: java-comments/
 
-        - title: Servlet
-          url: java-servlet
+  - title: Servlet
+    url: java-servlet
 
-        - title: Tomcat
-          url: /java-tomcat/
+  - title: Tomcat
+    jurl: java-tomcat/
 
-        - title: Eclipse IDE
-          url: /java-eclipse/
+  - title: Eclipse IDE
+    jurl: java-eclipse/
 
-        - title: Eclipse shortcuts
-          url: /java-eclipse-shortcuts/
+  - title: Eclipse shortcuts
+    jurl: java-eclipse-shortcuts/
 
-        - title: Mercurial
-          url: /java-mercurial/
+  - title: Mercurial
+    jurl: java-mercurial/
 
-        - title: Share files with others
-          url: /java-share-files/
+  - title: Share files with others
+    jurl: java-share-files/
 
-        - title: Enums
-          url: /java-enums/
+  - title: Enums
+    jurl: java-enums/
 
-        - title: Garbage collection
-          url: /java-garbage-collection/
+  - title: Garbage collection
+    jurl: java-garbage-collection/
 
-        - title: Generics
-          url: /java-generics/
+  - title: Generics
+    jurl: java-generics/
 
-        - title: Delegates
-          url: /java-delegates/
+  - title: Delegates
+    jurl: java-delegates/
 
-        - title: "Null"
-          url: /java-null/
+  - title: "Null"
+    jurl: java-null/
 
-        - title: Inner classes
-          url: /java-inner-classes/
+  - title: Inner classes
+    jurl: java-inner-classes/
 
-        - title: Casting
-          url: /java-casting/
+  - title: Casting
+    jurl: java-casting/
 
-        - title: Override
-          url: /java-override/
+  - title: Override
+    jurl: java-override/
 
-        - title: Polymorphism
-          url: /java-polymorphism/
+  - title: Polymorphism
+    jurl: java-polymorphism/
 
-        - title: Static blocks
-          url: /java-static-blocks/
+  - title: Static blocks
+    jurl: java-static-blocks/
 
-        - title: Stub
-          url: /java-stub/
+  - title: Stub
+    jurl: java-stub/
 
-        - title: Swing
-          url: /java-swing/
+  - title: Swing
+    jurl: java-swing/
 
-        - title: Returns
-          url: /java-return/
+  - title: Returns
+    jurl: java-return/
 
-        - title: JAR file
-          url: /java-jar-file/
+  - title: JAR file
+    jurl: java-jar-file/
 
-        - title: Class path
-          url: /java-class-path/
+  - title: Class path
+    jurl: java-class-path/

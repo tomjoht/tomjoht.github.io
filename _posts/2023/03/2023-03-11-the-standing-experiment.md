@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/standing-experiment
 series: "Sitting, standing, and walking"
-jtype: notes_sitting
+sidebar: sidebar_sitting
 description: "In the introduction to this series, <a href='/blog/sitting-standing-walking-introduction/'>Sitting, standing, and walking</a>, I explained a few experiments I've been trying, including treadmill desks, balance boards, and yoga balls. I'm trying to switch between sitting and standing more frequently while working at the computer. In this post, I'll provide some updates on how the experiment is going and what I've learned so far."
 ---
 

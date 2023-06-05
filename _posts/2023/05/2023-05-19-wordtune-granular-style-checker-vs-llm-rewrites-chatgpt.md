@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review of WordTune: Granular style checkers still beat Bard and ChatGPT"
 permalink: /blog/wordtune-granular-style-checker-vs-llm-rewrites-chatgpt
 date: 2023-05-19

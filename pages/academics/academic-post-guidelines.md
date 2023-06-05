@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Guidelines for academic guest posts and podcasts
 permalink: /academic-post-guidelines/
 status: publish

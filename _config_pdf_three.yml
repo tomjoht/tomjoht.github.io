@@ -1,0 +1,64 @@
+section: three
+title: Documenting REST APIs
+subtitle: "III: Documenting API endpoints"
+media: /Users/tomjoht/projects/learnapidoc/images
+# cover: true
+# if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
+cover_image: images/ebook_cover.png
+
+sidebar: docapis
+baseurl: /Users/tomjoht/projects/learnapidoc/_site
+
+language: english
+format: print
+
+destination: _site
+port: 4000
+highlighter: rouge
+exclude:
+  - ebooks
+  - pdf
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  docs:
+    output: true
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: printpdf
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: printpdf
+      published: false
+
+  -
+    scope:
+      path: _docs/pdf_frontmatter
+      type: docs
+    values:
+      layout: printpdf
+      published: true
+  -
+    scope:
+      path: _docs/documenting_api_endpoints
+      type: docs
+    values:
+      layout: printpdf
+      published: true

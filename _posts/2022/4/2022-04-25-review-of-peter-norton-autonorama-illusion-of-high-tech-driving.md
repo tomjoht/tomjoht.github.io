@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/experienceswithoutsmartphone
 description: "Peter Norton's <i><a href='https://www.amazon.com/Autonorama-Illusory-Promise-High-Tech-Driving/dp/1642832405'>Autonorama: The Illusion of High-Tech Driving</a></i> is a must-read for anyone pursuing autonomous vehicles (AVs) as a solution to the problems of transportation mobility. Norton's main argument is that AVs will worsen rather than help transportation issues. "
 series: "Mobility posts"
-jtype: notes_mobility
+sidebar: sidebar_mobility
 ---
 
 ## What's the book's main argument?

@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/changconsc
 series: "Journey away from smartphones"
-jtype: notes_smartphones
+sidebar: sidebar_smartphones
 description: "This post continues my series about how to regain long-form concentration. Although Csikszentmihalyi says the brain's natural state &mdash; when left alone without any focused attention &mdash; gravitates toward entropy and chaos (more commonly referred to as <i>monkey mind</i>), I'm not sure I want to agree. In this post, I ask how and why consciousness becomes disordered in the first place (why we have a monkey mind), and how we might change that natural state. In my experience, infinite-scrolling the web and filling my mind with a high-intensity of randomness creates different brain patterns than reading a book. (Note: Admittedly, in this post, I go off the deep end a bit.)"
 redirect_from:
 - /blog/from-monkey-mind-to-calm-consciousness.html

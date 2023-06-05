@@ -7,7 +7,7 @@ categories:
 keywords: big picture, systems view
 rebrandly: https://idbwrtng.com/
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "In this post, I continue the series on systems thinking and tech comm, describing my experience in writing a documentation project plan for a large project involving multiple APIs. I argue that we should look at how APIs interact as a network rather than just documenting each API as a standalone part."
 ---
 

@@ -5,7 +5,7 @@ categories:
 keywords:
 description: ""
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/userprocesscomplexthumb.png
-jtype: notes_visualcommunication
+sidebar: sidebar_visualcommunication
 published: false
 ---
 

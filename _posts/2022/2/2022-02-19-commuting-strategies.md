@@ -1,6 +1,7 @@
 ---
 title: "My multimodal commuting strategies"
 permalink: /blog/multimodal-commuting-strategies.html
+sidebar: mobility
 categories:
 - technical-writing
 keywords:

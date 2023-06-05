@@ -1,35 +1,35 @@
-# Sidebar
-entries:
-- title: Sidebar
-  subcategories:
-    - title: My DITA Journey
-      items:
-        - title: My DITA journey begins
-          url: /2014/04/16/my-dita-journey-begins/
+sidebartitle: My DITA Journey 
+folders:
+- title: "Pages in this series"
+  section: one
+  class: first
+  folderitems:
+  - title: My DITA journey begins
+    jurl: 2014/04/16/my-dita-journey-begins/
 
-        - title: "DITA: Folder hierarchy, conref, mapref, and more"
-          url: /2014/04/22/dita-folder-hierarchy-conref-mapref-and-more/
+  - title: "DITA: Folder hierarchy, conref, mapref, and more"
+    jurl: 2014/04/22/dita-folder-hierarchy-conref-mapref-and-more/
 
-        - title: "DITA: Why DITA, metadata, working in code and author views, and relationship tables"
-          url: /2014/04/25/why-use-dita-relationship-tables-working-in-code-and-author-views/
+  - title: "DITA: Why DITA, metadata, working in code and author views, and relationship tables"
+    jurl: 2014/04/25/why-use-dita-relationship-tables-working-in-code-and-author-views/
 
-        - title: DITA hierarchical links, related links, short descriptions, and one-folder organization
-          url: /2014/05/01/dita-files-reuse/
+  - title: DITA hierarchical links, related links, short descriptions, and one-folder organization
+    jurl: 2014/05/01/dita-files-reuse/
 
-        - title: "DITA: Limitations with the chunk=\"to-content\" attribute in relationship tables"
-          url: /2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/
+  - title: "DITA: Limitations with the chunk=\"to-content\" attribute in relationship tables"
+    jurl: 2014/05/02/dita-limitations-with-the-chunkto-content-attribute-in-relationship-tables/
 
-        - title: "DITA: Nested subheadings and the concept element"
-          url: /2014/05/08/dita-workarounds-to-nested-subheadings-and-the-concept-element/
+  - title: "DITA: Nested subheadings and the concept element"
+    jurl: 2014/05/08/dita-workarounds-to-nested-subheadings-and-the-concept-element/
 
-        - title: Complex tools versus simple tools
-          url: /2014/05/10/complex-tools-versus-simple-tools/
+  - title: Complex tools versus simple tools
+    jurl: 2014/05/10/complex-tools-versus-simple-tools/
 
-        - title: What does DITA-structured help look like?
-          url: /2014/05/15/what-does-dita-structured-help-look-like/
+  - title: What does DITA-structured help look like?
+    jurl: 2014/05/15/what-does-dita-structured-help-look-like/
 
-        - title: Content Re-use is so much better with DITA (and esp. with OxygenXML)
-          url: /2014/06/29/content-re-use-is-so-much-better-with-dita-and-esp-with-oxygenxml/
+  - title: Content Re-use is so much better with DITA (and esp. with OxygenXML)
+    jurl: 2014/06/29/content-re-use-is-so-much-better-with-dita-and-esp-with-oxygenxml/
 
-        - title: 10 reasons for moving away from DITA
-          url: /2015/01/28/10-reasons-for-moving-away-from-dita/
+  - title: 10 reasons for moving away from DITA
+    jurl: 2015/01/28/10-reasons-for-moving-away-from-dita/

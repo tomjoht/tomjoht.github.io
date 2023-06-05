@@ -10,7 +10,7 @@ rebrandly: https://idratherbewriting.site/evalsurveydatalayoffseries
 weight: 7
 tags: series_layoff_reflections
 series: "Reflecting seven years later about why we were laid off"
-jtype: notes_layoff_reflections
+sidebar: sidebar_layoff_reflections
 ---
 
 {% include series/seriesLayoffReflections.html %}

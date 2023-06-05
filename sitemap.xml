@@ -2,18 +2,10 @@
 layout: none
 ---
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  {% for page in site.pages %}
+  {% for doc in site.docs %}
   <url>
     <loc>
-      {{page.url | prepend: "https://idratherbewriting.com"}}
-    </loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-  </url>
-  {% endfor %}
-  {% for post in site.posts %}
-  <url>
-    <loc>
-      {{post.url | prepend: "https://idratherbewriting.com"}}
+      {{doc.url | prepend: "https://idratherbewriting.com/learnapidoc"}}
     </loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   </url>

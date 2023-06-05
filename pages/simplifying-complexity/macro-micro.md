@@ -1,7 +1,7 @@
 ---
 title: "Principle 1: Let users switch between macro and micro views"
 permalink: /simplifying-complexity/macro-micro.html
-jtype: notes_simplifying_complexity
+sidebar: sidebar_simplifying_complexity
 description: "To help users navigate a complex system, provide a way for users to switch between macro and micro views of the system. One of the easiest techniques to enable this view switching is to embed a map (at the top of each relevant topic) that shows the path to achieving a goal."
 ---
 

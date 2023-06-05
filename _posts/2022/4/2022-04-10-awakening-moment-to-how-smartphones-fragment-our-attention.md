@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/smartphoneawakening
 description: "I recently realized that absorbing the constant inflow of information from my smartphone, always readily available in my pocket to capture any free moment of attention, had fragmented my attention span."
 series: "Journey away from smartphones"
-jtype: notes_smartphones
+sidebar: sidebar_smartphones
 ---
 
 ## Recognizing a problem

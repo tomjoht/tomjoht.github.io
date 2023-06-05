@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/suddenlyclassicalmusic
 description: "It's been 2-3 weeks now without my smartphone, and I wanted to jot down a few notes on how it's going. This entry is more like an informal journal log about what I'm observing."
 series: "Journey away from smartphones"
-jtype: notes_smartphones
+sidebar: sidebar_smartphones
 ---
 
 ## More context

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to find academic research to back up your tech comm decisions"
 permalink: /blog/how-to-find-academic-research-tech-comm
 date: 2023-05-19

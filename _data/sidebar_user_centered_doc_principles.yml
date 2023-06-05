@@ -1,70 +1,72 @@
-entries:
-- title: Sidebar
-  subcategories:
-    - title: User-centered documentation principles
-      items:
-        - title: Overview
-          url: /ucd-introduction/
+sidebartitle: User-centered documentation principles
+folders:
+- title: "Pages in this series"
+  jurl: /ucd-introduction/
+  section: one
+  class: first
+  folderitems:
+  - title: Overview
+    url: /ucd-introduction/
 
-        - title: Readability
-          url: /ucd-readability/
+  - title: Readability
+    url: /ucd-readability/
 
-        - title: Legibility
-          url: /ucd-legibility/
+  - title: Legibility
+    url: /ucd-legibility/
 
-        - title: Signal-to-Noise Ratio
-          url: /ucd-signal-to-noise-ratio/
+  - title: Signal-to-Noise Ratio
+    url: /ucd-signal-to-noise-ratio/
 
-        - title: Picture Superiority Effect
-          url: /ucd-picture-superiority-effect/
+  - title: Picture Superiority Effect
+    url: /ucd-picture-superiority-effect/
 
-        - title: Performance Load
-          url: /ucd-performance-load/
+  - title: Performance Load
+    url: /ucd-performance-load/
 
-        - title: Personas
-          url: /ucd-personas/
+  - title: Personas
+    url: /ucd-personas/
 
-        - title: Normal Distribution
-          url: /ucd-normal-distribution/
+  - title: Normal Distribution
+    url: /ucd-normal-distribution/
 
-        - title: Design by Committee
-          url: /ucd-design-by-committee/
+  - title: Design by Committee
+    url: /ucd-design-by-committee/
 
-        - title: Depth of Processing
-          url: /ucd-depth-of-processing/
+  - title: Depth of Processing
+    url: /ucd-depth-of-processing/
 
-        - title: Iteration
-          url: /ucd-iteration/
+  - title: Iteration
+    url: /ucd-iteration/
 
-        - title: Modularity
-          url: /ucd-modularity/
+  - title: Modularity
+    url: /ucd-modularity/
 
-        - title: Hierarchy
-          url: /ucd-hierarchy/
+  - title: Hierarchy
+    url: /ucd-hierarchy/
 
-        - title: Five Hat Racks
-          url: /ucd-five-hat-racks/
+  - title: Five Hat Racks
+    url: /ucd-five-hat-racks/
 
-        - title: Progressive Disclosure
-          url: /ucd-progressive-disclosure/
+  - title: Progressive Disclosure
+    url: /ucd-progressive-disclosure/
 
-        - title: Entry Point
-          url: /ucd-entry-point/
+  - title: Entry Point
+    url: /ucd-entry-point/
 
-        - title: Desire Line
-          url: /ucd-desire-line/
+  - title: Desire Line
+    url: /ucd-desire-line/
 
-        - title: Wayfinding
-          url: /ucd-wayfinding/
+  - title: Wayfinding
+    url: /ucd-wayfinding/
 
-        - title: Immersion
-          url: /ucd-immersion/
+  - title: Immersion
+    url: /ucd-immersion/
 
-        - title: Consistency
-          url: /ucd-consistency/
+  - title: Consistency
+    url: /ucd-consistency/
 
-        - title: Forgiveness
-          url: /ucd-forgiveness/
+  - title: Forgiveness
+    url: /ucd-forgiveness/
 
-        - title: Conclusion
-          url: /ucd-conclusion/
+  - title: Conclusion
+    url: /ucd-conclusion/

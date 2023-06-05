@@ -8,7 +8,7 @@ keywords: introduction
 rebrandly: https://idbwrtng.com/trendsseriesintro
 description: "In this series on trends to follow or forget, I look at about 15 different trends that I've explored in my career as a technical writer. I divided up the content into individual articles to facilitate easier navigation and browsing."
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 ---
 
 About a month ago, an organizer for the [STC India 2022 conference](https://stc-india.org/conferences/2022/) reached out to see if I would present about trends at their upcoming conference. I wasn't so eager to present on trends given that I'd already focused on this topic so much. For example, I presented on trends and innovation in my [2015 tcworld India keynote](/2015/03/18/recording-of-innovation-in-technical-communication-keynote-at-tcworld-india-2015/). And in late 2020 I published a [comprehensive trends analysis within developer documentation](/learnapidoc/docapis_trends.html). Additionally, other than the trend of WFH and remote work, I wasn't aware of any major trends brewing on the horizon (maybe the metaverse, or permanent WFH?). So I instead decided to pitch the idea of a presentation on *trends that failed*.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Newsletter: GPT-4 tutors, Phind.com, Dark user manuals, interfaces for reading docs, automation scripts, and bball"
 permalink: /blog/tutors-phind-dark-manuals-interfaces-automation
 date: 2023-04-17

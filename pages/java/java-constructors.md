@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Constructors'
 permalink: /java-constructors/
 date: 2015-01-01 19:38:42.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

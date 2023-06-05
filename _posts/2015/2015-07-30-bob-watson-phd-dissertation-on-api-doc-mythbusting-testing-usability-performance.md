@@ -6,7 +6,7 @@ categories:
 keywords: bob watson, api usability, reference docs, design, performance, relevance, usability, testing, mythbusting
 tags: [series_testing_documentation]
 series: Testing your documentation
-jtype: notes_testing_documentation
+sidebar: sidebar_testing_documentation
 weight: 1.6
 description: "Bob Watson recently finished a PhD with research that examined how the design and content of API reference docs affects the user's performance. In this podcast, I talk with Bob about his findings and his other research interests, primarily around goal testing to measure documentation's effectiveness."
 image: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/thumbnails/microphone.png

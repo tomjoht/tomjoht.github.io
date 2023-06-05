@@ -1,0 +1,272 @@
+---
+layout: slides
+slide_title: "OpenAPI and Swagger"
+---
+
+    <body>
+        <div class="reveal innovation">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+        <section>
+            <h1>{{page.slide_title}}</h1>
+            <p>
+                <small>By Tom Johnson / <a target="_blank" href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                <a target="_blank" href="https://idratherbewriting.com">idratherbewriting.com</a></small><br/><br/>
+            <p><small>Slides available at <br/><a target="_blank" href="https://idratherbewriting.com//learnapidoc/slides/openapi_and_swagger.html">idratherbewriting.com//learnapidoc/slides/openapi_and_swagger.html</a></small></p>
+            </p>
+        </section>
+
+        <section>
+          <h2>Engineers want to push buttons</h2>
+          <img src="{{site.media}}/swagger-openapi-pres_whatengineerswant.svg"/>
+        </section>
+
+        <section>
+          <h2>Designing for opportunistic behavior</h2>
+          <blockquote>"...opportunistic developers in our test started the first task with some example code from the documentation which they then modified and extended. Once a task was completed, the piece of code that solved the task was used as starting point for the next task.... Developers in this group worked in a highly task-driven manner, but also tried things that were not related to the task, but possibly helped them to build a broader understanding of the API in passing." &mdash; <a href="https://idratherbewriting.com/2019/03/07/how-to-design-api-documentation-for-opportunistic-behavior/#study-on-how-developers-use-api-docs">Meng et al</a></blockquote>
+          </section>
+
+          </section>
+
+        <section>
+          <h2>Interactivity enhances learning</h2>
+          <img src="{{site.media}}/swagger-openapi-pres_interactivity.svg"/>
+        </section>
+
+        <section>
+          <h2>Swagger UI Petstore Demo</h2>
+          <a href="http://petstore.swagger.io/"><img src="{{site.media}}/swaggerpetstore.png"/></a>
+        </section>
+
+        <section>
+          <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 4a: Explore Swagger UI through the Petstore Demo</h3>
+          <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+
+        </section>
+
+        <section>
+          <h2>The OpenAPI standard for REST APIs</h2>
+          <img src="{{site.media}}/swagger-openapi-pres_openapiinitiative.svg"/>
+<aside class="notes">
+          <ul>
+            <li>Think of it like DITA for web API information</li>
+            <li>"OpenAPI" refers to spec, "Swagger" to tooling</li>
+          </ul>
+        </aside>
+        </section>
+
+
+        <section>
+          <h2>Objects in OpenAPI spec</h2>
+<style>
+ul.narrow li {
+  margin-top:3px;
+  margin-bottom: 3px;
+  padding: 2px 0px;
+}
+</style>
+          <ul class="narrow">
+            <li><code>openapi</code></li>
+            <li><code>info</code></li>
+            <li><code>servers</code></li>
+            <li><code>paths</code></li>
+            <li><code>components</code></li>
+            <li><code>security</code></li>
+            <li><code>tags</code></li>
+            <li><code>externalDocs</code></li>
+            </ul>
+
+            <p><small><a href="https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml">Petstore sample spec</a> | <a href="https://github.com/OAI/OpenAPI-Specification">Spec reference</a></small></p>
+
+        </section>
+
+        <section>
+          <h2>OpenAPI spec at a glance</h2>
+          <pre><code>
+paths:
+  /pets:
+    get:
+      summary: List all pets
+      operationId: listPets
+      tags:
+        - pets
+      parameters:
+        - name: limit
+          in: query
+          description: How many items to return at one time (max 100)
+          required: false
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: An paged array of pets
+          headers:
+            x-next:
+              description: A link to the next page of responses
+              schema:
+                type: string
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+            </code></pre>
+          </section>
+
+          <section>
+            <h2>YAML syntax</h2>
+            <a href="http://yaml.org/"><img src="{{site.media}}/yamlscreenshot.png" /></a>
+          </section>
+
+          <section>
+            <h2>Swagger Editor</h2>
+            <a href="https://editor.swagger.io/"><img src="{{site.media}}/swaggereditor.png"/></a>
+          </section>
+
+          <section>
+            <h2>Stoplight Studio - A GUI Editor</h2>
+            <a href="https://stoplight.io/studio/"><img src="{{site.media}}/stoplightstudioeditor.png"/></a>
+            </section>
+
+            <section>
+              <h2>Spec-first development philosophy</h2>
+              <a href="https://www.amazon.com/gp/product/B0125TOLNU?keywords=undisturbed%20rest%20michael%20stowe&qid=1444665700"><img src="{{site.media}}/spec_driven_development.jpg"/></a>
+            </section>
+
+            <section>
+              <h2>Spec uses extend beyond docs</h2>
+              <img src="{{site.media}}/swagger-openapi-pres_openapihub.svg" />
+              <aside class="notes">
+              <p>The spec can drive prototyping, testing, SDK generation, and more</p>
+            </aside>
+            </section>
+
+              <section>
+                <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 4b: Create an OpenAPI specification using Stoplight Studio</h3>
+                <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+              </section>
+
+        <section>
+          <h2>Forms simplify authoring</h2>
+          <img src="{{site.media}}/swagger-openapi-pres_openapiasform.svg" />
+          <aside class="notes">
+          <ul>
+            <li>A form to complete &mdash; perfect for both engineers writing docs and tech writers</li>
+            <li>No guesswork about names, arrangement, templates</li>
+          </ul>
+        </aside>
+        </section>
+
+        <section>
+          <h2>Specs standardize terms</h2>
+          <img src="{{site.media}}/swagger-openapi-pres_apiterminology.svg" />
+        </section>
+
+        <section>
+          <h2>Tools to render the spec</h2>
+          <img src="{{site.media}}/swagger-openapi-pres_toolstoprocessspec.svg"/>
+        </section>
+
+
+        <section>
+          <h2>Redoc</h2>
+          <a href="https://redocly.github.io/redoc/"><img src="{{site.media}}/redocdemo.png"/></a>
+        </section>
+
+        <section>
+          <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 4c: Create a Redoc display</h3>
+          <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+
+        </section>
+
+        <section>
+          <h2>Swagger UI</h2>
+          <a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/#"><img src="{{site.media}}/swaggeruidemo.png"/></a>
+        </section>
+
+        <section>
+          <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 4d: Create a Swagger UI display</h3>
+          <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+        </section>
+
+<!--
+        <section>
+          <h2>SwaggerHub</h2>
+          <figure><a href="https://app.swaggerhub.com/apis-docs/IdRatherBeWriting/open-weather_map_api/2.5.2"><img src="{{site.media}}/swaggerhubdemo.png"/></a><figcaption><small>Demo: <a href="https://app.swaggerhub.com/apis-docs/IdRatherBeWriting/open-weather_map_api/2.5.2">OpenWeatherMap</a></figcaption></figure>
+        </section> -->
+
+        <section>
+          <h2>Readme</h2>
+          <figure><a href="https://apitest.readme.com/docs"><img src="{{site.media}}/readmedemo.png"/></a>
+<figcaption><small>Demo: <a href="https://developer.mixpanel.com/docs">MixPanel API</a></small></figcaption></figure>
+        </section>
+
+        <section>
+          <h2>DeveloperHub.io</h2>
+          <figure><a href="https://docs.developerhub.io/"><img src="{{site.media}}/developerhubscreenshot2.png"/></a>
+<figcaption><small>Demo: <a href="https://docs.developerhub.io/">Dev Hub Help</a></small></figcaption></figure>
+        </section>
+
+        <section>
+            <h2>Integration challenges</h2>
+            <img src="{{site.media}}/publishing-apis_integrationproblem.svg"/>
+            <aside class="notes">
+            <p>Need to combine API reference docs with <br/>conceptual content</p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>Questions?</h2>
+            <img src="{{site.media}}/questions-01.svg"/>
+        </section>
+        <!-- <section>
+            <h1>The end</h1>
+            <div>
+            <div style="float:left; padding: 10px;">
+                <img src="{{site.media}}/tomjohnson.jpg"/>
+            </div>
+            <div style="float:left; padding: 10px; text-align: left;">
+                <p><span class="myname">Tom Johnson</span><br/>
+                    &mdash; <a target="_blank" href="https://idratherbewriting.com">idratherbewriting.com</a><br/>
+                    &mdash;  <a target="_blank" href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+                    &mdash; <a target="_blank" href="mailto:tomjoht@gmail.com">tomjoht@gmail.com</a>
+                </p>
+            </div>
+        </section> -->
+        <!-- <section>
+          <h2>Image Credits</h2>
+          <p><small>Some graphics by: <a href="https://www.vecteezy.com">Vecteezy.com</a></a>.</small></p>
+        </section> -->
+      </div>
+
+      </div>
+
+      <script src="dist/reveal.js"></script>
+      <script src="plugin/zoom/zoom.js"></script>
+      <script src="plugin/notes/notes.js"></script>
+      <script src="plugin/search/search.js"></script>
+      <script src="plugin/markdown/markdown.js"></script>
+      <script src="plugin/highlight/highlight.js"></script>
+      <script>
+
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          center: true,
+          hash: true,
+
+          // Learn about plugins: https://revealjs.com/plugins/
+          plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+        });
+
+      </script>
+
+    </body>

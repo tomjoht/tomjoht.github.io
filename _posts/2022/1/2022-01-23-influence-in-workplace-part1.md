@@ -9,7 +9,7 @@ description: "This is a multi-post series exploring a hypothesis about influence
 weight: 1
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
-jtype: notes_workplace_influence
+sidebar: sidebar_workplace_influence
 date: 2022-01-23 01:00:000000000 -07:00
 ---
 

@@ -7,7 +7,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/basketballstrategies
 description: "Because it's NBA championship finals time, I thought it might be fun to write a basketball-themed post focusing on basketball strategies that succeeded or failed, and how any of these strategies might apply to technical writing. Beyond the specifics of any particular strategy, the larger application to tech comm is to simply formulate a strategy, to think strategically about how to \"win\" at technical writing. With that, let's jump into five basketball strategies."
-jtype: notes_basketball
+sidebar: sidebar_basketball
 ---
 
 

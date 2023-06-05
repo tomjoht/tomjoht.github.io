@@ -5,7 +5,7 @@ categories:
 - biking
 keywords:
 hidden: true
-jtype: notes_biking
+sidebar: sidebar_biking
 ---
 
 It's been far too long since I've made a personal entry in my [family category](https://idratherbewriting.com/category-family/). Like, years too long. I hope to course correct a bit more here and publish more often in this category.

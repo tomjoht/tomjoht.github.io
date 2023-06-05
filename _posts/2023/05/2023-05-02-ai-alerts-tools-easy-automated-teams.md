@@ -1,6 +1,4 @@
 ---
-#layout: newsletter
-layout: post
 title: "Newsletter: AI doc alerts, state of tools, saying easy or just, automated writing teams"
 permalink: /blog/ai-alerts-tools-easy-automated-teams
 date: 2023-05-02

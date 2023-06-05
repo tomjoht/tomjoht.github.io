@@ -1,0 +1,9 @@
+{% unless site.format == "print" %}
+<script>
+$( document ).ready(function() {
+        $('.box{{include.step}}').addClass('active');
+        });
+</script>
+
+{% include {{include.map}} %}
+{% endunless %}

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What’s missing from the AI workflow: incentives for content creators to provide training data"
 permalink: /blog/content-creators-need-roi-from-ai
 date: 2023-05-04

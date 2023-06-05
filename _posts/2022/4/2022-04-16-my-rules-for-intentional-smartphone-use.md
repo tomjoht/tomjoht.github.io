@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/rulesforsmartphoneuse
 description: "In my last post, I described my <a href='/blog/awakening-moment-to-how-smartphones-fragment-our-attention'>awakening about how my smartphone had fragmented my attention span</a>, and I explained my goal to recapture my long-form concentration. This post builds on the previous to explore more specifics about intentional smartphone use."
 series: "Journey away from smartphones"
-jtype: notes_smartphones
+sidebar: sidebar_smartphones
 ---
 
 ## What intentionality means

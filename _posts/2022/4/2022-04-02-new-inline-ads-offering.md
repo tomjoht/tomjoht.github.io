@@ -5,7 +5,7 @@ categories:
 - technical-writing
 keywords:
 rebrandly: https://idbwrtng.com/inlineads
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "I updated my advertising options a bit and am now offering inline ads."
 ---
 

@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/trends-writinglifeofasomething
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "In this post, I describe an attempt at horizontal writing and what I learned from it. I was surprised to be struck with a kind of reverent awe for the complexity that this horizontal view revealed."
 redirect_from:
 - /2022/09/30/2022-09-23-first-attempt-at-life-of-narrative/

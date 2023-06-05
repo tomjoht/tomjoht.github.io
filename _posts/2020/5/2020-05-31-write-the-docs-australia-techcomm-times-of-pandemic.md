@@ -14,7 +14,7 @@ podcast_file_size: "117.5 MB"
 podcast_duration: "01:10:47"
 podcast_length: "101924081"
 transcript: "transcripts/2020-05-31-write-the-docs-australia-techcomm-times-of-pandemic.html"
-jtype: notes_pandemic
+sidebar: sidebar_pandemic
 ---
 
 ## Watch the event

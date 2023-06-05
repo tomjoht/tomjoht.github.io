@@ -3,7 +3,7 @@ title: "Principle 4: Reduce and distill vast information down to its essence"
 permalink: /simplifying-complexity/reduction-layering-distillation.html
 redirect_from:
  - /simplifying-complexity/reduction-as-a-form-of-simplicity.html
-jtype: notes_simplifying_complexity
+sidebar: sidebar_simplifying_complexity
 description: "Layering information on your site (reducing it in places and expanding it in others) can help simplify complex topics. Also, distilling large amounts of information into concisely worded titles, summaries, headings, mini-TOCs, and topic sentences can facilitate information consumption and comprehension. Quick reference guides can also help users internalize vast information quickly. When you can't reduce information, you can hide it."
 ---
 

@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/readinglongdocs
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "Long, high-level conceptual docs don't command the same reading attention as task-based docs. How do you pull a reader through a long doc when the payoff isn't a completed task, but merely greater understanding?"
 ---
 

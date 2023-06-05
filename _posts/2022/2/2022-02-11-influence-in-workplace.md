@@ -9,7 +9,7 @@ description: "Despite the failure of these doc reports and meeting notes formats
 weight: 6
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
-jtype: notes_workplace_influence
+sidebar: sidebar_workplace_influence
 redirect_from:
 - https://idratherbewriting.com/web-and-workplace-influence/part4-newsletter-content-medium.html
 ---

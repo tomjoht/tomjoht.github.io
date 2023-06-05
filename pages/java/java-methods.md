@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Methods'
 permalink: /java-methods/
 date: 2015-01-01 20:08:45.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

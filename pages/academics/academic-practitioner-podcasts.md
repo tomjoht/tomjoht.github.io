@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Academic/practitioner podcasts
 permalink: /academic-practitioner-podcasts/
 status: publish

@@ -26,7 +26,6 @@ mkdir -p _posts/$YEAR/$MONTH
 # Create the file with YAML frontmatter
 cat > _posts/$YEAR/$MONTH/$DATE-$SLUG.md <<EOL
 ---
-layout: post
 title: "$TITLE"
 permalink: /blog/$SLUG
 date: $DATE

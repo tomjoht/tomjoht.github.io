@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/macbeth-and-musk
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "In my previous post, <a href='/trends/reading-long-documents.html'>Pulling readers through long documents</a>, I explained that almost no one will read long documents, in my experience. It seems only task-based information demands enough payoff to make reading worth it to users. In this post, I'll explore a couple of examples where high-level information is essential and used, but in another light. The two examples are Macbeth and Elon Musk."
 ---
 

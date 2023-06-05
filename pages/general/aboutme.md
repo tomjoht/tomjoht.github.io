@@ -1,15 +1,9 @@
 ---
-layout: page
 title: Tom Johnson
 permalink: /aboutme/
-categories: []
-tags: []
-status: publish
-type: page
-published: true
 ---
 
-<figure><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area." width="170" class="alignright" /></figure>
+<figure style="width: 170px; float: right; margin-left: 15px;"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/tomjohnson_small.jpg" alt="Hi, I&#039;m Tom Johnson, a technical writer in the Seattle, Washington area."/><figcaption>Hi, I&#039;m Tom Johnson, a technical writer based in Seattle</figcaption></figure>
 
 In case you'd like to know a little bit about me, I'm a technical writer currently based in Seattle, working for Google. (Previously, I was at Amazon and a couple of startups in the Bay area.)
 
@@ -29,13 +23,14 @@ One of the most popular parts of my site is the [API documentation course](/lear
 
 ## Were You Always a Technical Writer?
 
-Like most technical writers, I stumbled into technical writing after working in other fields. I originally taught writing for a couple of years at The American University in Cairo (Egypt), and then I worked as a copywriter in Florida.
+Like most technical writers, I stumbled into technical writing after working in other fields. I originally taught writing for a couple of years at The American University in Cairo (Egypt), and then I worked briefly as a copywriter in Florida.
 
 After a while, I realized I needed more money to support my family, so I turned to technical writing and started working for a financial company, Raymond James. To my surprise, I found that I actually liked technical writing &mdash; a lot more than copywriting. Technical writing combines my love for writing with my fascination for technology.
 
-I worked at Raymond James for a couple of years before heading out west to Utah, where I worked for the government, a non-profit organization in Utah, and then moved to California to work for various startups, including Badgeville, 41st Parameter (Experian), and Amazon. After a while, I left California and moved to Washington to work for Google.
+I worked at Raymond James for a couple of years before heading out west to Utah, where I worked first for the government, then a non-profit organization in Utah (for 5 years), and then moved to California to work for various startups, including Badgeville, 41st Parameter (Experian), and Amazon for a combined total of 8 years. After 8 years in California, we moved to Seattle, Washington, and I started working for Google in late 2020 to present day. 
 
-_By the way, the views on my blog are my own and do not represent those of my employer._
+{: .note}
+By the way, the views on my blog are my own and do not represent those of my employer.
 
 ## What's Your Educational Background?
 
@@ -55,7 +50,7 @@ We like to explore different places, such as this old log cabin in the Redwoods.
 
 ![Tom Johnson, log cabin in Redwoods](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/log_cabin.jpg)
 
-I met my wife Shannon at BYU in the Writing Fellows program &mdash; she was an English major too. (In case you're curious, we used to be Mormon, but now we are not.)
+I met my wife Shannon at BYU in the Writing Fellows program &mdash; she was an English major too. (In case you're curious, we used to be Mormon, but we no longer are.)
 
 ## What else should I know about you?
 
@@ -83,4 +78,4 @@ When I write, I like to explore outside the boundaries of conventional thought a
 
 ## How Do I Contact You?
 
-If you have a question for me, or just want to drop me a line, you can contact me through my [Contact page](https://idratherbewriting.com/contact/). However, for most questions, you'll get a much better response by asking them in the [Write the Docs Slack](https://www.writethedocs.org/slack/).
+If you have a question for me, or just want to drop me a line, you can contact me through my [Contact page](/contact/). However, for most questions, you'll get a much better response by asking them in the [Write the Docs Slack](https://www.writethedocs.org/slack/).

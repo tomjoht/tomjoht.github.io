@@ -1,0 +1,416 @@
+---
+layout: slides
+slide_title: "Conceptual content in API docs"
+---
+    <body>
+        <div class="reveal innovation">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+        <section>
+            <h1>{{page.slide_title}}</h1>
+            <p>
+                <small>By Tom Johnson / <a target="_blank" href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                <a target="_blank" href="https://idratherbewriting.com">idratherbewriting.com</a></small><br/><br/>
+            <p><small>Slides available at <br/><a target="_blank" href="https://idratherbewriting.com/learnapidoc/slides/conceptual_content_api_docs.html">idratherbewriting.com/learnapidoc/slides/conceptual_content_api_docs.html</a></small></p>
+            </p>
+
+            <aside class="notes">
+              <ul>
+                <li>Not sure what to call this info: Conceptual information, Tutorials, How-to guides, Programming guides, Administratrive information, Developer portal, User guide, Guides </li>
+                <li>if there are divisions of responsibilities, tech writers typically handle this type of content more</li>
+                <li>there's a whole lot of other topics related to APIs that i won't cover, so see the other presentations for that.</li>
+              </ul>
+            </aside>
+
+        </section>
+        <section>
+            <h2>7 conceptual topics to cover</h2>
+            <ol>
+                <li>Product overview</li>
+                <li>Getting started</li>
+                <li>Authentication and authorization</li>
+                <li>Status and error codes</li>
+                <li>Rate limiting and thresholds</li>
+                <li>Quick reference</li>
+                <li>SDKs (software development kits)</li>
+              </ol>
+
+        </section>
+
+        <section>
+          <h2>Activity 6a: Judge conceptual content and decide which is best</h2>
+          <p>Evaluate why &mdash; <i>use inductive reasoning</i></p>
+          <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+          </section>
+
+        <section>
+          <h2>Product overview</h2>
+          <section>
+          <img src="{{site.media}}/nonref_overview.svg"/>
+        </section>
+
+        <section>
+          <h3>Addressing the "why"</h3>
+          <blockquote>"Startups fail when they are not solving a market problem. We were not solving a large enough problem that we could universally serve with a scalable solution. We had great technology, great data ..., great reputation as a thought leader, great expertise, great advisors, etc, but what we didn’t have was technology or business model that solved a pain point in a scalable way." &mdash; <small>Treehouse Logic, <a href="https://www.cbinsights.com/research/startup-failure-reasons-top/">The Top 20 Reasons Startups Fail</a></small></blockquote>
+        </section>
+
+            <section>
+              <h3>Example 1: Spotify</h3>
+              <a href="https://developer.spotify.com/documentation/web-api/"><img src="{{site.media}}/spotifyoverview2.png"/></a>
+            </section>
+
+          <section>
+            <h3>Example 2: Hootsuite</h3>
+            <a href="https://developer.hootsuite.com/docs/the-hootsuite-platform"><img src="{{site.media}}/hootsuite.png"/></a>
+          </section>
+
+          <section>
+            <h3>Example 3: Watson Assistant</h3>
+            <a href="https://cloud.ibm.com/docs/services/assistant?topic=assistant-index#index"><img src="{{site.media}}/ibmcloudoverview.png"/></a>
+          </section>
+
+<section>
+  <h3>Key principles</h3>
+  <ul>
+    <li>Don't assume everyone already knows the who, what, why, where, and how of your API</li>
+    <li>Provide high-level details about workflows, authentication, endpoints, etc. </li>
+    <li>Link to your Getting Started topic</li>
+  </ul>
+  </section>
+
+        </section>
+
+        <section>
+          <h2>API getting started</h2>
+          <section>
+          <img src="{{site.media}}/nonref_gettingstarted.svg"/></a>
+        </section>
+
+        <section><h3>Compare with Hello World tutorials</h3>
+        <img src="{{site.media}}/timetohelloworld.svg" />
+      </section>
+
+        <section>
+          <h3>Example 1: Mailchimp</h3>
+          <a href="https://mailchimp.com/developer/guides/get-started-with-mailchimp-api-3/"><img src="{{site.media}}/mailchimpapistarting.png"/></a>
+        </section>
+        <section>
+          <h3>Example 2: Paypal</h3>
+          <a href="https://developer.paypal.com/docs/api/overview/"><img src="{{site.media}}/paypalgetstarted.png"/></a>
+        </section>
+        <section>
+          <h3>Example 3: Google</h3>
+          <a href="https://developers.google.com/adsense/management/getting_started"><img src="{{site.media}}/adsensegettingstarted.png"/></a>
+        </section>
+        <section>
+          <h3>Key principles</h3>
+          <ul>
+            <li>Define the simplest possible end-to-end steps to get started &mdash; link out to more details</li>
+            <li>Simplify account setup or other required assets or configurations</li>
+          </ul>
+          </section>
+
+      <!-- <section>
+        <h3>Example 3: Twitter example</h3>
+        <a href="https://developer.twitter.com/en/docs/basics/getting-started"><img src="{{site.media}}/twittergettingstarted.png"/></a>
+      </section> -->
+        <section>
+          <h3>Tip: Use Run in Postman</h3>
+          <a target="_blank" href="https://www.getpostman.com/api-network/"><img src="{{site.media}}/postmanapinetwork.png"/></a>
+<div style="clearfix"></div>
+  <div class="postman-run-button"
+  data-postman-action="collection/import"
+  data-postman-var-1="d1b7adeb50d95d9851e7"></div>
+  <script type="text/javascript">
+    (function (p,o,s,t,m,a,n) {
+      !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+      !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+        (n = o.createElement("script")),
+        (n.id = s+t), (n.async = 1), (n.src = m), n
+      ));
+    }(window, document, "\_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+  </script>
+        </section>
+      </section>
+
+      <section>
+        <h2>API authentication and authorization</h2>
+        <section>
+        <img src="{{site.media}}/nonref_authentication.svg"/>
+      </section>
+      <section>
+        <h3>API Key</h3>
+        <img class="shortened450" src="{{site.media}}/nonref-docs-preso_apikey.svg"/></a><figcaption>
+      </section>
+
+      <section>
+        <h3>HMAC</h3>
+        <img class="shortened450" src="{{site.media}}/restapi_hmac.svg"/>
+      </section>
+
+      <section>
+        <h3>OAuth</h3>
+        <img class="shortened450" src="{{site.media}}/restapi_oauth.svg"/>
+      </section>
+        <section>
+          <h3>Example 1: Sendgrid</h3>
+          <a href="https://sendgrid.com/docs/User_Guide/Settings/api_keys.html"><img src="{{site.media}}/sendgrid_authorization.png"/></a>
+        </section>
+
+        <section>
+          <h3>Example 2: Twitter</h3>
+          <a href="https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"><img src="{{site.media}}/twitter_authentication.png"/></a>
+        </section>
+
+        <section>
+          <h3>Example 3: AWS</h3>
+          <a href="https://docs.aws.amazon.com/AWSECommerceService/latest/DG/HMACSignatures.html"><img src="{{site.media}}/amazon_authentication.png"/></a>
+        </section>
+
+        <!-- <section>
+          <h3>Example 4: Dropbox</h3>
+          <a href="https://www.dropbox.com/developers/reference/oauth-guide"><img src="{{site.media}}/dropbox_authentication.png"/></a>
+        </section> -->
+
+        <section>
+          <h3>Key principles</h3>
+          <ul>
+            <li>Don't include unnecessary details about how the authorization works</li>
+            <li>Provide a code sample</li>
+            <li>Describe correct usage &mdash; such as public versus private tokens in client-side code</li>
+          </ul>
+          </section>
+      </section>
+
+      <section>
+        <h2>API status and error codes</h2>
+        <section>
+        <img src="{{site.media}}/nonref_statuscodes.svg"/>
+      </section>
+
+
+      <section>
+        <h3>Response header in curl</h3>
+        <pre><code>curl -I -X GET 'https://api.openweathermap.org/data/2.5/weather?zip=95050&units=imperial&appid=APIKEY'</code></pre>
+        <pre><code>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Mon, 02 Apr 2018 01:14:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 441
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?units=imperial&zip=95050
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+</code></pre>
+      </section>
+
+      <section>
+        <h3>Headers in Postman</h3>
+      <img src="{{site.media}}/postmanheaders.png"/>
+    </section>
+
+      <section>
+        <h3>Example 1: Clearbit</h3>
+        <a href="https://clearbit.com/docs?python#errors-error-types"><img src="{{site.media}}/context_statuscodes.png"/></a>
+      </section>
+
+      <section>
+        <h3>Example 2: Twitter</h3>
+        <a href="https://developer.twitter.com/en/docs/basics/response-codes"><img src="{{site.media}}/twitter_statuscodes.png"/></a>
+      </section>
+
+      <section>
+        <h3>Example 3: Mailchimp</h3>
+        <a href="http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/"><img src="{{site.media}}/mailchimp_statuscodes.png"/></a>
+      </section>
+
+      <section>
+        <h3>Key principles</h3>
+        <ul>
+          <li>Help users recover from errors</li>
+          <li>Make error messages findable through search</li>
+        </ul>
+        </section>
+
+
+  </section>
+
+        <section>
+          <h2>API rate limiting and thresholds</h2>
+          <section>
+          <img src="{{site.media}}/nonref_ratelimiting.svg"/></a>
+        </section>
+
+        <section>
+          <h3>Example 1: GitHub</h3>
+          <a href="https://developer.github.com/v3/rate_limit/"><img class="shortened" src="{{site.media}}/githubratelimiting.png"/></a>
+        </section>
+
+        <section>
+          <h3>Example 2: Linkedin</h3>
+          <a href="https://docs.microsoft.com/en-us/linkedin/shared/api-guide/concepts/rate-limits?context=linkedin/consumer/context"><img src="{{site.media}}/dropboxratelimiting.png"/></a>
+        </section>
+
+        <section>
+          <h3>Example 3: Bitly</h3>
+          <a href="http://dev.bitly.com/rate_limiting.html"><img src="{{site.media}}/bitlyratelimiting.png"/></a>
+        </section>
+
+        <section>
+          <h3>Key principles</h3>
+          <ul>
+            <li>Explain how to check current/remaining counts</li>
+            <li>List information by subscription tier</li>
+          </ul>
+          </section>
+        </section>
+
+      <section>
+        <h2>API quick reference</h2>
+        <section>
+        <img src="{{site.media}}/nonref_quickreference.svg"/></a>
+      </section>
+
+        <section>
+          <h3>Example 1: Eventful</h3>
+        <a href="http://api.eventful.com/docs"><img src="{{site.media}}/eventfulquickreference.png"/></a>
+      </section>
+
+        <section>
+          <h3>Example 2: Parse</h3>
+        <a href="http://docs.parseplatform.org/rest/guide/#quick-reference"><img src="{{site.media}}/parsequickreferenceguide.png"/></a>
+      </section>
+
+        <section>
+          <h3>Example 3: Veracode </h3>
+        <a href="https://help.veracode.com/reader/LMv_dtSHyb7iIxAQznC~9w/FhxRdiWf5qejrtajmjGtpw"><img src="{{site.media}}/veracode_quick_reference.png"</a>
+      </section>
+      <section>
+        <h3>API quick reference</h3>
+      <a href="{{site.media}}/sample_api_diagram.pdf"><img class="shortened450" src="{{site.media}}/sample_api_diagram.svg"/></a>
+    </section>
+
+    <section>
+      <h3>Key principles</h3>
+      <ul>
+        <li>Provide an at-a-glance experience to help users understand the whole</li>
+        <li>Link the quick reference to the full details</li>
+      </ul>
+      </section>
+
+</section>
+
+
+        <section>
+          <h2>SDKs (Software Development Kits)</h2>
+          <section>
+          <img src="{{site.media}}/nonref_sdksampleapp.svg"/></a>
+        </section>
+
+
+        <section>
+          <h3>Example 1: SAP SDKs</h3>
+          <a href="https://developers.gigya.com/display/GD/APIs+and+SDKs"><img src="{{site.media}}/sap_sdks.png"/></a>
+        </section>
+
+        <section>
+          <h3>Example 2: Paypal SDKs</h3>
+          <a href="https://developer.paypal.com/docs/api/quickstart/"><img src="{{site.media}}/sdk_paypal.png"/></a>
+        </section>
+
+        <section>
+          <h3>Example 3: Facebook SDKs</h3>
+          <a href="https://developers.facebook.com/docs/apis-and-sdks"><img src="{{site.media}}/facebok_sdk.png"/></a>
+        </section>
+
+        <section>
+          <h3>Key principles with SDKs</h3>
+          <ul>
+            <li>Explain how to integrate the SDK</li>
+            <li>Assume audience is familiar with language</li>
+            <li>Explain how to get the sample app working</li>
+          </ul>
+        </section>
+      </section>
+
+{% comment %}
+        <section>
+          <h2>API glossary</h2>
+          <section>
+          <img src="{{site.media}}/nonref_glossary.svg"/>
+        </section>
+
+
+        <section>
+          <h3>Example 1: Yext</h3>
+          <a href="http://developer.yext.com/docs/glossary/"><img src="{{site.media}}/glossary_yext.png" /></a>
+        </section>
+
+        <section>
+          <h3>Example 2: Apigee</h3>
+          <a href="https://docs.apigee.com/api-platform/reference/glossary"><img src="{{site.media}}/glossary_apigee.png" /></a>
+        </section>
+
+        <section>
+          <h3>Example 3: Sendgrid</h3>
+          <a href="https://sendgrid.com/docs/glossary/"><img src="{{site.media}}/sendgrid_glossary.png" /></a>
+        </section>
+      </section>
+
+{% endcomment %}
+        <section>
+            <h2>Questions?</h2>
+            <img src="{{site.media}}/questions-01.svg"/>
+            <aside class="notes">
+              <ul>
+                <li></li>
+              </ul>
+            </aside>
+        </section>
+        <!-- <section>
+            <h1>The end</h1>
+            <div>
+            <div style="float:left; padding: 10px;">
+                <img src="{{site.media}}/tomjohnson.jpg"/>
+            </div>
+            <div style="float:left; padding: 10px; text-align: left;">
+                <p><span class="myname">Tom Johnson</span><br/>
+                    &mdash; <a target="_blank" href="https://idratherbewriting.com">idratherbewriting.com</a><br/>
+                    &mdash;  <a target="_blank" href="http://twitter.com/tomjohnson">@tomjohnson</a><br />
+                    &mdash; <a target="_blank" href="mailto:tomjoht@gmail.com">tomjoht@gmail.com</a>
+                </p>
+            </div>
+        </section> -->
+        <!-- <section>
+          <h2>Credits</h2>
+          <p>Some graphics by: <a target="_blank" href="https://www.vecteezy.com">Vecteezy.com</a> and the <a target="_blank" href="https://thenounproject.com/">Noun Project</a>.</p>
+        </section> -->
+      </div>
+
+      </div>
+
+      <script src="dist/reveal.js"></script>
+      <script src="plugin/zoom/zoom.js"></script>
+      <script src="plugin/notes/notes.js"></script>
+      <script src="plugin/search/search.js"></script>
+      <script src="plugin/markdown/markdown.js"></script>
+      <script src="plugin/highlight/highlight.js"></script>
+      <script>
+
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          center: true,
+          hash: true,
+
+          // Learn about plugins: https://revealjs.com/plugins/
+          plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+        });
+
+      </script>
+
+    </body>

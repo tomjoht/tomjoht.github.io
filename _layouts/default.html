@@ -1,139 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   {% include google_analytics.html %}
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+    <title>{{page.title}} | {{site.title}}</title>
+    <meta name="description" content="{% if page.content %}{{ page.content | truncatewords: 30 | strip_html }} {% else %}{{site.uistring.description}}{% endif %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" value="notranslate">
+    <link rel="icon"  type="image/x-icon" href="/favicon.ico">
 
-    <title>{% if page.jtype == "homepage" %}{{ site.name }} | {{site.description}} {% else %} {{page.title}} {% if page.series %}{{ page.series | before: "|" }}{% endif %} | {{ site.name }} {% endif %}</title>
-    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ "/css/customstyles.min.css" | prepend:site.baseurl }}"  type='text/css'>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-    {% seo %}
-    </head>
+    <!-- FontAwesome -->
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <!-- Navgoco -->
+    <script type="text/javascript" src="/assets/js/jquery.navgoco.min.js"></script>
 
-
-    <body>
-
-    <div id="masthead">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-            <div class="topComic">
-              <figure class="topComic">
-              {% include topComic.html %}
-            </figure>
-            </div>  <!-- /topComic -->
-            <div class="container">
-            <div class="row">
-            <div class="col-md-6">
-            <div class="siteLogo"><a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting-site-logo.png" | prepend: site.baseurl }}" alt="Home" /></a>
-            </div><!-- /siteLogo -->
-            </div><!-- /col-md-7 -->
-            </div><!-- /row -->
-            </div><!-- /container -->
-            <!-- /cont -->
-            <div class="container">
-            <div class="row">
-            <div class="col-md-12">
-            <div class="top-spacer"> </div>
-            </div><!-- /col-md-12 -->
-            </div><!-- /row -->
-            </div><!-- /container -->
-
-            </div><!-- /masthead -->
-
-            {% include topnav.html %}
-
-    <!-- Page Content -->
-    <div class="container">
-            <!-- Content Row -->
-            <div class="row">
-            <!-- Sidebar Column -->
-            <div class="col-md-3">
-            <div id="sidebarArea">
-
-              <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-{% include mailjet_modal.html %}
-              {% include sidebar.html %}
-              {% include social_media_icons.html %}
-            {% include recent_posts.html %}
-              {% include popular_series.html %}
-{% comment %}              
-{% include sidebar_comics.html %}
-{% endcomment %}
-          <div>
-          <p></p>
-    </ul>
-    </div>
-    </div> <!-- /sidebarArea -->
-    </div><!-- /col-md-3 -->
-
-
-    <!-- Content Column -->
-
-    <div class="col-md-9">
-      <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
-
-      {% include search_results.html %}
-      <script src="{{ "/js/toc.js" | prepend:site.baseurl }}"></script>
-      <div id="content">{{content}}
-</div>
-
-    <div id="sidebarAreaHomePage">
-            <!-- appears for mobile view only-->
-            <ul id="mytechsidebar" class="nav">
-
-              {% include notestoc.html %}
-        {% include social_media_icons.html %}
-        {% comment %}{% include sidebar_comics.html %}{% endcomment %}
-        <div>
-
-    </ul>
-    </div> <!-- /sidebarAreaHomePage -->
-
-    </div> <!-- /col-md-9 -->
-
-    </div><!-- /row -->
-    <hr>
-    </div><!-- /container -->
-    <div id="commentoSection">
-    <script src="https://cdn.commento.io/js/count.js"></script>
-  </div>
-    </body>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ "/css/syntax.min.css" | prepend:site.baseurl }}"  type='text/css'>
+    <!-- Algolia -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-    <link rel="shortcut icon" href="//idratherbewriting.com/favicon.ico" type="image/x-icon">
 
+    <!-- Anchor JS -->
+    {% unless page.layout == "homepage" %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.1/anchor.min.js"></script>
+        <script>
+        $( document ).ready(function() {
+            anchors.add('h2,h3,h4,h5');
+        });
+        </script>
+    {% endunless %}
 
+    <script>
+        $( document ).ready(function() {
+            $("#docnavsidebar").navgoco({
+                caretHtml: '',
+                accordion: false,
+                openClass: 'open', // open
+                save: true,
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 300,
+                    easing: 'swing'
+                }
+            });
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#docnavsidebar").navgoco('toggle', false);
+            });
 
-<!-- activate bootstrap tooltips -->
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#docnavsidebar").navgoco('toggle', true);
+            });
+        });
+
     </script>
 
     <script>
-    $(document).ready(function() {
-        $("#tg-sb-link").click(function() {
-            $("#sidebarArea").toggleClass('navToggle');
-            $(".col-md-9").toggleClass('expand');
-            $(".col-md-7").toggleClass('expand');
-            $("#tg-sb-icon").toggleClass('fa-toggle-on');
-            $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            $(".col-md-3").toggleClass('navToggle');
+        $(document).ready(function() {
+            $('[data-toggle=offcanvas]').click(function() {
+                $('.row-offcanvas').toggleClass('active');
+            });
         });
-    });
     </script>
-<script type="text/javascript" src="/js/pas-nc-embedded-v1.js"></script>
 
 
-    </html>
+    <!--Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    {% seo %}
+</head>
+<body class="{{page.layout}}">
+<div class="page-container">
+
+
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-default navbar">
+        <div class="container topnavlinks">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="fa fa-bars fa-2x"></span>
+                </button>
+                <button type="button" class="navbar-toggle toggle-sidebar-button"  data-toggle="offcanvas" data-target=".sidebar-nav">
+                    <span class="sidebarToggle fa fa-columns fa-2x"></span>
+                </button>
+              <a class="navbar-brand noCrossRef" href="{{site.url}}{{site.baseurl}}/">
+                    
+{% if page.collection == "docs" %}
+<div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bloglogo_apidoclogo.svg"/></div>
+
+{% else %}
+<div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bloglogo_bloglogo.svg"/></div>
+{% endif %}
+
+
+                  </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                  {% comment %}
+                  {% include navtoggle.html %}
+                  {% endcomment %}
+                  <!-- single item nav items appear here -->
+                    {% assign topnav = site.data[page.topnav] %}
+<li><a class="dropdown noCrossRef" href="{{site.url}}{{site.baseurl}}/">Blog</a></li>
+                    {% for entry in topnav.navbar_singleitems %}
+                    {% for item in entry.items %}
+                    {% if page.url contains item.url %}
+                    <li class="active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                    {% elsif item.github_icon == "show" %}
+                    <li><a data="github" href="{{item.url}}"> {{item.title}}</a></li>
+                    {% else %}
+                    <li><a href="{{item.url}}" class="noCrossRef"> {{item.title}}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+
+                    <!-- drop-down nav items appear here -->
+
+                    {% for entry in topnav.topnav_dropdowns %}
+                    {% for folder in entry.folders %}
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            {% for folderitem in folder.folderitems %}
+
+                            {% if page.url contains folderitem.url %}
+                            <li class="active"><a href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+                            {% elsif folderitem.github_icon == "show" %}
+                            <li><a data="github" href="{{folderitem.url}}"> {{folderitem.title}}</a></li>
+                            {% else %}
+                            <li><a href="{{folderitem.url}}" class="noCrossRef"> {{folderitem.title}}</a></li>
+                            {% endif %}
+
+                            {% endfor %}
+                        </ul>
+                    </li>
+
+                    {% endfor %}{% endfor %}
+
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                  <figure class="topComic">
+                      {% include topComic.html %}
+                  </figure>
+
+                    <li>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- /.container -->
+    </nav>
+
+
+<div class="container">
+        <div class="row row-offcanvas row-offcanvas-left">
+
+            <!-- sidebar -->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+
+{% include sidebar.html %}
+{% comment %}
+{% include notestoc.html %}
+{% endcomment %}
+{% include sidebar_comics.html %}
+
+{% unless page.collection == "docs" %}
+{% include recent_posts.html %}
+{% include popular_series.html %}
+{% endunless %}
+            </div>
+
+            <!-- main area -->
+            <div class="col-xs-12 col-sm-9 main">
+              {% include search_results.html %}
+              <div id="content">
+{% if page.collection == "docs" %}
+                {% include breadcrumb.html %}
+{% endif %}
+                <h1>{{page.title}}</h1>
+{% if page.collection == "posts" %}
+{% if page.series %}<div class="subheading">{{page.series}}</div>{% endif %}
+<p class="page-meta">
+  {% unless page.byline == false %}
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} &#8226; <a href="{{ post.url }}#commento"></a></i><br/>
+  {% endunless %}
+{% if page.categories %}
+<span id="pageCategories">
+ categories: {% for cat in page.categories %}
+<a href="{{ "/category-" | prepend: site.baseurl | append: cat }}">{{cat}}</a>{% unless forloop.last %} &bull; {% endunless%}
+</span>
+{% endfor %}
+{% endif %}
+{% unless page.last-modified == null %}
+<div class="lastModifiedDate">
+Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/learnapidoc/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a>
+
+</div>
+{% endunless %}
+
+{% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
+
+{% include toc.html %}
+
+{% endif %}
+
+{% if page.collection == "docs" %}
+<p>{% include markprompt.html %}</p>
+
+{% if page.versions %}{% include versions.html %}{% endif %}
+{% if page.github_url %} {% include github_button.html %}  {% endif %}
+{% if page.map %}{% assign mapStep = page.map.step %}{% assign mapDefinition = page.map.definition %}{% include workflow_map.html step=mapStep map=mapDefinition %}{% endif %}
+{% endif %}
+
+{{content}}
+
+{% include mailjet_embedded.html %}
+                
+<div class="donateButton">
+{% include coffee_button.html %}
+</div>
+
+
+{% if page.collection == "docs" %}
+{% unless page.type == 404 %}
+
+{% include progress.html %}
+{% include next.html %}
+
+{% endunless %}
+{% endif %}
+
+{% include single_post_comics.html %}
+
+{% include commento.html %}
+
+
+</div>
+
+
+
+            </div>
+        </div><!--/.container-->
+
+
+    </div><!--/.page-container-->
+    {% include footer.html %}
+    <!--scripts loaded here-->
+
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+<script type="text/javascript" src="/assets/js/pas-nc-embedded-v1.js"></script>
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+
+</body>
+
+</html>

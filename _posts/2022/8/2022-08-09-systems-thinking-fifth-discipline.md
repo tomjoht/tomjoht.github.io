@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/trends-systhink-fifth
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 description: "This post is <a href='/trends/trends-to-follow-or-forget-intro.html'>part of a series</a> that explores tech comm trends that I've either followed or forgotten, and why. In this post, I continue to unravel the principles of systems thinking and how this approach fits into the documentation domain. In particular, I dive into three system patterns covered in Peter Senge's book <i>The Fifth Discipline</i>: Limits to Growth, Complex Cause and Effect, and Shifting the Burden. And I try to connect the ideas back to documentation."
 ---
 

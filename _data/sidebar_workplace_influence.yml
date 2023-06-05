@@ -1,35 +1,27 @@
-entries:
-- title: Sidebar
-  subcategories:
+sidebartitle: A hypothesis about influence on the web and the workplace
+folders:
+- title: "Pages in this series"
+  jurl: /web-and-workplace-influence/part1-introduction-to-influencers.html
+  section: one
+  class: first
+  folderitems:
+  - title: "Introduction to influence on the web"
+    url: /web-and-workplace-influence/part1-introduction-to-influencers.html
 
-    - title: A hypothesis about influence on the web and the workplace
-      items:
-        - title: "Introduction to influence on the web"
-          url: /web-and-workplace-influence/part1-introduction-to-influencers.html
+  - title: "Initial attempts and failures with workplace content"
+    url: /web-and-workplace-influence/part2-failure-with-initial-attempts.html
 
-        - title: "Initial attempts and failures with workplace content"
-          url: /web-and-workplace-influence/part2-failure-with-initial-attempts.html
+  - title: "Five basics for building an audience on the web"
+    url: /web-and-workplace-influence/part3-tools-of-web-influence.html
 
-        - title: "Five basics for building an audience on the web"
-          url: /web-and-workplace-influence/part3-tools-of-web-influence.html
+  - title: "Creating engaging content: A balance of interests"
+    url: /web-and-workplace-influence/part4-creating-engaging-content.html
 
-        - title: "Creating engaging content: A balance of interests"
-          url: /web-and-workplace-influence/part4-creating-engaging-content.html
+  - title: "More specifics about finding a focus"
+    url: /web-and-workplace-influence/part5-finding-a-focus.html
 
-        - title: "More specifics about finding a focus"
-          url: /web-and-workplace-influence/part5-finding-a-focus.html
+  - title: "The newsletter as the social content of corporations"
+    url: /web-and-workplace-influence/part6-newsletter-content-medium.html
 
-        - title: "The newsletter as the social content of corporations"
-          url: /web-and-workplace-influence/part6-newsletter-content-medium.html
-
-        - title: "Expanding from cross-product newsletters to a book club and site"
-          url: /web-and-workplace-influence/part7-from-newsletter-to-book-club.html
-
-        # - title: "Part 2: Initial attempts and failures with workplace content"
-        #   url: /web-and-workplace-influence/part2-failure-with-initial-attempts.html
-        # - title: "Part 3: Five basics for building a successful website"
-        #   url: /web-and-workplace-influence/part3-tools-of-web-influence.html
-        # - title: "Part 4: Creating engaging content"
-        #   url: /web-and-workplace-influence/part4-creating-engaging-content.html
-        # - title: "Part 5: Finding a focus"
-        #   url: /web-and-workplace-influence/part5-finding-a-focus.html
+  - title: "Expanding from cross-product newsletters to a book club and site"
+    url: /web-and-workplace-influence/part7-from-newsletter-to-book-club.html

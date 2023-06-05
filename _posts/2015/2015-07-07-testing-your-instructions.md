@@ -5,7 +5,7 @@ categories:
 - podcasts
 tags: [series_testing_documentation]
 series: Testing your documentation
-jtype: notes_testing_documentation
+sidebar: sidebar_testing_documentation
 keywords: jira, bugs, agile processes, issue tracking, visibility
 description: "Writing good documentation requires you to set up a test environment and test all of your instructions -- testing the instructions yourself and against a user. Testing instructions can be time consuming and tricky, especially with developer documentation. It's hard to see past personal blind spots and assumptions. But testing instructions gives you access to insight that makes your documentation much more accurate and useful."
 weight: 1.0

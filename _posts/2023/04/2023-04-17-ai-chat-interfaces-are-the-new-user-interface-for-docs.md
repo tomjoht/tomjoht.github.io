@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "AI chat interfaces could become the primary user interface to read documentation"
 date: 2023-04-17
 permalink: /blog/ai-chat-interfaces-are-the-new-user-interface-for-docs

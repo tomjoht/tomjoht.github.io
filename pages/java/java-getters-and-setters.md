@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Getters and setters'
 permalink: /java-getters-and-setters/
 date: 2015-01-01 19:50:57.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

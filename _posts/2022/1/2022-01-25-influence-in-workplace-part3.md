@@ -9,7 +9,7 @@ description: "In the <a href='/web-and-workplace-influence/part2-failure-with-in
 weight: 3
 tags: workplace_influence
 series: "A hypothesis about influence on the web and the workplace"
-jtype: notes_workplace_influence
+sidebar: sidebar_workplace_influence
 date: 2022-01-25 03:00:000000000 -07:00
 ---
 

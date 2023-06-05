@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Handling exceptions'
 permalink: /java-handling-exceptions/
 date: 2015-01-01 19:51:37.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

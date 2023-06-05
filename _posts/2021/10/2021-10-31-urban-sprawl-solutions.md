@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.site/urbansprawl
 description: "In a recent post I wrote about <a href='/blog/bike-commuting-from-renton-to-seattle/'>commuting strategies</a>, reflecting on first- and last-mile strategies for commutes. This week is also the <a href='https://www.un.org/en/climatechange'>UN Climate Change Summit</a>. In keeping with these themes, I want to address the topic of <i>urban sprawl</i>. When I moved to the Seattle area last winter and was looking for housing, I explored about half a dozen different areas, including downtown areas as well as bedroom communities. I found the downtown areas cramped, expensive, and small, especially for a family of six with a minivan. As a result, we chose a bedroom community (Renton, which is 20 miles south of Seattle), but now I've learned that I'm actually promoting urban sprawl, which has a long list of ugly environmental, social, and financial impacts, the most depressing being the lock-in to a car-dependent world."
 series: "Mobility posts"
-jtype: notes_mobility
+sidebar: sidebar_mobility
 ---
 
 ## What is urban sprawl?

@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Class path'
 permalink: /java-class-path/
 date: 2015-01-03 18:48:13.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 

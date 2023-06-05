@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Override'
 permalink: /java-override/
 date: 2015-01-01 20:13:28.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Override

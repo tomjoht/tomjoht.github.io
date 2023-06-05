@@ -6,7 +6,7 @@ categories:
 keywords:
 rebrandly: https://idbwrtng.com/sitstandwalk-intro
 series: "Sitting, standing, and walking"
-jtype: notes_sitting
+sidebar: sidebar_sitting
 description: "I'm starting a new series called <i>Sitting, standing, and walking.</i> Near the end of my last series on Journey away from smartphones, I described the growing discontent I felt by sitting in front of a screen all day. I longed to be outside, walking, engrossed in a panoramic view of the surrounding sky. Instead, it seemed most of my life, especially working in tech, was spent sitting. This series is all about ways to reduce sitting and avoid a sedentary life in front of the screen."
 ---
 

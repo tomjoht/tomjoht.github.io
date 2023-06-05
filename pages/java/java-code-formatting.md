@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Code formatting'
 permalink: /java-code-formatting/
 date: 2015-01-01 19:34:58.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Code formatting

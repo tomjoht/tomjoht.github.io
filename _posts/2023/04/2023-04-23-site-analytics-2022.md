@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Meandering thoughts on my 2022 site analytics"
 permalink: /blog/site-analytics-2022
 date: 2023-04-23

@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: enums'
 permalink: /java-enums/
 date: 2015-01-01 19:42:11.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

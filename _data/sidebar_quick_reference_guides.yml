@@ -1,34 +1,36 @@
-entries:
-- title: Sidebar
-  subcategories:
-    - title: Quick reference guides
-      items:
-        - title: "Quick Reference Guides: The Poetry of Technical Writing"
-          url: /2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/
+sidebartitle: Quick reference guides
+folders:
+- title: "Pages in this series"
+  jurl: 2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/
+  section: one
+  class: first
+  folderitems:
+  - title: "Quick Reference Guides: The Poetry of Technical Writing"
+    jurl: 2008/07/06/quick-reference-guides-the-poetry-of-technical-writing/
 
-        - title: "Quick Reference Guide Formats -- Tips for Finding Attractive Layouts"
-          url: /2008/12/31/quick-reference-guide-formats-tips-for-finding-attractive-layouts/
+  - title: "Quick Reference Guide Formats -- Tips for Finding Attractive Layouts"
+    jurl: 2008/12/31/quick-reference-guide-formats-tips-for-finding-attractive-layouts/
 
-        - title: "Quick Reference Guides: Short and Sweet Technical Documentation"
-          url: /2009/02/25/stc-presentation-this-thursday-quick-reference-guides-short-and-sweet-technical-documentation/
+  - title: "Quick Reference Guides: Short and Sweet Technical Documentation"
+    jurl: 2009/02/25/stc-presentation-this-thursday-quick-reference-guides-short-and-sweet-technical-documentation/
 
-        - title: "Quick Reference Guides Right Where You Need Them"
-          url: /2009/04/09/quick-reference-guides-right-where-you-need-them
+  - title: "Quick Reference Guides Right Where You Need Them"
+    jurl: 2009/04/09/quick-reference-guides-right-where-you-need-them
 
-        - title: "Quick Reference Guides: Short and Sweet Documentation"
-          url: /2009/04/10/quick-reference-guides-short-and-sweet-documentation/
+  - title: "Quick Reference Guides: Short and Sweet Documentation"
+    jurl: 2009/04/10/quick-reference-guides-short-and-sweet-documentation/
 
-        - title: "Documentation Usability: A Few Things I've Learned from Watching Users"
-          url: /2009/04/28/documentation-usability-a-few-things-ive-learned-from-watching-users/
+  - title: "Documentation Usability: A Few Things I've Learned from Watching Users"
+    jurl: 2009/04/28/documentation-usability-a-few-things-ive-learned-from-watching-users/
 
-        - title: "Starting Points with Quick Reference Guides: Gathering Before Designing"
-          url: /2009/05/14/starting-points-gathering-before-designing/
+  - title: "Starting Points with Quick Reference Guides: Gathering Before Designing"
+    jurl: 2009/05/14/starting-points-gathering-before-designing/
 
-        - title: "Quick reference guide slides from the Transalpine Conference"
-          url: /2009/06/13/quick-reference-guide-presentation-transalpine/
+  - title: "Quick reference guide slides from the Transalpine Conference"
+    jurl: 2009/06/13/quick-reference-guide-presentation-transalpine/
 
-        - title: "Webinar Recording -- Organizing Help Content: Breaking Out of Topic-Based Hierarchies"
-          url: /2012/02/18/webinar-recording-organizing-help-content-breaking-out-of-topic-based-hierarchies/
+  - title: "Webinar Recording -- Organizing Help Content: Breaking Out of Topic-Based Hierarchies"
+    jurl: 2012/02/18/webinar-recording-organizing-help-content-breaking-out-of-topic-based-hierarchies/
 
-        - title: Quick Reference Guide Gallery
-          url: /2012/09/09/quick-reference-guide-gallery/
+  - title: Quick Reference Guide Gallery
+    jurl: 2012/09/09/quick-reference-guide-gallery/

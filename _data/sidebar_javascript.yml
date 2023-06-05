@@ -1,52 +1,54 @@
-entries:
-- title: Sidebar
-  subcategories:
-    - title: JavaScript
-      items:
-        - title: Introduction
-          url: /javascript/
+sidebartitle: JavaScript notes
+folders:
+- title: "Pages in this series"
+  jurl: javascript/
+  section: one
+  class: first
+  folderitems:
+  - title: Introduction
+    jurl: javascript/
 
-        - title: Numbers
-          url: /numbers-javascript/
+  - title: Numbers
+    jurl: numbers-javascript/
 
-        - title: Strings
-          url: /strings-javascript/
+  - title: Strings
+    jurl: strings-javascript/
 
-        - title: Variables
-          url: /variables-javascript/
+  - title: Variables
+    jurl: variables-javascript/
 
-        - title: Dates
-          url: /dates-javascript/
+  - title: Dates
+    jurl: dates-javascript/
 
-        - title: Loops
-          url: /loops-javascript/
+  - title: Loops
+    jurl: loops-javascript/
 
-        - title: Functions
-          url: /functions-javascript/
+  - title: Functions
+    jurl: functions-javascript/
 
-        - title: Objects
-          url: /objects-javascript/
+  - title: Objects
+    jurl: objects-javascript/
 
-        - title: Conditional code
-          url: /conditional-code-javascript/
+  - title: Conditional code
+    jurl: conditional-code-javascript/
 
-        - title: Arrays
-          url: /arrays-javascript/
+  - title: Arrays
+    jurl: arrays-javascript/
 
-        - title: Events and listeners
-          url: /events-and-listeners-javascript/
+  - title: Events and listeners
+    jurl: events-and-listeners-javascript/
 
-        - title: jQuery
-          url: /jquery-a-javascript-library-javascript/
+  - title: jQuery
+    jurl: jquery-a-javascript-library-javascript/
 
-        - title: Inserting elements
-          url: /insertion-of-elements-javascript/
+  - title: Inserting elements
+    jurl: insertion-of-elements-javascript/
 
-        - title: Document object model
-          url: /document-object-model-javascript/
+  - title: Document object model
+    jurl: document-object-model-javascript/
 
-        - title: Firefox and Firebug
-          url: /firefox-and-firebug-javascript/
+  - title: Firefox and Firebug
+    jurl: firefox-and-firebug-javascript/
 
-        - title: AJAX
-          url: /ajax-javascript/
+  - title: AJAX
+    jurl: ajax-javascript/

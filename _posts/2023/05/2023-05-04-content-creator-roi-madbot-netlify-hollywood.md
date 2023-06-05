@@ -1,6 +1,4 @@
 ---
-layout: post
-# layout: newsletter
 title: "Newsletter: Content creator ROI, Netlify, Madbot, and Hollywood"
 permalink: /blog/content-creator-roi-madbot-netlify-hollywood
 date: 2023-05-04

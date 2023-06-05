@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Newsletter: Alphadoc, vocab lookup, field, Open Assistant, Markprompt, content ops"
 permalink: /blog/alphadoc-markprompt-open-assistant-vocab
 date: 2023-04-20

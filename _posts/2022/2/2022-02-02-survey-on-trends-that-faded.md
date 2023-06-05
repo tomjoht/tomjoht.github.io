@@ -9,7 +9,7 @@ rebrandly: https://idbwrtng.com/trendsfizzledsurvey
 description: "In preparation for a presentation on trends that fizzled or faded, I launched this short survey to get some help in identifying fizzled trends. The survey is still open (so feel free to take it), but I'm not longer actively monitoring the results. The <a href='https://www.questionpro.com/t/AOaGwZq7kM'>survey is here</a>. The survey has you rank the trends using sliders."
 weight: 2
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 ---
 
 You can view the <a href='https://www.questionpro.com/t/7BnU7DZq7kM'>survey results dashboard here</a>. (See the next post in the series for my analysis of the survey results.)

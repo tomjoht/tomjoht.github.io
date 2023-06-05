@@ -5,7 +5,7 @@ categories:
 keywords:
 description: "Most of my readers are technical writers, so I rarely post about basketball. But given the current NBA playoffs, I'd like to briefly explain my latest pickup basketball strategy and how it can help you win not only on the court, but on documentation projects too."
 bitlink: http://bit.ly/pickupballstratsanddocs
-jtype: notes_basketball
+sidebar: sidebar_basketball
 ---
 
 ## Pickup ball versus the NBA

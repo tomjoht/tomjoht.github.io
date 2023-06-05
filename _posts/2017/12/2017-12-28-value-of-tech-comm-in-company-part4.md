@@ -8,7 +8,7 @@ bitlink: http://bit.ly/valueargspart4
 weight: 4
 tags: series_value_of_tech_comm
 series: "Value arguments for docs and tech comm"
-jtype: notes_value_tech_comm
+sidebar: sidebar_value_tech_comm
 ---
 
 {% include series/seriesTagValueOfTechComm.html %}

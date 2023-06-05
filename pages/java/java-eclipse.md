@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Eclipse'
 permalink: /java-eclipse/
 date: 2015-01-03 18:56:08.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 Eclipse, an open-source project, is the most common IDE for Java. Eclipse comes with its own compiler, so you don't have to download the JDK (Java Development Kit). You only need to download the JRE (Java RunTime Environment).

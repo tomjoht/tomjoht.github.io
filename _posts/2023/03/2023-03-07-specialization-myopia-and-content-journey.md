@@ -7,7 +7,7 @@ categories:
 keywords: big picture, systems view
 rebrandly: https://idbwrtng.com/specialization-myopia
 series: "Trends to follow or forget"
-jtype: notes_fizzled_trends
+sidebar: sidebar_fizzled_trends
 podcast_file_size: 44.2 MB
 podcast_duration: "50:52"
 podcast_length: 44202882 

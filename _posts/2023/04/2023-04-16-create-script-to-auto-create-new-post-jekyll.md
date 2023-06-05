@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "A script that creates a new Jekyll post and populates it with YAML frontmatter, and also makes a curl call to add a Rebrandly shortlink"
 permalink: /blog/create-script-to-auto-create-new-post-jekyll
 date: 2023-04-16
@@ -53,7 +53,7 @@ mkdir -p _posts/$YEAR/$MONTH
 # Create the file with YAML frontmatter
 cat > _posts/$YEAR/$MONTH/$DATE-$SLUG.md <<EOL
 ---
-layout: post
+
 title: "$TITLE"
 permalink: /blog/$SLUG
 date: $DATE

@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Variables'
 permalink: /java-variables/
 date: 2015-01-01 20:31:13.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

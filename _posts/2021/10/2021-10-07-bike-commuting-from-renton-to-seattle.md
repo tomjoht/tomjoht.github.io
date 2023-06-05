@@ -7,7 +7,7 @@ keywords: biking, commuting, transportation
 rebrandly: https://idbwrtng.site/bikecommuting
 description: "Last month I wrote a post about <a href='/blog/trying-to-get-back-to-normal'>returning to normal</a>, and as part of that return, I wanted to commute to work. Part of why I like the commute is because for the past decade, I'd been biking to work. That biking window provided me with a built-in time for daily exercise, and I also liked the space to wind up and wind down for the day. When I lived in California, I was fortunate enough to live next to a paved trail (following a canal) that took me 75% of the way to work; the remaining 25% was along a road with a bike shoulder, and only 5% on a treacherous road (which has since been fixed for cyclists). But biking to work from Renton to Seattle is a different problem to solve. In this post, I'll talk about strategies for the first mile (getting to the transit hub) and the last mile (getting from the transit endpoint to your actual destination). Even though this post will have specifics about my area, the same struggle likely exists for anyone trying to bike to work in any city."
 series: "Mobility posts"
-jtype: notes_mobility
+sidebar: sidebar_mobility
 ---
 
 ## Bike commuting from Renton to Seattle

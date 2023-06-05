@@ -26,7 +26,6 @@ FILENAME=_posts/$YEAR/$MONTH/$DATE-$SLUG.md
 
 cat > $FILENAME <<EOL
 ---
-layout: post
 title: "$TITLE"
 permalink: /blog/$SLUG
 date: $DATE

@@ -1,0 +1,220 @@
+---
+layout: slides
+slide_title: Publishing API documentation
+---
+
+	<body>
+    <div class="reveal innovation">
+       <!-- Any section element inside of this container is displayed as a slide -->
+       <div class="slides">
+          <section>
+             <h1>{{page.slide_title}}</h1>
+
+             <p>
+                <small>By Tom Johnson / <a target="_blank" href="http://twitter.com/tomjohnson">@tomjohnson</a><br/>
+                <a target="_blank" href="https://idratherbewriting.com">idratherbewriting.com</a></small><br/><br/>
+                <p><small>Slides available at <br/><a target="_blank" href="https://idratherbewriting.com/learnapidoc/slides/publishing_api_docs/">idratherbewriting.com/learnapidoc/slides/publishing_api_docs</a></small></p>
+             </p>
+          </section>
+
+          <section>
+            <h2>Tool expertise is one value we add</h2>
+            <a href="{{site.media}}/whyapidocsfail.png"><img src="{{site.media}}/whyapidocsfail.png"/></a>
+          </section>
+
+          <section>
+            <h2>27% use static site generators</h2>
+            <a href="https://www.questionpro.com/t/PGhS9ZgCFE"><img src="{{site.media}}/primaryauthtoolsurvey3.png"/></a>
+            </section>
+
+          <section>
+            <h2>59% follow a docs-as-code approach</h2>
+            <a href="https://www.questionpro.com/t/PGhS9ZgCFE"><img src="{{site.media}}/docsascodesurveypercent.png"/></a>
+            </section>
+
+          <section>
+            <h2>45% use Markdown as source format</h2>
+            <a href="https://www.questionpro.com/t/PGhS9ZgCFE"><img src="{{site.media}}/markdownmostcommon.png"/></a>
+            </section>
+
+          <section>
+            <h2>55% helped develop pub solution</h2>
+            <a href="https://www.questionpro.com/t/PGhS9ZgCFE"><img src="{{site.media}}/significantrolepercent.png"/></a>
+            </section>
+
+          <section>
+            <h2>73% manage content in Git</h2>
+            <a href="https://www.questionpro.com/t/PGhS9ZgCFE"><img src="{{site.media}}/managecontentingit.png"/></a>
+            </section>
+
+          <section>
+            <h2>50% have continuous integration</h2>
+            <a href="https://www.questionpro.com/t/PGhS9ZgCFE"><img src="{{site.media}}/continousbuildpercent.png"/></a>
+            </section>
+
+            <section>
+            <h2>Why not use traditional HATs?</h2>
+
+            <a href="http://bit.ly/photobucketlongurl"><img src="{{site.media}}/hatphotobucket.png"/></a>
+            </section>
+            <section>
+            <h2>Reasons to avoid traditional HATS</h2>
+            <ul>
+              <li>Developers often collaborate with docs</li>
+              <li>Developers are allergic to XML</li>
+              <li>Binary files don't version well in Git</li>
+              <li>API docs need custom structures for reference topics</li>
+              <li>Users want "Try it out" API explorers</li>
+              <li>Automatic syntax highlighting is a must</li>
+              <li>API docs are the product interface and must be attractive</li>
+            </ul>
+            </section>
+
+  </section>
+
+          <section>
+            <h2>The Docs-as-Code model</h2>
+            <img src="{{site.media}}/limitstodocsascode-01.svg"/>
+          </section>
+
+          <section>
+            <h2>Characteristics of docs-as-code</h2>
+
+            <ul>
+              <li>Lightweight markup (e.g., Markdown)</li>
+              <li>Static site generators (e.g., Hugo)</li>
+              <li>IDE-like text editor (e.g., Atom)</li>
+              <li>Version control to manage content (e.g., Git)</li>
+              <li>Build from server (e.g., Continuous Integration)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Real-time demonstration</h2>
+            <p>Demonstration of docs-as-code publishing...</p>
+</section>
+
+<section>
+  <h2>JAMstack: JavaScript, APIs, Markup</h2>
+   <a href="_blank"><img src="{{site.media}}/jamstack.png" alt="JAMstack" /></a>
+  </section>
+
+
+              <section>
+                <h2>Several categories of tools</h2>
+                  <ol>
+                    <li>Static site generators</li>
+                    <li>Hosting and deployment options</li>
+                    <li>Tools to render OpenAPI spec</li>
+                  </ol>
+                </section>
+
+              <section>
+                <h2>1. Static site generators</h2>
+                <a href="https://staticgen.com"><img src="{{site.media}}/staticgenscreenshot3.png"/></a>
+                </ul>
+              </section>
+
+
+              <section>
+                <h2>2. Hosting and deployment options</h2>
+                <ul>
+                  <li><a target="_blank" href="https://pages.github.com/">GitHub Pages</a></li>
+                  <li><a target="_blank" href="https://cloudcannon.com/">CloudCannon</a></li>
+                  <li><a target="_blank" href="https://www.netlify.com/">Netlify</a></li>
+                  <li><a target="_blank" href="https://www.aerobatic.com/">Aerobatic</a></li>
+                </ul>
+              </ul>
+              </section>
+
+              <section>
+                <style>.reveal ul li a, .reveal ul li { font-size: 34px; }
+                  </style>
+                <h2>3. Tools to render OpenAPI spec</h2>
+                <ul>
+                  <li><a target="_blank" href="https://swagger.io/swagger-ui/">Swagger UI</a> (<a target="_blank" href="https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.html">Demo</a>)</li>
+                  <li><a target="_blank" href="https://swaggerhub.com">SwaggerHub</a> (<a target="_blank" href="https://app.swaggerhub.com/apis/IdRatherBeWriting/open-weather_map_api/">Demo</a>)</li>
+                  <li><a target="_blank" href="https://readme.com">Readme.com</a> (<a target="_blank" href="https://apitest.readme.com/docs">Demo</a>)</li>
+                  <li><a target="_blank" href="">DeveloperHub.io</a> (<a href="https://docs.developerhub.io/api/ref" target="_blank">Demo</a>)</li>
+                  <li><a target="_blank" href="https://github.com/Redocly/redoc">Redoc</a> (<a href="https://redocly.github.io/redoc/" target="_blank">Demo</a>)</li>
+                  <li><a target="_blank" href="https://sourcey.com/spectacle">Spectacle</a> (<a target="_blank" href="https://cheesestore.github.io/">Demo</a>)</li>
+                  <li><a target="_blank" href="https://stoplight.io/studio/">Stoplight Studio</a> (<a target="_blank" href="https://app.stoplight.io/wk/Jj82MQXLoWG4hfz3t/4h4h8xoQLJpwjweDx/XknprcEELR39Lv3ro/design/endpoints">Demo</a>)</li>
+                  <li><a target="_blank" href="https://apimatic.io">APIMATIC.io</a> (<a target="_blank" href="https://apimatic.io/apidocs/sample-portal/v/1_0#/">Demo</a>)</li>
+                    <li><a target="_blank" href="https://apiary.io/">Apiary</a> (<a target="_blank" href="https://pandurangpatil.docs.apiary.io/#">Demo</a>)</li>
+
+                </ul>
+
+              </section>
+
+              <section>
+                <h2>Integration challenges</h2>
+
+                  <img src="{{site.media}}/publishing-apis_integrationproblem.svg"/>
+                  <p>Samples: <a href="https://sendgrid.com/docs/for-developers/">Sendgrid</a>, <a href="https://developer.spotify.com/documentation/web-api/reference-beta/#reference-index">Spotify</a>, <a href="https://developers.strava.com/playground/">Strava</a>
+
+              </section>
+
+  <section>
+    <h2>Custom: My current setup at work</h2>
+    <ul>
+      <li>Jekyll + custom theme with no header/footer</li>
+      <li>Use existing internal Git infrastructure</li>
+      <li>Custom-built publishing pipeline</li>
+        <ul><li>Builds output, then ingests HTML into S3</li>
+          <li>Server requests pull matching files from S3 store and inserts into template with header/footer</li>
+        </ul>
+              </ul>
+      <p><a target="_blank" href="https://developer.amazon.com/appstore/documentation">View samples</a></p>
+  </section>
+
+
+          <section>
+            <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 7a: Set up a GitHub wiki</h3>
+            <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+
+          </section>
+
+          <section>
+            <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 7b: Clone your GitHub repo locally</h3>
+            <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+
+          </section>
+
+          <section>
+            <h3 class="activity"><i class="fa fa-user-circle"></i> Activity 7c: Push local changes to the remote</h3>
+            <img class="activity_work" src="{{site.media}}/activity_work.svg"/>
+
+          </section>
+
+    <section>
+      <h2>Questions?</h2>
+      <img src="{{site.media}}/questions-01.svg"/>
+      </section>
+
+		</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>

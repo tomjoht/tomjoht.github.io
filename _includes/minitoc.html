@@ -1,0 +1,7 @@
+{% if site.format == "web" %}
+{% include minitoc_web.html %}
+{% elsif site.format == "print" %}
+{% comment %}
+{% include minitoc_print.html %}
+{% endcomment %}
+{% endif %}

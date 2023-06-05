@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Abstract classes and abstract methods'
 permalink: /java-abstract-methods/
 date: 2015-01-01 19:30:33.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

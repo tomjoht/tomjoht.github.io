@@ -1,7 +1,6 @@
 ---
 title: Tags
 permalink: /tags/
-layout: page
 mytags:
 - title: Academics and practitioners
   url: /category-academics-and-practitioners/

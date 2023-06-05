@@ -1,7 +1,6 @@
 ---
 title: Series
 permalink: /series
-layout: page
 series:
 
   - title: Simplifying complexity

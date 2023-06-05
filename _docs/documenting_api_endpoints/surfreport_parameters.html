@@ -1,0 +1,50 @@
+<h2>Parameters</h2>
+
+<h3>Path parameters</h3>
+<table>
+<colgroup>
+   <col width="30%" />
+   <col width="70%" />
+</colgroup>
+<thead>
+<tr>
+<th>Path parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>{beachId}</code></td>
+<td>The value for the beach you want to look up. Valid <code>beachId</code> values are available from our site at sampleurl.com.
+</td>
+</tr>
+</tbody></table>
+
+<h3>Query string parameters</h3>
+<table>
+<colgroup>
+   <col width="15%" />
+   <col width="25%" />
+   <col width="40%" />
+   <col width="20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Query string parameter</th>
+<th>Required / optional</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>days</code></td>
+<td>Optional</td>
+<td>The number of days to include in the response. Default is 3.</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td><code>time</code></td>
+<td>Optional</td>
+<td>If you include the time, then only the current hour will be returned in the response.</td>
+<td>Integer. Unix format (ms since 1970) in UTC.</td>
+</tr>
+</tbody></table>

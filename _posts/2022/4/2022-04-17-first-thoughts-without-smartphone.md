@@ -7,7 +7,7 @@ keywords:
 rebrandly: https://idbwrtng.com/experienceswithoutsmartphone
 description: "In this post, I describe my first two weeks living without a smartphone in my pocket. I got a flip phone and figured out how to get the functionality I needed (e.g., an Audible app, texting), how to use the phone again, and more."
 series: "Journey away from smartphones"
-jtype: notes_smartphones
+sidebar: sidebar_smartphones
 ---
 
 If you're just coming into this series, see these two posts first:

@@ -1,21 +1,22 @@
-entries:
-- title: Sidebar
-  subcategories:
+sidebartitle: Mobility-related posts
+folders:
+- title: "Pages in this series"
+  jurl: blog/bike-commuting-from-renton-to-seattle/
+  section: one
+  class: first
+  folderitems:
 
-    - title: Mobility-related posts
-      items:
+  - title: "Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems"
+    jurl: blog/bike-commuting-from-renton-to-seattle/
 
-        - title: "Biking and public transportation in Renton and Seattle: Solving the first-mile and last-mile problems"
-          url: /blog/bike-commuting-from-renton-to-seattle/
+  - title: "Urban sprawl and car dependence -- some thoughts on solutions"
+    jurl: blog/urban-sprawl-solutions/
 
-        - title: "Urban sprawl and car dependence -- some thoughts on solutions"
-          url: /blog/urban-sprawl-solutions/
+  - title: "My multimodal commuting strategies"
+    jurl: blog/multimodal-commuting-strategies.html
 
-        - title: "My multimodal commuting strategies"
-          url: /blog/multimodal-commuting-strategies.html
+  - title: "Review of Peter Norton's Autonorama: The Illusion of High-Tech Driving"
+    jurl: blog/review-of-peter-norton-autonorama-illusory-promise-of-high-tech-driving/
 
-        - title: "Review of Peter Norton's Autonorama: The Illusion of High-Tech Driving"
-          url: /blog/review-of-peter-norton-autonorama-illusory-promise-of-high-tech-driving/
-
-        - title: "Commute Seattle Spotlight video"
-          url: /blog/commute-seattle-spotlight-video/
+  - title: "Commute Seattle Spotlight video"
+    jurl: blog/commute-seattle-spotlight-video/

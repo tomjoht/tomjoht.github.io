@@ -1,5 +1,4 @@
 ---
-layout: page
 title: The Academic/Practitioner Conversations Project
 permalink: /academic-practitioner-project/
 status: publish

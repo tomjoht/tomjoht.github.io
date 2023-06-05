@@ -1,11 +1,10 @@
 ---
-layout: page
 title: 'Java: Modifiers'
 permalink: /java-modifiers/
 date: 2015-01-01 20:09:50.000000000 -08:00
 categories:
 - java
-jtype: notes_java
+sidebar: sidebar_java
 ---
 
 ## Quick summary

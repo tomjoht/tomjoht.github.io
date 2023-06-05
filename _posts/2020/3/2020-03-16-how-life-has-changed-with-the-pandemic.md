@@ -6,7 +6,7 @@ categories:
 keywords: corona virus, working from home, disruption, world events
 rebrandly: https://idratherbewriting.site/howlifechanged
 description: "These past two weeks have been incredibly disruptive in terms of world events, and while I usually avoid writing about current events and tend to stay within the tech comm focus, it seems like ignoring the elephant in the room not to mention something about the Coronavirus pandemic."
-jtype: notes_pandemic
+sidebar: sidebar_pandemic
 ---
 
 So much about my life has changed. Granted, the changes don't compare to anyone experiencing extreme illness or losing a loved one. But there are still lots of disruptions. My college daughter, enjoying her first year at UCSB, has returned home as all classes have transitioned online. We had to re-arrange our bedroom situation again, adding in another bed and shifting around who shares which rooms among the 4 kids.

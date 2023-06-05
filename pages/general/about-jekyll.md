@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About Jekyll
 permalink: /about-jekyll/
 status: publish

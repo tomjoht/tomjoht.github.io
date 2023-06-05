@@ -3,7 +3,7 @@ title: How to evaluate documentation
 permalink: /simplifying-complexity/how-to-evaluate-documentation.html
 redirect_from:
 - /simplifying-complexity/interrogate-a-text.html
-jtype: notes_simplifying_complexity
+sidebar: sidebar_simplifying_complexity
 ---
 
 At the end of each section, I include a list of questions, relevant to that principle, that can be used to interrogate a text. I include them here in a consolidated way for convenience:

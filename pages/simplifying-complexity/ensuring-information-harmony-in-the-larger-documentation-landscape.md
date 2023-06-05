@@ -1,7 +1,7 @@
 ---
 title: "Principle 3: Ensure information harmony in the larger landscape"
 permalink: /simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html
-jtype: notes_simplifying_complexity
+sidebar: sidebar_simplifying_complexity
 description: "Before adding new topics to an information landscape, look to see how the new information will fit in with the existing information &mdash; across all information forms, from docs to blogs, forums, white papers, and more. Synthesizing information to harmonize with the larger information landscape requires wide reading and analysis but is essential for the user experience, since users often bounce from one information source to another as they consume information."
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "AI starting to diminish work for student essay ghostwriters"
 permalink: /blog/ai-diminishing-academic-ghostwriters-cheating
 date: 2023-05-19

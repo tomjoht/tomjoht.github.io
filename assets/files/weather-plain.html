@@ -1,0 +1,26 @@
+<html>
+   <meta charset="UTF-8">
+   <head>
+      <title>Sample page</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script>
+         var settings = {
+         "async": true,
+         "crossDomain": true,
+         "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&units=imperial&appid=7e34aa1b1b97fe8e6e0233e91782bfb8",
+         "method": "GET"
+         }
+
+         $.ajax(settings).done(function (response) {
+                 console.log(response);
+                 var content = response.wind.speed;
+                 $("#windSpeed").append(content);
+               });
+
+      </script>
+   </head>
+   <body>
+      <h1>Sample Page</h1>
+      wind speed: <span id="windSpeed"></span>
+   </body>
+</html>
