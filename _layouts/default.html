@@ -175,9 +175,6 @@
             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 
 {% include sidebar.html %}
-{% comment %}
-{% include notestoc.html %}
-{% endcomment %}
 {% include sidebar_comics.html %}
 
 {% unless page.collection == "docs" %}
@@ -198,7 +195,7 @@
 {% if page.series %}<div class="subheading">Series: {{page.series}}</div>{% endif %}
 <p class="page-meta">
   {% unless page.byline == false %}
-<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a href="{{ post.url }}#commento"></a></i><br/>
+<i> by {{page.author}} on {{ page.date | date: "%b %-d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a> <a href="{{ post.url }}#commento"></a></i><br/>
   {% endunless %}
 {% if page.categories %}
 <span id="pageCategories">
@@ -207,18 +204,21 @@
 </span>
 {% endfor %}
 {% endif %}
+{% endif %}
+{% if page.collection == "docs" %}
+
 {% unless page.last-modified == null %}
 <div class="lastModifiedDate">
-Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/learnapidoc/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a>
+Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" style="color: black" href="{{page.path | prepend: "https://github.com/tomjoht/tomjoht.github.io/blob/main/"}}"><i class="fa fa-github fa-lg"></i></a>
 
 </div>
 {% endunless %}
+{% endif %}
 
 {% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
 
 {% include toc.html %}
 
-{% endif %}
 
 {% if page.collection == "docs" %}
 <p>{% include markprompt.html %}</p>
