@@ -111,7 +111,7 @@ In the following sections, we'll proceed through each of these objects one by on
 
 With each step, you'll paste the object you're working on into the Swagger Editor. The right pane of the Swagger Editor will show the Swagger UI display. (Remember that the specification document alone does nothing with your content. Other tools are required to read and display the spec document.)
 
-Later, when I talk more about publishing, I'll explain how to configure Swagger UI with your specification document as a standalone output. For our sample OpenWeatherMap API, you can see the OpenAPI spec ([`openapi_openweathermap.yml`](https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml)) rendered by the Swagger UI at the following links:
+Later, when I talk more about publishing, I'll explain how to configure Swagger UI with your specification document as a standalone output. For our sample OpenWeatherMap API, you can see the OpenAPI spec ([`openapi_openweathermap.yml`](https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml)) rendered by the Swagger UI at the following links:
 
 * [Standalone Swagger UI with OpenWeatherMap API](https://idratherbewriting.com/learnapidoc/assets/files/swagger/)
 * [Embedded Swagger with OpenWeatherMap API](https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.html)

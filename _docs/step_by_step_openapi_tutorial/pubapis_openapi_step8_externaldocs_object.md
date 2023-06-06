@@ -60,7 +60,7 @@ Now that we've completed all the steps in the tutorial, we're finished building 
 
 {% include random_ad4.html %}
 
-You can see the complete specification document here: <a href="https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml">openapi_openweathermap.yml</a>.
+You can see the complete specification document here: <a href="https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml">openapi_openweathermap.yml</a>.
 
 Here's the specification document rendered by Swagger UI:
 

@@ -127,7 +127,7 @@ First, you'll make sure you can view Swagger locally. Then you'll switch the Pet
     url: "https://petstore.swagger.io/v2/swagger.json",
     ```
 
-6.  Change the `url` value to an online web URL to your Swagger file. For example: `https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml`. Then save the file.
+6.  Change the `url` value to an online web URL to your Swagger file. For example: `https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml`. Then save the file.
 
     {: .note}
     If the `url` reference isn't to an *online* URL (but rather to a local file), Swagger UI will create an CORS (cross-origin resource sharing) error. To view Swagger UI with a local OpenAPI file, you can run a [simple Python server locally](https://docs.python.org/2/library/simplehttpserver.html) to simulate a web server (this requires you to install Python).
@@ -225,7 +225,7 @@ For more details on using the Python simple server, see [How do you set up a loc
 
 By default, SwaggerUI has the Petstore OpenAPI document configured in the `url` parameter in the `index.html` file. You need to swap in your local file instead.
 
-1.  Download the [this OpenAPI document](https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) (right-click the link and save the YAML file to your desktop.).
+1.  Download the [this OpenAPI document](https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) (right-click the link and save the YAML file to your desktop.).
 
 2.  Drag your OpenAPI specification file, `openapi_openweathermap.yml`, into the `dist` folder. Your file structure should look as follows:
 

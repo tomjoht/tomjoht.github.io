@@ -10,7 +10,7 @@ no_newsletter: true
 last-modified: 2012-06-03
 ---
 
-<p>When you use Swagger UI, it's not necessary for the Swagger UI output to be a <a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger">standalone site</a>. You can also embed Swagger into an existing web page. The following is an embedded instance of the <a href="https://github.com/swagger-api/swagger-ui">Swagger UI</a> showing the <a href="https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml">OpenAPI file for the OpenWeatherMapAPI</a>.</p>
+<p>When you use Swagger UI, it's not necessary for the Swagger UI output to be a <a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger">standalone site</a>. You can also embed Swagger into an existing web page. The following is an embedded instance of the <a href="https://github.com/swagger-api/swagger-ui">Swagger UI</a> showing the <a href="https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml">OpenAPI file for the OpenWeatherMapAPI</a>.</p>
 
 {% include random_ad4.html %}
 
@@ -84,7 +84,7 @@ window.onload = function() {
 
   // Build a system
   const ui = SwaggerUIBundle({
-    url: "https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml",
+    url: "https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml",
     // url: "http://petstore.swagger.io/v2/swagger.json",
     dom_id: '#swagger-ui',
     defaultModelsExpandDepth: -1,

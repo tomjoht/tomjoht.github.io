@@ -130,7 +130,7 @@ You might not need to create aliases like this, and you might be using another p
 
 In this step, you'll break up an existing OpenAPI file into smaller files. We'll use a sample OpenAPI file that we've been using in other places in this course.
 
-1.  Download the [openapi_openweathermap.yml](https://idratherbewriting.com/learnapidoc/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) file.
+1.  Download the [openapi_openweathermap.yml](https://idratherbewriting.com/docs/openapi_spec_and_generated_ref_docs/openapi_openweathermap.yml) file.
 
     Right-click the file and choose **Save Link As**. Save it in a folder called `redocly_project` in a convenient location. This OpenAPI definition is a small OpenAPI 3.0 file for one API in the [OpenWeatherMap API](https://openweathermap.org/api). Note that you can use another OpenAPI definition in this tutorial if you prefer. There's nothing special about this file &mdash; it just gives us an OpenAPI definition to work with.
 
