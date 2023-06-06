@@ -60,7 +60,7 @@ collections:
   podcasts:
     output: true
   youngadultnovel:
-    output: true
+    output: false
   user_centered_doc:
     output: true
 sass:
