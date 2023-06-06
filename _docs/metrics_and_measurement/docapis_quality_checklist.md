@@ -7,10 +7,9 @@ sidebar: docapis
 section: metrics
 path1: learnapidoc/docapis_metrics_and_measurement.html
 last-modified: 2022-02-07
-redirect_from:
-- /learnapidoc/docapis_metrics_second_level_checklist
-- /learnapidoc/docapis_metrics_first_level_checklist
 ---
+
+page.url: {{page.url}}
 
 *This section continues from the previous page, [Different approaches for assessing information quality](docapis_metrics_assessing_information_quality.html).*
 

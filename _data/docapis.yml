@@ -2,578 +2,563 @@ sidebartitle: Documenting APIs
 folders:
 
 - title: "I: Introduction to REST APIs"
-  jurl: learnapidoc/docapis_introtoapis.html
   section: one
   class: first
   folderitems:
 
   - title: "Section Overview" 
-    jurl: learnapidoc/docapis_introtoapis.html
+    jurl: /learnapidoc/docapis_introtoapis.html
     type: web
 
   - title: Course Overview
-    jurl: learnapidoc/index.html
+    jurl: /learnapidoc/index.html
 
   - title: "What's new"
-    jurl: learnapidoc/docapis_whats_new.html
+    jurl: /learnapidoc/docapis_whats_new.html
 
   - title: Workshop video recordings
-    jurl: learnapidoc/docapis_course_videos.html
+    jurl: /learnapidoc/docapis_course_videos.html
 
   - title: PDF and eBook formats
-    jurl: learnapidoc/docapis_formats.html
+    jurl: /learnapidoc/docapis_formats.html
 
   - title: Workshop agenda, slides, activities
-    jurl: learnapidoc/workshop.html
+    jurl: /learnapidoc/workshop.html
 
   - title: Why I developed this course
-    jurl: learnapidoc/docapis_foreword.html
+    jurl: /learnapidoc/docapis_foreword.html
 
   - title: About the author
-    jurl: learnapidoc/docapis_about_the_author.html
+    jurl: /learnapidoc/docapis_about_the_author.html
 
   - title: Introduction to REST API documentation
-    jurl: learnapidoc/docapis_intro_to_rest_api_doc.html
+    jurl: /learnapidoc/docapis_intro_to_rest_api_doc.html
 
   - title: What is a REST API?
-    jurl: learnapidoc/docapis_what_is_a_rest_api.html
+    jurl: /learnapidoc/docapis_what_is_a_rest_api.html
 
   - title: "Activity: Identify your goals"
-    jurl: learnapidoc/docapis_identify_your_goals.html
+    jurl: /learnapidoc/docapis_identify_your_goals.html
 
   - title: "Developer Documentation Trends: Survey Results"
-    jurl: learnapidoc/docapis_trends.html
+    jurl: /learnapidoc/docapis_trends.html
 
   - title: "Glossary"
-    jurl: learnapidoc/api-glossary.html
+    jurl: /learnapidoc/api-glossary.html
 
 - title: "II: Using an API like a developer"
-  jurl: learnapidoc/likeadeveloper.html
   section: two
   folderitems:
 
   - title: "Section Overview" 
-    jurl: learnapidoc/likeadeveloper.html
+    jurl: /learnapidoc/likeadeveloper.html
     type: web
 
   - title: "Scenario for using a weather API"
-    jurl: learnapidoc/docapis_scenario_for_using_weather_api.html
+    jurl: /learnapidoc/docapis_scenario_for_using_weather_api.html
 
   - title: "Get authorization keys"
-    jurl: learnapidoc/docapis_get_auth_keys.html
+    jurl: /learnapidoc/docapis_get_auth_keys.html
 
   - title: "Submit requests through Postman"
-    jurl: learnapidoc/docapis_postman.html
+    jurl: /learnapidoc/docapis_postman.html
 
   - title: "curl intro and installation"
-    jurl: learnapidoc/docapis_install_curl.html
+    jurl: /learnapidoc/docapis_install_curl.html
 
   - title: "Make a curl call"
-    jurl: learnapidoc/docapis_make_curl_call.html
+    jurl: /learnapidoc/docapis_make_curl_call.html
 
   - title: "Understand curl more"
-    jurl: learnapidoc/docapis_understand_curl.html
+    jurl: /learnapidoc/docapis_understand_curl.html
 
   - title: "Activity: Use methods with curl"
-    jurl: learnapidoc/docapis_curl_with_petstore.html
+    jurl: /learnapidoc/docapis_curl_with_petstore.html
 
   - title: "Analyze the JSON response"
-    jurl: learnapidoc/docapis_analyze_json.html
+    jurl: /learnapidoc/docapis_analyze_json.html
 
   - title: "Inspect the JSON from the response payload"
-    jurl: learnapidoc/docapis_json_console.html
+    jurl: /learnapidoc/docapis_json_console.html
 
   - title: "Access and print a specific JSON value"
-    jurl: learnapidoc/docapis_access_json_values.html
+    jurl: /learnapidoc/docapis_access_json_values.html
 
   - title: "Dive into dot notation"
-    jurl: learnapidoc/docapis_diving_into_dot_notation.html
+    jurl: /learnapidoc/docapis_diving_into_dot_notation.html
 
 - title: "III: Documenting API endpoints"
-  jurl: learnapidoc/docendpoints.html
   section: three
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/docendpoints.html
+    jurl: /learnapidoc/docendpoints.html
     type: web
 
   - title: "A new endpoint to document"
-    jurl: learnapidoc/docapis_new_endpoint_to_doc.html
+    jurl: /learnapidoc/docapis_new_endpoint_to_doc.html
 
   - title: "API reference tutorial overview"
-    jurl: learnapidoc/docapis_api_reference_tutorial_overview.html
+    jurl: /learnapidoc/docapis_api_reference_tutorial_overview.html
 
   - title: "Step 1: Resource description"
-    jurl: learnapidoc/docapis_resource_descriptions.html
+    jurl: /learnapidoc/docapis_resource_descriptions.html
 
   - title: "Step 2: Endpoints and methods"
-    jurl: learnapidoc/docapis_resource_endpoints.html
+    jurl: /learnapidoc/docapis_resource_endpoints.html
 
   - title: "Step 3: Parameters"
-    jurl: learnapidoc/docapis_doc_parameters.html
+    jurl: /learnapidoc/docapis_doc_parameters.html
 
   - title: "Step 4: Request example"
-    jurl: learnapidoc/docapis_doc_sample_requests.html
+    jurl: /learnapidoc/docapis_doc_sample_requests.html
 
   - title: "Step 5: Response example and schema"
-    jurl: learnapidoc/docapis_doc_sample_responses_and_schema.html
+    jurl: /learnapidoc/docapis_doc_sample_responses_and_schema.html
 
   - title: "Putting it all together"
-    jurl: learnapidoc/docapis_finished_doc_result.html
+    jurl: /learnapidoc/docapis_finished_doc_result.html
 
   - title: "Activity: What's wrong with this API reference topic"
-    jurl: learnapidoc/docapis_api_whats_wrong_activity.html
+    jurl: /learnapidoc/docapis_api_whats_wrong_activity.html
 
   - title: "Activity: Evaluate API reference docs for core elements"
-    jurl: learnapidoc/docapis_api_reference_activity.html
+    jurl: /learnapidoc/docapis_api_reference_activity.html
 
 - title: "IV: OpenAPI spec and generated reference docs"
-  jurl: learnapidoc/restapispecifications.html
   section: four
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/restapispecifications.html
+    jurl: /learnapidoc/restapispecifications.html
     type: web
 
   - title: "Overview of REST API specification formats"
-    jurl: learnapidoc/pubapis_rest_specification_formats.html
+    jurl: /learnapidoc/pubapis_rest_specification_formats.html
 
   - title: "Introduction to the OpenAPI specification"
-    jurl: learnapidoc/pubapis_openapi_intro.html
+    jurl: /learnapidoc/pubapis_openapi_intro.html
 
   - title: "Stoplight: Visual modeling tools for creating your spec"
-    jurl: learnapidoc/pubapis_stoplight.html
+    jurl: /learnapidoc/pubapis_stoplight.html
 
   - title: "Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document"
-    jurl: learnapidoc/pubapis_openapis_quickstart_stoplight.html
+    jurl: /learnapidoc/pubapis_openapis_quickstart_stoplight.html
 
   - title: "Swagger UI tutorial"
-    jurl: learnapidoc/pubapis_swagger.html
+    jurl: /learnapidoc/pubapis_swagger.html
 
   - title: "SwaggerHub introduction and tutorial"
-    jurl: learnapidoc/pubapis_swaggerhub_smartbear.html
+    jurl: /learnapidoc/pubapis_swaggerhub_smartbear.html
 
   - title: "Swagger UI Demo"
-    jurl: learnapidoc/pubapis_swagger_demo.html
+    jurl: /learnapidoc/pubapis_swagger_demo.html
 
   - title: "Integrating Swagger UI with the rest of your docs"
-    jurl: learnapidoc/pubapis_combine_swagger_and_guide.html
+    jurl: /learnapidoc/pubapis_combine_swagger_and_guide.html
 
   - title: "Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools"
-    jurl: learnapidoc/pubapis_redocly.html
+    jurl: /learnapidoc/pubapis_redocly.html
 
   - title: "Redoc Community Edition Basic Demo"
-    jurl: learnapidoc/pubapis_redoc.html
+    jurl: /learnapidoc/pubapis_redoc.html
 
 - title: "V: Step-by-step OpenAPI code tutorial"
-  jurl: learnapidoc/openapi_tutorial.html
   section: five
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/openapi_tutorial.html
+    jurl: /learnapidoc/openapi_tutorial.html
     type: web
 
   - title: "OpenAPI tutorial using Swagger Editor and Swagger UI: Overview"
-    jurl: learnapidoc/pubapis_openapi_tutorial_overview.html
+    jurl: /learnapidoc/pubapis_openapi_tutorial_overview.html
 
   - title: "Working in YAML"
-    jurl: learnapidoc/pubapis_yaml.html
+    jurl: /learnapidoc/pubapis_yaml.html
 
   - title: "Step 1: The openapi object"
-    jurl: learnapidoc/pubapis_openapi_step1_openapi_object.html
+    jurl: /learnapidoc/pubapis_openapi_step1_openapi_object.html
 
   - title: "Step 2: The info object"
-    jurl: learnapidoc/pubapis_openapi_step2_info_object.html
+    jurl: /learnapidoc/pubapis_openapi_step2_info_object.html
 
   - title: "Step 3: The servers object"
-    jurl: learnapidoc/pubapis_openapi_step3_servers_object.html
+    jurl: /learnapidoc/pubapis_openapi_step3_servers_object.html
 
   - title: "Step 4: The paths object"
-    jurl: learnapidoc/pubapis_openapi_step4_paths_object.html
+    jurl: /learnapidoc/pubapis_openapi_step4_paths_object.html
 
   - title: "Step 5: The components object"
-    jurl: learnapidoc/pubapis_openapi_step5_components_object.html
+    jurl: /learnapidoc/pubapis_openapi_step5_components_object.html
 
   - title: "Step 6: security object"
-    jurl: learnapidoc/pubapis_openapi_step6_security_object.html
+    jurl: /learnapidoc/pubapis_openapi_step6_security_object.html
 
   - title: "Step 7: The tags object"
-    jurl: learnapidoc/pubapis_openapi_step7_tags_object.html
+    jurl: /learnapidoc/pubapis_openapi_step7_tags_object.html
 
   - title: "Step 8: The externalDocs object"
-    jurl: learnapidoc/pubapis_openapi_step8_externaldocs_object.html
+    jurl: /learnapidoc/pubapis_openapi_step8_externaldocs_object.html
 
   - title: "Activity: Create an OpenAPI specification document"
-    jurl: learnapidoc/pubapis_openapi_activity.html
+    jurl: /learnapidoc/pubapis_openapi_activity.html
 
 - title: "VI: Testing API docs"
-  jurl: learnapidoc/testingdocs.html
   section: six
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/testingdocs.html
+    jurl: /learnapidoc/testingdocs.html
     type: web
 
   - title: "Overview of testing your docs"
-    jurl: learnapidoc/testingdocs_overview.html
+    jurl: /learnapidoc/testingdocs_overview.html
 
   - title: "Set up a test environment"
-    jurl: learnapidoc/testingdocs_test_environment.html
+    jurl: /learnapidoc/testingdocs_test_environment.html
 
   - title: "Test all instructions yourself"
-    jurl: learnapidoc/testingdocs_test_your_instructions.html
+    jurl: /learnapidoc/testingdocs_test_your_instructions.html
 
   - title: "Test your assumptions"
-    jurl: learnapidoc/testingdocs_testing_assumptions.html
+    jurl: /learnapidoc/testingdocs_testing_assumptions.html
 
   - title: "Activity: Test your project's documentation"
-    jurl: learnapidoc/testingdocs_activity.html
+    jurl: /learnapidoc/testingdocs_activity.html
 
 - title: "VII: Conceptual topics in API docs"
-  jurl: learnapidoc/docconceptual.html
   section: seven
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/docconceptual.html
+    jurl: /learnapidoc/docconceptual.html
     type: web
 
   - title: "API conceptual topics overview"
-    jurl: learnapidoc/docapis_conceptual_topics_overview.html
+    jurl: /learnapidoc/docapis_conceptual_topics_overview.html
 
   - title: "API product overviews"
-    jurl: learnapidoc/docapis_doc_overview.html
+    jurl: /learnapidoc/docapis_doc_overview.html
 
   - title: "API getting started tutorials"
-    jurl: learnapidoc/docapis_doc_getting_started_section.html
+    jurl: /learnapidoc/docapis_doc_getting_started_section.html
 
   - title: API authentication and authorization
-    jurl: learnapidoc/docapis_more_about_authorization.html
+    jurl: /learnapidoc/docapis_more_about_authorization.html
 
   - title: "API status and error codes"
-    jurl: learnapidoc/docapis_doc_status_codes.html
+    jurl: /learnapidoc/docapis_doc_status_codes.html
 
   - title: "API rate limiting and thresholds"
-    jurl: learnapidoc/docapis_rate_limiting_and_thresholds.html
+    jurl: /learnapidoc/docapis_rate_limiting_and_thresholds.html
 
   - title: "API quick reference"
-    jurl: learnapidoc/docapis_doc_quick_reference.html
+    jurl: /learnapidoc/docapis_doc_quick_reference.html
 
   - title: "API glossary"
-    jurl: learnapidoc/docapis_glossary_section.html
+    jurl: /learnapidoc/docapis_glossary_section.html
 
   - title: "API best practices"
-    jurl: learnapidoc/docapis_best_practices_with_api.html
+    jurl: /learnapidoc/docapis_best_practices_with_api.html
 
   - title: "Activity: Complete the SendGrid Getting Started tutorial"
-    jurl: learnapidoc/docapis_getting_started_activity.html
+    jurl: /learnapidoc/docapis_getting_started_activity.html
 
   - title: "Activity: Assess the conceptual content in your project"
-    jurl: learnapidoc/docapis_concept_activity.html
+    jurl: /learnapidoc/docapis_concept_activity.html
 
 - title: "VIII: Code tutorials"
-  jurl: learnapidoc/docapiscode.html
   section: eight
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/docapiscode.html
+    jurl: /learnapidoc/docapiscode.html
     type: web
 
   - title: "Common characteristics of code tutorials"
-    jurl: learnapidoc/docapis_code_tutorials_common_characteristics.html
+    jurl: /learnapidoc/docapis_code_tutorials_common_characteristics.html
 
   - title: Why documenting code is so difficult
-    jurl: learnapidoc/docapis_code_difficulty.html
+    jurl: /learnapidoc/docapis_code_difficulty.html
 
   - title: What research tells us about documenting code
-    jurl: learnapidoc/docapiscode_research_on_documenting_code.html
+    jurl: /learnapidoc/docapiscode_research_on_documenting_code.html
 
   - title: Five strategies for documenting code
-    jurl: learnapidoc/docapis_code_strategies.html
+    jurl: /learnapidoc/docapis_code_strategies.html
 
   - title: Code samples
-    jurl: learnapidoc/docapis_codesamples_bestpractices.html
+    jurl: /learnapidoc/docapis_codesamples_bestpractices.html
 
   - title: Sample apps
-    jurl: learnapidoc/docapis_sample_apps.html
+    jurl: /learnapidoc/docapis_sample_apps.html
 
   - title: SDKs (software development kits)
-    jurl: learnapidoc/docapis_sdks.html
+    jurl: /learnapidoc/docapis_sdks.html
 
   - title: "API design and usability"
-    jurl: learnapidoc/evaluating-api-design.html
+    jurl: /learnapidoc/evaluating-api-design.html
 
   - title: "Developer experience (DevX) usability"
-    jurl: learnapidoc/devx-usability-examples.html
+    jurl: /learnapidoc/devx-usability-examples.html
 
 - title: "IX: The writing process"
-  jurl: learnapidoc/writing_process.html
   section: nine
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/writing_process.html
+    jurl: /learnapidoc/writing_process.html
     type: web
 
   - title: "Overview of the writing process"
-    jurl: learnapidoc/docapis_writing_process_overview.html
+    jurl: /learnapidoc/docapis_writing_process_overview.html
 
   - title: "1. Planning"
-    jurl: learnapidoc/docapis_planning.html
+    jurl: /learnapidoc/docapis_planning.html
 
   - title: "2. Information gathering"
-    jurl: learnapidoc/docapis_information_gathering.html
+    jurl: /learnapidoc/docapis_information_gathering.html
 
   - title: "3. Writing"
-    jurl: learnapidoc/docapis_writing.html
+    jurl: /learnapidoc/docapis_writing.html
 
   - title: "4. Reviewing"
-    jurl: learnapidoc/docapis_reviewing.html
+    jurl: /learnapidoc/docapis_reviewing.html
 
   - title: "5. Publishing"
-    jurl: learnapidoc/docapis_publishing.html
+    jurl: /learnapidoc/docapis_publishing.html
 
 - title: "X: Publishing API docs"
-  jurl: learnapidoc/publishingapis.html
   section: ten
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/publishingapis.html
+    jurl: /learnapidoc/publishingapis.html
     type: web
 
   - title: "Overview for publishing API docs"
-    jurl: learnapidoc/pubapis_overview.html
+    jurl: /learnapidoc/pubapis_overview.html
 
   - title: "Survey of API doc sites"
-    jurl: learnapidoc/pubapis_apilist.html
+    jurl: /learnapidoc/pubapis_apilist.html
 
   - title: "Design patterns with API doc sites"
-    jurl: learnapidoc/pubapis_design_patterns.html
+    jurl: /learnapidoc/pubapis_design_patterns.html
 
   - title: "Docs-as-code tools"
-    jurl: learnapidoc/pubapis_docs_as_code.html
+    jurl: /learnapidoc/pubapis_docs_as_code.html
 
   - title: "More about Markdown"
-    jurl: learnapidoc/pubapis_markdown.html
+    jurl: /learnapidoc/pubapis_markdown.html
 
   - title: "Version control systems (e.g., Git)"
-    jurl: learnapidoc/pubapis_version_control.html
+    jurl: /learnapidoc/pubapis_version_control.html
 
   - title: "Activity: Manage content in a GitHub wiki"
-    jurl: learnapidoc/pubapis_github_wikis.html
+    jurl: /learnapidoc/pubapis_github_wikis.html
 
   - title: "Activity: Use the GitHub Desktop Client"
-    jurl: learnapidoc/pubapis_github_desktop_client.html
+    jurl: /learnapidoc/pubapis_github_desktop_client.html
 
   - title: "Activity: Pull request workflows through GitHub"
-    jurl: learnapidoc/pubapis_github_pull_requests.html
+    jurl: /learnapidoc/pubapis_github_pull_requests.html
 
   - title: "Static site generators"
-    jurl: learnapidoc/pubapis_static_site_generators.html
+    jurl: /learnapidoc/pubapis_static_site_generators.html
 
   - title: "Hosting and deployment options"
-    jurl: learnapidoc/pubapis_hosting_and_deployment.html
+    jurl: /learnapidoc/pubapis_hosting_and_deployment.html
 
   - title: "Hybrid documentation systems"
-    jurl: learnapidoc/pubapis_hybrid_systems.html
+    jurl: /learnapidoc/pubapis_hybrid_systems.html
 
   - title: "Using Oxygen XML with docs-as-code workflows"
-    jurl: learnapidoc/pubapis_oxygenxml.html
+    jurl: /learnapidoc/pubapis_oxygenxml.html
 
   - title: "Blobr: An API portal that arranges your API's use cases as individual products"
-    jurl: learnapidoc/pubapis_blobr.html
+    jurl: /learnapidoc/pubapis_blobr.html
 
   - title: "Which tool to choose for API docs &mdash; my recommendations"
-    jurl: learnapidoc/pubapis_which_tool_to_choose.html
+    jurl: /learnapidoc/pubapis_which_tool_to_choose.html
 
   - title: "Jekyll and CloudCannon continuous deployment tutorial"
-    jurl: learnapidoc/pubapis_jekyll.html
+    jurl: /learnapidoc/pubapis_jekyll.html
 
   - title: "Case study: Switching tools to docs-as-code"
-    jurl: learnapidoc/pubapis_switching_to_docs_as_code.html
+    jurl: /learnapidoc/pubapis_switching_to_docs_as_code.html
 
   - title: "Tools FAQ"
-    jurl: learnapidoc/docapis_faq_tools.html
+    jurl: /learnapidoc/docapis_faq_tools.html
 
 - title: "XI: Thriving in the API doc space"
-  jurl: learnapidoc/jobapis.html
   section: eleven
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/jobapis.html
+    jurl: /learnapidoc/jobapis.html
     type: web
 
   - title: "The job market for API technical writers"
-    jurl: learnapidoc/jobapis_overview.html
+    jurl: /learnapidoc/jobapis_overview.html
 
   - title: "How much code do you need to know?"
-    jurl: learnapidoc/jobapis_learning_code.html
+    jurl: /learnapidoc/jobapis_learning_code.html
 
   - title: "Best locations for API documentation jobs"
-    jurl: learnapidoc/jobapis_location.html
+    jurl: /learnapidoc/jobapis_location.html
 
   - title: "Activity: Find an Open-Source Project"
-    jurl: learnapidoc/docapis_find_open_source_project.html
+    jurl: /learnapidoc/docapis_find_open_source_project.html
 
   - title: "Activity: Create or fix an API reference documentation topic"
-    jurl: learnapidoc/docapis_work_on_conceptual_topic.html
+    jurl: /learnapidoc/docapis_work_on_conceptual_topic.html
 
 - title: "XII: Native library APIs"
-  jurl: learnapidoc/nativelibraryapis.html
   section: twelve
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/nativelibraryapis.html
+    jurl: /learnapidoc/nativelibraryapis.html
     type: web
 
   - title: "Overview of native library APIs"
-    jurl: learnapidoc/nativelibraryapis_overview.html
+    jurl: /learnapidoc/nativelibraryapis_overview.html
 
   - title: "Get the sample Java project"
-    jurl: learnapidoc/nativelibraryapis_getting_the_source.html
+    jurl: /learnapidoc/nativelibraryapis_getting_the_source.html
 
   - title: "Java crash course"
-    jurl: learnapidoc/nativelibraryapis_java_crash_course.html
+    jurl: /learnapidoc/nativelibraryapis_java_crash_course.html
 
   - title: "Activity: Generate a Javadoc from a sample project"
-    jurl: learnapidoc/nativelibraryapis_create_javadoc.html
+    jurl: /learnapidoc/nativelibraryapis_create_javadoc.html
 
   - title: "Javadoc tags"
-    jurl: learnapidoc/nativelibraryapis_javadoc_tags.html
+    jurl: /learnapidoc/nativelibraryapis_javadoc_tags.html
 
   - title: "Explore the Javadoc output"
-    jurl: learnapidoc/nativelibraryapis_exploring_javadoc_output.html
+    jurl: /learnapidoc/nativelibraryapis_exploring_javadoc_output.html
 
   - title: "Make edits to Javadoc tags"
-    jurl: learnapidoc/nativelibraryapis_editing_javadoc.html
+    jurl: /learnapidoc/nativelibraryapis_editing_javadoc.html
 
   - title: "Doxygen, a document generator mainly for C++"
-    jurl: learnapidoc/nativelibraryapis_doxygen.html
+    jurl: /learnapidoc/nativelibraryapis_doxygen.html
 
   - title: "Create non-ref docs with native library APIs"
-    jurl: learnapidoc/nativelibraryapis_nonrefdocs.html
+    jurl: /learnapidoc/nativelibraryapis_nonrefdocs.html
 
 - title: "XIII: Processes and methodology"
-  jurl: learnapidoc/docapis_managing_doc_processes.html
   section: thirteen
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/docapis_managing_doc_processes.html
+    jurl: /learnapidoc/docapis_managing_doc_processes.html
     type: web
 
   - title: "DX content strategy with developer portals"
-    jurl: learnapidoc/docapis_dx_content_strategy.html
+    jurl: /learnapidoc/docapis_dx_content_strategy.html
 
   - title: "Following agile scrum with documentation projects"
-    jurl: learnapidoc/pubapis_agile_scrum_for_docs.html
+    jurl: /learnapidoc/pubapis_agile_scrum_for_docs.html
 
   - title: "Managing large documentation projects"
-    jurl: learnapidoc/docapis_managing_doc_projects.html
+    jurl: /learnapidoc/docapis_managing_doc_projects.html
 
   - title: "Managing small documentation requests"
-    jurl: learnapidoc/docapis_managing_small_doc_requests.html
+    jurl: /learnapidoc/docapis_managing_small_doc_requests.html
 
   - title: "Managing SDK releases"
-    jurl: learnapidoc/docapis_managing_sdk_releases.html
+    jurl: /learnapidoc/docapis_managing_sdk_releases.html
 
   - title: "Documentation kickoff meetings and product demos"
-    jurl: learnapidoc/docapis_kickoff_meeting_agenda.html
+    jurl: /learnapidoc/docapis_kickoff_meeting_agenda.html
 
   - title: "Processes for reviewing documentation"
-    jurl: learnapidoc/docapis_review_processes.html
+    jurl: /learnapidoc/docapis_review_processes.html
 
   - title: "Maintaining existing documentation"
-    jurl: learnapidoc/docapis_doc_maintenance_processes.html
+    jurl: /learnapidoc/docapis_doc_maintenance_processes.html
 
   - title: "Collecting feedback post-release"
-    jurl: learnapidoc/docapis_collecting_feedback_post_release.html
+    jurl: /learnapidoc/docapis_collecting_feedback_post_release.html
 
   - title: "Managing content from external contributors"
-    jurl: learnapidoc/docapis_processes_for_external_contributors.html
+    jurl: /learnapidoc/docapis_processes_for_external_contributors.html
 
   - title: "Changing internal doc culture"
-    jurl: learnapidoc/docapis_changing_internal_doc_culture.html
+    jurl: /learnapidoc/docapis_changing_internal_doc_culture.html
 
   - title: "Sending doc status reports -- a tool for visibility and relationship building"
-    jurl: learnapidoc/docapis_status_reports.html
+    jurl: /learnapidoc/docapis_status_reports.html
 
   - title: Broadcasting your meeting notes to influence a wider audience
-    jurl: learnapidoc/docapis_meeting_notes.html
+    jurl: /learnapidoc/docapis_meeting_notes.html
 
   - title: "Ensuring documentation coverage with each software release"
-    jurl: learnapidoc/docapis_release_process.html
+    jurl: /learnapidoc/docapis_release_process.html
 
 - title: "XIV: Metrics and measurement"
-  jurl: learnapidoc/docapis_metrics_and_measurement.html
   section: fourteen
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/docapis_metrics_and_measurement.html
+    jurl: /learnapidoc/docapis_metrics_and_measurement.html
     type: web
 
   - title: Measuring documentation quality through user feedback
-    jurl: learnapidoc/docapis_measuring_impact.html
+    jurl: /learnapidoc/docapis_measuring_impact.html
 
   - title: Different approaches for assessing information quality
-    jurl: learnapidoc/docapis_metrics_assessing_information_quality.html
+    jurl: /learnapidoc/docapis_metrics_assessing_information_quality.html
 
   - title: Quality checklist for API documentation
-    jurl: learnapidoc/docapis_quality_checklist.html
+    jurl: /learnapidoc/docapis_quality_checklist.html
 
   - title: Quantifying your progress
-    jurl: learnapidoc/docapis_metrics_quantifying_progress.html
+    jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
 - title: "XV: Additional resources"
-  jurl: learnapidoc/resources.html
   section: fifteen
   folderitems:
 
   - title: "Section overview"
-    jurl: learnapidoc/resources.html
+    jurl: /learnapidoc/resources.html
     type: web
 
   - title: "Documenting GraphQL APIs"
-    jurl: learnapidoc/docapis_graphql_apis.html
+    jurl: /learnapidoc/docapis_graphql_apis.html
 
   - title: "More REST API activities"
-    jurl: learnapidoc/docapis_more_rest_activities.html
+    jurl: /learnapidoc/docapis_more_rest_activities.html
 
   - title: "Activity: Get event information using the Eventbrite API"
-    jurl: learnapidoc/docapis_eventbrite_example.html
+    jurl: /learnapidoc/docapis_eventbrite_example.html
 
   - title: "Activity: Retrieve a gallery using the Flickr API"
-    jurl: learnapidoc/docapis_flickr_example.html
+    jurl: /learnapidoc/docapis_flickr_example.html
 
   - title: "Activity: Get wind speed using the Aeris Weather API"
-    jurl: learnapidoc/docapis_aerisweather_example.html
+    jurl: /learnapidoc/docapis_aerisweather_example.html
 
   - title: "RAML tutorial"
-    jurl: learnapidoc/pubapis_raml.html
+    jurl: /learnapidoc/pubapis_raml.html
 
   - title: "API Blueprint tutorial"
-    jurl: learnapidoc/pubapis_api_blueprint.html
+    jurl: /learnapidoc/pubapis_api_blueprint.html
 
   - title: "API jeopardy answer key"
-    jurl: learnapidoc/jeopardy_answer_key.html
+    jurl: /learnapidoc/jeopardy_answer_key.html
 
   - title: "What's wrong with this topic answer key"
-    jurl: learnapidoc/whats_wrong_answer_key.html
+    jurl: /learnapidoc/whats_wrong_answer_key.html
 
   - title: "Menlo Park API workshop video recording"
-    jurl: learnapidoc/menlo_park_workshop_recording.html
+    jurl: /learnapidoc/menlo_park_workshop_recording.html
 
   - title: "Denver API workshop video recording"
-    jurl: learnapidoc/denver_workshop_recording.html
+    jurl: /learnapidoc/denver_workshop_recording.html
 
   - title: "API doc presentation video recordings"
-    jurl: learnapidoc/api_doc_presentations.html
+    jurl: /learnapidoc/api_doc_presentations.html

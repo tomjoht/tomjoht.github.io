@@ -1,36 +1,36 @@
 sidebartitle: Jekyll versus DITA
 folders:
 - title: "Pages in this series"
-  jurl: 2015/03/23/new-series-jekyll-versus-dita/
+  jurl: /2015/03/23/new-series-jekyll-versus-dita/
   section: one
   class: first
   folderitems:
   - title: "Check out Ed Marsh's podcast, and also My New series: Jekyll versus DITA"
-    jurl: 2015/03/23/new-series-jekyll-versus-dita/
+    jurl: /2015/03/23/new-series-jekyll-versus-dita/
 
   - title: "Authoring with Markdown in Jekyll versus Authoring with DITA in OxygenXML"
-    jurl: 2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/
+    jurl: /2015/03/26/misconception-markdown-is-more-limiting-than-dita-jekyll-versus-dita/
 
   - title: Variables and conditional processing in Jekyll versus DITA
-    jurl: 2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/
+    jurl: /2015/03/26/variables-and-conditional-processing-jekyll-versus-dita/
 
   - title: Creating re-usable chunks (conref) in Jekyll versus DITA
-    jurl: 2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/
+    jurl: /2015/04/01/creating-re-usable-chunks-conref-in-jekyll-versus-dita/
 
   - title: Building a table of contents with DITA versus Jekyll
-    jurl: 2015/04/02/building-a-table-of-contents-with-dita-versus-jekyll/
+    jurl: /2015/04/02/building-a-table-of-contents-with-dita-versus-jekyll/
 
   - title: Reviewing content in DITA versus Jekyll
-    jurl: 2015/04/13/reviewing-markdown-content/
+    jurl: /2015/04/13/reviewing-markdown-content/
 
   - title: Producing PDFs in DITA versus Jekyll
-    jurl: 2015/04/14/producing-pdfs-in-dita-versus-jekyll/
+    jurl: /2015/04/14/producing-pdfs-in-dita-versus-jekyll/
 
   - title: Creating links in DITA versus Jekyll
-    jurl: 2015/04/06/creating-links-in-dita-versus-jekyll/
+    jurl: /2015/04/06/creating-links-in-dita-versus-jekyll/
 
   - title: Final analysis between DITA and Jekyll
-    jurl: 2015/04/15/final-analysis-between-dita-and-jekyll/
+    jurl: /2015/04/15/final-analysis-between-dita-and-jekyll/
 
   - title: "Jekyll vs DITA: Bridging the Gap Between Tech Comm and the Web presentation"
-    jurl: 2015/05/14/recording-and-slides-from-jekyll-vs-dita-bridging-the-gap-between-tech-comm-and-the-web-presentation/
+    jurl: /2015/05/14/recording-and-slides-from-jekyll-vs-dita-bridging-the-gap-between-tech-comm-and-the-web-presentation/

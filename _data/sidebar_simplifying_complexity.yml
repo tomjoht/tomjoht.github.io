@@ -1,45 +1,45 @@
 sidebartitle: Simplifying complexity
 folders:
 - title: "Pages in this series"
-  jurl: landing_simplifying_complexity.html
+  jurl: /landing_simplifying_complexity.html
   section: one
   class: first
   folderitems:
   - title: Introduction
-    jurl: simplifying-complexity/index.html
+    jurl: /simplifying-complexity/index.html
 
   - title: "Principle 1: Let users switch between macro and micro views"
-    jurl: simplifying-complexity/macro-micro.html
+    jurl: /simplifying-complexity/macro-micro.html
 
   - title: "Principle 2: Make information discoverable as the user needs it"
-    jurl: simplifying-complexity/discoverability-through-metadata.html
+    jurl: /simplifying-complexity/discoverability-through-metadata.html
 
   - title: "Principle 3: Ensure information harmony in the larger landscape"
-    jurl: simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html
+    jurl: /simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html
 
   - title: "Principle 4: Reduce and distill vast information down to its essence"
-    jurl: simplifying-complexity/reduction-layering-distillation.html
+    jurl: /simplifying-complexity/reduction-layering-distillation.html
 
   - title: "Principle 5: Conform to the patterns and expectations of the genre and schemas"
-    jurl: simplifying-complexity/reducing-complexity-by-shaping-into-schemas-esp-story.html
+    jurl: /simplifying-complexity/reducing-complexity-by-shaping-into-schemas-esp-story.html
 
   - title: "Principle 6: Reconstruct the absent user"
-    jurl: simplifying-complexity/reconstructing-the-absent-user.html
+    jurl: /simplifying-complexity/reconstructing-the-absent-user.html
 
   - title: "Principle 7: Reduce the complexity of technical language"
-    jurl: simplifying-complexity/reducing-the-complexity-of-technical-language.html
+    jurl: /simplifying-complexity/reducing-the-complexity-of-technical-language.html
 
   - title: "Principle 8: Align the product story with the user story"
-    jurl: simplifying-complexity/articulate-invisible-stories-that-influence-action.html
+    jurl: /simplifying-complexity/articulate-invisible-stories-that-influence-action.html
 
   - title: "Principle 9: Iterate and increment on content following an agile approach"
-    jurl: simplifying-complexity/iterative-and-increment-on-content.html
+    jurl: /simplifying-complexity/iterative-and-increment-on-content.html
 
   - title: "Principle 10: Hide complexity with UX design (such as through JS or CSS)"
-    jurl: simplifying-complexity/hiding-complexity.html
+    jurl: /simplifying-complexity/hiding-complexity.html
 
   - title: "Principle 11: Be both a generalist and specialist at the same time"
-    jurl: simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html
+    jurl: /simplifying-complexity/both-a-generalist-and-specialist-at-same-time.html
 
   - title: How to evaluate documentation
-    jurl: simplifying-complexity/how-to-evaluate-documentation.html
+    jurl: /simplifying-complexity/how-to-evaluate-documentation.html

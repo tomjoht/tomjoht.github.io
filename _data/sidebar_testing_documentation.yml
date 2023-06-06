@@ -1,27 +1,27 @@
 sidebartitle: Testing documentation
 folders:
 - title: "Pages in this series"
-  jurl: 2015/07/07/testing-your-instructions/
+  jurl: /2015/07/07/testing-your-instructions/
   section: one
   class: first
   folderitems:
   - title: "The key to writing good documentation: Testing your instructions"
-    jurl: 2015/07/07/testing-your-instructions/
+    jurl: /2015/07/07/testing-your-instructions/
 
   - title: "Should QA test documentation?"
-    jurl: 2015/07/09/should-quality-assurance-test-documentation/
+    jurl: /2015/07/09/should-quality-assurance-test-documentation/
 
   - title: "Communicating feedback from testing documentation"
-    jurl: 2015/07/10/communicating-feedback-from-testing/
+    jurl: /2015/07/10/communicating-feedback-from-testing/
 
   - title: "Should technical writers care about more than documentation?"
-    jurl: 2015/07/14/should-technical-writers-care-about-more-than-documentation/
+    jurl: /2015/07/14/should-technical-writers-care-about-more-than-documentation/
 
   - title: "Should you add your testing scenarios into your documentation?"
-    jurl: 2015/07/27/what-to-do-with-testing-scenarios-and-documentation/
+    jurl: /2015/07/27/what-to-do-with-testing-scenarios-and-documentation/
 
   - title: "How do you test content that's beyond your skill level?"
-    jurl: 2015/07/28/how-to-test-content-beyond-your-skill-level
+    jurl: /2015/07/28/how-to-test-content-beyond-your-skill-level
 
   - title: "How do design, length, and relevance affect how people use API reference docs — interview with Bob Watson"
-    jurl: 2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/
+    jurl: /2015/07/30/bob-watson-phd-dissertation-on-api-doc-mythbusting-testing-usability-performance/

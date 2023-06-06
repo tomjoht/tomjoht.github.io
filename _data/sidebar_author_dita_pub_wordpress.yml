@@ -1,21 +1,21 @@
 sidebartitle: Author in DITA, publish in WordPress 
 folders:
 - title: "Pages in this series"
-  jurl: 2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/
+  jurl: /2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/
   section: one
   class: first
   folderitems:
   - title: Import DITA Webhelp Output into WordPress
-    jurl: 2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/
+    jurl: /2013/01/21/how-to-import-webhelp-from-a-help-authoring-tool-into-wordpress/
 
   - title: Author in DITA, publish with WordPress
-    jurl: 2014/08/19/author-dita-publish-wordpress/
+    jurl: /2014/08/19/author-dita-publish-wordpress/
 
   - title: Challenges in using WordPress for publishing DITA content
-    jurl: 2014/09/02/challenges-using-wordpress-publishing-help-content/
+    jurl: /2014/09/02/challenges-using-wordpress-publishing-help-content/
 
   - title: Using WordPress natively for single source publishing and conditional content
-    jurl: 2014/09/08/using-wordpress-natively-for-single-source-publishing-and-conditional-content/
+    jurl: /2014/09/08/using-wordpress-natively-for-single-source-publishing-and-conditional-content/
 
   - title: Import DITA's XHTML Output into WordPress
-    jurl: 2014/10/14/import-dita-xhtml-output-into-wordpress/
+    jurl: /2014/10/14/import-dita-xhtml-output-into-wordpress/

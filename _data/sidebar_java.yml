@@ -1,153 +1,153 @@
 sidebartitle: Java notes
 folders:
 - title: "Pages in this series"
-  jurl: java-introduction
+  jurl: /java-introduction
   section: one
   class: first
   folderitems:
   - title: Introduction
-    jurl: java-introduction/
+    jurl: /java-introduction/
 
   - title: Classes
-    jurl: java-classes/
+    jurl: /java-classes/
 
   - title: Methods
-    jurl: java-methods/
+    jurl: /java-methods/
 
   - title: Objects
-    jurl: java-objects/
+    jurl: /java-objects/
 
   - title: Constructors
-    jurl: java-constructors/
+    jurl: /java-constructors/
 
   - title: Interfaces
-    jurl: java-interfaces/
+    jurl: /java-interfaces/
 
   - title: Subclasses
-    jurl: java-subclasses/
+    jurl: /java-subclasses/
 
   - title: Inheritance
-    jurl: java-inheritance/
+    jurl: /java-inheritance/
 
   - title: Packages
-    jurl: java-packages/
+    jurl: /java-packages/
 
   - title: Getters and setters
-    jurl: java-getters-and-setters/
+    jurl: /java-getters-and-setters/
 
   - title: Modifiers
-    jurl: java-modifiers/
+    jurl: /java-modifiers/
 
   - title: Access modifiers
-    jurl: java-access-modifiers/
+    jurl: /java-access-modifiers/
 
   - title: Abstract methods
-    jurl: java-abstract-methods/
+    jurl: /java-abstract-methods/
 
   - title: Variables
-    jurl: java-variables/
+    jurl: /java-variables/
 
   - title: Constants
-    jurl: java-constants/
+    jurl: /java-constants/
 
   - title: Primitive data types
-    jurl: java-primitive-data-types/
+    jurl: /java-primitive-data-types/
 
   - title: Setters
-    jurl: java-setters/
+    jurl: /java-setters/
 
   - title: Handling exceptions
-    jurl: java-handling-exceptions/
+    jurl: /java-handling-exceptions/
 
   - title: Loops
-    jurl: java-loops/
+    jurl: /java-loops/
 
   - title: Continue
-    jurl: java-continue/
+    jurl: /java-continue/
 
   - title: If else
-    jurl: java-if-else/
+    jurl: /java-if-else/
 
   - title: Break
-    jurl: java-break/
+    jurl: /java-break/
 
   - title: Hashmaps
-    jurl: java-hashmaps/
+    jurl: /java-hashmaps/
 
   - title: Treemaps
-    jurl: java-treemaps/
+    jurl: /java-treemaps/
 
   - title: Collections Framework
-    jurl: java-collections-framework/
+    jurl: /java-collections-framework/
 
   - title: Javadoc tags
-    jurl: java-javadoc-tags/
+    jurl: /java-javadoc-tags/
 
   - title: Code formatting
-    jurl: java-code-formatting/
+    jurl: /java-code-formatting/
 
   - title: Comments
-    jurl: java-comments/
+    jurl: /java-comments/
 
   - title: Servlet
     url: java-servlet
 
   - title: Tomcat
-    jurl: java-tomcat/
+    jurl: /java-tomcat/
 
   - title: Eclipse IDE
-    jurl: java-eclipse/
+    jurl: /java-eclipse/
 
   - title: Eclipse shortcuts
-    jurl: java-eclipse-shortcuts/
+    jurl: /java-eclipse-shortcuts/
 
   - title: Mercurial
-    jurl: java-mercurial/
+    jurl: /java-mercurial/
 
   - title: Share files with others
-    jurl: java-share-files/
+    jurl: /java-share-files/
 
   - title: Enums
-    jurl: java-enums/
+    jurl: /java-enums/
 
   - title: Garbage collection
-    jurl: java-garbage-collection/
+    jurl: /java-garbage-collection/
 
   - title: Generics
-    jurl: java-generics/
+    jurl: /java-generics/
 
   - title: Delegates
-    jurl: java-delegates/
+    jurl: /java-delegates/
 
   - title: "Null"
-    jurl: java-null/
+    jurl: /java-null/
 
   - title: Inner classes
-    jurl: java-inner-classes/
+    jurl: /java-inner-classes/
 
   - title: Casting
-    jurl: java-casting/
+    jurl: /java-casting/
 
   - title: Override
-    jurl: java-override/
+    jurl: /java-override/
 
   - title: Polymorphism
-    jurl: java-polymorphism/
+    jurl: /java-polymorphism/
 
   - title: Static blocks
-    jurl: java-static-blocks/
+    jurl: /java-static-blocks/
 
   - title: Stub
-    jurl: java-stub/
+    jurl: /java-stub/
 
   - title: Swing
-    jurl: java-swing/
+    jurl: /java-swing/
 
   - title: Returns
-    jurl: java-return/
+    jurl: /java-return/
 
   - title: JAR file
-    jurl: java-jar-file/
+    jurl: /java-jar-file/
 
   - title: Class path
-    jurl: java-class-path/
+    jurl: /java-class-path/

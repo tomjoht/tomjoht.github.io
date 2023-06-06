@@ -1,71 +1,71 @@
 sidebartitle: Trends to follow or forget
 folders:
 - title: "Pages in this series"
-  jurl: trends/trends-to-follow-or-forget-intro.html
+  jurl: /trends/trends-to-follow-or-forget-intro.html
   section: one
   class: first
   folderitems:
   - title: "Intro to the series: Trends to follow or forget"
-    jurl: trends/trends-to-follow-or-forget-intro.html
+    jurl: /trends/trends-to-follow-or-forget-intro.html
   - title: Survey about documentation trends that fizzled
-    jurl: blog/trends-that-faded-survey
+    jurl: /blog/trends-that-faded-survey
   - title: "Results of the survey about fizzled trends: Every trend is still with us"
-    jurl: blog/results-of-fizzled-trends-survey
+    jurl: /blog/results-of-fizzled-trends-survey
   - title: HATs and single-sourcing
-    jurl: trends/trends-to-follow-or-forget-hats.html
+    jurl: /trends/trends-to-follow-or-forget-hats.html
   - title: Wikis and crowdsourcing
-    jurl: trends/trends-to-follow-or-forget-wikis.html
+    jurl: /trends/trends-to-follow-or-forget-wikis.html
   - title: Faceted filtering
-    jurl: trends/trends-to-follow-or-forget-faceted-filtering.html
+    jurl: /trends/trends-to-follow-or-forget-faceted-filtering.html
   - title: Screencasting
-    jurl: trends/trends-to-follow-or-forget-screencasting.html
+    jurl: /trends/trends-to-follow-or-forget-screencasting.html
   - title: Quick reference guides
-    jurl: trends/trends-to-follow-or-forget-quick-reference-guides.html
+    jurl: /trends/trends-to-follow-or-forget-quick-reference-guides.html
   - title: WordPress and web CMSs
-    jurl: trends/trends-to-follow-or-forget-wordpress.html
+    jurl: /trends/trends-to-follow-or-forget-wordpress.html
   - title: DITA
-    jurl: trends/trends-to-follow-or-forget-dita.html
+    jurl: /trends/trends-to-follow-or-forget-dita.html
   - title: Content strategy
-    jurl: trends/trends-to-follow-or-forget-content-strategy.html
+    jurl: /trends/trends-to-follow-or-forget-content-strategy.html
   - title: Scrum
-    jurl: trends/trends-to-follow-or-forget-scrum.html
+    jurl: /trends/trends-to-follow-or-forget-scrum.html
   - title: Marcom and techcomm
-    jurl: trends/trends-to-follow-or-forget-techcomm-and-marcom.html
+    jurl: /trends/trends-to-follow-or-forget-techcomm-and-marcom.html
   - title: Every page is page one
-    jurl: trends/trends-to-follow-or-forget-every-page-is-page-one.html
+    jurl: /trends/trends-to-follow-or-forget-every-page-is-page-one.html
   - title: API documentation
-    jurl: trends/trends-to-follow-or-forget-api-documentation.html
+    jurl: /trends/trends-to-follow-or-forget-api-documentation.html
   - title: GitHub and open-source
-    jurl: trends/trends-to-follow-or-forget-git-and-github.html
+    jurl: /trends/trends-to-follow-or-forget-git-and-github.html
   - title: Docs as code
-    jurl: trends/trends-to-follow-or-forget-docs-as-code.html
+    jurl: /trends/trends-to-follow-or-forget-docs-as-code.html
   - title: Remote work
-    jurl: trends/trends-to-follow-or-forget-remote-work.html
+    jurl: /trends/trends-to-follow-or-forget-remote-work.html
   - title: "Language-generative AI tools"
-    jurl: trends/trends-to-follow-or-forget-language-generative-ai.html
+    jurl: /trends/trends-to-follow-or-forget-language-generative-ai.html
   - title: "\"Trends to follow or forget\" presentation to STC India"
-    jurl: trends/trends-to-follow-or-forget-presentation-stc-india.html
+    jurl: /trends/trends-to-follow-or-forget-presentation-stc-india.html
   - title: "Technical diversity/pluralism/fragmentation in tech comm"
-    jurl: trends/embracing-diversity-pluralism-fragmentation.html
+    jurl: /trends/embracing-diversity-pluralism-fragmentation.html
   - title: "The impact of technical diversity on documentation -- epiphanies on a trip to IKEA"
-    jurl: trends/impact-of-technical-diversity-on-docs.html
+    jurl: /trends/impact-of-technical-diversity-on-docs.html
   - title: "Systems thinking and developer portals"
-    jurl: trends/systems-thinking-and-developer-portals.html
+    jurl: /trends/systems-thinking-and-developer-portals.html
   - title: "Systems thinking: Limits to Growth, Complex Cause and Effect, and Shifting the Burden"
-    jurl: trends/systems-thinking-fifth-discipline.html
+    jurl: /trends/systems-thinking-fifth-discipline.html
   - title: "'Putting together things': Articulating a thesis about the effects of hyper-specialization on documentation"
-    jurl: trends/exploiting-the-systems-view-tech-writers.html
+    jurl: /trends/exploiting-the-systems-view-tech-writers.html
   - title: "Attempting to write a Life of a [something] narrative"
-    jurl: trends/writing-a-life-of-a-something-narrative.html
+    jurl: /trends/writing-a-life-of-a-something-narrative.html
   - title: "Pulling readers through long documents"
-    jurl: trends/reading-long-documents.html
+    jurl: /trends/reading-long-documents.html
   - title: "Two examples where high-level overviews are essential: Macbeth and Elon Musk" 
-    jurl: trends/macbeth-and-musk-and-the-high-level-overview.html
+    jurl: /trends/macbeth-and-musk-and-the-high-level-overview.html
   - title: "Five ways to leverage big picture thinking as a technical writer"
-    jurl: trends/five-approaches-to-big-picture-thinking-tech-comm.html
+    jurl: /trends/five-approaches-to-big-picture-thinking-tech-comm.html
 
   - title: "Presentation: Specialization myopia syndrome and the content journey"
-    jurl: blog/specialization-myopia-and-content-journey
+    jurl: /blog/specialization-myopia-and-content-journey
 
   - title: "Beyond 'parts' documentation: Moving towards systems thinking with developer portals"
-    jurl: blog/dev-portals-and-systems-thinking/
+    jurl: /blog/dev-portals-and-systems-thinking/

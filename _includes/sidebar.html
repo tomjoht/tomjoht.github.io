@@ -21,44 +21,44 @@
 
 <ul id="docnavsidebar" class="docnav">
 {% for folder in sidebar.folders %}
-{% if page.url == folder.jurl %}
-<li class="level1 folderTitle current open"><a  class="subfoldersTitle" href="{{folder.jurl | prepend: "/" | prepend: site.baseurl }}">{{ folder.title }}</a>
+{% if page.url == folder.url %}
+<li class="level1 folderTitle current open"><a  class="subfoldersTitle" href="{{folder.jurl | prepend: site.baseurl }}">{{ folder.title }}</a>
   {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://"  %}
   <li class="level1 folderTitle"><a  class="subfoldersTitle" href="{{ folder.jurl }}">{{ folder.title }}</a>
 {% else %}
-        <li class="level1 folderTitle"><a href="{{folder.jurl | prepend: "/" | prepend: site.baseurl }}">{{folder.title}}</a>
+        <li class="level1 folderTitle"><a href="{{folder.jurl | prepend: site.baseurl }}">{{folder.title}}</a>
   {% endif %}
     <ul>
         {% for folderitem in folder.folderitems %}
 
         {% if folderitem.title %}
         {% unless folderitem.type == "print" %}
-        {% assign pageUrl = page.url | remove_first: "/" %}
-        {% if pageUrl == folderitem.jurl %}
-        <li class="level1items open"><a href="{{folderitem.jurl | prepend: "/" | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+        {% assign pageUrl = page.url %}
+        {% if pageUrl contains folderitem.jurl %}
+        <li class="level1items open"><a href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
         {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
-        <li class="level1items"><a  href="{{folderitem.jurl }}">{{folderitem.title}}</a></li>
+        <li class="level1items"><a  href="{{folderitem.jurl}}">{{folderitem.title}}</a></li>
         {% else %}
-        <li class="level1items"><a href="{{folderitem.jurl | prepend: "/" | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
+        <li class="level1items"><a href="{{folderitem.jurl | prepend: site.baseurl }}">{{folderitem.title}}</a></li>
         {% endif %}
         {% endunless %}
         {% endif %}
 
         {% for subfolder in folderitem.subfolders %}
-        {% assign pageUrl = page.url | remove_first: "/" %}
-        {% if pageUrl == subfolder.jurl %}
-        <li class="level2 folderTitle current open"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: "/" | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+        {% assign pageUrl = page.url %}
+        {% if pageUrl contains subfolder.jurl %}
+        <li class="level2 folderTitle current open"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
           {% else %}
-          <li class="level2 folderTitle"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: "/" | prepend: site.baseurl }}">{{ subfolder.title }}</a>
+          <li class="level2 folderTitle"><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: site.baseurl }}">{{ subfolder.title }}</a>
         {% endif %}
             <ul style="display:none;">
                 {% for subfolderitem in subfolder.subfolderitems %}
 
                 {% if subfolderitem.title %}
                 {% unless subfolderitem.type == "print" %}
-                {% assign pageUrl = page.url | remove_first: "/" %}
-                {% if pageUrl == subfolderitem.jurl %}
-                <li class="level2items open"><a href="{{subfolderitem.jurl | prepend: "/" | prepend: site.baseurl  }}">{{subfolderitem.title}}</a></li>
+                {% assign pageUrl = page.url %}
+                {% if pageUrl contains subfolderitem.jurl %}
+                <li class="level2items open"><a href="{{subfolderitem.jurl | prepend: site.baseurl }}">{{subfolderitem.title}}</a></li>
                 {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
                 <li class="level2items"><a  href="{{subfolderitem.jurl }}">{{subfolderitem.title}}</a></li>
                 {% else %}
@@ -68,24 +68,24 @@
                 {% endif %}
 
                 {% for subsubfolder in subfolderitem.subsubfolders %}
-                {% assign pageUrl = page.url | remove_first: "/" %}
-                {% if pageUrl == subsubfolder.jurl %}
-                <li class="level3 folderTitle current open"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: "/" | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                {% assign pageUrl = page.url %}
+                {% if pageUrl contains subsubfolder.jurl %}
+                <li class="level3 folderTitle current open"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
                   {% else %}
-                  <li class="level3 folderTitle"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: "/" | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
+                  <li class="level3 folderTitle"><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: site.baseurl }}">{{ subsubfolder.title }}</a>
                    {% endif %}
                     <ul style="display:none;">
                         {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
 
                         {% if subsubfolderitem.title %}
                         {% unless subsubfolderitem.type == "print" %}
-                        {% assign pageUrl = page.url | remove_first: "/" %}
+                        {% assign pageUrl = page.url %}
                         {% if pageUrl == subsubfolderitem.jurl %}
-                        <li class="level3items open"><a href="{{subsubfolderitem.jurl | prepend: "/" | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        <li class="level3items open"><a href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
                         {% elsif folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
                         <li class="level3items"><a href="{{subsubfolderitem.jurl }}">{{subsubfolderitem.title}}</a></li>
                         {% else %}
-                        <li class="level3items"><a href="{{subsubfolderitem.jurl | prepend: "/" | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
+                        <li class="level3items"><a href="{{subsubfolderitem.jurl | prepend: site.baseurl }}">{{subsubfolderitem.title}}</a></li>
                         {% endif %}
                         {% endunless %}
                         {% endif %}

@@ -111,6 +111,12 @@ li.folderTitle.current.open > a.subfoldersTitle {
     text-decoration: none;
 }
 
+.level1.folderTitle.open, 
+.level2.folderTitle.open, 
+.level3.folderTitle.open {
+    font-weight: bold;
+}
+
 .relatedResources {
   font-size: 15px;
   font-weight: bold;

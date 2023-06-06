@@ -1,123 +1,123 @@
 sidebartitle: DITA notes
 folders:
 - title: "Pages in this series"
-  jurl: ditaqrg/
+  jurl: /ditaqrg/
   section: one
   class: first
   folderitems:
   - title: DITA QRG introduction
-    jurl: ditaqrg/
+    jurl: /ditaqrg/
 
   - title: Hello World tutorial
-    jurl: hello_world/
+    jurl: /hello_world/
 
   - title: File and folder organization
-    jurl: folder_organization/
+    jurl: /folder_organization/
 
   - title: Specializations (task, concept, reference)
-    jurl: specializations/
+    jurl: /specializations/
 
   - title: Combining topics
-    jurl: combining_topics/
+    jurl: /combining_topics/
 
   - title: Converting HTML to DITA
-    jurl: convert_html_to_dita/
+    jurl: /convert_html_to_dita/
 
   - title: Code
-    jurl: code/
+    jurl: /code/
 
   - title: Inline formatting
-    jurl: inline_formatting/
+    jurl: /inline_formatting/
 
   - title: Tables
-    jurl: tables/
+    jurl: /tables/
 
   - title: Images
-    jurl: images_dita/
+    jurl: /images_dita/
 
   - title: Notes
-    jurl: notes/
+    jurl: /notes/
 
   - title: Shortdesc
-    jurl: short_desc/
+    jurl: /short_desc/
 
   - title: Variables
-    jurl: variables/
+    jurl: /variables/
 
   - title: Video
-    jurl: video_dita/
+    jurl: /video_dita/
 
   - title: Inline links
-    jurl: inline_links/
+    jurl: /inline_links/
 
   - title: Related links
-    jurl: related_links/
+    jurl: /related_links/
 
   - title: Keyref links
-    jurl: keyref_links/
+    jurl: /keyref_links/
 
   - title: Relationship tables
-    jurl: relationship_tables/
+    jurl: /relationship_tables/
 
   - title: Cross references
-    jurl: cross_references/
+    jurl: /cross_references/
 
   - title: Map file (TOC)
-    jurl: mapfiles/
+    jurl: /mapfiles/
 
   - title: References to non-DITA files
-    jurl: references_to_non_dita_files/
+    jurl: /references_to_non_dita_files/
 
   - title: Index entries
-    jurl: indexes/
+    jurl: /indexes/
 
   - title: Acronyms and glossary terms
-    jurl: acronyms_and_glossary/
+    jurl: /acronyms_and_glossary/
 
   - title: Conditional profiling
-    jurl: conditional_profiling/
+    jurl: /conditional_profiling/
 
   - title: Conref (re-use of content)
-    jurl: conref/
+    jurl: /conref/
 
   - title: Ditaval files (filtering attributes)
-    jurl: ditaval/
+    jurl: /ditaval/
 
   - title: Webhelp skins
-    jurl: webhelp_skins/
+    jurl: /webhelp_skins/
 
   - title: Webhelp with Feedback
-    jurl: webhelp_with_feedback/
+    jurl: /webhelp_with_feedback/
 
   - title: Handling SME review
-    jurl: sme_review/
+    jurl: /sme_review/
 
   - title: Add a menu selector
-    jurl: add_menu_selector/
+    jurl: /add_menu_selector/
 
   - title: Import DITA into WordPress
-    jurl: import_dita_into_wordpress/
+    jurl: /import_dita_into_wordpress/
 
   - title: Add a show/hide toggle
-    jurl: jquery_show_hide/
+    jurl: /jquery_show_hide/
 
   - title: Avoid losing focus during transforms
-    jurl: dont_lose_mouse_focus/
+    jurl: /dont_lose_mouse_focus/
 
   - title: Author in Markdown, publish with DITA
-    jurl: md2html2ditav2/
+    jurl: /md2html2ditav2/
 
   - title: Embed child pages in parent
-    jurl: rellinks/
+    jurl: /rellinks/
 
   - title: Add expanding side pane
-    jurl: jquery_side_panel/
+    jurl: /jquery_side_panel/
 
   - title: Create fixed width outputs
-    jurl: fixed_width_oxygen/
+    jurl: /fixed_width_oxygen/
 
   - title: Add dynamic content filter
-    jurl: jquery_content_selector/
+    jurl: /jquery_content_selector/
 
   - title: Add a mini-toc on a page
-    jurl: add_mini_toc/
+    jurl: /add_mini_toc/

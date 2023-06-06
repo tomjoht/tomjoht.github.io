@@ -1,39 +1,39 @@
 sidebartitle: Pandemic-related posts
 folders:
 - title: "Pages in this series"
-  jurl: blog/themes-from-2021
+  jurl: /blog/themes-from-2021
   section: one
   class: first
   folderitems:
   - title: "Themes from 2021: working from home and podcasting"
-    jurl: blog/themes-from-2021
+    jurl: /blog/themes-from-2021
 
   - title: "Trying to get back to normal"
-    jurl: blog/trying-to-get-back-to-normal
+    jurl: /blog/trying-to-get-back-to-normal
 
   - title: "Life on reset -- new dynamics emerging"
-    jurl: blog/life-on-reset/
+    jurl: /blog/life-on-reset/
 
   - title: "Does working outside with the world as your office actually work?"
-    jurl: blog/working-outside/
+    jurl: /blog/working-outside/
 
   - title: "On cultivating a garden while the world is crumbling around you"
-    jurl: blog/cultivating-your-garden-world-crumbling/
+    jurl: /blog/cultivating-your-garden-world-crumbling/
 
   - title: "WTD Australia event recording — 'Remote discussion: Techcomm in the times of pandemic'"
-    jurl: blog/write-the-docs-australia-techcomm-times-of-pandemic/
+    jurl: /blog/write-the-docs-australia-techcomm-times-of-pandemic/
 
   - title: "Results of Pandemic Impact on Tech Comm survey"
-    jurl: blog/results-of-pandemic-impact-on-tech-comm-survey/
+    jurl: /blog/results-of-pandemic-impact-on-tech-comm-survey/
 
   - title: "Short survey about quarantine/pandemic impact on tech comm"
-    jurl: blog/quarantine-pandemic-impact-on-tech-comm-survey/
+    jurl: /blog/quarantine-pandemic-impact-on-tech-comm-survey/
 
   - title: "Working from home — things I've bought"
-    jurl: blog/working-from-home-things-i-have-bought/
+    jurl: /blog/working-from-home-things-i-have-bought/
 
   - title: "How life has changed with the pandemic"
-    jurl: blog/how-life-has-changed-with-the-pandemic/
+    jurl: /blog/how-life-has-changed-with-the-pandemic/
 
   - title: "Finally got Covid -- my experience"
-    jurl: blog/omicron-symptoms-experience/
+    jurl: /blog/omicron-symptoms-experience/
