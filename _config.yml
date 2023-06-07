@@ -116,6 +116,7 @@ defaults:
       type: docs
     values:
       layout: default
+      sidebar: docapis
       topnav: topnav
       progress: true
       permalink: /docs:path.html

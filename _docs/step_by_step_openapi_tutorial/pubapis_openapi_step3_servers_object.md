@@ -54,7 +54,7 @@ servers:
 
 In Swagger UI, the multiple servers appear as options users can select in a drop-down list:
 
-<a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/openapi_serversurl.png" class="medium" /></a>
+<a href="https://idratherbewriting.com/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/openapi_serversurl.png" class="medium" /></a>
 
 If you have just one URL, you still see a drop-down box but with just one option.
 

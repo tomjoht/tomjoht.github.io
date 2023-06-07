@@ -64,7 +64,7 @@ You can see the complete specification document here: <a href="https://idratherb
 
 Here's the specification document rendered by Swagger UI:
 
-<a target="\_blank" href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/swagger_full_result.png" class="large" /></a>
+<a target="\_blank" href="https://idratherbewriting.com/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/swagger_full_result.png" class="large" /></a>
 
 Try executing a request in the version above and look at the result. In the result, locate the `temp` value in the `main` object. Then take a break by going outside and evaluate whether the temperature outside matches the response.
 

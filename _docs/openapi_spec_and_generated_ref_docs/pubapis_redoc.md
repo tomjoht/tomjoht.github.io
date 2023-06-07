@@ -70,6 +70,6 @@ In this activity, you'll render your OpenAPI spec with [Redoc](https://github.co
 
 The display should look as follows:
 
-<figure><a href="https://idratherbewriting.com/learnapidoc/assets/files/redoc.html"><img src="{{site.api_media}}/redoc_display.png" alt="Sample Redoc display" class="large" /></a><figcaption>Sample Redoc display</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/assets/files/redoc.html"><img src="{{site.api_media}}/redoc_display.png" alt="Sample Redoc display" class="large" /></a><figcaption>Sample Redoc display</figcaption></figure>
 
 {% include random_ad4.html %}

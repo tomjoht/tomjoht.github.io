@@ -930,7 +930,7 @@ Also, click the **Model** link to see how the descriptions of each element appea
 
 You'll also notice another "Models" section below all the other paths:
 
-<a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_models_broken_out.png" class="medium" /></a>
+<a href="https://idratherbewriting.com/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/swaggerui_models_broken_out.png" class="medium" /></a>
 
 By default, Swagger UI displays each object in `components` in a section called "Models" at the end of your Swagger UI display. If you consolidate all schemas into a single object, without using the `$ref` property to point to new objects, you will see just one object in Models. If you split out the objects, then you see each object listed separately, including the object that contains all the references.
 

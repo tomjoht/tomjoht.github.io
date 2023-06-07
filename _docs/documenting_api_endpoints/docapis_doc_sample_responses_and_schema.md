@@ -34,15 +34,15 @@ And the response **Schema** on another tab:
 
 The definition of the response is called the *schema* or *model* (the terms are used synonymously) and aligns with the [JSON schema language and descriptions](http://json-schema.org/). What works particularly well with the SendGrid example is the use of expand/collapse tags to mirror the same structure as the example, with objects at different levels.
 
-Swagger UI also provides both an example value and a schema or model. For example, in the sample Sunrise and Sunset Times API doc that I used for the [SwaggerUI activity](https://idratherbewriting.com/learnapidoc/assets/files/swagger-sunrise-sunset/index.html#/default/getSunriseSunset) (which comes later in the course), you can see a distinction between the response example and the response schema. Here's the **Example Value**:
+Swagger UI also provides both an example value and a schema or model. For example, in the sample Sunrise and Sunset Times API doc that I used for the [SwaggerUI activity](https://idratherbewriting.com/assets/files/swagger-sunrise-sunset/index.html#/default/getSunriseSunset) (which comes later in the course), you can see a distinction between the response example and the response schema. Here's the **Example Value**:
 
-<a class="noExtIcon" href="https://idratherbewriting.com/learnapidoc/assets/files/swagger-sunrise-sunset/index.html#/default/getSunriseSunset"><img src="{{site.api_media}}/sunriseexample.png" alt="Sunrise example value" /></a>
+<a class="noExtIcon" href="https://idratherbewriting.com/assets/files/swagger-sunrise-sunset/index.html#/default/getSunriseSunset"><img src="{{site.api_media}}/sunriseexample.png" alt="Sunrise example value" /></a>
 
 The example response should correspond with the example request. Just as the request example might only include a subset of all possible parameters, the response example might also be a subset of all possible returned information.
 
 However, the *response schema* is comprehensive of all possible properties returned in the response. This is why you need both a response example and a response schema. Here's the response schema for the Sunrise and Sunset Times API:
 
-<a class="noExtIcon" href="https://idratherbewriting.com/learnapidoc/assets/files/swagger-sunrise-sunset/index.html#/default/getSunriseSunset"><img src="{{site.api_media}}/sunrisemodelexample.png" alt="Sunrise model" /></a>
+<a class="noExtIcon" href="https://idratherbewriting.com/assets/files/swagger-sunrise-sunset/index.html#/default/getSunriseSunset"><img src="{{site.api_media}}/sunrisemodelexample.png" alt="Sunrise model" /></a>
 
 The schema or model provides the following:
 

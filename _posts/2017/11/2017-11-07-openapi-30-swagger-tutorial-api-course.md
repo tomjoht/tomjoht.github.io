@@ -24,7 +24,7 @@ You can read the full [OpenAPI specification here](https://github.com/OAI/OpenAP
 
 You can view the sample [Swagger UI](https://github.com/swagger-api/swagger-ui) output from my OpenAPI specification document in a couple of ways:
 
-* [Swagger UI Demo 1 (standalone)](https://idratherbewriting.com/learnapidoc/assets/files/swagger/)
+* [Swagger UI Demo 1 (standalone)](https://idratherbewriting.com/assets/files/swagger/)
 * [Swagger UI Demo 2 (embedded)](https://idratherbewriting.com/learnapidoc/pubapis_swagger_embedded.html)
 
 Previously, I had some tutorials on Swagger, but none that dived into the nuts and bolts of creating a specification document.

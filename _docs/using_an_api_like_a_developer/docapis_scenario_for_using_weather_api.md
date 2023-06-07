@@ -27,7 +27,7 @@ You don't have your own meteorological service, so you'll need to make some call
 
 ## Get an idea of the end goal {#endgoal}
 
-To give you an idea of the end goal, here's a sample: [idratherbewriting.com/learnapidoc/assets/files/wind-openweathermap.html](https://idratherbewriting.com/learnapidoc/assets/files/wind-openweathermap.html). It's not necessarily styled the same as the mockup, but it answers the question, "What's the current wind and temperature?"
+To give you an idea of the end goal, here's a sample: [idratherbewriting.com/assets/files/wind-openweathermap.html](https://idratherbewriting.com/assets/files/wind-openweathermap.html). It's not necessarily styled the same as the mockup, but it answers the question, "What's the current wind and temperature?"
 
 Click the **Check wind conditions** button to see wind and temperature details. When you request this data, a call is made to the [OpenWeatherMap API](https://openweathermap.org/api). The API retrieves the information, and some JavaScript code prints the information on the page.
 
@@ -37,7 +37,7 @@ Click the **Check wind conditions** button to see wind and temperature details. 
 
 {% if site.format == "web" %}
 
-<a target="_blank" href="https://idratherbewriting.com/learnapidoc/assets/files/wind-openweathermap.html" class="noExtIcon"><img src="{{site.api_media}}/checkwindconditions.png" class="medium" /></a>
+<a target="_blank" href="https://idratherbewriting.com/assets/files/wind-openweathermap.html" class="noExtIcon"><img src="{{site.api_media}}/checkwindconditions.png" class="medium" /></a>
 
 {% endif %}
 
@@ -83,7 +83,7 @@ Before diving too far down in the OpenWeatherMap API, let's look at another weat
 4. Browse the type of information that is available through this endpoint. Does this endpoint provide information about wind and temperature that would work for our sample development scenario?
 
 {: .tip}
-Here's the Aeris weather forecast API in action making mostly the same calls as I showed earlier with OpenWeatherMap: <a href="https://idratherbewriting.com/learnapidoc/assets/files/wind-aeris.html" alt="Aeris example">idratherbewriting.com/learnapidoc/assets/files/wind-aeris.html</a>. (Note: If this returns `[Object][Object]`, it's because my API key expired. You can view the page source to see how the call is constructed.)
+Here's the Aeris weather forecast API in action making mostly the same calls as I showed earlier with OpenWeatherMap: <a href="https://idratherbewriting.com/assets/files/wind-aeris.html" alt="Aeris example">idratherbewriting.com/assets/files/wind-aeris.html</a>. (Note: If this returns `[Object][Object]`, it's because my API key expired. You can view the page source to see how the call is constructed.)
 
 For our development scenario (showing weather on a website), there are dozens of different weather APIs we could use. As you create your API documentation, think about how your users might have to make the same decisions in choosing APIs. Are there several APIs that provide similar information? What will make your API stand out more? Although you probably can't pick and choose what information your API returns, you might at least argue that the docs for your API will be superior!
 

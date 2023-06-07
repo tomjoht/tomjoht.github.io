@@ -105,9 +105,9 @@ Looking at the examples, you'll notice the documentation is short and sweet in a
 
 ## <i class="fa fa-user-circle"></i> Activity: Create a Swagger UI display with an OpenAPI spec document {#create_swaggerui}
 
-In this activity, you'll create a Swagger UI display for an OpenAPI specification document. If you're using one of the pre-built OpenAPI files, you can see a demo of what we'll build here: [OpenWeatherMap Swagger UI](https://idratherbewriting.com/learnapidoc/assets/files/swagger/).
+In this activity, you'll create a Swagger UI display for an OpenAPI specification document. If you're using one of the pre-built OpenAPI files, you can see a demo of what we'll build here: [OpenWeatherMap Swagger UI](https://idratherbewriting.com/assets/files/swagger/).
 
-<figure><a target="_blank" class="noExtIcon" href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html"><img class="docimage medium" src="{{site.api_media}}/swagger_full_result.png" alt="Demo of Swagger UI" /></a><figcaption>Demo of Swagger UI rendering an OpenWeatherMap OpenAPI specification document</figcaption></figure>
+<figure><a target="_blank" class="noExtIcon" href="https://idratherbewriting.com/assets/files/swagger/index.html"><img class="docimage medium" src="{{site.api_media}}/swagger_full_result.png" alt="Demo of Swagger UI" /></a><figcaption>Demo of Swagger UI rendering an OpenWeatherMap OpenAPI specification document</figcaption></figure>
 
 First, you'll make sure you can view Swagger locally. Then you'll switch the Petstore OpenAPI document URL with an OpenWeatherMap OpenAPI document URL.
 
@@ -275,7 +275,7 @@ Swagger UI provides various [configuration parameters](https://github.com/swagge
 
 We won't get too much into the details of these configuration parameters in the tutorial. I just want to call attention to these parameters here for awareness.
 
-If you look at the [source of my Swagger UI demo](https://idratherbewriting.com/learnapidoc/assets/files/swagger/) (go to View > Source), you'll see the parameters listed in the `// Build a system` section:
+If you look at the [source of my Swagger UI demo](https://idratherbewriting.com/assets/files/swagger/) (go to View > Source), you'll see the parameters listed in the `// Build a system` section:
 
 ```js
   // Build a system
@@ -327,7 +327,7 @@ If you need help, the [Swagger Google Group](https://groups.google.com/forum/#!f
 
 In addition to publishing your Swagger UI output as a standalone site, you can also embed the Swagger file within an existing site. See the following:
 
-* [Standalone Swagger UI Demo](https://idratherbewriting.com/learnapidoc/assets/files/swagger/)
+* [Standalone Swagger UI Demo](https://idratherbewriting.com/assets/files/swagger/)
 * [Embedded Swagger UI Demo](https://idratherbewriting.com/learnapidoc/pubapis_swagger_demo.md)
 
 Since the Swagger UI site is responsive, it resizes well to fit into most any space. Even so, embedding Swagger into an existing site still looks like a website within a website.

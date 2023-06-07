@@ -465,7 +465,7 @@ For this tutorial, we'll use a platform called Apiary to read and display the AP
     ```
 
     {: .note}
-    If the code isn't easy to copy and paste, you can [view and download the file here](https://idratherbewriting.com/learnapidoc/assets/files/apiblueprintweatherdata.md).
+    If the code isn't easy to copy and paste, you can [view and download the file here](https://idratherbewriting.com/assets/files/apiblueprintweatherdata.md).
 
 5.  Click **Save**.
 

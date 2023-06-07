@@ -219,8 +219,8 @@ For more information, see these topics:
 
 ## Final Result
 
-You can view a demo of the [Color Gallery integration here](https://idratherbewriting.com/learnapidoc/assets/files/flickr-gallery-example.html).
+You can view a demo of the [Color Gallery integration here](https://idratherbewriting.com/assets/files/flickr-gallery-example.html).
 
 The result looks like this:
 
-<figure><a href="https://idratherbewriting.com/learnapidoc/assets/files/flickr-gallery-example.html"><img src="{{site.api_media}}/flickrcolorgallerydemo.png" alt="Color Gallery integrated through the Flickr API" /></a><figcaption>Color Gallery integrated through the Flickr API</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/assets/files/flickr-gallery-example.html"><img src="{{site.api_media}}/flickrcolorgallerydemo.png" alt="Color Gallery integrated through the Flickr API" /></a><figcaption>Color Gallery integrated through the Flickr API</figcaption></figure>

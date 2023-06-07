@@ -332,7 +332,7 @@ paths:
 
 Swagger UI displays the `paths` object like this:
 
-<a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/step5_aswaggeruiprogress.png" class="large" /></a>
+<a href="https://idratherbewriting.com/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/step5_aswaggeruiprogress.png" class="large" /></a>
 
 Expand the Current Weather Data section to see the details. When you click **Try it out**, you'll notice that the field populates with the description. If you want the field to populate with a value, add a `default` property under `schema` (as shown with the `mode` parameter in the code above).
 

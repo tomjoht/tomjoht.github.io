@@ -7,20 +7,21 @@
   <p class="sectionsPrefaceOnline"><b>Sections in this chapter:</b></p>
 
 {% for folder in sidebar.folders %}
-  {% if folder.jurl contains page.permalink %}
+{% if page.url == folder.landing %}
     {% for folderitem in folder.folderitems %}
+ {% if forloop.index > 1 %}
       {% unless folderitem.type == "print" %}
-      <li><a href="{{folderitem.jurl | prepend: "/" }}">{{folderitem.title}}</a></li>
+      <li><a href="{{folderitem.jurl}}">{{folderitem.title}}</a></li>
       {% endunless %}
-
+{% endif %}
           {% for subfolder in folderitem.subfolders %}
           <ul>
-            <li><a class="subfoldersTitle" href="{{ subfolder.jurl | prepend: "/"}}">{{ subfolder.title }}</a></li>
+            <li><a class="subfoldersTitle" href="{{ subfolder.jurl }}">{{ subfolder.title }}</a></li>
               {% for subfolderitem in subfolder.subfolderitems %}
               <ul>
                 {% if subfolderitem.title %}
                   {% unless subfolderitem.type == "print" %}
-                    <li><a href="{{subfolderitem.jurl | prepend: "/" }}">{{subfolderitem.title}}</a></li>
+                    <li><a href="{{subfolderitem.jurl}}">{{subfolderitem.title}}</a></li>
                     {% endunless %}
                 {% endif %}
               </ul>
@@ -39,7 +40,7 @@
       {% if subfolder.jurl contains page.permalink %}
         {% for subfolderitem in subfolder.subfolderitems %}
         {% unless subfolderitem.type == "print" %}
-          <li><a href="{{subfolderitem.jurl | remove: "/" }}">{{subfolderitem.title}}</a></li>
+          <li><a href="{{subfolderitem.jurl}}">{{subfolderitem.title}}</a></li>
           {% endunless %}
         {% endfor %}
       {% endif %}
@@ -56,7 +57,7 @@
           {% if subsubfolder.jurl contains page.permalink %}
             {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
             {% unless subsubfolderitem.type == "print" %}
-              <li><a href="{{subsubfolderitem.jurl | remove: "/" }}">{{subsubfolderitem.title}}</a></li>
+              <li><a href="{{subsubfolderitem.jurl}}">{{subsubfolderitem.title}}</a></li>
               {% endunless %}
             {% endfor %}
           {% endif %}
@@ -73,12 +74,12 @@
 third-level down (not coded due to complexity)
 {% for subsubfolder in subfolderitem.subsubfolders %}
 <ul>
-    <li><a class="subfoldersTitle" href="{{ subsubfolder.jurl | prepend: "/"}}">{{ subsubfolder.title }}</a>
+    <li><a class="subfoldersTitle" href="{{ subsubfolder.jurl }}">{{ subsubfolder.title }}</a>
         {% for subsubfolderitem in subsubfolder.subsubfolderitems %}
 
           {% if subsubfolderitem.title %}
             {% unless subsubfolderitem.type == "print" %}
-              <li><a href="{{subsubfolderitem.jurl | prepend: "/" }}">{{subsubfolderitem.title}}</a></li>
+              <li><a href="{{subsubfolderitem.jurl}}">{{subsubfolderitem.title}}</a></li>
             {% endunless %}
           {% endif %}
   {% endfor %}

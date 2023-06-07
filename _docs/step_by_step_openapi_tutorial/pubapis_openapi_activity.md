@@ -23,7 +23,7 @@ Use this simple [Sunrise and sunset times API](https://sunrise-sunset.org/api) t
 
 To edit the OpenAPI specification file:
 
-1.  Copy the code from this [pre-built OpenAPI specification](https://idratherbewriting.com/learnapidoc/assets/files/swagger-sunrise-sunset/openapi_sunrise_sunset.yml).
+1.  Copy the code from this [pre-built OpenAPI specification](https://idratherbewriting.com/assets/files/swagger-sunrise-sunset/openapi_sunrise_sunset.yml).
 2.  Paste the YAML content into the [Swagger Editor](https://editor.swagger.io/).
 3.  Identify each of the root-level objects of the OpenAPI spec:
     * [Step 1: The openapi object]({{site.rooturl}}pubapis_openapi_step1_openapi_object.html)

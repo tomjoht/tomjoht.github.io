@@ -76,7 +76,7 @@ Observe how the description appears next to the collapsed Current Weather Data s
 
 All paths that have the same tag are grouped together in the display. For example, paths that have the `Current Weather Data` tag will be grouped together under the title `Current Weather Data`. Each group title is a collapsible/expandable toggle.
 
-<a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/openapitutorial_tags.png" class="medium" /></a>
+<a href="https://idratherbewriting.com/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.api_media}}/openapitutorial_tags.png" class="medium" /></a>
 
 {% include random_ad4.html %}
 

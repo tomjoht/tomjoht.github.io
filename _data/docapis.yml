@@ -2,6 +2,7 @@ sidebartitle: Documenting APIs
 folders:
 
 - title: "I: Introduction to REST APIs"
+  landing: /learnapidoc/docapis_introtoapis.html
   section: one
   class: first
   folderitems:
@@ -47,6 +48,7 @@ folders:
     jurl: /learnapidoc/api-glossary.html
 
 - title: "II: Using an API like a developer"
+  landing: /learnapidoc/likeadeveloper.html
   section: two
   folderitems:
 
@@ -88,6 +90,7 @@ folders:
     jurl: /learnapidoc/docapis_diving_into_dot_notation.html
 
 - title: "III: Documenting API endpoints"
+  landing: /learnapidoc/docendpoints.html
   section: three
   folderitems:
 
@@ -126,6 +129,7 @@ folders:
     jurl: /learnapidoc/docapis_api_reference_activity.html
 
 - title: "IV: OpenAPI spec and generated reference docs"
+  landing: /learnapidoc/restapispecifications.html
   section: four
   folderitems:
 
@@ -164,6 +168,7 @@ folders:
     jurl: /learnapidoc/pubapis_redoc.html
 
 - title: "V: Step-by-step OpenAPI code tutorial"
+  landing: /learnapidoc/openapi_tutorial.html
   section: five
   folderitems:
 
@@ -205,6 +210,7 @@ folders:
     jurl: /learnapidoc/pubapis_openapi_activity.html
 
 - title: "VI: Testing API docs"
+  landing: /learnapidoc/testingdocs.html
   section: six
   folderitems:
 
@@ -228,6 +234,7 @@ folders:
     jurl: /learnapidoc/testingdocs_activity.html
 
 - title: "VII: Conceptual topics in API docs"
+  landing: /learnapidoc/docconceptual.html
   section: seven
   folderitems:
 
@@ -269,6 +276,7 @@ folders:
     jurl: /learnapidoc/docapis_concept_activity.html
 
 - title: "VIII: Code tutorials"
+  landing: /learnapidoc/docapiscode.html
   section: eight
   folderitems:
 
@@ -304,6 +312,7 @@ folders:
     jurl: /learnapidoc/devx-usability-examples.html
 
 - title: "IX: The writing process"
+  landing: /learnapidoc/writing_process.html
   section: nine
   folderitems:
 
@@ -330,6 +339,7 @@ folders:
     jurl: /learnapidoc/docapis_publishing.html
 
 - title: "X: Publishing API docs"
+  landing: /learnapidoc/publishingapis.html
   section: ten
   folderitems:
 
@@ -392,6 +402,7 @@ folders:
     jurl: /learnapidoc/docapis_faq_tools.html
 
 - title: "XI: Thriving in the API doc space"
+  landing: /learnapidoc/jobapis.html
   section: eleven
   folderitems:
 
@@ -415,6 +426,7 @@ folders:
     jurl: /learnapidoc/docapis_work_on_conceptual_topic.html
 
 - title: "XII: Native library APIs"
+  landing: /learnapidoc/nativelibraryapis.html
   section: twelve
   folderitems:
 
@@ -450,6 +462,7 @@ folders:
     jurl: /learnapidoc/nativelibraryapis_nonrefdocs.html
 
 - title: "XIII: Processes and methodology"
+  landing: /learnapidoc/docapis_managing_doc_processes.html
   section: thirteen
   folderitems:
 
@@ -500,6 +513,7 @@ folders:
     jurl: /learnapidoc/docapis_release_process.html
 
 - title: "XIV: Metrics and measurement"
+  landing: /learnapidoc/docapis_metrics_and_measurement.html
   section: fourteen
   folderitems:
 
@@ -520,6 +534,7 @@ folders:
     jurl: /learnapidoc/docapis_metrics_quantifying_progress.html
 
 - title: "XV: Additional resources"
+  landing: /learnapidoc/resources.html
   section: fifteen
   folderitems:
 

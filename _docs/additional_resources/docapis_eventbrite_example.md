@@ -150,9 +150,9 @@ To integrate the jQuery AJAX Postman code into your website and print the `title
 </html>
 ```
 
-Here's the <a href="https://idratherbewriting.com/learnapidoc/assets/files/eventbrite-example.html">result</a>:
+Here's the <a href="https://idratherbewriting.com/assets/files/eventbrite-example.html">result</a>:
 
-<figure><a href="https://idratherbewriting.com/learnapidoc/assets/files/eventbrite-example.html"><img src="{{site.api_media}}/eventbriteresult.png" alt="Eventbrite result printed to the page" /></a><figcaption>Eventbrite result printed to the page</figcaption></figure>
+<figure><a href="https://idratherbewriting.com/assets/files/eventbrite-example.html"><img src="{{site.api_media}}/eventbriteresult.png" alt="Eventbrite result printed to the page" /></a><figcaption>Eventbrite result printed to the page</figcaption></figure>
 
 ## Code explanation
 
