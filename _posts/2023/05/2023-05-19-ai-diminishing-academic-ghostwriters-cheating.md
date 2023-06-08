@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/ai-diminishing-academic-ghostwriters-cheating
 description: "Tools like ChatGPT are diminishing reliance on essay cheating services. This doesn't mean fewer students are cheating, though. In fact, cheating is likely more rampant with AI tools, and more students are losing the patience to write."
 ---
 
+* TOC
+{:toc}
+
 Apparently, the popularity of using ChatGPT to write high school essays has impacted the contract cheating market, which had a lot of ghostwriters in Kenya. See [AI is taking the jobs of Kenyans who write essays for U.S. college students](https://restofworld.org/2023/chatgpt-taking-kenya-ghostwriters-jobs/).
 
 My first reaction was, hooray, fewer essay cheating services! But as I thought more, I realized that reducing the reliance on human ghostwriters, and instead using AI tools like ChatGPT or Bard, means cheating is easier (now that it’s free) and more rampant. 

@@ -1,5 +1,4 @@
 ---
-
 title: "Newsletter: Copilot for Docs, Wappalyzer, Illusions, Late projects, Forbidden Fruit"
 permalink: /blog/copilot-illusions-late-projects-forbidden
 date: 2023-05-11
@@ -11,6 +10,9 @@ keywords:
 rebrandly: https://idbwrtng.com/copilot-illusions-late-projects-forbidden
 description: "The following are tech comm links, articles, and thoughts for May 11, 2023."
 ---
+
+* TOC
+{:toc}
 
 ## GitHub Copilot for Docs
 

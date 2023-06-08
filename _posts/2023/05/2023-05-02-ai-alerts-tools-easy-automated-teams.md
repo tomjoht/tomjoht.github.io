@@ -11,6 +11,9 @@ rebrandly: https://idbwrtng.com/ai-alerts-tools-easy-automated-teams
 description: "Here are tech comm news and links for May 2, 2023."
 ---
 
+* TOC
+{:toc}
+
 ## Notes in docs indicating AI partially generated the content
 
 AI notes started appearing in some [Microsoft Azure docs](https://learn.microsoft.com/en-us/azure/analysis-services/analysis-services-create-terraform), like this: 

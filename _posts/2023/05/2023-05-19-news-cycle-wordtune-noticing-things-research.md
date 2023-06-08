@@ -11,6 +11,9 @@ rebrandly: https://idbwrtng.com/news-cycle-wordtune-noticing-things-research
 description: "Here are tech comm news and links for May 19, 2023."
 ---
 
+* TOC
+{:toc}
+
 ## News turns the content wheel of advertising
 
 For most of my blog’s history, my newsletter has contained links to my own blog’s articles. With this approach, I could only send out about one newsletter every two weeks, depending on how prolific I was on my blog. I usually included one substantial article per newsletter. Recently, I decided to rethink my newsletter approach. In part, I decided to emphasize the newsletter more after watching my site’s banner ads perform poorly. Advertising has never ... [Read more »](/blog/news-turns-content-wheel-of-advertising)

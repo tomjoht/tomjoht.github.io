@@ -100,7 +100,6 @@
 <div><img class="navbar-logo" style="width: 100%; vertical-align: text-bottom" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/bloglogo_bloglogo.svg"/></div>
 {% endif %}
 
-
                   </a>
             </div>
 
@@ -217,9 +216,6 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 
 {% if page.description %}<div class="summary">{{page.description}}</div> {% endif %}
 
-{% include toc.html %}
-
-
 {% if page.collection == "docs" %}
 <p>{% include markprompt.html %}</p>
 
@@ -266,6 +262,7 @@ Last updated: {{page.last-modified | date: "%b %d, %Y" }} <a class="noCrossRef" 
 <!-- Bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0"></script>
+<script src="{{ "/assets/js/toc.js" }}"></script>
 <script type="text/javascript" src="/assets/js/pas-nc-embedded-v1.js"></script>
 <script>
 $(function () {

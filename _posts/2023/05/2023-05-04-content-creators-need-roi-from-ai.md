@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/content-creators-need-roi-from-ai
 description: "I’ve been as hyped about AI as others, but there’s one issue I can’t quite wrap my mind around: how do content creators benefit? The return on investment (ROI) seems to be missing. In my mind, this could be the element that bursts the AI hype bubble and reduces this technology from “total disruptor” to “cool innovation.”"
 ---
 
+* TOC
+{:toc}
+
 ## My general argument
 
 Here’s my general argument in this post:

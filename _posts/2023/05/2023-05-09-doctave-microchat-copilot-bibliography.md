@@ -11,6 +11,9 @@ rebrandly: https://idbwrtng.com/doctave-microchat-copilot-bibliography
 description: "The following are tech comm links, articles, and thoughts for May 9, 2023."
 ---
 
+* TOC
+{:toc}
+
 ## Doctave, a new docs-as-code platform
 
 [Doctave](https://docs.doctave.com/) is a new docs-as-code authoring platform, priced at 75 €/month per managing user and 15 €/month per light user. Doctave includes a static site generator with a lot of documentation-oriented features built-in, such as support to publish OpenAPI documentation, content re-use, and so on. The Doctave platform also includes documentation linters, built-in analytics, a preview app, content hosting, and more. It’s intended for users who want to write in Markdown and follow a docs-as-code workflow using Git as version control. It even has some AI features built-in through GitHub Copilot. Best of all, it has good documentation on how to use it. Read their [launch announcement here](https://www.doctave.com/blog/2023/05/04/doctave-public-launch.html).

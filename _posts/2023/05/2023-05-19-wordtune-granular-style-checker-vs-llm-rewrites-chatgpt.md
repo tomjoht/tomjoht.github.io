@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/wordtune-granular-style-checker-vs-llm-rewrites-
 description: "While AI tools are helpful if you target an isolated sentence or paragraph, I prefer more granular line-by-line style checking tools instead because I want to know what content has changed."
 ---
 
+* TOC
+{:toc}
+
 Despite all the focus on AI tools automatically writing content for you, their outputs seem relevant only in low-level, easy writing scenarios. Try writing an intelligent, original essay on a topic and you’ll find AI tools much less relevant.
 
 I do, however, occasionally paste problematic sentences into ChatGPT or Bard and ask them to make the language more grammatical and readable. Sometimes they do an amazing job, but only when I’ve scoped the language problem in isolation, removed from the rest of the essay. Paste in the whole essay and the experience becomes problematic. It’s problematic because to see what’s changed, you have to read the output line by line, comparing each line with the original. 

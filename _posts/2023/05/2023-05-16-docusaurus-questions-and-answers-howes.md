@@ -9,6 +9,9 @@ rebrandly: https://idbwrtng.com/from-dita-to-docs-as-code-docusaurus-howes
 description: "In this Q&A focused on switching from DITA to docs-as-code tools, specifically Docusaurus, technical writer Mikes Howes shares the considerations, deliberations, and tradeoffs when choosing and implementing a new authoring tool."
 ---
 
+* TOC
+{:toc}
+
 **Tom: What doc platform were you using previously, and what were the pain points?**
 
 **Mike**: We had several issues with Antidot Fluid Topics, specifically around performance, lack of current features that you can get for free, such as email alerts (RSS) on changed content, dark mode, syntax highlighting, and so on. Eventually, performance increasingly worsened and we experienced outages (404 errors) at least once per week, which I wouldn’t expect from a paid service and we were paying quite a lot.

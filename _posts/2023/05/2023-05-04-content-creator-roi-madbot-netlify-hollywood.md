@@ -11,6 +11,9 @@ rebrandly: https://idbwrtng.com/content-creator-roi-madbot-netlify-hollywood
 description: "Here are the latest tech comm articles and links for May 4, 2023."
 ---
 
+* TOC
+{:toc}
+
 ## What’s missing from the AI workflow: incentives for content creators to provide training data
 
 I’ve been as hyped about AI as others, but there’s one issue I can’t quite wrap my mind around: how do content creators benefit? The two-way street seems to be missing. In my mind, this could be the element that bursts the AI hype bubble and reduces this technology from “total disruptor” to “cool innovation.”

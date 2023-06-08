@@ -10,6 +10,9 @@ rebrandly: https://idbwrtng.com/how-to-find-academic-research-tech-comm
 description: "Here are a few quick tips for finding academic research related to tech comm."
 ---
 
+* TOC
+{:toc}
+
 Last week I mentioned a bibliography project, and some readers were intrigued because they wanted to find research to validate their projects. Many practitioners want the same thing in the corporate sphere: to find research they can use to reinforce decisions they’re making.
 
 Here’s a quick way to find research. Start by asking ChatGPT for some relevant articles for your topic, then plug those results into [Google Scholar](https://scholar.google.com/) (cross your fingers that the sources actually exist). If you can find one good source on Google Scholar, try to access the content by legitimate means, but if not, the [Panda Paper extension](https://chrome.google.com/webstore/detail/paperpanda-%E2%80%94-get-millions/ggjlkinaanncojaippgbndimlhcdlohf) can sometimes get you the source. If you log into STC.org (whether member or not), then click the [Ingenta red star button](https://www.stc.org/techcomm/ingenta/), you might also be able to read _Technical Communication Journal_ articles from Ingenta as well.
